@@ -10,3 +10,4 @@ matchups:[
 {title:"HOSTILE TAKEOVER",winner:"Seven Deadly Chins",loser:"The LLC",score:"135.38 — 125.88",scene:"office"}],
 arc:{title:"THE TRADE JEDI",copy:"Week 1 produced the first receipt. Week 2 sent ObiWan into the swamp — a loss that becomes part of the character timeline, not a discarded recap."}
 };
+export const media={specialDelivery:{source:"Official Week 2 memo / page 7",storyBeatId:"w2-gotw-special-delivery",candidate:"w2-special-delivery-motion-a02",status:"COST_PREFLIGHT",estimatedCredits:35}};
