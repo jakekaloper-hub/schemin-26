@@ -1,0 +1,1 @@
+export default function ScoreRail({games}){return <section className="scores" aria-label="Week 2 finals">{games.map((g,i)=><article key={g.title}><small>FINAL · 0{i+1}</small><b>{g.winner}</b><span>{g.score}</span><em>{g.loser}</em></article>)}</section>}
