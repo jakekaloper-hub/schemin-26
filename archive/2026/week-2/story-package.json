@@ -184,12 +184,24 @@
       "source_assets": [
         "w2-special-delivery-source-p07"
       ],
-      "provider_adapter": "higgsfield/seedance_2_5",
+      "provider_adapter": "open-cinema/wan2.2-comfyui",
       "prompt_version": "v0.1-restrained-environmental-motion",
       "created_at": "2026-09-25",
-      "approval": "cost_preflight",
+      "approval": "open_source_pipeline_selected",
       "estimated_cost_credits": 35,
-      "notes": "5s 16:9 candidate. Preserve characters/composition; steam, crowd, paper, light, haze, slow push only. Scores/text composited separately."
+      "notes": "Default path moved from paid preflight to open Wan2.2 + ComfyUI. Official page 7 remains source anchor; factual typography composited separately."
+    },
+    {
+      "asset_id": "open-cinema-adapter-v1",
+      "story_beat_id": "w2-gotw-special-delivery",
+      "type": "generation_adapter",
+      "source_assets": [
+        "Wan-Video/Wan2.2",
+        "Comfy-Org/ComfyUI"
+      ],
+      "provider_adapter": "open-cinema/wan2.2-comfyui",
+      "created_at": "2026-09-25",
+      "approval": "selected_for_benchmark"
     }
   ],
   "original_edition": {
