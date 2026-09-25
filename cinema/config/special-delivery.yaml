@@ -1,0 +1,33 @@
+id: w2-special-delivery-motion-a02-local
+story_beat_id: w2-gotw-special-delivery
+engine: comfyui
+model_family: wan2.2
+mode: image_to_video
+source: official-week2-page-07
+duration_seconds: 5
+aspect_ratio: "16:9"
+intent:
+  camera: "slow controlled push; mild depth parallax"
+  environment:
+    - "food steam"
+    - "distant stadium crowd motion"
+    - "paper edge flutter"
+    - "practical light flicker"
+    - "atmospheric haze"
+preserve:
+  - "principal character identity"
+  - "faces"
+  - "clothing"
+  - "body proportions"
+  - "stadium composition"
+  - "Sonic delivery/receipt motif"
+reject:
+  - "face drift"
+  - "extra limbs"
+  - "new characters"
+  - "generated or mutated text"
+  - "object replacement"
+  - "composition-breaking motion"
+post:
+  verified_typography: true
+  score: "Red Leopards 191.90 — Chili Cheesers 100.90"
