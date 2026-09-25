@@ -1,241 +1,345 @@
 # CHAPTER I — THE LEAGUE WOKE UP DIFFERENT
-Status: DEVELOPMENT DRAFT
+Status: LONGFORM DEVELOPMENT DRAFT V2
 
-By Thursday afternoon, every man in the Compact could still explain why he was right.
+By Thursday afternoon every man in the Compact could still explain why he was right.
 
-That was the beauty of the first week.
+That was the generosity of the first week.
 
 Nothing had happened yet.
 
-In the mountain country, Jake Kaloper stood before a wall of maps while the last heat of summer pressed against the windows. The retriever slept beneath the table. On the shelf above her, the folded championship receipt waited where he had left it.
+The roads carried predictions instead of consequences. At Pittsy's Book, clerks wrote prices in chalk and erased them when somebody sufficiently loud objected. In the central metropolis, models were distributed before breakfast. At roadside inns, strangers declared championships won by men who had not yet survived a Sunday.
 
-Across the continent, Austin Byars wore the Belt.
+In the mountain country, Jake Kaloper tried not to read any of it.
 
-The rematch notice had made the roads noisier than usual. Book runners sold copies at crossroads. Tavern boards carried the pairing in chalk. Even LLC analysts, who considered public excitement an inefficient market signal, had included it in the morning packet.
+The rematch notice lay beneath a stone on his table.
 
-But the championship rematch was only one of six collisions.
+His golden retriever slept under the window where the late-summer heat came through the screen. Beyond her, wooded ridges rolled south in blue layers toward country Jake could not see.
 
-The season opened everywhere at once.
+Somewhere beyond those ridges, Austin Byars wore the Belt.
+
+Jake's championship receipt remained in the inner pocket of his field jacket.
+
+He had considered leaving it home.
+
+He had considered that for less than a minute.
+
+A scout entered carrying a packet from the Book.
+
+"You want the line?"
+
+"No."
+
+"You want what people are saying?"
+
+"No."
+
+The scout put the packet down anyway.
+
+Jake looked at him.
+
+"Anything useful?"
+
+"Probably not."
+
+"Then we're improving."
+
+The scout laughed and left.
+
+Jake opened the packet after the door closed.
+
+Across the continent, Byars received his own copy beneath the black stone of the fortress.
+
+The Belt Keeper read it while an attendant fastened the clasps of his cloak. He had been champion long enough to discover that everyone approached the title as though it were a question addressed personally to them. Some wanted to test it. Some wanted to diminish it. Some wanted merely to stand near it.
+
+The Belt itself asked nothing.
+
+It had already been won.
+
+Week One could not take it from him.
+
+But Week One could remember.
+
+The Compact began at dusk.
 
 On the western road, Brandon Pryor tasted the chili.
 
-He considered it.
+He frowned.
 
 Added something from an unlabeled tin.
 
 Tasted it again.
 
-Behind him, Dark Horse stamped once in the stable.
+Behind him, Dark Horse stamped inside the stable.
 
-"That's enough," said the stable hand.
+"That's enough," a stable hand said.
 
-Pryor turned slowly.
+Pryor turned.
 
-The stable hand reconsidered his role in the conversation.
+The stable hand studied the ceiling as if the sentence had come from there.
 
-At the central metropolis, David Babb's analysts had modeled nearly every plausible opening.
+The Chili Outlaw smiled.
+
+By midnight, nobody in the central metropolis was smiling.
+
+David Babb's analysts had modeled nearly every plausible opening.
 
 Nearly.
 
-The first warning was heat.
+The first warning was heat in the ventilation shafts.
 
-It reached the boardroom through the ventilation shafts.
+The second was smoke.
 
-Then came smoke.
+The third was the market board changing faster than anyone could explain it.
 
-Then the market screens began changing faster than the analysts could explain them.
+Chili did not attack the LLC like an army. He arrived like a cookout granted siege equipment.
 
-The Chili Outlaw did not enter the city like an invading army. He entered like a man who had been invited to a cookout and misunderstood the scale of the invitation.
+The board climbed.
 
-By the time the first accounting closed, the number beside Chili Cheesers read 198.00.
+The analysts revised.
 
-The LLC: 122.01.
+The board climbed again.
 
-For several seconds nobody in the boardroom spoke.
+When the accounting finally closed, 198.00 stood beneath Chili Cheesers.
 
-One analyst quietly turned over a page showing three unused reserves.
+122.01 beneath The LLC.
 
-78.38 points sat there like an accusation.
+A margin of 75.99.
 
-Babb removed his cigar.
+Silence filled the boardroom.
 
-"Put that in the audit."
+One analyst turned over a sheet showing unused reserves: Likely, Love, Moore.
 
-Nobody asked which part.
+78.38.
 
-In the jungle belt, rain fell upward.
+Babb removed the cigar from his mouth.
 
-That was how the Book runners described it later.
+"Put it in the audit."
 
-TDS had entered the week carrying the sort of expectation that makes men dangerous: very little.
+"Which part?"
 
-Across from him, El Niño gathered over the coast and came inland as pressure, water and electric blue light. Floodwater spilled through the stadium approaches. Lightning stitched the clouds together.
+Babb looked at him.
 
-The Podium Shadow stood in it.
+The analyst lowered his eyes.
+
+"All of it."
+
+The league's first great claim had been made.
+
+It lasted less than a day before another arrived from the jungle.
+
+TDS entered the week carrying the useful insult of low expectation.
+
+El Niño came inland as weather.
+
+Pressure fell. Rivers swelled. Floodwater moved through stadium approaches. Lightning joined cloud to cloud while the Weather System rose from ocean spray and stormwater, blue eyes burning through the rain.
+
+Against him stood the Podium Shadow.
 
 Green-gold scales.
 
+Long dreadlocks.
+
 Dark number three.
 
-Dreadlocks heavy with rain.
+Pitts had spent enough years around the Book to understand that expectation was not a shield. It was not a weapon either. It was merely the story people told before evidence arrived.
 
-The storm should have swallowed him.
+Evidence arrived violently.
 
-Instead, the serpent kept scoring.
+Caleb Williams.
 
-Caleb Williams. Jalen Coker. Chris Olave. Javonte Williams.
+Jalen Coker.
 
-Names became blows, then numbers, then disbelief.
+Chris Olave.
 
-When the water finally receded enough for the clerks to reach the board, the receipt read:
+Javonte Williams.
 
-TDS 175.56.
+Names became force, then numbers, then disbelief.
 
-El Niño 144.42.
+The storm should have swallowed the serpent.
 
-Fifty-two point eight seven above expectation.
+Instead the final board read 175.56 to 144.42.
 
-Pitts took the wet slip from a runner, looked at it once and pinned it behind the Book counter.
+TDS.
 
-No speech.
+Thirty-one point one four clear.
 
-The clerks supplied enough of those.
+Fifty-two point eight seven above projection.
 
-At the truck-stop frontier, the tragedy was smaller.
+When a soaked runner brought the receipt to the Book, a clerk whistled.
 
-Which made it worse.
+Pitts read it once.
 
-Ben Whipple had two buttons.
+"Put it up."
 
-This was already too many buttons for a man who preferred hammers.
+"Front board?"
 
-One controlled the force he had chosen to deploy.
+"Behind the counter."
 
-The other represented a decision he had not made.
+The clerk pinned it high.
+
+"Want a headline?"
+
+"No."
+
+"Nothing?"
+
+Pitts looked around at the room already filling with men eager to explain what had happened.
+
+"They'll write it for us."
+
+At the truck-stop frontier, Ben Whipple had a different problem.
+
+He had two buttons.
+
+This was already too many buttons for a man who trusted hammers.
+
+The control room had been assembled beside the grill because nobody had stopped him. One switch governed the force he had chosen to deploy. The other represented a decision he had not made.
 
 The raccoon sat on the console.
 
 "Don't," Chins told it.
 
-The raccoon did not.
-
-Neither button moved.
+The raccoon stared at him.
 
 Far away, Dr. Duckhook stood over another impossible lie.
 
-The match tightened.
+The match tightened until every choice became visible.
 
-Numbers narrowed.
-
-A cigar burned down between Duckhook's bill while water reflected the scoreboard in broken pieces.
+Duckhook's cigar burned down. Water reflected the changing board in broken pieces. At the truck stop, men stopped eating and watched.
 
 147.32.
 
 145.82.
 
-One point five zero.
+Duckhook.
 
-The club erupted.
+One point five.
 
-At the truck stop, Chins stared at the board.
+For half a minute Chins said nothing.
+
+Then the unused control lit.
 
 Kyler Murray: -0.18.
 
-On the unused control beside him:
+Patrick Mahomes, left behind: 26.36.
 
-Patrick Mahomes: 26.36.
+The difference between the decision and the defeat was large enough to become folklore before anyone had finished dinner.
 
-The decision swing was larger than the defeat by a distance so obscene that even the raccoon looked away.
+The raccoon moved one paw toward the button.
 
 Chins lifted the hammer.
 
-Everyone in the room ducked.
+Everyone ducked.
 
-He set it down gently.
+He looked at the hammer.
 
-That frightened them more.
+Looked at the console.
 
-In the high country, Wilson Look carried an axe.
+Then set the hammer down with extraordinary care.
 
-The name on the challenge board said D0nkey K0ng.
+Nobody relaxed.
 
-The creature beneath it remained what he had always been.
+High in the mountains, Wilson Look carried an axe.
 
-Four hooves.
+The challenge board used the name D0nkey K0ng.
 
-A massive equine frame.
+The figure beneath it remained what he had always been: four hooves planted in stone, enormous equine body beneath Arsenal-red war gear, ornate battle axe held with the familiarity of an old argument.
 
-Arsenal red across the shoulders.
+Slob on my Dobb arrived from the moving frontier with a convoy.
 
-An ornate battle axe balanced in both hands.
+His pit bull barked at the Centaur.
 
-Across the temporary stronghold, Slob on my Dobb arrived with the energy of a riot that had learned to wear shoulder pads. His pit bull barked at the Centaur. Slob raised his metal bat. Somebody opened another beer.
+Slob raised his metal bat.
 
-The contest was ugly enough to satisfy both sides.
+Someone opened a beer.
 
-When it ended, the Centaur remained standing.
+The contest became exactly as civilized as those ingredients suggested.
 
-142.70.
+Slob had force.
 
-134.96.
+The Centaur had structure.
+
+Neither had much interest in explaining the distinction.
+
+When the board closed, Wilson stood on 142.70.
+
+Slob: 134.96.
 
 Seven point seven four.
 
-Slob had produced force.
+On the road home, the Centaur found a branch blown across the path.
 
-The Centaur had produced the result.
+He could have stepped over it.
 
-Wilson walked back toward the mountain road carrying the axe over one shoulder.
+He split it instead.
 
-He found a fallen branch on the way home.
+The sound traveled down the ridge.
 
-He split it.
+Night reached the old fortress before Jake did.
 
-Not because it needed splitting.
+He climbed the final steps beneath black walls and entered a championship hall that looked almost exactly as it had in winter.
 
-Because the answer was clean.
+That was the first thing he disliked about it.
 
-Night had reached the old fortress by the time Jake arrived.
-
-The Belt Keeper waited above him.
-
-The championship hall looked almost exactly as it had in winter. That irritated the Trade Jedi more than he expected.
-
-Same black stone.
+Same stone.
 
 Same narrow windows.
 
+Same high dais.
+
 Same Belt.
 
-Different board.
+The second thing he disliked was how little Byars seemed to need to say.
 
-Byars descended from the dais with the rune sword in one hand.
+The Belt Keeper descended wearing black rune armor and the title around his waist.
 
-Jake ignited the green blade.
+"You kept the paper," Byars said.
 
-For a while, strategy mattered exactly as much as violence.
+Jake stopped.
 
-Then Derrick Henry arrived like a collapsing gate.
+He had not shown him the receipt.
 
-Kenneth Walker followed like the second one.
+"Which one?"
 
-39.40.
+Byars' pale eyes moved toward the inside pocket of Jake's jacket.
+
+"The one you keep touching."
+
+Jake lowered his hand.
+
+"You kept the Belt."
+
+A trace of amusement crossed Byars' face.
+
+"That one was easier."
+
+The green blade ignited.
+
+The rune sword came free.
+
+For a while strategy mattered exactly as much as violence.
+
+Then Derrick Henry arrived like a gate collapsing inward.
 
 38.70.
 
+Kenneth Walker followed.
+
+39.40.
+
 Seventy-eight point one between them.
+
+Stone cracked.
 
 The fortress shook.
 
-But not everything worked.
+But nothing in the Compact arrived clean.
 
-Matthew Stafford gave Jake 4.30.
+Stafford gave Jake 4.30.
 
-Jaylen Waddle gave him 1.20.
+Waddle 1.20.
 
-The Belt Keeper did not surrender.
-
-Champions rarely did simply because the evening had become inconvenient.
+The Belt Keeper remained standing. Champions did not surrender merely because an evening became inconvenient.
 
 The last figures settled after midnight.
 
@@ -243,51 +347,73 @@ ObiWan Jacoby 141.70.
 
 The Immortal 131.26.
 
-Jake had beaten the champion.
+Jake looked at the board.
 
-The Belt remained around Byars' waist.
+Byars looked at him.
 
-That was the law.
+Neither looked at the Belt.
 
-For a moment the two men stood in the wreckage of the hall with the distinction between those facts hanging between them.
+A Compact clerk entered carrying a narrow strip of paper.
 
-A Compact clerk approached.
+He offered it to Jake.
 
-He held out a strip of paper.
+141.70 — 131.26.
 
-Jake took it.
+Jake turned the receipt over.
 
-Byars looked at the receipt.
+Blank.
 
-Then at him.
+"You want that framed?" Byars asked.
 
-Jake folded it once and placed it inside his jacket beside the older one.
+"No."
 
-He had not come for a weekly imitation of the championship.
+"Burned?"
 
-He had come for evidence.
+"No."
 
-The Belt Keeper turned away first.
+"Then what?"
 
-In the swamp, nobody had heard.
+Jake folded it once.
 
-The roads were too bad.
+"A record."
 
-Red Leopards hunted by scent beneath ruined jungle stone while the Mud Dogs dragged chains through black water. Amber eyes followed movement through reeds. A red claw struck mud.
+Byars glanced toward the Belt.
 
-The thing beneath the water struck back.
+"You beat me tonight."
 
-It was not a beautiful contest.
+"I know."
 
-It was a disappearance.
+"You didn't win that."
 
-A chase.
+"I know."
 
-A chain snapping taut.
+The answer pleased neither of them, which was probably why it was true.
 
-A predator finding that the ground beneath its paws was not ground at all.
+Jake placed the new receipt inside his jacket beside the old one.
 
-When the board finally posted the result, the difference was four and a half.
+115.56–161.07.
+
+141.70–131.26.
+
+One did not erase the other.
+
+That, Jake thought, was the trouble with evidence.
+
+It accumulated.
+
+The last contest finished in the swamp.
+
+Red Leopards hunted by scent beneath ruined jungle stone. Amber eyes tracked movement through reeds. The Mud Dogs dragged chains through black water and refused every invitation to make the contest orderly.
+
+The Red Leopard struck first.
+
+A claw cut through mud.
+
+Something beneath the surface answered.
+
+The chase moved off the road and into country where a predator accustomed to choosing the ground discovered that the ground itself had opinions.
+
+The final margin was four and a half.
 
 Mud Dogs 125.36.
 
@@ -295,77 +421,79 @@ Red Leopards 120.86.
 
 The swamp had survived.
 
-A marker appeared beside the flooded road before dawn.
+Before dawn, a marker appeared beside the flooded road.
 
 Nobody admitted placing it.
 
-By morning the six receipts had reached Pittsy's Book.
+By morning all six receipts had reached Pittsy's Book.
 
-Clerks pinned them in a row.
+The clerks pinned them in a row.
 
-198.00–122.01.
+Chili 198.00 — LLC 122.01.
 
-175.56–144.42.
+TDS 175.56 — El Niño 144.42.
 
-147.32–145.82.
+Duckhook 147.32 — Chins 145.82.
 
-142.70–134.96.
+D0nkey K0ng 142.70 — Slob 134.96.
 
-141.70–131.26.
+ObiWan 141.70 — Immortal 131.26.
 
-125.36–120.86.
+Mud Dogs 125.36 — Red Leopards 120.86.
 
-The house had gone 6–3.
+1,729.97 points across the league.
 
-Plus sixty-three.
+Three contests decided by fewer than ten.
 
-Travelers crowded the counter.
+The house: 6–3, plus sixty-three.
 
-Everyone wanted to know what Week One meant.
+By noon the Book was crowded.
 
-Pitts listened to them argue.
+"Chili's unstoppable."
 
-Chili was unstoppable.
+"TDS broke the model."
 
-TDS had broken the model.
+"Duckhook's blessed."
 
-Duckhook was blessed.
+"Chins ought to be arrested for what he did with Mahomes."
 
-Chins was an idiot.
+"The Centaur's real."
 
-The Centaur was real.
+"Jake's back."
 
-Jake was back.
+"Mud Dogs got lucky."
 
-Mud Dogs were lucky.
+"Red missed the kill."
 
-Red had missed its kill.
+"LLC's finished."
 
-The LLC was already in trouble.
+"El Niño will drown somebody next."
 
-El Niño would drown somebody next week.
+Pitts listened from behind the counter.
 
-All of these statements had one thing in common.
+A clerk leaned toward him.
 
-They were conclusions.
+"What do you think?"
+
+"About which bad conclusion?"
+
+"All of them."
 
 Pitts closed the ledger.
 
-"One week," he said.
+"One week."
 
-A clerk leaned closer.
+The clerk waited.
 
-"What?"
+"That's it?"
 
-"One."
+"That's all they've bought."
 
-Outside, six new notices were being nailed to the board.
+Outside, a hammer struck wood.
+
+Six new notices were being nailed to the public board.
 
 Division week.
-
-The crowd moved toward them.
-
-Across the continent, the same notices appeared at gates, clubs, camps, towers and crossroads.
 
 ObiWan Jacoby against Mud Dogs.
 
@@ -379,10 +507,10 @@ The Belt Keeper against El Niño.
 
 The LLC against Seven Deadly Chins.
 
-In the mountains, Jake placed his new receipt beside the old one.
+The crowd surged outside.
 
-Then he looked south toward the swamp.
+In the mountains, Jake laid the new receipt beside the old one and studied the road south toward the swamp.
 
 At the western stable, Chili Outlaw began packing something into a box.
 
-And somewhere beyond the jungle road, a red leopard opened its eyes.
+And beyond the jungle road, a red leopard opened its eyes.
