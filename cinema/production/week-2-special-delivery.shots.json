@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "project": {
+    "id": "schemin-26",
+    "title": "Pro Schemin Digital Universe"
+  },
+  "defaults": {
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "resolution": {
+      "width": 1280,
+      "height": 720
+    },
+    "provider": "comfyui_wan22"
+  },
+  "scenes": [
+    {
+      "id": "w2_special_delivery",
+      "title": "Special Delivery",
+      "truth": {
+        "winner": "Red Leopards",
+        "winner_score": 191.9,
+        "loser": "Chili Cheesers",
+        "loser_score": 100.9
+      },
+      "source_image": "week2-special-delivery-source.png",
+      "shots": [
+        {
+          "id": "A01",
+          "title": "Cold Open",
+          "seconds": 3,
+          "prompt": "Macro cinematic detail from the supplied canonical artwork: delivery receipt, food props and chili atmosphere. Preserve all existing visual identity. Tiny steam and practical light movement only.",
+          "seed": 260201
+        },
+        {
+          "id": "A02",
+          "title": "Establish",
+          "seconds": 5,
+          "prompt": "Animate the supplied canonical artwork with a slow controlled camera push and mild depth parallax. Preserve exact Red Leopard and Chili Outlaw identity, clothing, anatomy and composition. Stadium crowd ambience and haze only.",
+          "seed": 260202
+        },
+        {
+          "id": "A03",
+          "title": "The Receipt",
+          "seconds": 4,
+          "prompt": "Shift visual emphasis toward the existing delivery receipt and food motif. Subtle paper flutter and steam. Do not add, replace or rewrite objects or text.",
+          "seed": 260203
+        },
+        {
+          "id": "A04",
+          "title": "Consequence",
+          "seconds": 5,
+          "prompt": "Return emphasis to Red Leopard dominance and Chili Outlaw defeat exactly as depicted. Controlled stadium parallax, practical light flicker and atmospheric haze. No character redesign.",
+          "seed": 260204
+        },
+        {
+          "id": "A05",
+          "title": "Exit",
+          "seconds": 3,
+          "prompt": "Slow cinematic settle and slight pull away from the canonical composition for an editorial transition. Preserve both principal characters and all important props.",
+          "seed": 260205
+        }
+      ]
+    }
+  ]
+}
