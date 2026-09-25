@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Schemin Data Freshness",
+  "type": "object",
+  "required": [
+    "stale",
+    "fetched_at",
+    "snapshot_age_seconds",
+    "failure_reason"
+  ],
+  "properties": {
+    "stale": {
+      "type": "boolean"
+    },
+    "fetched_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "snapshot_age_seconds": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "failure_reason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}
