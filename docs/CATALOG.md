@@ -1,0 +1,43 @@
+# Schemin '26 Documentation Catalog
+
+**Authority:** The Librarian (CKO), adapted from the FLA Bullpen knowledge model  
+**Version:** 1.0  
+**Created:** 2026-09-25  
+**Review cadence:** Monthly during season; at every major architecture change; postseason closeout
+
+## Directive
+
+This catalog is the card catalog for Schemin '26.
+
+A durable project cannot depend on remembering which chat, PDF, or Markdown file contains the controlling rule. Every durable knowledge area must be represented here, routed through `docs/SESSION_CONTEXT.md`, and registered in `docs/INVENTORY.md`.
+
+The repository should remain deliberately smaller than FLA. We adopt the Librarian's **discipline**, not FLA's full organizational weight.
+
+## Knowledge areas
+
+| Area | Primary index / entry point | Authority |
+|---|---|---|
+| Project control | `PROJECT_CONTROL_REGISTRY.md` | SCK / Executive Control |
+| Session routing | `docs/SESSION_CONTEXT.md` | Librarian |
+| Source hierarchy | `docs/governance/SOURCE_OF_TRUTH.md` | Governance / Data |
+| Authority boundaries | `docs/governance/AUTHORITY_MATRIX.md` | Executive Control |
+| Weekly Memo OS | `memo-os/_INDEX.md` | Weekly Memo OS |
+| Jack Mercer | `mercer/_INDEX.md` | Mercer |
+| ESPN / league truth | `data-gateway/_INDEX.md` | Data Gateway |
+| Character canon | `canon/_INDEX.md` | Character Canon |
+| Bullpen / specialist review | `bullpen/_INDEX.md` | Bullpen / Librarian |
+| Prompt registry | `prompts/README.md` | Owning subsystem |
+| Schemas | `schemas/` | Data / owning subsystem |
+| Tests / acceptance | `tests/README.md` | QA / owning subsystem |
+| Decisions | `docs/decisions/` | Librarian records; relevant authority decides |
+| Roadmap | `planning/ROADMAP.md` | Executive Control |
+| Archive | `archive/_INDEX.md` | Librarian |
+
+## Catalog rules
+
+1. A new durable subsystem gets an index, owner, source-of-truth declaration, and review cadence.
+2. A superseded document is archived or clearly marked; it is not silently deleted.
+3. Exact migrated source artifacts are preserved separately from synthesized control documents.
+4. Current state and historical evidence are never mixed without labels.
+5. Chat history may supply context, but durable decisions must be written into Git.
+6. Every major operating change updates the relevant index, inventory, and decision record in the same work cycle.
