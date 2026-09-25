@@ -6,6 +6,10 @@
 
 This file is the shortest authoritative entry point for substantial Schemin '26 work.
 
+## Canonical publication lock
+
+**Official Week 2 Memo (league-shared September 23, 2026): `Week 2 memo.pdf`.** It is the 14-page illustrated issue beginning with Red Leopards “SPECIAL DELIVERY.” This is the canonical Week 2 published artifact and gold-standard benchmark. No similarly named Week 2 “final,” test, replay, rerun, or RC candidate may replace it without explicit Commissioner supersession.
+
 ## Five-plane architecture
 
 ```text
