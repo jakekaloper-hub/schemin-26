@@ -8,38 +8,197 @@
     "stale": null,
     "snapshot_age_seconds": null,
     "sources": [
-      {"type":"official_published_memo","label":"Week 2 memo.pdf","status":"benchmark"},
-      {"type":"espn_data_gateway","status":"REQUIRED_FOR_MACHINE_VERIFIED_FIELDS"}
+      {
+        "type": "official_published_memo",
+        "label": "Week 2 memo.pdf",
+        "status": "benchmark"
+      },
+      {
+        "type": "espn_data_gateway",
+        "status": "REQUIRED_FOR_MACHINE_VERIFIED_FIELDS"
+      }
     ]
   },
-  "cover": {"headline":"SPECIAL DELIVERY","matchup":"Red Leopards vs Chili Cheesers","result":"Red Leopards 191.90 — Chili Cheesers 100.90","motif":"Chili sent dinner. Red sent it back."},
-  "cold_open": {"title":"OPENING DRIVE","theme":"Week 2 didn't just continue the story. It changed it."},
-  "game_of_week": {"title":"SPECIAL DELIVERY","winner":"Red Leopards","loser":"Chili Cheesers","winner_score":191.90,"loser_score":100.90},
+  "cover": {
+    "headline": "SPECIAL DELIVERY",
+    "matchup": "Red Leopards vs Chili Cheesers",
+    "result": "Red Leopards 191.90 — Chili Cheesers 100.90",
+    "motif": "Chili sent dinner. Red sent it back."
+  },
+  "cold_open": {
+    "title": "OPENING DRIVE",
+    "theme": "Week 2 didn't just continue the story. It changed it."
+  },
+  "game_of_week": {
+    "title": "SPECIAL DELIVERY",
+    "winner": "Red Leopards",
+    "loser": "Chili Cheesers",
+    "winner_score": 191.9,
+    "loser_score": 100.9
+  },
   "matchups": [
-    {"title":"TAKEN FOR A RIDE","winner":"Mud Dogs","winner_score":130.84,"loser":"ObiWan Jacoby","loser_score":122.91,"environment":"swamp / motorcycle"},
-    {"title":"OFF THE TOP","winner":"Donkey Kong","winner_score":165.78,"loser":"Three Dreaded Snake","loser_score":95.87,"environment":"Arsenal barber shop"},
-    {"title":"MEMBERS ONLY","winner":"Slob on my Dobb","winner_score":194.92,"loser":"Dr. Duckhook","loser_score":122.97,"environment":"Country Club of Jackson"},
-    {"title":"NO WIN FOR YOU","winner":"El Niño","winner_score":131.06,"loser":"That's Fantasy","loser_score":113.52,"environment":"Storm Bowl concession"},
-    {"title":"HOSTILE TAKEOVER","winner":"Seven Deadly Chins","winner_score":135.38,"loser":"The LLC","loser_score":125.88,"environment":"LLC executive office"},
-    {"title":"SPECIAL DELIVERY","winner":"Red Leopards","winner_score":191.90,"loser":"Chili Cheesers","loser_score":100.90,"environment":"stadium / returned Sonic delivery"}
+    {
+      "title": "TAKEN FOR A RIDE",
+      "winner": "Mud Dogs",
+      "winner_score": 130.84,
+      "loser": "ObiWan Jacoby",
+      "loser_score": 122.91,
+      "environment": "swamp / motorcycle"
+    },
+    {
+      "title": "OFF THE TOP",
+      "winner": "Donkey Kong",
+      "winner_score": 165.78,
+      "loser": "Three Dreaded Snake",
+      "loser_score": 95.87,
+      "environment": "Arsenal barber shop"
+    },
+    {
+      "title": "MEMBERS ONLY",
+      "winner": "Slob on my Dobb",
+      "winner_score": 194.92,
+      "loser": "Dr. Duckhook",
+      "loser_score": 122.97,
+      "environment": "Country Club of Jackson"
+    },
+    {
+      "title": "NO WIN FOR YOU",
+      "winner": "El Niño",
+      "winner_score": 131.06,
+      "loser": "That's Fantasy",
+      "loser_score": 113.52,
+      "environment": "Storm Bowl concession"
+    },
+    {
+      "title": "HOSTILE TAKEOVER",
+      "winner": "Seven Deadly Chins",
+      "winner_score": 135.38,
+      "loser": "The LLC",
+      "loser_score": 125.88,
+      "environment": "LLC executive office"
+    },
+    {
+      "title": "SPECIAL DELIVERY",
+      "winner": "Red Leopards",
+      "winner_score": 191.9,
+      "loser": "Chili Cheesers",
+      "loser_score": 100.9,
+      "environment": "stadium / returned Sonic delivery"
+    }
   ],
   "standings": [],
   "power_rankings": [],
   "waivers": [],
-  "pittys_book": {"week_2_house_result":-132.66,"overall_house_result":-69.66},
-  "state_of_play": {"theme":"The league didn't settle. It separated."},
+  "pittys_book": {
+    "week_2_house_result": -132.66,
+    "overall_house_result": -69.66
+  },
+  "state_of_play": {
+    "theme": "The league didn't settle. It separated."
+  },
   "upcoming": [],
   "character_updates": [
-    {"character":"The Trade Jedi","week":2,"event":"Lost to Mud Dogs in the swamp matchup","canon_note":"No championship belt."},
-    {"character":"The Chili Outlaw","week":2,"event":"Lost GOTW to Red Leopards after the Sonic delivery storyline."},
-    {"character":"Arsenal Centaur","week":2,"event":"Donkey Kong defeated Three Dreaded Snake in the barber-shop storyline."}
+    {
+      "character": "The Trade Jedi",
+      "week": 2,
+      "event": "Lost to Mud Dogs in the swamp matchup",
+      "canon_note": "No championship belt."
+    },
+    {
+      "character": "The Chili Outlaw",
+      "week": 2,
+      "event": "Lost GOTW to Red Leopards after the Sonic delivery storyline."
+    },
+    {
+      "character": "Arsenal Centaur",
+      "week": 2,
+      "event": "Donkey Kong defeated Three Dreaded Snake in the barber-shop storyline."
+    }
   ],
   "rivalry_updates": [],
   "story_beats": [
-    {"id":"w2-gotw-special-delivery","classification":"EDITORIAL","factual_basis":["Red Leopards 191.90","Chili Cheesers 100.90","official Week 2 GOTW page"],"editorial_copy":"The returned-delivery story becomes Week 2's cinematic cold open.","characters":["Red Leopards","The Chili Outlaw"],"visual_direction":"Preserve the stadium feast / returned Sonic delivery composition.","motion_direction":"Steam, stadium atmosphere, paper flutter, shallow camera push, character micro-motion.","narration":"Week 2 changed the story.","sound_direction":"Stadium bed, paper/food detail, low cinematic impact.","continuity_refs":["Week 1 Chili standard","Week 2 cover"],"approval_status":"source_locked"},
-    {"id":"w2-muddogs-obiwan","classification":"EDITORIAL","factual_basis":["Mud Dogs 130.84","ObiWan Jacoby 122.91","official Week 2 matchup page"],"editorial_copy":"The swamp becomes the visual metaphor for ObiWan's Week 2 loss.","characters":["Mud Dogs","The Trade Jedi"],"visual_direction":"Preserve swamp, motorcycle and golden retriever continuity.","motion_direction":"Water spray, wheel movement, fog, vegetation, controlled saber glow; do not redesign characters.","narration":"In this swamp, style points sink.","sound_direction":"Engine, swamp ambience, water impacts; narrator above mix.","continuity_refs":["Week 1 ObiWan receipt","Trade Jedi canon"],"approval_status":"source_locked"}
+    {
+      "id": "w2-gotw-special-delivery",
+      "classification": "EDITORIAL",
+      "factual_basis": [
+        "Red Leopards 191.90",
+        "Chili Cheesers 100.90",
+        "official Week 2 GOTW page"
+      ],
+      "editorial_copy": "The returned-delivery story becomes Week 2's cinematic cold open.",
+      "characters": [
+        "Red Leopards",
+        "The Chili Outlaw"
+      ],
+      "visual_direction": "Preserve the stadium feast / returned Sonic delivery composition.",
+      "motion_direction": "Steam, stadium atmosphere, paper flutter, shallow camera push, character micro-motion.",
+      "narration": "Week 2 changed the story.",
+      "sound_direction": "Stadium bed, paper/food detail, low cinematic impact.",
+      "continuity_refs": [
+        "Week 1 Chili standard",
+        "Week 2 cover"
+      ],
+      "approval_status": "source_locked"
+    },
+    {
+      "id": "w2-muddogs-obiwan",
+      "classification": "EDITORIAL",
+      "factual_basis": [
+        "Mud Dogs 130.84",
+        "ObiWan Jacoby 122.91",
+        "official Week 2 matchup page"
+      ],
+      "editorial_copy": "The swamp becomes the visual metaphor for ObiWan's Week 2 loss.",
+      "characters": [
+        "Mud Dogs",
+        "The Trade Jedi"
+      ],
+      "visual_direction": "Preserve swamp, motorcycle and golden retriever continuity.",
+      "motion_direction": "Water spray, wheel movement, fog, vegetation, controlled saber glow; do not redesign characters.",
+      "narration": "In this swamp, style points sink.",
+      "sound_direction": "Engine, swamp ambience, water impacts; narrator above mix.",
+      "continuity_refs": [
+        "Week 1 ObiWan receipt",
+        "Trade Jedi canon"
+      ],
+      "approval_status": "source_locked"
+    }
   ],
-  "media_manifest": [],
-  "original_edition": {"immutable":true,"label":"Official Week 2 Memo — Final Edition","asset_ref":"USER_SUPPLIED_OFFICIAL_PDF"},
-  "approvals": {"historical_pdf_mutation":false,"public_release":"JAKE_REQUIRED"}
+  "media_manifest": [
+    {
+      "asset_id": "w2-special-delivery-source-p07",
+      "story_beat_id": "w2-gotw-special-delivery",
+      "type": "source_art",
+      "source_assets": [
+        "Official Week 2 memo.pdf / page 7"
+      ],
+      "provider_adapter": "official-pdf-render",
+      "created_at": "2026-09-25",
+      "approval": "source_locked",
+      "notes": "Rendered from official published memo; principal visual anchor."
+    },
+    {
+      "asset_id": "w2-special-delivery-motion-a02",
+      "story_beat_id": "w2-gotw-special-delivery",
+      "type": "video_candidate",
+      "source_assets": [
+        "w2-special-delivery-source-p07"
+      ],
+      "provider_adapter": "higgsfield/seedance_2_5",
+      "prompt_version": "v0.1-restrained-environmental-motion",
+      "created_at": "2026-09-25",
+      "approval": "cost_preflight",
+      "estimated_cost_credits": 35,
+      "notes": "5s 16:9 candidate. Preserve characters/composition; steam, crowd, paper, light, haze, slow push only. Scores/text composited separately."
+    }
+  ],
+  "original_edition": {
+    "immutable": true,
+    "label": "Official Week 2 Memo — Final Edition",
+    "asset_ref": "USER_SUPPLIED_OFFICIAL_PDF"
+  },
+  "approvals": {
+    "historical_pdf_mutation": false,
+    "public_release": "JAKE_REQUIRED"
+  }
 }
