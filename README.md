@@ -11,6 +11,16 @@ This repository is the durable source of truth for:
 - Production prompts and schemas
 - QA, tests, and decision records
 
+## Start here
+
+For substantial project work, begin with:
+
+1. `PROJECT_CONTROL_REGISTRY.md`
+2. `docs/governance/SOURCE_OF_TRUTH.md`
+3. the controlling document for the subsystem being changed
+
+The full artifact migration and known recovery items are recorded in `MIGRATION_LEDGER.md`.
+
 ## Repository relationship
 
 `schemin-26` is intentionally separate from `fantasy-league-artworks`.
@@ -29,6 +39,17 @@ FLA may be referenced as an upstream capability source. Schemin '26 should not s
 - Regular season: 14 weeks
 - Playoff teams: 7
 
+## Core systems
+
+- `memo-os/` — V5 / V5.2-RC Weekly Memo production doctrine and gold-standard runbooks
+- `data-gateway/` — ESPN acquisition, validation, fallback, snapshot, and freshness policy
+- `canon/` — binding team/owner/character continuity
+- `mercer/` — Jack Mercer Front Office and GM operating contract
+- `bullpen/` — Schemin/FLA Bullpen reviews, orchestration, and governance evidence
+- `docs/governance/` — source hierarchy and authority boundaries
+- `schemas/` — machine-readable data contracts
+- `tests/` — regression targets and future executable acceptance tests
+
 ## Operating rule
 
 When ChatGPT, Jack Mercer, the Weekly Memo OS, or Bullpen performs work for Schemin '26:
@@ -38,3 +59,5 @@ When ChatGPT, Jack Mercer, the Weekly Memo OS, or Bullpen performs work for Sche
 3. Preserve character/team canon.
 4. Record material operating changes in version control.
 5. Do not overwrite a gold-standard artifact without an explicit revision path.
+6. Never present stale data as live.
+7. Do not treat file existence as release certification.
