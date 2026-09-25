@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemin26.local/schemas/weekly-story-package.schema.json",
+  "title": "Schemin Weekly Story Package",
+  "type": "object",
+  "required": ["season","week","edition_status","truth","matchups","story_beats","media_manifest","original_edition"],
+  "properties": {
+    "season":{"type":"integer"},
+    "week":{"type":"integer","minimum":1},
+    "edition_status":{"enum":["draft","fact_checked","canon_checked","media_approved","release_candidate","published"]},
+    "published_at":{"type":["string","null"]},
+    "truth":{"type":"object","required":["sources"],"properties":{"fetched_at":{"type":["string","null"]},"stale":{"type":["boolean","null"]},"snapshot_age_seconds":{"type":["number","null"]},"sources":{"type":"array"}}},
+    "cover":{"type":"object"},
+    "cold_open":{"type":"object"},
+    "game_of_week":{"type":"object"},
+    "matchups":{"type":"array","minItems":6,"maxItems":6},
+    "standings":{"type":"array"},
+    "power_rankings":{"type":"array"},
+    "waivers":{"type":"array"},
+    "pittys_book":{"type":"object"},
+    "state_of_play":{"type":"object"},
+    "upcoming":{"type":"array"},
+    "character_updates":{"type":"array"},
+    "rivalry_updates":{"type":"array"},
+    "story_beats":{"type":"array","items":{"type":"object","required":["id","classification","factual_basis","approval_status"],"properties":{"id":{"type":"string"},"classification":{"enum":["FACT","EDITORIAL","FICTIONALIZED_PRESENTATION"]},"factual_basis":{"type":"array"},"editorial_copy":{"type":"string"},"characters":{"type":"array"},"visual_direction":{"type":"string"},"motion_direction":{"type":"string"},"narration":{"type":"string"},"sound_direction":{"type":"string"},"continuity_refs":{"type":"array"},"approval_status":{"type":"string"}}}},
+    "media_manifest":{"type":"array"},
+    "original_edition":{"type":"object","required":["immutable"],"properties":{"immutable":{"const":true},"label":{"type":"string"},"asset_ref":{"type":["string","null"]}}},
+    "approvals":{"type":"object"}
+  }
+}
