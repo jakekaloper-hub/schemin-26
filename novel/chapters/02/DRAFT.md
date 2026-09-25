@@ -1,63 +1,79 @@
 # CHAPTER II — THE SECOND DATA POINT
-Status: DEVELOPMENT DRAFT
+Status: LONGFORM DEVELOPMENT DRAFT V2
 
 The box smelled before the courier reached the jungle.
 
-He had complained about this at the western station.
+He had complained at the western station.
 
 He complained again at the river crossing.
 
-By the time the road narrowed beneath the red canopy, complaint had become philosophy.
+By the time the road narrowed beneath the red canopy, complaint had matured into philosophy.
 
 "There are messages," he told his horse, "and there are crimes committed against distance."
 
-The horse had no opinion.
+The horse continued walking.
 
-The box was branded with the unmistakable colors of Sonic.
+The box bore the unmistakable colors of Sonic.
 
 Inside were chili dogs.
 
-Behind them, somewhere far to the west, Brandon Pryor was laughing.
+At the western end of the road, Brandon Pryor had watched the package leave from beneath a black cowboy hat while Dark Horse drank beside the rail. Whether the Chili Outlaw considered the gesture hospitality, intimidation, or simply funny was not recorded by the Compact.
 
-The courier did not know this.
+The courier had decided it was biological warfare.
 
 Kevin Zeek did not laugh when the package arrived.
 
-The Red Leopard crouched among ancient stones while attendants opened the box at a respectful distance. Amber eyes moved from the food to the note, then toward the road by which it had come.
+The Red Leopard crouched among ancient stones while two attendants opened it at arm's length. Amber eyes moved from the food to the note and then toward the western road.
 
-No one in the ruins asked whether this was diplomacy.
-
-By then everyone understood that it was not.
+No one asked whether this was diplomacy.
 
 The second week began with the first week's conclusions still wet.
 
 In the mountains, Jake carried two receipts.
 
-One from winter.
+The winter receipt proved he had lost the championship.
 
-One from the fortress.
+The newer one proved he had beaten the champion.
 
-The newer paper said 141.70–131.26.
+He disliked how easily both pieces of paper fit into the same pocket.
 
-It proved he had beaten the Belt Keeper.
+A Book runner met him where the mountain road began descending into the low country.
 
-The swamp did not care.
+"Swamp road's bad."
 
-By the time the Trade Jedi reached Mud Dogs territory, the road had narrowed to two strips of mud divided by black water. His retriever remained behind in the mountain country. The green blade looked too clean for the place.
+"It's a swamp."
 
-A chain moved somewhere ahead.
+"Worse than that."
+
+Jake looked beyond him. The road disappeared under trees.
+
+"Anything from the Book?"
+
+"Everybody likes you."
+
+"That's unfortunate."
+
+The runner grinned. "You'll be pleased to know they liked Red last week too."
+
+Jake continued south.
+
+By the time he entered Mud Dogs territory, the road had become two narrow strips of earth divided by black water. The green blade looked too clean for the place.
+
+A chain moved ahead.
 
 Jake stopped.
 
-The Mud Dog emerged from water with blue-orange hide beneath layers of muck, teeth wrong in number and condition, iron dragging behind it.
+The Mud Dog emerged without hurry.
 
-There were no walls to breach.
+Blue and orange showed beneath layers of muck. Diseased teeth. Massive shoulders. Iron dragged behind it and disappeared into water.
+
+There was no fortress to solve.
+
+No market to read.
 
 No throne to reach.
 
-No elegant geometry.
-
-The swamp simply kept taking away places to stand.
+The swamp simply removed options.
 
 Kenneth Walker fought.
 
@@ -65,57 +81,63 @@ Jaylen Waddle fought.
 
 Derrick Henry fought.
 
-The Trade Jedi kept the contest close enough that the Book runners waiting on the high road began arguing about the finish.
+Jake adjusted, retreated, advanced, found ground and lost it again.
 
-It ended at 130.84 to 122.91.
+On the high road, Book runners argued about the narrowing margin.
 
-Seven point nine three.
+The board closed at 130.84 to 122.91.
 
 Mud Dogs.
 
+Seven point nine three.
+
 Two and zero.
 
-Jake climbed back toward firm ground after dark.
+Jake climbed toward firm ground after dark.
 
-He reached into his jacket for the Week One receipt.
+He reached inside his jacket.
 
-Mud covered one corner.
+The Week One receipt had taken mud along one corner. A wagon wheel had pressed a black arc across the middle.
 
-A wagon wheel had pressed a black curve across the middle.
+141.70–131.26 remained readable.
 
-The numbers were still readable.
+The evidence had survived.
 
-That seemed important.
+It had simply failed to protect him.
 
-Behind him, another territory marker appeared beside the road.
+Jake folded it and kept walking.
+
+Behind him, another territory marker appeared beside the flooded road.
 
 Two.
 
 High above the swamp, an axe fell.
 
-The Centaur's woodpile had begun as a joke among the mountain workers.
+The Centaur's woodpile had begun as a private habit and become public mythology because people were incapable of leaving a simple thing alone.
 
-One log for every answer.
+One victory.
 
-After Week One, there was one.
+One log.
 
-Then TDS came north.
+After Week One there was one.
 
-The Podium Shadow arrived carrying the memory of 175.56.
+Then TDS came north carrying 175.56 like a rumor made solid.
 
-The high country returned 95.87.
+The Podium Shadow had heard all week that the number meant something. At the Book, strangers had pointed toward the receipt pinned behind the counter. In taverns, men who had predicted him poorly now explained why they had understood him all along.
 
-There was no graceful way to narrate the distance between those numbers.
+The mountain gave him no time to enjoy it.
 
-Wilson Look did not attempt one.
+Davante Adams: 40.5.
 
-Davante Adams struck for 40.5.
+Purdy: 32.78.
 
-Purdy added 32.78.
+McBride: 18.1.
 
-McBride, 18.1.
+The Centaur drove forward with the indifferent force of an axe through grain.
 
-By the time the serpent found footing, the mountain had become an executioner's block.
+TDS answered where he could. Olave. Coker. Cleveland's defense.
+
+It was not enough.
 
 165.78.
 
@@ -123,29 +145,29 @@ By the time the serpent found footing, the mountain had become an executioner's 
 
 Sixty-nine point nine one.
 
-The axe came down.
+When the result reached the Book, a clerk climbed onto a stool and reached for the Week One TDS receipt.
 
-A second log rolled onto the pile.
+"Leave it," Pitts said.
 
-At Pittsy's Book, a clerk took the Week One TDS slip from its proud place behind the counter.
+The clerk looked down.
 
-175.56.
+"Leave which?"
 
-He placed the Week Two receipt beneath it.
+"Both."
 
-95.87.
+"175.56 and 95.87?"
 
-Pitts watched him.
+"Especially those."
 
-"Leave both."
+The clerk pinned the new receipt directly beneath the old.
 
-The clerk hesitated.
+Two truths.
 
-"Both?"
+Seven days apart.
 
-"Especially both."
+In the high country, Wilson Look placed a second log on the pile.
 
-At the country club, Dr. Duckhook was trying to explain rules.
+At the wetland club, Dr. Duckhook was explaining rules.
 
 This was his first mistake.
 
@@ -157,9 +179,9 @@ The first trailer tore up a service road.
 
 The second carried a grill.
 
-The third appeared to contain nothing except speakers.
+The third seemed to contain nothing but speakers.
 
-Slob himself came through the gate in battered armor, championship shirt stained beyond historical analysis, metal bat over one shoulder. His pit bull ran ahead.
+Slob came through the gate in battered armor and a shirt that had not been clean within recorded history. His metal bat rested over one shoulder. The pit bull ran ahead.
 
 Duckhook lowered his cigar.
 
@@ -169,25 +191,23 @@ Slob looked at the sign.
 
 Then at the convoy.
 
-Then at Duckhook.
+Then back at Duckhook.
+
+"That's a stupid place for a sign."
 
 The sign did not survive.
 
 For several holes the club attempted to maintain dignity.
 
-Groundskeepers raked bunkers while people screamed in the distance.
+Groundskeepers raked bunkers while people screamed beyond the trees. A caddie replaced a flagstick bent into a shape no rulebook recognized. Someone moved a grill beside the seventh tee. Nobody could determine who had authorized it.
 
-A caddie replaced a flagstick that had been bent into a shape no rulebook recognized.
+Duckhook fought back.
 
-Duckhook answered with Gibbs.
+Gibbs: 24.9.
 
-24.9.
+Ferguson: 20.3.
 
-Ferguson.
-
-20.3.
-
-Respectable blows.
+Respectable.
 
 Slob answered with Josh Allen.
 
@@ -203,45 +223,43 @@ Christian McCaffrey.
 
 One hundred ten point one two from three names.
 
-By sunset, the scoreboard read 194.92–122.97.
+By sunset the board read 194.92–122.97.
 
-The club stopped pretending.
+The club abandoned dignity.
 
-Someone drove a cart into a bunker.
+A cart entered a bunker.
 
-A beer keg appeared on the eighteenth green.
+A keg appeared on the eighteenth green.
 
-Duckhook stood beside the water hazard and watched Slob's people celebrate around a flag that no longer belonged to the correct hole.
+One of Slob's people attempted to use a flagstick as a javelin and was stopped only because nobody could agree where he should throw it.
+
+Duckhook stood beside the water hazard while celebration occupied his course.
 
 His cigar had gone out.
 
-"Impossible lie," said his caddie.
+The caddie came beside him.
 
-Duckhook looked at the score.
+"Impossible lie?"
 
-For once, he did not disagree.
+Duckhook stared at the score.
 
-Farther south, the courier who had delivered the chili dogs was already gone when Red began the hunt.
+"For once," he said, "I think we may be in the wrong county."
 
-The Chili Outlaw had won Week One with 198.00.
+Far south, the courier who had delivered the chili dogs was already gone when Red began the hunt.
 
-Now the number followed him like a parade.
+Chili's Week One score—198.00—had followed Brandon Pryor everywhere for seven days. It appeared on Book boards. It was repeated at inns. Stable hands who had never cared about projections suddenly had opinions.
 
-He rode Dark Horse beneath a red sky believing, at minimum, that everyone had noticed.
+The Chili Outlaw rode Dark Horse beneath a red evening sky.
 
-Everyone had.
-
-Especially Red.
-
-The jungle swallowed the western road.
+The jungle swallowed the road.
 
 Dark Horse slowed.
 
 Pryor touched the brim of his hat.
 
-Amber eyes appeared between the ruins.
+Amber eyes appeared between ruined stones.
 
-The response was not a letter.
+Red did not send a reply.
 
 DeVonta Smith: 28.7.
 
@@ -249,15 +267,15 @@ New England's defense: 26.9.
 
 Ja'Marr Chase: 26.5.
 
-Eighty-two point one from three positions of the attack.
+Eighty-two point one from three positions.
 
-The Red Leopard came through the canopy with claws wide.
+The Red Leopard came through the canopy.
 
 Chili answered with Amon-Ra St. Brown's 36.2.
 
-Then the week kept going.
+Then the week kept moving.
 
-And Chili did not.
+Chili did not.
 
 191.90.
 
@@ -265,31 +283,35 @@ And Chili did not.
 
 Ninety-one points.
 
-The same team that had set the scale in Week One had fallen 97.10 points in seven days.
+The same force that had posted 198.00 in Week One had fallen 97.10 points in seven days.
 
-When the attendants found the Sonic box after the hunt, one side had been opened by claws.
+Afterward an attendant found the Sonic box near the ruins. One side had been opened by claws.
 
-Someone wrote RETURN TO SENDER across the lid.
+Across the lid someone wrote:
 
-The courier saw it waiting at the road station the next morning.
+RETURN TO SENDER.
 
-He considered changing professions.
+The courier saw it waiting at the road station the following morning.
+
+He considered a career in agriculture.
 
 At the old fortress, water touched the first stair.
 
-The Belt Keeper noticed before anyone told him the score.
+Byars noticed before anyone announced the score.
 
-Rain had been falling since afternoon, but the fortress had survived storms for longer than any living servant remembered. This water was different. It came under doors. Up drains. Across stone.
+Rain had fallen since afternoon, but the fortress had survived storms longer than any living servant remembered. This water behaved differently. It came under doors. Up drains. Across stone.
 
 El Niño had arrived.
 
-Byars descended toward the championship hall wearing the Belt.
+The Belt Keeper descended toward the championship hall wearing the Belt.
 
-That mattered.
+That distinction mattered.
 
-It mattered even when JSN gave him 45.5.
+It mattered when JSN gave him 45.5.
 
-It mattered even as James Cook, Stefon Diggs and Jalen Hurts drove the storm forward for El Niño.
+It mattered while James Cook, Stefon Diggs and Jalen Hurts drove the storm forward for El Niño.
+
+It mattered because the Belt was history and the water was now.
 
 The Belt did not make the water stop.
 
@@ -299,25 +321,33 @@ The Belt did not make the water stop.
 
 The champion was zero and two.
 
-The Belt was still his.
+The Belt remained his.
 
 Both facts entered the hall together.
 
 When the water withdrew, it left a dark line across the first stair beneath the trophies.
 
-A servant arrived with a brush.
+An attendant came with a brush.
 
-Byars stopped him.
+Byars watched him kneel.
 
 "Leave it."
 
-The servant looked at the stain.
+The attendant looked back.
 
-Then at the Belt.
+"My lord?"
 
-He left it.
+"The line."
 
-In the central metropolis, the LLC had a recovery plan.
+"It will stain."
+
+"I know."
+
+The servant stood.
+
+Byars remained beneath the Belt until the hall was empty.
+
+In the central metropolis, The LLC had a recovery plan.
 
 It had a title.
 
@@ -325,33 +355,35 @@ It had appendices.
 
 It had projected scenarios.
 
-It had been printed on expensive paper.
+It had been printed on paper expensive enough that one analyst had objected to the cost.
 
 Then Ben Whipple arrived with a hammer.
 
-The Seven Deadly Chins had spent the week hearing about the button.
+Chins had spent the week hearing about the button.
 
-This irritated him for several reasons, the largest being that everyone was correct.
+This annoyed him primarily because everyone was correct.
 
 This time Patrick Mahomes was not an unused possibility.
 
 36.18.
 
-Seattle's defense added 16.9.
+Seattle's defense: 16.9.
 
-Tyler Warren added 14.5.
+Tyler Warren: 14.5.
 
-The raccoon sat beside the controls and was forbidden to participate in governance.
+The raccoon sat beside the controls and had been explicitly excluded from governance.
 
-Across the city, Jonathan Taylor hit for 31.6.
+The LLC answered.
 
-Burrow gave the LLC 20.28.
+Jonathan Taylor: 31.6.
 
-Hampton 19.8.
+Burrow: 20.28.
+
+Hampton: 19.8.
 
 The boardroom held.
 
-Until it didn't.
+Then the final number appeared.
 
 135.38.
 
@@ -363,31 +395,31 @@ A crack appeared in the long conference table.
 
 Nobody could prove the hammer caused it.
 
-Babb stared at the final number through dark glasses.
+Babb stared at the board through dark glasses.
 
 Zero and two.
 
-One analyst slowly removed the Week One audit from a folder.
+An analyst removed the Week One audit from a folder.
 
 Another placed Week Two beside it.
 
-Two data points.
+"Two data points," somebody said.
 
-The phrase sounded less reassuring now.
+The phrase sounded much less reassuring than it had in the morning.
 
-That night, Pittsy's Book stayed open late.
+That night Pittsy's Book remained open past its usual hour.
 
-The room smelled of wet paper, lamp oil and people becoming certain too quickly.
+The room smelled of lamp oil, wet paper and certainty.
 
-Clerks pinned six new receipts beneath the first six.
+Six Week Two receipts hung beneath the first six.
 
-Mud Dogs: two and zero.
+Mud Dogs: 2–0.
 
-D0nkey K0ng: two and zero.
+D0nkey K0ng: 2–0.
 
-The Belt Keeper: zero and two.
+The Belt Keeper: 0–2.
 
-The LLC: zero and two.
+The LLC: 0–2.
 
 Slob had gone from 134.96 to 194.92.
 
@@ -397,19 +429,17 @@ Chili from 198.00 to 100.90.
 
 TDS from 175.56 to 95.87.
 
-Pitts stood beneath the rows.
-
-A traveler pointed upward.
+A traveler stood beneath the board.
 
 "So now we know."
 
-Pitts looked at him.
+Pitts closed the ledger.
 
 "Know what?"
 
 "Who's real."
 
-The serpent glanced at twelve receipts, two weeks of evidence, and a room full of men desperate to turn motion into certainty.
+The serpent looked at twelve receipts, two weeks of evidence, and a room full of men desperate to convert movement into certainty.
 
 "No," he said.
 
@@ -419,11 +449,11 @@ The first cold front came down from the mountains after midnight.
 
 It crossed the Centaur's ridge and rattled the second log in the woodpile.
 
-It moved through ObiWan's trees and lifted the muddy receipt from where it dried beside the window.
+It moved through ObiWan's trees and lifted the muddy receipt from where it dried beside a window.
 
 It bent reeds in the Mud Dogs swamp.
 
-It carried the smell of smoke away from Chili's stable.
+It carried smoke away from Chili's stable.
 
 It found the clawed Sonic box at a road station.
 
@@ -431,21 +461,15 @@ It pushed rain against the LLC tower.
 
 It crossed the old fortress and dried the waterline without erasing it.
 
-Near dawn, it reached the country club.
+Near dawn it reached the country club.
 
-Dr. Duckhook was alone on the eighteenth green.
+Dr. Duckhook stood alone on the eighteenth green.
 
-The wreckage of Slob's celebration remained everywhere.
+The remains of Slob's celebration were everywhere: a cup on its side, a broken sign, tire marks across grass that had once inspired arguments about mowing height.
 
-A cup on its side.
+Duckhook wore his bucket hat and smoked a new cigar.
 
-A broken sign.
-
-Tire marks across grass that had once inspired arguments about mowing height.
-
-Duckhook stood beside the water in his bucket hat, smoking a new cigar.
-
-Something orange landed near his ball.
+Something orange landed beside his ball.
 
 A leaf.
 
@@ -453,7 +477,7 @@ He looked up.
 
 Most of the trees were still green.
 
-The caddie approached carrying the Week Three notice.
+His caddie approached carrying the Week Three notice.
 
 Duckhook took it.
 
@@ -461,7 +485,7 @@ Chili Cheesers.
 
 He read the name.
 
-Then looked at the road.
+Then looked toward the road.
 
 Far away, at a western Sonic, a man in a black cowboy hat was placing another order.
 
