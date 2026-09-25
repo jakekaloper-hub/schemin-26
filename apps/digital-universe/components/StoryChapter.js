@@ -1,0 +1,1 @@
+export default function StoryChapter({game,index}){return <article className={"chapter "+game.scene}><div className="chapterNo">0{index+1}</div><div><p className="eyebrow">WEEK 2 · FINAL</p><h2>{game.title}</h2><p className="result"><strong>{game.winner}</strong> {game.score} {game.loser}</p><p className="enter">ENTER STORY →</p></div></article>}
