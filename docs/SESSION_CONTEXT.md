@@ -1,7 +1,7 @@
 # Schemin '26 Session Context Router
 
 **Authority:** The Librarian (CKO)  
-**Version:** 1.0  
+**Version:** 1.1  
 **Purpose:** Route a new ChatGPT / engineering session to the minimum authoritative context required.
 
 ## Session-start rule
@@ -13,6 +13,10 @@ For substantial work:
 2. Match the request to one row below.
 3. Load the listed 2–4 documents.
 4. Expand only when the task crosses domains or a source conflict appears.
+
+## Global publication identity lock
+
+Whenever a session references the **official/published/league-shared Week 2 memo** or the **Week 2 gold standard**, resolve it to **`Week 2 memo.pdf`**, the 14-page September 23, 2026 illustrated issue with the Red Leopards “SPECIAL DELIVERY” cover. Do not substitute similarly named Week 2 finals, tests, reruns, replays, or RC candidates.
 
 ## Routing map
 
