@@ -1,36 +1,30 @@
 # PROLOGUE — THE BELT, THE RECEIPT, AND THE BOARD
-Status: DEVELOPMENT DRAFT — NOT YET MASTER MANUSCRIPT
+Status: LONGFORM DEVELOPMENT DRAFT V2 — NOT YET MASTER MANUSCRIPT
 Evidence boundary: final 2026 pick-by-pick draft board intentionally omitted pending authoritative lock.
 
-There were older things in the country than the Belt.
+There were twelve chairs in the hall, though no gathering in living memory had ever made them look as though they belonged together.
 
-This was easy to forget when someone wore it.
+The oldest was oak, blackened at the arms by generations of hands. Another had a back carved in scales. One was broad enough to accommodate a creature who had never been entirely human. A newer chair, severe and expensive, bore a brass plate where an old crest had been removed. Names changed more readily than furniture in the Compact. The clerks understood this better than anyone. They kept old names beneath new ones in their ledgers, each crossed through with a single red stroke, because a man might wake one morning and decide his banner no longer suited him, but his debts proved remarkably resistant to reinvention.
 
-In winter the roads narrowed, the rivers went black, and the mountains in the north stood bare enough that a man could see the old watchtowers between the trees. Their stones had been stacked long before anyone living could agree why. Some carried faded marks from former houses. Some had been painted over so many times that the newest names cracked in the cold and showed older colors beneath.
+On the northern wall hung the Belt.
 
-The Compact had endured since 2015. That much the ledgers agreed upon.
+No clerk had ever crossed through that.
 
-Everything before that belonged to tavern argument.
+Snow whispered against the high windows while Austin Byars stood beneath it.
 
-Every season the twelve seats returned to it. Names changed. Banners changed. Men swore they had changed. The Compact was less sentimental. It remembered victories, defeats, protected retainers, surrendered claims, debts, margins, and the precise moment when confidence became evidence.
+The feast had ended three nights before. Servants had cleared the bones and trenchers, scrubbed wine from the long tables, and carried two sleeping guests to rooms nobody later admitted assigning them. Yet the championship hall retained the smell of victory: smoke, sour drink, wet wool, tallow, and the metallic breath of the braziers.
 
-At the end of 2025, it remembered one thing above all others.
+Beneath the Belt, newly cut into a slab of black stone, were two numbers.
 
 161.07.
 
 115.56.
 
-The numbers were cut into a black slate in the championship hall.
+Byars had discovered that victory became stranger once other people began preserving it.
 
-Above them hung the Belt.
+The Belt Keeper looked as though the fortress had grown him rather than admitted him. Corpse-pale skin, long black hair, rune-dark armor beneath a heavy cloak. The great sword leaned against the dais. Pale light lived in his eyes when the fire struck them.
 
-Austin Byars stood beneath it while snow worried the narrow windows of the fortress. The servants had banked the fires low. The last celebration had ended days ago, but the hall still smelled faintly of smoke, spilled drink and wet wool. Someone had left a goblet beneath a bench. A torn strip of victory cloth hung from an iron torch bracket.
-
-Byars had not ordered either removed.
-
-The Belt Keeper had the corpse-pale stillness of a figure carved for a tomb and then persuaded, against good judgment, to walk. Long black hair fell over the collar of his rune-dark armor. Pale light sat in his eyes. The great sword rested against the dais.
-
-The Belt itself was brighter than anything else in the room.
+The Belt itself was brighter.
 
 Third trophy.
 
@@ -38,129 +32,143 @@ First since 2018.
 
 Eight victories to close the year.
 
-Those facts had already escaped the fortress. They were on broadsheets in the central city, scratched onto tavern boards along the western road, repeated by clerks at Pittsy's Book, and carried north by riders who added opinions nobody had requested.
+Those were the things the chroniclers had written down. Already the words had escaped the fortress. They would be copied in the central metropolis, repeated by clerks at Pittsy's Book, distorted in roadside taverns and eventually carried into the northern mountains by people who had not witnessed a single moment of the final.
 
-The facts belonged to everyone now.
+Byars laid one hand on the Belt.
 
-The Belt belonged to him.
+The title belonged to him.
 
-For the winter, that was enough.
+The story of the title no longer did.
 
-Far north, where the road climbed through oak and pine into the mountain country, Jake Kaloper kept a different artifact.
+That was the first burden of being champion.
+
+Far north, where winter made the mountain roads narrow and the old watchtowers visible through bare oak, Jake Kaloper kept a different artifact.
 
 It was only paper.
 
 That made it more dangerous.
 
-The golden retriever found him at the table before sunrise, head first through the half-open door, nails ticking across old floorboards. She stopped beside his chair and rested her chin on his knee.
+Before sunrise his golden retriever pushed through the half-open door of the strategy room and crossed the floorboards to him. She rested her chin on his knee. Jake scratched behind one ear without looking away from the table.
 
-Jake did not look down.
+Maps covered it. Roads. Rivers. Territory. Lists of protected retainers. Future claims. Names circled, crossed through, restored, then crossed through again. A green-bladed weapon lay unlit beside a chipped cup of coffee.
 
-Maps covered the table. Some showed roads. Some showed territories. Others were not maps in any ordinary sense: columns of names, future claims, protected retainers, values written and rewritten in the margins. A green-bladed weapon lay unlit beside them.
+At the center of everything was the championship receipt.
 
-At the center sat a receipt from the championship road.
+115.56 beneath his name.
+
+161.07 beneath Byars'.
 
 The figures did not improve when viewed in better light.
 
-The Trade Jedi folded the paper once.
+Jake folded the paper once, along the old crease, and put it inside his field jacket.
 
-Then again.
+There were men who burned evidence of failure. Men who buried it. Men who carried it as grievance until the grievance grew larger than the thing itself.
 
-He placed it in the inner pocket of his field jacket.
+The Trade Jedi preferred records.
 
-There were men who burned evidence of failure. Men who buried it. Men who turned it into grievance and carried the grievance so long they forgot what had caused it.
+Records could be studied.
 
-Jake preferred records.
+A bell sounded from the road station below.
 
-A record could be studied.
+The retriever lifted her head.
 
-Outside, wind moved through the naked trees. Somewhere down the mountain, a bell sounded from the road station. The retriever raised her head.
+Through the window Jake saw a rider climbing between the trees.
 
-A courier was climbing.
+The courier arrived with frost in his beard and a leather tube beneath one arm. He stamped snow from his boots at the threshold.
 
-By spring the continent began moving again.
+"From the Compact?"
 
-Contracts crossed the central metropolis under seal. Protected names disappeared from public boards and reappeared beneath the crests of the houses that had retained them. Future claims changed hands. Men argued over rights to choices that did not yet exist. LLC clerks carried leather cases through rain without once admitting they were running. At roadside markets, rumors traveled faster than the horses that brought them.
+"From the Book first. Compact copy inside."
 
-Pittsy's Book opened its shutters before breakfast.
+Jake accepted the tube.
 
-It occupied an old stone building where the jungle road bent toward the interior, though nobody quite agreed whether the Book belonged to the road or the road had eventually bent itself toward the Book.
+"Anything else?"
 
-Phillip Pitts preferred the latter explanation.
+The courier glanced at the maps, then at the place where the receipt had been.
 
-Behind the main counter, ledgers rose in shelves to the ceiling. Slips hung from brass hooks. A runner arrived wet from the coast and handed a clerk three sealed notices. Another departed toward the western road before his tea cooled.
+"Everybody's got an opinion."
 
-Above them all, carved into dark timber, a coiled serpent watched with green glass eyes.
+"They usually travel cheaper than facts."
 
-Pitts moved through the room in dark number-three gear, green-gold scales catching the morning light. His dreadlocks fell over one shoulder as he leaned over the newest ledger.
+The courier smiled. "Facts weigh more."
 
-The house had finished the previous season ahead.
+Jake broke the seal.
 
-That, too, was a fact.
+Winter became spring by increments too small for chroniclers.
 
-How long any fact remained useful was a different question.
+Snow retreated into the highest shadows. The rivers browned with meltwater. Wagons returned to roads that had been mud for weeks. Merchants raised shutters. Old banners were taken down, patched, renamed, or quietly left hanging because nobody wished to climb the ladder.
 
-Across the continent, twelve territories prepared themselves according to twelve incompatible theories of preparation.
+The continent began bargaining with itself.
 
-In the high country, Wilson Look split timber.
+Protected names vanished from public boards and reappeared beneath the crests of the seats that had retained them. Future selection rights changed hands. Contracts traveled under wax. LLC clerks crossed the central metropolis carrying leather cases through rain without once admitting they were running.
 
-He did not split it because timber needed splitting.
+Pittsy's Book opened before breakfast.
 
-There was already enough beside the wall to survive winter.
+The Book occupied an old stone building where the jungle road bent toward the interior. Travelers claimed the road had once been straight. Phillip Pitts maintained that the road had simply learned where the money was.
 
-He split it because an axe produced a clean answer.
+Inside, ledgers climbed to the rafters. Slips hung from brass hooks. Chalkboards covered two walls. A runner from the coast arrived soaked through and surrendered three sealed notices to a clerk. Another runner departed west before his tea cooled.
 
-The Arsenal Centaur planted four hooves in the mountain earth, raised the ornate blade and brought it down. The log separated with a sound that echoed off the ridge.
+Pitts moved between them in dark number-three gear, green-gold scales catching the window light. Long dreadlocks hung over one shoulder. Above the counter, a carved serpent watched with green glass eyes.
 
-No committee.
+"The house finished ahead," a young clerk said, admiring the previous season's ledger.
 
-No projection.
+Pitts turned a page.
 
-No explanation.
+"Last season did."
+
+The clerk waited for more.
+
+There was no more.
+
+Outside the Book, the world prepared for another year according to twelve incompatible philosophies.
+
+In the high country, Wilson Look split timber although the shed was full.
+
+The Arsenal Centaur planted four hooves in hard earth, raised the ornate axe and brought it down. The log separated cleanly.
+
+No projection. No committee. No argument.
 
 Two pieces.
 
-He set another log on the block.
+He set another on the block.
 
-Far below, the swamp did not care for clean answers.
-
-Something enormous moved beneath black water.
-
-A chain dragged over a half-submerged road marker and vanished between cypress knees. Birds lifted from the reeds. Mud rolled against the bank.
+In the low country, something enormous moved beneath black water. A chain scraped across a drowned road marker and disappeared among cypress knees. Herons rose from the reeds. Mud rolled against the bank.
 
 The Mud Dogs were awake.
 
-On the western road, Brandon Pryor rode beneath a sky the color of hammered copper. Dark Horse carried him through smoke from roadside cookfires while a pot of chili steamed at a settlement behind them. Pryor's black hat threw his face into shadow. Red pepper cartridges crossed his weathered coat like ammunition.
+On the western road, Brandon Pryor rode Dark Horse beneath a copper sky. Smoke from cookfires lay low over the settlements. His weathered red duster moved in the wind; peppers crossed his chest like ammunition. At a stable behind him, a pot of chili steamed while two hands argued over whether it required more heat.
 
-He had not yet sent anyone anything ridiculous.
+Pryor had not yet sent anyone anything ridiculous.
 
 The season was young.
 
-At a truck stop farther east, Ben Whipple used an oversized hammer to repair a grill that could have been repaired with a wrench. A raccoon watched from an overturned crate with the expression of an experienced supervisor.
+At a truck stop farther east, Ben Whipple repaired a grill with a hammer large enough to settle a border dispute. A raccoon supervised from an overturned crate.
 
-At the wetland club, Dr. Duckhook stood ankle-deep in water beside a green no sensible architect would have placed there. The white duck drew on his cigar, adjusted his bucket hat and studied a ball half buried in the bank.
+At the wetland club, Dr. Duckhook stood ankle-deep in a hazard no architect with affection for golfers would have designed. The white duck adjusted his floral-camouflage bucket hat and studied a ball buried against the bank.
 
-His caddie looked at the water.
+His caddie studied the water.
 
-Then at the ball.
+Then the ball.
 
-Then at Duckhook's driver-arm.
+Then Duckhook's driver-arm.
 
-"Impossible lie," the caddie said.
+"Impossible lie."
 
-Duckhook smiled.
+Duckhook drew on his cigar.
 
-There were no impossible lies.
+"There are no impossible lies."
 
-Only expensive ones.
+"What are there?"
+
+"Expensive ones."
 
 In the jungle ruins, amber eyes opened beneath red leaves.
 
-Elsewhere in the same green belt, a serpent with dreadlocks stood beneath a waterfall while Book runners crossed rope bridges carrying slips into the interior.
+In another reach of the same green belt, Book runners crossed rope bridges beneath waterfalls while the Podium Shadow watched them go.
 
-In the central metropolis, David Babb sat at the head of a boardroom table while market lights moved across his sunglasses. The LLC briefcase rested beside one hand. Analysts surrounded him with charts that implied, with impressive confidence, that uncertainty had been defeated.
+In the central metropolis, David Babb sat at the head of a long boardroom table. Market light moved over his sunglasses. The LLC briefcase rested beside one hand. Around him, analysts arranged enough paper to suggest uncertainty had finally been defeated.
 
-In the moving camps beyond the freight roads, Jordan Hollingshead's people erected a temporary stronghold from trailers, timber, old goalposts, beer signs and materials nobody admitted stealing. His pit bull slept beneath a bench while Slob tested the balance of a metal bat against one palm.
+Beyond the freight roads, Jordan Hollingshead's moving camps rose wherever the ground would tolerate them: trailers, timber, old goalposts, grills, beer signs and building materials of disputed provenance. Slob tested the weight of a metal bat while his pit bull slept beneath a bench.
 
 And on the coast, pressure fell.
 
@@ -170,69 +178,61 @@ Then gulls.
 
 Then the men who maintained the flooded stadiums.
 
-Clouds gathered beyond the horizon, dark at their bases and white with lightning above. Water climbed the stone steps without rain.
+Clouds gathered beyond the horizon, dark underneath and white with trapped lightning. Water climbed a flight of stone steps without rain.
 
 Manning Welty had not arrived.
 
 El Niño rarely needed to.
 
-By late summer the roads were crowded.
+By late summer the continent was moving toward Draft Night.
 
-Every territory sent something toward Draft Night: scouts, clerks, sealed lists, protected claims, arguments, confidence. Inns filled. Pittsy's runners wore out horses. LLC's printers ran through the night. The Belt Keeper's gates opened. The mountain watchfires above ObiWan's country burned green.
+The roads filled with scouts and clerks. Inns filled with arguments. Pittsy's runners wore out horses. LLC printers burned through paper. The Belt Keeper opened the fortress gates. Green watchfires appeared above ObiWan's mountain country.
 
 The final board would eventually contain names.
 
 For now it contained twelve seats and possibility.
 
-On the night of September 2, the Compact halls lit across the continent.
+On September 2, the Compact halls lit across the continent.
 
-No single building held them.
+No single building held them. That was part of the old machinery of the institution: twelve rooms joined by the Board, each owner seeing the same vacancies disappear while remaining surrounded by his own world.
 
-That was part of the old magic of the thing.
+Byars sat beneath the Belt.
 
-In the fortress, Byars sat beneath the Belt.
+Jake stood before maps.
 
-In the mountains, Jake stood before a board framed by maps.
-
-The Centaur had an axe within reach.
+The Centaur kept an axe within reach.
 
 Slob had beer.
 
 Chins had brought the hammer despite being specifically told not to bring the hammer.
 
-Duckhook appeared to be outdoors.
+Duckhook appeared to be outside.
 
-The LLC had prepared binders.
+The LLC had binders.
 
-Pitts had opened a second ledger for side action.
+Pitts opened a second ledger.
 
-Chili arrived late enough to make it look deliberate.
+Chili arrived late enough to make lateness appear strategic.
 
-Somewhere behind Red, something in the jungle screamed.
+Something screamed behind Red in the jungle.
 
-At the coast, thunder interfered with the signal.
+Thunder interfered with El Niño's connection.
 
-The Mud Dogs did not appear on the board at first. Then a wet pawprint struck one corner from the other side.
+Mud Dogs failed to appear until a wet pawprint struck one corner of the Board.
 
 Twelve seats.
 
-Seventeen places to fill for each.
+Seventeen places apiece.
 
-Protected names already removed from the common pool.
+Protected retainers already removed from the common pool.
 
 Future claims already bought and sold.
 
 The Board opened.
 
-For hours the continent narrowed to choices.
+For hours the continent narrowed to choice.
 
-Names vanished.
-
-Needs changed.
-
-Plans collided with the simple cruelty of another seat choosing first.
-
-A runner left Pittsy's Book carrying three revised sheets. An LLC analyst tore up a projection and immediately claimed it had been a scenario model. Someone at Slob's camp fired something into the air. The Chins raccoon stole food from beneath the table and was not challenged.
+Names vanished. Needs changed. Plans collided with the simple cruelty of another seat choosing first. A runner left Pittsy's Book carrying revised sheets. An LLC analyst tore up a projection and immediately called it a scenario model. Someone at Slob's camp fired something into the air. The Chins raccoon stole food and discovered that governance had its advantages.
 
 In the mountains, Jake moved markers across his board.
 
@@ -240,15 +240,13 @@ He did not know how the season would end.
 
 None of them did.
 
-That was the only honest thing in the room.
+That was the only honest thing in all twelve rooms.
 
-Near midnight, the Board closed.
+Near midnight the Board closed.
 
-The twelve territories went dark one by one.
+Lights disappeared across the continent one by one.
 
-But the Compact was not finished.
-
-A final sheet appeared at every seat.
+Then a final sheet appeared at every seat.
 
 Six pairings.
 
@@ -268,9 +266,9 @@ Three Dreaded Snake against El Niño.
 
 Jake read the fourth line twice.
 
-The retriever came to stand beside him.
+His retriever came to stand beside him.
 
-South of the mountains, beyond roads and cities and black rivers, the Belt Keeper received the same notice beneath the same title he had earned the winter before.
+South of the mountains, beyond cities and black rivers, Byars received the same notice beneath the same title he had earned in winter.
 
 Champion.
 
@@ -280,11 +278,9 @@ Again.
 
 Byars buckled the Belt around his waist.
 
-Jake reached into his jacket and removed the folded paper from December.
+Jake removed the folded championship receipt from his jacket and flattened it on the table.
 
-He flattened it on the table.
-
-Outside, summer thunder rolled somewhere beyond the ridge.
+Summer thunder rolled somewhere beyond the ridge.
 
 The Board was full.
 
