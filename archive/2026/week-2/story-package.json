@@ -212,5 +212,20 @@
   "approvals": {
     "historical_pdf_mutation": false,
     "public_release": "JAKE_REQUIRED"
+  },
+  "cinema": {
+    "engine": "comfyui_wan22_local",
+    "workflow": "cinema/vendor/filmclusive/wan22-image-ref-video-ref.json",
+    "production_manifest": "cinema/production/week-2-special-delivery.shots.json",
+    "sequence": "w2_special_delivery",
+    "shots": [
+      "A01",
+      "A02",
+      "A03",
+      "A04",
+      "A05"
+    ],
+    "runtime_status": "READY_FOR_LOCAL_COMFYUI_EXPORT",
+    "publication_status": "INTERNAL_CANDIDATE"
   }
 }
