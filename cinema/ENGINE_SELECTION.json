@@ -1,0 +1,29 @@
+{
+  "selected_engine": "kupkaprod-cinema-pipeline",
+  "upstream": "Matticusnicholas/KupkaProd-Cinema-Pipeline",
+  "role": "local autonomous production orchestrator",
+  "mode": "adapter_not_fork",
+  "canary": "2026-week-2-special-delivery",
+  "secondary_engine": "filmclusive-wan22",
+  "gates": {
+    "gpu_runtime": "OPEN",
+    "license": "NON_COMMERCIAL_ONLY",
+    "canon": "LOCKED",
+    "publication": "REQUIRES_APPROVAL"
+  },
+  "schemin_owns": [
+    "truth",
+    "character canon",
+    "story package",
+    "source artwork",
+    "QC",
+    "release state"
+  ],
+  "engine_owns": [
+    "local scene execution",
+    "ComfyUI submission",
+    "take generation",
+    "resume state",
+    "assembly"
+  ]
+}
