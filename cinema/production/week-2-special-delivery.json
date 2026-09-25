@@ -1,0 +1,63 @@
+{
+  "project": "schemin-26",
+  "season": 2026,
+  "week": 2,
+  "sequence": "special-delivery",
+  "story_beat_id": "w2-gotw-special-delivery",
+  "truth": {
+    "winner": "Red Leopards",
+    "winner_score": 191.9,
+    "loser": "Chili Cheesers",
+    "loser_score": 100.9
+  },
+  "source_art": {
+    "canonical": "official Week 2 memo page 7",
+    "local_input_name": "week2-special-delivery-source.png"
+  },
+  "engine": {
+    "ui_workflow": "cinema/vendor/filmclusive/wan22-image-ref-video-ref.json",
+    "api_workflow": "cinema/runtime/api/wan22-animate.json",
+    "status": "NEEDS_LOCAL_COMFYUI_EXPORT"
+  },
+  "shots": [
+    {
+      "id": "A01",
+      "name": "Cold Open",
+      "seconds": 3,
+      "direction": "Macro detail: receipt, delivery props, chili atmosphere. Minimal motion."
+    },
+    {
+      "id": "A02",
+      "name": "Establish",
+      "seconds": 5,
+      "direction": "Slow controlled push into the canonical matchup composition. Preserve both characters."
+    },
+    {
+      "id": "A03",
+      "name": "The Receipt",
+      "seconds": 4,
+      "direction": "Rack visual emphasis toward delivery receipt/food motif; subtle paper flutter and steam."
+    },
+    {
+      "id": "A04",
+      "name": "Consequence",
+      "seconds": 5,
+      "direction": "Return focus to Red Leopard dominance and Chili Outlaw defeat; stadium parallax and haze only."
+    },
+    {
+      "id": "A05",
+      "name": "Exit",
+      "seconds": 3,
+      "direction": "Slow pull/settle for transition. No identity-changing character motion."
+    }
+  ],
+  "qc": [
+    "character identity",
+    "composition",
+    "no generated factual text",
+    "no extra limbs",
+    "no destructive morphing",
+    "verified score overlay in post"
+  ],
+  "publish_status": "INTERNAL_CANDIDATE"
+}
