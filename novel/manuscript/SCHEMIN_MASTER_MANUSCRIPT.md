@@ -2,7 +2,7 @@
 
 *A novel in development — serialized alongside the 2026 season*
 
-> Reader-facing master manuscript. Last synchronized through Week 3.
+> Reader-facing master manuscript. Revised after Manuscript Standard Audit 01; synchronized through Week 3.
 
 # Part I — The World Still Works
 
@@ -58,8 +58,6 @@ There had been fires. There were always fires.
 
 The promise remained.
 
-That was how most things around the inland sea remained: long after the people who had needed them were bones, and sometimes long after the reason for them had become difficult to remember.
-
 "Mara."
 
 She looked toward the ferry.
@@ -89,12 +87,6 @@ Fen laughed from the stern.
 The merchant did not.
 
 Mara watched her father take the old man's elbow and guide him aboard. He did not ask where they had come from until everyone was seated. He did not ask whether they could pay. The crossing would cost the Venns half an hour and perhaps the merchant's future business.
-
-Nobody consulted a court.
-
-Nobody summoned a soldier.
-
-A promise made before Tomas Venn's grandfather had been born simply reached out of the past and moved the ferry.
 
 Mara looked down at the ninth stone.
 
@@ -218,11 +210,17 @@ A gull landed on the exposed shelf and pecked at something pale in the mud.
 
 Across the Narrows, Tomas Venn's ferry touched the northern bank. The refuge family disembarked first.
 
-A promise moved the ferry.
-
 Mara looked at the two stones.
 
-For the first time in her life, she wondered what happened when a promise pointed in two directions.
+Fen nudged the exposed block with the heel of his boot. Mara caught his ankle before he could do it again.
+
+"Don't," she said.
+
+He looked at her hand on his boot, then at her face.
+
+"That bad?"
+
+Mara wrapped the cord around her palm. "I don't know yet."
 
 ---
 
@@ -457,10 +455,6 @@ Twenty paces uphill, Jorren Bale had driven stakes across the traditional refuge
 
 Bale grew onions, kept six good goats, and had spent twelve years turning the stony rise into soil worth inheriting.
 
-He was not a villain.
-
-That made everything harder.
-
 "My deed is witnessed," he said for perhaps the tenth time.
 
 "So is the refuge duty," Tomas Venn replied.
@@ -507,10 +501,6 @@ Then at Bale's field.
 
 A woman stood behind him with a child on her hip. His wife, Mara guessed. Their house roof needed patching. One of the goats had a splinted leg.
 
-This was not a contest between mercy and greed.
-
-It was mercy colliding with a mortgage.
-
 "Nine nights," Tomas said.
 
 "And after nine nights?" Bale demanded. "You restore the crop?"
@@ -536,16 +526,6 @@ The old refuge duty would not merely occupy his field.
 It could put a grave in it.
 
 Orel closed her eyes.
-
-Mara understood then why Master Pell had shuttered the windows.
-
-The contradiction was not in a book.
-
-It had a fever.
-
-It had onions.
-
-It had children watching adults decide which promise counted.
 
 A voice from the crowd called, "Use the upper common."
 
@@ -639,10 +619,6 @@ Then he looked at the old man.
 
 The crowd began to disperse.
 
-The problem had been postponed.
-
-Everyone treated this as a victory except Mara.
-
 Orel waited until they were alone beside the landing.
 
 "You made a new promise to avoid deciding between two old ones."
@@ -684,8 +660,6 @@ Above her, the refuge children whispered.
 The old man coughed.
 
 Across the yard, her father and Fen shifted timber beneath a canvas sheet because their storage space was gone.
-
-A small act of mercy had already acquired a price.
 
 Mara lit a lamp and opened her field notebook.
 
@@ -842,19 +816,11 @@ Orel did too.
 
 Caro's jaw tightened.
 
-There it was.
-
-Not corruption.
-
-Memory.
-
 Everyone around the inland sea inherited some story about what happened when obligations failed. Caro's family carried the Winter Barges: three grain boats turned away from a harbor during fever quarantine, two thousand people dead inland before spring.
 
 Orel's order carried the opposite lesson.
 
 During the western fires, a Witness had enforced Guest Right so literally that a town opened its gates after its wells failed. Refugees and residents nearly died together.
-
-The same civilization had built saints out of opposite decisions.
 
 Caro picked up his gloves.
 
@@ -976,14 +942,6 @@ Then it was ordinary ink again.
 
 She stepped back.
 
-Low magic, the old women would have called it.
-
-Bad air, Master Pell would say.
-
-A warning, her first teacher would have whispered.
-
-Orel believed none of them enough to be comforted.
-
 She examined the certification panel.
 
 Most names were familiar from histories.
@@ -992,27 +950,21 @@ One was not.
 
 A witness called Enna Tal had added a notation in cramped script along the lower edge.
 
-Orel translated slowly.
+Orel bent over the cramped notation at the lower edge. Most of it had been eaten by damp. What remained was bookkeeping: three marker numbers, a ferry name she did not recognize, and a sentence broken through its middle.
 
-WE HAVE MEASURED THE WATER AS THOUGH THE WATER WERE THE AGREEMENT.
+...MEASURED THE WATER...
 
-IT IS NOT.
+The next four words were gone.
 
-Below that:
+...THE AGREEMENT.
 
-WHEN THE MARKERS FAIL, ASK WHOM THE PROMISE WAS MADE TO SAVE.
+Below it, in another ink, someone had written a single word.
 
-Orel read the sentence three times.
+DISPUTED.
 
-Then she became angry.
+Orel held the lamp sideways. The second hand was newer, but not by much.
 
-Not inspired.
-
-Angry.
-
-People in the present always imagined the dead had possessed clarity unavailable to the living. Here was proof of the opposite. Someone a century and a half ago had seen the problem and left a beautiful sentence instead of a solution.
-
-"Thank you," Orel muttered. "Very useful."
+Two dead Witnesses had argued in the margin and left her neither conclusion.
 
 Her voice echoed through the vault.
 
@@ -1094,8 +1046,6 @@ A profitable arrangement, once sensible people built trade around it.
 
 But if the old geographic language defining the channel was in doubt, then somebody had apparently decided that moving six hundred sacks of Tavin Ro's grain would prejudice a future legal claim.
 
-Civilization, Tavin thought, was the art of finding sophisticated reasons to do stupid things.
-
 "Send carts."
 
 "Along the east road?"
@@ -1131,8 +1081,6 @@ No sacks meant no unloading wages.
 No wages meant no market purchases.
 
 No purchases meant somebody else's problem by evening.
-
-A boundary stone in a ferry village had begun traveling faster than any ship.
 
 "Buy the bonds," Tavin said.
 
@@ -1179,12 +1127,6 @@ Tavin disliked that.
 "I need the quay functioning when the barges move again."
 
 "Of course."
-
-It was easier if people believed every mercy concealed arithmetic.
-
-Often it did.
-
-Not always.
 
 Tavin walked toward the scale house.
 
