@@ -34,15 +34,13 @@ Every claim created during Foundation Phase 0 must be tagged:
 
 ## 3. Creative Thesis
 
-Create an original American epic-fantasy world informed by:
-- monumental geography and deep historical layering;
-- ensemble political/personal storytelling;
-- painterly, hand-crafted environmental wonder;
-- Southern/American roadside culture, football culture, country clubs, swamps, mountains, diners, barbershops, gambling ledgers, tailgates, neon, weather, old money, and strange local customs.
+Create an original PSFL epic-fantasy world by combining two distinct influence layers:
+- **Visual/artistic influence:** painterly, hand-crafted animation sensibilities associated with Hayao Miyazaki's work—expressive characters, lush living environments, atmospheric skies and weather, tactile objects and machinery, warm interiors, environmental motion, visual wonder, and meaningful quiet moments. Do not copy specific films, characters, compositions, or protected designs; translate these high-level artistic qualities into an original visual language.
+- **Epic-fantasy content/scale influence:** the monumental geography, ancient history, ruins, fortresses, wilderness, journeys, material realism, danger, factions, and civilizational depth associated with LOTR-style epic fantasy.
 
-Do not imitate a living artist's exact style. Translate influences into original design principles.
+This is **not 'Americanized Miyazaki.'** Japanese cultural coding is not the target. American/Southern/football/roadside/country-club/swamp/diner/barbershop elements arise organically from established PSFL character and league canon. They are the subject matter of this universe, while the painterly animation influence governs visual feeling and LOTR-like epic fantasy informs scale, history, geography, and adventure.
 
-The tonal signature is **mythic scale + specific American absurdity + sincere character consequence**.
+The tonal signature is **painterly wonder + epic historical scale + specific PSFL absurdity + sincere character consequence**.
 
 A sword, golf cart, Sonic bag, motorcycle, championship belt, tavern ledger, and mountain fortress must be capable of belonging to the same civilization without feeling like disconnected jokes.
 
