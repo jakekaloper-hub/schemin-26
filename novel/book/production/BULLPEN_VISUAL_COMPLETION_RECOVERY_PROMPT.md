@@ -520,3 +520,89 @@ The author is not the production supervisor.
 **BOARD → BUILD → RENDER → AUDIT → REJECT/REVISE → PERSIST → DEPLOY → VERIFY.**
 
 Continue until the public reader at **https://scheminnovel.netlify.app/** satisfies the approved visual reference with CRITICAL = 0 and MAJOR = 0.
+
+
+---
+
+# 17. AUTHOR REJECTION — 2026-09-26 15:44 EDT — BINDING VISUAL DELTA
+
+The author has supplied a side-by-side failure example and the target reference.
+
+## REJECTED OUTPUT
+The deployed reader currently shows:
+- flat brown vector/SVG panels;
+- geometric placeholder scenery;
+- ordinary cream text pages;
+- hard rectangular 50/50 image/text division;
+- minimal/no physical-book illusion;
+- no cinematic character/environment painting;
+- no integrated map/sketch/marginalia system;
+- no weathered page edges or convincing gutter;
+- repeated template composition.
+
+**This is a HARD FAIL. Do not iterate on this visual system. Delete it from the final reader.**
+
+## TARGET REFERENCE
+The author-supplied target is the open illustrated SCHEMIN'26 spread showing:
+- one convincing physical leather-bound open book;
+- weathered, torn, stained parchment edges;
+- deep central gutter and dimensional page stack;
+- a cinematic painterly fantasy environment occupying most of the left page;
+- character integrated naturally into that environment;
+- golden-hour atmospheric depth and monumental landscape;
+- right-page manuscript typography living inside protected parchment negative space;
+- chapter title and illuminated drop cap;
+- inset painted city/environment vignette;
+- hand-drawn cartographic fragment;
+- compass rose;
+- pinned/torn handwritten field notes;
+- architectural/ruin sketches;
+- boundary/survey annotations;
+- botanical/seasonal fragments;
+- visual motifs crossing page edges and margins;
+- every element composed as one physical spread rather than two web columns.
+
+The reference contains generated/invented prose and names. Those words are NOT Story Canon and MUST NOT be copied. Only its **visual production grammar, density, hierarchy, materiality and cinematic ambition** are binding.
+
+## PIXEL-LEVEL PRODUCT TEST
+At normal desktop zoom, a screenshot of a finished SCHEMIN spread must be immediately recognizable as the same CATEGORY OF PRODUCT as the target reference: a premium illustrated physical fantasy tome photographed/scanned as an open spread.
+
+If a screenshot could reasonably be described as:
+- a website with parchment styling;
+- an ebook with an image beside text;
+- a vector illustration;
+- a two-column article;
+- a brown wireframe;
+then the spread automatically fails.
+
+## IMPLEMENTATION CONSEQUENCE
+Do not use SVG illustration primitives for final artwork.
+Do not use CSS gradients as final artwork.
+Do not use a generic .pf-spread template as the dominant composition.
+Do not manufacture final spreads in JavaScript.
+Do not preserve the existing left-art/right-text visual architecture merely because it is already coded.
+
+Instead:
+1. Generate a bespoke high-resolution raster background/composite for EACH spread, using the target reference as visual reference.
+2. Generate art WITHOUT authoritative manuscript prose.
+3. Reserve deliberate quiet parchment zones for prose.
+4. Overlay exact canonical prose as HTML in those reserved zones.
+5. Permit each spread to have its own DOM/layout geometry matching its art.
+6. Use transparent/positioned manuscript regions when necessary so text visually belongs to the illustrated parchment.
+7. Persist the raster assets into the Netlify-published repository.
+8. Render screenshots and compare them directly against the target reference before PASS.
+
+## FIRST-SPREAD CALIBRATION GATE
+Before mass production, the first completed spread must pass a direct A/B visual comparison against the author's target reference on:
+- physical-book realism;
+- cinematic painting quality;
+- page-edge/gutter materiality;
+- artifact/marginalia density;
+- typography integration;
+- composition sophistication;
+- scene specificity;
+- overall visual richness.
+
+This calibration spread is not a prototype to show the author and stop. It is an internal gate. Once PASS, immediately propagate the approved production system across every released spread.
+
+**The currently deployed brown/vector edition is evidence of failure, not a base design.**
