@@ -135,6 +135,32 @@ steaming chili bowl/pot; chili branding; dark Western stable/hideout.\
 **Never:** retired bear/bloodhound character, Chili King, Chili Beast,
 Chili Gremlin, or generic cowboy.
 
+## Official Illustration Standard / Character Snapshot
+
+**Status:** BULLPEN-CLAIMED VISUAL STANDARD — 2026-09-26.
+
+The approved 12-owner **League Character Canon lineup artwork** is the official at-a-glance character snapshot and illustration-quality benchmark for Schemin '26. Future Weekly Memo OS, Live Looks, matchup art, covers, owner spotlights, social graphics, novel illustrations, and other Schemin '26 productions must use this snapshot together with each owner's approved spotlight/reference and this written canon.
+
+### Illustration doctrine
+- **Identity fidelity outranks style.** New compositions may become more cinematic, painterly, graphic, atmospheric, or narratively ambitious, but may not reinterpret the owner.
+- Preserve each character's canonical **silhouette, species/body form, facial/head concept, signature wardrobe, signature props, companion relationships, and core palette/material language**.
+- Treat the lineup snapshot as the **cross-character consistency plate**: relative visual vocabulary, finish quality, dramatic lighting, texture density, readable silhouette, and unified Schemin-world presentation should meet or exceed it.
+- Use **Da Vinci-level observational construction** as the aspiration: believable anatomy and weight, coherent perspective, purposeful gesture, material realism, atmospheric depth, motivated light, foreground/midground/background storytelling, and small environmental details that reveal character history.
+- Do not clone the snapshot composition. It is a **character/quality anchor**, not a layout template. Every new illustration should advance the weekly story.
+- Character evolution is allowed through **emotion, wear, weather, trophies/props that are canonically permitted, setting, scars/dirt, posture, relationships, and season narrative**; identity mutation is not.
+- For multi-character scenes, independently resolve every owner before generation. Never blend anatomy, wardrobe, props, companions, or motifs between owners.
+- When the lineup snapshot conflicts with a newer explicit Jake-approved character correction, the newer explicit correction wins. Example: **ObiWan Jacoby remains NO CHAMPIONSHIP BELT.**
+- The Bullpen/Character QA gate must reject any image that is visually impressive but canonically wrong.
+
+### Required visual-reference stack
+1. Latest explicit Jake-approved correction.
+2. Owner's official canonical spotlight/reference.
+3. Official League Character Canon lineup snapshot.
+4. This Master Character Canon.
+5. Prior published artwork that passed Character QA.
+
+The lineup artwork therefore does **not** supersede individual owner references; it binds them into one shared visual system.
+
 ## Character Drift QA
 
 Every published visual must return: - OWNER MATCH = PASS - TEAM/OWNER
