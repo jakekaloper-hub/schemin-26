@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CharacterState",
+  "type": "object",
+  "required": [
+    "character_id",
+    "as_of",
+    "location",
+    "knowledge",
+    "desires",
+    "relationships"
+  ],
+  "properties": {
+    "character_id": {
+      "type": "string"
+    },
+    "as_of": {
+      "type": "string"
+    },
+    "location": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "physical_state": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "possessions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "knowledge": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "beliefs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "desires": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "fears": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "secrets": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "relationships": {
+      "type": "object"
+    },
+    "emotional_pressure": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "last_scene": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": false
+}
