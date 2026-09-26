@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NarrativeDebt",
+  "type": "object",
+  "required": [
+    "id",
+    "kind",
+    "description",
+    "opened_at",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "kind": {
+      "enum": [
+        "promise",
+        "threat",
+        "mystery",
+        "prophecy",
+        "rivalry",
+        "relationship",
+        "object",
+        "political",
+        "question",
+        "foreshadowing"
+      ]
+    },
+    "description": {
+      "type": "string"
+    },
+    "opened_at": {
+      "type": "string"
+    },
+    "owners": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "expected_horizon": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "enum": [
+        "OPEN",
+        "ADVANCING",
+        "PAID",
+        "ABANDONED",
+        "INVALIDATED"
+      ]
+    },
+    "advanced_in": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "possible_payoff_classes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}
