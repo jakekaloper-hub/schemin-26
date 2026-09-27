@@ -220,3 +220,33 @@ companion **The Dark Horse**.
 
 > **Owners own characters. Teams own names. Names can change; characters
 > do not.**
+
+---
+
+## v2.0 REFERENCE-PLATE EXECUTION PATCH — BINDING
+
+**Status:** CANONICAL / RELEASE-BLOCKING  
+**Approved:** 2026-09-27  
+**Applies to:** Weekly Memo OS, Chronicles, Living Novel, matchup art, covers, owner spotlights, promotional art, and every downstream Schemin '26 visual workflow.
+
+### Canon packet
+Character continuity is controlled by one indivisible packet: this Master Character Canon is semantic authority; the Jake-approved twelve-owner master lineup/reference plate produced from the v2 continuity test is visual authority. The visual authority is an appearance source of truth, not inspiration. Written invariants override conflicting artifact details. **ObiWan Jacoby has NO championship belt.**
+
+### Mandatory preflight
+Before ANY image-generation call containing league characters, the producing agent MUST: resolve OWNER → CANONICAL CHARACTER → CURRENT VERIFIED TEAM NAME; load this Master Character Canon; load the approved master lineup/reference image; isolate the requested owner's canonical appearance; build a CHARACTER_PACKET_LOCK containing owner, character, current team, species/body architecture, face/head construction, body mass, wardrobe, signature props, companion, palette/materials, silhouette, forbidden mutations and explicit overrides; and pass the approved visual reference into the image-capable generation step whenever reference images are supported.
+
+**A request using only a team name, prose description, prior memo page, or generic prompt is INVALID. Text-only generation fails preflight for continuity-critical art.**
+
+### Mandatory generation prefix
+**SCHEMIN '26 REFERENCE-PLATE LOCK — DO NOT REDESIGN.** Use the supplied approved League Character Canon reference image as visual identity authority. Match the requested owner's canonical appearance for anatomy, face/head, body form, hair/fur/scales, wardrobe construction, signature equipment/companion, palette, materials and silhouette. Preserve identity. Vary only pose, expression, action, camera, environment, weather, lighting and story-specific wear. Never merge owners. Never literalize team names. Written canon overrides conflicting visual details. ObiWan Jacoby has NO championship belt.
+
+### Release-blocking Character QA
+No generated image advances until Character QA verifies: correct owner/character; species/body architecture; face/head construction; body mass/silhouette; wardrobe/armor; signature props; companion when required; palette/material language; at least four panel-specific identity anchors when composition permits; no cross-character contamination; no retired design; no rename-triggered redesign; and all explicit invariants. Any major mismatch is **REJECT / REGENERATE**, never close enough.
+
+### Ensemble rule
+For multi-character scenes, build one CHARACTER_PACKET_LOCK per depicted owner. Never ask the image model to infer identities from names. The approved lineup demonstrates the canonical twelve; it does not authorize blending them.
+
+### Memo OS integration
+FACT LOCK → OWNER RESOLUTION → CHARACTER PACKET LOCK → STORY / ART DIRECTION → REFERENCE-ATTACHED GENERATION → CHARACTER QA → PAGE QA → PUBLICATION LOCK
+
+CHARACTER_PACKET_LOCK and CHARACTER QA are hard gates. A page cannot reach Publication Lock while either is missing or failed.
