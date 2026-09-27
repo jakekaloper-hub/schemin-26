@@ -1,17 +1,16 @@
 # Bobby Mitchell — Swamp-Born Menace
 
 ## Identity lock
-Gigantic quadrupedal mud-caked dog/wolf beast; feral, broad canine skull, torn wet fur, orange/amber eyes, jagged teeth, heavy chain/collar, flooded-swamp language.
+Gigantic quadrupedal mud-caked dog/wolf beast; feral broad canine skull; torn wet fur; orange/amber eyes; jagged teeth; heavy chain/collar; flooded-swamp language.
 
 ## Evidence anchors
-Current: Mud Dogs, Team 10.
-Historical slot won 2020 as Where Mahomies at? at the team-slot level; historical human-owner attribution remains subject to owner-lineage evidence.
+Current: Mud Dogs, Team 10. Historical slot won 2020 as Where Mahomies at?; historical human-owner attribution remains separately governed.
 
 ## Literary placement
-A nonhuman power emerging from the southern wetlands where outsiders struggle to move, supply and understand local conditions.
+A nonhuman power emerging from southern wetlands where outsiders struggle to move, supply and understand local conditions.
 
 ## Public reputation
-Terrifying, difficult to civilize, and routinely mistaken for simple violence.
+Terrifying, difficult to civilize, routinely mistaken for simple violence.
 
 ## Interior logic — INTERPRETIVE CANON
 Understands territory through scent, memory, path and intrusion rather than written abstraction.
