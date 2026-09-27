@@ -1,14 +1,13 @@
 # Manning Welty — The Weather System
 
 ## Identity lock
-Towering elemental humanoid made from storm water, sea spray, cloud and turbulence; electric-blue eyes; cyclone motifs; lightning; flooded-stadium language.
+Towering elemental humanoid made from storm water, sea spray, cloud and turbulence; electric-blue eyes; cyclone motifs; lightning.
 
 ## Evidence anchors
-Current: El Niño, Team 9.
-2022 champion after 7-7 regular season, defeating 13-1 Red Leopards in semifinal. 2023 regular-season leader at 11-3 but did not reach final. Third in 2024.
+Current: El Niño, Team 9. 2022 champion after 7-7 regular season, defeating 13-1 Red Leopards in semifinal. 2023 regular-season leader at 11-3 but did not reach final. Third in 2024.
 
 ## Literary placement
-An extraordinary elemental presence associated with the storm coast, but embedded in human institutions rather than worshipped as a god.
+An extraordinary elemental presence associated with the storm coast, embedded in human institutions rather than worshipped as a god.
 
 ## Public reputation
 Unpredictable only to those who confuse weather with randomness; capable of changing the conditions under which everyone else must act.
@@ -44,10 +43,10 @@ Storm-coast networks, maritime knowledge, unusual physical presence.
 Institutions may fear what they cannot standardize.
 
 ## Historical burden
-2022 proved weak regular-season standing could culminate in supremacy; 2023 proved regular-season supremacy could still fail.
+2022 and 2023 embody the legitimacy paradox from opposite directions.
 
 ## 2026 opening pressure
-His own history embodies the league's legitimacy paradox from both directions.
+His own history challenges simplistic ideas of deserved supremacy.
 
 ## Branchable arcs
 Volatility becomes wisdom; adaptability becomes rootlessness; elemental outsider becomes institutional reformer.
