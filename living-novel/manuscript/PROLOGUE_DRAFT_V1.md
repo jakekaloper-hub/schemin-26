@@ -1143,3 +1143,278 @@ Guards had been doubled. Taverns had chosen favorites. Children had adopted mann
 The Contest had not begun.
 
 The world had already moved.
+
+
+# MOVEMENT V — THRESHOLD
+
+On the final night before opening assembly, Edrin could not sleep.
+
+He returned to the Record House. The city remained awake: music in the western quarter, hooves on stone, river bells answering one another.
+
+Oren sat beneath the champions' names with two cups of tea.
+
+"Tomorrow," Edrin said.
+
+"Tomorrow."
+
+"Who wins?"
+
+Oren looked offended. "You have learned nothing."
+
+"I've learned enough to know you have an opinion."
+
+"Opinions are not records."
+
+"You are allowed to be a person after midnight."
+
+"That regulation is under review."
+
+They drank.
+
+The Farrell Trophy stood in darkness. The Belt's cradle remained empty.
+
+"The first time I worked an opening Contest," Oren said, "I thought history was what happened at the end."
+
+"The champion."
+
+"The champion. The final. The great reversal. The thing people carve into stone."
+
+He nodded toward the wall.
+
+"I thought those were history."
+
+"They aren't?"
+
+"They are the part history can point at."
+
+Oren turned his cup.
+
+"History is also the stable boy who notices a lame horse before a courier rides it. The clerk who copies a wrong number and forces two rivals into the same room. The cook who feeds a stranger. The bridge that remains standing. A person deciding to answer an insult. Another deciding not to."
+
+"The Archive doesn't record all that."
+
+"No."
+
+"Then it's lost."
+
+"Most things are."
+
+"That bothers you."
+
+"Of course."
+
+"Then why do this?"
+
+Oren was quiet.
+
+"Because losing most of the truth is not an argument for abandoning the part we can keep."
+
+Edrin thought of the Twelve spread throughout the city, and of everyone around them: cooks, grooms, clerks, merchants, guards, healers, laborers, children selling ribbons, priests opening shrines, boatmen cursing the traffic, farmers who cared about the Contest mainly because twelve great households ate an astonishing amount of grain.
+
+The world did not stop when champions arrived.
+
+It became crowded.
+
+Soft paws sounded at the doorway.
+
+A golden retriever stood in the entrance.
+
+Behind it, a man said, "There you are."
+
+Jake Kaloper appeared at the door in an earth-toned coat, blond hair untidy, his green weapon unlit at his side.
+
+"Sorry," he said.
+
+Oren asked, "For?"
+
+"Apparently trespassing."
+
+"The door is open."
+
+"That sounds like something an archivist says immediately before explaining why entering was illegal."
+
+Jake looked at the Trophy.
+
+The humor left his face.
+
+The retriever crossed the Hall and sat beside Edrin.
+
+Jake approached the Trophy but did not touch it.
+
+His name stood on the wall.
+
+Then the next champion.
+
+ObiWan Jacoby.
+
+The Immortal.
+
+Victory.
+
+Defeat.
+
+Two lines of carved stone.
+
+An entire year between them.
+
+"You changed the spacing," Jake said.
+
+"We did."
+
+"Why?"
+
+"The Immortal is shorter."
+
+Jake stared at Oren.
+
+"Of course."
+
+His eyes moved to the empty Belt cradle.
+
+"Strange seeing that empty."
+
+"You've seen it empty before."
+
+"Not from this side."
+
+Oren watched him.
+
+"You're doing the archivist thing," Jake said.
+
+"I am an archivist."
+
+"The thing where you wait until someone says more than they intended."
+
+"Does it work?"
+
+"Annoyingly."
+
+Jake looked again at the cradle.
+
+"He came?"
+
+"Yes."
+
+"With it?"
+
+"Yes."
+
+Jake nodded.
+
+That was all.
+
+Edrin remembered the rule.
+
+Silence was evidence only of silence.
+
+The dog leaned against his leg. Edrin scratched behind her ear.
+
+Jake glanced over.
+
+"Traitor."
+
+Her tail struck the floor.
+
+Jake turned to leave, then stopped at the threshold.
+
+"Master Oren. Tomorrow, when they ask what the year means, what will you tell them?"
+
+Oren looked at the wall.
+
+Eleven champions.
+
+One empty cradle.
+
+One Trophy that stayed.
+
+"That it hasn't happened yet."
+
+Jake nodded and disappeared into the gallery with the retriever.
+
+After a while Edrin asked, "You knew he'd come?"
+
+"No."
+
+"You left the door open."
+
+"I leave it open before every Contest."
+
+"Why?"
+
+"Because archives should be difficult to alter and easy to enter."
+
+"That sounds contradictory."
+
+"Most useful principles are."
+
+Dawn whitened the eastern windows.
+
+Across the city, bells answered one another.
+
+One by one, lights appeared in the compounds of the Twelve.
+
+Edrin went to the window.
+
+People were already moving toward the assembly grounds.
+
+Not legends.
+
+People.
+
+Thousands of them.
+
+He thought about the wall behind him: how clean it looked, how inevitable.
+
+Nothing carved there showed uncertainty.
+
+Nothing showed the morning before.
+
+That, he understood now, was the trick history played after it happened.
+
+It removed the fog.
+
+Edrin picked up the day's first blank register.
+
+At the top he wrote the year.
+
+Below it, he drew a line.
+
+He paused with the pen above the empty space.
+
+The Belt Keeper was still champion.
+
+The former champion was still without it.
+
+The Red Leopards had not yet proved whether strength would become legitimacy.
+
+El Niño had not yet changed anyone's weather.
+
+The Podium Shadow had not yet risen or fallen.
+
+The LLC had not yet acquired what could be acquired.
+
+The Chili Outlaw had not yet learned what spectacle would cost.
+
+The Arsenal Centaur had not yet tested philosophy against consequence.
+
+The Mud Dogs had not yet decided how much of the civilized world they would tolerate.
+
+Dr. Duckhook had not yet found the angle.
+
+Seven Deadly Chins had not yet broken the respectable plan.
+
+Slob on my Dobb had not yet made the word *no* interesting.
+
+ObiWan Jacoby had not yet made the first move.
+
+None of it had happened.
+
+That was the truth.
+
+And because none of it had happened, all of it still could.
+
+Edrin lowered the pen.
+
+From the assembly grounds came the first great roar of the morning.
+
+The twelfth season had begun.
