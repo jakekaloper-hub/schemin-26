@@ -45,5 +45,5 @@ test("unavailable production adapter fails closed",async()=>{
  const worker=requireProductionAdapter("image-generation");
  const workers={worker,gate:async()=>({pass:true})};
  const r=await new BullpenRuntime({workers}).run({jobId:"adapter",pipeline:{id:"p",stages:[{id:"x",worker:"worker",gate:"gate"}]}});
- assert.equal(r.status,STATUS.FAILED);assert.match(r.failure.reason,/BLOCKED_EXTERNAL_ADAPTER/);
+ assert.equal(r.status,STATUS.BLOCKED);assert.match(r.failure.reason,/BLOCKED_EXTERNAL_DEPENDENCY/);
 });
