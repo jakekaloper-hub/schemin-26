@@ -1,12 +1,8 @@
 name: Bullpen Runtime CI
 on:
   push:
-    paths:
-      - "bullpen-runtime/**"
-      - ".github/workflows/bullpen-runtime-ci.yml"
   pull_request:
-    paths:
-      - "bullpen-runtime/**"
+  workflow_dispatch:
 jobs:
   test:
     runs-on: ubuntu-latest
