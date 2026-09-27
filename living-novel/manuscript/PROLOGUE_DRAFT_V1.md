@@ -572,3 +572,132 @@ He broke the seal.
 ---
 
 *End Movement I.*
+
+
+# MOVEMENT II — THE ARGUMENT
+
+By noon the rain had stopped, and the city began arguing.
+
+It argued in markets, beneath bridges, and inside counting houses. At the Record House, argument arrived as paperwork: toll exemptions, lodging claims, stable assignments, procession routes, and complaints whose authors considered every inconvenience historic.
+
+"History," Edrin said, "is mostly people wanting money."
+
+Oren did not look up. "Money is one of the ways people prove they remember."
+
+A clerk brought a red dispatch case sealed with the mark of the Leopards. The message confirmed an arrival window and requested that the eastern practice grounds be measured before and after their use.
+
+"Why twice?" Edrin asked.
+
+"Because three years ago a boundary marker moved."
+
+"Who moved it?"
+
+"That remains a subject of theology."
+
+"So they remember."
+
+"Everyone remembers the evidence that supports the person they have decided to become."
+
+Oren took Edrin across the river to the Hall of Measures.
+
+From the bridge, Edrin could see the city's reason for existing. A mountain-fed river divided around mill islands, narrowed between embankments, then bent toward the southern delta. Roads converged upon it. Warehouses climbed the banks. Barges carried grain, timber, wool and ore.
+
+No king had founded the city.
+
+Geography had.
+
+Someone had built walls around the opportunity. Someone else had taxed it. Everyone since had argued over the rates.
+
+Inside the Hall, representatives of several recognized powers disputed whether arrival after sunset on the final registration day counted as late.
+
+"It is after the day," said one.
+
+"It is still the day," said another.
+
+"The sun has set."
+
+"The date has not changed."
+
+"According to whose clock?"
+
+The room erupted.
+
+Registrar Pell struck the table with a wooden rule.
+
+A Leopard representative said, "A rule requiring six adults to debate whether night exists is not a rule."
+
+Across the table, an immaculate representative of the LLC replied, "Ambiguity is not absence. It is inadequate drafting. Define the interval by the civic bells."
+
+Someone called from the rear, "And who controls the bells?"
+
+The argument doubled.
+
+Oren smiled.
+
+"There."
+
+"What?"
+
+"The real argument."
+
+Edrin listened.
+
+They were not arguing about sunset. They were arguing about who could define a boundary. Whether custom outranked writing. Whether a city could impose time upon travelers. Whether precision favored powers wealthy enough to employ clerks.
+
+A dispute about a clock contained a dispute about the world.
+
+Pell eventually ruled that the old language would remain for the coming Contest and could be revised in winter.
+
+Every faction left claiming partial victory.
+
+"Facts don't stop arguments," Edrin said.
+
+"No," Oren replied. "They make better arguments possible."
+
+On their return, boys near the grain exchange had chalked a wagering board onto a wall. Vendors sold printed sheets depicting the approaching Twelve with magnificent inaccuracy. The Belt Keeper had fangs. The Trade Jedi had wings. El Niño was a thundercloud wearing boots.
+
+Edrin bought one.
+
+"For the Archive."
+
+"Naturally," Oren said, and put it inside his coat.
+
+That evening more dispatches arrived. One bore dried mud. One smelled of smoke and pepper. One was damp despite the clear sky. Another contained instructions for accommodating an animal of extraordinary size.
+
+Then a low sound rolled across the southern quarter.
+
+The windows trembled.
+
+Every pigeon on the Record House roof lifted into the air.
+
+Edrin moved to the glass.
+
+People near the southern gate were running toward it.
+
+Another deep call sounded from beyond the walls.
+
+"Mud Dogs?" Edrin asked.
+
+"Perhaps."
+
+"You always say perhaps."
+
+"Because I prefer being correct later to impressive now."
+
+The gate bells began ringing.
+
+First warning.
+
+Then, after a confused pause, arrival.
+
+Edrin laughed. "Nobody knows which bell to use."
+
+"Write that down."
+
+"Seriously?"
+
+"Especially that."
+
+Outside, the argument changed subject.
+
+It did not end.
