@@ -189,3 +189,142 @@ Bookkeeper: lightweight production telemetry.
 10. Commit accepted canon deltas and assemble the issue.
 
 **Doctrine:** Build the Chronicle Engine by making a great book—not by delaying the book to design a perfect engine.
+
+## 15. Owner Creative Rulings — 2026-09-26
+
+These are binding unless Jake explicitly changes them.
+
+### Ruling A — Literal Event Doctrine
+Published matchup events literally occur inside the Schemin' world. They are not merely editorial metaphors. The fiction may use legend, rumor, disputed interpretation, imperfect witnesses and chronicler framing, but it may not retroactively dismiss a published event as "only symbolic."
+
+This does **not** mean ESPN fantasy mechanics literally exist as visible scoreboards or magical numbers inside everyday life.
+
+### Ruling B — Competition Translation Doctrine
+The real PSFL/ESPN league is the factual substrate. Inside the world, weekly matchups are translated into contests, conflicts, journeys, negotiations, sieges, races, storms, social confrontations, games of skill, commercial warfare, ritual encounters or other setting-appropriate events.
+
+Do not force every matchup into physical combat.
+The real result determines historical outcome; the narrative form is selected for character/world fit.
+
+### Ruling C — World Blend
+The desired universe combines high-level qualities from:
+- dynastic political fantasy: factions, consequences, ambition, alliances, grudges, contested histories;
+- epic fantasy: deep time, geography, journeys, ruins, inherited artifacts, myth and civilizational scale;
+- magic/fantasy: supernatural inhabitants, artifacts and phenomena where useful;
+- hand-painted animated storytelling: expressive acting, tactile environments, weather, wonder, quiet humanity and environmental motion.
+
+The resulting execution must be an **original Schemin' identity**, not imitation of a specific living author's prose or a specific filmmaker/artist's protected style. Japanese cultural coding is not a default design language.
+
+### Ruling D — Mature Audience
+Primary audience is adult men around age 32. The Chronicle may use mature comedy, rivalry, alcohol/tavern/gambling context, profanity where editorially useful, danger, darker consequences and non-gratuitous fantasy violence.
+
+Maturity should come primarily from consequence, wit, social conflict and character—not shock escalation. Production must remain within applicable platform/safety constraints so an avoidable content failure does not break the pipeline.
+
+### Ruling E — Identity Naming System
+Narrative may mix:
+- canonical character/epithet;
+- current ESPN team name;
+- real first name / established nickname when appropriate.
+
+The Beat Writer chooses based on narrative distance and clarity. Each chapter dossier must include an alias map so naming remains intentional rather than random. Team rename history must remain temporally correct.
+
+### Ruling F — Narrator Decision
+Bullpen owns the narrator architecture.
+
+Board direction: use a **layered chronicle model** rather than one omniscient mascot narrator:
+1. primary third-person historical narrator with an original Schemin' voice;
+2. in-world artifacts, ledgers, letters, rumors, receipts and quoted witnesses that can disagree;
+3. an identifiable in-world chronicler/institution may emerge later only if the story earns it.
+
+This preserves authority while allowing contested history, humor and mystery. Do not introduce a permanent narrator character merely to fill the role.
+
+## 16. Character Master Cannon.pdf — Supreme Visual Authority
+
+Jake's `Character Master Cannon.pdf` is the mandatory highest visual identity authority for all twelve inhabitants.
+
+Rules:
+1. No character-bearing illustration can receive final CANON PASS without comparison against the PDF.
+2. Derived Markdown character packets are retrieval aids, never substitutes for the source PDF.
+3. When derived notes conflict with the PDF, the PDF wins unless Jake explicitly issues a later correction.
+4. Every art brief must hydrate the relevant character's identity anchors and DO-NOT rules from the PDF.
+5. Every rendered character receives a post-generation visual comparison before page lock.
+6. Team rename, weekly joke, setting, costume variation or narrative event may not silently redesign the character.
+7. Any intentional permanent character evolution requires a canon-delta decision and provenance.
+
+**Current dependency status:** the repository search did not locate the source PDF. World/history work may continue, but final character-art certification is BLOCKED until the PDF is available to the production system.
+
+## 17. Deep-Time / League-History Doctrine
+
+The world must feel older than 2026.
+
+However, the Chronicle may not fabricate prior PSFL champions, records, transactions or season outcomes merely to create age.
+
+### Historical archaeology pipeline
+```
+HISTORICAL ESPN / COMMISSIONER EVIDENCE
+→ SEASON FACT LEDGER
+→ OWNER / TEAM / RENAME RESOLUTION
+→ CHAMPIONSHIP & RIVALRY TIMELINE
+→ HISTORICAL SIGNIFICANCE PASS
+→ IN-WORLD HISTORICAL TRANSLATION
+→ LORE / LEGEND LAYER
+→ PROVENANCE AUDIT
+→ CANON HISTORY
+```
+
+Verified league history becomes the skeleton of prior ages. Creative writing may then dramatize that skeleton into dynasties, fallen houses, old roads, former strongholds, legendary collapses, remembered championships, disputed retellings and inherited grudges.
+
+Maintain three temporal layers:
+- **RECORDED HISTORY:** verified PSFL facts.
+- **CHRONICLE HISTORY:** accepted fictional dramatization of those facts.
+- **LEGEND/FOLKLORE:** deliberately uncertain in-world stories that may embellish or contradict one another.
+
+This permits mythic depth without corrupting factual league history.
+
+### Literary approach to prior years
+Use broad craft qualities associated with epic historical fantasy: deep time, genealogy, consequence, political memory, geography, competing accounts, inherited grudges and artifacts whose meaning changes across generations. Do not imitate the distinctive prose of living authors.
+
+2026 should read as **the current age of an already old competition**, not the creation of the universe.
+
+## 18. Senior Bullpen Consequences
+
+### Closer
+Week 3 production now has enough owner-level creative authority to proceed without repeated taste questions. Escalate only true canon conflicts or irreversible world decisions.
+
+### Librarian
+Create a Historical Canon Registry separated by season. Never collapse current team name, historical team name, owner identity and fictional epithet into one field.
+
+### Scout
+Historical ESPN evidence must be collected season-by-season. Missing seasons remain UNKNOWN; do not bridge them with invented standings.
+
+### Beat Writer
+Prior seasons are not exposition dumps. Historical material enters current chapters only when it changes how a present conflict is understood.
+
+### Analyst
+Build significance around championships, playoff reversals, repeated rivalries, scoring extremes, collapses, streaks, trades and persistent owner patterns—without turning statistics into destiny.
+
+### Architect
+Add temporal validity to entities: `valid_from`, `valid_to`, `source_season`, `source_event`, `canon_status`. This is mandatory for rename history and evolving relationships.
+
+### Visual Development
+Old history needs its own visual aging grammar—weathered murals, earlier uniforms/gear states, old maps, damaged monuments, faded receipts—while retaining Character Master identity.
+
+### Umpire
+Add two blocking tests: CHARACTER MASTER PDF MATCH and HISTORICAL PROVENANCE. Neither can be waived by visual quality.
+
+### Commissioner General
+Influences are decomposed into high-level craft attributes before prompting. Final prose/art direction must be describable as Schemin' without relying on creator names.
+
+### Groundskeeper
+Do not attempt to novelize every historical season before Week 3. Build a verified timeline first; dramatize historical episodes only when they enrich current chapters or future dedicated volumes.
+
+## 19. Immediate Revised Work Order
+1. Make `Character Master Cannon.pdf` available to the production system and register its provenance.
+2. Finish Week 1–2 page-level canon harvest.
+3. Begin historical ESPN/commissioner archaeology for seasons prior to 2026.
+4. Build the season-indexed Historical Fact Ledger.
+5. Create the 12 current-state dossiers with alias/rename maps.
+6. Capture Week 3 Event Ledger.
+7. After Week 3 result lock, produce six Chapter Dossiers.
+8. Prototype one complete chapter under these rulings.
+9. Audit truth, history, character PDF fidelity, continuity and rendered reading experience.
+10. Commit accepted canon deltas and continue production.
