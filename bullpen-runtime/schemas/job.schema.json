@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema.json",
+  "title": "BullpenJob",
+  "type": "object",
+  "required": [
+    "jobId",
+    "pipeline",
+    "status",
+    "stages",
+    "artifacts"
+  ],
+  "properties": {
+    "jobId": {
+      "type": "string"
+    },
+    "pipeline": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "pending",
+        "running",
+        "passed",
+        "failed",
+        "blocked"
+      ]
+    },
+    "stages": {
+      "type": "array"
+    },
+    "artifacts": {
+      "type": "array"
+    },
+    "failure": {
+      "type": "object"
+    }
+  }
+}
