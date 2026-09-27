@@ -906,3 +906,240 @@ Edrin shut the register.
 Outside, the city began shouting again.
 
 A new standard had appeared on the western road.
+
+
+# MOVEMENT IV — THE ROADS OPEN
+
+They did not arrive as twelve.
+
+They arrived as weather, debt, appetite, rumor, hoofbeat, mud, argument and work.
+
+The Chili Outlaw came from the west beneath a black hat, riding a horse so dark that children argued whether it was brown, black or simply made of night. His wagons smelled of smoke and pepper. Before registration was complete, three city officials had eaten from his camp and one accepted a second bowl while continuing to insist the camp violated fire regulations.
+
+The Arsenal Centaur entered at a trot two mornings later.
+
+The crowd had prepared for a rider. They had not prepared for rider and horse to be the same creature.
+
+Wilson Look was enormous, pale-haired and red-armored, four-legged and entirely unconcerned by the crisis he caused among stablemasters.
+
+"Do we charge him for a stall?" one demanded.
+
+"Does he want a stall?" Edrin asked.
+
+"That is not the point."
+
+"It feels like the point."
+
+A deep voice came from the courtyard.
+
+"I can hear you."
+
+The stablemaster went pale.
+
+Wilson's face appeared around the doorframe.
+
+"For the record," the centaur said, "I object to being billed as both guest and transportation."
+
+Edrin wrote that down.
+
+The Red Leopards arrived precisely when their dispatch said they would.
+
+Their grounds were measured before arrival, then measured again.
+
+The numbers matched.
+
+Kevin Zeek entered the field, red hide marked with black rosettes, amber eyes moving over walls, exits and distances. He tested the earth with one clawed foot and looked at the measuring cord.
+
+"Again."
+
+The official stared. "It matched."
+
+"I know."
+
+"Then why?"
+
+Kevin looked toward the boundary marker.
+
+"Because now you know I will ask."
+
+The Trade Jedi arrived with fewer wagons than expected.
+
+That worried the merchants.
+
+Men who brought large households needed food. Men who brought little baggage might already have arranged it.
+
+Jake Kaloper crossed the bridge in earth-toned layers, blond hair wind-tossed, a green-bladed weapon at his side and a golden retriever moving beside him with the confident expression of an animal that assumed every institution had been constructed partly for dogs.
+
+Edrin first saw Jake speaking with three people who had no apparent reason to be together: a grain factor, a northern courier and one of David Babb's contract men.
+
+By supper, all three denied having negotiated anything.
+
+Oren filed the denials together.
+
+The LLC arrived without arriving.
+
+A warehouse changed hands.
+
+Then a riverside office.
+
+Then six rooms at an inn whose owner insisted no sale had occurred.
+
+Then the city discovered David Babb had been present for two days.
+
+He appeared at registration in a dark three-piece suit, sunglasses despite the cloud cover, a cigar between two fingers and an LLC briefcase in hand.
+
+Registrar Pell said, "You failed to notify the gate."
+
+"I entered legally."
+
+"That was not my statement."
+
+"No," David said. "It was mine."
+
+The Podium Shadow came quietly.
+
+Phillip Pitts crossed the northern bridge at dusk, tall and scaled, long dreadlike tendrils trailing behind him. His black gear bore the number three.
+
+The archive remembered the fall attached to his place in the Contest: one victory and thirteen defeats in 2023.
+
+It also remembered what followed.
+
+Two seasons later, third.
+
+The city preferred the recovery.
+
+Phillip noticed the people who still preferred the fall.
+
+El Niño arrived from the east by water.
+
+There was no ship.
+
+At least, not at first.
+
+The harbor darkened beneath a bank of cloud. Wind pressed the flags west. Dockmen began shouting. Rain swept across the river in a silver wall.
+
+Inside it stood a shape.
+
+Human only in the broadest sense.
+
+Water and storm held together by intention.
+
+Lightning moved where veins might have been.
+
+Manning Welty stepped from the river onto the quay.
+
+Every person nearby moved backward.
+
+He looked at the puddle forming beneath him.
+
+"Sorry," he said.
+
+That did more to unsettle Edrin than thunder would have.
+
+The Mud Dogs did not use the main gate.
+
+Bobby Mitchell came through a drainage channel that the city engineer had repeatedly described as impassable.
+
+The city engineer resigned before lunch.
+
+Bobby was vast.
+
+Mud covered him in layers. A heavy chain hung from his collar. His eyes burned orange beneath wet fur.
+
+When he shook himself in the customs yard, several clerks and a table of registration documents acquired a convincing layer of southern marsh.
+
+Registrar Pell closed her eyes.
+
+Oren whispered, "Do not laugh."
+
+Edrin looked very carefully at his shoes.
+
+Seven Deadly Chins arrived to applause from people who had not been invited to applaud.
+
+Ben Whipple walked beside a wagon rather than riding in it, enormous hammer across one shoulder, trucker cap low, dirty white tank stretched over a body built less like a statue than a loading dock. A raccoon sat on the wagon seat eating something stolen.
+
+Laborers along the quay cheered.
+
+Ben raised the brown bottle in his hand.
+
+An official informed him that open drink was prohibited during registration.
+
+Ben handed him the bottle.
+
+"Hold this."
+
+Then registered.
+
+The official remained there holding it.
+
+Dr. Duckhook arrived from an estate road with the quietest procession and the largest collection of measuring instruments.
+
+Zach Wilson was a white duck in golf attire, orange bill fixed in concern at the angle of the Hall steps.
+
+He stopped halfway up.
+
+"Who designed these?"
+
+A mason near the door raised his hand.
+
+Zach pointed with the club integrated into his arm.
+
+"Third rise is wrong."
+
+The mason frowned. "They're equal."
+
+They measured.
+
+The third rise differed by less than the width of a thumbnail.
+
+Zach looked at Edrin.
+
+"That's how they get you."
+
+Edrin did not know who *they* were.
+
+He wrote it down anyway.
+
+Jordan Hollingshead could be heard before he could be seen.
+
+Music. Shouting. Metal striking metal.
+
+Then a huge horned figure came through the gate wearing battered armor and a filthy shirt, carrying a metal bat and followed by a pit bull, several wagons and enough debris to suggest the procession had begun somewhere cleaner.
+
+Registrar Pell met him personally.
+
+"No."
+
+Jordan stopped.
+
+"No what?"
+
+"Whatever you are about to do."
+
+He considered this.
+
+"That's broad."
+
+"Intentionally."
+
+He grinned.
+
+Edrin looked at Oren.
+
+Oren had closed his eyes.
+
+"History," Edrin whispered.
+
+"Unfortunately."
+
+By the final registration evening, all twelve powers were inside the city.
+
+No battle had occurred. No alliance had been declared. No betrayal had taken place.
+
+Yet prices had changed.
+
+Guards had been doubled. Taverns had chosen favorites. Children had adopted mannerisms. Merchants had extended credit. Priests had scheduled additional rites. Bookmakers had rewritten boards.
+
+The Contest had not begun.
+
+The world had already moved.
