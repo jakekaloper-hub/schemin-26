@@ -218,6 +218,58 @@ He put it inside his coat.
 
 Edrin wondered whether the Archive would ever see it again.
 
+It did not take long for the avenue to become commerce.
+
+By afternoon, vendors were selling folded copies of the returned receipt. A printer produced a broadside with a red paw pressed over a bowl of chili. Two taverns renamed meals. A courier company announced, with questionable taste, that it guaranteed delivery "unless addressed to a Leopard."
+
+More important changes happened quietly.
+
+A delegation from one of the river guilds canceled a scheduled dinner with Brandon's quartermaster and requested a meeting with Kevin's people instead.
+
+Not because one result made Red permanently stronger.
+
+Because people who controlled cargo preferred to be seen beside momentum.
+
+Edrin learned this from the guild secretary, who denied it three times before admitting it.
+
+"Reputation has credit value," she said.
+
+"How much?"
+
+"If I could answer that, I would own the exchange."
+
+At sunset Brandon's free food line opened anyway.
+
+It was shorter than the week before.
+
+He stood behind the pot himself.
+
+No speech.
+
+No attempt to hide.
+
+A boy reached the front carrying one of the counterfeit Red receipts.
+
+Brandon saw it.
+
+The boy froze.
+
+Brandon filled his bowl.
+
+"Keep the paper," he said.
+
+The boy ran.
+
+Brandon watched him go.
+
+Edrin, observing from across the street, realized humiliation had two possible uses.
+
+One could spend it immediately on anger.
+
+Or keep it.
+
+Brandon had chosen to keep the receipt.
+
 ## II. The Board
 
 The Hall of Measures installed the standings in stone.
@@ -355,6 +407,48 @@ Oren walked away.
 Edrin stayed.
 
 The stain remained.
+
+By evening, the board had begun moving things that were not attached to it.
+
+A weapons supplier delayed an order promised to a one-and-one house and redirected inventory toward Wilson's compound.
+
+A guide service doubled its rate for expeditions into Mud Dogs territory because three rival delegations suddenly wanted scouts who understood the southern wetlands.
+
+Two minor patrons who had spent opening week seeking invitations from the champion's residence appeared instead at the Centaur's public table.
+
+A bridge contractor sent Bobby Mitchell a proposal for raised walkways without being asked.
+
+Nobody called these acts allegiance.
+
+They were too small.
+
+That was how allegiance often began.
+
+Edrin found Oren reading the contractor's proposal.
+
+"Why is this in the Archive?"
+
+"Because Bobby sent it."
+
+"Why?"
+
+"He thought it was funny."
+
+"Is it?"
+
+"Ask the contractor."
+
+Edrin looked again at the two undefeated names.
+
+The board had not merely described the league.
+
+People were using it to decide where to put steel, labor, money and attention.
+
+Temporary standings had begun producing durable behavior.
+
+That seemed dangerous.
+
+Which, Edrin was learning, usually meant historically useful.
 
 ## III. Hostile Ground
 
@@ -610,9 +704,9 @@ Another braid fell.
 
 Edrin looked at the Snake.
 
-This was not mutilation.
+This was not mutilation, and it was not a new form.
 
-The tendrils had been damaged in the Encounter—scorched, torn, several split near the ends. Wilson was cutting away what could not be salvaged.
+The tendrils had been damaged in the Encounter—scorched, torn, several split near the ends. Wilson was cutting away only what could not be salvaged. The roots and principal locks remained; the barber had already prepared bindings and restorative oils, and Phillip's people expected the damaged lengths to be repaired or regrown into their established silhouette.
 
 That distinction mattered to the Character Registry.
 
