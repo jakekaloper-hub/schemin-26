@@ -968,3 +968,668 @@ It was still excellent.
 
 That remained annoying.
 
+
+
+## IV. One and a Half
+
+By late afternoon, the Hall of Measures had acquired a queue.
+
+Defeated parties wanted reviews.
+
+Victorious parties wanted certifications.
+
+Spectators wanted to see whatever they had heard about at lunch.
+
+Registrar Pell wanted all of them to go away.
+
+Edrin found her standing before a brass mechanism built into the western wall of the adjudication chamber.
+
+It resembled a clock designed by a military engineer.
+
+Six black levers.
+
+Six white.
+
+Indicator lamps.
+
+A central red handle protected by a hinged glass cover.
+
+Beside it stood Ben Whipple.
+
+Seven Deadly Chins.
+
+He filled the room.
+
+Dirty white shirt. Brown beard. Cap pulled low. Hammer leaning against the wall within easy reach. His raccoon sat on a cabinet eating what appeared to be an official ribbon.
+
+Pell pointed at the animal.
+
+"That belongs to the Hall."
+
+Ben looked.
+
+"Not anymore."
+
+Pell closed her eyes.
+
+Across the chamber, Dr. Duckhook stood studying a measurement slate.
+
+White feathers immaculate.
+
+Bucket hat.
+
+Golf shirt.
+
+The club integrated into his arm rested against the floor.
+
+Zach Wilson looked less like someone who had won than someone attempting to determine why the universe had allowed it.
+
+Edrin approached Oren.
+
+"The button?"
+
+"Allocation mechanism."
+
+"Why is it red?"
+
+"Because people are less likely to pull red things accidentally."
+
+Edrin looked at Ben.
+
+"Did it work?"
+
+Oren did not answer.
+
+Pell opened the glass cover.
+
+"The sequence is certified. Once more, for the record."
+
+She pointed to the two command channels.
+
+"Seven Deadly Chins committed primary command through this channel."
+
+One indicator showed almost nothing.
+
+"Reserve command remained here."
+
+The second indicator glowed brightly.
+
+Ben folded his arms.
+
+Edrin had seen the figures.
+
+The difference between the two command options was 26.54.
+
+The difference in the Encounter had been 1.50.
+
+Nobody in the room needed arithmetic explained.
+
+Ben looked at the mechanism.
+
+"You all done?"
+
+Pell said, "The review is complete."
+
+"No. I mean staring at it."
+
+Nobody answered.
+
+Ben stepped toward the wall.
+
+For a moment Edrin worried about the hammer.
+
+Instead Ben placed one enormous hand on the inactive reserve lever.
+
+"Before?"
+
+Pell nodded.
+
+"Before."
+
+"And after?"
+
+"After."
+
+Ben grunted.
+
+"That's the whole damned sport, isn't it?"
+
+Oren corrected him automatically.
+
+"Contest."
+
+Ben looked over.
+
+"Nobody likes you, old man."
+
+"Documented."
+
+A laugh came from Duckhook.
+
+Small.
+
+Sharp.
+
+Ben turned.
+
+Zach stopped laughing.
+
+The room tightened.
+
+Then Ben smiled.
+
+"You beat me by one and a half."
+
+"Correct."
+
+"You know what that means?"
+
+Zach considered.
+
+"That I beat you."
+
+Ben's smile widened.
+
+"Good answer."
+
+He picked up his hammer.
+
+The raccoon jumped from the cabinet to his shoulder, still carrying the ribbon.
+
+At the door Ben stopped.
+
+"Next time I'm pulling the other one."
+
+Pell said, "That is not how future decisions work."
+
+Ben looked back.
+
+"Then why'd you build two?"
+
+He left.
+
+Silence.
+
+Edrin stared at the mechanism.
+
+Duckhook returned to the slate.
+
+"You don't look happy," Edrin said.
+
+Zach adjusted the angle of the page by less than an inch.
+
+"I won."
+
+"Yes."
+
+"By one and a half."
+
+"Also yes."
+
+"Do you know how many things have to be slightly wrong for one and a half to exist?"
+
+Edrin thought of the steps Duckhook had measured on arrival.
+
+"Probably many."
+
+"Everything is many."
+
+Zach tapped three lines on the slate.
+
+"One special unit. One defensive assignment. One kick. Everybody wants the heroic explanation."
+
+He looked toward the door Ben had used.
+
+"Usually it's six small things refusing to fail at the same time."
+
+The memo sheets on Pell's desk supported him. Duckhook's largest force had mattered, certainly, but so had two less glamorous components whose combined contribution had been enormous.
+
+Precision.
+
+Not spectacle.
+
+Survival by accumulation.
+
+Edrin wrote the phrase down.
+
+Zach saw him.
+
+"Don't make me sound wise."
+
+"I wasn't planning to."
+
+"Good."
+
+He turned to leave, then stopped beside the western steps.
+
+His eyes narrowed.
+
+He crouched.
+
+"Registrar."
+
+Pell did not look up.
+
+"No."
+
+"The third rise—"
+
+"No."
+
+"It's still wrong."
+
+"I know."
+
+Zach stood very still.
+
+"You knew?"
+
+"Your written complaint was nineteen pages."
+
+"Twenty-one with diagrams."
+
+"Exactly."
+
+He left muttering about standards.
+
+Edrin looked at Oren.
+
+"One and a half."
+
+Oren nodded.
+
+"People will remember the button."
+
+"They'll remember the loss."
+
+"Ben will remember the button."
+
+"That is different."
+
+"How?"
+
+Oren began collecting the review papers.
+
+"Public memory wants a symbol. Private memory wants a cause."
+
+## V. Stone and Water
+
+The storm damage reached the Archive before the storm did.
+
+A messenger from the eastern grounds arrived at dusk carrying a broken piece of white masonry.
+
+He set it on Oren's desk.
+
+Oren stared at it.
+
+"What am I supposed to do with this?"
+
+"Evidence."
+
+"Of what?"
+
+The messenger pointed east.
+
+Thunder answered.
+
+The windows rattled.
+
+Edrin went outside.
+
+Half the city was already looking toward the eastern grounds.
+
+Clouds rotated above the outer wall.
+
+Blue-white light moved inside them.
+
+The air smelled of rain and broken stone.
+
+Then something rose above the wall.
+
+Three heads.
+
+Scaled.
+
+Dreadlocked.
+
+Enormous.
+
+Three Dreaded Snake stood among the ruins of an outer field structure, shoulders lifted, claws set into fractured masonry.
+
+Across from him, El Niño was becoming weather.
+
+Not summoning it.
+
+Becoming it.
+
+Water spiraled upward around a humanoid form. Lightning moved through translucent limbs. Wind tore banners from poles and sent them over the rooftops.
+
+Edrin had seen both principals enter the city.
+
+Seeing them opposed was different.
+
+The distance between them seemed too small for the world to survive.
+
+"Should we be here?" he asked.
+
+Oren had come outside carrying the certification ledger under his coat.
+
+"No."
+
+"Then why are we?"
+
+"Because everyone else is."
+
+The Encounter itself had ended hours earlier.
+
+What Edrin was seeing was aftermath.
+
+The last formal withdrawal.
+
+Snake's host moved through the damaged eastern works carrying standards and equipment. El Niño's remaining forces withdrew toward the river under sheets of rain.
+
+No one looked defeated enough to satisfy the stories.
+
+That interested Edrin.
+
+The score had been decisive.
+
+The sight was not.
+
+El Niño turned.
+
+For a moment the storm face looked toward the city.
+
+Rain struck Edrin hard enough to hurt.
+
+Then the elemental shape collapsed inward, becoming smaller as it moved toward the water.
+
+Snake remained.
+
+Three heads surveyed the broken ground.
+
+One looked toward the city.
+
+One toward the departing storm.
+
+The third lowered toward a fallen marker carved with the number twelve.
+
+The marker had been part of the preseason exhibition.
+
+Projected order.
+
+Last.
+
+The serpent's claw closed around it.
+
+Stone cracked.
+
+The crowd behind Edrin reacted as one body.
+
+Not cheering exactly.
+
+Recognition.
+
+Everyone understood the image.
+
+Projected last.
+
+Second-highest opening score.
+
+A number shattered beneath a claw.
+
+Oren sighed.
+
+"What?"
+
+"That image will be on every broadsheet by morning."
+
+"It's good."
+
+"That's the problem."
+
+Snake dropped the broken pieces.
+
+Phillip Pitts descended from the damaged field.
+
+At ordinary height he was still tall, still reptilian, still difficult to mistake for anything else, but the monstrous scale of the encounter receded with distance and ritual.
+
+That, Edrin was beginning to understand, was another property of the Contest.
+
+It made symbols enormous.
+
+Then sent people home carrying their own bags.
+
+Phillip approached the certification table.
+
+Rain ran from his scales.
+
+Pell's deputy handed him the result.
+
+He read it.
+
+No celebration.
+
+"Projected last," someone shouted from behind the barrier.
+
+Phillip's head turned.
+
+The speaker disappeared into the crowd.
+
+Another voice called, "Second!"
+
+Phillip looked at the certification again.
+
+Then at the broken twelve.
+
+"Temporary address," he said.
+
+That was all.
+
+By midnight the phrase had crossed the river.
+
+By dawn it would belong to everyone.
+
+Oren heard it and looked tired.
+
+"You hate good lines," Edrin said.
+
+"I hate unattributed good lines."
+
+"You heard him."
+
+"I did."
+
+"So we're safe."
+
+"For once."
+
+They walked back through rain.
+
+At the old bridge they found three masons examining a crack in the eastern parapet.
+
+"Storm?" Edrin asked.
+
+The eldest mason shook his head.
+
+"Vibration."
+
+"Snake?"
+
+"Storm."
+
+"You just said—"
+
+"Both."
+
+The mason spat into the river.
+
+"Does the Archive pay for this?"
+
+Oren kept walking.
+
+"No."
+
+"Then tell history it owes me six crowns."
+
+Edrin looked back at the cracked stone.
+
+The Contest produced scores in the Hall.
+
+Outside it produced invoices.
+
+## VI. The Results Beneath the Results
+
+The next morning, the city tried to decide which outcomes mattered.
+
+It did this badly.
+
+At breakfast, Mud Dogs were apparently unstoppable.
+
+By lunch, they were lucky.
+
+By supper, the Red Leopards had either been exposed or had suffered an irrelevant accident depending on which tavern one entered.
+
+The Archive accepted none of these categories.
+
+It accepted 125.36 to 120.86.
+
+It accepted rain.
+
+It accepted that the Mud Dogs had escaped a close pursuit through ground so churned that two maintenance crews refused to enter until it dried.
+
+It accepted that the Red Leopards had been close enough to see the result leaving and unable to catch it.
+
+Edrin saw Kevin Zeek at the eastern practice ground that afternoon.
+
+The Red Leopard stood in the mud beside a surveyor.
+
+"Again," Kevin said.
+
+The surveyor sighed.
+
+"We measured yesterday."
+
+"Again."
+
+The cord came out.
+
+The markers had not moved.
+
+Kevin looked almost disappointed.
+
+Edrin understood now.
+
+The measurement was not suspicion.
+
+It was discipline.
+
+A close loss had not changed him.
+
+It had given the habit another reason to exist.
+
+At the western ruins, Wilson Look's people were rebuilding a collapsed wall.
+
+The Arsenal Centaur had broken through it during his victory over Slob on my Dobb.
+
+Or Slob had broken it while being driven backward.
+
+Or both.
+
+Witnesses disagreed.
+
+The wall did not.
+
+Wilson stood four-legged among the rubble, red armor catching sunset, axe resting against one shoulder.
+
+A tankard occupied one hand.
+
+Jordan Hollingshead sat on a fallen block across from him.
+
+One horn had a fresh scrape.
+
+His filthy shirt was somehow filthier.
+
+His metal bat lay beside him.
+
+For two people who had recently attempted to overpower one another, they seemed remarkably comfortable.
+
+Edrin stayed beyond the work line.
+
+Wilson raised the tankard.
+
+"To new names."
+
+Jordan lifted a dented cup.
+
+"To old ass-kickings."
+
+"You lost."
+
+"Temporarily."
+
+"That's not how final scores work."
+
+"That's quitter talk."
+
+Wilson laughed.
+
+A mason shouted at both of them to move.
+
+Neither did.
+
+The mason repeated himself with language unsuitable for archival reproduction.
+
+They moved.
+
+Edrin smiled.
+
+S2, Oren would have called it if the Archive used such language.
+
+Character.
+
+Pressure.
+
+Not history yet.
+
+But perhaps the beginning of something history would later pretend had always been obvious.
+
+He returned through the market.
+
+Everywhere, Week One had become merchandise.
+
+Paper receipts with fake seals.
+
+Wooden red buttons.
+
+Small stone twelves broken down the middle.
+
+Black toy belts.
+
+Pepper ribbons.
+
+Duck feathers.
+
+Someone sold mud in jars labeled AUTHENTIC SOUTHERN FIELD.
+
+Edrin stopped.
+
+"Is that actually from the field?"
+
+The vendor looked offended.
+
+"Of course."
+
+Edrin picked up a jar.
+
+The mud was dry.
+
+"It rained."
+
+"Historic mud dries too."
+
+Edrin bought one.
+
+For the Archive.
+
+Obviously.
