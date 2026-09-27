@@ -1,66 +1,9 @@
 import { randomUUID } from "node:crypto";
-
-export const STATUS = Object.freeze({
-  PENDING:"pending", RUNNING:"running", PASSED:"passed", FAILED:"failed", BLOCKED:"blocked"
-});
-
-export class BullpenRuntime {
-  constructor({workers={}, artifactStore}={}) {
-    this.workers=workers;
-    this.artifactStore=artifactStore ?? new MemoryArtifactStore();
-  }
-
-  async run({jobId=randomUUID(), pipeline, input={}}) {
-    if (!pipeline?.stages?.length) throw new Error("pipeline requires stages");
-    const state={jobId,pipeline:pipeline.id,status:STATUS.RUNNING,input,stages:[],artifacts:[]};
-    for (const stage of pipeline.stages) {
-      const rec={id:stage.id,worker:stage.worker,status:STATUS.RUNNING,attempts:0};
-      state.stages.push(rec);
-      const worker=this.workers[stage.worker];
-      if (!worker) return this.#block(state,rec,`missing worker: ${stage.worker}`);
-      try {
-        rec.attempts++;
-        const result=await worker({jobId,input,state,stage});
-        if (!result?.artifact) return this.#block(state,rec,`worker ${stage.worker} produced no artifact`);
-        const stored=await this.artifactStore.put(jobId,stage.id,result.artifact);
-        state.artifacts.push(stored);
-        if (stage.gate) {
-          const gate=this.workers[stage.gate];
-          if (!gate) return this.#block(state,rec,`missing gate: ${stage.gate}`);
-          const verdict=await gate({jobId,input,state,stage,artifact:stored});
-          rec.gate={worker:stage.gate,...verdict};
-          if (verdict?.pass !== true) {
-            rec.status=STATUS.FAILED;
-            state.status=STATUS.FAILED;
-            state.failure={stage:stage.id,reason:verdict?.reason ?? "gate failed"};
-            return state;
-          }
-        }
-        rec.status=STATUS.PASSED;
-        rec.artifactId=stored.id;
-      } catch (error) {
-        rec.status=STATUS.FAILED;
-        state.status=STATUS.FAILED;
-        state.failure={stage:stage.id,reason:error.message};
-        return state;
-      }
-    }
-    state.status=STATUS.PASSED;
-    return state;
-  }
-
-  #block(state,rec,reason){
-    rec.status=STATUS.BLOCKED;
-    state.status=STATUS.BLOCKED;
-    state.failure={stage:rec.id,reason};
-    return state;
-  }
-}
-
-export class MemoryArtifactStore {
-  constructor(){this.items=[]}
-  async put(jobId,stageId,artifact){
-    const item={id:`${jobId}:${stageId}:${this.items.length+1}`,jobId,stageId,artifact,createdAt:new Date().toISOString()};
-    this.items.push(item); return item;
-  }
-}
+export const STATUS=Object.freeze({PENDING:"pending",RUNNING:"running",PASSED:"passed",FAILED:"failed",BLOCKED:"blocked"});
+export class BullpenRuntime{
+constructor({workers={},artifactStore=new MemoryArtifactStore(),jobStore=null,maxAttempts=2}={}){this.workers=workers;this.artifactStore=artifactStore;this.jobStore=jobStore;this.maxAttempts=maxAttempts}
+async run({jobId=randomUUID(),pipeline,input={},resume=false}){if(!pipeline?.stages?.length)throw new Error("pipeline requires stages");let state;if(resume&&this.jobStore){try{state=await this.jobStore.load(jobId)}catch(e){if(e.code!=="ENOENT")throw e}}state??={jobId,pipeline:pipeline.id,status:STATUS.RUNNING,input,stages:[],artifacts:[],invocations:[]};state.invocations??=[];state.status=STATUS.RUNNING;delete state.failure;
+for(const stage of pipeline.stages){let rec=state.stages.find(s=>s.id===stage.id);if(rec?.status===STATUS.PASSED)continue;rec??={id:stage.id,worker:stage.worker,status:STATUS.PENDING,attempts:0};if(!state.stages.includes(rec))state.stages.push(rec);const worker=this.workers[stage.worker],gate=stage.gate?this.workers[stage.gate]:null;if(!worker)return this.terminal(state,rec,STATUS.BLOCKED,"missing worker: "+stage.worker);if(stage.gate===stage.worker)return this.terminal(state,rec,STATUS.BLOCKED,"creator cannot self-gate");if(stage.gate&&!gate)return this.terminal(state,rec,STATUS.BLOCKED,"missing gate: "+stage.gate);
+while(rec.attempts<this.maxAttempts){rec.status=STATUS.RUNNING;rec.attempts++;const inv={stage:stage.id,worker:stage.worker,attempt:rec.attempts,startedAt:new Date().toISOString()};state.invocations.push(inv);await this.save(state);try{const result=await worker({jobId,input,state,stage,attempt:rec.attempts});inv.finishedAt=new Date().toISOString();if(!result?.artifact)return this.terminal(state,rec,STATUS.BLOCKED,"worker produced no artifact");const stored=await this.artifactStore.put(jobId,stage.id,result.artifact);state.artifacts.push(stored);inv.artifactId=stored.id;if(stage.gate){const verdict=await gate({jobId,input,state,stage,artifact:stored,attempt:rec.attempts});rec.gate={worker:stage.gate,...verdict};if(verdict?.pass!==true){if(verdict?.retryable===true&&rec.attempts<this.maxAttempts){rec.status=STATUS.PENDING;await this.save(state);continue}return this.terminal(state,rec,STATUS.FAILED,verdict?.reason??"gate failed")}}rec.status=STATUS.PASSED;rec.artifactId=stored.id;await this.save(state);break}catch(e){inv.finishedAt=new Date().toISOString();inv.error=e.message;return this.terminal(state,rec,STATUS.FAILED,e.message)}}if(rec.status!==STATUS.PASSED)return this.terminal(state,rec,STATUS.FAILED,"retry attempts exhausted")}state.status=STATUS.PASSED;await this.save(state);return state}
+async terminal(state,rec,status,reason){rec.status=status;state.status=status;state.failure={stage:rec.id,reason};await this.save(state);return state}async save(state){if(this.jobStore)await this.jobStore.save(state)}}
+export class MemoryArtifactStore{constructor(){this.items=[]}async put(jobId,stageId,artifact){const item={id:jobId+":"+stageId+":"+(this.items.length+1),jobId,stageId,artifact,createdAt:new Date().toISOString()};this.items.push(item);return item}}
