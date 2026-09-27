@@ -522,3 +522,629 @@ Oren would have called this evidence too.
 
 Edrin was beginning to understand why history needed editors.
 
+
+
+## IV. The Barber's Floor
+
+The first lock hit the floor at noon.
+
+By twelve-oh-five, half the city knew.
+
+The barbershop stood beneath the north arcade, an old establishment with brass mirrors, cracked leather chairs and a red-and-white pole that had survived three riots and one municipal beautification campaign.
+
+Wilson Look had rented it for an hour.
+
+This was, according to the proprietor, not unusual.
+
+What was unusual was the client.
+
+Three Dreaded Snake filled the largest chair.
+
+One head watched Wilson.
+
+One watched the mirror.
+
+The third watched the door.
+
+The dreadlocked tendrils that fell from Phillip Pitts's scaled head had always made him look larger. Older. More dangerous. They moved when he moved, dark ropes against green-gold scales.
+
+Now several lay across the barber's cape.
+
+Not all.
+
+Enough.
+
+Wilson stood behind him.
+
+Centaur body occupying most of the aisle.
+
+Red armor covered by a barber's apron.
+
+A pair of shears looked absurdly small in his hand.
+
+"Hold still," Wilson said.
+
+Three mouths answered.
+
+"Don't."
+
+"Move?"
+
+"Enjoy this."
+
+Wilson snipped another damaged braid.
+
+The crowd outside reacted.
+
+Phillip's central head closed its eyes.
+
+The result had not been close.
+
+165.78 to 95.87.
+
+A week earlier Snake had towered over broken stone while the city repeated his line about being projected last.
+
+Now the number that mattered was not twelve.
+
+It was sixty-nine point nine one.
+
+The margin.
+
+Edrin stood beside the proprietor.
+
+"Is this part of the official settlement?"
+
+"No."
+
+"Then why is he allowing it?"
+
+The barber shrugged.
+
+"Lost a wager."
+
+"Phillip?"
+
+"Me."
+
+Another braid fell.
+
+Edrin looked at the Snake.
+
+This was not mutilation.
+
+The tendrils had been damaged in the Encounter—scorched, torn, several split near the ends. Wilson was cutting away what could not be salvaged.
+
+That distinction mattered to the Character Registry.
+
+It mattered less to the crowd.
+
+They saw the victor cutting the loser's dreads.
+
+Symbols did not ask permission before becoming cruel.
+
+Phillip opened all three sets of eyes.
+
+"Done?"
+
+Wilson examined the remaining locks.
+
+"Almost."
+
+"You said that four cuts ago."
+
+"Philosophy requires patience."
+
+"You're a barber today."
+
+"Barbering requires more."
+
+One of Phillip's heads hissed.
+
+Wilson smiled.
+
+Then he set the shears down.
+
+"Done."
+
+Phillip stood.
+
+Even with several shortened tendrils he remained unmistakably himself.
+
+That, Edrin thought, was important too.
+
+Defeat altered appearance.
+
+It did not have to alter identity.
+
+Phillip looked into the mirror.
+
+"Temporary."
+
+Wilson removed the apron.
+
+"Everything is."
+
+Phillip turned.
+
+"Two and oh is temporary."
+
+Wilson raised his tankard from the counter.
+
+"Now you're learning."
+
+Snake left through the rear door rather than face the crowd.
+
+Edrin did not write cowardice.
+
+He wrote: *departed through rear door.*
+
+Oren would have approved.
+
+## V. Members Only
+
+The Country Club of Jackson had rules.
+
+This was its primary product.
+
+There were rules for jackets.
+
+Rules for shoes.
+
+Rules for where one could stand while another person prepared to strike a ball.
+
+Rules for speaking on terraces.
+
+Rules for guests.
+
+Rules for members.
+
+Rules for the rules.
+
+Jordan Hollingshead broke seven before breakfast.
+
+By noon, the number was disputed.
+
+Slob on my Dobb entered the grounds in a mud-splattered cart with a pit bull in the passenger seat and a drink raised above his head.
+
+The cart was not authorized.
+
+The dog was not registered.
+
+The drink was not permitted on the first fairway.
+
+Jordan's shirt violated at least two bylaws and possibly a criminal statute.
+
+Dr. Duckhook stood beside the first green holding his club-arm perfectly still.
+
+His orange bill tightened.
+
+"You're late."
+
+Jordan looked at the sun.
+
+"For what?"
+
+"The start."
+
+"We started?"
+
+Duckhook stared.
+
+Jordan grinned.
+
+Then the Encounter did.
+
+By the end, the club's rules remained intact.
+
+Almost nothing else did.
+
+Slob's host produced 194.92.
+
+Duckhook managed 122.97.
+
+The difference was not precision.
+
+It was force.
+
+One of Slob's command elements alone produced more than fifty. Another added thirty-six. A third nearly twenty-four.
+
+Duckhook's formations were not absent.
+
+They were submerged.
+
+The manicured grounds became churned earth.
+
+A bunker acquired a broken cart.
+
+A hedge burned for reasons no witness could explain.
+
+At the eighteenth green, Jordan drove through a flower bed.
+
+Duckhook watched.
+
+"That is a one-hundred-and-twelve-year-old azalea."
+
+Jordan looked behind him.
+
+"Was."
+
+The pit bull barked.
+
+Edrin, observing from the veranda, heard a club member gasp.
+
+Not at the score.
+
+At the azalea.
+
+This, too, was reputation.
+
+Duckhook had survived Week One by one and a half through accumulation, discipline and small things refusing to fail.
+
+Week Two did not care.
+
+When the certification came, Jordan climbed onto the roof of the cart.
+
+He raised his drink.
+
+"Members only!"
+
+The members did not know whether this was mockery or application.
+
+Duckhook did.
+
+He removed his bucket hat.
+
+Mud streaked one white feather above his eye.
+
+"You aren't a member."
+
+Jordan looked down.
+
+"Scoreboard says I own the place."
+
+"It says nothing of the kind."
+
+"Then what's the point?"
+
+Duckhook's bill twitched.
+
+Edrin had learned this was the beginning of a smile.
+
+"Leave."
+
+Jordan climbed down.
+
+"See you next year."
+
+"Not if I can help it."
+
+The cart lurched away.
+
+A wheel fell off.
+
+Jordan kept driving.
+
+Duckhook watched it go.
+
+Then he turned to the ruined green.
+
+"Measure everything."
+
+A groundskeeper stared.
+
+"Everything?"
+
+"Everything."
+
+The groundskeeper sighed.
+
+Some reputations survived defeat perfectly.
+
+## VI. No Passage
+
+Rain began before Austin arrived.
+
+By the time he reached the southern checkpoint, water ran from the Belt in silver lines.
+
+El Niño waited beyond the gate.
+
+The checkpoint had been built where the lower road crossed a flood channel. In dry weather it was ceremonial: two stone towers, an iron portcullis kept permanently raised, a clerk's window for travel seals.
+
+Today water hammered the roof.
+
+Lightning moved behind the clouds.
+
+The portcullis was down.
+
+Austin stood beneath it.
+
+Black armor.
+
+Black cloak.
+
+Belt.
+
+The champion looked like a man who should have been able to walk through any gate in the world.
+
+The gate remained closed.
+
+Edrin stood inside the clerk's room with Registrar Pell.
+
+"This is too obvious," he said.
+
+"What?"
+
+"The gate."
+
+"It is a gate."
+
+"The champion loses and then physically can't pass."
+
+Pell looked outside.
+
+"Weather closed the road."
+
+"Because El Niño won."
+
+"Weather closed the road because the flood channel exceeded safe depth."
+
+Edrin watched lightning illuminate the storm form beyond the bars.
+
+"You're no fun."
+
+"I am employed."
+
+The certified result sat on the counter.
+
+131.06 to 113.52.
+
+Austin had lost again.
+
+Zero and two.
+
+The Belt remained around his waist.
+
+That was the image the city would remember.
+
+Not a fallen champion.
+
+A champion standing.
+
+Stopped.
+
+El Niño approached the gate.
+
+Water formed shoulders, face, arms.
+
+Electric-blue eyes regarded Austin through iron bars.
+
+Austin looked up.
+
+"Open it."
+
+The clerk swallowed.
+
+"Road's closed."
+
+"I'm not asking you."
+
+El Niño raised one hand.
+
+Rain struck the roof harder.
+
+Austin waited.
+
+Nothing opened.
+
+From the storm came a voice like surf inside a cathedral.
+
+"No passage."
+
+Austin's jaw tightened.
+
+Behind him, his host waited in the rain.
+
+One element had produced an extraordinary effort—far beyond anything else on his side.
+
+It had not been enough.
+
+That was the cruelty of aggregate contests.
+
+Heroism could be real and insufficient at the same time.
+
+Austin put one hand on the Belt.
+
+Edrin had seen that gesture in the square.
+
+Then it meant continuity.
+
+Now it looked heavier.
+
+El Niño turned away.
+
+The storm moved with him.
+
+Austin remained at the gate until the road reopened.
+
+He did not remove the Belt.
+
+He did not hide it.
+
+By evening the city knew the champion was zero and two.
+
+By nightfall, people had begun asking the question Edrin knew they were not yet entitled to answer.
+
+What did that make him?
+
+Champion, the Archive said.
+
+For now, that was enough.
+
+For the city, it was not.
+
+## VII. Hostile Takeover
+
+The LLC's office had survived Chili.
+
+It did not survive Chins.
+
+Edrin arrived after the Encounter and found a chair embedded in the wall.
+
+He stared.
+
+David Babb stood behind his desk.
+
+Or where the desk had been.
+
+"Don't ask."
+
+"I have to."
+
+"Then ask something useful."
+
+Edrin stepped over a broken drawer.
+
+Seven Deadly Chins occupied the far side of the room.
+
+Ben Whipple stood on a conference table holding his hammer in one hand and a drink in the other.
+
+His raccoon wore a necktie.
+
+Edrin did not ask.
+
+Papers covered the floor.
+
+Acquisition proposals.
+
+Failed bids.
+
+Contracts.
+
+Risk sheets.
+
+A black briefcase lay open beneath a cracked window.
+
+The result had been close enough to hurt.
+
+135.38 to 125.88.
+
+Not destruction.
+
+Failure by 9.50.
+
+David's host had produced several strong performances.
+
+One defensive unit had produced less than nothing.
+
+Negative contribution.
+
+Edrin had never liked that category.
+
+It felt metaphysically rude.
+
+Ben jumped from the table.
+
+The floor complained.
+
+"Week One," he said, "everybody wanted to talk about my button."
+
+David adjusted one cuff.
+
+"I did not."
+
+"Everybody interesting."
+
+David looked at Edrin.
+
+"Is there an archival reason this man is still in my office?"
+
+Ben answered.
+
+"Hostile takeover."
+
+"This is not a takeover."
+
+"I hostilely took over the room."
+
+"That's trespassing."
+
+"See? Different management philosophies."
+
+David's sunglasses remained on despite the broken window and late hour.
+
+"Are you finished?"
+
+Ben thought.
+
+"Yeah."
+
+He picked up the hammer.
+
+The raccoon jumped onto his shoulder.
+
+At the door, Ben turned.
+
+"Started the right commander this week."
+
+David said nothing.
+
+Edrin understood.
+
+Week One had given Ben a visible mistake.
+
+Week Two had given him the opportunity to make a different decision.
+
+He had.
+
+That did not prove wisdom.
+
+But it proved adaptation.
+
+Ben left.
+
+David surveyed the room.
+
+Zero and two.
+
+Edrin expected anger.
+
+Instead David picked up a sheet from the floor.
+
+He read it.
+
+Then another.
+
+"Acquisition failed," he said.
+
+"What?"
+
+"Not this."
+
+He gestured around the destroyed office.
+
+"This is cosmetic."
+
+He held up the paper.
+
+"This is a problem."
+
+"What happens now?"
+
+David looked at him over the top of his sunglasses.
+
+"We acquire better."
+
+Edrin wrote it down.
+
+David pointed.
+
+"Don't."
+
+Edrin stopped.
+
+"Why?"
+
+"Because if I do it, then you can write it."
+
+Fair.
+
