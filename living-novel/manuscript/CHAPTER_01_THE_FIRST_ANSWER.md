@@ -1633,3 +1633,794 @@ Edrin bought one.
 For the Archive.
 
 Obviously.
+
+
+## VII. The Cost of an Answer
+
+Three days after the results were certified, Edrin left the city.
+
+Oren sent him.
+
+This was how Oren described most punishments.
+
+"North road," he said, placing a packet on Edrin's desk.
+
+"Why?"
+
+"Price survey."
+
+"I'm an archivist."
+
+"Junior."
+
+"That word does too much work."
+
+"Oats, lamp oil, wagon repair, lodging."
+
+"That's accounting."
+
+"History becomes accounting whenever someone sends a bill."
+
+So Edrin rode north.
+
+The city thinned into workshops, then mills, then farms pressed between river and road. Contest banners still appeared on fences, but less often. Here people cared about the Twelve differently.
+
+At the first village, oats cost a fifth more than they had two weeks earlier.
+
+At the second, there were no carpenters.
+
+"City took them," an innkeeper said.
+
+"The city?"
+
+"The Contest."
+
+"Same thing this month."
+
+At a mill above the river, a cracked wheel remained braced with temporary timber.
+
+The miller showed Edrin the split.
+
+"Could have fixed it last week."
+
+"What happened?"
+
+"Every decent wheelwright between here and the lower ford is building viewing stands, repairing practice yards or charging champions triple."
+
+"Champions?"
+
+"People with champion money."
+
+The miller wiped flour from his hands.
+
+"You writing this down?"
+
+"Yes."
+
+"Good. Write that I hate all twelve of them."
+
+Edrin hesitated.
+
+"All twelve?"
+
+The miller thought.
+
+"Who's the duck?"
+
+"Dr. Duckhook."
+
+"I like him."
+
+"Why?"
+
+"My boy put two crowns on him."
+
+Edrin wrote: *general resentment; Duckhook exception possibly financial.*
+
+At a roadside shrine, travelers had tied six new ribbons beneath an old stone arch.
+
+Red.
+
+Black.
+
+Green.
+
+Blue.
+
+Mud-brown.
+
+Pepper-red.
+
+The shrine keeper was removing them.
+
+"Contest offerings?" Edrin asked.
+
+"Contest litter."
+
+"People think they matter?"
+
+"People think everything matters when they want something."
+
+She tugged a ribbon loose.
+
+"Does it?"
+
+The old woman looked at him.
+
+"The ribbon?"
+
+"The wanting."
+
+She considered.
+
+"Enough people want the same thing, it becomes expensive."
+
+Edrin wrote that down too.
+
+On his return he found a wagon stalled at the bridge.
+
+Its axle had snapped.
+
+The driver was furious.
+
+"Three hours!"
+
+A guard shrugged.
+
+"Traffic."
+
+"Contest traffic."
+
+"Traffic is traffic."
+
+"Not when I'm billing someone."
+
+Edrin dismounted and helped push.
+
+By the time he reached the Record House, his boots were filthy and his hands hurt.
+
+Oren read the survey.
+
+"Well?"
+
+"The Contest raises prices, steals labor, blocks roads and encourages counterfeit mud."
+
+"Anything else?"
+
+"People like Duckhook when their bets hit."
+
+"Important civic principle."
+
+Edrin dropped into the chair.
+
+"I thought the Contest was about the Twelve."
+
+Oren folded the survey.
+
+"No."
+
+"You could have told me."
+
+"I did."
+
+"When?"
+
+"Repeatedly."
+
+"You speak in riddles."
+
+"I speak in complete sentences. Young people call anything they dislike a riddle."
+
+Edrin looked through the window.
+
+The city had begun removing opening-week banners.
+
+Not all of them.
+
+The RECEIPTS DON'T LIE sheet remained across the north balcony.
+
+"What is it about, then?"
+
+Oren followed his gaze.
+
+"Everything that has to move because the Twelve do."
+
+## VIII. Proof and Possession
+
+Austin found Jake before Jake found Austin.
+
+It happened in the Hall of Keeping after dusk.
+
+Edrin was there because Oren had sent him to replace a humidity gauge.
+
+This was, Edrin suspected, not the whole reason.
+
+The Hall was empty except for Jake.
+
+He stood before the championship wall with his hands in his coat pockets.
+
+The golden retriever lay at his feet.
+
+Edrin entered carrying the gauge.
+
+Jake glanced over.
+
+"You again."
+
+"Apparently."
+
+"Does the Archive assign you to haunt me?"
+
+"I think Master Oren does."
+
+"Same thing."
+
+Edrin crossed toward the far case.
+
+The dog watched him hopefully.
+
+"I don't have food."
+
+Her expression suggested this was a correctable moral failure.
+
+Footsteps sounded in the gallery.
+
+Austin entered.
+
+He wore the Belt.
+
+No armor this time.
+
+Black coat. Dark trousers. Pale face. Long hair tied behind him.
+
+Without the armor he looked less supernatural.
+
+Without the sword he looked no less dangerous.
+
+Jake turned.
+
+Neither man seemed surprised.
+
+Edrin suddenly became extremely interested in humidity.
+
+Austin looked at the wall.
+
+"Still visiting your name?"
+
+Jake said, "I was checking the spacing."
+
+Austin almost smiled.
+
+"Archive humor."
+
+"Contagious."
+
+Austin stopped beside him.
+
+Their names were close on the wall.
+
+2024.
+
+2025.
+
+One title each.
+
+Opposite results.
+
+Jake looked at the Belt.
+
+Austin noticed.
+
+"You want to touch it?"
+
+Edrin nearly dropped the gauge.
+
+Jake laughed.
+
+"No."
+
+"Why not?"
+
+"Because you'd tell that story forever."
+
+"Probably."
+
+Silence.
+
+The retriever rolled onto her side.
+
+Austin looked down.
+
+"She always this relaxed?"
+
+"She doesn't understand legacy."
+
+"Smart."
+
+Jake's eyes returned to the wall.
+
+"How much did it bother you?"
+
+Austin did not pretend to misunderstand.
+
+"Week One?"
+
+"Yeah."
+
+"Enough."
+
+"That's vague."
+
+"You aren't the Archive."
+
+"No."
+
+Austin touched the Belt plate.
+
+"But you brought the receipt into the square."
+
+Jake looked at him.
+
+"You brought this."
+
+"I always wear it."
+
+"Exactly."
+
+The room settled around the sentence.
+
+Proof.
+
+Possession.
+
+Edrin remembered the geometry of the square.
+
+Austin with what last year had earned.
+
+Jake with what this year had begun.
+
+"People think beating me means something," Austin said.
+
+"It does."
+
+"I didn't say it didn't."
+
+"People think losing to me means something."
+
+"It does."
+
+Jake smiled slightly.
+
+"Careful."
+
+Austin looked at him.
+
+"You want me to say it was nothing?"
+
+"No."
+
+"You want me to say you're coming for the Belt?"
+
+"I am."
+
+"Everyone is."
+
+"Not everyone beat you."
+
+Austin's eyes hardened.
+
+There.
+
+Not anger.
+
+Recognition.
+
+Jake had found the edge.
+
+Austin stepped closer.
+
+"Last year you beat Pitts in the semifinal."
+
+Jake said nothing.
+
+"I survived Duckhook by less than half a point."
+
+Still nothing.
+
+"Then I beat you in the final."
+
+"I remember."
+
+"Good."
+
+Austin's voice remained quiet.
+
+"Because Week One is not the first page between us."
+
+Jake looked toward the Trophy.
+
+"No."
+
+"It's one page."
+
+"First one this year."
+
+"Exactly."
+
+Neither moved.
+
+Edrin understood something then that no score could show.
+
+The rivalry did not require hatred.
+
+Hatred would have made it smaller.
+
+These men possessed evidence against one another.
+
+Each could point to a day the other had failed.
+
+Each could point to a day he had prevailed.
+
+The Belt did not resolve the argument.
+
+It preserved it.
+
+Jake reached into his coat.
+
+For one absurd moment Edrin thought he would produce the receipt again.
+
+Instead he took out a small folded schedule.
+
+He opened it.
+
+"Next week," Jake said.
+
+Austin laughed.
+
+"Already?"
+
+"What?"
+
+"Moving on."
+
+Jake folded the paper.
+
+"That's the job."
+
+Austin's gaze lingered.
+
+"Good."
+
+He turned toward the door.
+
+At the threshold he stopped.
+
+"Jake."
+
+"Yeah?"
+
+"Ten point four four."
+
+Jake smiled.
+
+"I can read."
+
+Austin left.
+
+The dog raised her head.
+
+Jake looked at Edrin.
+
+"How much of that are you writing down?"
+
+Edrin considered lying.
+
+"Depends."
+
+"On?"
+
+"Whether it becomes history."
+
+Jake stared at him.
+
+Then laughed.
+
+"You're getting worse."
+
+"Master Oren says I'm improving."
+
+"Same thing."
+
+Jake left with the dog.
+
+Edrin stood alone beneath the names.
+
+The humidity gauge still hung from his hand.
+
+He had forgotten to install it.
+
+## IX. The Meaning Column
+
+The permanent Week One register was bound in black calfskin.
+
+Six results.
+
+Twelve signatures.
+
+Thirty-seven pages of adjudication notes.
+
+Nine formal complaints.
+
+Two amended field reports.
+
+One repair invoice accidentally delivered to the Archive.
+
+One jar of allegedly historic mud.
+
+Oren placed all of it on Edrin's desk.
+
+"Close the week."
+
+Edrin stared.
+
+"Me?"
+
+"You can write."
+
+"You've seen my handwriting."
+
+"Unfortunately."
+
+Edrin opened the register.
+
+The first columns were simple.
+
+DATE.
+
+ENCOUNTER.
+
+CERTIFIED RESULT.
+
+MARGIN.
+
+ADJUDICATOR.
+
+PROTEST STATUS.
+
+Then came a column Edrin had never noticed in the older volumes.
+
+SIGNIFICANCE.
+
+It was blank.
+
+He looked at Oren.
+
+"What goes here?"
+
+"What do you think?"
+
+"Mud Dogs over Red Leopards."
+
+"Result column."
+
+"Four and a half."
+
+"Margin."
+
+"The rain?"
+
+"Field report."
+
+Edrin frowned.
+
+"What goes in significance?"
+
+Oren sat opposite him.
+
+"Nothing."
+
+"Then why have the column?"
+
+"Because someday something may."
+
+"That's ridiculous."
+
+"Most archives are."
+
+Edrin turned to an older volume.
+
+The significance columns there contained later annotations.
+
+A narrow survival that had become famous.
+
+A dominant season ending before a title.
+
+A reversal across consecutive championships.
+
+Notes written months or years after the original result.
+
+Different ink.
+
+Different hands.
+
+He understood.
+
+"You don't fill it now."
+
+"Not permanently."
+
+"But people already know what Week One means."
+
+"Do they?"
+
+"Chili set the standard."
+
+"For one week."
+
+"Snake broke the projection."
+
+"For one week."
+
+"Duckhook survived."
+
+"True."
+
+"Jake beat Austin."
+
+"Also true."
+
+Edrin looked at the blank column.
+
+"So we wait."
+
+"We record what happened."
+
+"And wait."
+
+"We observe what survives."
+
+Outside, evening settled over the city.
+
+The first week had already acquired stories.
+
+Chili had occupied the grain exchange.
+
+Snake had shattered twelve.
+
+Duckhook had found one and a half.
+
+Chins had pulled the wrong command.
+
+Mud Dogs had escaped through rain.
+
+Red Leopards had measured the ground again.
+
+The Centaur had broken a wall.
+
+Slob had toasted him afterward.
+
+Jake carried proof.
+
+Austin carried possession.
+
+All true, in some sense.
+
+None complete.
+
+Edrin dipped the pen.
+
+He entered the six certified results.
+
+Mud Dogs over Red Leopards.
+
+Dr. Duckhook over Seven Deadly Chins.
+
+D0nkey K0ng over Slob on my Dobb.
+
+ObiWan Jacoby over His Majesty's Blood.
+
+Chili Cheesers over The LLC.
+
+Three Dreaded Snake over El Niño.
+
+He checked every number.
+
+Then he reached the final column.
+
+SIGNIFICANCE.
+
+The nib hovered.
+
+He thought of the miller's broken wheel.
+
+The bookmaker erasing odds.
+
+The red button.
+
+The broken stone twelve.
+
+David Babb writing in his black ledger.
+
+Phillip Pitts in the rain.
+
+Ben Whipple telling the mechanism what he would do next time.
+
+Kevin Zeek ordering the field measured again.
+
+Brandon feeding the city while teaching it to take him seriously.
+
+Jake and Austin standing beneath their names.
+
+He could have written a hundred things.
+
+Instead he left the column blank.
+
+Oren looked over his shoulder.
+
+"Good."
+
+"Don't sound surprised."
+
+"I am cultivating you through low expectations."
+
+Edrin sanded the ink.
+
+"Master Oren."
+
+"Hm?"
+
+"Does the Archive ever decide what history means?"
+
+Oren considered the question longer than usual.
+
+"No."
+
+"Then who does?"
+
+"Everyone."
+
+"That's a terrible system."
+
+"It is the only one we've found."
+
+From somewhere beyond the river came cheering.
+
+A new argument, perhaps.
+
+A new wager.
+
+A new prediction.
+
+The city had already turned toward the next set of Encounters.
+
+Edrin closed the register.
+
+The sound was heavier than he expected.
+
+One week.
+
+Finished.
+
+Not explained.
+
+On the cover, beneath the year, someone had stamped the mark of the Compact.
+
+Edrin ran a thumb across the impression.
+
+The Prologue of the season, he thought, had been expectation.
+
+Week One was evidence.
+
+Meaning would take longer.
+
+He carried the register into the stacks.
+
+There was a space waiting for it.
+
+Of course there was.
+
+The Archive had been built on the assumption that something would happen.
+
+Edrin slid the volume into place.
+
+Outside, the bells began again.
