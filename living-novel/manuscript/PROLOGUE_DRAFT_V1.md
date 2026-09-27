@@ -1,5 +1,5 @@
 # PROLOGUE — THE KEEPING OF NAMES
-Draft v1 — Movement I: Memory
+Final Candidate — Five Movements
 
 The rain had found the western windows before dawn.
 
@@ -119,31 +119,17 @@ Eleven spaces had been cut beneath the old lintel.
 
 Eleven seasons of the modern record.
 
-He knew the names. Any child who listened to tavern arguments knew some of them, and any child unlucky enough to be educated by the Archive eventually knew all.
+He knew enough of the names to know that the wall was an argument disguised as a list.
 
-Discount Belichick.
+Some sounded ancient. Some sounded ridiculous. One contained punctuation that had caused three archival disputes and a resignation. Others had changed so often that schoolmasters carried correction slips.
 
-Austin's Hyena's.
-
-The Fournecators.
-
-Kardiac Kids.
-
-Please, Please, Please, please—a name whose punctuation had caused three separate archival disputes and one resignation.
-
-Where Mahomies at?
-
-Dewars White Label.
-
-El Niño.
-
-Eggs Benedict.
+Near the end, however, two names required no explanation.
 
 ObiWan Jacoby.
 
 The Immortal.
 
-Names changed. Standards changed. Men changed what they wished to be called and occasionally denied having been called anything else. The Archive's task was not to approve.
+Names changed. Standards changed. People changed what they wished to be called and occasionally denied having been called anything else. The Archive's task was not to approve.
 
 It remembered.
 
@@ -353,7 +339,7 @@ People called it correction.
 
 People called it destiny.
 
-The Archive called it 187.52 to 161.68 one year and 161.07 to 109.56 the next, though Oren had warned Edrin never to confuse numerical precision with complete understanding.
+The Archive recorded two opposite championship results in consecutive years. Oren had warned Edrin never to confuse the precision of a result with complete understanding.
 
 "What do you call it?" Edrin asked.
 
@@ -1139,6 +1125,8 @@ No battle had occurred. No alliance had been declared. No betrayal had taken pla
 Yet prices had changed.
 
 Guards had been doubled. Taverns had chosen favorites. Children had adopted mannerisms. Merchants had extended credit. Priests had scheduled additional rites. Bookmakers had rewritten boards.
+
+Far beyond the walls, villages along the north road were already charging more for oats. A miller upriver postponed replacing a cracked wheel because every competent carpenter had taken city work. In the southern reed country, boatmen calculated whether the extra traffic would pay better than the spring fish run.
 
 The Contest had not begun.
 
