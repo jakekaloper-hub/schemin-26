@@ -701,3 +701,208 @@ Edrin laughed. "Nobody knows which bell to use."
 Outside, the argument changed subject.
 
 It did not end.
+
+
+# MOVEMENT III — THE BELT
+
+The Belt Keeper entered three days later without music.
+
+This disappointed nearly everyone.
+
+By sunrise the north square was packed. Vendors sold black ribbons, counterfeit runes and miniature leather belts sized for dogs and infants. Windows had been rented. Roof access had been sold.
+
+The first riders wore black but not uniformly. Some carried weapons. Others carried ledgers, packs, rope and rolled tents. A smith's wagon followed, then cooks, grooms, guards and healers.
+
+"They look ordinary," Edrin said.
+
+"Most great households do from close enough," Oren replied.
+
+Then the square went quiet.
+
+Austin Byars came through the gate on foot.
+
+The stories had failed in both directions. He was less monstrous than the woodcuts and more unsettling.
+
+Tall. Corpse-pale. Long black hair moved in the morning wind. Dark rune-marked armor seemed to swallow light. A massive sword rested across his back.
+
+Around his waist was the Belt.
+
+No crown.
+
+No throne.
+
+The Belt was enough.
+
+People saw it and adjusted themselves. Some cheered. Some fell silent. Some looked immediately toward the roads by which the other powers would arrive.
+
+Registrar Pell waited in the square.
+
+She did not bow.
+
+Neither did Austin.
+
+"Do you present as reigning champion?"
+
+"I do."
+
+"Do you submit the title to the rules of the new Contest?"
+
+Austin placed one hand over the Belt.
+
+"I submit the title to challenge."
+
+Not *my title*.
+
+The title.
+
+Edrin glanced at Oren.
+
+Pell continued.
+
+"You recognize that prior victory grants no result in the coming season?"
+
+"I recognize it."
+
+"That the Belt may leave your keeping?"
+
+A small pause.
+
+"Yes."
+
+The crowd heard it.
+
+For the first time, the Belt Keeper became interesting to Edrin not because he possessed the Belt, but because he had agreed to lose it.
+
+Pell extended her hand.
+
+Austin clasped it.
+
+The square erupted.
+
+Trumpets began somewhere near the grain exchange. They were not part of the ceremony and were not especially good.
+
+Austin glanced toward the sound.
+
+For half a second Edrin expected anger.
+
+Instead, the corner of the champion's mouth moved.
+
+Then came paperwork.
+
+Weapons were registered. Animals were counted. Lodging rights were confirmed. A quartermaster demanded to know why his storage allocation had been reduced by four cubits.
+
+"A wall was built," a clerk explained.
+
+"Why?"
+
+"To create the room next door."
+
+The quartermaster stared at him.
+
+Edrin quietly wrote it down.
+
+Later, Austin entered the Hall of Keeping alone.
+
+The Belt looked different there.
+
+Smaller.
+
+Against cheering crowds it had seemed enormous. Against the carved names of prior champions it became one object among many.
+
+Austin noticed the empty cradle.
+
+"Still fits?"
+
+Oren said, "We haven't changed it."
+
+"You change everything else."
+
+"Only when people insist."
+
+Austin's gaze moved to the Farrell Trophy.
+
+The Hall became quiet.
+
+He approached it but did not touch it.
+
+For a long moment he simply stood there.
+
+Edrin disciplined himself.
+
+Silence was evidence only of silence.
+
+At last Austin said, "You added the name."
+
+"We did."
+
+"Good."
+
+"Did you think we wouldn't?"
+
+Austin looked at the Belt.
+
+"I think everyone enjoys deciding what a champion deserves."
+
+"And what does a champion deserve?" Oren asked.
+
+"Another year."
+
+"Nobody gets that."
+
+Austin looked at him.
+
+Something passed between them that Edrin refused to name.
+
+Then Austin's eyes moved to the wall.
+
+They stopped at ObiWan Jacoby.
+
+The name immediately before his own.
+
+"He's coming?"
+
+Oren replied, "He is registered."
+
+"That wasn't my question."
+
+"It is the answer the Archive can give."
+
+Austin laughed once.
+
+"I'd forgotten how irritating you are."
+
+"You won anyway."
+
+Registrar Pell appeared at the doorway.
+
+"Byars. The Council needs you."
+
+Austin exhaled.
+
+"Of course it does."
+
+He looked once more at the Trophy and left.
+
+Edrin waited until the footsteps faded.
+
+"He asked about ObiWan."
+
+"He did."
+
+"Does that mean—"
+
+"No."
+
+"You don't know what I was going to ask."
+
+"Yes, I do."
+
+Edrin shut the register.
+
+"You're impossible."
+
+"No. Merely old."
+
+Outside, the city began shouting again.
+
+A new standard had appeared on the western road.
