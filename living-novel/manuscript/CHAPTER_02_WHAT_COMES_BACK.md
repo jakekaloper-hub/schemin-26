@@ -1148,3 +1148,512 @@ Edrin stopped.
 
 Fair.
 
+
+
+## VIII. The Market After Midnight
+
+The recruitment hall opened at midnight.
+
+By twelve-oh-three, someone had offered thirty-five.
+
+Edrin stood behind the Transaction Desk while clerks carried sealed bids into sorting cages.
+
+The hall had the atmosphere of an emergency ward run by accountants.
+
+Messengers slept against walls.
+
+Managers argued over eligibility.
+
+A physician from one of the northern houses attempted to explain why three different command injuries had nothing to do with one another and was ignored by everyone.
+
+Scarcity did not care about medical nuance.
+
+It cared that replacements were scarce.
+
+At the center of the night's attention was one name.
+
+Caleb Douglas.
+
+Edrin watched the bids arrive.
+
+Seven.
+
+Eighteen.
+
+Thirty-three.
+
+Thirty-five.
+
+He looked at Oren.
+
+"That escalated."
+
+"Markets are arguments conducted with numbers."
+
+The highest seal belonged to Seven Deadly Chins.
+
+Ben arrived carrying coffee in a metal cup.
+
+The raccoon was asleep inside his coat.
+
+"Thirty-five?" Edrin asked.
+
+Ben looked offended.
+
+"Private."
+
+"The bid is being opened in front of me."
+
+"Temporarily private."
+
+Across the hall, Three Dreaded Snake's thirty-three failed.
+
+His Majesty's Blood had two failed attempts at lower values.
+
+Other claims moved through the cages.
+
+ObiWan spent eleven on a defensive unit.
+
+Duckhook spent six on a specialist.
+
+Snake recovered by spending three elsewhere.
+
+Then came the zero-cost additions.
+
+Dozens of smaller movements.
+
+Bodies entering.
+
+Bodies leaving.
+
+Plans changing shape.
+
+Edrin had assumed the Contest happened during Encounters.
+
+Now he understood that Encounters merely exposed needs.
+
+The Contest continued at midnight beneath bad lamps while exhausted clerks stamped forms.
+
+Austin stood near the far wall.
+
+No armor.
+
+No sword.
+
+The Belt remained.
+
+He watched another failed claim return to his table.
+
+Zero and two.
+
+Failed bid.
+
+Another failed bid.
+
+The city would have enjoyed the pattern.
+
+Austin did not give it the satisfaction of reacting.
+
+Jake appeared beside the Transaction Desk carrying his own completed claim.
+
+Mud still marked one boot.
+
+The other was clean.
+
+Edrin looked down.
+
+Jake noticed.
+
+"Got it back."
+
+"I didn't ask."
+
+"You were going to."
+
+Austin saw Jake.
+
+For the second week in a row, the two found themselves in the same institutional room after opposite kinds of disappointment.
+
+This time Jake had lost too.
+
+That changed the air.
+
+Austin glanced at the mud.
+
+"Good week?"
+
+Jake looked at the Belt.
+
+"Same record as you now."
+
+"Not the same record."
+
+"One and one versus zero and two?"
+
+Austin's eyes narrowed.
+
+Jake smiled.
+
+"Sorry. Archive says numbers matter."
+
+Oren, several desks away, said, "Do not involve me."
+
+Jake looked at the failed claim slips on Austin's table.
+
+Austin looked at Jake's newly stamped defensive acquisition.
+
+Neither commented.
+
+They did not need to.
+
+Week One had given Jake proof against Austin.
+
+Week Two had given the season proof against both of them.
+
+At another desk, Wilson Look's people filed routine paperwork with the calm of an undefeated camp.
+
+Mud Dogs sent no representative.
+
+Their forms arrived damp.
+
+Edrin laid them beside the others.
+
+Two and oh.
+
+Two and oh.
+
+The market knew before the monuments did.
+
+Prices moved toward whoever appeared stable.
+
+Stability, Edrin suspected, was another temporary category.
+
+At three in the morning, the last major claim was stamped.
+
+The hall emptied.
+
+Paper remained everywhere.
+
+Oren began stacking rejected bids.
+
+"Throw those away?" Edrin asked.
+
+"Archive."
+
+"Why keep failed bids?"
+
+Oren looked at him.
+
+"Because wanting something and getting it are different historical facts."
+
+Edrin took the rejected stack.
+
+That answer bothered him for reasons he could not explain.
+
+## IX. What the City Kept
+
+By the end of the week, nobody agreed on who was strongest.
+
+This did not stop them from publishing lists.
+
+The eastern broadsheet put Mud Dogs first.
+
+The river paper preferred Slob.
+
+A bookmakers' circular favored D0nkey K0ng.
+
+A group of university students produced a mathematical table that placed Red Leopards above both undefeated teams and then spent two pages explaining why this was not insane.
+
+Someone nailed the table to the tavern door.
+
+Someone else wrote IT IS INSANE beneath it.
+
+The Archive collected both.
+
+Edrin asked Oren whether rankings belonged in the permanent record.
+
+"Some."
+
+"Which?"
+
+"The ones people act upon."
+
+"How do we know?"
+
+"We watch."
+
+Edrin hated this answer because it kept being correct.
+
+He spent the afternoon walking.
+
+At the grain exchange, Brandon Pryor had removed the Week One victory board.
+
+In its place hung the returned delivery slip.
+
+191.90 — 100.90.
+
+Not hidden.
+
+Displayed.
+
+Edrin stood beneath it.
+
+Brandon came up beside him.
+
+"Think I'm stupid?"
+
+"No."
+
+"Careful."
+
+"I think you're keeping it because everybody expects you to hide it."
+
+Brandon looked at the paper.
+
+"Closer."
+
+"Why?"
+
+The Chili Outlaw adjusted his hat.
+
+"Because if I only keep the receipts I like, I'm not keeping receipts."
+
+Edrin stared.
+
+Brandon pointed.
+
+"Don't make that sound profound."
+
+"Too late."
+
+At the Country Club, groundskeepers replaced the azalea.
+
+Duckhook supervised.
+
+At the LLC, carpenters repaired the wall.
+
+David Babb had moved his desk six feet to the left.
+
+When asked why, he said the light was better.
+
+At the north arcade, the barber swept the last clipped tendril fragments into a small box.
+
+Phillip Pitts had already commissioned new bindings for the surviving locks.
+
+At the southern gate, floodwater receded.
+
+The clerk raised the portcullis.
+
+No one cheered.
+
+The champion had already gone another way.
+
+At the swamp road, a child had painted a green sword on a plank and stuck it into the mud beside a crude drawing of a boot.
+
+Jake had not seen it yet.
+
+Edrin decided not to tell him.
+
+History required judgment.
+
+Not all evidence required immediate delivery.
+
+## X. The Empty Chair
+
+The Commissioner's office was empty when the week arrived.
+
+Not the week itself.
+
+Its remains.
+
+Edrin carried the first box.
+
+Oren carried none.
+
+"Why am I carrying this?"
+
+"Junior."
+
+"That word again."
+
+The Commissioner's chair stood behind a broad black desk.
+
+Nobody occupied it.
+
+The Commissioner was in meetings elsewhere, attempting to solve problems generated by people who believed meetings were evidence of solutions.
+
+Edrin placed the box on the desk.
+
+Inside:
+
+The returned delivery bag.
+
+A copy of the Red-Chili receipt.
+
+Mud from the southern grounds.
+
+A damaged green strap from ObiWan's field equipment.
+
+Three clipped pieces of Snake's ruined tendrils, surrendered voluntarily to the Character Registry after repair.
+
+A golf ball recovered from the Country Club flower bed.
+
+A broken LLC acquisition folder.
+
+A water-damaged travel denial from the southern gate.
+
+Rejected recruitment bids.
+
+A betting slip whose owner had donated it only after losing enough money to become philosophical.
+
+Oren examined the collection.
+
+"Anything else?"
+
+Edrin reached into his pocket.
+
+The fake historic mud from Week One.
+
+"You've been carrying that?"
+
+"I forgot."
+
+"Put it in."
+
+"It isn't authentic."
+
+"That is why it matters."
+
+Edrin placed the jar beside the real swamp mud.
+
+The distinction pleased him.
+
+Truth and imitation.
+
+Side by side.
+
+Outside the office window, the city moved into another preparation cycle.
+
+Messengers crossed bridges.
+
+Carpenters repaired grounds.
+
+Brokers recalculated prices.
+
+Retinues trained.
+
+Healers worked.
+
+Cooks bought grain.
+
+Bookmakers rewrote boards.
+
+Nobody waited for the Archive to decide what Week Two meant.
+
+That was not how meaning worked.
+
+It escaped.
+
+It traveled.
+
+It attached itself to objects and people.
+
+It returned changed.
+
+The food parcel had left Chili as a joke and returned as humiliation.
+
+The Belt had entered the week as proof of supremacy and emerged as proof that supremacy could coexist with losing.
+
+Snake's locks had entered as silhouette and returned as vulnerability.
+
+Duckhook's club had entered as controlled territory and returned damaged.
+
+The LLC's office had entered as authority and returned as a repair bill.
+
+Jake's Week One receipt had entered as proof and returned useless against mud.
+
+Even victory changed on the journey.
+
+Mud Dogs and D0nkey K0ng had begun as two names among twelve.
+
+Now every list started by explaining them.
+
+Edrin looked at the empty chair.
+
+"Who decides what goes in the box?"
+
+Oren said, "We do."
+
+"That's dangerous."
+
+"Yes."
+
+"You say that like it's normal."
+
+"It is."
+
+"What if we choose wrong?"
+
+"We will."
+
+Edrin waited.
+
+Oren continued.
+
+"Then someone after us will have to be better."
+
+That answer was worse.
+
+And somehow more comforting.
+
+Edrin closed the box.
+
+On the lid he wrote:
+
+WEEK TWO — MATERIAL CONSEQUENCES.
+
+He considered adding a subtitle.
+
+He did not.
+
+The desk was already crowded enough.
+
+A lamp burned at its corner.
+
+Beside it sat a blank packet of forms for the next cycle.
+
+Edrin stared at them.
+
+"Already?"
+
+Oren followed his gaze.
+
+"Always."
+
+The first week had taught the city to ask for evidence.
+
+The second had taught it something less comfortable.
+
+Evidence did not stay where it was put.
+
+People carried it.
+
+Used it.
+
+Mocked with it.
+
+Bet on it.
+
+Learned from it.
+
+Denied it.
+
+Displayed it.
+
+And sometimes, if they were unlucky, mailed it back.
+
+Edrin turned out the office lamp.
+
+The chair remained empty.
+
+Beyond the windows, twelve compounds burned with light.
