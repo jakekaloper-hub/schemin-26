@@ -1,11 +1,10 @@
 # Zach Wilson — King of the Impossible Lie
 
 ## Identity lock
-Upright anthropomorphic white duck golfer; orange bill; bucket hat; golf attire; established club/driver prosthetic-arm concept; rough golf-country visual language.
+Upright anthropomorphic white duck golfer; orange bill; bucket hat; golf attire; club/driver prosthetic-arm concept; rough golf-country visual language.
 
 ## Evidence anchors
-Current: Dr. Duckhook, Team 12.
-2025: 10-4 with 2428.35 PF, highest verified PF in that season; lost semifinal to The Immortal 151.80–152.20 by 0.40 and finished fourth.
+Current: Dr. Duckhook, Team 12. 2025: 10-4 with 2428.35 PF; lost semifinal to The Immortal 151.80–152.20 by 0.40 and finished fourth.
 
 ## Literary placement
 A precision specialist whose authority comes from mastering terrain, angles and improbable recovery rather than conventional battlefield dominance.
