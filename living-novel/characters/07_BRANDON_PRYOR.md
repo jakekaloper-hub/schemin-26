@@ -37,7 +37,7 @@ A joke or gesture can acquire consequences its author cannot control.
 Personal, ritualized through food/drink/hosting, loyalty-intensive.
 
 ## Power base
-Tableland routes, riders, camps, provisioning relationships, The Dark Horse as signature companion.
+Tableland routes, riders, camps, provisioning relationships, The Dark Horse.
 
 ## Vulnerability
 Reputation can outrun intent.
