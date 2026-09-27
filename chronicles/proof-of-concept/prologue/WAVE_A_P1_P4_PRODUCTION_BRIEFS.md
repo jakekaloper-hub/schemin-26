@@ -2,7 +2,7 @@
 ## Opening Grammar Gate
 
 **Parent architecture:** PROLOGUE_PHYSICAL_BOOK_ARCHITECTURE_V1.md
-**Status:** READY FOR VISUAL PRODUCTION
+**Status:** REVISED AFTER CHARACTER FAILURE — P1–P4 REBUILD REQUIRED
 
 # GLOBAL MATERIAL LANGUAGE
 
@@ -170,3 +170,62 @@ Render QA asks:
 - consistent paper/material identity.
 
 Closer passes Wave A only if P1–P4 establish a visual system strong enough that P5 can introduce real 2025 history without changing design languages.
+
+
+---
+
+# BULLPEN CORRECTION — CHARACTER-SAFE REBUILD
+
+## Root cause
+
+The prior visual pass violated its own architecture by allowing character-like figures to appear where P1–P4 did not require them. Once a figure is recognizable as a League inhabitant, it becomes a canon claim. Approximate ensemble generation therefore created avoidable character drift.
+
+## Binding correction
+
+**P1–P4 contain ZERO clearly identifiable League characters.**
+
+This is not a compromise. It strengthens the opening: the reader encounters the League's memory system before meeting its inhabitants.
+
+### P1–P2
+Archive/environment/artifacts only.
+- no humanoid focal figure;
+- no twelve silhouettes;
+- no character portraits;
+- no Belt Keeper likeness;
+- no Trade Jedi likeness;
+- no mascot-like decorative figures.
+
+### P3
+Evidence objects only.
+- photographs must be turned over, cropped beyond recognition, damaged, or otherwise non-identifying;
+- no readable invented factual text;
+- no decorative theme-label book spines.
+
+### P4
+Identity doctrine through **one persistent owner seal / archival mark** appearing beside layered verified name strips.
+- no bodies;
+- no faces;
+- no silhouettes that can be mistaken for a specific canonical character;
+- no ensemble;
+- no character transformation imagery.
+
+The first clearly identifiable League inhabitant will appear only after an individual recognition packet/reference has passed Umpire.
+
+# VISUAL STORY TEST
+
+Every foreground object must answer:
+**What happened, what survived, or what rule of memory does this object demonstrate?**
+
+If its only purpose is to label a theme or make the page look “fantasy,” remove it.
+
+# PUBLISHING STATE
+
+Previous P1–P4 renders: **SUPERSEDED / NOT PUBLISHABLE.**
+
+Rebuilt P1–P4 may advance only after:
+1. Visual Narrative PASS
+2. Character Absence PASS
+3. Fact/Text PASS
+4. Mobile Readability PASS
+5. Closer PASS
+
