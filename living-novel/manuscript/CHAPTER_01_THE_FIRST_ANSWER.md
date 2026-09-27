@@ -1584,7 +1584,7 @@ They moved.
 
 Edrin smiled.
 
-S2, Oren would have called it if the Archive used such language.
+A lesser result, Oren might have called it.
 
 Character.
 
@@ -2407,7 +2407,7 @@ On the cover, beneath the year, someone had stamped the mark of the Compact.
 
 Edrin ran a thumb across the impression.
 
-The Prologue of the season, he thought, had been expectation.
+Before the bells, the season had been expectation.
 
 Week One was evidence.
 
