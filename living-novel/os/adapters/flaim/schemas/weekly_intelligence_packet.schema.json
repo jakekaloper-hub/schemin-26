@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WeeklyLeagueIntelligencePacket",
+  "type": "object",
+  "required": [
+    "league_id",
+    "season",
+    "week",
+    "state",
+    "events",
+    "provenance",
+    "temporal_restrictions"
+  ],
+  "properties": {
+    "league_id": {
+      "const": "1417621"
+    },
+    "season": {
+      "type": "integer"
+    },
+    "week": {
+      "type": "integer"
+    },
+    "state": {
+      "enum": [
+        "FINAL",
+        "LIVE",
+        "PARTIAL",
+        "BLOCKED"
+      ]
+    },
+    "events": {
+      "type": "array"
+    },
+    "matchups": {
+      "type": "array"
+    },
+    "transactions": {
+      "type": "array"
+    },
+    "standings_consequences": {
+      "type": "array"
+    },
+    "historical_echoes": {
+      "type": "array"
+    },
+    "candidate_consequences": {
+      "type": "array"
+    },
+    "rejected_noise": {
+      "type": "array"
+    },
+    "unknowns": {
+      "type": "array"
+    },
+    "contradictions": {
+      "type": "array"
+    },
+    "provenance": {
+      "type": "array"
+    },
+    "temporal_restrictions": {
+      "type": "array"
+    }
+  }
+}
