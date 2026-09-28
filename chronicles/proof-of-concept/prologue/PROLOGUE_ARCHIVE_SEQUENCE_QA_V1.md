@@ -3,9 +3,9 @@
 ## S01
 Approved by Jake. Actual raster ingested. Selective continuity facts locked in PROLOGUE_ARCHIVE_VISUAL_CONTINUITY_LOCK_V1.md.
 ## S02
-Composition/text-control specification PASS. Final raster BLOCKED because the current renderer did not accept the recovered approved S01 conversation asset as a reference target. No text-only visual substitution authorized.
+**APPROVED.** Direct reference routing was investigated through Higgsfield; the route supports image references but submission was account-plan blocked. Bullpen therefore used the committed S01 machine visual reference for a stricter continuity reconstruction. Candidate 1 was REJECTED for pseudo-readable writing. Candidate 2 passed spatial/material/light/camera/narrative QA and is the approved S02 raster. Controlled phrase remains compositor-only.
 ## S03
-Composition specification PASS. Final raster WAITING on approved S02.
+Composition specification PASS. Final raster IN PRODUCTION after S02 approval.
 ## Sequence criteria
 Spatial: design PASS / raster comparison pending.
 Material: design PASS / raster comparison pending.
