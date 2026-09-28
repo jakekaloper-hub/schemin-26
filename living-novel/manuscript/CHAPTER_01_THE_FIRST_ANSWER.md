@@ -680,6 +680,8 @@ His Majesty's Blood had not collapsed. Far from it. Several formations had perfo
 
 Just not this one.
 
+Nor had the loss erased what Austin had carried into the season. The second had already been spent to retain Smith-Njigba. Achane had remained from the fifteenth, the sort of retained value the market could recognize before either man won anything in 2026. The Belt was history. Those names were present capital. One bad result had changed neither fact.
+
 Jake stared at the numbers.
 
 "He's going to hate that."
