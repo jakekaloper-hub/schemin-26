@@ -3,7 +3,7 @@
 **Canonical character:** The Trade Jedi
 **Beats:** B014-B016, B040-B044, B048
 **Semantic authority:** canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md
-**Visual authority required:** Jake-approved twelve-owner master lineup/reference plate + stronger owner reference where available.
+**Visual authority required:** `../../../../canon/SCHEMIN_26_MASTER_VISUAL_CANON_REFERENCE_LOCK_V1.md` + exact Commissioner-approved 12-owner plate + stronger owner reference only when non-conflicting.
 **Prologue state:** after 2026 draft, before Week 1 results.
 **Identity lock:** youthful blond human strategist; earth-tone robes/field jacket; green energy blade; golden retriever; mountain strategy language
 **Forbidden mutations:** NO CHAMPIONSHIP BELT. Blade unlit in morning beat.
