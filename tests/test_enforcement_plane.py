@@ -81,6 +81,27 @@ class EnforcementKernelTests(unittest.TestCase):
             errors=mod.validate_temporal_state(root,self.registry)
             self.assertTrue(any("V1" in e or "PROLOGUE_MANUSCRIPT_V1" in e for e in errors))
 
+
+    def test_mercer_firewall_passes_repo(self):
+        self.assertEqual(mod.validate_mercer_firewall(ROOT,self.registry),[])
+
+    def test_mercer_firewall_rejects_public_grade(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=Path(td)
+            p=root/"chronicles/chapter.md"
+            p.parent.mkdir(parents=True)
+            p.write_text("Post-draft evidence: Mercer grade A+.")
+            errors=mod.validate_mercer_firewall(root,self.registry)
+            self.assertTrue(any("Mercer grade" in e for e in errors))
+
+    def test_mercer_firewall_allows_explicit_firewall_warning(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=Path(td)
+            p=root/"chronicles/proof-of-concept/prologue/PROLOGUE_PRESEASON_EVIDENCE_AND_EMOTIONAL_SPINE.md"
+            p.parent.mkdir(parents=True)
+            p.write_text("private Mercer grades, valuations, recommendations are not public evidence")
+            self.assertEqual(mod.validate_mercer_firewall(root,self.registry),[])
+
     def test_merge_kernel_runs(self):
         self.assertTrue(mod.run(ROOT,"MERGE"))
 
