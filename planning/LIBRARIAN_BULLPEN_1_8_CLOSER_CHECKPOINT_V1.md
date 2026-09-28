@@ -278,9 +278,9 @@ Final verdict may be issued only after:
 
 1. Issue #14 — materialize exact Commissioner-approved visual plate bytes in Git.
 2. PR #12 governance/data-plane work remains separate and must be reconciled before merge ordering is finalized.
-3. Repository visibility/private-data governance remains a separate release concern.
+3. Repository visibility decision is CLOSED — Commissioner explicitly approved the repository remaining public. Public visibility is not itself a release blocker; credential/private-data/Mercer-firewall controls remain binding.
 4. Repository-wide file-by-file classification is not complete; this pass eliminated the highest-risk active contaminants and installed controls for continuing tranches.
-5. Official Week 2 published PDF remains an unresolved recovery item.
+5. Official Week 2 publication identity is RECOVERED and source-confirmed via `docs/publications/WEEK_2_OFFICIAL_PUBLICATION_RECOVERY_RECEIPT_V1.md`; exact binary copy into GitHub remains a transport task because raw Project-source bytes are not materializable in the current runtime.
 6. Original V5.1 hardening patch remains unrecovered.
 
 ## Certification evidence
