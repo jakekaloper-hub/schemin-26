@@ -19,6 +19,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Hydrate last-known-good snapshot
+        run: |
+          git fetch origin refs/heads/data/live:refs/heads/data/live
+          SNAPSHOT_PATH="data/snapshots/1417621"
+          if git cat-file -e "data/live:$SNAPSHOT_PATH/latest.json" 2>/dev/null; then
+            mkdir -p "$SNAPSHOT_PATH"
+            git show "data/live:$SNAPSHOT_PATH/latest.json" > "$SNAPSHOT_PATH/latest.json"
+            if git cat-file -e "data/live:$SNAPSHOT_PATH/manifest.json" 2>/dev/null; then
+              git show "data/live:$SNAPSHOT_PATH/manifest.json" > "$SNAPSHOT_PATH/manifest.json"
+            fi
+          fi
       - name: Fetch and validate ESPN snapshot
         id: refresh
         continue-on-error: true
@@ -36,7 +47,6 @@ jobs:
           mkdir -p /tmp/schemin-snapshot
           cp -R "$SNAPSHOT_SRC" /tmp/schemin-snapshot/1417621
 
-          git fetch origin refs/heads/data/live:refs/heads/data/live
           git worktree add /tmp/schemin-data-live data/live
 
           rm -rf /tmp/schemin-data-live/data/snapshots/1417621
