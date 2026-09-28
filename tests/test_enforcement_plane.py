@@ -218,6 +218,31 @@ class EnforcementKernelTests(unittest.TestCase):
             p.write_text("Use Frat-Bro Berserker")
             self.assertEqual(mod.validate_prompt_governance(root,self.registry),[])
 
+
+    def test_native_character_canon_passes_repo(self):
+        self.assertEqual(mod.validate_character_canon(ROOT,self.registry),[])
+
+    def test_native_character_canon_rejects_title_drift(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=Path(td)
+            (root/"governance/enforcement").mkdir(parents=True)
+            (root/"canon").mkdir(parents=True)
+            (root/"living-novel/os/adapters/flaim").mkdir(parents=True)
+
+            assertions={
+                "source_visual_lock":"canon/LOCK.md",
+                "source_sha256":"abc",
+                "owners":{"Jake Kaloper":{"title":"The Trade Jedi","invariants":["NO CHAMPIONSHIP BELT"]}}
+            }
+            (root/"governance/enforcement/CANON_ASSERTIONS_V1.json").write_text(json.dumps(assertions))
+            (root/"canon/LOCK.md").write_text("abc")
+            (root/"living-novel/os/adapters/flaim/PRO_SCHEMIN_IDENTITY_RESOLUTION_V1.json").write_text(json.dumps({
+                "records":[{"owner":"Jake Kaloper","canonical_character":"Wrong Jedi","hard_invariants":["NO CHAMPIONSHIP BELT"]}]
+            }))
+            (root/"canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md").write_text("### Jake Kaloper / ObiWan Jacoby\n**Character:** The Trade Jedi.\nNO CHAMPIONSHIP BELT")
+            errors=mod.validate_character_canon(root,self.registry)
+            self.assertTrue(any("title mismatch" in e for e in errors))
+
     def test_merge_kernel_runs(self):
         self.assertTrue(mod.run(ROOT,"MERGE"))
 
