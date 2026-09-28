@@ -635,3 +635,61 @@ For Week 3 narrative continuity, the approved Page 2 depiction establishes a **c
 - If a stat correction changes winner: invalidate result-dependent lock and reopen story resolution.
 
 **Do not regenerate, reinterpret, or replace either approved page unless Jake explicitly requests a revision.**
+
+
+# 18. FINAL COMMISSIONER-SUPPLIED PAGE MASTER REGISTER
+
+**Recorded:** 2026-09-28  
+**Matchup completion count:** **1 of 6**  
+**Commissioner declaration:** “this matchup is completed, 1 of 6 is done.”
+
+Jake supplied the two final approved raster page masters in the production conversation. These supersede every earlier generated Chili–Duckhook page iteration.
+
+## W3-M03-A — FINAL PAGE 1
+**Title:** THE WARNING CAME WITH MUSTARD.  
+**Conversation source:** `image(1).png`  
+**Conversation asset ID:** `file_000000002128822fb0ec96ff4ae1700d`  
+**Working-session mounted path:** `/mnt/data/image(1).png`  
+**Status:** FINAL / COMMISSIONER APPROVED / DO NOT REGENERATE
+
+Visible continuity/features to preserve:
+- Week 3 Chili Cheesers vs Dr. Duckhook masthead.
+- Country Club of Jackson.
+- canonical Dr. Duckhook in foreground.
+- canonical Chili Outlaw + Dark Horse approaching in distance.
+- Sonic chili-dog package.
+- “THE WARNING CAME WITH MUSTARD.”
+- Duckhook commissioner-supplied conditional dialogue appears on Page 1 only.
+- Jahmyr Gibbs 43.4 early-look element.
+- mobile/IG-story vertical composition.
+
+## W3-M03-B — FINAL PAGE 2
+**Title:** THE COUNTRY CLUB HAS BEEN CHILI'D.  
+**Conversation source:** `image(2).png`  
+**Conversation asset ID:** `file_00000000bab881f6913ceb0f2415858c`  
+**Working-session mounted path:** `/mnt/data/image(2).png`  
+**Status:** FINAL / COMMISSIONER APPROVED / DO NOT REGENERATE
+
+Visible continuity/features to preserve:
+- same Country Club geography.
+- canonical Chili Outlaw and Dr. Duckhook.
+- Chili Outlaw smushing the Sonic chili dog into Duckhook's face as the approved comic humiliation beat.
+- score display: Chili 132.19, Duckhook 126.16.
+- required dialogue: “You've been Chili'd.” / “You think twice when you play the Chili God.” / “Whole team is for sale. Done this year.”
+- closing narration resolves the joke changing owners.
+- mobile/IG-story vertical composition.
+
+## Asset authority
+For Week 3 assembly, these **two user-supplied final page images are the visual source of truth** for M03. Earlier generations are superseded and must not be substituted merely because they have similar composition or copy.
+
+The repository currently records the conversation asset IDs and session paths as provenance. Do not assume the session-mounted paths are durable repository assets. If/when the production pipeline gains a binary-asset upload step, ingest the exact approved bytes corresponding to these IDs; do not regenerate replacements.
+
+## Matchup production state
+**M03 — CHILI CHEESERS vs DR. DUCKHOOK: COMPLETE (1/6).**
+
+Only issue-level mechanical verification remains:
+- fresh provider/stat-correction check;
+- final PDF/issue assembly;
+- render audit.
+
+No further creative work on M03 unless Jake explicitly reopens it.
