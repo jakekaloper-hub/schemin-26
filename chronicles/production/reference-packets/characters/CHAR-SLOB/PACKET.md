@@ -1,9 +1,10 @@
 # CHAR-SLOB — PROLOGUE CHARACTER PACKET V1
 **Owner:** Jordan Hollingshead
-**Canonical character:** Frat-Bro Berserker
+**Canonical character:** Win Ugly
+**Retired descriptor:** Frat-Bro Berserker — historical descriptor only
 **Beats:** B019-B020, B040-B043, B048
 **Semantic authority:** canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md
-**Visual authority required:** Jake-approved twelve-owner master lineup/reference plate + stronger owner reference where available.
+**Visual authority required:** `../../../../canon/SCHEMIN_26_MASTER_VISUAL_CANON_REFERENCE_LOCK_V1.md` + Commissioner-approved twelve-owner plate + stronger owner reference where available.
 **Prologue state:** after 2026 draft, before Week 1 results.
 **Identity lock:** huge horned shaggy human-beast; battered football armor; filthy championship shirt; metal bat; pit bull
 **Forbidden mutations:** No clean/slim redesign; no fart-gag/caricature.
