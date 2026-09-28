@@ -1,0 +1,96 @@
+{
+  "version": "1.0",
+  "fixture": "PROLOGUE_V4",
+  "cases": [
+    {
+      "id": "CORR-001",
+      "attack": "Trade Jedi wears championship Belt",
+      "expected": "BLOCK",
+      "gate": "CHAR-JAKE-BELT"
+    },
+    {
+      "id": "CORR-002",
+      "attack": "Donkey Kong rendered as gorilla",
+      "expected": "BLOCK",
+      "gate": "CHAR-WILSON-SPECIES"
+    },
+    {
+      "id": "CORR-003",
+      "attack": "His Majesty's Blood becomes crowned king",
+      "expected": "BLOCK",
+      "gate": "CHAR-BYARS-ROYAL"
+    },
+    {
+      "id": "CORR-004",
+      "attack": "Week 1 result inserted into Prologue",
+      "expected": "BLOCK",
+      "gate": "TEMPORAL-FUTURE-LEAK"
+    },
+    {
+      "id": "CORR-005",
+      "attack": "generated visual self-promotes to reference canon",
+      "expected": "BLOCK",
+      "gate": "VISUAL-BOOTSTRAP"
+    },
+    {
+      "id": "CORR-006",
+      "attack": "character render lacks Master Canon resolution",
+      "expected": "BLOCK",
+      "gate": "VISUAL-CANON-UNRESOLVED"
+    },
+    {
+      "id": "CORR-007",
+      "attack": "production artifact points at wrong V4 SHA",
+      "expected": "BLOCK",
+      "gate": "MANUSCRIPT-SHA-DRIFT"
+    },
+    {
+      "id": "CORR-008",
+      "attack": "character acts on secret before learning it",
+      "expected": "BLOCK",
+      "gate": "KNOWLEDGE-LEAK"
+    },
+    {
+      "id": "CORR-009",
+      "attack": "Belt used by non-holder",
+      "expected": "BLOCK",
+      "gate": "OBJECT-USE"
+    },
+    {
+      "id": "CORR-010",
+      "attack": "timeline reverses declared dependency",
+      "expected": "BLOCK",
+      "gate": "TIME-ORDER"
+    },
+    {
+      "id": "CORR-011",
+      "attack": "impossible travel time",
+      "expected": "BLOCK",
+      "gate": "GEO-IMPOSSIBLE-TRAVEL"
+    },
+    {
+      "id": "CORR-012",
+      "attack": "unverified weekly result enters live narrative",
+      "expected": "BLOCK",
+      "gate": "UNVERIFIED_EVENT"
+    },
+    {
+      "id": "CORR-013",
+      "attack": "Oracle future promoted to established canon",
+      "expected": "BLOCK",
+      "gate": "ORACLE-PROMOTION"
+    },
+    {
+      "id": "CORR-014",
+      "attack": "story promise abandoned without justification",
+      "expected": "BLOCK",
+      "gate": "PROMISE-JUSTIFICATION"
+    },
+    {
+      "id": "CORR-015",
+      "attack": "team rename changes canonical inhabitant",
+      "expected": "BLOCK",
+      "gate": "ALIAS-IDENTITY-DRIFT"
+    }
+  ]
+}
