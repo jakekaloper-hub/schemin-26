@@ -184,7 +184,46 @@ def validate_prompt_governance(root: Path, registry):
             if needle in text:
                 errors.append(f"active prompt contamination [{reason}] at {rel}: {needle}")
     return errors
-def validate_publication_release(root: Path, registry): return []
+def validate_publication_release(root: Path, registry):
+    errors=[]
+    registry_path=root/"governance/enforcement/RELEASE_REGISTRY_V1.json"
+    contract=root/"governance/enforcement/RELEASE_MANIFEST_CONTRACT_V1.md"
+    if not registry_path.exists():
+        return ["missing release registry"]
+    if not contract.exists():
+        errors.append("missing release manifest contract")
+    release_data=json.loads(registry_path.read_text())
+    records=release_data.get("releases",[])
+    by_path={}
+    required={"artifact_path","status","source_commit","released_at","authority","qa_gates"}
+    for idx,rec in enumerate(records):
+        missing=required-set(rec)
+        if missing:
+            errors.append(f"release[{idx}] missing {sorted(missing)}")
+            continue
+        if rec["status"]!="RELEASED":
+            errors.append(f"release[{idx}] invalid status {rec['status']}")
+        if not isinstance(rec["qa_gates"],list) or not rec["qa_gates"]:
+            errors.append(f"release[{idx}] qa_gates must be non-empty")
+        if rec["artifact_path"] in by_path:
+            errors.append(f"duplicate release record for {rec['artifact_path']}")
+        by_path[rec["artifact_path"]]=rec
+
+    marker=re.compile(r"(\*\*Status:\*\*\s*RELEASED|\*\*Publication status:\*\*\s*RELEASED|PUBLICATION_STATUS:\s*RELEASED)",re.I)
+    scan_roots=[root/"memo-os",root/"chronicles",root/"living-novel",root/"productions"]
+    for base in scan_roots:
+        if not base.exists():
+            continue
+        for p in base.rglob("*.md"):
+            if "archive" in p.parts:
+                continue
+            text=p.read_text(errors="replace")
+            if marker.search(text):
+                rel=p.relative_to(root).as_posix()
+                rec=by_path.get(rel)
+                if not rec:
+                    errors.append(f"RELEASED artifact lacks release registry record: {rel}")
+    return errors
 def validate_exceptions(root: Path, registry): return []
 
 def run(root: Path, mode="MERGE"):
