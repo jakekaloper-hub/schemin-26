@@ -1,0 +1,3 @@
+# OBJ-EMPTY-HOOKS — REFERENCE PACKET V1
+**State:** DRAFT / EVIDENCE-RESOLVED. **Beats:** B017-B018, B043-B044.
+**Authority:** V4 §VI. **Physical:** three functional empty premium hooks in TDS armory: first, second, third. **Material:** iron/armory hardware. **Historical meaning:** no live selections in first three rounds. **Literary:** specific scarcity amid abundance. **Visual:** negative space. **Readable text:** none required. **Forbidden:** poverty/shame cues, hanging trophies/weapons filling them.
