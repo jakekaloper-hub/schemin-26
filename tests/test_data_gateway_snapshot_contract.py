@@ -184,15 +184,20 @@ class DataGatewaySnapshotContractTests(unittest.TestCase):
             self.assertFalse((out_dir / "latest.json.tmp").exists())
             self.assertFalse((out_dir / "manifest.json.tmp").exists())
 
-    def test_workflow_persists_state_even_when_refresh_fails(self):
+    def test_workflow_hydrates_lkg_before_refresh_and_persists_failure_state(self):
         text = WORKFLOW_PATH.read_text()
+        self.assertIn("Hydrate last-known-good snapshot", text)
+        self.assertIn("git fetch origin refs/heads/data/live:refs/heads/data/live", text)
+        self.assertIn('git show "data/live:$SNAPSHOT_PATH/latest.json"', text)
         self.assertIn("continue-on-error: true", text)
         self.assertIn("if: always()", text)
         self.assertIn("if: steps.refresh.outcome != 'success'", text)
-        self.assertIn("git fetch origin refs/heads/data/live:refs/heads/data/live", text)
         self.assertIn("git worktree add /tmp/schemin-data-live data/live", text)
         self.assertIn("git push origin HEAD:data/live", text)
         self.assertNotIn("git push origin HEAD:main", text)
+        hydrate_pos = text.index("Hydrate last-known-good snapshot")
+        refresh_pos = text.index("Fetch and validate ESPN snapshot")
+        self.assertLess(hydrate_pos, refresh_pos)
         add_pos = text.index("git add data/snapshots/1417621")
         diff_pos = text.index("git diff --cached --quiet -- data/snapshots/1417621")
         self.assertLess(add_pos, diff_pos)
