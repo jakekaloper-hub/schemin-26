@@ -3,7 +3,7 @@
 **Canonical character:** The Chili Outlaw
 **Beats:** B025-B026, B040-B043, B048
 **Semantic authority:** canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md
-**Visual authority required:** Jake-approved twelve-owner master lineup/reference plate + stronger owner reference where available.
+**Visual authority required:** `../../../../canon/SCHEMIN_26_MASTER_VISUAL_CANON_REFERENCE_LOCK_V1.md` + exact Commissioner-approved 12-owner plate + stronger owner reference only when non-conflicting.
 **Prologue state:** after 2026 draft, before Week 1 results.
 **Identity lock:** bearded Western outlaw/pitmaster; black chili-detail hat; sunglasses; chili-red duster; chili bandolier; Dark Horse
 **Forbidden mutations:** Dark Horse continuity; no retired bear/bloodhound or Chili King/Beast/Gremlin.
