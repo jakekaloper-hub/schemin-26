@@ -35,6 +35,32 @@ class EnforcementKernelTests(unittest.TestCase):
         with self.assertRaises(mod.EnforcementFailure):
             mod.validate_registry(ROOT,reg)
 
+
+    def test_authority_validator_passes_repo(self):
+        self.assertEqual(mod.validate_authority_uniqueness(ROOT,self.registry),[])
+
+    def test_authority_validator_rejects_duplicate_master(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=Path(td)
+            (root/"canon").mkdir(parents=True)
+            (root/"living-novel/os/adapters/flaim").mkdir(parents=True)
+            (root/"canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md").write_text("x")
+            (root/"SCHEMIN_26_MASTER_CHARACTER_CANON_COPY.md").write_text("x")
+            (root/"living-novel/os/adapters/flaim/PRO_SCHEMIN_IDENTITY_RESOLUTION_V1.json").write_text("{}")
+            errors=mod.validate_authority_uniqueness(root,self.registry)
+            self.assertTrue(any("active master character canon set invalid" in e for e in errors))
+
+    def test_authority_validator_rejects_resurrected_handoff(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=Path(td)
+            (root/"canon").mkdir(parents=True)
+            (root/"living-novel/os/adapters/flaim").mkdir(parents=True)
+            (root/"canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md").write_text("x")
+            (root/"living-novel/os/adapters/flaim/PRO_SCHEMIN_IDENTITY_RESOLUTION_V1.json").write_text("{}")
+            (root/"XCODE_CHATGPT_HANDOFF.md").write_text("ACTIVE")
+            errors=mod.validate_authority_uniqueness(root,self.registry)
+            self.assertTrue(any("retired active path resurrected" in e for e in errors))
+
     def test_merge_kernel_runs(self):
         self.assertTrue(mod.run(ROOT,"MERGE"))
 
