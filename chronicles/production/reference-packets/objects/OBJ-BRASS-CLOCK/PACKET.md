@@ -1,0 +1,3 @@
+# OBJ-BRASS-CLOCK — REFERENCE PACKET V1
+**State:** DRAFT / EVIDENCE-RESOLVED. **Beats:** B040.
+**Authority:** V4 §XVI; Art Bible. **Physical:** Archive's functional brass clock striking appointed hour. **Literary:** shared time across separate geographies. **Visual:** recurrence/synchronization anchor for B040. **Readable text:** none necessary. **Forbidden:** magical clock, countdown UI, prophecy, homogenizing all environments.
