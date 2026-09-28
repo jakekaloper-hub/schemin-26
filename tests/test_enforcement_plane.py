@@ -243,6 +243,57 @@ class EnforcementKernelTests(unittest.TestCase):
             errors=mod.validate_character_canon(root,self.registry)
             self.assertTrue(any("title mismatch" in e for e in errors))
 
+
+    def test_security_scan_passes_repo(self):
+        self.assertEqual(mod.validate_security_scan(ROOT,self.registry),[])
+
+    def test_security_scan_rejects_token_signature(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=Path(td)
+            p=root/"bad.txt"
+            p.write_text("token = ghp_ABCDEFGHIJKLMNOPQRSTUVWXYZ123456")
+            errors=mod.validate_security_scan(root,self.registry)
+            self.assertTrue(any("GitHub classic token" in e for e in errors))
+
+    def test_historical_identity_passes_repo(self):
+        self.assertEqual(mod.validate_historical_identity(ROOT,self.registry),[])
+
+    def test_historical_identity_rejects_retired_current_authority(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=Path(td)
+            p=root/"world/history/2025/2025_OWNER_TEAM_ALIAS_MAP.md"
+            p.parent.mkdir(parents=True)
+            p.write_text(
+                "HISTORICAL EVIDENCE / IDENTITY RESOLUTION — TO VERIFY WHERE MARKED\n"
+                "canon/SCHEMIN_26_MASTER_VISUAL_CANON_REFERENCE_LOCK_V1.md\n"
+                "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md\n"
+                "TO VERIFY\n"
+                "Frat-Bro Berserker / established Slob"
+            )
+            errors=mod.validate_historical_identity(root,self.registry)
+            self.assertTrue(any("retired current-identity authority" in e for e in errors))
+
+    def test_index_integrity_passes_repo(self):
+        self.assertEqual(mod.validate_index_integrity(ROOT,self.registry),[])
+
+    def test_index_integrity_rejects_retired_reference(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=Path(td)
+            for rel in ["archive/_INDEX.md","canon/_INDEX.md","memo-os/_INDEX.md","data-gateway/_INDEX.md","mercer/_INDEX.md"]:
+                p=root/rel
+                p.parent.mkdir(parents=True,exist_ok=True)
+                p.write_text("SCHEMIN_26_MASTER_VISUAL_CANON_REFERENCE_LOCK_V1.md")
+            (root/"memo-os/_INDEX.md").write_text("XCODE_CHATGPT_HANDOFF.md")
+            errors=mod.validate_index_integrity(root,self.registry)
+            self.assertTrue(any("retired authority" in e for e in errors))
+
+    def test_data_gateway_dependency_is_auditable(self):
+        result=mod.validate_data_gateway_dependency(ROOT,self.registry)
+        self.assertIsInstance(result,list)
+
+    def test_release_kernel_runs(self):
+        self.assertTrue(mod.run(ROOT,"RELEASE"))
+
     def test_merge_kernel_runs(self):
         self.assertTrue(mod.run(ROOT,"MERGE"))
 
