@@ -3,7 +3,7 @@
 **Canonical character:** Swamp-Born Menace
 **Beats:** B023-B024, B040, B048
 **Semantic authority:** canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md
-**Visual authority required:** Jake-approved twelve-owner master lineup/reference plate + stronger owner reference where available.
+**Visual authority required:** `../../../../canon/SCHEMIN_26_MASTER_VISUAL_CANON_REFERENCE_LOCK_V1.md` + exact Commissioner-approved 12-owner plate + stronger owner reference only when non-conflicting.
 **Prologue state:** after 2026 draft, before Week 1 results.
 **Identity lock:** massive rabid mud-covered dog/wolf beast; blue-orange coloration; heavy chain; diseased teeth
 **Forbidden mutations:** Never human hunter/normal pet/generic werewolf.
