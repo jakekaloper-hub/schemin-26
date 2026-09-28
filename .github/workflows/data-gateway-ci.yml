@@ -27,6 +27,6 @@ jobs:
         with:
           python-version: "3.12"
       - name: Compile gateway
-        run: python -m py_compile data-gateway/refresh_espn_snapshot.py
+        run: python -m py_compile data-gateway/refresh_espn_snapshot.py data-gateway/check_snapshot_health.py
       - name: Run snapshot contract tests
         run: python -m unittest -v tests/test_data_gateway_snapshot_contract.py
