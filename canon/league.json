@@ -10,5 +10,9 @@
     "Burgers",
     "Wings",
     "Pizza"
-  ]
+  ],
+  "base_roster_slots": 17,
+  "reserve_slots": 2,
+  "max_roster_entries_with_reserve": 19,
+  "roster_entry_count_policy": "Current entries may vary with reserve/IR occupancy; validate against ESPN settings-derived capacity, not an exact 17-per-team live count."
 }
