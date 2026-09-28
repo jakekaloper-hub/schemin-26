@@ -1,0 +1,27 @@
+name: Novel OS CI
+on:
+  push:
+    paths:
+      - "living-novel/os/**"
+      - "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+      - "chronicles/proof-of-concept/prologue/**"
+      - ".github/workflows/novel-os-ci.yml"
+  pull_request:
+    paths:
+      - "living-novel/os/**"
+      - "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+      - "chronicles/proof-of-concept/prologue/**"
+  workflow_dispatch:
+jobs:
+  novel-os-regression:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile Novel OS
+        run: python -m py_compile living-novel/os/engine/novel_os.py
+      - name: Run deterministic and adversarial suite
+        working-directory: living-novel/os/evaluations
+        run: python -m unittest -v test_novel_os.py
