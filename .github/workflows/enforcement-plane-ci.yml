@@ -11,9 +11,6 @@ on:
       - "tests/test_enforcement_plane.py"
       - ".github/workflows/enforcement-plane-ci.yml"
   workflow_dispatch:
-concurrency:
-  group: enforcement-plane-ci-${{ github.ref }}
-  cancel-in-progress: true
 jobs:
   enforcement:
     runs-on: ubuntu-latest
