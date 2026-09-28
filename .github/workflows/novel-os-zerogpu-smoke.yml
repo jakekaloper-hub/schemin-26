@@ -1,0 +1,27 @@
+name: Novel OS ZeroGPU Smoke
+on:
+  push:
+    paths:
+      - '.github/workflows/novel-os-zerogpu-smoke.yml'
+      - 'living-novel/os/runtime/zerogpu_smoke.py'
+  workflow_dispatch:
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Gradio client
+        run: python -m pip install --disable-pip-version-check gradio_client
+      - name: Execute real ZeroGPU smoke render
+        run: python living-novel/os/runtime/zerogpu_smoke.py
+      - name: Upload render evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: novel-os-zerogpu-smoke
+          path: living-novel/os/runtime/smoke/
+          if-no-files-found: warn
