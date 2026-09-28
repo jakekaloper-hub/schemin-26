@@ -24,9 +24,9 @@ jobs:
         run: python data-gateway/refresh_espn_snapshot.py
       - name: Commit changed snapshot
         run: |
-          if git diff --quiet -- data/snapshots/1417621; then exit 0; fi
+          git add data/snapshots/1417621
+          if git diff --cached --quiet -- data/snapshots/1417621; then exit 0; fi
           git config user.name "schemin-data-gateway"
           git config user.email "actions@users.noreply.github.com"
-          git add data/snapshots/1417621
           git commit -m "data: refresh ESPN 1417621 snapshot"
           git push
