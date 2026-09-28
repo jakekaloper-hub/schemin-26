@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-09-28T03:20:00Z",
+  "project": "Schemin '26",
+  "canonical_repository": "jakekaloper-hub/schemin-26",
+  "baseline": {
+    "default_branch": "main",
+    "sha": "49194258ef60c3d467d6f1cdf9926c1a4cc84cc5",
+    "visibility": "public",
+    "branch_protected": false,
+    "local_workspace_state": "NOT_ATTESTABLE_FROM_CURRENT_RUNTIME"
+  },
+  "repository_inventory": {
+    "files": 440,
+    "directories": 138,
+    "markdown_files": 387,
+    "json_files": 26,
+    "python_files": 10,
+    "javascript_files": 11,
+    "yaml_files": 5
+  },
+  "external_repositories": [
+    {
+      "repository": "jakekaloper-hub/fantasy-league-artworks",
+      "classification": "UPSTREAM_REUSABLE_PLATFORM",
+      "canonical_for_schemin_project_state": false
+    }
+  ],
+  "ci": {
+    "bullpen_runtime": {
+      "status": "PASS",
+      "baseline_main_run": 302
+    },
+    "novel_os": {
+      "status": "PASS",
+      "recent_main_run_ids": [
+        36371735587,
+        36371733358,
+        36371592754
+      ]
+    },
+    "zerogpu_smoke": {
+      "status": "PASS_AT_TESTED_COMMIT",
+      "run_id": 36371595027
+    },
+    "data_gateway_contract": {
+      "status": "PASS_ON_SWEEP_BRANCH",
+      "run_id": 36373200079
+    },
+    "espn_snapshot_persistence": {
+      "status": "REPAIR_PENDING_POST_MERGE_RUNTIME_PROOF",
+      "source_run_id": 36362219506
+    }
+  },
+  "findings": {
+    "p0": [],
+    "p1": [
+      "RIS-001 repository visibility/private-material boundary"
+    ],
+    "p2": [
+      "RIS-002 main branch protection disabled",
+      "RIS-005 local workspace not attestable",
+      "RIS-006 exact V5.1 data-hardening original unrecovered",
+      "official Week 2 memo.pdf referenced but not present in repository"
+    ]
+  },
+  "pr_dispositions": {
+    "closed_superseded": [
+      7,
+      8,
+      9
+    ],
+    "open_substantive": [
+      4,
+      6
+    ]
+  },
+  "sweep_branch": "chore/repository-integrity-sweep-2026-09-27",
+  "sweep_status": "CONDITIONAL_PASS_IN_PROGRESS"
+}
