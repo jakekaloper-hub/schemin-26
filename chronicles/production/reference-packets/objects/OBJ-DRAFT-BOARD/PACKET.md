@@ -1,0 +1,3 @@
+# OBJ-DRAFT-BOARD — REFERENCE PACKET V1
+**State:** DRAFT / EVIDENCE-RESOLVED. **Beats:** B010, B022, B035, B037-B043, B046, B048.
+**Authority:** V4 §§XV–XVI; Beat Map; Art Bible. **Physical:** shared physical economy represented through copies/marks/forms; occupied/open/absent opportunity must be legible without modern app UI. **Literary:** transferable future opportunity hardening into ownership. **Visual:** primary B035–B046 continuity object. **Readable text:** exact names/selections/timestamps stay typeset or separately composed. **Forbidden:** dashboard/bracket, fake rules, literal NFL portraits, prophecy/glow, future results.
