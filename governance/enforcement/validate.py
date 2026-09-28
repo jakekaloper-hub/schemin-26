@@ -38,7 +38,50 @@ def validate_registry(root: Path, registry):
         raise EnforcementFailure("\n".join(errors))
 
 def validate_character_canon(root: Path, registry): return []
-def validate_authority_uniqueness(root: Path, registry): return []
+def validate_authority_uniqueness(root: Path, registry):
+    errors=[]
+
+    active_master=[
+        p for p in root.rglob("SCHEMIN_26_MASTER_CHARACTER_CANON*.md")
+        if "archive" not in p.parts
+    ]
+    expected=root/"canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+    if active_master != [expected]:
+        rel=[p.relative_to(root).as_posix() for p in active_master]
+        errors.append(f"active master character canon set invalid: {rel}")
+
+    active_ids=[
+        p for p in root.rglob("PRO_SCHEMIN_IDENTITY_RESOLUTION_V1.json")
+        if "archive" not in p.parts
+    ]
+    expected_id=root/"living-novel/os/adapters/flaim/PRO_SCHEMIN_IDENTITY_RESOLUTION_V1.json"
+    if active_ids != [expected_id]:
+        rel=[p.relative_to(root).as_posix() for p in active_ids]
+        errors.append(f"active Flaim identity registry set invalid: {rel}")
+
+    retired_paths=[
+        "world/canon/SCHEMIN_26_MASTER_CHARACTER_CANON_V1_1.md",
+        "XCODE_CHATGPT_HANDOFF.md",
+        "XCODE_HANDOFF_PRO_SCHEMIN_WORLD.md",
+        "living-novel/os/adapters/flaim/registries/PRO_SCHEMIN_IDENTITY_RESOLUTION_V1.json",
+    ]
+    for rel in retired_paths:
+        if (root/rel).exists():
+            errors.append(f"retired active path resurrected: {rel}")
+
+    archive=root/"archive"
+    if archive.exists():
+        for p in archive.rglob("*.md"):
+            if p.name=="_INDEX.md":
+                continue
+            text=p.read_text(errors="replace")
+            if not text.startswith("# HISTORICAL ONLY — DO NOT USE AS CURRENT PRODUCTION AUTHORITY"):
+                errors.append(f"archive markdown missing historical banner: {p.relative_to(root)}")
+        for p in archive.rglob("*.json"):
+            data=json.loads(p.read_text())
+            if data.get("_archive_status")!="ARCHIVE_ONLY":
+                errors.append(f"archive json missing ARCHIVE_ONLY status: {p.relative_to(root)}")
+    return errors
 def validate_temporal_state(root: Path, registry): return []
 def validate_mercer_firewall(root: Path, registry): return []
 def validate_prompt_governance(root: Path, registry): return []
