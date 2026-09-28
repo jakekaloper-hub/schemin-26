@@ -16,5 +16,5 @@ No downstream subsystem may imply live verification when the gateway is stale, f
 
 Current production entry points:
 - acquisition: `refresh_espn_snapshot.py`
-- scheduled persistence: `.github/workflows/espn-cold-standby.yml`
+- scheduled persistence: `.github/workflows/espn-cold-standby.yml` → Git ref `data/live`, path `data/snapshots/1417621/`
 - regression contract: `../tests/test_data_gateway_snapshot_contract.py`
