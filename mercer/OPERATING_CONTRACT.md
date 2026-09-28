@@ -11,6 +11,12 @@
 4. Timestamped manual corrections.
 5. Mercer inference.
 
+## Temporal-state contract
+
+Every actionable Mercer recommendation must identify the relevant league-state timestamp or matchup period. Historical recommendations are decision-journal evidence, not standing instructions.
+
+A Mercer artifact containing roster, waiver, trade, lineup, opponent, keeper, or pick state must be treated as historical unless its current-state evidence is freshly resolved through the Data Gateway / controlling ledger.
+
 ## Claim discipline
 
 Material claims should be distinguishable as:
