@@ -26,3 +26,5 @@ jobs:
         run: python -m unittest -v tests/test_enforcement_plane.py
       - name: Merge enforcement
         run: python governance/enforcement/validate.py --mode MERGE
+      - name: Release enforcement
+        run: python governance/enforcement/validate.py --mode RELEASE
