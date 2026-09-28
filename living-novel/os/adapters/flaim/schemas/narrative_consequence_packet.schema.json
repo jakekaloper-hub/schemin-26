@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NarrativeConsequencePacket",
+  "type": "object",
+  "required": [
+    "source_event_ids",
+    "fact_layer",
+    "interpretation_layer",
+    "canon_status"
+  ],
+  "properties": {
+    "source_event_ids": {
+      "type": "array"
+    },
+    "fact_layer": {
+      "type": "array"
+    },
+    "pattern_layer": {
+      "type": "array"
+    },
+    "interpretation_layer": {
+      "type": "array"
+    },
+    "character_consequences": {
+      "type": "array"
+    },
+    "world_consequences": {
+      "type": "array"
+    },
+    "story_promises": {
+      "type": "array"
+    },
+    "scene_candidates": {
+      "type": "array"
+    },
+    "visual_candidates": {
+      "type": "array"
+    },
+    "canon_status": {
+      "const": "PROPOSED_ONLY"
+    }
+  }
+}
