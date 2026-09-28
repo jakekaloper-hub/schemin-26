@@ -9,6 +9,7 @@
 | Artifact / domain | Canonical path | Status | Authority | Validation / note |
 |---|---|---|---|---|
 | Project entry point | `PROJECT_CONTROL_REGISTRY.md` | active | Librarian / SCK | controls navigation |
+| Standing operating contract | `docs/governance/SCHEMIN_26_STANDING_OPERATING_CONTRACT_V1.md` | active control | Jake / Bullpen / Librarian / Closer | standing BTS execution contract |
 | Source-of-truth policy | `docs/governance/SOURCE_OF_TRUTH.md` | active | Librarian / Data | hierarchy + publication override |
 | Authority matrix | `docs/governance/AUTHORITY_MATRIX.md` | active | Umpire / Librarian | mixed-domain boundaries |
 | FLA boundary | `docs/architecture/FLA_INTEGRATION.md` | active | Architect / Librarian | upstream-only relationship |
