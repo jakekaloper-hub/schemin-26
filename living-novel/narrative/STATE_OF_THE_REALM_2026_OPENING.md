@@ -47,7 +47,7 @@ Institutional relationship: understands the Belt both as former holder and curre
 Position: archetype of sustained strength without corresponding recent championship.
 Pressure: force the culture to reconcile dominance with final legitimacy.
 
-## Jordan Hollingshead — Slob on my Dobb / Frat-Bro Berserker
+## Jordan Hollingshead — Slob on my Dobb / Win Ugly
 Position: disruptive informal power.
 Pressure: determine whether charisma/disorder can become durable influence.
 
@@ -55,8 +55,8 @@ Pressure: determine whether charisma/disorder can become durable influence.
 Position: commercial-contractual power.
 Pressure: convert economic structure into prestige without discovering that some forms of legitimacy cannot be acquired.
 
-## Wilson Look — D0nkey K0ng / Arsenal Centaur
-Position: mobile warrior-philosopher.
+## Wilson Look — Donkey Kong / The Philosopher-Warrior
+Position: mobile warrior-philosopher; Arsenal Centaur body form remains visually locked.
 Pressure: reconcile code, appetite, movement and practical rule.
 
 ## Phillip Pitts — Three Dreaded Snake / Podium Shadow
