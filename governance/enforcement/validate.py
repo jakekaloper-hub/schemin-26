@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 import argparse
+import fnmatch
 import json
 import re
+from datetime import datetime, timezone
 from pathlib import Path
 
 ALLOWED_SEVERITIES={"BLOCK","RELEASE_BLOCK","WARN"}
@@ -38,6 +40,20 @@ def validate_registry(root: Path, registry):
     if errors:
         raise EnforcementFailure("\n".join(errors))
 
+def _exception_records(root: Path):
+    p=root/"governance/enforcement/EXCEPTIONS_V1.json"
+    if not p.exists():
+        return []
+    return json.loads(p.read_text()).get("exceptions",[])
+
+def is_excepted(root: Path, policy_id: str, scope: str):
+    for rec in _exception_records(root):
+        if rec.get("status")!="ACTIVE" or rec.get("policy_id")!=policy_id:
+            continue
+        if fnmatch.fnmatch(scope,rec.get("scope_glob","")):
+            return True
+    return False
+
 def validate_character_canon(root: Path, registry): return []
 def validate_authority_uniqueness(root: Path, registry):
     errors=[]
@@ -68,7 +84,8 @@ def validate_authority_uniqueness(root: Path, registry):
     ]
     for rel in retired_paths:
         if (root/rel).exists():
-            errors.append(f"retired active path resurrected: {rel}")
+            if not is_excepted(root,"AUTH-001",rel):
+                errors.append(f"retired active path resurrected: {rel}")
 
     archive=root/"archive"
     if archive.exists():
@@ -159,7 +176,8 @@ def validate_mercer_firewall(root: Path, registry):
                         line_text=text.splitlines()[line-1] if text.splitlines() else ""
                         if "private" in line_text.lower() or "no private" in line_text.lower():
                             continue
-                    errors.append(f"public creative Mercer leakage [{label}] at {rel}")
+                    if not is_excepted(root,"FIREWALL-001",rel):
+                        errors.append(f"public creative Mercer leakage [{label}] at {rel}")
                     break
     return errors
 def validate_prompt_governance(root: Path, registry):
@@ -182,7 +200,8 @@ def validate_prompt_governance(root: Path, registry):
         text=p.read_text(errors="replace")
         for needle,reason in forbidden_strings.items():
             if needle in text:
-                errors.append(f"active prompt contamination [{reason}] at {rel}: {needle}")
+                if not is_excepted(root,"PROMPT-001",rel.as_posix()):
+                    errors.append(f"active prompt contamination [{reason}] at {rel}: {needle}")
     return errors
 def validate_publication_release(root: Path, registry):
     errors=[]
@@ -222,9 +241,63 @@ def validate_publication_release(root: Path, registry):
                 rel=p.relative_to(root).as_posix()
                 rec=by_path.get(rel)
                 if not rec:
-                    errors.append(f"RELEASED artifact lacks release registry record: {rel}")
+                    if not is_excepted(root,"PUB-001",f"release:{rel}"):
+                        errors.append(f"RELEASED artifact lacks release registry record: {rel}")
     return errors
-def validate_exceptions(root: Path, registry): return []
+def validate_exceptions(root: Path, registry):
+    errors=[]
+    path=root/"governance/enforcement/EXCEPTIONS_V1.json"
+    if not path.exists():
+        return ["missing exception registry"]
+    data=json.loads(path.read_text())
+    records=data.get("exceptions",[])
+    policies={p["policy_id"]:p for p in registry.get("policies",[])}
+    seen=set()
+    now=datetime.now(timezone.utc)
+    for idx,rec in enumerate(records):
+        required={"exception_id","policy_id","scope_glob","reason","approved_by","approved_at","status"}
+        missing=required-set(rec)
+        if missing:
+            errors.append(f"exception[{idx}] missing {sorted(missing)}")
+            continue
+        eid=rec["exception_id"]
+        if eid in seen:
+            errors.append(f"duplicate exception_id {eid}")
+        seen.add(eid)
+        policy=policies.get(rec["policy_id"])
+        if not policy:
+            errors.append(f"{eid} references unknown policy {rec['policy_id']}")
+            continue
+        if policy.get("exception_policy")=="NONE":
+            errors.append(f"{eid} attempts exception on non-exceptable policy {rec['policy_id']}")
+        if rec["status"]!="ACTIVE":
+            errors.append(f"{eid} invalid status {rec['status']}")
+        if not isinstance(rec["approved_by"],list) or not rec["approved_by"]:
+            errors.append(f"{eid} approved_by must be non-empty list")
+        if len(str(rec["reason"]).strip())<12:
+            errors.append(f"{eid} reason too short")
+        if not rec.get("expires_at") and not rec.get("review_trigger"):
+            errors.append(f"{eid} requires expires_at or review_trigger")
+        try:
+            datetime.fromisoformat(str(rec["approved_at"]).replace("Z","+00:00"))
+        except Exception:
+            errors.append(f"{eid} invalid approved_at")
+        if rec.get("expires_at"):
+            try:
+                exp=datetime.fromisoformat(str(rec["expires_at"]).replace("Z","+00:00"))
+                if exp.tzinfo is None:
+                    exp=exp.replace(tzinfo=timezone.utc)
+                if exp<=now:
+                    errors.append(f"{eid} is expired")
+            except Exception:
+                errors.append(f"{eid} invalid expires_at")
+        rule=policy.get("exception_policy")
+        approvers=set(rec.get("approved_by",[]))
+        if rule in {"EXPLICIT_COMMISSIONER_ONLY","COMMISSIONER_RELEASE_OVERRIDE"} and "Jake / Commissioner" not in approvers:
+            errors.append(f"{eid} requires Jake / Commissioner approval")
+        if rule=="DECLASSIFICATION_REQUIRED" and not {"Warden","Jake / Commissioner"}.issubset(approvers):
+            errors.append(f"{eid} requires Warden + Jake / Commissioner approval")
+    return errors
 
 def run(root: Path, mode="MERGE"):
     registry=load_registry(root)
