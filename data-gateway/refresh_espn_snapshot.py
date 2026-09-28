@@ -59,20 +59,33 @@ def configured_roster_capacity(data):
 def validate(data):
     if str(data.get("id")) != LEAGUE_ID:
         raise ValueError("wrong league id")
-    if len(data.get("teams", [])) != EXPECTED_TEAMS:
+    teams = data.get("teams")
+    if not isinstance(teams, list) or len(teams) != EXPECTED_TEAMS:
         raise ValueError(f"expected {EXPECTED_TEAMS} teams")
-    for key in ("schedule", "settings", "status"):
-        if key not in data:
-            raise ValueError(key + " missing")
+    schedule = data.get("schedule")
+    if not isinstance(schedule, list) or not schedule:
+        raise ValueError("schedule missing or empty")
+    if not isinstance(data.get("settings"), dict):
+        raise ValueError("settings missing or invalid")
+    if not isinstance(data.get("status"), dict):
+        raise ValueError("status missing or invalid")
+
+    team_ids = [str(team.get("id")) for team in teams]
+    if any(team_id in ("None", "") for team_id in team_ids):
+        raise ValueError("team id missing")
+    if len(set(team_ids)) != EXPECTED_TEAMS:
+        raise ValueError("duplicate team ids")
 
     capacity = configured_roster_capacity(data)
     roster_counts = []
-    for team in data["teams"]:
+    for team in teams:
         roster = team.get("roster")
         entries = roster.get("entries") if isinstance(roster, dict) else None
         if not isinstance(entries, list):
             raise ValueError(f"team {team.get('id', '?')} roster entries missing")
         count = len(entries)
+        if count <= 0:
+            raise ValueError(f"team {team.get('id', '?')} roster empty")
         if count > capacity:
             raise ValueError(
                 f"team {team.get('id', '?')} roster exceeds configured capacity "
