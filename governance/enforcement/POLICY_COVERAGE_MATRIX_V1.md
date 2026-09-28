@@ -24,10 +24,10 @@
 ## Known manual / external controls
 
 Some controls cannot yet be fully machine-enforced from this branch:
-- repository visibility/private setting;
+- repository visibility is resolved by Commissioner approval of public architecture; security/private-data controls remain mandatory;
 - branch-protection admin settings;
 - exact binary materialization of the Commissioner-approved character plate;
-- recovery of the exact official Week 2 PDF;
+- official Week 2 source is recovered; exact raw-byte GitHub import remains a transport task;
 - recovery of the original V5.1 patch;
 - real post-merge ESPN data/live operational proof.
 
