@@ -29,14 +29,17 @@ LEARNING — REGRESSION / RESEARCH / VERSIONED MEMORY
 ## Controlling domains
 
 ### Weekly Memo
-Current controlling build: **V5.2-RC**.
+Current controlling production-hardening layer: **V5.4**, with **V5.3** binding beneath it for character/reference enforcement. **V5.2-RC** remains the cross-OS orchestration layer pending its own acceptance criteria.
 
 Read in this order:
-1. `memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_GOLD_STANDARD_STUDIO_PATCH.md`
-2. `memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_2_RC_MUTUAL_IMPLEMENTATION_PATCH.md`
-3. `memo-os/SCHEMIN_26_WEEKLY_MEMO_GOLD_STANDARD_PRODUCTION_MANUAL.md`
-4. `memo-os/SCHEMIN_26_WEEKLY_MEMO_MASTER_INITIATION_PROMPT.md`
-5. `canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md`
+1. `memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_4_ACCEPTANCE_TEST_HARDENING_PATCH.md`
+2. `memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_3_CHARACTER_REFERENCE_ENFORCEMENT_PATCH.md`
+3. `memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_GOLD_STANDARD_STUDIO_PATCH.md`
+4. `memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_2_RC_MUTUAL_IMPLEMENTATION_PATCH.md`
+5. `memo-os/SCHEMIN_26_WEEKLY_MEMO_GOLD_STANDARD_PRODUCTION_MANUAL.md`
+6. `memo-os/SCHEMIN_26_WEEKLY_MEMO_MASTER_INITIATION_PROMPT.md`
+7. `canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md`
+8. `chronicles/standards/CHARACTER_VISUAL_LOCK_GATE.md`
 
 V5.2-RC remains an RC architecture until its acceptance criteria are satisfied; do not relabel it permanently certified merely because a strong artifact exists.
 
