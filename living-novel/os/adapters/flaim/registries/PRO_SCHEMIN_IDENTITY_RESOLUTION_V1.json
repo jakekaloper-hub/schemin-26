@@ -30,7 +30,7 @@
       "team_id": 3,
       "current_team": "Slob on my Dobb",
       "owner": "Jordan Hollingshead",
-      "character": "Frat-Bro Berserker / established Slob character",
+      "character": "Win Ugly",
       "aliases": [
         "Slob on my Dobb"
       ]
@@ -46,16 +46,18 @@
     },
     {
       "team_id": 5,
-      "current_team": "D0nkey K0ng",
+      "current_team": "Donkey Kong",
       "owner": "Wilson Look",
-      "character": "The Philosopher-Warrior / Arsenal Centaur",
+      "character": "The Philosopher-Warrior",
       "aliases": [
         "Looks Don’t Lose",
         "Baker Moore Purdy",
-        "D0nkey K0ng"
+        "D0nkey K0ng",
+        "Donkey Kong"
       ],
       "invariants": [
-        "Never gorilla or ape"
+        "Never gorilla or ape",
+        "Arsenal Centaur body form"
       ]
     },
     {
@@ -117,7 +119,7 @@
       "team_id": 11,
       "current_team": "Seven Deadly Chins",
       "owner": "Ben Whipple",
-      "character": "The People's Champ? / Blue-Collar Spoiler",
+      "character": "The People's Champ",
       "aliases": [
         "Seven Deadly Chins"
       ]
@@ -137,5 +139,6 @@
     "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
     "uploaded continuation directive for explicitly stated historical aliases"
   ],
-  "warning": "Do not project current ownership backward onto older team IDs unless owner continuity is independently verified."
+  "warning": "Do not project current ownership backward onto older team IDs unless owner continuity is independently verified.",
+  "visual_canon_lock": "canon/SCHEMIN_26_MASTER_VISUAL_CANON_REFERENCE_LOCK_V1.md"
 }
