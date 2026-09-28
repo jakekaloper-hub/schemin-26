@@ -1,0 +1,3 @@
+# OBJ-BRIEFCASE-FOLDERS — REFERENCE PACKET V1
+**State:** DRAFT / EVIDENCE-RESOLVED. **Beats:** B021-B022, B043.
+**Authority:** V4 §VIII; Master Canon. **Physical:** open LLC leather briefcase, marked/signed/rearranged papers, folders closed sequentially. **Literary:** converted capital and auditability. **Visual:** order/closure. **Readable text:** no invented contracts/player data. **Forbidden:** modern screen UI, mobster cash cliché.
