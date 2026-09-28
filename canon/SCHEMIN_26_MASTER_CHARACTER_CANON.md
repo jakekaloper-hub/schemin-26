@@ -55,7 +55,8 @@ on the current team name.
 ### Wilson Look / Donkey Kong
 
 **Former name:** Baker Moore Purdy.\
-**Character:** The Philosopher-Warrior / Arsenal Centaur.\
+**Character:** The Philosopher-Warrior.\
+**Body-form lock:** Arsenal Centaur — mandatory continuity descriptor, not a competing character title.\
 **Lock:** large muscular centaur/equine warrior; Arsenal-red identity;
 ornate battle axe; tankard; mountain-warrior aesthetic.\
 **Never:** gorilla, ape, jungle mascot, or literal Donkey Kong
@@ -63,7 +64,8 @@ interpretation.
 
 ### Jordan Hollingshead / Slob on my Dobb
 
-**Character:** Frat-Bro Berserker / established Slob character.\
+**Character:** Win Ugly.\
+**Retired descriptor:** Frat-Bro Berserker / established Slob character — historical descriptor only, not an active title.\
 **Lock:** huge horned shaggy human-beast berserker; battered football
 armor; filthy Slob championship shirt; metal bat; beer/tailgate
 aesthetic; pit-bull companion.\
@@ -86,7 +88,8 @@ coiled-serpent language; jungle/waterfall setting.\
 
 ### Ben Whipple / Seven Deadly Chins
 
-**Character:** The People's Champ? / Blue-Collar Spoiler.\
+**Character:** The People's Champ.\
+**Retired descriptor:** Blue-Collar Spoiler — descriptive/history language only, not an active title.\
 **Lock:** very large heavyset bearded human bruiser; dirty white tank;
 CHIN UP SHUT UP trucker cap; oversized hammer; 40-ounce bottle;
 truck-stop BBQ setting; raccoon sidekick.\
@@ -139,7 +142,7 @@ Chili Gremlin, or generic cowboy.
 
 **Status:** BULLPEN-CLAIMED VISUAL STANDARD — 2026-09-26.
 
-The approved 12-owner **League Character Canon lineup artwork** is the official at-a-glance character snapshot and illustration-quality benchmark for Schemin '26. Future Weekly Memo OS, Live Looks, matchup art, covers, owner spotlights, social graphics, novel illustrations, and other Schemin '26 productions must use this snapshot together with each owner's approved spotlight/reference and this written canon.
+The Commissioner-approved 12-owner **League Character Canon lineup artwork** is the official at-a-glance character snapshot and illustration-quality benchmark for Schemin '26. Future Weekly Memo OS, Live Looks, matchup art, covers, owner spotlights, social graphics, novel illustrations, and other Schemin '26 productions must use this snapshot together with each owner's approved spotlight/reference and this written canon.
 
 ### Illustration doctrine
 - **Identity fidelity outranks style.** New compositions may become more cinematic, painterly, graphic, atmospheric, or narratively ambitious, but may not reinterpret the owner.
@@ -154,8 +157,8 @@ The approved 12-owner **League Character Canon lineup artwork** is the official 
 
 ### Required visual-reference stack
 1. Latest explicit Jake-approved correction.
-2. Owner's official canonical spotlight/reference.
-3. Official League Character Canon lineup snapshot.
+2. `SCHEMIN_26_MASTER_VISUAL_CANON_REFERENCE_LOCK_V1.md` + the Commissioner-approved 12-owner lineup plate.
+3. Owner's official canonical spotlight/reference, when consistent with newer Commissioner corrections.
 4. This Master Character Canon.
 5. Prior published artwork that passed Character QA.
 
