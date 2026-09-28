@@ -15,3 +15,10 @@
 | `.../PROLOGUE_CONSECUTIVE_COMPOSITION_PROTOTYPE_V1.md` | composition prototype | BENCHMARK | current |
 ## Rule
 This seed is not exhaustive. Phase 3 should generate/validate a machine-readable registry and expand it across Novel artifacts.
+
+## Reference-resolution additions
+| `chronicles/production/reference-packets/**/PACKET.md` | Prologue environment/object/character reference packets | PRODUCTION DEPENDENCY | mixed QA_PASS/DRAFT/BLOCKED as packet states declare |
+| `.../PROLOGUE_ART_BRIEF_DEPENDENCY_AUDIT_V1.md` | 38-brief dependency audit | PRODUCTION QA | current |
+| `.../PROLOGUE_FIRST_DEPENDENCY_CLEAN_SEQUENCE_V1.md` | opening consecutive composition | PRODUCTION SPEC | current |
+| `.../PROLOGUE_B035_B046_PRODUCTION_ADVANCEMENT_V1.md` | prototype advancement | PRODUCTION SPEC | current; render blocked by packet QA |
+| `.../PROLOGUE_UNRESOLVED_DEPENDENCY_REGISTER_V1.md` | blockers/unknowns | PRODUCTION QA | current |
