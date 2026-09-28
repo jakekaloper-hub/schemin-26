@@ -1,0 +1,3 @@
+# OBJ-CHAIN — REFERENCE PACKET V1
+**State:** DRAFT / EVIDENCE-RESOLVED. **Beats:** B023-B024.
+**Authority:** V4 §IX; Master Canon. **Physical:** heavy iron chain dragging through black swamp water and roots. **Literary:** retained weight/continuity, not imprisonment lore. **Visual:** chain moves before Mud Dog; kinetic mass. **Forbidden:** invented captor, supernatural curse, generic horror symbolism.
