@@ -8,15 +8,15 @@ The binding Master Character Canon resolves the current owners and characters; c
 
 - Team 1 — Jake Kaloper — ObiWan Jacoby — The Trade Jedi
 - Team 2 — Kevin Zeek — Red Leopards — The Predator Board
-- Team 3 — Jordan Hollingshead — Slob on my Dobb — Frat-Bro Berserker
+- Team 3 — Jordan Hollingshead — Slob on my Dobb — Win Ugly
 - Team 4 — David Babb — The LLC — Hostile Takeover
-- Team 5 — Wilson Look — D0nkey K0ng (formerly Baker Moore Purdy) — Philosopher-Warrior / Arsenal Centaur
+- Team 5 — Wilson Look — Donkey Kong (formerly Baker Moore Purdy; historical spelling D0nkey K0ng may appear in records) — The Philosopher-Warrior; Arsenal Centaur body form
 - Team 6 — Phillip Pitts — Three Dreaded Snake — The Podium Shadow
 - Team 7 — Brandon Pryor — The Chili Cheesers — The Chili Outlaw
 - Team 8 — Austin Byars — His Majesty's Blood — The Belt Keeper
 - Team 9 — Manning Welty — El Niño — The Weather System
 - Team 10 — Bobby Mitchell — Mud Dogs — Swamp-Born Menace
-- Team 11 — Ben Whipple — Seven Deadly Chins — The People's Champ / Blue-Collar Spoiler
+- Team 11 — Ben Whipple — Seven Deadly Chins — The People's Champ
 - Team 12 — Zach Wilson — Dr. Duckhook — King of the Impossible Lie
 
 ## Historical ownership limitation
