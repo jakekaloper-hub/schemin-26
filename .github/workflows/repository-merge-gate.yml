@@ -1,0 +1,62 @@
+name: Repository Merge Gate
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+concurrency:
+  group: repository-merge-gate-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  integrity:
+    name: Schemin Repository Integrity
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Validate canonical control surface
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          required = [
+              "PROJECT_CONTROL_REGISTRY.md",
+              "docs/governance/SOURCE_OF_TRUTH.md",
+              "docs/governance/AUTHORITY_MATRIX.md",
+              "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+              "canon/league.json",
+              "memo-os/_INDEX.md",
+              "data-gateway/_INDEX.md",
+              "mercer/OPERATING_CONTRACT.md",
+          ]
+          missing = [path for path in required if not Path(path).exists()]
+          if missing:
+              raise SystemExit("Missing canonical control files: " + ", ".join(missing))
+
+          for path in [
+              "canon/league.json",
+              "schemas/freshness.schema.json",
+          ]:
+              json.loads(Path(path).read_text())
+          print("Canonical control surface valid")
+          PY
+
+      - name: Compile Data Gateway
+        run: python -m py_compile data-gateway/refresh_espn_snapshot.py data-gateway/check_snapshot_health.py
+
+      - name: Run Data Gateway contract suite
+        run: python -m unittest -v tests/test_data_gateway_snapshot_contract.py
+
+      - name: Run Novel OS regression suite
+        working-directory: living-novel/os/evaluations
+        run: python -m unittest -v test_novel_os.py
+
+      - name: Run Bullpen Runtime suite
+        working-directory: bullpen-runtime
+        run: npm test
