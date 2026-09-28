@@ -1,0 +1,3 @@
+# OBJ-MARKER-PAPERS — REFERENCE PACKET V1
+**State:** DRAFT / EVIDENCE-RESOLVED. **Beats:** B015-B016, B043-B044.
+**Authority:** V4 §V. **Physical:** draft papers spread on strategy table plus movable marker; missing fourth-round opportunity expressed by organized absence. **Literary:** strategy/restraint and opportunity cost. **Visual:** movement then return of marker; negative-space slot. **Readable text:** no invented player/rule text; exact manuscript data remains typeset. **Forbidden:** modern dashboard/UI, future results.
