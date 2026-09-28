@@ -83,3 +83,120 @@ def route(command:str)->list[str]:
 
 def can_accept(findings:list[Finding])->bool:
     return not any(x.severity in {"FATAL","IMPORTANT"} for x in findings)
+
+
+# ---- Phase 4 continuity intelligence ----
+def validate_timeline(events:list[dict])->list[Finding]:
+    out=[]
+    by_id={e["id"]:e for e in events if "id" in e}
+    for e in events:
+        for dep in e.get("after",[]):
+            if dep not in by_id:
+                out.append(Finding("TIME-MISSING-DEPENDENCY","IMPORTANT",f"{e.get('id')} depends on missing {dep}"))
+                continue
+            a=e.get("order"); b=by_id[dep].get("order")
+            if a is not None and b is not None and a<=b:
+                out.append(Finding("TIME-ORDER","FATAL",f"{e.get('id')} must occur after {dep}"))
+    return out
+
+def validate_object_state(events:list[dict])->list[Finding]:
+    out=[]; holder={}
+    for e in sorted(events,key=lambda x:x.get("order",0)):
+        obj=e.get("object_id")
+        if not obj: continue
+        action=e.get("action")
+        if action=="ACQUIRE": holder[obj]=e.get("actor")
+        elif action=="TRANSFER":
+            if holder.get(obj) not in (None,e.get("from")):
+                out.append(Finding("OBJECT-POSSESSION","FATAL",f"{obj} transfer source conflicts with current holder"))
+            holder[obj]=e.get("to")
+        elif action=="USE" and holder.get(obj) not in (None,e.get("actor")):
+            out.append(Finding("OBJECT-USE","FATAL",f"{e.get('actor')} uses {obj} held by {holder.get(obj)}"))
+    return out
+
+def validate_relationships(records:list[dict])->list[Finding]:
+    out=[]; pairs={}
+    for r in records:
+        if not r.get("symmetric"): continue
+        k=(r.get("subject"),r.get("predicate"),r.get("object"))
+        pairs[k]=r
+    for (s,p,o),r in pairs.items():
+        if (o,p,s) not in pairs:
+            out.append(Finding("REL-SYMMETRY","IMPORTANT",f"Symmetric relationship {p}: {s} ↔ {o} is incomplete"))
+    return out
+
+def validate_knowledge(events:list[dict])->list[Finding]:
+    out=[]; known={}
+    for e in sorted(events,key=lambda x:x.get("order",0)):
+        actor=e.get("actor")
+        if e.get("action")=="LEARN": known.setdefault(actor,set()).add(e.get("fact_id"))
+        if e.get("action") in {"SAY","ACT_ON"} and e.get("fact_id") and e.get("fact_id") not in known.get(actor,set()):
+            out.append(Finding("KNOWLEDGE-LEAK","FATAL",f"{actor} uses {e.get('fact_id')} before learning it"))
+    return out
+
+def validate_alias_identity(records:list[dict])->list[Finding]:
+    out=[]
+    for r in records:
+        if r.get("team_name_changed") and r.get("canonical_character_before") != r.get("canonical_character_after"):
+            out.append(Finding("ALIAS-IDENTITY-DRIFT","FATAL","Team rename changed canonical character identity"))
+    return out
+
+def validate_manuscript_anchor(anchor:dict,current_blob_sha:str)->list[Finding]:
+    out=[]
+    if anchor.get("pinned_blob_sha") and anchor["pinned_blob_sha"]!=current_blob_sha:
+        out.append(Finding("MANUSCRIPT-SHA-DRIFT","FATAL","Production anchor no longer matches pinned manuscript blob SHA"))
+    if not anchor.get("anchor_text"):
+        out.append(Finding("MANUSCRIPT-ANCHOR-MISSING","IMPORTANT","Production record lacks manuscript anchor text"))
+    return out
+
+def validate_visual_reference(packet:dict)->list[Finding]:
+    out=[]
+    if packet.get("character_bearing") and not packet.get("master_canon_resolved"):
+        out.append(Finding("VISUAL-CANON-UNRESOLVED","FATAL","Character-bearing visual lacks Master Canon resolution"))
+    if packet.get("generated_reference") and not packet.get("approved_visual_canon"):
+        out.append(Finding("VISUAL-BOOTSTRAP","FATAL","Generated image cannot bootstrap itself into Visual Canon"))
+    return out
+
+def run_deterministic_gate(candidate:dict)->list[Finding]:
+    out=[]
+    if "text" in candidate: out += validate_character_text(candidate["text"])
+    if "oracle_record" in candidate: out += validate_oracle_mutation(candidate["oracle_record"])
+    if "promise" in candidate: out += validate_promise(candidate["promise"])
+    if "timeline" in candidate: out += validate_timeline(candidate["timeline"])
+    if "object_events" in candidate: out += validate_object_state(candidate["object_events"])
+    if "relationships" in candidate: out += validate_relationships(candidate["relationships"])
+    if "knowledge_events" in candidate: out += validate_knowledge(candidate["knowledge_events"])
+    if "aliases" in candidate: out += validate_alias_identity(candidate["aliases"])
+    if "visual_packet" in candidate: out += validate_visual_reference(candidate["visual_packet"])
+    return out
+
+# ---- Phase 5 literary workflow ----
+LITERARY_PIPELINE=["RESEARCH","ARCHITECT","CHARACTER_INTENT","SCENE_DESIGN","SCRIBE",
+"LITERARY_EDITOR","CONTINUITY_GUARDIAN","STYLE_GUARDIAN","LORE_GUARDIAN",
+"READER_SIMULATION","ADVERSARIAL_REVIEW","REVISION","CLOSER","HUMAN_CANON_GATE"]
+
+def literary_workflow(manuscript_id:str,mode:str="AUDIT")->dict:
+    return {"workflow":"LITERARY","manuscript_id":manuscript_id,"mode":mode,
+            "stages":[{"name":s,"state":"PENDING"} for s in LITERARY_PIPELINE],
+            "mutation_policy":"PROPOSE_ONLY_UNTIL_FINAL_GATE"}
+
+# ---- Phase 6 visual workflow ----
+VISUAL_PIPELINE=["MANUSCRIPT_ANCHOR","BEAT","VISUAL_VALUE","VISUAL_INTENT","CANON_RETRIEVAL",
+"REFERENCE_PACKET","ART_BRIEF","COMPOSITION","GENERATION","VISUAL_QA","CONTINUITY_QA","APPROVAL"]
+
+def visual_workflow(beat_id:str,character_bearing:bool=False)->dict:
+    return {"workflow":"VISUAL","beat_id":beat_id,"character_bearing":character_bearing,
+            "stages":[{"name":s,"state":"PENDING"} for s in VISUAL_PIPELINE],
+            "reference_gate_required":character_bearing}
+
+# ---- Phase 7 live-season transaction ----
+LIVE_PIPELINE=["SOURCE_INGESTION","VERIFICATION","SIGNIFICANCE_GRADING","HISTORICAL_CONTEXT",
+"CHARACTER_CONSEQUENCE","WORLD_TRANSLATION","STORY_ARCHITECTURE","SCENE_BEAT_DESIGN",
+"MANUSCRIPT","EDITORIAL","CONTINUITY_AUDIT","CANON_PROPOSAL","APPROVAL","STATE_UPDATE"]
+
+def live_event_transaction(event:dict)->dict:
+    if not event.get("verified"):
+        return {"state":"BLOCKED","reason":"UNVERIFIED_EVENT","event_id":event.get("id")}
+    return {"state":"READY","event_id":event.get("id"),"temporal_layer":"BOOK_TIME",
+            "stages":[{"name":s,"state":"PENDING"} for s in LIVE_PIPELINE],
+            "rule":"RESULT_DETERMINES_EVENT_WRITERS_DETERMINE_MEANING"}
