@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "status": "SEED_NOT_FULL_MAP",
+  "rule": "Only approved edges may support deterministic travel-time assertions.",
+  "nodes": {
+    "ARCHIVE": {
+      "type": "institution"
+    },
+    "BELT_KEEPER_FORTRESS": {
+      "type": "domain"
+    },
+    "TRADE_JEDI_MOUNTAINS": {
+      "type": "domain"
+    },
+    "TDS_JUNGLE": {
+      "type": "domain"
+    },
+    "DUCKHOOK_WATER": {
+      "type": "domain"
+    }
+  },
+  "edges": [],
+  "note": "Prologue uses cross-cut simultaneity rather than asserted inter-domain travel; distances remain unresolved until World Geography authority defines them."
+}
