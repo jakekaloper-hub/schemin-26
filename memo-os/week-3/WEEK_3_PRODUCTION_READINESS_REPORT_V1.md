@@ -1,49 +1,62 @@
-# Week 3 Production Readiness Report V1
+# Week 3 Production Readiness Report V2
 
 ## Board finding
-Preproduction is ACTIVE and materially ahead of Fact Lock.
+Preproduction is ACTIVE and substantially hardened. Monday should be a resolution/assembly event, not a restart.
 
-### Green — built
-- master War Room directive
+### Green — built/resolved
+- War Room Master Directive
 - Production Bible
 - external production advisory pass
-- evidence register
-- live snapshot ledger
+- evidence register + repeated live snapshots
+- recent 2023–2025 regular-season head-to-head register
+- 2023–2025 postseason intersection register
+- Week 3 player/lineup packet
+- Monday exposure register
+- Week 3 waiver-market intelligence
+- 2026 trade-source limitation audit
 - six dramatic questions
-- six second-layer structures
+- six documentary second-layer structures
+- character release rules
 - world asset register
 - six environment packets
 - 18 conditional composition hypotheses
+- visual callback/continuity inventory
+- TDS post-haircut authority resolution
 - page-rhythm map
 - memory/lore treatment
 - dailies QA board
 - Monday close checklist
-- unresolved-questions register
-- character release rules
+- Week 4 verified schedule bridge
+- unresolved-question register
 
-### Yellow — active research
-- exact head-to-head histories
-- playoff intersections
-- prior trade relationships
-- live scoring chronology beyond snapshots
-- injury/inactive verification
-- Week 1/2 visual callback inventory
-- TDS post-haircut continuity resolution
+### Yellow — continue autonomously
+- additional live score/player snapshots before and during MNF
+- chronology attribution where evidence genuinely supports it
+- injury/inactive verification where material
+- optional older-than-2023 series research if ownership continuity is reliable
+- directional historical trade evidence if a better canonical source is available
+- check for less-prominent PHI/CHI Monday players outside targeted set
+- exact approved-image asset lookup where final visual brief needs a recurring location reference
 
 ### Red — intentionally blocked until Fact Lock
-- final winners/scores
-- final standings
-- final six endings
-- macro-story
-- cover
-- result-specific hero art
+- final winners/scores and post-W3 standings
+- final six chapter endings
+- final macro-story and cover thesis
 - final manuscript
-- Week 4 records/stakes
-- Week 4 GOTW
+- result-dependent final artwork
+- final page allocation
+- Week 4 records/stakes and GOTW
 - publication
 
-## Current live change detected
-Since the earlier snapshot, DK increased by 3.20, Slob by 15.00 and Red Leopards by 3.00. Provider still marks every Week 3 matchup UNDECIDED. These deltas are preserved without invented event attribution.
+## New high-value historical finding
+ObiWan Jacoby defeated Three Dreaded Snake 174.38–153.20 in the 2025 Week 16 WINNERS_BRACKET semifinal. This is verified postseason continuity and materially strengthens their Week 3 chapter.
+
+## Monday exposure
+Verified starters from the Eagles–Bears MNF game currently affect at least four Week 3 matchups: Mud Dogs (Saquon Barkley), Red Leopards (DeVonta Smith), Seven Deadly Chins (D'Andre Swift), and El Niño (Jalen Hurts).
+
+## Trade-history finding
+Flaim/ESPN's 2026 structured trade source is incomplete for directional counterparty details in many rows. Bullpen will preserve Jake's known trader relationships as first-party context unless separately verified; it will not manufacture counterparties.
 
 ## The Closer
-KEEP PREPRODUCTION OPEN. Continue evidence capture and historical resolution. Do not enter final manuscript/art production yet.
+**STATUS: PREPRODUCTION GREEN/YELLOW.**
+Continue capturing evidence and closing recoverable Yellow items. Keep Fact Lock closed until authoritative Week 3 completion.
