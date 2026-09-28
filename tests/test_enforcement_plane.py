@@ -251,7 +251,8 @@ class EnforcementKernelTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as td:
             root=Path(td)
             p=root/"bad.txt"
-            p.write_text("token = ghp_ABCDEFGHIJKLMNOPQRSTUVWXYZ123456")
+            fake_token="ghp_" + "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456"
+            p.write_text("token = " + fake_token)
             errors=mod.validate_security_scan(root,self.registry)
             self.assertTrue(any("GitHub classic token" in e for e in errors))
 
