@@ -25,3 +25,5 @@ For historical publication identity, the Commissioner-designated artifact is aut
 Do **not** identify `PRO_SCHEMIN_WEEK_2_FINAL_MEMO.pdf`, an Engine Room test, V5.2-RC candidate, rerun, replay, or any later Week 2 artifact as the official published Week 2 memo.
 
 When the official Week 2 memo is used as a gold-standard/regression benchmark, “official,” “published,” and “gold standard” all resolve to `Week 2 memo.pdf` unless the Commissioner explicitly supersedes it.
+
+Recovery receipt: `docs/publications/WEEK_2_OFFICIAL_PUBLICATION_RECOVERY_RECEIPT_V1.md`.
