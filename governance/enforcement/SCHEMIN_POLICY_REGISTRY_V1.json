@@ -99,6 +99,50 @@
       "validator": "validate_exceptions",
       "source_authority": "governance/enforcement/EXCEPTION_MODEL_V1.md",
       "exception_policy": "NONE"
+    },
+    {
+      "policy_id": "DATA-001",
+      "domain": "data_gateway",
+      "owner": "Data Gateway + Groundskeeper",
+      "severity": "WARN",
+      "enforcement": "AUDIT",
+      "rule": "Hardened ESPN freshness/data-live contract must be present before Data Gateway can be certified.",
+      "validator": "validate_data_gateway_dependency",
+      "source_authority": "data-gateway/_INDEX.md",
+      "exception_policy": "NONE"
+    },
+    {
+      "policy_id": "SEC-001",
+      "domain": "security",
+      "owner": "Warden",
+      "severity": "BLOCK",
+      "enforcement": "MERGE",
+      "rule": "Repository text must not contain committed credential material or private-key/token signatures.",
+      "validator": "validate_security_scan",
+      "source_authority": "planning/WARDEN_RETRIEVAL_PRIVACY_AUDIT_V1.md",
+      "exception_policy": "NONE"
+    },
+    {
+      "policy_id": "HIST-001",
+      "domain": "historical_evidence",
+      "owner": "Historian + Librarian",
+      "severity": "BLOCK",
+      "enforcement": "MERGE",
+      "rule": "Historical identity maps must preserve TO VERIFY semantics and resolve persistent current identities through current canon.",
+      "validator": "validate_historical_identity",
+      "source_authority": "docs/governance/SUBSYSTEM_TEMPORAL_LINEAGE_CONTRACT_V1.md",
+      "exception_policy": "GOVERNED_EXCEPTION"
+    },
+    {
+      "policy_id": "INDEX-001",
+      "domain": "index_integrity",
+      "owner": "Librarian",
+      "severity": "BLOCK",
+      "enforcement": "MERGE",
+      "rule": "Active subsystem indexes must exist and may not reference retired authority paths.",
+      "validator": "validate_index_integrity",
+      "source_authority": "docs/governance/REPOSITORY_MEMORY_ARCHITECTURE_V1.md",
+      "exception_policy": "GOVERNED_EXCEPTION"
     }
   ]
 }
