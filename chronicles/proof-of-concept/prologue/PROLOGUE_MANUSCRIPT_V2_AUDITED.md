@@ -1,7 +1,9 @@
 # PROLOGUE — BEFORE THIS BOOK
 ## Manuscript V2 — Umpire Audited
 
-**Status:** STORYBOARD CANDIDATE
+**Status:** SUPERSEDED HISTORICAL MANUSCRIPT — DO NOT USE AS CURRENT PRODUCTION PARENT
+**Superseded by:** `PROLOGUE_MANUSCRIPT_V3_REBUILD.md` → current V4 parent
+**Historical status at creation:** STORYBOARD CANDIDATE
 **Target:** 8 pages
 **Maximum:** 12 pages
 
