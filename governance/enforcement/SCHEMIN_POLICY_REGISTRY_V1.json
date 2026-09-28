@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "system": "SCHEMIN_26_ENFORCEMENT_PLANE_V1",
+  "severities": [
+    "BLOCK",
+    "RELEASE_BLOCK",
+    "WARN"
+  ],
+  "enforcement_modes": [
+    "MERGE",
+    "RELEASE",
+    "AUDIT"
+  ],
+  "policies": [
+    {
+      "policy_id": "SYS-001",
+      "domain": "enforcement",
+      "owner": "Architect + Umpire",
+      "severity": "BLOCK",
+      "enforcement": "MERGE",
+      "rule": "Policy registry must be structurally valid and reference implemented validators.",
+      "validator": "validate_registry",
+      "source_authority": "docs/governance/REPOSITORY_MEMORY_ARCHITECTURE_V1.md",
+      "exception_policy": "NONE"
+    },
+    {
+      "policy_id": "CANON-001",
+      "domain": "character_canon",
+      "owner": "Character QA",
+      "severity": "BLOCK",
+      "enforcement": "MERGE",
+      "rule": "Owner-to-character identity map must match approved canon.",
+      "validator": "validate_character_canon",
+      "source_authority": "canon/SCHEMIN_26_MASTER_VISUAL_CANON_REFERENCE_LOCK_V1.md",
+      "exception_policy": "EXPLICIT_COMMISSIONER_ONLY"
+    },
+    {
+      "policy_id": "AUTH-001",
+      "domain": "authority",
+      "owner": "Librarian + Umpire",
+      "severity": "BLOCK",
+      "enforcement": "MERGE",
+      "rule": "High-risk active authority must not have competing active masters.",
+      "validator": "validate_authority_uniqueness",
+      "source_authority": "docs/governance/REPOSITORY_MEMORY_ARCHITECTURE_V1.md",
+      "exception_policy": "GOVERNED_EXCEPTION"
+    },
+    {
+      "policy_id": "TEMP-001",
+      "domain": "temporal_state",
+      "owner": "Librarian + Domain Director",
+      "severity": "BLOCK",
+      "enforcement": "MERGE",
+      "rule": "Mutable current-state artifacts must preserve temporal-state discipline.",
+      "validator": "validate_temporal_state",
+      "source_authority": "docs/governance/SUBSYSTEM_TEMPORAL_LINEAGE_CONTRACT_V1.md",
+      "exception_policy": "GOVERNED_EXCEPTION"
+    },
+    {
+      "policy_id": "FIREWALL-001",
+      "domain": "mercer_firewall",
+      "owner": "Warden",
+      "severity": "BLOCK",
+      "enforcement": "MERGE",
+      "rule": "Private Mercer analysis must not enter public production without explicit declassification.",
+      "validator": "validate_mercer_firewall",
+      "source_authority": "mercer/OPERATING_CONTRACT.md",
+      "exception_policy": "DECLASSIFICATION_REQUIRED"
+    },
+    {
+      "policy_id": "PROMPT-001",
+      "domain": "prompt_governance",
+      "owner": "Librarian + Bullpen Runtime",
+      "severity": "BLOCK",
+      "enforcement": "MERGE",
+      "rule": "Active prompts must not reference retired authority paths or forbidden canon identities.",
+      "validator": "validate_prompt_governance",
+      "source_authority": "docs/governance/REPOSITORY_MEMORY_ARCHITECTURE_V1.md",
+      "exception_policy": "GOVERNED_EXCEPTION"
+    },
+    {
+      "policy_id": "PUB-001",
+      "domain": "publication",
+      "owner": "Memo OS + The Closer",
+      "severity": "RELEASE_BLOCK",
+      "enforcement": "RELEASE",
+      "rule": "Publication may not be declared released without explicit release evidence.",
+      "validator": "validate_publication_release",
+      "source_authority": "memo-os/_INDEX.md",
+      "exception_policy": "COMMISSIONER_RELEASE_OVERRIDE"
+    },
+    {
+      "policy_id": "EXC-001",
+      "domain": "exceptions",
+      "owner": "Umpire + Warden",
+      "severity": "BLOCK",
+      "enforcement": "MERGE",
+      "rule": "Policy exceptions must be explicit, scoped, approved, and reviewable.",
+      "validator": "validate_exceptions",
+      "source_authority": "governance/enforcement/EXCEPTION_MODEL_V1.md",
+      "exception_policy": "NONE"
+    }
+  ]
+}
