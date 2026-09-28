@@ -297,6 +297,106 @@ def validate_publication_release(root: Path, registry):
                     if not is_excepted(root,"PUB-001",f"release:{rel}"):
                         errors.append(f"RELEASED artifact lacks release registry record: {rel}")
     return errors
+
+def validate_data_gateway_dependency(root: Path, registry):
+    warnings=[]
+    expected=[
+        "data-gateway/check_snapshot_health.py",
+        "tests/test_data_gateway_snapshot_contract.py",
+        ".github/workflows/data-gateway-ci.yml",
+    ]
+    for rel in expected:
+        if not (root/rel).exists():
+            warnings.append(f"PR #12 hardening dependency not yet integrated: missing {rel}")
+    workflow=root/".github/workflows/espn-cold-standby.yml"
+    if workflow.exists():
+        text=workflow.read_text(errors="replace")
+        if "data/live" not in text:
+            warnings.append("ESPN workflow does not yet persist operational state to data/live")
+    refresh=root/"data-gateway/refresh_espn_snapshot.py"
+    if refresh.exists():
+        text=refresh.read_text(errors="replace")
+        if "snapshot_age_seconds" not in text:
+            warnings.append("refresh_espn_snapshot.py lacks snapshot_age_seconds hardening from PR #12")
+    return warnings
+
+def validate_security_scan(root: Path, registry):
+    errors=[]
+    patterns=[
+        (re.compile(r"-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----"),"private key"),
+        (re.compile(r"\bghp_[A-Za-z0-9]{20,}\b"),"GitHub classic token"),
+        (re.compile(r"\bgithub_pat_[A-Za-z0-9_]{20,}\b"),"GitHub fine-grained token"),
+        (re.compile(r"\bsk-[A-Za-z0-9]{20,}\b"),"API secret token"),
+        (re.compile(r"\bESPN_S2\s*[:=]\s*['\"]?[^\s'\"]{12,}"),"ESPN_S2 credential"),
+        (re.compile(r"\bSWID\s*[:=]\s*['\"]?\{?[A-Fa-f0-9-]{16,}\}?"),"SWID credential"),
+    ]
+    allowed_ext={".md",".json",".py",".js",".yml",".yaml",".txt"}
+    for p in root.rglob("*"):
+        if not p.is_file() or p.suffix.lower() not in allowed_ext or ".git" in p.parts:
+            continue
+        text=p.read_text(errors="replace")
+        for rx,label in patterns:
+            if rx.search(text):
+                errors.append(f"credential signature [{label}] in {p.relative_to(root)}")
+    return errors
+
+def validate_historical_identity(root: Path, registry):
+    errors=[]
+    path=root/"world/history/2025/2025_OWNER_TEAM_ALIAS_MAP.md"
+    if not path.exists():
+        return ["missing 2025 owner/team alias map"]
+    text=path.read_text(errors="replace")
+    required=[
+        "HISTORICAL EVIDENCE / IDENTITY RESOLUTION — TO VERIFY WHERE MARKED",
+        "canon/SCHEMIN_26_MASTER_VISUAL_CANON_REFERENCE_LOCK_V1.md",
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+        "TO VERIFY",
+    ]
+    for phrase in required:
+        if phrase not in text:
+            errors.append(f"historical alias map missing required guard: {phrase}")
+    forbidden=[
+        "Master Character Canon v1.1",
+        "Frat-Bro Berserker / established Slob",
+        "People's Champ? / Blue-Collar Spoiler",
+        "Philosopher-Warrior / Arsenal Centaur",
+    ]
+    for phrase in forbidden:
+        if phrase in text and not is_excepted(root,"HIST-001",path.relative_to(root).as_posix()):
+            errors.append(f"historical alias map uses retired current-identity authority: {phrase}")
+    return errors
+
+def validate_index_integrity(root: Path, registry):
+    errors=[]
+    required=[
+        "archive/_INDEX.md",
+        "canon/_INDEX.md",
+        "memo-os/_INDEX.md",
+        "data-gateway/_INDEX.md",
+        "mercer/_INDEX.md",
+    ]
+    retired=[
+        "world/canon/SCHEMIN_26_MASTER_CHARACTER_CANON_V1_1.md",
+        "XCODE_CHATGPT_HANDOFF.md",
+        "XCODE_HANDOFF_PRO_SCHEMIN_WORLD.md",
+        "living-novel/os/adapters/flaim/registries/PRO_SCHEMIN_IDENTITY_RESOLUTION_V1.json",
+    ]
+    for rel in required:
+        p=root/rel
+        if not p.exists():
+            errors.append(f"missing active index: {rel}")
+            continue
+        text=p.read_text(errors="replace")
+        for old in retired:
+            if old in text and not is_excepted(root,"INDEX-001",rel):
+                errors.append(f"active index {rel} references retired authority {old}")
+    canon=root/"canon/_INDEX.md"
+    if canon.exists():
+        text=canon.read_text(errors="replace")
+        if "SCHEMIN_26_MASTER_VISUAL_CANON_REFERENCE_LOCK_V1.md" not in text:
+            errors.append("canon index does not load visual canon lock")
+    return errors
+
 def validate_exceptions(root: Path, registry):
     errors=[]
     path=root/"governance/enforcement/EXCEPTIONS_V1.json"
@@ -356,17 +456,34 @@ def run(root: Path, mode="MERGE"):
     registry=load_registry(root)
     validate_registry(root,registry)
     failures=[]
-    for policy in registry["policies"]:
+    warnings=[]
+
+    def should_run(policy):
         if policy["policy_id"]=="SYS-001":
-            continue
-        if mode=="MERGE" and policy["enforcement"]!="MERGE":
-            continue
-        if mode=="RELEASE" and policy["enforcement"] not in {"MERGE","RELEASE"}:
+            return False
+        if mode=="MERGE":
+            return policy["enforcement"] in {"MERGE","AUDIT"}
+        if mode=="RELEASE":
+            return policy["enforcement"] in {"MERGE","RELEASE","AUDIT"}
+        return True
+
+    for policy in registry["policies"]:
+        if not should_run(policy):
             continue
         fn=globals()[policy["validator"]]
         result=fn(root,registry) or []
         for item in result:
-            failures.append(f"{policy['policy_id']}: {item}")
+            msg=f"{policy['policy_id']}: {item}"
+            severity=policy["severity"]
+            if severity=="WARN":
+                warnings.append(msg)
+            elif severity=="RELEASE_BLOCK" and mode!="RELEASE":
+                warnings.append(msg)
+            else:
+                failures.append(msg)
+
+    for warning in warnings:
+        print(f"WARNING: {warning}")
     if failures:
         raise EnforcementFailure("\n".join(failures))
     return True
