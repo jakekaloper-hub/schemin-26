@@ -1,0 +1,28 @@
+name: Enforcement Plane CI
+on:
+  push:
+    paths:
+      - "governance/enforcement/**"
+      - "tests/test_enforcement_plane.py"
+      - ".github/workflows/enforcement-plane-ci.yml"
+  pull_request:
+    paths:
+      - "governance/enforcement/**"
+      - "tests/test_enforcement_plane.py"
+      - ".github/workflows/enforcement-plane-ci.yml"
+  workflow_dispatch:
+concurrency:
+  group: enforcement-plane-ci-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  enforcement:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Kernel tests
+        run: python -m unittest -v tests/test_enforcement_plane.py
+      - name: Merge enforcement
+        run: python governance/enforcement/validate.py --mode MERGE
