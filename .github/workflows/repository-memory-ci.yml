@@ -1,0 +1,39 @@
+name: Repository Memory CI
+on:
+  push:
+    paths:
+      - "archive/**"
+      - "canon/**"
+      - "world/canon/**"
+      - "XCODE*.md"
+      - "living-novel/os/adapters/flaim/**"
+      - "docs/governance/REPOSITORY_MEMORY_ARCHITECTURE_V1.md"
+      - "planning/ACTIVE_AUTHORITY_GRAPH_V1.md"
+      - "planning/DEPRECATION_SUPERSESSION_LEDGER_V1.md"
+      - "tests/test_repository_memory_hygiene.py"
+      - ".github/workflows/repository-memory-ci.yml"
+  pull_request:
+    paths:
+      - "archive/**"
+      - "canon/**"
+      - "world/canon/**"
+      - "XCODE*.md"
+      - "living-novel/os/adapters/flaim/**"
+      - "docs/governance/REPOSITORY_MEMORY_ARCHITECTURE_V1.md"
+      - "planning/ACTIVE_AUTHORITY_GRAPH_V1.md"
+      - "planning/DEPRECATION_SUPERSESSION_LEDGER_V1.md"
+      - "tests/test_repository_memory_hygiene.py"
+      - ".github/workflows/repository-memory-ci.yml"
+  workflow_dispatch:
+concurrency:
+  group: repository-memory-ci-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  memory-hygiene:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m unittest -v tests/test_repository_memory_hygiene.py
