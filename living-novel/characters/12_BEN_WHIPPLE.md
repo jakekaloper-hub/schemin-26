@@ -1,6 +1,8 @@
-# Ben Whipple — The People's Champ / Blue-Collar Spoiler
+# Ben Whipple — The People's Champ
 
 ## Identity lock
+Canonical title: **The People's Champ**. `Blue-Collar Spoiler` is a retired descriptive phrase, not an active character title.
+
 Very large heavyset bearded human bruiser; trucker cap, dirty white tank, tattoos, oversized hammer, brown 40-ounce bottle, raccoon sidekick when composition permits.
 
 ## Evidence anchors
