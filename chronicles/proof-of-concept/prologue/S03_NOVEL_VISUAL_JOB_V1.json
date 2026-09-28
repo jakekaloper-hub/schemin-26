@@ -1,0 +1,25 @@
+{
+  "schema": "NovelVisualJob/v1",
+  "job_id": "PROLOGUE-S03-B004-V1",
+  "beat_id": "B004",
+  "manuscript_anchor": "S03 / AB-003 / CLEAN LEDGER THRESHOLD",
+  "composition_map": "chronicles/proof-of-concept/prologue/S03_COMPOSITION_MAP_V1.md",
+  "reference_assets": [
+    {"id":"S01-APPROVED","role":"environment_style_and_geography","approval_state":"APPROVED"},
+    {"id":"S02-APPROVED","role":"continuity_predecessor","approval_state":"APPROVED"}
+  ],
+  "object_locks": ["chronicles/production/reference-packets/objects/OBJ-2026-CLEAN-LEDGER/S03_OBJECT_LOCK_V1.md"],
+  "character_locks": [],
+  "environment_packet": "ENV-ARCHIVE",
+  "camera_spec": "Release wider than S02; human working height; negative space mandatory.",
+  "lighting_spec": "Localized ordinary amber practical light; cool-neutral deep shadow; ledger emits no light.",
+  "negative_constraints": ["repair materials dominate","red thread dominates","damaged ledger dominates","workbench clutter dominates","contracted camera","open hero ledger","readable or pseudo-readable text","magic","glow","prophecy","Week 1+ evidence","character reveal"],
+  "continuity_predecessors": ["S01","S02"],
+  "text_safe_regions": [],
+  "output": {"width":1536,"height":1024,"format":"png"},
+  "seed_policy": {"mode":"record_and_reuse_on_revision"},
+  "qa_contract": {
+    "automatic_fail": ["could be mistaken for S02","pristine ledger not immediate hero","insufficient negative space","repair grammar dominates"],
+    "required_rhythm": ["DEEP->CLOSE->OPEN","DAMAGED->REPAIRED->UNTOUCHED"]
+  }
+}
