@@ -14,6 +14,8 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -24,16 +26,30 @@ jobs:
           LEAGUE_ID: "1417621"
           SEASON: "2026"
         run: python data-gateway/refresh_espn_snapshot.py
-      - name: Commit snapshot state
+      - name: Persist snapshot state to data/live
         if: always()
         run: |
-          if [ ! -d data/snapshots/1417621 ]; then exit 0; fi
+          SNAPSHOT_SRC="data/snapshots/1417621"
+          if [ ! -d "$SNAPSHOT_SRC" ]; then exit 0; fi
+
+          rm -rf /tmp/schemin-snapshot /tmp/schemin-data-live
+          mkdir -p /tmp/schemin-snapshot
+          cp -R "$SNAPSHOT_SRC" /tmp/schemin-snapshot/1417621
+
+          git fetch origin refs/heads/data/live:refs/heads/data/live
+          git worktree add /tmp/schemin-data-live data/live
+
+          rm -rf /tmp/schemin-data-live/data/snapshots/1417621
+          mkdir -p /tmp/schemin-data-live/data/snapshots
+          cp -R /tmp/schemin-snapshot/1417621 /tmp/schemin-data-live/data/snapshots/1417621
+
+          cd /tmp/schemin-data-live
           git add data/snapshots/1417621
           if git diff --cached --quiet -- data/snapshots/1417621; then exit 0; fi
           git config user.name "schemin-data-gateway"
           git config user.email "actions@users.noreply.github.com"
           git commit -m "data: refresh ESPN 1417621 snapshot"
-          git push
+          git push origin HEAD:data/live
       - name: Enforce refresh result
         if: steps.refresh.outcome != 'success'
         run: exit 1
