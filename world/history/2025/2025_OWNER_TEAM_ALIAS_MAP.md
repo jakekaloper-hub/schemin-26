@@ -1,8 +1,8 @@
 # PRO SCHEMIN' — 2025 OWNER / TEAM ALIAS MAP
 
-**Status:** ACTIVE / IDENTITY RESOLUTION PASS 1
+**Status:** HISTORICAL EVIDENCE / IDENTITY RESOLUTION — TO VERIFY WHERE MARKED
 **Authority:** Librarian
-**Identity authority:** SCHEMIN '26 Master Character Canon v1.1
+**Identity authority:** `canon/SCHEMIN_26_MASTER_VISUAL_CANON_REFERENCE_LOCK_V1.md` + `canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md` for persistent 2026 identity only
 **Historical-name authority:** 2025 evidence only
 
 ## Rule
@@ -14,11 +14,11 @@ Owner identity persists. Team name is temporal. 2026 Character Master identity m
 |---|---|---|---|
 | Jake Kaloper | The Trade Jedi | ObiWan Jacoby | TO VERIFY |
 | Austin Byars | The Belt Keeper | His Majesty's Blood; former names include The Immortal / That's Fantasy | The Immortal is a HIGH-VALUE LEAD; exact 2025 usage to verify |
-| Wilson Look | Philosopher-Warrior / Arsenal Centaur | Donkey Kong; former Baker Moore Purdy | Baker Moore Purdy is a HIGH-VALUE LEAD; exact 2025 usage to verify |
-| Jordan Hollingshead | Frat-Bro Berserker / established Slob | Slob on my Dobb | TO VERIFY |
+| Wilson Look | The Philosopher-Warrior (Arsenal Centaur body form) | Donkey Kong; former Baker Moore Purdy | Baker Moore Purdy is a HIGH-VALUE LEAD; exact 2025 usage to verify |
+| Jordan Hollingshead | Win Ugly | Slob on my Dobb | TO VERIFY |
 | Bobby Mitchell | Swamp-Born Menace | Mud Dogs | TO VERIFY |
 | Phillip Pitts | The Podium Shadow | Three Dreaded Snake | TO VERIFY |
-| Ben Whipple | People's Champ? / Blue-Collar Spoiler | Seven Deadly Chins | TO VERIFY |
+| Ben Whipple | The People's Champ | Seven Deadly Chins | TO VERIFY |
 | Kevin Zeek | The Predator Board | Red Leopards | TO VERIFY |
 | Manning Welty | The Weather System | El Niño | TO VERIFY |
 | David Babb | Hostile Takeover | The LLC. | The LLC is a HIGH-VALUE LEAD; exact 2025 usage to verify |
