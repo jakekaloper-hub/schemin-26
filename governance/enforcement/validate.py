@@ -162,7 +162,28 @@ def validate_mercer_firewall(root: Path, registry):
                     errors.append(f"public creative Mercer leakage [{label}] at {rel}")
                     break
     return errors
-def validate_prompt_governance(root: Path, registry): return []
+def validate_prompt_governance(root: Path, registry):
+    errors=[]
+    prompt_name=re.compile(r"(PROMPT|DIRECTIVE|HANDOFF|INITIATION)",re.I)
+    forbidden_strings={
+        "Frat-Bro Berserker":"retired Slob title",
+        "People's Champ? / Blue-Collar Spoiler":"retired Chins title",
+        "People's Champ / Blue-Collar Spoiler":"retired Chins title",
+        "world/canon/SCHEMIN_26_MASTER_CHARACTER_CANON_V1_1.md":"retired canon path",
+        "XCODE_CHATGPT_HANDOFF.md":"retired handoff path",
+        "XCODE_HANDOFF_PRO_SCHEMIN_WORLD.md":"retired handoff path",
+    }
+    for p in root.rglob("*.md"):
+        rel=p.relative_to(root)
+        if "archive" in rel.parts:
+            continue
+        if not prompt_name.search(p.name):
+            continue
+        text=p.read_text(errors="replace")
+        for needle,reason in forbidden_strings.items():
+            if needle in text:
+                errors.append(f"active prompt contamination [{reason}] at {rel}: {needle}")
+    return errors
 def validate_publication_release(root: Path, registry): return []
 def validate_exceptions(root: Path, registry): return []
 
