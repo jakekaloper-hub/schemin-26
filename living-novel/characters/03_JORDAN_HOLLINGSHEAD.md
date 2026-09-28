@@ -1,6 +1,8 @@
-# Jordan Hollingshead — Frat-Bro Berserker
+# Jordan Hollingshead — Win Ugly
 
 ## Identity lock
+Canonical title: **Win Ugly**. `Frat-Bro Berserker` is a retired descriptor/history label, not an active character title.
+
 Huge horned bearded human-beast; wild hair; battered football armor; filthy Slob shirt; oversized metal bat; pit-bull companion; tailgate debris.
 
 ## Evidence anchors
