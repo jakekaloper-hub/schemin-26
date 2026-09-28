@@ -1,6 +1,7 @@
 import importlib.util
 import json
 import pathlib
+import sys
 import tempfile
 import unittest
 
@@ -8,10 +9,21 @@ import unittest
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 MODULE_PATH = ROOT / "data-gateway" / "refresh_espn_snapshot.py"
 WORKFLOW_PATH = ROOT / ".github" / "workflows" / "espn-cold-standby.yml"
+HEALTH_PATH = ROOT / "data-gateway" / "check_snapshot_health.py"
 
 
 def load_gateway():
     spec = importlib.util.spec_from_file_location("refresh_espn_snapshot", MODULE_PATH)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+def load_health():
+    module_dir = str(HEALTH_PATH.parent)
+    if module_dir not in sys.path:
+        sys.path.insert(0, module_dir)
+    spec = importlib.util.spec_from_file_location("check_snapshot_health", HEALTH_PATH)
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
     return module
@@ -129,6 +141,34 @@ class DataGatewaySnapshotContractTests(unittest.TestCase):
             self.assertTrue(persisted["meta"]["stale"])
             self.assertEqual(persisted["meta"]["snapshot_age_seconds"], 300)
             self.assertEqual(persisted["meta"]["failure_reason"], "network failure")
+
+    def test_repository_native_health_check_applies_slo(self):
+        gateway = load_gateway()
+        health = load_health()
+        envelope = gateway.build_envelope(
+            {"id": int(gateway.LEAGUE_ID), "payload": "last-good"},
+            "2026-09-28T00:00:00+00:00",
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            path = pathlib.Path(tmp) / "latest.json"
+            path.write_text(json.dumps(envelope))
+
+            green, green_code = health.evaluate_snapshot(
+                path=path,
+                max_stale_seconds=900,
+                now="2026-09-28T00:10:00+00:00",
+            )
+            self.assertEqual(green_code, 0)
+            self.assertEqual(green["state"], "GREEN_LIVE")
+
+            stale, stale_code = health.evaluate_snapshot(
+                path=path,
+                max_stale_seconds=900,
+                now="2026-09-28T00:16:00+00:00",
+            )
+            self.assertEqual(stale_code, 1)
+            self.assertEqual(stale["state"], "YELLOW_DEGRADED")
+            self.assertEqual(stale["meta"]["snapshot_age_seconds"], 960)
 
     def test_snapshot_write_is_atomic_and_complete(self):
         gateway = load_gateway()
