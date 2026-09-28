@@ -62,5 +62,17 @@ class RepositoryMemoryHygieneTests(unittest.TestCase):
         for rel in required:
             self.assertTrue((ROOT / rel).exists(), rel)
 
+
+    def test_temporal_lineage_contract_is_exposed(self):
+        contract = (ROOT / "docs/governance/SUBSYSTEM_TEMPORAL_LINEAGE_CONTRACT_V1.md").read_text()
+        self.assertIn("V1 → V2_AUDITED → V3_REBUILD → V4_CONSULTANT_REVISION", contract)
+        self.assertIn("Past recommendations belong in the Decision Journal", contract)
+
+        novel = (ROOT / "living-novel/README.md").read_text()
+        self.assertIn("V4 Consultant Revision is the current production parent", novel)
+
+        mercer = (ROOT / "mercer/OPERATING_CONTRACT.md").read_text()
+        self.assertIn("Historical recommendations are decision-journal evidence, not standing instructions", mercer)
+
 if __name__ == "__main__":
     unittest.main()
