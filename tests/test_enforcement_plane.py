@@ -123,6 +123,41 @@ class EnforcementKernelTests(unittest.TestCase):
             p.write_text("Use Frat-Bro Berserker")
             self.assertEqual(mod.validate_prompt_governance(root,self.registry),[])
 
+
+    def test_publication_release_passes_repo(self):
+        self.assertEqual(mod.validate_publication_release(ROOT,self.registry),[])
+
+    def test_publication_release_rejects_unregistered_release(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=Path(td)
+            (root/"governance/enforcement").mkdir(parents=True)
+            (root/"governance/enforcement/RELEASE_REGISTRY_V1.json").write_text('{"releases":[]}')
+            (root/"governance/enforcement/RELEASE_MANIFEST_CONTRACT_V1.md").write_text("contract")
+            p=root/"memo-os/week-9/FINAL.md"
+            p.parent.mkdir(parents=True)
+            p.write_text("**Status:** RELEASED")
+            errors=mod.validate_publication_release(root,self.registry)
+            self.assertTrue(any("lacks release registry record" in e for e in errors))
+
+    def test_publication_release_accepts_registered_release(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=Path(td)
+            (root/"governance/enforcement").mkdir(parents=True)
+            rec={
+                "artifact_path":"memo-os/week-9/FINAL.md",
+                "status":"RELEASED",
+                "source_commit":"abc123",
+                "released_at":"2026-09-28T15:00:00Z",
+                "authority":"The Closer",
+                "qa_gates":["final-artifact-qa"]
+            }
+            (root/"governance/enforcement/RELEASE_REGISTRY_V1.json").write_text(json.dumps({"releases":[rec]}))
+            (root/"governance/enforcement/RELEASE_MANIFEST_CONTRACT_V1.md").write_text("contract")
+            p=root/"memo-os/week-9/FINAL.md"
+            p.parent.mkdir(parents=True)
+            p.write_text("**Status:** RELEASED")
+            self.assertEqual(mod.validate_publication_release(root,self.registry),[])
+
     def test_merge_kernel_runs(self):
         self.assertTrue(mod.run(ROOT,"MERGE"))
 
