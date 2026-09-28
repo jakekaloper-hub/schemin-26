@@ -215,3 +215,27 @@ Avoid:
 - The Dark Horse identity preserved.
 - Dialogue is fictionalized league-world dialogue; never present it as a real quote from Brandon or Zach.
 - Jake chooses final humiliation level/dialogue before composition lock.
+
+
+## 10. Commissioner dialogue lock — 2026-09-28
+
+Jake supplied the following league dialogue for this chapter. Treat these as **COMMISSIONER-SUPPLIED DIALOGUE**, not independently verified fantasy facts. Preserve the quoted wording except for punctuation/capitalization needed for typesetting.
+
+### Chili Outlaw — required dialogue
+- **“You've been Chili'd.”**
+- **“You think twice when you play the Chili God.”**
+
+Performance note: deliver calmly, preferably during the exit/aftermath rather than as a screaming victory speech. The understatement increases Duckhook's humiliation.
+
+### Dr. Duckhook — required/source dialogue
+- **“Whole team is for sale. Done this year.”**
+- **“If Bowers scores a TD and Chili puts me in a body bag, I’m going to have to leave the chat for a week or two and schedule a session with a therapist. Going to have to do a mental reset before I can deal with Chili and Pitts.”**
+
+The Bowers line is conditional dialogue. **Do not infer from it that Bowers scored a touchdown.** Do not depict a literal body bag or literal therapy session. The line works as Duckhook's own hyperbolic forecast of the embarrassment and can be juxtaposed with the aftermath.
+
+### Recommended dialogue architecture
+**Page A / setup:** use Duckhook's long conditional quote as self-authored foreshadowing while the Sonic chili dog still appears laughable.
+
+**Page B / aftermath:** Duckhook, defeated on his own Country Club ground: **“Whole team is for sale. Done this year.”** Chili Outlaw rides away on The Dark Horse and answers: **“You've been Chili'd.”** A final smaller exit beat may carry: **“You think twice when you play the Chili God.”**
+
+This dialogue sequence is approved for workshop use, but Jake retains final editorial approval before manuscript/page lock.
