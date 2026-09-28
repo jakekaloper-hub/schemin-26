@@ -26,32 +26,32 @@ Do **not** use an exact league-wide roster-entry count as a live hard contract. 
 
 These contracts are validated on every refresh. Contract failures do **not** replace the last-good data payload.
 
-## Local setup
+## Repository-native verification
+
+No external Python dependencies are required by the current cold-standby implementation.
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python schemin_gateway.py seed tests/fixture_1417621.json
-python -m unittest discover -s tests -v
-python schemin_gateway.py refresh
-python schemin_gateway.py health
+python -m py_compile data-gateway/refresh_espn_snapshot.py data-gateway/check_snapshot_health.py
+python -m unittest -v tests/test_data_gateway_snapshot_contract.py
+python data-gateway/refresh_espn_snapshot.py
+python data-gateway/check_snapshot_health.py
+```
+
+For a game-window freshness check:
+
+```bash
+SCHEMIN_MAX_STALE_SECONDS=900 python data-gateway/check_snapshot_health.py
 ```
 
 ## Mirror configuration
 
-Set one or more comma-separated raw JSON/envelope URLs. `{league_id}` and `{season}` placeholders are supported.
+The controlling reliability architecture permits mirrors, but the current committed cold-standby script does **not** implement `SCHEMIN_ESPN_MIRRORS`. Do not represent mirror failover as operational until a tested adapter is committed and registered.
 
-```bash
-export SCHEMIN_ESPN_MIRRORS='https://your-worker.example/league/1417621,https://raw.githubusercontent.com/YOU/REPO/main/data/snapshots/1417621/latest.json'
-```
-
-Recommended order:
-
-- Primary: app/server direct ESPN request.
-- Secondary: Cloudflare Worker `/league/1417621` edge gateway backed by KV.
-- Tertiary: GitHub Actions cold-standby snapshot.
-- Final fallback: process-local last-known-good snapshot.
+Current executable path:
+- acquisition: direct ESPN with bounded retries;
+- persistence: GitHub snapshot;
+- degradation: last-known-good data + stale/failure metadata;
+- consumer health: read-time freshness recomputation.
 
 ## Freshness policy
 
@@ -66,11 +66,9 @@ Consumers must inspect `meta.stale`, `meta.fetched_at`, and `meta.snapshot_age_s
 
 For game windows, use a tight operational SLO such as 900 seconds. Background workflows may use a broader SLO when appropriate.
 
-## Cloudflare Worker
+## Edge mirror status
 
-`cloudflare/worker.js` is a deliberately **fixed-target gateway**, not an open proxy. It can only retrieve league 1417621 / season 2026, validates the response, stores last-good state in KV, refreshes on a 5-minute cron, and serves cached data during ESPN failure.
-
-Create a Workers KV namespace, replace the ID in `wrangler.toml`, then deploy with Wrangler.
+A Cloudflare Worker/KV mirror remains an architectural option, not a deployed repository capability. There is currently no controlling `cloudflare/worker.js` or `wrangler.toml` in `schemin-26`. Add one only through an explicit implementation/validation path.
 
 ## GitHub Actions cold standby
 
