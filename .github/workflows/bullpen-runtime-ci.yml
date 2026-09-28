@@ -1,8 +1,17 @@
 name: Bullpen Runtime CI
 on:
   push:
+    paths:
+      - "bullpen-runtime/**"
+      - ".github/workflows/bullpen-runtime-ci.yml"
   pull_request:
+    paths:
+      - "bullpen-runtime/**"
+      - ".github/workflows/bullpen-runtime-ci.yml"
   workflow_dispatch:
+concurrency:
+  group: bullpen-runtime-ci-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   test:
     runs-on: ubuntu-latest
