@@ -1,9 +1,11 @@
 import importlib.util
+import sys
 from pathlib import Path
 
 MODULE=Path(__file__).parents[1]/"engine"/"causal_state.py"
 spec=importlib.util.spec_from_file_location("causal_state",MODULE)
 m=importlib.util.module_from_spec(spec)
+sys.modules[spec.name]=m
 spec.loader.exec_module(m)
 BookTime,Fact,eligible,classify_sequence=m.BookTime,m.Fact,m.eligible,m.classify_sequence
 
