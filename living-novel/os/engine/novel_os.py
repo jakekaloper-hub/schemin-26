@@ -278,18 +278,22 @@ def validate_flaim_event(e:dict)->list[Finding]:
         out.append(Finding("FLAIM-MOTIVE-INFERENCE","FATAL","Observed-fact layer contains unsupported motive/emotion."))
     return out
 def grade_significance(signals:dict)->str:
-    score=0
-    score += min(abs(signals.get("margin",0))/25,2)
-    score += 2 if signals.get("championship") else 0
-    score += 1.5 if signals.get("playoff") else 0
-    score += 1 if signals.get("rivalry") else 0
-    score += 1 if signals.get("historical_echo") else 0
-    score += 1 if signals.get("story_promise") else 0
-    score += min(signals.get("transaction_competition",0),2)*0.5
-    if score>=6:return "HISTORICAL"
-    if score>=5:return "SEASON_DEFINING"
-    if score>=4:return "CHAPTER_SHAPING"
-    if score>=3:return "MAJOR"
+    """Advisory narrative significance; never a canon or render authorization."""
+    score=0.0
+    score += min(abs(signals.get("margin",0))/30,1.5)
+    weights={
+      "championship":3.0,"playoff":1.5,"elimination":1.5,"rivalry":1.0,
+      "historical_echo":1.0,"standings_consequence":0.75,"upset":0.75,
+      "scoring_extreme":0.75,"lineup_consequence":0.75,"transaction_consequence":0.75,
+      "keeper_consequence":0.75,"story_promise":1.0,"character_arc":1.0,
+      "world_state":1.0,"rarity":0.5,"recurrence":0.5,"narrative_novelty":0.75}
+    for key,w in weights.items():
+        if signals.get(key): score += w
+    score += min(float(signals.get("transaction_competition",0)),3)*0.25
+    if score>=8:return "HISTORICAL"
+    if score>=6.5:return "SEASON_DEFINING"
+    if score>=5:return "CHAPTER_SHAPING"
+    if score>=3.5:return "MAJOR"
     if score>=2:return "MEANINGFUL"
     if score>=1:return "TEXTURE"
     return "NOISE"
