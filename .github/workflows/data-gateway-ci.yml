@@ -3,16 +3,21 @@ on:
   push:
     paths:
       - "data-gateway/**"
+      - "schemas/freshness.schema.json"
       - "tests/test_data_gateway_snapshot_contract.py"
       - ".github/workflows/espn-cold-standby.yml"
       - ".github/workflows/data-gateway-ci.yml"
   pull_request:
     paths:
       - "data-gateway/**"
+      - "schemas/freshness.schema.json"
       - "tests/test_data_gateway_snapshot_contract.py"
       - ".github/workflows/espn-cold-standby.yml"
       - ".github/workflows/data-gateway-ci.yml"
   workflow_dispatch:
+concurrency:
+  group: data-gateway-ci-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   snapshot-contract:
     runs-on: ubuntu-latest
