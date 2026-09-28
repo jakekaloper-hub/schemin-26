@@ -54,7 +54,60 @@ def is_excepted(root: Path, policy_id: str, scope: str):
             return True
     return False
 
-def validate_character_canon(root: Path, registry): return []
+def validate_character_canon(root: Path, registry):
+    errors=[]
+    assertions_path=root/"governance/enforcement/CANON_ASSERTIONS_V1.json"
+    if not assertions_path.exists():
+        return ["missing CANON_ASSERTIONS_V1.json"]
+    assertions=json.loads(assertions_path.read_text())
+    lock_path=root/assertions["source_visual_lock"]
+    if not lock_path.exists():
+        errors.append(f"missing visual canon lock {assertions['source_visual_lock']}")
+    else:
+        lock=lock_path.read_text(errors="replace")
+        if assertions["source_sha256"] not in lock:
+            errors.append("visual canon lock checksum mismatch/missing")
+
+    identity_path=root/"living-novel/os/adapters/flaim/PRO_SCHEMIN_IDENTITY_RESOLUTION_V1.json"
+    if not identity_path.exists():
+        errors.append("missing active identity registry")
+        return errors
+    data=json.loads(identity_path.read_text())
+    records={rec["owner"]:rec for rec in data.get("records",[])}
+    expected=assertions["owners"]
+    if set(records)!=set(expected):
+        errors.append(f"identity owner set mismatch: expected {sorted(expected)}, got {sorted(records)}")
+    for owner,spec in expected.items():
+        rec=records.get(owner)
+        if not rec:
+            continue
+        if rec.get("canonical_character")!=spec["title"]:
+            errors.append(f"{owner} title mismatch: {rec.get('canonical_character')} != {spec['title']}")
+        invariants=set(rec.get("hard_invariants",[]))
+        for inv in spec.get("invariants",[]):
+            if inv not in invariants:
+                errors.append(f"{owner} missing invariant: {inv}")
+
+    master=root/"canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+    if not master.exists():
+        errors.append("missing master character canon")
+    else:
+        text=master.read_text(errors="replace")
+        for owner,spec in expected.items():
+            anchor=f"### {owner} /"
+            if anchor not in text:
+                errors.append(f"master canon missing owner section: {owner}")
+                continue
+            section=text.split(anchor,1)[1].split("### ",1)[0]
+            if f"**Character:** {spec['title']}." not in section:
+                errors.append(f"master canon title mismatch for {owner}")
+        jake=text.split("### Jake Kaloper /",1)[1].split("### ",1)[0] if "### Jake Kaloper /" in text else ""
+        if "NO CHAMPIONSHIP BELT" not in jake:
+            errors.append("Jake NO CHAMPIONSHIP BELT invariant missing from master canon")
+        wilson=text.split("### Wilson Look /",1)[1].split("### ",1)[0] if "### Wilson Look /" in text else ""
+        if "Arsenal Centaur" not in wilson or "gorilla" not in wilson.lower():
+            errors.append("Wilson Arsenal Centaur / never-gorilla invariants incomplete")
+    return errors
 def validate_authority_uniqueness(root: Path, registry):
     errors=[]
 
