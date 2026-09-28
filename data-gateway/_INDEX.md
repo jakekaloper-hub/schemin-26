@@ -6,23 +6,32 @@
 
 1. `OPERATIONAL_PATCH_v1.0.md`
 2. `SCHEMIN_26_ESPN_INGESTION_RELIABILITY_PATCH_v1.0.md`
-3. `../schemas/freshness.schema.json`
-4. `../docs/governance/SOURCE_OF_TRUTH.md`
+3. `ENDPOINT_PERMANENCE_PATCH_v2.md`
+4. `../schemas/freshness.schema.json`
+5. `../docs/governance/SOURCE_OF_TRUTH.md`
 
-## Core contract
+## Current executable contract
 
 ```text
-direct ESPN
+scheduled acquisition
+→ direct ESPN
 → bounded retry
-→ validate
-→ promote canonical snapshot
-→ persist last-known-good
+→ settings-derived contract validation
+→ atomic latest.json + manifest.json
+→ repository persistence
 
-failure
-→ mirror
-→ cold standby
-→ last-known-good
-→ stale=true + provenance
+failed acquisition
+→ preserve last-known-good league data
+→ recompute age
+→ stale=true + failure_reason
+→ persist degraded metadata
+→ workflow remains red
+
+consumer read
+→ load snapshot
+→ recompute effective age from fetched_at
+→ apply consumer SLO
+→ never infer freshness from file existence
 ```
 
-A payload existing does not prove freshness. Consumers must propagate freshness metadata.
+Mirror/edge failover is architectural but is **not currently an executable repository capability**. A payload existing does not prove freshness.
