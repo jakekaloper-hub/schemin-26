@@ -75,6 +75,29 @@ class CharacterCanonLockTests(unittest.TestCase):
         self.assertIn("**Body-form lock:** Arsenal Centaur", text)
         self.assertIn("**Never:** gorilla, ape", text)
 
+
+    def test_all_character_packets_match_approved_titles(self):
+        packets = {
+            "CHAR-JAKE": ("Jake Kaloper", "The Trade Jedi"),
+            "CHAR-RED": ("Kevin Zeek", "The Predator Board"),
+            "CHAR-SLOB": ("Jordan Hollingshead", "Win Ugly"),
+            "CHAR-LLC": ("David Babb", "Hostile Takeover"),
+            "CHAR-CENTAUR": ("Wilson Look", "The Philosopher-Warrior"),
+            "CHAR-TDS": ("Phillip Pitts", "The Podium Shadow"),
+            "CHAR-CHILI": ("Brandon Pryor", "The Chili Outlaw"),
+            "CHAR-ELNINO": ("Manning Welty", "The Weather System"),
+            "CHAR-BYARS": ("Austin Byars", "The Belt Keeper"),
+            "CHAR-MUD": ("Bobby Mitchell", "Swamp-Born Menace"),
+            "CHAR-DUCKHOOK": ("Zach Wilson", "King of the Impossible Lie"),
+            "CHAR-CHINS": ("Ben Whipple", "The People's Champ"),
+        }
+        root = ROOT / "chronicles" / "production" / "reference-packets" / "characters"
+        for packet, (owner, title) in packets.items():
+            text = (root / packet / "PACKET.md").read_text()
+            self.assertIn(f"**Owner:** {owner}", text, packet)
+            self.assertIn(f"**Canonical character:** {title}", text, packet)
+            self.assertIn("SCHEMIN_26_MASTER_VISUAL_CANON_REFERENCE_LOCK_V1.md", text, packet)
+
     def test_jake_no_belt_hard_lock_survives(self):
         text = (ROOT / "canon" / "SCHEMIN_26_MASTER_CHARACTER_CANON.md").read_text()
         section = text.split("### Jake Kaloper / ObiWan Jacoby", 1)[1].split("### ", 1)[0]
