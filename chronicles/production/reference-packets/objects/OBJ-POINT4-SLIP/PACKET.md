@@ -1,0 +1,3 @@
+# OBJ-POINT4-SLIP — REFERENCE PACKET V1
+**State:** DRAFT / EVIDENCE-RESOLVED. **Beats:** B006, B012, B044.
+**Authority:** V4 §§II/IV. **Physical:** old small paper slip kept in Duckhook's golf bag; exact meaningful number: 0.4. **Historical meaning:** verified 2025 semifinal margin closing Duckhook's road to final. **Literary meaning:** narrow inherited consequence without assigned emotion. **Visual function:** tiny object carrying disproportionate history. **Readable text:** only “0.4” if rendered exactly; otherwise typeset separately. **Forbidden:** invented explanation, blame, emotion, scoreline.
