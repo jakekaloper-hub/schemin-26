@@ -1346,6 +1346,8 @@ Another failed bid.
 
 The city would have enjoyed the pattern.
 
+But the table did not contain only failures. Smith-Njigba still represented the second Austin had committed before the season. Achane still represented the fifteenth, retained value so disproportionate that the Archive had marked it before the first Encounter. The champion's current record had worsened. His inherited campaign capital had not simply vanished with it.
+
 Austin did not give it the satisfaction of reacting.
 
 Jake appeared beside the Transaction Desk carrying his own completed claim.
