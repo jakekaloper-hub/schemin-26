@@ -1,241 +1,598 @@
-# Week 3 — Chili Cheesers vs Dr. Duckhook Story Workshop V1
+# WEEK 3 — CHILI CHEESERS vs DR. DUCKHOOK — LOCKED MATCHUP PRODUCTION PACKET V2
 
-**Status:** MATCHUP-LOCKED BY EXHAUSTED STARTERS / PROVIDER NOT FINAL  
-**Scope:** Story Room workshop only. This does not open league-wide FACT_LOCK or authorize final art/PDF production.  
-**Current locked-on-lineups score:** Chili Cheesers 132.19 — Dr. Duckhook 126.16  
-**Margin:** 6.03  
-**Provider state:** ESPN/Flaim still reports UNDECIDED.  
-**Editorial control:** Jake retains approval over final dialogue, page treatment, and publication.
+**Status:** MATCHUP PRODUCTION SPEC LOCKED / COMPETITIVE OUTCOME LOCKED BY EXHAUSTED STARTERS / ESPN PROVIDER RESULT STILL UNDECIDED  
+**Week:** 3 — Schemin '26 Weekly Memo  
+**Matchup:** The Chili Cheesers (Brandon Pryor / The Chili Outlaw) vs Dr. Duckhook (Zach Wilson / King of the Impossible Lie)  
+**Current locked-on-lineups score:** **Chili Cheesers 132.19 — Dr. Duckhook 126.16**  
+**Margin:** **Chili +6.03**  
+**Scope:** This file is the single matchup-specific production authority for M03. It does not open league-wide FACT_LOCK.  
+**Supersedes:** earlier workshop-only contents of this same file.  
+**Commissioner creative direction:** humiliation should be stronger because Dr. Duckhook once viewed Chili Outlaw as laughable; required supplied dialogue is locked below.
 
-## 1. Evidence firewall
+---
 
-### VERIFIED LEAGUE FACT
-- Neither side has a remaining scoring starter in the current Week 3 lineup detail, so the matchup outcome is competitively locked absent a later provider scoring correction.
-- Chili: Brock Bowers 28.6; Christian Watson 22.6; Bryce Young 15.64; Cam Skattebo 15.0.
-- Duckhook: Jahmyr Gibbs 43.4; Drake Maye 4.16; Baker Mayfield 15.48 on bench; Jordan Addison 22.0 on bench.
-- Chili acquired Bryce Young for $20 during Week 3 and started him.
-- Duckhook acquired Baker Mayfield for $11 and Dalton Schultz for $11; Mayfield remained on bench and Schultz started for 6.0.
+# 0. EXECUTIVE LOCK
 
-### COMMISSIONER CONTEXT
-- Brandon Pryor / Chili Cheesers sent Zach / Dr. Duckhook a Sonic chili dog on Wednesday.
-- Duckhook treated Chili Outlaw as laughable / talked trash in the commissioner account.
-- Country Club of Jackson is the established Duckhook environment.
-- Chili Outlaw rides The Dark Horse.
-
-### INFERENCE / STORY POSSIBILITY
-- The chili dog can become a warning that was laughed at before becoming humiliating in hindsight.
-- Gibbs's 43.4 creates the strongest “Duckhook had reason to believe he was safe” factual foundation, but exact live lead chronology must not be invented.
-- “Getting Chili'd” may become league vocabulary only if Jake approves it as canon after this issue.
-
-## 2. Governing story thesis
-
+## Governing thesis
 **THE WORST THING ABOUT BEING CHILI'D IS HAVING LAUGHED FIRST.**
 
-The humiliation is not that Duckhook was incompetent. The humiliation is that he had a 43.4-point keeper performance, dismissed an absurd pregame warning, and still ends the matchup on the wrong side of the locked-on-lineups score.
+## Chapter title
+**YOU'VE BEEN CHILI'D**
 
-Chili Outlaw should remain inherently ridiculous. That is what gives the reversal power. The story does not transform him into a generic dark lord. It establishes that the league can no longer assume the joke is harmless.
+## Secondary line
+**The warning came with mustard.**
 
-Duckhook's humiliation is social and mythic, not violent.
+## Narrative verdict
+This matchup is a **two-page cinematic mini-chapter**, not a standardized matchup card. The story is a reversal of social status: the Sonic chili dog begins as a ridiculous Wednesday taunt inside Duckhook's polished Country Club world; Duckhook has an enormous 43.4-point performance from keeper Jahmyr Gibbs and still finishes behind Chili on the exhausted-starter score; the formerly laughable Chili Outlaw leaves Duckhook's own ground with the joke now attached to Duckhook.
 
-## 3. Character performance rules
+## Tone lock
+Epic-fantasy worldbuilding + league-specific comedy + controlled humiliation. The scene is funny because it is treated seriously. Do not make it a meme collage, generic Western parody, or cartoon beating.
+
+## Humiliation lock
+Duckhook's humiliation is:
+1. **self-authored** through his own supplied dialogue;
+2. **public/social**, not physically abusive;
+3. **on his own established Country Club ground**;
+4. sharpened by Gibbs's 43.4;
+5. completed by Chili's calmness rather than hysterical gloating;
+6. carried forward as potential league mythology.
+
+---
+
+# 1. EVIDENCE LOCK
+
+## 1.1 VERIFIED LEAGUE FACT — Flaim/ESPN Week 3
+- Current score: Chili Cheesers **132.19**, Dr. Duckhook **126.16**.
+- Derived margin: **6.03**.
+- Neither team has a remaining scoring starter in the retrieved Week 3 lineup detail. Competitive outcome is therefore locked absent provider/stat correction.
+- ESPN/Flaim still reports the matchup as **UNDECIDED**. Do not print ESPN FINAL until provider state changes.
+- Chili notable starters:
+  - Brock Bowers — **28.6**
+  - Christian Watson — **22.6**
+  - Bryce Young — **15.64**
+  - Cam Skattebo — **15.0**
+- Duckhook notable starters:
+  - Jahmyr Gibbs — **43.4**
+  - Matthew Golden — **22.0**
+  - Drake Maye — **4.16**
+- Duckhook bench context:
+  - Baker Mayfield — **15.48**, bench
+  - Jordan Addison — **22.0**, bench
+- Chili acquired Bryce Young for **$20** in Week 3 and started him.
+- Duckhook acquired Baker Mayfield for **$11** and Dalton Schultz for **$11**; Mayfield remained on the bench, Schultz started for **6.0**.
+
+## 1.2 COMMISSIONER-SUPPLIED CONTEXT
+- Pryor sent Zach a **Sonic chili dog on Wednesday**.
+- Duckhook regarded Chili Outlaw as laughable / talked trash in commissioner context.
+- Country Club of Jackson is established Duckhook geography.
+- Chili Outlaw's horse is **The Dark Horse**.
+
+## 1.3 COMMISSIONER-SUPPLIED DIALOGUE — REQUIRED
+Preserve substance and speaker. Punctuation/capitalization may be normalized for typesetting.
 
 ### Chili Outlaw
-- Canonical bearded Western outlaw/pitmaster.
-- Black hat, sunglasses, red/black chili language.
-- The Dark Horse present where composition allows.
-- Calm after the victory; no hysterical celebration.
-- His confidence should make the humiliation worse.
-- Dialogue: short, dry, threatening through understatement.
+**“You've been Chili'd.”**
+
+**“You think twice when you play the Chili God.”**
 
 ### Dr. Duckhook
-- Canonical anthropomorphic white duck golfer.
-- Orange bill, bucket hat, patterned golf attire/equipment.
-- Begins composed and dismissive on his own ground.
-- Ends visibly aware that the league will remember this.
-- Do not physically injure, mutate, torture, or redesign him.
-- Humiliation may include crooked hat, chili splatter, ruined scorecard, compromised golf cart, damaged dignity.
+**“Whole team is for sale. Done this year.”**
 
-## 4. Two-page narrative treatment
+**“If Bowers scores a TD and Chili puts me in a body bag, I'm going to have to leave the chat for a week or two and schedule a session with a therapist. Going to have to do a mental reset before I can deal with Chili and Pitts.”**
 
-### PAGE A — THE PACKAGE
-**Function:** establish the joke before its meaning changes.  
-**Visual/text ratio:** approximately 65% illustration / 35% prose + dialogue.
+## 1.4 HARD FACTUAL FIREWALL
+- The Bowers quote is conditional dialogue. **DO NOT infer or depict that Bowers scored a touchdown.**
+- Do not invent exact scoring chronology, lead changes, live win probabilities, exact moment Chili passed Duckhook, or causal play sequence.
+- Maye/Mayfield contrast is factual numerical context. Do not state that starting Mayfield “would have won the matchup” until deterministic final arithmetic is run after provider lock.
+- Do not claim ESPN has marked the matchup final until it does.
+- Do not invent additional real quotes for Brandon or Zach.
+- Bullpen-authored character dialogue, if any, must be labeled fictionalized league-world dialogue and cannot masquerade as a real group-chat quote.
 
-Country Club of Jackson is pristine and controlled. The Sonic chili dog is present as an absurd object in an aristocratic golf environment. It may sit beneath a silver cloche or on a clubhouse tray. Duckhook treats it as beneath him.
+---
 
-Far down the fairway: Chili Outlaw on The Dark Horse. Small in scale. Easy to laugh at.
+# 2. CHARACTER PACKET LOCK
 
-Gibbs's 43.4 can be represented through deterministic stat typography or supporting copy, not invented play chronology.
+## 2.1 Brandon Pryor / The Chili Cheesers
+**Canonical character:** The Chili Outlaw.  
+**Body/species:** human Western outlaw/pitmaster.  
+**Required appearance:** bearded; black cowboy hat with chili details; sunglasses; chili-red weathered duster; chili-pepper bandolier; steaming chili bowl/pot/chili branding where composition supports it.  
+**Companion:** **The Dark Horse** — mandatory on Page 2, preferred distant presence Page 1.  
+**Performance:** quiet confidence. He should look more dangerous precisely because he does not over-celebrate.  
+**Never:** Chili King, Chili Beast, Chili Gremlin, retired bear/bloodhound, generic cowboy.
 
-#### Dialogue candidate — preferred
-**DR. DUCKHOOK:** “He sent me a chili dog?”
+## 2.2 Zach Wilson / Dr. Duckhook
+**Canonical character:** King of the Impossible Lie.  
+**Body/species:** anthropomorphic white duck golfer.  
+**Required appearance:** white duck anatomy; orange bill; camouflage/floral bucket hat and golf clothing; cigar where safe/readable; golf equipment; golf-club/driver prosthetic-arm concept.  
+**Performance Page 1:** dismissive, composed, amused on home ground.  
+**Performance Page 2:** defeated dignity; crooked hat/light chili residue/ruined scorecard allowed.  
+**Never:** normal duck, human golfer, physician, generic golf mascot, physical torture, mutation.
 
-A beat. Duckhook looks down the fairway.
+## 2.3 Reference stack — mandatory before image generation
+1. latest Jake-approved correction;
+2. owner official spotlight/reference;
+3. approved 12-owner master lineup/reference plate;
+4. Master Character Canon;
+5. prior published artwork that passed Character QA.
 
-**DR. DUCKHOOK:** “Tell Pryor I prefer mine after the round.”
+No text-only image generation is valid for this matchup.
 
-From the distance, Chili Outlaw lifts his chin.
+---
 
-**CHILI OUTLAW:** “Keep the wrapper, Doc.”
+# 3. WORLD / CONTINUITY LOCK
 
-**DR. DUCKHOOK:** “For what?”
+## Location
+**Country Club of Jackson / The Country Club Under Siege.**
 
-**CHILI OUTLAW:** “Receipt.”
+This is persistent Duckhook home-world geography, not a fresh generic golf course.
 
-This is intentionally compact. The final word sets up Page B without claiming a result before the battle.
+## Environmental grammar
+Old-world manicured fantasy golf estate; monumental clubhouse stonework; immaculate greens; distant water hazard; fantasy scale; controlled wealth/order. Chili's presence violates that order without converting the environment into a saloon or generic battlefield.
 
-#### Alternate, meaner version
-**DR. DUCKHOOK:** “That your warning?”
+## Entering continuity
+- Country Club established in Week 2.
+- Chili delivery motif established.
+- Week 3 Sonic chili dog is the inciting object.
+- Dark Horse remains Chili's canonical companion.
 
-**CHILI OUTLAW:** “No.”
+## Continuity transformation
+**Page 1:** pristine Country Club. Chili appears distant and ridiculous.  
+**Page 2:** exact same geography after social conquest. Hoofprints, restrained chili-red residue, compromised golf cart, displaced flag/order, Sonic package still identifiable.
 
-**DR. DUCKHOOK:** “Then what is it?”
+## Continuity-out — LOCKED FOR THIS MATCHUP
+Pending only provider score-correction check:
+- The phrase **“You've been Chili'd”** is established by this Week 3 event as a candidate recurring Schemin phrase.
+- Country Club may retain one subtle chili-red scar/stain on later canonical returns.
+- Chili Outlaw's reputation evolves from laughable menace to **ridiculous-but-dangerous**.
+- Duckhook may remember the humiliation in future Chili encounters; his physical canon does not change.
 
-**CHILI OUTLAW:** “Courtesy.”
+---
 
-### PAGE B — THE RECEIPT
-**Function:** reverse the joke and establish the phrase “Chili'd” as a candidate piece of league mythology.  
-**Visual/text ratio:** approximately 75% illustration / 25% prose + dialogue.
+# 4. STORY ARCHITECTURE LOCK
 
-Use the **same Country Club geography**, later state.
+## Beat 1 — Wednesday: the package
+A Sonic chili dog enters an environment where it does not belong. Duckhook interprets the gesture as absurd.
 
-The course has not become a generic battlefield. It has been socially desecrated:
-- Dark Horse hoofprints across immaculate turf.
-- restrained chili-red residue/smoke crossing the fairway;
-- Duckhook's golf cart compromised/stuck;
-- bucket hat crooked;
-- the original Sonic package still identifiable;
-- a removed golf flag or other reversible country-club indignity may accompany The Dark Horse;
-- deterministic score typography carries 132.19–126.16, labeled as locked-on-lineups rather than falsely claiming ESPN FINAL.
+## Beat 2 — Duckhook writes his own prophecy
+Use the supplied long Bowers/body-bag/leave-chat/therapist quote as self-authored foreshadowing. It is funny because the audience knows Duckhook himself described the consequences of being Chili'd.
 
-Chili Outlaw is already leaving. He does not need to gloat.
+## Beat 3 — apparent security
+Jahmyr Gibbs supplies **43.4**. Copy may say this gave Duckhook substantial production/reason for confidence. Do not invent when he led.
 
-#### Dialogue candidate — preferred
-Duckhook, staring at the ruined green:
+## Beat 4 — Chili arrives in pieces
+The Outlaw's score is distributed across Bowers 28.6, Watson 22.6, Bryce Young 15.64, Skattebo 15.0 and the rest of the lineup. This is prose/stat architecture, not literal NFL-player portraiture.
 
-**DR. DUCKHOOK:** “Pryor.”
+## Beat 5 — roster irony
+Maye 4.16 started; newly acquired Mayfield 15.48 remained on the bench. Addison 22.0 also sat. Use as humiliation texture, not sole-cause claim.
 
-Chili Outlaw turns slightly in the saddle.
+## Beat 6 — exhausted-starter lock
+132.19–126.16. Nobody in either active lineup remains able to score. ESPN provider result still pending.
 
-**DR. DUCKHOOK:** “Don't.”
+## Beat 7 — the Country Club changes ownership for one humiliating moment
+Not literal property ownership. Social/visual conquest: the Outlaw has crossed Duckhook's manicured world and left evidence.
 
-**CHILI OUTLAW:** “Wasn't gonna say a word.”
+## Beat 8 — Duckhook breaks first
+**DR. DUCKHOOK:** “Whole team is for sale. Done this year.”
 
-A beat.
+## Beat 9 — Chili's verdict
+Chili barely turns back:
+**CHILI OUTLAW:** “You've been Chili'd.”
 
-**CHILI OUTLAW:** “League will.”
+## Beat 10 — exit wound
+As The Dark Horse carries/claims the golf flag and walks away:
+**CHILI OUTLAW:** “You think twice when you play the Chili God.”
 
-This is the preferred humiliation line because Chili refuses the obvious victory speech. Duckhook's embarrassment comes from knowing everyone else will preserve the story.
+## Final narrative image
+Duckhook remains in his own damaged social space. The original Sonic package is visible beside the ruined scorecard. The joke has changed owners.
 
-#### Optional final tag
-Duckhook notices the Sonic wrapper beside his scorecard.
+---
 
-**DR. DUCKHOOK:** “I hate that damn chili dog.”
+# 5. FINAL TWO-PAGE MANUSCRIPT V1
 
-Chili Outlaw, already riding away:
+## PAGE 1 — THE WARNING CAME WITH MUSTARD
 
-**CHILI OUTLAW:** “Keep the receipt.”
+On Wednesday, the warning arrived at the Country Club of Jackson in a paper bag.
 
-Use only if the repeated “receipt” motif does not feel overwritten in final manuscript.
+There were older ways to threaten a man. Sealed letters. Black flags. Steel left at the gate before sunrise.
 
-## 5. Prose beat architecture
+Brandon Pryor sent a Sonic chili dog.
 
-1. **The delivery** — Wednesday's chili dog arrives in a world where it looks ridiculous.
-2. **The laughter** — Duckhook's dismissiveness establishes the social risk Pryor has taken.
-3. **The apparent security** — Gibbs supplies 43.4. Do not invent exact live lead chronology.
-4. **The accumulation** — Chili receives distributed production across Bowers, Watson, Skattebo and Bryce Young.
-5. **The roster irony** — Duckhook's starting Maye produces 4.16 while newly acquired Mayfield records 15.48 on the bench. State as contrast, not sole cause.
-6. **The locked score** — 132.19–126.16 with no remaining starters. Preserve provider-final distinction.
-7. **The reversal** — what looked like a joke becomes the object Duckhook cannot escape.
-8. **The departure** — Chili Outlaw leaves calmly; Duckhook remains in the damaged social space.
+Dr. Duckhook received it on ground that had always obeyed him: clipped fairways, still water, polished stone and the quiet confidence of a club where even disaster was expected to observe the dress code. Somewhere beyond the final green, the Chili Outlaw sat beneath a black hat on the back of the Dark Horse, small against the enormous order of Duckhook's world.
 
-## 6. Candidate manuscript lines
-These are workshop lines, not approved final copy.
+It was difficult to take him seriously.
 
-**Opening candidate:**  
-On Wednesday, the package arrived at the Country Club of Jackson with all the dignity of a threat written in mustard.
+That was the first mistake.
 
-**Bridge candidate:**  
-Duckhook had forty-three point four reasons to believe the joke belonged to somebody else.
+Duckhook had already described what humiliation at Pryor's hands would require.
 
-**Roster candidate:**  
-But the Outlaw did not arrive behind one champion. He came in pieces: Bowers, Watson, Skattebo, and a twenty-dollar quarterback dragged from the waiver market.
+**DR. DUCKHOOK:** “If Bowers scores a TD and Chili puts me in a body bag, I'm going to have to leave the chat for a week or two and schedule a session with a therapist. Going to have to do a mental reset before I can deal with Chili and Pitts.”
 
-**Humiliation candidate:**  
-The Doctor had not merely lost to Pryor. He had lost after being warned by lunch.
+The words were bravado when he said them. The chili dog was still lunch.
 
-**Closing candidate A:**  
-Wednesday, it was a chili dog. By the end of the matchup, it was evidence.
+And Duckhook had reason to feel secure. Jahmyr Gibbs gave him **43.4 points**, the kind of performance that should make an absurd warning easier to laugh away.
 
-**Closing candidate B:**  
-The Outlaw had sent his warning three days early. Duckhook's mistake was thinking it was lunch.
+But the Outlaw did not come behind a single champion.
 
-**Closing candidate C:**  
-The Country Club would clean the green by morning. The story would take considerably longer.
+He came in pieces.
 
-## 7. Humiliation ceiling
-Allowed:
-- social embarrassment;
-- chili residue;
-- damaged dignity;
-- golf-course indignities;
-- Dark Horse taking/carrying a golf flag;
-- clubhouse witnesses;
-- Duckhook realizing the story will spread;
-- callback to the delivered food.
+Bowers: **28.6**. Watson: **22.6**. Skattebo: **15.0**. Bryce Young—the twenty-dollar waiver quarterback—**15.64**.
 
-Avoid:
-- graphic violence;
-- literal torture;
-- demeaning bodily abuse;
-- noncanonical character mutation;
-- sexualized humiliation;
-- invented real-world statements attributed to Zach or Brandon.
+Across the course, the horse kept walking.
 
-## 8. Five-layer resolution
+The chili dog remained on the table.
 
-**GAME:** Chili 132.19, Duckhook 126.16; locked by exhausted starters, pending provider finality/correction.  
-**OWNER:** commissioner-supplied chili-dog taunt becomes the social setup.  
-**ROSTER:** Gibbs eruption versus distributed Chili scoring; Maye/Mayfield lineup contrast; Bryce waiver acquisition.  
-**SEASON:** record/standings consequences remain blocked until provider rollover.  
-**WORLD:** Country Club Under Siege evolves into Country Club Chili'd; same geography before/after.
+And somewhere between the joke and the scoreboard, the Country Club stopped laughing.
 
-## 9. Continuity-out candidates — require Jake approval
-- “Getting Chili'd” enters Schemin' vocabulary.
-- Country Club retains one subtle chili-red scar/stain on later returns.
-- Sonic wrapper/package becomes a one-issue or occasional callback object.
-- Chili Outlaw's league perception shifts from harmlessly ridiculous toward ridiculous-but-dangerous.
+**PAGE TURN:** The wrapper stays in foreground. Dark Horse hoofprints begin at the bottom edge and continue onto Page 2.
 
-## 10. QA before page production
-- Re-query provider for score correction/finality.
-- Verify no remaining starter on either side.
-- Deterministic score typography only.
-- Character packet/reference attachment mandatory for both characters.
-- Country Club continuity reference mandatory.
-- The Dark Horse identity preserved.
-- Dialogue is fictionalized league-world dialogue; never present it as a real quote from Brandon or Zach.
-- Jake chooses final humiliation level/dialogue before composition lock.
+---
 
+## PAGE 2 — YOU'VE BEEN CHILI'D
 
-## 10. Commissioner dialogue lock — 2026-09-28
+By the time the course went quiet, the warning had changed shape.
 
-Jake supplied the following league dialogue for this chapter. Treat these as **COMMISSIONER-SUPPLIED DIALOGUE**, not independently verified fantasy facts. Preserve the quoted wording except for punctuation/capitalization needed for typesetting.
+The greens were still green. The clubhouse still stood. No army had burned the gates.
 
-### Chili Outlaw — required dialogue
-- **“You've been Chili'd.”**
-- **“You think twice when you play the Chili God.”**
+That would have been easier.
 
-Performance note: deliver calmly, preferably during the exit/aftermath rather than as a screaming victory speech. The understatement increases Duckhook's humiliation.
+Instead there were hoofprints across the fairway.
 
-### Dr. Duckhook — required/source dialogue
-- **“Whole team is for sale. Done this year.”**
-- **“If Bowers scores a TD and Chili puts me in a body bag, I’m going to have to leave the chat for a week or two and schedule a session with a therapist. Going to have to do a mental reset before I can deal with Chili and Pitts.”**
+A golf cart sat at an angle where no member would ever leave it. A flag was missing from its pin. A thin red stain crossed the immaculate turf toward the same table where Wednesday's joke had been served.
 
-The Bowers line is conditional dialogue. **Do not infer from it that Bowers scored a touchdown.** Do not depict a literal body bag or literal therapy session. The line works as Duckhook's own hyperbolic forecast of the embarrassment and can be juxtaposed with the aftermath.
+And the score no longer belonged to the joke.
 
-### Recommended dialogue architecture
-**Page A / setup:** use Duckhook's long conditional quote as self-authored foreshadowing while the Sonic chili dog still appears laughable.
+**THE CHILI CHEESERS — 132.19**  
+**DR. DUCKHOOK — 126.16**
 
-**Page B / aftermath:** Duckhook, defeated on his own Country Club ground: **“Whole team is for sale. Done this year.”** Chili Outlaw rides away on The Dark Horse and answers: **“You've been Chili'd.”** A final smaller exit beat may carry: **“You think twice when you play the Chili God.”**
+Duckhook had received **43.4 from Gibbs** and still found himself staring after the Dark Horse.
 
-This dialogue sequence is approved for workshop use, but Jake retains final editorial approval before manuscript/page lock.
+There were smaller cruelties hiding in the card. Drake Maye had given the Doctor **4.16** from the starting quarterback slot. Baker Mayfield, acquired that week, had **15.48** on the bench. Jordan Addison had another **22.0** there.
+
+None of them needed to speak.
+
+Duckhook did it for them.
+
+**DR. DUCKHOOK:** “Whole team is for sale. Done this year.”
+
+The Chili Outlaw was already leaving.
+
+No celebration. No victory dance. No need to explain the package.
+
+Pryor turned only far enough for the Doctor to see the edge of the grin beneath the hat.
+
+**CHILI OUTLAW:** “You've been Chili'd.”
+
+The Dark Horse continued toward the edge of the course, Duckhook's flag carried away as one final reversible indignity.
+
+Then came the last word from the fairway.
+
+**CHILI OUTLAW:** “You think twice when you play the Chili God.”
+
+Duckhook looked down.
+
+Beside his scorecard sat the Sonic wrapper.
+
+Wednesday, it had been a chili dog.
+
+Now it was evidence.
+
+**CLOSING CAPTION:** *The Country Club would clean the green by morning. The story would take considerably longer.*
+
+---
+
+# 6. PAGE 1 PRODUCTION BRIEF — LOCKED
+
+## Page ID
+**W3-M03-A**
+
+## Narrative job
+Set up the humiliation by making Chili look laughable before the reversal. Establish Duckhook's home-field confidence, Sonic object, supplied prophecy quote, Gibbs security and approaching Outlaw.
+
+## Ratio
+**65% illustration / 35% prose-dialogue-data.**
+
+## Camera
+Wide cinematic low-clubhouse/terrace perspective down the final fairway. Duckhook foreground dominant; Sonic package foreground/near-midground; Chili + Dark Horse very small in deep background.
+
+## Foreground
+- canonical Dr. Duckhook;
+- polished club table;
+- Sonic chili-dog package / chili dog;
+- scorecard/golf equipment;
+- negative space for opening prose/dialogue.
+
+## Midground
+Immaculate green, cart path, aristocratic course order, water feature.
+
+## Background
+Chili Outlaw + Dark Horse small on horizon/fairway. They must be recognizable by silhouette but intentionally visually underestimated.
+
+## Light
+Late-afternoon warm club light. Order, comfort, false security.
+
+## Required emotional read
+**Duckhook owns this world. Chili looks absurd.**
+
+## Text-safe zones
+Upper-left/upper-center quiet sky/architecture; lower-right must remain clear enough for compact dialogue treatment. Do not place essential faces/props behind copy.
+
+## Prose nonredundancy
+Art shows status hierarchy and ridiculous intrusion. Prose explains Wednesday context and statistical foundation. Neither should merely caption the other.
+
+## Rejection conditions
+- Chili visually dominant on Page 1;
+- wrong Duckhook species/body;
+- Dark Horse missing if composition can reasonably include him;
+- generic stadium/saloon;
+- literal NFL players;
+- fake generated typography;
+- Bowers touchdown depiction;
+- Sonic object unrecognizable as the inciting package.
+
+---
+
+# 7. PAGE 2 PRODUCTION BRIEF — LOCKED
+
+## Page ID
+**W3-M03-B**
+
+## Narrative job
+Reverse Page 1's hierarchy. Deliver humiliation, required dialogue, locked score, roster irony and continuity-out.
+
+## Ratio
+**75% illustration / 25% prose-dialogue-data.**
+
+## Camera
+Same geographic axis as Page 1 but lower and closer to Duckhook, looking down the damaged fairway as Chili departs. This visual echo is mandatory.
+
+## Foreground
+- canonical Duckhook beside compromised golf cart;
+- crooked bucket hat permitted;
+- light chili residue permitted;
+- ruined/marked scorecard;
+- original Sonic package/wrapper clearly visible;
+- deterministic text-safe score area.
+
+## Midground
+Hoofprints through manicured green; restrained red trail/stain; empty/missing flag pin; clubhouse witnesses only if they do not clutter.
+
+## Background
+Chili Outlaw on The Dark Horse riding away. The Dark Horse may carry the displaced golf flag in its mouth or attached harmlessly to tack. Chili turns only slightly for dialogue.
+
+## Light
+Later dusk/golden-red afterlight. Same world, changed emotional state. Do not make it infernal/apocalyptic.
+
+## Required emotional read
+**Duckhook has not been physically destroyed. His dignity has. Chili barely needs to acknowledge it.**
+
+## Required dialogue
+Duckhook: **“Whole team is for sale. Done this year.”**  
+Chili: **“You've been Chili'd.”**  
+Chili exit: **“You think twice when you play the Chili God.”**
+
+## Deterministic score layer
+**THE CHILI CHEESERS — 132.19**  
+**DR. DUCKHOOK — 126.16**  
+**LOCKED ON LINEUPS · ESPN RESULT PENDING**
+
+Do not ask the image model to render these numbers/words.
+
+## Rejection conditions
+- literal body bag;
+- therapist office/mental-health caricature;
+- physical torture;
+- Chili screaming/celebrating like a generic villain;
+- Country Club replaced by unrelated battlefield;
+- wrong character canon;
+- fake score typography inside generated art;
+- golf flag removal depicted as permanent canon destruction rather than reversible indignity;
+- excessive chili covering identities.
+
+---
+
+# 8. DETERMINISTIC DATA MANIFEST — LOCKED
+
+| Field | Value | Status |
+|---|---:|---|
+| Chili score | 132.19 | lineup-locked / provider pending |
+| Duckhook score | 126.16 | lineup-locked / provider pending |
+| Margin | 6.03 | derived |
+| Bowers | 28.6 | verified |
+| Watson | 22.6 | verified |
+| Bryce Young | 15.64 | verified |
+| Skattebo | 15.0 | verified |
+| Gibbs | 43.4 | verified |
+| Maye | 4.16 | verified |
+| Mayfield | 15.48 BENCH | verified |
+| Addison | 22.0 BENCH | verified |
+| Bryce waiver | $20 | verified Week 3 transaction |
+| Mayfield waiver | $11 | verified Week 3 transaction |
+| Schultz waiver | $11 | verified Week 3 transaction |
+| Schultz started | 6.0 | verified |
+
+### Arithmetic
+132.19 - 126.16 = **6.03**.
+
+### Provider caveat
+Replace “LOCKED ON LINEUPS · ESPN RESULT PENDING” with final provider status only after a fresh provider confirmation. Any stat correction invalidates score/margin-dependent copy and must trigger PATCH review.
+
+---
+
+# 9. DIALOGUE / TYPOGRAPHY PLAN — LOCKED
+
+## Rule
+Dialogue is part of the page design and must remain readable at mobile portrait scale. Use deterministic typography/comic-caption treatment after illustration; never rely on image-generated text.
+
+## Page 1
+The long Duckhook quote should be set as a designed pull-quote / speech treatment, not a tiny balloon. Preserve full supplied language. It may span two linked text blocks if necessary for mobile readability.
+
+## Page 2
+Three short dialogue beats in visual sequence:
+1. Duckhook foreground: **“Whole team is for sale. Done this year.”**
+2. Chili mid/background: **“You've been Chili'd.”**
+3. Chili exit caption/speech: **“You think twice when you play the Chili God.”**
+
+Do not add competing invented jokes around these lines. The supplied dialogue is strong enough.
+
+---
+
+# 10. MOBILE PRODUCTION LOCK
+
+- Native portrait approximately **9:16 / 1080×1920 equivalent**.
+- Essential character faces/silhouettes remain inside mobile safe zone.
+- Score/data text is deterministic and phone-readable.
+- No paragraph set over high-detail art without a quiet plate/gradient/text panel.
+- Dialogue must survive actual-phone-scale review.
+- Page 1 and Page 2 must read as a consecutive spread when swiped vertically/individually.
+- No crop/stretch after art generation.
+
+---
+
+# 11. ART GENERATION PACKET — LOCKED BUT NOT YET EXECUTED
+
+## Mandatory generation prefix
+**SCHEMIN '26 CHARACTER CANON LOCK:** Use the approved canonical owner reference for every participating owner. Character identity is immutable. Preserve species, body type, face/head concept, signature wardrobe, signature props and recognizable silhouette. Team names are labels, not character-generation prompts. Scene, pose, expression, action, camera angle and environment may change; identity may not. Never blend traits between owners.
+
+## Page 1 art instruction
+Create a vertical cinematic epic-fantasy illustration of the established Country Club of Jackson. Preserve exact canonical Dr. Duckhook in dominant foreground: anthropomorphic white duck golfer, orange bill, camouflage/floral bucket hat and golf equipment. A Sonic chili-dog package sits absurdly on an elegant club table. The course is pristine, monumental, old-world and manicured. Far down the fairway, preserve exact canonical Chili Outlaw on The Dark Horse, intentionally small in scale and initially easy to dismiss. Warm late-afternoon light, atmospheric depth, foreground/midground/background storytelling. Leave large quiet text-safe areas. Render **no words, scores, letters or fake typography**.
+
+## Page 2 art instruction
+Create a vertical cinematic continuation from the same camera geography later at dusk. Preserve exact canonical Dr. Duckhook foreground beside a compromised golf cart, bucket hat slightly crooked, dignity visibly defeated but no physical injury. Original Sonic wrapper/package remains beside a marked scorecard. Dark Horse hoofprints cross the immaculate green; a restrained chili-red trail/stain marks the incursion; the flag pin is empty. In the distance, exact canonical Chili Outlaw rides calmly away on The Dark Horse, turning only slightly; The Dark Horse may carry the displaced golf flag as a harmless visual trophy. Epic believable materiality and atmospheric depth, serious visual treatment of an absurd event. Leave deterministic text-safe space. Render **no words, scores, letters or fake typography**.
+
+---
+
+# 12. QA / TEST / BUGFIX / POLISH LOOP
+
+## Stage A — Evidence QA
+**Current:** PASS for competitive-lock workshop evidence.  
+Test score arithmetic, exhausted starters, player scores, transactions, commissioner-dialogue classification.  
+Provider-final field remains PENDING by design.
+
+## Stage B — Character QA
+Must test:
+- owner/team mapping;
+- Chili exact canonical human outlaw;
+- Dark Horse correct;
+- Duckhook exact canonical anthropomorphic white duck golfer;
+- no trait contamination;
+- at least three signature features visible where composition permits.
+Any identity failure = **REGENERATE**.
+
+## Stage C — Continuity QA
+Must test:
+- same Country Club geography both pages;
+- Page 2 visibly evolves Page 1;
+- Sonic object persists;
+- Dark Horse persists;
+- no silent environmental reset.
+Structural reset = **REGENERATE**.
+
+## Stage D — Fact QA
+Must test every printed number against final provider capture. Score/margin/stat corrections = **PATCH deterministic layer and dependent prose**. If composition itself encodes a false event, REGENERATE.
+
+## Stage E — Dialogue QA
+Must verify supplied quotes against Section 1.3. No invented attribution. Conditional Bowers quote cannot become factual touchdown imagery.
+
+## Stage F — Mobile QA
+Actual phone-scale readability: prose, dialogue, score, faces, safe zones, no crop/clipping. Isolated typography defect = PATCH.
+
+## Stage G — Originality QA
+Page 1 and Page 2 must perform different jobs. No duplicate pose/composition. Art must add social hierarchy/continuity that prose alone cannot.
+
+## Stage H — Polish
+After all defects fixed:
+- tighten prose only if mobile density requires;
+- preserve required quotes;
+- ensure Page 2 humiliation is stronger than Page 1;
+- keep Chili calm;
+- keep Duckhook recognizable;
+- ensure closing Sonic wrapper callback remains visible.
+
+## Stage I — Re-test
+Re-run Evidence, Character, Continuity, Fact, Dialogue, Mobile and Originality gates after any patch/regeneration. No inherited PASS after upstream change.
+
+---
+
+# 13. PAGE-LOCK CONDITIONS
+
+## W3-M03-A may lock only when
+- final art exists;
+- character reference QA passes;
+- Country Club continuity passes;
+- copy/dialogue composite passes mobile QA;
+- no fabricated scoring chronology exists;
+- deterministic stats are verified against latest provider state.
+
+## W3-M03-B may lock only when
+- final art exists;
+- exact same-world continuity passes;
+- all three required short dialogue beats are present/readable;
+- score layer matches latest provider state;
+- Chili/Duckhook/Dark Horse canon passes;
+- humiliation remains social, non-graphic and readable;
+- no invented Bowers TD or literal body-bag/therapy imagery.
+
+## Matchup chapter lock
+Both pages PASS + latest provider score/correction check PASS + continuity-out written back to Week 3 ledger.
+
+---
+
+# 14. RELEASE / DEPENDENCY STATE
+
+### LOCKED NOW
+- matchup thesis;
+- title;
+- two-page architecture;
+- factual spine at current lineup-exhausted state;
+- commissioner dialogue;
+- character packets;
+- environment;
+- visual continuity;
+- humiliation calibration;
+- final manuscript V1;
+- Page 1 brief;
+- Page 2 brief;
+- deterministic data manifest;
+- typography/dialogue plan;
+- mobile rules;
+- art-generation instructions;
+- QA plan;
+- continuity-out candidates.
+
+### STILL EXTERNALLY PENDING
+- ESPN/Flaim provider final designation;
+- any official stat correction;
+- post-Week-3 records/standings.
+
+### NOT REQUIRED TO REOPEN CREATIVE WORK
+If provider finalizes at 132.19–126.16 with no correction, the chapter proceeds directly into reference-attached art production/composite/QA. It does **not** return to Story Room.
+
+If score/stat correction changes the facts but not the winner, PATCH deterministic data and affected prose. If correction changes the winner, invalidate this packet's result-dependent sections and reopen story resolution.
+
+---
+
+# 15. CONTINUITY WRITEBACK INSTRUCTION
+
+After Page Lock, update `WEEK_3_CONTINUITY_LEDGER_V1.md`:
+- Sonic chili dog meaning: warning → fulfilled humiliation callback;
+- Country Club: post-Chili incursion state; subtle removable/persistent red scar as approved;
+- Chili Outlaw: reputation continuity = ridiculous-but-dangerous;
+- Dr. Duckhook: remembers Week 3 Chili humiliation; physical identity unchanged;
+- “You've been Chili'd” = earned league phrase, subject to Jake's continuing canon authority.
+
+---
+
+# 16. THE CLOSER
+
+**MATCHUP PREPRODUCTION:** PASS  
+**STORY ARCHITECTURE:** LOCKED  
+**MANUSCRIPT V1:** LOCKED FOR PRODUCTION  
+**CHARACTER / ENVIRONMENT / CONTINUITY SPEC:** LOCKED  
+**PAGE BRIEFS:** LOCKED  
+**DETERMINISTIC DATA SPEC:** LOCKED  
+**ART:** NOT YET GENERATED  
+**PAGE QA:** NOT YET EXECUTED  
+**ESPN PROVIDER FINALITY:** PENDING  
+**LEAGUE-WIDE FACT LOCK:** CLOSED
+
+**Next executable action for this matchup:** load approved character visual references → generate Page 1 art → QA/bugfix/polish/retest → generate Page 2 art → QA/bugfix/polish/retest → deterministic copy/data composite → mobile QA → fresh provider correction check → page locks → continuity ledger writeback.
