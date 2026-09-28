@@ -4,8 +4,10 @@
 
 ## Load order
 
-1. `SCHEMIN_26_MASTER_CHARACTER_CANON.md`
-2. `league.json`
+1. `SCHEMIN_26_MASTER_VISUAL_CANON_REFERENCE_LOCK_V1.md`
+2. `SCHEMIN_26_MASTER_CHARACTER_CANON.md`
+3. `CHARACTER_REFERENCE_LAYER_V1.md`
+4. `league.json`
 
 ## Governing rule
 
@@ -17,4 +19,4 @@ OWNER
 
 Team names can change. Character identity does not change unless explicitly approved.
 
-The current master character canon is binding for visual production.
+The Commissioner-approved visual lock + current master character canon are binding for visual production. The visual lock controls the exact 12 approved character titles and plate checksum; the written canon supplies semantic invariants and forbidden mutations.
