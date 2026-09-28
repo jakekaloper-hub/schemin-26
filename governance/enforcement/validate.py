@@ -82,7 +82,50 @@ def validate_authority_uniqueness(root: Path, registry):
             if data.get("_archive_status")!="ARCHIVE_ONLY":
                 errors.append(f"archive json missing ARCHIVE_ONLY status: {p.relative_to(root)}")
     return errors
-def validate_temporal_state(root: Path, registry): return []
+def validate_temporal_state(root: Path, registry):
+    errors=[]
+    contract=root/"docs/governance/SUBSYSTEM_TEMPORAL_LINEAGE_CONTRACT_V1.md"
+    if not contract.exists():
+        errors.append("missing subsystem temporal lineage contract")
+
+    prologue=root/"chronicles/proof-of-concept/prologue"
+    historical=[
+        "PROLOGUE_MANUSCRIPT_V1.md",
+        "PROLOGUE_MANUSCRIPT_V2_AUDITED.md",
+        "PROLOGUE_MANUSCRIPT_V3_REBUILD.md",
+    ]
+    for name in historical:
+        p=prologue/name
+        if not p.exists():
+            errors.append(f"missing historical manuscript {name}")
+            continue
+        text=p.read_text(errors="replace")
+        if "SUPERSEDED HISTORICAL MANUSCRIPT" not in text or "DO NOT USE AS CURRENT PRODUCTION PARENT" not in text:
+            errors.append(f"historical manuscript lacks supersession lock: {name}")
+
+    v4=prologue/"PROLOGUE_MANUSCRIPT_V4_CONSULTANT_REVISION.md"
+    if not v4.exists():
+        errors.append("missing current V4 manuscript parent")
+    else:
+        text=v4.read_text(errors="replace")
+        if "CURRENT PRODUCTION PARENT" not in text:
+            errors.append("V4 does not declare CURRENT PRODUCTION PARENT")
+        if "current production parent does not mean final published manuscript" not in text:
+            errors.append("V4 lacks publication-status distinction")
+
+    mercer=root/"mercer/OPERATING_CONTRACT.md"
+    if not mercer.exists():
+        errors.append("missing Mercer operating contract")
+    else:
+        text=mercer.read_text(errors="replace")
+        required=[
+            "Historical recommendations are decision-journal evidence, not standing instructions",
+            "current-state evidence is freshly resolved through the Data Gateway / controlling ledger",
+        ]
+        for phrase in required:
+            if phrase not in text:
+                errors.append(f"Mercer temporal rule missing: {phrase}")
+    return errors
 def validate_mercer_firewall(root: Path, registry): return []
 def validate_prompt_governance(root: Path, registry): return []
 def validate_publication_release(root: Path, registry): return []
