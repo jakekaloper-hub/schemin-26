@@ -79,9 +79,10 @@ class RepositoryMemoryHygieneTests(unittest.TestCase):
         path = ROOT / "chronicles/proof-of-concept/prologue/PROLOGUE_PRESEASON_EVIDENCE_AND_EMOTIONAL_SPINE.md"
         text = path.read_text()
         forbidden = [
-            "Mercer grade",
+            "Mercer grade B+",
             "Mercer judged",
             "A+ starting hand in Mercer audit",
+            "Pro Schemin' 2026 Post-Draft Mercer Report V2 Audited",
         ]
         for phrase in forbidden:
             self.assertNotIn(phrase, text)
