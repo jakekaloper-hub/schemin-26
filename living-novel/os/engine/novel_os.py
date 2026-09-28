@@ -257,3 +257,39 @@ def release_gate(checks:dict)->dict:
     missing=sorted(required-set(checks))
     failed=sorted(k for k,v in checks.items() if k in required and v is not True)
     return {"state":"PASS" if not missing and not failed else "BLOCKED","missing":missing,"failed":failed}
+
+
+# ---- Flaim League Intelligence Adapter ----
+SIGNIFICANCE_LEVELS=("NOISE","TEXTURE","MEANINGFUL","MAJOR","CHAPTER_SHAPING","SEASON_DEFINING","HISTORICAL")
+def normalize_flaim_event(raw:dict)->dict:
+    return {"id":raw.get("id") or raw.get("transaction_id"),"source":"FLAIM","provider":"espn",
+      "league_id":str(raw.get("league_id","1417621")),"season":raw.get("season",2026),"week":raw.get("week"),
+      "event_type":raw.get("event_type") or raw.get("type","UNKNOWN"),"entities":raw.get("entities",[]),
+      "observed_fact":raw.get("observed_fact",""),"verification":raw.get("verification","UNKNOWN"),
+      "limitations":raw.get("limitations",[]),"canon_authority":"SOURCE_EVIDENCE",
+      "downstream_eligible":raw.get("verification")=="VERIFIED"}
+def validate_flaim_event(e:dict)->list[Finding]:
+    out=[]
+    if e.get("canon_authority")!="SOURCE_EVIDENCE": out.append(Finding("FLAIM-AUTHORITY","FATAL","Flaim evidence cannot self-promote to canon."))
+    if e.get("verification") in {"UNKNOWN","STALE","CONFLICTED","BLOCKED","LIVE_UNFINALIZED"} and e.get("downstream_eligible"):
+        out.append(Finding("FLAIM-ELIGIBILITY","FATAL","Unfinalized/unverified Flaim evidence marked narrative-eligible."))
+    motive_words=("because he wanted","because she wanted","felt humiliated","was cocky","was reckless")
+    if any(x in e.get("observed_fact","").lower() for x in motive_words):
+        out.append(Finding("FLAIM-MOTIVE-INFERENCE","FATAL","Observed-fact layer contains unsupported motive/emotion."))
+    return out
+def grade_significance(signals:dict)->str:
+    score=0
+    score += min(abs(signals.get("margin",0))/25,2)
+    score += 2 if signals.get("championship") else 0
+    score += 1.5 if signals.get("playoff") else 0
+    score += 1 if signals.get("rivalry") else 0
+    score += 1 if signals.get("historical_echo") else 0
+    score += 1 if signals.get("story_promise") else 0
+    score += min(signals.get("transaction_competition",0),2)*0.5
+    if score>=6:return "HISTORICAL"
+    if score>=5:return "SEASON_DEFINING"
+    if score>=4:return "CHAPTER_SHAPING"
+    if score>=3:return "MAJOR"
+    if score>=2:return "MEANINGFUL"
+    if score>=1:return "TEXTURE"
+    return "NOISE"
