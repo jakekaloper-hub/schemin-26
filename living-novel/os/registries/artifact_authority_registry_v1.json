@@ -1,0 +1,70 @@
+{
+  "version": "1.0",
+  "records": [
+    {
+      "id": "CHAR_CANON",
+      "path": "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+      "domain": "character_visual_identity",
+      "authority": "BINDING",
+      "status": "CURRENT"
+    },
+    {
+      "id": "NOVEL_DIRECTIVE",
+      "path": "living-novel/MASTER_DIRECTIVE.md",
+      "domain": "novel_governance",
+      "authority": "BINDING",
+      "status": "CURRENT"
+    },
+    {
+      "id": "PROLOGUE_V4",
+      "path": "chronicles/proof-of-concept/prologue/PROLOGUE_MANUSCRIPT_V4_CONSULTANT_REVISION.md",
+      "domain": "manuscript",
+      "authority": "MANUSCRIPT_CANON",
+      "status": "MASTER_CANDIDATE",
+      "blob_sha": "65b54c31826e6e545a21946b5037cefc1a123cfe"
+    },
+    {
+      "id": "PROLOGUE_BEAT_MAP",
+      "path": "chronicles/proof-of-concept/prologue/PROLOGUE_BEAT_AND_VISUAL_MAP_V1.md",
+      "domain": "production_map",
+      "authority": "PRODUCTION_AUTHORITY",
+      "status": "CURRENT",
+      "blob_sha": "6616ad5717deab4c9c7e5859fb686ba6a8cd19c6"
+    },
+    {
+      "id": "PROLOGUE_ART_DIRECTION",
+      "path": "chronicles/proof-of-concept/prologue/PROLOGUE_ART_DIRECTION_BIBLE_V1.md",
+      "domain": "visual_grammar",
+      "authority": "PRODUCTION_AUTHORITY",
+      "status": "CURRENT"
+    },
+    {
+      "id": "PROLOGUE_ART_BRIEFS",
+      "path": "chronicles/proof-of-concept/prologue/PROLOGUE_ART_BRIEF_REGISTER_V1.md",
+      "domain": "visual_briefs",
+      "authority": "PRODUCTION_AUTHORITY",
+      "status": "CURRENT"
+    },
+    {
+      "id": "PROLOGUE_REF_ARCH",
+      "path": "chronicles/proof-of-concept/prologue/PROLOGUE_REFERENCE_PACKET_ARCHITECTURE_V1.md",
+      "domain": "references",
+      "authority": "PRODUCTION_AUTHORITY",
+      "status": "CURRENT"
+    },
+    {
+      "id": "PROLOGUE_CHAR_MATRIX",
+      "path": "chronicles/proof-of-concept/prologue/PROLOGUE_CHARACTER_REFERENCE_RESOLUTION_MATRIX_V1.md",
+      "domain": "references",
+      "authority": "PRODUCTION_AUTHORITY",
+      "status": "CURRENT"
+    },
+    {
+      "id": "PROLOGUE_COMPOSITION",
+      "path": "chronicles/proof-of-concept/prologue/PROLOGUE_CONSECUTIVE_COMPOSITION_PROTOTYPE_V1.md",
+      "domain": "composition",
+      "authority": "BENCHMARK",
+      "status": "CURRENT"
+    }
+  ]
+}
