@@ -158,6 +158,66 @@ class EnforcementKernelTests(unittest.TestCase):
             p.write_text("**Status:** RELEASED")
             self.assertEqual(mod.validate_publication_release(root,self.registry),[])
 
+
+    def test_exception_registry_passes_repo(self):
+        self.assertEqual(mod.validate_exceptions(ROOT,self.registry),[])
+
+    def test_exception_rejects_commissioner_policy_without_commissioner(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=Path(td)
+            (root/"governance/enforcement").mkdir(parents=True)
+            rec={
+                "exception_id":"EX-1",
+                "policy_id":"CANON-001",
+                "scope_glob":"canon/**",
+                "reason":"Temporary controlled canon test",
+                "approved_by":["Character QA"],
+                "approved_at":"2026-09-28T15:00:00Z",
+                "review_trigger":"remove after test",
+                "status":"ACTIVE"
+            }
+            (root/"governance/enforcement/EXCEPTIONS_V1.json").write_text(json.dumps({"exceptions":[rec]}))
+            errors=mod.validate_exceptions(root,self.registry)
+            self.assertTrue(any("requires Jake / Commissioner approval" in e for e in errors))
+
+    def test_exception_rejects_expired_record(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=Path(td)
+            (root/"governance/enforcement").mkdir(parents=True)
+            rec={
+                "exception_id":"EX-2",
+                "policy_id":"AUTH-001",
+                "scope_glob":"foo/**",
+                "reason":"Temporary controlled authority migration",
+                "approved_by":["Umpire"],
+                "approved_at":"2026-09-01T00:00:00Z",
+                "expires_at":"2026-09-02T00:00:00Z",
+                "status":"ACTIVE"
+            }
+            (root/"governance/enforcement/EXCEPTIONS_V1.json").write_text(json.dumps({"exceptions":[rec]}))
+            errors=mod.validate_exceptions(root,self.registry)
+            self.assertTrue(any("is expired" in e for e in errors))
+
+    def test_valid_prompt_exception_is_narrow(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=Path(td)
+            (root/"governance/enforcement").mkdir(parents=True)
+            rec={
+                "exception_id":"EX-3",
+                "policy_id":"PROMPT-001",
+                "scope_glob":"foo/MASTER_PROMPT.md",
+                "reason":"Historical migration prompt retained for one review",
+                "approved_by":["Librarian"],
+                "approved_at":"2026-09-28T15:00:00Z",
+                "review_trigger":"remove after migration review",
+                "status":"ACTIVE"
+            }
+            (root/"governance/enforcement/EXCEPTIONS_V1.json").write_text(json.dumps({"exceptions":[rec]}))
+            p=root/"foo/MASTER_PROMPT.md"
+            p.parent.mkdir(parents=True,exist_ok=True)
+            p.write_text("Use Frat-Bro Berserker")
+            self.assertEqual(mod.validate_prompt_governance(root,self.registry),[])
+
     def test_merge_kernel_runs(self):
         self.assertTrue(mod.run(ROOT,"MERGE"))
 
