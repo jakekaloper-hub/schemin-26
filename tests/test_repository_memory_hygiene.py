@@ -87,5 +87,28 @@ class RepositoryMemoryHygieneTests(unittest.TestCase):
             self.assertNotIn(phrase, text)
         self.assertIn("private Mercer grades, valuations, recommendations", text)
 
+
+    def test_prologue_manuscript_lineage_is_unambiguous(self):
+        base = ROOT / "chronicles/proof-of-concept/prologue"
+        v1 = (base / "PROLOGUE_MANUSCRIPT_V1.md").read_text()
+        v2 = (base / "PROLOGUE_MANUSCRIPT_V2_AUDITED.md").read_text()
+        v3 = (base / "PROLOGUE_MANUSCRIPT_V3_REBUILD.md").read_text()
+        v4 = (base / "PROLOGUE_MANUSCRIPT_V4_CONSULTANT_REVISION.md").read_text()
+
+        self.assertIn("## Manuscript V1", v1)
+        for text in (v1, v2, v3):
+            self.assertIn("SUPERSEDED HISTORICAL MANUSCRIPT", text)
+            self.assertIn("DO NOT USE AS CURRENT PRODUCTION PARENT", text)
+        self.assertIn("CURRENT PRODUCTION PARENT", v4)
+        self.assertIn("current production parent does not mean final published manuscript", v4)
+
+    def test_archive_index_reflects_active_archive(self):
+        text = (ROOT / "archive/_INDEX.md").read_text()
+        self.assertIn("The archive is active.", text)
+        self.assertIn("archive/legacy-canon/", text)
+        self.assertIn("archive/legacy-handoffs/", text)
+        self.assertIn("archive/identity-history/", text)
+        self.assertNotIn("No files intentionally archived yet", text)
+
 if __name__ == "__main__":
     unittest.main()
