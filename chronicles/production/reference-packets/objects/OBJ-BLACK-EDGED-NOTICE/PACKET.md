@@ -1,0 +1,3 @@
+# OBJ-BLACK-EDGED-NOTICE — REFERENCE PACKET V1
+**State:** DRAFT / EVIDENCE-RESOLVED. **Beats:** B011.
+**Authority:** V4 §III; Beat Map. **Physical:** same black-edged notice distributed along Archive roads; copies appear beneath/near domain-specific objects. **Literary:** shared ritual and connectivity without proving geography. **Visual:** repeated object teaches breadth. **Readable text:** do not generate body copy; if needed, compositor typesets only approved language. **Forbidden:** fake map, one-hall assembly, modern invitation design, future outcomes.
