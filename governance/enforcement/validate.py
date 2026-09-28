@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import argparse
 import json
+import re
 from pathlib import Path
 
 ALLOWED_SEVERITIES={"BLOCK","RELEASE_BLOCK","WARN"}
@@ -126,7 +127,41 @@ def validate_temporal_state(root: Path, registry):
             if phrase not in text:
                 errors.append(f"Mercer temporal rule missing: {phrase}")
     return errors
-def validate_mercer_firewall(root: Path, registry): return []
+def validate_mercer_firewall(root: Path, registry):
+    errors=[]
+    public_roots=[
+        root/"chronicles",
+        root/"living-novel/manuscript",
+        root/"living-novel/narrative",
+        root/"living-novel/art",
+        root/"productions",
+    ]
+    patterns=[
+        (re.compile(r"Mercer grade\s+[A-F][+-]?",re.I),"Mercer grade"),
+        (re.compile(r"Mercer judged",re.I),"Mercer judged"),
+        (re.compile(r"MERCER CALL:",re.I),"MERCER CALL"),
+        (re.compile(r"Mercer recommends",re.I),"Mercer recommends"),
+        (re.compile(r"Mercer valuation",re.I),"Mercer valuation"),
+    ]
+    allow_paths={
+        "chronicles/proof-of-concept/prologue/PROLOGUE_PRESEASON_EVIDENCE_AND_EMOTIONAL_SPINE.md",
+    }
+    for base in public_roots:
+        if not base.exists():
+            continue
+        for p in base.rglob("*.md"):
+            rel=p.relative_to(root).as_posix()
+            text=p.read_text(errors="replace")
+            for rx,label in patterns:
+                for m in rx.finditer(text):
+                    if rel in allow_paths:
+                        line=text[:m.start()].count("\n")+1
+                        line_text=text.splitlines()[line-1] if text.splitlines() else ""
+                        if "private" in line_text.lower() or "no private" in line_text.lower():
+                            continue
+                    errors.append(f"public creative Mercer leakage [{label}] at {rel}")
+                    break
+    return errors
 def validate_prompt_governance(root: Path, registry): return []
 def validate_publication_release(root: Path, registry): return []
 def validate_exceptions(root: Path, registry): return []
