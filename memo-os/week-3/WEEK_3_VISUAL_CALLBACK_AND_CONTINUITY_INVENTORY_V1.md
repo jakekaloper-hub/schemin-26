@@ -12,8 +12,8 @@ Source basis: repository search across approved Week 2 production/manual, Week 2
 - Waiver/transaction desk, Pittsy's Book, commissioner/league institutional spaces also exist as recurring world language.
 
 ## Week 3 callback decisions
-### TDS hair state — RESOLVED FOR PRODUCTION
-Week 2 contains an explicit shaving/haircut scene, but Jake's newest 12-owner reference plate is the release-blocking visual authority and depicts TDS's canonical dreadlock language. Week 3 must therefore follow the newest approved reference plate. Do NOT independently infer permanent baldness or invent regrowth mechanics. Treat Week 2 haircut as published scene/lore whose literal permanence is not established.
+### TDS hair state — RESOLVED FOR PRODUCTION — V5.3/V5.4 CORRECTION
+The commissioner-approved master reference plate remains immutable identity authority, but the Week 2 haircut created the sanctioned derived continuity state `TDS_POST_HAIRCUT_v1`. Under V5.3/V5.4 that state persists until a later explicit narrative event changes it. Week 3 therefore resolves TDS as the exact canonical Podium Shadow identity with the **post-haircut hair overlay**. Do not reset intact dreadlocks from the master plate, and do not invent regrowth mechanics.
 
 ### Duckhook Country Club — REUSE
 Country Club of Jackson is established Week 2 environment evidence and should be evolved, not redesigned from scratch, for Chili–Duckhook if that chapter uses Duckhook home territory.
