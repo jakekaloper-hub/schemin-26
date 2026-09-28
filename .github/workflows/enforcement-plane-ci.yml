@@ -1,27 +1,40 @@
-name: Enforcement Plane CI
+name: Schemin Enforcement Gate
 on:
   push:
-    paths:
-      - "governance/enforcement/**"
-      - "tests/test_enforcement_plane.py"
-      - ".github/workflows/enforcement-plane-ci.yml"
   pull_request:
-    paths:
-      - "governance/enforcement/**"
-      - "tests/test_enforcement_plane.py"
-      - ".github/workflows/enforcement-plane-ci.yml"
   workflow_dispatch:
 jobs:
   enforcement:
+    name: Enforcement Plane
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Kernel tests
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Enforcement kernel tests
         run: python -m unittest -v tests/test_enforcement_plane.py
+
+      - name: Character canon regression
+        run: python -m unittest -v tests/test_character_canon_lock.py
+
+      - name: Repository memory regression
+        run: python -m unittest -v tests/test_repository_memory_hygiene.py
+
+      - name: Novel OS regression
+        working-directory: living-novel/os/evaluations
+        run: python -m unittest -v test_novel_os.py
+
+      - name: Bullpen Runtime regression
+        working-directory: bullpen-runtime
+        run: npm test
+
       - name: Merge enforcement
         run: python governance/enforcement/validate.py --mode MERGE
+
       - name: Release enforcement
         run: python governance/enforcement/validate.py --mode RELEASE
