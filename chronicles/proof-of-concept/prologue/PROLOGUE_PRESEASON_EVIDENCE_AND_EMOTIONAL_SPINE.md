@@ -15,14 +15,14 @@
    - prior public character framing.
    - Character visuals/personas in this older artifact are NOT authoritative where superseded by Character Master.
 
-2. **Pro Schemin' 2026 Post-Draft Mercer Report V2 Audited**
+2. **Post-draft league-state / draft evidence retained in the audited source packet**
    - ESPN league 1417621 export captured Sept. 3, 2026;
    - completed draft ledger;
    - keeper flags/costs;
    - actual live-pick inventory;
    - roster cores;
-   - ESPN post-draft projected ranks;
-   - stock/execution analysis.
+   - ESPN post-draft projected ranks.
+   - **Firewall:** private Mercer grades, valuations, recommendations and manager-exploitation conclusions are not public Chronicle evidence.
 
 3. **Character Master**
    - authoritative current visual/identity source.
@@ -85,7 +85,7 @@
 **Historical fact:** 2025 third place.
 **Keeper state:** Chris Olave R7; Javonte Williams R10.
 **Draft-capital fact:** no live R1, R2 or R3 selection; first live premium selection arrived R4.
-**Post-draft evidence:** ESPN snapshot projected #12; Mercer separated depleted starting hand from better execution.
+**Post-draft evidence:** ESPN snapshot projected #12; the documented premium-pick deficit is the public evidence used here.
 
 **Objective pressure:** proven podium credibility collides with the league's harshest premium-capital deficit.
 
@@ -98,7 +98,7 @@
 ---
 
 ## 4. ZACH WILSON
-**Character:** King of the Impossible Lie / Dr. Duckhook
+**Character:** King of the Impossible Lie
 **Team:** Dr. Duckhook
 **Historical fact:** lost 2025 semifinal to eventual champion by 0.4.
 **Keeper state:** Jahmyr Gibbs R1; Drake Maye R15.
@@ -113,11 +113,12 @@
 ---
 
 ## 5. WILSON LOOK
-**Character:** Philosopher-Warrior / Arsenal Centaur
+**Character:** The Philosopher-Warrior
+**Body-form lock:** Arsenal Centaur
 **Current team:** Donkey Kong
 **Draft-source historical label:** Baker Moore Purdy.
 **Keeper state:** Bijan Robinson R1; Breece Hall R4.
-**Post-draft evidence:** normal live-pick inventory; ESPN snapshot projected #4; Mercer judged the roster to have beaten its starting stock.
+**Post-draft evidence:** normal live-pick inventory; ESPN snapshot projected #4.
 
 **Objective pressure:** not the richest starting hand, but evidence that disciplined conversion produced a strong board.
 
@@ -130,7 +131,7 @@
 ---
 
 ## 6. JORDAN HOLLINGSHEAD
-**Character:** Frat-Bro Berserker
+**Character:** Win Ugly
 **Team:** Slob on my Dobb
 **Keeper state:** Quinshon Judkins R8; Bucky Irving R14.
 **Draft-capital fact:** two first-round selections plus additional premium capital.
@@ -151,7 +152,7 @@
 **Keeper state:** Lamar Jackson R4; Kyren Williams R14.
 **Draft fact:** natural 1.01 supplied Ja'Marr Chase.
 **Actual core:** Chase; DeVonta Smith; Zay Flowers; Lamar; Kyren.
-**Post-draft evidence:** strong starting stock; ESPN snapshot projected #8; Mercer judged the hand underconverted relative to its leverage.
+**Post-draft evidence:** ESPN snapshot projected #8; visible roster weapons are described without importing private GM valuation.
 
 **Objective pressure:** obvious weapons, less preseason separation than those weapons suggested.
 
@@ -199,7 +200,7 @@
 **Character:** Weather System
 **Team:** El Niño
 **Keeper state:** Nico Collins R9.
-**Draft-capital evidence:** two first-round selections; A+ starting hand in Mercer audit.
+**Draft-capital evidence:** two first-round selections.
 **Post-draft evidence:** roster outcome did not separate proportionately from premium stock.
 
 **Objective pressure:** exceptional opportunity creates a burden to convert volatility into structure.
@@ -225,9 +226,9 @@
 ---
 
 ## 12. BEN WHIPPLE
-**Character:** People's Champ? / Blue-Collar Spoiler
+**Character:** The People's Champ
 **Team:** Seven Deadly Chins
-**Post-draft evidence:** Mercer grade B+; ESPN snapshot projected #6; characterized as meeting its starting stock.
+**Post-draft evidence:** ESPN snapshot projected #6; no private Mercer grade is imported into public Chronicle canon.
 **Character material:** hammer; truck-stop/BBQ language; raccoon companion.
 
 **Objective pressure:** fewer extreme capital-story headlines than several rivals; enters from the middle rather than the throne or cellar.
