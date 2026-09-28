@@ -1,7 +1,9 @@
 # PROLOGUE — BEFORE THIS BOOK
 ## Manuscript V4 — Consultant Revision · The Twelve Before the Ledger
 
-**Status:** CONSULTANT-REVISED LITERARY MASTER CANDIDATE — HOLD FOR FINAL GATE  
+**Status:** CURRENT PRODUCTION PARENT / CONSULTANT-REVISED LITERARY MASTER CANDIDATE — HOLD FOR FINAL GATE
+**Lineage authority:** `living-novel/os/manifests/MANUSCRIPT_LINEAGE_MANIFEST_V1.md`
+**Publication note:** current production parent does not mean final published manuscript  
 **Temporal lock:** after the 2026 draft, before Week 1 results  
 **Production rule:** manuscript first; pagination and art follow manuscript lock
 > **Consultant revision note:** V4 applies the FLA-informed epic-fantasy consultation: deeper material history without fabricated results; recurring Archive infrastructure; reduced policy exposition; more physicalized draft economics; and shared ritual connecting the territories. It does not imitate Tolkien's prose.
