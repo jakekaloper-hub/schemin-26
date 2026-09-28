@@ -1,0 +1,22 @@
+{
+  "fixture_id":"PROLOGUE_V4",
+  "manuscript_path":"chronicles/proof-of-concept/prologue/PROLOGUE_MANUSCRIPT_V4_CONSULTANT_REVISION.md",
+  "pinned_blob_sha":"65b54c31826e6e545a21946b5037cefc1a123cfe",
+  "temporal_lock":"AFTER_2026_DRAFT_BEFORE_WEEK_1_RESULTS",
+  "production_map":"chronicles/proof-of-concept/prologue/PROLOGUE_BEAT_AND_VISUAL_MAP_V1.md",
+  "production_map_blob_sha":"6616ad5717deab4c9c7e5859fb686ba6a8cd19c6",
+  "character_canon":"canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+  "required_assertions":[
+    {"id":"A01","assertion":"A centaur does not become a gorilla because of a team-name change","type":"IDENTITY_LOCK"},
+    {"id":"A02","assertion":"An illustration cannot give the Trade Jedi an unearned championship belt","type":"VISUAL_CANON_LOCK"},
+    {"id":"A03","assertion":"Austin Byars / Belt Keeper is not redefined as a king/crowned character","type":"IDENTITY_LOCK"},
+    {"id":"A04","assertion":"No 2026 victory exists yet inside the Prologue temporal lock","type":"TEMPORAL_LOCK"}
+  ],
+  "downstream_required":[
+    "PROLOGUE_ART_DIRECTION_BIBLE_V1.md",
+    "PROLOGUE_REFERENCE_PACKET_ARCHITECTURE_V1.md",
+    "PROLOGUE_CHARACTER_REFERENCE_RESOLUTION_MATRIX_V1.md",
+    "PROLOGUE_ART_BRIEF_REGISTER_V1.md",
+    "PROLOGUE_CONSECUTIVE_COMPOSITION_PROTOTYPE_V1.md"
+  ]
+}
