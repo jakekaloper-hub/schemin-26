@@ -1,0 +1,21 @@
+name: Novel OS Causal Retrofit Tests
+on:
+  push:
+    branches: [novel/causal-intelligence-retrofit]
+    paths:
+      - 'living-novel/os/engine/causal_state.py'
+      - 'living-novel/os/tests/test_causal_state.py'
+      - '.github/workflows/novel-os-causal-retrofit.yml'
+  pull_request:
+    paths:
+      - 'living-novel/os/engine/causal_state.py'
+      - 'living-novel/os/tests/test_causal_state.py'
+jobs:
+  causal-regression:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install pytest
+      - run: pytest -q living-novel/os/tests/test_causal_state.py
