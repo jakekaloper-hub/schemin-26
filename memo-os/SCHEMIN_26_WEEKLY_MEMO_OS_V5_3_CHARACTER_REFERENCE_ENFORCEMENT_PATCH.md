@@ -11,7 +11,7 @@ The Week 2 acceptance test proved that prose-only character prompting can preser
 
 ## 1. Absolute visual authority
 
-The commissioner-approved twelve-owner lineup/reference plate is the absolute visual identity authority for all twelve league characters. Written Character Canon v2 supplements details not clearly visible in the plate; it may not be used to reinterpret a visible identity.
+The commissioner-approved twelve-owner lineup/reference plate, governed by `../canon/SCHEMIN_26_MASTER_VISUAL_CANON_REFERENCE_LOCK_V1.md`, is the absolute visual identity authority for all twelve league characters. Written Character Canon v2 supplements details not clearly visible in the plate; it may not be used to reinterpret a visible identity.
 
 A prior generated page, team name, nickname, matchup premise, or generic archetype is never identity authority.
 
@@ -47,9 +47,9 @@ Character identity is immutable. Scene, pose, action, camera, expression, enviro
 
 1. ObiWan Jacoby / Jake Kaloper — The Trade Jedi. Human blond strategist, earth-tone field/Jedi clothing, green energy blade, golden retriever. **NO CHAMPIONSHIP BELT.**
 2. Red Leopards / Kevin Zeek — The Predator Board. Giant anthropomorphic red leopard with black rosettes and red/black/gold armor.
-3. Slob on my Dobb / Jordan Hollingshead — Win Ugly / Frat-Bro Berserker. Heavy shaggy horned berserker, filthy Slob identity, beer/bat, bulldog/pit-bull companion.
+3. Slob on my Dobb / Jordan Hollingshead — **Win Ugly**. Retired descriptor: Frat-Bro Berserker. Heavy shaggy horned berserker, filthy Slob identity, beer/bat, bulldog/pit-bull companion.
 4. The LLC / David Babb — Hostile Takeover. Human corporate raider, tailored dark suit, sunglasses, cigar, LLC briefcase.
-5. D0nkey K0ng / Wilson Look — Philosopher-Warrior / Arsenal Centaur. Human warrior torso joined to full equine body, Arsenal-red identity, battle axe/tankard. **NO GORILLA, APE, HUMAN-ONLY BARBARIAN OR JUNGLE MASCOT.**
+5. Donkey Kong / Wilson Look — **The Philosopher-Warrior**. Arsenal Centaur is the mandatory body-form descriptor. Human warrior torso joined to full equine body, Arsenal-red identity, battle axe/tankard. **NO GORILLA, APE, HUMAN-ONLY BARBARIAN OR JUNGLE MASCOT.**
 6. Three Dreaded Snake / Phillip Pitts — The Podium Shadow. **ONE** green/gold reptilian humanoid with dreadlocks and #3 identity. **NO THREE-HEADED SNAKE, THREE SNAKES, MEDUSA OR HUMAN SUBSTITUTE.**
 7. Chili Cheesers / Brandon Pryor — The Chili Outlaw. Bearded human Western outlaw/pitmaster, black hat, sunglasses, red/black clothing, chili bandolier/bowl, Dark Horse.
 8. El Niño / Manning Welty — The Weather System. Nonhuman storm/water/lightning elemental humanoid. Never ordinary human, chef, child, surfer or generic wizard.
