@@ -1,0 +1,3 @@
+# OBJ-DARK-HORSE-TACK — REFERENCE PACKET V1
+**State:** DRAFT / EVIDENCE-RESOLVED; visual ref not loaded. **Beats:** B025-B026, B043.
+**Authority:** Master Canon + V4/Art Bible. **Physical:** working tack belonging to The Dark Horse; leather/iron/weathered cloth, chili-domain material continuity. **Literary:** Chili continuity/preparedness. **Visual:** companion can be implied through tack when character/horse render is blocked. **Forbidden:** Sonic/chili-dog callback, commercial branding, generic rodeo ornament.
