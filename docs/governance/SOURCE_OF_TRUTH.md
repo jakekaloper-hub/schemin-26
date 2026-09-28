@@ -16,6 +16,8 @@ Required freshness fields for gateway-backed data:
 - `snapshot_age_seconds`
 - `failure_reason`
 
+Freshness is evaluated at **read time**. Consumers recompute effective age from `fetched_at`; the persisted `snapshot_age_seconds` value is a receipt/lower bound, not a permanently current clock. If effective age breaches the consuming workflow's SLO, the data is stale even when the stored `stale` bit was written during an earlier successful refresh.
+
 ## Canonical published-artifact override
 
 For historical publication identity, the Commissioner-designated artifact is authoritative over filenames inferred from prior production runs.
