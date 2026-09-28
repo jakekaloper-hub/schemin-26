@@ -2,99 +2,132 @@
 
 **Document class:** review  
 **Authority / owner:** The Librarian; final verdict by The Closer  
-**Version:** 0.1 baseline  
-**Status:** IN PROGRESS  
+**Version:** 0.2 remediation checkpoint  
+**Status:** IN PROGRESS — REMEDIATION PR PREPARATION  
 **Created:** 2026-09-27  
-**Review trigger:** after each substantive remediation sprint  
+**Review trigger:** merge/post-merge verification or material new finding  
 **Baseline branch:** `main`
 
-## Executive baseline
+## Executive checkpoint
 
-The sweep is being executed under the Master GitHub Repository Integrity, Sync & Provenance mandate, adapted to Schemin '26's actual single-project-repository architecture.
+The repository is materially healthier and the single-repository operating model is now explicit. The sweep converted repository ownership, canonical artifacts, CI evidence, drift-prevention procedures, and unresolved risks into durable GitHub state.
 
-### Repository
+The project is not yet eligible for a final PASS because the default branch still needs the ESPN persistence repair merged/proven, repository visibility requires a deliberate disposition, and several non-blocking durability/governance items remain open.
 
-- repository: `jakekaloper-hub/schemin-26`
-- canonical role: Schemin '26 durable operating repository
-- default branch: `main`
-- baseline HEAD: `49194258ef60c3d467d6f1cdf9926c1a4cc84cc5`
-- baseline commit: `Correct Week 3 TDS derived continuity under V5.3/V5.4`
+## Baseline
+
+- canonical repository: `jakekaloper-hub/schemin-26`
+- baseline main SHA: `49194258ef60c3d467d6f1cdf9926c1a4cc84cc5`
 - baseline visibility: **public**
-- branch protection on `main`: **disabled**
+- baseline main protection: **disabled**
 - local workspace state: `NOT_ATTESTABLE_FROM_CURRENT_RUNTIME`
+- recursive tree at sweep branch checkpoint: **440 files / 138 directories**
+- Markdown: 387; JSON: 26; Python: 10; JavaScript: 11; YAML: 5
 
-### Core structure observed
+## Repository authority
 
-Durable domains present at baseline include:
-- `canon/`
-- `data-gateway/`
-- `memo-os/`
-- `memo-os/week-3/`
-- `living-novel/`
-- `chronicles/`
-- `mercer/`
-- `bullpen/`
-- `bullpen-runtime/`
-- `docs/`
-- `planning/`
+Confirmed:
+- `schemin-26` is the canonical durable project repository.
+- `fantasy-league-artworks` is the only other GitHub repo explicitly referenced in the current tree and remains an upstream reusable platform, not an alternate project home.
+- Schemin-specific Bullpen evidence/runtime lives in this repository.
+- External tools/providers supply capabilities/evidence; they do not become project truth by recency.
 
-### Workflows observed
+Durable controls added:
+- `docs/governance/REPOSITORY_INTEGRITY_SWEEP_CONTROL_V1.md`
+- `docs/governance/CROSS_REPO_SOURCE_OF_TRUTH_MATRIX.md`
+- `docs/governance/CANONICAL_ARTIFACT_REGISTER.md`
+- `docs/architecture/REPOSITORY_DEPENDENCY_MAP.md`
+- `docs/ops/REPOSITORY_SYNCHRONIZATION_PLAYBOOK.md`
+- `planning/repository_state_manifest_2026-09-27.json`
 
-1. `bullpen-runtime-ci.yml` — push / pull request / manual; Node 22; `npm test`
-2. `espn-cold-standby.yml` — manual + every 30 minutes; Python 3.12; refreshes validated ESPN snapshot and commits changed snapshot
-3. `novel-os-ci.yml` — path-filtered push / PR / manual; Python 3.12 compile + unittest suite
-4. `novel-os-zerogpu-smoke.yml` — path-filtered push / manual external-render smoke
+## Production continuity
 
-The baseline HEAD has no GitHub combined-status contexts attached. This is not itself proof of CI failure because several workflows are path-filtered and GitHub Actions checks may be represented separately.
+Week 3 is not chat-only. `memo-os/week-3/` contains committed evidence, continuity, historical, lineup, Monday exposure/close, character/reference, composition, mobile, Fact Lock, and QA records.
 
-### Open PR state observed
+Memo OS control drift was repaired:
+- subsystem index already identified V5.4 as controlling hardening and V5.3 as binding character/reference enforcement;
+- top-level `PROJECT_CONTROL_REGISTRY.md` and `README.md` were updated on the sweep branch to match that reality.
 
-Five open draft PRs were found:
-- #9 Novel OS: Flaim CI certification
-- #8 Novel OS Flaim certification v2
-- #7 Novel OS Flaim certification
-- #6 Commissioner Bot foundation
-- #4 Digital Universe: Week 2 R&D foundation
+## CI and test evidence
 
-PRs #7–#9 appear to represent successive certification attempts and require reconciliation so obsolete certification branches do not remain ambiguously active.
+See `planning/REPOSITORY_SWEEP_CI_EVIDENCE_2026-09-27.md`.
 
-### Week 3 continuity
+Observed:
+- Bullpen Runtime CI — green on baseline main and sweep commits.
+- Novel OS CI — multiple recent green main runs.
+- Novel OS ZeroGPU Smoke — successful real smoke run at tested commit.
+- Data Gateway CI — added during sweep; first run PASS.
 
-`memo-os/week-3/` is populated with durable evidence, continuity, character-packet, environment, data, Fact Lock, Monday exposure/close, composition, mobile, historical and QA artifacts. Recent main commits are actively updating Week 3 pre-Fact-Lock continuity.
+## Critical Data Gateway defect and repair
 
-This materially reduces the risk that current Week 3 state exists only in chat.
+### Finding
 
-## Findings opened at baseline
+The scheduled ESPN workflow successfully fetched and validated league 1417621, but default-branch `data/snapshots/1417621/latest.json` was absent.
 
-| ID | Sev | Finding | Status |
-|---|---|---|---|
-| RIS-001 | P1 | Repository is public while governance anticipates private Mercer/sensitive project material | OPEN — tracked by issue #10 |
-| RIS-002 | P2 | `main` has no branch protection | OPEN |
-| RIS-003 | P2 | Three overlapping Novel OS/Flaim certification draft PRs are open | OPEN |
-| RIS-004 | P2 | Current HEAD has no combined-status contexts; CI coverage needs workflow-run evidence by subsystem | INVESTIGATING |
-| RIS-005 | P2 | Local developer workspace cleanliness cannot be attested through GitHub-only runtime | EVIDENCE LIMITATION |
-| RIS-006 | P2 | Referenced original V5.1 data-hardening patch remains unretrieved | OPEN / preserved in migration ledger |
+The commit step checked:
 
-## Positive controls already present
+`git diff --quiet -- data/snapshots/1417621`
 
-- `README.md` explicitly defines `schemin-26` as canonical.
-- FLA is explicitly upstream/reusable rather than league truth.
-- `PROJECT_CONTROL_REGISTRY.md` provides subsystem navigation.
-- `SOURCE_OF_TRUTH.md` defines evidence precedence.
-- `DOC_STANDARD.md` defines durable-document metadata and closure discipline.
-- Week 3 has a committed production evidence structure.
-- CI exists for Bullpen Runtime and Novel OS.
-- ESPN snapshot automation exists with a dedicated league ID and concurrency group.
+before staging. Git diff ignores untracked files, so a first/new snapshot directory could cause a clean exit even though validated snapshot files had just been written.
 
-## Next remediation sprint
+The writer also omitted required `snapshot_age_seconds` metadata from the documented freshness contract.
 
-1. inventory current branch/PR relationships and classify PRs #7–#9;
-2. inspect recent workflow-run outcomes by workflow;
-3. validate Bullpen Runtime package/test contract;
-4. validate Novel OS deterministic suite inventory;
-5. inspect ESPN snapshot freshness and scheduled-run health;
-6. scan repository references for missing/renamed canonical paths;
-7. update the unresolved register as findings close;
-8. issue Closer checkpoint after evidence-backed repairs.
+### Repair
 
-No destructive cleanup is authorized merely to improve appearance.
+Sweep branch changes:
+- stage the snapshot directory first;
+- gate on `git diff --cached --quiet`;
+- emit `snapshot_age_seconds: 0` at fresh acquisition;
+- refactor writer into testable functions without changing the acquisition contract;
+- add atomic-write/freshness/workflow-order regression tests;
+- add dedicated `Data Gateway CI`.
+
+Data Gateway CI run 1 / id `36373200079` passed compile and all contract tests.
+
+### Remaining proof
+
+One post-merge scheduled/manual ESPN run must persist the snapshot on the default branch before RIS-009 can close.
+
+## PR hygiene
+
+Closed as superseded/satisfied, without merge:
+- PR #7 — certification attempt with failed Novel OS CI
+- PR #8 — later successful certification attempt, superseded
+- PR #9 — successful certification trigger whose purpose is now satisfied by later main CI history
+
+Preserved open:
+- PR #4 Digital Universe R&D — substantive
+- PR #6 Commissioner Bot foundation — substantive
+
+## Security and visibility
+
+No obvious committed secrets were found in targeted searches for common credential patterns. This was not a full-history secret-scanner certification.
+
+GitHub reports the repository as public while project governance anticipates private Mercer/sensitive material. Issue #10 tracks the required disposition. No repository-visibility mutation was made autonomously.
+
+## Path / artifact integrity
+
+A targeted audit of high-value indexes/control documents against the recursive tree found two missing referenced artifacts:
+
+1. `SCHEMIN_26_WEEKLY_MEMO_OS_V5_1_DATA_HARDENING_PATCH.md` — already known and intentionally not fabricated.
+2. `Week 2 memo.pdf` — Commissioner-designated official publication is referenced but absent from the GitHub tree.
+
+A Library recovery search found similarly named later/test PDFs, but governance explicitly prohibits substituting those for the official published edition. Issue #5 now records the recovery gap.
+
+## Open material risks
+
+P1:
+- RIS-001 — public/private-material boundary.
+- RIS-009 — ESPN durable snapshot repair requires merge + runtime proof.
+
+P2:
+- RIS-002 — branch protection/ruleset design, tracked by Issue #11.
+- RIS-005 — local workspace state not attestable here.
+- RIS-006 — original V5.1 patch unrecovered.
+- RIS-010 — exact official Week 2 PDF absent.
+
+## Closer checkpoint
+
+**CONDITIONAL PASS — REMEDIATION BRANCH READY FOR REVIEW, NOT FINAL SWEEP CLOSURE.**
+
+The repository has a coherent canonical-home model, current production state is durably represented, stale certification PRs are reconciled, CI evidence is materially stronger, a real Data Gateway durability defect has been repaired and regression-tested, and control-document drift has been corrected. Final closure remains gated by merge/post-merge ESPN persistence proof and the explicit visibility decision; branch protection, local-workspace attestation, V5.1 source recovery, and the official Week 2 PDF are tracked non-destructive follow-ups.
