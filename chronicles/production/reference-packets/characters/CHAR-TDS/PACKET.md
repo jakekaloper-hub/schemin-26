@@ -3,7 +3,7 @@
 **Canonical character:** The Podium Shadow
 **Beats:** B017-B018, B040-B044, B048
 **Semantic authority:** canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md
-**Visual authority required:** Jake-approved twelve-owner master lineup/reference plate + stronger owner reference where available.
+**Visual authority required:** `../../../../canon/SCHEMIN_26_MASTER_VISUAL_CANON_REFERENCE_LOCK_V1.md` + exact Commissioner-approved 12-owner plate + stronger owner reference only when non-conflicting.
 **Prologue state:** after 2026 draft, before Week 1 results.
 **Identity lock:** reptilian humanoid; green-gold scales; green eyes; long dreadlocks; dark #3 gear
 **Forbidden mutations:** Dreadlocks intact in Prologue; never three ordinary snakes.
