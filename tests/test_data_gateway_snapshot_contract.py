@@ -42,7 +42,7 @@ def league_fixture(roster_counts=None):
     return {
         "id": 1417621,
         "teams": teams,
-        "schedule": [],
+        "schedule": [{"matchupPeriodId": 1}],
         "settings": {
             "rosterSettings": {
                 "lineupSlotCounts": {
@@ -76,6 +76,27 @@ class DataGatewaySnapshotContractTests(unittest.TestCase):
         gateway = load_gateway()
         fixture = league_fixture([20] + [17] * 11)
         with self.assertRaisesRegex(ValueError, "exceeds configured capacity"):
+            gateway.validate(fixture)
+
+    def test_validation_rejects_empty_schedule(self):
+        gateway = load_gateway()
+        fixture = league_fixture()
+        fixture["schedule"] = []
+        with self.assertRaisesRegex(ValueError, "schedule missing or empty"):
+            gateway.validate(fixture)
+
+    def test_validation_rejects_duplicate_team_ids(self):
+        gateway = load_gateway()
+        fixture = league_fixture()
+        fixture["teams"][1]["id"] = fixture["teams"][0]["id"]
+        with self.assertRaisesRegex(ValueError, "duplicate team ids"):
+            gateway.validate(fixture)
+
+    def test_validation_rejects_empty_team_roster(self):
+        gateway = load_gateway()
+        fixture = league_fixture()
+        fixture["teams"][0]["roster"]["entries"] = []
+        with self.assertRaisesRegex(ValueError, "roster empty"):
             gateway.validate(fixture)
 
     def test_snapshot_meta_contains_required_freshness_fields(self):
