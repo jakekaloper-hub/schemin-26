@@ -11,7 +11,8 @@
 |TDS|**TDS_POST_HAIRCUT_v1**|#3 identity; canonical reptilian equipment|Week 2 Arsenal barbershop is haircut origin|hair remains post-haircut until explicit later event; no magical regrowth|
 |Chili Outlaw|canonical|chili objects; **Dark Horse**|delivery motif established Week 2|Week 3 Sonic chili dog becomes new story object; do not duplicate old confrontation|
 |El Niño|canonical elemental|storm/water/lightning materiality|Week 2 Storm Bowl/service-counter weather-water language|weather intensity may evolve|
-|Belt Keeper|canonical|rune sword; championship belt|championship architecture; Week 2 Storm Bowl prior lore|damage/emotion allowed; identity survives renames|
+|Belt Keeper|canonical|rune sword; championship belt|championship architecture; Week 2 Storm Bowl prior lore|identity remains physically unchanged; Week 3 campaign may gain symbolic loss marker for Achane; identity survives renames|
+|HMB roster / De'Von Achane keeper asset|entering W3: HMB keeper, Round-15 cost, starting RB|campaign/roster symbol only|HMB championship campaign|during W3: season-ending loss verified; continuity-out: HMB campaign proceeds without this keeper asset; do not silently restore in later Memo lore|
 |Mud Dogs|canonical swamp canine|chain|swamp is persistent territory; Week 2 ObiWan humiliation lore|use a different sub-location/border for DK matchup|
 |Dr. Duckhook|canonical white duck golfer|clubs/golf equipment|Country Club of Jackson established Week 2|Week 3 Chili incursion may alter scene; club geography persists|
 |Seven Deadly Chins|canonical|hammer; 40-ounce; raccoon|Week 2 LLC corporate intrusion prior lore|damage/emotion allowed|
