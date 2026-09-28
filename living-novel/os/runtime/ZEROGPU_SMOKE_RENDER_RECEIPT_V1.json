@@ -1,0 +1,19 @@
+{
+  "schema": "NovelOSRenderReceipt/v1",
+  "job_id": "NOVEL-OS-ZEROGPU-SMOKE-V1",
+  "beat_id": null,
+  "engine": "FLUX.1-Kontext-dev",
+  "provider": "Hugging Face ZeroGPU",
+  "transport": "GradioClientZeroGPU",
+  "space": "black-forest-labs/FLUX.1-Kontext-Dev",
+  "seed": 424242,
+  "generation_parameters": {"guidance_scale": 2.5, "steps": 8},
+  "execution_timestamp": "2026-09-28T02:54:34.485572+00:00",
+  "workflow_run_id": 36371595027,
+  "workflow_artifact_id": 10948319911,
+  "artifact_archive_sha256": "921c7bedaf637e5707fd31cad25ca4e846338ed62d944e46bd01c2af15a5a801",
+  "output_sha256": "369d5e1e016266e01b2e075757abffc2f13c4951abd5d2624243a09af593ceb7",
+  "status": "RENDERED_UNAPPROVED",
+  "qa_state": "SMOKE_TEST_PASS",
+  "purpose": "non-canon external GPU smoke test"
+}
