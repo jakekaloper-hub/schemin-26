@@ -29,6 +29,7 @@ Primary: vast dark champion's hall overlooking heat-scarred plains; belt chamber
 Alternate: open-air proving ground outside the hall.  
 Texas influence: heat, distance, horizon, scale—not cowboy costume.  
 Prohibit: Western parody.
+Keeper-loss extension: preserve the Hall and Pilgrimage. Foreground carries HMB–7DC's immediate confrontation; deeper architecture may carry verified campaign-loss symbolism for De'Von Achane (extinguished standard, vacant formation position, darkened roster sigil, abandoned campaign token, messenger from another front). Do not physically injure/redesign the Belt Keeper and do not depict an NFL player's medical injury literally.
 
 ## El Niño–LLC: The Citadel in the Storm
 Primary: monumental mercantile/corporate citadel of ledgers, vault doors, trading halls and glass/stone geometry under advancing elemental weather.  
