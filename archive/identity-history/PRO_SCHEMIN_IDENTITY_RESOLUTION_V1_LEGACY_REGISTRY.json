@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0",
+  "league_id": "1417621",
+  "season": 2026,
+  "governing_rule": "OWNER -> CANONICAL CHARACTER -> CURRENT VERIFIED TEAM NAME. Team rename never mutates character identity.",
+  "records": [
+    {
+      "team_id": 1,
+      "current_team": "ObiWan Jacoby",
+      "owner": "Jake Kaloper",
+      "character": "The Trade Jedi",
+      "aliases": [
+        "Obi-Wan Jacoby",
+        "Benedict Kenobi"
+      ],
+      "invariants": [
+        "NO CHAMPIONSHIP BELT"
+      ]
+    },
+    {
+      "team_id": 2,
+      "current_team": "Red Leopards",
+      "owner": "Kevin Zeek",
+      "character": "The Predator Board",
+      "aliases": [
+        "Red Leopards"
+      ]
+    },
+    {
+      "team_id": 3,
+      "current_team": "Slob on my Dobb",
+      "owner": "Jordan Hollingshead",
+      "character": "Win Ugly",
+      "aliases": [
+        "Slob on my Dobb"
+      ]
+    },
+    {
+      "team_id": 4,
+      "current_team": "The LLC",
+      "owner": "David Babb",
+      "character": "Hostile Takeover",
+      "aliases": [
+        "The LLC"
+      ]
+    },
+    {
+      "team_id": 5,
+      "current_team": "Donkey Kong",
+      "owner": "Wilson Look",
+      "character": "The Philosopher-Warrior",
+      "aliases": [
+        "Looks Don’t Lose",
+        "Baker Moore Purdy",
+        "D0nkey K0ng",
+        "Donkey Kong"
+      ],
+      "invariants": [
+        "Never gorilla or ape",
+        "Arsenal Centaur body form"
+      ]
+    },
+    {
+      "team_id": 6,
+      "current_team": "Three Dreaded Snake",
+      "owner": "Phillip Pitts",
+      "character": "The Podium Shadow",
+      "aliases": [
+        "Two Dreaded Snake",
+        "Three Dreaded Snake"
+      ]
+    },
+    {
+      "team_id": 7,
+      "current_team": "The Chili Cheesers",
+      "owner": "Brandon Pryor",
+      "character": "The Chili Outlaw",
+      "aliases": [
+        "The Chili Cheesers"
+      ],
+      "invariants": [
+        "Companion: The Dark Horse"
+      ]
+    },
+    {
+      "team_id": 8,
+      "current_team": "His Majesty's Blood",
+      "owner": "Austin Byars",
+      "character": "The Belt Keeper",
+      "aliases": [
+        "The King",
+        "The Immortal",
+        "That's Fantasy",
+        "His Majesty's Blood"
+      ],
+      "invariants": [
+        "Never redefine as king/crowned character"
+      ]
+    },
+    {
+      "team_id": 9,
+      "current_team": "El Niño",
+      "owner": "Manning Welty",
+      "character": "The Weather System",
+      "aliases": [
+        "El Niño"
+      ]
+    },
+    {
+      "team_id": 10,
+      "current_team": "Mud Dogs",
+      "owner": "Bobby Mitchell",
+      "character": "Swamp-Born Menace",
+      "aliases": [
+        "Mud Dogs"
+      ]
+    },
+    {
+      "team_id": 11,
+      "current_team": "Seven Deadly Chins",
+      "owner": "Ben Whipple",
+      "character": "The People's Champ",
+      "aliases": [
+        "Seven Deadly Chins"
+      ]
+    },
+    {
+      "team_id": 12,
+      "current_team": "Dr. Duckhook",
+      "owner": "Zach Wilson",
+      "character": "King of the Impossible Lie",
+      "aliases": [
+        "Dr. Duckhook"
+      ]
+    }
+  ],
+  "provenance": [
+    "Flaim ESPN 1417621 2026 league_info",
+    "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+    "uploaded continuation directive for explicitly stated historical aliases"
+  ],
+  "warning": "Do not project current ownership backward onto older team IDs unless owner continuity is independently verified.",
+  "visual_canon_lock": "canon/SCHEMIN_26_MASTER_VISUAL_CANON_REFERENCE_LOCK_V1.md",
+  "_archive_status": "ARCHIVE_ONLY",
+  "_archived_on": "2026-09-28",
+  "_original_path": "living-novel/os/adapters/flaim/registries/PRO_SCHEMIN_IDENTITY_RESOLUTION_V1.json",
+  "_reason": "Duplicate identity registry. Canonical current registry is living-novel/os/adapters/flaim/PRO_SCHEMIN_IDENTITY_RESOLUTION_V1.json. Retained only for historical alias provenance."
+}
