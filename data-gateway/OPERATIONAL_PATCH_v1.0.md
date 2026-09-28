@@ -4,13 +4,16 @@ Purpose: make ESPN league **1417621** ingestion resilient enough that Jack Merce
 
 ## Runtime policy
 
+Current executable policy:
+
 1. Fetch the current ESPN Fantasy read host: `lm-api-reads.fantasy.espn.com`.
-2. Retry only transient/network failures with bounded exponential backoff.
-3. Validate the payload against league contracts before it becomes canonical.
-4. Persist every accepted payload as a last-known-good snapshot using atomic writes.
-5. If direct ESPN fails, try configured mirrors (`SCHEMIN_ESPN_MIRRORS`).
-6. If all network paths fail, return the last-known-good snapshot with `stale=true`, `failure_reason`, `snapshot_age_seconds`, and the last fetch timestamp.
-7. Never label cached data as live.
+2. Retry failures with bounded exponential backoff.
+3. Validate the payload against league contracts before promotion.
+4. Persist accepted state atomically to the dedicated Git ref `data/live`.
+5. If direct ESPN fails, preserve the last-known-good payload, promote its metadata to `stale=true` with `failure_reason` and recomputed age, persist that degraded state to `data/live`, and leave the scheduled workflow red.
+6. Never label cached data as live.
+
+Mirror/edge routing is an approved architectural extension point but is **not part of the current executable runtime**.
 
 ## League contracts
 
@@ -34,6 +37,16 @@ No external Python dependencies are required by the current cold-standby impleme
 python -m py_compile data-gateway/refresh_espn_snapshot.py data-gateway/check_snapshot_health.py
 python -m unittest -v tests/test_data_gateway_snapshot_contract.py
 python data-gateway/refresh_espn_snapshot.py
+python data-gateway/check_snapshot_health.py
+```
+
+To inspect the durable snapshot from a local/code checkout without switching branches:
+
+```bash
+git fetch origin refs/heads/data/live:refs/heads/data/live
+mkdir -p data/snapshots/1417621
+git show data/live:data/snapshots/1417621/latest.json > data/snapshots/1417621/latest.json
+git show data/live:data/snapshots/1417621/manifest.json > data/snapshots/1417621/manifest.json
 python data-gateway/check_snapshot_health.py
 ```
 
