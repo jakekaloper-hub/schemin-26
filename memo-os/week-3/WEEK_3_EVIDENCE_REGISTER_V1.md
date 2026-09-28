@@ -18,6 +18,7 @@ Flaim structured ESPN → ESPN canonical → validated Schemin Data Gateway → 
 | E-008 | Week 3 Production Bible | Memo OS | CONTROL | preproduction |
 | E-009 | External Production Advisory Pass | Memo OS | PROCESS | production method |
 | E-010 | War Room Master Prompt | Memo OS | EXECUTION AUTHORITY | current work order |
+| E-011 | HMB keeper-loss: De'Von Achane is verified HMB keeper (Round 15), Week 3 starter; injured Sunday; ESPN/NFL report torn ACL and out for 2026 season | Flaim/ESPN league + ESPN/NFL reporting | VERIFIED EVENT; matchup remains PRE_FACT | roster/keeper/season-arc context; no unsupported matchup causality |
 
 ## Live Capture B
 All six remain provider-state UNDECIDED.
