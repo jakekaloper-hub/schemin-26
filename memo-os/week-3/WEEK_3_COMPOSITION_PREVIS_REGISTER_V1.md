@@ -26,6 +26,7 @@ C Aftermath: long mountain path behind them communicates accumulated effort. Cam
 A Dominant: belt hall/causeway hierarchy establishes possession versus pursuit. Camera: low reveal.  
 B Reversal: challenger reaches inner threshold; belt remains visible but unresolved. Camera: confront.  
 C Aftermath: vast hall and long road dwarf both figures. Camera: witness.
+Persistent HMB dependency: every A/B/C branch must account for verified season-ending loss of Round-15 keeper De'Von Achane without implying it caused the matchup result. Optional aftermath page: foreground resolves the HMB–7DC battle; background reveals a newly extinguished campaign standard / empty formation position representing the lost keeper asset. Page question: **What did Week 3 cost His Majesty's Blood beyond the final score?** Inclusion remains story-earned after Fact Lock.
 
 ## El Niño–LLC
 A Dominant: either rigid citadel withstands storm or storm breaches geometry; final fact chooses direction. Camera: overwhelm.  
