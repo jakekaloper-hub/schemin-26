@@ -1,19 +1,11 @@
 # ENV-ARCHIVE — REFERENCE PACKET V1
-**State:** DRAFT → ready for reference resolution
-**Authority:** Prologue V4 manuscript + Art Direction Bible
-## Manuscript anchors
-“Before this book, there were other books.” through “And the first thing the lamplight found was metal.”
-## Establishing description
-A long-lived working archive assembled through survival rather than grandeur: damaged shelves, drawers with inherited keys, cracked bindings, boxes, receipts, loose pages, photographs without dates, red thread corrections, brass tabs, a locked cabinet and an empty work table prepared for the 2026 ledger.
-## Material grammar
-Soft worn leather, swollen/dried book spines, browned ink, damaged paper, string, brass tabs, wood shelving, cloth, lamp metal/glass. Nothing should read as pristine fantasy-library spectacle.
-## Light
-Motivated warm clerk's lamp against deep archival shadow. The light discovers evidence selectively rather than theatrically illuminating everything.
-## Scale / composition
-Human working scale with long aisle depth. Foreground evidence, midground table/ledger, background shelves/cabinet. Negative space around the clean ledger should signal unwritten future.
-## Recurring landmarks
-Long aisle; damaged shelves; empty table; locked cabinet; correction materials.
-## Forbidden inventions
-No magical floating books, glowing runes, cathedral-scale library, ornate royal archive, readable invented historical text, or post-Week-0 evidence.
-## Continuity
-Temporal lock: after 2026 draft, before Week 1 results. Environment may contain older evidence only.
+**State:** QA_PASS — source-defined environment; no external visual reference required for environment-only production
+**Authority:** Prologue V4 + Art Direction Bible + Beat Map
+**Beats:** B002-B004, B050, B052-B055, B059.
+**Anchors:** “Before this book, there were other books.” → “And the first thing the lamplight found was metal.”
+**Geography:** institutional Archive connected to Schemin by roads/notices; exact borders, adjacency and distances UNKNOWN.
+**Architecture:** long practical overfilled working archive; damaged shelving, inherited-key drawers, cabinets, empty work table. **Materials:** worn leather, damaged paper, browned ink, string, red thread, brass tabs, dark timber, cloth, lamp metal/glass. **Climate:** interior; external climate UNKNOWN. **Light:** warm motivated clerk-lamp pools against deep neutral shadow. **Atmosphere/scale:** old, repaired, consequential; human working scale with deep aisle perspective.
+**F/M/B:** evidence foreground; table/ledger midground; shelves/locked cabinet background. **Landmarks:** long aisle, damaged shelves, empty table, locked cabinet, correction materials.
+**Allowed variation:** ordinary shelf/repair/storage detail consistent with materials. **Unknowns:** full floor plan, city/territory, route lengths. **Forbidden:** magical floating books, glow/runes, cathedral luxury, readable invented lore, fake maps, post-Week-0 evidence.
+**Continuity/drift:** perfect surfaces exceptional; 2026 ledger remains pristine; older evidence may be damaged. **Approved refs:** manuscript/Art Bible only. **Rejected refs:** generic enchanted-library/Hogwarts shorthand.
+**QA:** Canon PASS · Temporal PASS · Environment PASS · Text-integrity PASS · Geography PASS (unknowns preserved).
