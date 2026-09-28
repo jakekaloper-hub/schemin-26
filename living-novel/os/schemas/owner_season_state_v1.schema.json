@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "novel-owner-season-state-v1",
+  "title": "Novel OS Owner Season State",
+  "type": "object",
+  "required": ["owner_id","team_identity","character_identity","snapshot","book_time","facts","provenance"],
+  "properties": {
+    "owner_id":{"type":"string"},
+    "team_identity":{"type":"object","required":["current_name"],"properties":{"current_name":{"type":"string"},"aliases":{"type":"array","items":{"type":"string"}}}},
+    "character_identity":{"type":"string"},
+    "snapshot":{"enum":["PRESEASON","POST_W1","POST_W2","W3_OPENING"]},
+    "book_time":{"type":"string"},
+    "facts":{"type":"array","items":{"type":"object","required":["fact_id","fact","causal_classification","prose_visibility","resolution_status"],"properties":{
+      "fact_id":{"type":"string"},"fact":{"type":"string"},
+      "became_true_at":{"type":["string","null"]},"knowable_at":{"type":["string","null"]},"last_verified_at":{"type":["string","null"]},
+      "causal_classification":{"enum":["FACTUAL_SEQUENCE","SUPPORTED_CAUSATION","INTERPRETATION","UNKNOWN"]},
+      "narrative_significance":{"enum":["NOISE","TEXTURE","MEANINGFUL","MAJOR","CHAPTER_SHAPING","SEASON_DEFINING","HISTORICAL","UNKNOWN"]},
+      "prose_visibility":{"enum":["ON_PAGE","OFF_PAGE_ACTIVE","RESERVED_FOR_PAYOFF","RESOLVED","SUPERSEDED"]},
+      "resolution_status":{"enum":["ACTIVE","RESOLVED","SUPERSEDED","UNKNOWN"]},
+      "state_change_reason":{"type":["string","null"]},
+      "retroactive_use_prohibited":{"type":"boolean"}
+    }}},
+    "unresolved_decisions":{"type":"array","items":{"type":"string"}},
+    "unresolved_consequences":{"type":"array","items":{"type":"string"}},
+    "persistent_story_objects":{"type":"array","items":{"type":"string"}},
+    "story_promises":{"type":"array","items":{"type":"string"}},
+    "provenance":{"type":"array","items":{"type":"string"}}
+  }
+}
