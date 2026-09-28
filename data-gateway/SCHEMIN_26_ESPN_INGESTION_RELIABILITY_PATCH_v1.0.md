@@ -14,13 +14,13 @@ This is **not** a league-ID/parser failure. It is an execution-surface transport
 Owns endpoint construction, timeouts, retries, rate limiting, primary/mirror routing, and response parsing.
 
 ### Contract & QA Agent
-Rejects malformed/wrong-league payloads before promotion. Current hard contracts: league 1417621, season 2026, 12 teams, 17 roster entries/team, core schedule/settings/status objects.
+Rejects malformed/wrong-league payloads before promotion. Current hard contracts: league 1417621, season 2026, 12 teams, core schedule/settings/status objects, roster settings present, team roster entries present, and no roster exceeding the capacity derived from the live league settings. Exact current roster-entry counts are not hard-coded because reserve/IR occupancy is dynamic.
 
 ### Snapshot Custodian
 Atomically persists only validated payloads, maintains `latest.json` and provenance metadata, and never lets a failed refresh overwrite last-known-good state.
 
 ### Freshness Sentinel
-Computes snapshot age and degradation state. It prevents Mercer/Memo OS from calling cached data “live.”
+Computes snapshot age and degradation state from `fetched_at` at read time. Persisted age is only a receipt; the current effective age must never be assumed to remain zero. It prevents Mercer/Memo OS from calling cached data “live.”
 
 ### Recovery Agent
 Routes direct ESPN → edge mirror → GitHub cold standby → local last-good snapshot. Escalates only when no validated snapshot exists or freshness exceeds the consuming workflow's SLO.
