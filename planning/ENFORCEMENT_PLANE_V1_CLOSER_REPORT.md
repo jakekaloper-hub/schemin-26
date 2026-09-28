@@ -75,7 +75,7 @@ After PR #12 is reconciled, Bullpen must:
 1. rerun DATA-001;
 2. run Data Gateway contract CI;
 3. prove data/live persistence and freshness semantics;
-4. resolve repository-visibility/privacy gate;
+4. verify the persisted public payload contains no credentials/private-only material;
 5. promote DATA-001 to BLOCK/MERGE only if evidence supports it.
 
 ## External blockers not hidden by this PASS
@@ -107,10 +107,10 @@ DATA-001 remained a visible WARN/AUDIT dependency and did not masquerade as cert
 
 External dependencies remain explicit:
 - PR #12 Data Gateway integration/certification;
-- repository visibility;
+- repository visibility is **RESOLVED**: Commissioner approved public repository architecture; public visibility is not itself a blocker;
 - branch-protection admin application;
 - exact visual-canon PNG materialization;
-- official Week 2 PDF recovery;
+- official Week 2 source recovery is **RESOLVED**; exact Project-source `Week 2 memo.pdf` is canonical, while raw-byte GitHub import remains a transport task;
 - original V5.1 source recovery.
 
 None of those are silently treated as closed.
