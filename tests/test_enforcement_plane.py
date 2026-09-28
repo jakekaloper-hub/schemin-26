@@ -61,6 +61,26 @@ class EnforcementKernelTests(unittest.TestCase):
             errors=mod.validate_authority_uniqueness(root,self.registry)
             self.assertTrue(any("retired active path resurrected" in e for e in errors))
 
+
+    def test_temporal_validator_passes_repo(self):
+        self.assertEqual(mod.validate_temporal_state(ROOT,self.registry),[])
+
+    def test_temporal_validator_rejects_unsuperseded_v1(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=Path(td)
+            (root/"docs/governance").mkdir(parents=True)
+            (root/"docs/governance/SUBSYSTEM_TEMPORAL_LINEAGE_CONTRACT_V1.md").write_text("ACTIVE")
+            p=root/"chronicles/proof-of-concept/prologue"
+            p.mkdir(parents=True)
+            (p/"PROLOGUE_MANUSCRIPT_V1.md").write_text("old")
+            (p/"PROLOGUE_MANUSCRIPT_V2_AUDITED.md").write_text("SUPERSEDED HISTORICAL MANUSCRIPT\nDO NOT USE AS CURRENT PRODUCTION PARENT")
+            (p/"PROLOGUE_MANUSCRIPT_V3_REBUILD.md").write_text("SUPERSEDED HISTORICAL MANUSCRIPT\nDO NOT USE AS CURRENT PRODUCTION PARENT")
+            (p/"PROLOGUE_MANUSCRIPT_V4_CONSULTANT_REVISION.md").write_text("CURRENT PRODUCTION PARENT\ncurrent production parent does not mean final published manuscript")
+            (root/"mercer").mkdir()
+            (root/"mercer/OPERATING_CONTRACT.md").write_text("Historical recommendations are decision-journal evidence, not standing instructions\ncurrent-state evidence is freshly resolved through the Data Gateway / controlling ledger")
+            errors=mod.validate_temporal_state(root,self.registry)
+            self.assertTrue(any("V1" in e or "PROLOGUE_MANUSCRIPT_V1" in e for e in errors))
+
     def test_merge_kernel_runs(self):
         self.assertTrue(mod.run(ROOT,"MERGE"))
 
