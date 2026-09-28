@@ -1,0 +1,3 @@
+# OBJ-GREEN-BLADE — REFERENCE PACKET V1
+**State:** DRAFT / EVIDENCE-RESOLVED; character visual ref not loaded. **Beats:** B014-B016.
+**Authority:** V4 §V; Master Canon. **Physical:** Trade Jedi's green energy blade beside leather case; explicitly unlit during morning restraint beat. **Literary:** capacity for action deliberately unused. **Visual:** restraint motif. **Forbidden:** championship Belt, lit combat pose, franchise-specific copied weapon design.
