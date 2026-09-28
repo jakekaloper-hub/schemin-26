@@ -17,11 +17,14 @@ Purpose: make ESPN league **1417621** ingestion resilient enough that Jack Merce
 - League ID: **1417621**
 - Season: **2026**
 - Teams: **12**
-- Roster slots/team: **17**
-- Expected rostered entries: **204**
 - Core objects required: `teams`, `settings`, `schedule`, `status`
+- Roster settings must expose `lineupSlotCounts`.
+- Every team must expose roster entries.
+- A team's current roster entries may not exceed the roster capacity derived from the live league settings.
 
-These are validated on every refresh. Contract failures do **not** overwrite the last-good snapshot.
+Do **not** use an exact league-wide roster-entry count as a live hard contract. Reserve/IR occupancy can legitimately make current team entry counts differ. The 2026 league currently has 17 base roster spots plus reserve capacity; validation therefore derives the ceiling from ESPN settings instead of hard-coding `17 × 12 = 204`.
+
+These contracts are validated on every refresh. Contract failures do **not** replace the last-good data payload.
 
 ## Local setup
 
@@ -52,13 +55,16 @@ Recommended order:
 
 ## Freshness policy
 
-Consumers must inspect `meta.stale` and `meta.snapshot_age_seconds`.
+Consumers must inspect `meta.stale`, `meta.fetched_at`, and `meta.snapshot_age_seconds`.
 
-- `stale=false`: current network refresh succeeded.
-- `stale=true`: usable fallback; analysis may continue, but any statement requiring current rosters/scores must disclose snapshot time.
-- Health exits non-zero once stale age exceeds `SCHEMIN_MAX_STALE_SECONDS` (default 24h).
+`snapshot_age_seconds` stored in Git is a persistence-time receipt, not a perpetual clock. **Every consumer must recompute effective age from `fetched_at` at read time** and use the greater of the stored and recomputed age.
 
-For game windows, use a much tighter operational SLO, e.g. `SCHEMIN_MAX_STALE_SECONDS=900`.
+- `stale=false`: the most recent persisted acquisition succeeded and effective age is still inside the consumer's SLO.
+- `stale=true`: usable fallback/degraded state; analysis may continue, but any statement requiring current rosters/scores must disclose snapshot time.
+- A consumer must treat a snapshot as stale once effective age exceeds its SLO even if the persisted `stale` bit has not yet been rewritten.
+- A failed scheduled refresh preserves the last-good data payload, rewrites only freshness/failure metadata, persists that degraded state, then leaves the workflow red.
+
+For game windows, use a tight operational SLO such as 900 seconds. Background workflows may use a broader SLO when appropriate.
 
 ## Cloudflare Worker
 
@@ -68,7 +74,7 @@ Create a Workers KV namespace, replace the ID in `wrangler.toml`, then deploy wi
 
 ## GitHub Actions cold standby
 
-`.github/workflows/espn-cold-standby.yml` refreshes every 30 minutes and commits only `latest.json` + `manifest.json` when state changes. This gives agents and web clients a second network surface when ESPN's hostname is inaccessible from their execution environment.
+`.github/workflows/espn-cold-standby.yml` refreshes every 30 minutes and persists `latest.json` + `manifest.json` whenever durable snapshot/freshness state changes. On acquisition failure, the last-good data remains intact while metadata is promoted to degraded/stale state before the workflow fails. This gives agents and web clients a second network surface when ESPN's hostname is inaccessible from their execution environment.
 
 ## Consumer rule for Mercer / Memo OS
 
