@@ -3,7 +3,7 @@
 **Document class:** review
 **Authority / owner:** The Closer
 **Version:** 1.0
-**Status:** FINAL-CI PENDING at creation
+**Status:** CERTIFIED CHECKPOINT — PASS WITH EXTERNAL BLOCKERS
 **Effective date:** 2026-09-28
 **Branch:** `chore/librarian-deprecation-canon-lock-2026-09-28`
 **PR:** #15
@@ -283,6 +283,18 @@ Final verdict may be issued only after:
 5. Official Week 2 published PDF remains an unresolved recovery item.
 6. Original V5.1 hardening patch remains unrecovered.
 
-## Closer posture at document creation
+## Certification evidence
 
-**CONDITIONAL PASS — fixes complete; final-head CI rerun pending.**
+Behavioral/content checkpoint SHA: `e612bac8f3c04a9e849ff96004c4c9fbcd9219a0`
+
+All required suites completed successfully on that exact head:
+- Repository Memory CI — PASS
+- Character Canon CI — PASS
+- Novel OS CI — PASS
+- Bullpen Runtime CI — PASS
+
+## Closer final verdict
+
+**PASS — 1–8 CLEANUP LOOP IMPLEMENTED, TESTED, BUG-FIXED AND POLISHED.**
+
+External/open items listed above remain real, but none invalidates the completed 1–8 repository-memory/canon cleanup tranche. They remain release/infrastructure follow-ups rather than hidden failures.
