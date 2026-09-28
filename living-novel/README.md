@@ -10,6 +10,10 @@ Persistent epic-fantasy literary universe powered by the real Pro Schemin' Footb
 - Historical league identity: The League of Thrones (early era)
 - Modern identity: Pro Schemin' Football League
 
+## Current manuscript lineage
+
+For Prologue production, `os/manifests/MANUSCRIPT_LINEAGE_MANIFEST_V1.md` governs manuscript version authority. V4 Consultant Revision is the current production parent unless explicitly superseded. Earlier manuscript versions are historical lineage, not interchangeable current sources.
+
 ## Prime pipeline
 REAL LEAGUE DATA → CANON EVENT → WORLD CONSEQUENCE → CHARACTER CONSEQUENCE → NARRATIVE
 
