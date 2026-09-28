@@ -3,7 +3,7 @@
 **Canonical character:** The Weather System
 **Beats:** B029-B030, B040-B042, B048
 **Semantic authority:** canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md
-**Visual authority required:** Jake-approved twelve-owner master lineup/reference plate + stronger owner reference where available.
+**Visual authority required:** `../../../../canon/SCHEMIN_26_MASTER_VISUAL_CANON_REFERENCE_LOCK_V1.md` + exact Commissioner-approved 12-owner plate + stronger owner reference only when non-conflicting.
 **Prologue state:** after 2026 draft, before Week 1 results.
 **Identity lock:** elemental humanoid of storm water/ocean spray/cloud/lightning; blue eyes; cyclone motifs; storm staff
 **Forbidden mutations:** No child/human/surfer/generic wizard; no anime/neon.
