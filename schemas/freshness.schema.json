@@ -1,6 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Schemin Data Freshness",
+  "description": "Freshness receipt for a persisted gateway snapshot. Consumers must recompute effective age from fetched_at at read time; snapshot_age_seconds is the age known when this envelope was last persisted, not a perpetual clock.",
   "type": "object",
   "required": [
     "stale",
@@ -10,26 +11,39 @@
   ],
   "properties": {
     "stale": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "Persisted acquisition/degradation state. Consumers must also mark data stale when recomputed age exceeds their SLO."
     },
     "fetched_at": {
       "type": [
         "string",
         "null"
-      ]
+      ],
+      "description": "UTC timestamp of the last successful validated acquisition."
+    },
+    "last_refresh_attempt_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "UTC timestamp of the latest acquisition attempt, successful or failed."
     },
     "snapshot_age_seconds": {
       "type": [
         "number",
         "null"
       ],
-      "minimum": 0
+      "minimum": 0,
+      "description": "Age recorded when the envelope was last persisted. Effective current age is recomputed from fetched_at."
     },
     "failure_reason": {
       "type": [
         "string",
         "null"
       ]
+    },
+    "validation": {
+      "type": "object"
     }
   },
   "additionalProperties": true
