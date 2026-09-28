@@ -16,4 +16,26 @@ Store superseded, deprecated, or season-complete material that remains useful fo
 
 ## Current status
 
-No files intentionally archived yet. The repository is in foundation stage.
+The archive is active.
+
+Current intentional archive groups:
+
+- `archive/legacy-canon/` — superseded character-canon material preserved for provenance only.
+- `archive/legacy-handoffs/` — obsolete Xcode/ChatGPT work orders that previously appeared active at repository root.
+- `archive/identity-history/` — duplicate/historical identity registries retained only for alias provenance.
+
+## In-place historical lineage
+
+Some historical artifacts remain at their original paths because current manifests or production records depend on stable paths. These must carry explicit historical/superseded status.
+
+Current example:
+- Prologue manuscript V1–V3 remain in `chronicles/proof-of-concept/prologue/` as **SUPERSEDED HISTORICAL MANUSCRIPT** records.
+- V4 is the current production parent per the manuscript lineage manifest, but is not automatically the final published manuscript.
+
+## Active-plane boundary
+
+Archive artifacts and in-place historical artifacts must never outrank:
+- current domain indexes;
+- current canon controls;
+- current production manifests;
+- explicit Commissioner corrections.
