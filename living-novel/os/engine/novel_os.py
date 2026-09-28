@@ -1,4 +1,4 @@
-"""Novel OS v0.3 core — dependency-light, repository-native."""
+"""Novel OS v1.0-rc core — dependency-light, repository-native."""
 from __future__ import annotations
 import json, re
 from dataclasses import dataclass, field
@@ -168,6 +168,8 @@ def run_deterministic_gate(candidate:dict)->list[Finding]:
     if "knowledge_events" in candidate: out += validate_knowledge(candidate["knowledge_events"])
     if "aliases" in candidate: out += validate_alias_identity(candidate["aliases"])
     if "visual_packet" in candidate: out += validate_visual_reference(candidate["visual_packet"])
+    if "temporal_record" in candidate: out += validate_temporal_firewall(candidate["temporal_record"])
+    if "travel_events" in candidate: out += validate_geography(candidate["travel_events"],candidate.get("geography",{}))
     return out
 
 # ---- Phase 5 literary workflow ----
@@ -200,3 +202,58 @@ def live_event_transaction(event:dict)->dict:
     return {"state":"READY","event_id":event.get("id"),"temporal_layer":"BOOK_TIME",
             "stages":[{"name":s,"state":"PENDING"} for s in LIVE_PIPELINE],
             "rule":"RESULT_DETERMINES_EVENT_WRITERS_DETERMINE_MEANING"}
+
+
+# ---- Phase 9/10 hardening ----
+def validate_temporal_firewall(record:dict)->list[Finding]:
+    lock=record.get("temporal_lock")
+    facts=record.get("facts",[])
+    out=[]
+    if lock=="AFTER_2026_DRAFT_BEFORE_WEEK_1_RESULTS":
+        for fact in facts:
+            if fact.get("season")==2026 and fact.get("week",0)>=1 and fact.get("kind") in {"RESULT","STANDING","SCORE","OUTCOME"}:
+                out.append(Finding("TEMPORAL-FUTURE-LEAK","FATAL","Week 1+ result leaked into pre-Week-1 Prologue context."))
+    return out
+
+def validate_geography(events:list[dict],graph:dict)->list[Finding]:
+    out=[]
+    for e in events:
+        if e.get("action")!="TRAVEL": continue
+        a,b=e.get("from"),e.get("to")
+        if not a or not b: continue
+        edge=graph.get(a,{}).get(b)
+        if edge is None:
+            out.append(Finding("GEO-UNKNOWN-ROUTE","IMPORTANT",f"No approved route {a} → {b}."))
+            continue
+        if e.get("elapsed_hours") is not None and edge.get("min_hours") is not None and e["elapsed_hours"]<edge["min_hours"]:
+            out.append(Finding("GEO-IMPOSSIBLE-TRAVEL","FATAL",f"{a} → {b} requires at least {edge['min_hours']}h."))
+    return out
+
+def approval_transaction(proposal:dict,findings:list[Finding],approver:str|None=None)->dict:
+    if not can_accept(findings):
+        return {"state":"BLOCKED","proposal_id":proposal.get("id"),"finding_codes":[f.code for f in findings]}
+    if not approver:
+        return {"state":"PENDING_APPROVAL","proposal_id":proposal.get("id")}
+    return {"state":"APPROVED","proposal_id":proposal.get("id"),"approver":approver,
+            "authority":proposal.get("proposed_authority","PROPOSED_CANON")}
+
+def validate_artifact_record(r:dict)->list[Finding]:
+    out=[]
+    for key in ("id","path","domain","authority","status"):
+        if not r.get(key): out.append(Finding("ARTIFACT-REQUIRED","IMPORTANT",f"Artifact missing {key}."))
+    if r.get("authority") not in AUTHORITY_RANK and r.get("authority") not in {"BINDING","PRODUCTION_AUTHORITY","BENCHMARK","HISTORICAL_BASELINE"}:
+        out.append(Finding("ARTIFACT-AUTHORITY","IMPORTANT","Unknown artifact authority class."))
+    return out
+
+def semantic_guardian_request(task:str,context_pack:dict,candidate_text:str)->dict:
+    return {"task":task,"context_pack":context_pack,"candidate_text":candidate_text,
+            "required_checks":["motive_attribution","voice_drift","theme_contradiction","world_rule_contradiction",
+                               "unsupported_specificity","future_knowledge"],
+            "state":"REQUIRES_MODEL_REVIEW","canon_mutation":False}
+
+def release_gate(checks:dict)->dict:
+    required={"regression_tests","adversarial_campaign","prologue_integration","artifact_registry",
+              "approval_gate","recovery_runbook","ci"}
+    missing=sorted(required-set(checks))
+    failed=sorted(k for k,v in checks.items() if k in required and v is not True)
+    return {"state":"PASS" if not missing and not failed else "BLOCKED","missing":missing,"failed":failed}
