@@ -1,0 +1,44 @@
+name: Character Canon CI
+on:
+  push:
+    paths:
+      - "canon/**"
+      - "living-novel/characters/**"
+      - "living-novel/history/**"
+      - "living-novel/narrative/**"
+      - "living-novel/qa/**"
+      - "living-novel/os/adapters/flaim/**"
+      - "chronicles/production/reference-packets/characters/**"
+      - "chronicles/production/CHARACTER_VISUAL_AUTHORITY_LOCK_2026-09-26.md"
+      - "memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_3_CHARACTER_REFERENCE_ENFORCEMENT_PATCH.md"
+      - "memo-os/week-3/WEEK_3_CHARACTER_PACKET_REGISTER_V1.md"
+      - "tests/test_character_canon_lock.py"
+      - ".github/workflows/character-canon-ci.yml"
+  pull_request:
+    paths:
+      - "canon/**"
+      - "living-novel/characters/**"
+      - "living-novel/history/**"
+      - "living-novel/narrative/**"
+      - "living-novel/qa/**"
+      - "living-novel/os/adapters/flaim/**"
+      - "chronicles/production/reference-packets/characters/**"
+      - "chronicles/production/CHARACTER_VISUAL_AUTHORITY_LOCK_2026-09-26.md"
+      - "memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_3_CHARACTER_REFERENCE_ENFORCEMENT_PATCH.md"
+      - "memo-os/week-3/WEEK_3_CHARACTER_PACKET_REGISTER_V1.md"
+      - "tests/test_character_canon_lock.py"
+      - ".github/workflows/character-canon-ci.yml"
+  workflow_dispatch:
+concurrency:
+  group: character-canon-ci-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  canon-lock:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run character canon lock tests
+        run: python -m unittest -v tests/test_character_canon_lock.py
