@@ -51,4 +51,33 @@ class Phase4to7Tests(unittest.TestCase):
     def test_visual_pipeline_reference_gate(self):
         self.assertTrue(visual_workflow("P-BEAT",True)["reference_gate_required"])
 
+
+
+class Phase9AdversarialTests(unittest.TestCase):
+    def test_future_week1_leak_into_prologue(self):
+        f=validate_temporal_firewall({"temporal_lock":"AFTER_2026_DRAFT_BEFORE_WEEK_1_RESULTS","facts":[{"season":2026,"week":1,"kind":"RESULT"}]})
+        self.assertFalse(can_accept(f))
+    def test_byars_crown_corruption(self):
+        self.assertFalse(can_accept(validate_character_text("His Majesty's Blood entered as a crowned king.")))
+    def test_missing_visual_master_resolution(self):
+        self.assertFalse(can_accept(validate_visual_reference({"character_bearing":True,"master_canon_resolved":False})))
+    def test_bad_manuscript_sha(self):
+        self.assertFalse(can_accept(validate_manuscript_anchor({"pinned_blob_sha":"bad","anchor_text":"x"},"real")))
+    def test_impossible_travel(self):
+        f=validate_geography([{"action":"TRAVEL","from":"A","to":"B","elapsed_hours":1}],{"A":{"B":{"min_hours":5}}})
+        self.assertFalse(can_accept(f))
+    def test_unapproved_generated_visual(self):
+        self.assertFalse(can_accept(validate_visual_reference({"character_bearing":False,"generated_reference":True,"approved_visual_canon":False})))
+    def test_approval_blocks_findings(self):
+        r=approval_transaction({"id":"x"},[Finding("X","FATAL","bad")],"Closer")
+        self.assertEqual(r["state"],"BLOCKED")
+    def test_approval_requires_approver(self):
+        r=approval_transaction({"id":"x"},[],None)
+        self.assertEqual(r["state"],"PENDING_APPROVAL")
+    def test_release_gate_requires_all(self):
+        self.assertEqual(release_gate({"regression_tests":True})["state"],"BLOCKED")
+    def test_release_gate_pass(self):
+        checks={k:True for k in ["regression_tests","adversarial_campaign","prologue_integration","artifact_registry","approval_gate","recovery_runbook","ci"]}
+        self.assertEqual(release_gate(checks)["state"],"PASS")
+
 if __name__=="__main__": unittest.main()
