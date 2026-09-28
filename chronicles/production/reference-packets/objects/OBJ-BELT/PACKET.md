@@ -1,0 +1,3 @@
+# OBJ-BELT — REFERENCE PACKET V1
+**State:** DRAFT / EVIDENCE-RESOLVED; visual ref not loaded. **Beats:** B005, B009-B010, B044.
+**Authority:** V4 §§II–III; Master Canon. **Physical:** championship Belt; metal + leather visibly used, scratched/polished unevenly; current 2025 custody Austin Byars. **History:** complete lineage explicitly NOT established by Prologue. **Literary meaning:** present custody and material memory. **Visual function:** wear communicates history without exposition. **Readable text:** no invented lineage/engraving. **Forbidden:** Jake wearing it; crown/throne equivalence; fake inscriptions.
