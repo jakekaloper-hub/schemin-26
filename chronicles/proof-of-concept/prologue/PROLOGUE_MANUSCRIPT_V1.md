@@ -1,7 +1,8 @@
 # PROLOGUE — BEFORE THIS BOOK
-## Manuscript V2 — The Twelve Before the Ledger
+## Manuscript V1 — The Twelve Before the Ledger
 
-**Status:** STORY DRAFT — BULLPEN AUDIT REQUIRED  
+**Status:** SUPERSEDED HISTORICAL MANUSCRIPT — DO NOT USE AS CURRENT PRODUCTION PARENT
+**Superseded by:** `PROLOGUE_MANUSCRIPT_V2_AUDITED.md` → later V3 → current V4 parent  
 **Temporal lock:** after the 2026 draft, before Week 1 results  
 **Purpose:** opening literary movement of *Schemin Chronicle — Volume I · 2026*
 
