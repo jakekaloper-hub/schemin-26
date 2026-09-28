@@ -1,0 +1,27 @@
+name: Data Gateway CI
+on:
+  push:
+    paths:
+      - "data-gateway/**"
+      - "tests/test_data_gateway_snapshot_contract.py"
+      - ".github/workflows/espn-cold-standby.yml"
+      - ".github/workflows/data-gateway-ci.yml"
+  pull_request:
+    paths:
+      - "data-gateway/**"
+      - "tests/test_data_gateway_snapshot_contract.py"
+      - ".github/workflows/espn-cold-standby.yml"
+      - ".github/workflows/data-gateway-ci.yml"
+  workflow_dispatch:
+jobs:
+  snapshot-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile gateway
+        run: python -m py_compile data-gateway/refresh_espn_snapshot.py
+      - name: Run snapshot contract tests
+        run: python -m unittest -v tests/test_data_gateway_snapshot_contract.py
