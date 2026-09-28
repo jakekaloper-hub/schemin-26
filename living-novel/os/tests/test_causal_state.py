@@ -1,11 +1,15 @@
-from living_novel.os.engine.causal_state import BookTime, Fact, eligible, classify_sequence
+import importlib.util
+from pathlib import Path
+
+MODULE=Path(__file__).parents[1]/"engine"/"causal_state.py"
+spec=importlib.util.spec_from_file_location("causal_state",MODULE)
+m=importlib.util.module_from_spec(spec)
+spec.loader.exec_module(m)
+BookTime,Fact,eligible,classify_sequence=m.BookTime,m.Fact,m.eligible,m.classify_sequence
 
 def test_achane_keeper_preseason_is_legal_early():
     f=Fact("HMB-ACHANE-R15",BookTime.PRESEASON,BookTime.PRESEASON)
-    assert eligible(f,BookTime.PRESEASON)
-    assert eligible(f,BookTime.W1)
-    assert eligible(f,BookTime.W2)
-    assert eligible(f,BookTime.W3)
+    assert all(eligible(f,t) for t in BookTime)
 
 def test_week3_injury_cannot_leak_backward():
     f=Fact("HMB-ACHANE-W3-INJURY",BookTime.W3,BookTime.W3)
