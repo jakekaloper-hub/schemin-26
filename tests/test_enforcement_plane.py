@@ -102,6 +102,27 @@ class EnforcementKernelTests(unittest.TestCase):
             p.write_text("private Mercer grades, valuations, recommendations are not public evidence")
             self.assertEqual(mod.validate_mercer_firewall(root,self.registry),[])
 
+
+    def test_prompt_governance_passes_repo(self):
+        self.assertEqual(mod.validate_prompt_governance(ROOT,self.registry),[])
+
+    def test_prompt_governance_rejects_retired_title(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=Path(td)
+            p=root/"foo/MASTER_PROMPT.md"
+            p.parent.mkdir(parents=True)
+            p.write_text("Use Frat-Bro Berserker as the current character.")
+            errors=mod.validate_prompt_governance(root,self.registry)
+            self.assertTrue(any("retired Slob title" in e for e in errors))
+
+    def test_prompt_governance_ignores_archive_history(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=Path(td)
+            p=root/"archive/legacy/OLD_PROMPT.md"
+            p.parent.mkdir(parents=True)
+            p.write_text("Use Frat-Bro Berserker")
+            self.assertEqual(mod.validate_prompt_governance(root,self.registry),[])
+
     def test_merge_kernel_runs(self):
         self.assertTrue(mod.run(ROOT,"MERGE"))
 
