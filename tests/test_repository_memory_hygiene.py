@@ -74,5 +74,18 @@ class RepositoryMemoryHygieneTests(unittest.TestCase):
         mercer = (ROOT / "mercer/OPERATING_CONTRACT.md").read_text()
         self.assertIn("Historical recommendations are decision-journal evidence, not standing instructions", mercer)
 
+
+    def test_public_chronicle_evidence_does_not_import_private_mercer_grades(self):
+        path = ROOT / "chronicles/proof-of-concept/prologue/PROLOGUE_PRESEASON_EVIDENCE_AND_EMOTIONAL_SPINE.md"
+        text = path.read_text()
+        forbidden = [
+            "Mercer grade",
+            "Mercer judged",
+            "A+ starting hand in Mercer audit",
+        ]
+        for phrase in forbidden:
+            self.assertNotIn(phrase, text)
+        self.assertIn("private Mercer grades, valuations, recommendations", text)
+
 if __name__ == "__main__":
     unittest.main()
