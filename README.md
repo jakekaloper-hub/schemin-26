@@ -41,7 +41,7 @@ FLA may be referenced as an upstream capability source. Schemin '26 should not s
 
 ## Core systems
 
-- `memo-os/` — V5 / V5.2-RC Weekly Memo production doctrine and gold-standard runbooks
+- `memo-os/` — V5.4 production hardening + V5.3 character enforcement over the V5 / V5.2-RC Weekly Memo stack
 - `data-gateway/` — ESPN acquisition, validation, fallback, snapshot, and freshness policy
 - `canon/` — binding team/owner/character continuity
 - `mercer/` — Jack Mercer Front Office and GM operating contract
