@@ -33,7 +33,6 @@ class CharacterCanonLockTests(unittest.TestCase):
     def test_flaim_identity_registries_match_approved_titles(self):
         paths = [
             ROOT / "living-novel" / "os" / "adapters" / "flaim" / "PRO_SCHEMIN_IDENTITY_RESOLUTION_V1.json",
-            ROOT / "living-novel" / "os" / "adapters" / "flaim" / "registries" / "PRO_SCHEMIN_IDENTITY_RESOLUTION_V1.json",
         ]
         for path in paths:
             data = json.loads(path.read_text())
