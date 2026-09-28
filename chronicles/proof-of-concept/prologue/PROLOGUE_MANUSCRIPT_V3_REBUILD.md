@@ -1,7 +1,9 @@
 # PROLOGUE — BEFORE THIS BOOK
 ## Manuscript V3 — The Twelve Before the Ledger
 
-**Status:** BULLPEN MANUSCRIPT REBUILD — CONTINUOUS LITERARY DRAFT  
+**Status:** SUPERSEDED HISTORICAL MANUSCRIPT — DO NOT USE AS CURRENT PRODUCTION PARENT
+**Superseded by:** `PROLOGUE_MANUSCRIPT_V4_CONSULTANT_REVISION.md`
+**Historical status at creation:** BULLPEN MANUSCRIPT REBUILD — CONTINUOUS LITERARY DRAFT  
 **Temporal lock:** after the 2026 draft, before Week 1 results  
 **Production rule:** manuscript first; pagination and art follow manuscript lock
 
