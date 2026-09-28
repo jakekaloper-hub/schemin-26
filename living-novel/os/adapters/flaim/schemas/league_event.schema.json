@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FlaimLeagueEvent",
+  "type": "object",
+  "required": [
+    "id",
+    "source",
+    "provider",
+    "league_id",
+    "season",
+    "event_type",
+    "verification",
+    "observed_fact",
+    "provenance",
+    "canon_authority"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "source": {
+      "const": "FLAIM"
+    },
+    "provider": {
+      "type": "string"
+    },
+    "league_id": {
+      "type": "string"
+    },
+    "season": {
+      "type": "integer"
+    },
+    "week": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "event_type": {
+      "type": "string"
+    },
+    "entities": {
+      "type": "array"
+    },
+    "provider_ids": {
+      "type": "object"
+    },
+    "observed_fact": {
+      "type": "string"
+    },
+    "verification": {
+      "enum": [
+        "VERIFIED",
+        "LIVE_UNFINALIZED",
+        "PARTIAL",
+        "STALE",
+        "UNKNOWN",
+        "CONFLICTED",
+        "BLOCKED"
+      ]
+    },
+    "retrieved_at": {
+      "type": "string"
+    },
+    "freshness": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "string"
+    },
+    "limitations": {
+      "type": "array"
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "temporal_layer": {
+      "type": "string"
+    },
+    "canon_authority": {
+      "const": "SOURCE_EVIDENCE"
+    },
+    "downstream_eligible": {
+      "type": "boolean"
+    }
+  }
+}
