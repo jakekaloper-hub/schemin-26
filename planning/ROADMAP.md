@@ -7,7 +7,8 @@
 
 ## Phase 1 — Foundation / now
 
-- [x] Separate Schemin '26 from FLA into its own private repository.
+- [x] Separate Schemin '26 from FLA into its own canonical repository.
+- [ ] Resolve repository visibility/private-material boundary (tracked by Issue #10; GitHub currently reports the repo as public).
 - [x] Migrate authoritative Memo OS, canon, Bullpen, Mercer, and Data Gateway documents.
 - [x] Establish source hierarchy and authority matrix.
 - [x] Establish Librarian catalog, inventory, session routing, and documentation standard.
@@ -18,7 +19,7 @@
 ## Phase 2 — Execution integrity
 
 - [ ] Convert key V5.2-RC acceptance rules into executable tests.
-- [ ] Add Data Gateway fixture/contract tests.
+- [x] Add Data Gateway snapshot durability/freshness contract tests and dedicated CI.
 - [ ] Add character rename/canon regression fixtures.
 - [ ] Add Mercer firewall regression test.
 - [ ] Add benchmark-isolation test for blank-canvas memo retests.
