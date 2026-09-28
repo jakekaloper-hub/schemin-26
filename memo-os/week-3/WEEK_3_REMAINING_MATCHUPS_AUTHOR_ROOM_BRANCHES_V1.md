@@ -130,7 +130,7 @@ Belt Keeper = established champion/league villain. Seven Deadly Chins = ringless
 
 ## OPTION A — HMB LOSES
 ### Title
-**THREE THROWS. THREE SPLASHES.**
+**DUNK THE KING**
 
 ### Story thesis
 The feared champion does not fall in a cathedral. He gets dropped into carnival water by the People's Champ.
@@ -140,7 +140,7 @@ A surreal Texas/redneck medieval county fair at night: torch strings, livestock 
 
 Seven Deadly Chins — exact canonical huge bearded human, dirty tank, trucker cap, hammer/40-ounce/raccoon companion where readable — steps to the throwing line. HMB sits inside the dunk tank still dressed as the corpse-pale Belt Keeper, championship belt absurdly intact.
 
-7DC throws. Target rings. Trap opens. HMB falls into black carnival water.
+7DC takes the ball, squares himself at the cheap carnival target, and throws. Target rings. Trap opens. HMB falls into black carnival water.
 
 No gore. Maximum indignity.
 
@@ -151,7 +151,7 @@ If verified, HMB becomes **0-3**, an unusually poor start for the reigning champ
 This branch directly creates Cover Priority #1: HMB emerges soaked, long black hair plastered across his face, belt dripping, sitting alone after the fair closes. “Hello darkness, my old friend” is a conceptual mood reference only; do not reproduce copyrighted lyrics on the page.
 
 ### Closing seed
-**Kings had been drowned for less. This one cost three throws and a ticket.**
+**Kings had been drowned for less. This one cost a carnival ball and a ticket.**
 
 ## OPTION B — HMB WINS
 ### Title
@@ -203,6 +203,9 @@ All become increasingly absurd as boats float past the executive floor.
 ## OPTION B — THE LLC WINS
 ### Title
 **PROTOCOL HELD**
+
+### Science-backed joke
+NOAA's 2026 Atlantic outlook says El Niño conditions generally suppress Atlantic hurricane activity by increasing vertical wind shear; strong 2026 El Niño conditions were expected to suppress much tropical development. Use that as the hidden factual engine for the joke. Do **not** claim El Niño means “no hurricanes,” guarantees LLC safety, or caused the absence of any particular storm.
 
 ### Story thesis
 Against all common sense, the corporation actually read the emergency manual.
@@ -283,3 +286,24 @@ For each unresolved matchup:
 authoritative final capture → choose surviving A/B branch → verify any conditional season claim → deepen exact score/player evidence → write complete two-page manuscript → commissioner/story hierarchy gate where required → page briefs → reference-attached character art → deterministic data → QA → lock.
 
 Do not mix visual scenes between A and B. The result should feel as though it caused a different chapter to exist, not merely changed the winner's name.
+
+
+# DIALOGUE CONSULTANT PASS
+
+These are **Bullpen-authored fictionalized league-world lines**, not real owner quotes. Use sparingly; final dialogue should function like cinematic pressure-release: short, character-specific, and spoken only where the image cannot carry the beat alone.
+
+| Matchup branch | Preferred dialogue beat |
+|---|---|
+| ObiWan win | ObiWan: **“You still have to cross it.”** / TDS from the water: **“Get the boat.”** |
+| TDS win | TDS: **“You wanted me across the line. Here I am.”** |
+| DK win | DK at the breach: **“Hold the gate.”** / aftermath: **“One banner.”** |
+| Mud win | DK: **“Every road ends at this wall.”** / Mud Dogs: **“Then we come through the ground.”** |
+| Red win | Slob: **“How long is this damn game?”** / Red: **“Longer than you trained for.”** |
+| Slob win | Red: **“You call this football?”** / Slob: **“Scoreboard does.”** |
+| HMB loss | HMB, before throw: **“You cannot possibly—”** then target/splash; 7DC does not need a victory speech. |
+| HMB win | 7DC: **“I came for the belt.”** / HMB: **“Not tonight.”** |
+| El Niño win | LLC: **“This was modeled.”** / El Niño: **“Not by me.”** |
+| LLC win | Underling: **“Sir, the storm?”** / LLC: **“Diversified.”** |
+
+## Dialogue rule
+No branch needs all candidate lines. Prefer **one exchange maximum per page**. Silence should win when the visual consequence is stronger. Do not imitate dialogue from any existing film or author.
