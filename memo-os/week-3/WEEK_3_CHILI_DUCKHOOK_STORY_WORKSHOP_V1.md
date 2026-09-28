@@ -596,3 +596,42 @@ After Page Lock, update `WEEK_3_CONTINUITY_LEDGER_V1.md`:
 **LEAGUE-WIDE FACT LOCK:** CLOSED
 
 **Next executable action for this matchup:** load approved character visual references → generate Page 1 art → QA/bugfix/polish/retest → generate Page 2 art → QA/bugfix/polish/retest → deterministic copy/data composite → mobile QA → fresh provider correction check → page locks → continuity ledger writeback.
+
+
+# 17. COMMISSIONER VISUAL APPROVAL — FINAL MATCHUP ART
+
+**Approval date:** 2026-09-28
+**Commissioner decision:** APPROVED — “perfect, this completes this specific matchup.”
+
+## Approved final page masters
+- **W3-M03-A — Page 1:** “THE WARNING CAME WITH MUSTARD.”
+  - Commissioner-approved source image: `ChatGPT Image Sep 28, 2026 at 02_27_11 PM.png`
+  - Composition: pristine Country Club of Jackson; Dr. Duckhook foreground; Sonic chili dog; Gibbs 43.4 early-look evidence; Chili Outlaw and Dark Horse approaching in distance; Duckhook conditional quote appears once.
+- **W3-M03-B — Page 2:** “THE COUNTRY CLUB HAS BEEN CHILI'D.”
+  - Commissioner-approved source image: `ChatGPT Image Sep 28, 2026 at 02_27_19 PM.png`
+  - Composition: same Country Club aftermath; Chili Outlaw physically smushes the chili dog into Dr. Duckhook's face as comic humiliation; final locked-on-lineups score 132.19–126.16; Duckhook surrender dialogue; Chili dialogue “You've been Chili'd.” and “You think twice when you play the Chili God.”; closing narration resolves the joke.
+
+## Visual continuity outcome
+The two pages are a single continuous chapter:
+1. Page 1 = warning → ridicule → Duckhook confidence → Gibbs security → Chili approaches.
+2. Page 2 = reversal → chili-dog humiliation → football evidence → Duckhook surrender → Chili verdict → league mythology.
+
+No required supplied dialogue is intentionally duplicated across the two approved pages.
+
+## Canonical visual-event lock
+For Week 3 narrative continuity, the approved Page 2 depiction establishes a **comic, non-injurious chili-dog face-smush** by Chili Outlaw against Dr. Duckhook. This is a fantasy-world humiliation beat, not a claim about a real-world physical altercation.
+
+## Production state
+- STORY: LOCKED
+- MANUSCRIPT: LOCKED
+- PAGE ARCHITECTURE: LOCKED
+- CHARACTER PRESENTATION: COMMISSIONER APPROVED
+- PAGE 1 ART: COMMISSIONER APPROVED
+- PAGE 2 ART: COMMISSIONER APPROVED
+- MATCHUP CHAPTER: **COMPLETE**
+- ESPN provider finality/stat-correction check: still required before issue-wide deterministic Fact Lock/publication.
+- If provider finalizes at 132.19–126.16 without correction: no creative reopen.
+- If a stat correction changes numbers but not winner: deterministic factual patch only.
+- If a stat correction changes winner: invalidate result-dependent lock and reopen story resolution.
+
+**Do not regenerate, reinterpret, or replace either approved page unless Jake explicitly requests a revision.**
