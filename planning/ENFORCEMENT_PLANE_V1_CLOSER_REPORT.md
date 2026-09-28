@@ -3,7 +3,7 @@
 **Document class:** review  
 **Authority / owner:** The Closer  
 **Version:** 1.0  
-**Status:** FINAL-HEAD CI PENDING AT CREATION  
+**Status:** CERTIFIED — PASS WITH EXTERNAL DEPENDENCIES  
 **Effective date:** 2026-09-28  
 **Branch:** `feat/enforcement-plane-v1-2026-09-28`  
 **Dependency:** PR #15 / `chore/librarian-deprecation-canon-lock-2026-09-28`
@@ -53,7 +53,11 @@ Added Data dependency warning, security scanner, historical-evidence guard and i
 Adversarial testing caught a self-test defect: the synthetic GitHub token literal caused the security scanner to flag its own test file. The fixture was fixed by constructing the fake token dynamically; the scanner itself was not weakened.
 
 ### 10 — Closer
-Pending only the final aggregate run after these control documents are committed.
+PASS.
+
+Documentation/control head `a3d45fb5d82cbd46d60f90c8a9c83dabc11ac29d` completed:
+- Schemin Enforcement Gate — PASS
+- Bullpen Runtime CI — PASS
 
 ## Architectural lesson
 
@@ -82,6 +86,31 @@ After PR #12 is reconciled, Bullpen must:
 - official Week 2 PDF remains unrecovered;
 - original V5.1 patch remains unrecovered.
 
-## Final verdict rule
+## Certification evidence
 
-The Closer issues PASS only when the aggregate Schemin Enforcement Gate succeeds on the final documentation/index head.
+Behavioral + documentation checkpoint: `a3d45fb5d82cbd46d60f90c8a9c83dabc11ac29d`
+
+Aggregate job passed all steps:
+- Enforcement kernel tests;
+- Character Canon regression;
+- Repository Memory regression;
+- Novel OS regression;
+- Bullpen Runtime regression;
+- merge enforcement;
+- release enforcement.
+
+DATA-001 remained a visible WARN/AUDIT dependency and did not masquerade as certification.
+
+## Closer final verdict
+
+**PASS — SCHEMIN '26 ENFORCEMENT PLANE V1 BUILT, TESTED, BUG-FIXED, AUDITED AND POLISHED.**
+
+External dependencies remain explicit:
+- PR #12 Data Gateway integration/certification;
+- repository visibility;
+- branch-protection admin application;
+- exact visual-canon PNG materialization;
+- official Week 2 PDF recovery;
+- original V5.1 source recovery.
+
+None of those are silently treated as closed.
