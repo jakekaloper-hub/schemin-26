@@ -1,9 +1,9 @@
 # CHAR-DUCKHOOK — PROLOGUE CHARACTER PACKET V1
 **Owner:** Zach Wilson
-**Canonical character:** King of the Impossible Lie / Dr. Duckhook
+**Canonical character:** King of the Impossible Lie
 **Beats:** B012-B013, B040, B048
 **Semantic authority:** canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md
-**Visual authority required:** Jake-approved twelve-owner master lineup/reference plate + stronger owner reference where available.
+**Visual authority required:** `../../../../canon/SCHEMIN_26_MASTER_VISUAL_CANON_REFERENCE_LOCK_V1.md` + exact Commissioner-approved 12-owner plate + stronger owner reference only when non-conflicting.
 **Prologue state:** after 2026 draft, before Week 1 results.
 **Identity lock:** anthropomorphic white duck golfer; bucket hat; cigar; golf outfit; club/driver prosthetic-arm concept
 **Forbidden mutations:** Never human/physician/normal duck; do not show impossible-shot result.
