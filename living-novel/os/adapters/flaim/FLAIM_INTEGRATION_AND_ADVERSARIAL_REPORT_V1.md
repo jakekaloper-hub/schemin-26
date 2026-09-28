@@ -1,6 +1,6 @@
 # FLAIM ADAPTER — INTEGRATION AND ADVERSARIAL REPORT V1
 **League:** Pro Schemin' Football League / ESPN 1417621
-**Status:** PASS WITH ONE TOOLING BLOCKER
+**Status:** PRODUCTION BASELINE — EVIDENCE-BACKED PASS
 
 ## Real-data execution
 Flaim successfully resolved the 2026 league, 12 teams, keeper/draft/trade settings, Weeks 1–3 matchup state, current standings, 2026 draft, Week 1–3 transaction evidence, and historical active-league lineage back to 2015.
@@ -20,8 +20,17 @@ Week 3 provider matchup winners remain UNDECIDED while scoring-period points are
 - significance grading incorporates championship/playoff/rivalry/history/story-promise/transaction competition rather than margin alone.
 - existing Novel OS temporal firewall blocks Week 3 from Prologue context.
 
-## Tooling blocker
-Two attempts to add the standalone Flaim unittest file were rejected by the GitHub connector safety layer. No bypass was attempted. Engine implementation and fixtures are committed. Dedicated automated Flaim test-file installation remains BLOCKED pending a connector-permitted write path; existing Novel OS CI remains intact.
+## Runtime certification
+Repository-native certification was executed through draft PR #9 to trigger the existing CI without bypassing connector safeguards.
+
+- Novel OS CI run: #33.
+- Python: 3.12.
+- Compile Novel OS: PASS.
+- Deterministic and adversarial suite: **31 tests executed / 31 passed**.
+- Flaim evidence tests observed in the log: live-not-final, significance-advisory, source-authority-lock, unknown-not-eligible, verified-source-passes.
+- Bullpen Runtime CI on the same certification commit: PASS.
+
+The earlier standalone-test-file tooling blocker is therefore CLOSED by the repository-native CI path. No unexecuted test is represented as passed.
 
 ## Closer ruling
-The adapter is production-usable as SOURCE_EVIDENCE with live/final and motive firewalls. It is not permitted to write canon. Automated adapter-specific regression-file installation is the only unresolved implementation item from this run.
+The adapter is production-usable as SOURCE_EVIDENCE with live/final and motive firewalls. It is not permitted to write canon. The prior automated-test evidence gap is closed. Flaim remains SOURCE_EVIDENCE only and cannot write canon.
