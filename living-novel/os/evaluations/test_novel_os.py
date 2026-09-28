@@ -80,4 +80,21 @@ class Phase9AdversarialTests(unittest.TestCase):
         checks={k:True for k in ["regression_tests","adversarial_campaign","prologue_integration","artifact_registry","approval_gate","recovery_runbook","ci"]}
         self.assertEqual(release_gate(checks)["state"],"PASS")
 
+
+
+class FlaimEvidenceTests(unittest.TestCase):
+    def test_source_authority_lock(self):
+        x={"canon_authority":"MANUSCRIPT_CANON","verification":"VERIFIED","downstream_eligible":True,"observed_fact":"result"}
+        self.assertFalse(can_accept(validate_flaim_event(x)))
+    def test_live_not_final(self):
+        x={"canon_authority":"SOURCE_EVIDENCE","verification":"LIVE_UNFINALIZED","downstream_eligible":True,"observed_fact":"current score"}
+        self.assertFalse(can_accept(validate_flaim_event(x)))
+    def test_unknown_not_eligible(self):
+        x={"canon_authority":"SOURCE_EVIDENCE","verification":"UNKNOWN","downstream_eligible":True,"observed_fact":"unknown"}
+        self.assertFalse(can_accept(validate_flaim_event(x)))
+    def test_verified_source_passes(self):
+        x={"canon_authority":"SOURCE_EVIDENCE","verification":"VERIFIED","downstream_eligible":True,"observed_fact":"verified result"}
+        self.assertTrue(can_accept(validate_flaim_event(x)))
+    def test_significance_advisory(self):
+        self.assertIn(grade_significance({"championship":True,"historical_echo":True}),SIGNIFICANCE_LEVELS)
 if __name__=="__main__": unittest.main()
