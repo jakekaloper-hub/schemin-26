@@ -10,18 +10,22 @@ The repository's canonical `canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md` already 
 ## Source 2 — Twelve-character visual plate
 Jake supplied the League Character Canon 12-owner lineup image in the current production session.
 
-**Conversation asset ID:** `file_0000000050c881f59e6829d0ee3d637b`
+**Superseded session asset pointer:** `file_0000000050c881f59e6829d0ee3d637b`
 
-This plate is now the mandatory cross-character visual reference for Chronicle production, subordinate only to a newer explicit Jake correction or an owner's approved individual reference.
+**Current Commissioner visual lock:** `../../canon/SCHEMIN_26_MASTER_VISUAL_CANON_REFERENCE_LOCK_V1.md`
+
+**Current approved source checksum:** `ddaf366e1075e9b895081f2c98737cbb2d789ccdb043ce2883ed21dbfe5f0bab`
+
+The current Commissioner plate is the mandatory cross-character visual reference for Chronicle production, subordinate only to a newer explicit Jake correction or an owner's approved individual reference.
 
 ## Visual order shown on supplied plate
 
 Top row:
 1. Jake Kaloper / ObiWan Jacoby — Trade Jedi
 2. Kevin Zeek / Red Leopards — Predator Board
-3. Jordan Hollingshead / Slob on my Dobb — Frat-Bro Berserker
+3. Jordan Hollingshead / Slob on my Dobb — Win Ugly
 4. David Babb / The LLC. — Hostile Takeover
-5. Wilson Look / Donkey Kong — Philosopher-Warrior / Arsenal Centaur
+5. Wilson Look / Donkey Kong — The Philosopher-Warrior (Arsenal Centaur body form)
 6. Phillip Pitts / Three Dreaded Snake — Podium Shadow
 
 Bottom row:
@@ -30,7 +34,7 @@ Bottom row:
 9. Austin Byars / His Majesty's Blood — Belt Keeper
 10. Bobby Mitchell / Mud Dogs — Swamp-Born Menace
 11. Zach Wilson / Dr. Duckhook — King of the Impossible Lie
-12. Ben Whipple / Seven Deadly Chins — People's Champ / Blue-Collar Spoiler
+12. Ben Whipple / Seven Deadly Chins — The People's Champ
 
 ## Mandatory Chronicle rule
 
