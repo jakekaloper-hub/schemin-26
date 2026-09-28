@@ -24,4 +24,31 @@ class NovelOSTests(unittest.TestCase):
         roles=route("produce next Prologue composition")
         self.assertIn("Visual Director",roles); self.assertIn("Canon Guardian",roles)
 
+
+
+class Phase4to7Tests(unittest.TestCase):
+    def test_timeline_impossible_order(self):
+        f=validate_timeline([{"id":"a","order":2,"after":["b"]},{"id":"b","order":3}])
+        self.assertFalse(can_accept(f))
+    def test_object_possession(self):
+        f=validate_object_state([{"order":1,"object_id":"belt","action":"ACQUIRE","actor":"byars"},{"order":2,"object_id":"belt","action":"USE","actor":"jake"}])
+        self.assertFalse(can_accept(f))
+    def test_knowledge_leak(self):
+        f=validate_knowledge([{"order":1,"actor":"x","action":"ACT_ON","fact_id":"secret"}])
+        self.assertFalse(can_accept(f))
+    def test_alias_identity(self):
+        f=validate_alias_identity([{"team_name_changed":True,"canonical_character_before":"Arsenal Centaur","canonical_character_after":"Gorilla"}])
+        self.assertFalse(can_accept(f))
+    def test_visual_bootstrap(self):
+        f=validate_visual_reference({"character_bearing":True,"master_canon_resolved":True,"generated_reference":True,"approved_visual_canon":False})
+        self.assertFalse(can_accept(f))
+    def test_unverified_live_event_blocks(self):
+        self.assertEqual(live_event_transaction({"id":"w3","verified":False})["state"],"BLOCKED")
+    def test_verified_live_event_ready(self):
+        self.assertEqual(live_event_transaction({"id":"w1","verified":True})["state"],"READY")
+    def test_literary_pipeline_ends_gate(self):
+        self.assertEqual(literary_workflow("V4")["stages"][-1]["name"],"HUMAN_CANON_GATE")
+    def test_visual_pipeline_reference_gate(self):
+        self.assertTrue(visual_workflow("P-BEAT",True)["reference_gate_required"])
+
 if __name__=="__main__": unittest.main()
