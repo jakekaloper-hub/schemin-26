@@ -72,7 +72,7 @@ A Cloudflare Worker/KV mirror remains an architectural option, not a deployed re
 
 ## GitHub Actions cold standby
 
-`.github/workflows/espn-cold-standby.yml` refreshes every 30 minutes and persists `latest.json` + `manifest.json` whenever durable snapshot/freshness state changes. On acquisition failure, the last-good data remains intact while metadata is promoted to degraded/stale state before the workflow fails. This gives agents and web clients a second network surface when ESPN's hostname is inaccessible from their execution environment.
+`.github/workflows/espn-cold-standby.yml` refreshes every 30 minutes and persists `latest.json` + `manifest.json` to the dedicated Git ref **`data/live`** whenever durable snapshot/freshness state changes. Operational snapshot churn therefore does not mutate `main`. On acquisition failure, the last-good data remains intact while metadata is promoted to degraded/stale state before the workflow fails. Consumers resolve ref `data/live`, path `data/snapshots/1417621/latest.json`.
 
 ## Consumer rule for Mercer / Memo OS
 
