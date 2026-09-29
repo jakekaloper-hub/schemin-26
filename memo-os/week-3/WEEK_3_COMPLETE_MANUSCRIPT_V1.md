@@ -290,3 +290,11 @@ Nobody owns the horizon.
 Beyond it, six more roads are already waiting.
 
 The Schemin' continues.
+
+
+## Manuscript audit / test / fix / polish
+AUDIT: all 23 page slots reconciled against the approved issue architecture; all six matchup results match WEEK_3_FACT_LOCK_V1; P8/P9 are preserved as locked commissioner rasters rather than rewritten.
+TEST: every result mentioned in prose matches the authorized score lock; no stale UNDECIDED state is presented as narrative uncertainty; no page predicts a Week4 winner.
+FIX: removed need for invented play-by-play causality; HMB victory is framed as survival rather than keeper-loss causation; LLC weather material is fictional corporate satire rather than a meteorological claim; DK/Mud is original epic-fantasy staging rather than copied film prose.
+POLISH: prose rhythm intentionally alternates dense setup, visual payoff and quiet consequence; closing returns to the universe rather than a featured owner.
+CLOSER: APPROVED. Manuscript may enter composition. P18 ranking body is supplied by TRANSITION_DATA_LOCK_V1; P22 final waiver body remains intentionally late-bound.
