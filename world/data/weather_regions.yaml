@@ -1,0 +1,10 @@
+schema_version: "1.0"
+weather:
+  moisture_source: [REG-INNER-SEA, REG-EASTERN-STORM]
+  wettest: [REG-EASTERN-STORM, REG-SOUTHERN-WETLANDS]
+  rain_shadow: [REG-WESTERN-TABLELANDS]
+  headwater_supply: [REG-NORTHERN-SPINE, REG-UPPER-VALLEYS]
+  propagation_rules:
+    - "Major eastern storm may reach Central Basin before Western Tablelands."
+    - "Heavy northern precipitation raises downstream river state after delay."
+    - "Delta flooding can persist after rainfall ends upstream."
