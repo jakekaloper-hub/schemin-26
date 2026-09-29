@@ -20,3 +20,6 @@ jobs:
       - name: Unit and contract tests
         working-directory: canon/character-control-plane-v2
         run: python -m unittest discover -s tests -v
+      - name: Shadow reconciliation
+        working-directory: canon/character-control-plane-v2
+        run: python shadow_run.py
