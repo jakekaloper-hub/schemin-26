@@ -6,8 +6,8 @@
 |---|---|---|---|
 |T01|Authority/canon archaeology + contradiction inventory|Librarian|COMPLETE / PASS|
 |T02|Immutable owner IDs + alias normalization|Architect + League Historian|COMPLETE / PASS|
-|T03|Reference-asset authority manifest|Librarian + Visual Director|BLOCKED_PARTIAL|
-|T04|12 owner identity/Visual-DNA/invariant packages|Character Room|IN_PROGRESS|
+|T03|Reference-asset authority manifest|Librarian + Visual Director|IDENTITY PASS / PORTABILITY HOLD|
+|T04|12 owner identity/Visual-DNA/invariant packages|Character Room|COMPLETE / PASS|
 |T05|Environment/object/companion linkage|Continuity Director|QUEUED|
 |T06|Deterministic resolver + supersession|Architect|QUEUED|
 |T07|Render Contract compiler|Visual Systems|QUEUED|
@@ -35,7 +35,12 @@ The central registry establishes twelve owner-scoped immutable IDs and critical 
 
 **ARCHITECT SIGN-OFF: PASS for normalization. Runtime resolver remains T06.**
 
-## T03 gate
-Cannot honestly close until approved visual assets are durably addressable. Existing Chronicle packets explicitly report that the master plate was not retrievable; Wilson's 2026-09-29 image is referenced by approval-thread filename rather than a durable repository binary.
+## T03 gate — updated 2026-09-29
+Commissioner supplied 12/12 owner-specific visual references. Exact source filenames, conversation asset IDs and SHA-256 fingerprints are registered. Identity-reference collection is CLOSED/PASS. Durable repository/asset-store binary portability remains HOLD; conversation asset IDs are not repository paths.
 
-**VISUAL DIRECTOR: BLOCKED_PARTIAL. Do not fabricate paths/hashes. Continue independent T04 semantic work.**
+**VISUAL DIRECTOR: PASS for identity authority / HOLD for portable renderer injection.**
+
+## T04 closeout — 2026-09-29
+T04 package specifications exist for all 12 immutable owner IDs and passed structural retest 12/12 after an initial two-file omission was detected and fixed. See `T04_CHARACTER_PACKAGE_GATE_REPORT.md`.
+
+**CHARACTER DIRECTOR: PASS. CLOSER: T04 COMPLETE / PASS.**
