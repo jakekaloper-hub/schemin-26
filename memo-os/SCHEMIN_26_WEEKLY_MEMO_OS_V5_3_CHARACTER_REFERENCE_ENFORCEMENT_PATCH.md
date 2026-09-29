@@ -5,6 +5,10 @@
 **Origin:** Week 2 Blank-Canvas Acceptance Test forensic audit  
 **Effective:** 2026-09-27
 
+
+## 0. CCCP control-plane precedence — 2026-09-29
+For CURRENT character resolution this document is a CCCP consumer. `canon/characters/CHARACTER_REGISTRY.yaml`, the active owner package, approved Commissioner reference register, resolver, render contract and QA contract supersede any conflicting local character description below. Local invariants remain useful only when consistent with CCCP. A team name or this document alone may not authorize generation.
+
 ## Purpose
 
 The Week 2 acceptance test proved that prose-only character prompting can preserve story intent while corrupting canonical identity. This patch makes reference fidelity a release-blocking subsystem.
