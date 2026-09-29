@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "season": 2026,
-  "source_note": "2026 membership follows the released Week 3 division standings spread; spatial/cultural fields are World Engine V1 interpretive canon.",
+  "source_note": "2026 membership follows memo-os/week-3/WEEK_3_FACT_LOCK_V1.md. Division footprints are League-cultural spatial overlays and may overlap ordinary civil geography.",
   "divisions": [
     {
       "id": "DIV-BURGERS",
@@ -9,18 +9,18 @@
       "food_referent": "burgers",
       "canon_status": "INTERPRETIVE_CANON",
       "member_team_ids_2026": [
+        1,
         5,
-        2,
-        3,
-        11
+        6,
+        10
       ],
       "physical_zone_ids": [
         "REG-NORTHERN-SPINE",
         "REG-UPPER-VALLEYS",
         "REG-CENTRAL-BASIN",
-        "REG-EASTERN-STORM-COAST"
+        "REG-SOUTHERN-WETLANDS"
       ],
-      "core_geography": "north-central highlands, foothill markets and upper basin roads with a rain-fed eastern escarpment",
+      "core_geography": "north-to-south watershed corridor linking mountain headwaters, upper valleys, basin crossings and southern wetlands",
       "visual_fingerprint": {
         "skyline": [
           "fortified ridges",
@@ -56,7 +56,8 @@
         "no giant burger terrain",
         "no palette-only differentiation",
         "do not turn all four owners into the same highland warrior culture",
-        "food identity must remain burger-specific"
+        "food identity must remain burger-specific",
+        "division footprint may overlap civil geography; do not treat Burgers as an exclusive nation"
       ]
     },
     {
@@ -65,17 +66,18 @@
       "food_referent": "chicken_wings",
       "canon_status": "INTERPRETIVE_CANON",
       "member_team_ids_2026": [
-        10,
+        2,
+        3,
         7,
-        6,
         12
       ],
       "physical_zone_ids": [
         "REG-WESTERN-TABLELANDS",
-        "REG-SOUTHERN-WETLANDS",
-        "REG-CENTRAL-BASIN"
+        "REG-UPPER-VALLEYS",
+        "REG-CENTRAL-BASIN",
+        "REG-SOUTHERN-WETLANDS"
       ],
-      "core_geography": "western frontier descending through wet escarpments into southern river country and delta",
+      "core_geography": "western frontier and mixed upland-to-river corridor with shared civil marches and southern estate country",
       "visual_fingerprint": {
         "skyline": [
           "raised timber halls",
@@ -117,7 +119,8 @@
         "Wings means chicken wings, not angel/bird/dragon wings",
         "no giant chicken-wing terrain",
         "do not flatten Chili frontier, Mud swamp, TDS falls and Duckhook club into one biome",
-        "wetland/frontier architecture must remain causally grounded"
+        "wetland/frontier architecture must remain causally grounded",
+        "TDS and Chili may share civil geography despite different League divisions"
       ]
     },
     {
@@ -126,18 +129,18 @@
       "food_referent": "pizza",
       "canon_status": "INTERPRETIVE_CANON",
       "member_team_ids_2026": [
-        1,
-        9,
+        4,
         8,
-        4
+        9,
+        11
       ],
       "physical_zone_ids": [
-        "REG-UPPER-VALLEYS",
+        "REG-CENTRAL-BASIN",
         "REG-EASTERN-STORM-COAST",
         "REG-INNER-SEA-LITTORAL",
-        "REG-CENTRAL-BASIN"
+        "REG-NORTHERN-SPINE"
       ],
-      "core_geography": "eastern arc from mountain observatories through storm forests to fortified inner-sea ports",
+      "core_geography": "central/eastern institutional arc from basin roads through stormward heights to inner-sea ports",
       "visual_fingerprint": {
         "skyline": [
           "cliff keeps",
