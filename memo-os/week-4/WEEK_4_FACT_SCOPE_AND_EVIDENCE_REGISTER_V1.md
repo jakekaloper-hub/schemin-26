@@ -14,14 +14,18 @@ Source: Week 3 Fact Lock.
 
 ## Current-week facts requiring refresh before Story Room
 
-1. current roster membership;
-2. player availability/injury status;
-3. completed trades and exact assets;
-4. waiver/FAAB results;
-5. current Week 4 projections where used editorially;
-6. any team rename;
-7. provider matchup status;
-8. keeper/resource consequences that materially changed after Week 3 close.
+Current Flaim provider receipt: `WEEK_4_FLAIM_LEAGUE_STATE_RECEIPT_V1.md` captured 2026-09-29T17:58:54.693Z.
+
+| Fact | Current state | Evidence |
+|---|---|---|
+| current roster membership | **REFRESHED / PROVIDER OBSERVATION** | all 12 current rosters returned through Flaim/ESPN |
+| player availability/injury status | **OPEN** | roster/IR placement is not medical verification |
+| completed trades and exact assets | **PARTIAL / UNRESOLVED** | transaction existence observed, but Flaim reports structured details incomplete and some trade rows lack directional assets |
+| waiver/FAAB results | **REFRESHED / PROVIDER OBSERVATION** | 47-row transaction window includes completed/failed waivers and row-level FAAB bids |
+| current Week 4 projections | **REFRESHED / PROVIDER OBSERVATION** | all six ESPN matchup projections captured |
+| team names / rename check | **REFRESHED / PROVIDER OBSERVATION** | current 12-team provider map captured |
+| provider matchup status | **REFRESHED / PROVIDER OBSERVATION** | Week 4, six matchups, all UNDECIDED at capture |
+| keeper/resource consequences | **PARTIAL** | current keeper values/IDs available; material changes still require interpretation against prior state |
 
 Each field must carry:
 - source;
@@ -56,3 +60,12 @@ Use:
 - HISTORICAL FACT
 
 Never promote repetition or narrative usefulness into evidence strength.
+
+
+## Flaim integration note
+
+Flaim is now a governed provider adapter under the Schemin Data Gateway. The machine receipt is validated by `data-gateway/flaim_adapter.py`.
+
+This refresh does **not** convert cached evidence into perpetual live state. Recompute freshness from the receipt timestamp.
+
+Story Room remains blocked on unresolved medical/injury evidence, exact trade-asset reconciliation where needed, continuity/world entry, and personalized story intelligence.
