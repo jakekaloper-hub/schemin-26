@@ -1,0 +1,567 @@
+{
+  "schema_version": "1.0",
+  "coordinate_space": "schemin-local-v1 (abstract, non-metric)",
+  "locations": [
+    {
+      "id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "name": "Trade Jedi Mountain Base",
+      "canon_status": "PERMANENT_CANON",
+      "location_type": "owner_base",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "division_id": "DIV-PIZZA",
+      "owner_character_id": "CHAR-JAKE-KALOPER",
+      "abstract_position": [
+        69,
+        69
+      ],
+      "access_route_ids": [
+        "ROUTE-EASTERN-ASCENT"
+      ],
+      "persistent_landmarks": [
+        "high ridge",
+        "war-room overlook"
+      ],
+      "current_state": [
+        "operational"
+      ],
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+      ],
+      "open_questions": [
+        "final fictional place-name"
+      ]
+    },
+    {
+      "id": "LOC-MUD-DOGS-SWAMP",
+      "name": "Mud Dogs Swamp",
+      "canon_status": "PERMANENT_CANON",
+      "location_type": "owner_domain",
+      "physical_zone_id": "REG-SOUTHERN-WETLANDS",
+      "division_id": "DIV-WINGS",
+      "owner_character_id": "CHAR-BOBBY-MITCHELL",
+      "abstract_position": [
+        42,
+        16
+      ],
+      "access_route_ids": [
+        "ROUTE-DELTA-CAUSEWAY"
+      ],
+      "persistent_landmarks": [
+        "mud channels",
+        "raised ground"
+      ],
+      "current_state": [
+        "Week 2 and Week 3 history remembered"
+      ],
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+        "bullpen/PRO_SCHEMIN_WORLD_FOUNDATION_PHASE0_PASS1.md"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "LOC-COUNTRY-CLUB-JACKSON",
+      "name": "Country Club of Jackson",
+      "canon_status": "PERMANENT_CANON",
+      "location_type": "club_estate",
+      "physical_zone_id": "REG-SOUTHERN-WETLANDS",
+      "division_id": "DIV-WINGS",
+      "owner_character_id": "CHAR-ZACH-WILSON",
+      "abstract_position": [
+        57,
+        24
+      ],
+      "access_route_ids": [
+        "ROUTE-JACKSON-LEVEE"
+      ],
+      "persistent_landmarks": [
+        "clubhouse",
+        "golf grounds",
+        "water hazards"
+      ],
+      "current_state": [
+        "Week 3 chili contamination is historical memory; cleanup state required before pristine reset"
+      ],
+      "source_provenance": [
+        "bullpen/PRO_SCHEMIN_WORLD_FOUNDATION_PHASE0_PASS1.md",
+        "memo-os/week-3/WEEK_3_VISUAL_CALLBACK_AND_CONTINUITY_INVENTORY_V1.md"
+      ],
+      "open_questions": [
+        "degree of public/private access"
+      ]
+    },
+    {
+      "id": "LOC-ARSENAL-BARBERSHOP",
+      "name": "Arsenal Barbershop",
+      "canon_status": "PERMANENT_CANON",
+      "location_type": "market_town_shop",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "division_id": "DIV-BURGERS",
+      "owner_character_id": "CHAR-WILSON-LOOK",
+      "abstract_position": [
+        51,
+        59
+      ],
+      "access_route_ids": [
+        "ROUTE-HEARTHROAD"
+      ],
+      "persistent_landmarks": [
+        "barber chair",
+        "Arsenal-red owner history"
+      ],
+      "current_state": [
+        "Week 2 humiliation site",
+        "owner body redesign does not alter site history"
+      ],
+      "source_provenance": [
+        "bullpen/PRO_SCHEMIN_WORLD_FOUNDATION_PHASE0_PASS1.md"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "LOC-STORM-BOWL",
+      "name": "Storm Bowl",
+      "canon_status": "PROVISIONAL_CANON",
+      "location_type": "encounter_venue",
+      "physical_zone_id": "REG-EASTERN-STORM-COAST",
+      "division_id": "DIV-PIZZA",
+      "owner_character_id": "CHAR-MANNING-WELTY",
+      "abstract_position": [
+        84,
+        43
+      ],
+      "access_route_ids": [
+        "ROUTE-STORM-COAST"
+      ],
+      "persistent_landmarks": [
+        "weather-exposed venue",
+        "service counter"
+      ],
+      "current_state": [
+        "Week 2 event memory"
+      ],
+      "source_provenance": [
+        "bullpen/PRO_SCHEMIN_WORLD_FOUNDATION_PHASE0_PASS1.md"
+      ],
+      "open_questions": [
+        "permanent civic function"
+      ]
+    },
+    {
+      "id": "LOC-LLC-BOARDROOM",
+      "name": "LLC Mercantile Boardroom",
+      "canon_status": "PERMANENT_CANON",
+      "location_type": "owner_headquarters",
+      "physical_zone_id": "REG-INNER-SEA-LITTORAL",
+      "division_id": "DIV-PIZZA",
+      "owner_character_id": "CHAR-DAVID-BABB",
+      "abstract_position": [
+        78,
+        18
+      ],
+      "access_route_ids": [
+        "ROUTE-INNER-SEA-QUAY"
+      ],
+      "persistent_landmarks": [
+        "executive chamber",
+        "ledgers",
+        "market overlook"
+      ],
+      "current_state": [
+        "Week 2 intrusion/destruction remembered",
+        "repair/scar continuity permitted"
+      ],
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+        "memo-os/week-3/WEEK_3_VISUAL_CALLBACK_AND_CONTINUITY_INVENTORY_V1.md"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "LOC-RED-RUINS",
+      "name": "Red Leopard Ruins",
+      "canon_status": "PERMANENT_CANON",
+      "location_type": "owner_domain",
+      "physical_zone_id": "REG-EASTERN-STORM-COAST",
+      "division_id": "DIV-BURGERS",
+      "owner_character_id": "CHAR-KEVIN-ZEEK",
+      "abstract_position": [
+        75,
+        61
+      ],
+      "access_route_ids": [
+        "ROUTE-RAIN-ESCARPMENT"
+      ],
+      "persistent_landmarks": [
+        "jungle ruins",
+        "predator banners"
+      ],
+      "current_state": [
+        "operational"
+      ],
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+      ],
+      "open_questions": [
+        "civil settlement relationship"
+      ]
+    },
+    {
+      "id": "LOC-TDS-WATERFALL-TEMPLE",
+      "name": "Podium Shadow Waterfall Temple",
+      "canon_status": "PERMANENT_CANON",
+      "location_type": "owner_domain",
+      "physical_zone_id": "REG-SOUTHERN-WETLANDS",
+      "division_id": "DIV-WINGS",
+      "owner_character_id": "CHAR-PHILLIP-PITTS",
+      "abstract_position": [
+        32,
+        29
+      ],
+      "access_route_ids": [
+        "ROUTE-FALLS-PATH"
+      ],
+      "persistent_landmarks": [
+        "waterfall",
+        "temple stone",
+        "dense vegetation"
+      ],
+      "current_state": [
+        "current owner anatomy = one body, three serpent heads"
+      ],
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "LOC-CHILI-STABLE",
+      "name": "Chili Outlaw Stable",
+      "canon_status": "PERMANENT_CANON",
+      "location_type": "owner_base",
+      "physical_zone_id": "REG-WESTERN-TABLELANDS",
+      "division_id": "DIV-WINGS",
+      "owner_character_id": "CHAR-BRANDON-PRYOR",
+      "abstract_position": [
+        15,
+        45
+      ],
+      "access_route_ids": [
+        "ROUTE-WESTERN-RANGE"
+      ],
+      "persistent_landmarks": [
+        "stable",
+        "pit smoke",
+        "Dark Horse enclosure"
+      ],
+      "current_state": [
+        "operational"
+      ],
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+      ],
+      "open_questions": [
+        "final fictional place-name"
+      ]
+    },
+    {
+      "id": "LOC-BELT-KEEPER-KEEP",
+      "name": "Belt Keeper Rune Keep",
+      "canon_status": "PROVISIONAL_CANON",
+      "location_type": "owner_base",
+      "physical_zone_id": "REG-EASTERN-STORM-COAST",
+      "division_id": "DIV-PIZZA",
+      "owner_character_id": "CHAR-AUSTIN-BYARS",
+      "abstract_position": [
+        73,
+        76
+      ],
+      "access_route_ids": [
+        "ROUTE-BLACK-CLIFF"
+      ],
+      "persistent_landmarks": [
+        "dark keep",
+        "championship hall"
+      ],
+      "current_state": [
+        "Belt remains with Belt Keeper"
+      ],
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+        "living-novel/world/INSTITUTIONS_AND_CHAMPIONSHIP.md"
+      ],
+      "open_questions": [
+        "permanent name",
+        "civil jurisdiction"
+      ]
+    },
+    {
+      "id": "LOC-SLOB-FOOTHILL-CAMP",
+      "name": "Slob Foothill Camp",
+      "canon_status": "PROVISIONAL_CANON",
+      "location_type": "owner_base",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "division_id": "DIV-BURGERS",
+      "owner_character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "abstract_position": [
+        37,
+        62
+      ],
+      "access_route_ids": [
+        "ROUTE-HEARTHROAD"
+      ],
+      "persistent_landmarks": [
+        "tailgate yard",
+        "rough training ground"
+      ],
+      "current_state": [
+        "operational"
+      ],
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+      ],
+      "open_questions": [
+        "final name"
+      ]
+    },
+    {
+      "id": "LOC-CHINS-ROAD-COMMONS",
+      "name": "People's Champ Road Commons",
+      "canon_status": "PROVISIONAL_CANON",
+      "location_type": "owner_base",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": "DIV-BURGERS",
+      "owner_character_id": "CHAR-BEN-WHIPPLE",
+      "abstract_position": [
+        50,
+        43
+      ],
+      "access_route_ids": [
+        "ROUTE-BASIN-MARKET"
+      ],
+      "persistent_landmarks": [
+        "roadside hall",
+        "BBQ yard",
+        "caravan court"
+      ],
+      "current_state": [
+        "operational"
+      ],
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+      ],
+      "open_questions": [
+        "final name"
+      ]
+    },
+    {
+      "id": "LOC-LEAGUE-CHAMBER",
+      "name": "League Chamber",
+      "canon_status": "PROVISIONAL_CANON",
+      "location_type": "league_institution",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": null,
+      "owner_character_id": null,
+      "abstract_position": [
+        56,
+        47
+      ],
+      "access_route_ids": [
+        "ROUTE-BASIN-MARKET"
+      ],
+      "persistent_landmarks": [
+        "records desk",
+        "map wall"
+      ],
+      "current_state": [
+        "neutral institutional space"
+      ],
+      "source_provenance": [
+        "bullpen/PRO_SCHEMIN_WORLD_FOUNDATION_PHASE0_PASS1.md"
+      ],
+      "open_questions": [
+        "exact institutional authority"
+      ]
+    },
+    {
+      "id": "LOC-PITTSYS-BOOK",
+      "name": "Pittsy's Book",
+      "canon_status": "PROVISIONAL_CANON",
+      "location_type": "league_commercial_institution",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": null,
+      "owner_character_id": "CHAR-PHILLIP-PITTS",
+      "abstract_position": [
+        54,
+        40
+      ],
+      "access_route_ids": [
+        "ROUTE-BASIN-MARKET"
+      ],
+      "persistent_landmarks": [
+        "ledger boards",
+        "settlement desk"
+      ],
+      "current_state": [
+        "recurring bookmaking function"
+      ],
+      "source_provenance": [
+        "world/SCHEMIN_WORLD_BIBLE_ARCHIVE_AND_RECORDS_V1.md",
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ],
+      "open_questions": [
+        "legal status"
+      ]
+    },
+    {
+      "id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "name": "Bridge at the Mountain Lake",
+      "canon_status": "PROVISIONAL_CANON",
+      "location_type": "encounter_landmark",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "division_id": null,
+      "owner_character_id": null,
+      "abstract_position": [
+        64,
+        66
+      ],
+      "access_route_ids": [
+        "ROUTE-EASTERN-ASCENT",
+        "ROUTE-HEARTHROAD"
+      ],
+      "persistent_landmarks": [
+        "stone bridge",
+        "lake",
+        "jump point"
+      ],
+      "current_state": [
+        "Week 3 ObiWan/TDS decision landmark"
+      ],
+      "source_provenance": [
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ],
+      "open_questions": [
+        "division-border status"
+      ]
+    },
+    {
+      "id": "LOC-DK-MUD-HILL",
+      "name": "Mire Hill Battlefield",
+      "canon_status": "PROVISIONAL_CANON",
+      "location_type": "encounter_site",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": null,
+      "owner_character_id": null,
+      "abstract_position": [
+        40,
+        47
+      ],
+      "access_route_ids": [
+        "ROUTE-BASIN-MARKET",
+        "ROUTE-DELTA-CAUSEWAY"
+      ],
+      "persistent_landmarks": [
+        "hill",
+        "mire",
+        "battle standards"
+      ],
+      "current_state": [
+        "Week 3 battlefield scar",
+        "Mud Dogs yield memory"
+      ],
+      "source_provenance": [
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ],
+      "open_questions": [
+        "permanent memorialization"
+      ]
+    },
+    {
+      "id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "name": "Alpine Wager Route",
+      "canon_status": "PROVISIONAL_CANON",
+      "location_type": "encounter_route",
+      "physical_zone_id": "REG-NORTHERN-SPINE",
+      "division_id": "DIV-BURGERS",
+      "owner_character_id": null,
+      "abstract_position": [
+        45,
+        82
+      ],
+      "access_route_ids": [
+        "ROUTE-NORTHERN-PASS"
+      ],
+      "persistent_landmarks": [
+        "summit",
+        "base camp",
+        "wager marker"
+      ],
+      "current_state": [
+        "Week 3 wager landmark"
+      ],
+      "source_provenance": [
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "LOC-SOUTHERN-SPEEDWAY",
+      "name": "Southern Speedway",
+      "canon_status": "PROVISIONAL_CANON",
+      "location_type": "encounter_venue",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": "DIV-BURGERS",
+      "owner_character_id": null,
+      "abstract_position": [
+        47,
+        35
+      ],
+      "access_route_ids": [
+        "ROUTE-BASIN-MARKET"
+      ],
+      "persistent_landmarks": [
+        "oval/race course",
+        "grandstand"
+      ],
+      "current_state": [
+        "Week 3 HMB/Chins survival-race history"
+      ],
+      "source_provenance": [
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ],
+      "open_questions": [
+        "pre-modern vehicle translation"
+      ]
+    },
+    {
+      "id": "LOC-LLC-STORM-CITY",
+      "name": "LLC Port City Storm District",
+      "canon_status": "PROVISIONAL_CANON",
+      "location_type": "city_district",
+      "physical_zone_id": "REG-INNER-SEA-LITTORAL",
+      "division_id": "DIV-PIZZA",
+      "owner_character_id": "CHAR-DAVID-BABB",
+      "abstract_position": [
+        83,
+        20
+      ],
+      "access_route_ids": [
+        "ROUTE-INNER-SEA-QUAY",
+        "ROUTE-STORM-COAST"
+      ],
+      "persistent_landmarks": [
+        "mercantile towers",
+        "storm barriers"
+      ],
+      "current_state": [
+        "Week 3 El Niño weather-event history"
+      ],
+      "source_provenance": [
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ],
+      "open_questions": [
+        "relationship to LOC-LLC-BOARDROOM building"
+      ]
+    }
+  ]
+}
