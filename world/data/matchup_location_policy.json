@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "authority": "COMMISSIONER_DIRECTIVE_2026-09-29",
+  "default_regular_season": "HOME_ANCHORED",
+  "venue_modes": [
+    "HOME_DOMAIN",
+    "HOME_DIVISION",
+    "NEUTRAL_MAJOR"
+  ],
+  "neutral_major_typical_for": [
+    "GAME_OF_THE_WEEK",
+    "PLAYOFF",
+    "SEMIFINAL",
+    "CHAMPIONSHIP",
+    "MAJOR_RIVALRY"
+  ],
+  "rules": {
+    "home_domain": "Prefer the home team's established domain/environment.",
+    "home_division": "Alternate venue must lie inside a compatible home-division atlas footprint.",
+    "neutral_major": "Must be an approved world location with travel and ordinary-world purpose.",
+    "divisions_not_species_borders": true,
+    "divisions_not_absolute_sovereign_borders": true,
+    "el_nino_is_mobile_weather_system": true
+  },
+  "required_fields": [
+    "home_team_id",
+    "away_team_id",
+    "home_division_id",
+    "venue_mode",
+    "location_id",
+    "physical_zone_id",
+    "civil_jurisdiction",
+    "division_overlays",
+    "route_home_to_venue",
+    "route_away_to_venue",
+    "entering_world_state",
+    "weather_state",
+    "why_this_location_exists",
+    "who_depends_on_this_place"
+  ]
+}
