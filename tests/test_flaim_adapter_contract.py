@@ -33,7 +33,7 @@ class FlaimAdapterContractTests(unittest.TestCase):
         ids = []
         for matchup in self.capture["week4_matchups"]:
             ids.extend([matchup["home"]["team_id"], matchup["away"]["team_id"]])
-        self.assertEqual(sorted(ids), [str(i) for i in range(1, 13)])
+        self.assertEqual(sorted(int(x) for x in ids), list(range(1, 13)))
 
     def test_normalizer_preserves_transaction_limitation(self):
         now = datetime(2026, 9, 29, 18, 0, tzinfo=timezone.utc)
