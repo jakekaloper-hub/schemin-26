@@ -24,9 +24,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Compile validator
-        run: python -m py_compile world/engine/validate_world.py world/qa/test_world_engine.py
+      - name: Compile World Engine
+        run: python -m py_compile world/engine/validate_world.py world/qa/test_world_engine.py world/atlas/render_atlas_svg.py
       - name: Validate world data
         run: python world/engine/validate_world.py
       - name: Run World Engine regression suite
         run: python world/qa/test_world_engine.py
+      - name: Render deterministic atlas prototype
+        run: |
+          python world/atlas/render_atlas_svg.py
+          test -s world/atlas/prototypes/SCHEMIN_ATLAS_V1_SCHEMATIC.svg
