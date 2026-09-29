@@ -1,0 +1,17 @@
+schema_version: "1.0"
+locations:
+  - {id: LOC-OBI-MOUNTAIN-WARROOM, name: Trade Jedi mountain war-room country, canon_status: INTERPRETIVE_CANON, location_type: owner_domain, physical_zone: REG-UPPER-VALLEYS, division_id: DIV-BURGERS, owner_domain_id: DOM-JAKE}
+  - {id: LOC-MUD-SWAMP, name: Mud Dogs swamp, canon_status: INTERPRETIVE_CANON, location_type: owner_domain, physical_zone: REG-UPPER-VALLEYS, division_id: DIV-BURGERS, owner_domain_id: DOM-BOBBY}
+  - {id: LOC-ARSENAL-BARBERSHOP, name: Arsenal barbershop, canon_status: PROVISIONAL_CANON, location_type: recurring_site, physical_zone: REG-UPPER-VALLEYS, division_id: DIV-BURGERS, owner_domain_id: DOM-WILSON}
+  - {id: LOC-DUCK-COUNTRY-CLUB, name: Country Club of Jackson, canon_status: INTERPRETIVE_CANON, location_type: estate, physical_zone: REG-CENTRAL-BASIN, division_id: DIV-WINGS, owner_domain_id: DOM-ZACH}
+  - {id: LOC-LLC-CITADEL, name: LLC headquarters/citadel, canon_status: INTERPRETIVE_CANON, location_type: headquarters, physical_zone: REG-CENTRAL-BASIN, division_id: DIV-PIZZA, owner_domain_id: DOM-DAVID}
+  - {id: LOC-HMB-CHAMPION-HOLD, name: Belt Keeper championship hold, canon_status: INTERPRETIVE_CANON, location_type: stronghold, physical_zone: REG-EASTERN-STORM, division_id: DIV-PIZZA, owner_domain_id: DOM-AUSTIN}
+  - {id: LOC-NINO-STORM-COAST, name: El Niño storm territory, canon_status: INTERPRETIVE_CANON, location_type: coastal_domain, physical_zone: REG-EASTERN-STORM, division_id: DIV-PIZZA, owner_domain_id: DOM-MANNING}
+  - {id: LOC-CHILI-FRONTIER, name: Chili frontier routes, canon_status: INTERPRETIVE_CANON, location_type: route_domain, physical_zone: REG-WESTERN-TABLELANDS, division_id: DIV-WINGS, owner_domain_id: DOM-BRANDON}
+  - {id: LOC-BRIDGE-LAKE, name: Bridge and cold-water crossing, canon_status: PROVISIONAL_CANON, location_type: bridge, physical_zone: REG-UPPER-VALLEYS, division_id: DIV-BURGERS, owner_domain_id: null}
+  - {id: LOC-DK-HILL-BATTLEFIELD, name: Week 3 Hill battlefield, canon_status: TEMPORARY_SITE, location_type: encounter_site, physical_zone: REG-UPPER-VALLEYS, division_id: DIV-BURGERS, owner_domain_id: null}
+  - {id: LOC-RED-SLOB-MOUNTAIN, name: Week 3 climb and summit, canon_status: TEMPORARY_SITE, location_type: encounter_site, physical_zone: REG-WESTERN-TABLELANDS, division_id: DIV-WINGS, owner_domain_id: null}
+  - {id: LOC-SOUTHERN-SPEEDWAY, name: Southern Speedway, canon_status: PROVISIONAL_CANON, location_type: raceway, physical_zone: REG-CENTRAL-BASIN, division_id: DIV-PIZZA, owner_domain_id: DOM-BEN}
+  - {id: LOC-LLC-FLOOD-DISTRICT, name: LLC flood district, canon_status: TEMPORARY_SITE, location_type: urban_district, physical_zone: REG-CENTRAL-BASIN, division_id: DIV-PIZZA, owner_domain_id: DOM-DAVID}
+  - {id: LOC-LEAGUE-ARCHIVE, name: League Archive, canon_status: INTERPRETIVE_CANON, location_type: institution, physical_zone: REG-CENTRAL-BASIN, division_id: null, owner_domain_id: null}
+  - {id: LOC-PITTSYS-BOOK, name: Pittsy's Book, canon_status: PROVISIONAL_CANON, location_type: league_venue, physical_zone: REG-CENTRAL-BASIN, division_id: null, owner_domain_id: null}
