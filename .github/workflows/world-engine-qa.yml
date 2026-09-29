@@ -1,0 +1,32 @@
+name: World Engine QA
+
+on:
+  pull_request:
+    paths:
+      - 'world/**'
+      - 'schemas/world-*.schema.json'
+      - 'memo-os/WORLD_ENGINE_INTEGRATION_PATCH_V1.md'
+      - 'living-novel/os/WORLD_ENGINE_INTEGRATION_PATCH_V1.md'
+      - '.github/workflows/world-engine-qa.yml'
+  push:
+    branches:
+      - main
+      - 'world/**'
+    paths:
+      - 'world/**'
+      - 'schemas/world-*.schema.json'
+
+jobs:
+  topology:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run spatial topology tests
+        run: node world/qa/spatial/spatial_topology_test.js
+      - name: Validate JSON files
+        run: |
+          node -e "for (const f of require('fs').readdirSync('schemas').filter(x=>x.startsWith('world-')&&x.endsWith('.json'))) JSON.parse(require('fs').readFileSync('schemas/'+f,'utf8'));"
+          node -e "JSON.parse(require('fs').readFileSync('world/qa/spatial/spatial_topology_fixture.json','utf8'));"

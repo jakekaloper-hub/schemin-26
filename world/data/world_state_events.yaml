@@ -1,0 +1,58 @@
+schema_version: "1.0"
+events:
+  - id: EVT-W2-TDS-HAIRCUT
+    week: 2
+    event_type: OBJECT_STATE
+    targets: [CHAR-PHILLIP-PITTS]
+    status: PROVISIONAL
+    description: "Historical Week 2 haircut state carried into Week 3 production."
+    provenance: [memo-os/week-3/WEEK_3_CONTINUITY_LEDGER_V1.md]
+  - id: EVT-W2-LLC-DAMAGE
+    week: 2
+    event_type: DAMAGE
+    targets: [LOC-LLC-CITADEL]
+    status: PROVISIONAL
+    description: "Residual repair/scarring permitted by Week 3 continuity."
+    provenance: [memo-os/week-3/WEEK_3_CONTINUITY_LEDGER_V1.md]
+  - id: EVT-W3-DK-MUD-HILL
+    week: 3
+    event_type: SCAR
+    targets: [LOC-DK-HILL-BATTLEFIELD]
+    status: TEMPORARY
+    description: "Churned battlefield aftermath."
+    provenance: [memo-os/week-3/WEEK_3_COMPLETE_MANUSCRIPT_V1.md]
+  - id: EVT-W3-COUNTRY-CLUB-CHILI
+    week: 3
+    event_type: OBJECT_STATE
+    targets: [LOC-DUCK-COUNTRY-CLUB]
+    status: TEMPORARY
+    description: "Chili/Sonic artifact aftermath; no structural destruction claimed."
+    provenance: [memo-os/week-3/WEEK_3_COMPLETE_MANUSCRIPT_V1.md]
+  - id: EVT-W3-SPEEDWAY-CONTACT
+    week: 3
+    event_type: DAMAGE
+    targets: [LOC-SOUTHERN-SPEEDWAY]
+    status: TEMPORARY
+    description: "Race contact/debris; facility remains usable unless later evidence says otherwise."
+    provenance: [memo-os/week-3/WEEK_3_COMPLETE_MANUSCRIPT_V1.md]
+  - id: EVT-W3-LLC-FLOOD
+    week: 3
+    event_type: FLOOD
+    targets: [LOC-LLC-FLOOD-DISTRICT]
+    status: TEMPORARY
+    description: "District flooding around protected LLC HQ."
+    provenance: [memo-os/week-3/WEEK_3_COMPLETE_MANUSCRIPT_V1.md]
+  - id: EVT-W3-LLC-HQ-PROTECTED
+    week: 3
+    event_type: REPAIR
+    targets: [LOC-LLC-CITADEL]
+    status: ACTIVE
+    description: "HQ operational and protected above flood line."
+    provenance: [memo-os/week-3/WEEK_3_COMPLETE_MANUSCRIPT_V1.md]
+  - id: EVT-W3-BRIDGE
+    week: 3
+    event_type: REPUTATION_MARKER
+    targets: [LOC-BRIDGE-LAKE]
+    status: ACTIVE
+    description: "Bridge becomes durable reputation-memory location."
+    provenance: [memo-os/week-3/WEEK_3_COMPLETE_MANUSCRIPT_V1.md]
