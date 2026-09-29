@@ -1,6 +1,6 @@
 # PRO SCHEMIN' WORLD BIBLE V1
 
-**Status:** WORLD ENGINE V1 RELEASE CANDIDATE  
+**Status:** WORLD ENGINE V1.1 RELEASE CANDIDATE  
 **Scope:** Shared universe substrate for Weekly Memo, Living Novel, Atlas and visual production.
 
 ## 1. World premise
@@ -37,100 +37,186 @@ The Twelve are consequential actors, not the only civilization.
 
 ## 5. League divisions
 
+2026 membership is locked by `memo-os/week-3/WEEK_3_FACT_LOCK_V1.md`:
+
 ### Burgers
-North-central hearthroad culture: mountains, upper valleys, fortified markets and basin roads. Burger identity appears through food, hospitality, guild marks and feast culture.
+- ObiWan Jacoby
+- D0nkey K0ng
+- Three Dreaded Snake
+- Mud Dogs
 
 ### Wings
-Western frontier through southern river/wetland country. Wings explicitly means **chicken wings**. Division identity appears through wing feasts, sauces, smoke/pit culture and hospitality—not angelic or bird-wing abstraction.
+- Red Leopards
+- Slob on my Dobb
+- Chili Cheesers
+- Dr. Duckhook
 
 ### Pizza
-Eastern arc from mountain roads to storm coast and inner-sea ports. Pizza identity appears through communal ovens, pizza guild seals, segmented accounting/market motifs and shared-table culture.
+- The LLC
+- His Majesty's Blood
+- El Niño
+- Seven Deadly Chins
 
-Divisions are spatial/cultural League jurisdictions, not three isolated sovereign food kingdoms.
+Food semantics:
+- Burgers = burgers/hamburgers.
+- Wings = **chicken wings**.
+- Pizza = pizza.
 
-## 6. Owner domains
+Divisions are **nonexclusive League-cultural/home-venue overlays**, not species categories, ethnic borders or three sovereign food kingdoms. A division may span different physical zones, and people of different divisions may live beside one another.
 
-Each owner has a domain relationship inside a division:
-- Trade Jedi — eastern upper-valley strategic base.
-- Predator Board — stormward ruin/forest edge.
-- Slob — Burgers foothill camp.
-- Hostile Takeover — inner-sea mercantile headquarters.
-- Arsenal Gorilla Warrior — Burgers highland martial sphere.
-- Podium Shadow — Wings waterfall/temple country.
-- Chili Outlaw — Wings western frontier stable.
-- Belt Keeper — Pizza northeast storm-cliff keep.
-- Weather System — Pizza storm coast.
-- Mud Dogs — Wings southern swamp.
-- People's Champ — Burgers central-basin road commons.
-- Dr. Duckhook — Wings Country Club of Jackson.
+The controlling example is TDS + Chili: they coexist socially/geographically despite belonging to Burgers and Wings respectively.
 
-These are relationships to place. They do not imply twelve independent nations.
+## 6. Inhabitant ontology
 
-## 7. Character firewall
+Population/civilization status is governed by:
 
-Worldbuilding never overrides Character Control Plane.
+`world/civilization/INHABITANT_ONTOLOGY_V1.md`
 
-Critical current locks:
-- Jake Kaloper / Trade Jedi: NO championship belt.
-- Wilson Look / D0nkey K0ng: Arsenal Gorilla Warrior; retired centaur/equine anatomy prohibited.
-- Phillip Pitts / Three Dreaded Snake: one anthropomorphic reptilian body with three serpent heads.
-- Austin Byars: Belt Keeper identity survives team renames.
-- Brandon Pryor: Chili Outlaw + Dark Horse.
+### Peopled kinds
+The following inhabit home societies containing ordinary members of their own broad kind:
+- ObiWan / Trade Jedi
+- D0nkey K0ng / Arsenal Gorilla Warrior
+- Red Leopards / Predator Board
+- Slob / Frat-Bro Berserker
+- Mud Dogs / Swamp-Born Menace
+- Seven Deadly Chins / People's Champ
 
-## 8. Persistent locations
+### Singular beings
+The following are one of a kind; no population of their exact ontological type is implied:
+- Austin Byars / Belt Keeper
+- Zach Wilson / Dr. Duckhook
+- Manning Welty / El Niño
+- David Babb / The LLC
 
-The Location Register separates:
+### Shared cohabitation
+TDS and Chili share a mixed social/geographic space irrespective of division.
+
+### Personhood
+Compact-recognized personhood is morphology-neutral. Sapient nonhuman or singular inhabitants can hold land, contract, travel, participate in institutions and enter sanctioned Encounters.
+
+## 7. El Niño dual manifestation
+
+El Niño is a singular Weather System.
+
+Approved presentation modes:
+- **EMBODIED** — the established humanoid storm/water/cloud/lightning character.
+- **ATMOSPHERIC_MANIFESTATION** — the natural storm/disaster itself when the story/world-state record explicitly resolves that event as El Niño.
+- **AMBIGUOUS** — inhabitants dispute whether a weather event was El Niño.
+
+Not every storm is El Niño. Ordinary weather still follows physical climate and watershed rules.
+
+## 8. Owner domains
+
+Each owner has a stable home relationship recorded in:
+
+`world/domains/OWNER_DOMAIN_REGISTER_V1.md`
+
+Home anchors:
+- ObiWan → Trade Jedi Mountain Base
+- D0nkey K0ng → D0nkey K0ng Highland Stronghold
+- TDS → Waterfall Temple
+- Mud Dogs → Mud Dogs Swamp
+- Red Leopards → Red Leopard Ruins
+- Slob → Slob Foothill Camp
+- Chili → Chili Stable
+- Duckhook → Country Club of Jackson
+- LLC → LLC Boardroom
+- HMB → Belt Keeper Rune Keep
+- El Niño → Storm Bowl / coast
+- Seven Chins → People's Champ Road Commons
+
+## 9. Encounter venue law
+
+Venue resolution is governed by:
+
+`world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md`
+
+### Ordinary regular season / divisional
+Default venue = verified **home team's home environment**.
+
+A Wings home game therefore means that particular Wings owner's environment, not generic Wings scenery.
+
+### Major matchups
+Game of the Week, playoffs and championships default to an approved **neutral location** elsewhere inside the same Schemin world.
+
+Neutral means institutionally neutral, not geographically undefined. The site requires:
+- location ID;
+- physical zone;
+- routes;
+- entering world state;
+- weather/climate;
+- continuity.
+
+## 10. Persistent locations
+
+The Location Register and `world/data/locations.json` separate:
 - permanent canon;
 - provisional canon;
 - temporary site;
 - visual metaphor;
 - superseded.
 
-Recurring sites include the Mud Dogs swamp, Country Club of Jackson, LLC Boardroom, Arsenal Barbershop, Red Leopard ruins, TDS waterfall temple, Chili stable, League Chamber and Pittsy's Book.
+Recurring sites include:
+- Trade Jedi Mountain Base;
+- D0nkey K0ng Highland Stronghold;
+- Arsenal Barbershop;
+- TDS Waterfall Temple;
+- TDS–Chili Shared March;
+- Mud Dogs Swamp;
+- Red Leopard Ruins;
+- Slob Foothill Camp;
+- Chili Stable;
+- Country Club of Jackson;
+- LLC Boardroom / Storm City;
+- Belt Keeper Rune Keep;
+- Storm Bowl;
+- People's Champ Road Commons;
+- League Archive;
+- League Chamber;
+- Compact Neutral Grounds;
+- Pittsy's Book;
+- approved Week 3 event sites.
 
-Week 3 adds provisional sites such as Bridge/Mountain Lake, Mire Hill, Alpine Wager Route, Southern Speedway and LLC Storm City.
+## 11. Travel
 
-## 9. Travel
+The Living Novel travel graph is no longer a zero-edge seed.
 
-Travel classes:
-- LOCAL
-- REGIONAL
-- CROSS_DIVISION
-- EXPEDITION
+`living-novel/os/geography/world_travel_graph_v1.json` is hydrated from World Engine locations/routes and contains approved path edges.
 
-Distance is narratively real even where mileage remains abstract. Mountains, wetlands and weather alter travel cost.
+Travel remains non-metric at the prose level, but:
+- routes are accountable;
+- route chains exist;
+- minimum narrative travel bounds can be tested;
+- mountains, wetlands and storms change travel cost;
+- unreachable scenes are blocked before drafting.
 
-## 10. Weather
+The reader need not see the logistics. The production system must know them.
+
+## 12. Weather
 
 Weather belongs to geography and state.
 
-A major eastern coastal storm can affect ports, inland routes and river conditions. Flooding follows watersheds. Northern snow affects passes. Western dryness shapes travel. El Niño's character language does not grant permission to ignore regional climate continuity.
+A major eastern storm can affect ports, roads and downstream water. Flooding follows watersheds. Northern snow affects passes. Western dryness shapes movement.
 
-## 11. World state
+El Niño's character may be the weather event itself only under the explicit manifestation rule in §7.
 
-Approved events can mutate location state:
-- damage
-- flood
-- repair
-- occupation
-- contamination
-- scar
-- memorialization
-- route closure
-- weather aftermath
+## 13. World state
+
+Approved events can mutate:
+- damage;
+- flood;
+- repair;
+- occupation;
+- contamination;
+- scar;
+- memorialization;
+- route closure;
+- weather aftermath;
+- reputation attached to place.
 
 Every mutation has provenance and continuity-out.
 
-The end-of-Week-3 baseline remembers:
-- LLC Boardroom intrusion history;
-- Bridge decision landmark;
-- Mire Hill scar;
-- Country Club chili episode;
-- Alpine wager route;
-- Southern Speedway event;
-- LLC Storm City weather event.
-
-## 12. Rendering
+## 14. Rendering
 
 Atlas, Memo art and Novel illustration are renderers/consumers.
 
@@ -145,29 +231,32 @@ They may vary:
 They may not silently vary:
 - geography;
 - division membership;
+- home venue;
 - owner-domain identity;
 - persistent state;
+- inhabitant ontology;
 - character canon.
 
-## 13. Atlas layers
+## 15. Character firewall
 
-- Physical
-- Divisions
-- Owner Domains
-- Routes
-- World State
-- Weather
-- Horizon / visibility
+Character Control Plane remains body-form authority.
 
-The layers share stable IDs.
+Current critical locks:
+- Trade Jedi: NO championship belt.
+- Wilson Look / D0nkey K0ng: **Arsenal Gorilla Warrior; no centaur/equine anatomy**.
+- TDS: one reptilian body with three serpent heads.
+- Belt Keeper identity survives team renames.
+- Chili Outlaw retains Dark Horse.
 
-## 14. Weekly ingestion
+Historical centaur material remains historical/superseded and does not define current ontology.
 
-`League truth → Fact Lock → Character/Temporal Canon → World Resolver → Story Room → Visual/Narrative production → QA → approved state delta → World State Ledger`
+## 16. Weekly ingestion
+
+`League truth → Fact Lock → Character/Temporal Canon → Venue Resolver → World/Travel Resolver → Story Room → Production → QA → approved state delta → World State Ledger`
 
 The weekly cycle adds history. It does not reset it.
 
-## 15. Canon classes
+## 17. Canon classes
 
 - LOCKED_CANON
 - INTERPRETIVE_CANON
@@ -175,41 +264,28 @@ The weekly cycle adds history. It does not reset it.
 - OPEN_TERRITORY
 - SUPERSEDED
 
-Locations additionally use:
-- PERMANENT_CANON
-- PROVISIONAL_CANON
-- TEMPORARY_SITE
-- VISUAL_METAPHOR
-- SUPERSEDED
+Unknown biology, origins and deep metaphysics remain unknown until deliberately resolved.
 
-## 16. Open territory
+## 18. Production test
 
-V1 intentionally does not fully define:
-- exact political borders beneath League divisions;
-- exact mileage;
-- full city populations;
-- complete pre-2026 history;
-- every League institution's legal authority;
-- full metaphysics of non-human inhabitants;
-- final proper names for every owner base.
-
-These omissions are controlled space for future worldbuilding, not defects.
-
-## 17. Production test
-
-A future page must be able to answer:
+A future scene/page must answer:
+- Who is home?
+- Is this regular or major/neutral?
 - Where are we?
 - Which physical zone?
-- Which division?
-- Whose domain?
-- How did characters arrive?
+- Which division layer(s)?
+- Whose domain or neutral institution?
+- Which inhabitants plausibly live here?
+- How did visitors arrive?
+- What route/path supports that arrival?
 - What prior event changed this place?
+- What weather/state enters the scene?
 - What should be visible?
 - What cannot appear?
 - What changes when the scene ends?
 
-If those questions cannot be answered, production pauses before finished art.
+If those questions cannot be resolved, production pauses before finished art.
 
-## 18. Release principle
+## 19. Release principle
 
-The World Bible is a human-readable view over the World Engine. Machine data and QA prevent a beautiful new page from accidentally rewriting the universe.
+The World Bible is a human-readable view over the World Engine. Machine data and QA prevent convincing prose or beautiful art from creating unaccountable geography or accidental biology.
