@@ -1,0 +1,58 @@
+schema_version: "1.0"
+zones:
+  - id: REG-NORTHERN-SPINE
+    name: Northern Spine
+    canon_state: INTERPRETIVE_CANON
+    adjacent_to: [REG-UPPER-VALLEYS, REG-EASTERN-STORM]
+    elevation_band: high
+    climate: cold_mountain
+    water_relationship: snowfed_headwaters
+    travel_constraints: [passes, snow, steep_grade]
+  - id: REG-UPPER-VALLEYS
+    name: Upper Valleys and Foothills
+    canon_state: INTERPRETIVE_CANON
+    adjacent_to: [REG-NORTHERN-SPINE, REG-CENTRAL-BASIN, REG-WESTERN-TABLELANDS, REG-EASTERN-STORM]
+    elevation_band: upland
+    climate: temperate_mixed
+    water_relationship: lakes_streams_headwaters
+    travel_constraints: [ridge_roads, seasonal_mud]
+  - id: REG-CENTRAL-BASIN
+    name: Central River Basin
+    canon_state: INTERPRETIVE_CANON
+    adjacent_to: [REG-UPPER-VALLEYS, REG-WESTERN-TABLELANDS, REG-EASTERN-STORM, REG-SOUTHERN-WETLANDS, REG-INNER-SEA]
+    elevation_band: lowland
+    climate: temperate_fertile
+    water_relationship: navigable_rivers
+    travel_constraints: [bridge_tolls, floodplain]
+  - id: REG-WESTERN-TABLELANDS
+    name: Western Tablelands
+    canon_state: INTERPRETIVE_CANON
+    adjacent_to: [REG-UPPER-VALLEYS, REG-CENTRAL-BASIN, REG-SOUTHERN-WETLANDS]
+    elevation_band: elevated_open
+    climate: drier_rainshadow
+    water_relationship: sparse_streams
+    travel_constraints: [distance, water_access]
+  - id: REG-EASTERN-STORM
+    name: Eastern Forest and Storm Coast
+    canon_state: INTERPRETIVE_CANON
+    adjacent_to: [REG-NORTHERN-SPINE, REG-UPPER-VALLEYS, REG-CENTRAL-BASIN, REG-INNER-SEA]
+    elevation_band: mixed
+    climate: wet_storm_exposed
+    water_relationship: coastal_rivers
+    travel_constraints: [forest, storms, rocky_coast]
+  - id: REG-SOUTHERN-WETLANDS
+    name: Southern Wetlands and Delta
+    canon_state: INTERPRETIVE_CANON
+    adjacent_to: [REG-WESTERN-TABLELANDS, REG-CENTRAL-BASIN, REG-INNER-SEA]
+    elevation_band: very_low
+    climate: warm_humid
+    water_relationship: delta_marsh
+    travel_constraints: [flooding, disease, soft_ground]
+  - id: REG-INNER-SEA
+    name: Inner Sea Littoral
+    canon_state: INTERPRETIVE_CANON
+    adjacent_to: [REG-CENTRAL-BASIN, REG-EASTERN-STORM, REG-SOUTHERN-WETLANDS]
+    elevation_band: coastal
+    climate: warm_maritime
+    water_relationship: sea_bays_islands
+    travel_constraints: [storms, port_access]
