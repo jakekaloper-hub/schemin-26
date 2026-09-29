@@ -1,0 +1,14 @@
+schema_version: "1.0"
+rules:
+  - source: LOC-BRIDGE-LAKE
+    visible: [REG-NORTHERN-SPINE]
+    condition: clear_weather
+  - source: LOC-LLC-CITADEL
+    visible: [LOC-LLC-FLOOD-DISTRICT]
+    condition: district_scale
+  - source: LOC-DUCK-COUNTRY-CLUB
+    visible: []
+    condition: enclosed_estate
+  - source: LOC-HMB-CHAMPION-HOLD
+    visible: [REG-EASTERN-STORM]
+    condition: long_range_clear
