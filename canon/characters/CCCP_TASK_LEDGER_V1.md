@@ -8,18 +8,18 @@
 |T02|Immutable owner IDs + alias normalization|Architect + League Historian|COMPLETE / PASS|
 |T03|Reference-asset authority manifest|Librarian + Visual Director|IDENTITY PASS / PORTABILITY HOLD|
 |T04|12 owner identity/Visual-DNA/invariant packages|Character Room|COMPLETE / PASS|
-|T05|Environment/object/companion linkage|Continuity Director|AUTHORIZED / PLANNED|
-|T06|Deterministic resolver + supersession|Architect|QUEUED|
-|T07|Render Contract compiler|Visual Systems|QUEUED|
-|T08|Character QA contracts|Umpire/QA|QUEUED|
-|T09|Memo OS integration|Memo OS Director|QUEUED|
-|T10|Chronicles integration|Chronicles Director|QUEUED|
-|T11|Living Novel integration|Novel OS Director|QUEUED|
-|T12|Other visual pipeline integration|Architect + Visual Systems|QUEUED|
-|T13|Alias/stale-canon adversarial suite|Red Team|QUEUED|
-|T14|Multi-character contamination suite|Red Team + Visual Director|QUEUED|
-|T15|Controlled visual acceptance sheets|Visual Director|QUEUED|
-|T16|Regression + release certification|Closer + Umpire|QUEUED|
+|T05|Environment/object/companion linkage|Continuity Director|COMPLETE / PASS|
+|T06|Deterministic resolver + supersession|Architect|COMPLETE / PASS|
+|T07|Render Contract compiler|Visual Systems|COMPLETE / PASS (G1 portability retained)|
+|T08|Character QA contracts|Umpire/QA|COMPLETE / PASS|
+|T09|Memo OS integration|Memo OS Director|COMPLETE / PASS|
+|T10|Chronicles integration|Chronicles Director|COMPLETE / PASS|
+|T11|Living Novel integration|Novel OS Director|COMPLETE / PASS|
+|T12|Other visual pipeline integration|Architect + Visual Systems|COMPLETE / PASS (G1 portability retained)|
+|T13|Alias/stale-canon adversarial suite|Red Team|COMPLETE / PASS_WITH_G1_VISUAL_RETEST|
+|T14|Multi-character contamination suite|Red Team + Visual Director|COMPLETE / PASS_WITH_G1_VISUAL_RETEST|
+|T15|Controlled visual acceptance sheets|Visual Director|HOLD — G1/G2/G3 prerequisites open|
+|T16|Regression + release certification|Closer + Umpire|BLOCKED_BY_T15|
 
 ## T01 closeout
 Repository archaeology found Master Canon, Character Reference Layer, Chronicle visual authority lock, Chronicle packets, Memo locks, Living Novel material and post-release drift forensics. Week 3 forensics proves the primary defect is gate integrity, not absence of doctrine.
@@ -52,3 +52,7 @@ T04 package specifications exist for all 12 immutable owner IDs and passed struc
 - G3 Phillip Pitts modernization: READY_FOR_VISUAL_DEVELOPMENT; identity-preserving brief committed.
 - T05–T16 senior execution/dependency plan committed at `CCCP_T05_T16_SENIOR_EXECUTION_PLAN_V1.md`.
 - T05 is authorized, but no later task may be represented as executed merely because its plan exists.
+
+
+## Execution run — T05 through T16 preflight
+T05–T14 executed in dependency order with gate reports. T15 was reached and correctly HOLDs because G1 durable binary portability and G2/G3 Austin/Pitts modernized master references are not closed. T16 is dependency-blocked and may not certify ACTIVE.
