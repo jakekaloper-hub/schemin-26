@@ -30,7 +30,16 @@ jobs:
         run: python world/engine/validate_world.py
       - name: Run World Engine regression suite
         run: python world/qa/test_world_engine.py
+      - name: Re-run Memo OS V5.5 acceptance suite
+        run: python memo-os/tests/v5_5_acceptance_suite.py
+      - name: Re-run Week 4 preproduction smoke
+        run: python -m unittest -v memo-os/tests/test_week4_preproduction_open.py
       - name: Render deterministic atlas prototype
         run: |
           python world/atlas/render_atlas_svg.py
           test -s world/atlas/prototypes/SCHEMIN_ATLAS_V1_SCHEMATIC.svg
+      - name: Upload atlas prototype
+        uses: actions/upload-artifact@v4
+        with:
+          name: schemin-atlas-v1-schematic
+          path: world/atlas/prototypes/SCHEMIN_ATLAS_V1_SCHEMATIC.svg
