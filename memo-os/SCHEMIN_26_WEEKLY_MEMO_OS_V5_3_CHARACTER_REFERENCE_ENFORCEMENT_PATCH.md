@@ -49,7 +49,7 @@ Character identity is immutable. Scene, pose, action, camera, expression, enviro
 2. Red Leopards / Kevin Zeek — The Predator Board. Giant anthropomorphic red leopard with black rosettes and red/black/gold armor.
 3. Slob on my Dobb / Jordan Hollingshead — Win Ugly / Frat-Bro Berserker. Heavy shaggy horned berserker, filthy Slob identity, beer/bat, bulldog/pit-bull companion.
 4. The LLC / David Babb — Hostile Takeover. Human corporate raider, tailored dark suit, sunglasses, cigar, LLC briefcase.
-5. D0nkey K0ng / Wilson Look — Philosopher-Warrior / Arsenal Centaur. Human warrior torso joined to full equine body, Arsenal-red identity, battle axe/tankard. **NO GORILLA, APE, HUMAN-ONLY BARBARIAN OR JUNGLE MASCOT.**
+5. Donkey Kong / Wilson Look — Donkey Kong / Arsenal Gorilla Warrior. Massive black-furred gorilla warrior; Arsenal-red jersey/armor; ornate double-headed axe; metal tankard; bronze/gold fantasy armor. **OWNER-SPECIFIC 2026-09-29 REFERENCE OVERRIDES THE OLDER LINEUP CENTAUR PANEL. NO CENTAUR/EQUINE, MOUNTED-HUMAN OR HUMAN-ONLY SUBSTITUTE.**
 6. Three Dreaded Snake / Phillip Pitts — The Podium Shadow. **ONE** green/gold reptilian humanoid with dreadlocks and #3 identity. **NO THREE-HEADED SNAKE, THREE SNAKES, MEDUSA OR HUMAN SUBSTITUTE.**
 7. Chili Cheesers / Brandon Pryor — The Chili Outlaw. Bearded human Western outlaw/pitmaster, black hat, sunglasses, red/black clothing, chili bandolier/bowl, Dark Horse.
 8. El Niño / Manning Welty — The Weather System. Nonhuman storm/water/lightning elemental humanoid. Never ordinary human, chef, child, surfer or generic wizard.
@@ -141,3 +141,6 @@ Before repairing pages, Bullpen must:
 A league member should recognize a character from appearance alone without needing the team label.
 
 **MASTER REFERENCE IS BINDING. IDENTITY IS IMMUTABLE. CONTINUITY MAY EVOLVE. GENERATION MAY NOT REINTERPRET CANON.**
+
+## Wilson Look supersession patch — 2026-09-29
+For Wilson Look only, reference resolution MUST select the Commissioner-approved 2026-09-29 gorilla-warrior image before the twelve-owner lineup plate. Any workflow selecting the retired centaur panel fails REFERENCE_RESOLUTION and must stop before generation. Character QA rejects any centaur/equine anatomy.
