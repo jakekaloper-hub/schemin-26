@@ -8,7 +8,7 @@
       "canon_status": "PERMANENT_CANON",
       "location_type": "owner_base",
       "physical_zone_id": "REG-UPPER-VALLEYS",
-      "division_id": "DIV-PIZZA",
+      "division_id": "DIV-BURGERS",
       "owner_character_id": "CHAR-JAKE-KALOPER",
       "abstract_position": [
         69,
@@ -37,7 +37,7 @@
       "canon_status": "PERMANENT_CANON",
       "location_type": "owner_domain",
       "physical_zone_id": "REG-SOUTHERN-WETLANDS",
-      "division_id": "DIV-WINGS",
+      "division_id": "DIV-BURGERS",
       "owner_character_id": "CHAR-BOBBY-MITCHELL",
       "abstract_position": [
         42,
@@ -138,7 +138,8 @@
         "service counter"
       ],
       "current_state": [
-        "Week 2 event memory"
+        "Week 2 event memory",
+        "El Niño may manifest as embodied Weather System or explicitly resolved atmospheric disaster"
       ],
       "source_provenance": [
         "bullpen/PRO_SCHEMIN_WORLD_FOUNDATION_PHASE0_PASS1.md"
@@ -183,7 +184,7 @@
       "canon_status": "PERMANENT_CANON",
       "location_type": "owner_domain",
       "physical_zone_id": "REG-EASTERN-STORM-COAST",
-      "division_id": "DIV-BURGERS",
+      "division_id": "DIV-WINGS",
       "owner_character_id": "CHAR-KEVIN-ZEEK",
       "abstract_position": [
         75,
@@ -212,7 +213,7 @@
       "canon_status": "PERMANENT_CANON",
       "location_type": "owner_domain",
       "physical_zone_id": "REG-SOUTHERN-WETLANDS",
-      "division_id": "DIV-WINGS",
+      "division_id": "DIV-BURGERS",
       "owner_character_id": "CHAR-PHILLIP-PITTS",
       "abstract_position": [
         32,
@@ -227,12 +228,16 @@
         "dense vegetation"
       ],
       "current_state": [
-        "current owner anatomy = one body, three serpent heads"
+        "current owner anatomy = one body, three serpent heads",
+        "cross-divisional coexistence with Chili is canon"
       ],
       "source_provenance": [
         "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
       ],
-      "open_questions": []
+      "open_questions": [],
+      "shared_location_ids": [
+        "LOC-TDS-CHILI-SHARED-MARCH"
+      ]
     },
     {
       "id": "LOC-CHILI-STABLE",
@@ -255,13 +260,17 @@
         "Dark Horse enclosure"
       ],
       "current_state": [
-        "operational"
+        "operational",
+        "cross-divisional coexistence with TDS is canon"
       ],
       "source_provenance": [
         "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
       ],
       "open_questions": [
         "final fictional place-name"
+      ],
+      "shared_location_ids": [
+        "LOC-TDS-CHILI-SHARED-MARCH"
       ]
     },
     {
@@ -301,7 +310,7 @@
       "canon_status": "PROVISIONAL_CANON",
       "location_type": "owner_base",
       "physical_zone_id": "REG-UPPER-VALLEYS",
-      "division_id": "DIV-BURGERS",
+      "division_id": "DIV-WINGS",
       "owner_character_id": "CHAR-JORDAN-HOLLINGSHEAD",
       "abstract_position": [
         37,
@@ -330,7 +339,7 @@
       "canon_status": "PROVISIONAL_CANON",
       "location_type": "owner_base",
       "physical_zone_id": "REG-CENTRAL-BASIN",
-      "division_id": "DIV-BURGERS",
+      "division_id": "DIV-PIZZA",
       "owner_character_id": "CHAR-BEN-WHIPPLE",
       "abstract_position": [
         50,
@@ -419,7 +428,7 @@
       "canon_status": "PROVISIONAL_CANON",
       "location_type": "encounter_landmark",
       "physical_zone_id": "REG-UPPER-VALLEYS",
-      "division_id": null,
+      "division_id": "DIV-BURGERS",
       "owner_character_id": null,
       "abstract_position": [
         64,
@@ -450,7 +459,7 @@
       "canon_status": "PROVISIONAL_CANON",
       "location_type": "encounter_site",
       "physical_zone_id": "REG-CENTRAL-BASIN",
-      "division_id": null,
+      "division_id": "DIV-BURGERS",
       "owner_character_id": null,
       "abstract_position": [
         40,
@@ -482,7 +491,7 @@
       "canon_status": "PROVISIONAL_CANON",
       "location_type": "encounter_route",
       "physical_zone_id": "REG-NORTHERN-SPINE",
-      "division_id": "DIV-BURGERS",
+      "division_id": "DIV-WINGS",
       "owner_character_id": null,
       "abstract_position": [
         45,
@@ -510,7 +519,7 @@
       "canon_status": "PROVISIONAL_CANON",
       "location_type": "encounter_venue",
       "physical_zone_id": "REG-CENTRAL-BASIN",
-      "division_id": "DIV-BURGERS",
+      "division_id": "DIV-PIZZA",
       "owner_character_id": null,
       "abstract_position": [
         47,
@@ -561,6 +570,109 @@
       ],
       "open_questions": [
         "relationship to LOC-LLC-BOARDROOM building"
+      ]
+    },
+    {
+      "id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "name": "D0nkey K0ng Highland Stronghold",
+      "canon_status": "INTERPRETIVE_CANON",
+      "location_type": "owner_base",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "division_id": "DIV-BURGERS",
+      "owner_character_id": "CHAR-WILSON-LOOK",
+      "abstract_position": [
+        48,
+        68
+      ],
+      "access_route_ids": [
+        "ROUTE-DK-HIGHLAND-LINK"
+      ],
+      "persistent_landmarks": [
+        "highland stronghold",
+        "training court",
+        "road approach"
+      ],
+      "current_state": [
+        "current principal identity = Arsenal Gorilla Warrior",
+        "peopled-kind home society"
+      ],
+      "source_provenance": [
+        "canon/characters/CHARACTER_REGISTRY.yaml",
+        "world/civilization/INHABITANT_ONTOLOGY_V1.md"
+      ],
+      "open_questions": [
+        "final proper place-name"
+      ]
+    },
+    {
+      "id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "name": "TDS–Chili Shared March",
+      "canon_status": "INTERPRETIVE_CANON",
+      "location_type": "shared_cross_division_settlement_corridor",
+      "physical_zone_id": "REG-WESTERN-TABLELANDS",
+      "division_id": null,
+      "division_presence_ids": [
+        "DIV-BURGERS",
+        "DIV-WINGS"
+      ],
+      "owner_character_ids": [
+        "CHAR-PHILLIP-PITTS",
+        "CHAR-BRANDON-PRYOR"
+      ],
+      "abstract_position": [
+        28,
+        42
+      ],
+      "access_route_ids": [
+        "ROUTE-TDS-CHILI-SHARED-MARCH"
+      ],
+      "persistent_landmarks": [
+        "mixed caravan settlement",
+        "watercourse crossing",
+        "stable-and-market quarter"
+      ],
+      "current_state": [
+        "TDS and Chili coexist here regardless of League division"
+      ],
+      "source_provenance": [
+        "bullpen/UNIVERSE_GEOGRAPHY_ONTOLOGY_BOARD_2026-09-29.md",
+        "world/civilization/INHABITANT_ONTOLOGY_V1.md"
+      ],
+      "open_questions": [
+        "final proper place-name",
+        "TDS wider population status"
+      ]
+    },
+    {
+      "id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "name": "Compact Neutral Grounds",
+      "canon_status": "PROVISIONAL_CANON",
+      "location_type": "neutral_encounter_ground",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": null,
+      "owner_character_id": null,
+      "abstract_position": [
+        60,
+        46
+      ],
+      "access_route_ids": [
+        "ROUTE-COMPACT-GROUNDS"
+      ],
+      "persistent_landmarks": [
+        "open ceremonial field",
+        "arbiter pavilion",
+        "arrival roads"
+      ],
+      "current_state": [
+        "neutral major-Encounter venue"
+      ],
+      "source_provenance": [
+        "living-novel/world/INSTITUTIONS_AND_CHAMPIONSHIP.md",
+        "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+      ],
+      "open_questions": [
+        "final proper place-name",
+        "championship-specific ceremonial expansion"
       ]
     }
   ]
