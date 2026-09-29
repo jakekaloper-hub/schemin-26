@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "authority": "COMMISSIONER_DIRECTIVE_2026-09-29",
+  "classes": [
+    "POPULATION_MEMBER",
+    "SINGULAR_BEING",
+    "CORESIDENT_OPEN_ONTOLOGY",
+    "NATURAL_FORCE"
+  ],
+  "kinds": [
+    {
+      "id": "KIND-HUMAN",
+      "status": "ESTABLISHED_POPULATION"
+    },
+    {
+      "id": "KIND-GORILLA-FOLK",
+      "status": "ESTABLISHED_POPULATION"
+    },
+    {
+      "id": "KIND-LEOPARD-FOLK",
+      "status": "ESTABLISHED_POPULATION"
+    },
+    {
+      "id": "KIND-MUD-DOG-PEOPLE",
+      "status": "ESTABLISHED_POPULATION"
+    }
+  ],
+  "entities": [
+    {
+      "character_id": "CHAR-JAKE-KALOPER",
+      "class": "POPULATION_MEMBER",
+      "kind_id": "KIND-HUMAN",
+      "others_of_kind": true
+    },
+    {
+      "character_id": "CHAR-KEVIN-ZEEK",
+      "class": "POPULATION_MEMBER",
+      "kind_id": "KIND-LEOPARD-FOLK",
+      "others_of_kind": true
+    },
+    {
+      "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "class": "POPULATION_MEMBER",
+      "kind_id": "KIND-HUMAN",
+      "others_of_kind": true
+    },
+    {
+      "character_id": "CHAR-DAVID-BABB",
+      "class": "SINGULAR_BEING",
+      "kind_id": null,
+      "others_of_kind": false,
+      "no_species_inference": true
+    },
+    {
+      "character_id": "CHAR-WILSON-LOOK",
+      "class": "POPULATION_MEMBER",
+      "kind_id": "KIND-GORILLA-FOLK",
+      "others_of_kind": true,
+      "hard_locks": [
+        "NO_CENTAUR_ANATOMY"
+      ]
+    },
+    {
+      "character_id": "CHAR-PHILLIP-PITTS",
+      "class": "CORESIDENT_OPEN_ONTOLOGY",
+      "kind_id": null,
+      "others_of_kind": null,
+      "co_resides_with": [
+        "CHAR-BRANDON-PRYOR"
+      ],
+      "hard_locks": [
+        "ONE_BODY_THREE_SERPENT_HEADS"
+      ]
+    },
+    {
+      "character_id": "CHAR-BRANDON-PRYOR",
+      "class": "CORESIDENT_OPEN_ONTOLOGY",
+      "kind_id": null,
+      "others_of_kind": null,
+      "co_resides_with": [
+        "CHAR-PHILLIP-PITTS"
+      ]
+    },
+    {
+      "character_id": "CHAR-AUSTIN-BYARS",
+      "class": "SINGULAR_BEING",
+      "kind_id": null,
+      "others_of_kind": false,
+      "no_species_inference": true
+    },
+    {
+      "character_id": "CHAR-MANNING-WELTY",
+      "class": "NATURAL_FORCE",
+      "kind_id": null,
+      "others_of_kind": false,
+      "literal_person": false,
+      "phenomenon": "mobile storm/weather system",
+      "hard_locks": [
+        "NO_HUMANOID_BODY"
+      ]
+    },
+    {
+      "character_id": "CHAR-BOBBY-MITCHELL",
+      "class": "POPULATION_MEMBER",
+      "kind_id": "KIND-MUD-DOG-PEOPLE",
+      "others_of_kind": true
+    },
+    {
+      "character_id": "CHAR-BEN-WHIPPLE",
+      "class": "POPULATION_MEMBER",
+      "kind_id": "KIND-HUMAN",
+      "others_of_kind": true
+    },
+    {
+      "character_id": "CHAR-ZACH-WILSON",
+      "class": "SINGULAR_BEING",
+      "kind_id": null,
+      "others_of_kind": false,
+      "no_species_inference": true
+    }
+  ]
+}
