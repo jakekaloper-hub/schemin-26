@@ -7,7 +7,7 @@
       "owner": "Jake Kaloper",
       "team_id": 1,
       "team": "ObiWan Jacoby",
-      "division_id": "DIV-PIZZA",
+      "division_id": "DIV-BURGERS",
       "domain_type": "territorial-strategic",
       "primary_location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
       "physical_zone_ids": [
@@ -16,14 +16,15 @@
       "canon_guard": [
         "NO_CHAMPIONSHIP_BELT"
       ],
-      "status": "INTERPRETIVE_CANON"
+      "status": "INTERPRETIVE_CANON",
+      "ontology_class": "PEOPLED_KIND"
     },
     {
       "character_id": "CHAR-KEVIN-ZEEK",
       "owner": "Kevin Zeek",
       "team_id": 2,
       "team": "Red Leopards",
-      "division_id": "DIV-BURGERS",
+      "division_id": "DIV-WINGS",
       "domain_type": "territorial",
       "primary_location_id": "LOC-RED-RUINS",
       "physical_zone_ids": [
@@ -32,14 +33,15 @@
       "canon_guard": [
         "RED_LEOPARD_PREDATOR"
       ],
-      "status": "INTERPRETIVE_CANON"
+      "status": "INTERPRETIVE_CANON",
+      "ontology_class": "PEOPLED_KIND"
     },
     {
       "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
       "owner": "Jordan Hollingshead",
       "team_id": 3,
       "team": "Slob on my Dobb",
-      "division_id": "DIV-BURGERS",
+      "division_id": "DIV-WINGS",
       "domain_type": "mobile-camp",
       "primary_location_id": "LOC-SLOB-FOOTHILL-CAMP",
       "physical_zone_ids": [
@@ -49,7 +51,8 @@
         "FRAT_BRO_BERSERKER",
         "PIT_BULL"
       ],
-      "status": "INTERPRETIVE_CANON"
+      "status": "INTERPRETIVE_CANON",
+      "ontology_class": "PEOPLED_KIND"
     },
     {
       "character_id": "CHAR-DAVID-BABB",
@@ -65,7 +68,8 @@
       "canon_guard": [
         "HOSTILE_TAKEOVER"
       ],
-      "status": "INTERPRETIVE_CANON"
+      "status": "INTERPRETIVE_CANON",
+      "ontology_class": "SINGULAR_BEING"
     },
     {
       "character_id": "CHAR-WILSON-LOOK",
@@ -74,7 +78,7 @@
       "team": "D0nkey K0ng",
       "division_id": "DIV-BURGERS",
       "domain_type": "martial-territorial",
-      "primary_location_id": "LOC-ARSENAL-BARBERSHOP",
+      "primary_location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
       "physical_zone_ids": [
         "REG-UPPER-VALLEYS",
         "REG-NORTHERN-SPINE"
@@ -83,14 +87,15 @@
         "ARSENAL_GORILLA_WARRIOR",
         "NO_CENTAUR_ANATOMY"
       ],
-      "status": "INTERPRETIVE_CANON"
+      "status": "INTERPRETIVE_CANON",
+      "ontology_class": "PEOPLED_KIND"
     },
     {
       "character_id": "CHAR-PHILLIP-PITTS",
       "owner": "Phillip Pitts",
       "team_id": 6,
       "team": "Three Dreaded Snake",
-      "division_id": "DIV-WINGS",
+      "division_id": "DIV-BURGERS",
       "domain_type": "territorial-institutional",
       "primary_location_id": "LOC-TDS-WATERFALL-TEMPLE",
       "physical_zone_ids": [
@@ -99,7 +104,11 @@
       "canon_guard": [
         "ONE_BODY_THREE_SERPENT_HEADS"
       ],
-      "status": "INTERPRETIVE_CANON"
+      "status": "INTERPRETIVE_CANON",
+      "ontology_class": "SHARED_COHABITATION",
+      "shared_location_ids": [
+        "LOC-TDS-CHILI-SHARED-MARCH"
+      ]
     },
     {
       "character_id": "CHAR-BRANDON-PRYOR",
@@ -116,7 +125,11 @@
         "CHILI_OUTLAW",
         "DARK_HORSE"
       ],
-      "status": "INTERPRETIVE_CANON"
+      "status": "INTERPRETIVE_CANON",
+      "ontology_class": "SHARED_COHABITATION",
+      "shared_location_ids": [
+        "LOC-TDS-CHILI-SHARED-MARCH"
+      ]
     },
     {
       "character_id": "CHAR-AUSTIN-BYARS",
@@ -134,7 +147,8 @@
         "BELT_KEEPER",
         "CHAMPIONSHIP_BELT"
       ],
-      "status": "INTERPRETIVE_CANON"
+      "status": "INTERPRETIVE_CANON",
+      "ontology_class": "SINGULAR_BEING"
     },
     {
       "character_id": "CHAR-MANNING-WELTY",
@@ -151,14 +165,20 @@
       "canon_guard": [
         "WEATHER_SYSTEM"
       ],
-      "status": "INTERPRETIVE_CANON"
+      "status": "INTERPRETIVE_CANON",
+      "ontology_class": "SINGULAR_BEING",
+      "manifestation_modes": [
+        "EMBODIED",
+        "ATMOSPHERIC_MANIFESTATION",
+        "AMBIGUOUS"
+      ]
     },
     {
       "character_id": "CHAR-BOBBY-MITCHELL",
       "owner": "Bobby Mitchell",
       "team_id": 10,
       "team": "Mud Dogs",
-      "division_id": "DIV-WINGS",
+      "division_id": "DIV-BURGERS",
       "domain_type": "territorial",
       "primary_location_id": "LOC-MUD-DOGS-SWAMP",
       "physical_zone_ids": [
@@ -167,14 +187,15 @@
       "canon_guard": [
         "SWAMP_BORN_MENACE"
       ],
-      "status": "INTERPRETIVE_CANON"
+      "status": "INTERPRETIVE_CANON",
+      "ontology_class": "PEOPLED_KIND"
     },
     {
       "character_id": "CHAR-BEN-WHIPPLE",
       "owner": "Ben Whipple",
       "team_id": 11,
       "team": "Seven Deadly Chins",
-      "division_id": "DIV-BURGERS",
+      "division_id": "DIV-PIZZA",
       "domain_type": "roadside-populist",
       "primary_location_id": "LOC-CHINS-ROAD-COMMONS",
       "physical_zone_ids": [
@@ -184,7 +205,8 @@
         "PEOPLES_CHAMP",
         "RACCOON"
       ],
-      "status": "INTERPRETIVE_CANON"
+      "status": "INTERPRETIVE_CANON",
+      "ontology_class": "PEOPLED_KIND"
     },
     {
       "character_id": "CHAR-ZACH-WILSON",
@@ -201,7 +223,8 @@
         "KING_OF_IMPOSSIBLE_LIE",
         "DUCK_GOLFER"
       ],
-      "status": "INTERPRETIVE_CANON"
+      "status": "INTERPRETIVE_CANON",
+      "ontology_class": "SINGULAR_BEING"
     }
   ]
 }
