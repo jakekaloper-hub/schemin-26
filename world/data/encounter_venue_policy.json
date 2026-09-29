@@ -37,13 +37,15 @@
   },
   "neutral_pool": [
     "LOC-LEAGUE-CHAMBER",
-    "LOC-COMPACT-NEUTRAL-GROUNDS",
-    "LOC-BRIDGE-MOUNTAIN-LAKE"
+    "LOC-COMPACT-NEUTRAL-GROUNDS"
   ],
   "rules": {
     "require_verified_home_team": true,
     "require_approved_route_path": true,
     "inherit_world_state": true,
     "visual_renderer_may_select_venue": false
-  }
+  },
+  "conditional_neutral_pool": [
+    "LOC-BRIDGE-MOUNTAIN-LAKE"
+  ]
 }
