@@ -63,6 +63,7 @@ cases = [
  Case("R01","Week 3 TDS continuity reset is detected",tds_known_failure_is_detected),
  Case("R02a","Week 3 DK release-time centaur passes historical canon",historical_design_passes_release_canon),
  Case("R02b","Retired centaur is blocked for current DK production",retired_design_blocked_for_current),
+ Case("T01-T03","Temporal receipt separates historical and current canon",temporal_receipt_separates_historical_and_current),
  Case("R03-R04","Commissioner-supplied provenance survives",provenance_preserved),
  Case("R05","Release manifest remains exactly 21 pages",release_manifest_matches),
  Case("A01-A02","Approved asset receipt is immutable/locked",asset_lock_works),
