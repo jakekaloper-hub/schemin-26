@@ -1,132 +1,67 @@
 # WINGS DIVISION INDEX V1
 
-**Status:** INTERPRETIVE CANON — WORLD ENGINE V1  
-**2026 members:** Mud Dogs, Chili Cheesers, Three Dreaded Snake, Dr. Duckhook  
+**Status:** INTERPRETIVE CANON — WORLD ENGINE V1.1  
+**2026 members:** Red Leopards, Slob on my Dobb, Chili Cheesers, Dr. Duckhook  
 **Food semantic lock:** WINGS = **chicken wings**.
 
 ## Identity
 
-Wings is the League's **western-to-southern frontier and river division**. It runs from dry open tablelands through wet escarpments into the southern wetlands and delta.
+Wings is a League-cultural home network spanning Red Leopard stormward country, Slob's foothill camp, Chili's western frontier and Duckhook's Country Club wetland estate.
 
-The division's common language is movement, smoke, sauce, ferries, stables, water, mud and outdoor gathering. It is the least architecturally uniform division because its geography changes dramatically west-to-south, but its travel culture and food rituals link it.
+The division is geographically varied by design. Its coherence comes from League affiliation, hospitality and travel culture—not from forcing every Wings owner into the same swamp or western set.
 
-## Spatial footprint
+Chicken-wing identity appears through food, sauce-house culture, pit/smoke traditions, platters, feasts and heraldic marks. It does not mean angel wings, bird-wing kingdoms or flying architecture.
 
-Primary physical zones:
-- Western Tablelands
-- Southern Wetlands and Delta
-- southern Central Basin transition
+## 2026 home anchors
 
-Important connective geography:
-- western range roads
-- river headwaters and falls
-- levee roads
-- wetland causeways
-- ferry crossings
+### Kevin Zeek / Red Leopards
+Red Leopard Ruins on a wet stormward escarpment. Leopard-bodied people exist in the broader home society.
 
-## Environment fingerprint
+### Jordan Hollingshead / Slob on my Dobb
+Slob Foothill Camp in upper-valley road country. His own broad human/berserker kind lives in the society around him; horned equipment alone does not define separate biology.
 
-**Aerial:** open western ridges giving way to darker river country, wetlands, flood channels and scattered raised settlements.
+### Brandon Pryor / Chili Cheesers
+Chili Stable in the Western Tablelands. Dark Horse, frontier travel, pits/smoke and market roads remain defining.
 
-**Street:** dust road or boardwalk/causeway depending subregion; stables, timber halls, porches, smoke pits and river landings.
-
-**Interior:** timber, iron straps, plaster, trophies, sauce jars, pit tools, hunting/fishing gear, golf or stable paraphernalia depending owner domain.
-
-**Night:** fire pits, dock lanterns, stable lamps and reflections across black water.
-
-**Bad weather:** flash mud on frontier tracks, high river, flooded low roads, fog, humid storm aftermath.
-
-## Architecture and materials
-
-Core materials:
-- timber
-- iron straps
-- river stone
-- copper
-- canvas
-- weathered plaster
-- raised foundations in wet country
-
-Settlement types:
-- frontier compounds
-- ferry villages
-- raised wetland towns
-- river clubs/estates
-- stable yards
-- temple/falls settlements
-
-The division should feel adapted to **movement and water**, not like generic swamp fantasy.
-
-## Economy and ordinary life
-
-Likely activities:
-- livestock and horse handling
-- fishing
-- timber
-- river transport
-- peppers/spices and preserved foods
-- ferries
-- wetland agriculture on raised ground
-- frontier trading
-- sporting estates
-
-Ordinary inhabitants include ferrymen, stable workers, fishers, cooks, pitmasters, river traders, guides, carpenters, club staff, hunters and levee crews.
-
-## Chicken-wing culture
-
-Canonical expression channels:
-- chicken-wing crests and division marks
-- communal wing feasts
-- sauce-house colors/seals
-- smoke/pit traditions
-- bone-count wager customs
-- hospitality rituals built around platters, heat and shared sauces
-
-**Do not reinterpret the name as bird wings, angel wings, dragon wings or generic flight symbolism.**
-
-## Owner-domain differentiation
-
-### Bobby Mitchell / Mud Dogs
-Deep wetland territory. Mud, chains, flooded approaches and difficult outsider movement.
-
-### Brandon Pryor / Chili Outlaw
-Western frontier. Stable/hideout, Dark Horse, pepper/chili economy and pit smoke. He is not reduced to food comedy.
-
-### Phillip Pitts / Three Dreaded Snake
-Wet escarpment/headwater zone with waterfall and temple language. Current visual body is **one reptilian humanoid body with three serpent heads**.
+Chili also shares the **TDS–Chili Shared March** with TDS despite their different divisions.
 
 ### Zach Wilson / Dr. Duckhook
-Raised wetland sporting estate around Country Club of Jackson. Water hazards and maintained greens contrast with Mud Dogs' uncontrolled swamp.
+Country Club of Jackson in raised southern wetland country. Duckhook is **one of a kind**; no ancient duck population is implied.
 
-## Recurring locations
-- Mud Dogs Swamp
-- Country Club of Jackson
-- TDS Waterfall Temple
-- Chili Outlaw Stable
-- Delta Causeway
-- Jackson Levee road
-- Mire Hill border site candidate
+## Home matchup grammar
 
-## Visual grammar tests
+A Wings home matchup resolves to that owner's actual environment:
+- Red home → stormward ruins/highland predator country;
+- Slob home → foothill road camp;
+- Chili home → western stable/frontier roads;
+- Duckhook home → Country Club of Jackson.
 
-**Unlabeled aerial:** visible transition from open west to braided southern water networks.
+The division identifier alone is never enough to choose scenery.
 
-**Unlabeled street:** frontier track, porch/stable or raised boardwalk/levee road with practical timber construction.
+## Major matchup rule
 
-**Interior:** smoke/pit/hospitality objects mixed with local occupation, not chicken-wing wallpaper.
+GOTWs, playoffs and championships generally leave owner domains for approved neutral sites. The neutral site must still belong to the shared Schemin Atlas and have valid travel paths.
 
-**Encounter:** water crossings, causeways, yards, falls, ranges, clubs and marsh edges.
+## Ordinary life and chicken-wing culture
+
+Use:
+- smoke pits;
+- chicken-wing feasts;
+- sauces and spice seals;
+- bone-count wager customs;
+- division hospitality;
+- food markets.
+
+Reject chicken-wing-shaped mountains and generic avian symbolism.
 
 ## Anti-drift
 
 Reject:
-- generic bird-wing heraldry without chicken-wing referent;
-- angel wings;
-- giant chicken wing mountains;
-- making all four domains swamp;
-- making Chili a generic cowboy detached from division material culture;
-- single-headed TDS;
-- normal pet-dog Mud Dogs;
-- normal duck Duckhook.
+- angel/bird/dragon wing substitution;
+- one generic Wings biome;
+- duplicate swamp treatment for every owner;
+- inventing a duck species around Duckhook;
+- using division borders to separate TDS and Chili;
+- home games staged in an unrelated neutral backdrop without an explicit venue override.
 
-**DIVISION DIFFERENTIATION GATE: PASS — DESIGN SPEC COMPLETE**
+**DIVISION DIFFERENTIATION GATE: V1.1 PASS**
