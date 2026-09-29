@@ -1,0 +1,17 @@
+schema_version: "1.0"
+through_week: 3
+active:
+  LOC-LLC-CITADEL:
+    condition: operational_with_prior_repair_history
+    source_events: [EVT-W2-LLC-DAMAGE, EVT-W3-LLC-HQ-PROTECTED]
+  LOC-BRIDGE-LAKE:
+    condition: physically_intact_reputation_site
+    source_events: [EVT-W3-BRIDGE]
+  LOC-MUD-SWAMP:
+    condition: persistent_swamp_normalized_after_week2_churn
+    source_events: [EVT-W2-MUD-SWAMP]
+temporary:
+  LOC-DK-HILL-BATTLEFIELD: churned_ground
+  LOC-DUCK-COUNTRY-CLUB: cleanup_after_chili_incursion
+  LOC-SOUTHERN-SPEEDWAY: post_race_debris
+  LOC-LLC-FLOOD-DISTRICT: receding_flood_state
