@@ -38,12 +38,14 @@ class QACheck:
     check_id:str; expected:Any; observed:Any; severity:Literal["FATAL","IMPORTANT","ADVISORY"]; evidence:tuple[str,...]=()
 
 IDENTITY_FIELDS={"species_body","head_face","silhouette","materials","wardrobe","negative_locks","hard_locks"}
+STORY_FIELDS={"verified_event_ids","pressure","reputation_delta","unresolved_threads","story_notes"}
+SCENE_FIELDS={"pose","action","camera","weather","lighting","location","wear","expression"}
 LAYER_WRITE_POLICY={
 "IDENTITY_BASE":IDENTITY_FIELDS|{"signature_objects","companions","environment_anchor"},
 "APPROVED_CHARACTER_VERSION":IDENTITY_FIELDS|{"signature_objects","companions","environment_anchor","primary_asset_id"},
 "CONTINUITY_STATE":{"wardrobe","signature_objects"},
-"WEEKLY_STORY_STATE":set(),
-"SCENE_STATE":set(),
+"WEEKLY_STORY_STATE":STORY_FIELDS,
+"SCENE_STATE":SCENE_FIELDS,
 "EXPLICIT_COMMISSIONER_OVERRIDE":IDENTITY_FIELDS|{"signature_objects","companions","environment_anchor","primary_asset_id"},
 }
 def canonical_hash(value:Any)->str:
