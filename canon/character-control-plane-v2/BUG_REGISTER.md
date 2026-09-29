@@ -1,0 +1,17 @@
+# CCP v2 BUG REGISTER
+- BUG-R0-001 P0 — duplicated runtime truth across legacy registry/packages/prose/Python. Mitigation: v2 canonical typed records; legacy classified migration source. Closure requires R12/R11 migration.
+- BUG-R1-001 P1 — schema document did not itself validate runtime objects. FIXED: validate.py + tests.
+- BUG-R2-001 P0 — approved-but-nonportable references could appear usable. FIXED behavior: all 12 PENDING_INGESTION; renderer fails closed. Physical portability OPEN under R4.
+- BUG-R3-001 P0 — v1 resolver hard-coded duplicate character data. FIXED in v2: indexes compiled from RECORDS. Legacy removal waits shadow migration.
+- BUG-R4-001 P0 — 12 source binaries lack durable renderer-addressable URIs. OPEN / RELEASE BLOCKER.
+- BUG-R5-001 P1 — initial v2 layer policy prohibited legitimate scene/story fields and override provenance was optional. FIXED: namespaced overlays + approval provenance requirement + regression tests.
+- BUG-R6-001 P1 — POV prose could be mistaken for owner psychology/canon fact. FIXED: evidence classification/provenance; proposed claims remain proposed.
+- BUG-R7-001 P0 — render readiness could be inferred without asset proof. FIXED: compiler render_ready only on resolved AVAILABLE asset.
+- BUG-R8-001 P1 — QA reports were not executable policy. PARTIAL FIX: QACheck/decision core; image evaluators remain R14 work.
+- BUG-R9-001 P1 — no immutable acceptance receipt. FIXED core: PASS-only receipt with contract hash/output hash.
+- BUG-R10-001 P0 — no executable CI. FIXED definition: GitHub Actions + unittest; OPEN evidence because connector currently returns no completed status receipt.
+- BUG-R11-001 P1 — consumers could read arbitrary local canon. PARTIAL FIX: public adapter contract; concrete consumer code migration remains required.
+- BUG-R12-001 P1 — old/new behavior lacked deterministic comparison. FIXED harness: shadow_run.py; OPEN execution receipt.
+- BUG-R13-001 P0 — Austin/Pitts legacy references below desired render maturity. OPEN by planned art-session design.
+- BUG-R14-001 P0 — no image-level 12-character parity/contamination acceptance under v2. BLOCKED by R4/R13.
+- BUG-R15-001 P0 — ACTIVE release cannot be certified. Correct state: HOLD.
