@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemin26.local/schemas/world-location.schema.json",
+  "title": "Schemin Location",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "canon_status",
+    "location_type",
+    "physical_zone_id",
+    "source_provenance"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^LOC-[A-Z0-9-]+$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "canon_status": {
+      "enum": [
+        "PERMANENT_CANON",
+        "PROVISIONAL_CANON",
+        "TEMPORARY_SITE",
+        "VISUAL_METAPHOR",
+        "SUPERSEDED"
+      ]
+    },
+    "location_type": {
+      "type": "string"
+    },
+    "physical_zone_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "division_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "owner_character_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "abstract_position": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "number"
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "access_route_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "persistent_landmarks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "current_state": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_provenance": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "open_questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}
