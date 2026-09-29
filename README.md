@@ -41,14 +41,22 @@ FLA may be referenced as an upstream capability source. Schemin '26 should not s
 
 ## Core systems
 
-- `memo-os/` — V5 / V5.2-RC Weekly Memo production doctrine and gold-standard runbooks
+- `memo-os/` — V5.5 controlling Weekly Memo production hardening over V5.4/V5.3 and the gold-standard lineage
 - `data-gateway/` — ESPN acquisition, validation, fallback, snapshot, and freshness policy
-- `canon/` — binding team/owner/character continuity
+- `canon/` — binding team/owner/character continuity plus Character Control Plane v2 release-candidate infrastructure
 - `mercer/` — Jack Mercer Front Office and GM operating contract
 - `bullpen/` — Schemin/FLA Bullpen reviews, orchestration, and governance evidence
 - `docs/governance/` — source hierarchy and authority boundaries
 - `schemas/` — machine-readable data contracts
-- `tests/` — regression targets and future executable acceptance tests
+- `tests/` and subsystem test suites — executable regression and acceptance evidence
+
+## Current checkpoint
+
+- Week 3 is closed; its released Memo is immutable evidence.
+- Memo OS V5.5 is the controlling production-hardening layer.
+- Week 4 is the next Memo cycle.
+- Character Control Plane v2 is a release candidate and must not be treated as ACTIVE until its release gates close.
+- Living Novel work is moving from Week 3 closure into pre-book POV/causal architecture and Week 4 live-state capture.
 
 ## Operating rule
 
