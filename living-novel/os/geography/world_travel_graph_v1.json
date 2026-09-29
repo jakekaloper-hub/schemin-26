@@ -201,10 +201,18 @@
     },
     {
       "from": "LOC-MUD-DOGS-SWAMP",
+      "to": "LOC-DK-MUD-HILL",
+      "route_id": "ROUTE-DELTA-CAUSEWAY",
+      "route_class": "CROSS_DIVISION",
+      "min_hours": 6,
+      "bidirectional": true
+    },
+    {
+      "from": "LOC-DK-MUD-HILL",
       "to": "LOC-COUNTRY-CLUB-JACKSON",
       "route_id": "ROUTE-DELTA-CAUSEWAY",
       "route_class": "CROSS_DIVISION",
-      "min_hours": 12,
+      "min_hours": 6,
       "bidirectional": true
     },
     {
@@ -425,8 +433,8 @@
       }
     },
     "LOC-MUD-DOGS-SWAMP": {
-      "LOC-COUNTRY-CLUB-JACKSON": {
-        "min_hours": 12,
+      "LOC-DK-MUD-HILL": {
+        "min_hours": 6,
         "route_id": "ROUTE-DELTA-CAUSEWAY",
         "route_class": "CROSS_DIVISION"
       },
@@ -436,9 +444,31 @@
         "route_class": "REGIONAL"
       }
     },
-    "LOC-COUNTRY-CLUB-JACKSON": {
+    "LOC-DK-MUD-HILL": {
       "LOC-MUD-DOGS-SWAMP": {
-        "min_hours": 12,
+        "min_hours": 6,
+        "route_id": "ROUTE-DELTA-CAUSEWAY",
+        "route_class": "CROSS_DIVISION"
+      },
+      "LOC-COUNTRY-CLUB-JACKSON": {
+        "min_hours": 6,
+        "route_id": "ROUTE-DELTA-CAUSEWAY",
+        "route_class": "CROSS_DIVISION"
+      },
+      "LOC-SOUTHERN-SPEEDWAY": {
+        "min_hours": 1,
+        "route_id": "ROUTE-BASIN-MARKET",
+        "route_class": "LOCAL"
+      },
+      "LOC-LEAGUE-CHAMBER": {
+        "min_hours": 1,
+        "route_id": "ROUTE-BASIN-MARKET",
+        "route_class": "LOCAL"
+      }
+    },
+    "LOC-COUNTRY-CLUB-JACKSON": {
+      "LOC-DK-MUD-HILL": {
+        "min_hours": 6,
         "route_id": "ROUTE-DELTA-CAUSEWAY",
         "route_class": "CROSS_DIVISION"
       },
@@ -558,18 +588,6 @@
         "route_class": "LOCAL"
       }
     },
-    "LOC-DK-MUD-HILL": {
-      "LOC-SOUTHERN-SPEEDWAY": {
-        "min_hours": 1,
-        "route_id": "ROUTE-BASIN-MARKET",
-        "route_class": "LOCAL"
-      },
-      "LOC-LEAGUE-CHAMBER": {
-        "min_hours": 1,
-        "route_id": "ROUTE-BASIN-MARKET",
-        "route_class": "LOCAL"
-      }
-    },
     "LOC-LEAGUE-CHAMBER": {
       "LOC-DK-MUD-HILL": {
         "min_hours": 1,
@@ -638,5 +656,5 @@
       }
     }
   },
-  "note": "Hydrated from World Engine V1.1. Home/neutral venue selection is governed separately by world/data/encounter_venue_policy.json."
+  "note": "Hydrated from World Engine V1.1. Home/neutral venue selection is governed by world/data/encounter_venue_policy.json."
 }
