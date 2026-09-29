@@ -9,9 +9,9 @@
 - BUG-R7-001 P0 — render readiness could be inferred without asset proof. FIXED: compiler render_ready only on resolved AVAILABLE asset.
 - BUG-R8-001 P1 — QA reports were not executable policy. PARTIAL FIX: QACheck/decision core; image evaluators remain R14 work.
 - BUG-R9-001 P1 — no immutable acceptance receipt. FIXED core: PASS-only receipt with contract hash/output hash.
-- BUG-R10-001 P0 — no executable CI. FIXED definition: GitHub Actions + unittest; OPEN evidence because connector currently returns no completed status receipt.
+- BUG-R10-001 P0 — no executable CI. CLOSED: GitHub Actions observed green; 17/17 unit/contract tests PASS on main and reconciliation branch.
 - BUG-R11-001 P1 — consumers could read arbitrary local canon. PARTIAL FIX: public adapter contract; concrete consumer code migration remains required.
-- BUG-R12-001 P1 — old/new behavior lacked deterministic comparison. FIXED harness: shadow_run.py; OPEN execution receipt.
+- BUG-R12-001 P1 — old/new behavior lacked deterministic comparison. CLOSED: shadow_run.py executes in CI; 15/15 canonical/historical alias/identity cases PASS.
 - BUG-R13-001 P0 — Austin/Pitts legacy references below desired render maturity. OPEN by planned art-session design.
 - BUG-R14-001 P0 — no image-level 12-character parity/contamination acceptance under v2. BLOCKED by R4/R13.
 - BUG-R15-001 P0 — ACTIVE release cannot be certified. Correct state: HOLD.
