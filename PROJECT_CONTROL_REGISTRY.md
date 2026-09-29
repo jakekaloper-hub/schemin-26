@@ -85,6 +85,22 @@ Binding semantic locks include:
 
 Memo OS and Living Novel consume the same World Engine location/state IDs rather than maintaining parallel geography.
 
+### World Engine / persistent Schemin geography
+Current controlling build: **WORLD ENGINE V1 — RELEASED / ACTIVE (2026-09-29)**.
+
+Read:
+- `world/SCHEMIN_WORLD_ENGINE_V1_RELEASE_RECEIPT.md`
+- `world/PRO_SCHEMIN_WORLD_BIBLE_V1.md`
+- `world/atlas/ATLAS_V1.md`
+- `world/state/WORLD_STATE_LEDGER_V1.md`
+- `world/divisions/BURGERS_DIVISION_INDEX_V1.md`
+- `world/divisions/WINGS_DIVISION_INDEX_V1.md`
+- `world/divisions/PIZZA_DIVISION_INDEX_V1.md`
+- `world/domains/OWNER_DOMAIN_REGISTER_V1.md`
+- `world/qa/WORLD_ENGINE_V1_ACCEPTANCE_REPORT.md`
+
+Rule: **world data is authoritative; renderers do not mutate canon**. Memo OS and Living Novel consume the same location IDs, division/domain relationships, travel rules and world-state ledger. Division food semantics are locked: Burgers = burgers, Wings = chicken wings, Pizza = pizza. Generated scenery remains non-canonical unless admitted through the Location Register / World State process.
+
 ### Jack Mercer
 Read:
 - `mercer/JACK_MERCER_FRONT_OFFICE_V2_SPEC.md`
