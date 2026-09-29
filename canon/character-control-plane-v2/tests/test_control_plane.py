@@ -30,6 +30,12 @@ class CCPV2Tests(unittest.TestCase):
   with self.assertRaises(ValueError): compose(RECORDS[0],[Layer("WEEKLY_STORY_STATE",{"species_body":"dragon"})])
  def test_scene_cannot_change_companion(self):
   with self.assertRaises(ValueError): compose(RECORDS[6],[Layer("SCENE_STATE",{"companions":["raccoon"]})])
+ def test_scene_can_change_pose_without_identity_mutation(self):
+  s,t=compose(RECORDS[6],[Layer("SCENE_STATE",{"pose":"mounted","lighting":"sunset"})]); self.assertEqual(s["_scene_state"]["pose"],"mounted"); self.assertEqual(s["species_body"],RECORDS[6].species_body)
+ def test_weekly_story_state_is_namespaced(self):
+  s,t=compose(RECORDS[8],[Layer("WEEKLY_STORY_STATE",{"pressure":"must recover","verified_event_ids":["W3"]})]); self.assertEqual(s["_weekly_story_state"]["pressure"],"must recover"); self.assertEqual(s["identity"],"The Belt Keeper")
+ def test_override_without_provenance_fails(self):
+  with self.assertRaises(ValueError): compose(RECORDS[0],[Layer("EXPLICIT_COMMISSIONER_OVERRIDE",{"silhouette":"x"})])
  def test_commissioner_override_can_change_identity_with_trace(self):
   s,t=compose(RECORDS[0],[Layer("EXPLICIT_COMMISSIONER_OVERRIDE",{"silhouette":"approved future silhouette"},("Jake approval event",))]); self.assertEqual(t[0]["kind"],"EXPLICIT_COMMISSIONER_OVERRIDE")
  def test_contract_not_render_ready_without_portable_asset(self):
