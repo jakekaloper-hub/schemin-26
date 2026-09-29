@@ -43,3 +43,9 @@ Every Memo OS visual containing a league character MUST execute `OWNER RESOLUTIO
 - Page existence is not Page Lock; all required QA gates must pass.
 - Ensemble/map pages require stricter reference resolution because they have elevated character-drift risk.
 - Generate the final QA ledger only after the assembled PDF has been rendered and audited.
+
+
+## Current production cycle
+
+- Week 3: closed / immutable release evidence.
+- Week 4: preproduction open at `week-4/_INDEX.md`; finished art remains blocked until V5.5 upstream gates pass.
