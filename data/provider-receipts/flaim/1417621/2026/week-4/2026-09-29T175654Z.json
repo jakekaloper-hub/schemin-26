@@ -1,0 +1,3593 @@
+{
+  "schema_version": "1.0",
+  "provider": "flaim",
+  "upstream_platform": "espn",
+  "capture_mode": "authorized_chatgpt_connector",
+  "captured_at": "2026-09-29T17:58:54.693Z",
+  "league": {
+    "league_id": "1417621",
+    "name": "Pro Schemin' Football League",
+    "season": 2026,
+    "current_matchup_period": 4,
+    "team_count": 12,
+    "keeper_count": 2,
+    "scoring_type": "H2H_POINTS",
+    "teams": [
+      {
+        "team_id": "1",
+        "team_name": "ObiWan Jacoby",
+        "keeper_player_ids": [
+          4426515,
+          4428331
+        ]
+      },
+      {
+        "team_id": "2",
+        "team_name": "Red Leopards",
+        "keeper_player_ids": [
+          4430737,
+          3916387
+        ]
+      },
+      {
+        "team_id": "3",
+        "team_name": "Slob on my Dobb",
+        "keeper_player_ids": [
+          4685702,
+          4596448
+        ]
+      },
+      {
+        "team_id": "4",
+        "team_name": "The LLC",
+        "keeper_player_ids": [
+          4685382,
+          4723086
+        ]
+      },
+      {
+        "team_id": "5",
+        "team_name": "D0nkey K0ng",
+        "keeper_player_ids": [
+          4430807,
+          4427366
+        ]
+      },
+      {
+        "team_id": "6",
+        "team_name": "Three Dreaded Snake",
+        "keeper_player_ids": [
+          4361370,
+          4361579
+        ]
+      },
+      {
+        "team_id": "7",
+        "team_name": "The Chili Cheesers",
+        "keeper_player_ids": [
+          4595348,
+          4432665
+        ]
+      },
+      {
+        "team_id": "8",
+        "team_name": "His Majesty's Blood",
+        "keeper_player_ids": [
+          4429160,
+          4430878
+        ]
+      },
+      {
+        "team_id": "9",
+        "team_name": "El Niño",
+        "keeper_player_ids": [
+          4258173
+        ]
+      },
+      {
+        "team_id": "10",
+        "team_name": "Mud Dogs",
+        "keeper_player_ids": [
+          3929630,
+          4430027
+        ]
+      },
+      {
+        "team_id": "11",
+        "team_name": "Seven Deadly Chins",
+        "keeper_player_ids": [
+          4431459,
+          4567750
+        ]
+      },
+      {
+        "team_id": "12",
+        "team_name": "Dr. Duckhook",
+        "keeper_player_ids": [
+          4429795,
+          4431452
+        ]
+      }
+    ]
+  },
+  "standings": [
+    {
+      "team_id": "5",
+      "team_name": "D0nkey K0ng",
+      "wins": 3,
+      "losses": 0,
+      "ties": 0,
+      "points_for": 480.96000000000004,
+      "points_against": 357.69,
+      "rank": 1,
+      "playoff_seed": 1,
+      "draft_day_projected_rank": 4,
+      "current_projected_rank": 1
+    },
+    {
+      "team_id": "2",
+      "team_name": "Red Leopards",
+      "wins": 2,
+      "losses": 1,
+      "ties": 0,
+      "points_for": 471.2,
+      "points_against": 368.12,
+      "rank": 2,
+      "playoff_seed": 2,
+      "draft_day_projected_rank": 8,
+      "current_projected_rank": 3
+    },
+    {
+      "team_id": "11",
+      "team_name": "Seven Deadly Chins",
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "points_for": 406.74,
+      "points_against": 409.2,
+      "rank": 3,
+      "playoff_seed": 3,
+      "draft_day_projected_rank": 6,
+      "current_projected_rank": 9
+    },
+    {
+      "team_id": "7",
+      "team_name": "The Chili Cheesers",
+      "wins": 2,
+      "losses": 1,
+      "ties": 0,
+      "points_for": 431.09,
+      "points_against": 440.07000000000005,
+      "rank": 4,
+      "playoff_seed": 4,
+      "draft_day_projected_rank": 9,
+      "current_projected_rank": 4
+    },
+    {
+      "team_id": "10",
+      "team_name": "Mud Dogs",
+      "wins": 2,
+      "losses": 1,
+      "ties": 0,
+      "points_for": 383.06,
+      "points_against": 416.25,
+      "rank": 5,
+      "playoff_seed": 5,
+      "draft_day_projected_rank": 10,
+      "current_projected_rank": 7
+    },
+    {
+      "team_id": "1",
+      "team_name": "ObiWan Jacoby",
+      "wins": 2,
+      "losses": 1,
+      "ties": 0,
+      "points_for": 401.34000000000003,
+      "points_against": 376.6,
+      "rank": 6,
+      "playoff_seed": 6,
+      "draft_day_projected_rank": 3,
+      "current_projected_rank": 2
+    },
+    {
+      "team_id": "3",
+      "team_name": "Slob on my Dobb",
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "points_for": 471.74,
+      "points_against": 424.10999999999996,
+      "rank": 7,
+      "playoff_seed": 7,
+      "draft_day_projected_rank": 1,
+      "current_projected_rank": 6
+    },
+    {
+      "team_id": "12",
+      "team_name": "Dr. Duckhook",
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "points_for": 396.44999999999993,
+      "points_against": 472.93,
+      "rank": 8,
+      "playoff_seed": 8,
+      "draft_day_projected_rank": 5,
+      "current_projected_rank": 10
+    },
+    {
+      "team_id": "4",
+      "team_name": "The LLC",
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "points_for": 395.32,
+      "points_against": 448,
+      "rank": 9,
+      "playoff_seed": 9,
+      "draft_day_projected_rank": 2,
+      "current_projected_rank": 5
+    },
+    {
+      "team_id": "9",
+      "team_name": "El Niño",
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "points_for": 390.1,
+      "points_against": 436.51,
+      "rank": 10,
+      "playoff_seed": 10,
+      "draft_day_projected_rank": 7,
+      "current_projected_rank": 8
+    },
+    {
+      "team_id": "6",
+      "team_name": "Three Dreaded Snake",
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "points_for": 385.93,
+      "points_against": 446.92999999999995,
+      "rank": 11,
+      "playoff_seed": 11,
+      "draft_day_projected_rank": 12,
+      "current_projected_rank": 12
+    },
+    {
+      "team_id": "8",
+      "team_name": "His Majesty's Blood",
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "points_for": 380.78,
+      "points_against": 398.3,
+      "rank": 12,
+      "playoff_seed": 12,
+      "draft_day_projected_rank": 11,
+      "current_projected_rank": 11
+    }
+  ],
+  "week4_matchups": [
+    {
+      "matchup_period_id": 4,
+      "home": {
+        "team_id": "5",
+        "team_name": "D0nkey K0ng",
+        "points": 0,
+        "projected_points": 130.74246447
+      },
+      "away": {
+        "team_id": "1",
+        "team_name": "ObiWan Jacoby",
+        "points": 0,
+        "projected_points": 160.8745818
+      },
+      "winner": "UNDECIDED"
+    },
+    {
+      "matchup_period_id": 4,
+      "home": {
+        "team_id": "10",
+        "team_name": "Mud Dogs",
+        "points": 0,
+        "projected_points": 140.19719284
+      },
+      "away": {
+        "team_id": "6",
+        "team_name": "Three Dreaded Snake",
+        "points": 0,
+        "projected_points": 130.06582555
+      },
+      "winner": "UNDECIDED"
+    },
+    {
+      "matchup_period_id": 4,
+      "home": {
+        "team_id": "2",
+        "team_name": "Red Leopards",
+        "points": 0,
+        "projected_points": 142.73045339
+      },
+      "away": {
+        "team_id": "12",
+        "team_name": "Dr. Duckhook",
+        "points": 0,
+        "projected_points": 142.49155106
+      },
+      "winner": "UNDECIDED"
+    },
+    {
+      "matchup_period_id": 4,
+      "home": {
+        "team_id": "3",
+        "team_name": "Slob on my Dobb",
+        "points": 0,
+        "projected_points": 160.78085382
+      },
+      "away": {
+        "team_id": "7",
+        "team_name": "The Chili Cheesers",
+        "points": 0,
+        "projected_points": 157.92612269
+      },
+      "winner": "UNDECIDED"
+    },
+    {
+      "matchup_period_id": 4,
+      "home": {
+        "team_id": "4",
+        "team_name": "The LLC",
+        "points": 0,
+        "projected_points": 133.31724244
+      },
+      "away": {
+        "team_id": "8",
+        "team_name": "His Majesty's Blood",
+        "points": 0,
+        "projected_points": 133.57360317
+      },
+      "winner": "UNDECIDED"
+    },
+    {
+      "matchup_period_id": 4,
+      "home": {
+        "team_id": "9",
+        "team_name": "El Niño",
+        "points": 0,
+        "projected_points": 138.42453491
+      },
+      "away": {
+        "team_id": "11",
+        "team_name": "Seven Deadly Chins",
+        "points": 0,
+        "projected_points": 147.28918787
+      },
+      "winner": "UNDECIDED"
+    }
+  ],
+  "rosters": [
+    {
+      "team_id": "1",
+      "team_name": "ObiWan Jacoby",
+      "snapshot": {
+        "type": "current"
+      },
+      "players": [
+        {
+          "player_id": "3043078",
+          "name": "Derrick Henry",
+          "lineup_slot": "RB",
+          "position": "RB",
+          "keeper_value": 1,
+          "keeper_value_future": 1
+        },
+        {
+          "player_id": "4567048",
+          "name": "Kenneth Walker III",
+          "lineup_slot": "RB",
+          "position": "RB",
+          "keeper_value": 9,
+          "keeper_value_future": 2
+        },
+        {
+          "player_id": "4372016",
+          "name": "Jaylen Waddle",
+          "lineup_slot": "FLEX",
+          "position": "WR",
+          "keeper_value": 4,
+          "keeper_value_future": 3
+        },
+        {
+          "player_id": "4608686",
+          "name": "Kyle Monangai",
+          "lineup_slot": "Bench",
+          "position": "RB",
+          "keeper_value": 0,
+          "keeper_value_future": 5
+        },
+        {
+          "player_id": "4426515",
+          "name": "Puka Nacua",
+          "lineup_slot": "WR",
+          "position": "WR",
+          "keeper_value": 6,
+          "keeper_value_future": 6
+        },
+        {
+          "player_id": "12483",
+          "name": "Matthew Stafford",
+          "lineup_slot": "Bench",
+          "position": "QB",
+          "keeper_value": 0,
+          "keeper_value_future": 7
+        },
+        {
+          "player_id": "3116365",
+          "name": "Mark Andrews",
+          "lineup_slot": "TE",
+          "position": "TE",
+          "keeper_value": 5,
+          "keeper_value_future": 8
+        },
+        {
+          "player_id": "3126486",
+          "name": "Deebo Samuel Sr.",
+          "lineup_slot": "WR",
+          "position": "WR",
+          "keeper_value": 6,
+          "keeper_value_future": 8
+        },
+        {
+          "player_id": "4361432",
+          "name": "Romeo Doubs",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 17,
+          "keeper_value_future": 9
+        },
+        {
+          "player_id": "4575131",
+          "name": "Jacory Croskey-Merritt",
+          "lineup_slot": "Bench",
+          "position": "RB",
+          "keeper_value": 7,
+          "keeper_value_future": 11
+        },
+        {
+          "player_id": "-16014",
+          "name": "Rams D/ST",
+          "lineup_slot": "Bench",
+          "position": "D/ST",
+          "keeper_value": 0,
+          "keeper_value_future": 11
+        },
+        {
+          "player_id": "4362081",
+          "name": "Cameron Dicker",
+          "lineup_slot": "K",
+          "position": "K",
+          "keeper_value": 14,
+          "keeper_value_future": 11
+        },
+        {
+          "player_id": "4428331",
+          "name": "Rashee Rice",
+          "lineup_slot": "WR/TE",
+          "position": "WR",
+          "keeper_value": 13,
+          "keeper_value_future": 13
+        },
+        {
+          "player_id": "4360310",
+          "name": "Trevor Lawrence",
+          "lineup_slot": "QB",
+          "position": "QB",
+          "keeper_value": 0,
+          "keeper_value_future": 14
+        },
+        {
+          "player_id": "2576925",
+          "name": "Darren Waller",
+          "lineup_slot": "Bench",
+          "position": "TE",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        },
+        {
+          "player_id": "-16009",
+          "name": "Packers D/ST",
+          "lineup_slot": "D/ST",
+          "position": "D/ST",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        },
+        {
+          "player_id": "2973405",
+          "name": "Kalif Raymond",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        }
+      ]
+    },
+    {
+      "team_id": "2",
+      "team_name": "Red Leopards",
+      "snapshot": {
+        "type": "current"
+      },
+      "players": [
+        {
+          "player_id": "4362628",
+          "name": "Ja'Marr Chase",
+          "lineup_slot": "WR",
+          "position": "WR",
+          "keeper_value": 1,
+          "keeper_value_future": 1
+        },
+        {
+          "player_id": "4241478",
+          "name": "DeVonta Smith",
+          "lineup_slot": "WR/TE",
+          "position": "WR",
+          "keeper_value": 4,
+          "keeper_value_future": 2
+        },
+        {
+          "player_id": "4429615",
+          "name": "Zay Flowers",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 3,
+          "keeper_value_future": 3
+        },
+        {
+          "player_id": "3916387",
+          "name": "Lamar Jackson",
+          "lineup_slot": "QB",
+          "position": "QB",
+          "keeper_value": 4,
+          "keeper_value_future": 4
+        },
+        {
+          "player_id": "3916148",
+          "name": "Tony Pollard",
+          "lineup_slot": "RB",
+          "position": "RB",
+          "keeper_value": 5,
+          "keeper_value_future": 5
+        },
+        {
+          "player_id": "4038815",
+          "name": "Rico Dowdle",
+          "lineup_slot": "IR",
+          "position": "RB",
+          "keeper_value": 0,
+          "keeper_value_future": 6
+        },
+        {
+          "player_id": "4569587",
+          "name": "Wan'Dale Robinson",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 16,
+          "keeper_value_future": 7
+        },
+        {
+          "player_id": "15847",
+          "name": "Travis Kelce",
+          "lineup_slot": "TE",
+          "position": "TE",
+          "keeper_value": 5,
+          "keeper_value_future": 8
+        },
+        {
+          "player_id": "4688813",
+          "name": "Josh Downs",
+          "lineup_slot": "WR",
+          "position": "WR",
+          "keeper_value": 10,
+          "keeper_value_future": 9
+        },
+        {
+          "player_id": "4385690",
+          "name": "Dalton Kincaid",
+          "lineup_slot": "FLEX",
+          "position": "TE",
+          "keeper_value": 0,
+          "keeper_value_future": 10
+        },
+        {
+          "player_id": "4426385",
+          "name": "Zach Charbonnet",
+          "lineup_slot": "IR",
+          "position": "RB",
+          "keeper_value": 9,
+          "keeper_value_future": 11
+        },
+        {
+          "player_id": "4430737",
+          "name": "Kyren Williams",
+          "lineup_slot": "RB",
+          "position": "RB",
+          "keeper_value": 14,
+          "keeper_value_future": 14
+        },
+        {
+          "player_id": "-16017",
+          "name": "Patriots D/ST",
+          "lineup_slot": "Bench",
+          "position": "D/ST",
+          "keeper_value": 0,
+          "keeper_value_future": 15
+        },
+        {
+          "player_id": "5083315",
+          "name": "Kenyon Sadiq",
+          "lineup_slot": "Bench",
+          "position": "TE",
+          "keeper_value": 0,
+          "keeper_value_future": 16
+        },
+        {
+          "player_id": "4870612",
+          "name": "Zachariah Branch",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 17
+        },
+        {
+          "player_id": "4569559",
+          "name": "Devaughn Vele",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        },
+        {
+          "player_id": "5081508",
+          "name": "Eli Heidenreich",
+          "lineup_slot": "Bench",
+          "position": "RB",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        },
+        {
+          "player_id": "4571557",
+          "name": "Spencer Shrader",
+          "lineup_slot": "K",
+          "position": "K",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        },
+        {
+          "player_id": "-16029",
+          "name": "Panthers D/ST",
+          "lineup_slot": "D/ST",
+          "position": "D/ST",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        }
+      ]
+    },
+    {
+      "team_id": "3",
+      "team_name": "Slob on my Dobb",
+      "snapshot": {
+        "type": "current"
+      },
+      "players": [
+        {
+          "player_id": "3117251",
+          "name": "Christian McCaffrey",
+          "lineup_slot": "RB",
+          "position": "RB",
+          "keeper_value": 1,
+          "keeper_value_future": 1
+        },
+        {
+          "player_id": "4241389",
+          "name": "CeeDee Lamb",
+          "lineup_slot": "WR",
+          "position": "WR",
+          "keeper_value": 1,
+          "keeper_value_future": 1
+        },
+        {
+          "player_id": "3918298",
+          "name": "Josh Allen",
+          "lineup_slot": "QB",
+          "position": "QB",
+          "keeper_value": 2,
+          "keeper_value_future": 2
+        },
+        {
+          "player_id": "4685472",
+          "name": "Tetairoa McMillan",
+          "lineup_slot": "WR",
+          "position": "WR",
+          "keeper_value": 5,
+          "keeper_value_future": 3
+        },
+        {
+          "player_id": "3128429",
+          "name": "Courtland Sutton",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 3,
+          "keeper_value_future": 4
+        },
+        {
+          "player_id": "4432710",
+          "name": "TreVeyon Henderson",
+          "lineup_slot": "Bench",
+          "position": "RB",
+          "keeper_value": 3,
+          "keeper_value_future": 4
+        },
+        {
+          "player_id": "5083076",
+          "name": "Harold Fannin Jr.",
+          "lineup_slot": "TE",
+          "position": "TE",
+          "keeper_value": 0,
+          "keeper_value_future": 5
+        },
+        {
+          "player_id": "4047365",
+          "name": "Josh Jacobs",
+          "lineup_slot": "Bench",
+          "position": "RB",
+          "keeper_value": 1,
+          "keeper_value_future": 6
+        },
+        {
+          "player_id": "4032473",
+          "name": "Rashid Shaheed",
+          "lineup_slot": "WR/TE",
+          "position": "WR",
+          "keeper_value": 9,
+          "keeper_value_future": 7
+        },
+        {
+          "player_id": "4685702",
+          "name": "Quinshon Judkins",
+          "lineup_slot": "Bench",
+          "position": "RB",
+          "keeper_value": 8,
+          "keeper_value_future": 8
+        },
+        {
+          "player_id": "4870653",
+          "name": "KC Concepcion",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 9
+        },
+        {
+          "player_id": "-16007",
+          "name": "Broncos D/ST",
+          "lineup_slot": "D/ST",
+          "position": "D/ST",
+          "keeper_value": 12,
+          "keeper_value_future": 10
+        },
+        {
+          "player_id": "3042519",
+          "name": "Aaron Jones Sr.",
+          "lineup_slot": "RB",
+          "position": "RB",
+          "keeper_value": 4,
+          "keeper_value_future": 11
+        },
+        {
+          "player_id": "4426338",
+          "name": "Bo Nix",
+          "lineup_slot": "Bench",
+          "position": "QB",
+          "keeper_value": 8,
+          "keeper_value_future": 12
+        },
+        {
+          "player_id": "4596448",
+          "name": "Bucky Irving",
+          "lineup_slot": "FLEX",
+          "position": "RB",
+          "keeper_value": 14,
+          "keeper_value_future": 14
+        },
+        {
+          "player_id": "4597500",
+          "name": "Adonai Mitchell",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 16
+        },
+        {
+          "player_id": "3895856",
+          "name": "Christian Kirk",
+          "lineup_slot": "IR",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        },
+        {
+          "player_id": "4034949",
+          "name": "Eddy Pineiro",
+          "lineup_slot": "K",
+          "position": "K",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        }
+      ]
+    },
+    {
+      "team_id": "4",
+      "team_name": "The LLC",
+      "snapshot": {
+        "type": "current"
+      },
+      "players": [
+        {
+          "player_id": "4242335",
+          "name": "Jonathan Taylor",
+          "lineup_slot": "Bench",
+          "position": "RB",
+          "keeper_value": 1,
+          "keeper_value_future": 1
+        },
+        {
+          "player_id": "4685382",
+          "name": "Omarion Hampton",
+          "lineup_slot": "RB",
+          "position": "RB",
+          "keeper_value": 2,
+          "keeper_value_future": 2
+        },
+        {
+          "player_id": "4426502",
+          "name": "Drake London",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 2,
+          "keeper_value_future": 2
+        },
+        {
+          "player_id": "4239996",
+          "name": "Travis Etienne Jr.",
+          "lineup_slot": "Bench",
+          "position": "RB",
+          "keeper_value": 11,
+          "keeper_value_future": 3
+        },
+        {
+          "player_id": "4569618",
+          "name": "Garrett Wilson",
+          "lineup_slot": "WR",
+          "position": "WR",
+          "keeper_value": 9,
+          "keeper_value_future": 3
+        },
+        {
+          "player_id": "3915416",
+          "name": "DJ Moore",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 4,
+          "keeper_value_future": 4
+        },
+        {
+          "player_id": "4432620",
+          "name": "Parker Washington",
+          "lineup_slot": "WR",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 5
+        },
+        {
+          "player_id": "4678008",
+          "name": "Jonathon Brooks",
+          "lineup_slot": "IR",
+          "position": "RB",
+          "keeper_value": 0,
+          "keeper_value_future": 6
+        },
+        {
+          "player_id": "4360761",
+          "name": "Michael Wilson",
+          "lineup_slot": "FLEX",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 7
+        },
+        {
+          "player_id": "3915511",
+          "name": "Joe Burrow",
+          "lineup_slot": "QB",
+          "position": "QB",
+          "keeper_value": 2,
+          "keeper_value_future": 7
+        },
+        {
+          "player_id": "4241985",
+          "name": "J.K. Dobbins",
+          "lineup_slot": "RB",
+          "position": "RB",
+          "keeper_value": 8,
+          "keeper_value_future": 8
+        },
+        {
+          "player_id": "4723086",
+          "name": "Colston Loveland",
+          "lineup_slot": "TE",
+          "position": "TE",
+          "keeper_value": 0,
+          "keeper_value_future": 9
+        },
+        {
+          "player_id": "4361050",
+          "name": "Isaiah Likely",
+          "lineup_slot": "Bench",
+          "position": "TE",
+          "keeper_value": 0,
+          "keeper_value_future": 10
+        },
+        {
+          "player_id": "4569603",
+          "name": "Malik Washington",
+          "lineup_slot": "WR/TE",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 10
+        },
+        {
+          "player_id": "4880281",
+          "name": "Jordyn Tyson",
+          "lineup_slot": "IR",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 12
+        },
+        {
+          "player_id": "-16008",
+          "name": "Lions D/ST",
+          "lineup_slot": "D/ST",
+          "position": "D/ST",
+          "keeper_value": 0,
+          "keeper_value_future": 13
+        },
+        {
+          "player_id": "4689936",
+          "name": "Jake Bates",
+          "lineup_slot": "K",
+          "position": "K",
+          "keeper_value": 0,
+          "keeper_value_future": 16
+        },
+        {
+          "player_id": "4036378",
+          "name": "Jordan Love",
+          "lineup_slot": "Bench",
+          "position": "QB",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        },
+        {
+          "player_id": "4819231",
+          "name": "Kaleb Johnson",
+          "lineup_slot": "Bench",
+          "position": "RB",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        }
+      ]
+    },
+    {
+      "team_id": "5",
+      "team_name": "D0nkey K0ng",
+      "snapshot": {
+        "type": "current"
+      },
+      "players": [
+        {
+          "player_id": "4430807",
+          "name": "Bijan Robinson",
+          "lineup_slot": "FLEX",
+          "position": "RB",
+          "keeper_value": 1,
+          "keeper_value_future": 1
+        },
+        {
+          "player_id": "4361307",
+          "name": "Trey McBride",
+          "lineup_slot": "TE",
+          "position": "TE",
+          "keeper_value": 4,
+          "keeper_value_future": 2
+        },
+        {
+          "player_id": "16800",
+          "name": "Davante Adams",
+          "lineup_slot": "WR",
+          "position": "WR",
+          "keeper_value": 2,
+          "keeper_value_future": 3
+        },
+        {
+          "player_id": "4427366",
+          "name": "Breece Hall",
+          "lineup_slot": "Bench",
+          "position": "RB",
+          "keeper_value": 4,
+          "keeper_value_future": 4
+        },
+        {
+          "player_id": "2577417",
+          "name": "Dak Prescott",
+          "lineup_slot": "Bench",
+          "position": "QB",
+          "keeper_value": 9,
+          "keeper_value_future": 5
+        },
+        {
+          "player_id": "4047650",
+          "name": "DK Metcalf",
+          "lineup_slot": "WR",
+          "position": "WR",
+          "keeper_value": 4,
+          "keeper_value_future": 6
+        },
+        {
+          "player_id": "3953687",
+          "name": "Brandon Aubrey",
+          "lineup_slot": "K",
+          "position": "K",
+          "keeper_value": 10,
+          "keeper_value_future": 7
+        },
+        {
+          "player_id": "4360078",
+          "name": "Alec Pierce",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 8
+        },
+        {
+          "player_id": "3121023",
+          "name": "Dallas Goedert",
+          "lineup_slot": "Bench",
+          "position": "TE",
+          "keeper_value": 11,
+          "keeper_value_future": 9
+        },
+        {
+          "player_id": "-16034",
+          "name": "Texans D/ST",
+          "lineup_slot": "Bench",
+          "position": "D/ST",
+          "keeper_value": 11,
+          "keeper_value_future": 10
+        },
+        {
+          "player_id": "4428557",
+          "name": "Tyjae Spears",
+          "lineup_slot": "RB",
+          "position": "RB",
+          "keeper_value": 10,
+          "keeper_value_future": 11
+        },
+        {
+          "player_id": "4366031",
+          "name": "Tank Dell",
+          "lineup_slot": "IR",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 12
+        },
+        {
+          "player_id": "3054850",
+          "name": "Alvin Kamara",
+          "lineup_slot": "RB",
+          "position": "RB",
+          "keeper_value": 2,
+          "keeper_value_future": 13
+        },
+        {
+          "player_id": "4361741",
+          "name": "Brock Purdy",
+          "lineup_slot": "QB",
+          "position": "QB",
+          "keeper_value": 0,
+          "keeper_value_future": 14
+        },
+        {
+          "player_id": "4685415",
+          "name": "Travis Hunter",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 6,
+          "keeper_value_future": 15
+        },
+        {
+          "player_id": "4361529",
+          "name": "Isiah Pacheco",
+          "lineup_slot": "IR",
+          "position": "RB",
+          "keeper_value": 0,
+          "keeper_value_future": 16
+        },
+        {
+          "player_id": "4570037",
+          "name": "Terrance Ferguson",
+          "lineup_slot": "WR/TE",
+          "position": "TE",
+          "keeper_value": 0,
+          "keeper_value_future": 17
+        },
+        {
+          "player_id": "-16012",
+          "name": "Chiefs D/ST",
+          "lineup_slot": "D/ST",
+          "position": "D/ST",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        }
+      ]
+    },
+    {
+      "team_id": "6",
+      "team_name": "Three Dreaded Snake",
+      "snapshot": {
+        "type": "current"
+      },
+      "players": [
+        {
+          "player_id": "4685512",
+          "name": "Jadarian Price",
+          "lineup_slot": "RB",
+          "position": "RB",
+          "keeper_value": 0,
+          "keeper_value_future": 4
+        },
+        {
+          "player_id": "4361370",
+          "name": "Chris Olave",
+          "lineup_slot": "WR",
+          "position": "WR",
+          "keeper_value": 7,
+          "keeper_value_future": 7
+        },
+        {
+          "player_id": "4870795",
+          "name": "Makai Lemon",
+          "lineup_slot": "FLEX",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 9
+        },
+        {
+          "player_id": "4361579",
+          "name": "Javonte Williams",
+          "lineup_slot": "RB",
+          "position": "RB",
+          "keeper_value": 10,
+          "keeper_value_future": 10
+        },
+        {
+          "player_id": "4431611",
+          "name": "Caleb Williams",
+          "lineup_slot": "IR",
+          "position": "QB",
+          "keeper_value": 12,
+          "keeper_value_future": 12
+        },
+        {
+          "player_id": "4241463",
+          "name": "Jerry Jeudy",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 6,
+          "keeper_value_future": 13
+        },
+        {
+          "player_id": "4036133",
+          "name": "T.J. Hockenson",
+          "lineup_slot": "TE",
+          "position": "TE",
+          "keeper_value": 5,
+          "keeper_value_future": 13
+        },
+        {
+          "player_id": "4686361",
+          "name": "Cam Little",
+          "lineup_slot": "K",
+          "position": "K",
+          "keeper_value": 0,
+          "keeper_value_future": 14
+        },
+        {
+          "player_id": "4870847",
+          "name": "Ja'Kobi Lane",
+          "lineup_slot": "IR",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 15
+        },
+        {
+          "player_id": "4586312",
+          "name": "Jaylin Noel",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 17
+        },
+        {
+          "player_id": "4695883",
+          "name": "Jalen Coker",
+          "lineup_slot": "WR/TE",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 10
+        },
+        {
+          "player_id": "4596334",
+          "name": "Keaton Mitchell",
+          "lineup_slot": "Bench",
+          "position": "RB",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        },
+        {
+          "player_id": "4360689",
+          "name": "Tyler Shough",
+          "lineup_slot": "QB",
+          "position": "QB",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        },
+        {
+          "player_id": "4887558",
+          "name": "Emanuel Wilson",
+          "lineup_slot": "Bench",
+          "position": "RB",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        },
+        {
+          "player_id": "-16004",
+          "name": "Bengals D/ST",
+          "lineup_slot": "D/ST",
+          "position": "D/ST",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        },
+        {
+          "player_id": "4361411",
+          "name": "Pat Freiermuth",
+          "lineup_slot": "Bench",
+          "position": "TE",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        },
+        {
+          "player_id": "4869645",
+          "name": "Caleb Douglas",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        },
+        {
+          "player_id": "4685278",
+          "name": "Luther Burden III",
+          "lineup_slot": "WR",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 4
+        },
+        {
+          "player_id": "4429022",
+          "name": "Kayshon Boutte",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        }
+      ]
+    },
+    {
+      "team_id": "7",
+      "team_name": "The Chili Cheesers",
+      "snapshot": {
+        "type": "current"
+      },
+      "players": [
+        {
+          "player_id": "4374302",
+          "name": "Amon-Ra St. Brown",
+          "lineup_slot": "WR",
+          "position": "WR",
+          "keeper_value": 3,
+          "keeper_value_future": 1
+        },
+        {
+          "player_id": "4595348",
+          "name": "Malik Nabers",
+          "lineup_slot": "WR",
+          "position": "WR",
+          "keeper_value": 2,
+          "keeper_value_future": 2
+        },
+        {
+          "player_id": "4696981",
+          "name": "Cam Skattebo",
+          "lineup_slot": "RB",
+          "position": "RB",
+          "keeper_value": 0,
+          "keeper_value_future": 3
+        },
+        {
+          "player_id": "4035538",
+          "name": "David Montgomery",
+          "lineup_slot": "RB",
+          "position": "RB",
+          "keeper_value": 5,
+          "keeper_value_future": 4
+        },
+        {
+          "player_id": "4248528",
+          "name": "Christian Watson",
+          "lineup_slot": "WR/TE",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 5
+        },
+        {
+          "player_id": "4689114",
+          "name": "Jaxson Dart",
+          "lineup_slot": "IR",
+          "position": "QB",
+          "keeper_value": 0,
+          "keeper_value_future": 5
+        },
+        {
+          "player_id": "4360248",
+          "name": "Kyle Pitts Sr.",
+          "lineup_slot": "Bench",
+          "position": "TE",
+          "keeper_value": 12,
+          "keeper_value_future": 6
+        },
+        {
+          "player_id": "4432665",
+          "name": "Brock Bowers",
+          "lineup_slot": "TE",
+          "position": "TE",
+          "keeper_value": 7,
+          "keeper_value_future": 7
+        },
+        {
+          "player_id": "4683062",
+          "name": "Xavier Worthy",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 6,
+          "keeper_value_future": 8
+        },
+        {
+          "player_id": "3116165",
+          "name": "Chris Godwin Jr.",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 7,
+          "keeper_value_future": 10
+        },
+        {
+          "player_id": "-16023",
+          "name": "Steelers D/ST",
+          "lineup_slot": "D/ST",
+          "position": "D/ST",
+          "keeper_value": 12,
+          "keeper_value_future": 11
+        },
+        {
+          "player_id": "2473037",
+          "name": "Jason Myers",
+          "lineup_slot": "K",
+          "position": "K",
+          "keeper_value": 0,
+          "keeper_value_future": 13
+        },
+        {
+          "player_id": "4682648",
+          "name": "Malachi Fields",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 14
+        },
+        {
+          "player_id": "3046439",
+          "name": "Hunter Henry",
+          "lineup_slot": "Bench",
+          "position": "TE",
+          "keeper_value": 14,
+          "keeper_value_future": 17
+        },
+        {
+          "player_id": "4429086",
+          "name": "Michael Mayer",
+          "lineup_slot": "Bench",
+          "position": "TE",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        },
+        {
+          "player_id": "4569371",
+          "name": "Isaiah Williams",
+          "lineup_slot": "FLEX",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        },
+        {
+          "player_id": "4685720",
+          "name": "Bryce Young",
+          "lineup_slot": "QB",
+          "position": "QB",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        }
+      ]
+    },
+    {
+      "team_id": "8",
+      "team_name": "His Majesty's Blood",
+      "snapshot": {
+        "type": "current"
+      },
+      "players": [
+        {
+          "player_id": "4430878",
+          "name": "Jaxon Smith-Njigba",
+          "lineup_slot": "FLEX",
+          "position": "WR",
+          "keeper_value": 2,
+          "keeper_value_future": 2
+        },
+        {
+          "player_id": "4426388",
+          "name": "Jameson Williams",
+          "lineup_slot": "WR/TE",
+          "position": "WR",
+          "keeper_value": 10,
+          "keeper_value_future": 3
+        },
+        {
+          "player_id": "4431299",
+          "name": "Rome Odunze",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 4,
+          "keeper_value_future": 4
+        },
+        {
+          "player_id": "4241416",
+          "name": "Chuba Hubbard",
+          "lineup_slot": "RB",
+          "position": "RB",
+          "keeper_value": 10,
+          "keeper_value_future": 5
+        },
+        {
+          "player_id": "4871023",
+          "name": "Carnell Tate",
+          "lineup_slot": "WR",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 6
+        },
+        {
+          "player_id": "4568490",
+          "name": "RJ Harvey",
+          "lineup_slot": "RB",
+          "position": "RB",
+          "keeper_value": 3,
+          "keeper_value_future": 8
+        },
+        {
+          "player_id": "4362249",
+          "name": "Jayden Reed",
+          "lineup_slot": "IR",
+          "position": "WR",
+          "keeper_value": 8,
+          "keeper_value_future": 9
+        },
+        {
+          "player_id": "4697815",
+          "name": "Rachaad White",
+          "lineup_slot": "Bench",
+          "position": "RB",
+          "keeper_value": 0,
+          "keeper_value_future": 10
+        },
+        {
+          "player_id": "4038941",
+          "name": "Justin Herbert",
+          "lineup_slot": "QB",
+          "position": "QB",
+          "keeper_value": 7,
+          "keeper_value_future": 11
+        },
+        {
+          "player_id": "4362619",
+          "name": "Chris Rodriguez Jr.",
+          "lineup_slot": "Bench",
+          "position": "RB",
+          "keeper_value": 0,
+          "keeper_value_future": 11
+        },
+        {
+          "player_id": "3886598",
+          "name": "Jauan Jennings",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 7,
+          "keeper_value_future": 13
+        },
+        {
+          "player_id": "4832800",
+          "name": "Denzel Boston",
+          "lineup_slot": "WR",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 14
+        },
+        {
+          "player_id": "4697745",
+          "name": "Tyler Loop",
+          "lineup_slot": "K",
+          "position": "K",
+          "keeper_value": 0,
+          "keeper_value_future": 14
+        },
+        {
+          "player_id": "4429160",
+          "name": "De'Von Achane",
+          "lineup_slot": "IR",
+          "position": "RB",
+          "keeper_value": 15,
+          "keeper_value_future": 15
+        },
+        {
+          "player_id": "4430539",
+          "name": "Brenton Strange",
+          "lineup_slot": "TE",
+          "position": "TE",
+          "keeper_value": 0,
+          "keeper_value_future": 16
+        },
+        {
+          "player_id": "4696044",
+          "name": "Kaelon Black",
+          "lineup_slot": "Bench",
+          "position": "RB",
+          "keeper_value": 0,
+          "keeper_value_future": 17
+        },
+        {
+          "player_id": "-16016",
+          "name": "Vikings D/ST",
+          "lineup_slot": "D/ST",
+          "position": "D/ST",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        },
+        {
+          "player_id": "4595342",
+          "name": "Oronde Gadsden",
+          "lineup_slot": "Bench",
+          "position": "TE",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        }
+      ]
+    },
+    {
+      "team_id": "9",
+      "team_name": "El Niño",
+      "snapshot": {
+        "type": "current"
+      },
+      "players": [
+        {
+          "player_id": "4379399",
+          "name": "James Cook III",
+          "lineup_slot": "RB",
+          "position": "RB",
+          "keeper_value": 2,
+          "keeper_value_future": 1
+        },
+        {
+          "player_id": "4362238",
+          "name": "Chase Brown",
+          "lineup_slot": "RB",
+          "position": "RB",
+          "keeper_value": 1,
+          "keeper_value_future": 1
+        },
+        {
+          "player_id": "4426354",
+          "name": "George Pickens",
+          "lineup_slot": "WR",
+          "position": "WR",
+          "keeper_value": 4,
+          "keeper_value_future": 2
+        },
+        {
+          "player_id": "4239993",
+          "name": "Tee Higgins",
+          "lineup_slot": "WR/TE",
+          "position": "WR",
+          "keeper_value": 2,
+          "keeper_value_future": 3
+        },
+        {
+          "player_id": "16737",
+          "name": "Mike Evans",
+          "lineup_slot": "WR",
+          "position": "WR",
+          "keeper_value": 3,
+          "keeper_value_future": 4
+        },
+        {
+          "player_id": "4040715",
+          "name": "Jalen Hurts",
+          "lineup_slot": "QB",
+          "position": "QB",
+          "keeper_value": 7,
+          "keeper_value_future": 5
+        },
+        {
+          "player_id": "4572680",
+          "name": "Tucker Kraft",
+          "lineup_slot": "TE",
+          "position": "TE",
+          "keeper_value": 0,
+          "keeper_value_future": 6
+        },
+        {
+          "player_id": "2976212",
+          "name": "Stefon Diggs",
+          "lineup_slot": "FLEX",
+          "position": "WR",
+          "keeper_value": 7,
+          "keeper_value_future": 7
+        },
+        {
+          "player_id": "4429025",
+          "name": "Quentin Johnston",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 8
+        },
+        {
+          "player_id": "4258173",
+          "name": "Nico Collins",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 9,
+          "keeper_value_future": 9
+        },
+        {
+          "player_id": "4428718",
+          "name": "Tre Tucker",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 10
+        },
+        {
+          "player_id": "4429013",
+          "name": "Tank Bigsby",
+          "lineup_slot": "Bench",
+          "position": "RB",
+          "keeper_value": 0,
+          "keeper_value_future": 11
+        },
+        {
+          "player_id": "-16021",
+          "name": "Eagles D/ST",
+          "lineup_slot": "D/ST",
+          "position": "D/ST",
+          "keeper_value": 14,
+          "keeper_value_future": 12
+        },
+        {
+          "player_id": "2971573",
+          "name": "Ka'imi Fairbairn",
+          "lineup_slot": "K",
+          "position": "K",
+          "keeper_value": 0,
+          "keeper_value_future": 13
+        },
+        {
+          "player_id": "4686612",
+          "name": "Tre' Harris",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 14
+        },
+        {
+          "player_id": "4367209",
+          "name": "Greg Dulcich",
+          "lineup_slot": "Bench",
+          "position": "TE",
+          "keeper_value": 0,
+          "keeper_value_future": 15
+        },
+        {
+          "player_id": "4832955",
+          "name": "Emmett Johnson",
+          "lineup_slot": "Bench",
+          "position": "RB",
+          "keeper_value": 0,
+          "keeper_value_future": 16
+        }
+      ]
+    },
+    {
+      "team_id": "10",
+      "team_name": "Mud Dogs",
+      "snapshot": {
+        "type": "current"
+      },
+      "players": [
+        {
+          "player_id": "3929630",
+          "name": "Saquon Barkley",
+          "lineup_slot": "RB",
+          "position": "RB",
+          "keeper_value": 1,
+          "keeper_value_future": 1
+        },
+        {
+          "player_id": "4890973",
+          "name": "Ashton Jeanty",
+          "lineup_slot": "RB",
+          "position": "RB",
+          "keeper_value": 1,
+          "keeper_value_future": 2
+        },
+        {
+          "player_id": "3121422",
+          "name": "Terry McLaurin",
+          "lineup_slot": "WR",
+          "position": "WR",
+          "keeper_value": 3,
+          "keeper_value_future": 3
+        },
+        {
+          "player_id": "4430027",
+          "name": "Sam LaPorta",
+          "lineup_slot": "TE",
+          "position": "TE",
+          "keeper_value": 4,
+          "keeper_value_future": 4
+        },
+        {
+          "player_id": "4426348",
+          "name": "Jayden Daniels",
+          "lineup_slot": "Bench",
+          "position": "QB",
+          "keeper_value": 9,
+          "keeper_value_future": 5
+        },
+        {
+          "player_id": "4035687",
+          "name": "Michael Pittman Jr.",
+          "lineup_slot": "WR",
+          "position": "WR",
+          "keeper_value": 6,
+          "keeper_value_future": 6
+        },
+        {
+          "player_id": "4371733",
+          "name": "Kenny Gainwell",
+          "lineup_slot": "Bench",
+          "position": "RB",
+          "keeper_value": 0,
+          "keeper_value_future": 7
+        },
+        {
+          "player_id": "3040151",
+          "name": "George Kittle",
+          "lineup_slot": "WR/TE",
+          "position": "TE",
+          "keeper_value": 3,
+          "keeper_value_future": 8
+        },
+        {
+          "player_id": "3916433",
+          "name": "Jakobi Meyers",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 5,
+          "keeper_value_future": 9
+        },
+        {
+          "player_id": "3046779",
+          "name": "Jared Goff",
+          "lineup_slot": "QB",
+          "position": "QB",
+          "keeper_value": 10,
+          "keeper_value_future": 10
+        },
+        {
+          "player_id": "4429059",
+          "name": "Woody Marks",
+          "lineup_slot": "FLEX",
+          "position": "RB",
+          "keeper_value": 16,
+          "keeper_value_future": 11
+        },
+        {
+          "player_id": "-16033",
+          "name": "Ravens D/ST",
+          "lineup_slot": "D/ST",
+          "position": "D/ST",
+          "keeper_value": 0,
+          "keeper_value_future": 12
+        },
+        {
+          "player_id": "3055899",
+          "name": "Harrison Butker",
+          "lineup_slot": "K",
+          "position": "K",
+          "keeper_value": 0,
+          "keeper_value_future": 13
+        },
+        {
+          "player_id": "4241474",
+          "name": "Brian Robinson Jr.",
+          "lineup_slot": "Bench",
+          "position": "RB",
+          "keeper_value": 12,
+          "keeper_value_future": 14
+        },
+        {
+          "player_id": "4360939",
+          "name": "Rashod Bateman",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 15
+        },
+        {
+          "player_id": "3116389",
+          "name": "Samaje Perine",
+          "lineup_slot": "Bench",
+          "position": "RB",
+          "keeper_value": 0,
+          "keeper_value_future": 16
+        },
+        {
+          "player_id": "15818",
+          "name": "Keenan Allen",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 8,
+          "keeper_value_future": 17
+        }
+      ]
+    },
+    {
+      "team_id": "11",
+      "team_name": "Seven Deadly Chins",
+      "snapshot": {
+        "type": "current"
+      },
+      "players": [
+        {
+          "player_id": "4262921",
+          "name": "Justin Jefferson",
+          "lineup_slot": "WR",
+          "position": "WR",
+          "keeper_value": 1,
+          "keeper_value_future": 1
+        },
+        {
+          "player_id": "4870808",
+          "name": "Jeremiyah Love",
+          "lineup_slot": "RB",
+          "position": "RB",
+          "keeper_value": 0,
+          "keeper_value_future": 2
+        },
+        {
+          "player_id": "4259545",
+          "name": "D'Andre Swift",
+          "lineup_slot": "RB",
+          "position": "RB",
+          "keeper_value": 4,
+          "keeper_value_future": 3
+        },
+        {
+          "player_id": "4569987",
+          "name": "Jaylen Warren",
+          "lineup_slot": "FLEX",
+          "position": "RB",
+          "keeper_value": 5,
+          "keeper_value_future": 5
+        },
+        {
+          "player_id": "4567750",
+          "name": "Emeka Egbuka",
+          "lineup_slot": "WR",
+          "position": "WR",
+          "keeper_value": 6,
+          "keeper_value_future": 6
+        },
+        {
+          "player_id": "3139477",
+          "name": "Patrick Mahomes",
+          "lineup_slot": "QB",
+          "position": "QB",
+          "keeper_value": 3,
+          "keeper_value_future": 7
+        },
+        {
+          "player_id": "4431459",
+          "name": "Tyler Warren",
+          "lineup_slot": "TE",
+          "position": "TE",
+          "keeper_value": 8,
+          "keeper_value_future": 8
+        },
+        {
+          "player_id": "4429096",
+          "name": "Blake Corum",
+          "lineup_slot": "Bench",
+          "position": "RB",
+          "keeper_value": 0,
+          "keeper_value_future": 9
+        },
+        {
+          "player_id": "-16026",
+          "name": "Seahawks D/ST",
+          "lineup_slot": "D/ST",
+          "position": "D/ST",
+          "keeper_value": 13,
+          "keeper_value_future": 12
+        },
+        {
+          "player_id": "3917315",
+          "name": "Kyler Murray",
+          "lineup_slot": "Bench",
+          "position": "QB",
+          "keeper_value": 0,
+          "keeper_value_future": 13
+        },
+        {
+          "player_id": "4428850",
+          "name": "Dontayvion Wicks",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 14
+        },
+        {
+          "player_id": "4360635",
+          "name": "Chig Okonkwo",
+          "lineup_slot": "IR",
+          "position": "TE",
+          "keeper_value": 0,
+          "keeper_value_future": 15
+        },
+        {
+          "player_id": "2985659",
+          "name": "Wil Lutz",
+          "lineup_slot": "K",
+          "position": "K",
+          "keeper_value": 0,
+          "keeper_value_future": 17
+        },
+        {
+          "player_id": "4373626",
+          "name": "Tyler Allgeier",
+          "lineup_slot": "Bench",
+          "position": "RB",
+          "keeper_value": 13,
+          "keeper_value_future": 12
+        },
+        {
+          "player_id": "4869961",
+          "name": "Chris Bell",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        },
+        {
+          "player_id": "4685247",
+          "name": "Braelon Allen",
+          "lineup_slot": "Bench",
+          "position": "RB",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        },
+        {
+          "player_id": "3929645",
+          "name": "Juwan Johnson",
+          "lineup_slot": "WR/TE",
+          "position": "TE",
+          "keeper_value": 0,
+          "keeper_value_future": 12
+        },
+        {
+          "player_id": "4432773",
+          "name": "Brian Thomas Jr.",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 8,
+          "keeper_value_future": 6
+        }
+      ]
+    },
+    {
+      "team_id": "12",
+      "team_name": "Dr. Duckhook",
+      "snapshot": {
+        "type": "current"
+      },
+      "players": [
+        {
+          "player_id": "4429795",
+          "name": "Jahmyr Gibbs",
+          "lineup_slot": "RB",
+          "position": "RB",
+          "keeper_value": 1,
+          "keeper_value_future": 1
+        },
+        {
+          "player_id": "4047646",
+          "name": "A.J. Brown",
+          "lineup_slot": "IR",
+          "position": "WR",
+          "keeper_value": 3,
+          "keeper_value_future": 2
+        },
+        {
+          "player_id": "4612826",
+          "name": "Ladd McConkey",
+          "lineup_slot": "WR/TE",
+          "position": "WR",
+          "keeper_value": 3,
+          "keeper_value_future": 3
+        },
+        {
+          "player_id": "4882093",
+          "name": "Bhayshul Tuten",
+          "lineup_slot": "RB",
+          "position": "RB",
+          "keeper_value": 0,
+          "keeper_value_future": 4
+        },
+        {
+          "player_id": "4432708",
+          "name": "Marvin Harrison Jr.",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 2,
+          "keeper_value_future": 5
+        },
+        {
+          "player_id": "4569173",
+          "name": "Rhamondre Stevenson",
+          "lineup_slot": "FLEX",
+          "position": "RB",
+          "keeper_value": 9,
+          "keeper_value_future": 6
+        },
+        {
+          "player_id": "4701936",
+          "name": "Matthew Golden",
+          "lineup_slot": "WR",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 7
+        },
+        {
+          "player_id": "4429023",
+          "name": "MarShawn Lloyd",
+          "lineup_slot": "Bench",
+          "position": "RB",
+          "keeper_value": 0,
+          "keeper_value_future": 8
+        },
+        {
+          "player_id": "4429205",
+          "name": "Jordan Addison",
+          "lineup_slot": "WR",
+          "position": "WR",
+          "keeper_value": 7,
+          "keeper_value_future": 9
+        },
+        {
+          "player_id": "4242355",
+          "name": "Jake Ferguson",
+          "lineup_slot": "Bench",
+          "position": "TE",
+          "keeper_value": 13,
+          "keeper_value_future": 10
+        },
+        {
+          "player_id": "4360569",
+          "name": "Jordan Mason",
+          "lineup_slot": "IR",
+          "position": "RB",
+          "keeper_value": 9,
+          "keeper_value_future": 11
+        },
+        {
+          "player_id": "4373678",
+          "name": "Khalil Shakir",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 8,
+          "keeper_value_future": 12
+        },
+        {
+          "player_id": "4431452",
+          "name": "Drake Maye",
+          "lineup_slot": "QB",
+          "position": "QB",
+          "keeper_value": 0,
+          "keeper_value_future": 15
+        },
+        {
+          "player_id": "4600981",
+          "name": "Pat Bryant",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 16
+        },
+        {
+          "player_id": "4360234",
+          "name": "Evan McPherson",
+          "lineup_slot": "K",
+          "position": "K",
+          "keeper_value": 0,
+          "keeper_value_future": 17
+        },
+        {
+          "player_id": "-16025",
+          "name": "49ers D/ST",
+          "lineup_slot": "D/ST",
+          "position": "D/ST",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        },
+        {
+          "player_id": "3117256",
+          "name": "Dalton Schultz",
+          "lineup_slot": "TE",
+          "position": "TE",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        },
+        {
+          "player_id": "3052587",
+          "name": "Baker Mayfield",
+          "lineup_slot": "Bench",
+          "position": "QB",
+          "keeper_value": 5,
+          "keeper_value_future": 0
+        },
+        {
+          "player_id": "4686422",
+          "name": "Xavier Hutchinson",
+          "lineup_slot": "Bench",
+          "position": "WR",
+          "keeper_value": 0,
+          "keeper_value_future": 0
+        }
+      ]
+    }
+  ],
+  "transactions": {
+    "source": "mTransactions2",
+    "window": {
+      "mode": "recent_two_weeks",
+      "unit": "matchup_period",
+      "requested_week": null,
+      "normalization": "none",
+      "weeks": [
+        4,
+        3
+      ],
+      "provider_scoring_period_ids": [
+        4,
+        3
+      ],
+      "start_date": null,
+      "end_date": null,
+      "date_bounds_kind": "unavailable",
+      "timezone": "America/New_York",
+      "returned_rows": 47
+    },
+    "limitations": {
+      "structured_details_incomplete": true
+    },
+    "truncated": false,
+    "count": 47,
+    "teams": {
+      "1": "ObiWan Jacoby",
+      "2": "Red Leopards",
+      "3": "Slob on my Dobb",
+      "4": "The LLC",
+      "5": "D0nkey K0ng",
+      "6": "Three Dreaded Snake",
+      "7": "The Chili Cheesers ",
+      "8": "His Majesty's Blood",
+      "9": "El Niño",
+      "10": "Mud Dogs",
+      "11": "Seven Deadly Chins",
+      "12": "Dr. Duckhook"
+    },
+    "rows": [
+      {
+        "transaction_id": "4c9a5c11-c417-40f6-be49-1b5297bed5f0",
+        "type": "trade_proposal",
+        "status": "pending",
+        "date": "2026-09-29",
+        "timestamp": 1790655924100,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [],
+        "players_dropped": [],
+        "trade_sides": null,
+        "faab_bid": 0,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "9de298b5-f8e2-4b6d-9d19-4c4e5ebda17e",
+        "type": "trade",
+        "status": "unknown",
+        "date": "2026-09-28",
+        "timestamp": 1790629940307,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "2"
+        ],
+        "players_added": [],
+        "players_dropped": [],
+        "trade_sides": null,
+        "faab_bid": 0,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "7f38fb58-1b57-475f-8fcd-7cafa7ec55ee",
+        "type": "trade_proposal",
+        "status": "pending",
+        "date": "2026-09-28",
+        "timestamp": 1790569184752,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [],
+        "players_dropped": [],
+        "trade_sides": null,
+        "faab_bid": 0,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "b5bb522f-c887-4f7f-b4de-0e45470a0a1e",
+        "type": "add",
+        "status": "complete",
+        "date": "2026-09-27",
+        "timestamp": 1790515615737,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "2"
+        ],
+        "players_added": [
+          {
+            "id": "-16029",
+            "name": "Panthers D/ST",
+            "position": "D/ST",
+            "team": "CAR"
+          }
+        ],
+        "players_dropped": [],
+        "trade_sides": null,
+        "faab_bid": 0,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "4dbe2bf9-6d51-4457-a9e2-e30fc979dd40",
+        "type": "add",
+        "status": "complete",
+        "date": "2026-09-26",
+        "timestamp": 1790478453968,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "6"
+        ],
+        "players_added": [
+          {
+            "id": "4429022",
+            "name": "Kayshon Boutte",
+            "position": "WR",
+            "team": "HOU"
+          }
+        ],
+        "players_dropped": [],
+        "trade_sides": null,
+        "faab_bid": 0,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "e25a2703-6ea0-49b3-88c0-9e3dac8690a3",
+        "type": "trade_uphold",
+        "status": "complete",
+        "date": "2026-09-26",
+        "timestamp": 1790477874759,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "11"
+        ],
+        "players_added": [],
+        "players_dropped": [],
+        "trade_sides": null,
+        "faab_bid": 0,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "20c373ee-6397-466f-8d27-3d23ad347443",
+        "type": "add",
+        "status": "complete",
+        "date": "2026-09-26",
+        "timestamp": 1790461326926,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "12"
+        ],
+        "players_added": [
+          {
+            "id": "4686422",
+            "name": "Xavier Hutchinson",
+            "position": "WR",
+            "team": "HOU"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4702555",
+            "name": "Jonah Coleman",
+            "position": "RB",
+            "team": "DEN"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 0,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "06dc712d-fb6f-4534-9f16-0352234c79fc",
+        "type": "add",
+        "status": "complete",
+        "date": "2026-09-26",
+        "timestamp": 1790395721386,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "6"
+        ],
+        "players_added": [
+          {
+            "id": "4361411",
+            "name": "Pat Freiermuth",
+            "position": "TE",
+            "team": "PIT"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4635008",
+            "name": "Keon Coleman",
+            "position": "WR",
+            "team": "BUF"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 0,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "40754b1d-2e1e-484c-9bf7-56ac324222d3",
+        "type": "trade",
+        "status": "unknown",
+        "date": "2026-09-26",
+        "timestamp": 1790395670484,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "6"
+        ],
+        "players_added": [],
+        "players_dropped": [],
+        "trade_sides": null,
+        "faab_bid": 0,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "5669cf32-6bd1-4bf2-a0da-22d310edd635",
+        "type": "trade_proposal",
+        "status": "pending",
+        "date": "2026-09-26",
+        "timestamp": 1790395455929,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "11"
+        ],
+        "players_added": [],
+        "players_dropped": [
+          {
+            "id": "4242433",
+            "name": "Joshua Palmer",
+            "position": "WR",
+            "team": "BUF"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 0,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "b92ce49a-790c-42b0-b5f0-0db766ece412",
+        "type": "add",
+        "status": "complete",
+        "date": "2026-09-25",
+        "timestamp": 1790364308737,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "11"
+        ],
+        "players_added": [
+          {
+            "id": "4685247",
+            "name": "Braelon Allen",
+            "position": "RB",
+            "team": "NYJ"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4431545",
+            "name": "Will Shipley",
+            "position": "RB",
+            "team": "PHI"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 0,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "f83a8477-000b-4b73-bd1f-c7e81c7b0bc2",
+        "type": "add",
+        "status": "complete",
+        "date": "2026-09-25",
+        "timestamp": 1790357119432,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "11"
+        ],
+        "players_added": [
+          {
+            "id": "4242433",
+            "name": "Joshua Palmer",
+            "position": "WR",
+            "team": "BUF"
+          }
+        ],
+        "players_dropped": [],
+        "trade_sides": null,
+        "faab_bid": 0,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "6ef4146c-e2fd-4e1d-8a9d-1a7c93228002",
+        "type": "waiver",
+        "status": "failed",
+        "date": "2026-09-25",
+        "timestamp": 1790320634265,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [
+          {
+            "id": "4034949",
+            "name": "Eddy Pineiro",
+            "position": "K",
+            "team": "SF"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4362081",
+            "name": "Cameron Dicker",
+            "position": "K",
+            "team": "LAC"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 1,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "8ba66d69-87cc-49bb-84e5-6d94f2f43aee",
+        "type": "waiver",
+        "status": "complete",
+        "date": "2026-09-25",
+        "timestamp": 1790320634264,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "3"
+        ],
+        "players_added": [
+          {
+            "id": "4034949",
+            "name": "Eddy Pineiro",
+            "position": "K",
+            "team": "SF"
+          }
+        ],
+        "players_dropped": [],
+        "trade_sides": null,
+        "faab_bid": 6,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "7068551d-e9ad-4469-854c-4d9915a628e5",
+        "type": "waiver",
+        "status": "pending",
+        "date": "2026-09-24",
+        "timestamp": 1790271826922,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [
+          {
+            "id": "4034949",
+            "name": "Eddy Pineiro",
+            "position": "K",
+            "team": "SF"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4362081",
+            "name": "Cameron Dicker",
+            "position": "K",
+            "team": "LAC"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 1,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "cc9b2bd4-a101-45e9-a671-352f159b083e",
+        "type": "add",
+        "status": "complete",
+        "date": "2026-09-24",
+        "timestamp": 1790271722004,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [
+          {
+            "id": "2973405",
+            "name": "Kalif Raymond",
+            "position": "WR",
+            "team": "CHI"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4040761",
+            "name": "Devin Singletary",
+            "position": "RB",
+            "team": "NYG"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 0,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "456fa65d-0bb2-43da-baf9-f189d4ef911b",
+        "type": "add",
+        "status": "complete",
+        "date": "2026-09-24",
+        "timestamp": 1790257864868,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "2"
+        ],
+        "players_added": [
+          {
+            "id": "4571557",
+            "name": "Spencer Shrader",
+            "position": "K",
+            "team": "IND"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4574716",
+            "name": "Harrison Mevis",
+            "position": "K",
+            "team": "LAR"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 0,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "1f3fa0c7-5f3f-4574-b27a-863770db6f4f",
+        "type": "waiver",
+        "status": "complete",
+        "date": "2026-09-24",
+        "timestamp": 1790234683887,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "12"
+        ],
+        "players_added": [
+          {
+            "id": "3052587",
+            "name": "Baker Mayfield",
+            "position": "QB",
+            "team": "TB"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "5081432",
+            "name": "Antonio Williams",
+            "position": "WR",
+            "team": "WSH"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 11,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "26a0074e-da39-433f-84c3-a419412a3ecb",
+        "type": "add",
+        "status": "complete",
+        "date": "2026-09-23",
+        "timestamp": 1790216139506,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "2"
+        ],
+        "players_added": [
+          {
+            "id": "5081508",
+            "name": "Eli Heidenreich",
+            "position": "RB",
+            "team": "PIT"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4430834",
+            "name": "Jalen McMillan",
+            "position": "WR",
+            "team": "TB"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 0,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "1535f0d2-738d-49b6-891b-27e6523af5bb",
+        "type": "add",
+        "status": "complete",
+        "date": "2026-09-23",
+        "timestamp": 1790179120966,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [
+          {
+            "id": "-16009",
+            "name": "Packers D/ST",
+            "position": "D/ST",
+            "team": "GB"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "-16027",
+            "name": "Buccaneers D/ST",
+            "position": "D/ST",
+            "team": "TB"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 0,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "ed31e88e-9654-46a5-87d0-39d9d084a615",
+        "type": "add",
+        "status": "complete",
+        "date": "2026-09-23",
+        "timestamp": 1790169665402,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "4"
+        ],
+        "players_added": [
+          {
+            "id": "4819231",
+            "name": "Kaleb Johnson",
+            "position": "RB",
+            "team": "GB"
+          }
+        ],
+        "players_dropped": [],
+        "trade_sides": null,
+        "faab_bid": 0,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "d016a755-eb1a-4965-9bcb-13e6f74f6ce8",
+        "type": "add",
+        "status": "complete",
+        "date": "2026-09-23",
+        "timestamp": 1790168213295,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "3"
+        ],
+        "players_added": [
+          {
+            "id": "3895856",
+            "name": "Christian Kirk",
+            "position": "WR",
+            "team": "SF"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4034949",
+            "name": "Eddy Pineiro",
+            "position": "K",
+            "team": "SF"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 0,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "3663df1b-1ae1-4361-8d7c-be9df74879cb",
+        "type": "waiver",
+        "status": "complete",
+        "date": "2026-09-23",
+        "timestamp": 1790150061558,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "8"
+        ],
+        "players_added": [
+          {
+            "id": "4595342",
+            "name": "Oronde Gadsden",
+            "position": "TE",
+            "team": "LAC"
+          }
+        ],
+        "players_dropped": [],
+        "trade_sides": null,
+        "faab_bid": 3,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "5d6ef0d1-ab18-45a9-92c3-c26667eb70d1",
+        "type": "waiver",
+        "status": "complete",
+        "date": "2026-09-23",
+        "timestamp": 1790150061558,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "6"
+        ],
+        "players_added": [
+          {
+            "id": "4635008",
+            "name": "Keon Coleman",
+            "position": "WR",
+            "team": "BUF"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4429022",
+            "name": "Kayshon Boutte",
+            "position": "WR",
+            "team": "HOU"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 2,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "6d3ce1f1-520c-4759-b77c-59e61665b30b",
+        "type": "waiver",
+        "status": "failed",
+        "date": "2026-09-23",
+        "timestamp": 1790150061558,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [
+          {
+            "id": "-16004",
+            "name": "Bengals D/ST",
+            "position": "D/ST",
+            "team": "CIN"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "-16027",
+            "name": "Buccaneers D/ST",
+            "position": "D/ST",
+            "team": "TB"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 4,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "3a84aa9b-674e-4143-a441-d6302359c108",
+        "type": "waiver",
+        "status": "failed",
+        "date": "2026-09-23",
+        "timestamp": 1790150061557,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "8"
+        ],
+        "players_added": [
+          {
+            "id": "4887558",
+            "name": "Emanuel Wilson",
+            "position": "RB",
+            "team": "SEA"
+          }
+        ],
+        "players_dropped": [],
+        "trade_sides": null,
+        "faab_bid": 4,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "129f8e7a-4731-475f-a7fe-fce6eb10be94",
+        "type": "waiver",
+        "status": "failed",
+        "date": "2026-09-23",
+        "timestamp": 1790150061557,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "12"
+        ],
+        "players_added": [
+          {
+            "id": "4887558",
+            "name": "Emanuel Wilson",
+            "position": "RB",
+            "team": "SEA"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "5081432",
+            "name": "Antonio Williams",
+            "position": "WR",
+            "team": "WSH"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 11,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "c1598d27-1d45-4581-bd10-8bb7b25a4f6a",
+        "type": "waiver",
+        "status": "failed",
+        "date": "2026-09-23",
+        "timestamp": 1790150061557,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "8"
+        ],
+        "players_added": [
+          {
+            "id": "4360689",
+            "name": "Tyler Shough",
+            "position": "QB",
+            "team": "NO"
+          }
+        ],
+        "players_dropped": [],
+        "trade_sides": null,
+        "faab_bid": 10,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "09310d5f-6094-4109-80ff-c5bad63d13ba",
+        "type": "waiver",
+        "status": "complete",
+        "date": "2026-09-23",
+        "timestamp": 1790150061557,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "12"
+        ],
+        "players_added": [
+          {
+            "id": "3117256",
+            "name": "Dalton Schultz",
+            "position": "TE",
+            "team": "HOU"
+          }
+        ],
+        "players_dropped": [],
+        "trade_sides": null,
+        "faab_bid": 11,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "a3c82250-1c48-441f-a5c5-efdc20e4c363",
+        "type": "waiver",
+        "status": "complete",
+        "date": "2026-09-23",
+        "timestamp": 1790150061557,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [
+          {
+            "id": "2576925",
+            "name": "Darren Waller",
+            "position": "TE",
+            "team": "CAR"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "3116164",
+            "name": "Mike Gesicki",
+            "position": "TE",
+            "team": "CIN"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 6,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "04331b87-5d3a-4c3e-a0ca-d1b317fb5b62",
+        "type": "waiver",
+        "status": "failed",
+        "date": "2026-09-23",
+        "timestamp": 1790150061557,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "12"
+        ],
+        "players_added": [
+          {
+            "id": "4595342",
+            "name": "Oronde Gadsden",
+            "position": "TE",
+            "team": "LAC"
+          }
+        ],
+        "players_dropped": [],
+        "trade_sides": null,
+        "faab_bid": 10,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "9e08de57-882c-4872-8ebc-7691a4e4c890",
+        "type": "waiver",
+        "status": "failed",
+        "date": "2026-09-23",
+        "timestamp": 1790150061557,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "6"
+        ],
+        "players_added": [
+          {
+            "id": "3117256",
+            "name": "Dalton Schultz",
+            "position": "TE",
+            "team": "HOU"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4241463",
+            "name": "Jerry Jeudy",
+            "position": "WR",
+            "team": "CLE"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 7,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "468cb6eb-a434-48b6-9ad3-f2d376f9f07a",
+        "type": "waiver",
+        "status": "failed",
+        "date": "2026-09-23",
+        "timestamp": 1790150061557,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "8"
+        ],
+        "players_added": [
+          {
+            "id": "4685720",
+            "name": "Bryce Young",
+            "position": "QB",
+            "team": "CAR"
+          }
+        ],
+        "players_dropped": [],
+        "trade_sides": null,
+        "faab_bid": 12,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "1b84b298-cafb-4a47-b10b-ec8e2b88c821",
+        "type": "waiver",
+        "status": "complete",
+        "date": "2026-09-23",
+        "timestamp": 1790150061556,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "8"
+        ],
+        "players_added": [
+          {
+            "id": "-16016",
+            "name": "Vikings D/ST",
+            "position": "D/ST",
+            "team": "MIN"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "-16024",
+            "name": "Chargers D/ST",
+            "position": "D/ST",
+            "team": "LAC"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 13,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "60b01020-dedc-478a-aff4-26d327c9a434",
+        "type": "waiver",
+        "status": "complete",
+        "date": "2026-09-23",
+        "timestamp": 1790150061556,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "7"
+        ],
+        "players_added": [
+          {
+            "id": "4685720",
+            "name": "Bryce Young",
+            "position": "QB",
+            "team": "CAR"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4686658",
+            "name": "Mike Washington Jr.",
+            "position": "RB",
+            "team": "LV"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 20,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "b4b9b52e-42b7-47c7-a4d9-fa6fd9239574",
+        "type": "waiver",
+        "status": "complete",
+        "date": "2026-09-23",
+        "timestamp": 1790150061556,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "11"
+        ],
+        "players_added": [
+          {
+            "id": "4431545",
+            "name": "Will Shipley",
+            "position": "RB",
+            "team": "PHI"
+          }
+        ],
+        "players_dropped": [],
+        "trade_sides": null,
+        "faab_bid": 12,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "8d5cee24-d3dd-46f6-be0f-e419d51ccc1a",
+        "type": "waiver",
+        "status": "complete",
+        "date": "2026-09-23",
+        "timestamp": 1790150061556,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "6"
+        ],
+        "players_added": [
+          {
+            "id": "-16004",
+            "name": "Bengals D/ST",
+            "position": "D/ST",
+            "team": "CIN"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "-16005",
+            "name": "Browns D/ST",
+            "position": "D/ST",
+            "team": "CLE"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 35,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "433bfcbb-d2d6-47ac-9cef-65141644b236",
+        "type": "waiver",
+        "status": "failed",
+        "date": "2026-09-23",
+        "timestamp": 1790150061556,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "11"
+        ],
+        "players_added": [
+          {
+            "id": "4887558",
+            "name": "Emanuel Wilson",
+            "position": "RB",
+            "team": "SEA"
+          }
+        ],
+        "players_dropped": [],
+        "trade_sides": null,
+        "faab_bid": 26,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "6f0eb94a-3550-48cb-8fba-4b6e4b47300c",
+        "type": "waiver",
+        "status": "failed",
+        "date": "2026-09-23",
+        "timestamp": 1790150061556,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [
+          {
+            "id": "4887558",
+            "name": "Emanuel Wilson",
+            "position": "RB",
+            "team": "SEA"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4040761",
+            "name": "Devin Singletary",
+            "position": "RB",
+            "team": "NYG"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 13,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "7bb44ab7-35f9-4836-aad9-5b164e6044d7",
+        "type": "waiver",
+        "status": "complete",
+        "date": "2026-09-23",
+        "timestamp": 1790150061555,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "6"
+        ],
+        "players_added": [
+          {
+            "id": "4360689",
+            "name": "Tyler Shough",
+            "position": "QB",
+            "team": "NO"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "3052587",
+            "name": "Baker Mayfield",
+            "position": "QB",
+            "team": "TB"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 76,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "0fc88a4a-ae66-4ace-94b0-12fd0e868f08",
+        "type": "waiver",
+        "status": "complete",
+        "date": "2026-09-23",
+        "timestamp": 1790150061555,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "6"
+        ],
+        "players_added": [
+          {
+            "id": "4887558",
+            "name": "Emanuel Wilson",
+            "position": "RB",
+            "team": "SEA"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "3149687",
+            "name": "Chris Brooks",
+            "position": "RB",
+            "team": "GB"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 42,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "1ce25779-63bf-4f7a-b543-0d0f50dae1b3",
+        "type": "waiver",
+        "status": "unknown",
+        "date": "2026-09-23",
+        "timestamp": 1790138107267,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "4"
+        ],
+        "players_added": [
+          {
+            "id": "4685720",
+            "name": "Bryce Young",
+            "position": "QB",
+            "team": "CAR"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4036378",
+            "name": "Jordan Love",
+            "position": "QB",
+            "team": "GB"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 0,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "1e5070bd-706e-48e2-9ff1-e16572b646f6",
+        "type": "waiver",
+        "status": "unknown",
+        "date": "2026-09-23",
+        "timestamp": 1790138099222,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "4"
+        ],
+        "players_added": [
+          {
+            "id": "4360689",
+            "name": "Tyler Shough",
+            "position": "QB",
+            "team": "NO"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4036378",
+            "name": "Jordan Love",
+            "position": "QB",
+            "team": "GB"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 0,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "b638c628-461d-40c5-b36c-631cee7fd6af",
+        "type": "waiver",
+        "status": "pending",
+        "date": "2026-09-22",
+        "timestamp": 1790134133598,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [
+          {
+            "id": "4887558",
+            "name": "Emanuel Wilson",
+            "position": "RB",
+            "team": "SEA"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4040761",
+            "name": "Devin Singletary",
+            "position": "RB",
+            "team": "NYG"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 13,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "90c3ea04-39cd-4524-a243-59a346329ec7",
+        "type": "waiver",
+        "status": "pending",
+        "date": "2026-09-22",
+        "timestamp": 1790134077075,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [
+          {
+            "id": "-16004",
+            "name": "Bengals D/ST",
+            "position": "D/ST",
+            "team": "CIN"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "-16027",
+            "name": "Buccaneers D/ST",
+            "position": "D/ST",
+            "team": "TB"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 4,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "a91945fa-1208-48b1-8948-ec549cab2118",
+        "type": "waiver",
+        "status": "pending",
+        "date": "2026-09-22",
+        "timestamp": 1790133948881,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [
+          {
+            "id": "2576925",
+            "name": "Darren Waller",
+            "position": "TE",
+            "team": "CAR"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "3116164",
+            "name": "Mike Gesicki",
+            "position": "TE",
+            "team": "CIN"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 6,
+        "waiver_priority": null,
+        "draft_picks": null
+      },
+      {
+        "transaction_id": "1127d1fc-529b-4a2a-8a0d-652d5ae260af",
+        "type": "waiver",
+        "status": "unknown",
+        "date": "2026-09-22",
+        "timestamp": 1790129714075,
+        "week": 3,
+        "provider_scoring_period_id": 3,
+        "team_ids": [
+          "8"
+        ],
+        "players_added": [
+          {
+            "id": "-16009",
+            "name": "Packers D/ST",
+            "position": "D/ST",
+            "team": "GB"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "-16024",
+            "name": "Chargers D/ST",
+            "position": "D/ST",
+            "team": "LAC"
+          }
+        ],
+        "trade_sides": null,
+        "faab_bid": 0,
+        "waiver_priority": null,
+        "draft_picks": null
+      }
+    ]
+  },
+  "limitations": [
+    "Flaim is a read-only provider adapter; this receipt is a captured observation, not a perpetual live source.",
+    "ESPN transaction response reports structured_details_incomplete=true; exact trade assets must remain unresolved when directional detail is absent.",
+    "Roster placement (including IR) is not a medical-status verification.",
+    "Current matchup projections are provider observations at capture time and may change.",
+    "Freshness must be recomputed by Schemin consumers from captured_at."
+  ]
+}
