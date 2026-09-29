@@ -1,6 +1,6 @@
 # SCHEMIN '26 WEEKLY MEMO OS — V5.5 INTEGRATED PREPRODUCTION PATCH
 
-**Status:** RELEASE CANDIDATE — ACCEPTANCE TEST REQUIRED  
+**Status:** BINDING — ACCEPTANCE PASSED 2026-09-29  
 **Authority:** Weekly Memo OS / Bullpen  
 **Origin:** Week 3 post-production V2 retrospective  
 **Supersedes:** V5.4 only after all acceptance gates pass. V5.3/CCCP remain character authority beneath this patch.
@@ -73,10 +73,17 @@ DATA_REFRESH → FACT_LOCK → TEMPORAL_CANON_LOAD → CHARACTER_LOCK → CONTIN
 ## 16. Anti-bureaucracy
 Do not add literal-distance cartography, mandatory dialogue, fixed page counts, camera quotas, duplicate QA forms or automatic scenery canonization. A control survives only if it prevents a meaningful defect, detects it materially earlier, or reduces rework.
 
-## 17. Promotion gate
-This patch may become BINDING only when the executable acceptance suite:
+## 17. Promotion gate — SATISFIED 2026-09-29
+The executable acceptance suite was run, audited, hardened, and rerun. Final result: **11/11 PASS** with known Week 3 failure detection and zero encoded known-pass regressions.
+
+Promotion required and achieved:
 1. detects all encoded Week 3 known-failure fixtures;
 2. produces zero unexpected failures on encoded known-pass fixtures;
 3. validates temporal-canon behavior;
 4. validates asset/release invariants;
 5. is rerun after bug-fix/polish with all tests passing.
+
+
+## 18. Promotion receipt
+Acceptance evidence: `memo-os/tests/V5_5_ACCEPTANCE_RUN_REPORT.md`.
+V5.5 is now the controlling production-hardening patch above V5.4/V5.3. V5.3/CCCP remains authoritative for current character resolution where specified.
