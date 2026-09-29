@@ -21,7 +21,7 @@ Top row:
 2. Kevin Zeek / Red Leopards — Predator Board
 3. Jordan Hollingshead / Slob on my Dobb — Frat-Bro Berserker
 4. David Babb / The LLC. — Hostile Takeover
-5. Wilson Look / Donkey Kong — Philosopher-Warrior / Arsenal Centaur
+5. Wilson Look / Donkey Kong — HISTORICAL AT 2026-09-26: Philosopher-Warrior / Arsenal Centaur; SUPERSEDED 2026-09-29 by Arsenal Gorilla Warrior
 6. Phillip Pitts / Three Dreaded Snake — Podium Shadow
 
 Bottom row:
@@ -48,7 +48,7 @@ Team-name typography never controls anatomy.
 
 - Trade Jedi: blond human + green energy sword + golden retriever; **NO BELT**.
 - Belt Keeper: corpse-pale/ashen, long black hair, pale eyes, black rune armor, massive rune sword, **Championship Belt**; never generic king.
-- Arsenal Centaur: centaur/equine warrior; never gorilla.
+- Wilson Look CURRENT LOCK (supersession 2026-09-29): Arsenal Gorilla Warrior — massive black-furred gorilla, Arsenal-red jersey/armor, ornate double-headed axe, metal tankard; never centaur/equine anatomy. The centaur statement in this dated record is historical only.
 - TDS: reptilian humanoid + long dreadlocks; never three ordinary snakes.
 - Slob: huge horned shaggy human-beast + battered football armor + bat + pit bull.
 - LLC: human corporate raider in dark suit + sunglasses + cigar + briefcase.
@@ -70,3 +70,7 @@ For ensemble scenes, use individually reference-locked character material and co
 This record is part of the required source packet for every Chronicle character spread.
 
 **No character reference packet = no render.**
+
+
+## Supersession notice — 2026-09-29
+This dated lock is preserved as historical evidence. For current production, `canon/characters/CHARACTER_REGISTRY.yaml` and the active Wilson owner package supersede this file wherever Wilson Look is concerned. Do not use the 2026-09-26 centaur state to seed new renders.
