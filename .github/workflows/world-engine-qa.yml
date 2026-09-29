@@ -35,4 +35,6 @@ jobs:
       - name: Validate JSON files
         run: |
           node -e "for (const f of require('fs').readdirSync('schemas').filter(x=>x.startsWith('world-')&&x.endsWith('.json'))) JSON.parse(require('fs').readFileSync('schemas/'+f,'utf8'));"
+          node -e "for (const f of require('fs').readdirSync('world/data').filter(x=>x.endsWith('.json'))) JSON.parse(require('fs').readFileSync('world/data/'+f,'utf8'));"
           node -e "JSON.parse(require('fs').readFileSync('world/qa/spatial/spatial_topology_fixture.json','utf8'));"
+          node -e "JSON.parse(require('fs').readFileSync('living-novel/os/geography/world_travel_graph_v1.json','utf8'));"
