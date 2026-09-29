@@ -10,6 +10,7 @@ on:
       - '.github/workflows/world-engine-qa.yml'
   push:
     branches:
+      - main
       - 'world/**'
     paths:
       - 'world/**'
