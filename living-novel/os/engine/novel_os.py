@@ -189,7 +189,11 @@ VISUAL_PIPELINE=["MANUSCRIPT_ANCHOR","BEAT","VISUAL_VALUE","VISUAL_INTENT","CANO
 def visual_workflow(beat_id:str,character_bearing:bool=False)->dict:
     return {"workflow":"VISUAL","beat_id":beat_id,"character_bearing":character_bearing,
             "stages":[{"name":s,"state":"PENDING"} for s in VISUAL_PIPELINE],
-            "reference_gate_required":character_bearing}
+            "reference_gate_required":character_bearing,
+            "character_control_plane":"canon/characters/cccp_resolver.py" if character_bearing else None,
+            "render_contract":"canon/characters/cccp_render_contract.py" if character_bearing else None,
+            "character_qa":"canon/characters/cccp_qa.py" if character_bearing else None,
+            "rule":"Character-bearing visual work cannot bypass CCCP."}
 
 # ---- Phase 7 live-season transaction ----
 LIVE_PIPELINE=["SOURCE_INGESTION","VERIFICATION","SIGNIFICANCE_GRADING","HISTORICAL_CONTEXT",
