@@ -5,18 +5,21 @@
 
 ## Load order
 
-1. `SCHEMIN_26_WEEKLY_MEMO_OS_V5_4_ACCEPTANCE_TEST_HARDENING_PATCH.md` — binding production hardening learned from the full Week 2 test
-2. `SCHEMIN_26_WEEKLY_MEMO_OS_V5_3_CHARACTER_REFERENCE_ENFORCEMENT_PATCH.md` — binding character-reference, continuity-state, Fact Lock separation, and QA hard gates
-3. `SCHEMIN_26_WEEKLY_MEMO_OS_V5_GOLD_STANDARD_STUDIO_PATCH.md`
-4. `SCHEMIN_26_WEEKLY_MEMO_OS_V5_2_RC_MUTUAL_IMPLEMENTATION_PATCH.md`
-5. `SCHEMIN_26_WEEKLY_MEMO_GOLD_STANDARD_PRODUCTION_MANUAL.md`
-6. `SCHEMIN_26_WEEKLY_MEMO_MASTER_INITIATION_PROMPT.md`
-7. `../canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md` — includes binding v2.0 Reference-Plate Execution Patch
-8. `../chronicles/standards/CHARACTER_VISUAL_LOCK_GATE.md` — release-blocking character QA
+1. `SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md` — binding integrated preproduction/world/temporal-canon hardening, promoted after Week 3 acceptance testing
+2. `SCHEMIN_26_WEEKLY_MEMO_OS_V5_4_ACCEPTANCE_TEST_HARDENING_PATCH.md` — binding production hardening learned from the full Week 2 test
+3. `SCHEMIN_26_WEEKLY_MEMO_OS_V5_3_CHARACTER_REFERENCE_ENFORCEMENT_PATCH.md` — binding character-reference, continuity-state, Fact Lock separation, and QA hard gates
+4. `SCHEMIN_26_WEEKLY_MEMO_OS_V5_GOLD_STANDARD_STUDIO_PATCH.md`
+5. `SCHEMIN_26_WEEKLY_MEMO_OS_V5_2_RC_MUTUAL_IMPLEMENTATION_PATCH.md`
+6. `SCHEMIN_26_WEEKLY_MEMO_GOLD_STANDARD_PRODUCTION_MANUAL.md`
+7. `SCHEMIN_26_WEEKLY_MEMO_MASTER_INITIATION_PROMPT.md`
+8. `../canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md` — includes binding v2.0 Reference-Plate Execution Patch
+9. `../chronicles/standards/CHARACTER_VISUAL_LOCK_GATE.md` — release-blocking character QA
 
 ## Status notes
 
-- V5.4 is the controlling production-hardening patch and is binding for all future weekly memos.
+- V5.5 is the controlling production-hardening patch after passing the Week 3 retrospective acceptance suite (11/11 after bug-fix/polish/retest).
+- V5.5 integrates rather than replaces V5.4/V5.3: temporal canon receipts, final-raster character certification, persistent World Atlas/World State, personalized story intelligence, complete-issue previs, compact Page Design Packets, visual-rhythm/world-geography QA, and immutable approved-asset receipts.
+- V5.4 remains binding beneath V5.5.
 - V5.3 remains the controlling character-reference enforcement patch beneath V5.4 and is binding.
 - V5 remains the controlling production-plane doctrine except where V5.3 hardens character/fact/continuity QA.
 - V5.2-RC governs cross-OS orchestration during acceptance testing.
