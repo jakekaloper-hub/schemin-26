@@ -1,0 +1,56 @@
+schema_version: "1.0"
+status: ACTIVE
+characters:
+  CHAR-JAKE-KALOPER:
+    identity_critical_objects: ["green energy sword"]
+    companions: ["golden retriever"]
+    environment_anchor: "North Georgia mountain war-room"
+  CHAR-KEVIN-ZEEK:
+    identity_critical_objects: ["claws"]
+    companions: UNKNOWN
+    environment_anchor: "jungle ruins"
+  CHAR-JORDAN-HOLLINGSHEAD:
+    identity_critical_objects: ["metal bat", "beer/tailgate language"]
+    companions: ["pit-bull"]
+    environment_anchor: "tailgate/bar/football chaos"
+  CHAR-DAVID-BABB:
+    identity_critical_objects: ["LLC briefcase", "cigar"]
+    companions: UNKNOWN
+    environment_anchor: "dark boardroom/market"
+  CHAR-WILSON-LOOK:
+    identity_critical_objects: ["ornate double-headed axe", "metal tankard"]
+    companions: UNKNOWN
+    environment_anchor: "monumental high-fantasy battlefield"
+  CHAR-PHILLIP-PITTS:
+    identity_critical_objects: UNKNOWN
+    companions: UNKNOWN
+    environment_anchor: "jungle/waterfall"
+  CHAR-BRANDON-PRYOR:
+    identity_critical_objects: ["chili vessel", "pepper bandolier"]
+    companions: ["The Dark Horse"]
+    environment_anchor: "dark Western stable/hideout"
+  CHAR-MANNING-WELTY:
+    identity_critical_objects: ["storm staff"]
+    companions: UNKNOWN
+    environment_anchor: "flooded football stadium"
+  CHAR-AUSTIN-BYARS:
+    identity_critical_objects: ["championship belt", "medieval/rune sword"]
+    companions: UNKNOWN
+    environment_anchor: "gothic dark-fantasy championship environment"
+  CHAR-BOBBY-MITCHELL:
+    identity_critical_objects: ["heavy chain"]
+    companions: UNKNOWN
+    environment_anchor: "violent swamp"
+  CHAR-ZACH-WILSON:
+    identity_critical_objects: ["driver prosthetic arm", "golf equipment", "cigar"]
+    companions: UNKNOWN
+    environment_anchor: "swamp/water golf environment"
+  CHAR-BEN-WHIPPLE:
+    identity_critical_objects: ["oversized hammer", "40-ounce bottle"]
+    companions: ["raccoon"]
+    environment_anchor: "truck-stop BBQ"
+rules:
+  - "UNKNOWN is not permission to invent."
+  - "Environment anchors guide home-world continuity but never mutate species/body identity."
+  - "Objects and companions are owner-scoped and may not bleed across Character IDs."
+  - "Scene omission is allowed unless a story beat or character contract explicitly requires the object/companion."
