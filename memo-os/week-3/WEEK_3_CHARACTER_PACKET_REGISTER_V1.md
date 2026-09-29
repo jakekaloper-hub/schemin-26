@@ -8,7 +8,7 @@
 |02|Kevin Zeek / Red Leopards|The Predator Board|giant anthropomorphic red leopard; black rosettes; red/black/gold armor|canonical; no human/ordinary cat substitute|
 |03|Jordan Hollingshead / Slob on my Dobb|Win Ugly / Frat-Bro Berserker|heavy shaggy horned berserker; filthy Slob identity; beer/bat; bulldog/pit-bull companion|canonical; preserve companion language|
 |04|David Babb / The LLC|Hostile Takeover|human corporate raider; tailored dark suit; sunglasses; cigar; LLC briefcase|canonical; Week 2 corporate-world consequences may persist environmentally|
-|05|Wilson Look / D0nkey K0ng|Philosopher-Warrior / Arsenal Centaur|human warrior torso joined to full equine body; Arsenal-red identity; axe/tankard|canonical; **never gorilla, ape, jungle mascot or human-only barbarian**|
+|05|Wilson Look / Donkey Kong|Donkey Kong / Arsenal Gorilla Warrior|massive black-furred gorilla; Arsenal-red jersey/armor; ornate double-headed axe; metal tankard; bronze/gold fantasy armor|**2026-09-29 owner-specific reference supersedes older centaur panel; centaur/equine identity RETIRED**|
 |06|Phillip Pitts / Three Dreaded Snake|The Podium Shadow|ONE green/gold reptilian humanoid; #3 identity; master plate controls immutable identity|**TDS_POST_HAIRCUT_v1**; haircut overlay changes hair only; never three snakes/three-headed/Medusa/human|
 |07|Brandon Pryor / Chili Cheesers|The Chili Outlaw|bearded human Western outlaw/pitmaster; black hat; sunglasses; red/black; chili objects; Dark Horse|canonical; Dark Horse preserved|
 |08|Manning Welty / El Niño|The Weather System|nonhuman storm/water/lightning elemental humanoid|canonical; never ordinary human/chef/child/surfer/generic wizard|
@@ -25,3 +25,5 @@ Pose, action, expression, camera, environment, weather, lighting, dirt/damage an
 
 ## Machine-use rule
 Before art: resolve exact owner/team mapping, select row, attach master reference, merge current continuity overlay, then run Character QA. Any single Character QA failure = PAGE_REJECT.
+
+> **Post-publication canon supersession (2026-09-29):** Any reuse of this Week 3 packet for new art must resolve Wilson Look to the gorilla-warrior design. Historical Week 3 published art remains historical evidence; do not retroactively rewrite released pages unless explicitly ordered.
