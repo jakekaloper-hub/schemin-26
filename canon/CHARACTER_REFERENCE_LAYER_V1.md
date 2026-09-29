@@ -15,7 +15,7 @@ The approved plate/crop is visual authority. Text constrains; it never redesigns
 03 Jordan Hollingshead / Slob on my Dobb — Win Ugly / Frat-Bro Berserker.
 04 David Babb / The LLC — Hostile Takeover.
 05 Wilson Look / Donkey Kong — Donkey Kong / Arsenal Gorilla Warrior — massive black-furred gorilla; Arsenal-red jersey/armor; ornate double-headed axe; metal tankard; owner-specific 2026-09-29 reference outranks older lineup panel; CENTAUR/EQUINE DESIGN RETIRED.
-06 Phillip Pitts / Three Dreaded Snake — The Podium Shadow — ONE reptilian humanoid; never three snakes/three-headed snake/Medusa/human.
+06 Phillip Pitts / Three Dreaded Snake — The Podium Shadow — ONE powerful reptilian humanoid BODY with THREE distinct serpent HEADS; green-gold scales; glowing eyes; dreadlock-like extensions; never three separate snakes/single-headed reptile/Medusa/human. Commissioner-supplied 2026-09-29 reference is PRIMARY IDENTITY AUTHORITY (legacy-low render quality).
 07 Brandon Pryor / Chili Cheesers — The Chili Outlaw + Dark Horse.
 08 Manning Welty / El Niño — The Weather System — nonhuman elemental.
 09 Austin Byars / His Majesty's Blood — The Belt Keeper.
