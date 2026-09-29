@@ -15,7 +15,7 @@ Every art brief must attach the master plate and identify the required numbered 
 2 Red Leopards / Predator Board: towering anthropomorphic red leopard; black rosettes; feline head/fangs; heavy black/red/gold fantasy armor; muscular predator silhouette.
 3 Slob on my Dobb / Win Ugly: very large shaggy bearded human berserker; horned headgear; filthy white “SLOB ON MY DOBB” tank; battered bat/club; beer; bulldog companion; deliberately grimy.
 4 The LLC / Hostile Takeover: clean-cut human corporate raider; dark business suit; white shirt/tie; sunglasses; cigar; black LLC briefcase; polished executive silhouette.
-5 D0nkey K0ng / Philosopher-Warrior: Arsenal Centaur — human warrior torso fused to full white/gray horse body; flowing blond hair; Arsenal-red jersey/armor; large battle axe; tankard; centaur anatomy mandatory; never ape/gorilla.
+5 Donkey Kong / Wilson Look: **ACTIVE 2026-09-29 SUPERSESSION** — massive black-furred gorilla warrior; broad powerful primate anatomy; Arsenal-red jersey/armor; ornate double-headed axe; metal tankard; bronze/gold fantasy armor; centaur/equine design RETIRED.
 6 Three Dreaded Snake / Podium Shadow: single green reptilian humanoid; scaled crocodilian/lizard face and body; black/gold #3 athletic armor; reptilian limbs/tail; Week 3 continuity uses post-haircut state from Week 2; never three snakes/three heads/human.
 7 Chili Cheesers / Chili Outlaw: bearded human western outlaw/pitmaster; black cowboy hat with red/gold band; sunglasses; black/red western coat; chili bowl/bandolier motif; Dark Horse companion.
 8 El Niño / Weather System: nonhuman blue-white storm elemental; sculpted humanoid weather form; cloud/wave/lightning textures; luminous blue eyes; swirling storm energy; never ordinary human.
@@ -152,3 +152,6 @@ Final phrase may be polished after complete issue read-through.
 9 Wednesday waiver data ingested.
 10 FACT_QA + CHARACTER_QA + CONTINUITY_QA + MOBILE_QA + ORIGINALITY_QA.
 11 Final PDF assembled only from locked masters and rendered page-by-page for audit.
+
+## Supersession — 2026-09-29
+Wilson Look's owner-specific gorilla-warrior reference supersedes this document's original centaur extraction for all future renders. Any centaur/equine output now fails Character QA.
