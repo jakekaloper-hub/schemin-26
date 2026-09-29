@@ -1,0 +1,272 @@
+{
+  "schema_version": "1.0",
+  "coordinate_space": "schemin-local-v1 (abstract, non-metric)",
+  "regions": [
+    {
+      "id": "REG-NORTHERN-SPINE",
+      "name": "Northern Spine",
+      "canon_status": "INTERPRETIVE_CANON",
+      "zone_type": "physical",
+      "adjacent_region_ids": [
+        "REG-UPPER-VALLEYS",
+        "REG-WESTERN-TABLELANDS",
+        "REG-EASTERN-STORM-COAST"
+      ],
+      "abstract_bounds": [
+        25,
+        72,
+        70,
+        100
+      ],
+      "environment": {
+        "terrain": [
+          "high mountains",
+          "narrow passes",
+          "rock ridges"
+        ],
+        "climate": [
+          "cold winters",
+          "snow at elevation",
+          "headwater precipitation"
+        ],
+        "movement": [
+          "passes constrain travel",
+          "winter closures possible",
+          "mounts and foot travel dominate"
+        ]
+      },
+      "provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ]
+    },
+    {
+      "id": "REG-UPPER-VALLEYS",
+      "name": "Upper Valleys and Foothills",
+      "canon_status": "INTERPRETIVE_CANON",
+      "zone_type": "physical",
+      "adjacent_region_ids": [
+        "REG-NORTHERN-SPINE",
+        "REG-CENTRAL-BASIN",
+        "REG-WESTERN-TABLELANDS",
+        "REG-EASTERN-STORM-COAST"
+      ],
+      "abstract_bounds": [
+        20,
+        55,
+        75,
+        78
+      ],
+      "environment": {
+        "terrain": [
+          "rolling uplands",
+          "mixed forest",
+          "pasture",
+          "defensible ridges"
+        ],
+        "climate": [
+          "temperate",
+          "seasonal rain"
+        ],
+        "movement": [
+          "horse roads",
+          "ridge routes",
+          "market-town connectors"
+        ]
+      },
+      "provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ]
+    },
+    {
+      "id": "REG-CENTRAL-BASIN",
+      "name": "Central River Basin",
+      "canon_status": "INTERPRETIVE_CANON",
+      "zone_type": "physical",
+      "adjacent_region_ids": [
+        "REG-UPPER-VALLEYS",
+        "REG-WESTERN-TABLELANDS",
+        "REG-SOUTHERN-WETLANDS",
+        "REG-EASTERN-STORM-COAST",
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "abstract_bounds": [
+        25,
+        30,
+        72,
+        58
+      ],
+      "environment": {
+        "terrain": [
+          "broad river valleys",
+          "fertile lowlands",
+          "bridge corridors"
+        ],
+        "climate": [
+          "temperate",
+          "flood-cycle influence"
+        ],
+        "movement": [
+          "navigable rivers",
+          "major roads",
+          "bridges and toll points"
+        ]
+      },
+      "provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ]
+    },
+    {
+      "id": "REG-WESTERN-TABLELANDS",
+      "name": "Western Tablelands",
+      "canon_status": "INTERPRETIVE_CANON",
+      "zone_type": "physical",
+      "adjacent_region_ids": [
+        "REG-NORTHERN-SPINE",
+        "REG-UPPER-VALLEYS",
+        "REG-CENTRAL-BASIN",
+        "REG-SOUTHERN-WETLANDS"
+      ],
+      "abstract_bounds": [
+        0,
+        25,
+        35,
+        72
+      ],
+      "environment": {
+        "terrain": [
+          "open grassland",
+          "broken stone ridges",
+          "dry frontier"
+        ],
+        "climate": [
+          "drier",
+          "rain-shadow influence",
+          "large temperature swings"
+        ],
+        "movement": [
+          "long overland routes",
+          "mounted travel",
+          "dispersed settlements"
+        ]
+      },
+      "provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ]
+    },
+    {
+      "id": "REG-EASTERN-STORM-COAST",
+      "name": "Eastern Forest and Storm Coast",
+      "canon_status": "INTERPRETIVE_CANON",
+      "zone_type": "physical",
+      "adjacent_region_ids": [
+        "REG-NORTHERN-SPINE",
+        "REG-UPPER-VALLEYS",
+        "REG-CENTRAL-BASIN",
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "abstract_bounds": [
+        68,
+        25,
+        100,
+        88
+      ],
+      "environment": {
+        "terrain": [
+          "dense forest",
+          "rocky approaches",
+          "storm-exposed coast"
+        ],
+        "climate": [
+          "wet",
+          "violent coastal storms",
+          "high rainfall"
+        ],
+        "movement": [
+          "forest roads",
+          "coastal navigation",
+          "weather disruption"
+        ]
+      },
+      "provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ]
+    },
+    {
+      "id": "REG-SOUTHERN-WETLANDS",
+      "name": "Southern Wetlands and Delta",
+      "canon_status": "INTERPRETIVE_CANON",
+      "zone_type": "physical",
+      "adjacent_region_ids": [
+        "REG-WESTERN-TABLELANDS",
+        "REG-CENTRAL-BASIN",
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "abstract_bounds": [
+        20,
+        0,
+        72,
+        32
+      ],
+      "environment": {
+        "terrain": [
+          "slow rivers",
+          "cypress-like wetlands",
+          "mudflats",
+          "raised ground"
+        ],
+        "climate": [
+          "warm",
+          "humid",
+          "seasonal flooding"
+        ],
+        "movement": [
+          "boats",
+          "causeways",
+          "raised roads",
+          "specialized wetland travel"
+        ]
+      },
+      "provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ]
+    },
+    {
+      "id": "REG-INNER-SEA-LITTORAL",
+      "name": "Inner Sea Littoral",
+      "canon_status": "INTERPRETIVE_CANON",
+      "zone_type": "physical",
+      "adjacent_region_ids": [
+        "REG-CENTRAL-BASIN",
+        "REG-SOUTHERN-WETLANDS",
+        "REG-EASTERN-STORM-COAST"
+      ],
+      "abstract_bounds": [
+        55,
+        0,
+        100,
+        25
+      ],
+      "environment": {
+        "terrain": [
+          "warm ports",
+          "islands",
+          "sheltered bays",
+          "coastal terraces"
+        ],
+        "climate": [
+          "maritime",
+          "warm",
+          "storm spillover"
+        ],
+        "movement": [
+          "sea lanes",
+          "port roads",
+          "coastal trade"
+        ]
+      },
+      "provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ]
+    }
+  ]
+}

@@ -63,6 +63,28 @@ Latest explicit Commissioner-approved corrections outrank older visual plates an
 
 The typed Character Control Plane v2 under `canon/character-control-plane-v2/` is **RELEASE_CANDIDATE / NOT ACTIVE** until its release gates close. Do not treat v2 existence as runtime promotion.
 
+### World Engine / Geography
+Current controlling build: **Schemin World Engine V1** once this receipt is present on `main`.
+
+Read in this order:
+1. `world/SCHEMIN_WORLD_ENGINE_V1_RELEASE_RECEIPT.md`
+2. `world/PRO_SCHEMIN_WORLD_BIBLE_V1.md`
+3. `world/atlas/ATLAS_V1.md`
+4. `world/divisions/DIVISION_INDEX_SCHEMA_V1.md`
+5. `world/state/WORLD_STATE_LEDGER_V1.md`
+6. `world/qa/WORLD_GEOGRAPHY_ACCEPTANCE_SUITE_V1.md`
+7. `world/data/README.md`
+
+World Engine owns persistent physical geography, division spatial/cultural identity, owner-domain placement, routes, recurring locations, environmental state and geography QA. It does not own fantasy-league truth or character identity.
+
+Binding semantic locks include:
+- Burgers = burgers.
+- Wings = **chicken wings**.
+- Pizza = pizza.
+- Renderers consume world data; they do not silently create canon.
+
+Memo OS and Living Novel consume the same World Engine location/state IDs rather than maintaining parallel geography.
+
 ### Jack Mercer
 Read:
 - `mercer/JACK_MERCER_FRONT_OFFICE_V2_SPEC.md`
@@ -85,6 +107,7 @@ FLA Bullpen is a selective specialist/governance adapter. It is not a sixth Sche
 - Week 4 is the next Memo production cycle; use V5.5 rather than recreating Week 3 process manually.
 - Living Novel Week 3 is closed on the active Novel branch and carries a Week 3 → Week 4 state handoff.
 - Character Control Plane v2 is advancing but remains RELEASE_CANDIDATE / NOT ACTIVE.
+- Schemin World Engine V1 has completed the 12-phase build/QA cycle and becomes controlling persistent-world authority when merged to `main`.
 - Repository is intentionally public by Commissioner decision; secrets/private-only material and Mercer-private intelligence remain prohibited from public committed surfaces.
 
 ## Non-negotiable execution rules

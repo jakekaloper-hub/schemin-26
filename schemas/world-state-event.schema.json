@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemin26.local/schemas/world-state-event.schema.json",
+  "title": "Schemin World State Event",
+  "type": "object",
+  "required": [
+    "id",
+    "week",
+    "location_id",
+    "event_type",
+    "classification",
+    "continuity_out",
+    "source_provenance"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^EVT-[A-Z0-9-]+$"
+    },
+    "week": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 30
+    },
+    "location_id": {
+      "type": "string"
+    },
+    "event_type": {
+      "enum": [
+        "damage",
+        "flood",
+        "fire",
+        "repair",
+        "occupation",
+        "abandonment",
+        "banner_change",
+        "route_closure",
+        "memorialization",
+        "scar",
+        "celebration",
+        "contamination",
+        "humiliation",
+        "weather",
+        "encounter",
+        "other"
+      ]
+    },
+    "classification": {
+      "enum": [
+        "FACT",
+        "WORLD_CANON",
+        "NARRATIVE_INTERPRETATION",
+        "RUMOR_TESTIMONY"
+      ]
+    },
+    "entering_state": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "continuity_out": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_provenance": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

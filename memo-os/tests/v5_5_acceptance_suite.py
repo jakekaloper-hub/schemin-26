@@ -34,6 +34,21 @@ def historical_design_passes_release_canon():
 def retired_design_blocked_for_current():
     return current_dk_design == current_dk_active_canon and "ARSENAL_CENTAUR" in retired_current_designs
 
+def temporal_receipt_separates_historical_and_current():
+    historical_receipt = {
+        "effective_context": "WEEK_3_RELEASE",
+        "active_design": week3_dk_release_canon,
+    }
+    current_receipt = {
+        "effective_context": "CURRENT_2026-09-29",
+        "active_design": current_dk_active_canon,
+    }
+    return (
+        historical_receipt["active_design"] == week3_dk_release_design
+        and current_receipt["active_design"] == current_dk_design
+        and historical_receipt["active_design"] != current_receipt["active_design"]
+    )
+
 def tds_known_failure_is_detected():
     return week3_tds_pages_3_4_rendered_state != week3_tds_required_state
 
