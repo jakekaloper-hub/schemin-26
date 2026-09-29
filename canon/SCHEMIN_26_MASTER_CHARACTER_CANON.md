@@ -79,10 +79,9 @@ coloration; heavy chain; diseased teeth; violent swamp setting.\
 ### Phillip Pitts / Three Dreaded Snake
 
 **Character:** The Podium Shadow.\
-**Lock:** anthropomorphic snake/reptile humanoid; green-gold scales;
-glowing green eyes; long dreadlocks; dark #3 football gear;
+**ACTIVE DESIGN LOCK — revised 2026-09-29:** one powerful anthropomorphic reptilian humanoid body with THREE distinct serpent heads; green-gold scales; glowing eyes; dreadlock-like extensions/hair treatment; dark #3 football gear. The three heads are one character/body, not three separate snakes.
 coiled-serpent language; jungle/waterfall setting.\
-**Never:** replace with three ordinary snakes.
+**Never:** replace with three ordinary snakes, a single-headed reptile, Medusa, or a human substitute.
 
 ### Ben Whipple / Seven Deadly Chins
 
