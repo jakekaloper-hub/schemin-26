@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemin26.local/schemas/world-route.schema.json",
+  "title": "Schemin Route",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "canon_status",
+    "route_class",
+    "from",
+    "to",
+    "travel_modes"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^ROUTE-[A-Z0-9-]+$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "canon_status": {
+      "enum": [
+        "LOCKED_CANON",
+        "INTERPRETIVE_CANON",
+        "PROPOSED_LORE",
+        "OPEN_TERRITORY",
+        "SUPERSEDED"
+      ]
+    },
+    "route_class": {
+      "enum": [
+        "LOCAL",
+        "REGIONAL",
+        "CROSS_DIVISION",
+        "EXPEDITION"
+      ]
+    },
+    "from": {
+      "type": "string"
+    },
+    "to": {
+      "type": "string"
+    },
+    "travel_modes": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "foot",
+          "mount",
+          "wagon",
+          "river",
+          "sea",
+          "wetland",
+          "special"
+        ]
+      }
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_provenance": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}
