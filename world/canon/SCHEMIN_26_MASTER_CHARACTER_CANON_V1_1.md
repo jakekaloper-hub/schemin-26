@@ -37,8 +37,10 @@ For every visual assignment: resolve the owner; map the owner to this canon; use
 
 **Former name:** Baker Moore Purdy.  
 **Character:** The Philosopher-Warrior / Arsenal Centaur.  
-**Lock:** large muscular centaur/equine warrior; Arsenal-red identity; ornate battle axe; tankard; mountain-warrior aesthetic.  
-**Never:** gorilla, ape, jungle mascot, or literal Donkey Kong interpretation.
+**ACTIVE DESIGN LOCK — revised 2026-09-29:** massive black-furred gorilla warrior; unmistakable gorilla anatomy with broad shoulders, long powerful arms, heavy black fur, dark primate face and roaring/fanged expression; Arsenal-red football-warrior jersey/armor with gold/bronze fantasy armor accents; oversized ornate double-headed battle axe; heavy metal tankard/beer mug; monumental battlefield/high-fantasy warlord aesthetic.  
+**PRIMARY VISUAL AUTHORITY:** Commissioner-approved 2026-09-29 Donkey Kong gorilla-warrior reference. This owner-specific reference supersedes the older lineup panel for Wilson Look.  
+**RETIRED DESIGN:** Philosopher-Warrior / Arsenal Centaur; centaur/equine anatomy must not appear in new artwork.  
+**Never:** centaur, horse/equine body, mounted-human substitute, generic jungle mascot, or human-only barbarian.
 
 ### Jordan Hollingshead / Slob on my Dobb
 
