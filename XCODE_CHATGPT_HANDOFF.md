@@ -151,7 +151,7 @@ The canonical twelve currently include:
 
 - Jake Kaloper / ObiWan Jacoby → **The Trade Jedi**. Youthful blond human strategist; earth-tone Jedi-inspired wardrobe; green energy sword; golden retriever; North Georgia mountain-war-room language. **NO CHAMPIONSHIP BELT.**
 - Austin Byars → **The Belt Keeper**. Corpse-pale immortal champion; long black hair; pale eyes; black rune armor/cloak; rune sword; championship belt; gothic atmosphere. Team renames never turn him into a new king/vampire/blood mascot.
-- Wilson Look / Donkey Kong → **Philosopher-Warrior / Arsenal Centaur**. Muscular centaur; Arsenal-red identity; ornate axe; tankard; mountain-warrior language. Never a gorilla.
+- Wilson Look / Donkey Kong → **Donkey Kong / Arsenal Gorilla Warrior** (Commissioner-approved redesign 2026-09-29). Massive black-furred gorilla warrior; Arsenal-red jersey/armor; ornate double-headed axe; metal tankard; bronze/gold fantasy armor. Owner-specific 2026-09-29 reference outranks the older lineup plate. **Former Arsenal Centaur is RETIRED; never render centaur/equine anatomy in new art.**
 - Jordan Hollingshead / Slob on my Dobb → **Frat-Bro Berserker**. Huge horned shaggy human-beast; battered football armor; filthy championship shirt; metal bat; beer/tailgate language; pit-bull.
 - Bobby Mitchell / Mud Dogs → **Swamp-Born Menace**. Massive rabid mud-covered dog/wolf beast; blue/orange; chain; diseased teeth; violent swamp.
 - Phillip Pitts / Three Dreaded Snake → **The Podium Shadow**. Reptile humanoid; green-gold scales; glowing eyes; dreadlocks; dark #3 gear; jungle/waterfall language.
