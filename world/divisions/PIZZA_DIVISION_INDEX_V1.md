@@ -1,126 +1,62 @@
 # PIZZA DIVISION INDEX V1
 
-**Status:** INTERPRETIVE CANON — WORLD ENGINE V1  
-**2026 members:** ObiWan Jacoby, El Niño, His Majesty's Blood, The LLC  
+**Status:** INTERPRETIVE CANON — WORLD ENGINE V1.1  
+**2026 members:** The LLC, His Majesty's Blood, El Niño, Seven Deadly Chins  
 **Food semantic lock:** PIZZA = pizza.
 
 ## Identity
 
-Pizza is the League's **eastern arc**: mountain observatories, storm forests, cliff keeps and the inner-sea mercantile littoral.
+Pizza is the central/eastern League-cultural network joining the LLC mercantile littoral, Belt Keeper storm-cliff country, El Niño's weather coast and Seven Deadly Chins' basin road commons.
 
-Its unifying idea is **assembly and exchange**. Mountain routes, coastal ports and commercial cities feed one another. Pizza symbolism appears through communal ovens, round/segmented guild marks, shared tables and market culture—not through giant circular terrain.
+Its identity is urban/institutional in some places and rugged in others. The common thread is assembly, exchange, communal ovens, trade and public gathering—not one homogeneous coastal city.
 
-## Spatial footprint
+## 2026 home anchors
 
-Primary physical zones:
-- eastern Upper Valleys
-- Eastern Forest and Storm Coast
-- Inner Sea Littoral
-- eastern Central Basin approaches
+### David Babb / The LLC
+LLC Boardroom / mercantile headquarters. The LLC is a **singular being/embodiment** for ontology purposes. Ordinary humans and citizens may surround him; no race of LLC beings exists.
 
-This gives Pizza the strongest mountain-to-sea verticality in the world.
+### Austin Byars / His Majesty's Blood
+Belt Keeper Rune Keep on the eastern storm-cliff network. Byars/Belt Keeper is **one of a kind**. The Belt remains championship authority, not universal crown.
 
-## Environment fingerprint
+### Manning Welty / El Niño
+Storm Bowl and weather coast. El Niño is **one of a kind** and may appear either as the established embodied Weather System or, when explicitly resolved, as the natural storm/disaster itself.
 
-**Aerial:** high eastern ridges descending toward forest, cliff roads, ports, sea walls and storm-dark water.
+Ordinary storms still exist. Not every storm is El Niño.
 
-**Street:** switchback stone roads in the uplands; arcaded brick/stone streets, quays and counting houses at the coast.
+### Ben Whipple / Seven Deadly Chins
+People's Champ Road Commons in the Central Basin. Human road/working communities exist around him.
 
-**Interior:** tile, brick, cut stone, bronze, ledgers, communal ovens, map tables and storm shutters.
+## Home matchup grammar
 
-**Night:** harbor lamps, tower beacons, illuminated counting houses and lightning silhouettes.
+A Pizza home matchup uses the actual host domain:
+- LLC home → mercantile boardroom/city;
+- HMB home → Rune Keep / storm-cliff country;
+- El Niño home → Storm Bowl/coast or approved manifestation zone;
+- Seven Chins home → Road Commons / basin working country.
 
-**Bad weather:** coastal storms, hard rain, wind exposure and landslide/road-risk in mountain corridors.
+## Neutral events
 
-## Architecture and materials
-
-Core materials:
-- cut stone
-- slate
-- brick
-- bronze
-- tile
-- heavy timber shutters
-
-Settlement types:
-- mountain observatory/war-room complexes
-- cliff keeps
-- port cities
-- market arcades
-- counting houses
-- storm-protected civic halls
-
-This division should feel **networked from summit to sea**, not uniformly urban.
-
-## Economy and ordinary life
-
-Likely activities:
-- maritime trade
-- finance/credit/record keeping
-- orchard and upland agriculture
-- port warehousing
-- stonework
-- navigation
-- storm engineering
-- long-distance trade brokerage
-
-Ordinary inhabitants include sailors, porters, clerks, masons, millers, bakers, navigators, road wardens, merchants and signal-keepers.
+Major events may use League Chamber, Compact Neutral Grounds or another approved neutral location. Neutral status is institutional, not placelessness.
 
 ## Pizza culture
 
-Canonical expression channels:
-- pizza/round-flatbread guild seals
-- communal ovens
-- segmented/slice accounting motifs
-- market-oven hospitality
-- shared-table civic rituals
-- division feast days built around large communal pizzas/flatbreads
+Canonical channels:
+- communal ovens;
+- pizza/flatbread guild seals;
+- segmented accounting motifs;
+- market tables;
+- shared public meals;
+- port/basin exchange.
 
-Pizza is ordinary food with cultural significance; it is not a magical cosmological symbol by default.
-
-## Owner-domain differentiation
-
-### Jake Kaloper / Trade Jedi
-Eastern upper-valley mountain base and strategy environment. **NO championship belt.**
-
-### Manning Welty / El Niño
-Storm coast / water corridor. The Weather System is a literal elemental identity; climate still remains a regional system rather than a free scene effect.
-
-### Austin Byars / Belt Keeper
-Dark rune keep on high stormward cliffs/northeastern marches. Championship belt reflects historical competitive status, not universal sovereignty.
-
-### David Babb / The LLC
-Inner-sea mercantile city and boardroom/citadel. Ledgers, port wealth and commercial power.
-
-## Recurring locations
-- Trade Jedi Mountain Base
-- Storm Bowl
-- Belt Keeper Rune Keep
-- LLC Boardroom
-- LLC Storm City district
-- Eastern Ascent
-- Inner Sea Quay
-- Storm Coast route
-
-## Visual grammar tests
-
-**Unlabeled aerial:** eastern mountain-to-sea gradient, cliff routes, port lights and storm horizon.
-
-**Unlabeled street:** stone/brick arcade, tiled roof, storm shutters, quay/road traffic.
-
-**Interior:** maps, ledgers, ovens, bronze/tile and coastal/upland trade objects.
-
-**Encounter:** cliff roads, ports, halls, signal towers, storm-facing terraces or mountain crossings.
+No pizza-shaped geography.
 
 ## Anti-drift
 
 Reject:
-- giant pizza terrain;
-- every city using red/yellow pizza colors;
-- turning Pizza into one Mediterranean stereotype;
-- placing ObiWan's belt back on him;
-- making El Niño ordinary human;
-- turning HMB team name into a blood-monster redesign;
-- treating LLC as modern skyscraper technology.
+- restoring ObiWan to Pizza;
+- placing Red/Slob/TDS/Mud into Pizza because of older V1 data;
+- inventing populations of Belt Keepers, Duckhooks, Weather Systems or LLC beings;
+- making every Pizza home urban;
+- treating every storm as El Niño.
 
-**DIVISION DIFFERENTIATION GATE: PASS — DESIGN SPEC COMPLETE**
+**DIVISION DIFFERENTIATION GATE: V1.1 PASS**

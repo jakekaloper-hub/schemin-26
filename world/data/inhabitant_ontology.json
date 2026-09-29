@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "authority": "COMMISSIONER_DIRECTIVE_2026-09-29",
+  "classes": {
+    "PEOPLED_KIND": [
+      "CHAR-JAKE-KALOPER",
+      "CHAR-WILSON-LOOK",
+      "CHAR-KEVIN-ZEEK",
+      "CHAR-JORDAN-HOLLINGSHEAD",
+      "CHAR-BOBBY-MITCHELL",
+      "CHAR-BEN-WHIPPLE"
+    ],
+    "SINGULAR_BEING": [
+      "CHAR-AUSTIN-BYARS",
+      "CHAR-ZACH-WILSON",
+      "CHAR-MANNING-WELTY",
+      "CHAR-DAVID-BABB"
+    ],
+    "SHARED_COHABITATION": [
+      "CHAR-PHILLIP-PITTS",
+      "CHAR-BRANDON-PRYOR"
+    ]
+  },
+  "people_notes": {
+    "CHAR-JAKE-KALOPER": "Human mountain/valley population exists.",
+    "CHAR-WILSON-LOOK": "Gorilla-bodied people exist; current principal form remains Arsenal Gorilla Warrior.",
+    "CHAR-KEVIN-ZEEK": "Leopard-bodied people exist.",
+    "CHAR-JORDAN-HOLLINGSHEAD": "Own broad human/berserker kind exists; horned gear does not prove separate biology.",
+    "CHAR-BOBBY-MITCHELL": "Sapient swamp canine/wolf people exist.",
+    "CHAR-BEN-WHIPPLE": "Human working/road communities exist."
+  },
+  "shared_cohabitation": {
+    "members": [
+      "CHAR-PHILLIP-PITTS",
+      "CHAR-BRANDON-PRYOR"
+    ],
+    "division_independent": true,
+    "geography_anchor": "LOC-TDS-CHILI-SHARED-MARCH",
+    "population_origin_status": "OPEN_TERRITORY"
+  },
+  "personhood": {
+    "morphology_neutral": true,
+    "capabilities": [
+      "hold_land",
+      "contract",
+      "institutional_standing",
+      "safe_conduct",
+      "arbitration",
+      "maintain_domain",
+      "sanctioned_encounter_participation"
+    ]
+  },
+  "el_nino": {
+    "character_id": "CHAR-MANNING-WELTY",
+    "singular": true,
+    "manifestation_modes": [
+      "EMBODIED",
+      "ATMOSPHERIC_MANIFESTATION",
+      "AMBIGUOUS"
+    ],
+    "rule": "Not every storm is El Niño; atmospheric manifestation requires explicit story/world-state resolution."
+  }
+}

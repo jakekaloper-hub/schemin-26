@@ -1,26 +1,4 @@
-schema_version: "1.0"
-divisions:
-  - id: DIV-BURGERS
-    name: Burgers
-    food_referent: hamburgers
-    canon_state: INTERPRETIVE_CANON
-    members_2026: [ObiWan Jacoby, Donkey Kong, Three Dreaded Snake, Mud Dogs]
-    core_regions: [REG-NORTHERN-SPINE, REG-UPPER-VALLEYS]
-    march_regions: [REG-CENTRAL-BASIN]
-    provenance: [memo-os/week-3/WEEK_3_FACT_LOCK_V1.md]
-  - id: DIV-WINGS
-    name: Wings
-    food_referent: chicken_wings
-    canon_state: INTERPRETIVE_CANON
-    members_2026: [Red Leopards, Slob on my Dobb, Chili Cheesers, Dr. Duckhook]
-    core_regions: [REG-WESTERN-TABLELANDS]
-    march_regions: [REG-CENTRAL-BASIN, REG-SOUTHERN-WETLANDS]
-    provenance: [memo-os/week-3/WEEK_3_FACT_LOCK_V1.md]
-  - id: DIV-PIZZA
-    name: Pizza
-    food_referent: pizza
-    canon_state: INTERPRETIVE_CANON
-    members_2026: [The LLC, His Majesty's Blood, El Niño, Seven Deadly Chins]
-    core_regions: [REG-CENTRAL-BASIN, REG-EASTERN-STORM, REG-INNER-SEA]
-    march_regions: [REG-UPPER-VALLEYS]
-    provenance: [memo-os/week-3/WEEK_3_FACT_LOCK_V1.md]
+schema_version: "1.1"
+status: SUPERSEDED_COMPATIBILITY_POINTER
+authoritative_file: world/data/divisions.json
+note: "Do not use this YAML as a second division data source. JSON is the single machine authority after World Engine V1.1 division-truth repair."

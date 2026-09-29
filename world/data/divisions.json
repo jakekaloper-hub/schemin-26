@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "season": 2026,
-  "source_note": "2026 membership follows the released Week 3 division standings spread; spatial/cultural fields are World Engine V1 interpretive canon.",
+  "source_note": "2026 membership follows memo-os/week-3/WEEK_3_FACT_LOCK_V1.md. Division geography is a nonexclusive League-jurisdiction/home-venue overlay; it is not a species, ethnic, or sovereign-state border system.",
   "divisions": [
     {
       "id": "DIV-BURGERS",
@@ -9,41 +9,43 @@
       "food_referent": "burgers",
       "canon_status": "INTERPRETIVE_CANON",
       "member_team_ids_2026": [
+        1,
         5,
-        2,
-        3,
-        11
+        6,
+        10
       ],
       "physical_zone_ids": [
         "REG-NORTHERN-SPINE",
         "REG-UPPER-VALLEYS",
         "REG-CENTRAL-BASIN",
-        "REG-EASTERN-STORM-COAST"
+        "REG-SOUTHERN-WETLANDS"
       ],
-      "core_geography": "north-central highlands, foothill markets and upper basin roads with a rain-fed eastern escarpment",
+      "core_geography": "north/upper-valley home network extending through basin approaches to Mud Dogs southern wetland territory; TDS also shares a cross-divisional western march with Chili",
       "visual_fingerprint": {
         "skyline": [
-          "fortified ridges",
-          "market towers",
-          "stone bridges",
-          "smokehouse chimneys"
+          "layered highland ridges",
+          "fortified road markets",
+          "waterfall escarpments",
+          "southern causeway silhouettes"
         ],
         "materials": [
           "fieldstone",
           "dark timber",
           "iron",
-          "weathered brick",
-          "brass"
+          "wetland hardwood",
+          "weathered brick"
         ],
         "roads": [
-          "broad ridge roads",
-          "stone-paved market approaches",
-          "toll bridges"
+          "ridge roads",
+          "market approaches",
+          "bridge/lake roads",
+          "wetland causeways"
         ],
         "night": [
           "amber hearthlight",
           "forge glow",
-          "lanterned market yards"
+          "mist over dark water",
+          "lanterned road stations"
         ]
       },
       "food_symbolism": [
@@ -55,9 +57,12 @@
       "anti_drift": [
         "no giant burger terrain",
         "no palette-only differentiation",
-        "do not turn all four owners into the same highland warrior culture",
-        "food identity must remain burger-specific"
-      ]
+        "do not flatten Trade Jedi mountains, D0nkey K0ng highlands, TDS falls and Mud Dogs swamp into one biome",
+        "food identity must remain burger-specific",
+        "do not use division membership as species segregation"
+      ],
+      "spatial_model": "LEAGUE_JURISDICTION_OVERLAY_NONEXCLUSIVE",
+      "cohabitation_allowed": true
     },
     {
       "id": "DIV-WINGS",
@@ -65,45 +70,45 @@
       "food_referent": "chicken_wings",
       "canon_status": "INTERPRETIVE_CANON",
       "member_team_ids_2026": [
-        10,
+        2,
+        3,
         7,
-        6,
         12
       ],
       "physical_zone_ids": [
         "REG-WESTERN-TABLELANDS",
+        "REG-UPPER-VALLEYS",
+        "REG-CENTRAL-BASIN",
         "REG-SOUTHERN-WETLANDS",
-        "REG-CENTRAL-BASIN"
+        "REG-EASTERN-STORM-COAST"
       ],
-      "core_geography": "western frontier descending through wet escarpments into southern river country and delta",
+      "core_geography": "nonexclusive League home network linking western frontier, upper foothills, stormward Red Leopard country and the Country Club wetland estate",
       "visual_fingerprint": {
         "skyline": [
-          "raised timber halls",
-          "water towers",
-          "stables",
-          "levees",
-          "tree lines"
+          "stormward ruin heights",
+          "foothill camps",
+          "western stables",
+          "raised country-club grounds"
         ],
         "materials": [
           "timber",
           "iron straps",
-          "canvas",
           "river stone",
+          "canvas",
           "copper",
           "weathered plaster"
         ],
         "roads": [
-          "dust tracks",
-          "boardwalks",
+          "foothill roads",
+          "western range tracks",
           "levee roads",
-          "ferry crossings",
-          "causeways"
+          "estate approaches"
         ],
         "night": [
           "fire pits",
-          "dock lanterns",
           "stable lamps",
-          "reflections on dark water"
+          "clubhouse windows",
+          "storm-lit ruin silhouettes"
         ]
       },
       "food_symbolism": [
@@ -116,9 +121,12 @@
       "anti_drift": [
         "Wings means chicken wings, not angel/bird/dragon wings",
         "no giant chicken-wing terrain",
-        "do not flatten Chili frontier, Mud swamp, TDS falls and Duckhook club into one biome",
-        "wetland/frontier architecture must remain causally grounded"
-      ]
+        "do not flatten Red Leopard ruins, Slob foothills, Chili frontier and Duckhook club into one biome",
+        "home games must use the specific Wings owner's environment",
+        "TDS/Chili coexistence cannot be erased by division borders"
+      ],
+      "spatial_model": "LEAGUE_JURISDICTION_OVERLAY_NONEXCLUSIVE",
+      "cohabitation_allowed": true
     },
     {
       "id": "DIV-PIZZA",
@@ -126,45 +134,43 @@
       "food_referent": "pizza",
       "canon_status": "INTERPRETIVE_CANON",
       "member_team_ids_2026": [
-        1,
-        9,
+        4,
         8,
-        4
+        9,
+        11
       ],
       "physical_zone_ids": [
-        "REG-UPPER-VALLEYS",
+        "REG-CENTRAL-BASIN",
         "REG-EASTERN-STORM-COAST",
-        "REG-INNER-SEA-LITTORAL",
-        "REG-CENTRAL-BASIN"
+        "REG-INNER-SEA-LITTORAL"
       ],
-      "core_geography": "eastern arc from mountain observatories through storm forests to fortified inner-sea ports",
+      "core_geography": "central/eastern League home network joining the basin road commons, mercantile littoral, Belt Keeper storm-cliff country and El Niño coast",
       "visual_fingerprint": {
         "skyline": [
-          "cliff keeps",
-          "observation towers",
-          "port arcades",
-          "merchant roofs",
-          "storm beacons"
+          "mercantile towers",
+          "storm-cliff keeps",
+          "coastal weather beacons",
+          "basin road halls"
         ],
         "materials": [
           "cut stone",
           "slate",
           "brick",
           "bronze",
-          "dark glass-like polished surfaces",
-          "tile"
+          "tile",
+          "heavy timber shutters"
         ],
         "roads": [
-          "switchback mountain roads",
-          "coastal roads",
           "quays",
-          "stone arcades"
+          "storm-coast roads",
+          "basin market roads",
+          "cliff approaches"
         ],
         "night": [
           "harbor lamps",
           "beacon fires",
           "lightning silhouettes",
-          "lit counting houses"
+          "road-hall hearths"
         ]
       },
       "food_symbolism": [
@@ -175,10 +181,13 @@
       ],
       "anti_drift": [
         "no giant pizza terrain",
-        "no simple red-yellow circle motifs as entire identity",
-        "do not make all four owners urban",
-        "storm coast, mountain base, dark keep and mercantile city must remain distinct"
-      ]
+        "no simple red-yellow circle motif as total identity",
+        "do not make LLC, Belt Keeper, El Niño and Seven Chins all urban",
+        "mercantile city, storm keep, weather coast and basin commons must remain distinct",
+        "do not restore ObiWan or other non-Pizza owners to Pizza"
+      ],
+      "spatial_model": "LEAGUE_JURISDICTION_OVERLAY_NONEXCLUSIVE",
+      "cohabitation_allowed": true
     }
   ]
 }

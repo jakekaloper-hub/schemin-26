@@ -45,3 +45,24 @@ If true magic is later introduced, it must pass the source/capability/limit/cost
 
 ## Narrative rule
 Characters may believe intensely. The novel need not confirm that they are correct.
+
+
+## Ontological exception: El Niño
+
+The Founder's metaphysical-uncertainty rule remains intact for theology, divine causation, afterlife claims, prophecy and the ultimate origin of unusual beings.
+
+However, the Commissioner has now established one concrete ontological fact: **El Niño / the Weather System is a singular being that may manifest either as the established embodied character or as an actual natural storm/disaster when the story explicitly resolves that weather event as El Niño.**
+
+This does not mean:
+- every storm is El Niño;
+- El Niño is a god;
+- weather can ignore climate, watershed or geography;
+- arbitrary supernatural rescue is permitted.
+
+For any candidate weather event, production records one of:
+- `EMBODIED`
+- `ATMOSPHERIC_MANIFESTATION`
+- `AMBIGUOUS`
+- ordinary weather / not El Niño.
+
+The deeper metaphysical explanation remains unresolved.

@@ -41,7 +41,7 @@ class WorldEngineTests(unittest.TestCase):
     def test_duplicate_division_member_fails_bad_fixture(self):
         p = self.payloads()
         bad = copy.deepcopy(p)
-        bad[1]["divisions"][0]["member_team_ids_2026"][0] = 1
+        bad[1]["divisions"][0]["member_team_ids_2026"][0] = bad[1]["divisions"][0]["member_team_ids_2026"][1]
         errs = mod.validate_payloads(*bad)
         self.assertTrue(any("cover team ids 1..12 exactly once" in e for e in errs))
 

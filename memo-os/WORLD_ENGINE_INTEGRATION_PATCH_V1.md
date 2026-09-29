@@ -87,3 +87,61 @@ Every weekly release must prove:
 5. newly invented scenery is not silently promoted.
 
 **PHASE 10 MEMO INTEGRATION: READY FOR CI / V5.5 COMPATIBILITY REVIEW**
+
+
+## 8. Encounter Venue Resolver V1.1
+
+Before Story Room chooses an environment, classify the matchup:
+- REGULAR
+- DIVISIONAL
+- GAME_OF_THE_WEEK
+- PLAYOFF
+- CHAMPIONSHIP
+
+Then resolve venue from `world/data/encounter_venue_policy.json`.
+
+Rules:
+- regular/divisional → verified home-team domain by default;
+- GOTW/playoff/championship → approved neutral site by default;
+- home/neutral override requires recorded approval;
+- if provider home/away is unresolved, venue remains unresolved rather than guessed;
+- away side must have an approved route path.
+
+## 9. Inhabitant ontology load
+
+Environment packets must load `world/data/inhabitant_ontology.json` before adding civilians/background inhabitants.
+
+This prevents:
+- cloning singular beings into populations;
+- isolating peopled-kind owners as unique monsters;
+- treating League divisions as species borders;
+- erasing TDS/Chili cross-divisional coexistence.
+
+El Niño weather scenes must explicitly mark:
+`EMBODIED | ATMOSPHERIC_MANIFESTATION | AMBIGUOUS | ORDINARY_WEATHER`.
+
+## 10. V1.1 world packet
+
+```
+WORLD_RESOLUTION
+  matchup_class:
+  verified_home_team_id:
+  venue_mode:
+  location_id:
+  neutral_override_reason:
+  physical_zone_id:
+  division_id / division_presence_ids:
+  owner_character_id:
+  inhabitant_ontology:
+  route_of_arrival:
+  route_path_valid:
+  entering_world_state:
+  weather_state:
+  el_nino_manifestation_state:
+  camera_direction:
+  visible_landmarks:
+  forbidden_mutations:
+  post_scene_state_delta:
+```
+
+Missing home/neutral/route resolution = PREVIS BLOCK.

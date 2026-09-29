@@ -7,6 +7,9 @@ on:
       - ".github/workflows/world-engine-ci.yml"
       - "memo-os/WORLD_ENGINE_INTEGRATION_PATCH_V1.md"
       - "living-novel/os/WORLD_ENGINE_INTEGRATION_PATCH_V1.md"
+      - "living-novel/os/geography/**"
+      - "living-novel/os/engine/novel_os.py"
+      - "living-novel/world/**"
   pull_request:
     paths:
       - "world/**"
@@ -14,6 +17,9 @@ on:
       - ".github/workflows/world-engine-ci.yml"
       - "memo-os/WORLD_ENGINE_INTEGRATION_PATCH_V1.md"
       - "living-novel/os/WORLD_ENGINE_INTEGRATION_PATCH_V1.md"
+      - "living-novel/os/geography/**"
+      - "living-novel/os/engine/novel_os.py"
+      - "living-novel/world/**"
   workflow_dispatch:
 
 jobs:
@@ -25,11 +31,13 @@ jobs:
         with:
           python-version: "3.12"
       - name: Compile World Engine
-        run: python -m py_compile world/engine/validate_world.py world/qa/test_world_engine.py world/atlas/render_atlas_svg.py
+        run: python -m py_compile world/engine/validate_world.py world/qa/test_world_engine.py world/qa/test_universe_v1_1.py world/atlas/render_atlas_svg.py
       - name: Validate world data
         run: python world/engine/validate_world.py
       - name: Run World Engine regression suite
         run: python world/qa/test_world_engine.py
+      - name: Run Universe V1.1 geography and ontology suite
+        run: python world/qa/test_universe_v1_1.py
       - name: Re-run Memo OS V5.5 acceptance suite
         run: python memo-os/tests/v5_5_acceptance_suite.py
       - name: Re-run Week 4 preproduction smoke

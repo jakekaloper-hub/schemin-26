@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "authority": "COMMISSIONER_DIRECTIVE_2026-09-29",
+  "event_rules": {
+    "REGULAR": {
+      "venue_mode": "HOME_DOMAIN_DEFAULT"
+    },
+    "DIVISIONAL": {
+      "venue_mode": "HOME_DOMAIN_DEFAULT"
+    },
+    "GAME_OF_THE_WEEK": {
+      "venue_mode": "NEUTRAL_DEFAULT",
+      "override_requires_approval": true
+    },
+    "PLAYOFF": {
+      "venue_mode": "NEUTRAL_DEFAULT",
+      "override_requires_approval": true
+    },
+    "CHAMPIONSHIP": {
+      "venue_mode": "NEUTRAL_DEFAULT",
+      "override_requires_approval": true
+    }
+  },
+  "home_venues": {
+    "1": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+    "2": "LOC-RED-RUINS",
+    "3": "LOC-SLOB-FOOTHILL-CAMP",
+    "4": "LOC-LLC-BOARDROOM",
+    "5": "LOC-DK-HIGHLAND-STRONGHOLD",
+    "6": "LOC-TDS-WATERFALL-TEMPLE",
+    "7": "LOC-CHILI-STABLE",
+    "8": "LOC-BELT-KEEPER-KEEP",
+    "9": "LOC-STORM-BOWL",
+    "10": "LOC-MUD-DOGS-SWAMP",
+    "11": "LOC-CHINS-ROAD-COMMONS",
+    "12": "LOC-COUNTRY-CLUB-JACKSON"
+  },
+  "neutral_pool": [
+    "LOC-LEAGUE-CHAMBER",
+    "LOC-COMPACT-NEUTRAL-GROUNDS"
+  ],
+  "rules": {
+    "require_verified_home_team": true,
+    "require_approved_route_path": true,
+    "inherit_world_state": true,
+    "visual_renderer_may_select_venue": false
+  },
+  "conditional_neutral_pool": [
+    "LOC-BRIDGE-MOUNTAIN-LAKE"
+  ]
+}

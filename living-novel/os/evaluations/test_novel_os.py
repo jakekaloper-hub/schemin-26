@@ -14,8 +14,10 @@ class NovelOSTests(unittest.TestCase):
         self.assertEqual(r["status"],"CONFLICTED")
     def test_trade_jedi_belt_drift(self):
         self.assertFalse(can_accept(validate_character_text("ObiWan Jacoby wore his championship belt.")))
-    def test_donkey_kong_species_drift(self):
-        self.assertFalse(can_accept(validate_character_text("Donkey Kong, a giant gorilla, entered.")))
+    def test_donkey_kong_current_gorilla_passes(self):
+        self.assertTrue(can_accept(validate_character_text("D0nkey K0ng, the Arsenal Gorilla Warrior, entered.")))
+    def test_donkey_kong_retired_centaur_fails(self):
+        self.assertFalse(can_accept(validate_character_text("D0nkey K0ng entered with a centaur body.")))
     def test_oracle_guard(self):
         self.assertFalse(can_accept(validate_oracle_mutation({"temporal_layer":"ORACLE","authority":"WORLD_CANON"})))
     def test_promise_abandon_requires_reason(self):
@@ -37,7 +39,7 @@ class Phase4to7Tests(unittest.TestCase):
         f=validate_knowledge([{"order":1,"actor":"x","action":"ACT_ON","fact_id":"secret"}])
         self.assertFalse(can_accept(f))
     def test_alias_identity(self):
-        f=validate_alias_identity([{"team_name_changed":True,"canonical_character_before":"Arsenal Centaur","canonical_character_after":"Gorilla"}])
+        f=validate_alias_identity([{"team_name_changed":True,"canonical_character_before":"Arsenal Gorilla Warrior","canonical_character_after":"Centaur"}])
         self.assertFalse(can_accept(f))
     def test_visual_bootstrap(self):
         f=validate_visual_reference({"character_bearing":True,"master_canon_resolved":True,"generated_reference":True,"approved_visual_canon":False})
@@ -66,6 +68,20 @@ class Phase9AdversarialTests(unittest.TestCase):
     def test_impossible_travel(self):
         f=validate_geography([{"action":"TRAVEL","from":"A","to":"B","elapsed_hours":1}],{"A":{"B":{"min_hours":5}}})
         self.assertFalse(can_accept(f))
+    def test_multihop_travel_path_passes(self):
+        g={"graph":{
+          "A":{"B":{"min_hours":2}},
+          "B":{"A":{"min_hours":2},"C":{"min_hours":3}},
+          "C":{"B":{"min_hours":3}}
+        }}
+        self.assertTrue(can_accept(validate_geography([{"action":"TRAVEL","from":"A","to":"C","elapsed_hours":5}],g)))
+    def test_multihop_travel_too_fast_fails(self):
+        g={"graph":{
+          "A":{"B":{"min_hours":2}},
+          "B":{"A":{"min_hours":2},"C":{"min_hours":3}},
+          "C":{"B":{"min_hours":3}}
+        }}
+        self.assertFalse(can_accept(validate_geography([{"action":"TRAVEL","from":"A","to":"C","elapsed_hours":4}],g)))
     def test_unapproved_generated_visual(self):
         self.assertFalse(can_accept(validate_visual_reference({"character_bearing":False,"generated_reference":True,"approved_visual_canon":False})))
     def test_approval_blocks_findings(self):

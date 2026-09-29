@@ -4,9 +4,9 @@
     "REG-UPPER-VALLEYS",
     "REG-CENTRAL-BASIN",
     "REG-WESTERN-TABLELANDS",
-    "REG-EASTERN-STORM",
+    "REG-EASTERN-STORM-COAST",
     "REG-SOUTHERN-WETLANDS",
-    "REG-INNER-SEA"
+    "REG-INNER-SEA-LITTORAL"
   ],
   "adjacency": [
     [
@@ -15,7 +15,11 @@
     ],
     [
       "REG-NORTHERN-SPINE",
-      "REG-EASTERN-STORM"
+      "REG-WESTERN-TABLELANDS"
+    ],
+    [
+      "REG-NORTHERN-SPINE",
+      "REG-EASTERN-STORM-COAST"
     ],
     [
       "REG-UPPER-VALLEYS",
@@ -27,7 +31,7 @@
     ],
     [
       "REG-UPPER-VALLEYS",
-      "REG-EASTERN-STORM"
+      "REG-EASTERN-STORM-COAST"
     ],
     [
       "REG-CENTRAL-BASIN",
@@ -35,27 +39,27 @@
     ],
     [
       "REG-CENTRAL-BASIN",
-      "REG-EASTERN-STORM"
-    ],
-    [
-      "REG-CENTRAL-BASIN",
       "REG-SOUTHERN-WETLANDS"
     ],
     [
       "REG-CENTRAL-BASIN",
-      "REG-INNER-SEA"
+      "REG-EASTERN-STORM-COAST"
+    ],
+    [
+      "REG-CENTRAL-BASIN",
+      "REG-INNER-SEA-LITTORAL"
     ],
     [
       "REG-WESTERN-TABLELANDS",
       "REG-SOUTHERN-WETLANDS"
     ],
     [
-      "REG-EASTERN-STORM",
-      "REG-INNER-SEA"
+      "REG-EASTERN-STORM-COAST",
+      "REG-INNER-SEA-LITTORAL"
     ],
     [
       "REG-SOUTHERN-WETLANDS",
-      "REG-INNER-SEA"
+      "REG-INNER-SEA-LITTORAL"
     ]
   ],
   "routes": [
@@ -80,70 +84,70 @@
     {
       "id": "ROUTE-STORM",
       "from": "REG-CENTRAL-BASIN",
-      "to": "REG-EASTERN-STORM",
+      "to": "REG-EASTERN-STORM-COAST",
       "band": "REGIONAL"
     }
   ],
   "owners": [
     {
-      "id": "DOM-JAKE",
+      "id": "CHAR-JAKE-KALOPER",
       "division": "BURGERS",
       "zone": "REG-UPPER-VALLEYS"
     },
     {
-      "id": "DOM-WILSON",
+      "id": "CHAR-KEVIN-ZEEK",
+      "division": "WINGS",
+      "zone": "REG-EASTERN-STORM-COAST"
+    },
+    {
+      "id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "division": "WINGS",
+      "zone": "REG-UPPER-VALLEYS"
+    },
+    {
+      "id": "CHAR-DAVID-BABB",
+      "division": "PIZZA",
+      "zone": "REG-INNER-SEA-LITTORAL"
+    },
+    {
+      "id": "CHAR-WILSON-LOOK",
       "division": "BURGERS",
       "zone": "REG-UPPER-VALLEYS"
     },
     {
-      "id": "DOM-PHILLIP",
+      "id": "CHAR-PHILLIP-PITTS",
       "division": "BURGERS",
-      "zone": "REG-UPPER-VALLEYS"
+      "zone": "REG-SOUTHERN-WETLANDS"
     },
     {
-      "id": "DOM-BOBBY",
-      "division": "BURGERS",
-      "zone": "REG-UPPER-VALLEYS"
-    },
-    {
-      "id": "DOM-KEVIN",
+      "id": "CHAR-BRANDON-PRYOR",
       "division": "WINGS",
       "zone": "REG-WESTERN-TABLELANDS"
     },
     {
-      "id": "DOM-JORDAN",
-      "division": "WINGS",
-      "zone": "REG-WESTERN-TABLELANDS"
+      "id": "CHAR-AUSTIN-BYARS",
+      "division": "PIZZA",
+      "zone": "REG-EASTERN-STORM-COAST"
     },
     {
-      "id": "DOM-BRANDON",
-      "division": "WINGS",
-      "zone": "REG-WESTERN-TABLELANDS"
+      "id": "CHAR-MANNING-WELTY",
+      "division": "PIZZA",
+      "zone": "REG-EASTERN-STORM-COAST"
     },
     {
-      "id": "DOM-ZACH",
-      "division": "WINGS",
-      "zone": "REG-CENTRAL-BASIN"
+      "id": "CHAR-BOBBY-MITCHELL",
+      "division": "BURGERS",
+      "zone": "REG-SOUTHERN-WETLANDS"
     },
     {
-      "id": "DOM-DAVID",
+      "id": "CHAR-BEN-WHIPPLE",
       "division": "PIZZA",
       "zone": "REG-CENTRAL-BASIN"
     },
     {
-      "id": "DOM-AUSTIN",
-      "division": "PIZZA",
-      "zone": "REG-EASTERN-STORM"
-    },
-    {
-      "id": "DOM-MANNING",
-      "division": "PIZZA",
-      "zone": "REG-EASTERN-STORM"
-    },
-    {
-      "id": "DOM-BEN",
-      "division": "PIZZA",
-      "zone": "REG-CENTRAL-BASIN"
+      "id": "CHAR-ZACH-WILSON",
+      "division": "WINGS",
+      "zone": "REG-SOUTHERN-WETLANDS"
     }
   ],
   "bad_fixtures": [

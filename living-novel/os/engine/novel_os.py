@@ -1,6 +1,6 @@
 """Novel OS v1.0-rc core — dependency-light, repository-native."""
 from __future__ import annotations
-import json, re
+import json, re, heapq
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
@@ -54,8 +54,9 @@ def validate_character_text(text:str)->list[Finding]:
     if "obiwan jacoby" in low or "jake kaloper" in low or "trade jedi" in low:
         if re.search(r"(his|jake'?s|obiwan'?s).{0,30}championship belt",low):
             f.append(Finding("CHAR-JAKE-BELT","FATAL","Trade Jedi may not possess/wear a championship belt."))
-    if "donkey kong" in low and re.search(r"\b(gorilla|ape)\b",low):
-        f.append(Finding("CHAR-WILSON-SPECIES","FATAL","Donkey Kong rename must not turn Arsenal Centaur into a gorilla/ape."))
+    if any(x in low for x in ("donkey kong","d0nkey k0ng","wilson look","arsenal gorilla warrior")):
+        if re.search(r"\bcentaur\b|\bequine\b|horse[- ]bodied|equine lower body",low):
+            f.append(Finding("CHAR-WILSON-SPECIES","FATAL","Current Wilson Look canon is Arsenal Gorilla Warrior; centaur/equine anatomy is retired."))
     if "his majesty's blood" in low and re.search(r"\bking\b|\bcrown\b",low):
         f.append(Finding("CHAR-BYARS-ROYAL","IMPORTANT","Team rename must not redefine Belt Keeper as a king/crowned character."))
     return f
@@ -219,18 +220,57 @@ def validate_temporal_firewall(record:dict)->list[Finding]:
                 out.append(Finding("TEMPORAL-FUTURE-LEAK","FATAL","Week 1+ result leaked into pre-Week-1 Prologue context."))
     return out
 
+def _normalize_travel_graph(graph:dict)->tuple[dict,dict]:
+    """Accept legacy adjacency dicts or World Engine travel-graph documents."""
+    if not isinstance(graph,dict):
+        return {},{}
+    aliases=graph.get("legacy_aliases",{}) if isinstance(graph.get("legacy_aliases",{}),dict) else {}
+    if isinstance(graph.get("graph"),dict):
+        return graph["graph"],aliases
+    if isinstance(graph.get("edges"),list):
+        adj={}
+        for edge in graph["edges"]:
+            a,b=edge.get("from"),edge.get("to")
+            if not a or not b: continue
+            payload={"min_hours":edge.get("min_hours"),"route_id":edge.get("route_id"),"route_class":edge.get("route_class")}
+            adj.setdefault(a,{})[b]=payload
+            if edge.get("bidirectional",True):
+                adj.setdefault(b,{})[a]=payload
+        return adj,aliases
+    return graph,aliases
+
+def _shortest_min_hours(adj:dict,start:str,end:str)->float|None:
+    if start==end: return 0.0
+    if start not in adj or end not in adj: return None
+    q=[(0.0,start)]
+    best={start:0.0}
+    while q:
+        cost,node=heapq.heappop(q)
+        if node==end: return cost
+        if cost!=best.get(node): continue
+        for nxt,edge in adj.get(node,{}).items():
+            step=edge.get("min_hours") if isinstance(edge,dict) else None
+            step=float(step) if step is not None else 0.0
+            nc=cost+step
+            if nc < best.get(nxt,float("inf")):
+                best[nxt]=nc
+                heapq.heappush(q,(nc,nxt))
+    return None
+
 def validate_geography(events:list[dict],graph:dict)->list[Finding]:
     out=[]
+    adj,aliases=_normalize_travel_graph(graph)
     for e in events:
         if e.get("action")!="TRAVEL": continue
         a,b=e.get("from"),e.get("to")
         if not a or not b: continue
-        edge=graph.get(a,{}).get(b)
-        if edge is None:
-            out.append(Finding("GEO-UNKNOWN-ROUTE","IMPORTANT",f"No approved route {a} → {b}."))
+        a=aliases.get(a,a); b=aliases.get(b,b)
+        min_hours=_shortest_min_hours(adj,a,b)
+        if min_hours is None:
+            out.append(Finding("GEO-UNKNOWN-ROUTE","IMPORTANT",f"No approved route/path {a} → {b}."))
             continue
-        if e.get("elapsed_hours") is not None and edge.get("min_hours") is not None and e["elapsed_hours"]<edge["min_hours"]:
-            out.append(Finding("GEO-IMPOSSIBLE-TRAVEL","FATAL",f"{a} → {b} requires at least {edge['min_hours']}h."))
+        if e.get("elapsed_hours") is not None and e["elapsed_hours"]<min_hours:
+            out.append(Finding("GEO-IMPOSSIBLE-TRAVEL","FATAL",f"{a} → {b} requires at least {min_hours:g}h on approved paths."))
     return out
 
 def approval_transaction(proposal:dict,findings:list[Finding],approver:str|None=None)->dict:

@@ -88,3 +88,32 @@ A reader who has never played fantasy football must be able to understand:
 - why the Twelve matter now.
 
 No fantasy-football knowledge may be required to parse the plot.
+
+
+## Inhabitant ontology law
+
+Visual canon defines the Twelve's current bodies; World Engine V1.1 defines how those bodies relate to civilization.
+
+Writers and artists must resolve whether a principal is:
+- `PEOPLED_KIND`;
+- `SINGULAR_BEING`; or
+- `SHARED_COHABITATION`
+
+before inventing surrounding populations.
+
+Do not infer an entire species from one singular character. Do not isolate a peopled-kind character as the only member of that body type. Do not use League divisions as biological borders.
+
+Current ontology authority:
+`world/civilization/INHABITANT_ONTOLOGY_V1.md`
+
+## Encounter geography law
+
+Ordinary regular-season/divisional Encounters default to the verified home team's established environment. Major GOTWs, playoffs and championships default to approved neutral locations.
+
+A scene cannot choose its geography solely for visual convenience.
+
+Venue authority:
+`world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md`
+
+Travel authority:
+`living-novel/os/geography/world_travel_graph_v1.json`
