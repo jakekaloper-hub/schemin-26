@@ -1,0 +1,11 @@
+schema_version: "1.0"
+routes:
+  - {id: ROUTE-RIDGE, from: REG-NORTHERN-SPINE, to: REG-UPPER-VALLEYS, travel_band: REGIONAL, modes: [foot, mount, wagon], canon_state: INTERPRETIVE_CANON}
+  - {id: ROUTE-BASIN, from: REG-UPPER-VALLEYS, to: REG-CENTRAL-BASIN, travel_band: REGIONAL, modes: [mount, wagon, river], canon_state: INTERPRETIVE_CANON}
+  - {id: ROUTE-WESTERN, from: REG-WESTERN-TABLELANDS, to: REG-CENTRAL-BASIN, travel_band: REGIONAL, modes: [mount, wagon], canon_state: INTERPRETIVE_CANON}
+  - {id: ROUTE-DELTA, from: REG-CENTRAL-BASIN, to: REG-SOUTHERN-WETLANDS, travel_band: REGIONAL, modes: [river, raised_road], canon_state: INTERPRETIVE_CANON}
+  - {id: ROUTE-STORM, from: REG-CENTRAL-BASIN, to: REG-EASTERN-STORM, travel_band: REGIONAL, modes: [road, coastal_vessel], canon_state: INTERPRETIVE_CANON}
+  - {id: ROUTE-INNER-SEA, from: REG-CENTRAL-BASIN, to: REG-INNER-SEA, travel_band: REGIONAL, modes: [river, sea], canon_state: INTERPRETIVE_CANON}
+  - {id: ROUTE-BURGERS-LAKE, from: DOM-JAKE, to: DOM-PHILLIP, travel_band: LOCAL, modes: [road, boat], canon_state: PROPOSED_LORE}
+  - {id: ROUTE-WINGS-ESTATE, from: DOM-BRANDON, to: DOM-ZACH, travel_band: REGIONAL, modes: [mount, wagon], canon_state: PROPOSED_LORE}
+  - {id: ROUTE-PIZZA-CIVIC, from: DOM-DAVID, to: DOM-AUSTIN, travel_band: REGIONAL, modes: [road, river], canon_state: PROPOSED_LORE}
