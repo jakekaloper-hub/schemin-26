@@ -1,0 +1,161 @@
+{
+  "zones": [
+    "REG-NORTHERN-SPINE",
+    "REG-UPPER-VALLEYS",
+    "REG-CENTRAL-BASIN",
+    "REG-WESTERN-TABLELANDS",
+    "REG-EASTERN-STORM",
+    "REG-SOUTHERN-WETLANDS",
+    "REG-INNER-SEA"
+  ],
+  "adjacency": [
+    [
+      "REG-NORTHERN-SPINE",
+      "REG-UPPER-VALLEYS"
+    ],
+    [
+      "REG-NORTHERN-SPINE",
+      "REG-EASTERN-STORM"
+    ],
+    [
+      "REG-UPPER-VALLEYS",
+      "REG-CENTRAL-BASIN"
+    ],
+    [
+      "REG-UPPER-VALLEYS",
+      "REG-WESTERN-TABLELANDS"
+    ],
+    [
+      "REG-UPPER-VALLEYS",
+      "REG-EASTERN-STORM"
+    ],
+    [
+      "REG-CENTRAL-BASIN",
+      "REG-WESTERN-TABLELANDS"
+    ],
+    [
+      "REG-CENTRAL-BASIN",
+      "REG-EASTERN-STORM"
+    ],
+    [
+      "REG-CENTRAL-BASIN",
+      "REG-SOUTHERN-WETLANDS"
+    ],
+    [
+      "REG-CENTRAL-BASIN",
+      "REG-INNER-SEA"
+    ],
+    [
+      "REG-WESTERN-TABLELANDS",
+      "REG-SOUTHERN-WETLANDS"
+    ],
+    [
+      "REG-EASTERN-STORM",
+      "REG-INNER-SEA"
+    ],
+    [
+      "REG-SOUTHERN-WETLANDS",
+      "REG-INNER-SEA"
+    ]
+  ],
+  "routes": [
+    {
+      "id": "ROUTE-RIDGE",
+      "from": "REG-NORTHERN-SPINE",
+      "to": "REG-UPPER-VALLEYS",
+      "band": "REGIONAL"
+    },
+    {
+      "id": "ROUTE-BASIN",
+      "from": "REG-UPPER-VALLEYS",
+      "to": "REG-CENTRAL-BASIN",
+      "band": "REGIONAL"
+    },
+    {
+      "id": "ROUTE-WESTERN",
+      "from": "REG-WESTERN-TABLELANDS",
+      "to": "REG-CENTRAL-BASIN",
+      "band": "REGIONAL"
+    },
+    {
+      "id": "ROUTE-STORM",
+      "from": "REG-CENTRAL-BASIN",
+      "to": "REG-EASTERN-STORM",
+      "band": "REGIONAL"
+    }
+  ],
+  "owners": [
+    {
+      "id": "DOM-JAKE",
+      "division": "BURGERS",
+      "zone": "REG-UPPER-VALLEYS"
+    },
+    {
+      "id": "DOM-WILSON",
+      "division": "BURGERS",
+      "zone": "REG-UPPER-VALLEYS"
+    },
+    {
+      "id": "DOM-PHILLIP",
+      "division": "BURGERS",
+      "zone": "REG-UPPER-VALLEYS"
+    },
+    {
+      "id": "DOM-BOBBY",
+      "division": "BURGERS",
+      "zone": "REG-UPPER-VALLEYS"
+    },
+    {
+      "id": "DOM-KEVIN",
+      "division": "WINGS",
+      "zone": "REG-WESTERN-TABLELANDS"
+    },
+    {
+      "id": "DOM-JORDAN",
+      "division": "WINGS",
+      "zone": "REG-WESTERN-TABLELANDS"
+    },
+    {
+      "id": "DOM-BRANDON",
+      "division": "WINGS",
+      "zone": "REG-WESTERN-TABLELANDS"
+    },
+    {
+      "id": "DOM-ZACH",
+      "division": "WINGS",
+      "zone": "REG-CENTRAL-BASIN"
+    },
+    {
+      "id": "DOM-DAVID",
+      "division": "PIZZA",
+      "zone": "REG-CENTRAL-BASIN"
+    },
+    {
+      "id": "DOM-AUSTIN",
+      "division": "PIZZA",
+      "zone": "REG-EASTERN-STORM"
+    },
+    {
+      "id": "DOM-MANNING",
+      "division": "PIZZA",
+      "zone": "REG-EASTERN-STORM"
+    },
+    {
+      "id": "DOM-BEN",
+      "division": "PIZZA",
+      "zone": "REG-CENTRAL-BASIN"
+    }
+  ],
+  "bad_fixtures": [
+    {
+      "kind": "route_unknown_zone",
+      "from": "REG-CENTRAL-BASIN",
+      "to": "REG-NOT-REAL"
+    },
+    {
+      "kind": "route_nonadjacent_claimed_regional",
+      "from": "REG-NORTHERN-SPINE",
+      "to": "REG-SOUTHERN-WETLANDS"
+    }
+  ]
+}
