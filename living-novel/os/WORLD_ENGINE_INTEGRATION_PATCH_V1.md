@@ -83,3 +83,35 @@ The Novel may deepen meaning; it cannot silently rewrite the physical event reco
 A Week 3 scene resolved in Memo OS and Novel OS must point to the same location/state even if prose and page composition differ.
 
 **PHASE 10 NOVEL INTEGRATION: READY FOR CI**
+
+
+## 9. Venue authority V1.1
+
+Novel scenes translating weekly Encounters must resolve venue through:
+
+`world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md`
+
+Regular/divisional Encounters use verified home-team environments by default. GOTWs, playoffs and championships use approved neutral sites by default.
+
+The novel may omit the journey, but the travel graph must contain an approved path.
+
+## 10. Inhabitant ontology authority
+
+Before populating a scene, load:
+
+`world/civilization/INHABITANT_ONTOLOGY_V1.md`
+
+A writer may not:
+- invent a duck civilization because Duckhook exists;
+- invent a race of Belt Keepers or LLC beings;
+- make Wilson Look the only gorilla-bodied person if his home society is on-page;
+- make Mud Dogs the only sapient swamp canine if his home society is on-page;
+- segregate TDS and Chili because their League divisions differ.
+
+El Niño may be the weather event itself only when the scene's world-state record marks `ATMOSPHERIC_MANIFESTATION`.
+
+## 11. Travel graph promotion
+
+`living-novel/os/geography/world_travel_graph_v1.json` is now hydrated from World Engine locations/routes and supports multi-hop path validation.
+
+The prior `SEED_NOT_FULL_MAP` zero-edge state is superseded.
