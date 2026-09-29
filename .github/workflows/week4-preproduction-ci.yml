@@ -1,0 +1,25 @@
+name: Week 4 Preproduction CI
+on:
+  push:
+    paths:
+      - "memo-os/week-4/**"
+      - "memo-os/tests/test_week4_preproduction_open.py"
+      - ".github/workflows/week4-preproduction-ci.yml"
+      - "memo-os/_INDEX.md"
+  pull_request:
+    paths:
+      - "memo-os/week-4/**"
+      - "memo-os/tests/test_week4_preproduction_open.py"
+      - ".github/workflows/week4-preproduction-ci.yml"
+      - "memo-os/_INDEX.md"
+  workflow_dispatch:
+jobs:
+  week4-open:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Week 4 preproduction smoke
+        run: python -m unittest -v memo-os/tests/test_week4_preproduction_open.py
