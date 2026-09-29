@@ -814,11 +814,7 @@ Phillip Pitts stood beneath the north lamps.
 
 The repaired tendrils from the previous week were bound close, shorter in places, unmistakably his. No restored silhouette. No attempt to pretend the damage had not happened.
 
-One reptilian head watched the clerk.
-
-One watched the other bidders.
-
-The third watched nothing Edrin could identify.
+Phillip's scaled face remained still beneath the north lamps. His luminous eyes watched the clerk, then the other bidders, then returned to the seal.
 
 The seal was stamped.
 
@@ -878,7 +874,7 @@ Edrin slid the stamped acquisitions across.
 
 "Needed bodies."
 
-All three heads looked at him.
+Phillip looked at him.
 
 Edrin wrote nothing.
 
@@ -890,7 +886,7 @@ That was direct speech, but not necessarily historical explanation.
 
 "El Niño probably likes that."
 
-One mouth almost smiled.
+The edge of Phillip's mouth almost became a smile.
 
 Phillip gathered the papers.
 
