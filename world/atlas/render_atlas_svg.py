@@ -41,19 +41,28 @@ def main():
         parts.append(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" fill="none" stroke="#777" stroke-dasharray="6 4"/>')
         parts.append(f'<text x="{x+5}" y="{y+16}" font-size="11" font-family="sans-serif">{html.escape(z["name"])}</text>')
 
-    # Routes.
+    # Routes. Explicit via locations are rendered as real graph stops.
     for r in routes:
-        a=loc_by_id[r["from"]].get("abstract_position")
-        b=loc_by_id[r["to"]].get("abstract_position")
-        if not a or not b: continue
-        parts.append(f'<line x1="{sx(a[0])}" y1="{sy(a[1])}" x2="{sx(b[0])}" y2="{sy(b[1])}" stroke="#555" stroke-width="2"/>')
+        via = r.get("via_location_ids", [])
+        if not via and r.get("via_location_id"):
+            via = [r["via_location_id"]]
+        chain = [r["from"], *via, r["to"]]
+        for a_id, b_id in zip(chain, chain[1:]):
+            a=loc_by_id[a_id].get("abstract_position")
+            b=loc_by_id[b_id].get("abstract_position")
+            if not a or not b: continue
+            parts.append(f'<line x1="{sx(a[0])}" y1="{sy(a[1])}" x2="{sx(b[0])}" y2="{sy(b[1])}" stroke="#555" stroke-width="2"/>')
 
     # Locations, labelled with division initial when applicable.
     for l in locs:
         p=l.get("abstract_position")
         if not p: continue
         div = l.get("division_id")
-        marker = {"DIV-BURGERS":"B","DIV-WINGS":"W","DIV-PIZZA":"P"}.get(div,"N")
+        if div:
+            marker = {"DIV-BURGERS":"B","DIV-WINGS":"W","DIV-PIZZA":"P"}.get(div,"?")
+        else:
+            presence = set(l.get("division_presence_ids", []))
+            marker = "B/W" if presence == {"DIV-BURGERS","DIV-WINGS"} else "N"
         parts.append(f'<circle cx="{sx(p[0])}" cy="{sy(p[1])}" r="5" fill="#222"/>')
         label=f'{marker}: {l["name"]}'
         parts.append(f'<text x="{sx(p[0])+8}" y="{sy(p[1])-7}" font-size="10" font-family="sans-serif">{html.escape(label)}</text>')
