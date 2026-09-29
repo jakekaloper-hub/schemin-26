@@ -1,0 +1,32 @@
+name: Schemin World Engine CI
+on:
+  push:
+    paths:
+      - "world/**"
+      - "schemas/world-*.schema.json"
+      - ".github/workflows/world-engine-ci.yml"
+      - "memo-os/WORLD_ENGINE_INTEGRATION_PATCH_V1.md"
+      - "living-novel/os/WORLD_ENGINE_INTEGRATION_PATCH_V1.md"
+  pull_request:
+    paths:
+      - "world/**"
+      - "schemas/world-*.schema.json"
+      - ".github/workflows/world-engine-ci.yml"
+      - "memo-os/WORLD_ENGINE_INTEGRATION_PATCH_V1.md"
+      - "living-novel/os/WORLD_ENGINE_INTEGRATION_PATCH_V1.md"
+  workflow_dispatch:
+
+jobs:
+  world-engine:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile validator
+        run: python -m py_compile world/engine/validate_world.py world/qa/test_world_engine.py
+      - name: Validate world data
+        run: python world/engine/validate_world.py
+      - name: Run World Engine regression suite
+        run: python world/qa/test_world_engine.py
