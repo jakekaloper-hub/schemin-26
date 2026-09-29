@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "relationships": [
+    {
+      "observer_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "direction": "east-northeast",
+      "visible_landmarks": [
+        "eastern ridgeline"
+      ],
+      "not_guaranteed": [
+        "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+      ],
+      "rule": "base may be hidden by intermediate ridge; do not force into every frame"
+    },
+    {
+      "observer_location_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "direction": "south",
+      "visible_landmarks": [
+        "upper basin haze",
+        "foothill roads"
+      ],
+      "not_guaranteed": [
+        "LOC-LEAGUE-CHAMBER"
+      ],
+      "rule": "distant basin, not readable buildings"
+    },
+    {
+      "observer_location_id": "LOC-LLC-STORM-CITY",
+      "direction": "east/southeast",
+      "visible_landmarks": [
+        "inner sea",
+        "storm horizon"
+      ],
+      "not_guaranteed": [
+        "LOC-STORM-BOWL"
+      ],
+      "rule": "Storm Bowl only visible if composition and distance support it"
+    },
+    {
+      "observer_location_id": "LOC-COUNTRY-CLUB-JACKSON",
+      "direction": "lowland",
+      "visible_landmarks": [
+        "wetland tree line",
+        "levee route"
+      ],
+      "not_guaranteed": [
+        "LOC-MUD-DOGS-SWAMP"
+      ],
+      "rule": "shared wetland system does not mean direct line of sight"
+    }
+  ]
+}
