@@ -7,6 +7,9 @@ on:
       - 'schemas/world-*.schema.json'
       - 'memo-os/WORLD_ENGINE_INTEGRATION_PATCH_V1.md'
       - 'living-novel/os/WORLD_ENGINE_INTEGRATION_PATCH_V1.md'
+      - 'living-novel/os/geography/**'
+      - 'living-novel/os/engine/novel_os.py'
+      - 'living-novel/world/**'
       - '.github/workflows/world-engine-qa.yml'
   push:
     branches:
@@ -15,6 +18,9 @@ on:
     paths:
       - 'world/**'
       - 'schemas/world-*.schema.json'
+      - 'living-novel/os/geography/**'
+      - 'living-novel/os/engine/novel_os.py'
+      - 'living-novel/world/**'
 
 jobs:
   topology:
