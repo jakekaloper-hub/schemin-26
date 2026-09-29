@@ -13,11 +13,19 @@
       "status": "ESTABLISHED_POPULATION"
     },
     {
-      "id": "KIND-GORILLA-FOLK",
+      "id": "KIND-GORILLA-WARRIOR-PEOPLE",
       "status": "ESTABLISHED_POPULATION"
     },
     {
-      "id": "KIND-LEOPARD-FOLK",
+      "id": "KIND-RED-LEOPARD-PEOPLE",
+      "status": "ESTABLISHED_POPULATION"
+    },
+    {
+      "id": "KIND-HORNED-ROUGH-COUNTRY-PEOPLE",
+      "status": "ESTABLISHED_POPULATION"
+    },
+    {
+      "id": "KIND-REPTILIAN-PEOPLE",
       "status": "ESTABLISHED_POPULATION"
     },
     {
@@ -41,7 +49,7 @@
     {
       "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
       "class": "POPULATION_MEMBER",
-      "kind_id": "KIND-HUMAN",
+      "kind_id": "KIND-HORNED-ROUGH-COUNTRY-PEOPLE",
       "others_of_kind": true
     },
     {
@@ -62,9 +70,9 @@
     },
     {
       "character_id": "CHAR-PHILLIP-PITTS",
-      "class": "CORESIDENT_OPEN_ONTOLOGY",
-      "kind_id": null,
-      "others_of_kind": null,
+      "class": "POPULATION_MEMBER",
+      "kind_id": "KIND-REPTILIAN-PEOPLE",
+      "others_of_kind": true,
       "co_resides_with": [
         "CHAR-BRANDON-PRYOR"
       ],
@@ -74,9 +82,9 @@
     },
     {
       "character_id": "CHAR-BRANDON-PRYOR",
-      "class": "CORESIDENT_OPEN_ONTOLOGY",
-      "kind_id": null,
-      "others_of_kind": null,
+      "class": "POPULATION_MEMBER",
+      "kind_id": "KIND-HUMAN",
+      "others_of_kind": true,
       "co_resides_with": [
         "CHAR-PHILLIP-PITTS"
       ]
