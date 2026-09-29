@@ -14,7 +14,7 @@ The approved plate/crop is visual authority. Text constrains; it never redesigns
 02 Kevin Zeek / Red Leopards — The Predator Board — giant anthropomorphic red leopard.
 03 Jordan Hollingshead / Slob on my Dobb — Win Ugly / Frat-Bro Berserker.
 04 David Babb / The LLC — Hostile Takeover.
-05 Wilson Look / D0nkey K0ng — Philosopher-Warrior / Arsenal Centaur — CENTAUR ONLY; never gorilla/ape/human-only barbarian.
+05 Wilson Look / Donkey Kong — Donkey Kong / Arsenal Gorilla Warrior — massive black-furred gorilla; Arsenal-red jersey/armor; ornate double-headed axe; metal tankard; owner-specific 2026-09-29 reference outranks older lineup panel; CENTAUR/EQUINE DESIGN RETIRED.
 06 Phillip Pitts / Three Dreaded Snake — The Podium Shadow — ONE reptilian humanoid; never three snakes/three-headed snake/Medusa/human.
 07 Brandon Pryor / Chili Cheesers — The Chili Outlaw + Dark Horse.
 08 Manning Welty / El Niño — The Weather System — nonhuman elemental.
@@ -35,3 +35,6 @@ Any single failure = PAGE_REJECT.
 
 ## Fact separation
 Character packets contain no authority for scores, records, standings, schedules, rosters or transactions. Those require independent Flaim/approved-data Fact Lock.
+
+## Owner-specific supersession — 2026-09-29
+Wilson Look / Donkey Kong now resolves first to the Commissioner-approved gorilla-warrior reference. The older lineup plate remains authority for the other owners but its Wilson/centaur panel is RETIRED and must not seed new renders.
