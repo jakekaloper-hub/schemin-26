@@ -48,11 +48,11 @@ Locked from Week 3:
 | W4-G0 V5.5 authority load | PASS | current Memo OS load order resolved |
 | W4-G1 Week 3 close handoff | PASS | Week 3 Fact Lock present |
 | W4-G2 Week 4 schedule | PASS | six matchups verified |
-| W4-G3 fresh league data | OPEN | current provider/Data Gateway refresh + freshness |
+| W4-G3 fresh league data | **PARTIAL PASS** | Flaim/ESPN roster, standings, schedule, projections and transactions refreshed; medical status + exact trade assets remain open |
 | W4-G4 temporal canon | PASS FOR OPENING | current 2026-09-29 canon receipt recorded |
 | W4-G5 continuity/world entry | OPEN | resolve entering world/continuity state |
 | W4-G6 personalized story intelligence | OPEN | provenance-classified current-week inputs |
-| W4-G7 Story Room | BLOCKED BY G3/G5/G6 | no final thesis before evidence |
+| W4-G7 Story Room | BLOCKED BY G3/G5/G6 | G3 is partial only; no final thesis before remaining evidence |
 | W4-G8 issue architecture | BLOCKED | Story Room output required |
 | W4-G9 complete issue previs | BLOCKED | architecture required |
 | W4-G10 page packets | BLOCKED | complete issue previs required |
@@ -76,3 +76,10 @@ Every visual resolves OWNER → CURRENT CHARACTER AUTHORITY → CURRENT TEAM →
 ## Closer
 
 Week 4 is legitimately open for evidence gathering and preproduction scaffolding only.
+
+
+## Provider refresh receipt
+
+Flaim/ESPN provider evidence is recorded in `WEEK_4_FLAIM_LEAGUE_STATE_RECEIPT_V1.md`.
+
+This advances W4-G3 from OPEN to **PARTIAL PASS**, not full PASS.
