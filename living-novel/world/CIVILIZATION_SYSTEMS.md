@@ -53,3 +53,18 @@ Wagering is culturally important enough to create humor, debt, status and scanda
 ## Ordinary life
 The world must regularly show labor, meals, weather, repair, travel, markets, taverns, worship, harvest, animal care, bureaucracy, boredom and celebration.
 Epic stakes gain weight only if ordinary life exists to be disrupted.
+
+
+## Inhabitant kinds and civic personhood
+
+Schemin civilization is morphologically plural.
+
+The governing ontology is `world/civilization/INHABITANT_ONTOLOGY_V1.md`.
+
+Compact-recognized legal personhood does not depend on being human. Recognized persons may hold land, contract, travel under safe-conduct, appear before arbiters, maintain domains and participate in sanctioned Encounters subject to local law.
+
+This distinction matters because some principal characters belong to broader peopled kinds while others are singular beings. A settlement belonging to a peopled kind may visibly accommodate that population. A singular being does not automatically imply an unseen same-kind civilization.
+
+TDS and Chili provide the controlling civic example: they coexist in shared social/geographic space despite different League divisions. Division affiliation is therefore not a species, ethnicity or residential caste system.
+
+Architecture follows inhabitants where appropriate, but public civilization is not required to be uniform. Mixed settlements, adapted institutions and case-specific accommodations are normal parts of the world.
