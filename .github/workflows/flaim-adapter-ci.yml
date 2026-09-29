@@ -1,0 +1,41 @@
+name: Flaim Adapter CI
+on:
+  push:
+    paths:
+      - "data-gateway/flaim_adapter.py"
+      - "data-gateway/FLAIM_PROVIDER_ADAPTER_V1.md"
+      - "data/provider-receipts/flaim/**"
+      - "tests/test_flaim_adapter_contract.py"
+      - ".github/workflows/flaim-adapter-ci.yml"
+      - "memo-os/week-4/**"
+  pull_request:
+    paths:
+      - "data-gateway/flaim_adapter.py"
+      - "data-gateway/FLAIM_PROVIDER_ADAPTER_V1.md"
+      - "data/provider-receipts/flaim/**"
+      - "tests/test_flaim_adapter_contract.py"
+      - ".github/workflows/flaim-adapter-ci.yml"
+      - "memo-os/week-4/**"
+  workflow_dispatch:
+jobs:
+  flaim-adapter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile adapter
+        run: python -m py_compile data-gateway/flaim_adapter.py
+      - name: Run Flaim adapter contract tests
+        run: python -m unittest -v tests/test_flaim_adapter_contract.py
+      - name: Normalize current Week 4 receipt
+        run: |
+          python data-gateway/flaim_adapter.py             data/provider-receipts/flaim/1417621/2026/week-4/2026-09-29T175654Z.json             --slo-seconds 86400             --output /tmp/flaim-week4-normalized.json
+          python - <<'PY'
+          import json
+          data=json.load(open('/tmp/flaim-week4-normalized.json'))
+          assert data['meta']['league_id'] == 1417621
+          assert len(data['matchups']) == 6
+          assert len(data['rosters']) == 12
+          PY
