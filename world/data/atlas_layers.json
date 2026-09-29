@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "layers": [
+    {
+      "id": "LAYER-PHYSICAL",
+      "name": "Physical Atlas",
+      "source": [
+        "world/data/physical_zones.json"
+      ],
+      "default_visible": true
+    },
+    {
+      "id": "LAYER-DIVISIONS",
+      "name": "Division Atlas",
+      "source": [
+        "world/data/divisions.json"
+      ],
+      "default_visible": true
+    },
+    {
+      "id": "LAYER-OWNER-DOMAINS",
+      "name": "Owner Domain Atlas",
+      "source": [
+        "world/data/owner_domains.json",
+        "world/data/locations.json"
+      ],
+      "default_visible": true
+    },
+    {
+      "id": "LAYER-ROUTES",
+      "name": "Roads and Travel",
+      "source": [
+        "world/data/routes.json"
+      ],
+      "default_visible": true
+    },
+    {
+      "id": "LAYER-WORLD-STATE",
+      "name": "World State / Historical Consequences",
+      "source": [
+        "world/data/world_state_events.json",
+        "world/data/current_world_state.json"
+      ],
+      "default_visible": false
+    },
+    {
+      "id": "LAYER-WEATHER",
+      "name": "Weather Regions",
+      "source": [
+        "world/data/weather_regions.json"
+      ],
+      "default_visible": false
+    },
+    {
+      "id": "LAYER-HORIZON",
+      "name": "Landmark Visibility",
+      "source": [
+        "world/data/landmark_visibility.json"
+      ],
+      "default_visible": false
+    }
+  ]
+}
