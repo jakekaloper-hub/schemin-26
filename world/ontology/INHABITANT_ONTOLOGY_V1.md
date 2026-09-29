@@ -30,13 +30,13 @@ A member of a gorilla-bodied people. Current canon remains **GORILLA**, never ce
 A member of an anthropomorphic leopard/jaguar people. His strength and status are individual; his body form is not unique.
 
 ### Jordan Hollingshead / Slob on my Dobb — Frat-Bro Berserker
-A member of a human/human-beast population. His extreme physique and culture are personal; he is not the only being with broadly comparable anatomy.
+A member of a broader horned rough-country human-beast people/culture. His exact personality and extreme physique are individual; his broad body-form is not unique.
 
 ### Bobby Mitchell / Mud Dogs — Swamp-Born Menace
 A member of a sapient wetland beast/pack people. Mud Dogs may hold territory, form communities, remember routes and participate in Compact society through their own customs.
 
 ### Ben Whipple / Seven Deadly Chins — People's Champ
-Human. His size, style and reputation are individual; humans around him are ordinary inhabitants of the world.
+Human. He belongs to broader rough-country/laboring human communities. His size, style and reputation are individual.
 
 ## Singular beings
 
@@ -51,16 +51,16 @@ A singular anthropomorphic white duck-person. Ordinary ducks can exist; no civil
 ### David Babb / The LLC — Hostile Takeover
 A singular individual in his exact world-role/embodiment. Do not extrapolate a species or population of LLC/corporate beings from his visual identity.
 
-## Co-resident inhabitants whose wider ontology remains open
+## Cross-division co-resident peoples
 
 ### Phillip Pitts / Three Dreaded Snake
-Body lock remains one reptilian humanoid body with three serpent heads. Whether others exactly like him exist remains **OPEN TERRITORY**.
+Body lock remains one reptilian humanoid body with three serpent heads. He belongs to a broader **reptilian people/culture**. The exact prevalence of his three-headed morphology remains open unless separately established.
 
 ### Brandon Pryor / Chili Cheesers — Chili Outlaw
-His broader population/species ontology remains **OPEN TERRITORY**.
+Human. He belongs to broader **human frontier/tableland communities**.
 
 ### TDS + Chili co-residence lock
-TDS and Chili inhabit/coexist within the same wider western-headwater frontier society even though their 2026 League division affiliations differ.
+TDS's reptilian population and Chili's human frontier communities inhabit/coexist inside the same wider western-headwater contact zone even though their 2026 League division affiliations differ.
 
 This is a governing proof that:
 - League divisions are not racial/species borders;
@@ -133,3 +133,16 @@ Every character-bearing scene resolves:
 6. prohibited species extrapolations.
 
 Unknown population status remains UNKNOWN. Never invent an entire people just to explain one image.
+
+
+## Living Novel authority crosswalk
+
+This ontology is not independent invention. It must stay aligned with:
+
+- `living-novel/world/AUTHOR_ROOM_UNIVERSE_HYDRATION_STANDARD_V1.md`
+- `living-novel/world/WORLD_DESIGN_PRINCIPLES.md`
+- `living-novel/world/CIVILIZATION_SYSTEMS.md`
+- `living-novel/world/POLITICAL_ORDER.md`
+- `living-novel/narrative/CHAPTER_03_UNIVERSE_HYDRATION_PACKET_V1.md`
+
+Where older character/prologue files still describe El Niño as an embodied elemental humanoid, those passages are superseded for the Living Novel by the Founder-authorized Universe Hydration Standard.
