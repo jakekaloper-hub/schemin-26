@@ -1,0 +1,15 @@
+character_id: CHAR-KEVIN-ZEEK
+source: canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md
+immutable:
+  description: "giant anthropomorphic red leopard/jaguar; black rosettes; amber eyes; ancient/tribal armor; claws"
+controlled_variable:
+  - wardrobe_condition
+  - dirt_weather_wear
+  - expression
+  - continuity_state_when_explicitly_authorized
+scene_variable:
+  - pose
+  - camera
+  - lighting
+  - action
+  - scene_specific_environment
