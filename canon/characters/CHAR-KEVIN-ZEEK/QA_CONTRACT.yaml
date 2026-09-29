@@ -1,0 +1,12 @@
+character_id: CHAR-KEVIN-ZEEK
+required:
+  - owner_match
+  - active_identity
+  - body_species
+  - silhouette
+  - signature_features
+  - no_retired_design
+  - no_cross_character_contamination
+  - reference_provenance
+outcomes: [PASS, REGENERATE, HUMAN_REVIEW_REQUIRED]
+publication_requires: PASS
