@@ -20,6 +20,11 @@ def load_json(name: str) -> dict[str, Any]:
         return json.load(f)
 
 
+def load_repo_json(relative_path: str) -> dict[str, Any]:
+    with (ROOT / relative_path).open("r", encoding="utf-8") as f:
+        return json.load(f)
+
+
 def point_in_bounds(point: list[float], bounds: list[float]) -> bool:
     x, y = point
     xmin, ymin, xmax, ymax = bounds
@@ -168,16 +173,219 @@ def validate_payloads(
     return errors
 
 
+EXPECTED_DIVISION_MEMBERS = {
+    "DIV-BURGERS": {1, 5, 6, 10},
+    "DIV-WINGS": {2, 3, 7, 12},
+    "DIV-PIZZA": {4, 8, 9, 11},
+}
+
+EXPECTED_ONTOLOGY = {
+    "PEOPLED_KIND": {
+        "CHAR-JAKE-KALOPER",
+        "CHAR-WILSON-LOOK",
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-JORDAN-HOLLINGSHEAD",
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-BEN-WHIPPLE",
+    },
+    "SINGULAR_BEING": {
+        "CHAR-AUSTIN-BYARS",
+        "CHAR-ZACH-WILSON",
+        "CHAR-MANNING-WELTY",
+        "CHAR-DAVID-BABB",
+    },
+    "SHARED_COHABITATION": {
+        "CHAR-PHILLIP-PITTS",
+        "CHAR-BRANDON-PRYOR",
+    },
+}
+
+
+def route_chain(route: dict[str, Any]) -> list[str]:
+    via = route.get("via_location_ids", [])
+    if not via and route.get("via_location_id"):
+        via = [route["via_location_id"]]
+    return [route.get("from"), *via, route.get("to")]
+
+
+def build_location_graph(routes: dict[str, Any]) -> dict[str, set[str]]:
+    graph: dict[str, set[str]] = {}
+    for route in routes.get("routes", []):
+        chain = [x for x in route_chain(route) if x]
+        for a, b in zip(chain, chain[1:]):
+            graph.setdefault(a, set()).add(b)
+            graph.setdefault(b, set()).add(a)
+    return graph
+
+
+def path_exists(graph: dict[str, set[str]], start: str, goal: str) -> bool:
+    if start == goal:
+        return True
+    if start not in graph or goal not in graph:
+        return False
+    seen = {start}
+    queue = [start]
+    while queue:
+        node = queue.pop(0)
+        for nxt in graph.get(node, set()):
+            if nxt == goal:
+                return True
+            if nxt not in seen:
+                seen.add(nxt)
+                queue.append(nxt)
+    return False
+
+
+def validate_universe_extensions(
+    divisions: dict[str, Any],
+    locations: dict[str, Any],
+    domains: dict[str, Any],
+    routes: dict[str, Any],
+    ontology: dict[str, Any],
+    venue_policy: dict[str, Any],
+    novel_travel_graph: dict[str, Any],
+) -> list[str]:
+    errors: list[str] = []
+
+    div_by_id = {d["id"]: d for d in divisions.get("divisions", [])}
+    for did, expected in EXPECTED_DIVISION_MEMBERS.items():
+        actual = set(div_by_id.get(did, {}).get("member_team_ids_2026", []))
+        if actual != expected:
+            errors.append(f"{did} membership mismatch: expected {sorted(expected)}, got {sorted(actual)}")
+
+    team_to_division = {
+        team_id: did
+        for did, members in EXPECTED_DIVISION_MEMBERS.items()
+        for team_id in members
+    }
+
+    loc_by_id = {l["id"]: l for l in locations.get("locations", [])}
+    route_by_id = {r["id"]: r for r in routes.get("routes", [])}
+
+    # Every location-declared route must actually touch that location, either
+    # as endpoint or an explicit via stop.
+    for loc in locations.get("locations", []):
+        lid = loc["id"]
+        for rid in loc.get("access_route_ids", []):
+            route = route_by_id.get(rid)
+            if route is None:
+                continue
+            if lid not in route_chain(route):
+                errors.append(f"{lid} claims access route {rid} but route does not touch location")
+
+    # Via stops must resolve.
+    for route in routes.get("routes", []):
+        for lid in route_chain(route):
+            if lid and lid not in loc_by_id:
+                errors.append(f"{route.get('id')} references missing route-chain location {lid}")
+
+    domains_by_team = {d.get("team_id"): d for d in domains.get("domains", [])}
+    for team_id, expected_division in team_to_division.items():
+        domain = domains_by_team.get(team_id)
+        if domain and domain.get("division_id") != expected_division:
+            errors.append(f"team {team_id} owner-domain division mismatch: expected {expected_division}")
+
+    # Ontology classes must be mutually exclusive and cover all Twelve.
+    classes = ontology.get("classes", {})
+    seen: set[str] = set()
+    for class_name, expected in EXPECTED_ONTOLOGY.items():
+        actual = set(classes.get(class_name, []))
+        if actual != expected:
+            errors.append(f"{class_name} ontology mismatch")
+        overlap = seen & actual
+        if overlap:
+            errors.append(f"ontology overlap: {sorted(overlap)}")
+        seen |= actual
+    if len(seen) != 12:
+        errors.append("inhabitant ontology must classify exactly 12 principal characters")
+
+    el_nino = ontology.get("el_nino", {})
+    modes = set(el_nino.get("manifestation_modes", []))
+    if not {"EMBODIED", "ATMOSPHERIC_MANIFESTATION"}.issubset(modes):
+        errors.append("El Niño dual manifestation law missing")
+
+    shared = ontology.get("shared_cohabitation", {})
+    if set(shared.get("members", [])) != EXPECTED_ONTOLOGY["SHARED_COHABITATION"]:
+        errors.append("TDS/Chili shared-cohabitation membership mismatch")
+    shared_lid = shared.get("geography_anchor")
+    if shared_lid not in loc_by_id:
+        errors.append("TDS/Chili shared-cohabitation location missing")
+    else:
+        presence = set(loc_by_id[shared_lid].get("division_presence_ids", []))
+        if presence != {"DIV-BURGERS", "DIV-WINGS"}:
+            errors.append("TDS/Chili shared march must carry Burgers + Wings presence")
+
+    # Venue policy.
+    home_venues = venue_policy.get("home_venues", {})
+    if set(home_venues) != {str(i) for i in range(1, 13)}:
+        errors.append("Encounter venue policy must define home venue for team ids 1..12")
+    for team_id_str, lid in home_venues.items():
+        if lid not in loc_by_id:
+            errors.append(f"home venue {lid} for team {team_id_str} is missing")
+            continue
+        expected_division = team_to_division[int(team_id_str)]
+        if loc_by_id[lid].get("division_id") != expected_division:
+            errors.append(f"home venue {lid} division mismatch for team {team_id_str}")
+
+    for event_name in ("GAME_OF_THE_WEEK", "PLAYOFF", "CHAMPIONSHIP"):
+        rule = venue_policy.get("event_rules", {}).get(event_name, {})
+        if rule.get("venue_mode") != "NEUTRAL_DEFAULT":
+            errors.append(f"{event_name} must default to neutral venue")
+
+    neutral_pool = venue_policy.get("neutral_pool", [])
+    if not neutral_pool:
+        errors.append("neutral venue pool cannot be empty")
+    for lid in neutral_pool:
+        if lid not in loc_by_id:
+            errors.append(f"neutral venue {lid} missing")
+        elif loc_by_id[lid].get("division_id") is not None:
+            errors.append(f"default neutral venue {lid} must not belong to a division")
+
+    graph = build_location_graph(routes)
+    for home_lid in home_venues.values():
+        if neutral_pool and not any(path_exists(graph, home_lid, neutral) for neutral in neutral_pool):
+            errors.append(f"home venue {home_lid} has no approved route to neutral network")
+
+    # Living Novel graph must be hydrated from World Engine rather than remain
+    # the old zero-edge seed.
+    if novel_travel_graph.get("status") == "SEED_NOT_FULL_MAP":
+        errors.append("Living Novel travel graph still marked SEED_NOT_FULL_MAP")
+    if not novel_travel_graph.get("edges"):
+        errors.append("Living Novel travel graph has zero approved edges")
+
+    return errors
+
 def validate_repo() -> list[str]:
-    return validate_payloads(
-        load_json("physical_zones.json"),
-        load_json("divisions.json"),
-        load_json("locations.json"),
-        load_json("owner_domains.json"),
-        load_json("routes.json"),
-        load_json("world_state_events.json"),
-        load_json("current_world_state.json"),
+    physical = load_json("physical_zones.json")
+    divisions = load_json("divisions.json")
+    locations = load_json("locations.json")
+    domains = load_json("owner_domains.json")
+    routes = load_json("routes.json")
+    state_events = load_json("world_state_events.json")
+    current_state = load_json("current_world_state.json")
+    ontology = load_json("inhabitant_ontology.json")
+    venue_policy = load_json("encounter_venue_policy.json")
+    novel_travel_graph = load_repo_json("living-novel/os/geography/world_travel_graph_v1.json")
+
+    errors = validate_payloads(
+        physical,
+        divisions,
+        locations,
+        domains,
+        routes,
+        state_events,
+        current_state,
     )
+    errors += validate_universe_extensions(
+        divisions,
+        locations,
+        domains,
+        routes,
+        ontology,
+        venue_policy,
+        novel_travel_graph,
+    )
+    return errors
 
 
 if __name__ == "__main__":
