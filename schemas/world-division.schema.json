@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemin26.local/schemas/world-division.schema.json",
+  "title": "Schemin Division",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "food_referent",
+    "canon_status",
+    "member_team_ids_2026",
+    "physical_zone_ids",
+    "visual_fingerprint",
+    "anti_drift"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^DIV-(BURGERS|WINGS|PIZZA)$"
+    },
+    "name": {
+      "enum": [
+        "Burgers",
+        "Wings",
+        "Pizza"
+      ]
+    },
+    "food_referent": {
+      "enum": [
+        "burgers",
+        "chicken_wings",
+        "pizza"
+      ]
+    },
+    "canon_status": {
+      "enum": [
+        "LOCKED_CANON",
+        "INTERPRETIVE_CANON",
+        "PROPOSED_LORE",
+        "OPEN_TERRITORY",
+        "SUPERSEDED"
+      ]
+    },
+    "member_team_ids_2026": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "uniqueItems": true,
+      "items": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 12
+      }
+    },
+    "physical_zone_ids": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "visual_fingerprint": {
+      "type": "object"
+    },
+    "anti_drift": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "provenance": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}
