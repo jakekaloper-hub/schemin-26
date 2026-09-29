@@ -51,11 +51,14 @@ Neutral does not mean placeless. The neutral site must exist somewhere in the Sc
 
 ## 4. Neutral-site pool
 
-Initial approved/provisional neutral network:
+Default approved/provisional neutral network:
 - LOC-LEAGUE-CHAMBER — institutional neutral venue.
 - LOC-COMPACT-NEUTRAL-GROUNDS — open neutral Encounter grounds in the Central Basin.
-- LOC-BRIDGE-MOUNTAIN-LAKE — may serve as neutral only when story significance warrants and state permits.
-- other sites may be admitted through normal Location Register governance.
+
+Conditional neutral venue:
+- LOC-BRIDGE-MOUNTAIN-LAKE — may serve as neutral only when story significance warrants, both sides' home advantage is not being smuggled in, and state permits.
+
+Other sites may be admitted through normal Location Register governance.
 
 The championship may receive a distinct neutral venue later, but it cannot be improvised in final art.
 
