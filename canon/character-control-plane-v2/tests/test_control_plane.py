@@ -7,8 +7,12 @@ from assets import resolve_asset
 from qa import decide
 from compiler import compile_contract
 from receipts import publication_receipt
+from validate import validate_record,validate_asset
 
 class CCPV2Tests(unittest.TestCase):
+ def test_records_validate(self):
+  self.assertTrue(all(validate_record(r)==[] for r in RECORDS))
+  self.assertTrue(all(validate_asset(a)==[] for a in ASSETS.values()))
  def test_12_unique(self):
   by_id,index,retired=compile_index(RECORDS); self.assertEqual(len(by_id),12)
  def test_aliases(self):
