@@ -181,24 +181,24 @@ Food naming is the memorable symbolic layer—not the sole cause of the civiliza
 The current Week 3 standings spread visually groups:
 
 **Burgers**
-- Donkey Kong
-- Red Leopards
-- Slob on my Dobb
-- Seven Deadly Chins
+- ObiWan Jacoby
+- D0nkey K0ng / Donkey Kong
+- Three Dreaded Snake
+- Mud Dogs
 
 **Wings**
-- Mud Dogs
+- Red Leopards
+- Slob on my Dobb
 - Chili Cheesers
-- Three Dreaded Snake
 - Dr. Duckhook
 
 **Pizza**
-- ObiWan Jacoby
-- El Niño
-- His Majesty's Blood / current Belt Keeper team identity
 - The LLC
+- His Majesty's Blood
+- El Niño
+- Seven Deadly Chins
 
-This mapping should be verified against current league truth before being frozen into a season-independent division record.
+This mapping is locked for 2026 Week 3 production by `memo-os/week-3/WEEK_3_FACT_LOCK_V1.md`. Future seasons may require a season-scoped membership update rather than rewriting historical membership.
 
 ## 6. Promotion states
 
