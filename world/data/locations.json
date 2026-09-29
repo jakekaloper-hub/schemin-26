@@ -674,6 +674,37 @@
         "final proper place-name",
         "championship-specific ceremonial expansion"
       ]
+    },
+    {
+      "id": "LOC-LEAGUE-ARCHIVE",
+      "name": "League Archive",
+      "canon_status": "INTERPRETIVE_CANON",
+      "location_type": "neutral_institution",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": null,
+      "owner_character_id": null,
+      "abstract_position": [
+        55,
+        50
+      ],
+      "access_route_ids": [
+        "ROUTE-ARCHIVE-CHAMBER"
+      ],
+      "persistent_landmarks": [
+        "record halls",
+        "ledger vaults",
+        "courier court"
+      ],
+      "current_state": [
+        "neutral records institution"
+      ],
+      "source_provenance": [
+        "world/SCHEMIN_WORLD_BIBLE_ARCHIVE_AND_RECORDS_V1.md",
+        "living-novel/world/INSTITUTIONS_AND_CHAMPIONSHIP.md"
+      ],
+      "open_questions": [
+        "final relationship to central city government"
+      ]
     }
   ]
 }
