@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "weather_regions": [
+    {
+      "id": "WX-EASTERN-STORM",
+      "source_zone_ids": [
+        "REG-EASTERN-STORM-COAST",
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "propagation_order": [
+        "REG-EASTERN-STORM-COAST",
+        "REG-INNER-SEA-LITTORAL",
+        "REG-CENTRAL-BASIN",
+        "REG-UPPER-VALLEYS"
+      ],
+      "effects": [
+        "coastal surge",
+        "heavy rain",
+        "wind",
+        "road washout"
+      ],
+      "rule": "major event must record downstream/adjacent effects"
+    },
+    {
+      "id": "WX-NORTHERN-WINTER",
+      "source_zone_ids": [
+        "REG-NORTHERN-SPINE"
+      ],
+      "propagation_order": [
+        "REG-NORTHERN-SPINE",
+        "REG-UPPER-VALLEYS"
+      ],
+      "effects": [
+        "snow",
+        "ice",
+        "pass closure"
+      ],
+      "rule": "elevation controls severity"
+    },
+    {
+      "id": "WX-SOUTHERN-FLOOD",
+      "source_zone_ids": [
+        "REG-CENTRAL-BASIN",
+        "REG-SOUTHERN-WETLANDS"
+      ],
+      "propagation_order": [
+        "REG-CENTRAL-BASIN",
+        "REG-SOUTHERN-WETLANDS",
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "effects": [
+        "high river",
+        "mud",
+        "causeway closure"
+      ],
+      "rule": "flooding follows watershed; not arbitrary backdrop"
+    },
+    {
+      "id": "WX-WESTERN-DRY",
+      "source_zone_ids": [
+        "REG-WESTERN-TABLELANDS"
+      ],
+      "propagation_order": [
+        "REG-WESTERN-TABLELANDS"
+      ],
+      "effects": [
+        "dust",
+        "heat",
+        "water scarcity"
+      ],
+      "rule": "rain-shadow tendency, not permanent drought"
+    }
+  ]
+}
