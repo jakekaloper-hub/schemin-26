@@ -45,7 +45,7 @@
       "id": "ROUTE-DELTA-CAUSEWAY",
       "name": "Delta Causeway",
       "canon_status": "INTERPRETIVE_CANON",
-      "route_class": "REGIONAL",
+      "route_class": "CROSS_DIVISION",
       "from": "LOC-MUD-DOGS-SWAMP",
       "to": "LOC-COUNTRY-CLUB-JACKSON",
       "travel_modes": [
@@ -127,7 +127,7 @@
       "id": "ROUTE-RAIN-ESCARPMENT",
       "name": "Rain Escarpment Road",
       "canon_status": "INTERPRETIVE_CANON",
-      "route_class": "REGIONAL",
+      "route_class": "CROSS_DIVISION",
       "from": "LOC-RED-RUINS",
       "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
       "travel_modes": [
@@ -185,7 +185,7 @@
       "id": "ROUTE-BLACK-CLIFF",
       "name": "Black Cliff Road",
       "canon_status": "INTERPRETIVE_CANON",
-      "route_class": "REGIONAL",
+      "route_class": "CROSS_DIVISION",
       "from": "LOC-BELT-KEEPER-KEEP",
       "to": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
       "travel_modes": [
@@ -238,6 +238,68 @@
       ],
       "source_provenance": [
         "living-novel/world/PHYSICAL_WORLD.md"
+      ],
+      "crosses_division": true
+    },
+    {
+      "id": "ROUTE-DK-HIGHLAND-LINK",
+      "name": "Highland Stronghold Road",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "LOCAL",
+      "from": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "to": "LOC-ARSENAL-BARBERSHOP",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "constraints": [
+        "ridge grade",
+        "market traffic"
+      ],
+      "source_provenance": [
+        "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+      ]
+    },
+    {
+      "id": "ROUTE-TDS-CHILI-SHARED-MARCH",
+      "name": "Shared March Road",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "CROSS_DIVISION",
+      "from": "LOC-TDS-WATERFALL-TEMPLE",
+      "to": "LOC-CHILI-STABLE",
+      "via_location_id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon",
+        "wetland"
+      ],
+      "constraints": [
+        "seasonal water",
+        "tableland exposure"
+      ],
+      "source_provenance": [
+        "world/civilization/INHABITANT_ONTOLOGY_V1.md"
+      ]
+    },
+    {
+      "id": "ROUTE-COMPACT-GROUNDS",
+      "name": "Compact Grounds Road",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "LOCAL",
+      "from": "LOC-LEAGUE-CHAMBER",
+      "to": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "constraints": [
+        "event traffic"
+      ],
+      "source_provenance": [
+        "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
       ]
     }
   ]
