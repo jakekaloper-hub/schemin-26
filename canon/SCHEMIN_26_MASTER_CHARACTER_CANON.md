@@ -56,10 +56,10 @@ on the current team name.
 
 **Former name:** Baker Moore Purdy.\
 **Character:** The Philosopher-Warrior / Arsenal Centaur.\
-**Lock:** large muscular centaur/equine warrior; Arsenal-red identity;
-ornate battle axe; tankard; mountain-warrior aesthetic.\
-**Never:** gorilla, ape, jungle mascot, or literal Donkey Kong
-interpretation.
+**ACTIVE DESIGN LOCK — revised 2026-09-29:** massive black-furred gorilla warrior; unmistakable gorilla anatomy with broad shoulders, long powerful arms, heavy black fur, dark primate face and roaring/fanged expression; Arsenal-red football-warrior jersey/armor with gold/bronze fantasy armor accents; oversized ornate double-headed battle axe; heavy metal tankard/beer mug; monumental battlefield/high-fantasy warlord aesthetic.\
+**PRIMARY VISUAL AUTHORITY:** Commissioner-approved 2026-09-29 Donkey Kong gorilla-warrior reference (uploaded as `IMG_7866.jpeg` in the approval thread). This owner-specific reference supersedes the older lineup panel wherever Wilson Look appears.\
+**RETIRED DESIGN:** Philosopher-Warrior / Arsenal Centaur. The centaur/equine body is historical only and MUST NOT be used in new artwork.\
+**Never:** centaur, horse/equine body, mounted-human substitute, generic jungle mascot, or human-only barbarian.
 
 ### Jordan Hollingshead / Slob on my Dobb
 
@@ -184,7 +184,7 @@ companion or backstory.
 
 Examples: - Austin Byars: The Immortal -\> That's Fantasy -\> His
 Majesty's Blood = **THE BELT KEEPER** - Wilson Look: Baker Moore Purdy
--\> Donkey Kong = **ARSENAL CENTAUR** - Brandon Pryor = **THE CHILI
+-\> Donkey Kong = **GORILLA WARRIOR** (2026-09-29 redesign; former Arsenal Centaur RETIRED) - Brandon Pryor = **THE CHILI
 OUTLAW + THE DARK HORSE** - Jake Kaloper = **THE TRADE JEDI - NO
 CHAMPIONSHIP BELT**
 
@@ -250,3 +250,7 @@ For multi-character scenes, build one CHARACTER_PACKET_LOCK per depicted owner. 
 FACT LOCK → OWNER RESOLUTION → CHARACTER PACKET LOCK → STORY / ART DIRECTION → REFERENCE-ATTACHED GENERATION → CHARACTER QA → PAGE QA → PUBLICATION LOCK
 
 CHARACTER_PACKET_LOCK and CHARACTER QA are hard gates. A page cannot reach Publication Lock while either is missing or failed.
+
+
+### Canon Change Record — Wilson Look / Donkey Kong — 2026-09-29
+Commissioner-approved redesign. Active visual identity is the black-furred Arsenal-red gorilla warrior shown in the 2026-09-29 reference. Former Arsenal Centaur is RETIRED. All downstream character packets and render jobs must resolve the owner-specific 2026-09-29 reference ahead of the older twelve-owner lineup plate.
