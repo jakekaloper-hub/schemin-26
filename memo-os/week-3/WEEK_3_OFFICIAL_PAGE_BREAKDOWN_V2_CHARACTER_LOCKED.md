@@ -12,7 +12,7 @@ Visible lineup order / required identity:
 2 Red Leopards — The Predator Board — Kevin Zeek: massive anthropomorphic red leopard, black rosettes, black/red/gold armor.
 3 Slob on my Dobb — Win Ugly — Jordan Hollingshead: large shaggy/horned human-like bruiser, dirty white Slob shirt, bat, beer, bulldog companion.
 4 The LLC — Hostile Takeover — David Babb: suited human executive, sunglasses/cigar, black LLC briefcase.
-5 D0nkey K0ng — The Philosopher-Warrior — Wilson Look: human warrior torso joined to full white/gray equine body, Arsenal-red kit, large axe/tankard; NEVER ape/gorilla/human-only.
+5 Donkey Kong — Wilson Look: **ACTIVE 2026-09-29 SUPERSESSION:** massive black-furred gorilla warrior, Arsenal-red jersey/armor, ornate double-headed axe, metal tankard, bronze/gold fantasy armor. The former white/gray Arsenal Centaur panel is RETIRED for future renders.
 6 Three Dreaded Snake — The Podium Shadow — Phillip Pitts: ONE green reptilian humanoid, #3 identity, scales, athletic gear; Week3 continuity overlay remains post-haircut.
 7 The Chili Cheesers — The Chili Outlaw — Brandon Pryor: bearded black-hatted Western outlaw, sunglasses, red/black chili gear, chili bowl, The Dark Horse.
 8 El Niño — The Weather System — Manning Welty: nonhuman blue-white storm/water/lightning elemental.
@@ -131,3 +131,6 @@ Final copy can be polished after Fact Lock but must remain league-wide, not winn
 12 reference-attached character generation
 13 FACT / CHARACTER / CONTINUITY / MOBILE / ORIGINALITY QA
 14 final PDF assembly and rendered-page audit
+
+## Canon supersession notice — 2026-09-29
+This Week 3 planning artifact predates Wilson Look's approved redesign. For any future regeneration/reuse, the 2026-09-29 owner-specific Donkey Kong gorilla-warrior reference outranks the Week 3 lineup plate. Do not regenerate him as a centaur.
