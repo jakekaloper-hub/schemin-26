@@ -39,7 +39,11 @@
       ],
       "source_provenance": [
         "world/divisions/BURGERS_DIVISION_INDEX_V1.md"
-      ]
+      ],
+      "via_location_ids": [
+        "LOC-SLOB-FOOTHILL-CAMP"
+      ],
+      "crosses_division": true
     },
     {
       "id": "ROUTE-DELTA-CAUSEWAY",
@@ -218,7 +222,13 @@
       ],
       "source_provenance": [
         "living-novel/world/PHYSICAL_WORLD.md"
-      ]
+      ],
+      "via_location_ids": [
+        "LOC-PITTSYS-BOOK",
+        "LOC-SOUTHERN-SPEEDWAY",
+        "LOC-DK-MUD-HILL"
+      ],
+      "crosses_division": true
     },
     {
       "id": "ROUTE-NORTHERN-PASS",
@@ -299,6 +309,51 @@
         "event traffic"
       ],
       "source_provenance": [
+        "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+      ]
+    },
+    {
+      "id": "ROUTE-UPPER-BASIN-CONNECTOR",
+      "name": "Upper Basin Connector",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "REGIONAL",
+      "from": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon",
+        "river"
+      ],
+      "constraints": [
+        "grade descent",
+        "river crossing",
+        "seasonal mud"
+      ],
+      "source_provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md",
+        "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+      ]
+    },
+    {
+      "id": "ROUTE-PORT-BASIN-CONNECTOR",
+      "name": "Port-to-Basin Road",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "REGIONAL",
+      "from": "LOC-LLC-STORM-CITY",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "travel_modes": [
+        "wagon",
+        "river",
+        "coastal_vessel"
+      ],
+      "constraints": [
+        "storm gates",
+        "river traffic",
+        "port congestion"
+      ],
+      "source_provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md",
         "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
       ]
     }
