@@ -64,42 +64,41 @@ Latest explicit Commissioner-approved corrections outrank older visual plates an
 The typed Character Control Plane v2 under `canon/character-control-plane-v2/` is **RELEASE_CANDIDATE / NOT ACTIVE** until its release gates close. Do not treat v2 existence as runtime promotion.
 
 ### World Engine / Geography
-Current controlling build: **Schemin World Engine V1** once this receipt is present on `main`.
+Current controlling build: **SCHEMIN WORLD ENGINE V1.1 — RELEASED / ACTIVE (2026-09-29)**.
 
 Read in this order:
-1. `world/SCHEMIN_WORLD_ENGINE_V1_RELEASE_RECEIPT.md`
+1. `world/SCHEMIN_WORLD_ENGINE_V1_1_RELEASE_RECEIPT.md`
 2. `world/PRO_SCHEMIN_WORLD_BIBLE_V1.md`
-3. `world/atlas/ATLAS_V1.md`
-4. `world/divisions/DIVISION_INDEX_SCHEMA_V1.md`
-5. `world/state/WORLD_STATE_LEDGER_V1.md`
-6. `world/qa/WORLD_GEOGRAPHY_ACCEPTANCE_SUITE_V1.md`
-7. `world/data/README.md`
+3. `world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md`
+4. `world/civilization/INHABITANT_ONTOLOGY_V1.md`
+5. `world/atlas/ATLAS_V1.md`
+6. `world/atlas/ROUTE_AND_TRAVEL_MODEL_V1.md`
+7. `world/domains/OWNER_DOMAIN_REGISTER_V1.md`
+8. `world/divisions/BURGERS_DIVISION_INDEX_V1.md`
+9. `world/divisions/WINGS_DIVISION_INDEX_V1.md`
+10. `world/divisions/PIZZA_DIVISION_INDEX_V1.md`
+11. `world/state/WORLD_STATE_LEDGER_V1.md`
+12. `living-novel/os/geography/world_travel_graph_v1.json`
+13. `world/qa/WORLD_ENGINE_V1_1_ACCEPTANCE_REPORT.md`
 
-World Engine owns persistent physical geography, division spatial/cultural identity, owner-domain placement, routes, recurring locations, environmental state and geography QA. It does not own fantasy-league truth or character identity.
+World Engine V1.1 owns persistent physical geography, division spatial/cultural identity, owner-domain placement, Encounter venue resolution, routes/travel topology, recurring locations, inhabitant ontology, environmental state and geography QA. It does not own fantasy-league truth or principal character body identity.
 
-Binding semantic locks include:
-- Burgers = burgers.
-- Wings = **chicken wings**.
-- Pizza = pizza.
-- Renderers consume world data; they do not silently create canon.
+Binding laws:
+- **The world determines the image; the image does not determine the world.**
+- Ordinary regular-season/divisional Encounters default to the verified home team's established environment.
+- Game of the Week, playoff and championship Encounters default to approved neutral Schemin locations.
+- Away participants require an approved route/path to the venue.
+- 2026 division truth is Burgers = ObiWan / D0nkey K0ng / TDS / Mud Dogs; Wings = Red Leopards / Slob / Chili / Duckhook; Pizza = LLC / HMB / El Niño / Seven Deadly Chins.
+- Divisions are nonexclusive League-cultural/home-venue overlays, not biological or residential borders.
+- Peopled kinds: ObiWan, D0nkey K0ng, Red Leopards, Slob, Mud Dogs, Seven Deadly Chins.
+- Singular beings: Belt Keeper, Duckhook, El Niño, The LLC.
+- TDS and Chili explicitly coexist across their division split.
+- El Niño may be embodied or, when explicitly resolved, the natural storm/disaster itself; not every storm is El Niño.
+- Burgers = burgers; Wings = **chicken wings**; Pizza = pizza.
+- Canonical machine World Engine records are JSON under `world/data/`; legacy YAML duplicates are supersession pointers only.
+- Renderers consume world data and never silently mutate canon.
 
-Memo OS and Living Novel consume the same World Engine location/state IDs rather than maintaining parallel geography.
-
-### World Engine / persistent Schemin geography
-Current controlling build: **WORLD ENGINE V1 — RELEASED / ACTIVE (2026-09-29)**.
-
-Read:
-- `world/SCHEMIN_WORLD_ENGINE_V1_RELEASE_RECEIPT.md`
-- `world/PRO_SCHEMIN_WORLD_BIBLE_V1.md`
-- `world/atlas/ATLAS_V1.md`
-- `world/state/WORLD_STATE_LEDGER_V1.md`
-- `world/divisions/BURGERS_DIVISION_INDEX_V1.md`
-- `world/divisions/WINGS_DIVISION_INDEX_V1.md`
-- `world/divisions/PIZZA_DIVISION_INDEX_V1.md`
-- `world/domains/OWNER_DOMAIN_REGISTER_V1.md`
-- `world/qa/WORLD_ENGINE_V1_ACCEPTANCE_REPORT.md`
-
-Rule: **world data is authoritative; renderers do not mutate canon**. Memo OS and Living Novel consume the same location IDs, division/domain relationships, travel rules and world-state ledger. Division food semantics are locked: Burgers = burgers, Wings = chicken wings, Pizza = pizza. Generated scenery remains non-canonical unless admitted through the Location Register / World State process.
+World Engine V1 remains historical release evidence and is superseded by V1.1 for current world production.
 
 ### Jack Mercer
 Read:
@@ -123,7 +122,7 @@ FLA Bullpen is a selective specialist/governance adapter. It is not a sixth Sche
 - Week 4 is the next Memo production cycle; use V5.5 rather than recreating Week 3 process manually.
 - Living Novel Week 3 is closed on the active Novel branch and carries a Week 3 → Week 4 state handoff.
 - Character Control Plane v2 is advancing but remains RELEASE_CANDIDATE / NOT ACTIVE.
-- Schemin World Engine V1 has completed the 12-phase build/QA cycle and becomes controlling persistent-world authority when merged to `main`.
+- Schemin World Engine V1.1 is RELEASED / ACTIVE on `main`; PR #29 closed the Encounter-geography, travel-graph and inhabitant-ontology gaps and repaired stale division assignments.
 - Repository is intentionally public by Commissioner decision; secrets/private-only material and Mercer-private intelligence remain prohibited from public committed surfaces.
 
 ## Non-negotiable execution rules
