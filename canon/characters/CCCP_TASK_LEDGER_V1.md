@@ -8,7 +8,7 @@
 |T02|Immutable owner IDs + alias normalization|Architect + League Historian|COMPLETE / PASS|
 |T03|Reference-asset authority manifest|Librarian + Visual Director|IDENTITY PASS / PORTABILITY HOLD|
 |T04|12 owner identity/Visual-DNA/invariant packages|Character Room|COMPLETE / PASS|
-|T05|Environment/object/companion linkage|Continuity Director|QUEUED|
+|T05|Environment/object/companion linkage|Continuity Director|AUTHORIZED / PLANNED|
 |T06|Deterministic resolver + supersession|Architect|QUEUED|
 |T07|Render Contract compiler|Visual Systems|QUEUED|
 |T08|Character QA contracts|Umpire/QA|QUEUED|
@@ -44,3 +44,11 @@ Commissioner supplied 12/12 owner-specific visual references. Exact source filen
 T04 package specifications exist for all 12 immutable owner IDs and passed structural retest 12/12 after an initial two-file omission was detected and fixed. See `T04_CHARACTER_PACKAGE_GATE_REPORT.md`.
 
 **CHARACTER DIRECTOR: PASS. CLOSER: T04 COMPLETE / PASS.**
+
+
+## Gap-closure program — 2026-09-29
+- G1 durable reference binaries: OPEN / closure contract defined. 12/12 approved source assets are fingerprinted; portable repo/asset-store URIs remain required.
+- G2 Austin Byars modernization: READY_FOR_VISUAL_DEVELOPMENT; identity-preserving brief committed.
+- G3 Phillip Pitts modernization: READY_FOR_VISUAL_DEVELOPMENT; identity-preserving brief committed.
+- T05–T16 senior execution/dependency plan committed at `CCCP_T05_T16_SENIOR_EXECUTION_PLAN_V1.md`.
+- T05 is authorized, but no later task may be represented as executed merely because its plan exists.
