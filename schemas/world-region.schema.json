@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemin26.local/schemas/world-region.schema.json",
+  "title": "Schemin World Region",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "canon_status",
+    "zone_type",
+    "adjacent_region_ids",
+    "environment"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^REG-[A-Z0-9-]+$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "canon_status": {
+      "enum": [
+        "LOCKED_CANON",
+        "INTERPRETIVE_CANON",
+        "PROPOSED_LORE",
+        "OPEN_TERRITORY",
+        "SUPERSEDED"
+      ]
+    },
+    "zone_type": {
+      "enum": [
+        "physical",
+        "civil",
+        "division",
+        "owner_domain",
+        "neutral"
+      ]
+    },
+    "adjacent_region_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "environment": {
+      "type": "object",
+      "required": [
+        "terrain",
+        "climate",
+        "movement"
+      ],
+      "properties": {
+        "terrain": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "climate": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "movement": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "abstract_bounds": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        }
+      ],
+      "minItems": 4,
+      "maxItems": 4
+    },
+    "provenance": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}
