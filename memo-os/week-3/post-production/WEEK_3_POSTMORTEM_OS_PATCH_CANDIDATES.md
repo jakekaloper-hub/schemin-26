@@ -1,0 +1,15 @@
+# WEEK 3 POSTMORTEM - OS PATCH CANDIDATES
+Status: CANDIDATES ONLY - NOT PERMANENT DOCTRINE
+
+|ID|Problem / evidence|Root cause|Proposed control|Workflow location|Test|Benefit|New risk|Recommendation|
+|---|---|---|---|---|---|---|---|---|
+|PC-01|DK structural drift shipped on multiple pages|final raster gate did not bind reference packet|Character QA attestation must reference raster hash + packet ID|CHARACTER_QA -> PAGE_LOCK|reject mismatched anatomy|stops attractive-but-wrong character art|more rejection cycles|ACCEPT|
+|PC-02|TDS haircut continuity reset on P3/P4|derived continuity state not attached at generation/acceptance|continuity state becomes required generation input and QA field|CONTINUITY_SCOPE|TDS POST state regression|prevents silent resets|state bookkeeping|ACCEPT|
+|PC-03|scores/ledgers rendered inside generated art|deterministic firewall not mechanically enforced|all numeric tables/scores/odds/records rendered by deterministic compositor after art|DETERMINISTIC_DATA_LAYER|pixel/text source map + source checksum|higher factual reliability|slightly more assembly work|ACCEPT|
+|PC-04|layout grammar repeats across matchup pages|story diversity exceeded composition diversity|issue-level composition quota: no single macro-layout >35% of pages|PAGE_MAP / ART_DIRECTION|layout-family count|reduces visual fatigue|quota can become artificial|ACCEPT with override|
+|PC-05|dense P16-P20 modules risk phone readability|desktop composition acceptance|mandatory 100%-device-scale mobile proof image before lock|MOBILE_QA|minimum text size + no-zoom read test|mobile-first release confidence|manual review cost|ACCEPT|
+|PC-06|approved raster provenance existed inconsistently|asset identity not universally durable|release manifest stores page number, file hash, dimensions, source, approval state|PAGE_LOCK / ASSEMBLY|21/21 hashes unique and present|prevents silent regeneration/duplication|metadata overhead|ACCEPT|
+|PC-07|GOTW + cover can overconcentrate one matchup|no issue-level exposure budget|Story Room explicitly budgets matchup exposures and requires reason for >2 pages|PAGE_MAP|exposure count|protects issue balance|may constrain exceptional stories|ACCEPT with editorial override|
+|PC-08|OS rules existed but were bypassed|PASS status could be declarative rather than evidentiary|gate cannot PASS without evidence pointer|all QA gates|missing evidence = hard fail|turns doctrine into enforcement|more formalism|ACCEPT - highest priority|
+|PC-09|final PDF may differ from approved masters|assembly audit not page-hash aware|render final PDF and compare each page to locked master perceptually + by dimensions|RENDER_AUDIT|21-page render diff|catches assembly mutation|compute time|ACCEPT|
+|PC-10|facts and editorial rankings can visually blur|information hierarchy|persistent labels: FACT / MEMO VIEW / EDITORIAL / COMMISSIONER-SUPPLIED where relevant in source layer|DATA DESIGN|classification present in manifest|better provenance|too much visible labeling if exposed|ACCEPT internally; selective visible use|
