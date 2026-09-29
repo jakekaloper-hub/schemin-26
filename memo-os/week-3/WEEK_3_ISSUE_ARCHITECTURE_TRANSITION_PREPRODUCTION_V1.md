@@ -201,3 +201,65 @@ DIVISION MAP/STANDINGS/POWER = consequences
 WEEK4 = horizon
 PITTY/WAIVERS = market
 CLOSING = memory + forward motion
+
+
+# 15. WEEK 3 MASTER CHARACTER REFERENCE — COMMISSIONER HARD LOCK
+
+**Commissioner directive:** Every character rendered anywhere in Week 3 production MUST resolve visually to the supplied 12-owner lineup PNG. This is a release-blocking requirement.
+
+**Conversation asset:** `ChatGPT Image Sep 27, 2026 at 02_40_26 PM(4).png`
+**Conversation file ID:** `file_00000000f09481f5aa50c1700bb59553`
+**Working-session mounted path:** `/mnt/data/ChatGPT Image Sep 27, 2026 at 02_40_26 PM(4).png`
+
+The PNG is the visual source of truth. Written canon may explain identity/continuity but MUST NOT reinterpret visible anatomy, species, silhouette, face/head construction, wardrobe language, palette, equipment, or companions shown here.
+
+## Reference audit — 12 immutable base appearances
+1. **ObiWan Jacoby / The Trade Jedi** — youthful blond human; earth-tone Jedi/field clothing; green energy sword; golden retriever companion. No championship belt.
+2. **Red Leopards / The Predator Board** — towering anthropomorphic red leopard; red fur with black rosettes; feline head/anatomy; heavy black/red/gold armor; large intimidating predator silhouette.
+3. **Slob on my Dobb / Win Ugly** — heavyset shaggy bearded human brute; horned headgear; dirty sleeveless shirt; bat/club; beer; bulldog companion; deliberately unpolished silhouette.
+4. **The LLC / Hostile Takeover** — clean human corporate raider; black/dark suit; white shirt; sunglasses; cigar; black LLC briefcase; controlled executive silhouette.
+5. **D0nkey K0ng / The Philosopher-Warrior** — Arsenal-red **centaur**: human warrior torso joined anatomically to a full horse body; blond/light hair; red Arsenal-style kit/armor; battle axe and tankard. Never gorilla, ape, ordinary horse-rider, or human-only warrior.
+6. **Three Dreaded Snake / The Podium Shadow** — ONE green/gold reptilian humanoid; elongated reptile head/scales; athletic humanoid body; green/gold #3 identity; dreadlock-like head treatment in the base plate. Week 3 story appearances apply the separately approved **POST-HAIRCUT continuity overlay** while preserving every other visible identity feature. Never three snakes, multi-headed, Medusa, or human.
+7. **The Chili Cheesers / The Chili Outlaw** — bearded human Western outlaw/pitmaster; black cowboy hat with chili/red accents; sunglasses; black/red Western layers; chili bowl/food motif; dark horse companion **The Dark Horse**.
+8. **El Niño / The Weather System** — nonhuman blue-white storm elemental; humanoid weather/vapor body; luminous eyes; cloud/lightning/water spiral anatomy. Never an ordinary human, child, chef, surfer, or generic wizard.
+9. **His Majesty's Blood / The Belt Keeper** — corpse-pale immortal human champion; long black hair; black rune/gothic armor; black rune sword; championship belt at waist; dark medieval silhouette.
+10. **Mud Dogs / Swamp-Born Menace** — enormous mud-soaked monstrous canine/wolf creature; dark muddy fur; blue/orange accents; chain; exaggerated canine jaws/teeth; swamp-monster anatomy. Never a human football player or ordinary pet dog.
+11. **Dr. Duckhook / King of the Impossible Lie** — anthropomorphic white duck; orange bill; white feather anatomy; bucket hat; green/orange patterned golf attire; golf club/equipment. Never human golfer.
+12. **Seven Deadly Chins / The People's Champ** — very large heavyset bearded human; dirty white sleeveless/tank top; trucker cap; tattoos; large hammer; 40-ounce bottle; raccoon companion; rough redneck silhouette.
+
+## Scene adaptation rule
+Characters may be posed, wet, muddy, exhausted, driving vehicles, swimming, racing, surrendering, fighting, sitting, or wearing scene-required safety/utility additions, but the underlying canonical body/species/face/silhouette must remain recognizable from this plate alone.
+
+Examples for currently planned Week 3 pages:
+- DK battlefield/cover = the exact Arsenal Centaur body, not a mounted knight.
+- Mud Dogs battlefield = canonical giant swamp canine(s); if multiple defeated Mud Dog figures are used symbolically, the primary Mud Dogs character must remain visually canonical and identifiable.
+- Red Leopards alpine race = exact anthropomorphic red leopard, not a human runner or generic leopard.
+- Slob alpine race = exact heavy human brute with his established facial/body identity; athletic context must not slim/recast him.
+- HMB race-car chapter = HMB remains corpse-pale black-haired Belt Keeper; vehicle may inherit rune language, but car must not replace character identity.
+- Seven Deadly Chins race-car chapter = exact heavy bearded human/redneck identity; race suit/helmet may supplement but not conceal identity beyond recognition.
+- LLC storm chapter = exact suited corporate raider.
+- El Niño storm chapter = exact nonhuman storm elemental.
+- ObiWan lake = exact blond Trade Jedi; no belt.
+- TDS lake = exact reptilian humanoid plus post-haircut Week 3 overlay.
+- Chili/Duckhook = approved final pages already establish acceptable canonical presentation.
+
+## Mandatory generation and QA chain
+For EVERY character-bearing Week 3 page:
+`REFERENCE_RESOLUTION → CHARACTER_PACKET → CONTINUITY_OVERLAY → REFERENCE-ATTACHED GENERATION → CHARACTER_QA → PAGE_QA`
+
+**Binary gate:** if a rendered character would not be immediately identifiable as the corresponding numbered figure in this PNG with labels removed, CHARACTER_QA = FAIL and the page cannot lock.
+
+Forbidden workflow: prompting from team name alone, relying on memory alone, substituting genre archetypes, or allowing scene concept to overwrite canon.
+
+## Production consequence
+This reference lock applies to:
+- cover;
+- all matchup pages;
+- any character-bearing transition art;
+- Week 4 preview/GOTW art;
+- Pitty/Waiver character cameos;
+- closing art if characters appear.
+
+For Divisional Map/standings/power pages, prefer heraldry or verified crops when full characters are unnecessary to reduce drift.
+
+**This reference is indivisible from the Week 3 production packet and supersedes any conflicting visual description.**
