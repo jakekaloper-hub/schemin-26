@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "events": [
+    {
+      "id": "EVT-W2-LLC-INTRUSION",
+      "week": 2,
+      "location_id": "LOC-LLC-BOARDROOM",
+      "event_type": "damage",
+      "classification": "NARRATIVE_INTERPRETATION",
+      "entering_state": [
+        "operational boardroom"
+      ],
+      "continuity_out": [
+        "intrusion/destruction history",
+        "future reuse may show repair or scars"
+      ],
+      "source_provenance": [
+        "memo-os/week-3/WEEK_3_VISUAL_CALLBACK_AND_CONTINUITY_INVENTORY_V1.md"
+      ]
+    },
+    {
+      "id": "EVT-W3-BRIDGE",
+      "week": 3,
+      "location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "event_type": "encounter",
+      "classification": "WORLD_CANON",
+      "entering_state": [
+        "bridge and lake intact"
+      ],
+      "continuity_out": [
+        "remembered decision landmark",
+        "no physical destruction required"
+      ],
+      "source_provenance": [
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ]
+    },
+    {
+      "id": "EVT-W3-MIRE-HILL",
+      "week": 3,
+      "location_id": "LOC-DK-MUD-HILL",
+      "event_type": "scar",
+      "classification": "WORLD_CANON",
+      "entering_state": [
+        "active battlefield/mire"
+      ],
+      "continuity_out": [
+        "scarred hill",
+        "yield memory",
+        "discarded standards/debris may persist until cleanup"
+      ],
+      "source_provenance": [
+        "memo-os/post-production/WORLD_STATE_CONTINUITY_LEDGER_V1_CANDIDATE.md",
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ]
+    },
+    {
+      "id": "EVT-W3-COUNTRY-CLUB-CHILI",
+      "week": 3,
+      "location_id": "LOC-COUNTRY-CLUB-JACKSON",
+      "event_type": "contamination",
+      "classification": "WORLD_CANON",
+      "entering_state": [
+        "maintained country club"
+      ],
+      "continuity_out": [
+        "chili contamination/humiliation history",
+        "cleanup required before pristine reset"
+      ],
+      "source_provenance": [
+        "memo-os/post-production/WORLD_STATE_CONTINUITY_LEDGER_V1_CANDIDATE.md",
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ]
+    },
+    {
+      "id": "EVT-W3-ALPINE-WAGER",
+      "week": 3,
+      "location_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "event_type": "memorialization",
+      "classification": "WORLD_CANON",
+      "entering_state": [
+        "open alpine route"
+      ],
+      "continuity_out": [
+        "wager/summit receipt landmark"
+      ],
+      "source_provenance": [
+        "memo-os/post-production/WORLD_STATE_CONTINUITY_LEDGER_V1_CANDIDATE.md"
+      ]
+    },
+    {
+      "id": "EVT-W3-SPEEDWAY",
+      "week": 3,
+      "location_id": "LOC-SOUTHERN-SPEEDWAY",
+      "event_type": "encounter",
+      "classification": "WORLD_CANON",
+      "entering_state": [
+        "race venue active"
+      ],
+      "continuity_out": [
+        "HMB/Chins survival-race history"
+      ],
+      "source_provenance": [
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ]
+    },
+    {
+      "id": "EVT-W3-LLC-STORM",
+      "week": 3,
+      "location_id": "LOC-LLC-STORM-CITY",
+      "event_type": "weather",
+      "classification": "WORLD_CANON",
+      "entering_state": [
+        "mercantile district operational"
+      ],
+      "continuity_out": [
+        "major weather event remembered",
+        "storm-protection works become continuity object"
+      ],
+      "source_provenance": [
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ]
+    }
+  ]
+}
