@@ -356,6 +356,25 @@
         "living-novel/world/PHYSICAL_WORLD.md",
         "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
       ]
+    },
+    {
+      "id": "ROUTE-ARCHIVE-CHAMBER",
+      "name": "Archive–Chamber Processional",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "LOCAL",
+      "from": "LOC-LEAGUE-ARCHIVE",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "constraints": [
+        "institutional traffic"
+      ],
+      "source_provenance": [
+        "world/SCHEMIN_WORLD_BIBLE_ARCHIVE_AND_RECORDS_V1.md"
+      ]
     }
   ]
 }
