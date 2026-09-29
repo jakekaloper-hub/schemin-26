@@ -1,24 +1,642 @@
 {
-  "version": "1.0",
-  "status": "SEED_NOT_FULL_MAP",
-  "rule": "Only approved edges may support deterministic travel-time assertions.",
+  "version": "1.1",
+  "status": "ACTIVE_WORLD_ENGINE_V1_1",
+  "authority": "world/data/locations.json + world/data/routes.json",
+  "rule": "Only approved graph paths may support deterministic travel assertions. min_hours are conservative narrative lower bounds, not metric travel promises.",
+  "time_model": "NARRATIVE_LOWER_BOUND_NON_METRIC",
   "nodes": {
-    "ARCHIVE": {
-      "type": "institution"
+    "LOC-TRADE-JEDI-MOUNTAIN-BASE": {
+      "type": "owner_base",
+      "name": "Trade Jedi Mountain Base",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "division_id": "DIV-BURGERS",
+      "owner_character_id": "CHAR-JAKE-KALOPER"
     },
-    "BELT_KEEPER_FORTRESS": {
-      "type": "domain"
+    "LOC-MUD-DOGS-SWAMP": {
+      "type": "owner_domain",
+      "name": "Mud Dogs Swamp",
+      "physical_zone_id": "REG-SOUTHERN-WETLANDS",
+      "division_id": "DIV-BURGERS",
+      "owner_character_id": "CHAR-BOBBY-MITCHELL"
     },
-    "TRADE_JEDI_MOUNTAINS": {
-      "type": "domain"
+    "LOC-COUNTRY-CLUB-JACKSON": {
+      "type": "club_estate",
+      "name": "Country Club of Jackson",
+      "physical_zone_id": "REG-SOUTHERN-WETLANDS",
+      "division_id": "DIV-WINGS",
+      "owner_character_id": "CHAR-ZACH-WILSON"
     },
-    "TDS_JUNGLE": {
-      "type": "domain"
+    "LOC-ARSENAL-BARBERSHOP": {
+      "type": "market_town_shop",
+      "name": "Arsenal Barbershop",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "division_id": "DIV-BURGERS",
+      "owner_character_id": "CHAR-WILSON-LOOK"
     },
-    "DUCKHOOK_WATER": {
-      "type": "domain"
+    "LOC-STORM-BOWL": {
+      "type": "encounter_venue",
+      "name": "Storm Bowl",
+      "physical_zone_id": "REG-EASTERN-STORM-COAST",
+      "division_id": "DIV-PIZZA",
+      "owner_character_id": "CHAR-MANNING-WELTY"
+    },
+    "LOC-LLC-BOARDROOM": {
+      "type": "owner_headquarters",
+      "name": "LLC Mercantile Boardroom",
+      "physical_zone_id": "REG-INNER-SEA-LITTORAL",
+      "division_id": "DIV-PIZZA",
+      "owner_character_id": "CHAR-DAVID-BABB"
+    },
+    "LOC-RED-RUINS": {
+      "type": "owner_domain",
+      "name": "Red Leopard Ruins",
+      "physical_zone_id": "REG-EASTERN-STORM-COAST",
+      "division_id": "DIV-WINGS",
+      "owner_character_id": "CHAR-KEVIN-ZEEK"
+    },
+    "LOC-TDS-WATERFALL-TEMPLE": {
+      "type": "owner_domain",
+      "name": "Podium Shadow Waterfall Temple",
+      "physical_zone_id": "REG-SOUTHERN-WETLANDS",
+      "division_id": "DIV-BURGERS",
+      "owner_character_id": "CHAR-PHILLIP-PITTS"
+    },
+    "LOC-CHILI-STABLE": {
+      "type": "owner_base",
+      "name": "Chili Outlaw Stable",
+      "physical_zone_id": "REG-WESTERN-TABLELANDS",
+      "division_id": "DIV-WINGS",
+      "owner_character_id": "CHAR-BRANDON-PRYOR"
+    },
+    "LOC-BELT-KEEPER-KEEP": {
+      "type": "owner_base",
+      "name": "Belt Keeper Rune Keep",
+      "physical_zone_id": "REG-EASTERN-STORM-COAST",
+      "division_id": "DIV-PIZZA",
+      "owner_character_id": "CHAR-AUSTIN-BYARS"
+    },
+    "LOC-SLOB-FOOTHILL-CAMP": {
+      "type": "owner_base",
+      "name": "Slob Foothill Camp",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "division_id": "DIV-WINGS",
+      "owner_character_id": "CHAR-JORDAN-HOLLINGSHEAD"
+    },
+    "LOC-CHINS-ROAD-COMMONS": {
+      "type": "owner_base",
+      "name": "People's Champ Road Commons",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": "DIV-PIZZA",
+      "owner_character_id": "CHAR-BEN-WHIPPLE"
+    },
+    "LOC-LEAGUE-CHAMBER": {
+      "type": "league_institution",
+      "name": "League Chamber",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": null,
+      "owner_character_id": null
+    },
+    "LOC-PITTSYS-BOOK": {
+      "type": "league_commercial_institution",
+      "name": "Pittsy's Book",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": null,
+      "owner_character_id": "CHAR-PHILLIP-PITTS"
+    },
+    "LOC-BRIDGE-MOUNTAIN-LAKE": {
+      "type": "encounter_landmark",
+      "name": "Bridge at the Mountain Lake",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "division_id": "DIV-BURGERS",
+      "owner_character_id": null
+    },
+    "LOC-DK-MUD-HILL": {
+      "type": "encounter_site",
+      "name": "Mire Hill Battlefield",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": "DIV-BURGERS",
+      "owner_character_id": null
+    },
+    "LOC-RED-SLOB-ALPINE-ROUTE": {
+      "type": "encounter_route",
+      "name": "Alpine Wager Route",
+      "physical_zone_id": "REG-NORTHERN-SPINE",
+      "division_id": "DIV-WINGS",
+      "owner_character_id": null
+    },
+    "LOC-SOUTHERN-SPEEDWAY": {
+      "type": "encounter_venue",
+      "name": "Southern Speedway",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": "DIV-PIZZA",
+      "owner_character_id": null
+    },
+    "LOC-LLC-STORM-CITY": {
+      "type": "city_district",
+      "name": "LLC Port City Storm District",
+      "physical_zone_id": "REG-INNER-SEA-LITTORAL",
+      "division_id": "DIV-PIZZA",
+      "owner_character_id": "CHAR-DAVID-BABB"
+    },
+    "LOC-DK-HIGHLAND-STRONGHOLD": {
+      "type": "owner_base",
+      "name": "D0nkey K0ng Highland Stronghold",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "division_id": "DIV-BURGERS",
+      "owner_character_id": "CHAR-WILSON-LOOK"
+    },
+    "LOC-TDS-CHILI-SHARED-MARCH": {
+      "type": "shared_cross_division_settlement_corridor",
+      "name": "TDS–Chili Shared March",
+      "physical_zone_id": "REG-WESTERN-TABLELANDS",
+      "division_id": null,
+      "owner_character_id": null
+    },
+    "LOC-COMPACT-NEUTRAL-GROUNDS": {
+      "type": "neutral_encounter_ground",
+      "name": "Compact Neutral Grounds",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": null,
+      "owner_character_id": null
+    },
+    "LOC-LEAGUE-ARCHIVE": {
+      "type": "neutral_institution",
+      "name": "League Archive",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": null,
+      "owner_character_id": null
     }
   },
-  "edges": [],
-  "note": "Prologue uses cross-cut simultaneity rather than asserted inter-domain travel; distances remain unresolved until World Geography authority defines them."
+  "legacy_aliases": {
+    "ARCHIVE": "LOC-LEAGUE-ARCHIVE",
+    "BELT_KEEPER_FORTRESS": "LOC-BELT-KEEPER-KEEP",
+    "TRADE_JEDI_MOUNTAINS": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+    "TDS_JUNGLE": "LOC-TDS-WATERFALL-TEMPLE",
+    "DUCKHOOK_WATER": "LOC-COUNTRY-CLUB-JACKSON"
+  },
+  "edges": [
+    {
+      "from": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "route_id": "ROUTE-EASTERN-ASCENT",
+      "route_class": "REGIONAL",
+      "min_hours": 6,
+      "bidirectional": true
+    },
+    {
+      "from": "LOC-ARSENAL-BARBERSHOP",
+      "to": "LOC-SLOB-FOOTHILL-CAMP",
+      "route_id": "ROUTE-HEARTHROAD",
+      "route_class": "REGIONAL",
+      "min_hours": 3,
+      "bidirectional": true
+    },
+    {
+      "from": "LOC-SLOB-FOOTHILL-CAMP",
+      "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "route_id": "ROUTE-HEARTHROAD",
+      "route_class": "REGIONAL",
+      "min_hours": 3,
+      "bidirectional": true
+    },
+    {
+      "from": "LOC-MUD-DOGS-SWAMP",
+      "to": "LOC-COUNTRY-CLUB-JACKSON",
+      "route_id": "ROUTE-DELTA-CAUSEWAY",
+      "route_class": "CROSS_DIVISION",
+      "min_hours": 12,
+      "bidirectional": true
+    },
+    {
+      "from": "LOC-COUNTRY-CLUB-JACKSON",
+      "to": "LOC-CHINS-ROAD-COMMONS",
+      "route_id": "ROUTE-JACKSON-LEVEE",
+      "route_class": "CROSS_DIVISION",
+      "min_hours": 12,
+      "bidirectional": true
+    },
+    {
+      "from": "LOC-STORM-BOWL",
+      "to": "LOC-LLC-STORM-CITY",
+      "route_id": "ROUTE-STORM-COAST",
+      "route_class": "REGIONAL",
+      "min_hours": 6,
+      "bidirectional": true
+    },
+    {
+      "from": "LOC-LLC-BOARDROOM",
+      "to": "LOC-LLC-STORM-CITY",
+      "route_id": "ROUTE-INNER-SEA-QUAY",
+      "route_class": "LOCAL",
+      "min_hours": 1,
+      "bidirectional": true
+    },
+    {
+      "from": "LOC-RED-RUINS",
+      "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "route_id": "ROUTE-RAIN-ESCARPMENT",
+      "route_class": "CROSS_DIVISION",
+      "min_hours": 12,
+      "bidirectional": true
+    },
+    {
+      "from": "LOC-TDS-WATERFALL-TEMPLE",
+      "to": "LOC-MUD-DOGS-SWAMP",
+      "route_id": "ROUTE-FALLS-PATH",
+      "route_class": "REGIONAL",
+      "min_hours": 6,
+      "bidirectional": true
+    },
+    {
+      "from": "LOC-CHILI-STABLE",
+      "to": "LOC-CHINS-ROAD-COMMONS",
+      "route_id": "ROUTE-WESTERN-RANGE",
+      "route_class": "CROSS_DIVISION",
+      "min_hours": 12,
+      "bidirectional": true
+    },
+    {
+      "from": "LOC-BELT-KEEPER-KEEP",
+      "to": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "route_id": "ROUTE-BLACK-CLIFF",
+      "route_class": "CROSS_DIVISION",
+      "min_hours": 12,
+      "bidirectional": true
+    },
+    {
+      "from": "LOC-CHINS-ROAD-COMMONS",
+      "to": "LOC-PITTSYS-BOOK",
+      "route_id": "ROUTE-BASIN-MARKET",
+      "route_class": "LOCAL",
+      "min_hours": 1,
+      "bidirectional": true
+    },
+    {
+      "from": "LOC-PITTSYS-BOOK",
+      "to": "LOC-SOUTHERN-SPEEDWAY",
+      "route_id": "ROUTE-BASIN-MARKET",
+      "route_class": "LOCAL",
+      "min_hours": 1,
+      "bidirectional": true
+    },
+    {
+      "from": "LOC-SOUTHERN-SPEEDWAY",
+      "to": "LOC-DK-MUD-HILL",
+      "route_id": "ROUTE-BASIN-MARKET",
+      "route_class": "LOCAL",
+      "min_hours": 1,
+      "bidirectional": true
+    },
+    {
+      "from": "LOC-DK-MUD-HILL",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "route_id": "ROUTE-BASIN-MARKET",
+      "route_class": "LOCAL",
+      "min_hours": 1,
+      "bidirectional": true
+    },
+    {
+      "from": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "to": "LOC-ARSENAL-BARBERSHOP",
+      "route_id": "ROUTE-NORTHERN-PASS",
+      "route_class": "EXPEDITION",
+      "min_hours": 24,
+      "bidirectional": true
+    },
+    {
+      "from": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "to": "LOC-ARSENAL-BARBERSHOP",
+      "route_id": "ROUTE-DK-HIGHLAND-LINK",
+      "route_class": "LOCAL",
+      "min_hours": 1,
+      "bidirectional": true
+    },
+    {
+      "from": "LOC-TDS-WATERFALL-TEMPLE",
+      "to": "LOC-TDS-CHILI-SHARED-MARCH",
+      "route_id": "ROUTE-TDS-CHILI-SHARED-MARCH",
+      "route_class": "CROSS_DIVISION",
+      "min_hours": 6,
+      "bidirectional": true
+    },
+    {
+      "from": "LOC-TDS-CHILI-SHARED-MARCH",
+      "to": "LOC-CHILI-STABLE",
+      "route_id": "ROUTE-TDS-CHILI-SHARED-MARCH",
+      "route_class": "CROSS_DIVISION",
+      "min_hours": 6,
+      "bidirectional": true
+    },
+    {
+      "from": "LOC-LEAGUE-CHAMBER",
+      "to": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "route_id": "ROUTE-COMPACT-GROUNDS",
+      "route_class": "LOCAL",
+      "min_hours": 1,
+      "bidirectional": true
+    },
+    {
+      "from": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "route_id": "ROUTE-UPPER-BASIN-CONNECTOR",
+      "route_class": "REGIONAL",
+      "min_hours": 6,
+      "bidirectional": true
+    },
+    {
+      "from": "LOC-LLC-STORM-CITY",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "route_id": "ROUTE-PORT-BASIN-CONNECTOR",
+      "route_class": "REGIONAL",
+      "min_hours": 6,
+      "bidirectional": true
+    },
+    {
+      "from": "LOC-LEAGUE-ARCHIVE",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "route_id": "ROUTE-ARCHIVE-CHAMBER",
+      "route_class": "LOCAL",
+      "min_hours": 1,
+      "bidirectional": true
+    }
+  ],
+  "graph": {
+    "LOC-TRADE-JEDI-MOUNTAIN-BASE": {
+      "LOC-BRIDGE-MOUNTAIN-LAKE": {
+        "min_hours": 6,
+        "route_id": "ROUTE-EASTERN-ASCENT",
+        "route_class": "REGIONAL"
+      },
+      "LOC-BELT-KEEPER-KEEP": {
+        "min_hours": 12,
+        "route_id": "ROUTE-BLACK-CLIFF",
+        "route_class": "CROSS_DIVISION"
+      }
+    },
+    "LOC-BRIDGE-MOUNTAIN-LAKE": {
+      "LOC-TRADE-JEDI-MOUNTAIN-BASE": {
+        "min_hours": 6,
+        "route_id": "ROUTE-EASTERN-ASCENT",
+        "route_class": "REGIONAL"
+      },
+      "LOC-SLOB-FOOTHILL-CAMP": {
+        "min_hours": 3,
+        "route_id": "ROUTE-HEARTHROAD",
+        "route_class": "REGIONAL"
+      },
+      "LOC-RED-RUINS": {
+        "min_hours": 12,
+        "route_id": "ROUTE-RAIN-ESCARPMENT",
+        "route_class": "CROSS_DIVISION"
+      },
+      "LOC-LEAGUE-CHAMBER": {
+        "min_hours": 6,
+        "route_id": "ROUTE-UPPER-BASIN-CONNECTOR",
+        "route_class": "REGIONAL"
+      }
+    },
+    "LOC-ARSENAL-BARBERSHOP": {
+      "LOC-SLOB-FOOTHILL-CAMP": {
+        "min_hours": 3,
+        "route_id": "ROUTE-HEARTHROAD",
+        "route_class": "REGIONAL"
+      },
+      "LOC-RED-SLOB-ALPINE-ROUTE": {
+        "min_hours": 24,
+        "route_id": "ROUTE-NORTHERN-PASS",
+        "route_class": "EXPEDITION"
+      },
+      "LOC-DK-HIGHLAND-STRONGHOLD": {
+        "min_hours": 1,
+        "route_id": "ROUTE-DK-HIGHLAND-LINK",
+        "route_class": "LOCAL"
+      }
+    },
+    "LOC-SLOB-FOOTHILL-CAMP": {
+      "LOC-ARSENAL-BARBERSHOP": {
+        "min_hours": 3,
+        "route_id": "ROUTE-HEARTHROAD",
+        "route_class": "REGIONAL"
+      },
+      "LOC-BRIDGE-MOUNTAIN-LAKE": {
+        "min_hours": 3,
+        "route_id": "ROUTE-HEARTHROAD",
+        "route_class": "REGIONAL"
+      }
+    },
+    "LOC-MUD-DOGS-SWAMP": {
+      "LOC-COUNTRY-CLUB-JACKSON": {
+        "min_hours": 12,
+        "route_id": "ROUTE-DELTA-CAUSEWAY",
+        "route_class": "CROSS_DIVISION"
+      },
+      "LOC-TDS-WATERFALL-TEMPLE": {
+        "min_hours": 6,
+        "route_id": "ROUTE-FALLS-PATH",
+        "route_class": "REGIONAL"
+      }
+    },
+    "LOC-COUNTRY-CLUB-JACKSON": {
+      "LOC-MUD-DOGS-SWAMP": {
+        "min_hours": 12,
+        "route_id": "ROUTE-DELTA-CAUSEWAY",
+        "route_class": "CROSS_DIVISION"
+      },
+      "LOC-CHINS-ROAD-COMMONS": {
+        "min_hours": 12,
+        "route_id": "ROUTE-JACKSON-LEVEE",
+        "route_class": "CROSS_DIVISION"
+      }
+    },
+    "LOC-CHINS-ROAD-COMMONS": {
+      "LOC-COUNTRY-CLUB-JACKSON": {
+        "min_hours": 12,
+        "route_id": "ROUTE-JACKSON-LEVEE",
+        "route_class": "CROSS_DIVISION"
+      },
+      "LOC-CHILI-STABLE": {
+        "min_hours": 12,
+        "route_id": "ROUTE-WESTERN-RANGE",
+        "route_class": "CROSS_DIVISION"
+      },
+      "LOC-PITTSYS-BOOK": {
+        "min_hours": 1,
+        "route_id": "ROUTE-BASIN-MARKET",
+        "route_class": "LOCAL"
+      }
+    },
+    "LOC-STORM-BOWL": {
+      "LOC-LLC-STORM-CITY": {
+        "min_hours": 6,
+        "route_id": "ROUTE-STORM-COAST",
+        "route_class": "REGIONAL"
+      }
+    },
+    "LOC-LLC-STORM-CITY": {
+      "LOC-STORM-BOWL": {
+        "min_hours": 6,
+        "route_id": "ROUTE-STORM-COAST",
+        "route_class": "REGIONAL"
+      },
+      "LOC-LLC-BOARDROOM": {
+        "min_hours": 1,
+        "route_id": "ROUTE-INNER-SEA-QUAY",
+        "route_class": "LOCAL"
+      },
+      "LOC-LEAGUE-CHAMBER": {
+        "min_hours": 6,
+        "route_id": "ROUTE-PORT-BASIN-CONNECTOR",
+        "route_class": "REGIONAL"
+      }
+    },
+    "LOC-LLC-BOARDROOM": {
+      "LOC-LLC-STORM-CITY": {
+        "min_hours": 1,
+        "route_id": "ROUTE-INNER-SEA-QUAY",
+        "route_class": "LOCAL"
+      }
+    },
+    "LOC-RED-RUINS": {
+      "LOC-BRIDGE-MOUNTAIN-LAKE": {
+        "min_hours": 12,
+        "route_id": "ROUTE-RAIN-ESCARPMENT",
+        "route_class": "CROSS_DIVISION"
+      }
+    },
+    "LOC-TDS-WATERFALL-TEMPLE": {
+      "LOC-MUD-DOGS-SWAMP": {
+        "min_hours": 6,
+        "route_id": "ROUTE-FALLS-PATH",
+        "route_class": "REGIONAL"
+      },
+      "LOC-TDS-CHILI-SHARED-MARCH": {
+        "min_hours": 6,
+        "route_id": "ROUTE-TDS-CHILI-SHARED-MARCH",
+        "route_class": "CROSS_DIVISION"
+      }
+    },
+    "LOC-CHILI-STABLE": {
+      "LOC-CHINS-ROAD-COMMONS": {
+        "min_hours": 12,
+        "route_id": "ROUTE-WESTERN-RANGE",
+        "route_class": "CROSS_DIVISION"
+      },
+      "LOC-TDS-CHILI-SHARED-MARCH": {
+        "min_hours": 6,
+        "route_id": "ROUTE-TDS-CHILI-SHARED-MARCH",
+        "route_class": "CROSS_DIVISION"
+      }
+    },
+    "LOC-BELT-KEEPER-KEEP": {
+      "LOC-TRADE-JEDI-MOUNTAIN-BASE": {
+        "min_hours": 12,
+        "route_id": "ROUTE-BLACK-CLIFF",
+        "route_class": "CROSS_DIVISION"
+      }
+    },
+    "LOC-PITTSYS-BOOK": {
+      "LOC-CHINS-ROAD-COMMONS": {
+        "min_hours": 1,
+        "route_id": "ROUTE-BASIN-MARKET",
+        "route_class": "LOCAL"
+      },
+      "LOC-SOUTHERN-SPEEDWAY": {
+        "min_hours": 1,
+        "route_id": "ROUTE-BASIN-MARKET",
+        "route_class": "LOCAL"
+      }
+    },
+    "LOC-SOUTHERN-SPEEDWAY": {
+      "LOC-PITTSYS-BOOK": {
+        "min_hours": 1,
+        "route_id": "ROUTE-BASIN-MARKET",
+        "route_class": "LOCAL"
+      },
+      "LOC-DK-MUD-HILL": {
+        "min_hours": 1,
+        "route_id": "ROUTE-BASIN-MARKET",
+        "route_class": "LOCAL"
+      }
+    },
+    "LOC-DK-MUD-HILL": {
+      "LOC-SOUTHERN-SPEEDWAY": {
+        "min_hours": 1,
+        "route_id": "ROUTE-BASIN-MARKET",
+        "route_class": "LOCAL"
+      },
+      "LOC-LEAGUE-CHAMBER": {
+        "min_hours": 1,
+        "route_id": "ROUTE-BASIN-MARKET",
+        "route_class": "LOCAL"
+      }
+    },
+    "LOC-LEAGUE-CHAMBER": {
+      "LOC-DK-MUD-HILL": {
+        "min_hours": 1,
+        "route_id": "ROUTE-BASIN-MARKET",
+        "route_class": "LOCAL"
+      },
+      "LOC-COMPACT-NEUTRAL-GROUNDS": {
+        "min_hours": 1,
+        "route_id": "ROUTE-COMPACT-GROUNDS",
+        "route_class": "LOCAL"
+      },
+      "LOC-BRIDGE-MOUNTAIN-LAKE": {
+        "min_hours": 6,
+        "route_id": "ROUTE-UPPER-BASIN-CONNECTOR",
+        "route_class": "REGIONAL"
+      },
+      "LOC-LLC-STORM-CITY": {
+        "min_hours": 6,
+        "route_id": "ROUTE-PORT-BASIN-CONNECTOR",
+        "route_class": "REGIONAL"
+      },
+      "LOC-LEAGUE-ARCHIVE": {
+        "min_hours": 1,
+        "route_id": "ROUTE-ARCHIVE-CHAMBER",
+        "route_class": "LOCAL"
+      }
+    },
+    "LOC-RED-SLOB-ALPINE-ROUTE": {
+      "LOC-ARSENAL-BARBERSHOP": {
+        "min_hours": 24,
+        "route_id": "ROUTE-NORTHERN-PASS",
+        "route_class": "EXPEDITION"
+      }
+    },
+    "LOC-DK-HIGHLAND-STRONGHOLD": {
+      "LOC-ARSENAL-BARBERSHOP": {
+        "min_hours": 1,
+        "route_id": "ROUTE-DK-HIGHLAND-LINK",
+        "route_class": "LOCAL"
+      }
+    },
+    "LOC-TDS-CHILI-SHARED-MARCH": {
+      "LOC-TDS-WATERFALL-TEMPLE": {
+        "min_hours": 6,
+        "route_id": "ROUTE-TDS-CHILI-SHARED-MARCH",
+        "route_class": "CROSS_DIVISION"
+      },
+      "LOC-CHILI-STABLE": {
+        "min_hours": 6,
+        "route_id": "ROUTE-TDS-CHILI-SHARED-MARCH",
+        "route_class": "CROSS_DIVISION"
+      }
+    },
+    "LOC-COMPACT-NEUTRAL-GROUNDS": {
+      "LOC-LEAGUE-CHAMBER": {
+        "min_hours": 1,
+        "route_id": "ROUTE-COMPACT-GROUNDS",
+        "route_class": "LOCAL"
+      }
+    },
+    "LOC-LEAGUE-ARCHIVE": {
+      "LOC-LEAGUE-CHAMBER": {
+        "min_hours": 1,
+        "route_id": "ROUTE-ARCHIVE-CHAMBER",
+        "route_class": "LOCAL"
+      }
+    }
+  },
+  "note": "Hydrated from World Engine V1.1. Home/neutral venue selection is governed separately by world/data/encounter_venue_policy.json."
 }
