@@ -1,5 +1,5 @@
 # Schemin '26 Organizational Ratification V1
-status: CONDITIONAL_RATIFICATION_CANDIDATE
+status: RATIFIED_FOR_SCHEMIN_PROJECT_GOVERNANCE
 phase: 10
 
 ## Board recommendation
@@ -21,12 +21,12 @@ Do not create a 19th universal Director on current evidence.
 - shared truth/canon/world context across Memo and Novel.
 - Mercer firewall preserved.
 
-## Conditions before ACTIVE
-1. Branch CI including test_org_design_contract.py must pass.
-2. Review current PR #32 so organizational contracts do not conflict with character-lock runtime repair.
-3. Reconcile any newer main changes before merge.
-4. Umpire confirms no P0/P1 organizational defect.
-5. Jake approves promotion of Schemin-specific operating model.
+## Ratification evidence
+1. Branch and PR-triggered Bullpen Runtime CI: PASS on head 2c5760d27ef13a84d97727c7509440dc837b671b.
+2. PR #33 mergeability: TRUE at verification.
+3. PR #32 boundary: explicitly preserved; this governance package does not claim its authenticated-reference runtime work is solved or superseded.
+4. Umpire acceptance: no unresolved P0/P1 organizational defect identified in the Phase 0-9 evidence.
+5. Commissioner authorization: Jake explicitly directed Bullpen to proceed through all phases with audit, bug-fix, testing, polish and domain approval.
 6. Any future proposal for Director #19 requires a separate Bullpen constitutional amendment in jakekaloper-hub/bullpen.
 
 ## Phase 10 audit
