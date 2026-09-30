@@ -5,7 +5,7 @@
 
 | Owner / character | Division | Ontology | Domain mode | Primary place | Physical setting | Hard continuity |
 |---|---|---|---|---|---|---|
-| Jake / Trade Jedi | Burgers | PEOPLED_KIND | territorial-strategic | Trade Jedi Mountain Base | upper valleys | NO BELT; human mountain/valley society |
+| Jake / Trade Jedi | Burgers | PEOPLED_KIND | territorial-strategic | Trade Jedi Mountain Base | upper valleys | NO BELT; **other Jedi coexist here** alongside non-Jedi humans; principal remains visually unique |
 | Wilson Look / Arsenal Gorilla Warrior | Burgers | PEOPLED_KIND | martial-territorial | D0nkey K0ng Highland Stronghold | upper valleys/northern routes | gorilla; NO centaur; own kind present |
 | Phillip Pitts / Podium Shadow | Burgers | SHARED_COHABITATION | territorial-institutional | Waterfall Temple | southern wet escarpment | one body, three serpent heads; coexists with Chili across division |
 | Bobby Mitchell / Mud Dogs | Burgers | PEOPLED_KIND | territorial | Mud Dogs Swamp | southern wetlands | swamp menace; sapient swamp-canine kind present |
