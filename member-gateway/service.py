@@ -28,7 +28,7 @@ class GatewayService:
         run_id=core.idempotency_key(principal=principal,capability=cap,normalized_request=normalized_request)
         request_id=__import__("uuid").uuid4().hex
         begin=self.store.begin(run_id,request_id,capability_id)
-        if not begin["created"] and begin["run"]["workflow_state"]=="PASSED":
+        if not begin["created"] and begin["run"]["workflow_state"] in {"PASSED","COMPLETED"}:
             row=begin["run"]
             stored=row.get("response_packet")
             if row.get("response_state")=="STORED" and isinstance(stored,dict):
@@ -57,8 +57,10 @@ class GatewayService:
         live_cap=core.authorize(live_principal,capability_id)
         core.authorize_outflow(live_principal,live_cap,packet)
 
-        self.store.transition(run_id,"PASSED")
+        # Atomic terminal completion: a successful workflow is replayable iff
+        # its governed response is durably stored in the same ledger write.
+        row=self.store.complete(run_id,packet)
         if not deliver:
             raise DeliveryError("DELIVERY_FAILED")
-        self.store.mark_delivered(run_id)
-        return {"duplicate":False,"packet":packet,"run":self.store._read()[run_id]}
+        row=self.store.mark_delivered(run_id)
+        return {"duplicate":False,"packet":packet,"run":row}
