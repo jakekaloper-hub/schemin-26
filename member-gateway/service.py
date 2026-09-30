@@ -29,7 +29,17 @@ class GatewayService:
         request_id=__import__("uuid").uuid4().hex
         begin=self.store.begin(run_id,request_id,capability_id)
         if not begin["created"] and begin["run"]["workflow_state"]=="PASSED":
-            return {"duplicate":True,"run":begin["run"]}
+            row=begin["run"]
+            stored=row.get("response_packet")
+            if row.get("response_state")=="STORED" and isinstance(stored,dict):
+                # Re-resolve current delegated authority before returning a stored response.
+                live_principal=principal_for_client(client_id)
+                live_cap=core.authorize(live_principal,capability_id)
+                core.authorize_outflow(live_principal,live_cap,stored)
+                return {"duplicate":True,"packet":stored,"run":row}
+            # Legacy completed rows predate governed response persistence. They are
+            # not safe to serve and must not trigger silent recomputation.
+            raise runs.RunConflictError("LEGACY_COMPLETED_RUN_NOT_REPLAYABLE")
 
         self.store.transition(run_id,"ROUTED")
         packet=core.execute(principal=principal,capability_id=capability_id,
