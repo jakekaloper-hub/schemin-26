@@ -59,11 +59,15 @@ def test_jake_and_pitts_are_distinct_principals():
     assert gateway.JAKE.consumer_class == "commissioner"
     assert gateway.PITTS.consumer_class == "league_member"
 
-def test_unwired_authoritative_capability_creates_sck_handoff():
+def test_unwired_authoritative_capability_creates_internal_sck_handoff_without_leaking_it():
+    cap = gateway.authorize(gateway.PITTS, "league.current_state")
     out = gateway.execute(principal=gateway.PITTS, capability_id="league.current_state",
                           normalized_request={"week":5})
-    assert out["result"]["state"] == "AWAITING_SCK"
-    h = out["result"]["handoff"]
+    assert out["result"] == {"state":"AWAITING_SCK"}
+    assert "handoff" not in out["result"]
+    h = gateway.compile_sck_handoff(
+        principal=gateway.PITTS, capability=cap, normalized_request={"week":5},
+        request_id=out["request_id"], run_id=out["run_id"])
     assert h["to"] == "SCK"
     assert h["status"] == "HANDOFF_READY"
     assert h["run_id"] == out["run_id"]
