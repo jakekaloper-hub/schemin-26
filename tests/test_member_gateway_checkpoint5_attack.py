@@ -44,7 +44,7 @@ def test_replay_after_client_revocation_is_denied(tmp_path):
         with pytest.raises(identity.IdentityError,match="CLIENT_REVOKED"):
             s.request(client_id="pitts-chatgpt",capability_id="pittys_book.inputs",
                       normalized_request={"week":5},truth_packet=packet())
-        assert first["run"]["workflow_state"]=="PASSED"
+        assert first["run"]["workflow_state"]=="COMPLETED"
     finally: identity.CLIENTS["pitts-chatgpt"]=original
 
 def test_truth_packet_cannot_change_consumer_identity(tmp_path):
