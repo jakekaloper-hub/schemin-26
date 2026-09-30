@@ -43,6 +43,21 @@ Read in this order:
 
 V5.5 passed the Week 3 retrospective acceptance suite (11/11 after bug-fix/polish/retest) and is binding above V5.4/V5.3. V5.2-RC remains part of the lower orchestration lineage; it is not the top-level production-hardening authority.
 
+### Schemin organizational command
+Current controlling organizational model: **SCHEMIN '26 PROJECT COMMAND V1 — RATIFIED FOR PROJECT GOVERNANCE (2026-09-30)**.
+
+Read in this order:
+1. `docs/governance/SCHEMIN_PROJECT_COMMAND_V1.md`
+2. `docs/governance/SCHEMIN_ROLE_CONTRACTS_V1.md`
+3. `docs/governance/SCHEMIN_BULLPEN_AUTHORITY_MATRIX_V1.md`
+4. `docs/governance/SCHEMIN_ORGANIZATIONAL_RUNTIME_V1.md`
+5. `docs/governance/SCHEMIN_ORG_ACCEPTANCE_SUITE_V1.md`
+6. `docs/governance/SCHEMIN_ORG_RATIFICATION_V1.md`
+
+Bullpen remains the canonical 18-Director project-agnostic organization. Schemin-specific labels such as Visual Direction Lead, Character Director, Continuity Director, Memo OS Director, Novel Director, Chronicles Director, Red Team and QA are project functions/Staff/engines unless explicitly mapped to a canonical Director. Visual Direction Lead is not Director #19.
+
+Character Control Plane PR #32 remains an independent runtime remediation stream. Organizational ratification does not promote CCCP v2, resolve its R1 durable-byte blocker, or authorize another character-bearing render without its own gates.
+
 ### League truth / ESPN
 Read:
 - `data-gateway/SCHEMIN_26_ESPN_INGESTION_RELIABILITY_PATCH_v1.0.md`
