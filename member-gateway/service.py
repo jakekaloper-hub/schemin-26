@@ -41,6 +41,12 @@ class GatewayService:
             self.store.transition(run_id,"BLOCKED")
             return {"duplicate":False,"packet":packet,"run":self.store._read()[run_id]}
 
+        # Warden egress gate: re-resolve the live delegated client immediately
+        # before delivery so mid-run revocation cannot reuse ingress authority.
+        live_principal=principal_for_client(client_id)
+        live_cap=core.authorize(live_principal,capability_id)
+        core.authorize_outflow(live_principal,live_cap,packet)
+
         self.store.transition(run_id,"PASSED")
         if not deliver:
             raise DeliveryError("DELIVERY_FAILED")
