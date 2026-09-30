@@ -74,7 +74,7 @@ Population/civilization status is governed by:
 
 ### Peopled kinds
 The following inhabit home societies containing ordinary members of their own broad kind:
-- ObiWan / Trade Jedi
+- ObiWan / Trade Jedi — Jedi are an established peopled order/community; ObiWan coexists with other Jedi
 - D0nkey K0ng / Arsenal Gorilla Warrior
 - Red Leopards / Predator Board
 - Slob / Frat-Bro Berserker
