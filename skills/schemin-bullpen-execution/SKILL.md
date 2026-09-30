@@ -21,18 +21,25 @@ If no precise command is recognized, default a broad authorized objective to `ru
 ## Required behavior
 1. Recover the current objective, authoritative repo state, and applicable canon/data constraints.
 2. Think and plan internally; do not stop at the plan when execution is possible.
-3. Route work to the smallest set of relevant Bullpen roles.
-4. Execute available work with real tools.
-5. Persist durable outputs to the owning repository or requested artifact surface.
-6. Independently verify outputs before claiming success.
-7. Continue through nonblocked phases without asking Jake to approve routine implementation choices.
-8. If a required capability is genuinely unavailable, stop exactly there and report BLOCKED with the missing capability and completed evidence.
+3. Route work through canonical Bullpen Core to the smallest relevant Director set.
+4. Consume the canonical `counterweight_plan`. If it is activated, include its counterweight Directors as challenge participants while preserving the primary Director's authority.
+5. Add Schemin project-local roles only after canonical Director routing; project roles never create a 19th Bullpen Director.
+6. Execute available work with real tools.
+7. Persist durable outputs to the owning repository or requested artifact surface.
+8. Independently verify outputs before claiming success.
+9. Record counterweight impact when it materially changed, constrained, or validated a decision.
+10. Continue through nonblocked phases without asking Jake to approve routine implementation choices.
+11. If a required capability is genuinely unavailable, stop exactly there and report BLOCKED with the missing capability and completed evidence.
+
+Do not recreate the 18 Director weakness/counterweight registry inside Schemin. Its canonical source is `jakekaloper-hub/bullpen`.
 
 ## Evidence contract
 
 | Claim | Minimum evidence |
 |---|---|
 | role worked | invocation/result or durable artifact |
+| counterweight acted | recorded challenge/review tied to the canonical route |
+| counterweight changed decision | before/after decision or explicit constrained/validated outcome |
 | code implemented | repository change |
 | tests pass | fresh test/CI output |
 | image produced | actual image artifact |
@@ -50,12 +57,25 @@ Use domain authority, not ceremonial attendance:
 - **Librarian:** source hierarchy, provenance, durable knowledge.
 - **Scout:** ESPN/data acquisition and freshness.
 - **Beat Writer:** narrative manuscript.
-- **Visual Development:** art direction and image production.
-- **Clubhouse Manager:** character dignity and continuity.
+- **Visual Development:** Schemin project-local art direction and image production role.
+- **Clubhouse Manager:** organizational/capability lifecycle; project character-continuity roles remain Schemin-local.
 - **Umpire:** independent QA, contradiction and completion gates.
-- Other Bullpen directors join only when their domain materially affects the task.
+- Other Bullpen Directors join only when their domain materially affects the task.
+- Activated canonical counterweights join as bounded challenge participants, not replacement owners.
 
 Creator and final gatekeeper must be different roles.
+
+## Counterweight challenge behavior
+
+When `counterweight_plan.activated === true`:
+- preserve the canonical primary Director;
+- surface the declared failure mode;
+- use the canonical challenge questions during work;
+- apply the canonical PRE / DURING / POST controls;
+- record whether the challenge changed, constrained, or validated the result;
+- do not count attendance alone as counterweight evidence.
+
+For inactive counterweights, retain the challenge plan but do not add ceremonial participants.
 
 ## Production state machine
 Use: PENDING → RUNNING → PASSED | FAILED | BLOCKED.
@@ -86,6 +106,9 @@ Do not present a prompt, roadmap, board meeting, audit document, or future plan 
 
 ## Red flags
 - “Bullpen reviewed” without independent evidence.
+- “Counterweight reviewed” with no recorded challenge or decision effect.
+- Rebuilding the canonical 18-Director counterweight registry inside Schemin.
+- Treating a Schemin project role as a new Bullpen Director.
 - “Production complete” without the production artifact.
 - “Tests pass” without fresh execution output.
 - Asking Jake to say “continue” when the next step is already authorized.

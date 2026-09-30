@@ -2,7 +2,9 @@
 
 The Bullpen is the cross-functional review and escalation layer for Schemin '26.
 
-It may consult the FLA Bullpen as an upstream capability/reference, but Schemin '26 decisions are recorded here.
+Canonical Bullpen organization, Director authority, command semantics, and Director counterweights live in `jakekaloper-hub/bullpen`. Schemin consumes them through project adapters and records Schemin-specific decisions here.
+
+Fantasy League Artworks remains legacy heritage/reference material, not the canonical Bullpen organization.
 
 Core responsibilities:
 - Board-level project reviews
@@ -12,3 +14,6 @@ Core responsibilities:
 - Canon/continuity enforcement
 - Production postmortems
 - Cross-subsystem conflict resolution
+- Schemin-local application of canonical Director counterweights
+
+Project-local roles such as Character Director, Visual Director, Memo OS Director, continuity specialists, or Chronicle production roles do not create additional Bullpen Directors.
