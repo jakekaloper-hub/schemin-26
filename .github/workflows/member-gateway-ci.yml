@@ -14,4 +14,4 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install pytest
-      - run: pytest -q tests/test_member_gateway_phase1.py tests/test_member_gateway_checkpoint3.py tests/test_member_gateway_checkpoint4.py tests/test_member_gateway_checkpoint5_attack.py tests/test_member_gateway_checkpoint7_transport.py
+      - run: pytest -q tests/test_member_gateway_phase1.py tests/test_member_gateway_checkpoint3.py tests/test_member_gateway_checkpoint4.py tests/test_member_gateway_checkpoint5_attack.py tests/test_member_gateway_checkpoint7_transport.py tests/test_member_gateway_checkpoint8_truth.py
