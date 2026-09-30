@@ -19,7 +19,7 @@ def test_pitts_vertical_slice_delivers_validated_stale_inputs(tmp_path):
     s=service.GatewayService(tmp_path/"runs.json")
     out=s.request(client_id="pitts-chatgpt",capability_id="pittys_book.inputs",
                   normalized_request={"season":2026,"week":5},truth_packet=packet())
-    assert out["run"]["workflow_state"]=="PASSED"
+    assert out["run"]["workflow_state"]=="COMPLETED"
     assert out["run"]["delivery_state"]=="DELIVERED"
     assert out["packet"]["consumer"]["member_id"]=="pitts"
     assert out["packet"]["freshness"]["stale"] is True
@@ -80,7 +80,7 @@ def test_delivery_failure_does_not_reexecute_completed_workflow(tmp_path):
                   normalized_request={"week":5},truth_packet=packet(),deliver=False)
     state=json.loads((tmp_path/"runs.json").read_text())
     row=list(state.values())[0]
-    assert row["workflow_state"]=="PASSED"
+    assert row["workflow_state"]=="COMPLETED"
     assert row["delivery_state"]=="NOT_DELIVERED"
     retry=s.request(client_id="pitts-chatgpt",capability_id="pittys_book.inputs",
                     normalized_request={"week":5},truth_packet=packet())
