@@ -10,6 +10,8 @@ import json
 class RunConflictError(RuntimeError):
     pass
 
+LEDGER_VERSION=2
+
 class RunStore:
     def __init__(self, path: Path):
         self.path = Path(path)
@@ -32,7 +34,8 @@ class RunStore:
         state[run_id] = {
             "run_id":run_id, "first_request_id":request_id,
             "capability":capability, "workflow_state":"RECEIVED",
-            "delivery_state":"NOT_DELIVERED"
+            "delivery_state":"NOT_DELIVERED", "ledger_version":LEDGER_VERSION,
+            "response_state":"ABSENT"
         }
         self._write(state)
         return {"created":True, "run":state[run_id]}
@@ -50,6 +53,8 @@ class RunStore:
         if run_id not in state:
             raise RunConflictError("RUN_UNKNOWN")
         state[run_id]["response_packet"] = response_packet
+        state[run_id]["ledger_version"] = LEDGER_VERSION
+        state[run_id]["response_state"] = "STORED"
         self._write(state)
         return state[run_id]
 
