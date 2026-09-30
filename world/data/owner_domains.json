@@ -17,7 +17,13 @@
         "NO_CHAMPIONSHIP_BELT"
       ],
       "status": "INTERPRETIVE_CANON",
-      "ontology_class": "PEOPLED_KIND"
+      "ontology_class": "PEOPLED_KIND",
+      "people_context": {
+        "jedi_order_present": true,
+        "coexists_with_other_jedi": true,
+        "non_jedi_humans_present": true,
+        "clone_principal_identity": false
+      }
     },
     {
       "character_id": "CHAR-KEVIN-ZEEK",
