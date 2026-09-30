@@ -100,7 +100,6 @@ def test_stale_truth_is_delivered_only_as_stale(tmp_path):
                   normalized_request={"week":5},truth_packet=p)
     assert out["packet"]["freshness"]["stale"] is True
 
-@pytest.mark.xfail(strict=True,reason="Checkpoint 5 attack: authorization must be re-evaluated at egress after mid-run revocation")
 def test_mid_run_revocation_blocks_outflow(tmp_path,monkeypatch):
     original=identity.CLIENTS["pitts-chatgpt"]
     original_execute=core.execute
