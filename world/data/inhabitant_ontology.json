@@ -22,7 +22,7 @@
     ]
   },
   "people_notes": {
-    "CHAR-JAKE-KALOPER": "Human mountain/valley population exists.",
+    "CHAR-JAKE-KALOPER": "Jedi are an established peopled order/community in the world; ObiWan coexists with other Jedi. His home society may include Jedi and non-Jedi humans. Do not clone ObiWan's exact face, wardrobe, green energy sword, companion, or personal identity onto background Jedi.",
     "CHAR-WILSON-LOOK": "Gorilla-bodied people exist; current principal form remains Arsenal Gorilla Warrior.",
     "CHAR-KEVIN-ZEEK": "Leopard-bodied people exist.",
     "CHAR-JORDAN-HOLLINGSHEAD": "Own broad human/berserker kind exists; horned gear does not prove separate biology.",
@@ -59,5 +59,12 @@
       "AMBIGUOUS"
     ],
     "rule": "Not every storm is El Niño; atmospheric manifestation requires explicit story/world-state resolution."
+  },
+  "jedi_order": {
+    "principal_character_id": "CHAR-JAKE-KALOPER",
+    "status": "ESTABLISHED_PEOPLED_ORDER",
+    "coexistence": true,
+    "domain_relationship": "Trade Jedi Mountain Base and surrounding upper-valley society may include other Jedi and ordinary humans.",
+    "clone_principal_identity": false
   }
 }
