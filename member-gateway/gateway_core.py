@@ -175,9 +175,11 @@ def execute(*, principal: Principal, capability_id: str,
             principal=principal, capability=cap, normalized_request=normalized_request,
             request_id=request_id, run_id=run_id,
         )
+        # Internal handoff is intentionally not embedded in the external packet.
+        # Transport/runtime code forwards it to SCK using the shared run_id.
         return response_envelope(
             principal=principal, capability=cap,
-            result={"state":"AWAITING_SCK","handoff":handoff},
+            result={"state":"AWAITING_SCK"},
             request_id=request_id, run_id=run_id,
         )
 
