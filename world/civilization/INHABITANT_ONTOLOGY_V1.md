@@ -25,7 +25,7 @@ The Twelve are recognized persons by established standing. A nonhuman body does 
 The character belongs to a broader kind/culture whose ordinary members exist in the world and may be visible in home settlements.
 
 Locked members:
-- Jake Kaloper / ObiWan Jacoby / Trade Jedi — human mountain/valley society.
+- Jake Kaloper / ObiWan Jacoby / Trade Jedi — **Jedi are an established peopled order/community in the world; ObiWan coexists with other Jedi.** His home society may include Jedi and non-Jedi humans. ObiWan remains individually distinct in face, wardrobe, green energy sword, golden-retriever relationship and personal history.
 - Wilson Look / D0nkey K0ng / Arsenal Gorilla Warrior — gorilla-bodied people exist; Wilson is not a unique species.
 - Kevin Zeek / Red Leopards / Predator Board — leopard-bodied people exist.
 - Jordan Hollingshead / Slob on my Dobb / Frat-Bro Berserker — his home society contains people of his own broad human/berserker kind; horned gear does not by itself establish a separate biological species.
