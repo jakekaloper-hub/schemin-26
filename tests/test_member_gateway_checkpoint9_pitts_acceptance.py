@@ -21,7 +21,7 @@ def test_pitts_discovers_jobs_without_director_or_architecture_knowledge(tmp_pat
 def test_pitts_can_request_book_inputs_and_get_understandable_stale_state(tmp_path):
  x=ux.MemberExperience(tmp_path/"runs.json")
  out=x.run_book_inputs(client_id="pitts-chatgpt",season=2026,week=5,truth_packet=packet())
- assert out["status"]=="PASSED"
+ assert out["status"]=="COMPLETED"
  assert out["freshness"]["stale"] is True
  assert "stale" in out["message"].lower()
  assert out["authority_status"]=="BULLPEN_ROUTED"
