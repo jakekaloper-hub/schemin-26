@@ -10,6 +10,14 @@ Bullpen is an execution contract, not simulated staffing. A role counts as havin
 
 **Core principle:** evidence before completion claims.
 
+## Command compilation
+
+Jake is not required to memorize Bullpen commands. Before routing substantial work, interpret broad natural language through the canonical Bullpen command vocabulary and the Schemin adapter at `docs/architecture/BULLPEN_COMMAND_ADAPTER_V2.md`.
+
+Command selection and Director selection are separate: command determines WHEN/HOW; Director routing determines WHO. Explicit constraints such as "planning only", "do not execute", "audit only", or "do not generate" override broad execution language.
+
+If no precise command is recognized, default a broad authorized objective to `run`; use `mission` for an end-to-end outcome with unknown phases; use `incident` for repeated/systemic production failure.
+
 ## Required behavior
 1. Recover the current objective, authoritative repo state, and applicable canon/data constraints.
 2. Think and plan internally; do not stop at the plan when execution is possible.
