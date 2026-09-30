@@ -3,20 +3,243 @@
   "incident_issue": 30,
   "program_issue": 31,
   "branch": "fix/character-lock-r1-r7",
+  "defects": {
+    "BUG-INC-009": {
+      "state": "OPEN_P0",
+      "owner": "Librarian+CAIO+Systems Architect",
+      "gatekeeper": "Umpire",
+      "evidence": [
+        "canon/character-control-plane-v2/evidence/R4_SOURCE_BYTE_HASH_RECEIPT_2026-09-29.md",
+        "12/12 exact bytes historically SHA-verified",
+        "current Project materialization denied for registered assets and Characters.docx"
+      ],
+      "blockers": [
+        "DURABLE_RENDERER_ADDRESSABLE_BYTES_NOT_RECOVERED"
+      ],
+      "blast_radius": "all character-bearing visual consumers",
+      "next_action": "exhaust authorized durable recovery; never request full re-upload as default"
+    }
+  },
   "gates": {
-    "R1": {"state":"BLOCKED","owner":"Librarian","gatekeeper":"Umpire","evidence":["12/12 registered file IDs and hashes","raw-byte materialization attempted for 12/12; all denied"],"blockers":["PROJECT_FILE_RAW_BYTES_NOT_AUTHORIZED"],"next_gate":"R2/R7/R9 independent work may continue"},
-    "R2": {"state":"BUILDING","owner":"Architect+Librarian","gatekeeper":"Umpire","evidence":["runtime/asset_reference.py"],"blockers":["cannot validate real dimensions/URIs until R1"],"next_gate":"adversarial schema tests"},
-    "R3": {"state":"BUILDING","owner":"Architect","gatekeeper":"Red Team","evidence":["runtime/asset_resolver.py"],"blockers":["real asset registry awaits R1/R2"],"next_gate":"integration tests"},
-    "R4": {"state":"BUILDING","owner":"Librarian+Visual Systems","gatekeeper":"Umpire","evidence":["runtime/reference_mount.py"],"blockers":["real renderer attachment receipts unavailable"],"next_gate":"real mount adapter"},
-    "R5": {"state":"BUILDING","owner":"Toolsmith+CAIO","gatekeeper":"Red Team+Umpire","evidence":["runtime/renderer_capabilities.py"],"blockers":["actual renderer capability adapter not yet observed"],"next_gate":"route capability integration"},
-    "R6": {"state":"BUILDING","owner":"CAIO+Architect+Toolsmith","gatekeeper":"Umpire","evidence":["runtime/generation_eligibility.py","runtime/generation_adapter.py","tests/test_incident_boundary.py","cccp_render_contract.py now fail-closed"],"blockers":["governed adapter not yet proven as sole real renderer entrypoint"],"next_gate":"execute tests + real adapter wiring"},
-    "R7": {"state":"FAIL","owner":"Librarian+Character+Continuity","gatekeeper":"Red Team","evidence":["evidence/R7_ACTIVE_AUTHORITY_SCAN_2026-09-30.md"],"blockers":[">=50 Arsenal Centaur hits; active consumer classification incomplete"],"next_gate":"consumer-entrypoint containment"},
-    "R8": {"state":"BLOCKED","owner":"Umpire+Visual","gatekeeper":"Closer","evidence":[],"blockers":["Wave B not certified"],"next_gate":"after R6"},
-    "R9": {"state":"BUILDING","owner":"Librarian+Umpire","gatekeeper":"Red Team","evidence":[],"blockers":["exact failed output byte IDs not yet resolved"],"next_gate":"search conversation/library for exact outputs"},
-    "R10":{"state":"BLOCKED","owner":"Visual+Umpire","gatekeeper":"Umpire","evidence":[],"blockers":["R1-R8"],"next_gate":"none"},
-    "R11":{"state":"BLOCKED","owner":"Red Team+Visual+Umpire","gatekeeper":"Umpire","evidence":[],"blockers":["R10"],"next_gate":"none"},
-    "R12":{"state":"BLOCKED","owner":"Memo OS+Visual","gatekeeper":"Umpire","evidence":[],"blockers":["R1-R11"],"next_gate":"no attempt #4"},
-    "R13":{"state":"BLOCKED","owner":"Umpire","gatekeeper":"Umpire","evidence":[],"blockers":["R12"],"next_gate":"none"},
-    "R14":{"state":"BLOCKED","owner":"Closer","gatekeeper":"Umpire+Closer","evidence":[],"blockers":["R13"],"next_gate":"none"}
+    "R1": {
+      "state": "BLOCKED",
+      "owner": "Librarian",
+      "gatekeeper": "Umpire",
+      "implementation_commit": null,
+      "tests": [
+        "historical 12/12 SHA receipt"
+      ],
+      "evidence": [
+        "R4_SOURCE_BYTE_HASH_RECEIPT_2026-09-29.md"
+      ],
+      "blockers": [
+        "durable asset URI/fresh-context retrieval unavailable"
+      ],
+      "blast_radius": "R2 real bindings,R4 mounts,R8 visual QA,R10-R14",
+      "next_action": "recover durable bytes/asset store"
+    },
+    "R2": {
+      "state": "BUILDING",
+      "owner": "Architect+Librarian",
+      "gatekeeper": "Umpire",
+      "implementation_commit": "PR#32",
+      "tests": [
+        "schema validation pending execution"
+      ],
+      "evidence": [
+        "runtime/asset_reference.py",
+        "12 migration contracts"
+      ],
+      "blockers": [
+        "real URI/dimensions depend on R1"
+      ],
+      "blast_radius": "asset binding",
+      "next_action": "complete blocked manifests without fabricating URIs"
+    },
+    "R3": {
+      "state": "BUILDING",
+      "owner": "Architect",
+      "gatekeeper": "Red Team",
+      "implementation_commit": "PR#32",
+      "tests": [
+        "test_incident_boundary.py pending Character Lock CI"
+      ],
+      "evidence": [
+        "runtime/asset_resolver.py"
+      ],
+      "blockers": [
+        "real registry awaits R1/R2"
+      ],
+      "blast_radius": "per-request resolution",
+      "next_action": "execute integration tests"
+    },
+    "R4": {
+      "state": "BUILDING",
+      "owner": "Librarian+Visual Systems",
+      "gatekeeper": "Umpire",
+      "implementation_commit": "PR#32",
+      "tests": [
+        "mount semantics pending"
+      ],
+      "evidence": [
+        "runtime/reference_mount.py"
+      ],
+      "blockers": [
+        "real renderer attachment receipt unavailable"
+      ],
+      "blast_radius": "generation eligibility",
+      "next_action": "real mount adapter"
+    },
+    "R5": {
+      "state": "BUILDING",
+      "owner": "Toolsmith+CAIO",
+      "gatekeeper": "Red Team+Umpire",
+      "implementation_commit": "PR#32",
+      "tests": [
+        "capability unit tests pending"
+      ],
+      "evidence": [
+        "runtime/renderer_capabilities.py"
+      ],
+      "blockers": [
+        "actual renderer route capability not observed"
+      ],
+      "blast_radius": "all visual generation routes",
+      "next_action": "capability handshake integration"
+    },
+    "R6": {
+      "state": "BUILDING_HARDENED_NOT_CERTIFIED",
+      "owner": "CAIO+Architect+Toolsmith",
+      "gatekeeper": "Umpire",
+      "implementation_commit": "82f9b90d34dfc33b70c1cb77b5da38da92dbf144",
+      "tests": [
+        "Python Character Lock tests exist but are not run by CI"
+      ],
+      "evidence": [
+        "HMAC-authenticated eligibility",
+        "nonce replay rejection",
+        "adapter renderer_invoked receipt",
+        "Bullpen Runtime CI run 36730637847 is green but not Character Lock CI"
+      ],
+      "blockers": [
+        "sole real renderer entrypoint unproven",
+        "Character Lock Python CI not observed"
+      ],
+      "blast_radius": "P0 renderer bypass",
+      "next_action": "execute Character Lock suite + wire real routes"
+    },
+    "R7": {
+      "state": "FAIL_REMEDIATING",
+      "owner": "Librarian+Character+Continuity",
+      "gatekeeper": "Red Team",
+      "implementation_commit": "PR#32",
+      "tests": [
+        "test_active_authority.py pending Character Lock CI"
+      ],
+      "evidence": [
+        "CHARACTER_ASSET_ARCHAEOLOGY_REGISTER.md"
+      ],
+      "blockers": [
+        ">=50 Wilson centaur hits",
+        "Pitts/Jake/El Nino/alias file-level classification incomplete"
+      ],
+      "blast_radius": "semantic poisoning across consumers",
+      "next_action": "classify active consumers and quarantine stale authority"
+    },
+    "R8": {
+      "state": "BLOCKED",
+      "owner": "Umpire+Visual",
+      "gatekeeper": "Closer",
+      "implementation_commit": null,
+      "tests": [],
+      "evidence": [],
+      "blockers": [
+        "R6 and durable bytes"
+      ],
+      "blast_radius": "visual identity certification",
+      "next_action": "after R6/R1"
+    },
+    "R9": {
+      "state": "BYTES_RECOVERED_GITHUB_BINARY_INGESTION_BLOCKED",
+      "owner": "Librarian+Umpire",
+      "gatekeeper": "Red Team",
+      "implementation_commit": "12a9c38faa067ccb6b6b3864b88df8e2606854e0",
+      "tests": [
+        "3 exact failed Waiver PNGs SHA-256 + dimensions recorded"
+      ],
+      "evidence": [
+        "evidence/R9_WAIVER_NEGATIVE_FIXTURE_MANIFEST.json"
+      ],
+      "blockers": [
+        "connector/container binary bridge"
+      ],
+      "blast_radius": "image-level negative regression",
+      "next_action": "durably ingest exact three fixtures"
+    },
+    "R10": {
+      "state": "BLOCKED",
+      "owner": "Visual+Umpire",
+      "gatekeeper": "Umpire",
+      "implementation_commit": null,
+      "tests": [],
+      "evidence": [],
+      "blockers": [
+        "R1-R8"
+      ],
+      "blast_radius": "12 individual character proof",
+      "next_action": "none"
+    },
+    "R11": {
+      "state": "BLOCKED",
+      "owner": "Red Team+Visual+Umpire",
+      "gatekeeper": "Umpire",
+      "implementation_commit": null,
+      "tests": [],
+      "evidence": [],
+      "blockers": [
+        "R10"
+      ],
+      "blast_radius": "contamination testing",
+      "next_action": "none"
+    },
+    "R12": {
+      "state": "BLOCKED_NO_ATTEMPT_4",
+      "owner": "Memo OS+Visual",
+      "gatekeeper": "Umpire",
+      "implementation_commit": null,
+      "tests": [],
+      "evidence": [],
+      "blockers": [
+        "R1-R11"
+      ],
+      "blast_radius": "Waiver acceptance",
+      "next_action": "none"
+    },
+    "R13": {
+      "state": "BLOCKED",
+      "owner": "Umpire",
+      "gatekeeper": "Independent Umpire",
+      "implementation_commit": null,
+      "tests": [],
+      "evidence": [],
+      "blockers": [
+        "R12"
+      ],
+      "blast_radius": "certification",
+      "next_action": "none"
+    },
+    "R14": {
+      "state": "BLOCKED",
+      "owner": "Closer",
+      "gatekeeper": "Umpire+Closer",
+      "implementation_commit": null,
+      "tests": [],
+      "evidence": [],
+      "blockers": [
+        "R13"
+      ],
+      "blast_radius": "CCCP ACTIVE promotion",
+      "next_action": "none"
+    }
   }
 }
