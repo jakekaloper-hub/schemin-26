@@ -280,7 +280,7 @@ Neutral institutions must be connected to central travel corridors.
 
 ## Peopled kinds
 May show small ordinary background populations:
-- Trade Jedi / human mountain-valley population;
+- Trade Jedi / **Jedi community plus non-Jedi human mountain-valley population; ObiWan coexists with other Jedi**;
 - D0nkey K0ng / gorilla-bodied people;
 - Red Leopards / leopard-bodied people;
 - Slob / broader human/berserker society;
