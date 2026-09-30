@@ -25,7 +25,16 @@ class MemberExperience:
     def run_book_inputs(self,*,client_id:str,season:int,week:int,truth_packet=None,deliver=True):
         out=self.transport.invoke(client_id=client_id,capability_id="pittys_book.inputs",
             request={"season":season,"week":week},truth_packet=truth_packet,deliver=deliver)
-        p=out["packet"]
+        # A duplicate completed request is intentionally returned from the run
+        # ledger without re-executing the provider/service path. Rehydrate the
+        # member-safe packet from the persisted run rather than assuming a new
+        # packet exists.
+        p=out.get("packet")
+        if p is None and out.get("duplicate"):
+            stored=(out.get("run") or {}).get("response_packet")
+            if stored is None:
+                raise RuntimeError("DUPLICATE_RUN_MISSING_RESPONSE_PACKET")
+            p=stored
         state=(p.get("result") or {}).get("state")
         if state=="AWAITING_SCK":
             message="Schemin is waiting for validated league truth; no Book inputs were fabricated."
