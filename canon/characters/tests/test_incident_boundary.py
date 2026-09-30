@@ -23,12 +23,12 @@ class Boundary(unittest.TestCase):
     def test_missing_mount_blocks(self):
         e=issue_eligibility("r",[CID],[mount(False)],"test",negotiate("test",CAP,1),now=1); self.assertEqual(e["state"],"GENERATION_BLOCKED")
     def test_eligibility_is_bound(self):
-        e=issue_eligibility("r",[CID],[mount()],"test",negotiate("test",CAP,1),now=1)
-        self.assertEqual(validate_eligibility(e,"r",[CID],"test",["abc"],now=2),"GENERATION_ELIGIBLE")
-        self.assertEqual(validate_eligibility(e,"other",[CID],"test",["abc"],now=2),"GENERATION_BLOCKED")
-        self.assertEqual(validate_eligibility(e,"r",[CID],"other",["abc"],now=2),"GENERATION_BLOCKED")
-        self.assertEqual(validate_eligibility(e,"r",[CID],"test",["changed"],now=2),"GENERATION_BLOCKED")
-        self.assertEqual(validate_eligibility(e,"r",[CID],"test",["abc"],now=999),"GENERATION_BLOCKED")
+        e=issue_eligibility("r",[CID],[mount()],"test",negotiate("test",CAP,1),signing_key="test-key",now=1)
+        self.assertEqual(validate_eligibility(e,"r",[CID],"test",["abc"],signing_key="test-key",now=2),"GENERATION_ELIGIBLE")
+        self.assertEqual(validate_eligibility(e,"other",[CID],"test",["abc"],signing_key="test-key",now=2),"GENERATION_BLOCKED")
+        self.assertEqual(validate_eligibility(e,"r",[CID],"other",["abc"],signing_key="test-key",now=2),"GENERATION_BLOCKED")
+        self.assertEqual(validate_eligibility(e,"r",[CID],"test",["changed"],signing_key="test-key",now=2),"GENERATION_BLOCKED")
+        self.assertEqual(validate_eligibility(e,"r",[CID],"test",["abc"],signing_key="test-key",now=999),"GENERATION_BLOCKED")
     def test_adapter_blocks_direct_bypass(self):
         called={"n":0}
         def renderer(payload): called["n"]+=1; return {"state":"RENDERED"}
