@@ -46,9 +46,11 @@ def test_duplicate_run_is_not_recreated(tmp_path):
 def test_delivery_state_is_separate_from_workflow_state(tmp_path):
     store=runs.RunStore(tmp_path/"runs.json")
     store.begin("run-1","req-a","pittys_book.inputs")
-    store.transition("run-1","PASSED")
+    stored=store.complete("run-1",{"request_id":"req-a","result":{"ok":True}})
+    assert stored["workflow_state"]=="COMPLETED"
+    assert stored["response_state"]=="STORED"
     row=store.mark_delivered("run-1")
-    assert row["workflow_state"]=="PASSED"
+    assert row["workflow_state"]=="COMPLETED"
     assert row["delivery_state"]=="DELIVERED"
 
 def test_existing_flaim_receipt_can_enter_truth_plane_but_is_recomputed_for_freshness():
