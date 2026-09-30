@@ -26,6 +26,25 @@ It is not authority for geography, names, characters, symbols, routes, ontology 
 
 ---
 
+
+# 0A. PUBLISHED MEMO ARCHAEOLOGY LOAD
+
+Before Pass 1, load:
+
+`world/production/CANONICAL_WORLD_PLATE_PUBLISHED_MEMO_ARCHAEOLOGY_V1.md`
+
+This supplement mines the official Week 1 record and the repository's published Week 2–3 continuity evidence for environments, institutions, roads, artifacts and recurring material language that already exist.
+
+Binding production consequence:
+- do not redesign already-established recurring environments from zero;
+- do not copy one-off matchup jokes into permanent architecture;
+- use World Engine V1.1 to place the published evidence coherently;
+- show ordinary civic infrastructure between owner domains so the plate reads as one civilization rather than twelve isolated mascot realms.
+
+**MEMO_ARCHAEOLOGY = PASS**
+
+---
+
 # 1. WORLD AUTHORITY RESOLUTION
 
 Current machine authority:
@@ -417,6 +436,7 @@ Requires independent Umpire review.
 
 | Gate | Result |
 |---|---|
+| MEMO_ARCHAEOLOGY | PASS |
 | WORLD_GEOGRAPHY | PASS |
 | DIVISION_MEMBERSHIP | PASS |
 | DIVISION_SEMANTICS | PASS |
