@@ -14,7 +14,7 @@ def request(s,deliver=True):
 
 def test_new_run_stores_response(tmp_path):
  s=service.GatewayService(tmp_path/"runs.json"); out=request(s)
- assert out["run"]["ledger_version"]==2
+ assert out["run"]["ledger_version"]==3
  assert out["run"]["response_state"]=="STORED"
 
 def test_duplicate_returns_same_packet(tmp_path):
