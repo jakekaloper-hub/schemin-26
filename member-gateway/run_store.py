@@ -45,6 +45,14 @@ class RunStore:
         self._write(state)
         return state[run_id]
 
+    def store_response(self, run_id: str, response_packet: Dict[str, Any]) -> Dict[str, Any]:
+        state = self._read()
+        if run_id not in state:
+            raise RunConflictError("RUN_UNKNOWN")
+        state[run_id]["response_packet"] = response_packet
+        self._write(state)
+        return state[run_id]
+
     def mark_delivered(self, run_id: str) -> Dict[str, Any]:
         state = self._read()
         if run_id not in state:
