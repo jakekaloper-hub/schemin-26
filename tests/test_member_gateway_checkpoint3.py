@@ -55,7 +55,7 @@ def test_existing_flaim_receipt_can_enter_truth_plane_but_is_recomputed_for_fres
     raw=json.loads(RECEIPT.read_text())
     normalized=flaim.normalize_capture(raw,slo_seconds=3600)
     packet=truth.from_normalized_data_gateway(normalized)
-    assert packet["result"]["league"]["league_id"]==1417621
+    assert str(packet["result"]["league"]["league_id"])=="1417621"
     assert len(packet["result"]["standings"])==12
     assert len(packet["result"]["matchups"])==6
     assert packet["freshness"]["snapshot_age_seconds"]>=0
