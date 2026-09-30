@@ -1,0 +1,10 @@
+{
+  "fixture_set":"waiver-wire-character-lock-failures-2026-09-30",
+  "state":"BYTES_RECOVERED_LOCAL_GITHUB_INGESTION_BLOCKED_BY_TOOL_BOUNDARY",
+  "fixtures":[
+    {"attempt":1,"file_id":"file_0000000006e081f689daabb10d0b8c53","filename":"a_detailed_comic_newspaper_style_illustration_post.png","sha256":"6f9e04cded2435ceac369e06c1e59581a384d422d39f438de7897bc93802b2d8","dimensions":"1024x1536","expected":"REJECT_CHARACTER_LOCK"},
+    {"attempt":2,"file_id":"file_00000000596881f5b9bb599b22688922","filename":"a_detailed_illustrated_fantasy_poster_style_scene.png","sha256":"67ba130f7151c73fef1a570826de8cd9d249b308c4eefce35eb534ec843d41ea","dimensions":"1024x1536","expected":"REJECT_CHARACTER_LOCK"},
+    {"attempt":3,"file_id":"file_000000004874822fa601e0d7b59df763","filename":"a_detailed_fantasy_epic_illustrated_poster_in_the.png","sha256":"b088752a7585ab1f43112a97c12304897f56c602cf84c5e88a0c48679f4a89a7","dimensions":"1024x1536","expected":"REJECT_CHARACTER_LOCK"}
+  ],
+  "note":"Exact original bytes were materialized and hashed in the execution container. Current GitHub connector cannot directly consume container bytes, so durable repo binary ingestion remains a tooling-boundary task; hashes prevent substitution."
+}
