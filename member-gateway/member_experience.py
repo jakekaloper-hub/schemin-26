@@ -30,11 +30,6 @@ class MemberExperience:
         # member-safe packet from the persisted run rather than assuming a new
         # packet exists.
         p=out.get("packet")
-        if p is None and out.get("duplicate"):
-            stored=(out.get("run") or {}).get("response_packet")
-            if stored is None:
-                raise RuntimeError("DUPLICATE_RUN_MISSING_RESPONSE_PACKET")
-            p=stored
         state=(p.get("result") or {}).get("state")
         if state=="AWAITING_SCK":
             message="Schemin is waiting for validated league truth; no Book inputs were fabricated."
