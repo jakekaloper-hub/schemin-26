@@ -1,6 +1,8 @@
 # PROLOGUE ART DIRECTION BIBLE V1
 ## Schemin' '26 Living Illustrated Novel
 
+> **CURRENT CHARACTER-CANON OVERRIDE — 2026-10-01:** Wilson Look resolves to the **Arsenal Gorilla Warrior** under current Master Character Canon. Any Arsenal Centaur/equine instruction remaining in this historical production document is superseded for new artwork. Current Character Canon always wins.
+
 **Status:** AUDITED / CANONICAL ART-DIRECTION AUTHORITY
 **Parent map:** PROLOGUE_BEAT_AND_VISUAL_MAP_V1.md
 **Source manuscript SHA:** 65b54c31826e6e545a21946b5037cefc1a123cfe
@@ -74,7 +76,7 @@ Hard visual invariants come from Master Canon + locked plate + stronger owner re
 No principal is redesigned by team name.
 Trade Jedi never wears Belt.
 Belt Keeper is not a king.
-Arsenal Centaur is a centaur, never gorilla.
+Arsenal Gorilla Warrior is a gorilla, never centaur/equine.
 TDS retains long dreadlocks in Prologue.
 Ensemble construction uses individually locked references and controlled compositing.
 
