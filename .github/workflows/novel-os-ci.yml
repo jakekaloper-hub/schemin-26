@@ -15,6 +15,7 @@ on:
       - "living-novel/consultants/**"
       - "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
       - "chronicles/proof-of-concept/prologue/**"
+      - ".github/workflows/novel-os-ci.yml"
   workflow_dispatch:
 jobs:
   novel-os-regression:
