@@ -47,4 +47,5 @@ jobs:
         run: python living-novel/os/evaluations/test_chapter_03_mission.py
       - name: Validate Chapter III Founder canon closeout
         run: python living-novel/os/evaluations/test_chapter_03_canon_closeout.py
-      - name: Validate whole-book convergence\n        run: python living-novel/os/evaluations/test_whole_book_convergence.py\n
+      - name: Validate whole-book convergence
+        run: python living-novel/os/evaluations/test_whole_book_convergence.py
