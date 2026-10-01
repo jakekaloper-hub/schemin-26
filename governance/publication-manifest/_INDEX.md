@@ -1,0 +1,51 @@
+# Publication Manifest V1 — Index
+
+**Status:** ACTIVE DERIVED INDEX  
+**Authority:** Librarian / Release Control consumers  
+**Non-authority rule:** this directory does not publish, promote, supersede, or mutate any publication.
+
+## Purpose
+
+Provide one machine-readable index of Schemin publication identity and relationships across:
+- Weekly Memo issues;
+- Living Novel hard-canon installments;
+- future Atlas/special publications;
+- season/archive collections;
+- release receipts;
+- fact/canon/world references;
+- world-evolution transaction references when they actually exist.
+
+## Controlling files
+
+1. `PUBLICATION_MANIFEST_V1.json` — derived publication identity registry.
+2. `PUBLICATION_MANIFEST_V1.schema.json` — structural schema.
+3. `validate_publication_manifest.py` — executable invariants.
+
+## Authority boundary
+
+This registry points to authority. It never becomes authority itself.
+
+Publication state is controlled by the owning system and its existing gates:
+- Weekly Memo → Memo OS + release gate + release evidence;
+- Living Novel → Novel OS + manuscript/final gates;
+- World consequences → World Evolution accepted transactions;
+- canon → Character Canon;
+- league truth → Data Gateway / verified fact locks.
+
+A manifest entry must not upgrade a blocked/candidate artifact into a release.
+
+## Current seed
+
+The initial registry includes:
+- official Week 2 Memo;
+- immutable Week 3 Memo;
+- blocked Week 4 Memo slot;
+- hard-canon Prologue;
+- hard-canon Chapter I;
+- hard-canon Chapter II.
+
+There is intentionally no Chapter III publication entry. Week 3 is evidence, not automatic Chapter III identity.
+
+## Acceptance evidence
+
+- `PUBLICATION_MANIFEST_V1_ACCEPTANCE.md` — mission acceptance, audit, learning and rollback receipt.
