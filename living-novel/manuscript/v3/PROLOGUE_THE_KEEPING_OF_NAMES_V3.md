@@ -720,11 +720,13 @@ Then another.
 
 No border was drawn around him.
 
-The archive preferred it that way.
+Not because the world lacked geography.
 
-It had maps, but not enough evidence to claim that every environment in Schemin belonged to a neat political geography. Mountains, swamp, jungle, fortress, roadside, boardroom, flooded country—these places existed because the inhabitants moved through them, not because some clerk had successfully colored borders around them.
+The maps were full of mountain chains, wetlands, river corridors, coasts, old jurisdictions, roads and claims. What they did not contain were twelve sealed countries built to match twelve names on a standings board. League divisions crossed physical regions as culture and competitive affiliation; roads and weather ignored the temptation to turn them into walls.
 
-Weather had never respected borders particularly well.
+Mountains, swamp, jungle, fortress, roadside, boardroom and flooded coast belonged to one connected world.
+
+Weather had never respected administrative lines particularly well.
 
 Neither had the League.
 
@@ -1338,7 +1340,7 @@ A large man at a roadside table strong enough to hold.
 
 They had not assembled in one hall.
 
-No map proved that their countries touched.
+No wall divided the world into twelve countries. Roads, waters, markets and old jurisdictions crossed their banners constantly.
 
 No prophecy bound them.
 
@@ -1372,7 +1374,7 @@ At the top, in fresh ink, the Chronicle wrote:
 
 CHAPTER I
 
-THE FIRST RECEIPTS
+THE BELT COMES BACK
 
 Then the clerk set down the pen.
 
