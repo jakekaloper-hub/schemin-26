@@ -1,20 +1,18 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "triggers": {
     "STATE_HISTORY_MUTATION": [
       "world/data/world_state_events.json",
       "world/data/current_world_state.json",
-      "world/location-control-plane/",
-      "world/environment-references/plates/",
-      "world/atlas/interactive/SCHEMIN_ATLAS_INTERACTIVE.html",
-      "memo-os location hydration",
-      "living-novel location hydration"
+      "world/location-control-plane/compiler/generate_cards.py --write",
+      "world/environment-references/render_structural_plates.py",
+      "world/atlas/interactive/build_interactive_atlas.py"
     ],
     "CANDIDATE_EVIDENCE": [
-      "world/data/atlas_location_candidates.json",
-      "world/atlas/interactive/SCHEMIN_ATLAS_INTERACTIVE.html"
+      "world/evolution/CANDIDATE_EVIDENCE_LEDGER.json"
     ],
     "CANDIDATE_PROMOTION_TRANSACTION": [
+      "SEPARATE_GOVERNED_LOCATION_TRANSACTION_REQUIRED",
       "world/data/locations.json",
       "world/data/routes.json",
       "world/data/atlas_location_candidates.json",
@@ -24,5 +22,6 @@
       "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
     ]
   },
-  "rule": "Candidate promotion fanout is informational until a separately approved promotion transaction is executed."
+  "consumer_hydration": "Memo OS and Novel OS read rebuilt Location Control Plane cards on demand; there is no separate hydration-cache build.",
+  "rule": "Class A state/history fanout is executable through rebuild_world_derivatives.py. Candidate promotion remains plan-only until a separately approved location transaction."
 }
