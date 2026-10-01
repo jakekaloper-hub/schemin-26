@@ -42,9 +42,10 @@ The initial registry includes:
 - blocked Week 4 Memo slot;
 - hard-canon Prologue;
 - hard-canon Chapter I;
-- hard-canon Chapter II.
+- hard-canon Chapter II;
+- Founder-approved hard-canon Chapter III — `THE HILL IS NOT THE KINGDOM`.
 
-There is intentionally no Chapter III publication entry. Week 3 is evidence, not automatic Chapter III identity.
+Chapter III was added only after independent Novel authority produced `living-novel/qa/CHAPTER_03_FINAL_CANON_GATE_V1.md` and `living-novel/qa/CHAPTER_03_CANON_RELEASE_RECEIPT_V1.md`. The manifest did not create or promote it. Week 3 remains evidence; Chapter III exists because the causal Novel pipeline separately selected, wrote, audited and approved that story unit.
 
 ## Acceptance evidence
 
