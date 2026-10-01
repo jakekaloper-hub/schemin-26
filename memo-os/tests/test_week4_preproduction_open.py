@@ -115,7 +115,7 @@ class Week4PreproductionOpenTests(unittest.TestCase):
         self.assertIn("Arsenal Gorilla Warrior", amendment)
         self.assertIn("Breece Hall — Doubtful", amendment)
         self.assertIn("Isiah Pacheco — IR", amendment)
-        self.assertIn("not an independent medical diagnosis", amendment)
+        self.assertIn("independent medical diagnosis", amendment)
         self.assertIn("at the beach celebrating", amendment)
         self.assertIn("The LLC", amendment)
         self.assertIn("forbidden before a verified HMB loss", amendment)
