@@ -1,6 +1,6 @@
 # WORLD NARRATIVE HYDRATION CONTRACT V1
 
-**Status:** RELEASE CANDIDATE  
+**Status:** ACTIVE SHARED CROSS-PUBLICATION CONTRACT  
 **Authority:** World Engine V1.1 + Universe OS V1.2 + Atlas Control Plane V2  
 **Consumers:** Weekly Memo OS + Living Novel OS + visual production  
 **Purpose:** Make the persistent Schemin world causal narrative material without creating a second canon or duplicating Atlas data.
