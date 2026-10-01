@@ -1,6 +1,6 @@
 # Novel OS — External Advisory Integration Patch V1
 
-**Status:** RELEASE CANDIDATE / ADVISORY LAYER  
+**Status:** RELEASED / ACTIVE — ADVISORY LAYER  
 **Does not replace:** Novel OS, Author Room Universe Hydration Standard, Character/POV evidence system, World Engine, Universe OS, continuity gates or editorial board.
 
 ## Purpose
