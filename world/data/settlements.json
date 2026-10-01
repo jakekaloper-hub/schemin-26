@@ -1,0 +1,297 @@
+{
+  "schema_version": "1.0",
+  "settlements": [
+    {
+      "id": "SET-TRADE-JEDI-UPPER-VALLEY",
+      "name": "Trade Jedi Upper-Valley Community",
+      "anchor_location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "placement_reasons": [
+        "MOUNTAIN_PASS",
+        "HIGH_GROUND",
+        "ROAD_JUNCTION"
+      ],
+      "population": [
+        "Jedi order/community",
+        "non-Jedi humans"
+      ],
+      "economy": [
+        "mountain trade",
+        "orchards/pasture",
+        "courier services"
+      ],
+      "institutions": [
+        "Jedi communal training spaces"
+      ],
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "id": "SET-DK-HIGHLAND",
+      "name": "D0nkey K0ng Highland Settlement",
+      "anchor_location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "placement_reasons": [
+        "HIGH_GROUND",
+        "ROAD_JUNCTION",
+        "DEFENSIBLE_RIDGE"
+      ],
+      "population": [
+        "gorilla-bodied inhabitants"
+      ],
+      "economy": [
+        "road market",
+        "metalwork",
+        "training services"
+      ],
+      "institutions": [
+        "Arsenal Barbershop market district"
+      ],
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "id": "SET-TDS-FALLS",
+      "name": "Waterfall Temple Settlement",
+      "anchor_location_id": "LOC-TDS-WATERFALL-TEMPLE",
+      "placement_reasons": [
+        "RESOURCE_SOURCE",
+        "WETLAND_CAUSEWAY"
+      ],
+      "population": [
+        "mixed residents; TDS wider kind unresolved"
+      ],
+      "economy": [
+        "water-route trade",
+        "craft exchange"
+      ],
+      "institutions": [
+        "temple/assembly spaces"
+      ],
+      "canon_confidence": "INFERRED"
+    },
+    {
+      "id": "SET-MUD-SWAMP",
+      "name": "Mud Dogs Wetland Community",
+      "anchor_location_id": "LOC-MUD-DOGS-SWAMP",
+      "placement_reasons": [
+        "WETLAND_CAUSEWAY",
+        "RESOURCE_SOURCE"
+      ],
+      "population": [
+        "sapient swamp canine/wolf inhabitants"
+      ],
+      "economy": [
+        "fisheries",
+        "wetland transport",
+        "raised-ground trade"
+      ],
+      "institutions": [
+        "dock/causeway stations"
+      ],
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "id": "SET-RED-RUINS",
+      "name": "Red Leopard Ruin Settlement",
+      "anchor_location_id": "LOC-RED-RUINS",
+      "placement_reasons": [
+        "DEFENSIBLE_RIDGE",
+        "RESOURCE_SOURCE"
+      ],
+      "population": [
+        "leopard-bodied inhabitants"
+      ],
+      "economy": [
+        "forest trade",
+        "storm-road services"
+      ],
+      "institutions": [
+        "rain cisterns",
+        "market court"
+      ],
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "id": "SET-SLOB-FOOTHILLS",
+      "name": "Slob Foothill Road Community",
+      "anchor_location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "placement_reasons": [
+        "ROAD_JUNCTION",
+        "MOUNTAIN_PASS"
+      ],
+      "population": [
+        "human/berserker society"
+      ],
+      "economy": [
+        "road service",
+        "training",
+        "livestock"
+      ],
+      "institutions": [
+        "road hall",
+        "training yard"
+      ],
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "id": "SET-CHILI-TABLELAND",
+      "name": "Chili Frontier Settlement",
+      "anchor_location_id": "LOC-CHILI-STABLE",
+      "placement_reasons": [
+        "ROAD_JUNCTION",
+        "RESOURCE_SOURCE"
+      ],
+      "population": [
+        "mixed frontier residents"
+      ],
+      "economy": [
+        "stables",
+        "caravan trade",
+        "pit hospitality"
+      ],
+      "institutions": [
+        "stable market",
+        "shared march exchange"
+      ],
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "id": "SET-DUCKHOOK-ESTATE",
+      "name": "Country Club Estate Community",
+      "anchor_location_id": "LOC-COUNTRY-CLUB-JACKSON",
+      "placement_reasons": [
+        "HIGH_GROUND",
+        "ESTATE_ACCESS",
+        "WETLAND_CAUSEWAY"
+      ],
+      "population": [
+        "mixed ordinary inhabitants"
+      ],
+      "economy": [
+        "estate services",
+        "recreation",
+        "wetland transport"
+      ],
+      "institutions": [
+        "clubhouse",
+        "course grounds"
+      ],
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "id": "SET-LLC-PORT",
+      "name": "LLC Port-City Mercantile District",
+      "anchor_location_id": "LOC-LLC-STORM-CITY",
+      "placement_reasons": [
+        "PORT",
+        "COASTAL_TRADE",
+        "ROAD_JUNCTION"
+      ],
+      "population": [
+        "merchants",
+        "clerks",
+        "laborers",
+        "mixed citizens"
+      ],
+      "economy": [
+        "shipping",
+        "warehousing",
+        "finance",
+        "market exchange"
+      ],
+      "institutions": [
+        "boardroom",
+        "quays",
+        "flood works"
+      ],
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "id": "SET-BELT-CLIFF",
+      "name": "Rune Keep Retainer Community",
+      "anchor_location_id": "LOC-BELT-KEEPER-KEEP",
+      "placement_reasons": [
+        "DEFENSIBLE_RIDGE",
+        "MOUNTAIN_PASS"
+      ],
+      "population": [
+        "mixed retainers/guards/servants"
+      ],
+      "economy": [
+        "road provisioning",
+        "keep maintenance"
+      ],
+      "institutions": [
+        "championship hall"
+      ],
+      "canon_confidence": "INFERRED"
+    },
+    {
+      "id": "SET-ELNINO-COAST",
+      "name": "Storm Bowl Coastal Community",
+      "anchor_location_id": "LOC-STORM-BOWL",
+      "placement_reasons": [
+        "COASTAL_TRADE",
+        "HIGH_GROUND"
+      ],
+      "population": [
+        "ordinary coastal residents"
+      ],
+      "economy": [
+        "coastal trade",
+        "weather services"
+      ],
+      "institutions": [
+        "Storm Bowl",
+        "weather beacons"
+      ],
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "id": "SET-CHINS-BASIN",
+      "name": "People's Champ Road Commons Community",
+      "anchor_location_id": "LOC-CHINS-ROAD-COMMONS",
+      "placement_reasons": [
+        "ROAD_JUNCTION",
+        "FERTILE_BASIN"
+      ],
+      "population": [
+        "human road/working communities"
+      ],
+      "economy": [
+        "repair",
+        "market trade",
+        "food service",
+        "caravan exchange"
+      ],
+      "institutions": [
+        "road hall",
+        "public commons"
+      ],
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "id": "SET-LEAGUE-CENTRAL",
+      "name": "Central League Civic Cluster",
+      "anchor_location_id": "LOC-LEAGUE-CHAMBER",
+      "placement_reasons": [
+        "ROAD_JUNCTION",
+        "RIVER_CROSSING",
+        "LEAGUE_INSTITUTION"
+      ],
+      "population": [
+        "mixed League/civic population"
+      ],
+      "economy": [
+        "administration",
+        "records",
+        "hospitality",
+        "trade"
+      ],
+      "institutions": [
+        "League Chamber",
+        "League Archive",
+        "Compact Neutral Grounds",
+        "Pittsy's Book"
+      ],
+      "canon_confidence": "APPROVED"
+    }
+  ]
+}
