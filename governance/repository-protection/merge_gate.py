@@ -26,6 +26,7 @@ SUITE_COMMANDS = {
     "novel": [
         "python -m py_compile living-novel/os/engine/novel_os.py",
         "cd living-novel/os/evaluations && python -m unittest -v test_novel_os.py",
+        "python living-novel/os/evaluations/test_whole_book_convergence.py",
     ],
     "memo": [
         "python memo-os/tests/v5_5_acceptance_suite.py",
@@ -83,7 +84,7 @@ def suites_for_path(path: str) -> set[str]:
         or path == ".github/workflows/character-lock-ci.yml"
     ):
         suites.add("character")
-    if _starts(path, "living-novel/os/") or _starts(path, "chronicles/proof-of-concept/prologue/"):
+    if _starts(path, "living-novel/os/") or _starts(path, "living-novel/whole-book/") or _starts(path, "chronicles/proof-of-concept/prologue/"):
         suites.add("novel")
     if _starts(path, "memo-os/"):
         suites.add("memo")
