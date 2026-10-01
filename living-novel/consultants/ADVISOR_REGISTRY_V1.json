@@ -1,0 +1,149 @@
+{
+  "version": "1.0",
+  "status": "RELEASE_CANDIDATE",
+  "authority": "advisory_only",
+  "routing": {
+    "default": "TARGETED_PANEL",
+    "full_council_triggers": [
+      "book_or_prologue_architecture_change",
+      "narrator_or_pov_constitution_change",
+      "major_canonical_manuscript_rewrite",
+      "new_novel_os_literary_doctrine",
+      "live_week_to_chapter_architecture_change",
+      "cross_cutting_world_pov_continuity_prose_problem"
+    ],
+    "no_consult_examples": [
+      "deterministic_fact_correction",
+      "canon_name_or_reference_correction",
+      "score_or_stat_correction",
+      "formatting_only_edit",
+      "routine_prose_polish_without_structural_uncertainty"
+    ]
+  },
+  "advisors": [
+    {
+      "id": "secondary_world_mythic_depth",
+      "mode": "PUBLISHED_METHOD_LENS",
+      "display_name": "Secondary-World & Mythic Depth",
+      "lens": "J.R.R. Tolkien published-method/scholarship lens",
+      "source_ids": [
+        "tolkien_estate_flieger_fairy_stories"
+      ],
+      "internal_counterparts": [
+        "the_beat_writer",
+        "the_librarian"
+      ],
+      "cannot": [
+        "promote_canon",
+        "imitate_prose",
+        "invent_private_opinion"
+      ]
+    },
+    {
+      "id": "ensemble_multi_pov",
+      "mode": "PUBLISHED_METHOD_LENS",
+      "display_name": "Ensemble & Multi-POV Architecture",
+      "lens": "George R.R. Martin published-method lens",
+      "source_ids": [
+        "grrm_winter_garden",
+        "grrm_talking_about_dance"
+      ],
+      "internal_counterparts": [
+        "the_beat_writer",
+        "the_analyst",
+        "the_librarian"
+      ],
+      "cannot": [
+        "promote_canon",
+        "invent_character_psychology",
+        "imitate_prose"
+      ]
+    },
+    {
+      "id": "pov_voice_distance",
+      "mode": "PUBLISHED_METHOD_LENS",
+      "display_name": "POV, Voice & Narrative Distance",
+      "lens": "Ursula K. Le Guin published-method lens",
+      "source_ids": [
+        "leguin_steering_craft",
+        "leguin_ocean_story_session_1"
+      ],
+      "internal_counterparts": [
+        "the_beat_writer",
+        "the_librarian"
+      ],
+      "hard_dependencies": [
+        "evidence_bound_pov_packets",
+        "author_room_knowledge_envelope"
+      ],
+      "cannot": [
+        "promote_canon",
+        "imitate_prose",
+        "certify_unsupported_interiority"
+      ]
+    },
+    {
+      "id": "fantasy_systems_limits",
+      "mode": "PUBLISHED_METHOD_LENS",
+      "display_name": "Fantasy Systems, Limits & Reader Comprehension",
+      "lens": "Brandon Sanderson published-method lens",
+      "source_ids": [
+        "sanderson_laws_magic",
+        "sanderson_worldbuilding_tools_2025"
+      ],
+      "internal_counterparts": [
+        "the_architect",
+        "the_beat_writer"
+      ],
+      "cannot": [
+        "promote_canon",
+        "imitate_prose"
+      ]
+    },
+    {
+      "id": "developmental_editor",
+      "mode": "COMPOSITE_SPECIALIST",
+      "display_name": "Developmental Editor",
+      "source_ids": [],
+      "requires_engagement_source_packet": true,
+      "internal_counterparts": [
+        "the_beat_writer",
+        "the_umpire"
+      ],
+      "cannot": [
+        "invent_biography",
+        "promote_canon"
+      ]
+    },
+    {
+      "id": "serialized_continuity_editor",
+      "mode": "COMPOSITE_SPECIALIST",
+      "display_name": "Serialized Continuity & Live-Novel Editor",
+      "source_ids": [],
+      "requires_engagement_source_packet": true,
+      "internal_counterparts": [
+        "the_librarian",
+        "the_beat_writer",
+        "the_analyst"
+      ],
+      "hard_dependencies": [
+        "verified_league_evidence",
+        "current_world_state"
+      ],
+      "cannot": [
+        "invent_biography",
+        "promote_canon",
+        "leak_future_results"
+      ]
+    }
+  ],
+  "source_ids": [
+    "tolkien_estate_flieger_fairy_stories",
+    "leguin_steering_craft",
+    "leguin_ocean_story_session_1",
+    "grrm_winter_garden",
+    "grrm_talking_about_dance",
+    "sanderson_laws_magic",
+    "sanderson_worldbuilding_tools_2025"
+  ]
+}
