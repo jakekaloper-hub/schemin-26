@@ -85,9 +85,13 @@ Read in this order:
 15. `world/divisions/PIZZA_DIVISION_INDEX_V1.md`
 16. `world/state/WORLD_STATE_LEDGER_V1.md`
 17. `living-novel/os/geography/world_travel_graph_v1.json`
-18. `world/qa/WORLD_ENGINE_V1_1_ACCEPTANCE_REPORT.md`\n19. `world/atlas/integration/_INDEX.md`
+18. `world/qa/WORLD_ENGINE_V1_1_ACCEPTANCE_REPORT.md`
+19. `world/atlas/integration/_INDEX.md`
+20. `world/audits/ATLAS_PHASES_0_5_STRENGTHEN_CLOSEOUT_2026-09-30.md`
 
 World Engine V1.1 owns persistent physical geography, division spatial/cultural identity, owner-domain placement, Encounter venue resolution, routes/travel topology, recurring locations, inhabitant ontology, environmental state and geography QA. It does not own fantasy-league truth or principal character body identity.
+
+**Atlas P1 Strengthen hardening:** when `world/audits/ATLAS_PHASES_0_5_STRENGTHEN_CLOSEOUT_2026-09-30.md` is present on `main`, its deterministic-card, reference-readiness, evolution-schema, candidate-promotion, and executable-rebuild controls are ACTIVE as hardening above the original Phase 2–5 release receipts. It does not change World Engine V1.1 physical authority.
 
 Binding laws:
 - **The world determines the image; the image does not determine the world.**
