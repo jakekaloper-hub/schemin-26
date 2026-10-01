@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "triggers": {
+    "STATE_HISTORY_MUTATION": [
+      "world/data/world_state_events.json",
+      "world/data/current_world_state.json",
+      "world/location-control-plane/",
+      "world/environment-references/plates/",
+      "world/atlas/interactive/SCHEMIN_ATLAS_INTERACTIVE.html",
+      "memo-os location hydration",
+      "living-novel location hydration"
+    ],
+    "CANDIDATE_EVIDENCE": [
+      "world/data/atlas_location_candidates.json",
+      "world/atlas/interactive/SCHEMIN_ATLAS_INTERACTIVE.html"
+    ],
+    "CANDIDATE_PROMOTION_TRANSACTION": [
+      "world/data/locations.json",
+      "world/data/routes.json",
+      "world/data/atlas_location_candidates.json",
+      "world/location-control-plane/",
+      "world/environment-references/",
+      "world/atlas/interactive/SCHEMIN_ATLAS_INTERACTIVE.html",
+      "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+    ]
+  },
+  "rule": "Candidate promotion fanout is informational until a separately approved promotion transaction is executed."
+}
