@@ -1,0 +1,319 @@
+{
+  "schema_version": "2.0",
+  "status": "RELEASE_CANDIDATE",
+  "relationships": [
+    {
+      "type": "WITHIN",
+      "from": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "to": "REG-UPPER-VALLEYS"
+    },
+    {
+      "type": "DIVISION_OVERLAY",
+      "from": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "to": "DIV-BURGERS"
+    },
+    {
+      "type": "WITHIN",
+      "from": "LOC-MUD-DOGS-SWAMP",
+      "to": "REG-SOUTHERN-WETLANDS"
+    },
+    {
+      "type": "DIVISION_OVERLAY",
+      "from": "LOC-MUD-DOGS-SWAMP",
+      "to": "DIV-BURGERS"
+    },
+    {
+      "type": "WITHIN",
+      "from": "LOC-COUNTRY-CLUB-JACKSON",
+      "to": "REG-SOUTHERN-WETLANDS"
+    },
+    {
+      "type": "DIVISION_OVERLAY",
+      "from": "LOC-COUNTRY-CLUB-JACKSON",
+      "to": "DIV-WINGS"
+    },
+    {
+      "type": "WITHIN",
+      "from": "LOC-ARSENAL-BARBERSHOP",
+      "to": "REG-UPPER-VALLEYS"
+    },
+    {
+      "type": "DIVISION_OVERLAY",
+      "from": "LOC-ARSENAL-BARBERSHOP",
+      "to": "DIV-BURGERS"
+    },
+    {
+      "type": "WITHIN",
+      "from": "LOC-STORM-BOWL",
+      "to": "REG-EASTERN-STORM-COAST"
+    },
+    {
+      "type": "DIVISION_OVERLAY",
+      "from": "LOC-STORM-BOWL",
+      "to": "DIV-PIZZA"
+    },
+    {
+      "type": "WITHIN",
+      "from": "LOC-LLC-BOARDROOM",
+      "to": "REG-INNER-SEA-LITTORAL"
+    },
+    {
+      "type": "DIVISION_OVERLAY",
+      "from": "LOC-LLC-BOARDROOM",
+      "to": "DIV-PIZZA"
+    },
+    {
+      "type": "WITHIN",
+      "from": "LOC-RED-RUINS",
+      "to": "REG-EASTERN-STORM-COAST"
+    },
+    {
+      "type": "DIVISION_OVERLAY",
+      "from": "LOC-RED-RUINS",
+      "to": "DIV-WINGS"
+    },
+    {
+      "type": "WITHIN",
+      "from": "LOC-TDS-WATERFALL-TEMPLE",
+      "to": "REG-SOUTHERN-WETLANDS"
+    },
+    {
+      "type": "DIVISION_OVERLAY",
+      "from": "LOC-TDS-WATERFALL-TEMPLE",
+      "to": "DIV-BURGERS"
+    },
+    {
+      "type": "WITHIN",
+      "from": "LOC-CHILI-STABLE",
+      "to": "REG-WESTERN-TABLELANDS"
+    },
+    {
+      "type": "DIVISION_OVERLAY",
+      "from": "LOC-CHILI-STABLE",
+      "to": "DIV-WINGS"
+    },
+    {
+      "type": "WITHIN",
+      "from": "LOC-BELT-KEEPER-KEEP",
+      "to": "REG-EASTERN-STORM-COAST"
+    },
+    {
+      "type": "DIVISION_OVERLAY",
+      "from": "LOC-BELT-KEEPER-KEEP",
+      "to": "DIV-PIZZA"
+    },
+    {
+      "type": "WITHIN",
+      "from": "LOC-SLOB-FOOTHILL-CAMP",
+      "to": "REG-UPPER-VALLEYS"
+    },
+    {
+      "type": "DIVISION_OVERLAY",
+      "from": "LOC-SLOB-FOOTHILL-CAMP",
+      "to": "DIV-WINGS"
+    },
+    {
+      "type": "WITHIN",
+      "from": "LOC-CHINS-ROAD-COMMONS",
+      "to": "REG-CENTRAL-BASIN"
+    },
+    {
+      "type": "DIVISION_OVERLAY",
+      "from": "LOC-CHINS-ROAD-COMMONS",
+      "to": "DIV-PIZZA"
+    },
+    {
+      "type": "WITHIN",
+      "from": "LOC-LEAGUE-CHAMBER",
+      "to": "REG-CENTRAL-BASIN"
+    },
+    {
+      "type": "WITHIN",
+      "from": "LOC-PITTSYS-BOOK",
+      "to": "REG-CENTRAL-BASIN"
+    },
+    {
+      "type": "WITHIN",
+      "from": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "to": "REG-UPPER-VALLEYS"
+    },
+    {
+      "type": "DIVISION_OVERLAY",
+      "from": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "to": "DIV-BURGERS"
+    },
+    {
+      "type": "WITHIN",
+      "from": "LOC-DK-MUD-HILL",
+      "to": "REG-CENTRAL-BASIN"
+    },
+    {
+      "type": "DIVISION_OVERLAY",
+      "from": "LOC-DK-MUD-HILL",
+      "to": "DIV-BURGERS"
+    },
+    {
+      "type": "WITHIN",
+      "from": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "to": "REG-NORTHERN-SPINE"
+    },
+    {
+      "type": "DIVISION_OVERLAY",
+      "from": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "to": "DIV-WINGS"
+    },
+    {
+      "type": "WITHIN",
+      "from": "LOC-SOUTHERN-SPEEDWAY",
+      "to": "REG-CENTRAL-BASIN"
+    },
+    {
+      "type": "DIVISION_OVERLAY",
+      "from": "LOC-SOUTHERN-SPEEDWAY",
+      "to": "DIV-PIZZA"
+    },
+    {
+      "type": "WITHIN",
+      "from": "LOC-LLC-STORM-CITY",
+      "to": "REG-INNER-SEA-LITTORAL"
+    },
+    {
+      "type": "DIVISION_OVERLAY",
+      "from": "LOC-LLC-STORM-CITY",
+      "to": "DIV-PIZZA"
+    },
+    {
+      "type": "WITHIN",
+      "from": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "to": "REG-UPPER-VALLEYS"
+    },
+    {
+      "type": "DIVISION_OVERLAY",
+      "from": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "to": "DIV-BURGERS"
+    },
+    {
+      "type": "WITHIN",
+      "from": "LOC-TDS-CHILI-SHARED-MARCH",
+      "to": "REG-WESTERN-TABLELANDS"
+    },
+    {
+      "type": "WITHIN",
+      "from": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "to": "REG-CENTRAL-BASIN"
+    },
+    {
+      "type": "WITHIN",
+      "from": "LOC-LEAGUE-ARCHIVE",
+      "to": "REG-CENTRAL-BASIN"
+    },
+    {
+      "type": "ROUTE_TO",
+      "from": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "route_id": "ROUTE-EASTERN-ASCENT"
+    },
+    {
+      "type": "ROUTE_TO",
+      "from": "LOC-ARSENAL-BARBERSHOP",
+      "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "route_id": "ROUTE-HEARTHROAD"
+    },
+    {
+      "type": "ROUTE_TO",
+      "from": "LOC-MUD-DOGS-SWAMP",
+      "to": "LOC-COUNTRY-CLUB-JACKSON",
+      "route_id": "ROUTE-DELTA-CAUSEWAY"
+    },
+    {
+      "type": "ROUTE_TO",
+      "from": "LOC-COUNTRY-CLUB-JACKSON",
+      "to": "LOC-CHINS-ROAD-COMMONS",
+      "route_id": "ROUTE-JACKSON-LEVEE"
+    },
+    {
+      "type": "ROUTE_TO",
+      "from": "LOC-STORM-BOWL",
+      "to": "LOC-LLC-STORM-CITY",
+      "route_id": "ROUTE-STORM-COAST"
+    },
+    {
+      "type": "ROUTE_TO",
+      "from": "LOC-LLC-BOARDROOM",
+      "to": "LOC-LLC-STORM-CITY",
+      "route_id": "ROUTE-INNER-SEA-QUAY"
+    },
+    {
+      "type": "ROUTE_TO",
+      "from": "LOC-RED-RUINS",
+      "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "route_id": "ROUTE-RAIN-ESCARPMENT"
+    },
+    {
+      "type": "ROUTE_TO",
+      "from": "LOC-TDS-WATERFALL-TEMPLE",
+      "to": "LOC-MUD-DOGS-SWAMP",
+      "route_id": "ROUTE-FALLS-PATH"
+    },
+    {
+      "type": "ROUTE_TO",
+      "from": "LOC-CHILI-STABLE",
+      "to": "LOC-CHINS-ROAD-COMMONS",
+      "route_id": "ROUTE-WESTERN-RANGE"
+    },
+    {
+      "type": "ROUTE_TO",
+      "from": "LOC-BELT-KEEPER-KEEP",
+      "to": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "route_id": "ROUTE-BLACK-CLIFF"
+    },
+    {
+      "type": "ROUTE_TO",
+      "from": "LOC-CHINS-ROAD-COMMONS",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "route_id": "ROUTE-BASIN-MARKET"
+    },
+    {
+      "type": "ROUTE_TO",
+      "from": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "to": "LOC-ARSENAL-BARBERSHOP",
+      "route_id": "ROUTE-NORTHERN-PASS"
+    },
+    {
+      "type": "ROUTE_TO",
+      "from": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "to": "LOC-ARSENAL-BARBERSHOP",
+      "route_id": "ROUTE-DK-HIGHLAND-LINK"
+    },
+    {
+      "type": "ROUTE_TO",
+      "from": "LOC-TDS-WATERFALL-TEMPLE",
+      "to": "LOC-CHILI-STABLE",
+      "route_id": "ROUTE-TDS-CHILI-SHARED-MARCH"
+    },
+    {
+      "type": "ROUTE_TO",
+      "from": "LOC-LEAGUE-CHAMBER",
+      "to": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "route_id": "ROUTE-COMPACT-GROUNDS"
+    },
+    {
+      "type": "ROUTE_TO",
+      "from": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "route_id": "ROUTE-UPPER-BASIN-CONNECTOR"
+    },
+    {
+      "type": "ROUTE_TO",
+      "from": "LOC-LLC-STORM-CITY",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "route_id": "ROUTE-PORT-BASIN-CONNECTOR"
+    },
+    {
+      "type": "ROUTE_TO",
+      "from": "LOC-LEAGUE-ARCHIVE",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "route_id": "ROUTE-ARCHIVE-CHAMBER"
+    }
+  ]
+}
