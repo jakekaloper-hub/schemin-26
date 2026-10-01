@@ -33,3 +33,5 @@ jobs:
         run: python living-novel/consultants/author-council/test_author_router.py
       - name: Validate causal chapter architecture
         run: python living-novel/os/evaluations/test_causal_chapter_architecture.py
+      - name: Validate Author Council book architecture
+        run: python living-novel/os/evaluations/test_author_council_book_architecture.py
