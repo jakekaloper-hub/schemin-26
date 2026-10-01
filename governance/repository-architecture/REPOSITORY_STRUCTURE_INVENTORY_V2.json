@@ -1,0 +1,192 @@
+{
+  "version": "2.0.0",
+  "frozen_main": "d2912d0bff0ecafe1bf0f3bc7717965565b74741",
+  "tree_sha": "9aa8821b441787d10bbb4ca05d08477259a9292d",
+  "totals": {
+    "files": 1177,
+    "directories": 299,
+    "tree_entries": 1476
+  },
+  "top_level": [
+    {
+      "path": ".github",
+      "kind": "support",
+      "files": 16,
+      "dirs": 2,
+      "max_depth": 3,
+      "owner": "Repository Operations",
+      "entrypoint": null
+    },
+    {
+      "path": "archive",
+      "kind": "lifecycle",
+      "files": 1,
+      "dirs": 1,
+      "max_depth": 2,
+      "owner": "The Librarian",
+      "entrypoint": "archive/_INDEX.md"
+    },
+    {
+      "path": "bullpen",
+      "kind": "domain",
+      "files": 19,
+      "dirs": 3,
+      "max_depth": 4,
+      "owner": "Schemin Bullpen / Librarian",
+      "entrypoint": "bullpen/_INDEX.md"
+    },
+    {
+      "path": "bullpen-runtime",
+      "kind": "runtime",
+      "files": 17,
+      "dirs": 4,
+      "max_depth": 3,
+      "owner": "The Architect",
+      "entrypoint": "bullpen-runtime/README.md"
+    },
+    {
+      "path": "canon",
+      "kind": "domain",
+      "files": 155,
+      "dirs": 22,
+      "max_depth": 5,
+      "owner": "Character Canon authority",
+      "entrypoint": "canon/_INDEX.md"
+    },
+    {
+      "path": "chronicles",
+      "kind": "lifecycle",
+      "files": 173,
+      "dirs": 74,
+      "max_depth": 6,
+      "owner": "The Librarian + Narrative History",
+      "entrypoint": "chronicles/README.md"
+    },
+    {
+      "path": "data",
+      "kind": "support",
+      "files": 1,
+      "dirs": 6,
+      "max_depth": 7,
+      "owner": "Data authorities",
+      "entrypoint": "data/README.md"
+    },
+    {
+      "path": "data-gateway",
+      "kind": "domain",
+      "files": 17,
+      "dirs": 3,
+      "max_depth": 3,
+      "owner": "Data Gateway",
+      "entrypoint": "data-gateway/_INDEX.md"
+    },
+    {
+      "path": "docs",
+      "kind": "support",
+      "files": 15,
+      "dirs": 6,
+      "max_depth": 3,
+      "owner": "The Librarian",
+      "entrypoint": "docs/README.md"
+    },
+    {
+      "path": "governance",
+      "kind": "control",
+      "files": 26,
+      "dirs": 7,
+      "max_depth": 3,
+      "owner": "Cross-system governance",
+      "entrypoint": "governance/README.md"
+    },
+    {
+      "path": "living-novel",
+      "kind": "domain",
+      "files": 274,
+      "dirs": 50,
+      "max_depth": 7,
+      "owner": "Novel OS",
+      "entrypoint": "living-novel/README.md"
+    },
+    {
+      "path": "memo-os",
+      "kind": "domain",
+      "files": 137,
+      "dirs": 7,
+      "max_depth": 4,
+      "owner": "Weekly Memo OS",
+      "entrypoint": "memo-os/_INDEX.md"
+    },
+    {
+      "path": "mercer",
+      "kind": "domain",
+      "files": 4,
+      "dirs": 1,
+      "max_depth": 2,
+      "owner": "Jack Mercer",
+      "entrypoint": "mercer/_INDEX.md"
+    },
+    {
+      "path": "planning",
+      "kind": "lifecycle",
+      "files": 23,
+      "dirs": 3,
+      "max_depth": 3,
+      "owner": "Groundskeeper + owning program",
+      "entrypoint": "planning/README.md"
+    },
+    {
+      "path": "productions",
+      "kind": "lifecycle",
+      "files": 3,
+      "dirs": 2,
+      "max_depth": 3,
+      "owner": "Owning cross-system production",
+      "entrypoint": "productions/README.md"
+    },
+    {
+      "path": "prompts",
+      "kind": "support",
+      "files": 1,
+      "dirs": 1,
+      "max_depth": 2,
+      "owner": "Owning subsystem",
+      "entrypoint": "prompts/README.md"
+    },
+    {
+      "path": "schemas",
+      "kind": "support",
+      "files": 14,
+      "dirs": 1,
+      "max_depth": 2,
+      "owner": "Owning subsystem / Data",
+      "entrypoint": "schemas/README.md"
+    },
+    {
+      "path": "skills",
+      "kind": "runtime",
+      "files": 2,
+      "dirs": 2,
+      "max_depth": 3,
+      "owner": "Schemin execution adapters",
+      "entrypoint": "skills/README.md"
+    },
+    {
+      "path": "tests",
+      "kind": "support",
+      "files": 10,
+      "dirs": 1,
+      "max_depth": 2,
+      "owner": "QA / owning subsystem",
+      "entrypoint": "tests/README.md"
+    },
+    {
+      "path": "world",
+      "kind": "domain",
+      "files": 261,
+      "dirs": 103,
+      "max_depth": 5,
+      "owner": "World Engine / Atlas Control Plane",
+      "entrypoint": "world/README.md"
+    }
+  ]
+}
