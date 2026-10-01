@@ -3,12 +3,14 @@ on:
   push:
     paths:
       - "living-novel/os/**"
+      - "living-novel/consultants/**"
       - "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
       - "chronicles/proof-of-concept/prologue/**"
       - ".github/workflows/novel-os-ci.yml"
   pull_request:
     paths:
       - "living-novel/os/**"
+      - "living-novel/consultants/**"
       - "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
       - "chronicles/proof-of-concept/prologue/**"
   workflow_dispatch:
@@ -25,3 +27,5 @@ jobs:
       - name: Run deterministic and adversarial suite
         working-directory: living-novel/os/evaluations
         run: python -m unittest -v test_novel_os.py
+      - name: Validate Novel external advisor registry
+        run: python living-novel/consultants/test_advisor_registry.py
