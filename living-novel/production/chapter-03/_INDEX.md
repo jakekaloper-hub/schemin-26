@@ -1,6 +1,6 @@
 # Chapter III Production Index
 
-**Status:** MANUSCRIPT + EDITORIAL COMPLETE / FOUNDER CANON APPROVAL GATE  
+**Status:** HARD MANUSCRIPT CANON / CLOSED — 2026-10-01  
 **Story-time cutoff:** end of Week 3; Week 4 outcomes prohibited.
 
 ## Governing inputs
@@ -40,6 +40,4 @@ Hydrate `CHAPTER_DOSSIER_V2` against the closed gate. Prose remains blocked unti
 
 ## Current gate
 
-Bullpen production work is complete through CANON PROPOSAL.
-
-**Founder approval is the remaining gate before HARD MANUSCRIPT CANON / CLOSED.**
+Founder approval was received on 2026-10-01. Chapter III is **HARD MANUSCRIPT CANON / CLOSED**. Canon authority: `../../qa/CHAPTER_03_FINAL_CANON_GATE_V1.md`. Release evidence: `../../qa/CHAPTER_03_CANON_RELEASE_RECEIPT_V1.md`.
