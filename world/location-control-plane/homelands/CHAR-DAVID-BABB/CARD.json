@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "compilation_version": "phase2-v1",
+  "character_id": "CHAR-DAVID-BABB",
+  "owner": "David Babb",
+  "team": "The LLC",
+  "team_id": 4,
+  "division_id": "DIV-PIZZA",
+  "division_name": "Pizza",
+  "domain_type": "commercial-institutional",
+  "primary_location_id": "LOC-LLC-BOARDROOM",
+  "physical_zone_ids": [
+    "REG-INNER-SEA-LITTORAL"
+  ],
+  "physical_zone_profiles": [
+    {
+      "id": "REG-INNER-SEA-LITTORAL",
+      "name": "Inner Sea Littoral",
+      "terrain": [
+        "warm ports",
+        "islands",
+        "sheltered bays",
+        "coastal terraces"
+      ],
+      "climate": [
+        "maritime",
+        "warm",
+        "storm spillover"
+      ],
+      "movement": [
+        "sea lanes",
+        "port roads",
+        "coastal trade"
+      ]
+    }
+  ],
+  "ontology_class": "SINGULAR_BEING",
+  "canon_guard": [
+    "HOSTILE_TAKEOVER"
+  ],
+  "shared_location_ids": [],
+  "manifestation_modes": [],
+  "primary_landmarks": [
+    "executive chamber",
+    "ledgers",
+    "market overlook"
+  ],
+  "primary_access_route_ids": [
+    "ROUTE-INNER-SEA-QUAY"
+  ],
+  "current_world_state": [
+    "Week 2 intrusion/destruction history retained",
+    "repair state not fully specified"
+  ],
+  "ordinary_population_rule": "Do not infer a same-kind civilization from the principal.",
+  "division_visual_fingerprint": {
+    "skyline": [
+      "mercantile towers",
+      "storm-cliff keeps",
+      "coastal weather beacons",
+      "basin road halls"
+    ],
+    "materials": [
+      "cut stone",
+      "slate",
+      "brick",
+      "bronze",
+      "tile",
+      "heavy timber shutters"
+    ],
+    "roads": [
+      "quays",
+      "storm-coast roads",
+      "basin market roads",
+      "cliff approaches"
+    ],
+    "night": [
+      "harbor lamps",
+      "beacon fires",
+      "lightning silhouettes",
+      "road-hall hearths"
+    ]
+  },
+  "visual_reference_status": "CHARACTER_REFERENCE_RESOLVED_SEPARATELY__LOCATION_REFERENCE_MISSING_UNLESS_REGISTERED",
+  "open_questions": [],
+  "generated_from": [
+    "world/data/owner_domains.json",
+    "world/data/locations.json",
+    "world/data/physical_zones.json",
+    "world/data/divisions.json",
+    "world/data/current_world_state.json"
+  ],
+  "authority_note": "Derived card. Upstream sources remain authoritative."
+}
