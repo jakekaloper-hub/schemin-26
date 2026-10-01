@@ -27,3 +27,10 @@ ESPN/Flaim determines what happened. The Novel OS determines what that event mea
 8. Living 2026 Narrative
 
 The manuscript must not become an embellished weekly recap. The secondary world must function independently of fantasy-football terminology and preserve consequences across installments.
+
+
+## External Advisory Council
+
+Research-grounded external craft review is available through `living-novel/consultants/`. The council is advisory only: Author Room hydration, verified evidence, active canon, Novel OS and existing approval gates remain authoritative.
+
+Use natural language such as `Bullpen, call the Novel consultants on this`. Targeted panels are preferred; the full council is reserved for cross-cutting architectural decisions.
