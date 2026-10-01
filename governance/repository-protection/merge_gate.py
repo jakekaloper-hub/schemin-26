@@ -47,9 +47,14 @@ SUITE_COMMANDS = {
         "python -m unittest -v governance/release-evidence/test_release_evidence.py",
         "python governance/release-evidence/release_evidence.py --head-sha \"$GITHUB_SHA\"",
     ],
+    "publication": [
+        "python -m py_compile governance/publication-manifest/validate_publication_manifest.py",
+        "python governance/publication-manifest/validate_publication_manifest.py",
+        "python -m unittest -v tests/test_publication_manifest.py",
+    ],
 }
 
-ORDER = ["mission", "data", "character", "novel", "memo", "world", "release", "bullpen"]
+ORDER = ["mission", "data", "character", "novel", "memo", "world", "release", "publication", "bullpen"]
 
 def _starts(path: str, prefix: str) -> bool:
     return path == prefix.rstrip("/") or path.startswith(prefix)
@@ -103,6 +108,16 @@ def suites_for_path(path: str) -> set[str]:
         }
     ):
         suites.add("release")
+    if (
+        _starts(path, "governance/publication-manifest/")
+        or path in {
+            "tests/test_publication_manifest.py",
+            "docs/CATALOG.md",
+            "docs/INVENTORY.md",
+            "docs/SESSION_CONTEXT.md",
+        }
+    ):
+        suites.add("publication")
     if _starts(path, "world/atlas/integration/"):
         suites.add("mission")
     return suites
