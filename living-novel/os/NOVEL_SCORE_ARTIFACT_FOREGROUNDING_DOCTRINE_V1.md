@@ -1,6 +1,6 @@
 # Novel Score & Artifact Foregrounding Doctrine V1
 
-**Status:** RELEASE CANDIDATE — Author Council Engagement 001
+**Status:** RELEASED / ACTIVE — Author Council Engagement 001
 
 ## Governing law
 
