@@ -1,0 +1,30 @@
+name: Memo V5.6 Gates 1-8
+
+on:
+  push:
+    branches: [memo-os/v5-6-publication-integrity]
+    paths:
+      - 'memo-os/**'
+      - 'PROJECT_CONTROL_REGISTRY.md'
+      - '.github/workflows/memo-v5-6-gates.yml'
+  pull_request:
+    paths:
+      - 'memo-os/**'
+      - 'PROJECT_CONTROL_REGISTRY.md'
+      - '.github/workflows/memo-v5-6-gates.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  gates:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run V5.6 gates 1-8 control cycle
+        run: python memo-os/tests/v5_6_gate_cycle.py
