@@ -9,7 +9,7 @@
 2. `ATLAS_PUBLICATION_CONVERGENCE_CONTRACT_V1.json`
 3. `ATLAS_CROSS_OS_GAP_REGISTER_V1.md`
 4. `validate_publication_convergence.py`
-5. `test_publication_convergence.py`
+5. `test_publication_convergence.py`\n6. `ATLAS_PUBLICATION_CONVERGENCE_ACCEPTANCE_REPORT_V1.md`\n7. `ATLAS_PUBLICATION_CONVERGENCE_RELEASE_RECEIPT.md`
 
 ## Purpose
 
