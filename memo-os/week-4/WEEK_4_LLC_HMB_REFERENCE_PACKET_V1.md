@@ -31,3 +31,32 @@ Current Creative Claw generation surface does not accept private PDF page images
 Status: `BENCHMARK_VISUAL_REFERENCE_TRANSPORT = BLOCKED_PRIVATE_PDF_BRIDGE`.
 Compensation: structured Page Fidelity Model + page-anatomy audit.
 This does **not** count as mounted benchmark-reference proof.
+
+
+## Commissioner correction — Austin Byars identity incident
+
+**Status:** HARD FAIL / REFERENCE SUPERSEDED
+
+The previously used renderer reference for Austin Byars / HMB:
+`https://cdn.creativeclaw.co/u/b933c4c5/images/0077d7fe-8c4a-4b33-a1c9-f71595bc4c1b.png`
+
+is **not approved as the owner-identity reference for Austin Byars**.
+
+Commissioner supplied a new photographic identity reference in-chat on 2026-10-01. That uploaded photograph is the controlling face/owner-identity anchor for Austin Byars going forward.
+
+The Belt Keeper fantasy treatment may still supply:
+- corpse-pale / immortal mood;
+- black rune armor;
+- rune sword;
+- championship belt;
+- dark medieval-champion material language;
+
+but **Austin's actual facial identity must derive from the Commissioner-supplied photo**, not from the rejected generic bald/pale character previously used.
+
+### Consequences
+
+- Pass 1 LLC vs HMB art is CHARACTER_QA = FAIL.
+- TinyFish/visual-inspector agreement cannot override Commissioner identity correction.
+- Any prior automated claim that the HMB figure was "correct" is superseded.
+- No regeneration may proceed until the Commissioner-supplied photo is mounted as the Austin identity reference.
+- The old HMB crop remains historical evidence only and must not be routed as an active Austin identity source.
