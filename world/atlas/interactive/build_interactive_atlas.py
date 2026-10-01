@@ -25,7 +25,7 @@ def main():
       "references":refmap,
       "candidate_catalog":[{"id":c["id"],"name":c["working_name"],"status":c["lifecycle_status"],"zones":c.get("likely_physical_zone_ids",[]),"class":c["location_class"],"championship_only":c.get("championship_only",False)} for c in candidates]
     }
-    j=json.dumps(payload,separators=(",",":"),ensure_ascii=False).replace("</","<\/")
+    j=json.dumps(payload,separators=(",",":"),ensure_ascii=False).replace("</","<\\/")
     doc=f'''<!doctype html>
 <html><head><meta charset="utf-8"><title>Schemin '26 Interactive Atlas</title>
 <style>
