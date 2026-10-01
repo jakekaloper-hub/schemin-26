@@ -31,7 +31,9 @@ class V56CurrentMainSalvageTests(unittest.TestCase):
     def test_release_registry_is_superseded(self):
         text=(MEMO/"MEMO_RELEASE_REGISTRY_SPEC_V1.md").read_text()
         self.assertIn("SUPERSEDED",text)
-        self.assertIn("Publication Manifest V1 + Release Evidence",text)
+        self.assertIn("governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",text)
+        self.assertIn("governance/release-evidence/registry.json",text)
+        self.assertIn("Do not create or maintain a second active Memo release registry",text)
 
     def test_fixture_hash_is_fixed(self):
         data=json.loads(EVID.read_text())
