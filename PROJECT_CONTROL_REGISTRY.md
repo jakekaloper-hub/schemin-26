@@ -178,6 +178,23 @@ Active entry points:
 
 **Release receipt:** Universe OS V1.2 and Atlas Control Plane V2 are RELEASED / ACTIVE. See `world/UNIVERSE_OS_V1_2_RELEASE_RECEIPT.md` and `world/qa/UNIVERSE_OS_V1_2_ACCEPTANCE_REPORT.md`. World Engine V1.1 / Atlas Phases 1–5 remain active underlying infrastructure.
 
+### Living Novel — External Advisory Council V1
+
+**Status:** RELEASED / ACTIVE — ADVISORY ONLY (2026-10-01).**
+
+Read:
+- `living-novel/consultants/_INDEX.md`
+- `living-novel/consultants/NOVEL_EXTERNAL_ADVISORY_COUNCIL_V1.md`
+- `living-novel/consultants/NOVEL_CONSULTATION_PROTOCOL_V1.md`
+- `living-novel/consultants/ADVISOR_REGISTRY_V1.json`
+- `living-novel/consultants/SOURCE_REGISTRY_V1.json`
+- `living-novel/os/NOVEL_EXTERNAL_ADVISORY_INTEGRATION_PATCH_V1.md`
+- `living-novel/consultants/NOVEL_EXTERNAL_ADVISORY_COUNCIL_V1_RELEASE_RECEIPT.md`
+
+The council provides research-grounded external craft perspective through published-method lenses and composite specialists. It is not a new control plane and has no canon authority. Author Room hydration remains upstream; independent consultant reads are reconciled by Bullpen before any implementation enters the normal Novel OS editorial/continuity/canon gates.
+
+Natural-language requests such as "Bullpen, call the Novel consultants on this" route through Bullpen's shared external-advisory capability. Full-council review is reserved for cross-cutting architecture; targeted panels are the default.
+
 ### Jack Mercer
 Read:
 - `mercer/JACK_MERCER_FRONT_OFFICE_V2_SPEC.md`
