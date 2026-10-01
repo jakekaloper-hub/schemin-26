@@ -501,10 +501,10 @@
       "owner": "the_librarian",
       "reviewer": "the_umpire",
       "priority": "P1",
-      "status": "VERIFYING",
+      "status": "COMPLETE",
       "created_at": "2026-10-01",
       "started_at": "2026-10-01",
-      "completed_at": null,
+      "completed_at": "2026-10-01",
       "dependencies": [],
       "blocked_by": [],
       "blocks": [
@@ -525,10 +525,35 @@
           "type": "audit",
           "ref": "docs/architecture/REPOSITORY_STRUCTURE_AUDIT_V2.md",
           "status": "PASS"
+        },
+        {
+          "type": "repository_merge_gate",
+          "ref": "run:36934954134",
+          "status": "PASS"
+        },
+        {
+          "type": "project_mission_ci",
+          "ref": "run:36934954084",
+          "status": "PASS"
+        },
+        {
+          "type": "world_engine_ci",
+          "ref": "run:36934954244",
+          "status": "PASS"
+        },
+        {
+          "type": "world_engine_qa",
+          "ref": "run:36934954104",
+          "status": "PASS"
+        },
+        {
+          "type": "bullpen_runtime_ci",
+          "ref": "run:36934954225",
+          "status": "PASS"
         }
       ],
       "source_authority": "docs/architecture/REPOSITORY_ARCHITECTURE_V2_MISSION_FREEZE.md",
-      "next_action": "Verify inventory against architecture validator.",
+      "next_action": "None.",
       "aliases": [
         "repository architecture audit",
         "folder structure audit"
@@ -548,10 +573,10 @@
       "owner": "the_librarian",
       "reviewer": "the_architect",
       "priority": "P1",
-      "status": "VERIFYING",
+      "status": "COMPLETE",
       "created_at": "2026-10-01",
       "started_at": "2026-10-01",
-      "completed_at": null,
+      "completed_at": "2026-10-01",
       "dependencies": [
         "REPO-ARCH-V2-001"
       ],
@@ -579,10 +604,35 @@
           "type": "placement_standard",
           "ref": "docs/governance/FILE_PLACEMENT_STANDARD_V1.md",
           "status": "PASS"
+        },
+        {
+          "type": "repository_merge_gate",
+          "ref": "run:36934954134",
+          "status": "PASS"
+        },
+        {
+          "type": "project_mission_ci",
+          "ref": "run:36934954084",
+          "status": "PASS"
+        },
+        {
+          "type": "world_engine_ci",
+          "ref": "run:36934954244",
+          "status": "PASS"
+        },
+        {
+          "type": "world_engine_qa",
+          "ref": "run:36934954104",
+          "status": "PASS"
+        },
+        {
+          "type": "bullpen_runtime_ci",
+          "ref": "run:36934954225",
+          "status": "PASS"
         }
       ],
       "source_authority": "docs/architecture/REPOSITORY_ARCHITECTURE_V2.md",
-      "next_action": "Validate machine registry and entry-point coverage.",
+      "next_action": "None.",
       "aliases": [
         "repository architecture v2",
         "file placement"
@@ -602,10 +652,10 @@
       "owner": "the_librarian",
       "reviewer": "the_groundskeeper",
       "priority": "P1",
-      "status": "IN_PROGRESS",
+      "status": "COMPLETE",
       "created_at": "2026-10-01",
       "started_at": "2026-10-01",
-      "completed_at": null,
+      "completed_at": "2026-10-01",
       "dependencies": [
         "REPO-ARCH-V2-002"
       ],
@@ -618,9 +668,35 @@
         "Catalog/Inventory/Session Context/README/Project Control reconciled",
         "Legacy architecture points to V2"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "type": "repository_merge_gate",
+          "ref": "run:36934954134",
+          "status": "PASS"
+        },
+        {
+          "type": "project_mission_ci",
+          "ref": "run:36934954084",
+          "status": "PASS"
+        },
+        {
+          "type": "world_engine_ci",
+          "ref": "run:36934954244",
+          "status": "PASS"
+        },
+        {
+          "type": "world_engine_qa",
+          "ref": "run:36934954104",
+          "status": "PASS"
+        },
+        {
+          "type": "bullpen_runtime_ci",
+          "ref": "run:36934954225",
+          "status": "PASS"
+        }
+      ],
       "source_authority": "docs/architecture/KNOWLEDGE_ARCHITECTURE_RECONCILIATION_V2.md",
-      "next_action": "Reconcile central navigation/control documents.",
+      "next_action": "None.",
       "aliases": [
         "repository navigation",
         "entry points"
@@ -640,10 +716,10 @@
       "owner": "the_architect",
       "reviewer": "the_umpire",
       "priority": "P1",
-      "status": "NOT_STARTED",
+      "status": "COMPLETE",
       "created_at": "2026-10-01",
-      "started_at": null,
-      "completed_at": null,
+      "started_at": "2026-10-01",
+      "completed_at": "2026-10-01",
       "dependencies": [
         "REPO-ARCH-V2-003"
       ],
@@ -657,9 +733,35 @@
         "architecture changes trigger merge-gate suite",
         "clean-context navigation scenarios pass"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "type": "repository_merge_gate",
+          "ref": "run:36934954134",
+          "status": "PASS"
+        },
+        {
+          "type": "project_mission_ci",
+          "ref": "run:36934954084",
+          "status": "PASS"
+        },
+        {
+          "type": "world_engine_ci",
+          "ref": "run:36934954244",
+          "status": "PASS"
+        },
+        {
+          "type": "world_engine_qa",
+          "ref": "run:36934954104",
+          "status": "PASS"
+        },
+        {
+          "type": "bullpen_runtime_ci",
+          "ref": "run:36934954225",
+          "status": "PASS"
+        }
+      ],
       "source_authority": "docs/architecture/REPOSITORY_ARCHITECTURE_V2.md",
-      "next_action": "Build repository architecture validator and acceptance tests.",
+      "next_action": "None.",
       "aliases": [
         "repository architecture validator",
         "structural drift"
@@ -679,9 +781,9 @@
       "owner": "the_closer",
       "reviewer": "the_umpire",
       "priority": "P1",
-      "status": "NOT_STARTED",
+      "status": "VERIFYING",
       "created_at": "2026-10-01",
-      "started_at": null,
+      "started_at": "2026-10-01",
       "completed_at": null,
       "dependencies": [
         "REPO-ARCH-V2-004"
@@ -695,9 +797,40 @@
         "main-branch readback confirms architecture artifacts",
         "release receipt issued"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "type": "repository_merge_gate",
+          "ref": "run:36934954134",
+          "status": "PASS"
+        },
+        {
+          "type": "project_mission_ci",
+          "ref": "run:36934954084",
+          "status": "PASS"
+        },
+        {
+          "type": "world_engine_ci",
+          "ref": "run:36934954244",
+          "status": "PASS"
+        },
+        {
+          "type": "world_engine_qa",
+          "ref": "run:36934954104",
+          "status": "PASS"
+        },
+        {
+          "type": "bullpen_runtime_ci",
+          "ref": "run:36934954225",
+          "status": "PASS"
+        },
+        {
+          "type": "merge_and_main_readback",
+          "ref": "pending",
+          "status": "PENDING"
+        }
+      ],
       "source_authority": "docs/architecture/REPOSITORY_ARCHITECTURE_V2.md",
-      "next_action": "Promote only after enforcement and regression pass.",
+      "next_action": "Merge PR #91, perform fresh main readback, then issue release receipt.",
       "aliases": [
         "repository architecture release"
       ],
