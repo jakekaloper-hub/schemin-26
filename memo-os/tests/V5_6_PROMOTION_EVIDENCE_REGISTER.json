@@ -1,15 +1,26 @@
 {
   "schema_version": "memo-v5.6-promotion-evidence/v1",
-  "updated_at": "2026-10-01T01:32:00Z",
+  "updated_at": "2026-10-01T01:45:00Z",
   "week2_controlled_reconstruction": {
     "status": "MISSING",
     "evidence": null,
     "note": "Not yet executed as a full controlled reconstruction against release-time evidence."
   },
   "week4_real_page_acceptance": {
-    "status": "MISSING",
-    "evidence": null,
-    "note": "A non-publication Week 4 acceptance fixture exists, but it is not a real Week 4 production page."
+    "status": "PASS",
+    "evidence": {
+      "receipt": "memo-os/week-4/WEEK_4_REAL_PAGE_ACCEPTANCE_V1.md",
+      "full_page_url": "https://cdn.creativeclaw.co/u/b933c4c5/images/a6e1a076-5712-443f-a78b-6810edb40835.png",
+      "mobile_390_url": "https://cdn.creativeclaw.co/u/b933c4c5/images/8574d500-cbed-423a-bfc0-fd688e4dd5b2.png",
+      "mobile_inspection_run_id": "ec8c514f-98c6-4493-8436-9dfc68020809",
+      "matchup": "D0nkey K0ng vs ObiWan Jacoby",
+      "projections": {
+        "home": 140.78,
+        "away": 161.05
+      },
+      "winner_state": "UNDECIDED"
+    },
+    "note": "Real current-week page path completed through reference-mounted art, deterministic composition and 390px inspection. Acceptance artifact only; not a GOTW declaration or release."
   },
   "actual_reference_mount_proof": {
     "status": "PASS",
@@ -36,20 +47,20 @@
     "note": "Durable retrievable asset identity exists, but exact content hash has not been captured. Renderer-Addressable Asset Contract therefore remains unsatisfied."
   },
   "final_raster_character_world_intent_qa": {
-    "status": "PASS_WITH_LIMITATION",
+    "status": "PASS",
     "evidence": {
-      "browser_run_id": "7a49f8e5-18ed-4082-8acd-dc8db9a915ba",
+      "character_inspection_run_id": "7a49f8e5-18ed-4082-8acd-dc8db9a915ba",
+      "mobile_page_inspection_run_id": "ec8c514f-98c6-4493-8436-9dfc68020809",
       "youthful_blond_human": true,
       "earth_tone_layers": true,
       "green_energy_sword": true,
       "golden_retriever": true,
-      "mountain_war_room": true,
       "championship_belt_present": false,
-      "artifact_class": "publication illustration / art-only fixture",
-      "prohibited_dashboard_or_generic_ui": "not observed",
-      "geographic_specificity": "North Georgia cannot be proven from pixels alone; no visual contradiction observed."
+      "world_compatibility": "PASS — mountain war-room imagery does not contradict the World packet; exact North Georgia label is metadata rather than a pixel-verifiable fact.",
+      "generation_intent": "PASS — publication illustration, no dashboard/generic UI substitution",
+      "mobile_390": "PASS — no clipping/overlap; required text fields legible"
     },
-    "note": "Independent browser inspection supports Character and Generation Intent QA; World QA passes compatibility, while exact geographic label remains metadata rather than visually provable."
+    "note": "PASS applies to the accepted Week 4 page artifact. It does not certify the whole Week 4 issue."
   },
   "independent_release_audit": {
     "status": "MISSING",
