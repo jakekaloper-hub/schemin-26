@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "status": "RELEASE_CANDIDATE",
+  "institutions": [
+    {
+      "id": "INST-LEAGUE-CHAMBER",
+      "name": "League Chamber",
+      "location_id": "LOC-LEAGUE-CHAMBER",
+      "functions": [
+        "League administration",
+        "arbitration",
+        "public records interface"
+      ],
+      "neutral": true,
+      "route_context": [
+        "ROUTE-BASIN-MARKET",
+        "ROUTE-COMPACT-GROUNDS",
+        "ROUTE-UPPER-BASIN-CONNECTOR",
+        "ROUTE-PORT-BASIN-CONNECTOR",
+        "ROUTE-ARCHIVE-CHAMBER"
+      ],
+      "information_flow": [
+        "couriers",
+        "notice boards",
+        "record transfer"
+      ],
+      "record_role": "current administrative record interface"
+    },
+    {
+      "id": "INST-LEAGUE-ARCHIVE",
+      "name": "League Archive",
+      "location_id": "LOC-LEAGUE-ARCHIVE",
+      "functions": [
+        "record halls",
+        "ledger vaults",
+        "courier intake"
+      ],
+      "neutral": true,
+      "route_context": [
+        "ROUTE-ARCHIVE-CHAMBER"
+      ],
+      "information_flow": [
+        "couriers",
+        "ledger transfer"
+      ],
+      "record_role": "durable historical record"
+    },
+    {
+      "id": "INST-COMPACT-GROUNDS",
+      "name": "Compact Neutral Grounds",
+      "location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "functions": [
+        "neutral Encounters",
+        "arbiter staging",
+        "major-event arrivals"
+      ],
+      "neutral": true,
+      "route_context": [
+        "ROUTE-COMPACT-GROUNDS"
+      ],
+      "information_flow": [
+        "event notices",
+        "official results"
+      ],
+      "record_role": "event site, not archive"
+    },
+    {
+      "id": "INST-PITTSYS-BOOK",
+      "name": "Pittsy's Book",
+      "location_id": "LOC-PITTSYS-BOOK",
+      "functions": [
+        "bookmaking",
+        "settlement",
+        "wager receipts"
+      ],
+      "neutral": true,
+      "route_context": [
+        "ROUTE-BASIN-MARKET"
+      ],
+      "information_flow": [
+        "odds boards",
+        "receipts",
+        "settlement ledgers"
+      ],
+      "record_role": "commercial wagering record"
+    },
+    {
+      "id": "INST-TRANSACTION-DESK",
+      "name": "League Transaction Desk",
+      "location_id": "LOC-LEAGUE-CHAMBER",
+      "functions": [
+        "waiver/transaction intake",
+        "claims processing"
+      ],
+      "neutral": true,
+      "route_context": [
+        "ROUTE-BASIN-MARKET"
+      ],
+      "information_flow": [
+        "couriers",
+        "claim notices"
+      ],
+      "record_role": "transaction administration"
+    }
+  ]
+}
