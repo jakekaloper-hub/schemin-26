@@ -140,6 +140,8 @@ Read:
 - `world/qa/ONE_WORLD_MODEL_ANTI_FORK_AUDIT_V1.md`
 - `world/qa/ATLAS_CONTROL_PLANE_CONSOLIDATION_REPORT_V1.md`
 - `world/qa/test_one_world_model_contract.py`
+- `world/qa/ONE_WORLD_MODEL_ARCHITECTURAL_LOCK_ACCEPTANCE_REPORT_V1.md`
+- `world/ONE_WORLD_MODEL_ARCHITECTURAL_LOCK_RELEASE_RECEIPT_V1.md`
 
 **Atlas Publication Convergence V1:** when `world/atlas/integration/_INDEX.md` is present on main, it is ACTIVE as the cross-OS authoring contract binding League Data, Character Canon, World Engine, Location Control Plane, Memo OS, Novel OS, visual grounding, Interactive Atlas, Weekly World Evolution and release control. It creates no second geography/canon store.
 
