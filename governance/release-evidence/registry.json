@@ -19,7 +19,7 @@
       "system_id": "character-generation-enforcement",
       "authority_state": "ACTIVE_SAFETY_BOUNDARY",
       "anchor_path": "canon/_INDEX.md",
-      "current_receipt_id": "CHAR-R3-ENFORCEMENT-1DDB5BE"
+      "current_receipt_id": "CHAR-R4-LIBRARIAN-CLOSEOUT-0C9A000"
     },
     {
       "system_id": "character-production",
@@ -268,6 +268,33 @@
       "required_checks": [],
       "source_path": "canon/characters/missions/2026-09-30-reference-portability/RESIDUAL_RISKS.md",
       "supersedes": "CHAR-PRODUCTION-BLOCK-4F2BC8D"
+    },
+    {
+      "receipt_id": "CHAR-R4-LIBRARIAN-CLOSEOUT-0C9A000",
+      "system_id": "character-generation-enforcement",
+      "branch": "librarian/thread-closeout-character-portability-2026-10-01",
+      "tested_commit_sha": "0c9a000bb3cd4c78c0c25acef35043726426c536",
+      "observed_repo_head_sha": "0c9a000bb3cd4c78c0c25acef35043726426c536",
+      "anchor_path": "canon/_INDEX.md",
+      "anchor_blob_sha": "95c94ebff1ffe2f1636576d41ce0f978c8db12f4",
+      "test_suite": "Librarian closeout / unchanged character-runtime reconciliation",
+      "execution_timestamp": "2026-10-01T05:20:00Z",
+      "result": "PASS",
+      "unresolved_blockers": [],
+      "required_checks": [
+        {
+          "name": "Bullpen Runtime CI",
+          "conclusion": "success",
+          "run_id": 36819155914
+        },
+        {
+          "name": "Character runtime implementation",
+          "conclusion": "neutral",
+          "detail": "No canon/characters/runtime or character-test code changed in this closeout; prior active enforcement suite remains code-identical."
+        }
+      ],
+      "source_path": "bullpen/LIBRARIAN_THREAD_CLOSEOUT_CHARACTER_PORTABILITY_2026-10-01.md",
+      "supersedes": "CHAR-R3-ENFORCEMENT-1DDB5BE"
     }
   ]
 }

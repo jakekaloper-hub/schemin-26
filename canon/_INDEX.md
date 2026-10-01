@@ -62,4 +62,4 @@ Current fail-closed evidence surfaces:
 - `characters/*/REFERENCE_MANIFEST.yaml` — owner-scoped portability state.
 - `characters/runtime/reference_mount.py` — request-bound mount + subject-binding receipt contract.
 
-**Current disposition:** `SOURCE_BYTES_REQUIRED` + `PROVIDER_CAPABILITY_BLOCKED`. This does not change Character Control Plane v2's RELEASE_CANDIDATE / NOT ACTIVE status.
+**Current corrected disposition (2026-10-01 Librarian reconciliation):** source acquisition is **not** the missing Commissioner input. Recovery evidence records 12/12 uploaded raw bytes materialized, 12/12 current approved hashes resolved, and 12/12 identity mappings resolved. The open gates are **durable fresh-context binary retrieval / durable asset ingestion** and **deterministic provider reference-to-subject binding**. Do not request another bulk re-upload of the Twelve merely to address those transport/runtime gates. See `../bullpen/LIBRARIAN_THREAD_CLOSEOUT_CHARACTER_PORTABILITY_2026-10-01.md`.
