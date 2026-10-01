@@ -31,6 +31,7 @@ class UniverseResolver:
         self.settlements = load_json("settlements.json")["settlements"]
         self.economies = load_json("economies.json")["economies"]
         self.relationships = load_json("location_relationship_graph.json")["relationships"]
+        self.current_world_state = load_json("current_world_state.json")
         self.loc_by_id = {x["id"]: x for x in self.locations}
         self.route_by_id = {x["id"]: x for x in self.routes}
         self.entity_by_id = {x["entity_id"]: x for x in self.entities}
@@ -142,7 +143,16 @@ class UniverseResolver:
         loc = self._location(location)
         if not loc:
             return self._fail("UNKNOWN_LOCATION", location)
-        return self._ok(location_id=loc["id"], current_state=loc.get("current_state", []), authority=["world/data/locations.json"])
+        base_state=loc.get("current_state", [])
+        persistent_state=self.current_world_state.get("locations",{}).get(loc["id"],[])
+        return self._ok(
+            location_id=loc["id"],
+            base_state=base_state,
+            current_state=persistent_state if persistent_state else base_state,
+            persistent_state=persistent_state,
+            state_as_of=self.current_world_state.get("as_of"),
+            authority=["world/data/locations.json","world/data/current_world_state.json"],
+        )
 
     def what_institutions_near(self, location: str) -> dict[str, Any]:
         loc = self._location(location)
