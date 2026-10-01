@@ -40,6 +40,7 @@ For character-reference portability specifically, the Twelve were already re-upl
 | Architecture / repo organization | `docs/CATALOG.md`, `docs/INVENTORY.md`, Repository Architecture, latest ADRs |
 | New prompt / workflow version | owning subsystem index, `prompts/README.md`, relevant ADR / operating contract |
 | Historical question | `docs/INVENTORY.md`, `archive/_INDEX.md`, relevant migration/decision ledger |
+| Publication identity / archive / Memo ↔ Novel relationship | `governance/publication-manifest/_INDEX.md`, Publication Manifest V1, Project Control Registry, owning release gate |
 
 ## Cross-domain routing
 
