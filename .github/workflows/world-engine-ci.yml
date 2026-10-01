@@ -31,13 +31,17 @@ jobs:
         with:
           python-version: "3.12"
       - name: Compile World Engine
-        run: python -m py_compile world/engine/validate_world.py world/qa/test_world_engine.py world/qa/test_universe_v1_1.py world/atlas/render_atlas_svg.py
+        run: python -m py_compile world/engine/validate_world.py world/engine/universe_resolver.py world/qa/test_world_engine.py world/qa/test_universe_v1_1.py world/qa/test_universe_os_v1_2.py world/atlas/render_atlas_svg.py world/location-control-plane/compiler/location_control_plane.py world/location-control-plane/adapters/memo_adapter.py world/location-control-plane/adapters/novel_adapter.py world/location-control-plane/qa/test_location_control_plane.py
       - name: Validate world data
         run: python world/engine/validate_world.py
       - name: Run World Engine regression suite
         run: python world/qa/test_world_engine.py
       - name: Run Universe V1.1 geography and ontology suite
         run: python world/qa/test_universe_v1_1.py
+      - name: Run Location Control Plane Phase 2 suite
+        run: python world/location-control-plane/qa/test_location_control_plane.py
+      - name: Run Universe OS V1.2 + Atlas Control Plane acceptance
+        run: python world/qa/test_universe_os_v1_2.py
       - name: Re-run Memo OS V5.5 acceptance suite
         run: python memo-os/tests/v5_5_acceptance_suite.py
       - name: Re-run Week 4 preproduction smoke
