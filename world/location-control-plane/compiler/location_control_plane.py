@@ -28,6 +28,13 @@ def _candidate_ids() -> set[str]:
 def _routes() -> list[dict[str, Any]]:
     return load_json(ROOT / "world" / "data" / "routes.json")["routes"]
 
+def resolve_environment_reference(location_id: str) -> dict[str, Any]:
+    reg = _registry("LOCATION_REFERENCE_REGISTRY.json")
+    row = next((x for x in reg["locations"] if x["location_id"] == location_id), None)
+    if not row:
+        return {"status":"HUMAN_REVIEW_REQUIRED","reason":"UNKNOWN_LOCATION_REFERENCE","query":location_id}
+    return {"status":"CURRENT_ENVIRONMENT_REFERENCE_RESOLVED","reference":row}
+
 def resolve_location(location_id: str) -> dict[str, Any]:
     if location_id in _candidate_ids() or location_id.startswith("CAND-"):
         return {"status":"HUMAN_REVIEW_REQUIRED","reason":"CANDIDATE_NOT_ACTIVE","query":location_id}
@@ -126,9 +133,14 @@ def compile_world_packet(
     sublocation_handle: str | None = None,
     home_character_id: str | None = None,
     require_visual_reference: bool = False,
+    reference_requirement: str = "SEMANTIC",
 ) -> dict[str,Any]:
     if consumer not in {"MEMO","NOVEL","VISUAL"}:
         return {"status":"HUMAN_REVIEW_REQUIRED","reason":"UNKNOWN_CONSUMER"}
+    if reference_requirement not in {"SEMANTIC","STRUCTURAL","CINEMATIC"}:
+        return {"status":"HUMAN_REVIEW_REQUIRED","reason":"UNKNOWN_REFERENCE_REQUIREMENT"}
+    if require_visual_reference:
+        reference_requirement = "CINEMATIC"
     rr=resolve_location(location_id)
     if rr["status"]!="CURRENT_LOCATION_RESOLVED":
         return rr
@@ -143,9 +155,14 @@ def compile_world_packet(
     rels=[relationship(cid,loc) for cid in characters]
     if any(x["relationship"]=="UNKNOWN_RELATIONSHIP" for x in rels):
         blockers.append("UNRESOLVED_CHARACTER_LOCATION_RELATIONSHIP")
-    ref=loc["reference_status"]
-    if require_visual_reference and ref["visual_reference_status"]!="APPROVED_VISUAL_REFERENCE":
-        blockers.append("MISSING_APPROVED_VISUAL_REFERENCE")
+    ref_result=resolve_environment_reference(location_id)
+    if ref_result["status"]!="CURRENT_ENVIRONMENT_REFERENCE_RESOLVED":
+        return ref_result
+    ref=ref_result["reference"]
+    if reference_requirement=="STRUCTURAL" and ref.get("structural_reference_status")!="APPROVED_STRUCTURAL_REFERENCE":
+        blockers.append("MISSING_APPROVED_STRUCTURAL_REFERENCE")
+    if reference_requirement=="CINEMATIC" and ref.get("cinematic_reference_status")!="APPROVED_CINEMATIC_REFERENCE":
+        blockers.append("MISSING_APPROVED_CINEMATIC_REFERENCE")
     packet={
         "status":"HUMAN_REVIEW_REQUIRED" if blockers else "READY_FOR_SEMANTIC_QA",
         "consumer":consumer,
@@ -155,12 +172,17 @@ def compile_world_packet(
         "sublocation_handle":sublocation_handle,
         "relationships":rels,
         "consumer_overlay":_consumer_overlay(consumer,characters),
+        "reference_requirement":reference_requirement,
         "reference_status":ref,
         "open_questions":loc.get("open_questions",[]),
         "review_blockers":blockers,
         "prohibited_inventions":loc.get("prohibited_inventions",[]),
         "rule":"Packets compile authority; they do not create canon."
     }
-    if consumer=="VISUAL" and not blockers and ref["visual_reference_status"]=="APPROVED_VISUAL_REFERENCE":
+    if consumer=="VISUAL" and not blockers and reference_requirement in {"SEMANTIC","STRUCTURAL"}:
         packet["status"]="READY_FOR_RENDER"
+        packet["reference_tier_satisfied"]=reference_requirement
+    elif consumer=="VISUAL" and not blockers and reference_requirement=="CINEMATIC":
+        packet["status"]="READY_FOR_RENDER"
+        packet["reference_tier_satisfied"]="CINEMATIC"
     return packet
