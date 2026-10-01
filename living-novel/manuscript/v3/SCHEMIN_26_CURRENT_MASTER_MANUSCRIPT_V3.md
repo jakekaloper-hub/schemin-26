@@ -684,6 +684,10 @@ Not every movement deserved a chase.
 
 The League had already adjusted to the fact of him before a single 2026 matchup had been played. That was the burden of obvious leverage. Rivals did not need the archive to tell them what sat at the top of his roster. They had watched the first name disappear from the draft board.
 
+The burden was older than the draft.
+
+In 2022, Red had carried a 13–1 regular-season record into the postseason and still finished without the title. The number survived because it reopened the oldest argument in the League: whether dominance and legitimacy were the same thing. Kevin did not need to answer that argument before the season began. He only had to live where everyone else could ask it.
+
 The predator could not become unseen.
 
 He could only decide what to do with being seen.
