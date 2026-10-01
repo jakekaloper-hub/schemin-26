@@ -18,6 +18,13 @@ For substantial work:
 
 Whenever a session references the **official/published/league-shared Week 2 memo** or the **Week 2 gold standard**, resolve it to **`Week 2 memo.pdf`**, the 14-page September 23, 2026 illustrated issue with the Red Leopards “SPECIAL DELIVERY” cover. Do not substitute similarly named Week 2 finals, tests, reruns, replays, or RC candidates.
 
+
+## Repeated-input / trust-recovery rule
+
+Before asking the Commissioner to re-upload or reproduce previously supplied project inputs, reconcile repository truth and search current Project/Library/handoff evidence. A storage, durability, transport, retrieval, or renderer-binding defect must not be presented as missing user input.
+
+For character-reference portability specifically, the Twelve were already re-uploaded and materialized 12/12 in the 2026-10-01 recovery cycle. Future sessions must resume from durable retrieval + C1 reference-binding work, not another bulk-upload request. Load `bullpen/LIBRARIAN_THREAD_CLOSEOUT_CHARACTER_PORTABILITY_2026-10-01.md` when this issue is involved.
+
 ## Routing map
 
 | Intent | Load first |
