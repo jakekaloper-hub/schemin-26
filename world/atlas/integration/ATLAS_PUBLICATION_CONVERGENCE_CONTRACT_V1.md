@@ -3,7 +3,12 @@
 **Date:** 2026-09-30  
 **Status:** APPROVED FOR RELEASE — ACTIVE WHEN PRESENT ON main  
 **Scope:** Universe OS / World Engine + Novel OS + Weekly Memo OS + Character Canon + Visual Production + Publication Release  
+**Parent mission:** `SCHEMIN_26_PROJECT_MISSION.md`  
 **Machine companion:** `world/atlas/integration/ATLAS_PUBLICATION_CONVERGENCE_CONTRACT_V1.json`
+
+## Mission inheritance
+
+This convergence contract implements the canonical Schemin ’26 Project Mission. It does not define a separate objective. Its job is to make the Project Mission executable across the participating systems.
 
 ## 1. Executive decision
 

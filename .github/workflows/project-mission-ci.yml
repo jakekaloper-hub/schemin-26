@@ -1,0 +1,37 @@
+name: Schemin Project Mission CI
+
+on:
+  push:
+    paths:
+      - "SCHEMIN_26_PROJECT_MISSION.md"
+      - "governance/SCHEMIN_26_PROJECT_MISSION_CONTRACT.json"
+      - "governance/validate_project_mission.py"
+      - "PROJECT_CONTROL_REGISTRY.md"
+      - "README.md"
+      - "living-novel/MASTER_DIRECTIVE.md"
+      - "world/atlas/integration/**"
+      - ".github/workflows/project-mission-ci.yml"
+  pull_request:
+    paths:
+      - "SCHEMIN_26_PROJECT_MISSION.md"
+      - "governance/SCHEMIN_26_PROJECT_MISSION_CONTRACT.json"
+      - "governance/validate_project_mission.py"
+      - "PROJECT_CONTROL_REGISTRY.md"
+      - "README.md"
+      - "living-novel/MASTER_DIRECTIVE.md"
+      - "world/atlas/integration/**"
+      - ".github/workflows/project-mission-ci.yml"
+  workflow_dispatch:
+
+jobs:
+  mission:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile mission validator
+        run: python -m py_compile governance/validate_project_mission.py
+      - name: Validate canonical project mission
+        run: python governance/validate_project_mission.py
