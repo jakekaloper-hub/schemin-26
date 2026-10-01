@@ -53,7 +53,7 @@ Locked from Week 3:
 | W4-G5 continuity/world entry | **PASS** | persisted `end_of_week_3_2026` World Engine state bound by `WEEK_4_WORLD_ENTRY_RECEIPT_V1.md` |
 | W4-G6 personalized story intelligence | **LIVE / PARTIAL PASS** | governed reservoirs contain provenance-classified Commissioner/provider inputs; full current-week story evidence remains incomplete |
 | W4-G7 Story Room | **PROVISIONAL DEVELOPMENT AUTHORIZED / FINAL STORY LOCK BLOCKED** | G5 is closed; G3 remains partial and G6 remains partial; no reservoir is STORY_LOCKED |
-| W4-G8 issue architecture | BLOCKED | Story Room output required |
+| W4-G8 issue architecture | **BLOCKED ON STORY LOCK** | provisional Story Room development exists, but no reservoir is STORY_LOCKED |
 | W4-G9 complete issue previs | BLOCKED | architecture required |
 | W4-G10 page packets | BLOCKED | complete issue previs required |
 | W4-G11 finished generation | BLOCKED | packets + references required |
