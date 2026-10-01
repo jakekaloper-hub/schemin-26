@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "status": "RELEASE_CANDIDATE",
+  "institutions": [
+    {
+      "institution_id": "INST-LEAGUE-CHAMBER",
+      "name": "League Chamber",
+      "location_id": "LOC-LEAGUE-CHAMBER",
+      "function": [
+        "arbitration",
+        "League administration",
+        "public record interface"
+      ],
+      "neutral": true
+    },
+    {
+      "institution_id": "INST-LEAGUE-ARCHIVE",
+      "name": "League Archive",
+      "location_id": "LOC-LEAGUE-ARCHIVE",
+      "function": [
+        "records",
+        "receipts",
+        "courier intake"
+      ],
+      "neutral": true
+    },
+    {
+      "institution_id": "INST-PITTSYS-BOOK",
+      "name": "Pittsy's Book",
+      "location_id": "LOC-PITTSYS-BOOK",
+      "function": [
+        "bookmaking",
+        "settlement",
+        "wager receipts"
+      ],
+      "neutral": true
+    },
+    {
+      "institution_id": "INST-COMPACT-GROUNDS",
+      "name": "Compact Neutral Grounds",
+      "location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "function": [
+        "major neutral Encounters",
+        "arbiter staging"
+      ],
+      "neutral": true
+    }
+  ]
+}
