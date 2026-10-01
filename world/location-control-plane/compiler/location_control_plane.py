@@ -161,6 +161,8 @@ def compile_world_packet(
     ref=ref_result["reference"]
     if reference_requirement=="STRUCTURAL" and ref.get("structural_reference_status")!="APPROVED_STRUCTURAL_REFERENCE":
         blockers.append("MISSING_APPROVED_STRUCTURAL_REFERENCE")
+    if consumer=="VISUAL" and reference_requirement in {"STRUCTURAL","CINEMATIC"} and ref.get("renderer_injection_status")!="PROVEN":
+        blockers.append("RENDERER_INJECTION_UNPROVEN")
     if reference_requirement=="CINEMATIC" and ref.get("cinematic_reference_status")!="APPROVED_CINEMATIC_REFERENCE":
         blockers.append("MISSING_APPROVED_CINEMATIC_REFERENCE")
         if require_visual_reference:
@@ -181,9 +183,12 @@ def compile_world_packet(
         "prohibited_inventions":loc.get("prohibited_inventions",[]),
         "rule":"Packets compile authority; they do not create canon."
     }
-    if consumer=="VISUAL" and not blockers and reference_requirement in {"SEMANTIC","STRUCTURAL"}:
+    if consumer=="VISUAL" and not blockers and reference_requirement=="SEMANTIC":
         packet["status"]="READY_FOR_RENDER"
-        packet["reference_tier_satisfied"]=reference_requirement
+        packet["reference_tier_satisfied"]="SEMANTIC"
+    elif consumer=="VISUAL" and not blockers and reference_requirement=="STRUCTURAL":
+        packet["status"]="READY_FOR_RENDER"
+        packet["reference_tier_satisfied"]="STRUCTURAL"
     elif consumer=="VISUAL" and not blockers and reference_requirement=="CINEMATIC":
         packet["status"]="READY_FOR_RENDER"
         packet["reference_tier_satisfied"]="CINEMATIC"
