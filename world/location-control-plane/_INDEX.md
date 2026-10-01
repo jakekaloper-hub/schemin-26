@@ -48,9 +48,9 @@ It makes their location-relevant truth addressable.
 
 Semantic location grounding: available for all 23 active locations.
 
-Approved renderer-addressable environment reference bytes: not yet registered for any active location under this Phase 2 control plane.
+Phase 3 now registers approved repo-addressable structural reference bytes for all 23 active locations. External renderer injection remains separately unproven.
 
-Therefore exact visual-reference-required generation must block with HUMAN_REVIEW_REQUIRED until approved environment references are registered.
+Therefore renderer-reference-required generation must block with HUMAN_REVIEW_REQUIRED until renderer injection is proven for the requested reference tier.
 
 ## Candidate firewall
 
