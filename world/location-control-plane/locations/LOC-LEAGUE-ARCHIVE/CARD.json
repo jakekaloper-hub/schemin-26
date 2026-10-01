@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "compilation_version": "phase2-v1",
+  "location_id": "LOC-LEAGUE-ARCHIVE",
+  "name": "League Archive",
+  "canon_status": "INTERPRETIVE_CANON",
+  "location_type": "neutral_institution",
+  "physical_zone": {
+    "id": "REG-CENTRAL-BASIN",
+    "name": "Central River Basin",
+    "terrain": [
+      "broad river valleys",
+      "fertile lowlands",
+      "bridge corridors"
+    ],
+    "climate": [
+      "temperate",
+      "flood-cycle influence"
+    ],
+    "movement": [
+      "navigable rivers",
+      "major roads",
+      "bridges and toll points"
+    ]
+  },
+  "division_overlay": null,
+  "owner_character_ids": [],
+  "shared_location_ids": [],
+  "division_presence_ids": [],
+  "abstract_position": [
+    55,
+    50
+  ],
+  "access_routes": [
+    {
+      "id": "ROUTE-ARCHIVE-CHAMBER",
+      "name": "Archive–Chamber Processional",
+      "route_class": "LOCAL",
+      "from": "LOC-LEAGUE-ARCHIVE",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "constraints": [
+        "institutional traffic"
+      ],
+      "via_location_ids": []
+    }
+  ],
+  "persistent_landmarks": [
+    "record halls",
+    "ledger vaults",
+    "courier court"
+  ],
+  "addressable_feature_handles": [
+    {
+      "handle_id": "SUB::LOC-LEAGUE-ARCHIVE::RECORD-HALLS",
+      "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+      "name": "record halls",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-LEAGUE-ARCHIVE::LEDGER-VAULTS",
+      "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+      "name": "ledger vaults",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-LEAGUE-ARCHIVE::COURIER-COURT",
+      "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+      "name": "courier court",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    }
+  ],
+  "base_location_state": [
+    "neutral records institution"
+  ],
+  "current_world_state": [],
+  "historical_events": [],
+  "horizon_constraints": [],
+  "weather_relationships": [
+    {
+      "id": "WX-EASTERN-STORM",
+      "role": "PROPAGATION_ZONE",
+      "effects": [
+        "coastal surge",
+        "heavy rain",
+        "wind",
+        "road washout"
+      ],
+      "rule": "major event must record downstream/adjacent effects"
+    },
+    {
+      "id": "WX-SOUTHERN-FLOOD",
+      "role": "SOURCE_ZONE",
+      "effects": [
+        "high river",
+        "mud",
+        "causeway closure"
+      ],
+      "rule": "flooding follows watershed; not arbitrary backdrop"
+    }
+  ],
+  "visual_dna": {
+    "terrain": [
+      "broad river valleys",
+      "fertile lowlands",
+      "bridge corridors"
+    ],
+    "climate": [
+      "temperate",
+      "flood-cycle influence"
+    ],
+    "movement": [
+      "navigable rivers",
+      "major roads",
+      "bridges and toll points"
+    ],
+    "division_materials": [],
+    "division_skyline": [],
+    "division_roads": [],
+    "division_night": [],
+    "landmark_anchors": [
+      "record halls",
+      "ledger vaults",
+      "courier court"
+    ]
+  },
+  "reference_status": {
+    "location_id": "LOC-LEAGUE-ARCHIVE",
+    "semantic_reference_status": "RESOLVED_FROM_WORLD_ENGINE",
+    "visual_reference_status": "MISSING_APPROVED_VISUAL_REFERENCE",
+    "approved_reference_uris": [],
+    "candidate_reference_paths": [],
+    "blockers": [
+      "No durable approved renderer-addressable environment bytes are registered for this location."
+    ],
+    "rule": "Visual-reference-required workflows must return HUMAN_REVIEW_REQUIRED until approved bytes are registered."
+  },
+  "open_questions": [
+    "final relationship to central city government"
+  ],
+  "prohibited_inventions": [
+    "Do not move location to another physical zone.",
+    "Do not convert Division overlay into physical geography.",
+    "Do not erase unresolved current world state.",
+    "Do not create new permanent landmarks from generated scenery.",
+    "Do not infer character body identity from location theme."
+  ],
+  "source_provenance": [
+    "world/SCHEMIN_WORLD_BIBLE_ARCHIVE_AND_RECORDS_V1.md",
+    "living-novel/world/INSTITUTIONS_AND_CHAMPIONSHIP.md"
+  ],
+  "generated_from": [
+    "world/data/locations.json",
+    "world/data/routes.json",
+    "world/data/physical_zones.json",
+    "world/data/divisions.json",
+    "world/data/current_world_state.json",
+    "world/data/world_state_events.json",
+    "world/data/landmark_visibility.json",
+    "world/data/weather_regions.json"
+  ],
+  "authority_note": "Derived card. Upstream World Engine and state records remain authoritative."
+}
