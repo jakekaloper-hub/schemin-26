@@ -1,12 +1,40 @@
-"""CCCP render-contract compiler. No reference bytes = HUMAN_REVIEW_REQUIRED for recognizable generation."""
-from cccp_resolver import resolve_character
-PORTABLE_REFERENCE_READY=False
+"""CCCP render-contract compiler. Semantic resolution never authorizes rendering."""
+try:
+    from .cccp_resolver import resolve_character
+except ImportError:
+    from cccp_resolver import resolve_character
+
+LEGAL_STATES = {"GENERATION_ELIGIBLE", "GENERATION_BLOCKED", "HUMAN_REVIEW_REQUIRED"}
+
 def compile_render_contract(queries, scene=None):
-    packets=[]
-    for q in queries:
-        r=resolve_character(q)
-        if r["status"]!="CURRENT_CANON_RESOLVED": return {"status":"HUMAN_REVIEW_REQUIRED","resolution":r}
-        packets.append({"character_id":r["character_id"],"owner":r["owner"],"team":r["team"],"identity":r["identity"],"version":r["version"],"packet_path":f'canon/characters/{r["character_id"]}/T04_CHARACTER_SPEC.md',"reference_register":"canon/characters/COMMISSIONER_REFERENCE_REGISTER_12_OF_12.md"})
-    if len({p["character_id"] for p in packets}) != len(packets):
-        return {"status":"HUMAN_REVIEW_REQUIRED","reason":"DUPLICATE_OR_AMBIGUOUS_CHARACTER"}
-    return {"status":"READY_FOR_SEMANTIC_QA" if not PORTABLE_REFERENCE_READY else "READY_FOR_RENDER","portable_reference_ready":PORTABLE_REFERENCE_READY,"characters":packets,"scene":scene or {},"rule":"Packets remain owner-scoped; scene variables cannot override identity."}
+    packets = []
+    for query in queries:
+        resolved = resolve_character(query)
+        if resolved["status"] != "CURRENT_CANON_RESOLVED":
+            return {"state": "HUMAN_REVIEW_REQUIRED", "resolution": resolved}
+        packets.append({
+            "character_id": resolved["character_id"],
+            "owner": resolved["owner"],
+            "team": resolved["team"],
+            "identity": resolved["identity"],
+            "version": resolved["version"],
+            "packet_path": f'canon/characters/{resolved["character_id"]}/T04_CHARACTER_SPEC.md',
+            "reference_register": "canon/characters/COMMISSIONER_REFERENCE_REGISTER_12_OF_12.md",
+        })
+
+    if len({packet["character_id"] for packet in packets}) != len(packets):
+        return {
+            "state": "HUMAN_REVIEW_REQUIRED",
+            "reason": "DUPLICATE_OR_AMBIGUOUS_CHARACTER",
+        }
+
+    return {
+        "state": "GENERATION_BLOCKED",
+        "reason": "CHARACTER_REFERENCE_MOUNT_AND_SUBJECT_BINDING_REQUIRED",
+        "characters": packets,
+        "scene": scene or {},
+        "rule": (
+            "Semantic packets cannot authorize rendering. Only the governed runtime "
+            "may issue request/asset/subject/route-bound GENERATION_ELIGIBLE."
+        ),
+    }

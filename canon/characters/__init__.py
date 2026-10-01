@@ -1,0 +1,1 @@
+"""Schemin character authority package."""

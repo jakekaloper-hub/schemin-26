@@ -74,6 +74,8 @@ Latest explicit Commissioner-approved corrections outrank older visual plates an
 
 The typed Character Control Plane v2 under `canon/character-control-plane-v2/` is **RELEASE_CANDIDATE / NOT ACTIVE** until its release gates close. Do not treat v2 existence as runtime promotion.
 
+**Character generation enforcement:** the fail-closed runtime under `canon/characters/runtime/` is ACTIVE as an execution-safety boundary when present on `main`. It does not promote Character Control Plane v2. Character-bearing generation requires verified current asset/hash, reference mount, per-subject binding, proven provider capability, signed request-bound eligibility, governed renderer invocation, output-instance receipt, and independent Character QA. Missing evidence returns `GENERATION_BLOCKED`. Current durable 12-reference retrieval and real provider subject-binding proof remain production blockers.
+
 ### World Engine / Geography
 Current controlling build: **SCHEMIN WORLD ENGINE V1.1 — RELEASED / ACTIVE (2026-09-29)**.
 

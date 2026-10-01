@@ -1,0 +1,28 @@
+name: Character Lock CI
+on:
+  pull_request:
+    paths:
+      - "canon/characters/**"
+      - "memo-os/CCCP_INTEGRATION_CONTRACT_V1.md"
+      - "living-novel/os/engine/novel_os.py"
+      - ".github/workflows/character-lock-ci.yml"
+  push:
+    branches: [main]
+    paths:
+      - "canon/characters/**"
+      - "memo-os/CCCP_INTEGRATION_CONTRACT_V1.md"
+      - "living-novel/os/engine/novel_os.py"
+jobs:
+  character-lock:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run Character Lock suite
+        run: python -m unittest discover -s canon/characters/tests -p "test_*.py" -v
+      - name: Ban retired permissive states in executable character code
+        run: |
+          ! grep -R "PORTABLE_REFERENCE_READY" canon/characters --include="*.py"
+          ! grep -R "READY_FOR_SEMANTIC_QA" canon/characters --include="*.py"
