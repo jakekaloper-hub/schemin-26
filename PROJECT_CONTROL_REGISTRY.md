@@ -129,13 +129,13 @@ World Engine V1 remains historical release evidence and is superseded by V1.1 fo
 
 **Atlas Publication Convergence V1:** when `world/atlas/integration/_INDEX.md` is present on main, it is ACTIVE as the cross-OS authoring contract binding League Data, Character Canon, World Engine, Location Control Plane, Memo OS, Novel OS, visual grounding, Interactive Atlas, Weekly World Evolution and release control. It creates no second geography/canon store.
 
-### Universe OS V1.2 / Atlas Control Plane V2 — RELEASE CANDIDATE
+### Universe OS V1.2 / Atlas Control Plane V2 — RELEASED / ACTIVE
 
 Branch implementation: `world/universe-os-v1-2-atlas-control-plane`.
 
 This program **does not create a second geography store**. It layers Universe OS world/civilization/memory/query contracts over the existing World Engine V1.1 and Atlas Phases 1–5, while promoting Atlas into the governed spatial control plane.
 
-Release-candidate entry points:
+Active entry points:
 - `world/governance/UNIVERSE_OS_V1_2_PATCH_CONTROL_DOCUMENT.md`
 - `world/atlas/ATLAS_CONTROL_PLANE_V2.md`
 - `world/ontology/ENTITY_ONTOLOGY_V2.md`
