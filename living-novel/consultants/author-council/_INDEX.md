@@ -1,6 +1,6 @@
 # Novel Author Council — Index
 
-**Status:** RELEASE CANDIDATE  
+**Status:** RELEASED / ACTIVE — ADVISORY ONLY  
 **Program:** Author Consulting Program V2  
 **Authority:** advisory only
 
