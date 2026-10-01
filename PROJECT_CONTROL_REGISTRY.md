@@ -30,6 +30,21 @@ Creative Claw, Higgsfield, OpenArt, Runway, Adobe paid services, fal.ai, Replica
 
 ChatGPT-native capabilities are the default funded generation/editing route within plan limits. Existing connected services may be used only at their current access level with no paid upgrade assumed.
 
+## Character native-render program
+
+**Status:** ACTIVE PROGRAM PLAN / PHASE 0 COMPLETE / PHASE 1 NEXT.
+
+Read:
+- `planning/character-native-render/_INDEX.md`
+- `planning/character-native-render/CHARACTER_SOURCE_BYTE_NATIVE_RENDER_LIFECYCLE_V1.md`
+- `planning/character-native-render/PHASE_1_13_EXECUTION_PLANS_V1.md`
+- `planning/character-native-render/DIRECTOR_AUTHORITY_COUNTERWEIGHT_MATRIX_V1.md`
+- `planning/character-native-render/PROGRAM_PREMORTEM_V1.md`
+- `planning/character-native-render/PROGRAM_GAP_REGISTER_V1.json`
+- `planning/character-native-render/NEXT_GATE_DECISION_V1.md`
+
+This program plans remediation and production hardening only. It does **not** promote Character Control Plane v2, activate a paid renderer, rebuild the 12-character overview, or authorize character-bearing publication. Phase 1 Exact Source-Byte Portability is the single next execution gate.
+
 ## Canonical publication lock
 
 **Official Week 2 Memo (league-shared September 23, 2026): `Week 2 memo.pdf`.** It is the 14-page illustrated issue beginning with Red Leopards “SPECIAL DELIVERY.” This is the canonical Week 2 published artifact and gold-standard benchmark. No similarly named Week 2 “final,” test, replay, rerun, or RC candidate may replace it without explicit Commissioner supersession.

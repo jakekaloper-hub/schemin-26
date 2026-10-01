@@ -1,0 +1,207 @@
+{
+  "schema_version": "1.0.0",
+  "program": "character-source-byte-native-render",
+  "updated_at": "2026-10-01",
+  "status": "OPEN_PROGRAM",
+  "gaps": [
+    {
+      "id": "CNR-GAP-001",
+      "severity": "P0",
+      "phase": 1,
+      "title": "12/12 durable source bytes not yet proven retrievable in clean context",
+      "owner": "the_librarian",
+      "counterweights": [
+        "the_setup_man",
+        "the_warden",
+        "the_architect"
+      ],
+      "blocker_type": "external_source",
+      "acceptance_evidence": "12/12 fresh retrieval + SHA-256 + canonical storage receipts",
+      "status": "OPEN"
+    },
+    {
+      "id": "CNR-GAP-002",
+      "severity": "P1",
+      "phase": 2,
+      "title": "Provider-neutral render request and adapter baseline not promoted",
+      "owner": "the_architect",
+      "counterweights": [
+        "the_setup_man",
+        "the_groundskeeper",
+        "the_closer"
+      ],
+      "blocker_type": "internal_implementation",
+      "acceptance_evidence": "adapter conformance + No-Render + cost fail-closed receipt",
+      "status": "OPEN"
+    },
+    {
+      "id": "CNR-GAP-003",
+      "severity": "P0",
+      "phase": 3,
+      "title": "Native ChatGPT exact-reference mount/binding proof absent",
+      "owner": "the_setup_man",
+      "counterweights": [
+        "the_warden",
+        "the_librarian",
+        "the_pitching_coach"
+      ],
+      "blocker_type": "provider_capability",
+      "acceptance_evidence": "request-bound native mount/binding receipt using approved source bytes",
+      "status": "OPEN"
+    },
+    {
+      "id": "CNR-GAP-004",
+      "severity": "P0",
+      "phase": 4,
+      "title": "Historical failure trio not proven through native vertical slices",
+      "owner": "the_groundskeeper",
+      "counterweights": [
+        "the_warden",
+        "the_umpire",
+        "the_librarian"
+      ],
+      "blocker_type": "internal_implementation",
+      "acceptance_evidence": "HMB + TDS + Wilson independent Character QA PASS",
+      "status": "OPEN"
+    },
+    {
+      "id": "CNR-GAP-005",
+      "severity": "P0",
+      "phase": 5,
+      "title": "Multi-character contamination resistance unproven",
+      "owner": "the_warden",
+      "counterweights": [
+        "the_setup_man",
+        "the_groundskeeper",
+        "the_analyst"
+      ],
+      "blocker_type": "internal_implementation",
+      "acceptance_evidence": "2/3/6/12 valid binding + adversarial rejection receipt",
+      "status": "OPEN"
+    },
+    {
+      "id": "CNR-GAP-006",
+      "severity": "P1",
+      "phase": 6,
+      "title": "Character QA not calibrated as repeatable evaluation harness",
+      "owner": "the_analyst",
+      "counterweights": [
+        "the_umpire",
+        "the_groundskeeper",
+        "the_librarian"
+      ],
+      "blocker_type": "internal_implementation",
+      "acceptance_evidence": "12 QA contracts + FP/FN calibration + output-linked evidence",
+      "status": "OPEN"
+    },
+    {
+      "id": "CNR-GAP-007",
+      "severity": "P0",
+      "phase": 7,
+      "title": "All 12 characters not certified end-to-end",
+      "owner": "the_librarian",
+      "counterweights": [
+        "the_warden",
+        "the_analyst",
+        "the_groundskeeper"
+      ],
+      "blocker_type": "internal_implementation",
+      "acceptance_evidence": "12/12 certification matrix",
+      "status": "OPEN"
+    },
+    {
+      "id": "CNR-GAP-008",
+      "severity": "P2",
+      "phase": 8,
+      "title": "Current 12-character overview remains stale/derived and unreplaced",
+      "owner": "the_groundskeeper",
+      "counterweights": [
+        "the_librarian",
+        "the_umpire",
+        "the_warden"
+      ],
+      "blocker_type": "aesthetic",
+      "acceptance_evidence": "12-current-panel derived overview + metadata + Commissioner visual review",
+      "status": "BLOCKED_BY_PHASE_7"
+    },
+    {
+      "id": "CNR-GAP-009",
+      "severity": "P1",
+      "phase": 9,
+      "title": "Active consumers have not been proven to share one reference resolver",
+      "owner": "the_architect",
+      "counterweights": [
+        "the_groundskeeper",
+        "the_librarian",
+        "the_umpire"
+      ],
+      "blocker_type": "internal_implementation",
+      "acceptance_evidence": "cross-consumer resolver parity + no local current-source forks",
+      "status": "OPEN"
+    },
+    {
+      "id": "CNR-GAP-010",
+      "severity": "P1",
+      "phase": 10,
+      "title": "CCP v2 release state not reconciled against proven runtime pipeline",
+      "owner": "the_architect",
+      "counterweights": [
+        "the_librarian",
+        "the_warden",
+        "the_closer",
+        "the_umpire"
+      ],
+      "blocker_type": "commissioner_decision",
+      "acceptance_evidence": "R15 audit + explicit promote/hold decision",
+      "status": "BLOCKED_BY_PHASE_9"
+    },
+    {
+      "id": "CNR-GAP-011",
+      "severity": "P1",
+      "phase": 11,
+      "title": "Real current-week publication-fidelity proof not completed on repaired pipeline",
+      "owner": "the_groundskeeper",
+      "counterweights": [
+        "the_umpire",
+        "the_warden",
+        "the_beat_writer",
+        "the_architect"
+      ],
+      "blocker_type": "internal_implementation",
+      "acceptance_evidence": "technical + character + world + fidelity + mobile PASS",
+      "status": "BLOCKED_BY_CHARACTER_PIPELINE"
+    },
+    {
+      "id": "CNR-GAP-012",
+      "severity": "P0",
+      "phase": 12,
+      "title": "Character pipeline not production activated with rollback, trace and health evidence",
+      "owner": "the_closer",
+      "counterweights": [
+        "the_umpire",
+        "the_warden",
+        "the_architect",
+        "the_groundskeeper"
+      ],
+      "blocker_type": "internal_implementation",
+      "acceptance_evidence": "production activation receipt + rollback drill + independent Umpire PASS",
+      "status": "BLOCKED_BY_PHASE_11"
+    },
+    {
+      "id": "CNR-GAP-013",
+      "severity": "P1",
+      "phase": 13,
+      "title": "Permanent source drift, supersession and contamination monitoring not operational",
+      "owner": "the_librarian",
+      "counterweights": [
+        "the_analyst",
+        "the_closer",
+        "the_warden",
+        "the_groundskeeper"
+      ],
+      "blocker_type": "internal_implementation",
+      "acceptance_evidence": "tested detection-to-owner-to-action-to-closure loops",
+      "status": "BLOCKED_BY_PHASE_12"
+    }
+  ]
+}
