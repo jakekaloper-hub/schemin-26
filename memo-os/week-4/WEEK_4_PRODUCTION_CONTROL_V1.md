@@ -50,9 +50,9 @@ Locked from Week 3:
 | W4-G2 Week 4 schedule | PASS | six matchups verified |
 | W4-G3 fresh league data | **PARTIAL PASS** | Flaim/ESPN roster, standings, schedule, projections and transactions refreshed; medical status + exact trade assets remain open |
 | W4-G4 temporal canon | PASS FOR OPENING | current 2026-09-29 canon receipt recorded |
-| W4-G5 continuity/world entry | OPEN | resolve entering world/continuity state |
+| W4-G5 continuity/world entry | **PASS** | persisted `end_of_week_3_2026` World Engine state bound by `WEEK_4_WORLD_ENTRY_RECEIPT_V1.md` |
 | W4-G6 personalized story intelligence | OPEN | provenance-classified current-week inputs |
-| W4-G7 Story Room | BLOCKED BY G3/G5/G6 | G3 is partial only; no final thesis before remaining evidence |
+| W4-G7 Story Room | BLOCKED BY G3/G6 | G5 is closed; G3 remains partial and G6 remains open |
 | W4-G8 issue architecture | BLOCKED | Story Room output required |
 | W4-G9 complete issue previs | BLOCKED | architecture required |
 | W4-G10 page packets | BLOCKED | complete issue previs required |
@@ -83,3 +83,8 @@ Week 4 is legitimately open for evidence gathering and preproduction scaffolding
 Flaim/ESPN provider evidence is recorded in `WEEK_4_FLAIM_LEAGUE_STATE_RECEIPT_V1.md`.
 
 This advances W4-G3 from OPEN to **PARTIAL PASS**, not full PASS.
+
+
+## World entry receipt
+
+`WEEK_4_WORLD_ENTRY_RECEIPT_V1.md` binds Week 4 to the persisted World Engine state at `end_of_week_3_2026`. This closes W4-G5 only; it does not authorize Story Room, new venue canon, character production, finished art or release.
