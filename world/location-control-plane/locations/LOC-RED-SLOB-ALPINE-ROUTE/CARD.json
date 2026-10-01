@@ -1,0 +1,266 @@
+{
+  "schema_version": "1.0",
+  "compilation_version": "phase2-v1",
+  "location_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+  "name": "Alpine Wager Route",
+  "canon_status": "PROVISIONAL_CANON",
+  "location_type": "encounter_route",
+  "physical_zone": {
+    "id": "REG-NORTHERN-SPINE",
+    "name": "Northern Spine",
+    "terrain": [
+      "high mountains",
+      "narrow passes",
+      "rock ridges"
+    ],
+    "climate": [
+      "cold winters",
+      "snow at elevation",
+      "headwater precipitation"
+    ],
+    "movement": [
+      "passes constrain travel",
+      "winter closures possible",
+      "mounts and foot travel dominate"
+    ]
+  },
+  "division_overlay": {
+    "id": "DIV-WINGS",
+    "name": "Wings",
+    "food_referent": "chicken_wings",
+    "visual_fingerprint": {
+      "skyline": [
+        "stormward ruin heights",
+        "foothill camps",
+        "western stables",
+        "raised country-club grounds"
+      ],
+      "materials": [
+        "timber",
+        "iron straps",
+        "river stone",
+        "canvas",
+        "copper",
+        "weathered plaster"
+      ],
+      "roads": [
+        "foothill roads",
+        "western range tracks",
+        "levee roads",
+        "estate approaches"
+      ],
+      "night": [
+        "fire pits",
+        "stable lamps",
+        "clubhouse windows",
+        "storm-lit ruin silhouettes"
+      ]
+    },
+    "anti_drift": [
+      "Wings means chicken wings, not angel/bird/dragon wings",
+      "no giant chicken-wing terrain",
+      "do not flatten Red Leopard ruins, Slob foothills, Chili frontier and Duckhook club into one biome",
+      "home games must use the specific Wings owner's environment",
+      "TDS/Chili coexistence cannot be erased by division borders"
+    ]
+  },
+  "owner_character_ids": [],
+  "shared_location_ids": [],
+  "division_presence_ids": [],
+  "abstract_position": [
+    45,
+    82
+  ],
+  "access_routes": [
+    {
+      "id": "ROUTE-NORTHERN-PASS",
+      "name": "Northern Pass",
+      "route_class": "EXPEDITION",
+      "from": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "to": "LOC-ARSENAL-BARBERSHOP",
+      "travel_modes": [
+        "foot",
+        "mount"
+      ],
+      "constraints": [
+        "snow",
+        "rockfall",
+        "seasonal pass closure"
+      ],
+      "via_location_ids": []
+    }
+  ],
+  "persistent_landmarks": [
+    "summit",
+    "base camp",
+    "wager marker"
+  ],
+  "addressable_feature_handles": [
+    {
+      "handle_id": "SUB::LOC-RED-SLOB-ALPINE-ROUTE::SUMMIT",
+      "parent_location_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "name": "summit",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-RED-SLOB-ALPINE-ROUTE::BASE-CAMP",
+      "parent_location_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "name": "base camp",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-RED-SLOB-ALPINE-ROUTE::WAGER-MARKER",
+      "parent_location_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "name": "wager marker",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    }
+  ],
+  "base_location_state": [
+    "Week 3 wager landmark"
+  ],
+  "current_world_state": [
+    "wager/summit landmark"
+  ],
+  "historical_events": [
+    {
+      "id": "EVT-W3-ALPINE-WAGER",
+      "week": 3,
+      "event_type": "memorialization",
+      "classification": "WORLD_CANON",
+      "entering_state": [
+        "open alpine route"
+      ],
+      "continuity_out": [
+        "wager/summit receipt landmark"
+      ]
+    }
+  ],
+  "horizon_constraints": [
+    {
+      "observer_location_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "direction": "south",
+      "visible_landmarks": [
+        "upper basin haze",
+        "foothill roads"
+      ],
+      "not_guaranteed": [
+        "LOC-LEAGUE-CHAMBER"
+      ],
+      "rule": "distant basin, not readable buildings"
+    }
+  ],
+  "weather_relationships": [
+    {
+      "id": "WX-NORTHERN-WINTER",
+      "role": "SOURCE_ZONE",
+      "effects": [
+        "snow",
+        "ice",
+        "pass closure"
+      ],
+      "rule": "elevation controls severity"
+    }
+  ],
+  "visual_dna": {
+    "terrain": [
+      "high mountains",
+      "narrow passes",
+      "rock ridges"
+    ],
+    "climate": [
+      "cold winters",
+      "snow at elevation",
+      "headwater precipitation"
+    ],
+    "movement": [
+      "passes constrain travel",
+      "winter closures possible",
+      "mounts and foot travel dominate"
+    ],
+    "division_materials": [
+      "timber",
+      "iron straps",
+      "river stone",
+      "canvas",
+      "copper",
+      "weathered plaster"
+    ],
+    "division_skyline": [
+      "stormward ruin heights",
+      "foothill camps",
+      "western stables",
+      "raised country-club grounds"
+    ],
+    "division_roads": [
+      "foothill roads",
+      "western range tracks",
+      "levee roads",
+      "estate approaches"
+    ],
+    "division_night": [
+      "fire pits",
+      "stable lamps",
+      "clubhouse windows",
+      "storm-lit ruin silhouettes"
+    ],
+    "landmark_anchors": [
+      "summit",
+      "base camp",
+      "wager marker"
+    ]
+  },
+  "reference_status": {
+    "location_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+    "semantic_reference_status": "RESOLVED_FROM_WORLD_ENGINE",
+    "visual_reference_status": "MISSING_APPROVED_VISUAL_REFERENCE",
+    "approved_reference_uris": [],
+    "candidate_reference_paths": [],
+    "blockers": [
+      "No durable approved renderer-addressable environment bytes are registered for this location."
+    ],
+    "rule": "Visual-reference-required workflows must return HUMAN_REVIEW_REQUIRED until approved bytes are registered."
+  },
+  "open_questions": [],
+  "prohibited_inventions": [
+    "Do not move location to another physical zone.",
+    "Do not convert Division overlay into physical geography.",
+    "Do not erase unresolved current world state.",
+    "Do not create new permanent landmarks from generated scenery.",
+    "Do not infer character body identity from location theme."
+  ],
+  "source_provenance": [
+    "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+  ],
+  "generated_from": [
+    "world/data/locations.json",
+    "world/data/routes.json",
+    "world/data/physical_zones.json",
+    "world/data/divisions.json",
+    "world/data/current_world_state.json",
+    "world/data/world_state_events.json",
+    "world/data/landmark_visibility.json",
+    "world/data/weather_regions.json"
+  ],
+  "authority_note": "Derived card. Upstream World Engine and state records remain authoritative."
+}
