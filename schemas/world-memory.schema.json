@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/world-memory.schema.json",
+  "title": "World Memory",
+  "type": "object",
+  "required": [
+    "event_id",
+    "memory_class",
+    "current_relevance"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "week": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "era": {
+      "type": "string"
+    },
+    "source": {
+      "type": "array"
+    },
+    "participants": {
+      "type": "array"
+    },
+    "location": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "memory_class": {
+      "enum": [
+        "PERMANENT",
+        "RECURRING",
+        "HISTORICAL",
+        "SEASONAL",
+        "TEMPORARY",
+        "JOKE_EVENT_ONLY",
+        "RUMOR",
+        "SUPERSEDED"
+      ]
+    },
+    "secondary_tags": {
+      "type": "array"
+    },
+    "physical_effect": {
+      "type": "array"
+    },
+    "social_effect": {
+      "type": "array"
+    },
+    "reputation_effect": {
+      "type": "array"
+    },
+    "institutional_effect": {
+      "type": "array"
+    },
+    "expiry_condition": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "superseded_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "current_relevance": {
+      "type": "boolean"
+    }
+  }
+}

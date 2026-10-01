@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/settlement.schema.json",
+  "title": "Settlement Context",
+  "type": "object",
+  "required": [
+    "id",
+    "physical_zone_id",
+    "placement_reasons",
+    "canon_confidence",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "physical_zone_id": {
+      "type": "string"
+    },
+    "anchor_location_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "placement_reasons": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "ordinary_life": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "transport": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "food_supply": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "institutions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "canon_confidence": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  }
+}

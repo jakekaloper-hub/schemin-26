@@ -1,0 +1,117 @@
+{
+  "schema_version": "2.0",
+  "status": "RELEASED_ACTIVE",
+  "parent_system": "UNIVERSE_OS_V1_2",
+  "coordinate_policy": "schemin-local-v1 abstract/non-metric",
+  "layers": [
+    {
+      "id": "ATLAS-PHYSICAL",
+      "name": "Physical Atlas",
+      "authority": [
+        "world/data/physical_zones.json",
+        "world/atlas/PHYSICAL_ATLAS_V1.md"
+      ],
+      "writes": [
+        "terrain",
+        "hydrology_relationships",
+        "climate_constraints"
+      ]
+    },
+    {
+      "id": "ATLAS-CIVIL",
+      "name": "Civil / Institutional Atlas",
+      "authority": [
+        "world/data/settlements.json",
+        "world/data/league_institutions.json"
+      ],
+      "writes": [
+        "settlement_context",
+        "institution_context"
+      ]
+    },
+    {
+      "id": "ATLAS-DIVISION",
+      "name": "Division Atlas",
+      "authority": [
+        "world/data/divisions.json"
+      ],
+      "writes": [
+        "nonexclusive_division_overlays"
+      ]
+    },
+    {
+      "id": "ATLAS-OWNER",
+      "name": "Owner Domain Atlas",
+      "authority": [
+        "world/data/owner_domains.json",
+        "world/data/domain_profiles.json"
+      ],
+      "writes": [
+        "home_domain_context"
+      ]
+    },
+    {
+      "id": "ATLAS-TRAVEL",
+      "name": "Roads & Travel Atlas",
+      "authority": [
+        "world/data/routes.json",
+        "world/data/location_relationship_graph.json"
+      ],
+      "writes": [
+        "travel_topology"
+      ]
+    },
+    {
+      "id": "ATLAS-ENCOUNTER",
+      "name": "Encounter Atlas",
+      "authority": [
+        "world/data/encounter_venue_policy.json",
+        "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+      ],
+      "writes": [
+        "venue_resolution"
+      ]
+    },
+    {
+      "id": "ATLAS-STATE",
+      "name": "World-State Atlas",
+      "authority": [
+        "world/data/current_world_state.json",
+        "world/data/world_memory.json",
+        "world/evolution/_INDEX.md"
+      ],
+      "writes": [
+        "approved_state_history_overlays"
+      ]
+    },
+    {
+      "id": "ATLAS-WEATHER",
+      "name": "Weather Atlas",
+      "authority": [
+        "world/data/inhabitant_ontology.json",
+        "world/data/current_world_state.json"
+      ],
+      "writes": [
+        "regional_weather_state_and_el_nino_manifestation_context"
+      ]
+    },
+    {
+      "id": "ATLAS-HORIZON",
+      "name": "Horizon / Visibility Atlas",
+      "authority": [
+        "world/location-control-plane/_INDEX.md",
+        "world/production/VISUAL_WORLD_PACKET_SCHEMA_V2.md"
+      ],
+      "writes": [
+        "visibility_and_visual_spatial_context"
+      ]
+    }
+  ],
+  "laws": {
+    "second_geography_store_allowed": false,
+    "renderer_can_mutate_world": false,
+    "divisions_are_sovereign_borders": false,
+    "exact_metric_coordinates_required": false,
+    "stable_ids_required": true
+  }
+}

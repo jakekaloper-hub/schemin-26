@@ -1,0 +1,92 @@
+{
+  "schema_version": "2.0",
+  "world": {
+    "location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+    "physical_zone": "REG-UPPER-VALLEYS",
+    "world_state": [
+      "operational"
+    ],
+    "history": [],
+    "institutions": [],
+    "ordinary_inhabitants": [
+      "craft work",
+      "road services",
+      "training/communal spaces",
+      "pasture/orchard-scale activity"
+    ],
+    "weather": null
+  },
+  "atlas": {
+    "civil_context": "owner_base",
+    "division_presence": [
+      "DIV-BURGERS"
+    ],
+    "owner_domain": "DOM-JAKE-KALOPER",
+    "arrival_routes": [
+      "ROUTE-EASTERN-ASCENT",
+      "ROUTE-BLACK-CLIFF"
+    ],
+    "water_relationship": "DERIVE_FROM_ZONE_AND_LOCATION_CONTROL_PLANE",
+    "elevation_relationship": "DERIVE_FROM_ZONE_AND_LOCATION_CONTROL_PLANE",
+    "camera_direction": null,
+    "foreground_terrain": null,
+    "midground": null,
+    "background_topography": null,
+    "visible_landmarks": [
+      "high ridge",
+      "war-room overlook"
+    ],
+    "forbidden_landmarks": [],
+    "historical_overlays": []
+  },
+  "domain": {
+    "domain_id": "DOM-JAKE-KALOPER",
+    "owner_character_id": "CHAR-JAKE-KALOPER",
+    "home_anchor": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+    "physical_region": [
+      "REG-UPPER-VALLEYS"
+    ],
+    "division_affiliation": "DIV-BURGERS",
+    "domain_type": "territorial-strategic",
+    "settlement_pattern": "DERIVE_FROM_ATLAS_AND_LOCATION_CONTROL_PLANE",
+    "population_context": "PEOPLED_KIND",
+    "roads": [
+      "ROUTE-EASTERN-ASCENT"
+    ],
+    "current_state": [
+      "operational"
+    ],
+    "forbidden_drift": [
+      "OWNER_DOMAIN_NOT_SOVEREIGN_COUNTRY",
+      "NO_CHAMPIONSHIP_BELT"
+    ],
+    "source_provenance": [
+      "world/data/owner_domains.json",
+      "world/data/locations.json"
+    ]
+  },
+  "character": {
+    "principal_character_ids": [
+      "CHAR-JAKE-KALOPER"
+    ],
+    "reference_status": "CHARACTER_REFERENCE_GATE_SEPARATE",
+    "body_locks": [],
+    "negative_locks": [
+      "OWNER_DOMAIN_NOT_SOVEREIGN_COUNTRY",
+      "NO_CHAMPIONSHIP_BELT"
+    ]
+  },
+  "memory": {
+    "events": [],
+    "prohibited_literalization": [
+      "generated scenery does not create canon"
+    ]
+  },
+  "typography": {
+    "exact_location_name": "Trade Jedi Mountain Base",
+    "generated_text_allowed": false,
+    "approved_labels": [
+      "Trade Jedi Mountain Base"
+    ]
+  }
+}

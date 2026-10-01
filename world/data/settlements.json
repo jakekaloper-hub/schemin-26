@@ -1,0 +1,272 @@
+{
+  "schema_version": "1.0",
+  "status": "RELEASE_CANDIDATE",
+  "rule": "These are unnamed civilization-texture contexts, not new LOC-* canon.",
+  "settlements": [
+    {
+      "id": "SETCTX-UPPER-VALLEYS",
+      "name": "Upper Valleys settlement texture",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "anchor_location_ids": [
+        "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "LOC-DK-HIGHLAND-STRONGHOLD",
+        "LOC-SLOB-FOOTHILL-CAMP",
+        "LOC-ARSENAL-BARBERSHOP"
+      ],
+      "placement_reasons": [
+        "MOUNTAIN_PASS",
+        "ROAD_JUNCTION",
+        "HIGH_GROUND"
+      ],
+      "ordinary_life": [
+        "craft work",
+        "road services",
+        "training/communal spaces",
+        "pasture/orchard-scale activity"
+      ],
+      "transport": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "food_supply": [
+        "upland agriculture",
+        "herding",
+        "trade"
+      ],
+      "institutions": [
+        "road houses",
+        "markets",
+        "communal halls"
+      ],
+      "canon_confidence": "INFERRED_TEXTURE",
+      "status": "NON_NAMED_CONTEXT"
+    },
+    {
+      "id": "SETCTX-CENTRAL-BASIN",
+      "name": "Central Basin settlement texture",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "anchor_location_ids": [
+        "LOC-LEAGUE-CHAMBER",
+        "LOC-LEAGUE-ARCHIVE",
+        "LOC-PITTSYS-BOOK",
+        "LOC-CHINS-ROAD-COMMONS",
+        "LOC-SOUTHERN-SPEEDWAY",
+        "LOC-DK-MUD-HILL",
+        "LOC-COMPACT-NEUTRAL-GROUNDS"
+      ],
+      "placement_reasons": [
+        "RIVER_CROSSING",
+        "ROAD_JUNCTION",
+        "FERTILE_BASIN",
+        "LEAGUE_INSTITUTION"
+      ],
+      "ordinary_life": [
+        "markets",
+        "courier work",
+        "recordkeeping",
+        "caravan trade",
+        "agriculture"
+      ],
+      "transport": [
+        "foot",
+        "mount",
+        "wagon",
+        "river"
+      ],
+      "food_supply": [
+        "basin agriculture",
+        "market exchange"
+      ],
+      "institutions": [
+        "archives",
+        "chambers",
+        "bookmaking desks",
+        "racegrounds",
+        "public commons"
+      ],
+      "canon_confidence": "INFERRED_TEXTURE",
+      "status": "NON_NAMED_CONTEXT"
+    },
+    {
+      "id": "SETCTX-WESTERN-TABLELANDS",
+      "name": "Western Tablelands settlement texture",
+      "physical_zone_id": "REG-WESTERN-TABLELANDS",
+      "anchor_location_ids": [
+        "LOC-CHILI-STABLE",
+        "LOC-TDS-CHILI-SHARED-MARCH"
+      ],
+      "placement_reasons": [
+        "ROAD_JUNCTION",
+        "RESOURCE_SOURCE",
+        "HIGH_GROUND"
+      ],
+      "ordinary_life": [
+        "stable work",
+        "range activity",
+        "market exchange",
+        "pit/food hospitality"
+      ],
+      "transport": [
+        "mount",
+        "wagon",
+        "foot"
+      ],
+      "food_supply": [
+        "range goods",
+        "caravan trade"
+      ],
+      "institutions": [
+        "stables",
+        "markets",
+        "road houses"
+      ],
+      "canon_confidence": "INFERRED_TEXTURE",
+      "status": "NON_NAMED_CONTEXT"
+    },
+    {
+      "id": "SETCTX-EASTERN-STORM-COAST",
+      "name": "Eastern Storm Coast settlement texture",
+      "physical_zone_id": "REG-EASTERN-STORM-COAST",
+      "anchor_location_ids": [
+        "LOC-RED-RUINS",
+        "LOC-BELT-KEEPER-KEEP",
+        "LOC-STORM-BOWL"
+      ],
+      "placement_reasons": [
+        "DEFENSIBLE_RIDGE",
+        "COASTAL_TRADE",
+        "HIGH_GROUND"
+      ],
+      "ordinary_life": [
+        "storm preparation",
+        "forest/resource exchange",
+        "civic event service"
+      ],
+      "transport": [
+        "foot",
+        "mount",
+        "wagon",
+        "coastal vessel"
+      ],
+      "food_supply": [
+        "forest/coastal exchange",
+        "trade"
+      ],
+      "institutions": [
+        "storm shelters",
+        "markets",
+        "civic venues"
+      ],
+      "canon_confidence": "INFERRED_TEXTURE",
+      "status": "NON_NAMED_CONTEXT"
+    },
+    {
+      "id": "SETCTX-SOUTHERN-WETLANDS",
+      "name": "Southern Wetlands settlement texture",
+      "physical_zone_id": "REG-SOUTHERN-WETLANDS",
+      "anchor_location_ids": [
+        "LOC-MUD-DOGS-SWAMP",
+        "LOC-COUNTRY-CLUB-JACKSON",
+        "LOC-TDS-WATERFALL-TEMPLE"
+      ],
+      "placement_reasons": [
+        "WETLAND_CAUSEWAY",
+        "HIGH_GROUND",
+        "RIVER_CROSSING",
+        "ESTATE_ACCESS"
+      ],
+      "ordinary_life": [
+        "wetland transport",
+        "estate work",
+        "fishing/agriculture",
+        "causeway maintenance"
+      ],
+      "transport": [
+        "foot",
+        "wagon",
+        "wetland craft"
+      ],
+      "food_supply": [
+        "wetland/floodplain production",
+        "trade"
+      ],
+      "institutions": [
+        "levee stations",
+        "estate facilities",
+        "water-route markets"
+      ],
+      "canon_confidence": "INFERRED_TEXTURE",
+      "status": "NON_NAMED_CONTEXT"
+    },
+    {
+      "id": "SETCTX-INNER-SEA",
+      "name": "Inner Sea Littoral settlement texture",
+      "physical_zone_id": "REG-INNER-SEA-LITTORAL",
+      "anchor_location_ids": [
+        "LOC-LLC-BOARDROOM",
+        "LOC-LLC-STORM-CITY"
+      ],
+      "placement_reasons": [
+        "PORT",
+        "COASTAL_TRADE",
+        "RIVER_CROSSING"
+      ],
+      "ordinary_life": [
+        "shipping",
+        "warehousing",
+        "clerical work",
+        "market trade",
+        "flood-control maintenance"
+      ],
+      "transport": [
+        "foot",
+        "wagon",
+        "sea",
+        "river"
+      ],
+      "food_supply": [
+        "port imports",
+        "coastal and basin trade"
+      ],
+      "institutions": [
+        "quays",
+        "warehouses",
+        "counting houses",
+        "flood gates"
+      ],
+      "canon_confidence": "INFERRED_TEXTURE",
+      "status": "NON_NAMED_CONTEXT"
+    },
+    {
+      "id": "SETCTX-NORTHERN-SPINE",
+      "name": "Northern Spine settlement texture",
+      "physical_zone_id": "REG-NORTHERN-SPINE",
+      "anchor_location_ids": [
+        "LOC-RED-SLOB-ALPINE-ROUTE"
+      ],
+      "placement_reasons": [
+        "MOUNTAIN_PASS",
+        "HIGH_GROUND"
+      ],
+      "ordinary_life": [
+        "seasonal pass support",
+        "expedition staging"
+      ],
+      "transport": [
+        "foot",
+        "mount"
+      ],
+      "food_supply": [
+        "carried supplies",
+        "seasonal upland exchange"
+      ],
+      "institutions": [
+        "pass shelters",
+        "way stations"
+      ],
+      "canon_confidence": "INFERRED_TEXTURE",
+      "status": "NON_NAMED_CONTEXT"
+    }
+  ]
+}

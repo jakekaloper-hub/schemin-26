@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "status": "RELEASE_CANDIDATE",
+  "institutions": [
+    {
+      "id": "INST-LEAGUE-CHAMBER",
+      "location_id": "LOC-LEAGUE-CHAMBER",
+      "type": "LEAGUE_GOVERNANCE",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "INST-LEAGUE-ARCHIVE",
+      "location_id": "LOC-LEAGUE-ARCHIVE",
+      "type": "RECORDS",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "INST-PITTSYS-BOOK",
+      "location_id": "LOC-PITTSYS-BOOK",
+      "type": "COMMERCIAL_BOOKMAKING",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "INST-COMPACT-GROUNDS",
+      "location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "type": "NEUTRAL_ENCOUNTER",
+      "status": "ACTIVE"
+    }
+  ]
+}

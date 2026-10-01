@@ -3,7 +3,7 @@ on:
   push:
     paths:
       - "world/**"
-      - "schemas/world-*.schema.json"
+      - "schemas/*.schema.json"
       - ".github/workflows/world-engine-ci.yml"
       - "memo-os/WORLD_ENGINE_INTEGRATION_PATCH_V1.md"
       - "living-novel/os/WORLD_ENGINE_INTEGRATION_PATCH_V1.md"
@@ -13,7 +13,7 @@ on:
   pull_request:
     paths:
       - "world/**"
-      - "schemas/world-*.schema.json"
+      - "schemas/*.schema.json"
       - ".github/workflows/world-engine-ci.yml"
       - "memo-os/WORLD_ENGINE_INTEGRATION_PATCH_V1.md"
       - "living-novel/os/WORLD_ENGINE_INTEGRATION_PATCH_V1.md"
@@ -31,7 +31,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Compile World Engine
-        run: python -m py_compile world/engine/validate_world.py world/qa/test_world_engine.py world/qa/test_universe_v1_1.py world/atlas/render_atlas_svg.py world/location-control-plane/compiler/location_control_plane.py world/location-control-plane/adapters/memo_adapter.py world/location-control-plane/adapters/novel_adapter.py world/location-control-plane/qa/test_location_control_plane.py world/environment-references/render_structural_plates.py world/environment-references/test_environment_references.py world/atlas/interactive/build_interactive_atlas.py world/atlas/interactive/test_interactive_atlas.py world/evolution/engine/world_evolution.py world/evolution/qa/test_world_evolution.py world/atlas/integration/validate_publication_convergence.py world/atlas/integration/test_publication_convergence.py
+        run: python -m py_compile world/engine/validate_world.py world/qa/test_world_engine.py world/qa/test_universe_v1_1.py world/atlas/render_atlas_svg.py world/location-control-plane/compiler/location_control_plane.py world/location-control-plane/adapters/memo_adapter.py world/location-control-plane/adapters/novel_adapter.py world/location-control-plane/qa/test_location_control_plane.py world/environment-references/render_structural_plates.py world/environment-references/test_environment_references.py world/atlas/interactive/build_interactive_atlas.py world/atlas/interactive/test_interactive_atlas.py world/evolution/engine/world_evolution.py world/evolution/qa/test_world_evolution.py world/atlas/integration/validate_publication_convergence.py world/atlas/integration/test_publication_convergence.py world/engine/universe_resolver.py world/production/build_visual_world_packet.py world/qa/test_universe_os_v1_2.py
       - name: Validate world data
         run: python world/engine/validate_world.py
       - name: Run World Engine regression suite
@@ -48,6 +48,8 @@ jobs:
         run: python world/evolution/qa/test_world_evolution.py
       - name: Run Atlas Publication Convergence suite
         run: python world/atlas/integration/test_publication_convergence.py
+      - name: Run Universe OS V1.2 acceptance
+        run: python world/qa/test_universe_os_v1_2.py
       - name: Re-run Memo OS V5.5 acceptance suite
         run: python memo-os/tests/v5_5_acceptance_suite.py
       - name: Re-run Week 4 preproduction smoke

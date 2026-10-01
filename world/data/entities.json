@@ -1,0 +1,391 @@
+{
+  "schema_version": "2.0",
+  "status": "UNIVERSE_OS_V1_2_RELEASE_CANDIDATE",
+  "entities": [
+    {
+      "entity_id": "CHAR-JAKE-KALOPER",
+      "name": "Jake Kaloper",
+      "entity_type": "PRINCIPAL",
+      "team": "ObiWan Jacoby",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "LOCKED",
+        "source": "PROJECT_CONTROL_REGISTRY.md + canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "related_entities": [
+        "COMM-JEDI-ORDER"
+      ],
+      "location_relationship": {
+        "home_anchor": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "physical_regions": [
+          "REG-UPPER-VALLEYS"
+        ]
+      },
+      "temporal_state": "2026_ACTIVE",
+      "current_status": "ACTIVE",
+      "population_model": "PEOPLED_KIND"
+    },
+    {
+      "entity_id": "CHAR-KEVIN-ZEEK",
+      "name": "Kevin Zeek",
+      "entity_type": "PRINCIPAL",
+      "team": "Red Leopards",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "LOCKED",
+        "source": "PROJECT_CONTROL_REGISTRY.md + canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "related_entities": [
+        "KIND-RED-LEOPARD-PEOPLE"
+      ],
+      "location_relationship": {
+        "home_anchor": "LOC-RED-RUINS",
+        "physical_regions": [
+          "REG-EASTERN-STORM-COAST"
+        ]
+      },
+      "temporal_state": "2026_ACTIVE",
+      "current_status": "ACTIVE",
+      "population_model": "PEOPLED_KIND"
+    },
+    {
+      "entity_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "name": "Jordan Hollingshead",
+      "entity_type": "PRINCIPAL",
+      "team": "Slob on my Dobb",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "LOCKED",
+        "source": "PROJECT_CONTROL_REGISTRY.md + canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "related_entities": [
+        "KIND-UPPER-VALLEY-HUMANS"
+      ],
+      "location_relationship": {
+        "home_anchor": "LOC-SLOB-FOOTHILL-CAMP",
+        "physical_regions": [
+          "REG-UPPER-VALLEYS"
+        ]
+      },
+      "temporal_state": "2026_ACTIVE",
+      "current_status": "ACTIVE",
+      "population_model": "PEOPLED_KIND"
+    },
+    {
+      "entity_id": "CHAR-DAVID-BABB",
+      "name": "David Babb",
+      "entity_type": "PRINCIPAL",
+      "team": "The LLC",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "LOCKED",
+        "source": "PROJECT_CONTROL_REGISTRY.md + canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "related_entities": [],
+      "location_relationship": {
+        "home_anchor": "LOC-LLC-BOARDROOM",
+        "physical_regions": [
+          "REG-INNER-SEA-LITTORAL"
+        ]
+      },
+      "temporal_state": "2026_ACTIVE",
+      "current_status": "ACTIVE",
+      "population_model": "SINGULAR_BEING"
+    },
+    {
+      "entity_id": "CHAR-WILSON-LOOK",
+      "name": "Wilson Look",
+      "entity_type": "PRINCIPAL",
+      "team": "D0nkey K0ng",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "LOCKED",
+        "source": "PROJECT_CONTROL_REGISTRY.md + canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "related_entities": [
+        "KIND-HIGHLAND-GORILLA-PEOPLE"
+      ],
+      "location_relationship": {
+        "home_anchor": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "physical_regions": [
+          "REG-UPPER-VALLEYS",
+          "REG-NORTHERN-SPINE"
+        ]
+      },
+      "temporal_state": "2026_ACTIVE",
+      "current_status": "ACTIVE",
+      "population_model": "PEOPLED_KIND"
+    },
+    {
+      "entity_id": "CHAR-PHILLIP-PITTS",
+      "name": "Phillip Pitts",
+      "entity_type": "PRINCIPAL",
+      "team": "Three Dreaded Snake",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "LOCKED",
+        "source": "PROJECT_CONTROL_REGISTRY.md + canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "related_entities": [
+        "LOC-TDS-CHILI-SHARED-MARCH"
+      ],
+      "location_relationship": {
+        "home_anchor": "LOC-TDS-WATERFALL-TEMPLE",
+        "physical_regions": [
+          "REG-SOUTHERN-WETLANDS"
+        ]
+      },
+      "temporal_state": "2026_ACTIVE",
+      "current_status": "ACTIVE",
+      "population_model": "SHARED_COHABITATION_UNRESOLVED"
+    },
+    {
+      "entity_id": "CHAR-BRANDON-PRYOR",
+      "name": "Brandon Pryor",
+      "entity_type": "PRINCIPAL",
+      "team": "Chili Cheesers",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "LOCKED",
+        "source": "PROJECT_CONTROL_REGISTRY.md + canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "related_entities": [
+        "LOC-TDS-CHILI-SHARED-MARCH"
+      ],
+      "location_relationship": {
+        "home_anchor": "LOC-CHILI-STABLE",
+        "physical_regions": [
+          "REG-WESTERN-TABLELANDS"
+        ]
+      },
+      "temporal_state": "2026_ACTIVE",
+      "current_status": "ACTIVE",
+      "population_model": "SHARED_COHABITATION_UNRESOLVED"
+    },
+    {
+      "entity_id": "CHAR-AUSTIN-BYARS",
+      "name": "Austin Byars",
+      "entity_type": "PRINCIPAL",
+      "team": "His Majesty's Blood",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "LOCKED",
+        "source": "PROJECT_CONTROL_REGISTRY.md + canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "related_entities": [],
+      "location_relationship": {
+        "home_anchor": "LOC-BELT-KEEPER-KEEP",
+        "physical_regions": [
+          "REG-EASTERN-STORM-COAST",
+          "REG-NORTHERN-SPINE"
+        ]
+      },
+      "temporal_state": "2026_ACTIVE",
+      "current_status": "ACTIVE",
+      "population_model": "SINGULAR_BEING"
+    },
+    {
+      "entity_id": "CHAR-MANNING-WELTY",
+      "name": "Manning Welty",
+      "entity_type": "PRINCIPAL",
+      "team": "El Niño",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "LOCKED",
+        "source": "PROJECT_CONTROL_REGISTRY.md + canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "related_entities": [],
+      "location_relationship": {
+        "home_anchor": "LOC-STORM-BOWL",
+        "physical_regions": [
+          "REG-EASTERN-STORM-COAST",
+          "REG-INNER-SEA-LITTORAL"
+        ]
+      },
+      "temporal_state": "2026_ACTIVE",
+      "current_status": "ACTIVE",
+      "population_model": "SINGULAR_BEING"
+    },
+    {
+      "entity_id": "CHAR-BOBBY-MITCHELL",
+      "name": "Bobby Mitchell",
+      "entity_type": "PRINCIPAL",
+      "team": "Mud Dogs",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "LOCKED",
+        "source": "PROJECT_CONTROL_REGISTRY.md + canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "related_entities": [
+        "KIND-SWAMP-CANINE-PEOPLE"
+      ],
+      "location_relationship": {
+        "home_anchor": "LOC-MUD-DOGS-SWAMP",
+        "physical_regions": [
+          "REG-SOUTHERN-WETLANDS"
+        ]
+      },
+      "temporal_state": "2026_ACTIVE",
+      "current_status": "ACTIVE",
+      "population_model": "PEOPLED_KIND"
+    },
+    {
+      "entity_id": "CHAR-BEN-WHIPPLE",
+      "name": "Ben Whipple",
+      "entity_type": "PRINCIPAL",
+      "team": "Seven Deadly Chins",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "LOCKED",
+        "source": "PROJECT_CONTROL_REGISTRY.md + canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "related_entities": [
+        "KIND-CENTRAL-BASIN-HUMANS"
+      ],
+      "location_relationship": {
+        "home_anchor": "LOC-CHINS-ROAD-COMMONS",
+        "physical_regions": [
+          "REG-CENTRAL-BASIN"
+        ]
+      },
+      "temporal_state": "2026_ACTIVE",
+      "current_status": "ACTIVE",
+      "population_model": "PEOPLED_KIND"
+    },
+    {
+      "entity_id": "CHAR-ZACH-WILSON",
+      "name": "Zach Wilson",
+      "entity_type": "PRINCIPAL",
+      "team": "Dr. Duckhook",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "LOCKED",
+        "source": "PROJECT_CONTROL_REGISTRY.md + canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "related_entities": [],
+      "location_relationship": {
+        "home_anchor": "LOC-COUNTRY-CLUB-JACKSON",
+        "physical_regions": [
+          "REG-SOUTHERN-WETLANDS"
+        ]
+      },
+      "temporal_state": "2026_ACTIVE",
+      "current_status": "ACTIVE",
+      "population_model": "SINGULAR_BEING"
+    },
+    {
+      "entity_id": "COMM-JEDI-ORDER",
+      "name": "Jedi Order / Community",
+      "entity_type": "ORDER",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "LOCKED",
+        "source": "Commissioner clarification 2026-09-30"
+      },
+      "related_entities": [
+        "CHAR-JAKE-KALOPER",
+        "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+      ],
+      "location_relationship": {
+        "home_anchor": "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+      },
+      "temporal_state": "ESTABLISHED",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "KIND-HIGHLAND-GORILLA-PEOPLE",
+      "name": "Highland Gorilla People",
+      "entity_type": "PEOPLED_KIND",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "APPROVED",
+        "source": "world/civilization/INHABITANT_ONTOLOGY_V1.md"
+      },
+      "related_entities": [
+        "CHAR-WILSON-LOOK",
+        "LOC-DK-HIGHLAND-STRONGHOLD"
+      ],
+      "location_relationship": {
+        "home_anchor": "LOC-DK-HIGHLAND-STRONGHOLD"
+      },
+      "temporal_state": "ESTABLISHED",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "KIND-RED-LEOPARD-PEOPLE",
+      "name": "Red Leopard People",
+      "entity_type": "PEOPLED_KIND",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "APPROVED",
+        "source": "world/civilization/INHABITANT_ONTOLOGY_V1.md"
+      },
+      "related_entities": [
+        "CHAR-KEVIN-ZEEK",
+        "LOC-RED-RUINS"
+      ],
+      "location_relationship": {
+        "home_anchor": "LOC-RED-RUINS"
+      },
+      "temporal_state": "ESTABLISHED",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "KIND-UPPER-VALLEY-HUMANS",
+      "name": "Upper-Valley Human Communities",
+      "entity_type": "PEOPLED_KIND",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "APPROVED",
+        "source": "world/civilization/INHABITANT_ONTOLOGY_V1.md"
+      },
+      "related_entities": [
+        "CHAR-JORDAN-HOLLINGSHEAD",
+        "LOC-SLOB-FOOTHILL-CAMP"
+      ],
+      "location_relationship": {
+        "home_anchor": "LOC-SLOB-FOOTHILL-CAMP"
+      },
+      "temporal_state": "ESTABLISHED",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "KIND-SWAMP-CANINE-PEOPLE",
+      "name": "Southern Wetland Canine People",
+      "entity_type": "PEOPLED_KIND",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "APPROVED",
+        "source": "world/civilization/INHABITANT_ONTOLOGY_V1.md"
+      },
+      "related_entities": [
+        "CHAR-BOBBY-MITCHELL",
+        "LOC-MUD-DOGS-SWAMP"
+      ],
+      "location_relationship": {
+        "home_anchor": "LOC-MUD-DOGS-SWAMP"
+      },
+      "temporal_state": "ESTABLISHED",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "KIND-CENTRAL-BASIN-HUMANS",
+      "name": "Central Basin Human Communities",
+      "entity_type": "PEOPLED_KIND",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "APPROVED",
+        "source": "world/civilization/INHABITANT_ONTOLOGY_V1.md"
+      },
+      "related_entities": [
+        "CHAR-BEN-WHIPPLE",
+        "LOC-CHINS-ROAD-COMMONS"
+      ],
+      "location_relationship": {
+        "home_anchor": "LOC-CHINS-ROAD-COMMONS"
+      },
+      "temporal_state": "ESTABLISHED",
+      "current_status": "ACTIVE"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "status": "RELEASE_CANDIDATE",
+  "rule": "Economies are conservative texture overlays derived from terrain/transport, not new sovereign systems.",
+  "economies": [
+    {
+      "id": "ECON-REG-UPPER-VALLEYS",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "activities": [
+        "craft work",
+        "road services",
+        "training/communal spaces",
+        "pasture/orchard-scale activity"
+      ],
+      "transport": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "confidence": "INFERRED"
+    },
+    {
+      "id": "ECON-REG-CENTRAL-BASIN",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "activities": [
+        "markets",
+        "courier work",
+        "recordkeeping",
+        "caravan trade",
+        "agriculture"
+      ],
+      "transport": [
+        "foot",
+        "mount",
+        "wagon",
+        "river"
+      ],
+      "confidence": "INFERRED"
+    },
+    {
+      "id": "ECON-REG-WESTERN-TABLELANDS",
+      "physical_zone_id": "REG-WESTERN-TABLELANDS",
+      "activities": [
+        "stable work",
+        "range activity",
+        "market exchange",
+        "pit/food hospitality"
+      ],
+      "transport": [
+        "mount",
+        "wagon",
+        "foot"
+      ],
+      "confidence": "INFERRED"
+    },
+    {
+      "id": "ECON-REG-EASTERN-STORM-COAST",
+      "physical_zone_id": "REG-EASTERN-STORM-COAST",
+      "activities": [
+        "storm preparation",
+        "forest/resource exchange",
+        "civic event service"
+      ],
+      "transport": [
+        "foot",
+        "mount",
+        "wagon",
+        "coastal vessel"
+      ],
+      "confidence": "INFERRED"
+    },
+    {
+      "id": "ECON-REG-SOUTHERN-WETLANDS",
+      "physical_zone_id": "REG-SOUTHERN-WETLANDS",
+      "activities": [
+        "wetland transport",
+        "estate work",
+        "fishing/agriculture",
+        "causeway maintenance"
+      ],
+      "transport": [
+        "foot",
+        "wagon",
+        "wetland craft"
+      ],
+      "confidence": "INFERRED"
+    },
+    {
+      "id": "ECON-REG-INNER-SEA-LITTORAL",
+      "physical_zone_id": "REG-INNER-SEA-LITTORAL",
+      "activities": [
+        "shipping",
+        "warehousing",
+        "clerical work",
+        "market trade",
+        "flood-control maintenance"
+      ],
+      "transport": [
+        "foot",
+        "wagon",
+        "sea",
+        "river"
+      ],
+      "confidence": "INFERRED"
+    },
+    {
+      "id": "ECON-REG-NORTHERN-SPINE",
+      "physical_zone_id": "REG-NORTHERN-SPINE",
+      "activities": [
+        "seasonal pass support",
+        "expedition staging"
+      ],
+      "transport": [
+        "foot",
+        "mount"
+      ],
+      "confidence": "INFERRED"
+    }
+  ]
+}
