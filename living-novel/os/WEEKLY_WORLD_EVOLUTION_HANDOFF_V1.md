@@ -29,3 +29,8 @@ If a weekly transaction changes:
 then all subsequent prose hydrates the new state unless a later accepted transaction changes it again.
 
 **Novel doctrine:** accepted world evolution precedes prose evolution.
+
+
+## Strengthened derivative contract
+
+Location Cards, structural environment plates, and the Interactive Atlas are rebuilt deterministically after accepted active-state/history transactions. Memo OS and Novel OS use **pull-on-read** hydration from the rebuilt Location Control Plane; no separate stale hydration cache is assumed.
