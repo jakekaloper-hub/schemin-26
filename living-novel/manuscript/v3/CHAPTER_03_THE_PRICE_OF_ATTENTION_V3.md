@@ -1301,6 +1301,14 @@ Slob had one victory and more cumulative production than the record suggested.
 
 The LLC had one victory after two weeks of institutional pressure.
 
+The certified return read:
+
+THE LLC — 147.43.
+
+EL NIÑO — 114.62.
+
+At Storm City, protection had held long enough for David Babb's campaign to convert structure into its first result. The weather remained weather. The board simply recorded that this time the office had survived it.
+
 El Niño had one victory, including the Week Two denial of the reigning champion, and now another defeat.
 
 Duckhook had a narrow opening win, a Week Two demolition and a narrow Week Three loss.
