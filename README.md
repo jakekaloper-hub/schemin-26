@@ -2,7 +2,9 @@
 
 Canonical operating repository for the 2026 Pro Schemin' Football League project.
 
-Schemin ’26 is a persistent fantasy-sports storytelling and publication universe. Its Weekly Memo, Living Novel, Universe Atlas, and visual system are publication surfaces over one persistent fictional reality. See `SCHEMIN_26_PROJECT_MISSION.md`.\n\nThis repository is the durable source of truth for:
+Schemin ’26 is a persistent fantasy-sports storytelling and publication universe. Its Weekly Memo, Living Novel, Universe Atlas, and visual system are publication surfaces over one persistent fictional reality. See `SCHEMIN_26_PROJECT_MISSION.md`.
+
+This repository is the durable source of truth for:
 - Weekly Memo OS
 - Bullpen operating authority and reviews
 - Jack Mercer AI GM
@@ -15,9 +17,10 @@ Schemin ’26 is a persistent fantasy-sports storytelling and publication univer
 
 For substantial project work, begin with:
 
-1. `PROJECT_CONTROL_REGISTRY.md`
-2. `docs/governance/SOURCE_OF_TRUTH.md`
-3. the controlling document for the subsystem being changed
+1. `SCHEMIN_26_PROJECT_MISSION.md` — canonical north star
+2. `PROJECT_CONTROL_REGISTRY.md` — current controlling systems and releases
+3. `docs/governance/SOURCE_OF_TRUTH.md` — evidence/source precedence
+4. the controlling document for the subsystem being changed
 
 The full artifact migration and known recovery items are recorded in `MIGRATION_LEDGER.md`.
 
