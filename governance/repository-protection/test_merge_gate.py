@@ -14,6 +14,17 @@ class MergeGatePlannerTests(unittest.TestCase):
     def test_docs_only_has_no_heavy_suite(self):
         self.assertEqual(merge_gate.plan(["docs/notes/README.md"]), [])
 
+    def test_task_orientation_change_runs_orientation(self):
+        self.assertIn(
+            "orientation",
+            merge_gate.plan(["governance/task-orientation/TASK_CONTEXT_MATRIX_V1.json"]),
+        )
+
+    def test_novel_session_context_runs_orientation_and_novel(self):
+        suites = merge_gate.plan(["living-novel/os/SESSION_CONTEXT.md"])
+        self.assertIn("orientation", suites)
+        self.assertIn("novel", suites)
+
     def test_memo_change_runs_memo(self):
         self.assertIn("memo", merge_gate.plan(["memo-os/week-4/_INDEX.md"]))
 
