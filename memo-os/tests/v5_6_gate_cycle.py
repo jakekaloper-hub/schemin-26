@@ -208,21 +208,38 @@ def gate7():
       if all(checks) else "PR hardening invariant missing")
 
 def gate8():
-    # Promotion must remain blocked until real production/media evidence exists.
-    evidence={
-      "week2_controlled_reconstruction":False,
-      "week4_real_page_acceptance":False,
-      "actual_reference_mount_proof":False,
-      "renderer_addressable_exact_bytes":False,
-      "final_raster_character_world_intent_qa":False,
-      "independent_release_audit":False,
-      "zero_critical_defects":True,
-    }
-    missing=[k for k,v in evidence.items() if not v]
-    if not missing:
+    # Promotion evidence is persisted outside the test code so real receipts can
+    # advance the gate without hard-coding a self-certifying PASS.
+    evidence_path=TESTS/"V5_6_PROMOTION_EVIDENCE_REGISTER.json"
+    if not evidence_path.exists():
+        return GateResult("G8","BLOCKED","Promotion evidence register missing.")
+    reg=json.loads(evidence_path.read_text())
+    required=[
+      "week2_controlled_reconstruction",
+      "week4_real_page_acceptance",
+      "actual_reference_mount_proof",
+      "renderer_addressable_exact_bytes",
+      "final_raster_character_world_intent_qa",
+      "independent_release_audit",
+      "zero_critical_defects",
+    ]
+    passing={"PASS"}
+    missing=[]
+    partial=[]
+    for key in required:
+        status=(reg.get(key) or {}).get("status","MISSING")
+        if status in passing:
+            continue
+        if status.startswith("PASS_WITH"):
+            partial.append(key)
+        else:
+            missing.append(key)
+    if not missing and not partial:
         return GateResult("G8","PASS","All promotion evidence present; eligible for explicit registry promotion.")
-    return GateResult("G8","BLOCKED",
-      "Promotion correctly withheld; missing production evidence: "+", ".join(missing))
+    parts=[]
+    if missing: parts.append("missing/unsatisfied: "+", ".join(missing))
+    if partial: parts.append("partial: "+", ".join(partial))
+    return GateResult("G8","BLOCKED","Promotion correctly withheld; "+"; ".join(parts))
 
 GATES=[gate1,gate2,gate3,gate4,gate5,gate6,gate7,gate8]
 
