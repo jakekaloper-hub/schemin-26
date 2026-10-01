@@ -6,6 +6,16 @@
 
 This file is the shortest authoritative entry point for substantial Schemin '26 work.
 
+## Canonical project mission
+
+**First read:** `SCHEMIN_26_PROJECT_MISSION.md`
+
+The Project Mission is the Commissioner-approved north star above every subsystem. Weekly Memo OS, Living Novel OS, World Engine / Universe Atlas, Character Canon, visual production, data ingestion, publication control, and future Schemin systems must operate as surfaces of one persistent fictional reality.
+
+Subsystem documents may specialize HOW their domain works. They may not redefine WHY the project exists or create an incompatible reality.
+
+Machine-readable mission invariants: `governance/SCHEMIN_26_PROJECT_MISSION_CONTRACT.json`.
+
 ## Canonical publication lock
 
 **Official Week 2 Memo (league-shared September 23, 2026): `Week 2 memo.pdf`.** It is the 14-page illustrated issue beginning with Red Leopards “SPECIAL DELIVERY.” This is the canonical Week 2 published artifact and gold-standard benchmark. No similarly named Week 2 “final,” test, replay, rerun, or RC candidate may replace it without explicit Commissioner supersession.
@@ -86,6 +96,7 @@ Read in this order:
 16. `world/state/WORLD_STATE_LEDGER_V1.md`
 17. `living-novel/os/geography/world_travel_graph_v1.json`
 18. `world/qa/WORLD_ENGINE_V1_1_ACCEPTANCE_REPORT.md`
+19. `world/atlas/integration/_INDEX.md`
 
 World Engine V1.1 owns persistent physical geography, division spatial/cultural identity, owner-domain placement, Encounter venue resolution, routes/travel topology, recurring locations, inhabitant ontology, environmental state and geography QA. It does not own fantasy-league truth or principal character body identity.
 
@@ -115,6 +126,27 @@ World Engine V1 remains historical release evidence and is superseded by V1.1 fo
 **Atlas Phase 4 / Interactive Atlas:** when world/atlas/interactive/_INDEX.md is present on main, the standalone interactive Atlas is ACTIVE as a read-only canonical visualization. Editorial candidates remain non-spatial and non-active.
 
 **Atlas Phase 5 / Weekly World Evolution:** when world/evolution/_INDEX.md is present on main, the dry-run-first weekly evolution engine is ACTIVE for governed post-release state/history transactions. Candidate promotion remains separately gated and never implicit.
+
+**Atlas Publication Convergence V1:** when `world/atlas/integration/_INDEX.md` is present on main, it is ACTIVE as the cross-OS authoring contract binding League Data, Character Canon, World Engine, Location Control Plane, Memo OS, Novel OS, visual grounding, Interactive Atlas, Weekly World Evolution and release control. It creates no second geography/canon store.
+
+### Universe OS V1.2 / Atlas Control Plane V2 — RELEASE CANDIDATE
+
+Branch implementation: `world/universe-os-v1-2-atlas-control-plane`.
+
+This program **does not create a second geography store**. It layers Universe OS world/civilization/memory/query contracts over the existing World Engine V1.1 and Atlas Phases 1–5, while promoting Atlas into the governed spatial control plane.
+
+Release-candidate entry points:
+- `world/governance/UNIVERSE_OS_V1_2_PATCH_CONTROL_DOCUMENT.md`
+- `world/atlas/ATLAS_CONTROL_PLANE_V2.md`
+- `world/ontology/ENTITY_ONTOLOGY_V2.md`
+- `world/domains/DOMAIN_ARCHITECTURE_V2.md`
+- `world/history/WORLD_MEMORY_ENGINE_V1.md`
+- `world/civilization/CIVILIZATION_DENSITY_ENGINE_V1.md`
+- `governance/SCHEMIN_OS_CONTRACT_MAP_V1.md`
+- `world/engine/universe_resolver.py`
+- `world/qa/UNIVERSE_OS_V1_2_ACCEPTANCE_SUITE.md`
+
+**Promotion rule:** V1.2/V2 remains RELEASE_CANDIDATE until its acceptance suite, existing World Engine/Atlas regressions, Atlas Publication Convergence, Memo OS and Project Mission checks are green and a release receipt is committed. Existing World Engine V1.1 / Atlas Phases 1–5 remain active until promotion.
 
 ### Jack Mercer
 Read:
