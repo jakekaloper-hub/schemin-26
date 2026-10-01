@@ -19,13 +19,13 @@
       "system_id": "character-generation-enforcement",
       "authority_state": "ACTIVE_SAFETY_BOUNDARY",
       "anchor_path": "canon/_INDEX.md",
-      "current_receipt_id": "CHAR-R2-ENFORCEMENT-4F2BC8D"
+      "current_receipt_id": "CHAR-R3-ENFORCEMENT-1DDB5BE"
     },
     {
       "system_id": "character-production",
       "authority_state": "BLOCKED",
       "anchor_path": "canon/_INDEX.md",
-      "current_receipt_id": "CHAR-PRODUCTION-BLOCK-4F2BC8D"
+      "current_receipt_id": "CHAR-PRODUCTION-BLOCK-1DDB5BE"
     },
     {
       "system_id": "universe-os-v1.2",
@@ -205,6 +205,69 @@
       ],
       "source_path": "world/UNIVERSE_OS_V1_2_RELEASE_RECEIPT.md",
       "supersedes": null
+    },
+    {
+      "receipt_id": "CHAR-R3-ENFORCEMENT-1DDB5BE",
+      "system_id": "character-generation-enforcement",
+      "branch": "mission/character-reference-portability-renderer-binding",
+      "tested_commit_sha": "1ddb5be30502bced06187a9dbedb65bb61b4f132",
+      "observed_repo_head_sha": "1ddb5be30502bced06187a9dbedb65bb61b4f132",
+      "anchor_path": "canon/_INDEX.md",
+      "anchor_blob_sha": "c7f5ce1b00c21d94cce6946930920c70d503ff94",
+      "test_suite": "Character Reference Portability Mission enforcement acceptance",
+      "execution_timestamp": "2026-10-01T03:54:00Z",
+      "result": "PASS",
+      "unresolved_blockers": [],
+      "required_checks": [
+        {
+          "name": "Character Generation Boundary CI",
+          "conclusion": "success",
+          "run_id": 36812581953
+        },
+        {
+          "name": "Character Lock CI",
+          "conclusion": "success",
+          "run_id": 36812581993
+        },
+        {
+          "name": "Render Adapter Research Candidate CI",
+          "conclusion": "success",
+          "run_id": 36812582028
+        },
+        {
+          "name": "Bullpen Runtime CI",
+          "conclusion": "success",
+          "run_id": 36812582039
+        },
+        {
+          "name": "Schemin Project Mission CI",
+          "conclusion": "success",
+          "run_id": 36812578098
+        }
+      ],
+      "source_path": "canon/characters/missions/2026-09-30-reference-portability/AUDIT_REPORT.md",
+      "supersedes": "CHAR-R2-ENFORCEMENT-4F2BC8D"
+    },
+    {
+      "receipt_id": "CHAR-PRODUCTION-BLOCK-1DDB5BE",
+      "system_id": "character-production",
+      "branch": "mission/character-reference-portability-renderer-binding",
+      "tested_commit_sha": "1ddb5be30502bced06187a9dbedb65bb61b4f132",
+      "observed_repo_head_sha": "1ddb5be30502bced06187a9dbedb65bb61b4f132",
+      "anchor_path": "canon/_INDEX.md",
+      "anchor_blob_sha": "c7f5ce1b00c21d94cce6946930920c70d503ff94",
+      "test_suite": "Character Reference Portability Mission production gate",
+      "execution_timestamp": "2026-10-01T03:54:00Z",
+      "result": "BLOCKED",
+      "unresolved_blockers": [
+        "SOURCE_BYTES_REQUIRED_12_DURABLE_REFERENCE_BINARIES",
+        "REAL_PROVIDER_MOUNTED_BYTE_HASH_RECEIPT_NOT_PROVEN",
+        "REAL_PROVIDER_SUBJECT_BINDING_NOT_PROVEN",
+        "FINAL_RASTER_CHARACTER_QA_NOT_PROVEN"
+      ],
+      "required_checks": [],
+      "source_path": "canon/characters/missions/2026-09-30-reference-portability/RESIDUAL_RISKS.md",
+      "supersedes": "CHAR-PRODUCTION-BLOCK-4F2BC8D"
     }
   ]
 }
