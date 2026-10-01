@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/world-change-request.schema.json",
+  "title": "World State Change Request",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "request_id",
+    "source",
+    "requester",
+    "current_state",
+    "proposed_state",
+    "why",
+    "canon_class",
+    "confidence",
+    "affected_systems",
+    "tests",
+    "rollback",
+    "approvals"
+  ],
+  "properties": {
+    "request_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "requester": {
+      "type": "string"
+    },
+    "current_state": {},
+    "proposed_state": {},
+    "why": {
+      "type": "string"
+    },
+    "canon_class": {
+      "enum": [
+        "STATE_HISTORY",
+        "CANDIDATE_EVIDENCE",
+        "CANDIDATE_PROMOTION",
+        "ONTOLOGY",
+        "AUTHORITY",
+        "SCHEMA"
+      ]
+    },
+    "confidence": {
+      "enum": [
+        "LOCKED",
+        "APPROVED",
+        "INFERRED",
+        "HISTORICAL",
+        "SUPERSEDED",
+        "UNKNOWN"
+      ]
+    },
+    "affected_entities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "affected_locations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "affected_atlas_layers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "affected_systems": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "migration": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "tests": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rollback": {
+      "type": "string"
+    },
+    "approvals": {
+      "type": "object"
+    },
+    "result": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}
