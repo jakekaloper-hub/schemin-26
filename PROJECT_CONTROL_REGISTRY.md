@@ -85,7 +85,7 @@ Read in this order:
 15. `world/divisions/PIZZA_DIVISION_INDEX_V1.md`
 16. `world/state/WORLD_STATE_LEDGER_V1.md`
 17. `living-novel/os/geography/world_travel_graph_v1.json`
-18. `world/qa/WORLD_ENGINE_V1_1_ACCEPTANCE_REPORT.md`
+18. `world/qa/WORLD_ENGINE_V1_1_ACCEPTANCE_REPORT.md`\n19. `world/atlas/integration/_INDEX.md`
 
 World Engine V1.1 owns persistent physical geography, division spatial/cultural identity, owner-domain placement, Encounter venue resolution, routes/travel topology, recurring locations, inhabitant ontology, environmental state and geography QA. It does not own fantasy-league truth or principal character body identity.
 
@@ -114,7 +114,7 @@ World Engine V1 remains historical release evidence and is superseded by V1.1 fo
 
 **Atlas Phase 4 / Interactive Atlas:** when world/atlas/interactive/_INDEX.md is present on main, the standalone interactive Atlas is ACTIVE as a read-only canonical visualization. Editorial candidates remain non-spatial and non-active.
 
-**Atlas Phase 5 / Weekly World Evolution:** when world/evolution/_INDEX.md is present on main, the dry-run-first weekly evolution engine is ACTIVE for governed post-release state/history transactions. Candidate promotion remains separately gated and never implicit.
+**Atlas Phase 5 / Weekly World Evolution:** when world/evolution/_INDEX.md is present on main, the dry-run-first weekly evolution engine is ACTIVE for governed post-release state/history transactions. Candidate promotion remains separately gated and never implicit.\n\n**Atlas Publication Convergence V1:** when `world/atlas/integration/_INDEX.md` is present on main, it is ACTIVE as the cross-OS authoring contract binding League Data, Character Canon, World Engine, Location Control Plane, Memo OS, Novel OS, visual grounding, Interactive Atlas, Weekly World Evolution and release control. It creates no second geography/canon store.
 
 ### Jack Mercer
 Read:
