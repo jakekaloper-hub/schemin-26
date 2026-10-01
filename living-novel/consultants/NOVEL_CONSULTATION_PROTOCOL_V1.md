@@ -1,6 +1,6 @@
 # Novel Consultation Protocol V1
 
-**Status:** RELEASE CANDIDATE  
+**Status:** RELEASED / ACTIVE  
 **Applies to:** Living Novel external advisory engagements  
 **Governing Bullpen standard:** External Advisory Program V1
 
