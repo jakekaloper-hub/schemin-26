@@ -1,0 +1,23 @@
+character_id: "CHAR-PHILLIP-PITTS"
+owner: "Phillip Pitts"
+identity: "The Podium Shadow"
+active_version: "1.0"
+primary:
+  classification: "PRIMARY_IDENTITY_AUTHORITY"
+  approval_state: "APPROVED"
+  render_quality: "LEGACY_LOW"
+  source_filename: "IMG_2178.jpeg"
+  conversation_file_id: "file_000000008124820db5a01e1ad4977d9e"
+  library_file_id: "libfile_68a2173146888191bbae1160bb9972d2"
+  expected_sha256: "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c"
+  expected_repository_path: "canon/characters/assets/CHAR-PHILLIP-PITTS/primary/IMG_2178.jpeg"
+  observed_library_size_bytes: 200005
+  media_type: "image/jpeg"
+  current_state: "SOURCE_BYTES_REQUIRED"
+  actual_sha256: null
+  git_blob_sha: null
+  repository_byte_size: null
+  fresh_context_fetch: "NOT_PROVEN"
+  renderer_mount: "NOT_PROVEN"
+supersession_state: "CURRENT_IDENTITY_AUTHORITY"
+rule: "A Library-visible image or conversation file ID is not a durable renderer mount. Generation remains blocked until exact bytes are repository-addressable, rehashed, mounted, subject-bound, and receipted."

@@ -76,6 +76,8 @@ It does **not** justify:
 
 The current CCP v2 remains RELEASE_CANDIDATE / NOT ACTIVE. Its existing G1 durable-byte and renderer-injection closure contract remains upstream. The Render Adapter may consume a character packet only from the character authority declared active by Project Control at execution time.
 
+**Portability mission clarification:** Library visibility, filenames, conversation file IDs, or semantic descriptions are not sufficient renderer inputs. CHARACTER_GROUNDED_STATIC may proceed only after Character authority supplies a PASS source-integrity receipt plus a request-bound mount/binding receipt chain. The Render Adapter transports those receipts; it does not create them or infer canon.
+
 ## Profile A — CHARACTER_GROUNDED_STATIC
 
 Required:
@@ -83,7 +85,13 @@ Required:
 - active character authority receipt;
 - one or more character packets;
 - renderer-addressable reference asset for every depicted character;
+- source-byte integrity receipt with `state=PASS`;
+- mount receipt proving approved SHA-256 == mounted-byte SHA-256;
+- repository path + Git blob SHA + byte size for every mounted character asset;
+- deterministic subject-binding receipt for every depicted character;
+- proven renderer capability receipt;
 - `render_ready=true` per depicted character;
+- renderer execution receipt must echo the exact mount/reference/binding IDs before Character QA;
 - Page/Scene/Visual packet;
 - world/location packet when location-bearing.
 

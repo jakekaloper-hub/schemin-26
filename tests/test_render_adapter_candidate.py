@@ -45,16 +45,20 @@ class RenderAdapterCandidateTests(unittest.TestCase):
             "publication_packet":"W4-PAGE-TEST",
             "location_bearing":True,
             "world_packet":"LOC-TEST",
-            "character_packets":[{"character_id":"CHAR-TEST","authority_state":"ACTIVE","render_ready":True,"reference_assets":["repo://canon/test.png"]}]
+            "character_packets":[{"character_id":"CHAR-TEST","authority_state":"ACTIVE","source_integrity_state":"PASS","render_ready":True,"reference_assets":["repo://canon/test.png"],"mount_receipts":["mount-1"],"capability_receipt_id":"cap-1","execution_receipt_required":True}]
         }
         self.assertEqual(mod.validate_render_request(req),[])
 
     def test_character_grounding_fails_without_reference(self):
         req=base_request("CHARACTER_GROUNDED_STATIC")
-        req["inputs"]={"publication_packet":"P","location_bearing":False,"character_packets":[{"character_id":"X","authority_state":"ACTIVE","render_ready":False,"reference_assets":[]}]}
+        req["inputs"]={"publication_packet":"P","location_bearing":False,"character_packets":[{"character_id":"X","authority_state":"ACTIVE","source_integrity_state":"SOURCE_BYTES_REQUIRED","render_ready":False,"reference_assets":[],"mount_receipts":[],"capability_receipt_id":None,"execution_receipt_required":False}]}
         errors=mod.validate_render_request(req)
         self.assertTrue(any("render_ready" in e for e in errors))
         self.assertTrue(any("reference_assets" in e for e in errors))
+        self.assertTrue(any("source integrity" in e for e in errors))
+        self.assertTrue(any("mount_receipts" in e for e in errors))
+        self.assertTrue(any("capability receipt" in e for e in errors))
+        self.assertTrue(any("execution receipt" in e for e in errors))
 
     def test_data_story_requires_read_only_verified_sources(self):
         req=base_request("DATA_STORY")

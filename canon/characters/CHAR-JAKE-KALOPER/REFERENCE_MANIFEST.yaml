@@ -1,5 +1,23 @@
-character_id: CHAR-JAKE-KALOPER
+character_id: "CHAR-JAKE-KALOPER"
+owner: "Jake Kaloper"
+identity: "The Trade Jedi"
+active_version: "1.0"
 primary:
-  status: MISSING_DURABLE_ASSET — approved master lineup/owner reference described in canon but repository-addressable binary/hash not proven
-  classification: MISSING
-rule: "A prose filename or conversation asset ID is not a durable PRIMARY asset. Fail closed until retrievable."
+  classification: "PRIMARY_IDENTITY_AUTHORITY"
+  approval_state: "APPROVED"
+  render_quality: "HIGH"
+  source_filename: "73B4BF07-22E9-44CA-BCBB-882612DFA9C1.jpeg"
+  conversation_file_id: "file_000000001f6881f59e412a2b70adf3ca"
+  library_file_id: "libfile_ecc124baa0708191912ab17f4f18f840"
+  expected_sha256: "e9b6690899566864fc9d56b3bc9dbce0e1eb43a2901d23c0949170be4da91e58"
+  expected_repository_path: "canon/characters/assets/CHAR-JAKE-KALOPER/primary/73B4BF07-22E9-44CA-BCBB-882612DFA9C1.jpeg"
+  observed_library_size_bytes: 765962
+  media_type: "image/jpeg"
+  current_state: "SOURCE_BYTES_REQUIRED"
+  actual_sha256: null
+  git_blob_sha: null
+  repository_byte_size: null
+  fresh_context_fetch: "NOT_PROVEN"
+  renderer_mount: "NOT_PROVEN"
+supersession_state: "CURRENT"
+rule: "A Library-visible image or conversation file ID is not a durable renderer mount. Generation remains blocked until exact bytes are repository-addressable, rehashed, mounted, subject-bound, and receipted."

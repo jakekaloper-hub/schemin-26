@@ -1,0 +1,23 @@
+character_id: "CHAR-WILSON-LOOK"
+owner: "Wilson Look"
+identity: "Arsenal Gorilla Warrior"
+active_version: "2.0"
+primary:
+  classification: "PRIMARY_IDENTITY_AUTHORITY"
+  approval_state: "APPROVED"
+  render_quality: "HIGH"
+  source_filename: "IMG_7866(1).jpeg"
+  conversation_file_id: "file_00000000df4081f5803f8ba6dfb68b42"
+  library_file_id: "libfile_24a22e961e988191928d08b1bfab06e2"
+  expected_sha256: "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10"
+  expected_repository_path: "canon/characters/assets/CHAR-WILSON-LOOK/primary/IMG_7866(1).jpeg"
+  observed_library_size_bytes: 810974
+  media_type: "image/jpeg"
+  current_state: "SOURCE_BYTES_REQUIRED"
+  actual_sha256: null
+  git_blob_sha: null
+  repository_byte_size: null
+  fresh_context_fetch: "NOT_PROVEN"
+  renderer_mount: "NOT_PROVEN"
+supersession_state: "CURRENT_SUPERSEDES_RETIRED_CENTAUR"
+rule: "A Library-visible image or conversation file ID is not a durable renderer mount. Generation remains blocked until exact bytes are repository-addressable, rehashed, mounted, subject-bound, and receipted."

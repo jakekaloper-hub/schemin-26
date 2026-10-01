@@ -12,8 +12,12 @@
       ],
       "character_packet_requirements": [
         "authority_state=ACTIVE",
+        "source_integrity_state=PASS",
         "render_ready=true",
-        "reference_assets non-empty"
+        "reference_assets non-empty",
+        "mount_receipts non-empty",
+        "capability_receipt_id non-empty",
+        "execution_receipt_required=true"
       ],
       "external_research": [
         {
@@ -22,7 +26,7 @@
           "dependency_status": "NOT_INSTALLED"
         }
       ],
-      "authority_boundary": "Consumes active Schemin character authority; generated references cannot promote canon."
+      "authority_boundary": "Consumes active Schemin character authority plus PASS source-integrity and request-bound mount/binding receipts; generated references cannot promote canon."
     },
     "DATA_STORY": {
       "required_input_keys": [

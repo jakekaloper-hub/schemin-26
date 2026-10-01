@@ -1,0 +1,23 @@
+character_id: "CHAR-AUSTIN-BYARS"
+owner: "Austin Byars"
+identity: "The Belt Keeper"
+active_version: "1.0"
+primary:
+  classification: "PRIMARY_IDENTITY_AUTHORITY"
+  approval_state: "APPROVED"
+  render_quality: "LEGACY_LOW"
+  source_filename: "IMG_2179.jpeg"
+  conversation_file_id: "file_00000000bae081f9a48f850b293aaa78"
+  library_file_id: "libfile_e4bcc187081c8191ad6d591a54949028"
+  expected_sha256: "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76"
+  expected_repository_path: "canon/characters/assets/CHAR-AUSTIN-BYARS/primary/IMG_2179.jpeg"
+  observed_library_size_bytes: 238145
+  media_type: "image/jpeg"
+  current_state: "SOURCE_BYTES_REQUIRED"
+  actual_sha256: null
+  git_blob_sha: null
+  repository_byte_size: null
+  fresh_context_fetch: "NOT_PROVEN"
+  renderer_mount: "NOT_PROVEN"
+supersession_state: "CURRENT_IDENTITY_AUTHORITY"
+rule: "A Library-visible image or conversation file ID is not a durable renderer mount. Generation remains blocked until exact bytes are repository-addressable, rehashed, mounted, subject-bound, and receipted."

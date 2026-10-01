@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "status": "NO_PRODUCTION_ROUTE_PROVEN",
+  "assessed_at": "2026-09-30",
+  "routes": {
+    "CURRENT_CHATGPT_IMAGE_RENDERER": {
+      "evidence_state": "UNPROVEN",
+      "capability_receipt_id": null,
+      "supports_image_references": true,
+      "returns_attachment_receipt": false,
+      "returns_mounted_byte_hash_receipt": false,
+      "supports_subject_binding": false,
+      "returns_subject_binding_receipt": false,
+      "max_references": null,
+      "reference_mechanism": "host-managed reference image context",
+      "subject_binding_mechanism": null,
+      "assessment": "The currently available rendering surface can consume reference images but does not expose the mount-hash, attachment, and deterministic per-subject binding receipts required by Schemin governance.",
+      "production_state": "PROVIDER_CAPABILITY_BLOCKED"
+    }
+  }
+}

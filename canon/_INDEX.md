@@ -51,3 +51,15 @@ For any character-bearing generation, semantic canon resolution alone is insuffi
 If any element is absent, generation state is `GENERATION_BLOCKED`.
 
 Current exact-reference durable retrieval and real provider subject-binding evidence remain separate production gates.
+
+
+## Character source-byte portability mission
+
+Current fail-closed evidence surfaces:
+- `characters/reference_sources_v1.json` — 12 approved source expectations and durable target paths.
+- `characters/renderer_capabilities_v1.json` — provider capability evidence; unproven routes remain blocked.
+- `characters/runtime/source_byte_integrity.py` — exact repository-byte SHA-256 / Git-blob verification.
+- `characters/*/REFERENCE_MANIFEST.yaml` — owner-scoped portability state.
+- `characters/runtime/reference_mount.py` — request-bound mount + subject-binding receipt contract.
+
+**Current disposition:** `SOURCE_BYTES_REQUIRED` + `PROVIDER_CAPABILITY_BLOCKED`. This does not change Character Control Plane v2's RELEASE_CANDIDATE / NOT ACTIVE status.
