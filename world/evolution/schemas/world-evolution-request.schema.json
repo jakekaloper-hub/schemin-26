@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemin26.local/schemas/world-evolution-request.schema.json",
+  "title": "Schemin Weekly World Evolution Request",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "transaction_id",
+    "week",
+    "season",
+    "source_release",
+    "release_verified",
+    "operations",
+    "approvals"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "transaction_id": {
+      "type": "string",
+      "pattern": "^TXN-[A-Z0-9-]+$"
+    },
+    "week": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 30
+    },
+    "season": {
+      "type": "integer",
+      "minimum": 2026
+    },
+    "source_release": {
+      "type": "string",
+      "minLength": 1
+    },
+    "release_verified": {
+      "type": "boolean"
+    },
+    "operations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "op"
+        ],
+        "properties": {
+          "op": {
+            "enum": [
+              "APPEND_WORLD_STATE_EVENT",
+              "SET_LOCATION_STATE",
+              "REGISTER_CANDIDATE_EVIDENCE",
+              "REQUEST_CANDIDATE_PROMOTION",
+              "REGISTER_NEW_CANDIDATE"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "approvals": {
+      "type": "object",
+      "required": [
+        "umpire",
+        "closer",
+        "commissioner"
+      ],
+      "properties": {
+        "umpire": {
+          "type": "boolean"
+        },
+        "closer": {
+          "type": "boolean"
+        },
+        "commissioner": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
