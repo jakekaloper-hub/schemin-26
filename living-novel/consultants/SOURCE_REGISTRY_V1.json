@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "2.0",
   "status": "APPROVED_SOURCE_BASELINE",
   "sources": [
     {
@@ -106,6 +106,105 @@
       "supports": [
         "selective_worldbuilding",
         "story_first_worldbuilding"
+      ],
+      "does_not_establish": [
+        "live_consultation",
+        "prose_imitation_permission",
+        "private_opinion"
+      ]
+    },
+    {
+      "id": "rowling_on_writing_official",
+      "title": "On Writing",
+      "publisher": "J.K. Rowling official website",
+      "url": "https://www.jkrowling.com/on-writing/",
+      "supports": [
+        "writing_process",
+        "research",
+        "editing",
+        "long_form_creation"
+      ],
+      "does_not_establish": [
+        "live_consultation",
+        "prose_imitation_permission",
+        "private_opinion"
+      ]
+    },
+    {
+      "id": "rowling_writing_advice_2019",
+      "title": "On Writing — advice to writers",
+      "publisher": "J.K. Rowling official website",
+      "url": "https://www.jkrowling.com/opinions/on-writing/",
+      "supports": [
+        "reading_as_analysis",
+        "writer_discipline",
+        "resisting_formulaic_rules"
+      ],
+      "does_not_establish": [
+        "live_consultation",
+        "prose_imitation_permission",
+        "private_opinion"
+      ]
+    },
+    {
+      "id": "grisham_writing_advice",
+      "title": "John Grisham's Writing Routine",
+      "publisher": "John Grisham official website",
+      "url": "https://jgrisham.com/writing-advice/",
+      "supports": [
+        "chapter_outlining",
+        "pacing",
+        "iterative_outline_revision",
+        "writing_discipline"
+      ],
+      "does_not_establish": [
+        "live_consultation",
+        "prose_imitation_permission",
+        "private_opinion"
+      ]
+    },
+    {
+      "id": "abercrombie_third_person",
+      "title": "Why the Third Person?",
+      "publisher": "Joe Abercrombie official website",
+      "url": "https://joeabercrombie.com/why-the-third-person/",
+      "supports": [
+        "third_person_limited",
+        "pov_flexibility",
+        "contrasting_perceptions"
+      ],
+      "does_not_establish": [
+        "live_consultation",
+        "prose_imitation_permission",
+        "private_opinion"
+      ]
+    },
+    {
+      "id": "abercrombie_first_words",
+      "title": "First Words",
+      "publisher": "Joe Abercrombie official website",
+      "url": "https://joeabercrombie.com/first-words/",
+      "supports": [
+        "aggressive_revision",
+        "cutting_redundancy",
+        "opening_chapter_revision"
+      ],
+      "does_not_establish": [
+        "live_consultation",
+        "prose_imitation_permission",
+        "private_opinion"
+      ]
+    },
+    {
+      "id": "abercrombie_progress_2026",
+      "title": "Progress Report February '26",
+      "publisher": "Joe Abercrombie official website",
+      "url": "https://joeabercrombie.com/progress-report-february-26/",
+      "supports": [
+        "pov_specific_revision",
+        "character_voice_pass",
+        "setting_pass",
+        "prose_pass"
       ],
       "does_not_establish": [
         "live_consultation",
