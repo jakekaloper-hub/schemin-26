@@ -17,6 +17,7 @@ class Week4PreproductionOpenTests(unittest.TestCase):
             "WEEK_4_TEMPORAL_CANON_RECEIPT_V1.md",
             "WEEK_4_WORLD_ENTRY_RECEIPT_V1.md",
             "WEEK_4_WORLD_AND_STORY_INTELLIGENCE_REGISTER_V1.md",
+            "WEEK_4_PERSONALIZED_INTELLIGENCE_AMENDMENT_DK_HMB_2026-10-01.md",
             "WEEK_4_ISSUE_PREVIS_BOARD_V1.md",
             "WEEK_4_PAGE_PACKET_REGISTER_V1.md",
             "WEEK_4_RELEASE_GATE_V1.md",
@@ -87,7 +88,7 @@ class Week4PreproductionOpenTests(unittest.TestCase):
         self.assertIn("W4-G5 continuity/world entry | **PASS**", control)
         self.assertIn("end_of_week_3_2026", receipt)
         self.assertIn("W4-G5 continuity/world entry: PASS", story)
-        self.assertIn("W4-G6 personalized story intelligence: OPEN", story)
+        self.assertIn("W4-G6 personalized story intelligence: LIVE / PARTIAL PASS", story)
         self.assertIn("does **not** assign final Week 4 encounter venues", receipt)
 
         world_state = json.loads((ROOT / "world" / "data" / "current_world_state.json").read_text())
@@ -100,6 +101,27 @@ class Week4PreproductionOpenTests(unittest.TestCase):
         for event in week3_events:
             self.assertEqual(event["classification"], "WORLD_CANON", event["id"])
             self.assertIn(event["id"], receipt)
+
+    def test_w4_g6_dk_hmb_personalization_is_governed_and_conditional(self):
+        control = self.text("WEEK_4_PRODUCTION_CONTROL_V1.md")
+        amendment = self.text("WEEK_4_PERSONALIZED_INTELLIGENCE_AMENDMENT_DK_HMB_2026-10-01.md")
+        facts = self.text("WEEK_4_FACT_SCOPE_AND_EVIDENCE_REGISTER_V1.md")
+        index = self.text("_INDEX.md")
+
+        self.assertIn("W4-G6 personalized story intelligence | **LIVE / PARTIAL PASS**", control)
+        self.assertIn("PROVISIONAL DEVELOPMENT AUTHORIZED / FINAL STORY LOCK BLOCKED", control)
+        self.assertIn("not a second Story Room or planning system", amendment)
+        self.assertIn("Arsenal Gorilla Warrior", amendment)
+        self.assertIn("Breece Hall — Doubtful", amendment)
+        self.assertIn("Isiah Pacheco — IR", amendment)
+        self.assertIn("not an independent medical diagnosis", amendment)
+        self.assertIn("at the beach celebrating", amendment)
+        self.assertIn("The LLC", amendment)
+        self.assertIn("forbidden before a verified HMB loss", amendment)
+        self.assertIn("temporary current-week story setting", amendment)
+        self.assertIn("no reservoir is STORY_LOCKED", amendment)
+        self.assertIn("provider roster-status observations only", facts)
+        self.assertIn("WEEK_4_PERSONALIZED_INTELLIGENCE_AMENDMENT_DK_HMB_2026-10-01.md", index)
 
 if __name__ == "__main__":
     unittest.main()
