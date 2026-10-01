@@ -36,10 +36,10 @@ class EnvironmentReferencePhase3Tests(unittest.TestCase):
         self.assertTrue(all(x.get("cinematic_reference_status")=="MISSING_APPROVED_CINEMATIC_REFERENCE" for x in reg["locations"]))
         self.assertTrue(all(x.get("approved_cinematic_reference_uris",[])==[] for x in reg["locations"]))
 
-    def test_structural_packet_ready(self):
+    def test_structural_packet_blocks_without_renderer_injection_proof(self):
         p=compile_world_packet("LOC-COUNTRY-CLUB-JACKSON",["CHAR-ZACH-WILSON"],"VISUAL",reference_requirement="STRUCTURAL")
-        self.assertEqual(p["status"],"READY_FOR_RENDER")
-        self.assertEqual(p["reference_tier_satisfied"],"STRUCTURAL")
+        self.assertEqual(p["status"],"HUMAN_REVIEW_REQUIRED")
+        self.assertIn("RENDERER_INJECTION_UNPROVEN",p["review_blockers"])
 
     def test_cinematic_packet_blocks(self):
         p=compile_world_packet("LOC-COUNTRY-CLUB-JACKSON",["CHAR-ZACH-WILSON"],"VISUAL",reference_requirement="CINEMATIC")
@@ -55,6 +55,9 @@ class EnvironmentReferencePhase3Tests(unittest.TestCase):
         r=resolve_environment_reference("LOC-MUD-DOGS-SWAMP")
         self.assertEqual(r["status"],"CURRENT_ENVIRONMENT_REFERENCE_RESOLVED")
         self.assertEqual(r["reference"]["structural_reference_status"],"APPROVED_STRUCTURAL_REFERENCE")
+        self.assertEqual(r["reference"]["repo_byte_status"],"VERIFIED_REPO_PATH")
+        self.assertEqual(r["reference"]["renderer_injection_status"],"UNPROVEN")
+        self.assertFalse(r["reference"]["renderer_ready"])
 
     def test_structural_plates_are_deterministic(self):
         locs=self.load("world/data/locations.json")["locations"]
