@@ -18,7 +18,7 @@ Machine-readable mission invariants: `governance/SCHEMIN_26_PROJECT_MISSION_CONT
 
 ## Repository architecture & execution state
 
-**Repository Architecture V2:** ACCEPTANCE PASS / MERGE PENDING.
+**Repository Architecture V2:** RELEASED / ACTIVE.
 
 Read:
 - `docs/architecture/REPOSITORY_ARCHITECTURE_V2.md`
