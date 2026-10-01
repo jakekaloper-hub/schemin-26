@@ -1,26 +1,24 @@
 {
   "schema_version": "memo-v5.6-promotion-evidence/v1",
-  "updated_at": "2026-10-01T01:45:00Z",
+  "updated_at": "2026-10-01T02:00:00Z",
   "week2_controlled_reconstruction": {
     "status": "MISSING",
     "evidence": null,
     "note": "Not yet executed as a full controlled reconstruction against release-time evidence."
   },
   "week4_real_page_acceptance": {
-    "status": "PASS",
+    "status": "FAIL",
     "evidence": {
       "receipt": "memo-os/week-4/WEEK_4_REAL_PAGE_ACCEPTANCE_V1.md",
-      "full_page_url": "https://cdn.creativeclaw.co/u/b933c4c5/images/a6e1a076-5712-443f-a78b-6810edb40835.png",
-      "mobile_390_url": "https://cdn.creativeclaw.co/u/b933c4c5/images/8574d500-cbed-423a-bfc0-fd688e4dd5b2.png",
-      "mobile_inspection_run_id": "ec8c514f-98c6-4493-8436-9dfc68020809",
-      "matchup": "D0nkey K0ng vs ObiWan Jacoby",
-      "projections": {
-        "home": 140.78,
-        "away": 161.05
-      },
-      "winner_state": "UNDECIDED"
+      "technical_acceptance": "PASS",
+      "publication_fidelity": "FAIL",
+      "benchmark_basis": [
+        "Official Week 2 Memo",
+        "Official Week 3 Memo"
+      ],
+      "fixture_url": "https://cdn.creativeclaw.co/u/b933c4c5/images/a6e1a076-5712-443f-a78b-6810edb40835.png"
     },
-    "note": "Real current-week page path completed through reference-mounted art, deterministic composition and 390px inspection. Acceptance artifact only; not a GOTW declaration or release."
+    "note": "The first real Week 4 page proved pipeline wiring but is materially below Week 2/Week 3 publication quality. It remains a technical fixture, not a publication-grade acceptance page."
   },
   "actual_reference_mount_proof": {
     "status": "PASS",
