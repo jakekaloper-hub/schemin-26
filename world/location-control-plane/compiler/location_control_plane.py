@@ -163,6 +163,8 @@ def compile_world_packet(
         blockers.append("MISSING_APPROVED_STRUCTURAL_REFERENCE")
     if reference_requirement=="CINEMATIC" and ref.get("cinematic_reference_status")!="APPROVED_CINEMATIC_REFERENCE":
         blockers.append("MISSING_APPROVED_CINEMATIC_REFERENCE")
+        if require_visual_reference:
+            blockers.append("MISSING_APPROVED_VISUAL_REFERENCE")
     packet={
         "status":"HUMAN_REVIEW_REQUIRED" if blockers else "READY_FOR_SEMANTIC_QA",
         "consumer":consumer,
