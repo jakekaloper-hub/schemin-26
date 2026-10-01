@@ -1,0 +1,62 @@
+{
+  "schema_version": "memo-v5.6-current-main-promotion-evidence/v1",
+  "updated_at": "2026-10-01",
+  "controlling_memo_os": "V5.5",
+  "candidate_memo_os": "V5.6_RC_NOT_ACTIVE",
+  "source_pr": 38,
+  "current_main_salvage": {
+    "status": "PASS",
+    "controls": [
+      "PAGE_PRODUCTION_CONTRACT_V1",
+      "PUBLICATION_FIDELITY_CONTRACT_V1",
+      "PAGE_FIDELITY_MODEL_V1",
+      "GENERATION_INTENT_FIREWALL_V1",
+      "CHARACTER_PACKET_GATE_V1",
+      "REFERENCE_MOUNT_RECEIPT_V1",
+      "RENDERER_ADDRESSABLE_ASSET_CONTRACT_V1",
+      "RUNTIME_BOOTSTRAP_RESOLVER_V1",
+      "WORLD_ENCOUNTER_BINDING_V1"
+    ]
+  },
+  "release_registry_reconciliation": {
+    "status": "PASS",
+    "authority": "Publication Manifest V1 + Release Evidence",
+    "memo_local_registry": "SUPERSEDED"
+  },
+  "week4_fixture_exact_bytes": {
+    "status": "PASS",
+    "asset_id": "97a316c2-aa34-46cc-b088-442d0c6868a4",
+    "asset_name": "V56_WEEK4_OBIWAN_ACCEPTANCE_FIXTURE.jpg",
+    "byte_length": 253543,
+    "sha256": "4aba1fe41e8fc2c1e5ff247d02e7fcc69ffe7a72c7650782f8308fc7c61f654a",
+    "scope": "technical fixture only"
+  },
+  "week4_real_page_acceptance": {
+    "status": "FAIL",
+    "technical_acceptance": "PASS",
+    "publication_fidelity": "FAIL",
+    "real_page_acceptance": "FAIL",
+    "note": "Existing technical fixture remains below Week 2/Week 3 publication family."
+  },
+  "week2_controlled_reconstruction": {
+    "status": "MISSING",
+    "note": "Not completed under the reconciled current-main candidate."
+  },
+  "week2_exact_canonical_binary": {
+    "status": "SOURCE_BYTES_REQUIRED",
+    "canonical_identity": "Week 2 memo.pdf",
+    "note": "Canonical PDF bytes are not exposed by current repo or accessible Project/Library search surfaces."
+  },
+  "independent_release_audit": {
+    "status": "BLOCKED",
+    "blocked_by": [
+      "week4_real_page_acceptance",
+      "week2_controlled_reconstruction",
+      "week2_exact_canonical_binary"
+    ]
+  },
+  "promotion": {
+    "status": "HOLD",
+    "reason": "Required production evidence remains incomplete."
+  }
+}

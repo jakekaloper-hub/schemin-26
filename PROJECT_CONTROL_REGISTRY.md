@@ -71,7 +71,7 @@ Read in this order:
 8. `memo-os/SCHEMIN_26_WEEKLY_MEMO_MASTER_INITIATION_PROMPT.md`
 9. `canon/_INDEX.md`
 
-V5.5 passed the Week 3 retrospective acceptance suite (11/11 after bug-fix/polish/retest) and is binding above V5.4/V5.3. V5.2-RC remains part of the lower orchestration lineage; it is not the top-level production-hardening authority.
+V5.5 passed the Week 3 retrospective acceptance suite (11/11 after bug-fix/polish/retest) and is binding above V5.4/V5.3. V5.6 publication-integrity controls have been selectively salvaged onto current main as additive safeguards, but **V5.6 remains RELEASE_CANDIDATE / NOT ACTIVE**; see `memo-os/V5_6_CURRENT_MAIN_RECONCILIATION_V1.md`. V5.2-RC remains part of the lower orchestration lineage; it is not the top-level production-hardening authority.
 
 ### League truth / ESPN
 Read:
