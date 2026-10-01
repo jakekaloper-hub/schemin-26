@@ -1,0 +1,818 @@
+{
+  "schema_version": "1.0",
+  "rule": "Derived feature handles are not separate active locations.",
+  "handles": [
+    {
+      "handle_id": "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::HIGH-RIDGE",
+      "parent_location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "name": "high ridge",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::WAR-ROOM-OVERLOOK",
+      "parent_location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "name": "war-room overlook",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-MUD-DOGS-SWAMP::MUD-CHANNELS",
+      "parent_location_id": "LOC-MUD-DOGS-SWAMP",
+      "name": "mud channels",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-MUD-DOGS-SWAMP::RAISED-GROUND",
+      "parent_location_id": "LOC-MUD-DOGS-SWAMP",
+      "name": "raised ground",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-COUNTRY-CLUB-JACKSON::CLUBHOUSE",
+      "parent_location_id": "LOC-COUNTRY-CLUB-JACKSON",
+      "name": "clubhouse",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-COUNTRY-CLUB-JACKSON::GOLF-GROUNDS",
+      "parent_location_id": "LOC-COUNTRY-CLUB-JACKSON",
+      "name": "golf grounds",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-COUNTRY-CLUB-JACKSON::WATER-HAZARDS",
+      "parent_location_id": "LOC-COUNTRY-CLUB-JACKSON",
+      "name": "water hazards",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-ARSENAL-BARBERSHOP::BARBER-CHAIR",
+      "parent_location_id": "LOC-ARSENAL-BARBERSHOP",
+      "name": "barber chair",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-ARSENAL-BARBERSHOP::ARSENAL-RED-OWNER-HISTORY",
+      "parent_location_id": "LOC-ARSENAL-BARBERSHOP",
+      "name": "Arsenal-red owner history",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-STORM-BOWL::WEATHER-EXPOSED-VENUE",
+      "parent_location_id": "LOC-STORM-BOWL",
+      "name": "weather-exposed venue",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-STORM-BOWL::SERVICE-COUNTER",
+      "parent_location_id": "LOC-STORM-BOWL",
+      "name": "service counter",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-LLC-BOARDROOM::EXECUTIVE-CHAMBER",
+      "parent_location_id": "LOC-LLC-BOARDROOM",
+      "name": "executive chamber",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-LLC-BOARDROOM::LEDGERS",
+      "parent_location_id": "LOC-LLC-BOARDROOM",
+      "name": "ledgers",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-LLC-BOARDROOM::MARKET-OVERLOOK",
+      "parent_location_id": "LOC-LLC-BOARDROOM",
+      "name": "market overlook",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-RED-RUINS::JUNGLE-RUINS",
+      "parent_location_id": "LOC-RED-RUINS",
+      "name": "jungle ruins",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-RED-RUINS::PREDATOR-BANNERS",
+      "parent_location_id": "LOC-RED-RUINS",
+      "name": "predator banners",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-TDS-WATERFALL-TEMPLE::WATERFALL",
+      "parent_location_id": "LOC-TDS-WATERFALL-TEMPLE",
+      "name": "waterfall",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-TDS-WATERFALL-TEMPLE::TEMPLE-STONE",
+      "parent_location_id": "LOC-TDS-WATERFALL-TEMPLE",
+      "name": "temple stone",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-TDS-WATERFALL-TEMPLE::DENSE-VEGETATION",
+      "parent_location_id": "LOC-TDS-WATERFALL-TEMPLE",
+      "name": "dense vegetation",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-CHILI-STABLE::STABLE",
+      "parent_location_id": "LOC-CHILI-STABLE",
+      "name": "stable",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-CHILI-STABLE::PIT-SMOKE",
+      "parent_location_id": "LOC-CHILI-STABLE",
+      "name": "pit smoke",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-CHILI-STABLE::DARK-HORSE-ENCLOSURE",
+      "parent_location_id": "LOC-CHILI-STABLE",
+      "name": "Dark Horse enclosure",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-BELT-KEEPER-KEEP::DARK-KEEP",
+      "parent_location_id": "LOC-BELT-KEEPER-KEEP",
+      "name": "dark keep",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-BELT-KEEPER-KEEP::CHAMPIONSHIP-HALL",
+      "parent_location_id": "LOC-BELT-KEEPER-KEEP",
+      "name": "championship hall",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-SLOB-FOOTHILL-CAMP::TAILGATE-YARD",
+      "parent_location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "name": "tailgate yard",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-SLOB-FOOTHILL-CAMP::ROUGH-TRAINING-GROUND",
+      "parent_location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "name": "rough training ground",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-CHINS-ROAD-COMMONS::ROADSIDE-HALL",
+      "parent_location_id": "LOC-CHINS-ROAD-COMMONS",
+      "name": "roadside hall",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-CHINS-ROAD-COMMONS::BBQ-YARD",
+      "parent_location_id": "LOC-CHINS-ROAD-COMMONS",
+      "name": "BBQ yard",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-CHINS-ROAD-COMMONS::CARAVAN-COURT",
+      "parent_location_id": "LOC-CHINS-ROAD-COMMONS",
+      "name": "caravan court",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-LEAGUE-CHAMBER::RECORDS-DESK",
+      "parent_location_id": "LOC-LEAGUE-CHAMBER",
+      "name": "records desk",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-LEAGUE-CHAMBER::MAP-WALL",
+      "parent_location_id": "LOC-LEAGUE-CHAMBER",
+      "name": "map wall",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-PITTSYS-BOOK::LEDGER-BOARDS",
+      "parent_location_id": "LOC-PITTSYS-BOOK",
+      "name": "ledger boards",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-PITTSYS-BOOK::SETTLEMENT-DESK",
+      "parent_location_id": "LOC-PITTSYS-BOOK",
+      "name": "settlement desk",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::STONE-BRIDGE",
+      "parent_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "name": "stone bridge",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::LAKE",
+      "parent_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "name": "lake",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::JUMP-POINT",
+      "parent_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "name": "jump point",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-DK-MUD-HILL::HILL",
+      "parent_location_id": "LOC-DK-MUD-HILL",
+      "name": "hill",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-DK-MUD-HILL::MIRE",
+      "parent_location_id": "LOC-DK-MUD-HILL",
+      "name": "mire",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-DK-MUD-HILL::BATTLE-STANDARDS",
+      "parent_location_id": "LOC-DK-MUD-HILL",
+      "name": "battle standards",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-RED-SLOB-ALPINE-ROUTE::SUMMIT",
+      "parent_location_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "name": "summit",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-RED-SLOB-ALPINE-ROUTE::BASE-CAMP",
+      "parent_location_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "name": "base camp",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-RED-SLOB-ALPINE-ROUTE::WAGER-MARKER",
+      "parent_location_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "name": "wager marker",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-SOUTHERN-SPEEDWAY::OVAL-RACE-COURSE",
+      "parent_location_id": "LOC-SOUTHERN-SPEEDWAY",
+      "name": "oval/race course",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-SOUTHERN-SPEEDWAY::GRANDSTAND",
+      "parent_location_id": "LOC-SOUTHERN-SPEEDWAY",
+      "name": "grandstand",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-LLC-STORM-CITY::MERCANTILE-TOWERS",
+      "parent_location_id": "LOC-LLC-STORM-CITY",
+      "name": "mercantile towers",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-LLC-STORM-CITY::STORM-BARRIERS",
+      "parent_location_id": "LOC-LLC-STORM-CITY",
+      "name": "storm barriers",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-DK-HIGHLAND-STRONGHOLD::HIGHLAND-STRONGHOLD",
+      "parent_location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "name": "highland stronghold",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-DK-HIGHLAND-STRONGHOLD::TRAINING-COURT",
+      "parent_location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "name": "training court",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-DK-HIGHLAND-STRONGHOLD::ROAD-APPROACH",
+      "parent_location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "name": "road approach",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-TDS-CHILI-SHARED-MARCH::MIXED-CARAVAN-SETTLEMENT",
+      "parent_location_id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "name": "mixed caravan settlement",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-TDS-CHILI-SHARED-MARCH::WATERCOURSE-CROSSING",
+      "parent_location_id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "name": "watercourse crossing",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-TDS-CHILI-SHARED-MARCH::STABLE-AND-MARKET-QUARTER",
+      "parent_location_id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "name": "stable-and-market quarter",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-COMPACT-NEUTRAL-GROUNDS::OPEN-CEREMONIAL-FIELD",
+      "parent_location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "name": "open ceremonial field",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-COMPACT-NEUTRAL-GROUNDS::ARBITER-PAVILION",
+      "parent_location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "name": "arbiter pavilion",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-COMPACT-NEUTRAL-GROUNDS::ARRIVAL-ROADS",
+      "parent_location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "name": "arrival roads",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-LEAGUE-ARCHIVE::RECORD-HALLS",
+      "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+      "name": "record halls",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-LEAGUE-ARCHIVE::LEDGER-VAULTS",
+      "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+      "name": "ledger vaults",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-LEAGUE-ARCHIVE::COURIER-COURT",
+      "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+      "name": "courier court",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    }
+  ]
+}
