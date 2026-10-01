@@ -200,15 +200,19 @@
     "approved_reference_uris": [],
     "candidate_reference_paths": [],
     "blockers": [
-      "No human-approved cinematic environment plate is registered for this location."
+      "No human-approved cinematic environment plate is registered for this location.",
+      "External renderer injection of structural bytes is not yet proven."
     ],
-    "rule": "Structural grounding is approved. Exact cinematic-reference-required workflows remain HUMAN_REVIEW_REQUIRED.",
+    "rule": "Structural grounding is approved at repository-byte level. Renderer-required workflows remain HUMAN_REVIEW_REQUIRED until injection is proven.",
     "structural_reference_status": "APPROVED_STRUCTURAL_REFERENCE",
     "approved_structural_reference_uris": [
       "world/environment-references/plates/LOC-MUD-DOGS-SWAMP/STRUCTURAL_PLATE.svg"
     ],
     "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
-    "approved_cinematic_reference_uris": []
+    "approved_cinematic_reference_uris": [],
+    "repo_byte_status": "VERIFIED_REPO_PATH",
+    "renderer_injection_status": "UNPROVEN",
+    "renderer_ready": false
   },
   "open_questions": [],
   "prohibited_inventions": [
