@@ -1,0 +1,723 @@
+{
+  "schema_version": "2.0",
+  "status": "RELEASE_CANDIDATE",
+  "domains": [
+    {
+      "domain_id": "DOMAIN-JAKE-KALOPER",
+      "owner_character_id": "CHAR-JAKE-KALOPER",
+      "home_anchor": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "physical_region": [
+        "REG-UPPER-VALLEYS"
+      ],
+      "division_affiliation": "DIV-BURGERS",
+      "domain_type": "territorial-strategic",
+      "settlement_pattern": "INFERRED_FROM_TERRAIN_AND_EXISTING_LOCATION; exact density unresolved",
+      "population": {
+        "mode": "PEOPLED_KIND",
+        "summary": "Other Jedi plus non-Jedi humans coexist in the mountain/valley society."
+      },
+      "communities": [
+        "ORDER-JEDI",
+        "non-Jedi human mountain/valley residents"
+      ],
+      "institutions": [],
+      "economy": [
+        "INFERRED: local support economy appropriate to terrain and travel; exact trades unresolved"
+      ],
+      "resources": [
+        "INFERRED: resources consistent with physical zone; exact extraction not locked"
+      ],
+      "architecture": [
+        "high ridge",
+        "war-room overlook"
+      ],
+      "materials": [
+        "INFERRED: materials must follow physical zone and existing visual fingerprint"
+      ],
+      "roads": [
+        "ROUTE-EASTERN-ASCENT",
+        "ROUTE-BLACK-CLIFF"
+      ],
+      "water": [
+        "INFERRED: resolve from physical-zone hydrology before visual use"
+      ],
+      "neighbors": [
+        "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "LOC-BELT-KEEPER-KEEP"
+      ],
+      "historical_events": [],
+      "current_state": [
+        "operational"
+      ],
+      "division_influence": "LEAGUE_CULTURAL_OVERLAY_NONEXCLUSIVE",
+      "neutral_access": true,
+      "forbidden_drift": [
+        "NO_CHAMPIONSHIP_BELT",
+        "OWNER_DOMAIN_IS_NOT_SOVEREIGN_COUNTRY",
+        "NO_RENDERER_CREATED_CANON"
+      ],
+      "canon_confidence": {
+        "status": "APPROVED",
+        "source": "world/data/owner_domains.json + locations/routes + V1.1 ontology",
+        "last_verified": "2026-10-01",
+        "review_owner": "Bullpen"
+      }
+    },
+    {
+      "domain_id": "DOMAIN-KEVIN-ZEEK",
+      "owner_character_id": "CHAR-KEVIN-ZEEK",
+      "home_anchor": "LOC-RED-RUINS",
+      "physical_region": [
+        "REG-EASTERN-STORM-COAST"
+      ],
+      "division_affiliation": "DIV-WINGS",
+      "domain_type": "territorial",
+      "settlement_pattern": "INFERRED_FROM_TERRAIN_AND_EXISTING_LOCATION; exact density unresolved",
+      "population": {
+        "mode": "PEOPLED_KIND",
+        "summary": "Leopard-bodied people exist; principal remains distinct."
+      },
+      "communities": [],
+      "institutions": [],
+      "economy": [
+        "INFERRED: local support economy appropriate to terrain and travel; exact trades unresolved"
+      ],
+      "resources": [
+        "INFERRED: resources consistent with physical zone; exact extraction not locked"
+      ],
+      "architecture": [
+        "jungle ruins",
+        "predator banners"
+      ],
+      "materials": [
+        "INFERRED: materials must follow physical zone and existing visual fingerprint"
+      ],
+      "roads": [
+        "ROUTE-RAIN-ESCARPMENT"
+      ],
+      "water": [
+        "INFERRED: resolve from physical-zone hydrology before visual use"
+      ],
+      "neighbors": [
+        "LOC-BRIDGE-MOUNTAIN-LAKE"
+      ],
+      "historical_events": [],
+      "current_state": [
+        "operational"
+      ],
+      "division_influence": "LEAGUE_CULTURAL_OVERLAY_NONEXCLUSIVE",
+      "neutral_access": true,
+      "forbidden_drift": [
+        "RED_LEOPARD_PREDATOR",
+        "OWNER_DOMAIN_IS_NOT_SOVEREIGN_COUNTRY",
+        "NO_RENDERER_CREATED_CANON"
+      ],
+      "canon_confidence": {
+        "status": "APPROVED",
+        "source": "world/data/owner_domains.json + locations/routes + V1.1 ontology",
+        "last_verified": "2026-10-01",
+        "review_owner": "Bullpen"
+      }
+    },
+    {
+      "domain_id": "DOMAIN-JORDAN-HOLLINGSHEAD",
+      "owner_character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "home_anchor": "LOC-SLOB-FOOTHILL-CAMP",
+      "physical_region": [
+        "REG-UPPER-VALLEYS"
+      ],
+      "division_affiliation": "DIV-WINGS",
+      "domain_type": "mobile-camp",
+      "settlement_pattern": "INFERRED_FROM_TERRAIN_AND_EXISTING_LOCATION; exact density unresolved",
+      "population": {
+        "mode": "PEOPLED_KIND",
+        "summary": "Broader human/berserker society; principal identity is not cloned."
+      },
+      "communities": [],
+      "institutions": [],
+      "economy": [
+        "INFERRED: local support economy appropriate to terrain and travel; exact trades unresolved"
+      ],
+      "resources": [
+        "INFERRED: resources consistent with physical zone; exact extraction not locked"
+      ],
+      "architecture": [
+        "tailgate yard",
+        "rough training ground"
+      ],
+      "materials": [
+        "INFERRED: materials must follow physical zone and existing visual fingerprint"
+      ],
+      "roads": [
+        "ROUTE-HEARTHROAD"
+      ],
+      "water": [
+        "INFERRED: resolve from physical-zone hydrology before visual use"
+      ],
+      "neighbors": [
+        "LOC-ARSENAL-BARBERSHOP",
+        "LOC-BRIDGE-MOUNTAIN-LAKE"
+      ],
+      "historical_events": [],
+      "current_state": [
+        "operational"
+      ],
+      "division_influence": "LEAGUE_CULTURAL_OVERLAY_NONEXCLUSIVE",
+      "neutral_access": true,
+      "forbidden_drift": [
+        "FRAT_BRO_BERSERKER",
+        "PIT_BULL",
+        "OWNER_DOMAIN_IS_NOT_SOVEREIGN_COUNTRY",
+        "NO_RENDERER_CREATED_CANON"
+      ],
+      "canon_confidence": {
+        "status": "APPROVED",
+        "source": "world/data/owner_domains.json + locations/routes + V1.1 ontology",
+        "last_verified": "2026-10-01",
+        "review_owner": "Bullpen"
+      }
+    },
+    {
+      "domain_id": "DOMAIN-DAVID-BABB",
+      "owner_character_id": "CHAR-DAVID-BABB",
+      "home_anchor": "LOC-LLC-BOARDROOM",
+      "physical_region": [
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "division_affiliation": "DIV-PIZZA",
+      "domain_type": "commercial-institutional",
+      "settlement_pattern": "INFERRED_FROM_TERRAIN_AND_EXISTING_LOCATION; exact density unresolved",
+      "population": {
+        "mode": "SINGULAR_BEING",
+        "summary": "The LLC is singular; surrounding city population is ordinary merchants, clerks, laborers and residents."
+      },
+      "communities": [],
+      "institutions": [],
+      "economy": [
+        "INFERRED: local support economy appropriate to terrain and travel; exact trades unresolved"
+      ],
+      "resources": [
+        "INFERRED: resources consistent with physical zone; exact extraction not locked"
+      ],
+      "architecture": [
+        "executive chamber",
+        "ledgers",
+        "market overlook"
+      ],
+      "materials": [
+        "INFERRED: materials must follow physical zone and existing visual fingerprint"
+      ],
+      "roads": [
+        "ROUTE-INNER-SEA-QUAY"
+      ],
+      "water": [
+        "INFERRED: resolve from physical-zone hydrology before visual use"
+      ],
+      "neighbors": [
+        "LOC-LLC-STORM-CITY"
+      ],
+      "historical_events": [],
+      "current_state": [
+        "Week 2 intrusion/destruction remembered",
+        "repair/scar continuity permitted"
+      ],
+      "division_influence": "LEAGUE_CULTURAL_OVERLAY_NONEXCLUSIVE",
+      "neutral_access": true,
+      "forbidden_drift": [
+        "HOSTILE_TAKEOVER",
+        "OWNER_DOMAIN_IS_NOT_SOVEREIGN_COUNTRY",
+        "NO_RENDERER_CREATED_CANON"
+      ],
+      "canon_confidence": {
+        "status": "APPROVED",
+        "source": "world/data/owner_domains.json + locations/routes + V1.1 ontology",
+        "last_verified": "2026-10-01",
+        "review_owner": "Bullpen"
+      }
+    },
+    {
+      "domain_id": "DOMAIN-WILSON-LOOK",
+      "owner_character_id": "CHAR-WILSON-LOOK",
+      "home_anchor": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "physical_region": [
+        "REG-UPPER-VALLEYS",
+        "REG-NORTHERN-SPINE"
+      ],
+      "division_affiliation": "DIV-BURGERS",
+      "domain_type": "martial-territorial",
+      "settlement_pattern": "INFERRED_FROM_TERRAIN_AND_EXISTING_LOCATION; exact density unresolved",
+      "population": {
+        "mode": "PEOPLED_KIND",
+        "summary": "Gorilla-bodied people exist; principal remains Arsenal Gorilla Warrior."
+      },
+      "communities": [],
+      "institutions": [],
+      "economy": [
+        "INFERRED: local support economy appropriate to terrain and travel; exact trades unresolved"
+      ],
+      "resources": [
+        "INFERRED: resources consistent with physical zone; exact extraction not locked"
+      ],
+      "architecture": [
+        "highland stronghold",
+        "training court",
+        "road approach"
+      ],
+      "materials": [
+        "INFERRED: materials must follow physical zone and existing visual fingerprint"
+      ],
+      "roads": [
+        "ROUTE-DK-HIGHLAND-LINK"
+      ],
+      "water": [
+        "INFERRED: resolve from physical-zone hydrology before visual use"
+      ],
+      "neighbors": [
+        "LOC-ARSENAL-BARBERSHOP"
+      ],
+      "historical_events": [],
+      "current_state": [
+        "current principal identity = Arsenal Gorilla Warrior",
+        "peopled-kind home society"
+      ],
+      "division_influence": "LEAGUE_CULTURAL_OVERLAY_NONEXCLUSIVE",
+      "neutral_access": true,
+      "forbidden_drift": [
+        "ARSENAL_GORILLA_WARRIOR",
+        "NO_CENTAUR_ANATOMY",
+        "OWNER_DOMAIN_IS_NOT_SOVEREIGN_COUNTRY",
+        "NO_RENDERER_CREATED_CANON"
+      ],
+      "canon_confidence": {
+        "status": "APPROVED",
+        "source": "world/data/owner_domains.json + locations/routes + V1.1 ontology",
+        "last_verified": "2026-10-01",
+        "review_owner": "Bullpen"
+      }
+    },
+    {
+      "domain_id": "DOMAIN-PHILLIP-PITTS",
+      "owner_character_id": "CHAR-PHILLIP-PITTS",
+      "home_anchor": "LOC-TDS-WATERFALL-TEMPLE",
+      "physical_region": [
+        "REG-SOUTHERN-WETLANDS"
+      ],
+      "division_affiliation": "DIV-BURGERS",
+      "domain_type": "territorial-institutional",
+      "settlement_pattern": "INFERRED_FROM_TERRAIN_AND_EXISTING_LOCATION; exact density unresolved",
+      "population": {
+        "mode": "SHARED_COHABITATION",
+        "summary": "TDS shares a cross-divisional corridor with Chili; broader same-kind population remains unresolved."
+      },
+      "communities": [],
+      "institutions": [],
+      "economy": [
+        "INFERRED: local support economy appropriate to terrain and travel; exact trades unresolved"
+      ],
+      "resources": [
+        "INFERRED: resources consistent with physical zone; exact extraction not locked"
+      ],
+      "architecture": [
+        "waterfall",
+        "temple stone",
+        "dense vegetation"
+      ],
+      "materials": [
+        "INFERRED: materials must follow physical zone and existing visual fingerprint"
+      ],
+      "roads": [
+        "ROUTE-FALLS-PATH",
+        "ROUTE-TDS-CHILI-SHARED-MARCH"
+      ],
+      "water": [
+        "INFERRED: resolve from physical-zone hydrology before visual use"
+      ],
+      "neighbors": [
+        "LOC-MUD-DOGS-SWAMP",
+        "LOC-CHILI-STABLE",
+        "LOC-TDS-CHILI-SHARED-MARCH"
+      ],
+      "historical_events": [],
+      "current_state": [
+        "current owner anatomy = one body, three serpent heads",
+        "cross-divisional coexistence with Chili is canon"
+      ],
+      "division_influence": "LEAGUE_CULTURAL_OVERLAY_NONEXCLUSIVE",
+      "neutral_access": true,
+      "forbidden_drift": [
+        "ONE_BODY_THREE_SERPENT_HEADS",
+        "OWNER_DOMAIN_IS_NOT_SOVEREIGN_COUNTRY",
+        "NO_RENDERER_CREATED_CANON"
+      ],
+      "canon_confidence": {
+        "status": "APPROVED",
+        "source": "world/data/owner_domains.json + locations/routes + V1.1 ontology",
+        "last_verified": "2026-10-01",
+        "review_owner": "Bullpen"
+      }
+    },
+    {
+      "domain_id": "DOMAIN-BRANDON-PRYOR",
+      "owner_character_id": "CHAR-BRANDON-PRYOR",
+      "home_anchor": "LOC-CHILI-STABLE",
+      "physical_region": [
+        "REG-WESTERN-TABLELANDS"
+      ],
+      "division_affiliation": "DIV-WINGS",
+      "domain_type": "frontier-mobile",
+      "settlement_pattern": "INFERRED_FROM_TERRAIN_AND_EXISTING_LOCATION; exact density unresolved",
+      "population": {
+        "mode": "SHARED_COHABITATION",
+        "summary": "Chili shares a cross-divisional corridor with TDS; wider population is mixed frontier society."
+      },
+      "communities": [],
+      "institutions": [],
+      "economy": [
+        "INFERRED: local support economy appropriate to terrain and travel; exact trades unresolved"
+      ],
+      "resources": [
+        "INFERRED: resources consistent with physical zone; exact extraction not locked"
+      ],
+      "architecture": [
+        "stable",
+        "pit smoke",
+        "Dark Horse enclosure"
+      ],
+      "materials": [
+        "INFERRED: materials must follow physical zone and existing visual fingerprint"
+      ],
+      "roads": [
+        "ROUTE-WESTERN-RANGE",
+        "ROUTE-TDS-CHILI-SHARED-MARCH"
+      ],
+      "water": [
+        "INFERRED: resolve from physical-zone hydrology before visual use"
+      ],
+      "neighbors": [
+        "LOC-CHINS-ROAD-COMMONS",
+        "LOC-TDS-WATERFALL-TEMPLE",
+        "LOC-TDS-CHILI-SHARED-MARCH"
+      ],
+      "historical_events": [],
+      "current_state": [
+        "operational",
+        "cross-divisional coexistence with TDS is canon"
+      ],
+      "division_influence": "LEAGUE_CULTURAL_OVERLAY_NONEXCLUSIVE",
+      "neutral_access": true,
+      "forbidden_drift": [
+        "CHILI_OUTLAW",
+        "DARK_HORSE",
+        "OWNER_DOMAIN_IS_NOT_SOVEREIGN_COUNTRY",
+        "NO_RENDERER_CREATED_CANON"
+      ],
+      "canon_confidence": {
+        "status": "APPROVED",
+        "source": "world/data/owner_domains.json + locations/routes + V1.1 ontology",
+        "last_verified": "2026-10-01",
+        "review_owner": "Bullpen"
+      }
+    },
+    {
+      "domain_id": "DOMAIN-AUSTIN-BYARS",
+      "owner_character_id": "CHAR-AUSTIN-BYARS",
+      "home_anchor": "LOC-BELT-KEEPER-KEEP",
+      "physical_region": [
+        "REG-EASTERN-STORM-COAST",
+        "REG-NORTHERN-SPINE"
+      ],
+      "division_affiliation": "DIV-PIZZA",
+      "domain_type": "martial-legacy",
+      "settlement_pattern": "INFERRED_FROM_TERRAIN_AND_EXISTING_LOCATION; exact density unresolved",
+      "population": {
+        "mode": "SINGULAR_BEING",
+        "summary": "Belt Keeper is singular; surrounding inhabitants are not Belt Keepers."
+      },
+      "communities": [],
+      "institutions": [],
+      "economy": [
+        "INFERRED: local support economy appropriate to terrain and travel; exact trades unresolved"
+      ],
+      "resources": [
+        "INFERRED: resources consistent with physical zone; exact extraction not locked"
+      ],
+      "architecture": [
+        "dark keep",
+        "championship hall"
+      ],
+      "materials": [
+        "INFERRED: materials must follow physical zone and existing visual fingerprint"
+      ],
+      "roads": [
+        "ROUTE-BLACK-CLIFF"
+      ],
+      "water": [
+        "INFERRED: resolve from physical-zone hydrology before visual use"
+      ],
+      "neighbors": [
+        "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+      ],
+      "historical_events": [],
+      "current_state": [
+        "Belt remains with Belt Keeper"
+      ],
+      "division_influence": "LEAGUE_CULTURAL_OVERLAY_NONEXCLUSIVE",
+      "neutral_access": true,
+      "forbidden_drift": [
+        "BELT_KEEPER",
+        "CHAMPIONSHIP_BELT",
+        "OWNER_DOMAIN_IS_NOT_SOVEREIGN_COUNTRY",
+        "NO_RENDERER_CREATED_CANON"
+      ],
+      "canon_confidence": {
+        "status": "APPROVED",
+        "source": "world/data/owner_domains.json + locations/routes + V1.1 ontology",
+        "last_verified": "2026-10-01",
+        "review_owner": "Bullpen"
+      }
+    },
+    {
+      "domain_id": "DOMAIN-MANNING-WELTY",
+      "owner_character_id": "CHAR-MANNING-WELTY",
+      "home_anchor": "LOC-STORM-BOWL",
+      "physical_region": [
+        "REG-EASTERN-STORM-COAST",
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "division_affiliation": "DIV-PIZZA",
+      "domain_type": "elemental-coastal",
+      "settlement_pattern": "INFERRED_FROM_TERRAIN_AND_EXISTING_LOCATION; exact density unresolved",
+      "population": {
+        "mode": "SINGULAR_BEING",
+        "summary": "El Niño is singular; coastal inhabitants are ordinary persons."
+      },
+      "communities": [],
+      "institutions": [],
+      "economy": [
+        "INFERRED: local support economy appropriate to terrain and travel; exact trades unresolved"
+      ],
+      "resources": [
+        "INFERRED: resources consistent with physical zone; exact extraction not locked"
+      ],
+      "architecture": [
+        "weather-exposed venue",
+        "service counter"
+      ],
+      "materials": [
+        "INFERRED: materials must follow physical zone and existing visual fingerprint"
+      ],
+      "roads": [
+        "ROUTE-STORM-COAST"
+      ],
+      "water": [
+        "INFERRED: resolve from physical-zone hydrology before visual use"
+      ],
+      "neighbors": [
+        "LOC-LLC-STORM-CITY"
+      ],
+      "historical_events": [],
+      "current_state": [
+        "Week 2 event memory",
+        "El Niño may manifest as embodied Weather System or explicitly resolved atmospheric disaster"
+      ],
+      "division_influence": "LEAGUE_CULTURAL_OVERLAY_NONEXCLUSIVE",
+      "neutral_access": true,
+      "forbidden_drift": [
+        "WEATHER_SYSTEM",
+        "OWNER_DOMAIN_IS_NOT_SOVEREIGN_COUNTRY",
+        "NO_RENDERER_CREATED_CANON"
+      ],
+      "canon_confidence": {
+        "status": "APPROVED",
+        "source": "world/data/owner_domains.json + locations/routes + V1.1 ontology",
+        "last_verified": "2026-10-01",
+        "review_owner": "Bullpen"
+      }
+    },
+    {
+      "domain_id": "DOMAIN-BOBBY-MITCHELL",
+      "owner_character_id": "CHAR-BOBBY-MITCHELL",
+      "home_anchor": "LOC-MUD-DOGS-SWAMP",
+      "physical_region": [
+        "REG-SOUTHERN-WETLANDS"
+      ],
+      "division_affiliation": "DIV-BURGERS",
+      "domain_type": "territorial",
+      "settlement_pattern": "INFERRED_FROM_TERRAIN_AND_EXISTING_LOCATION; exact density unresolved",
+      "population": {
+        "mode": "PEOPLED_KIND",
+        "summary": "Sapient swamp canine/wolf people exist."
+      },
+      "communities": [],
+      "institutions": [],
+      "economy": [
+        "INFERRED: local support economy appropriate to terrain and travel; exact trades unresolved"
+      ],
+      "resources": [
+        "INFERRED: resources consistent with physical zone; exact extraction not locked"
+      ],
+      "architecture": [
+        "mud channels",
+        "raised ground"
+      ],
+      "materials": [
+        "INFERRED: materials must follow physical zone and existing visual fingerprint"
+      ],
+      "roads": [
+        "ROUTE-DELTA-CAUSEWAY",
+        "ROUTE-FALLS-PATH"
+      ],
+      "water": [
+        "INFERRED: resolve from physical-zone hydrology before visual use"
+      ],
+      "neighbors": [
+        "LOC-COUNTRY-CLUB-JACKSON",
+        "LOC-DK-MUD-HILL",
+        "LOC-TDS-WATERFALL-TEMPLE"
+      ],
+      "historical_events": [],
+      "current_state": [
+        "Week 2 and Week 3 history remembered"
+      ],
+      "division_influence": "LEAGUE_CULTURAL_OVERLAY_NONEXCLUSIVE",
+      "neutral_access": true,
+      "forbidden_drift": [
+        "SWAMP_BORN_MENACE",
+        "OWNER_DOMAIN_IS_NOT_SOVEREIGN_COUNTRY",
+        "NO_RENDERER_CREATED_CANON"
+      ],
+      "canon_confidence": {
+        "status": "APPROVED",
+        "source": "world/data/owner_domains.json + locations/routes + V1.1 ontology",
+        "last_verified": "2026-10-01",
+        "review_owner": "Bullpen"
+      }
+    },
+    {
+      "domain_id": "DOMAIN-BEN-WHIPPLE",
+      "owner_character_id": "CHAR-BEN-WHIPPLE",
+      "home_anchor": "LOC-CHINS-ROAD-COMMONS",
+      "physical_region": [
+        "REG-CENTRAL-BASIN"
+      ],
+      "division_affiliation": "DIV-PIZZA",
+      "domain_type": "roadside-populist",
+      "settlement_pattern": "INFERRED_FROM_TERRAIN_AND_EXISTING_LOCATION; exact density unresolved",
+      "population": {
+        "mode": "PEOPLED_KIND",
+        "summary": "Human working/road communities exist."
+      },
+      "communities": [],
+      "institutions": [],
+      "economy": [
+        "INFERRED: local support economy appropriate to terrain and travel; exact trades unresolved"
+      ],
+      "resources": [
+        "INFERRED: resources consistent with physical zone; exact extraction not locked"
+      ],
+      "architecture": [
+        "roadside hall",
+        "BBQ yard",
+        "caravan court"
+      ],
+      "materials": [
+        "INFERRED: materials must follow physical zone and existing visual fingerprint"
+      ],
+      "roads": [
+        "ROUTE-JACKSON-LEVEE",
+        "ROUTE-WESTERN-RANGE",
+        "ROUTE-BASIN-MARKET"
+      ],
+      "water": [
+        "INFERRED: resolve from physical-zone hydrology before visual use"
+      ],
+      "neighbors": [
+        "LOC-COUNTRY-CLUB-JACKSON",
+        "LOC-CHILI-STABLE",
+        "LOC-LEAGUE-CHAMBER",
+        "LOC-PITTSYS-BOOK",
+        "LOC-SOUTHERN-SPEEDWAY",
+        "LOC-DK-MUD-HILL"
+      ],
+      "historical_events": [],
+      "current_state": [
+        "operational"
+      ],
+      "division_influence": "LEAGUE_CULTURAL_OVERLAY_NONEXCLUSIVE",
+      "neutral_access": true,
+      "forbidden_drift": [
+        "PEOPLES_CHAMP",
+        "RACCOON",
+        "OWNER_DOMAIN_IS_NOT_SOVEREIGN_COUNTRY",
+        "NO_RENDERER_CREATED_CANON"
+      ],
+      "canon_confidence": {
+        "status": "APPROVED",
+        "source": "world/data/owner_domains.json + locations/routes + V1.1 ontology",
+        "last_verified": "2026-10-01",
+        "review_owner": "Bullpen"
+      }
+    },
+    {
+      "domain_id": "DOMAIN-ZACH-WILSON",
+      "owner_character_id": "CHAR-ZACH-WILSON",
+      "home_anchor": "LOC-COUNTRY-CLUB-JACKSON",
+      "physical_region": [
+        "REG-SOUTHERN-WETLANDS"
+      ],
+      "division_affiliation": "DIV-WINGS",
+      "domain_type": "estate-sporting",
+      "settlement_pattern": "INFERRED_FROM_TERRAIN_AND_EXISTING_LOCATION; exact density unresolved",
+      "population": {
+        "mode": "SINGULAR_BEING",
+        "summary": "Duckhook is singular; surrounding inhabitants are mixed ordinary persons."
+      },
+      "communities": [],
+      "institutions": [],
+      "economy": [
+        "INFERRED: local support economy appropriate to terrain and travel; exact trades unresolved"
+      ],
+      "resources": [
+        "INFERRED: resources consistent with physical zone; exact extraction not locked"
+      ],
+      "architecture": [
+        "clubhouse",
+        "golf grounds",
+        "water hazards"
+      ],
+      "materials": [
+        "INFERRED: materials must follow physical zone and existing visual fingerprint"
+      ],
+      "roads": [
+        "ROUTE-DELTA-CAUSEWAY",
+        "ROUTE-JACKSON-LEVEE"
+      ],
+      "water": [
+        "INFERRED: resolve from physical-zone hydrology before visual use"
+      ],
+      "neighbors": [
+        "LOC-MUD-DOGS-SWAMP",
+        "LOC-DK-MUD-HILL",
+        "LOC-CHINS-ROAD-COMMONS"
+      ],
+      "historical_events": [],
+      "current_state": [
+        "Week 3 chili contamination is historical memory; cleanup state required before pristine reset"
+      ],
+      "division_influence": "LEAGUE_CULTURAL_OVERLAY_NONEXCLUSIVE",
+      "neutral_access": true,
+      "forbidden_drift": [
+        "KING_OF_IMPOSSIBLE_LIE",
+        "DUCK_GOLFER",
+        "OWNER_DOMAIN_IS_NOT_SOVEREIGN_COUNTRY",
+        "NO_RENDERER_CREATED_CANON"
+      ],
+      "canon_confidence": {
+        "status": "APPROVED",
+        "source": "world/data/owner_domains.json + locations/routes + V1.1 ontology",
+        "last_verified": "2026-10-01",
+        "review_owner": "Bullpen"
+      }
+    }
+  ]
+}
