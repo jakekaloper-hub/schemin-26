@@ -13,8 +13,7 @@ WORLD=ROOT/"world"/"data"
 LCP=ROOT/"world"/"location-control-plane"
 
 def load(path): return json.loads(Path(path).read_text())
-def dump(obj): return json.dumps(obj,indent=2,ensure_ascii=False)+"
-"
+def dump(obj): return json.dumps(obj,indent=2,ensure_ascii=False)+"\\n"
 def slug(s): return re.sub(r"(^-|-$)","",re.sub(r"[^A-Z0-9]+","-",str(s).upper()))[:60]
 
 def compile_outputs():
