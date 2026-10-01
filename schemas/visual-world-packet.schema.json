@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemin26.local/schemas/visual-world-packet.schema.json",
+  "type": "object",
+  "required": [
+    "packet_id",
+    "location_id",
+    "world",
+    "atlas",
+    "domain",
+    "memory",
+    "typography"
+  ],
+  "properties": {
+    "packet_id": {
+      "type": "string"
+    },
+    "location_id": {
+      "type": "string"
+    },
+    "world": {
+      "type": "object",
+      "required": [
+        "physical_region",
+        "entering_world_state",
+        "ordinary_inhabitants"
+      ]
+    },
+    "atlas": {
+      "type": "object",
+      "required": [
+        "arrival_routes",
+        "water_relationship",
+        "foreground",
+        "midground",
+        "background",
+        "visible_landmarks",
+        "forbidden_landmarks"
+      ]
+    },
+    "domain": {
+      "type": "object"
+    },
+    "character": {
+      "type": "object"
+    },
+    "memory": {
+      "type": "object"
+    },
+    "typography": {
+      "type": "object",
+      "required": [
+        "approved_labels",
+        "generated_text_allowed"
+      ]
+    }
+  },
+  "additionalProperties": true
+}
