@@ -4,7 +4,17 @@
 **Season:** 2026  
 **League:** Pro Schemin' Football League — ESPN `1417621`
 
-This file is the shortest authoritative entry point for substantial Schemin '26 work.\n\n## Canonical project mission\n\n**First read:** `SCHEMIN_26_PROJECT_MISSION.md`\n\nThe Project Mission is the Commissioner-approved north star above every subsystem. Weekly Memo OS, Living Novel OS, World Engine / Universe Atlas, Character Canon, visual production, data ingestion, publication control, and future Schemin systems must operate as surfaces of one persistent fictional reality.\n\nSubsystem documents may specialize HOW their domain works. They may not redefine WHY the project exists or create an incompatible reality.\n\nMachine-readable mission invariants: `governance/SCHEMIN_26_PROJECT_MISSION_CONTRACT.json`.
+This file is the shortest authoritative entry point for substantial Schemin '26 work.
+
+## Canonical project mission
+
+**First read:** `SCHEMIN_26_PROJECT_MISSION.md`
+
+The Project Mission is the Commissioner-approved north star above every subsystem. Weekly Memo OS, Living Novel OS, World Engine / Universe Atlas, Character Canon, visual production, data ingestion, publication control, and future Schemin systems must operate as surfaces of one persistent fictional reality.
+
+Subsystem documents may specialize HOW their domain works. They may not redefine WHY the project exists or create an incompatible reality.
+
+Machine-readable mission invariants: `governance/SCHEMIN_26_PROJECT_MISSION_CONTRACT.json`.
 
 ## Canonical publication lock
 
@@ -115,7 +125,9 @@ World Engine V1 remains historical release evidence and is superseded by V1.1 fo
 
 **Atlas Phase 4 / Interactive Atlas:** when world/atlas/interactive/_INDEX.md is present on main, the standalone interactive Atlas is ACTIVE as a read-only canonical visualization. Editorial candidates remain non-spatial and non-active.
 
-**Atlas Phase 5 / Weekly World Evolution:** when world/evolution/_INDEX.md is present on main, the dry-run-first weekly evolution engine is ACTIVE for governed post-release state/history transactions. Candidate promotion remains separately gated and never implicit.\n\n**Atlas Publication Convergence V1:** when `world/atlas/integration/_INDEX.md` is present on main, it is ACTIVE as the cross-OS authoring contract binding League Data, Character Canon, World Engine, Location Control Plane, Memo OS, Novel OS, visual grounding, Interactive Atlas, Weekly World Evolution and release control. It creates no second geography/canon store.
+**Atlas Phase 5 / Weekly World Evolution:** when world/evolution/_INDEX.md is present on main, the dry-run-first weekly evolution engine is ACTIVE for governed post-release state/history transactions. Candidate promotion remains separately gated and never implicit.
+
+**Atlas Publication Convergence V1:** when `world/atlas/integration/_INDEX.md` is present on main, it is ACTIVE as the cross-OS authoring contract binding League Data, Character Canon, World Engine, Location Control Plane, Memo OS, Novel OS, visual grounding, Interactive Atlas, Weekly World Evolution and release control. It creates no second geography/canon store.
 
 ### Jack Mercer
 Read:
