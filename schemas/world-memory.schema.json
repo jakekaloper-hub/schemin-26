@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/world-memory.schema.json",
+  "title": "Schemin World Memory",
+  "type": "object",
+  "required": [
+    "event_id",
+    "week_or_era",
+    "source",
+    "location_id",
+    "memory_class",
+    "current_relevance"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "week_or_era": {
+      "type": "string"
+    },
+    "source": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "participants": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "location_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "memory_class": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "PERMANENT",
+          "RECURRING",
+          "HISTORICAL",
+          "SEASONAL",
+          "TEMPORARY",
+          "JOKE_EVENT_ONLY",
+          "RUMOR",
+          "SUPERSEDED"
+        ]
+      },
+      "minItems": 1
+    },
+    "physical_effect": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "social_effect": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reputation_effect": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "institutional_effect": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "expiry_condition": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "superseded_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "current_relevance": {
+      "type": "string"
+    },
+    "canon_confidence": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}
