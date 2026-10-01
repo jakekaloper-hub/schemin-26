@@ -19,7 +19,7 @@ Current Flaim provider receipt: `WEEK_4_FLAIM_LEAGUE_STATE_RECEIPT_V1.md` captur
 | Fact | Current state | Evidence |
 |---|---|---|
 | current roster membership | **REFRESHED / PROVIDER OBSERVATION** | all 12 current rosters returned through Flaim/ESPN |
-| player availability/injury status | **OPEN** | roster/IR placement is not medical verification |
+| player availability/injury status | **OPEN / PROVIDER OBSERVATIONS AVAILABLE** | fresh DK roster statuses observed through Flaim/ESPN; these are not independent medical verification |
 | completed trades and exact assets | **PARTIAL / UNRESOLVED** | transaction existence observed, but Flaim reports structured details incomplete and some trade rows lack directional assets |
 | waiver/FAAB results | **REFRESHED / PROVIDER OBSERVATION** | 47-row transaction window includes completed/failed waivers and row-level FAAB bids |
 | current Week 4 projections | **REFRESHED / PROVIDER OBSERVATION** | all six ESPN matchup projections captured |
@@ -68,4 +68,34 @@ Flaim is now a governed provider adapter under the Schemin Data Gateway. The mac
 
 This refresh does **not** convert cached evidence into perpetual live state. Recompute freshness from the receipt timestamp.
 
-Story Room remains blocked on unresolved medical/injury evidence, exact trade-asset reconciliation where needed, continuity/world entry, and personalized story intelligence.
+Story Lock remains blocked on unresolved medical/injury evidence where story-relevant, exact trade-asset reconciliation where needed, and incomplete current-week story evidence. W4-G5 continuity/world entry is already PASS; W4-G6 personalized intelligence is LIVE / PARTIAL PASS.
+
+
+## 2026-10-01 W4-G6 personalization refresh
+
+Fresh Flaim/ESPN observations used for the DK/HMB planning update:
+
+### D0nkey K0ng — team 5
+Current roster status observations:
+- Breece Hall — Doubtful
+- Dallas Goedert — Doubtful
+- Terrance Ferguson — Doubtful
+- Tyjae Spears — Questionable
+- Alec Pierce — IR
+- Tank Dell — IR
+- Isiah Pacheco — IR
+
+These are provider roster-status observations only. They support an editorial "battle-worn roster" frame but do not establish medical diagnosis, final Week 4 availability or lineup certainty.
+
+Additional current resource observation:
+- DK added Skyy Moore on 2026-09-30 through a completed Week 4 ESPN transaction.
+
+### His Majesty's Blood — team 8
+- verified Week 4 opponent: The LLC (team 4);
+- current matchup state at refresh: 0.00–0.00 / UNDECIDED;
+- HMB added Sam Darnold for $15 FAAB on 2026-09-30.
+
+Commissioner-supplied beach activity and conditional cookie-face storytelling remain outside provider fact and are classified in the W4-G6 personalized-intelligence amendment.
+
+### Freshness boundary
+These observations are a 2026-10-01 current-provider read for this planning update. They do not become perpetual live state; later Story Lock must refresh any status that materially affects publication.
