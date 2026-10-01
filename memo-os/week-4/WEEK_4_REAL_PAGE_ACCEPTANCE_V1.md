@@ -1,6 +1,6 @@
 # V5.6 RC — Real Week 4 Page Acceptance Receipt V1
 
-**Status:** PASS FOR REAL-PAGE ACCEPTANCE / NOT A RELEASE  
+**Status:** TECHNICAL PASS / PUBLICATION FIDELITY FAIL / NOT A RELEASE  
 **Page:** Week 4 — ObiWan Jacoby preparation feature  
 **Matchup context:** D0nkey K0ng vs ObiWan Jacoby  
 **GOTW status:** NOT DECLARED  
@@ -89,8 +89,23 @@ It does NOT prove:
 - Week 2 reconstruction;
 - exact-byte hash identity.
 
+## Publication fidelity audit
+
+Against the official Week 2 and Week 3 publication family, this page is materially underbuilt:
+- generic hero-image + dark information-panel architecture;
+- insufficient story-specific environmental density;
+- only one matchup character present;
+- typography and illustration are adjacent rather than deeply integrated;
+- lacks the bespoke cinematic scene construction, props, physical jokes and editorial finish seen in the benchmark issues.
+
+The artifact remains valid as a technical pipeline fixture.
+
 ## Verdict
 
-**REAL WEEK 4 PAGE ACCEPTANCE: PASS**
+**TECHNICAL ACCEPTANCE: PASS**
+
+**PUBLICATION FIDELITY: FAIL**
+
+**REAL WEEK 4 PAGE ACCEPTANCE: FAIL**
 
 Promotion remains blocked by the independent requirements recorded in the promotion evidence register.
