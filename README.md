@@ -20,6 +20,8 @@ For substantial project work, read in this order:
 
 Known migrations and recovery items remain in `MIGRATION_LEDGER.md`.
 
+Repository placement and folder ownership are governed by `docs/architecture/REPOSITORY_ARCHITECTURE_V2.md` and `governance/repository-architecture/FOLDER_DOMAIN_REGISTRY_V2.json`.
+
 ## Canonical league
 
 - ESPN league ID: `1417621`
@@ -146,6 +148,8 @@ See `docs/architecture/FLA_INTEGRATION.md`.
 - `productions/` — production outputs and project-specific deliverables
 - `planning/` — bounded planning, archaeology, and recovery work
 - `tests/` plus subsystem QA directories — regression, acceptance, and anti-drift evidence
+- `prompts/` — versioned reusable prompt assets owned by their source subsystem
+- `archive/` — superseded/deprecated material preserved for provenance
 
 ## Release and publication law
 

@@ -1,41 +1,12 @@
-# Repository Architecture
+# Repository Architecture — Superseded Pointer
 
-## Purpose
+**Status:** SUPERSEDED by `REPOSITORY_ARCHITECTURE_V2.md`.
 
-Schemin '26 is the league-specific control plane. FLA is an upstream platform and creative capability source.
+This legacy document described the repository before Living Novel, World/Atlas, governance, Bullpen Runtime, lifecycle folders and Execution Control became first-class architecture.
 
-## Top-level domains
+Current authority:
+- `docs/architecture/REPOSITORY_ARCHITECTURE_V2.md`
+- `governance/repository-architecture/FOLDER_DOMAIN_REGISTRY_V2.json`
+- `docs/governance/FILE_PLACEMENT_STANDARD_V1.md`
 
-### `bullpen/`
-Cross-functional review authority, board-meeting outputs, audits, escalation rules, and project-wide decisions.
-
-### `memo-os/`
-Weekly Memo production system: intake, pre-production, data freeze, writing, art direction, page production, QA, final assembly, and postmortems.
-
-### `mercer/`
-Jack Mercer AI GM: roster analysis, trades, waivers, lineup decisions, opponent scouting, keeper/draft-pick economics, and decision journal.
-
-### `data-gateway/`
-ESPN ingestion contracts, retries/backoff, validation, last-known-good snapshots, mirror fallback, and freshness metadata.
-
-### `canon/`
-Authoritative team names, owner identities, character continuity, rename mapping, visual constraints, and league constants.
-
-### `prompts/`
-Versioned production and initiation prompts. Prompts are treated as executable operating assets.
-
-### `schemas/`
-Machine-readable contracts for league state, freshness metadata, memo inputs, character canon, and decisions.
-
-### `tests/`
-Golden-path, regression, data-contract, and canon-validation tests.
-
-### `docs/`
-Architecture decisions, governance, runbooks, and operating manuals.
-
-## Change doctrine
-
-- League-specific changes belong here.
-- Reusable platform changes belong in FLA.
-- Cross-repo changes should be documented before implementation.
-- Breaking changes require a migration note.
+Retained at this path to preserve historical links. Do not use it to decide current file placement.

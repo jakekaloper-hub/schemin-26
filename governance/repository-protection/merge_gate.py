@@ -8,6 +8,10 @@ import subprocess
 from pathlib import Path
 
 SUITE_COMMANDS = {
+    "architecture": [
+        "python governance/repository-architecture/validate_repository_architecture.py",
+        "python -m unittest -v governance/repository-architecture/test_repository_architecture.py",
+    ],
     "execution_control": [
         "python governance/execution-control/validate_execution_control.py",
         "python -m unittest -v governance/execution-control/test_execution_control.py",
@@ -78,13 +82,45 @@ SUITE_COMMANDS = {
     ],
 }
 
-ORDER = ["execution_control", "orientation", "mission", "data", "character", "novel", "memo", "world", "release", "publication", "bullpen"]
+ORDER = ["architecture", "execution_control", "orientation", "mission", "data", "character", "novel", "memo", "world", "release", "publication", "bullpen"]
 
 def _starts(path: str, prefix: str) -> bool:
     return path == prefix.rstrip("/") or path.startswith(prefix)
 
+ARCHITECTURE_TOP_LEVEL = {
+    ".github","archive","bullpen","bullpen-runtime","canon","chronicles","data","data-gateway",
+    "docs","governance","living-novel","memo-os","mercer","planning","productions","prompts",
+    "schemas","skills","tests","world"
+}
+ARCHITECTURE_CONTROL_PATHS = {
+    "README.md",
+    "PROJECT_CONTROL_REGISTRY.md",
+    "docs/CATALOG.md",
+    "docs/INVENTORY.md",
+    "docs/SESSION_CONTEXT.md",
+    "docs/architecture/REPOSITORY_ARCHITECTURE.md",
+    "docs/architecture/REPOSITORY_ARCHITECTURE_V2.md",
+    "docs/governance/FILE_PLACEMENT_STANDARD_V1.md",
+    "world/README.md",
+    "chronicles/README.md",
+    "data/README.md",
+    "docs/README.md",
+    "governance/README.md",
+    "planning/README.md",
+    "productions/README.md",
+    "schemas/README.md",
+    "skills/README.md",
+}
+
 def suites_for_path(path: str) -> set[str]:
     suites: set[str] = set()
+    first = path.split("/", 1)[0]
+    if (
+        _starts(path, "governance/repository-architecture/")
+        or path in ARCHITECTURE_CONTROL_PATHS
+        or ("/" in path and first not in ARCHITECTURE_TOP_LEVEL)
+    ):
+        suites.add("architecture")
     if (
         _starts(path, "governance/execution-control/")
         or path in {"docs/SESSION_CONTEXT.md", "living-novel/os/SESSION_CONTEXT.md"}

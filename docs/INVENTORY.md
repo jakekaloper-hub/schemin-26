@@ -1,7 +1,7 @@
 # Schemin '26 Knowledge Inventory
 
 **Authority:** The Librarian (CKO)  
-**Version:** 1.0  
+**Version:** 2.0  
 **Created:** 2026-09-25  
 **Currency target:** Review monthly during active season and after major subsystem changes.
 
@@ -21,7 +21,11 @@
 | `docs/governance/SOURCE_OF_TRUTH.md` | governance | Data / Executive | active | source hierarchy change |
 | `docs/governance/AUTHORITY_MATRIX.md` | governance | Executive Control | active | responsibility change |
 | `docs/governance/DOC_STANDARD.md` | governance | Librarian | active | documentation policy change |
-| `docs/architecture/REPOSITORY_ARCHITECTURE.md` | architecture | Executive / Librarian | active | structure change |
+| `docs/architecture/REPOSITORY_ARCHITECTURE.md` | architecture pointer | Librarian | superseded pointer | V2 supersession change |
+| `docs/architecture/REPOSITORY_ARCHITECTURE_V2.md` | architecture | Librarian + Architect | active candidate | structure change |
+| `governance/repository-architecture/FOLDER_DOMAIN_REGISTRY_V2.json` | machine folder registry | Librarian + Architect | active candidate | top-level taxonomy change |
+| `docs/governance/FILE_PLACEMENT_STANDARD_V1.md` | placement doctrine | Librarian | active candidate | placement/lifecycle change |
+| `governance/execution-control/TASK_REGISTRY_V1.json` | machine execution state | Bullpen Execution Control + domains | active | roadmap/task state change |
 | `docs/architecture/FLA_INTEGRATION.md` | integration | Schemin Executive | active | FLA boundary change |
 | `governance/publication-manifest/_INDEX.md` | publication identity index | Librarian / Release Control consumer | active derived | publication relationship/schema change |
 | `governance/publication-manifest/PUBLICATION_MANIFEST_V1.json` | machine publication registry | derived only | active derived | publication release/canon/supersession change |
@@ -40,6 +44,11 @@
 | `bullpen/SCHEMIN_26_SUBAGENT_V5_1_ENGINE_ROOM_RESPONSE.md` | architecture proposal | Subagent OS | adopted in later RC where stated | supersession |
 | `planning/ROADMAP.md` | roadmap | Executive Control | active | monthly / milestone |
 | `docs/decisions/ADR-0001-knowledge-architecture.md` | ADR | Executive + Librarian | accepted | architecture reversal |
+| `world/README.md` | domain entry point | World Engine / Atlas | active candidate | world structure change |
+| `chronicles/README.md` | lifecycle entry point | Librarian | active candidate | narrative-history structure change |
+| `governance/README.md` | control entry point | Cross-system governance | active candidate | governance structure change |
+| `planning/README.md` | lifecycle entry point | Groundskeeper | active candidate | planning lifecycle change |
+| `productions/README.md` | lifecycle entry point | Production authority | active candidate | production placement change |
 | `archive/_INDEX.md` | archive registry | Librarian | active | archival event |
 
 ## Known gap

@@ -141,13 +141,17 @@
         "adr",
         "source of truth",
         "supersession",
-        "structure"
+        "structure",
+        "folder",
+        "file placement",
+        "directory",
+        "orphan",
+        "repo organization"
       ],
       "context_sources": [
-        "docs/CATALOG.md",
-        "docs/INVENTORY.md",
-        "docs/architecture/REPOSITORY_ARCHITECTURE.md",
-        "docs/governance/SOURCE_OF_TRUTH.md"
+        "docs/architecture/REPOSITORY_ARCHITECTURE_V2.md",
+        "governance/repository-architecture/FOLDER_DOMAIN_REGISTRY_V2.json",
+        "docs/governance/FILE_PLACEMENT_STANDARD_V1.md"
       ]
     },
     {

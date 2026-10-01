@@ -488,6 +488,354 @@
       ],
       "supersedes": [],
       "superseded_by": null
+    },
+    {
+      "task_id": "REPO-ARCH-V2-001",
+      "title": "Inventory and audit current Schemin repository structure",
+      "project": "Schemin '26",
+      "program": "Repository Architecture V2",
+      "roadmap": "Repository Architecture V2 & Placement Governance",
+      "phase": "Discovery",
+      "milestone": "Current tree frozen and classified",
+      "workstream": "Librarian Architecture Audit",
+      "owner": "the_librarian",
+      "reviewer": "the_umpire",
+      "priority": "P1",
+      "status": "COMPLETE",
+      "created_at": "2026-10-01",
+      "started_at": "2026-10-01",
+      "completed_at": "2026-10-01",
+      "dependencies": [],
+      "blocked_by": [],
+      "blocks": [
+        "REPO-ARCH-V2-002"
+      ],
+      "acceptance_criteria": [
+        "Current main/tree frozen",
+        "Top-level structure inventoried",
+        "Directory overlap risks documented"
+      ],
+      "evidence": [
+        {
+          "type": "inventory",
+          "ref": "governance/repository-architecture/REPOSITORY_STRUCTURE_INVENTORY_V2.json",
+          "status": "PASS"
+        },
+        {
+          "type": "audit",
+          "ref": "docs/architecture/REPOSITORY_STRUCTURE_AUDIT_V2.md",
+          "status": "PASS"
+        },
+        {
+          "type": "repository_merge_gate",
+          "ref": "run:36934954134",
+          "status": "PASS"
+        },
+        {
+          "type": "project_mission_ci",
+          "ref": "run:36934954084",
+          "status": "PASS"
+        },
+        {
+          "type": "world_engine_ci",
+          "ref": "run:36934954244",
+          "status": "PASS"
+        },
+        {
+          "type": "world_engine_qa",
+          "ref": "run:36934954104",
+          "status": "PASS"
+        },
+        {
+          "type": "bullpen_runtime_ci",
+          "ref": "run:36934954225",
+          "status": "PASS"
+        }
+      ],
+      "source_authority": "docs/architecture/REPOSITORY_ARCHITECTURE_V2_MISSION_FREEZE.md",
+      "next_action": "None.",
+      "aliases": [
+        "repository architecture audit",
+        "folder structure audit"
+      ],
+      "supersedes": [],
+      "superseded_by": null
+    },
+    {
+      "task_id": "REPO-ARCH-V2-002",
+      "title": "Define Repository Architecture V2 taxonomy and placement law",
+      "project": "Schemin '26",
+      "program": "Repository Architecture V2",
+      "roadmap": "Repository Architecture V2 & Placement Governance",
+      "phase": "Specification",
+      "milestone": "Placement governance specified",
+      "workstream": "Architecture Contract",
+      "owner": "the_librarian",
+      "reviewer": "the_architect",
+      "priority": "P1",
+      "status": "COMPLETE",
+      "created_at": "2026-10-01",
+      "started_at": "2026-10-01",
+      "completed_at": "2026-10-01",
+      "dependencies": [
+        "REPO-ARCH-V2-001"
+      ],
+      "blocked_by": [],
+      "blocks": [
+        "REPO-ARCH-V2-003"
+      ],
+      "acceptance_criteria": [
+        "Top-level folder registry exists",
+        "Governance/docs, Novel/Chronicles/Productions, planning lifecycle boundaries resolved",
+        "Migration plan avoids unjustified path churn"
+      ],
+      "evidence": [
+        {
+          "type": "spec",
+          "ref": "docs/architecture/REPOSITORY_ARCHITECTURE_V2.md",
+          "status": "PASS"
+        },
+        {
+          "type": "registry",
+          "ref": "governance/repository-architecture/FOLDER_DOMAIN_REGISTRY_V2.json",
+          "status": "PASS"
+        },
+        {
+          "type": "placement_standard",
+          "ref": "docs/governance/FILE_PLACEMENT_STANDARD_V1.md",
+          "status": "PASS"
+        },
+        {
+          "type": "repository_merge_gate",
+          "ref": "run:36934954134",
+          "status": "PASS"
+        },
+        {
+          "type": "project_mission_ci",
+          "ref": "run:36934954084",
+          "status": "PASS"
+        },
+        {
+          "type": "world_engine_ci",
+          "ref": "run:36934954244",
+          "status": "PASS"
+        },
+        {
+          "type": "world_engine_qa",
+          "ref": "run:36934954104",
+          "status": "PASS"
+        },
+        {
+          "type": "bullpen_runtime_ci",
+          "ref": "run:36934954225",
+          "status": "PASS"
+        }
+      ],
+      "source_authority": "docs/architecture/REPOSITORY_ARCHITECTURE_V2.md",
+      "next_action": "None.",
+      "aliases": [
+        "repository architecture v2",
+        "file placement"
+      ],
+      "supersedes": [],
+      "superseded_by": null
+    },
+    {
+      "task_id": "REPO-ARCH-V2-003",
+      "title": "Repair top-level entry points and knowledge navigation",
+      "project": "Schemin '26",
+      "program": "Repository Architecture V2",
+      "roadmap": "Repository Architecture V2 & Placement Governance",
+      "phase": "Implementation",
+      "milestone": "Canonical entry points complete",
+      "workstream": "Navigation",
+      "owner": "the_librarian",
+      "reviewer": "the_groundskeeper",
+      "priority": "P1",
+      "status": "COMPLETE",
+      "created_at": "2026-10-01",
+      "started_at": "2026-10-01",
+      "completed_at": "2026-10-01",
+      "dependencies": [
+        "REPO-ARCH-V2-002"
+      ],
+      "blocked_by": [],
+      "blocks": [
+        "REPO-ARCH-V2-004"
+      ],
+      "acceptance_criteria": [
+        "Every registered first-class folder has declared entry point",
+        "Catalog/Inventory/Session Context/README/Project Control reconciled",
+        "Legacy architecture points to V2"
+      ],
+      "evidence": [
+        {
+          "type": "repository_merge_gate",
+          "ref": "run:36934954134",
+          "status": "PASS"
+        },
+        {
+          "type": "project_mission_ci",
+          "ref": "run:36934954084",
+          "status": "PASS"
+        },
+        {
+          "type": "world_engine_ci",
+          "ref": "run:36934954244",
+          "status": "PASS"
+        },
+        {
+          "type": "world_engine_qa",
+          "ref": "run:36934954104",
+          "status": "PASS"
+        },
+        {
+          "type": "bullpen_runtime_ci",
+          "ref": "run:36934954225",
+          "status": "PASS"
+        }
+      ],
+      "source_authority": "docs/architecture/KNOWLEDGE_ARCHITECTURE_RECONCILIATION_V2.md",
+      "next_action": "None.",
+      "aliases": [
+        "repository navigation",
+        "entry points"
+      ],
+      "supersedes": [],
+      "superseded_by": null
+    },
+    {
+      "task_id": "REPO-ARCH-V2-004",
+      "title": "Enforce Repository Architecture V2 in validators and merge gate",
+      "project": "Schemin '26",
+      "program": "Repository Architecture V2",
+      "roadmap": "Repository Architecture V2 & Placement Governance",
+      "phase": "Enforcement",
+      "milestone": "Architecture CI PASS",
+      "workstream": "Repository Validation",
+      "owner": "the_architect",
+      "reviewer": "the_umpire",
+      "priority": "P1",
+      "status": "COMPLETE",
+      "created_at": "2026-10-01",
+      "started_at": "2026-10-01",
+      "completed_at": "2026-10-01",
+      "dependencies": [
+        "REPO-ARCH-V2-003"
+      ],
+      "blocked_by": [],
+      "blocks": [
+        "REPO-ARCH-V2-005"
+      ],
+      "acceptance_criteria": [
+        "Unauthorized top-level directories fail",
+        "Required entry points fail closed when missing",
+        "architecture changes trigger merge-gate suite",
+        "clean-context navigation scenarios pass"
+      ],
+      "evidence": [
+        {
+          "type": "repository_merge_gate",
+          "ref": "run:36934954134",
+          "status": "PASS"
+        },
+        {
+          "type": "project_mission_ci",
+          "ref": "run:36934954084",
+          "status": "PASS"
+        },
+        {
+          "type": "world_engine_ci",
+          "ref": "run:36934954244",
+          "status": "PASS"
+        },
+        {
+          "type": "world_engine_qa",
+          "ref": "run:36934954104",
+          "status": "PASS"
+        },
+        {
+          "type": "bullpen_runtime_ci",
+          "ref": "run:36934954225",
+          "status": "PASS"
+        }
+      ],
+      "source_authority": "docs/architecture/REPOSITORY_ARCHITECTURE_V2.md",
+      "next_action": "None.",
+      "aliases": [
+        "repository architecture validator",
+        "structural drift"
+      ],
+      "supersedes": [],
+      "superseded_by": null
+    },
+    {
+      "task_id": "REPO-ARCH-V2-005",
+      "title": "Promote Repository Architecture V2 after full regression and main readback",
+      "project": "Schemin '26",
+      "program": "Repository Architecture V2",
+      "roadmap": "Repository Architecture V2 & Placement Governance",
+      "phase": "Release",
+      "milestone": "Repository Architecture V2 ACTIVE",
+      "workstream": "Acceptance & Promotion",
+      "owner": "the_closer",
+      "reviewer": "the_umpire",
+      "priority": "P1",
+      "status": "VERIFYING",
+      "created_at": "2026-10-01",
+      "started_at": "2026-10-01",
+      "completed_at": null,
+      "dependencies": [
+        "REPO-ARCH-V2-004"
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "acceptance_criteria": [
+        "Repository Architecture suite passes",
+        "Existing subsystem CI remains green",
+        "PR merged",
+        "main-branch readback confirms architecture artifacts",
+        "release receipt issued"
+      ],
+      "evidence": [
+        {
+          "type": "repository_merge_gate",
+          "ref": "run:36934954134",
+          "status": "PASS"
+        },
+        {
+          "type": "project_mission_ci",
+          "ref": "run:36934954084",
+          "status": "PASS"
+        },
+        {
+          "type": "world_engine_ci",
+          "ref": "run:36934954244",
+          "status": "PASS"
+        },
+        {
+          "type": "world_engine_qa",
+          "ref": "run:36934954104",
+          "status": "PASS"
+        },
+        {
+          "type": "bullpen_runtime_ci",
+          "ref": "run:36934954225",
+          "status": "PASS"
+        },
+        {
+          "type": "merge_and_main_readback",
+          "ref": "run:pending",
+          "status": "PENDING"
+        }
+      ],
+      "source_authority": "docs/architecture/REPOSITORY_ARCHITECTURE_V2.md",
+      "next_action": "Merge PR #91, perform fresh main readback, then issue release receipt.",
+      "aliases": [
+        "repository architecture release"
+      ],
+      "supersedes": [],
+      "superseded_by": null
     }
   ],
   "history": []
