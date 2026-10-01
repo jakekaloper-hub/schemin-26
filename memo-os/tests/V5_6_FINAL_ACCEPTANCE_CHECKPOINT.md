@@ -1,6 +1,10 @@
-# V5.6 RC — Final Acceptance Checkpoint
+> **SUPERSESSION NOTICE — 2026-10-01**
+>
+> This checkpoint records the state before real reference-mounted generation was proven. It is no longer the current promotion-readiness authority. Current promotion evidence is maintained in `V5_6_PROMOTION_EVIDENCE_REGISTER.json` and the latest gates run report. Do not use the historical "pixel references unavailable" statement as current state.
 
-Status: EXECUTED TO EVIDENCE BOUNDARY / PROMOTION BLOCKED
+# V5.6 RC — Historical Acceptance Checkpoint (SUPERSEDED)
+
+Status: SUPERSEDED — historical checkpoint only
 Date: 2026-09-30 America/New_York
 
 ## Runtime resolution
