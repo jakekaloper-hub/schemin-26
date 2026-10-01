@@ -1,7 +1,7 @@
 # Author Council Engagement 001 — Index
 
 **ID:** NOVEL-AUTHOR-CONSULT-2026-10-01-001  
-**Status:** FOUR ROUNDS COMPLETE / PROMOTION PENDING CI  
+**Status:** COMPLETE / ACCEPTED FOR ACTIVE NOVEL ARCHITECTURE  
 **Target:** current hard-canon Prologue + Chapters I–II + forward book architecture
 
 ## Freeze
@@ -32,6 +32,8 @@ Seven consultant memos under `round-4/`.
 - `FINAL_RECONCILIATION.md`
 - `IMPLEMENTATION_DECISION.md`
 - `AUDIT_RECEIPT.md`
+
+- `RELEASE_RECEIPT.md` — promotion evidence and controlling-artifact receipt.
 
 ## Primary result
 
