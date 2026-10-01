@@ -77,6 +77,14 @@ The final state should distinguish:
 - what people believe happened;
 - what the world changed because of it.
 
+## Flexibility doctrine
+
+Movement boundaries are **diagnostic, not deterministic**.
+
+They help the Author Room recognize the shape the book is taking. They do not force the live story to hit predetermined beats.
+
+The Closer and Beat Writer may move, merge, rename or remove a future movement boundary when verified events produce a stronger causal architecture. No change may rewrite already-closed manuscript canon without a separate canon-reopen decision.
+
 ## Chapter allocation law
 
 Within any movement:
