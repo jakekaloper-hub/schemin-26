@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "compilation_version": "phase2-v1",
+  "character_id": "CHAR-BOBBY-MITCHELL",
+  "owner": "Bobby Mitchell",
+  "team": "Mud Dogs",
+  "team_id": 10,
+  "division_id": "DIV-BURGERS",
+  "division_name": "Burgers",
+  "domain_type": "territorial",
+  "primary_location_id": "LOC-MUD-DOGS-SWAMP",
+  "physical_zone_ids": [
+    "REG-SOUTHERN-WETLANDS"
+  ],
+  "physical_zone_profiles": [
+    {
+      "id": "REG-SOUTHERN-WETLANDS",
+      "name": "Southern Wetlands and Delta",
+      "terrain": [
+        "slow rivers",
+        "cypress-like wetlands",
+        "mudflats",
+        "raised ground"
+      ],
+      "climate": [
+        "warm",
+        "humid",
+        "seasonal flooding"
+      ],
+      "movement": [
+        "boats",
+        "causeways",
+        "raised roads",
+        "specialized wetland travel"
+      ]
+    }
+  ],
+  "ontology_class": "PEOPLED_KIND",
+  "canon_guard": [
+    "SWAMP_BORN_MENACE"
+  ],
+  "shared_location_ids": [],
+  "manifestation_modes": [],
+  "primary_landmarks": [
+    "mud channels",
+    "raised ground"
+  ],
+  "primary_access_route_ids": [
+    "ROUTE-DELTA-CAUSEWAY"
+  ],
+  "current_world_state": [
+    "Week 2 and Week 3 history remembered"
+  ],
+  "ordinary_population_rule": "Broader same-kind/compatible ordinary population may exist only as permitted by governing ontology.",
+  "division_visual_fingerprint": {
+    "skyline": [
+      "layered highland ridges",
+      "fortified road markets",
+      "waterfall escarpments",
+      "southern causeway silhouettes"
+    ],
+    "materials": [
+      "fieldstone",
+      "dark timber",
+      "iron",
+      "wetland hardwood",
+      "weathered brick"
+    ],
+    "roads": [
+      "ridge roads",
+      "market approaches",
+      "bridge/lake roads",
+      "wetland causeways"
+    ],
+    "night": [
+      "amber hearthlight",
+      "forge glow",
+      "mist over dark water",
+      "lanterned road stations"
+    ]
+  },
+  "visual_reference_status": "CHARACTER_REFERENCE_RESOLVED_SEPARATELY__LOCATION_REFERENCE_MISSING_UNLESS_REGISTERED",
+  "open_questions": [],
+  "generated_from": [
+    "world/data/owner_domains.json",
+    "world/data/locations.json",
+    "world/data/physical_zones.json",
+    "world/data/divisions.json",
+    "world/data/current_world_state.json"
+  ],
+  "authority_note": "Derived card. Upstream sources remain authoritative."
+}

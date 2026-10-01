@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "compilation_version": "phase2-v1",
+  "character_id": "CHAR-KEVIN-ZEEK",
+  "owner": "Kevin Zeek",
+  "team": "Red Leopards",
+  "team_id": 2,
+  "division_id": "DIV-WINGS",
+  "division_name": "Wings",
+  "domain_type": "territorial",
+  "primary_location_id": "LOC-RED-RUINS",
+  "physical_zone_ids": [
+    "REG-EASTERN-STORM-COAST"
+  ],
+  "physical_zone_profiles": [
+    {
+      "id": "REG-EASTERN-STORM-COAST",
+      "name": "Eastern Forest and Storm Coast",
+      "terrain": [
+        "dense forest",
+        "rocky approaches",
+        "storm-exposed coast"
+      ],
+      "climate": [
+        "wet",
+        "violent coastal storms",
+        "high rainfall"
+      ],
+      "movement": [
+        "forest roads",
+        "coastal navigation",
+        "weather disruption"
+      ]
+    }
+  ],
+  "ontology_class": "PEOPLED_KIND",
+  "canon_guard": [
+    "RED_LEOPARD_PREDATOR"
+  ],
+  "shared_location_ids": [],
+  "manifestation_modes": [],
+  "primary_landmarks": [
+    "jungle ruins",
+    "predator banners"
+  ],
+  "primary_access_route_ids": [
+    "ROUTE-RAIN-ESCARPMENT"
+  ],
+  "current_world_state": [
+    "operational"
+  ],
+  "ordinary_population_rule": "Broader same-kind/compatible ordinary population may exist only as permitted by governing ontology.",
+  "division_visual_fingerprint": {
+    "skyline": [
+      "stormward ruin heights",
+      "foothill camps",
+      "western stables",
+      "raised country-club grounds"
+    ],
+    "materials": [
+      "timber",
+      "iron straps",
+      "river stone",
+      "canvas",
+      "copper",
+      "weathered plaster"
+    ],
+    "roads": [
+      "foothill roads",
+      "western range tracks",
+      "levee roads",
+      "estate approaches"
+    ],
+    "night": [
+      "fire pits",
+      "stable lamps",
+      "clubhouse windows",
+      "storm-lit ruin silhouettes"
+    ]
+  },
+  "visual_reference_status": "CHARACTER_REFERENCE_RESOLVED_SEPARATELY__LOCATION_REFERENCE_MISSING_UNLESS_REGISTERED",
+  "open_questions": [
+    "civil settlement relationship"
+  ],
+  "generated_from": [
+    "world/data/owner_domains.json",
+    "world/data/locations.json",
+    "world/data/physical_zones.json",
+    "world/data/divisions.json",
+    "world/data/current_world_state.json"
+  ],
+  "authority_note": "Derived card. Upstream sources remain authoritative."
+}

@@ -1,0 +1,288 @@
+{
+  "schema_version": "1.0",
+  "compilation_version": "phase2-v1",
+  "location_id": "LOC-DK-MUD-HILL",
+  "name": "Mire Hill Battlefield",
+  "canon_status": "PROVISIONAL_CANON",
+  "location_type": "encounter_site",
+  "physical_zone": {
+    "id": "REG-CENTRAL-BASIN",
+    "name": "Central River Basin",
+    "terrain": [
+      "broad river valleys",
+      "fertile lowlands",
+      "bridge corridors"
+    ],
+    "climate": [
+      "temperate",
+      "flood-cycle influence"
+    ],
+    "movement": [
+      "navigable rivers",
+      "major roads",
+      "bridges and toll points"
+    ]
+  },
+  "division_overlay": {
+    "id": "DIV-BURGERS",
+    "name": "Burgers",
+    "food_referent": "burgers",
+    "visual_fingerprint": {
+      "skyline": [
+        "layered highland ridges",
+        "fortified road markets",
+        "waterfall escarpments",
+        "southern causeway silhouettes"
+      ],
+      "materials": [
+        "fieldstone",
+        "dark timber",
+        "iron",
+        "wetland hardwood",
+        "weathered brick"
+      ],
+      "roads": [
+        "ridge roads",
+        "market approaches",
+        "bridge/lake roads",
+        "wetland causeways"
+      ],
+      "night": [
+        "amber hearthlight",
+        "forge glow",
+        "mist over dark water",
+        "lanterned road stations"
+      ]
+    },
+    "anti_drift": [
+      "no giant burger terrain",
+      "no palette-only differentiation",
+      "do not flatten Trade Jedi mountains, D0nkey K0ng highlands, TDS falls and Mud Dogs swamp into one biome",
+      "food identity must remain burger-specific",
+      "do not use division membership as species segregation"
+    ]
+  },
+  "owner_character_ids": [],
+  "shared_location_ids": [],
+  "division_presence_ids": [],
+  "abstract_position": [
+    40,
+    47
+  ],
+  "access_routes": [
+    {
+      "id": "ROUTE-BASIN-MARKET",
+      "name": "Basin Market Road",
+      "route_class": "LOCAL",
+      "from": "LOC-CHINS-ROAD-COMMONS",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon",
+        "river"
+      ],
+      "constraints": [
+        "market traffic"
+      ],
+      "via_location_ids": [
+        "LOC-PITTSYS-BOOK",
+        "LOC-SOUTHERN-SPEEDWAY",
+        "LOC-DK-MUD-HILL"
+      ]
+    },
+    {
+      "id": "ROUTE-DELTA-CAUSEWAY",
+      "name": "Delta Causeway",
+      "route_class": "CROSS_DIVISION",
+      "from": "LOC-MUD-DOGS-SWAMP",
+      "to": "LOC-COUNTRY-CLUB-JACKSON",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wetland"
+      ],
+      "constraints": [
+        "seasonal flooding",
+        "soft ground"
+      ],
+      "via_location_ids": [
+        "LOC-DK-MUD-HILL"
+      ]
+    }
+  ],
+  "persistent_landmarks": [
+    "hill",
+    "mire",
+    "battle standards"
+  ],
+  "addressable_feature_handles": [
+    {
+      "handle_id": "SUB::LOC-DK-MUD-HILL::HILL",
+      "parent_location_id": "LOC-DK-MUD-HILL",
+      "name": "hill",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-DK-MUD-HILL::MIRE",
+      "parent_location_id": "LOC-DK-MUD-HILL",
+      "name": "mire",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-DK-MUD-HILL::BATTLE-STANDARDS",
+      "parent_location_id": "LOC-DK-MUD-HILL",
+      "name": "battle standards",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    }
+  ],
+  "base_location_state": [
+    "Week 3 battlefield scar",
+    "Mud Dogs yield memory"
+  ],
+  "current_world_state": [
+    "battlefield scar and yield memory"
+  ],
+  "historical_events": [
+    {
+      "id": "EVT-W3-MIRE-HILL",
+      "week": 3,
+      "event_type": "scar",
+      "classification": "WORLD_CANON",
+      "entering_state": [
+        "active battlefield/mire"
+      ],
+      "continuity_out": [
+        "scarred hill",
+        "yield memory",
+        "discarded standards/debris may persist until cleanup"
+      ]
+    }
+  ],
+  "horizon_constraints": [],
+  "weather_relationships": [
+    {
+      "id": "WX-EASTERN-STORM",
+      "role": "PROPAGATION_ZONE",
+      "effects": [
+        "coastal surge",
+        "heavy rain",
+        "wind",
+        "road washout"
+      ],
+      "rule": "major event must record downstream/adjacent effects"
+    },
+    {
+      "id": "WX-SOUTHERN-FLOOD",
+      "role": "SOURCE_ZONE",
+      "effects": [
+        "high river",
+        "mud",
+        "causeway closure"
+      ],
+      "rule": "flooding follows watershed; not arbitrary backdrop"
+    }
+  ],
+  "visual_dna": {
+    "terrain": [
+      "broad river valleys",
+      "fertile lowlands",
+      "bridge corridors"
+    ],
+    "climate": [
+      "temperate",
+      "flood-cycle influence"
+    ],
+    "movement": [
+      "navigable rivers",
+      "major roads",
+      "bridges and toll points"
+    ],
+    "division_materials": [
+      "fieldstone",
+      "dark timber",
+      "iron",
+      "wetland hardwood",
+      "weathered brick"
+    ],
+    "division_skyline": [
+      "layered highland ridges",
+      "fortified road markets",
+      "waterfall escarpments",
+      "southern causeway silhouettes"
+    ],
+    "division_roads": [
+      "ridge roads",
+      "market approaches",
+      "bridge/lake roads",
+      "wetland causeways"
+    ],
+    "division_night": [
+      "amber hearthlight",
+      "forge glow",
+      "mist over dark water",
+      "lanterned road stations"
+    ],
+    "landmark_anchors": [
+      "hill",
+      "mire",
+      "battle standards"
+    ]
+  },
+  "reference_status": {
+    "location_id": "LOC-DK-MUD-HILL",
+    "semantic_reference_status": "RESOLVED_FROM_WORLD_ENGINE",
+    "visual_reference_status": "MISSING_APPROVED_VISUAL_REFERENCE",
+    "approved_reference_uris": [],
+    "candidate_reference_paths": [],
+    "blockers": [
+      "No durable approved renderer-addressable environment bytes are registered for this location."
+    ],
+    "rule": "Visual-reference-required workflows must return HUMAN_REVIEW_REQUIRED until approved bytes are registered."
+  },
+  "open_questions": [
+    "permanent memorialization"
+  ],
+  "prohibited_inventions": [
+    "Do not move location to another physical zone.",
+    "Do not convert Division overlay into physical geography.",
+    "Do not erase unresolved current world state.",
+    "Do not create new permanent landmarks from generated scenery.",
+    "Do not infer character body identity from location theme."
+  ],
+  "source_provenance": [
+    "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+  ],
+  "generated_from": [
+    "world/data/locations.json",
+    "world/data/routes.json",
+    "world/data/physical_zones.json",
+    "world/data/divisions.json",
+    "world/data/current_world_state.json",
+    "world/data/world_state_events.json",
+    "world/data/landmark_visibility.json",
+    "world/data/weather_regions.json"
+  ],
+  "authority_note": "Derived card. Upstream World Engine and state records remain authoritative."
+}

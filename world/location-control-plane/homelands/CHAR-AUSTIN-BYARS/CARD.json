@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "compilation_version": "phase2-v1",
+  "character_id": "CHAR-AUSTIN-BYARS",
+  "owner": "Austin Byars",
+  "team": "His Majesty's Blood",
+  "team_id": 8,
+  "division_id": "DIV-PIZZA",
+  "division_name": "Pizza",
+  "domain_type": "martial-legacy",
+  "primary_location_id": "LOC-BELT-KEEPER-KEEP",
+  "physical_zone_ids": [
+    "REG-EASTERN-STORM-COAST",
+    "REG-NORTHERN-SPINE"
+  ],
+  "physical_zone_profiles": [
+    {
+      "id": "REG-EASTERN-STORM-COAST",
+      "name": "Eastern Forest and Storm Coast",
+      "terrain": [
+        "dense forest",
+        "rocky approaches",
+        "storm-exposed coast"
+      ],
+      "climate": [
+        "wet",
+        "violent coastal storms",
+        "high rainfall"
+      ],
+      "movement": [
+        "forest roads",
+        "coastal navigation",
+        "weather disruption"
+      ]
+    },
+    {
+      "id": "REG-NORTHERN-SPINE",
+      "name": "Northern Spine",
+      "terrain": [
+        "high mountains",
+        "narrow passes",
+        "rock ridges"
+      ],
+      "climate": [
+        "cold winters",
+        "snow at elevation",
+        "headwater precipitation"
+      ],
+      "movement": [
+        "passes constrain travel",
+        "winter closures possible",
+        "mounts and foot travel dominate"
+      ]
+    }
+  ],
+  "ontology_class": "SINGULAR_BEING",
+  "canon_guard": [
+    "BELT_KEEPER",
+    "CHAMPIONSHIP_BELT"
+  ],
+  "shared_location_ids": [],
+  "manifestation_modes": [],
+  "primary_landmarks": [
+    "dark keep",
+    "championship hall"
+  ],
+  "primary_access_route_ids": [
+    "ROUTE-BLACK-CLIFF"
+  ],
+  "current_world_state": [
+    "Belt remains with Belt Keeper"
+  ],
+  "ordinary_population_rule": "Do not infer a same-kind civilization from the principal.",
+  "division_visual_fingerprint": {
+    "skyline": [
+      "mercantile towers",
+      "storm-cliff keeps",
+      "coastal weather beacons",
+      "basin road halls"
+    ],
+    "materials": [
+      "cut stone",
+      "slate",
+      "brick",
+      "bronze",
+      "tile",
+      "heavy timber shutters"
+    ],
+    "roads": [
+      "quays",
+      "storm-coast roads",
+      "basin market roads",
+      "cliff approaches"
+    ],
+    "night": [
+      "harbor lamps",
+      "beacon fires",
+      "lightning silhouettes",
+      "road-hall hearths"
+    ]
+  },
+  "visual_reference_status": "CHARACTER_REFERENCE_RESOLVED_SEPARATELY__LOCATION_REFERENCE_MISSING_UNLESS_REGISTERED",
+  "open_questions": [
+    "permanent name",
+    "civil jurisdiction"
+  ],
+  "generated_from": [
+    "world/data/owner_domains.json",
+    "world/data/locations.json",
+    "world/data/physical_zones.json",
+    "world/data/divisions.json",
+    "world/data/current_world_state.json"
+  ],
+  "authority_note": "Derived card. Upstream sources remain authoritative."
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "compilation_version": "phase2-v1",
+  "character_id": "CHAR-ZACH-WILSON",
+  "owner": "Zach Wilson",
+  "team": "Dr. Duckhook",
+  "team_id": 12,
+  "division_id": "DIV-WINGS",
+  "division_name": "Wings",
+  "domain_type": "estate-sporting",
+  "primary_location_id": "LOC-COUNTRY-CLUB-JACKSON",
+  "physical_zone_ids": [
+    "REG-SOUTHERN-WETLANDS"
+  ],
+  "physical_zone_profiles": [
+    {
+      "id": "REG-SOUTHERN-WETLANDS",
+      "name": "Southern Wetlands and Delta",
+      "terrain": [
+        "slow rivers",
+        "cypress-like wetlands",
+        "mudflats",
+        "raised ground"
+      ],
+      "climate": [
+        "warm",
+        "humid",
+        "seasonal flooding"
+      ],
+      "movement": [
+        "boats",
+        "causeways",
+        "raised roads",
+        "specialized wetland travel"
+      ]
+    }
+  ],
+  "ontology_class": "SINGULAR_BEING",
+  "canon_guard": [
+    "KING_OF_IMPOSSIBLE_LIE",
+    "DUCK_GOLFER"
+  ],
+  "shared_location_ids": [],
+  "manifestation_modes": [],
+  "primary_landmarks": [
+    "clubhouse",
+    "golf grounds",
+    "water hazards"
+  ],
+  "primary_access_route_ids": [
+    "ROUTE-JACKSON-LEVEE"
+  ],
+  "current_world_state": [
+    "Week 3 chili contamination/humiliation history",
+    "cleanup status unresolved"
+  ],
+  "ordinary_population_rule": "Do not infer a same-kind civilization from the principal.",
+  "division_visual_fingerprint": {
+    "skyline": [
+      "stormward ruin heights",
+      "foothill camps",
+      "western stables",
+      "raised country-club grounds"
+    ],
+    "materials": [
+      "timber",
+      "iron straps",
+      "river stone",
+      "canvas",
+      "copper",
+      "weathered plaster"
+    ],
+    "roads": [
+      "foothill roads",
+      "western range tracks",
+      "levee roads",
+      "estate approaches"
+    ],
+    "night": [
+      "fire pits",
+      "stable lamps",
+      "clubhouse windows",
+      "storm-lit ruin silhouettes"
+    ]
+  },
+  "visual_reference_status": "CHARACTER_REFERENCE_RESOLVED_SEPARATELY__LOCATION_REFERENCE_MISSING_UNLESS_REGISTERED",
+  "open_questions": [
+    "degree of public/private access"
+  ],
+  "generated_from": [
+    "world/data/owner_domains.json",
+    "world/data/locations.json",
+    "world/data/physical_zones.json",
+    "world/data/divisions.json",
+    "world/data/current_world_state.json"
+  ],
+  "authority_note": "Derived card. Upstream sources remain authoritative."
+}

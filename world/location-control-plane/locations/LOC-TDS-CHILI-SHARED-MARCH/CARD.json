@@ -1,0 +1,190 @@
+{
+  "schema_version": "1.0",
+  "compilation_version": "phase2-v1",
+  "location_id": "LOC-TDS-CHILI-SHARED-MARCH",
+  "name": "TDS–Chili Shared March",
+  "canon_status": "INTERPRETIVE_CANON",
+  "location_type": "shared_cross_division_settlement_corridor",
+  "physical_zone": {
+    "id": "REG-WESTERN-TABLELANDS",
+    "name": "Western Tablelands",
+    "terrain": [
+      "open grassland",
+      "broken stone ridges",
+      "dry frontier"
+    ],
+    "climate": [
+      "drier",
+      "rain-shadow influence",
+      "large temperature swings"
+    ],
+    "movement": [
+      "long overland routes",
+      "mounted travel",
+      "dispersed settlements"
+    ]
+  },
+  "division_overlay": null,
+  "owner_character_ids": [
+    "CHAR-PHILLIP-PITTS",
+    "CHAR-BRANDON-PRYOR"
+  ],
+  "shared_location_ids": [],
+  "division_presence_ids": [
+    "DIV-BURGERS",
+    "DIV-WINGS"
+  ],
+  "abstract_position": [
+    28,
+    42
+  ],
+  "access_routes": [
+    {
+      "id": "ROUTE-TDS-CHILI-SHARED-MARCH",
+      "name": "Shared March Road",
+      "route_class": "CROSS_DIVISION",
+      "from": "LOC-TDS-WATERFALL-TEMPLE",
+      "to": "LOC-CHILI-STABLE",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon",
+        "wetland"
+      ],
+      "constraints": [
+        "seasonal water",
+        "tableland exposure"
+      ],
+      "via_location_ids": [
+        "LOC-TDS-CHILI-SHARED-MARCH"
+      ]
+    }
+  ],
+  "persistent_landmarks": [
+    "mixed caravan settlement",
+    "watercourse crossing",
+    "stable-and-market quarter"
+  ],
+  "addressable_feature_handles": [
+    {
+      "handle_id": "SUB::LOC-TDS-CHILI-SHARED-MARCH::MIXED-CARAVAN-SETTLEMENT",
+      "parent_location_id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "name": "mixed caravan settlement",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-TDS-CHILI-SHARED-MARCH::WATERCOURSE-CROSSING",
+      "parent_location_id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "name": "watercourse crossing",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-TDS-CHILI-SHARED-MARCH::STABLE-AND-MARKET-QUARTER",
+      "parent_location_id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "name": "stable-and-market quarter",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    }
+  ],
+  "base_location_state": [
+    "TDS and Chili coexist here regardless of League division"
+  ],
+  "current_world_state": [],
+  "historical_events": [],
+  "horizon_constraints": [],
+  "weather_relationships": [
+    {
+      "id": "WX-WESTERN-DRY",
+      "role": "SOURCE_ZONE",
+      "effects": [
+        "dust",
+        "heat",
+        "water scarcity"
+      ],
+      "rule": "rain-shadow tendency, not permanent drought"
+    }
+  ],
+  "visual_dna": {
+    "terrain": [
+      "open grassland",
+      "broken stone ridges",
+      "dry frontier"
+    ],
+    "climate": [
+      "drier",
+      "rain-shadow influence",
+      "large temperature swings"
+    ],
+    "movement": [
+      "long overland routes",
+      "mounted travel",
+      "dispersed settlements"
+    ],
+    "division_materials": [],
+    "division_skyline": [],
+    "division_roads": [],
+    "division_night": [],
+    "landmark_anchors": [
+      "mixed caravan settlement",
+      "watercourse crossing",
+      "stable-and-market quarter"
+    ]
+  },
+  "reference_status": {
+    "location_id": "LOC-TDS-CHILI-SHARED-MARCH",
+    "semantic_reference_status": "RESOLVED_FROM_WORLD_ENGINE",
+    "visual_reference_status": "MISSING_APPROVED_VISUAL_REFERENCE",
+    "approved_reference_uris": [],
+    "candidate_reference_paths": [],
+    "blockers": [
+      "No durable approved renderer-addressable environment bytes are registered for this location."
+    ],
+    "rule": "Visual-reference-required workflows must return HUMAN_REVIEW_REQUIRED until approved bytes are registered."
+  },
+  "open_questions": [
+    "final proper place-name",
+    "TDS wider population status"
+  ],
+  "prohibited_inventions": [
+    "Do not move location to another physical zone.",
+    "Do not convert Division overlay into physical geography.",
+    "Do not erase unresolved current world state.",
+    "Do not create new permanent landmarks from generated scenery.",
+    "Do not infer character body identity from location theme."
+  ],
+  "source_provenance": [
+    "bullpen/UNIVERSE_GEOGRAPHY_ONTOLOGY_BOARD_2026-09-29.md",
+    "world/civilization/INHABITANT_ONTOLOGY_V1.md"
+  ],
+  "generated_from": [
+    "world/data/locations.json",
+    "world/data/routes.json",
+    "world/data/physical_zones.json",
+    "world/data/divisions.json",
+    "world/data/current_world_state.json",
+    "world/data/world_state_events.json",
+    "world/data/landmark_visibility.json",
+    "world/data/weather_regions.json"
+  ],
+  "authority_note": "Derived card. Upstream World Engine and state records remain authoritative."
+}

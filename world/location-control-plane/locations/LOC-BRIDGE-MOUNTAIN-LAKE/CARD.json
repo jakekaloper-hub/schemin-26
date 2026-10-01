@@ -1,0 +1,297 @@
+{
+  "schema_version": "1.0",
+  "compilation_version": "phase2-v1",
+  "location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+  "name": "Bridge at the Mountain Lake",
+  "canon_status": "PROVISIONAL_CANON",
+  "location_type": "encounter_landmark",
+  "physical_zone": {
+    "id": "REG-UPPER-VALLEYS",
+    "name": "Upper Valleys and Foothills",
+    "terrain": [
+      "rolling uplands",
+      "mixed forest",
+      "pasture",
+      "defensible ridges"
+    ],
+    "climate": [
+      "temperate",
+      "seasonal rain"
+    ],
+    "movement": [
+      "horse roads",
+      "ridge routes",
+      "market-town connectors"
+    ]
+  },
+  "division_overlay": {
+    "id": "DIV-BURGERS",
+    "name": "Burgers",
+    "food_referent": "burgers",
+    "visual_fingerprint": {
+      "skyline": [
+        "layered highland ridges",
+        "fortified road markets",
+        "waterfall escarpments",
+        "southern causeway silhouettes"
+      ],
+      "materials": [
+        "fieldstone",
+        "dark timber",
+        "iron",
+        "wetland hardwood",
+        "weathered brick"
+      ],
+      "roads": [
+        "ridge roads",
+        "market approaches",
+        "bridge/lake roads",
+        "wetland causeways"
+      ],
+      "night": [
+        "amber hearthlight",
+        "forge glow",
+        "mist over dark water",
+        "lanterned road stations"
+      ]
+    },
+    "anti_drift": [
+      "no giant burger terrain",
+      "no palette-only differentiation",
+      "do not flatten Trade Jedi mountains, D0nkey K0ng highlands, TDS falls and Mud Dogs swamp into one biome",
+      "food identity must remain burger-specific",
+      "do not use division membership as species segregation"
+    ]
+  },
+  "owner_character_ids": [],
+  "shared_location_ids": [],
+  "division_presence_ids": [],
+  "abstract_position": [
+    64,
+    66
+  ],
+  "access_routes": [
+    {
+      "id": "ROUTE-EASTERN-ASCENT",
+      "name": "Eastern Ascent",
+      "route_class": "REGIONAL",
+      "from": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "constraints": [
+        "steep grades",
+        "weather exposure"
+      ],
+      "via_location_ids": []
+    },
+    {
+      "id": "ROUTE-HEARTHROAD",
+      "name": "Hearthroad",
+      "route_class": "REGIONAL",
+      "from": "LOC-ARSENAL-BARBERSHOP",
+      "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "constraints": [
+        "ridge traffic",
+        "market congestion"
+      ],
+      "via_location_ids": [
+        "LOC-SLOB-FOOTHILL-CAMP"
+      ]
+    }
+  ],
+  "persistent_landmarks": [
+    "stone bridge",
+    "lake",
+    "jump point"
+  ],
+  "addressable_feature_handles": [
+    {
+      "handle_id": "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::STONE-BRIDGE",
+      "parent_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "name": "stone bridge",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::LAKE",
+      "parent_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "name": "lake",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::JUMP-POINT",
+      "parent_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "name": "jump point",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    }
+  ],
+  "base_location_state": [
+    "Week 3 ObiWan/TDS decision landmark"
+  ],
+  "current_world_state": [
+    "Week 3 decision landmark",
+    "structurally intact unless later evidence changes it"
+  ],
+  "historical_events": [
+    {
+      "id": "EVT-W3-BRIDGE",
+      "week": 3,
+      "event_type": "encounter",
+      "classification": "WORLD_CANON",
+      "entering_state": [
+        "bridge and lake intact"
+      ],
+      "continuity_out": [
+        "remembered decision landmark",
+        "no physical destruction required"
+      ]
+    }
+  ],
+  "horizon_constraints": [
+    {
+      "observer_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "direction": "east-northeast",
+      "visible_landmarks": [
+        "eastern ridgeline"
+      ],
+      "not_guaranteed": [
+        "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+      ],
+      "rule": "base may be hidden by intermediate ridge; do not force into every frame"
+    }
+  ],
+  "weather_relationships": [
+    {
+      "id": "WX-EASTERN-STORM",
+      "role": "PROPAGATION_ZONE",
+      "effects": [
+        "coastal surge",
+        "heavy rain",
+        "wind",
+        "road washout"
+      ],
+      "rule": "major event must record downstream/adjacent effects"
+    },
+    {
+      "id": "WX-NORTHERN-WINTER",
+      "role": "PROPAGATION_ZONE",
+      "effects": [
+        "snow",
+        "ice",
+        "pass closure"
+      ],
+      "rule": "elevation controls severity"
+    }
+  ],
+  "visual_dna": {
+    "terrain": [
+      "rolling uplands",
+      "mixed forest",
+      "pasture",
+      "defensible ridges"
+    ],
+    "climate": [
+      "temperate",
+      "seasonal rain"
+    ],
+    "movement": [
+      "horse roads",
+      "ridge routes",
+      "market-town connectors"
+    ],
+    "division_materials": [
+      "fieldstone",
+      "dark timber",
+      "iron",
+      "wetland hardwood",
+      "weathered brick"
+    ],
+    "division_skyline": [
+      "layered highland ridges",
+      "fortified road markets",
+      "waterfall escarpments",
+      "southern causeway silhouettes"
+    ],
+    "division_roads": [
+      "ridge roads",
+      "market approaches",
+      "bridge/lake roads",
+      "wetland causeways"
+    ],
+    "division_night": [
+      "amber hearthlight",
+      "forge glow",
+      "mist over dark water",
+      "lanterned road stations"
+    ],
+    "landmark_anchors": [
+      "stone bridge",
+      "lake",
+      "jump point"
+    ]
+  },
+  "reference_status": {
+    "location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+    "semantic_reference_status": "RESOLVED_FROM_WORLD_ENGINE",
+    "visual_reference_status": "MISSING_APPROVED_VISUAL_REFERENCE",
+    "approved_reference_uris": [],
+    "candidate_reference_paths": [],
+    "blockers": [
+      "No durable approved renderer-addressable environment bytes are registered for this location."
+    ],
+    "rule": "Visual-reference-required workflows must return HUMAN_REVIEW_REQUIRED until approved bytes are registered."
+  },
+  "open_questions": [
+    "division-border status"
+  ],
+  "prohibited_inventions": [
+    "Do not move location to another physical zone.",
+    "Do not convert Division overlay into physical geography.",
+    "Do not erase unresolved current world state.",
+    "Do not create new permanent landmarks from generated scenery.",
+    "Do not infer character body identity from location theme."
+  ],
+  "source_provenance": [
+    "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+  ],
+  "generated_from": [
+    "world/data/locations.json",
+    "world/data/routes.json",
+    "world/data/physical_zones.json",
+    "world/data/divisions.json",
+    "world/data/current_world_state.json",
+    "world/data/world_state_events.json",
+    "world/data/landmark_visibility.json",
+    "world/data/weather_regions.json"
+  ],
+  "authority_note": "Derived card. Upstream World Engine and state records remain authoritative."
+}

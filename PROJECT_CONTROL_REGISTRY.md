@@ -33,13 +33,14 @@ Current controlling build: **V5.5 Integrated Preproduction Hardening**.
 
 Read in this order:
 1. `memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md`
-2. `memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_4_ACCEPTANCE_TEST_HARDENING_PATCH.md`
-3. `memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_3_CHARACTER_REFERENCE_ENFORCEMENT_PATCH.md`
-4. `memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_GOLD_STANDARD_STUDIO_PATCH.md`
-5. `memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_2_RC_MUTUAL_IMPLEMENTATION_PATCH.md`
-6. `memo-os/SCHEMIN_26_WEEKLY_MEMO_GOLD_STANDARD_PRODUCTION_MANUAL.md`
-7. `memo-os/SCHEMIN_26_WEEKLY_MEMO_MASTER_INITIATION_PROMPT.md`
-8. `canon/_INDEX.md`
+2. `memo-os/LOCATION_CONTROL_PLANE_INTEGRATION_PATCH_V1.md`
+3. `memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_4_ACCEPTANCE_TEST_HARDENING_PATCH.md`
+4. `memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_3_CHARACTER_REFERENCE_ENFORCEMENT_PATCH.md`
+5. `memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_GOLD_STANDARD_STUDIO_PATCH.md`
+6. `memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_2_RC_MUTUAL_IMPLEMENTATION_PATCH.md`
+7. `memo-os/SCHEMIN_26_WEEKLY_MEMO_GOLD_STANDARD_PRODUCTION_MANUAL.md`
+8. `memo-os/SCHEMIN_26_WEEKLY_MEMO_MASTER_INITIATION_PROMPT.md`
+9. `canon/_INDEX.md`
 
 V5.5 passed the Week 3 retrospective acceptance suite (11/11 after bug-fix/polish/retest) and is binding above V5.4/V5.3. V5.2-RC remains part of the lower orchestration lineage; it is not the top-level production-hardening authority.
 
@@ -73,14 +74,15 @@ Read in this order:
 4. `world/civilization/INHABITANT_ONTOLOGY_V1.md`
 5. `world/atlas/ATLAS_V1.md`
 6. `world/atlas/phase-1/_INDEX.md`
-7. `world/atlas/ROUTE_AND_TRAVEL_MODEL_V1.md`
-8. `world/domains/OWNER_DOMAIN_REGISTER_V1.md`
-9. `world/divisions/BURGERS_DIVISION_INDEX_V1.md`
-10. `world/divisions/WINGS_DIVISION_INDEX_V1.md`
-11. `world/divisions/PIZZA_DIVISION_INDEX_V1.md`
-12. `world/state/WORLD_STATE_LEDGER_V1.md`
-13. `living-novel/os/geography/world_travel_graph_v1.json`
-14. `world/qa/WORLD_ENGINE_V1_1_ACCEPTANCE_REPORT.md`
+7. `world/location-control-plane/_INDEX.md`
+8. `world/atlas/ROUTE_AND_TRAVEL_MODEL_V1.md`
+9. `world/domains/OWNER_DOMAIN_REGISTER_V1.md`
+10. `world/divisions/BURGERS_DIVISION_INDEX_V1.md`
+11. `world/divisions/WINGS_DIVISION_INDEX_V1.md`
+12. `world/divisions/PIZZA_DIVISION_INDEX_V1.md`
+13. `world/state/WORLD_STATE_LEDGER_V1.md`
+14. `living-novel/os/geography/world_travel_graph_v1.json`
+15. `world/qa/WORLD_ENGINE_V1_1_ACCEPTANCE_REPORT.md`
 
 World Engine V1.1 owns persistent physical geography, division spatial/cultural identity, owner-domain placement, Encounter venue resolution, routes/travel topology, recurring locations, inhabitant ontology, environmental state and geography QA. It does not own fantasy-league truth or principal character body identity.
 
@@ -103,6 +105,8 @@ World Engine V1 remains historical release evidence and is superseded by V1.1 fo
 
 **Atlas Phase 1 expansion governance:** when world/atlas/phase-1/_INDEX.md is present on main, these controls are ACTIVE for cultural deepening, future-location candidate lifecycle, rare/special-event venue policy and generation hydration. They do not supersede World Engine V1.1 physical authority or promote candidate geography automatically.
 
+**Atlas Phase 2 / Location Control Plane:** when world/location-control-plane/_INDEX.md is present on main, it is ACTIVE as derived location-packet infrastructure beneath World Engine V1.1. It compiles homelands, active locations, routes, state, history and consumer overlays. It cannot promote CAND-* geography or override upstream canon.
+
 ### Jack Mercer
 Read:
 - `mercer/JACK_MERCER_FRONT_OFFICE_V2_SPEC.md`
@@ -121,7 +125,8 @@ FLA Bullpen is a selective specialist/governance adapter. It is not a sixth Sche
 ## Current operating checkpoint — 2026-09-30
 
 - Atlas Foundation Reconciliation V1 merged through PR #37.
-- Atlas Phase 1 has completed board/QA review in PR #39; when merged, its expansion governance becomes active while World Engine V1.1 remains physical authority.
+- Atlas Phase 1 merged through PR #39 and is active beneath World Engine V1.1.
+- Phase 2 Location Control Plane has completed board/QA review in PR #40; when merged, it becomes active derived production infrastructure.
 
 ### Prior checkpoint — 2026-09-29
 

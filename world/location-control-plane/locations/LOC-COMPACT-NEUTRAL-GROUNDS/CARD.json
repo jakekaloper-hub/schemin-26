@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "compilation_version": "phase2-v1",
+  "location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+  "name": "Compact Neutral Grounds",
+  "canon_status": "PROVISIONAL_CANON",
+  "location_type": "neutral_encounter_ground",
+  "physical_zone": {
+    "id": "REG-CENTRAL-BASIN",
+    "name": "Central River Basin",
+    "terrain": [
+      "broad river valleys",
+      "fertile lowlands",
+      "bridge corridors"
+    ],
+    "climate": [
+      "temperate",
+      "flood-cycle influence"
+    ],
+    "movement": [
+      "navigable rivers",
+      "major roads",
+      "bridges and toll points"
+    ]
+  },
+  "division_overlay": null,
+  "owner_character_ids": [],
+  "shared_location_ids": [],
+  "division_presence_ids": [],
+  "abstract_position": [
+    60,
+    46
+  ],
+  "access_routes": [
+    {
+      "id": "ROUTE-COMPACT-GROUNDS",
+      "name": "Compact Grounds Road",
+      "route_class": "LOCAL",
+      "from": "LOC-LEAGUE-CHAMBER",
+      "to": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "constraints": [
+        "event traffic"
+      ],
+      "via_location_ids": []
+    }
+  ],
+  "persistent_landmarks": [
+    "open ceremonial field",
+    "arbiter pavilion",
+    "arrival roads"
+  ],
+  "addressable_feature_handles": [
+    {
+      "handle_id": "SUB::LOC-COMPACT-NEUTRAL-GROUNDS::OPEN-CEREMONIAL-FIELD",
+      "parent_location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "name": "open ceremonial field",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-COMPACT-NEUTRAL-GROUNDS::ARBITER-PAVILION",
+      "parent_location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "name": "arbiter pavilion",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-COMPACT-NEUTRAL-GROUNDS::ARRIVAL-ROADS",
+      "parent_location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "name": "arrival roads",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    }
+  ],
+  "base_location_state": [
+    "neutral major-Encounter venue"
+  ],
+  "current_world_state": [],
+  "historical_events": [],
+  "horizon_constraints": [],
+  "weather_relationships": [
+    {
+      "id": "WX-EASTERN-STORM",
+      "role": "PROPAGATION_ZONE",
+      "effects": [
+        "coastal surge",
+        "heavy rain",
+        "wind",
+        "road washout"
+      ],
+      "rule": "major event must record downstream/adjacent effects"
+    },
+    {
+      "id": "WX-SOUTHERN-FLOOD",
+      "role": "SOURCE_ZONE",
+      "effects": [
+        "high river",
+        "mud",
+        "causeway closure"
+      ],
+      "rule": "flooding follows watershed; not arbitrary backdrop"
+    }
+  ],
+  "visual_dna": {
+    "terrain": [
+      "broad river valleys",
+      "fertile lowlands",
+      "bridge corridors"
+    ],
+    "climate": [
+      "temperate",
+      "flood-cycle influence"
+    ],
+    "movement": [
+      "navigable rivers",
+      "major roads",
+      "bridges and toll points"
+    ],
+    "division_materials": [],
+    "division_skyline": [],
+    "division_roads": [],
+    "division_night": [],
+    "landmark_anchors": [
+      "open ceremonial field",
+      "arbiter pavilion",
+      "arrival roads"
+    ]
+  },
+  "reference_status": {
+    "location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+    "semantic_reference_status": "RESOLVED_FROM_WORLD_ENGINE",
+    "visual_reference_status": "MISSING_APPROVED_VISUAL_REFERENCE",
+    "approved_reference_uris": [],
+    "candidate_reference_paths": [],
+    "blockers": [
+      "No durable approved renderer-addressable environment bytes are registered for this location."
+    ],
+    "rule": "Visual-reference-required workflows must return HUMAN_REVIEW_REQUIRED until approved bytes are registered."
+  },
+  "open_questions": [
+    "final proper place-name",
+    "championship-specific ceremonial expansion"
+  ],
+  "prohibited_inventions": [
+    "Do not move location to another physical zone.",
+    "Do not convert Division overlay into physical geography.",
+    "Do not erase unresolved current world state.",
+    "Do not create new permanent landmarks from generated scenery.",
+    "Do not infer character body identity from location theme."
+  ],
+  "source_provenance": [
+    "living-novel/world/INSTITUTIONS_AND_CHAMPIONSHIP.md",
+    "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+  ],
+  "generated_from": [
+    "world/data/locations.json",
+    "world/data/routes.json",
+    "world/data/physical_zones.json",
+    "world/data/divisions.json",
+    "world/data/current_world_state.json",
+    "world/data/world_state_events.json",
+    "world/data/landmark_visibility.json",
+    "world/data/weather_regions.json"
+  ],
+  "authority_note": "Derived card. Upstream World Engine and state records remain authoritative."
+}

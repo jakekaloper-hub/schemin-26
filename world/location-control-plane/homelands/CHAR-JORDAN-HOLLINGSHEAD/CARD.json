@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "compilation_version": "phase2-v1",
+  "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+  "owner": "Jordan Hollingshead",
+  "team": "Slob on my Dobb",
+  "team_id": 3,
+  "division_id": "DIV-WINGS",
+  "division_name": "Wings",
+  "domain_type": "mobile-camp",
+  "primary_location_id": "LOC-SLOB-FOOTHILL-CAMP",
+  "physical_zone_ids": [
+    "REG-UPPER-VALLEYS"
+  ],
+  "physical_zone_profiles": [
+    {
+      "id": "REG-UPPER-VALLEYS",
+      "name": "Upper Valleys and Foothills",
+      "terrain": [
+        "rolling uplands",
+        "mixed forest",
+        "pasture",
+        "defensible ridges"
+      ],
+      "climate": [
+        "temperate",
+        "seasonal rain"
+      ],
+      "movement": [
+        "horse roads",
+        "ridge routes",
+        "market-town connectors"
+      ]
+    }
+  ],
+  "ontology_class": "PEOPLED_KIND",
+  "canon_guard": [
+    "FRAT_BRO_BERSERKER",
+    "PIT_BULL"
+  ],
+  "shared_location_ids": [],
+  "manifestation_modes": [],
+  "primary_landmarks": [
+    "tailgate yard",
+    "rough training ground"
+  ],
+  "primary_access_route_ids": [
+    "ROUTE-HEARTHROAD"
+  ],
+  "current_world_state": [
+    "operational"
+  ],
+  "ordinary_population_rule": "Broader same-kind/compatible ordinary population may exist only as permitted by governing ontology.",
+  "division_visual_fingerprint": {
+    "skyline": [
+      "stormward ruin heights",
+      "foothill camps",
+      "western stables",
+      "raised country-club grounds"
+    ],
+    "materials": [
+      "timber",
+      "iron straps",
+      "river stone",
+      "canvas",
+      "copper",
+      "weathered plaster"
+    ],
+    "roads": [
+      "foothill roads",
+      "western range tracks",
+      "levee roads",
+      "estate approaches"
+    ],
+    "night": [
+      "fire pits",
+      "stable lamps",
+      "clubhouse windows",
+      "storm-lit ruin silhouettes"
+    ]
+  },
+  "visual_reference_status": "CHARACTER_REFERENCE_RESOLVED_SEPARATELY__LOCATION_REFERENCE_MISSING_UNLESS_REGISTERED",
+  "open_questions": [
+    "final name"
+  ],
+  "generated_from": [
+    "world/data/owner_domains.json",
+    "world/data/locations.json",
+    "world/data/physical_zones.json",
+    "world/data/divisions.json",
+    "world/data/current_world_state.json"
+  ],
+  "authority_note": "Derived card. Upstream sources remain authoritative."
+}

@@ -168,3 +168,18 @@ Read:
 
 Candidate records are editorial-only until explicit promotion into `world/data/locations.json`.
 The candidate Atlas layer is hidden by default.
+
+
+## Phase 2 location addressability
+
+When present on main, `world/location-control-plane/_INDEX.md` governs derived location-packet compilation beneath World Engine V1.1.
+
+Phase 2 provides:
+- 12 Homeland Cards;
+- 23 Active Location Cards;
+- derived feature handles;
+- World Packet compiler;
+- Memo/Novel adapters;
+- explicit environment-reference availability.
+
+It does not add active geography or promote CAND-* sites.

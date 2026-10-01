@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemin26.local/schemas/location-card.schema.json",
+  "title": "Schemin Active Location Card",
+  "type": "object",
+  "required": [
+    "location_id",
+    "name",
+    "canon_status",
+    "location_type",
+    "physical_zone",
+    "access_routes",
+    "persistent_landmarks",
+    "current_world_state",
+    "reference_status",
+    "generated_from"
+  ],
+  "properties": {
+    "location_id": {
+      "type": "string",
+      "pattern": "^LOC-[A-Z0-9-]+$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "canon_status": {
+      "type": "string"
+    },
+    "location_type": {
+      "type": "string"
+    },
+    "physical_zone": {
+      "type": "object"
+    },
+    "access_routes": {
+      "type": "array"
+    },
+    "persistent_landmarks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "current_world_state": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "historical_events": {
+      "type": "array"
+    },
+    "reference_status": {
+      "type": "object"
+    },
+    "generated_from": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

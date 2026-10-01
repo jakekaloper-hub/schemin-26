@@ -1,0 +1,240 @@
+{
+  "schema_version": "1.0",
+  "compilation_version": "phase2-v1",
+  "location_id": "LOC-SLOB-FOOTHILL-CAMP",
+  "name": "Slob Foothill Camp",
+  "canon_status": "PROVISIONAL_CANON",
+  "location_type": "owner_base",
+  "physical_zone": {
+    "id": "REG-UPPER-VALLEYS",
+    "name": "Upper Valleys and Foothills",
+    "terrain": [
+      "rolling uplands",
+      "mixed forest",
+      "pasture",
+      "defensible ridges"
+    ],
+    "climate": [
+      "temperate",
+      "seasonal rain"
+    ],
+    "movement": [
+      "horse roads",
+      "ridge routes",
+      "market-town connectors"
+    ]
+  },
+  "division_overlay": {
+    "id": "DIV-WINGS",
+    "name": "Wings",
+    "food_referent": "chicken_wings",
+    "visual_fingerprint": {
+      "skyline": [
+        "stormward ruin heights",
+        "foothill camps",
+        "western stables",
+        "raised country-club grounds"
+      ],
+      "materials": [
+        "timber",
+        "iron straps",
+        "river stone",
+        "canvas",
+        "copper",
+        "weathered plaster"
+      ],
+      "roads": [
+        "foothill roads",
+        "western range tracks",
+        "levee roads",
+        "estate approaches"
+      ],
+      "night": [
+        "fire pits",
+        "stable lamps",
+        "clubhouse windows",
+        "storm-lit ruin silhouettes"
+      ]
+    },
+    "anti_drift": [
+      "Wings means chicken wings, not angel/bird/dragon wings",
+      "no giant chicken-wing terrain",
+      "do not flatten Red Leopard ruins, Slob foothills, Chili frontier and Duckhook club into one biome",
+      "home games must use the specific Wings owner's environment",
+      "TDS/Chili coexistence cannot be erased by division borders"
+    ]
+  },
+  "owner_character_ids": [
+    "CHAR-JORDAN-HOLLINGSHEAD"
+  ],
+  "shared_location_ids": [],
+  "division_presence_ids": [],
+  "abstract_position": [
+    37,
+    62
+  ],
+  "access_routes": [
+    {
+      "id": "ROUTE-HEARTHROAD",
+      "name": "Hearthroad",
+      "route_class": "REGIONAL",
+      "from": "LOC-ARSENAL-BARBERSHOP",
+      "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "constraints": [
+        "ridge traffic",
+        "market congestion"
+      ],
+      "via_location_ids": [
+        "LOC-SLOB-FOOTHILL-CAMP"
+      ]
+    }
+  ],
+  "persistent_landmarks": [
+    "tailgate yard",
+    "rough training ground"
+  ],
+  "addressable_feature_handles": [
+    {
+      "handle_id": "SUB::LOC-SLOB-FOOTHILL-CAMP::TAILGATE-YARD",
+      "parent_location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "name": "tailgate yard",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-SLOB-FOOTHILL-CAMP::ROUGH-TRAINING-GROUND",
+      "parent_location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "name": "rough training ground",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    }
+  ],
+  "base_location_state": [
+    "operational"
+  ],
+  "current_world_state": [],
+  "historical_events": [],
+  "horizon_constraints": [],
+  "weather_relationships": [
+    {
+      "id": "WX-EASTERN-STORM",
+      "role": "PROPAGATION_ZONE",
+      "effects": [
+        "coastal surge",
+        "heavy rain",
+        "wind",
+        "road washout"
+      ],
+      "rule": "major event must record downstream/adjacent effects"
+    },
+    {
+      "id": "WX-NORTHERN-WINTER",
+      "role": "PROPAGATION_ZONE",
+      "effects": [
+        "snow",
+        "ice",
+        "pass closure"
+      ],
+      "rule": "elevation controls severity"
+    }
+  ],
+  "visual_dna": {
+    "terrain": [
+      "rolling uplands",
+      "mixed forest",
+      "pasture",
+      "defensible ridges"
+    ],
+    "climate": [
+      "temperate",
+      "seasonal rain"
+    ],
+    "movement": [
+      "horse roads",
+      "ridge routes",
+      "market-town connectors"
+    ],
+    "division_materials": [
+      "timber",
+      "iron straps",
+      "river stone",
+      "canvas",
+      "copper",
+      "weathered plaster"
+    ],
+    "division_skyline": [
+      "stormward ruin heights",
+      "foothill camps",
+      "western stables",
+      "raised country-club grounds"
+    ],
+    "division_roads": [
+      "foothill roads",
+      "western range tracks",
+      "levee roads",
+      "estate approaches"
+    ],
+    "division_night": [
+      "fire pits",
+      "stable lamps",
+      "clubhouse windows",
+      "storm-lit ruin silhouettes"
+    ],
+    "landmark_anchors": [
+      "tailgate yard",
+      "rough training ground"
+    ]
+  },
+  "reference_status": {
+    "location_id": "LOC-SLOB-FOOTHILL-CAMP",
+    "semantic_reference_status": "RESOLVED_FROM_WORLD_ENGINE",
+    "visual_reference_status": "MISSING_APPROVED_VISUAL_REFERENCE",
+    "approved_reference_uris": [],
+    "candidate_reference_paths": [],
+    "blockers": [
+      "No durable approved renderer-addressable environment bytes are registered for this location."
+    ],
+    "rule": "Visual-reference-required workflows must return HUMAN_REVIEW_REQUIRED until approved bytes are registered."
+  },
+  "open_questions": [
+    "final name"
+  ],
+  "prohibited_inventions": [
+    "Do not move location to another physical zone.",
+    "Do not convert Division overlay into physical geography.",
+    "Do not erase unresolved current world state.",
+    "Do not create new permanent landmarks from generated scenery.",
+    "Do not infer character body identity from location theme."
+  ],
+  "source_provenance": [
+    "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+  ],
+  "generated_from": [
+    "world/data/locations.json",
+    "world/data/routes.json",
+    "world/data/physical_zones.json",
+    "world/data/divisions.json",
+    "world/data/current_world_state.json",
+    "world/data/world_state_events.json",
+    "world/data/landmark_visibility.json",
+    "world/data/weather_regions.json"
+  ],
+  "authority_note": "Derived card. Upstream World Engine and state records remain authoritative."
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "compilation_version": "phase2-v1",
+  "character_id": "CHAR-BEN-WHIPPLE",
+  "owner": "Ben Whipple",
+  "team": "Seven Deadly Chins",
+  "team_id": 11,
+  "division_id": "DIV-PIZZA",
+  "division_name": "Pizza",
+  "domain_type": "roadside-populist",
+  "primary_location_id": "LOC-CHINS-ROAD-COMMONS",
+  "physical_zone_ids": [
+    "REG-CENTRAL-BASIN"
+  ],
+  "physical_zone_profiles": [
+    {
+      "id": "REG-CENTRAL-BASIN",
+      "name": "Central River Basin",
+      "terrain": [
+        "broad river valleys",
+        "fertile lowlands",
+        "bridge corridors"
+      ],
+      "climate": [
+        "temperate",
+        "flood-cycle influence"
+      ],
+      "movement": [
+        "navigable rivers",
+        "major roads",
+        "bridges and toll points"
+      ]
+    }
+  ],
+  "ontology_class": "PEOPLED_KIND",
+  "canon_guard": [
+    "PEOPLES_CHAMP",
+    "RACCOON"
+  ],
+  "shared_location_ids": [],
+  "manifestation_modes": [],
+  "primary_landmarks": [
+    "roadside hall",
+    "BBQ yard",
+    "caravan court"
+  ],
+  "primary_access_route_ids": [
+    "ROUTE-BASIN-MARKET"
+  ],
+  "current_world_state": [
+    "operational"
+  ],
+  "ordinary_population_rule": "Broader same-kind/compatible ordinary population may exist only as permitted by governing ontology.",
+  "division_visual_fingerprint": {
+    "skyline": [
+      "mercantile towers",
+      "storm-cliff keeps",
+      "coastal weather beacons",
+      "basin road halls"
+    ],
+    "materials": [
+      "cut stone",
+      "slate",
+      "brick",
+      "bronze",
+      "tile",
+      "heavy timber shutters"
+    ],
+    "roads": [
+      "quays",
+      "storm-coast roads",
+      "basin market roads",
+      "cliff approaches"
+    ],
+    "night": [
+      "harbor lamps",
+      "beacon fires",
+      "lightning silhouettes",
+      "road-hall hearths"
+    ]
+  },
+  "visual_reference_status": "CHARACTER_REFERENCE_RESOLVED_SEPARATELY__LOCATION_REFERENCE_MISSING_UNLESS_REGISTERED",
+  "open_questions": [
+    "final name"
+  ],
+  "generated_from": [
+    "world/data/owner_domains.json",
+    "world/data/locations.json",
+    "world/data/physical_zones.json",
+    "world/data/divisions.json",
+    "world/data/current_world_state.json"
+  ],
+  "authority_note": "Derived card. Upstream sources remain authoritative."
+}
