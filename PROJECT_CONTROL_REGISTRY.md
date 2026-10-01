@@ -248,6 +248,31 @@ Chapter III+ is significance-gated, causality-first, geography-aware, open-loop 
 
 The Prologue, Chapter I and Chapter II remain HARD MANUSCRIPT CANON / CLOSED. This promotion does not reopen or rewrite them. Week 3 is not automatically Chapter III; its six matchups are evidence packets first, with story units selected only after significance and causal architecture.
 
+### Living Novel — Chapter III Canon
+
+**Status:** HARD MANUSCRIPT CANON / CLOSED (Founder-approved 2026-10-01).**
+
+Canonical manuscript:
+- `living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md`
+- approved blob SHA: `49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc`
+
+Authority / evidence:
+- `living-novel/qa/CHAPTER_03_FINAL_CANON_GATE_V1.md`
+- `living-novel/qa/CHAPTER_03_CANON_PROPOSAL_V1.md`
+- `living-novel/qa/CHAPTER_03_CANON_RELEASE_RECEIPT_V1.md`
+- `living-novel/qa/CHAPTER_03_STATE_TRANSACTION_RECEIPT_V1.md`
+- `living-novel/production/chapter-03/_INDEX.md`
+
+Chapter III inaugurates Movement II — **CLAIMS HARDEN**. Its causal spine is the aftermath of Mire Hill: Wilson Look / D0nkey K0ng becomes the sole 3-0 competitive power, places his standard below the neutral-ground summit, and refuses to convert victory into sovereignty while public crown/ownership interpretation begins attaching itself to the record.
+
+Binding limits:
+- no Belt transfer;
+- no sovereignty or territorial transfer;
+- summit remains unclaimed;
+- no Week 4 outcome;
+- fictional Wilson POV is not a factual claim about Wilson Look's real-world private psychology;
+- Arsenal Gorilla Warrior is current character canon; Centaur anatomy remains retired.
+
 ### Jack Mercer
 Read:
 - `mercer/JACK_MERCER_FRONT_OFFICE_V2_SPEC.md`
@@ -277,7 +302,7 @@ FLA Bullpen is a selective specialist/governance adapter. It is not a sixth Sche
 - Week 3 facts are locked and the 21-page Week 3 Memo is immutable release evidence.
 - Week 3 post-production is complete; its accepted controls were integrated into Memo OS V5.5.
 - Week 4 is the next Memo production cycle; use V5.5 rather than recreating Week 3 process manually.
-- Living Novel Week 3 is closed on the active Novel branch and carries a Week 3 → Week 4 state handoff.
+- Living Novel Chapter III — `THE HILL IS NOT THE KINGDOM` — is HARD MANUSCRIPT CANON / CLOSED after Founder approval on 2026-10-01. It interprets selected Week 3 consequence without establishing Week = Chapter.
 - Character Control Plane v2 is advancing but remains RELEASE_CANDIDATE / NOT ACTIVE.
 - Schemin World Engine V1.1 is RELEASED / ACTIVE on `main`; PR #29 closed the Encounter-geography, travel-graph and inhabitant-ontology gaps and repaired stale division assignments.
 - Repository is intentionally public by Commissioner decision; secrets/private-only material and Mercer-private intelligence remain prohibited from public committed surfaces.
