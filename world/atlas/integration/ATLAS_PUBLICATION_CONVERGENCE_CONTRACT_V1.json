@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "status": "INTEGRATION_BASELINE",
+  "status": "APPROVED_FOR_RELEASE",
   "title": "Schemin Atlas Publication Convergence Contract V1",
   "purpose": "Bind released Schemin world, story, memo, visual and publication systems into one evidence-backed authoring flow without creating a second canon or world database.",
   "authority": {
@@ -28,8 +28,14 @@
         "data-gateway/SCHEMIN_26_ESPN_INGESTION_RELIABILITY_PATCH_v1.0.md",
         "schemas/freshness.schema.json"
       ],
-      "writes": ["verified_league_evidence"],
-      "must_not_write": ["world_geography", "character_body_canon", "fictional_motive"]
+      "writes": [
+        "verified_league_evidence"
+      ],
+      "must_not_write": [
+        "world_geography",
+        "character_body_canon",
+        "fictional_motive"
+      ]
     },
     {
       "id": "character_canon",
@@ -39,8 +45,13 @@
         "canon/_INDEX.md",
         "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
       ],
-      "writes": ["principal_character_identity"],
-      "must_not_write": ["league_results", "world_geography"]
+      "writes": [
+        "principal_character_identity"
+      ],
+      "must_not_write": [
+        "league_results",
+        "world_geography"
+      ]
     },
     {
       "id": "world_engine",
@@ -52,8 +63,16 @@
         "world/data/routes.json",
         "world/data/divisions.json"
       ],
-      "writes": ["physical_geography", "routes", "division_overlays", "world_state"],
-      "must_not_write": ["league_results", "principal_character_body_identity"]
+      "writes": [
+        "physical_geography",
+        "routes",
+        "division_overlays",
+        "world_state"
+      ],
+      "must_not_write": [
+        "league_results",
+        "principal_character_body_identity"
+      ]
     },
     {
       "id": "location_control_plane",
@@ -63,8 +82,14 @@
         "world/location-control-plane/_INDEX.md",
         "world/location-control-plane/AUTHORITY_AND_CONSUMER_MATRIX_V1.md"
       ],
-      "writes": ["derived_world_packets"],
-      "must_not_write": ["active_geography", "candidate_promotion", "character_body_canon"]
+      "writes": [
+        "derived_world_packets"
+      ],
+      "must_not_write": [
+        "active_geography",
+        "candidate_promotion",
+        "character_body_canon"
+      ]
     },
     {
       "id": "memo_os",
@@ -74,8 +99,15 @@
         "memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md",
         "memo-os/LOCATION_CONTROL_PLANE_INTEGRATION_PATCH_V1.md"
       ],
-      "writes": ["weekly_publication", "memo_story_treatment", "post_release_location_evidence"],
-      "must_not_write": ["silent_world_canon", "principal_character_redesign"]
+      "writes": [
+        "weekly_publication",
+        "memo_story_treatment",
+        "post_release_location_evidence"
+      ],
+      "must_not_write": [
+        "silent_world_canon",
+        "principal_character_redesign"
+      ]
     },
     {
       "id": "novel_os",
@@ -85,8 +117,17 @@
         "living-novel/os/NOVEL_OS_PHASE_7_LIVE_SEASON_ENGINE_V1.md",
         "living-novel/os/LOCATION_CONTROL_PLANE_INTEGRATION_PATCH_V1.md"
       ],
-      "writes": ["story_architecture", "scene_treatment", "manuscript", "canon_proposals"],
-      "must_not_write": ["league_truth", "silent_world_canon", "unsupported_character_psychology_as_fact"]
+      "writes": [
+        "story_architecture",
+        "scene_treatment",
+        "manuscript",
+        "canon_proposals"
+      ],
+      "must_not_write": [
+        "league_truth",
+        "silent_world_canon",
+        "unsupported_character_psychology_as_fact"
+      ]
     },
     {
       "id": "visual_grounding",
@@ -96,8 +137,15 @@
         "world/environment-references/_INDEX.md",
         "world/location-control-plane/ENVIRONMENT_REFERENCE_PACKET_STANDARD_V1.md"
       ],
-      "writes": ["render_contracts", "visual_artifacts"],
-      "must_not_write": ["world_geography", "principal_character_identity", "league_truth"]
+      "writes": [
+        "render_contracts",
+        "visual_artifacts"
+      ],
+      "must_not_write": [
+        "world_geography",
+        "principal_character_identity",
+        "league_truth"
+      ]
     },
     {
       "id": "interactive_atlas",
@@ -107,8 +155,13 @@
         "world/atlas/interactive/_INDEX.md",
         "world/atlas/interactive/SCHEMIN_ATLAS_INTERACTIVE.html"
       ],
-      "writes": ["read_only_world_visualization"],
-      "must_not_write": ["active_geography", "candidate_promotion"]
+      "writes": [
+        "read_only_world_visualization"
+      ],
+      "must_not_write": [
+        "active_geography",
+        "candidate_promotion"
+      ]
     },
     {
       "id": "world_evolution",
@@ -118,8 +171,13 @@
         "world/evolution/_INDEX.md",
         "world/evolution/WEEKLY_WORLD_EVOLUTION_CONTRACT_V1.md"
       ],
-      "writes": ["approved_state_history_transactions"],
-      "must_not_write": ["unverified_results", "implicit_candidate_promotion"]
+      "writes": [
+        "approved_state_history_transactions"
+      ],
+      "must_not_write": [
+        "unverified_results",
+        "implicit_candidate_promotion"
+      ]
     },
     {
       "id": "publication_release",
@@ -129,8 +187,13 @@
         "PROJECT_CONTROL_REGISTRY.md",
         "memo-os/SCHEMIN_26_WEEKLY_MEMO_GOLD_STANDARD_PRODUCTION_MANUAL.md"
       ],
-      "writes": ["release_receipts", "acceptance_evidence"],
-      "must_not_write": ["creator_self_certification"]
+      "writes": [
+        "release_receipts",
+        "acceptance_evidence"
+      ],
+      "must_not_write": [
+        "creator_self_certification"
+      ]
     }
   ],
   "handoffs": [
@@ -211,7 +274,10 @@
     {
       "id": "CW-ATLAS-001",
       "primary": "the_beat_writer",
-      "counterweights": ["the_scout", "the_librarian"],
+      "counterweights": [
+        "the_scout",
+        "the_librarian"
+      ],
       "trigger": "Treat Burgers, Wings and Pizza as three sealed geographic territories.",
       "decision_changed": true,
       "before": "Three divisional territories were proposed as the primary map structure.",
@@ -224,7 +290,10 @@
     {
       "id": "CW-ATLAS-002",
       "primary": "the_architect",
-      "counterweights": ["the_setup_man", "the_gm"],
+      "counterweights": [
+        "the_setup_man",
+        "the_gm"
+      ],
       "trigger": "Build a fresh Atlas foundation despite released Atlas Phases 0-5.",
       "decision_changed": true,
       "before": "A new world schema, map and location system were requested from zero.",
@@ -239,7 +308,10 @@
     {
       "id": "CW-ATLAS-003",
       "primary": "the_closer",
-      "counterweights": ["the_analyst", "the_umpire"],
+      "counterweights": [
+        "the_analyst",
+        "the_umpire"
+      ],
       "trigger": "Declare the Atlas complete because geography, packets and structural plates exist.",
       "decision_changed": true,
       "before": "Existing Atlas releases could be treated as proof of complete publication readiness.",
