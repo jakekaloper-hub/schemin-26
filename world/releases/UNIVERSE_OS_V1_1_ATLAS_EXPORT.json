@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0-baseline",
+  "baseline_commit": "f882d9261479c410f68870708cfa6b21160f128d",
+  "atlas_status": "ACTIVE / GOVERNING UNDER WORLD ENGINE V1.1",
+  "coordinate_space": "schemin-local-v1 (abstract, non-metric)",
+  "layers": [
+    "PHYSICAL",
+    "CIVIL_INSTITUTIONAL",
+    "DIVISION",
+    "OWNER_DOMAIN",
+    "ROADS_TRAVEL",
+    "ENCOUNTER",
+    "WORLD_STATE",
+    "WEATHER",
+    "HORIZON_VISIBILITY"
+  ],
+  "region_ids": [
+    "REG-NORTHERN-SPINE",
+    "REG-UPPER-VALLEYS",
+    "REG-CENTRAL-BASIN",
+    "REG-WESTERN-TABLELANDS",
+    "REG-EASTERN-STORM-COAST",
+    "REG-SOUTHERN-WETLANDS",
+    "REG-INNER-SEA-LITTORAL"
+  ],
+  "location_ids": [
+    "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+    "LOC-MUD-DOGS-SWAMP",
+    "LOC-COUNTRY-CLUB-JACKSON",
+    "LOC-ARSENAL-BARBERSHOP",
+    "LOC-STORM-BOWL",
+    "LOC-LLC-BOARDROOM",
+    "LOC-RED-RUINS",
+    "LOC-TDS-WATERFALL-TEMPLE",
+    "LOC-CHILI-STABLE",
+    "LOC-BELT-KEEPER-KEEP",
+    "LOC-SLOB-FOOTHILL-CAMP",
+    "LOC-CHINS-ROAD-COMMONS",
+    "LOC-LEAGUE-CHAMBER",
+    "LOC-PITTSYS-BOOK",
+    "LOC-BRIDGE-MOUNTAIN-LAKE",
+    "LOC-DK-MUD-HILL",
+    "LOC-RED-SLOB-ALPINE-ROUTE",
+    "LOC-SOUTHERN-SPEEDWAY",
+    "LOC-LLC-STORM-CITY",
+    "LOC-DK-HIGHLAND-STRONGHOLD",
+    "LOC-TDS-CHILI-SHARED-MARCH",
+    "LOC-COMPACT-NEUTRAL-GROUNDS",
+    "LOC-LEAGUE-ARCHIVE"
+  ],
+  "route_ids": [
+    "ROUTE-EASTERN-ASCENT",
+    "ROUTE-HEARTHROAD",
+    "ROUTE-DELTA-CAUSEWAY",
+    "ROUTE-JACKSON-LEVEE",
+    "ROUTE-STORM-COAST",
+    "ROUTE-INNER-SEA-QUAY",
+    "ROUTE-RAIN-ESCARPMENT",
+    "ROUTE-FALLS-PATH",
+    "ROUTE-WESTERN-RANGE",
+    "ROUTE-BLACK-CLIFF",
+    "ROUTE-BASIN-MARKET",
+    "ROUTE-NORTHERN-PASS",
+    "ROUTE-DK-HIGHLAND-LINK",
+    "ROUTE-TDS-CHILI-SHARED-MARCH",
+    "ROUTE-COMPACT-GROUNDS",
+    "ROUTE-UPPER-BASIN-CONNECTOR",
+    "ROUTE-PORT-BASIN-CONNECTOR",
+    "ROUTE-ARCHIVE-CHAMBER"
+  ],
+  "division_ids": [
+    "DIV-BURGERS",
+    "DIV-WINGS",
+    "DIV-PIZZA"
+  ],
+  "owner_domain_character_ids": [
+    "CHAR-JAKE-KALOPER",
+    "CHAR-KEVIN-ZEEK",
+    "CHAR-JORDAN-HOLLINGSHEAD",
+    "CHAR-DAVID-BABB",
+    "CHAR-WILSON-LOOK",
+    "CHAR-PHILLIP-PITTS",
+    "CHAR-BRANDON-PRYOR",
+    "CHAR-AUSTIN-BYARS",
+    "CHAR-MANNING-WELTY",
+    "CHAR-BOBBY-MITCHELL",
+    "CHAR-BEN-WHIPPLE",
+    "CHAR-ZACH-WILSON"
+  ],
+  "weather_region_ids": [
+    "WX-EASTERN-STORM",
+    "WX-NORTHERN-WINTER",
+    "WX-SOUTHERN-FLOOD",
+    "WX-WESTERN-DRY"
+  ],
+  "visibility_relationship_count": 4,
+  "travel_graph": {
+    "version": "1.1",
+    "status": "ACTIVE_WORLD_ENGINE_V1_1",
+    "node_count": 23,
+    "edge_count": 24,
+    "authority": "world/data/locations.json + world/data/routes.json"
+  },
+  "source_files": [
+    "world/data/physical_zones.json",
+    "world/data/locations.json",
+    "world/data/routes.json",
+    "world/data/divisions.json",
+    "world/data/owner_domains.json",
+    "world/data/weather_regions.json",
+    "world/data/landmark_visibility.json",
+    "living-novel/os/geography/world_travel_graph_v1.json"
+  ],
+  "unresolved": [
+    "exact metric distances",
+    "full civil jurisdiction polygons",
+    "full watershed geometry",
+    "complete visibility matrix"
+  ]
+}
