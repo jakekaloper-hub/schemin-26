@@ -1,5 +1,5 @@
 {
-  "version": "2.0",
+  "version": "2.1",
   "status": "ACTIVE",
   "authority": "advisory_only",
   "routing": {
@@ -244,6 +244,84 @@
       "ursula_k_le_guin",
       "brandon_sanderson",
       "joe_abercrombie"
-    ]
+    ],
+    "default_panel": "chapter_triage",
+    "panels": {
+      "chapter_triage": [
+        "george_rr_martin",
+        "john_grisham",
+        "ursula_k_le_guin"
+      ],
+      "world_depth": [
+        "jrr_tolkien",
+        "ursula_k_le_guin",
+        "brandon_sanderson"
+      ],
+      "story_architecture": [
+        "george_rr_martin",
+        "jk_rowling",
+        "john_grisham",
+        "serialized_continuity_editor"
+      ],
+      "pov_character": [
+        "ursula_k_le_guin",
+        "joe_abercrombie",
+        "george_rr_martin"
+      ],
+      "pacing_readability": [
+        "john_grisham",
+        "jk_rowling",
+        "joe_abercrombie"
+      ],
+      "fantasy_logic": [
+        "brandon_sanderson",
+        "jrr_tolkien",
+        "ursula_k_le_guin"
+      ],
+      "epic_fantasy_integrity": [
+        "jrr_tolkien",
+        "george_rr_martin",
+        "ursula_k_le_guin",
+        "joe_abercrombie"
+      ]
+    },
+    "panel_aliases": {
+      "chapter_triage": [
+        "chapter triage",
+        "chapter review",
+        "review this chapter"
+      ],
+      "world_depth": [
+        "world depth",
+        "worldbuilding panel",
+        "world panel"
+      ],
+      "story_architecture": [
+        "story architecture",
+        "architecture panel",
+        "chapter architecture"
+      ],
+      "pov_character": [
+        "pov panel",
+        "character panel",
+        "pov character",
+        "point of view"
+      ],
+      "pacing_readability": [
+        "pacing panel",
+        "readability panel",
+        "page turn",
+        "page-turn"
+      ],
+      "fantasy_logic": [
+        "fantasy logic",
+        "systems panel",
+        "rules panel"
+      ],
+      "epic_fantasy_integrity": [
+        "epic fantasy integrity",
+        "epic fantasy panel"
+      ]
+    }
   }
 }
