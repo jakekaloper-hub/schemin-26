@@ -22,7 +22,29 @@
       "world/environment-references/",
       "world/atlas/interactive/SCHEMIN_ATLAS_INTERACTIVE.html",
       "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+    ],
+    "ROUTE_CHANGE": [
+      "world/data/routes.json",
+      "living-novel/os/geography/world_travel_graph_v1.json",
+      "world/location-control-plane/",
+      "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md",
+      "world/atlas/interactive/SCHEMIN_ATLAS_INTERACTIVE.html",
+      "memo-os location hydration",
+      "living-novel location hydration",
+      "visual world packets"
+    ],
+    "ACTIVE_LOCATION_CHANGE": [
+      "world/data/locations.json",
+      "world/data/location_relationship_graph.json",
+      "living-novel/os/geography/world_travel_graph_v1.json",
+      "world/location-control-plane/",
+      "world/environment-references/",
+      "world/atlas/interactive/SCHEMIN_ATLAS_INTERACTIVE.html",
+      "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md",
+      "memo-os location hydration",
+      "living-novel location hydration",
+      "visual world packets"
     ]
   },
-  "rule": "Candidate promotion fanout is informational until a separately approved promotion transaction is executed."
+  "rule": "Change once → rebuild many. Candidate promotion remains separately governed and never implicit."
 }
