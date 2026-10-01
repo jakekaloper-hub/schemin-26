@@ -127,6 +127,22 @@ World Engine V1 remains historical release evidence and is superseded by V1.1 fo
 
 **Atlas Phase 5 / Weekly World Evolution:** when world/evolution/_INDEX.md is present on main, the dry-run-first weekly evolution engine is ACTIVE for governed post-release state/history transactions. Candidate promotion remains separately gated and never implicit.
 
+
+**Universe / Atlas architectural lock:** one authoritative world model, one Atlas spatial control plane, many views/consumers. Memo OS, Novel OS, Interactive Atlas, Canonical World Plate and Art Pipeline may consume or render world truth but may not maintain competing active geography.
+
+**Axiom:** **One World Model. One Spatial Control Plane. Many Views. No Forked Geography.**
+
+Read:
+- `world/governance/WORLD_DATA_OWNERSHIP_MATRIX_V1.md`
+- `world/governance/CANONICAL_WORLD_ID_CONTRACT_V1.md`
+- `world/governance/DERIVED_WORLD_DATA_CONTRACT_V1.md`
+- `world/evolution/WORLD_MUTATION_FANOUT_CONTRACT_V2.md`
+- `world/qa/ONE_WORLD_MODEL_ANTI_FORK_AUDIT_V1.md`
+- `world/qa/ATLAS_CONTROL_PLANE_CONSOLIDATION_REPORT_V1.md`
+- `world/qa/test_one_world_model_contract.py`
+- `world/qa/ONE_WORLD_MODEL_ARCHITECTURAL_LOCK_ACCEPTANCE_REPORT_V1.md`
+- `world/ONE_WORLD_MODEL_ARCHITECTURAL_LOCK_RELEASE_RECEIPT_V1.md`
+
 **Atlas Publication Convergence V1:** when `world/atlas/integration/_INDEX.md` is present on main, it is ACTIVE as the cross-OS authoring contract binding League Data, Character Canon, World Engine, Location Control Plane, Memo OS, Novel OS, visual grounding, Interactive Atlas, Weekly World Evolution and release control. It creates no second geography/canon store.
 
 ### Universe OS V1.2 / Atlas Control Plane V2 — RELEASED / ACTIVE
