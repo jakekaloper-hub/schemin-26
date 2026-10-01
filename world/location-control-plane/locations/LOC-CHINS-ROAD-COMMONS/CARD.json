@@ -1,0 +1,255 @@
+{
+  "schema_version": "1.0",
+  "compilation_version": "phase2-v1",
+  "location_id": "LOC-CHINS-ROAD-COMMONS",
+  "name": "People's Champ Road Commons",
+  "canon_status": "PROVISIONAL_CANON",
+  "location_type": "owner_base",
+  "physical_zone": {
+    "id": "REG-CENTRAL-BASIN",
+    "name": "Central River Basin",
+    "terrain": [
+      "broad river valleys",
+      "fertile lowlands",
+      "bridge corridors"
+    ],
+    "climate": [
+      "temperate",
+      "flood-cycle influence"
+    ],
+    "movement": [
+      "navigable rivers",
+      "major roads",
+      "bridges and toll points"
+    ]
+  },
+  "division_overlay": {
+    "id": "DIV-PIZZA",
+    "name": "Pizza",
+    "food_referent": "pizza",
+    "visual_fingerprint": {
+      "skyline": [
+        "mercantile towers",
+        "storm-cliff keeps",
+        "coastal weather beacons",
+        "basin road halls"
+      ],
+      "materials": [
+        "cut stone",
+        "slate",
+        "brick",
+        "bronze",
+        "tile",
+        "heavy timber shutters"
+      ],
+      "roads": [
+        "quays",
+        "storm-coast roads",
+        "basin market roads",
+        "cliff approaches"
+      ],
+      "night": [
+        "harbor lamps",
+        "beacon fires",
+        "lightning silhouettes",
+        "road-hall hearths"
+      ]
+    },
+    "anti_drift": [
+      "no giant pizza terrain",
+      "no simple red-yellow circle motif as total identity",
+      "do not make LLC, Belt Keeper, El Niño and Seven Chins all urban",
+      "mercantile city, storm keep, weather coast and basin commons must remain distinct",
+      "do not restore ObiWan or other non-Pizza owners to Pizza"
+    ]
+  },
+  "owner_character_ids": [
+    "CHAR-BEN-WHIPPLE"
+  ],
+  "shared_location_ids": [],
+  "division_presence_ids": [],
+  "abstract_position": [
+    50,
+    43
+  ],
+  "access_routes": [
+    {
+      "id": "ROUTE-BASIN-MARKET",
+      "name": "Basin Market Road",
+      "route_class": "LOCAL",
+      "from": "LOC-CHINS-ROAD-COMMONS",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon",
+        "river"
+      ],
+      "constraints": [
+        "market traffic"
+      ],
+      "via_location_ids": [
+        "LOC-PITTSYS-BOOK",
+        "LOC-SOUTHERN-SPEEDWAY",
+        "LOC-DK-MUD-HILL"
+      ]
+    }
+  ],
+  "persistent_landmarks": [
+    "roadside hall",
+    "BBQ yard",
+    "caravan court"
+  ],
+  "addressable_feature_handles": [
+    {
+      "handle_id": "SUB::LOC-CHINS-ROAD-COMMONS::ROADSIDE-HALL",
+      "parent_location_id": "LOC-CHINS-ROAD-COMMONS",
+      "name": "roadside hall",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-CHINS-ROAD-COMMONS::BBQ-YARD",
+      "parent_location_id": "LOC-CHINS-ROAD-COMMONS",
+      "name": "BBQ yard",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-CHINS-ROAD-COMMONS::CARAVAN-COURT",
+      "parent_location_id": "LOC-CHINS-ROAD-COMMONS",
+      "name": "caravan court",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    }
+  ],
+  "base_location_state": [
+    "operational"
+  ],
+  "current_world_state": [],
+  "historical_events": [],
+  "horizon_constraints": [],
+  "weather_relationships": [
+    {
+      "id": "WX-EASTERN-STORM",
+      "role": "PROPAGATION_ZONE",
+      "effects": [
+        "coastal surge",
+        "heavy rain",
+        "wind",
+        "road washout"
+      ],
+      "rule": "major event must record downstream/adjacent effects"
+    },
+    {
+      "id": "WX-SOUTHERN-FLOOD",
+      "role": "SOURCE_ZONE",
+      "effects": [
+        "high river",
+        "mud",
+        "causeway closure"
+      ],
+      "rule": "flooding follows watershed; not arbitrary backdrop"
+    }
+  ],
+  "visual_dna": {
+    "terrain": [
+      "broad river valleys",
+      "fertile lowlands",
+      "bridge corridors"
+    ],
+    "climate": [
+      "temperate",
+      "flood-cycle influence"
+    ],
+    "movement": [
+      "navigable rivers",
+      "major roads",
+      "bridges and toll points"
+    ],
+    "division_materials": [
+      "cut stone",
+      "slate",
+      "brick",
+      "bronze",
+      "tile",
+      "heavy timber shutters"
+    ],
+    "division_skyline": [
+      "mercantile towers",
+      "storm-cliff keeps",
+      "coastal weather beacons",
+      "basin road halls"
+    ],
+    "division_roads": [
+      "quays",
+      "storm-coast roads",
+      "basin market roads",
+      "cliff approaches"
+    ],
+    "division_night": [
+      "harbor lamps",
+      "beacon fires",
+      "lightning silhouettes",
+      "road-hall hearths"
+    ],
+    "landmark_anchors": [
+      "roadside hall",
+      "BBQ yard",
+      "caravan court"
+    ]
+  },
+  "reference_status": {
+    "location_id": "LOC-CHINS-ROAD-COMMONS",
+    "semantic_reference_status": "RESOLVED_FROM_WORLD_ENGINE",
+    "visual_reference_status": "MISSING_APPROVED_VISUAL_REFERENCE",
+    "approved_reference_uris": [],
+    "candidate_reference_paths": [],
+    "blockers": [
+      "No durable approved renderer-addressable environment bytes are registered for this location."
+    ],
+    "rule": "Visual-reference-required workflows must return HUMAN_REVIEW_REQUIRED until approved bytes are registered."
+  },
+  "open_questions": [
+    "final name"
+  ],
+  "prohibited_inventions": [
+    "Do not move location to another physical zone.",
+    "Do not convert Division overlay into physical geography.",
+    "Do not erase unresolved current world state.",
+    "Do not create new permanent landmarks from generated scenery.",
+    "Do not infer character body identity from location theme."
+  ],
+  "source_provenance": [
+    "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+  ],
+  "generated_from": [
+    "world/data/locations.json",
+    "world/data/routes.json",
+    "world/data/physical_zones.json",
+    "world/data/divisions.json",
+    "world/data/current_world_state.json",
+    "world/data/world_state_events.json",
+    "world/data/landmark_visibility.json",
+    "world/data/weather_regions.json"
+  ],
+  "authority_note": "Derived card. Upstream World Engine and state records remain authoritative."
+}
