@@ -34,3 +34,19 @@ The manuscript must not become an embellished weekly recap. The secondary world 
 Research-grounded external craft review is available through `living-novel/consultants/`. The council is advisory only: Author Room hydration, verified evidence, active canon, Novel OS and existing approval gates remain authoritative.
 
 Use natural language such as `Bullpen, call the Novel consultants on this`. Targeted panels are preferred; the full council is reserved for cross-cutting architectural decisions.
+
+
+## Controlling story architecture
+
+From Chapter III onward, the active literary architecture is causal rather than weekly:
+
+**A source week is evidence. A chapter is causality.**
+
+Start with:
+- `os/templates/MINIMUM_PRE_PROSE_GATE_V1.md`
+- `os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md`
+- `os/NOVEL_BOOK_ARCHITECTURE_V2.md`
+- `os/NOVEL_POV_CONSTITUTION_V1.md`
+- `os/state/CURRENT_OPEN_LOOP_LEDGER_V1.json`
+
+The Prologue and Chapters I–II remain closed hard manuscript canon. The accepted architecture came from the Full Seven four-round engagement under `consultants/author-council/engagements/NOVEL-AUTHOR-CONSULT-2026-10-01-001/`.
