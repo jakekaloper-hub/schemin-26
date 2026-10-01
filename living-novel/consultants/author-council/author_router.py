@@ -18,26 +18,6 @@ AUTHOR_ALIASES = {
     "joe_abercrombie": ("joe abercrombie", "abercrombie"),
 }
 
-PANELS = {
-    "chapter_triage": ["george_rr_martin", "john_grisham", "ursula_k_le_guin"],
-    "world_depth": ["jrr_tolkien", "ursula_k_le_guin", "brandon_sanderson"],
-    "story_architecture": ["george_rr_martin", "jk_rowling", "john_grisham", "serialized_continuity_editor"],
-    "pov_character": ["ursula_k_le_guin", "joe_abercrombie", "george_rr_martin"],
-    "pacing_readability": ["john_grisham", "jk_rowling", "joe_abercrombie"],
-    "fantasy_logic": ["brandon_sanderson", "jrr_tolkien", "ursula_k_le_guin"],
-    "epic_fantasy_integrity": ["jrr_tolkien", "george_rr_martin", "ursula_k_le_guin", "joe_abercrombie"],
-}
-
-PANEL_ALIASES = {
-    "chapter_triage": ("chapter triage", "chapter review", "review this chapter"),
-    "world_depth": ("world depth", "worldbuilding panel", "world panel"),
-    "story_architecture": ("story architecture", "architecture panel", "chapter architecture"),
-    "pov_character": ("pov panel", "character panel", "pov character", "point of view"),
-    "pacing_readability": ("pacing panel", "readability panel", "page turn", "page-turn"),
-    "fantasy_logic": ("fantasy logic", "systems panel", "rules panel"),
-    "epic_fantasy_integrity": ("epic fantasy integrity", "epic fantasy panel"),
-}
-
 FULL_COUNCIL_TERMS = (
     "full seven",
     "full council",
@@ -78,6 +58,9 @@ def _dedupe(ids: list[str]) -> list[str]:
 
 def select_consultants(command: str, registry: dict[str, Any] | None = None) -> dict[str, Any]:
     registry = registry or load_registry()
+    council = registry["author_council"]
+    panels = council["panels"]
+    panel_aliases = council["panel_aliases"]
     text = _norm(command)
 
     explicit = []
@@ -102,13 +85,13 @@ def select_consultants(command: str, registry: dict[str, Any] | None = None) -> 
             "reason": "Cross-cutting or explicit full-council request.",
         }
 
-    for panel, aliases in PANEL_ALIASES.items():
+    for panel, aliases in panel_aliases.items():
         if any(alias in text for alias in aliases):
             return {
                 "consultation_type": "TARGETED_PANEL",
                 "selection_mode": "NAMED_PANEL",
                 "panel": panel,
-                "advisors": list(PANELS[panel]),
+                "advisors": list(panels[panel]),
                 "reason": f"Matched canonical {panel} panel.",
             }
 
@@ -126,15 +109,15 @@ def select_consultants(command: str, registry: dict[str, Any] | None = None) -> 
                 "consultation_type": "TARGETED_PANEL",
                 "selection_mode": "PROBLEM_ROUTING",
                 "panel": panel,
-                "advisors": list(PANELS[panel]),
+                "advisors": list(panels[panel]),
                 "reason": f"Problem routed to canonical {panel} panel.",
             }
 
     return {
         "consultation_type": "TARGETED_PANEL",
         "selection_mode": "DEFAULT_CHAPTER_TRIAGE",
-        "panel": "chapter_triage",
-        "advisors": list(PANELS["chapter_triage"]),
+        "panel": council["default_panel"],
+        "advisors": list(panels[council["default_panel"]]),
         "reason": "No narrower signal found; use smallest general literary triage panel.",
     }
 
