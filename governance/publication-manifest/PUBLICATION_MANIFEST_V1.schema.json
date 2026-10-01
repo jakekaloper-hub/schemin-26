@@ -1,0 +1,241 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemin://publication-manifest/v1",
+  "title": "Schemin Publication Manifest V1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "project",
+    "manifest_role",
+    "authority_rule",
+    "publications"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "project": {
+      "const": "schemin-26"
+    },
+    "manifest_role": {
+      "const": "derived_release_identity_index"
+    },
+    "authority_rule": {
+      "type": "string",
+      "minLength": 1
+    },
+    "publications": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "publication_id",
+          "family",
+          "season",
+          "title",
+          "slug",
+          "release_state",
+          "source_interval",
+          "canonical_artifact",
+          "publication_date",
+          "authority_refs",
+          "release_receipt_refs",
+          "fact_refs",
+          "canon_refs",
+          "world_refs",
+          "world_evolution_refs",
+          "archive_collections",
+          "relations",
+          "supersedes",
+          "superseded_by",
+          "metadata"
+        ],
+        "properties": {
+          "publication_id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9._-]+$"
+          },
+          "family": {
+            "enum": [
+              "weekly_memo",
+              "living_novel",
+              "atlas",
+              "special"
+            ]
+          },
+          "season": {
+            "type": "integer",
+            "minimum": 2015
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "slug": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "release_state": {
+            "enum": [
+              "DRAFT",
+              "CANDIDATE",
+              "BLOCKED",
+              "RELEASED",
+              "CANON_CLOSED",
+              "HISTORICAL",
+              "SUPERSEDED"
+            ]
+          },
+          "source_interval": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "kind",
+              "label"
+            ],
+            "properties": {
+              "kind": {
+                "enum": [
+                  "preseason",
+                  "week",
+                  "multi_week",
+                  "event_window",
+                  "chapter_causal_interval",
+                  "unknown"
+                ]
+              },
+              "label": {
+                "type": "string",
+                "minLength": 1
+              },
+              "weeks": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 18
+                },
+                "uniqueItems": true
+              }
+            }
+          },
+          "canonical_artifact": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "publication_date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "authority_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "release_receipt_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "fact_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "canon_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "world_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "world_evolution_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "archive_collections": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "relations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "type",
+                "publication_id"
+              ],
+              "properties": {
+                "type": {
+                  "enum": [
+                    "precedes",
+                    "follows",
+                    "companion",
+                    "interprets_same_source_interval",
+                    "shares_archive_collection"
+                  ]
+                },
+                "publication_id": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          },
+          "supersedes": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "superseded_by": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "metadata": {
+            "type": "object"
+          }
+        }
+      }
+    }
+  }
+}
