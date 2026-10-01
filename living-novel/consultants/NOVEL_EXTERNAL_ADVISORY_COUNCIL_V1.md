@@ -15,47 +15,39 @@ The Living Novel has reached the point where internal coherence is not enough. B
 
 The council is deliberately **not** a collection of fake celebrity coauthors. Named authors appear only as published-method lenses grounded in public primary sources. Their prose is not imitated, private views are not invented, and no modeled review is described as a real human consultation.
 
-## Core council
+## Core Author Council — The Seven
 
-### 1. Secondary-World & Mythic Depth
-**Mode:** PUBLISHED_METHOD_LENS  
-**Lens:** J.R.R. Tolkien scholarship / published-method lens  
-**Job:** secondary-world coherence, implied history, inherited names, material culture, landscape depth, restraint in exposition, sense of older stories underneath the visible one.  
-**Internal counterparts:** Beat Writer + Librarian + world/Universe OS owners.  
-**Does not own:** Schemin canon, prose voice, factual history.
+The earlier generic craft seats are now resolved into seven permanent published-method consultant profiles. Full dossiers and four-round engagement contracts live under `living-novel/consultants/author-council/`.
 
-### 2. Ensemble & Multi-POV Architecture
-**Mode:** PUBLISHED_METHOD_LENS  
-**Lens:** George R.R. Martin published-method lens  
-**Job:** ensemble causality, viewpoint distribution, character collisions, chapter architecture, gardener/architect balance, avoiding a season recap disguised as a novel.  
-**Internal counterparts:** Beat Writer + Analyst + Librarian.  
-**Does not own:** character psychology claims not supported by POV evidence.
+### 1. J.R.R. Tolkien — Secondary World, Mythic Depth & Historical Texture
+Tests whether the world feels older than the current plot and whether history, material culture, geography, naming and memory are implied rather than dumped.
 
-### 3. POV, Voice & Narrative Distance
-**Mode:** PUBLISHED_METHOD_LENS  
-**Lens:** Ursula K. Le Guin published-method lens  
-**Job:** viewpoint control, shifts in perception, narrative distance, sentence/voice discipline, information revealed because a POV can actually perceive it.  
-**Internal counterparts:** Beat Writer + Character/POV evidence owner + Librarian.  
-**Hard dependency:** current evidence-bound POV packets and Author Room knowledge envelopes.
+### 2. George R.R. Martin — Ensemble Causality, Multi-POV & Long-Form Epic Architecture
+Tests whether the twelve-character ensemble produces causal story, whether POV allocation is earned, and whether chapter structure follows chronology/character consequence instead of the fantasy schedule.
 
-### 4. Fantasy Systems, Limits & Reader Comprehension
-**Mode:** PUBLISHED_METHOD_LENS  
-**Lens:** Brandon Sanderson published-method lens  
-**Job:** system legibility, limitations, consequences, reader understanding, expanding existing mechanics before adding new ones, ensuring Contest/world rules create story rather than encyclopedia weight.  
-**Internal counterparts:** Architect + Beat Writer + Universe OS owners.  
-**Does not own:** prose style or world canon.
+### 3. J.K. Rowling — Long-Horizon Series Architecture, Mystery, Setup/Payoff & Accessible World Entry
+Tests clues, delayed revelation, recurring institutions, outsider onboarding, long-range setup/payoff and whether later revelations feel prepared rather than retrofitted.
 
-### 5. Developmental Editor
-**Mode:** COMPOSITE_SPECIALIST  
-**Job:** scene necessity, pacing, emotional causality, exposition load, chapter promises/payoffs, transitions, outsider comprehension, redundancy, manuscript-level cuts and restructuring.  
-**Internal counterparts:** Beat Writer + Umpire.  
-**Source basis:** established developmental-editing craft sources registered per engagement; no invented personal biography.
+### 4. John Grisham — Propulsion, Chapter Discipline, Outline Pressure & Adult Readability
+Tests chapter purpose, stakes, scene economy, compression and whether the reader has a reason to keep turning pages despite the project's deep lore.
 
-### 6. Serialized Continuity & Live-Novel Editor
-**Mode:** COMPOSITE_SPECIALIST  
-**Job:** branchable narrative pressure, open loops, continuity-in/out, live-season uncertainty, chapter boundaries that follow causal story rather than fantasy-week numbering, prevention of future-result leakage.  
-**Internal counterparts:** Librarian + Beat Writer + Analyst + Novel OS.  
-**Hard dependency:** verified league evidence and current world state.
+### 5. Ursula K. Le Guin — POV, Narrative Distance, Voice, Language & Cultural Interior
+Tests who perceives each sentence, whether knowledge is legitimate, whether narrative distance is controlled and whether culture is lived from inside rather than explained from above.
+
+### 6. Brandon Sanderson — Fantasy Systems, Rules, Costs, Promises/Payoffs & Reader Legibility
+Tests whether the Contest/world systems have understandable rules, costs and limitations that create conflict rather than documentation overhead.
+
+### 7. Joe Abercrombie — Tight POV, Distinct Character Voice, Human-Scale Epic Action & Ruthless Revision
+Tests whether epic events are felt through individual bodies and perceptions, whether voices are differentiated and whether revision removes redundant description/dialogue.
+
+### Core Seven operating rule
+
+No one author becomes Schemin's style. Their methods are used as diagnostic instruments.
+
+The four-round consulting program is governed by:
+- `author-council/_PROGRAM_CHARTER.md`;
+- `author-council/AUTHOR_COUNCIL_MASTER_MANDATE_V2.md`;
+- `author-council/BULLPEN_EXECUTION_PROMPT_V2.md`.
 
 ## Specialist bench
 
@@ -103,14 +95,16 @@ Use 2–4 advisors for:
 
 | Question | Primary advisor | Counterweight |
 |---|---|---|
-| Does the world feel older/larger than the current plot? | Secondary-World & Mythic Depth | Developmental Editor |
-| Whose chapter/POV should carry this event? | POV, Voice & Narrative Distance | Ensemble & Multi-POV Architecture |
-| Should Week N equal Chapter N? | Ensemble & Multi-POV Architecture | Serialized Continuity Editor |
-| Is lore overwhelming story? | Developmental Editor | Secondary-World & Mythic Depth |
-| Are Contest mechanics understandable and dramatically useful? | Fantasy Systems & Limits | Developmental Editor |
-| Are we inventing unsupported interiority? | POV, Voice & Narrative Distance | Librarian/Umpire |
+| Does the world feel older/larger than the current plot? | Tolkien | Le Guin |
+| Whose chapter/POV should carry this event? | Le Guin | Martin + Abercrombie |
+| Should Week N equal Chapter N? | Martin | Rowling + Serialized Continuity Editor |
+| Is lore overwhelming story? | Grisham | Tolkien |
+| Are long-term reveals properly prepared? | Rowling | Martin |
+| Are Contest mechanics understandable and dramatically useful? | Sanderson | Grisham |
+| Are we inventing unsupported interiority? | Le Guin | Librarian/Umpire |
+| Does the chapter have causal momentum rather than recap structure? | Martin | Grisham |
+| Does epic action remain human-scale and character-specific? | Abercrombie | Le Guin |
 | Does the live season still permit multiple futures? | Serialized Continuity Editor | Analyst |
-| Does a chapter have causal momentum rather than recap structure? | Ensemble & Multi-POV Architecture | Developmental Editor |
 
 ## Authority model
 
