@@ -44,6 +44,39 @@ class AdvisorRegistryContractTests(unittest.TestCase):
         for advisor in self.advisors["advisors"]:
             self.assertIn("promote_canon", advisor.get("cannot", []))
 
+
+    def test_author_council_has_exact_core_seven(self):
+        council = self.advisors.get("author_council", {})
+        expected = {
+            "jrr_tolkien",
+            "george_rr_martin",
+            "jk_rowling",
+            "john_grisham",
+            "ursula_k_le_guin",
+            "brandon_sanderson",
+            "joe_abercrombie",
+        }
+        self.assertEqual(set(council.get("core_seven", [])), expected)
+
+    def test_core_seven_are_published_method_lenses_with_dossiers(self):
+        by_id = {a["id"]: a for a in self.advisors["advisors"]}
+        for advisor_id in self.advisors["author_council"]["core_seven"]:
+            advisor = by_id[advisor_id]
+            self.assertEqual(advisor["mode"], "PUBLISHED_METHOD_LENS")
+            dossier = advisor.get("dossier_path")
+            self.assertTrue(dossier)
+            dossier_path = ROOT.parents[1] / pathlib.Path(dossier)
+            self.assertTrue(dossier_path.exists(), dossier)
+            text = dossier_path.read_text()
+            self.assertIn("## Four-round responsibility", text)
+            self.assertIn("## Preservation rule", text)
+
+    def test_core_seven_have_registered_public_sources(self):
+        by_id = {a["id"]: a for a in self.advisors["advisors"]}
+        for advisor_id in self.advisors["author_council"]["core_seven"]:
+            for source_id in by_id[advisor_id]["source_ids"]:
+                self.assertIn(source_id, self.source_ids)
+
     def test_source_ids_declared_by_registry_exist(self):
         for source_id in self.advisors["source_ids"]:
             self.assertIn(source_id, self.source_ids)

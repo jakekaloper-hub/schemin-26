@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "2.0",
   "status": "ACTIVE",
   "authority": "advisory_only",
   "routing": {
@@ -22,10 +22,14 @@
   },
   "advisors": [
     {
-      "id": "secondary_world_mythic_depth",
+      "id": "jrr_tolkien",
+      "legacy_aliases": [
+        "secondary_world_mythic_depth"
+      ],
       "mode": "PUBLISHED_METHOD_LENS",
-      "display_name": "Secondary-World & Mythic Depth",
+      "display_name": "J.R.R. Tolkien — Secondary World, Mythic Depth & Historical Texture",
       "lens": "J.R.R. Tolkien published-method/scholarship lens",
+      "dossier_path": "living-novel/consultants/author-council/advisors/JRR_TOLKIEN_CONSULTANT_DOSSIER_V1.md",
       "source_ids": [
         "tolkien_estate_flieger_fairy_stories"
       ],
@@ -40,10 +44,14 @@
       ]
     },
     {
-      "id": "ensemble_multi_pov",
+      "id": "george_rr_martin",
+      "legacy_aliases": [
+        "ensemble_multi_pov"
+      ],
       "mode": "PUBLISHED_METHOD_LENS",
-      "display_name": "Ensemble & Multi-POV Architecture",
+      "display_name": "George R.R. Martin — Ensemble Causality, Multi-POV & Long-Form Epic Architecture",
       "lens": "George R.R. Martin published-method lens",
+      "dossier_path": "living-novel/consultants/author-council/advisors/GEORGE_RR_MARTIN_CONSULTANT_DOSSIER_V1.md",
       "source_ids": [
         "grrm_winter_garden",
         "grrm_talking_about_dance"
@@ -60,10 +68,55 @@
       ]
     },
     {
-      "id": "pov_voice_distance",
+      "id": "jk_rowling",
       "mode": "PUBLISHED_METHOD_LENS",
-      "display_name": "POV, Voice & Narrative Distance",
+      "display_name": "J.K. Rowling — Long-Horizon Series Architecture, Mystery, Setup/Payoff & Accessible World Entry",
+      "lens": "J.K. Rowling published-method lens",
+      "dossier_path": "living-novel/consultants/author-council/advisors/JK_ROWLING_CONSULTANT_DOSSIER_V1.md",
+      "source_ids": [
+        "rowling_on_writing_official",
+        "rowling_writing_advice_2019"
+      ],
+      "internal_counterparts": [
+        "the_beat_writer",
+        "the_librarian",
+        "the_analyst"
+      ],
+      "cannot": [
+        "promote_canon",
+        "imitate_prose",
+        "invent_private_opinion"
+      ]
+    },
+    {
+      "id": "john_grisham",
+      "mode": "PUBLISHED_METHOD_LENS",
+      "display_name": "John Grisham — Propulsion, Chapter Discipline, Outline Pressure & Adult Readability",
+      "lens": "John Grisham published-method lens",
+      "dossier_path": "living-novel/consultants/author-council/advisors/JOHN_GRISHAM_CONSULTANT_DOSSIER_V1.md",
+      "source_ids": [
+        "grisham_writing_advice"
+      ],
+      "internal_counterparts": [
+        "the_beat_writer",
+        "the_groundskeeper",
+        "the_umpire"
+      ],
+      "cannot": [
+        "promote_canon",
+        "imitate_prose",
+        "invent_private_opinion"
+      ]
+    },
+    {
+      "id": "ursula_k_le_guin",
+      "legacy_aliases": [
+        "pov_voice_distance"
+      ],
+      "mode": "PUBLISHED_METHOD_LENS",
+      "display_name": "Ursula K. Le Guin — POV, Narrative Distance, Voice, Language & Cultural Interior",
       "lens": "Ursula K. Le Guin published-method lens",
+      "dossier_path": "living-novel/consultants/author-council/advisors/URSULA_K_LE_GUIN_CONSULTANT_DOSSIER_V1.md",
       "source_ids": [
         "leguin_steering_craft",
         "leguin_ocean_story_session_1"
@@ -83,10 +136,14 @@
       ]
     },
     {
-      "id": "fantasy_systems_limits",
+      "id": "brandon_sanderson",
+      "legacy_aliases": [
+        "fantasy_systems_limits"
+      ],
       "mode": "PUBLISHED_METHOD_LENS",
-      "display_name": "Fantasy Systems, Limits & Reader Comprehension",
+      "display_name": "Brandon Sanderson — Fantasy Systems, Rules, Costs, Promises/Payoffs & Reader Legibility",
       "lens": "Brandon Sanderson published-method lens",
+      "dossier_path": "living-novel/consultants/author-council/advisors/BRANDON_SANDERSON_CONSULTANT_DOSSIER_V1.md",
       "source_ids": [
         "sanderson_laws_magic",
         "sanderson_worldbuilding_tools_2025"
@@ -98,6 +155,30 @@
       "cannot": [
         "promote_canon",
         "imitate_prose"
+      ]
+    },
+    {
+      "id": "joe_abercrombie",
+      "mode": "PUBLISHED_METHOD_LENS",
+      "display_name": "Joe Abercrombie — Tight POV, Distinct Character Voice, Human-Scale Epic Action & Ruthless Revision",
+      "lens": "Joe Abercrombie published-method lens",
+      "dossier_path": "living-novel/consultants/author-council/advisors/JOE_ABERCROMBIE_CONSULTANT_DOSSIER_V1.md",
+      "source_ids": [
+        "abercrombie_third_person",
+        "abercrombie_first_words",
+        "abercrombie_progress_2026"
+      ],
+      "internal_counterparts": [
+        "the_beat_writer",
+        "the_umpire"
+      ],
+      "hard_dependencies": [
+        "evidence_bound_pov_packets"
+      ],
+      "cannot": [
+        "promote_canon",
+        "imitate_prose",
+        "invent_private_opinion"
       ]
     },
     {
@@ -139,11 +220,30 @@
   ],
   "source_ids": [
     "tolkien_estate_flieger_fairy_stories",
-    "leguin_steering_craft",
-    "leguin_ocean_story_session_1",
     "grrm_winter_garden",
     "grrm_talking_about_dance",
+    "rowling_on_writing_official",
+    "rowling_writing_advice_2019",
+    "grisham_writing_advice",
+    "leguin_steering_craft",
+    "leguin_ocean_story_session_1",
     "sanderson_laws_magic",
-    "sanderson_worldbuilding_tools_2025"
-  ]
+    "sanderson_worldbuilding_tools_2025",
+    "abercrombie_third_person",
+    "abercrombie_first_words",
+    "abercrombie_progress_2026"
+  ],
+  "author_council": {
+    "status": "RELEASE_CANDIDATE",
+    "program_home": "living-novel/consultants/author-council/",
+    "core_seven": [
+      "jrr_tolkien",
+      "george_rr_martin",
+      "jk_rowling",
+      "john_grisham",
+      "ursula_k_le_guin",
+      "brandon_sanderson",
+      "joe_abercrombie"
+    ]
+  }
 }

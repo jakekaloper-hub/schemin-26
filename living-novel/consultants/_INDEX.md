@@ -9,6 +9,13 @@
 
 Provide research-grounded external perspective to the Schemin' '26 Living Novel without creating a second canon system, impersonating authors, or replacing internal Bullpen domain authority.
 
+## Author Council V2
+
+- `author-council/_INDEX.md` — Core Seven author consultants and program navigation.
+- `author-council/_PROGRAM_CHARTER.md` — Lunsford/Ezzell-style four-round consulting lifecycle.
+- `author-council/AUTHOR_COUNCIL_MASTER_MANDATE_V2.md` — shared literary audit mandate.
+- `author-council/BULLPEN_EXECUTION_PROMPT_V2.md` — autonomous Bullpen execution contract.
+
 ## Current artifacts
 
 - `NOVEL_EXTERNAL_ADVISORY_COUNCIL_V1.md` — roster, domain map, triggers, authority boundaries.
