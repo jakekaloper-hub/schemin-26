@@ -1,6 +1,6 @@
 # Novel External Advisory Council — Index
 
-**Status:** RELEASE CANDIDATE / ADVISORY ONLY  
+**Status:** RELEASED / ACTIVE — ADVISORY ONLY  
 **Home:** `living-novel/consultants/`  
 **Bullpen governance:** `jakekaloper-hub/bullpen/docs/EXTERNAL_ADVISORY_PROGRAM_V1.md`  
 **Novel authority:** Author Room / Novel OS remain authoritative.
