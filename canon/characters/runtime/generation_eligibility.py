@@ -49,6 +49,7 @@ def issue_eligibility(
     mounts,
     route,
     capability,
+    authority_receipt=None,
     signing_key=None,
     policy_version="CCCP-INC-4",
     now=None,
@@ -59,6 +60,20 @@ def issue_eligibility(
         return {
             "state": "GENERATION_BLOCKED",
             "reason": capability.get("reason", "GENERATION_ROUTE_UNPROVEN"),
+        }
+
+    if not isinstance(authority_receipt, dict) or authority_receipt.get("state") != "REFERENCE_AUTHORITY_RESOLVED":
+        return {
+            "state": "GENERATION_BLOCKED",
+            "reason": "CURRENT_SOURCE_AUTHORITY_REQUIRED",
+        }
+
+    authority_results = authority_receipt.get("results", [])
+    authority_by_id = {item.get("character_id"): item for item in authority_results}
+    if set(authority_by_id) != set(character_ids):
+        return {
+            "state": "GENERATION_BLOCKED",
+            "reason": "REFERENCE_AUTHORITY_SET_MISMATCH",
         }
 
     by_id = {mount.character_id: mount for mount in mounts}
@@ -72,6 +87,14 @@ def issue_eligibility(
             "state": "GENERATION_BLOCKED",
             "reason": "CHARACTER_REFERENCE_OR_BINDING_NOT_PROVEN",
         }
+
+    for cid in character_ids:
+        expected = authority_by_id[cid].get("expected_sha256")
+        if not expected or expected != by_id[cid].expected_sha256 or expected != by_id[cid].mounted_sha256:
+            return {
+                "state": "GENERATION_BLOCKED",
+                "reason": "REFERENCE_AUTHORITY_HASH_MISMATCH",
+            }
 
     capability_receipt_id = capability.get("capability_receipt_id")
     if not capability_receipt_id or any(
@@ -109,6 +132,17 @@ def issue_eligibility(
         "mounts": _mount_claims(mounts),
         "route": route,
         "capability_receipt_id": capability_receipt_id,
+        "reference_authority": sorted(
+            [
+                {
+                    "character_id": cid,
+                    "expected_sha256": authority_by_id[cid].get("expected_sha256"),
+                    "source_filename": authority_by_id[cid].get("source_filename"),
+                }
+                for cid in character_ids
+            ],
+            key=lambda item: item["character_id"],
+        ),
         "policy_version": policy_version,
         "issued_at": issued,
         "expires_at": issued + ttl,
@@ -127,6 +161,7 @@ def validate_eligibility(
     character_ids,
     mounts,
     route,
+    authority_receipt=None,
     signing_key=None,
     now=None,
     consumed_nonces=None,
@@ -153,6 +188,19 @@ def validate_eligibility(
         claims.get("character_ids") == sorted(character_ids),
         claims.get("mounts") == _mount_claims(mounts),
         claims.get("route") == route,
+        isinstance(authority_receipt, dict),
+        authority_receipt.get("state") == "REFERENCE_AUTHORITY_RESOLVED" if isinstance(authority_receipt, dict) else False,
+        claims.get("reference_authority") == sorted(
+            [
+                {
+                    "character_id": item.get("character_id"),
+                    "expected_sha256": item.get("expected_sha256"),
+                    "source_filename": item.get("source_filename"),
+                }
+                for item in (authority_receipt.get("results", []) if isinstance(authority_receipt, dict) else [])
+            ],
+            key=lambda item: item["character_id"] or "",
+        ),
         timestamp <= claims.get("expires_at", 0),
         not replay,
     ]
