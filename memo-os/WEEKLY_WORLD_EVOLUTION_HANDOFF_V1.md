@@ -29,3 +29,8 @@ After the weekly memo is immutable:
 The memo release and post-production forensic receipt must identify the supported consequence.
 
 **Memo doctrine:** publication creates evidence; governance decides what enters persistent world state.
+
+
+## Strengthened derivative contract
+
+Location Cards, structural environment plates, and the Interactive Atlas are rebuilt deterministically after accepted active-state/history transactions. Memo OS and Novel OS use **pull-on-read** hydration from the rebuilt Location Control Plane; no separate stale hydration cache is assumed.
