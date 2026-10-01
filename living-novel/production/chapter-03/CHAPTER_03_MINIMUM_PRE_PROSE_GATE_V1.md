@@ -16,15 +16,15 @@
 
 5. **Opening pressure:** The fight is over but the field is not reset. Mud Dogs has yielded, the hill is scarred, and news is already arriving that no second unbeaten standard survived Week 3. D0nkey K0ng's victory has changed from one result into a unique public position.
 
-6. **Turn:** The important change is not the 172.48 score itself. It is the first external behavior caused by the new 3-0 status—messengers, road traffic, scouts, merchants, patrons, challengers, or other already-authorized third-party social pressure begin treating Mire Hill and its victor differently. The exact manifestation must come from existing world/civilization authority; do not invent a new institution merely for the beat.
+6. **Turn:** The important change is not the 172.48 score itself. After certification, Wilson learns that the other unbeaten path has ended and that his is now the league's lone 3-0 standard. The **single external-pressure vector** is ceremonial/public claim pressure around the summit standard: the neutral-ground custom makes a summit planting read as territorial claim, while the public is already beginning to turn current form into crown imagery. Wilson must decide where the standard goes. He places it **below the summit**, preserving the distinction between winning the Encounter and claiming the world. This action is already supported by the hydrated Universe packet; no new institution is invented.
 
-7. **Consequence:** D0nkey K0ng leaves Week 3 with less anonymity and less freedom than he entered it. The last unbeaten record becomes a burden/claim the wider world can act upon. Movement II is therefore active: **claims have begun to harden**.
+7. **Consequence:** D0nkey K0ng leaves Week 3 with a stronger public claim but less control over what that claim means. His deliberate refusal to turn victory into sovereignty does not prevent the wider world from reading the 3-0 record as something larger. The first concrete cost of being unbeaten is therefore interpretive pressure: every gesture can now become evidence for somebody else's story. Movement II is active: **claims have begun to harden**.
 
 8. **Open loop advanced:** **`OL-004` is the primary advancement.** The former "two 2-0 powers" loop resolves into a new state: Mud Dogs falls to 2-1; D0nkey K0ng becomes the sole 3-0 power; third-party attention can now concentrate rather than divide. `OL-008` is advanced ambiently through Mire Hill's persistent scar/yield memory.
 
 9. **Off-page:** The chapter does **not** owe foreground scenes to ObiWan/TDS, Chili/Duckhook, Red/Slob, HMB/Chins, or LLC/El Niño merely because they occurred in Week 3. Their verified results, world-state deltas, and open-loop changes remain preserved for later use. They may enter only if one materially causes the chapter's main pressure.
 
-10. **Exit pressure:** Week 3 closes with the world now having a single unbeaten standard and multiple characters whose records/reputations have hardened. The reader continues not to learn "who wins Week 4," but to see what this new hierarchy makes people do next.
+10. **Exit pressure:** Wilson leaves the scarred Hill by the older road with the standard deliberately below the summit behind him. The record has made him more visible without making him sovereign. The reader continues to see whether future people, rivals and institutions honor that distinction—or erase it for him.
 
 ## World-depth diagnostic
 
@@ -47,3 +47,16 @@ Mire Hill remains part of the Central River Basin: road and river movement, floo
 - No retired Arsenal Centaur anatomy. Current D0nkey K0ng character authority is the Arsenal Gorilla Warrior.
 - No crown, kingship, championship succession, or Belt transfer implied by 3-0.
 - No new institution created solely to dramatize attention.
+
+
+## Hydration reconciliation
+
+This gate is subordinate to and consistent with:
+- `living-novel/narrative/CHAPTER_03_UNIVERSE_HYDRATION_PACKET_V1.md`;
+- `world/location-control-plane/locations/LOC-DK-MUD-HILL/CARD.json`;
+- `world/data/world_state_events.json`;
+- current Master Character Canon.
+
+The existing hydration packet's recommended dramatic question—**"What does the first uncontested 3-0 position authorize a victor to believe?"**—is preserved as the internal version of this gate's reader-facing question.
+
+The hydrated summit/standard decision is now the selected causal turn. Generic reaction montage is rejected.
