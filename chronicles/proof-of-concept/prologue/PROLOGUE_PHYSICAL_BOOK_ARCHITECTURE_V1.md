@@ -1,6 +1,8 @@
 # PROLOGUE — PHYSICAL BOOK ARCHITECTURE V1
 ## Schemin Chronicle — Volume I
 
+> **CURRENT CHARACTER-CANON OVERRIDE — 2026-10-01:** Wilson Look resolves to the **Arsenal Gorilla Warrior** under current Master Character Canon. Any Arsenal Centaur/equine instruction remaining in this historical production document is superseded for new artwork. Current Character Canon always wins.
+
 **Source manuscript:** PROLOGUE_MANUSCRIPT_V1.md @ 921865beb1ffaa270f0b16affd04577219b19c11
 **Character dossiers:** TWELVE_ENTRANCE_DOSSIERS_V1.md @ cadd291c87f800e09338b34d8f1d2bfdd9ee5529
 **Status:** ARCHITECT PASS — READY FOR PAGE-BRIEF PRODUCTION
@@ -161,12 +163,12 @@ Repeated page templates are prohibited. Adjacent pages should normally change vi
 **Image job:** first genuinely environmental character entrance.
 **Text:** allow negative space and atmosphere.
 
-## P20 — THE CENTAUR'S DOCTRINE
+## P20 — THE ARSENAL DOCTRINE
 **Form:** D + B.
-**Character:** Arsenal Centaur.
+**Character:** Arsenal Gorilla Warrior.
 **Story:** axe sharpened while ale warms; route weighted by neglected tankard.
-**Required:** muscular centaur; Arsenal-red; ornate axe; tankard.
-**Forbidden:** gorilla/ape/human rider.
+**Required:** massive black-furred gorilla warrior; Arsenal-red football-warrior armor; ornate double-headed axe; tankard.
+**Forbidden:** centaur anatomy; equine lower body; mounted-human substitute.
 **Text:** philosophy proven only after contact.
 
 ## P21 — THE MIDDLE OF THE ROAD
