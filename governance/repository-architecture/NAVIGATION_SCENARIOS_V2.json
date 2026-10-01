@@ -1,0 +1,63 @@
+{
+  "version": "2.0.0",
+  "scenarios": [
+    {
+      "id": "A-week4-memo",
+      "query": "Work on Week 4 Memo.",
+      "required_paths": [
+        "PROJECT_CONTROL_REGISTRY.md",
+        "docs/SESSION_CONTEXT.md",
+        "memo-os/_INDEX.md",
+        "memo-os/week-4/_INDEX.md",
+        "governance/execution-control/TASK_REGISTRY_V1.json"
+      ]
+    },
+    {
+      "id": "B-living-novel",
+      "query": "Continue the Living Novel.",
+      "required_paths": [
+        "living-novel/os/SESSION_CONTEXT.md",
+        "governance/execution-control/TASK_REGISTRY_V1.json",
+        "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+        "living-novel/production/NEXT_CAUSAL_STORY_GATE_V1.md"
+      ]
+    },
+    {
+      "id": "C-character-rendering",
+      "query": "Fix character rendering.",
+      "required_paths": [
+        "canon/_INDEX.md",
+        "governance/execution-control/TASK_REGISTRY_V1.json",
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+        "planning/character-native-render/_INDEX.md"
+      ]
+    },
+    {
+      "id": "D-world-validator-placement",
+      "query": "Where does a new World Engine validator belong?",
+      "required_paths": [
+        "world/README.md",
+        "docs/governance/FILE_PLACEMENT_STANDARD_V1.md",
+        "governance/repository-architecture/FOLDER_DOMAIN_REGISTRY_V2.json"
+      ]
+    },
+    {
+      "id": "E-planning-graduation",
+      "query": "This planning program has shipped. Where does it go now?",
+      "required_paths": [
+        "planning/README.md",
+        "docs/governance/FILE_PLACEMENT_STANDARD_V1.md",
+        "archive/_INDEX.md"
+      ]
+    },
+    {
+      "id": "F-current-architecture",
+      "query": "What is the current repository architecture?",
+      "required_paths": [
+        "docs/architecture/REPOSITORY_ARCHITECTURE_V2.md",
+        "governance/repository-architecture/FOLDER_DOMAIN_REGISTRY_V2.json",
+        "PROJECT_CONTROL_REGISTRY.md"
+      ]
+    }
+  ]
+}
