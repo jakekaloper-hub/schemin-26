@@ -1,0 +1,245 @@
+{
+  "schema_version": "1.0",
+  "compilation_version": "phase2-v1",
+  "location_id": "LOC-CHILI-STABLE",
+  "name": "Chili Outlaw Stable",
+  "canon_status": "PERMANENT_CANON",
+  "location_type": "owner_base",
+  "physical_zone": {
+    "id": "REG-WESTERN-TABLELANDS",
+    "name": "Western Tablelands",
+    "terrain": [
+      "open grassland",
+      "broken stone ridges",
+      "dry frontier"
+    ],
+    "climate": [
+      "drier",
+      "rain-shadow influence",
+      "large temperature swings"
+    ],
+    "movement": [
+      "long overland routes",
+      "mounted travel",
+      "dispersed settlements"
+    ]
+  },
+  "division_overlay": {
+    "id": "DIV-WINGS",
+    "name": "Wings",
+    "food_referent": "chicken_wings",
+    "visual_fingerprint": {
+      "skyline": [
+        "stormward ruin heights",
+        "foothill camps",
+        "western stables",
+        "raised country-club grounds"
+      ],
+      "materials": [
+        "timber",
+        "iron straps",
+        "river stone",
+        "canvas",
+        "copper",
+        "weathered plaster"
+      ],
+      "roads": [
+        "foothill roads",
+        "western range tracks",
+        "levee roads",
+        "estate approaches"
+      ],
+      "night": [
+        "fire pits",
+        "stable lamps",
+        "clubhouse windows",
+        "storm-lit ruin silhouettes"
+      ]
+    },
+    "anti_drift": [
+      "Wings means chicken wings, not angel/bird/dragon wings",
+      "no giant chicken-wing terrain",
+      "do not flatten Red Leopard ruins, Slob foothills, Chili frontier and Duckhook club into one biome",
+      "home games must use the specific Wings owner's environment",
+      "TDS/Chili coexistence cannot be erased by division borders"
+    ]
+  },
+  "owner_character_ids": [
+    "CHAR-BRANDON-PRYOR"
+  ],
+  "shared_location_ids": [
+    "LOC-TDS-CHILI-SHARED-MARCH"
+  ],
+  "division_presence_ids": [],
+  "abstract_position": [
+    15,
+    45
+  ],
+  "access_routes": [
+    {
+      "id": "ROUTE-WESTERN-RANGE",
+      "name": "Western Range Road",
+      "route_class": "CROSS_DIVISION",
+      "from": "LOC-CHILI-STABLE",
+      "to": "LOC-CHINS-ROAD-COMMONS",
+      "travel_modes": [
+        "mount",
+        "wagon",
+        "foot"
+      ],
+      "constraints": [
+        "long exposed distances",
+        "dry-season water stops"
+      ],
+      "via_location_ids": []
+    }
+  ],
+  "persistent_landmarks": [
+    "stable",
+    "pit smoke",
+    "Dark Horse enclosure"
+  ],
+  "addressable_feature_handles": [
+    {
+      "handle_id": "SUB::LOC-CHILI-STABLE::STABLE",
+      "parent_location_id": "LOC-CHILI-STABLE",
+      "name": "stable",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-CHILI-STABLE::PIT-SMOKE",
+      "parent_location_id": "LOC-CHILI-STABLE",
+      "name": "pit smoke",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-CHILI-STABLE::DARK-HORSE-ENCLOSURE",
+      "parent_location_id": "LOC-CHILI-STABLE",
+      "name": "Dark Horse enclosure",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    }
+  ],
+  "base_location_state": [
+    "operational",
+    "cross-divisional coexistence with TDS is canon"
+  ],
+  "current_world_state": [],
+  "historical_events": [],
+  "horizon_constraints": [],
+  "weather_relationships": [
+    {
+      "id": "WX-WESTERN-DRY",
+      "role": "SOURCE_ZONE",
+      "effects": [
+        "dust",
+        "heat",
+        "water scarcity"
+      ],
+      "rule": "rain-shadow tendency, not permanent drought"
+    }
+  ],
+  "visual_dna": {
+    "terrain": [
+      "open grassland",
+      "broken stone ridges",
+      "dry frontier"
+    ],
+    "climate": [
+      "drier",
+      "rain-shadow influence",
+      "large temperature swings"
+    ],
+    "movement": [
+      "long overland routes",
+      "mounted travel",
+      "dispersed settlements"
+    ],
+    "division_materials": [
+      "timber",
+      "iron straps",
+      "river stone",
+      "canvas",
+      "copper",
+      "weathered plaster"
+    ],
+    "division_skyline": [
+      "stormward ruin heights",
+      "foothill camps",
+      "western stables",
+      "raised country-club grounds"
+    ],
+    "division_roads": [
+      "foothill roads",
+      "western range tracks",
+      "levee roads",
+      "estate approaches"
+    ],
+    "division_night": [
+      "fire pits",
+      "stable lamps",
+      "clubhouse windows",
+      "storm-lit ruin silhouettes"
+    ],
+    "landmark_anchors": [
+      "stable",
+      "pit smoke",
+      "Dark Horse enclosure"
+    ]
+  },
+  "reference_status": {
+    "location_id": "LOC-CHILI-STABLE",
+    "semantic_reference_status": "RESOLVED_FROM_WORLD_ENGINE",
+    "visual_reference_status": "MISSING_APPROVED_VISUAL_REFERENCE",
+    "approved_reference_uris": [],
+    "candidate_reference_paths": [],
+    "blockers": [
+      "No durable approved renderer-addressable environment bytes are registered for this location."
+    ],
+    "rule": "Visual-reference-required workflows must return HUMAN_REVIEW_REQUIRED until approved bytes are registered."
+  },
+  "open_questions": [
+    "final fictional place-name"
+  ],
+  "prohibited_inventions": [
+    "Do not move location to another physical zone.",
+    "Do not convert Division overlay into physical geography.",
+    "Do not erase unresolved current world state.",
+    "Do not create new permanent landmarks from generated scenery.",
+    "Do not infer character body identity from location theme."
+  ],
+  "source_provenance": [
+    "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+  ],
+  "generated_from": [
+    "world/data/locations.json",
+    "world/data/routes.json",
+    "world/data/physical_zones.json",
+    "world/data/divisions.json",
+    "world/data/current_world_state.json",
+    "world/data/world_state_events.json",
+    "world/data/landmark_visibility.json",
+    "world/data/weather_regions.json"
+  ],
+  "authority_note": "Derived card. Upstream World Engine and state records remain authoritative."
+}
