@@ -45,3 +45,7 @@ The initial registry includes:
 - hard-canon Chapter II.
 
 There is intentionally no Chapter III publication entry. Week 3 is evidence, not automatic Chapter III identity.
+
+## Acceptance evidence
+
+- `PUBLICATION_MANIFEST_V1_ACCEPTANCE.md` — mission acceptance, audit, learning and rollback receipt.
