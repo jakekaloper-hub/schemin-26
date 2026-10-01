@@ -54,6 +54,48 @@ URL: https://www.brandonsanderson.com/blogs/blog/worldbuilding-tools-lecture-202
 
 **Not established:** a Sanderson judgment of Schemin or permission to imitate his prose.
 
+## J.K. Rowling / long-horizon structure and onboarding lens
+
+### Official site — On Writing
+URL: https://www.jkrowling.com/on-writing/
+
+**Allowed use:** documented writing process, research/editing context, long-form creation.
+
+### Official site — On Writing (2019)
+URL: https://www.jkrowling.com/opinions/on-writing/
+
+**Allowed use:** reading as analysis, writing discipline, resistance to formulaic "must do" rules.
+
+**Not established:** a Rowling judgment of Schemin; permission to imitate her prose; a live consultation.
+
+## John Grisham / propulsion and chapter discipline lens
+
+### Official site — John Grisham's Writing Routine
+URL: https://jgrisham.com/writing-advice/
+
+**Allowed use:** chapter outlining, pacing consistency, iterative outline revision, disciplined drafting.
+
+**Not established:** a Grisham judgment of Schemin; permission to imitate his prose; a live consultation.
+
+## Joe Abercrombie / tight POV and revision lens
+
+### Official site — Why the Third Person?
+URL: https://joeabercrombie.com/why-the-third-person/
+
+**Allowed use:** third-person limited, viewpoint flexibility, contrasting perceptions between characters.
+
+### Official site — First Words
+URL: https://joeabercrombie.com/first-words/
+
+**Allowed use:** aggressive revision, cutting redundancy, sharpening openings and dialogue.
+
+### Official site — Progress Report February '26
+URL: https://joeabercrombie.com/progress-report-february-26/
+
+**Allowed use:** one-POV-at-a-time character/voice revision, separate setting and prose passes.
+
+**Not established:** an Abercrombie judgment of Schemin; permission to imitate his prose; a live consultation.
+
 ## Composite specialist sources
 
 Developmental Editor and Serialized Continuity Editor do not use invented named personas.
