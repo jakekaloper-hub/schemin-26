@@ -1,0 +1,1 @@
+"""Character enforcement regression tests."""
