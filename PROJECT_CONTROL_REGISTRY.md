@@ -76,14 +76,15 @@ Read in this order:
 6. `world/atlas/phase-1/_INDEX.md`
 7. `world/location-control-plane/_INDEX.md`
 8. `world/environment-references/_INDEX.md`
-9. `world/atlas/ROUTE_AND_TRAVEL_MODEL_V1.md`
-10. `world/domains/OWNER_DOMAIN_REGISTER_V1.md`
-11. `world/divisions/BURGERS_DIVISION_INDEX_V1.md`
-12. `world/divisions/WINGS_DIVISION_INDEX_V1.md`
-13. `world/divisions/PIZZA_DIVISION_INDEX_V1.md`
-14. `world/state/WORLD_STATE_LEDGER_V1.md`
-15. `living-novel/os/geography/world_travel_graph_v1.json`
-16. `world/qa/WORLD_ENGINE_V1_1_ACCEPTANCE_REPORT.md`
+9. `world/atlas/interactive/_INDEX.md`
+10. `world/atlas/ROUTE_AND_TRAVEL_MODEL_V1.md`
+11. `world/domains/OWNER_DOMAIN_REGISTER_V1.md`
+12. `world/divisions/BURGERS_DIVISION_INDEX_V1.md`
+13. `world/divisions/WINGS_DIVISION_INDEX_V1.md`
+14. `world/divisions/PIZZA_DIVISION_INDEX_V1.md`
+15. `world/state/WORLD_STATE_LEDGER_V1.md`
+16. `living-novel/os/geography/world_travel_graph_v1.json`
+17. `world/qa/WORLD_ENGINE_V1_1_ACCEPTANCE_REPORT.md`
 
 World Engine V1.1 owns persistent physical geography, division spatial/cultural identity, owner-domain placement, Encounter venue resolution, routes/travel topology, recurring locations, inhabitant ontology, environmental state and geography QA. It does not own fantasy-league truth or principal character body identity.
 
@@ -109,6 +110,8 @@ World Engine V1 remains historical release evidence and is superseded by V1.1 fo
 **Atlas Phase 2 / Location Control Plane:** when world/location-control-plane/_INDEX.md is present on main, it is ACTIVE as derived location-packet infrastructure beneath World Engine V1.1. It compiles homelands, active locations, routes, state, history and consumer overlays. It cannot promote CAND-* geography or override upstream canon.
 
 **Atlas Phase 3 / Environment References:** when world/environment-references/_INDEX.md is present on main, 23 deterministic structural environment plates are ACTIVE as renderer-addressable structural grounding. Cinematic environment references remain separately human-gated.
+
+**Atlas Phase 4 / Interactive Atlas:** when world/atlas/interactive/_INDEX.md is present on main, the standalone interactive Atlas is ACTIVE as a read-only canonical visualization. Editorial candidates remain non-spatial and non-active.
 
 ### Jack Mercer
 Read:
