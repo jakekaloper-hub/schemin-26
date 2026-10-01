@@ -9,7 +9,7 @@
 Do **not** load the full `living-novel/` tree.
 
 1. Match the task against `TASK_CONTEXT_MATRIX_V1.json`.
-2. Load the returned sources, capped at four initial files.
+2. Load the returned sources, capped at four initial files. The Whole-Book Source Authority Matrix is pinned as controlling context and cannot be truncated by the ceiling.
 3. For any manuscript-changing work, obey the current whole-book source/authority matrix.
 4. Expand only when a material evidence gap, contradiction, failed gate, or cross-domain dependency appears.
 5. A source week is evidence; it does not automatically define a chapter.
