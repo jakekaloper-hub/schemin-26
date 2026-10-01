@@ -19,13 +19,17 @@ V5.6 may become controlling only after:
 
 The Memo OS must behave like a publication studio, not a page generator.
 
-V5.6 adds six publication-integrity controls:
+V5.6 adds publication-integrity controls:
 - Release Registry
 - Page Production Contract
 - Canon Packet Gate reinforcement
 - World/Encounter binding
 - Fact / Story / Myth separation
 - Closing/Final Word publication standard
+- Runtime Bootstrap Resolver
+- Generation Intent Firewall + artifact-class QA
+- Reference Mount Receipt
+- Renderer-Addressable Asset Contract
 
 These controls integrate existing V5.5, World Engine V1.1, character canon, SCK, and independent QA. They do not create a new control plane.
 
@@ -167,7 +171,44 @@ A new field/gate survives only if it:
 - reduces Jake intervention;
 - materially improves publication consistency.
 
-## 14. Promotion gate
+## 14. Runtime bootstrap
+
+Substantial Weekly Memo runs must resolve current authority from the Project Control Registry and persisted runtime evidence before work begins. Historical fixtures and chat assumptions may not masquerade as current production state.
+
+Controlling contract: `RUNTIME_BOOTSTRAP_RESOLVER_V1.md`.
+
+## 15. Generation intent and artifact-class integrity
+
+Every generative-media call is derived from a locked Page Production Contract and receives an immutable Generation Intent Packet. Before Character QA, Generation Intent QA rejects the wrong artifact class, wrong scene, missing required subject, or prohibited dashboard/UI/workflow substitution.
+
+Controlling contract: `GENERATION_INTENT_FIREWALL_V1.md`.
+
+## 16. Reference mounting and renderer-addressable assets
+
+Character-bearing generation must prove required canonical references were actually mounted. Successful generation is not sufficient for ART_LOCK: the exact candidate bytes must be durably addressable, hashed, lineage-linked and independently inspectable.
+
+Controlling contracts:
+- `REFERENCE_MOUNT_RECEIPT_V1.md`
+- `RENDERER_ADDRESSABLE_ASSET_CONTRACT_V1.md`
+
+## 17. Targeted QA sequence
+
+For generated narrative art, the preferred gate order is:
+
+```text
+GENERATION_INTENT_QA
+→ CHARACTER_QA
+→ WORLD_CONTINUITY_QA
+→ STORY/COMPOSITION_QA
+→ TYPOGRAPHY/DETERMINISTIC_DATA_QA
+→ FULL_RES_QA
+→ 390PX_MOBILE_QA
+→ ART_LOCK / PAGE_LOCK
+```
+
+A failure returns to the nearest responsible checkpoint. A wrong artifact class does not reopen Fact Lock; a mobile typography defect does not automatically regenerate approved art.
+
+## 18. Promotion gate
 
 V5.6 remains RELEASE CANDIDATE until:
 - Week 2 controlled reconstruction suite passes;
@@ -176,4 +217,8 @@ V5.6 remains RELEASE CANDIDATE until:
 - release registry invariants pass;
 - character/world/fact authority tests pass;
 - independent release audit passes;
-- no critical defect remains open.
+- no critical defect remains open;
+- runtime bootstrap rejects stale OS/week/checkpoint fixtures;
+- Generation Intent QA rejects wrong-artifact fixtures;
+- required character references are proven mounted before generation;
+- renderer-addressable asset identity/hash/inspection invariants pass.
