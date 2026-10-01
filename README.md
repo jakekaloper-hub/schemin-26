@@ -138,6 +138,7 @@ See `docs/architecture/FLA_INTEGRATION.md`.
 - `bullpen/` — Schemin-specific Bullpen reviews, decisions, remediation, and governance evidence
 - `bullpen-runtime/` — executable Schemin adapters for canonical Bullpen routing
 - `governance/` — cross-OS contracts, release evidence, mutation and authority controls
+- `governance/publication-manifest/` — derived publication identity/relationship index; never a release authority
 - `docs/` — architecture, governance, integration, and operating documentation
 - `schemas/` — machine-readable contracts
 - `skills/` — Schemin execution skills and operator contracts
