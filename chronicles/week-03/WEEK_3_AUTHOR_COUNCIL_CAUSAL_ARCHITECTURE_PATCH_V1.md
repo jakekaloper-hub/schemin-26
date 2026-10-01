@@ -1,6 +1,6 @@
 # Week 3 — Author Council Causal-Architecture Patch V1
 
-**Status:** RELEASE CANDIDATE  
+**Status:** RELEASED / ACTIVE  
 **Parent:** `chronicles/week-03/WEEK_3_CHRONICLE_PRODUCTION_CONSTITUTION.md`  
 **Authority:** Author Council Engagement 001 implementation tranche
 
