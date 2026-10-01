@@ -1,8 +1,8 @@
 # CHAPTER III — FINAL PRE-CANON GATE V1
 
 **Title:** THE HILL IS NOT THE KINGDOM  
-**Decision:** PASS — FOUNDER APPROVAL GATE  
-**Current manuscript status:** REVIEWED SOFT MANUSCRIPT
+**Decision:** HISTORICAL PASS — FOUNDER APPROVAL RECEIVED 2026-10-01  
+**Current manuscript status:** SUPERSEDED BY `CHAPTER_03_FINAL_CANON_GATE_V1.md`
 
 ## Release checks
 
@@ -25,11 +25,7 @@ CONSULTANT TARGETED REVIEW — PASS
 
 There is no editorial or technical defect blocking Chapter III.
 
-The sole remaining blocker is governance:
-
-**Novel OS APPROVAL has not yet been supplied by the Founder.**
-
-Therefore this gate must not label the chapter HARD MANUSCRIPT CANON / CLOSED.
+The governance blocker recorded by this pre-canon gate was resolved when the Founder explicitly approved Chapter III on 2026-10-01. This artifact is retained as historical pre-approval evidence and is superseded by `CHAPTER_03_FINAL_CANON_GATE_V1.md`.
 
 ## Upon Founder approval
 
