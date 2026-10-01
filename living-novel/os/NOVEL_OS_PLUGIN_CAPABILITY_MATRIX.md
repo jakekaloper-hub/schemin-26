@@ -1,20 +1,28 @@
 # NOVEL OS PLUGIN CAPABILITY MATRIX
-**Status:** PHASE-2 AUDIT — 2026-09-27
+**Status:** PHASE-0 COST RECONCILED — 2026-10-01
+**Budget baseline:** ChatGPT Plus only; no incremental provider spend assumed.
 
-| Capability | Provider | Purpose | Input | Output | Canon authority | Write authority | Failure mode | Fallback | Installation | Recommendation |
-|---|---|---|---|---|---|---|---|---|---|---|
-| repository control | GitHub | durable OS/code/docs | repo state | commits/files/CI | none itself | repo writes | API/auth/index failure | last-known-good repo + local artifact | connected/available | ADOPT core |
-| visual generation | Higgsfield | image/video prototypes and production | briefs + refs | media | zero | media workspace | model/reference drift | native image generation / alternate adapter | installed | ADOPT adapter |
-| visual generation | OpenArt | alternative models/reference workflows | briefs + refs | image/video | zero | media workspace | provider/model drift | Higgsfield/native | not installed | OPTIONAL |
-| cinematic/video | Runway | motion prototypes, edits, multi-shot | visual packets | video/image/audio | zero | media workspace | credits/provider | Higgsfield | not installed | OPTIONAL later |
-| creative finishing | Adobe | retouch/layout/PDF/asset workflows | approved assets | finished assets/docs | zero | Adobe workspace | account/tool availability | local artifact tools | not installed | OPTIONAL publishing |
-| knowledge/project workspace | Notion | human-facing planning/knowledge | registries/tasks | pages/db | zero | workspace | duplication/drift | GitHub canonical records | not installed | REJECT as core; optional mirror |
-| project tracking | Linear | engineering issues/releases | OS backlog | issues/projects | zero | workspace | drift from repo | GitHub issues/docs | not installed | OPTIONAL |
-| project tracking/docs | ClickUp/Coda | workflow dashboards | project state | tasks/docs/tables | zero | workspace | duplicate truth | GitHub | not installed | REJECT core |
-| Drive/docs | Google Drive | source/reference retrieval and sharing | user files | docs/files | evidence only | Drive when authorized | sync/version ambiguity | GitHub/source registry | available | ADAPT as source ingress |
+| Capability | Provider | Cost posture | Production posture | Canon authority | Fallback / rule |
+|---|---|---|---|---|---|
+| repository control | GitHub | EXISTING_ACCESS_ONLY | core at current access level | none itself | last-known-good repo; no paid upgrade assumed |
+| visual generation/editing | ChatGPT native | NATIVE_INCLUDED | DEFAULT FUNDED ROUTE | zero | governed reference/canon packet + Character QA |
+| fantasy data | Flaim Fantasy | EXISTING_ACCESS_ONLY | use current connected access only | evidence only | Data Gateway / commissioner evidence; no paid upgrade assumed |
+| visual generation | Higgsfield | UNFUNDED_EXTERNAL | OPTIONAL / NON-BLOCKING | zero | ChatGPT native |
+| visual generation | OpenArt | UNFUNDED_EXTERNAL | OPTIONAL / NON-BLOCKING | zero | ChatGPT native |
+| cinematic/video | Runway | UNFUNDED_EXTERNAL | OPTIONAL / NON-BLOCKING | zero | hold video or use native capability if available |
+| creative finishing | Adobe paid services | UNFUNDED_EXTERNAL | OPTIONAL / NON-BLOCKING | zero | local/native artifact tooling |
+| visual/media generation | Creative Claw | UNFUNDED_EXTERNAL | OPTIONAL / NON-BLOCKING | zero | ChatGPT native; historical assets remain provenance only |
+| image/media APIs | fal.ai / Replicate | UNFUNDED_EXTERNAL | OPTIONAL / NON-BLOCKING | zero | ChatGPT native |
+| speech | ElevenLabs / Cartesia | UNFUNDED_EXTERNAL | OPTIONAL / NON-BLOCKING | zero | native speech/voice where available; otherwise hold |
+| knowledge/project workspace | Notion | UNKNOWN_COST_BLOCKED | not core | zero | GitHub canonical records |
+| project tracking | Linear | UNKNOWN_COST_BLOCKED | optional only | zero | GitHub issues/docs |
+| Drive/docs | Google Drive | EXISTING_ACCESS_ONLY | source ingress only at current access | evidence only | GitHub/source registry |
 
 ## Authority rule
-Plugins provide capabilities, not truth. Plugin output enters Novel OS as SOURCE, GENERATED_ASSET, or WORKFLOW_EVIDENCE and is promoted only through Novel OS gates.
+Providers provide capabilities, not truth. Provider installation, connection, free trial, or output quality never grants canon authority.
+
+## Budget rule
+Every critical Novel workflow must have a zero-incremental-spend path or explicitly HOLD. No provider may become required merely because it was available during one session.
 
 ## Installation ruling
-No new SaaS/plugin is required to proceed. Existing GitHub + Higgsfield/native capabilities cover the immediate OS and Prologue workload. Optional providers should be connected only when a concrete production requirement justifies the dependency.
+No paid plugin/provider is required to proceed. The default funded visual route is ChatGPT-native generation/editing under existing governance. External providers remain replaceable adapters and must not become exclusive holders of required reference bytes or release evidence.
