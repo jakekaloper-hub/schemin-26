@@ -1,0 +1,176 @@
+{
+  "schema_version": "1.0.0",
+  "evidence_class": "PROVIDER_OBSERVATION_SUMMARY",
+  "provider": "Flaim → ESPN",
+  "league_id": "1417621",
+  "season": 2026,
+  "matchup_period": 4,
+  "session_observed_at": "2026-10-01T04:59:16.292Z",
+  "repo_base_sha": "6d7a1ced68cb5b5a87f9701d087bb4c6e2658dd4",
+  "source_scope": {
+    "standings": true,
+    "week_4_matchups": true,
+    "all_12_current_rosters": true,
+    "week_4_transactions": true,
+    "medical_status": false
+  },
+  "standings": [
+    [
+      "D0nkey K0ng",
+      3,
+      0,
+      480.96,
+      357.69
+    ],
+    [
+      "Red Leopards",
+      2,
+      1,
+      471.2,
+      368.12
+    ],
+    [
+      "Seven Deadly Chins",
+      1,
+      2,
+      406.74,
+      409.2
+    ],
+    [
+      "The Chili Cheesers",
+      2,
+      1,
+      431.09,
+      440.07
+    ],
+    [
+      "Mud Dogs",
+      2,
+      1,
+      383.06,
+      416.25
+    ],
+    [
+      "ObiWan Jacoby",
+      2,
+      1,
+      401.34,
+      376.6
+    ],
+    [
+      "Slob on my Dobb",
+      1,
+      2,
+      471.74,
+      424.11
+    ],
+    [
+      "Dr. Duckhook",
+      1,
+      2,
+      396.45,
+      472.93
+    ],
+    [
+      "The LLC",
+      1,
+      2,
+      395.32,
+      448
+    ],
+    [
+      "El Niño",
+      1,
+      2,
+      390.1,
+      436.51
+    ],
+    [
+      "Three Dreaded Snake",
+      1,
+      2,
+      385.93,
+      446.93
+    ],
+    [
+      "His Majesty's Blood",
+      1,
+      2,
+      380.78,
+      398.3
+    ]
+  ],
+  "week_4_matchups": [
+    {
+      "home": "D0nkey K0ng",
+      "home_projection": 140.77966452,
+      "away": "ObiWan Jacoby",
+      "away_projection": 161.0525458,
+      "status": "UNDECIDED"
+    },
+    {
+      "home": "Mud Dogs",
+      "home_projection": 140.74456908,
+      "away": "Three Dreaded Snake",
+      "away_projection": 129.01228266,
+      "status": "UNDECIDED"
+    },
+    {
+      "home": "Red Leopards",
+      "home_projection": 151.00458336,
+      "away": "Dr. Duckhook",
+      "away_projection": 142.56854857,
+      "status": "UNDECIDED"
+    },
+    {
+      "home": "Slob on my Dobb",
+      "home_projection": 155.61581052,
+      "away": "The Chili Cheesers",
+      "away_projection": 159.67384384,
+      "status": "UNDECIDED"
+    },
+    {
+      "home": "The LLC",
+      "home_projection": 151.46964864,
+      "away": "His Majesty's Blood",
+      "away_projection": 134.99215834,
+      "status": "UNDECIDED"
+    },
+    {
+      "home": "El Niño",
+      "home_projection": 142.25170638,
+      "away": "Seven Deadly Chins",
+      "away_projection": 151.90010278,
+      "status": "UNDECIDED"
+    }
+  ],
+  "roster_counts": {
+    "ObiWan Jacoby": 17,
+    "Red Leopards": 18,
+    "Slob on my Dobb": 18,
+    "The LLC": 19,
+    "D0nkey K0ng": 19,
+    "Three Dreaded Snake": 19,
+    "The Chili Cheesers": 17,
+    "His Majesty's Blood": 19,
+    "El Niño": 17,
+    "Mud Dogs": 17,
+    "Seven Deadly Chins": 18,
+    "Dr. Duckhook": 19
+  },
+  "transactions": {
+    "source": "mTransactions2",
+    "week": 4,
+    "returned_rows": 20,
+    "truncated": false,
+    "limitations": {},
+    "latest_observed_date": "2026-09-30"
+  },
+  "unresolved": [
+    "PLAYER_MEDICAL_INJURY_AVAILABILITY_NOT_VERIFIED_BY_FLAIM_ROSTER_STATE",
+    "CHARACTER_PRODUCTION_GATE_REMAINS_BLOCKED",
+    "W4_G5_CONTINUITY_WORLD_ENTRY_REMAINS_OPEN",
+    "W4_G6_PERSONALIZED_STORY_INTELLIGENCE_REMAINS_OPEN"
+  ],
+  "ruling": "Fresh provider evidence advances W4-G3 evidence currency but does not by itself authorize Story Room, visual generation, or release."
+}
