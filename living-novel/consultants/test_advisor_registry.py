@@ -65,7 +65,7 @@ class AdvisorRegistryContractTests(unittest.TestCase):
             self.assertEqual(advisor["mode"], "PUBLISHED_METHOD_LENS")
             dossier = advisor.get("dossier_path")
             self.assertTrue(dossier)
-            dossier_path = ROOT.parents[1] / pathlib.Path(dossier).relative_to("living-novel")
+            dossier_path = ROOT.parents[1] / pathlib.Path(dossier)
             self.assertTrue(dossier_path.exists(), dossier)
             text = dossier_path.read_text()
             self.assertIn("## Four-round responsibility", text)
