@@ -2,7 +2,7 @@
 
 **Date:** 2026-10-01  
 **Lifecycle:** status → research → spec → premortem → plan → execute → test → verify → audit → redteam → polish → retest → reconcile → handoff → retro → next  
-**Status:** EXECUTION COMPLETE / CI PENDING
+**Status:** COMPLETE / ALL REQUIRED GATES PASS
 
 ## /bullpen status
 
@@ -133,7 +133,15 @@ Polish decisions:
 
 ## /bullpen retest
 
-Pending PR CI at creation of this receipt.
+Final pre-close proof on PR #69 head:
+- Novel OS CI #318 — PASS;
+- Repository Merge Gate #93 — PASS;
+- Bullpen Runtime CI #2491 — PASS.
+
+Novel OS CI includes:
+- existing deterministic/adversarial Novel suite;
+- advisor registry contract;
+- deterministic Author Council router suite.
 
 ## /bullpen reconcile
 
@@ -157,6 +165,8 @@ A consulting program is not operational merely because dossiers and procedures e
 
 ## /bullpen next
 
-Current expected next gate after CI:
-- if all gates pass: lifecycle hardening is complete; next justified Novel work is an actual consultant engagement against a manuscript/book-architecture artifact, not more consulting infrastructure.
-- if a gate fails: route failure internally, repair, retest, and update this receipt before promotion.
+**CLOSED.**
+
+All required gates passed. No justified consulting-infrastructure work remains inside this lifecycle.
+
+The next legitimate Novel step is an **actual consultant engagement against current manuscript/book architecture**, using the now-active router and frozen engagement manifest. Infrastructure expansion should occur only if a real engagement exposes a demonstrated gap.
