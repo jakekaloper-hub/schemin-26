@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/domain-profile.schema.json",
+  "title": "Universe Domain Profile V2",
+  "type": "object",
+  "required": [
+    "domain_id",
+    "owner_character_id",
+    "home_anchor",
+    "physical_region",
+    "division_affiliation",
+    "domain_type",
+    "population",
+    "communities",
+    "institutions",
+    "economy",
+    "resources",
+    "architecture",
+    "materials",
+    "roads",
+    "water",
+    "neighbors",
+    "historical_events",
+    "current_state",
+    "division_influence",
+    "neutral_access",
+    "forbidden_drift",
+    "canon_confidence"
+  ],
+  "properties": {
+    "domain_id": {
+      "type": "string"
+    },
+    "owner_character_id": {
+      "type": "string"
+    },
+    "home_anchor": {
+      "type": "string"
+    },
+    "physical_region": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "division_affiliation": {
+      "type": "string"
+    },
+    "domain_type": {
+      "type": "string"
+    },
+    "population": {
+      "type": "object"
+    },
+    "communities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "institutions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "economy": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "resources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "architecture": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "materials": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "roads": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "water": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "neighbors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "historical_events": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "current_state": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "division_influence": {
+      "type": "string"
+    },
+    "neutral_access": {
+      "type": "boolean"
+    },
+    "forbidden_drift": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "canon_confidence": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}
