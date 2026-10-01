@@ -65,3 +65,19 @@ Read:
 8. `map-proof/MAP_PROOF_NEXT_GATE_V1.md`
 
 Acceptance: **192/192 machine checks PASS**. Primary reader-facing master-map form is the **6×9 recto**; 12×9 spread remains an endpaper/digital variant.
+
+## Environment + Object Proof
+
+**Status:** PASS for visual grammar; cinematic reference promotion remains HUMAN_REVIEW_REQUIRED.
+
+Read:
+1. `environment-object-proof/ENVIRONMENT_OBJECT_PROOF_SPEC_V1.md`
+2. `environment-object-proof/ENVIRONMENT_OBJECT_PREMORTEM_V1.md`
+3. `environment-object-proof/page-packets/`
+4. `environment-object-proof/assets/`
+5. `environment-object-proof/ENVIRONMENT_OBJECT_SOURCE_MANIFEST_V1.json`
+6. `environment-object-proof/ENVIRONMENT_OBJECT_ACCEPTANCE_REPORT_V1.md`
+7. `environment-object-proof/ENVIRONMENT_OBJECT_LEARNING_LEDGER_V1.md`
+8. `environment-object-proof/ENVIRONMENT_OBJECT_NEXT_GATE_V1.md`
+
+Acceptance: six distinct book page forms; **54/54 local render checks PASS** plus source-manifest audit PASS. Next gate: **Full-Book Typography + Previs**.
