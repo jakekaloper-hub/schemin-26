@@ -13,6 +13,10 @@ Persistent epic-fantasy literary universe powered by the real Pro Schemin' Footb
 ## Prime pipeline
 REAL LEAGUE DATA → CANON EVENT → WORLD CONSEQUENCE → CHARACTER CONSEQUENCE → NARRATIVE
 
+## Session orientation
+
+Start Novel work with `os/SESSION_CONTEXT.md` and `os/TASK_CONTEXT_MATRIX_V1.json`. Load the routed 2–4 current authority sources first; do not hydrate the full Novel tree by default.
+
 ## Rule
 ESPN/Flaim determines what happened. The Novel OS determines what that event means inside the secondary world. Never alter league facts to fit a planned plot.
 
