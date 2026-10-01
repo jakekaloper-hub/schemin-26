@@ -1,0 +1,326 @@
+{
+  "schema_version": "1.0",
+  "status": "APPROVED_FOR_RELEASE",
+  "title": "Schemin Atlas Publication Convergence Contract V1",
+  "purpose": "Bind released Schemin world, story, memo, visual and publication systems into one evidence-backed authoring flow without creating a second canon or world database.",
+  "authority": {
+    "project_entrypoint": "PROJECT_CONTROL_REGISTRY.md",
+    "world_authority": "world/SCHEMIN_WORLD_ENGINE_V1_1_RELEASE_RECEIPT.md",
+    "atlas_view": "world/atlas/ATLAS_V1.md",
+    "character_authority": "canon/_INDEX.md",
+    "league_truth_authority": "data-gateway/SCHEMIN_26_ESPN_INGESTION_RELIABILITY_PATCH_v1.0.md"
+  },
+  "binding_principles": {
+    "world_determines_image": true,
+    "image_can_mutate_world": false,
+    "division_spatial_model": "NONEXCLUSIVE_OVERLAY",
+    "candidate_firewall": true,
+    "evidence_before_inference": true,
+    "mercer_private_leakage_allowed": false,
+    "generated_scenery_can_self_promote": false
+  },
+  "systems": [
+    {
+      "id": "league_truth",
+      "name": "League Data Platform / Data Gateway",
+      "owner": "the_scout",
+      "authority_refs": [
+        "data-gateway/SCHEMIN_26_ESPN_INGESTION_RELIABILITY_PATCH_v1.0.md",
+        "schemas/freshness.schema.json"
+      ],
+      "writes": [
+        "verified_league_evidence"
+      ],
+      "must_not_write": [
+        "world_geography",
+        "character_body_canon",
+        "fictional_motive"
+      ]
+    },
+    {
+      "id": "character_canon",
+      "name": "Character Canon System",
+      "owner": "the_librarian",
+      "authority_refs": [
+        "canon/_INDEX.md",
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+      ],
+      "writes": [
+        "principal_character_identity"
+      ],
+      "must_not_write": [
+        "league_results",
+        "world_geography"
+      ]
+    },
+    {
+      "id": "world_engine",
+      "name": "World Engine V1.1",
+      "owner": "the_architect",
+      "authority_refs": [
+        "world/SCHEMIN_WORLD_ENGINE_V1_1_RELEASE_RECEIPT.md",
+        "world/data/locations.json",
+        "world/data/routes.json",
+        "world/data/divisions.json"
+      ],
+      "writes": [
+        "physical_geography",
+        "routes",
+        "division_overlays",
+        "world_state"
+      ],
+      "must_not_write": [
+        "league_results",
+        "principal_character_body_identity"
+      ]
+    },
+    {
+      "id": "location_control_plane",
+      "name": "Atlas Phase 2 / Location Control Plane",
+      "owner": "the_architect",
+      "authority_refs": [
+        "world/location-control-plane/_INDEX.md",
+        "world/location-control-plane/AUTHORITY_AND_CONSUMER_MATRIX_V1.md"
+      ],
+      "writes": [
+        "derived_world_packets"
+      ],
+      "must_not_write": [
+        "active_geography",
+        "candidate_promotion",
+        "character_body_canon"
+      ]
+    },
+    {
+      "id": "memo_os",
+      "name": "Weekly Memo OS V5.5",
+      "owner": "the_groundskeeper",
+      "authority_refs": [
+        "memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md",
+        "memo-os/LOCATION_CONTROL_PLANE_INTEGRATION_PATCH_V1.md"
+      ],
+      "writes": [
+        "weekly_publication",
+        "memo_story_treatment",
+        "post_release_location_evidence"
+      ],
+      "must_not_write": [
+        "silent_world_canon",
+        "principal_character_redesign"
+      ]
+    },
+    {
+      "id": "novel_os",
+      "name": "Living Novel OS",
+      "owner": "the_beat_writer",
+      "authority_refs": [
+        "living-novel/os/NOVEL_OS_PHASE_7_LIVE_SEASON_ENGINE_V1.md",
+        "living-novel/os/LOCATION_CONTROL_PLANE_INTEGRATION_PATCH_V1.md"
+      ],
+      "writes": [
+        "story_architecture",
+        "scene_treatment",
+        "manuscript",
+        "canon_proposals"
+      ],
+      "must_not_write": [
+        "league_truth",
+        "silent_world_canon",
+        "unsupported_character_psychology_as_fact"
+      ]
+    },
+    {
+      "id": "visual_grounding",
+      "name": "Visual Production / Environment Grounding",
+      "owner": "the_pitching_coach",
+      "authority_refs": [
+        "world/environment-references/_INDEX.md",
+        "world/location-control-plane/ENVIRONMENT_REFERENCE_PACKET_STANDARD_V1.md"
+      ],
+      "writes": [
+        "render_contracts",
+        "visual_artifacts"
+      ],
+      "must_not_write": [
+        "world_geography",
+        "principal_character_identity",
+        "league_truth"
+      ]
+    },
+    {
+      "id": "interactive_atlas",
+      "name": "Interactive Atlas",
+      "owner": "the_agent",
+      "authority_refs": [
+        "world/atlas/interactive/_INDEX.md",
+        "world/atlas/interactive/SCHEMIN_ATLAS_INTERACTIVE.html"
+      ],
+      "writes": [
+        "read_only_world_visualization"
+      ],
+      "must_not_write": [
+        "active_geography",
+        "candidate_promotion"
+      ]
+    },
+    {
+      "id": "world_evolution",
+      "name": "Weekly World Evolution",
+      "owner": "the_librarian",
+      "authority_refs": [
+        "world/evolution/_INDEX.md",
+        "world/evolution/WEEKLY_WORLD_EVOLUTION_CONTRACT_V1.md"
+      ],
+      "writes": [
+        "approved_state_history_transactions"
+      ],
+      "must_not_write": [
+        "unverified_results",
+        "implicit_candidate_promotion"
+      ]
+    },
+    {
+      "id": "publication_release",
+      "name": "Publication Release Control",
+      "owner": "the_umpire",
+      "authority_refs": [
+        "PROJECT_CONTROL_REGISTRY.md",
+        "memo-os/SCHEMIN_26_WEEKLY_MEMO_GOLD_STANDARD_PRODUCTION_MANUAL.md"
+      ],
+      "writes": [
+        "release_receipts",
+        "acceptance_evidence"
+      ],
+      "must_not_write": [
+        "creator_self_certification"
+      ]
+    }
+  ],
+  "handoffs": [
+    {
+      "from": "league_truth",
+      "to": "memo_os",
+      "artifact": "verified_week_packet",
+      "rule": "Freshness and provenance must survive into fact-bearing memo output."
+    },
+    {
+      "from": "league_truth",
+      "to": "novel_os",
+      "artifact": "verified_live_season_evidence",
+      "rule": "Verified result may establish event fact but not fictional motive or meaning."
+    },
+    {
+      "from": "character_canon",
+      "to": "location_control_plane",
+      "artifact": "stable_character_ids_and_canon_guards",
+      "rule": "World packets reference character identity; they do not redesign it."
+    },
+    {
+      "from": "world_engine",
+      "to": "location_control_plane",
+      "artifact": "active_location_route_state_graph",
+      "rule": "Location Control Plane compiles authority; it does not replace it."
+    },
+    {
+      "from": "location_control_plane",
+      "to": "memo_os",
+      "artifact": "memo_location_packet",
+      "rule": "The page brief receives a world packet; it does not invent one."
+    },
+    {
+      "from": "location_control_plane",
+      "to": "novel_os",
+      "artifact": "novel_location_packet",
+      "rule": "Scene geography, travel and entering state must resolve before prose treats location as fact."
+    },
+    {
+      "from": "location_control_plane",
+      "to": "visual_grounding",
+      "artifact": "environment_reference_packet",
+      "rule": "Structural reference bytes may ground composition; cinematic references remain separately gated."
+    },
+    {
+      "from": "memo_os",
+      "to": "world_evolution",
+      "artifact": "post_release_world_evidence",
+      "rule": "Published scenery is evidence for review, never automatic canon writeback."
+    },
+    {
+      "from": "novel_os",
+      "to": "world_evolution",
+      "artifact": "approved_canon_proposal",
+      "rule": "Narrative invention becomes world state only through explicit authority and evidence."
+    },
+    {
+      "from": "world_evolution",
+      "to": "interactive_atlas",
+      "artifact": "accepted_world_state",
+      "rule": "Interactive Atlas rebuilds from accepted world data and remains read only."
+    },
+    {
+      "from": "memo_os",
+      "to": "publication_release",
+      "artifact": "memo_release_candidate",
+      "rule": "Creator cannot self-certify release."
+    },
+    {
+      "from": "novel_os",
+      "to": "publication_release",
+      "artifact": "novel_release_candidate",
+      "rule": "Publication claims require evidence-backed editorial and continuity gates."
+    }
+  ],
+  "live_counterweight_evidence": [
+    {
+      "id": "CW-ATLAS-001",
+      "primary": "the_beat_writer",
+      "counterweights": [
+        "the_scout",
+        "the_librarian"
+      ],
+      "trigger": "Treat Burgers, Wings and Pizza as three sealed geographic territories.",
+      "decision_changed": true,
+      "before": "Three divisional territories were proposed as the primary map structure.",
+      "after": "The seven-zone physical world remains authoritative; divisions are nonexclusive League-cultural overlays.",
+      "evidence_refs": [
+        "world/atlas/ATLAS_V1.md",
+        "world/data/divisions.json"
+      ]
+    },
+    {
+      "id": "CW-ATLAS-002",
+      "primary": "the_architect",
+      "counterweights": [
+        "the_setup_man",
+        "the_gm"
+      ],
+      "trigger": "Build a fresh Atlas foundation despite released Atlas Phases 0-5.",
+      "decision_changed": true,
+      "before": "A new world schema, map and location system were requested from zero.",
+      "after": "Existing World Engine and Atlas releases are reused; only the missing cross-OS publication convergence contract is added.",
+      "evidence_refs": [
+        "PROJECT_CONTROL_REGISTRY.md",
+        "world/atlas/phase-1/_INDEX.md",
+        "world/location-control-plane/_INDEX.md",
+        "world/evolution/_INDEX.md"
+      ]
+    },
+    {
+      "id": "CW-ATLAS-003",
+      "primary": "the_closer",
+      "counterweights": [
+        "the_analyst",
+        "the_umpire"
+      ],
+      "trigger": "Declare the Atlas complete because geography, packets and structural plates exist.",
+      "decision_changed": true,
+      "before": "Existing Atlas releases could be treated as proof of complete publication readiness.",
+      "after": "Completion is limited to released infrastructure; cinematic environment references, unresolved location questions and live cross-OS outcome evidence remain distinct gates.",
+      "evidence_refs": [
+        "world/environment-references/_INDEX.md",
+        "world/location-control-plane/ATLAS_PHASE_2_RELEASE_RECEIPT.md",
+        "world/atlas/foundation/EXISTING_UNIVERSE_INVENTORY_V1.md"
+      ]
+    }
+  ]
+}
