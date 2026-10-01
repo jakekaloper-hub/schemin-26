@@ -43,7 +43,7 @@ Read:
 - `planning/character-native-render/PROGRAM_GAP_REGISTER_V1.json`
 - `planning/character-native-render/NEXT_GATE_DECISION_V1.md`
 
-This program plans remediation and production hardening only. It does **not** promote Character Control Plane v2, activate a paid renderer, rebuild the 12-character overview, or authorize character-bearing publication. Phase 1 Exact Source-Byte Portability is the single next execution gate.
+This program plans remediation and production hardening only. It does **not** promote Character Control Plane v2, activate a paid renderer, rebuild the 12-character overview, or authorize character-bearing publication. Phase 1 Exact Source-Byte Portability has been executed to a **HOLD**: all 12 approved Library records still exist, but the current execution context has no authorized raw-byte materialization/export path for them. Phase 1 has not passed; Phase 3 remains blocked. See `planning/character-native-render/PHASE_1_SOURCE_BYTE_PORTABILITY_HOLD_2026-10-01.md`.
 
 ## Canonical publication lock
 

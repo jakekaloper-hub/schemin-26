@@ -2,7 +2,7 @@
 
 **Status:** ACTIVE PROGRAM PLAN
 **Phase 0:** COMPLETE
-**Next execution gate:** Phase 1 — Exact Source-Byte Portability
+**Phase 1 execution state:** HOLD — authorized native raw-byte export/materialization unavailable
 
 ## Governing files
 
@@ -19,3 +19,11 @@
 Planning does not equal promotion. Each phase must separately execute, test, audit, repair, retest and produce its own acceptance or HOLD receipt.
 
 The program keeps the zero-incremental-spend baseline and cannot make a paid external renderer a required dependency.
+
+## Phase 1 execution evidence
+
+- `PHASE_1_SOURCE_BYTE_PORTABILITY_MATRIX_2026-10-01.json` — 12/12 metadata and transport findings.
+- `PHASE_1_SOURCE_BYTE_PORTABILITY_HOLD_2026-10-01.md` — Umpire-accepted isolated blocker.
+- `phase1_source_byte_probe.py` — fail-closed repository-byte/hash probe.
+
+Phase 1 has **not passed**. The registered source files remain identified in Library, but the current execution context cannot materialize their original bytes. Phase 3 remains blocked.

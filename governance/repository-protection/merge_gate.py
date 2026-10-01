@@ -12,6 +12,7 @@ SUITE_COMMANDS = {
         "python -m py_compile governance/validate_project_mission.py",
         "python planning/character-native-render/validate_program_plan.py",
         "python -m unittest -v tests/test_character_native_render_program_plan.py",
+        "python -m unittest -v tests/test_phase1_source_byte_hold.py",
         "python governance/capability-budget/validate_zero_spend.py",
         "python -m unittest -v tests/test_zero_incremental_spend.py",
         "python governance/validate_project_mission.py",
