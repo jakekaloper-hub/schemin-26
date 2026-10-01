@@ -4,12 +4,16 @@ on:
     paths:
       - "memo-os/week-4/**"
       - "memo-os/tests/test_week4_preproduction_open.py"
+      - "memo-os/tests/test_world_narrative_hydration.py"
+      - "world/contracts/WORLD_NARRATIVE_HYDRATION_CONTRACT_V1.md"
       - ".github/workflows/week4-preproduction-ci.yml"
       - "memo-os/_INDEX.md"
   pull_request:
     paths:
       - "memo-os/week-4/**"
       - "memo-os/tests/test_week4_preproduction_open.py"
+      - "memo-os/tests/test_world_narrative_hydration.py"
+      - "world/contracts/WORLD_NARRATIVE_HYDRATION_CONTRACT_V1.md"
       - ".github/workflows/week4-preproduction-ci.yml"
       - "memo-os/_INDEX.md"
   workflow_dispatch:
@@ -23,3 +27,5 @@ jobs:
           python-version: "3.12"
       - name: Week 4 preproduction smoke
         run: python -m unittest -v memo-os/tests/test_week4_preproduction_open.py
+      - name: World narrative hydration contract
+        run: python -m unittest -v memo-os/tests/test_world_narrative_hydration.py
