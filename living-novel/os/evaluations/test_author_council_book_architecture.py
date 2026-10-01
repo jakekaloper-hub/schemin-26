@@ -7,12 +7,13 @@ STATE=ROOT/"state"
 TEMPLATES=ROOT/"templates"
 
 class AuthorCouncilBookArchitectureTests(unittest.TestCase):
-    def test_open_loop_ledger_is_frozen_through_week2(self):
+    def test_open_loop_ledger_tracks_latest_hard_canon_without_future_leakage(self):
         data=json.loads((STATE/"CURRENT_OPEN_LOOP_LEDGER_V1.json").read_text())
-        self.assertEqual(data["temporal_cutoff"],"END_OF_WEEK_2_STORY_TIME")
+        self.assertEqual(data["status"],"CURRENT_THROUGH_HARD_CANON_CHAPTER_III")
+        self.assertEqual(data["temporal_cutoff"],"END_OF_WEEK_3_STORY_TIME")
         self.assertTrue(data["loops"])
         for loop in data["loops"]:
-            self.assertNotIn("Week 3",loop.get("latest_canon",""))
+            self.assertNotIn("Week 4",loop.get("latest_canon",""))
             self.assertTrue(loop.get("prohibited"))
 
     def test_open_loop_ids_unique(self):

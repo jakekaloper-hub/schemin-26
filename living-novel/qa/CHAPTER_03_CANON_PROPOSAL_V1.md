@@ -1,12 +1,12 @@
 # CHAPTER III — CANON PROPOSAL V1
 
 **Title:** THE HILL IS NOT THE KINGDOM  
-**Status:** PROPOSED / FOUNDER APPROVAL REQUIRED  
+**Status:** APPROVED / FOUNDER AUTHORIZED — 2026-10-01  
 **Manuscript:** `living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md`
 
 ## Proposed hard-manuscript canon
 
-If approved:
+Founder-approved hard-manuscript canon:
 
 1. D0nkey K0ng defeats Mud Dogs in the Week 3 GOTW and exits 3-0 as the league's sole undefeated team.
 2. Chapter III begins after the Encounter rather than replaying it.
@@ -53,6 +53,4 @@ Novel OS requires:
 
 `MANUSCRIPT → EDITORIAL → CONTINUITY → CANON PROPOSAL → APPROVAL → STATE`
 
-This artifact intentionally stops at **CANON PROPOSAL**.
-
-Founder approval may promote the manuscript to HARD MANUSCRIPT CANON / CLOSED. Without approval, it remains a reviewed soft manuscript.
+Founder approval was supplied on 2026-10-01. This proposal is APPROVED and authorizes promotion of the exact reviewed manuscript blob `49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc` to **HARD MANUSCRIPT CANON / CLOSED**. State transaction remains limited to facts and consequences directly supported by that approved manuscript.

@@ -46,15 +46,18 @@ class PublicationManifestTests(unittest.TestCase):
         p["source_interval"]["kind"]="week"
         self.assertTrue(any("automatic chapter identity" in x for x in self.errors(doc)))
 
-    def test_chapter3_cannot_be_invented(self):
+    def test_chapter3_requires_independent_novel_evidence(self):
         doc=copy.deepcopy(self.doc)
-        seed=copy.deepcopy(next(x for x in doc["publications"] if x["publication_id"]=="novel.2026.chapter-02"))
-        seed["publication_id"]="novel.2026.chapter-03"
-        seed["slug"]="chapter-3"
-        seed["title"]="Chapter III"
-        seed["relations"]=[]
-        doc["publications"].append(seed)
-        self.assertTrue(any("Chapter III may not be created" in x for x in self.errors(doc)))
+        ch3=next(x for x in doc["publications"] if x["publication_id"]=="novel.2026.chapter-03")
+        ch3["release_receipt_refs"]=[]
+        self.assertTrue(any("Chapter III requires independent Novel canon/release evidence" in x for x in self.errors(doc)))
+
+    def test_chapter3_current_record_is_canon_closed(self):
+        ch3=next(x for x in self.doc["publications"] if x["publication_id"]=="novel.2026.chapter-03")
+        self.assertEqual(ch3["release_state"],"CANON_CLOSED")
+        self.assertEqual(ch3["canonical_artifact"],"living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md")
+        self.assertIn("living-novel/qa/CHAPTER_03_FINAL_CANON_GATE_V1.md",ch3["authority_refs"])
+        self.assertIn("living-novel/qa/CHAPTER_03_CANON_RELEASE_RECEIPT_V1.md",ch3["release_receipt_refs"])
 
     def test_relation_target_must_exist(self):
         doc=copy.deepcopy(self.doc)

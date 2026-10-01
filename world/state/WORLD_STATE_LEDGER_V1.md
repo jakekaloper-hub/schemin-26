@@ -15,7 +15,7 @@ A renderer cannot create a mutation.
 
 - LLC Boardroom: Week 2 intrusion/destruction history remains available for repair/scar continuity.
 - Bridge/Mountain Lake: Week 3 decision landmark; no destruction invented.
-- Mire Hill: Week 3 battlefield scar/yield memory.
+- Mire Hill: Week 3 battlefield scar/yield memory. Founder-approved Chapter III adds continuing cleanup/custodial activity, places Wilson/D0nkey K0ng's standard below the summit, and leaves the summit explicitly unclaimed. Public crown/ownership imagery is social interpretation, not territorial law.
 - Country Club of Jackson: Week 3 chili contamination/humiliation history; future pristine depiction requires cleanup state.
 - Alpine Wager Route: Week 3 wager/summit history.
 - Southern Speedway: Week 3 HMB/Chins event history.

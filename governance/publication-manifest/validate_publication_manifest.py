@@ -142,8 +142,20 @@ def validate_manifest(doc:dict)->list[str]:
     w4=by_id.get("memo.2026.week-04")
     if w4 and w4.get("release_state")!="BLOCKED":
         errors.append("Week 4 publication cannot be promoted by manifest while release gate is blocked")
-    if any(p.get("publication_id")=="novel.2026.chapter-03" for p in pubs):
-        errors.append("Chapter III may not be created by publication manifest without independent Novel canon/release evidence")
+    ch3=by_id.get("novel.2026.chapter-03")
+    if ch3:
+        required_artifact="living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md"
+        required_gate="living-novel/qa/CHAPTER_03_FINAL_CANON_GATE_V1.md"
+        required_receipt="living-novel/qa/CHAPTER_03_CANON_RELEASE_RECEIPT_V1.md"
+        if (
+            ch3.get("release_state")!="CANON_CLOSED"
+            or ch3.get("canonical_artifact")!=required_artifact
+            or required_gate not in (ch3.get("authority_refs") or [])
+            or required_receipt not in (ch3.get("release_receipt_refs") or [])
+            or not (ROOT/required_gate).exists()
+            or not (ROOT/required_receipt).exists()
+        ):
+            errors.append("Chapter III requires independent Novel canon/release evidence before manifest indexing")
 
     return errors
 

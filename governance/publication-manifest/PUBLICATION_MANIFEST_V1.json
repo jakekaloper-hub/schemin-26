@@ -106,6 +106,10 @@
         {
           "type": "precedes",
           "publication_id": "memo.2026.week-04"
+        },
+        {
+          "type": "interprets_same_source_interval",
+          "publication_id": "novel.2026.chapter-03"
         }
       ],
       "supersedes": [],
@@ -305,6 +309,10 @@
         {
           "type": "interprets_same_source_interval",
           "publication_id": "memo.2026.week-02"
+        },
+        {
+          "type": "precedes",
+          "publication_id": "novel.2026.chapter-03"
         }
       ],
       "supersedes": [],
@@ -312,6 +320,70 @@
       "metadata": {
         "hard_manuscript_canon": true,
         "closed": true
+      }
+    },
+    {
+      "publication_id": "novel.2026.chapter-03",
+      "family": "living_novel",
+      "season": 2026,
+      "title": "Chapter III — The Hill Is Not the Kingdom",
+      "slug": "chapter-3-the-hill-is-not-the-kingdom",
+      "release_state": "CANON_CLOSED",
+      "source_interval": {
+        "kind": "chapter_causal_interval",
+        "label": "Causal interpretation centered on the aftermath of 2026 Week 3",
+        "weeks": [
+          3
+        ]
+      },
+      "canonical_artifact": "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md",
+      "publication_date": "2026-10-01",
+      "authority_refs": [
+        "PROJECT_CONTROL_REGISTRY.md",
+        "living-novel/qa/CHAPTER_03_FINAL_CANON_GATE_V1.md",
+        "living-novel/qa/CHAPTER_03_CANON_PROPOSAL_V1.md"
+      ],
+      "release_receipt_refs": [
+        "living-novel/qa/CHAPTER_03_CANON_RELEASE_RECEIPT_V1.md"
+      ],
+      "fact_refs": [
+        "living-novel/production/chapter-03/CHAPTER_03_EVIDENCE_FREEZE_V1.md",
+        "memo-os/week-3/WEEK_3_FINAL_EVIDENCE_SNAPSHOT_06.md"
+      ],
+      "canon_refs": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+      ],
+      "world_refs": [
+        "world/SCHEMIN_WORLD_ENGINE_V1_1_RELEASE_RECEIPT.md",
+        "world/location-control-plane/locations/LOC-DK-MUD-HILL/CARD.json",
+        "world/state/WORLD_STATE_LEDGER_V1.md"
+      ],
+      "world_evolution_refs": [
+        "living-novel/qa/CHAPTER_03_STATE_TRANSACTION_RECEIPT_V1.md"
+      ],
+      "archive_collections": [
+        "season-2026",
+        "living-novel-volume-1"
+      ],
+      "relations": [
+        {
+          "type": "follows",
+          "publication_id": "novel.2026.chapter-02"
+        },
+        {
+          "type": "interprets_same_source_interval",
+          "publication_id": "memo.2026.week-03"
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": null,
+      "metadata": {
+        "hard_manuscript_canon": true,
+        "closed": true,
+        "approved_manuscript_blob_sha": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc",
+        "founder_approval_date": "2026-10-01",
+        "first_non_archive_principal_pov": true,
+        "causal_architecture": true
       }
     }
   ]
