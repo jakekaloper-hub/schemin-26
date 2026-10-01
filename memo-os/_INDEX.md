@@ -15,6 +15,18 @@
 8. `../canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md` — includes binding v2.0 Reference-Plate Execution Patch
 9. `../chronicles/standards/CHARACTER_VISUAL_LOCK_GATE.md` — release-blocking character QA
 
+## Candidate upgrade
+
+V5.6 Publication Integrity is implemented on branch `memo-os/v5-6-publication-integrity` as a **RELEASE CANDIDATE / NOT ACTIVE**. V5.5 remains controlling until the V5.6 executable acceptance suite passes and the Project Control Registry is explicitly promoted.
+
+Candidate files:
+- `SCHEMIN_26_WEEKLY_MEMO_OS_V5_6_PUBLICATION_INTEGRITY_PATCH.md`
+- `PAGE_PRODUCTION_CONTRACT_V1.md`
+- `MEMO_RELEASE_REGISTRY_SPEC_V1.md`
+- `CHARACTER_PACKET_GATE_V1.md`
+- `WORLD_ENCOUNTER_BINDING_V1.md`
+- `tests/V5_6_ACCEPTANCE_SUITE_SPEC.md`
+
 ## Status notes
 
 - V5.5 is the controlling production-hardening patch after passing the Week 3 retrospective acceptance suite (11/11 after bug-fix/polish/retest).
