@@ -1,0 +1,384 @@
+{
+  "schema_version": "1.0",
+  "routes": [
+    {
+      "id": "ROUTE-EASTERN-ASCENT",
+      "name": "Eastern Ascent",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "REGIONAL",
+      "from": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "constraints": [
+        "steep grades",
+        "weather exposure"
+      ],
+      "source_provenance": [
+        "world/atlas/PHYSICAL_ATLAS_V1.md"
+      ]
+    },
+    {
+      "id": "ROUTE-HEARTHROAD",
+      "name": "Hearthroad",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "REGIONAL",
+      "from": "LOC-ARSENAL-BARBERSHOP",
+      "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "constraints": [
+        "ridge traffic",
+        "market congestion"
+      ],
+      "source_provenance": [
+        "world/divisions/BURGERS_DIVISION_INDEX_V1.md"
+      ],
+      "via_location_ids": [
+        "LOC-SLOB-FOOTHILL-CAMP"
+      ],
+      "crosses_division": true
+    },
+    {
+      "id": "ROUTE-DELTA-CAUSEWAY",
+      "name": "Delta Causeway",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "CROSS_DIVISION",
+      "from": "LOC-MUD-DOGS-SWAMP",
+      "to": "LOC-COUNTRY-CLUB-JACKSON",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wetland"
+      ],
+      "constraints": [
+        "seasonal flooding",
+        "soft ground"
+      ],
+      "source_provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ],
+      "via_location_ids": [
+        "LOC-DK-MUD-HILL"
+      ],
+      "crosses_division": true
+    },
+    {
+      "id": "ROUTE-JACKSON-LEVEE",
+      "name": "Jackson Levee Road",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "CROSS_DIVISION",
+      "from": "LOC-COUNTRY-CLUB-JACKSON",
+      "to": "LOC-CHINS-ROAD-COMMONS",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "constraints": [
+        "flood closures",
+        "river crossings"
+      ],
+      "source_provenance": [
+        "world/divisions/WINGS_DIVISION_INDEX_V1.md"
+      ]
+    },
+    {
+      "id": "ROUTE-STORM-COAST",
+      "name": "Storm Coast Road",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "REGIONAL",
+      "from": "LOC-STORM-BOWL",
+      "to": "LOC-LLC-STORM-CITY",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon",
+        "sea"
+      ],
+      "constraints": [
+        "major storms",
+        "forest washouts",
+        "coastal surge"
+      ],
+      "source_provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ]
+    },
+    {
+      "id": "ROUTE-INNER-SEA-QUAY",
+      "name": "Inner Sea Quay Road",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "LOCAL",
+      "from": "LOC-LLC-BOARDROOM",
+      "to": "LOC-LLC-STORM-CITY",
+      "travel_modes": [
+        "foot",
+        "wagon",
+        "sea"
+      ],
+      "constraints": [
+        "port congestion",
+        "storm gates"
+      ],
+      "source_provenance": [
+        "world/divisions/PIZZA_DIVISION_INDEX_V1.md"
+      ]
+    },
+    {
+      "id": "ROUTE-RAIN-ESCARPMENT",
+      "name": "Rain Escarpment Road",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "CROSS_DIVISION",
+      "from": "LOC-RED-RUINS",
+      "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "travel_modes": [
+        "foot",
+        "mount"
+      ],
+      "constraints": [
+        "heavy rain",
+        "forest grade"
+      ],
+      "source_provenance": [
+        "world/divisions/BURGERS_DIVISION_INDEX_V1.md"
+      ]
+    },
+    {
+      "id": "ROUTE-FALLS-PATH",
+      "name": "Falls Path",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "REGIONAL",
+      "from": "LOC-TDS-WATERFALL-TEMPLE",
+      "to": "LOC-MUD-DOGS-SWAMP",
+      "travel_modes": [
+        "foot",
+        "wetland"
+      ],
+      "constraints": [
+        "waterfall escarpment",
+        "seasonal high water"
+      ],
+      "source_provenance": [
+        "world/divisions/WINGS_DIVISION_INDEX_V1.md"
+      ]
+    },
+    {
+      "id": "ROUTE-WESTERN-RANGE",
+      "name": "Western Range Road",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "CROSS_DIVISION",
+      "from": "LOC-CHILI-STABLE",
+      "to": "LOC-CHINS-ROAD-COMMONS",
+      "travel_modes": [
+        "mount",
+        "wagon",
+        "foot"
+      ],
+      "constraints": [
+        "long exposed distances",
+        "dry-season water stops"
+      ],
+      "source_provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ]
+    },
+    {
+      "id": "ROUTE-BLACK-CLIFF",
+      "name": "Black Cliff Road",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "CROSS_DIVISION",
+      "from": "LOC-BELT-KEEPER-KEEP",
+      "to": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "travel_modes": [
+        "foot",
+        "mount"
+      ],
+      "constraints": [
+        "cliff exposure",
+        "storm closures"
+      ],
+      "source_provenance": [
+        "world/divisions/PIZZA_DIVISION_INDEX_V1.md"
+      ]
+    },
+    {
+      "id": "ROUTE-BASIN-MARKET",
+      "name": "Basin Market Road",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "LOCAL",
+      "from": "LOC-CHINS-ROAD-COMMONS",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon",
+        "river"
+      ],
+      "constraints": [
+        "market traffic"
+      ],
+      "source_provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ],
+      "via_location_ids": [
+        "LOC-PITTSYS-BOOK",
+        "LOC-SOUTHERN-SPEEDWAY",
+        "LOC-DK-MUD-HILL"
+      ],
+      "crosses_division": true
+    },
+    {
+      "id": "ROUTE-NORTHERN-PASS",
+      "name": "Northern Pass",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "EXPEDITION",
+      "from": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "to": "LOC-ARSENAL-BARBERSHOP",
+      "travel_modes": [
+        "foot",
+        "mount"
+      ],
+      "constraints": [
+        "snow",
+        "rockfall",
+        "seasonal pass closure"
+      ],
+      "source_provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ],
+      "crosses_division": true
+    },
+    {
+      "id": "ROUTE-DK-HIGHLAND-LINK",
+      "name": "Highland Stronghold Road",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "LOCAL",
+      "from": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "to": "LOC-ARSENAL-BARBERSHOP",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "constraints": [
+        "ridge grade",
+        "market traffic"
+      ],
+      "source_provenance": [
+        "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+      ]
+    },
+    {
+      "id": "ROUTE-TDS-CHILI-SHARED-MARCH",
+      "name": "Shared March Road",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "CROSS_DIVISION",
+      "from": "LOC-TDS-WATERFALL-TEMPLE",
+      "to": "LOC-CHILI-STABLE",
+      "via_location_id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon",
+        "wetland"
+      ],
+      "constraints": [
+        "seasonal water",
+        "tableland exposure"
+      ],
+      "source_provenance": [
+        "world/civilization/INHABITANT_ONTOLOGY_V1.md"
+      ]
+    },
+    {
+      "id": "ROUTE-COMPACT-GROUNDS",
+      "name": "Compact Grounds Road",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "LOCAL",
+      "from": "LOC-LEAGUE-CHAMBER",
+      "to": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "constraints": [
+        "event traffic"
+      ],
+      "source_provenance": [
+        "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+      ]
+    },
+    {
+      "id": "ROUTE-UPPER-BASIN-CONNECTOR",
+      "name": "Upper Basin Connector",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "REGIONAL",
+      "from": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon",
+        "river"
+      ],
+      "constraints": [
+        "grade descent",
+        "river crossing",
+        "seasonal mud"
+      ],
+      "source_provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md",
+        "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+      ]
+    },
+    {
+      "id": "ROUTE-PORT-BASIN-CONNECTOR",
+      "name": "Port-to-Basin Road",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "REGIONAL",
+      "from": "LOC-LLC-STORM-CITY",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "travel_modes": [
+        "wagon",
+        "river",
+        "coastal_vessel"
+      ],
+      "constraints": [
+        "storm gates",
+        "river traffic",
+        "port congestion"
+      ],
+      "source_provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md",
+        "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+      ]
+    },
+    {
+      "id": "ROUTE-ARCHIVE-CHAMBER",
+      "name": "Archive–Chamber Processional",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "LOCAL",
+      "from": "LOC-LEAGUE-ARCHIVE",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "constraints": [
+        "institutional traffic"
+      ],
+      "source_provenance": [
+        "world/SCHEMIN_WORLD_BIBLE_ARCHIVE_AND_RECORDS_V1.md"
+      ]
+    }
+  ]
+}
