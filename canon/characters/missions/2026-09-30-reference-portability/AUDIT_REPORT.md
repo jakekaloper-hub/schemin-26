@@ -26,3 +26,18 @@ PASS for this mission implementation: no credentials added, no external dependen
 ## Decision
 Top-level mission disposition: **SOURCE_BYTES_REQUIRED**.
 Secondary open gate: **PROVIDER_CAPABILITY_BLOCKED**.
+
+
+## Independent CI audit
+
+Verification initially exposed a stale release-receipt defect after the ACTIVE enforcement subsystem changed. Bullpen repaired the evidence registry without changing the active-vs-blocked distinction.
+
+Final retest:
+- Character Generation Boundary CI: PASS (`36812697656`)
+- Character Lock CI: PASS (`36812697680`)
+- Render Adapter Research Candidate CI: PASS (`36812697818`)
+- Release Evidence CI: PASS (`36812697697`)
+- Repository Merge Gate: PASS (`36812697784`)
+- Bullpen Runtime CI: PASS (`36812697704`)
+
+This supports the enforcement PASS only. Production remains blocked by source-byte and real-provider evidence.
