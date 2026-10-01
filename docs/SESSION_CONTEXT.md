@@ -1,7 +1,7 @@
 # Schemin '26 Session Context Router
 
 **Authority:** The Librarian (CKO)  
-**Version:** 1.1  
+**Version:** 1.2  
 **Purpose:** Route a new ChatGPT / engineering session to the minimum authoritative context required.
 
 ## Machine task-orientation front door
@@ -46,7 +46,7 @@ For character-reference portability specifically, the Twelve were already re-upl
 | Character artwork / visual identity | `canon/_INDEX.md`, Master Character Canon |
 | Bullpen consultation | `bullpen/_INDEX.md`, latest Bullpen review, Authority Matrix |
 | FLA integration | `docs/architecture/FLA_INTEGRATION.md`, Authority Matrix, latest Bullpen review |
-| Architecture / repo organization | `docs/CATALOG.md`, `docs/INVENTORY.md`, Repository Architecture, latest ADRs |
+| Architecture / repo organization / file placement | `docs/architecture/REPOSITORY_ARCHITECTURE_V2.md`, `governance/repository-architecture/FOLDER_DOMAIN_REGISTRY_V2.json`, `docs/governance/FILE_PLACEMENT_STANDARD_V1.md`, `docs/INVENTORY.md` |
 | New prompt / workflow version | owning subsystem index, `prompts/README.md`, relevant ADR / operating contract |
 | Historical question | `docs/INVENTORY.md`, `archive/_INDEX.md`, relevant migration/decision ledger |
 | Publication identity / archive / Memo ↔ Novel relationship | `governance/publication-manifest/_INDEX.md`, Publication Manifest V1, Project Control Registry, owning release gate |
