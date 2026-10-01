@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemin26.local/schemas/world-packet.schema.json",
+  "title": "Schemin Compiled World Packet",
+  "type": "object",
+  "required": [
+    "status",
+    "consumer",
+    "location",
+    "relationships",
+    "review_blockers",
+    "rule"
+  ],
+  "properties": {
+    "status": {
+      "enum": [
+        "READY_FOR_SEMANTIC_QA",
+        "READY_FOR_RENDER",
+        "HUMAN_REVIEW_REQUIRED"
+      ]
+    },
+    "consumer": {
+      "enum": [
+        "MEMO",
+        "NOVEL",
+        "VISUAL"
+      ]
+    },
+    "location": {
+      "type": "object"
+    },
+    "relationships": {
+      "type": "array"
+    },
+    "review_blockers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rule": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}
