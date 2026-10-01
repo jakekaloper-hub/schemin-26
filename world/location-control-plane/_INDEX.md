@@ -1,6 +1,6 @@
 # LOCATION CONTROL PLANE / ATLAS PHASE 2 — INDEX
 
-**Status:** RELEASE CANDIDATE / PRODUCTION QA PENDING
+**Status:** APPROVED FOR RELEASE / ACTIVE WHEN PRESENT ON main
 **Scope:** Homeland, Settlement & Location Card Production
 
 ## Read order
@@ -23,6 +23,8 @@
 16. adapters/novel_adapter.py
 17. qa/PHASE_2_SCENARIO_MATRIX_V1.md
 18. qa/test_location_control_plane.py
+19. qa/ATLAS_PHASE_2_ACCEPTANCE_REPORT_V1.md
+20. ATLAS_PHASE_2_RELEASE_RECEIPT.md
 
 ## Production assets
 
