@@ -53,7 +53,7 @@ PASS:
 - V5.5 remains active Memo authority;
 - V5.6 remains RC / NOT ACTIVE;
 - Publication Manifest V1 remains derived-only;
-- Chapter III remains founder-approval pending and unrelated to Week 4 result truth.
+- Chapter III is Founder-approved hard manuscript canon; it remains unrelated to unresolved Week 4 result truth.
 
 ## Remaining Week 4 transition
 

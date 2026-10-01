@@ -76,6 +76,22 @@ class Week4PreproductionOpenTests(unittest.TestCase):
         self.assertIn("all six matchups: 0.00–0.00 / UNDECIDED", receipt)
         self.assertIn("Publication Manifest V1: ACTIVE DERIVED INDEX ONLY", receipt)
 
+    def test_story_room_tracks_chapter3_hard_canon_and_publication_boundary(self):
+        receipt = self.text("WEEK_4_STORY_ROOM_CURRENT_STATE_RECONCILIATION_2026-10-01.md")
+        promotion = self.text("WEEK_4_LIVING_STORY_ROOM_PROMOTION_RECEIPT_2026-10-01.md")
+        novel_readme = (ROOT / "living-novel" / "README.md").read_text()
+        manifest = json.loads((ROOT / "governance" / "publication-manifest" / "PUBLICATION_MANIFEST_V1.json").read_text())
+
+        self.assertIn("FOUNDER-APPROVED HARD MANUSCRIPT CANON / CLOSED", receipt)
+        self.assertNotIn("founder approval required", receipt)
+        self.assertNotIn("founder-approval pending", promotion)
+        self.assertIn("A source week is evidence. A chapter is causality.", novel_readme)
+
+        chapter3 = next(x for x in manifest["publications"] if x["publication_id"] == "novel.2026.chapter-03")
+        week4 = next(x for x in manifest["publications"] if x["publication_id"] == "memo.2026.week-04")
+        self.assertEqual(chapter3["release_state"], "CANON_CLOSED")
+        self.assertEqual(week4["release_state"], "BLOCKED")
+
     def test_fact_scope_rejects_live_claim_from_cached_state(self):
         facts = self.text("WEEK_4_FACT_SCOPE_AND_EVIDENCE_REGISTER_V1.md")
         self.assertIn("no \"live\" wording from cached state", facts)

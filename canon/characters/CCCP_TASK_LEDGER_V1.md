@@ -80,3 +80,21 @@ Mission command: `/bullpen mission close Schemin ’26 character-reference porta
 - **Character Control Plane v2:** RELEASE_CANDIDATE / NOT ACTIVE.
 
 No source path, hash, provider capability or renderer receipt was fabricated.
+
+
+## Librarian reconciliation — 2026-10-01
+
+The 2026-09-30 portability mission's internal state code `SOURCE_BYTES_REQUIRED` is retained only as a fail-closed runtime signal for missing canonical repository bytes.
+
+It no longer means source acquisition is missing.
+
+Authoritative current distinction:
+- 12/12 Commissioner references: SUPPLIED;
+- 12/12 recovery-cycle raw bytes: MATERIALIZED;
+- 12/12 approved hashes / identity mappings: RESOLVED;
+- durable project-owned repository/asset ingestion: OPEN;
+- fresh-context retrieval: OPEN;
+- native mount + deterministic subject binding: OPEN;
+- C1/output-instance/Character-QA proof: OPEN.
+
+Do not request another bulk upload. Resume from durable ingestion/retrieval and binding proof.

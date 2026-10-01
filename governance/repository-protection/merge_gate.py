@@ -101,7 +101,12 @@ def suites_for_path(path: str) -> set[str]:
         or path == ".github/workflows/character-lock-ci.yml"
     ):
         suites.add("character")
-    if _starts(path, "living-novel/os/") or _starts(path, "living-novel/whole-book/") or _starts(path, "chronicles/proof-of-concept/prologue/"):
+    if (
+        _starts(path, "living-novel/os/")
+        or _starts(path, "living-novel/whole-book/")
+        or _starts(path, "chronicles/proof-of-concept/prologue/")
+        or path == ".github/workflows/novel-os-ci.yml"
+    ):
         suites.add("novel")
     if _starts(path, "memo-os/"):
         suites.add("memo")
