@@ -1,0 +1,105 @@
+{
+  "schema_version": "2.0",
+  "status": "RELEASE_CANDIDATE",
+  "authority": "Universe OS V1.2 spatial subsystem",
+  "governing_layers": [
+    {
+      "id": "LAYER-PHYSICAL",
+      "name": "Physical Atlas",
+      "sources": [
+        "world/data/physical_zones.json"
+      ],
+      "default_visible": true
+    },
+    {
+      "id": "LAYER-CIVIL",
+      "name": "Civil / Institutional Atlas",
+      "sources": [
+        "world/data/locations.json",
+        "world/data/settlements_v1.json",
+        "world/data/league_institutions_v1.json"
+      ],
+      "default_visible": true
+    },
+    {
+      "id": "LAYER-DIVISIONS",
+      "name": "Division Atlas",
+      "sources": [
+        "world/data/divisions_v2.json"
+      ],
+      "default_visible": true
+    },
+    {
+      "id": "LAYER-OWNER-DOMAINS",
+      "name": "Owner Domain Atlas",
+      "sources": [
+        "world/data/domain_profiles_v2.json",
+        "world/data/locations.json"
+      ],
+      "default_visible": true
+    },
+    {
+      "id": "LAYER-ROUTES",
+      "name": "Roads & Travel Atlas",
+      "sources": [
+        "world/data/routes.json",
+        "world/data/location_relationship_graph_v2.json"
+      ],
+      "default_visible": true
+    },
+    {
+      "id": "LAYER-ENCOUNTERS",
+      "name": "Encounter Atlas",
+      "sources": [
+        "world/data/encounter_venue_policy.json",
+        "world/data/locations.json"
+      ],
+      "default_visible": false
+    },
+    {
+      "id": "LAYER-WORLD-STATE",
+      "name": "World-State Atlas",
+      "sources": [
+        "world/data/world_memory_v1.json",
+        "world/data/current_world_state.json",
+        "world/data/world_state_events.json"
+      ],
+      "default_visible": false
+    },
+    {
+      "id": "LAYER-WEATHER",
+      "name": "Weather Atlas",
+      "sources": [
+        "world/data/weather_regions.json",
+        "world/data/inhabitant_ontology.json"
+      ],
+      "default_visible": false
+    },
+    {
+      "id": "LAYER-HORIZON",
+      "name": "Horizon / Visibility Atlas",
+      "sources": [
+        "world/data/landmark_visibility.json",
+        "world/data/location_relationship_graph_v2.json"
+      ],
+      "default_visible": false
+    }
+  ],
+  "editorial_layers": [
+    {
+      "id": "LAYER-CANDIDATES",
+      "name": "Future Unlock Candidates",
+      "sources": [
+        "world/data/atlas_location_candidates.json"
+      ],
+      "default_visible": false,
+      "authority": "EDITORIAL_ONLY_NOT_ACTIVE_GEOGRAPHY"
+    }
+  ],
+  "rules": [
+    "Atlas layers are views over Universe data",
+    "No layer may mutate canonical world data",
+    "Division layer is nonexclusive",
+    "Candidate layer cannot appear as active geography"
+  ]
+}
