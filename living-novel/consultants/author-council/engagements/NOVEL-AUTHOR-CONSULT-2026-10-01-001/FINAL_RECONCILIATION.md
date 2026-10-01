@@ -1,13 +1,13 @@
 # Final Reconciliation — Engagement 001
 
 **Chair:** The Closer  
-**Status:** FINAL / PROMOTION PENDING CI
+**Status:** FINAL / ACCEPTED — ACTIVE PROSPECTIVELY FROM CHAPTER III
 
 ## Governing decision
 
 **ACCEPT the Author Council architecture prospectively from Chapter III onward.**
 
-## Promote after proof
+## Promoted after proof
 
 - `NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md`
 - `NOVEL_BOOK_ARCHITECTURE_V2.md`
