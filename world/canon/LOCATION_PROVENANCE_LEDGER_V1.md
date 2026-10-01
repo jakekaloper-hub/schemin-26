@@ -1,6 +1,6 @@
 # LOCATION PROVENANCE LEDGER V1
 
-Status: BINDING PROVENANCE SUPPORT FOR WORLD ENGINE V1
+Status: BINDING PROVENANCE SUPPORT FOR WORLD ENGINE V1.1
 
 This ledger records which repository sources justify each recurring location. It does not create new league facts.
 

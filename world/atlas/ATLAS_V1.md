@@ -1,6 +1,6 @@
 # ATLAS V1 — SCHEMIN WORLD ENGINE
 
-**Status:** V1.1 RELEASE CANDIDATE / DATA-DRIVEN ATLAS  
+**Status:** ACTIVE / GOVERNING UNDER WORLD ENGINE V1.1 / DATA-DRIVEN ATLAS  
 **Coordinate space:** Schemin-local-v1, abstract and non-metric
 
 ## Purpose
@@ -146,3 +146,13 @@ Abstract positions exist for topology and QA only.
 They are not literal Earth coordinates, exact mileage or reader-facing promises.
 
 **V1.1 ATLAS GATE: GOVERNING**
+
+
+## Foundation reconciliation
+
+The 2026-09-30 Atlas foundation reconciliation is documented in:
+- `world/atlas/foundation/ATLAS_FOUNDATION_RECONCILIATION_GATE_V1.md`
+- `world/atlas/foundation/EXISTING_UNIVERSE_INVENTORY_V1.md`
+- `world/atlas/foundation/ATLAS_FOUNDATION_RECONCILIATION_ACCEPTANCE_V1.md`
+
+These documents inventory and reconcile the active World Engine; they do not create a second location database.
