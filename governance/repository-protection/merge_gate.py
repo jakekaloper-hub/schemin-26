@@ -10,6 +10,8 @@ from pathlib import Path
 SUITE_COMMANDS = {
     "mission": [
         "python -m py_compile governance/validate_project_mission.py",
+        "python planning/character-native-render/validate_program_plan.py",
+        "python -m unittest -v tests/test_character_native_render_program_plan.py",
         "python governance/capability-budget/validate_zero_spend.py",
         "python -m unittest -v tests/test_zero_incremental_spend.py",
         "python governance/validate_project_mission.py",
@@ -74,6 +76,8 @@ def _starts(path: str, prefix: str) -> bool:
 
 def suites_for_path(path: str) -> set[str]:
     suites: set[str] = set()
+    if _starts(path, "planning/character-native-render/"):
+        suites.add("mission")
     if path in {
         "SCHEMIN_26_PROJECT_MISSION.md",
         "PROJECT_CONTROL_REGISTRY.md",

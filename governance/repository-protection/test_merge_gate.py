@@ -43,6 +43,12 @@ class MergeGatePlannerTests(unittest.TestCase):
     def test_whole_book_change_runs_novel(self):
         self.assertIn("novel", merge_gate.plan(["living-novel/whole-book/_INDEX.md"]))
 
+    def test_character_native_render_plan_runs_mission(self):
+        self.assertIn(
+            "mission",
+            merge_gate.plan(["planning/character-native-render/PHASE_1_13_EXECUTION_PLANS_V1.md"]),
+        )
+
     def test_project_registry_runs_mission(self):
         self.assertIn("mission", merge_gate.plan(["PROJECT_CONTROL_REGISTRY.md"]))
 
