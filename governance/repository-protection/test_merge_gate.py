@@ -103,5 +103,23 @@ class MergeGatePlannerTests(unittest.TestCase):
         )
 
 
+    def test_repository_architecture_change_runs_architecture(self):
+        self.assertIn(
+            "architecture",
+            merge_gate.plan(["governance/repository-architecture/FOLDER_DOMAIN_REGISTRY_V2.json"]),
+        )
+
+    def test_unknown_top_level_directory_triggers_architecture_gate(self):
+        self.assertIn(
+            "architecture",
+            merge_gate.plan(["surprise-system/README.md"]),
+        )
+
+    def test_registered_domain_content_does_not_force_architecture_suite(self):
+        self.assertNotIn(
+            "architecture",
+            merge_gate.plan(["world/data/locations.json"]),
+        )
+
 if __name__ == "__main__":
     unittest.main()
