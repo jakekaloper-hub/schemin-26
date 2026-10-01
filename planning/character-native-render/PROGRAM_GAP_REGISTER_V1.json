@@ -8,16 +8,19 @@
       "id": "CNR-GAP-001",
       "severity": "P0",
       "phase": 1,
-      "title": "12/12 durable source bytes not yet proven retrievable in clean context",
+      "title": "12/12 approved source records persist, but native raw-byte export/materialization is unavailable",
       "owner": "the_librarian",
       "counterweights": [
         "the_setup_man",
         "the_warden",
         "the_architect"
       ],
-      "blocker_type": "external_source",
-      "acceptance_evidence": "12/12 fresh retrieval + SHA-256 + canonical storage receipts",
-      "status": "OPEN"
+      "blocker_type": "provider_capability",
+      "acceptance_evidence": "12/12 canonical binaries stored + fresh SHA-256 matches + clean-context retrieval + corruption/swap negative tests",
+      "status": "HOLD_AUTHORIZED_RAW_BYTE_EXPORT_UNAVAILABLE",
+      "blocker_detail": "Original Project file IDs and persistent Library IDs both resolve metadata but fail raw_file materialization with 'This Project file does not have an authorized raw-byte materialization path.' Repository target paths are absent.",
+      "resume_condition": "An authorized zero-incremental-spend path exposes the exact registered source bytes to the runtime.",
+      "last_verified_at": "2026-10-01"
     },
     {
       "id": "CNR-GAP-002",
