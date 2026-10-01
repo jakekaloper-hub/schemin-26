@@ -56,7 +56,7 @@ require(reg_path)
 if reg_path.exists():
     reg=json.loads(reg_path.read_text())
     expected={
-      "week4_real_page_acceptance":"PASS",
+      "week4_real_page_acceptance":"FAIL",
       "actual_reference_mount_proof":"PASS",
       "renderer_addressable_exact_bytes":"PARTIAL",
       "week2_controlled_reconstruction":"MISSING",
@@ -79,4 +79,4 @@ if errors:
     raise SystemExit(1)
 
 print("INTEGRATION VALIDATION: PASS")
-print("Real Week 4 page + reference mount are wired; exact-byte, Week 2 reconstruction, and independent release audit remain intentionally open.")
+print("Reference mount and technical page wiring are proven; Week 4 publication fidelity intentionally remains FAIL pending a benchmark-grade replacement page.")
