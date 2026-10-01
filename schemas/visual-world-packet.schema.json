@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/visual-world-packet.schema.json",
+  "title": "Visual World Packet V2",
+  "type": "object",
+  "required": [
+    "world",
+    "atlas",
+    "domain",
+    "character",
+    "memory",
+    "typography"
+  ],
+  "properties": {
+    "world": {
+      "type": "object",
+      "required": [
+        "location_id",
+        "physical_zone",
+        "world_state"
+      ],
+      "properties": {
+        "location_id": {
+          "type": "string"
+        },
+        "physical_zone": {
+          "type": "string"
+        },
+        "world_state": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "history": {
+          "type": "array"
+        },
+        "institutions": {
+          "type": "array"
+        },
+        "ordinary_inhabitants": {
+          "type": "array"
+        }
+      },
+      "additionalProperties": true
+    },
+    "atlas": {
+      "type": "object",
+      "required": [
+        "arrival_routes",
+        "water_relationship",
+        "camera_direction",
+        "foreground_terrain",
+        "midground",
+        "background_topography",
+        "visible_landmarks",
+        "forbidden_landmarks"
+      ],
+      "properties": {
+        "arrival_routes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "water_relationship": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "camera_direction": {
+          "type": "string"
+        },
+        "foreground_terrain": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "midground": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "background_topography": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "visible_landmarks": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "forbidden_landmarks": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "domain": {
+      "type": "object"
+    },
+    "character": {
+      "type": "object"
+    },
+    "memory": {
+      "type": "object"
+    },
+    "typography": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}
