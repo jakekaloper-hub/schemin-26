@@ -26,6 +26,10 @@
 - `ENGAGEMENT_MANIFEST_TEMPLATE_V1.json` — frozen engagement contract.
 - `ROUND_MEMO_TEMPLATE_V1.md` — consistent independent round output.
 
+## Release evidence
+
+- `NOVEL_AUTHOR_CONSULTING_PROGRAM_V2_RELEASE_RECEIPT.md`
+
 ## Advisor dossiers
 
 - `advisors/JRR_TOLKIEN_CONSULTANT_DOSSIER_V1.md`
