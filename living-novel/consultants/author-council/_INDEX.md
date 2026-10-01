@@ -26,6 +26,12 @@
 - `ENGAGEMENT_MANIFEST_TEMPLATE_V1.json` — frozen engagement contract.
 - `ROUND_MEMO_TEMPLATE_V1.md` — consistent independent round output.
 
+## Runtime / lifecycle controls
+
+- `author_router.py` — deterministic named-author and panel routing.
+- `test_author_router.py` — routing + evidence-freeze regression suite.
+- `BULLPEN_FULL_LIFECYCLE_HARDENING_2026-10-01.md` — full Bullpen lifecycle receipt.
+
 ## Release evidence
 
 - `NOVEL_AUTHOR_CONSULTING_PROGRAM_V2_RELEASE_RECEIPT.md`
