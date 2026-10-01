@@ -1,5 +1,9 @@
 # WEEKLY WORLD EVOLUTION CONTRACT V1
 
+## Machine enforcement
+
+Every request is validated against `world/evolution/schemas/world-evolution-request.schema.json` before semantic validation. Schema failure is FATAL and no mutation is allowed.
+
 ## Required request envelope
 
 - schema_version
@@ -33,8 +37,8 @@ Adds an evidence-backed event to the historical state-event ledger.
 Replaces the explicit additional current-state list for an existing LOC.
 
 ### REGISTER_CANDIDATE_EVIDENCE
-Records that a released artifact supplied evidence relevant to an existing candidate.
-It does not change lifecycle status.
+Records verified released evidence in `CANDIDATE_EVIDENCE_LEDGER.json` after Umpire + Closer approval.
+It does not change lifecycle status or activate geography.
 
 ### REQUEST_CANDIDATE_PROMOTION
 Creates a promotion plan only.
@@ -59,7 +63,7 @@ Dry-run output must contain:
 
 ## Apply law
 
-Apply mode may write only Class A state/history files directly.
+Apply mode may write governed Class A state/history files and the non-promoting candidate-evidence ledger. State/history apply then executes deterministic derivative rebuild fanout (Location Cards → structural plates → Interactive Atlas).
 
 Candidate promotion stays a separately reviewed location transaction because it affects:
 - locations;
@@ -82,3 +86,8 @@ Any FATAL finding:
 - no state file writes
 - no candidate promotion
 - HUMAN_REVIEW_REQUIRED
+
+
+## Promotion semantic enforcement
+
+Promotion planning also enforces candidate lifecycle status, rejection reason, event eligibility, technology state, declared prerequisites, route resolution, collision checks and championship locks. A rejected/held/ineligible candidate cannot be reported ready merely because approvals are present.
