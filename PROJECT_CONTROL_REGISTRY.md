@@ -146,7 +146,7 @@ Active entry points:
 - `world/engine/universe_resolver.py`
 - `world/qa/UNIVERSE_OS_V1_2_ACCEPTANCE_SUITE.md`
 
-**Promotion rule:** V1.2/V2 remains RELEASE_CANDIDATE until its acceptance suite, existing World Engine/Atlas regressions, Atlas Publication Convergence, Memo OS and Project Mission checks are green and a release receipt is committed. Existing World Engine V1.1 / Atlas Phases 1–5 remain active until promotion.
+**Release receipt:** Universe OS V1.2 and Atlas Control Plane V2 are RELEASED / ACTIVE. See `world/UNIVERSE_OS_V1_2_RELEASE_RECEIPT.md` and `world/qa/UNIVERSE_OS_V1_2_ACCEPTANCE_REPORT.md`. World Engine V1.1 / Atlas Phases 1–5 remain active underlying infrastructure.
 
 ### Jack Mercer
 Read:
