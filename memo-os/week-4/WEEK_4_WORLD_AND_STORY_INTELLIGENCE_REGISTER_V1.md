@@ -1,13 +1,13 @@
 # Week 4 World & Story Intelligence Register V1
 
-**Status:** WORLD ENTRY RESOLVED / STORY INTELLIGENCE OPEN  
+**Status:** WORLD ENTRY RESOLVED / STORY INTELLIGENCE LIVE-PARTIAL  
 **Authority:** Memo OS Story Room + World Control Plane  
 **Rule:** published scenery is evidence, not automatic canon.
 
 ## Gate split
 
 - **W4-G5 continuity/world entry: PASS.** See `WEEK_4_WORLD_ENTRY_RECEIPT_V1.md`.
-- **W4-G6 personalized story intelligence: OPEN.** Current-week inputs still require provenance before Story Room.
+- **W4-G6 personalized story intelligence: LIVE / PARTIAL PASS.** Governed inputs now exist in the Living Story Room and DK/HMB amendment; additional current-week evidence remains required before Story Lock.
 
 The World Entry Receipt uses the persisted `end_of_week_3_2026` World Engine state. No new Week 4 venue, cleanup, repair or mutation is created by this register.
 
@@ -53,7 +53,7 @@ The World Entry Receipt uses the persisted `end_of_week_3_2026` World Engine sta
 
 ## Personalized intelligence intake
 
-Before Story Room, collect only with provenance:
+Continue collecting with provenance before Story Lock:
 - league-chat dialogue;
 - wagers;
 - deliveries;
