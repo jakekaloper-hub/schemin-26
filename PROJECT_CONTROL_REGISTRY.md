@@ -77,14 +77,15 @@ Read in this order:
 7. `world/location-control-plane/_INDEX.md`
 8. `world/environment-references/_INDEX.md`
 9. `world/atlas/interactive/_INDEX.md`
-10. `world/atlas/ROUTE_AND_TRAVEL_MODEL_V1.md`
-11. `world/domains/OWNER_DOMAIN_REGISTER_V1.md`
-12. `world/divisions/BURGERS_DIVISION_INDEX_V1.md`
-13. `world/divisions/WINGS_DIVISION_INDEX_V1.md`
-14. `world/divisions/PIZZA_DIVISION_INDEX_V1.md`
-15. `world/state/WORLD_STATE_LEDGER_V1.md`
-16. `living-novel/os/geography/world_travel_graph_v1.json`
-17. `world/qa/WORLD_ENGINE_V1_1_ACCEPTANCE_REPORT.md`
+10. `world/evolution/_INDEX.md`
+11. `world/atlas/ROUTE_AND_TRAVEL_MODEL_V1.md`
+12. `world/domains/OWNER_DOMAIN_REGISTER_V1.md`
+13. `world/divisions/BURGERS_DIVISION_INDEX_V1.md`
+14. `world/divisions/WINGS_DIVISION_INDEX_V1.md`
+15. `world/divisions/PIZZA_DIVISION_INDEX_V1.md`
+16. `world/state/WORLD_STATE_LEDGER_V1.md`
+17. `living-novel/os/geography/world_travel_graph_v1.json`
+18. `world/qa/WORLD_ENGINE_V1_1_ACCEPTANCE_REPORT.md`
 
 World Engine V1.1 owns persistent physical geography, division spatial/cultural identity, owner-domain placement, Encounter venue resolution, routes/travel topology, recurring locations, inhabitant ontology, environmental state and geography QA. It does not own fantasy-league truth or principal character body identity.
 
@@ -113,6 +114,8 @@ World Engine V1 remains historical release evidence and is superseded by V1.1 fo
 
 **Atlas Phase 4 / Interactive Atlas:** when world/atlas/interactive/_INDEX.md is present on main, the standalone interactive Atlas is ACTIVE as a read-only canonical visualization. Editorial candidates remain non-spatial and non-active.
 
+**Atlas Phase 5 / Weekly World Evolution:** when world/evolution/_INDEX.md is present on main, the dry-run-first weekly evolution engine is ACTIVE for governed post-release state/history transactions. Candidate promotion remains separately gated and never implicit.
+
 ### Jack Mercer
 Read:
 - `mercer/JACK_MERCER_FRONT_OFFICE_V2_SPEC.md`
@@ -129,6 +132,9 @@ Read:
 FLA Bullpen is a selective specialist/governance adapter. It is not a sixth Schemin control plane and is not the source of current fantasy league truth.
 
 ## Current operating checkpoint — 2026-09-30
+
+- Atlas Phases 3–5 production cycle completed: structural environment grounding, interactive canonical Atlas, and weekly world-evolution transaction system.
+
 
 - Atlas Foundation Reconciliation V1 merged through PR #37.
 - Atlas Phase 1 merged through PR #39 and is active beneath World Engine V1.1.
