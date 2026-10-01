@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "request_id",
+    "source",
+    "current_state",
+    "proposed_state",
+    "canon_class",
+    "affected_systems",
+    "tests",
+    "rollback"
+  ],
+  "properties": {
+    "request_id": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "current_state": {},
+    "proposed_state": {},
+    "canon_class": {
+      "type": "string"
+    },
+    "canon_confidence": {
+      "type": "string"
+    },
+    "affected_entities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "affected_locations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "affected_routes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "affected_atlas_layers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "affected_systems": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "migration_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "tests": {
+      "type": "array"
+    },
+    "rollback": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}
