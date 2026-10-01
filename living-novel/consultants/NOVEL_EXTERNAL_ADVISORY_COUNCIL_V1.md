@@ -1,6 +1,6 @@
 # Schemin' '26 Living Novel — External Advisory Council V1
 
-**Status:** RELEASE CANDIDATE / ADVISORY ONLY  
+**Status:** RELEASED / ACTIVE — ADVISORY ONLY  
 **Chair:** The Closer  
 **Internal narrative authority:** The Beat Writer / Novel OS  
 **Evidence and provenance:** The Librarian  
