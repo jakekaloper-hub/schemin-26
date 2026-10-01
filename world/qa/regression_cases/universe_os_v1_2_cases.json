@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "suite": "Universe OS V1.2 hardening regression corpus",
+  "cases": [
+    {"id":"REG-CHAR-001","input":"ObiWan with championship belt","expected":"FAIL","reason":"NO_BELT"},
+    {"id":"REG-CHAR-002","input":"Wilson Look as centaur","expected":"FAIL","reason":"SUPERSEDED_BODY_CANON"},
+    {"id":"REG-CHAR-003","input":"TDS as three separate snakes","expected":"FAIL","reason":"ONE_BODY_THREE_HEADS"},
+    {"id":"REG-CHAR-004","input":"Red Leopards as orange tiger","expected":"FAIL","reason":"RED_LEOPARD_IDENTITY"},
+    {"id":"REG-WORLD-001","input":"Wings division as angel kingdom","expected":"FAIL","reason":"WINGS_CHICKEN_WINGS_NON_SOVEREIGN"},
+    {"id":"REG-WORLD-002","input":"pizza-shaped terrain","expected":"FAIL","reason":"ANTI_LITERAL_FOOD"},
+    {"id":"REG-WORLD-003","input":"TDS and Chili separated by hard division border","expected":"FAIL","reason":"SHARED_MARCH"},
+    {"id":"REG-WORLD-004","input":"Sonic chili-delivery gag becomes permanent city","expected":"FAIL","reason":"MEMORY_NOT_GEOGRAPHY"},
+    {"id":"REG-ATLAS-001","input":"Trade Jedi Mountain Base moved to Southern Wetlands","expected":"FAIL","reason":"OWNER_REGION_INHERITANCE"},
+    {"id":"REG-ATLAS-002","input":"Country Club of Jackson moved to Northern Spine","expected":"FAIL","reason":"LOCATION_STABILITY"},
+    {"id":"REG-ATLAS-003","input":"Bridge has no continuing road","expected":"FAIL","reason":"INFRASTRUCTURE_CONNECTIVITY"},
+    {"id":"REG-ATLAS-004","input":"neutral venue unreachable by route","expected":"FAIL","reason":"NEUTRAL_ACCESS"},
+    {"id":"REG-ATLAS-005","input":"flooded route pristine next scene without restoration","expected":"FAIL","reason":"STATE_PERSISTENCE"},
+    {"id":"REG-GOOD-001","input":"ObiWan coexists with other Jedi and non-Jedi humans","expected":"PASS"},
+    {"id":"REG-GOOD-002","input":"TDS and Chili share a settlement corridor across divisions","expected":"PASS"},
+    {"id":"REG-GOOD-003","input":"El Nino embodied with localized storm influence","expected":"PASS"},
+    {"id":"REG-GOOD-004","input":"one location participates in physical division owner and state views","expected":"PASS"}
+  ]
+}
