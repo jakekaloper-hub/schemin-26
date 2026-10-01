@@ -1,6 +1,6 @@
 # Schemin '26 Repository Architecture V2
 
-**Status:** ACTIVE CANDIDATE pending acceptance gate
+**Status:** ACCEPTANCE PASS / MERGE PENDING
 **Authority:** The Librarian + The Architect; final promotion by The Closer
 
 ## Principle
