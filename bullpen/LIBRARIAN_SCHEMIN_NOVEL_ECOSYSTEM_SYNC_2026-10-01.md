@@ -4,7 +4,7 @@
 **Mission:** `/bullpen mission — fully synchronize the Librarian with the current Schemin ’26 + Living Novel shared ecosystem`  
 **Authority:** Librarian primary / Bullpen counterweighted review  
 **Observed live main at synthesis:** `4346175e6027114957b64dc3b32e138b9c9e7e1c`  
-**Mission state:** SYNCHRONIZED / FIXES PENDING MERGE-RESULT CERTIFICATION  
+**Mission state:** SYNCHRONIZED / PR #86 MERGE-RESULT CERTIFIED  
 **Repository:** `jakekaloper-hub/schemin-26`
 
 ## Executive state
@@ -452,4 +452,24 @@ A future fresh-context session can now distinguish:
 - open admin/product gates;
 - next legitimate execution gates.
 
-Final certification remains contingent on current-head CI after this packet and its repairs are merged.
+## Certification evidence
+
+PR #86 merge-result candidate `a2706e45d68832add7607b56034a0251a3f3b2d3` passed:
+
+- Repository Merge Gate — PASS (run 36918389153)
+- Novel OS CI — PASS (run 36918389348)
+- Week 4 Preproduction CI — PASS (run 36918389136)
+- Schemin World Engine CI — PASS (run 36918389067)
+- World Engine QA — PASS (run 36918389637)
+- Character Lock CI — PASS (run 36918389212)
+- Flaim Adapter CI — PASS (run 36918389283)
+- Bullpen Runtime CI — PASS (run 36918389239)
+- Schemin Project Mission CI — PASS on the merged-main reconciliation push
+
+The PR remains subject to one final current-head rerun after this certification-text update. No release candidate or blocked production gate is promoted by this certification.
+
+## Closer verdict
+
+**PASS — Librarian is synchronized across Schemin ’26 + Living Novel at the control-plane level.**
+
+This PASS certifies authority reconciliation and repository routing. It does not close #62, #58, Week 4 Story Lock, Week 4 publication, CCP v2 activation, or Chapter IV authorization.
