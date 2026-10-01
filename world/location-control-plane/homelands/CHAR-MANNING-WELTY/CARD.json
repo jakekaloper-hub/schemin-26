@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.0",
-  "compilation_version": "phase2-v1",
+  "schema_version": "1.1",
+  "compilation_version": "phase2-v1.1",
   "character_id": "CHAR-MANNING-WELTY",
   "owner": "Manning Welty",
   "team": "El Niño",
@@ -104,7 +104,7 @@
       "road-hall hearths"
     ]
   },
-  "visual_reference_status": "CHARACTER_REFERENCE_RESOLVED_SEPARATELY__LOCATION_REFERENCE_MISSING_UNLESS_REGISTERED",
+  "visual_reference_status": "CHARACTER_REFERENCE_RESOLVED_SEPARATELY__LOCATION_REFERENCE_COMPILED_FROM_CENTRAL_REGISTRY",
   "open_questions": [
     "permanent civic function"
   ],
@@ -113,7 +113,8 @@
     "world/data/locations.json",
     "world/data/physical_zones.json",
     "world/data/divisions.json",
-    "world/data/current_world_state.json"
+    "world/data/current_world_state.json",
+    "world/location-control-plane/registries/LOCATION_REFERENCE_REGISTRY.json"
   ],
-  "authority_note": "Derived card. Upstream sources remain authoritative."
+  "authority_note": "Derived card. Regenerate from upstream sources; do not hand-edit."
 }
