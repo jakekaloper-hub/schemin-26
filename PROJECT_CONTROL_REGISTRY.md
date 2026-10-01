@@ -72,14 +72,15 @@ Read in this order:
 3. `world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md`
 4. `world/civilization/INHABITANT_ONTOLOGY_V1.md`
 5. `world/atlas/ATLAS_V1.md`
-6. `world/atlas/ROUTE_AND_TRAVEL_MODEL_V1.md`
-7. `world/domains/OWNER_DOMAIN_REGISTER_V1.md`
-8. `world/divisions/BURGERS_DIVISION_INDEX_V1.md`
-9. `world/divisions/WINGS_DIVISION_INDEX_V1.md`
-10. `world/divisions/PIZZA_DIVISION_INDEX_V1.md`
-11. `world/state/WORLD_STATE_LEDGER_V1.md`
-12. `living-novel/os/geography/world_travel_graph_v1.json`
-13. `world/qa/WORLD_ENGINE_V1_1_ACCEPTANCE_REPORT.md`
+6. `world/atlas/phase-1/_INDEX.md`
+7. `world/atlas/ROUTE_AND_TRAVEL_MODEL_V1.md`
+8. `world/domains/OWNER_DOMAIN_REGISTER_V1.md`
+9. `world/divisions/BURGERS_DIVISION_INDEX_V1.md`
+10. `world/divisions/WINGS_DIVISION_INDEX_V1.md`
+11. `world/divisions/PIZZA_DIVISION_INDEX_V1.md`
+12. `world/state/WORLD_STATE_LEDGER_V1.md`
+13. `living-novel/os/geography/world_travel_graph_v1.json`
+14. `world/qa/WORLD_ENGINE_V1_1_ACCEPTANCE_REPORT.md`
 
 World Engine V1.1 owns persistent physical geography, division spatial/cultural identity, owner-domain placement, Encounter venue resolution, routes/travel topology, recurring locations, inhabitant ontology, environmental state and geography QA. It does not own fantasy-league truth or principal character body identity.
 
@@ -100,6 +101,8 @@ Binding laws:
 
 World Engine V1 remains historical release evidence and is superseded by V1.1 for current world production.
 
+**Atlas Phase 1 expansion governance:** when world/atlas/phase-1/_INDEX.md is present on main, these controls are ACTIVE for cultural deepening, future-location candidate lifecycle, rare/special-event venue policy and generation hydration. They do not supersede World Engine V1.1 physical authority or promote candidate geography automatically.
+
 ### Jack Mercer
 Read:
 - `mercer/JACK_MERCER_FRONT_OFFICE_V2_SPEC.md`
@@ -115,7 +118,12 @@ Read:
 
 FLA Bullpen is a selective specialist/governance adapter. It is not a sixth Schemin control plane and is not the source of current fantasy league truth.
 
-## Current operating checkpoint — 2026-09-29
+## Current operating checkpoint — 2026-09-30
+
+- Atlas Foundation Reconciliation V1 merged through PR #37.
+- Atlas Phase 1 has completed board/QA review in PR #39; when merged, its expansion governance becomes active while World Engine V1.1 remains physical authority.
+
+### Prior checkpoint — 2026-09-29
 
 - Week 3 facts are locked and the 21-page Week 3 Memo is immutable release evidence.
 - Week 3 post-production is complete; its accepted controls were integrated into Memo OS V5.5.

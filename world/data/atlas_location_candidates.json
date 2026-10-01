@@ -1,0 +1,1619 @@
+{
+  "schema_version": "1.0",
+  "status": "EDITORIAL_CANDIDATE_STORE_NOT_ACTIVE_GEOGRAPHY",
+  "governing_docs": [
+    "world/atlas/phase-1/FUTURE_LOCATION_UNLOCK_FRAMEWORK_V1.md",
+    "world/atlas/phase-1/ATLAS_EXPANSION_DATA_MODEL_ADDENDUM_V1.md"
+  ],
+  "candidates": [
+    {
+      "id": "CAND-CHAMP-LAST-FIELD",
+      "working_name": "The Last Field",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "CHAMPIONSHIP_ONLY",
+      "likely_physical_zone_ids": [
+        "REG-CENTRAL-BASIN"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "CHAMPIONSHIP"
+      ],
+      "activation_trigger": "Actual championship encounter exists and finalists are verified",
+      "story_functions": [
+        "championship ceremony",
+        "season culmination",
+        "neutral spectacle"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": true,
+      "rare_use": true,
+      "related_active_location_ids": [],
+      "prerequisites": [
+        "neutral route access for both finalists",
+        "no participant-specific decoration before finalists known"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Do not publish as a matchup venue before the championship."
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-NEUTRAL-RIVERGATE",
+      "working_name": "Rivergate Grounds",
+      "lifecycle_status": "RARE_NEUTRAL_CANDIDATE",
+      "location_class": "PLAYOFF_NEUTRAL",
+      "likely_physical_zone_ids": [
+        "REG-CENTRAL-BASIN"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "GOTW",
+        "PLAYOFF"
+      ],
+      "activation_trigger": "Commissioner or venue resolver selects elevated neutral venue",
+      "story_functions": [
+        "public spectacle",
+        "river arrival",
+        "playoff crowd"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": true,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": null,
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-NEUTRAL-QUARRY-BOWL",
+      "working_name": "The Quarry Bowl",
+      "lifecycle_status": "RARE_NEUTRAL_CANDIDATE",
+      "location_class": "PLAYOFF_NEUTRAL",
+      "likely_physical_zone_ids": [
+        "REG-NORTHERN-SPINE",
+        "REG-UPPER-VALLEYS"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "GOTW",
+        "PLAYOFF"
+      ],
+      "activation_trigger": "Physical rivalry or endurance story justifies mountain neutral site",
+      "story_functions": [
+        "endurance",
+        "martial spectacle",
+        "stone amphitheater"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": true,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": null,
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-NEUTRAL-STORMGLASS",
+      "working_name": "Stormglass Grounds",
+      "lifecycle_status": "RARE_NEUTRAL_CANDIDATE",
+      "location_class": "GOTW_NEUTRAL",
+      "likely_physical_zone_ids": [
+        "REG-EASTERN-STORM-COAST"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "GOTW",
+        "PLAYOFF"
+      ],
+      "activation_trigger": "Major neutral under weather-safe routing",
+      "story_functions": [
+        "weather tension",
+        "coastal spectacle"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": true,
+      "related_active_location_ids": [],
+      "prerequisites": [
+        "ordinary weather unless El Niño manifestation explicitly resolved"
+      ],
+      "inspiration": null,
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-NEUTRAL-GRAND-FAIR",
+      "working_name": "Grand Fairgrounds",
+      "lifecycle_status": "RARE_NEUTRAL_CANDIDATE",
+      "location_class": "FESTIVAL_FAIRGROUND",
+      "likely_physical_zone_ids": [
+        "REG-CENTRAL-BASIN"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "GOTW",
+        "PLAYOFF",
+        "WAGER_EVENT",
+        "NON_MATCHUP"
+      ],
+      "activation_trigger": "Large public spectacle or postseason use",
+      "story_functions": [
+        "fairground chaos",
+        "wagers",
+        "food culture",
+        "playoff spectacle"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": true,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": null,
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-NEUTRAL-BLACKWATER",
+      "working_name": "Blackwater Amphitheater",
+      "lifecycle_status": "RARE_NEUTRAL_CANDIDATE",
+      "location_class": "PLAYOFF_NEUTRAL",
+      "likely_physical_zone_ids": [
+        "REG-SOUTHERN-WETLANDS"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "GOTW",
+        "PLAYOFF"
+      ],
+      "activation_trigger": "Rare wetland neutral selected with valid specialized travel",
+      "story_functions": [
+        "wetland spectacle",
+        "lantern arrivals",
+        "difficult travel"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": true,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": null,
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-LANTERN-HOUSE",
+      "working_name": "Lantern House Gaming Palace",
+      "lifecycle_status": "RARE_NEUTRAL_CANDIDATE",
+      "location_class": "COMMERCIAL_LEISURE",
+      "likely_physical_zone_ids": [
+        "REG-CENTRAL-BASIN",
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "WAGER_EVENT",
+        "NOVEL_INTERLUDE",
+        "NON_MATCHUP"
+      ],
+      "activation_trigger": "Story requires high-profile gambling social space distinct from Pittsy's Book",
+      "story_functions": [
+        "casino tension",
+        "celebration",
+        "debt",
+        "social collision"
+      ],
+      "technology_translation": "FUNCTIONAL_ANALOGUE",
+      "championship_only": false,
+      "rare_use": true,
+      "related_active_location_ids": [],
+      "prerequisites": [
+        "must not replace Pittsy's Book League-bookmaking function"
+      ],
+      "inspiration": "casino",
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-BLACKWATER-GAMING-BARGE",
+      "working_name": "Blackwater Gaming Barge",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "COMMERCIAL_LEISURE",
+      "likely_physical_zone_ids": [
+        "REG-SOUTHERN-WETLANDS"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "WAGER_EVENT",
+        "NOVEL_INTERLUDE",
+        "NON_MATCHUP"
+      ],
+      "activation_trigger": "Wetland nightlife or wager story requires river venue",
+      "story_functions": [
+        "river gambling",
+        "debt",
+        "smuggling atmosphere"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "riverboat casino",
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-DYE-WAR-FIELDS",
+      "working_name": "Dye War Fields",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "SPORT_RECREATION",
+      "likely_physical_zone_ids": [
+        "REG-WESTERN-TABLELANDS"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "REGULAR",
+        "GOTW",
+        "NON_MATCHUP"
+      ],
+      "activation_trigger": "Mock-combat or rivalry-comedy story needs recreational field",
+      "story_functions": [
+        "paintball analogue",
+        "team humiliation",
+        "mock battle"
+      ],
+      "technology_translation": "FUNCTIONAL_ANALOGUE",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [
+        "no firearm technology"
+      ],
+      "inspiration": "paintball fields",
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-MAGNOLIA-ATHLETIC-CLUB",
+      "working_name": "Magnolia Athletic Club",
+      "lifecycle_status": "RARE_NEUTRAL_CANDIDATE",
+      "location_class": "SPORT_RECREATION",
+      "likely_physical_zone_ids": [
+        "REG-UPPER-VALLEYS",
+        "REG-EASTERN-STORM-COAST"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "REGULAR",
+        "GOTW",
+        "NON_MATCHUP"
+      ],
+      "activation_trigger": "Elite club or golf-centered story selected as rare neutral",
+      "story_functions": [
+        "golf rivalry",
+        "club embarrassment",
+        "elite social scenes"
+      ],
+      "technology_translation": "FUNCTIONAL_ANALOGUE",
+      "championship_only": false,
+      "rare_use": true,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "Atlanta Athletic Club",
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-MAGNOLIA-COLLEGIUM",
+      "working_name": "Magnolia Collegium & Grove",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "EDUCATION_COLLEGIATE",
+      "likely_physical_zone_ids": [
+        "REG-UPPER-VALLEYS"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE",
+        "REGULAR"
+      ],
+      "activation_trigger": "College-town crowd, tailgate or rivalry story requires a scholarly small town",
+      "story_functions": [
+        "college-town life",
+        "tailgates",
+        "student societies",
+        "late-night food"
+      ],
+      "technology_translation": "FUNCTIONAL_ANALOGUE",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "Ole Miss / Oxford, Mississippi",
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-COIN-HALL",
+      "working_name": "Coin Hall of Mechanical Games",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "COMMERCIAL_LEISURE",
+      "likely_physical_zone_ids": [
+        "REG-CENTRAL-BASIN",
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "Competitive leisure scene requires arcade-like environment",
+      "story_functions": [
+        "arcade analogue",
+        "wagers",
+        "ensemble comedy"
+      ],
+      "technology_translation": "FUNCTIONAL_ANALOGUE",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "arcade",
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-BATTING-YARD",
+      "working_name": "The Batting Yard",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "SPORT_RECREATION",
+      "likely_physical_zone_ids": [
+        "REG-UPPER-VALLEYS",
+        "REG-CENTRAL-BASIN"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "Training or side-bet scene requires batting-cage function",
+      "story_functions": [
+        "training",
+        "humiliation",
+        "side bets"
+      ],
+      "technology_translation": "FUNCTIONAL_ANALOGUE",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "batting cages",
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-GRAND-COURIER-EXCHANGE",
+      "working_name": "Grand Courier Exchange",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "TRANSIT_NODE",
+      "likely_physical_zone_ids": [
+        "REG-CENTRAL-BASIN",
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "Arrival/departure story requires airport-terminal social function",
+      "story_functions": [
+        "arrivals",
+        "departures",
+        "delays",
+        "missed connections"
+      ],
+      "technology_translation": "FUNCTIONAL_ANALOGUE",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "airport terminal",
+      "canon_notes": [
+        "No aircraft implied."
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-LEAGUE-INFIRMARY",
+      "working_name": "League Infirmary",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "MEDICAL_RECOVERY",
+      "likely_physical_zone_ids": [
+        "REG-CENTRAL-BASIN"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "Story requires medical consequence or recovery institution",
+      "story_functions": [
+        "injury aftermath",
+        "recovery",
+        "waiting-room comedy"
+      ],
+      "technology_translation": "FUNCTIONAL_ANALOGUE",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "hospital / emergency room",
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-RECOVERY-HOUSE",
+      "working_name": "Recovery House & Baths",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "MEDICAL_RECOVERY",
+      "likely_physical_zone_ids": [
+        "REG-UPPER-VALLEYS"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "Quiet recovery/comeback arc requires convalescent setting",
+      "story_functions": [
+        "rehab analogue",
+        "quiet POV work",
+        "comeback"
+      ],
+      "technology_translation": "FUNCTIONAL_ANALOGUE",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "rehab / recovery center",
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-MIDNIGHT-HEARTH",
+      "working_name": "Midnight Hearth",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "COMMERCIAL_LEISURE",
+      "likely_physical_zone_ids": [
+        "REG-CENTRAL-BASIN",
+        "REG-UPPER-VALLEYS"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "Late-night road or post-match scene needs all-night diner analogue",
+      "story_functions": [
+        "late-night arguments",
+        "recovery food",
+        "travel"
+      ],
+      "technology_translation": "FUNCTIONAL_ANALOGUE",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "Waffle House-style diner",
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-NINEPINS-HALL",
+      "working_name": "Ninepins Hall",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "SPORT_RECREATION",
+      "likely_physical_zone_ids": [
+        "REG-CENTRAL-BASIN"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "Ensemble wager/recreation scene",
+      "story_functions": [
+        "bowling analogue",
+        "wagers",
+        "rivalry"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "bowling alley",
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-CROOKED-GREEN",
+      "working_name": "The Crooked Green",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "SPORT_RECREATION",
+      "likely_physical_zone_ids": [
+        "REG-SOUTHERN-WETLANDS"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "REGULAR"
+      ],
+      "activation_trigger": "Golf-comedy story needs deliberately absurd course distinct from Country Club",
+      "story_functions": [
+        "mini-golf analogue",
+        "Duckhook comedy",
+        "side bets"
+      ],
+      "technology_translation": "FUNCTIONAL_ANALOGUE",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [
+        "must not duplicate Country Club of Jackson function"
+      ],
+      "inspiration": "mini golf",
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-RAG-RELIC-EXCHANGE",
+      "working_name": "Rag & Relic Exchange",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "COMMERCIAL_LEISURE",
+      "likely_physical_zone_ids": [
+        "REG-CENTRAL-BASIN"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "Bargaining, callback-object or flea-market scene",
+      "story_functions": [
+        "bargaining",
+        "odd objects",
+        "callback props"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "flea market",
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-GRAND-COACH-RIVER-DEPOT",
+      "working_name": "Grand Coach & River Depot",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "TRANSIT_NODE",
+      "likely_physical_zone_ids": [
+        "REG-CENTRAL-BASIN"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "Travel interchange scene requires train-depot social function",
+      "story_functions": [
+        "transfers",
+        "missed departures",
+        "crowds"
+      ],
+      "technology_translation": "FUNCTIONAL_ANALOGUE",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "train depot",
+      "canon_notes": [
+        "No rail technology implied."
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-INNER-SEA-MARINA",
+      "working_name": "Inner Sea Marina",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "TRANSIT_NODE",
+      "likely_physical_zone_ids": [
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE",
+        "GOTW"
+      ],
+      "activation_trigger": "Maritime leisure or arrival story",
+      "story_functions": [
+        "boats",
+        "wealth",
+        "smuggling",
+        "arrivals"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "marina",
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-IRON-HEAP-SALVAGE",
+      "working_name": "Iron Heap Salvage",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "INDUSTRIAL",
+      "likely_physical_zone_ids": [
+        "REG-SOUTHERN-WETLANDS",
+        "REG-WESTERN-TABLELANDS"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "Aftermath, scavenging or refuse-yard story",
+      "story_functions": [
+        "dumpster-yard analogue",
+        "salvage",
+        "dark comedy"
+      ],
+      "technology_translation": "FUNCTIONAL_ANALOGUE",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "dumpster / salvage yard",
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-RECLAIMERS-FORGE",
+      "working_name": "Reclaimer's Forge",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "INDUSTRIAL",
+      "likely_physical_zone_ids": [
+        "REG-WESTERN-TABLELANDS"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "Repair/recovery story requires scrapyard forge",
+      "story_functions": [
+        "repairs",
+        "recovery",
+        "tool/weapon salvage"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "scrapyard forge",
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-CARAVAN-COMMONS",
+      "working_name": "Caravan Commons",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "TRANSIT_NODE",
+      "likely_physical_zone_ids": [
+        "REG-WESTERN-TABLELANDS",
+        "REG-CENTRAL-BASIN"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "PLAYOFF"
+      ],
+      "activation_trigger": "Traveling crowd or postseason overflow needs temporary lodging field",
+      "story_functions": [
+        "RV-park analogue",
+        "crowds",
+        "temporary camps"
+      ],
+      "technology_translation": "FUNCTIONAL_ANALOGUE",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "RV park",
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-GOLDEN-HEARTH",
+      "working_name": "Golden Hearth Roadhouse",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "COMMERCIAL_LEISURE",
+      "likely_physical_zone_ids": [
+        "REG-UPPER-VALLEYS",
+        "REG-CENTRAL-BASIN"
+      ],
+      "division_affinity_ids": [
+        "DIV-BURGERS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "REGULAR"
+      ],
+      "activation_trigger": "Burgers roadside meal-house story",
+      "story_functions": [
+        "fast service",
+        "road stop",
+        "burger culture"
+      ],
+      "technology_translation": "FUNCTIONAL_ANALOGUE",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "McDonald's-style burger house",
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-WEST-RANGE-DOUBLE-STACK",
+      "working_name": "West Range Double-Stack",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "COMMERCIAL_LEISURE",
+      "likely_physical_zone_ids": [
+        "REG-WESTERN-TABLELANDS"
+      ],
+      "division_affinity_ids": [
+        "DIV-BURGERS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "REGULAR"
+      ],
+      "activation_trigger": "Regional cult-favorite Burgers stop",
+      "story_functions": [
+        "burger loyalty",
+        "road rivalry",
+        "late meal"
+      ],
+      "technology_translation": "FUNCTIONAL_ANALOGUE",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "In-N-Out-style burger house",
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-CREAMERY-MILE",
+      "working_name": "Creamery Mile",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "INDUSTRIAL",
+      "likely_physical_zone_ids": [
+        "REG-UPPER-VALLEYS"
+      ],
+      "division_affinity_ids": [
+        "DIV-BURGERS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "Dairy economy or Burgers cultural story",
+      "story_functions": [
+        "dairyland",
+        "creamery markets",
+        "agriculture"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "dairyland / creamery",
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-BLACK-APRON-WARD",
+      "working_name": "Black Apron Butcher Ward",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "INDUSTRIAL",
+      "likely_physical_zone_ids": [
+        "REG-CENTRAL-BASIN",
+        "REG-WESTERN-TABLELANDS"
+      ],
+      "division_affinity_ids": [
+        "DIV-BURGERS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "Dark industrial or meat-supply story",
+      "story_functions": [
+        "butcher district",
+        "industrial texture",
+        "food supply"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "beef butcher / processing district",
+      "canon_notes": [
+        "Avoid gratuitous gore."
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-CATTLE-CROWN-STOCKYARDS",
+      "working_name": "Cattle Crown Stockyards",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "FESTIVAL_FAIRGROUND",
+      "likely_physical_zone_ids": [
+        "REG-WESTERN-TABLELANDS"
+      ],
+      "division_affinity_ids": [
+        "DIV-BURGERS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "WAGER_EVENT"
+      ],
+      "activation_trigger": "Livestock market/fair story",
+      "story_functions": [
+        "cattle economy",
+        "auction",
+        "festival"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "cow farm / stockyards",
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-STICKBIRD-ROW",
+      "working_name": "Stickbird Row",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "COMMERCIAL_LEISURE",
+      "likely_physical_zone_ids": [
+        "REG-UPPER-VALLEYS"
+      ],
+      "division_affinity_ids": [
+        "DIV-WINGS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE",
+        "REGULAR"
+      ],
+      "activation_trigger": "College-town or late-night Wings story",
+      "story_functions": [
+        "chicken-on-a-stick ritual",
+        "late-night crowd",
+        "tailgate"
+      ],
+      "technology_translation": "FUNCTIONAL_ANALOGUE",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "Oxford, Mississippi chicken on a stick",
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-RED-FRYHOUSE",
+      "working_name": "The Red Fryhouse",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "COMMERCIAL_LEISURE",
+      "likely_physical_zone_ids": [
+        "REG-UPPER-VALLEYS",
+        "REG-CENTRAL-BASIN"
+      ],
+      "division_affinity_ids": [
+        "DIV-WINGS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "REGULAR"
+      ],
+      "activation_trigger": "Fried-chicken roadside rivalry",
+      "story_functions": [
+        "fried chicken",
+        "spice identity",
+        "queue comedy"
+      ],
+      "technology_translation": "FUNCTIONAL_ANALOGUE",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "Popeyes-style fried chicken",
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-SAUCE-EXCHANGE",
+      "working_name": "Sauce Exchange",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "COMMERCIAL_LEISURE",
+      "likely_physical_zone_ids": [
+        "REG-CENTRAL-BASIN"
+      ],
+      "division_affinity_ids": [
+        "DIV-WINGS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "WAGER_EVENT"
+      ],
+      "activation_trigger": "Competitive sauce market or festival",
+      "story_functions": [
+        "sauce rivalry",
+        "hospitality",
+        "market"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": null,
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-ROOSTER-FAIRGROUNDS",
+      "working_name": "Rooster Fairgrounds",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "FESTIVAL_FAIRGROUND",
+      "likely_physical_zone_ids": [
+        "REG-WESTERN-TABLELANDS",
+        "REG-CENTRAL-BASIN"
+      ],
+      "division_affinity_ids": [
+        "DIV-WINGS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "REGULAR",
+        "GOTW"
+      ],
+      "activation_trigger": "Wings festival/tailgate event",
+      "story_functions": [
+        "fair",
+        "tailgate",
+        "poultry economy"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": null,
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-SMOKEHOUSE-TURN",
+      "working_name": "Smokehouse Turn",
+      "lifecycle_status": "AMBIENT_REGIONAL_FLAVOR",
+      "location_class": "COMMERCIAL_LEISURE",
+      "likely_physical_zone_ids": [
+        "REG-WESTERN-TABLELANDS",
+        "REG-UPPER-VALLEYS"
+      ],
+      "division_affinity_ids": [
+        "DIV-WINGS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP"
+      ],
+      "activation_trigger": "Recurring roadside Wings flavor",
+      "story_functions": [
+        "roadhouse",
+        "smoke pit",
+        "travel texture"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": null,
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-RED-TILE-PIE-HALL",
+      "working_name": "Red Tile Pie Hall",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "COMMERCIAL_LEISURE",
+      "likely_physical_zone_ids": [
+        "REG-CENTRAL-BASIN",
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "division_affinity_ids": [
+        "DIV-PIZZA"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "REGULAR"
+      ],
+      "activation_trigger": "Pizza cultural restaurant-house story",
+      "story_functions": [
+        "pie hall",
+        "recognizable roofline",
+        "shared meals"
+      ],
+      "technology_translation": "FUNCTIONAL_ANALOGUE",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "Pizza Hut-style site",
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-TWIN-TILE-COURIERS",
+      "working_name": "Twin-Tile Courier Guild",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "RECURRING_INSTITUTION",
+      "likely_physical_zone_ids": [
+        "REG-CENTRAL-BASIN",
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "division_affinity_ids": [
+        "DIV-PIZZA"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "Pizza delivery/logistics story",
+      "story_functions": [
+        "courier urgency",
+        "delivery errors",
+        "public exchange"
+      ],
+      "technology_translation": "FUNCTIONAL_ANALOGUE",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "Domino's-style delivery network",
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-THREE-OVEN-MARKET",
+      "working_name": "Three-Oven Market",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "COMMERCIAL_LEISURE",
+      "likely_physical_zone_ids": [
+        "REG-CENTRAL-BASIN"
+      ],
+      "division_affinity_ids": [
+        "DIV-PIZZA"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP"
+      ],
+      "activation_trigger": "Pizza value/quantity rivalry",
+      "story_functions": [
+        "ovens",
+        "market",
+        "cheap feast"
+      ],
+      "technology_translation": "FUNCTIONAL_ANALOGUE",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "Little Caesars-style value chain",
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-BOXSTACK-WHARF",
+      "working_name": "Boxstack Wharf",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "INDUSTRIAL",
+      "likely_physical_zone_ids": [
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "division_affinity_ids": [
+        "DIV-PIZZA"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "Pizza delivery/warehouse district",
+      "story_functions": [
+        "warehouse stacks",
+        "courier traffic",
+        "port logistics"
+      ],
+      "technology_translation": "FUNCTIONAL_ANALOGUE",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": null,
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-OVENMASTERS-SQUARE",
+      "working_name": "Ovenmasters' Square",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "COMMERCIAL_LEISURE",
+      "likely_physical_zone_ids": [
+        "REG-CENTRAL-BASIN"
+      ],
+      "division_affinity_ids": [
+        "DIV-PIZZA"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "WAGER_EVENT"
+      ],
+      "activation_trigger": "Public Pizza gathering and festival",
+      "story_functions": [
+        "communal ovens",
+        "public tables",
+        "celebration"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": null,
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-OLD-LEDGER-CEMETERY",
+      "working_name": "Old Ledger Cemetery",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "FUNERARY_MEMORIAL",
+      "likely_physical_zone_ids": [
+        "REG-EASTERN-STORM-COAST",
+        "REG-CENTRAL-BASIN"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "Legacy, remembrance or gothic story",
+      "story_functions": [
+        "graveyard",
+        "memory",
+        "quiet aftermath"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "graveyard",
+      "canon_notes": [
+        "No invented champion graves without evidence."
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-LOST-FOUND",
+      "working_name": "The Lost & Found",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "RECURRING_INSTITUTION",
+      "likely_physical_zone_ids": [
+        "REG-CENTRAL-BASIN"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "Callback props and misdeliveries need a storage institution",
+      "story_functions": [
+        "lost props",
+        "misdelivery",
+        "artifact callbacks"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": null,
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-WRONG-TURN",
+      "working_name": "The Wrong Turn",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "TRANSIT_NODE",
+      "likely_physical_zone_ids": [
+        "REG-CENTRAL-BASIN",
+        "REG-UPPER-VALLEYS"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "Travel comedy requires notorious junction/inn cluster",
+      "story_functions": [
+        "misrouting",
+        "delay",
+        "road comedy"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": null,
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-RECOVERY-BEACH",
+      "working_name": "Recovery Beach",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "MEDICAL_RECOVERY",
+      "likely_physical_zone_ids": [
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "Quiet convalescent or humiliation-recovery scene",
+      "story_functions": [
+        "recovery",
+        "reflection",
+        "coastal quiet"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": null,
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-LOST-BET-WALL",
+      "working_name": "The Lost Bet Wall",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "HISTORIC_LANDMARK",
+      "likely_physical_zone_ids": [
+        "REG-CENTRAL-BASIN"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "WAGER_EVENT",
+        "NON_MATCHUP"
+      ],
+      "activation_trigger": "Recurring public record of fulfilled wager humiliations",
+      "story_functions": [
+        "wager memory",
+        "public shame",
+        "callbacks"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [
+        "must not replace Pittsy's Book ledger authority"
+      ],
+      "inspiration": null,
+      "canon_notes": [],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-SKYPORT-LITERAL",
+      "working_name": "Literal Aircraft Skyport",
+      "lifecycle_status": "HOLD_FOR_LATER_EVIDENCE",
+      "location_class": "TRANSIT_NODE",
+      "likely_physical_zone_ids": [],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "NON_MATCHUP"
+      ],
+      "activation_trigger": "Only after explicit aerial-transport technology canon",
+      "story_functions": "future flight terminal",
+      "technology_translation": "REQUIRES_TECH_UNLOCK",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "airport with aircraft",
+      "canon_notes": [
+        "Held, not active."
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-STOCKCAR-SPEEDWAY",
+      "working_name": "Modern Stock-Car Speedway",
+      "lifecycle_status": "REJECTED_FOR_DRIFT",
+      "location_class": "SPORT_RECREATION",
+      "likely_physical_zone_ids": [
+        "REG-CENTRAL-BASIN"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "NON_MATCHUP"
+      ],
+      "activation_trigger": "Not activatable under current technology doctrine",
+      "story_functions": [
+        "literal NASCAR cars"
+      ],
+      "technology_translation": "REJECTED_TECH_DRIFT",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-SOUTHERN-SPEEDWAY"
+      ],
+      "prerequisites": [],
+      "inspiration": "modern NASCAR",
+      "canon_notes": [],
+      "rejection_reason": "Internal-combustion automobiles conflict with current World Design Principles.",
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-LITERAL-FASTFOOD-CORP",
+      "working_name": "Literal Modern Fast-Food Corporate Chain",
+      "lifecycle_status": "HOLD_FOR_LATER_EVIDENCE",
+      "location_class": "COMMERCIAL_LEISURE",
+      "likely_physical_zone_ids": [],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "NON_MATCHUP"
+      ],
+      "activation_trigger": "Only after explicit Commissioner cross-reality branding/technology override",
+      "story_functions": [
+        "brand cameo"
+      ],
+      "technology_translation": "REQUIRES_TECH_UNLOCK",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [],
+      "inspiration": "McDonald's/In-N-Out/Popeyes/Pizza Hut/Domino's/Little Caesars literal corporate presence",
+      "canon_notes": [
+        "Use secondary-world analogues by default."
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    }
+  ]
+}

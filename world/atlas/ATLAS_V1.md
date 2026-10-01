@@ -156,3 +156,15 @@ The 2026-09-30 Atlas foundation reconciliation is documented in:
 - `world/atlas/foundation/ATLAS_FOUNDATION_RECONCILIATION_ACCEPTANCE_V1.md`
 
 These documents inventory and reconcile the active World Engine; they do not create a second location database.
+
+
+## Phase 1 expansion governance
+
+Phase 1 adds controlled future-location capacity without changing active geography.
+
+Read:
+- `world/atlas/phase-1/_INDEX.md`
+- `world/data/atlas_location_candidates.json`
+
+Candidate records are editorial-only until explicit promotion into `world/data/locations.json`.
+The candidate Atlas layer is hidden by default.

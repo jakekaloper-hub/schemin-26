@@ -58,6 +58,15 @@
         "world/data/landmark_visibility.json"
       ],
       "default_visible": false
+    },
+    {
+      "id": "LAYER-CANDIDATES",
+      "name": "Future Unlock Candidates (Editorial Only)",
+      "source": [
+        "world/data/atlas_location_candidates.json"
+      ],
+      "default_visible": false,
+      "authority": "EDITORIAL_ONLY_NOT_ACTIVE_GEOGRAPHY"
     }
   ]
 }

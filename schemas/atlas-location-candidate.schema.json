@@ -1,0 +1,157 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemin26.local/schemas/atlas-location-candidate.schema.json",
+  "title": "Schemin Atlas Location Candidate Registry",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "status",
+    "candidates"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "status": {
+      "const": "EDITORIAL_CANDIDATE_STORE_NOT_ACTIVE_GEOGRAPHY"
+    },
+    "governing_docs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "working_name",
+          "lifecycle_status",
+          "location_class",
+          "likely_physical_zone_ids",
+          "event_eligibility",
+          "activation_trigger",
+          "story_functions",
+          "technology_translation",
+          "source_provenance"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^CAND-[A-Z0-9-]+$"
+          },
+          "working_name": {
+            "type": "string"
+          },
+          "lifecycle_status": {
+            "enum": [
+              "APPROVED_ACTIVE_CANON",
+              "PROVISIONAL_CANON",
+              "FUTURE_UNLOCK_CANDIDATE",
+              "RARE_NEUTRAL_CANDIDATE",
+              "HISTORICAL_ONLY",
+              "AMBIENT_REGIONAL_FLAVOR",
+              "REJECTED_FOR_DRIFT",
+              "HOLD_FOR_LATER_EVIDENCE"
+            ]
+          },
+          "location_class": {
+            "type": "string"
+          },
+          "likely_physical_zone_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^REG-[A-Z0-9-]+$"
+            }
+          },
+          "division_affinity_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^DIV-[A-Z0-9-]+$"
+            }
+          },
+          "event_eligibility": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "activation_trigger": {
+            "type": "string"
+          },
+          "story_functions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "technology_translation": {
+            "enum": [
+              "NATIVE_PREMODERN",
+              "FUNCTIONAL_ANALOGUE",
+              "REQUIRES_TECH_UNLOCK",
+              "REJECTED_TECH_DRIFT"
+            ]
+          },
+          "championship_only": {
+            "type": "boolean"
+          },
+          "rare_use": {
+            "type": "boolean"
+          },
+          "related_active_location_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^LOC-[A-Z0-9-]+$"
+            }
+          },
+          "prerequisites": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "inspiration": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "canon_notes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "rejection_reason": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_provenance": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "promoted_location_id": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^LOC-[A-Z0-9-]+$"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
