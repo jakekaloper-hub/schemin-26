@@ -193,8 +193,11 @@ def visual_workflow(beat_id:str,character_bearing:bool=False)->dict:
             "reference_gate_required":character_bearing,
             "character_control_plane":"canon/characters/cccp_resolver.py" if character_bearing else None,
             "render_contract":"canon/characters/cccp_render_contract.py" if character_bearing else None,
+            "generation_adapter":"canon/characters/runtime/generation_adapter.py" if character_bearing else None,
+            "generation_eligibility_required":character_bearing,
+            "subject_binding_receipt_required":character_bearing,
             "character_qa":"canon/characters/cccp_qa.py" if character_bearing else None,
-            "rule":"Character-bearing visual work cannot bypass CCCP."}
+            "rule":"Character-bearing visual work cannot bypass governed CCCP eligibility, subject binding, output receipt, or Character QA."}
 
 # ---- Phase 7 live-season transaction ----
 LIVE_PIPELINE=["SOURCE_INGESTION","VERIFICATION","SIGNIFICANCE_GRADING","HISTORICAL_CONTEXT",
