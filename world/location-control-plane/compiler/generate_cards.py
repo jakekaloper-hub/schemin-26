@@ -5,7 +5,7 @@ Upstream World Engine/state/reference files remain authoritative.
 Use --check in CI and --write only in governed rebuilds.
 """
 from __future__ import annotations
-import argparse, json, re
+import argparse, difflib, json, re
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[3]
@@ -106,7 +106,14 @@ def main():
     if args.write: print(f"wrote {len(drift)} derived files")
     if args.check:
         if drift:
-            print("DERIVED_CARD_DRIFT"); [print(x) for x in drift]; raise SystemExit(1)
+            print("DERIVED_CARD_DRIFT"); [print(x) for x in drift]
+            first=drift[0]
+            actual=(ROOT/first).read_text().splitlines()
+            expected=outputs[first].splitlines()
+            print("FIRST_DRIFT_DIFF")
+            for line in list(difflib.unified_diff(actual,expected,fromfile=first,tofile=first+" (generated)",lineterm=""))[:120]:
+                print(line)
+            raise SystemExit(1)
         print(f"derived cards clean: {len(outputs)} files")
     if not args.write and not args.check:
         print(f"would manage {len(outputs)} derived files; drift={len(drift)}")
