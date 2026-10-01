@@ -20,6 +20,12 @@
 - `AUTHOR_COUNCIL_MASTER_MANDATE_V2.md`
 - `BULLPEN_EXECUTION_PROMPT_V2.md`
 
+## Engagement operations
+
+- `SELECTION_MATRIX_V1.md` — choose consultants by literary problem.
+- `ENGAGEMENT_MANIFEST_TEMPLATE_V1.json` — frozen engagement contract.
+- `ROUND_MEMO_TEMPLATE_V1.md` — consistent independent round output.
+
 ## Advisor dossiers
 
 - `advisors/JRR_TOLKIEN_CONSULTANT_DOSSIER_V1.md`
