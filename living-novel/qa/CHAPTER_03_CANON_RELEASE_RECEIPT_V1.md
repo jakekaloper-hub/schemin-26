@@ -1,7 +1,7 @@
 # CHAPTER III — CANON RELEASE RECEIPT V1
 
 **Chapter:** III — THE HILL IS NOT THE KINGDOM  
-**Status:** PROMOTION CANDIDATE — FINAL CI PENDING  
+**Status:** RELEASED / PASS — HARD MANUSCRIPT CANON / CLOSED  
 **Founder approval date:** 2026-10-01  
 **Promotion PR:** #77  
 **Approved manuscript path:** `living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md`  
@@ -63,6 +63,38 @@ See:
 - `world/data/world_memory.json`
 - `world/state/WORLD_STATE_LEDGER_V1.md`
 
-## Final promotion proof
+## Final promotion proof — implementation candidate
 
-Pending exact PR #77 candidate CI. This receipt must be updated to RELEASED / PASS before merge.
+The Chapter III Founder-closeout implementation candidate passed:
+
+- **Novel OS CI #451 — PASS**
+  - causal architecture;
+  - updated hard-canon open-loop cutoff;
+  - Chapter III minimum gate;
+  - Chapter III mission closeout;
+  - Chapter III Founder canon closeout.
+- **Schemin World Engine CI #783 — PASS**
+  - world data;
+  - Universe V1.1;
+  - Location Control Plane;
+  - deterministic environment references;
+  - Interactive Atlas;
+  - World Evolution;
+  - publication convergence;
+  - Universe OS V1.2;
+  - one-world anti-fork;
+  - Memo V5.5 regression;
+  - Week 4 preproduction smoke.
+- **World Engine QA #480 — PASS**
+- **Repository Merge Gate #137 — PASS**
+  - includes Publication Manifest validation/tests and path-scoped world/Novel suites.
+- **Bullpen Runtime CI #2747 — PASS**
+- **Schemin Project Mission CI #107 — PASS**
+
+## Receipt-bearing confirmation rule
+
+This receipt changes repository bytes after the implementation proof above. Therefore PR #77 must receive a final green receipt-bearing check set before merge. No additional canon/state change is authorized by that confirmation run.
+
+## Release ruling
+
+Subject to that final receipt-bearing confirmation, Chapter III is authorized for merge as **HARD MANUSCRIPT CANON / CLOSED** under Founder approval.
