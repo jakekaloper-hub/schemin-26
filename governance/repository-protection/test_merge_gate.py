@@ -43,6 +43,15 @@ class MergeGatePlannerTests(unittest.TestCase):
     def test_project_registry_runs_mission(self):
         self.assertIn("mission", merge_gate.plan(["PROJECT_CONTROL_REGISTRY.md"]))
 
+    def test_publication_manifest_runs_publication_suite(self):
+        self.assertIn(
+            "publication",
+            merge_gate.plan(["governance/publication-manifest/PUBLICATION_MANIFEST_V1.json"]),
+        )
+
+    def test_publication_inventory_change_runs_publication_suite(self):
+        self.assertIn("publication", merge_gate.plan(["docs/INVENTORY.md"]))
+
     def test_release_evidence_change_runs_release(self):
         self.assertIn(
             "release",
