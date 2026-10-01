@@ -2,7 +2,7 @@
 
 Canonical operating repository for the 2026 Pro Schemin' Football League project.
 
-This repository is the durable source of truth for:
+Schemin ’26 is a persistent fantasy-sports storytelling and publication universe. Its Weekly Memo, Living Novel, Universe Atlas, and visual system are publication surfaces over one persistent fictional reality. See `SCHEMIN_26_PROJECT_MISSION.md`.\n\nThis repository is the durable source of truth for:
 - Weekly Memo OS
 - Bullpen operating authority and reviews
 - Jack Mercer AI GM
