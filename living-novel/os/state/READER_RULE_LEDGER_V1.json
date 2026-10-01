@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "status": "READER_KNOWLEDGE_THROUGH_CHAPTER_II",
+  "rules": [
+    {
+      "id": "RR-001",
+      "rule": "An ordinary Encounter win does not transfer the Championship Belt.",
+      "introduced": "CHAPTER_01_THE_FIRST_ANSWER",
+      "scope": "2026 sanctioned Contest / Belt succession",
+      "reader_may_assume": true,
+      "ambiguity": "Exact final succession mechanics need not be exhaustively explained until relevant."
+    },
+    {
+      "id": "RR-002",
+      "rule": "Certified result and historical significance are different categories.",
+      "introduced": "CHAPTER_01_THE_FIRST_ANSWER",
+      "scope": "Archive practice",
+      "reader_may_assume": true,
+      "ambiguity": "Later significance remains revisable."
+    },
+    {
+      "id": "RR-003",
+      "rule": "Standings and records can change material third-party behavior without becoming destiny.",
+      "introduced": "CHAPTER_02_WHAT_COMES_BACK",
+      "scope": "social/economic reaction",
+      "reader_may_assume": true,
+      "ambiguity": "No deterministic market formula."
+    },
+    {
+      "id": "RR-004",
+      "rule": "Recruitment/acquisition uses scarce claims/bids and failed bids are meaningful state.",
+      "introduced": "CHAPTER_02_WHAT_COMES_BACK",
+      "scope": "recruitment market",
+      "reader_may_assume": true,
+      "ambiguity": "Only mechanics needed by a scene should be foregrounded."
+    },
+    {
+      "id": "RR-005",
+      "rule": "The Archive records evidence but is not omniscient and can defer significance.",
+      "introduced": "PROLOGUE_DRAFT_V1",
+      "scope": "narrative institution",
+      "reader_may_assume": true,
+      "ambiguity": "Archive authority over world truth is limited to its records."
+    }
+  ],
+  "new_rule_gate": {
+    "require_existing_rule_gap": true,
+    "require_limitation_or_cost": true,
+    "require_reader_need_now": true,
+    "require_provenance_authority": true,
+    "instruction": "If an existing rule can carry the conflict, deepen it instead of adding a new rule."
+  }
+}

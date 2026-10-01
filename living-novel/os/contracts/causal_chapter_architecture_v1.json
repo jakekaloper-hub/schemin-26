@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "status": "ACTIVE",
+  "applies_from": "CHAPTER_III",
+  "source_week_is_chapter": false,
+  "equal_matchup_coverage_required": false,
+  "default_max_primary_povs": 3,
+  "requires": [
+    "dramatic_question",
+    "causal_spine",
+    "entering_state",
+    "pov_packets",
+    "location_packets",
+    "turning_point",
+    "closing_consequence",
+    "open_loop_inputs",
+    "open_loop_outputs",
+    "omitted_event_ledger",
+    "temporal_cutoff"
+  ],
+  "full_numeric_truth_required_in_evidence": true,
+  "full_numeric_truth_required_in_prose": false,
+  "hard_canon_reopen_required_for": [
+    "PROLOGUE_DRAFT_V1",
+    "CHAPTER_01_THE_FIRST_ANSWER",
+    "CHAPTER_02_WHAT_COMES_BACK"
+  ]
+}
