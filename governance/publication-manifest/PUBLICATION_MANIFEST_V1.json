@@ -1,0 +1,319 @@
+{
+  "schema_version": "1.0.0",
+  "project": "schemin-26",
+  "manifest_role": "derived_release_identity_index",
+  "authority_rule": "This manifest indexes publication identity and relationships only. Project Control Registry, release evidence, publication gates, manuscript gates, canon, world, and data sources remain authoritative.",
+  "publications": [
+    {
+      "publication_id": "memo.2026.week-02",
+      "family": "weekly_memo",
+      "season": 2026,
+      "title": "Pro Schemin Week 2 Memo",
+      "slug": "2026-week-2-memo",
+      "release_state": "RELEASED",
+      "source_interval": {
+        "kind": "week",
+        "label": "2026 Week 2",
+        "weeks": [
+          2
+        ]
+      },
+      "canonical_artifact": "Week 2 memo.pdf",
+      "publication_date": "2026-09-23",
+      "authority_refs": [
+        "PROJECT_CONTROL_REGISTRY.md",
+        "docs/governance/SOURCE_OF_TRUTH.md",
+        "docs/publications/WEEK_2_OFFICIAL_PUBLICATION_RECOVERY_RECEIPT_V1.md"
+      ],
+      "release_receipt_refs": [
+        "docs/publications/WEEK_2_OFFICIAL_PUBLICATION_RECOVERY_RECEIPT_V1.md"
+      ],
+      "fact_refs": [],
+      "canon_refs": [
+        "canon/_INDEX.md"
+      ],
+      "world_refs": [
+        "world/SCHEMIN_WORLD_ENGINE_V1_1_RELEASE_RECEIPT.md"
+      ],
+      "world_evolution_refs": [],
+      "archive_collections": [
+        "season-2026",
+        "weekly-memo-2026"
+      ],
+      "relations": [
+        {
+          "type": "precedes",
+          "publication_id": "memo.2026.week-03"
+        },
+        {
+          "type": "interprets_same_source_interval",
+          "publication_id": "novel.2026.chapter-02"
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": null,
+      "metadata": {
+        "page_count": 14,
+        "benchmark_status": "GOLD_STANDARD",
+        "league_shared": true
+      }
+    },
+    {
+      "publication_id": "memo.2026.week-03",
+      "family": "weekly_memo",
+      "season": 2026,
+      "title": "Pro Schemin Week 3 Memo",
+      "slug": "2026-week-3-memo",
+      "release_state": "RELEASED",
+      "source_interval": {
+        "kind": "week",
+        "label": "2026 Week 3",
+        "weeks": [
+          3
+        ]
+      },
+      "canonical_artifact": "Pro_Schemin_Week_3_Memo_Final.pdf",
+      "publication_date": null,
+      "authority_refs": [
+        "PROJECT_CONTROL_REGISTRY.md",
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md",
+        "world/qa/WEEK3_RELEASE_ARTIFACT_RECONCILIATION.md"
+      ],
+      "release_receipt_refs": [
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md",
+        "world/qa/WEEK3_RELEASE_ARTIFACT_RECONCILIATION.md"
+      ],
+      "fact_refs": [
+        "memo-os/week-3/WEEK_3_FACT_LOCK_V1.md"
+      ],
+      "canon_refs": [
+        "canon/_INDEX.md"
+      ],
+      "world_refs": [
+        "world/SCHEMIN_WORLD_ENGINE_V1_1_RELEASE_RECEIPT.md"
+      ],
+      "world_evolution_refs": [
+        "world/evolution/_INDEX.md"
+      ],
+      "archive_collections": [
+        "season-2026",
+        "weekly-memo-2026"
+      ],
+      "relations": [
+        {
+          "type": "follows",
+          "publication_id": "memo.2026.week-02"
+        },
+        {
+          "type": "precedes",
+          "publication_id": "memo.2026.week-04"
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": null,
+      "metadata": {
+        "page_count": 21,
+        "immutable_release_evidence": true,
+        "novel_chapter_mapping": "UNRESOLVED_BY_DESIGN"
+      }
+    },
+    {
+      "publication_id": "memo.2026.week-04",
+      "family": "weekly_memo",
+      "season": 2026,
+      "title": "Pro Schemin Week 4 Memo",
+      "slug": "2026-week-4-memo",
+      "release_state": "BLOCKED",
+      "source_interval": {
+        "kind": "week",
+        "label": "2026 Week 4",
+        "weeks": [
+          4
+        ]
+      },
+      "canonical_artifact": null,
+      "publication_date": null,
+      "authority_refs": [
+        "PROJECT_CONTROL_REGISTRY.md",
+        "memo-os/week-4/_INDEX.md",
+        "memo-os/week-4/WEEK_4_RELEASE_GATE_V1.md"
+      ],
+      "release_receipt_refs": [],
+      "fact_refs": [],
+      "canon_refs": [
+        "canon/_INDEX.md"
+      ],
+      "world_refs": [
+        "memo-os/week-4/WEEK_4_WORLD_ENTRY_RECEIPT_V1.md"
+      ],
+      "world_evolution_refs": [],
+      "archive_collections": [
+        "season-2026",
+        "weekly-memo-2026"
+      ],
+      "relations": [
+        {
+          "type": "follows",
+          "publication_id": "memo.2026.week-03"
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": null,
+      "metadata": {
+        "publication_system": "weekly-memo-v5.5",
+        "v5_6_candidate_state": "RELEASE_CANDIDATE_NOT_ACTIVE",
+        "release_block_reason": "WEEK_4_RELEASE_GATE_NOT_PASS"
+      }
+    },
+    {
+      "publication_id": "novel.2026.prologue",
+      "family": "living_novel",
+      "season": 2026,
+      "title": "Prologue",
+      "slug": "prologue",
+      "release_state": "CANON_CLOSED",
+      "source_interval": {
+        "kind": "preseason",
+        "label": "Before Week 1 results",
+        "weeks": []
+      },
+      "canonical_artifact": "living-novel/manuscript/PROLOGUE_DRAFT_V1.md",
+      "publication_date": "2026-09-27",
+      "authority_refs": [
+        "living-novel/qa/PROLOGUE_FINAL_PUBLICATION_GATE.md",
+        "living-novel/consultants/author-council/engagements/NOVEL-AUTHOR-CONSULT-2026-10-01-001/00_EVIDENCE_FREEZE.md"
+      ],
+      "release_receipt_refs": [
+        "living-novel/qa/PROLOGUE_FINAL_PUBLICATION_GATE.md"
+      ],
+      "fact_refs": [],
+      "canon_refs": [
+        "canon/_INDEX.md"
+      ],
+      "world_refs": [
+        "world/SCHEMIN_WORLD_ENGINE_V1_1_RELEASE_RECEIPT.md"
+      ],
+      "world_evolution_refs": [],
+      "archive_collections": [
+        "season-2026",
+        "living-novel-volume-1"
+      ],
+      "relations": [
+        {
+          "type": "precedes",
+          "publication_id": "novel.2026.chapter-01"
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": null,
+      "metadata": {
+        "hard_manuscript_canon": true,
+        "closed": true
+      }
+    },
+    {
+      "publication_id": "novel.2026.chapter-01",
+      "family": "living_novel",
+      "season": 2026,
+      "title": "Chapter I — The First Answer",
+      "slug": "chapter-1-the-first-answer",
+      "release_state": "CANON_CLOSED",
+      "source_interval": {
+        "kind": "chapter_causal_interval",
+        "label": "Causal interpretation centered on 2026 Week 1",
+        "weeks": [
+          1
+        ]
+      },
+      "canonical_artifact": "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md",
+      "publication_date": null,
+      "authority_refs": [
+        "living-novel/qa/CHAPTER_01_FINAL_GATE.md",
+        "living-novel/consultants/author-council/engagements/NOVEL-AUTHOR-CONSULT-2026-10-01-001/00_EVIDENCE_FREEZE.md"
+      ],
+      "release_receipt_refs": [
+        "living-novel/qa/CHAPTER_01_FINAL_GATE.md"
+      ],
+      "fact_refs": [],
+      "canon_refs": [
+        "canon/_INDEX.md"
+      ],
+      "world_refs": [
+        "world/SCHEMIN_WORLD_ENGINE_V1_1_RELEASE_RECEIPT.md"
+      ],
+      "world_evolution_refs": [],
+      "archive_collections": [
+        "season-2026",
+        "living-novel-volume-1"
+      ],
+      "relations": [
+        {
+          "type": "follows",
+          "publication_id": "novel.2026.prologue"
+        },
+        {
+          "type": "precedes",
+          "publication_id": "novel.2026.chapter-02"
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": null,
+      "metadata": {
+        "hard_manuscript_canon": true,
+        "closed": true
+      }
+    },
+    {
+      "publication_id": "novel.2026.chapter-02",
+      "family": "living_novel",
+      "season": 2026,
+      "title": "Chapter II — What Comes Back",
+      "slug": "chapter-2-what-comes-back",
+      "release_state": "CANON_CLOSED",
+      "source_interval": {
+        "kind": "chapter_causal_interval",
+        "label": "Causal interpretation centered on 2026 Week 2",
+        "weeks": [
+          2
+        ]
+      },
+      "canonical_artifact": "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md",
+      "publication_date": null,
+      "authority_refs": [
+        "living-novel/qa/CHAPTER_02_FINAL_GATE.md",
+        "living-novel/consultants/author-council/engagements/NOVEL-AUTHOR-CONSULT-2026-10-01-001/00_EVIDENCE_FREEZE.md"
+      ],
+      "release_receipt_refs": [
+        "living-novel/qa/CHAPTER_02_FINAL_GATE.md"
+      ],
+      "fact_refs": [],
+      "canon_refs": [
+        "canon/_INDEX.md"
+      ],
+      "world_refs": [
+        "world/SCHEMIN_WORLD_ENGINE_V1_1_RELEASE_RECEIPT.md"
+      ],
+      "world_evolution_refs": [],
+      "archive_collections": [
+        "season-2026",
+        "living-novel-volume-1"
+      ],
+      "relations": [
+        {
+          "type": "follows",
+          "publication_id": "novel.2026.chapter-01"
+        },
+        {
+          "type": "interprets_same_source_interval",
+          "publication_id": "memo.2026.week-02"
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": null,
+      "metadata": {
+        "hard_manuscript_canon": true,
+        "closed": true
+      }
+    }
+  ]
+}
