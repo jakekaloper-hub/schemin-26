@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/visual-world-packet.schema.json",
+  "title": "Visual World Packet V2",
+  "type": "object",
+  "required": [
+    "world",
+    "atlas",
+    "domain",
+    "character",
+    "memory",
+    "typography"
+  ],
+  "properties": {
+    "world": {
+      "type": "object",
+      "required": [
+        "location_id",
+        "physical_zone",
+        "world_state"
+      ],
+      "properties": {
+        "location_id": {
+          "type": "string"
+        },
+        "physical_zone": {
+          "type": "string"
+        },
+        "world_state": {
+          "type": "array"
+        },
+        "history": {
+          "type": "array"
+        },
+        "institutions": {
+          "type": "array"
+        },
+        "ordinary_inhabitants": {
+          "type": "array"
+        },
+        "weather": {
+          "type": [
+            "object",
+            "null"
+          ]
+        }
+      }
+    },
+    "atlas": {
+      "type": "object",
+      "required": [
+        "arrival_routes",
+        "visible_landmarks",
+        "forbidden_landmarks"
+      ],
+      "properties": {
+        "civil_context": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "division_presence": {
+          "type": "array"
+        },
+        "owner_domain": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "arrival_routes": {
+          "type": "array"
+        },
+        "water_relationship": {},
+        "elevation_relationship": {},
+        "camera_direction": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "foreground_terrain": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "midground": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "background_topography": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "visible_landmarks": {
+          "type": "array"
+        },
+        "forbidden_landmarks": {
+          "type": "array"
+        },
+        "historical_overlays": {
+          "type": "array"
+        }
+      }
+    },
+    "domain": {
+      "type": "object"
+    },
+    "character": {
+      "type": "object"
+    },
+    "memory": {
+      "type": "object"
+    },
+    "typography": {
+      "type": "object"
+    }
+  }
+}
