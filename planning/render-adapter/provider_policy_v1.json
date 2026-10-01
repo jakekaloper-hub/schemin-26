@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "status": "ACTIVE_PHASE_0_POLICY",
+  "project": "schemin-26",
+  "required_external_renderer": null,
+  "no_render_mode_supported": true,
+  "provider_selection_state": "DEFERRED_UNTIL_PROVIDER_NEUTRAL_BASELINE",
+  "authority_rule": "Renderer providers execute Schemin requests; they do not own facts, character canon, world state, publication state, source assets, or release authority.",
+  "provider_classes": {
+    "core_required": [],
+    "optional_external": [
+      {
+        "provider": "CREATIVE_CLAW",
+        "state": "OPTIONAL_NOT_OFFICIAL",
+        "required": false,
+        "canonical_storage": false,
+        "authority_owner": false,
+        "production_dependency": false,
+        "note": "May be used ad hoc only when explicitly available. Credit purchase is never assumed."
+      }
+    ],
+    "local_or_self_hosted": {
+      "state": "FUTURE_CANDIDATE",
+      "required": false
+    },
+    "no_render": {
+      "state": "SUPPORTED",
+      "behavior": "Compile and validate render request; defer execution without mutating authority or publication state."
+    }
+  },
+  "provider_admission_requirements": [
+    "capability_receipt",
+    "cost_model",
+    "failure_semantics",
+    "rollback_or_disconnect_path",
+    "reference_mount_semantics_when_character_bearing",
+    "subject_binding_semantics_when_multi_character",
+    "output_provenance",
+    "security_review",
+    "quality_acceptance_fixture"
+  ]
+}

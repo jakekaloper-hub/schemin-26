@@ -31,6 +31,21 @@ CAP={"redteam":{
 }}
 
 
+def authority_receipt(ids):
+    return {
+        "state": "REFERENCE_AUTHORITY_RESOLVED",
+        "results": [
+            {
+                "state": "REFERENCE_AUTHORITY_RESOLVED",
+                "character_id": cid,
+                "expected_sha256": HASH,
+                "source_filename": f"{cid}.jpeg",
+            }
+            for cid in ids
+        ],
+    }
+
+
 def make_mount(cid,index,*,slot=None,binding=None,mount_receipt=None,expected=HASH,mounted=HASH):
     return CharacterReferenceMount(
         cid,f"OWNER-{index}",f"ASSET-{index}",f"repo://canon/{cid}.jpeg",
@@ -87,13 +102,14 @@ class CharacterPortabilityRedTeam(unittest.TestCase):
         capability=negotiate("redteam",CAP,count)
         eligibility=issue_eligibility(
             f"r-{count}",ids,mounts,"redteam",capability,
+            authority_receipt=authority_receipt(ids),
             signing_key="test-key",now=1,
         )
         self.assertEqual(eligibility["state"],"GENERATION_ELIGIBLE")
         self.assertEqual(
             validate_eligibility(
                 eligibility,f"r-{count}",list(reversed(ids)),list(reversed(mounts)),
-                "redteam",signing_key="test-key",now=2,
+                "redteam",authority_receipt=authority_receipt(ids),signing_key="test-key",now=2,
             ),
             "GENERATION_ELIGIBLE",
         )
@@ -114,6 +130,7 @@ class CharacterPortabilityRedTeam(unittest.TestCase):
         capability=negotiate("redteam",CAP,12)
         eligibility=issue_eligibility(
             "r-collision",ids,mounts,"redteam",capability,
+            authority_receipt=authority_receipt(ids),
             signing_key="test-key",now=1,
         )
         self.assertEqual(eligibility["state"],"GENERATION_BLOCKED")
@@ -123,6 +140,7 @@ class CharacterPortabilityRedTeam(unittest.TestCase):
         capability=negotiate("redteam",CAP,1)
         eligibility=issue_eligibility(
             "r-hash",[ALL_IDS[0]],mounts,"redteam",capability,
+            authority_receipt=authority_receipt([ALL_IDS[0]]),
             signing_key="test-key",now=1,
         )
         self.assertEqual(eligibility["state"],"GENERATION_BLOCKED")

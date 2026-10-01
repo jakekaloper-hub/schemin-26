@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "status": "ACTIVE_FAIL_CLOSED",
+  "purpose": "Prevent stale composites, legacy matrices, generated convenience assets, or friendly filenames from masquerading as current visual authority.",
+  "authority_chain": [
+    "latest_explicit_commissioner_correction",
+    "reference_sources_v1_expected_sha256",
+    "owner_specific_active_reference",
+    "active_character_package",
+    "canonical_prose",
+    "historical_artwork"
+  ],
+  "production_rule": "A character-bearing renderer input is authoritative only when its mounted source bytes hash to the current approved expected_sha256 for that Character ID. Asset names, tags, prompts, composites, previews, and generated redraws are not authority.",
+  "derived_asset_rule": "A generated or composite asset may never become PRIMARY_IDENTITY_AUTHORITY by filename/tag. Promotion requires an explicit Commissioner-approved source supersession recorded in canon and a new approved SHA-256.",
+  "master_lineup": {
+    "name": "SCHEMIN_26_CHARACTER_CANON_MASTER_LINEUP_2026.png",
+    "creative_claw_asset_id": "88729cda-7554-48e2-b83f-e66d8a7379cd",
+    "state": "PARTIAL_STALE_REFERENCE_ONLY",
+    "production_seed_allowed": false,
+    "current_for": [
+      "CHAR-JAKE-KALOPER",
+      "CHAR-KEVIN-ZEEK",
+      "CHAR-JORDAN-HOLLINGSHEAD",
+      "CHAR-DAVID-BABB",
+      "CHAR-BRANDON-PRYOR",
+      "CHAR-MANNING-WELTY",
+      "CHAR-BOBBY-MITCHELL",
+      "CHAR-ZACH-WILSON",
+      "CHAR-BEN-WHIPPLE"
+    ],
+    "stale_for": [
+      {
+        "character_id": "CHAR-WILSON-LOOK",
+        "reason": "owner-specific 2026-09-29 Arsenal Gorilla Warrior supersedes retired centaur panel",
+        "active_source_filename": "IMG_7866(1).jpeg",
+        "expected_sha256": "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10"
+      },
+      {
+        "character_id": "CHAR-PHILLIP-PITTS",
+        "reason": "current owner-specific identity authority requires one body with exactly three serpent heads",
+        "active_source_filename": "IMG_2178.jpeg",
+        "expected_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c"
+      },
+      {
+        "character_id": "CHAR-AUSTIN-BYARS",
+        "reason": "current owner-specific Commissioner reference outranks lineup panel",
+        "active_source_filename": "IMG_2179.jpeg",
+        "expected_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76"
+      }
+    ]
+  },
+  "known_non_authoritative_renderer_assets": [
+    {
+      "asset_id": "e6649118-bb8b-4507-bd74-69a7d8e218ea",
+      "name": "CANON_HMB_AUSTIN_BYARS_ACTIVE_REF.png",
+      "state": "QUARANTINED_UNPROVEN_LINEAGE",
+      "reason": "Generated convenience asset name claimed canon but no byte-identical lineage to current Commissioner-approved IMG_2179.jpeg was proven."
+    },
+    {
+      "asset_id": "4fc92d8e-5570-4341-9422-0a2b55970244",
+      "name": "CANON_LLC_DAVID_BABB_ACTIVE_REF.png",
+      "state": "NON_AUTHORITATIVE_DERIVED",
+      "reason": "Convenience derivative may assist human comparison only; current production must resolve to approved source hash."
+    }
+  ]
+}

@@ -86,6 +86,21 @@ def execution_receipt(request_id, route, mounts):
     }
 
 
+def authority_receipt(*ids):
+    return {
+        "state": "REFERENCE_AUTHORITY_RESOLVED",
+        "results": [
+            {
+                "state": "REFERENCE_AUTHORITY_RESOLVED",
+                "character_id": cid,
+                "expected_sha256": HASH,
+                "source_filename": f"{cid}.jpeg",
+            }
+            for cid in ids
+        ],
+    }
+
+
 class Boundary(unittest.TestCase):
     def test_nonportable_blocks(self):
         result = resolve_assets([CID], {CID: asset(None)})
@@ -124,6 +139,7 @@ class Boundary(unittest.TestCase):
         capability = negotiate("test", CAP, 1)
         eligible = issue_eligibility(
             "r", [CID], [mount(mounted_hash=None)], "test", capability,
+            authority_receipt=authority_receipt(CID),
             signing_key="test-key", now=1,
         )
         self.assertEqual(eligible["state"], "GENERATION_BLOCKED")
@@ -132,6 +148,7 @@ class Boundary(unittest.TestCase):
         capability = negotiate("test", CAP, 1)
         eligible = issue_eligibility(
             "r", [CID], [mount(mounted_hash="c" * 64)], "test", capability,
+            authority_receipt=authority_receipt(CID),
             signing_key="test-key", now=1,
         )
         self.assertEqual(eligible["state"], "GENERATION_BLOCKED")
@@ -140,6 +157,7 @@ class Boundary(unittest.TestCase):
         capability = negotiate("test", CAP, 1)
         eligible = issue_eligibility(
             "r", [CID], [mount(bound=False)], "test", capability,
+            authority_receipt=authority_receipt(CID),
             signing_key="test-key", now=1,
         )
         self.assertEqual(eligible["state"], "GENERATION_BLOCKED")
@@ -148,7 +166,7 @@ class Boundary(unittest.TestCase):
         capability = negotiate("test", CAP, 1)
         eligible = issue_eligibility(
             "r", [CID], [mount(capability_receipt_id="wrong")],
-            "test", capability, signing_key="test-key", now=1,
+            "test", capability, authority_receipt=authority_receipt(CID), signing_key="test-key", now=1,
         )
         self.assertEqual(eligible["reason"], "CAPABILITY_RECEIPT_MISMATCH")
 
@@ -157,11 +175,13 @@ class Boundary(unittest.TestCase):
         capability = negotiate("test", CAP, 1)
         eligible = issue_eligibility(
             "r", [CID], mounts, "test", capability,
+            authority_receipt=authority_receipt(CID),
             signing_key="test-key", now=1,
         )
         self.assertEqual(
             validate_eligibility(
                 eligible, "r", [CID], mounts, "test",
+                authority_receipt=authority_receipt(CID),
                 signing_key="test-key", now=2,
             ),
             "GENERATION_ELIGIBLE",
@@ -169,6 +189,7 @@ class Boundary(unittest.TestCase):
         self.assertEqual(
             validate_eligibility(
                 eligible, "other", [CID], mounts, "test",
+                authority_receipt=authority_receipt(CID),
                 signing_key="test-key", now=2,
             ),
             "GENERATION_BLOCKED",
@@ -176,6 +197,7 @@ class Boundary(unittest.TestCase):
         self.assertEqual(
             validate_eligibility(
                 eligible, "r", [CID], [mount(slot="subject-2")], "test",
+                authority_receipt=authority_receipt(CID),
                 signing_key="test-key", now=2,
             ),
             "GENERATION_BLOCKED",
@@ -191,12 +213,14 @@ class Boundary(unittest.TestCase):
         capability = negotiate("test", CAP, 2)
         eligible = issue_eligibility(
             "r2", [CID2, CID], [m1, m2], "test", capability,
+            authority_receipt=authority_receipt(CID2, CID),
             signing_key="test-key", now=1,
         )
         self.assertEqual(eligible["state"], "GENERATION_ELIGIBLE")
         self.assertEqual(
             validate_eligibility(
                 eligible, "r2", [CID, CID2], [m2, m1], "test",
+                authority_receipt=authority_receipt(CID, CID2),
                 signing_key="test-key", now=2,
             ),
             "GENERATION_ELIGIBLE",
@@ -212,6 +236,7 @@ class Boundary(unittest.TestCase):
         capability = negotiate("test", CAP, 2)
         eligible = issue_eligibility(
             "r2", [CID, CID2], [m1, m2], "test", capability,
+            authority_receipt=authority_receipt(CID),
             signing_key="test-key", now=1,
         )
         self.assertEqual(eligible["state"], "GENERATION_BLOCKED")
@@ -226,6 +251,7 @@ class Boundary(unittest.TestCase):
         capability = negotiate("test", CAP, 2)
         eligible = issue_eligibility(
             "r2", [CID, CID2], [m1, m2], "test", capability,
+            authority_receipt=authority_receipt(CID),
             signing_key="test-key", now=1,
         )
         self.assertEqual(eligible["state"], "GENERATION_BLOCKED")
@@ -235,12 +261,14 @@ class Boundary(unittest.TestCase):
         capability = negotiate("test", CAP, 1)
         eligible = issue_eligibility(
             "r", [CID], mounts, "test", capability,
+            authority_receipt=authority_receipt(CID),
             signing_key="test-key", now=1, nonce="once",
         )
         used = {"once"}
         self.assertEqual(
             validate_eligibility(
                 eligible, "r", [CID], mounts, "test",
+                authority_receipt=authority_receipt(CID),
                 signing_key="test-key", now=2, consumed_nonces=used,
             ),
             "GENERATION_BLOCKED",
@@ -255,7 +283,7 @@ class Boundary(unittest.TestCase):
 
         result = governed_generate(
             renderer, {"state": "GENERATION_BLOCKED"}, "r",
-            [CID], [mount()], "test", {}, signing_key="test-key",
+            [CID], [mount()], "test", {}, authority_receipt=authority_receipt(CID), signing_key="test-key",
         )
         self.assertEqual(result["state"], "GENERATION_BLOCKED")
         self.assertEqual(called["n"], 0)
@@ -265,11 +293,13 @@ class Boundary(unittest.TestCase):
         capability = negotiate("test", CAP, 1)
         eligible = issue_eligibility(
             "r", [CID], mounts, "test", capability,
+            authority_receipt=authority_receipt(CID),
             signing_key="test-key", now=1,
         )
         result = governed_generate(
             lambda payload: {"pixels": "opaque"},
             eligible, "r", [CID], mounts, "test", {},
+            authority_receipt=authority_receipt(CID),
             signing_key="test-key", consumed_nonces=set(), now=2,
         )
         self.assertEqual(result["state"], "GENERATION_OUTPUT_BLOCKED")
@@ -280,11 +310,13 @@ class Boundary(unittest.TestCase):
         capability = negotiate("test", CAP, 1)
         eligible = issue_eligibility(
             "r", [CID], mounts, "test", capability,
+            authority_receipt=authority_receipt(CID),
             signing_key="test-key", now=1,
         )
         result = governed_generate(
             lambda payload: {"output_instance_id": "out-1"},
             eligible, "r", [CID], mounts, "test", {},
+            authority_receipt=authority_receipt(CID),
             signing_key="test-key", consumed_nonces=set(), now=2,
         )
         self.assertEqual(result["state"], "GENERATION_OUTPUT_BLOCKED")
@@ -295,6 +327,7 @@ class Boundary(unittest.TestCase):
         capability = negotiate("test", CAP, 1)
         eligible = issue_eligibility(
             "r", [CID], mounts, "test", capability,
+            authority_receipt=authority_receipt(CID),
             signing_key="test-key", now=1,
         )
         receipt = execution_receipt("r", "test", mounts)
@@ -304,6 +337,7 @@ class Boundary(unittest.TestCase):
                 "execution_receipt": receipt,
             },
             eligible, "r", [CID], mounts, "test", {},
+            authority_receipt=authority_receipt(CID),
             signing_key="test-key", consumed_nonces=set(), now=2,
         )
         self.assertEqual(result["state"], "GENERATION_EXECUTED_PENDING_CHARACTER_QA")

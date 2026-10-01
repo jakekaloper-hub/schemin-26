@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0.0",
+  "status": "ACTIVE",
+  "baseline": "CHATGPT_PLUS_ONLY",
+  "rule": "Schemin must maintain a zero-incremental-spend path. No separately billed plugin, API, renderer, model provider, storage service, or subscription upgrade may be required without Jake's explicit approval.",
+  "default_class": "UNKNOWN_COST_BLOCKED",
+  "classes": [
+    "NATIVE_INCLUDED",
+    "EXISTING_ACCESS_ONLY",
+    "UNFUNDED_EXTERNAL",
+    "EXPLICIT_SPEND_REQUIRED",
+    "UNKNOWN_COST_BLOCKED"
+  ],
+  "providers": [
+    {
+      "provider": "ChatGPT native image generation/editing",
+      "class": "NATIVE_INCLUDED",
+      "critical_path_allowed": true
+    },
+    {
+      "provider": "ChatGPT native document/file tooling",
+      "class": "NATIVE_INCLUDED",
+      "critical_path_allowed": true
+    },
+    {
+      "provider": "GitHub connected access",
+      "class": "EXISTING_ACCESS_ONLY",
+      "critical_path_allowed": true
+    },
+    {
+      "provider": "Flaim Fantasy connected access",
+      "class": "EXISTING_ACCESS_ONLY",
+      "critical_path_allowed": true
+    },
+    {
+      "provider": "Creative Claw",
+      "class": "UNFUNDED_EXTERNAL",
+      "critical_path_allowed": false
+    },
+    {
+      "provider": "Higgsfield",
+      "class": "UNFUNDED_EXTERNAL",
+      "critical_path_allowed": false
+    },
+    {
+      "provider": "OpenArt",
+      "class": "UNFUNDED_EXTERNAL",
+      "critical_path_allowed": false
+    },
+    {
+      "provider": "Runway",
+      "class": "UNFUNDED_EXTERNAL",
+      "critical_path_allowed": false
+    },
+    {
+      "provider": "Adobe paid services",
+      "class": "UNFUNDED_EXTERNAL",
+      "critical_path_allowed": false
+    },
+    {
+      "provider": "fal.ai",
+      "class": "UNFUNDED_EXTERNAL",
+      "critical_path_allowed": false
+    },
+    {
+      "provider": "Replicate",
+      "class": "UNFUNDED_EXTERNAL",
+      "critical_path_allowed": false
+    },
+    {
+      "provider": "ElevenLabs",
+      "class": "UNFUNDED_EXTERNAL",
+      "critical_path_allowed": false
+    },
+    {
+      "provider": "Cartesia",
+      "class": "UNFUNDED_EXTERNAL",
+      "critical_path_allowed": false
+    }
+  ],
+  "production_requirements": [
+    "Every critical workflow must have a zero-incremental-spend execution path or explicitly HOLD.",
+    "Installed/connected does not equal funded.",
+    "Trial or free credits do not qualify as durable infrastructure.",
+    "Historical provider assets may remain evidence but future reproducibility may not require repurchase.",
+    "Provider-specific capability may never own canon, world truth, publication truth, or character authority."
+  ]
+}
