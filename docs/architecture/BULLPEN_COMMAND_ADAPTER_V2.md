@@ -85,9 +85,9 @@ Executable adapter: `bullpen-runtime/src/counterweight-adapter.js`.
 
 The adapter fails closed when a canonical route omits the counterweight contract or when a counterweight plan attempts to change the primary owner.
 
-Verified standalone Bullpen baseline for the previously promoted command/counterweight integration: `fce34487cac4b3d7d18761f686a681cf2cf5ca1f`.
+Verified standalone Bullpen baseline for command, counterweight, and strengthen lifecycle integration: `32e9fe1cc8f2d44fb9cfdde1d7004b0d2cc81c70`.
 
-The strengthen lifecycle extension remains candidate until the corresponding Bullpen Core change passes its own promotion gates. Schemin's consumer therefore validates the route it receives rather than pretending an unpromoted Core route already exists.
+The canonical Bullpen `strengthen` lifecycle has passed full Bullpen Verify and is promoted. Schemin still validates the route it receives so future Core drift fails closed instead of silently mutating project behavior.
 
 For substantial execution, `skills/schemin-bullpen-execution/SKILL.md` remains binding: evidence before completion claims; smallest competent team; creator and final gatekeeper differ; proceed through reversible work without founder interruption.
 
