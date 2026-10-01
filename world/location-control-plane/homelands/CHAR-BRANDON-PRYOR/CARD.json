@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "compilation_version": "phase2-v1",
+  "character_id": "CHAR-BRANDON-PRYOR",
+  "owner": "Brandon Pryor",
+  "team": "Chili Cheesers",
+  "team_id": 7,
+  "division_id": "DIV-WINGS",
+  "division_name": "Wings",
+  "domain_type": "frontier-mobile",
+  "primary_location_id": "LOC-CHILI-STABLE",
+  "physical_zone_ids": [
+    "REG-WESTERN-TABLELANDS"
+  ],
+  "physical_zone_profiles": [
+    {
+      "id": "REG-WESTERN-TABLELANDS",
+      "name": "Western Tablelands",
+      "terrain": [
+        "open grassland",
+        "broken stone ridges",
+        "dry frontier"
+      ],
+      "climate": [
+        "drier",
+        "rain-shadow influence",
+        "large temperature swings"
+      ],
+      "movement": [
+        "long overland routes",
+        "mounted travel",
+        "dispersed settlements"
+      ]
+    }
+  ],
+  "ontology_class": "SHARED_COHABITATION",
+  "canon_guard": [
+    "CHILI_OUTLAW",
+    "DARK_HORSE"
+  ],
+  "shared_location_ids": [
+    "LOC-TDS-CHILI-SHARED-MARCH"
+  ],
+  "manifestation_modes": [],
+  "primary_landmarks": [
+    "stable",
+    "pit smoke",
+    "Dark Horse enclosure"
+  ],
+  "primary_access_route_ids": [
+    "ROUTE-WESTERN-RANGE"
+  ],
+  "current_world_state": [
+    "operational",
+    "cross-divisional coexistence with TDS is canon"
+  ],
+  "ordinary_population_rule": "Shared-cohabitation relationship is canonical; do not infer unsupported wider population facts.",
+  "division_visual_fingerprint": {
+    "skyline": [
+      "stormward ruin heights",
+      "foothill camps",
+      "western stables",
+      "raised country-club grounds"
+    ],
+    "materials": [
+      "timber",
+      "iron straps",
+      "river stone",
+      "canvas",
+      "copper",
+      "weathered plaster"
+    ],
+    "roads": [
+      "foothill roads",
+      "western range tracks",
+      "levee roads",
+      "estate approaches"
+    ],
+    "night": [
+      "fire pits",
+      "stable lamps",
+      "clubhouse windows",
+      "storm-lit ruin silhouettes"
+    ]
+  },
+  "visual_reference_status": "CHARACTER_REFERENCE_RESOLVED_SEPARATELY__LOCATION_REFERENCE_MISSING_UNLESS_REGISTERED",
+  "open_questions": [
+    "final fictional place-name"
+  ],
+  "generated_from": [
+    "world/data/owner_domains.json",
+    "world/data/locations.json",
+    "world/data/physical_zones.json",
+    "world/data/divisions.json",
+    "world/data/current_world_state.json"
+  ],
+  "authority_note": "Derived card. Upstream sources remain authoritative."
+}
