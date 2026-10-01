@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/canon-confidence.schema.json",
+  "title": "Schemin Canon Confidence",
+  "type": "object",
+  "required": [
+    "status",
+    "source",
+    "last_verified",
+    "review_owner"
+  ],
+  "properties": {
+    "status": {
+      "enum": [
+        "LOCKED",
+        "APPROVED",
+        "INFERRED",
+        "HISTORICAL",
+        "SUPERSEDED",
+        "UNKNOWN"
+      ]
+    },
+    "source": {
+      "type": "string",
+      "minLength": 1
+    },
+    "last_verified": {
+      "type": "string",
+      "minLength": 1
+    },
+    "review_owner": {
+      "type": "string",
+      "minLength": 1
+    },
+    "supersedes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "superseded_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": false
+}
