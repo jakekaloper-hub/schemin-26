@@ -10,6 +10,8 @@ from pathlib import Path
 SUITE_COMMANDS = {
     "mission": [
         "python -m py_compile governance/validate_project_mission.py",
+        "python governance/capability-budget/validate_zero_spend.py",
+        "python -m unittest -v tests/test_zero_incremental_spend.py",
         "python governance/validate_project_mission.py",
     ],
     "bullpen": ["cd bullpen-runtime && npm test"],
