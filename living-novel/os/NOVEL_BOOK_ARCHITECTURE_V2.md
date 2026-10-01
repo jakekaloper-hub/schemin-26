@@ -1,6 +1,6 @@
 # Schemin' '26 Living Novel — Adaptive Book Architecture V2
 
-**Status:** RELEASE CANDIDATE — Author Council Engagement 001  
+**Status:** RELEASED / ACTIVE — Author Council Engagement 001  
 **Principle:** movements follow story-state transitions, not fantasy Week numbers.
 
 ## Closed opening canon
