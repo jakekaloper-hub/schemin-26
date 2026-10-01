@@ -28,7 +28,7 @@ Current projections are observational only and may not be treated as outcomes:
 - Character Control Plane v2: RELEASE_CANDIDATE / NOT ACTIVE.
 - active character authority: current canon stack.
 - World Engine V1.1 / Universe OS V1.2 / Atlas Control Plane V2: ACTIVE.
-- Chapter III: CANON PROPOSAL / founder approval required.
+- Chapter III: FOUNDER-APPROVED HARD MANUSCRIPT CANON / CLOSED.
 
 ## Board decision
 
