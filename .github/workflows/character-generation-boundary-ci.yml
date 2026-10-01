@@ -1,0 +1,53 @@
+name: Character Generation Boundary CI
+
+on:
+  push:
+    paths:
+      - "canon/characters/runtime/**"
+      - "canon/characters/tests/**"
+      - "canon/characters/reference_sources_v1.json"
+      - "canon/characters/renderer_capabilities_v1.json"
+      - "canon/characters/*/REFERENCE_MANIFEST.yaml"
+      - "planning/render-adapter/**"
+      - "tests/test_render_adapter_candidate.py"
+      - ".github/workflows/character-generation-boundary-ci.yml"
+  pull_request:
+    paths:
+      - "canon/characters/runtime/**"
+      - "canon/characters/tests/**"
+      - "canon/characters/reference_sources_v1.json"
+      - "canon/characters/renderer_capabilities_v1.json"
+      - "canon/characters/*/REFERENCE_MANIFEST.yaml"
+      - "planning/render-adapter/**"
+      - "tests/test_render_adapter_candidate.py"
+      - ".github/workflows/character-generation-boundary-ci.yml"
+  workflow_dispatch:
+
+jobs:
+  boundary:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile active character runtime
+        run: python -m compileall canon/characters/runtime
+      - name: Active character boundary tests
+        run: python -m unittest discover -s canon/characters/tests -t . -v
+      - name: Render Adapter character-boundary regression
+        run: python -m unittest tests/test_render_adapter_candidate.py -v
+      - name: Source-byte state must fail closed
+        shell: bash
+        run: |
+          set +e
+          python canon/characters/runtime/source_byte_integrity.py --json
+          code=$?
+          set -e
+          if [ "$code" -ne 0 ] && [ "$code" -ne 2 ]; then
+            echo "Unexpected source-byte integrity failure code: $code"
+            exit "$code"
+          fi
+          if [ "$code" -eq 2 ]; then
+            echo "Expected HOLD: SOURCE_BYTES_REQUIRED"
+          fi

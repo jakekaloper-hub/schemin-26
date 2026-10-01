@@ -56,3 +56,27 @@ T04 package specifications exist for all 12 immutable owner IDs and passed struc
 
 ## Execution run — T05 through T16 preflight
 T05–T14 executed in dependency order with gate reports. T15 was reached and correctly HOLDs because G1 durable binary portability and G2/G3 Austin/Pitts modernized master references are not closed. T16 is dependency-blocked and may not certify ACTIVE.
+
+
+## Character reference portability & renderer-binding mission — 2026-09-30
+
+Mission command: `/bullpen mission close Schemin ’26 character-reference portability and renderer-binding blocker`.
+
+### Reconciled state
+- 12/12 Commissioner-approved source references remain registered with exact filenames, conversation file IDs and approved SHA-256 values.
+- 12/12 exact source file IDs are still visible in the Schemin '26 Library surface with expected filenames and byte-size metadata.
+- 0/12 exact source binaries are present under the required repository path `canon/characters/assets/<CHAR-ID>/primary/`.
+- Current execution context cannot materialize the Library-backed image files as raw bytes; fresh SHA-256 computation and durable Git ingestion therefore remain unproven.
+- 12/12 owner packages now have normalized `REFERENCE_MANIFEST.yaml` records and explicitly report `SOURCE_BYTES_REQUIRED` rather than implying portability.
+- Active generation runtime now requires approved-hash == mounted-byte-hash plus repository path, Git blob SHA, byte size, mount receipt, capability receipt, generation-reference receipt and deterministic subject-binding receipt.
+- Current ChatGPT image-rendering route remains `PROVIDER_CAPABILITY_BLOCKED` under Schemin policy because the available interface does not expose a mounted-byte-hash receipt or deterministic per-subject binding receipt.
+- Render Adapter candidate remains RESEARCH_CANDIDATE / NOT ACTIVE and now consumes Character-authority integrity/mount/binding receipts instead of inferring readiness.
+
+### Gate disposition
+- **G1 durable reference binaries:** OPEN — `SOURCE_BYTES_REQUIRED`.
+- **real renderer subject-binding proof:** OPEN — `PROVIDER_CAPABILITY_BLOCKED`.
+- **T15:** HOLD.
+- **T16:** BLOCKED_BY_T15.
+- **Character Control Plane v2:** RELEASE_CANDIDATE / NOT ACTIVE.
+
+No source path, hash, provider capability or renderer receipt was fabricated.

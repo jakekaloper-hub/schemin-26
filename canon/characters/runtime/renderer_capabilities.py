@@ -1,4 +1,9 @@
-"""Renderer capability negotiation. Prompt-only or pooled-reference fallback is prohibited."""
+"""Renderer capability negotiation.
+
+Prompt-only or pooled-reference fallback is prohibited. A renderer route must
+provide auditable evidence for attachment, mounted-byte integrity and
+per-subject binding before it can be used for governed character rendering.
+"""
 
 
 def negotiate(route, capabilities, reference_count):
@@ -9,9 +14,16 @@ def negotiate(route, capabilities, reference_count):
             "reason": "UNKNOWN_ROUTE",
         }
 
+    if c.get("evidence_state") != "PROVEN" or not c.get("capability_receipt_id"):
+        return {
+            "state": "GENERATION_ROUTE_SUBJECT_BINDING_UNPROVEN",
+            "reason": "CAPABILITY_EVIDENCE_UNPROVEN",
+        }
+
     reference_required = (
         "supports_image_references",
         "returns_attachment_receipt",
+        "returns_mounted_byte_hash_receipt",
     )
     if not all(c.get(key) is True for key in reference_required):
         return {
@@ -29,7 +41,8 @@ def negotiate(route, capabilities, reference_count):
             "reason": "SUBJECT_BINDING_CONTRACT_UNPROVEN",
         }
 
-    if c.get("max_references", 0) < reference_count:
+    max_references = c.get("max_references")
+    if not isinstance(max_references, int) or max_references < reference_count:
         return {
             "state": "GENERATION_ROUTE_REFERENCE_UNSUPPORTED",
             "reason": "REFERENCE_LIMIT",
@@ -38,6 +51,7 @@ def negotiate(route, capabilities, reference_count):
     return {
         "state": "CAPABILITY_VERIFIED",
         "route": route,
+        "capability_receipt_id": c["capability_receipt_id"],
         "reference_mechanism": c.get("reference_mechanism"),
         "subject_binding_mechanism": c.get("subject_binding_mechanism"),
     }

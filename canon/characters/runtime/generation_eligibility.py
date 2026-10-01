@@ -26,6 +26,13 @@ def _mount_claims(mounts):
             {
                 "character_id": mount.character_id,
                 "asset_hash": mount.sha256,
+                "expected_sha256": mount.expected_sha256 or mount.sha256,
+                "mounted_sha256": mount.mounted_sha256,
+                "repository_path": mount.repository_path,
+                "git_blob_sha": mount.git_blob_sha,
+                "byte_size": mount.byte_size,
+                "mount_receipt_id": mount.mount_receipt_id,
+                "capability_receipt_id": mount.capability_receipt_id,
                 "subject_slot": mount.subject_slot,
                 "subject_binding_id": mount.subject_binding_id,
                 "generation_reference_id": mount.generation_reference_id,
@@ -43,7 +50,7 @@ def issue_eligibility(
     route,
     capability,
     signing_key=None,
-    policy_version="CCCP-INC-3",
+    policy_version="CCCP-INC-4",
     now=None,
     ttl=300,
     nonce=None,
@@ -55,7 +62,7 @@ def issue_eligibility(
         }
 
     by_id = {mount.character_id: mount for mount in mounts}
-    if set(by_id) != set(character_ids):
+    if len(by_id) != len(mounts) or set(by_id) != set(character_ids):
         return {
             "state": "GENERATION_BLOCKED",
             "reason": "CHARACTER_REFERENCE_SET_MISMATCH",
@@ -66,12 +73,27 @@ def issue_eligibility(
             "reason": "CHARACTER_REFERENCE_OR_BINDING_NOT_PROVEN",
         }
 
-    slots = [by_id[cid].subject_slot for cid in character_ids]
-    bindings = [by_id[cid].subject_binding_id for cid in character_ids]
-    if len(set(slots)) != len(slots) or len(set(bindings)) != len(bindings):
+    capability_receipt_id = capability.get("capability_receipt_id")
+    if not capability_receipt_id or any(
+        by_id[cid].capability_receipt_id != capability_receipt_id
+        for cid in character_ids
+    ):
         return {
             "state": "GENERATION_BLOCKED",
-            "reason": "SUBJECT_BINDING_NOT_UNIQUE",
+            "reason": "CAPABILITY_RECEIPT_MISMATCH",
+        }
+
+    slots = [by_id[cid].subject_slot for cid in character_ids]
+    bindings = [by_id[cid].subject_binding_id for cid in character_ids]
+    mount_receipts = [by_id[cid].mount_receipt_id for cid in character_ids]
+    if (
+        len(set(slots)) != len(slots)
+        or len(set(bindings)) != len(bindings)
+        or len(set(mount_receipts)) != len(mount_receipts)
+    ):
+        return {
+            "state": "GENERATION_BLOCKED",
+            "reason": "SUBJECT_OR_MOUNT_BINDING_NOT_UNIQUE",
         }
 
     if not signing_key:
@@ -86,6 +108,7 @@ def issue_eligibility(
         "character_ids": sorted(character_ids),
         "mounts": _mount_claims(mounts),
         "route": route,
+        "capability_receipt_id": capability_receipt_id,
         "policy_version": policy_version,
         "issued_at": issued,
         "expires_at": issued + ttl,

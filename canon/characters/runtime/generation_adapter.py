@@ -6,6 +6,16 @@ Successful invocation is not Character QA and never returns publication PASS.
 from .generation_eligibility import validate_eligibility
 
 
+def _expected_execution_receipt(request_id, route, mounts):
+    return {
+        "request_id": request_id,
+        "route": route,
+        "mount_receipt_ids": sorted(m.mount_receipt_id for m in mounts),
+        "generation_reference_ids": sorted(m.generation_reference_id for m in mounts),
+        "subject_binding_ids": sorted(m.subject_binding_id for m in mounts),
+    }
+
+
 def governed_generate(
     renderer,
     eligibility,
@@ -48,9 +58,21 @@ def governed_generate(
             "result": result,
         }
 
+    expected = _expected_execution_receipt(request_id, route, mounts)
+    if result.get("execution_receipt") != expected:
+        return {
+            "state": "GENERATION_OUTPUT_BLOCKED",
+            "reason": "REFERENCE_EXECUTION_RECEIPT_REQUIRED_OR_MISMATCH",
+            "renderer_invoked": True,
+            "output_instance_id": result.get("output_instance_id"),
+            "expected_execution_receipt": expected,
+            "result": result,
+        }
+
     return {
         "state": "GENERATION_EXECUTED_PENDING_CHARACTER_QA",
         "renderer_invoked": True,
         "output_instance_id": result["output_instance_id"],
+        "execution_receipt": result["execution_receipt"],
         "result": result,
     }

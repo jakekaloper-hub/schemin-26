@@ -38,8 +38,12 @@ def validate_render_request(req:dict)->list[str]:
         if not inputs.get("publication_packet"): errors.append("publication_packet required")
         for i,p in enumerate(packets):
             if p.get("authority_state")!="ACTIVE": errors.append(f"character_packets[{i}] authority must be ACTIVE")
+            if p.get("source_integrity_state")!="PASS": errors.append(f"character_packets[{i}] source integrity must PASS")
             if p.get("render_ready") is not True: errors.append(f"character_packets[{i}] must be render_ready")
             if not p.get("reference_assets"): errors.append(f"character_packets[{i}] reference_assets required")
+            if not p.get("mount_receipts"): errors.append(f"character_packets[{i}] mount_receipts required")
+            if not p.get("capability_receipt_id"): errors.append(f"character_packets[{i}] capability receipt required")
+            if p.get("execution_receipt_required") is not True: errors.append(f"character_packets[{i}] execution receipt must be required")
         if inputs.get("location_bearing") is True and not inputs.get("world_packet"):
             errors.append("world_packet required for location-bearing render")
 
