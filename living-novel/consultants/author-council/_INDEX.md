@@ -1,6 +1,6 @@
 # Novel Author Council — Index
 
-**Status:** RELEASE CANDIDATE  
+**Status:** RELEASED / ACTIVE — ADVISORY ONLY  
 **Program:** Author Consulting Program V2  
 **Authority:** advisory only
 
@@ -25,6 +25,10 @@
 - `SELECTION_MATRIX_V1.md` — choose consultants by literary problem.
 - `ENGAGEMENT_MANIFEST_TEMPLATE_V1.json` — frozen engagement contract.
 - `ROUND_MEMO_TEMPLATE_V1.md` — consistent independent round output.
+
+## Release evidence
+
+- `NOVEL_AUTHOR_CONSULTING_PROGRAM_V2_RELEASE_RECEIPT.md`
 
 ## Advisor dossiers
 

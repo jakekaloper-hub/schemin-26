@@ -195,6 +195,26 @@ The council provides research-grounded external craft perspective through publis
 
 Natural-language requests such as "Bullpen, call the Novel consultants on this" route through Bullpen's shared external-advisory capability. Full-council review is reserved for cross-cutting architecture; targeted panels are the default.
 
+### Living Novel — Author Consulting Program V2
+
+**Status:** RELEASED / ACTIVE — ADVISORY ONLY (2026-10-01).**
+
+This program is the named author-method layer beneath the active Novel External Advisory Council.
+
+**Core Seven:** J.R.R. Tolkien; George R.R. Martin; J.K. Rowling; John Grisham; Ursula K. Le Guin; Brandon Sanderson; Joe Abercrombie.
+
+Read:
+- `living-novel/consultants/author-council/_INDEX.md`
+- `living-novel/consultants/author-council/_PROGRAM_CHARTER.md`
+- `living-novel/consultants/author-council/AUTHOR_COUNCIL_MASTER_MANDATE_V2.md`
+- `living-novel/consultants/author-council/SELECTION_MATRIX_V1.md`
+- `living-novel/consultants/author-council/BULLPEN_EXECUTION_PROMPT_V2.md`
+- `living-novel/consultants/author-council/NOVEL_AUTHOR_CONSULTING_PROGRAM_V2_RELEASE_RECEIPT.md`
+
+Operating model: informed pre-work → independent specialist rounds → Bullpen cross-examination → implementation between rounds → adversarial re-review → final synthesis → audit → durable learning.
+
+The names identify published-method lenses only. They do not imply live participation, endorsement or permission to imitate prose. Author Room hydration, verified evidence, canon and Novel OS remain upstream authority.
+
 ### Jack Mercer
 Read:
 - `mercer/JACK_MERCER_FRONT_OFFICE_V2_SPEC.md`

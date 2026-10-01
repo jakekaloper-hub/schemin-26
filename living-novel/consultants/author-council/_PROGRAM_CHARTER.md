@@ -1,6 +1,6 @@
 # Novel Author Consulting Program V2 — Program Charter
 
-**Status:** RELEASE CANDIDATE
+**Status:** RELEASED / ACTIVE — ADVISORY ONLY
 **Program home:** `living-novel/consultants/author-council/`
 **Chair:** The Closer
 **Internal narrative authority:** The Beat Writer / Novel OS
