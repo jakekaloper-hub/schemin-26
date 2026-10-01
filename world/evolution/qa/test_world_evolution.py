@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import copy,json,sys,unittest
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[2]
+ROOT=Path(__file__).resolve().parents[3]
 sys.path.insert(0,str(ROOT/"world"/"evolution"))
 from engine.world_evolution import world_payloads,validate_request,apply_to_payloads
 
