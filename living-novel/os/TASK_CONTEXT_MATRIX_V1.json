@@ -1,0 +1,175 @@
+{
+  "version": "1.0.0",
+  "project": "Schemin '26 Living Novel",
+  "authority": "Novel OS + The Librarian / Umpire",
+  "purpose": "Select the minimum Novel OS context for a literary task without loading the full living-novel tree.",
+  "defaults": {
+    "max_matches": 2,
+    "max_context_sources": 4,
+    "context_sources": [
+      "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md"
+    ]
+  },
+  "routes": [
+    {
+      "id": "novel-orientation",
+      "terms": [
+        "novel status",
+        "novel orientation",
+        "where are we",
+        "current novel",
+        "novel os"
+      ],
+      "context_sources": [
+        "living-novel/README.md",
+        "living-novel/MASTER_DIRECTIVE.md",
+        "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md"
+      ]
+    },
+    {
+      "id": "chapter-planning-and-drafting",
+      "terms": [
+        "chapter",
+        "draft",
+        "write",
+        "prose",
+        "scene",
+        "manuscript",
+        "chapter dossier",
+        "pre prose",
+        "pre-prose"
+      ],
+      "context_sources": [
+        "living-novel/os/templates/MINIMUM_PRE_PROSE_GATE_V1.md",
+        "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md",
+        "living-novel/os/NOVEL_BOOK_ARCHITECTURE_V2.md",
+        "living-novel/os/state/CURRENT_OPEN_LOOP_LEDGER_V1.json"
+      ]
+    },
+    {
+      "id": "pov-and-character",
+      "terms": [
+        "pov",
+        "point of view",
+        "character arc",
+        "character voice",
+        "motivation",
+        "relationship",
+        "character consequence"
+      ],
+      "context_sources": [
+        "living-novel/os/NOVEL_POV_CONSTITUTION_V1.md",
+        "living-novel/os/state/CURRENT_OPEN_LOOP_LEDGER_V1.json",
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+        "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md"
+      ]
+    },
+    {
+      "id": "canon-and-release",
+      "terms": [
+        "canon",
+        "canonize",
+        "hard canon",
+        "release",
+        "approve chapter",
+        "founder approval",
+        "continuity gate"
+      ],
+      "context_sources": [
+        "living-novel/os/NOVEL_OS_CANON_PROTOCOL_V1.md",
+        "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+        "PROJECT_CONTROL_REGISTRY.md"
+      ]
+    },
+    {
+      "id": "continuity-and-history",
+      "terms": [
+        "continuity",
+        "history",
+        "historical",
+        "contradiction",
+        "open loop",
+        "unresolved",
+        "timeline",
+        "archaeology"
+      ],
+      "context_sources": [
+        "living-novel/os/NOVEL_OS_PHASE_4_CONTINUITY_INTELLIGENCE_V1.md",
+        "living-novel/os/state/CURRENT_OPEN_LOOP_LEDGER_V1.json",
+        "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md"
+      ]
+    },
+    {
+      "id": "live-season-translation",
+      "terms": [
+        "week",
+        "live season",
+        "fantasy result",
+        "matchup result",
+        "league event",
+        "event translation",
+        "weekly event"
+      ],
+      "context_sources": [
+        "living-novel/os/NOVEL_OS_PHASE_7_LIVE_SEASON_ENGINE_V1.md",
+        "living-novel/MASTER_DIRECTIVE.md",
+        "data-gateway/_INDEX.md",
+        "living-novel/os/state/CURRENT_OPEN_LOOP_LEDGER_V1.json"
+      ]
+    },
+    {
+      "id": "world-and-geography",
+      "terms": [
+        "world",
+        "geography",
+        "atlas",
+        "location",
+        "travel",
+        "terrain",
+        "environment",
+        "realm",
+        "settlement"
+      ],
+      "context_sources": [
+        "living-novel/world/PHYSICAL_WORLD.md",
+        "world/atlas/ATLAS_CONTROL_PLANE_V2.md",
+        "living-novel/os/LOCATION_CONTROL_PLANE_INTEGRATION_PATCH_V1.md",
+        "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md"
+      ]
+    },
+    {
+      "id": "visual-storytelling",
+      "terms": [
+        "illustration",
+        "visual",
+        "art",
+        "render",
+        "scene art",
+        "storyboard",
+        "composition"
+      ],
+      "context_sources": [
+        "living-novel/os/NOVEL_OS_PHASE_6_VISUAL_ENGINE_V1.md",
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+        "living-novel/os/LOCATION_CONTROL_PLANE_INTEGRATION_PATCH_V1.md"
+      ]
+    },
+    {
+      "id": "consultant-review",
+      "terms": [
+        "consultant",
+        "author council",
+        "external advisory",
+        "martin",
+        "le guin",
+        "grisham",
+        "full seven"
+      ],
+      "context_sources": [
+        "living-novel/consultants/NOVEL_EXTERNAL_ADVISORY_COUNCIL_V1.md",
+        "living-novel/os/NOVEL_EXTERNAL_ADVISORY_INTEGRATION_PATCH_V1.md",
+        "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md"
+      ]
+    }
+  ]
+}
