@@ -781,10 +781,10 @@
       "owner": "the_closer",
       "reviewer": "the_umpire",
       "priority": "P1",
-      "status": "VERIFYING",
+      "status": "COMPLETE",
       "created_at": "2026-10-01",
       "started_at": "2026-10-01",
-      "completed_at": null,
+      "completed_at": "2026-10-01",
       "dependencies": [
         "REPO-ARCH-V2-004"
       ],
@@ -824,13 +824,29 @@
           "status": "PASS"
         },
         {
-          "type": "merge_and_main_readback",
-          "ref": "run:pending",
-          "status": "PENDING"
+          "type": "merge",
+          "ref": "commit:0de6533ccfa66b50ac635fe6d16c40d5c34f02f2",
+          "status": "PASS",
+          "note": "Repository Architecture V2 implementation merged via PR #91."
+        },
+        {
+          "type": "main_readback",
+          "ref": "docs/architecture/REPOSITORY_ARCHITECTURE_V2.md@76c4f9841e8013e091128bf67b65985e5b42f0b4",
+          "status": "PASS"
+        },
+        {
+          "type": "main_readback",
+          "ref": "governance/repository-architecture/FOLDER_DOMAIN_REGISTRY_V2.json@e7bcd3acbb2b7e57bd07f5bc20e92842195da61b",
+          "status": "PASS"
+        },
+        {
+          "type": "main_readback",
+          "ref": "governance/repository-protection/merge_gate.py@b7ff554cd5a6aabf8de3ece189b9f549445069a1",
+          "status": "PASS"
         }
       ],
       "source_authority": "docs/architecture/REPOSITORY_ARCHITECTURE_V2.md",
-      "next_action": "Merge PR #91, perform fresh main readback, then issue release receipt.",
+      "next_action": "None; Repository Architecture V2 is active. Future structural changes must satisfy placement governance and the architecture merge gate.",
       "aliases": [
         "repository architecture release"
       ],
