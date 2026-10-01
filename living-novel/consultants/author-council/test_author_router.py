@@ -9,6 +9,11 @@ router = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(router)
 
 class AuthorRouterTests(unittest.TestCase):
+    def test_registry_owns_panel_composition(self):
+        reg = router.load_registry()
+        r = router.select_consultants("Bullpen run the POV panel.", registry=reg)
+        self.assertEqual(r["advisors"], reg["author_council"]["panels"]["pov_character"])
+
     def test_named_author_routes_exactly(self):
         r = router.select_consultants("Bullpen, call Grisham on this chapter.")
         self.assertEqual(r["advisors"], ["john_grisham"])
