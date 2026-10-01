@@ -16,6 +16,7 @@ def governed_generate(
     payload,
     signing_key=None,
     consumed_nonces=None,
+    now=None,
 ):
     state = validate_eligibility(
         eligibility,
@@ -24,6 +25,7 @@ def governed_generate(
         mounts,
         route,
         signing_key=signing_key,
+        now=now,
         consumed_nonces=consumed_nonces,
     )
     if state != "GENERATION_ELIGIBLE":
