@@ -1,6 +1,6 @@
 {
-  "schema_version": "2.0",
-  "rule": "Structural reference bytes are deterministic and repo-addressable. Cinematic references require separate human approval.",
+  "schema_version": "2.1",
+  "rule": "Structural reference bytes are deterministic and repo-addressable. External renderer injection requires a separate proven handoff and fails closed until then.",
   "locations": [
     {
       "location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
@@ -9,15 +9,19 @@
       "approved_reference_uris": [],
       "candidate_reference_paths": [],
       "blockers": [
-        "No human-approved cinematic environment plate is registered for this location."
+        "No human-approved cinematic environment plate is registered for this location.",
+        "External renderer injection of structural bytes is not yet proven."
       ],
-      "rule": "Structural grounding is approved. Exact cinematic-reference-required workflows remain HUMAN_REVIEW_REQUIRED.",
+      "rule": "Structural grounding is approved at repository-byte level. Renderer-required workflows remain HUMAN_REVIEW_REQUIRED until injection is proven.",
       "structural_reference_status": "APPROVED_STRUCTURAL_REFERENCE",
       "approved_structural_reference_uris": [
         "world/environment-references/plates/LOC-TRADE-JEDI-MOUNTAIN-BASE/STRUCTURAL_PLATE.svg"
       ],
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
-      "approved_cinematic_reference_uris": []
+      "approved_cinematic_reference_uris": [],
+      "repo_byte_status": "VERIFIED_REPO_PATH",
+      "renderer_injection_status": "UNPROVEN",
+      "renderer_ready": false
     },
     {
       "location_id": "LOC-MUD-DOGS-SWAMP",
@@ -26,15 +30,19 @@
       "approved_reference_uris": [],
       "candidate_reference_paths": [],
       "blockers": [
-        "No human-approved cinematic environment plate is registered for this location."
+        "No human-approved cinematic environment plate is registered for this location.",
+        "External renderer injection of structural bytes is not yet proven."
       ],
-      "rule": "Structural grounding is approved. Exact cinematic-reference-required workflows remain HUMAN_REVIEW_REQUIRED.",
+      "rule": "Structural grounding is approved at repository-byte level. Renderer-required workflows remain HUMAN_REVIEW_REQUIRED until injection is proven.",
       "structural_reference_status": "APPROVED_STRUCTURAL_REFERENCE",
       "approved_structural_reference_uris": [
         "world/environment-references/plates/LOC-MUD-DOGS-SWAMP/STRUCTURAL_PLATE.svg"
       ],
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
-      "approved_cinematic_reference_uris": []
+      "approved_cinematic_reference_uris": [],
+      "repo_byte_status": "VERIFIED_REPO_PATH",
+      "renderer_injection_status": "UNPROVEN",
+      "renderer_ready": false
     },
     {
       "location_id": "LOC-COUNTRY-CLUB-JACKSON",
@@ -43,15 +51,19 @@
       "approved_reference_uris": [],
       "candidate_reference_paths": [],
       "blockers": [
-        "No human-approved cinematic environment plate is registered for this location."
+        "No human-approved cinematic environment plate is registered for this location.",
+        "External renderer injection of structural bytes is not yet proven."
       ],
-      "rule": "Structural grounding is approved. Exact cinematic-reference-required workflows remain HUMAN_REVIEW_REQUIRED.",
+      "rule": "Structural grounding is approved at repository-byte level. Renderer-required workflows remain HUMAN_REVIEW_REQUIRED until injection is proven.",
       "structural_reference_status": "APPROVED_STRUCTURAL_REFERENCE",
       "approved_structural_reference_uris": [
         "world/environment-references/plates/LOC-COUNTRY-CLUB-JACKSON/STRUCTURAL_PLATE.svg"
       ],
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
-      "approved_cinematic_reference_uris": []
+      "approved_cinematic_reference_uris": [],
+      "repo_byte_status": "VERIFIED_REPO_PATH",
+      "renderer_injection_status": "UNPROVEN",
+      "renderer_ready": false
     },
     {
       "location_id": "LOC-ARSENAL-BARBERSHOP",
@@ -60,15 +72,19 @@
       "approved_reference_uris": [],
       "candidate_reference_paths": [],
       "blockers": [
-        "No human-approved cinematic environment plate is registered for this location."
+        "No human-approved cinematic environment plate is registered for this location.",
+        "External renderer injection of structural bytes is not yet proven."
       ],
-      "rule": "Structural grounding is approved. Exact cinematic-reference-required workflows remain HUMAN_REVIEW_REQUIRED.",
+      "rule": "Structural grounding is approved at repository-byte level. Renderer-required workflows remain HUMAN_REVIEW_REQUIRED until injection is proven.",
       "structural_reference_status": "APPROVED_STRUCTURAL_REFERENCE",
       "approved_structural_reference_uris": [
         "world/environment-references/plates/LOC-ARSENAL-BARBERSHOP/STRUCTURAL_PLATE.svg"
       ],
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
-      "approved_cinematic_reference_uris": []
+      "approved_cinematic_reference_uris": [],
+      "repo_byte_status": "VERIFIED_REPO_PATH",
+      "renderer_injection_status": "UNPROVEN",
+      "renderer_ready": false
     },
     {
       "location_id": "LOC-STORM-BOWL",
@@ -77,15 +93,19 @@
       "approved_reference_uris": [],
       "candidate_reference_paths": [],
       "blockers": [
-        "No human-approved cinematic environment plate is registered for this location."
+        "No human-approved cinematic environment plate is registered for this location.",
+        "External renderer injection of structural bytes is not yet proven."
       ],
-      "rule": "Structural grounding is approved. Exact cinematic-reference-required workflows remain HUMAN_REVIEW_REQUIRED.",
+      "rule": "Structural grounding is approved at repository-byte level. Renderer-required workflows remain HUMAN_REVIEW_REQUIRED until injection is proven.",
       "structural_reference_status": "APPROVED_STRUCTURAL_REFERENCE",
       "approved_structural_reference_uris": [
         "world/environment-references/plates/LOC-STORM-BOWL/STRUCTURAL_PLATE.svg"
       ],
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
-      "approved_cinematic_reference_uris": []
+      "approved_cinematic_reference_uris": [],
+      "repo_byte_status": "VERIFIED_REPO_PATH",
+      "renderer_injection_status": "UNPROVEN",
+      "renderer_ready": false
     },
     {
       "location_id": "LOC-LLC-BOARDROOM",
@@ -94,15 +114,19 @@
       "approved_reference_uris": [],
       "candidate_reference_paths": [],
       "blockers": [
-        "No human-approved cinematic environment plate is registered for this location."
+        "No human-approved cinematic environment plate is registered for this location.",
+        "External renderer injection of structural bytes is not yet proven."
       ],
-      "rule": "Structural grounding is approved. Exact cinematic-reference-required workflows remain HUMAN_REVIEW_REQUIRED.",
+      "rule": "Structural grounding is approved at repository-byte level. Renderer-required workflows remain HUMAN_REVIEW_REQUIRED until injection is proven.",
       "structural_reference_status": "APPROVED_STRUCTURAL_REFERENCE",
       "approved_structural_reference_uris": [
         "world/environment-references/plates/LOC-LLC-BOARDROOM/STRUCTURAL_PLATE.svg"
       ],
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
-      "approved_cinematic_reference_uris": []
+      "approved_cinematic_reference_uris": [],
+      "repo_byte_status": "VERIFIED_REPO_PATH",
+      "renderer_injection_status": "UNPROVEN",
+      "renderer_ready": false
     },
     {
       "location_id": "LOC-RED-RUINS",
@@ -111,15 +135,19 @@
       "approved_reference_uris": [],
       "candidate_reference_paths": [],
       "blockers": [
-        "No human-approved cinematic environment plate is registered for this location."
+        "No human-approved cinematic environment plate is registered for this location.",
+        "External renderer injection of structural bytes is not yet proven."
       ],
-      "rule": "Structural grounding is approved. Exact cinematic-reference-required workflows remain HUMAN_REVIEW_REQUIRED.",
+      "rule": "Structural grounding is approved at repository-byte level. Renderer-required workflows remain HUMAN_REVIEW_REQUIRED until injection is proven.",
       "structural_reference_status": "APPROVED_STRUCTURAL_REFERENCE",
       "approved_structural_reference_uris": [
         "world/environment-references/plates/LOC-RED-RUINS/STRUCTURAL_PLATE.svg"
       ],
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
-      "approved_cinematic_reference_uris": []
+      "approved_cinematic_reference_uris": [],
+      "repo_byte_status": "VERIFIED_REPO_PATH",
+      "renderer_injection_status": "UNPROVEN",
+      "renderer_ready": false
     },
     {
       "location_id": "LOC-TDS-WATERFALL-TEMPLE",
@@ -128,15 +156,19 @@
       "approved_reference_uris": [],
       "candidate_reference_paths": [],
       "blockers": [
-        "No human-approved cinematic environment plate is registered for this location."
+        "No human-approved cinematic environment plate is registered for this location.",
+        "External renderer injection of structural bytes is not yet proven."
       ],
-      "rule": "Structural grounding is approved. Exact cinematic-reference-required workflows remain HUMAN_REVIEW_REQUIRED.",
+      "rule": "Structural grounding is approved at repository-byte level. Renderer-required workflows remain HUMAN_REVIEW_REQUIRED until injection is proven.",
       "structural_reference_status": "APPROVED_STRUCTURAL_REFERENCE",
       "approved_structural_reference_uris": [
         "world/environment-references/plates/LOC-TDS-WATERFALL-TEMPLE/STRUCTURAL_PLATE.svg"
       ],
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
-      "approved_cinematic_reference_uris": []
+      "approved_cinematic_reference_uris": [],
+      "repo_byte_status": "VERIFIED_REPO_PATH",
+      "renderer_injection_status": "UNPROVEN",
+      "renderer_ready": false
     },
     {
       "location_id": "LOC-CHILI-STABLE",
@@ -145,15 +177,19 @@
       "approved_reference_uris": [],
       "candidate_reference_paths": [],
       "blockers": [
-        "No human-approved cinematic environment plate is registered for this location."
+        "No human-approved cinematic environment plate is registered for this location.",
+        "External renderer injection of structural bytes is not yet proven."
       ],
-      "rule": "Structural grounding is approved. Exact cinematic-reference-required workflows remain HUMAN_REVIEW_REQUIRED.",
+      "rule": "Structural grounding is approved at repository-byte level. Renderer-required workflows remain HUMAN_REVIEW_REQUIRED until injection is proven.",
       "structural_reference_status": "APPROVED_STRUCTURAL_REFERENCE",
       "approved_structural_reference_uris": [
         "world/environment-references/plates/LOC-CHILI-STABLE/STRUCTURAL_PLATE.svg"
       ],
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
-      "approved_cinematic_reference_uris": []
+      "approved_cinematic_reference_uris": [],
+      "repo_byte_status": "VERIFIED_REPO_PATH",
+      "renderer_injection_status": "UNPROVEN",
+      "renderer_ready": false
     },
     {
       "location_id": "LOC-BELT-KEEPER-KEEP",
@@ -164,15 +200,19 @@
         "chronicles/production/reference-packets/environments/ENV-FORTRESS/PACKET.md"
       ],
       "blockers": [
-        "No human-approved cinematic environment plate is registered for this location."
+        "No human-approved cinematic environment plate is registered for this location.",
+        "External renderer injection of structural bytes is not yet proven."
       ],
-      "rule": "Structural grounding is approved. Exact cinematic-reference-required workflows remain HUMAN_REVIEW_REQUIRED.",
+      "rule": "Structural grounding is approved at repository-byte level. Renderer-required workflows remain HUMAN_REVIEW_REQUIRED until injection is proven.",
       "structural_reference_status": "APPROVED_STRUCTURAL_REFERENCE",
       "approved_structural_reference_uris": [
         "world/environment-references/plates/LOC-BELT-KEEPER-KEEP/STRUCTURAL_PLATE.svg"
       ],
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
-      "approved_cinematic_reference_uris": []
+      "approved_cinematic_reference_uris": [],
+      "repo_byte_status": "VERIFIED_REPO_PATH",
+      "renderer_injection_status": "UNPROVEN",
+      "renderer_ready": false
     },
     {
       "location_id": "LOC-SLOB-FOOTHILL-CAMP",
@@ -181,15 +221,19 @@
       "approved_reference_uris": [],
       "candidate_reference_paths": [],
       "blockers": [
-        "No human-approved cinematic environment plate is registered for this location."
+        "No human-approved cinematic environment plate is registered for this location.",
+        "External renderer injection of structural bytes is not yet proven."
       ],
-      "rule": "Structural grounding is approved. Exact cinematic-reference-required workflows remain HUMAN_REVIEW_REQUIRED.",
+      "rule": "Structural grounding is approved at repository-byte level. Renderer-required workflows remain HUMAN_REVIEW_REQUIRED until injection is proven.",
       "structural_reference_status": "APPROVED_STRUCTURAL_REFERENCE",
       "approved_structural_reference_uris": [
         "world/environment-references/plates/LOC-SLOB-FOOTHILL-CAMP/STRUCTURAL_PLATE.svg"
       ],
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
-      "approved_cinematic_reference_uris": []
+      "approved_cinematic_reference_uris": [],
+      "repo_byte_status": "VERIFIED_REPO_PATH",
+      "renderer_injection_status": "UNPROVEN",
+      "renderer_ready": false
     },
     {
       "location_id": "LOC-CHINS-ROAD-COMMONS",
@@ -198,15 +242,19 @@
       "approved_reference_uris": [],
       "candidate_reference_paths": [],
       "blockers": [
-        "No human-approved cinematic environment plate is registered for this location."
+        "No human-approved cinematic environment plate is registered for this location.",
+        "External renderer injection of structural bytes is not yet proven."
       ],
-      "rule": "Structural grounding is approved. Exact cinematic-reference-required workflows remain HUMAN_REVIEW_REQUIRED.",
+      "rule": "Structural grounding is approved at repository-byte level. Renderer-required workflows remain HUMAN_REVIEW_REQUIRED until injection is proven.",
       "structural_reference_status": "APPROVED_STRUCTURAL_REFERENCE",
       "approved_structural_reference_uris": [
         "world/environment-references/plates/LOC-CHINS-ROAD-COMMONS/STRUCTURAL_PLATE.svg"
       ],
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
-      "approved_cinematic_reference_uris": []
+      "approved_cinematic_reference_uris": [],
+      "repo_byte_status": "VERIFIED_REPO_PATH",
+      "renderer_injection_status": "UNPROVEN",
+      "renderer_ready": false
     },
     {
       "location_id": "LOC-LEAGUE-CHAMBER",
@@ -215,15 +263,19 @@
       "approved_reference_uris": [],
       "candidate_reference_paths": [],
       "blockers": [
-        "No human-approved cinematic environment plate is registered for this location."
+        "No human-approved cinematic environment plate is registered for this location.",
+        "External renderer injection of structural bytes is not yet proven."
       ],
-      "rule": "Structural grounding is approved. Exact cinematic-reference-required workflows remain HUMAN_REVIEW_REQUIRED.",
+      "rule": "Structural grounding is approved at repository-byte level. Renderer-required workflows remain HUMAN_REVIEW_REQUIRED until injection is proven.",
       "structural_reference_status": "APPROVED_STRUCTURAL_REFERENCE",
       "approved_structural_reference_uris": [
         "world/environment-references/plates/LOC-LEAGUE-CHAMBER/STRUCTURAL_PLATE.svg"
       ],
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
-      "approved_cinematic_reference_uris": []
+      "approved_cinematic_reference_uris": [],
+      "repo_byte_status": "VERIFIED_REPO_PATH",
+      "renderer_injection_status": "UNPROVEN",
+      "renderer_ready": false
     },
     {
       "location_id": "LOC-PITTSYS-BOOK",
@@ -232,15 +284,19 @@
       "approved_reference_uris": [],
       "candidate_reference_paths": [],
       "blockers": [
-        "No human-approved cinematic environment plate is registered for this location."
+        "No human-approved cinematic environment plate is registered for this location.",
+        "External renderer injection of structural bytes is not yet proven."
       ],
-      "rule": "Structural grounding is approved. Exact cinematic-reference-required workflows remain HUMAN_REVIEW_REQUIRED.",
+      "rule": "Structural grounding is approved at repository-byte level. Renderer-required workflows remain HUMAN_REVIEW_REQUIRED until injection is proven.",
       "structural_reference_status": "APPROVED_STRUCTURAL_REFERENCE",
       "approved_structural_reference_uris": [
         "world/environment-references/plates/LOC-PITTSYS-BOOK/STRUCTURAL_PLATE.svg"
       ],
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
-      "approved_cinematic_reference_uris": []
+      "approved_cinematic_reference_uris": [],
+      "repo_byte_status": "VERIFIED_REPO_PATH",
+      "renderer_injection_status": "UNPROVEN",
+      "renderer_ready": false
     },
     {
       "location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
@@ -249,15 +305,19 @@
       "approved_reference_uris": [],
       "candidate_reference_paths": [],
       "blockers": [
-        "No human-approved cinematic environment plate is registered for this location."
+        "No human-approved cinematic environment plate is registered for this location.",
+        "External renderer injection of structural bytes is not yet proven."
       ],
-      "rule": "Structural grounding is approved. Exact cinematic-reference-required workflows remain HUMAN_REVIEW_REQUIRED.",
+      "rule": "Structural grounding is approved at repository-byte level. Renderer-required workflows remain HUMAN_REVIEW_REQUIRED until injection is proven.",
       "structural_reference_status": "APPROVED_STRUCTURAL_REFERENCE",
       "approved_structural_reference_uris": [
         "world/environment-references/plates/LOC-BRIDGE-MOUNTAIN-LAKE/STRUCTURAL_PLATE.svg"
       ],
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
-      "approved_cinematic_reference_uris": []
+      "approved_cinematic_reference_uris": [],
+      "repo_byte_status": "VERIFIED_REPO_PATH",
+      "renderer_injection_status": "UNPROVEN",
+      "renderer_ready": false
     },
     {
       "location_id": "LOC-DK-MUD-HILL",
@@ -266,15 +326,19 @@
       "approved_reference_uris": [],
       "candidate_reference_paths": [],
       "blockers": [
-        "No human-approved cinematic environment plate is registered for this location."
+        "No human-approved cinematic environment plate is registered for this location.",
+        "External renderer injection of structural bytes is not yet proven."
       ],
-      "rule": "Structural grounding is approved. Exact cinematic-reference-required workflows remain HUMAN_REVIEW_REQUIRED.",
+      "rule": "Structural grounding is approved at repository-byte level. Renderer-required workflows remain HUMAN_REVIEW_REQUIRED until injection is proven.",
       "structural_reference_status": "APPROVED_STRUCTURAL_REFERENCE",
       "approved_structural_reference_uris": [
         "world/environment-references/plates/LOC-DK-MUD-HILL/STRUCTURAL_PLATE.svg"
       ],
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
-      "approved_cinematic_reference_uris": []
+      "approved_cinematic_reference_uris": [],
+      "repo_byte_status": "VERIFIED_REPO_PATH",
+      "renderer_injection_status": "UNPROVEN",
+      "renderer_ready": false
     },
     {
       "location_id": "LOC-RED-SLOB-ALPINE-ROUTE",
@@ -283,15 +347,19 @@
       "approved_reference_uris": [],
       "candidate_reference_paths": [],
       "blockers": [
-        "No human-approved cinematic environment plate is registered for this location."
+        "No human-approved cinematic environment plate is registered for this location.",
+        "External renderer injection of structural bytes is not yet proven."
       ],
-      "rule": "Structural grounding is approved. Exact cinematic-reference-required workflows remain HUMAN_REVIEW_REQUIRED.",
+      "rule": "Structural grounding is approved at repository-byte level. Renderer-required workflows remain HUMAN_REVIEW_REQUIRED until injection is proven.",
       "structural_reference_status": "APPROVED_STRUCTURAL_REFERENCE",
       "approved_structural_reference_uris": [
         "world/environment-references/plates/LOC-RED-SLOB-ALPINE-ROUTE/STRUCTURAL_PLATE.svg"
       ],
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
-      "approved_cinematic_reference_uris": []
+      "approved_cinematic_reference_uris": [],
+      "repo_byte_status": "VERIFIED_REPO_PATH",
+      "renderer_injection_status": "UNPROVEN",
+      "renderer_ready": false
     },
     {
       "location_id": "LOC-SOUTHERN-SPEEDWAY",
@@ -300,15 +368,19 @@
       "approved_reference_uris": [],
       "candidate_reference_paths": [],
       "blockers": [
-        "No human-approved cinematic environment plate is registered for this location."
+        "No human-approved cinematic environment plate is registered for this location.",
+        "External renderer injection of structural bytes is not yet proven."
       ],
-      "rule": "Structural grounding is approved. Exact cinematic-reference-required workflows remain HUMAN_REVIEW_REQUIRED.",
+      "rule": "Structural grounding is approved at repository-byte level. Renderer-required workflows remain HUMAN_REVIEW_REQUIRED until injection is proven.",
       "structural_reference_status": "APPROVED_STRUCTURAL_REFERENCE",
       "approved_structural_reference_uris": [
         "world/environment-references/plates/LOC-SOUTHERN-SPEEDWAY/STRUCTURAL_PLATE.svg"
       ],
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
-      "approved_cinematic_reference_uris": []
+      "approved_cinematic_reference_uris": [],
+      "repo_byte_status": "VERIFIED_REPO_PATH",
+      "renderer_injection_status": "UNPROVEN",
+      "renderer_ready": false
     },
     {
       "location_id": "LOC-LLC-STORM-CITY",
@@ -317,15 +389,19 @@
       "approved_reference_uris": [],
       "candidate_reference_paths": [],
       "blockers": [
-        "No human-approved cinematic environment plate is registered for this location."
+        "No human-approved cinematic environment plate is registered for this location.",
+        "External renderer injection of structural bytes is not yet proven."
       ],
-      "rule": "Structural grounding is approved. Exact cinematic-reference-required workflows remain HUMAN_REVIEW_REQUIRED.",
+      "rule": "Structural grounding is approved at repository-byte level. Renderer-required workflows remain HUMAN_REVIEW_REQUIRED until injection is proven.",
       "structural_reference_status": "APPROVED_STRUCTURAL_REFERENCE",
       "approved_structural_reference_uris": [
         "world/environment-references/plates/LOC-LLC-STORM-CITY/STRUCTURAL_PLATE.svg"
       ],
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
-      "approved_cinematic_reference_uris": []
+      "approved_cinematic_reference_uris": [],
+      "repo_byte_status": "VERIFIED_REPO_PATH",
+      "renderer_injection_status": "UNPROVEN",
+      "renderer_ready": false
     },
     {
       "location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
@@ -334,15 +410,19 @@
       "approved_reference_uris": [],
       "candidate_reference_paths": [],
       "blockers": [
-        "No human-approved cinematic environment plate is registered for this location."
+        "No human-approved cinematic environment plate is registered for this location.",
+        "External renderer injection of structural bytes is not yet proven."
       ],
-      "rule": "Structural grounding is approved. Exact cinematic-reference-required workflows remain HUMAN_REVIEW_REQUIRED.",
+      "rule": "Structural grounding is approved at repository-byte level. Renderer-required workflows remain HUMAN_REVIEW_REQUIRED until injection is proven.",
       "structural_reference_status": "APPROVED_STRUCTURAL_REFERENCE",
       "approved_structural_reference_uris": [
         "world/environment-references/plates/LOC-DK-HIGHLAND-STRONGHOLD/STRUCTURAL_PLATE.svg"
       ],
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
-      "approved_cinematic_reference_uris": []
+      "approved_cinematic_reference_uris": [],
+      "repo_byte_status": "VERIFIED_REPO_PATH",
+      "renderer_injection_status": "UNPROVEN",
+      "renderer_ready": false
     },
     {
       "location_id": "LOC-TDS-CHILI-SHARED-MARCH",
@@ -351,15 +431,19 @@
       "approved_reference_uris": [],
       "candidate_reference_paths": [],
       "blockers": [
-        "No human-approved cinematic environment plate is registered for this location."
+        "No human-approved cinematic environment plate is registered for this location.",
+        "External renderer injection of structural bytes is not yet proven."
       ],
-      "rule": "Structural grounding is approved. Exact cinematic-reference-required workflows remain HUMAN_REVIEW_REQUIRED.",
+      "rule": "Structural grounding is approved at repository-byte level. Renderer-required workflows remain HUMAN_REVIEW_REQUIRED until injection is proven.",
       "structural_reference_status": "APPROVED_STRUCTURAL_REFERENCE",
       "approved_structural_reference_uris": [
         "world/environment-references/plates/LOC-TDS-CHILI-SHARED-MARCH/STRUCTURAL_PLATE.svg"
       ],
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
-      "approved_cinematic_reference_uris": []
+      "approved_cinematic_reference_uris": [],
+      "repo_byte_status": "VERIFIED_REPO_PATH",
+      "renderer_injection_status": "UNPROVEN",
+      "renderer_ready": false
     },
     {
       "location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
@@ -368,15 +452,19 @@
       "approved_reference_uris": [],
       "candidate_reference_paths": [],
       "blockers": [
-        "No human-approved cinematic environment plate is registered for this location."
+        "No human-approved cinematic environment plate is registered for this location.",
+        "External renderer injection of structural bytes is not yet proven."
       ],
-      "rule": "Structural grounding is approved. Exact cinematic-reference-required workflows remain HUMAN_REVIEW_REQUIRED.",
+      "rule": "Structural grounding is approved at repository-byte level. Renderer-required workflows remain HUMAN_REVIEW_REQUIRED until injection is proven.",
       "structural_reference_status": "APPROVED_STRUCTURAL_REFERENCE",
       "approved_structural_reference_uris": [
         "world/environment-references/plates/LOC-COMPACT-NEUTRAL-GROUNDS/STRUCTURAL_PLATE.svg"
       ],
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
-      "approved_cinematic_reference_uris": []
+      "approved_cinematic_reference_uris": [],
+      "repo_byte_status": "VERIFIED_REPO_PATH",
+      "renderer_injection_status": "UNPROVEN",
+      "renderer_ready": false
     },
     {
       "location_id": "LOC-LEAGUE-ARCHIVE",
@@ -385,15 +473,19 @@
       "approved_reference_uris": [],
       "candidate_reference_paths": [],
       "blockers": [
-        "No human-approved cinematic environment plate is registered for this location."
+        "No human-approved cinematic environment plate is registered for this location.",
+        "External renderer injection of structural bytes is not yet proven."
       ],
-      "rule": "Structural grounding is approved. Exact cinematic-reference-required workflows remain HUMAN_REVIEW_REQUIRED.",
+      "rule": "Structural grounding is approved at repository-byte level. Renderer-required workflows remain HUMAN_REVIEW_REQUIRED until injection is proven.",
       "structural_reference_status": "APPROVED_STRUCTURAL_REFERENCE",
       "approved_structural_reference_uris": [
         "world/environment-references/plates/LOC-LEAGUE-ARCHIVE/STRUCTURAL_PLATE.svg"
       ],
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
-      "approved_cinematic_reference_uris": []
+      "approved_cinematic_reference_uris": [],
+      "repo_byte_status": "VERIFIED_REPO_PATH",
+      "renderer_injection_status": "UNPROVEN",
+      "renderer_ready": false
     }
   ]
 }
