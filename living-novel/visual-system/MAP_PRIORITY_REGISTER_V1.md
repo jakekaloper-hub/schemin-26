@@ -27,3 +27,10 @@ Every map proves:
 - no renderer-created adjacency;
 - deterministic labels;
 - source/date/version receipt.
+
+## Proof status — 2026-10-01
+
+- M0 Master World Map: **PROOF PASS** — 6×9 recto primary; 12×9 spread retained as optional endpaper/digital form.
+- M1 Institutional Basin: **PROOF PASS**.
+- M6B Mire Hill: **PROOF PASS** — establishes state/memory overlay grammar.
+- Remaining map priorities stay queued; do not expand simply because the proof passed.
