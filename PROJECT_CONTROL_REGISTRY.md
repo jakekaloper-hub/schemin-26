@@ -215,6 +215,30 @@ Operating model: informed pre-work → independent specialist rounds → Bullpen
 
 The names identify published-method lenses only. They do not imply live participation, endorsement or permission to imitate prose. Author Room hydration, verified evidence, canon and Novel OS remain upstream authority.
 
+### Living Novel — Causal Story Architecture V1 / Book Architecture V2
+
+**Status:** RELEASED / ACTIVE PROSPECTIVELY FROM CHAPTER III (2026-10-01).**
+
+Promoted from the first complete Full Seven Author Council production engagement: `NOVEL-AUTHOR-CONSULT-2026-10-01-001`.
+
+Read in this order:
+1. `living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md`
+2. `living-novel/os/NOVEL_BOOK_ARCHITECTURE_V2.md`
+3. `living-novel/os/NOVEL_POV_CONSTITUTION_V1.md`
+4. `living-novel/os/NOVEL_PROMISE_AND_OPEN_LOOP_LEDGER_V1.md`
+5. `living-novel/os/NOVEL_SCORE_ARTIFACT_FOREGROUNDING_DOCTRINE_V1.md`
+6. `living-novel/os/templates/MINIMUM_PRE_PROSE_GATE_V1.md`
+7. `living-novel/os/templates/CHAPTER_DOSSIER_V2.md`
+8. `living-novel/os/state/CURRENT_OPEN_LOOP_LEDGER_V1.json`
+9. `living-novel/os/state/READER_RULE_LEDGER_V1.json`
+10. `living-novel/consultants/author-council/engagements/NOVEL-AUTHOR-CONSULT-2026-10-01-001/RELEASE_RECEIPT.md`
+
+**Binding literary law:** **A source week is evidence. A chapter is causality.** Verified league truth remains complete in evidence/state, but a scoring period is not automatically a chapter and equal matchup coverage is not required in long-form prose.
+
+Chapter III+ is significance-gated, causality-first, geography-aware, open-loop aware, and normally carries 1–3 primary POVs chosen by causal ownership. Exact scores enter foreground prose only when they materially change action, relationship, interpretation, rule application, resources, or later causality.
+
+The Prologue, Chapter I and Chapter II remain HARD MANUSCRIPT CANON / CLOSED. This promotion does not reopen or rewrite them. Week 3 is not automatically Chapter III; its six matchups are evidence packets first, with story units selected only after significance and causal architecture.
+
 ### Jack Mercer
 Read:
 - `mercer/JACK_MERCER_FRONT_OFFICE_V2_SPEC.md`
