@@ -43,3 +43,5 @@ jobs:
         run: python living-novel/os/evaluations/test_chapter_03_minimum_gate.py
       - name: Validate Chapter III mission closeout
         run: python living-novel/os/evaluations/test_chapter_03_mission.py
+      - name: Validate Chapter III Founder canon closeout
+        run: python living-novel/os/evaluations/test_chapter_03_canon_closeout.py
