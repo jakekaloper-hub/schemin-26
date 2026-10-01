@@ -22,7 +22,7 @@ class Chapter03MissionTests(unittest.TestCase):
     def test_no_hard_canon_self_promotion(self):
         self.assertIn("FOUNDER APPROVAL REQUIRED",PROP.read_text())
         self.assertIn("REVIEWED SOFT MANUSCRIPT",GATE.read_text())
-        self.assertNotIn("HARD MANUSCRIPT CANON / CLOSED",GATE.read_text().split("## Upon Founder approval")[0])
+        pre=GATE.read_text().split("## Upon Founder approval")[0]\n        self.assertIn("**Current manuscript status:** REVIEWED SOFT MANUSCRIPT",pre)\n        self.assertNotIn("**Current manuscript status:** HARD MANUSCRIPT CANON / CLOSED",pre)
 
     def test_editorial_audit_passes(self):
         text=AUD.read_text()
