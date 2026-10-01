@@ -19,6 +19,8 @@
 | `docs/governance/DOC_STANDARD.md` | governance | Librarian | active | documentation policy change |
 | `docs/architecture/REPOSITORY_ARCHITECTURE.md` | architecture | Executive / Librarian | active | structure change |
 | `docs/architecture/FLA_INTEGRATION.md` | integration | Schemin Executive | active | FLA boundary change |
+| `governance/publication-manifest/_INDEX.md` | publication identity index | Librarian / Release Control consumer | active derived | publication relationship/schema change |
+| `governance/publication-manifest/PUBLICATION_MANIFEST_V1.json` | machine publication registry | derived only | active derived | publication release/canon/supersession change |
 | `memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_GOLD_STANDARD_STUDIO_PATCH.md` | controlling patch | Weekly Memo OS | active | superseding Memo OS patch |
 | `memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_2_RC_MUTUAL_IMPLEMENTATION_PATCH.md` | controlling RC patch | Memo OS + SCK | active RC | acceptance result / supersession |
 | `memo-os/SCHEMIN_26_WEEKLY_MEMO_GOLD_STANDARD_PRODUCTION_MANUAL.md` | runbook | Weekly Memo OS | active | production method change |
