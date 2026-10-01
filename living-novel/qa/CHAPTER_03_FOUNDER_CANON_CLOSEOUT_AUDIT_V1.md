@@ -1,7 +1,7 @@
 # CHAPTER III — FOUNDER CANON CLOSEOUT AUDIT V1
 
 **Auditor:** The Umpire  
-**Status:** PASS SUBJECT TO FINAL CI / MERGE  
+**Status:** PASS — FINAL PROMOTION AUTHORIZED  
 **Date:** 2026-10-01
 
 ## Authority audit
@@ -40,16 +40,17 @@ PASS — Chapter III may enter Publication Manifest only because independent Nov
 PASS — source interval remains `chapter_causal_interval`, not automatic `week`.  
 PASS — Week 3 ↔ Chapter III relation expresses shared source interval without establishing Week = Chapter.
 
-## Residual proof
+## Promotion proof
 
-Final promotion candidate must pass:
-- Novel OS CI;
-- Chapter III canon-closeout regression;
-- Publication Manifest validator/tests;
-- Repository Merge Gate;
-- Bullpen Runtime CI;
-- Schemin Project Mission CI if triggered.
+PASS — Novel OS CI #451.  
+PASS — Schemin World Engine CI #783.  
+PASS — World Engine QA #480.  
+PASS — Repository Merge Gate #137.  
+PASS — Bullpen Runtime CI #2747.  
+PASS — Schemin Project Mission CI #107.
+
+The implementation candidate is fully green. The release receipt itself requires one final receipt-bearing confirmation run before merge; that run may confirm, but may not alter, canon/state.
 
 ## Umpire ruling
 
-**PASS — PROMOTION AUTHORIZED AFTER GREEN FINAL CANDIDATE.**
+**PASS — FINAL PROMOTION AUTHORIZED, PENDING RECEIPT-BEARING CI CONFIRMATION ONLY.**
