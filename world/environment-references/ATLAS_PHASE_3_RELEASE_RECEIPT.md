@@ -11,7 +11,7 @@
 ## Authority
 World Engine V1.1 remains physical authority.
 Phase 2 Location Control Plane remains the packet compiler.
-Phase 3 adds renderer grounding; it does not create geography.
+Phase 3 adds repository-byte grounding; it does not create geography.
 
 ## Next gate
 PHASE 4 — CANONICAL / INTERACTIVE WORLD ATLAS.
