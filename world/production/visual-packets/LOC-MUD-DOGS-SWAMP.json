@@ -1,0 +1,92 @@
+{
+  "schema_version": "2.0",
+  "world": {
+    "location_id": "LOC-MUD-DOGS-SWAMP",
+    "physical_zone": "REG-SOUTHERN-WETLANDS",
+    "world_state": [
+      "Week 2 and Week 3 history remembered"
+    ],
+    "history": [],
+    "institutions": [],
+    "ordinary_inhabitants": [
+      "wetland transport",
+      "estate work",
+      "fishing/agriculture",
+      "causeway maintenance"
+    ],
+    "weather": null
+  },
+  "atlas": {
+    "civil_context": "owner_domain",
+    "division_presence": [
+      "DIV-BURGERS"
+    ],
+    "owner_domain": "DOM-BOBBY-MITCHELL",
+    "arrival_routes": [
+      "ROUTE-DELTA-CAUSEWAY",
+      "ROUTE-FALLS-PATH"
+    ],
+    "water_relationship": "DERIVE_FROM_ZONE_AND_LOCATION_CONTROL_PLANE",
+    "elevation_relationship": "DERIVE_FROM_ZONE_AND_LOCATION_CONTROL_PLANE",
+    "camera_direction": null,
+    "foreground_terrain": null,
+    "midground": null,
+    "background_topography": null,
+    "visible_landmarks": [
+      "mud channels",
+      "raised ground"
+    ],
+    "forbidden_landmarks": [],
+    "historical_overlays": []
+  },
+  "domain": {
+    "domain_id": "DOM-BOBBY-MITCHELL",
+    "owner_character_id": "CHAR-BOBBY-MITCHELL",
+    "home_anchor": "LOC-MUD-DOGS-SWAMP",
+    "physical_region": [
+      "REG-SOUTHERN-WETLANDS"
+    ],
+    "division_affiliation": "DIV-BURGERS",
+    "domain_type": "territorial",
+    "settlement_pattern": "DERIVE_FROM_ATLAS_AND_LOCATION_CONTROL_PLANE",
+    "population_context": "PEOPLED_KIND",
+    "roads": [
+      "ROUTE-DELTA-CAUSEWAY"
+    ],
+    "current_state": [
+      "Week 2 and Week 3 history remembered"
+    ],
+    "forbidden_drift": [
+      "OWNER_DOMAIN_NOT_SOVEREIGN_COUNTRY",
+      "SWAMP_BORN_MENACE"
+    ],
+    "source_provenance": [
+      "world/data/owner_domains.json",
+      "world/data/locations.json"
+    ]
+  },
+  "character": {
+    "principal_character_ids": [
+      "CHAR-BOBBY-MITCHELL"
+    ],
+    "reference_status": "CHARACTER_REFERENCE_GATE_SEPARATE",
+    "body_locks": [],
+    "negative_locks": [
+      "OWNER_DOMAIN_NOT_SOVEREIGN_COUNTRY",
+      "SWAMP_BORN_MENACE"
+    ]
+  },
+  "memory": {
+    "events": [],
+    "prohibited_literalization": [
+      "generated scenery does not create canon"
+    ]
+  },
+  "typography": {
+    "exact_location_name": "Mud Dogs Swamp",
+    "generated_text_allowed": false,
+    "approved_labels": [
+      "Mud Dogs Swamp"
+    ]
+  }
+}
