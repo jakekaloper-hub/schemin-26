@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="6in" height="9in" viewBox="0 0 600 900"><defs>
+ <filter id="soft"><feGaussianBlur stdDeviation="1.2"/></filter>
+ <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0,8 L8,0" stroke="#6e6557" stroke-width="0.6" opacity="0.18"/></pattern>
+ <pattern id="water" width="20" height="12" patternUnits="userSpaceOnUse"><path d="M0,7 C5,2 10,12 15,7 S25,2 30,7" fill="none" stroke="#617982" stroke-width="0.8" opacity="0.45"/></pattern>
+ <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#625849"/></marker>
+ </defs><style>
+ .title{font-family:Georgia,'Times New Roman',serif;font-size:28px;font-weight:700;letter-spacing:2px;fill:#302a24}
+ .subtitle{font-family:Georgia,'Times New Roman',serif;font-size:12px;font-style:italic;fill:#625849}
+ .region{font-family:Georgia,'Times New Roman',serif;font-size:13px;letter-spacing:1.2px;fill:#766d61}
+ .label{font-family:Georgia,'Times New Roman',serif;font-size:12px;fill:#2f2a24}
+ .label-sm{font-family:Georgia,'Times New Roman',serif;font-size:10.5px;fill:#3c352d}
+ .route-label{font-family:Georgia,'Times New Roman',serif;font-size:9px;font-style:italic;fill:#6b5f50}
+ .legend{font-family:Georgia,'Times New Roman',serif;font-size:10px;fill:#4a4238}
+ .note{font-family:Georgia,'Times New Roman',serif;font-size:9px;font-style:italic;fill:#6d6459}
+ .road{fill:none;stroke:#6b5b47;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+ .road.local{stroke-width:1.3;stroke-dasharray:2 4}
+ .road.cross{stroke-width:1.8;stroke-dasharray:8 5}
+ .road.expedition{stroke-width:1.6;stroke-dasharray:4 4}
+ .waterline{fill:none;stroke:#617982;stroke-width:3;opacity:.55}
+ .owner{stroke:#2e2924;stroke-width:1.5;fill:#f3eddf}
+ .owner.perm{fill:#2e2924}
+ .inst{stroke:#2e2924;stroke-width:1.5;fill:#f3eddf}
+ .landmark{stroke:#4d453c;stroke-width:1.2;fill:#d8cbb4}
+ .memory{stroke:#8b4d3f;stroke-width:2;fill:none}
+ </style><rect x="16" y="16" width="568" height="868" rx="8" fill="#f4efe2" stroke="#453d33" stroke-width="1.5"/>
+ <text class="title" x="300" y="55" text-anchor="middle">THE CENTRAL BASIN</text>
+ <text class="subtitle" x="300" y="78" text-anchor="middle">Institutional map — reader-facing proof</text>
+ <rect x="55" y="120" width="490" height="640" rx="18" fill="url(#hatch)" opacity=".35"/>
+ <text class="region" x="300" y="152" text-anchor="middle">CENTRAL RIVER BASIN</text>
+ <path class="waterline" d="M280,170 C315,280 248,390 306,510 C340,580 320,660 356,740"/>
+ <polyline class="road local" points="300,511 361.25,580 254.0625,695 146.875,419 391.875,419"/><text class="route-label" x="258.0625" y="691">Basin Market Road</text><polyline class="road local" points="391.875,419 453.125,442"/><text class="route-label" x="426.5" y="426.5">Compact Grounds Road</text><polyline class="road local" points="376.5625,350 391.875,419"/><text class="route-label" x="388.21875" y="380.5">Archive–Chamber Processional</text><circle class="landmark" cx="146.875" cy="419" r="3.8"/><text class="label" x="153.875" y="412" text-anchor="start">Mire Hill</text><circle class="owner " cx="300" cy="511" r="4.5"/><circle cx="300" cy="511" r="7" fill="none" stroke="#7a6f61" stroke-width=".8" stroke-dasharray="2 2"/><text class="label" x="307" y="504" text-anchor="start">Chins Road Commons</text><rect class="inst" x="387.875" y="415" width="8" height="8" transform="rotate(45 391.875 419)"/><text class="label" x="398.875" y="412" text-anchor="start">League Chamber</text><rect class="inst" x="372.5625" y="346" width="8" height="8" transform="rotate(45 376.5625 350)"/><text class="label" x="383.5625" y="343" text-anchor="start">League Archive</text><rect class="inst" x="357.25" y="576" width="8" height="8" transform="rotate(45 361.25 580)"/><text class="label" x="368.25" y="573" text-anchor="start">Pittsy’s Book</text><circle class="landmark" cx="254.0625" cy="695" r="3.8"/><text class="label" x="261.0625" y="688" text-anchor="start">Southern Speedway</text><rect class="inst" x="449.125" y="438" width="8" height="8" transform="rotate(45 453.125 442)"/><text class="label" x="460.125" y="435" text-anchor="start">Compact Grounds</text>
+ <path class="road" d="M391.875,419 L565,235" opacity=".45" marker-end="url(#arrow)"/><text class="route-label" x="430" y="250">Port-to-Basin continues east</text>
+ <path class="road" d="M391.875,419 L545,105" opacity=".45" marker-end="url(#arrow)"/><text class="route-label" x="410" y="118">Upper Basin connector</text>
+ <text class="note" x="300" y="830" text-anchor="middle">Civic convergence, not municipal boundary.</text>
+ </svg>
