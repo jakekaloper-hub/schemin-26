@@ -39,3 +39,5 @@ jobs:
         run: python living-novel/os/evaluations/test_pov_packet_validator.py
       - name: Validate Author Council engagement 001
         run: python living-novel/consultants/author-council/test_engagement_001.py
+      - name: Validate Chapter III minimum pre-prose gate
+        run: python living-novel/os/evaluations/test_chapter_03_minimum_gate.py
