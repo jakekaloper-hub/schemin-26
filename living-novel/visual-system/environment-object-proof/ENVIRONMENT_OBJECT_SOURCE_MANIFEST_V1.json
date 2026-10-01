@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "status": "PROOF",
+  "assets": {
+    "E01": {
+      "path": "assets/E01_LEAGUE_ARCHIVE_SPREAD_V1.svg",
+      "format": "12x9",
+      "composition": "T6",
+      "location": "LOC-LEAGUE-ARCHIVE",
+      "character_dependency": false,
+      "canon_promotion": false
+    },
+    "O01": {
+      "path": "assets/O01_HALL_OBJECT_ARCHITECTURE_V1.svg",
+      "format": "6x9",
+      "composition": "T7",
+      "authority": "V3 Hall mention + championship foundation",
+      "physical_design_status": "UNRESOLVED",
+      "character_dependency": false,
+      "canon_promotion": false
+    },
+    "O02": {
+      "path": "assets/O02_CLEAN_LEDGER_V1.svg",
+      "format": "6x9",
+      "composition": "T5/T7",
+      "object": "OBJ-2026-CLEAN-LEDGER",
+      "character_dependency": false,
+      "canon_promotion": false
+    },
+    "E02": {
+      "path": "assets/E02_SOUTHERN_WETLANDS_V1.svg",
+      "format": "6x9",
+      "composition": "T4",
+      "location": "LOC-MUD-DOGS-SWAMP",
+      "character_dependency": false,
+      "canon_promotion": false
+    },
+    "E03": {
+      "path": "assets/E03_COUNTRY_CLUB_MEMORY_V1.svg",
+      "format": "6x9",
+      "composition": "T10",
+      "location": "LOC-COUNTRY-CLUB-JACKSON",
+      "memory": "EVT-W3-COUNTRY-CLUB-CHILI",
+      "character_dependency": false,
+      "canon_promotion": false
+    },
+    "E04": {
+      "path": "assets/E04_MIRE_HILL_AFTERMATH_V1.svg",
+      "format": "6x9",
+      "composition": "T10/T4",
+      "location": "LOC-DK-MUD-HILL",
+      "memory": "EVT-W3-MIRE-HILL",
+      "character_dependency": false,
+      "canon_promotion": false
+    }
+  }
+}
