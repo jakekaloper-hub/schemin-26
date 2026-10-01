@@ -11,6 +11,10 @@ class WorldNarrativeHydrationTests(unittest.TestCase):
         cls.contract = CONTRACT.read_text()
         cls.receipt = RECEIPT.read_text()
 
+    def test_shared_contract_is_active_cross_publication_authority(self):
+        self.assertIn("ACTIVE SHARED CROSS-PUBLICATION CONTRACT", self.contract)
+        self.assertIn("Weekly Memo OS + Living Novel OS + visual production", self.contract)
+
     def test_shared_contract_exists_and_has_required_fields(self):
         for field in [
             "LOC_ID", "REGION_ZONE", "ARRIVAL_ROUTE", "ENTERING_WORLD_STATE",
