@@ -31,3 +31,5 @@ jobs:
         run: python living-novel/consultants/test_advisor_registry.py
       - name: Validate Author Council deterministic routing
         run: python living-novel/consultants/author-council/test_author_router.py
+      - name: Validate causal chapter architecture
+        run: python living-novel/os/evaluations/test_causal_chapter_architecture.py
