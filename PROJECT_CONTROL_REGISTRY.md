@@ -36,6 +36,15 @@ GOVERNANCE — INDEPENDENT QA / RELEASE CONTROL
 LEARNING — REGRESSION / RESEARCH / VERSIONED MEMORY
 ```
 
+## Publication identity manifest
+
+Derived cross-publication identity and relationship metadata lives at:
+
+- `governance/publication-manifest/_INDEX.md`
+- `governance/publication-manifest/PUBLICATION_MANIFEST_V1.json`
+
+This manifest is **ACTIVE AS A DERIVED INDEX ONLY**. It may resolve publication identity, archive membership, related Memo/Novel installments, and authority references. It may not publish, promote, supersede, reopen, or mutate any artifact. Owning release/manuscript gates and `governance/release-evidence/registry.json` remain authoritative.
+
 ## Release evidence control
 
 Machine release/acceptance applicability is resolved through:
