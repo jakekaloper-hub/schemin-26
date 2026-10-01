@@ -18,7 +18,7 @@ The world had begun repairing itself before the victory was cold.
 
 Wilson stood halfway up the slope with both hands resting on the haft of his axe.
 
-Mud had dried in dark plates across the red of his war gear. One shoulder strap had split. His forearms ached where the weight of the weapon had lived for most of the afternoon, and every time he drew breath he could feel where the armor had driven into his ribs.
+Mud had dried in dark plates across the red of his war gear and clung in the black fur along his forearms. One shoulder strap had split. His arms ached where the weight of the weapon had lived for most of the afternoon, and every time he drew breath he could feel where the armor had driven into his ribs.
 
 He had expected the aftermath to feel larger.
 
