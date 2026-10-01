@@ -16,6 +16,20 @@ Subsystem documents may specialize HOW their domain works. They may not redefine
 
 Machine-readable mission invariants: `governance/SCHEMIN_26_PROJECT_MISSION_CONTRACT.json`.
 
+## Capability budget baseline
+
+**Operating budget assumption: ChatGPT Plus only.**
+
+See:
+- `governance/capability-budget/_INDEX.md`
+- `governance/capability-budget/ZERO_INCREMENTAL_SPEND_V1.json`
+
+No Schemin subsystem may require separately purchased plugin credits, metered API spend, provider-plan upgrades, or new paid subscriptions unless Jake explicitly authorizes the incremental spend. Connected/installed does not mean funded. Trial/free credits are non-durable and cannot define the critical path.
+
+Creative Claw, Higgsfield, OpenArt, Runway, Adobe paid services, fal.ai, Replicate, ElevenLabs and Cartesia are currently **UNFUNDED_EXTERNAL / OPTIONAL / NON-BLOCKING**.
+
+ChatGPT-native capabilities are the default funded generation/editing route within plan limits. Existing connected services may be used only at their current access level with no paid upgrade assumed.
+
 ## Canonical publication lock
 
 **Official Week 2 Memo (league-shared September 23, 2026): `Week 2 memo.pdf`.** It is the 14-page illustrated issue beginning with Red Leopards “SPECIAL DELIVERY.” This is the canonical Week 2 published artifact and gold-standard benchmark. No similarly named Week 2 “final,” test, replay, rerun, or RC candidate may replace it without explicit Commissioner supersession.
