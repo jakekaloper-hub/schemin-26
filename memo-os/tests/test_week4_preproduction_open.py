@@ -14,6 +14,7 @@ class Week4PreproductionOpenTests(unittest.TestCase):
             "WEEK_4_PRODUCTION_CONTROL_V1.md",
             "WEEK_4_FACT_SCOPE_AND_EVIDENCE_REGISTER_V1.md",
             "WEEK_4_TEMPORAL_CANON_RECEIPT_V1.md",
+            "WEEK_4_WORLD_ENTRY_RECEIPT_V1.md",
             "WEEK_4_WORLD_AND_STORY_INTELLIGENCE_REGISTER_V1.md",
             "WEEK_4_ISSUE_PREVIS_BOARD_V1.md",
             "WEEK_4_PAGE_PACKET_REGISTER_V1.md",
@@ -65,6 +66,16 @@ class Week4PreproductionOpenTests(unittest.TestCase):
         facts = self.text("WEEK_4_FACT_SCOPE_AND_EVIDENCE_REGISTER_V1.md")
         self.assertIn("no \"live\" wording from cached state", facts)
         self.assertIn("current roster membership", facts)
+
+    def test_world_entry_gate_is_bound_to_persisted_week3_state(self):
+        control = self.text("WEEK_4_PRODUCTION_CONTROL_V1.md")
+        receipt = self.text("WEEK_4_WORLD_ENTRY_RECEIPT_V1.md")
+        story = self.text("WEEK_4_WORLD_AND_STORY_INTELLIGENCE_REGISTER_V1.md")
+        self.assertIn("W4-G5 continuity/world entry | **PASS**", control)
+        self.assertIn("end_of_week_3_2026", receipt)
+        self.assertIn("W4-G5 continuity/world entry: PASS", story)
+        self.assertIn("W4-G6 personalized story intelligence: OPEN", story)
+        self.assertIn("does **not** assign final Week 4 encounter venues", receipt)
 
 if __name__ == "__main__":
     unittest.main()
