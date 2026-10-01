@@ -82,7 +82,7 @@ def compile_outputs():
           "open_questions":l.get("open_questions",[]),
           "prohibited_inventions":["Do not move location to another physical zone.","Do not convert Division overlay into physical geography.","Do not erase unresolved current world state.","Do not create new permanent landmarks from generated scenery.","Do not infer character body identity from location theme."],
           "source_provenance":l.get("source_provenance",[]),
-          "generated_from":["world/data/locations.json","world/data/physical_zones.json","world/data/divisions.json","world/data/routes.json","world/data/current_world_state.json","world/data/world_state_events.json","world/data/landmark_visibility.json","world/data/weather_regions.json","world/location-control-plane/registries/LOCATION_REFERENCE_REGISTRY.json"],
+          "generated_from":["world/data/locations.json","world/data/routes.json","world/data/physical_zones.json","world/data/divisions.json","world/data/current_world_state.json","world/data/world_state_events.json","world/data/landmark_visibility.json","world/data/weather_regions.json","world/location-control-plane/registries/LOCATION_REFERENCE_REGISTRY.json"],
           "authority_note":"Derived card. Regenerate from upstream sources; do not hand-edit."
         }
         path=f"world/location-control-plane/locations/{l['id']}/CARD.json"
