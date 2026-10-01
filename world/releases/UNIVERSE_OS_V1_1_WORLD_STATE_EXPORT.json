@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "as_of": "end_of_week_3_2026",
+  "locations": {
+    "LOC-LLC-BOARDROOM": [
+      "Week 2 intrusion/destruction history retained",
+      "repair state not fully specified"
+    ],
+    "LOC-BRIDGE-MOUNTAIN-LAKE": [
+      "Week 3 decision landmark",
+      "structurally intact unless later evidence changes it"
+    ],
+    "LOC-DK-MUD-HILL": [
+      "battlefield scar and yield memory"
+    ],
+    "LOC-COUNTRY-CLUB-JACKSON": [
+      "Week 3 chili contamination/humiliation history",
+      "cleanup status unresolved"
+    ],
+    "LOC-RED-SLOB-ALPINE-ROUTE": [
+      "wager/summit landmark"
+    ],
+    "LOC-SOUTHERN-SPEEDWAY": [
+      "Week 3 survival-race history"
+    ],
+    "LOC-LLC-STORM-CITY": [
+      "Week 3 weather-event history",
+      "storm-protection continuity"
+    ]
+  },
+  "rule": "absence of a state entry means no additional persistent physical mutation is asserted beyond location canon",
+  "baseline_commit": "dea507983bc1ce8b3cf6393d41eec1bd5b7efd0e"
+}
