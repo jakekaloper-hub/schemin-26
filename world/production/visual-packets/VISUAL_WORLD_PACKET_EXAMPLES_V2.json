@@ -1,0 +1,405 @@
+{
+  "schema_version": "2.0",
+  "packets": [
+    {
+      "packet_id": "VWP-TRADE-JEDI-001",
+      "location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "world": {
+        "physical_region": "REG-UPPER-VALLEYS",
+        "division_presence": [
+          "DIV-BURGERS"
+        ],
+        "owner_domain": "CHAR-JAKE-KALOPER",
+        "ordinary_inhabitants": [
+          "other Jedi",
+          "non-Jedi humans"
+        ],
+        "institutions": [
+          "Jedi communal training/strategy spaces"
+        ],
+        "economy": [
+          "mountain trade",
+          "orchards/pasture",
+          "courier services"
+        ],
+        "entering_world_state": [],
+        "weather": "upper-valley mountain weather"
+      },
+      "atlas": {
+        "arrival_routes": [
+          "ROUTE-EASTERN-ASCENT"
+        ],
+        "water_relationship": "mountain streams/lake connector",
+        "camera_direction": "toward valley/basin",
+        "foreground": "stone/timber mountain compound",
+        "midground": "road and community",
+        "background": "upper ridges / Northern Spine",
+        "visible_landmarks": [],
+        "forbidden_landmarks": [
+          "championship Belt imagery"
+        ]
+      },
+      "domain": {
+        "culture": "Burgers road-house/hearth culture, secondary to mountain/Jedi identity"
+      },
+      "character": {
+        "principal_character_id": "CHAR-JAKE-KALOPER",
+        "reference_status": "external Character Control required",
+        "negative_locks": [
+          "NO CHAMPIONSHIP BELT",
+          "do not clone ObiWan onto background Jedi"
+        ]
+      },
+      "memory": {
+        "prior_events": [
+          "championship/reputation rivalry history"
+        ],
+        "active_scars": [],
+        "prohibited_literalization": []
+      },
+      "typography": {
+        "approved_labels": [
+          "Trade Jedi Mountain Base",
+          "Upper Valleys and Foothills"
+        ],
+        "generated_text_allowed": false
+      }
+    },
+    {
+      "packet_id": "VWP-MUD-DOGS-001",
+      "location_id": "LOC-MUD-DOGS-SWAMP",
+      "world": {
+        "physical_region": "REG-SOUTHERN-WETLANDS",
+        "division_presence": [
+          "DIV-BURGERS"
+        ],
+        "owner_domain": "CHAR-BOBBY-MITCHELL",
+        "ordinary_inhabitants": [
+          "sapient swamp canine/wolf inhabitants"
+        ],
+        "institutions": [
+          "wetland docks/causeway stations"
+        ],
+        "economy": [
+          "fisheries",
+          "wetland transport"
+        ],
+        "entering_world_state": [],
+        "weather": "humid seasonal flooding"
+      },
+      "atlas": {
+        "arrival_routes": [
+          "ROUTE-FALLS-PATH",
+          "ROUTE-DELTA-CAUSEWAY"
+        ],
+        "water_relationship": "slow channels / wetland drainage",
+        "camera_direction": "along raised causeway",
+        "foreground": "mud/water/raised timber",
+        "midground": "wetland settlement",
+        "background": "low tree line",
+        "visible_landmarks": [],
+        "forbidden_landmarks": [
+          "generic mountain castle"
+        ]
+      },
+      "domain": {
+        "culture": "Burgers affiliation without food terrain"
+      },
+      "character": {
+        "principal_character_id": "CHAR-BOBBY-MITCHELL",
+        "reference_status": "external Character Control required",
+        "negative_locks": [
+          "do not make all inhabitants giant battle beasts"
+        ]
+      },
+      "memory": {
+        "prior_events": [
+          "Week 2 swamp humiliation context"
+        ],
+        "active_scars": [],
+        "prohibited_literalization": [
+          "bike/motorcycle as permanent civic identity"
+        ]
+      },
+      "typography": {
+        "approved_labels": [
+          "Mud Dogs Swamp",
+          "Southern Wetlands and Delta"
+        ],
+        "generated_text_allowed": false
+      }
+    },
+    {
+      "packet_id": "VWP-DUCKHOOK-001",
+      "location_id": "LOC-COUNTRY-CLUB-JACKSON",
+      "world": {
+        "physical_region": "REG-SOUTHERN-WETLANDS",
+        "division_presence": [
+          "DIV-WINGS"
+        ],
+        "owner_domain": "CHAR-ZACH-WILSON",
+        "ordinary_inhabitants": [
+          "mixed estate staff/members/visitors"
+        ],
+        "institutions": [
+          "Country Club of Jackson"
+        ],
+        "economy": [
+          "estate services",
+          "recreation"
+        ],
+        "entering_world_state": [
+          "Week 3 chili contamination/humiliation history; cleanup unresolved"
+        ],
+        "weather": "wetland humidity / flood-aware estate"
+      },
+      "atlas": {
+        "arrival_routes": [
+          "ROUTE-DELTA-CAUSEWAY",
+          "ROUTE-JACKSON-LEVEE"
+        ],
+        "water_relationship": "raised estate inside wetland system",
+        "camera_direction": "across grounds toward levee",
+        "foreground": "manicured estate",
+        "midground": "water hazard / clubhouse",
+        "background": "wetland tree line",
+        "visible_landmarks": [
+          "wetland tree line",
+          "levee route"
+        ],
+        "forbidden_landmarks": [
+          "Mud Dogs Swamp direct line-of-sight unless resolved"
+        ]
+      },
+      "domain": {
+        "culture": "Wings chicken-wing hospitality may appear subtly; not avian"
+      },
+      "character": {
+        "principal_character_id": "CHAR-ZACH-WILSON",
+        "reference_status": "external Character Control required",
+        "negative_locks": [
+          "singular Duckhook",
+          "no duck civilization"
+        ]
+      },
+      "memory": {
+        "prior_events": [
+          "Week 3 Chili incident"
+        ],
+        "active_scars": [
+          "cleanup unresolved"
+        ],
+        "prohibited_literalization": [
+          "chili stain as total domain identity"
+        ]
+      },
+      "typography": {
+        "approved_labels": [
+          "Country Club of Jackson"
+        ],
+        "generated_text_allowed": false
+      }
+    },
+    {
+      "packet_id": "VWP-LLC-STORM-001",
+      "location_id": "LOC-LLC-STORM-CITY",
+      "world": {
+        "physical_region": "REG-INNER-SEA-LITTORAL",
+        "division_presence": [
+          "DIV-PIZZA"
+        ],
+        "owner_domain": "CHAR-DAVID-BABB",
+        "ordinary_inhabitants": [
+          "merchants",
+          "clerks",
+          "laborers",
+          "mixed citizens"
+        ],
+        "institutions": [
+          "mercantile district",
+          "flood works"
+        ],
+        "economy": [
+          "shipping",
+          "warehousing",
+          "finance"
+        ],
+        "entering_world_state": [
+          "Week 3 storm history",
+          "storm-protection continuity"
+        ],
+        "weather": "maritime / storm spillover"
+      },
+      "atlas": {
+        "arrival_routes": [
+          "ROUTE-STORM-COAST",
+          "ROUTE-PORT-BASIN-CONNECTOR"
+        ],
+        "water_relationship": "port/quay + flood-defense interface",
+        "camera_direction": "toward inner sea",
+        "foreground": "raised mercantile district",
+        "midground": "quays and flood works",
+        "background": "inner sea / storm horizon",
+        "visible_landmarks": [
+          "inner sea",
+          "storm horizon"
+        ],
+        "forbidden_landmarks": [
+          "Storm Bowl unless distance supports it"
+        ]
+      },
+      "domain": {
+        "culture": "Pizza market/exchange/communal-oven motifs secondary to mercantile city"
+      },
+      "character": {
+        "principal_character_id": "CHAR-DAVID-BABB",
+        "reference_status": "external Character Control required",
+        "negative_locks": [
+          "singular LLC",
+          "no LLC species"
+        ]
+      },
+      "memory": {
+        "prior_events": [
+          "Week 2 intrusion/destruction",
+          "Week 3 storm/flood event"
+        ],
+        "active_scars": [
+          "repairs / flood works"
+        ],
+        "prohibited_literalization": [
+          "entire city as one office"
+        ]
+      },
+      "typography": {
+        "approved_labels": [
+          "LLC Port City Storm District",
+          "Inner Sea Littoral"
+        ],
+        "generated_text_allowed": false
+      }
+    },
+    {
+      "packet_id": "VWP-SHARED-MARCH-001",
+      "location_id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "world": {
+        "physical_region": "REG-WESTERN-TABLELANDS",
+        "division_presence": [
+          "DIV-BURGERS",
+          "DIV-WINGS"
+        ],
+        "owner_domain": null,
+        "ordinary_inhabitants": [
+          "mixed caravan/frontier residents"
+        ],
+        "institutions": [
+          "stable-and-market quarter"
+        ],
+        "economy": [
+          "caravan exchange",
+          "stables",
+          "market trade"
+        ],
+        "entering_world_state": [
+          "cross-divisional coexistence"
+        ],
+        "weather": "western exposure / seasonal water"
+      },
+      "atlas": {
+        "arrival_routes": [
+          "ROUTE-TDS-CHILI-SHARED-MARCH"
+        ],
+        "water_relationship": "watercourse crossing",
+        "camera_direction": "along shared road",
+        "foreground": "market/stable quarter",
+        "midground": "crossing and mixed settlement",
+        "background": "tableland road",
+        "visible_landmarks": [],
+        "forbidden_landmarks": [
+          "hard division wall"
+        ]
+      },
+      "domain": {
+        "culture": "Burgers + Wings coexistence; chicken-wing culture may appear on Chili side without segregating settlement"
+      },
+      "character": {
+        "principal_character_id": null,
+        "reference_status": "not required for environment-only render",
+        "negative_locks": [
+          "no species segregation"
+        ]
+      },
+      "memory": {
+        "prior_events": [
+          "TDS/Chili coexistence clarification"
+        ],
+        "active_scars": [],
+        "prohibited_literalization": []
+      },
+      "typography": {
+        "approved_labels": [
+          "TDS–Chili Shared March"
+        ],
+        "generated_text_allowed": false
+      }
+    },
+    {
+      "packet_id": "VWP-COMPACT-NEUTRAL-001",
+      "location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "world": {
+        "physical_region": "REG-CENTRAL-BASIN",
+        "division_presence": [],
+        "owner_domain": null,
+        "ordinary_inhabitants": [
+          "mixed League/civic population"
+        ],
+        "institutions": [
+          "Compact Neutral Grounds",
+          "arbiter pavilion"
+        ],
+        "economy": [
+          "event hospitality",
+          "road services"
+        ],
+        "entering_world_state": [
+          "neutral major-Encounter venue"
+        ],
+        "weather": "Central Basin seasonal weather"
+      },
+      "atlas": {
+        "arrival_routes": [
+          "ROUTE-COMPACT-GROUNDS"
+        ],
+        "water_relationship": "basin road/river access context",
+        "camera_direction": "toward central civic network",
+        "foreground": "open ceremonial field",
+        "midground": "arbiter pavilion / arrival roads",
+        "background": "Central Basin settlements",
+        "visible_landmarks": [],
+        "forbidden_landmarks": [
+          "division-owned sovereign palace"
+        ]
+      },
+      "domain": {
+        "culture": "institutionally neutral; multiple division cultures may be present"
+      },
+      "character": {
+        "principal_character_id": null,
+        "reference_status": "not required for environment-only render",
+        "negative_locks": []
+      },
+      "memory": {
+        "prior_events": [],
+        "active_scars": [],
+        "prohibited_literalization": []
+      },
+      "typography": {
+        "approved_labels": [
+          "Compact Neutral Grounds",
+          "Central River Basin"
+        ],
+        "generated_text_allowed": false
+      }
+    }
+  ]
+}
