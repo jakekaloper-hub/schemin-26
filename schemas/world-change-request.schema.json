@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/world-change-request.schema.json",
+  "title": "World State Change Request",
+  "type": "object",
+  "required": [
+    "request_id",
+    "source",
+    "requester",
+    "current_state",
+    "proposed_state",
+    "why",
+    "canon_class",
+    "affected_systems",
+    "tests",
+    "rollback",
+    "approval",
+    "result"
+  ],
+  "properties": {
+    "request_id": {
+      "type": "string"
+    },
+    "source": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "requester": {
+      "type": "string"
+    },
+    "current_state": {},
+    "proposed_state": {},
+    "why": {
+      "type": "string"
+    },
+    "canon_class": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "affected_entities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "affected_locations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "affected_routes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "affected_atlas_layers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "affected_systems": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "migration": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "tests": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "rollback": {
+      "type": "string"
+    },
+    "approval": {
+      "type": "string"
+    },
+    "result": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}
