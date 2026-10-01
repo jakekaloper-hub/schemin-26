@@ -1,0 +1,23 @@
+name: Memo V5.6 Acceptance CI
+
+on:
+  pull_request:
+    paths:
+      - 'memo-os/**'
+      - '.github/workflows/memo-v5-6-acceptance.yml'
+  push:
+    branches:
+      - 'memo-os/v5-6-publication-integrity'
+    paths:
+      - 'memo-os/**'
+      - '.github/workflows/memo-v5-6-acceptance.yml'
+
+jobs:
+  acceptance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Retained V5.5 acceptance
+        run: python3 memo-os/tests/v5_5_acceptance_suite.py
+      - name: V5.6 publication-integrity acceptance
+        run: python3 memo-os/tests/v5_6_acceptance_suite.py
