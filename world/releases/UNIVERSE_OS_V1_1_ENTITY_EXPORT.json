@@ -1,0 +1,815 @@
+{
+  "snapshot_version": "1.0",
+  "baseline_commit": "2bbe0047b6aa8df39899fcf1461c360c27f6af4e",
+  "sources": {
+    "physical_zones": {
+      "schema_version": "1.0",
+      "coordinate_space": "schemin-local-v1 (abstract, non-metric)",
+      "regions": [
+        {
+          "id": "REG-NORTHERN-SPINE",
+          "name": "Northern Spine",
+          "canon_status": "INTERPRETIVE_CANON",
+          "zone_type": "physical",
+          "adjacent_region_ids": [
+            "REG-UPPER-VALLEYS",
+            "REG-WESTERN-TABLELANDS",
+            "REG-EASTERN-STORM-COAST"
+          ],
+          "abstract_bounds": [
+            25,
+            72,
+            70,
+            100
+          ],
+          "environment": {
+            "terrain": [
+              "high mountains",
+              "narrow passes",
+              "rock ridges"
+            ],
+            "climate": [
+              "cold winters",
+              "snow at elevation",
+              "headwater precipitation"
+            ],
+            "movement": [
+              "passes constrain travel",
+              "winter closures possible",
+              "mounts and foot travel dominate"
+            ]
+          },
+          "provenance": [
+            "living-novel/world/PHYSICAL_WORLD.md"
+          ]
+        },
+        {
+          "id": "REG-UPPER-VALLEYS",
+          "name": "Upper Valleys and Foothills",
+          "canon_status": "INTERPRETIVE_CANON",
+          "zone_type": "physical",
+          "adjacent_region_ids": [
+            "REG-NORTHERN-SPINE",
+            "REG-CENTRAL-BASIN",
+            "REG-WESTERN-TABLELANDS",
+            "REG-EASTERN-STORM-COAST"
+          ],
+          "abstract_bounds": [
+            20,
+            55,
+            75,
+            78
+          ],
+          "environment": {
+            "terrain": [
+              "rolling uplands",
+              "mixed forest",
+              "pasture",
+              "defensible ridges"
+            ],
+            "climate": [
+              "temperate",
+              "seasonal rain"
+            ],
+            "movement": [
+              "horse roads",
+              "ridge routes",
+              "market-town connectors"
+            ]
+          },
+          "provenance": [
+            "living-novel/world/PHYSICAL_WORLD.md"
+          ]
+        },
+        {
+          "id": "REG-CENTRAL-BASIN",
+          "name": "Central River Basin",
+          "canon_status": "INTERPRETIVE_CANON",
+          "zone_type": "physical",
+          "adjacent_region_ids": [
+            "REG-UPPER-VALLEYS",
+            "REG-WESTERN-TABLELANDS",
+            "REG-SOUTHERN-WETLANDS",
+            "REG-EASTERN-STORM-COAST",
+            "REG-INNER-SEA-LITTORAL"
+          ],
+          "abstract_bounds": [
+            25,
+            30,
+            72,
+            58
+          ],
+          "environment": {
+            "terrain": [
+              "broad river valleys",
+              "fertile lowlands",
+              "bridge corridors"
+            ],
+            "climate": [
+              "temperate",
+              "flood-cycle influence"
+            ],
+            "movement": [
+              "navigable rivers",
+              "major roads",
+              "bridges and toll points"
+            ]
+          },
+          "provenance": [
+            "living-novel/world/PHYSICAL_WORLD.md"
+          ]
+        },
+        {
+          "id": "REG-WESTERN-TABLELANDS",
+          "name": "Western Tablelands",
+          "canon_status": "INTERPRETIVE_CANON",
+          "zone_type": "physical",
+          "adjacent_region_ids": [
+            "REG-NORTHERN-SPINE",
+            "REG-UPPER-VALLEYS",
+            "REG-CENTRAL-BASIN",
+            "REG-SOUTHERN-WETLANDS"
+          ],
+          "abstract_bounds": [
+            0,
+            25,
+            35,
+            72
+          ],
+          "environment": {
+            "terrain": [
+              "open grassland",
+              "broken stone ridges",
+              "dry frontier"
+            ],
+            "climate": [
+              "drier",
+              "rain-shadow influence",
+              "large temperature swings"
+            ],
+            "movement": [
+              "long overland routes",
+              "mounted travel",
+              "dispersed settlements"
+            ]
+          },
+          "provenance": [
+            "living-novel/world/PHYSICAL_WORLD.md"
+          ]
+        },
+        {
+          "id": "REG-EASTERN-STORM-COAST",
+          "name": "Eastern Forest and Storm Coast",
+          "canon_status": "INTERPRETIVE_CANON",
+          "zone_type": "physical",
+          "adjacent_region_ids": [
+            "REG-NORTHERN-SPINE",
+            "REG-UPPER-VALLEYS",
+            "REG-CENTRAL-BASIN",
+            "REG-INNER-SEA-LITTORAL"
+          ],
+          "abstract_bounds": [
+            68,
+            25,
+            100,
+            88
+          ],
+          "environment": {
+            "terrain": [
+              "dense forest",
+              "rocky approaches",
+              "storm-exposed coast"
+            ],
+            "climate": [
+              "wet",
+              "violent coastal storms",
+              "high rainfall"
+            ],
+            "movement": [
+              "forest roads",
+              "coastal navigation",
+              "weather disruption"
+            ]
+          },
+          "provenance": [
+            "living-novel/world/PHYSICAL_WORLD.md"
+          ]
+        },
+        {
+          "id": "REG-SOUTHERN-WETLANDS",
+          "name": "Southern Wetlands and Delta",
+          "canon_status": "INTERPRETIVE_CANON",
+          "zone_type": "physical",
+          "adjacent_region_ids": [
+            "REG-WESTERN-TABLELANDS",
+            "REG-CENTRAL-BASIN",
+            "REG-INNER-SEA-LITTORAL"
+          ],
+          "abstract_bounds": [
+            20,
+            0,
+            72,
+            32
+          ],
+          "environment": {
+            "terrain": [
+              "slow rivers",
+              "cypress-like wetlands",
+              "mudflats",
+              "raised ground"
+            ],
+            "climate": [
+              "warm",
+              "humid",
+              "seasonal flooding"
+            ],
+            "movement": [
+              "boats",
+              "causeways",
+              "raised roads",
+              "specialized wetland travel"
+            ]
+          },
+          "provenance": [
+            "living-novel/world/PHYSICAL_WORLD.md"
+          ]
+        },
+        {
+          "id": "REG-INNER-SEA-LITTORAL",
+          "name": "Inner Sea Littoral",
+          "canon_status": "INTERPRETIVE_CANON",
+          "zone_type": "physical",
+          "adjacent_region_ids": [
+            "REG-CENTRAL-BASIN",
+            "REG-SOUTHERN-WETLANDS",
+            "REG-EASTERN-STORM-COAST"
+          ],
+          "abstract_bounds": [
+            55,
+            0,
+            100,
+            25
+          ],
+          "environment": {
+            "terrain": [
+              "warm ports",
+              "islands",
+              "sheltered bays",
+              "coastal terraces"
+            ],
+            "climate": [
+              "maritime",
+              "warm",
+              "storm spillover"
+            ],
+            "movement": [
+              "sea lanes",
+              "port roads",
+              "coastal trade"
+            ]
+          },
+          "provenance": [
+            "living-novel/world/PHYSICAL_WORLD.md"
+          ]
+        }
+      ]
+    },
+    "divisions": {
+      "schema_version": "1.0",
+      "season": 2026,
+      "source_note": "2026 membership follows memo-os/week-3/WEEK_3_FACT_LOCK_V1.md. Division geography is a nonexclusive League-jurisdiction/home-venue overlay; it is not a species, ethnic, or sovereign-state border system.",
+      "divisions": [
+        {
+          "id": "DIV-BURGERS",
+          "name": "Burgers",
+          "food_referent": "burgers",
+          "canon_status": "INTERPRETIVE_CANON",
+          "member_team_ids_2026": [
+            1,
+            5,
+            6,
+            10
+          ],
+          "physical_zone_ids": [
+            "REG-NORTHERN-SPINE",
+            "REG-UPPER-VALLEYS",
+            "REG-CENTRAL-BASIN",
+            "REG-SOUTHERN-WETLANDS"
+          ],
+          "core_geography": "north/upper-valley home network extending through basin approaches to Mud Dogs southern wetland territory; TDS also shares a cross-divisional western march with Chili",
+          "visual_fingerprint": {
+            "skyline": [
+              "layered highland ridges",
+              "fortified road markets",
+              "waterfall escarpments",
+              "southern causeway silhouettes"
+            ],
+            "materials": [
+              "fieldstone",
+              "dark timber",
+              "iron",
+              "wetland hardwood",
+              "weathered brick"
+            ],
+            "roads": [
+              "ridge roads",
+              "market approaches",
+              "bridge/lake roads",
+              "wetland causeways"
+            ],
+            "night": [
+              "amber hearthlight",
+              "forge glow",
+              "mist over dark water",
+              "lanterned road stations"
+            ]
+          },
+          "food_symbolism": [
+            "burger/stacked-sandwich crest forms",
+            "hearth-and-griddle guild marks",
+            "market feast traditions",
+            "roadside burger-house hospitality"
+          ],
+          "anti_drift": [
+            "no giant burger terrain",
+            "no palette-only differentiation",
+            "do not flatten Trade Jedi mountains, D0nkey K0ng highlands, TDS falls and Mud Dogs swamp into one biome",
+            "food identity must remain burger-specific",
+            "do not use division membership as species segregation"
+          ],
+          "spatial_model": "LEAGUE_JURISDICTION_OVERLAY_NONEXCLUSIVE",
+          "cohabitation_allowed": true
+        },
+        {
+          "id": "DIV-WINGS",
+          "name": "Wings",
+          "food_referent": "chicken_wings",
+          "canon_status": "INTERPRETIVE_CANON",
+          "member_team_ids_2026": [
+            2,
+            3,
+            7,
+            12
+          ],
+          "physical_zone_ids": [
+            "REG-WESTERN-TABLELANDS",
+            "REG-UPPER-VALLEYS",
+            "REG-CENTRAL-BASIN",
+            "REG-SOUTHERN-WETLANDS",
+            "REG-EASTERN-STORM-COAST"
+          ],
+          "core_geography": "nonexclusive League home network linking western frontier, upper foothills, stormward Red Leopard country and the Country Club wetland estate",
+          "visual_fingerprint": {
+            "skyline": [
+              "stormward ruin heights",
+              "foothill camps",
+              "western stables",
+              "raised country-club grounds"
+            ],
+            "materials": [
+              "timber",
+              "iron straps",
+              "river stone",
+              "canvas",
+              "copper",
+              "weathered plaster"
+            ],
+            "roads": [
+              "foothill roads",
+              "western range tracks",
+              "levee roads",
+              "estate approaches"
+            ],
+            "night": [
+              "fire pits",
+              "stable lamps",
+              "clubhouse windows",
+              "storm-lit ruin silhouettes"
+            ]
+          },
+          "food_symbolism": [
+            "chicken-wing heraldry",
+            "sauce-house colors and seals",
+            "communal wing feasts",
+            "pit and smoke traditions",
+            "bone-count wager customs"
+          ],
+          "anti_drift": [
+            "Wings means chicken wings, not angel/bird/dragon wings",
+            "no giant chicken-wing terrain",
+            "do not flatten Red Leopard ruins, Slob foothills, Chili frontier and Duckhook club into one biome",
+            "home games must use the specific Wings owner's environment",
+            "TDS/Chili coexistence cannot be erased by division borders"
+          ],
+          "spatial_model": "LEAGUE_JURISDICTION_OVERLAY_NONEXCLUSIVE",
+          "cohabitation_allowed": true
+        },
+        {
+          "id": "DIV-PIZZA",
+          "name": "Pizza",
+          "food_referent": "pizza",
+          "canon_status": "INTERPRETIVE_CANON",
+          "member_team_ids_2026": [
+            4,
+            8,
+            9,
+            11
+          ],
+          "physical_zone_ids": [
+            "REG-CENTRAL-BASIN",
+            "REG-EASTERN-STORM-COAST",
+            "REG-INNER-SEA-LITTORAL"
+          ],
+          "core_geography": "central/eastern League home network joining the basin road commons, mercantile littoral, Belt Keeper storm-cliff country and El Niño coast",
+          "visual_fingerprint": {
+            "skyline": [
+              "mercantile towers",
+              "storm-cliff keeps",
+              "coastal weather beacons",
+              "basin road halls"
+            ],
+            "materials": [
+              "cut stone",
+              "slate",
+              "brick",
+              "bronze",
+              "tile",
+              "heavy timber shutters"
+            ],
+            "roads": [
+              "quays",
+              "storm-coast roads",
+              "basin market roads",
+              "cliff approaches"
+            ],
+            "night": [
+              "harbor lamps",
+              "beacon fires",
+              "lightning silhouettes",
+              "road-hall hearths"
+            ]
+          },
+          "food_symbolism": [
+            "pizza/round-flatbread guild seals",
+            "communal ovens",
+            "slice/segment accounting motifs",
+            "market-oven hospitality"
+          ],
+          "anti_drift": [
+            "no giant pizza terrain",
+            "no simple red-yellow circle motif as total identity",
+            "do not make LLC, Belt Keeper, El Niño and Seven Chins all urban",
+            "mercantile city, storm keep, weather coast and basin commons must remain distinct",
+            "do not restore ObiWan or other non-Pizza owners to Pizza"
+          ],
+          "spatial_model": "LEAGUE_JURISDICTION_OVERLAY_NONEXCLUSIVE",
+          "cohabitation_allowed": true
+        }
+      ]
+    },
+    "owner_domains": {
+      "schema_version": "1.0",
+      "season": 2026,
+      "domains": [
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "owner": "Jake Kaloper",
+          "team_id": 1,
+          "team": "ObiWan Jacoby",
+          "division_id": "DIV-BURGERS",
+          "domain_type": "territorial-strategic",
+          "primary_location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+          "physical_zone_ids": [
+            "REG-UPPER-VALLEYS"
+          ],
+          "canon_guard": [
+            "NO_CHAMPIONSHIP_BELT"
+          ],
+          "status": "INTERPRETIVE_CANON",
+          "ontology_class": "PEOPLED_KIND"
+        },
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "owner": "Kevin Zeek",
+          "team_id": 2,
+          "team": "Red Leopards",
+          "division_id": "DIV-WINGS",
+          "domain_type": "territorial",
+          "primary_location_id": "LOC-RED-RUINS",
+          "physical_zone_ids": [
+            "REG-EASTERN-STORM-COAST"
+          ],
+          "canon_guard": [
+            "RED_LEOPARD_PREDATOR"
+          ],
+          "status": "INTERPRETIVE_CANON",
+          "ontology_class": "PEOPLED_KIND"
+        },
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "owner": "Jordan Hollingshead",
+          "team_id": 3,
+          "team": "Slob on my Dobb",
+          "division_id": "DIV-WINGS",
+          "domain_type": "mobile-camp",
+          "primary_location_id": "LOC-SLOB-FOOTHILL-CAMP",
+          "physical_zone_ids": [
+            "REG-UPPER-VALLEYS"
+          ],
+          "canon_guard": [
+            "FRAT_BRO_BERSERKER",
+            "PIT_BULL"
+          ],
+          "status": "INTERPRETIVE_CANON",
+          "ontology_class": "PEOPLED_KIND"
+        },
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "owner": "David Babb",
+          "team_id": 4,
+          "team": "The LLC",
+          "division_id": "DIV-PIZZA",
+          "domain_type": "commercial-institutional",
+          "primary_location_id": "LOC-LLC-BOARDROOM",
+          "physical_zone_ids": [
+            "REG-INNER-SEA-LITTORAL"
+          ],
+          "canon_guard": [
+            "HOSTILE_TAKEOVER"
+          ],
+          "status": "INTERPRETIVE_CANON",
+          "ontology_class": "SINGULAR_BEING"
+        },
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "owner": "Wilson Look",
+          "team_id": 5,
+          "team": "D0nkey K0ng",
+          "division_id": "DIV-BURGERS",
+          "domain_type": "martial-territorial",
+          "primary_location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+          "physical_zone_ids": [
+            "REG-UPPER-VALLEYS",
+            "REG-NORTHERN-SPINE"
+          ],
+          "canon_guard": [
+            "ARSENAL_GORILLA_WARRIOR",
+            "NO_CENTAUR_ANATOMY"
+          ],
+          "status": "INTERPRETIVE_CANON",
+          "ontology_class": "PEOPLED_KIND"
+        },
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "owner": "Phillip Pitts",
+          "team_id": 6,
+          "team": "Three Dreaded Snake",
+          "division_id": "DIV-BURGERS",
+          "domain_type": "territorial-institutional",
+          "primary_location_id": "LOC-TDS-WATERFALL-TEMPLE",
+          "physical_zone_ids": [
+            "REG-SOUTHERN-WETLANDS"
+          ],
+          "canon_guard": [
+            "ONE_BODY_THREE_SERPENT_HEADS"
+          ],
+          "status": "INTERPRETIVE_CANON",
+          "ontology_class": "SHARED_COHABITATION",
+          "shared_location_ids": [
+            "LOC-TDS-CHILI-SHARED-MARCH"
+          ]
+        },
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "owner": "Brandon Pryor",
+          "team_id": 7,
+          "team": "Chili Cheesers",
+          "division_id": "DIV-WINGS",
+          "domain_type": "frontier-mobile",
+          "primary_location_id": "LOC-CHILI-STABLE",
+          "physical_zone_ids": [
+            "REG-WESTERN-TABLELANDS"
+          ],
+          "canon_guard": [
+            "CHILI_OUTLAW",
+            "DARK_HORSE"
+          ],
+          "status": "INTERPRETIVE_CANON",
+          "ontology_class": "SHARED_COHABITATION",
+          "shared_location_ids": [
+            "LOC-TDS-CHILI-SHARED-MARCH"
+          ]
+        },
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "owner": "Austin Byars",
+          "team_id": 8,
+          "team": "His Majesty's Blood",
+          "division_id": "DIV-PIZZA",
+          "domain_type": "martial-legacy",
+          "primary_location_id": "LOC-BELT-KEEPER-KEEP",
+          "physical_zone_ids": [
+            "REG-EASTERN-STORM-COAST",
+            "REG-NORTHERN-SPINE"
+          ],
+          "canon_guard": [
+            "BELT_KEEPER",
+            "CHAMPIONSHIP_BELT"
+          ],
+          "status": "INTERPRETIVE_CANON",
+          "ontology_class": "SINGULAR_BEING"
+        },
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "owner": "Manning Welty",
+          "team_id": 9,
+          "team": "El Niño",
+          "division_id": "DIV-PIZZA",
+          "domain_type": "elemental-coastal",
+          "primary_location_id": "LOC-STORM-BOWL",
+          "physical_zone_ids": [
+            "REG-EASTERN-STORM-COAST",
+            "REG-INNER-SEA-LITTORAL"
+          ],
+          "canon_guard": [
+            "WEATHER_SYSTEM"
+          ],
+          "status": "INTERPRETIVE_CANON",
+          "ontology_class": "SINGULAR_BEING",
+          "manifestation_modes": [
+            "EMBODIED",
+            "ATMOSPHERIC_MANIFESTATION",
+            "AMBIGUOUS"
+          ]
+        },
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "owner": "Bobby Mitchell",
+          "team_id": 10,
+          "team": "Mud Dogs",
+          "division_id": "DIV-BURGERS",
+          "domain_type": "territorial",
+          "primary_location_id": "LOC-MUD-DOGS-SWAMP",
+          "physical_zone_ids": [
+            "REG-SOUTHERN-WETLANDS"
+          ],
+          "canon_guard": [
+            "SWAMP_BORN_MENACE"
+          ],
+          "status": "INTERPRETIVE_CANON",
+          "ontology_class": "PEOPLED_KIND"
+        },
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "owner": "Ben Whipple",
+          "team_id": 11,
+          "team": "Seven Deadly Chins",
+          "division_id": "DIV-PIZZA",
+          "domain_type": "roadside-populist",
+          "primary_location_id": "LOC-CHINS-ROAD-COMMONS",
+          "physical_zone_ids": [
+            "REG-CENTRAL-BASIN"
+          ],
+          "canon_guard": [
+            "PEOPLES_CHAMP",
+            "RACCOON"
+          ],
+          "status": "INTERPRETIVE_CANON",
+          "ontology_class": "PEOPLED_KIND"
+        },
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "owner": "Zach Wilson",
+          "team_id": 12,
+          "team": "Dr. Duckhook",
+          "division_id": "DIV-WINGS",
+          "domain_type": "estate-sporting",
+          "primary_location_id": "LOC-COUNTRY-CLUB-JACKSON",
+          "physical_zone_ids": [
+            "REG-SOUTHERN-WETLANDS"
+          ],
+          "canon_guard": [
+            "KING_OF_IMPOSSIBLE_LIE",
+            "DUCK_GOLFER"
+          ],
+          "status": "INTERPRETIVE_CANON",
+          "ontology_class": "SINGULAR_BEING"
+        }
+      ]
+    },
+    "inhabitant_ontology": {
+      "schema_version": "1.0",
+      "authority": "COMMISSIONER_DIRECTIVE_2026-09-29",
+      "classes": {
+        "PEOPLED_KIND": [
+          "CHAR-JAKE-KALOPER",
+          "CHAR-WILSON-LOOK",
+          "CHAR-KEVIN-ZEEK",
+          "CHAR-JORDAN-HOLLINGSHEAD",
+          "CHAR-BOBBY-MITCHELL",
+          "CHAR-BEN-WHIPPLE"
+        ],
+        "SINGULAR_BEING": [
+          "CHAR-AUSTIN-BYARS",
+          "CHAR-ZACH-WILSON",
+          "CHAR-MANNING-WELTY",
+          "CHAR-DAVID-BABB"
+        ],
+        "SHARED_COHABITATION": [
+          "CHAR-PHILLIP-PITTS",
+          "CHAR-BRANDON-PRYOR"
+        ]
+      },
+      "people_notes": {
+        "CHAR-JAKE-KALOPER": "Human mountain/valley population exists.",
+        "CHAR-WILSON-LOOK": "Gorilla-bodied people exist; current principal form remains Arsenal Gorilla Warrior.",
+        "CHAR-KEVIN-ZEEK": "Leopard-bodied people exist.",
+        "CHAR-JORDAN-HOLLINGSHEAD": "Own broad human/berserker kind exists; horned gear does not prove separate biology.",
+        "CHAR-BOBBY-MITCHELL": "Sapient swamp canine/wolf people exist.",
+        "CHAR-BEN-WHIPPLE": "Human working/road communities exist."
+      },
+      "shared_cohabitation": {
+        "members": [
+          "CHAR-PHILLIP-PITTS",
+          "CHAR-BRANDON-PRYOR"
+        ],
+        "division_independent": true,
+        "geography_anchor": "LOC-TDS-CHILI-SHARED-MARCH",
+        "population_origin_status": "OPEN_TERRITORY"
+      },
+      "personhood": {
+        "morphology_neutral": true,
+        "capabilities": [
+          "hold_land",
+          "contract",
+          "institutional_standing",
+          "safe_conduct",
+          "arbitration",
+          "maintain_domain",
+          "sanctioned_encounter_participation"
+        ]
+      },
+      "el_nino": {
+        "character_id": "CHAR-MANNING-WELTY",
+        "singular": true,
+        "manifestation_modes": [
+          "EMBODIED",
+          "ATMOSPHERIC_MANIFESTATION",
+          "AMBIGUOUS"
+        ],
+        "rule": "Not every storm is El Niño; atmospheric manifestation requires explicit story/world-state resolution."
+      }
+    },
+    "encounter_venue_policy": {
+      "schema_version": "1.0",
+      "authority": "COMMISSIONER_DIRECTIVE_2026-09-29",
+      "event_rules": {
+        "REGULAR": {
+          "venue_mode": "HOME_DOMAIN_DEFAULT"
+        },
+        "DIVISIONAL": {
+          "venue_mode": "HOME_DOMAIN_DEFAULT"
+        },
+        "GAME_OF_THE_WEEK": {
+          "venue_mode": "NEUTRAL_DEFAULT",
+          "override_requires_approval": true
+        },
+        "PLAYOFF": {
+          "venue_mode": "NEUTRAL_DEFAULT",
+          "override_requires_approval": true
+        },
+        "CHAMPIONSHIP": {
+          "venue_mode": "NEUTRAL_DEFAULT",
+          "override_requires_approval": true
+        }
+      },
+      "home_venues": {
+        "1": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "2": "LOC-RED-RUINS",
+        "3": "LOC-SLOB-FOOTHILL-CAMP",
+        "4": "LOC-LLC-BOARDROOM",
+        "5": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "6": "LOC-TDS-WATERFALL-TEMPLE",
+        "7": "LOC-CHILI-STABLE",
+        "8": "LOC-BELT-KEEPER-KEEP",
+        "9": "LOC-STORM-BOWL",
+        "10": "LOC-MUD-DOGS-SWAMP",
+        "11": "LOC-CHINS-ROAD-COMMONS",
+        "12": "LOC-COUNTRY-CLUB-JACKSON"
+      },
+      "neutral_pool": [
+        "LOC-LEAGUE-CHAMBER",
+        "LOC-COMPACT-NEUTRAL-GROUNDS"
+      ],
+      "rules": {
+        "require_verified_home_team": true,
+        "require_approved_route_path": true,
+        "inherit_world_state": true,
+        "visual_renderer_may_select_venue": false
+      },
+      "conditional_neutral_pool": [
+        "LOC-BRIDGE-MOUNTAIN-LAKE"
+      ]
+    }
+  }
+}
