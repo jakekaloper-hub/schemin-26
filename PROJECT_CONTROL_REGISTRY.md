@@ -101,7 +101,7 @@ Binding laws:
 
 World Engine V1 remains historical release evidence and is superseded by V1.1 for current world production.
 
-**Atlas Phase 1 expansion governance:** release-candidate controls under `world/atlas/phase-1/` add cultural deepening, future-location candidate lifecycle, rare/special-event venue policy and generation hydration. They do not supersede World Engine V1.1 physical authority or promote candidate geography automatically.
+**Atlas Phase 1 expansion governance:** when world/atlas/phase-1/_INDEX.md is present on main, these controls are ACTIVE for cultural deepening, future-location candidate lifecycle, rare/special-event venue policy and generation hydration. They do not supersede World Engine V1.1 physical authority or promote candidate geography automatically.
 
 ### Jack Mercer
 Read:
@@ -118,7 +118,12 @@ Read:
 
 FLA Bullpen is a selective specialist/governance adapter. It is not a sixth Schemin control plane and is not the source of current fantasy league truth.
 
-## Current operating checkpoint — 2026-09-29
+## Current operating checkpoint — 2026-09-30
+
+- Atlas Foundation Reconciliation V1 merged through PR #37.
+- Atlas Phase 1 has completed board/QA review in PR #39; when merged, its expansion governance becomes active while World Engine V1.1 remains physical authority.
+
+### Prior checkpoint — 2026-09-29
 
 - Week 3 facts are locked and the 21-page Week 3 Memo is immutable release evidence.
 - Week 3 post-production is complete; its accepted controls were integrated into Memo OS V5.5.
