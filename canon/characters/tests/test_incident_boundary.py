@@ -146,7 +146,7 @@ class Boundary(unittest.TestCase):
         result = governed_generate(
             lambda payload: {"pixels": "opaque"},
             eligible, "r", [CID], mounts, "test", {},
-            signing_key="test-key", consumed_nonces=set(),
+            signing_key="test-key", consumed_nonces=set(), now=2,
         )
         self.assertEqual(result["state"], "GENERATION_OUTPUT_BLOCKED")
         self.assertTrue(result["renderer_invoked"])
@@ -161,7 +161,7 @@ class Boundary(unittest.TestCase):
         result = governed_generate(
             lambda payload: {"output_instance_id": "out-1"},
             eligible, "r", [CID], mounts, "test", {},
-            signing_key="test-key", consumed_nonces=set(),
+            signing_key="test-key", consumed_nonces=set(), now=2,
         )
         self.assertEqual(result["state"], "GENERATION_EXECUTED_PENDING_CHARACTER_QA")
 
