@@ -1,0 +1,369 @@
+{
+  "schema_version": "1.0",
+  "status": "RELEASE_CANDIDATE",
+  "settlements": [
+    {
+      "settlement_id": "SET-1",
+      "name": "Support settlement for Trade Jedi Mountain Base",
+      "anchor_location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "placement_reasons": [
+        "MOUNTAIN_PASS",
+        "HIGH_GROUND"
+      ],
+      "population_mode": "PEOPLED_KIND",
+      "population_note": "Other Jedi and non-Jedi humans coexist; principal identity is not cloned.",
+      "ordinary_labor": [
+        "food supply",
+        "maintenance",
+        "transport/courier work",
+        "local trade"
+      ],
+      "infrastructure": [
+        "high ridge",
+        "war-room overlook",
+        "route-connected ordinary habitation"
+      ],
+      "canon_confidence": {
+        "status": "INFERRED",
+        "source": "V1.1 physical geography + owner-domain anchor",
+        "last_verified": "2026-10-01",
+        "review_owner": "Civilization / Cartography"
+      },
+      "promotion_rule": "Support settlement exists as causal production context; exact name/size/layout remains non-locked until explicit promotion."
+    },
+    {
+      "settlement_id": "SET-2",
+      "name": "Support settlement for Red Leopard Ruins",
+      "anchor_location_id": "LOC-RED-RUINS",
+      "physical_zone_id": "REG-EASTERN-STORM-COAST",
+      "placement_reasons": [
+        "HIGH_GROUND",
+        "COASTAL_TRADE"
+      ],
+      "population_mode": "PEOPLED_KIND",
+      "population_note": "Peopled-kind support population exists; principal remains visually distinct.",
+      "ordinary_labor": [
+        "food supply",
+        "maintenance",
+        "transport/courier work",
+        "local trade"
+      ],
+      "infrastructure": [
+        "jungle ruins",
+        "predator banners",
+        "route-connected ordinary habitation"
+      ],
+      "canon_confidence": {
+        "status": "INFERRED",
+        "source": "V1.1 physical geography + owner-domain anchor",
+        "last_verified": "2026-10-01",
+        "review_owner": "Civilization / Cartography"
+      },
+      "promotion_rule": "Support settlement exists as causal production context; exact name/size/layout remains non-locked until explicit promotion."
+    },
+    {
+      "settlement_id": "SET-3",
+      "name": "Support settlement for Slob Foothill Camp",
+      "anchor_location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "placement_reasons": [
+        "MOUNTAIN_PASS",
+        "HIGH_GROUND"
+      ],
+      "population_mode": "PEOPLED_KIND",
+      "population_note": "Peopled-kind support population exists; principal remains visually distinct.",
+      "ordinary_labor": [
+        "food supply",
+        "maintenance",
+        "transport/courier work",
+        "local trade"
+      ],
+      "infrastructure": [
+        "tailgate yard",
+        "rough training ground",
+        "route-connected ordinary habitation"
+      ],
+      "canon_confidence": {
+        "status": "INFERRED",
+        "source": "V1.1 physical geography + owner-domain anchor",
+        "last_verified": "2026-10-01",
+        "review_owner": "Civilization / Cartography"
+      },
+      "promotion_rule": "Support settlement exists as causal production context; exact name/size/layout remains non-locked until explicit promotion."
+    },
+    {
+      "settlement_id": "SET-4",
+      "name": "Support settlement for LLC Mercantile Boardroom",
+      "anchor_location_id": "LOC-LLC-BOARDROOM",
+      "physical_zone_id": "REG-INNER-SEA-LITTORAL",
+      "placement_reasons": [
+        "COASTAL_TRADE"
+      ],
+      "population_mode": "SINGULAR_BEING",
+      "population_note": "Mixed ordinary inhabitants; principal is singular.",
+      "ordinary_labor": [
+        "food supply",
+        "maintenance",
+        "transport/courier work",
+        "local trade"
+      ],
+      "infrastructure": [
+        "executive chamber",
+        "ledgers",
+        "market overlook",
+        "route-connected ordinary habitation"
+      ],
+      "canon_confidence": {
+        "status": "INFERRED",
+        "source": "V1.1 physical geography + owner-domain anchor",
+        "last_verified": "2026-10-01",
+        "review_owner": "Civilization / Cartography"
+      },
+      "promotion_rule": "Support settlement exists as causal production context; exact name/size/layout remains non-locked until explicit promotion."
+    },
+    {
+      "settlement_id": "SET-5",
+      "name": "Support settlement for D0nkey K0ng Highland Stronghold",
+      "anchor_location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "placement_reasons": [
+        "MOUNTAIN_PASS",
+        "HIGH_GROUND"
+      ],
+      "population_mode": "PEOPLED_KIND",
+      "population_note": "Peopled-kind support population exists; principal remains visually distinct.",
+      "ordinary_labor": [
+        "food supply",
+        "maintenance",
+        "transport/courier work",
+        "local trade"
+      ],
+      "infrastructure": [
+        "highland stronghold",
+        "training court",
+        "road approach",
+        "route-connected ordinary habitation"
+      ],
+      "canon_confidence": {
+        "status": "INFERRED",
+        "source": "V1.1 physical geography + owner-domain anchor",
+        "last_verified": "2026-10-01",
+        "review_owner": "Civilization / Cartography"
+      },
+      "promotion_rule": "Support settlement exists as causal production context; exact name/size/layout remains non-locked until explicit promotion."
+    },
+    {
+      "settlement_id": "SET-6",
+      "name": "Support settlement for Podium Shadow Waterfall Temple",
+      "anchor_location_id": "LOC-TDS-WATERFALL-TEMPLE",
+      "physical_zone_id": "REG-SOUTHERN-WETLANDS",
+      "placement_reasons": [
+        "WETLAND_CAUSEWAY"
+      ],
+      "population_mode": "SHARED_COHABITATION",
+      "population_note": "Mixed/shared population permitted; exact same-kind biology unresolved.",
+      "ordinary_labor": [
+        "food supply",
+        "maintenance",
+        "transport/courier work",
+        "local trade"
+      ],
+      "infrastructure": [
+        "waterfall",
+        "temple stone",
+        "dense vegetation",
+        "route-connected ordinary habitation"
+      ],
+      "canon_confidence": {
+        "status": "INFERRED",
+        "source": "V1.1 physical geography + owner-domain anchor",
+        "last_verified": "2026-10-01",
+        "review_owner": "Civilization / Cartography"
+      },
+      "promotion_rule": "Support settlement exists as causal production context; exact name/size/layout remains non-locked until explicit promotion."
+    },
+    {
+      "settlement_id": "SET-7",
+      "name": "Support settlement for Chili Outlaw Stable",
+      "anchor_location_id": "LOC-CHILI-STABLE",
+      "physical_zone_id": "REG-WESTERN-TABLELANDS",
+      "placement_reasons": [
+        "RESOURCE_SOURCE",
+        "ROAD_JUNCTION"
+      ],
+      "population_mode": "SHARED_COHABITATION",
+      "population_note": "Mixed/shared population permitted; exact same-kind biology unresolved.",
+      "ordinary_labor": [
+        "food supply",
+        "maintenance",
+        "transport/courier work",
+        "local trade"
+      ],
+      "infrastructure": [
+        "stable",
+        "pit smoke",
+        "Dark Horse enclosure",
+        "route-connected ordinary habitation"
+      ],
+      "canon_confidence": {
+        "status": "INFERRED",
+        "source": "V1.1 physical geography + owner-domain anchor",
+        "last_verified": "2026-10-01",
+        "review_owner": "Civilization / Cartography"
+      },
+      "promotion_rule": "Support settlement exists as causal production context; exact name/size/layout remains non-locked until explicit promotion."
+    },
+    {
+      "settlement_id": "SET-8",
+      "name": "Support settlement for Belt Keeper Rune Keep",
+      "anchor_location_id": "LOC-BELT-KEEPER-KEEP",
+      "physical_zone_id": "REG-EASTERN-STORM-COAST",
+      "placement_reasons": [
+        "HIGH_GROUND",
+        "COASTAL_TRADE"
+      ],
+      "population_mode": "SINGULAR_BEING",
+      "population_note": "Mixed ordinary inhabitants; principal is singular.",
+      "ordinary_labor": [
+        "food supply",
+        "maintenance",
+        "transport/courier work",
+        "local trade"
+      ],
+      "infrastructure": [
+        "dark keep",
+        "championship hall",
+        "route-connected ordinary habitation"
+      ],
+      "canon_confidence": {
+        "status": "INFERRED",
+        "source": "V1.1 physical geography + owner-domain anchor",
+        "last_verified": "2026-10-01",
+        "review_owner": "Civilization / Cartography"
+      },
+      "promotion_rule": "Support settlement exists as causal production context; exact name/size/layout remains non-locked until explicit promotion."
+    },
+    {
+      "settlement_id": "SET-9",
+      "name": "Support settlement for Storm Bowl",
+      "anchor_location_id": "LOC-STORM-BOWL",
+      "physical_zone_id": "REG-EASTERN-STORM-COAST",
+      "placement_reasons": [
+        "HIGH_GROUND",
+        "COASTAL_TRADE"
+      ],
+      "population_mode": "SINGULAR_BEING",
+      "population_note": "Mixed ordinary inhabitants; principal is singular.",
+      "ordinary_labor": [
+        "food supply",
+        "maintenance",
+        "transport/courier work",
+        "local trade"
+      ],
+      "infrastructure": [
+        "weather-exposed venue",
+        "service counter",
+        "route-connected ordinary habitation"
+      ],
+      "canon_confidence": {
+        "status": "INFERRED",
+        "source": "V1.1 physical geography + owner-domain anchor",
+        "last_verified": "2026-10-01",
+        "review_owner": "Civilization / Cartography"
+      },
+      "promotion_rule": "Support settlement exists as causal production context; exact name/size/layout remains non-locked until explicit promotion."
+    },
+    {
+      "settlement_id": "SET-10",
+      "name": "Support settlement for Mud Dogs Swamp",
+      "anchor_location_id": "LOC-MUD-DOGS-SWAMP",
+      "physical_zone_id": "REG-SOUTHERN-WETLANDS",
+      "placement_reasons": [
+        "WETLAND_CAUSEWAY"
+      ],
+      "population_mode": "PEOPLED_KIND",
+      "population_note": "Peopled-kind support population exists; principal remains visually distinct.",
+      "ordinary_labor": [
+        "food supply",
+        "maintenance",
+        "transport/courier work",
+        "local trade"
+      ],
+      "infrastructure": [
+        "mud channels",
+        "raised ground",
+        "route-connected ordinary habitation"
+      ],
+      "canon_confidence": {
+        "status": "INFERRED",
+        "source": "V1.1 physical geography + owner-domain anchor",
+        "last_verified": "2026-10-01",
+        "review_owner": "Civilization / Cartography"
+      },
+      "promotion_rule": "Support settlement exists as causal production context; exact name/size/layout remains non-locked until explicit promotion."
+    },
+    {
+      "settlement_id": "SET-11",
+      "name": "Support settlement for People's Champ Road Commons",
+      "anchor_location_id": "LOC-CHINS-ROAD-COMMONS",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "placement_reasons": [
+        "ROAD_JUNCTION",
+        "FERTILE_BASIN"
+      ],
+      "population_mode": "PEOPLED_KIND",
+      "population_note": "Peopled-kind support population exists; principal remains visually distinct.",
+      "ordinary_labor": [
+        "food supply",
+        "maintenance",
+        "transport/courier work",
+        "local trade"
+      ],
+      "infrastructure": [
+        "roadside hall",
+        "BBQ yard",
+        "caravan court",
+        "route-connected ordinary habitation"
+      ],
+      "canon_confidence": {
+        "status": "INFERRED",
+        "source": "V1.1 physical geography + owner-domain anchor",
+        "last_verified": "2026-10-01",
+        "review_owner": "Civilization / Cartography"
+      },
+      "promotion_rule": "Support settlement exists as causal production context; exact name/size/layout remains non-locked until explicit promotion."
+    },
+    {
+      "settlement_id": "SET-12",
+      "name": "Support settlement for Country Club of Jackson",
+      "anchor_location_id": "LOC-COUNTRY-CLUB-JACKSON",
+      "physical_zone_id": "REG-SOUTHERN-WETLANDS",
+      "placement_reasons": [
+        "ESTATE_ACCESS",
+        "WETLAND_CAUSEWAY"
+      ],
+      "population_mode": "SINGULAR_BEING",
+      "population_note": "Mixed ordinary inhabitants; principal is singular.",
+      "ordinary_labor": [
+        "food supply",
+        "maintenance",
+        "transport/courier work",
+        "local trade"
+      ],
+      "infrastructure": [
+        "clubhouse",
+        "golf grounds",
+        "water hazards",
+        "route-connected ordinary habitation"
+      ],
+      "canon_confidence": {
+        "status": "INFERRED",
+        "source": "V1.1 physical geography + owner-domain anchor",
+        "last_verified": "2026-10-01",
+        "review_owner": "Civilization / Cartography"
+      },
+      "promotion_rule": "Support settlement exists as causal production context; exact name/size/layout remains non-locked until explicit promotion."
+    }
+  ]
+}
