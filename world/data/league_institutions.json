@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "status": "RELEASE_CANDIDATE",
+  "institutions": [
+    {
+      "id": "INST-LEAGUE-CHAMBER",
+      "name": "League Chamber",
+      "location_id": "LOC-LEAGUE-CHAMBER",
+      "function": [
+        "governance",
+        "arbiter functions",
+        "public League administration"
+      ],
+      "neutral": true
+    },
+    {
+      "id": "INST-LEAGUE-ARCHIVE",
+      "name": "League Archive",
+      "location_id": "LOC-LEAGUE-ARCHIVE",
+      "function": [
+        "records",
+        "receipts",
+        "historical custody",
+        "courier court"
+      ],
+      "neutral": true
+    },
+    {
+      "id": "INST-COMPACT-NEUTRAL-GROUNDS",
+      "name": "Compact Neutral Grounds",
+      "location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "function": [
+        "major neutral Encounters",
+        "arrival staging",
+        "arbiter pavilion"
+      ],
+      "neutral": true
+    },
+    {
+      "id": "INST-PITTSYS-BOOK",
+      "name": "Pittsy's Book",
+      "location_id": "LOC-PITTSYS-BOOK",
+      "function": [
+        "bookmaking",
+        "settlement",
+        "ledger display"
+      ],
+      "neutral": false
+    },
+    {
+      "id": "INST-TRANSACTION-DESK",
+      "name": "League Transaction Function",
+      "location_id": "LOC-LEAGUE-CHAMBER",
+      "function": [
+        "waiver/transaction administration"
+      ],
+      "neutral": true,
+      "canon_confidence": "INFERRED_FROM_RECURRING_MEMO_INSTITUTION"
+    },
+    {
+      "id": "INST-NOTICE-COURIER",
+      "name": "League Notice and Courier Function",
+      "location_id": "LOC-LEAGUE-ARCHIVE",
+      "function": [
+        "information movement",
+        "public notices",
+        "records delivery"
+      ],
+      "neutral": true,
+      "canon_confidence": "INFERRED_FROM_ARCHIVE_AND_CIVILIZATION_TEXTURE"
+    }
+  ],
+  "rules": [
+    "institutions must resolve to active spatial context",
+    "Archive is not omniscient magic",
+    "neutral institutions remain reachable through active routes"
+  ]
+}
