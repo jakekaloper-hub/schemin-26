@@ -13,9 +13,11 @@ Provide research-grounded external perspective to the Schemin' '26 Living Novel 
 
 - `NOVEL_EXTERNAL_ADVISORY_COUNCIL_V1.md` — roster, domain map, triggers, authority boundaries.
 - `NOVEL_CONSULTATION_PROTOCOL_V1.md` — evidence freeze, independent reads, Bullpen cross-examination, reconciliation and implementation flow.
-- `SOURCE_REGISTRY_V1.md` — approved public-method sources and allowed use.
+- `SOURCE_REGISTRY_V1.md` — human-readable approved public-method sources and allowed use.
+- `SOURCE_REGISTRY_V1.json` — machine-readable source/provenance registry.
 - `ADVISOR_REGISTRY_V1.json` — machine-readable routing registry.
 - `CONSULTATION_PACKET_TEMPLATE_V1.md` — standard engagement packet.
+- `test_advisor_registry.py` — provenance/authority contract tests.
 - `../os/NOVEL_EXTERNAL_ADVISORY_INTEGRATION_PATCH_V1.md` — insertion into the Novel OS transaction.
 
 ## Precedent
