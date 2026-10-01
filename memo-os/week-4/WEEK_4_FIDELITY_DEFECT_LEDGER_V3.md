@@ -17,3 +17,12 @@
 | FID-10 | One page does not prove issue rhythm | HIGH | Groundskeeper | single-page acceptance scope | after one page passes, test additional archetypes before OS promotion | 4-page mini set | issue rhythm gate | DEFERRED_AFTER_PAGE_PASS |
 
 No defect may be marked CLOSED from prose assertion alone.
+
+
+## Incident FID-11 — Austin Byars identity mismatch
+
+| ID | Defect | Severity | Owner | Root cause | Repair strategy | Evidence required | Regression | Status |
+|---|---|---:|---|---|---|---|---|---|
+| FID-11 | HMB render used wrong Austin Byars owner identity | CRITICAL | Character Authority / CAIO | stale/generic Belt Keeper visual treated as owner identity authority | mount Commissioner-supplied Austin photo as primary face/identity reference; retain Belt Keeper only as fantasy treatment layer | reference mount receipt + final-raster face/identity QA | CHAR-AUSTIN-OWNER-ID | OPEN |
+
+**Rule learned:** semantic canon describing a fantasy archetype is not sufficient owner-identity evidence when a Commissioner-approved owner photo exists. The owner photo controls facial identity; fantasy canon controls transformation language.
