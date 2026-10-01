@@ -1,0 +1,332 @@
+{
+  "schema_version": "2.0",
+  "status": "RELEASE_CANDIDATE",
+  "domains": [
+    {
+      "domain_id": "DOM-JAKE-KALOPER",
+      "owner_character_id": "CHAR-JAKE-KALOPER",
+      "home_anchor": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "physical_region": [
+        "REG-UPPER-VALLEYS"
+      ],
+      "division_affiliation": "DIV-BURGERS",
+      "domain_type": "territorial-strategic",
+      "settlement_pattern": "DERIVE_FROM_ATLAS_AND_LOCATION_CONTROL_PLANE",
+      "population_context": "PEOPLED_KIND",
+      "roads": [
+        "ROUTE-EASTERN-ASCENT"
+      ],
+      "current_state": [
+        "operational"
+      ],
+      "forbidden_drift": [
+        "OWNER_DOMAIN_NOT_SOVEREIGN_COUNTRY",
+        "NO_CHAMPIONSHIP_BELT"
+      ],
+      "source_provenance": [
+        "world/data/owner_domains.json",
+        "world/data/locations.json"
+      ]
+    },
+    {
+      "domain_id": "DOM-KEVIN-ZEEK",
+      "owner_character_id": "CHAR-KEVIN-ZEEK",
+      "home_anchor": "LOC-RED-RUINS",
+      "physical_region": [
+        "REG-EASTERN-STORM-COAST"
+      ],
+      "division_affiliation": "DIV-WINGS",
+      "domain_type": "territorial",
+      "settlement_pattern": "DERIVE_FROM_ATLAS_AND_LOCATION_CONTROL_PLANE",
+      "population_context": "PEOPLED_KIND",
+      "roads": [
+        "ROUTE-RAIN-ESCARPMENT"
+      ],
+      "current_state": [
+        "operational"
+      ],
+      "forbidden_drift": [
+        "OWNER_DOMAIN_NOT_SOVEREIGN_COUNTRY",
+        "RED_LEOPARD_PREDATOR"
+      ],
+      "source_provenance": [
+        "world/data/owner_domains.json",
+        "world/data/locations.json"
+      ]
+    },
+    {
+      "domain_id": "DOM-JORDAN-HOLLINGSHEAD",
+      "owner_character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "home_anchor": "LOC-SLOB-FOOTHILL-CAMP",
+      "physical_region": [
+        "REG-UPPER-VALLEYS"
+      ],
+      "division_affiliation": "DIV-WINGS",
+      "domain_type": "mobile-camp",
+      "settlement_pattern": "DERIVE_FROM_ATLAS_AND_LOCATION_CONTROL_PLANE",
+      "population_context": "PEOPLED_KIND",
+      "roads": [
+        "ROUTE-HEARTHROAD"
+      ],
+      "current_state": [
+        "operational"
+      ],
+      "forbidden_drift": [
+        "OWNER_DOMAIN_NOT_SOVEREIGN_COUNTRY",
+        "FRAT_BRO_BERSERKER",
+        "PIT_BULL"
+      ],
+      "source_provenance": [
+        "world/data/owner_domains.json",
+        "world/data/locations.json"
+      ]
+    },
+    {
+      "domain_id": "DOM-DAVID-BABB",
+      "owner_character_id": "CHAR-DAVID-BABB",
+      "home_anchor": "LOC-LLC-BOARDROOM",
+      "physical_region": [
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "division_affiliation": "DIV-PIZZA",
+      "domain_type": "commercial-institutional",
+      "settlement_pattern": "DERIVE_FROM_ATLAS_AND_LOCATION_CONTROL_PLANE",
+      "population_context": "SINGULAR_BEING",
+      "roads": [
+        "ROUTE-INNER-SEA-QUAY"
+      ],
+      "current_state": [
+        "Week 2 intrusion/destruction remembered",
+        "repair/scar continuity permitted"
+      ],
+      "forbidden_drift": [
+        "OWNER_DOMAIN_NOT_SOVEREIGN_COUNTRY",
+        "HOSTILE_TAKEOVER"
+      ],
+      "source_provenance": [
+        "world/data/owner_domains.json",
+        "world/data/locations.json"
+      ]
+    },
+    {
+      "domain_id": "DOM-WILSON-LOOK",
+      "owner_character_id": "CHAR-WILSON-LOOK",
+      "home_anchor": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "physical_region": [
+        "REG-UPPER-VALLEYS",
+        "REG-NORTHERN-SPINE"
+      ],
+      "division_affiliation": "DIV-BURGERS",
+      "domain_type": "martial-territorial",
+      "settlement_pattern": "DERIVE_FROM_ATLAS_AND_LOCATION_CONTROL_PLANE",
+      "population_context": "PEOPLED_KIND",
+      "roads": [
+        "ROUTE-DK-HIGHLAND-LINK"
+      ],
+      "current_state": [
+        "current principal identity = Arsenal Gorilla Warrior",
+        "peopled-kind home society"
+      ],
+      "forbidden_drift": [
+        "OWNER_DOMAIN_NOT_SOVEREIGN_COUNTRY",
+        "ARSENAL_GORILLA_WARRIOR",
+        "NO_CENTAUR_ANATOMY"
+      ],
+      "source_provenance": [
+        "world/data/owner_domains.json",
+        "world/data/locations.json"
+      ]
+    },
+    {
+      "domain_id": "DOM-PHILLIP-PITTS",
+      "owner_character_id": "CHAR-PHILLIP-PITTS",
+      "home_anchor": "LOC-TDS-WATERFALL-TEMPLE",
+      "physical_region": [
+        "REG-SOUTHERN-WETLANDS"
+      ],
+      "division_affiliation": "DIV-BURGERS",
+      "domain_type": "territorial-institutional",
+      "settlement_pattern": "DERIVE_FROM_ATLAS_AND_LOCATION_CONTROL_PLANE",
+      "population_context": "SHARED_COHABITATION",
+      "roads": [
+        "ROUTE-FALLS-PATH"
+      ],
+      "current_state": [
+        "current owner anatomy = one body, three serpent heads",
+        "cross-divisional coexistence with Chili is canon"
+      ],
+      "forbidden_drift": [
+        "OWNER_DOMAIN_NOT_SOVEREIGN_COUNTRY",
+        "ONE_BODY_THREE_SERPENT_HEADS"
+      ],
+      "source_provenance": [
+        "world/data/owner_domains.json",
+        "world/data/locations.json"
+      ]
+    },
+    {
+      "domain_id": "DOM-BRANDON-PRYOR",
+      "owner_character_id": "CHAR-BRANDON-PRYOR",
+      "home_anchor": "LOC-CHILI-STABLE",
+      "physical_region": [
+        "REG-WESTERN-TABLELANDS"
+      ],
+      "division_affiliation": "DIV-WINGS",
+      "domain_type": "frontier-mobile",
+      "settlement_pattern": "DERIVE_FROM_ATLAS_AND_LOCATION_CONTROL_PLANE",
+      "population_context": "SHARED_COHABITATION",
+      "roads": [
+        "ROUTE-WESTERN-RANGE"
+      ],
+      "current_state": [
+        "operational",
+        "cross-divisional coexistence with TDS is canon"
+      ],
+      "forbidden_drift": [
+        "OWNER_DOMAIN_NOT_SOVEREIGN_COUNTRY",
+        "CHILI_OUTLAW",
+        "DARK_HORSE"
+      ],
+      "source_provenance": [
+        "world/data/owner_domains.json",
+        "world/data/locations.json"
+      ]
+    },
+    {
+      "domain_id": "DOM-AUSTIN-BYARS",
+      "owner_character_id": "CHAR-AUSTIN-BYARS",
+      "home_anchor": "LOC-BELT-KEEPER-KEEP",
+      "physical_region": [
+        "REG-EASTERN-STORM-COAST",
+        "REG-NORTHERN-SPINE"
+      ],
+      "division_affiliation": "DIV-PIZZA",
+      "domain_type": "martial-legacy",
+      "settlement_pattern": "DERIVE_FROM_ATLAS_AND_LOCATION_CONTROL_PLANE",
+      "population_context": "SINGULAR_BEING",
+      "roads": [
+        "ROUTE-BLACK-CLIFF"
+      ],
+      "current_state": [
+        "Belt remains with Belt Keeper"
+      ],
+      "forbidden_drift": [
+        "OWNER_DOMAIN_NOT_SOVEREIGN_COUNTRY",
+        "BELT_KEEPER",
+        "CHAMPIONSHIP_BELT"
+      ],
+      "source_provenance": [
+        "world/data/owner_domains.json",
+        "world/data/locations.json"
+      ]
+    },
+    {
+      "domain_id": "DOM-MANNING-WELTY",
+      "owner_character_id": "CHAR-MANNING-WELTY",
+      "home_anchor": "LOC-STORM-BOWL",
+      "physical_region": [
+        "REG-EASTERN-STORM-COAST",
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "division_affiliation": "DIV-PIZZA",
+      "domain_type": "elemental-coastal",
+      "settlement_pattern": "DERIVE_FROM_ATLAS_AND_LOCATION_CONTROL_PLANE",
+      "population_context": "SINGULAR_BEING",
+      "roads": [
+        "ROUTE-STORM-COAST"
+      ],
+      "current_state": [
+        "Week 2 event memory",
+        "El Niño may manifest as embodied Weather System or explicitly resolved atmospheric disaster"
+      ],
+      "forbidden_drift": [
+        "OWNER_DOMAIN_NOT_SOVEREIGN_COUNTRY",
+        "WEATHER_SYSTEM"
+      ],
+      "source_provenance": [
+        "world/data/owner_domains.json",
+        "world/data/locations.json"
+      ]
+    },
+    {
+      "domain_id": "DOM-BOBBY-MITCHELL",
+      "owner_character_id": "CHAR-BOBBY-MITCHELL",
+      "home_anchor": "LOC-MUD-DOGS-SWAMP",
+      "physical_region": [
+        "REG-SOUTHERN-WETLANDS"
+      ],
+      "division_affiliation": "DIV-BURGERS",
+      "domain_type": "territorial",
+      "settlement_pattern": "DERIVE_FROM_ATLAS_AND_LOCATION_CONTROL_PLANE",
+      "population_context": "PEOPLED_KIND",
+      "roads": [
+        "ROUTE-DELTA-CAUSEWAY"
+      ],
+      "current_state": [
+        "Week 2 and Week 3 history remembered"
+      ],
+      "forbidden_drift": [
+        "OWNER_DOMAIN_NOT_SOVEREIGN_COUNTRY",
+        "SWAMP_BORN_MENACE"
+      ],
+      "source_provenance": [
+        "world/data/owner_domains.json",
+        "world/data/locations.json"
+      ]
+    },
+    {
+      "domain_id": "DOM-BEN-WHIPPLE",
+      "owner_character_id": "CHAR-BEN-WHIPPLE",
+      "home_anchor": "LOC-CHINS-ROAD-COMMONS",
+      "physical_region": [
+        "REG-CENTRAL-BASIN"
+      ],
+      "division_affiliation": "DIV-PIZZA",
+      "domain_type": "roadside-populist",
+      "settlement_pattern": "DERIVE_FROM_ATLAS_AND_LOCATION_CONTROL_PLANE",
+      "population_context": "PEOPLED_KIND",
+      "roads": [
+        "ROUTE-BASIN-MARKET"
+      ],
+      "current_state": [
+        "operational"
+      ],
+      "forbidden_drift": [
+        "OWNER_DOMAIN_NOT_SOVEREIGN_COUNTRY",
+        "PEOPLES_CHAMP",
+        "RACCOON"
+      ],
+      "source_provenance": [
+        "world/data/owner_domains.json",
+        "world/data/locations.json"
+      ]
+    },
+    {
+      "domain_id": "DOM-ZACH-WILSON",
+      "owner_character_id": "CHAR-ZACH-WILSON",
+      "home_anchor": "LOC-COUNTRY-CLUB-JACKSON",
+      "physical_region": [
+        "REG-SOUTHERN-WETLANDS"
+      ],
+      "division_affiliation": "DIV-WINGS",
+      "domain_type": "estate-sporting",
+      "settlement_pattern": "DERIVE_FROM_ATLAS_AND_LOCATION_CONTROL_PLANE",
+      "population_context": "SINGULAR_BEING",
+      "roads": [
+        "ROUTE-JACKSON-LEVEE"
+      ],
+      "current_state": [
+        "Week 3 chili contamination is historical memory; cleanup state required before pristine reset"
+      ],
+      "forbidden_drift": [
+        "OWNER_DOMAIN_NOT_SOVEREIGN_COUNTRY",
+        "KING_OF_IMPOSSIBLE_LIE",
+        "DUCK_GOLFER"
+      ],
+      "source_provenance": [
+        "world/data/owner_domains.json",
+        "world/data/locations.json"
+      ]
+    }
+  ]
+}
