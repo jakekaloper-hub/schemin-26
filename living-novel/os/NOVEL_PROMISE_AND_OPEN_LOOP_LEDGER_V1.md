@@ -1,6 +1,6 @@
 # Novel Promise & Open-Loop Ledger V1
 
-**Status:** RELEASE CANDIDATE — Author Council Engagement 001  
+**Status:** RELEASED / ACTIVE — Author Council Engagement 001  
 **Owner:** Librarian + Beat Writer
 
 ## Purpose
