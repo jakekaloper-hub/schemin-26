@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemin26.local/schemas/world-memory.schema.json",
+  "type": "object",
+  "required": [
+    "memory_id",
+    "event_id",
+    "memory_class",
+    "current_relevance"
+  ],
+  "properties": {
+    "memory_id": {
+      "type": "string"
+    },
+    "event_id": {
+      "type": "string"
+    },
+    "memory_class": {
+      "type": "string",
+      "enum": [
+        "PERMANENT",
+        "RECURRING",
+        "HISTORICAL",
+        "SEASONAL",
+        "TEMPORARY",
+        "JOKE_EVENT_ONLY",
+        "RUMOR",
+        "SUPERSEDED"
+      ]
+    },
+    "location_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "current_relevance": {
+      "type": "string"
+    },
+    "canon_confidence": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}
