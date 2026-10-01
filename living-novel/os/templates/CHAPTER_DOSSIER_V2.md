@@ -71,3 +71,12 @@ For each movement:
 - Would this chapter still exist if the fantasy Week label were removed?
 - Is any scene present only because a matchup happened?
 - Does the chapter end in a changed state rather than a completed weekly report?
+
+
+## Post-draft voice test
+
+Ask:
+
+> **Could this page be reassigned to another POV by changing names only?**
+
+If yes, the voice/attention pass fails. Revise perception, vocabulary, body awareness, conflict reflex and knowledge—not merely dialogue tags.
