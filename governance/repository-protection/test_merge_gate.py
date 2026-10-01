@@ -99,7 +99,7 @@ class MergeGatePlannerTests(unittest.TestCase):
     def test_execution_control_change_triggers_execution_control(self):
         self.assertIn(
             "execution_control",
-            gate.suites_for_path("governance/execution-control/TASK_REGISTRY_V1.json"),
+            merge_gate.plan(["governance/execution-control/TASK_REGISTRY_V1.json"]),
         )
 
 
