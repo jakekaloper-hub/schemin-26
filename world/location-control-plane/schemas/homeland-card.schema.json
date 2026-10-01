@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemin26.local/schemas/homeland-card.schema.json",
+  "title": "Schemin Homeland Card",
+  "type": "object",
+  "required": [
+    "character_id",
+    "owner",
+    "team",
+    "division_id",
+    "domain_type",
+    "primary_location_id",
+    "physical_zone_ids",
+    "ontology_class",
+    "canon_guard",
+    "generated_from"
+  ],
+  "properties": {
+    "character_id": {
+      "type": "string",
+      "pattern": "^CHAR-[A-Z0-9-]+$"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "team": {
+      "type": "string"
+    },
+    "team_id": {
+      "type": "integer"
+    },
+    "division_id": {
+      "type": "string",
+      "pattern": "^DIV-[A-Z0-9-]+$"
+    },
+    "domain_type": {
+      "type": "string"
+    },
+    "primary_location_id": {
+      "type": "string",
+      "pattern": "^LOC-[A-Z0-9-]+$"
+    },
+    "physical_zone_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^REG-[A-Z0-9-]+$"
+      },
+      "minItems": 1
+    },
+    "ontology_class": {
+      "type": "string"
+    },
+    "canon_guard": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "shared_location_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "generated_from": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}
