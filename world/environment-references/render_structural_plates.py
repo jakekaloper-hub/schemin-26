@@ -1,34 +1,38 @@
 #!/usr/bin/env python3
 """Deterministically render Phase 3 structural environment plates from active World Engine data."""
 from __future__ import annotations
-import html, json
+import html
+import json
 from pathlib import Path
 
-ROOT=Path(__file__).resolve().parents[2]
-DATA=ROOT/"world"/"data"
-OUT=ROOT/"world"/"environment-references"/"plates"
+ROOT = Path(__file__).resolve().parents[2]
+DATA = ROOT / "world" / "data"
+OUT = ROOT / "world" / "environment-references" / "plates"
 
 def load(name):
-    return json.loads((DATA/name).read_text())
+    return json.loads((DATA / name).read_text())
 
-def line(arr,y,label):
-    text=" • ".join(str(x) for x in (arr or [])) or "NONE"
-    return f'<text x="80" y="{y}" font-family="sans-serif" font-size="22">{html.escape(label)}: {html.escape(text)}</text>'
+def esc(value):
+    return html.escape(str(value), quote=False)
 
-def render(l,z,state):
-    s=state.get("locations",{}).get(l["id"],l.get("current_state",[]))[:3]
+def line(arr, y, label):
+    text = " • ".join(str(x) for x in (arr or [])) or "NONE"
+    return f'<text x="80" y="{y}" font-family="sans-serif" font-size="22">{esc(label)}: {esc(text)}</text>'
+
+def render(location, zone, state):
+    current = state.get("locations", {}).get(location["id"], location.get("current_state", []))[:3]
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
 <rect width="1600" height="900" fill="#f3efe4"/>
 <rect x="50" y="50" width="1500" height="800" fill="none" stroke="#111" stroke-width="4"/>
-<text x="80" y="115" font-family="serif" font-size="44" font-weight="700">{html.escape(l["name"])}</text>
-<text x="80" y="155" font-family="sans-serif" font-size="20">{html.escape(l["id"])} • STRUCTURAL REFERENCE V1 • NOT CINEMATIC ART</text>
+<text x="80" y="115" font-family="serif" font-size="44" font-weight="700">{esc(location["name"])}</text>
+<text x="80" y="155" font-family="sans-serif" font-size="20">{esc(location["id"])} • STRUCTURAL REFERENCE V1 • NOT CINEMATIC ART</text>
 <line x1="80" y1="180" x2="1520" y2="180" stroke="#111" stroke-width="2"/>
-{line([z["name"]],230,"PHYSICAL ZONE")}
-{line(z["environment"]["terrain"],275,"TERRAIN")}
-{line(z["environment"]["climate"],320,"CLIMATE")}
-{line(l.get("persistent_landmarks",[])[:4],365,"LANDMARKS")}
-{line(l.get("access_route_ids",[])[:4],410,"ACCESS")}
-{line(s,455,"CURRENT STATE")}
+{line([zone["name"]],230,"PHYSICAL ZONE")}
+{line(zone["environment"]["terrain"],275,"TERRAIN")}
+{line(zone["environment"]["climate"],320,"CLIMATE")}
+{line(location.get("persistent_landmarks",[])[:4],365,"LANDMARKS")}
+{line(location.get("access_route_ids",[])[:4],410,"ACCESS")}
+{line(current,455,"CURRENT STATE")}
 <text x="80" y="525" font-family="sans-serif" font-size="24" font-weight="700">SPATIAL ANCHOR</text>
 <circle cx="290" cy="665" r="100" fill="none" stroke="#111" stroke-width="3"/>
 <text x="240" y="672" font-family="sans-serif" font-size="18">LOC CORE</text>
@@ -43,14 +47,14 @@ def render(l,z,state):
 '''
 
 def main():
-    locs=load("locations.json")["locations"]
-    zones={x["id"]:x for x in load("physical_zones.json")["regions"]}
-    state=load("current_world_state.json")
-    for l in locs:
-        p=OUT/l["id"]/"STRUCTURAL_PLATE.svg"
-        p.parent.mkdir(parents=True,exist_ok=True)
-        p.write_text(render(l,zones[l["physical_zone_id"]],state))
-    print(f"rendered {len(locs)} structural plates")
+    locations = load("locations.json")["locations"]
+    zones = {x["id"]: x for x in load("physical_zones.json")["regions"]}
+    state = load("current_world_state.json")
+    for location in locations:
+        target = OUT / location["id"] / "STRUCTURAL_PLATE.svg"
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(render(location, zones[location["physical_zone_id"]], state))
+    print(f"rendered {len(locations)} structural plates")
 
-if __name__=="__main__":
+if __name__ == "__main__":
     main()
