@@ -1,0 +1,231 @@
+{
+  "schema_version": "1.0",
+  "compilation_version": "phase2-v1",
+  "location_id": "LOC-STORM-BOWL",
+  "name": "Storm Bowl",
+  "canon_status": "PROVISIONAL_CANON",
+  "location_type": "encounter_venue",
+  "physical_zone": {
+    "id": "REG-EASTERN-STORM-COAST",
+    "name": "Eastern Forest and Storm Coast",
+    "terrain": [
+      "dense forest",
+      "rocky approaches",
+      "storm-exposed coast"
+    ],
+    "climate": [
+      "wet",
+      "violent coastal storms",
+      "high rainfall"
+    ],
+    "movement": [
+      "forest roads",
+      "coastal navigation",
+      "weather disruption"
+    ]
+  },
+  "division_overlay": {
+    "id": "DIV-PIZZA",
+    "name": "Pizza",
+    "food_referent": "pizza",
+    "visual_fingerprint": {
+      "skyline": [
+        "mercantile towers",
+        "storm-cliff keeps",
+        "coastal weather beacons",
+        "basin road halls"
+      ],
+      "materials": [
+        "cut stone",
+        "slate",
+        "brick",
+        "bronze",
+        "tile",
+        "heavy timber shutters"
+      ],
+      "roads": [
+        "quays",
+        "storm-coast roads",
+        "basin market roads",
+        "cliff approaches"
+      ],
+      "night": [
+        "harbor lamps",
+        "beacon fires",
+        "lightning silhouettes",
+        "road-hall hearths"
+      ]
+    },
+    "anti_drift": [
+      "no giant pizza terrain",
+      "no simple red-yellow circle motif as total identity",
+      "do not make LLC, Belt Keeper, El Niño and Seven Chins all urban",
+      "mercantile city, storm keep, weather coast and basin commons must remain distinct",
+      "do not restore ObiWan or other non-Pizza owners to Pizza"
+    ]
+  },
+  "owner_character_ids": [
+    "CHAR-MANNING-WELTY"
+  ],
+  "shared_location_ids": [],
+  "division_presence_ids": [],
+  "abstract_position": [
+    84,
+    43
+  ],
+  "access_routes": [
+    {
+      "id": "ROUTE-STORM-COAST",
+      "name": "Storm Coast Road",
+      "route_class": "REGIONAL",
+      "from": "LOC-STORM-BOWL",
+      "to": "LOC-LLC-STORM-CITY",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon",
+        "sea"
+      ],
+      "constraints": [
+        "major storms",
+        "forest washouts",
+        "coastal surge"
+      ],
+      "via_location_ids": []
+    }
+  ],
+  "persistent_landmarks": [
+    "weather-exposed venue",
+    "service counter"
+  ],
+  "addressable_feature_handles": [
+    {
+      "handle_id": "SUB::LOC-STORM-BOWL::WEATHER-EXPOSED-VENUE",
+      "parent_location_id": "LOC-STORM-BOWL",
+      "name": "weather-exposed venue",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-STORM-BOWL::SERVICE-COUNTER",
+      "parent_location_id": "LOC-STORM-BOWL",
+      "name": "service counter",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    }
+  ],
+  "base_location_state": [
+    "Week 2 event memory",
+    "El Niño may manifest as embodied Weather System or explicitly resolved atmospheric disaster"
+  ],
+  "current_world_state": [],
+  "historical_events": [],
+  "horizon_constraints": [],
+  "weather_relationships": [
+    {
+      "id": "WX-EASTERN-STORM",
+      "role": "SOURCE_ZONE",
+      "effects": [
+        "coastal surge",
+        "heavy rain",
+        "wind",
+        "road washout"
+      ],
+      "rule": "major event must record downstream/adjacent effects"
+    }
+  ],
+  "visual_dna": {
+    "terrain": [
+      "dense forest",
+      "rocky approaches",
+      "storm-exposed coast"
+    ],
+    "climate": [
+      "wet",
+      "violent coastal storms",
+      "high rainfall"
+    ],
+    "movement": [
+      "forest roads",
+      "coastal navigation",
+      "weather disruption"
+    ],
+    "division_materials": [
+      "cut stone",
+      "slate",
+      "brick",
+      "bronze",
+      "tile",
+      "heavy timber shutters"
+    ],
+    "division_skyline": [
+      "mercantile towers",
+      "storm-cliff keeps",
+      "coastal weather beacons",
+      "basin road halls"
+    ],
+    "division_roads": [
+      "quays",
+      "storm-coast roads",
+      "basin market roads",
+      "cliff approaches"
+    ],
+    "division_night": [
+      "harbor lamps",
+      "beacon fires",
+      "lightning silhouettes",
+      "road-hall hearths"
+    ],
+    "landmark_anchors": [
+      "weather-exposed venue",
+      "service counter"
+    ]
+  },
+  "reference_status": {
+    "location_id": "LOC-STORM-BOWL",
+    "semantic_reference_status": "RESOLVED_FROM_WORLD_ENGINE",
+    "visual_reference_status": "MISSING_APPROVED_VISUAL_REFERENCE",
+    "approved_reference_uris": [],
+    "candidate_reference_paths": [],
+    "blockers": [
+      "No durable approved renderer-addressable environment bytes are registered for this location."
+    ],
+    "rule": "Visual-reference-required workflows must return HUMAN_REVIEW_REQUIRED until approved bytes are registered."
+  },
+  "open_questions": [
+    "permanent civic function"
+  ],
+  "prohibited_inventions": [
+    "Do not move location to another physical zone.",
+    "Do not convert Division overlay into physical geography.",
+    "Do not erase unresolved current world state.",
+    "Do not create new permanent landmarks from generated scenery.",
+    "Do not infer character body identity from location theme."
+  ],
+  "source_provenance": [
+    "bullpen/PRO_SCHEMIN_WORLD_FOUNDATION_PHASE0_PASS1.md"
+  ],
+  "generated_from": [
+    "world/data/locations.json",
+    "world/data/routes.json",
+    "world/data/physical_zones.json",
+    "world/data/divisions.json",
+    "world/data/current_world_state.json",
+    "world/data/world_state_events.json",
+    "world/data/landmark_visibility.json",
+    "world/data/weather_regions.json"
+  ],
+  "authority_note": "Derived card. Upstream World Engine and state records remain authoritative."
+}
