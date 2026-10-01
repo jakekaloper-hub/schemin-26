@@ -1,6 +1,6 @@
 # Chapter III Production Index
 
-**Status:** MINIMUM PRE-PROSE GATE CLOSED / FULL DOSSIER NEXT  
+**Status:** MANUSCRIPT + EDITORIAL COMPLETE / FOUNDER CANON APPROVAL GATE  
 **Story-time cutoff:** end of Week 3; Week 4 outcomes prohibited.
 
 ## Governing inputs
@@ -27,3 +27,19 @@ The selected causal spine is the aftermath of Mire Hill: D0nkey K0ng becomes the
 ## Next
 
 Hydrate `CHAPTER_DOSSIER_V2` against the closed gate. Prose remains blocked until the dossier and Wilson POV validation pass.
+
+
+## Mission artifacts
+
+- `CHAPTER_03_DOSSIER_V2.md`
+- `dossier-review/`
+- `../../manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md`
+- `../../qa/CHAPTER_03_EDITORIAL_AUDIT_V1.md`
+- `../../qa/CHAPTER_03_CANON_PROPOSAL_V1.md`
+- `../../qa/CHAPTER_03_FINAL_PRE_CANON_GATE_V1.md`
+
+## Current gate
+
+Bullpen production work is complete through CANON PROPOSAL.
+
+**Founder approval is the remaining gate before HARD MANUSCRIPT CANON / CLOSED.**
