@@ -19,6 +19,7 @@ Provide research-grounded external perspective to the Schemin' '26 Living Novel 
 - `CONSULTATION_PACKET_TEMPLATE_V1.md` — standard engagement packet.
 - `test_advisor_registry.py` — provenance/authority contract tests.
 - `../os/NOVEL_EXTERNAL_ADVISORY_INTEGRATION_PATCH_V1.md` — insertion into the Novel OS transaction.
+- `NOVEL_EXTERNAL_ADVISORY_COUNCIL_V1_RELEASE_RECEIPT.md` — promotion evidence and acceptance receipt.
 
 ## Precedent
 
