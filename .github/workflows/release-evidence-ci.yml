@@ -1,0 +1,29 @@
+name: Release Evidence CI
+on:
+  pull_request:
+    paths:
+      - "governance/release-evidence/**"
+      - "memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md"
+      - "canon/_INDEX.md"
+      - "world/UNIVERSE_OS_V1_2_RELEASE_RECEIPT.md"
+      - ".github/workflows/release-evidence-ci.yml"
+  push:
+    branches: [main]
+    paths:
+      - "governance/release-evidence/**"
+      - "memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md"
+      - "canon/_INDEX.md"
+      - "world/UNIVERSE_OS_V1_2_RELEASE_RECEIPT.md"
+      - ".github/workflows/release-evidence-ci.yml"
+jobs:
+  release-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Unit tests
+        run: python -m unittest -v governance/release-evidence/test_release_evidence.py
+      - name: Validate current authority receipts
+        run: python governance/release-evidence/release_evidence.py --head-sha "$GITHUB_SHA"

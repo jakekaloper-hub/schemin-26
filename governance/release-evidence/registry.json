@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "purpose": "Bind release/acceptance evidence to exact commits and subsystem bytes; prevent stale PASS from masquerading as current.",
+  "systems": [
+    {
+      "system_id": "weekly-memo-v5.5",
+      "authority_state": "ACTIVE",
+      "anchor_path": "memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md",
+      "current_receipt_id": "MEMO-V55-RELEASE-20260929"
+    },
+    {
+      "system_id": "weekly-memo-v5.6",
+      "authority_state": "RELEASE_CANDIDATE_NOT_ACTIVE",
+      "anchor_path": "memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_6_PUBLICATION_INTEGRITY_PATCH.md",
+      "current_receipt_id": "MEMO-V56-BLOCK-F6DF090",
+      "external_ref": "memo-os/v5-6-publication-integrity"
+    },
+    {
+      "system_id": "character-generation-enforcement",
+      "authority_state": "ACTIVE_SAFETY_BOUNDARY",
+      "anchor_path": "canon/_INDEX.md",
+      "current_receipt_id": "CHAR-R2-ENFORCEMENT-4F2BC8D"
+    },
+    {
+      "system_id": "character-production",
+      "authority_state": "BLOCKED",
+      "anchor_path": "canon/_INDEX.md",
+      "current_receipt_id": "CHAR-PRODUCTION-BLOCK-4F2BC8D"
+    },
+    {
+      "system_id": "universe-os-v1.2",
+      "authority_state": "RELEASED_ACTIVE",
+      "anchor_path": "world/UNIVERSE_OS_V1_2_RELEASE_RECEIPT.md",
+      "current_receipt_id": "UNIVERSE-V12-RELEASE-ADDF45F"
+    }
+  ],
+  "receipts": [
+    {
+      "receipt_id": "MEMO-V55-RELEASE-20260929",
+      "system_id": "weekly-memo-v5.5",
+      "branch": "main",
+      "tested_commit_sha": "ee98c65963b985d3155e1a5957d8b9d4c971af7b",
+      "observed_repo_head_sha": "ee98c65963b985d3155e1a5957d8b9d4c971af7b",
+      "anchor_path": "memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md",
+      "anchor_blob_sha": "10646d4a38703bbf4cdfafc4648094778603edf5",
+      "test_suite": "Memo OS V5.5 retrospective acceptance",
+      "execution_timestamp": "2026-09-29T17:27:45Z",
+      "result": "PASS",
+      "unresolved_blockers": [],
+      "required_checks": [
+        {
+          "name": "V5.5 acceptance",
+          "conclusion": "success",
+          "detail": "11/11"
+        }
+      ],
+      "source_path": "memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md",
+      "supersedes": null
+    },
+    {
+      "receipt_id": "MEMO-V56-BLOCK-F6DF090",
+      "system_id": "weekly-memo-v5.6",
+      "branch": "memo-os/v5-6-publication-integrity",
+      "tested_commit_sha": "f6df0904854137449c5174c158f2203a017bd249",
+      "observed_repo_head_sha": "f6df0904854137449c5174c158f2203a017bd249",
+      "anchor_path": "memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_6_PUBLICATION_INTEGRITY_PATCH.md",
+      "anchor_blob_sha": "caec154c4bb74186e8e007445e39384f8cdbaadf",
+      "test_suite": "Memo V5.6 Acceptance CI",
+      "execution_timestamp": "2026-10-01T02:36:29Z",
+      "result": "BLOCKED",
+      "unresolved_blockers": [
+        "REAL_WEEK_4_PAGE_ACCEPTANCE_NOT_PASS"
+      ],
+      "required_checks": [
+        {
+          "name": "retained-v5.5",
+          "conclusion": "success"
+        },
+        {
+          "name": "v5.6-publication-integrity",
+          "conclusion": "success"
+        },
+        {
+          "name": "v5.6-real-integration",
+          "conclusion": "failure",
+          "run_id": 36806624233
+        }
+      ],
+      "source_path": "memo-os/tests/V5_6_ACCEPTANCE_RUN_REPORT.md",
+      "supersedes": "MEMO-V56-HISTORICAL-BF1D90"
+    },
+    {
+      "receipt_id": "MEMO-V56-HISTORICAL-BF1D90",
+      "system_id": "weekly-memo-v5.6",
+      "branch": "memo-os/v5-6-publication-integrity",
+      "tested_commit_sha": "bf1d90b01a210be507820ef7eef99768c6f87cca",
+      "observed_repo_head_sha": "bf1d90b01a210be507820ef7eef99768c6f87cca",
+      "anchor_path": null,
+      "anchor_blob_sha": null,
+      "test_suite": "V5.6 RC engineering acceptance",
+      "execution_timestamp": "2026-10-01T00:00:00Z",
+      "result": "HISTORICAL_PASS",
+      "unresolved_blockers": [
+        "PRODUCTION_ACCEPTANCE_NOT_COMPLETE"
+      ],
+      "required_checks": [
+        {
+          "name": "historical-engineering-gates",
+          "conclusion": "success"
+        }
+      ],
+      "source_path": "memo-os/tests/V5_6_ACCEPTANCE_RUN_REPORT.md",
+      "supersedes": null
+    },
+    {
+      "receipt_id": "CHAR-R2-ENFORCEMENT-4F2BC8D",
+      "system_id": "character-generation-enforcement",
+      "branch": "main",
+      "tested_commit_sha": "4f2bc8db7ba7e8c58471fd74121b584808131c01",
+      "observed_repo_head_sha": "4f2bc8db7ba7e8c58471fd74121b584808131c01",
+      "anchor_path": "canon/_INDEX.md",
+      "anchor_blob_sha": "619a612dc5aed161e6979a5fbb6e6b516c1eb030",
+      "test_suite": "Character Lock CI",
+      "execution_timestamp": "2026-10-01T03:32:15Z",
+      "result": "PASS",
+      "unresolved_blockers": [],
+      "required_checks": [
+        {
+          "name": "Character Lock CI",
+          "conclusion": "success"
+        },
+        {
+          "name": "Novel OS CI",
+          "conclusion": "success"
+        },
+        {
+          "name": "World Engine QA",
+          "conclusion": "success"
+        },
+        {
+          "name": "Schemin World Engine CI",
+          "conclusion": "success"
+        },
+        {
+          "name": "Schemin Project Mission CI",
+          "conclusion": "success"
+        }
+      ],
+      "source_path": "bullpen/remediation/lunsford-ezzell/R2_CHARACTER_ENFORCEMENT_RECEIPT.md",
+      "supersedes": null
+    },
+    {
+      "receipt_id": "CHAR-PRODUCTION-BLOCK-4F2BC8D",
+      "system_id": "character-production",
+      "branch": "main",
+      "tested_commit_sha": "4f2bc8db7ba7e8c58471fd74121b584808131c01",
+      "observed_repo_head_sha": "4f2bc8db7ba7e8c58471fd74121b584808131c01",
+      "anchor_path": "canon/_INDEX.md",
+      "anchor_blob_sha": "619a612dc5aed161e6979a5fbb6e6b516c1eb030",
+      "test_suite": "R2 production-enablement audit",
+      "execution_timestamp": "2026-10-01T03:32:15Z",
+      "result": "BLOCKED",
+      "unresolved_blockers": [
+        "12_CURRENT_REFERENCE_BINARIES_NOT_DURABLY_RETRIEVABLE",
+        "REAL_PROVIDER_SUBJECT_BINDING_NOT_PROVEN",
+        "FINAL_RASTER_CHARACTER_QA_NOT_PROVEN"
+      ],
+      "required_checks": [],
+      "source_path": "bullpen/remediation/lunsford-ezzell/R2_CHARACTER_ENFORCEMENT_RECEIPT.md",
+      "supersedes": null
+    },
+    {
+      "receipt_id": "UNIVERSE-V12-RELEASE-ADDF45F",
+      "system_id": "universe-os-v1.2",
+      "branch": "main",
+      "tested_commit_sha": "addf45f0bb5369adf78c3cd15b3926992f39473e",
+      "observed_repo_head_sha": "addf45f0bb5369adf78c3cd15b3926992f39473e",
+      "anchor_path": "world/UNIVERSE_OS_V1_2_RELEASE_RECEIPT.md",
+      "anchor_blob_sha": "5cc18138f1a093834dff04a295177d49eb68cfee",
+      "test_suite": "Universe OS V1.2 release acceptance",
+      "execution_timestamp": "2026-10-01T03:14:25Z",
+      "result": "PASS",
+      "unresolved_blockers": [],
+      "required_checks": [
+        {
+          "name": "Schemin World Engine CI",
+          "conclusion": "success",
+          "run_id": 36809468570
+        },
+        {
+          "name": "World Engine QA",
+          "conclusion": "success",
+          "run_id": 36809468550
+        },
+        {
+          "name": "Bullpen Runtime CI",
+          "conclusion": "success",
+          "run_id": 36809468553
+        },
+        {
+          "name": "Schemin Project Mission CI",
+          "conclusion": "success",
+          "run_id": 36809468582
+        }
+      ],
+      "source_path": "world/UNIVERSE_OS_V1_2_RELEASE_RECEIPT.md",
+      "supersedes": null
+    }
+  ]
+}

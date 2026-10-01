@@ -36,6 +36,16 @@ GOVERNANCE — INDEPENDENT QA / RELEASE CONTROL
 LEARNING — REGRESSION / RESEARCH / VERSIONED MEMORY
 ```
 
+## Release evidence control
+
+Machine release/acceptance applicability is resolved through:
+
+- `governance/release-evidence/_INDEX.md`
+- `governance/release-evidence/registry.json`
+- `governance/release-evidence/release_evidence.py`
+
+Historical PASS evidence remains preserved, but it cannot masquerade as current when controlled subsystem bytes changed or a required current check is red.
+
 ## Controlling domains
 
 ### Weekly Memo
