@@ -22,13 +22,13 @@ def route_task(task: str, matrix: dict) -> dict:
     max_sources = int(matrix.get("defaults", {}).get("max_context_sources", 4))
     selected = scored[:max_matches]
     sources = []
+    for source in matrix.get("defaults", {}).get("context_sources", []):
+        if source not in sources:
+            sources.append(source)
     for _, _, _, route in selected:
         for source in route.get("context_sources", []):
             if source not in sources:
                 sources.append(source)
-    for source in matrix.get("defaults", {}).get("context_sources", []):
-        if source not in sources:
-            sources.append(source)
     return {
         "routes": [item[1] for item in selected],
         "hits": {item[1]: item[2] for item in selected},
