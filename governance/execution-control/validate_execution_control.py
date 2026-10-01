@@ -70,14 +70,14 @@ def executable_tasks(data: dict) -> list[dict]:
     index = {t["task_id"]: t for t in data["tasks"]}
     return [
         t for t in data["tasks"]
-        if t["status"] in {"NOT_STARTED","READY","REOPENED"}
+        if t["status"] in {"NOT_STARTED","READY","REOPENED","IN_PROGRESS","VERIFYING"}
         and dependency_complete(t,index)
         and not t.get("blocked_by")
     ]
 
 def priority_score(task: dict, index: dict[str,dict]) -> int:
     base={"P0":400,"P1":300,"P2":200,"P3":100}[task["priority"]]
-    state={"READY":50,"REOPENED":45,"NOT_STARTED":20}.get(task["status"],0)
+    state={"IN_PROGRESS":60,"VERIFYING":55,"READY":50,"REOPENED":45,"NOT_STARTED":20}.get(task["status"],0)
     downstream=sum(1 for t in index.values() if task["task_id"] in t.get("dependencies", []) or task["task_id"] in t.get("blocked_by", []))
     return base + state + downstream*10
 
