@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0",
+  "records": [
+    {
+      "id": "MUT-HIST-001",
+      "source": "Commissioner directive",
+      "current_state": "ObiWan previously under-specified as lone Jedi",
+      "proposed_state": "ObiWan coexists with established Jedi order/community plus non-Jedi humans",
+      "canon_class": "LOCKED",
+      "confidence": "LOCKED",
+      "affected_entities": [
+        "CHAR-JAKE-KALOPER",
+        "ORD-JEDI"
+      ],
+      "affected_locations": [
+        "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+      ],
+      "affected_atlas_layers": [
+        "CIVIL_INSTITUTIONAL",
+        "OWNER_DOMAIN"
+      ],
+      "affected_systems": [
+        "Universe OS",
+        "Atlas",
+        "Novel OS",
+        "Art Pipeline"
+      ],
+      "migration_id": "MIG-0002",
+      "result": "APPLIED"
+    },
+    {
+      "id": "MUT-HIST-002",
+      "source": "Commissioner-approved character correction",
+      "current_state": "Arsenal Centaur historical treatment",
+      "proposed_state": "Arsenal Gorilla Warrior",
+      "canon_class": "LOCKED",
+      "confidence": "LOCKED",
+      "affected_entities": [
+        "CHAR-WILSON-LOOK"
+      ],
+      "affected_locations": [
+        "LOC-DK-HIGHLAND-STRONGHOLD",
+        "LOC-ARSENAL-BARBERSHOP"
+      ],
+      "affected_atlas_layers": [
+        "OWNER_DOMAIN",
+        "ENCOUNTER"
+      ],
+      "affected_systems": [
+        "Character Control",
+        "Universe OS",
+        "Atlas",
+        "Memo OS",
+        "Novel OS",
+        "Art Pipeline"
+      ],
+      "migration_id": "MIG-0001",
+      "result": "APPLIED"
+    },
+    {
+      "id": "MUT-HIST-003",
+      "source": "Commissioner-approved character correction",
+      "current_state": "older single-head/semantic snake ambiguity",
+      "proposed_state": "one body with three serpent heads",
+      "canon_class": "LOCKED",
+      "confidence": "LOCKED",
+      "affected_entities": [
+        "CHAR-PHILLIP-PITTS"
+      ],
+      "affected_locations": [
+        "LOC-TDS-WATERFALL-TEMPLE"
+      ],
+      "affected_atlas_layers": [
+        "OWNER_DOMAIN",
+        "ENCOUNTER"
+      ],
+      "affected_systems": [
+        "Character Control",
+        "Universe OS",
+        "Memo OS",
+        "Novel OS",
+        "Art Pipeline"
+      ],
+      "migration_id": "MIG-0003",
+      "result": "APPLIED"
+    },
+    {
+      "id": "MUT-HIST-004",
+      "source": "Commissioner universe clarification",
+      "current_state": "division coexistence under-specified",
+      "proposed_state": "TDS and Chili coexist via shared cross-divisional corridor",
+      "canon_class": "APPROVED",
+      "confidence": "LOCKED",
+      "affected_entities": [
+        "CHAR-PHILLIP-PITTS",
+        "CHAR-BRANDON-PRYOR"
+      ],
+      "affected_locations": [
+        "LOC-TDS-CHILI-SHARED-MARCH"
+      ],
+      "affected_atlas_layers": [
+        "DIVISION",
+        "CIVIL_INSTITUTIONAL",
+        "ROADS_TRAVEL"
+      ],
+      "affected_systems": [
+        "Universe OS",
+        "Atlas",
+        "Memo OS",
+        "Novel OS",
+        "Art Pipeline"
+      ],
+      "migration_id": "MIG-0004",
+      "result": "APPLIED"
+    },
+    {
+      "id": "MUT-HIST-005",
+      "source": "Commissioner universe clarification",
+      "current_state": "El Nino metaphysical/weather relationship under-specified",
+      "proposed_state": "embodied, atmospheric manifestation or ambiguous; not every storm is El Nino",
+      "canon_class": "LOCKED",
+      "confidence": "LOCKED",
+      "affected_entities": [
+        "CHAR-MANNING-WELTY"
+      ],
+      "affected_locations": [
+        "LOC-STORM-BOWL"
+      ],
+      "affected_atlas_layers": [
+        "WEATHER",
+        "OWNER_DOMAIN"
+      ],
+      "affected_systems": [
+        "Universe OS",
+        "Atlas",
+        "Novel OS",
+        "Art Pipeline"
+      ],
+      "migration_id": null,
+      "result": "APPLIED"
+    }
+  ]
+}
