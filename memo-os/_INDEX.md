@@ -15,6 +15,12 @@
 8. `../canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md` — includes binding v2.0 Reference-Plate Execution Patch
 9. `../chronicles/standards/CHARACTER_VISUAL_LOCK_GATE.md` — release-blocking character QA
 
+## V5.6 publication-integrity salvage
+
+- `V5_6_CURRENT_MAIN_RECONCILIATION_V1.md` — current-main reconciliation and HOLD decision.
+- Nine V5.6 publication-integrity contracts are active as additive controls beneath V5.5; they do not promote V5.6.
+- `MEMO_RELEASE_REGISTRY_SPEC_V1.md` is a superseded pointer; Publication Manifest + Release Evidence own that concern.
+
 ## Status notes
 
 - V5.5 is the controlling production-hardening patch after passing the Week 3 retrospective acceptance suite (11/11 after bug-fix/polish/retest).

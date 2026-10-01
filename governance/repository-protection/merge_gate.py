@@ -40,6 +40,7 @@ SUITE_COMMANDS = {
     "memo": [
         "python memo-os/tests/v5_5_acceptance_suite.py",
         "python -m unittest -v memo-os/tests/test_week4_preproduction_open.py",
+        "python -m unittest -v memo-os/tests/test_v56_current_main_salvage.py",
     ],
     "world": [
         "python world/engine/validate_world.py",
