@@ -49,3 +49,19 @@ Every final page/spread is designed from its actual narrative content. There is 
 - character-bearing composites.
 
 Text-only prompting is not a workaround for a missing current renderer-bound reference.
+
+## Map Proof System
+
+**Status:** PASS — prototype gate accepted.
+
+Read:
+1. `map-proof/MAP_PROOF_SYSTEM_SPEC_V1.md`
+2. `map-proof/MAP_PROOF_PREMORTEM_V1.md`
+3. `map-proof/MAP_PROOF_SOURCE_MANIFEST_V1.json`
+4. `map-proof/page-packets/`
+5. `map-proof/assets/`
+6. `map-proof/MAP_PROOF_ACCEPTANCE_REPORT_V1.md`
+7. `map-proof/MAP_PROOF_LEARNING_LEDGER_V1.md`
+8. `map-proof/MAP_PROOF_NEXT_GATE_V1.md`
+
+Acceptance: **192/192 machine checks PASS**. Primary reader-facing master-map form is the **6×9 recto**; 12×9 spread remains an endpaper/digital variant.
