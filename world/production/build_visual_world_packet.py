@@ -8,6 +8,7 @@ from typing import Any
 
 ROOT=Path(__file__).resolve().parents[2]
 DATA=ROOT/"world"/"data"
+REF_REG=ROOT/"world"/"location-control-plane"/"registries"/"LOCATION_REFERENCE_REGISTRY.json"
 
 def load(name:str)->dict[str,Any]:
     return json.loads((DATA/name).read_text())
@@ -19,10 +20,17 @@ def build_packet(location_id:str)->dict[str,Any]:
     institutions=load("league_institutions.json")["institutions"]
     domains=load("domain_profiles.json")["domains"]
     settlements=load("settlements.json")["settlements"]
+    current_state=load("current_world_state.json")
+    references=json.loads(REF_REG.read_text())["locations"]
 
     loc=next((x for x in locations if x["id"]==location_id),None)
     if loc is None:
         raise ValueError(f"unknown active location: {location_id}")
+    env_ref=next((x for x in references if x["location_id"]==location_id),None)
+    if env_ref is None:
+        raise ValueError(f"missing environment reference registry row: {location_id}")
+    persistent_state=current_state.get("locations",{}).get(location_id,[])
+    environment_render_ready=bool(env_ref.get("renderer_ready")) and env_ref.get("renderer_injection_status")=="PROVEN"
 
     route_ids=list(loc.get("access_route_ids",[]))
     for r in routes:
@@ -55,7 +63,8 @@ def build_packet(location_id:str)->dict[str,Any]:
       "world":{
         "location_id":location_id,
         "physical_zone":loc.get("physical_zone_id"),
-        "world_state":loc.get("current_state",[]),
+        "world_state":persistent_state if persistent_state else loc.get("current_state",[]),
+        "state_as_of":current_state.get("as_of"),
         "history":events,
         "institutions":inst,
         "ordinary_inhabitants":ordinary,
@@ -86,6 +95,15 @@ def build_packet(location_id:str)->dict[str,Any]:
       "memory":{
         "events":events,
         "prohibited_literalization":["generated scenery does not create canon"]
+      },
+      "environment_reference":{
+        "structural_reference_status":env_ref.get("structural_reference_status"),
+        "approved_structural_reference_uris":env_ref.get("approved_structural_reference_uris",[]),
+        "cinematic_reference_status":env_ref.get("cinematic_reference_status"),
+        "renderer_injection_status":env_ref.get("renderer_injection_status","UNPROVEN"),
+        "renderer_ready":environment_render_ready,
+        "render_gate":"READY_FOR_RENDER" if environment_render_ready else "HUMAN_REVIEW_REQUIRED",
+        "blockers":env_ref.get("blockers",[])
       },
       "typography":{
         "exact_location_name":loc["name"],
