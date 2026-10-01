@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemin26.local/schemas/universe-entity.schema.json",
+  "type": "object",
+  "required": [
+    "entity_id",
+    "name",
+    "entity_type",
+    "canon_state",
+    "canon_confidence",
+    "source_provenance",
+    "current_status"
+  ],
+  "properties": {
+    "entity_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entity_type": {
+      "type": "string",
+      "enum": [
+        "PRINCIPAL",
+        "PEOPLED_KIND",
+        "SINGULAR_BEING",
+        "COMMUNITY",
+        "ORDER",
+        "INSTITUTION",
+        "LOCATION",
+        "SETTLEMENT",
+        "INFRASTRUCTURE",
+        "ARTIFACT",
+        "WEATHER_SYSTEM",
+        "ENVIRONMENTAL_FORCE",
+        "EVENT",
+        "HISTORICAL_SITE",
+        "JURISDICTION",
+        "RUMOR",
+        "MYTH",
+        "MEMORIAL"
+      ]
+    },
+    "canon_state": {
+      "type": "string"
+    },
+    "canon_confidence": {
+      "type": "string",
+      "enum": [
+        "LOCKED",
+        "APPROVED",
+        "INFERRED",
+        "HISTORICAL",
+        "SUPERSEDED",
+        "UNKNOWN"
+      ]
+    },
+    "source_provenance": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_entities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "location_relationship": {
+      "type": "object"
+    },
+    "temporal_state": {
+      "type": "string"
+    },
+    "current_status": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}
