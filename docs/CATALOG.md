@@ -30,6 +30,7 @@ The repository should remain deliberately smaller than FLA. We adopt the Librari
 | Schemas | `schemas/` | Data / owning subsystem |
 | Tests / acceptance | `tests/README.md` | QA / owning subsystem |
 | Decisions | `docs/decisions/` | Librarian records; relevant authority decides |
+| Publication manifest | `governance/publication-manifest/_INDEX.md` | Derived identity index; owning release systems remain authoritative |
 | Roadmap | `planning/ROADMAP.md` | Executive Control |
 | Archive | `archive/_INDEX.md` | Librarian |
 
