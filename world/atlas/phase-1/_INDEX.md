@@ -1,6 +1,6 @@
 # ATLAS PHASE 1 — INDEX
 
-**Status:** RELEASE CANDIDATE / QA PASS
+**Status:** APPROVED FOR RELEASE / ACTIVE WHEN PRESENT ON main
 **Scope:** Macro world structure, Division culture, future location evolution and special-event geography.
 
 ## Read order
@@ -15,6 +15,7 @@
 8. EXPANSION_AWARE_GENERATION_WORKFLOW_V1.md
 9. ATLAS_PHASE_1_EVALUATION_FRAMEWORK_V1.md
 10. ATLAS_PHASE_1_ACCEPTANCE_CHECKLIST_V1.md
+11. ATLAS_PHASE_1_RELEASE_RECEIPT.md
 
 ## Machine companions
 
