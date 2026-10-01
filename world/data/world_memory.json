@@ -1,0 +1,244 @@
+{
+  "schema_version": "1.0",
+  "memory_classes": [
+    "PERMANENT",
+    "RECURRING",
+    "HISTORICAL",
+    "SEASONAL",
+    "TEMPORARY",
+    "JOKE_EVENT_ONLY",
+    "RUMOR",
+    "SUPERSEDED"
+  ],
+  "memories": [
+    {
+      "memory_id": "MEM-EVT-W2-LLC-INTRUSION",
+      "event_id": "EVT-W2-LLC-INTRUSION",
+      "week": 2,
+      "source": [
+        "memo-os/week-3/WEEK_3_VISUAL_CALLBACK_AND_CONTINUITY_INVENTORY_V1.md"
+      ],
+      "participants": [],
+      "location_id": "LOC-LLC-BOARDROOM",
+      "memory_class": "HISTORICAL",
+      "physical_effect": [
+        "intrusion/destruction history",
+        "future reuse may show repair or scars"
+      ],
+      "social_effect": [],
+      "reputation_effect": [
+        "intrusion/destruction history",
+        "future reuse may show repair or scars"
+      ],
+      "institutional_effect": [],
+      "expiry_condition": null,
+      "superseded_by": null,
+      "current_relevance": "ACTIVE_HISTORY",
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "memory_id": "MEM-EVT-W3-BRIDGE",
+      "event_id": "EVT-W3-BRIDGE",
+      "week": 3,
+      "source": [
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ],
+      "participants": [],
+      "location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "memory_class": "HISTORICAL",
+      "physical_effect": [],
+      "social_effect": [
+        "remembered decision landmark",
+        "no physical destruction required"
+      ],
+      "reputation_effect": [
+        "remembered decision landmark",
+        "no physical destruction required"
+      ],
+      "institutional_effect": [],
+      "expiry_condition": null,
+      "superseded_by": null,
+      "current_relevance": "ACTIVE_HISTORY",
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "memory_id": "MEM-EVT-W3-MIRE-HILL",
+      "event_id": "EVT-W3-MIRE-HILL",
+      "week": 3,
+      "source": [
+        "memo-os/post-production/WORLD_STATE_CONTINUITY_LEDGER_V1_CANDIDATE.md",
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ],
+      "participants": [],
+      "location_id": "LOC-DK-MUD-HILL",
+      "memory_class": "HISTORICAL",
+      "physical_effect": [
+        "scarred hill",
+        "yield memory",
+        "discarded standards/debris may persist until cleanup"
+      ],
+      "social_effect": [],
+      "reputation_effect": [
+        "scarred hill",
+        "yield memory",
+        "discarded standards/debris may persist until cleanup"
+      ],
+      "institutional_effect": [],
+      "expiry_condition": null,
+      "superseded_by": null,
+      "current_relevance": "ACTIVE_HISTORY",
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "memory_id": "MEM-EVT-W3-COUNTRY-CLUB-CHILI",
+      "event_id": "EVT-W3-COUNTRY-CLUB-CHILI",
+      "week": 3,
+      "source": [
+        "memo-os/post-production/WORLD_STATE_CONTINUITY_LEDGER_V1_CANDIDATE.md",
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ],
+      "participants": [],
+      "location_id": "LOC-COUNTRY-CLUB-JACKSON",
+      "memory_class": "TEMPORARY",
+      "physical_effect": [
+        "chili contamination/humiliation history",
+        "cleanup required before pristine reset"
+      ],
+      "social_effect": [],
+      "reputation_effect": [
+        "chili contamination/humiliation history",
+        "cleanup required before pristine reset"
+      ],
+      "institutional_effect": [],
+      "expiry_condition": "physical contamination expires after explicit cleanup; historical memory remains",
+      "superseded_by": null,
+      "current_relevance": "ACTIVE_HISTORY",
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "memory_id": "MEM-EVT-W3-ALPINE-WAGER",
+      "event_id": "EVT-W3-ALPINE-WAGER",
+      "week": 3,
+      "source": [
+        "memo-os/post-production/WORLD_STATE_CONTINUITY_LEDGER_V1_CANDIDATE.md"
+      ],
+      "participants": [],
+      "location_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "memory_class": "HISTORICAL",
+      "physical_effect": [],
+      "social_effect": [
+        "wager/summit receipt landmark"
+      ],
+      "reputation_effect": [
+        "wager/summit receipt landmark"
+      ],
+      "institutional_effect": [],
+      "expiry_condition": null,
+      "superseded_by": null,
+      "current_relevance": "ACTIVE_HISTORY",
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "memory_id": "MEM-EVT-W3-SPEEDWAY",
+      "event_id": "EVT-W3-SPEEDWAY",
+      "week": 3,
+      "source": [
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ],
+      "participants": [],
+      "location_id": "LOC-SOUTHERN-SPEEDWAY",
+      "memory_class": "HISTORICAL",
+      "physical_effect": [],
+      "social_effect": [
+        "HMB/Chins survival-race history"
+      ],
+      "reputation_effect": [
+        "HMB/Chins survival-race history"
+      ],
+      "institutional_effect": [],
+      "expiry_condition": null,
+      "superseded_by": null,
+      "current_relevance": "ACTIVE_HISTORY",
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "memory_id": "MEM-EVT-W3-LLC-STORM",
+      "event_id": "EVT-W3-LLC-STORM",
+      "week": 3,
+      "source": [
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ],
+      "participants": [],
+      "location_id": "LOC-LLC-STORM-CITY",
+      "memory_class": "HISTORICAL",
+      "physical_effect": [
+        "major weather event remembered",
+        "storm-protection works become continuity object"
+      ],
+      "social_effect": [],
+      "reputation_effect": [
+        "major weather event remembered",
+        "storm-protection works become continuity object"
+      ],
+      "institutional_effect": [],
+      "expiry_condition": null,
+      "superseded_by": null,
+      "current_relevance": "ACTIVE_HISTORY",
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "memory_id": "MEM-W1-BELT-LEGACY",
+      "event_id": "W1-BELT-LEGACY",
+      "week": 1,
+      "source": [
+        "published Week 1 memo / championship continuity"
+      ],
+      "participants": [
+        "CHAR-AUSTIN-BYARS",
+        "CHAR-JAKE-KALOPER"
+      ],
+      "location_id": null,
+      "memory_class": "PERMANENT",
+      "physical_effect": [],
+      "social_effect": [
+        "championship legacy"
+      ],
+      "reputation_effect": [
+        "Belt custody/reputation"
+      ],
+      "institutional_effect": [
+        "championship record"
+      ],
+      "expiry_condition": null,
+      "superseded_by": null,
+      "current_relevance": "ACTIVE_LEGACY",
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "memory_id": "MEM-W2-CHILI-DELIVERY",
+      "event_id": "W2-CHILI-DELIVERY",
+      "week": 2,
+      "source": [
+        "published Week 2 memo"
+      ],
+      "participants": [
+        "CHAR-BRANDON-PRYOR",
+        "CHAR-KEVIN-ZEEK"
+      ],
+      "location_id": "LOC-RED-RUINS",
+      "memory_class": "JOKE_EVENT_ONLY",
+      "physical_effect": [],
+      "social_effect": [
+        "provocation / relationship memory"
+      ],
+      "reputation_effect": [
+        "delivery incident remembered"
+      ],
+      "institutional_effect": [],
+      "expiry_condition": "physical props do not persist by default",
+      "superseded_by": null,
+      "current_relevance": "HISTORICAL_CALLBACK",
+      "canon_confidence": "APPROVED"
+    }
+  ]
+}
