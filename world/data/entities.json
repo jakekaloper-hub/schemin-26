@@ -1,0 +1,802 @@
+{
+  "schema_version": "2.0",
+  "entities": [
+    {
+      "entity_id": "CHAR-JAKE-KALOPER",
+      "name": "Jake Kaloper",
+      "entity_type": "PRINCIPAL",
+      "canon_state": "ACTIVE",
+      "canon_confidence": "LOCKED",
+      "source_provenance": [
+        "canon/characters/CHARACTER_REGISTRY.yaml",
+        "world/data/owner_domains.json"
+      ],
+      "related_entities": [
+        "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "DIV-BURGERS"
+      ],
+      "location_relationship": {
+        "primary_location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+      },
+      "temporal_state": "2026_CURRENT",
+      "current_status": "ACTIVE",
+      "ontology_class": "PEOPLED_KIND"
+    },
+    {
+      "entity_id": "CHAR-KEVIN-ZEEK",
+      "name": "Kevin Zeek",
+      "entity_type": "PRINCIPAL",
+      "canon_state": "ACTIVE",
+      "canon_confidence": "LOCKED",
+      "source_provenance": [
+        "canon/characters/CHARACTER_REGISTRY.yaml",
+        "world/data/owner_domains.json"
+      ],
+      "related_entities": [
+        "LOC-RED-RUINS",
+        "DIV-WINGS"
+      ],
+      "location_relationship": {
+        "primary_location_id": "LOC-RED-RUINS"
+      },
+      "temporal_state": "2026_CURRENT",
+      "current_status": "ACTIVE",
+      "ontology_class": "PEOPLED_KIND"
+    },
+    {
+      "entity_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "name": "Jordan Hollingshead",
+      "entity_type": "PRINCIPAL",
+      "canon_state": "ACTIVE",
+      "canon_confidence": "LOCKED",
+      "source_provenance": [
+        "canon/characters/CHARACTER_REGISTRY.yaml",
+        "world/data/owner_domains.json"
+      ],
+      "related_entities": [
+        "LOC-SLOB-FOOTHILL-CAMP",
+        "DIV-WINGS"
+      ],
+      "location_relationship": {
+        "primary_location_id": "LOC-SLOB-FOOTHILL-CAMP"
+      },
+      "temporal_state": "2026_CURRENT",
+      "current_status": "ACTIVE",
+      "ontology_class": "PEOPLED_KIND"
+    },
+    {
+      "entity_id": "CHAR-DAVID-BABB",
+      "name": "David Babb",
+      "entity_type": "PRINCIPAL",
+      "canon_state": "ACTIVE",
+      "canon_confidence": "LOCKED",
+      "source_provenance": [
+        "canon/characters/CHARACTER_REGISTRY.yaml",
+        "world/data/owner_domains.json"
+      ],
+      "related_entities": [
+        "LOC-LLC-BOARDROOM",
+        "DIV-PIZZA"
+      ],
+      "location_relationship": {
+        "primary_location_id": "LOC-LLC-BOARDROOM"
+      },
+      "temporal_state": "2026_CURRENT",
+      "current_status": "ACTIVE",
+      "ontology_class": "SINGULAR_BEING"
+    },
+    {
+      "entity_id": "CHAR-WILSON-LOOK",
+      "name": "Wilson Look",
+      "entity_type": "PRINCIPAL",
+      "canon_state": "ACTIVE",
+      "canon_confidence": "LOCKED",
+      "source_provenance": [
+        "canon/characters/CHARACTER_REGISTRY.yaml",
+        "world/data/owner_domains.json"
+      ],
+      "related_entities": [
+        "LOC-DK-HIGHLAND-STRONGHOLD",
+        "DIV-BURGERS"
+      ],
+      "location_relationship": {
+        "primary_location_id": "LOC-DK-HIGHLAND-STRONGHOLD"
+      },
+      "temporal_state": "2026_CURRENT",
+      "current_status": "ACTIVE",
+      "ontology_class": "PEOPLED_KIND"
+    },
+    {
+      "entity_id": "CHAR-PHILLIP-PITTS",
+      "name": "Phillip Pitts",
+      "entity_type": "PRINCIPAL",
+      "canon_state": "ACTIVE",
+      "canon_confidence": "LOCKED",
+      "source_provenance": [
+        "canon/characters/CHARACTER_REGISTRY.yaml",
+        "world/data/owner_domains.json"
+      ],
+      "related_entities": [
+        "LOC-TDS-WATERFALL-TEMPLE",
+        "DIV-BURGERS"
+      ],
+      "location_relationship": {
+        "primary_location_id": "LOC-TDS-WATERFALL-TEMPLE"
+      },
+      "temporal_state": "2026_CURRENT",
+      "current_status": "ACTIVE",
+      "ontology_class": "SHARED_COHABITATION"
+    },
+    {
+      "entity_id": "CHAR-BRANDON-PRYOR",
+      "name": "Brandon Pryor",
+      "entity_type": "PRINCIPAL",
+      "canon_state": "ACTIVE",
+      "canon_confidence": "LOCKED",
+      "source_provenance": [
+        "canon/characters/CHARACTER_REGISTRY.yaml",
+        "world/data/owner_domains.json"
+      ],
+      "related_entities": [
+        "LOC-CHILI-STABLE",
+        "DIV-WINGS"
+      ],
+      "location_relationship": {
+        "primary_location_id": "LOC-CHILI-STABLE"
+      },
+      "temporal_state": "2026_CURRENT",
+      "current_status": "ACTIVE",
+      "ontology_class": "SHARED_COHABITATION"
+    },
+    {
+      "entity_id": "CHAR-AUSTIN-BYARS",
+      "name": "Austin Byars",
+      "entity_type": "PRINCIPAL",
+      "canon_state": "ACTIVE",
+      "canon_confidence": "LOCKED",
+      "source_provenance": [
+        "canon/characters/CHARACTER_REGISTRY.yaml",
+        "world/data/owner_domains.json"
+      ],
+      "related_entities": [
+        "LOC-BELT-KEEPER-KEEP",
+        "DIV-PIZZA"
+      ],
+      "location_relationship": {
+        "primary_location_id": "LOC-BELT-KEEPER-KEEP"
+      },
+      "temporal_state": "2026_CURRENT",
+      "current_status": "ACTIVE",
+      "ontology_class": "SINGULAR_BEING"
+    },
+    {
+      "entity_id": "CHAR-MANNING-WELTY",
+      "name": "Manning Welty",
+      "entity_type": "PRINCIPAL",
+      "canon_state": "ACTIVE",
+      "canon_confidence": "LOCKED",
+      "source_provenance": [
+        "canon/characters/CHARACTER_REGISTRY.yaml",
+        "world/data/owner_domains.json"
+      ],
+      "related_entities": [
+        "LOC-STORM-BOWL",
+        "DIV-PIZZA"
+      ],
+      "location_relationship": {
+        "primary_location_id": "LOC-STORM-BOWL"
+      },
+      "temporal_state": "2026_CURRENT",
+      "current_status": "ACTIVE",
+      "ontology_class": "SINGULAR_BEING"
+    },
+    {
+      "entity_id": "CHAR-BOBBY-MITCHELL",
+      "name": "Bobby Mitchell",
+      "entity_type": "PRINCIPAL",
+      "canon_state": "ACTIVE",
+      "canon_confidence": "LOCKED",
+      "source_provenance": [
+        "canon/characters/CHARACTER_REGISTRY.yaml",
+        "world/data/owner_domains.json"
+      ],
+      "related_entities": [
+        "LOC-MUD-DOGS-SWAMP",
+        "DIV-BURGERS"
+      ],
+      "location_relationship": {
+        "primary_location_id": "LOC-MUD-DOGS-SWAMP"
+      },
+      "temporal_state": "2026_CURRENT",
+      "current_status": "ACTIVE",
+      "ontology_class": "PEOPLED_KIND"
+    },
+    {
+      "entity_id": "CHAR-BEN-WHIPPLE",
+      "name": "Ben Whipple",
+      "entity_type": "PRINCIPAL",
+      "canon_state": "ACTIVE",
+      "canon_confidence": "LOCKED",
+      "source_provenance": [
+        "canon/characters/CHARACTER_REGISTRY.yaml",
+        "world/data/owner_domains.json"
+      ],
+      "related_entities": [
+        "LOC-CHINS-ROAD-COMMONS",
+        "DIV-PIZZA"
+      ],
+      "location_relationship": {
+        "primary_location_id": "LOC-CHINS-ROAD-COMMONS"
+      },
+      "temporal_state": "2026_CURRENT",
+      "current_status": "ACTIVE",
+      "ontology_class": "PEOPLED_KIND"
+    },
+    {
+      "entity_id": "CHAR-ZACH-WILSON",
+      "name": "Zach Wilson",
+      "entity_type": "PRINCIPAL",
+      "canon_state": "ACTIVE",
+      "canon_confidence": "LOCKED",
+      "source_provenance": [
+        "canon/characters/CHARACTER_REGISTRY.yaml",
+        "world/data/owner_domains.json"
+      ],
+      "related_entities": [
+        "LOC-COUNTRY-CLUB-JACKSON",
+        "DIV-WINGS"
+      ],
+      "location_relationship": {
+        "primary_location_id": "LOC-COUNTRY-CLUB-JACKSON"
+      },
+      "temporal_state": "2026_CURRENT",
+      "current_status": "ACTIVE",
+      "ontology_class": "SINGULAR_BEING"
+    },
+    {
+      "entity_id": "ORD-JEDI",
+      "name": "Jedi Order / Community",
+      "entity_type": "ORDER",
+      "canon_state": "ACTIVE",
+      "canon_confidence": "LOCKED",
+      "source_provenance": [
+        "COMMISSIONER_DIRECTIVE_2026-09-30",
+        "world/civilization/INHABITANT_ONTOLOGY_V1.md"
+      ],
+      "related_entities": [
+        "CHAR-JAKE-KALOPER",
+        "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+      ],
+      "location_relationship": {
+        "primary_location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "INST-LEAGUE-CHAMBER",
+      "name": "League Chamber",
+      "entity_type": "INSTITUTION",
+      "canon_state": "ACTIVE",
+      "canon_confidence": "APPROVED",
+      "source_provenance": [
+        "world/data/locations.json"
+      ],
+      "related_entities": [
+        "LOC-LEAGUE-CHAMBER"
+      ],
+      "location_relationship": {
+        "primary_location_id": "LOC-LEAGUE-CHAMBER"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "INST-LEAGUE-ARCHIVE",
+      "name": "League Archive",
+      "entity_type": "INSTITUTION",
+      "canon_state": "ACTIVE",
+      "canon_confidence": "APPROVED",
+      "source_provenance": [
+        "world/data/locations.json"
+      ],
+      "related_entities": [
+        "LOC-LEAGUE-ARCHIVE"
+      ],
+      "location_relationship": {
+        "primary_location_id": "LOC-LEAGUE-ARCHIVE"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "INST-PITTSYS-BOOK",
+      "name": "Pittsy's Book",
+      "entity_type": "INSTITUTION",
+      "canon_state": "ACTIVE",
+      "canon_confidence": "APPROVED",
+      "source_provenance": [
+        "world/data/locations.json"
+      ],
+      "related_entities": [
+        "LOC-PITTSYS-BOOK"
+      ],
+      "location_relationship": {
+        "primary_location_id": "LOC-PITTSYS-BOOK"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "DIV-BURGERS",
+      "name": "Burgers",
+      "entity_type": "JURISDICTION",
+      "canon_state": "INTERPRETIVE_CANON",
+      "canon_confidence": "LOCKED",
+      "source_provenance": [],
+      "related_entities": [],
+      "location_relationship": {
+        "spatial_model": "LEAGUE_JURISDICTION_OVERLAY_NONEXCLUSIVE"
+      },
+      "temporal_state": "2026",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "DIV-WINGS",
+      "name": "Wings",
+      "entity_type": "JURISDICTION",
+      "canon_state": "INTERPRETIVE_CANON",
+      "canon_confidence": "LOCKED",
+      "source_provenance": [],
+      "related_entities": [],
+      "location_relationship": {
+        "spatial_model": "LEAGUE_JURISDICTION_OVERLAY_NONEXCLUSIVE"
+      },
+      "temporal_state": "2026",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "DIV-PIZZA",
+      "name": "Pizza",
+      "entity_type": "JURISDICTION",
+      "canon_state": "INTERPRETIVE_CANON",
+      "canon_confidence": "LOCKED",
+      "source_provenance": [],
+      "related_entities": [],
+      "location_relationship": {
+        "spatial_model": "LEAGUE_JURISDICTION_OVERLAY_NONEXCLUSIVE"
+      },
+      "temporal_state": "2026",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "name": "Trade Jedi Mountain Base",
+      "entity_type": "LOCATION",
+      "canon_state": "PERMANENT_CANON",
+      "canon_confidence": "APPROVED",
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+      ],
+      "related_entities": [
+        "CHAR-JAKE-KALOPER",
+        "DIV-BURGERS"
+      ],
+      "location_relationship": {
+        "physical_zone_id": "REG-UPPER-VALLEYS"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "LOC-MUD-DOGS-SWAMP",
+      "name": "Mud Dogs Swamp",
+      "entity_type": "LOCATION",
+      "canon_state": "PERMANENT_CANON",
+      "canon_confidence": "APPROVED",
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+        "bullpen/PRO_SCHEMIN_WORLD_FOUNDATION_PHASE0_PASS1.md"
+      ],
+      "related_entities": [
+        "CHAR-BOBBY-MITCHELL",
+        "DIV-BURGERS"
+      ],
+      "location_relationship": {
+        "physical_zone_id": "REG-SOUTHERN-WETLANDS"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "LOC-COUNTRY-CLUB-JACKSON",
+      "name": "Country Club of Jackson",
+      "entity_type": "LOCATION",
+      "canon_state": "PERMANENT_CANON",
+      "canon_confidence": "APPROVED",
+      "source_provenance": [
+        "bullpen/PRO_SCHEMIN_WORLD_FOUNDATION_PHASE0_PASS1.md",
+        "memo-os/week-3/WEEK_3_VISUAL_CALLBACK_AND_CONTINUITY_INVENTORY_V1.md"
+      ],
+      "related_entities": [
+        "CHAR-ZACH-WILSON",
+        "DIV-WINGS"
+      ],
+      "location_relationship": {
+        "physical_zone_id": "REG-SOUTHERN-WETLANDS"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "LOC-ARSENAL-BARBERSHOP",
+      "name": "Arsenal Barbershop",
+      "entity_type": "LOCATION",
+      "canon_state": "PERMANENT_CANON",
+      "canon_confidence": "APPROVED",
+      "source_provenance": [
+        "bullpen/PRO_SCHEMIN_WORLD_FOUNDATION_PHASE0_PASS1.md"
+      ],
+      "related_entities": [
+        "CHAR-WILSON-LOOK",
+        "DIV-BURGERS"
+      ],
+      "location_relationship": {
+        "physical_zone_id": "REG-UPPER-VALLEYS"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "LOC-STORM-BOWL",
+      "name": "Storm Bowl",
+      "entity_type": "LOCATION",
+      "canon_state": "PROVISIONAL_CANON",
+      "canon_confidence": "APPROVED",
+      "source_provenance": [
+        "bullpen/PRO_SCHEMIN_WORLD_FOUNDATION_PHASE0_PASS1.md"
+      ],
+      "related_entities": [
+        "CHAR-MANNING-WELTY",
+        "DIV-PIZZA"
+      ],
+      "location_relationship": {
+        "physical_zone_id": "REG-EASTERN-STORM-COAST"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "LOC-LLC-BOARDROOM",
+      "name": "LLC Mercantile Boardroom",
+      "entity_type": "LOCATION",
+      "canon_state": "PERMANENT_CANON",
+      "canon_confidence": "APPROVED",
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+        "memo-os/week-3/WEEK_3_VISUAL_CALLBACK_AND_CONTINUITY_INVENTORY_V1.md"
+      ],
+      "related_entities": [
+        "CHAR-DAVID-BABB",
+        "DIV-PIZZA"
+      ],
+      "location_relationship": {
+        "physical_zone_id": "REG-INNER-SEA-LITTORAL"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "LOC-RED-RUINS",
+      "name": "Red Leopard Ruins",
+      "entity_type": "LOCATION",
+      "canon_state": "PERMANENT_CANON",
+      "canon_confidence": "APPROVED",
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+      ],
+      "related_entities": [
+        "CHAR-KEVIN-ZEEK",
+        "DIV-WINGS"
+      ],
+      "location_relationship": {
+        "physical_zone_id": "REG-EASTERN-STORM-COAST"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "LOC-TDS-WATERFALL-TEMPLE",
+      "name": "Podium Shadow Waterfall Temple",
+      "entity_type": "LOCATION",
+      "canon_state": "PERMANENT_CANON",
+      "canon_confidence": "APPROVED",
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+      ],
+      "related_entities": [
+        "CHAR-PHILLIP-PITTS",
+        "DIV-BURGERS"
+      ],
+      "location_relationship": {
+        "physical_zone_id": "REG-SOUTHERN-WETLANDS"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "LOC-CHILI-STABLE",
+      "name": "Chili Outlaw Stable",
+      "entity_type": "LOCATION",
+      "canon_state": "PERMANENT_CANON",
+      "canon_confidence": "APPROVED",
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+      ],
+      "related_entities": [
+        "CHAR-BRANDON-PRYOR",
+        "DIV-WINGS"
+      ],
+      "location_relationship": {
+        "physical_zone_id": "REG-WESTERN-TABLELANDS"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "LOC-BELT-KEEPER-KEEP",
+      "name": "Belt Keeper Rune Keep",
+      "entity_type": "LOCATION",
+      "canon_state": "PROVISIONAL_CANON",
+      "canon_confidence": "APPROVED",
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+        "living-novel/world/INSTITUTIONS_AND_CHAMPIONSHIP.md"
+      ],
+      "related_entities": [
+        "CHAR-AUSTIN-BYARS",
+        "DIV-PIZZA"
+      ],
+      "location_relationship": {
+        "physical_zone_id": "REG-EASTERN-STORM-COAST"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "name": "Slob Foothill Camp",
+      "entity_type": "LOCATION",
+      "canon_state": "PROVISIONAL_CANON",
+      "canon_confidence": "APPROVED",
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+      ],
+      "related_entities": [
+        "CHAR-JORDAN-HOLLINGSHEAD",
+        "DIV-WINGS"
+      ],
+      "location_relationship": {
+        "physical_zone_id": "REG-UPPER-VALLEYS"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "LOC-CHINS-ROAD-COMMONS",
+      "name": "People's Champ Road Commons",
+      "entity_type": "LOCATION",
+      "canon_state": "PROVISIONAL_CANON",
+      "canon_confidence": "APPROVED",
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+      ],
+      "related_entities": [
+        "CHAR-BEN-WHIPPLE",
+        "DIV-PIZZA"
+      ],
+      "location_relationship": {
+        "physical_zone_id": "REG-CENTRAL-BASIN"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "LOC-LEAGUE-CHAMBER",
+      "name": "League Chamber",
+      "entity_type": "LOCATION",
+      "canon_state": "PROVISIONAL_CANON",
+      "canon_confidence": "APPROVED",
+      "source_provenance": [
+        "bullpen/PRO_SCHEMIN_WORLD_FOUNDATION_PHASE0_PASS1.md"
+      ],
+      "related_entities": [],
+      "location_relationship": {
+        "physical_zone_id": "REG-CENTRAL-BASIN"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "LOC-PITTSYS-BOOK",
+      "name": "Pittsy's Book",
+      "entity_type": "LOCATION",
+      "canon_state": "PROVISIONAL_CANON",
+      "canon_confidence": "APPROVED",
+      "source_provenance": [
+        "world/SCHEMIN_WORLD_BIBLE_ARCHIVE_AND_RECORDS_V1.md",
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ],
+      "related_entities": [
+        "CHAR-PHILLIP-PITTS"
+      ],
+      "location_relationship": {
+        "physical_zone_id": "REG-CENTRAL-BASIN"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "name": "Bridge at the Mountain Lake",
+      "entity_type": "LOCATION",
+      "canon_state": "PROVISIONAL_CANON",
+      "canon_confidence": "APPROVED",
+      "source_provenance": [
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ],
+      "related_entities": [
+        "DIV-BURGERS"
+      ],
+      "location_relationship": {
+        "physical_zone_id": "REG-UPPER-VALLEYS"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "LOC-DK-MUD-HILL",
+      "name": "Mire Hill Battlefield",
+      "entity_type": "LOCATION",
+      "canon_state": "PROVISIONAL_CANON",
+      "canon_confidence": "APPROVED",
+      "source_provenance": [
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ],
+      "related_entities": [
+        "DIV-BURGERS"
+      ],
+      "location_relationship": {
+        "physical_zone_id": "REG-CENTRAL-BASIN"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "name": "Alpine Wager Route",
+      "entity_type": "LOCATION",
+      "canon_state": "PROVISIONAL_CANON",
+      "canon_confidence": "APPROVED",
+      "source_provenance": [
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ],
+      "related_entities": [
+        "DIV-WINGS"
+      ],
+      "location_relationship": {
+        "physical_zone_id": "REG-NORTHERN-SPINE"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "LOC-SOUTHERN-SPEEDWAY",
+      "name": "Southern Speedway",
+      "entity_type": "LOCATION",
+      "canon_state": "PROVISIONAL_CANON",
+      "canon_confidence": "APPROVED",
+      "source_provenance": [
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ],
+      "related_entities": [
+        "DIV-PIZZA"
+      ],
+      "location_relationship": {
+        "physical_zone_id": "REG-CENTRAL-BASIN"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "LOC-LLC-STORM-CITY",
+      "name": "LLC Port City Storm District",
+      "entity_type": "LOCATION",
+      "canon_state": "PROVISIONAL_CANON",
+      "canon_confidence": "APPROVED",
+      "source_provenance": [
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ],
+      "related_entities": [
+        "CHAR-DAVID-BABB",
+        "DIV-PIZZA"
+      ],
+      "location_relationship": {
+        "physical_zone_id": "REG-INNER-SEA-LITTORAL"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "name": "D0nkey K0ng Highland Stronghold",
+      "entity_type": "LOCATION",
+      "canon_state": "INTERPRETIVE_CANON",
+      "canon_confidence": "APPROVED",
+      "source_provenance": [
+        "canon/characters/CHARACTER_REGISTRY.yaml",
+        "world/civilization/INHABITANT_ONTOLOGY_V1.md"
+      ],
+      "related_entities": [
+        "CHAR-WILSON-LOOK",
+        "DIV-BURGERS"
+      ],
+      "location_relationship": {
+        "physical_zone_id": "REG-UPPER-VALLEYS"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "name": "TDS–Chili Shared March",
+      "entity_type": "LOCATION",
+      "canon_state": "INTERPRETIVE_CANON",
+      "canon_confidence": "APPROVED",
+      "source_provenance": [
+        "bullpen/UNIVERSE_GEOGRAPHY_ONTOLOGY_BOARD_2026-09-29.md",
+        "world/civilization/INHABITANT_ONTOLOGY_V1.md"
+      ],
+      "related_entities": [],
+      "location_relationship": {
+        "physical_zone_id": "REG-WESTERN-TABLELANDS"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "name": "Compact Neutral Grounds",
+      "entity_type": "LOCATION",
+      "canon_state": "PROVISIONAL_CANON",
+      "canon_confidence": "APPROVED",
+      "source_provenance": [
+        "living-novel/world/INSTITUTIONS_AND_CHAMPIONSHIP.md",
+        "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+      ],
+      "related_entities": [],
+      "location_relationship": {
+        "physical_zone_id": "REG-CENTRAL-BASIN"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    },
+    {
+      "entity_id": "LOC-LEAGUE-ARCHIVE",
+      "name": "League Archive",
+      "entity_type": "LOCATION",
+      "canon_state": "INTERPRETIVE_CANON",
+      "canon_confidence": "APPROVED",
+      "source_provenance": [
+        "world/SCHEMIN_WORLD_BIBLE_ARCHIVE_AND_RECORDS_V1.md",
+        "living-novel/world/INSTITUTIONS_AND_CHAMPIONSHIP.md"
+      ],
+      "related_entities": [],
+      "location_relationship": {
+        "physical_zone_id": "REG-CENTRAL-BASIN"
+      },
+      "temporal_state": "CURRENT",
+      "current_status": "ACTIVE"
+    }
+  ]
+}
