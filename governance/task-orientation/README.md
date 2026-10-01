@@ -12,7 +12,7 @@ Use `TASK_CONTEXT_MATRIX_V1.json` before broad repository search. The matrix is 
 
 ## Rules
 
-1. Initial context is capped at four project sources.
+1. Initial context is capped at four project sources. **Default project authority sources are pinned first** and cannot be displaced by task-specific sources.
 2. A matching route is a starting packet, not permission to ignore stronger project authority.
 3. Expand only for a material evidence gap, source conflict, failed test, or cross-domain dependency.
 4. Do not load entire folders merely because they exist.
