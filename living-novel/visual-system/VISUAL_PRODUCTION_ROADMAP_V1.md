@@ -15,7 +15,7 @@
 - whole-book V2 register created;
 - map priority queue created.
 
-## Phase 2 — Map proof system — NEXT
+## Phase 2 — Map proof system — COMPLETE / PASS
 Produce planning/prototype artifacts, not publication lock:
 1. M0 Master World Map wireframe from current Atlas.
 2. M1 Institutional Basin crop.
@@ -23,9 +23,9 @@ Produce planning/prototype artifacts, not publication lock:
 4. test label hierarchy at 6×9 print.
 5. Umpire + Atlas QA.
 
-Exit: one map language works across world/regional/event scales without inventing geography.
+Exit: one map language works across world/regional/event scales without inventing geography. **Achieved — 192/192 machine checks PASS. M0 recto selected as primary reader-facing master map.**
 
-## Phase 3 — Environment/object proof
+## Phase 3 — Environment/object proof — NEXT
 Prototype:
 - Record House / Archive;
 - Hall of Keeping object composition;
