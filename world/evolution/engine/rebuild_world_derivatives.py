@@ -9,6 +9,8 @@ ROOT=Path(__file__).resolve().parents[3]
 RECEIPT=ROOT/"world"/"evolution"/"LAST_REBUILD_RECEIPT.json"
 
 COMMANDS=[
+ [sys.executable,"world/history/build_world_memory.py","--write"],
+ [sys.executable,"world/history/build_world_memory.py","--check"],
  [sys.executable,"world/location-control-plane/compiler/generate_cards.py","--write"],
  [sys.executable,"world/location-control-plane/compiler/generate_cards.py","--check"],
  [sys.executable,"world/environment-references/render_structural_plates.py"],
@@ -27,7 +29,7 @@ def rebuild_state_derivatives(write_receipt=True):
       "status":"PASS",
       "generated_at_utc":datetime.now(timezone.utc).isoformat(),
       "commands":results,
-      "consumer_hydration":"Memo OS and Novel OS adapters read rebuilt Location Control Plane cards on demand; no separate hydration cache exists."
+      "consumer_hydration":"Memo OS, Novel OS, Universe Resolver and Visual World Packet read rebuilt state/memory/cards on demand; no separate hydration cache exists."
     }
     if write_receipt:
         RECEIPT.write_text(json.dumps(receipt,indent=2)+"\n")
