@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "baseline_commit": "636221a9caecbf1c5c49bee277adef03325b04c1",
+  "status": "ATLAS_V1_PLUS_PHASES_1_TO_5_BASELINE",
+  "source_blobs": {
+    "world/atlas/ATLAS_V1.md": "221a0867314878e605385a79724bb133faac5666",
+    "world/location-control-plane/_INDEX.md": "d61d0d37206f67975fa2e6c77c211fc89004a980",
+    "world/environment-references/_INDEX.md": "bb9a81fb69f90c7baf210bcf2dbeac6ca1e0e937",
+    "world/atlas/interactive/_INDEX.md": "23e6abfa98c3ab8535cdcedb821e81c7134a69fe",
+    "world/evolution/_INDEX.md": "ca6e436e1cc70738ff7ec352c5709a55e0b43a7b",
+    "world/data/physical_zones.json": "3d06bb11b6dd48d1fab523cd886b5003df1c8651",
+    "world/data/divisions.json": "c6f18fae9d4fec928a9b1b8917ff474379a01d57",
+    "world/data/owner_domains.json": "b9c5e52b1ad09611d15b6662d64d1ff79cb9aaf9"
+  },
+  "active_layers": [
+    "physical",
+    "civil_institutional",
+    "division",
+    "owner_domain",
+    "roads_travel",
+    "encounter",
+    "world_state",
+    "weather",
+    "horizon_visibility"
+  ],
+  "physical_regions": [
+    {
+      "id": "REG-NORTHERN-SPINE",
+      "name": "Northern Spine"
+    },
+    {
+      "id": "REG-UPPER-VALLEYS",
+      "name": "Upper Valleys and Foothills"
+    },
+    {
+      "id": "REG-CENTRAL-BASIN",
+      "name": "Central River Basin"
+    },
+    {
+      "id": "REG-WESTERN-TABLELANDS",
+      "name": "Western Tablelands"
+    },
+    {
+      "id": "REG-EASTERN-STORM-COAST",
+      "name": "Eastern Forest and Storm Coast"
+    },
+    {
+      "id": "REG-SOUTHERN-WETLANDS",
+      "name": "Southern Wetlands and Delta"
+    },
+    {
+      "id": "REG-INNER-SEA-LITTORAL",
+      "name": "Inner Sea Littoral"
+    }
+  ],
+  "divisions": [
+    {
+      "id": "DIV-BURGERS",
+      "name": "Burgers",
+      "member_team_ids_2026": [
+        1,
+        5,
+        6,
+        10
+      ]
+    },
+    {
+      "id": "DIV-WINGS",
+      "name": "Wings",
+      "member_team_ids_2026": [
+        2,
+        3,
+        7,
+        12
+      ]
+    },
+    {
+      "id": "DIV-PIZZA",
+      "name": "Pizza",
+      "member_team_ids_2026": [
+        4,
+        8,
+        9,
+        11
+      ]
+    }
+  ],
+  "owner_domain_ids": [
+    "CHAR-JAKE-KALOPER",
+    "CHAR-KEVIN-ZEEK",
+    "CHAR-JORDAN-HOLLINGSHEAD",
+    "CHAR-DAVID-BABB",
+    "CHAR-WILSON-LOOK",
+    "CHAR-PHILLIP-PITTS",
+    "CHAR-BRANDON-PRYOR",
+    "CHAR-AUSTIN-BYARS",
+    "CHAR-MANNING-WELTY",
+    "CHAR-BOBBY-MITCHELL",
+    "CHAR-BEN-WHIPPLE",
+    "CHAR-ZACH-WILSON"
+  ]
+}
