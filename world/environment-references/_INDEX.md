@@ -14,5 +14,5 @@ Assets:
 - plates/{LOC-ID}/STRUCTURAL_PLATE.svg — 23 active locations
 
 Rule:
-Structural plates are approved diagrammatic reference bytes.
+Structural plates are approved diagrammatic repository reference bytes. External renderer injection remains unproven until a renderer smoke test consumes them.
 They are not cinematic environment art.
