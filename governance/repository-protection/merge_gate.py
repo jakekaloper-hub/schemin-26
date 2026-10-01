@@ -8,6 +8,10 @@ import subprocess
 from pathlib import Path
 
 SUITE_COMMANDS = {
+    "orientation": [
+        "python governance/task-orientation/validate_task_context.py",
+        "python -m unittest -v governance/task-orientation/test_task_context.py",
+    ],
     "mission": [
         "python -m py_compile governance/validate_project_mission.py",
         "python planning/character-native-render/validate_program_plan.py",
@@ -70,13 +74,18 @@ SUITE_COMMANDS = {
     ],
 }
 
-ORDER = ["mission", "data", "character", "novel", "memo", "world", "release", "publication", "bullpen"]
+ORDER = ["orientation", "mission", "data", "character", "novel", "memo", "world", "release", "publication", "bullpen"]
 
 def _starts(path: str, prefix: str) -> bool:
     return path == prefix.rstrip("/") or path.startswith(prefix)
 
 def suites_for_path(path: str) -> set[str]:
     suites: set[str] = set()
+    if (
+        _starts(path, "governance/task-orientation/")
+        or path in {"docs/SESSION_CONTEXT.md", "living-novel/os/SESSION_CONTEXT.md", "living-novel/os/TASK_CONTEXT_MATRIX_V1.json"}
+    ):
+        suites.add("orientation")
     if _starts(path, "planning/character-native-render/"):
         suites.add("mission")
     if path in {

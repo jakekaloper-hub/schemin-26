@@ -19,6 +19,8 @@ The repository should remain deliberately smaller than FLA. We adopt the Librari
 |---|---|---|
 | Project control | `PROJECT_CONTROL_REGISTRY.md` | SCK / Executive Control |
 | Session routing | `docs/SESSION_CONTEXT.md` | Librarian |
+| Task orientation | `governance/task-orientation/TASK_CONTEXT_MATRIX_V1.json` | Librarian + SCK |
+| Living Novel routing | `living-novel/os/SESSION_CONTEXT.md` | Novel OS + Librarian / Umpire |
 | Source hierarchy | `docs/governance/SOURCE_OF_TRUTH.md` | Governance / Data |
 | Authority boundaries | `docs/governance/AUTHORITY_MATRIX.md` | Executive Control |
 | Weekly Memo OS | `memo-os/_INDEX.md` | Weekly Memo OS |

@@ -1,0 +1,189 @@
+{
+  "version": "1.0.0",
+  "project": "Schemin '26",
+  "authority": "The Librarian + SCK / Executive Control",
+  "purpose": "Route a task to the minimum authoritative Schemin context before broader repository search.",
+  "defaults": {
+    "max_matches": 2,
+    "max_context_sources": 4,
+    "context_sources": [
+      "PROJECT_CONTROL_REGISTRY.md"
+    ]
+  },
+  "routes": [
+    {
+      "id": "weekly-memo",
+      "terms": [
+        "weekly memo",
+        "memo",
+        "page",
+        "matchup feature",
+        "scoreboard",
+        "power rankings",
+        "waiver wire",
+        "pittsy",
+        "publication"
+      ],
+      "context_sources": [
+        "memo-os/_INDEX.md",
+        "memo-os/V5_6_CURRENT_MAIN_RECONCILIATION_V1.md",
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+      ]
+    },
+    {
+      "id": "league-data",
+      "terms": [
+        "espn",
+        "flaim",
+        "roster",
+        "standings",
+        "score",
+        "matchup",
+        "transaction",
+        "waiver",
+        "league truth",
+        "freshness",
+        "snapshot"
+      ],
+      "context_sources": [
+        "data-gateway/_INDEX.md",
+        "data-gateway/OPERATIONAL_PATCH_v1.0.md",
+        "data-gateway/SCHEMIN_26_ESPN_INGESTION_RELIABILITY_PATCH_v1.0.md",
+        "schemas/freshness.schema.json"
+      ]
+    },
+    {
+      "id": "character-visual",
+      "terms": [
+        "character",
+        "visual identity",
+        "reference image",
+        "character lock",
+        "renderer",
+        "artwork",
+        "source byte",
+        "canon drift"
+      ],
+      "context_sources": [
+        "canon/_INDEX.md",
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+        "planning/character-native-render/CHARACTER_SOURCE_BYTE_NATIVE_RENDER_LIFECYCLE_V1.md"
+      ]
+    },
+    {
+      "id": "living-novel",
+      "terms": [
+        "novel",
+        "chapter",
+        "manuscript",
+        "prose",
+        "pov",
+        "plot",
+        "author room",
+        "continuity",
+        "literary",
+        "canonize"
+      ],
+      "context_sources": [
+        "living-novel/os/SESSION_CONTEXT.md",
+        "living-novel/os/TASK_CONTEXT_MATRIX_V1.json",
+        "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md"
+      ]
+    },
+    {
+      "id": "world-and-atlas",
+      "terms": [
+        "world",
+        "atlas",
+        "geography",
+        "location",
+        "terrain",
+        "travel",
+        "environment",
+        "universe",
+        "world evolution"
+      ],
+      "context_sources": [
+        "world/UNIVERSE_OS_V1_2_RELEASE_RECEIPT.md",
+        "world/atlas/ATLAS_CONTROL_PLANE_V2.md",
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ]
+    },
+    {
+      "id": "bullpen-and-system",
+      "terms": [
+        "bullpen",
+        "director",
+        "command",
+        "task orientation",
+        "pre planning",
+        "pre-planning",
+        "latency",
+        "workflow",
+        "knowledge map",
+        "knowledge matrix"
+      ],
+      "context_sources": [
+        "bullpen/_INDEX.md",
+        "docs/governance/AUTHORITY_MATRIX.md",
+        "docs/SESSION_CONTEXT.md",
+        "governance/task-orientation/TASK_CONTEXT_MATRIX_V1.json"
+      ]
+    },
+    {
+      "id": "architecture-and-repository",
+      "terms": [
+        "architecture",
+        "repository",
+        "repo",
+        "index",
+        "inventory",
+        "adr",
+        "source of truth",
+        "supersession",
+        "structure"
+      ],
+      "context_sources": [
+        "docs/CATALOG.md",
+        "docs/INVENTORY.md",
+        "docs/architecture/REPOSITORY_ARCHITECTURE.md",
+        "docs/governance/SOURCE_OF_TRUTH.md"
+      ]
+    },
+    {
+      "id": "mercer-football-strategy",
+      "terms": [
+        "mercer",
+        "trade",
+        "waiver",
+        "lineup",
+        "keeper",
+        "draft pick",
+        "faab",
+        "roster decision"
+      ],
+      "context_sources": [
+        "mercer/_INDEX.md",
+        "mercer/OPERATING_CONTRACT.md",
+        "mercer/JACK_MERCER_FRONT_OFFICE_V2_SPEC.md",
+        "data-gateway/_INDEX.md"
+      ]
+    },
+    {
+      "id": "publication-identity",
+      "terms": [
+        "official memo",
+        "published memo",
+        "gold standard",
+        "release",
+        "publication manifest",
+        "archive identity"
+      ],
+      "context_sources": [
+        "governance/publication-manifest/_INDEX.md",
+        "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+        "PROJECT_CONTROL_REGISTRY.md"
+      ]
+    }
+  ]
+}
