@@ -49,4 +49,4 @@ Start with:
 - `os/NOVEL_POV_CONSTITUTION_V1.md`
 - `os/state/CURRENT_OPEN_LOOP_LEDGER_V1.json`
 
-The Prologue and Chapters I–II remain closed hard manuscript canon. The accepted architecture came from the Full Seven four-round engagement under `consultants/author-council/engagements/NOVEL-AUTHOR-CONSULT-2026-10-01-001/`.
+The Prologue and Chapters I–III are closed hard manuscript canon. Chapter III (`THE HILL IS NOT THE KINGDOM`) was Founder-approved on 2026-10-01 against manuscript blob `49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc`. The accepted architecture came from the Full Seven four-round engagement under `consultants/author-council/engagements/NOVEL-AUTHOR-CONSULT-2026-10-01-001/`.
