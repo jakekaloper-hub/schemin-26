@@ -1,0 +1,494 @@
+{
+  "version": "1.0.0",
+  "authority": "PROJECT_CONTROL_REGISTRY.md + domain source authorities",
+  "generated_at": "2026-10-01",
+  "tasks": [
+    {
+      "task_id": "CHAR-PORT-001",
+      "title": "Recover and identity-map current Twelve character references",
+      "project": "Schemin '26",
+      "program": "Character Reference Portability",
+      "roadmap": "Character Reference Portability & Canonical Rendering Assurance",
+      "phase": "Source Provenance",
+      "milestone": "12/12 approved sources established",
+      "workstream": "Source Recovery",
+      "owner": "the_librarian",
+      "reviewer": "the_umpire",
+      "priority": "P0",
+      "status": "COMPLETE",
+      "created_at": "2026-10-01",
+      "started_at": "2026-10-01",
+      "completed_at": "2026-10-01",
+      "dependencies": [],
+      "blocked_by": [],
+      "blocks": [
+        "CHAR-PORT-002"
+      ],
+      "acceptance_criteria": [
+        "12/12 materialized approved references",
+        "12/12 identity mappings",
+        "12/12 approved hashes"
+      ],
+      "evidence": [
+        {
+          "type": "repository_receipt",
+          "ref": "bullpen/LIBRARIAN_THREAD_CLOSEOUT_CHARACTER_PORTABILITY_2026-10-01.md",
+          "status": "PASS",
+          "note": "Closeout records 12/12 materialized bytes, identities and approved hashes."
+        }
+      ],
+      "source_authority": "bullpen/LIBRARIAN_THREAD_CLOSEOUT_CHARACTER_PORTABILITY_2026-10-01.md",
+      "next_action": "None; do not request another bulk re-upload.",
+      "aliases": [
+        "character reference recovery",
+        "the twelve",
+        "source bytes"
+      ],
+      "supersedes": [
+        "SOURCE_BYTES_REQUIRED"
+      ],
+      "superseded_by": null
+    },
+    {
+      "task_id": "CHAR-PORT-002",
+      "title": "Ingest approved character bytes into durable renderer-addressable storage",
+      "project": "Schemin '26",
+      "program": "Character Reference Portability",
+      "roadmap": "Character Reference Portability & Canonical Rendering Assurance",
+      "phase": "Durable Retrieval",
+      "milestone": "Stable repository-backed asset locators",
+      "workstream": "Durable Asset Ingestion",
+      "owner": "the_architect",
+      "reviewer": "the_librarian",
+      "priority": "P0",
+      "status": "READY",
+      "created_at": "2026-10-01",
+      "started_at": null,
+      "completed_at": null,
+      "dependencies": [
+        "CHAR-PORT-001"
+      ],
+      "blocked_by": [],
+      "blocks": [
+        "CHAR-PORT-003"
+      ],
+      "acceptance_criteria": [
+        "Durable locators exist for all approved current references",
+        "Fresh SHA/blob receipts bind each locator to Character ID"
+      ],
+      "evidence": [],
+      "source_authority": "bullpen/LIBRARIAN_THREAD_CLOSEOUT_CHARACTER_PORTABILITY_2026-10-01.md",
+      "next_action": "Resume from the already-materialized approved bytes and persist durable locators/hash receipts; do not ask for bulk re-upload.",
+      "aliases": [
+        "character portability",
+        "durable asset ingestion",
+        "durable retrieval"
+      ],
+      "supersedes": [],
+      "superseded_by": null
+    },
+    {
+      "task_id": "CHAR-PORT-003",
+      "title": "Prove clean-context retrieval and renderer mount for canonical character assets",
+      "project": "Schemin '26",
+      "program": "Character Reference Portability",
+      "roadmap": "Character Reference Portability & Canonical Rendering Assurance",
+      "phase": "Durable Retrieval",
+      "milestone": "Fresh-context renderer mount proof",
+      "workstream": "Retrieval & Mount",
+      "owner": "the_architect",
+      "reviewer": "the_umpire",
+      "priority": "P0",
+      "status": "NOT_STARTED",
+      "created_at": "2026-10-01",
+      "started_at": null,
+      "completed_at": null,
+      "dependencies": [
+        "CHAR-PORT-002"
+      ],
+      "blocked_by": [],
+      "blocks": [
+        "CHAR-PORT-004"
+      ],
+      "acceptance_criteria": [
+        "Clean-context retrieval resolves canonical bytes without conversation-local state",
+        "Mounted-byte/hash receipt proves renderer input equals canonical asset"
+      ],
+      "evidence": [],
+      "source_authority": "bullpen/LIBRARIAN_THREAD_CLOSEOUT_CHARACTER_PORTABILITY_2026-10-01.md",
+      "next_action": "Begin only after CHAR-PORT-002 completes.",
+      "aliases": [
+        "clean context retrieval",
+        "renderer mount proof"
+      ],
+      "supersedes": [],
+      "superseded_by": null
+    },
+    {
+      "task_id": "CHAR-PORT-004",
+      "title": "Pass C1 single-character reference-to-subject binding benchmarks",
+      "project": "Schemin '26",
+      "program": "Character Reference Portability",
+      "roadmap": "Character Reference Portability & Canonical Rendering Assurance",
+      "phase": "Reference Binding",
+      "milestone": "C1 PASS",
+      "workstream": "Single Character Benchmark",
+      "owner": "the_pitching_coach",
+      "reviewer": "the_umpire",
+      "priority": "P0",
+      "status": "NOT_STARTED",
+      "created_at": "2026-10-01",
+      "started_at": null,
+      "completed_at": null,
+      "dependencies": [
+        "CHAR-PORT-003"
+      ],
+      "blocked_by": [],
+      "blocks": [
+        "CHAR-PORT-005"
+      ],
+      "acceptance_criteria": [
+        "Reference hash maps to intended Character ID and subject slot",
+        "Independent Character QA records explicit PASS/FAIL evidence"
+      ],
+      "evidence": [],
+      "source_authority": "bullpen/LIBRARIAN_THREAD_CLOSEOUT_CHARACTER_PORTABILITY_2026-10-01.md",
+      "next_action": "Run C1 benchmarks after clean-context renderer mount proof.",
+      "aliases": [
+        "C1 binding",
+        "reference to subject binding"
+      ],
+      "supersedes": [],
+      "superseded_by": null
+    },
+    {
+      "task_id": "CHAR-PORT-005",
+      "title": "Pass multi-character contamination tests and T15 acceptance",
+      "project": "Schemin '26",
+      "program": "Character Reference Portability",
+      "roadmap": "Character Reference Portability & Canonical Rendering Assurance",
+      "phase": "Acceptance",
+      "milestone": "T15 PASS",
+      "workstream": "Multi-character QA",
+      "owner": "the_umpire",
+      "reviewer": "the_librarian",
+      "priority": "P1",
+      "status": "NOT_STARTED",
+      "created_at": "2026-10-01",
+      "started_at": null,
+      "completed_at": null,
+      "dependencies": [
+        "CHAR-PORT-004"
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "acceptance_criteria": [
+        "Multi-character contamination suite passes",
+        "T15 acceptance gate passes"
+      ],
+      "evidence": [],
+      "source_authority": "bullpen/LIBRARIAN_THREAD_CLOSEOUT_CHARACTER_PORTABILITY_2026-10-01.md",
+      "next_action": "Increase subject cardinality only after C1 PASS.",
+      "aliases": [
+        "T15",
+        "multi character contamination"
+      ],
+      "supersedes": [],
+      "superseded_by": null
+    },
+    {
+      "task_id": "MEMO-W4-001",
+      "title": "Open and verify Week 4 provisional preproduction control package",
+      "project": "Schemin '26",
+      "program": "Weekly Memo",
+      "roadmap": "Week 4 Memo Production",
+      "phase": "Preproduction",
+      "milestone": "Story Room open",
+      "workstream": "Preproduction Control",
+      "owner": "the_groundskeeper",
+      "reviewer": "the_umpire",
+      "priority": "P1",
+      "status": "COMPLETE",
+      "created_at": "2026-10-01",
+      "started_at": "2026-10-01",
+      "completed_at": "2026-10-01",
+      "dependencies": [],
+      "blocked_by": [],
+      "blocks": [
+        "MEMO-W4-002"
+      ],
+      "acceptance_criteria": [
+        "Week 4 control package exists",
+        "V5.5 remains governing",
+        "Story Room is provisional and non-release"
+      ],
+      "evidence": [
+        {
+          "type": "promotion_receipt",
+          "ref": "memo-os/week-4/WEEK_4_LIVING_STORY_ROOM_PROMOTION_RECEIPT_2026-10-01.md",
+          "status": "PASS"
+        },
+        {
+          "type": "regression_test",
+          "ref": "memo-os/tests/test_week4_preproduction_open.py",
+          "status": "PASS"
+        }
+      ],
+      "source_authority": "memo-os/week-4/WEEK_4_LIVING_STORY_ROOM_PROMOTION_RECEIPT_2026-10-01.md",
+      "next_action": "None; continue at fresh live evidence.",
+      "aliases": [
+        "week 4 preproduction",
+        "week 4 story room"
+      ],
+      "supersedes": [],
+      "superseded_by": null
+    },
+    {
+      "task_id": "MEMO-W4-002",
+      "title": "Close Week 4 live-result evidence for Story Lock",
+      "project": "Schemin '26",
+      "program": "Weekly Memo",
+      "roadmap": "Week 4 Memo Production",
+      "phase": "Evidence Closure",
+      "milestone": "Week 4 facts final",
+      "workstream": "League Truth",
+      "owner": "the_scout",
+      "reviewer": "the_umpire",
+      "priority": "P0",
+      "status": "WAITING_EXTERNAL",
+      "created_at": "2026-10-01",
+      "started_at": null,
+      "completed_at": null,
+      "dependencies": [
+        "MEMO-W4-001"
+      ],
+      "blocked_by": [],
+      "blocks": [
+        "MEMO-W4-003",
+        "NOVEL-NEXT-002"
+      ],
+      "acceptance_criteria": [
+        "All six Week 4 outcomes verified final",
+        "Post-Week-4 standings/records refreshed",
+        "Material transaction/injury evidence reconciled where narratively relevant"
+      ],
+      "evidence": [
+        {
+          "type": "current_state",
+          "ref": "memo-os/week-4/WEEK_4_LIVING_STORY_ROOM_PROMOTION_RECEIPT_2026-10-01.md",
+          "status": "PENDING",
+          "note": "Receipt records all six matchups undecided at current capture."
+        }
+      ],
+      "source_authority": "memo-os/week-4/WEEK_4_FACT_SCOPE_AND_EVIDENCE_REGISTER_V1.md",
+      "next_action": "Refresh Flaim/ESPN evidence after games finalize; projections cannot close this task.",
+      "aliases": [
+        "continue week 4 memo",
+        "week 4 final evidence",
+        "week 4 results"
+      ],
+      "supersedes": [],
+      "superseded_by": null
+    },
+    {
+      "task_id": "MEMO-W4-003",
+      "title": "Lock Week 4 stories and issue architecture from verified outcomes",
+      "project": "Schemin '26",
+      "program": "Weekly Memo",
+      "roadmap": "Week 4 Memo Production",
+      "phase": "Story Lock",
+      "milestone": "Story Lock PASS",
+      "workstream": "Story Room",
+      "owner": "the_groundskeeper",
+      "reviewer": "the_umpire",
+      "priority": "P1",
+      "status": "NOT_STARTED",
+      "created_at": "2026-10-01",
+      "started_at": null,
+      "completed_at": null,
+      "dependencies": [
+        "MEMO-W4-002"
+      ],
+      "blocked_by": [],
+      "blocks": [
+        "MEMO-W4-004"
+      ],
+      "acceptance_criteria": [
+        "All reservoirs reconciled against final evidence",
+        "Story Lock gate passes",
+        "Issue architecture no longer blocked on Story Lock"
+      ],
+      "evidence": [],
+      "source_authority": "memo-os/week-4/WEEK_4_PRODUCTION_CONTROL_V1.md",
+      "next_action": "Run after MEMO-W4-002 completes.",
+      "aliases": [
+        "week 4 story lock",
+        "week 4 issue architecture"
+      ],
+      "supersedes": [],
+      "superseded_by": null
+    },
+    {
+      "task_id": "MEMO-W4-004",
+      "title": "Assemble, QA and release the Week 4 Memo",
+      "project": "Schemin '26",
+      "program": "Weekly Memo",
+      "roadmap": "Week 4 Memo Production",
+      "phase": "Publication",
+      "milestone": "Week 4 released",
+      "workstream": "Issue Assembly",
+      "owner": "the_groundskeeper",
+      "reviewer": "the_umpire",
+      "priority": "P1",
+      "status": "NOT_STARTED",
+      "created_at": "2026-10-01",
+      "started_at": null,
+      "completed_at": null,
+      "dependencies": [
+        "MEMO-W4-003"
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "acceptance_criteria": [
+        "Memo OS release gates pass",
+        "Publication artifact exists",
+        "Publication Manifest records released identity"
+      ],
+      "evidence": [],
+      "source_authority": "memo-os/week-4/WEEK_4_RELEASE_GATE_V1.md",
+      "next_action": "Begin after Story Lock PASS.",
+      "aliases": [
+        "week 4 memo release",
+        "publish week 4"
+      ],
+      "supersedes": [],
+      "superseded_by": null
+    },
+    {
+      "task_id": "NOVEL-NEXT-001",
+      "title": "Close Prologue through Chapter III as hard manuscript canon",
+      "project": "Schemin '26 Living Novel",
+      "program": "Living Novel",
+      "roadmap": "Book One Live Continuation",
+      "phase": "Canon Baseline",
+      "milestone": "Chapter III canon closed",
+      "workstream": "Canon",
+      "owner": "the_librarian",
+      "reviewer": "the_umpire",
+      "priority": "P1",
+      "status": "COMPLETE",
+      "created_at": "2026-10-01",
+      "started_at": "2026-10-01",
+      "completed_at": "2026-10-01",
+      "dependencies": [],
+      "blocked_by": [],
+      "blocks": [
+        "NOVEL-NEXT-002"
+      ],
+      "acceptance_criteria": [
+        "Prologue and Chapters I-III are identified as active hard canon",
+        "Chapter III canon release receipt exists"
+      ],
+      "evidence": [
+        {
+          "type": "authority_matrix",
+          "ref": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+          "status": "PASS"
+        }
+      ],
+      "source_authority": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+      "next_action": "None; do not reopen closed chapters without explicit canon process.",
+      "aliases": [
+        "novel current canon",
+        "chapters 1 2 3"
+      ],
+      "supersedes": [],
+      "superseded_by": null
+    },
+    {
+      "task_id": "NOVEL-NEXT-002",
+      "title": "Select the next causal story unit after Week 4 evidence closure",
+      "project": "Schemin '26 Living Novel",
+      "program": "Living Novel",
+      "roadmap": "Book One Live Continuation",
+      "phase": "Live Evidence Gate",
+      "milestone": "Next causal story selected",
+      "workstream": "Story Selection",
+      "owner": "the_beat_writer",
+      "reviewer": "the_umpire",
+      "priority": "P1",
+      "status": "NOT_STARTED",
+      "created_at": "2026-10-01",
+      "started_at": null,
+      "completed_at": null,
+      "dependencies": [
+        "NOVEL-NEXT-001",
+        "MEMO-W4-002"
+      ],
+      "blocked_by": [],
+      "blocks": [
+        "NOVEL-NEXT-003"
+      ],
+      "acceptance_criteria": [
+        "Final Week 4 evidence closes",
+        "Events graded for narrative significance",
+        "Open loops tested for material advancement/collision",
+        "Strongest causal story unit selected without assuming Chapter IV equals Week 4"
+      ],
+      "evidence": [
+        {
+          "type": "gate",
+          "ref": "living-novel/production/NEXT_CAUSAL_STORY_GATE_V1.md",
+          "status": "PENDING",
+          "note": "Current gate says HOLD until live evidence closes."
+        }
+      ],
+      "source_authority": "living-novel/production/NEXT_CAUSAL_STORY_GATE_V1.md",
+      "next_action": "Wait for MEMO-W4-002, then grade events and select causal unit.",
+      "aliases": [
+        "what still needs doing for the novel",
+        "next chapter",
+        "chapter iv",
+        "next causal story"
+      ],
+      "supersedes": [],
+      "superseded_by": null
+    },
+    {
+      "task_id": "NOVEL-NEXT-003",
+      "title": "Run Minimum Pre-Prose Gate for the selected next causal story",
+      "project": "Schemin '26 Living Novel",
+      "program": "Living Novel",
+      "roadmap": "Book One Live Continuation",
+      "phase": "Chapter Preproduction",
+      "milestone": "Minimum Pre-Prose Gate PASS",
+      "workstream": "Chapter Planning",
+      "owner": "the_beat_writer",
+      "reviewer": "the_umpire",
+      "priority": "P1",
+      "status": "NOT_STARTED",
+      "created_at": "2026-10-01",
+      "started_at": null,
+      "completed_at": null,
+      "dependencies": [
+        "NOVEL-NEXT-002"
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "acceptance_criteria": [
+        "Minimum Pre-Prose Gate passes against selected causal story",
+        "POV/open-loop/world constraints are resolved before dossier/prose"
+      ],
+      "evidence": [],
+      "source_authority": "living-novel/os/templates/MINIMUM_PRE_PROSE_GATE_V1.md",
+      "next_action": "Run only after next causal story selection.",
+      "aliases": [
+        "minimum pre prose",
+        "plan next chapter"
+      ],
+      "supersedes": [],
+      "superseded_by": null
+    }
+  ],
+  "history": []
+}

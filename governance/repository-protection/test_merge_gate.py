@@ -95,5 +95,13 @@ class MergeGatePlannerTests(unittest.TestCase):
             merge_gate.SUITE_COMMANDS["mission"] = old
 
 
+
+    def test_execution_control_change_triggers_execution_control(self):
+        self.assertIn(
+            "execution_control",
+            merge_gate.plan(["governance/execution-control/TASK_REGISTRY_V1.json"]),
+        )
+
+
 if __name__ == "__main__":
     unittest.main()

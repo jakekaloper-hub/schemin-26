@@ -8,7 +8,7 @@
 
 Before broad repository search, classify the request with `governance/task-orientation/TASK_CONTEXT_MATRIX_V1.json`. This is the machine-readable companion to this document and is designed for Bullpen/ChatGPT task orientation.
 
-Initial project context is capped at four sources. Expand only for a material evidence gap, authority conflict, failed test, or cross-domain dependency.
+Initial project context is capped at four sources. After orientation, resolve the request against `governance/execution-control/TASK_REGISTRY_V1.json` before creating a new roadmap/task. Expand only for a material evidence gap, authority conflict, failed test, or cross-domain dependency.
 
 ## Session-start rule
 
@@ -36,6 +36,7 @@ For character-reference portability specifically, the Twelve were already re-upl
 | Intent | Load first |
 |---|---|
 | Task orientation / AI session startup | `governance/task-orientation/TASK_CONTEXT_MATRIX_V1.json`, this router, `PROJECT_CONTROL_REGISTRY.md` |
+| Execution control / roadmap / task status / blockers / next | `governance/execution-control/TASK_REGISTRY_V1.json`, `governance/execution-control/README.md`, controlling domain source from the matched task |
 | Living Novel / chapter / POV / manuscript / continuity | `living-novel/os/SESSION_CONTEXT.md`, `living-novel/os/TASK_CONTEXT_MATRIX_V1.json`, Whole-Book Source Authority Matrix |
 | General Schemin '26 orientation | `PROJECT_CONTROL_REGISTRY.md`, `docs/governance/SOURCE_OF_TRUTH.md`, `planning/ROADMAP.md` |
 | Produce or repair Weekly Memo | `memo-os/_INDEX.md`, V5 Studio Patch, V5.2-RC Patch, Master Character Canon |

@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "authority": "Bullpen Unified Execution Control Plane + Schemin Project Control",
+  "registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+  "schema_source_repo": "jakekaloper-hub/bullpen",
+  "schema_source_path": "schemas/TASK_STATE_SCHEMA_V1.json",
+  "operating_rules": [
+    "Task Orientation resolves existing registry work before creating new tasks.",
+    "Domain source documents remain authority for facts; registry normalizes execution state.",
+    "COMPLETE requires evidence, not prose or checkboxes.",
+    "Status and roadmap percentages are derived from child tasks.",
+    "Migrate only live/materially useful work."
+  ],
+  "project_filters": {
+    "schemin": "Schemin '26",
+    "novel": "Schemin '26 Living Novel"
+  }
+}
