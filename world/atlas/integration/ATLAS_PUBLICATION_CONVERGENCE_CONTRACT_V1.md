@@ -1,7 +1,7 @@
 # SCHEMIN ATLAS — PUBLICATION CONVERGENCE CONTRACT V1
 
 **Date:** 2026-09-30  
-**Status:** INTEGRATION BASELINE / BOARD-APPROVED WHEN CI PASSES  
+**Status:** APPROVED FOR RELEASE — ACTIVE WHEN PRESENT ON main  
 **Scope:** Universe OS / World Engine + Novel OS + Weekly Memo OS + Character Canon + Visual Production + Publication Release  
 **Machine companion:** `world/atlas/integration/ATLAS_PUBLICATION_CONVERGENCE_CONTRACT_V1.json`
 
