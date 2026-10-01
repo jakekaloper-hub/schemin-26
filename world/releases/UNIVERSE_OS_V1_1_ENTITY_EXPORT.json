@@ -1,0 +1,359 @@
+{
+  "schema_version": "1.0-baseline",
+  "baseline_commit": "f882d9261479c410f68870708cfa6b21160f128d",
+  "generated_for": "Universe OS V1.2 migration baseline",
+  "entities": [
+    {
+      "id": "REG-NORTHERN-SPINE",
+      "type": "PHYSICAL_REGION",
+      "name": "Northern Spine",
+      "canon_status": "INTERPRETIVE_CANON"
+    },
+    {
+      "id": "REG-UPPER-VALLEYS",
+      "type": "PHYSICAL_REGION",
+      "name": "Upper Valleys and Foothills",
+      "canon_status": "INTERPRETIVE_CANON"
+    },
+    {
+      "id": "REG-CENTRAL-BASIN",
+      "type": "PHYSICAL_REGION",
+      "name": "Central River Basin",
+      "canon_status": "INTERPRETIVE_CANON"
+    },
+    {
+      "id": "REG-WESTERN-TABLELANDS",
+      "type": "PHYSICAL_REGION",
+      "name": "Western Tablelands",
+      "canon_status": "INTERPRETIVE_CANON"
+    },
+    {
+      "id": "REG-EASTERN-STORM-COAST",
+      "type": "PHYSICAL_REGION",
+      "name": "Eastern Forest and Storm Coast",
+      "canon_status": "INTERPRETIVE_CANON"
+    },
+    {
+      "id": "REG-SOUTHERN-WETLANDS",
+      "type": "PHYSICAL_REGION",
+      "name": "Southern Wetlands and Delta",
+      "canon_status": "INTERPRETIVE_CANON"
+    },
+    {
+      "id": "REG-INNER-SEA-LITTORAL",
+      "type": "PHYSICAL_REGION",
+      "name": "Inner Sea Littoral",
+      "canon_status": "INTERPRETIVE_CANON"
+    },
+    {
+      "id": "DIV-BURGERS",
+      "type": "DIVISION",
+      "name": "Burgers",
+      "canon_status": "INTERPRETIVE_CANON"
+    },
+    {
+      "id": "DIV-WINGS",
+      "type": "DIVISION",
+      "name": "Wings",
+      "canon_status": "INTERPRETIVE_CANON"
+    },
+    {
+      "id": "DIV-PIZZA",
+      "type": "DIVISION",
+      "name": "Pizza",
+      "canon_status": "INTERPRETIVE_CANON"
+    },
+    {
+      "id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "type": "LOCATION",
+      "name": "Trade Jedi Mountain Base",
+      "canon_status": "PERMANENT_CANON",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "division_id": "DIV-BURGERS"
+    },
+    {
+      "id": "LOC-MUD-DOGS-SWAMP",
+      "type": "LOCATION",
+      "name": "Mud Dogs Swamp",
+      "canon_status": "PERMANENT_CANON",
+      "physical_zone_id": "REG-SOUTHERN-WETLANDS",
+      "division_id": "DIV-BURGERS"
+    },
+    {
+      "id": "LOC-COUNTRY-CLUB-JACKSON",
+      "type": "LOCATION",
+      "name": "Country Club of Jackson",
+      "canon_status": "PERMANENT_CANON",
+      "physical_zone_id": "REG-SOUTHERN-WETLANDS",
+      "division_id": "DIV-WINGS"
+    },
+    {
+      "id": "LOC-ARSENAL-BARBERSHOP",
+      "type": "LOCATION",
+      "name": "Arsenal Barbershop",
+      "canon_status": "PERMANENT_CANON",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "division_id": "DIV-BURGERS"
+    },
+    {
+      "id": "LOC-STORM-BOWL",
+      "type": "LOCATION",
+      "name": "Storm Bowl",
+      "canon_status": "PROVISIONAL_CANON",
+      "physical_zone_id": "REG-EASTERN-STORM-COAST",
+      "division_id": "DIV-PIZZA"
+    },
+    {
+      "id": "LOC-LLC-BOARDROOM",
+      "type": "LOCATION",
+      "name": "LLC Mercantile Boardroom",
+      "canon_status": "PERMANENT_CANON",
+      "physical_zone_id": "REG-INNER-SEA-LITTORAL",
+      "division_id": "DIV-PIZZA"
+    },
+    {
+      "id": "LOC-RED-RUINS",
+      "type": "LOCATION",
+      "name": "Red Leopard Ruins",
+      "canon_status": "PERMANENT_CANON",
+      "physical_zone_id": "REG-EASTERN-STORM-COAST",
+      "division_id": "DIV-WINGS"
+    },
+    {
+      "id": "LOC-TDS-WATERFALL-TEMPLE",
+      "type": "LOCATION",
+      "name": "Podium Shadow Waterfall Temple",
+      "canon_status": "PERMANENT_CANON",
+      "physical_zone_id": "REG-SOUTHERN-WETLANDS",
+      "division_id": "DIV-BURGERS"
+    },
+    {
+      "id": "LOC-CHILI-STABLE",
+      "type": "LOCATION",
+      "name": "Chili Outlaw Stable",
+      "canon_status": "PERMANENT_CANON",
+      "physical_zone_id": "REG-WESTERN-TABLELANDS",
+      "division_id": "DIV-WINGS"
+    },
+    {
+      "id": "LOC-BELT-KEEPER-KEEP",
+      "type": "LOCATION",
+      "name": "Belt Keeper Rune Keep",
+      "canon_status": "PROVISIONAL_CANON",
+      "physical_zone_id": "REG-EASTERN-STORM-COAST",
+      "division_id": "DIV-PIZZA"
+    },
+    {
+      "id": "LOC-SLOB-FOOTHILL-CAMP",
+      "type": "LOCATION",
+      "name": "Slob Foothill Camp",
+      "canon_status": "PROVISIONAL_CANON",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "division_id": "DIV-WINGS"
+    },
+    {
+      "id": "LOC-CHINS-ROAD-COMMONS",
+      "type": "LOCATION",
+      "name": "People's Champ Road Commons",
+      "canon_status": "PROVISIONAL_CANON",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": "DIV-PIZZA"
+    },
+    {
+      "id": "LOC-LEAGUE-CHAMBER",
+      "type": "LOCATION",
+      "name": "League Chamber",
+      "canon_status": "PROVISIONAL_CANON",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": null
+    },
+    {
+      "id": "LOC-PITTSYS-BOOK",
+      "type": "LOCATION",
+      "name": "Pittsy's Book",
+      "canon_status": "PROVISIONAL_CANON",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": null
+    },
+    {
+      "id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "type": "LOCATION",
+      "name": "Bridge at the Mountain Lake",
+      "canon_status": "PROVISIONAL_CANON",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "division_id": "DIV-BURGERS"
+    },
+    {
+      "id": "LOC-DK-MUD-HILL",
+      "type": "LOCATION",
+      "name": "Mire Hill Battlefield",
+      "canon_status": "PROVISIONAL_CANON",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": "DIV-BURGERS"
+    },
+    {
+      "id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "type": "LOCATION",
+      "name": "Alpine Wager Route",
+      "canon_status": "PROVISIONAL_CANON",
+      "physical_zone_id": "REG-NORTHERN-SPINE",
+      "division_id": "DIV-WINGS"
+    },
+    {
+      "id": "LOC-SOUTHERN-SPEEDWAY",
+      "type": "LOCATION",
+      "name": "Southern Speedway",
+      "canon_status": "PROVISIONAL_CANON",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": "DIV-PIZZA"
+    },
+    {
+      "id": "LOC-LLC-STORM-CITY",
+      "type": "LOCATION",
+      "name": "LLC Port City Storm District",
+      "canon_status": "PROVISIONAL_CANON",
+      "physical_zone_id": "REG-INNER-SEA-LITTORAL",
+      "division_id": "DIV-PIZZA"
+    },
+    {
+      "id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "type": "LOCATION",
+      "name": "D0nkey K0ng Highland Stronghold",
+      "canon_status": "INTERPRETIVE_CANON",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "division_id": "DIV-BURGERS"
+    },
+    {
+      "id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "type": "LOCATION",
+      "name": "TDS–Chili Shared March",
+      "canon_status": "INTERPRETIVE_CANON",
+      "physical_zone_id": "REG-WESTERN-TABLELANDS",
+      "division_id": null
+    },
+    {
+      "id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "type": "LOCATION",
+      "name": "Compact Neutral Grounds",
+      "canon_status": "PROVISIONAL_CANON",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": null
+    },
+    {
+      "id": "LOC-LEAGUE-ARCHIVE",
+      "type": "LOCATION",
+      "name": "League Archive",
+      "canon_status": "INTERPRETIVE_CANON",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": null
+    },
+    {
+      "id": "CHAR-JAKE-KALOPER",
+      "type": "PRINCIPAL_DOMAIN_RELATION",
+      "owner": "Jake Kaloper",
+      "team": "ObiWan Jacoby",
+      "primary_location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "division_id": "DIV-BURGERS",
+      "ontology_class": "PEOPLED_KIND"
+    },
+    {
+      "id": "CHAR-KEVIN-ZEEK",
+      "type": "PRINCIPAL_DOMAIN_RELATION",
+      "owner": "Kevin Zeek",
+      "team": "Red Leopards",
+      "primary_location_id": "LOC-RED-RUINS",
+      "division_id": "DIV-WINGS",
+      "ontology_class": "PEOPLED_KIND"
+    },
+    {
+      "id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "type": "PRINCIPAL_DOMAIN_RELATION",
+      "owner": "Jordan Hollingshead",
+      "team": "Slob on my Dobb",
+      "primary_location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "division_id": "DIV-WINGS",
+      "ontology_class": "PEOPLED_KIND"
+    },
+    {
+      "id": "CHAR-DAVID-BABB",
+      "type": "PRINCIPAL_DOMAIN_RELATION",
+      "owner": "David Babb",
+      "team": "The LLC",
+      "primary_location_id": "LOC-LLC-BOARDROOM",
+      "division_id": "DIV-PIZZA",
+      "ontology_class": "SINGULAR_BEING"
+    },
+    {
+      "id": "CHAR-WILSON-LOOK",
+      "type": "PRINCIPAL_DOMAIN_RELATION",
+      "owner": "Wilson Look",
+      "team": "D0nkey K0ng",
+      "primary_location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "division_id": "DIV-BURGERS",
+      "ontology_class": "PEOPLED_KIND"
+    },
+    {
+      "id": "CHAR-PHILLIP-PITTS",
+      "type": "PRINCIPAL_DOMAIN_RELATION",
+      "owner": "Phillip Pitts",
+      "team": "Three Dreaded Snake",
+      "primary_location_id": "LOC-TDS-WATERFALL-TEMPLE",
+      "division_id": "DIV-BURGERS",
+      "ontology_class": "SHARED_COHABITATION"
+    },
+    {
+      "id": "CHAR-BRANDON-PRYOR",
+      "type": "PRINCIPAL_DOMAIN_RELATION",
+      "owner": "Brandon Pryor",
+      "team": "Chili Cheesers",
+      "primary_location_id": "LOC-CHILI-STABLE",
+      "division_id": "DIV-WINGS",
+      "ontology_class": "SHARED_COHABITATION"
+    },
+    {
+      "id": "CHAR-AUSTIN-BYARS",
+      "type": "PRINCIPAL_DOMAIN_RELATION",
+      "owner": "Austin Byars",
+      "team": "His Majesty's Blood",
+      "primary_location_id": "LOC-BELT-KEEPER-KEEP",
+      "division_id": "DIV-PIZZA",
+      "ontology_class": "SINGULAR_BEING"
+    },
+    {
+      "id": "CHAR-MANNING-WELTY",
+      "type": "PRINCIPAL_DOMAIN_RELATION",
+      "owner": "Manning Welty",
+      "team": "El Niño",
+      "primary_location_id": "LOC-STORM-BOWL",
+      "division_id": "DIV-PIZZA",
+      "ontology_class": "SINGULAR_BEING"
+    },
+    {
+      "id": "CHAR-BOBBY-MITCHELL",
+      "type": "PRINCIPAL_DOMAIN_RELATION",
+      "owner": "Bobby Mitchell",
+      "team": "Mud Dogs",
+      "primary_location_id": "LOC-MUD-DOGS-SWAMP",
+      "division_id": "DIV-BURGERS",
+      "ontology_class": "PEOPLED_KIND"
+    },
+    {
+      "id": "CHAR-BEN-WHIPPLE",
+      "type": "PRINCIPAL_DOMAIN_RELATION",
+      "owner": "Ben Whipple",
+      "team": "Seven Deadly Chins",
+      "primary_location_id": "LOC-CHINS-ROAD-COMMONS",
+      "division_id": "DIV-PIZZA",
+      "ontology_class": "PEOPLED_KIND"
+    },
+    {
+      "id": "CHAR-ZACH-WILSON",
+      "type": "PRINCIPAL_DOMAIN_RELATION",
+      "owner": "Zach Wilson",
+      "team": "Dr. Duckhook",
+      "primary_location_id": "LOC-COUNTRY-CLUB-JACKSON",
+      "division_id": "DIV-WINGS",
+      "ontology_class": "SINGULAR_BEING"
+    }
+  ]
+}
