@@ -66,7 +66,7 @@ def compile_outputs():
         local_handles=[]
         for name in l.get("persistent_landmarks",[]):
             h={"handle_id":f"SUB::{l['id']}::{slug(name)}","parent_location_id":l["id"],"name":name,"handle_class":"PERSISTENT_FEATURE_HANDLE","source":"persistent_landmarks","inherits":["physical_zone","division_relationship","current_world_state","route_context"],"canon_effect":"NONE_UNLESS_SEPARATELY_PROMOTED"}
-            local_handles.append(h); handles.append(h)
+            local_handles.append({k:v for k,v in h.items() if k!="source"}); handles.append(h)
         card={
           "schema_version":"1.1","compilation_version":"phase2-v1.1","location_id":l["id"],"name":l["name"],"canon_status":l["canon_status"],"location_type":l["location_type"],
           "physical_zone":{"id":l["physical_zone_id"],"name":z["name"],"terrain":z["environment"]["terrain"],"climate":z["environment"]["climate"],"movement":z["environment"]["movement"]},
