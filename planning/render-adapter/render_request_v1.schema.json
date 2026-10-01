@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemin://planning/render-adapter/render_request_v1",
+  "title": "Schemin Render Request V1 Candidate",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "request_id",
+    "profile",
+    "authority",
+    "evidence",
+    "inputs",
+    "render_directive",
+    "output_contract",
+    "safety"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "request_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "profile": {
+      "enum": [
+        "CHARACTER_GROUNDED_STATIC",
+        "DATA_STORY",
+        "MOTION"
+      ]
+    },
+    "authority": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "project_control_receipt",
+        "character_authority",
+        "world_authority",
+        "publication_authority"
+      ],
+      "properties": {
+        "project_control_receipt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "character_authority": {
+          "type": "string",
+          "minLength": 1
+        },
+        "world_authority": {
+          "type": "string",
+          "minLength": 1
+        },
+        "publication_authority": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "freshness",
+        "receipts"
+      ],
+      "properties": {
+        "status": {
+          "const": "VERIFIED"
+        },
+        "freshness": {
+          "enum": [
+            "FRESH",
+            "LOCKED_RELEASE"
+          ]
+        },
+        "receipts": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "inputs": {
+      "type": "object"
+    },
+    "render_directive": {
+      "type": "object"
+    },
+    "output_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "artifact_type",
+        "provenance_required",
+        "qa_gates"
+      ],
+      "properties": {
+        "artifact_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "provenance_required": {
+          "const": true
+        },
+        "qa_gates": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "safety": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "authority_mutation_allowed",
+        "dependency_installation_allowed",
+        "external_dependency"
+      ],
+      "properties": {
+        "authority_mutation_allowed": {
+          "const": false
+        },
+        "dependency_installation_allowed": {
+          "const": false
+        },
+        "external_dependency": {
+          "const": "NONE"
+        }
+      }
+    }
+  }
+}

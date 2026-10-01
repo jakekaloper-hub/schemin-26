@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "status": "RESEARCH_CANDIDATE_NOT_ACTIVE",
+  "profiles": {
+    "CHARACTER_GROUNDED_STATIC": {
+      "required_input_keys": [
+        "character_packets",
+        "publication_packet"
+      ],
+      "conditional_requirements": [
+        "world_packet when location_bearing=true"
+      ],
+      "character_packet_requirements": [
+        "authority_state=ACTIVE",
+        "render_ready=true",
+        "reference_assets non-empty"
+      ],
+      "external_research": [
+        {
+          "repository": "LingyiChen-AI/AIComicBuilder",
+          "lesson": "mounted turnaround/reference sheets and explicit reference-first generation",
+          "dependency_status": "NOT_INSTALLED"
+        }
+      ],
+      "authority_boundary": "Consumes active Schemin character authority; generated references cannot promote canon."
+    },
+    "DATA_STORY": {
+      "required_input_keys": [
+        "deterministic_data",
+        "data_definitions"
+      ],
+      "deterministic_data_requirements": [
+        "mutation_policy=READ_ONLY",
+        "source_receipts non-empty",
+        "missing_values_policy=DO_NOT_INFER"
+      ],
+      "external_research": [
+        {
+          "repository": "vizzuhq/vizzu-lib",
+          "lesson": "animated transitions between deterministic data views",
+          "dependency_status": "NOT_INSTALLED"
+        }
+      ],
+      "authority_boundary": "Renderer explains verified data; it cannot derive league truth."
+    },
+    "MOTION": {
+      "required_input_keys": [
+        "storyboard_packet_ref",
+        "source_artifacts",
+        "session"
+      ],
+      "session_requirements": [
+        "session_id non-empty",
+        "revision>=1",
+        "output_verification_required=true"
+      ],
+      "external_research": [
+        {
+          "repository": "remotion-dev/remotion",
+          "lesson": "deterministic code-driven composition and reusable motion systems",
+          "dependency_status": "NOT_INSTALLED"
+        },
+        {
+          "repository": "FireRedTeam/FireRed-OpenStoryline",
+          "lesson": "durable multi-turn edit sessions and verified output artifacts",
+          "dependency_status": "NOT_INSTALLED"
+        },
+        {
+          "repository": "debpalash/VoiceStudio",
+          "lesson": "possible local narration/dubbing lane after consent/license review",
+          "dependency_status": "NOT_INSTALLED"
+        }
+      ],
+      "authority_boundary": "Motion session may revise presentation only; it cannot mutate script truth, character canon, world state or publication acceptance."
+    }
+  }
+}
