@@ -21,3 +21,7 @@ jobs:
         run: python3 memo-os/tests/v5_5_acceptance_suite.py
       - name: V5.6 publication-integrity acceptance
         run: python3 memo-os/tests/v5_6_acceptance_suite.py
+      - name: V5.6 real integration wiring
+        run: python3 memo-os/tests/v5_6_real_integration_validator.py
+      - name: V5.6 publication fidelity contract
+        run: python3 memo-os/tests/v5_6_fidelity_contract_test.py
