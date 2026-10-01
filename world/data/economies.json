@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "economies": [
+    {
+      "id": "ECON-UPPER-VALLEYS",
+      "region_id": "REG-UPPER-VALLEYS",
+      "sectors": [
+        "pasture",
+        "orchards",
+        "road trade",
+        "crafts"
+      ],
+      "constraints": [
+        "mountain passes",
+        "seasonal weather"
+      ]
+    },
+    {
+      "id": "ECON-CENTRAL-BASIN",
+      "region_id": "REG-CENTRAL-BASIN",
+      "sectors": [
+        "grain",
+        "markets",
+        "river trade",
+        "administration"
+      ],
+      "constraints": [
+        "flood cycles"
+      ]
+    },
+    {
+      "id": "ECON-WESTERN",
+      "region_id": "REG-WESTERN-TABLELANDS",
+      "sectors": [
+        "livestock",
+        "caravan trade",
+        "stables"
+      ],
+      "constraints": [
+        "water scarcity",
+        "exposure"
+      ]
+    },
+    {
+      "id": "ECON-STORM-COAST",
+      "region_id": "REG-EASTERN-STORM-COAST",
+      "sectors": [
+        "forest goods",
+        "coastal trade",
+        "storm-road services"
+      ],
+      "constraints": [
+        "storms",
+        "road washout"
+      ]
+    },
+    {
+      "id": "ECON-SOUTHERN-WETLANDS",
+      "region_id": "REG-SOUTHERN-WETLANDS",
+      "sectors": [
+        "fisheries",
+        "wetland transport",
+        "estate agriculture"
+      ],
+      "constraints": [
+        "flooding",
+        "causeway dependence"
+      ]
+    },
+    {
+      "id": "ECON-INNER-SEA",
+      "region_id": "REG-INNER-SEA-LITTORAL",
+      "sectors": [
+        "shipping",
+        "ports",
+        "warehousing",
+        "commerce"
+      ],
+      "constraints": [
+        "storm surge",
+        "flood defense"
+      ]
+    }
+  ]
+}
