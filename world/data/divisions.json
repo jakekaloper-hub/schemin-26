@@ -62,7 +62,24 @@
         "do not use division membership as species segregation"
       ],
       "spatial_model": "LEAGUE_JURISDICTION_OVERLAY_NONEXCLUSIVE",
-      "cohabitation_allowed": true
+      "cohabitation_allowed": true,
+      "culture_v2": {
+        "food_semantic": "BURGERS_HAMBURGERS",
+        "channels": [
+          "hearth",
+          "griddle",
+          "road-house hospitality",
+          "iron/timber craft",
+          "communal meals",
+          "endurance/frontier hospitality"
+        ],
+        "prohibitions": [
+          "literal burger terrain",
+          "sovereign food kingdom",
+          "species segregation"
+        ]
+      },
+      "overlay_rule": "NONEXCLUSIVE_LEAGUE_CULTURAL_HOME_NETWORK"
     },
     {
       "id": "DIV-WINGS",
@@ -126,7 +143,26 @@
         "TDS/Chili coexistence cannot be erased by division borders"
       ],
       "spatial_model": "LEAGUE_JURISDICTION_OVERLAY_NONEXCLUSIVE",
-      "cohabitation_allowed": true
+      "cohabitation_allowed": true,
+      "culture_v2": {
+        "food_semantic": "CHICKEN_WINGS",
+        "channels": [
+          "smoke pits",
+          "sauces",
+          "spices",
+          "feast culture",
+          "stable/lodge gathering",
+          "frontier hospitality"
+        ],
+        "prohibitions": [
+          "angel wings",
+          "bird wings",
+          "dragon wings",
+          "wing-shaped geography",
+          "sovereign food kingdom"
+        ]
+      },
+      "overlay_rule": "NONEXCLUSIVE_LEAGUE_CULTURAL_HOME_NETWORK"
     },
     {
       "id": "DIV-PIZZA",
@@ -187,7 +223,23 @@
         "do not restore ObiWan or other non-Pizza owners to Pizza"
       ],
       "spatial_model": "LEAGUE_JURISDICTION_OVERLAY_NONEXCLUSIVE",
-      "cohabitation_allowed": true
+      "cohabitation_allowed": true,
+      "culture_v2": {
+        "food_semantic": "PIZZA",
+        "channels": [
+          "communal ovens",
+          "market exchange",
+          "shared tables",
+          "guild/commercial identity",
+          "port/basin hospitality"
+        ],
+        "prohibitions": [
+          "pizza-shaped terrain",
+          "slice-shaped borders",
+          "sovereign food kingdom"
+        ]
+      },
+      "overlay_rule": "NONEXCLUSIVE_LEAGUE_CULTURAL_HOME_NETWORK"
     }
   ]
 }
