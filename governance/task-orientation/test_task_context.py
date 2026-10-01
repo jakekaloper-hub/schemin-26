@@ -41,6 +41,7 @@ class TaskContextMatrixTests(unittest.TestCase):
         matrix = load_matrix("governance/task-orientation/TASK_CONTEXT_MATRIX_V1.json")
         result = validator.route_task("Create Week 4 Weekly Memo.", matrix)
         self.assertEqual(result["routes"][0], "weekly-memo")
+        self.assertEqual(result["context_sources"][0], "PROJECT_CONTROL_REGISTRY.md")
         self.assertLessEqual(len(result["context_sources"]), 4)
         self.assertNotIn("living-novel/os/NOVEL_BOOK_ARCHITECTURE_V2.md", result["context_sources"])
         self.assertNotIn("world/atlas/ATLAS_CONTROL_PLANE_V2.md", result["context_sources"])
@@ -62,6 +63,10 @@ class TaskContextMatrixTests(unittest.TestCase):
         novel = load_matrix("living-novel/os/TASK_CONTEXT_MATRIX_V1.json")
         second = validator.route_task("Plan next chapter.", novel)
         self.assertEqual(second["routes"][0], "chapter-planning-and-drafting")
+        self.assertEqual(
+            second["context_sources"][0],
+            "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+        )
         self.assertLessEqual(len(second["context_sources"]), 4)
         self.assertIn("living-novel/os/templates/MINIMUM_PRE_PROSE_GATE_V1.md", second["context_sources"])
         self.assertNotIn("living-novel/consultants/NOVEL_EXTERNAL_ADVISORY_COUNCIL_V1.md", second["context_sources"])
