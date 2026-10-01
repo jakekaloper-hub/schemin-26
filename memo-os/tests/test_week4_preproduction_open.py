@@ -110,6 +110,7 @@ class Week4PreproductionOpenTests(unittest.TestCase):
 
         self.assertIn("W4-G6 personalized story intelligence | **LIVE / PARTIAL PASS**", control)
         self.assertIn("PROVISIONAL DEVELOPMENT AUTHORIZED / FINAL STORY LOCK BLOCKED", control)
+        self.assertIn("W4-G8 issue architecture | **BLOCKED ON STORY LOCK**", control)
         self.assertIn("not a second Story Room or planning system", amendment)
         self.assertIn("Arsenal Gorilla Warrior", amendment)
         self.assertIn("Breece Hall — Doubtful", amendment)
