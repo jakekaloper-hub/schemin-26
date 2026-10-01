@@ -1,8 +1,15 @@
 # Week 4 World & Story Intelligence Register V1
 
-**Status:** OPEN / PROVISIONAL  
+**Status:** WORLD ENTRY RESOLVED / STORY INTELLIGENCE OPEN  
 **Authority:** Memo OS Story Room + World Control Plane  
 **Rule:** published scenery is evidence, not automatic canon.
+
+## Gate split
+
+- **W4-G5 continuity/world entry: PASS.** See `WEEK_4_WORLD_ENTRY_RECEIPT_V1.md`.
+- **W4-G6 personalized story intelligence: OPEN.** Current-week inputs still require provenance before Story Room.
+
+The World Entry Receipt uses the persisted `end_of_week_3_2026` World Engine state. No new Week 4 venue, cleanup, repair or mutation is created by this register.
 
 ## Week 3 consequence candidates entering Week 4
 
