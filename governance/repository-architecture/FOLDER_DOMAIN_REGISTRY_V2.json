@@ -1,0 +1,372 @@
+{
+  "version": "2.0.0",
+  "authority": "docs/architecture/REPOSITORY_ARCHITECTURE_V2.md",
+  "review_triggers": [
+    "new top-level directory proposed",
+    "major subsystem added",
+    "authority conflict detected",
+    "planning program graduates",
+    "season closeout",
+    "major repository architecture change"
+  ],
+  "artifact_classes": [
+    "CONTROL",
+    "CANON",
+    "RUNTIME",
+    "DATA",
+    "SCHEMA",
+    "PLAN",
+    "WORKING_PRODUCTION",
+    "RELEASE",
+    "EVIDENCE",
+    "RESEARCH",
+    "DECISION",
+    "DERIVED_INDEX",
+    "HISTORICAL",
+    "ARCHIVED"
+  ],
+  "domains": [
+    {
+      "path": ".github",
+      "kind": "support",
+      "owner": "Repository Operations",
+      "canonical_entrypoint": null,
+      "entrypoint_required": false,
+      "allowed": [
+        "RUNTIME",
+        "CONTROL"
+      ],
+      "prohibited": [
+        "CANON",
+        "WORKING_PRODUCTION"
+      ]
+    },
+    {
+      "path": "archive",
+      "kind": "lifecycle",
+      "owner": "The Librarian",
+      "canonical_entrypoint": "archive/_INDEX.md",
+      "entrypoint_required": true,
+      "allowed": [
+        "ARCHIVED",
+        "HISTORICAL",
+        "EVIDENCE"
+      ],
+      "prohibited": [
+        "RUNTIME",
+        "WORKING_PRODUCTION"
+      ]
+    },
+    {
+      "path": "bullpen",
+      "kind": "domain",
+      "owner": "Schemin Bullpen / Librarian",
+      "canonical_entrypoint": "bullpen/_INDEX.md",
+      "entrypoint_required": true,
+      "allowed": [
+        "DECISION",
+        "EVIDENCE",
+        "RESEARCH",
+        "HISTORICAL"
+      ],
+      "prohibited": [
+        "RUNTIME",
+        "DATA",
+        "CANON"
+      ]
+    },
+    {
+      "path": "bullpen-runtime",
+      "kind": "runtime",
+      "owner": "The Architect",
+      "canonical_entrypoint": "bullpen-runtime/README.md",
+      "entrypoint_required": true,
+      "allowed": [
+        "RUNTIME",
+        "SCHEMA",
+        "EVIDENCE"
+      ],
+      "prohibited": [
+        "CANON",
+        "HISTORICAL"
+      ]
+    },
+    {
+      "path": "canon",
+      "kind": "domain",
+      "owner": "Character Canon authority",
+      "canonical_entrypoint": "canon/_INDEX.md",
+      "entrypoint_required": true,
+      "allowed": [
+        "CANON",
+        "CONTROL",
+        "DATA",
+        "SCHEMA",
+        "RUNTIME",
+        "EVIDENCE"
+      ],
+      "prohibited": [
+        "WORKING_PRODUCTION"
+      ]
+    },
+    {
+      "path": "chronicles",
+      "kind": "lifecycle",
+      "owner": "The Librarian + Narrative History",
+      "canonical_entrypoint": "chronicles/README.md",
+      "entrypoint_required": true,
+      "allowed": [
+        "HISTORICAL",
+        "RELEASE",
+        "EVIDENCE",
+        "RESEARCH"
+      ],
+      "prohibited": [
+        "CANON",
+        "RUNTIME",
+        "CONTROL"
+      ]
+    },
+    {
+      "path": "data",
+      "kind": "support",
+      "owner": "Data authorities",
+      "canonical_entrypoint": "data/README.md",
+      "entrypoint_required": true,
+      "allowed": [
+        "DATA",
+        "EVIDENCE"
+      ],
+      "prohibited": [
+        "PLAN",
+        "DECISION"
+      ]
+    },
+    {
+      "path": "data-gateway",
+      "kind": "domain",
+      "owner": "Data Gateway",
+      "canonical_entrypoint": "data-gateway/_INDEX.md",
+      "entrypoint_required": true,
+      "allowed": [
+        "RUNTIME",
+        "DATA",
+        "SCHEMA",
+        "CONTROL",
+        "EVIDENCE"
+      ],
+      "prohibited": [
+        "CANON",
+        "WORKING_PRODUCTION"
+      ]
+    },
+    {
+      "path": "docs",
+      "kind": "support",
+      "owner": "The Librarian",
+      "canonical_entrypoint": "docs/README.md",
+      "entrypoint_required": true,
+      "allowed": [
+        "CONTROL",
+        "RESEARCH",
+        "DECISION",
+        "DERIVED_INDEX",
+        "EVIDENCE"
+      ],
+      "prohibited": [
+        "RUNTIME",
+        "DATA"
+      ]
+    },
+    {
+      "path": "governance",
+      "kind": "control",
+      "owner": "Cross-system governance",
+      "canonical_entrypoint": "governance/README.md",
+      "entrypoint_required": true,
+      "allowed": [
+        "CONTROL",
+        "RUNTIME",
+        "SCHEMA",
+        "EVIDENCE",
+        "DERIVED_INDEX"
+      ],
+      "prohibited": [
+        "WORKING_PRODUCTION",
+        "HISTORICAL"
+      ]
+    },
+    {
+      "path": "living-novel",
+      "kind": "domain",
+      "owner": "Novel OS",
+      "canonical_entrypoint": "living-novel/README.md",
+      "entrypoint_required": true,
+      "allowed": [
+        "CANON",
+        "RUNTIME",
+        "PLAN",
+        "WORKING_PRODUCTION",
+        "RELEASE",
+        "EVIDENCE",
+        "RESEARCH",
+        "DATA"
+      ],
+      "prohibited": [
+        "ARCHIVED"
+      ]
+    },
+    {
+      "path": "memo-os",
+      "kind": "domain",
+      "owner": "Weekly Memo OS",
+      "canonical_entrypoint": "memo-os/_INDEX.md",
+      "entrypoint_required": true,
+      "allowed": [
+        "CONTROL",
+        "RUNTIME",
+        "PLAN",
+        "WORKING_PRODUCTION",
+        "RELEASE",
+        "EVIDENCE",
+        "RESEARCH"
+      ],
+      "prohibited": [
+        "ARCHIVED"
+      ]
+    },
+    {
+      "path": "mercer",
+      "kind": "domain",
+      "owner": "Jack Mercer",
+      "canonical_entrypoint": "mercer/_INDEX.md",
+      "entrypoint_required": true,
+      "allowed": [
+        "CONTROL",
+        "RUNTIME",
+        "DATA",
+        "PLAN",
+        "DECISION",
+        "EVIDENCE"
+      ],
+      "prohibited": [
+        "RELEASE"
+      ]
+    },
+    {
+      "path": "planning",
+      "kind": "lifecycle",
+      "owner": "Groundskeeper + owning program",
+      "canonical_entrypoint": "planning/README.md",
+      "entrypoint_required": true,
+      "allowed": [
+        "PLAN",
+        "RESEARCH",
+        "EVIDENCE",
+        "DECISION"
+      ],
+      "prohibited": [
+        "RELEASE",
+        "CANON"
+      ]
+    },
+    {
+      "path": "productions",
+      "kind": "lifecycle",
+      "owner": "Owning cross-system production",
+      "canonical_entrypoint": "productions/README.md",
+      "entrypoint_required": true,
+      "allowed": [
+        "WORKING_PRODUCTION",
+        "EVIDENCE"
+      ],
+      "prohibited": [
+        "CANON",
+        "CONTROL",
+        "ARCHIVED"
+      ]
+    },
+    {
+      "path": "prompts",
+      "kind": "support",
+      "owner": "Owning subsystem",
+      "canonical_entrypoint": "prompts/README.md",
+      "entrypoint_required": true,
+      "allowed": [
+        "RUNTIME",
+        "CONTROL"
+      ],
+      "prohibited": [
+        "CANON",
+        "DATA"
+      ]
+    },
+    {
+      "path": "schemas",
+      "kind": "support",
+      "owner": "Owning subsystem / Data",
+      "canonical_entrypoint": "schemas/README.md",
+      "entrypoint_required": true,
+      "allowed": [
+        "SCHEMA"
+      ],
+      "prohibited": [
+        "PLAN",
+        "RELEASE"
+      ]
+    },
+    {
+      "path": "skills",
+      "kind": "runtime",
+      "owner": "Schemin execution adapters",
+      "canonical_entrypoint": "skills/README.md",
+      "entrypoint_required": true,
+      "allowed": [
+        "RUNTIME",
+        "CONTROL"
+      ],
+      "prohibited": [
+        "CANON",
+        "HISTORICAL"
+      ]
+    },
+    {
+      "path": "tests",
+      "kind": "support",
+      "owner": "QA / owning subsystem",
+      "canonical_entrypoint": "tests/README.md",
+      "entrypoint_required": true,
+      "allowed": [
+        "RUNTIME",
+        "EVIDENCE",
+        "DATA"
+      ],
+      "prohibited": [
+        "CANON",
+        "RELEASE"
+      ]
+    },
+    {
+      "path": "world",
+      "kind": "domain",
+      "owner": "World Engine / Atlas Control Plane",
+      "canonical_entrypoint": "world/README.md",
+      "entrypoint_required": true,
+      "allowed": [
+        "CANON",
+        "CONTROL",
+        "RUNTIME",
+        "DATA",
+        "SCHEMA",
+        "PLAN",
+        "WORKING_PRODUCTION",
+        "RELEASE",
+        "EVIDENCE",
+        "RESEARCH"
+      ],
+      "prohibited": [
+        "ARCHIVED"
+      ]
+    }
+  ]
+}
