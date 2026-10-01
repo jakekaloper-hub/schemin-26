@@ -19,16 +19,16 @@ Current dispositions:
 - **PARKED** — intentionally inactive; preserve only as a source for later current-main rebuild;
 - **SUPERSEDED** — no longer a current merge candidate; close after durable value is recovered or remains safely recoverable from Git.
 
-## Current open Schemin PRs
+## Current Schemin PR authority state
 
 | PR | Subject | Disposition | Current ruling |
 |---:|---|---|---|
 | #61 | Novel: North-Star whole-book rebuild V3 | **ACTIVE_NEXT** | Single current Novel rebuild candidate. Starts from current main and explicitly supersedes #21. Keep draft until release gates close. |
-| #47 | Atlas Phases 0–5 P1 hardening | **BLOCKED** | Unique hardening survives, but branch is far behind released Universe/Atlas main. Selectively rebuild/rebase against Universe OS V1.2; never merge stale branch wholesale. |
+| #47 | Atlas Phases 0–5 P1 hardening | **BLOCKED / CLOSED** | Closed unmerged. Any surviving hardening must be selectively rebuilt against released Universe OS V1.2; never revive the stale branch wholesale. |
 | #38 | Memo OS V5.6 RC | **BLOCKED** | V5.5 remains ACTIVE. V5.6 remains blocked on real Week 4 publication acceptance/final QA and requires current-main reconciliation before promotion. |
-| #34 | Member AI Gateway Phase 1 | **EXPERIMENT** | Unique future product/service work, explicitly NOT CERTIFIED. No current control-plane authority. Rebuild on current Truth/Command contracts if resumed. |
-| #6 | Commissioner Bot foundation | **PARKED** | Four unique architecture/privacy documents remain future-product research. Extremely stale; rebuild on current Member/Command/Truth contracts if revived. |
-| #4 | Digital Universe Week 2 R&D | **PARKED** | Unique app/cinema prototype remains an incubator/reference source. Predates current Memo/World/Render architecture; selective rebuild only if product initiative resumes. |
+| #34 | Member AI Gateway Phase 1 | **EXPERIMENT / CLOSED** | Closed unmerged. Future work must restart from current Truth/Command contracts. |
+| #6 | Commissioner Bot foundation | **PARKED / CLOSED** | Closed unmerged. Architecture/privacy history remains recoverable; any revival starts from current Member/Command/Truth contracts. |
+| #4 | Digital Universe Week 2 R&D | **PARKED / CLOSED** | Closed unmerged. Prototype history remains an incubator/reference source only. |
 
 ## Closed in the 2026-10-01 reconciliation
 
@@ -78,9 +78,9 @@ Therefore #61 is now the single active Novel candidate and #21 is closed.
 After this reconciliation:
 - current operating truth lives on `main`;
 - #61 is the only active Novel candidate;
-- no stale repository-integrity, character-lock, organizational-design or obsolete Universe branch remains open as competing authority;
-- incubator/product branches remain clearly non-canonical;
-- BLOCKED branches must be rebuilt against current main rather than forcing old branch history forward.
+- #38 is the only remaining blocked Schemin production PR;
+- stale repository-integrity, character-lock, organizational-design, obsolete Universe, Atlas hardening, Member Gateway, Commissioner Bot and Digital Universe branches are no longer open competing authorities;
+- any future revival starts from current `main`, not the closed branch tip.
 
 Cross-project reconciliation record:
 `jakekaloper-hub/bullpen/governance/CROSS_PROJECT_OPEN_PR_AUTHORITY_RECONCILIATION_2026-10-01.md`.
