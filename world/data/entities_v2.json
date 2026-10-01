@@ -1,0 +1,469 @@
+{
+  "schema_version": "2.0",
+  "status": "RELEASE_CANDIDATE",
+  "entities": [
+    {
+      "entity_id": "CHAR-JAKE-KALOPER",
+      "name": "Jake Kaloper",
+      "entity_type": "PRINCIPAL",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "LOCKED",
+        "source": "PROJECT_CONTROL_REGISTRY.md + World Engine V1.1 + Commissioner directives",
+        "last_verified": "2026-10-01",
+        "review_owner": "Bullpen / Librarian"
+      },
+      "source_provenance": [
+        "PROJECT_CONTROL_REGISTRY.md",
+        "world/SCHEMIN_WORLD_ENGINE_V1_1_RELEASE_RECEIPT.md",
+        "world/data/owner_domains.json"
+      ],
+      "related_entities": [
+        "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "DIV-BURGERS"
+      ],
+      "location_relationship": {
+        "home_anchor": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "physical_zone_ids": [
+          "REG-UPPER-VALLEYS"
+        ]
+      },
+      "temporal_state": null,
+      "current_status": "ACTIVE",
+      "spatial_entity": true,
+      "team": "ObiWan Jacoby",
+      "ontology_class": "PEOPLED_KIND",
+      "canon_guard": [
+        "NO_CHAMPIONSHIP_BELT"
+      ]
+    },
+    {
+      "entity_id": "CHAR-KEVIN-ZEEK",
+      "name": "Kevin Zeek",
+      "entity_type": "PRINCIPAL",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "LOCKED",
+        "source": "PROJECT_CONTROL_REGISTRY.md + World Engine V1.1 + Commissioner directives",
+        "last_verified": "2026-10-01",
+        "review_owner": "Bullpen / Librarian"
+      },
+      "source_provenance": [
+        "PROJECT_CONTROL_REGISTRY.md",
+        "world/SCHEMIN_WORLD_ENGINE_V1_1_RELEASE_RECEIPT.md",
+        "world/data/owner_domains.json"
+      ],
+      "related_entities": [
+        "LOC-RED-RUINS",
+        "DIV-WINGS"
+      ],
+      "location_relationship": {
+        "home_anchor": "LOC-RED-RUINS",
+        "physical_zone_ids": [
+          "REG-EASTERN-STORM-COAST"
+        ]
+      },
+      "temporal_state": null,
+      "current_status": "ACTIVE",
+      "spatial_entity": true,
+      "team": "Red Leopards",
+      "ontology_class": "PEOPLED_KIND",
+      "canon_guard": [
+        "RED_LEOPARD_PREDATOR"
+      ]
+    },
+    {
+      "entity_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "name": "Jordan Hollingshead",
+      "entity_type": "PRINCIPAL",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "LOCKED",
+        "source": "PROJECT_CONTROL_REGISTRY.md + World Engine V1.1 + Commissioner directives",
+        "last_verified": "2026-10-01",
+        "review_owner": "Bullpen / Librarian"
+      },
+      "source_provenance": [
+        "PROJECT_CONTROL_REGISTRY.md",
+        "world/SCHEMIN_WORLD_ENGINE_V1_1_RELEASE_RECEIPT.md",
+        "world/data/owner_domains.json"
+      ],
+      "related_entities": [
+        "LOC-SLOB-FOOTHILL-CAMP",
+        "DIV-WINGS"
+      ],
+      "location_relationship": {
+        "home_anchor": "LOC-SLOB-FOOTHILL-CAMP",
+        "physical_zone_ids": [
+          "REG-UPPER-VALLEYS"
+        ]
+      },
+      "temporal_state": null,
+      "current_status": "ACTIVE",
+      "spatial_entity": true,
+      "team": "Slob on my Dobb",
+      "ontology_class": "PEOPLED_KIND",
+      "canon_guard": [
+        "FRAT_BRO_BERSERKER",
+        "PIT_BULL"
+      ]
+    },
+    {
+      "entity_id": "CHAR-DAVID-BABB",
+      "name": "David Babb",
+      "entity_type": "SINGULAR_BEING",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "LOCKED",
+        "source": "PROJECT_CONTROL_REGISTRY.md + World Engine V1.1 + Commissioner directives",
+        "last_verified": "2026-10-01",
+        "review_owner": "Bullpen / Librarian"
+      },
+      "source_provenance": [
+        "PROJECT_CONTROL_REGISTRY.md",
+        "world/SCHEMIN_WORLD_ENGINE_V1_1_RELEASE_RECEIPT.md",
+        "world/data/owner_domains.json"
+      ],
+      "related_entities": [
+        "LOC-LLC-BOARDROOM",
+        "DIV-PIZZA"
+      ],
+      "location_relationship": {
+        "home_anchor": "LOC-LLC-BOARDROOM",
+        "physical_zone_ids": [
+          "REG-INNER-SEA-LITTORAL"
+        ]
+      },
+      "temporal_state": null,
+      "current_status": "ACTIVE",
+      "spatial_entity": true,
+      "team": "The LLC",
+      "ontology_class": "SINGULAR_BEING",
+      "canon_guard": [
+        "HOSTILE_TAKEOVER"
+      ]
+    },
+    {
+      "entity_id": "CHAR-WILSON-LOOK",
+      "name": "Wilson Look",
+      "entity_type": "PRINCIPAL",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "LOCKED",
+        "source": "PROJECT_CONTROL_REGISTRY.md + World Engine V1.1 + Commissioner directives",
+        "last_verified": "2026-10-01",
+        "review_owner": "Bullpen / Librarian"
+      },
+      "source_provenance": [
+        "PROJECT_CONTROL_REGISTRY.md",
+        "world/SCHEMIN_WORLD_ENGINE_V1_1_RELEASE_RECEIPT.md",
+        "world/data/owner_domains.json"
+      ],
+      "related_entities": [
+        "LOC-DK-HIGHLAND-STRONGHOLD",
+        "DIV-BURGERS"
+      ],
+      "location_relationship": {
+        "home_anchor": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "physical_zone_ids": [
+          "REG-UPPER-VALLEYS",
+          "REG-NORTHERN-SPINE"
+        ]
+      },
+      "temporal_state": null,
+      "current_status": "ACTIVE",
+      "spatial_entity": true,
+      "team": "D0nkey K0ng",
+      "ontology_class": "PEOPLED_KIND",
+      "canon_guard": [
+        "ARSENAL_GORILLA_WARRIOR",
+        "NO_CENTAUR_ANATOMY"
+      ]
+    },
+    {
+      "entity_id": "CHAR-PHILLIP-PITTS",
+      "name": "Phillip Pitts",
+      "entity_type": "PRINCIPAL",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "LOCKED",
+        "source": "PROJECT_CONTROL_REGISTRY.md + World Engine V1.1 + Commissioner directives",
+        "last_verified": "2026-10-01",
+        "review_owner": "Bullpen / Librarian"
+      },
+      "source_provenance": [
+        "PROJECT_CONTROL_REGISTRY.md",
+        "world/SCHEMIN_WORLD_ENGINE_V1_1_RELEASE_RECEIPT.md",
+        "world/data/owner_domains.json"
+      ],
+      "related_entities": [
+        "LOC-TDS-WATERFALL-TEMPLE",
+        "DIV-BURGERS"
+      ],
+      "location_relationship": {
+        "home_anchor": "LOC-TDS-WATERFALL-TEMPLE",
+        "physical_zone_ids": [
+          "REG-SOUTHERN-WETLANDS"
+        ]
+      },
+      "temporal_state": null,
+      "current_status": "ACTIVE",
+      "spatial_entity": true,
+      "team": "Three Dreaded Snake",
+      "ontology_class": "SHARED_COHABITATION",
+      "canon_guard": [
+        "ONE_BODY_THREE_SERPENT_HEADS"
+      ]
+    },
+    {
+      "entity_id": "CHAR-BRANDON-PRYOR",
+      "name": "Brandon Pryor",
+      "entity_type": "PRINCIPAL",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "LOCKED",
+        "source": "PROJECT_CONTROL_REGISTRY.md + World Engine V1.1 + Commissioner directives",
+        "last_verified": "2026-10-01",
+        "review_owner": "Bullpen / Librarian"
+      },
+      "source_provenance": [
+        "PROJECT_CONTROL_REGISTRY.md",
+        "world/SCHEMIN_WORLD_ENGINE_V1_1_RELEASE_RECEIPT.md",
+        "world/data/owner_domains.json"
+      ],
+      "related_entities": [
+        "LOC-CHILI-STABLE",
+        "DIV-WINGS"
+      ],
+      "location_relationship": {
+        "home_anchor": "LOC-CHILI-STABLE",
+        "physical_zone_ids": [
+          "REG-WESTERN-TABLELANDS"
+        ]
+      },
+      "temporal_state": null,
+      "current_status": "ACTIVE",
+      "spatial_entity": true,
+      "team": "Chili Cheesers",
+      "ontology_class": "SHARED_COHABITATION",
+      "canon_guard": [
+        "CHILI_OUTLAW",
+        "DARK_HORSE"
+      ]
+    },
+    {
+      "entity_id": "CHAR-AUSTIN-BYARS",
+      "name": "Austin Byars",
+      "entity_type": "SINGULAR_BEING",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "LOCKED",
+        "source": "PROJECT_CONTROL_REGISTRY.md + World Engine V1.1 + Commissioner directives",
+        "last_verified": "2026-10-01",
+        "review_owner": "Bullpen / Librarian"
+      },
+      "source_provenance": [
+        "PROJECT_CONTROL_REGISTRY.md",
+        "world/SCHEMIN_WORLD_ENGINE_V1_1_RELEASE_RECEIPT.md",
+        "world/data/owner_domains.json"
+      ],
+      "related_entities": [
+        "LOC-BELT-KEEPER-KEEP",
+        "DIV-PIZZA"
+      ],
+      "location_relationship": {
+        "home_anchor": "LOC-BELT-KEEPER-KEEP",
+        "physical_zone_ids": [
+          "REG-EASTERN-STORM-COAST",
+          "REG-NORTHERN-SPINE"
+        ]
+      },
+      "temporal_state": null,
+      "current_status": "ACTIVE",
+      "spatial_entity": true,
+      "team": "His Majesty's Blood",
+      "ontology_class": "SINGULAR_BEING",
+      "canon_guard": [
+        "BELT_KEEPER",
+        "CHAMPIONSHIP_BELT"
+      ]
+    },
+    {
+      "entity_id": "CHAR-MANNING-WELTY",
+      "name": "Manning Welty",
+      "entity_type": "SINGULAR_BEING",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "LOCKED",
+        "source": "PROJECT_CONTROL_REGISTRY.md + World Engine V1.1 + Commissioner directives",
+        "last_verified": "2026-10-01",
+        "review_owner": "Bullpen / Librarian"
+      },
+      "source_provenance": [
+        "PROJECT_CONTROL_REGISTRY.md",
+        "world/SCHEMIN_WORLD_ENGINE_V1_1_RELEASE_RECEIPT.md",
+        "world/data/owner_domains.json"
+      ],
+      "related_entities": [
+        "LOC-STORM-BOWL",
+        "DIV-PIZZA"
+      ],
+      "location_relationship": {
+        "home_anchor": "LOC-STORM-BOWL",
+        "physical_zone_ids": [
+          "REG-EASTERN-STORM-COAST",
+          "REG-INNER-SEA-LITTORAL"
+        ]
+      },
+      "temporal_state": null,
+      "current_status": "ACTIVE",
+      "spatial_entity": true,
+      "team": "El Niño",
+      "ontology_class": "SINGULAR_BEING",
+      "canon_guard": [
+        "WEATHER_SYSTEM"
+      ]
+    },
+    {
+      "entity_id": "CHAR-BOBBY-MITCHELL",
+      "name": "Bobby Mitchell",
+      "entity_type": "PRINCIPAL",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "LOCKED",
+        "source": "PROJECT_CONTROL_REGISTRY.md + World Engine V1.1 + Commissioner directives",
+        "last_verified": "2026-10-01",
+        "review_owner": "Bullpen / Librarian"
+      },
+      "source_provenance": [
+        "PROJECT_CONTROL_REGISTRY.md",
+        "world/SCHEMIN_WORLD_ENGINE_V1_1_RELEASE_RECEIPT.md",
+        "world/data/owner_domains.json"
+      ],
+      "related_entities": [
+        "LOC-MUD-DOGS-SWAMP",
+        "DIV-BURGERS"
+      ],
+      "location_relationship": {
+        "home_anchor": "LOC-MUD-DOGS-SWAMP",
+        "physical_zone_ids": [
+          "REG-SOUTHERN-WETLANDS"
+        ]
+      },
+      "temporal_state": null,
+      "current_status": "ACTIVE",
+      "spatial_entity": true,
+      "team": "Mud Dogs",
+      "ontology_class": "PEOPLED_KIND",
+      "canon_guard": [
+        "SWAMP_BORN_MENACE"
+      ]
+    },
+    {
+      "entity_id": "CHAR-BEN-WHIPPLE",
+      "name": "Ben Whipple",
+      "entity_type": "PRINCIPAL",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "LOCKED",
+        "source": "PROJECT_CONTROL_REGISTRY.md + World Engine V1.1 + Commissioner directives",
+        "last_verified": "2026-10-01",
+        "review_owner": "Bullpen / Librarian"
+      },
+      "source_provenance": [
+        "PROJECT_CONTROL_REGISTRY.md",
+        "world/SCHEMIN_WORLD_ENGINE_V1_1_RELEASE_RECEIPT.md",
+        "world/data/owner_domains.json"
+      ],
+      "related_entities": [
+        "LOC-CHINS-ROAD-COMMONS",
+        "DIV-PIZZA"
+      ],
+      "location_relationship": {
+        "home_anchor": "LOC-CHINS-ROAD-COMMONS",
+        "physical_zone_ids": [
+          "REG-CENTRAL-BASIN"
+        ]
+      },
+      "temporal_state": null,
+      "current_status": "ACTIVE",
+      "spatial_entity": true,
+      "team": "Seven Deadly Chins",
+      "ontology_class": "PEOPLED_KIND",
+      "canon_guard": [
+        "PEOPLES_CHAMP",
+        "RACCOON"
+      ]
+    },
+    {
+      "entity_id": "CHAR-ZACH-WILSON",
+      "name": "Zach Wilson",
+      "entity_type": "SINGULAR_BEING",
+      "canon_state": "ACTIVE",
+      "canon_confidence": {
+        "status": "LOCKED",
+        "source": "PROJECT_CONTROL_REGISTRY.md + World Engine V1.1 + Commissioner directives",
+        "last_verified": "2026-10-01",
+        "review_owner": "Bullpen / Librarian"
+      },
+      "source_provenance": [
+        "PROJECT_CONTROL_REGISTRY.md",
+        "world/SCHEMIN_WORLD_ENGINE_V1_1_RELEASE_RECEIPT.md",
+        "world/data/owner_domains.json"
+      ],
+      "related_entities": [
+        "LOC-COUNTRY-CLUB-JACKSON",
+        "DIV-WINGS"
+      ],
+      "location_relationship": {
+        "home_anchor": "LOC-COUNTRY-CLUB-JACKSON",
+        "physical_zone_ids": [
+          "REG-SOUTHERN-WETLANDS"
+        ]
+      },
+      "temporal_state": null,
+      "current_status": "ACTIVE",
+      "spatial_entity": true,
+      "team": "Dr. Duckhook",
+      "ontology_class": "SINGULAR_BEING",
+      "canon_guard": [
+        "KING_OF_IMPOSSIBLE_LIE",
+        "DUCK_GOLFER"
+      ]
+    },
+    {
+      "entity_id": "ORDER-JEDI",
+      "name": "Jedi Order / Community",
+      "entity_type": "ORDER",
+      "canon_state": "ACTIVE_INTERPRETIVE",
+      "canon_confidence": {
+        "status": "LOCKED",
+        "source": "Commissioner correction 2026-09-30",
+        "last_verified": "2026-10-01",
+        "review_owner": "Commissioner / Bullpen"
+      },
+      "source_provenance": [
+        "Commissioner correction 2026-09-30",
+        "world/domains/OWNER_DOMAIN_REGISTER_V1.md"
+      ],
+      "related_entities": [
+        "CHAR-JAKE-KALOPER",
+        "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+      ],
+      "location_relationship": {
+        "primary_node": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "coexists_with": [
+          "non-Jedi humans"
+        ]
+      },
+      "temporal_state": null,
+      "current_status": "ACTIVE",
+      "spatial_entity": true,
+      "rules": [
+        "ObiWan coexists with other Jedi",
+        "Other Jedi may vary in age, clothing and role",
+        "Do not clone ObiWan's exact face, wardrobe, green energy sword or golden-retriever relationship"
+      ]
+    }
+  ]
+}
