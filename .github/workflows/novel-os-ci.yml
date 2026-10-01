@@ -29,3 +29,5 @@ jobs:
         run: python -m unittest -v test_novel_os.py
       - name: Validate Novel external advisor registry
         run: python living-novel/consultants/test_advisor_registry.py
+      - name: Validate Author Council deterministic routing
+        run: python living-novel/consultants/author-council/test_author_router.py
