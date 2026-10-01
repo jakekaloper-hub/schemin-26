@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/domain-profile.schema.json",
+  "title": "Domain Profile V2",
+  "type": "object",
+  "required": [
+    "domain_id",
+    "owner_character_id",
+    "home_anchor",
+    "physical_region",
+    "division_affiliation",
+    "domain_type",
+    "settlement_pattern",
+    "population",
+    "roads",
+    "forbidden_drift"
+  ],
+  "properties": {
+    "domain_id": {
+      "type": "string"
+    },
+    "owner_character_id": {
+      "type": "string"
+    },
+    "home_anchor": {
+      "type": "string"
+    },
+    "physical_region": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "division_affiliation": {
+      "type": "string"
+    },
+    "domain_type": {
+      "type": "string"
+    },
+    "settlement_pattern": {
+      "type": "string"
+    },
+    "population": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "communities": {
+      "type": "array"
+    },
+    "institutions": {
+      "type": "array"
+    },
+    "economy": {
+      "type": "array"
+    },
+    "resources": {
+      "type": "array"
+    },
+    "architecture": {
+      "type": "array"
+    },
+    "materials": {
+      "type": "array"
+    },
+    "roads": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "water": {
+      "type": "object"
+    },
+    "neighbors": {
+      "type": "array"
+    },
+    "historical_events": {
+      "type": "array"
+    },
+    "current_state": {
+      "type": "array"
+    },
+    "division_influence": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "neutral_access": {
+      "type": "string"
+    },
+    "forbidden_drift": {
+      "type": "array"
+    },
+    "canon_confidence": {
+      "type": "object"
+    }
+  }
+}
