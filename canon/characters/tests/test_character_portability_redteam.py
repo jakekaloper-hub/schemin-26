@@ -140,7 +140,7 @@ class CharacterPortabilityRedTeam(unittest.TestCase):
         capability=negotiate("redteam",CAP,1)
         eligibility=issue_eligibility(
             "r-hash",[ALL_IDS[0]],mounts,"redteam",capability,
-            authority_receipt=authority_receipt(ids),
+            authority_receipt=authority_receipt([ALL_IDS[0]]),
             signing_key="test-key",now=1,
         )
         self.assertEqual(eligibility["state"],"GENERATION_BLOCKED")
