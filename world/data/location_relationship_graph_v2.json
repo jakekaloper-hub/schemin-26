@@ -1,0 +1,687 @@
+{
+  "schema_version": "2.0",
+  "status": "RELEASE_CANDIDATE",
+  "node_types": [
+    "LOCATION",
+    "PHYSICAL_REGION"
+  ],
+  "relationship_types": [
+    "CONTAINS",
+    "WITHIN",
+    "ADJACENT_TO",
+    "ROAD_TO",
+    "PASS_TO",
+    "CAUSEWAY_TO",
+    "RIVER_TO",
+    "SEA_ROUTE_TO",
+    "UPSTREAM_OF",
+    "DOWNSTREAM_OF",
+    "VISIBLE_FROM",
+    "TRADES_WITH",
+    "SHARES_POPULATION_WITH",
+    "RIVALS",
+    "SERVES",
+    "SUPPLIED_BY",
+    "FLOODS_FROM",
+    "HISTORICALLY_LINKED_TO",
+    "NEUTRAL_ACCESS_TO"
+  ],
+  "nodes": [
+    {
+      "id": "REG-NORTHERN-SPINE",
+      "type": "PHYSICAL_REGION",
+      "name": "Northern Spine"
+    },
+    {
+      "id": "REG-UPPER-VALLEYS",
+      "type": "PHYSICAL_REGION",
+      "name": "Upper Valleys and Foothills"
+    },
+    {
+      "id": "REG-CENTRAL-BASIN",
+      "type": "PHYSICAL_REGION",
+      "name": "Central River Basin"
+    },
+    {
+      "id": "REG-WESTERN-TABLELANDS",
+      "type": "PHYSICAL_REGION",
+      "name": "Western Tablelands"
+    },
+    {
+      "id": "REG-EASTERN-STORM-COAST",
+      "type": "PHYSICAL_REGION",
+      "name": "Eastern Forest and Storm Coast"
+    },
+    {
+      "id": "REG-SOUTHERN-WETLANDS",
+      "type": "PHYSICAL_REGION",
+      "name": "Southern Wetlands and Delta"
+    },
+    {
+      "id": "REG-INNER-SEA-LITTORAL",
+      "type": "PHYSICAL_REGION",
+      "name": "Inner Sea Littoral"
+    },
+    {
+      "id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "type": "LOCATION",
+      "name": "Trade Jedi Mountain Base",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "division_id": "DIV-BURGERS"
+    },
+    {
+      "id": "LOC-MUD-DOGS-SWAMP",
+      "type": "LOCATION",
+      "name": "Mud Dogs Swamp",
+      "physical_zone_id": "REG-SOUTHERN-WETLANDS",
+      "division_id": "DIV-BURGERS"
+    },
+    {
+      "id": "LOC-COUNTRY-CLUB-JACKSON",
+      "type": "LOCATION",
+      "name": "Country Club of Jackson",
+      "physical_zone_id": "REG-SOUTHERN-WETLANDS",
+      "division_id": "DIV-WINGS"
+    },
+    {
+      "id": "LOC-ARSENAL-BARBERSHOP",
+      "type": "LOCATION",
+      "name": "Arsenal Barbershop",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "division_id": "DIV-BURGERS"
+    },
+    {
+      "id": "LOC-STORM-BOWL",
+      "type": "LOCATION",
+      "name": "Storm Bowl",
+      "physical_zone_id": "REG-EASTERN-STORM-COAST",
+      "division_id": "DIV-PIZZA"
+    },
+    {
+      "id": "LOC-LLC-BOARDROOM",
+      "type": "LOCATION",
+      "name": "LLC Mercantile Boardroom",
+      "physical_zone_id": "REG-INNER-SEA-LITTORAL",
+      "division_id": "DIV-PIZZA"
+    },
+    {
+      "id": "LOC-RED-RUINS",
+      "type": "LOCATION",
+      "name": "Red Leopard Ruins",
+      "physical_zone_id": "REG-EASTERN-STORM-COAST",
+      "division_id": "DIV-WINGS"
+    },
+    {
+      "id": "LOC-TDS-WATERFALL-TEMPLE",
+      "type": "LOCATION",
+      "name": "Podium Shadow Waterfall Temple",
+      "physical_zone_id": "REG-SOUTHERN-WETLANDS",
+      "division_id": "DIV-BURGERS"
+    },
+    {
+      "id": "LOC-CHILI-STABLE",
+      "type": "LOCATION",
+      "name": "Chili Outlaw Stable",
+      "physical_zone_id": "REG-WESTERN-TABLELANDS",
+      "division_id": "DIV-WINGS"
+    },
+    {
+      "id": "LOC-BELT-KEEPER-KEEP",
+      "type": "LOCATION",
+      "name": "Belt Keeper Rune Keep",
+      "physical_zone_id": "REG-EASTERN-STORM-COAST",
+      "division_id": "DIV-PIZZA"
+    },
+    {
+      "id": "LOC-SLOB-FOOTHILL-CAMP",
+      "type": "LOCATION",
+      "name": "Slob Foothill Camp",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "division_id": "DIV-WINGS"
+    },
+    {
+      "id": "LOC-CHINS-ROAD-COMMONS",
+      "type": "LOCATION",
+      "name": "People's Champ Road Commons",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": "DIV-PIZZA"
+    },
+    {
+      "id": "LOC-LEAGUE-CHAMBER",
+      "type": "LOCATION",
+      "name": "League Chamber",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": null
+    },
+    {
+      "id": "LOC-PITTSYS-BOOK",
+      "type": "LOCATION",
+      "name": "Pittsy's Book",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": null
+    },
+    {
+      "id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "type": "LOCATION",
+      "name": "Bridge at the Mountain Lake",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "division_id": "DIV-BURGERS"
+    },
+    {
+      "id": "LOC-DK-MUD-HILL",
+      "type": "LOCATION",
+      "name": "Mire Hill Battlefield",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": "DIV-BURGERS"
+    },
+    {
+      "id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "type": "LOCATION",
+      "name": "Alpine Wager Route",
+      "physical_zone_id": "REG-NORTHERN-SPINE",
+      "division_id": "DIV-WINGS"
+    },
+    {
+      "id": "LOC-SOUTHERN-SPEEDWAY",
+      "type": "LOCATION",
+      "name": "Southern Speedway",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": "DIV-PIZZA"
+    },
+    {
+      "id": "LOC-LLC-STORM-CITY",
+      "type": "LOCATION",
+      "name": "LLC Port City Storm District",
+      "physical_zone_id": "REG-INNER-SEA-LITTORAL",
+      "division_id": "DIV-PIZZA"
+    },
+    {
+      "id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "type": "LOCATION",
+      "name": "D0nkey K0ng Highland Stronghold",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "division_id": "DIV-BURGERS"
+    },
+    {
+      "id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "type": "LOCATION",
+      "name": "TDS–Chili Shared March",
+      "physical_zone_id": "REG-WESTERN-TABLELANDS",
+      "division_id": null
+    },
+    {
+      "id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "type": "LOCATION",
+      "name": "Compact Neutral Grounds",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": null
+    },
+    {
+      "id": "LOC-LEAGUE-ARCHIVE",
+      "type": "LOCATION",
+      "name": "League Archive",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "division_id": null
+    }
+  ],
+  "edges": [
+    {
+      "from": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "relationship": "ROAD_TO",
+      "route_id": "ROUTE-EASTERN-ASCENT",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "LOC-ARSENAL-BARBERSHOP",
+      "to": "LOC-SLOB-FOOTHILL-CAMP",
+      "relationship": "ROAD_TO",
+      "route_id": "ROUTE-HEARTHROAD",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "LOC-SLOB-FOOTHILL-CAMP",
+      "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "relationship": "ROAD_TO",
+      "route_id": "ROUTE-HEARTHROAD",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "LOC-MUD-DOGS-SWAMP",
+      "to": "LOC-DK-MUD-HILL",
+      "relationship": "CAUSEWAY_TO",
+      "route_id": "ROUTE-DELTA-CAUSEWAY",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "LOC-DK-MUD-HILL",
+      "to": "LOC-COUNTRY-CLUB-JACKSON",
+      "relationship": "CAUSEWAY_TO",
+      "route_id": "ROUTE-DELTA-CAUSEWAY",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "LOC-COUNTRY-CLUB-JACKSON",
+      "to": "LOC-CHINS-ROAD-COMMONS",
+      "relationship": "CAUSEWAY_TO",
+      "route_id": "ROUTE-JACKSON-LEVEE",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "LOC-STORM-BOWL",
+      "to": "LOC-LLC-STORM-CITY",
+      "relationship": "SEA_ROUTE_TO",
+      "route_id": "ROUTE-STORM-COAST",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "LOC-LLC-BOARDROOM",
+      "to": "LOC-LLC-STORM-CITY",
+      "relationship": "SEA_ROUTE_TO",
+      "route_id": "ROUTE-INNER-SEA-QUAY",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "LOC-RED-RUINS",
+      "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "relationship": "ROAD_TO",
+      "route_id": "ROUTE-RAIN-ESCARPMENT",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "LOC-TDS-WATERFALL-TEMPLE",
+      "to": "LOC-MUD-DOGS-SWAMP",
+      "relationship": "CAUSEWAY_TO",
+      "route_id": "ROUTE-FALLS-PATH",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "LOC-CHILI-STABLE",
+      "to": "LOC-CHINS-ROAD-COMMONS",
+      "relationship": "ROAD_TO",
+      "route_id": "ROUTE-WESTERN-RANGE",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "LOC-BELT-KEEPER-KEEP",
+      "to": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "relationship": "ROAD_TO",
+      "route_id": "ROUTE-BLACK-CLIFF",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "LOC-CHINS-ROAD-COMMONS",
+      "to": "LOC-PITTSYS-BOOK",
+      "relationship": "ROAD_TO",
+      "route_id": "ROUTE-BASIN-MARKET",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "LOC-PITTSYS-BOOK",
+      "to": "LOC-SOUTHERN-SPEEDWAY",
+      "relationship": "ROAD_TO",
+      "route_id": "ROUTE-BASIN-MARKET",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "LOC-SOUTHERN-SPEEDWAY",
+      "to": "LOC-DK-MUD-HILL",
+      "relationship": "ROAD_TO",
+      "route_id": "ROUTE-BASIN-MARKET",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "LOC-DK-MUD-HILL",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "relationship": "ROAD_TO",
+      "route_id": "ROUTE-BASIN-MARKET",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "to": "LOC-ARSENAL-BARBERSHOP",
+      "relationship": "PASS_TO",
+      "route_id": "ROUTE-NORTHERN-PASS",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "to": "LOC-ARSENAL-BARBERSHOP",
+      "relationship": "ROAD_TO",
+      "route_id": "ROUTE-DK-HIGHLAND-LINK",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "LOC-TDS-WATERFALL-TEMPLE",
+      "to": "LOC-TDS-CHILI-SHARED-MARCH",
+      "relationship": "CAUSEWAY_TO",
+      "route_id": "ROUTE-TDS-CHILI-SHARED-MARCH",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "LOC-TDS-CHILI-SHARED-MARCH",
+      "to": "LOC-CHILI-STABLE",
+      "relationship": "CAUSEWAY_TO",
+      "route_id": "ROUTE-TDS-CHILI-SHARED-MARCH",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "LOC-LEAGUE-CHAMBER",
+      "to": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "relationship": "ROAD_TO",
+      "route_id": "ROUTE-COMPACT-GROUNDS",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "relationship": "ROAD_TO",
+      "route_id": "ROUTE-UPPER-BASIN-CONNECTOR",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "LOC-LLC-STORM-CITY",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "relationship": "SEA_ROUTE_TO",
+      "route_id": "ROUTE-PORT-BASIN-CONNECTOR",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "LOC-LEAGUE-ARCHIVE",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "relationship": "ROAD_TO",
+      "route_id": "ROUTE-ARCHIVE-CHAMBER",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "REG-NORTHERN-SPINE",
+      "to": "REG-UPPER-VALLEYS",
+      "relationship": "ADJACENT_TO",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "REG-NORTHERN-SPINE",
+      "to": "REG-WESTERN-TABLELANDS",
+      "relationship": "ADJACENT_TO",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "REG-UPPER-VALLEYS",
+      "to": "REG-WESTERN-TABLELANDS",
+      "relationship": "ADJACENT_TO",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "REG-CENTRAL-BASIN",
+      "to": "REG-UPPER-VALLEYS",
+      "relationship": "ADJACENT_TO",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "REG-CENTRAL-BASIN",
+      "to": "REG-WESTERN-TABLELANDS",
+      "relationship": "ADJACENT_TO",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "REG-CENTRAL-BASIN",
+      "to": "REG-SOUTHERN-WETLANDS",
+      "relationship": "ADJACENT_TO",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "REG-CENTRAL-BASIN",
+      "to": "REG-EASTERN-STORM-COAST",
+      "relationship": "ADJACENT_TO",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "REG-CENTRAL-BASIN",
+      "to": "REG-INNER-SEA-LITTORAL",
+      "relationship": "ADJACENT_TO",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "REG-EASTERN-STORM-COAST",
+      "to": "REG-NORTHERN-SPINE",
+      "relationship": "ADJACENT_TO",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "REG-EASTERN-STORM-COAST",
+      "to": "REG-UPPER-VALLEYS",
+      "relationship": "ADJACENT_TO",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "REG-EASTERN-STORM-COAST",
+      "to": "REG-INNER-SEA-LITTORAL",
+      "relationship": "ADJACENT_TO",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "REG-SOUTHERN-WETLANDS",
+      "to": "REG-WESTERN-TABLELANDS",
+      "relationship": "ADJACENT_TO",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "REG-INNER-SEA-LITTORAL",
+      "to": "REG-SOUTHERN-WETLANDS",
+      "relationship": "ADJACENT_TO",
+      "bidirectional": true,
+      "canon_confidence": "APPROVED"
+    },
+    {
+      "from": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "to": "REG-UPPER-VALLEYS",
+      "relationship": "WITHIN",
+      "bidirectional": false,
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "from": "LOC-MUD-DOGS-SWAMP",
+      "to": "REG-SOUTHERN-WETLANDS",
+      "relationship": "WITHIN",
+      "bidirectional": false,
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "from": "LOC-COUNTRY-CLUB-JACKSON",
+      "to": "REG-SOUTHERN-WETLANDS",
+      "relationship": "WITHIN",
+      "bidirectional": false,
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "from": "LOC-ARSENAL-BARBERSHOP",
+      "to": "REG-UPPER-VALLEYS",
+      "relationship": "WITHIN",
+      "bidirectional": false,
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "from": "LOC-STORM-BOWL",
+      "to": "REG-EASTERN-STORM-COAST",
+      "relationship": "WITHIN",
+      "bidirectional": false,
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "from": "LOC-LLC-BOARDROOM",
+      "to": "REG-INNER-SEA-LITTORAL",
+      "relationship": "WITHIN",
+      "bidirectional": false,
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "from": "LOC-RED-RUINS",
+      "to": "REG-EASTERN-STORM-COAST",
+      "relationship": "WITHIN",
+      "bidirectional": false,
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "from": "LOC-TDS-WATERFALL-TEMPLE",
+      "to": "REG-SOUTHERN-WETLANDS",
+      "relationship": "WITHIN",
+      "bidirectional": false,
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "from": "LOC-CHILI-STABLE",
+      "to": "REG-WESTERN-TABLELANDS",
+      "relationship": "WITHIN",
+      "bidirectional": false,
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "from": "LOC-BELT-KEEPER-KEEP",
+      "to": "REG-EASTERN-STORM-COAST",
+      "relationship": "WITHIN",
+      "bidirectional": false,
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "from": "LOC-SLOB-FOOTHILL-CAMP",
+      "to": "REG-UPPER-VALLEYS",
+      "relationship": "WITHIN",
+      "bidirectional": false,
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "from": "LOC-CHINS-ROAD-COMMONS",
+      "to": "REG-CENTRAL-BASIN",
+      "relationship": "WITHIN",
+      "bidirectional": false,
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "from": "LOC-LEAGUE-CHAMBER",
+      "to": "REG-CENTRAL-BASIN",
+      "relationship": "WITHIN",
+      "bidirectional": false,
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "from": "LOC-PITTSYS-BOOK",
+      "to": "REG-CENTRAL-BASIN",
+      "relationship": "WITHIN",
+      "bidirectional": false,
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "from": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "to": "REG-UPPER-VALLEYS",
+      "relationship": "WITHIN",
+      "bidirectional": false,
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "from": "LOC-DK-MUD-HILL",
+      "to": "REG-CENTRAL-BASIN",
+      "relationship": "WITHIN",
+      "bidirectional": false,
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "from": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "to": "REG-NORTHERN-SPINE",
+      "relationship": "WITHIN",
+      "bidirectional": false,
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "from": "LOC-SOUTHERN-SPEEDWAY",
+      "to": "REG-CENTRAL-BASIN",
+      "relationship": "WITHIN",
+      "bidirectional": false,
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "from": "LOC-LLC-STORM-CITY",
+      "to": "REG-INNER-SEA-LITTORAL",
+      "relationship": "WITHIN",
+      "bidirectional": false,
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "from": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "to": "REG-UPPER-VALLEYS",
+      "relationship": "WITHIN",
+      "bidirectional": false,
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "from": "LOC-TDS-CHILI-SHARED-MARCH",
+      "to": "REG-WESTERN-TABLELANDS",
+      "relationship": "WITHIN",
+      "bidirectional": false,
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "from": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "to": "REG-CENTRAL-BASIN",
+      "relationship": "WITHIN",
+      "bidirectional": false,
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "from": "LOC-LEAGUE-ARCHIVE",
+      "to": "REG-CENTRAL-BASIN",
+      "relationship": "WITHIN",
+      "bidirectional": false,
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "from": "LOC-TDS-WATERFALL-TEMPLE",
+      "to": "LOC-TDS-CHILI-SHARED-MARCH",
+      "relationship": "SHARES_POPULATION_WITH",
+      "bidirectional": true,
+      "canon_confidence": "LOCKED"
+    },
+    {
+      "from": "LOC-CHILI-STABLE",
+      "to": "LOC-TDS-CHILI-SHARED-MARCH",
+      "relationship": "SHARES_POPULATION_WITH",
+      "bidirectional": true,
+      "canon_confidence": "LOCKED"
+    }
+  ]
+}
