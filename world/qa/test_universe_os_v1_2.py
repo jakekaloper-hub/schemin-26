@@ -81,10 +81,11 @@ def main():
 
     # Query resolver smoke.
     from world.engine.universe_resolver import UniverseResolver
+    from world.production.build_visual_world_packet import build_packet
     r=UniverseResolver()
     check(r.where_is("CHAR-JAKE-KALOPER").get("ok"),"ObiWan WHERE_IS failed")
     check(r.who_lives("LOC-TRADE-JEDI-MOUNTAIN-BASE").get("ok"),"ObiWan WHO_LIVES failed")
-    check(r.what_division_culture("LOC-TDS-CHILI-SHARED-MARCH").get("ok"),"shared march culture query failed")
+    check(r.what_division_culture("LOC-TDS-CHILI-SHARED-MARCH").get("ok"),"shared march culture query failed")\n\n    for loc_id in ["LOC-TRADE-JEDI-MOUNTAIN-BASE","LOC-MUD-DOGS-SWAMP","LOC-COUNTRY-CLUB-JACKSON","LOC-LLC-STORM-CITY","LOC-TDS-CHILI-SHARED-MARCH","LOC-COMPACT-NEUTRAL-GROUNDS"]:\n        packet=build_packet(loc_id)\n        check(packet["world"]["location_id"]==loc_id,f"visual packet mismatch: {loc_id}")\n        check(packet["atlas"]["arrival_routes"],f"visual packet lacks arrival route: {loc_id}")
 
     print("UNIVERSE OS V1.2 ACCEPTANCE: PASS")
     return 0
