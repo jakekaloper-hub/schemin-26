@@ -1,6 +1,6 @@
 # Novel POV Constitution V1
 
-**Status:** RELEASE CANDIDATE — Author Council Engagement 001  
+**Status:** RELEASED / ACTIVE — Author Council Engagement 001  
 **Applies prospectively:** Chapter III onward
 
 ## Governing law
