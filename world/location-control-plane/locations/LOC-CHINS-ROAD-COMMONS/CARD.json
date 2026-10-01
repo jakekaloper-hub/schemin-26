@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.0",
-  "compilation_version": "phase2-v1",
+  "schema_version": "1.1",
+  "compilation_version": "phase2-v1.1",
   "location_id": "LOC-CHINS-ROAD-COMMONS",
   "name": "People's Champ Road Commons",
   "canon_status": "PROVISIONAL_CANON",
@@ -224,9 +224,19 @@
     "approved_reference_uris": [],
     "candidate_reference_paths": [],
     "blockers": [
-      "No durable approved renderer-addressable environment bytes are registered for this location."
+      "No human-approved cinematic environment plate is registered for this location.",
+      "External renderer injection of structural bytes is not yet proven."
     ],
-    "rule": "Visual-reference-required workflows must return HUMAN_REVIEW_REQUIRED until approved bytes are registered."
+    "rule": "Structural grounding is approved at repository-byte level. Renderer-required workflows remain HUMAN_REVIEW_REQUIRED until injection is proven.",
+    "structural_reference_status": "APPROVED_STRUCTURAL_REFERENCE",
+    "approved_structural_reference_uris": [
+      "world/environment-references/plates/LOC-CHINS-ROAD-COMMONS/STRUCTURAL_PLATE.svg"
+    ],
+    "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+    "approved_cinematic_reference_uris": [],
+    "repo_byte_status": "VERIFIED_REPO_PATH",
+    "renderer_injection_status": "UNPROVEN",
+    "renderer_ready": false
   },
   "open_questions": [
     "final name"
@@ -249,7 +259,8 @@
     "world/data/current_world_state.json",
     "world/data/world_state_events.json",
     "world/data/landmark_visibility.json",
-    "world/data/weather_regions.json"
+    "world/data/weather_regions.json",
+    "world/location-control-plane/registries/LOCATION_REFERENCE_REGISTRY.json"
   ],
-  "authority_note": "Derived card. Upstream World Engine and state records remain authoritative."
+  "authority_note": "Derived card. Regenerate from upstream sources; do not hand-edit."
 }
