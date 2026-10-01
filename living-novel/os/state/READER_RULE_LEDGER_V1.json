@@ -42,5 +42,12 @@
       "reader_may_assume": true,
       "ambiguity": "Archive authority over world truth is limited to its records."
     }
-  ]
+  ],
+  "new_rule_gate": {
+    "require_existing_rule_gap": true,
+    "require_limitation_or_cost": true,
+    "require_reader_need_now": true,
+    "require_provenance_authority": true,
+    "instruction": "If an existing rule can carry the conflict, deepen it instead of adding a new rule."
+  }
 }
