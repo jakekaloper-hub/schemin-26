@@ -213,7 +213,7 @@ class Boundary(unittest.TestCase):
         capability = negotiate("test", CAP, 2)
         eligible = issue_eligibility(
             "r2", [CID2, CID], [m1, m2], "test", capability,
-            authority_receipt=authority_receipt(CID),
+            authority_receipt=authority_receipt(CID2, CID),
             signing_key="test-key", now=1,
         )
         self.assertEqual(eligible["state"], "GENERATION_ELIGIBLE")
