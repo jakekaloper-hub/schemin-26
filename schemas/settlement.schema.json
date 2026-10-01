@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "anchor_location_id",
+    "placement_reasons",
+    "population",
+    "economy"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "anchor_location_id": {
+      "type": "string"
+    },
+    "placement_reasons": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "population": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "economy": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "institutions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "canon_confidence": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}
