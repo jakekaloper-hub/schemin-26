@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "institutions": [
+    {
+      "id": "INST-LEAGUE-CHAMBER",
+      "location_id": "LOC-LEAGUE-CHAMBER",
+      "type": "LEAGUE_GOVERNANCE",
+      "users": [
+        "Commissioner",
+        "arbiters",
+        "owners",
+        "couriers"
+      ],
+      "service_area": "league-wide"
+    },
+    {
+      "id": "INST-LEAGUE-ARCHIVE",
+      "location_id": "LOC-LEAGUE-ARCHIVE",
+      "type": "RECORDS",
+      "users": [
+        "clerks",
+        "couriers",
+        "League members"
+      ],
+      "service_area": "league-wide"
+    },
+    {
+      "id": "INST-COMPACT-GROUNDS",
+      "location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "type": "NEUTRAL_ENCOUNTER",
+      "users": [
+        "League participants",
+        "arbiters",
+        "spectators"
+      ],
+      "service_area": "league-wide"
+    },
+    {
+      "id": "INST-PITTSYS-BOOK",
+      "location_id": "LOC-PITTSYS-BOOK",
+      "type": "COMMERCIAL_LEAGUE",
+      "users": [
+        "bettors",
+        "clerks",
+        "couriers"
+      ],
+      "service_area": "league-wide"
+    }
+  ]
+}
