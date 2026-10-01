@@ -44,6 +44,8 @@ jobs:
         run: python world/location-control-plane/compiler/generate_cards.py --check
       - name: Run Environment Reference Phase 3 suite
         run: python world/environment-references/test_environment_references.py
+      - name: Verify Phase 3 repo-byte portability
+        run: python world/environment-references/verify_repo_byte_portability.py
       - name: Run Interactive Atlas Phase 4 suite
         run: python world/atlas/interactive/test_interactive_atlas.py
       - name: Run Weekly World Evolution Phase 5 suite
