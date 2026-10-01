@@ -1,0 +1,62 @@
+{
+  "version": "1.0",
+  "status": "TEMPLATE",
+  "engagement_id": "NOVEL-AUTHOR-CONSULT-YYYY-MM-DD-NNN",
+  "evidence_cutoff": {
+    "commit_sha": null,
+    "artifacts": [],
+    "temporal_cutoff": null
+  },
+  "decision_question": null,
+  "consultation_type": "TARGETED_PANEL",
+  "selected_consultants": [],
+  "independent_rounds": [
+    {
+      "round": 1,
+      "purpose": "diagnostic",
+      "required": true
+    },
+    {
+      "round": 2,
+      "purpose": "deep_dive_after_implementation",
+      "required": true
+    },
+    {
+      "round": 3,
+      "purpose": "adversarial_re_review",
+      "required": true
+    },
+    {
+      "round": 4,
+      "purpose": "final_synthesis",
+      "required": true
+    }
+  ],
+  "internal_roles": {
+    "chair": "the_closer",
+    "narrative_authority": "the_beat_writer",
+    "provenance": "the_librarian",
+    "external_research": "the_scout",
+    "audit": "the_umpire"
+  },
+  "required_artifacts": [
+    "00_EVIDENCE_FREEZE.md",
+    "01_SELECTION_MANIFEST.md",
+    "02_SOURCE_PACKET.md",
+    "round-1/",
+    "round-2/",
+    "round-3/",
+    "round-4/",
+    "BULLPEN_CROSS_EXAMINATION.md",
+    "RECONCILIATION.md",
+    "IMPLEMENTATION_DECISION.md",
+    "AUDIT_RECEIPT.md"
+  ],
+  "prohibitions": [
+    "live_author_participation_claim_without_evidence",
+    "prose_imitation",
+    "consultant_generated_canon",
+    "future_result_leakage",
+    "unsupported_real_owner_psychology"
+  ]
+}
