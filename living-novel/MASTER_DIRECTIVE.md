@@ -1,5 +1,9 @@
 # BULLPEN MASTER DIRECTIVE — PRO SCHEMIN' LIVING NOVEL
 
+**Parent authority:** `SCHEMIN_26_PROJECT_MISSION.md`
+
+This directive governs the Living Novel publication surface. It inherits the project-level requirement that the Novel, Weekly Memo, Universe Atlas, and visual system describe one persistent fictional reality.
+
 ## Mission
 Build a persistent epic-fantasy literary universe whose factual simulation engine is the real Pro Schemin' Football League.
 
