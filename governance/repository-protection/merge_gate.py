@@ -26,6 +26,15 @@ SUITE_COMMANDS = {
     "novel": [
         "python -m py_compile living-novel/os/engine/novel_os.py",
         "cd living-novel/os/evaluations && python -m unittest -v test_novel_os.py",
+        "python living-novel/consultants/test_advisor_registry.py",
+        "python living-novel/consultants/author-council/test_author_router.py",
+        "python living-novel/os/evaluations/test_causal_chapter_architecture.py",
+        "python living-novel/os/evaluations/test_author_council_book_architecture.py",
+        "python living-novel/os/evaluations/test_pov_packet_validator.py",
+        "python living-novel/consultants/author-council/test_engagement_001.py",
+        "python living-novel/os/evaluations/test_chapter_03_minimum_gate.py",
+        "python living-novel/os/evaluations/test_chapter_03_mission.py",
+        "python living-novel/os/evaluations/test_chapter_03_canon_closeout.py",
         "python living-novel/os/evaluations/test_whole_book_convergence.py",
     ],
     "memo": [
