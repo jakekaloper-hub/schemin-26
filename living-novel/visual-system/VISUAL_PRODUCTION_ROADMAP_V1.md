@@ -25,7 +25,7 @@ Produce planning/prototype artifacts, not publication lock:
 
 Exit: one map language works across world/regional/event scales without inventing geography. **Achieved — 192/192 machine checks PASS. M0 recto selected as primary reader-facing master map.**
 
-## Phase 3 — Environment/object proof — NEXT
+## Phase 3 — Environment/object proof — COMPLETE / PASS (visual grammar; cinematic refs still gated)
 Prototype:
 - Record House / Archive;
 - Hall of Keeping object composition;
@@ -34,9 +34,9 @@ Prototype:
 - Country Club memory-state;
 - Mire Hill aftermath.
 
-Exit: book visual grammar works without principal characters.
+Exit: book visual grammar works without principal characters. **Achieved — six page forms rendered; 54/54 local render checks PASS; source manifest audit PASS. Cinematic reference promotion remains HUMAN_REVIEW_REQUIRED.**
 
-## Phase 4 — Full-book typography + previs
+## Phase 4 — Full-book typography + previs — NEXT
 Use current manuscript with provisional visual placeholders.
 For **every resulting final page/spread**:
 - assign T0–T12;
