@@ -16,6 +16,20 @@ Subsystem documents may specialize HOW their domain works. They may not redefine
 
 Machine-readable mission invariants: `governance/SCHEMIN_26_PROJECT_MISSION_CONTRACT.json`.
 
+## Repository architecture & execution state
+
+**Repository Architecture V2:** ACTIVE CANDIDATE pending acceptance.
+
+Read:
+- `docs/architecture/REPOSITORY_ARCHITECTURE_V2.md`
+- `governance/repository-architecture/FOLDER_DOMAIN_REGISTRY_V2.json`
+- `docs/governance/FILE_PLACEMENT_STANDARD_V1.md`
+- `governance/execution-control/TASK_REGISTRY_V1.json`
+
+Folder placement follows owning authority. `governance/` is machine/executable cross-system control; `docs/governance/` is human-readable doctrine. `planning/`, `productions/`, `chronicles/`, and `archive/` are lifecycle surfaces and may not become competing authority stores.
+
+Live task/program status is normalized in Execution Control. Narrative planning documents remain domain evidence but must not override newer evidence-backed task state.
+
 ## Capability budget baseline
 
 **Operating budget assumption: ChatGPT Plus only.**
