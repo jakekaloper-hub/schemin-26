@@ -62,7 +62,20 @@
         "do not use division membership as species segregation"
       ],
       "spatial_model": "LEAGUE_JURISDICTION_OVERLAY_NONEXCLUSIVE",
-      "cohabitation_allowed": true
+      "cohabitation_allowed": true,
+      "cultural_layer_v2": {
+        "food_identity": "burgers",
+        "hospitality": [
+          "hearth",
+          "griddle",
+          "road-house meals"
+        ],
+        "prohibitions": [
+          "no literal food terrain",
+          "not sovereign",
+          "not species"
+        ]
+      }
     },
     {
       "id": "DIV-WINGS",
@@ -126,7 +139,21 @@
         "TDS/Chili coexistence cannot be erased by division borders"
       ],
       "spatial_model": "LEAGUE_JURISDICTION_OVERLAY_NONEXCLUSIVE",
-      "cohabitation_allowed": true
+      "cohabitation_allowed": true,
+      "cultural_layer_v2": {
+        "food_identity": "chicken_wings",
+        "hospitality": [
+          "smoke pits",
+          "sauces",
+          "spices",
+          "communal feasts"
+        ],
+        "prohibitions": [
+          "no avian/angel/dragon reinterpretation",
+          "not sovereign",
+          "not species"
+        ]
+      }
     },
     {
       "id": "DIV-PIZZA",
@@ -187,7 +214,20 @@
         "do not restore ObiWan or other non-Pizza owners to Pizza"
       ],
       "spatial_model": "LEAGUE_JURISDICTION_OVERLAY_NONEXCLUSIVE",
-      "cohabitation_allowed": true
+      "cohabitation_allowed": true,
+      "cultural_layer_v2": {
+        "food_identity": "pizza",
+        "hospitality": [
+          "communal ovens",
+          "shared tables",
+          "market meals"
+        ],
+        "prohibitions": [
+          "no literal food terrain",
+          "not sovereign",
+          "not species"
+        ]
+      }
     }
   ]
 }
