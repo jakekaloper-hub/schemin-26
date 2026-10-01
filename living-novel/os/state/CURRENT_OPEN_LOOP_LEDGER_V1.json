@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "status": "CURRENT_THROUGH_HARD_CANON_CHAPTER_II",
-  "temporal_cutoff": "END_OF_WEEK_2_STORY_TIME",
+  "status": "CURRENT_THROUGH_HARD_CANON_CHAPTER_III",
+  "temporal_cutoff": "END_OF_WEEK_3_STORY_TIME",
   "loops": [
     {
       "id": "OL-001",
@@ -54,18 +54,18 @@
     },
     {
       "id": "OL-004",
-      "title": "Attention around the two 2-0 powers",
-      "state": "PLANTED",
+      "title": "Attention around the sole 3-0 power",
+      "state": "PARTIALLY_PAID",
       "origin": "CHAPTER_02_WHAT_COMES_BACK",
       "entities": [
         "wilson_look",
         "bobby_mitchell"
       ],
-      "latest_canon": "They are the only 2-0 powers after Week 2 and third-party suppliers/scouts/patrons react.",
-      "reader_question": "How does concentrated attention change their options and opponents?",
-      "prohibited": "No future undefeated claim.",
+      "latest_canon": "After Week 3, D0nkey K0ng is the sole 3-0 competitive power. Chapter III shows concentrated public/interpretive pressure beginning around that status while Wilson deliberately refuses to convert neutral-ground victory into sovereignty.",
+      "reader_question": "How does concentrated attention change Wilson's options, public meaning, and future opponents without becoming destiny?",
+      "prohibited": "Do not imply future undefeated continuation, Belt transfer, sovereignty, or universal rival interpretation.",
       "narrative_priority": "PRIMARY",
-      "next_review_trigger": "When the 2-0 attention state changes or alters a third party.",
+      "next_review_trigger": "When later verified events materially change the sole-3-0 claim or when a character/institution acts on the Chapter III reputation pressure.",
       "abandonment_rule": "May be released only with explicit justification; no payoff is mandatory."
     },
     {
@@ -123,12 +123,29 @@
       "entities": [
         "world_state"
       ],
-      "latest_canon": "Walls, roads, swamp gear, Country Club grounds, LLC office and other material consequences persist into repair/economic behavior.",
+      "latest_canon": "Mire Hill remains scarred after Week 3; cleanup/custodial work continues. Chapter III canonically places Wilson's standard below the summit while leaving the summit unclaimed.",
       "reader_question": "Which damages become durable world state rather than weekly decoration?",
       "prohibited": "Do not reset damaged spaces without state evidence.",
       "narrative_priority": "AMBIENT",
-      "next_review_trigger": "When prior material damage changes route, cost, scene, or choice.",
+      "next_review_trigger": "When later use of Mire Hill, its road, cleanup state, scar, standard placement, or other prior material damage changes a route, cost, scene, or choice.",
       "abandonment_rule": "May be released only with explicit justification; no payoff is mandatory."
+    },
+    {
+      "id": "OL-009",
+      "title": "Earned victory versus sovereignty interpretation",
+      "state": "PLANTED",
+      "origin": "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM",
+      "entities": [
+        "wilson_look",
+        "LOC-DK-MUD-HILL",
+        "public_interpretation"
+      ],
+      "latest_canon": "Wilson places his standard below Mire Hill's summit to preserve the distinction between winning and owning. Public crown/ownership imagery begins appearing anyway as interpretation, not legal truth.",
+      "reader_question": "Can Wilson preserve the distinction between earned performance and sovereignty once other people begin telling a larger story around his record?",
+      "prohibited": "No sovereignty, territorial transfer, Belt transfer, universal public consensus, or claim about Wilson Look's real-world private psychology.",
+      "narrative_priority": "PRIMARY",
+      "next_review_trigger": "When a later verified character, institution, location, or public artifact acts on or contests Wilson's Chapter III claim.",
+      "abandonment_rule": "May be released only with explicit justification; no predetermined payoff is required."
     }
   ]
 }
