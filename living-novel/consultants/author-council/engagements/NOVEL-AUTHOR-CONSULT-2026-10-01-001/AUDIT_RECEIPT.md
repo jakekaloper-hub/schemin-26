@@ -1,7 +1,7 @@
-# Independent Audit Receipt — Pre-Promotion
+# Independent Audit Receipt — Promotion
 
 **Auditor:** The Umpire  
-**Status:** PRE-PROMOTION PASS / CI REQUIRED
+**Status:** PASS — PROMOTION AUTHORIZED
 
 ## Evidence integrity
 PASS — manuscript blob SHAs frozen.
@@ -33,11 +33,16 @@ PASS — Archive remains but is not compulsory POV.
 PASS — data truth remains complete in evidence.
 PASS — future outcomes remain unknown.
 
-## Remaining promotion proof
-- Novel OS CI.
-- advisor/router regressions.
-- causal architecture regressions.
-- book architecture regressions.
-- POV validator regressions.
-- Repository Merge Gate.
-- Bullpen Runtime CI.
+## Promotion proof
+
+PASS — Novel OS CI #411.  
+PASS — existing Novel deterministic/adversarial suite.  
+PASS — advisor registry + deterministic consultant router.  
+PASS — causal chapter architecture regression suite.  
+PASS — Author Council book architecture regression suite.  
+PASS — fail-closed POV firewall regression suite.  
+PASS — Engagement 001 completeness audit: 28 consultant round memos + four cross-examinations + reconciliation/closeout.  
+PASS — Repository Merge Gate #116.  
+PASS — Bullpen Runtime CI #2607.
+
+Project Control promotion is represented on the same PR and must pass its triggered mission-integrity gate before merge.
