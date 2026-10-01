@@ -53,7 +53,7 @@ def main() -> int:
         card = load(item["path"])
         lid = item["location_id"]
         check(card.get("location_id") == lid, f"card identity mismatch: {lid}")
-        check(card.get("physical_zone_id") == loc_by[lid].get("physical_zone_id"), f"derived physical zone fork: {lid}")
+        check((card.get("physical_zone") or {}).get("id") == loc_by[lid].get("physical_zone_id"), f"derived physical zone fork: {lid}")
 
     # Active Atlas layers must source canonical stores; candidate layer must remain editorial-only.
     layers = {x["id"]: x for x in atlas_layers.get("layers", [])}
