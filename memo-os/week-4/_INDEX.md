@@ -17,13 +17,18 @@
 8. `WEEK_4_TEMPORAL_CANON_RECEIPT_V1.md`
 9. `WEEK_4_WORLD_ENTRY_RECEIPT_V1.md`
 10. `WEEK_4_WORLD_AND_STORY_INTELLIGENCE_REGISTER_V1.md`
-11. `WEEK_4_ISSUE_PREVIS_BOARD_V1.md`
-12. `WEEK_4_PAGE_PACKET_REGISTER_V1.md`
-13. `WEEK_4_RELEASE_GATE_V1.md`
+11. `WEEK_4_LIVING_STORY_ROOM_AND_PERSONALIZED_INTELLIGENCE_V1.md`
+12. `WEEK_4_STORY_ROOM_CURRENT_STATE_RECONCILIATION_2026-10-01.md`
+13. `WEEK_4_LIVING_STORY_ROOM_PROMOTION_RECEIPT_2026-10-01.md`
+14. `WEEK_4_ISSUE_PREVIS_BOARD_V1.md`
+15. `WEEK_4_PAGE_PACKET_REGISTER_V1.md`
+16. `WEEK_4_RELEASE_GATE_V1.md`
 
 ## Current state
 
 Week 3 is closed. Week 4 production is now open at **preproduction only**.
+
+W4-G6 personalized story intelligence is **LIVE / PARTIAL PASS**. The Living Story Room register authorizes provisional reservoir development while preserving alternative branches. It does not authorize Story Lock.
 
 No finished art, final cover thesis, Game of the Week declaration, result language, final standings language, or publication lock is authorized until the dependent V5.5 gates pass.
 

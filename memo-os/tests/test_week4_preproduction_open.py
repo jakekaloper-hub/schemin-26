@@ -63,6 +63,18 @@ class Week4PreproductionOpenTests(unittest.TestCase):
         self.assertIn("NOT RELEASE READY", release)
         self.assertIn("Finished image generation remains prohibited", previs)
 
+    def test_living_story_room_is_provisional_and_non_release(self):
+        story = self.text("WEEK_4_LIVING_STORY_ROOM_AND_PERSONALIZED_INTELLIGENCE_V1.md")
+        receipt = self.text("WEEK_4_STORY_ROOM_CURRENT_STATE_RECONCILIATION_2026-10-01.md")
+        index = self.text("_INDEX.md")
+        self.assertIn("PROVISIONAL STORY DEVELOPMENT ONLY", story)
+        self.assertIn("FINAL STORY LOCK BLOCKED", story)
+        self.assertIn("No reservoir is STORY_LOCKED", story)
+        self.assertIn("WEEK_4_LIVING_STORY_ROOM_AND_PERSONALIZED_INTELLIGENCE_V1.md", index)
+        self.assertIn("Week 4 publication record: BLOCKED", receipt)
+        self.assertIn("all six matchups: 0.00–0.00 / UNDECIDED", receipt)
+        self.assertIn("Publication Manifest V1: ACTIVE DERIVED INDEX ONLY", receipt)
+
     def test_fact_scope_rejects_live_claim_from_cached_state(self):
         facts = self.text("WEEK_4_FACT_SCOPE_AND_EVIDENCE_REGISTER_V1.md")
         self.assertIn("no \"live\" wording from cached state", facts)
