@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0",
+  "status": "PROOF",
+  "authority": {
+    "atlas": "Atlas Control Plane V2",
+    "coordinate_space": "schemin-local-v1 (abstract, non-metric)"
+  },
+  "proofs": {
+    "M0_SPREAD": {
+      "path": "assets/M0_MASTER_WORLD_MAP_SPREAD_V1.svg",
+      "locations": [
+        "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "LOC-RED-RUINS",
+        "LOC-SLOB-FOOTHILL-CAMP",
+        "LOC-LLC-BOARDROOM",
+        "LOC-DK-HIGHLAND-STRONGHOLD",
+        "LOC-TDS-WATERFALL-TEMPLE",
+        "LOC-CHILI-STABLE",
+        "LOC-BELT-KEEPER-KEEP",
+        "LOC-STORM-BOWL",
+        "LOC-MUD-DOGS-SWAMP",
+        "LOC-CHINS-ROAD-COMMONS",
+        "LOC-COUNTRY-CLUB-JACKSON",
+        "LOC-LEAGUE-ARCHIVE",
+        "LOC-LEAGUE-CHAMBER",
+        "LOC-COMPACT-NEUTRAL-GROUNDS",
+        "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "LOC-DK-MUD-HILL",
+        "LOC-TDS-CHILI-SHARED-MARCH",
+        "LOC-LLC-STORM-CITY"
+      ],
+      "routes": [
+        "ROUTE-EASTERN-ASCENT",
+        "ROUTE-HEARTHROAD",
+        "ROUTE-DELTA-CAUSEWAY",
+        "ROUTE-STORM-COAST",
+        "ROUTE-RAIN-ESCARPMENT",
+        "ROUTE-FALLS-PATH",
+        "ROUTE-WESTERN-RANGE",
+        "ROUTE-BLACK-CLIFF",
+        "ROUTE-BASIN-MARKET",
+        "ROUTE-NORTHERN-PASS",
+        "ROUTE-TDS-CHILI-SHARED-MARCH",
+        "ROUTE-UPPER-BASIN-CONNECTOR",
+        "ROUTE-PORT-BASIN-CONNECTOR",
+        "ROUTE-ARCHIVE-CHAMBER"
+      ],
+      "layers": [
+        "ATLAS-PHYSICAL",
+        "ATLAS-CIVIL",
+        "ATLAS-OWNER",
+        "ATLAS-TRAVEL"
+      ]
+    },
+    "M0_RECTO": {
+      "path": "assets/M0_MASTER_WORLD_MAP_RECTO_V1.svg",
+      "locations": [
+        "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "LOC-RED-RUINS",
+        "LOC-SLOB-FOOTHILL-CAMP",
+        "LOC-LLC-BOARDROOM",
+        "LOC-DK-HIGHLAND-STRONGHOLD",
+        "LOC-TDS-WATERFALL-TEMPLE",
+        "LOC-CHILI-STABLE",
+        "LOC-BELT-KEEPER-KEEP",
+        "LOC-STORM-BOWL",
+        "LOC-MUD-DOGS-SWAMP",
+        "LOC-CHINS-ROAD-COMMONS",
+        "LOC-COUNTRY-CLUB-JACKSON",
+        "LOC-LEAGUE-ARCHIVE",
+        "LOC-LEAGUE-CHAMBER",
+        "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "LOC-DK-MUD-HILL"
+      ],
+      "routes": [
+        "ROUTE-BLACK-CLIFF",
+        "ROUTE-EASTERN-ASCENT",
+        "ROUTE-HEARTHROAD",
+        "ROUTE-RAIN-ESCARPMENT",
+        "ROUTE-UPPER-BASIN-CONNECTOR",
+        "ROUTE-BASIN-MARKET",
+        "ROUTE-WESTERN-RANGE",
+        "ROUTE-DELTA-CAUSEWAY",
+        "ROUTE-STORM-COAST",
+        "ROUTE-PORT-BASIN-CONNECTOR",
+        "ROUTE-TDS-CHILI-SHARED-MARCH"
+      ],
+      "layers": [
+        "ATLAS-PHYSICAL",
+        "ATLAS-CIVIL",
+        "ATLAS-OWNER",
+        "ATLAS-TRAVEL"
+      ]
+    },
+    "M1": {
+      "path": "assets/M1_INSTITUTIONAL_BASIN_V1.svg",
+      "locations": [
+        "LOC-DK-MUD-HILL",
+        "LOC-CHINS-ROAD-COMMONS",
+        "LOC-LEAGUE-CHAMBER",
+        "LOC-LEAGUE-ARCHIVE",
+        "LOC-PITTSYS-BOOK",
+        "LOC-SOUTHERN-SPEEDWAY",
+        "LOC-COMPACT-NEUTRAL-GROUNDS"
+      ],
+      "routes": [
+        "ROUTE-BASIN-MARKET",
+        "ROUTE-COMPACT-GROUNDS",
+        "ROUTE-ARCHIVE-CHAMBER"
+      ],
+      "layers": [
+        "ATLAS-PHYSICAL",
+        "ATLAS-CIVIL",
+        "ATLAS-TRAVEL"
+      ]
+    },
+    "M6B": {
+      "path": "assets/M6B_MIRE_HILL_MEMORY_V1.svg",
+      "locations": [
+        "LOC-DK-MUD-HILL",
+        "LOC-CHINS-ROAD-COMMONS",
+        "LOC-LEAGUE-CHAMBER",
+        "LOC-PITTSYS-BOOK",
+        "LOC-SOUTHERN-SPEEDWAY"
+      ],
+      "routes": [
+        "ROUTE-BASIN-MARKET",
+        "ROUTE-DELTA-CAUSEWAY"
+      ],
+      "memory": [
+        "EVT-W3-MIRE-HILL"
+      ],
+      "layers": [
+        "ATLAS-PHYSICAL",
+        "ATLAS-TRAVEL",
+        "ATLAS-ENCOUNTER",
+        "ATLAS-STATE"
+      ]
+    }
+  }
+}
