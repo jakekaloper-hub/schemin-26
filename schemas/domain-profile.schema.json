@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemin26.local/schemas/domain-profile.schema.json",
+  "type": "object",
+  "required": [
+    "domain_id",
+    "owner_character_id",
+    "home_anchor",
+    "physical_region",
+    "division_affiliation",
+    "domain_type",
+    "current_state",
+    "forbidden_drift"
+  ],
+  "properties": {
+    "domain_id": {
+      "type": "string"
+    },
+    "owner_character_id": {
+      "type": "string"
+    },
+    "home_anchor": {
+      "type": "string"
+    },
+    "physical_region": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "division_affiliation": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "domain_type": {
+      "type": "string"
+    },
+    "current_state": {
+      "type": "array"
+    },
+    "forbidden_drift": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": true
+}
