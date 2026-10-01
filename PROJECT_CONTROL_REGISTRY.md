@@ -110,7 +110,7 @@ World Engine V1 remains historical release evidence and is superseded by V1.1 fo
 
 **Atlas Phase 2 / Location Control Plane:** when world/location-control-plane/_INDEX.md is present on main, it is ACTIVE as derived location-packet infrastructure beneath World Engine V1.1. It compiles homelands, active locations, routes, state, history and consumer overlays. It cannot promote CAND-* geography or override upstream canon.
 
-**Atlas Phase 3 / Environment References:** when world/environment-references/_INDEX.md is present on main, 23 deterministic structural environment plates are ACTIVE as renderer-addressable structural grounding. Cinematic environment references remain separately human-gated.
+**Atlas Phase 3 / Environment References:** when world/environment-references/_INDEX.md is present on main, 23 deterministic structural environment plates are ACTIVE as repo-addressable structural grounding; external renderer injection remains separately fail-closed until proven. Cinematic environment references remain separately human-gated.
 
 **Atlas Phase 4 / Interactive Atlas:** when world/atlas/interactive/_INDEX.md is present on main, the standalone interactive Atlas is ACTIVE as a read-only canonical visualization. Editorial candidates remain non-spatial and non-active.
 
@@ -138,7 +138,7 @@ FLA Bullpen is a selective specialist/governance adapter. It is not a sixth Sche
 
 - Atlas Foundation Reconciliation V1 merged through PR #37.
 - Atlas Phase 1 merged through PR #39 and is active beneath World Engine V1.1.
-- Phase 2 Location Control Plane has completed board/QA review in PR #40; when merged, it becomes active derived production infrastructure.
+- Phase 2 Location Control Plane merged through PR #40 and is active derived production infrastructure.
 
 ### Prior checkpoint — 2026-09-29
 
