@@ -14,6 +14,10 @@
 | `MIGRATION_LEDGER.md` | provenance | Librarian | active | source recovery / migration |
 | `docs/CATALOG.md` | knowledge architecture | Librarian | active | new folder / index |
 | `docs/SESSION_CONTEXT.md` | session routing | Librarian | active | routing / subsystem change |
+| `governance/task-orientation/TASK_CONTEXT_MATRIX_V1.json` | machine task routing | Librarian + SCK | active | task taxonomy / context route change |
+| `governance/task-orientation/README.md` | routing doctrine | Librarian + SCK | active | task-orientation policy change |
+| `living-novel/os/SESSION_CONTEXT.md` | Novel session routing | Novel OS + Librarian / Umpire | active | Novel workflow / authority change |
+| `living-novel/os/TASK_CONTEXT_MATRIX_V1.json` | Novel machine task routing | Novel OS + Librarian / Umpire | active | Novel task taxonomy / source authority change |
 | `docs/governance/SOURCE_OF_TRUTH.md` | governance | Data / Executive | active | source hierarchy change |
 | `docs/governance/AUTHORITY_MATRIX.md` | governance | Executive Control | active | responsibility change |
 | `docs/governance/DOC_STANDARD.md` | governance | Librarian | active | documentation policy change |
