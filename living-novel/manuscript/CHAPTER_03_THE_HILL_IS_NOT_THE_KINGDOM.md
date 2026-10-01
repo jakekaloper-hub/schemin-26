@@ -1,8 +1,8 @@
 # CHAPTER III — THE HILL IS NOT THE KINGDOM
 
-The hill had no name until someone won it.
+The hill had names before someone won it. None of them were the one people would remember.
 
-By dusk, men who had never climbed it were already arguing over what it should be called.
+By dusk, travelers who had never climbed it were already arguing over what it should be called.
 
 Wilson heard none of that at first.
 
