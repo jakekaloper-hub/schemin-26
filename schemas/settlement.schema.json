@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/settlement.schema.json",
+  "title": "Settlement Support Record",
+  "type": "object",
+  "required": [
+    "settlement_id",
+    "anchor_location_id",
+    "physical_zone_id",
+    "placement_reasons",
+    "population_note",
+    "canon_confidence"
+  ],
+  "properties": {
+    "settlement_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "anchor_location_id": {
+      "type": "string"
+    },
+    "physical_zone_id": {
+      "type": "string"
+    },
+    "placement_reasons": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "population_mode": {
+      "type": "string"
+    },
+    "population_note": {
+      "type": "string"
+    },
+    "ordinary_labor": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "infrastructure": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "canon_confidence": {
+      "type": "object"
+    },
+    "promotion_rule": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
