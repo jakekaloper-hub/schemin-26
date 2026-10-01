@@ -21,6 +21,7 @@ Any broad invocation such as:
 - "Bullpen, finish this."
 - "Bullpen, investigate this."
 - "Bullpen, audit this."
+- "Bullpen, strengthen this."
 
 MUST be compiled through the canonical Bullpen command layer first, then enriched by this Schemin adapter.
 
@@ -39,8 +40,26 @@ The adapter must not ask Jake to select a command when intent can be inferred wi
 | prepare next chapter | plan | context pack -> promises -> causal consequences -> production readiness |
 | weekly memo / build memo | mission | Memo OS production lifecycle through final release gate |
 | character drift / wrong character | incident | stop unsafe retries -> reference-path diagnosis -> repair -> regression/visual QA |
+| strengthen Schemin / improve this system | strengthen | research -> plan -> execute -> test -> audit -> learn, with Schemin-specific gates layered inside the inherited phases |
 | Flaim / ESPN truth | research | Scout-led League Truth/Data Quality workflow |
 | what's next? | next | inspect repo/runtime state and advance next legitimate gate |
+
+## Strengthen inheritance
+
+Schemin does not define an independent strengthening command. It consumes the canonical Bullpen route.
+
+A valid canonical `strengthen` route MUST contain exactly:
+
+`research -> plan -> execute -> test -> audit -> learn`
+
+Executable consumer: `bullpen-runtime/src/strengthen-adapter.js`.
+
+The consumer fails closed when:
+- the command is not `strengthen`;
+- the canonical lifecycle is missing, incomplete, reordered, or extended;
+- a Schemin project gate attempts to invent a seventh core phase.
+
+Schemin may attach stricter project gates *within* a core phase, such as evidence provenance during research, canon/character checks during test, or Memo/Novel/publication regression during audit. Those gates remain project-local and do not mutate Bullpen Core semantics.
 
 ## Routing doctrine
 
@@ -66,7 +85,9 @@ Executable adapter: `bullpen-runtime/src/counterweight-adapter.js`.
 
 The adapter fails closed when a canonical route omits the counterweight contract or when a counterweight plan attempts to change the primary owner.
 
-Verified standalone Bullpen baseline for this integration: `fce34487cac4b3d7d18761f686a681cf2cf5ca1f`.
+Verified standalone Bullpen baseline for the previously promoted command/counterweight integration: `fce34487cac4b3d7d18761f686a681cf2cf5ca1f`.
+
+The strengthen lifecycle extension remains candidate until the corresponding Bullpen Core change passes its own promotion gates. Schemin's consumer therefore validates the route it receives rather than pretending an unpromoted Core route already exists.
 
 For substantial execution, `skills/schemin-bullpen-execution/SKILL.md` remains binding: evidence before completion claims; smallest competent team; creator and final gatekeeper differ; proceed through reversible work without founder interruption.
 
