@@ -32,6 +32,10 @@
 - `test_author_router.py` — routing + evidence-freeze regression suite.
 - `BULLPEN_FULL_LIFECYCLE_HARDENING_2026-10-01.md` — full Bullpen lifecycle receipt.
 
+## Completed engagements
+
+- `engagements/NOVEL-AUTHOR-CONSULT-2026-10-01-001/_INDEX.md` — first Full Seven four-round production engagement; hard-canon Prologue + Chapters I–II + prospective book architecture.
+
 ## Release evidence
 
 - `NOVEL_AUTHOR_CONSULTING_PROGRAM_V2_RELEASE_RECEIPT.md`
