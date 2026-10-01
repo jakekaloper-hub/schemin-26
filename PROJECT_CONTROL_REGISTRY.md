@@ -132,6 +132,8 @@ World Engine V1 remains historical release evidence and is superseded by V1.1 fo
 
 **Axiom:** **One World Model. One Spatial Control Plane. Many Views. No Forked Geography.**
 
+**Architectural lock status:** **ACTIVE** — enforced by `world/qa/test_one_world_model_contract.py`; post-merge verification: `world/qa/ONE_WORLD_MODEL_POST_MERGE_VERIFICATION_V1.md`.
+
 Read:
 - `world/governance/WORLD_DATA_OWNERSHIP_MATRIX_V1.md`
 - `world/governance/CANONICAL_WORLD_ID_CONTRACT_V1.md`
