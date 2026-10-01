@@ -1,0 +1,34 @@
+name: Repository Merge Gate
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Determine changed files
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          if [ -n "$BASE_SHA" ] && [ -n "$HEAD_SHA" ]; then
+            git diff --name-only "$BASE_SHA" "$HEAD_SHA" > /tmp/changed-files.txt
+          else
+            git diff --name-only HEAD^ HEAD > /tmp/changed-files.txt || true
+          fi
+          cat /tmp/changed-files.txt
+      - name: Test merge-gate planner
+        run: python -m unittest -v governance/repository-protection/test_merge_gate.py
+      - name: Run path-scoped required suites
+        run: python governance/repository-protection/merge_gate.py run --changed-file-list /tmp/changed-files.txt
