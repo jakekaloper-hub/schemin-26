@@ -1,7 +1,7 @@
 # ATLAS PHASE 1 ACCEPTANCE CHECKLIST V1
 
 **Date:** 2026-09-30
-**Status:** QA COMPLETE — RELEASE CANDIDATE
+**Status:** QA COMPLETE — RELEASED / ACTIVE
 **Gate:** Macro World Structure, Cultural Geography & Future Location Evolution
 
 ## Executive result
