@@ -90,7 +90,7 @@ class TaskContextMatrixTests(unittest.TestCase):
     def test_resume_route_does_not_silently_truncate(self):
         schemin = load_matrix("governance/task-orientation/TASK_CONTEXT_MATRIX_V1.json")
         result = validator.route_task("resume production; we already did this", schemin)
-        self.assertIn("resilience-and-handoff", result["routes"])
+        self.assertEqual(result["routes"], ["resilience-and-handoff"])
         self.assertFalse(result["truncated"], result["dropped_context_sources"])
         self.assertIn("governance/resilience/README.md", result["context_sources"])
         self.assertIn("governance/execution-control/TASK_REGISTRY_V1.json", result["context_sources"])
