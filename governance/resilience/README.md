@@ -35,6 +35,7 @@ A checkpoint is reusable only when its recorded inputs still match current autho
 ## Files
 
 - `FLA_PATTERN_HARVEST_V1.md` — research/audit/decision record.
+- `FLA_EXTRACTION_POSTBUILD_AUDIT_V1.md` — thread-bounded post-build verification and defect closure.
 - `PRODUCTION_CHECKPOINT_STANDARD_V1.md` — resumability contract.
 - `FRESH_OPERATOR_HANDOFF_GATE_V1.md` — clean-session proof gate.
 - `CREATIVE_CONDITIONING_REGISTRY_V1.json` — Memo/Novel conditioning coverage and drift signals.
