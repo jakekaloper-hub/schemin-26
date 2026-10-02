@@ -13,11 +13,13 @@ Do **not** load the full `living-novel/` tree.
 3. For any manuscript-changing work, obey the current whole-book source/authority matrix.
 4. Expand only when a material evidence gap, contradiction, failed gate, or cross-domain dependency appears.
 5. A source week is evidence; it does not automatically define a chapter.
+6. On interrupted/resumed work, load `../../governance/resilience/README.md` and the durable task registry before reconstructing prior work from chat memory.
 
 ## Common routes
 
 | Intent | Start here |
 |---|---|
+| Resume interrupted Novel work | `../../governance/resilience/README.md`, `../../governance/resilience/PRODUCTION_CHECKPOINT_STANDARD_V1.md`, execution-control task registry |
 | Current Novel state | `README.md`, `MASTER_DIRECTIVE.md`, `whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md` |
 | Plan/write a chapter | Minimum Pre-Prose Gate, Causal Chapter Architecture, Open Loop Ledger |
 | POV / character work | POV Constitution, Open Loop Ledger, current Character Canon |
