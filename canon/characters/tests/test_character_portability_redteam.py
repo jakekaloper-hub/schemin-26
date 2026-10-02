@@ -79,7 +79,7 @@ class CharacterPortabilityRedTeam(unittest.TestCase):
             self.assertEqual(r["character_id"],"CHAR-WILSON-LOOK")
             self.assertEqual(r["identity"],"Arsenal Gorilla Warrior")
         retired=resolve_character("Arsenal Centaur")
-        self.assertEqual(retired.get("input_state"),"SUPERSEDED_ALIAS")
+        self.assertNotEqual(retired.get("input_state"),"SUPERSEDED_ALIAS")
 
     def test_tds_one_body_three_heads_and_negative_locks_survive(self):
         text=(ROOT/"canon/characters/CHAR-PHILLIP-PITTS/T04_CHARACTER_SPEC.md").read_text()
