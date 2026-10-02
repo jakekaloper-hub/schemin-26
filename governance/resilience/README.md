@@ -39,5 +39,7 @@ A checkpoint is reusable only when its recorded inputs still match current autho
 - `FRESH_OPERATOR_HANDOFF_GATE_V1.md` — clean-session proof gate.
 - `CREATIVE_CONDITIONING_REGISTRY_V1.json` — Memo/Novel conditioning coverage and drift signals.
 - `resilience.py` — deterministic validation/resume utilities.
+- `checkpoint_cli.py` — repository-native emit/resume path.
+- `checkpoints/` — durable checkpoint receipt store.
 - `validate_resilience.py` — repository gate.
 - `test_resilience.py` — regression suite.
