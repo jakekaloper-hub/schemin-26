@@ -9,7 +9,9 @@
 2. `SCHEMIN_26_BULLPEN_FULL_PROJECT_REVIEW.md` — full board audit of Schemin / FLA integration and execution integrity.
 3. `SCHEMIN_26_SUBAGENT_V5_1_ENGINE_ROOM_RESPONSE.md` — SCK + V5.1 integration proposal.
 4. `LIBRARIAN_THREAD_CLOSEOUT_CHARACTER_PORTABILITY_2026-10-01.md` — binding closeout of the repeated-upload trust incident; records 12/12 source recovery truth and the correct future resume point.
-5. `README.md` — Bullpen purpose.
+5. `LIBRARIAN_SCHEMIN_NOVEL_ECOSYSTEM_SYNC_2026-10-01.md` — cross-ecosystem current-state checkpoint and fresh-context load order.
+6. `LIBRARIAN_CURRENT_AUTHORITY_LEARNING_2026-10-02.md` — durable lesson from stale-authority stress testing and PR #99 hardening.
+7. `README.md` — Bullpen purpose.
 
 ## Boundary
 
