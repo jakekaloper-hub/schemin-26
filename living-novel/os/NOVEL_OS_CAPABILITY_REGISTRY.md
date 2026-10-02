@@ -31,3 +31,14 @@ ADOPT = use directly where license/fit permit. ADAPT = reproduce a compatible ar
 - No third-party knowledge graph may auto-promote extracted assertions to canon.
 - No SaaS is required for core manuscript/canon survival.
 - No repository is blindly cloned into Schemin.
+
+
+## FLA resilience binding — 2026-10-02
+
+The existing adopted rule **“workflows are resumable state machines”** is now bound to Schemin's shared repository-backed resilience contract:
+
+- `../../governance/resilience/PRODUCTION_CHECKPOINT_STANDARD_V1.md`;
+- `../../governance/resilience/FRESH_OPERATOR_HANDOFF_GATE_V1.md`;
+- `../../governance/resilience/CREATIVE_CONDITIONING_REGISTRY_V1.json`.
+
+FLA contributes checkpoint and handoff patterns only. Novel OS still owns manuscript, continuity, POV, causal architecture and canon gates.
