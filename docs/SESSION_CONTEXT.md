@@ -60,6 +60,16 @@ For character-reference portability, do not request another bulk upload of the T
 | Bullpen / system | Bullpen index + Authority Matrix + this router |
 | Execution status | Execution Control registry |
 
+
+## Repository architecture authority
+
+Repository organization, file placement, and canonical entry points are governed by:
+- `docs/architecture/REPOSITORY_ARCHITECTURE_V2.md`
+- `governance/repository-architecture/FOLDER_DOMAIN_REGISTRY_V2.json`
+- `docs/governance/FILE_PLACEMENT_STANDARD_V1.md`
+
+Current/historical authority resolution does not supersede repository-placement authority. Both must hold.
+
 ## Cross-domain rule
 
 SCK coordinates mixed requests, but each domain retains truth authority. A downstream system may be blocked by an upstream authority without seizing that authority.
