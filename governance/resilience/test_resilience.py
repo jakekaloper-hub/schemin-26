@@ -74,7 +74,7 @@ class ResilienceTests(unittest.TestCase):
 
     def test_no_fla_runtime_dependency_is_introduced(self):
         harvest = (ROOT / "governance/resilience/FLA_PATTERN_HARVEST_V1.md").read_text()
-        self.assertIn("pattern donor only", harvest)
+        self.assertIn("as a pattern donor", harvest)
         self.assertIn("no production dependency is installed", harvest)
 
 if __name__ == "__main__":
