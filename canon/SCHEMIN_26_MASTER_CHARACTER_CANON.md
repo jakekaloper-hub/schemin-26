@@ -1,5 +1,8 @@
 # SCHEMIN '26 - MASTER CHARACTER CANON
 
+> **CURRENT VISUAL AUTHORITY NOTICE — 2026-10-02**  
+> This prose canon defines semantic identity and invariants, but it is **not sufficient by itself to select renderer inputs**. For current visual/source authority, resolve `canon/_INDEX.md` → `canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json` → current owner-specific approved source/hash. Any older statement below calling the 12-owner lineup “official,” “mandatory,” “visual authority,” or a required production seed is **historical doctrine where it conflicts with that active authority layer**. The lineup is `PARTIAL_STALE_REFERENCE_ONLY`, `production_seed_allowed=false`, and is explicitly stale for Wilson Look, Phillip Pitts, and Austin Byars. Current owner-specific corrections/hashes outrank it. Character-bearing generation remains `GENERATION_BLOCKED` unless the active execution boundary proves required bytes, mount/binding, capability, and QA.
+
 ## Weekly Memo OS Visual Identity Lock
 
 **Version:** 1.1\
