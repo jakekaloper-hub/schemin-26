@@ -1,6 +1,12 @@
 # Source of Truth Policy
 
-Priority order:
+## Universal authority rule
+
+Authority is resolved by **domain + time + release state + production eligibility**, not by retrieval convenience.
+
+Historical canonical evidence remains true for its historical interval. It must not silently satisfy a current/latest request. Current semantic authority does not imply production eligibility when required freshness, source-byte, mount/binding, release, or QA evidence is absent.
+
+## League truth priority
 
 1. Live validated ESPN league data when successfully fetched.
 2. Validated last-known-good Schemin Data Gateway snapshot with freshness metadata.
@@ -10,18 +16,20 @@ Priority order:
 
 Never present stale or remembered league state as freshly verified.
 
-Required freshness fields for gateway-backed data:
+Required freshness fields:
 - `stale`
 - `fetched_at`
 - `snapshot_age_seconds`
 - `failure_reason`
 
-## Canonical published-artifact override
+## Publication identity
 
-For historical publication identity, the Commissioner-designated artifact is authoritative over filenames inferred from prior production runs.
+Publication identity is resolved through the Publication Manifest and owning release evidence.
 
-**Week 2 / September 23, 2026:** the official league-shared publication is **`Week 2 memo.pdf`**, the 14-page illustrated issue beginning with the Red Leopards **“SPECIAL DELIVERY”** cover and ending with **“THE FINAL WORD.”**
+Week 2: `Week 2 memo.pdf` is the canonical 14-page league-shared Week 2 issue and historical gold-standard benchmark.
 
-Do **not** identify `PRO_SCHEMIN_WEEK_2_FINAL_MEMO.pdf`, an Engine Room test, V5.2-RC candidate, rerun, replay, or any later Week 2 artifact as the official published Week 2 memo.
+Week 3: `Pro_Schemin_Week_3_Memo_Final.pdf` is the current released Memo benchmark until a newer released issue is explicitly promoted.
 
-When the official Week 2 memo is used as a gold-standard/regression benchmark, “official,” “published,” and “gold standard” all resolve to `Week 2 memo.pdf` unless the Commissioner explicitly supersedes it.
+Do not identify similarly named finals, tests, reruns, replays, RC candidates, drafts, or historical benchmarks as current merely because they are retrievable or semantically similar.
+
+Explicit historical requests remain historical. Current/latest requests resolve current authority. Unknown/unreleased requests fail closed.
