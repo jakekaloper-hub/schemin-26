@@ -54,8 +54,9 @@
       "superseded_by": null,
       "metadata": {
         "page_count": 14,
-        "benchmark_status": "GOLD_STANDARD",
-        "league_shared": true
+        "benchmark_status": "HISTORICAL_GOLD_STANDARD",
+        "league_shared": true,
+        "current_benchmark": false
       }
     },
     {
@@ -117,7 +118,9 @@
       "metadata": {
         "page_count": 21,
         "immutable_release_evidence": true,
-        "novel_chapter_mapping": "UNRESOLVED_BY_DESIGN"
+        "novel_chapter_mapping": "UNRESOLVED_BY_DESIGN",
+        "benchmark_status": "CURRENT_BENCHMARK",
+        "current_benchmark": true
       }
     },
     {
@@ -165,7 +168,9 @@
       "metadata": {
         "publication_system": "weekly-memo-v5.5",
         "v5_6_candidate_state": "RELEASE_CANDIDATE_NOT_ACTIVE",
-        "release_block_reason": "WEEK_4_RELEASE_GATE_NOT_PASS"
+        "release_block_reason": "WEEK_4_RELEASE_GATE_NOT_PASS",
+        "benchmark_status": "NOT_RELEASED",
+        "current_benchmark": false
       }
     },
     {
@@ -386,5 +391,13 @@
         "causal_architecture": true
       }
     }
-  ]
+  ],
+  "weekly_memo_resolution": {
+    "policy_version": "1.0.0",
+    "explicit_week": "Resolve the unique RELEASED canonical artifact for that week; otherwise fail closed.",
+    "current_or_latest": "Resolve exactly one RELEASED weekly_memo with metadata.benchmark_status=CURRENT_BENCHMARK and require it to be the highest released week.",
+    "historical_rule": "Older released issues remain canonical for their own week but cannot satisfy current/latest/benchmark requests.",
+    "search_rule": "Search/vector similarity may locate candidates but cannot determine authority.",
+    "resolver": "governance/publication-manifest/memo_reference_resolver.py"
+  }
 }
