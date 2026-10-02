@@ -73,8 +73,9 @@ reintroduction of silent context truncation after Task Orientation V1.1.
 
 Patch:
 - reduce resilience route to the irreducible sources;
+- mark resilience/handoff as an exclusive first-stage route when it wins task classification;
 - expose `truncated` and `dropped_context_sources` from the router;
-- regression-test Schemin and Novel resume phrases for zero truncation.
+- regression-test Schemin and Novel resume phrases for zero truncation and no premature creative-context hydration.
 
 ## 4. Reconciled disposition
 
