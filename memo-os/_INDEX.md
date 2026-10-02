@@ -55,3 +55,10 @@ Every Memo OS visual containing a league character MUST execute `OWNER RESOLUTIO
 
 - Week 3: closed / immutable release evidence.
 - Week 4: preproduction open at `week-4/_INDEX.md`; finished art remains blocked until V5.5 upstream gates pass.
+
+
+## Shared resilience control
+
+Weekly Memo consumes `../governance/resilience/README.md` and `../governance/resilience/PRODUCTION_CHECKPOINT_STANDARD_V1.md` for interrupted-run recovery and fresh-session handoff. These controls record reusable stage evidence but do not redefine the V5.5 state machine, Fact Lock, character authority, page acceptance, or release gates.
+
+Creative conditioning coverage is registered in `../governance/resilience/CREATIVE_CONDITIONING_REGISTRY_V1.json`.
