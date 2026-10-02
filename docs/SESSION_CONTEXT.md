@@ -1,79 +1,79 @@
 # Schemin '26 Session Context Router
 
 **Authority:** The Librarian (CKO)  
-**Version:** 1.2  
-**Purpose:** Route a new ChatGPT / engineering session to the minimum authoritative context required.
-
-## Machine task-orientation front door
-
-Before broad repository search, classify the request with `governance/task-orientation/TASK_CONTEXT_MATRIX_V1.json`. This is the machine-readable companion to this document and is designed for Bullpen/ChatGPT task orientation.
-
-Initial project context is capped at four sources. After orientation, resolve the request against `governance/execution-control/TASK_REGISTRY_V1.json` before creating a new roadmap/task. Expand only for a material evidence gap, authority conflict, failed test, or cross-domain dependency.
+**Version:** 1.3  
+**Purpose:** Route a fresh session to the minimum current authority without allowing historical prominence to masquerade as current state.
 
 ## Session-start rule
 
-Do not load the entire repository by default.
-
 For substantial work:
 1. Read `PROJECT_CONTROL_REGISTRY.md`.
-2. Match the request to one row below.
-3. Load the listed 2–4 documents.
-4. Expand only when the task crosses domains or a source conflict appears.
+2. Classify with `governance/task-orientation/TASK_CONTEXT_MATRIX_V1.json`.
+3. Load the listed controlling sources.
+4. Resolve CURRENT vs HISTORICAL vs PRODUCTION-ELIGIBLE before acting.
+5. Expand only for an evidence gap, authority conflict, failed test, or cross-domain dependency.
 
-## Global publication identity lock
+## Universal temporal-authority rule
 
-Whenever a session references the **official/published/league-shared Week 2 memo** or the **Week 2 gold standard**, resolve it to **`Week 2 memo.pdf`**, the 14-page September 23, 2026 illustrated issue with the Red Leopards “SPECIAL DELIVERY” cover. Do not substitute similarly named Week 2 finals, tests, reruns, replays, or RC candidates.
+**Historical benchmark is not current authority. Current authority is not automatically production-eligible.**
 
+A source may remain canonical for its own historical interval while being forbidden as the default for a current request. A source may also be semantically current while production remains blocked by missing bytes, freshness, mount/binding, release, or QA evidence.
+
+Never choose a source merely because it is easier to retrieve, more frequently named, more semantically similar, or historically labeled “gold standard.”
+
+### Weekly Memo
+- Explicit Week 2 / official Week 2 / Week 2 gold standard → `Week 2 memo.pdf`.
+- Explicit Week 3 → `Pro_Schemin_Week_3_Memo_Final.pdf`.
+- latest/current/most recent/current benchmark → deterministic Publication Manifest resolver.
+- unresolved/unreleased explicit week → FAIL CLOSED; never substitute another week.
+
+### Character visuals
+Resolve `canon/_INDEX.md` and `canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json` before any convenience lineup, prior Memo page, filename, generated derivative, or prose-only prompt. A partially stale lineup is historical/comparison evidence only for characters marked stale. Character-bearing generation additionally requires the active fail-closed generation boundary.
+
+### League truth
+Live/fresh claims require Data Gateway freshness evidence. Historical snapshots and remembered state cannot masquerade as live state.
+
+### World / Atlas
+Current World Engine authority outranks historical releases and rendered scenery. A render cannot create world truth.
+
+### Living Novel
+Current manuscript/canon registries outrank drafts, consultant copies, and historical manuscript candidates.
 
 ## Repeated-input / trust-recovery rule
 
-Before asking the Commissioner to re-upload or reproduce previously supplied project inputs, reconcile repository truth and search current Project/Library/handoff evidence. A storage, durability, transport, retrieval, or renderer-binding defect must not be presented as missing user input.
+Before asking the Commissioner to re-upload or reproduce previously supplied project inputs, reconcile repository truth and Project/Library/handoff evidence. Storage, durability, transport, retrieval, or renderer-binding defects must not be presented as missing user input.
 
-For character-reference portability specifically, the Twelve were already re-uploaded and materialized 12/12 in the 2026-10-01 recovery cycle. Future sessions must resume from durable retrieval + C1 reference-binding work, not another bulk-upload request. Load `bullpen/LIBRARIAN_THREAD_CLOSEOUT_CHARACTER_PORTABILITY_2026-10-01.md` when this issue is involved.
+For character-reference portability, do not request another bulk upload of the Twelve merely to solve durable retrieval or reference-binding gates.
 
 ## Routing map
 
 | Intent | Load first |
 |---|---|
-| Resume / interrupted work / fresh handoff / “we already did this” | `governance/resilience/README.md`, `governance/resilience/PRODUCTION_CHECKPOINT_STANDARD_V1.md`, `governance/execution-control/TASK_REGISTRY_V1.json` |
-| Task orientation / AI session startup | `governance/task-orientation/TASK_CONTEXT_MATRIX_V1.json`, this router, `PROJECT_CONTROL_REGISTRY.md` |
-| Execution control / roadmap / task status / blockers / next | `governance/execution-control/TASK_REGISTRY_V1.json`, `governance/execution-control/README.md`, controlling domain source from the matched task |
-| Living Novel / chapter / POV / manuscript / continuity | `living-novel/os/SESSION_CONTEXT.md`, `living-novel/os/TASK_CONTEXT_MATRIX_V1.json`, Whole-Book Source Authority Matrix |
-| General Schemin '26 orientation | `PROJECT_CONTROL_REGISTRY.md`, `docs/governance/SOURCE_OF_TRUTH.md`, `planning/ROADMAP.md` |
-| Produce or repair Weekly Memo | `memo-os/_INDEX.md`, `memo-os/V5_6_CURRENT_MAIN_RECONCILIATION_V1.md`, Master Character Canon |
-| Audit Weekly Memo quality | V5.2-RC Patch, Gold-Standard Production Manual, `tests/README.md`, Character Canon |
-| ESPN / stale data / roster mismatch | `data-gateway/_INDEX.md`, Operational Patch, ESPN Reliability Patch, freshness schema |
-| Trade / waiver / lineup / roster decision | `mercer/_INDEX.md`, Mercer Operating Contract, current validated league state |
-| Character artwork / visual identity | `canon/_INDEX.md`, Master Character Canon |
-| Bullpen consultation | `bullpen/_INDEX.md`, latest Bullpen review, Authority Matrix |
-| FLA integration | `docs/architecture/FLA_INTEGRATION.md`, Authority Matrix, latest Bullpen review |
-| Architecture / repo organization / file placement | `docs/architecture/REPOSITORY_ARCHITECTURE_V2.md`, `governance/repository-architecture/FOLDER_DOMAIN_REGISTRY_V2.json`, `docs/governance/FILE_PLACEMENT_STANDARD_V1.md`, `docs/INVENTORY.md` |
-| New prompt / workflow version | owning subsystem index, `prompts/README.md`, relevant ADR / operating contract |
-| Historical question | `docs/INVENTORY.md`, `archive/_INDEX.md`, relevant migration/decision ledger |
-| Publication identity / archive / Memo ↔ Novel relationship | `governance/publication-manifest/_INDEX.md`, Publication Manifest V1, Project Control Registry, owning release gate |
+| Resume / interrupted work | `governance/resilience/README.md`, `governance/execution-control/TASK_REGISTRY_V1.json` |
+| Weekly Memo current/latest | Publication Manifest + resolver, `memo-os/_INDEX.md` |
+| Weekly Memo historical | Publication Manifest + exact week release evidence |
+| League truth | `data-gateway/_INDEX.md` + freshness contract |
+| Character artwork / visual identity | `canon/_INDEX.md`, `VISUAL_REFERENCE_AUTHORITY_V1.json`, active owner reference controls |
+| Living Novel | Novel session router + Whole-Book Source Authority Matrix |
+| World / Atlas | World Engine release authority + Atlas control plane |
+| Publication identity | Publication Manifest + Project Control Registry |
+| Bullpen / system | Bullpen index + Authority Matrix + this router |
+| Execution status | `governance/execution-control/TASK_REGISTRY_V1.json`, `governance/execution-control/README.md` |
 
-## Cross-domain routing
 
-When a request touches multiple domains, SCK coordinates. Domain truth remains with its authority.
+## Repository architecture authority
 
-Examples:
+Repository organization, file placement, and canonical entry points are governed by:
+- `docs/architecture/REPOSITORY_ARCHITECTURE_V2.md`
+- `governance/repository-architecture/FOLDER_DOMAIN_REGISTRY_V2.json`
+- `docs/governance/FILE_PLACEMENT_STANDARD_V1.md`
 
-```text
-ESPN discrepancy + Weekly Memo
-→ Data Gateway establishes truth
-→ SCK coordinates
-→ Weekly Memo OS owns publication
+Current/historical authority resolution does not supersede repository-placement authority. Both must hold.
 
-Mercer insight + public memo
-→ Mercer owns private football analysis
-→ firewall review
-→ Weekly Memo OS decides publishable use
+## Cross-domain rule
 
-FLA specialist advice + Schemin workflow
-→ FLA Bullpen provides specialist input
-→ Schemin authority remains controlling
-```
+SCK coordinates mixed requests, but each domain retains truth authority. A downstream system may be blocked by an upstream authority without seizing that authority.
 
-## Context economy standard
+## Context economy
 
-A healthy session should usually begin with **2–4 controlling files**, not 20 files and not raw conversation archaeology.
+Begin with 2–4 controlling sources. Historical artifacts are loaded only when explicitly requested or required for comparison/regression.

@@ -24,6 +24,11 @@ SUITE_COMMANDS = {
         "python governance/task-orientation/validate_task_context.py",
         "python -m unittest -v governance/task-orientation/test_task_context.py",
     ],
+    "authority": [
+        "python governance/publication-manifest/validate_publication_manifest.py",
+        "python governance/publication-manifest/test_memo_reference_resolver.py",
+        "python governance/authority-resolution/test_cross_domain_authority.py",
+    ],
     "mission": [
         "python -m py_compile governance/validate_project_mission.py",
         "python planning/character-native-render/validate_program_plan.py",
@@ -86,7 +91,7 @@ SUITE_COMMANDS = {
     ],
 }
 
-ORDER = ["architecture", "execution_control", "resilience", "orientation", "mission", "data", "character", "novel", "memo", "world", "release", "publication", "bullpen"]
+ORDER = ["architecture", "execution_control", "resilience", "orientation", "authority", "mission", "data", "character", "novel", "memo", "world", "release", "publication", "bullpen"]
 
 def _starts(path: str, prefix: str) -> bool:
     return path == prefix.rstrip("/") or path.startswith(prefix)
@@ -141,6 +146,18 @@ def suites_for_path(path: str) -> set[str]:
         or path in {"docs/SESSION_CONTEXT.md", "living-novel/os/SESSION_CONTEXT.md", "living-novel/os/TASK_CONTEXT_MATRIX_V1.json"}
     ):
         suites.add("orientation")
+    if (
+        _starts(path, "governance/authority-resolution/")
+        or path in {
+            "docs/SESSION_CONTEXT.md",
+            "docs/governance/SOURCE_OF_TRUTH.md",
+            "governance/task-orientation/TASK_CONTEXT_MATRIX_V1.json",
+            "memo-os/README.md",
+            "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+            ".github/workflows/cross-domain-authority-ci.yml",
+        }
+    ):
+        suites.add("authority")
     if _starts(path, "planning/character-native-render/"):
         suites.add("mission")
     if path in {

@@ -26,6 +26,12 @@ class MergeGatePlannerTests(unittest.TestCase):
             merge_gate.plan(["governance/task-orientation/TASK_CONTEXT_MATRIX_V1.json"]),
         )
 
+    def test_authority_sensitive_change_runs_authority_suite(self):
+        self.assertIn(
+            "authority",
+            merge_gate.plan(["docs/governance/SOURCE_OF_TRUTH.md"]),
+        )
+
     def test_novel_session_context_runs_orientation_and_novel(self):
         suites = merge_gate.plan(["living-novel/os/SESSION_CONTEXT.md"])
         self.assertIn("orientation", suites)

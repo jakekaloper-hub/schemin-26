@@ -2,13 +2,26 @@
 
 Canonical home of the Schemin '26 Weekly Memo production system.
 
-## Published benchmark lock
+## Benchmark authority
 
-The **official published Week 2 memo shared with the league on September 23, 2026 is `Week 2 memo.pdf`** — the 14-page illustrated issue with the Red Leopards “SPECIAL DELIVERY” cover.
+**Current Memo benchmark is resolved dynamically, never hard-coded from historical prominence.**
 
-This artifact is the Week 2 gold-standard/regression benchmark. Any other Week 2 PDF, test, replay, rerun, RC candidate, or file previously called “final” is non-canonical for publication identity unless the Commissioner explicitly supersedes this lock.
+Use `governance/publication-manifest/memo_reference_resolver.py` + `PUBLICATION_MANIFEST_V1.json`.
 
-Expected lifecycle:
+Current state:
+- Week 2 `Week 2 memo.pdf` — canonical for Week 2; **HISTORICAL_GOLD_STANDARD**.
+- Week 3 `Pro_Schemin_Week_3_Memo_Final.pdf` — **CURRENT_BENCHMARK**.
+- Week 4 — unreleased/blocked and ineligible to satisfy latest/current until its release gate passes and benchmark promotion is transacted.
+
+A historical gold standard remains useful for regression and craft comparison. It is not the default current reference. Search similarity, filename friendliness, prior prompt frequency, or an old “gold standard” label cannot override release authority.
+
+## Fail-closed rule
+
+Explicit week → exact released week only.  
+latest/current/benchmark → highest released CURRENT_BENCHMARK.  
+unreleased/unknown week → no substitution.
+
+## Production lifecycle
 1. Intake
 2. Data verification/freeze
 3. Rename + canon reconciliation
@@ -23,4 +36,4 @@ Expected lifecycle:
 12. Publication package
 13. Postmortem / OS patch
 
-Gold-standard outputs are regression references, not templates to copy verbatim.
+Historical outputs are regression evidence, not current-state defaults or templates to copy verbatim.

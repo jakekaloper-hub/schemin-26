@@ -46,11 +46,12 @@ class TaskContextMatrixTests(unittest.TestCase):
         self.assertNotIn("living-novel/os/NOVEL_BOOK_ARCHITECTURE_V2.md", result["context_sources"])
         self.assertNotIn("world/atlas/ATLAS_CONTROL_PLANE_V2.md", result["context_sources"])
 
-    def test_hmb_character_repair_simulation_starts_with_character_authority(self):
+    def test_hmb_character_repair_simulation_starts_with_current_visual_authority(self):
         matrix = load_matrix("governance/task-orientation/TASK_CONTEXT_MATRIX_V1.json")
         result = validator.route_task("Fix incorrect His Majesty's Blood character rendering.", matrix)
         self.assertEqual(result["routes"][0], "character-visual")
-        self.assertIn("canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md", result["context_sources"])
+        self.assertIn("canon/_INDEX.md", result["context_sources"])
+        self.assertIn("canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json", result["context_sources"])
         self.assertNotIn("memo-os/_INDEX.md", result["context_sources"])
         self.assertNotIn("living-novel/os/NOVEL_BOOK_ARCHITECTURE_V2.md", result["context_sources"])
 
@@ -124,9 +125,10 @@ class TaskContextMatrixTests(unittest.TestCase):
         self.assertEqual(result["routes"][0], "mercer-football-strategy")
         self.assertIn("data-gateway/_INDEX.md", result["context_sources"])
 
-    def test_human_weekly_memo_router_points_to_current_reconciliation(self):
+    def test_human_weekly_memo_router_points_to_current_publication_and_os_authority(self):
         content = (ROOT / "docs" / "SESSION_CONTEXT.md").read_text()
-        self.assertIn("memo-os/V5_6_CURRENT_MAIN_RECONCILIATION_V1.md", content)
+        self.assertIn("Publication Manifest + resolver", content)
+        self.assertIn("memo-os/_INDEX.md", content)
 
     def test_boundary_matching_does_not_route_art_from_start(self):
         matrix = {
