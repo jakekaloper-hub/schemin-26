@@ -208,6 +208,26 @@
         "governance/execution-control/TASK_REGISTRY_V1.json",
         "governance/execution-control/README.md"
       ]
+    },
+    {
+      "id": "resilience-and-handoff",
+      "terms": [
+        "resume production",
+        "checkpoint",
+        "handoff",
+        "fresh operator",
+        "interrupted",
+        "recover work",
+        "do not redo",
+        "already did this",
+        "we already did this",
+        "repeat input"
+      ],
+      "context_sources": [
+        "governance/resilience/README.md",
+        "governance/resilience/PRODUCTION_CHECKPOINT_STANDARD_V1.md",
+        "governance/execution-control/TASK_REGISTRY_V1.json"
+      ]
     }
   ]
 }
