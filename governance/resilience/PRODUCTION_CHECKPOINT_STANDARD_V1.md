@@ -27,15 +27,19 @@ Task status alone is not sufficient.
 
 Machine contract: `../../schemas/production-checkpoint.schema.json`.
 
+Operational writer/resolver: `checkpoint_cli.py`.
+Durable receipts live under `checkpoints/<workflow>/`.
+
 ## Resume law
 
 1. Resolve the durable task first.
 2. Load candidate checkpoints for that workflow.
 3. Recompute/compare current authoritative input fingerprints.
-4. Ignore any checkpoint whose inputs changed or evidence/output is missing.
-5. Resume after the latest valid completed checkpoint.
-6. If no checkpoint is valid, rerun the earliest affected stage only.
-7. Never ask Jake to reproduce input merely because a checkpoint or transport path failed; distinguish missing input from missing durable storage.
+4. Recompute authoritative input digests and verify output artifact digests plus evidence references.
+5. Ignore any checkpoint whose inputs changed, whose output is missing/mutated, or whose evidence no longer resolves.
+6. Resume after the latest valid completed checkpoint.
+7. If no checkpoint is valid, rerun the earliest affected stage only.
+8. Never ask Jake to reproduce input merely because a checkpoint or transport path failed; distinguish missing input from missing durable storage.
 
 ## Invalidation examples
 
@@ -76,3 +80,14 @@ The Novel OS remains authoritative for manuscript/canon state.
 ## Anti-bureaucracy
 
 Do not checkpoint trivial reads or every sentence/page edit. Checkpoint only stages expensive or consequential enough that repeating them would create material cost, drift, or user correction.
+
+
+## Operational maturity rule
+
+The checkpoint subsystem is considered operational only when:
+- a checkpoint can be emitted by the repository-native CLI;
+- the receipt validates against current source/input/output/evidence;
+- a later resume resolves that receipt without chat memory;
+- mutation/deletion of an input or output causes fail-closed invalidation.
+
+A design document or task status alone does not satisfy this gate.

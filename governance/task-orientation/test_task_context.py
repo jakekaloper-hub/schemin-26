@@ -87,6 +87,31 @@ class TaskContextMatrixTests(unittest.TestCase):
                     msg=f"{path} route {route['id']} depends on truncation: {packet}",
                 )
 
+    def test_resume_route_does_not_silently_truncate(self):
+        schemin = load_matrix("governance/task-orientation/TASK_CONTEXT_MATRIX_V1.json")
+        result = validator.route_task("resume production; we already did this", schemin)
+        self.assertEqual(result["routes"], ["resilience-and-handoff"])
+        self.assertFalse(result["truncated"], result["dropped_context_sources"])
+        self.assertIn("governance/resilience/README.md", result["context_sources"])
+        self.assertIn("governance/execution-control/TASK_REGISTRY_V1.json", result["context_sources"])
+
+        novel = load_matrix("living-novel/os/TASK_CONTEXT_MATRIX_V1.json")
+        result = validator.route_task("resume the interrupted chapter; we already did this", novel)
+        self.assertIn("resilience-and-handoff", result["routes"])
+        self.assertFalse(result["truncated"], result["dropped_context_sources"])
+
+    def test_router_reports_any_truncation_instead_of_hiding_it(self):
+        matrix = {
+            "defaults": {"max_matches": 2, "max_context_sources": 2, "context_sources": ["README.md"]},
+            "routes": [
+                {"id": "a", "terms": ["alpha"], "context_sources": ["docs/CATALOG.md"]},
+                {"id": "b", "terms": ["beta"], "context_sources": ["docs/INVENTORY.md"]},
+            ],
+        }
+        result=validator.route_task("alpha beta",matrix)
+        self.assertTrue(result["truncated"])
+        self.assertEqual(result["dropped_context_sources"],["docs/INVENTORY.md"])
+
     def test_league_data_packet_keeps_freshness_contract(self):
         matrix = load_matrix("governance/task-orientation/TASK_CONTEXT_MATRIX_V1.json")
         result = validator.route_task("Refresh ESPN Flaim freshness and standings.", matrix)

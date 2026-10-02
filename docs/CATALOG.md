@@ -21,6 +21,7 @@ The repository should remain deliberately smaller than FLA. We adopt the Librari
 | Session routing | `docs/SESSION_CONTEXT.md` | Librarian |
 | Task orientation | `governance/task-orientation/TASK_CONTEXT_MATRIX_V1.json` | Librarian + SCK |
 | Production resilience | `governance/resilience/README.md` | Librarian + Groundskeeper + Umpire |
+| Checkpoint runtime | `governance/resilience/checkpoint_cli.py` | Groundskeeper + Umpire |
 | Execution control | `governance/execution-control/TASK_REGISTRY_V1.json` | Bullpen Execution Control + domain authorities |
 | Repository architecture | `docs/architecture/REPOSITORY_ARCHITECTURE_V2.md` | Librarian + Architect |
 | Folder placement registry | `governance/repository-architecture/FOLDER_DOMAIN_REGISTRY_V2.json` | Librarian + Architect |

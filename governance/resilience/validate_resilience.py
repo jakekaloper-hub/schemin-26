@@ -11,6 +11,9 @@ def main() -> int:
     conditioning_path = ROOT / "governance" / "resilience" / "CREATIVE_CONDITIONING_REGISTRY_V1.json"
     harvest_path = ROOT / "governance" / "resilience" / "FLA_PATTERN_HARVEST_V1.md"
     handoff_path = ROOT / "governance" / "resilience" / "FRESH_OPERATOR_HANDOFF_GATE_V1.md"
+    checkpoint_cli = ROOT / "governance" / "resilience" / "checkpoint_cli.py"
+    checkpoint_store = ROOT / "governance" / "resilience" / "checkpoints" / "README.md"
+    postbuild_audit = ROOT / "governance" / "resilience" / "FLA_EXTRACTION_POSTBUILD_AUDIT_V1.md"
 
     for path in (schema_path, conditioning_path):
         try:
@@ -21,7 +24,7 @@ def main() -> int:
     if conditioning_path.exists():
         errors.extend(validate_conditioning_registry(load_json(conditioning_path)))
 
-    for path in (harvest_path, handoff_path):
+    for path in (harvest_path, handoff_path, checkpoint_cli, checkpoint_store, postbuild_audit):
         if not path.exists():
             errors.append(f"missing resilience control: {path}")
 

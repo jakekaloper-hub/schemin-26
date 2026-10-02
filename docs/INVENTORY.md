@@ -27,7 +27,10 @@
 | `docs/governance/FILE_PLACEMENT_STANDARD_V1.md` | placement doctrine | Librarian | active | placement/lifecycle change |
 | `governance/resilience/README.md` | control entry point | Librarian + Groundskeeper + Umpire | active | resume / handoff / recovery policy change |
 | `governance/resilience/PRODUCTION_CHECKPOINT_STANDARD_V1.md` | control | Groundskeeper + Librarian / Umpire | active | checkpoint contract change |
+| `governance/resilience/checkpoint_cli.py` | executable runbook | Groundskeeper + Umpire | active | checkpoint runtime change |
+| `governance/resilience/checkpoints/README.md` | storage index | Librarian + Groundskeeper | active | checkpoint storage convention change |
 | `governance/resilience/FRESH_OPERATOR_HANDOFF_GATE_V1.md` | acceptance gate | Umpire + Groundskeeper | active | session routing / durable state change |
+| `governance/resilience/FLA_EXTRACTION_POSTBUILD_AUDIT_V1.md` | review | Bullpen + Librarian + Umpire | active post-build evidence | FLA resilience extraction / implementation change |
 | `governance/resilience/CREATIVE_CONDITIONING_REGISTRY_V1.json` | machine creative coverage | Memo OS + Novel OS + Librarian/Umpire | active | creative conditioning / drift change |
 | `schemas/production-checkpoint.schema.json` | schema | Resilience / owning production system | active | checkpoint contract change |
 | `governance/execution-control/TASK_REGISTRY_V1.json` | machine execution state | Bullpen Execution Control + domains | active | roadmap/task state change |
