@@ -19,10 +19,10 @@ Do **not** load the full `living-novel/` tree.
 | Intent | Start here |
 |---|---|
 | Current Novel state | `README.md`, `MASTER_DIRECTIVE.md`, `whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md` |
-| Plan/write a chapter | Minimum Pre-Prose Gate, Causal Chapter Architecture, Book Architecture V2, Open Loop Ledger |
+| Plan/write a chapter | Minimum Pre-Prose Gate, Causal Chapter Architecture, Open Loop Ledger |
 | POV / character work | POV Constitution, Open Loop Ledger, current Character Canon |
 | Canon/release | Canon Protocol, Whole-Book Source Authority, Project Control Registry |
-| Live league event → story | Phase 7 Live Season Engine, Master Directive, Data Gateway, Open Loop Ledger |
+| Live league event → story | Phase 7 Live Season Engine, Data Gateway, Open Loop Ledger |
 | Continuity/history | Phase 4 Continuity Intelligence, Open Loop Ledger, Whole-Book Source Authority |
 | World/geography | Physical World, Atlas Control Plane, Location Control Plane integration |
 | Visual storytelling | Phase 6 Visual Engine, current Character Canon, Location Control Plane |
