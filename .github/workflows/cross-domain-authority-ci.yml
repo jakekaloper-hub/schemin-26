@@ -1,0 +1,30 @@
+name: Cross-Domain Authority CI
+on:
+  pull_request:
+    paths:
+      - 'PROJECT_CONTROL_REGISTRY.md'
+      - 'docs/SESSION_CONTEXT.md'
+      - 'docs/governance/**'
+      - 'memo-os/**'
+      - 'canon/**'
+      - 'world/**'
+      - 'living-novel/**'
+      - 'data-gateway/**'
+      - 'governance/**'
+      - '.github/workflows/cross-domain-authority-ci.yml'
+  push:
+    branches: [main]
+jobs:
+  authority-regression:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Publication authority
+        run: |
+          python governance/publication-manifest/validate_publication_manifest.py
+          python governance/publication-manifest/test_memo_reference_resolver.py
+      - name: Cross-domain authority
+        run: python governance/authority-resolution/test_cross_domain_authority.py
