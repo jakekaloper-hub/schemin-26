@@ -52,3 +52,10 @@ It may not silently alter:
 - Pitts/TDS: three serpent heads on one body required; single head rejected.
 - Jake: championship belt rejected.
 - Brandon: Dark Horse belongs to Chili Outlaw; do not cross-contaminate.
+
+
+## Superseded DK semantic aliases — non-authoritative
+
+Historical semantic prose may contain **Arsenal Gorilla Warrior** and the instruction **centaur/equine form RETIRED**. Those strings are retained here only as explicit negative-regression fixtures. They are STALE / SUPERSEDED and MUST NOT control current production.
+
+Current authority remains **Arsenal Gorilla Centaur Warrior**: ONE body with gorilla head/upper identity + FOUR-LEGGED centaur/equine lower body + Arsenal supporter identity.
