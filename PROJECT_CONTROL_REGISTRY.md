@@ -61,9 +61,9 @@ This program plans remediation and production hardening only. It does **not** pr
 
 ## Canonical publication lock
 
-**Official Week 2 Memo (league-shared September 23, 2026): `Week 2 memo.pdf`.** It is the 14-page illustrated issue beginning with Red Leopards “SPECIAL DELIVERY.” This is the canonical Week 2 published artifact and gold-standard benchmark. No similarly named Week 2 “final,” test, replay, rerun, or RC candidate may replace it without explicit Commissioner supersession.
+**Official Week 2 Memo (league-shared September 23, 2026): `Week 2 memo.pdf`.** It is the 14-page illustrated issue beginning with Red Leopards “SPECIAL DELIVERY.” This is the canonical Week 2 published artifact and historical gold-standard issue. It remains canonical for Week 2, but it is not the current/latest Memo benchmark after a newer released issue is promoted. No similarly named Week 2 “final,” test, replay, rerun, or RC candidate may replace it without explicit Commissioner supersession.
 
-## Five-plane architecture
+## Weekly Memo benchmark authority\n\n**Current benchmark: Week 3 — `Pro_Schemin_Week_3_Memo_Final.pdf` (21-page immutable release).**\n\nMemo reference resolution is deterministic through `governance/publication-manifest/memo_reference_resolver.py` and the Publication Manifest. Explicit week requests resolve that released week; `latest`, `current`, `benchmark`, `most recent`, or an unspecified Memo benchmark resolve the highest released issue carrying `CURRENT_BENCHMARK`. Blocked/draft/test/replay artifacts cannot satisfy the resolver. An unresolved explicit week fails closed and must never silently fall back to Week 2 or another historical issue.\n\nWhen a future Week N passes its owning release gate, benchmark promotion must be transacted explicitly in the Publication Manifest: Week N becomes `CURRENT_BENCHMARK`; the prior benchmark remains canonical historical evidence.\n\n## Five-plane architecture
 
 ```text
 JAKE / COMMISSIONER INTENT

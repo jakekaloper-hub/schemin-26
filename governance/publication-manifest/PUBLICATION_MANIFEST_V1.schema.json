@@ -236,6 +236,44 @@
           }
         }
       }
+    },
+    "weekly_memo_resolution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "policy_version",
+        "explicit_week",
+        "current_or_latest",
+        "historical_rule",
+        "search_rule",
+        "resolver"
+      ],
+      "properties": {
+        "policy_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "explicit_week": {
+          "type": "string",
+          "minLength": 1
+        },
+        "current_or_latest": {
+          "type": "string",
+          "minLength": 1
+        },
+        "historical_rule": {
+          "type": "string",
+          "minLength": 1
+        },
+        "search_rule": {
+          "type": "string",
+          "minLength": 1
+        },
+        "resolver": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
     }
   }
 }

@@ -19,7 +19,7 @@ Provide one machine-readable index of Schemin publication identity and relations
 
 1. `PUBLICATION_MANIFEST_V1.json` — derived publication identity registry.
 2. `PUBLICATION_MANIFEST_V1.schema.json` — structural schema.
-3. `validate_publication_manifest.py` — executable invariants.
+3. `validate_publication_manifest.py` — executable invariants.\n4. `memo_reference_resolver.py` — deterministic Weekly Memo authority resolver.\n5. `test_memo_reference_resolver.py` — explicit-week/current/latest/fail-closed/future-succession regression suite.
 
 ## Authority boundary
 
@@ -50,3 +50,4 @@ Chapter III was added only after independent Novel authority produced `living-no
 ## Acceptance evidence
 
 - `PUBLICATION_MANIFEST_V1_ACCEPTANCE.md` — mission acceptance, audit, learning and rollback receipt.
+\n## Weekly Memo benchmark semantics\n\n`CANONICAL_FOR_WEEK` and `CURRENT_BENCHMARK` are distinct. A released Memo remains canonical for its own week indefinitely unless explicitly superseded. Only one released Weekly Memo may carry `metadata.benchmark_status = CURRENT_BENCHMARK`, and it must be the highest released week. Week 2 is historical gold-standard evidence; Week 3 is the current benchmark until a later Memo completes its owning release transaction.\n

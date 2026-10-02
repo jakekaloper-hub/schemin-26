@@ -30,7 +30,7 @@
 - V5 remains the controlling production-plane doctrine except where V5.3 hardens character/fact/continuity QA.
 - V5.2-RC governs cross-OS orchestration during acceptance testing.
 - V5.2-RC is not automatically permanent until its stated experiments / acceptance criteria are satisfied.
-- The approved Week 2 memo is a benchmark; blank-canvas testing must isolate same-week benchmark creative content until after generation.
+- The approved Week 2 memo is the historical gold-standard issue and remains canonical for Week 2. The current/latest benchmark is resolved from the Publication Manifest; as of this control state it is the released Week 3 memo. Blank-canvas testing must isolate same-week benchmark creative content until after generation.
 
 ## Missing source artifact
 
@@ -51,7 +51,7 @@ Every Memo OS visual containing a league character MUST execute `OWNER RESOLUTIO
 - Generate the final QA ledger only after the assembled PDF has been rendered and audited.
 
 
-## Current production cycle
+## Memo reference resolution\n\n- Explicit `Week N` requests resolve only the canonical RELEASED artifact for Week N.\n- `latest`, `current`, `benchmark`, `most recent`, and unspecified benchmark requests resolve through `../governance/publication-manifest/memo_reference_resolver.py`.\n- Search similarity never outranks structured publication authority.\n- Missing/unreleased explicit weeks fail closed; they never substitute an older memo.\n- Future release promotion must move `CURRENT_BENCHMARK` to the newly released highest week while preserving prior issues as historical canon.\n\n## Current production cycle
 
 - Week 3: closed / immutable release evidence.
 - Week 4: preproduction open at `week-4/_INDEX.md`; finished art remains blocked until V5.5 upstream gates pass.

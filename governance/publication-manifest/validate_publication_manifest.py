@@ -132,6 +132,23 @@ def validate_manifest(doc:dict)->list[str]:
             elif pid not in (by_id[superseded_by].get("supersedes") or []):
                 errors.append(f"{pid}: superseded_by is not reciprocal")
 
+    # Weekly Memo benchmark authority invariants
+    memos=[p for p in pubs if p.get("family")=="weekly_memo"]
+    released_memos=[p for p in memos if p.get("release_state")=="RELEASED" and p.get("canonical_artifact")]
+    current=[p for p in released_memos if (p.get("metadata") or {}).get("benchmark_status")=="CURRENT_BENCHMARK"]
+    if len(current)!=1:
+        errors.append("Weekly Memo authority requires exactly one released CURRENT_BENCHMARK")
+    if released_memos and len(current)==1:
+        def memo_week(p):
+            weeks=(p.get("source_interval") or {}).get("weeks") or []
+            return weeks[0] if len(weeks)==1 else -1
+        highest=max(released_memos,key=memo_week)
+        if current[0].get("publication_id")!=highest.get("publication_id"):
+            errors.append("CURRENT_BENCHMARK must be the highest released Weekly Memo")
+    for p in memos:
+        if p.get("release_state")!="RELEASED" and (p.get("metadata") or {}).get("benchmark_status")=="CURRENT_BENCHMARK":
+            errors.append(f"{p.get('publication_id')}: unreleased Memo cannot be CURRENT_BENCHMARK")
+
     # Hard anti-fork / current-state invariants
     w2=by_id.get("memo.2026.week-02")
     if w2 and w2.get("canonical_artifact")!="Week 2 memo.pdf":
