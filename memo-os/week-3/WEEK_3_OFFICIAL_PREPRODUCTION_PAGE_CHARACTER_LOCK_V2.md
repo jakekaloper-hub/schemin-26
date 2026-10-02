@@ -154,4 +154,4 @@ Final phrase may be polished after complete issue read-through.
 11 Final PDF assembled only from locked masters and rendered page-by-page for audit.
 
 ## Supersession — 2026-09-29
-Wilson Look's owner-specific gorilla-warrior reference supersedes this document's original centaur extraction for all future renders. Any centaur/equine output now fails Character QA.
+**2026-10-02 supersession:** Wilson Look's owner-specific reference resolves to the Arsenal Gorilla Centaur Warrior. Future renders REQUIRE one hybrid body with gorilla head/upper identity + FOUR-LEGGED centaur/equine lower body + Arsenal identity; generic bipedal gorilla, horse-headed centaur, rider+mount, or split-creature substitutions fail Character QA.
