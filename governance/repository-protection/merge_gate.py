@@ -16,6 +16,10 @@ SUITE_COMMANDS = {
         "python governance/execution-control/validate_execution_control.py",
         "python -m unittest -v governance/execution-control/test_execution_control.py",
     ],
+    "resilience": [
+        "python governance/resilience/validate_resilience.py",
+        "python -m unittest -v governance/resilience/test_resilience.py",
+    ],
     "orientation": [
         "python governance/task-orientation/validate_task_context.py",
         "python -m unittest -v governance/task-orientation/test_task_context.py",
@@ -82,7 +86,7 @@ SUITE_COMMANDS = {
     ],
 }
 
-ORDER = ["architecture", "execution_control", "orientation", "mission", "data", "character", "novel", "memo", "world", "release", "publication", "bullpen"]
+ORDER = ["architecture", "execution_control", "resilience", "orientation", "mission", "data", "character", "novel", "memo", "world", "release", "publication", "bullpen"]
 
 def _starts(path: str, prefix: str) -> bool:
     return path == prefix.rstrip("/") or path.startswith(prefix)
@@ -126,6 +130,12 @@ def suites_for_path(path: str) -> set[str]:
         or path in {"docs/SESSION_CONTEXT.md", "living-novel/os/SESSION_CONTEXT.md"}
     ):
         suites.add("execution_control")
+    if (
+        _starts(path, "governance/resilience/")
+        or path == "schemas/production-checkpoint.schema.json"
+        or path in {"docs/SESSION_CONTEXT.md", "living-novel/os/SESSION_CONTEXT.md", "governance/execution-control/TASK_REGISTRY_V1.json"}
+    ):
+        suites.add("resilience")
     if (
         _starts(path, "governance/task-orientation/")
         or path in {"docs/SESSION_CONTEXT.md", "living-novel/os/SESSION_CONTEXT.md", "living-novel/os/TASK_CONTEXT_MATRIX_V1.json"}
