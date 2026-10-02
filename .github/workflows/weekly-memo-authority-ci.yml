@@ -1,0 +1,28 @@
+name: Weekly Memo Authority CI
+
+on:
+  pull_request:
+    paths:
+      - 'PROJECT_CONTROL_REGISTRY.md'
+      - 'memo-os/**'
+      - 'governance/publication-manifest/**'
+      - '.github/workflows/weekly-memo-authority-ci.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'PROJECT_CONTROL_REGISTRY.md'
+      - 'memo-os/**'
+      - 'governance/publication-manifest/**'
+
+jobs:
+  memo-authority:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate publication manifest
+        run: python governance/publication-manifest/validate_publication_manifest.py
+      - name: Test deterministic Memo resolver
+        run: python governance/publication-manifest/test_memo_reference_resolver.py
