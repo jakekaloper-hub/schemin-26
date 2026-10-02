@@ -35,6 +35,7 @@ For character-reference portability specifically, the Twelve were already re-upl
 
 | Intent | Load first |
 |---|---|
+| Resume / interrupted work / fresh handoff / “we already did this” | `governance/resilience/README.md`, `governance/resilience/PRODUCTION_CHECKPOINT_STANDARD_V1.md`, `governance/execution-control/TASK_REGISTRY_V1.json` |
 | Task orientation / AI session startup | `governance/task-orientation/TASK_CONTEXT_MATRIX_V1.json`, this router, `PROJECT_CONTROL_REGISTRY.md` |
 | Execution control / roadmap / task status / blockers / next | `governance/execution-control/TASK_REGISTRY_V1.json`, `governance/execution-control/README.md`, controlling domain source from the matched task |
 | Living Novel / chapter / POV / manuscript / continuity | `living-novel/os/SESSION_CONTEXT.md`, `living-novel/os/TASK_CONTEXT_MATRIX_V1.json`, Whole-Book Source Authority Matrix |
