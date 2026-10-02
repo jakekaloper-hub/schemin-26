@@ -6,7 +6,7 @@
       "system_id": "weekly-memo-v5.5",
       "authority_state": "ACTIVE",
       "anchor_path": "memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md",
-      "current_receipt_id": "MEMO-V55-RELEASE-20260929"
+      "current_receipt_id": "MEMO-V55-SANDBOX-CLOSEOUT-20261002"
     },
     {
       "system_id": "weekly-memo-v5.6",
@@ -19,7 +19,7 @@
       "system_id": "character-generation-enforcement",
       "authority_state": "ACTIVE_SAFETY_BOUNDARY",
       "anchor_path": "canon/_INDEX.md",
-      "current_receipt_id": "CHAR-R4-LIBRARIAN-CLOSEOUT-0C9A000"
+      "current_receipt_id": "CHAR-R5-OUTLIER-CLOSEOUT-20261002"
     },
     {
       "system_id": "character-production",
@@ -295,6 +295,75 @@
       ],
       "source_path": "bullpen/LIBRARIAN_THREAD_CLOSEOUT_CHARACTER_PORTABILITY_2026-10-01.md",
       "supersedes": "CHAR-R3-ENFORCEMENT-1DDB5BE"
+    },
+    {
+      "receipt_id": "MEMO-V55-SANDBOX-CLOSEOUT-20261002",
+      "system_id": "weekly-memo-v5.5",
+      "branch": "close-week4-cover-sandbox",
+      "tested_commit_sha": "262fde8e6b438cbdeb034bcf9853e7e05d719068",
+      "observed_repo_head_sha": "262fde8e6b438cbdeb034bcf9853e7e05d719068",
+      "anchor_path": "memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md",
+      "anchor_blob_sha": "a8e9bb3b79457ecbce2cc2a95b4cdf703c792243",
+      "test_suite": "Week 4 cover sandbox closeout / current authority regression",
+      "execution_timestamp": "2026-10-02T16:41:00Z",
+      "result": "PASS",
+      "unresolved_blockers": [],
+      "required_checks": [
+        {
+          "name": "Week 4 Preproduction CI",
+          "conclusion": "success",
+          "run_id": 37035550006
+        },
+        {
+          "name": "Cross-Domain Authority CI",
+          "conclusion": "success",
+          "run_id": 37035549969
+        },
+        {
+          "name": "Schemin Project Mission CI",
+          "conclusion": "success",
+          "run_id": 37035550573
+        },
+        {
+          "name": "Bullpen Runtime CI",
+          "conclusion": "success",
+          "run_id": 37035550086
+        }
+      ],
+      "source_path": "memo-os/week-4/WEEK_4_COVER_SANDBOX_ACCEPTANCE_CLOSEOUT_2026-10-02.md",
+      "supersedes": "MEMO-V55-RELEASE-20260929"
+    },
+    {
+      "receipt_id": "CHAR-R5-OUTLIER-CLOSEOUT-20261002",
+      "system_id": "character-generation-enforcement",
+      "branch": "close-week4-cover-sandbox",
+      "tested_commit_sha": "aab1e12c44f0ad4d80204ff5f5a590e5ccb7aec3",
+      "observed_repo_head_sha": "aab1e12c44f0ad4d80204ff5f5a590e5ccb7aec3",
+      "anchor_path": "canon/_INDEX.md",
+      "anchor_blob_sha": "4bd44296ce387a6e591c451308f213cdd7df52c1",
+      "test_suite": "Three-outlier authority reconciliation / sandbox closeout",
+      "execution_timestamp": "2026-10-02T16:42:00Z",
+      "result": "PASS",
+      "unresolved_blockers": [],
+      "required_checks": [
+        {
+          "name": "Cross-Domain Authority CI",
+          "conclusion": "success",
+          "run_id": 37035640641
+        },
+        {
+          "name": "Week 4 Preproduction CI",
+          "conclusion": "success",
+          "run_id": 37035640701
+        },
+        {
+          "name": "Schemin Project Mission CI",
+          "conclusion": "success",
+          "run_id": 37035640586
+        }
+      ],
+      "source_path": "memo-os/week-4/WEEK_4_COVER_SANDBOX_ACCEPTANCE_CLOSEOUT_2026-10-02.md",
+      "supersedes": "CHAR-R4-LIBRARIAN-CLOSEOUT-0C9A000"
     }
   ]
 }

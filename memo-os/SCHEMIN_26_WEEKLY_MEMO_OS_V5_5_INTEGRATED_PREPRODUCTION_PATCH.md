@@ -87,3 +87,20 @@ Promotion required and achieved:
 ## 18. Promotion receipt
 Acceptance evidence: `memo-os/tests/V5_5_ACCEPTANCE_RUN_REPORT.md`.
 V5.5 is now the controlling production-hardening patch above V5.4/V5.3. V5.3/CCCP remains authoritative for current character resolution where specified.
+
+
+## 19. Cover sandbox acceptance learning — 2026-10-02
+
+The accepted Week 4 cover sandbox is capability evidence only: **SANDBOX_ACCEPTED / NON_CANON / NON_PUBLICATION / NON_RESULT / NOT_THE_OFFICIAL_WEEK_4_COVER**.
+
+Durable cover controls:
+1. **Cover ≠ matchup opening scene.** A cover requires an issue-level editorial thesis earned from current evidence.
+2. **Story-first hierarchy:** STORY → CHARACTERS → CHARACTER RELATIONSHIP → WORLD → ENVIRONMENTAL DETAIL.
+3. **Reference controls identity, not staging.** A recurring character must not mechanically inherit the pose/composition of its reference image or prior cover. Pose novelty is a QA dimension.
+4. **Behavior is continuity.** Expression, eyeline, posture, action and companion behavior must support the scene. A technically correct character acting emotionally wrong is a material defect.
+5. **Companions count.** Canonical companions receive scene-state QA; species/appearance alone is insufficient.
+6. **Actual-pixel QA is mandatory.** Prompt compliance is not proof. Inspect final raster anatomy, silhouette, pose, expression, interaction, world continuity, deterministic text boundary and story readability.
+7. **Beautiful ≠ PASS.** Visual polish cannot override identity, anatomy, continuity, emotion or story failures.
+8. **Iterative acceptance:** RENDER → INSPECT → DEFECT → DOMAIN OWNER → CORRECT → RERENDER → REINSPECT. Do not approve merely because a later image is prettier.
+9. **Sandbox/canon firewall:** a sandbox may prove capability but cannot mutate results, World Evolution, Living Novel canon, league history, publication manifest, official page register, Story Lock or Cover Lock.
+10. **Official-cover reset:** successful sandbox thesis/copy (including “NOW THE TARGET”) is not automatically eligible for the real Week 4 cover. Real production restarts from current Week 4 evidence → Commissioner context → Story Room → issue-level thesis → character/world resolution → Cover Lock → render → visual QA → publication gate.
