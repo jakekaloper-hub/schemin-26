@@ -3,7 +3,8 @@
 **Date:** 2026-10-01  
 **Mission:** `/bullpen mission — fully synchronize the Librarian with the current Schemin ’26 + Living Novel shared ecosystem`  
 **Authority:** Librarian primary / Bullpen counterweighted review  
-**Observed live main at synthesis:** `4346175e6027114957b64dc3b32e138b9c9e7e1c`  
+**Observed live main at original synthesis:** `4346175e6027114957b64dc3b32e138b9c9e7e1c`
+**Current checkpoint main after 2026-10-02 authority hardening:** `0c1c5cd76ae8dd188526f698ac1a59b28e2aa4b0`  
 **Mission state:** SYNCHRONIZED / PR #86 MERGE-RESULT CERTIFIED  
 **Repository:** `jakekaloper-hub/schemin-26`
 
@@ -473,3 +474,51 @@ The PR remains subject to one final current-head rerun after this certification-
 **PASS — Librarian is synchronized across Schemin ’26 + Living Novel at the control-plane level.**
 
 This PASS certifies authority reconciliation and repository routing. It does not close #62, #58, Week 4 Story Lock, Week 4 publication, CCP v2 activation, or Chapter IV authorization.
+
+
+# 2026-10-02 CURRENT-AUTHORITY HARDENING ADDENDUM
+
+PR #99 hardened clean-context authority resolution across Memo, character visuals, World/Atlas, Novel, league freshness and session routing.
+
+## New universal retrieval law
+
+**Historical benchmark is not current authority. Current authority is not automatically production-eligible.**
+
+Resolve authority by:
+
+`DOMAIN + TEMPORAL SCOPE + RELEASE STATE + PRODUCTION ELIGIBILITY`
+
+Do not select an older source merely because it is easier to retrieve, more frequently referenced, semantically similar, or historically labeled canon/gold standard.
+
+## Current routing stack
+
+Future Librarian/session startup should treat the routing layers as complementary:
+
+1. `PROJECT_CONTROL_REGISTRY.md`
+2. `governance/task-orientation/TASK_CONTEXT_MATRIX_V1.json`
+3. `governance/execution-control/TASK_REGISTRY_V1.json` when work state/resume matters
+4. owning domain resolver/index
+5. release/freshness/production eligibility evidence
+
+Repository Architecture V2 and Resilience controls remain independently binding; current-authority routing does not replace them.
+
+## Domain-specific authority improvements
+
+- Weekly Memo current/latest publication identity resolves through Publication Manifest + deterministic Memo resolver; Week 2 remains historical gold standard, Week 3 is current released benchmark until superseded.
+- character visual work resolves active machine visual authority and owner-specific source/hash evidence before stale composites or legacy prose.
+- World/Atlas current governed state outranks rendered scenery/historical releases.
+- Novel current manuscript/canon registries outrank drafts and consultant candidates.
+- live league claims require freshness; historical valid snapshots cannot masquerade as live.
+
+## Merge protection
+
+Cross-domain authority checks are now part of the Repository Merge Gate for authority-sensitive paths, not merely a standalone workflow.
+
+## Durable learning
+
+Read:
+`bullpen/LIBRARIAN_CURRENT_AUTHORITY_LEARNING_2026-10-02.md`
+
+## Issue #98 disposition
+
+The stale-authority incident class has been patched and regression-protected. Issue #98 may close after this checkpoint refresh is merged and current-head validation passes.
