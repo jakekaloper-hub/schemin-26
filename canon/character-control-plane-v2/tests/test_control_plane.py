@@ -20,7 +20,7 @@ class CCPV2Tests(unittest.TestCase):
   self.assertEqual(resolve("The Immortal",RECORDS)["record"].character_id,"CHAR-AUSTIN-BYARS")
   self.assertEqual(resolve("That's Fantasy",RECORDS)["record"].character_id,"CHAR-AUSTIN-BYARS")
  def test_retired_wilson_forward_resolves(self):
-  x=resolve("Arsenal Centaur",RECORDS); self.assertEqual(x["record"].identity,"Arsenal Gorilla Warrior"); self.assertEqual(x["input_state"],"SUPERSEDED_ALIAS")
+  x=resolve("Arsenal Centaur",RECORDS); self.assertEqual(x["record"].identity,"Arsenal Gorilla Centaur Warrior"); self.assertNotEqual(x["input_state"],"SUPERSEDED_ALIAS")
  def test_pitts_anatomy(self):
   p=resolve("Three Dreaded Snake",RECORDS)["record"]; self.assertIn("exactly THREE",p.species_body); self.assertIn("ONE BODY",p.hard_locks)
  def test_jake_belt(self):

@@ -31,19 +31,21 @@
     "stale_for": [
       {
         "character_id": "CHAR-WILSON-LOOK",
-        "reason": "owner-specific 2026-09-29 Arsenal Gorilla Warrior supersedes retired centaur panel",
+        "reason": "Commissioner correction 2026-10-02: current owner-specific source depicts canonical ONE-BODY Arsenal Gorilla Centaur Warrior — gorilla head/upper identity integrated with four-legged centaur/equine lower body; prior semantic 'centaur retired' interpretation is stale",
         "active_source_filename": "IMG_7866(1).jpeg",
-        "expected_sha256": "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10"
+        "expected_sha256": "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10",
+        "commissioner_correction": "2026-10-02",
+        "canonical_architecture": "ONE BODY: gorilla head/upper identity + four-legged centaur/equine lower body + Arsenal supporter identity"
       },
       {
         "character_id": "CHAR-PHILLIP-PITTS",
-        "reason": "current owner-specific identity authority requires one body with exactly three serpent heads",
+        "reason": "current owner-specific identity authority requires ONE reptilian humanoid BODY with EXACTLY THREE serpent HEADS; older single-head/never-three-head doctrine is stale",
         "active_source_filename": "IMG_2178.jpeg",
         "expected_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c"
       },
       {
         "character_id": "CHAR-AUSTIN-BYARS",
-        "reason": "current owner-specific Commissioner reference outranks lineup panel",
+        "reason": "current owner-specific Commissioner reference controls The Belt Keeper; team-name semantics must never redesign him as king/crowned royal, vampire, or blood mascot",
         "active_source_filename": "IMG_2179.jpeg",
         "expected_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76"
       }
@@ -62,5 +64,15 @@
       "state": "NON_AUTHORITATIVE_DERIVED",
       "reason": "Convenience derivative may assist human comparison only; current production must resolve to approved source hash."
     }
-  ]
+  ],
+  "outlier_reconciliation_2026_10_02": {
+    "status": "ACTIVE",
+    "issue": 104,
+    "characters": [
+      "CHAR-WILSON-LOOK",
+      "CHAR-PHILLIP-PITTS",
+      "CHAR-AUSTIN-BYARS"
+    ],
+    "rule": "Owner-specific approved source/hash plus latest explicit Commissioner correction outrank contradictory semantic prose. TDS/HMB retain their approved source/hash; DK anatomy correction changes semantic interpretation of the existing approved source, not its bytes."
+  }
 }

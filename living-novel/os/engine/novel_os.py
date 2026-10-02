@@ -54,9 +54,9 @@ def validate_character_text(text:str)->list[Finding]:
     if "obiwan jacoby" in low or "jake kaloper" in low or "trade jedi" in low:
         if re.search(r"(his|jake'?s|obiwan'?s).{0,30}championship belt",low):
             f.append(Finding("CHAR-JAKE-BELT","FATAL","Trade Jedi may not possess/wear a championship belt."))
-    if any(x in low for x in ("donkey kong","d0nkey k0ng","wilson look","arsenal gorilla warrior")):
-        if re.search(r"\bcentaur\b|\bequine\b|horse[- ]bodied|equine lower body",low):
-            f.append(Finding("CHAR-WILSON-SPECIES","FATAL","Current Wilson Look canon is Arsenal Gorilla Warrior; centaur/equine anatomy is retired."))
+    if any(x in low for x in ("donkey kong","d0nkey k0ng","wilson look","arsenal gorilla warrior","arsenal gorilla centaur warrior")):
+        if re.search(r"generic bipedal gorilla|human rider on horse|separate gorilla|horse-headed centaur|two[- ]creature",low):
+            f.append(Finding("CHAR-WILSON-SPECIES","FATAL","Wilson Look must remain ONE Arsenal gorilla-centaur hybrid body: gorilla head/upper identity integrated with a four-legged centaur/equine lower body."))
     if "his majesty's blood" in low and re.search(r"\bking\b|\bcrown\b",low):
         f.append(Finding("CHAR-BYARS-ROYAL","IMPORTANT","Team rename must not redefine Belt Keeper as a king/crowned character."))
     return f

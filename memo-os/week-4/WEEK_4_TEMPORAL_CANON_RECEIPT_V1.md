@@ -12,7 +12,7 @@
 | Kevin Zeek | Red Leopards | The Predator Board |
 | Jordan Hollingshead | Slob on my Dobb | Frat-Bro Berserker; Win Ugly/Fart Star may appear as presentation aliases |
 | David Babb | The LLC | Hostile Takeover |
-| Wilson Look | D0nkey K0ng | Arsenal Gorilla Warrior — 2026-09-29 redesign; centaur/equine form RETIRED for new production |
+| Wilson Look | D0nkey K0ng | Arsenal Gorilla Centaur Warrior — ONE BODY: gorilla head/upper identity + FOUR-LEGGED centaur/equine lower body + Arsenal supporter identity; Commissioner clarification 2026-10-02 |
 | Phillip Pitts | Three Dreaded Snake | The Podium Shadow — ONE reptilian humanoid BODY with EXACTLY THREE serpent HEADS |
 | Brandon Pryor | Chili Cheesers | The Chili Outlaw + The Dark Horse |
 | Manning Welty | El Niño | The Weather System |

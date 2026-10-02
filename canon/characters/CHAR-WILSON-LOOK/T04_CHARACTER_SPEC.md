@@ -3,14 +3,16 @@
 status: ACTIVE / T04_CANDIDATE
 owner: Wilson Look
 current_team: Donkey Kong
-canonical_identity: Arsenal Gorilla Warrior
+canonical_identity: Arsenal Gorilla Centaur Warrior
 
 ## Primary identity evidence
-Commissioner-supplied 2026-09-29 owner reference. SHA-256: `d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10`. Render quality: HIGH. See `../COMMISSIONER_REFERENCE_REGISTER_12_OF_12.md`.
+Commissioner-supplied owner reference `IMG_7866(1).jpeg`. SHA-256: `d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10`. Render quality: HIGH. Commissioner correction 2026-10-02 clarifies the anatomy represented by this same approved source; no source/hash supersession is implied.
 
 ## IMMUTABLE
-- Species/body architecture: gorilla
-- Visual DNA: massive black-furred gorilla; broad shoulders; long powerful arms; dark primate face; Arsenal-red football-war armor; bronze/gold accents
+- Species/body architecture: ONE hybrid centaur-bodied gorilla warrior
+- Head/upper identity: black-furred gorilla head/face and powerful gorilla/humanoid armored upper torso
+- Lower body: integrated FOUR-LEGGED centaur/equine lower body
+- Visual DNA: Arsenal-red football-war armor; bronze/gold accents; cannon/supporter heraldry; one continuous hybrid silhouette
 - Team rename does not redesign this character.
 
 ## CONTROLLED_VARIABLE
@@ -29,16 +31,19 @@ Commissioner-supplied 2026-09-29 owner reference. SHA-256: `d6279c5ca904c20de1e5
 ## Signature objects / companions
 - Props: ornate double-headed axe; metal tankard
 - Companion: UNKNOWN
-- Canon environment anchor: monumental high-fantasy battlefield
+- Canon environment anchor: monumental high-fantasy battlefield / Arsenal stronghold
 
 ## NEGATIVE LOCKS
-centaur; equine body; mounted-human substitute; human-only barbarian; generic jungle mascot
+generic bipedal gorilla; horse-headed centaur; human rider on horse; separate gorilla plus horse; two-creature substitute; human-only barbarian; generic jungle mascot; Arsenal identity omitted
+
+## HARD LOCKS
+ONE BODY; GORILLA HEAD/UPPER IDENTITY; FOUR-LEGGED CENTAUR LOWER BODY; ARSENAL SUPPORTER IDENTITY
 
 ## Render contract
-Resolve owner → CHAR-WILSON-LOOK → ACTIVE package → Commissioner reference → immutable locks → controlled/scene variables. Never infer anatomy from team name. Never borrow another owner's prop, companion, species, wardrobe or silhouette. If the approved reference bytes cannot be retrieved by the renderer, return HUMAN_REVIEW_REQUIRED rather than substitute historical art.
+Resolve owner → CHAR-WILSON-LOOK → ACTIVE package → Commissioner reference → immutable locks → controlled/scene variables. Never split the hybrid into rider + mount or two creatures. If approved reference bytes cannot be retrieved by the renderer, return HUMAN_REVIEW_REQUIRED rather than substitute historical art.
 
 ## QA contract
-Required checks: OWNER_MATCH; ACTIVE_IDENTITY; REFERENCE_PROVENANCE; SPECIES_BODY; HEAD_FACE; SILHOUETTE; SIGNATURE_WARDROBE; SIGNATURE_OBJECTS; COMPANION_WHEN_REQUIRED; NO_RETIRED_DESIGN; NO_CROSS_CHARACTER_CONTAMINATION; TEAM_RENAME_SAFE. Outcomes only: PASS / REGENERATE / HUMAN_REVIEW_REQUIRED. Publication requires PASS.
+Required checks: OWNER_MATCH; ACTIVE_IDENTITY; REFERENCE_PROVENANCE; ONE_BODY; GORILLA_HEAD_UPPER; FOUR_LEGGED_CENTAUR_LOWER; ARSENAL_IDENTITY; SILHOUETTE; SIGNATURE_OBJECTS; NO_SPLIT_BODY; NO_CROSS_CHARACTER_CONTAMINATION; TEAM_RENAME_SAFE. Outcomes only: PASS / REGENERATE / HUMAN_REVIEW_REQUIRED. Publication requires PASS.
 
 ## Provenance
-Semantic authority: `../../SCHEMIN_26_MASTER_CHARACTER_CANON.md` + `../../CHARACTER_REFERENCE_LAYER_V1.md`. Visual identity authority: Commissioner reference register. Unknown fields remain UNKNOWN; this specification does not invent missing canon.
+Commissioner correction 2026-10-02 resolves the prior semantic misdescription that incorrectly retired centaur anatomy while retaining the same approved visual source/hash. Visual identity authority remains the Commissioner-approved source bytes; semantic consumers must match that source.
