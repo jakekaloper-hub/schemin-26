@@ -70,7 +70,10 @@ if "not a second source of truth" not in dg: errors.append("DATA_FLAIM_BOUNDARY"
 
 # Novel: task routing must retain authority matrix for canon-bearing work.
 novel_matrix=json.loads(read("living-novel/os/TASK_CONTEXT_MATRIX_V1.json"))
-if not any("WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md" in r.get("context_sources",[]) for r in novel_matrix.get("routes",[])):
+if not any(
+    any(str(src).endswith("WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md") for src in route.get("context_sources", []))
+    for route in novel_matrix.get("routes", [])
+):
     errors.append("NOVEL_AUTHORITY_ROUTE")
 
 if errors:
