@@ -19,7 +19,7 @@
       "system_id": "character-generation-enforcement",
       "authority_state": "ACTIVE_SAFETY_BOUNDARY",
       "anchor_path": "canon/_INDEX.md",
-      "current_receipt_id": "CHAR-R4-LIBRARIAN-CLOSEOUT-0C9A000"
+      "current_receipt_id": "CHAR-R5-OUTLIER-CLOSEOUT-20261002"
     },
     {
       "system_id": "character-production",
@@ -332,6 +332,38 @@
       ],
       "source_path": "memo-os/week-4/WEEK_4_COVER_SANDBOX_ACCEPTANCE_CLOSEOUT_2026-10-02.md",
       "supersedes": "MEMO-V55-RELEASE-20260929"
+    },
+    {
+      "receipt_id": "CHAR-R5-OUTLIER-CLOSEOUT-20261002",
+      "system_id": "character-generation-enforcement",
+      "branch": "close-week4-cover-sandbox",
+      "tested_commit_sha": "aab1e12c44f0ad4d80204ff5f5a590e5ccb7aec3",
+      "observed_repo_head_sha": "aab1e12c44f0ad4d80204ff5f5a590e5ccb7aec3",
+      "anchor_path": "canon/_INDEX.md",
+      "anchor_blob_sha": "4bd44296ce387a6e591c451308f213cdd7df52c1",
+      "test_suite": "Three-outlier authority reconciliation / sandbox closeout",
+      "execution_timestamp": "2026-10-02T16:42:00Z",
+      "result": "PASS",
+      "unresolved_blockers": [],
+      "required_checks": [
+        {
+          "name": "Cross-Domain Authority CI",
+          "conclusion": "success",
+          "run_id": 37035640641
+        },
+        {
+          "name": "Week 4 Preproduction CI",
+          "conclusion": "success",
+          "run_id": 37035640701
+        },
+        {
+          "name": "Schemin Project Mission CI",
+          "conclusion": "success",
+          "run_id": 37035640586
+        }
+      ],
+      "source_path": "memo-os/week-4/WEEK_4_COVER_SANDBOX_ACCEPTANCE_CLOSEOUT_2026-10-02.md",
+      "supersedes": "CHAR-R4-LIBRARIAN-CLOSEOUT-0C9A000"
     }
   ]
 }
