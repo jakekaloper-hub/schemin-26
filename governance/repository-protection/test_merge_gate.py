@@ -14,6 +14,12 @@ class MergeGatePlannerTests(unittest.TestCase):
     def test_docs_only_has_no_heavy_suite(self):
         self.assertEqual(merge_gate.plan(["docs/notes/README.md"]), [])
 
+    def test_resilience_change_triggers_resilience_suite(self):
+        self.assertIn(
+            "resilience",
+            merge_gate.plan(["governance/resilience/README.md"]),
+        )
+
     def test_task_orientation_change_runs_orientation(self):
         self.assertIn(
             "orientation",
