@@ -1,3 +1,6 @@
+> **WILSON LOOK CANON CORRECTION — 2026-10-02**  
+> Commissioner authority: D0nkey K0ng / Wilson Look is the **Arsenal Gorilla Centaur Warrior**: one continuous body with gorilla head/upper warrior identity, powerful black-furred armored torso, four-legged centaur lower body, and intrinsic Arsenal supporter identity. Earlier 2026-09-29 language treating centaur/equine anatomy as retired was an erroneous interpretation of the current Wilson reference and is superseded.
+
 # Schemin '26 — Project Control Registry
 
 **Status:** ACTIVE  

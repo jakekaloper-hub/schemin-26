@@ -25,7 +25,7 @@ The current master character canon plus current owner-scoped registry/reference 
 
 ## Current high-risk corrections
 
-- Wilson Look / Donkey Kong: **Arsenal Gorilla Warrior**, effective 2026-09-29. Former Arsenal Centaur is retired for new production.
+- Wilson Look / Donkey Kong: **Arsenal Gorilla Centaur Warrior**, Commissioner-corrected 2026-10-02. ONE BODY: gorilla head/upper warrior identity + four-legged centaur lower body + Arsenal supporter identity. The 2026-09-29 `centaur retired` interpretation was erroneous and is superseded.
 - Phillip Pitts / Three Dreaded Snake: **one reptilian humanoid body with exactly three serpent heads**.
 - Jake Kaloper / ObiWan Jacoby: **The Trade Jedi — NO championship belt**.
 - Brandon Pryor / Chili Cheesers: **The Chili Outlaw + The Dark Horse**.

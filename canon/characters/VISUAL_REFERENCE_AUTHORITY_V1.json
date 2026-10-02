@@ -31,9 +31,17 @@
     "stale_for": [
       {
         "character_id": "CHAR-WILSON-LOOK",
-        "reason": "owner-specific 2026-09-29 Arsenal Gorilla Warrior supersedes retired centaur panel",
+        "reason": "owner-specific IMG_7866(1).jpeg remains current visual authority; Commissioner clarified 2026-10-02 that its correct morphology is ONE Arsenal gorilla-centaur body (gorilla head/upper warrior identity + four-legged centaur lower body). Older lineup remains stale because it does not control the corrected owner-specific architecture.",
         "active_source_filename": "IMG_7866(1).jpeg",
-        "expected_sha256": "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10"
+        "expected_sha256": "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10",
+        "semantic_lock": "ONE BODY: gorilla head/upper warrior identity + four-legged centaur lower body + Arsenal supporter identity",
+        "reject": [
+          "bipedal gorilla-only body",
+          "horse-headed centaur",
+          "separate gorilla and horse",
+          "gorilla riding horse",
+          "mounted-human substitute"
+        ]
       },
       {
         "character_id": "CHAR-PHILLIP-PITTS",
