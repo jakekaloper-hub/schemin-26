@@ -1,0 +1,89 @@
+{
+  "version": "1.0.0",
+  "authority": "Owning creative OS + The Librarian / Umpire",
+  "purpose": "Machine-readable coverage map for creative conditioning layers; inspired by FLA Voice/Prompt Ledger without creating a second prompt engine.",
+  "systems": [
+    {
+      "id": "weekly-memo",
+      "entry_point": "memo-os/_INDEX.md",
+      "required_layers": [
+        {
+          "id": "league_truth",
+          "authority": "data-gateway/_INDEX.md"
+        },
+        {
+          "id": "temporal_and_issue_control",
+          "authority": "memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md"
+        },
+        {
+          "id": "character_canon",
+          "authority": "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+        },
+        {
+          "id": "world_location",
+          "authority": "world/atlas/ATLAS_CONTROL_PLANE_V2.md"
+        },
+        {
+          "id": "issue_previs_and_page_packet",
+          "authority": "memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md"
+        },
+        {
+          "id": "release_qa",
+          "authority": "governance/release-evidence/registry.json"
+        }
+      ],
+      "drift_signals": [
+        "character identity mismatch",
+        "retired design reappearance",
+        "world/location reset without consequence",
+        "issue visual-rhythm repetition",
+        "copy-density/mobile regression",
+        "prose/visual redundancy",
+        "exact league facts rendered nondeterministically"
+      ]
+    },
+    {
+      "id": "living-novel",
+      "entry_point": "living-novel/os/SESSION_CONTEXT.md",
+      "required_layers": [
+        {
+          "id": "verified_evidence",
+          "authority": "data-gateway/_INDEX.md"
+        },
+        {
+          "id": "whole_book_authority",
+          "authority": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md"
+        },
+        {
+          "id": "causal_architecture",
+          "authority": "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md"
+        },
+        {
+          "id": "pov",
+          "authority": "living-novel/os/NOVEL_POV_CONSTITUTION_V1.md"
+        },
+        {
+          "id": "open_loops",
+          "authority": "living-novel/os/state/CURRENT_OPEN_LOOP_LEDGER_V1.json"
+        },
+        {
+          "id": "world_location",
+          "authority": "living-novel/os/LOCATION_CONTROL_PLANE_INTEGRATION_PATCH_V1.md"
+        },
+        {
+          "id": "canon_gate",
+          "authority": "living-novel/os/NOVEL_OS_CANON_PROTOCOL_V1.md"
+        }
+      ],
+      "drift_signals": [
+        "weekly-recap structure replacing causal chapter architecture",
+        "POV voice or knowledge leakage",
+        "open loop silently dropped",
+        "world geography contradiction",
+        "future outcome used as prior character knowledge",
+        "advisory opinion treated as canon",
+        "manuscript mutation before acceptance"
+      ]
+    }
+  ]
+}

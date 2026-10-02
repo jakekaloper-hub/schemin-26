@@ -16,6 +16,7 @@ Belongs here:
 Human-readable governance doctrine belongs in `../docs/governance/`.
 
 Major controls:
+- `resilience/`
 - `execution-control/`
 - `publication-manifest/`
 - `release-evidence/`

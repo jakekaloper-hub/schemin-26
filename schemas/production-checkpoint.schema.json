@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemin26.local/schemas/production-checkpoint.schema.json",
+  "title": "Schemin Production Checkpoint V1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "checkpoint_id",
+    "project",
+    "workflow",
+    "stage",
+    "owner",
+    "source_authority",
+    "completed_at",
+    "input_fingerprints",
+    "outputs",
+    "evidence",
+    "invalidation_triggers"
+  ],
+  "properties": {
+    "version": {
+      "const": "1.0.0"
+    },
+    "checkpoint_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "project": {
+      "type": "string",
+      "minLength": 1
+    },
+    "workflow": {
+      "type": "string",
+      "minLength": 1
+    },
+    "stage": {
+      "type": "string",
+      "minLength": 1
+    },
+    "owner": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_authority": {
+      "type": "string",
+      "minLength": 1
+    },
+    "completed_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "input_fingerprints": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/fingerprint"
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/fingerprint"
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "invalidation_triggers": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "$defs": {
+    "fingerprint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "digest_algo",
+        "digest"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "digest_algo": {
+          "enum": [
+            "sha256",
+            "git_blob"
+          ]
+        },
+        "digest": {
+          "type": "string",
+          "minLength": 7
+        }
+      }
+    }
+  }
+}

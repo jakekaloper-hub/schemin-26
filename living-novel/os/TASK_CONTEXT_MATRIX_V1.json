@@ -186,6 +186,24 @@
         "governance/execution-control/TASK_REGISTRY_V1.json",
         "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md"
       ]
+    },
+    {
+      "id": "resilience-and-handoff",
+      "terms": [
+        "resume",
+        "checkpoint",
+        "handoff",
+        "fresh operator",
+        "interrupted",
+        "recover chapter",
+        "already did this",
+        "we already did this"
+      ],
+      "context_sources": [
+        "governance/resilience/README.md",
+        "governance/resilience/PRODUCTION_CHECKPOINT_STANDARD_V1.md",
+        "governance/execution-control/TASK_REGISTRY_V1.json"
+      ]
     }
   ]
 }

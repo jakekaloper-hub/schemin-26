@@ -28,3 +28,21 @@ If a Schemin need reveals a reusable platform defect or capability gap:
 2. open/implement the reusable change in FLA;
 3. record the FLA commit/PR reference in Schemin;
 4. keep league-specific configuration in Schemin.
+
+
+## Resilience pattern harvest — 2026-10-02
+
+Pinned FLA source revision: `1494d7cb5342c186ac7f7ebfa84d75129ebc6496`.
+
+Adapted into Schemin:
+- durable step-checkpoint semantics → repository/evidence-backed production checkpoint standard;
+- fresh-operator handoff Gate R7 → executable clean-session handoff regression;
+- Voice/Prompt Ledger conditioning-coverage idea → Memo/Novel creative-conditioning registry.
+
+Explicitly not imported:
+- FLA's Supabase checkpoint runtime;
+- always-on autonomous remediation/sentinel infrastructure;
+- episodic LLM memory as source of truth;
+- paid provider dependencies.
+
+See `../../governance/resilience/FLA_PATTERN_HARVEST_V1.md`.
