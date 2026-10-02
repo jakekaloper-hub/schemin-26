@@ -132,7 +132,7 @@ Read:
 
 Rule: **OWNER → CANONICAL CHARACTER → CURRENT TEAM NAME**.
 
-Latest explicit Commissioner-approved corrections outrank older visual plates and historical production. Current examples include Wilson Look's 2026-09-29 Arsenal Gorilla Warrior redesign and Phillip Pitts' one-body/three-serpent-head lock.
+Latest explicit Commissioner-approved corrections outrank older visual plates and historical production. Current high-risk examples include Wilson Look's 2026-10-02 **Arsenal Gorilla Centaur Warrior** clarification (ONE body: gorilla head/upper identity + four-legged centaur/equine lower body + Arsenal supporter identity), Phillip Pitts' one-body/exactly-three-serpent-head lock, Austin Byars' Belt Keeper/championship-belt lock, and Jake Kaloper's beltless Trade Jedi lock.
 
 The typed Character Control Plane v2 under `canon/character-control-plane-v2/` is **RELEASE_CANDIDATE / NOT ACTIVE** until its release gates close. Do not treat v2 existence as runtime promotion.
 
