@@ -49,7 +49,7 @@ For character-reference portability, do not request another bulk upload of the T
 
 | Intent | Load first |
 |---|---|
-| Resume / interrupted work | `governance/resilience/README.md`, Execution Control registry |
+| Resume / interrupted work | `governance/resilience/README.md`, `governance/execution-control/TASK_REGISTRY_V1.json` |
 | Weekly Memo current/latest | Publication Manifest + resolver, `memo-os/_INDEX.md` |
 | Weekly Memo historical | Publication Manifest + exact week release evidence |
 | League truth | `data-gateway/_INDEX.md` + freshness contract |
@@ -58,7 +58,7 @@ For character-reference portability, do not request another bulk upload of the T
 | World / Atlas | World Engine release authority + Atlas control plane |
 | Publication identity | Publication Manifest + Project Control Registry |
 | Bullpen / system | Bullpen index + Authority Matrix + this router |
-| Execution status | Execution Control registry |
+| Execution status | `governance/execution-control/TASK_REGISTRY_V1.json`, `governance/execution-control/README.md` |
 
 
 ## Repository architecture authority
