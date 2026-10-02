@@ -39,7 +39,7 @@ For character-reference portability specifically, the Twelve were already re-upl
 | Execution control / roadmap / task status / blockers / next | `governance/execution-control/TASK_REGISTRY_V1.json`, `governance/execution-control/README.md`, controlling domain source from the matched task |
 | Living Novel / chapter / POV / manuscript / continuity | `living-novel/os/SESSION_CONTEXT.md`, `living-novel/os/TASK_CONTEXT_MATRIX_V1.json`, Whole-Book Source Authority Matrix |
 | General Schemin '26 orientation | `PROJECT_CONTROL_REGISTRY.md`, `docs/governance/SOURCE_OF_TRUTH.md`, `planning/ROADMAP.md` |
-| Produce or repair Weekly Memo | `memo-os/_INDEX.md`, V5 Studio Patch, V5.2-RC Patch, Master Character Canon |
+| Produce or repair Weekly Memo | `memo-os/_INDEX.md`, `memo-os/V5_6_CURRENT_MAIN_RECONCILIATION_V1.md`, Master Character Canon |
 | Audit Weekly Memo quality | V5.2-RC Patch, Gold-Standard Production Manual, `tests/README.md`, Character Canon |
 | ESPN / stale data / roster mismatch | `data-gateway/_INDEX.md`, Operational Patch, ESPN Reliability Patch, freshness schema |
 | Trade / waiver / lineup / roster decision | `mercer/_INDEX.md`, Mercer Operating Contract, current validated league state |

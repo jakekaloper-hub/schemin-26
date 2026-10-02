@@ -47,6 +47,9 @@ def validate_matrix(path: Path) -> list[str]:
     max_sources = int(defaults.get("max_context_sources", 4))
     if max_sources > 4:
         errors.append(f"{path}: max_context_sources exceeds Schemin context-economy ceiling")
+    default_sources = list(dict.fromkeys(defaults.get("context_sources", [])))
+    if len(default_sources) > max_sources:
+        errors.append(f"{path}: pinned default context exceeds {max_sources} context sources")
     seen: set[str] = set()
     for route in data.get("routes", []):
         rid = route.get("id")
@@ -61,8 +64,12 @@ def validate_matrix(path: Path) -> list[str]:
         sources = route.get("context_sources", [])
         if not sources:
             errors.append(f"{path}: route {rid} has no context sources")
-        if len(sources) > max_sources:
-            errors.append(f"{path}: route {rid} exceeds {max_sources} context sources")
+        packet = list(dict.fromkeys(default_sources + sources))
+        if len(packet) > max_sources:
+            errors.append(
+                f"{path}: route {rid} declared packet exceeds {max_sources} context sources "
+                f"after pinned defaults ({len(packet)} unique sources)"
+            )
         for source in sources:
             if not (ROOT / source).exists():
                 errors.append(f"{path}: route {rid} references missing source {source}")
