@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "project": "Schemin '26",
   "authority": "The Librarian + SCK / Executive Control",
   "purpose": "Route a task to the minimum authoritative Schemin context before broader repository search.",
@@ -8,6 +8,13 @@
     "max_context_sources": 4,
     "context_sources": [
       "PROJECT_CONTROL_REGISTRY.md"
+    ],
+    "authority_resolution_rules": [
+      "historical benchmark != current authority",
+      "current authority != production eligibility",
+      "explicit historical requests remain historical",
+      "current/latest requests must resolve current authority",
+      "unknown/unavailable authority fails closed; never silently substitute an older artifact"
     ]
   },
   "routes": [
@@ -25,9 +32,9 @@
         "publication"
       ],
       "context_sources": [
-        "memo-os/_INDEX.md",
-        "memo-os/V5_6_CURRENT_MAIN_RECONCILIATION_V1.md",
-        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+        "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+        "governance/publication-manifest/memo_reference_resolver.py",
+        "memo-os/_INDEX.md"
       ]
     },
     {
@@ -65,8 +72,8 @@
       ],
       "context_sources": [
         "canon/_INDEX.md",
-        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
-        "planning/character-native-render/CHARACTER_SOURCE_BYTE_NATIVE_RENDER_LIFECYCLE_V1.md"
+        "canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json",
+        "canon/characters/reference_sources_v1.json"
       ]
     },
     {
@@ -103,9 +110,9 @@
         "world evolution"
       ],
       "context_sources": [
-        "world/UNIVERSE_OS_V1_2_RELEASE_RECEIPT.md",
-        "world/atlas/ATLAS_CONTROL_PLANE_V2.md",
-        "living-novel/world/PHYSICAL_WORLD.md"
+        "world/SCHEMIN_WORLD_ENGINE_V1_1_RELEASE_RECEIPT.md",
+        "world/governance/UNIVERSE_OS_AUTHORITY_HIERARCHY_V2.md",
+        "world/atlas/ATLAS_CONTROL_PLANE_V2.md"
       ]
     },
     {
