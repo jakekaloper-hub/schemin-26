@@ -60,7 +60,7 @@ V1.1 hydrates the graph from world/data/locations.json and world/data/routes.jso
 
 Novel OS still contained an obsolete validator that treated a gorilla D0nkey K0ng as a fatal error and referred to the retired Arsenal Centaur.
 
-V1.1 corrects it: Arsenal Gorilla Warrior is current valid canon; centaur/equine anatomy is current-canon drift. Character Control Plane remains body-form authority.
+**Supersession note 2026-10-02:** this V1.1 conclusion is historical. Commissioner clarification establishes the Arsenal Gorilla Centaur Warrior as current canon: ONE gorilla-headed/upper hybrid body with FOUR-LEGGED centaur/equine lower body. Character Control Plane remains body-form authority.
 
 ## Civil/personhood model
 

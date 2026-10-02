@@ -138,7 +138,7 @@ The Master Character Canon controls visual identity.
 Examples of critical locks include:
 - ObiWan Jacoby / Trade Jedi: **NO championship belt**.
 - Austin Byars: Belt Keeper identity persists through team renames.
-- Wilson Look: Arsenal Gorilla Warrior (2026-09-29 active redesign); massive black-furred gorilla, Arsenal-red warrior identity, ornate double-headed axe, metal tankard; never centaur/equine anatomy.
+- Wilson Look: Arsenal Gorilla Centaur Warrior (Commissioner clarification 2026-10-02); ONE hybrid body with gorilla head/upper identity + FOUR-LEGGED centaur/equine lower body, Arsenal-red supporter identity, ornate double-headed axe, metal tankard.
 - Brandon Pryor: Chili Outlaw + Dark Horse; retired concepts stay retired.
 
 Do not reinterpret a character from the current team name.

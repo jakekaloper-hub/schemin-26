@@ -19,7 +19,7 @@ A lower layer may enrich a higher layer but may not contradict it.
 
 ## Immediate supersessions / quarantine
 
-- Wilson Look / D0nkey K0ng: current active 2026-09-29 design is the Arsenal-red **gorilla warrior**. Centaur/equine anatomy is retired for new Living Novel prose and visuals.
+- Wilson Look / D0nkey K0ng: current Commissioner-clarified 2026-10-02 design is the **Arsenal Gorilla Centaur Warrior** — ONE body with gorilla head/upper identity integrated with a FOUR-LEGGED centaur/equine lower body; Arsenal supporter identity remains mandatory.
 - Phillip Pitts / TDS: one reptilian humanoid character. Any stale multi-headed POV note is quarantined.
 - Living Novel El Niño: Founder directive now governs El Niño as a **mobile storm system / natural-disaster force, not an embodied speaking character**. No El Niño interior POV or dialogue. Earlier elemental-humanoid literary treatment is superseded for the Living Novel unless the Founder later restores it.
 - Austin Byars, Zach Wilson/Dr. Duckhook, and The LLC are one-of-a-kind powers. Do not infer a broader species/population from their bodies or archetypes.
@@ -131,7 +131,7 @@ Large hosts require supply. Victories can move prices, labor, credit, tolls, gui
 **Jake / ObiWan:** human; belongs to broader human/upland societies and orders.  
 **Kevin / Red Leopards:** red-leopard people/culture exist beyond Kevin.  
 **Jordan / Slob:** horned rough-country human-beast people/culture exist beyond Jordan.  
-**Wilson / D0nkey K0ng:** gorilla warrior people/culture exist beyond Wilson.  
+**Wilson / D0nkey K0ng:** population ontology is unresolved; do not infer a gorilla-only people from Wilson's singular hybrid body.  
 **Phillip / TDS:** reptilian people/culture exist beyond Phillip.  
 **Brandon / Chili:** human frontier/tableland communities; his people share a contact zone with TDS's reptilian population.  
 **Bobby / Mud Dogs:** great wetland canine/wolf packs and communities exist beyond Bobby.  
