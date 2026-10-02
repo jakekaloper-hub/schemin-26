@@ -69,7 +69,39 @@ class TaskContextMatrixTests(unittest.TestCase):
         )
         self.assertLessEqual(len(second["context_sources"]), 4)
         self.assertIn("living-novel/os/templates/MINIMUM_PRE_PROSE_GATE_V1.md", second["context_sources"])
+        self.assertIn("living-novel/os/state/CURRENT_OPEN_LOOP_LEDGER_V1.json", second["context_sources"])
+        self.assertNotIn("living-novel/os/NOVEL_BOOK_ARCHITECTURE_V2.md", second["context_sources"])
         self.assertNotIn("living-novel/consultants/NOVEL_EXTERNAL_ADVISORY_COUNCIL_V1.md", second["context_sources"])
+
+    def test_declared_packets_fit_without_silent_truncation(self):
+        import json
+        for path in validator.MATRICES:
+            data = json.loads(path.read_text())
+            max_sources = data["defaults"]["max_context_sources"]
+            defaults = list(dict.fromkeys(data["defaults"].get("context_sources", [])))
+            for route in data["routes"]:
+                packet = list(dict.fromkeys(defaults + route["context_sources"]))
+                self.assertLessEqual(
+                    len(packet),
+                    max_sources,
+                    msg=f"{path} route {route['id']} depends on truncation: {packet}",
+                )
+
+    def test_league_data_packet_keeps_freshness_contract(self):
+        matrix = load_matrix("governance/task-orientation/TASK_CONTEXT_MATRIX_V1.json")
+        result = validator.route_task("Refresh ESPN Flaim freshness and standings.", matrix)
+        self.assertEqual(result["routes"][0], "league-data")
+        self.assertIn("schemas/freshness.schema.json", result["context_sources"])
+
+    def test_mercer_packet_keeps_data_gateway(self):
+        matrix = load_matrix("governance/task-orientation/TASK_CONTEXT_MATRIX_V1.json")
+        result = validator.route_task("Mercer evaluate this trade.", matrix)
+        self.assertEqual(result["routes"][0], "mercer-football-strategy")
+        self.assertIn("data-gateway/_INDEX.md", result["context_sources"])
+
+    def test_human_weekly_memo_router_points_to_current_reconciliation(self):
+        content = (ROOT / "docs" / "SESSION_CONTEXT.md").read_text()
+        self.assertIn("memo-os/V5_6_CURRENT_MAIN_RECONCILIATION_V1.md", content)
 
     def test_boundary_matching_does_not_route_art_from_start(self):
         matrix = {
