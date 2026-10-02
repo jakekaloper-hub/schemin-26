@@ -18,7 +18,7 @@ Burger identity is direct but cultural: griddle/hearth guild marks, layered sand
 Trade Jedi Mountain Base in the Upper Valleys. Human mountain/valley society; strategic roads, lake/bridge access and mountain weather.
 
 ### Wilson Look / D0nkey K0ng
-D0nkey K0ng Highland Stronghold and Arsenal Barbershop network. Current body is the **Arsenal Gorilla Warrior**. Gorilla-bodied ordinary inhabitants may exist in his home society. Centaur/equine anatomy is retired.
+D0nkey K0ng Highland Stronghold and Arsenal Barbershop network. Current body is the **Arsenal Gorilla Centaur Warrior**: ONE hybrid body with gorilla head/upper identity integrated with a four-legged centaur/equine lower body. Commissioner clarification 2026-10-02 controls over older “centaur retired” language.
 
 ### Phillip Pitts / Three Dreaded Snake
 Waterfall Temple / wet escarpment home. TDS remains one body with three serpent heads. His wider population origin is intentionally unresolved.
