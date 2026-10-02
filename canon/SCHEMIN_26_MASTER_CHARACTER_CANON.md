@@ -59,10 +59,9 @@ on the current team name.
 
 **Former name:** Baker Moore Purdy.\
 **Character:** The Philosopher-Warrior / Arsenal Centaur.\
-**ACTIVE DESIGN LOCK — revised 2026-09-29:** massive black-furred gorilla warrior; unmistakable gorilla anatomy with broad shoulders, long powerful arms, heavy black fur, dark primate face and roaring/fanged expression; Arsenal-red football-warrior jersey/armor with gold/bronze fantasy armor accents; oversized ornate double-headed battle axe; heavy metal tankard/beer mug; monumental battlefield/high-fantasy warlord aesthetic.\
-**PRIMARY VISUAL AUTHORITY:** Commissioner-approved 2026-09-29 Donkey Kong gorilla-warrior reference (uploaded as `IMG_7866.jpeg` in the approval thread). This owner-specific reference supersedes the older lineup panel wherever Wilson Look appears.\
-**RETIRED DESIGN:** Philosopher-Warrior / Arsenal Centaur. The centaur/equine body is historical only and MUST NOT be used in new artwork.\
-**Never:** centaur, horse/equine body, mounted-human substitute, generic jungle mascot, or human-only barbarian.
+**ACTIVE DESIGN LOCK — Commissioner clarified 2026-10-02:** ONE hybrid Arsenal Gorilla Centaur Warrior: black-furred gorilla head/upper identity and powerful armored torso integrated with a FOUR-LEGGED centaur/equine lower body; Arsenal-red football-warrior armor with bronze/gold accents; ornate double-headed axe; metal tankard; cannon/supporter heraldry.\
+**PRIMARY VISUAL AUTHORITY:** Commissioner-approved Donkey Kong owner reference `IMG_7866(1).jpeg` / registered SHA-256. The 2026-10-02 correction clarifies the anatomy represented by that source and supersedes the erroneous semantic rule that retired all centaur anatomy.\
+**Never:** generic bipedal gorilla, horse-headed centaur, human rider on horse, separate gorilla plus horse, two-creature substitute, human-only barbarian, generic jungle mascot, or human-only barbarian.
 
 ### Jordan Hollingshead / Slob on my Dobb
 
