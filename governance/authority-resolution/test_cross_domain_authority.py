@@ -43,6 +43,12 @@ if not expected.issubset(stale): errors.append("CHAR_STALE_SET")
 if lineup.get("production_seed_allowed") is not False: errors.append("CHAR_LINEUP_SEED")
 if visual.get("status")!="ACTIVE_FAIL_CLOSED": errors.append("CHAR_FAIL_CLOSED")
 
+# Master prose must explicitly fence legacy lineup doctrine behind machine visual authority.
+master=read("canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md")
+if "CURRENT VISUAL AUTHORITY NOTICE" not in master: errors.append("CHAR_MASTER_FENCE")
+if "PARTIAL_STALE_REFERENCE_ONLY" not in master or "production_seed_allowed=false" not in master:
+    errors.append("CHAR_MASTER_STALE_LINEUP_FENCE")
+
 # Canon index must make newer corrections outrank master prose and block unproven generation.
 canon_index=read("canon/_INDEX.md")
 if "latest explicit Commissioner-approved character correction" not in canon_index:
