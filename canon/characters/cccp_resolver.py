@@ -4,7 +4,7 @@ REGISTRY = {
 "CHAR-KEVIN-ZEEK": {"owner":"Kevin Zeek","team":"Red Leopards","identity":"The Predator Board","aliases":[],"version":"1.0"},
 "CHAR-JORDAN-HOLLINGSHEAD": {"owner":"Jordan Hollingshead","team":"Slob on my Dobb","identity":"Frat-Bro Berserker","aliases":["Fart Star","Win Ugly"],"version":"1.0"},
 "CHAR-DAVID-BABB": {"owner":"David Babb","team":"The LLC.","identity":"Hostile Takeover","aliases":["The LLC"],"version":"1.0"},
-"CHAR-WILSON-LOOK": {"owner":"Wilson Look","team":"Donkey Kong","identity":"Arsenal Gorilla Warrior","aliases":["Baker Moore Purdy"],"version":"2.0","superseded":["Arsenal Centaur","Philosopher-Warrior","REF-WILSON-CENTAUR-001"]},
+"CHAR-WILSON-LOOK": {"owner":"Wilson Look","team":"Donkey Kong","identity":"Arsenal Gorilla Centaur Warrior","aliases":["Baker Moore Purdy","Arsenal Gorilla Warrior","Arsenal Centaur","Philosopher-Warrior"],"version":"2.1","superseded":[]},
 "CHAR-PHILLIP-PITTS": {"owner":"Phillip Pitts","team":"Three Dreaded Snake","identity":"The Podium Shadow","aliases":[],"version":"1.0"},
 "CHAR-BRANDON-PRYOR": {"owner":"Brandon Pryor","team":"Chili Cheesers","identity":"The Chili Outlaw","aliases":[],"version":"1.0"},
 "CHAR-MANNING-WELTY": {"owner":"Manning Welty","team":"El Niño","identity":"The Weather System","aliases":["El Nino"],"version":"1.0"},
