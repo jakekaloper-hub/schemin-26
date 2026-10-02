@@ -11,12 +11,12 @@ def read(p):
     return (ROOT / p).read_text(encoding="utf-8")
 
 class CloseoutTests(unittest.TestCase):
-    def test_latest_memo_is_week3_not_week2():
+    def test_latest_memo_is_week3_not_week2(self):
         p=resolve_memo_reference("latest memo")
         assert p["publication_id"]=="memo.2026.week-03"
         assert p["canonical_artifact"]=="Pro_Schemin_Week_3_Memo_Final.pdf"
 
-    def test_week4_is_unreleased_and_sandbox_cannot_qualify():
+    def test_week4_is_unreleased_and_sandbox_cannot_qualify(self):
         m=json.loads(read("governance/publication-manifest/PUBLICATION_MANIFEST_V1.json"))
         w4=next(x for x in m["publications"] if x["publication_id"]=="memo.2026.week-04")
         assert w4["release_state"]=="BLOCKED"
@@ -25,7 +25,7 @@ class CloseoutTests(unittest.TestCase):
         assert "NOT_THE_OFFICIAL_WEEK_4_COVER" in close
         assert "“NOW THE TARGET” is sandbox copy only" in close
 
-    def test_dk_current_authority_defeats_stale_semantics():
+    def test_dk_current_authority_defeats_stale_semantics(self):
         s=read("canon/characters/CHAR-WILSON-LOOK/T04_CHARACTER_SPEC.md")
         assert "Arsenal Gorilla Centaur Warrior" in s
         assert "FOUR-LEGGED centaur/equine lower body" in s
@@ -34,22 +34,22 @@ class CloseoutTests(unittest.TestCase):
         assert "STALE / SUPERSEDED" in receipt
         assert "Current authority remains **Arsenal Gorilla Centaur Warrior**" in receipt
 
-    def test_tds_current_authority_defeats_single_head():
+    def test_tds_current_authority_defeats_single_head(self):
         s=read("canon/characters/CHAR-PHILLIP-PITTS/T04_CHARACTER_SPEC.md")
         assert "EXACTLY THREE serpent HEADS" in s
         assert "single-headed reptile" in s
 
-    def test_hmb_current_authority_defeats_rename_redesign():
+    def test_hmb_current_authority_defeats_rename_redesign(self):
         s=read("canon/characters/CHAR-AUSTIN-BYARS/T04_CHARACTER_SPEC.md")
         assert "CHAMPIONSHIP BELT IDENTITY-CRITICAL" in s
         assert "NO_KING_CROWN" in s
         assert "NO_VAMPIRE_BLOOD_MASCOT" in s
 
-    def test_obiwan_is_beltless():
+    def test_obiwan_is_beltless(self):
         i=read("canon/_INDEX.md")
         assert "Trade Jedi — NO championship belt" in i
 
-    def test_cover_learning_is_binding_but_sandbox_story_is_not():
+    def test_cover_learning_is_binding_but_sandbox_story_is_not(self):
         v=read("memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md")
         assert "Cover ≠ matchup opening scene" in v
         assert "Reference controls identity, not staging" in v
