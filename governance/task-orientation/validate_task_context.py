@@ -21,6 +21,8 @@ def route_task(task: str, matrix: dict) -> dict:
     max_matches = int(matrix.get("defaults", {}).get("max_matches", 2))
     max_sources = int(matrix.get("defaults", {}).get("max_context_sources", 4))
     selected = scored[:max_matches]
+    if selected and selected[0][3].get("exclusive"):
+        selected = selected[:1]
     sources = []
     for source in matrix.get("defaults", {}).get("context_sources", []):
         if source not in sources:
