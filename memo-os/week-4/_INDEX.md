@@ -38,7 +38,7 @@ The 2026-10-02 reconciliation remains the latest whole-slate reconciliation in t
 
 The LLC × HMB casino / ledger concept is registered only as a conditional story reservoir expansion. It may use an event-specific LLC-domain casino expression tied institutionally to Pittsy's Book, but it does not create permanent geography or merge the two institutions. The cookie-face payoff remains HMB-loss-only.
 
-The Slob × Chili branch now uses **THE INITIATION** as its primary conditional engine. The former dart-throwing payoff is retired from the primary branch. The paddling payoff is eligible only after a verified Slob victory and must remain comic, performative, non-graphic and non-sexualized. Country Club of Jackson currently functions as social-history motivation unless World/Atlas later resolves it as the physical scene.
+The Slob × Chili branch now uses **THE BEER CHAMPION'S BELT** as its preferred conditional payoff inside the existing invitation → celebration → beer contest → social-reversal engine. The former dart-throwing payoff is retired, and the paddling payoff is removed from the active branch. The belt ceremony remains conditional on a verified Slob victory and must be visually distinct from HMB's canonical championship belt. Country Club of Jackson currently functions as social-history motivation unless World/Atlas later resolves it as the physical scene.
 
 No finished art, final cover thesis, Game of the Week declaration, result language, final standings language, or publication lock is authorized until the dependent V5.5 gates pass.
 
