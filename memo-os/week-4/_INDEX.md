@@ -20,20 +20,25 @@
 11. `WEEK_4_LIVING_STORY_ROOM_AND_PERSONALIZED_INTELLIGENCE_V1.md`
 12. `WEEK_4_PERSONALIZED_INTELLIGENCE_AMENDMENT_DK_HMB_2026-10-01.md`
 13. `WEEK_4_PERSONALIZED_INTELLIGENCE_AMENDMENT_LLC_HMB_CASINO_2026-10-02.md`
-14. `WEEK_4_STORY_ROOM_CURRENT_STATE_RECONCILIATION_2026-10-02.md` — **CURRENT LIVE SNAPSHOT**
-15. `WEEK_4_STORY_ROOM_CURRENT_STATE_RECONCILIATION_2026-10-01.md` — historical pre-kickoff reconciliation
-16. `WEEK_4_LIVING_STORY_ROOM_PROMOTION_RECEIPT_2026-10-01.md`
-17. `WEEK_4_ISSUE_PREVIS_BOARD_V1.md`
-18. `WEEK_4_PAGE_PACKET_REGISTER_V1.md`
-19. `WEEK_4_RELEASE_GATE_V1.md`
+14. `WEEK_4_PERSONALIZED_INTELLIGENCE_AMENDMENT_SLOB_CHILI_INITIATION_2026-10-04.md`
+15. `WEEK_4_STORY_ROOM_CURRENT_STATE_RECONCILIATION_2026-10-02.md` — **CURRENT WHOLE-SLATE SNAPSHOT**
+16. `WEEK_4_STORY_ROOM_CURRENT_STATE_RECONCILIATION_2026-10-01.md` — historical pre-kickoff reconciliation
+17. `WEEK_4_LIVING_STORY_ROOM_PROMOTION_RECEIPT_2026-10-01.md`
+18. `WEEK_4_ISSUE_PREVIS_BOARD_V1.md`
+19. `WEEK_4_PAGE_PACKET_REGISTER_V1.md`
+20. `WEEK_4_RELEASE_GATE_V1.md`
 
 ## Current state
 
-Week 3 is closed. Week 4 production is now open at **preproduction only**.
+Week 3 is closed. Week 4 production remains open at **preproduction only**.
 
-W4-G6 personalized story intelligence is **LIVE / PARTIAL PASS**. The 2026-10-02 reconciliation is the current live evidence boundary and supersedes the 2026-10-01 pre-kickoff snapshot for current planning. The Living Story Room register and its scoped amendments authorize provisional reservoir development while preserving alternative branches. They do not authorize Story Lock.
+W4-G6 personalized story intelligence is **LIVE / PARTIAL PASS**. The Living Story Room register and its scoped amendments authorize provisional reservoir development while preserving alternative branches. They do not authorize Story Lock.
 
-The LLC × HMB casino / ledger concept is registered only as a **conditional story reservoir expansion**. It may use an event-specific LLC-domain casino expression tied institutionally to Pittsy's Book, but it does not create permanent geography or merge the two institutions. The cookie-face payoff remains HMB-loss-only.
+The 2026-10-02 reconciliation remains the latest whole-slate reconciliation in this index. The 2026-10-04 Slob × Chili amendment contains a fresher **matchup-scoped live provider observation** and supersedes the older Slob × Chili score only for that reservoir's current planning.
+
+The LLC × HMB casino / ledger concept is registered only as a conditional story reservoir expansion. It may use an event-specific LLC-domain casino expression tied institutionally to Pittsy's Book, but it does not create permanent geography or merge the two institutions. The cookie-face payoff remains HMB-loss-only.
+
+The Slob × Chili branch now uses **THE INITIATION** as its primary conditional engine. The former dart-throwing payoff is retired from the primary branch. The paddling payoff is eligible only after a verified Slob victory and must remain comic, performative, non-graphic and non-sexualized. Country Club of Jackson currently functions as social-history motivation unless World/Atlas later resolves it as the physical scene.
 
 No finished art, final cover thesis, Game of the Week declaration, result language, final standings language, or publication lock is authorized until the dependent V5.5 gates pass.
 
