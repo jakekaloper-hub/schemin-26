@@ -1,4 +1,4 @@
-# Week 4 Personalized Intelligence Amendment — Slob × Chili Initiation Branch
+# Week 4 Personalized Intelligence Amendment — Slob × Chili Beer Champion's Belt
 
 **Status:** ACTIVE AMENDMENT TO W4-G6 / PARTIAL PASS  
 **Date:** 2026-10-04  
@@ -10,20 +10,24 @@
 
 ## 1. Mission ruling
 
-This amendment supersedes the prior **dart-throwing payoff as the primary Slob-win branch**.
+This amendment supersedes the prior Slob × Chili paddling payoff.
 
-The replacement primary conditional engine is:
+The preferred conditional payoff is now:
 
-**THE INITIATION**
+**THE BEER CHAMPION'S BELT**
+
+The social engine remains:
+
+**INVITATION → CELEBRATION → BEER CONTEST → COMPETITIVE SHIFT → CEREMONIAL HUMILIATION / BELT PAYOFF**
 
 Commissioner-supplied direction:
 - Slob invites Chili / The Chili Outlaw to celebrate Chili's Week 3 victory over Dr. Duckhook.
 - Slob and Dr. Duckhook share Country Club of Jackson membership history.
 - The invitation begins as hospitality and shared amusement over Duckhook having been "Chili'd."
 - The social celebration may become a beer-drinking challenge.
-- If the verified fantasy result earns a Slob victory, the challenge may culminate in an exaggerated fraternity-style paddling ritual in which Slob paddles The Chili Outlaw as comic victory humiliation.
+- If the verified fantasy result earns a Slob victory, Slob may unveil a homemade beer-drinking championship belt / trophy and require Chili to present or fasten it onto him as part of a ridiculous victory ceremony.
 
-The paddling must read as consensual / performative social ritual, not serious assault, sadism, sexualization, or graphic violence.
+The paddling concept is **RETIRED FROM THE ACTIVE BRANCH**.
 
 ## 2. Provenance classes
 
@@ -39,246 +43,269 @@ Use current Week 4 provenance law:
 
 Fresh Flaim/ESPN Week 4 observation captured Sunday evening, 2026-10-04:
 
-- Slob on my Dobb: **135.32**
+- Slob on my Dobb: **137.52**
 - The Chili Cheesers: **88.70**
-- ESPN current projection: Slob **162.09**, Chili **137.08**
+- ESPN current projection: Slob **163.30**, Chili **136.10**
 - Provider result flag: **UNDECIDED**
 
-This live state materially strengthens the Slob-win branch but does **not** activate final victory language or the paddling payoff yet.
+This materially strengthens the Slob-win / belt-ceremony branch, but it does **not** activate final victory language or the belt presentation yet.
 
-The current score may be used for live planning only. Final publication must refresh the authoritative result after all relevant scoring is complete.
+Final publication must refresh the authoritative result after all relevant scoring is complete.
 
-## 4. Personalization inventory
+## 4. Updated personalization inventory
 
 ### Commissioner-supplied / governed
-- Chili enters Week 4 carrying the social consequence of having beaten and humiliated Dr. Duckhook in Week 3.
+- Chili enters Week 4 carrying the social consequence of having beaten Dr. Duckhook in Week 3.
 - Slob and Dr. Duckhook share Country Club of Jackson membership history.
 - Slob invites Chili to celebrate that Week 3 victory.
 - Chili arrives as the celebrated outsider, not as an immediate enemy.
-- Slob's hospitality should initially feel genuine.
-- The prior darts concept is retired from primary planning.
-- The new social arena is a fraternity-style beer-drinking challenge.
-- A Slob victory may earn a comic paddling initiation payoff.
+- Slob's hospitality is genuine at the opening.
+- Dart-throwing is retired from primary planning.
+- Paddling is retired from the active preferred branch.
+- Beer-drinking challenge remains the social arena.
+- A verified Slob victory may earn a mock championship ceremony built around a homemade Beer Champion's Belt.
 
 ### Existing character continuity
 - Chili remains **The Chili Outlaw**.
 - The Dark Horse remains Chili's associated steed/travel identity.
-- Slob retains his established character identity and must not collapse into a generic drunk/fraternity caricature.
+- Slob retains established identity and must not collapse into a generic frat/drinking caricature.
 - Dr. Duckhook need not be physically present; his Week 3 humiliation can function as social history.
 
-## 5. Primary narrative engine — THE INITIATION
+## 5. Primary narrative engine — THE BEER CHAMPION'S BELT
 
-Emotional progression:
-
-**INVITATION → CELEBRATION → BEER CONTEST → COMPETITIVE SHIFT → INITIATION / PAYOFF**
-
-Provisional beats:
+Core emotional movement:
 
 1. Chili arrives as guest of honor.
 2. Slob welcomes him into the social space.
 3. Duckhook's Week 3 defeat is toasted / laughed about.
-4. Drinking challenge begins casually.
-5. Slob demonstrates superior endurance / familiarity with the environment.
+4. A beer-drinking challenge starts casually.
+5. Slob demonstrates superior endurance / comfort.
 6. Chili's outlaw confidence starts to erode socially.
-7. Fantasy scoring mirrors or complicates the social contest.
-8. If Slob's fantasy victory becomes verified, the gathering may transform from celebration into initiation.
-9. Paddle reveal occurs late.
-10. Final payoff may show Slob paddling The Chili Outlaw in exaggerated comic ceremony.
+7. Fantasy scoring mirrors or complicates the contest.
+8. If Slob's victory becomes provider-verified, the gathering turns into a mock coronation.
+9. Slob unveils the Beer Champion's Belt.
+10. Chili must present / fasten the belt onto Slob in front of the room.
+11. Slob may add an absurd mock acceptance speech, toast, or photo-op if issue rhythm supports it.
 
-Core story meaning:
+Core meaning:
 
-**Chili came to celebrate someone else's humiliation and may leave carrying one of his own.**
+**Chili arrived as the Week 3 conquering outlaw and may leave Week 4 literally handing Slob another title.**
 
-The story is **SOCIAL REVERSAL**, not merely "Slob drinks more beer."
+The story remains **SOCIAL REVERSAL**, not merely "Slob drinks more beer."
 
-## 6. Country Club continuity
+## 6. Belt design / object logic
+
+The belt should feel:
+- homemade;
+- ridiculous;
+- oversized or absurdly sincere;
+- specific to drinking endurance / hosting / club bragging rights;
+- treated by Slob as if it were a legitimate championship object.
+
+It must not be confused with HMB's canonical championship belt.
+
+Visual distinction is mandatory:
+- different silhouette;
+- intentionally homemade / novelty materials;
+- clear beer-drinking / social-club identity;
+- no visual language that could imply Slob possesses HMB's canonical title.
+
+## 7. Country Club continuity
 
 Country Club of Jackson functions first as **social-history motivation**.
 
 Allowed:
-- Slob and Duckhook's shared membership explains why Slob enjoys / recognizes the significance of Chili's Week 3 victory.
-- The club can inform language, etiquette, social hierarchy, or invitations.
+- Slob and Duckhook's shared membership explains why Slob understands / enjoys Chili's Week 3 victory.
+- The club can inform etiquette, social hierarchy, language, invitations, and club-like ceremony.
 
 Not automatically allowed:
 - moving Slob's canonical home into Country Club of Jackson;
-- treating the Country Club as the physical scene without World/Atlas resolution;
+- making the club the physical scene without World/Atlas resolution;
 - rewriting Slob's owner-domain geography.
 
 Preferred location branches:
 
 A. Slob hosts Chili in Slob's established domain.  
-B. A Country Club-adjacent celebration location is resolved through World/Atlas.  
+B. A Country Club-adjacent celebration environment is resolved through World/Atlas.  
 C. Country Club remains off-page social context only.
 
-Physical location remains unresolved until World/Atlas venue policy supports it.
-
-## 7. Result-shape branches
+## 8. Result-shape branches
 
 ### A. Slob wins big
 
 **Current live branch strength:** HIGH / NOT FINAL.
 
-Strongest paddling branch.
+Strongest Beer Champion's Belt branch.
 
 Potential finish:
-- Chili cannot keep pace socially;
-- Slob controls both beer contest and fantasy matchup;
-- celebration becomes initiation;
-- paddle appears only after the result is secure;
-- Chili realizes the guest-of-honor role has reversed into comic initiation.
-
-Working thesis:
-**HE CAME TO CELEBRATE A BEATING. HE LEFT WITH ONE.**
-
-Alternative thesis candidates:
-- **GUEST OF HONOR. PLEDGE BY NIGHT.**
-- **THE OUTLAW GOT INITIATED.**
-- **WELCOME TO THE CLUB.**
-- **HE COULD DISH IT OUT. HE COULDN'T HANG.**
-
-No title is locked.
+- Chili fails to keep pace socially;
+- Slob controls the room and fantasy matchup;
+- score becomes verified;
+- belt reveal;
+- Chili is required to present / fasten the belt onto Slob;
+- final image reads as ridiculous coronation rather than physical punishment.
 
 ### B. Slob wins narrowly
 
-Paddling may survive as a cheeky final beat rather than domination.
+Belt still works, but with cheekier scale.
 
 Potential:
-- score becomes final;
-- Slob quietly produces the paddle;
-- Chili objects that the margin was too close;
-- Slob treats the objection as irrelevant.
-
-Likely better as interior payoff than cover-scale image.
+- Chili argues the margin does not justify a coronation;
+- Slob insists a win is a win;
+- Chili reluctantly hands over the belt;
+- ceremony may be a smaller final beat rather than a hero image.
 
 ### C. Chili leads early; Slob comes back
 
-Potentially the richest branch if live evidence supports the temporal reversal.
+High-value branch if temporal evidence supports it.
 
-Structure:
-- Chili appears comfortable in both contests;
-- Slob remains composed;
-- beer endurance shifts;
-- fantasy scoring shifts;
-- social power changes hands;
-- paddle becomes final punctuation rather than random gag.
+Potential:
+- Chili talks big early;
+- Slob keeps pace socially;
+- fantasy momentum turns;
+- room energy turns;
+- belt payoff becomes more meaningful because Chili goes from celebrated guest to reluctant presenter.
 
 ### D. Chili wins
 
-**Slob victory paddling prohibited.**
+**NO SLOB BELT CEREMONY.**
 
-Invert / abandon:
-- Chili survives the beer challenge;
-- Slob's initiation attempt fails;
-- paddle remains unused;
-- Chili leaves with Dark Horse identity intact or strengthened;
-- celebration becomes genuine respect rather than humiliation.
+Invert / kill:
+- belt is revealed but not awarded;
+- Chili refuses the ceremony;
+- belt remains unused;
+- Chili leaves with swagger intact or enhanced;
+- the beer contest may resolve as mutual respect instead of humiliation.
 
 ### E. Close / chaotic late finish
 
-Keep paddle unresolved.
+Keep belt visible but unawarded.
 
 Potential:
-- both continue the contest;
-- paddle remains on wall / out of reach;
-- final SNF/MNF result determines whether it becomes payoff or irrelevant prop.
+- both continue drinking;
+- belt waits in the room;
+- SNF/MNF result determines whether it becomes a payoff or irrelevant prop.
 
-## 8. Object progression
+## 9. Object progression
 
 Primary:
 - beer / drinking vessels.
 
 Secondary:
-- fraternity-style paddle.
+- Beer Champion's Belt / novelty trophy.
 
 Tertiary:
-- Dark Horse travel gear / outlaw accessories.
+- Dark Horse travel gear / Chili outlaw accessories.
 
 Progression:
 
-**WELCOME DRINK → CONTEST DRINK → STRUGGLE → SOCIAL REVERSAL → PADDLE REVEAL → PAYOFF**
+**WELCOME DRINK → CONTEST DRINK → STRUGGLE → SOCIAL REVERSAL → BELT REVEAL → PRESENTATION CEREMONY**
 
-Do not over-foreshadow the paddle. Late reveal is preferred unless subtle setup materially improves the scene.
+The belt should be a late reveal unless subtle earlier setup improves the payoff.
 
-## 9. POV candidates
+## 10. POV candidates
 
 ### Chili POV
-He believes he is attending his own celebration, then gradually realizes he is being tested.
+He believes he is attending his own celebration and gradually realizes he has become part of Slob's ceremony.
 
 ### Slob POV
-He invites the conquering outlaw in, watches him perform, and quietly decides whether Chili can actually hang.
+He hosts the conquering outlaw, watches him try to hang, and quietly prepares the reveal if the fantasy result earns it.
 
 ### Cross-cut
 Fantasy score and drinking contest change in parallel.
 
 ### Duckhook as absent cause
-Duckhook's Week 3 humiliation motivates the event without requiring his physical presence.
+Duckhook's Week 3 humiliation motivates the gathering without requiring physical presence.
 
-Choose final POV only after result shape is sufficiently mature.
-
-## 10. Image / prose division
+## 11. Image / prose division
 
 ### IMAGE TELLS
 - hospitality;
-- beer challenge;
+- beer contest;
 - endurance contrast;
 - growing social reversal;
-- paddle reveal;
-- final ritual if earned.
+- belt reveal;
+- Chili presenting / fastening the belt;
+- Slob's mock coronation if earned.
 
 ### PROSE TELLS
 - why Slob invited Chili;
-- Country Club / Duckhook connection;
+- Country Club / Duckhook social connection;
 - why Chili initially feels celebrated;
 - when the gathering's meaning changes;
 - how live fantasy scoring causes / mirrors the reversal.
 
-No prose should merely describe the image.
+## 12. Belt ceremony trigger conditions
 
-## 11. Paddling payoff trigger
-
-The paddling payoff may activate only when all are true:
+The Beer Champion's Belt payoff may activate only when all are true:
 
 1. Slob's Week 4 victory is provider-verified / fact-locked.
-2. The score/result shape makes comic superiority or earned social reversal plausible.
+2. Result shape supports earned social reversal.
 3. Character QA confirms Slob and Chili remain recognizable and in-character.
-4. Tone remains exaggerated / consensual / non-graphic / non-sexualized.
-5. Issue-level rhythm has not already overused humiliation endings.
+4. The novelty belt is visually distinct from HMB's canonical championship belt.
+5. Issue-level rhythm has not already overused humiliation/coronation endings.
 6. World/venue logic supports the scene.
+7. The ceremony remains comic and non-coercive in presentation.
 
-## 12. Kill / reduce conditions
+## 13. Kill / reduce conditions
 
 Reduce or kill the branch if:
 - Chili wins;
-- Slob's victory is too weak to support domination and the joke reads forced;
+- Slob's win is too weak to support the ceremony and the joke reads forced;
 - drinking overwhelms fantasy causality;
 - Slob becomes a one-note alcohol stereotype;
 - Chili becomes only a humiliation prop;
 - Country Club continuity requires unsupported geography;
-- paddling reads as violence rather than ritual comedy;
+- belt imagery creates confusion with HMB's canonical belt;
 - another live event creates a stronger, more specific story;
-- issue-level rhythm needs a quieter treatment.
+- issue-level rhythm needs a quieter close.
 
-## 13. Counterweight finding
+## 14. Counterweight finding
 
-The concept is **HIGH-value conditional material** because it has:
-- a clear social reason for the gathering;
+The Beer Champion's Belt is **stronger than the paddling version** because it preserves:
+- social reversal;
+- ceremonial humiliation;
+- setup/payoff;
+- object-story logic;
 - Week 3 continuity;
-- relationship change;
-- a live fantasy-result trigger;
-- setup/payoff object logic;
-- a distinct comic grammar from other Week 4 reservoirs.
+- comic visual clarity;
 
-Its largest risk is becoming a generic fraternity sketch. The fantasy result must remain the causal engine.
+while reducing:
+- violence ambiguity;
+- tonal risk;
+- the chance the payoff overwhelms character.
 
-## 14. Current state
+The main new risk is **belt continuity contamination** with HMB. That must be solved visually and semantically by making Slob's object unmistakably a homemade novelty drinking belt, not a league/world championship belt.
 
-- Dart-throwing payoff: **RETIRED FROM PRIMARY BRANCH**
-- Primary engine: **THE INITIATION**
-- Current live result: **UNDECIDED**
+Optional additions:
+- short mock acceptance speech;
+- ceremonial toast;
+- reluctant photo-op;
+- Chili fastening the belt while visibly annoyed.
+
+Do not stack all of them by default. Use the smallest payoff that lands.
+
+## 15. Working thesis / title candidates
+
+- **THE BEER CHAMPION'S BELT**
+- **GUEST OF HONOR. BELT PRESENTER BY NIGHT.**
+- **THE OUTLAW HANDED OVER THE TITLE.**
+- **WELCOME TO THE CLUB.**
+- **HE CAME TO TOAST A WIN. HE LEFT CROWNING SLOB.**
+- **THE CORONATION NOBODY INVITED CHILI TO.**
+
+No title is locked.
+
+## 16. Current state
+
+- Dart-throwing payoff: **RETIRED**
+- Paddling payoff: **REMOVED FROM ACTIVE BRANCH**
+- Primary engine: **THE BEER CHAMPION'S BELT**
+- Current provider result: **UNDECIDED**
 - Current Slob-win branch strength: **HIGH / PROVISIONAL**
-- Paddling payoff: **NOT YET ACTIVATED**
+- Belt ceremony: **NOT YET ACTIVATED**
 - Physical venue: **UNRESOLVED**
 - Story Lock: **BLOCKED**
 - Finished art: **BLOCKED**
 
-Continue live evidence ingestion through Sunday night and MNF. Live results may still rewrite premise, POV, page count, visual grammar, and payoff.
+Continue Sunday → SNF → MNF evidence ingestion. Live results retain authority to rewrite premise, POV, page count, visual grammar, and payoff.
