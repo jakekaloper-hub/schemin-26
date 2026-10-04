@@ -21,12 +21,13 @@
 12. `WEEK_4_PERSONALIZED_INTELLIGENCE_AMENDMENT_DK_HMB_2026-10-01.md`
 13. `WEEK_4_PERSONALIZED_INTELLIGENCE_AMENDMENT_LLC_HMB_CASINO_2026-10-02.md`
 14. `WEEK_4_PERSONALIZED_INTELLIGENCE_AMENDMENT_SLOB_CHILI_INITIATION_2026-10-04.md`
-15. `WEEK_4_STORY_ROOM_CURRENT_STATE_RECONCILIATION_2026-10-02.md` — **CURRENT WHOLE-SLATE SNAPSHOT**
-16. `WEEK_4_STORY_ROOM_CURRENT_STATE_RECONCILIATION_2026-10-01.md` — historical pre-kickoff reconciliation
-17. `WEEK_4_LIVING_STORY_ROOM_PROMOTION_RECEIPT_2026-10-01.md`
-18. `WEEK_4_ISSUE_PREVIS_BOARD_V1.md`
-19. `WEEK_4_PAGE_PACKET_REGISTER_V1.md`
-20. `WEEK_4_RELEASE_GATE_V1.md`
+15. `WEEK_4_FULL_AUTHOR_COUNCIL_WORLD_ATLAS_STORY_ROOM_REVIEW_2026-10-04.md` — **SUNDAY PRE-SNF AUTHOR COUNCIL REVIEW**
+16. `WEEK_4_STORY_ROOM_CURRENT_STATE_RECONCILIATION_2026-10-02.md` — **CURRENT WHOLE-SLATE SNAPSHOT**
+17. `WEEK_4_STORY_ROOM_CURRENT_STATE_RECONCILIATION_2026-10-01.md` — historical pre-kickoff reconciliation
+18. `WEEK_4_LIVING_STORY_ROOM_PROMOTION_RECEIPT_2026-10-01.md`
+19. `WEEK_4_ISSUE_PREVIS_BOARD_V1.md`
+20. `WEEK_4_PAGE_PACKET_REGISTER_V1.md`
+21. `WEEK_4_RELEASE_GATE_V1.md`
 
 ## Current state
 
@@ -34,7 +35,7 @@ Week 3 is closed. Week 4 production remains open at **preproduction only**.
 
 W4-G6 personalized story intelligence is **LIVE / PARTIAL PASS**. The Living Story Room register and its scoped amendments authorize provisional reservoir development while preserving alternative branches. They do not authorize Story Lock.
 
-The 2026-10-02 reconciliation remains the latest whole-slate reconciliation in this index. The 2026-10-04 Slob × Chili amendment contains a fresher **matchup-scoped live provider observation** and supersedes the older Slob × Chili score only for that reservoir's current planning.
+The 2026-10-02 reconciliation remains the latest formal whole-slate reconciliation in this index. The 2026-10-04 Author Council review carries a fresher Sunday pre-SNF provider snapshot for story-development purposes. The 2026-10-04 Slob × Chili amendment contains a fresher **matchup-scoped live provider observation** and supersedes the older Slob × Chili score only for that reservoir's current planning.
 
 The LLC × HMB casino / ledger concept is registered only as a conditional story reservoir expansion. It may use an event-specific LLC-domain casino expression tied institutionally to Pittsy's Book, but it does not create permanent geography or merge the two institutions. The cookie-face payoff remains HMB-loss-only.
 
