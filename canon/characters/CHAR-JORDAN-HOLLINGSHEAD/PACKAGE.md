@@ -2,7 +2,9 @@
 
 - **Owner:** Jordan Hollingshead
 - **Current team:** Slob on my Dobb
-- **Canonical identity:** Fart Star
+- **Canonical identity:** Frat-Bro Berserker
+- **Current presentation alias:** Frat Star
+- **Historical typo (REJECT for current production):** Fart Star
 - **Status:** ACTIVE
 - **Registry:** ../CHARACTER_REGISTRY.yaml
 - **Master semantic canon:** ../../SCHEMIN_26_MASTER_CHARACTER_CANON.md
