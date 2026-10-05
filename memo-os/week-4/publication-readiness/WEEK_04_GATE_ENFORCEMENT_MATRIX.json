@@ -26,7 +26,8 @@
         "G6"
       ],
       "evidence_receipt": "WEEK_04_FACT_LOCK.md",
-      "regression_test": "test_g1_holds_while_undecided"
+      "regression_test": "test_g1_holds_while_undecided",
+      "cross_reference_reviewer": "Umpire"
     },
     {
       "gate_id": "G2",
@@ -49,7 +50,8 @@
         "G11"
       ],
       "evidence_receipt": "WEEK_04_PITTYS_BOOK_SETTLEMENT.md",
-      "regression_test": "test_g2_requires_final_inputs"
+      "regression_test": "test_g2_requires_final_inputs",
+      "cross_reference_reviewer": "Scout"
     },
     {
       "gate_id": "G3",
@@ -72,7 +74,8 @@
         "G11"
       ],
       "evidence_receipt": "WEEK_04_POWER_RANKINGS_LOCK.md",
-      "regression_test": "test_rankings_cannot_precede_fact_lock"
+      "regression_test": "test_rankings_cannot_precede_fact_lock",
+      "cross_reference_reviewer": "Scout + Beat Writer"
     },
     {
       "gate_id": "G4",
@@ -94,22 +97,26 @@
         "G11"
       ],
       "evidence_receipt": "WEEK_04_STATE_OF_REALM.md",
-      "regression_test": "test_state_requires_fact_lock"
+      "regression_test": "test_state_requires_fact_lock",
+      "cross_reference_reviewer": "World / Atlas Director"
     },
     {
       "gate_id": "G5",
       "owner": "Beat Writer + Author Council",
       "required_inputs": [
-        "G1"
+        "G1",
+        "WEEK_04_STORY_AUTHORITY_REGISTER.json"
       ],
       "required_artifact": "WEEK_04_MATCHUP_CONSEQUENCE_REGISTER.md",
-      "validator": "week4_readiness.py",
+      "validator": "week4_readiness.py + week4_story_authority.py",
       "freshness_rule": "final consequence language after G1",
       "failure_modes": [
         "UNVERIFIED_CAUSALITY",
-        "RESULT_CONTRADICTION"
+        "RESULT_CONTRADICTION",
+        "STORY_AUTHORITY_MISMATCH",
+        "SUPERSEDED_BRANCH_LEAK"
       ],
-      "pass_condition": "all six causal packets reconcile",
+      "pass_condition": "all six matchup causal packets reconcile against current controlling story authority",
       "hold_condition": "G1 not pass",
       "fail_condition": "unsupported consequence",
       "downstream_unlocks": [
@@ -117,7 +124,8 @@
         "G7"
       ],
       "evidence_receipt": "WEEK_04_MATCHUP_CONSEQUENCE_REGISTER.md",
-      "regression_test": "test_consequence_requires_finality"
+      "regression_test": "test_consequence_requires_finality",
+      "cross_reference_reviewer": "Librarian"
     },
     {
       "gate_id": "G6",
@@ -141,7 +149,8 @@
         "G10"
       ],
       "evidence_receipt": "WEEK_04_WORLD_STATE_DELTA.md",
-      "regression_test": "test_world_delta_cannot_invent_result"
+      "regression_test": "test_world_delta_cannot_invent_result",
+      "cross_reference_reviewer": "World / Atlas Director"
     },
     {
       "gate_id": "G7",
@@ -150,7 +159,8 @@
         "G1",
         "G5",
         "G6",
-        "page packet schema"
+        "page packet schema",
+        "current story authority receipt/hash"
       ],
       "required_artifact": "WEEK_04_PAGE_PACKET_REGISTER.md",
       "validator": "week4_readiness.py + page packet schema",
@@ -158,9 +168,11 @@
       "failure_modes": [
         "MISSING_PACKET",
         "MISSING_REQUIRED_FIELD",
-        "STALE_CHARACTER_AUTHORITY"
+        "STALE_CHARACTER_AUTHORITY",
+        "PAGE_PACKET_STALE",
+        "STORY_AUTHORITY_HASH_MISMATCH"
       ],
-      "pass_condition": "every planned page has valid packet",
+      "pass_condition": "every planned page packet binds current story authority and validates",
       "hold_condition": "upstream not pass",
       "fail_condition": "packet/schema failure",
       "downstream_unlocks": [
@@ -168,14 +180,18 @@
         "G9"
       ],
       "evidence_receipt": "WEEK_04_PAGE_PACKET_REGISTER.md",
-      "regression_test": "test_render_blocks_without_packet"
+      "regression_test": "test_render_blocks_without_packet",
+      "cross_reference_reviewer": "Architect"
     },
     {
       "gate_id": "G8",
       "owner": "Visual Direction + CAIO + Librarian",
       "required_inputs": [
         "G7",
-        "character runtime eligibility"
+        "character runtime eligibility",
+        "current story authority",
+        "Umpire preflight",
+        "Closer PASS_TO_PRODUCTION"
       ],
       "required_artifact": "WEEK_04_VISUAL_QA_REGISTER.md",
       "validator": "week4_readiness.py + character runtime",
@@ -183,7 +199,9 @@
       "failure_modes": [
         "GENERATION_BLOCKED",
         "CHARACTER_QA_FAIL",
-        "STALE_REFERENCE"
+        "STALE_REFERENCE",
+        "STORY_AUTHORITY_GENERATION_HOLD",
+        "PAGE_PACKET_STALE"
       ],
       "pass_condition": "all character-bearing final rasters PASS",
       "hold_condition": "provider capability or G7 unavailable",
@@ -194,7 +212,8 @@
         "G11"
       ],
       "evidence_receipt": "WEEK_04_VISUAL_QA_REGISTER.md",
-      "regression_test": "test_dk_stale_identity_fails"
+      "regression_test": "test_dk_stale_identity_fails",
+      "cross_reference_reviewer": "Librarian"
     },
     {
       "gate_id": "G9",
@@ -219,7 +238,8 @@
         "G11"
       ],
       "evidence_receipt": "WEEK_04_PUBLICATION_DESIGN_QA.md",
-      "regression_test": "test_score_mismatch_fails"
+      "regression_test": "test_score_mismatch_fails",
+      "cross_reference_reviewer": "Scout"
     },
     {
       "gate_id": "G10",
@@ -227,14 +247,17 @@
       "required_inputs": [
         "G6",
         "G8",
-        "assembled pages"
+        "assembled pages",
+        "current story authority register"
       ],
       "required_artifact": "WEEK_04_CONTINUITY_AUDIT.md",
       "validator": "week4_readiness.py",
       "freshness_rule": "audit targets exact final pages",
       "failure_modes": [
         "CANON_RESET",
-        "WORLD_DRIFT"
+        "WORLD_DRIFT",
+        "SEMANTIC_STALENESS",
+        "REDUNDANT_PAGE_INFLATION"
       ],
       "pass_condition": "continuity passes",
       "hold_condition": "assembled pages unavailable",
@@ -243,14 +266,16 @@
         "G11"
       ],
       "evidence_receipt": "WEEK_04_CONTINUITY_AUDIT.md",
-      "regression_test": "test_stale_dk_reference_fails"
+      "regression_test": "test_stale_dk_reference_fails",
+      "cross_reference_reviewer": "Beat Writer"
     },
     {
       "gate_id": "G11",
       "owner": "Umpire",
       "required_inputs": [
         "G1-G10 as applicable",
-        "assembled issue"
+        "assembled issue",
+        "current story authority register"
       ],
       "required_artifact": "WEEK_04_FINAL_UMPIRE_REPORT.md",
       "validator": "week4_readiness.py + assembly validator",
@@ -259,7 +284,9 @@
         "MISSING_PAGE",
         "DUPLICATE_PAGE",
         "UNRESOLVED_PLACEHOLDER",
-        "MISSING_RECEIPT"
+        "MISSING_RECEIPT",
+        "CURRENT_STORY_MISMATCH",
+        "SUPERSEDED_BRANCH_LEAK"
       ],
       "pass_condition": "independent PASS",
       "hold_condition": "assembly unavailable",
@@ -268,13 +295,15 @@
         "G12"
       ],
       "evidence_receipt": "WEEK_04_FINAL_UMPIRE_REPORT.md",
-      "regression_test": "test_missing_page_blocks_assembly"
+      "regression_test": "test_missing_page_blocks_assembly",
+      "cross_reference_reviewer": "INDEPENDENT"
     },
     {
       "gate_id": "G12",
       "owner": "Closer + Groundskeeper",
       "required_inputs": [
         "G1-G11 PASS",
+        "Story Authority PASS",
         "final PDF",
         "hashes"
       ],
@@ -291,7 +320,8 @@
       "fail_condition": "release mutation without proof",
       "downstream_unlocks": [],
       "evidence_receipt": "WEEK_04_PUBLICATION_RECEIPT.md",
-      "regression_test": "test_release_blocked_until_all_pass"
+      "regression_test": "test_release_blocked_until_all_pass",
+      "cross_reference_reviewer": "Umpire + Groundskeeper evidence pack"
     }
   ]
 }
