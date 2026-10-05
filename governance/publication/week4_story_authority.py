@@ -9,6 +9,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 PACK = ROOT / "memo-os/week-4/publication-readiness"
 REGISTER = PACK / "WEEK_04_STORY_AUTHORITY_REGISTER.json"
+SUPERSESSION = PACK / "WEEK_04_STORY_SUPERSESSION_MAP.json"
+OWNERSHIP = PACK / "WEEK_04_DIRECTOR_OWNERSHIP_MATRIX.json"
 
 def load_json(path: Path):
     return json.loads(path.read_text())
@@ -71,6 +73,44 @@ def validate(register=None) -> dict:
                 "expected":expected,
                 "supplied":u.get("story_authority_hash")
             })
+
+    # Supersession must be explicit and machine-readable.
+    if not SUPERSESSION.exists():
+        errors.append({"code":"SUPERSESSION_MAP_MISSING"})
+    else:
+        smap=load_json(SUPERSESSION)
+        classifications=smap.get("classifications",[])
+        llc_sup=[
+            row for row in classifications
+            if "W4-STORY-LLC-HMB" in row.get("scope",[])
+            and row.get("classification")=="SUPERSEDED"
+        ]
+        if not any("three-page" in (row.get("source","")+" "+row.get("notes","")).lower() for row in llc_sup):
+            errors.append({"code":"LLC_HMB_THREE_PAGE_NOT_EXPLICITLY_SUPERSEDED"})
+        sandbox=[
+            row for row in classifications
+            if "PR #115" in row.get("source","") or "sandbox" in row.get("source","").lower()
+        ]
+        if not sandbox or any(row.get("classification")!="NON_CONTROLLING" for row in sandbox):
+            errors.append({"code":"SANDBOX_AUTHORITY_NOT_NON_CONTROLLING"})
+
+    # Each gate must have exactly one named owner; counterweight is separate.
+    if not OWNERSHIP.exists():
+        errors.append({"code":"DIRECTOR_OWNERSHIP_MATRIX_MISSING"})
+    else:
+        ownership=load_json(OWNERSHIP)
+        gates=ownership.get("gates",[])
+        if [g.get("gate_id") for g in gates] != [f"G{i}" for i in range(1,13)]:
+            errors.append({"code":"DIRECTOR_GATE_SET_INVALID"})
+        for g in gates:
+            owner=str(g.get("owner","")).strip()
+            counter=str(g.get("counterweight","")).strip()
+            if not owner:
+                errors.append({"code":"GATE_OWNER_MISSING","gate":g.get("gate_id")})
+            if " + " in owner or " / " in owner:
+                errors.append({"code":"SHARED_OWNER_NOT_ALLOWED","gate":g.get("gate_id"),"owner":owner})
+            if not counter:
+                errors.append({"code":"COUNTERWEIGHT_MISSING","gate":g.get("gate_id")})
 
     # Exact regression against the rehearsal failure.
     llc=by_id.get("W4-STORY-LLC-HMB")
