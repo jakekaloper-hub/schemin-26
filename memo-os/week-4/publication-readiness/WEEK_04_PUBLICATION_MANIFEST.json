@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "publication_id": "memo.2026.week-04",
   "issue_version": "prepublication-story-authority-hardening-2",
-  "current_state": "WAITING_ON_MNF",
+  "current_state": "WAITING_ON_MNF_STORY_AUTHORITY_HARDENING",
   "authority": {
     "project_registry": "PROJECT_CONTROL_REGISTRY.md",
     "memo_os": "memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md",
@@ -24,31 +24,31 @@
     },
     {
       "gate_id": "G2",
-      "owner": "Ledger desk + Scout",
+      "owner": "Pitty desk",
       "state": "HOLD_EXTERNAL",
       "required_receipt": "WEEK_04_PITTYS_BOOK_SETTLEMENT.md"
     },
     {
       "gate_id": "G3",
-      "owner": "Power Rankings desk + Scout + Beat Writer",
+      "owner": "Power Rankings desk",
       "state": "PREPARED",
       "required_receipt": "WEEK_04_POWER_RANKINGS_LOCK.md"
     },
     {
       "gate_id": "G4",
-      "owner": "Scout + Beat Writer + World",
+      "owner": "Scout",
       "state": "PREPARED",
       "required_receipt": "WEEK_04_STATE_OF_REALM.md"
     },
     {
       "gate_id": "G5",
-      "owner": "Beat Writer + Author Council",
+      "owner": "Beat Writer",
       "state": "PREPARED",
       "required_receipt": "WEEK_04_MATCHUP_CONSEQUENCE_REGISTER.md"
     },
     {
       "gate_id": "G6",
-      "owner": "Librarian + World",
+      "owner": "Librarian",
       "state": "PREPARED",
       "required_receipt": "WEEK_04_WORLD_STATE_DELTA.md"
     },
@@ -60,19 +60,19 @@
     },
     {
       "gate_id": "G8",
-      "owner": "Visual Direction + CAIO + Librarian",
+      "owner": "Visual Direction Lead",
       "state": "HOLD_EXTERNAL",
       "required_receipt": "WEEK_04_VISUAL_QA_REGISTER.md"
     },
     {
       "gate_id": "G9",
-      "owner": "Publication Design + Scout",
+      "owner": "Publication Design",
       "state": "PREPARED",
       "required_receipt": "WEEK_04_PUBLICATION_DESIGN_QA.md"
     },
     {
       "gate_id": "G10",
-      "owner": "Librarian + World + Umpire",
+      "owner": "Author Council",
       "state": "PREPARED",
       "required_receipt": "WEEK_04_CONTINUITY_AUDIT.md"
     },
@@ -84,7 +84,7 @@
     },
     {
       "gate_id": "G12",
-      "owner": "Closer + Groundskeeper",
+      "owner": "Closer",
       "state": "BLOCKED",
       "required_receipt": "WEEK_04_PUBLICATION_RECEIPT.md"
     }
