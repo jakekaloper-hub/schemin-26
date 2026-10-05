@@ -534,3 +534,20 @@ Week 4 now has a transition plan that **cuts more than it adds**.
 Transitions are treated as story infrastructure, not decoration.
 
 **NO STORY LOCK. NO FINISHED ART. NO FINAL PAGE COUNT.**
+
+
+## 28. Keeper-state transition delta — 2026-10-05
+
+Authority: `WEEK_4_KEEPER_CAMPAIGN_STATE_CLOSURE_2026-10-05.md`.
+
+**Ruling: NO NEW TRANSITION PAGE.**
+
+- DK → TDS **Breaking / Rebuilding** is strengthened by verified foundational-resource pressure, but retains its existing page-band form.
+- Obi's Rashee Rice threat belongs primarily in the DK/Obi aftermath rather than becoming a separate bridge object.
+- TDS's Olave keeper conversion strengthens the reconstruction side of the bridge.
+- Mud's Saquon Barkley threat may enter prose/data only if still unresolved and material at publication.
+- Red's Lamar Jackson threat does not replace the Wings social-information transition.
+- Final Word may carry unresolved foundational-resource threats as quiet forward pressure, but must not stack multiple medical metaphors or overstate prognosis.
+- State of the Realm remains division/state focused; keeper details enter only when strategically consequential.
+
+Transition architecture otherwise remains unchanged.
