@@ -31,7 +31,7 @@
     },
     {
       "gate_id": "G2",
-      "owner": "Ledger desk + Scout",
+      "owner": "Pitty desk",
       "required_inputs": [
         "G1",
         "final Week 4 ledger inputs"
@@ -55,7 +55,7 @@
     },
     {
       "gate_id": "G3",
-      "owner": "Power Rankings desk + Scout + Beat Writer",
+      "owner": "Power Rankings desk",
       "required_inputs": [
         "G1",
         "prior published rankings"
@@ -79,7 +79,7 @@
     },
     {
       "gate_id": "G4",
-      "owner": "Scout + Beat Writer + World",
+      "owner": "Scout",
       "required_inputs": [
         "G1"
       ],
@@ -98,11 +98,11 @@
       ],
       "evidence_receipt": "WEEK_04_STATE_OF_REALM.md",
       "regression_test": "test_state_requires_fact_lock",
-      "cross_reference_reviewer": "World / Atlas Director"
+      "cross_reference_reviewer": "Beat Writer + World / Atlas Director"
     },
     {
       "gate_id": "G5",
-      "owner": "Beat Writer + Author Council",
+      "owner": "Beat Writer",
       "required_inputs": [
         "G1",
         "WEEK_04_STORY_AUTHORITY_REGISTER.json"
@@ -129,7 +129,7 @@
     },
     {
       "gate_id": "G6",
-      "owner": "Librarian + World",
+      "owner": "Librarian",
       "required_inputs": [
         "G1",
         "G5"
@@ -185,7 +185,7 @@
     },
     {
       "gate_id": "G8",
-      "owner": "Visual Direction + CAIO + Librarian",
+      "owner": "Visual Direction Lead",
       "required_inputs": [
         "G7",
         "character runtime eligibility",
@@ -213,11 +213,11 @@
       ],
       "evidence_receipt": "WEEK_04_VISUAL_QA_REGISTER.md",
       "regression_test": "test_dk_stale_identity_fails",
-      "cross_reference_reviewer": "Librarian"
+      "cross_reference_reviewer": "CAIO + Librarian"
     },
     {
       "gate_id": "G9",
-      "owner": "Publication Design + Scout",
+      "owner": "Publication Design",
       "required_inputs": [
         "G7",
         "G8",
@@ -243,7 +243,7 @@
     },
     {
       "gate_id": "G10",
-      "owner": "Librarian + World + Umpire",
+      "owner": "Author Council",
       "required_inputs": [
         "G6",
         "G8",
@@ -300,7 +300,7 @@
     },
     {
       "gate_id": "G12",
-      "owner": "Closer + Groundskeeper",
+      "owner": "Closer",
       "required_inputs": [
         "G1-G11 PASS",
         "Story Authority PASS",
