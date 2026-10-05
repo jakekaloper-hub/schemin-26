@@ -28,14 +28,17 @@ jobs:
           python governance/publication/week4_readiness.py
           code=$?
           set -e
-          if [ "$code" -eq 1 ]; then
-            echo "Internal readiness failure"
-            exit 1
-          fi
-          if [ "$code" -ne 0 ] && [ "$code" -ne 2 ]; then
-            echo "Unexpected readiness exit code: $code"
-            exit 1
-          fi
+          if [ "$code" -eq 1 ]; then exit 1; fi
+          if [ "$code" -ne 0 ] && [ "$code" -ne 2 ]; then exit 1; fi
+      - name: Cross-gate contradiction validator must hold cleanly pre-finality
+        shell: bash
+        run: |
+          set +e
+          python governance/publication/week4_cross_gate.py
+          code=$?
+          set -e
+          if [ "$code" -eq 1 ]; then exit 1; fi
+          if [ "$code" -ne 0 ] && [ "$code" -ne 2 ]; then exit 1; fi
       - name: Assembly validator must remain hold before assembly
         shell: bash
         run: |
@@ -43,12 +46,8 @@ jobs:
           python governance/publication/week4_assembly_validator.py
           code=$?
           set -e
-          if [ "$code" -eq 1 ]; then
-            exit 1
-          fi
-          if [ "$code" -ne 0 ] && [ "$code" -ne 2 ]; then
-            exit 1
-          fi
+          if [ "$code" -eq 1 ]; then exit 1; fi
+          if [ "$code" -ne 0 ] && [ "$code" -ne 2 ]; then exit 1; fi
       - name: Release transaction must remain blocked pre-finality
         shell: bash
         run: |
