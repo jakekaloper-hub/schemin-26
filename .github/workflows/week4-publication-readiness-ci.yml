@@ -1,0 +1,59 @@
+name: Week 4 Publication Readiness CI
+
+on:
+  pull_request:
+    paths:
+      - 'memo-os/week-4/publication-readiness/**'
+      - 'governance/publication/week4_*.py'
+      - 'schemas/week4-*.json'
+      - 'tests/test_week4_publication_readiness.py'
+      - 'canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json'
+      - 'canon/characters/CHAR-WILSON-LOOK/**'
+  workflow_dispatch:
+
+jobs:
+  hardening:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Negative-path and control tests
+        run: python -m unittest tests/test_week4_publication_readiness.py
+      - name: Readiness validator must fail closed, not fail internally
+        shell: bash
+        run: |
+          set +e
+          python governance/publication/week4_readiness.py
+          code=$?
+          set -e
+          if [ "$code" -eq 1 ]; then
+            echo "Internal readiness failure"
+            exit 1
+          fi
+          if [ "$code" -ne 0 ] && [ "$code" -ne 2 ]; then
+            echo "Unexpected readiness exit code: $code"
+            exit 1
+          fi
+      - name: Assembly validator must remain hold before assembly
+        shell: bash
+        run: |
+          set +e
+          python governance/publication/week4_assembly_validator.py
+          code=$?
+          set -e
+          if [ "$code" -eq 1 ]; then
+            exit 1
+          fi
+          if [ "$code" -ne 0 ] && [ "$code" -ne 2 ]; then
+            exit 1
+          fi
+      - name: Release transaction must remain blocked pre-finality
+        shell: bash
+        run: |
+          set +e
+          python governance/publication/week4_release_transaction.py
+          code=$?
+          set -e
+          test "$code" -eq 2
