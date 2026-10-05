@@ -38,9 +38,12 @@ Each gate has exactly one named owner. Counterweights independently challenge th
 
 ## Current Closer ruling
 
-The art hold remains active while this hardening branch is under verification.
+PR #116 hardening has passed all required CI, merged, and survived authoritative post-merge readback.
 
-`PRE_PUBLICATION_READINESS = HOLD`
+`PRE_PUBLICATION_READINESS = APPROVED`
+`STORY_AUTHORITY_HARDENING = PASS`
+`DIRECTOR_CROSS_REFERENCE = PASS`
+`UMPIRE_INTERNAL_HARDENING = PASS`
 `ART_GENERATION = HOLD`
 
-The hold may release only after Story Authority validation, supersession validation, semantic-fidelity tests, owner/counterweight review and Umpire preflight all PASS.
+The remaining art hold is execution/external: Week 4 provider finality is still UNDECIDED and production-time render/reference proof remains required at Gate 8.
