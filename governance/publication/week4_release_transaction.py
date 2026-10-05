@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import json
 from pathlib import Path
+from week4_story_authority import validate as validate_story_authority
 
 ROOT=Path(__file__).resolve().parents[2]
 PACK=ROOT/"memo-os/week-4/publication-readiness"
@@ -17,6 +18,9 @@ def validate()->dict:
     w4=load(W4)
     asm=load(ASM)
     pub=load(PUB)
+    story_result=validate_story_authority()
+    if story_result.get("state")!="PASS":
+        return {"state":"RELEASE_BLOCKED","reason":"STORY_AUTHORITY_NOT_PASS","detail":story_result.get("errors",[])}
     gates=w4.get("gates",[])
     not_pass=[g.get("gate_id") for g in gates[:11] if g.get("state")!="PASS"]
     if not_pass:
