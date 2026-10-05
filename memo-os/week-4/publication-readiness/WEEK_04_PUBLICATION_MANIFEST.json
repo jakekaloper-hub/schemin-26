@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "publication_id": "memo.2026.week-04",
   "issue_version": "prepublication-story-authority-hardening-2",
-  "current_state": "WAITING_ON_MNF_STORY_AUTHORITY_HARDENING",
+  "current_state": "WAITING_ON_MNF_STORY_AUTHORITY_HARDENED_CLOSER_PREPRODUCTION_APPROVED",
   "authority": {
     "project_registry": "PROJECT_CONTROL_REGISTRY.md",
     "memo_os": "memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md",
@@ -274,6 +274,16 @@
         "title": "Final Word",
         "character_ids": []
       }
+    ]
+  },
+  "preproduction_closeout": {
+    "status": "APPROVED",
+    "receipt": "memo-os/week-4/publication-readiness/WEEK_04_STORY_AUTHORITY_POST_MERGE_CLOSEOUT.md",
+    "art_generation": "HOLD",
+    "external_holds": [
+      "MNF_ESPN_FLAIM_FINALITY",
+      "WEEK_4_LEDGER_FINALIZATION",
+      "PRODUCTION_TIME_RENDER_REFERENCE_PROOF"
     ]
   }
 }
