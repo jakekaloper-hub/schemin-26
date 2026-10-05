@@ -56,6 +56,20 @@ class Week4ReadinessTests(unittest.TestCase):
     def test_dk_current_authority_contract_is_centaur_gorilla(self):
         self.assertTrue(elig.dk_authority_valid())
 
+    def test_active_registry_uses_frat_star_not_fart_star(self):
+        registry=(ROOT/"canon/characters/CHARACTER_REGISTRY.yaml").read_text()
+        resolver=(ROOT/"canon/characters/cccp_resolver.py").read_text()
+        self.assertIn("Frat Star", registry)
+        self.assertIn("Frat Star", resolver)
+        self.assertNotIn('aliases: ["Fart Star"', registry)
+        self.assertNotIn('"aliases":["Fart Star"', resolver)
+
+    def test_active_registry_does_not_reject_dk_centaur_anatomy(self):
+        registry=(ROOT/"canon/characters/CHARACTER_REGISTRY.yaml").read_text()
+        self.assertIn("Arsenal Gorilla Centaur Warrior", registry)
+        self.assertIn("FOUR-LEGGED CENTAUR LOWER BODY", registry)
+        self.assertNotIn('hard_reject: ["centaur anatomy"', registry)
+
     def test_dk_render_route_fail_closes_while_provider_proof_unresolved(self):
         p=self.complete_packet(["CHAR-WILSON-LOOK"])
         r=elig.render_eligibility(p)
