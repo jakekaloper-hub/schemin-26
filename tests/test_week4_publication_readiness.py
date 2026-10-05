@@ -89,6 +89,23 @@ class Week4ReadinessTests(unittest.TestCase):
             self.assertTrue(row["required"])
             self.assertTrue(row["reject"])
 
+    def test_all_twelve_active_surfaces_match_current_identity_and_hash(self):
+        registry=(ROOT/"canon/characters/CHARACTER_REGISTRY.yaml").read_text()
+        records=(ROOT/"canon/character-control-plane-v2/records.py").read_text()
+        for row in self.char_matrix["characters"]:
+            cid=row["character_id"]
+            identity=row["identity"]
+            team=row["team"]
+            spec=(ROOT/f"canon/characters/{cid}/T04_CHARACTER_SPEC.md").read_text()
+            package=(ROOT/f"canon/characters/{cid}/PACKAGE.md").read_text()
+            self.assertIn(cid, registry)
+            self.assertIn(identity, registry)
+            self.assertIn(identity, records)
+            self.assertIn(identity, spec)
+            self.assertIn(identity, package)
+            self.assertIn(row["expected_sha256"], spec)
+            self.assertIn(team, spec)
+
     def test_wrong_owner_reference_hash_blocks_before_provider(self):
         p=self.complete_packet(["CHAR-AUSTIN-BYARS"])
         p["exact_reference_assets"][0]["expected_sha256"]="0"*64
