@@ -116,12 +116,29 @@ class Week4StoryAuthorityTests(unittest.TestCase):
         self.assertEqual(result["state"],"FAIL_INTERNAL")
         self.assertTrue(any(x["code"]=="STORY_AUTHORITY_SOURCE_STALE" for x in result["errors"]))
 
+    def test_supersession_map_marks_stale_llc_hmb_and_sandbox_non_controlling(self):
+        smap=json.loads((PACK/"WEEK_04_STORY_SUPERSESSION_MAP.json").read_text())
+        rows=smap["classifications"]
+        self.assertTrue(any(
+            r["classification"]=="SUPERSEDED"
+            and "W4-STORY-LLC-HMB" in r.get("scope",[])
+            and "three-page" in (r.get("source","")+" "+r.get("notes","")).lower()
+            for r in rows
+        ))
+        self.assertTrue(any(
+            r["classification"]=="NON_CONTROLLING"
+            and ("#115" in r.get("source","") or "sandbox" in r.get("source","").lower())
+            for r in rows
+        ))
+
     def test_director_ownership_has_12_named_gates_and_counterweights(self):
         gates=self.ownership["gates"]
         self.assertEqual([g["gate_id"] for g in gates],[f"G{i}" for i in range(1,13)])
         for g in gates:
             self.assertTrue(g["owner"])
             self.assertTrue(g["counterweight"])
+            self.assertNotIn(" + ",g["owner"])
+            self.assertNotIn(" / ",g["owner"])
             self.assertEqual(g["control_status"],"PASS")
 
     def test_assembly_waits_on_story_lock(self):
