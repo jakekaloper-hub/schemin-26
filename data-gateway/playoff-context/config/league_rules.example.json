@@ -11,5 +11,11 @@
     "max_notes": 3,
     "high_leverage_pp": 25,
     "extreme_leverage_pp": 40
-  }
+  },
+  "playoff_seeding_rule": "H2H_RECORD",
+  "exact_tiebreak_support": false,
+  "rule_evidence": [
+    "canon/league.json",
+    "Flaim 2026 league info"
+  ]
 }
