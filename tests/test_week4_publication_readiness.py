@@ -43,7 +43,12 @@ class Week4ReadinessTests(unittest.TestCase):
           "story_authority_id":story_id,
           "story_authority_hash":story["story_authority_hash"],
           "story_authority_receipt":"memo-os/week-4/publication-readiness/WEEK_04_STORY_AUTHORITY_REGISTER.json",
-          "story_authority_state":"CURRENT"
+          "story_authority_state":"CURRENT",
+          "story_page_role":story["page_role"],
+          "visual_job":story["visual_job"],
+          "prose_job":story["prose_job"],
+          "data_job":story["data_job"],
+          "transition_job":story["transition_job"]
         }
 
     def test_manifest_has_exactly_twelve_gates(self):
