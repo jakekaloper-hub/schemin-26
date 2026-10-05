@@ -389,6 +389,18 @@ Questions answered:
 
 This is more useful than a generic standings table.
 
+### GM Watch — Pitts
+
+State of the Realm may include a compact league-wide editorial callout:
+
+> **GM WATCH: PITTS?**
+
+Support line: TDS entered with the league's thinnest premium draft board and has spent the opening month manufacturing roster value through waivers and trades.
+
+Primary treatment belongs on the Week 5 TDS × HMB GOTW page. State of the Realm is secondary and should omit the callout if it crowds standings / divisional consequence.
+
+Do not declare an award winner or print a 2–2 record before Week 4 Fact Lock.
+
 ## 14. Power Rankings role
 
 Power Rankings should be a **data breather**, not another illustrated chapter.
