@@ -278,3 +278,21 @@ Live results are permitted to rewrite:
 - final meaning.
 
 The story must be recognized from the week, not imposed on it.
+
+
+## 15. Commissioner-supplied HMB closing quote — 2026-10-05
+
+Exact approved quote:
+
+> **“The disrespect towards His Majesty’s Blood will not go unnoticed.”**
+
+Use this as the preferred closing HMB dialogue **only if HMB's Week 4 victory is provider-verified at publication/fact lock**.
+
+Current Flaim/ESPN snapshot still labels LLC × HMB `UNDECIDED`, although HMB currently leads 177.32 to 124.27. Do not convert the quote into final-result prose until the result gate clears.
+
+If/when the HMB win is verified:
+- place the quote at or near the end of the LLC × HMB story;
+- preserve exact wording unless the Commissioner later edits it;
+- let it function as character voice / forward pressure into Week 5;
+- do not use it to erase Achane's persistent keeper-loss state;
+- do not add extra dialogue that dilutes the line.
