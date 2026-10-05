@@ -2,7 +2,7 @@
 
 status: ACTIVE / T04_CANDIDATE
 owner: Wilson Look
-current_team: Donkey Kong
+current_team: D0nkey K0ng
 canonical_identity: Arsenal Gorilla Centaur Warrior
 
 ## Primary identity evidence
