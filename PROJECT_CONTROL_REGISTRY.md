@@ -124,6 +124,16 @@ Read:
 
 No downstream system may imply live ESPN verification unless freshness metadata supports that claim.
 
+**Playoff Context Intelligence Layer V1:** BUILD CANDIDATE / NOT ACTIVE.
+
+Read:
+- `data-gateway/playoff-context/README.md`
+- `data-gateway/playoff-context/MODEL_SPEC.md`
+- `data-gateway/playoff-context/EDITORIAL_POLICY.md`
+- `data-gateway/playoff-context/ACCEPTANCE_REPORT.md`
+
+This derived capability may feed Weekly Memo, Mercer, Living Novel/Story Room and planning surfaces, but it owns only derived analytics. It cannot override Data Gateway/Flaim evidence authority, Memo/Novel narrative authority, or release gates. Production output fails closed while the current result lock is unresolved.
+
 ### Character canon
 Read:
 - `canon/_INDEX.md`
