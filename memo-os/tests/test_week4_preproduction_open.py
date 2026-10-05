@@ -51,10 +51,12 @@ class Week4PreproductionOpenTests(unittest.TestCase):
 
     def test_current_high_risk_canon_is_locked(self):
         canon = self.text("WEEK_4_TEMPORAL_CANON_RECEIPT_V1.md")
-        self.assertIn("Arsenal Gorilla Warrior", canon)
-        self.assertIn("centaur/equine form RETIRED", canon)
+        self.assertIn("Arsenal Gorilla Centaur Warrior", canon)
+        self.assertIn("FOUR-LEGGED centaur/equine lower body", canon)
         self.assertIn("EXACTLY THREE serpent HEADS", canon)
         self.assertIn("NO championship belt", canon)
+        self.assertIn("Frat Star", canon)
+        self.assertIn("stale typo", canon)
 
     def test_finished_art_and_release_are_blocked(self):
         index = self.text("_INDEX.md")
