@@ -553,6 +553,127 @@
       "cross_reference_reviewer": "Author Council",
       "status": "CURRENT",
       "story_authority_hash": "839a09df6459707d9ee54734b3950c2f589fbad3c1231ba87b109c18a10dfd3f"
+    },
+    {
+      "story_unit_id": "W4-MODULE-COVER",
+      "kind": "module",
+      "title": "Cover",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/WEEK_4_ISSUE_ARCHITECTURE_UNIVERSE_IMMERSION_REVIEW_2026-10-04.md",
+          "blob_sha": "a744237867aa8737debcf3f7a7eafcc1ac59921a",
+          "role": "current cover candidate architecture"
+        }
+      ],
+      "superseded_sources": [],
+      "current_page_count": 1,
+      "page_count_state": "COVER_FORM_FIXED_SELECTION_PENDING_FACT_LOCK",
+      "page_role": "issue-level cover; final thesis/result-dependent cover selection remains unlocked",
+      "headline_direction": "Divisional Week / consequence cover; final cover thesis may change only via explicit Commissioner or final-result authority.",
+      "visual_job": "One coherent world-state or earned principal consequence; never six-character poster by default.",
+      "prose_job": "Minimal cover copy only.",
+      "data_job": "No invented result/record fields.",
+      "transition_job": "Lead into opening editorial.",
+      "unresolved_conditions": [
+        "Fact Lock",
+        "final cover selection"
+      ],
+      "fact_lock_dependencies": [
+        "final result shape if single-character consequence cover is chosen"
+      ],
+      "character_dependencies": [],
+      "world_dependencies": [
+        "whole-world or resolved matchup environment"
+      ],
+      "director_owner": "Visual Direction Lead",
+      "cross_reference_reviewer": "Beat Writer",
+      "status": "CURRENT",
+      "story_authority_hash": "90b156f674d708e2ffc15c2f7e16d002a210c5ae9a2c1e1a92fcabe1309b0121"
+    },
+    {
+      "story_unit_id": "W4-MODULE-OPENING",
+      "kind": "module",
+      "title": "Opening Editorial",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/WEEK_4_ISSUE_ARCHITECTURE_UNIVERSE_IMMERSION_REVIEW_2026-10-04.md",
+          "blob_sha": "a744237867aa8737debcf3f7a7eafcc1ac59921a",
+          "role": "opening editorial architecture"
+        }
+      ],
+      "superseded_sources": [
+        "scoreboard-dump opening"
+      ],
+      "current_page_count": 1,
+      "page_count_state": "CURRENT_PLANNING",
+      "page_role": "opening editorial / divisional-week orientation",
+      "headline_direction": "Divisional Week brought consequences home / distance as opening literary move.",
+      "visual_job": "Low-detail environmental world panorama / roads / regional markers; no principal character dominates.",
+      "prose_job": "Explain why divisional week feels local and consequential without Atlas exposition.",
+      "data_job": "3–4 verified facts only; no scoreboard dump.",
+      "transition_job": "Orient reader into first divisional stories.",
+      "unresolved_conditions": [
+        "final thesis wording"
+      ],
+      "fact_lock_dependencies": [
+        "3–4 verified final facts if used"
+      ],
+      "character_dependencies": [],
+      "world_dependencies": [
+        "regional road network / division continuity"
+      ],
+      "director_owner": "Beat Writer",
+      "cross_reference_reviewer": "Author Council",
+      "status": "CURRENT",
+      "story_authority_hash": "be9e783cb1bc0afd746e2c6a0dfcb36cb5792c541c40e0983eb6d36a0a1c9761"
+    },
+    {
+      "story_unit_id": "W4-MODULE-SCOREBOARD",
+      "kind": "module",
+      "title": "Scoreboard",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/WEEK_4_ISSUE_ARCHITECTURE_UNIVERSE_IMMERSION_REVIEW_2026-10-04.md",
+          "blob_sha": "a744237867aa8737debcf3f7a7eafcc1ac59921a",
+          "role": "deterministic module role"
+        }
+      ],
+      "superseded_sources": [
+        "narrative scoreboard copy that duplicates matchup prose"
+      ],
+      "current_page_count": 1,
+      "page_count_state": "CURRENT_PLANNING",
+      "page_role": "deterministic factual orientation module",
+      "headline_direction": "WEEK 4 SCOREBOARD",
+      "visual_job": "Clean deterministic data presentation; no result invented by image model.",
+      "prose_job": "Minimal labels only.",
+      "data_job": "Six final scores, winners and records from Fact Lock.",
+      "transition_job": "Orientation/breather where issue pacing requires.",
+      "unresolved_conditions": [
+        "Fact Lock",
+        "final placement"
+      ],
+      "fact_lock_dependencies": [
+        "six final scores",
+        "winners",
+        "records"
+      ],
+      "character_dependencies": [],
+      "world_dependencies": [],
+      "director_owner": "Publication Design",
+      "cross_reference_reviewer": "Scout",
+      "status": "CURRENT",
+      "story_authority_hash": "98de411d4dfd50245334dd55e580012e9c4c36be952a7ac9dc35602c11b0fa94"
     }
+  ],
+  "required_editorial_modules": [
+    "W4-MODULE-COVER",
+    "W4-MODULE-OPENING",
+    "W4-MODULE-SCOREBOARD",
+    "W4-MODULE-STATE-REALM",
+    "W4-MODULE-POWER-RANKINGS",
+    "W4-MODULE-PITTSY",
+    "W4-MODULE-WEEK5-GOTW",
+    "W4-MODULE-FINAL-WORD"
   ]
 }
