@@ -36,8 +36,8 @@
     {
       "gate_id": "G4",
       "domain": "State of the Realm",
-      "owner": "Scout + Beat Writer",
-      "counterweight": "World / Atlas Director",
+      "owner": "Scout",
+      "counterweight": "Beat Writer + World / Atlas Director",
       "control_status": "PASS",
       "execution_status": "WAITING_ON_FACT_LOCK",
       "enforcement": "final division state only; no stale projections",
@@ -76,8 +76,8 @@
     {
       "gate_id": "G8",
       "domain": "Art Production",
-      "owner": "Visual Direction Lead + CAIO",
-      "counterweight": "Librarian",
+      "owner": "Visual Direction Lead",
+      "counterweight": "CAIO + Librarian",
       "control_status": "PASS",
       "execution_status": "BLOCKED",
       "enforcement": "current story authority + character authority + exact refs + world packet + Umpire preflight + Closer authorization",
@@ -117,12 +117,13 @@
       "gate_id": "G12",
       "domain": "Closer Release",
       "owner": "Closer",
-      "counterweight": "Groundskeeper evidence pack + Umpire",
+      "counterweight": "Umpire + Groundskeeper evidence pack",
       "control_status": "PASS",
       "execution_status": "BLOCKED",
       "enforcement": "Story + Fact + Character + World + Visual + Editorial + Publication + Umpire PASS required",
       "regression_test": "test_release_blocked_until_all_pass"
     }
   ],
-  "closer_rule": "No PASS_TO_PRODUCTION until owner PASS + counterweight PASS + Umpire PASS + current evidence receipts. No PASS_TO_RELEASE until G1-G11 execution PASS."
+  "closer_rule": "No PASS_TO_PRODUCTION until owner PASS + counterweight PASS + Umpire PASS + current evidence receipts. No PASS_TO_RELEASE until G1-G11 execution PASS.",
+  "rule": "Exactly one named owner per gate; counterweights may be plural. Owner cannot self-certify where counterweight is required."
 }
