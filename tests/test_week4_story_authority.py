@@ -40,7 +40,12 @@ class Week4StoryAuthorityTests(unittest.TestCase):
           "story_authority_id":story_id,
           "story_authority_hash":u["story_authority_hash"],
           "story_authority_receipt":"memo-os/week-4/publication-readiness/WEEK_04_STORY_AUTHORITY_REGISTER.json",
-          "story_authority_state":"CURRENT"
+          "story_authority_state":"CURRENT",
+          "story_page_role":u["page_role"],
+          "visual_job":u["visual_job"],
+          "prose_job":u["prose_job"],
+          "data_job":u["data_job"],
+          "transition_job":u["transition_job"]
         }
 
     def test_story_authority_validator_passes(self):
@@ -95,6 +100,14 @@ class Week4StoryAuthorityTests(unittest.TestCase):
         result=render.render_eligibility(p)
         self.assertEqual(result["state"],"PAGE_RENDER_BLOCKED")
         self.assertEqual(result["reason"],"STORY_AUTHORITY_GENERATION_HOLD")
+
+    def test_current_hash_cannot_hide_semantically_wrong_page(self):
+        p=self.packet("W4-STORY-LLC-HMB")
+        p["visual_job"]="Generic capital-versus-champion stadium poster."
+        result=render.render_eligibility(p)
+        self.assertEqual(result["state"],"PAGE_RENDER_BLOCKED")
+        self.assertEqual(result["reason"],"STORY_AUTHORITY_MISMATCH")
+        self.assertIn("VISUAL_JOB_MISMATCH",result["detail"])
 
     def test_source_blob_change_invalidates_story_authority(self):
         bad=copy.deepcopy(self.register)
