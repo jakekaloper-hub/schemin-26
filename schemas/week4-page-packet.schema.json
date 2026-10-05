@@ -1,0 +1,201 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemin.local/schemas/week4-page-packet.schema.json",
+  "title": "Schemin Week 4 Page Packet",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "page_id",
+    "page_number",
+    "page_function",
+    "narrative_purpose",
+    "story_beat",
+    "fact_dependencies",
+    "character_ids",
+    "character_authority_refs",
+    "exact_reference_assets",
+    "world_state_ref",
+    "venue_ref",
+    "geography_ref",
+    "composition",
+    "foreground",
+    "midground",
+    "background",
+    "text_hierarchy",
+    "headline",
+    "copy_fields",
+    "deterministic_data_fields",
+    "visual_objects",
+    "negative_constraints",
+    "drift_risks",
+    "rejection_conditions",
+    "mobile_readability_requirements",
+    "previous_page",
+    "next_page",
+    "status"
+  ],
+  "properties": {
+    "page_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "page_number": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "page_function": {
+      "type": "string",
+      "minLength": 1
+    },
+    "narrative_purpose": {
+      "type": "string",
+      "minLength": 1
+    },
+    "story_beat": {
+      "type": "string",
+      "minLength": 1
+    },
+    "fact_dependencies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "character_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^CHAR-"
+      }
+    },
+    "character_authority_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "exact_reference_assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "character_id",
+          "authority_ref",
+          "expected_sha256",
+          "state"
+        ],
+        "properties": {
+          "character_id": {
+            "type": "string"
+          },
+          "authority_ref": {
+            "type": "string"
+          },
+          "expected_sha256": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "state": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "world_state_ref": {
+      "type": "string"
+    },
+    "venue_ref": {
+      "type": "string"
+    },
+    "geography_ref": {
+      "type": "string"
+    },
+    "composition": {
+      "type": "string"
+    },
+    "foreground": {
+      "type": "string"
+    },
+    "midground": {
+      "type": "string"
+    },
+    "background": {
+      "type": "string"
+    },
+    "text_hierarchy": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "headline": {
+      "type": "string"
+    },
+    "copy_fields": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "deterministic_data_fields": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "visual_objects": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "negative_constraints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "drift_risks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rejection_conditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "mobile_readability_requirements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "previous_page": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "next_page": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "enum": [
+        "PREPARED",
+        "WAITING_ON_FINALITY",
+        "PAGE_RENDER_BLOCKED",
+        "PAGE_RENDER_ELIGIBLE",
+        "RENDERED",
+        "PAGE_LOCKED"
+      ]
+    }
+  }
+}
