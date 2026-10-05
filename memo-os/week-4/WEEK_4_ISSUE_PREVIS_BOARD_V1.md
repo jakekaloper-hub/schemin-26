@@ -54,3 +54,21 @@ Every final planned page must record:
 **COMPLETE ISSUE PREVIS = NOT YET PASSED.**
 
 Finished image generation remains prohibited until Story Room and issue architecture convert these candidate modules into a complete reviewed board.
+
+
+## Week 5 GOTW forward-module ruling — 2026-10-05
+
+Commissioner-selected Week 5 GAME OF THE WEEK for the Week 4 Memo:
+
+**Three Dreaded Snake vs His Majesty's Blood**
+
+Authority: `WEEK_5_GOTW_TDS_HMB_COMMISSIONER_SELECTION_2026-10-05.md`.
+
+This supersedes the provisional Red Leopards vs ObiWan Jacoby GOTW direction.
+
+Planning constraints:
+- TDS vs HMB receives dedicated GOTW elevation inside the Week 5 preview experience.
+- Red vs Obi remains part of the ordinary Week 5 slate and may receive secondary injury/resource framing.
+- Week 4 final records remain unlocked until current-week provider finality.
+- exact GOTW page form, copy depth, art:text ratio and final environment remain open until historical rivalry evidence + venue resolution + Week 4 finality are reconciled.
+- this ruling does not alter the Week 4 cover doctrine.
