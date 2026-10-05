@@ -1,0 +1,297 @@
+{
+  "schema_version": "1.0.0",
+  "publication_id": "memo.2026.week-04",
+  "gates": [
+    {
+      "gate_id": "G1",
+      "owner": "Scout",
+      "required_inputs": [
+        "Flaim final Week 4 state"
+      ],
+      "required_artifact": "WEEK_04_FACT_LOCK.md",
+      "validator": "week4_readiness.py",
+      "freshness_rule": "must be captured after provider finality",
+      "failure_modes": [
+        "UNDECIDED_RESULTS",
+        "STALE_FACT_LOCK"
+      ],
+      "pass_condition": "all six final and reconciled",
+      "hold_condition": "provider not final",
+      "fail_condition": "internal contradiction or stale evidence",
+      "downstream_unlocks": [
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6"
+      ],
+      "evidence_receipt": "WEEK_04_FACT_LOCK.md",
+      "regression_test": "test_g1_holds_while_undecided"
+    },
+    {
+      "gate_id": "G2",
+      "owner": "Ledger desk + Scout",
+      "required_inputs": [
+        "G1",
+        "final Week 4 ledger inputs"
+      ],
+      "required_artifact": "WEEK_04_PITTYS_BOOK_SETTLEMENT.md",
+      "validator": "week4_readiness.py",
+      "freshness_rule": "must reconcile against current prior ledger",
+      "failure_modes": [
+        "LEDGER_INCOMPLETE",
+        "ARITHMETIC_MISMATCH"
+      ],
+      "pass_condition": "ledger complete and exact",
+      "hold_condition": "awaiting final inputs",
+      "fail_condition": "arithmetic mismatch",
+      "downstream_unlocks": [
+        "G11"
+      ],
+      "evidence_receipt": "WEEK_04_PITTYS_BOOK_SETTLEMENT.md",
+      "regression_test": "test_g2_requires_final_inputs"
+    },
+    {
+      "gate_id": "G3",
+      "owner": "Power Rankings desk + Scout + Beat Writer",
+      "required_inputs": [
+        "G1",
+        "prior published rankings"
+      ],
+      "required_artifact": "WEEK_04_POWER_RANKINGS_LOCK.md",
+      "validator": "week4_readiness.py",
+      "freshness_rule": "generated after G1",
+      "failure_modes": [
+        "RECORD_MISMATCH",
+        "BAD_MOVEMENT_BASELINE"
+      ],
+      "pass_condition": "12 rows reconcile with Fact Lock and prior baseline",
+      "hold_condition": "G1 not pass",
+      "fail_condition": "contradiction",
+      "downstream_unlocks": [
+        "G11"
+      ],
+      "evidence_receipt": "WEEK_04_POWER_RANKINGS_LOCK.md",
+      "regression_test": "test_rankings_cannot_precede_fact_lock"
+    },
+    {
+      "gate_id": "G4",
+      "owner": "Scout + Beat Writer + World",
+      "required_inputs": [
+        "G1"
+      ],
+      "required_artifact": "WEEK_04_STATE_OF_REALM.md",
+      "validator": "week4_readiness.py",
+      "freshness_rule": "generated after final records",
+      "failure_modes": [
+        "PROJECTION_AS_RESULT",
+        "DIVISION_MISMATCH"
+      ],
+      "pass_condition": "division consequences reconcile",
+      "hold_condition": "G1 not pass",
+      "fail_condition": "contradiction",
+      "downstream_unlocks": [
+        "G11"
+      ],
+      "evidence_receipt": "WEEK_04_STATE_OF_REALM.md",
+      "regression_test": "test_state_requires_fact_lock"
+    },
+    {
+      "gate_id": "G5",
+      "owner": "Beat Writer + Author Council",
+      "required_inputs": [
+        "G1"
+      ],
+      "required_artifact": "WEEK_04_MATCHUP_CONSEQUENCE_REGISTER.md",
+      "validator": "week4_readiness.py",
+      "freshness_rule": "final consequence language after G1",
+      "failure_modes": [
+        "UNVERIFIED_CAUSALITY",
+        "RESULT_CONTRADICTION"
+      ],
+      "pass_condition": "all six causal packets reconcile",
+      "hold_condition": "G1 not pass",
+      "fail_condition": "unsupported consequence",
+      "downstream_unlocks": [
+        "G6",
+        "G7"
+      ],
+      "evidence_receipt": "WEEK_04_MATCHUP_CONSEQUENCE_REGISTER.md",
+      "regression_test": "test_consequence_requires_finality"
+    },
+    {
+      "gate_id": "G6",
+      "owner": "Librarian + World",
+      "required_inputs": [
+        "G1",
+        "G5"
+      ],
+      "required_artifact": "WEEK_04_WORLD_STATE_DELTA.md",
+      "validator": "week4_readiness.py",
+      "freshness_rule": "must cite final consequence register",
+      "failure_modes": [
+        "UNVERIFIED_WORLD_MUTATION",
+        "CONTINUITY_RESET"
+      ],
+      "pass_condition": "only supported durable consequences",
+      "hold_condition": "G1/G5 not pass",
+      "fail_condition": "unsupported state mutation",
+      "downstream_unlocks": [
+        "G7",
+        "G10"
+      ],
+      "evidence_receipt": "WEEK_04_WORLD_STATE_DELTA.md",
+      "regression_test": "test_world_delta_cannot_invent_result"
+    },
+    {
+      "gate_id": "G7",
+      "owner": "Groundskeeper",
+      "required_inputs": [
+        "G1",
+        "G5",
+        "G6",
+        "page packet schema"
+      ],
+      "required_artifact": "WEEK_04_PAGE_PACKET_REGISTER.md",
+      "validator": "week4_readiness.py + page packet schema",
+      "freshness_rule": "packets bind final fact/world states",
+      "failure_modes": [
+        "MISSING_PACKET",
+        "MISSING_REQUIRED_FIELD",
+        "STALE_CHARACTER_AUTHORITY"
+      ],
+      "pass_condition": "every planned page has valid packet",
+      "hold_condition": "upstream not pass",
+      "fail_condition": "packet/schema failure",
+      "downstream_unlocks": [
+        "G8",
+        "G9"
+      ],
+      "evidence_receipt": "WEEK_04_PAGE_PACKET_REGISTER.md",
+      "regression_test": "test_render_blocks_without_packet"
+    },
+    {
+      "gate_id": "G8",
+      "owner": "Visual Direction + CAIO + Librarian",
+      "required_inputs": [
+        "G7",
+        "character runtime eligibility"
+      ],
+      "required_artifact": "WEEK_04_VISUAL_QA_REGISTER.md",
+      "validator": "week4_readiness.py + character runtime",
+      "freshness_rule": "QA receipt must bind actual output instance",
+      "failure_modes": [
+        "GENERATION_BLOCKED",
+        "CHARACTER_QA_FAIL",
+        "STALE_REFERENCE"
+      ],
+      "pass_condition": "all character-bearing final rasters PASS",
+      "hold_condition": "provider capability or G7 unavailable",
+      "fail_condition": "wrong identity/output",
+      "downstream_unlocks": [
+        "G9",
+        "G10",
+        "G11"
+      ],
+      "evidence_receipt": "WEEK_04_VISUAL_QA_REGISTER.md",
+      "regression_test": "test_dk_stale_identity_fails"
+    },
+    {
+      "gate_id": "G9",
+      "owner": "Publication Design + Scout",
+      "required_inputs": [
+        "G7",
+        "G8",
+        "deterministic data"
+      ],
+      "required_artifact": "WEEK_04_PUBLICATION_DESIGN_QA.md",
+      "validator": "week4_readiness.py",
+      "freshness_rule": "QA binds final rendered pages",
+      "failure_modes": [
+        "DATA_DRIFT",
+        "MOBILE_FAIL",
+        "PLACEHOLDER"
+      ],
+      "pass_condition": "all page design checks pass",
+      "hold_condition": "render unavailable",
+      "fail_condition": "data/design mismatch",
+      "downstream_unlocks": [
+        "G11"
+      ],
+      "evidence_receipt": "WEEK_04_PUBLICATION_DESIGN_QA.md",
+      "regression_test": "test_score_mismatch_fails"
+    },
+    {
+      "gate_id": "G10",
+      "owner": "Librarian + World + Umpire",
+      "required_inputs": [
+        "G6",
+        "G8",
+        "assembled pages"
+      ],
+      "required_artifact": "WEEK_04_CONTINUITY_AUDIT.md",
+      "validator": "week4_readiness.py",
+      "freshness_rule": "audit targets exact final pages",
+      "failure_modes": [
+        "CANON_RESET",
+        "WORLD_DRIFT"
+      ],
+      "pass_condition": "continuity passes",
+      "hold_condition": "assembled pages unavailable",
+      "fail_condition": "canon/world conflict",
+      "downstream_unlocks": [
+        "G11"
+      ],
+      "evidence_receipt": "WEEK_04_CONTINUITY_AUDIT.md",
+      "regression_test": "test_stale_dk_reference_fails"
+    },
+    {
+      "gate_id": "G11",
+      "owner": "Umpire",
+      "required_inputs": [
+        "G1-G10 as applicable",
+        "assembled issue"
+      ],
+      "required_artifact": "WEEK_04_FINAL_UMPIRE_REPORT.md",
+      "validator": "week4_readiness.py + assembly validator",
+      "freshness_rule": "report binds exact assembled artifact",
+      "failure_modes": [
+        "MISSING_PAGE",
+        "DUPLICATE_PAGE",
+        "UNRESOLVED_PLACEHOLDER",
+        "MISSING_RECEIPT"
+      ],
+      "pass_condition": "independent PASS",
+      "hold_condition": "assembly unavailable",
+      "fail_condition": "any blocking defect",
+      "downstream_unlocks": [
+        "G12"
+      ],
+      "evidence_receipt": "WEEK_04_FINAL_UMPIRE_REPORT.md",
+      "regression_test": "test_missing_page_blocks_assembly"
+    },
+    {
+      "gate_id": "G12",
+      "owner": "Closer + Groundskeeper",
+      "required_inputs": [
+        "G1-G11 PASS",
+        "final PDF",
+        "hashes"
+      ],
+      "required_artifact": "WEEK_04_PUBLICATION_RECEIPT.md",
+      "validator": "week4_readiness.py + publication manifest validator",
+      "freshness_rule": "receipt binds exact PDF hash/commit",
+      "failure_modes": [
+        "PREMATURE_RELEASE",
+        "HASH_MISMATCH",
+        "GATE_NOT_PASS"
+      ],
+      "pass_condition": "all prior gates PASS and exact artifact bound",
+      "hold_condition": "any prior gate hold",
+      "fail_condition": "release mutation without proof",
+      "downstream_unlocks": [],
+      "evidence_receipt": "WEEK_04_PUBLICATION_RECEIPT.md",
+      "regression_test": "test_release_blocked_until_all_pass"
+    }
+  ]
+}
