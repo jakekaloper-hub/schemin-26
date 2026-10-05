@@ -19,6 +19,8 @@ elig = load_module("week4_render_eligibility", "governance/publication/week4_ren
 class Week4ReadinessTests(unittest.TestCase):
     def setUp(self):
         self.manifest = json.loads((ROOT/"memo-os/week-4/publication-readiness/WEEK_04_PUBLICATION_MANIFEST.json").read_text())
+        self.char_matrix = json.loads((ROOT/"memo-os/week-4/publication-readiness/WEEK_04_12_CHARACTER_AUTHORITY_MATRIX.json").read_text())
+        self.hash_by_id = {x["character_id"]:x["expected_sha256"] for x in self.char_matrix["characters"]}
 
     def complete_packet(self, chars=None):
         chars = chars or []
@@ -27,7 +29,8 @@ class Week4ReadinessTests(unittest.TestCase):
           "narrative_purpose":"test","story_beat":"test","fact_dependencies":[],
           "character_ids":chars,
           "character_authority_refs":["canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json"] if chars else [],
-          "exact_reference_assets":[{"character_id":c,"authority_ref":"canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json","expected_sha256":"x","state":"ACTIVE"} for c in chars],
+          "exact_reference_assets":[{"character_id":c,"authority_ref":"canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json","expected_sha256":self.hash_by_id[c],"state":"ACTIVE"} for c in chars],
+          "character_continuity":{"CHAR-PHILLIP-PITTS":"EXPLICIT_WEEK4_CONTINUITY_RESOLUTION_REQUIRED"} if "CHAR-PHILLIP-PITTS" in chars else {},
           "world_state_ref":"world/state/WORLD_STATE_LEDGER_V1.md","venue_ref":"test","geography_ref":"test",
           "composition":"test","foreground":"test","midground":"test","background":"test",
           "text_hierarchy":["headline"],"headline":"test","copy_fields":[],
@@ -75,6 +78,30 @@ class Week4ReadinessTests(unittest.TestCase):
         r=elig.render_eligibility(p)
         self.assertEqual(r["state"],"PAGE_RENDER_BLOCKED")
         self.assertEqual(r["reason"],"GENERATION_BLOCKED_PROVIDER_CAPABILITY_UNPROVEN")
+
+    def test_all_twelve_characters_have_unique_authority_rows_and_hashes(self):
+        rows=self.char_matrix["characters"]
+        self.assertEqual(len(rows),12)
+        self.assertEqual(len({x["character_id"] for x in rows}),12)
+        self.assertEqual(len({x["expected_sha256"] for x in rows}),12)
+        for row in rows:
+            self.assertEqual(len(row["expected_sha256"]),64)
+            self.assertTrue(row["required"])
+            self.assertTrue(row["reject"])
+
+    def test_wrong_owner_reference_hash_blocks_before_provider(self):
+        p=self.complete_packet(["CHAR-AUSTIN-BYARS"])
+        p["exact_reference_assets"][0]["expected_sha256"]="0"*64
+        r=elig.render_eligibility(p)
+        self.assertEqual(r["state"],"PAGE_RENDER_BLOCKED")
+        self.assertEqual(r["reason"],"CHARACTER_REFERENCE_HASH_MISMATCH")
+
+    def test_tds_requires_explicit_week4_continuity_resolution(self):
+        p=self.complete_packet(["CHAR-PHILLIP-PITTS"])
+        p["character_continuity"]={}
+        r=elig.render_eligibility(p)
+        self.assertEqual(r["state"],"PAGE_RENDER_BLOCKED")
+        self.assertEqual(r["reason"],"CHARACTER_CONTINUITY_UNRESOLVED")
 
     def test_week4_release_is_still_blocked(self):
         pub=readiness.publication_record()
