@@ -40,3 +40,16 @@ Carry the same mood family into selected DK × Obi pages where useful:
 Do not force every page into the same look.
 
 **ADD MOOD. DO NOT ADD ARC.**
+
+
+## Week 4 companion exclusion — Commissioner request
+
+For the **DK × ObiWan Jacoby Week 4 matchup and Week 4 cover only**:
+
+- depict **ObiWan Jacoby alone**;
+- **do not include the golden retriever companion visually** on the Week 4 cover;
+- **do not include the golden retriever companion visually** in the DK × Obi Week 4 matchup pages unless the Commissioner later reverses this instruction.
+
+This is a scoped Week 4 composition choice, not a permanent removal of the golden retriever from ObiWan's character canon.
+
+Primary visual focus: **OBJ himself** — solitary, direct, dark, ominous, cinematic, confident.
