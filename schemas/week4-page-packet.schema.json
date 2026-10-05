@@ -32,7 +32,11 @@
     "mobile_readability_requirements",
     "previous_page",
     "next_page",
-    "status"
+    "status",
+    "story_authority_id",
+    "story_authority_hash",
+    "story_authority_receipt",
+    "story_authority_state"
   ],
   "properties": {
     "page_id": {
@@ -195,6 +199,24 @@
         "PAGE_RENDER_ELIGIBLE",
         "RENDERED",
         "PAGE_LOCKED"
+      ]
+    },
+    "story_authority_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "story_authority_hash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "story_authority_receipt": {
+      "type": "string",
+      "minLength": 1
+    },
+    "story_authority_state": {
+      "enum": [
+        "CURRENT",
+        "STALE_REBUILD_REQUIRED"
       ]
     }
   }
