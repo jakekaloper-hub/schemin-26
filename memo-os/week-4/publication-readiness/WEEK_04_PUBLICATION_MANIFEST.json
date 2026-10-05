@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
   "publication_id": "memo.2026.week-04",
-  "issue_version": "prepublication-hardening-1",
-  "current_state": "WAITING_ON_MNF",
+  "issue_version": "prepublication-story-authority-hardening-2",
+  "current_state": "WAITING_ON_MNF_STORY_AUTHORITY_HARDENING",
   "authority": {
     "project_registry": "PROJECT_CONTROL_REGISTRY.md",
     "memo_os": "memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md",
@@ -24,31 +24,31 @@
     },
     {
       "gate_id": "G2",
-      "owner": "Ledger desk + Scout",
+      "owner": "Pitty desk",
       "state": "HOLD_EXTERNAL",
       "required_receipt": "WEEK_04_PITTYS_BOOK_SETTLEMENT.md"
     },
     {
       "gate_id": "G3",
-      "owner": "Power Rankings desk + Scout + Beat Writer",
+      "owner": "Power Rankings desk",
       "state": "PREPARED",
       "required_receipt": "WEEK_04_POWER_RANKINGS_LOCK.md"
     },
     {
       "gate_id": "G4",
-      "owner": "Scout + Beat Writer + World",
+      "owner": "Scout",
       "state": "PREPARED",
       "required_receipt": "WEEK_04_STATE_OF_REALM.md"
     },
     {
       "gate_id": "G5",
-      "owner": "Beat Writer + Author Council",
+      "owner": "Beat Writer",
       "state": "PREPARED",
       "required_receipt": "WEEK_04_MATCHUP_CONSEQUENCE_REGISTER.md"
     },
     {
       "gate_id": "G6",
-      "owner": "Librarian + World",
+      "owner": "Librarian",
       "state": "PREPARED",
       "required_receipt": "WEEK_04_WORLD_STATE_DELTA.md"
     },
@@ -60,19 +60,19 @@
     },
     {
       "gate_id": "G8",
-      "owner": "Visual Direction + CAIO + Librarian",
+      "owner": "Visual Direction Lead",
       "state": "HOLD_EXTERNAL",
       "required_receipt": "WEEK_04_VISUAL_QA_REGISTER.md"
     },
     {
       "gate_id": "G9",
-      "owner": "Publication Design + Scout",
+      "owner": "Publication Design",
       "state": "PREPARED",
       "required_receipt": "WEEK_04_PUBLICATION_DESIGN_QA.md"
     },
     {
       "gate_id": "G10",
-      "owner": "Librarian + World + Umpire",
+      "owner": "Author Council",
       "state": "PREPARED",
       "required_receipt": "WEEK_04_CONTINUITY_AUDIT.md"
     },
@@ -84,167 +84,12 @@
     },
     {
       "gate_id": "G12",
-      "owner": "Closer + Groundskeeper",
+      "owner": "Closer",
       "state": "BLOCKED",
       "required_receipt": "WEEK_04_PUBLICATION_RECEIPT.md"
     }
   ],
-  "pages": [
-    {
-      "page_id": "W4-P01",
-      "page_number": 1,
-      "title": "Cover",
-      "character_ids": [
-        "CHAR-JAKE-KALOPER"
-      ]
-    },
-    {
-      "page_id": "W4-P02",
-      "page_number": 2,
-      "title": "Opening Drive",
-      "character_ids": []
-    },
-    {
-      "page_id": "W4-P03",
-      "page_number": 3,
-      "title": "Scoreboard",
-      "character_ids": []
-    },
-    {
-      "page_id": "W4-P04",
-      "page_number": 4,
-      "title": "DK vs Obi I",
-      "character_ids": [
-        "CHAR-JAKE-KALOPER",
-        "CHAR-WILSON-LOOK"
-      ]
-    },
-    {
-      "page_id": "W4-P05",
-      "page_number": 5,
-      "title": "DK vs Obi II",
-      "character_ids": [
-        "CHAR-JAKE-KALOPER",
-        "CHAR-WILSON-LOOK"
-      ]
-    },
-    {
-      "page_id": "W4-P06",
-      "page_number": 6,
-      "title": "DK vs Obi III",
-      "character_ids": [
-        "CHAR-JAKE-KALOPER",
-        "CHAR-WILSON-LOOK"
-      ]
-    },
-    {
-      "page_id": "W4-P07",
-      "page_number": 7,
-      "title": "DK vs Obi IV",
-      "character_ids": [
-        "CHAR-JAKE-KALOPER",
-        "CHAR-WILSON-LOOK"
-      ]
-    },
-    {
-      "page_id": "W4-P08",
-      "page_number": 8,
-      "title": "Mud Dogs vs TDS",
-      "character_ids": [
-        "CHAR-BOBBY-MITCHELL",
-        "CHAR-PHILLIP-PITTS"
-      ]
-    },
-    {
-      "page_id": "W4-P09",
-      "page_number": 9,
-      "title": "Red vs Duckhook",
-      "character_ids": [
-        "CHAR-KEVIN-ZEEK",
-        "CHAR-ZACH-WILSON"
-      ]
-    },
-    {
-      "page_id": "W4-P10",
-      "page_number": 10,
-      "title": "Slob vs Chili",
-      "character_ids": [
-        "CHAR-JORDAN-HOLLINGSHEAD",
-        "CHAR-BRANDON-PRYOR"
-      ]
-    },
-    {
-      "page_id": "W4-P11",
-      "page_number": 11,
-      "title": "LLC vs HMB I",
-      "character_ids": [
-        "CHAR-DAVID-BABB",
-        "CHAR-AUSTIN-BYARS"
-      ]
-    },
-    {
-      "page_id": "W4-P12",
-      "page_number": 12,
-      "title": "LLC vs HMB II",
-      "character_ids": [
-        "CHAR-DAVID-BABB",
-        "CHAR-AUSTIN-BYARS"
-      ]
-    },
-    {
-      "page_id": "W4-P13",
-      "page_number": 13,
-      "title": "LLC vs HMB III",
-      "character_ids": [
-        "CHAR-DAVID-BABB",
-        "CHAR-AUSTIN-BYARS"
-      ]
-    },
-    {
-      "page_id": "W4-P14",
-      "page_number": 14,
-      "title": "El Nino vs Chins",
-      "character_ids": [
-        "CHAR-MANNING-WELTY",
-        "CHAR-BEN-WHIPPLE"
-      ]
-    },
-    {
-      "page_id": "W4-P15",
-      "page_number": 15,
-      "title": "State of the Realm",
-      "character_ids": []
-    },
-    {
-      "page_id": "W4-P16",
-      "page_number": 16,
-      "title": "Power Rankings",
-      "character_ids": []
-    },
-    {
-      "page_id": "W4-P17",
-      "page_number": 17,
-      "title": "Week 4 Ledger",
-      "character_ids": [
-        "CHAR-PHILLIP-PITTS"
-      ]
-    },
-    {
-      "page_id": "W4-P18",
-      "page_number": 18,
-      "title": "Week 5 Preview",
-      "character_ids": [
-        "CHAR-PHILLIP-PITTS",
-        "CHAR-AUSTIN-BYARS"
-      ]
-    },
-    {
-      "page_id": "W4-P19",
-      "page_number": 19,
-      "title": "Final Word",
-      "character_ids": []
-    }
-  ],
+  "pages": [],
   "character_overrides": {
     "CHAR-WILSON-LOOK": {
       "identity": "Arsenal Gorilla Centaur Warrior",
@@ -265,6 +110,170 @@
     "final_pdf_required": true,
     "final_pdf_sha256_required": true,
     "page_hash_manifest_required": true,
-    "umpire_pass_required": true
+    "umpire_pass_required": true,
+    "story_authority_pass_required": true,
+    "page_packets_must_bind_current_story_authority": true
+  },
+  "story_authority_register": "memo-os/week-4/publication-readiness/WEEK_04_STORY_AUTHORITY_REGISTER.json",
+  "page_plan_state": "WAITING_ON_STORY_LOCK",
+  "legacy_page_plan": {
+    "state": "SUPERSEDED_NON_CONTROLLING",
+    "reason": "Fixed 19-page plan contained stale LLC×HMB mandatory three-page architecture and cannot seed production.",
+    "pages": [
+      {
+        "page_id": "W4-P01",
+        "page_number": 1,
+        "title": "Cover",
+        "character_ids": [
+          "CHAR-JAKE-KALOPER"
+        ]
+      },
+      {
+        "page_id": "W4-P02",
+        "page_number": 2,
+        "title": "Opening Drive",
+        "character_ids": []
+      },
+      {
+        "page_id": "W4-P03",
+        "page_number": 3,
+        "title": "Scoreboard",
+        "character_ids": []
+      },
+      {
+        "page_id": "W4-P04",
+        "page_number": 4,
+        "title": "DK vs Obi I",
+        "character_ids": [
+          "CHAR-JAKE-KALOPER",
+          "CHAR-WILSON-LOOK"
+        ]
+      },
+      {
+        "page_id": "W4-P05",
+        "page_number": 5,
+        "title": "DK vs Obi II",
+        "character_ids": [
+          "CHAR-JAKE-KALOPER",
+          "CHAR-WILSON-LOOK"
+        ]
+      },
+      {
+        "page_id": "W4-P06",
+        "page_number": 6,
+        "title": "DK vs Obi III",
+        "character_ids": [
+          "CHAR-JAKE-KALOPER",
+          "CHAR-WILSON-LOOK"
+        ]
+      },
+      {
+        "page_id": "W4-P07",
+        "page_number": 7,
+        "title": "DK vs Obi IV",
+        "character_ids": [
+          "CHAR-JAKE-KALOPER",
+          "CHAR-WILSON-LOOK"
+        ]
+      },
+      {
+        "page_id": "W4-P08",
+        "page_number": 8,
+        "title": "Mud Dogs vs TDS",
+        "character_ids": [
+          "CHAR-BOBBY-MITCHELL",
+          "CHAR-PHILLIP-PITTS"
+        ]
+      },
+      {
+        "page_id": "W4-P09",
+        "page_number": 9,
+        "title": "Red vs Duckhook",
+        "character_ids": [
+          "CHAR-KEVIN-ZEEK",
+          "CHAR-ZACH-WILSON"
+        ]
+      },
+      {
+        "page_id": "W4-P10",
+        "page_number": 10,
+        "title": "Slob vs Chili",
+        "character_ids": [
+          "CHAR-JORDAN-HOLLINGSHEAD",
+          "CHAR-BRANDON-PRYOR"
+        ]
+      },
+      {
+        "page_id": "W4-P11",
+        "page_number": 11,
+        "title": "LLC vs HMB I",
+        "character_ids": [
+          "CHAR-DAVID-BABB",
+          "CHAR-AUSTIN-BYARS"
+        ]
+      },
+      {
+        "page_id": "W4-P12",
+        "page_number": 12,
+        "title": "LLC vs HMB II",
+        "character_ids": [
+          "CHAR-DAVID-BABB",
+          "CHAR-AUSTIN-BYARS"
+        ]
+      },
+      {
+        "page_id": "W4-P13",
+        "page_number": 13,
+        "title": "LLC vs HMB III",
+        "character_ids": [
+          "CHAR-DAVID-BABB",
+          "CHAR-AUSTIN-BYARS"
+        ]
+      },
+      {
+        "page_id": "W4-P14",
+        "page_number": 14,
+        "title": "El Nino vs Chins",
+        "character_ids": [
+          "CHAR-MANNING-WELTY",
+          "CHAR-BEN-WHIPPLE"
+        ]
+      },
+      {
+        "page_id": "W4-P15",
+        "page_number": 15,
+        "title": "State of the Realm",
+        "character_ids": []
+      },
+      {
+        "page_id": "W4-P16",
+        "page_number": 16,
+        "title": "Power Rankings",
+        "character_ids": []
+      },
+      {
+        "page_id": "W4-P17",
+        "page_number": 17,
+        "title": "Week 4 Ledger",
+        "character_ids": [
+          "CHAR-PHILLIP-PITTS"
+        ]
+      },
+      {
+        "page_id": "W4-P18",
+        "page_number": 18,
+        "title": "Week 5 Preview",
+        "character_ids": [
+          "CHAR-PHILLIP-PITTS",
+          "CHAR-AUSTIN-BYARS"
+        ]
+      },
+      {
+        "page_id": "W4-P19",
+        "page_number": 19,
+        "title": "Final Word",
+        "character_ids": []
+      }
+    ]
   }
 }

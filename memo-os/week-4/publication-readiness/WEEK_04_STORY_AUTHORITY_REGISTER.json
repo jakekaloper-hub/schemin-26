@@ -1,0 +1,679 @@
+{
+  "schema_version": "1.0.0",
+  "publication_id": "memo.2026.week-04",
+  "status": "ACTIVE_PREPUBLICATION_STORY_AUTHORITY",
+  "authority_rule": [
+    "latest explicit Commissioner instruction",
+    "latest matchup-specific amendment",
+    "latest Story Room / Author Council approved treatment",
+    "latest World/Atlas decision",
+    "current Week 4 consequence register",
+    "current page manifest",
+    "older planning documents",
+    "historical published material"
+  ],
+  "conflict_rule": "newer + more specific beats older + more general; unresolved conflicts require recorded reconciliation",
+  "generation_state": "NO_ART_GENERATION_AUTHORIZED",
+  "required_matchup_story_units": [
+    "W4-STORY-DK-OBI",
+    "W4-STORY-MUD-TDS",
+    "W4-STORY-RED-DUCK",
+    "W4-STORY-SLOB-CHILI",
+    "W4-STORY-LLC-HMB",
+    "W4-STORY-ELNINO-7DC"
+  ],
+  "story_units": [
+    {
+      "story_unit_id": "W4-STORY-DK-OBI",
+      "kind": "matchup",
+      "title": "D0nkey K0ng × ObiWan Jacoby",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/WEEK_4_DK_OBI_VISUAL_TONE_OVERLAY_2026-10-05.md",
+          "blob_sha": "a0897469b1a1cdae76b98c83391f980471f7faa5",
+          "role": "latest additive visual tone"
+        },
+        {
+          "path": "memo-os/week-4/WEEK_4_KEEPER_CAMPAIGN_STATE_CLOSURE_2026-10-05.md",
+          "blob_sha": "dbb9e67c9a09ad7a139addf111bb728984902cbb",
+          "role": "latest campaign-state consequence"
+        },
+        {
+          "path": "memo-os/week-4/WEEK_4_FULL_AUTHOR_COUNCIL_WORLD_ATLAS_STORY_ROOM_REVIEW_2026-10-04.md",
+          "blob_sha": "2e6e956b8074aedb980d1310b3375faa3099a91c",
+          "role": "current story-room lens"
+        }
+      ],
+      "superseded_sources": [],
+      "current_page_count": null,
+      "page_count_state": "PENDING_FACT_LOCK_AND_FINAL_ISSUE_ARCHITECTURE",
+      "page_role": "quiet myth-breaking / GOTW-scale matchup chapter; exact page count not pre-locked",
+      "headline_direction": "Return / high-ground / undefeated-authority break only if Fact Lock confirms",
+      "visual_job": "Controlled Obi preparation confronting DK scale; no generic Jedi-vs-gorilla poster logic.",
+      "prose_job": "Structural break in DK authority plus Obi resource anxiety; Rice threat remains second-order.",
+      "data_job": "Final score, records and material scorers only after Fact Lock.",
+      "transition_job": "Breaking → rebuilding bridge toward Mud/TDS.",
+      "unresolved_conditions": [
+        "provider result finality",
+        "Rice Week 5 availability if still material",
+        "final page count"
+      ],
+      "fact_lock_dependencies": [
+        "winner",
+        "final score",
+        "records",
+        "material player events"
+      ],
+      "character_dependencies": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-WILSON-LOOK"
+      ],
+      "world_dependencies": [
+        "DK Highland Stronghold / resolved home sub-location",
+        "Upper Valleys route continuity"
+      ],
+      "director_owner": "Beat Writer",
+      "cross_reference_reviewer": "Librarian",
+      "status": "CURRENT",
+      "story_authority_hash": "8aeb398af768f9abe5280a44955ee7fc8c600c8edec70fa63f5dccb6b0b523e7"
+    },
+    {
+      "story_unit_id": "W4-STORY-MUD-TDS",
+      "kind": "matchup",
+      "title": "Mud Dogs × Three Dreaded Snake",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/WEEK_4_KEEPER_CAMPAIGN_STATE_CLOSURE_2026-10-05.md",
+          "blob_sha": "dbb9e67c9a09ad7a139addf111bb728984902cbb",
+          "role": "latest campaign-state consequence"
+        },
+        {
+          "path": "memo-os/week-4/WEEK_4_FULL_AUTHOR_COUNCIL_WORLD_ATLAS_STORY_ROOM_REVIEW_2026-10-04.md",
+          "blob_sha": "2e6e956b8074aedb980d1310b3375faa3099a91c",
+          "role": "current story-room lens"
+        }
+      ],
+      "superseded_sources": [],
+      "current_page_count": null,
+      "page_count_state": "PENDING_FACT_LOCK_AND_FINAL_ISSUE_ARCHITECTURE",
+      "page_role": "reconstruction payoff; most MNF-sensitive matchup",
+      "headline_direction": "Rebuilding / reconstruction, not generic snake-vs-dog shorthand.",
+      "visual_job": "Wetland/swamp world and reconstruction signals; TDS one body/three heads.",
+      "prose_job": "Explain TDS roster/keeper-resource reconstruction and Mud pressure; preserve outcome flexibility.",
+      "data_job": "Final result, records and relevant keeper/resource evidence after Fact Lock.",
+      "transition_job": "Receives breaking→rebuilding bridge from DK/Obi.",
+      "unresolved_conditions": [
+        "provider finality",
+        "TDS current continuity packet",
+        "Barkley threat if still material"
+      ],
+      "fact_lock_dependencies": [
+        "winner",
+        "final score",
+        "records",
+        "MNF exposure"
+      ],
+      "character_dependencies": [
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-PHILLIP-PITTS"
+      ],
+      "world_dependencies": [
+        "Mud Dogs Swamp",
+        "TDS Waterfall Temple origin memory"
+      ],
+      "director_owner": "Beat Writer",
+      "cross_reference_reviewer": "Librarian",
+      "status": "CURRENT",
+      "story_authority_hash": "f42962ddb63f296e2a2cc50bb6b489d05b316352738553e958c7b8f1807c7081"
+    },
+    {
+      "story_unit_id": "W4-STORY-RED-DUCK",
+      "kind": "matchup",
+      "title": "Red Leopards × Dr. Duckhook",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/WEEK_4_KEEPER_CAMPAIGN_STATE_CLOSURE_2026-10-05.md",
+          "blob_sha": "dbb9e67c9a09ad7a139addf111bb728984902cbb",
+          "role": "latest campaign-state consequence"
+        },
+        {
+          "path": "memo-os/week-4/WEEK_4_FULL_AUTHOR_COUNCIL_WORLD_ATLAS_STORY_ROOM_REVIEW_2026-10-04.md",
+          "blob_sha": "2e6e956b8074aedb980d1310b3375faa3099a91c",
+          "role": "current story-room lens"
+        }
+      ],
+      "superseded_sources": [],
+      "current_page_count": null,
+      "page_count_state": "PENDING_FACT_LOCK_AND_FINAL_ISSUE_ARCHITECTURE",
+      "page_role": "awkward failed escape / Red resurgence test",
+      "headline_direction": "The Club Remembers; avoid replaying Week 3 humiliation.",
+      "visual_job": "Red pressure inside resolved Red home geography with Country Club/social-memory signals only where earned.",
+      "prose_job": "Decide whether Red's resurgence is a trajectory; Duckhook carries social memory without duplicate humiliation.",
+      "data_job": "Final result/records; Lamar threat and Olave acquisition only if causally useful.",
+      "transition_job": "Duckhook social consequence travels toward Slob/Chili via object/prose bridge.",
+      "unresolved_conditions": [
+        "provider finality",
+        "Lamar availability if material"
+      ],
+      "fact_lock_dependencies": [
+        "winner",
+        "final score",
+        "records"
+      ],
+      "character_dependencies": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-ZACH-WILSON"
+      ],
+      "world_dependencies": [
+        "Red Leopard Ruins / resolved home venue",
+        "Country Club social-history continuity"
+      ],
+      "director_owner": "Beat Writer",
+      "cross_reference_reviewer": "Librarian",
+      "status": "CURRENT",
+      "story_authority_hash": "507279bd7430a8ad2e1c691a2e73329dd9d7f124d12c97854fd38dd8ef4c83f7"
+    },
+    {
+      "story_unit_id": "W4-STORY-SLOB-CHILI",
+      "kind": "matchup",
+      "title": "Slob on my Dobb × Chili Cheesers",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/WEEK_4_PERSONALIZED_INTELLIGENCE_AMENDMENT_SLOB_CHILI_INITIATION_2026-10-04.md",
+          "blob_sha": "f807ee5a83b3bfc0796448df9e69e59e3a755510",
+          "role": "latest matchup-specific amendment"
+        },
+        {
+          "path": "memo-os/week-4/WEEK_4_FULL_AUTHOR_COUNCIL_WORLD_ATLAS_STORY_ROOM_REVIEW_2026-10-04.md",
+          "blob_sha": "2e6e956b8074aedb980d1310b3375faa3099a91c",
+          "role": "current council treatment"
+        }
+      ],
+      "superseded_sources": [
+        "dart-throwing payoff",
+        "paddling payoff"
+      ],
+      "current_page_count": null,
+      "page_count_state": "PENDING_FACT_LOCK_AND_FINAL_ISSUE_ARCHITECTURE",
+      "page_role": "social comedy / ceremony",
+      "headline_direction": "THE BEER CHAMPION'S BELT if verified Slob victory earns the payoff.",
+      "visual_job": "Invitation → celebration → beer contest → social reversal; novelty belt must never resemble HMB championship belt.",
+      "prose_job": "Explain relationship/social shift; Chili remains more than chili-dog lore.",
+      "data_job": "Final result/records; no invented beer or betting metrics.",
+      "transition_job": "Wings social circuit closes toward Pizza institutional register.",
+      "unresolved_conditions": [
+        "provider finality",
+        "conditional payoff activation"
+      ],
+      "fact_lock_dependencies": [
+        "winner",
+        "final score",
+        "records"
+      ],
+      "character_dependencies": [
+        "CHAR-JORDAN-HOLLINGSHEAD",
+        "CHAR-BRANDON-PRYOR"
+      ],
+      "world_dependencies": [
+        "Slob Foothill Camp / resolved home venue",
+        "Dark Horse route continuity"
+      ],
+      "director_owner": "Beat Writer",
+      "cross_reference_reviewer": "Librarian",
+      "status": "CURRENT",
+      "story_authority_hash": "c6cf9f435f86d26907abc5a133db7427181cb25878138fc2fb68210e7cfb13bc"
+    },
+    {
+      "story_unit_id": "W4-STORY-LLC-HMB",
+      "kind": "matchup",
+      "title": "The LLC × His Majesty's Blood",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/WEEK_4_COMMISSIONER_STORY_AUTHORITY_CORRECTION_2026-10-05.md",
+          "blob_sha": "39d7369f6746e5668f2c8bbb316cf241a37de37b",
+          "role": "latest explicit Commissioner correction"
+        },
+        {
+          "path": "memo-os/week-4/WEEK_4_PERSONALIZED_INTELLIGENCE_AMENDMENT_LLC_HMB_CASINO_2026-10-02.md",
+          "blob_sha": "f3cd4728f18d47a531cac339a9b0c6ed4004d6e8",
+          "role": "matchup-specific ledger/casino amendment"
+        },
+        {
+          "path": "memo-os/week-4/WEEK_4_TRANSITION_ARCHITECTURE_STORY_ROOM_REVIEW_2026-10-04.md",
+          "blob_sha": "3cac981fa6935c8a35e4ca9037d48841816c0db7",
+          "role": "LEDGER→BAROMETER transition authority"
+        },
+        {
+          "path": "memo-os/week-4/WEEK_4_KEEPER_CAMPAIGN_STATE_CLOSURE_2026-10-05.md",
+          "blob_sha": "dbb9e67c9a09ad7a139addf111bb728984902cbb",
+          "role": "Achane persistent campaign-state authority"
+        }
+      ],
+      "superseded_sources": [
+        "MODEL → LIABILITY → THE HOUSE GETS BEAT mandatory three-page architecture",
+        "HMB-loss cookie humiliation branch if HMB win confirmed",
+        "House Collects ending if HMB win confirmed"
+      ],
+      "current_page_count": 1,
+      "page_count_state": "CURRENT_COMMISSIONER_DIRECTION_WITH_OPTIONAL_TRANSITION_SHARE",
+      "page_role": "one substantial matchup page; failed conviction / THE HOUSE GETS BEAT if Fact Lock confirms",
+      "headline_direction": "THE HOUSE GETS BEAT if HMB win is verified; quieter failed-model subhead.",
+      "visual_job": "HMB composed inside LLC financial hall; LLC system forced into recalculation; $100 LLC Pittsy ticket primary; HMB parlay secondary; financial humiliation through certainty failing.",
+      "prose_job": "Explain wager conviction, Achane loss persistence, HMB stabilization and Darnold $15 FAAB; final HMB quote only after verified win.",
+      "data_job": "Final fantasy score, verified wager settlement, Darnold $15 FAAB and records only after evidence clears.",
+      "transition_job": "LEDGER → BAROMETER into El Niño/7DC; use small transition element rather than another HMB page when possible.",
+      "unresolved_conditions": [
+        "provider finality",
+        "Pittsy settlement",
+        "final HMB quote activation"
+      ],
+      "fact_lock_dependencies": [
+        "winner",
+        "final score",
+        "records",
+        "wager settlement"
+      ],
+      "character_dependencies": [
+        "CHAR-DAVID-BABB",
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "world_dependencies": [
+        "LLC Mercantile Boardroom / Storm City expression",
+        "Pittsy linkage without geography merger"
+      ],
+      "director_owner": "Beat Writer",
+      "cross_reference_reviewer": "Librarian",
+      "status": "CURRENT",
+      "story_authority_hash": "248fb3504a90fcfc0e33f6d9490a40226c2b40e89d8fa2a979d44586f38415c0"
+    },
+    {
+      "story_unit_id": "W4-STORY-ELNINO-7DC",
+      "kind": "matchup",
+      "title": "El Niño × Seven Deadly Chins",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/WEEK_4_KEEPER_CAMPAIGN_STATE_CLOSURE_2026-10-05.md",
+          "blob_sha": "dbb9e67c9a09ad7a139addf111bb728984902cbb",
+          "role": "latest campaign-state consequence"
+        },
+        {
+          "path": "memo-os/week-4/WEEK_4_FULL_AUTHOR_COUNCIL_WORLD_ATLAS_STORY_ROOM_REVIEW_2026-10-04.md",
+          "blob_sha": "2e6e956b8074aedb980d1310b3375faa3099a91c",
+          "role": "current story-room lens"
+        },
+        {
+          "path": "memo-os/week-4/WEEK_4_TRANSITION_ARCHITECTURE_STORY_ROOM_REVIEW_2026-10-04.md",
+          "blob_sha": "3cac981fa6935c8a35e4ca9037d48841816c0db7",
+          "role": "LEDGER→BAROMETER transition authority"
+        }
+      ],
+      "superseded_sources": [],
+      "current_page_count": null,
+      "page_count_state": "PENDING_FACT_LOCK_AND_FINAL_ISSUE_ARCHITECTURE",
+      "page_role": "environmental scale / raw force with human consequence retained",
+      "headline_direction": "FROM LEDGER TO BAROMETER into weather-system consequence.",
+      "visual_job": "Atmospheric transformation in El Niño coast/storm logic; weather may dominate space but not erase character consequence.",
+      "prose_job": "Explain what the weather-shaped scoring means for both owners; Nico return optional if causally useful.",
+      "data_job": "Final result/records and relevant scoring drivers after Fact Lock.",
+      "transition_job": "Receives LEDGER→BAROMETER; closes Pizza story into league-state modules.",
+      "unresolved_conditions": [
+        "provider finality",
+        "home-venue resolver if still provisional"
+      ],
+      "fact_lock_dependencies": [
+        "winner",
+        "final score",
+        "records"
+      ],
+      "character_dependencies": [
+        "CHAR-MANNING-WELTY",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "world_dependencies": [
+        "Storm Bowl / El Niño coast logic"
+      ],
+      "director_owner": "Beat Writer",
+      "cross_reference_reviewer": "Librarian",
+      "status": "CURRENT",
+      "story_authority_hash": "868183abe43b6af6c5706c7a5dcdd40d1b31570d976dd7cd58a481ac7bfb94d4"
+    },
+    {
+      "story_unit_id": "W4-MODULE-STATE-REALM",
+      "kind": "module",
+      "title": "State of the Realm",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/WEEK_4_PITTS_GMOY_EDITORIAL_ADDENDUM_2026-10-05.md",
+          "blob_sha": "265d9b2b36fadede33b17b3dc9c35c2af5e40ffd",
+          "role": "latest scoped editorial amendment"
+        },
+        {
+          "path": "memo-os/week-4/WEEK_4_ISSUE_ARCHITECTURE_UNIVERSE_IMMERSION_REVIEW_2026-10-04.md",
+          "blob_sha": "a744237867aa8737debcf3f7a7eafcc1ac59921a",
+          "role": "module architecture"
+        }
+      ],
+      "superseded_sources": [
+        "separate Burgers/Wings/Pizza consequence pages"
+      ],
+      "current_page_count": 1,
+      "page_count_state": "CURRENT_PLANNING",
+      "page_role": "league-level divisional consequence / atlas state",
+      "headline_direction": "STATE OF THE REALM — AFTER DIVISIONAL SUNDAY",
+      "visual_job": "Atlas crop + three division overlays + minimal movement arrows.",
+      "prose_job": "One-sentence consequence per division; optional GM Watch only if it does not crowd core state.",
+      "data_job": "Standings and W-L movement after Fact Lock.",
+      "transition_job": "Handoff from matchup stories to data/institution modules.",
+      "unresolved_conditions": [
+        "Fact Lock",
+        "whether GM Watch fits"
+      ],
+      "fact_lock_dependencies": [
+        "final records",
+        "division standings"
+      ],
+      "character_dependencies": [],
+      "world_dependencies": [
+        "Atlas division state"
+      ],
+      "director_owner": "Scout + Beat Writer",
+      "cross_reference_reviewer": "World / Atlas Director",
+      "status": "CURRENT",
+      "story_authority_hash": "59e00afe4f91580289657a99c0eb5e66e341c015f7e5c136bee05cec229704bd"
+    },
+    {
+      "story_unit_id": "W4-MODULE-POWER-RANKINGS",
+      "kind": "module",
+      "title": "Power Rankings",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_POWER_RANKINGS_LOCK.md",
+          "blob_sha": "d0599b0f808518d5badaff08ef98be813012a0eb",
+          "role": "current ranking rules"
+        },
+        {
+          "path": "memo-os/week-4/WEEK_4_ISSUE_ARCHITECTURE_UNIVERSE_IMMERSION_REVIEW_2026-10-04.md",
+          "blob_sha": "a744237867aa8737debcf3f7a7eafcc1ac59921a",
+          "role": "module role"
+        }
+      ],
+      "superseded_sources": [],
+      "current_page_count": 1,
+      "page_count_state": "CURRENT_PLANNING",
+      "page_role": "clean deterministic data breather, not illustrated chapter",
+      "headline_direction": "POWER RANKINGS",
+      "visual_job": "Tiny stamps/symbols only; no giant character art.",
+      "prose_job": "One short rationale per team.",
+      "data_job": "1–12 ranking, Week 3 movement, records after Fact Lock; TDS FROM #12 season arc separate from weekly movement.",
+      "transition_job": "Pacing reset after State of Realm or Pittsy depending final flow.",
+      "unresolved_conditions": [
+        "Fact Lock",
+        "final ordering"
+      ],
+      "fact_lock_dependencies": [
+        "final records",
+        "Week 3 ranking baseline"
+      ],
+      "character_dependencies": [],
+      "world_dependencies": [],
+      "director_owner": "Power Rankings desk",
+      "cross_reference_reviewer": "Scout + Beat Writer",
+      "status": "CURRENT",
+      "story_authority_hash": "e6647a69ab56667e33c062a2112f75111873407b8ef759aa14706d1c42931fd0"
+    },
+    {
+      "story_unit_id": "W4-MODULE-PITTSY",
+      "kind": "module",
+      "title": "Pittsy's Book",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/WEEK_4_ISSUE_ARCHITECTURE_UNIVERSE_IMMERSION_REVIEW_2026-10-04.md",
+          "blob_sha": "a744237867aa8737debcf3f7a7eafcc1ac59921a",
+          "role": "institutional page role"
+        }
+      ],
+      "superseded_sources": [
+        "decorative sportsbook-ad treatment",
+        "multiple repeated Pittsy full-page appearances"
+      ],
+      "current_page_count": 1,
+      "page_count_state": "CONDITIONAL_ON_VERIFIED_LEDGER",
+      "page_role": "institutional breather + receipt of consequence",
+      "headline_direction": "PITTSY'S BOOK / WEEK 4 SETTLEMENT",
+      "visual_job": "Recognizable bookmaker institution plus deterministic board/ledger.",
+      "prose_job": "Explain what the House risked/settled and what remains open.",
+      "data_job": "Verified Week 4 tickets, bettor P/L, book P/L; no invented Week 5 lines.",
+      "transition_job": "Settle Week 4 and hand toward Week 5 preview.",
+      "unresolved_conditions": [
+        "final Pittsy ledger",
+        "Fact Lock"
+      ],
+      "fact_lock_dependencies": [
+        "matchup results",
+        "wager outcomes"
+      ],
+      "character_dependencies": [
+        "CHAR-PHILLIP-PITTS"
+      ],
+      "world_dependencies": [
+        "Pittsy's Book resolved institution continuity"
+      ],
+      "director_owner": "Pitty desk",
+      "cross_reference_reviewer": "Scout",
+      "status": "CURRENT",
+      "story_authority_hash": "e087df923d46d6fbcb94a7f22568755f1f5857bed296b526d22111153f02f6fa"
+    },
+    {
+      "story_unit_id": "W4-MODULE-WEEK5-GOTW",
+      "kind": "module",
+      "title": "Week 5 GOTW — TDS vs HMB",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/WEEK_5_GOTW_TDS_HMB_COMMISSIONER_SELECTION_2026-10-05.md",
+          "blob_sha": "1ed576ee535f3258b352a8e8bb62e840170e1198",
+          "role": "Commissioner-selected GOTW"
+        },
+        {
+          "path": "memo-os/week-4/WEEK_4_PITTS_GMOY_EDITORIAL_ADDENDUM_2026-10-05.md",
+          "blob_sha": "265d9b2b36fadede33b17b3dc9c35c2af5e40ffd",
+          "role": "GM Watch editorial layer"
+        }
+      ],
+      "superseded_sources": [
+        "Red Leopards vs ObiWan Jacoby as provisional Week 5 GOTW"
+      ],
+      "current_page_count": null,
+      "page_count_state": "PAGE_FORM_PENDING_FACT_LOCK",
+      "page_role": "forward pressure / official Week 5 GOTW",
+      "headline_direction": "TDS vs HMB — reconstruction vs damaged authority.",
+      "visual_job": "TDS home environment if resolver holds; preparation/rebuilding, not generic arena.",
+      "prose_job": "Preview rivalry and ask whether Pitts belongs in GM-of-the-Year conversation without declaring award.",
+      "data_job": "Entering records only after Week 4 Fact Lock; no invented Week 5 lines.",
+      "transition_job": "Pittsy settlement → Week 5 GOTW → Final Word.",
+      "unresolved_conditions": [
+        "Week 4 final records",
+        "Week 5 availability",
+        "historical H2H",
+        "exact page form"
+      ],
+      "fact_lock_dependencies": [
+        "Week 4 records"
+      ],
+      "character_dependencies": [
+        "CHAR-PHILLIP-PITTS",
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "world_dependencies": [
+        "TDS Waterfall Temple / resolved home sub-region"
+      ],
+      "director_owner": "Beat Writer",
+      "cross_reference_reviewer": "Scout + Librarian",
+      "status": "CURRENT",
+      "story_authority_hash": "6ebbb97dbdbd2fa87754300dec24358741284b78689d24abae6aeb3e59438018"
+    },
+    {
+      "story_unit_id": "W4-MODULE-FINAL-WORD",
+      "kind": "module",
+      "title": "Final Word",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/WEEK_4_ISSUE_ARCHITECTURE_UNIVERSE_IMMERSION_REVIEW_2026-10-04.md",
+          "blob_sha": "a744237867aa8737debcf3f7a7eafcc1ac59921a",
+          "role": "closing role"
+        },
+        {
+          "path": "memo-os/week-4/WEEK_4_KEEPER_CAMPAIGN_STATE_CLOSURE_2026-10-05.md",
+          "blob_sha": "dbb9e67c9a09ad7a139addf111bb728984902cbb",
+          "role": "quiet carry-forward resource threats"
+        }
+      ],
+      "superseded_sources": [
+        "matchup-by-matchup recap ending"
+      ],
+      "current_page_count": 1,
+      "page_count_state": "CURRENT_PLANNING",
+      "page_role": "quiet world epilogue / thematic exit",
+      "headline_direction": "FINAL WORD",
+      "visual_job": "Night/aftermath across regions; a few earned objects only.",
+      "prose_job": "Distinguish weekly result from lasting consequence; turn forward rather than recap.",
+      "data_job": "Minimal; unresolved Week 5 threats only if still verified/material.",
+      "transition_job": "End Week 4 and hand unresolved motion into Week 5.",
+      "unresolved_conditions": [
+        "which resource threats remain material after finality"
+      ],
+      "fact_lock_dependencies": [
+        "final results",
+        "final injury/availability refresh if used"
+      ],
+      "character_dependencies": [],
+      "world_dependencies": [
+        "persistent world-state consequences only"
+      ],
+      "director_owner": "Beat Writer",
+      "cross_reference_reviewer": "Author Council",
+      "status": "CURRENT",
+      "story_authority_hash": "839a09df6459707d9ee54734b3950c2f589fbad3c1231ba87b109c18a10dfd3f"
+    },
+    {
+      "story_unit_id": "W4-MODULE-COVER",
+      "kind": "module",
+      "title": "Cover",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/WEEK_4_ISSUE_ARCHITECTURE_UNIVERSE_IMMERSION_REVIEW_2026-10-04.md",
+          "blob_sha": "a744237867aa8737debcf3f7a7eafcc1ac59921a",
+          "role": "current cover candidate architecture"
+        }
+      ],
+      "superseded_sources": [],
+      "current_page_count": 1,
+      "page_count_state": "COVER_FORM_FIXED_SELECTION_PENDING_FACT_LOCK",
+      "page_role": "issue-level cover; final thesis/result-dependent cover selection remains unlocked",
+      "headline_direction": "Divisional Week / consequence cover; final cover thesis may change only via explicit Commissioner or final-result authority.",
+      "visual_job": "One coherent world-state or earned principal consequence; never six-character poster by default.",
+      "prose_job": "Minimal cover copy only.",
+      "data_job": "No invented result/record fields.",
+      "transition_job": "Lead into opening editorial.",
+      "unresolved_conditions": [
+        "Fact Lock",
+        "final cover selection"
+      ],
+      "fact_lock_dependencies": [
+        "final result shape if single-character consequence cover is chosen"
+      ],
+      "character_dependencies": [],
+      "world_dependencies": [
+        "whole-world or resolved matchup environment"
+      ],
+      "director_owner": "Visual Direction Lead",
+      "cross_reference_reviewer": "Beat Writer",
+      "status": "CURRENT",
+      "story_authority_hash": "90b156f674d708e2ffc15c2f7e16d002a210c5ae9a2c1e1a92fcabe1309b0121"
+    },
+    {
+      "story_unit_id": "W4-MODULE-OPENING",
+      "kind": "module",
+      "title": "Opening Editorial",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/WEEK_4_ISSUE_ARCHITECTURE_UNIVERSE_IMMERSION_REVIEW_2026-10-04.md",
+          "blob_sha": "a744237867aa8737debcf3f7a7eafcc1ac59921a",
+          "role": "opening editorial architecture"
+        }
+      ],
+      "superseded_sources": [
+        "scoreboard-dump opening"
+      ],
+      "current_page_count": 1,
+      "page_count_state": "CURRENT_PLANNING",
+      "page_role": "opening editorial / divisional-week orientation",
+      "headline_direction": "Divisional Week brought consequences home / distance as opening literary move.",
+      "visual_job": "Low-detail environmental world panorama / roads / regional markers; no principal character dominates.",
+      "prose_job": "Explain why divisional week feels local and consequential without Atlas exposition.",
+      "data_job": "3–4 verified facts only; no scoreboard dump.",
+      "transition_job": "Orient reader into first divisional stories.",
+      "unresolved_conditions": [
+        "final thesis wording"
+      ],
+      "fact_lock_dependencies": [
+        "3–4 verified final facts if used"
+      ],
+      "character_dependencies": [],
+      "world_dependencies": [
+        "regional road network / division continuity"
+      ],
+      "director_owner": "Beat Writer",
+      "cross_reference_reviewer": "Author Council",
+      "status": "CURRENT",
+      "story_authority_hash": "be9e783cb1bc0afd746e2c6a0dfcb36cb5792c541c40e0983eb6d36a0a1c9761"
+    },
+    {
+      "story_unit_id": "W4-MODULE-SCOREBOARD",
+      "kind": "module",
+      "title": "Scoreboard",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/WEEK_4_ISSUE_ARCHITECTURE_UNIVERSE_IMMERSION_REVIEW_2026-10-04.md",
+          "blob_sha": "a744237867aa8737debcf3f7a7eafcc1ac59921a",
+          "role": "deterministic module role"
+        }
+      ],
+      "superseded_sources": [
+        "narrative scoreboard copy that duplicates matchup prose"
+      ],
+      "current_page_count": 1,
+      "page_count_state": "CURRENT_PLANNING",
+      "page_role": "deterministic factual orientation module",
+      "headline_direction": "WEEK 4 SCOREBOARD",
+      "visual_job": "Clean deterministic data presentation; no result invented by image model.",
+      "prose_job": "Minimal labels only.",
+      "data_job": "Six final scores, winners and records from Fact Lock.",
+      "transition_job": "Orientation/breather where issue pacing requires.",
+      "unresolved_conditions": [
+        "Fact Lock",
+        "final placement"
+      ],
+      "fact_lock_dependencies": [
+        "six final scores",
+        "winners",
+        "records"
+      ],
+      "character_dependencies": [],
+      "world_dependencies": [],
+      "director_owner": "Publication Design",
+      "cross_reference_reviewer": "Scout",
+      "status": "CURRENT",
+      "story_authority_hash": "98de411d4dfd50245334dd55e580012e9c4c36be952a7ac9dc35602c11b0fa94"
+    }
+  ],
+  "required_editorial_modules": [
+    "W4-MODULE-COVER",
+    "W4-MODULE-OPENING",
+    "W4-MODULE-SCOREBOARD",
+    "W4-MODULE-STATE-REALM",
+    "W4-MODULE-POWER-RANKINGS",
+    "W4-MODULE-PITTSY",
+    "W4-MODULE-WEEK5-GOTW",
+    "W4-MODULE-FINAL-WORD"
+  ]
+}

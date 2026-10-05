@@ -1,0 +1,57 @@
+name: Week 4 Story Authority CI
+
+on:
+  pull_request:
+    paths:
+      - 'memo-os/week-4/**'
+      - 'governance/publication/week4_*.py'
+      - 'schemas/week4-*.json'
+      - 'tests/test_week4_*.py'
+  workflow_dispatch:
+
+jobs:
+  story-authority:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Story authority validator
+        run: python governance/publication/week4_story_authority.py
+      - name: Story-authority regression suite
+        run: python -m unittest tests/test_week4_story_authority.py
+      - name: Publication readiness regression suite
+        run: python -m unittest tests/test_week4_publication_readiness.py
+      - name: Readiness must fail closed, not fail internally
+        shell: bash
+        run: |
+          set +e
+          python governance/publication/week4_readiness.py
+          code=$?
+          set -e
+          if [ "$code" -eq 1 ]; then
+            echo "Internal readiness defect"
+            exit 1
+          fi
+          if [ "$code" -ne 0 ] && [ "$code" -ne 2 ]; then
+            echo "Unexpected readiness exit code: $code"
+            exit 1
+          fi
+      - name: Assembly must remain held before Story Lock
+        shell: bash
+        run: |
+          set +e
+          python governance/publication/week4_assembly_validator.py
+          code=$?
+          set -e
+          if [ "$code" -eq 1 ]; then exit 1; fi
+          test "$code" -eq 2
+      - name: Release must remain blocked
+        shell: bash
+        run: |
+          set +e
+          python governance/publication/week4_release_transaction.py
+          code=$?
+          set -e
+          test "$code" -eq 2

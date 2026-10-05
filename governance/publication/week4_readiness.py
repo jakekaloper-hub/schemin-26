@@ -5,6 +5,9 @@ import hashlib
 import json
 import sys
 from pathlib import Path
+import sys
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+from week4_story_authority import validate as validate_story_authority
 
 ROOT = Path(__file__).resolve().parents[2]
 PACK = ROOT / "memo-os/week-4/publication-readiness"
@@ -14,6 +17,7 @@ PUB_MANIFEST = ROOT / "governance/publication-manifest/PUBLICATION_MANIFEST_V1.j
 VISUAL_AUTHORITY = ROOT / "canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json"
 DK_SPEC = ROOT / "canon/characters/CHAR-WILSON-LOOK/T04_CHARACTER_SPEC.md"
 RELEASE_REGISTRY = ROOT / "governance/release-evidence/registry.json"
+STORY_AUTHORITY = PACK / "WEEK_04_STORY_AUTHORITY_REGISTER.json"
 CHARACTER_REGISTRY = ROOT / "canon/characters/CHARACTER_REGISTRY.yaml"
 CHARACTER_RESOLVER = ROOT / "canon/characters/cccp_resolver.py"
 
@@ -31,6 +35,10 @@ REQUIRED_PACK_FILES = [
     "WEEK_04_CONTINUITY_AUDIT.md",
     "WEEK_04_FINAL_UMPIRE_REPORT.md",
     "WEEK_04_PUBLICATION_RECEIPT.md",
+    "WEEK_04_STORY_AUTHORITY_REGISTER.json",
+    "WEEK_04_STORY_SUPERSESSION_MAP.json",
+    "WEEK_04_DIRECTOR_OWNERSHIP_MATRIX.json",
+    "WEEK_04_DIRECTOR_OWNERSHIP_DECLARATIONS.md",
 ]
 
 DK_REQUIRED = {"ONE BODY", "GORILLA", "FOUR-LEGGED", "ARSENAL"}
@@ -120,15 +128,20 @@ def validate_internal() -> dict:
         errors.append("GATE_IDS_NOT_G1_TO_G12_IN_ORDER")
 
     pages = manifest.get("pages", [])
-    nums = [p.get("page_number") for p in pages]
-    if len(pages) != 19 or nums != list(range(1,20)):
-        errors.append("ISSUE_MANIFEST_PAGE_SET_NOT_EXACTLY_1_TO_19")
-    if len({p.get("page_id") for p in pages}) != len(pages):
-        errors.append("DUPLICATE_PAGE_ID")
+    page_plan_state = manifest.get("page_plan_state")
+    if page_plan_state != "LOCKED":
+        if pages:
+            errors.append("ACTIVE_PAGE_PLAN_PRESENT_BEFORE_STORY_LOCK")
+    else:
+        nums = [p.get("page_number") for p in pages]
+        if not pages or nums != list(range(1, len(pages)+1)):
+            errors.append("LOCKED_PAGE_PLAN_INVALID")
+        if len({p.get("page_id") for p in pages}) != len(pages):
+            errors.append("DUPLICATE_PAGE_ID")
 
-    dk_pages = [p for p in pages if "CHAR-WILSON-LOOK" in p.get("character_ids", [])]
-    if len(dk_pages) < 1:
-        errors.append("NO_DK_PAGE_REGISTERED")
+    story_result = validate_story_authority()
+    if story_result.get("state") != "PASS":
+        errors.append({"code":"STORY_AUTHORITY_VALIDATION_FAIL","detail":story_result.get("errors",[])})
     validate_dk_authority(errors)
     validate_current_character_semantics(errors)
 
@@ -163,6 +176,8 @@ def validate_internal() -> dict:
         "holds": holds,
         "manifest_sha256": file_sha256(MANIFEST),
         "pages": len(pages),
+        "page_plan_state": page_plan_state,
+        "story_authority_state": story_result.get("state"),
         "gates": len(gates),
     }
 

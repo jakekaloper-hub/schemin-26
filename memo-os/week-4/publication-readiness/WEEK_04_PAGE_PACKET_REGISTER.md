@@ -5,6 +5,17 @@
 
 Every final page must contain:
 
+**Story authority binding (required before any other production check):**
+- `story_authority_id`
+- `story_authority_hash`
+- `story_authority_receipt`
+- `story_authority_state = CURRENT`
+
+If the controlling story treatment changes, any dependent packet becomes **`PAGE_PACKET_STALE / REBUILD_REQUIRED`** even when its schema, character references, world fields and composition are otherwise valid.
+
+No packet may be compiled from a superseded branch or a fixed page plan that predates current story authority.
+
+
 - page number;
 - page purpose;
 - story beat;
@@ -57,3 +68,18 @@ FAIL:
 ## Deterministic-data rule
 
 Scores, records, rankings, betting arithmetic, standings and other critical text must be composed deterministically, not trusted to image-model raster text.
+
+
+## Story-authority precedence
+
+Production resolves story authority in this order:
+1. latest explicit Commissioner instruction;
+2. latest matchup-specific amendment;
+3. latest Story Room / Author Council approved treatment;
+4. latest World / Atlas decision;
+5. current Week 4 consequence register;
+6. current page manifest;
+7. older planning;
+8. historical publication.
+
+**Newer + more specific beats older + more general.** Conflicts require a recorded reconciliation decision; they may not be silently blended.

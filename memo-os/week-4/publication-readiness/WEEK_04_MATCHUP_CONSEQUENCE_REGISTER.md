@@ -1,7 +1,9 @@
 # Week 4 Matchup Consequence Register
 
-**Status:** READY_FOR_FINALITY  
-**Authority:** Beat Writer + Author Council
+**Status:** READY_FOR_FINALITY / STORY-AUTHORITY-BOUND  
+**Authority:** Beat Writer + Author Council  
+**Controlling semantic source:** `WEEK_04_STORY_AUTHORITY_REGISTER.json`  
+**Rule:** this register may summarize consequence direction, but it may not override a newer/more-specific story unit.
 
 ## 1 — ObiWan Jacoby vs D0nkey K0ng
 
@@ -34,10 +36,21 @@ Large scoring may support spectacle, but:
 
 ## 5 — The LLC vs His Majesty's Blood
 
-Protect:
-**MODEL → LIABILITY → THE HOUSE GETS BEAT**
+Current controlling treatment is **one substantial matchup page**, with an optional small transition element.
 
-If HMB result closes as current scoring indicates, approved closing line remains:
+If Fact Lock confirms the current HMB-leading branch:
+- headline direction: **THE HOUSE GETS BEAT**;
+- story meaning: failed LLC conviction, not generic corporation-vs-king spectacle;
+- LLC $100 Pittsy self-ticket is the primary object;
+- HMB Pittsy parlay exposure is secondary;
+- Achane's Week 3 keeper loss remains active campaign state;
+- Sam Darnold's $15 FAAB add may support stabilization prose;
+- cookie / House Collects humiliation branch is killed;
+- transition: **LEDGER → BAROMETER** into El Niño / 7DC.
+
+The older mandatory **MODEL → LIABILITY → THE HOUSE GETS BEAT** three-page architecture is **SUPERSEDED / NON-CONTROLLING**.
+
+Only after Fact Lock verifies HMB victory may the approved closing line appear:
 
 **“The disrespect towards His Majesty's Blood will not go unnoticed.”**
 

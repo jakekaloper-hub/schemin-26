@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0.0",
+  "publication_id": "memo.2026.week-04",
+  "status": "ACTIVE_PREPUBLICATION_OWNERSHIP",
+  "gates": [
+    {
+      "gate_id": "G1",
+      "domain": "Result Lock",
+      "owner": "Scout",
+      "counterweight": "Umpire",
+      "control_status": "PASS",
+      "execution_status": "HOLD_EXTERNAL",
+      "enforcement": "Flaim finality + freshness + contradiction checks",
+      "regression_test": "test_pre_mnf_readiness_is_hold_not_false_pass"
+    },
+    {
+      "gate_id": "G2",
+      "domain": "Pitty's Book",
+      "owner": "Pitty desk",
+      "counterweight": "Scout",
+      "control_status": "PASS",
+      "execution_status": "HOLD_EXTERNAL",
+      "enforcement": "deterministic settlement + prior ledger reconciliation",
+      "regression_test": "test_release_blocked_until_all_pass"
+    },
+    {
+      "gate_id": "G3",
+      "domain": "Power Rankings",
+      "owner": "Power Rankings desk",
+      "counterweight": "Scout + Beat Writer",
+      "control_status": "PASS",
+      "execution_status": "WAITING_ON_FACT_LOCK",
+      "enforcement": "current ranking rules + prior Week 3 baseline",
+      "regression_test": "test_story_authority_modules_present"
+    },
+    {
+      "gate_id": "G4",
+      "domain": "State of the Realm",
+      "owner": "Scout",
+      "counterweight": "Beat Writer + World / Atlas Director",
+      "control_status": "PASS",
+      "execution_status": "WAITING_ON_FACT_LOCK",
+      "enforcement": "final division state only; no stale projections",
+      "regression_test": "test_story_authority_modules_present"
+    },
+    {
+      "gate_id": "G5",
+      "domain": "Matchup Story Authority",
+      "owner": "Beat Writer",
+      "counterweight": "Librarian",
+      "control_status": "PASS",
+      "execution_status": "WAITING_ON_FACT_LOCK",
+      "enforcement": "WEEK_04_STORY_AUTHORITY_REGISTER + source blob verification + semantic fidelity",
+      "regression_test": "test_llc_hmb_current_story_authority_rejects_three_page_stale_architecture"
+    },
+    {
+      "gate_id": "G6",
+      "domain": "World State Delta",
+      "owner": "Librarian",
+      "counterweight": "World / Atlas Director",
+      "control_status": "PASS",
+      "execution_status": "WAITING_ON_FACT_LOCK",
+      "enforcement": "world mutations must cite current story unit + final consequence",
+      "regression_test": "test_world_delta_requires_current_story_authority"
+    },
+    {
+      "gate_id": "G7",
+      "domain": "Page Production Packets",
+      "owner": "Groundskeeper",
+      "counterweight": "Architect",
+      "control_status": "PASS",
+      "execution_status": "WAITING_ON_STORY_LOCK",
+      "enforcement": "story_authority_id + hash + receipt required; stale packets fail closed",
+      "regression_test": "test_stale_story_hash_blocks_render"
+    },
+    {
+      "gate_id": "G8",
+      "domain": "Art Production",
+      "owner": "Visual Direction Lead",
+      "counterweight": "CAIO + Librarian",
+      "control_status": "PASS",
+      "execution_status": "BLOCKED",
+      "enforcement": "current story authority + character authority + exact refs + world packet + Umpire preflight + Closer authorization",
+      "regression_test": "test_generation_hold_blocks_even_current_packet"
+    },
+    {
+      "gate_id": "G9",
+      "domain": "Publication Design",
+      "owner": "Publication Design",
+      "counterweight": "Scout",
+      "control_status": "PASS",
+      "execution_status": "WAITING_ON_RENDER",
+      "enforcement": "deterministic critical text and factual overlay reconciliation",
+      "regression_test": "test_generated_fact_fields_forbidden"
+    },
+    {
+      "gate_id": "G10",
+      "domain": "Author Council Restraint / Continuity",
+      "owner": "Author Council",
+      "counterweight": "Beat Writer",
+      "control_status": "PASS",
+      "execution_status": "WAITING_ON_CURRENT_PAGE_PACKETS",
+      "enforcement": "current story register comparison + redundancy/stale-joke/page-inflation challenge",
+      "regression_test": "test_llc_hmb_current_page_count_is_one"
+    },
+    {
+      "gate_id": "G11",
+      "domain": "Umpire Full-Issue Audit",
+      "owner": "Umpire",
+      "counterweight": "INDEPENDENT",
+      "control_status": "PASS",
+      "execution_status": "WAITING_ON_ASSEMBLY",
+      "enforcement": "assembled issue compared against current story authority register, not schemas alone",
+      "regression_test": "test_assembly_waits_on_story_lock"
+    },
+    {
+      "gate_id": "G12",
+      "domain": "Closer Release",
+      "owner": "Closer",
+      "counterweight": "Umpire + Groundskeeper evidence pack",
+      "control_status": "PASS",
+      "execution_status": "BLOCKED",
+      "enforcement": "Story + Fact + Character + World + Visual + Editorial + Publication + Umpire PASS required",
+      "regression_test": "test_release_blocked_until_all_pass"
+    }
+  ],
+  "closer_rule": "No PASS_TO_PRODUCTION until owner PASS + counterweight PASS + Umpire PASS + current evidence receipts. No PASS_TO_RELEASE until G1-G11 execution PASS.",
+  "rule": "Exactly one named owner per gate; counterweights may be plural. Owner cannot self-certify where counterweight is required."
+}

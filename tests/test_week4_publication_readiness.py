@@ -21,9 +21,12 @@ class Week4ReadinessTests(unittest.TestCase):
         self.manifest = json.loads((ROOT/"memo-os/week-4/publication-readiness/WEEK_04_PUBLICATION_MANIFEST.json").read_text())
         self.char_matrix = json.loads((ROOT/"memo-os/week-4/publication-readiness/WEEK_04_12_CHARACTER_AUTHORITY_MATRIX.json").read_text())
         self.hash_by_id = {x["character_id"]:x["expected_sha256"] for x in self.char_matrix["characters"]}
+        self.story_register = json.loads((ROOT/"memo-os/week-4/publication-readiness/WEEK_04_STORY_AUTHORITY_REGISTER.json").read_text())
+        self.story_by_id = {x["story_unit_id"]:x for x in self.story_register["story_units"]}
 
-    def complete_packet(self, chars=None):
+    def complete_packet(self, chars=None, story_id="W4-MODULE-OPENING"):
         chars = chars or []
+        story = self.story_by_id[story_id]
         return {
           "page_id":"TEST-PAGE","page_number":1,"page_function":"test",
           "narrative_purpose":"test","story_beat":"test","fact_dependencies":[],
@@ -36,14 +39,25 @@ class Week4ReadinessTests(unittest.TestCase):
           "text_hierarchy":["headline"],"headline":"test","copy_fields":[],
           "deterministic_data_fields":[],"visual_objects":[],"negative_constraints":[],
           "drift_risks":[],"rejection_conditions":[],"mobile_readability_requirements":["phone"],
-          "previous_page":None,"next_page":None,"status":"PAGE_RENDER_ELIGIBLE"
+          "previous_page":None,"next_page":None,"status":"PAGE_RENDER_ELIGIBLE",
+          "story_authority_id":story_id,
+          "story_authority_hash":story["story_authority_hash"],
+          "story_authority_receipt":"memo-os/week-4/publication-readiness/WEEK_04_STORY_AUTHORITY_REGISTER.json",
+          "story_authority_state":"CURRENT",
+          "story_page_role":story["page_role"],
+          "visual_job":story["visual_job"],
+          "prose_job":story["prose_job"],
+          "data_job":story["data_job"],
+          "transition_job":story["transition_job"]
         }
 
     def test_manifest_has_exactly_twelve_gates(self):
         self.assertEqual([g["gate_id"] for g in self.manifest["gates"]],[f"G{i}" for i in range(1,13)])
 
-    def test_manifest_has_exactly_nineteen_pages(self):
-        self.assertEqual([p["page_number"] for p in self.manifest["pages"]], list(range(1,20)))
+    def test_active_manifest_waits_on_story_lock_instead_of_using_stale_fixed_page_plan(self):
+        self.assertEqual(self.manifest["page_plan_state"],"WAITING_ON_STORY_LOCK")
+        self.assertEqual(self.manifest["pages"],[])
+        self.assertEqual(self.manifest["legacy_page_plan"]["state"],"SUPERSEDED_NON_CONTROLLING")
 
     def test_missing_page_packet_blocks_render(self):
         r=elig.render_eligibility({"page_id":"bad"})
@@ -51,7 +65,7 @@ class Week4ReadinessTests(unittest.TestCase):
         self.assertEqual(r["reason"],"PAGE_PACKET_INVALID")
 
     def test_character_packet_without_reference_blocks(self):
-        p=self.complete_packet(["CHAR-JAKE-KALOPER"])
+        p=self.complete_packet(["CHAR-JAKE-KALOPER"],"W4-STORY-DK-OBI")
         p["exact_reference_assets"]=[]
         r=elig.render_eligibility(p)
         self.assertEqual(r["reason"],"CHARACTER_REFERENCE_MISSING")
@@ -74,7 +88,7 @@ class Week4ReadinessTests(unittest.TestCase):
         self.assertNotIn('hard_reject: ["centaur anatomy"', registry)
 
     def test_dk_render_route_fail_closes_while_provider_proof_unresolved(self):
-        p=self.complete_packet(["CHAR-WILSON-LOOK"])
+        p=self.complete_packet(["CHAR-WILSON-LOOK"],"W4-STORY-DK-OBI")
         r=elig.render_eligibility(p)
         self.assertEqual(r["state"],"PAGE_RENDER_BLOCKED")
         self.assertEqual(r["reason"],"GENERATION_BLOCKED_PROVIDER_CAPABILITY_UNPROVEN")
@@ -107,14 +121,14 @@ class Week4ReadinessTests(unittest.TestCase):
             self.assertIn(team, spec)
 
     def test_wrong_owner_reference_hash_blocks_before_provider(self):
-        p=self.complete_packet(["CHAR-AUSTIN-BYARS"])
+        p=self.complete_packet(["CHAR-AUSTIN-BYARS"],"W4-STORY-LLC-HMB")
         p["exact_reference_assets"][0]["expected_sha256"]="0"*64
         r=elig.render_eligibility(p)
         self.assertEqual(r["state"],"PAGE_RENDER_BLOCKED")
         self.assertEqual(r["reason"],"CHARACTER_REFERENCE_HASH_MISMATCH")
 
     def test_tds_requires_explicit_week4_continuity_resolution(self):
-        p=self.complete_packet(["CHAR-PHILLIP-PITTS"])
+        p=self.complete_packet(["CHAR-PHILLIP-PITTS"],"W4-STORY-MUD-TDS")
         p["character_continuity"]={}
         r=elig.render_eligibility(p)
         self.assertEqual(r["state"],"PAGE_RENDER_BLOCKED")

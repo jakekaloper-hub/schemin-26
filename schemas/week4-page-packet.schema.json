@@ -32,7 +32,16 @@
     "mobile_readability_requirements",
     "previous_page",
     "next_page",
-    "status"
+    "status",
+    "story_authority_id",
+    "story_authority_hash",
+    "story_authority_receipt",
+    "story_authority_state",
+    "story_page_role",
+    "visual_job",
+    "prose_job",
+    "data_job",
+    "transition_job"
   ],
   "properties": {
     "page_id": {
@@ -196,6 +205,44 @@
         "RENDERED",
         "PAGE_LOCKED"
       ]
+    },
+    "story_authority_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "story_authority_hash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "story_authority_receipt": {
+      "type": "string",
+      "minLength": 1
+    },
+    "story_authority_state": {
+      "enum": [
+        "CURRENT",
+        "STALE_REBUILD_REQUIRED"
+      ]
+    },
+    "story_page_role": {
+      "type": "string",
+      "minLength": 1
+    },
+    "visual_job": {
+      "type": "string",
+      "minLength": 1
+    },
+    "prose_job": {
+      "type": "string",
+      "minLength": 1
+    },
+    "data_job": {
+      "type": "string",
+      "minLength": 1
+    },
+    "transition_job": {
+      "type": "string",
+      "minLength": 1
     }
   }
 }
