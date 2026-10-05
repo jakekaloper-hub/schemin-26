@@ -83,7 +83,8 @@ class SandboxRehearsal(unittest.TestCase):
         for token in ["generic sports promo staging","crown","winner pose","final settlement"]:
             self.assertIn(token, joined)
         self.assertNotIn('"record"', joined)
-        self.assertNotIn('"records"', joined)
+        self.assertIn('"records"', joined)
+        self.assertIn("generated_image_text_forbidden", joined)
 
     def test_real_hmb_binding_uses_exact_recovery_receipt(self):
         h=next(x for x in self.real["characters"] if x["character_id"]=="CHAR-AUSTIN-BYARS")
