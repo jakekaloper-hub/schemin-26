@@ -26,12 +26,13 @@
 17. `WEEK_4_ISSUE_ARCHITECTURE_UNIVERSE_IMMERSION_REVIEW_2026-10-04.md` — **ISSUE ARCHITECTURE / TRANSITION / UNIVERSE-IMMERSION REVIEW**
 18. `WEEK_4_TRANSITION_ARCHITECTURE_STORY_ROOM_REVIEW_2026-10-04.md` — **TRANSITION ARCHITECTURE / ISSUE-FLOW STORY ROOM REVIEW**
 19. `WEEK_4_KEEPER_CAMPAIGN_STATE_CLOSURE_2026-10-05.md` — **KEEPER / FOUNDATIONAL-ASSET CLOSURE + MEMO→NOVEL HANDOFF SOURCE**
-20. `WEEK_4_STORY_ROOM_CURRENT_STATE_RECONCILIATION_2026-10-02.md` — **CURRENT WHOLE-SLATE SNAPSHOT**
-21. `WEEK_4_STORY_ROOM_CURRENT_STATE_RECONCILIATION_2026-10-01.md` — historical pre-kickoff reconciliation
-22. `WEEK_4_LIVING_STORY_ROOM_PROMOTION_RECEIPT_2026-10-01.md`
-23. `WEEK_4_ISSUE_PREVIS_BOARD_V1.md`
-24. `WEEK_4_PAGE_PACKET_REGISTER_V1.md`
-25. `WEEK_4_RELEASE_GATE_V1.md`
+20. `WEEK_5_GOTW_TDS_HMB_COMMISSIONER_SELECTION_2026-10-05.md` — **COMMISSIONER-SELECTED WEEK 5 GAME OF THE WEEK / FORWARD MODULE**
+21. `WEEK_4_STORY_ROOM_CURRENT_STATE_RECONCILIATION_2026-10-02.md` — **CURRENT WHOLE-SLATE SNAPSHOT**
+22. `WEEK_4_STORY_ROOM_CURRENT_STATE_RECONCILIATION_2026-10-01.md` — historical pre-kickoff reconciliation
+23. `WEEK_4_LIVING_STORY_ROOM_PROMOTION_RECEIPT_2026-10-01.md`
+24. `WEEK_4_ISSUE_PREVIS_BOARD_V1.md`
+25. `WEEK_4_PAGE_PACKET_REGISTER_V1.md`
+26. `WEEK_4_RELEASE_GATE_V1.md`
 
 ## Current state
 
@@ -45,7 +46,7 @@ The LLC × HMB casino / ledger concept is registered only as a conditional story
 
 The Slob × Chili branch now uses **THE BEER CHAMPION'S BELT** as its preferred conditional payoff inside the existing invitation → celebration → beer contest → social-reversal engine. The former dart-throwing payoff is retired, and the paddling payoff is removed from the active branch. The belt ceremony remains conditional on a verified Slob victory and must be visually distinct from HMB's canonical championship belt. Country Club of Jackson currently functions as social-history motivation unless World/Atlas later resolves it as the physical scene.
 
-No finished art, final cover thesis, Game of the Week declaration, result language, final standings language, or publication lock is authorized until the dependent V5.5 gates pass.
+No finished art, final cover thesis, Week 4 result language, final standings language, or publication lock is authorized until the dependent V5.5 gates pass. The Commissioner has selected **TDS vs HMB** as the Week 5 GOTW forward module; that editorial selection is active while entering records and page form remain gated.
 
 ## Prime rule
 
