@@ -1,9 +1,9 @@
 # Week 4 Prepublication Hardening Report
 
 **Status:** INTERNAL CONTROLS HARDENED / EXTERNAL HOLDS EXPLICIT  
-**Branch:** `week4-publication-readiness-2026-10-05`  
-**PR:** #112 (draft)  
-**CI:** Week 4 Publication Readiness CI run #3 — PASS
+**PR #112:** MERGED to `main` at `7740cac53ee0b8040b02889dd15253ee8bbdd495`  
+**Closeout branch:** `week4-readiness-canon-closeout-2026-10-05`  
+**Baseline hardening CI:** PASS
 
 ## What was previously documentation-only
 
@@ -75,7 +75,13 @@
 13. `.github/workflows/week4-publication-readiness-ci.yml`
     - runs the above controls automatically on relevant PR changes.
 
-## DK authority result
+## Character authority result
+
+### Slob / Jordan correction
+
+Current presentation alias is **Frat Star**. Historical “Fart Star” wording is a stale typo and must not seed Week 4 production.
+
+### DK authority result
 
 Current controlling Week 4 identity is verified through:
 - `canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json`

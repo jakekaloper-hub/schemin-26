@@ -14,6 +14,8 @@ PUB_MANIFEST = ROOT / "governance/publication-manifest/PUBLICATION_MANIFEST_V1.j
 VISUAL_AUTHORITY = ROOT / "canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json"
 DK_SPEC = ROOT / "canon/characters/CHAR-WILSON-LOOK/T04_CHARACTER_SPEC.md"
 RELEASE_REGISTRY = ROOT / "governance/release-evidence/registry.json"
+CHARACTER_REGISTRY = ROOT / "canon/characters/CHARACTER_REGISTRY.yaml"
+CHARACTER_RESOLVER = ROOT / "canon/characters/cccp_resolver.py"
 
 REQUIRED_PACK_FILES = [
     "WEEK_04_PUBLICATION_READINESS_DASHBOARD.md",
@@ -71,6 +73,31 @@ def validate_dk_authority(errors: list[str]):
         if token not in spec:
             errors.append(f"DK_SPEC_MISSING_{token.replace(' ','_').replace('-','_')}")
 
+def validate_current_character_semantics(errors: list[str]):
+    registry = CHARACTER_REGISTRY.read_text()
+    resolver = CHARACTER_RESOLVER.read_text()
+
+    required = [
+        "Frat Star",
+        "Arsenal Gorilla Centaur Warrior",
+        "FOUR-LEGGED CENTAUR LOWER BODY",
+    ]
+    for token in required:
+        if token not in registry and token not in resolver:
+            errors.append(f"ACTIVE_CHARACTER_SEMANTICS_MISSING:{token}")
+
+    forbidden_active = [
+        'aliases: ["Fart Star"',
+        '"aliases":["Fart Star"',
+        'hard_reject: ["centaur anatomy"',
+        '"equine lower body","mounted-human substitute"',
+    ]
+    active_text = registry + "\n" + resolver
+    for token in forbidden_active:
+        if token in active_text:
+            errors.append(f"STALE_ACTIVE_CHARACTER_SEMANTICS:{token}")
+
+
 def validate_internal() -> dict:
     errors, holds = [], []
 
@@ -103,6 +130,7 @@ def validate_internal() -> dict:
     if len(dk_pages) < 1:
         errors.append("NO_DK_PAGE_REGISTERED")
     validate_dk_authority(errors)
+    validate_current_character_semantics(errors)
 
     pub = publication_record()
     if pub.get("release_state") != "BLOCKED":

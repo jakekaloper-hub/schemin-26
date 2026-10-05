@@ -66,6 +66,7 @@ on the current team name.
 ### Jordan Hollingshead / Slob on my Dobb
 
 **Character:** Frat-Bro Berserker / established Slob character.\
+**Presentation alias:** **Frat Star**. Historical “Fart Star” wording is a stale typo and must not seed current production.\
 **Lock:** huge horned shaggy human-beast berserker; battered football
 armor; filthy Slob championship shirt; metal bat; beer/tailgate
 aesthetic; pit-bull companion.\
@@ -185,7 +186,7 @@ companion or backstory.
 
 Examples: - Austin Byars: The Immortal -\> That's Fantasy -\> His
 Majesty's Blood = **THE BELT KEEPER** - Wilson Look: Baker Moore Purdy
--\> Donkey Kong = **GORILLA WARRIOR** (2026-09-29 redesign; former Arsenal Centaur RETIRED) - Brandon Pryor = **THE CHILI
+-\> Donkey Kong = **ARSENAL GORILLA CENTAUR WARRIOR** — ONE body with gorilla upper identity + FOUR-LEGGED centaur/equine lower body - Brandon Pryor = **THE CHILI
 OUTLAW + THE DARK HORSE** - Jake Kaloper = **THE TRADE JEDI - NO
 CHAMPIONSHIP BELT**
 
