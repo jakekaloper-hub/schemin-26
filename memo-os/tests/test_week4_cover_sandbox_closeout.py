@@ -31,7 +31,8 @@ class CloseoutTests(unittest.TestCase):
         assert "FOUR-LEGGED centaur/equine lower body" in s
         assert "generic bipedal gorilla" in s
         receipt=read("memo-os/week-4/WEEK_4_TEMPORAL_CANON_RECEIPT_V1.md")
-        assert "STALE / SUPERSEDED" in receipt
+        assert "MUST NOT control current production" in receipt
+        assert "FOUR-LEGGED centaur/equine lower body" in receipt
         assert "Current authority remains **Arsenal Gorilla Centaur Warrior**" in receipt
 
     def test_tds_current_authority_defeats_single_head(self):
