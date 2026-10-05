@@ -25,12 +25,13 @@
 16. `PITTSYS_BOOK_WEEK_4_VISUAL_CONTINUITY_RECEIPT_2026-10-04.md` — **COMMISSIONER VISUAL CONTINUITY / ATLAS RECONCILIATION REQUIRED**
 17. `WEEK_4_ISSUE_ARCHITECTURE_UNIVERSE_IMMERSION_REVIEW_2026-10-04.md` — **ISSUE ARCHITECTURE / TRANSITION / UNIVERSE-IMMERSION REVIEW**
 18. `WEEK_4_TRANSITION_ARCHITECTURE_STORY_ROOM_REVIEW_2026-10-04.md` — **TRANSITION ARCHITECTURE / ISSUE-FLOW STORY ROOM REVIEW**
-19. `WEEK_4_STORY_ROOM_CURRENT_STATE_RECONCILIATION_2026-10-02.md` — **CURRENT WHOLE-SLATE SNAPSHOT**
-20. `WEEK_4_STORY_ROOM_CURRENT_STATE_RECONCILIATION_2026-10-01.md` — historical pre-kickoff reconciliation
-21. `WEEK_4_LIVING_STORY_ROOM_PROMOTION_RECEIPT_2026-10-01.md`
-22. `WEEK_4_ISSUE_PREVIS_BOARD_V1.md`
-23. `WEEK_4_PAGE_PACKET_REGISTER_V1.md`
-24. `WEEK_4_RELEASE_GATE_V1.md`
+19. `WEEK_4_KEEPER_CAMPAIGN_STATE_CLOSURE_2026-10-05.md` — **KEEPER / FOUNDATIONAL-ASSET CLOSURE + MEMO→NOVEL HANDOFF SOURCE**
+20. `WEEK_4_STORY_ROOM_CURRENT_STATE_RECONCILIATION_2026-10-02.md` — **CURRENT WHOLE-SLATE SNAPSHOT**
+21. `WEEK_4_STORY_ROOM_CURRENT_STATE_RECONCILIATION_2026-10-01.md` — historical pre-kickoff reconciliation
+22. `WEEK_4_LIVING_STORY_ROOM_PROMOTION_RECEIPT_2026-10-01.md`
+23. `WEEK_4_ISSUE_PREVIS_BOARD_V1.md`
+24. `WEEK_4_PAGE_PACKET_REGISTER_V1.md`
+25. `WEEK_4_RELEASE_GATE_V1.md`
 
 ## Current state
 
@@ -38,7 +39,7 @@ Week 3 is closed. Week 4 production remains open at **preproduction only**.
 
 W4-G6 personalized story intelligence is **LIVE / PARTIAL PASS**. The Living Story Room register and its scoped amendments authorize provisional reservoir development while preserving alternative branches. They do not authorize Story Lock.
 
-The 2026-10-02 reconciliation remains the latest formal whole-slate reconciliation in this index. The 2026-10-04 Author Council review carries a fresher Sunday pre-SNF provider snapshot for story-development purposes. The 2026-10-04 Slob × Chili amendment contains a fresher **matchup-scoped live provider observation** and supersedes the older Slob × Chili score only for that reservoir's current planning.
+The 2026-10-05 keeper/campaign-state closure is the latest scoped intelligence addendum; the 2026-10-02 reconciliation remains the latest formal whole-slate reconciliation in this index. The 2026-10-04 Author Council review carries a fresher Sunday pre-SNF provider snapshot for story-development purposes. The 2026-10-04 Slob × Chili amendment contains a fresher **matchup-scoped live provider observation** and supersedes the older Slob × Chili score only for that reservoir's current planning.
 
 The LLC × HMB casino / ledger concept is registered only as a conditional story reservoir expansion. It may use an event-specific LLC-domain casino expression tied institutionally to Pittsy's Book, but it does not create permanent geography or merge the two institutions. The cookie-face payoff remains HMB-loss-only.
 
