@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemin.local/schemas/week4-readiness-gate.schema.json",
+  "title": "Schemin Week 4 Publication Readiness Gate",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "gate_id",
+    "owner",
+    "state",
+    "required_receipt"
+  ],
+  "properties": {
+    "gate_id": {
+      "pattern": "^G([1-9]|1[0-2])$",
+      "type": "string"
+    },
+    "owner": {
+      "type": "string",
+      "minLength": 1
+    },
+    "state": {
+      "enum": [
+        "PREPARED",
+        "PASS",
+        "HOLD_EXTERNAL",
+        "BLOCKED",
+        "FAIL_INTERNAL"
+      ]
+    },
+    "required_receipt": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}
