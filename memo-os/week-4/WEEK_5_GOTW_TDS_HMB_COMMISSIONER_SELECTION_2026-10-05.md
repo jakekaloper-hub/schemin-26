@@ -116,3 +116,23 @@ Do not finalize injury-preview copy until Week 5 availability is refreshed.
 
 Official Week 5 GOTW:
 **Three Dreaded Snake vs His Majesty's Blood**.
+
+
+## GM Watch editorial layer — 2026-10-05
+
+Authority: `WEEK_4_PITTS_GMOY_EDITORIAL_ADDENDUM_2026-10-05.md`.
+
+Add a compact Week 5 GOTW editorial prompt:
+
+> **IS IT TIME TO START CONSIDERING PITTS THE GM OF THE YEAR FRONT-RUNNER?**
+
+Support with a concise evidence strip, not a full biography:
+- no live draft selections in Rounds 1–3;
+- first live premium pick in Round 4;
+- preseason ESPN projection #12;
+- Olave R7 / Javonte R10 keeper base;
+- aggressive waiver / FAAB activity;
+- foundational Olave keeper conversion via trade;
+- entering Week 5 record shown only after Week 4 Fact Lock.
+
+This is an editorial question, not an award declaration.
