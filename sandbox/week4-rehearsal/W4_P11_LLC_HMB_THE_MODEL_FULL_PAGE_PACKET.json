@@ -97,7 +97,7 @@
       "owner": "David Babb",
       "team": "The LLC.",
       "identity": "Hostile Takeover",
-      "expected_sha256": "ce3137d1472d63deb7a026d114d200f338d2461d3d223647f34b473794e1f85b",
+      "expected_sha256": "33e70a9208b47692d9d883707236a2b3a670629e0cb3b3f84c61eacff20fea37",
       "required": [
         "human corporate raider",
         "dark tailored three-piece suit",
@@ -108,14 +108,17 @@
       "reject": [
         "animal mascot",
         "fantasy warrior"
-      ]
+      ],
+      "active_source": "Screenshot 2026-08-28 at 15.34.24(4).png",
+      "active_file_id": "file_0000000059e881f59978075bfca66752",
+      "reference_receipt": "canon/character-control-plane-v2/evidence/R4_COMMISSIONER_REUPLOAD_PROMOTION_2026-10-01.md"
     },
     {
       "character_id": "CHAR-AUSTIN-BYARS",
       "owner": "Austin Byars",
       "team": "His Majesty's Blood",
       "identity": "The Belt Keeper",
-      "active_source": "IMG_2179.jpeg",
+      "active_source": "IMG_2179(1).jpeg",
       "expected_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
       "required": [
         "towering supernatural humanoid champion",
@@ -139,7 +142,10 @@
         "The Belt remains with HMB independent of weekly result.",
         "Week 4 success cannot erase Achane's Week 3 season-ending keeper loss.",
         "Team-name history The Immortal / That's Fantasy / His Majesty's Blood never authorizes visual redesign."
-      ]
+      ],
+      "active_file_id": "file_00000000f82c81f5a3843df3ab18dfff",
+      "reference_receipt": "canon/character-control-plane-v2/evidence/R4_REUPLOAD_BYTE_VERIFICATION_2026-10-01.md",
+      "reference_state": "EXACT_PASS"
     }
   ],
   "world_packet": {
@@ -233,10 +239,17 @@
   },
   "render_gate": {
     "exact_hmb_source_required": true,
-    "required_source_filename": "IMG_2179.jpeg",
+    "required_source_filename": "IMG_2179(1).jpeg",
+    "required_source_file_id": "file_00000000f82c81f5a3843df3ab18dfff",
     "required_source_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
-    "current_source_byte_state": "UNAVAILABLE_TO_CURRENT_RENDER_PATH",
-    "current_rehearsal_render_state": "BLOCKED",
-    "reason": "Authoritative HMB bytes cannot currently be materialized/mounted. Semantic prompt-only generation is insufficient for a 100%-accuracy rehearsal."
+    "llc_source_filename": "Screenshot 2026-08-28 at 15.34.24(4).png",
+    "llc_source_file_id": "file_0000000059e881f59978075bfca66752",
+    "llc_source_sha256": "33e70a9208b47692d9d883707236a2b3a670629e0cb3b3f84c61eacff20fea37",
+    "recovery_receipts": [
+      "canon/character-control-plane-v2/evidence/R4_REUPLOAD_BYTE_VERIFICATION_2026-10-01.md",
+      "canon/character-control-plane-v2/evidence/R4_COMMISSIONER_REUPLOAD_PROMOTION_2026-10-01.md"
+    ],
+    "current_rehearsal_render_state": "AUTHORIZED_SINGLE_RENDER",
+    "authority_note": "Use exact recovered Commissioner references from Week 3+ recovery state; no semantic fallback."
   }
 }
