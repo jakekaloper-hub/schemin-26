@@ -402,3 +402,23 @@ When sufficient evidence exists:
 **fresh Fact Scope → Story Room adjudication → Story Lock → issue architecture → Complete Issue Previs → Page Design Packets → reference/environment resolution → independent preproduction audit → production-ready gate**
 
 The system's job is not to predict Week 4. It is to be ready to recognize the best story once Week 4 creates it.
+
+
+---
+
+## 12. Keeper / foundational-asset Week 4 delta — 2026-10-05
+
+Authority: `WEEK_4_KEEPER_CAMPAIGN_STATE_CLOSURE_2026-10-05.md`.
+
+Week 4 Story Room now tests `FOUNDATIONAL_ASSET_STATE` alongside ordinary live signals. This is a Week 4-only diagnostic pending retrospective.
+
+Material reservoir deltas:
+- **DK × Obi:** Puka Nacua's return restores one keeper resource while Rashee Rice's verified Week 4 hamstring exit threatens the other. If Obi's favorable matchup shape holds, the emotional state becomes **victory + resource anxiety**, not uncomplicated triumph. Rice remains secondary to the matchup engine unless medical severity increases.
+- **Mud × TDS:** TDS's reconstruction includes conversion of preseason keeper Chris Olave out of the roster; Mud Dogs' Saquon Barkley keeper entered a new Week 4 hamstring-threat state. Existing reconstruction theme is strengthened; no extra scene is required merely for keeper data.
+- **Red × Duckhook:** Red's strong current matchup state coexists with Lamar Jackson's Week 4 ankle-threat state; Duckhook now carries former TDS keeper Chris Olave. Use only if it sharpens the existing social/vacation story.
+- **LLC × HMB:** Achane's Week 3 R15 keeper loss remains active and cannot be narratively restored by a Week 4 win.
+- **El Niño × 7DC:** Nico Collins' Week 4 return is a positive resource-restoration fact; foreground only if it improves the matchup's causal explanation.
+
+No material keeper-state delta was found for the Slob × Chili reservoir.
+
+Hard temporal rule: keeper value may exist before an injury event; later injury knowledge may not leak backward into earlier Book Time.
