@@ -2,6 +2,7 @@
 from __future__ import annotations
 import json
 from pathlib import Path
+from week4_page_fidelity import validate_packet as validate_story_fidelity
 
 ROOT = Path(__file__).resolve().parents[2]
 AUTH = ROOT / "canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json"
@@ -42,7 +43,8 @@ def render_eligibility(packet: dict) -> dict:
       "text_hierarchy","headline","copy_fields","deterministic_data_fields","visual_objects",
       "negative_constraints","drift_risks","rejection_conditions","mobile_readability_requirements",
       "previous_page","next_page","status",
-      "story_authority_id","story_authority_hash","story_authority_receipt","story_authority_state"
+      "story_authority_id","story_authority_hash","story_authority_receipt","story_authority_state",
+      "story_page_role","visual_job","prose_job","data_job","transition_job"
     ]
     missing = [k for k in required if k not in packet]
     if missing:
@@ -67,6 +69,14 @@ def render_eligibility(packet: dict) -> dict:
         return {"state":"PAGE_RENDER_BLOCKED","reason":"PAGE_PACKET_STALE","detail":"STORY_AUTHORITY_RECEIPT_INVALID"}
     if current.get("status") != "CURRENT":
         return {"state":"PAGE_RENDER_BLOCKED","reason":"PAGE_PACKET_STALE","detail":"STORY_AUTHORITY_NOT_CURRENT"}
+
+    fidelity=validate_story_fidelity(packet)
+    if fidelity.get("state")!="PASS":
+        return {
+          "state":"PAGE_RENDER_BLOCKED",
+          "reason":"STORY_AUTHORITY_MISMATCH",
+          "detail":fidelity.get("errors",[])
+        }
 
     chars = packet.get("character_ids") or []
     matrix = character_matrix()
