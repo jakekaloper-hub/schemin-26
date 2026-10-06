@@ -67,10 +67,11 @@ def test_page2_is_issue_specific_not_generic_division_explainer():
     assert "generic three-castle division poster" in p2
 
 
-def test_gate_is_closed_during_recovery():
+def test_manual_production_is_reopened_after_recovery():
     s=GATE.read_text()
-    assert "PRODUCTION HOLD" in s
-    assert "Commissioner review is not the first defect-detection layer" in s
+    assert "**Manual production is reopened.**" in s
+    assert "CLOSER_PRE_RENDER_PASS" in s
+    assert "CLOSER_PAGE_ACCEPT" in s
 
 
 def test_remaining_public_matchup_headings_use_full_names():
