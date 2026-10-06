@@ -3,7 +3,7 @@
 **Page ID:** `W4-P25`
 **Page number:** 25 of 27
 **Story authority:** `W4-MODULE-PITTSY`
-**Status:** LOCKED PRE-ART / FINAL PITTS SETTLEMENT FIELDS OPEN
+**Status:** LOCKED PRE-ART / RESULT MATH PROVISIONAL FINAL / PITTS LEDGER + PROVIDER DECIDED PENDING
 **Production mode:** manual page-by-page
 **Command contract:** `generate page 25`
 **Only open input:** Pitts's authoritative Week 4 settlement/results ledger after final decided scores
@@ -267,6 +267,30 @@ The following must be rendered/typeset deterministically, not trusted to image-g
 - Book P/L.
 
 Illustration may provide the boards/signage/room, but final numerical content must be composited or typeset exactly.
+
+## PROVISIONAL-FINAL MARKET MATH — 2026-10-06
+
+Source: `WEEK_04_PROVISIONAL_PITTSY_MATH_2026-10-06.md`.
+
+Current mathematical results from completed-football Flaim scores:
+- TDS +5.5 covers Mud;
+- DK +19.5 covers ObiWan;
+- Red -10.5 covers Duckhook;
+- Slob -2.5 covers Chili;
+- HMB +10.5 covers LLC;
+- El Niño +4.5 covers 7DC.
+
+Current O/U math:
+- Mud/TDS — OVER 276.5 by 0.32;
+- Obi/DK — OVER 289.5 by 7.50;
+- Red/Duck — OVER 290.5 by 1.94;
+- Slob/Chili — OVER 303.5 by 27.18;
+- LLC/HMB — OVER 287.5 by 28.69;
+- 7DC/El Niño — UNDER 292.5 by 15.68.
+
+Byars four-piece current leg math: HMB +10.5 WIN, Slob -2.5 WIN, Mud -5.5 LOSS, DK +19.5 WIN — 3/4 legs. Settlement remains Pitts-ledger dependent and provider-DECIDED pending.
+
+---
 
 ## PENDING PITTS SETTLEMENT FIELDS
 
