@@ -54,10 +54,11 @@ class Week4ReadinessTests(unittest.TestCase):
     def test_manifest_has_exactly_twelve_gates(self):
         self.assertEqual([g["gate_id"] for g in self.manifest["gates"]],[f"G{i}" for i in range(1,13)])
 
-    def test_active_manifest_waits_on_story_lock_instead_of_using_stale_fixed_page_plan(self):
-        self.assertEqual(self.manifest["page_plan_state"],"WAITING_ON_STORY_LOCK")
-        self.assertEqual(self.manifest["pages"],[])
-        self.assertEqual(self.manifest["legacy_page_plan"]["state"],"SUPERSEDED_NON_CONTROLLING")
+    def test_active_manifest_locks_exact_27_page_plan(self):
+        self.assertEqual(self.manifest["page_plan_state"],"LOCKED")
+        self.assertEqual(len(self.manifest["pages"]),27)
+        self.assertEqual([p["page_number"] for p in self.manifest["pages"]],list(range(1,28)))
+        self.assertEqual(self.manifest["legacy_19_page_plan"]["state"],"SUPERSEDED_NON_CONTROLLING")
 
     def test_missing_page_packet_blocks_render(self):
         r=elig.render_eligibility({"page_id":"bad"})
@@ -87,11 +88,12 @@ class Week4ReadinessTests(unittest.TestCase):
         self.assertIn("FOUR-LEGGED CENTAUR LOWER BODY", registry)
         self.assertNotIn('hard_reject: ["centaur anatomy"', registry)
 
-    def test_dk_render_route_fail_closes_while_provider_proof_unresolved(self):
+    def test_dk_packet_still_requires_current_reference_hash(self):
         p=self.complete_packet(["CHAR-WILSON-LOOK"],"W4-STORY-DK-OBI")
+        p["exact_reference_assets"][0]["expected_sha256"]="0"*64
         r=elig.render_eligibility(p)
         self.assertEqual(r["state"],"PAGE_RENDER_BLOCKED")
-        self.assertEqual(r["reason"],"GENERATION_BLOCKED_PROVIDER_CAPABILITY_UNPROVEN")
+        self.assertEqual(r["reason"],"CHARACTER_REFERENCE_HASH_MISMATCH")
 
     def test_all_twelve_characters_have_unique_authority_rows_and_hashes(self):
         rows=self.char_matrix["characters"]
@@ -139,10 +141,12 @@ class Week4ReadinessTests(unittest.TestCase):
         self.assertEqual(pub["release_state"],"BLOCKED")
         self.assertIsNone(pub["canonical_artifact"])
 
-    def test_pre_mnf_readiness_is_hold_not_false_pass(self):
+    def test_pre_finality_readiness_has_flaim_as_only_hold(self):
         result=readiness.validate_internal()
-        self.assertNotEqual(result["state"],"PASS")
-        self.assertIn(result["state"],{"HOLD_EXTERNAL","FAIL_INTERNAL"})
+        self.assertEqual(result["state"],"HOLD_EXTERNAL")
+        self.assertEqual(result["errors"],[])
+        self.assertEqual(result["only_hold"],"MNF_ESPN_FLAIM_FINALITY")
+        self.assertEqual(result["pages"],27)
 
 if __name__=="__main__":
     unittest.main()
