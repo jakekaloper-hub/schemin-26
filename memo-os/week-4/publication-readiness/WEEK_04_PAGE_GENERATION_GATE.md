@@ -4,7 +4,7 @@
 **Issue:** Schemin '26 Week 4 Memo
 **Page count:** 27
 **Commissioner workflow:** "generate page N" → gated production transaction → approved PNG only
-**Only unresolved preproduction input:** Flaim/ESPN official decided-result refresh and fields derived from it
+**Current production data state:** PROVISIONAL_FINAL authorized for manual production; ESPN/Flaim DECIDED revalidation remains mandatory
 
 ## Commissioner operating rule
 
@@ -108,11 +108,30 @@ It must:
 - fetch page-specific deterministic data;
 - run PRE-RENDER PREFLIGHT;
 - if any non-Flaim field is unresolved, STOP as INTERNAL_PREPRODUCTION_DEFECT;
-- if only required Flaim-derived data is unresolved, STOP as WAITING_ON_FLAIM;
+- if the page's required result fields exist in the current completed-football provisional-final snapshot, allow generation under `PROVISIONAL_FINAL_DATA_USED / MORNING_REVALIDATION_REQUIRED`;
+- if a required field is absent even provisionally, STOP as `WAITING_ON_REQUIRED_DATA`;
 - otherwise generate candidate;
 - inspect candidate under CANDIDATE ACCEPTANCE;
 - if candidate fails, it is REJECTED_NOT_FOR_FOLDER;
 - if candidate passes, mark APPROVED_FOR_LOCAL_FOLDER and return it as the page.
+
+
+## Provisional-final manual-production authorization
+
+Commissioner/Bullpen has explicitly opened Week 4 manual production before provider DECIDED finality.
+
+Use `WEEK_04_MANUAL_PRODUCTION_OPEN_PROVISIONAL_FINAL_2026-10-06.md` as the controlling production-opening receipt.
+
+For result-dependent pages generated before provider DECIDED:
+- current completed-football Flaim values may be typeset deterministically;
+- candidate QA may PASS;
+- production receipt must state `PROVISIONAL_FINAL_DATA_USED / MORNING_REVALIDATION_REQUIRED`;
+- morning DECIDED audit compares only result-derived fields;
+- unchanged pages promote without regeneration;
+- changed deterministic fields require only the affected page to be retypeset/regenerated;
+- story, composition, character and world architecture remain frozen.
+
+Page 25 retains a separate Pitts-ledger hold for final settlement acceptance.
 
 ## Character hard locks
 
