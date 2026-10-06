@@ -325,24 +325,15 @@ Required closing consequence:
 
 This official summary supersedes prior `WAITING_ON_PITTS_SETTLEMENT_FIELDS` language for bettor Week 4 P/L totals, season standings, Week 4 Book P/L and cumulative Book P/L. Granular ticket/stake/gross-return rows remain evidence-bound if not supplied.
 
-## PENDING PITTS SETTLEMENT FIELDS
+## REMAINING EVIDENCE-BOUND RECEIPT DETAIL
 
-The following remain intentionally open and may be filled only from Pitts's authoritative final Week 4 bookkeeping:
-- actual bettor list;
-- exact tickets placed;
-- exact stakes;
-- spread outcomes;
-- O/U outcomes;
-- Byars four-piece settlement;
-- gross returns;
-- net P/L per bettor;
-- Week 4 bettor P/L;
-- season-to-date bettor P/L;
-- Week 4 Book P/L;
-- season-to-date Book P/L;
-- best receipt / worst receipt / notable bad beat, if Pitts identifies one.
+The official Week 4 summary settlement is locked. Only granular receipt fields not supplied by the Commissioner remain open:
+- exact ticket-by-ticket wager descriptions beyond already locked featured artifacts;
+- exact stakes where not separately supplied;
+- gross returns where not separately supplied;
+- individual receipt imagery / best receipt / worst receipt / notable bad beat, only if Pitts supplies it.
 
-Do not infer or invent missing tickets.
+Do not infer or invent missing ticket-level detail. Week 4 bettor P/L totals, season standings, Week 4 Book P/L and cumulative Book P/L are no longer pending.
 
 ## DATA DEPENDENCY DISTINCTION
 
@@ -459,7 +450,7 @@ Page 25 naturally hands off through TDS/Pittsy institutional presence into a TDS
 
 **Scout — LOCK ON RESULT-MATH METHOD / WAITING ON FINAL SCORES:** Final scores determine whether offered spreads/totals mathematically hit; Scout does not invent booked tickets.
 
-**Pitty Desk — LOCK ON MARKET + HOLD ON SETTLEMENT:** Offered Week 4 board, rules and Byars ticket are locked. Pitts must supply actual booked-ticket settlement ledger.
+**Pitty Desk — SETTLEMENT SUMMARY LOCKED:** Offered Week 4 board, rules, featured Byars ticket, official Week 4 bettor P/L, season standings and Book ledger are locked. Unsupported granular ticket receipts remain evidence-bound.
 
 **Librarian — LOCK:** Approved attachment receipt and TDS character authority are recorded. Generic or stale references cannot override them.
 
