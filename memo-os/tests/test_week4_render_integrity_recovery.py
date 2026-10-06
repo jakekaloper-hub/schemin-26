@@ -71,3 +71,17 @@ def test_gate_is_closed_during_recovery():
     s=GATE.read_text()
     assert "PRODUCTION HOLD" in s
     assert "Commissioner review is not the first defect-detection layer" in s
+
+
+def test_remaining_public_matchup_headings_use_full_names():
+    s=PACKET.read_text()
+    forbidden=["MUD DOGS × TDS","SLOB × CHILI","LLC × HMB","HMB × TDS","RED LEOPARDS × DR. DUCKHOOK"]
+    for token in forbidden:
+        assert token not in s
+    assert "Three Dreaded Snake vs His Majesty's Blood" in s
+
+
+def test_render_contract_forbids_critical_generated_text():
+    s=PACKET.read_text()
+    for field in ["team names","division names","GAME OF THE WEEK labels","scores, records, standings, rankings","odds, totals, betting ledgers"]:
+        assert field in s
