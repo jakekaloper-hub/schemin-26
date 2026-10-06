@@ -293,6 +293,19 @@ El Niño has scored 170.62. The performance is large enough that the weather met
 ### New primary candidate — **THE STORM FINALLY ARRIVED**
 The strongest image may still be Whipple's reaction rather than El Niño performing spectacle.
 
+### Commissioner personalization — **NOT SOUNDING THE ALARMS YET**
+Add an escalating comic warning-system branch without replacing the primary storm engine:
+- early storm signs appear;
+- small/mini El Niño weather manifestations may visualize Manning's mounting frustration as temporary scene shorthand;
+- 7DC repeatedly refuses to activate the storm alarms;
+- recognition comes too late;
+- Whipple responds with absurd defiance by grabbing a shotgun and trying to shoot the storm itself;
+- the storm is unaffected and ultimately sweeps him away.
+
+Tone: dry warning-sign comedy → escalation → futile defiance → stylized environmental consequence. Keep it fantastical/non-graphic and do not turn the firearm beat into realistic tactical detail.
+
+Authority: `WEEK_4_PERSONALIZED_INTELLIGENCE_AMENDMENT_ELNINO_7DC_STORM_ALARMS_2026-10-05.md`.
+
 ### Consultant notes
 - **Abercrombie:** Whipple sitting calmly under a catastrophic-looking sky is stronger than direct battle.
 - **Le Guin:** weather should be experienced from the ground.
