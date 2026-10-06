@@ -27,11 +27,9 @@ No body copy.
 
 For three weeks, D0nkey K0ng had owned the view from the Burgers highlands. Then ObiWan Jacoby came up the road.
 
-That was only the first door opening.
+By Monday night, Three Dreaded Snake was counting birds beside a truck, Dr. Duckhook was carrying somebody else's golf bag, the Chili Outlaw was asleep under a cowboy hat, The LLC was staring at its own ticket, and Whipple's lawn furniture had joined the weather.
 
-Before the week was over, Three Dreaded Snake was counting birds beside a truck. Dr. Duckhook was carrying somebody else's golf bag. The Chili Cheesers had lost a drinking contest in a room built for one. The LLC was staring at its own ticket. And somewhere in Pizza territory, Whipple's lawn furniture had become weather.
-
-Divisional week did what division games are supposed to do: it put familiar names back in familiar places and made them settle something.
+That's divisional week here. Nobody gets a new opponent. They get somebody who already knows where the door is.
 
 Nobody traveled far.
 
@@ -348,7 +346,7 @@ The division no longer belongs to the unbeaten team because there is no unbeaten
 
 DK and ObiWan sit at 3-1. TDS and Mud sit at 2-2. What looked like a hill with one owner now has traffic on every road leading up it.
 
-The most important change is not DK falling. It is that ObiWan now owns proof he can reach him, while TDS finally has scoreboard evidence that the rebuild was more than expensive activity.
+The most important change is not DK falling. It is that ObiWan now owns proof he can reach him, while TDS finally has scoreboard evidence that the waiver bills bought something real.
 
 ### WINGS
 Red Leopards has the cleanest record at 3-1.
@@ -458,7 +456,7 @@ One has spent a month buying answers.
 
 The other still carries the belt.
 
-No line needed.
+Pittsy can price it later.
 
 ---
 
