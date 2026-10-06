@@ -1,19 +1,260 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "publication_id": "memo.2026.week-04",
-  "issue_version": "prepublication-story-authority-hardening-2",
-  "current_state": "WAITING_ON_MNF_STORY_AUTHORITY_HARDENED_CLOSER_PREPRODUCTION_APPROVED",
+  "issue_version": "mission-review-27-page-preart-lock",
+  "current_state": "PRE_ART_QA_PASS__WAITING_ONLY_ON_FLAIM_FACT_LOCK_FOR_CONTENT_FILL",
   "authority": {
     "project_registry": "PROJECT_CONTROL_REGISTRY.md",
     "memo_os": "memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md",
-    "release_gate": "memo-os/week-4/WEEK_4_RELEASE_GATE_V1.md",
+    "production_packet": "memo-os/week-4/publication-readiness/WEEK_04_OFFICIAL_MANUAL_PRODUCTION_PACKET.md",
+    "director_review": "memo-os/week-4/publication-readiness/WEEK_04_27_PAGE_DIRECTOR_REVIEW_PACKET.md",
+    "mission_review_lock": "memo-os/week-4/publication-readiness/WEEK_04_MISSION_REVIEW_STORY_LOCK_CORRECTED_2026-10-05.md",
     "character_authority": "canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json",
-    "world_authority": "world/SCHEMIN_WORLD_ENGINE_V1_1_RELEASE_RECEIPT.md"
+    "character_matrix": "memo-os/week-4/publication-readiness/WEEK_04_12_CHARACTER_AUTHORITY_MATRIX.json",
+    "world_entry": "memo-os/week-4/WEEK_4_WORLD_ENTRY_RECEIPT_V1.md"
   },
   "external_holds": [
-    "MNF_ESPN_FLAIM_FINALITY",
-    "WEEK_4_LEDGER_FINALIZATION",
-    "CHARACTER_PROVIDER_MOUNT_AND_SUBJECT_BINDING_PROOF"
+    "MNF_ESPN_FLAIM_FINALITY"
+  ],
+  "operational_notes": [
+    "Story/page architecture is frozen and must not reopen after Flaim refresh.",
+    "Pitty settlement, Power Rankings, State of Realm, result copy and World Delta are deterministic/factual fill operations only.",
+    "Actual raster QA occurs after each page generation and before Jake saves/locks that PNG.",
+    "Final release occurs only after all 27 PNGs are locked and assembled into the mobile PDF."
+  ],
+  "page_plan_state": "LOCKED_27_PAGES",
+  "pages": [
+    {
+      "page_id": "W4-P01",
+      "page_number": 1,
+      "title": "RETURN OF THE JEDI",
+      "character_ids": [
+        "CHAR-JAKE-KALOPER"
+      ]
+    },
+    {
+      "page_id": "W4-P02",
+      "page_number": 2,
+      "title": "DIVISIONAL WEEK BROUGHT CONSEQUENCES HOME",
+      "character_ids": []
+    },
+    {
+      "page_id": "W4-P03",
+      "page_number": 3,
+      "title": "THE BOARD / FINAL SCOREBOARD",
+      "character_ids": []
+    },
+    {
+      "page_id": "W4-P04",
+      "page_number": 4,
+      "title": "THE RETURN",
+      "character_ids": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-WILSON-LOOK"
+      ]
+    },
+    {
+      "page_id": "W4-P05",
+      "page_number": 5,
+      "title": "THE DUEL",
+      "character_ids": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-WILSON-LOOK"
+      ]
+    },
+    {
+      "page_id": "W4-P06",
+      "page_number": 6,
+      "title": "THE HIGH GROUND",
+      "character_ids": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-WILSON-LOOK"
+      ]
+    },
+    {
+      "page_id": "W4-P07",
+      "page_number": 7,
+      "title": "UNDEFEATED NO MORE",
+      "character_ids": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-WILSON-LOOK"
+      ]
+    },
+    {
+      "page_id": "W4-P08",
+      "page_number": 8,
+      "title": "OPENING MORNING",
+      "character_ids": [
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-PHILLIP-PITTS"
+      ]
+    },
+    {
+      "page_id": "W4-P09",
+      "page_number": 9,
+      "title": "THE HUNT",
+      "character_ids": [
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-PHILLIP-PITTS"
+      ]
+    },
+    {
+      "page_id": "W4-P10",
+      "page_number": 10,
+      "title": "THE BETTER HUNTER",
+      "character_ids": [
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-PHILLIP-PITTS"
+      ]
+    },
+    {
+      "page_id": "W4-P11",
+      "page_number": 11,
+      "title": "RECOVERY TRIP",
+      "character_ids": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-ZACH-WILSON"
+      ]
+    },
+    {
+      "page_id": "W4-P12",
+      "page_number": 12,
+      "title": "THE LESSON",
+      "character_ids": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-ZACH-WILSON"
+      ]
+    },
+    {
+      "page_id": "W4-P13",
+      "page_number": 13,
+      "title": "THE SCORECARD DOESN'T LIE",
+      "character_ids": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-ZACH-WILSON"
+      ]
+    },
+    {
+      "page_id": "W4-P14",
+      "page_number": 14,
+      "title": "WELCOME TO THE CAVE",
+      "character_ids": [
+        "CHAR-JORDAN-HOLLINGSHEAD",
+        "CHAR-BRANDON-PRYOR"
+      ]
+    },
+    {
+      "page_id": "W4-P15",
+      "page_number": 15,
+      "title": "ONE MORE ROUND",
+      "character_ids": [
+        "CHAR-JORDAN-HOLLINGSHEAD",
+        "CHAR-BRANDON-PRYOR"
+      ]
+    },
+    {
+      "page_id": "W4-P16",
+      "page_number": 16,
+      "title": "THE BEER CHAMPION",
+      "character_ids": [
+        "CHAR-JORDAN-HOLLINGSHEAD",
+        "CHAR-BRANDON-PRYOR"
+      ]
+    },
+    {
+      "page_id": "W4-P17",
+      "page_number": 17,
+      "title": "THE HOUSE SETS THE LINE",
+      "character_ids": [
+        "CHAR-DAVID-BABB",
+        "CHAR-AUSTIN-BYARS"
+      ]
+    },
+    {
+      "page_id": "W4-P18",
+      "page_number": 18,
+      "title": "EXPOSURE",
+      "character_ids": [
+        "CHAR-DAVID-BABB",
+        "CHAR-AUSTIN-BYARS"
+      ]
+    },
+    {
+      "page_id": "W4-P19",
+      "page_number": 19,
+      "title": "THE HOUSE GETS BEAT",
+      "character_ids": [
+        "CHAR-DAVID-BABB",
+        "CHAR-AUSTIN-BYARS"
+      ]
+    },
+    {
+      "page_id": "W4-P20",
+      "page_number": 20,
+      "title": "PRESSURE AT HOME",
+      "character_ids": [
+        "CHAR-MANNING-WELTY",
+        "CHAR-BEN-WHIPPLE"
+      ]
+    },
+    {
+      "page_id": "W4-P21",
+      "page_number": 21,
+      "title": "THAT'S PROBABLY NOT GOOD",
+      "character_ids": [
+        "CHAR-MANNING-WELTY",
+        "CHAR-BEN-WHIPPLE"
+      ]
+    },
+    {
+      "page_id": "W4-P22",
+      "page_number": 22,
+      "title": "THE STORM FINALLY CAME",
+      "character_ids": [
+        "CHAR-MANNING-WELTY",
+        "CHAR-BEN-WHIPPLE"
+      ]
+    },
+    {
+      "page_id": "W4-P23",
+      "page_number": 23,
+      "title": "STATE OF THE REALM",
+      "character_ids": []
+    },
+    {
+      "page_id": "W4-P24",
+      "page_number": 24,
+      "title": "POWER RANKINGS",
+      "character_ids": []
+    },
+    {
+      "page_id": "W4-P25",
+      "page_number": 25,
+      "title": "PITTSY'S BOOK — WEEK 4 SETTLEMENT",
+      "character_ids": [
+        "CHAR-PHILLIP-PITTS"
+      ]
+    },
+    {
+      "page_id": "W4-P26",
+      "page_number": 26,
+      "title": "WEEK 5 GOTW — HMB × TDS",
+      "character_ids": [
+        "CHAR-AUSTIN-BYARS",
+        "CHAR-PHILLIP-PITTS"
+      ]
+    },
+    {
+      "page_id": "W4-P27",
+      "page_number": 27,
+      "title": "FINAL WORD — THE WORLD DOES NOT RESET",
+      "character_ids": []
+    }
+  ],
+  "forbidden_pages": [
+    "Repair Bridge",
+    "Club-Information Bridge",
+    "Models/Pressure Bridge"
   ],
   "gates": [
     {
@@ -25,72 +266,74 @@
     {
       "gate_id": "G2",
       "owner": "Pitty desk",
-      "state": "HOLD_EXTERNAL",
+      "state": "PRE_ART_PASS_FACT_FILL_PENDING",
       "required_receipt": "WEEK_04_PITTYS_BOOK_SETTLEMENT.md"
     },
     {
       "gate_id": "G3",
       "owner": "Power Rankings desk",
-      "state": "PREPARED",
+      "state": "PRE_ART_PASS_FACT_FILL_PENDING",
       "required_receipt": "WEEK_04_POWER_RANKINGS_LOCK.md"
     },
     {
       "gate_id": "G4",
       "owner": "Scout",
-      "state": "PREPARED",
+      "state": "PRE_ART_PASS_FACT_FILL_PENDING",
       "required_receipt": "WEEK_04_STATE_OF_REALM.md"
     },
     {
       "gate_id": "G5",
       "owner": "Beat Writer",
-      "state": "PREPARED",
+      "state": "PASS_STORY_FROZEN",
       "required_receipt": "WEEK_04_MATCHUP_CONSEQUENCE_REGISTER.md"
     },
     {
       "gate_id": "G6",
       "owner": "Librarian",
-      "state": "PREPARED",
+      "state": "PRE_ART_PASS_DELTA_FILL_PENDING",
       "required_receipt": "WEEK_04_WORLD_STATE_DELTA.md"
     },
     {
       "gate_id": "G7",
       "owner": "Groundskeeper",
-      "state": "PREPARED",
+      "state": "PASS_27_PAGE_PACKET_LOCKED",
       "required_receipt": "WEEK_04_PAGE_PACKET_REGISTER.md"
     },
     {
       "gate_id": "G8",
       "owner": "Visual Direction Lead",
-      "state": "HOLD_EXTERNAL",
+      "state": "BLOCKED_UNTIL_FACT_LOCK_THEN_PAGE_BY_PAGE",
       "required_receipt": "WEEK_04_VISUAL_QA_REGISTER.md"
     },
     {
       "gate_id": "G9",
       "owner": "Publication Design",
-      "state": "PREPARED",
+      "state": "READY_FOR_PAGE_BY_PAGE",
       "required_receipt": "WEEK_04_PUBLICATION_DESIGN_QA.md"
     },
     {
       "gate_id": "G10",
       "owner": "Author Council",
-      "state": "PREPARED",
+      "state": "PASS_PRE_ART",
       "required_receipt": "WEEK_04_CONTINUITY_AUDIT.md"
     },
     {
       "gate_id": "G11",
       "owner": "Umpire",
-      "state": "PREPARED",
+      "state": "PASS_PRE_ART_SYSTEM__FINAL_ASSEMBLY_PENDING",
       "required_receipt": "WEEK_04_FINAL_UMPIRE_REPORT.md"
     },
     {
       "gate_id": "G12",
       "owner": "Closer",
-      "state": "BLOCKED",
+      "state": "BLOCKED_UNTIL_27_PNG_LOCKS",
       "required_receipt": "WEEK_04_PUBLICATION_RECEIPT.md"
     }
   ],
-  "pages": [],
   "character_overrides": {
+    "CHAR-JAKE-KALOPER": {
+      "week4": "Page 1 and Pages 4-7: no golden retriever; no championship belt. Page 1 saber unlit and attached to belt."
+    },
     "CHAR-WILSON-LOOK": {
       "identity": "Arsenal Gorilla Centaur Warrior",
       "required": [
@@ -99,191 +342,31 @@
         "FOUR_LEGGED_CENTAUR_LOWER",
         "ARSENAL_IDENTITY"
       ],
-      "authority_refs": [
-        "canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json",
-        "canon/characters/CHAR-WILSON-LOOK/T04_CHARACTER_SPEC.md"
-      ]
+      "owner_specific_reference_required": true
+    },
+    "CHAR-PHILLIP-PITTS": {
+      "required": [
+        "ONE_REPTILIAN_BODY",
+        "EXACTLY_THREE_HEADS",
+        "DREADS_PRESENT"
+      ],
+      "owner_specific_reference_required": true
+    },
+    "CHAR-AUSTIN-BYARS": {
+      "required": [
+        "BELT_KEEPER",
+        "CHAMPIONSHIP_BELT_ALWAYS_PRESENT"
+      ],
+      "owner_specific_reference_required": true
     }
   },
   "release_requirements": {
-    "all_gates_pass": true,
-    "final_pdf_required": true,
+    "final_fact_lock_required": true,
+    "per_page_preart_qa_required": true,
+    "per_page_raster_qa_required": true,
+    "all_27_page_png_locks_required": true,
+    "mobile_pdf_required": true,
     "final_pdf_sha256_required": true,
-    "page_hash_manifest_required": true,
-    "umpire_pass_required": true,
-    "story_authority_pass_required": true,
-    "page_packets_must_bind_current_story_authority": true
-  },
-  "story_authority_register": "memo-os/week-4/publication-readiness/WEEK_04_STORY_AUTHORITY_REGISTER.json",
-  "page_plan_state": "WAITING_ON_STORY_LOCK",
-  "legacy_page_plan": {
-    "state": "SUPERSEDED_NON_CONTROLLING",
-    "reason": "Fixed 19-page plan contained stale LLC×HMB mandatory three-page architecture and cannot seed production.",
-    "pages": [
-      {
-        "page_id": "W4-P01",
-        "page_number": 1,
-        "title": "Cover",
-        "character_ids": [
-          "CHAR-JAKE-KALOPER"
-        ]
-      },
-      {
-        "page_id": "W4-P02",
-        "page_number": 2,
-        "title": "Opening Drive",
-        "character_ids": []
-      },
-      {
-        "page_id": "W4-P03",
-        "page_number": 3,
-        "title": "Scoreboard",
-        "character_ids": []
-      },
-      {
-        "page_id": "W4-P04",
-        "page_number": 4,
-        "title": "DK vs Obi I",
-        "character_ids": [
-          "CHAR-JAKE-KALOPER",
-          "CHAR-WILSON-LOOK"
-        ]
-      },
-      {
-        "page_id": "W4-P05",
-        "page_number": 5,
-        "title": "DK vs Obi II",
-        "character_ids": [
-          "CHAR-JAKE-KALOPER",
-          "CHAR-WILSON-LOOK"
-        ]
-      },
-      {
-        "page_id": "W4-P06",
-        "page_number": 6,
-        "title": "DK vs Obi III",
-        "character_ids": [
-          "CHAR-JAKE-KALOPER",
-          "CHAR-WILSON-LOOK"
-        ]
-      },
-      {
-        "page_id": "W4-P07",
-        "page_number": 7,
-        "title": "DK vs Obi IV",
-        "character_ids": [
-          "CHAR-JAKE-KALOPER",
-          "CHAR-WILSON-LOOK"
-        ]
-      },
-      {
-        "page_id": "W4-P08",
-        "page_number": 8,
-        "title": "Mud Dogs vs TDS",
-        "character_ids": [
-          "CHAR-BOBBY-MITCHELL",
-          "CHAR-PHILLIP-PITTS"
-        ]
-      },
-      {
-        "page_id": "W4-P09",
-        "page_number": 9,
-        "title": "Red vs Duckhook",
-        "character_ids": [
-          "CHAR-KEVIN-ZEEK",
-          "CHAR-ZACH-WILSON"
-        ]
-      },
-      {
-        "page_id": "W4-P10",
-        "page_number": 10,
-        "title": "Slob vs Chili",
-        "character_ids": [
-          "CHAR-JORDAN-HOLLINGSHEAD",
-          "CHAR-BRANDON-PRYOR"
-        ]
-      },
-      {
-        "page_id": "W4-P11",
-        "page_number": 11,
-        "title": "LLC vs HMB I",
-        "character_ids": [
-          "CHAR-DAVID-BABB",
-          "CHAR-AUSTIN-BYARS"
-        ]
-      },
-      {
-        "page_id": "W4-P12",
-        "page_number": 12,
-        "title": "LLC vs HMB II",
-        "character_ids": [
-          "CHAR-DAVID-BABB",
-          "CHAR-AUSTIN-BYARS"
-        ]
-      },
-      {
-        "page_id": "W4-P13",
-        "page_number": 13,
-        "title": "LLC vs HMB III",
-        "character_ids": [
-          "CHAR-DAVID-BABB",
-          "CHAR-AUSTIN-BYARS"
-        ]
-      },
-      {
-        "page_id": "W4-P14",
-        "page_number": 14,
-        "title": "El Nino vs Chins",
-        "character_ids": [
-          "CHAR-MANNING-WELTY",
-          "CHAR-BEN-WHIPPLE"
-        ]
-      },
-      {
-        "page_id": "W4-P15",
-        "page_number": 15,
-        "title": "State of the Realm",
-        "character_ids": []
-      },
-      {
-        "page_id": "W4-P16",
-        "page_number": 16,
-        "title": "Power Rankings",
-        "character_ids": []
-      },
-      {
-        "page_id": "W4-P17",
-        "page_number": 17,
-        "title": "Week 4 Ledger",
-        "character_ids": [
-          "CHAR-PHILLIP-PITTS"
-        ]
-      },
-      {
-        "page_id": "W4-P18",
-        "page_number": 18,
-        "title": "Week 5 Preview",
-        "character_ids": [
-          "CHAR-PHILLIP-PITTS",
-          "CHAR-AUSTIN-BYARS"
-        ]
-      },
-      {
-        "page_id": "W4-P19",
-        "page_number": 19,
-        "title": "Final Word",
-        "character_ids": []
-      }
-    ]
-  },
-  "preproduction_closeout": {
-    "status": "APPROVED",
-    "receipt": "memo-os/week-4/publication-readiness/WEEK_04_STORY_AUTHORITY_POST_MERGE_CLOSEOUT.md",
-    "art_generation": "HOLD",
-    "external_holds": [
-      "MNF_ESPN_FLAIM_FINALITY",
-      "WEEK_4_LEDGER_FINALIZATION",
-      "PRODUCTION_TIME_RENDER_REFERENCE_PROOF"
-    ]
+    "umpire_assembly_pass_required": true
   }
 }
