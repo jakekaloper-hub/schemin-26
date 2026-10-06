@@ -5,12 +5,20 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[2]
 ASSEMBLY=ROOT/"memo-os/week-4/publication-readiness/WEEK_04_ASSEMBLY_MANIFEST.json"
+DENYLIST=ROOT/"memo-os/week-4/publication-readiness/WEEK_04_REJECTED_REHEARSAL_ARTIFACT_DENYLIST.json"
 
 def load(path=ASSEMBLY):
     return json.loads(Path(path).read_text())
 
+def rejected_hashes():
+    if not DENYLIST.exists():
+        return set()
+    data=json.loads(DENYLIST.read_text())
+    return {x.get("sha256") for x in data.get("rejected_artifacts",[]) if x.get("sha256")}
+
 def validate(doc:dict)->dict:
     errors=[]
+    deny=rejected_hashes()
     page_plan_state=doc.get("page_plan_state")
     pages=doc.get("pages",[])
     nums=[p.get("page_number") for p in pages]
@@ -31,9 +39,11 @@ def validate(doc:dict)->dict:
         errors.append("DUPLICATE_PAGE_ID")
 
     unresolved=[]
-    for p in pages:
-        if not p.get("artifact") or not p.get("sha256") or p.get("page_lock")!="PASS":
-            unresolved.append(p.get("page_id"))
+    for page in pages:
+        if page.get("sha256") in deny:
+            errors.append("REJECTED_REHEARSAL_ARTIFACT:"+str(page.get("page_id")))
+        if not page.get("artifact") or not page.get("sha256") or page.get("page_lock")!="PASS":
+            unresolved.append(page.get("page_id"))
 
     if errors:
         return {"state":"FAIL_INTERNAL","errors":errors,"unresolved_pages":unresolved}
