@@ -3,10 +3,10 @@
 **Page ID:** `W4-P25`
 **Page number:** 25 of 27
 **Story authority:** `W4-MODULE-PITTSY`
-**Status:** LOCKED PRE-ART / RESULT MATH PROVISIONAL FINAL / PITTS LEDGER + PROVIDER DECIDED PENDING
+**Status:** LOCKED PRE-ART / OFFICIAL WEEK 4 SETTLEMENT SUMMARY LOCKED / PROVIDER FINALITY CONTROL REMAINS
 **Production mode:** manual page-by-page
 **Command contract:** `generate page 25`
-**Only open input:** Pitts's authoritative Week 4 settlement/results ledger after final decided scores
+**Settlement input:** Commissioner-supplied official Week 4 Pitty's Book results are LOCKED. Granular ticket receipt details remain evidence-bound and must not be invented.
 
 ## PAGE FUNCTION
 
@@ -291,6 +291,39 @@ Current O/U math:
 Byars four-piece current leg math: HMB +10.5 WIN, Slob -2.5 WIN, Mud -5.5 LOSS, DK +19.5 WIN — 3/4 legs. Settlement remains Pitts-ledger dependent and provider-DECIDED pending.
 
 ---
+
+## OFFICIAL WEEK 4 SETTLEMENT — LOCKED 2026-10-06
+
+Commissioner-supplied official Week 4 Pitty's Book results:
+
+- Kaloper: **+$16.00**
+- Byars: **-$14.00**
+- Babb: **-$100.00**
+- **PITTSY'S BOOK WEEK 4: +$98.00**
+
+Overall standings through Week 4:
+1. Byars **+$125.60**
+2. Zeek **+$72.54**
+3. Pryor **+$22.25**
+4. Kaloper **+$8.77**
+5. Babb **-$18.33**
+6. QWhips **-$20.00**
+7. Wilson **-$20.00**
+8. Zwilson **-$61.12**
+
+Book ledger:
+- Week 1 **+$63.00**
+- Week 2 **-$132.66**
+- Week 3 **-$138.05**
+- Week 4 **+$98.00**
+- **BOOK OVERALL: -$109.71**
+
+Scout arithmetic verification: **PASS**.
+
+Required closing consequence:
+**THE ADJUSTMENTS WORKED.** No moneylines, tougher spreads, parlay tax — Pittsy's Book finally punched back.
+
+This official summary supersedes prior `WAITING_ON_PITTS_SETTLEMENT_FIELDS` language for bettor Week 4 P/L totals, season standings, Week 4 Book P/L and cumulative Book P/L. Granular ticket/stake/gross-return rows remain evidence-bound if not supplied.
 
 ## PENDING PITTS SETTLEMENT FIELDS
 
