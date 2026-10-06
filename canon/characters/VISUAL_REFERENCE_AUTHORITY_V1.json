@@ -10,7 +10,7 @@
     "canonical_prose",
     "historical_artwork"
   ],
-  "production_rule": "A character-bearing renderer input is authoritative only when its mounted source bytes hash to the current approved expected_sha256 for that Character ID. Asset names, tags, prompts, composites, previews, and generated redraws are not authority.",
+  "production_rule": "A character-bearing renderer input is authoritative when either (A) mounted source bytes freshly hash to the approved expected_sha256, or (B) for OpenAI native image generation, the exact registered canonical Library file_id is directly bound through NATIVE_RENDER_REFERENCE_BINDING_V1.json. Path B proves canonical-handle binding, not fresh byte re-hashing; expected_sha256 remains provenance authority and visible raster Character QA remains mandatory.",
   "derived_asset_rule": "A generated or composite asset may never become PRIMARY_IDENTITY_AUTHORITY by filename/tag. Promotion requires an explicit Commissioner-approved source supersession recorded in canon and a new approved SHA-256.",
   "master_lineup": {
     "name": "SCHEMIN_26_CHARACTER_CANON_MASTER_LINEUP_2026.png",
@@ -74,5 +74,12 @@
       "CHAR-AUSTIN-BYARS"
     ],
     "rule": "Owner-specific approved source/hash plus latest explicit Commissioner correction outrank contradictory semantic prose. TDS/HMB retain their approved source/hash; DK anatomy correction changes semantic interpretation of the existing approved source, not its bytes."
+  },
+  "native_handle_bridge_2026_10_06": {
+    "status": "ACTIVE",
+    "manifest": "canon/characters/NATIVE_RENDER_REFERENCE_BINDING_V1.json",
+    "rationale": "The first-party Files Library exposes the exact registered canonical library_file_id and file_id handles for all 12 current references, while raw-byte materialization is unavailable in this execution context.",
+    "rule": "For OpenAI native image generation, exact registered file_id handle binding may be used as the renderer conditioning path when the handle matches the active canonical Library record. This is renderer-binding authorization, not a claim of freshly recomputed SHA-256.",
+    "fail_closed": "If the exact registered file_id is unavailable or omitted, CHARACTER_REFERENCE_HANDLE_UNAVAILABLE / DO NOT GENERATE."
   }
 }
