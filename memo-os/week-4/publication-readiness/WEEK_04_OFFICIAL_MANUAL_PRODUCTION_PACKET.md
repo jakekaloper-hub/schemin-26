@@ -1,6 +1,6 @@
 # SCHEMIN '26 — WEEK 4 OFFICIAL MANUAL PRODUCTION PACKET
 
-**Status:** PRODUCTION HOLD / RENDER-FACING HARDENING IN PROGRESS / STORY LOCKED
+**Status:** ACTIVE CONTROLLED MANUAL PRODUCTION / STORY LOCKED / WRITTEN MANUSCRIPT LOCKED
 **Repository:** jakekaloper-hub/schemin-26
 **Authority:** Commissioner + Bullpen Mission Review
 **Production mode:** Manual page-by-page
@@ -59,7 +59,7 @@ The active ChatGPT image renderer surfaces generated candidates to the conversat
 
 # EXECUTION CONTRACT
 
-This file remains the story/page authority for the Week 4 Memo, but manual rendering is blocked until the 2026-10-06 production-integrity recovery gate passes.
+This file is the story/page authority for the Week 4 Memo. Manual rendering is authorized through the active Page Generation Gate; reader-facing prose is controlled by the locked Final Written Manuscript.
 
 Jake should be able to instruct:
 

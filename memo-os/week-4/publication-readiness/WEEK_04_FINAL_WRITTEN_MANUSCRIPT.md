@@ -1,6 +1,6 @@
 # SCHEMIN '26 — WEEK 4 FINAL WRITTEN MANUSCRIPT
 
-**Status:** EDITORIAL LOCK CANDIDATE  
+**Status:** WRITTEN MANUSCRIPT — PASS / LOCKED  
 **Scope:** reader-facing written material only  
 **Authority:** Beat Writer + Author Council + Librarian + Scout + Publication Design  
 **Rule:** the production packet explains the page; this manuscript contains the words the reader actually sees.

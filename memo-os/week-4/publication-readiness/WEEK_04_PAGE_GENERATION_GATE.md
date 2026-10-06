@@ -1,26 +1,32 @@
 # WEEK 4 PAGE GENERATION GATE — QA BEFORE DELIVERY
 
-**Status:** PRODUCTION HOLD / RECOVERY CONTROLS REQUIRED
+**Status:** ACTIVE / CONTROLLED MANUAL PRODUCTION
 **Issue:** Schemin '26 Week 4 Memo
 **Page count:** 27
-**Commissioner workflow after recovery:** "generate page N" → deterministic preflight → reference-bound art path → deterministic composition → acceptance evidence → approved PNG only
-**Release blockers:** production-integrity recovery + exact publishable identity enforcement + deterministic composition + renderer reference-binding proof; Flaim finality remains a separate data gate
+**Commissioner workflow:** "generate page N" → deterministic preflight → exact canonical reference binding → illustration candidate → deterministic composition → acceptance evidence → approved PNG only
+**Current state:** production-integrity recovery PASSED; publishable identity enforcement ACTIVE; deterministic composition ACTIVE; native canonical reference binding ACTIVE; written manuscript LOCKED. ESPN/Flaim official finality remains a page-specific data revalidation gate, not a global art hold.
 
 
-## PRODUCTION HOLD — 2026-10-06
+## PRODUCTION RECOVERY CLEARED — 2026-10-06
 
-Live Pages 1–4 exposed release-blocking failures. This gate is CLOSED until `WEEK_04_PRODUCTION_INTEGRITY_RECOVERY_2026-10-06.md` is cleared.
+The Pages 1–4 production incident has been resolved through three merged control changes:
 
-Hard additions:
+- production-integrity recovery: publishable names/divisions, deterministic text, Page 2/Page 3/GOTW hardening;
+- native character-reference binding: exact registered Library `file_id` handles for all 12 canonical characters;
+- written-narrative recovery: one locked reader-facing manuscript for all 27 pages.
+
+These controls remain mandatory:
 - retrieve `WEEK_04_PUBLISHABLE_IDENTITY_REGISTRY.json` before every page;
+- retrieve `canon/characters/NATIVE_RENDER_REFERENCE_BINDING_V1.json` for every character-bearing page;
+- pass every required exact registered `file_id` as a renderer reference;
 - internal labels such as DK/OBI/TDS/HMB/7DC are never publishable team-name copy;
-- exact team names/divisions/GOTW labels/dates/scores/records/rankings/odds are deterministic composition only;
+- exact names/divisions/GOTW labels/dates/scores/records/rankings/odds are deterministic composition only;
+- reader-facing prose comes only from `WEEK_04_FINAL_WRITTEN_MANUSCRIPT.md`;
 - Page 3 prohibits character icons entirely;
-- Pages 4–7 must carry the Week 3-established GAME OF THE WEEK treatment for **D0nkey K0ng vs ObiWan Jacoby**;
-- character-bearing generation is blocked unless the current approved visual reference can actually be supplied to the renderer;
-- a semantic prompt description is not a reference-mount receipt;
-- a visually plausible candidate is not QA evidence;
-- Commissioner review is not the first defect-detection layer.
+- Pages 4–7 carry the Week 3-established GAME OF THE WEEK treatment for **D0nkey K0ng vs ObiWan Jacoby**;
+- visible candidate does not equal approved page; raster QA remains required.
+
+**Manual production is reopened.**
 
 ## Commissioner operating rule
 
