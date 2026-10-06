@@ -147,6 +147,74 @@ Do not ask the image model to regenerate those 12 faces.
 
 This preserves exact issue-level character continuity.
 
+
+## Pages 23–24 derivative visual doctrine
+
+Pages 23 and 24 are issue-level synthesis pages and must not become new character-generation surfaces.
+
+### W4-P23 — STATE OF THE REALM
+
+If P23 uses character imagery:
+- source characters from accepted matchup-wave artwork;
+- prefer accepted payoff/result pages because they represent the final Week 4 visual state;
+- crop/reuse existing accepted raster material where practical;
+- do not regenerate a character merely to populate a divisional summary.
+
+If P23 uses Atlas/location imagery:
+- source the visual geography from the accepted matchup waves themselves;
+- Burgers should reuse/derive from the accepted highlands + wetlands chapter environments;
+- Wings should reuse/derive from the accepted coastal-resort + man-cave chapter environments;
+- Pizza should reuse/derive from the accepted Pittsy/financial + El Niño/Whipple chapter environments;
+- do not invent a new generic fantasy map that visually contradicts the matchup pages.
+
+Preferred form:
+**three divisional environment panels / windows + deterministic written analysis.**
+
+P23 is therefore a **derivative synthesis page**, not a fresh ensemble illustration.
+
+### W4-P24 — POWER RANKINGS
+
+P24 remains data-first.
+
+Preferred form:
+**clean 1–12 deterministic ranking ladder with minimal visual support.**
+
+If character portraits are used:
+- source them from the same accepted payoff/result-page crops used for the rebuilt scoreboard;
+- or reuse the rebuilt scoreboard portrait assets;
+- never generate twelve new portraits for the rankings page.
+
+If Atlas/world imagery is used:
+- source it from accepted matchup-wave environments;
+- keep it secondary to the ranking data;
+- do not create a new all-league world panorama that introduces new geography or character states.
+
+### Production-order consequence
+
+P23 and P24 may be produced only after W4-P22 is accepted, because all six matchup waves must exist first.
+
+This preserves:
+**MATCHUP WAVE → ACCEPTED CHARACTER/LOCATION STATE → ISSUE-LEVEL SYNTHESIS**
+
+not:
+**ISSUE-LEVEL PAGE → independent regeneration → continuity drift**.
+
+### Week 5 institutional lesson
+
+Issue-level summary pages should be assembled from the accepted matchup visual corpus whenever they depict:
+- characters;
+- costumes/states;
+- recurring objects;
+- Atlas locations;
+- matchup-specific environments.
+
+This applies to:
+- scoreboard;
+- State of the Realm;
+- Power Rankings;
+- other league-wide synthesis pages.
+
+
 ## Week 5 production lesson
 
 For future memos:
