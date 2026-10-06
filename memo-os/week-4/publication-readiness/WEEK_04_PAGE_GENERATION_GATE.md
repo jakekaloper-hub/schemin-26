@@ -1,10 +1,26 @@
 # WEEK 4 PAGE GENERATION GATE — QA BEFORE DELIVERY
 
-**Status:** ACTIVE / CONTROLLING FOR WEEK 4 MANUAL PRODUCTION
+**Status:** PRODUCTION HOLD / RECOVERY CONTROLS REQUIRED
 **Issue:** Schemin '26 Week 4 Memo
 **Page count:** 27
-**Commissioner workflow:** "generate page N" → gated production transaction → approved PNG only
-**Only unresolved preproduction input:** Flaim/ESPN official decided-result refresh and fields derived from it
+**Commissioner workflow after recovery:** "generate page N" → deterministic preflight → reference-bound art path → deterministic composition → acceptance evidence → approved PNG only
+**Release blockers:** production-integrity recovery + exact publishable identity enforcement + deterministic composition + renderer reference-binding proof; Flaim finality remains a separate data gate
+
+
+## PRODUCTION HOLD — 2026-10-06
+
+Live Pages 1–4 exposed release-blocking failures. This gate is CLOSED until `WEEK_04_PRODUCTION_INTEGRITY_RECOVERY_2026-10-06.md` is cleared.
+
+Hard additions:
+- retrieve `WEEK_04_PUBLISHABLE_IDENTITY_REGISTRY.json` before every page;
+- internal labels such as DK/OBI/TDS/HMB/7DC are never publishable team-name copy;
+- exact team names/divisions/GOTW labels/dates/scores/records/rankings/odds are deterministic composition only;
+- Page 3 prohibits character icons entirely;
+- Pages 4–7 must carry the Week 3-established GAME OF THE WEEK treatment for **D0nkey K0ng vs ObiWan Jacoby**;
+- character-bearing generation is blocked unless the current approved visual reference can actually be supplied to the renderer;
+- a semantic prompt description is not a reference-mount receipt;
+- a visually plausible candidate is not QA evidence;
+- Commissioner review is not the first defect-detection layer.
 
 ## Commissioner operating rule
 
