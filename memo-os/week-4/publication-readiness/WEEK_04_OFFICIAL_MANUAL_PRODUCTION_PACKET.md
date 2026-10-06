@@ -1,6 +1,6 @@
 # SCHEMIN '26 — WEEK 4 OFFICIAL MANUAL PRODUCTION PACKET
 
-**Status:** OFFICIAL MANUAL-PRODUCTION PACKET / STORY LOCKED / RESULT FIELDS OPEN
+**Status:** PRODUCTION HOLD / RENDER-FACING HARDENING IN PROGRESS / STORY LOCKED
 **Repository:** jakekaloper-hub/schemin-26
 **Authority:** Commissioner + Bullpen Mission Review
 **Production mode:** Manual page-by-page
@@ -10,9 +10,44 @@
 
 ---
 
+# RENDER-FACING PUBLICATION CONTRACT — 2026-10-06 RECOVERY
+
+This packet has two namespaces:
+
+- **internal production identifiers**: page IDs, Character IDs, abbreviations and shorthand used only for routing;
+- **publishable copy**: exact league/team/division/issue text that may appear in the Memo.
+
+These namespaces may never be confused.
+
+Before any page render/composition, retrieve `WEEK_04_PUBLISHABLE_IDENTITY_REGISTRY.json`.
+
+### Deterministic text rule
+The following are NEVER delegated to image generation:
+- SCHEMIN '26 masthead;
+- WEEK 4 / issue/date labels;
+- page title/headline when exact wording matters;
+- team names;
+- division names;
+- GAME OF THE WEEK labels;
+- scores, records, standings, rankings;
+- odds, totals, betting ledgers;
+- quotes intended as exact copy;
+- body copy longer than decorative environmental lettering.
+
+Those fields are composited deterministically after the illustration layer is accepted.
+
+### Character-reference rule
+A prose description is not a visual-reference attachment.
+A historical page is not current identity authority.
+A master lineup is not authority for DK, TDS or HMB.
+If the active renderer cannot actually receive the current approved reference for every depicted character, the character-bearing page is BLOCKED.
+
+### Candidate visibility limitation
+The active ChatGPT image renderer surfaces generated candidates to the conversation when invoked. Therefore Bullpen must not claim that a candidate was invisibly raster-QA'd before the Commissioner could see it. Production may resume only with the strongest pre-render controls available, and the Commissioner-visible candidate is not an approved page until acceptance evidence exists. Any earlier claim that a surfaced image had already passed hidden raster QA is revoked.
+
 # EXECUTION CONTRACT
 
-This file is the production source for the Week 4 Memo.
+This file remains the story/page authority for the Week 4 Memo, but manual rendering is blocked until the 2026-10-06 production-integrity recovery gate passes.
 
 Jake should be able to instruct:
 
@@ -128,29 +163,44 @@ Morning command: `/bullpen resume Week 4 from official ESPN/Flaim DECIDED flip`.
 
 ---
 
-# PAGE 2 — OPENING DRIVE — DIVISIONAL WEEK BROUGHT CONSEQUENCES HOME
+# PAGE 2 — THE WORLD REMEMBERS
 
-**Function:** Whole-world editorial orientation.
+**Function:** issue overture / narrative hook.
 **Story state:** LOCKED.
-**Data state:** 3–4 final facts may populate after finality.
+**Publishable headline:** **THE WORLD REMEMBERS**.
+**Publishable deck:** **Last week the league learned the map. This week, everybody had to defend where they lived.**
 
-**Purpose:** Explain why divisional week felt local and consequential inside one persistent Schemin universe.
+**Purpose:** Open the actual Week 4 stories immediately. This page is not a generic division explainer and not an Atlas lecture.
 
-**World logic:**
-- use connected divisional geography;
-- familiar roads, territories, institutions and reputations;
-- inherit Week 3 world state;
-- no new permanent geography;
-- no silent repair/reset of prior world consequences.
+**Locked body copy:**
 
-**Visual grammar:**
-- connected environmental panorama;
-- no principal character dominates;
-- no six-character poster.
+D0nkey K0ng entered Week 4 as the last unbeaten team in the league. ObiWan Jacoby walked straight into his highlands.
 
-**Prose grammar:** divisional familiarity, local consequence, recurring geography, persistent reputation.
+Three Dreaded Snake went hunting in the Burgers wetlands. Dr. Duckhook tried to escape the chili dog and found Red Leopards waiting on the coast. The Chili Cheesers rode into Slob on my Dobb's cave. His Majesty's Blood walked into a house that had priced its own victory. And somewhere across Pizza territory, pressure at El Niño's home started changing the weather.
 
-**Reject if:** Atlas lecture; food-nation literalism; scoreboard dump; new invented landmarks.
+That is what divisional week means in Schemin'.
+
+These were not six isolated scoreboards. They happened on roads we already know, inside institutions that remember, between rivals who do not reset when Monday night ends.
+
+Week 4 did not introduce the world.
+
+It made the world answer for what had already happened in it.
+
+**Locked visual direction:** one panoramic issue-overture environment with six story-specific signals:
+- DK highland ridge / approaching Jedi route;
+- pre-dawn marsh blind and decoys;
+- coastal golf flag / scorecard motif;
+- neon man-cave glow;
+- corporate gaming-exchange light spilling from an institutional facade;
+- storm wall building above Whipple's trailer-park horizon.
+
+**World rule:** divisions remain cultural networks, not literal food nations. Wings = chicken wings only where heraldry appears; never angel/bird/dragon wings.
+
+**Character rule:** avoid principal character faces on this page unless exact current reference binding is proven. Story objects/environments carry the overture.
+
+**Text rule:** headline, deck and body are deterministic composition. No image-generated body copy.
+
+**Reject if:** generic three-castle division poster; generic fantasy map; food-shaped terrain; six-character collage; generic “Week 4 mattered” prose; invented permanent landmarks; any division membership error; any publishable team-name shorthand.
 
 ---
 
@@ -158,33 +208,45 @@ Morning command: `/bullpen resume Week 4 from official ESPN/Flaim DECIDED flip`.
 
 **Function:** deterministic Week 4 factual anchor.
 **Story state:** LOCKED.
-**Data state:** WAITING ON FLAIM FINALITY.
+**Data state:** RESULT FIELDS FOLLOW CURRENT FACT-LOCK STATUS.
 
-**Must contain all six final matchups:**
-- DK vs ObiWan
-- Mud Dogs vs TDS
-- Red Leopards vs Dr. Duckhook
-- Slob vs Chili
-- LLC vs HMB
-- El Niño vs Seven Deadly Chins
+**This is an information-design page, not character art.**
 
-**Required fields:**
-- final score;
-- winner;
-- margin;
-- updated record;
+**Character icons:** **FORBIDDEN.**
+Do not generate mascots, owner portraits, archetype icons or substitute characters.
+
+**Exact publishable team-name pairs:**
+- D0nkey K0ng vs ObiWan Jacoby — Burgers;
+- Mud Dogs vs Three Dreaded Snake — Burgers;
+- Red Leopards vs Dr. Duckhook — Wings;
+- Slob on my Dobb vs The Chili Cheesers — Wings;
+- The LLC vs His Majesty's Blood — Pizza;
+- El Niño vs Seven Deadly Chins — Pizza.
+
+**Required deterministic fields:**
+- exact team name;
+- final/provisional-final score according to current Fact Lock state;
+- winner state;
+- margin when authorized;
+- updated record when authorized;
 - division.
 
-**Design:** clean deterministic grid/cards.
-**No generative numerals.**
-**No projections presented as results.**
+**Design:** six clean matchup cards or rows integrated into Schemin materials—engraved board, paper ledger, brass/stone/wood framing, restrained division heraldry. Worldbuilding may decorate the information architecture but may not replace it.
+
+**Typography rule:** all names, divisions, scores, records, labels and date/issue metadata are deterministic composition only.
+
+**Reject if:** any character icon appears; any internal alias appears as a team name; any team is assigned to wrong division; Wings uses bird/angel/dragon symbolism; any numeral is image-generated; projection is presented as result; decorative worldbuilding reduces phone readability.
 
 ---
 
-# PAGE 4 — DK × OBI I — THE RETURN
+# PAGE 4 — GAME OF THE WEEK — D0nkey K0ng vs ObiWan Jacoby I — THE RETURN
 
 **Function:** arrival / territorial confrontation.
 **Story state:** LOCKED.
+
+**Publishable matchup label:** **GAME OF THE WEEK — D0nkey K0ng vs ObiWan Jacoby**.
+**Week 3 precedent:** this matchup was explicitly designated the Week 4 GAME OF THE WEEK on Week 3's forward teaser. That status is mandatory across Pages 4–7.
+**Recurring chapter treatment:** restrained GAME OF THE WEEK wordmark / issue chrome on all four pages; exact team names deterministic; never render `DK × OBI` as public copy.
 
 **ObiWan:**
 - Trade Jedi;
@@ -216,7 +278,7 @@ Morning command: `/bullpen resume Week 4 from official ESPN/Flaim DECIDED flip`.
 
 ---
 
-# PAGE 5 — DK × OBI II — THE DUEL
+# PAGE 5 — GAME OF THE WEEK — D0nkey K0ng vs ObiWan Jacoby II — THE DUEL
 
 **Function:** active matchup collision.
 **Story state:** LOCKED.
@@ -239,7 +301,7 @@ Morning command: `/bullpen resume Week 4 from official ESPN/Flaim DECIDED flip`.
 
 ---
 
-# PAGE 6 — DK × OBI III — THE HIGH GROUND
+# PAGE 6 — GAME OF THE WEEK — D0nkey K0ng vs ObiWan Jacoby III — THE HIGH GROUND
 
 **Function:** visual hinge.
 **Story state:** LOCKED.
@@ -261,7 +323,7 @@ Morning command: `/bullpen resume Week 4 from official ESPN/Flaim DECIDED flip`.
 
 ---
 
-# PAGE 7 — DK × OBI IV — UNDEFEATED NO MORE
+# PAGE 7 — GAME OF THE WEEK — D0nkey K0ng vs ObiWan Jacoby IV — UNDEFEATED NO MORE
 
 **Function:** aftermath / structural consequence.
 **Story state:** LOCKED.
@@ -287,7 +349,7 @@ Morning command: `/bullpen resume Week 4 from official ESPN/Flaim DECIDED flip`.
 
 ---
 
-# PAGE 8 — MUD DOGS × TDS I — OPENING MORNING
+# PAGE 8 — Mud Dogs vs Three Dreaded Snake I — OPENING MORNING
 
 **Function:** establish hunting comedy.
 **Story state:** LOCKED.
@@ -329,7 +391,7 @@ Morning command: `/bullpen resume Week 4 from official ESPN/Flaim DECIDED flip`.
 
 ---
 
-# PAGE 9 — MUD DOGS × TDS II — THE HUNT
+# PAGE 9 — Mud Dogs vs Three Dreaded Snake II — THE HUNT
 
 **Function:** comic escalation.
 **Story state:** LOCKED.
@@ -354,7 +416,7 @@ Use only enough beats to communicate the mechanism.
 
 ---
 
-# PAGE 10 — MUD DOGS × TDS III — THE BETTER HUNTER
+# PAGE 10 — Mud Dogs vs Three Dreaded Snake III — THE BETTER HUNTER
 
 **Function:** punchline / result consequence.
 **Story state:** LOCKED.
@@ -380,7 +442,7 @@ Use only enough beats to communicate the mechanism.
 
 ---
 
-# PAGE 11 — RED LEOPARDS × DR. DUCKHOOK I — RECOVERY TRIP
+# PAGE 11 — Red Leopards vs Dr. Duckhook I — RECOVERY TRIP
 
 **Function:** establish coastal golf humiliation.
 **Story state:** LOCKED.
@@ -406,7 +468,7 @@ Use only enough beats to communicate the mechanism.
 
 ---
 
-# PAGE 12 — RED LEOPARDS × DR. DUCKHOOK II — THE LESSON
+# PAGE 12 — Red Leopards vs Dr. Duckhook II — THE LESSON
 
 **Function:** competence-driven humiliation.
 **Story state:** LOCKED.
@@ -432,7 +494,7 @@ Use only enough beats to communicate the mechanism.
 
 ---
 
-# PAGE 13 — RED LEOPARDS × DR. DUCKHOOK III — SCORECARD PAYOFF
+# PAGE 13 — Red Leopards vs Dr. Duckhook III — SCORECARD PAYOFF
 
 **Function:** enduring institutional embarrassment.
 **Story state:** LOCKED.
@@ -455,7 +517,7 @@ Use only enough beats to communicate the mechanism.
 
 ---
 
-# PAGE 14 — SLOB × CHILI I — WELCOME TO THE CAVE
+# PAGE 14 — Slob on my Dobb vs The Chili Cheesers I — WELCOME TO THE CAVE
 
 **Function:** establish man-cave social farce.
 **Story state:** LOCKED.
@@ -486,7 +548,7 @@ Use only enough beats to communicate the mechanism.
 
 ---
 
-# PAGE 15 — SLOB × CHILI II — ONE MORE ROUND
+# PAGE 15 — Slob on my Dobb vs The Chili Cheesers II — ONE MORE ROUND
 
 **Function:** escalating social comedy.
 **Story state:** LOCKED.
@@ -512,7 +574,7 @@ Fantasy-score updates may appear on a TV after finality to reinforce that the ma
 
 ---
 
-# PAGE 16 — SLOB × CHILI III — THE BEER CHAMPION
+# PAGE 16 — Slob on my Dobb vs The Chili Cheesers III — THE BEER CHAMPION
 
 **Function:** social payoff.
 **Story state:** LOCKED.
@@ -537,7 +599,7 @@ Fantasy-score updates may appear on a TV after finality to reinforce that the ma
 
 ---
 
-# PAGE 17 — LLC × HMB I — THE HOUSE SETS THE LINE
+# PAGE 17 — The LLC vs His Majesty's Blood I — THE HOUSE SETS THE LINE
 
 **Function:** establish financial institutional confidence.
 **Story state:** LOCKED.
@@ -564,7 +626,7 @@ Part casino / part trading floor / part actuarial command center.
 
 ---
 
-# PAGE 18 — LLC × HMB II — EXPOSURE
+# PAGE 18 — The LLC vs His Majesty's Blood II — EXPOSURE
 
 **Function:** numbers turn against the model.
 **Story state:** LOCKED.
@@ -590,7 +652,7 @@ Part casino / part trading floor / part actuarial command center.
 
 ---
 
-# PAGE 19 — LLC × HMB III — THE HOUSE GETS BEAT
+# PAGE 19 — The LLC vs His Majesty's Blood III — THE HOUSE GETS BEAT
 
 **Function:** settlement / quiet reversal.
 **Story state:** LOCKED.
@@ -615,7 +677,7 @@ Part casino / part trading floor / part actuarial command center.
 
 ---
 
-# PAGE 20 — EL NIÑO × SEVEN DEADLY CHINS I — PRESSURE AT HOME
+# PAGE 20 — El Niño vs Seven Deadly Chins I — PRESSURE AT HOME
 
 **Function:** domestic origin of disaster comedy.
 **Story state:** LOCKED.
@@ -647,7 +709,7 @@ Part casino / part trading floor / part actuarial command center.
 
 ---
 
-# PAGE 21 — EL NIÑO × SEVEN DEADLY CHINS II — THAT'S PROBABLY NOT GOOD
+# PAGE 21 — El Niño vs Seven Deadly Chins II — THAT'S PROBABLY NOT GOOD
 
 **Function:** storm escalation.
 **Story state:** LOCKED.
@@ -668,7 +730,7 @@ Part casino / part trading floor / part actuarial command center.
 
 ---
 
-# PAGE 22 — EL NIÑO × SEVEN DEADLY CHINS III — THE STORM FINALLY CAME
+# PAGE 22 — El Niño vs Seven Deadly Chins III — THE STORM FINALLY CAME
 
 **Function:** maximal environmental payoff.
 **Story state:** LOCKED.
@@ -909,7 +971,7 @@ All critical betting data must be typeset/composited deterministically. Image-ge
 
 ---
 
-# PAGE 26 — WEEK 5 PREVIEW / GOTW — HMB × TDS
+# PAGE 26 — WEEK 5 PREVIEW / GAME OF THE WEEK — Three Dreaded Snake vs His Majesty's Blood
 
 **Function:** forward-looking trailer.
 **Story state:** LOCKED.
