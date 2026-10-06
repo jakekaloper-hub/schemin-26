@@ -93,8 +93,11 @@ Each overture receives its own Beat Writer manuscript, Atlas lock, visual family
 
 ### Phase C — targeted repair / remaster
 Mandatory:
+- W4-P01 — cover remaster from the accepted Week 4 cover raster. Preserve the existing cover composition, typography, Obi character pose/costume/hood, title, issue chrome, lighting hierarchy and all other accepted elements. Change only the mountain/highland background so it visually matches the Commissioner-supplied DK highland reference: monumental carved-gorilla mountain identity integrated into the same Burgers highland world, without adding DK as a foreground character or changing Obi's cover role.
 - W4-P02 — rewrite/remaster after overtures exist so it remains a global opening and does not redundantly summarize all six chapters.
 - W4-P03 — rebuild after all matchup result pages are final, using final-page character faces as source material rather than independently generating faces.
+
+P01 and P03 should be handled in the same final front-of-book repair sweep after all six matchup waves are locked, so both the cover geography and scoreboard character states are derived from the final accepted Week 4 visual corpus.
 
 Conditional after final issue review:
 - exact team-name/GOTW chrome cleanup on P04–P07 if any visible drift remains;
@@ -108,6 +111,48 @@ Do not change existing source filenames merely because final page numbers change
 
 Generate a final 33-page assembly manifest mapping:
 source ID → final page number → accepted raster → hash receipt.
+
+## Page 1 cover remaster doctrine
+
+The Commissioner has supplied the accepted current Week 4 cover raster and a separate DK-highland mountain reference.
+
+The cover should be treated as an **edit**, not a redesign.
+
+### Preserve exactly
+- SCHEMIN '26 masthead;
+- WEEK 4 / OCTOBER 2026 issue line;
+- RETURN OF THE JEDI title;
+- existing ObiWan Jacoby pose, hood-up silhouette, costume, proportions and placement;
+- no championship belt;
+- no dog;
+- no lit saber;
+- existing overall page composition and hierarchy;
+- existing dark/cinematic atmosphere and front-facing walk.
+
+### Change only the environment
+Replace/remaster the current generic mountain range so the background reads as the established DK/Burgers highland identity from the Commissioner reference:
+- monumental mountain architecture;
+- giant gorilla/Arsenal-warrior mountain visage or carved highland identity embedded into the terrain;
+- cliffs, bridges, waterfalls and fortress terraces consistent with the matchup wave;
+- sunset/highland scale and depth consistent with accepted Pages 4–7;
+- Obi remains the sole foreground principal.
+
+### Continuity rule
+Use accepted Pages 4–7 and the Commissioner-supplied mountain reference as the visual authority for the cover geography.
+
+Do not:
+- add a second foreground DK character;
+- add crown/belt/coronation implications to Obi;
+- change the headline or cover thesis;
+- change Obi's face/costume/pose;
+- turn the cover into a battle scene;
+- alter the accepted typography except for technical cleanup.
+
+### Production timing
+Do this remaster during the same final front-of-book repair sweep as W4-P03.
+
+Reason:
+both pages benefit from the complete accepted matchup corpus and should not be rebuilt early.
 
 ## Page 2 rewrite doctrine
 
