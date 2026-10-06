@@ -814,7 +814,7 @@ Part casino / part trading floor / part actuarial command center.
 **Function:** official Week 4 bookmaker settlement / institutional consequence page.
 **Story state:** LOCKED.
 **Pre-art state:** LOCKED.
-**Data state:** WAITING ON FLAIM FINALITY + PITTS AUTHORITATIVE SETTLEMENT LEDGER.
+**Data state:** OFFICIAL PITTS WEEK 4 SETTLEMENT SUMMARY LOCKED; FLAIM/ESPN FINALITY CONTROL REMAINS FOR LEAGUE RESULT AUTHORITY.
 **Page-specific packet:** `memo-os/week-4/publication-readiness/WEEK_04_P25_PITTYS_BOOK_FINAL_PRODUCTION_PACKET.md`
 **Approved visual-reference receipt:** `memo-os/week-4/publication-readiness/WEEK_04_P25_PITTYS_BOOK_VISUAL_REFERENCE_RECEIPT.md`
 **Approved source-image SHA-256:** `273932d9b9e3c0eab56e517f663cffce443155cd5eee9c75c2b707bdac0be82b`
@@ -918,6 +918,17 @@ The featured ticket is a booked/exposure artifact, but its final win/loss settle
 - Book P/L.
 
 All critical betting data must be typeset/composited deterministically. Image-generated numerals are not authoritative.
+
+**Official Week 4 settlement summary — LOCKED 2026-10-06:**
+- Kaloper **+$16.00**;
+- Byars **-$14.00**;
+- Babb **-$100.00**;
+- Pittsy's Book Week 4 **+$98.00**;
+- overall: Byars **+$125.60**, Zeek **+$72.54**, Pryor **+$22.25**, Kaloper **+$8.77**, Babb **-$18.33**, QWhips **-$20.00**, Wilson **-$20.00**, Zwilson **-$61.12**;
+- Book ledger: W1 **+$63.00**, W2 **-$132.66**, W3 **-$138.05**, W4 **+$98.00**;
+- **BOOK OVERALL: -$109.71**;
+- arithmetic verification: **PASS**;
+- closing consequence: **THE ADJUSTMENTS WORKED. No moneylines, tougher spreads, parlay tax — Pittsy's Book finally punched back.**
 
 **Pending Pitts settlement fields:**
 - actual bettor list;
@@ -1548,7 +1559,15 @@ D0nkey K0ng +19.5 — COVER
 
 **Ticket line:** Three legs got there. Mud Dogs killed the receipt.
 
-**Settlement footer:** Actual bettor stakes, payouts, Week 4 P/L and season Book P/L remain locked to Pitts's authoritative ledger. Do not print estimates.
+**Settlement results:** Kaloper +$16.00 | Byars -$14.00 | Babb -$100.00 | **PITTSY'S BOOK WEEK 4: +$98.00**
+
+**Overall standings through Week 4:** Byars +$125.60 | Zeek +$72.54 | Pryor +$22.25 | Kaloper +$8.77 | Babb -$18.33 | QWhips -$20.00 | Wilson -$20.00 | Zwilson -$61.12
+
+**Book ledger:** W1 +$63.00 | W2 -$132.66 | W3 -$138.05 | W4 +$98.00 | **BOOK OVERALL: -$109.71**
+
+**Closing line:** THE ADJUSTMENTS WORKED. No moneylines, tougher spreads, parlay tax — Pittsy's Book finally punched back.
+
+Granular ticket stakes/gross-return details remain evidence-bound; do not print estimates.
 
 ---
 
@@ -1581,7 +1600,7 @@ A homemade beer belt hangs somewhere it did not belong on Friday.
 
 The LLC has a losing ticket with its own name on it.
 
-Pittsy's ledger still needs settling.
+Pittsy's Book finally punched back: +$98.00 for Week 4.
 
 In the Burgers highlands, the last unbeaten record is already gone.
 
