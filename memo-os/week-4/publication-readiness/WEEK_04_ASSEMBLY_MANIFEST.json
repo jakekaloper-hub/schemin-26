@@ -1,167 +1,294 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "publication_id": "memo.2026.week-04",
-  "state": "WAITING_ON_STORY_LOCK",
-  "pages": [],
+  "state": "PRE_ART_27_PAGE_ASSEMBLY_TEMPLATE_LOCKED",
+  "issue_length": 27,
+  "page_plan_state": "LOCKED",
+  "pages": [
+    {
+      "page_id": "W4-P01",
+      "page_number": 1,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    },
+    {
+      "page_id": "W4-P02",
+      "page_number": 2,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    },
+    {
+      "page_id": "W4-P03",
+      "page_number": 3,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    },
+    {
+      "page_id": "W4-P04",
+      "page_number": 4,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    },
+    {
+      "page_id": "W4-P05",
+      "page_number": 5,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    },
+    {
+      "page_id": "W4-P06",
+      "page_number": 6,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    },
+    {
+      "page_id": "W4-P07",
+      "page_number": 7,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    },
+    {
+      "page_id": "W4-P08",
+      "page_number": 8,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    },
+    {
+      "page_id": "W4-P09",
+      "page_number": 9,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    },
+    {
+      "page_id": "W4-P10",
+      "page_number": 10,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    },
+    {
+      "page_id": "W4-P11",
+      "page_number": 11,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    },
+    {
+      "page_id": "W4-P12",
+      "page_number": 12,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    },
+    {
+      "page_id": "W4-P13",
+      "page_number": 13,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    },
+    {
+      "page_id": "W4-P14",
+      "page_number": 14,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    },
+    {
+      "page_id": "W4-P15",
+      "page_number": 15,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    },
+    {
+      "page_id": "W4-P16",
+      "page_number": 16,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    },
+    {
+      "page_id": "W4-P17",
+      "page_number": 17,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    },
+    {
+      "page_id": "W4-P18",
+      "page_number": 18,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    },
+    {
+      "page_id": "W4-P19",
+      "page_number": 19,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    },
+    {
+      "page_id": "W4-P20",
+      "page_number": 20,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    },
+    {
+      "page_id": "W4-P21",
+      "page_number": 21,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    },
+    {
+      "page_id": "W4-P22",
+      "page_number": 22,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    },
+    {
+      "page_id": "W4-P23",
+      "page_number": 23,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    },
+    {
+      "page_id": "W4-P24",
+      "page_number": 24,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    },
+    {
+      "page_id": "W4-P25",
+      "page_number": 25,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    },
+    {
+      "page_id": "W4-P26",
+      "page_number": 26,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    },
+    {
+      "page_id": "W4-P27",
+      "page_number": 27,
+      "artifact": null,
+      "sha256": null,
+      "page_lock": "WAITING_ON_APPROVED_PNG",
+      "qa_receipts": [
+        "WEEK_04_PAGE_GENERATION_GATE.md"
+      ]
+    }
+  ],
   "final_pdf": null,
   "final_pdf_sha256": null,
   "umpire_receipt": null,
-  "page_plan_state": "WAITING_ON_STORY_LOCK",
-  "legacy_pages": {
-    "state": "SUPERSEDED_NON_CONTROLLING",
-    "pages": [
-      {
-        "page_id": "W4-P01",
-        "page_number": 1,
-        "artifact": null,
-        "sha256": null,
-        "page_lock": "PENDING",
-        "qa_receipts": []
-      },
-      {
-        "page_id": "W4-P02",
-        "page_number": 2,
-        "artifact": null,
-        "sha256": null,
-        "page_lock": "PENDING",
-        "qa_receipts": []
-      },
-      {
-        "page_id": "W4-P03",
-        "page_number": 3,
-        "artifact": null,
-        "sha256": null,
-        "page_lock": "PENDING",
-        "qa_receipts": []
-      },
-      {
-        "page_id": "W4-P04",
-        "page_number": 4,
-        "artifact": null,
-        "sha256": null,
-        "page_lock": "PENDING",
-        "qa_receipts": []
-      },
-      {
-        "page_id": "W4-P05",
-        "page_number": 5,
-        "artifact": null,
-        "sha256": null,
-        "page_lock": "PENDING",
-        "qa_receipts": []
-      },
-      {
-        "page_id": "W4-P06",
-        "page_number": 6,
-        "artifact": null,
-        "sha256": null,
-        "page_lock": "PENDING",
-        "qa_receipts": []
-      },
-      {
-        "page_id": "W4-P07",
-        "page_number": 7,
-        "artifact": null,
-        "sha256": null,
-        "page_lock": "PENDING",
-        "qa_receipts": []
-      },
-      {
-        "page_id": "W4-P08",
-        "page_number": 8,
-        "artifact": null,
-        "sha256": null,
-        "page_lock": "PENDING",
-        "qa_receipts": []
-      },
-      {
-        "page_id": "W4-P09",
-        "page_number": 9,
-        "artifact": null,
-        "sha256": null,
-        "page_lock": "PENDING",
-        "qa_receipts": []
-      },
-      {
-        "page_id": "W4-P10",
-        "page_number": 10,
-        "artifact": null,
-        "sha256": null,
-        "page_lock": "PENDING",
-        "qa_receipts": []
-      },
-      {
-        "page_id": "W4-P11",
-        "page_number": 11,
-        "artifact": null,
-        "sha256": null,
-        "page_lock": "PENDING",
-        "qa_receipts": []
-      },
-      {
-        "page_id": "W4-P12",
-        "page_number": 12,
-        "artifact": null,
-        "sha256": null,
-        "page_lock": "PENDING",
-        "qa_receipts": []
-      },
-      {
-        "page_id": "W4-P13",
-        "page_number": 13,
-        "artifact": null,
-        "sha256": null,
-        "page_lock": "PENDING",
-        "qa_receipts": []
-      },
-      {
-        "page_id": "W4-P14",
-        "page_number": 14,
-        "artifact": null,
-        "sha256": null,
-        "page_lock": "PENDING",
-        "qa_receipts": []
-      },
-      {
-        "page_id": "W4-P15",
-        "page_number": 15,
-        "artifact": null,
-        "sha256": null,
-        "page_lock": "PENDING",
-        "qa_receipts": []
-      },
-      {
-        "page_id": "W4-P16",
-        "page_number": 16,
-        "artifact": null,
-        "sha256": null,
-        "page_lock": "PENDING",
-        "qa_receipts": []
-      },
-      {
-        "page_id": "W4-P17",
-        "page_number": 17,
-        "artifact": null,
-        "sha256": null,
-        "page_lock": "PENDING",
-        "qa_receipts": []
-      },
-      {
-        "page_id": "W4-P18",
-        "page_number": 18,
-        "artifact": null,
-        "sha256": null,
-        "page_lock": "PENDING",
-        "qa_receipts": []
-      },
-      {
-        "page_id": "W4-P19",
-        "page_number": 19,
-        "artifact": null,
-        "sha256": null,
-        "page_lock": "PENDING",
-        "qa_receipts": []
-      }
-    ]
+  "assembly_rules": {
+    "source_pages": "Only APPROVED_FOR_LOCAL_FOLDER Week 4 PNGs may be assembled.",
+    "exact_count": 27,
+    "order": "W4-P01 through W4-P27",
+    "duplicates_forbidden": true,
+    "omissions_forbidden": true,
+    "target": "portrait mobile/iPhone-friendly PDF",
+    "story_reopen_forbidden": true
+  },
+  "legacy_19_page_assembly": {
+    "state": "SUPERSEDED_NON_CONTROLLING"
   }
 }
