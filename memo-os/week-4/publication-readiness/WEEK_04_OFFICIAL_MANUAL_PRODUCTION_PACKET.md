@@ -882,7 +882,7 @@ Part casino / part trading floor / part actuarial command center.
 - **THE FUCK THE BOOK SPECIAL: +650**;
 - flavor line: **Four legs. One Byars. Zero respect for Pittsy's financial well-being.**
 
-The featured ticket is a booked/exposure artifact, but its final win/loss settlement must not be invented before Pitts reports it.
+The featured ticket is a booked/exposure artifact. Its four legs settled 3/4 with Mud Dogs -5.5 as the losing leg; do not invent unsupported stake/gross-return detail.
 
 **Locked Week 4 O/U slate:**
 - Mud Dogs vs TDS — **O/U 276.5 (-125)**;
@@ -930,20 +930,12 @@ All critical betting data must be typeset/composited deterministically. Image-ge
 - arithmetic verification: **PASS**;
 - closing consequence: **THE ADJUSTMENTS WORKED. No moneylines, tougher spreads, parlay tax — Pittsy's Book finally punched back.**
 
-**Pending Pitts settlement fields:**
-- actual bettor list;
-- exact tickets booked;
-- exact stakes;
-- final spread outcomes;
-- final O/U outcomes;
-- Byars four-piece settlement;
-- gross returns;
-- net P/L per bettor;
-- Week 4 bettor totals;
-- season bettor totals;
-- Week 4 Book P/L;
-- season-to-date Book P/L;
-- best/worst receipt or bad beat only if Pitts identifies one.
+**Remaining evidence-bound receipt detail:**
+- exact ticket-by-ticket wager descriptions beyond already locked featured artifacts;
+- exact stakes where not separately supplied;
+- gross returns where not separately supplied;
+- individual receipt imagery / best-worst receipt / notable bad beat only if Pitts supplies it.
+Week 4 bettor totals, season standings, Week 4 Book P/L and cumulative Book P/L are LOCKED and are not pending.
 
 **Authority distinction:** Flaim/ESPN supplies official fantasy results and mathematical spread/total resolution. Pitts supplies the authoritative booked-ticket ledger. Do not infer tickets from the market board.
 
@@ -977,7 +969,7 @@ All critical betting data must be typeset/composited deterministically. Image-ge
 **Director lock:**
 - Groundskeeper — LOCKED;
 - Scout — result-math method locked; final scores pending;
-- Pitty Desk — markets/rules/featured ticket locked; Pitts ledger pending;
+- Pitty Desk — markets/rules/featured ticket + official Week 4 settlement summary locked; only unsupported granular receipt detail remains evidence-bound;
 - Librarian — visual-reference receipt + TDS authority locked;
 - World / Atlas — institutional environment locked;
 - Visual Direction — composition/hierarchy locked;
