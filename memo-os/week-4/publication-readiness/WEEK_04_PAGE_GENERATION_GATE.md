@@ -43,6 +43,89 @@ Every page requires:
 
 Any `CLOSER_PRE_RENDER_HOLD` or `CLOSER_PAGE_REJECT` is release-blocking and cannot be overridden by the production agent.
 
+## LIVE PRODUCTION SALVAGE OVERLAY — 2026-10-06
+
+Controlling overlays:
+- `WEEK_04_CURRENT_RASTER_AUDIT_2026-10-06.md`
+- `WEEK_04_LIVE_PRODUCTION_SALVAGE_PROTOCOL.md`
+- `WEEK_04_VISUAL_FAMILY_MATRIX.md`
+
+### Production unit changed
+
+For Pages 11–22, the production unit is no longer an isolated page.
+
+The controlling unit is the complete three-page matchup chapter:
+- 11–13;
+- 14–16;
+- 17–19;
+- 20–22.
+
+Before the first page in a chapter may render, Bullpen must lock:
+- all three camera/composition states;
+- all three text loads;
+- all three continuity states;
+- the payoff/result page;
+- the chapter-specific visual family;
+- the exact ways Page 2 differs from Page 1 and Page 3 differs from both.
+
+### Fixed shell
+
+All new page masters must be authored at **1024×1536**.
+
+No renderer is allowed to redesign:
+- masthead geometry;
+- issue/date region;
+- title-safe zone;
+- body-copy safe zones;
+- result-strip safe zone.
+
+### Deterministic typography rule strengthened
+
+The image model does not own:
+- team names;
+- scores;
+- records;
+- rankings;
+- odds;
+- exact manuscript copy;
+- GAME OF THE WEEK status;
+- issue/date text.
+
+Generated typography may be treated only as a visual placeholder during art exploration.
+
+### Result-page component
+
+Pages 13, 16, 19 and 22 inherit one reusable result-strip family from the established Week 4 result-page grammar.
+
+The result strip must be composed from Fact Lock after art and must not be regenerated independently by the image model.
+
+### Early-page salvage rule
+
+Pages 1–10 are now a salvage corpus until final assembly QA.
+
+Before PDF assembly, Bullpen must:
+- normalize all accepted masters to the canonical 1024×1536 ratio;
+- remaster Page 2 to the locked final manuscript;
+- remaster Page 3 into a release-clean deterministic board;
+- repair exact team-name chrome drift on Pages 4–7 if present;
+- re-certify TDS one-body / exactly-three-head anatomy on Pages 8–10;
+- replace generated result digits with deterministic result modules where required.
+
+### Commissioner burden rule
+
+Jake is not the first-line QA operator.
+
+A page may not rely on Jake to discover:
+- wrong team names;
+- wrong GOTW status;
+- repeated chapter composition;
+- wrong result treatment;
+- wrong manuscript version;
+- wrong body plan;
+- wrong page ratio.
+
+Such defects are Bullpen failures and require self-rejection.
+
 ## Commissioner operating rule
 
 For Week 4, "QA before art" and "QA of the art" are treated as **one PAGE_GENERATION_GATE**.
