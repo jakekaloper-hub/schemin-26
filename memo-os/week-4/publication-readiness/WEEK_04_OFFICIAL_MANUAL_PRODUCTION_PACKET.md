@@ -706,31 +706,174 @@ Part casino / part trading floor / part actuarial command center.
 
 # PAGE 25 — PITTSY'S BOOK — WEEK 4 SETTLEMENT
 
-**Function:** official Week 4 betting settlement.
+**Page ID:** `W4-P25`
+**Story authority:** `W4-MODULE-PITTSY`
+**Function:** official Week 4 bookmaker settlement / institutional consequence page.
 **Story state:** LOCKED.
-**Data state:** WAITING ON final results + complete wagering ledger.
+**Pre-art state:** LOCKED.
+**Data state:** WAITING ON FLAIM FINALITY + PITTS AUTHORITATIVE SETTLEMENT LEDGER.
+**Page-specific packet:** `memo-os/week-4/publication-readiness/WEEK_04_P25_PITTYS_BOOK_FINAL_PRODUCTION_PACKET.md`
+**Approved visual-reference receipt:** `memo-os/week-4/publication-readiness/WEEK_04_P25_PITTYS_BOOK_VISUAL_REFERENCE_RECEIPT.md`
+**Approved source-image SHA-256:** `273932d9b9e3c0eab56e517f663cffce443155cd5eee9c75c2b707bdac0be82b`
 
-**Visual continuity:**
+**Narrative purpose:** Pittsy's Book was punished through the opening three weeks and changed policy. Week 4 becomes the institutional pivot from easy moneyline/parlay exposure to disciplined spread pricing and settlement.
+
+**Story beat:** market reform → priced board → dangerous customer exposure → settlement.
+
+**Character authority — TDS / Pittsy:**
+- `CHAR-PHILLIP-PITTS`;
+- expected SHA-256 `31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c`;
+- ONE reptilian humanoid body;
+- EXACTLY THREE serpent heads;
+- Week 4 DREADS PRESENT;
+- green-gold scales / glowing eyes / current #3 identity where visible;
+- bookmaker / line-manager role;
+- owner-specific approved reference/hash controls over stale master-lineup imagery.
+
+**Reject character if:** three separate bodies; wrong head count; no dreads; human bookmaker; generic hydra; stale character reconstruction.
+
+**World / Atlas continuity:**
 - recurring Pittsy's Book institution;
-- waterfall/temple environment;
-- gold identity;
-- serpent motifs;
-- dark wood / black-gold;
+- TDS-domain waterfall/temple environmental family;
+- carved dark stone;
+- black/gold and brass bookmaker identity;
+- vertical waterfalls, bridges and terraces;
+- serpent banners/motifs;
 - green banker lamps;
-- ledgers and receipts;
-- deterministic betting board.
+- betting windows;
+- ledgers;
+- receipts;
+- operational settlement counters;
+- monumental fantasy scale integrated into Schemin Atlas logic.
 
-**Required fields:**
-- bettor;
-- wager;
-- stake;
-- odds/line;
-- result;
+**Visual-reference directive:** evolve the approved attached betting-room reference rather than copying it literally. Improve information hierarchy, negative space, mobile readability, deterministic board design and Atlas/worldbuilding coherence.
+
+**Art:text ratio:** approximately 50–55% environment/character and 45–50% deterministic editorial/betting information.
+
+**Portrait/mobile composition:**
+- top: PITTSY'S BOOK institutional identity + TDS/Pittsy;
+- upper-middle: Week 4 spread board;
+- inset: WEEK 4 HOUSE RULES;
+- middle/lower: Week 4 O/U board;
+- featured artifact: Byars "FUCK THE BOOK" four-piece;
+- lower settlement zone: final bettor/ticket/results ledger;
+- footer: Week 4 / season House ledger and institutional closing line.
+
+**Locked Week 4 spread slate:**
+- Mud Dogs **-5.5 (-125)** vs Three Dreaded Snake **+5.5 (-125)**;
+- ObiWan Jacoby **-19.5 (-125)** vs D0nkey K0ng **+19.5 (-125)**;
+- Red Leopards **-10.5 (-125)** vs Dr. Duckhook **+10.5 (-125)**;
+- Slob on my Dobb **-2.5 (-125)** vs Chili Cheesers **+2.5 (-125)**;
+- The LLC **-10.5 (-125)** vs His Majesty's Blood **+10.5 (-125)**;
+- Seven Deadly Chins **-4.5 (-125)** vs El Niño **+4.5 (-125)**.
+
+**Locked house rule:** **SPREADS ONLY. NO MONEYLINES.**
+
+**House-policy copy:** No more moneylines. No more free parlay money. We are pricing the actual rosters, injuries, benches and matchups. Want the better team? Lay the points.
+
+**Locked featured artifact — THE BYARS "FUCK THE BOOK" FOUR-PIECE:**
+- His Majesty's Blood **+10.5**;
+- Slob on my Dobb **-2.5**;
+- Mud Dogs **-5.5**;
+- D0nkey K0ng **+19.5**;
+- **THE FUCK THE BOOK SPECIAL: +650**;
+- flavor line: **Four legs. One Byars. Zero respect for Pittsy's financial well-being.**
+
+The featured ticket is a booked/exposure artifact, but its final win/loss settlement must not be invented before Pitts reports it.
+
+**Locked Week 4 O/U slate:**
+- Mud Dogs vs TDS — **O/U 276.5 (-125)**;
+- ObiWan vs D0nkey K0ng — **O/U 289.5 (-125)**;
+- Red Leopards vs Duckhook — **O/U 290.5 (-125)**;
+- Slob vs Chili — **O/U 303.5 (-125)**;
+- The LLC vs His Majesty's Blood — **O/U 287.5 (-125)**;
+- Seven Deadly Chins vs El Niño — **O/U 292.5 (-125)**.
+
+**Locked O/U rule:**
+- **You CAN bet the OVER on your own matchup.**
+- **You CANNOT bet the UNDER on your own matchup.**
+
+**Written material:**
+- primary headline: **PITTSY'S BOOK — WEEK 4 SETTLEMENT**;
+- institutional subhead: **SPREADS ONLY. NO MONEYLINES.**;
+- house thesis: **THE BOOK IS OPEN.**;
+- supporting line: **Weeks 1–3 were market research. Week 4, Pittsy's Book starts collecting tuition.**;
+- optional Pittsy voice box: **"The book is hurting and asks for a week of grace with MLs. Be confident in your teams and take the points." — Pittsy**.
+
+**Deterministic data fields:**
+- all spreads;
+- all prices;
+- all O/U totals;
+- +650;
+- bettor names;
+- stakes;
+- result labels;
 - gross return;
 - net P/L;
 - Week 4 totals;
 - season totals;
 - Book P/L.
+
+All critical betting data must be typeset/composited deterministically. Image-generated numerals are not authoritative.
+
+**Pending Pitts settlement fields:**
+- actual bettor list;
+- exact tickets booked;
+- exact stakes;
+- final spread outcomes;
+- final O/U outcomes;
+- Byars four-piece settlement;
+- gross returns;
+- net P/L per bettor;
+- Week 4 bettor totals;
+- season bettor totals;
+- Week 4 Book P/L;
+- season-to-date Book P/L;
+- best/worst receipt or bad beat only if Pitts identifies one.
+
+**Authority distinction:** Flaim/ESPN supplies official fantasy results and mathematical spread/total resolution. Pitts supplies the authoritative booked-ticket ledger. Do not infer tickets from the market board.
+
+**Image tells:** the House changed policy; Pittsy runs a real institution; the betting room belongs to the Schemin world; Week 4 contains meaningful financial exposure.
+
+**Prose tells:** why policy changed; why Week 4 is different; Pittsy's institutional voice; final settlement consequence.
+
+**Data tells:** exact markets, rules, featured exposure ticket, actual booked tickets and final arithmetic.
+
+**Negative constraints:**
+- no active Week 4 moneylines;
+- no omitted O/U board;
+- no omitted Byars four-piece;
+- no invented tickets;
+- no guessed settlement arithmetic;
+- no generic Vegas/casino redesign;
+- no TDS anatomy drift;
+- no stale master-lineup TDS;
+- no excessive receipt clutter that destroys readability;
+- no invented Week 5 betting line;
+- no visual merger of Pittsy's Book with The LLC's corporate exchange;
+- no silent Atlas geography mutation.
+
+**Drift risks:** TDS head/body drift; dreads omission; generic casino drift; board-number hallucination; visual clutter; reintroduced moneylines; featured-ticket omission; LLC/Pittsy institutional conflation; mobile readability collapse.
+
+**Reject if:** any character rule fails; any locked market number is wrong; active moneylines appear; O/U rule is wrong/missing; Byars ticket is wrong/missing; source environment loses waterfall-temple bookmaker identity; critical information is unreadable at phone width; final Pitts settlement data is invented; PAGE_GENERATION_GATE fails.
+
+**Previous page:** W4-P24 — Power Rankings.
+**Next page:** W4-P26 — Week 5 GOTW: HMB × TDS.
+
+**Director lock:**
+- Groundskeeper — LOCKED;
+- Scout — result-math method locked; final scores pending;
+- Pitty Desk — markets/rules/featured ticket locked; Pitts ledger pending;
+- Librarian — visual-reference receipt + TDS authority locked;
+- World / Atlas — institutional environment locked;
+- Visual Direction — composition/hierarchy locked;
+- Character QA — TDS specification locked;
+- Publication Design — deterministic typography/mobile hierarchy locked;
+- Author Council — restraint/tone locked;
+- Umpire — PRE-ART PASS;
+- Closer — frozen except official result math + Pitts settlement fields.
+
+**Manual dispatch:** when Jake says `generate page 25`, retrieve the page-specific packet + reference receipt + Fact Lock + Pitts ledger, run PAGE_GENERATION_GATE, generate candidate, inspect it, reject/repair internally if needed, and only return a page marked `APPROVED_FOR_LOCAL_FOLDER`.
 
 **No invented Week 5 lines.**
 **No estimated missing wagers.**
