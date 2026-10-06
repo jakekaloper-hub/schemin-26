@@ -48,3 +48,11 @@ def test_copy_does_not_overexplain_high_ground():
 
 def test_audit_declares_every_surviving_word_has_a_job():
     assert "EVERY SURVIVING WORD HAS A JOB." in text(AUDIT)
+
+
+def test_official_packet_contains_verbatim_locked_manuscript():
+    packet=text(PACKET)
+    manuscript=text(MANUSCRIPT).rstrip("\\n")
+    assert "<!-- BEGIN VERBATIM LOCKED WEEK 4 MANUSCRIPT BINDING -->" in packet
+    assert "<!-- END VERBATIM LOCKED WEEK 4 MANUSCRIPT BINDING -->" in packet
+    assert manuscript in packet
