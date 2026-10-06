@@ -66,3 +66,5 @@ The Week 4 fixed 19-page publication manifest is no longer controlling before St
 A packet built from superseded planning is `PAGE_PACKET_STALE / REBUILD_REQUIRED` even if its schema, character references and world fields are otherwise valid.
 
 **NO ART GENERATION IS AUTHORIZED** until the Story Authority Register, six matchup reconciliations, required editorial modules, Director owner/counterweight checks, Umpire preflight and Closer `PASS_TO_PRODUCTION` all pass.
+
+- `WEEK_4_PERSONALIZED_INTELLIGENCE_AMENDMENT_ELNINO_7DC_STORM_ALARMS_2026-10-05.md` — **EL NIÑO × 7DC STORM-ALARM PERSONALIZATION / ADDITIVE STORY RESERVOIR**
