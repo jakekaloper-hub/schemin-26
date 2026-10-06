@@ -10,6 +10,18 @@
 
 ---
 
+# WRITTEN NARRATIVE AUTHORITY
+
+**Controlling reader-facing prose:** `memo-os/week-4/publication-readiness/WEEK_04_FINAL_WRITTEN_MANUSCRIPT.md`
+
+**Editorial QA:** `memo-os/week-4/publication-readiness/WEEK_04_WRITING_RECOVERY_AUDIT_2026-10-06.md`
+
+The packet describes page purpose, story, visual job, data job and rejection conditions. It is **not** allowed to invent or substitute reader-facing prose.
+
+If any headline, deck, caption, paragraph, quote treatment or other reader-facing wording in this packet conflicts with the Final Written Manuscript, the manuscript controls unless the Commissioner issues a newer explicit written correction.
+
+No page-generation thread may improvise copy because a layout contains unused text space. Silence is permitted.
+
 # RENDER-FACING PUBLICATION CONTRACT — 2026-10-06 RECOVERY
 
 This packet has two namespaces:
