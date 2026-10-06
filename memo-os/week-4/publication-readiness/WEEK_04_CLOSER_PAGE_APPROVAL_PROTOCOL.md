@@ -141,3 +141,21 @@ The production agent compiles.
 The Umpire challenges.  
 The Closer decides.  
 Only then does the renderer run.**
+
+
+## Commissioner-facing delivery contract
+
+For every accepted Week 4 page:
+
+- the user-facing response is the produced page image only;
+- do not append a sandbox/download link;
+- do not attach a second duplicate file artifact;
+- do not add explanatory prose after an accepted render;
+- do not switch delivery mechanisms page-to-page merely because the page is data-heavy;
+- Pages 1–27 must use one consistent presentation contract.
+
+If a page is rejected or held before acceptance, a concise Bullpen/Closer explanation is allowed.
+
+Once `CLOSER_PAGE_ACCEPT` is issued, delivery must be visually consistent with the accepted Page 1/Page 2 interaction: image only.
+
+A deterministic-data requirement changes how the page is produced internally, not how it is presented to Jake.
