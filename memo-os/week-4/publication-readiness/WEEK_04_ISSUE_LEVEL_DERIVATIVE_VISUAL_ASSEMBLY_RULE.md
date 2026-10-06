@@ -84,3 +84,28 @@ Produce in this order:
 7. final assembly.
 
 The reader may encounter these pages earlier in the PDF. Production should still happen after their visual source truth exists.
+
+
+## Current Week 4 candidate disposition
+
+The live P23/P24 candidates created before this rule was fully enforced are not automatically accepted.
+
+- **W4-P23:** REBUILD REQUIRED if its divisional environments were freshly generated rather than assembled from accepted matchup-wave environments.
+- **W4-P24:** REBUILD REQUIRED. The surfaced ranking candidate used independently generated character/icon imagery and therefore fails derivative character continuity.
+
+### Mandatory P24 portrait-source map
+
+- Red Leopards → W4-P13
+- Slob on my Dobb → W4-P16
+- ObiWan Jacoby → W4-P07
+- D0nkey K0ng → W4-P07
+- His Majesty's Blood → W4-P19
+- El Niño → W4-P22
+- Three Dreaded Snake → W4-P10
+- The Chili Cheesers → W4-P16
+- Mud Dogs → W4-P10
+- The LLC → W4-P19
+- Dr. Duckhook → W4-P13
+- Seven Deadly Chins → W4-P22
+
+Use direct crops/reuse where practical. Fresh generated icons/logos/faces are not permitted.
