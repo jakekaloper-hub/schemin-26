@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "authority": "Librarian",
+  "status": "ACTIVE_HARD_DENYLIST",
+  "purpose": "Prevent failed rehearsal renders from ever entering Week 4 production, QA, assembly, publication, canon, or future derivative authority.",
+  "policy": [
+    "Do not open for production review.",
+    "Do not use as visual reference.",
+    "Do not use as style reference.",
+    "Do not use as training/example artifact.",
+    "Do not crop, trace, edit, upscale, remix, or derive from these files.",
+    "Any exact hash match is an automatic publication failure."
+  ],
+  "rejected_artifacts": [
+    {
+      "id": "REJECTED_REHEARSAL_RENDER_01",
+      "sha256": "ebe961bccad20c0facf2005c5dad6f612bf540239f57c1996ae2ef81f11b28c1",
+      "conversation_file_id": "file_000000005a6881f5a2bae2f1cb30b9d2",
+      "disposition": "DELETE_WHERE_POSSIBLE / NEVER_USE / NEVER_REFERENCE"
+    },
+    {
+      "id": "REJECTED_REHEARSAL_RENDER_02",
+      "sha256": "e894abfe327c1dd4af7e369e988ac24c5c560136a14b4441014271bd72ecb592",
+      "conversation_file_id": "file_00000000b4fc81f9a0de1f2c1f298332",
+      "disposition": "DELETE_WHERE_POSSIBLE / NEVER_USE / NEVER_REFERENCE"
+    }
+  ]
+}
