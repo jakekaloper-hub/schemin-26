@@ -58,6 +58,35 @@ Flaim/ESPN may update only:
 
 Flaim does not reopen storytelling.
 
+# PROVISIONAL-FINAL WEEK 4 DATA OVERLAY — 2026-10-06
+
+**State:** `PROVISIONAL_FINAL / PROVIDER_DECIDED_PENDING`
+**Source:** `WEEK_04_PROVISIONAL_FINAL_FLAIM_SNAPSHOT_2026-10-06.json`
+**Page impact:** `WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json`
+**Provider state:** all six ESPN winner fields remain `UNDECIDED`.
+
+Current completed-football scoreboard:
+- ObiWan Jacoby **157.33** — D0nkey K0ng **139.67**
+- Three Dreaded Snake **149.84** — Mud Dogs **126.98**
+- Red Leopards **164.08** — Dr. Duckhook **128.36**
+- Slob on my Dobb **190.72** — Chili Cheesers **139.96**
+- His Majesty's Blood **177.32** — The LLC **138.87**
+- El Niño **170.62** — Seven Deadly Chins **106.20**
+
+Projected records if these scores survive official finality:
+- DK 3-1; ObiWan 3-1; Mud 2-2; TDS 2-2;
+- Red 3-1; Slob 2-2; Chili 2-2; Duckhook 1-3;
+- El Niño 2-2; HMB 2-2; LLC 1-3; 7DC 1-3.
+
+Page-specific data has been propagated through the Page Impact Register. Production must use that register for Pages 1–27 until the morning DECIDED transaction replaces provisional fields with official values.
+
+Page 23 provisional State of the Realm: `WEEK_04_STATE_OF_REALM.md`.
+Page 24 provisional Power Rankings: `WEEK_04_PROVISIONAL_POWER_RANKINGS_2026-10-06.md`.
+Page 25 provisional market math: `WEEK_04_PROVISIONAL_PITTSY_MATH_2026-10-06.md`; Pitts booked-ticket ledger remains pending.
+Page 27 World State Delta: `WEEK_04_PROVISIONAL_WORLD_STATE_DELTA_2026-10-06.md` staged only.
+
+Morning command: `/bullpen resume Week 4 from official ESPN/Flaim DECIDED flip`.
+
 ---
 
 # PAGE 1 — COVER — RETURN OF THE JEDI
