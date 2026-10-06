@@ -2,7 +2,7 @@
   "schema_version": "2.0.0",
   "publication_id": "memo.2026.week-04",
   "issue_version": "27-page-mission-review-pre-art-lock",
-  "current_state": "PROVISIONAL_FINAL_POPULATED_PROVIDER_DECIDED_PENDING",
+  "current_state": "CONTROLLED_MANUAL_PRODUCTION_OPEN_PROVISIONAL_FINAL",
   "issue_length": 27,
   "authority": {
     "mission_review_lock": "memo-os/week-4/publication-readiness/WEEK_04_MISSION_REVIEW_STORY_LOCK_CORRECTED_2026-10-05.md",
@@ -11,9 +11,12 @@
     "page_generation_gate": "memo-os/week-4/publication-readiness/WEEK_04_PAGE_GENERATION_GATE.md",
     "character_authority": "canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json",
     "character_matrix": "memo-os/week-4/publication-readiness/WEEK_04_12_CHARACTER_AUTHORITY_MATRIX.json",
-    "world_entry": "memo-os/week-4/WEEK_4_WORLD_ENTRY_RECEIPT_V1.md"
+    "world_entry": "memo-os/week-4/WEEK_4_WORLD_ENTRY_RECEIPT_V1.md",
+    "written_manuscript": "memo-os/week-4/publication-readiness/WEEK_04_FINAL_WRITTEN_MANUSCRIPT.md",
+    "native_reference_binding": "canon/characters/NATIVE_RENDER_REFERENCE_BINDING_V1.json",
+    "production_integrity_recovery": "memo-os/week-4/publication-readiness/WEEK_04_PRODUCTION_INTEGRITY_RECOVERY_2026-10-06.md"
   },
-  "only_preproduction_hold": "FLAIM_ESPN_OFFICIAL_DECIDED_RESULT_REFRESH",
+  "only_preproduction_hold": null,
   "finality_fields": [
     "winner",
     "final_score",
@@ -54,7 +57,9 @@
       "pre_art_state": "LOCKED",
       "data_state": "PROVISIONAL_RESULT_COPY_READY_DECIDED_PENDING",
       "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE",
+      "data_receipt": "NO_FINALITY_BLOCK"
     },
     {
       "page_id": "W4-P02",
@@ -64,7 +69,8 @@
       "pre_art_state": "LOCKED",
       "data_state": "PROVISIONAL_FACTS_READY_DECIDED_PENDING",
       "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
     },
     {
       "page_id": "W4-P03",
@@ -74,7 +80,8 @@
       "pre_art_state": "LOCKED",
       "data_state": "PROVISIONAL_FINAL_DECIDED_PENDING",
       "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
     },
     {
       "page_id": "W4-P04",
@@ -87,7 +94,8 @@
       "pre_art_state": "LOCKED",
       "data_state": "NO_FINALITY_BLOCK",
       "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
     },
     {
       "page_id": "W4-P05",
@@ -100,7 +108,8 @@
       "pre_art_state": "LOCKED",
       "data_state": "PROVISIONAL_CAUSAL_DATA_READY_DECIDED_PENDING",
       "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
     },
     {
       "page_id": "W4-P06",
@@ -113,7 +122,8 @@
       "pre_art_state": "LOCKED",
       "data_state": "NO_FINALITY_BLOCK",
       "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
     },
     {
       "page_id": "W4-P07",
@@ -126,7 +136,8 @@
       "pre_art_state": "LOCKED",
       "data_state": "PROVISIONAL_FINAL_COPY_READY_DECIDED_PENDING",
       "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
     },
     {
       "page_id": "W4-P08",
@@ -139,7 +150,8 @@
       "pre_art_state": "LOCKED",
       "data_state": "NO_FINALITY_BLOCK",
       "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
     },
     {
       "page_id": "W4-P09",
@@ -152,7 +164,8 @@
       "pre_art_state": "LOCKED",
       "data_state": "PROVISIONAL_CAUSAL_DATA_READY_DECIDED_PENDING",
       "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
     },
     {
       "page_id": "W4-P10",
@@ -165,7 +178,8 @@
       "pre_art_state": "LOCKED",
       "data_state": "PROVISIONAL_FINAL_DECIDED_PENDING",
       "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
     },
     {
       "page_id": "W4-P11",
@@ -178,7 +192,8 @@
       "pre_art_state": "LOCKED",
       "data_state": "NO_FINALITY_BLOCK",
       "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
     },
     {
       "page_id": "W4-P12",
@@ -191,7 +206,8 @@
       "pre_art_state": "LOCKED",
       "data_state": "NO_FINALITY_BLOCK",
       "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
     },
     {
       "page_id": "W4-P13",
@@ -204,7 +220,8 @@
       "pre_art_state": "LOCKED",
       "data_state": "PROVISIONAL_FINAL_DECIDED_PENDING",
       "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
     },
     {
       "page_id": "W4-P14",
@@ -217,7 +234,8 @@
       "pre_art_state": "LOCKED",
       "data_state": "NO_FINALITY_BLOCK",
       "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
     },
     {
       "page_id": "W4-P15",
@@ -230,7 +248,8 @@
       "pre_art_state": "LOCKED",
       "data_state": "PROVISIONAL_SCORE_FIELD_READY_DECIDED_PENDING",
       "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
     },
     {
       "page_id": "W4-P16",
@@ -243,7 +262,8 @@
       "pre_art_state": "LOCKED",
       "data_state": "PROVISIONAL_FINAL_DECIDED_PENDING",
       "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
     },
     {
       "page_id": "W4-P17",
@@ -256,7 +276,8 @@
       "pre_art_state": "LOCKED",
       "data_state": "NO_FINALITY_BLOCK",
       "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
     },
     {
       "page_id": "W4-P18",
@@ -269,7 +290,8 @@
       "pre_art_state": "LOCKED",
       "data_state": "PROVISIONAL_CAUSAL_DATA_READY_DECIDED_PENDING",
       "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
     },
     {
       "page_id": "W4-P19",
@@ -282,7 +304,8 @@
       "pre_art_state": "LOCKED",
       "data_state": "PROVISIONAL_FINAL_DECIDED_PENDING",
       "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
     },
     {
       "page_id": "W4-P20",
@@ -295,7 +318,8 @@
       "pre_art_state": "LOCKED",
       "data_state": "NO_FINALITY_BLOCK",
       "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
     },
     {
       "page_id": "W4-P21",
@@ -308,7 +332,8 @@
       "pre_art_state": "LOCKED",
       "data_state": "NO_FINALITY_BLOCK",
       "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
     },
     {
       "page_id": "W4-P22",
@@ -321,7 +346,8 @@
       "pre_art_state": "LOCKED",
       "data_state": "PROVISIONAL_FINAL_DECIDED_PENDING",
       "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
     },
     {
       "page_id": "W4-P23",
@@ -331,7 +357,8 @@
       "pre_art_state": "LOCKED",
       "data_state": "PROVISIONAL_FINAL_MORNING_VERIFICATION_REQUIRED",
       "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
     },
     {
       "page_id": "W4-P24",
@@ -341,7 +368,8 @@
       "pre_art_state": "LOCKED",
       "data_state": "PROVISIONAL_FINAL_MORNING_VERIFICATION_REQUIRED",
       "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
     },
     {
       "page_id": "W4-P25",
@@ -357,7 +385,8 @@
       "visual_reference_receipt": "memo-os/week-4/publication-readiness/WEEK_04_P25_PITTYS_BOOK_VISUAL_REFERENCE_RECEIPT.md",
       "story_authority_hash": "a3c249205a324c5fe6fca02db7ed964196dd6e104cc4eac5628a46c22e413059",
       "approved_source_image_sha256": "273932d9b9e3c0eab56e517f663cffce443155cd5eee9c75c2b707bdac0be82b",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "ART_READY_SETTLEMENT_DATA_PENDING"
     },
     {
       "page_id": "W4-P26",
@@ -370,7 +399,8 @@
       "pre_art_state": "LOCKED",
       "data_state": "PROVISIONAL_ENTERING_RECORDS_READY_DECIDED_PENDING",
       "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
     },
     {
       "page_id": "W4-P27",
@@ -380,7 +410,8 @@
       "pre_art_state": "LOCKED",
       "data_state": "WORLD_DELTA_STAGED_DECIDED_PENDING",
       "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
-      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json"
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
     }
   ],
   "gates": [
@@ -476,5 +507,11 @@
   "remaining_content_holds": [
     "ESPN/Flaim provider DECIDED finality",
     "Pitts authoritative Week 4 settlement ledger for W4-P25"
+  ],
+  "production_open": true,
+  "morning_revalidation_required": true,
+  "remaining_holds": [
+    "ESPN/Flaim provider DECIDED revalidation for result-dependent pages",
+    "Pitts authoritative Week 4 settlement ledger for final W4-P25 settlement"
   ]
 }
