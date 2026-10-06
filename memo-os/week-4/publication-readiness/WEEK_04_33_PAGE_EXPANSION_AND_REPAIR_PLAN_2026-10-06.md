@@ -193,6 +193,23 @@ Do not ask the image model to regenerate those 12 faces.
 This preserves exact issue-level character continuity.
 
 
+## P17–P19 neutral-site continuity
+
+The Commissioner corrected the LLC × His Majesty's Blood geography during live production.
+
+Controlling location for all three pages is:
+**Pittsy's Book at the Waterfall Temple / TDS bookmaker complex.**
+
+Use:
+- P17 = wide institutional arrival / self-ticket setup;
+- P18 = deeper risk-operations / exposure state in the same institution;
+- P19 = after-hours settlement desk in the same institution.
+
+This correction is controlling over older packet language describing an LLC-owned corporate gaming exchange.
+
+See:
+`WEEK_04_P17_19_PITTYS_BOOK_NEUTRAL_SITE_LOCK.md`
+
 ## Pages 23–24 derivative visual doctrine
 
 Pages 23 and 24 are issue-level synthesis pages and must not become new character-generation surfaces.
