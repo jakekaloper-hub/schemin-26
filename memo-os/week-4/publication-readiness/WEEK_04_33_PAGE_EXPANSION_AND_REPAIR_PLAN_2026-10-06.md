@@ -89,7 +89,20 @@ finish the original 27-page raster cycle before reopening earlier pages.
 Generate:
 - W4-OV01 through W4-OV06
 
-Each overture receives its own Beat Writer manuscript, Atlas lock, visual family, and Umpire QA.
+The overture manuscript is now locked in:
+`WEEK_04_MATCHUP_OVERTURE_FINAL_MANUSCRIPT_2026-10-06.md`
+
+Production authority:
+`WEEK_04_MATCHUP_OVERTURE_PRODUCTION_PACKET.md`
+
+Each overture receives:
+- exact locked prose;
+- accepted matchup-wave Atlas/environment source authority;
+- distinct pre-action visual grammar;
+- Publication Design typography;
+- Umpire QA.
+
+No overture may independently redesign character identity or geography.
 
 ### Phase C — targeted repair / remaster
 Mandatory:
@@ -105,6 +118,18 @@ Conditional after final issue review:
 - result-strip typography recheck;
 - 1024×1536 normalization;
 - any other objective defect discovered in final issue-rhythm QA.
+
+### P23/P24 live-candidate correction
+
+The current P23/P24 live candidates are not final accepted masters.
+
+- P23 must be rebuilt if it used freshly generated divisional worlds rather than accepted matchup-wave environments.
+- P24 must be regenerated because its surfaced character icons/faces were independently generated and inconsistent with the accepted matchup waves.
+
+Controlling repair packets:
+- `WEEK_04_ISSUE_LEVEL_DERIVATIVE_VISUAL_ASSEMBLY_RULE.md`
+- `WEEK_04_P24_POWER_RANKINGS_REGENERATION_PACKET.md`
+- `WEEK_04_MASTER_REPAIR_SWEEP_PACKET.md`
 
 ### Phase D — final publication remap
 Do not change existing source filenames merely because final page numbers change.
