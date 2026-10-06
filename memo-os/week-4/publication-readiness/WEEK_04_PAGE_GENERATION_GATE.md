@@ -3,7 +3,7 @@
 **Status:** ACTIVE / CONTROLLED MANUAL PRODUCTION
 **Issue:** Schemin '26 Week 4 Memo
 **Page count:** 27
-**Commissioner workflow:** "generate page N" → deterministic preflight → exact canonical reference binding → illustration candidate → deterministic composition → acceptance evidence → approved PNG only
+**Commissioner workflow:** "generate page N" → Bullpen page board → Umpire challenge → CLOSER_PRE_RENDER_PASS → exact canonical reference binding → illustration candidate → candidate QA → CLOSER_PAGE_ACCEPT → approved PNG only
 **Current state:** production-integrity recovery PASSED; publishable identity enforcement ACTIVE; deterministic composition ACTIVE; native canonical reference binding ACTIVE; written manuscript LOCKED. ESPN/Flaim official finality remains a page-specific data revalidation gate, not a global art hold.
 
 
@@ -28,6 +28,21 @@ These controls remain mandatory:
 
 **Manual production is reopened.**
 
+## Mandatory Bullpen / Closer authority
+
+Controlling protocol: `WEEK_04_CLOSER_PAGE_APPROVAL_PROTOCOL.md`.
+
+The production agent does not independently authorize a Week 4 render.
+
+Every page requires:
+1. applicable Bullpen Director synthesis;
+2. Umpire adversarial preflight;
+3. explicit `CLOSER_PRE_RENDER_PASS` before the renderer is invoked;
+4. candidate QA after rendering;
+5. explicit `CLOSER_PAGE_ACCEPT` before the page is `APPROVED_FOR_LOCAL_FOLDER`.
+
+Any `CLOSER_PRE_RENDER_HOLD` or `CLOSER_PAGE_REJECT` is release-blocking and cannot be overridden by the production agent.
+
 ## Commissioner operating rule
 
 For Week 4, "QA before art" and "QA of the art" are treated as **one PAGE_GENERATION_GATE**.
@@ -38,12 +53,14 @@ A page command means:
 
 1. retrieve the locked page packet;
 2. complete all pre-render QA;
-3. resolve final deterministic data;
-4. render a candidate;
-5. inspect that candidate against the same gate;
-6. reject/repair internally if it fails;
-7. only mark the page APPROVED when the candidate satisfies the packet;
-8. only an APPROVED page belongs in Jake's local Week 4 PNG folder.
+3. resolve deterministic data under the current authority state;
+4. convene the applicable Bullpen Directors and Umpire;
+5. require `CLOSER_PRE_RENDER_PASS`;
+6. render a candidate;
+7. inspect that candidate against the same gate;
+8. require `CLOSER_PAGE_ACCEPT` after candidate QA;
+9. reject the candidate as `REJECTED_NOT_FOR_FOLDER` if the Closer does not accept it;
+10. only an accepted page belongs in Jake's local Week 4 PNG folder.
 
 A failed candidate is not a locked Memo page and cannot be assembled into the final PDF.
 
