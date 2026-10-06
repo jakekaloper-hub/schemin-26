@@ -52,7 +52,7 @@ def test_audit_declares_every_surviving_word_has_a_job():
 
 def test_official_packet_contains_verbatim_locked_manuscript():
     packet=text(PACKET)
-    manuscript=text(MANUSCRIPT).rstrip("\\n")
+    manuscript=text(MANUSCRIPT).rstrip("\n")
     assert "<!-- BEGIN VERBATIM LOCKED WEEK 4 MANUSCRIPT BINDING -->" in packet
     assert "<!-- END VERBATIM LOCKED WEEK 4 MANUSCRIPT BINDING -->" in packet
     assert manuscript in packet
