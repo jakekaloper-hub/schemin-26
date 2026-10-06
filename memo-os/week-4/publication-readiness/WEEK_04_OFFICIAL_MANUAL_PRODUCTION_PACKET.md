@@ -10,6 +10,41 @@
 
 ---
 
+# RENDER-FACING PUBLICATION CONTRACT — 2026-10-06 RECOVERY
+
+This packet has two namespaces:
+
+- **internal production identifiers**: page IDs, Character IDs, abbreviations and shorthand used only for routing;
+- **publishable copy**: exact league/team/division/issue text that may appear in the Memo.
+
+These namespaces may never be confused.
+
+Before any page render/composition, retrieve `WEEK_04_PUBLISHABLE_IDENTITY_REGISTRY.json`.
+
+### Deterministic text rule
+The following are NEVER delegated to image generation:
+- SCHEMIN '26 masthead;
+- WEEK 4 / issue/date labels;
+- page title/headline when exact wording matters;
+- team names;
+- division names;
+- GAME OF THE WEEK labels;
+- scores, records, standings, rankings;
+- odds, totals, betting ledgers;
+- quotes intended as exact copy;
+- body copy longer than decorative environmental lettering.
+
+Those fields are composited deterministically after the illustration layer is accepted.
+
+### Character-reference rule
+A prose description is not a visual-reference attachment.
+A historical page is not current identity authority.
+A master lineup is not authority for DK, TDS or HMB.
+If the active renderer cannot actually receive the current approved reference for every depicted character, the character-bearing page is BLOCKED.
+
+### Candidate visibility limitation
+The active ChatGPT image renderer surfaces generated candidates to the conversation when invoked. Therefore Bullpen must not claim that a candidate was invisibly raster-QA'd before the Commissioner could see it. Production may resume only with the strongest pre-render controls available, and the Commissioner-visible candidate is not an approved page until acceptance evidence exists. Any earlier claim that a surfaced image had already passed hidden raster QA is revoked.
+
 # EXECUTION CONTRACT
 
 This file remains the story/page authority for the Week 4 Memo, but manual rendering is blocked until the 2026-10-06 production-integrity recovery gate passes.
@@ -407,7 +442,7 @@ Use only enough beats to communicate the mechanism.
 
 ---
 
-# PAGE 11 — RED LEOPARDS × DR. DUCKHOOK I — RECOVERY TRIP
+# PAGE 11 — Red Leopards vs Dr. Duckhook I — RECOVERY TRIP
 
 **Function:** establish coastal golf humiliation.
 **Story state:** LOCKED.
@@ -433,7 +468,7 @@ Use only enough beats to communicate the mechanism.
 
 ---
 
-# PAGE 12 — RED LEOPARDS × DR. DUCKHOOK II — THE LESSON
+# PAGE 12 — Red Leopards vs Dr. Duckhook II — THE LESSON
 
 **Function:** competence-driven humiliation.
 **Story state:** LOCKED.
@@ -459,7 +494,7 @@ Use only enough beats to communicate the mechanism.
 
 ---
 
-# PAGE 13 — RED LEOPARDS × DR. DUCKHOOK III — SCORECARD PAYOFF
+# PAGE 13 — Red Leopards vs Dr. Duckhook III — SCORECARD PAYOFF
 
 **Function:** enduring institutional embarrassment.
 **Story state:** LOCKED.
@@ -936,7 +971,7 @@ All critical betting data must be typeset/composited deterministically. Image-ge
 
 ---
 
-# PAGE 26 — WEEK 5 PREVIEW / GOTW — HMB × TDS
+# PAGE 26 — WEEK 5 PREVIEW / GAME OF THE WEEK — Three Dreaded Snake vs His Majesty's Blood
 
 **Function:** forward-looking trailer.
 **Story state:** LOCKED.
