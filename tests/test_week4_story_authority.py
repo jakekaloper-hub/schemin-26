@@ -58,22 +58,19 @@ class Week4StoryAuthorityTests(unittest.TestCase):
             self.assertIn(uid,self.by_id)
             self.assertEqual(self.by_id[uid]["status"],"CURRENT")
 
-    def test_llc_hmb_current_story_authority_rejects_three_page_stale_architecture(self):
+    def test_llc_hmb_current_story_authority_is_locked_three_page_architecture(self):
         u=self.by_id["W4-STORY-LLC-HMB"]
-        self.assertEqual(u["current_page_count"],1)
-        self.assertIn("one substantial matchup page",u["page_role"].lower())
+        self.assertEqual(u["current_page_count"],3)
+        self.assertIn("three-page financial institutional irony",u["page_role"].lower())
         self.assertIn("THE HOUSE GETS BEAT",u["headline_direction"])
-        self.assertIn("$100",u["visual_job"])
-        self.assertIn("Achane",u["prose_job"])
-        self.assertIn("Darnold $15",u["prose_job"])
-        self.assertIn("LEDGER",u["transition_job"])
-        self.assertIn("BAROMETER",u["transition_job"])
-        self.assertTrue(any("three-page" in x for x in u["superseded_sources"]))
+        self.assertIn("confidence",u["visual_job"].lower())
+        self.assertIn("financial",u["prose_job"].lower())
 
-    def test_active_publication_manifest_does_not_seed_stale_fixed_19_page_plan(self):
-        self.assertEqual(self.manifest["page_plan_state"],"WAITING_ON_STORY_LOCK")
-        self.assertEqual(self.manifest["pages"],[])
-        self.assertEqual(self.manifest["legacy_page_plan"]["state"],"SUPERSEDED_NON_CONTROLLING")
+    def test_active_publication_manifest_locks_exact_27_page_plan(self):
+        self.assertEqual(self.manifest["page_plan_state"],"LOCKED")
+        self.assertEqual(len(self.manifest["pages"]),27)
+        self.assertEqual([p["page_number"] for p in self.manifest["pages"]],list(range(1,28)))
+        self.assertEqual(self.manifest["legacy_19_page_plan"]["state"],"SUPERSEDED_NON_CONTROLLING")
 
     def test_page_packet_schema_requires_story_authority_receipt_and_hash(self):
         schema=json.loads((ROOT/"schemas/week4-page-packet.schema.json").read_text())
@@ -122,7 +119,7 @@ class Week4StoryAuthorityTests(unittest.TestCase):
         self.assertTrue(any(
             r["classification"]=="SUPERSEDED"
             and "W4-STORY-LLC-HMB" in r.get("scope",[])
-            and "three-page" in (r.get("source","")+" "+r.get("notes","")).lower()
+            and "one-page llc" in r.get("source","").lower()
             for r in rows
         ))
         self.assertTrue(any(
@@ -141,11 +138,12 @@ class Week4StoryAuthorityTests(unittest.TestCase):
             self.assertNotIn(" / ",g["owner"])
             self.assertEqual(g["control_status"],"PASS")
 
-    def test_assembly_waits_on_story_lock(self):
+    def test_assembly_is_locked_to_27_pages_and_waits_on_approved_pngs(self):
         doc=json.loads((PACK/"WEEK_04_ASSEMBLY_MANIFEST.json").read_text())
         result=assembly.validate(doc)
+        self.assertEqual(len(doc["pages"]),27)
         self.assertEqual(result["state"],"HOLD_EXTERNAL")
-        self.assertEqual(result["reason"],"WAITING_ON_STORY_LOCK")
+        self.assertEqual(len(result["unresolved_pages"]),27)
 
 if __name__=="__main__":
     unittest.main()
