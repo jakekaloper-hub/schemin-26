@@ -548,6 +548,18 @@
           "type": "pull_request",
           "ref": "https://github.com/jakekaloper-hub/schemin-26/pull/130",
           "status": "OPEN"
+        },
+        {
+          "type": "method_lens_review",
+          "ref": "living-novel/migrations/TWELVE_PRINCIPAL_POV_SEVEN_LENS_CHALLENGE_2026-10-07.md",
+          "status": "ADVISORY_ONLY",
+          "note": "Internal method-lens prototype; does not satisfy Full Seven council acceptance."
+        },
+        {
+          "type": "provider_snapshot",
+          "ref": "living-novel/migrations/TWELVE_PRINCIPAL_POV_PHASE0_CENSUS_2026-10-07.md",
+          "status": "CORROBORATING_ONLY",
+          "note": "Flaim ESPN Week 4 values and winner fields match published totals; no explicit aggregate DECIDED finality field returned."
         }
       ],
       "source_authority": "living-novel/migrations/TWELVE_PRINCIPAL_POV_MIGRATION_PROGRAM_V1.md",
