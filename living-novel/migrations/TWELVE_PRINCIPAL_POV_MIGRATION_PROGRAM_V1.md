@@ -452,3 +452,11 @@ The Week 4 novel route remains causal, not comprehensive. The ObiWan–DK contes
 9. Reconcile indexes, manifests, execution-control state, and superseded artifacts; publish the final reader package only after all required gates pass.
 
 Existing hard manuscript canon is changed only through the migration's governed review and exact-byte approval gates. The official Memo's release does not itself authorize an unverified score or auto-promote soft Novel prose.
+
+
+## 13. EXECUTION EVIDENCE UPDATE — 2026-10-07
+
+- `living-novel/migrations/TWELVE_PRINCIPAL_POV_PHASE0_CENSUS_2026-10-07.md` records the initial bounded census, hard-canon boundary, existing task-registry gap, El Niño gate, and fresh Week 4 Flaim corroboration. It explicitly leaves Phase 0 open pending exact-branch full-tree validation.
+- `living-novel/migrations/TWELVE_PRINCIPAL_POV_SEVEN_LENS_CHALLENGE_2026-10-07.md` records an internal seven-method-lens architecture challenge. It is marked as a review prototype, not a live Full Seven engagement or acceptance receipt. Its conditions are carried into the migration's acceptance work: cold-reader route tests, causality/duplication checks, world-depth regression, El Niño gate, manuscript voice proof, and a read-only reader surface.
+- Execution Control now tracks this lifecycle as `NOVEL-POV-MIG-001` on this branch. It remains `IN_PROGRESS`; the proposed architecture, census, and review prototype do not close the migration or authorize canon promotion.
+- Week 4 ESPN matchup period 4 values and winner fields were freshly re-read on 2026-10-07. Flaim returned totals/winners but this response did not expose explicit aggregate `DECIDED` finality status. The provider-finality gate in PR #128 remains open.
