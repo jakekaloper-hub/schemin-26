@@ -349,3 +349,106 @@ Do not return to Founder merely to shuttle questions between Directors. Route in
 This migration is complete only when the repository, Novel OS, current manuscript and future production path all agree on the same rule:
 
 > **The Schemin' '26 Living Novel is experienced only through the Twelve principal characters. The world may contain countless other people and institutions, but none of them narrates the story. Readers may follow the canonical crosscut or choose any one of the Twelve principal paths through the same causal world.**
+
+## 10. FINISHED READER PRODUCT ARCHITECTURE — PROPOSED ADDENDUM
+
+This migration's final product is a **single canonically governed novel with twelve selectable principal reading paths**. It is not twelve alternative event timelines.
+
+### Reader-facing modes
+
+- **Canonical Book Order:** the editorially selected crosscut across the Twelve.
+- **Choose a Principal:** start or continue through scenes routed to one selected principal, in story-time order.
+- **Follow a Group:** optionally follow a selected set of principal paths while preserving each scene's original chronology.
+- **Crosscut an Event:** reveal another licensed principal's treatment only at the same event/timepoint; do not reveal downstream consequences early.
+
+Reader choice changes viewpoint, sequence of access, and information revealed. It never changes league results, event order, world state, character canon, or what happened.
+
+A character path is a curated route through scenes the selected principal can own or encounter. It does not require that principal to witness every league event. The path must remain intelligible on its own, and must not fill gaps with a neutral narrator, unsupported knowledge, or recap blocks that replace lived consequence. Events with no eligible scene remain in shared state and may enter a path later when causally relevant.
+
+### Canonical content objects
+
+The shared story graph is the sole source for:
+- scene identity and story time;
+- one licensed principal POV per scene;
+- source-event and evidence references;
+- POV knowledge before/on-page/after;
+- character and world-state deltas;
+- scene costs, decisions, and consequences;
+- path inclusion and cross-path dependency;
+- spoiler boundary and duplicate-scene rationale;
+- supersession/canon status.
+
+The twelve reader manifests are generated views over that graph. They do not fork prose authority or event truth. Any scene shown in multiple paths must be the same canon scene or a separately justified scene that contributes distinct knowledge, cost, bias, or consequence.
+
+### Final release package
+
+1. One canonical manuscript in editorial book order.
+2. Twelve validated principal-path manifests.
+3. A lightweight, offline-capable HTML reader prototype with twelve entry choices, path navigation, chronology guards, and return-to-canonical-order links.
+4. A release QA receipt proving route validity and shared-event consistency.
+5. A print/PDF edition only after the canonical text is stable; selectable routing remains available in the digital reader and path manifests.
+
+Keep the reader prototype static and dependency-light. It must operate without login, external APIs, paid services, metered credits, or a new persistent backend. The prototype is an edition surface over Novel OS, not a second content or canon system.
+
+### Acceptance gates
+
+- All 12 entry choices resolve to valid paths.
+- Each path is chronological and independently understandable.
+- Event truth and shared world-state hashes match across every route.
+- A route cannot leak another principal's prohibited interiority or future knowledge.
+- Crosscut links reveal only an allowed scene at the same chronology point.
+- No two routes silently present incompatible versions of an event.
+- The Twelve remain the only POV principals; no functional replacement narrator appears.
+- The Manning/El Niño path remains blocked until its special canon gate in Section 4 passes.
+
+## 11. WEEK 4 PUBLISHED MEMO + CHAPTER IV INTEGRATION — PROPOSED ADDENDUM
+
+### Source classification
+
+The official Week 4 Memo pair is:
+- `Pro_Schemin_26_Week_4_Official_Memo.pdf`
+- `Pro_Schemin_26_Week_4_Official_Memo.html`
+
+The pair is a 33-page publication (33 raster pages in the PDF; 33 page images in the HTML). SHA-256 receipts from the retrieved published bytes:
+- PDF: `1fc322a3eb0e8b43499ee4556c715ba4c00a8c388e7a92a904954a35f0482124`
+- HTML: `deaea56fbf476ceda7a4ee657560c4889a2b3d91ab34a19e52f731b701300360`
+
+The Memo is authoritative evidence of what the league publicly published and how it framed the week's stories, images, objects, and recurring lore. It is **not** a substitute for Flaim/ESPN as authority for results, player-level scoring, transactions, injury status, or temporal finality.
+
+### Week 4 event graph intake
+
+Register all six published outcomes and their twelve owner consequences in the shared Week 4 event/state layer. Current published totals are:
+
+- ObiWan Jacoby 157.33 over D0nkey K0ng 139.67.
+- Three Dreaded Snake 149.84 over Mud Dogs 126.98.
+- Red Leopards 164.08 over Dr. Duckhook 128.36.
+- Slob on my Dobb 190.72 over The Chili Cheesers 139.96.
+- His Majesty's Blood 177.32 over The LLC 138.87.
+- El Niño 170.62 over Seven Deadly Chins 106.20.
+
+Ingest those values as corroborating publication data only. Before any value enters league-truth canon, revalidate it against the authoritative Flaim/ESPN result transaction and preserve the provider-finality receipt.
+
+The Week 4 novel route remains causal, not comprehensive. The ObiWan–DK contest is the Chapter IV scene-spine candidate already drafted in PR #128. The other five outcomes remain represented in the twelve-owner consequence/event ledger and may be banked or backgrounded; they do not earn six additional scenes by virtue of publication.
+
+### In-flight work reconciliation
+
+- Issue #129 and PR #130 are the governing Twelve-POV migration work; do not create a parallel Novel OS, reader engine, or migration program.
+- PR #128's `THE ROAD DOES NOT BOW` remains a **reviewed soft-manuscript/canon-proposal candidate**, not hard canon. It is a useful pilot for principal-POV scene metadata and path assembly.
+- Preserve PR #128's already completed evidence, causal selection, and prose. Revalidate its evidence against the now-published Week 4 state and current Flaim/ESPN finality; do not restart discovery.
+- Migrate the Chapter IV candidate under the same POV Constitution V2 and scene graph as the back-migrated Prologue–III material. No parallel or duplicate Week 4 canon transaction.
+- The official Memo's page-specific comedy, visual depictions, and editorial interpretations are eligible source material, not automatic Novel canon. Character and location rendering must resolve through current canonical authorities.
+- Chapter IV may not enter hard canon or the final reader package until the applicable migration, POV knowledge, evidence, continuity, and manuscript approval gates pass.
+
+## 12. INTEGRATED EXECUTION ORDER
+
+1. Close Phase 0 census using the current repository and the active PR/issue inventory; retain historical records with explicit supersession rather than rewriting evidence.
+2. Run Phase 1 Full Seven independent craft review and internal Director challenge against this migration plus the Week 4 integration addendum; preserve material dissent.
+3. Resolve the Manning/El Niño principal-path gate through Character Director + World Architect, with Umpire review, before licensing its path.
+4. Complete the Twelve packet and scene-graph contracts; define reader manifests and static reader prototype acceptance before manuscript assembly.
+5. Back-migrate Prologue and Chapters I–III in the established order, preserving verified facts and approved world details while removing Edrin-owned narrative functions.
+6. Reconcile the PR #128 Chapter IV candidate after provider-finality revalidation; classify all six Week 4 outcomes and all twelve owner deltas, foregrounding only causally necessary material.
+7. Assemble and validate Canonical Book Order plus eligible principal paths; blocked paths remain visibly blocked rather than receiving invented POV.
+8. Run Umpire-led continuity, evidence, POV, world-depth, real-owner-firewall, route, visual-authority, and publication QA.
+9. Reconcile indexes, manifests, execution-control state, and superseded artifacts; publish the final reader package only after all required gates pass.
+
+Existing hard manuscript canon is changed only through the migration's governed review and exact-byte approval gates. The official Memo's release does not itself authorize an unverified score or auto-promote soft Novel prose.
