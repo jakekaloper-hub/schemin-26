@@ -1,7 +1,7 @@
 # Twelve-Principal POV Migration — Phase 0 Census Update
 
 **Captured:** 2026-10-07  
-**Status:** INITIAL CENSUS / NOT CLOSED  
+**Status:** PHASE 0 PASS — EXACT-BRANCH TEXT CENSUS COMPLETE  
 **Controlling work:** Issue #129; PR #130; `living-novel/migrations/TWELVE_PRINCIPAL_POV_MIGRATION_PROGRAM_V1.md`  
 **Purpose:** Record the first evidence-backed dependency set and production blockers before drafting a migration transaction.
 
@@ -48,7 +48,7 @@ Manning / El Niño remains a migration blocker. Current authorities describe El 
 
 ## Week 4 evidence snapshot — corroboration only
 
-On 2026-10-07 at 16:44 UTC, the connected Flaim ESPN feed for Pro Schemin' Football League, 2026, matchup period 4 returned six winner fields and totals matching the published Week 4 Memo and PR #128 evidence freeze:
+On 2026-10-07 at 16:43 UTC, the connected Flaim ESPN feed for Pro Schemin' Football League, 2026, matchup period 4 returned six winner fields and totals matching the published Week 4 Memo and PR #128 evidence freeze:
 
 | Winner | Opponent | Provider-returned total |
 |---|---|---:|
@@ -65,6 +65,61 @@ This response exposes matchup winner fields but no explicit aggregate `DECIDED`/
 
 The current `governance/execution-control/TASK_REGISTRY_V1.json` contains 17 tasks and no task for Issue #129 / PR #130's Twelve-POV migration. It does contain the separate Novel continuation task (`NOVEL-NEXT-002`), which remains `NOT_STARTED` and depends on `MEMO-W4-002`; the latter is `WAITING_EXTERNAL`. This migration therefore needs a normalized execution-control entry before its status can be called complete.
 
+## Exact-branch full-tree scan and classification
+
+**Scan target:** PR branch `novel/12-principal-pov-migration`, head `68be03df45d0f558c7cd8b26fcc2c56efef2ba79`.  
+**Method:** `git grep -l -I -i -E '\\b(Edrin|Edin|Edrin Vale)\\b|archive[ -]?pov|institutional[ -]?pov|bounded witness[ -]?pov|anonymous omniscient|neutral narrator' HEAD --` against every tracked text blob in the exact branch.  
+**Result:** 31 files matched; all matches are classified below. Binary image/PDF assets are not text-searchable and are outside this narrator-dependency census.
+
+### Active dependencies to migrate or supersede (9)
+
+- `living-novel/os/NOVEL_POV_CONSTITUTION_V1.md`
+- `living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md`
+- `living-novel/os/NOVEL_SCORE_ARTIFACT_FOREGROUNDING_DOCTRINE_V1.md` — retain its anti-pattern as guidance, but label/remove named narrator examples in the V2 rewrite.
+- `living-novel/os/state/CURRENT_OPEN_LOOP_LEDGER_V1.json`
+- `living-novel/whole-book/CHARACTER_POV_TEMPORAL_STATE_MATRIX_V1.md`
+- `living-novel/world/AUTHOR_ROOM_UNIVERSE_HYDRATION_STANDARD_V1.md`
+- `living-novel/narrative/CHAPTER_01_ARCHITECTURE.md`
+- `living-novel/narrative/CHAPTER_02_ARCHITECTURE.md`
+- `living-novel/narrative/CHAPTER_03_UNIVERSE_HYDRATION_PACKET_V1.md` — future Edrin bridge language must be superseded; retain as Chapter III production provenance.
+
+### Closed hard-canon manuscript requiring governed migration (3)
+
+- `living-novel/manuscript/PROLOGUE_DRAFT_V1.md`
+- `living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md`
+- `living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md`
+
+These remain hard canon until exact-byte migration approval transactions replace them.
+
+### Historical evidence to retain without retroactive edits (14)
+
+- `living-novel/qa/CHAPTER_01_EDITORIAL_AUDIT.md`
+- `living-novel/qa/PROLOGUE_DRAFT_V1_EDITORIAL_AUDIT.md`
+- `living-novel/consultants/author-council/engagements/NOVEL-AUTHOR-CONSULT-2026-10-01-001/00_EVIDENCE_FREEZE.md`
+- `living-novel/consultants/author-council/engagements/NOVEL-AUTHOR-CONSULT-2026-10-01-001/BULLPEN_CROSS_EXAMINATION_R1.md`
+- `living-novel/consultants/author-council/engagements/NOVEL-AUTHOR-CONSULT-2026-10-01-001/IMPLEMENTATION_DECISION.md`
+- `living-novel/consultants/author-council/engagements/NOVEL-AUTHOR-CONSULT-2026-10-01-001/ROUND_1_RECONCILIATION.md`
+- `living-novel/consultants/author-council/engagements/NOVEL-AUTHOR-CONSULT-2026-10-01-001/round-1/GEORGE_RR_MARTIN_R1.md`
+- `living-novel/consultants/author-council/engagements/NOVEL-AUTHOR-CONSULT-2026-10-01-001/round-1/JOE_ABERCROMBIE_R1.md`
+- `living-novel/consultants/author-council/engagements/NOVEL-AUTHOR-CONSULT-2026-10-01-001/round-1/URSULA_K_LE_GUIN_R1.md`
+- `living-novel/consultants/author-council/engagements/NOVEL-AUTHOR-CONSULT-2026-10-01-001/round-2/URSULA_K_LE_GUIN_R2.md`
+- `living-novel/production/chapter-03/CHAPTER_03_DOSSIER_V2.md`
+- `living-novel/production/chapter-03/CHAPTER_03_MINIMUM_PRE_PROSE_GATE_V1.md`
+- `living-novel/production/chapter-03/CHAPTER_03_POV_PACKET_WILSON_V1.json`
+- `living-novel/production/chapter-03/consultant-review/URSULA_K_LE_GUIN_CH3_GATE_REVIEW.md`
+
+These are evidence of earlier decisions and closed Chapter III work, not current narrator licenses. Preserve them; add supersession references where a future operator could mistake a historical recommendation for current law.
+
+### Expected migration records and non-Novel hit (5)
+
+- `living-novel/migrations/TWELVE_PRINCIPAL_POV_MIGRATION_PROGRAM_V1.md`
+- `living-novel/migrations/TWELVE_PRINCIPAL_POV_PHASE0_CENSUS_2026-10-07.md`
+- `living-novel/migrations/TWELVE_PRINCIPAL_POV_SEVEN_LENS_CHALLENGE_2026-10-07.md`
+
+These name Edrin solely as the migration target or as review context. They are not active POV dependencies. The task-registry hit is the migration alias `retire Edrin`, not a license. The remaining hit, `memo-os/week-4/WEEK_4_PERSONALIZED_INTELLIGENCE_AMENDMENT_LLC_HMB_CASINO_2026-10-02.md`, uses “institutional POV” as a Memo editorial lens and is outside Novel narrator authority.
+
+**Reconciliation:** 9 active system/architecture dependencies + 3 closed hard-canon manuscripts + 14 historical evidence files + 3 expected migration records + 2 non-narrative/control hits = 31 classified files.
+
 ## Phase 0 disposition
 
-**HOLD / CONTINUE.** The first known dependency set and hard-canon boundaries are recorded. Phase 0 cannot be closed until an exact-branch full-tree scan confirms all active dependencies, distinguishes historical evidence from active prose/templates, and reconciles the migration into the normalized execution registry. No manuscript canon has been changed by this census.
+**PASS.** The exact-branch tracked-text census is complete, all 31 hit files are classified, the migration's hard-canon boundary is recorded, and `NOVEL-POV-MIG-001` is now present in Execution Control. No hard manuscript canon has been changed by the census.
