@@ -53,8 +53,17 @@ Every Memo OS visual containing a league character MUST execute `OWNER RESOLUTIO
 
 ## Memo reference resolution\n\n- Explicit `Week N` requests resolve only the canonical RELEASED artifact for Week N.\n- `latest`, `current`, `benchmark`, `most recent`, and unspecified benchmark requests resolve through `../governance/publication-manifest/memo_reference_resolver.py`.\n- Search similarity never outranks structured publication authority.\n- Missing/unreleased explicit weeks fail closed; they never substitute an older memo.\n- Future release promotion must move `CURRENT_BENCHMARK` to the newly released highest week while preserving prior issues as historical canon.\n\n## Current production cycle
 
-- Week 3: closed / immutable release evidence.
-- Week 4: preproduction open at `week-4/_INDEX.md`; finished art remains blocked until V5.5 upstream gates pass.
+- Week 3: closed / immutable release evidence and current machine-resolved benchmark.
+- Week 4: Commissioner-reported external publication; repository release registration and final PDF/HTML receipts remain required.
+- Week 5: readiness open, story lock blocked; use the canonical Persistence and Promotion Control and current-state reconciliation before any creative production.
+
+### Week 5 readiness control
+
+The Week 5 readiness sequence is:
+
+`Authority Resolve → Week 4 Publication State Lock → Fact Lock Readiness → World/Character State Reconciliation → Active Memo OS Verification → Story Economy Architecture → Umpire Readiness Audit`
+
+This is a readiness transaction inside the existing Memo OS, not a parallel operating system. It does not promote speculative Week 5 story content or authorize artwork. Week 4 remains provisional in repository state until its exact PDF/HTML artifacts, hashes, manifest, and release receipts are registered.
 
 
 ## Shared resilience control

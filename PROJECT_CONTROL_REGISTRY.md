@@ -63,7 +63,21 @@ This program plans remediation and production hardening only. It does **not** pr
 
 **Official Week 2 Memo (league-shared September 23, 2026): `Week 2 memo.pdf`.** It is the 14-page illustrated issue beginning with Red Leopards “SPECIAL DELIVERY.” This is the canonical Week 2 published artifact and historical gold-standard issue. It remains canonical for Week 2, but it is not the current/latest Memo benchmark after a newer released issue is promoted. No similarly named Week 2 “final,” test, replay, rerun, or RC candidate may replace it without explicit Commissioner supersession.
 
-## Weekly Memo benchmark authority\n\n**Current benchmark: Week 3 — `Pro_Schemin_Week_3_Memo_Final.pdf` (21-page immutable release).**\n\nMemo reference resolution is deterministic through `governance/publication-manifest/memo_reference_resolver.py` and the Publication Manifest. Explicit week requests resolve that released week; `latest`, `current`, `benchmark`, `most recent`, or an unspecified Memo benchmark resolve the highest released issue carrying `CURRENT_BENCHMARK`. Blocked/draft/test/replay artifacts cannot satisfy the resolver. An unresolved explicit week fails closed and must never silently fall back to Week 2 or another historical issue.\n\nWhen a future Week N passes its owning release gate, benchmark promotion must be transacted explicitly in the Publication Manifest: Week N becomes `CURRENT_BENCHMARK`; the prior benchmark remains canonical historical evidence.\n\n## Five-plane architecture
+## Weekly Memo benchmark authority
+
+**Current machine-resolved benchmark: Week 3 — `Pro_Schemin_Week_3_Memo_Final.pdf` (21-page immutable release).**
+
+Memo reference resolution is deterministic through `governance/publication-manifest/memo_reference_resolver.py` and the Publication Manifest. Explicit week requests resolve that released week; `latest`, `current`, `benchmark`, `most recent`, or an unspecified Memo benchmark resolve the highest released issue carrying `CURRENT_BENCHMARK`. Blocked/draft/test/replay artifacts cannot satisfy the resolver. An unresolved explicit week fails closed and must never silently fall back to Week 2 or another historical issue.
+
+### Week 4 / Week 5 readiness reconciliation — 2026-10-07
+
+Commissioner-reported external state says the official Week 4 PDF and twin HTML were published. The repository does not yet contain a verified PDF/HTML release transaction, byte/hash receipt, or final publication manifest for those external artifacts. Therefore Week 4 is **EXTERNAL_RELEASE_REPORTED / REPOSITORY_RELEASE_RECEIPT_REQUIRED** and Week 3 remains the current machine-resolved benchmark.
+
+Week 5 is **READINESS_OPEN / STORY_LOCK_BLOCKED**. The active Memo OS is V5.5 plus the merged Persistence and Promotion Control. No speculative Week 5 matchup story, venue, prose, or artwork is promoted by this state.
+
+Week 4 may become `CURRENT_BENCHMARK` only after its exact PDF and HTML artifacts are registered, bound to one immutable manifest, independently checked, and passed through the owning release gate. A future Week N must never be promoted from chat or external-report evidence alone.
+
+## Five-plane architecture
 
 ```text
 JAKE / COMMISSIONER INTENT
@@ -342,9 +356,11 @@ FLA Bullpen is a selective specialist/governance adapter. It is not a sixth Sche
 
 ### Prior checkpoint — 2026-09-29
 
-- Week 3 facts are locked and the 21-page Week 3 Memo is immutable release evidence.
-- Week 3 post-production is complete; its accepted controls were integrated into Memo OS V5.5.
-- Week 4 is the next Memo production cycle; use V5.5 rather than recreating Week 3 process manually.
+- Week 3 facts are locked and the 21-page Week 3 Memo remains the current machine-resolved benchmark.
+- Week 3 post-production is complete; its accepted controls are integrated into Memo OS V5.5.
+- Week 4 external publication is reported by the Commissioner but remains unregistered in the repository release transaction.
+- Week 5 is the active readiness cycle: Authority Resolve, Week 4 release reconciliation, fresh Fact Lock readiness, World/Character reconciliation, Story Economy schema, and Umpire hold.
+- Week 5 story lock and artwork remain blocked until Week 4 release registration and fresh evidence gates pass.
 - Living Novel Chapter III — `THE HILL IS NOT THE KINGDOM` — is HARD MANUSCRIPT CANON / CLOSED after Founder approval on 2026-10-01. It interprets selected Week 3 consequence without establishing Week = Chapter.
 - Character Control Plane v2 is advancing but remains RELEASE_CANDIDATE / NOT ACTIVE.
 - Schemin World Engine V1.1 is RELEASED / ACTIVE on `main`; PR #29 closed the Encounter-geography, travel-graph and inhabitant-ontology gaps and repaired stale division assignments.
