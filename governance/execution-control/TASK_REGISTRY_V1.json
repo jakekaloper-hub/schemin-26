@@ -490,6 +490,78 @@
       "superseded_by": null
     },
     {
+      "task_id": "NOVEL-POV-MIG-001",
+      "title": "Migrate the Living Novel to the Twelve-principal selectable POV engine",
+      "project": "Schemin '26 Living Novel",
+      "program": "Twelve-principal POV Migration",
+      "roadmap": "Founder-directed Twelve-principal POV migration",
+      "phase": "Phase 0 — dependency census",
+      "milestone": "Twelve-path architecture, migrated manuscript, QA, and governed release",
+      "workstream": "Narrative architecture and canon migration",
+      "owner": "the_beat_writer",
+      "reviewer": "the_umpire",
+      "priority": "P0",
+      "status": "IN_PROGRESS",
+      "created_at": "2026-10-07",
+      "started_at": "2026-10-07",
+      "completed_at": null,
+      "dependencies": [
+        "NOVEL-NEXT-001"
+      ],
+      "blocked_by": [
+        "FULL_SEVEN_ARCHITECTURE_REVIEW",
+        "MANNING_EL_NINO_CANON_GATE",
+        "EXACT_BYTE_HARD_CANON_MIGRATION_APPROVAL",
+        "WEEK_4_PROVIDER_FINALITY_FOR_CHAPTER_IV"
+      ],
+      "blocks": [],
+      "acceptance_criteria": [
+        "Phase 0 exact-branch full-tree census closes with active, historical, superseded, and canon-boundary dependencies classified",
+        "Full Seven published-method review and internal Bullpen challenge are reconciled with dissent preserved",
+        "Manning / El Niño path decision passes Character Director, World Architect, and Umpire authority gates without a thirteenth or omniscient narrator",
+        "Twelve evidence-bound POV packets and canonical shared-scene graph validate",
+        "Prologue and Chapters I–III are migrated through exact-byte canon transactions with approved receipts",
+        "Chapter IV candidate is reconciled against provider-final Week 4 evidence and migrated under the same scene graph",
+        "Canonical order and all eligible principal-path manifests pass chronology, knowledge, voice, world-depth, and real-owner-firewall QA",
+        "Static reader prototype and final package pass route, shared-state, spoiler, and accessibility QA",
+        "Execution registry, Novel OS, indexes, supersession records, and final release receipt agree on ACTIVE Twelve-principal architecture"
+      ],
+      "evidence": [
+        {
+          "type": "phase_census",
+          "ref": "living-novel/migrations/TWELVE_PRINCIPAL_POV_PHASE0_CENSUS_2026-10-07.md",
+          "status": "HOLD",
+          "note": "Initial bounded census; whole-tree exact-branch census remains open."
+        },
+        {
+          "type": "program",
+          "ref": "living-novel/migrations/TWELVE_PRINCIPAL_POV_MIGRATION_PROGRAM_V1.md",
+          "status": "PROPOSED",
+          "note": "Architecture and lifecycle proposed in PR #130; not ratified or released."
+        },
+        {
+          "type": "issue",
+          "ref": "https://github.com/jakekaloper-hub/schemin-26/issues/129",
+          "status": "OPEN"
+        },
+        {
+          "type": "pull_request",
+          "ref": "https://github.com/jakekaloper-hub/schemin-26/pull/130",
+          "status": "OPEN"
+        }
+      ],
+      "source_authority": "living-novel/migrations/TWELVE_PRINCIPAL_POV_MIGRATION_PROGRAM_V1.md",
+      "next_action": "Close the exact-branch full-tree census; run the required Full Seven review and internal counterweight challenge; resolve the El Niño gate; retain canon changes behind their exact-byte transaction.",
+      "aliases": [
+        "twelve POV migration",
+        "selectable principal POV engine",
+        "retire Edrin",
+        "reader path architecture"
+      ],
+      "supersedes": [],
+      "superseded_by": null
+    },
+    {
       "task_id": "REPO-ARCH-V2-001",
       "title": "Inventory and audit current Schemin repository structure",
       "project": "Schemin '26",
