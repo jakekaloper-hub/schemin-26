@@ -39,9 +39,9 @@ class ExecutionControlTests(unittest.TestCase):
     def test_novel_pov_migration_is_tracked_without_reopening_canon(self):
         task=self.index["NOVEL-POV-MIG-001"]
         self.assertEqual(task["status"],"IN_PROGRESS")
-        self.assertEqual(task["phase"],"Phase 0 — dependency census")
+        self.assertEqual(task["phase"],"Phase 1 — Full Seven architecture review and reconciliation")
         self.assertEqual(self.index["NOVEL-NEXT-001"]["status"],"COMPLETE")
-        self.assertTrue(any(e["status"]=="HOLD" for e in task["evidence"]))
+        self.assertTrue(any(e.get("type")=="phase_census" and e["status"]=="PASS" for e in task["evidence"]))
 
     def test_bullpen_next_returns_executable_task(self):
         nxt=ec.select_next(self.data)
