@@ -67,3 +67,22 @@ Failed claims: HMB Brissett bid 4, Dohnte Meyers bid 6, Will Shipley bid 19, Keo
 - Week 5 final results / Memo release: **NOT AUTHORIZED**.
 
 **Status classification:** IMPLEMENTED = evidence receipt; TESTED = structural/manual checks only; AUDITED = author review only, NOT independent; PROMOTED = NO; BLOCKED = final Fact Lock and art; REMAINING_EXTERNAL_INPUT_REQUIRED = later ESPN final scoring, Pittsy's Book receipts, approved renderer bindings, independent QA.
+
+## Gate 2 — Player-level scoring reconciliation (2026-10-09)
+
+**Source:** authenticated FLAIM `get_matchups` ESPN football, league 1417621, season 2026, week 5, `detail=players`, queried once for each home team ID 12, 7, 2, 3, 6, 10. All six calls succeeded. Summed started-player points reconcile to the provider's scoring-period side values, within floating-point rounding:
+
+| Matchup | Home started scoring components | Home sum | Away started scoring components | Away sum |
+|---|---|---:|---|---:|
+| Duckhook / DK | Jake Ferguson 4.90 | 4.90 | Dak Prescott 15.64 + Brandon Aubrey 5.00 | 20.64 |
+| Chili / El Niño | None reported | 0.00 | George Pickens 29.00 | 29.00 |
+| Red / ObiWan | None reported | 0.00 | None reported | 0.00 |
+| Slob / Chins | CeeDee Lamb 2.90 | 2.90 | Emeka Egbuka 17.30 | 17.30 |
+| TDS / HMB | Javonte Williams 15.40 | 15.40 | None reported | 0.00 |
+| Mud Dogs / LLC | None reported | 0.00 | None reported | 0.00 |
+
+**Result:** 12/12 side-level sums match the scoring-period figures in the earlier receipt; no evidence of mismatched Thursday player points. **Still unresolved:** ESPN `totalPoints=0` for every side in the returned matchup objects. This field is not reliable as a live scoring source in this snapshot. Do not label the discrepancy fixed or the fantasy week complete; subsequent refresh required. All six `winner=UNDECIDED`.
+
+**Scope warning:** The queried player details represent a point-in-time lineup snapshot, not an immutable lock of starters for future games. Changes to rosters or lineups require refreshed evidence. No player injuries or projected outcomes are established by these rows.
+
+**Gate state:** PLAYER_SCORING_PERIOD_RECONCILIATION = PASS (6/6 pairings, 12/12 sides); TOTAL_POINTS_SEMANTICS = HOLD; INDEPENDENT_UMPIRE = NOT RUN; CI = NOT VERIFIED; PR PROMOTION = HOLD.
