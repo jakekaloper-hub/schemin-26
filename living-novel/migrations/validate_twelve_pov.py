@@ -49,6 +49,61 @@ def validate(registry, scenes):
     return errors
 
 
+def validate_character_provenance(registry, scenes, canon_text):
+    """Validate owner identity bindings against canonical owner headings.
+
+    This confirms identity/source linkage only. Appearance, story-time state,
+    visual source bytes, and authorizations need separate qualified review.
+    """
+    if not isinstance(registry, dict) or not isinstance(scenes, list) or not isinstance(canon_text, str):
+        return ["character provenance requires registry, scene list, and master canon text"]
+    principals = registry.get("principals", [])
+    if not isinstance(principals, list) or len(principals) != 12:
+        return ["character provenance requires twelve canonical candidates"]
+    owners = {}
+    for principal in principals:
+        if not isinstance(principal, dict):
+            return ["malformed principal owner record"]
+        pid, owner = principal.get("id"), principal.get("owner_name")
+        if not isinstance(pid, str) or not isinstance(owner, str) or not owner.strip():
+            return ["principal missing owner name or ID"]
+        if pid in owners or ("### " + owner + " /") not in canon_text:
+            return ["owner identity not uniquely present in master character canon: " + str(owner)]
+        owners[pid] = owner
+    errors = []
+    source = "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+    for i, scene in enumerate(scenes):
+        if not isinstance(scene, dict):
+            errors.append(f"scene[{i}]: malformed character scene")
+            continue
+        pov_id = scene.get("principal_pov_id")
+        if scene.get("pov_owner_name") != owners.get(pov_id):
+            errors.append(f"scene[{i}]: POV owner identity mismatch")
+        if scene.get("character_canon_source") != source:
+            errors.append(f"scene[{i}]: missing character canon provenance")
+        if scene.get("character_state_status") != "REVIEW_REQUIRED":
+            errors.append(f"scene[{i}]: invalid candidate state status")
+        refs = scene.get("character_refs")
+        if not isinstance(refs, list):
+            errors.append(f"scene[{i}]: missing character reference list")
+            continue
+        seen_refs = set()
+        for ref in refs:
+            if not isinstance(ref, dict):
+                errors.append(f"scene[{i}]: malformed character reference")
+                continue
+            rid = ref.get("principal_id")
+            if not isinstance(rid, str) or rid not in owners or rid in seen_refs or rid == pov_id:
+                errors.append(f"scene[{i}]: invalid or duplicate character ID")
+                continue
+            seen_refs.add(rid)
+            if ref.get("owner_name") != owners[rid] or ref.get("character_canon_source") != source:
+                errors.append(f"scene[{i}]: owner/source mismatch for {rid}")
+            if ref.get("state_status") != "REVIEW_REQUIRED":
+                errors.append(f"scene[{i}]: unreviewed character state falsely promoted")
+    return errors
+
+
 def main():
     if len(sys.argv) != 3:
         print("usage: validate_twelve_pov.py registry.json scenes.json", file=sys.stderr)
