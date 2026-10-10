@@ -20,6 +20,8 @@ def validate(registry, scenes):
     if len(ids) != 12 or any(not isinstance(x, str) or not x for x in ids) or len(set(ids)) != 12:
         return ["principal ids must be twelve distinct nonempty strings"]
     allowed = set(ids)
+    if registry.get("status") != "MIGRATION_CANDIDATE_NOT_CANON":
+        errors.append("registry status differs from current candidate contract")
     if not isinstance(scenes, list):
         return ["scene manifest must be a JSON list"]
     seen = set()
@@ -37,8 +39,13 @@ def validate(registry, scenes):
             errors.append(f"{prefix}: invalid principal_pov_id {pov!r}")
         if not isinstance(scene.get("story_time"), str) or not scene["story_time"].strip():
             errors.append(f"{prefix}: missing story_time")
-        if pov == "el_nino" and not scene.get("elemental_pov_canon_receipt"):
-            errors.append(f"{prefix}: El Niño requires explicit elemental POV canon receipt")
+        if pov == "el_nino":
+            approved = registry.get("elemental_pov_approval", {})
+            receipt = scene.get("elemental_pov_canon_receipt")
+            if not isinstance(approved, dict) or approved.get("status") != "FOUNDER_APPROVED":
+                errors.append(f"{prefix}: El Niño elemental POV remains unapproved in registry")
+            elif not isinstance(receipt, str) or receipt != approved.get("receipt_id") or not receipt:
+                errors.append(f"{prefix}: El Niño receipt must match approved registry receipt")
     return errors
 
 
