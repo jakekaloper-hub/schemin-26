@@ -43,7 +43,11 @@
         "parent_binding_class": "PARENT_SITE_INFERRED_SOUTH_BRIDGE_NOT_MAPPED",
         "parent_source": "world/data/locations.json",
         "active_sub_location_id": null,
-        "evidence_boundary": "Parent registry location is not confirmation of scene-specific bridge, court, ferry, quay, charter or law"
+        "evidence_boundary": "Parent registry location is not confirmation of scene-specific bridge, court, ferry, quay, charter or law",
+        "scene_detail_disposition": "TEXTURE",
+        "promotion_trigger": "GOVERNED_ROUTE_REQUIRED",
+        "adjudication_reason": "Southern bridge cannot be promoted as mapped route",
+        "adjudication_scope": "EDITORIAL_CLASSIFICATION_NOT_WORLD_AUTHORITY_SIGNOFF"
       },
       "temporal_state_qualification": {
         "authority_path": "living-novel/os/context-packs/PROLOGUE_V4_CONTEXT_PACK_V1.md",
@@ -89,7 +93,11 @@
         "parent_binding_class": "PARENT_SITE_SUPPORTED_HALL_OF_KEEPING_NOT_SEPARATELY_REGISTERED",
         "parent_source": "world/data/locations.json",
         "active_sub_location_id": null,
-        "evidence_boundary": "Parent registry location is not confirmation of scene-specific bridge, court, ferry, quay, charter or law"
+        "evidence_boundary": "Parent registry location is not confirmation of scene-specific bridge, court, ferry, quay, charter or law",
+        "scene_detail_disposition": "SUPPORTED_PARENT_INTERPRETIVE",
+        "promotion_trigger": "GOVERNED_INSTITUTION_IF_PERMANENT",
+        "adjudication_reason": "Archive parent plausible, Hall name not active ID",
+        "adjudication_scope": "EDITORIAL_CLASSIFICATION_NOT_WORLD_AUTHORITY_SIGNOFF"
       },
       "temporal_state_qualification": {
         "authority_path": "living-novel/os/context-packs/PROLOGUE_V4_CONTEXT_PACK_V1.md",
@@ -148,7 +156,11 @@
         "parent_binding_class": "CIVIC_HALL_AFFILIATION_HYPOTHESIS_NOT_APPROVED",
         "parent_source": "world/data/locations.json",
         "active_sub_location_id": null,
-        "evidence_boundary": "Parent registry location is not confirmation of scene-specific bridge, court, ferry, quay, charter or law"
+        "evidence_boundary": "Parent registry location is not confirmation of scene-specific bridge, court, ferry, quay, charter or law",
+        "scene_detail_disposition": "TEXTURE_WITH_LEGAL_HOLD",
+        "promotion_trigger": "GOVERNED_LAW_REQUIRED",
+        "adjudication_reason": "Pell sunset rule and Hall of Measures jurisdiction fictional",
+        "adjudication_scope": "EDITORIAL_CLASSIFICATION_NOT_WORLD_AUTHORITY_SIGNOFF"
       },
       "temporal_state_qualification": {
         "authority_path": "living-novel/os/context-packs/PROLOGUE_V4_CONTEXT_PACK_V1.md",
@@ -194,7 +206,11 @@
         "parent_binding_class": "MARKET_WAGER_CONTEXT_ONLY_NOT_SAME_SITE",
         "parent_source": "world/data/locations.json",
         "active_sub_location_id": null,
-        "evidence_boundary": "Parent registry location is not confirmation of scene-specific bridge, court, ferry, quay, charter or law"
+        "evidence_boundary": "Parent registry location is not confirmation of scene-specific bridge, court, ferry, quay, charter or law",
+        "scene_detail_disposition": "TEXTURE",
+        "promotion_trigger": "NO_SITE_EQUIVALENCE",
+        "adjudication_reason": "Chalk market wager does not establish Pittsy's Book location",
+        "adjudication_scope": "EDITORIAL_CLASSIFICATION_NOT_WORLD_AUTHORITY_SIGNOFF"
       },
       "temporal_state_qualification": {
         "authority_path": "living-novel/os/context-packs/PROLOGUE_V4_CONTEXT_PACK_V1.md",
@@ -247,7 +263,11 @@
         "parent_binding_class": "ARRIVAL_GROUNDS_CONTEXT_ONLY_STABLE_YARD_NOT_MAPPED",
         "parent_source": "world/data/locations.json",
         "active_sub_location_id": null,
-        "evidence_boundary": "Parent registry location is not confirmation of scene-specific bridge, court, ferry, quay, charter or law"
+        "evidence_boundary": "Parent registry location is not confirmation of scene-specific bridge, court, ferry, quay, charter or law",
+        "scene_detail_disposition": "TEXTURE_WITH_LEGAL_HOLD",
+        "promotion_trigger": "GOVERNED_LAW_REQUIRED",
+        "adjudication_reason": "Stable restriction and tariff not binding legal canon",
+        "adjudication_scope": "EDITORIAL_CLASSIFICATION_NOT_WORLD_AUTHORITY_SIGNOFF"
       },
       "temporal_state_qualification": {
         "authority_path": "living-novel/os/context-packs/PROLOGUE_V4_CONTEXT_PACK_V1.md",
@@ -306,7 +326,11 @@
         "parent_binding_class": "ARRIVAL_GROUNDS_CONTEXT_ONLY_EASTERN_SURVEY_AND_TARIFF_COURT_UNMAPPED",
         "parent_source": "world/data/locations.json",
         "active_sub_location_id": null,
-        "evidence_boundary": "Parent registry location is not confirmation of scene-specific bridge, court, ferry, quay, charter or law"
+        "evidence_boundary": "Parent registry location is not confirmation of scene-specific bridge, court, ferry, quay, charter or law",
+        "scene_detail_disposition": "TEXTURE_WITH_LEGAL_HOLD",
+        "promotion_trigger": "GOVERNED_LAW_REQUIRED",
+        "adjudication_reason": "Measurements and centaur tariff challenge do not establish universal law",
+        "adjudication_scope": "EDITORIAL_CLASSIFICATION_NOT_WORLD_AUTHORITY_SIGNOFF"
       },
       "temporal_state_qualification": {
         "authority_path": "living-novel/os/context-packs/PROLOGUE_V4_CONTEXT_PACK_V1.md",
@@ -365,7 +389,11 @@
         "parent_binding_class": "RECORDS_CONTEXT_ONLY_WHARF_NORTHERN_BRIDGE_UNMAPPED",
         "parent_source": "world/data/locations.json",
         "active_sub_location_id": null,
-        "evidence_boundary": "Parent registry location is not confirmation of scene-specific bridge, court, ferry, quay, charter or law"
+        "evidence_boundary": "Parent registry location is not confirmation of scene-specific bridge, court, ferry, quay, charter or law",
+        "scene_detail_disposition": "TEXTURE_WITH_PROPERTY_HOLD",
+        "promotion_trigger": "GOVERNED_PROPERTY_REQUIRED",
+        "adjudication_reason": "Wharf lease and wages local plot only, no world ownership mutation",
+        "adjudication_scope": "EDITORIAL_CLASSIFICATION_NOT_WORLD_AUTHORITY_SIGNOFF"
       },
       "temporal_state_qualification": {
         "authority_path": "living-novel/os/context-packs/PROLOGUE_V4_CONTEXT_PACK_V1.md",
@@ -418,7 +446,11 @@
         "parent_binding_class": "CENTRAL_BASIN_SITE_CONTEXT_ONLY_QUAY_UNMAPPED",
         "parent_source": "world/data/locations.json",
         "active_sub_location_id": null,
-        "evidence_boundary": "Parent registry location is not confirmation of scene-specific bridge, court, ferry, quay, charter or law"
+        "evidence_boundary": "Parent registry location is not confirmation of scene-specific bridge, court, ferry, quay, charter or law",
+        "scene_detail_disposition": "TEXTURE",
+        "promotion_trigger": "HYDROLOGY_NOT_CERTIFIED",
+        "adjudication_reason": "Storm damage acceptable externally; quay location not mapped",
+        "adjudication_scope": "EDITORIAL_CLASSIFICATION_NOT_WORLD_AUTHORITY_SIGNOFF"
       },
       "temporal_state_qualification": {
         "authority_path": "living-novel/os/context-packs/PROLOGUE_V4_CONTEXT_PACK_V1.md",
@@ -489,7 +521,11 @@
         "parent_binding_class": "RECORD_HOUSE_CONTEXT_ONLY_CUSTOMS_ROUTE_UNMAPPED",
         "parent_source": "world/data/locations.json",
         "active_sub_location_id": null,
-        "evidence_boundary": "Parent registry location is not confirmation of scene-specific bridge, court, ferry, quay, charter or law"
+        "evidence_boundary": "Parent registry location is not confirmation of scene-specific bridge, court, ferry, quay, charter or law",
+        "scene_detail_disposition": "REPORTED_EVENT_ONLY",
+        "promotion_trigger": "ROUTE_UNVERIFIED",
+        "adjudication_reason": "Mud Dogs drainage hearsay not a verified traversal",
+        "adjudication_scope": "EDITORIAL_CLASSIFICATION_NOT_WORLD_AUTHORITY_SIGNOFF"
       },
       "temporal_state_qualification": {
         "authority_path": "living-novel/os/context-packs/PROLOGUE_V4_CONTEXT_PACK_V1.md",
@@ -535,7 +571,11 @@
         "parent_binding_class": "CENTRAL_BASIN_CONTEXT_ONLY_FERRY_UNMAPPED",
         "parent_source": "world/data/locations.json",
         "active_sub_location_id": null,
-        "evidence_boundary": "Parent registry location is not confirmation of scene-specific bridge, court, ferry, quay, charter or law"
+        "evidence_boundary": "Parent registry location is not confirmation of scene-specific bridge, court, ferry, quay, charter or law",
+        "scene_detail_disposition": "TEXTURE_WITH_TRANSIT_HOLD",
+        "promotion_trigger": "TRANSIT_RULE_UNVERIFIED",
+        "adjudication_reason": "Priority ferry order and transport rules fictional",
+        "adjudication_scope": "EDITORIAL_CLASSIFICATION_NOT_WORLD_AUTHORITY_SIGNOFF"
       },
       "temporal_state_qualification": {
         "authority_path": "living-novel/os/context-packs/PROLOGUE_V4_CONTEXT_PACK_V1.md",
@@ -588,7 +628,11 @@
         "parent_binding_class": "PARENT_SITE_SUPPORTED_RECORD_HOUSE_IDENTITY_INTERPRETIVE",
         "parent_source": "world/data/locations.json",
         "active_sub_location_id": null,
-        "evidence_boundary": "Parent registry location is not confirmation of scene-specific bridge, court, ferry, quay, charter or law"
+        "evidence_boundary": "Parent registry location is not confirmation of scene-specific bridge, court, ferry, quay, charter or law",
+        "scene_detail_disposition": "SUPPORTED_PARENT_INTERPRETIVE",
+        "promotion_trigger": "CEREMONY_LAW_UNVERIFIED",
+        "adjudication_reason": "Archive conceptual parent, registrar submission not approved constitutional rule",
+        "adjudication_scope": "EDITORIAL_CLASSIFICATION_NOT_WORLD_AUTHORITY_SIGNOFF"
       },
       "temporal_state_qualification": {
         "authority_path": "living-novel/os/context-packs/PROLOGUE_V4_CONTEXT_PACK_V1.md",
@@ -635,7 +679,11 @@
         "parent_binding_class": "PARENT_SITE_SUPPORTED_HALL_OF_KEEPING_NOT_SEPARATELY_REGISTERED",
         "parent_source": "world/data/locations.json",
         "active_sub_location_id": null,
-        "evidence_boundary": "Parent registry location is not confirmation of scene-specific bridge, court, ferry, quay, charter or law"
+        "evidence_boundary": "Parent registry location is not confirmation of scene-specific bridge, court, ferry, quay, charter or law",
+        "scene_detail_disposition": "SUPPORTED_PARENT_INTERPRETIVE",
+        "promotion_trigger": "ACCESS_PROCEDURE_UNVERIFIED",
+        "adjudication_reason": "Night door and bells narrative detail, no general institution rule",
+        "adjudication_scope": "EDITORIAL_CLASSIFICATION_NOT_WORLD_AUTHORITY_SIGNOFF"
       },
       "temporal_state_qualification": {
         "authority_path": "living-novel/os/context-packs/PROLOGUE_V4_CONTEXT_PACK_V1.md",
@@ -664,6 +712,7 @@
     "authority": "world/data/locations.json",
     "source_status": "ACTIVE_LOCATION_REGISTRY_HAS_23_RECORDS_WITH_PROVISIONAL_AND_INTERPRETIVE_CANON",
     "version": "LOCATION_PARENT_BINDINGS_PRELIMINARY_NONPROMOTING",
-    "source_revision_blob": "a7a0d34278ad22b494f087ef9d38c9a8b7a59e55"
+    "source_revision_blob": "a7a0d34278ad22b494f087ef9d38c9a8b7a59e55",
+    "classification_stage": "ALL_12_CLASSIFIED_EDITORIAL_PENDING_WORLD_AUTHORITY"
   }
 }
