@@ -6,6 +6,14 @@ from validate_twelve_pov import validate
 REGISTRY = json.loads((Path(__file__).parent / "TWELVE_PRINCIPAL_REGISTRY_CANDIDATE_V1.json").read_text())
 
 class TestPOV(unittest.TestCase):
+    def test_owner_bindings_match_master_canon(self):
+        canon = (Path(__file__).resolve().parents[2] / "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md").read_text(encoding="utf-8")
+        owners = [p.get("owner_name") for p in REGISTRY["principals"]]
+        self.assertEqual(len(set(owners)), 12)
+        for owner in owners:
+            with self.subTest(owner=owner):
+                self.assertIn("### " + owner + " /", canon)
+
     def test_accept(self):
         self.assertEqual([], validate(REGISTRY, [{"scene_id":"a","story_time":"w3","principal_pov_id":"obiwan_jacoby"}]))
 
