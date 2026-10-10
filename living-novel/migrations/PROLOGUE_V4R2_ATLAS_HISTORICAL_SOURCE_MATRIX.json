@@ -1,0 +1,182 @@
+{
+  "schema": "prologue_authority_evidence_v1",
+  "status": "SOURCE_RECONCILED_NOT_DIRECTOR_CERTIFIED",
+  "manuscript_blob": "2744c2f3b8984e12e85ba95464f3876607f2c3dc",
+  "source_refs": {
+    "atlas_registry": "world/data/locations.json",
+    "atlas_registry_blob": "a7a0d34278ad22b494f087ef9d38c9a8b7a59e55",
+    "history_ledger": "world/history/2025/2025_FACT_LEDGER.md",
+    "preseason_packet": "chronicles/proof-of-concept/prologue/PROLOGUE_PRESEASON_EVIDENCE_AND_EMOTIONAL_SPINE.md",
+    "character_canon": "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+    "temporal_context": "living-novel/os/context-packs/PROLOGUE_V4_CONTEXT_PACK_V1.md"
+  },
+  "history_rules": {
+    "2025_podium": "INTERNALLY_CORROBORATED_BUT_PRIMARY_MATCH_ROW_NOT_MATERIALIZED_PER_2025_FACT_LEDGER",
+    "2026_preweek1": "LOCKED_PROLOGUE_CONTEXT",
+    "character_identities": "CURRENT_OWNER_SPECIFIC_CANON_OVERRIDES_STALE_DRAFT_WEEK_DOC",
+    "wilson": "Gorilla-upper four-equine-leg centaur per current correction; preseason packet says never gorilla and is stale",
+    "el_nino": "NON_EMBODIED_NOVEL_CONSTRAINT; visual representations separate",
+    "images": "RENDERER_BYTES_NOT_PROVEN"
+  },
+  "scenes": [
+    {
+      "scene_id": "P00",
+      "principal_pov": "obiwan_jacoby",
+      "referenced_owners": [],
+      "parent_candidate_loc_id": "LOC-LEAGUE-ARCHIVE",
+      "parent_registry_present": true,
+      "parent_canon_status": "INTERPRETIVE_CANON",
+      "location_status": "TEXTURE",
+      "governed_world_claim": "GOVERNED_ROUTE_REQUIRED",
+      "approval_status": "EDITORIAL_QUALIFICATION_NOT_DOMAIN_SIGNOFF"
+    },
+    {
+      "scene_id": "P01",
+      "principal_pov": "obiwan_jacoby",
+      "referenced_owners": [],
+      "parent_candidate_loc_id": "LOC-LEAGUE-ARCHIVE",
+      "parent_registry_present": true,
+      "parent_canon_status": "INTERPRETIVE_CANON",
+      "location_status": "SUPPORTED_PARENT_INTERPRETIVE",
+      "governed_world_claim": "GOVERNED_INSTITUTION_IF_PERMANENT",
+      "approval_status": "EDITORIAL_QUALIFICATION_NOT_DOMAIN_SIGNOFF"
+    },
+    {
+      "scene_id": "P02",
+      "principal_pov": "obiwan_jacoby",
+      "referenced_owners": [
+        "the_llc",
+        "red_leopards"
+      ],
+      "parent_candidate_loc_id": "LOC-LEAGUE-CHAMBER",
+      "parent_registry_present": true,
+      "parent_canon_status": "PROVISIONAL_CANON",
+      "location_status": "TEXTURE_WITH_LEGAL_HOLD",
+      "governed_world_claim": "GOVERNED_LAW_REQUIRED",
+      "approval_status": "EDITORIAL_QUALIFICATION_NOT_DOMAIN_SIGNOFF"
+    },
+    {
+      "scene_id": "P03",
+      "principal_pov": "obiwan_jacoby",
+      "referenced_owners": [],
+      "parent_candidate_loc_id": "LOC-PITTSYS-BOOK",
+      "parent_registry_present": true,
+      "parent_canon_status": "PROVISIONAL_CANON",
+      "location_status": "TEXTURE",
+      "governed_world_claim": "NO_SITE_EQUIVALENCE",
+      "approval_status": "EDITORIAL_QUALIFICATION_NOT_DOMAIN_SIGNOFF"
+    },
+    {
+      "scene_id": "P05",
+      "principal_pov": "obiwan_jacoby",
+      "referenced_owners": [
+        "chili_outlaw"
+      ],
+      "parent_candidate_loc_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "parent_registry_present": true,
+      "parent_canon_status": "PROVISIONAL_CANON",
+      "location_status": "TEXTURE_WITH_LEGAL_HOLD",
+      "governed_world_claim": "GOVERNED_LAW_REQUIRED",
+      "approval_status": "EDITORIAL_QUALIFICATION_NOT_DOMAIN_SIGNOFF"
+    },
+    {
+      "scene_id": "P06",
+      "principal_pov": "obiwan_jacoby",
+      "referenced_owners": [
+        "red_leopards",
+        "arsenal_warrior"
+      ],
+      "parent_candidate_loc_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "parent_registry_present": true,
+      "parent_canon_status": "PROVISIONAL_CANON",
+      "location_status": "TEXTURE_WITH_LEGAL_HOLD",
+      "governed_world_claim": "GOVERNED_LAW_REQUIRED",
+      "approval_status": "EDITORIAL_QUALIFICATION_NOT_DOMAIN_SIGNOFF"
+    },
+    {
+      "scene_id": "P07",
+      "principal_pov": "obiwan_jacoby",
+      "referenced_owners": [
+        "the_llc",
+        "three_dreaded_snake"
+      ],
+      "parent_candidate_loc_id": "LOC-LEAGUE-ARCHIVE",
+      "parent_registry_present": true,
+      "parent_canon_status": "INTERPRETIVE_CANON",
+      "location_status": "TEXTURE_WITH_PROPERTY_HOLD",
+      "governed_world_claim": "GOVERNED_PROPERTY_REQUIRED",
+      "approval_status": "EDITORIAL_QUALIFICATION_NOT_DOMAIN_SIGNOFF"
+    },
+    {
+      "scene_id": "P08",
+      "principal_pov": "obiwan_jacoby",
+      "referenced_owners": [
+        "el_nino"
+      ],
+      "parent_candidate_loc_id": "LOC-LEAGUE-ARCHIVE",
+      "parent_registry_present": true,
+      "parent_canon_status": "INTERPRETIVE_CANON",
+      "location_status": "TEXTURE",
+      "governed_world_claim": "HYDROLOGY_NOT_CERTIFIED",
+      "approval_status": "EDITORIAL_QUALIFICATION_NOT_DOMAIN_SIGNOFF"
+    },
+    {
+      "scene_id": "P09",
+      "principal_pov": "obiwan_jacoby",
+      "referenced_owners": [
+        "mud_dogs",
+        "seven_deadly_chins",
+        "dr_duckhook",
+        "slob_on_my_dobb"
+      ],
+      "parent_candidate_loc_id": "LOC-LEAGUE-ARCHIVE",
+      "parent_registry_present": true,
+      "parent_canon_status": "INTERPRETIVE_CANON",
+      "location_status": "REPORTED_EVENT_ONLY",
+      "governed_world_claim": "ROUTE_UNVERIFIED",
+      "approval_status": "EDITORIAL_QUALIFICATION_NOT_DOMAIN_SIGNOFF"
+    },
+    {
+      "scene_id": "P10",
+      "principal_pov": "obiwan_jacoby",
+      "referenced_owners": [],
+      "parent_candidate_loc_id": "LOC-LEAGUE-ARCHIVE",
+      "parent_registry_present": true,
+      "parent_canon_status": "INTERPRETIVE_CANON",
+      "location_status": "TEXTURE_WITH_TRANSIT_HOLD",
+      "governed_world_claim": "TRANSIT_RULE_UNVERIFIED",
+      "approval_status": "EDITORIAL_QUALIFICATION_NOT_DOMAIN_SIGNOFF"
+    },
+    {
+      "scene_id": "P04",
+      "principal_pov": "obiwan_jacoby",
+      "referenced_owners": [
+        "belt_keeper"
+      ],
+      "parent_candidate_loc_id": "LOC-LEAGUE-ARCHIVE",
+      "parent_registry_present": true,
+      "parent_canon_status": "INTERPRETIVE_CANON",
+      "location_status": "SUPPORTED_PARENT_INTERPRETIVE",
+      "governed_world_claim": "CEREMONY_LAW_UNVERIFIED",
+      "approval_status": "EDITORIAL_QUALIFICATION_NOT_DOMAIN_SIGNOFF"
+    },
+    {
+      "scene_id": "P11",
+      "principal_pov": "obiwan_jacoby",
+      "referenced_owners": [],
+      "parent_candidate_loc_id": "LOC-LEAGUE-ARCHIVE",
+      "parent_registry_present": true,
+      "parent_canon_status": "INTERPRETIVE_CANON",
+      "location_status": "SUPPORTED_PARENT_INTERPRETIVE",
+      "governed_world_claim": "ACCESS_PROCEDURE_UNVERIFIED",
+      "approval_status": "EDITORIAL_QUALIFICATION_NOT_DOMAIN_SIGNOFF"
+    }
+  ],
+  "remaining_gates": [
+    "ATLAS_DOMAIN_APPROVAL_OF_PERSISTENT_RULES",
+    "PRIMARY_ESPN_2025_PODIUM_EVIDENCE",
+    "SCOUT_LIBRARIAN_SIGNOFF",
+    "INDEPENDENT_EVIDENCE_BASED_UMPIRE_ACCEPTANCE",
+    "FOUNDER_EXACT_BYTE_APPROVAL"
+  ]
+}
