@@ -36,6 +36,13 @@ class ExecutionControlTests(unittest.TestCase):
         self.assertIn("MEMO-W4-002",self.index["NOVEL-NEXT-002"]["dependencies"])
         self.assertEqual(self.index["NOVEL-NEXT-003"]["status"],"NOT_STARTED")
 
+    def test_novel_pov_migration_is_tracked_without_reopening_canon(self):
+        task=self.index["NOVEL-POV-MIG-001"]
+        self.assertEqual(task["status"],"IN_PROGRESS")
+        self.assertEqual(task["phase"],"Phase 1 — Full Seven architecture review and reconciliation")
+        self.assertEqual(self.index["NOVEL-NEXT-001"]["status"],"COMPLETE")
+        self.assertTrue(any(e.get("type")=="phase_census" and e["status"]=="PASS" for e in task["evidence"]))
+
     def test_bullpen_next_returns_executable_task(self):
         nxt=ec.select_next(self.data)
         self.assertIsNotNone(nxt)
@@ -50,9 +57,9 @@ class ExecutionControlTests(unittest.TestCase):
 
     def test_rollup_is_derived(self):
         result=ec.rollup(self.data,"Schemin '26 Living Novel")
-        self.assertEqual(result["total"],3)
+        self.assertEqual(result["total"],4)
         self.assertEqual(result["complete"],1)
-        self.assertEqual(result["completion_pct"],33.3)
+        self.assertEqual(result["completion_pct"],25.0)
 
     def test_clean_context_retrieval_is_deterministic(self):
         first=ec.select_next(ec.load_registry())

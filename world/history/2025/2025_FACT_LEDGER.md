@@ -4,7 +4,7 @@
 **League:** ESPN 1417621
 **Season:** 2025
 **Owners:** Scout (facts) + Librarian (identity/provenance)
-**Narrative access:** BLOCKED until factual lock
+**Narrative access:** PARTIAL — 2025 final podium directly verified; other historical events remain gated
 
 ## Evidence Classes
 - **A — Direct record:** exact fact is present in an authoritative retrieved artifact/data row.
@@ -43,11 +43,20 @@ Directly establishes:
 
 **Critical implication:** S1's 204-snapshot count proves dataset completeness at audit time, but does not expose individual team-week facts in the retained Markdown.
 
+### S3 — Connected ESPN historical standings (2026-10-10 verification)
+Provider: authenticated Flaim Fantasy connector, `get_league_info` and `get_standings` for ESPN football league `1417621`, season `2025`.
+Returned: `seasonPhase=season_complete`, `seasonComplete=true`; `outcomeConfidence=explicit` for the verified podium.
+- `The Immortal`: `finalRank=1`, `championshipWon=true`, `playoffOutcome=champion`.
+- `ObiWan Jacoby`: `finalRank=2`, `playoffOutcome=runner_up`.
+- `Three Dreaded Snake`: `finalRank=3`, `playoffOutcome=eliminated`, `outcomeConfidence=explicit`.
+**Caution:** regular-season `rank` is NOT the postseason `finalRank`. This source does not directly verify semifinal scores, owner aliases, prior-year events, or keeper costs. Tool execution provenance is documented in the PR #130 V4R2 Atlas/historical source matrix and Bullpen #117.
+
 ## Pass-1 Locked Facts
 
 | Fact | Class | Source | Chronicle eligibility |
 |---|---|---|---|
 | League is Pro Schemin', ESPN 1417621 | A | S1/S2 | yes |
+| 2025 first: The Immortal; second: ObiWan Jacoby; third: Three Dreaded Snake | A | S3 explicit finalRank fields | yes, podium order only |
 | 2025 season represented 12 teams | A | S1/S2 | yes |
 | 17 weeks represented regular season + playoffs | A | S1/S2 | yes |
 | 204 team-week snapshots existed | A for existence / B for contents | S1/S2 | existence only |
@@ -64,7 +73,7 @@ Before 2025 can become Chronicle history, recover or independently verify:
 2. week-by-week matchup scores.
 3. regular-season standings.
 4. playoff bracket and results.
-5. champion / runner-up / third.
+5. champion / runner-up / third. **CLOSED for 2025 via S3.**
 6. scoring highs/lows.
 7. streaks.
 8. significant transactions/trades if retained.
@@ -72,10 +81,10 @@ Before 2025 can become Chronicle history, recover or independently verify:
 10. exact events behind any old storyline selected for reuse.
 
 ## Known High-Value Leads — NOT YET LOCKED
-The project context contains candidate 2025 podium and semifinal details, but they are intentionally not promoted here until repository/data provenance is attached. Scout must recover supporting evidence rather than copying remembered values into the historical record.
+2025 podium is now directly sourced from S3 and promoted above. Semifinal details, owner alias mappings, and other historical leads remain unverified by S3. Scout must recover supporting evidence rather than copying remembered values into the historical record.
 
 ## Scout Ruling
-2025 is **dataset-rich but not yet fact-materialized**. It is safe to call it an authenticated prior season; it is not yet safe to write detailed historical fiction from the retained audit alone.
+2025 is **partially fact-materialized**. Postseason podium outcomes are source-locked through S3. Detailed historical fiction beyond the podium remains blocked pending underlying event evidence.
 
 ## Librarian Ruling
 Do not back-project 2026 team names into 2025. Historical aliases must be resolved season-specifically before manuscript use.
@@ -83,4 +92,4 @@ Do not back-project 2026 team names into 2025. Historical aliases must be resolv
 ## Beat Writer Gate
 CLOSED.
 
-The Beat Writer may study structural possibilities but may not draft canonical 2025 historical scenes until Scout + Librarian produce a locked event packet.
+The Beat Writer may use the S3-verified podium in appropriate preseason framing. Detailed canonical 2025 historical scenes beyond those outcomes still require Scout + Librarian event packets.
