@@ -104,7 +104,7 @@ def validate_character_provenance(registry, scenes, canon_text):
     return errors
 
 
-def validate_character_state_gate(scene, state_receipts, visual_authority):
+def validate_character_state_gate(scene, state_receipts, visual_authority, reference_sources=None):
     """Independent, fail-closed evidence gate for prose state and visual art.
 
     Evidence records are externally qualified inputs, never self-certified by the scene.
@@ -138,8 +138,10 @@ def validate_character_state_gate(scene, state_receipts, visual_authority):
         visual_receipts = scene.get("visual_receipts")
         if not isinstance(visual_receipts, dict):
             return errors + ["character art requires per-character visual receipts"]
-        source_hashes = {s["character_id"]: s["expected_sha256"] for s in visual_authority.get("master_lineup", {}).get("stale_for", [])
-            if isinstance(s, dict) and isinstance(s.get("character_id"), str) and isinstance(s.get("expected_sha256"), str)}
+        source_entries = reference_sources.get("entries", []) if isinstance(reference_sources, dict) else []
+        source_hashes = {e["character_id"]: e["expected_sha256"] for e in source_entries
+            if isinstance(e, dict) and e.get("approval_state") == "APPROVED"
+            and isinstance(e.get("character_id"), str) and isinstance(e.get("expected_sha256"), str)}
         for pid in ids:
             receipt = visual_receipts.get(pid)
             if not isinstance(receipt, dict) or receipt.get("status") != "MOUNT_HASH_VERIFIED":
