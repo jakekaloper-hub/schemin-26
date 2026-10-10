@@ -13,7 +13,10 @@ class Qualification(unittest.TestCase):
   self.assertTrue(all(x["parent_registry_present"] for x in M["scenes"]))
   self.assertTrue(all(x["approval_status"]=="EDITORIAL_QUALIFICATION_NOT_DOMAIN_SIGNOFF" for x in M["scenes"]))
  def test_historical_truth_not_promoted(self):
-  self.assertIn("DIRECT_ESPN_HISTORICAL_OUTCOMES_VERIFIED",M["history_rules"]["2025_podium"])\n  self.assertTrue(M["espn_2025_verified"]["seasonComplete"])\n  self.assertEqual([1,2,3],[t["finalRank"] for t in M["espn_2025_verified"]["results"]])\n  self.assertTrue(all(t["outcomeConfidence"]=="explicit" for t in M["espn_2025_verified"]["results"]))
+  self.assertIn("DIRECT_ESPN_HISTORICAL_OUTCOMES_VERIFIED",M["history_rules"]["2025_podium"])
+  self.assertTrue(M["espn_2025_verified"]["seasonComplete"])
+  self.assertEqual([1,2,3],[t["finalRank"] for t in M["espn_2025_verified"]["results"]])
+  self.assertTrue(all(t["outcomeConfidence"]=="explicit" for t in M["espn_2025_verified"]["results"]))
   self.assertNotIn("PRIMARY_ESPN_2025_PODIUM_EVIDENCE",M["remaining_gates"])
   self.assertIn("INDEPENDENT_EVIDENCE_BASED_UMPIRE_ACCEPTANCE",M["remaining_gates"])
 if __name__=="__main__":unittest.main()
