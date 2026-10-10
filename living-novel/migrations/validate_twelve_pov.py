@@ -11,6 +11,8 @@ from pathlib import Path
 
 def validate(registry, scenes):
     errors = []
+    if not isinstance(registry, dict):
+        return ["registry must be an object"]
     principals = registry.get("principals")
     if not isinstance(principals, list) or len(principals) != 12:
         return ["registry must contain exactly twelve principals"]
@@ -31,7 +33,7 @@ def validate(registry, scenes):
             errors.append(f"{prefix}: missing or duplicate scene_id")
         seen.add(sid)
         pov = scene.get("principal_pov_id")
-        if pov not in allowed:
+        if not isinstance(pov, str) or pov not in allowed:
             errors.append(f"{prefix}: invalid principal_pov_id {pov!r}")
         if not isinstance(scene.get("story_time"), str) or not scene["story_time"].strip():
             errors.append(f"{prefix}: missing story_time")
