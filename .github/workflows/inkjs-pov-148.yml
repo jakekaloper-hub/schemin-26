@@ -27,3 +27,7 @@ jobs:
         run: npm test
       - name: Browser bundle build
         run: npm run build
+      - name: Install Chromium for real browser verification
+        run: npx playwright install --with-deps chromium
+      - name: Verify save and reload in Chromium
+        run: npm run test:browser
