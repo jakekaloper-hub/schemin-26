@@ -11,7 +11,7 @@
     "temporal_context": "living-novel/os/context-packs/PROLOGUE_V4_CONTEXT_PACK_V1.md"
   },
   "history_rules": {
-    "2025_podium": "INTERNALLY_CORROBORATED_BUT_PRIMARY_MATCH_ROW_NOT_MATERIALIZED_PER_2025_FACT_LEDGER",
+    "2025_podium": "DIRECT_ESPN_HISTORICAL_OUTCOMES_VERIFIED_VIA_CONNECTED_FLAIM_2025_EXPLICIT_FINAL_RANK",
     "2026_preweek1": "LOCKED_PROLOGUE_CONTEXT",
     "character_identities": "CURRENT_OWNER_SPECIFIC_CANON_OVERRIDES_STALE_DRAFT_WEEK_DOC",
     "wilson": "Gorilla-upper four-equine-leg centaur per current correction; preseason packet says never gorilla and is stale",
@@ -174,9 +174,40 @@
   ],
   "remaining_gates": [
     "ATLAS_DOMAIN_APPROVAL_OF_PERSISTENT_RULES",
-    "PRIMARY_ESPN_2025_PODIUM_EVIDENCE",
     "SCOUT_LIBRARIAN_SIGNOFF",
     "INDEPENDENT_EVIDENCE_BASED_UMPIRE_ACCEPTANCE",
     "FOUNDER_EXACT_BYTE_APPROVAL"
-  ]
+  ],
+  "espn_2025_verified": {
+    "platform": "espn",
+    "league_id": "1417621",
+    "season_year": 2025,
+    "source": "connected Flaim Fantasy get_standings historical season 2025",
+    "seasonPhase": "season_complete",
+    "seasonComplete": true,
+    "results": [
+      {
+        "team": "The Immortal",
+        "finalRank": 1,
+        "championshipWon": true,
+        "playoffOutcome": "champion",
+        "outcomeConfidence": "explicit"
+      },
+      {
+        "team": "ObiWan Jacoby",
+        "finalRank": 2,
+        "championshipWon": false,
+        "playoffOutcome": "runner_up",
+        "outcomeConfidence": "explicit"
+      },
+      {
+        "team": "Three Dreaded Snake",
+        "finalRank": 3,
+        "championshipWon": false,
+        "playoffOutcome": "eliminated",
+        "outcomeConfidence": "explicit"
+      }
+    ],
+    "scope": "Explicit final ranks only; not a verification of semifinal margins, draft keeper prices, physical designs, or motives."
+  }
 }
