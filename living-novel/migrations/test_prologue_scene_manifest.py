@@ -26,6 +26,23 @@ class PrologueSceneContract(unittest.TestCase):
         self.assertEqual({s["principal_pov_id"] for s in MANIFEST["scenes"]}, {"obiwan_jacoby"})
         self.assertNotIn("Edrin", PROSE)
 
+    def test_character_owner_provenance(self):
+        canon = (HERE.parents[1] / "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md").read_text(encoding="utf-8")
+        owners = {p["id"]: p["owner_name"] for p in REGISTRY["principals"]}
+        for scene in MANIFEST["scenes"]:
+            with self.subTest(scene=scene["scene_id"]):
+                self.assertEqual(scene["pov_owner_name"], owners[scene["principal_pov_id"]])
+                self.assertEqual(scene["character_canon_source"], "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md")
+                self.assertIn("### " + scene["pov_owner_name"] + " /", canon)
+                self.assertEqual(scene["character_state_status"], "REVIEW_REQUIRED")
+                for ref in scene["character_refs"]:
+                    self.assertEqual(ref["owner_name"], owners[ref["principal_id"]])
+                    self.assertIn("### " + ref["owner_name"] + " /", canon)
+                    self.assertEqual(ref["state_status"], "REVIEW_REQUIRED")
+
+    def test_character_provenance_is_not_promotion(self):
+        self.assertTrue(all(s["character_state_status"] != "APPROVED" for s in MANIFEST["scenes"]))
+
     def test_source_sha_bound(self):
         self.assertEqual(MANIFEST["manuscript_blob_sha"], "ecdf0e292be24f8b20cd72df88cf637e81258805")
 
