@@ -1,4 +1,4 @@
-import inkjs from 'inkjs/full';
+import * as inkjs from 'inkjs/full';
 import characters from './characters.json' with { type: 'json' };
 const { Compiler } = inkjs;
 export const event = Object.freeze({id:'W3-2026-OBIWAN-TDS',season:2026,week:3,status:'NONCANON illustrative scene; historic score fixture',score:Object.freeze({'CHAR-JAKE-KALOPER':136.73,'CHAR-PHILLIP-PITTS':114.50})});
