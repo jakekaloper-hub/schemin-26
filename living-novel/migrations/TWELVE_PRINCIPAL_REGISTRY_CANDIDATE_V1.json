@@ -5,52 +5,70 @@
   "principals": [
     {
       "id": "obiwan_jacoby",
-      "name": "Jake / Trade Jedi"
+      "name": "Jake / Trade Jedi",
+      "owner_name": "Jake Kaloper"
     },
     {
       "id": "belt_keeper",
-      "name": "Austin / Belt Keeper"
+      "name": "Austin / Belt Keeper",
+      "owner_name": "Austin Byars"
     },
     {
       "id": "arsenal_warrior",
-      "name": "Wilson / Arsenal Warrior"
+      "name": "Wilson / Arsenal Warrior",
+      "owner_name": "Wilson Look"
     },
     {
       "id": "three_dreaded_snake",
-      "name": "Phillip / TDS"
+      "name": "Phillip / TDS",
+      "owner_name": "Phillip Pitts"
     },
     {
       "id": "red_leopards",
-      "name": "Kevin / Red Leopards"
+      "name": "Kevin / Red Leopards",
+      "owner_name": "Kevin Zeek"
     },
     {
       "id": "chili_outlaw",
-      "name": "Brandon / Chili Outlaw"
+      "name": "Brandon / Chili Outlaw",
+      "owner_name": "Brandon Pryor"
     },
     {
       "id": "dr_duckhook",
-      "name": "Zach / Duckhook"
+      "name": "Zach / Duckhook",
+      "owner_name": "Zach Wilson"
     },
     {
       "id": "mud_dogs",
-      "name": "Bobby / Mud Dogs"
+      "name": "Bobby / Mud Dogs",
+      "owner_name": "Bobby Mitchell"
     },
     {
       "id": "slob_on_my_dobb",
-      "name": "Jordan / Slob"
+      "name": "Jordan / Slob",
+      "owner_name": "Jordan Hollingshead"
     },
     {
       "id": "the_llc",
-      "name": "David / LLC"
+      "name": "David / LLC",
+      "owner_name": "David Babb"
     },
     {
       "id": "el_nino",
       "name": "Manning / El Niño",
-      "approval_gate": "ELEMENTAL_POV_UNRESOLVED"
+      "approval_gate": "ELEMENTAL_POV_UNRESOLVED",
+      "owner_name": "Manning Welty"
     },
     {
       "id": "seven_deadly_chins",
-      "name": "Ben / Seven Deadly Chins"
+      "name": "Ben / Seven Deadly Chins",
+      "owner_name": "Ben Whipple"
     }
-  ]
+  ],
+  "owner_canon_source": "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+  "owner_canon_binding_status": "CANDIDATE_REQUIRES_REVIEW",
+  "elemental_pov_approval": {
+    "status": "PENDING",
+    "receipt_id": null
+  }
 }
