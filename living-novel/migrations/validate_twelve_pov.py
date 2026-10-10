@@ -104,6 +104,57 @@ def validate_character_provenance(registry, scenes, canon_text):
     return errors
 
 
+def validate_character_state_gate(scene, state_receipts, visual_authority):
+    """Independent, fail-closed evidence gate for prose state and visual art.
+
+    Evidence records are externally qualified inputs, never self-certified by the scene.
+    This validator cannot inspect source image bytes or resolve in-world chronology.
+    """
+    import re
+    errors = []
+    if not isinstance(scene, dict) or not isinstance(state_receipts, dict) or not isinstance(visual_authority, dict):
+        return ["state gate requires a scene, qualified state receipts, and visual authority"]
+    story_time = scene.get("story_time")
+    if not isinstance(story_time, str) or not story_time.strip():
+        return ["state gate requires story_time"]
+    ids = [scene.get("principal_pov_id")]
+    refs = scene.get("character_refs")
+    if not isinstance(refs, list):
+        return ["state gate requires character refs"]
+    ids.extend(ref.get("principal_id") for ref in refs if isinstance(ref, dict))
+    for pid in ids:
+        if not isinstance(pid, str) or not pid:
+            errors.append("invalid character identifier")
+            continue
+        receipt = state_receipts.get(pid)
+        if not isinstance(receipt, dict) or receipt.get("status") != "QUALIFIED":
+            errors.append(f"{pid}: missing qualified story-time state")
+            continue
+        if story_time not in receipt.get("story_time_keys", []):
+            errors.append(f"{pid}: state not qualified for story_time")
+        if not isinstance(receipt.get("authority_path"), str) or not receipt["authority_path"].startswith("canon/"):
+            errors.append(f"{pid}: missing canon state source")
+    if scene.get("visual_required") is True:
+        visual_receipts = scene.get("visual_receipts")
+        if not isinstance(visual_receipts, dict):
+            return errors + ["character art requires per-character visual receipts"]
+        source_hashes = {s["character_id"]: s["expected_sha256"] for s in visual_authority.get("master_lineup", {}).get("stale_for", [])
+            if isinstance(s, dict) and isinstance(s.get("character_id"), str) and isinstance(s.get("expected_sha256"), str)}
+        for pid in ids:
+            receipt = visual_receipts.get(pid)
+            if not isinstance(receipt, dict) or receipt.get("status") != "MOUNT_HASH_VERIFIED":
+                errors.append(f"{pid}: visual source mount/hash unverified")
+                continue
+            digest = receipt.get("mounted_sha256")
+            if not isinstance(digest, str) or not re.fullmatch(r"[0-9a-f]{64}", digest):
+                errors.append(f"{pid}: invalid visual digest")
+            if receipt.get("character_id") in source_hashes and digest != source_hashes[receipt["character_id"]]:
+                errors.append(f"{pid}: visual digest disagrees with active owner-specific authority")
+            if not receipt.get("source_byte_verification_receipt"):
+                errors.append(f"{pid}: missing source-byte verification receipt")
+    return errors
+
+
 def main():
     if len(sys.argv) != 3:
         print("usage: validate_twelve_pov.py registry.json scenes.json", file=sys.stderr)
