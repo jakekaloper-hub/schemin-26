@@ -7,6 +7,7 @@ from validate_twelve_pov import validate, validate_character_provenance, validat
 HERE = Path(__file__).resolve().parent
 REGISTRY = json.loads((HERE / "TWELVE_PRINCIPAL_REGISTRY_CANDIDATE_V1.json").read_text(encoding="utf-8"))
 MANIFEST = json.loads((HERE / "PROLOGUE_TWELVE_POV_SCENE_MANIFEST_V2.json").read_text(encoding="utf-8"))
+SOURCES = json.loads((HERE.parents[1] / "canon/characters/reference_sources_v1.json").read_text(encoding="utf-8"))
 MANUSCRIPT = (HERE / "PROLOGUE_TWELVE_POV_FOUNDER_REVIEW_CANDIDATE_V2.md").read_text(encoding="utf-8")
 PROSE = MANUSCRIPT.split("\n---\n\n## V2 approval boundaries")[0]
 
@@ -67,6 +68,21 @@ class PrologueSceneContract(unittest.TestCase):
         self.assertTrue(validate_character_state_gate(scene, temporal, {}))
         scene["visual_receipts"] = {"obiwan_jacoby": {"status":"MOUNT_HASH_VERIFIED","character_id":"CHAR-JAKE-KALOPER","mounted_sha256":"a"*64,"source_byte_verification_receipt":"self-asserted"}}
         self.assertTrue(validate_character_state_gate(scene, temporal, {}))
+
+    def test_twelve_authoritative_owner_reference_expectations(self):
+        self.assertEqual(len(SOURCES["entries"]), 12)
+        owners = {e["owner"] for e in SOURCES["entries"]}
+        self.assertEqual(owners, {p["owner_name"] for p in REGISTRY["principals"]})
+        for entry in SOURCES["entries"]:
+            self.assertEqual(entry["approval_state"], "APPROVED")
+            self.assertEqual(len(entry["expected_sha256"]), 64)
+            self.assertEqual(entry["current_byte_verification"], "PENDING_DURABLE_RAW_BYTE_ACCESS")
+
+    def test_visual_lookup_uses_full_reference_registry(self):
+        scene = dict(MANIFEST["scenes"][0], visual_required=True)
+        state = {"obiwan_jacoby": {"status":"QUALIFIED","story_time_keys":[scene["story_time"]],"authority_path":"canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"}}
+        scene["visual_receipts"] = {"obiwan_jacoby": {"status":"MOUNT_HASH_VERIFIED","character_id":"CHAR-JAKE-KALOPER","mounted_sha256":"0"*64,"source_byte_verification_receipt":"unverified"}}
+        self.assertTrue(any("visual digest disagrees" in e for e in validate_character_state_gate(scene, state, {}, SOURCES)))
 
     def test_source_sha_bound(self):
         self.assertEqual(MANIFEST["manuscript_blob_sha"], "ecdf0e292be24f8b20cd72df88cf637e81258805")
