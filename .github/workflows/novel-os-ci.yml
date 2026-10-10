@@ -51,6 +51,6 @@ jobs:
       - name: Validate Chapter III Founder canon closeout
         run: python living-novel/os/evaluations/test_chapter_03_canon_closeout.py
       - name: Test Twelve POV migration validator
-        run: python -m unittest discover -s living-novel/migrations -p "test_validate_twelve_pov.py" -v
+        run: python -m unittest discover -s living-novel/migrations -p "test_*.py" -v
       - name: Validate whole-book convergence
         run: python living-novel/os/evaluations/test_whole_book_convergence.py
