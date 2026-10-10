@@ -1,0 +1,29 @@
+name: Ink POV experiment validation
+on:
+  push:
+    branches: [feature/inkjs-pov-reader-148]
+  pull_request:
+    paths:
+      - 'living-novel/experiments/inkjs-pov-reader/**'
+      - '.github/workflows/inkjs-pov-148.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: living-novel/experiments/inkjs-pov-reader
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.19.0'
+      - name: Install pinned engine and Vite
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Node unit tests
+        run: npm test
+      - name: Browser bundle build
+        run: npm run build
