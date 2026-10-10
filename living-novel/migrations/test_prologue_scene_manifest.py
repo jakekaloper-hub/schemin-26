@@ -6,10 +6,10 @@ from validate_twelve_pov import validate, validate_character_provenance, validat
 
 HERE = Path(__file__).resolve().parent
 REGISTRY = json.loads((HERE / "TWELVE_PRINCIPAL_REGISTRY_CANDIDATE_V1.json").read_text(encoding="utf-8"))
-MANIFEST = json.loads((HERE / "PROLOGUE_TWELVE_POV_SCENE_MANIFEST_V2.json").read_text(encoding="utf-8"))
+MANIFEST = json.loads((HERE / "PROLOGUE_TWELVE_POV_SCENE_MANIFEST_V3.json").read_text(encoding="utf-8"))
 SOURCES = json.loads((HERE.parents[1] / "canon/characters/reference_sources_v1.json").read_text(encoding="utf-8"))
-MANUSCRIPT = (HERE / "PROLOGUE_TWELVE_POV_FOUNDER_REVIEW_CANDIDATE_V2.md").read_text(encoding="utf-8")
-PROSE = MANUSCRIPT.split("\n---\n\n## V2 approval boundaries")[0]
+MANUSCRIPT = (HERE / "PROLOGUE_TWELVE_POV_FOUNDER_REVIEW_CANDIDATE_V3.md").read_text(encoding="utf-8")
+PROSE = MANUSCRIPT.split("\n---\n\n## V3 approval boundaries")[0]
 
 class PrologueSceneContract(unittest.TestCase):
     def test_validate_scene_records(self):
@@ -84,8 +84,14 @@ class PrologueSceneContract(unittest.TestCase):
         scene["visual_receipts"] = {"obiwan_jacoby": {"status":"MOUNT_HASH_VERIFIED","character_id":"CHAR-JAKE-KALOPER","mounted_sha256":"0"*64,"source_byte_verification_receipt":"unverified"}}
         self.assertTrue(any("visual digest disagrees" in e for e in validate_character_state_gate(scene, state, {}, SOURCES)))
 
+    def test_forward_registration_reading_order(self):
+        ids = [scene["scene_id"] for scene in MANIFEST["scenes"]]
+        self.assertLess(ids.index("P05"), ids.index("P04"))
+        self.assertLess(ids.index("P10"), ids.index("P04"))
+        self.assertLess(ids.index("P04"), ids.index("P11"))
+
     def test_source_sha_bound(self):
-        self.assertEqual(MANIFEST["manuscript_blob_sha"], "ecdf0e292be24f8b20cd72df88cf637e81258805")
+        self.assertEqual(MANIFEST["manuscript_blob_sha"], "88c0015a4bb31d7c71254aa8e71b04bc5498da7b")
 
     def test_required_pov_provenance(self):
         for scene in MANIFEST["scenes"]:
