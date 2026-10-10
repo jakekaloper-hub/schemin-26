@@ -498,7 +498,7 @@
     {
       "scene_id": "P04",
       "unit": "Movement III / champion's visit",
-      "story_time": "three-days-after-registration",
+      "story_time": "after-registration-hearings-before-opening-assembly",
       "location": "Record House threshold",
       "manuscript_anchor": "After the last of the registration hearings, and before the opening assembly, Jake saw",
       "principal_pov_id": "obiwan_jacoby",
@@ -540,7 +540,8 @@
         "story_era": "after_2026_draft_before_week_1_results",
         "character_refs_status": "CANDIDATE_SEMANTIC_LOCKS_ONLY",
         "image_byte_state": "MOUNT_NOT_VERIFIED",
-        "approval": "PENDING_PER_SCENE_REVIEW"
+        "approval": "PENDING_PER_SCENE_REVIEW",
+        "story_time_note": "Champion's visit is after hearings and before opening assembly; no fixed three-day interval is established"
       }
     },
     {
@@ -592,5 +593,6 @@
     "No post-Week-1 outcome permitted",
     "El Nino appears only as storm effects",
     "Oren remains supporting speaker, never POV"
-  ]
+  ],
+  "manifest_correction": "P04 stale three-days-after-registration timing superseded by V4R1 manuscript anchor; no manuscript mutation"
 }
