@@ -2,7 +2,7 @@
 import json
 import unittest
 from pathlib import Path
-from validate_twelve_pov import validate
+from validate_twelve_pov import validate, validate_character_provenance
 
 HERE = Path(__file__).resolve().parent
 REGISTRY = json.loads((HERE / "TWELVE_PRINCIPAL_REGISTRY_CANDIDATE_V1.json").read_text(encoding="utf-8"))
@@ -25,6 +25,16 @@ class PrologueSceneContract(unittest.TestCase):
     def test_no_unauthorized_pov(self):
         self.assertEqual({s["principal_pov_id"] for s in MANIFEST["scenes"]}, {"obiwan_jacoby"})
         self.assertNotIn("Edrin", PROSE)
+
+    def test_character_validator_enforced(self):
+        canon = (HERE.parents[1] / "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md").read_text(encoding="utf-8")
+        self.assertEqual([], validate_character_provenance(REGISTRY, MANIFEST["scenes"], canon))
+        mutated = [dict(x) for x in MANIFEST["scenes"]]
+        mutated[0]["pov_owner_name"] = "Unknown"
+        self.assertTrue(validate_character_provenance(REGISTRY, mutated, canon))
+        mutated[0]["pov_owner_name"] = MANIFEST["scenes"][0]["pov_owner_name"]
+        mutated[0].pop("character_canon_source")
+        self.assertTrue(validate_character_provenance(REGISTRY, mutated, canon))
 
     def test_character_owner_provenance(self):
         canon = (HERE.parents[1] / "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md").read_text(encoding="utf-8")
