@@ -148,7 +148,7 @@ def validate_character_state_gate(scene, state_receipts, visual_authority):
             digest = receipt.get("mounted_sha256")
             if not isinstance(digest, str) or not re.fullmatch(r"[0-9a-f]{64}", digest):
                 errors.append(f"{pid}: invalid visual digest")
-            if receipt.get("character_id") in source_hashes and digest != source_hashes[receipt["character_id"]]:
+            if receipt.get("character_id") not in source_hashes:\n                errors.append(f"{pid}: active per-owner visual authority unresolved")\n            elif digest != source_hashes[receipt["character_id"]]:
                 errors.append(f"{pid}: visual digest disagrees with active owner-specific authority")
             if not receipt.get("source_byte_verification_receipt"):
                 errors.append(f"{pid}: missing source-byte verification receipt")
