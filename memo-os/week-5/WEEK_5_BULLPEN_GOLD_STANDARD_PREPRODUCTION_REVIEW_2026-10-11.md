@@ -122,3 +122,19 @@ Draft a **working 180–300 words per matchup across its assigned pages** as an 
 **Groundskeeper + Visual Lead:** compare 1-page sequential layouts with GOTW multi-page treatment; deliver a candidate issue rhythm map.
 **Scout + Librarian:** reconcile fresh facts, character source bytes, and world-state before art.
 **Umpire:** challenge manuscript quality, character resolution, data provenance, and phone legibility independently; record PASS/HOLD with evidence.
+
+## Commissioner correction — six mandatory dedicated story overtures (2026-10-11)
+**Binding creative requirement for Week 5 planning:** Each of the six matchups MUST have its own distinctly authored, dedicated **Story Overture**, with substantial Beat Writer prose setting the geography, characters, entering context, inciting conflict and emotional stakes. Six matchups = **six separate overtures**, not one global opening and not interchangeable summary captions.
+
+- Overture 1: Red Leopards vs ObiWan Jacoby — Champions' Joust: rival champion arrivals, banners, crowd, honor and pre-joust suspense.
+- Overture 2: Seven Deadly Chins vs Slob on my Dobb — After the Storm: storm-torn hill course, competing Jeep bravado, spectators and danger.
+- Overture 3: His Majesty's Blood vs Three Dreaded Snake — Dark Wizard Chess (GOTW): ominous neutral-night battlefield, monumental pieces and impending sacrifice.
+- Overture 4: El Niño vs Chili Cheesers — Outlaw & Sheriff: The Dark Horse entering the sheriff's town; the personal provocation leading toward noon.
+- Overture 5: The LLC vs Mud Dogs — Save the Swamp: Mud Dogs' lived-in home and the first corporate development threat.
+- Overture 6: D0nkey K0ng vs Dr. Duckhook — David vs Goliath: DK's overwhelming physical presence and taunts, Duckhook's resolve; not a protracted golf routine.
+
+**Page structure:** For each matchup preserve the narrative sequence **Story Overture → Cinematic Confrontation → Result-Driven Resolution**. A Story Overture is a **dedicated editorial section** in every matchup and must be plainly identifiable to the reader. It may be presented as its **own prose-forward page** (preferred where the material earns it) or as a **distinct substantial prose-forward zone on a combined multi-panel page**, after checking mobile readability. Do not silently drop or replace any overture to hit an arbitrary total page count. The other two functions may be combined or expanded as warranted. No predetermined winner/ending.
+
+**Change to previous candidate pagination:** The earlier 18–23-page target is **reopened / nonbinding** and must be recalculated AFTER all six overtures, copy budgets, mandatory departments and mobile readability are mapped. If the Commissioner intends six physically separate full overture pages rather than six independently written overture sections, require explicit clarification before final pagination lock. Preserve Week 4's thoughtful narrative setup without mechanically reproducing 33 pages.
+
+**Beat Writer acceptance:** Supply six complete individually reviewed overture manuscripts with unique openings and actual prose, followed by confrontation/conditional-resolution writing. Umpire must check all six exist, are differentiated, are not generic and are legible in layout.
