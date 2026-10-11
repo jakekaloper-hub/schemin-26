@@ -24,7 +24,7 @@ These are analytic applications of the registered advisory lenses, not live auth
 | 1 | ObiWan Jacoby → Red Leopards | Regular | LOC-RED-RUINS / wet stormward escarpment | PROPOSED: Red Ruins Tournament Yard. Ancient stone terraces, repurposed amphitheater approach, ceremonial heraldry; local leopard society and arriving mountain champion |
 | 2 | Seven Deadly Chins → Slob on my Dobb | Regular | LOC-SLOB-FOOTHILL-CAMP / Upper Valleys-Foothills | PROPOSED: Camp Road Mud Bog. Saturated road cut and hill race adjoining camp, storm aftermath only if state/weather evidence permits |
 | 3 | His Majesty's Blood → Three Dreaded Snake | GOTW neutral override per venue law | LOC-COMPACT-NEUTRAL-GROUNDS / Central Basin | PROPOSED: temporary Night Chess Arena **inside already approved neutral grounds**; giant square platform/terrain, spectator lighting and regulated institution; validate return to normal use/temporary construction |
-| 4 | El Niño → Chili Cheesers | Regular | LOC-CHILI-STABLE / Western Tablelands | PROPOSED: Stable Market Main Street. Chili is HOST but rides from his outlying stable into the settlement; El Niño is visiting temporary sheriff/constable, NOT hometown sovereign. His appointment, motive and authority require an in-story explanation; alternatively commissioner must explicitly authorize venue override |
+| 4 | El Niño → Chili Cheesers | Regular | LOC-CHILI-STABLE / Western Tablelands | PROPOSED: Stable Market Main Street. Chili is HOST but rides from his outlying stable into the settlement; El Niño visits as a weather-bearing stranger, NOT local law enforcement. Resolve any atmospheric manifestation through the Weather Atlas |
 | 5 | The LLC → Mud Dogs | Regular | LOC-MUD-DOGS-SWAMP / Southern Wetlands | PROPOSED: Swamp Survey Boundary, within Mud Dogs domain. Mud Dogs owns lived-in swamp; LLC advances speculative data-center development. No permanent ownership/demolition without subsequent approved world-state delta |
 | 6 | D0nkey K0ng → Dr. Duckhook | Regular | LOC-COUNTRY-CLUB-JACKSON / raised southern wetland estate | PROPOSED: Rough Ground Challenge Fairway beside the Country Club. DK arrives via southern approach as enormous visiting challenger, Duckhook the diminutive local; maintain prior Country Club contamination/cleanup continuity |
 
@@ -48,11 +48,12 @@ These are analytic applications of the registered advisory lenses, not live auth
 - Nighttime, dread, enormous captures, three-head sacrifice dialogue as *conditional* branch; champion Belt remains HMB's. Winner-POV only post-result.
 - Chess rules should be understandable from page-level visuals without copying franchise-specific dialogue or exact set designs.
 
-### 4 — Outlaw & Sheriff
-- **Geographical conflict resolved as a PROPOSAL, not as an Atlas fact:** Chili is the real *host*. Chili can still arrive on The Dark Horse from an outer-range stable to his own market town. El Niño has been appointed (or is impersonating) the town's sheriff only temporarily; establish the mechanism of that authority within the narrative.
-- This keeps outlaw-vs-sheriff spectacle, saloon provocation, empty main street, high noon, and conditional distant smoking revolver/foreground defeated figure.
-- Integrate hot dry tablelands and authentic western travel, not El Niño's coastal storm culture transplanted as the entire landscape. Storm-weather manifestations need explicit rule if invoked.
-- Inciting offense tied to documented history or commissioner-supplied league anecdote.
+### 4 — A Storm Comes to Town (high-noon shootout)
+- Chili is the home host at his Western Tablelands town; the Dark Horse carries him from the Chili Stable into his own settlement.
+- El Niño arrives as a stranger bringing gathering clouds and thunder. He is not a sheriff. Chili confronts him when the arrival disrupts the town and alarms the Dark Horse.
+- Personal provocation leads to the locked high-noon gunfight. The final composition stays conditional on the verified winner.
+- The Weather Atlas must classify whether the storm is an actual El Niño manifestation, an ambiguous event, or ordinary weather. No permanent climate change is implied.
+- The Beat Writer writes the winner-focal Story Overture after the fantasy result is verified.
 
 ### 5 — Save the Swamp
 - Location is strongly canonical already: Mud Dogs Swamp.
@@ -77,7 +78,7 @@ Each matchup: **Verified winner's viewpoint → dedicated meaningful overture (a
 2. Location Resolver must validate all six venue anchor IDs and the route graph; add proposed sublocations only via location candidate register, no main Atlas mutation.
 3. World State/weather receipt for Week 4 hurricane/mud aftermath, LLC infrastructure, Country Club cleanup, prior Red ruins condition.
 4. Current authoritative character packet and exact source-plate bindings for all twelve, especially DK's conflicting model documentation, TDS three-head hair state, HMB belt, Chili/Dark Horse.
-5. Obtain Commissioner decision about Chili-host/El Niño-sheriff explanation and neutral GOTW arena as temporary Compact Grounds installation.
+5. Obtain Commissioner decision about Chili-host storm manifestation and arrival explanation and neutral GOTW arena as temporary Compact Grounds installation.
 6. Beat Writer delivers six host-specific prompts and after result six winner-focal overtures with tangible prehistory and fresh scored events.
 7. Whole-issue previsualization, mobile-first page packets, independent Umpire and final raster QA before publication.
 
