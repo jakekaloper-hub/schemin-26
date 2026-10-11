@@ -19,7 +19,7 @@
 | 1 | Red Leopards vs ObiWan Jacoby | Champions' Joust | Whichever champion actually wins |
 | 2 | Seven Deadly Chins vs Slob on my Dobb | After the Storm Jeep mudding | Actual winning driver |
 | 3 | His Majesty's Blood vs Three Dreaded Snake (GOTW) | Dark Wizard Chess neutral battlefield | Actual winning contender; TDS three-head dialogue only if scene/branch earns it |
-| 4 | El Niño vs Chili Cheesers | Sheriff town / Chili Outlaw on Dark Horse | Actual winner, whether sheriff or outlaw |
+| 4 | El Niño vs Chili Cheesers | A Storm Comes to Town: Chili-host Western Tablelands, El Niño storm-bearing visitor, Dark Horse and high-noon shootout (NO SHERIFF) | Actual winner, whether Chili Outlaw or visiting El Niño |
 | 5 | The LLC vs Mud Dogs | Save the Swamp development conflict | Actual winner, whether corporation or swamp defender |
 | 6 | D0nkey K0ng vs Dr. Duckhook | David vs Goliath golf-ball twist | Actual winner, whether Arsenal Centaur or Duckhook |
 
