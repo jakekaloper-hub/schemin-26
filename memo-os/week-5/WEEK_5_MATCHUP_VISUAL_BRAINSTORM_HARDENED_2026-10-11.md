@@ -50,21 +50,18 @@
 
 ---
 
-## 4. El Niño vs. Chili Cheesers — The Outlaw & The Sheriff
+## 4. El Niño vs. Chili Cheesers — A Storm Comes to Town (High-Noon Shootout)
 
-**Core:** Chili Outlaw rides The Dark Horse into El Niño's frontier town. El Niño occupies the sheriff/lawman role. A public confrontation escalates until the town understands there will be a high-noon showdown.
+**FOUNDER-APPROVED CREATIVE LOCK (2026-10-11):** El Niño is **not a sheriff, lawman, or bounty hunter**. Chili Cheesers is the verified home team: his Chili Stable / Western Tablelands territory hosts the encounter. El Niño arrives as a visiting stranger whose unnatural weather darkens the dry frontier sky.
 
-- Chili arrives as the outsider; El Niño belongs to and represents the town.
-- Chili does not necessarily arrive intending to duel.
-- A saloon confrontation or other public clash escalates from something petty, personal, or league-specific.
-- Once the challenge is issued, the town reacts: conversation stops, shops close, children are pulled inside, curtains move, and Main Street empties.
-- The Dark Horse remains an important recurring visual presence.
-- The approaching clock/noon deadline supplies suspense.
-- The decisive visual can place the loser down or kneeling in the foreground while the winner remains farther down Main Street, pistol smoking, without gore.
-- The exact inciting grievance remains intentionally open for a matchup-specific league joke.
+- The Chili Outlaw and his **Dark Horse** belong to this territory. Chili may ride into his own frontier market town from his nearby stable; he is **not** an out-of-town visitor.
+- El Niño enters the town; clouds gather, thunder interrupts the afternoon, and the normally dusty streets change mood. Whether the weather is an explicit El Niño atmospheric manifestation or an ambiguous storm must be resolved under Atlas weather rules before final art.
+- Chili confronts the visitor for frightening The Dark Horse, threatening his peace, or interfering with the town's ordinary life. Specific dialogue and any personalized league insult remain open to the Beat Writer.
+- A personal exchange escalates into a **high-noon shootout**. The town empties; shutters close; the clock advances.
+- **Conditional finish only:** After final fantasy result verification, the loser may be shown down/kneeling in a rear over-right-shoulder foreground angle while the distant victor stands down Main Street with smoke rising from a revolver; no gore.
+- Winner-POV Story Overture is authored **after Fact Lock** from the actual winner's perspective. Neither the winner nor story details are preselected.
 
-**Author-room lenses:** Martin supports lawman-versus-outlaw identity and history; Abercrombie favors pride turning a petty conflict into absurd escalation; Rowling gives the town and Dark Horse recurring visual language; Grisham supplies the clean outsider → confrontation → challenge → ticking clock → duel structure.
-
+**Author-room diagnostic lenses (not live author consultations):** Le Guin uses familiar home territory and strange weather to generate tension; Abercrombie draws humor from the Dark Horse's reaction and escalating pride; Martin tests each visitor's status and local consequence; Rowling makes the storm a recurring visual motif; Grisham sustains the noon deadline. The sheriff premise is superseded and must not return without a new Founder decision.
 ---
 
 ## 5. The LLC vs. Mud Dogs — Save the Swamp
