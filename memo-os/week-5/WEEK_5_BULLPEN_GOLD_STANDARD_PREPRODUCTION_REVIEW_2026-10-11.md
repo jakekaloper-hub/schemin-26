@@ -82,8 +82,8 @@ Draft a **working 180–300 words per matchup across its assigned pages** as an 
 - Layout: most demanding 2–3 pages; vary aerial board reveal, ground-level capture, and result-conditional final tableau. Plot readable at mobile scale.
 
 ### #4 El Niño vs Chili Cheesers — A Storm Comes to Town
-- Chili Outlaw rides **The Dark Horse** into Chili's Western Tablelands town; saloon confrontation; noon.
-- The inciting insult must be personalized with sourced or commissioner-supplied league context, not generic 'chicken'.
+- Chili Outlaw rides **The Dark Horse** from his stable into Chili's Western Tablelands town. Visiting El Niño brings threatening clouds and thunder; Chili confronts the disturbance before the high-noon shootout.
+- The inciting disagreement arises from El Niño's disruptive storm arrival and its effect on the town and The Dark Horse; develop dialogue from sourced or commissioner-supplied league context.
 - Keep pistol smoke / distance / kneeling over-shoulder outcome composition as optional no-gore payoff.
 - Layout: saloon panel + confrontation/dialogue + one dramatic duel composition.
 
@@ -129,7 +129,7 @@ Draft a **working 180–300 words per matchup across its assigned pages** as an 
 - Overture 1: Red Leopards vs ObiWan Jacoby — Champions' Joust: rival champion arrivals, banners, crowd, honor and pre-joust suspense.
 - Overture 2: Seven Deadly Chins vs Slob on my Dobb — After the Storm: storm-torn hill course, competing Jeep bravado, spectators and danger.
 - Overture 3: His Majesty's Blood vs Three Dreaded Snake — Dark Wizard Chess (GOTW): ominous neutral-night battlefield, monumental pieces and impending sacrifice.
-- Overture 4: El Niño vs Chili Cheesers — A Storm Comes to Town: The Dark Horse entering the sheriff's town; the personal provocation leading toward noon.
+- Overture 4: El Niño vs Chili Cheesers — A Storm Comes to Town: El Niño arriving as a storm-bearing stranger in Chili's hometown; the Dark Horse reacts, Chili confronts the disruption, and their provocation leads toward noon.
 - Overture 5: The LLC vs Mud Dogs — Save the Swamp: Mud Dogs' lived-in home and the first corporate development threat.
 - Overture 6: D0nkey K0ng vs Dr. Duckhook — David vs Goliath: DK's overwhelming physical presence and taunts, Duckhook's resolve; not a protracted golf routine.
 
