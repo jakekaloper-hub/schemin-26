@@ -2,11 +2,37 @@
 """Week 5 preliminary packet preflight; additive to V5.5, NOT renderer QA."""
 import json
 import sys
+from pathlib import Path
+
+CANONICAL_BINDINGS = Path(__file__).resolve().parents[2] / "canon" / "characters" / "NATIVE_RENDER_REFERENCE_BINDING_V1.json"
+
+def validate_canonical_reference(characters, receipt, binding_doc):
+    """Cross-check metadata against existing native binding authority; not proof of actual renderer use."""
+    if not isinstance(characters, list) or not isinstance(receipt, dict):
+        return False
+    by_id = {x.get("character_id"): x for x in binding_doc.get("characters", [])}
+    refs = receipt.get("bindings")
+    if not isinstance(refs, list) or len(refs) != len(characters):
+        return False
+    seen = set()
+    for ref in refs:
+        if not isinstance(ref, dict):
+            return False
+        cid = ref.get("character_id")
+        entry = by_id.get(cid)
+        if cid not in characters or cid in seen or not entry:
+            return False
+        if entry.get("binding_state") != "DIRECT_CANONICAL_HANDLE_READY":
+            return False
+        if ref.get("renderer_reference_id") != entry.get("renderer_reference_id"):
+            return False
+        seen.add(cid)
+    return seen == set(characters)
 
 REQUIRED_FAMILIES = {"cover", "opening", "scoreboard", "overture", "matchup", "data", "closing"}
 FORBIDDEN = {"outlaw & sheriff", "animal control vs rabid dog"}
 
-def check_issue(doc):
+def check_issue(doc, binding_doc=None):
     errors = []
     pages = doc.get("pages", [])
     ids = [p.get("id") for p in pages]
@@ -19,6 +45,12 @@ def check_issue(doc):
     overtures = [p for p in pages if p.get("family") == "overture"]
     if len(overtures) != 6 or len({p.get("matchup_id") for p in overtures}) != 6:
         errors.append("six_distinct_overtures_required")
+    if any(p.get("characters") for p in pages) and binding_doc is None:
+        try:
+            binding_doc = json.loads(CANONICAL_BINDINGS.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            errors.append("canonical_native_binding_manifest_unavailable")
+            binding_doc = {}
     for page in pages:
         pid = page.get("id", "<missing>")
         if page.get("family") not in REQUIRED_FAMILIES:
@@ -28,8 +60,12 @@ def check_issue(doc):
                 errors.append(f"{pid}:missing_{field}")
         if page.get("family") == "matchup" and page.get("art_ratio", 0) < 0.65:
             errors.append(f"{pid}:art_ratio_review")
-        if page.get("characters") and not page.get("reference_mount_receipt"):
-            errors.append(f"{pid}:missing_character_mount_receipt")
+        if page.get("characters"):
+            receipt = page.get("reference_mount_receipt")
+            if not receipt:
+                errors.append(f"{pid}:missing_character_mount_receipt")
+            elif not validate_canonical_reference(page["characters"], receipt, binding_doc):
+                errors.append(f"{pid}:canonical_reference_binding_mismatch")
         if page.get("has_exact_data") and page.get("data_source") != "deterministic":
             errors.append(f"{pid}:untrusted_generated_data")
         story = str(page.get("story", "")).lower()
