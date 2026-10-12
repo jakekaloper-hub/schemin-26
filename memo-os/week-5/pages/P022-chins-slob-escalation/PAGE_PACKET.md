@@ -28,4 +28,7 @@ Heavy dusk rain obscures the 1990s lifted pickup trucks as they climb muddy ruts
 **Authority:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. This overrides conflicting legacy vehicle/entrance/action notes, not canon, results, or physical pagination. Use full canonical team or owner names in all reader-facing copy. Render eligibility HOLD pending manuscript, reference-mount and independent QA.
 
 ## Commissioner personalization — overriding page action
-Heavy rain at dusk throughout. Both owners drive lifted 1990s-model pickup trucks; no Jeep vehicles. Headlights pierce rain, ruts deepen and visibility falls. Source: `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. No render authorization.
+Heavy rain at dusk throughout. Both owners drive Jeeps; no Jeep vehicles. Headlights pierce rain, ruts deepen and visibility falls. Source: `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. No render authorization.
+
+## Scope audit correction — Commissioner rain amendment
+Commissioner approved **heavy rainfall at dusk throughout the sequence**, with low-light headlights, rain-obscured sightlines, reflections, mud and spray. **Preserve the original Jeep mudding concept.** Any previous reference to lifted 1990s pickup trucks was an unapproved invention and is superseded. No additional vehicle specification is authorized. Source: `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. Outcome, image binding and publication QA remain HOLD.
