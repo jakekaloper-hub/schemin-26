@@ -27,3 +27,7 @@
 ## Commissioner personalization amendment — binding production patch
 High-noon duel follows the overturned chili tub and El Niño's dismissive remark; outcome remains conditional until final ESPN Fact Lock.
 **Authority:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. This overrides conflicting legacy vehicle/entrance/action notes, not canon, results, or physical pagination. Use full canonical team or owner names in all reader-facing copy. Render eligibility HOLD pending manuscript, reference-mount and independent QA.
+
+## Commissioner personalization — overriding scene detail
+High-noon duel resolves the spilled chili and insult; final winner must be verified.
+Authority: `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. No outcome or render lock.
