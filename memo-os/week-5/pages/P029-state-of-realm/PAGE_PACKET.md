@@ -1,13 +1,19 @@
 # Week 5 P029 — state-of-realm
 
-**State: PLANNED / NOT RENDER-ELIGIBLE.** Indexed routing contract, NOT completed production packet.
+**State:** CONTRACTED PARTIAL / NOT READY_FOR_RENDER. Page role source-hydrated; final reader-facing copy, data and layout NOT certified.
 
-**Previous:** P028; **Next:** P030.
+## Editorial purpose and source
+League-wide world state and consequence; standings, divisional rivalries, geographic changes, Belt Keeper and season continuity. No unapproved permanent Atlas mutations.
 
+**Governing source:** `memo-os/week-5/WEEK_5_VERIFIED_ATLAS_ROUTES_AND_CHARACTER_AUDIT_2026-10-12.md`; `memo-os/PAGE_PRODUCTION_CONTRACT_V1.md`; existing Memo OS and Week 1–4 precedent.
 
+## Design and evidence
+- Deterministic composited editorial text; page family shell and typography safe zones require actual implementation proof. Reader must be able to read at phone size.
+- Image tells environmental and emotional information; prose tells verified data, motivation and consequence. Avoid repetition.
+- Any recognizable character requires canonical Character-ID, time-specific exact source bytes/hash and verified renderer subject binding; no stand-ins.
+- League facts, scoreboard, rankings, betting ledger, waivers, or conclusion must cite approved fresh evidence; no fabricated finality.
 
+## Unresolved gates
+Approved final manuscript; source-backed factual tables/receipts; exact art brief and camera; text safe zones/copy budget; character/Atlas render eligibility where applicable; page-family shell render; mobile QA; independent Umpire. **No render or release approval.**
 
-## Required canonical controls
-Resolve existing Memo OS Page Production Contract V1: full approved manuscript, factual evidence and Fact Lock, owner and temporal Character IDs, exact reference bytes/hash and mounted renderer subject binding, Atlas entering state and travel, shot blocking, camera, image-tells/prose-tells, deterministic editorial text, typography/safe zones/copy budget, adjacency, independent Umpire QA.
-
-**HARD STOP:** All unresolved. Do not invent source material or generate an official illustration from this routing skeleton.
+**Previous:** P028; **next:** P030.
