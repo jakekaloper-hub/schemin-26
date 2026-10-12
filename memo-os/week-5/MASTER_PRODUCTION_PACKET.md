@@ -32,3 +32,14 @@ Page state `PLANNED → CONTRACTED → READY_FOR_RENDER → GENERATED → QA_PEN
 
 ## Fresh-thread handoff
 Read this master; read manifest; open P001 packet; read readiness report; resolve all hard stops; then render only when first page enters READY_FOR_RENDER. No character illustrations or release until exact binding and independent QA proven.
+
+## Middle-third playoff intelligence — Commissioner integration directive (2026-10-12)
+The 2026 league plays a **14-week regular season** with **12 teams and seven playoff entrants** (league-setting/tiebreak verification still mandatory). Week 5 closes the early third and enters the middle third (Weeks 5–9 approximately); it is NOT Week 7 or the exact midpoint. Increase forward-looking playoff stakes now without treating a model estimate as standings truth.
+
+**Controlling additive contract:** `memo-os/week-5/PLAYOFF_PROBABILITY_INTEGRATION_CONTRACT_2026-10-12.md`. Reuse verified existing mathematics/Monte Carlo code, if found, through Scout/Data Gateway and Bullpen mathematics authority, never invent percentages. Repository tree and Bullpen analytics adapter inspection did not locate a runnable Monte Carlo implementation. **Current model status = NOT VERIFIED / NO FORECAST PUBLISHED**. Existing historical playoff archaeology is factual background, not model output.
+
+**Existing page hydration placements (no new page yet):** P003 scoreboard = playoff leverage mini-headline; P028 rankings = editorial ranking distinct from modeled odds; P029 State of the Realm = primary 12-team playoff probability/race/seed bubble panel; P030 Pittsy = wagering receipts separate from probability estimates; P032 Final Word = season stakes and remaining schedule. Model-dependent features remain conditional until authenticated model-run, league-rule verification, independent calibration and mobile QA.
+
+**Math acceptance:** validated remaining 2026 matchups, 14-week horizon, postseason qualification/tiebreaks/seeds, reproducible shared-trial Monte Carlo, RNG seed, run count, uncertainty intervals, data freshness, team-ID join, source receipt, no playoff qualification claims from rounded 100% alone. Model estimate ≠ ESPN fact ≠ Pitty's Book line. Stop if missing.
+
+**Governance:** these requirements extend the existing 32-page partial-contract baseline; do not promote pages, create a parallel math OS, alter approved cinematic premises, or merge without independent Umpire acceptance.
