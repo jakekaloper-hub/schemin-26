@@ -1,22 +1,19 @@
-# Week 5 P002 — Opening
+# Week 5 P002 — opening
 
-**Status:** PLANNED / NOT RENDER ELIGIBLE / NOT FINAL PRODUCTION AUTHORITY
-**Source:** `memo-os/week-5/PUBLICATION_PAGE_MANIFEST.json`; canonical `memo-os/PAGE_PRODUCTION_CONTRACT_V1.md`.
-**Previous:** P001; **Next:** P003.
+**State:** CONTRACTED PARTIAL / NOT READY_FOR_RENDER. Page role source-hydrated; final reader-facing copy, data and layout NOT certified.
 
-## Inherited controls
-- Every source must be resolved through `memo-os/week-5/MASTER_PRODUCTION_PACKET.md` and `PREPRODUCTION_SOURCE_INDEX.md`.
-- Source-backed deterministic reader text; do not ask the image renderer to typeset facts.
-- Character ID and exact reference bytes/hash/mount/subject-binding proof required before recognizable character generation. No generic replacements.
-- Atlas venue and time-state, world-state in/out, approved scene features, mobile-safe copy budget, shot composition, image-tells/prose-tells, adjacency, and independent QA must all be resolved.
-- Historical Week 1–4 regression checks mandatory.
+## Editorial purpose and source
+Opening Drive and issue thesis; explain Week 5 league stakes without inventing outcome, with restrained editorial art.
 
-## Unresolved production contract fields
-- Final approved manuscript: **UNRESOLVED**.
-- Final verified ESPN result / relevant department data: **UNRESOLVED**.
-- Exact character reference eligibility: **UNVERIFIED**.
-- Art brief and full shot-level hydration: **UNRESOLVED**.
-- Actual shell geometry, safe zones and copy budget: **UNVERIFIED**.
-- Independent Umpire visual and page approval: **NOT RUN**.
+**Governing source:** `memo-os/week-5/WEEK_5_UNIFIED_PREPRODUCTION_CONTROL_BOARD_2026-10-12.md`; `memo-os/PAGE_PRODUCTION_CONTRACT_V1.md`; existing Memo OS and Week 1–4 precedent.
 
-**STOP:** This indexed packet is a routing/contract skeleton. It is NOT evidence the page is production-ready. Complete existing canonical contract before promoting to READY_FOR_RENDER.
+## Design and evidence
+- Deterministic composited editorial text; page family shell and typography safe zones require actual implementation proof. Reader must be able to read at phone size.
+- Image tells environmental and emotional information; prose tells verified data, motivation and consequence. Avoid repetition.
+- Any recognizable character requires canonical Character-ID, time-specific exact source bytes/hash and verified renderer subject binding; no stand-ins.
+- League facts, scoreboard, rankings, betting ledger, waivers, or conclusion must cite approved fresh evidence; no fabricated finality.
+
+## Unresolved gates
+Approved final manuscript; source-backed factual tables/receipts; exact art brief and camera; text safe zones/copy budget; character/Atlas render eligibility where applicable; page-family shell render; mobile QA; independent Umpire. **No render or release approval.**
+
+**Previous:** P001; **next:** P003.
