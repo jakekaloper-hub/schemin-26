@@ -17,3 +17,8 @@ Pitty's Book receipts, Week 5 lines and settled results; independently verify st
 Approved final manuscript; source-backed factual tables/receipts; exact art brief and camera; text safe zones/copy budget; character/Atlas render eligibility where applicable; page-family shell render; mobile QA; independent Umpire. **No render or release approval.**
 
 **Previous:** P029; **next:** P031.
+
+## Playoff intelligence conditional data layer — Oct 12
+Pitty's Book stakes, sports lines and graded cash receipts must never be mistaken for Monte Carlo playoff probabilities or predictive betting advice. Keep visual systems separate.
+Source: `memo-os/week-5/PLAYOFF_PROBABILITY_INTEGRATION_CONTRACT_2026-10-12.md`.
+Status: **MODEL UNVERIFIED / NO RUN RECEIPT / NO PLAYOFF PERCENTAGES AUTHORIZED**. Existing physical pagination unchanged. Any probability overlay must use deterministic type, defined source and tested mobile geometry before approval.
