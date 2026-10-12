@@ -3,7 +3,7 @@
 **Status:** CONTRACTED PARTIAL / NOT READY_FOR_RENDER.
 
 ## Source-derived cinematic beat
-Post-storm foothill, spectators, two lifted 1990s pickup truck entrances.
+Post-storm foothill, spectators, two Jeep entrances.
 
 **Atlas:** `LOC-SLOB-FOOTHILL-CAMP`. **Characters:** CHAR-JORDAN-HOLLINGSHEAD / CHAR-BEN-WHIPPLE.
 **Mandatory guard:** Storm scars not verified as persistent Atlas history; Frat Star alias only.
@@ -24,9 +24,12 @@ Final verified winner and ESPN fact receipts; complete approved manuscript; exac
 **Previous:** P020; **next:** P022.
 
 ## Commissioner personalization amendment — binding production patch
-At rainy dusk, two lifted 1990s pickup trucks arrive at the saturated foothill course; headlights and wet reflections define the setup.
+At rainy dusk, two Jeeps arrive at the saturated foothill course; headlights and wet reflections define the setup.
 **Authority:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. This overrides conflicting legacy vehicle/entrance/action notes, not canon, results, or physical pagination. Use full canonical team or owner names in all reader-facing copy. Render eligibility HOLD pending manuscript, reference-mount and independent QA.
 
 ## Commissioner personalization — overriding scene detail
-Heavy dusk rain, headlights and both lifted 1990s-model pickup trucks enter.
+Heavy dusk rain, headlights and both Jeeps enter.
 Authority: `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. No outcome or render lock.
+
+## Scope audit correction — Commissioner rain amendment
+Commissioner approved **heavy rainfall at dusk throughout the sequence**, with low-light headlights, rain-obscured sightlines, reflections, mud and spray. **Preserve the original Jeep mudding concept.** Any previous reference to lifted 1990s pickup trucks was an unapproved invention and is superseded. No additional vehicle specification is authorized. Source: `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. Outcome, image binding and publication QA remain HOLD.
