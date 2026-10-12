@@ -28,9 +28,12 @@
 Required: certified winning team; complete winner POV copy; reference binding proof; Atlas/temporal continuity; shot and copy budget; phone-scale test; independent Umpire. **HOLD** until resolved. Previous P019; next P021.
 
 ## Commissioner personalization amendment — binding production patch
-Heavy rainfall at dusk. Both Seven Deadly Chins and Slob on my Dobb prepare their lifted 1990s-model pickup trucks; owner POV chosen after Fact Lock.
+Heavy rainfall at dusk. Both Seven Deadly Chins and Slob on my Dobb prepare their Jeeps; owner POV chosen after Fact Lock.
 **Authority:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. This overrides conflicting legacy vehicle/entrance/action notes, not canon, results, or physical pagination. Use full canonical team or owner names in all reader-facing copy. Render eligibility HOLD pending manuscript, reference-mount and independent QA.
 
 ## Commissioner personalization — overriding scene detail
-Rain at dusk; both owners' lifted 1990s-model pickup trucks. Winner POV awaits Fact Lock.
+Rain at dusk; both owners' Jeeps. Winner POV awaits Fact Lock.
 Authority: `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. No outcome or render lock.
+
+## Scope audit correction — Commissioner rain amendment
+Commissioner approved **heavy rainfall at dusk throughout the sequence**, with low-light headlights, rain-obscured sightlines, reflections, mud and spray. **Preserve the original Jeep mudding concept.** Any previous reference to lifted 1990s pickup trucks was an unapproved invention and is superseded. No additional vehicle specification is authorized. Source: `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. Outcome, image binding and publication QA remain HOLD.
