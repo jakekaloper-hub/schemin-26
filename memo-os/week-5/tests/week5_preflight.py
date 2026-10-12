@@ -4,7 +4,7 @@ import json
 import sys
 from pathlib import Path
 
-CANONICAL_BINDINGS = Path(__file__).resolve().parents[2] / "canon" / "characters" / "NATIVE_RENDER_REFERENCE_BINDING_V1.json"
+CANONICAL_BINDINGS = Path(__file__).resolve().parents[3] / "canon" / "characters" / "NATIVE_RENDER_REFERENCE_BINDING_V1.json"
 
 def validate_canonical_reference(characters, receipt, binding_doc):
     """Cross-check metadata against existing native binding authority; not proof of actual renderer use."""
