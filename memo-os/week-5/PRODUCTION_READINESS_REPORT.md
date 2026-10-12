@@ -26,3 +26,6 @@
 - Commissioner decisions ONLY if existing canonical materials do not resolve them. Do not ask to resupply source already in GitHub.
 
 **Rule:** Source hydration is not full packet completion. No artwork should be generated from these partial contracts.
+
+## Playoff intelligence integration checkpoint — 2026-10-12
+**IMPLEMENTED:** Additive playoff probability contract and master-packet linkage; conditional data placements for P003, P028, P029, P030, P032. **TESTED:** GitHub sources/recursive tree searches and Bullpen analytics adapter inspected; no authenticated Monte Carlo execution, run logs, RNG-seed/uncertainty evidence or model validation. **AUDITED:** Week 3 playoff-odds mention and historic playoff archaeology do not establish an operational 2026 Monte Carlo model. **PROMOTED:** none. **BLOCKED:** actual mathematics engine discovery, current ESPN Fact Lock, season settings and tiebreak verification, model reproducibility, 12-team simulation output and independent Umpire. **EXTERNAL INPUT:** only if an existing authorized external engine/runtime cannot be located from available repositories/services. All playoff percentages remain WITHHELD.
