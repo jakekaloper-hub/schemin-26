@@ -8,7 +8,7 @@ def page(n, family, match=None):
     return {"id": f"W5-P{n:02d}", "family":family, "matchup_id":match,
             "narrative_job":"regression test", "copy_budget":100,
             "world_anchor":"LOC-TEST", "text_safe_zone":"left",
-            "source_refs":["TEST_FIXTURE"]}
+            "source_refs":["TEST_FIXTURE"], "art_ratio":0.75}
 
 def example():
     return {"week":5,"result_state":"PROVISIONAL",
