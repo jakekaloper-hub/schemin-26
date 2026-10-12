@@ -19,3 +19,9 @@ This is a navigation index, not a replacement for authoritative files. All relat
 - `world/data/locations.json`, `living-novel/os/geography/world_travel_graph_v1.json` — Atlas authority.
 
 Historical Week 1–4 postmortem exhaustive search and actual source-byte/renderer receipts still require completion. No missing reference may be silently fabricated.
+
+## Playoff-intelligence evidence
+- `memo-os/week-5/PLAYOFF_PROBABILITY_INTEGRATION_CONTRACT_2026-10-12.md`: modeling specification and publication gates; NOT actual model output.
+- `living-novel/history/PLAYOFF_ARCHAEOLOGY.md`: source-backed historical postseason results 2022–2025.
+- `memo-os/week-3/WEEK_3_OFFICIAL_PREPRODUCTION_PAGE_PLAN_V2_REFERENCE_LOCKED.md`: historical playoff-odds production mention, not proof of computed odds.
+- Bullpen `runtime/intelAdapters/analytics.js`: narrative pipeline analytics, not a verified Monte Carlo model.
