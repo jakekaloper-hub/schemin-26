@@ -3,7 +3,7 @@
 **Status:** CONTRACTED PARTIAL / NOT READY_FOR_RENDER.
 
 ## Source-derived cinematic beat
-Post-storm foothill, spectators, two Jeep entrances.
+Post-storm foothill, spectators, two lifted 1990s pickup truck entrances.
 
 **Atlas:** `LOC-SLOB-FOOTHILL-CAMP`. **Characters:** CHAR-JORDAN-HOLLINGSHEAD / CHAR-BEN-WHIPPLE.
 **Mandatory guard:** Storm scars not verified as persistent Atlas history; Frat Star alias only.
@@ -22,3 +22,7 @@ Image tells the approved action and spatial geography; prose carries motives, tr
 Final verified winner and ESPN fact receipts; complete approved manuscript; exact reference bytes, hash, mounted Character-ID subject binding; shot-by-shot camera, foreground/midground/background, depth/lighting, copy budget, safe zones, mobile preview; independent Umpire acceptance. **No artwork authorized** while unresolved.
 
 **Previous:** P020; **next:** P022.
+
+## Commissioner personalization amendment — binding production patch
+At rainy dusk, two lifted 1990s pickup trucks arrive at the saturated foothill course; headlights and wet reflections define the setup.
+**Authority:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. This overrides conflicting legacy vehicle/entrance/action notes, not canon, results, or physical pagination. Use full canonical team or owner names in all reader-facing copy. Render eligibility HOLD pending manuscript, reference-mount and independent QA.
