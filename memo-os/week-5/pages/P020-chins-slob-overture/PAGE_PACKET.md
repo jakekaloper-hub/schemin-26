@@ -30,3 +30,7 @@ Required: certified winning team; complete winner POV copy; reference binding pr
 ## Commissioner personalization amendment — binding production patch
 Heavy rainfall at dusk. Both Seven Deadly Chins and Slob on my Dobb prepare their lifted 1990s-model pickup trucks; owner POV chosen after Fact Lock.
 **Authority:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. This overrides conflicting legacy vehicle/entrance/action notes, not canon, results, or physical pagination. Use full canonical team or owner names in all reader-facing copy. Render eligibility HOLD pending manuscript, reference-mount and independent QA.
+
+## Commissioner personalization — overriding scene detail
+Rain at dusk; both owners' lifted 1990s-model pickup trucks. Winner POV awaits Fact Lock.
+Authority: `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. No outcome or render lock.
