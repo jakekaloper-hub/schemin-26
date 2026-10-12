@@ -16,8 +16,8 @@
 
 ## Seven Deadly Chins at Slob on my Dobb — After the Storm (P020–P023)
 - **Heavy rain at dusk for the entire sequence**. Wet low-light atmosphere, vehicle headlights through rainfall, reflections, muddy ruts and spray.
-- Both owners drive **lifted 1990s-model pickup trucks**, not Jeeps. Specific manufacturers/models/colors remain unassigned unless commissioner approves or canonical owner reference exists.
-- P020: rainy dusk and owner stakes. P021: dual truck entrance and setup. P022: increasingly dangerous mudding and near-obscured sightlines. P023: conditional contest outcome.
+- **Vehicle correction:** The Commissioner requested heavy rain at dusk, NOT a vehicle change. Preserve the original Jeep mudding concept. Lifted 1990s pickup trucks are an unapproved addition and must not be treated as canon.
+- P020: rainy dusk and owner stakes. P021: dual Jeep entrance and setup. P022: increasingly dangerous mudding and near-obscured sightlines. P023: conditional contest outcome.
 - Preserve `LOC-SLOB-FOOTHILL-CAMP`, Slob on my Dobb's active **Frat Star** continuity. Existing “after the storm” genre remains the title, but rain is still falling; avoid clear skies.
 
 ## ObiWan Jacoby at Red Leopards — Champions' Joust (P024–P027)
@@ -38,3 +38,6 @@
 - Editorial dialogue is newly proposed fiction, not a verified quote from real owners. Explicitly separate scene fiction, confirmed league lore, and ESPN results.
 - Required review: Beat Writer/Author Council for prose rhythm, Librarian for canon, Atlas for geography, Visual Direction for blocking/shot geometry, Scout for ESPN results, Umpire for independent acceptance. No claim of live authenticated Director session without invocation receipts.
 - Final manuscript, exact owner-specific image assets/hash/mount, page typography and render eligibility remain **HOLD**.
+
+## Audit correction — vehicle scope and duplicate packet notes
+The only new Commissioner direction for the Seven Deadly Chins versus Slob on my Dobb sequence is **very heavy rain at dusk**. The earlier truck substitution exceeded the user's request and is superseded. Maintain Jeeps from the original hardened concept; avoid assigning exact vehicle models without evidence. This correction controls over earlier per-page text that mentioned pickups. Any duplicate amendment fragments in page packets must be reconciled into a single clear authoritative scene instruction. No outcome or render approval implied.
