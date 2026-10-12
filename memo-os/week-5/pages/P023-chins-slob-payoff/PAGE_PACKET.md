@@ -22,3 +22,7 @@ Image tells the approved action and spatial geography; prose carries motives, tr
 Final verified winner and ESPN fact receipts; complete approved manuscript; exact reference bytes, hash, mounted Character-ID subject binding; shot-by-shot camera, foreground/midground/background, depth/lighting, copy budget, safe zones, mobile preview; independent Umpire acceptance. **No artwork authorized** while unresolved.
 
 **Previous:** P022; **next:** P024.
+
+## Commissioner personalization amendment — binding production patch
+The two lifted 1990s pickup trucks face a conditional bogging or recovery outcome under continuing heavy dusk rain; no preselected victor.
+**Authority:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. This overrides conflicting legacy vehicle/entrance/action notes, not canon, results, or physical pagination. Use full canonical team or owner names in all reader-facing copy. Render eligibility HOLD pending manuscript, reference-mount and independent QA.
