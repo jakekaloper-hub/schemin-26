@@ -32,3 +32,6 @@
 
 ## Full-name identity gate (Commissioner lock)
 **Implemented:** Canonical Week 5 reader-facing naming contract and normalized manifest matchup/page-title labels. **Remaining:** audit every page contract's planned copy and generated manuscript/overlays, render-safe title placement, accessibility labels and final PDF extracted text. **Tested:** GitHub manifest source-level normalization; final PDF `NAME_CANON_QA` **NOT RUN**. Shorthand team labels in the released artifact block Page Lock and Release Lock. Technical keys are internal-only.
+
+## Commissioner personalization checkpoint
+**IMPLEMENTED:** Five Commissioner scene amendments persisted and linked to master packet; affected P004–P015 and P020–P027, except P016–P019 (Dr. Duckhook versus D0nkey K0ng unchanged). **PENDING:** detailed manuscript and shot-level packet hydration, outcome gating, canon/render QA, independent Author Council and Umpire review. **PROMOTED:** source-level creative instructions on working branch only; no approved render, no main merge. Verify the no-shorthand policy on final typeset copy.
