@@ -122,7 +122,10 @@
       "render_eligible": false,
       "source_completion": "PARTIAL_SOURCE_HYDRATION",
       "adjacent_prev": "P002",
-      "adjacent_next": "P004"
+      "adjacent_next": "P004",
+      "conditional_modules": [
+        "PLAYOFF_INTELLIGENCE_V1_PENDING_MODEL_RECEIPT"
+      ]
     },
     {
       "page_id": "P004",
@@ -397,7 +400,10 @@
       "render_eligible": false,
       "source_completion": "PARTIAL_SOURCE_HYDRATION",
       "adjacent_prev": "P027",
-      "adjacent_next": "P029"
+      "adjacent_next": "P029",
+      "conditional_modules": [
+        "PLAYOFF_INTELLIGENCE_V1_PENDING_MODEL_RECEIPT"
+      ]
     },
     {
       "page_id": "P029",
@@ -408,7 +414,10 @@
       "render_eligible": false,
       "source_completion": "PARTIAL_SOURCE_HYDRATION",
       "adjacent_prev": "P028",
-      "adjacent_next": "P030"
+      "adjacent_next": "P030",
+      "conditional_modules": [
+        "PLAYOFF_INTELLIGENCE_V1_PENDING_MODEL_RECEIPT"
+      ]
     },
     {
       "page_id": "P030",
@@ -419,7 +428,10 @@
       "render_eligible": false,
       "source_completion": "PARTIAL_SOURCE_HYDRATION",
       "adjacent_prev": "P029",
-      "adjacent_next": "P031"
+      "adjacent_next": "P031",
+      "conditional_modules": [
+        "PLAYOFF_INTELLIGENCE_V1_PENDING_MODEL_RECEIPT"
+      ]
     },
     {
       "page_id": "P031",
@@ -441,7 +453,39 @@
       "render_eligible": false,
       "source_completion": "PARTIAL_SOURCE_HYDRATION",
       "adjacent_prev": "P031",
-      "adjacent_next": null
+      "adjacent_next": null,
+      "conditional_modules": [
+        "PLAYOFF_INTELLIGENCE_V1_PENDING_MODEL_RECEIPT"
+      ]
     }
-  ]
+  ],
+  "playoff_intelligence": {
+    "control_path": "memo-os/week-5/PLAYOFF_PROBABILITY_INTEGRATION_CONTRACT_2026-10-12.md",
+    "status": "CONDITIONAL_NO_VERIFIED_MONTE_CARLO_RUN",
+    "publication_eligible": false,
+    "required_league_configuration": {
+      "teams": 12,
+      "regular_season_weeks": 14,
+      "playoff_teams": 7,
+      "playoff_tiebreak_rules": "VERIFY_FROM_ESPN"
+    },
+    "consumer_pages": [
+      "P003",
+      "P028",
+      "P029",
+      "P030",
+      "P032"
+    ],
+    "primary_race_page": "P029",
+    "new_page_authorized": false,
+    "certification_requirements": [
+      "MATH_ENGINE_LOCATED",
+      "ESPN_FACT_LOCK",
+      "LEAGUE_RULES_VERIFIED",
+      "REPRODUCIBLE_MONTE_CARLO_RUN",
+      "UNCERTAINTY_QA",
+      "INDEPENDENT_UMPIRE",
+      "MOBILE_LAYOUT_TEST"
+    ]
+  }
 }
