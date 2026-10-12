@@ -14,7 +14,7 @@
 - **Host:** Slob; **visitor:** Seven Chins; **Atlas venue:** `LOC-SLOB-FOOTHILL-CAMP`.
 - **Premise:** After the Storm.
 - **Reader job:** establish the eventual verified winner's private motivation and ordinary world before confrontation, without telegraphing the outcome.
-- **Canon constraints:** Jeep mudding competition, storm-scarred foothill; storm damage world-state not independently confirmed. Slob active alias Frat Star, NOT retired Fart Star.
+- **Canon constraints:** lifted 1990s pickup truck mudding competition, storm-scarred foothill; storm damage world-state not independently confirmed. Slob active alias Frat Star, NOT retired Fart Star.
 - **Current ESPN evidence:** Slob 100.20 / Seven Chins 168.76 provisional; not final or certified.
 - **Final winner POV manuscript:** **PENDING Fact Lock**. No fabricated prose is authorized. Preserve both POV possibilities.
 
@@ -26,3 +26,7 @@
 
 ## QA and stop rules
 Required: certified winning team; complete winner POV copy; reference binding proof; Atlas/temporal continuity; shot and copy budget; phone-scale test; independent Umpire. **HOLD** until resolved. Previous P019; next P021.
+
+## Commissioner personalization amendment — binding production patch
+Heavy rainfall at dusk. Both Seven Deadly Chins and Slob on my Dobb prepare their lifted 1990s-model pickup trucks; owner POV chosen after Fact Lock.
+**Authority:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. This overrides conflicting legacy vehicle/entrance/action notes, not canon, results, or physical pagination. Use full canonical team or owner names in all reader-facing copy. Render eligibility HOLD pending manuscript, reference-mount and independent QA.
