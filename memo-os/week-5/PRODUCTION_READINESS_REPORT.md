@@ -35,3 +35,6 @@
 
 ## Commissioner personalization checkpoint
 **IMPLEMENTED:** Five Commissioner scene amendments persisted and linked to master packet; affected P004–P015 and P020–P027, except P016–P019 (Dr. Duckhook versus D0nkey K0ng unchanged). **PENDING:** detailed manuscript and shot-level packet hydration, outcome gating, canon/render QA, independent Author Council and Umpire review. **PROMOTED:** source-level creative instructions on working branch only; no approved render, no main merge. Verify the no-shorthand policy on final typeset copy.
+
+## Personalization audit correction — 2026-10-12
+The Commissioner did **not** authorize a change from Jeeps to 1990s pickup trucks for Seven Deadly Chins versus Slob on my Dobb. Preserve the original Jeep mudding concept and implement heavy rain at dusk. The personalized source contract and P020–P023 packets have been corrected. The five requested amendments remain source-level direction, not a final manuscript, authenticated Author Council decision, independent Umpire acceptance, or render authorization. Duplicate amendment sections in other page packets require editorial consolidation before production.
