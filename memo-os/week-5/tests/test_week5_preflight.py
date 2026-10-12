@@ -51,5 +51,24 @@ class PreflightRegressions(unittest.TestCase):
     def test_missing_source_refs(self):
         self.assert_reject(lambda d:d["pages"][0].pop("source_refs"),"missing_source_refs")
 
+    def test_forged_reference_handle(self):
+        self.assert_reject(lambda d:d["pages"][0].update(
+            characters=["CHAR-WILSON-LOOK"],
+            reference_mount_receipt={"bindings":[
+                {"character_id":"CHAR-WILSON-LOOK","renderer_reference_id":"forged"}]}
+        ),"canonical_reference_binding_mismatch")
+
+    def test_truthy_fake_receipt(self):
+        self.assert_reject(lambda d:d["pages"][0].update(
+            characters=["CHAR-PHILLIP-PITTS"],reference_mount_receipt="approved"
+        ),"canonical_reference_binding_mismatch")
+
+    def test_wrong_owner_reference_crossbinding(self):
+        self.assert_reject(lambda d:d["pages"][0].update(
+            characters=["CHAR-AUSTIN-BYARS"],
+            reference_mount_receipt={"bindings":[
+                {"character_id":"CHAR-WILSON-LOOK","renderer_reference_id":"some-ref"}]}
+        ),"canonical_reference_binding_mismatch")
+
 if __name__=="__main__":
     unittest.main()
