@@ -23,3 +23,7 @@
 - Manuscript: approved final reader-facing copy **NOT LOCATED IN THIS PAGE CONTRACT**; original beat description above is not a manuscript.
 - QA: exact character source binding, Atlas time-state, world mutation review, visual complementarity, typography/phone proof, independent Umpire.
 - **STOP** if any dependency unresolved. Do not promote to READY_FOR_RENDER.
+
+## Commissioner personalization amendment — binding creative direction
+**Matchup:** Chili Cheesers versus El Niño. **Page:** P014. **Scene-specific integration:** Brandon Pryor enraged and humiliated, challenges Manning Welty to duel at high noon; weather builds.
+**Source:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. Overrides conflicting older scene details, not results or Atlas canon. No reader-facing shorthand. Manuscript, character mount and independent Umpire remain HOLD.
