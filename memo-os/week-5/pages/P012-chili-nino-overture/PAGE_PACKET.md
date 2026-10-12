@@ -26,3 +26,7 @@
 
 ## QA and stop rules
 Required: certified winning team; complete winner POV copy; reference binding proof; Atlas/temporal continuity; shot and copy budget; phone-scale test; independent Umpire. **HOLD** until resolved. Previous P011; next P013.
+
+## Commissioner personalization amendment — binding creative direction
+**Matchup:** Chili Cheesers versus El Niño. **Page:** P012. **Scene-specific integration:** Chili Outlaw preparing an enormous tub of chili in the town; Dark Horse nearby.
+**Source:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. Overrides conflicting older scene details, not results or Atlas canon. No reader-facing shorthand. Manuscript, character mount and independent Umpire remain HOLD.
