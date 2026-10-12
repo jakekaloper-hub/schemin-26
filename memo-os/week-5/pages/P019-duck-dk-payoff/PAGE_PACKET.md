@@ -1,27 +1,24 @@
-# Week 5 P019 — Duckhook vs DK — Payoff
+# P019 — duck-dk-payoff
 
-**Status:** PLANNED / NOT RENDER ELIGIBLE / NOT FINAL PRODUCTION AUTHORITY
-**Source:** `memo-os/week-5/PUBLICATION_PAGE_MANIFEST.json`; canonical `memo-os/PAGE_PRODUCTION_CONTRACT_V1.md`.
-**Previous:** P018; **Next:** P020.
+**Status:** CONTRACTED PARTIAL / NOT READY_FOR_RENDER.
 
-## Inherited controls
-- Every source must be resolved through `memo-os/week-5/MASTER_PRODUCTION_PACKET.md` and `PREPRODUCTION_SOURCE_INDEX.md`.
-- Source-backed deterministic reader text; do not ask the image renderer to typeset facts.
-- Character ID and exact reference bytes/hash/mount/subject-binding proof required before recognizable character generation. No generic replacements.
-- Atlas venue and time-state, world-state in/out, approved scene features, mobile-safe copy budget, shot composition, image-tells/prose-tells, adjacency, and independent QA must all be resolved.
-- Historical Week 1–4 regression checks mandatory.
+## Source-derived cinematic beat
+Duckhook win: ball strikes DK's forehead and centaur topples; DK win: swats ball and launches Duckhook with iron-shod hind legs.
 
-## Matchup wave
-**Venue:** `LOC-COUNTRY-CLUB-JACKSON` (from verified Week 5 Atlas audit).
-**Wave phase:** PAYOFF.
-Use approved matchup premise, causal ESPN player evidence, and no invented scoring chronology.
+**Atlas:** `LOC-COUNTRY-CLUB-JACKSON`. **Characters:** CHAR-ZACH-WILSON / CHAR-WILSON-LOOK.
+**Mandatory guard:** DK is ONE gorilla-centaur body with FOUR equine legs; winner not yet Fact Locked.
 
-## Unresolved production contract fields
-- Final approved manuscript: **UNRESOLVED**.
-- Final verified ESPN result / relevant department data: **UNRESOLVED**.
-- Exact character reference eligibility: **UNVERIFIED**.
-- Art brief and full shot-level hydration: **UNRESOLVED**.
-- Actual shell geometry, safe zones and copy budget: **UNVERIFIED**.
-- Independent Umpire visual and page approval: **NOT RUN**.
+## Governing sources
+- `memo-os/week-5/WEEK_5_MATCHUP_VISUAL_BRAINSTORM_HARDENED_2026-10-11.md` (creative premise)
+- `memo-os/week-5/WEEK_5_COMMISSIONER_SCENE_FEATURE_APPROVAL_2026-10-12.md` (temporary joust only where applicable)
+- `memo-os/week-5/WEEK_5_VERIFIED_ATLAS_ROUTES_AND_CHARACTER_AUDIT_2026-10-12.md` (LOC_ID and character IDs)
+- `memo-os/week-5/WEEK_5_UNIFIED_PREPRODUCTION_CONTROL_BOARD_2026-10-12.md` (provisional scoring)
+- `memo-os/PAGE_PRODUCTION_CONTRACT_V1.md` (all required production fields)
 
-**STOP:** This indexed packet is a routing/contract skeleton. It is NOT evidence the page is production-ready. Complete existing canonical contract before promoting to READY_FOR_RENDER.
+## Image/prose division
+Image tells the approved action and spatial geography; prose carries motives, true scoring causality and consequences. Matchup art target ~75% illustration. All factual text must be separately composited.
+
+## Required unresolved fields
+Final verified winner and ESPN fact receipts; complete approved manuscript; exact reference bytes, hash, mounted Character-ID subject binding; shot-by-shot camera, foreground/midground/background, depth/lighting, copy budget, safe zones, mobile preview; independent Umpire acceptance. **No artwork authorized** while unresolved.
+
+**Previous:** P018; **next:** P020.
