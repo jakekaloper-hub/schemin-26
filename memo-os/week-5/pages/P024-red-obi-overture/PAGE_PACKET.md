@@ -26,3 +26,7 @@
 
 ## QA and stop rules
 Required: certified winning team; complete winner POV copy; reference binding proof; Atlas/temporal continuity; shot and copy budget; phone-scale test; independent Umpire. **HOLD** until resolved. Previous P023; next P025.
+
+## Commissioner personalization — binding entrance continuity
+Equal heroic reputations and stakes, winner perspective only after ESPN Fact Lock; preserve the forthcoming Knight's Tale-style entrance.
+Authority: `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. Render eligibility HOLD.
