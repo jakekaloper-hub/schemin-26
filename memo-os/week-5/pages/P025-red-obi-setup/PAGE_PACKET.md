@@ -26,3 +26,7 @@ Final verified winner and ESPN fact receipts; complete approved manuscript; exac
 ## Commissioner personalization amendment — binding production patch
 At the equal-status tournament entrances, a herald theatrically unfurls Jake Kaloper's ridiculously long ceremonial titles as grandstands take up a synchronized stomp-and-clap rhythm; Kevin Zeek's impatience adds a comic counterbeat. A Knight's Tale homage without quoted film dialogue or lyrics.
 **Authority:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. This overrides conflicting legacy vehicle/entrance/action notes, not canon, results, or physical pagination. Use full canonical team or owner names in all reader-facing copy. Render eligibility HOLD pending manuscript, reference-mount and independent QA.
+
+## Commissioner personalization — binding entrance continuity
+At the championship entrance a herald unrolls Jake Kaloper's comically long invented titles while spectators begin a contagious stomp-and-clap rhythm; Kevin Zeek reacts impatiently. Original homage, no copied movie dialogue or lyrics; equal heroic stature.
+Authority: `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. Render eligibility HOLD.
