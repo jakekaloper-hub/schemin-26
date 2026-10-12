@@ -23,3 +23,7 @@
 - Manuscript: approved final reader-facing copy **NOT LOCATED IN THIS PAGE CONTRACT**; original beat description above is not a manuscript.
 - QA: exact character source binding, Atlas time-state, world mutation review, visual complementarity, typography/phone proof, independent Umpire.
 - **STOP** if any dependency unresolved. Do not promote to READY_FOR_RENDER.
+
+## Commissioner personalization amendment — binding creative direction
+**Matchup:** The LLC. versus Mud Dogs. **Physical page:** P010. **Scene-specific integration:** Bulldozers topple trees, churn shoreline; Bobby Mitchell flees frightened and grieving.
+**Source:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. This supersedes conflicting earlier action, weather, vehicle, or entrance notes for this page; does not authorize an official result, finished manuscript, character render, permanent Atlas mutation or new page. No reader-facing team shorthand. Independent Author Council and Umpire approval pending.
