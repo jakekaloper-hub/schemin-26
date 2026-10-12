@@ -22,3 +22,7 @@ Image tells the approved action and spatial geography; prose carries motives, tr
 Final verified winner and ESPN fact receipts; complete approved manuscript; exact reference bytes, hash, mounted Character-ID subject binding; shot-by-shot camera, foreground/midground/background, depth/lighting, copy budget, safe zones, mobile preview; independent Umpire acceptance. **No artwork authorized** while unresolved.
 
 **Previous:** P024; **next:** P026.
+
+## Commissioner personalization amendment — binding production patch
+At the equal-status tournament entrances, a herald theatrically unfurls Jake Kaloper's ridiculously long ceremonial titles as grandstands take up a synchronized stomp-and-clap rhythm; Kevin Zeek's impatience adds a comic counterbeat. A Knight's Tale homage without quoted film dialogue or lyrics.
+**Authority:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. This overrides conflicting legacy vehicle/entrance/action notes, not canon, results, or physical pagination. Use full canonical team or owner names in all reader-facing copy. Render eligibility HOLD pending manuscript, reference-mount and independent QA.
