@@ -26,3 +26,7 @@ Final verified winner and ESPN fact receipts; complete approved manuscript; exac
 ## Commissioner personalization amendment — binding production patch
 The two lifted 1990s pickup trucks face a conditional bogging or recovery outcome under continuing heavy dusk rain; no preselected victor.
 **Authority:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. This overrides conflicting legacy vehicle/entrance/action notes, not canon, results, or physical pagination. Use full canonical team or owner names in all reader-facing copy. Render eligibility HOLD pending manuscript, reference-mount and independent QA.
+
+## Commissioner personalization — overriding scene detail
+Conditional winner, two lifted 1990s-model pickup trucks under continued heavy dusk rain.
+Authority: `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. No outcome or render lock.
