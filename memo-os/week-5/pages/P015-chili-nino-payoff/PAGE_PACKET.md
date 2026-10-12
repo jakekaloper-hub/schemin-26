@@ -1,27 +1,25 @@
-# Week 5 P015 — Chili vs El Niño — Payoff
+# Week 5 P015 — A Storm Comes to Town / PAYOFF
 
-**Status:** PLANNED / NOT RENDER ELIGIBLE / NOT FINAL PRODUCTION AUTHORITY
-**Source:** `memo-os/week-5/PUBLICATION_PAGE_MANIFEST.json`; canonical `memo-os/PAGE_PRODUCTION_CONTRACT_V1.md`.
-**Previous:** P014; **Next:** P016.
+**State:** CONTRACTED PARTIAL / NOT READY_FOR_RENDER. This is source-grounded hydration of existing approved concept, not new manuscript or approved artwork.
 
-## Inherited controls
-- Every source must be resolved through `memo-os/week-5/MASTER_PRODUCTION_PACKET.md` and `PREPRODUCTION_SOURCE_INDEX.md`.
-- Source-backed deterministic reader text; do not ask the image renderer to typeset facts.
-- Character ID and exact reference bytes/hash/mount/subject-binding proof required before recognizable character generation. No generic replacements.
-- Atlas venue and time-state, world-state in/out, approved scene features, mobile-safe copy budget, shot composition, image-tells/prose-tells, adjacency, and independent QA must all be resolved.
-- Historical Week 1–4 regression checks mandatory.
+## Authority and editorial job
+- Original source: `memo-os/week-5/WEEK_5_COMMISSIONER_SCENE_FEATURE_APPROVAL_2026-10-12.md`.
+- Supporting: `memo-os/week-5/WEEK_5_VERIFIED_ATLAS_ROUTES_AND_CHARACTER_AUDIT_2026-10-12.md`, `memo-os/week-5/WEEK_5_UNIFIED_PREPRODUCTION_CONTROL_BOARD_2026-10-12.md`, `memo-os/PAGE_PRODUCTION_CONTRACT_V1.md`.
+- Home: Chili; visitor: El Niño; venue: `LOC-CHILI-STABLE`.
+- Scene beat: **Conditional non-gory duel; provisional Chili 183.53 vs El Niño 130.40; verify remaining James Cook**.
+- Story contract: NO sheriff/lawman/bounty hunter; town street approved as temporary scene within Chili's existing territory.
+- Image tells: visible environment, spatial character relationship, cinematic movement of this beat. Prose tells: motives, verified scoring causality, historical consequence and transition.
 
-## Matchup wave
-**Venue:** `LOC-CHILI-STABLE` (from verified Week 5 Atlas audit).
-**Wave phase:** PAYOFF.
-Use approved matchup premise, causal ESPN player evidence, and no invented scoring chronology.
+## Character identity gate
+- Characters: `CHAR-BRANDON-PRYOR`, `CHAR-MANNING-WELTY`.
+- Resolve exact package and approved source-byte/hash/renderer-mount/subject-binding from canonical registry. Current eligibility: **HOLD**. Do not substitute generic subjects.
 
-## Unresolved production contract fields
-- Final approved manuscript: **UNRESOLVED**.
-- Final verified ESPN result / relevant department data: **UNRESOLVED**.
-- Exact character reference eligibility: **UNVERIFIED**.
-- Art brief and full shot-level hydration: **UNRESOLVED**.
-- Actual shell geometry, safe zones and copy budget: **UNVERIFIED**.
-- Independent Umpire visual and page approval: **NOT RUN**.
+## Page composition contract
+- Matchup cinematic pages target 75% illustration, balanced editorial density (PR150 recovered shell requirement). Separate deterministic editorial text from image generation. Camera, foreground/midground/background, depth/lighting, character blocking, copy budget, safe zones, mobile risk and full shot hydration **NOT YET APPROVED**; resolve from existing production source and actual shell, do not invent locked framing.
+- Physical adjacency: previous P014; next P016.
 
-**STOP:** This indexed packet is a routing/contract skeleton. It is NOT evidence the page is production-ready. Complete existing canonical contract before promoting to READY_FOR_RENDER.
+## Evidence and acceptance
+- Fact Lock: pending verified final ESPN outcome, lineup evidence and scoring receipt. Provisional scores must not be typeset as final.
+- Manuscript: approved final reader-facing copy **NOT LOCATED IN THIS PAGE CONTRACT**; original beat description above is not a manuscript.
+- QA: exact character source binding, Atlas time-state, world mutation review, visual complementarity, typography/phone proof, independent Umpire.
+- **STOP** if any dependency unresolved. Do not promote to READY_FOR_RENDER.
