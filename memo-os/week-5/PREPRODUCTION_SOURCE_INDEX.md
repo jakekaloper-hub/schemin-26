@@ -25,3 +25,5 @@ Historical Week 1–4 postmortem exhaustive search and actual source-byte/render
 - `living-novel/history/PLAYOFF_ARCHAEOLOGY.md`: source-backed historical postseason results 2022–2025.
 - `memo-os/week-3/WEEK_3_OFFICIAL_PREPRODUCTION_PAGE_PLAN_V2_REFERENCE_LOCKED.md`: historical playoff-odds production mention, not proof of computed odds.
 - Bullpen `runtime/intelAdapters/analytics.js`: narrative pipeline analytics, not a verified Monte Carlo model.
+
+- `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md` — direct Commissioner-approved five-matchup personalization; overrides older conflicting Jeep/clear-weather or vague action beats but not character or Atlas canon.
