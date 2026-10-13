@@ -210,18 +210,23 @@ def test_all_six_finale_pages_require_illustrated_verified_result_banner():
         assert f'{x["away"]["points"]:.2f}' in packet
         assert f'{x["home"]["points"]:.2f}' in packet
 
-def test_p011_bad_candidate_stays_rejected_until_actual_banner_is_seen():
+def test_p011_old_candidate_rejected_revised_page_is_still_not_final():
     m = json.loads(MANIFEST.read_text(encoding="utf-8"))
     p = m["pages"][10]
     assert p["page_id"] == "P011"
-    assert p["image_qa_status"] == "REJECTED_LAYOUT_AND_RESULT_PANEL"
-    assert p["image_artifact_status"] == "REJECTED_PAYOFF_MISSING_RESULT_BANNER"
+    assert p["image_qa_status"] == "REVISED_CANDIDATE_SELF_INSPECTED_INDEPENDENT_UMPIRE_PENDING"
+    assert p["image_artifact_status"] == "REVISION_1_BANNER_CANDIDATE_SESSION_ONLY"
     assert p["render_eligible"] is False
     assert p["payoff_result_banner"]["winner"] == "The LLC."
     assert p["payoff_result_banner"]["away_score"] == 193.73
     assert p["payoff_result_banner"]["home_score"] == 127.09
     assert p["payoff_result_banner"]["away_record"] == "2–3"
     assert p["payoff_result_banner"]["home_record"] == "2–3"
+    assert p["payoff_result_banner"]["visible_pixel_qa"] == "NOT_YET_PASSED"
+    evidence = (WEEK5 / "production-evidence/WEEK_5_P011_PAYOFF_BANNER_VISUAL_QA_RECEIPT_2026-10-13.md").read_text(encoding="utf-8")
+    assert "did not include any strip" in evidence
+    assert "REJECTED" in evidence
+    assert "3c0090de7da5176fb53572d528d715762464b0fd8072a9d073fa51f65da15d24" in evidence
 
 
 def test_six_payoffs_have_source_decided_result_banner_contract():
