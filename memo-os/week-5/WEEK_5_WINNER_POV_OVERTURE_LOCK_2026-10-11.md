@@ -7,11 +7,18 @@
 1. Each of the six matchups has its **own individually authored Story Overture**; these are not six interchangeable captions or an all-issue opening.
 2. **The eventual verified winner is the focal POV character of that matchup's opening.** This is determined **after final ESPN/FLAIM result verification**, never by projections or midweek leaders.
 3. Enter the location, anticipation, motives and personal stakes through that winner's perception, thoughts/observations, choices or tightly aligned narration. **Do not spoil the win in the opening.** The opponent must retain credible agency.
-4. An overture is a dedicated **story function**, not necessarily a mandatory extra physical page. It may stand on a prose-forward page or form a sizable legible opening zone in a sequential multi-panel page. Preserve narrative depth and smartphone readability; page count remains flexible.
+4. **Week 4 publication precedent controls Week 5 placement:** each of the six overtures is a separate, prose-forward physical page immediately BEFORE its own matchup setup page. Sequence: OVERTURE → SETUP → ESCALATION → PAYOFF. Do not merge overture into a matchup panel, the issue opening, the scoreboard, or an all-issue introduction. Preserve phone-first readability and allow matchup wave length to vary after its dedicated overture.
 5. Storyline worlds, rival character roles and core genre are **already Founder locked**. Result selects perspective, causal arc and payoff; result does not rewrite the premise.
 6. Full chapter grammar: **Winner-POV Story Overture → Cinematic Confrontation → Verified-Result Resolution**. The confrontation is built from consequential, evidenced fantasy actions and the fictional framing. Endings remain conditional until fact lock.
 7. Where no verified winner yet exists, Beat Writer may research both POV possibilities and prepare setting/voice notes, but must not label either finished winner-POV overture or publish an ending.
 8. Respect temporal character canon, props, companions, World Atlas, exact deterministic matchup text, and actual-pixel independent QA. A fabricated winner or an incorrect character is a hard FAIL.
+
+## Week 4 controlling visual and editorial precedent
+- Source: `memo-os/week-4/publication-readiness/WEEK_04_MATCHUP_OVERTURE_PRODUCTION_PACKET.md` and `WEEK_04_MATCHUP_OVERTURE_FINAL_MANUSCRIPT_2026-10-06.md`.
+- Dedicated overture pages are **65–75% reader-facing prose** and **25–35% restrained environmental illustration**, visually quieter than the matchup setup. Week 4 master canvas was 1024 × 1536; Week 5 production must check current shell dimensions before locking.
+- No result strips, victory poses, matchup climax, new character redesign, or uncontrolled image-generated typography. The deterministic Publication Design layer owns prose.
+- Each overture is environment-led, anticipation-led, grounded in winner POV, league history and route/venue continuity. Characters appear only where their exact canon reference and page contract permit.
+- The six overtures are six **distinct pages** placed immediately before their respective six matchup waves, not six extra generic introductions. The overall issue opening is a separate department.
 
 ## Six overture POV gates
 | # | Matchup | Locked world | Final overture POV |
@@ -26,12 +33,12 @@
 ## Production integration — Director assignments
 - **Scout/Data Gateway:** record independently verified winner, final scores, pivotal performers/decisions and the evidence timestamp. If unresolved, gate stays HOLD.
 - **Beat Writer:** after Fact Lock, write six distinct **winner-focal overtures** with authentic motivations, tension, league-specific history, and consequential prose. Produce manuscript + optional loser-angle research, not preordained results.
-- **Groundskeeper:** ensure all six overtures appear as readable dedicated sections within page packets and complete-issue previs; do not force six extra pages.
+- **Groundskeeper:** place all six overtures as their own prose-forward pages immediately preceding their matchup setup pages; record six overture page IDs, six setup page IDs and exact adjacency in the complete-issue page manifest.
 - **Librarian:** enforce owner identity, prior-week continuity, actual approved references and world-state, especially DK centaur, HMB belt, TDS appearance and Dark Horse.
 - **Visual Lead/Design:** plan composition around prose, not vice versa; stage panels and typography for phone-first reading.
 - **Umpire:** independently check `6/6 winner-POV overtures`, spoiler-free openings, evidence-to-story causal mapping, distinct voices, final fact/character/visual QA.
 
 ## Acceptance test
-**PASS only when:** all six verified results exist; each overture focalizes its verified winner; each tells a genuinely owner-specific anticipatory story without disclosing the ending; every chapter has confrontation and a result-grounded consequence; and complete pages pass mobile/layout and independent QA. Until then: **CREATIVE REQUIREMENT LOCKED / WINNERS UNDETERMINED / FINAL MANUSCRIPTS HELD**.
+**PASS only when:** all six verified results exist; each overture focalizes its verified winner; each tells a genuinely owner-specific anticipatory story without disclosing the ending; every chapter has confrontation and a result-grounded consequence; and six dedicated overture pages immediately precede the six respective setup pages, with 65–75% prose / 25–35% restrained environmental art, and complete pages pass mobile/layout and independent QA. Until then: **CREATIVE REQUIREMENT LOCKED / WINNERS UNDETERMINED / FINAL MANUSCRIPTS HELD**.
 
 **Note:** This is a repository editorial contract, not proof that authenticated Bullpen runtime Directors executed or approved it.

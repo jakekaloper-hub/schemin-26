@@ -1,0 +1,1230 @@
+{
+  "issue": "SCHEMIN26-W05",
+  "authority": "PROVISIONAL 32-PAGE ORDER / ALL PACKETS SOURCE-HYDRATED PARTIALLY / NO FINAL PAGINATION OR RELEASE",
+  "source": "Week 5 Winner POV lock; Week 4 overture production packet; Week 5 unified board",
+  "page_count_provisional": 32,
+  "locked_page_count": false,
+  "matchup_waves": [
+    {
+      "key": "gotw",
+      "matchup": "His Majesty's Blood at Three Dreaded Snake",
+      "genre": "Dark Wizard Chess",
+      "venue": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "home": "Three Dreaded Snake",
+      "away": "His Majesty's Blood",
+      "page_ids": [
+        "P004",
+        "P005",
+        "P006",
+        "P007"
+      ]
+    },
+    {
+      "key": "llc-mud",
+      "matchup": "The LLC. at Mud Dogs",
+      "genre": "Save the Swamp",
+      "venue": "LOC-MUD-DOGS-SWAMP",
+      "home": "Mud Dogs",
+      "away": "The LLC.",
+      "page_ids": [
+        "P008",
+        "P009",
+        "P010",
+        "P011"
+      ]
+    },
+    {
+      "key": "chili-nino",
+      "matchup": "El Niño at Chili Cheesers",
+      "genre": "A Storm Comes to Town",
+      "venue": "LOC-CHILI-STABLE",
+      "home": "Chili Cheesers",
+      "away": "El Niño",
+      "page_ids": [
+        "P012",
+        "P013",
+        "P014",
+        "P015"
+      ]
+    },
+    {
+      "key": "duck-dk",
+      "matchup": "D0nkey K0ng at Dr. Duckhook",
+      "genre": "David vs Goliath",
+      "venue": "LOC-COUNTRY-CLUB-JACKSON",
+      "home": "Dr. Duckhook",
+      "away": "D0nkey K0ng",
+      "page_ids": [
+        "P016",
+        "P017",
+        "P018",
+        "P019"
+      ]
+    },
+    {
+      "key": "chins-slob",
+      "matchup": "Seven Deadly Chins at Slob on my Dobb",
+      "genre": "After the Storm",
+      "venue": "LOC-SLOB-FOOTHILL-CAMP",
+      "home": "Slob on my Dobb",
+      "away": "Seven Deadly Chins",
+      "page_ids": [
+        "P020",
+        "P021",
+        "P022",
+        "P023"
+      ]
+    },
+    {
+      "key": "red-obi",
+      "matchup": "ObiWan Jacoby at Red Leopards",
+      "genre": "Champions' Joust",
+      "venue": "LOC-RED-RUINS",
+      "home": "Red Leopards",
+      "away": "ObiWan Jacoby",
+      "page_ids": [
+        "P024",
+        "P025",
+        "P026",
+        "P027"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "P001",
+      "slug": "cover",
+      "title": "Cover",
+      "packet_path": "memo-os/week-5/pages/P001-cover/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": null,
+      "adjacent_next": "P002",
+      "expected_flattened_png": "SCHEMIN26_W05_P001_COVER.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "FOR DA BEARS",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "COVER_ONLY_SUBORDINATE_TO_FOR_DA_BEARS",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "raw_sha256": "33e70a9208b47692d9d883707236a2b3a670629e0cb3b3f84c61eacff20fea37",
+          "visual_species": "HUMAN_CORPORATE_RAIDER"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+    },
+    {
+      "page_id": "P002",
+      "slug": "opening",
+      "title": "Opening",
+      "packet_path": "memo-os/week-5/pages/P002-opening/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P001",
+      "adjacent_next": "P003",
+      "expected_flattened_png": "SCHEMIN26_W05_P002_OPENING.png",
+      "image_artifact_status": "VISUAL_LAYOUT_PROOF_REJECTED_FIDELITY",
+      "image_qa_status": "REJECTED_WEEK4_BENCHMARK_FIDELITY",
+      "nonfinal_proof_receipt": "memo-os/week-5/production-evidence/WEEK_5_P002_PNG_LAYOUT_FIDELITY_REJECTION_2026-10-13.md",
+      "reader_facing_primary_header": "THE LAND REMEMBERS",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+    },
+    {
+      "page_id": "P003",
+      "slug": "scoreboard",
+      "title": "Scoreboard",
+      "packet_path": "memo-os/week-5/pages/P003-scoreboard/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P002",
+      "adjacent_next": "P004",
+      "conditional_modules": [
+        "PLAYOFF_INTELLIGENCE_V1_PENDING_MODEL_RECEIPT"
+      ],
+      "expected_flattened_png": "SCHEMIN26_W05_P003_SCOREBOARD.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "THE BOARD",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+    },
+    {
+      "page_id": "P004",
+      "slug": "gotw-overture",
+      "title": "His Majesty's Blood versus Three Dreaded Snake — Winner-POV Overture",
+      "packet_path": "memo-os/week-5/pages/P004-gotw-overture/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P003",
+      "adjacent_next": "P005",
+      "expected_flattened_png": "SCHEMIN26_W05_P004_GOTW_OVERTURE.png",
+      "image_artifact_status": "REJECTED_P004_GENERATED_2026_10_13",
+      "image_qa_status": "REJECTED_CONFIRMED_SOURCE_ORIGINALS_IGNORED",
+      "reader_facing_primary_header": "His Majesty's Blood at Three Dreaded Snake",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "raw_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
+          "visual_species": "BELT_KEEPER_UNDEAD_HUMANOID"
+        },
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "raw_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+          "visual_species": "THREE_HEADED_SERPENT_HYBRID"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "Actual new P004 output SHA256 7a53cc2acb49bfb487ef190d855216f7b8c8281a4e99d25ce0bce7dd7286cefd failed canonical visual match and omitted approved P004 narrative copy; added giant SCHEMIN masthead. Commissioner reuploaded exact registered originals: Three Dreaded Snake JPEG SHA256 31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c, His Majesty's Blood JPEG SHA256 eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76. Therefore assets and source hashes ARE correct. Root defect actual ChatGPT rendering/canon-reference usage and image QA, not missing source or need to re-lock. Do not re-request originals or use fake replacement art."
+    },
+    {
+      "page_id": "P005",
+      "slug": "gotw-setup",
+      "title": "His Majesty's Blood versus Three Dreaded Snake — Cinematic Setup",
+      "packet_path": "memo-os/week-5/pages/P005-gotw-setup/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P004",
+      "adjacent_next": "P006",
+      "expected_flattened_png": "SCHEMIN26_W05_P005_GOTW_SETUP.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "His Majesty's Blood at Three Dreaded Snake",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "raw_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
+          "visual_species": "BELT_KEEPER_UNDEAD_HUMANOID"
+        },
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "raw_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+          "visual_species": "THREE_HEADED_SERPENT_HYBRID"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+    },
+    {
+      "page_id": "P006",
+      "slug": "gotw-escalation",
+      "title": "His Majesty's Blood versus Three Dreaded Snake — Cinematic Escalation",
+      "packet_path": "memo-os/week-5/pages/P006-gotw-escalation/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P005",
+      "adjacent_next": "P007",
+      "expected_flattened_png": "SCHEMIN26_W05_P006_GOTW_ESCALATION.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "His Majesty's Blood at Three Dreaded Snake",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "raw_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
+          "visual_species": "BELT_KEEPER_UNDEAD_HUMANOID"
+        },
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "raw_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+          "visual_species": "THREE_HEADED_SERPENT_HYBRID"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+    },
+    {
+      "page_id": "P007",
+      "slug": "gotw-payoff",
+      "title": "His Majesty's Blood versus Three Dreaded Snake — Cinematic Payoff",
+      "packet_path": "memo-os/week-5/pages/P007-gotw-payoff/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P006",
+      "adjacent_next": "P008",
+      "expected_flattened_png": "SCHEMIN26_W05_P007_GOTW_PAYOFF.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "His Majesty's Blood at Three Dreaded Snake",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "raw_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
+          "visual_species": "BELT_KEEPER_UNDEAD_HUMANOID"
+        },
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "raw_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+          "visual_species": "THREE_HEADED_SERPENT_HYBRID"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE",
+      "payoff_result_banner": {
+        "required": true,
+        "contract": "production-evidence/WEEK_5_PAYOFF_RESULT_BANNER_CONTRACT_2026-10-13.json",
+        "winner": "His Majesty's Blood",
+        "away_score": 113.45,
+        "home_score": 85.34,
+        "away_record": "3–2",
+        "home_record": "2–3",
+        "character_portraits_required": 2,
+        "visible_pixel_qa": "NOT_YET_PASSED"
+      },
+      "payoff_final_result_banner_required": true,
+      "payoff_banner_contract": "production-evidence/WEEK_5_SIX_PAYOFF_FINAL_RESULT_BANNER_LOCK_2026-10-13.json",
+      "verified_week5_winner": "His Majesty's Blood",
+      "verified_week5_score": {
+        "away": 113.45,
+        "home": 85.34
+      },
+      "verified_completed_w5_record": {
+        "away": "3-2",
+        "home": "2-3"
+      },
+      "banner_owner_portraits_required": "TWO_FACE_CROPS_FROM_SAME_PAGE_IMAGE",
+      "banner_390px_qa_required": true
+    },
+    {
+      "page_id": "P008",
+      "slug": "llc-mud-overture",
+      "title": "The LLC. versus Mud Dogs — Winner-POV Overture",
+      "packet_path": "memo-os/week-5/pages/P008-llc-mud-overture/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P007",
+      "adjacent_next": "P009",
+      "expected_flattened_png": "SCHEMIN26_W05_P008_LLC_MUD_OVERTURE.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "The LLC. at Mud Dogs",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "raw_sha256": "33e70a9208b47692d9d883707236a2b3a670629e0cb3b3f84c61eacff20fea37",
+          "visual_species": "HUMAN_CORPORATE_RAIDER"
+        },
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "raw_sha256": "462e5d6517b5653458c8d32c20692e94d037b134de7aac18325c1af41647eefc",
+          "visual_species": "MONSTROUS_QUADRUPED_CANINE"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE",
+      "temporary_costume_continuity": "CHAR-DAVID-BABB: same commissioner-approved P001 FOR DA BEARS costume / face; vary pose. CHAR-BOBBY-MITCHELL: huge chained four-legged feral swamp beast; NEVER HUMAN"
+    },
+    {
+      "page_id": "P009",
+      "slug": "llc-mud-setup",
+      "title": "The LLC. versus Mud Dogs — Cinematic Setup",
+      "packet_path": "memo-os/week-5/pages/P009-llc-mud-setup/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P008",
+      "adjacent_next": "P010",
+      "expected_flattened_png": "SCHEMIN26_W05_P009_LLC_MUD_SETUP.png",
+      "image_artifact_status": "REJECTED_CANDIDATE_HUMAN_SUBSTITUTION",
+      "image_qa_status": "REJECTED_CANON_AND_TITLE",
+      "reader_facing_primary_header": "The LLC. at Mud Dogs",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "raw_sha256": "33e70a9208b47692d9d883707236a2b3a670629e0cb3b3f84c61eacff20fea37",
+          "visual_species": "HUMAN_CORPORATE_RAIDER"
+        },
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "raw_sha256": "462e5d6517b5653458c8d32c20692e94d037b134de7aac18325c1af41647eefc",
+          "visual_species": "MONSTROUS_QUADRUPED_CANINE"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "REJECTED_BOBBY_SPECIES_AND_MATCHUP_HEADER",
+      "temporary_costume_continuity": "CHAR-DAVID-BABB: same commissioner-approved P001 FOR DA BEARS costume / face; vary pose. CHAR-BOBBY-MITCHELL: huge chained four-legged feral swamp beast; NEVER HUMAN",
+      "secondary_scene_headline": "INDUSTRIAL FORCES ARRIVE"
+    },
+    {
+      "page_id": "P010",
+      "slug": "llc-mud-escalation",
+      "title": "The LLC. versus Mud Dogs — Cinematic Escalation",
+      "packet_path": "memo-os/week-5/pages/P010-llc-mud-escalation/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P009",
+      "adjacent_next": "P011",
+      "expected_flattened_png": "SCHEMIN26_W05_P010_LLC_MUD_ESCALATION.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "The LLC. at Mud Dogs",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "raw_sha256": "33e70a9208b47692d9d883707236a2b3a670629e0cb3b3f84c61eacff20fea37",
+          "visual_species": "HUMAN_CORPORATE_RAIDER"
+        },
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "raw_sha256": "462e5d6517b5653458c8d32c20692e94d037b134de7aac18325c1af41647eefc",
+          "visual_species": "MONSTROUS_QUADRUPED_CANINE"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE",
+      "temporary_costume_continuity": "CHAR-DAVID-BABB: same commissioner-approved P001 FOR DA BEARS costume / face; vary pose. CHAR-BOBBY-MITCHELL: huge chained four-legged feral swamp beast; NEVER HUMAN",
+      "secondary_scene_headline": "DESTRUCTION AND DESPERATE RESISTANCE"
+    },
+    {
+      "page_id": "P011",
+      "slug": "llc-mud-payoff",
+      "title": "The LLC. versus Mud Dogs — Cinematic Payoff",
+      "packet_path": "memo-os/week-5/pages/P011-llc-mud-payoff/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P010",
+      "adjacent_next": "P012",
+      "expected_flattened_png": "SCHEMIN26_W05_P011_LLC_MUD_PAYOFF.png",
+      "image_artifact_status": "REVISION_1_BANNER_CANDIDATE_SESSION_ONLY",
+      "image_qa_status": "REVISED_CANDIDATE_SELF_INSPECTED_INDEPENDENT_UMPIRE_PENDING",
+      "reader_facing_primary_header": "The LLC. at Mud Dogs",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "raw_sha256": "33e70a9208b47692d9d883707236a2b3a670629e0cb3b3f84c61eacff20fea37",
+          "visual_species": "HUMAN_CORPORATE_RAIDER"
+        },
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "raw_sha256": "462e5d6517b5653458c8d32c20692e94d037b134de7aac18325c1af41647eefc",
+          "visual_species": "MONSTROUS_QUADRUPED_CANINE"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE",
+      "temporary_costume_continuity": "CHAR-DAVID-BABB: same commissioner-approved P001 FOR DA BEARS costume / face; vary pose. CHAR-BOBBY-MITCHELL: huge chained four-legged feral swamp beast; NEVER HUMAN",
+      "secondary_scene_headline": "AFTERMATH AND UNCERTAIN FUTURE",
+      "payoff_result_banner": {
+        "required": true,
+        "contract": "production-evidence/WEEK_5_PAYOFF_RESULT_BANNER_CONTRACT_2026-10-13.json",
+        "winner": "The LLC.",
+        "away_score": 193.73,
+        "home_score": 127.09,
+        "away_record": "2–3",
+        "home_record": "2–3",
+        "character_portraits_required": 2,
+        "visible_pixel_qa": "NOT_YET_PASSED"
+      },
+      "payoff_final_result_banner_required": true,
+      "payoff_banner_contract": "production-evidence/WEEK_5_SIX_PAYOFF_FINAL_RESULT_BANNER_LOCK_2026-10-13.json",
+      "verified_week5_winner": "The LLC.",
+      "verified_week5_score": {
+        "away": 193.73,
+        "home": 127.09
+      },
+      "verified_completed_w5_record": {
+        "away": "2-3",
+        "home": "2-3"
+      },
+      "banner_owner_portraits_required": "TWO_FACE_CROPS_FROM_SAME_PAGE_IMAGE",
+      "banner_390px_qa_required": true
+    },
+    {
+      "page_id": "P012",
+      "slug": "chili-nino-overture",
+      "title": "Chili Cheesers versus El Niño — Winner-POV Overture",
+      "packet_path": "memo-os/week-5/pages/P012-chili-nino-overture/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P011",
+      "adjacent_next": "P013",
+      "expected_flattened_png": "SCHEMIN26_W05_P012_CHILI_NINO_OVERTURE.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "El Niño at Chili Cheesers",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "raw_sha256": "b5b0b10e06cf0598bdc9e3501c170d14529bdb4dee31f8ee3453a40048a6099c",
+          "visual_species": "STORM_ELEMENTAL_HUMANOID"
+        },
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "raw_sha256": "17ee4bcfcd774ac649ca96df01522f16d7c4fd626f9bdd047faefa3a4d381319",
+          "visual_species": "HUMAN_WESTERN_OUTLAW"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+    },
+    {
+      "page_id": "P013",
+      "slug": "chili-nino-setup",
+      "title": "Chili Cheesers versus El Niño — Cinematic Setup",
+      "packet_path": "memo-os/week-5/pages/P013-chili-nino-setup/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P012",
+      "adjacent_next": "P014",
+      "expected_flattened_png": "SCHEMIN26_W05_P013_CHILI_NINO_SETUP.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "El Niño at Chili Cheesers",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "raw_sha256": "b5b0b10e06cf0598bdc9e3501c170d14529bdb4dee31f8ee3453a40048a6099c",
+          "visual_species": "STORM_ELEMENTAL_HUMANOID"
+        },
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "raw_sha256": "17ee4bcfcd774ac649ca96df01522f16d7c4fd626f9bdd047faefa3a4d381319",
+          "visual_species": "HUMAN_WESTERN_OUTLAW"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+    },
+    {
+      "page_id": "P014",
+      "slug": "chili-nino-escalation",
+      "title": "Chili Cheesers versus El Niño — Cinematic Escalation",
+      "packet_path": "memo-os/week-5/pages/P014-chili-nino-escalation/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P013",
+      "adjacent_next": "P015",
+      "expected_flattened_png": "SCHEMIN26_W05_P014_CHILI_NINO_ESCALATION.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "El Niño at Chili Cheesers",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "raw_sha256": "b5b0b10e06cf0598bdc9e3501c170d14529bdb4dee31f8ee3453a40048a6099c",
+          "visual_species": "STORM_ELEMENTAL_HUMANOID"
+        },
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "raw_sha256": "17ee4bcfcd774ac649ca96df01522f16d7c4fd626f9bdd047faefa3a4d381319",
+          "visual_species": "HUMAN_WESTERN_OUTLAW"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+    },
+    {
+      "page_id": "P015",
+      "slug": "chili-nino-payoff",
+      "title": "Chili Cheesers versus El Niño — Cinematic Payoff",
+      "packet_path": "memo-os/week-5/pages/P015-chili-nino-payoff/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P014",
+      "adjacent_next": "P016",
+      "expected_flattened_png": "SCHEMIN26_W05_P015_CHILI_NINO_PAYOFF.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "El Niño at Chili Cheesers",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "raw_sha256": "b5b0b10e06cf0598bdc9e3501c170d14529bdb4dee31f8ee3453a40048a6099c",
+          "visual_species": "STORM_ELEMENTAL_HUMANOID"
+        },
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "raw_sha256": "17ee4bcfcd774ac649ca96df01522f16d7c4fd626f9bdd047faefa3a4d381319",
+          "visual_species": "HUMAN_WESTERN_OUTLAW"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE",
+      "payoff_result_banner": {
+        "required": true,
+        "contract": "production-evidence/WEEK_5_PAYOFF_RESULT_BANNER_CONTRACT_2026-10-13.json",
+        "winner": "Chili Cheesers",
+        "away_score": 156.7,
+        "home_score": 183.53,
+        "away_record": "2–3",
+        "home_record": "3–2",
+        "character_portraits_required": 2,
+        "visible_pixel_qa": "NOT_YET_PASSED"
+      },
+      "payoff_final_result_banner_required": true,
+      "payoff_banner_contract": "production-evidence/WEEK_5_SIX_PAYOFF_FINAL_RESULT_BANNER_LOCK_2026-10-13.json",
+      "verified_week5_winner": "Chili Cheesers",
+      "verified_week5_score": {
+        "away": 156.7,
+        "home": 183.53
+      },
+      "verified_completed_w5_record": {
+        "away": "2-3",
+        "home": "3-2"
+      },
+      "banner_owner_portraits_required": "TWO_FACE_CROPS_FROM_SAME_PAGE_IMAGE",
+      "banner_390px_qa_required": true
+    },
+    {
+      "page_id": "P016",
+      "slug": "duck-dk-overture",
+      "title": "Dr. Duckhook versus D0nkey K0ng — Winner-POV Overture",
+      "packet_path": "memo-os/week-5/pages/P016-duck-dk-overture/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P015",
+      "adjacent_next": "P017",
+      "expected_flattened_png": "SCHEMIN26_W05_P016_DUCK_DK_OVERTURE.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "D0nkey K0ng at Dr. Duckhook",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "raw_sha256": "c4ef045845641e6e2067d1ed82be20b9a0fd154c41aff0bfec4c2e36d26d319d",
+          "visual_species": "FOUR_LEGGED_ARSENAL_GORILLA_CENTAUR"
+        },
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "raw_sha256": "5ff6fc4fc0b2f37d76bbab8651400478e37a709418867b0fd111c993762f9eda",
+          "visual_species": "ANTHROPOMORPHIC_DUCK"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+    },
+    {
+      "page_id": "P017",
+      "slug": "duck-dk-setup",
+      "title": "Dr. Duckhook versus D0nkey K0ng — Cinematic Setup",
+      "packet_path": "memo-os/week-5/pages/P017-duck-dk-setup/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P016",
+      "adjacent_next": "P018",
+      "expected_flattened_png": "SCHEMIN26_W05_P017_DUCK_DK_SETUP.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "D0nkey K0ng at Dr. Duckhook",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "raw_sha256": "c4ef045845641e6e2067d1ed82be20b9a0fd154c41aff0bfec4c2e36d26d319d",
+          "visual_species": "FOUR_LEGGED_ARSENAL_GORILLA_CENTAUR"
+        },
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "raw_sha256": "5ff6fc4fc0b2f37d76bbab8651400478e37a709418867b0fd111c993762f9eda",
+          "visual_species": "ANTHROPOMORPHIC_DUCK"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+    },
+    {
+      "page_id": "P018",
+      "slug": "duck-dk-escalation",
+      "title": "Dr. Duckhook versus D0nkey K0ng — Cinematic Escalation",
+      "packet_path": "memo-os/week-5/pages/P018-duck-dk-escalation/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P017",
+      "adjacent_next": "P019",
+      "expected_flattened_png": "SCHEMIN26_W05_P018_DUCK_DK_ESCALATION.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "D0nkey K0ng at Dr. Duckhook",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "raw_sha256": "c4ef045845641e6e2067d1ed82be20b9a0fd154c41aff0bfec4c2e36d26d319d",
+          "visual_species": "FOUR_LEGGED_ARSENAL_GORILLA_CENTAUR"
+        },
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "raw_sha256": "5ff6fc4fc0b2f37d76bbab8651400478e37a709418867b0fd111c993762f9eda",
+          "visual_species": "ANTHROPOMORPHIC_DUCK"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+    },
+    {
+      "page_id": "P019",
+      "slug": "duck-dk-payoff",
+      "title": "Dr. Duckhook versus D0nkey K0ng — Cinematic Payoff",
+      "packet_path": "memo-os/week-5/pages/P019-duck-dk-payoff/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P018",
+      "adjacent_next": "P020",
+      "expected_flattened_png": "SCHEMIN26_W05_P019_DUCK_DK_PAYOFF.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "D0nkey K0ng at Dr. Duckhook",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "raw_sha256": "c4ef045845641e6e2067d1ed82be20b9a0fd154c41aff0bfec4c2e36d26d319d",
+          "visual_species": "FOUR_LEGGED_ARSENAL_GORILLA_CENTAUR"
+        },
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "raw_sha256": "5ff6fc4fc0b2f37d76bbab8651400478e37a709418867b0fd111c993762f9eda",
+          "visual_species": "ANTHROPOMORPHIC_DUCK"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE",
+      "payoff_result_banner": {
+        "required": true,
+        "contract": "production-evidence/WEEK_5_PAYOFF_RESULT_BANNER_CONTRACT_2026-10-13.json",
+        "winner": "Dr. Duckhook",
+        "away_score": 141.44,
+        "home_score": 184.91,
+        "away_record": "3–2",
+        "home_record": "2–3",
+        "character_portraits_required": 2,
+        "visible_pixel_qa": "NOT_YET_PASSED"
+      },
+      "payoff_final_result_banner_required": true,
+      "payoff_banner_contract": "production-evidence/WEEK_5_SIX_PAYOFF_FINAL_RESULT_BANNER_LOCK_2026-10-13.json",
+      "verified_week5_winner": "Dr. Duckhook",
+      "verified_week5_score": {
+        "away": 141.44,
+        "home": 184.91
+      },
+      "verified_completed_w5_record": {
+        "away": "3-2",
+        "home": "2-3"
+      },
+      "banner_owner_portraits_required": "TWO_FACE_CROPS_FROM_SAME_PAGE_IMAGE",
+      "banner_390px_qa_required": true
+    },
+    {
+      "page_id": "P020",
+      "slug": "chins-slob-overture",
+      "title": "Seven Deadly Chins versus Slob on my Dobb — Winner-POV Overture",
+      "packet_path": "memo-os/week-5/pages/P020-chins-slob-overture/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P019",
+      "adjacent_next": "P021",
+      "expected_flattened_png": "SCHEMIN26_W05_P020_CHINS_SLOB_OVERTURE.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "Seven Deadly Chins at Slob on my Dobb",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "raw_sha256": "291cdcdb8cb7504f66b556208c774d88dec0979e6fe25c68783b272541c63f70",
+          "visual_species": "HEAVYSET_HUMAN_BRUISER"
+        },
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "raw_sha256": "535d984397cd7aeeda0b83b652d35b4975fd4c0f6c52230174201720ec41a655",
+          "visual_species": "HORNED_FRAT_STAR_BERSERKER"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+    },
+    {
+      "page_id": "P021",
+      "slug": "chins-slob-setup",
+      "title": "Seven Deadly Chins versus Slob on my Dobb — Cinematic Setup",
+      "packet_path": "memo-os/week-5/pages/P021-chins-slob-setup/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P020",
+      "adjacent_next": "P022",
+      "expected_flattened_png": "SCHEMIN26_W05_P021_CHINS_SLOB_SETUP.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "Seven Deadly Chins at Slob on my Dobb",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "raw_sha256": "291cdcdb8cb7504f66b556208c774d88dec0979e6fe25c68783b272541c63f70",
+          "visual_species": "HEAVYSET_HUMAN_BRUISER"
+        },
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "raw_sha256": "535d984397cd7aeeda0b83b652d35b4975fd4c0f6c52230174201720ec41a655",
+          "visual_species": "HORNED_FRAT_STAR_BERSERKER"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+    },
+    {
+      "page_id": "P022",
+      "slug": "chins-slob-escalation",
+      "title": "Seven Deadly Chins versus Slob on my Dobb — Cinematic Escalation",
+      "packet_path": "memo-os/week-5/pages/P022-chins-slob-escalation/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P021",
+      "adjacent_next": "P023",
+      "expected_flattened_png": "SCHEMIN26_W05_P022_CHINS_SLOB_ESCALATION.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "Seven Deadly Chins at Slob on my Dobb",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "raw_sha256": "291cdcdb8cb7504f66b556208c774d88dec0979e6fe25c68783b272541c63f70",
+          "visual_species": "HEAVYSET_HUMAN_BRUISER"
+        },
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "raw_sha256": "535d984397cd7aeeda0b83b652d35b4975fd4c0f6c52230174201720ec41a655",
+          "visual_species": "HORNED_FRAT_STAR_BERSERKER"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+    },
+    {
+      "page_id": "P023",
+      "slug": "chins-slob-payoff",
+      "title": "Seven Deadly Chins versus Slob on my Dobb — Cinematic Payoff",
+      "packet_path": "memo-os/week-5/pages/P023-chins-slob-payoff/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P022",
+      "adjacent_next": "P024",
+      "expected_flattened_png": "SCHEMIN26_W05_P023_CHINS_SLOB_PAYOFF.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "Seven Deadly Chins at Slob on my Dobb",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "raw_sha256": "291cdcdb8cb7504f66b556208c774d88dec0979e6fe25c68783b272541c63f70",
+          "visual_species": "HEAVYSET_HUMAN_BRUISER"
+        },
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "raw_sha256": "535d984397cd7aeeda0b83b652d35b4975fd4c0f6c52230174201720ec41a655",
+          "visual_species": "HORNED_FRAT_STAR_BERSERKER"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE",
+      "payoff_result_banner": {
+        "required": true,
+        "contract": "production-evidence/WEEK_5_PAYOFF_RESULT_BANNER_CONTRACT_2026-10-13.json",
+        "winner": "Seven Deadly Chins",
+        "away_score": 170.46,
+        "home_score": 134.7,
+        "away_record": "2–3",
+        "home_record": "2–3",
+        "character_portraits_required": 2,
+        "visible_pixel_qa": "NOT_YET_PASSED"
+      },
+      "payoff_final_result_banner_required": true,
+      "payoff_banner_contract": "production-evidence/WEEK_5_SIX_PAYOFF_FINAL_RESULT_BANNER_LOCK_2026-10-13.json",
+      "verified_week5_winner": "Seven Deadly Chins",
+      "verified_week5_score": {
+        "away": 170.46,
+        "home": 134.7
+      },
+      "verified_completed_w5_record": {
+        "away": "2-3",
+        "home": "2-3"
+      },
+      "banner_owner_portraits_required": "TWO_FACE_CROPS_FROM_SAME_PAGE_IMAGE",
+      "banner_390px_qa_required": true
+    },
+    {
+      "page_id": "P024",
+      "slug": "red-obi-overture",
+      "title": "Red Leopards versus ObiWan Jacoby — Winner-POV Overture",
+      "packet_path": "memo-os/week-5/pages/P024-red-obi-overture/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P023",
+      "adjacent_next": "P025",
+      "expected_flattened_png": "SCHEMIN26_W05_P024_RED_OBI_OVERTURE.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "ObiWan Jacoby at Red Leopards",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "raw_sha256": "cc35af31973f2a35fe0231a269923234185f9908a67545d2b2e1190d052ad9a1",
+          "visual_species": "BLOND_HUMAN_TRADE_JEDI"
+        },
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "raw_sha256": "4752363b8e55dabd530caf74bdeb2da4feaee3870377d96c3c7f5eac7027f32c",
+          "visual_species": "RED_ANTHROPOMORPHIC_LEOPARD"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+    },
+    {
+      "page_id": "P025",
+      "slug": "red-obi-setup",
+      "title": "Red Leopards versus ObiWan Jacoby — Cinematic Setup",
+      "packet_path": "memo-os/week-5/pages/P025-red-obi-setup/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P024",
+      "adjacent_next": "P026",
+      "expected_flattened_png": "SCHEMIN26_W05_P025_RED_OBI_SETUP.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "ObiWan Jacoby at Red Leopards",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "raw_sha256": "cc35af31973f2a35fe0231a269923234185f9908a67545d2b2e1190d052ad9a1",
+          "visual_species": "BLOND_HUMAN_TRADE_JEDI"
+        },
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "raw_sha256": "4752363b8e55dabd530caf74bdeb2da4feaee3870377d96c3c7f5eac7027f32c",
+          "visual_species": "RED_ANTHROPOMORPHIC_LEOPARD"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+    },
+    {
+      "page_id": "P026",
+      "slug": "red-obi-escalation",
+      "title": "Red Leopards versus ObiWan Jacoby — Cinematic Escalation",
+      "packet_path": "memo-os/week-5/pages/P026-red-obi-escalation/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P025",
+      "adjacent_next": "P027",
+      "expected_flattened_png": "SCHEMIN26_W05_P026_RED_OBI_ESCALATION.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "ObiWan Jacoby at Red Leopards",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "raw_sha256": "cc35af31973f2a35fe0231a269923234185f9908a67545d2b2e1190d052ad9a1",
+          "visual_species": "BLOND_HUMAN_TRADE_JEDI"
+        },
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "raw_sha256": "4752363b8e55dabd530caf74bdeb2da4feaee3870377d96c3c7f5eac7027f32c",
+          "visual_species": "RED_ANTHROPOMORPHIC_LEOPARD"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+    },
+    {
+      "page_id": "P027",
+      "slug": "red-obi-payoff",
+      "title": "Red Leopards versus ObiWan Jacoby — Cinematic Payoff",
+      "packet_path": "memo-os/week-5/pages/P027-red-obi-payoff/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P026",
+      "adjacent_next": "P028",
+      "expected_flattened_png": "SCHEMIN26_W05_P027_RED_OBI_PAYOFF.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "ObiWan Jacoby at Red Leopards",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "raw_sha256": "cc35af31973f2a35fe0231a269923234185f9908a67545d2b2e1190d052ad9a1",
+          "visual_species": "BLOND_HUMAN_TRADE_JEDI"
+        },
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "raw_sha256": "4752363b8e55dabd530caf74bdeb2da4feaee3870377d96c3c7f5eac7027f32c",
+          "visual_species": "RED_ANTHROPOMORPHIC_LEOPARD"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE",
+      "payoff_result_banner": {
+        "required": true,
+        "contract": "production-evidence/WEEK_5_PAYOFF_RESULT_BANNER_CONTRACT_2026-10-13.json",
+        "winner": "ObiWan Jacoby",
+        "away_score": 154.42,
+        "home_score": 110.42,
+        "away_record": "4–1",
+        "home_record": "3–2",
+        "character_portraits_required": 2,
+        "visible_pixel_qa": "NOT_YET_PASSED"
+      },
+      "payoff_final_result_banner_required": true,
+      "payoff_banner_contract": "production-evidence/WEEK_5_SIX_PAYOFF_FINAL_RESULT_BANNER_LOCK_2026-10-13.json",
+      "verified_week5_winner": "ObiWan Jacoby",
+      "verified_week5_score": {
+        "away": 154.42,
+        "home": 110.42
+      },
+      "verified_completed_w5_record": {
+        "away": "4-1",
+        "home": "3-2"
+      },
+      "banner_owner_portraits_required": "TWO_FACE_CROPS_FROM_SAME_PAGE_IMAGE",
+      "banner_390px_qa_required": true
+    },
+    {
+      "page_id": "P028",
+      "slug": "power-rankings",
+      "title": "Power Rankings",
+      "packet_path": "memo-os/week-5/pages/P028-power-rankings/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P027",
+      "adjacent_next": "P029",
+      "conditional_modules": [
+        "PLAYOFF_INTELLIGENCE_V1_PENDING_MODEL_RECEIPT"
+      ],
+      "expected_flattened_png": "SCHEMIN26_W05_P028_POWER_RANKINGS.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "POWER RANKINGS",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+    },
+    {
+      "page_id": "P029",
+      "slug": "state-of-realm",
+      "title": "State of the Realm",
+      "packet_path": "memo-os/week-5/pages/P029-state-of-realm/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P028",
+      "adjacent_next": "P030",
+      "conditional_modules": [
+        "PLAYOFF_INTELLIGENCE_V1_PENDING_MODEL_RECEIPT"
+      ],
+      "expected_flattened_png": "SCHEMIN26_W05_P029_STATE_OF_REALM.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "STATE OF THE REALM",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+    },
+    {
+      "page_id": "P030",
+      "slug": "pittys-book",
+      "title": "Pitty's Book",
+      "packet_path": "memo-os/week-5/pages/P030-pittys-book/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P029",
+      "adjacent_next": "P031",
+      "conditional_modules": [
+        "PLAYOFF_INTELLIGENCE_V1_PENDING_MODEL_RECEIPT"
+      ],
+      "expected_flattened_png": "SCHEMIN26_W05_P030_PITTYS_BOOK.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "PITTY'S BOOK",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+    },
+    {
+      "page_id": "P031",
+      "slug": "waiver-transactions",
+      "title": "Waiver Wire and Transactions",
+      "packet_path": "memo-os/week-5/pages/P031-waiver-transactions/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P030",
+      "adjacent_next": "P032",
+      "expected_flattened_png": "SCHEMIN26_W05_P031_WAIVER_TRANSACTIONS.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "WAIVER WIRE & TRANSACTIONS",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+    },
+    {
+      "page_id": "P032",
+      "slug": "final-word",
+      "title": "The Final Word",
+      "packet_path": "memo-os/week-5/pages/P032-final-word/PAGE_PACKET.md",
+      "state": "CONTRACTED_PARTIAL",
+      "render_eligible": false,
+      "source_completion": "PARTIAL_SOURCE_HYDRATION",
+      "adjacent_prev": "P031",
+      "adjacent_next": null,
+      "conditional_modules": [
+        "PLAYOFF_INTELLIGENCE_V1_PENDING_MODEL_RECEIPT"
+      ],
+      "expected_flattened_png": "SCHEMIN26_W05_P032_FINAL_WORD.png",
+      "image_artifact_status": "NOT_ACCEPTED_FINAL",
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "THE FINAL WORD",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+    }
+  ],
+  "playoff_intelligence": {
+    "control_path": "memo-os/week-5/PLAYOFF_PROBABILITY_INTEGRATION_CONTRACT_2026-10-12.md",
+    "status": "CONDITIONAL_NO_VERIFIED_MONTE_CARLO_RUN",
+    "publication_eligible": false,
+    "required_league_configuration": {
+      "teams": 12,
+      "regular_season_weeks": 14,
+      "playoff_teams": 7,
+      "playoff_tiebreak_rules": "VERIFY_FROM_ESPN"
+    },
+    "consumer_pages": [
+      "P003",
+      "P028",
+      "P029",
+      "P030",
+      "P032"
+    ],
+    "primary_race_page": "P029",
+    "new_page_authorized": false,
+    "certification_requirements": [
+      "MATH_ENGINE_LOCATED",
+      "ESPN_FACT_LOCK",
+      "LEAGUE_RULES_VERIFIED",
+      "REPRODUCIBLE_MONTE_CARLO_RUN",
+      "UNCERTAINTY_QA",
+      "INDEPENDENT_UMPIRE",
+      "MOBILE_LAYOUT_TEST"
+    ]
+  },
+  "naming_policy": {
+    "control_path": "memo-os/week-5/READER_FACING_FULL_NAME_ENFORCEMENT_2026-10-12.md",
+    "publication_constraint": "FULL_CANONICAL_TEAM_NAMES_OR_APPROVED_OWNER_FIRST_LAST_FULL_NAMES_ONLY",
+    "reader_facing_no_team_shorthand": true,
+    "machine_keys_remain_stable": true,
+    "qa_status": "REQUIRED_NOT_PASSED"
+  },
+  "output_artifact_contract": {
+    "production_unit": "COMPLETE_INDIVIDUAL_PAGE_IMAGE",
+    "format": "PNG",
+    "pixel_width": 1024,
+    "pixel_height": 1536,
+    "composition": "CINEMATIC_ART_PLUS_FINAL_INTEGRATED_DETERMINISTIC_EDITORIAL_TYPOGRAPHY_FLATTENED_TO_PNG",
+    "color_profile": "sRGB",
+    "producer_role": "Bullpen",
+    "pdf_assembler": "Commissioner",
+    "pdf_is_bullpen_deliverable": false,
+    "visual_benchmark": "Official 33-page Week 4 Memo; each page is one 1024x1536 raster image; Week 4 visual quality is the floor",
+    "authority": "WEEK_5_CINEMATIC_ARTWORK_FIRST_FIDELITY_AMENDMENT_2026-10-13.md",
+    "physical_page_count_policy": "32_SOURCE_PAGES_PROVISIONAL; NO_COMPRESSIVE_LOSS; EXPANSION_REQUIRES_EXPLICIT_APPROVAL",
+    "mandatory_gate": "ONE_PAGE_AT_A_TIME_IMAGE_QA_AND_INDEPENDENT_UMPIRE",
+    "mobile_review_width_px": 390,
+    "render_state": "ALL_PAGE_FINAL_ART_REQUIRES_VALIDATED_CHARACTER_AND_FACT_GATES",
+    "primary_title_policy": "ALL_MATCHUP_PAGE_HEADERS = 'AWAY at HOME' FULL TEAM NAMES; editorials use section name; P001 FOR DA BEARS cover exception; NO GIANT REPEATED SCHEMIN26 WORDMARK",
+    "mandatory_species_lock": "RENDERED SUBJECT MUST MATCH OWNER SOURCE'S SPECIES AND TEMPORAL COSTUME; UNSUPPORTED SUBJECT BINDING => HOLD",
+    "reject_example": "P009: human hunter substituted for Bobby Mitchell's nonhuman massive swamp canine; generic Schemin26 headline; REJECTED",
+    "payoff_banner_policy": "MUST HAVE illustrated in-PNG result bar on all six final matchup pages P007 P011 P015 P019 P023 P027 with BOTH actual same-image owner face crops; exact 2-decimal scores, both post-W5 records, winner. Missing = fatal.",
+    "week5_results_now_decided": true
+  }
+}

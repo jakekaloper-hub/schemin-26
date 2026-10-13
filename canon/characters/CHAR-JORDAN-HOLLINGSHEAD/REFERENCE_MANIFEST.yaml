@@ -6,18 +6,20 @@ primary:
   classification: "PRIMARY_IDENTITY_AUTHORITY"
   approval_state: "APPROVED"
   render_quality: "HIGH"
-  source_filename: "0435E914-64B3-4350-8A41-758173DDC98D.jpeg"
+  source_filename: "COMMISSIONER_2026-10-12.png"
   conversation_file_id: "file_0000000032d4820cb641b185754bdbe4"
   library_file_id: "libfile_f330daf3bae0819198b6008d67fecc51"
-  expected_sha256: "c052e8c74939338517f1b14bbca5f2ea3d57146794f675d065698a44fb1064e8"
-  expected_repository_path: "canon/characters/assets/CHAR-JORDAN-HOLLINGSHEAD/primary/0435E914-64B3-4350-8A41-758173DDC98D.jpeg"
-  observed_library_size_bytes: 481355
-  media_type: "image/jpeg"
-  current_state: "SOURCE_BYTES_REQUIRED"
-  actual_sha256: null
-  git_blob_sha: null
-  repository_byte_size: null
-  fresh_context_fetch: "NOT_PROVEN"
+  expected_sha256: "535d984397cd7aeeda0b83b652d35b4975fd4c0f6c52230174201720ec41a655"
+  expected_repository_path: "canon/characters/assets/CHAR-JORDAN-HOLLINGSHEAD/primary/COMMISSIONER_2026-10-12.png"
+  observed_library_size_bytes: 2743466
+  media_type: "image/png"
+  current_state: "SOURCE_BYTES_VERIFIED"
+  actual_sha256: "535d984397cd7aeeda0b83b652d35b4975fd4c0f6c52230174201720ec41a655"
+  git_blob_sha: "362961d4fb6f5bd5878778854b12a5b5bec1104b"
+  repository_byte_size: 2743466
+  fresh_context_fetch: "LOCAL_GIT_CHECKOUT_VERIFIED"
   renderer_mount: "NOT_PROVEN"
 supersession_state: "CURRENT"
 rule: "A Library-visible image or conversation file ID is not a durable renderer mount. Generation remains blocked until exact bytes are repository-addressable, rehashed, mounted, subject-bound, and receipted."
+
+# Prior registered source preserved in reference_sources_v1.json.prior_active_source_2026_10_12

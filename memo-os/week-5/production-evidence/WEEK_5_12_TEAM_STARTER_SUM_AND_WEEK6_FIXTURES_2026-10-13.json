@@ -1,0 +1,197 @@
+{
+  "schema_version": "1.0",
+  "scoped_to": "Pro Schemin' Football League / ESPN 1417621 / season 2026 / week 5",
+  "checked_date": "2026-10-13",
+  "data_source": "Connected FLAIM get_matchups summary + six independently selected matchups with detail=players; raw user-authenticated provider observations",
+  "official_settlement": "HOLD",
+  "provider_winner_status": "UNDECIDED_ALL_SIX",
+  "provider_total_points": "0_IN_SUMMARY",
+  "period_source": "pointsByScoringPeriod[5]",
+  "deterministic_scoring_reconciliation": "12/12 teams: sum of 10 starter fantasy points matches reported week 5 period total to cent; does NOT certify winner",
+  "teams": [
+    {
+      "team_id": 6,
+      "team": "Three Dreaded Snake",
+      "week5_period_points": 85.34,
+      "starter_count": 10,
+      "starter_sum": 85.34,
+      "delta": 0,
+      "period_status": "PROVISIONAL"
+    },
+    {
+      "team_id": 8,
+      "team": "His Majesty's Blood",
+      "week5_period_points": 113.45,
+      "starter_count": 10,
+      "starter_sum": 113.45,
+      "delta": 0,
+      "period_status": "PROVISIONAL"
+    },
+    {
+      "team_id": 10,
+      "team": "Mud Dogs",
+      "week5_period_points": 127.09,
+      "starter_count": 10,
+      "starter_sum": 127.09,
+      "delta": 0,
+      "period_status": "PROVISIONAL"
+    },
+    {
+      "team_id": 4,
+      "team": "The LLC.",
+      "week5_period_points": 193.73,
+      "starter_count": 10,
+      "starter_sum": 193.73,
+      "delta": 0,
+      "period_status": "PROVISIONAL"
+    },
+    {
+      "team_id": 7,
+      "team": "Chili Cheesers",
+      "week5_period_points": 183.53,
+      "starter_count": 10,
+      "starter_sum": 183.53,
+      "delta": 0,
+      "period_status": "PROVISIONAL"
+    },
+    {
+      "team_id": 9,
+      "team": "El Niño",
+      "week5_period_points": 156.7,
+      "starter_count": 10,
+      "starter_sum": 156.7,
+      "delta": 0,
+      "period_status": "PROVISIONAL"
+    },
+    {
+      "team_id": 12,
+      "team": "Dr. Duckhook",
+      "week5_period_points": 184.91,
+      "starter_count": 10,
+      "starter_sum": 184.91,
+      "delta": 0,
+      "period_status": "PROVISIONAL"
+    },
+    {
+      "team_id": 5,
+      "team": "D0nkey K0ng",
+      "week5_period_points": 141.44,
+      "starter_count": 10,
+      "starter_sum": 141.44,
+      "delta": 0,
+      "period_status": "PROVISIONAL"
+    },
+    {
+      "team_id": 3,
+      "team": "Slob on my Dobb",
+      "week5_period_points": 134.7,
+      "starter_count": 10,
+      "starter_sum": 134.7,
+      "delta": 0,
+      "period_status": "PROVISIONAL"
+    },
+    {
+      "team_id": 11,
+      "team": "Seven Deadly Chins",
+      "week5_period_points": 170.46,
+      "starter_count": 10,
+      "starter_sum": 170.46,
+      "delta": 0,
+      "period_status": "PROVISIONAL"
+    },
+    {
+      "team_id": 2,
+      "team": "Red Leopards",
+      "week5_period_points": 110.42,
+      "starter_count": 10,
+      "starter_sum": 110.42,
+      "delta": 0,
+      "period_status": "PROVISIONAL"
+    },
+    {
+      "team_id": 1,
+      "team": "ObiWan Jacoby",
+      "week5_period_points": 154.42,
+      "starter_count": 10,
+      "starter_sum": 154.42,
+      "delta": 0,
+      "period_status": "PROVISIONAL"
+    }
+  ],
+  "matchups": [
+    {
+      "home_team_id": 12,
+      "away_team_id": 5,
+      "winner": "UNDECIDED",
+      "score_status": "PROVISIONAL"
+    },
+    {
+      "home_team_id": 7,
+      "away_team_id": 9,
+      "winner": "UNDECIDED",
+      "score_status": "PROVISIONAL"
+    },
+    {
+      "home_team_id": 2,
+      "away_team_id": 1,
+      "winner": "UNDECIDED",
+      "score_status": "PROVISIONAL"
+    },
+    {
+      "home_team_id": 3,
+      "away_team_id": 11,
+      "winner": "UNDECIDED",
+      "score_status": "PROVISIONAL"
+    },
+    {
+      "home_team_id": 6,
+      "away_team_id": 8,
+      "winner": "UNDECIDED",
+      "score_status": "PROVISIONAL"
+    },
+    {
+      "home_team_id": 10,
+      "away_team_id": 4,
+      "winner": "UNDECIDED",
+      "score_status": "PROVISIONAL"
+    }
+  ],
+  "week6_fixtures": [
+    {
+      "home_team_id": 2,
+      "away_team_id": 5,
+      "selection": "FIXTURE_VERIFIED_GOTW_NOT_APPROVED"
+    },
+    {
+      "home_team_id": 12,
+      "away_team_id": 9,
+      "selection": "FIXTURE_VERIFIED_GOTW_NOT_APPROVED"
+    },
+    {
+      "home_team_id": 3,
+      "away_team_id": 1,
+      "selection": "FIXTURE_VERIFIED_GOTW_NOT_APPROVED"
+    },
+    {
+      "home_team_id": 7,
+      "away_team_id": 11,
+      "selection": "FIXTURE_VERIFIED_GOTW_NOT_APPROVED"
+    },
+    {
+      "home_team_id": 10,
+      "away_team_id": 8,
+      "selection": "FIXTURE_VERIFIED_GOTW_NOT_APPROVED"
+    },
+    {
+      "home_team_id": 6,
+      "away_team_id": 4,
+      "selection": "FIXTURE_VERIFIED_GOTW_NOT_APPROVED"
+    }
+  ],
+  "source_time_note": "Do not promote scores or owner victory to OFFICIAL merely because real NFL game reached final. ESPN provider winner field still UNDECIDED.",
+  "source_correction_urls": [
+    "https://www.reuters.com/sports/nfl/josh-allens-rushing-passing-power-bills-past-rams-ot--flm-2026-10-13/",
+    "https://www.footballdb.com/games/boxscore/buffalo-bills-vs-los-angeles-rams-2026101202"
+  ],
+  "provisional_to_official_requires": "ESPN decided winner record or separately documented Commissioner-approved independent matchup final reconciliation"
+}

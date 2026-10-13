@@ -6,18 +6,20 @@ primary:
   classification: "PRIMARY_IDENTITY_AUTHORITY"
   approval_state: "APPROVED"
   render_quality: "HIGH"
-  source_filename: "88B8E56B-8320-4524-8425-134FFAE8FBF5.jpeg"
+  source_filename: "COMMISSIONER_2026-10-12.png"
   conversation_file_id: "file_00000000d60081f5925da6c608733499"
   library_file_id: "libfile_eae6ac6a8b7c8191b2dd4c359d6b7aa7"
-  expected_sha256: "c4401f79783637c9e3974f02de20ba5aeb1209e7ed4e0f5620e2bfcce3b270cf"
-  expected_repository_path: "canon/characters/assets/CHAR-BEN-WHIPPLE/primary/88B8E56B-8320-4524-8425-134FFAE8FBF5.jpeg"
-  observed_library_size_bytes: 468673
-  media_type: "image/jpeg"
-  current_state: "SOURCE_BYTES_REQUIRED"
-  actual_sha256: null
-  git_blob_sha: null
-  repository_byte_size: null
-  fresh_context_fetch: "NOT_PROVEN"
+  expected_sha256: "291cdcdb8cb7504f66b556208c774d88dec0979e6fe25c68783b272541c63f70"
+  expected_repository_path: "canon/characters/assets/CHAR-BEN-WHIPPLE/primary/COMMISSIONER_2026-10-12.png"
+  observed_library_size_bytes: 2726102
+  media_type: "image/png"
+  current_state: "SOURCE_BYTES_VERIFIED"
+  actual_sha256: "291cdcdb8cb7504f66b556208c774d88dec0979e6fe25c68783b272541c63f70"
+  git_blob_sha: "37dc961af73085e306a68dd31eb1a8c5460025ae"
+  repository_byte_size: 2726102
+  fresh_context_fetch: "LOCAL_GIT_CHECKOUT_VERIFIED"
   renderer_mount: "NOT_PROVEN"
 supersession_state: "CURRENT"
 rule: "A Library-visible image or conversation file ID is not a durable renderer mount. Generation remains blocked until exact bytes are repository-addressable, rehashed, mounted, subject-bound, and receipted."
+
+# Prior registered source preserved in reference_sources_v1.json.prior_active_source_2026_10_12
