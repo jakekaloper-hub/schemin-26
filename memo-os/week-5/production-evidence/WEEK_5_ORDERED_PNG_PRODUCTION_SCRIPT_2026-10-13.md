@@ -382,3 +382,123 @@ The last Jeep cleared the hill as dusk swallowed the track. Jordan Hollingshead 
 ObiWan Jacoby approached the Red ruins by the permitted mountain route. His golden retriever walked close beside him, and the green blade stayed unlit. The temporary lists rose between old stones, a tournament assembled for one contest rather than a new fortress. He had come to meet a champion's challenge, not to take a belt he did not own.
 
 **Page acceptance:** original approved scene, camera scale, host geography, verified facts, separate owner identities and temporal canon; legible headline/narration in pixels; full resolution + 390px visual check vs Week 4; correct setup-to-payoff continuity; true independent Umpire. Final winning POV/payoff is conditional pending ESPN certified result. No PDF production by Bullpen.
+
+
+## P025 — Red Leopards versus ObiWan Jacoby — Cinematic Setup
+
+- **Source:** `memo-os/week-5/pages/P025-red-obi-setup/PAGE_PACKET.md` Git blob `80e756974b8de79054f271b36458269dd08bb6ec`. **PNG:** `SCHEMIN26_W05_P025_RED_OBI_SETUP.png`.
+- **Week 4 comparator(s):** P005, P017. Visually specific owner confrontation in a consistent venue.
+- **Atlas / story world:** LOC-RED-RUINS; Champions' Joust.
+- **Character reference hashes:** `CHAR-JAKE-KALOPER` raw SHA-256 `cc35af31973f2a35fe0231a269923234185f9908a67545d2b2e1190d052ad9a1`; `CHAR-KEVIN-ZEEK` raw SHA-256 `4752363b8e55dabd530caf74bdeb2da4feaee3870377d96c3c7f5eac7027f32c`
+- **Visual preflight:** - **Shot:** panoramic split entrance; foreground unfurling absurdly long scroll; middle ground Jake Kaloper mounted at one gate, Kevin Zeek at other; background packed grandstands with stomping/clapping motion; kinetic sporting energy as original homage to *A Knight's Tale*, NO film lyrics/dialogue or exact scene duplication.
+
+**Existing integrated manuscript / editorial data source:**
+
+Red Leopards waited beneath the banners of his home ground, armor bright against the broken walls. The crowd could see both entrances across the lists. Jake Kaloper looked at the narrow run between the barriers and understood that the host knew every uneven stone. His dog settled behind the safety line as the first challenge was called.
+
+**Quality and gates:** 1024×1536 single final PNG with full integrated Schemin ’26 brand typography, no assembled PDF; validate host, fantasy facts and approved narrative, source bytes / owner mount as necessary, action and Atlas geography. Inspect true 390px downscale vs Week 4 and require independent Umpire. 
+
+
+## P026 — Red Leopards versus ObiWan Jacoby — Cinematic Escalation
+
+- **Source:** `memo-os/week-5/pages/P026-red-obi-escalation/PAGE_PACKET.md` Git blob `2dc956bb7db61e24b3b17aaecee8eb324a1e781f`. **PNG:** `SCHEMIN26_W05_P026_RED_OBI_ESCALATION.png`.
+- **Week 4 comparator(s):** P006, P017. Physically credible movement and landmark/costume continuity.
+- **Atlas / story world:** LOC-RED-RUINS; Champions' Joust.
+- **Character reference hashes:** `CHAR-JAKE-KALOPER` raw SHA-256 `cc35af31973f2a35fe0231a269923234185f9908a67545d2b2e1190d052ad9a1`; `CHAR-KEVIN-ZEEK` raw SHA-256 `4752363b8e55dabd530caf74bdeb2da4feaee3870377d96c3c7f5eac7027f32c`
+- **Visual preflight:** - **Shot:** compressed telephoto along jousting barrier; foreground lances converging; middle ground both riders equal stature; background storm-coast ruins and crowds; ObiWan Jacoby no championship belt.
+
+**Existing integrated manuscript / editorial data source:**
+
+The first collision sent splinters across the arena. Nacua's seventeen catches for 138 receiving yards and Stafford's three passing touchdowns had given Jake Kaloper's fantasy side repeated opportunities; Chase's touchdown gave Red Leopards an answer. Jake Kaloper adjusted his line, let the host commit to the center, and carried the next charge past the ruined gate without pretending the ground was his.
+
+**Quality and gates:** 1024×1536 single final PNG with full integrated Schemin ’26 brand typography, no assembled PDF; validate host, fantasy facts and approved narrative, source bytes / owner mount as necessary, action and Atlas geography. Inspect true 390px downscale vs Week 4 and require independent Umpire. 
+
+
+## P027 — Red Leopards versus ObiWan Jacoby — Cinematic Payoff
+
+- **Source:** `memo-os/week-5/pages/P027-red-obi-payoff/PAGE_PACKET.md` Git blob `254dc33bddcc7869bda9b2bb5c89d0813ed17330`. **PNG:** `SCHEMIN26_W05_P027_RED_OBI_PAYOFF.png`.
+- **Week 4 comparator(s):** P008, P017. Verified outcome-driven consequence integrated with scenery.
+- **Atlas / story world:** LOC-RED-RUINS; Champions' Joust.
+- **Character reference hashes:** `CHAR-JAKE-KALOPER` raw SHA-256 `cc35af31973f2a35fe0231a269923234185f9908a67545d2b2e1190d052ad9a1`; `CHAR-KEVIN-ZEEK` raw SHA-256 `4752363b8e55dabd530caf74bdeb2da4feaee3870377d96c3c7f5eac7027f32c`
+- **Visual preflight:** - **Shot:** dramatic three-quarter impact, flying lance splinters, both faces recognizable; eventual unhorsing and winner stance **HOLD** pending ESPN Fact Lock. No fake trophy/belt transfer.
+
+**Existing integrated manuscript / editorial data source:**
+
+The final pass broke the last lance. Jake Kaloper lowered his green blade and acknowledged Red Leopards across the shattered lists. His dog ran to meet him once the barriers opened. The tournament structures would come down; the ruins would remain Red territory. He left with a win, not a championship belt.
+
+**Quality and gates:** 1024×1536 single final PNG with full integrated Schemin ’26 brand typography, no assembled PDF; validate host, fantasy facts and approved narrative, source bytes / owner mount as necessary, action and Atlas geography. Inspect true 390px downscale vs Week 4 and require independent Umpire. Ending victory pose conditional on decided ESPN results.
+
+
+## P028 — Power Rankings
+
+- **Source:** `memo-os/week-5/pages/P028-power-rankings/PAGE_PACKET.md` Git blob `26f16816bdb18a5f08212bc4e9f97199a5d13eac`. **PNG:** `SCHEMIN26_W05_P028_POWER_RANKINGS.png`.
+- **Week 4 comparator(s):** P030. 12-owner illustrated rankings with readable movement.
+- **Atlas / story world:** editorial physical geography; editorial.
+- **Character reference hashes:** Character crops only if canonical owner-specific reference conditioning is proven.
+- **Visual preflight:** An ornate 12-owner W4 P030 style armillary hall, visual tiers and readable rise/fall movement and exact team labels.
+
+**Existing integrated manuscript / editorial data source:**
+
+**No approved Week 5 final editorial rankings manuscript found.** The Week 4 standings are not the Week 5 Power Rankings. Preserve the full rank 1–12 table as a source-gated data region.
+
+**Quality and gates:** 1024×1536 single final PNG with full integrated Schemin ’26 brand typography, no assembled PDF; validate host, fantasy facts and approved narrative, source bytes / owner mount as necessary, action and Atlas geography. Inspect true 390px downscale vs Week 4 and require independent Umpire. 
+
+
+## P029 — State of the Realm
+
+- **Source:** `memo-os/week-5/pages/P029-state-of-realm/PAGE_PACKET.md` Git blob `f2ec4ab1429f6e008c284d29f261001f0f4ab6bc`. **PNG:** `SCHEMIN26_W05_P029_STATE_OF_REALM.png`.
+- **Week 4 comparator(s):** P029. Three-division illustrated political map and full names.
+- **Atlas / story world:** editorial physical geography; editorial.
+- **Character reference hashes:** Character crops only if canonical owner-specific reference conditioning is proven.
+- **Visual preflight:** Triptych kingdom vista mapped to Burgers/Wings/Pizza regions, distinct boundaries and contextual state notes; refer to official W4 P029.
+
+**Existing integrated manuscript / editorial data source:**
+
+**No independently accepted Week 5 State of the Realm final narrative found.** Rely on approved division geography and W4 completed standings only until Week 5 becomes settled; no invented Monte Carlo playoff odds.
+
+**Quality and gates:** 1024×1536 single final PNG with full integrated Schemin ’26 brand typography, no assembled PDF; validate host, fantasy facts and approved narrative, source bytes / owner mount as necessary, action and Atlas geography. Inspect true 390px downscale vs Week 4 and require independent Umpire. 
+
+
+## P030 — Pitty's Book
+
+- **Source:** `memo-os/week-5/pages/P030-pittys-book/PAGE_PACKET.md` Git blob `b2063642747025cab7b9c9d10565518c719a8e1f`. **PNG:** `SCHEMIN26_W05_P030_PITTYS_BOOK.png`.
+- **Week 4 comparator(s):** P021, P022, P023, P024, P031. Ornate financial architecture and receipt-legible settlement; all inputs deferred.
+- **Atlas / story world:** editorial physical geography; editorial.
+- **Character reference hashes:** Character crops only if canonical owner-specific reference conditioning is proven.
+- **Visual preflight:** Cinematic gold/emerald waterfall betting hall, lamps, parchment and receipt positions; no fabricated numbers. W4 P021–P024 and P031.
+
+**Existing integrated manuscript / editorial data source:**
+
+**Pitty’s Book authentic tickets/odds/stakes/settlement are deferred to October 14.** No manuscript with actual financial receipts has been approved. Leave monetary entries blank.
+
+**Quality and gates:** 1024×1536 single final PNG with full integrated Schemin ’26 brand typography, no assembled PDF; validate host, fantasy facts and approved narrative, source bytes / owner mount as necessary, action and Atlas geography. Inspect true 390px downscale vs Week 4 and require independent Umpire. PITTY DATA DEFERRED; do not fill numerical fields.
+
+
+## P031 — Waiver Wire and Transactions
+
+- **Source:** `memo-os/week-5/pages/P031-waiver-transactions/PAGE_PACKET.md` Git blob `20bb471255e3dc74a39519a8a1ea81d1e5d6c589`. **PNG:** `SCHEMIN26_W05_P031_WAIVER_TRANSACTIONS.png`.
+- **Week 4 comparator(s):** P003, P030, P031. Visual hierarchy for exact waiver/transaction receipts.
+- **Atlas / story world:** editorial physical geography; editorial.
+- **Character reference hashes:** Character crops only if canonical owner-specific reference conditioning is proven.
+- **Visual preflight:** Integrated high-fidelity fantasy ledger/war-room, stamped documents and meaningful moves; use W4 P003/P030/P031 for type fidelity, no invented NFL player faces.
+
+**Existing integrated manuscript / editorial data source:**
+
+**Waiver manuscript is data-seeded, not final editorial copy.** Existing week-5 transactions include Seven Deadly Chins Keon Coleman 62 FAAB, The LLC. Will Shipley 51, Seven Deadly Chins Dohnte Meyers 32, Chili Cheesers Jacoby Brissett 5, and Dr. Duckhook Jaguars D/ST 5. Reverify when typesetting.
+
+**Quality and gates:** 1024×1536 single final PNG with full integrated Schemin ’26 brand typography, no assembled PDF; validate host, fantasy facts and approved narrative, source bytes / owner mount as necessary, action and Atlas geography. Inspect true 390px downscale vs Week 4 and require independent Umpire. 
+
+
+## P032 — The Final Word
+
+- **Source:** `memo-os/week-5/pages/P032-final-word/PAGE_PACKET.md` Git blob `65ded33939e838c8415cf617f163d2be4585835a`. **PNG:** `SCHEMIN26_W05_P032_FINAL_WORD.png`.
+- **Week 4 comparator(s):** P033. Visually memorable object continuity and final editorial prose.
+- **Atlas / story world:** editorial physical geography; editorial.
+- **Character reference hashes:** Character crops only if canonical owner-specific reference conditioning is proven.
+- **Visual preflight:** Cinematic Final Word full-bleed bridge across six remaining story objects and landscapes, monumental closing mood, integrated crisp editorial type; W4 P033.
+
+**Existing integrated manuscript / editorial data source:**
+
+The League will remember the figures who crossed each landscape. But when the pieces leave the neutral market, its stalls remain. When the machines idle, the swamp's roots still carry the water. A pot can be ruined without surrendering a town. A ball can change a country club's story without changing the land. The road will need to be repaired after the Jeeps pass; the ruins will still belong to their host when the temporary lists come down. Week Five has pushed this world toward consequences. Week Six will decide which ones persist.
+
+**Quality and gates:** 1024×1536 single final PNG with full integrated Schemin ’26 brand typography, no assembled PDF; validate host, fantasy facts and approved narrative, source bytes / owner mount as necessary, action and Atlas geography. Inspect true 390px downscale vs Week 4 and require independent Umpire. 
