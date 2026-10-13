@@ -55,3 +55,13 @@ The thunder passed down the street without taking the town. The Outlaw remained 
 **Visual coordination from approved page brief:** - **Shot:** long street perspective, over-the-shoulder foreground of eventual loser and distant winner, gun smoke and rain-silvered sky; **do not choose foreground/standing identity until verified**. Non-gory, no law-enforcement premise.
 
 **Editorial checks:** No fabricated NFL player presence in the fictional world. Stats are causality, not the main story. Character/Atlas continuity and real reference-conditioned render QA required. Independent Beat Writer, Author Council, Librarian, Visual Lead and Umpire acceptance remains outstanding.
+
+## Page-isolated generator staging — 2026-10-13
+
+- **Stage:** BRIEF_PREPARED; CANON_RENDER_HOLD; original page state and manifest unchanged. Process `P015` as one independently reviewed render, not a batch collage.
+- **Locked Atlas:** `LOC-CHILI-STABLE`. Scene: Long street view of contest aftermath and spilled chili, ending conditional. Use approved source manuscript and existing Visual Coordination shot (including its lighting, camera and foreground/midground/background) as controlling directions.
+- **Canonical figures:** `CHAR-BRANDON-PRYOR` and `CHAR-MANNING-WELTY`; resolve DISTINCT original Commissioner files using `production-evidence/WEEK_5_CHARACTER_SOURCE_ASSET_RECEIPTS_2026-10-13.json`. Git blobs alone do not validate renderer mounts, SHA-256 or identity binding.
+- **Frame contract:** one portrait composition, 1024×1536 working master, cinematic depth; all prose, score and team names are separate typeset vector text, not image lettering. Render the approved single story beat, not a generic poster.
+- **Canon/causality rejects:** The Dark Horse must remain a black horse. El Niño is a weather visitor, never a sheriff. Chili is spilled by El Niño, and town/stable remain. No unapproved persistent Atlas change.
+- **Result handling:** No victor or defeat pose selected until independent fantasy result reconciliation.
+- **Accept only on evidence:** matching owner-specific SHA-256s, actual mounted-byte/subject-binding receipts, source-backed NFL data if mentioned, Atlas/costume/anatomy visual inspection, rendered text at full/390px, full-name typography scan and independent Umpire pass. Otherwise maintain `render_eligible=false`.
