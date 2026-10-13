@@ -318,3 +318,16 @@ These are **fantasy-point figures**, not verified real-world passing/rushing/rec
 7. **Independent Umpire:** Reject unsupported player stat lines, invented news, inaccurate team attribution, generic fantasy fiction, false final results, Ditka inaccuracies, canon drift and illegible mobile copy. Actual authenticated Director ACKs required for claims of Director acceptance.
 
 **State of work:** Cover concept and evidence-driven editorial requirements approved; FLAIM player details sampled for three matchups. The remaining three matchup player bundles, comprehensive NFL box-score/news evidence, full manuscript rewrites, actual render and independent acceptance remain OPEN. Do not claim complete production.
+
+
+### Additional three matchup player bundles — authenticated FLAIM ESPN 1417621 Week 5 (2026-10-12)
+
+All points are provisional Week 5 **fantasy** points from actual started lineup slots, not real NFL box-score statistics. ESPN matchup `winner=UNDECIDED`; official totals not yet released. These are author-room research inputs, NOT certified final scores.
+
+| Matchup | Home top starters | Away top starters | Player-detail source |
+| --- | --- | --- | --- |
+| The Chili Cheesers (home) vs El Niño | Christian Watson 37.30; Jacoby Brissett 31.48; Malik Nabers 30.10; Brock Bowers 24.00 | George Pickens 29.00; James Cook III 27.30; Mike Evans 27.30; Jalen Hurts 17.20 | FLAIM `get_matchups(detail=players,week=5,team_id=7)` |
+| Three Dreaded Snake (home) vs His Majesty's Blood | Javonte Williams 15.40; Emanuel Wilson 15.20; Bhayshul Tuten 13.80; Bengals D/ST 12.80 | Jaxon Smith-Njigba 23.90; Vikings D/ST 19.90; Jameson Williams 18.70; Denzel Boston 14.25 | FLAIM `team_id=6` |
+| Slob on my Dobb (home) vs Seven Deadly Chins | Josh Allen 27.78; Aaron Jones Sr. 22.20; Broncos D/ST 19.80; Christian McCaffrey 18.40 | Jaylen Warren 43.30; Tyler Warren 21.50; Kyler Murray 21.26; Justin Jefferson 18.90 | FLAIM `team_id=3` |
+
+**Research coverage:** All six Week 5 matchups now have initial authenticated player-level scoring samples. This is NOT a complete all-starters stat-lock or NFL box-score verification. Sports Research and Scout must still cross-check primary game stats and update after MNF before final author signoff.
