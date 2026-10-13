@@ -54,7 +54,7 @@ Use **exact character ID** from `canon/characters/NATIVE_RENDER_REFERENCE_BINDIN
 | Dr. Duckhook | `CHAR-ZACH-WILSON` | white anthropomorphic duck golfer, bucket hat, driver/prosthetic arm |
 | Seven Deadly Chins | `CHAR-BEN-WHIPPLE` | heavyset bearded bruiser, cap/hammer, raccoon continuity |
 
-**Stop condition:** current on-repo manifest provides 12 exact `file_id`/library IDs + expected SHA receipts (all marked `DIRECT_CANONICAL_HANDLE_READY` as of Oct 6). This session has NOT re-materialized the approved source bytes, recomputed SHA-256, proved live renderer handle mounts, or audited generated pixels. Therefore **12/12 REGISTERED LOCK; 0/12 CURRENT RENDER MOUNT PROVEN; CHARACTER-BEARING ART = HOLD until per-page handle/mount proof**. Never substitute prose, old composite group shot, or alternate near-identical Library file. Failure on even one character rejects the page *before it reaches Commissioner*.
+**Live Library proof, 2026-10-13:** Enumerated the current persistent image Library and cross-checked all twelve original registered owner-specific references against `NATIVE_RENDER_REFERENCE_BINDING_V1.json`. Exact **file_id + library_file_id + size_bytes matched 12/12** (see companion receipt). Expected SHA receipts exist, but this session has NOT re-materialized approved source bytes, recomputed SHA-256, proved any actual image-generation reference mounts, or audited a resulting raster. Therefore **12/12 LIVE METADATA VERIFIED; 0/12 CURRENT RENDER MOUNT PROVEN; CHARACTER-BEARING ART = HOLD until per-page mount proof**. Never substitute prose, old composite group shot, or alternate near-identical Library file. Failure on even one character rejects the page *before it reaches Commissioner*.
 
 ## 21-page issue navigation
 | Page | Section | Characters | Anchor |
@@ -291,7 +291,7 @@ No new Director #19, no duplicate OS.
 | Six Week 5 final matchup results | **PASS — all decided, matching scoring-period totals** |
 | Six winner-POV assignments | **PASS — owner/fact assignments; draft prose pending** |
 | Page order + six concept coverage | **PASS — 21-page candidate packet** |
-| 12 owner-ID + manifest mappings | **REGISTERED 12/12, current handle/materialization NOT independently tested** |
+| 12 owner-ID + manifest mappings | **PASS 12/12 live Library metadata file ID, Library ID, size exact match; renderer mount NOT tested** |
 | Venue site, travel, storm attribution | **HOLD for resolver and Atlas authority** |
 | Full six-chapter manuscripts and page layouts | **TO PRODUCE** |
 | Power ranking editorial delta | **HOLD** |
