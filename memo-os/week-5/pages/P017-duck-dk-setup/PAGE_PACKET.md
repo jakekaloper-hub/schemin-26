@@ -35,7 +35,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-Groundskeepers moved behind the hedges as D0nkey K0ng crossed the first fairway. Red Arsenal cloth snapped against the centaur's gorilla torso. Duckhook stood beside the tee, small against the immaculate sweep of grass, and watched the giant misjudge the slope near the water hazard. The course was not a battlefield until the visitor made it one.
+Groundskeepers moved behind the hedges as D0nkey K0ng crossed the first fairway. Red Arsenal cloth snapped against the centaur's gorilla torso. Dr. Duckhook stood beside the tee, small against the immaculate sweep of grass, and watched the giant misjudge the slope near the water hazard. The course was not a battlefield until the visitor made it one.
 
 **Visual coordination from approved page brief:** - **Shot:** huge centaur in background, golfer in foreground, country-club hazards clearly legible.
 
