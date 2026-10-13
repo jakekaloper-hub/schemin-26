@@ -24,7 +24,7 @@ All three are references for ONE character; never merge into alternate identitie
 Pose, camera, weather, exposure, day/night, weapon held/sheathed, dirt, damage, environment and scene action; belt may be off-frame or carried/stored when narrative placement requires, without changing ownership.
 
 ## NEGATIVE LOCKS
-Never redesign as a king with crown, vampire, blood creature, generic knight, bare-faced human, alternate-color armored champion or another league character. Never transfer Byars's championship belt to another owner. Do not replace photographic reference with text prompting.
+Never redesign as a king with crown, vampire, blood creature, generic knight, bare-faced human, alternate-color armored champion or another league character; no rename-driven anatomy or mascot redesign. Never transfer Byars's championship belt to another owner. Do not replace photographic reference with text prompting.
 
 ## Rendering and evidence contract
 Resolve owner → active character package → exact primary source bytes → SHA-256 verification → immutable image attachment/mount with character-ID subject binding → scene construction → generation → independent Character QA → page QA. Supplementary references constrain likeness; they cannot override the primary authority. If the generator cannot mount the exact primary image or supply mount/subject receipts, return HUMAN_REVIEW_REQUIRED and block final publication. A generated image without source binding cannot earn PASS.
