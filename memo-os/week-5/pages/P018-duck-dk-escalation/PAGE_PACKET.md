@@ -37,7 +37,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-The hooves cut four tracks through the turf. Maye's four passing touchdowns and rushing score, with Gibbs' two rushing touchdowns, had supplied Duckhook's fantasy force; McBride's touchdown reminded him that the giant could answer. Duckhook swung his fused driver and sent the ball into a high arc over the centaur's reach. He had chosen the air because the ground belonged to the bigger fighter.
+The hooves cut four tracks through the turf. Maye's four passing touchdowns and rushing score, with Gibbs' two rushing touchdowns, had supplied Dr. Duckhook's fantasy force; McBride's touchdown reminded him that the giant could answer. Dr. Duckhook swung his fused driver and sent the ball into a high arc over the centaur's reach. He had chosen the air because the ground belonged to the bigger fighter.
 
 **Visual coordination from approved page brief:** - **Shot:** ball arc above course, four equine legs in midground, fused right-arm driver clearly visible.
 
