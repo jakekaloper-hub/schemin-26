@@ -15,7 +15,7 @@
 - **Premise:** After the Storm.
 - **Reader job:** establish the eventual verified winner's private motivation and ordinary world before confrontation, without telegraphing the outcome.
 - **Canon constraints:** Jeeps mudding competition, storm-scarred foothill; storm damage world-state not independently confirmed. Slob active alias Frat Star, NOT retired Fart Star.
-- **Current ESPN evidence:** Slob 100.20 / Seven Chins 168.76 provisional; not final or certified.
+- **Current ESPN evidence:** Slob on my Dobb 134.70 / Seven Deadly Chins 170.46 provisional (FLAIM 2026-10-13); not final or certified.
 - **Final winner POV manuscript:** **PENDING Fact Lock**. No fabricated prose is authorized. Preserve both POV possibilities.
 
 ## Visual and typography
