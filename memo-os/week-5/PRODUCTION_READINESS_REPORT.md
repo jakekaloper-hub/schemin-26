@@ -99,3 +99,11 @@ State: PRODUCTION_AUTHORIZED / CANON_ART_BLOCKED / RESULT_CERTIFICATION_PENDING 
 ## Character raw-byte gate closure — 2026-10-13
 
 **IMPLEMENTED / TESTED:** 12/12 distinct Commissioner original source images recovered through read-only authorized retrieval, length confirmed, Git blob SHA-1 reproduced and matched, raw SHA-256 calculated. Evidence: `production-evidence/WEEK_5_CHARACTER_SOURCE_ASSET_RECEIPTS_2026-10-13.json`. Regression assertion upgraded to require nonnull 64-character SHA-256. **Closing source-byte provenance does not close the renderer-capability gate**: actual provider-conditioned subject identity, mount receipt, artwork pixel inspection and independent Umpire remain HOLD. A prepared page is not marked render-ready.
+
+## Binding image-first production correction — 2026-10-13
+
+**Authority:** `WEEK_5_CINEMATIC_ARTWORK_FIRST_FIDELITY_AMENDMENT_2026-10-13.md`, inspected official Week 4 benchmark. **Output is 1024×1536 complete illustrated PNG per page**, with typography integrated into the image. **Bullpen does not create or assemble the PDF**; Commissioner performs compilation. The old 21/32-page PDFs remain **layout-only historical proofs**, not accepted imagery or release units. Their PDF-oriented production gates are superseded by PNG-by-PNG validation.
+
+**Evidence:** official attached Week 4 Memo = 33 raster-only single-image pages, each 1024×1536, no PDF extractable text; measured source SHA-256 `1fc322a3eb0e8b43499ee4556c715ba4c00a8c388e7a92a904954a35f0482124`. The Week 4 standard now controls cinematic quality, environmental fidelity, visual narrative and integrated editorial typography for Week 5.
+
+**Next task:** prove P002 atmosphere as a **VISUAL_PROOF_ONLY** image, not an accepted final; verify reference-conditioned owner rendering independently before P001 cover character. Preserve 32 source packets/six stories, no forced 21-page compression. Pitty's Book P030 stays DATA_DEFERRED until Commissioner delivers wager records Oct 14. Publication remains HOLD, no simulated independent approval.
