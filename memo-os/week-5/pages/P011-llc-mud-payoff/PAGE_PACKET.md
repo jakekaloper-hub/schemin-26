@@ -50,7 +50,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-At the gouged shoreline, The LLC's victory gave it leverage without a deed to the swamp. Mud Dogs returned to the reeds and counted the trees still standing. Survey flags trembled over water that had not agreed to change course. The machines idled; the damage was limited, the future disputed. Neither a scoreboard nor a contract could settle what the next flood would carry downstream.
+At the gouged shoreline, David Babb's victory gave it leverage without a deed to the swamp. Mud Dogs returned to the reeds and counted the trees still standing. Survey flags trembled over water that had not agreed to change course. The machines idled; the damage was limited, the future disputed. Neither a scoreboard nor a contract could settle what the next flood would carry downstream.
 
 **Visual coordination from approved page brief:** - **Shot:** wide melancholy aftermath; foreground frightened Mud Dogs; middle ground torn earth ending before intact wetland; background surviving canopy and distant machines; muted dusk/mist. - **Result branches:** The LLC. victory may justify ongoing development pressure but NOT complete destruction or permanent campus without separate World Evolution approval. Mud Dogs victory may stop the machines, but partial damage remains a scene consequence pending World Evolution. No result declared.
 
