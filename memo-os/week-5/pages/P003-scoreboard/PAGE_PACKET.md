@@ -22,3 +22,11 @@ Approved final manuscript; source-backed factual tables/receipts; exact art brie
 Add a *conditional* playoff leverage sidebar once data and model are certified. Show remaining schedule and actual standings separately; no numeric model claim without receipt.
 Source: `memo-os/week-5/PLAYOFF_PROBABILITY_INTEGRATION_CONTRACT_2026-10-12.md`.
 Status: **MODEL UNVERIFIED / NO RUN RECEIPT / NO PLAYOFF PERCENTAGES AUTHORIZED**. Existing physical pagination unchanged. Any probability overlay must use deterministic type, defined source and tested mobile geometry before approval.
+
+## Page-isolated editorial production staging — 2026-10-13
+
+**Gate:** `PROVISIONAL_DATA_RECEIPTED; FACT_LOCK_HOLD`; produce `P003` as its **own 612×792 PDF page** (1024×1536 art-only portrait master where applicable) with deterministic, extractable titles and copy; do not silently merge, reduce or reorder it.
+
+**Data source:** FLAIM authenticated ESPN league `1417621`, Week 5, 2026-10-13. All six `winner` = `UNDECIDED`, `totalPoints=0`. Period values only: home Dr. Duckhook 184.91, away D0nkey K0ng 141.44; home Chili Cheesers 183.53, away El Niño 156.70; home Red Leopards 110.42, away ObiWan Jacoby 154.42; home Slob on my Dobb 134.70, away Seven Deadly Chins 170.46; home Three Dreaded Snake 85.34, away His Majesty's Blood 113.45; home Mud Dogs 127.09, away The LLC. 193.73. Source timestamps and platform winner state must display `PROVISIONAL WEEK 5 PERIOD TOTALS` until officially reconciled. Do not render winner trophies/arrows or final W/L labels. Six-row visual scoreboard: full canonical team names, explicit home and away, points aligned, no fake owner portraits; derived icon crops only if each approved owner image and crop hashes exist. Print all text deterministically, high contrast for phone.
+
+**Acceptance/hand-off:** source receipt, all 12-owner names checked where displayed, approved visual/source alignment, PDF margin and 390px rendering, no missing paragraphs or injected results, source-state flag, and independent Umpire review. Do not change `CONTRACTED_PARTIAL` or `render_eligible=false` without receipts.
