@@ -367,3 +367,10 @@ All points are provisional Week 5 **fantasy** points from actual started lineup 
 **Exception P030:** Commissioner explicitly supplies Pitty's Book tickets/odds/settlement inputs tomorrow, 2026-10-14. Its single-page layout and receipt schema are already prepared; `PITTY_INPUT_DEFERRED_TO_2026-10-14` is the intended hold. Never fabricate tickets or use incomplete settlement to block P001–P029/P031–P032 preparation.
 
 **Hard remaining release blockers:** official fantasy winner reconciliation; page-by-page exact renderer conditioning, owner/mount QA; final NFL citations on selected factual lines; final editable editorial Power Rankings and Week 6 GOTW Commissioner choice; P030 receipts; truly independent release/Umpire approval; real final artwork and full-PDF phone proof. Publisher status `HOLD`; PR #152 draft; no release promotion.
+
+
+### Character source-byte portability — verified 2026-10-13
+
+**CLOSED: 12/12 exact original image source-byte receipts.** Via authenticated access to the existing GitHub PR branch and a read-only authorized Desktop Commander Mac, each of the 12 Commissioner originals was retrieved in memory and verified against reported byte length and Git blob SHA-1, with independent actual SHA-256 calculated. All 12 distinct SHA-256 digests are persisted under `production-evidence/WEEK_5_CHARACTER_SOURCE_ASSET_RECEIPTS_2026-10-13.json` and validated by the Week 5 CI test suite. The previous `raw_sha256: null` status is **superseded**.
+
+**STILL BLOCKED: Actual canonical image render route**. Neither SHA-256 retrieval nor Git asset provenance demonstrates an image-provider attachment receipt, matching mounted SHA-256, distinct owner-to-subject binding, or inspected rendered-character pixel identity. `canon/characters/renderer_capabilities_v1.json` remains `NO_PRODUCTION_ROUTE_PROVEN`; keep `render_eligible=false` until actual renderer proof and independent image QA. Proof-page abstract placeholders do not pass this stage.
