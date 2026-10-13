@@ -1,7 +1,7 @@
 character_id: "CHAR-WILSON-LOOK"
 owner: "Wilson Look"
-identity: "Arsenal Gorilla Warrior"
-active_version: "2.0"
+identity: "Arsenal Gorilla Centaur Warrior"
+active_version: "2.1"
 primary:
   classification: "PRIMARY_IDENTITY_AUTHORITY"
   approval_state: "APPROVED"
@@ -19,5 +19,11 @@ primary:
   repository_byte_size: null
   fresh_context_fetch: "NOT_PROVEN"
   renderer_mount: "NOT_PROVEN"
-supersession_state: "CURRENT_SUPERSEDES_RETIRED_CENTAUR"
+supersession_state: "CURRENT_COMMISSIONER_CLARIFIED_2026_10_02"
 rule: "A Library-visible image or conversation file ID is not a durable renderer mount. Generation remains blocked until exact bytes are repository-addressable, rehashed, mounted, subject-bound, and receipted."
+
+supplementary_historical_cover:
+  classification: "SUPPLEMENTARY_APPEARANCE_AND_HISTORICAL_COVER_ONLY"
+  repository_path: "canon/characters/assets/CHAR-WILSON-LOOK/supplementary/WEEK_03_LAST_UNDEFEATED_COVER.png"
+  visual_receipt: "canon/characters/CHAR-WILSON-LOOK/W3_COVER_VISUAL_REFERENCE_RECEIPT.json"
+  primary_identity_supersession: false
