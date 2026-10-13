@@ -6,7 +6,7 @@
 - Original source: `memo-os/week-5/WEEK_5_COMMISSIONER_SCENE_FEATURE_APPROVAL_2026-10-12.md`.
 - Supporting: `memo-os/week-5/WEEK_5_VERIFIED_ATLAS_ROUTES_AND_CHARACTER_AUDIT_2026-10-12.md`, `memo-os/week-5/WEEK_5_UNIFIED_PREPRODUCTION_CONTROL_BOARD_2026-10-12.md`, `memo-os/PAGE_PRODUCTION_CONTRACT_V1.md`.
 - Home: Chili; visitor: El Niño; venue: `LOC-CHILI-STABLE`.
-- Scene beat: **Conditional non-gory duel; provisional Chili 183.53 vs El Niño 130.40; verify remaining James Cook**.
+- Scene beat: **Conditional non-gory duel; provisional Chili Cheesers 183.53 vs El Niño 156.70 (FLAIM 2026-10-13); NFL Monday game completed; fantasy winner still UNDECIDED**.
 - Story contract: NO sheriff/lawman/bounty hunter; town street approved as temporary scene within Chili's existing territory.
 - Image tells: visible environment, spatial character relationship, cinematic movement of this beat. Prose tells: motives, verified scoring causality, historical consequence and transition.
 
