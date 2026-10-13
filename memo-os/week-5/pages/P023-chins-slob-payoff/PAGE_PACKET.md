@@ -72,3 +72,15 @@ The last Jeep cleared the hill as dusk swallowed the track. Jordan Hollingshead 
 **Exact visual subjects (individual reference images):** CHAR-BEN-WHIPPLE: HEAVYSET_HUMAN_BRUISER; original SHA-256 291cdcdb8cb7504f66b556208c774d88dec0979e6fe25c68783b272541c63f70. CHAR-JORDAN-HOLLINGSHEAD: HORNED_FRAT_STAR_BERSERKER; original SHA-256 535d984397cd7aeeda0b83b652d35b4975fd4c0f6c52230174201720ec41a655. Do not guess species from team name. Enforce the master canonical anatomy and equipment: Huge bearded heavyset human trucker bruiser, 'CHIN UP SHUT UP' cap, battered workwear and hammer. | Huge horned shaggy human-beast, battered football armor, filthy championship shirt and tailgate motifs..
 
 **Hard reject list:** multi-chinned creature; generic athlete; slender hero; generic quarterback; slim human; wrong label Fart Star. Before accepting, record original source SHA-256, real image-provider reference conditioning and subject bindings, species/limb/face/costume pixel review, 390px full title/scene copy inspection, Week 4 comparator and independent Umpire verdict. If renderer cannot demonstrate intended owner, keep `HOLD`. Do not revise approved matchup scenes, page manuscripts or result/fact gates. Contract: `production-evidence/WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json`.
+
+## Mandatory payoff results panel — Commissioner 2026-10-13
+
+**Controlling output contract:** Final single-page 1024×1536 integrated PNG with **an illustrated, legible actual RESULTS BANNER inside the image**. This is P023 of 32, not a separate image, combined multi-page montage, or plain concluding story page. The top primary matchup header remains `Seven Deadly Chins at Slob on my Dobb`, scene subtitle as already approved.
+
+**VERIFIED ESPN 2026 Week 5 FINAL (FLAIM 2026-10-13):** Seven Deadly Chins **170.46**, post-Week-5 record **2–3**; Slob on my Dobb **134.70**, post-Week-5 record **2–3**. **Official winner: Seven Deadly Chins.** Source is ESPN matchup result `winner=AWAY` and post-Week-5 standings; supersedes `UNDECIDED` legacy text in older partial preflight.
+
+**MANDATORY VISUAL FIELDS:** Two fully recognizable side-by-side portraits from the *actual page owner characters*, not a generic logo, AI-designed substitute or stock portrait; both full canonical team names; both exact two-decimal fantasy scores; both post-week records; winning side clearly indicated. Do not use `SCHEMIN ’26` as giant banner. Score panel must be integrated into the same illustrated world/lighting as other three pages of this matchup, with readable contrast at 390px.
+
+**Acceptance veto:** If either portrait, score, record, winning side, full team name, banner location or image-world consistency is missing, mark page REJECTED. An independent Umpire must inspect actual final pixels, not merely this document. 
+
+**Binding machine data:** `production-evidence/WEEK_5_PAYOFF_RESULT_BANNER_CONTRACT_2026-10-13.json`.
