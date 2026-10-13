@@ -94,3 +94,8 @@ State: PRODUCTION_AUTHORIZED / CANON_ART_BLOCKED / RESULT_CERTIFICATION_PENDING 
 **BLOCKED:** 6 official ESPN winners; raw-byte/mount/subject binding; selected NFL source claims not individually reverified; commissioner Week 6 GOTW/editorial power rankings lock; finalized page-image/390px QA; independent Umpire; P030 tickets; publication. **Commissioner external inputs:** Pitty actual tickets tomorrow; any final pagination/GOTW decision not already approved in master. Do not reopen existing six scenes or cover.
 
 **NEXT AUTOMATIC ACTION:** process P001 individually when character conditioning is actually proven; meanwhile finish reversible deterministic copy/layout receipts for other 31 pages, independent checks and result-neutral frames. See master packet's 2026-10-13 individual page invocation contract.
+
+
+## Character raw-byte gate closure — 2026-10-13
+
+**IMPLEMENTED / TESTED:** 12/12 distinct Commissioner original source images recovered through read-only authorized retrieval, length confirmed, Git blob SHA-1 reproduced and matched, raw SHA-256 calculated. Evidence: `production-evidence/WEEK_5_CHARACTER_SOURCE_ASSET_RECEIPTS_2026-10-13.json`. Regression assertion upgraded to require nonnull 64-character SHA-256. **Closing source-byte provenance does not close the renderer-capability gate**: actual provider-conditioned subject identity, mount receipt, artwork pixel inspection and independent Umpire remain HOLD. A prepared page is not marked render-ready.
