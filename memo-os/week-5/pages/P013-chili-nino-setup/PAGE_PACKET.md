@@ -40,9 +40,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-El Niño came down the street beneath a gathering storm and struck the edge of the enormous cooking tub. It overturned. Chili spread across the boards and into the dust in a red wave. The stranger looked down, shrugged, and said, “Wasn't that spicy anyway.”
-
-In the near ground, the ordinary objects made the approaching conflict harder to dismiss. Beyond them stood El Niño, whose presence changed the meaning of every familiar path. The Chili Outlaw could see the immediate obstacle but not yet the cost of overcoming it. The storm front pressing against his town gave the other side a reason to stand firm. The world did not arrange itself into heroes and villains on command; it remained a place with people who would have to live with whatever followed.
+El Niño arrived as a front of dark cloud at the far end of the street. The Outlaw planted his boots beside the overturned chili pot, angry at the waste but unwilling to retreat. A shopkeeper closed the awning behind him. The Dark Horse stood motionless by the stable, while thunder gave the visitor an entrance nobody in town could ignore.
 
 **Visual coordination from approved page brief:** - **Shot:** freeze-frame low three-quarter angle of tub tipping; foreground vivid chili splashing across cobbles; middle ground El Niño dismissive gesture, Chili Outlaw and startled Dark Horse; background town façades and storm shelf. Separate dialogue as deterministic text, not baked into art.
 

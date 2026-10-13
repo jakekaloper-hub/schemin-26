@@ -49,9 +49,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-Wood splintered at the center of the lists. The crowd rose as one. One rider fought to keep the saddle; the other drove through the collision and into a roar of banners. The names would be written only after the stewards agreed who had won.
-
-The last exchange settled the week's visible advantage, but not every question raised by the place. Seven Deadly Chins stood with the consequence of the choice, looking past Slob on my Dobb to rain-swept Jeeps climbing a muddy incline at dusk. This was a win in the provisional fantasy period scoring, not a grant of permanent ownership or an erasure of the opponent's agency. The next chapter would inherit the same terrain and the same unfinished lives. Continuity remained plain: the vehicles are Jeeps, not pickup trucks.
+The final pass broke the last lance. ObiWan lowered his green blade and acknowledged Red Leopards across the shattered lists. His dog ran to meet him once the barriers opened. The tournament structures would come down; the ruins would remain Red territory. He left with a win, not a championship belt.
 
 **Visual coordination from approved page brief:** - **Shot:** dramatic three-quarter impact, flying lance splinters, both faces recognizable; eventual unhorsing and winner stance **HOLD** pending ESPN Fact Lock. No fake trophy/belt transfer.
 

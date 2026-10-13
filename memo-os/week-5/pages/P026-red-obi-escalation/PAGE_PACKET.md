@@ -39,9 +39,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-The noise dropped away when the lances lowered. Two horses crossed the lists, their riders fixed on the same narrow point. For a moment there was nothing but hooves, banners and the long distance between challenge and impact.
-
-The pressure became measurable without becoming a ledger. In the real football week, Jaylen Warren's rushing and receiving touchdowns had supplied the momentum now translated into this confrontation. Here those events did not summon NFL players onto the scene; they changed the force behind Seven Deadly Chins's next decision. The camera's foreground held the tangible damage or resistance, the middle distance the two owners, and the far ground the route that might still offer escape. Seven Deadly Chins saw the opening and had to choose whether to take it.
+The first collision sent splinters across the arena. Nacua's fourteen catches and Stafford's three passing touchdowns had given ObiWan's fantasy side repeated opportunities; Chase's touchdown gave Red Leopards an answer. ObiWan adjusted his line, let the host commit to the center, and carried the next charge past the ruined gate without pretending the ground was his.
 
 **Visual coordination from approved page brief:** - **Shot:** compressed telephoto along jousting barrier; foreground lances converging; middle ground both riders equal stature; background storm-coast ruins and crowds; ObiWan Jacoby no championship belt.
 

@@ -40,9 +40,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-The Chili Outlaw stared at the ruined batch. The insult hung longer than the thunder. He put down the ladle, squared his shoulders and pointed to the clock above the street. “High noon,” he said. The shutters began to close before El Niño answered.
-
-The pressure became measurable without becoming a ledger. In the real football week, Watson's 143 receiving yards and two touchdowns and Brissett's three passing scores had supplied the momentum now translated into this confrontation. Here those events did not summon NFL players onto the scene; they changed the force behind The Chili Outlaw's next decision. The camera's foreground held the tangible damage or resistance, the middle distance the two owners, and the far ground the route that might still offer escape. The Chili Outlaw saw the opening and had to choose whether to take it.
+Wind drove red dust between the buildings. Watson's two touchdowns and Brissett's three scoring passes gave the Outlaw a hard-earned fantasy advantage; Pickens, Evans and Cook supplied the storm's counterforce. The Outlaw stepped into the open rather than draw El Niño toward the stable. The weather was powerful, but it could not choose where he would stand.
 
 **Visual coordination from approved page brief:** - **Shot:** medium-low duel composition; foreground spilled chili and discarded ladle; middle ground two challengers separated by empty street; background clock approaching twelve, shuttering windows and storm; no sheriff insignia.
 

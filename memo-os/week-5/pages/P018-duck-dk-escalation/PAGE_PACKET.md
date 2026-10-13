@@ -37,9 +37,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-The giant advanced, four hooves cutting heavy marks into the immaculate turf. Duckhook drew the driver back, and the ball became a bright point against the darkening sky. In the real football week, Maye had thrown four touchdown passes and run for another; Gibbs had added two rushing scores. On this ground the facts meant pressure and timing, not football players appearing in costume. The smaller fighter had found an angle the larger one had not seen.
-
-The pressure became measurable without becoming a ledger. In the real football week, Puka Nacua's fourteen Monday receptions and Stafford's three passing touchdowns had supplied the momentum now translated into this confrontation. Here those events did not summon NFL players onto the scene; they changed the force behind ObiWan Jacoby's next decision. The camera's foreground held the tangible damage or resistance, the middle distance the two owners, and the far ground the route that might still offer escape. ObiWan Jacoby saw the opening and had to choose whether to take it.
+The hooves cut four tracks through the turf. Maye's four passing touchdowns and rushing score, with Gibbs' two rushing touchdowns, had supplied Duckhook's fantasy force; McBride's touchdown reminded him that the giant could answer. Duckhook swung his fused driver and sent the ball into a high arc over the centaur's reach. He had chosen the air because the ground belonged to the bigger fighter.
 
 **Visual coordination from approved page brief:** - **Shot:** ball arc above course, four equine legs in midground, fused right-arm driver clearly visible.
 

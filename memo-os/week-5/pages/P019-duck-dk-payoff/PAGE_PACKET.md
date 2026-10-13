@@ -44,9 +44,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-The final ball cleared the great figure and disappeared into the distance. The centaur stopped, still enormous, his four legs grounded in the torn grass. Duckhook lowered the driver that was part of him. The crowd had expected size to decide the contest. It had not. The club would repair its fairway, and the giant would leave with his dignity intact; neither could undo what the smaller contender had proved.
-
-The last exchange settled the week's visible advantage, but not every question raised by the place. ObiWan Jacoby stood with the consequence of the choice, looking past Red Leopards to temporary tournament barriers before the Red ruins. This was a win in the provisional fantasy period scoring, not a grant of permanent ownership or an erasure of the opponent's agency. The next chapter would inherit the same terrain and the same unfinished lives. Continuity remained plain: the Trade Jedi carries no championship belt.
+The ball cleared the Arsenal centaur and vanished beyond the final bunker. Duckhook lowered the driver that was part of his body. The giant remained enormous and dignified, four hooves planted in the torn grass, but the smaller figure had won the exchange. The groundskeepers would repair the divots. They would not forget the shot.
 
 **Visual coordination from approved page brief:** - **Shot:** low-angle ball flight, authentic four-legged Arsenal centaur, Duckhook driver fused to right arm.
 

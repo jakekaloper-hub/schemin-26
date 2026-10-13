@@ -40,9 +40,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-The first bulldozer arrived like a moving wall. Then came another, and another, floodlights cutting long white wounds through the mist. The LLC. had brought an entire future on steel tracks, with survey flags where Mud Dogs had only ever needed paths.
-
-In the near ground, the ordinary objects made the approaching conflict harder to dismiss. Beyond them stood Mud Dogs, whose presence changed the meaning of every familiar path. The LLC could see the immediate obstacle but not yet the cost of overcoming it. The dread of losing his home gave the other side a reason to stand firm. The world did not arrange itself into heroes and villains on command; it remained a place with people who would have to live with whatever followed.
+Mud Dogs stood near the porch, listening to the roots shift beneath the water. A child's forgotten object lay in the foreground; behind it the first bulldozer made the marsh look suddenly small. The LLC called its plan infrastructure. Mud Dogs knew the channels carried floodwater away from homes downstream, and he would not allow a neat diagram to erase that fact.
 
 **Visual coordination from approved page brief:** - **Shot:** extreme low-angle machinery procession from swamp bank; foreground tiny marsh plants and Mud Dogs' personal object; middle ground advancing machines and surveyors; background forest canopy, fog and corporate floodlights. Corporate plans must remain legible as a rational development motive.
 

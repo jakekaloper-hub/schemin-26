@@ -49,9 +49,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-One engine roared free. The other strained against the mud. Under the rain-dark sky, a bank of headlights turned toward the finish, while the hillside crowd waited to see which set of tires would move again.
-
-The last exchange settled the week's visible advantage, but not every question raised by the place. Dr. Duckhook stood with the consequence of the choice, looking past D0nkey K0ng to the fairway of the Country Club of Jackson. This was a win in the provisional fantasy period scoring, not a grant of permanent ownership or an erasure of the opponent's agency. The next chapter would inherit the same terrain and the same unfinished lives. Continuity remained plain: his right arm remains fused to his golf driver.
+The last Jeep cleared the hill as dusk swallowed the track. Slob remained by his camp, soaked but unbowed; his home had not vanished with the loss. Seven Deadly Chins looked back at the ruts, already knowing the road would need work tomorrow. The victory belonged to the convoy. The mud belonged to the mountain.
 
 **Visual coordination from approved page brief:** - **Shot:** wide split-depth finish/bog composition; **winner and stuck vehicle assignment conditional** on Fact Lock. No invented permanent flood damage.
 

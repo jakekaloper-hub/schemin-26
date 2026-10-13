@@ -40,9 +40,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-Pieces struck like falling buildings. A stone knight broke the line; a rook answered with the weight of a collapsing wall. Every apparent advantage opened another corridor. Three Dreaded Snake watched the center, then the flank, then the gap between them, each head reaching a different conclusion as the Belt Keeper tightened the board.
-
-The pressure became measurable without becoming a ledger. In the real football week, Jaxon Smith-Njigba's 102 receiving yards and touchdown, and Jameson Williams' two touchdown catches had supplied the momentum now translated into this confrontation. Here those events did not summon NFL players onto the scene; they changed the force behind The Belt Keeper's next decision. The camera's foreground held the tangible damage or resistance, the middle distance the two owners, and the far ground the route that might still offer escape. The Belt Keeper saw the opening and had to choose whether to take it.
+The first stone struck hard enough to make the stalls tremble. Smith-Njigba's touchdown and Jameson Williams' two scoring catches had given the Keeper's fantasy side the force to press the center; Javonte and Emanuel Wilson's touchdowns made the Snake's counterplay credible. The Keeper advanced a bishop, not because the board was safe, but because the serpent's divided attention had exposed a lane.
 
 **Visual coordination from approved page brief:** - **Shot:** low diagonal tracking composition; foreground shattered knight; middle ground opposing pieces converging; background exposed central king; deep hard-edged shadows; do not treat weekly player points as actual NFL play chronology. - **Continuity:** protect the actual owner identity and no copied film iconography.
 

@@ -43,9 +43,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-A good batch took patience. The Chili Outlaw stirred the heavy pot while The Dark Horse shifted in the shade beside the stable. He had made this street a place where a man could feed his own people. The clouds beyond the roofs looked like a visitor with poor manners.
-
-The place held a memory before the contest began. From The Chili Outlaw's side of a high-noon street beside the stables and Dark Horse, the smallest detail mattered: a mark on the ground, a sound carried through the air, the distance still to cross. The road here had been travelled by others before either rival arrived. The Chili Outlaw understood that the meeting would test more than a score; it would test whether a claim to this place could survive contact with someone else's claim. Nothing in the early light disclosed the result. The first choice was simply to keep walking.
+The Chili Outlaw watched the water trough before looking toward the road. His Dark Horse sensed the approaching weather first. High noon was a time the town understood: shops shuttered, dust settled, and the stable doors stayed open for those who needed shelter. The Outlaw meant to protect that ordinary rhythm, not claim an empty street.
 
 **Visual coordination from approved page brief:** - **Image:** prose-forward steaming chili tub, host town, Dark Horse, western sun behind incoming dark cloud; no winner cue.
 

@@ -39,9 +39,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-The herald stepped forward with a scroll so long it rolled down the steps and kept going. He began announcing Jake Kaloper's ceremonial titles, adding honor upon honor until even the horses seemed impatient. A spectator stamped a boot. Another clapped. Soon the whole grandstand thundered with a rhythm no medieval court should have known. Kevin Zeek waited at the opposite gate, amused for one breath and impatient the next. Then his own banners rose, and the cheers met the first entrance with equal force.
-
-In the near ground, the ordinary objects made the approaching conflict harder to dismiss. Beyond them stood Slob on my Dobb, whose presence changed the meaning of every familiar path. Seven Deadly Chins could see the immediate obstacle but not yet the cost of overcoming it. The stubborn resistance from the foothill camp gave the other side a reason to stand firm. The world did not arrange itself into heroes and villains on command; it remained a place with people who would have to live with whatever followed.
+Red Leopards waited beneath the banners of his home ground, armor bright against the broken walls. The crowd could see both entrances across the lists. ObiWan looked at the narrow run between the barriers and understood that the host knew every uneven stone. His dog settled behind the safety line as the first challenge was called.
 
 **Visual coordination from approved page brief:** - **Shot:** panoramic split entrance; foreground unfurling absurdly long scroll; middle ground Jake Kaloper mounted at one gate, Kevin Zeek at other; background packed grandstands with stomping/clapping motion; kinetic sporting energy as original homage to *A Knight's Tale*, NO film lyrics/dialogue or exact scene duplication.
 

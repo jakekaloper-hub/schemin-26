@@ -50,9 +50,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-Noon arrived beneath a sky dark enough to mistake for evening. The Dark Horse stood still. Across the street, both challengers reached for their revolvers. The crack of the shot vanished into thunder, and the dust did not settle until one figure remained standing.
-
-The last exchange settled the week's visible advantage, but not every question raised by the place. The Chili Outlaw stood with the consequence of the choice, looking past El Niño to a high-noon street beside the stables and Dark Horse. This was a win in the provisional fantasy period scoring, not a grant of permanent ownership or an erasure of the opponent's agency. The next chapter would inherit the same terrain and the same unfinished lives. Continuity remained plain: no sheriff enters the scene.
+The thunder passed down the street without taking the town. The Outlaw remained at high noon, Dark Horse beside him, looking at the spilled chili instead of raising his weapon for applause. El Niño withdrew beyond the tablelands with the storm still moving. The pot was ruined; the people were safe. No sheriff had settled this duel for them.
 
 **Visual coordination from approved page brief:** - **Shot:** long street perspective, over-the-shoulder foreground of eventual loser and distant winner, gun smoke and rain-silvered sky; **do not choose foreground/standing identity until verified**. Non-gory, no law-enforcement premise.
 

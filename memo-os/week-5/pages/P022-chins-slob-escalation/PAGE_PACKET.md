@@ -39,9 +39,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-The course swallowed the first set of tires. Mud fanned across the lights; the next bend vanished behind a sheet of rain. Both drivers pushed on, engines fighting the slope while the spectators cheered at shapes they could scarcely see.
-
-The pressure became measurable without becoming a ledger. In the real football week, Maye's four passing touchdowns and rushing touchdown, and Gibbs' two rushing scores had supplied the momentum now translated into this confrontation. Here those events did not summon NFL players onto the scene; they changed the force behind Dr. Duckhook's next decision. The camera's foreground held the tangible damage or resistance, the middle distance the two owners, and the far ground the route that might still offer escape. Dr. Duckhook saw the opening and had to choose whether to take it.
+Jaylen Warren's rushing and receiving touchdowns gave Seven Deadly Chins the fantasy momentum to press through the storm; Jones and Allen kept Slob's side dangerous. A Jeep slipped sideways, headlights catching the horned figure by the camp. Chins climbed out into the rain, used his hammer to free a buried tow point, and sent the convoy onward by inches.
 
 **Visual coordination from approved page brief:** - **Shot:** dynamic side-tracking Jeep climb; foreground muddy spray; middle ground both vehicles and drivers; background rain-obscured hills; low contrast must not destroy character readability.
 

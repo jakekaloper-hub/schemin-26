@@ -43,9 +43,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-The tournament banners were visible long before the arena. On this coast, a champion's reputation could travel farther than a horse. Two rivals came to the ruins knowing the crowd would remember the entrance even if it forgot the speeches.
-
-The place held a memory before the contest began. From Seven Deadly Chins's side of rain-swept Jeeps climbing a muddy incline at dusk, the smallest detail mattered: a mark on the ground, a sound carried through the air, the distance still to cross. The road here had been travelled by others before either rival arrived. Seven Deadly Chins understood that the meeting would test more than a score; it would test whether a claim to this place could survive contact with someone else's claim. Nothing in the early light disclosed the result. The first choice was simply to keep walking.
+ObiWan Jacoby approached the Red ruins by the permitted mountain route. His golden retriever walked close beside him, and the green blade stayed unlit. The temporary lists rose between old stones, a tournament assembled for one contest rather than a new fortress. He had come to meet a champion's challenge, not to take a belt he did not own.
 
 **Visual coordination from approved page brief:** - **Image:** prose-first windswept escarpment and tournament lists, banners against storm coast; no winner cue.
 

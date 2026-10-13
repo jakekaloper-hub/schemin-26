@@ -39,9 +39,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-Two Jeeps rolled to the line as rain hammered their windshields. Slob on my Dobb and Seven Deadly Chins traded the look of drivers who had already decided the other would fail. The starter could barely be seen through the water.
-
-In the near ground, the ordinary objects made the approaching conflict harder to dismiss. Beyond them stood D0nkey K0ng, whose presence changed the meaning of every familiar path. Dr. Duckhook could see the immediate obstacle but not yet the cost of overcoming it. The scale of the arsenal centaur gave the other side a reason to stand firm. The world did not arrange itself into heroes and villains on command; it remained a place with people who would have to live with whatever followed.
+Slob on my Dobb stood by the flooded track with his bat, daring the visitors to cross. The first Jeep entered the mud; its tires dug down instead of forward. Seven Deadly Chins saw the rut and waved the second driver toward the higher bank. Rain flattened the grass and hid the depth of the water from both sides.
 
 **Visual coordination from approved page brief:** - **Shot:** symmetrical low frontal frame of two Jeeps; foreground pooled mud; middle ground owners/vehicles; background spectators under wet tarps and storm-dark ridges; preserve visible character identity rather than replacing characters with vehicles.
 

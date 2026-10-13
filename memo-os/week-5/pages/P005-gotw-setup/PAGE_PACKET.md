@@ -40,9 +40,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-The chessboard had swallowed the market square. Stone towers climbed into the fog; knights stood taller than the stalls they overshadowed. His Majesty's Blood stepped onto one edge of the field, the championship belt a history rather than a wager. Across the squares, Three Dreaded Snake's three faces studied three different threats.
-
-In the near ground, the ordinary objects made the approaching conflict harder to dismiss. Beyond them stood Three Dreaded Snake, whose presence changed the meaning of every familiar path. The Belt Keeper could see the immediate obstacle but not yet the cost of overcoming it. The divided counsel of the serpent's three heads gave the other side a reason to stand firm. The world did not arrange itself into heroes and villains on command; it remained a place with people who would have to live with whatever followed.
+Market traders had pulled their carts behind the giant pieces. The serpent's three heads did not agree which stone knight posed the greatest threat. The Keeper studied their argument rather than the board's grand scale; a disagreement between eyes could be more useful than a missing rook. The ordinary stalls below the chessmen made every falling stone a danger to people who had not chosen this contest.
 
 **Visual coordination from approved page brief:** - **Shot:** wide overhead establishing grid/market perimeter; foreground shuttered stalls; middle ground two opposing figures; background giant rooks; cold blue moon and warm torch rims; text-safe lower-left region subject to shell test. - **Continuity:** board temporary; all three heads visible on single body.
 

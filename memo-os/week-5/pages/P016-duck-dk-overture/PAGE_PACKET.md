@@ -38,9 +38,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-Before the giant reached the clubhouse, Duckhook heard the quiet rattle of the practice balls in their basket. He could not lift his right arm away from the driver fused to it; he had learned to measure the world by what the club could touch. Beyond the fairway the Arsenal centaur stood against the horizon, all four iron-shod legs planted in the grass. Duckhook considered the distance, not the crowd. The first stroke was still his to choose.
-
-The place held a memory before the contest began. From ObiWan Jacoby's side of temporary tournament barriers before the Red ruins, the smallest detail mattered: a mark on the ground, a sound carried through the air, the distance still to cross. The road here had been travelled by others before either rival arrived. ObiWan Jacoby understood that the meeting would test more than a score; it would test whether a claim to this place could survive contact with someone else's claim. Nothing in the early light disclosed the result. The first choice was simply to keep walking.
+Duckhook studied the practice green while the clubhouse was still quiet. His right arm ended in the driver he could never set down. Across the course, the Arsenal centaur's four iron-shod hooves made the distant figure look larger than the trees. Duckhook knew every bunker; he did not yet know whether that knowledge would matter.
 
 **Visual coordination from approved page brief:** - **Image:** prose-forward dawn at country club; tiny Duckhook facing far-off four-legged centaur; do not spoil result.
 

@@ -50,9 +50,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-The final move sounded like a mountain breaking. The chessboard split beneath Three Dreaded Snake, and a collapsing stone piece drove the serpent down among the shattered squares. Above the wreckage, His Majesty's Blood threw his arms wide. A terrible laugh rang across the neutral grounds. “Let every corner of this realm hear me. An empire begins with one square.” The declaration was ambition, not conquest; the League's lands remained their own.
-
-The last exchange settled the week's visible advantage, but not every question raised by the place. The Belt Keeper stood with the consequence of the choice, looking past Three Dreaded Snake to a stone chessboard over the neutral market. This was a win in the provisional fantasy period scoring, not a grant of permanent ownership or an erasure of the opponent's agency. The next chapter would inherit the same terrain and the same unfinished lives. Continuity remained plain: his belt is held, not wagered.
+The broken square smoked beneath the Belt Keeper's feet. He had forced the final move, but the traders would still have to clear the debris. Three Dreaded Snake withdrew with all three heads intact, still arguing about the lost angle. The Keeper's declaration of empire carried beyond the market; his power did not. The neutral ground would remain neutral.
 
 **Visual coordination from approved page brief:** - **Shot:** worm's-eye from cracked chess square; foreground fractured stone and trapped serpent, middle ground elevated Belt Keeper and authentic belt, background chess-piece ruins and storm-lit haze; imperial laughter conveyed by expression/pose, NOT Palpatine likeness or quoted dialogue. - **Alternate result:** if Three Dreaded Snake wins, this page's destruction and imperial laugh are **REJECTED** pending Commissioner revision. No automatic contradictory ending.
 

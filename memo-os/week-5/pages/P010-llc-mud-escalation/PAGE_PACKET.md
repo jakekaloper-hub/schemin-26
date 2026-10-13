@@ -40,9 +40,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-Steel blades entered the shoreline. Trees groaned and toppled, mud folding beneath their roots. Mud Dogs ran with terror on his face, turning once to see the place he loved split by the machines. He was not fleeing an empty tract of land. He was watching home become something strangers could measure.
-
-The pressure became measurable without becoming a ledger. In the real football week, Burrow's four passing touchdowns and Parker Washington's two receiving scores had supplied the momentum now translated into this confrontation. Here those events did not summon NFL players onto the scene; they changed the force behind The LLC's next decision. The camera's foreground held the tangible damage or resistance, the middle distance the two owners, and the far ground the route that might still offer escape. The LLC saw the opening and had to choose whether to take it.
+Floodlights caught the torn bank as machinery pressed forward. Burrow's four touchdown passes, Washington's two scores and Likely's two had powered The LLC's fantasy surge; Goff's four total touchdowns and LaPorta's scoring catch kept Mud Dogs' resistance real. Mud Dogs fled the falling trees only far enough to draw the machines toward ground too soft to hold them. The LLC's advance slowed, but it did not end.
 
 **Visual coordination from approved page brief:** - **Shot:** over-the-shoulder tracking Mud Dogs retreating toward camera; foreground wet personal belongings; middle ground damaged bank and toppled trees; background towering bulldozers and floodlights; overwhelming scale without reproducing Avatar imagery.
 

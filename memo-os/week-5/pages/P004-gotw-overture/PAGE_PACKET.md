@@ -43,9 +43,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-The approach is quiet enough to hear the stones settling beneath the neutral grounds. On one road, the Belt Keeper carries the burden of an old title. On the other, three serpent heads argue over the same set of footsteps. Neither side can yet see the final square. **Final POV assignment HOLD until winner verified.**
-
-The place held a memory before the contest began. From The Belt Keeper's side of a stone chessboard over the neutral market, the smallest detail mattered: a mark on the ground, a sound carried through the air, the distance still to cross. The road here had been travelled by others before either rival arrived. The Belt Keeper understood that the meeting would test more than a score; it would test whether a claim to this place could survive contact with someone else's claim. Nothing in the early light disclosed the result. The first choice was simply to keep walking.
+The Belt Keeper counted the steps from the eastern road to the market. His belt felt heavier here than on the Black Cliff ascent: a title could be carried into neutral territory, but it could not turn that territory into a throne. Across the torchlit square the three heads of the Snake watched three different paths. The Keeper chose the central one, still uncertain what it would cost.
 
 **Visual coordination from approved page brief:** - **Image:** editorial inset, extreme-wide neutral market paths and monumental board beyond, fog and torchlight; prose-forward 65–75%. - **Transition:** from human-scale market to landscape-scale chess geometry.
 

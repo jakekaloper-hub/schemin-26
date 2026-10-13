@@ -35,9 +35,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-The centaur entered the fairway like a moving siege tower, red Arsenal cloth catching the wind. Groundskeepers retreated behind the bunkers. Duckhook stayed beside the first tee, a small figure with the wrong kind of weapon for this contest, studying the course he knew better than anyone. Every hill and hazard was familiar; nothing about the visitor was.
-
-In the near ground, the ordinary objects made the approaching conflict harder to dismiss. Beyond them stood Red Leopards, whose presence changed the meaning of every familiar path. ObiWan Jacoby could see the immediate obstacle but not yet the cost of overcoming it. The pride of a host defending the ruined lists gave the other side a reason to stand firm. The world did not arrange itself into heroes and villains on command; it remained a place with people who would have to live with whatever followed.
+Groundskeepers moved behind the hedges as D0nkey K0ng crossed the first fairway. Red Arsenal cloth snapped against the centaur's gorilla torso. Duckhook stood beside the tee, small against the immaculate sweep of grass, and watched the giant misjudge the slope near the water hazard. The course was not a battlefield until the visitor made it one.
 
 **Visual coordination from approved page brief:** - **Shot:** huge centaur in background, golfer in foreground, country-club hazards clearly legible.
 

@@ -43,9 +43,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-Morning belonged to the swamp before it belonged to anyone's plans. Water collected around the porch posts, and every crooked tree seemed to know the house it sheltered. Somewhere beyond the reeds, engines had begun to wake.
-
-The place held a memory before the contest began. From The LLC's side of a muddy causeway, survey stakes and advancing machines, the smallest detail mattered: a mark on the ground, a sound carried through the air, the distance still to cross. The road here had been travelled by others before either rival arrived. The LLC understood that the meeting would test more than a score; it would test whether a claim to this place could survive contact with someone else's claim. Nothing in the early light disclosed the result. The first choice was simply to keep walking.
+The LLC examined the swamp from the causeway before its surveyors arrived. It saw land, access and an improbable development schedule; the old shack beyond the reeds looked like an unresolved entry in a ledger. Water rose against the stakes and made straight lines difficult. For a moment the corporation wondered whether a place could refuse an offer.
 
 **Visual coordination from approved page brief:** - **Image:** prose-first swamp shack at dawn; close domestic possessions, natural wildlife, distant unseen industrial glow; do not show future outcome.
 

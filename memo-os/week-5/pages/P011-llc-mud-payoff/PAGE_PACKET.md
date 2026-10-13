@@ -50,9 +50,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-The engines idled beside the gouged shoreline. A stand of trees still held; the shack and much of the swamp remained beyond the torn earth. Mud Dogs stopped at the reeds and looked back. The damage was real, but the story of the land was not finished.
-
-The last exchange settled the week's visible advantage, but not every question raised by the place. The LLC stood with the consequence of the choice, looking past Mud Dogs to a muddy causeway, survey stakes and advancing machines. This was a win in the provisional fantasy period scoring, not a grant of permanent ownership or an erasure of the opponent's agency. The next chapter would inherit the same terrain and the same unfinished lives. Continuity remained plain: the damaged shoreline remains only a reversible temporary state.
+At the gouged shoreline, The LLC's victory gave it leverage without a deed to the swamp. Mud Dogs returned to the reeds and counted the trees still standing. Survey flags trembled over water that had not agreed to change course. The machines idled; the damage was limited, the future disputed. Neither a scoreboard nor a contract could settle what the next flood would carry downstream.
 
 **Visual coordination from approved page brief:** - **Shot:** wide melancholy aftermath; foreground frightened Mud Dogs; middle ground torn earth ending before intact wetland; background surviving canopy and distant machines; muted dusk/mist. - **Result branches:** The LLC. victory may justify ongoing development pressure but NOT complete destruction or permanent campus without separate World Evolution approval. Mud Dogs victory may stop the machines, but partial damage remains a scene consequence pending World Evolution. No result declared.
 
