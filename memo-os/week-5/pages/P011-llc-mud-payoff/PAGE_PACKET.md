@@ -42,3 +42,18 @@ At the causeway, the surveyors waited for a signal. The LLC had brought enough f
 ## Integrated narrative-to-visual acceptance — Commissioner lock
 
 This page is subject to the binding four-strand narrative quality lock in `memo-os/week-5/MASTER_PRODUCTION_PACKET.md`: Atlas/world continuity; character-owned POV and agency; selective source-verified sports facts as causal support (not a statistical recap); and exact synchronization of prose with this page's specified image shot, atmosphere, foreground/background, and handoff. Before page lock, record POV, emotional objective, visual anchors, sports source receipt, causal beat, prose/image complement, next-page transition, and unresolved fact/character-render gates. **Editorial and independent Umpire acceptance remain unverified.**
+
+
+## Integrated full-page narrative manuscript — editorial candidate 2026-10-13
+
+**Editorial state:** Complete proposed copy for this source page; not independently approved or release eligible. ESPN winner is still `UNDECIDED`; winner-POV selection and any payoff are explicitly provisional. Author-consultant lenses used as editing criteria (Martin: material stakes/consequence; Le Guin: inhabited place and limited POV; Grisham: intelligible contest and causal pressure), **not** claims that those authors or an authenticated Bullpen Director reviewed this copy.
+
+**Narrative copy:**
+
+The engines idled beside the gouged shoreline. A stand of trees still held; the shack and much of the swamp remained beyond the torn earth. Mud Dogs stopped at the reeds and looked back. The damage was real, but the story of the land was not finished.
+
+The last exchange settled the week's visible advantage, but not every question raised by the place. The LLC stood with the consequence of the choice, looking past Mud Dogs to a muddy causeway, survey stakes and advancing machines. This was a win in the provisional fantasy period scoring, not a grant of permanent ownership or an erasure of the opponent's agency. The next chapter would inherit the same terrain and the same unfinished lives. Continuity remained plain: the damaged shoreline remains only a reversible temporary state.
+
+**Visual coordination from approved page brief:** - **Shot:** wide melancholy aftermath; foreground frightened Mud Dogs; middle ground torn earth ending before intact wetland; background surviving canopy and distant machines; muted dusk/mist. - **Result branches:** The LLC. victory may justify ongoing development pressure but NOT complete destruction or permanent campus without separate World Evolution approval. Mud Dogs victory may stop the machines, but partial damage remains a scene consequence pending World Evolution. No result declared.
+
+**Editorial checks:** No fabricated NFL player presence in the fictional world. Stats are causality, not the main story. Character/Atlas continuity and real reference-conditioned render QA required. Independent Beat Writer, Author Council, Librarian, Visual Lead and Umpire acceptance remains outstanding.

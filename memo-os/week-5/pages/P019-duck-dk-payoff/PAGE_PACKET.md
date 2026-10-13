@@ -36,3 +36,18 @@ The Arsenal centaur's four iron-shod hooves dug into the fairway as the final ba
 ## Integrated narrative-to-visual acceptance — Commissioner lock
 
 This page is subject to the binding four-strand narrative quality lock in `memo-os/week-5/MASTER_PRODUCTION_PACKET.md`: Atlas/world continuity; character-owned POV and agency; selective source-verified sports facts as causal support (not a statistical recap); and exact synchronization of prose with this page's specified image shot, atmosphere, foreground/background, and handoff. Before page lock, record POV, emotional objective, visual anchors, sports source receipt, causal beat, prose/image complement, next-page transition, and unresolved fact/character-render gates. **Editorial and independent Umpire acceptance remain unverified.**
+
+
+## Integrated full-page narrative manuscript — editorial candidate 2026-10-13
+
+**Editorial state:** Complete proposed copy for this source page; not independently approved or release eligible. ESPN winner is still `UNDECIDED`; winner-POV selection and any payoff are explicitly provisional. Author-consultant lenses used as editing criteria (Martin: material stakes/consequence; Le Guin: inhabited place and limited POV; Grisham: intelligible contest and causal pressure), **not** claims that those authors or an authenticated Bullpen Director reviewed this copy.
+
+**Narrative copy:**
+
+The final ball cleared the great figure and disappeared into the distance. The centaur stopped, still enormous, his four legs grounded in the torn grass. Duckhook lowered the driver that was part of him. The crowd had expected size to decide the contest. It had not. The club would repair its fairway, and the giant would leave with his dignity intact; neither could undo what the smaller contender had proved.
+
+The last exchange settled the week's visible advantage, but not every question raised by the place. ObiWan Jacoby stood with the consequence of the choice, looking past Red Leopards to temporary tournament barriers before the Red ruins. This was a win in the provisional fantasy period scoring, not a grant of permanent ownership or an erasure of the opponent's agency. The next chapter would inherit the same terrain and the same unfinished lives. Continuity remained plain: the Trade Jedi carries no championship belt.
+
+**Visual coordination from approved page brief:** - **Shot:** low-angle ball flight, authentic four-legged Arsenal centaur, Duckhook driver fused to right arm.
+
+**Editorial checks:** No fabricated NFL player presence in the fictional world. Stats are causality, not the main story. Character/Atlas continuity and real reference-conditioned render QA required. Independent Beat Writer, Author Council, Librarian, Visual Lead and Umpire acceptance remains outstanding.

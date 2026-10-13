@@ -42,3 +42,18 @@ At noon, the street went silent. The Dark Horse did not move. Across the spilled
 ## Integrated narrative-to-visual acceptance — Commissioner lock
 
 This page is subject to the binding four-strand narrative quality lock in `memo-os/week-5/MASTER_PRODUCTION_PACKET.md`: Atlas/world continuity; character-owned POV and agency; selective source-verified sports facts as causal support (not a statistical recap); and exact synchronization of prose with this page's specified image shot, atmosphere, foreground/background, and handoff. Before page lock, record POV, emotional objective, visual anchors, sports source receipt, causal beat, prose/image complement, next-page transition, and unresolved fact/character-render gates. **Editorial and independent Umpire acceptance remain unverified.**
+
+
+## Integrated full-page narrative manuscript — editorial candidate 2026-10-13
+
+**Editorial state:** Complete proposed copy for this source page; not independently approved or release eligible. ESPN winner is still `UNDECIDED`; winner-POV selection and any payoff are explicitly provisional. Author-consultant lenses used as editing criteria (Martin: material stakes/consequence; Le Guin: inhabited place and limited POV; Grisham: intelligible contest and causal pressure), **not** claims that those authors or an authenticated Bullpen Director reviewed this copy.
+
+**Narrative copy:**
+
+Noon arrived beneath a sky dark enough to mistake for evening. The Dark Horse stood still. Across the street, both challengers reached for their revolvers. The crack of the shot vanished into thunder, and the dust did not settle until one figure remained standing.
+
+The last exchange settled the week's visible advantage, but not every question raised by the place. The Chili Outlaw stood with the consequence of the choice, looking past El Niño to a high-noon street beside the stables and Dark Horse. This was a win in the provisional fantasy period scoring, not a grant of permanent ownership or an erasure of the opponent's agency. The next chapter would inherit the same terrain and the same unfinished lives. Continuity remained plain: no sheriff enters the scene.
+
+**Visual coordination from approved page brief:** - **Shot:** long street perspective, over-the-shoulder foreground of eventual loser and distant winner, gun smoke and rain-silvered sky; **do not choose foreground/standing identity until verified**. Non-gory, no law-enforcement premise.
+
+**Editorial checks:** No fabricated NFL player presence in the fictional world. Stats are causality, not the main story. Character/Atlas continuity and real reference-conditioned render QA required. Independent Beat Writer, Author Council, Librarian, Visual Lead and Umpire acceptance remains outstanding.

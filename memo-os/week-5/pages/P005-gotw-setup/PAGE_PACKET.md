@@ -32,3 +32,18 @@ This single amendment pointer supersedes duplicate prior personalized scene note
 ## Integrated narrative-to-visual acceptance — Commissioner lock
 
 This page is subject to the binding four-strand narrative quality lock in `memo-os/week-5/MASTER_PRODUCTION_PACKET.md`: Atlas/world continuity; character-owned POV and agency; selective source-verified sports facts as causal support (not a statistical recap); and exact synchronization of prose with this page's specified image shot, atmosphere, foreground/background, and handoff. Before page lock, record POV, emotional objective, visual anchors, sports source receipt, causal beat, prose/image complement, next-page transition, and unresolved fact/character-render gates. **Editorial and independent Umpire acceptance remain unverified.**
+
+
+## Integrated full-page narrative manuscript — editorial candidate 2026-10-13
+
+**Editorial state:** Complete proposed copy for this source page; not independently approved or release eligible. ESPN winner is still `UNDECIDED`; winner-POV selection and any payoff are explicitly provisional. Author-consultant lenses used as editing criteria (Martin: material stakes/consequence; Le Guin: inhabited place and limited POV; Grisham: intelligible contest and causal pressure), **not** claims that those authors or an authenticated Bullpen Director reviewed this copy.
+
+**Narrative copy:**
+
+The chessboard had swallowed the market square. Stone towers climbed into the fog; knights stood taller than the stalls they overshadowed. His Majesty's Blood stepped onto one edge of the field, the championship belt a history rather than a wager. Across the squares, Three Dreaded Snake's three faces studied three different threats.
+
+In the near ground, the ordinary objects made the approaching conflict harder to dismiss. Beyond them stood Three Dreaded Snake, whose presence changed the meaning of every familiar path. The Belt Keeper could see the immediate obstacle but not yet the cost of overcoming it. The divided counsel of the serpent's three heads gave the other side a reason to stand firm. The world did not arrange itself into heroes and villains on command; it remained a place with people who would have to live with whatever followed.
+
+**Visual coordination from approved page brief:** - **Shot:** wide overhead establishing grid/market perimeter; foreground shuttered stalls; middle ground two opposing figures; background giant rooks; cold blue moon and warm torch rims; text-safe lower-left region subject to shell test. - **Continuity:** board temporary; all three heads visible on single body.
+
+**Editorial checks:** No fabricated NFL player presence in the fictional world. Stats are causality, not the main story. Character/Atlas continuity and real reference-conditioned render QA required. Independent Beat Writer, Author Council, Librarian, Visual Lead and Umpire acceptance remains outstanding.

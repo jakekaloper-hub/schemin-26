@@ -35,3 +35,18 @@ This single amendment pointer supersedes duplicate prior personalized scene note
 ## Integrated narrative-to-visual acceptance — Commissioner lock
 
 This page is subject to the binding four-strand narrative quality lock in `memo-os/week-5/MASTER_PRODUCTION_PACKET.md`: Atlas/world continuity; character-owned POV and agency; selective source-verified sports facts as causal support (not a statistical recap); and exact synchronization of prose with this page's specified image shot, atmosphere, foreground/background, and handoff. Before page lock, record POV, emotional objective, visual anchors, sports source receipt, causal beat, prose/image complement, next-page transition, and unresolved fact/character-render gates. **Editorial and independent Umpire acceptance remain unverified.**
+
+
+## Integrated full-page narrative manuscript — editorial candidate 2026-10-13
+
+**Editorial state:** Complete proposed copy for this source page; not independently approved or release eligible. ESPN winner is still `UNDECIDED`; winner-POV selection and any payoff are explicitly provisional. Author-consultant lenses used as editing criteria (Martin: material stakes/consequence; Le Guin: inhabited place and limited POV; Grisham: intelligible contest and causal pressure), **not** claims that those authors or an authenticated Bullpen Director reviewed this copy.
+
+**Narrative copy:**
+
+Morning belonged to the swamp before it belonged to anyone's plans. Water collected around the porch posts, and every crooked tree seemed to know the house it sheltered. Somewhere beyond the reeds, engines had begun to wake.
+
+The place held a memory before the contest began. From The LLC's side of a muddy causeway, survey stakes and advancing machines, the smallest detail mattered: a mark on the ground, a sound carried through the air, the distance still to cross. The road here had been travelled by others before either rival arrived. The LLC understood that the meeting would test more than a score; it would test whether a claim to this place could survive contact with someone else's claim. Nothing in the early light disclosed the result. The first choice was simply to keep walking.
+
+**Visual coordination from approved page brief:** - **Image:** prose-first swamp shack at dawn; close domestic possessions, natural wildlife, distant unseen industrial glow; do not show future outcome.
+
+**Editorial checks:** No fabricated NFL player presence in the fictional world. Stats are causality, not the main story. Character/Atlas continuity and real reference-conditioned render QA required. Independent Beat Writer, Author Council, Librarian, Visual Lead and Umpire acceptance remains outstanding.

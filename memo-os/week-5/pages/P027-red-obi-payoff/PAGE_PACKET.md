@@ -41,3 +41,18 @@ The lances met at the center of the lists. For an instant the grandstand saw onl
 ## Integrated narrative-to-visual acceptance — Commissioner lock
 
 This page is subject to the binding four-strand narrative quality lock in `memo-os/week-5/MASTER_PRODUCTION_PACKET.md`: Atlas/world continuity; character-owned POV and agency; selective source-verified sports facts as causal support (not a statistical recap); and exact synchronization of prose with this page's specified image shot, atmosphere, foreground/background, and handoff. Before page lock, record POV, emotional objective, visual anchors, sports source receipt, causal beat, prose/image complement, next-page transition, and unresolved fact/character-render gates. **Editorial and independent Umpire acceptance remain unverified.**
+
+
+## Integrated full-page narrative manuscript — editorial candidate 2026-10-13
+
+**Editorial state:** Complete proposed copy for this source page; not independently approved or release eligible. ESPN winner is still `UNDECIDED`; winner-POV selection and any payoff are explicitly provisional. Author-consultant lenses used as editing criteria (Martin: material stakes/consequence; Le Guin: inhabited place and limited POV; Grisham: intelligible contest and causal pressure), **not** claims that those authors or an authenticated Bullpen Director reviewed this copy.
+
+**Narrative copy:**
+
+Wood splintered at the center of the lists. The crowd rose as one. One rider fought to keep the saddle; the other drove through the collision and into a roar of banners. The names would be written only after the stewards agreed who had won.
+
+The last exchange settled the week's visible advantage, but not every question raised by the place. Seven Deadly Chins stood with the consequence of the choice, looking past Slob on my Dobb to rain-swept Jeeps climbing a muddy incline at dusk. This was a win in the provisional fantasy period scoring, not a grant of permanent ownership or an erasure of the opponent's agency. The next chapter would inherit the same terrain and the same unfinished lives. Continuity remained plain: the vehicles are Jeeps, not pickup trucks.
+
+**Visual coordination from approved page brief:** - **Shot:** dramatic three-quarter impact, flying lance splinters, both faces recognizable; eventual unhorsing and winner stance **HOLD** pending ESPN Fact Lock. No fake trophy/belt transfer.
+
+**Editorial checks:** No fabricated NFL player presence in the fictional world. Stats are causality, not the main story. Character/Atlas continuity and real reference-conditioned render QA required. Independent Beat Writer, Author Council, Librarian, Visual Lead and Umpire acceptance remains outstanding.

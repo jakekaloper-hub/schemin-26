@@ -29,3 +29,18 @@ Use approved matchup premise, causal ESPN player evidence, and no invented scori
 ## Integrated narrative-to-visual acceptance — Commissioner lock
 
 This page is subject to the binding four-strand narrative quality lock in `memo-os/week-5/MASTER_PRODUCTION_PACKET.md`: Atlas/world continuity; character-owned POV and agency; selective source-verified sports facts as causal support (not a statistical recap); and exact synchronization of prose with this page's specified image shot, atmosphere, foreground/background, and handoff. Before page lock, record POV, emotional objective, visual anchors, sports source receipt, causal beat, prose/image complement, next-page transition, and unresolved fact/character-render gates. **Editorial and independent Umpire acceptance remain unverified.**
+
+
+## Integrated full-page narrative manuscript — editorial candidate 2026-10-13
+
+**Editorial state:** Complete proposed copy for this source page; not independently approved or release eligible. ESPN winner is still `UNDECIDED`; winner-POV selection and any payoff are explicitly provisional. Author-consultant lenses used as editing criteria (Martin: material stakes/consequence; Le Guin: inhabited place and limited POV; Grisham: intelligible contest and causal pressure), **not** claims that those authors or an authenticated Bullpen Director reviewed this copy.
+
+**Narrative copy:**
+
+The giant advanced, four hooves cutting heavy marks into the immaculate turf. Duckhook drew the driver back, and the ball became a bright point against the darkening sky. In the real football week, Maye had thrown four touchdown passes and run for another; Gibbs had added two rushing scores. On this ground the facts meant pressure and timing, not football players appearing in costume. The smaller fighter had found an angle the larger one had not seen.
+
+The pressure became measurable without becoming a ledger. In the real football week, Puka Nacua's fourteen Monday receptions and Stafford's three passing touchdowns had supplied the momentum now translated into this confrontation. Here those events did not summon NFL players onto the scene; they changed the force behind ObiWan Jacoby's next decision. The camera's foreground held the tangible damage or resistance, the middle distance the two owners, and the far ground the route that might still offer escape. ObiWan Jacoby saw the opening and had to choose whether to take it.
+
+**Visual coordination from approved page brief:** - **Shot:** ball arc above course, four equine legs in midground, fused right-arm driver clearly visible.
+
+**Editorial checks:** No fabricated NFL player presence in the fictional world. Stats are causality, not the main story. Character/Atlas continuity and real reference-conditioned render QA required. Independent Beat Writer, Author Council, Librarian, Visual Lead and Umpire acceptance remains outstanding.

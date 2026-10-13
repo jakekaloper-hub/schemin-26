@@ -32,3 +32,18 @@ This single amendment pointer supersedes duplicate prior personalized scene note
 ## Integrated narrative-to-visual acceptance — Commissioner lock
 
 This page is subject to the binding four-strand narrative quality lock in `memo-os/week-5/MASTER_PRODUCTION_PACKET.md`: Atlas/world continuity; character-owned POV and agency; selective source-verified sports facts as causal support (not a statistical recap); and exact synchronization of prose with this page's specified image shot, atmosphere, foreground/background, and handoff. Before page lock, record POV, emotional objective, visual anchors, sports source receipt, causal beat, prose/image complement, next-page transition, and unresolved fact/character-render gates. **Editorial and independent Umpire acceptance remain unverified.**
+
+
+## Integrated full-page narrative manuscript — editorial candidate 2026-10-13
+
+**Editorial state:** Complete proposed copy for this source page; not independently approved or release eligible. ESPN winner is still `UNDECIDED`; winner-POV selection and any payoff are explicitly provisional. Author-consultant lenses used as editing criteria (Martin: material stakes/consequence; Le Guin: inhabited place and limited POV; Grisham: intelligible contest and causal pressure), **not** claims that those authors or an authenticated Bullpen Director reviewed this copy.
+
+**Narrative copy:**
+
+El Niño came down the street beneath a gathering storm and struck the edge of the enormous cooking tub. It overturned. Chili spread across the boards and into the dust in a red wave. The stranger looked down, shrugged, and said, “Wasn't that spicy anyway.”
+
+In the near ground, the ordinary objects made the approaching conflict harder to dismiss. Beyond them stood El Niño, whose presence changed the meaning of every familiar path. The Chili Outlaw could see the immediate obstacle but not yet the cost of overcoming it. The storm front pressing against his town gave the other side a reason to stand firm. The world did not arrange itself into heroes and villains on command; it remained a place with people who would have to live with whatever followed.
+
+**Visual coordination from approved page brief:** - **Shot:** freeze-frame low three-quarter angle of tub tipping; foreground vivid chili splashing across cobbles; middle ground El Niño dismissive gesture, Chili Outlaw and startled Dark Horse; background town façades and storm shelf. Separate dialogue as deterministic text, not baked into art.
+
+**Editorial checks:** No fabricated NFL player presence in the fictional world. Stats are causality, not the main story. Character/Atlas continuity and real reference-conditioned render QA required. Independent Beat Writer, Author Council, Librarian, Visual Lead and Umpire acceptance remains outstanding.

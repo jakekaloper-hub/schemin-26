@@ -32,3 +32,18 @@ This single amendment pointer supersedes duplicate prior personalized scene note
 ## Integrated narrative-to-visual acceptance — Commissioner lock
 
 This page is subject to the binding four-strand narrative quality lock in `memo-os/week-5/MASTER_PRODUCTION_PACKET.md`: Atlas/world continuity; character-owned POV and agency; selective source-verified sports facts as causal support (not a statistical recap); and exact synchronization of prose with this page's specified image shot, atmosphere, foreground/background, and handoff. Before page lock, record POV, emotional objective, visual anchors, sports source receipt, causal beat, prose/image complement, next-page transition, and unresolved fact/character-render gates. **Editorial and independent Umpire acceptance remain unverified.**
+
+
+## Integrated full-page narrative manuscript — editorial candidate 2026-10-13
+
+**Editorial state:** Complete proposed copy for this source page; not independently approved or release eligible. ESPN winner is still `UNDECIDED`; winner-POV selection and any payoff are explicitly provisional. Author-consultant lenses used as editing criteria (Martin: material stakes/consequence; Le Guin: inhabited place and limited POV; Grisham: intelligible contest and causal pressure), **not** claims that those authors or an authenticated Bullpen Director reviewed this copy.
+
+**Narrative copy:**
+
+Pieces struck like falling buildings. A stone knight broke the line; a rook answered with the weight of a collapsing wall. Every apparent advantage opened another corridor. Three Dreaded Snake watched the center, then the flank, then the gap between them, each head reaching a different conclusion as the Belt Keeper tightened the board.
+
+The pressure became measurable without becoming a ledger. In the real football week, Jaxon Smith-Njigba's 102 receiving yards and touchdown, and Jameson Williams' two touchdown catches had supplied the momentum now translated into this confrontation. Here those events did not summon NFL players onto the scene; they changed the force behind The Belt Keeper's next decision. The camera's foreground held the tangible damage or resistance, the middle distance the two owners, and the far ground the route that might still offer escape. The Belt Keeper saw the opening and had to choose whether to take it.
+
+**Visual coordination from approved page brief:** - **Shot:** low diagonal tracking composition; foreground shattered knight; middle ground opposing pieces converging; background exposed central king; deep hard-edged shadows; do not treat weekly player points as actual NFL play chronology. - **Continuity:** protect the actual owner identity and no copied film iconography.
+
+**Editorial checks:** No fabricated NFL player presence in the fictional world. Stats are causality, not the main story. Character/Atlas continuity and real reference-conditioned render QA required. Independent Beat Writer, Author Council, Librarian, Visual Lead and Umpire acceptance remains outstanding.
