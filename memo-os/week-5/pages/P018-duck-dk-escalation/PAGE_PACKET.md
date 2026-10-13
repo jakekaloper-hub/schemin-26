@@ -1,6 +1,6 @@
 # Week 5 P018 — Duckhook vs DK — Escalation
 
-**Status:** PLANNED / NOT RENDER ELIGIBLE / NOT FINAL PRODUCTION AUTHORITY
+**Status:** CONTRACTED_PARTIAL / NOT READY_FOR_RENDER; manifest state reconciled on 2026-10-13, source and generator staging prepared but reference mount and release gates still HOLD.
 **Source:** `memo-os/week-5/PUBLICATION_PAGE_MANIFEST.json`; canonical `memo-os/PAGE_PRODUCTION_CONTRACT_V1.md`.
 **Previous:** P017; **Next:** P019.
 
