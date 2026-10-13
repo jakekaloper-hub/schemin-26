@@ -13,11 +13,19 @@ primary:
   expected_repository_path: "canon/characters/assets/CHAR-AUSTIN-BYARS/primary/IMG_2179.jpeg"
   observed_library_size_bytes: 238145
   media_type: "image/jpeg"
-  current_state: "SOURCE_BYTES_REQUIRED"
-  actual_sha256: null
-  git_blob_sha: null
-  repository_byte_size: null
-  fresh_context_fetch: "NOT_PROVEN"
+  current_state: "SOURCE_BYTES_GIT_BRANCH_VERIFIED_PENDING_MAIN_PROMOTION"
+  actual_sha256: "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76"
+  git_blob_sha: "aa7e51ab08a31e6595c9c19d5eab67fb107d8dda"
+  repository_byte_size: 238145
+  fresh_context_fetch: "REQUIRES_CLEAN_MAIN_CLONE_POST_MERGE"
   renderer_mount: "NOT_PROVEN"
 supersession_state: "CURRENT_IDENTITY_AUTHORITY"
 rule: "A Library-visible image or conversation file ID is not a durable renderer mount. Generation remains blocked until exact bytes are repository-addressable, rehashed, mounted, subject-bound, and receipted."
+
+verified_supplementary_references:
+  - role: "FULL_BODY_SILHOUETTE_AND_SWORD"
+    path: "canon/characters/assets/CHAR-AUSTIN-BYARS/supplementary/IMG_2175.jpeg"
+    expected_sha256: "ef5039481c5614de9d3397b738a6ac1243228a5647fbd27b7e5654d417bba93e"
+  - role: "SHADOW_HOOD_RED_EYES"
+    path: "canon/characters/assets/CHAR-AUSTIN-BYARS/supplementary/moonlit_hood.png"
+    expected_sha256: "f3b82d914f489531a7f4ff68a35f6baf570be4abfe1514c0d49b6f0645544c97"
