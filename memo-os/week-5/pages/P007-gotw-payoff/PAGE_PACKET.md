@@ -75,3 +75,15 @@ The broken square smoked beneath the Belt Keeper's feet. He had forced the final
 **Canonical subjects by unique owner reference:** CHAR-AUSTIN-BYARS / BELT_KEEPER_UNDEAD_HUMANOID / SHA-256 eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76; CHAR-PHILLIP-PITTS / THREE_HEADED_SERPENT_HYBRID / SHA-256 31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c Use the owner-specific source pixel reference and exact bound subject, **not just an image prompt describing a human**. This wave must keep three serpent heads on one body and belt on HMB.
 
 **Absolute rejection:** generic wizard; vampire king; missing championship belt; human substitute; one serpent head; three detached snakes. Source SHA-256 by itself is not proof that the image generator received or conditioned on the correct image. Require actual full-resolution pixel inspection, 390px typography, Week 4 comparator and independent Umpire acceptance; otherwise **HOLD**. Original manuscript, scene location and adjacent story causality remain controlling.
+
+## Mandatory payoff results panel — Commissioner 2026-10-13
+
+**Controlling output contract:** Final single-page 1024×1536 integrated PNG with **an illustrated, legible actual RESULTS BANNER inside the image**. This is P007 of 32, not a separate image, combined multi-page montage, or plain concluding story page. The top primary matchup header remains `His Majesty's Blood at Three Dreaded Snake`, scene subtitle as already approved.
+
+**VERIFIED ESPN 2026 Week 5 FINAL (FLAIM 2026-10-13):** His Majesty's Blood **113.45**, post-Week-5 record **3–2**; Three Dreaded Snake **85.34**, post-Week-5 record **2–3**. **Official winner: His Majesty's Blood.** Source is ESPN matchup result `winner=AWAY` and post-Week-5 standings; supersedes `UNDECIDED` legacy text in older partial preflight.
+
+**MANDATORY VISUAL FIELDS:** Two fully recognizable side-by-side portraits from the *actual page owner characters*, not a generic logo, AI-designed substitute or stock portrait; both full canonical team names; both exact two-decimal fantasy scores; both post-week records; winning side clearly indicated. Do not use `SCHEMIN ’26` as giant banner. Score panel must be integrated into the same illustrated world/lighting as other three pages of this matchup, with readable contrast at 390px.
+
+**Acceptance veto:** If either portrait, score, record, winning side, full team name, banner location or image-world consistency is missing, mark page REJECTED. An independent Umpire must inspect actual final pixels, not merely this document. 
+
+**Binding machine data:** `production-evidence/WEEK_5_PAYOFF_RESULT_BANNER_CONTRACT_2026-10-13.json`.
