@@ -40,7 +40,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-Floodlights caught the torn bank as machinery pressed forward. Burrow's four touchdown passes, Washington's two scores and Likely's two had powered The LLC's fantasy surge; Goff's four total touchdowns and LaPorta's scoring catch kept Mud Dogs' resistance real. Mud Dogs fled the falling trees only far enough to draw the machines toward ground too soft to hold them. The LLC's advance slowed, but it did not end.
+Floodlights caught the torn bank as machinery pressed forward. Burrow's four touchdown passes, Washington's two scores and Likely's two had powered David Babb's fantasy surge; Goff's four total touchdowns and LaPorta's scoring catch kept Mud Dogs' resistance real. Mud Dogs fled the falling trees only far enough to draw the machines toward ground too soft to hold them. David Babb's advance slowed, but it did not end.
 
 **Visual coordination from approved page brief:** - **Shot:** over-the-shoulder tracking Mud Dogs retreating toward camera; foreground wet personal belongings; middle ground damaged bank and toppled trees; background towering bulldozers and floodlights; overwhelming scale without reproducing Avatar imagery.
 
