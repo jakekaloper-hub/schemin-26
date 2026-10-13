@@ -87,3 +87,13 @@ At the gouged shoreline, David Babb's victory gave it leverage without a deed to
 **Acceptance veto:** If either portrait, score, record, winning side, full team name, banner location or image-world consistency is missing, mark page REJECTED. An independent Umpire must inspect actual final pixels, not merely this document. The previous P011 candidate omitted its result banner and differed visually from P009–P010; it is rejected. Keep original story art continuity and the LLC *For Da Bears* costume, canonical quadrupedal chain-wearing Mud Dogs beast, and limited-reversible wetland damage.
 
 **Binding machine data:** `production-evidence/WEEK_5_PAYOFF_RESULT_BANNER_CONTRACT_2026-10-13.json`.
+
+## COMMISSIONER PAYOFF RESULT BANNER — OFFICIAL W5 2026-10-13
+
+**SUPERCEDING PAGE RELEASE AUTHORITY** — earlier `UNDECIDED` fantasy winner holds on this page described a pre-final FLAIM snapshot. Connected FLAIM now confirms ESPN W5 winner = The LLC., official final fantasy points and post-Week 5 standings below. **Do not use obsolete placeholder statistics.** This closes sports Fact Lock for this matchup only; character identity/visual and independent Umpire gates remain open.
+
+**Standalone final-page visual contract:** Official Week 4 payoff examples P008, P012, P016, P020, P024, P028. The FINISHED one-page 1024×1536 PNG MUST contain a **high-contrast illustrated lower-third final-result banner** with actual recognizable owner-character face portraits captured **from the same illustration itself**, not generic icon headshots, re-used faces or text-only results. Primary visible story title remains `The LLC. at Mud Dogs`; cinematic after-scene remains above the banner. Do not cover core action or use a three-page triptych.
+
+**VERIFIED RESULT VALUES (visitor/home):** `The LLC. 193.73 (2-3)` vs `Mud Dogs 127.09 (2-3)`. **Winner:** `The LLC.`; victory margin `66.64` fantasy points. Display **both** complete post-W5 records and score to exactly two decimals; show `DEF.` between scores or clear victor arrow/crown. Both owner faces must be legible and anatomically faithful in the bottom strip at 390px.
+
+**Required direct QA:** open final raster and its 390px reduction; verify page size, full matchup title, two correct close-up identity insets, exact authoritative numbers and records, win direction, margin, creative scene continuity and absence of unrelated creatures. Independently record the Umpire verdict. Missing even one field or mismatched portrait means **REJECT / REGENERATE OR RECOMPOSE**, not release. Rendering provenance / independent QA are still NOT PROVEN. Data source: `production-evidence/WEEK_5_SIX_PAYOFF_FINAL_RESULT_BANNER_LOCK_2026-10-13.json`.
