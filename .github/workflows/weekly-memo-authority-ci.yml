@@ -9,7 +9,6 @@ on:
       - 'governance/publication-manifest/**'
       - '.github/workflows/weekly-memo-authority-ci.yml'
   push:
-    branches: [main]
     paths:
       - 'PROJECT_CONTROL_REGISTRY.md'
       - 'memo-os/**'
