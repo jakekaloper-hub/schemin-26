@@ -62,6 +62,37 @@ def test_pitty_deferred_cover_locked_and_owner_conditioning_honest():
     assert asset["renderer_mount_state"] == "NOT_PROVEN"
     assert asset["subject_binding_state"] == "NOT_PROVEN"
 
+
+def test_every_png_has_specific_week4_visual_comparison():
+    p = WEEK5 / "production-evidence" / "WEEK_5_PAGE_BY_PAGE_WEEK4_VISUAL_COMPARATOR_MATRIX_2026-10-13.json"
+    ref = json.loads(p.read_text(encoding="utf-8"))
+    assert ref["source_pdf"]["page_count"] == 33
+    assert ref["source_pdf"]["each_page_px"] == [1024, 1536]
+    assert ref["target"]["format"] == "PNG"
+    assert ref["target"]["pdf_assembler"] == "Commissioner"
+    pages = ref["pages"]
+    manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))["pages"]
+    assert len(pages) == len(manifest) == 32
+    assert [x["source_page_id"] for x in pages] == [x["page_id"] for x in manifest]
+    assert [x["expected_png"] for x in pages] == [x["expected_flattened_png"] for x in manifest]
+    for row in pages:
+        assert row["week4_reference_pages"], row["source_page_id"]
+        assert all(1 <= i <= 33 for i in row["week4_reference_pages"])
+        assert row["review_focus"].strip()
+    assert pages[0]["week4_reference_pages"] == [1]
+    assert 2 in pages[1]["week4_reference_pages"]
+    assert 30 in pages[27]["week4_reference_pages"]
+    assert 31 in pages[29]["week4_reference_pages"]
+    assert 33 in pages[31]["week4_reference_pages"]
+
+
+def test_fidelity_scores_never_override_character_identity_gate():
+    ref = json.loads((WEEK5 / "production-evidence" / "WEEK_5_PAGE_BY_PAGE_WEEK4_VISUAL_COMPARATOR_MATRIX_2026-10-13.json").read_text(encoding="utf-8"))
+    assert len(ref["review"]["mandatory_dimensions"]) == 6
+    assert "identity/canon" in ref["review"]["art_acceptance"]
+    assert ref["proof_status"]["page"] == "P002"
+    assert ref["proof_status"]["state"] == "FAILED_W4_FIDELITY"
+
 if __name__ == "__main__":
     checks = [v for name, v in sorted(globals().items()) if name.startswith("test_") and callable(v)]
     for check in checks:
