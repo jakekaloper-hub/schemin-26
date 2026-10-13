@@ -39,7 +39,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-Red Leopards waited beneath the banners of his home ground, armor bright against the broken walls. The crowd could see both entrances across the lists. ObiWan looked at the narrow run between the barriers and understood that the host knew every uneven stone. His dog settled behind the safety line as the first challenge was called.
+Red Leopards waited beneath the banners of his home ground, armor bright against the broken walls. The crowd could see both entrances across the lists. Jake Kaloper looked at the narrow run between the barriers and understood that the host knew every uneven stone. His dog settled behind the safety line as the first challenge was called.
 
 **Visual coordination from approved page brief:** - **Shot:** panoramic split entrance; foreground unfurling absurdly long scroll; middle ground Jake Kaloper mounted at one gate, Kevin Zeek at other; background packed grandstands with stomping/clapping motion; kinetic sporting energy as original homage to *A Knight's Tale*, NO film lyrics/dialogue or exact scene duplication.
 
