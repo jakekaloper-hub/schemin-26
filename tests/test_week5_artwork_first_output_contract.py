@@ -223,6 +223,54 @@ def test_p011_bad_candidate_stays_rejected_until_actual_banner_is_seen():
     assert p["payoff_result_banner"]["away_record"] == "2–3"
     assert p["payoff_result_banner"]["home_record"] == "2–3"
 
+
+def test_six_payoffs_have_source_decided_result_banner_contract():
+    m = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    src = WEEK5 / "production-evidence/WEEK_5_SIX_PAYOFF_FINAL_RESULT_BANNER_LOCK_2026-10-13.json"
+    d = json.loads(src.read_text(encoding="utf-8"))
+    required = ["P007","P011","P015","P019","P023","P027"]
+    assert d["banner_mandatory_for"] == required
+    assert [r["page_id"] for r in d["pages"]] == required
+    assert d["readability_px"] == 390
+    for r in d["pages"]:
+        p = next(x for x in m["pages"] if x["page_id"] == r["page_id"])
+        assert p["payoff_final_result_banner_required"] is True
+        assert p["verified_week5_winner"] == r["winner"]
+        assert p["banner_owner_portraits_required"] == "TWO_FACE_CROPS_FROM_SAME_PAGE_IMAGE"
+        assert p["banner_390px_qa_required"] is True
+        assert p["verified_completed_w5_record"]["home"] == r["home"]["record_after_w5"]
+        assert p["verified_completed_w5_record"]["away"] == r["away"]["record_after_w5"]
+        assert p["verified_week5_score"]["home"] == r["home"]["score"]
+        assert p["verified_week5_score"]["away"] == r["away"]["score"]
+        assert p["render_eligible"] is False
+
+def test_every_payoff_source_page_contains_actual_result_and_nonstock_face_rule():
+    m = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    d = json.loads((WEEK5/"production-evidence/WEEK_5_SIX_PAYOFF_FINAL_RESULT_BANNER_LOCK_2026-10-13.json").read_text(encoding="utf-8"))
+    for r in d["pages"]:
+        p = next(x for x in m["pages"] if x["page_id"] == r["page_id"])
+        s = (ROOT/p["packet_path"]).read_text(encoding="utf-8")
+        assert s.count("## COMMISSIONER PAYOFF RESULT BANNER — OFFICIAL W5 2026-10-13") == 1
+        assert r["away"]["score"].__class__ in (float,int)
+        assert r["home"]["score"].__class__ in (float,int)
+        for required in (r["away"]["name"], r["home"]["name"], "WINNER", "lower-third", "390px", "portraits"):
+            assert required.lower() in s.lower(), (p["page_id"],required)
+        assert p["image_artifact_status"] != "ACCEPTED_FINAL", p["page_id"]
+
+def test_p011_specific_payoff_correct_result_and_records():
+    d = json.loads((WEEK5/"production-evidence/WEEK_5_SIX_PAYOFF_FINAL_RESULT_BANNER_LOCK_2026-10-13.json").read_text(encoding="utf-8"))
+    p = next(x for x in d["pages"] if x["page_id"] == "P011")
+    assert p["winner"] == "The LLC."
+    assert p["away"]["score"] == 193.73
+    assert p["home"]["score"] == 127.09
+    assert p["away"]["record_after_w5"] == "2-3"
+    assert p["home"]["record_after_w5"] == "2-3"
+    assert p["victory_margin"] == "66.64"
+    assert "actual" in p["portrait_rule"].lower()
+    manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    m = manifest["pages"][10]
+    assert m["image_qa_status"] == "REVISED_CANDIDATE_SELF_INSPECTED_INDEPENDENT_UMPIRE_PENDING"
+
 if __name__ == "__main__":
     checks = [v for name, v in sorted(globals().items()) if name.startswith("test_") and callable(v)]
     for check in checks:
