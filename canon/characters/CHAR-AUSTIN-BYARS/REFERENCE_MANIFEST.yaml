@@ -15,11 +15,11 @@ primary:
   expected_repository_path: "canon/characters/assets/CHAR-AUSTIN-BYARS/primary/IMG_2179.jpeg"
   observed_upload_size_bytes: 238145
   media_type: "image/jpeg"
-  current_state: "SOURCE_BYTES_VERIFIED_IN_CONVERSATION_NOT_REPOSITORY"
-  actual_sha256: null
-  git_blob_sha: null
-  repository_byte_size: null
-  fresh_context_fetch: "NOT_PROVEN"
+  current_state: "SOURCE_BYTES_PRESENT_HASH_VERIFIED_LOCAL_BRANCH"
+  actual_sha256: "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76"
+  git_blob_sha: "aa7e51ab08a31e6595c9c19d5eab67fb107d8dda"
+  repository_byte_size: 238145
+  fresh_context_fetch: "PENDING_CLEAN_CHECKOUT_VALIDATION"
   renderer_mount: "NOT_PROVEN"
 supplementary:
   - role: "FULL_BODY_SILHOUETTE_AND_SWORD"
@@ -28,7 +28,7 @@ supplementary:
     expected_sha256: "ef5039481c5614de9d3397b738a6ac1243228a5647fbd27b7e5654d417bba93e"
     observed_upload_size_bytes: 25733
     expected_repository_path: "canon/characters/assets/CHAR-AUSTIN-BYARS/supplementary/IMG_2175.jpeg"
-    git_blob_sha: null
+    git_blob_sha: "7696aec29f621c09ae189f5c1b88072122f45c7b"
     renderer_mount: "NOT_PROVEN"
   - role: "SHADOW_HOOD_RED_EYES"
     source_filename: "Screenshot 2026-10-12 at 19.58.23.png"
@@ -36,7 +36,7 @@ supplementary:
     expected_sha256: "f3b82d914f489531a7f4ff68a35f6baf570be4abfe1514c0d49b6f0645544c97"
     observed_upload_size_bytes: 817447
     expected_repository_path: "canon/characters/assets/CHAR-AUSTIN-BYARS/supplementary/moonlit_hood.png"
-    git_blob_sha: null
+    git_blob_sha: "b7979f0d1da71552e489229055d8d94abb7652c7"
     renderer_mount: "NOT_PROVEN"
 supersession_state: "CURRENT_IDENTITY_AUTHORITY"
 render_eligibility: "BLOCKED_UNTIL_REPOSITORY_BYTES_AND_REAL_RENDERER_MOUNT_PROVEN"
