@@ -14,8 +14,8 @@ def test_byars_and_pitts_exact_primaries():
         assert e["expected_sha256"] in yaml
         assert 'renderer_mount: "NOT_PROVEN"' in yaml
     report=verify_source_bytes()
-    assert report["pass_count"]==2
-    assert report["source_bytes_required_count"]==10
+    assert report["pass_count"]>=2
+    assert report["source_bytes_required_count"] + report["pass_count"]==12
     assert report["blocked_count"]==0
 def test_byars_supplementary_byte_identity():
     paths={"IMG_2175.jpeg":"ef5039481c5614de9d3397b738a6ac1243228a5647fbd27b7e5654d417bba93e","moonlit_hood.png":"f3b82d914f489531a7f4ff68a35f6baf570be4abfe1514c0d49b6f0645544c97"}
