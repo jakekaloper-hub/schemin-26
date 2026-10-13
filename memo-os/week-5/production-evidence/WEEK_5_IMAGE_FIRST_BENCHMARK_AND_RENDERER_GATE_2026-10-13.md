@@ -25,3 +25,7 @@ Read-only alternate provider discovery was completed without credit spending. Th
 **Gate summary:** WEEK4_BENCHMARK_VERIFIED = PASS; ARTWORK_FIRST_PRODUCTION_CONTRACT = IMPLEMENTED; PER_PNG_METADATA_CONTRACT = IMPLEMENTED; P002_ARTWORK_RENDER = **BLOCKED_NO_IMAGE_TARGET**; RAW_OWNER_SOURCE_HASHES = PASS; PROVIDER_MOUNT_AND_SUBJECT_BINDING = **NOT VERIFIED**; P001_FINAL_RENDER = HOLD; P030_DATA = DEFERRED; INDEPENDENT_UMPIRE = NOT VERIFIED; RELEASE = HOLD.
 
 **Director evidence:** domain responsibilities specified, no live authenticated Bullpen Director/Author Council/Umpire conference obtained. Do not manufacture endorsements.
+
+## Subsequent procedural PNG-only layout experiment — 2026-10-13
+
+After the native-renderer failure described above, a **procedural original atmosphere PNG layout test** was constructed independently in the current session. This is **not** evidence that native image generation has begun working. Its 1024×1536 PNG, 390px preview and real Week 4 P2 side-by-side audit exist as user-visible session artifacts, with precise SHA-256 and quality-rejection evidence committed to `WEEK_5_P002_PNG_LAYOUT_FIDELITY_REJECTION_2026-10-13.md`. It *fails cinematic visual fidelity* and is not a candidate final memo page. The prior statement "no image generated" was correct for the attempted native image generator; the later non-image-model procedural PNG layout experiment is a separate step. 
