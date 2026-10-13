@@ -15,7 +15,7 @@
 - **Premise:** David vs Goliath.
 - **Reader job:** establish the eventual verified winner's private motivation and ordinary world before confrontation, without telegraphing the outcome.
 - **Canon constraints:** Duckhook David; DK enormous ONE Arsenal Gorilla Centaur with FOUR equine legs; golf ball/club as sling/stone, NOT extended golf routine.
-- **Current ESPN evidence:** Duckhook 184.91 / DK 119.34 provisional; not final or certified.
+- **Current ESPN evidence:** Dr. Duckhook 184.91 / D0nkey K0ng 141.44 provisional (FLAIM 2026-10-13); not final or certified.
 - **Final winner POV manuscript:** **PENDING Fact Lock**. No fabricated prose is authorized. Preserve both POV possibilities.
 
 ## Visual and typography
