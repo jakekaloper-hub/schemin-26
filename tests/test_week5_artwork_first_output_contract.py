@@ -183,6 +183,46 @@ def test_commissioner_rejection_is_binding_and_not_promoted():
     assert "FATAL HEADER HIERARCHY" in report
     assert "462e5d6517b5653458c8d32c20692e94d037b134de7aac18325c1af41647eefc" in report
 
+
+def test_all_six_finale_pages_require_illustrated_verified_result_banner():
+    m = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    c = json.loads((WEEK5 / "production-evidence" / "WEEK_5_PAYOFF_RESULT_BANNER_CONTRACT_2026-10-13.json").read_text(encoding="utf-8"))
+    expected = ["P007", "P011", "P015", "P019", "P023", "P027"]
+    assert [x["page_id"] for x in c["result_pages"]] == expected
+    assert [p["page_id"] for p in m["pages"] if "payoff_result_banner" in p] == expected
+    for x in c["result_pages"]:
+        p = next(p for p in m["pages"] if p["page_id"] == x["page_id"])
+        b = p["payoff_result_banner"]
+        assert b["required"] is True
+        assert b["character_portraits_required"] == 2
+        assert b["visible_pixel_qa"] == "NOT_YET_PASSED"
+        assert x["result_status"] == "DECIDED"
+        assert x["winner_side"] in ("home", "away")
+        assert x["winner_team"] == x[x["winner_side"]]["team"]
+        assert x["away"]["points"] != x["home"]["points"]
+        for side in ["home", "away"]:
+            assert isinstance(x[side]["points"], (int, float))
+            assert len(x[side]["post_week_5_record"].split("–")) == 2
+        packet = (ROOT / p["packet_path"]).read_text(encoding="utf-8")
+        assert packet.count("## Mandatory payoff results panel — Commissioner 2026-10-13") == 1
+        assert "Two fully recognizable side-by-side portraits" in packet
+        assert x["winner_team"] in packet
+        assert f'{x["away"]["points"]:.2f}' in packet
+        assert f'{x["home"]["points"]:.2f}' in packet
+
+def test_p011_bad_candidate_stays_rejected_until_actual_banner_is_seen():
+    m = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    p = m["pages"][10]
+    assert p["page_id"] == "P011"
+    assert p["image_qa_status"] == "REJECTED_LAYOUT_AND_RESULT_PANEL"
+    assert p["image_artifact_status"] == "REJECTED_PAYOFF_MISSING_RESULT_BANNER"
+    assert p["render_eligible"] is False
+    assert p["payoff_result_banner"]["winner"] == "The LLC."
+    assert p["payoff_result_banner"]["away_score"] == 193.73
+    assert p["payoff_result_banner"]["home_score"] == 127.09
+    assert p["payoff_result_banner"]["away_record"] == "2–3"
+    assert p["payoff_result_banner"]["home_record"] == "2–3"
+
 if __name__ == "__main__":
     checks = [v for name, v in sorted(globals().items()) if name.startswith("test_") and callable(v)]
     for check in checks:
