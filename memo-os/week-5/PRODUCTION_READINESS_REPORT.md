@@ -1,6 +1,25 @@
 # Week 5 — Production Readiness / Page Hydration Checkpoint
 
-**Overall: HOLD. No production authorization, Fact Lock, Character Render Lock, independent Umpire approval or merge claim.**
+**Overall: CONTROLLED_PRODUCTION_AUTHORIZED (Commissioner, 2026-10-13) / PUBLICATION HOLD.** Physical PDF proof production is permitted. This does NOT satisfy ESPN Fact Lock, Character Render Lock, 390px mobile typography, independently authenticated Umpire approval, or merge/release.
+
+
+## Active production checkpoint — 2026-10-13 (supersedes older readiness wording below)
+
+**Authority:** Commissioner authorized controlled production in commit `77a997a`. Prior sections below document earlier readiness snapshots and must not be read as rescinding authorization. The 32 source packet manifest remains governing; 21-page compact pagination is a **test only**.
+
+**Real artifacts:** A 21-page experimental complete-issue PDF layout and separate eight-page, two-wave baseline PDF comparison were generated, text-extracted and viewed at 390px. Exact file hashes, sizes, source mapping, evidence and rejection findings: `production-evidence/WEEK_5_CONTROLLED_LAYOUT_PROOF_RECEIPT_2026-10-13.md` (commit `39326ec`). PDF files remain session artifacts, **not GitHub binaries**.
+
+**Mobile finding:** 21-page triptychs use effective 8.1–8.5px body text at 390px, compared with 11.0px in baseline pages. **Compact pagination NOT approved.** Do not override 32-ID manifest.
+
+**Fresh FLAIM:** 2026 Week 5 scores are provisional; all six official ESPN winner fields still `UNDECIDED`. Scoreboard, payoff and standings result promotions stay on hold. Selected transaction data exists, but Pitty receipts and modeled playoff odds are withheld.
+
+**Visual identity:** `canon/characters/renderer_capabilities_v1.json` remains `NO_PRODUCTION_ROUTE_PROVEN`. Visuals in PDF proofs are intentionally abstract, not accepted owner renders. **Character art release HOLD.**
+
+**Authentication:** Connected GitHub and FLAIM used for source reads; no authenticated Bullpen runtime session or independent human Umpire signoff. Simulation is not acceptance.
+
+**Next unblocked work:** improve/recompare legibility, hydrate exact NFL and fantasy fact receipts, resolve all 12 owner image mounts, prepare departments. Preserve the locked LLC–Ditka tribute cover. Release only after independent Umpire, Commissioner pagination gate and all other hard gates.
+
+---
 
 ## Implemented
 - 32/32 indexed page packets present on working branch, each updated with source-derived editorial role, narrative beat, or overture doctrine, explicit provenance and unresolved hard stops.
