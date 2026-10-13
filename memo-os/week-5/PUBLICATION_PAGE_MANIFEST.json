@@ -103,7 +103,19 @@
       "adjacent_next": "P002",
       "expected_flattened_png": "SCHEMIN26_W05_P001_COVER.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "FOR DA BEARS",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "COVER_ONLY_SUBORDINATE_TO_FOR_DA_BEARS",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "raw_sha256": "33e70a9208b47692d9d883707236a2b3a670629e0cb3b3f84c61eacff20fea37",
+          "visual_species": "HUMAN_CORPORATE_RAIDER"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P002",
@@ -118,7 +130,13 @@
       "expected_flattened_png": "SCHEMIN26_W05_P002_OPENING.png",
       "image_artifact_status": "VISUAL_LAYOUT_PROOF_REJECTED_FIDELITY",
       "image_qa_status": "REJECTED_WEEK4_BENCHMARK_FIDELITY",
-      "nonfinal_proof_receipt": "memo-os/week-5/production-evidence/WEEK_5_P002_PNG_LAYOUT_FIDELITY_REJECTION_2026-10-13.md"
+      "nonfinal_proof_receipt": "memo-os/week-5/production-evidence/WEEK_5_P002_PNG_LAYOUT_FIDELITY_REJECTION_2026-10-13.md",
+      "reader_facing_primary_header": "THE LAND REMEMBERS",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P003",
@@ -135,7 +153,13 @@
       ],
       "expected_flattened_png": "SCHEMIN26_W05_P003_SCOREBOARD.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "THE BOARD",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P004",
@@ -149,7 +173,24 @@
       "adjacent_next": "P005",
       "expected_flattened_png": "SCHEMIN26_W05_P004_GOTW_OVERTURE.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "His Majesty's Blood at Three Dreaded Snake",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "raw_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
+          "visual_species": "BELT_KEEPER_UNDEAD_HUMANOID"
+        },
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "raw_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+          "visual_species": "THREE_HEADED_SERPENT_HYBRID"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P005",
@@ -163,7 +204,24 @@
       "adjacent_next": "P006",
       "expected_flattened_png": "SCHEMIN26_W05_P005_GOTW_SETUP.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "His Majesty's Blood at Three Dreaded Snake",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "raw_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
+          "visual_species": "BELT_KEEPER_UNDEAD_HUMANOID"
+        },
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "raw_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+          "visual_species": "THREE_HEADED_SERPENT_HYBRID"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P006",
@@ -177,7 +235,24 @@
       "adjacent_next": "P007",
       "expected_flattened_png": "SCHEMIN26_W05_P006_GOTW_ESCALATION.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "His Majesty's Blood at Three Dreaded Snake",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "raw_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
+          "visual_species": "BELT_KEEPER_UNDEAD_HUMANOID"
+        },
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "raw_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+          "visual_species": "THREE_HEADED_SERPENT_HYBRID"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P007",
@@ -191,7 +266,24 @@
       "adjacent_next": "P008",
       "expected_flattened_png": "SCHEMIN26_W05_P007_GOTW_PAYOFF.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "His Majesty's Blood at Three Dreaded Snake",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "raw_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
+          "visual_species": "BELT_KEEPER_UNDEAD_HUMANOID"
+        },
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "raw_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+          "visual_species": "THREE_HEADED_SERPENT_HYBRID"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P008",
@@ -205,7 +297,25 @@
       "adjacent_next": "P009",
       "expected_flattened_png": "SCHEMIN26_W05_P008_LLC_MUD_OVERTURE.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "The LLC. at Mud Dogs",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "raw_sha256": "33e70a9208b47692d9d883707236a2b3a670629e0cb3b3f84c61eacff20fea37",
+          "visual_species": "HUMAN_CORPORATE_RAIDER"
+        },
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "raw_sha256": "462e5d6517b5653458c8d32c20692e94d037b134de7aac18325c1af41647eefc",
+          "visual_species": "MONSTROUS_QUADRUPED_CANINE"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE",
+      "temporary_costume_continuity": "CHAR-DAVID-BABB: same commissioner-approved P001 FOR DA BEARS costume / face; vary pose. CHAR-BOBBY-MITCHELL: huge chained four-legged feral swamp beast; NEVER HUMAN"
     },
     {
       "page_id": "P009",
@@ -219,7 +329,26 @@
       "adjacent_next": "P010",
       "expected_flattened_png": "SCHEMIN26_W05_P009_LLC_MUD_SETUP.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "The LLC. at Mud Dogs",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "raw_sha256": "33e70a9208b47692d9d883707236a2b3a670629e0cb3b3f84c61eacff20fea37",
+          "visual_species": "HUMAN_CORPORATE_RAIDER"
+        },
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "raw_sha256": "462e5d6517b5653458c8d32c20692e94d037b134de7aac18325c1af41647eefc",
+          "visual_species": "MONSTROUS_QUADRUPED_CANINE"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "REJECTED_BOBBY_SPECIES_AND_MATCHUP_HEADER",
+      "temporary_costume_continuity": "CHAR-DAVID-BABB: same commissioner-approved P001 FOR DA BEARS costume / face; vary pose. CHAR-BOBBY-MITCHELL: huge chained four-legged feral swamp beast; NEVER HUMAN",
+      "secondary_scene_headline": "INDUSTRIAL FORCES ARRIVE"
     },
     {
       "page_id": "P010",
@@ -233,7 +362,26 @@
       "adjacent_next": "P011",
       "expected_flattened_png": "SCHEMIN26_W05_P010_LLC_MUD_ESCALATION.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "The LLC. at Mud Dogs",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "raw_sha256": "33e70a9208b47692d9d883707236a2b3a670629e0cb3b3f84c61eacff20fea37",
+          "visual_species": "HUMAN_CORPORATE_RAIDER"
+        },
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "raw_sha256": "462e5d6517b5653458c8d32c20692e94d037b134de7aac18325c1af41647eefc",
+          "visual_species": "MONSTROUS_QUADRUPED_CANINE"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE",
+      "temporary_costume_continuity": "CHAR-DAVID-BABB: same commissioner-approved P001 FOR DA BEARS costume / face; vary pose. CHAR-BOBBY-MITCHELL: huge chained four-legged feral swamp beast; NEVER HUMAN",
+      "secondary_scene_headline": "DESTRUCTION AND DESPERATE RESISTANCE"
     },
     {
       "page_id": "P011",
@@ -247,7 +395,26 @@
       "adjacent_next": "P012",
       "expected_flattened_png": "SCHEMIN26_W05_P011_LLC_MUD_PAYOFF.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "The LLC. at Mud Dogs",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "raw_sha256": "33e70a9208b47692d9d883707236a2b3a670629e0cb3b3f84c61eacff20fea37",
+          "visual_species": "HUMAN_CORPORATE_RAIDER"
+        },
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "raw_sha256": "462e5d6517b5653458c8d32c20692e94d037b134de7aac18325c1af41647eefc",
+          "visual_species": "MONSTROUS_QUADRUPED_CANINE"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE",
+      "temporary_costume_continuity": "CHAR-DAVID-BABB: same commissioner-approved P001 FOR DA BEARS costume / face; vary pose. CHAR-BOBBY-MITCHELL: huge chained four-legged feral swamp beast; NEVER HUMAN",
+      "secondary_scene_headline": "AFTERMATH AND UNCERTAIN FUTURE"
     },
     {
       "page_id": "P012",
@@ -261,7 +428,24 @@
       "adjacent_next": "P013",
       "expected_flattened_png": "SCHEMIN26_W05_P012_CHILI_NINO_OVERTURE.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "El Niño at Chili Cheesers",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "raw_sha256": "b5b0b10e06cf0598bdc9e3501c170d14529bdb4dee31f8ee3453a40048a6099c",
+          "visual_species": "STORM_ELEMENTAL_HUMANOID"
+        },
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "raw_sha256": "17ee4bcfcd774ac649ca96df01522f16d7c4fd626f9bdd047faefa3a4d381319",
+          "visual_species": "HUMAN_WESTERN_OUTLAW"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P013",
@@ -275,7 +459,24 @@
       "adjacent_next": "P014",
       "expected_flattened_png": "SCHEMIN26_W05_P013_CHILI_NINO_SETUP.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "El Niño at Chili Cheesers",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "raw_sha256": "b5b0b10e06cf0598bdc9e3501c170d14529bdb4dee31f8ee3453a40048a6099c",
+          "visual_species": "STORM_ELEMENTAL_HUMANOID"
+        },
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "raw_sha256": "17ee4bcfcd774ac649ca96df01522f16d7c4fd626f9bdd047faefa3a4d381319",
+          "visual_species": "HUMAN_WESTERN_OUTLAW"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P014",
@@ -289,7 +490,24 @@
       "adjacent_next": "P015",
       "expected_flattened_png": "SCHEMIN26_W05_P014_CHILI_NINO_ESCALATION.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "El Niño at Chili Cheesers",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "raw_sha256": "b5b0b10e06cf0598bdc9e3501c170d14529bdb4dee31f8ee3453a40048a6099c",
+          "visual_species": "STORM_ELEMENTAL_HUMANOID"
+        },
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "raw_sha256": "17ee4bcfcd774ac649ca96df01522f16d7c4fd626f9bdd047faefa3a4d381319",
+          "visual_species": "HUMAN_WESTERN_OUTLAW"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P015",
@@ -303,7 +521,24 @@
       "adjacent_next": "P016",
       "expected_flattened_png": "SCHEMIN26_W05_P015_CHILI_NINO_PAYOFF.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "El Niño at Chili Cheesers",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "raw_sha256": "b5b0b10e06cf0598bdc9e3501c170d14529bdb4dee31f8ee3453a40048a6099c",
+          "visual_species": "STORM_ELEMENTAL_HUMANOID"
+        },
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "raw_sha256": "17ee4bcfcd774ac649ca96df01522f16d7c4fd626f9bdd047faefa3a4d381319",
+          "visual_species": "HUMAN_WESTERN_OUTLAW"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P016",
@@ -317,7 +552,24 @@
       "adjacent_next": "P017",
       "expected_flattened_png": "SCHEMIN26_W05_P016_DUCK_DK_OVERTURE.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "D0nkey K0ng at Dr. Duckhook",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "raw_sha256": "c4ef045845641e6e2067d1ed82be20b9a0fd154c41aff0bfec4c2e36d26d319d",
+          "visual_species": "FOUR_LEGGED_ARSENAL_GORILLA_CENTAUR"
+        },
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "raw_sha256": "5ff6fc4fc0b2f37d76bbab8651400478e37a709418867b0fd111c993762f9eda",
+          "visual_species": "ANTHROPOMORPHIC_DUCK"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P017",
@@ -331,7 +583,24 @@
       "adjacent_next": "P018",
       "expected_flattened_png": "SCHEMIN26_W05_P017_DUCK_DK_SETUP.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "D0nkey K0ng at Dr. Duckhook",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "raw_sha256": "c4ef045845641e6e2067d1ed82be20b9a0fd154c41aff0bfec4c2e36d26d319d",
+          "visual_species": "FOUR_LEGGED_ARSENAL_GORILLA_CENTAUR"
+        },
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "raw_sha256": "5ff6fc4fc0b2f37d76bbab8651400478e37a709418867b0fd111c993762f9eda",
+          "visual_species": "ANTHROPOMORPHIC_DUCK"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P018",
@@ -345,7 +614,24 @@
       "adjacent_next": "P019",
       "expected_flattened_png": "SCHEMIN26_W05_P018_DUCK_DK_ESCALATION.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "D0nkey K0ng at Dr. Duckhook",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "raw_sha256": "c4ef045845641e6e2067d1ed82be20b9a0fd154c41aff0bfec4c2e36d26d319d",
+          "visual_species": "FOUR_LEGGED_ARSENAL_GORILLA_CENTAUR"
+        },
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "raw_sha256": "5ff6fc4fc0b2f37d76bbab8651400478e37a709418867b0fd111c993762f9eda",
+          "visual_species": "ANTHROPOMORPHIC_DUCK"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P019",
@@ -359,7 +645,24 @@
       "adjacent_next": "P020",
       "expected_flattened_png": "SCHEMIN26_W05_P019_DUCK_DK_PAYOFF.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "D0nkey K0ng at Dr. Duckhook",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "raw_sha256": "c4ef045845641e6e2067d1ed82be20b9a0fd154c41aff0bfec4c2e36d26d319d",
+          "visual_species": "FOUR_LEGGED_ARSENAL_GORILLA_CENTAUR"
+        },
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "raw_sha256": "5ff6fc4fc0b2f37d76bbab8651400478e37a709418867b0fd111c993762f9eda",
+          "visual_species": "ANTHROPOMORPHIC_DUCK"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P020",
@@ -373,7 +676,24 @@
       "adjacent_next": "P021",
       "expected_flattened_png": "SCHEMIN26_W05_P020_CHINS_SLOB_OVERTURE.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "Seven Deadly Chins at Slob on my Dobb",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "raw_sha256": "291cdcdb8cb7504f66b556208c774d88dec0979e6fe25c68783b272541c63f70",
+          "visual_species": "HEAVYSET_HUMAN_BRUISER"
+        },
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "raw_sha256": "535d984397cd7aeeda0b83b652d35b4975fd4c0f6c52230174201720ec41a655",
+          "visual_species": "HORNED_FRAT_STAR_BERSERKER"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P021",
@@ -387,7 +707,24 @@
       "adjacent_next": "P022",
       "expected_flattened_png": "SCHEMIN26_W05_P021_CHINS_SLOB_SETUP.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "Seven Deadly Chins at Slob on my Dobb",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "raw_sha256": "291cdcdb8cb7504f66b556208c774d88dec0979e6fe25c68783b272541c63f70",
+          "visual_species": "HEAVYSET_HUMAN_BRUISER"
+        },
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "raw_sha256": "535d984397cd7aeeda0b83b652d35b4975fd4c0f6c52230174201720ec41a655",
+          "visual_species": "HORNED_FRAT_STAR_BERSERKER"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P022",
@@ -401,7 +738,24 @@
       "adjacent_next": "P023",
       "expected_flattened_png": "SCHEMIN26_W05_P022_CHINS_SLOB_ESCALATION.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "Seven Deadly Chins at Slob on my Dobb",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "raw_sha256": "291cdcdb8cb7504f66b556208c774d88dec0979e6fe25c68783b272541c63f70",
+          "visual_species": "HEAVYSET_HUMAN_BRUISER"
+        },
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "raw_sha256": "535d984397cd7aeeda0b83b652d35b4975fd4c0f6c52230174201720ec41a655",
+          "visual_species": "HORNED_FRAT_STAR_BERSERKER"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P023",
@@ -415,7 +769,24 @@
       "adjacent_next": "P024",
       "expected_flattened_png": "SCHEMIN26_W05_P023_CHINS_SLOB_PAYOFF.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "Seven Deadly Chins at Slob on my Dobb",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "raw_sha256": "291cdcdb8cb7504f66b556208c774d88dec0979e6fe25c68783b272541c63f70",
+          "visual_species": "HEAVYSET_HUMAN_BRUISER"
+        },
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "raw_sha256": "535d984397cd7aeeda0b83b652d35b4975fd4c0f6c52230174201720ec41a655",
+          "visual_species": "HORNED_FRAT_STAR_BERSERKER"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P024",
@@ -429,7 +800,24 @@
       "adjacent_next": "P025",
       "expected_flattened_png": "SCHEMIN26_W05_P024_RED_OBI_OVERTURE.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "ObiWan Jacoby at Red Leopards",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "raw_sha256": "cc35af31973f2a35fe0231a269923234185f9908a67545d2b2e1190d052ad9a1",
+          "visual_species": "BLOND_HUMAN_TRADE_JEDI"
+        },
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "raw_sha256": "4752363b8e55dabd530caf74bdeb2da4feaee3870377d96c3c7f5eac7027f32c",
+          "visual_species": "RED_ANTHROPOMORPHIC_LEOPARD"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P025",
@@ -443,7 +831,24 @@
       "adjacent_next": "P026",
       "expected_flattened_png": "SCHEMIN26_W05_P025_RED_OBI_SETUP.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "ObiWan Jacoby at Red Leopards",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "raw_sha256": "cc35af31973f2a35fe0231a269923234185f9908a67545d2b2e1190d052ad9a1",
+          "visual_species": "BLOND_HUMAN_TRADE_JEDI"
+        },
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "raw_sha256": "4752363b8e55dabd530caf74bdeb2da4feaee3870377d96c3c7f5eac7027f32c",
+          "visual_species": "RED_ANTHROPOMORPHIC_LEOPARD"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P026",
@@ -457,7 +862,24 @@
       "adjacent_next": "P027",
       "expected_flattened_png": "SCHEMIN26_W05_P026_RED_OBI_ESCALATION.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "ObiWan Jacoby at Red Leopards",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "raw_sha256": "cc35af31973f2a35fe0231a269923234185f9908a67545d2b2e1190d052ad9a1",
+          "visual_species": "BLOND_HUMAN_TRADE_JEDI"
+        },
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "raw_sha256": "4752363b8e55dabd530caf74bdeb2da4feaee3870377d96c3c7f5eac7027f32c",
+          "visual_species": "RED_ANTHROPOMORPHIC_LEOPARD"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P027",
@@ -471,7 +893,24 @@
       "adjacent_next": "P028",
       "expected_flattened_png": "SCHEMIN26_W05_P027_RED_OBI_PAYOFF.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "ObiWan Jacoby at Red Leopards",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "raw_sha256": "cc35af31973f2a35fe0231a269923234185f9908a67545d2b2e1190d052ad9a1",
+          "visual_species": "BLOND_HUMAN_TRADE_JEDI"
+        },
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "raw_sha256": "4752363b8e55dabd530caf74bdeb2da4feaee3870377d96c3c7f5eac7027f32c",
+          "visual_species": "RED_ANTHROPOMORPHIC_LEOPARD"
+        }
+      ],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P028",
@@ -488,7 +927,13 @@
       ],
       "expected_flattened_png": "SCHEMIN26_W05_P028_POWER_RANKINGS.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "POWER RANKINGS",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P029",
@@ -505,7 +950,13 @@
       ],
       "expected_flattened_png": "SCHEMIN26_W05_P029_STATE_OF_REALM.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "STATE OF THE REALM",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P030",
@@ -522,7 +973,13 @@
       ],
       "expected_flattened_png": "SCHEMIN26_W05_P030_PITTYS_BOOK.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "PITTY'S BOOK",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P031",
@@ -536,7 +993,13 @@
       "adjacent_next": "P032",
       "expected_flattened_png": "SCHEMIN26_W05_P031_WAIVER_TRANSACTIONS.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "WAIVER WIRE & TRANSACTIONS",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     },
     {
       "page_id": "P032",
@@ -553,7 +1016,13 @@
       ],
       "expected_flattened_png": "SCHEMIN26_W05_P032_FINAL_WORD.png",
       "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED"
+      "image_qa_status": "NOT_APPROVED",
+      "reader_facing_primary_header": "THE FINAL WORD",
+      "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
+      "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
+      "required_owner_subjects": [],
+      "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
     }
   ],
   "playoff_intelligence": {
@@ -607,6 +1076,9 @@
     "physical_page_count_policy": "32_SOURCE_PAGES_PROVISIONAL; NO_COMPRESSIVE_LOSS; EXPANSION_REQUIRES_EXPLICIT_APPROVAL",
     "mandatory_gate": "ONE_PAGE_AT_A_TIME_IMAGE_QA_AND_INDEPENDENT_UMPIRE",
     "mobile_review_width_px": 390,
-    "render_state": "ALL_PAGE_FINAL_ART_REQUIRES_VALIDATED_CHARACTER_AND_FACT_GATES"
+    "render_state": "ALL_PAGE_FINAL_ART_REQUIRES_VALIDATED_CHARACTER_AND_FACT_GATES",
+    "primary_title_policy": "ALL_MATCHUP_PAGE_HEADERS = 'AWAY at HOME' FULL TEAM NAMES; editorials use section name; P001 FOR DA BEARS cover exception; NO GIANT REPEATED SCHEMIN26 WORDMARK",
+    "mandatory_species_lock": "RENDERED SUBJECT MUST MATCH OWNER SOURCE'S SPECIES AND TEMPORAL COSTUME; UNSUPPORTED SUBJECT BINDING => HOLD",
+    "reject_example": "P009: human hunter substituted for Bobby Mitchell's nonhuman massive swamp canine; generic Schemin26 headline; REJECTED"
   }
 }
