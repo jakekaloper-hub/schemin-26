@@ -43,7 +43,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-Seven Deadly Chins listened to rain strike the Jeep roof at the edge of the foothills. The road was almost gone beneath the runoff. He had brought a convoy because he trusted machines that could be repaired, and a hammer because he trusted work he could do himself. Somewhere ahead, Slob's camp lights shook in the downpour.
+Seven Deadly Chins listened to rain strike the Jeep roof at the edge of the foothills. The road was almost gone beneath the runoff. He had brought a convoy because he trusted machines that could be repaired, and a hammer because he trusted work he could do himself. Somewhere ahead, Jordan Hollingshead's camp lights shook in the downpour.
 
 **Visual coordination from approved page brief:** - **Image:** prose-first twilight rain, hillside silhouettes, Jeep headlights and spectators; no result cue.
 
