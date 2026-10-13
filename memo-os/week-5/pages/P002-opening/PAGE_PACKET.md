@@ -33,3 +33,7 @@ This P002 must be authored as **one complete 1024×1536 portrait PNG** with atmo
 **Allowed proof:** character-free panoramic environment / editorial-text composition against real Week 4 P2, P4, P9 and P25. Six Atlas venues are distinct; do not falsely depict distant zones as physically adjacent. P002 manuscript is still a copy candidate; proof must be labeled `VISUAL_PROOF_ONLY` pending text and independent QA. Page needs at least one premium photographic-cinematic atmospheric frame with meaningful geography, restrained prose panel in a clear safe zone and consistent Schemin '26 masthead. No fake results, unrelated owner characters or new lore.
 
 **Physical acceptance:** exactly one flattened PNG, 1024×1536, correct file identity `SCHEMIN26_W05_P002_OPENING.png`, verify 390px downscaled readability and character-free imagery. It is not final until an independent Umpire accepts it.
+
+## P002 visual-only PNG proof receipt — 2026-10-13
+
+A genuine **1024×1536 self-contained PNG** was generated as an environment-only `VISUAL_PROOF_ONLY` illustration/typography layout experiment. It is **not** an image-model cinematic illustration, is **not** independently signed off, and **FAILED** the Week 4 P2 visual depth/texture benchmark. The proof is a sandbox attachment, **not a GitHub binary**. Source/audit: `../../production-evidence/WEEK_5_P002_PNG_LAYOUT_FIDELITY_REJECTION_2026-10-13.md`. P002 remains `CONTRACTED_PARTIAL / render_eligible=false`; nothing about its production format reverts to PDF, and no winning outcome has been asserted.
