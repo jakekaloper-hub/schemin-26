@@ -5,6 +5,7 @@ on:
     paths:
       - 'PROJECT_CONTROL_REGISTRY.md'
       - 'memo-os/**'
+      - 'tests/test_week5_raster_acceptance.py'
       - 'governance/publication-manifest/**'
       - '.github/workflows/weekly-memo-authority-ci.yml'
   push:
@@ -32,3 +33,7 @@ jobs:
         run: python tests/test_week5_artwork_first_output_contract.py
       - name: Test Week 5 render gateway rejects unverified requests
         run: python tests/test_week5_production_gateway.py
+      - name: Install raster regression test runner
+        run: python -m pip install pytest
+      - name: Test actual Week 5 post-render PNG rejection cases
+        run: python -m pytest -q tests/test_week5_raster_acceptance.py
