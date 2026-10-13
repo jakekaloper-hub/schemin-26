@@ -44,3 +44,15 @@ Jaylen Warren's rushing and receiving touchdowns gave Seven Deadly Chins the fan
 **Visual coordination from approved page brief:** - **Shot:** dynamic side-tracking Jeep climb; foreground muddy spray; middle ground both vehicles and drivers; background rain-obscured hills; low contrast must not destroy character readability.
 
 **Editorial checks:** No fabricated NFL player presence in the fictional world. Stats are causality, not the main story. Character/Atlas continuity and real reference-conditioned render QA required. Independent Beat Writer, Author Council, Librarian, Visual Lead and Umpire acceptance remains outstanding.
+
+## Page-isolated generator staging — 2026-10-13
+
+**State:** BRIEF_PREPARED; render_eligible=false pending official fantasy result where needed and exact character source-byte/renderer mount/subject binding. Process **only source P022**, with independent render and acceptance receipt.
+
+**Scene:** `LOC-SLOB-FOOTHILL-CAMP`; ESCALATION; Side-tracking Jeep recovery and uphill climb, submerged tow point, spray, mountain terrain. Reuse the exact page manuscript and shot camera from the source above; no isolated sports-poster substitution.
+
+**Conditioned source identities:** `CHAR-JORDAN-HOLLINGSHEAD` (host Slob on my Dobb: horned Frat Star berserker) and `CHAR-BEN-WHIPPLE` (visiting Seven Deadly Chins: hammer/workwear). Fetch the two **distinct** original Commissioner assets indexed in `production-evidence/WEEK_5_CHARACTER_SOURCE_ASSET_RECEIPTS_2026-10-13.json`; record SHA-256, renderer mount and separate owner bindings. Git blob receipts alone do not prove conditioning.
+
+**Execution frame:** portrait 1024×1536 cinematic art master, separate deterministic vector text, genuine two-vehicle race/Jeep recovery, heavy dusk rain; foreground mud, middle-ground drivers, background camp and storm ridges. Art-forward specific action scene with readable owners and both Jeeps. Never swap the Jeeps for 1990s pickups; never invent lasting Atlas storm damage.
+
+**Outcome gate:** Act as a neutral setup/pressure beat; NFL stats require actual source receipts. **Acceptance checklist:** correct two-owner anatomy and assets, stage/weather, FAA/ESPN facts if referenced, identity+name check, no embedded labels, readable full/390px page, independent Umpire signoff. Reject scene-specific failures without stopping other pages.
