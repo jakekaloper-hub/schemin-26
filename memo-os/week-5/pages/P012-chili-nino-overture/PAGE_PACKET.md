@@ -48,3 +48,15 @@ The Chili Outlaw watched the water trough before looking toward the road. His Da
 **Visual coordination from approved page brief:** - **Image:** prose-forward steaming chili tub, host town, Dark Horse, western sun behind incoming dark cloud; no winner cue.
 
 **Editorial checks:** No fabricated NFL player presence in the fictional world. Stats are causality, not the main story. Character/Atlas continuity and real reference-conditioned render QA required. Independent Beat Writer, Author Council, Librarian, Visual Lead and Umpire acceptance remains outstanding.
+
+## Page-isolated generator staging — 2026-10-13
+
+**Mode:** ONE PAGE / ONE RENDER / ONE QA RECEIPT. Source packet `P012`; `OVERTURE`; LOC-CHILI-STABLE. **Status: BRIEF_PREPARED / render_eligible=false** until source-byte and renderer binding proof plus required Fact Lock. Preserve this packet's integrated candidate manuscript, Commissioner amendment and visual-coordination instructions; do not rewrite the approved premise.
+
+**Owner-specific source references:** `CHAR-BRANDON-PRYOR` (Chili Cheesers); `CHAR-MANNING-WELTY` (El Niño); resolve both from `memo-os/week-5/production-evidence/WEEK_5_CHARACTER_SOURCE_ASSET_RECEIPTS_2026-10-13.json`. These Git blob receipts confirm source identity on disk, **not** provider attachment, raw SHA-256 or subject-binding. Mount both distinct originals and record original byte hashes and conditioned subject IDs before any canonical render.
+
+**Shot to execute (only after gate):** Quiet Chili Outlaw stirring a giant chili pot near the stable; Dark Horse notices the incoming storm before the owner does. Use this packet's existing precise foreground/midground/background, weather and continuity notes as the controlling shot specification. Composition: 1024×1536 portrait art master with separately composited legible vector text in the PDF; do not bake copy, labels, score, names or NFL players into generated art. Dedicated prose-forward overture: approximately 65–75% editorial copy and 25–35% atmospheric art, with **no winner spoiler**.
+
+**Absolute rejects:** No sheriff; Chili Outlaw is the host and black horse is The Dark Horse. No owner likeness substituted from text alone; no generic shared 12-owner plate; correct host geography and nonpersistent scene features. Winner-POV selection awaits independently certified fantasy result; no victorious gestures, final-score inserts or result-revealing objects.
+
+**One-page acceptance record required:** (1) latest source/branch/packet SHA; (2) exact reference SHA-256 per owner; (3) renderer mounted-byte receipt and each subject binding; (4) verified winning POV/result branch or neutralized scene; (5) Atlas and art/text complementarity inspection; (6) name canon scan of deterministic typography; (7) full-resolution and 390px crop/overflow inspection; (8) independently recorded Umpire verdict. A failed test rejects only this page. **No image, Page Lock, or issue publication is asserted by this staged prompt.**
