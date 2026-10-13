@@ -38,7 +38,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-Duckhook studied the practice green while the clubhouse was still quiet. His right arm ended in the driver he could never set down. Across the course, the Arsenal centaur's four iron-shod hooves made the distant figure look larger than the trees. Duckhook knew every bunker; he did not yet know whether that knowledge would matter.
+Dr. Duckhook studied the practice green while the clubhouse was still quiet. His right arm ended in the driver he could never set down. Across the course, the Arsenal centaur's four iron-shod hooves made the distant figure look larger than the trees. Dr. Duckhook knew every bunker; he did not yet know whether that knowledge would matter.
 
 **Visual coordination from approved page brief:** - **Image:** prose-forward dawn at country club; tiny Duckhook facing far-off four-legged centaur; do not spoil result.
 
