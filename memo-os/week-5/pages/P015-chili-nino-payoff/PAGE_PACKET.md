@@ -73,3 +73,15 @@ The thunder passed down the street without taking the town. The Outlaw remained 
 **Physical identity, not team-name guesswork:** CHAR-MANNING-WELTY / STORM_ELEMENTAL_HUMANOID / SHA-256 b5b0b10e06cf0598bdc9e3501c170d14529bdb4dee31f8ee3453a40048a6099c; CHAR-BRANDON-PRYOR / HUMAN_WESTERN_OUTLAW / SHA-256 17ee4bcfcd774ac649ca96df01522f16d7c4fd626f9bdd047faefa3a4d381319. 
 
 **Absolute visual rejects:** sheriff; normal human; surfer; sheriff character; generic chili mascot; horse missing or wrong color when shown. Confirm canonical original mounted as each distinct subject, compare actual generated pixels with original subject, inspect 390px title legibility, Atlas continuity and page-to-page costume, and obtain independent Umpire acceptance. A renderer missing conditioning proof may run an explicitly failed experiment but MUST NOT produce an accepted page. **P009 original art was REJECTED** for human hunter substitution plus bad title; `WEEK_5_P009_REJECTION_AND_32_PAGE_RENDER_CORRECTION_2026-10-13.md` is the receipt. No manuscript rewrites and no final winner declarations without Fact Lock.
+
+## Mandatory payoff results panel — Commissioner 2026-10-13
+
+**Controlling output contract:** Final single-page 1024×1536 integrated PNG with **an illustrated, legible actual RESULTS BANNER inside the image**. This is P015 of 32, not a separate image, combined multi-page montage, or plain concluding story page. The top primary matchup header remains `El Niño at Chili Cheesers`, scene subtitle as already approved.
+
+**VERIFIED ESPN 2026 Week 5 FINAL (FLAIM 2026-10-13):** El Niño **156.70**, post-Week-5 record **2–3**; Chili Cheesers **183.53**, post-Week-5 record **3–2**. **Official winner: Chili Cheesers.** Source is ESPN matchup result `winner=HOME` and post-Week-5 standings; supersedes `UNDECIDED` legacy text in older partial preflight.
+
+**MANDATORY VISUAL FIELDS:** Two fully recognizable side-by-side portraits from the *actual page owner characters*, not a generic logo, AI-designed substitute or stock portrait; both full canonical team names; both exact two-decimal fantasy scores; both post-week records; winning side clearly indicated. Do not use `SCHEMIN ’26` as giant banner. Score panel must be integrated into the same illustrated world/lighting as other three pages of this matchup, with readable contrast at 390px.
+
+**Acceptance veto:** If either portrait, score, record, winning side, full team name, banner location or image-world consistency is missing, mark page REJECTED. An independent Umpire must inspect actual final pixels, not merely this document. 
+
+**Binding machine data:** `production-evidence/WEEK_5_PAYOFF_RESULT_BANNER_CONTRACT_2026-10-13.json`.
