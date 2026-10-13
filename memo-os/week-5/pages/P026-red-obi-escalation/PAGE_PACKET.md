@@ -27,3 +27,7 @@ Final verified winner and ESPN fact receipts; complete approved manuscript; exac
 **Controlling approval:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`.
 **Page-specific editorial draft and cinematic composition:** `memo-os/week-5/WEEK_5_PERSONALIZATION_EDITORIAL_AND_SHOT_EXECUTION_2026-10-12.md`, section `P026`.
 This single amendment pointer supersedes duplicate prior personalized scene notes on this page; pre-existing story, Atlas venue, host identity, character source requirements, and outcome-dependent gates remain unchanged. **Copy is a draft, not accepted final manuscript.** Fantasy winner, exact character image bytes and mounted bindings, typography/mobile tests and independent Umpire approval are still required. **CONTRACTED_PARTIAL / render_eligible=false.**
+
+## Integrated narrative-to-visual acceptance — Commissioner lock
+
+This page is subject to the binding four-strand narrative quality lock in `memo-os/week-5/MASTER_PRODUCTION_PACKET.md`: Atlas/world continuity; character-owned POV and agency; selective source-verified sports facts as causal support (not a statistical recap); and exact synchronization of prose with this page's specified image shot, atmosphere, foreground/background, and handoff. Before page lock, record POV, emotional objective, visual anchors, sports source receipt, causal beat, prose/image complement, next-page transition, and unresolved fact/character-render gates. **Editorial and independent Umpire acceptance remain unverified.**

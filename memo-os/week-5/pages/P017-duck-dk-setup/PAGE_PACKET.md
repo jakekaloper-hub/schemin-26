@@ -23,3 +23,7 @@
 - Manuscript: approved final reader-facing copy **NOT LOCATED IN THIS PAGE CONTRACT**; original beat description above is not a manuscript.
 - QA: exact character source binding, Atlas time-state, world mutation review, visual complementarity, typography/phone proof, independent Umpire.
 - **STOP** if any dependency unresolved. Do not promote to READY_FOR_RENDER.
+
+## Integrated narrative-to-visual acceptance — Commissioner lock
+
+This page is subject to the binding four-strand narrative quality lock in `memo-os/week-5/MASTER_PRODUCTION_PACKET.md`: Atlas/world continuity; character-owned POV and agency; selective source-verified sports facts as causal support (not a statistical recap); and exact synchronization of prose with this page's specified image shot, atmosphere, foreground/background, and handoff. Before page lock, record POV, emotional objective, visual anchors, sports source receipt, causal beat, prose/image complement, next-page transition, and unresolved fact/character-render gates. **Editorial and independent Umpire acceptance remain unverified.**

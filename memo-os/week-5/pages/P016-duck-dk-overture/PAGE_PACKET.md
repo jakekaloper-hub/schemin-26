@@ -26,3 +26,7 @@
 
 ## QA and stop rules
 Required: certified winning team; complete winner POV copy; reference binding proof; Atlas/temporal continuity; shot and copy budget; phone-scale test; independent Umpire. **HOLD** until resolved. Previous P015; next P017.
+
+## Integrated narrative-to-visual acceptance — Commissioner lock
+
+This page is subject to the binding four-strand narrative quality lock in `memo-os/week-5/MASTER_PRODUCTION_PACKET.md`: Atlas/world continuity; character-owned POV and agency; selective source-verified sports facts as causal support (not a statistical recap); and exact synchronization of prose with this page's specified image shot, atmosphere, foreground/background, and handoff. Before page lock, record POV, emotional objective, visual anchors, sports source receipt, causal beat, prose/image complement, next-page transition, and unresolved fact/character-render gates. **Editorial and independent Umpire acceptance remain unverified.**
