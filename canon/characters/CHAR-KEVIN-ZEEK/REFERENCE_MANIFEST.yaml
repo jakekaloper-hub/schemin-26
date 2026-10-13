@@ -21,3 +21,11 @@ primary:
   renderer_mount: "NOT_PROVEN"
 supersession_state: "CURRENT"
 rule: "A Library-visible image or conversation file ID is not a durable renderer mount. Generation remains blocked until exact bytes are repository-addressable, rehashed, mounted, subject-bound, and receipted."
+
+supplementary_owner_spotlight_2026_10_13:
+  classification: "SUPPLEMENTARY_APPROVED_POSTER_NOT_PRIMARY"
+  repository_path: "canon/characters/assets/CHAR-KEVIN-ZEEK/supplementary/OWNER_SPOTLIGHT_2026.png"
+  receipt_path: "canon/characters/CHAR-KEVIN-ZEEK/OWNER_SPOTLIGHT_2026_RECEIPT.json"
+  identity_supersession: false
+  current_score_authority: false
+  renderer_gate: "HOLD_UNTIL_PRIMARY_AND_SUBJECT_BINDING_PROVEN"
