@@ -14,7 +14,7 @@
 - **Host:** Slob; **visitor:** Seven Chins; **Atlas venue:** `LOC-SLOB-FOOTHILL-CAMP`.
 - **Premise:** After the Storm.
 - **Reader job:** establish the eventual verified winner's private motivation and ordinary world before confrontation, without telegraphing the outcome.
-- **Canon constraints:** lifted 1990s pickup truck mudding competition, storm-scarred foothill; storm damage world-state not independently confirmed. Slob active alias Frat Star, NOT retired Fart Star.
+- **Canon constraints:** Jeeps mudding competition, storm-scarred foothill; storm damage world-state not independently confirmed. Slob active alias Frat Star, NOT retired Fart Star.
 - **Current ESPN evidence:** Slob 100.20 / Seven Chins 168.76 provisional; not final or certified.
 - **Final winner POV manuscript:** **PENDING Fact Lock**. No fabricated prose is authorized. Preserve both POV possibilities.
 
@@ -27,13 +27,7 @@
 ## QA and stop rules
 Required: certified winning team; complete winner POV copy; reference binding proof; Atlas/temporal continuity; shot and copy budget; phone-scale test; independent Umpire. **HOLD** until resolved. Previous P019; next P021.
 
-## Commissioner personalization amendment — binding production patch
-Heavy rainfall at dusk. Both Seven Deadly Chins and Slob on my Dobb prepare their Jeeps; owner POV chosen after Fact Lock.
-**Authority:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. This overrides conflicting legacy vehicle/entrance/action notes, not canon, results, or physical pagination. Use full canonical team or owner names in all reader-facing copy. Render eligibility HOLD pending manuscript, reference-mount and independent QA.
-
-## Commissioner personalization — overriding scene detail
-Rain at dusk; both owners' Jeeps. Winner POV awaits Fact Lock.
-Authority: `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. No outcome or render lock.
-
-## Scope audit correction — Commissioner rain amendment
-Commissioner approved **heavy rainfall at dusk throughout the sequence**, with low-light headlights, rain-obscured sightlines, reflections, mud and spray. **Preserve the original Jeep mudding concept.** Any previous reference to lifted 1990s pickup trucks was an unapproved invention and is superseded. No additional vehicle specification is authorized. Source: `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. Outcome, image binding and publication QA remain HOLD.
+## Commissioner personalization — reconciled authoritative page instruction
+**Controlling approval:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`.
+**Page-specific editorial draft and cinematic composition:** `memo-os/week-5/WEEK_5_PERSONALIZATION_EDITORIAL_AND_SHOT_EXECUTION_2026-10-12.md`, section `P020`.
+This single amendment pointer supersedes duplicate prior personalized scene notes on this page; the pre-existing story, Atlas venue, host identity, character source requirements, and outcome-dependent gates remain unchanged. For P020–P023: Jeeps remain the established vehicles, heavy rain persists at dusk; pickup-truck substitutions are forbidden. **Copy is a draft, not accepted final manuscript.** The fantasy winner, exact character image bytes and mounted bindings, typography and mobile shell tests, and independent Umpire approval are still required. **CONTRACTED_PARTIAL / render_eligible=false.**
