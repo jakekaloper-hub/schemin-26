@@ -48,3 +48,9 @@
 | NEXT AUTOMATIC ACTION | Preserve original 32-ID manifest; iterate compact typography or choose uncompressed layout as the production-safe fallback, reconcile winner-sensitive prose, verify roster line scores and close source receipts, then perform art binding tests and complete issue assembly |
 
 **No false green.** Proofs are real; release acceptance is not.
+
+## Post-persistence CI / deployment inspection
+
+At commit `c948e04d5e012b92c75bababa7e2e2c00a391334`, seven GitHub Actions jobs completed with success (Week 4 Publication Readiness, Character Lock, Weekly Memo Authority, Repository Merge Gate, Bullpen Runtime, Character Generation Boundary and Cross-Domain Authority). These checks do **not** independently certify the experimental PDF, art mounts, fantasy results or Week 5 release.
+
+The separate Netlify `scheminnovel` PR preview check **failed**. Authenticated Netlify deploy `6acdb37572ee0e568f406096` reports: `Failed during stage 'building site': Deploy directory 'novel/book' does not exist`. It is a distinct novel-site deploy issue, **not evidence of a Week 5 PDF export failure**, but it blocks any claim that every PR status is green. Do not modify Netlify publishing configuration as a side effect of this Memo proof without inspecting the canonical Novel deployment contract.
