@@ -114,7 +114,7 @@ Use **exact character ID** from `canon/characters/NATIVE_RENDER_REFERENCE_BINDIN
 - **Identity IDs:** NONE — avoid full character depictions
 - **World anchor:** Schemin' Atlas overview (sublocations provisional unless independently approved).
 - **Image and composition:** Map with arrows/region motifs and unobstructed record ledger.
-- **Written content:** ObiWan 4–1; five teams at 3–2? exactly Red/HMB/DK/Chili 3–2 (four); all remaining teams 2–3. Interpret parity not clinching.
+- **Written content:** ObiWan 4–1; four teams at 3–2 (Red, HMB, DK, Chili); the other seven teams at 2–3. Interpret parity not clinching.
 - **Deterministic facts / hold:** 12 standings and records, named owners.
 - **QA:** source-handle mount for every principal on art-bearing pages; correct bodies/costumes; data overlaid in post; actual-raster identity and 390px-phone preview required.
 
