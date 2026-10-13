@@ -72,3 +72,11 @@ The older in-progress Puka Nacua receiving total is **superseded** by the Octobe
 **Outcome and data:** No winning rider, unhorsing, victory pose or transfer assigned until verified fantasy finality. Correct Oct 12 Rams–Bills box details: Puka Nacua 17 receptions, 138 receiving yards, one TD; Matthew Stafford 383 passing yards, three TD. Refer to the 2026-10-13 correction receipt on P026/P027.
 
 **Page QA:** reference/hashes, subject anatomy and costume, no ObiWan championship belt, actual source-to-scene complementarity, complete full team names in deterministic typography, final result gate, full-size and 390px inspection, independent Umpire. Until then retain original manifest page state and **no production art acceptance**.
+
+## Commissioner 2026-10-13 hard render correction: species and visible header
+
+**Primary reader-facing headline on this complete individual 1024×1536 PNG: ObiWan Jacoby at Red Leopards.** No large `SCHEMIN ’26` masthead repeated on this page. This is the correct full away-at-home matchup. A cinematic literary scene title is secondary to the matchup identifier. Older PDF layout instructions and loose default branding are superseded by this exact on-image hierarchy.
+
+**Character subject QA:** CHAR-JAKE-KALOPER BLOND_HUMAN_TRADE_JEDI SHA-256 cc35af31973f2a35fe0231a269923234185f9908a67545d2b2e1190d052ad9a1; CHAR-KEVIN-ZEEK RED_ANTHROPOMORPHIC_LEOPARD SHA-256 4752363b8e55dabd530caf74bdeb2da4feaee3870377d96c3c7f5eac7027f32c ObiWan remains a youthful blond Trade Jedi with green blade, golden retriever, **NO BELT**; Red Leopards remains a red rosetted anthropomorphic feline, **NOT HUMAN**. For readable owner inserts and rankings, enforce `canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md` and the 12 actual original SHA-256 receipts, not character IDs alone.
+
+**Release:** independently inspect real full-resolution PNG for correct headline and required subjects, compare 390px, check Week 4 cinematic fidelity, Atlas continuity, manuscript and facts, obtain authenticated Umpire decision. No automatic green state or simulated acceptance.  Existing `render_eligible=false` and provisional winner states remain intact. Contract: `production-evidence/WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json`.
