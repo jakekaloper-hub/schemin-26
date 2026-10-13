@@ -44,7 +44,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-The ball cleared the Arsenal centaur and vanished beyond the final bunker. Duckhook lowered the driver that was part of his body. The giant remained enormous and dignified, four hooves planted in the torn grass, but the smaller figure had won the exchange. The groundskeepers would repair the divots. They would not forget the shot.
+The ball cleared the Arsenal centaur and vanished beyond the final bunker. Dr. Duckhook lowered the driver that was part of his body. The giant remained enormous and dignified, four hooves planted in the torn grass, but the smaller figure had won the exchange. The groundskeepers would repair the divots. They would not forget the shot.
 
 **Visual coordination from approved page brief:** - **Shot:** low-angle ball flight, authentic four-legged Arsenal centaur, Duckhook driver fused to right arm.
 
