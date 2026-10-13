@@ -49,7 +49,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-The final pass broke the last lance. ObiWan lowered his green blade and acknowledged Red Leopards across the shattered lists. His dog ran to meet him once the barriers opened. The tournament structures would come down; the ruins would remain Red territory. He left with a win, not a championship belt.
+The final pass broke the last lance. Jake Kaloper lowered his green blade and acknowledged Red Leopards across the shattered lists. His dog ran to meet him once the barriers opened. The tournament structures would come down; the ruins would remain Red territory. He left with a win, not a championship belt.
 
 **Visual coordination from approved page brief:** - **Shot:** dramatic three-quarter impact, flying lance splinters, both faces recognizable; eventual unhorsing and winner stance **HOLD** pending ESPN Fact Lock. No fake trophy/belt transfer.
 
