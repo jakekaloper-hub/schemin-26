@@ -80,3 +80,15 @@ The older in-progress Puka Nacua receiving total is **superseded** by the Octobe
 **Character subject QA:** CHAR-JAKE-KALOPER BLOND_HUMAN_TRADE_JEDI SHA-256 cc35af31973f2a35fe0231a269923234185f9908a67545d2b2e1190d052ad9a1; CHAR-KEVIN-ZEEK RED_ANTHROPOMORPHIC_LEOPARD SHA-256 4752363b8e55dabd530caf74bdeb2da4feaee3870377d96c3c7f5eac7027f32c ObiWan remains a youthful blond Trade Jedi with green blade, golden retriever, **NO BELT**; Red Leopards remains a red rosetted anthropomorphic feline, **NOT HUMAN**. For readable owner inserts and rankings, enforce `canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md` and the 12 actual original SHA-256 receipts, not character IDs alone.
 
 **Release:** independently inspect real full-resolution PNG for correct headline and required subjects, compare 390px, check Week 4 cinematic fidelity, Atlas continuity, manuscript and facts, obtain authenticated Umpire decision. No automatic green state or simulated acceptance.  Existing `render_eligible=false` and provisional winner states remain intact. Contract: `production-evidence/WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json`.
+
+## Mandatory payoff results panel — Commissioner 2026-10-13
+
+**Controlling output contract:** Final single-page 1024×1536 integrated PNG with **an illustrated, legible actual RESULTS BANNER inside the image**. This is P027 of 32, not a separate image, combined multi-page montage, or plain concluding story page. The top primary matchup header remains `ObiWan Jacoby at Red Leopards`, scene subtitle as already approved.
+
+**VERIFIED ESPN 2026 Week 5 FINAL (FLAIM 2026-10-13):** ObiWan Jacoby **154.42**, post-Week-5 record **4–1**; Red Leopards **110.42**, post-Week-5 record **3–2**. **Official winner: ObiWan Jacoby.** Source is ESPN matchup result `winner=AWAY` and post-Week-5 standings; supersedes `UNDECIDED` legacy text in older partial preflight.
+
+**MANDATORY VISUAL FIELDS:** Two fully recognizable side-by-side portraits from the *actual page owner characters*, not a generic logo, AI-designed substitute or stock portrait; both full canonical team names; both exact two-decimal fantasy scores; both post-week records; winning side clearly indicated. Do not use `SCHEMIN ’26` as giant banner. Score panel must be integrated into the same illustrated world/lighting as other three pages of this matchup, with readable contrast at 390px.
+
+**Acceptance veto:** If either portrait, score, record, winning side, full team name, banner location or image-world consistency is missing, mark page REJECTED. An independent Umpire must inspect actual final pixels, not merely this document. 
+
+**Binding machine data:** `production-evidence/WEEK_5_PAYOFF_RESULT_BANNER_CONTRACT_2026-10-13.json`.
