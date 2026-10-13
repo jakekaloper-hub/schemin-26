@@ -54,3 +54,17 @@
 At commit `c948e04d5e012b92c75bababa7e2e2c00a391334`, seven GitHub Actions jobs completed with success (Week 4 Publication Readiness, Character Lock, Weekly Memo Authority, Repository Merge Gate, Bullpen Runtime, Character Generation Boundary and Cross-Domain Authority). These checks do **not** independently certify the experimental PDF, art mounts, fantasy results or Week 5 release.
 
 The separate Netlify `scheminnovel` PR preview check **failed**. Authenticated Netlify deploy `6acdb37572ee0e568f406096` reports: `Failed during stage 'building site': Deploy directory 'novel/book' does not exist`. It is a distinct novel-site deploy issue, **not evidence of a Week 5 PDF export failure**, but it blocks any claim that every PR status is green. Do not modify Netlify publishing configuration as a side effect of this Memo proof without inspecting the canonical Novel deployment contract.
+
+## Follow-on execution: full 32-source-page physical proof
+
+After the compact-mobile legibility rejection, a third real PDF was generated **without requiring another Commissioner prompt**:
+
+- `SCHEMIN_26_WEEK5_32_SOURCE_PAGE_LAYOUT_PROOF_NONFINAL.pdf` — complete 32-physical-page 1:1 mapping to existing source IDs `P001–P032`, including all 24 existing matchup manuscripts (six overtures, six setups, six escalations, six conditional payoffs) and the five established editorial departments. **No unapproved Week 6 physical insert** in this version.
+- SHA-256: `16df1f52beb78f1340ee6044b147bf9e69fa89e780a2ca2037350937c4c7684a`.
+- 149,703 bytes, 32/32 extractable nonempty PDF pages, approximately 22,278 extracted characters.
+- 32 individual 390px visual previews created and contact-sheet visually inspected. Compared with the compact three-beat pages' ~8.1–8.5px body text at native phone width, the baseline ~17.2pt text scales to about 11.0px.
+- **Assessment:** Source-page baseline is the more readable of the two experimental page budgets. Typography improved without removing the existing 24 story beats. **Neither design is Commissioner-approved final pagination**, and the comparison uses only abstract noncanon panel art. Larger true character illustrations could require additional reflow.
+- **Result/character/cover/book/Umpire holds persist.** Producing a 32-page proof does not promote any source page to `READY_FOR_RENDER`, change the canonical manifest, certify NFL statistics, or greenlight league publication.
+- The PDF and preview PNGs currently remain session artifacts; this report provides cryptographic receipts but is **not** itself a GitHub binary upload or approved reproducible rendering workflow.
+
+**NEXT AUTOMATIC ACTION:** Treat the full 32-page proof as the readability-safe layout reference pending Commissioner pagination lock, and advance the independent fact/identity/visual acceptance gates before substituting finished artwork.
