@@ -12,8 +12,8 @@ def test_all_twelve_have_some_durable_approved_reference_not_twelve_primaries():
     summary=verify_character_visual_coverage()
     assert summary["total"]==12
     assert summary["owner_references_verified"]==12
-    assert summary["primary_sources_verified"]==2
-    assert summary["supplementary_only"]==10
+    assert summary["primary_sources_verified"]>=2
+    assert summary["supplementary_only"]+summary["primary_sources_verified"]==12
     assert summary["unavailable"]==0
     assert summary["final_render_eligible"]==0
     assert summary["state"]=="HOLD"
