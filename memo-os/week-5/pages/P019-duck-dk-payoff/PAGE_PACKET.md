@@ -67,3 +67,15 @@ The ball cleared the Arsenal centaur and vanished beyond the final bunker. Dr. D
 **Exact visual subjects (individual reference images):** CHAR-WILSON-LOOK: FOUR_LEGGED_ARSENAL_GORILLA_CENTAUR; original SHA-256 c4ef045845641e6e2067d1ed82be20b9a0fd154c41aff0bfec4c2e36d26d319d. CHAR-ZACH-WILSON: ANTHROPOMORPHIC_DUCK; original SHA-256 5ff6fc4fc0b2f37d76bbab8651400478e37a709418867b0fd111c993762f9eda. Do not guess species from team name. Enforce the master canonical anatomy and equipment: One black gorilla upper body integrated with one FOUR equine leg lower body, red Arsenal cloth and battle equipment. | White-gray duck face, orange bill, camouflage/floral bucket hat, right arm fused to golf driver..
 
 **Hard reject list:** bipedal gorilla; horse rider; detached horse; human head; human golfer; normal duck; hand holding separate club instead of right arm prosthetic. Before accepting, record original source SHA-256, real image-provider reference conditioning and subject bindings, species/limb/face/costume pixel review, 390px full title/scene copy inspection, Week 4 comparator and independent Umpire verdict. If renderer cannot demonstrate intended owner, keep `HOLD`. Do not revise approved matchup scenes, page manuscripts or result/fact gates. Contract: `production-evidence/WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json`.
+
+## Mandatory payoff results panel — Commissioner 2026-10-13
+
+**Controlling output contract:** Final single-page 1024×1536 integrated PNG with **an illustrated, legible actual RESULTS BANNER inside the image**. This is P019 of 32, not a separate image, combined multi-page montage, or plain concluding story page. The top primary matchup header remains `D0nkey K0ng at Dr. Duckhook`, scene subtitle as already approved.
+
+**VERIFIED ESPN 2026 Week 5 FINAL (FLAIM 2026-10-13):** D0nkey K0ng **141.44**, post-Week-5 record **3–2**; Dr. Duckhook **184.91**, post-Week-5 record **2–3**. **Official winner: Dr. Duckhook.** Source is ESPN matchup result `winner=HOME` and post-Week-5 standings; supersedes `UNDECIDED` legacy text in older partial preflight.
+
+**MANDATORY VISUAL FIELDS:** Two fully recognizable side-by-side portraits from the *actual page owner characters*, not a generic logo, AI-designed substitute or stock portrait; both full canonical team names; both exact two-decimal fantasy scores; both post-week records; winning side clearly indicated. Do not use `SCHEMIN ’26` as giant banner. Score panel must be integrated into the same illustrated world/lighting as other three pages of this matchup, with readable contrast at 390px.
+
+**Acceptance veto:** If either portrait, score, record, winning side, full team name, banner location or image-world consistency is missing, mark page REJECTED. An independent Umpire must inspect actual final pixels, not merely this document. 
+
+**Binding machine data:** `production-evidence/WEEK_5_PAYOFF_RESULT_BANNER_CONTRACT_2026-10-13.json`.
