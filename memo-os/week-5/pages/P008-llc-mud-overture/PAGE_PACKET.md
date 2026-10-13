@@ -43,7 +43,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-The LLC examined the swamp from the causeway before its surveyors arrived. It saw land, access and an improbable development schedule; the old shack beyond the reeds looked like an unresolved entry in a ledger. Water rose against the stakes and made straight lines difficult. For a moment the corporation wondered whether a place could refuse an offer.
+David Babb examined the swamp from the causeway before its surveyors arrived. It saw land, access and an improbable development schedule; the old shack beyond the reeds looked like an unresolved entry in a ledger. Water rose against the stakes and made straight lines difficult. For a moment the corporation wondered whether a place could refuse an offer.
 
 **Visual coordination from approved page brief:** - **Image:** prose-first swamp shack at dawn; close domestic possessions, natural wildlife, distant unseen industrial glow; do not show future outcome.
 
