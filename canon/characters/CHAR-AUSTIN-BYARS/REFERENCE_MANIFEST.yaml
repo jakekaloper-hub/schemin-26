@@ -15,11 +15,11 @@ primary:
   expected_repository_path: "canon/characters/assets/CHAR-AUSTIN-BYARS/primary/IMG_2179.jpeg"
   observed_upload_size_bytes: 238145
   media_type: "image/jpeg"
-  current_state: "SOURCE_BYTES_PRESENT_HASH_VERIFIED_LOCAL_BRANCH"
+  current_state: "SOURCE_BYTES_COMMITTED_REMOTE_PR_BRANCH_VERIFIED"
   actual_sha256: "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76"
   git_blob_sha: "aa7e51ab08a31e6595c9c19d5eab67fb107d8dda"
   repository_byte_size: 238145
-  fresh_context_fetch: "PENDING_CLEAN_CHECKOUT_VALIDATION"
+  fresh_context_fetch: "VERIFIED_REMOTE_CLEAN_CLONE_2026-10-13"
   renderer_mount: "NOT_PROVEN"
 supplementary:
   - role: "FULL_BODY_SILHOUETTE_AND_SWORD"
@@ -39,5 +39,5 @@ supplementary:
     git_blob_sha: "b7979f0d1da71552e489229055d8d94abb7652c7"
     renderer_mount: "NOT_PROVEN"
 supersession_state: "CURRENT_IDENTITY_AUTHORITY"
-render_eligibility: "BLOCKED_UNTIL_REPOSITORY_BYTES_AND_REAL_RENDERER_MOUNT_PROVEN"
+render_eligibility: "BLOCKED_UNTIL_REAL_RENDERER_MOUNT_AND_SUBJECT_BINDING_PROVEN"
 rule: "The Commissioner approved all three images as one identity. Exact source-byte verification in a conversation does NOT establish Git ingestion, renderer attachment, or independent Character QA. No text-only substitute."

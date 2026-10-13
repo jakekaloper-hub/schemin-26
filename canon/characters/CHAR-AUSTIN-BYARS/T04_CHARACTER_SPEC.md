@@ -32,5 +32,5 @@ Resolve owner → active character package → exact primary source bytes → SH
 ## Independent QA acceptance
 Evidence required: OWNER_MATCH, PRIMARY_SHA_MATCH, SOURCE_RETRIEVAL, RENDERER_MOUNT_RECEIPT, SUBJECT_BINDING, HOOD_AND_RED_EYES, BLACK_ENGRAVED_ARMOR, GOLD_ROUND_CHEST_INSIGNIA, SWORD, CLOAK, BELT_OWNERSHIP, NO_CROWN, NO_VAMPIRE, NO_CROSS_CHARACTER_CONTAMINATION, TEAM_RENAME_SAFE. A missing on-frame belt alone is NOT a failure if ownership is maintained. Outcomes: PASS / REGENERATE / HUMAN_REVIEW_REQUIRED. Only PASS permits publication.
 
-## State as of 2026-10-12
-Original and supplementary uploads were SHA-256 verified in the conversation runtime. Repository byte ingestion, real renderer mount, image outputs, independent Umpire acceptance remain NOT PROVEN. No production-lock claim until evidence exists.
+## Production provenance update — 2026-10-13
+All three exact approved source assets are committed to the existing issue #153 GitHub PR branch and recovered from a fresh remote checkout with their approved SHA-256 values and Git blob identities. This proves repository persistence **on the PR branch**, not promotion to main. Real renderer mount, subject-binding proof, final raster and independent Umpire acceptance remain NOT PROVEN. No production-lock claim until evidence exists.

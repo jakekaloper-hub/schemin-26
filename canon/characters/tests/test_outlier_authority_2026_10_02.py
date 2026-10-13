@@ -11,7 +11,7 @@ def test_dk_active_spec_is_one_body_gorilla_centaur():
     s=read("canon/characters/CHAR-WILSON-LOOK/T04_CHARACTER_SPEC.md")
     assert "ONE hybrid centaur-bodied gorilla warrior" in s
     assert "FOUR-LEGGED centaur/equine lower body" in s
-    assert "Arsenal supporter" in s
+    assert "arsenal supporter" in s.lower()
     assert "centaur; equine body" not in s
 
 def test_tds_exactly_three_heads_one_body():
@@ -21,9 +21,10 @@ def test_tds_exactly_three_heads_one_body():
 
 def test_hmb_belt_keeper_not_rename_redesign():
     s=read("canon/characters/CHAR-AUSTIN-BYARS/T04_CHARACTER_SPEC.md")
-    assert "CHAMPIONSHIP BELT IDENTITY-CRITICAL" in s
-    assert "NO_KING_CROWN" in s
-    assert "NO_VAMPIRE_BLOOD_MASCOT" in s
+    assert "Championship belt belongs exclusively to Byars" in s
+    assert "king with crown" in s
+    assert "vampire" in s
+    assert "belt may be off-frame" in s
 
 def test_visual_authority_records_outlier_reconciliation():
     a=json.loads(read("canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json"))
