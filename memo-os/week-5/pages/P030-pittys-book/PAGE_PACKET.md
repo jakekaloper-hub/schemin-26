@@ -34,3 +34,11 @@ Status: **MODEL UNVERIFIED / NO RUN RECEIPT / NO PLAYOFF PERCENTAGES AUTHORIZED*
 ## Latest image-page production override — Commissioner 2026-10-13
 
 P030 requires **one fully illustrated 1024×1536 PNG** with readable integrated Pitty's Book architecture and an actual-verified ledger, not a PDF template. Use real Week 4 P21–P24 hall/receipt cinematic precedent and P31 ledger-design precedent. **PITTY_INPUT_DEFERRED_TO_2026-10-14** until the Commissioner's betting records arrive. Do not invent stakes or outcomes; atmosphere/look development without receipts may be labeled `VISUAL_PROOF_ONLY`. Output when accepted: `SCHEMIN26_W05_P030_PITTYS_BOOK.png`; Commissioner assembles PDF separately.
+
+## Commissioner 2026-10-13 hard render correction: species and visible header
+
+**Primary reader-facing headline on this complete individual 1024×1536 PNG: PITTY'S BOOK.** No large `SCHEMIN ’26` masthead repeated on this page. This is the approved section title; no fictional matchup heading on a standalone editorial page. Older PDF layout instructions and loose default branding are superseded by this exact on-image hierarchy.
+
+**Character subject QA:** No owner-specific figure is mandated by this page's brief. For any owner inset, obtain the correct individual source image, not a generic representative; require species/costume comparison before acceptance.  For readable owner inserts and rankings, enforce `canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md` and the 12 actual original SHA-256 receipts, not character IDs alone.
+
+**Release:** independently inspect real full-resolution PNG for correct headline and required subjects, compare 390px, check Week 4 cinematic fidelity, Atlas continuity, manuscript and facts, obtain authenticated Umpire decision. No automatic green state or simulated acceptance. Pitty ticket/stake/settlement information remains DEFERRED until Commissioner supplies it; no fabricated financial entries. Existing `render_eligible=false` and provisional winner states remain intact. Contract: `production-evidence/WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json`.
