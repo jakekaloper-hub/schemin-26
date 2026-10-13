@@ -47,3 +47,13 @@ The Commissioner did **not** authorize a change from Jeeps to 1990s pickup truck
 
 ## PDF-first publication review checkpoint — 2026-10-12
 **IMPLEMENTED:** cross-domain documentary review and PDF-first target contract persisted in `memo-os/week-5/WEEK_5_PDF_FIRST_CROSS_DOMAIN_REVIEW_2026-10-12.md`, linked from master. Proposed size budget <=25 MB, preferred <=15 MB; final target requires real share-channel verification. **TESTED:** source files reviewed and GitHub write receipts; no PDF assembled, bytes measured, 390px per-page preview rendered or full 32-page acceptance suite run. **AUDITED:** Week 2/3 publication fidelity contract remains quality floor; Week 4 publication receipt was a blocked template; no authentic Director/Author Council/consultant/Umpire ACK claimed. **PROMOTED:** documentation on PR #152 only. **BLOCKED:** final fantasy results, approved manuscripts, exact character source mounts, page renders, PDF build and distribution validation, independent Umpire approval. No HTML substitute permitted as official Week 5 deliverable.
+
+## Commissioner controlled production activation — 2026-10-13
+
+Commissioner authorizes controlled production: reversible layout, typesetting, scoreboard composition and PDF proof assembly. This supersedes the opening historical 'no production authorization' only for proof tasks; all canon-sensitive render_eligible flags remain false until exact owner-reference conditioning and QA. Final publication remains HOLD.
+
+Six provisional points leaders, 24 revised manuscript packets, and a simulated editorial/Umpire review exist. Authenticated approvals are not verified; ESPN winner status last returned UNDECIDED. The LLC–Mike Ditka cover concept remains locked.
+
+Next production lanes: construct a 21-page PROOF shell mapped to all 32 source pages without dropping six winner-POV overtures or any story beats; perform 390px text-overflow QA; verify exact character source hash and actual renderer mount before final owner-character art; integrate rankings, Pitty, waivers and Week 6 with source receipts; render and independently audit final PDF. A proof-only artifact must not be represented as the official Memo.
+
+State: PRODUCTION_AUTHORIZED / CANON_ART_BLOCKED / RESULT_CERTIFICATION_PENDING / PUBLICATION_HOLD.
