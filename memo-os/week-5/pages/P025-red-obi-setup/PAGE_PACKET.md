@@ -44,3 +44,17 @@ Red Leopards waited beneath the banners of his home ground, armor bright against
 **Visual coordination from approved page brief:** - **Shot:** panoramic split entrance; foreground unfurling absurdly long scroll; middle ground Jake Kaloper mounted at one gate, Kevin Zeek at other; background packed grandstands with stomping/clapping motion; kinetic sporting energy as original homage to *A Knight's Tale*, NO film lyrics/dialogue or exact scene duplication.
 
 **Editorial checks:** No fabricated NFL player presence in the fictional world. Stats are causality, not the main story. Character/Atlas continuity and real reference-conditioned render QA required. Independent Beat Writer, Author Council, Librarian, Visual Lead and Umpire acceptance remains outstanding.
+
+## Page-isolated generator staging — 2026-10-13
+
+**State:** BRIEF_PREPARED; render_eligible=false until original subject binding plus page Fact Lock. Execute only `P025` and record its own QA artifact.
+
+**Atlas and shot:** `LOC-RED-RUINS`, SETUP. Wide ceremonial arrivals through two tournament gates; playful herald scroll and crowded grandstands, banners over ruins. Use the approved page manuscript, positional shot specification and Atlas route from `WEEK_5_VERIFIED_ATLAS_ROUTES_AND_CHARACTER_AUDIT_2026-10-12.md`.
+
+**Exact original inputs:** `CHAR-JAKE-KALOPER` (ObiWan Jacoby: blond Trade Jedi, green blade, golden retriever, NO BELT) and `CHAR-KEVIN-ZEEK` (Red Leopards: armored red leopard home defender). Resolve distinct originals from `production-evidence/WEEK_5_CHARACTER_SOURCE_ASSET_RECEIPTS_2026-10-13.json`; record SHA-256, reference mount and subject-binding receipts. Source Git blobs alone are not conditioning proof.
+
+**Composition:** portrait 1024×1536 master, cinematic scale, fixed Red-ruins geography. Art-forward single beat; keep all names and prose separately typeset. The temporary joust must feel inspired by *A Knight's Tale* only at the level of lively herald and crowd energy: no copied dialogue, copyrighted song lyric, exact film image, or character likeness.
+
+**Outcome and data:** NFL references are permitted only with an independently verified real-game source. Do not infer fantasy winner from NFL finality. Correct Oct 12 Rams–Bills box details: Puka Nacua 17 receptions, 138 receiving yards, one TD; Matthew Stafford 383 passing yards, three TD. Refer to the 2026-10-13 correction receipt on P026/P027.
+
+**Page QA:** reference/hashes, subject anatomy and costume, no ObiWan championship belt, actual source-to-scene complementarity, complete full team names in deterministic typography, final result gate, full-size and 390px inspection, independent Umpire. Until then retain original manifest page state and **no production art acceptance**.
