@@ -141,7 +141,10 @@ def inspect_candidate(page_id, png_path, receipt, repo_root, previous_page_diges
             return stop("VERIFIED_RESULT_CONTRACT_MISSING")
         if receipt.get("result_panel_transcription") != expected_panel:
             return stop("RESULT_PANEL_FACT_OR_TYPO_MISMATCH")
-    expected_refs = {r["character_id"]: r["raw_sha256"] for r in title["owner_reference_requirements"]}
+    try:
+        expected_refs = {r["character_id"]: r["raw_sha256"] for r in title["owner_reference_requirements"]}
+    except (KeyError, TypeError, ValueError):
+        return stop("OWNER_REFERENCE_CONTRACT_INVALID")
     refs = receipt.get("reference_mounts")
     if not isinstance(refs, list) or len(refs) != len(expected_refs):
         return stop("ORIGINAL_REFERENCES_UNVERIFIED")
