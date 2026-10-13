@@ -22,3 +22,11 @@ Approved final manuscript; source-backed factual tables/receipts; exact art brie
 Editorial 1–12 power rank is subjective and separate from probabilistic playoff qualification. If a certified model exists, include clearly labeled probability alongside rank but NEVER conflate orderings.
 Source: `memo-os/week-5/PLAYOFF_PROBABILITY_INTEGRATION_CONTRACT_2026-10-12.md`.
 Status: **MODEL UNVERIFIED / NO RUN RECEIPT / NO PLAYOFF PERCENTAGES AUTHORIZED**. Existing physical pagination unchanged. Any probability overlay must use deterministic type, defined source and tested mobile geometry before approval.
+
+## Page-isolated editorial production staging — 2026-10-13
+
+**Gate:** `SCHEMA_READY; W5_RANK_LOCK_HOLD`; produce `P028` as its **own 612×792 PDF page** (1024×1536 art-only portrait master where applicable) with deterministic, extractable titles and copy; do not silently merge, reduce or reorder it.
+
+**Current authoritative base:** FLAIM Week 4 completed standings (NOT a Week 5 editorial power ranking). ESPN through W4: Red Leopards 3–1, ObiWan Jacoby 3–1, El Niño 2–2, D0nkey K0ng 3–1, Slob on my Dobb 2–2, Chili Cheesers 2–2, His Majesty's Blood 2–2, Three Dreaded Snake 2–2, Mud Dogs 2–2, The LLC. 1–3, Dr. Duckhook 1–3, Seven Deadly Chins 1–3. For Week 5 publication, commission a reasoned **1–12 editorial ranking** only after six scores and player contributions settle; rank rationale must use strength, completed-record evidence and defensible movement from previous power rankings, not automatically restate ESPN playoffSeed. Use separate ranking/movement/result columns and avoid playoff percentages until reproducible simulation receipt exists. Reader-facing full team names only. Page is PREPARED as schema, not final rank list.
+
+**Acceptance/hand-off:** source receipt, all 12-owner names checked where displayed, approved visual/source alignment, PDF margin and 390px rendering, no missing paragraphs or injected results, source-state flag, and independent Umpire review. Do not change `CONTRACTED_PARTIAL` or `render_eligible=false` without receipts.
