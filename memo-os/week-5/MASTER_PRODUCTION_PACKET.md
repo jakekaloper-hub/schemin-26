@@ -1,5 +1,19 @@
 # Week 5 — Master Production Packet (V2, recovery-in-progress)
 
+## Controlling Commissioner production-format correction — 2026-10-13
+
+**LATEST BINDING AUTHORITY / SUPERSEDES CONFLICTS:** `WEEK_5_CINEMATIC_ARTWORK_FIRST_FIDELITY_AMENDMENT_2026-10-13.md`.
+
+Week 5 Bullpen production outputs **individual, complete 1024×1536 portrait PNG page images**, including artwork and final integrated text/score typography. **Do not create the official PDF, a 612×792 PDF page, vector-PDF page assets, or assemble the issue PDF.** The Commissioner will compile individually approved page images into a PDF afterward. Existing 21-page and 32-page generated PDFs are only obsolete layout experiments. Do not treat them as accepted artwork.
+
+The attached **official Week 4 Memo** is the minimum visual benchmark: 33 pages, each **one 1024×1536 raster image**, with narrative and typography visibly integrated into the art. Its contents set specific per-scene look/quality precedents (see amendment for comparative page ranges). Prepare and deliver one numbered finished image at a time. A single finalized PNG is the page acceptance unit; retained editable intermediate layers are allowed but not the handoff output. Retain P001–P032 as the starting 32-page sequence, allowing higher final page count only through explicit approval rather than compressing or losing story beats.
+
+All prior "PDF-first", "vector-extractable PDF text" and "Bullpen PDF assembly" directives within this Week 5 packet are **superseded for production output**. Their useful mobile readability, source provenance and image/copy QA principles still apply to each finished PNG. Six cinematic arcs, the Commissioner-approved LLC/Mike Ditka cover and all character-Atlas locks remain unchanged. P030 betting inputs due Oct 14: no fabricated tickets. Owner-source SHA-256 verified for 12/12 originals, but provider mounted-byte reference proof and owner subject binding are still missing, so do not greenlight recognizable owner-character imagery.
+
+**Next proof:** P002 owner-free worldbuilding page artwork may be generated and inspected as a nonfinal visual-fidelity proof against Week 4 P2. It cannot become a final approved page before editorial, type and Umpire acceptance. P001 recognizable LLC cover image remains blocked pending actual reference conditioning.
+
+
+
 ## Authority and scope
 Existing Memo OS V5.5 with retained controls, Issue #146, Week 5 Commissioner approvals, existing Week 1–4 publication precedent. This is a **routing blueprint**, not a new OS or approved final issue. No production claim without proof.
 
