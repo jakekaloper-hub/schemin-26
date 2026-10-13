@@ -157,3 +157,23 @@ The prior sprint shorthand "Arsenal Centaur" was incomplete: `canon/characters/C
 - **ACTIVE CANON PROMOTED:** Existing `reference_sources_v1.json`, all 12 `REFERENCE_MANIFEST.yaml` files, and `VISUAL_REFERENCE_AUTHORITY_V1.json` updated for the new Commissioner images. Original expected hashes preserved as `prior_active_source_2026_10_12`, never silently erased. Gorilla-upper Arsenal centaur identity remains locked for DK.
 - **TESTED:** 12/12 fresh source-byte SHA-256 checks; 12/12 Git blob identity checks; 12/12 owner-reference authority resolution; 24/24 cross-owner or altered-hash rejection cases; 9/9 focused unit tests; 12/12 Phase 1 portability probe. Existing dirty local checkout left untouched by isolated worktree.
 - **BOUNDARY:** These tests prove canonical repository identity routing and reject mismatched inputs. They **do not prove actual production renderer reference mounting, subject conditioning, generation execution receipt, or independent visual QA**. `renderer_capabilities_v1.json` remains `NO_PRODUCTION_ROUTE_PROVEN`. The final production renderer/Umpire acceptance gate stays HOLD until real provider capability and actual generated-output receipts exist.
+
+## Week 6 advance coverage — approved Week 5 editorial scope (2026-10-12)
+
+**Verified FLAIM schedule (ESPN league 1417621, 2026 Week 6; all outcomes UNDECIDED; HOME first):**
+1. Red Leopards (home) vs D0nkey K0ng (away)
+2. Dr. Duckhook (home) vs El Niño (away)
+3. Slob on my Dobb (home) vs ObiWan Jacoby (away)
+4. The Chili Cheesers (home) vs Seven Deadly Chins (away)
+5. Mud Dogs (home) vs His Majesty's Blood (away)
+6. Three Dreaded Snake (home) vs The LLC (away)
+
+**Editorial adjacency rule:** State of the Realm MUST display a compact visual fixture board listing all six verified Week 6 matchups, with exactly ONE circled GOTW fixture. The NEXT physical page MUST be the dedicated Week 6 GOTW hype artwork/section. The fixture-board circle and hype-page featured matchup MUST resolve from one shared `week6_gotw_selected_matchup_id` and may not drift. State of Realm remains the Week 5 world-state/standings/race page; Week 6 fixtures are a compact bottom or sidebar module, not a replacement.
+
+**GOTW candidates — editorial proposals, NOT yet selected:** (A) Red Leopards hosting D0nkey K0ng — red-ruins home territory versus the Arsenal Gorilla Centaur's approach, strongest large-scale Atlas spectacle; (B) Slob on my Dobb hosting ObiWan Jacoby — Fart Star territory, ObiWan's mountain-road travel and renewed rivalry stakes; (C) Three Dreaded Snake hosting The LLC — post-haircut serpent at home against the LLC corporate incursion. Final selection requires Week 5 fact lock, power/rivalry editorial assessment, venue and travel Atlas QA, and Commissioner/authorized editorial approval. Do not assert an unselected GOTW.
+
+**Page architecture constraint:** The proposed compact 20-page sequence had State of Realm at physical page 17 and Pitty's Book at 18. To preserve immediate adjacency, insert a NEW dedicated `W05_P18_WEEK6_GOTW_HYPE` page after State of Realm, shifting Pitty's Book, Waivers and Final Word to pages 19–21. **21 pages is the preferred additive candidate**, subject to Commissioner approval and manifest promotion; do not silently remove a previously approved department to force 20. The authoritative 32-page `PUBLICATION_PAGE_MANIFEST.json` remains unchanged until a reviewed compact-manifest promotion. In the 32-page fallback, insert the hype page directly after P029 State of Realm and renumber later physical pages.
+
+**Visual packets:** State of Realm uses a legible six-row matchup grid with full team names, home/away labels, one ink/red circle around the GOTW and a visual pointer to the next page. Hype page uses a venue-specific cinematic establishing image with two approved owner-specific characters, the host's terrain as the controlling geography, a short rivalry-stakes teaser and a next-week label. Week 6 is future tense only; no invented Week 6 results, scores, injuries or venue distances.
+
+**Renderer acceptance boundary:** 12/12 current Commissioner binary references are now repository-verified, but no actual image-provider generation output has been proven to consume the owner-specific mounted bytes. A genuine integration test must record requested `character_id`, active `repository_path`, SHA-256, renderer reference-attachment receipt, per-subject binding/slot, output instance ID, rendered artifact hash, and independent visual identity QA. If provider cannot expose those receipts, record `PROVIDER_CAPABILITY_BLOCKED`; a local mock or prompt-only reference cannot be promoted as a production renderer PASS.
