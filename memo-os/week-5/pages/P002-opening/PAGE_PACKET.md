@@ -37,3 +37,11 @@ This P002 must be authored as **one complete 1024×1536 portrait PNG** with atmo
 ## P002 visual-only PNG proof receipt — 2026-10-13
 
 A genuine **1024×1536 self-contained PNG** was generated as an environment-only `VISUAL_PROOF_ONLY` illustration/typography layout experiment. It is **not** an image-model cinematic illustration, is **not** independently signed off, and **FAILED** the Week 4 P2 visual depth/texture benchmark. The proof is a sandbox attachment, **not a GitHub binary**. Source/audit: `../../production-evidence/WEEK_5_P002_PNG_LAYOUT_FIDELITY_REJECTION_2026-10-13.md`. P002 remains `CONTRACTED_PARTIAL / render_eligible=false`; nothing about its production format reverts to PDF, and no winning outcome has been asserted.
+
+## Commissioner 2026-10-13 hard render correction: species and visible header
+
+**Highest-priority per-image override — supersedes earlier PDF/vector and large repeated Schemin masthead instructions.** One finished **1024×1536 flattened PNG**, not a PDF page. Reference the shared machine-readable `production-evidence/WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` by `P002` and the P009 rejection receipt before generation. The string in the PNG **MUST display prominently as the primary header:** **THE LAND REMEMBERS**. Do not print a large SCHEMIN ’26 header above the required page/matchup title. Scene-specific literary subtitle may appear below.
+
+**Canonical subjects by unique owner reference:** No main owner character required; any inserted portrait requires original reference and proven binding. Use the owner-specific source pixel reference and exact bound subject, **not just an image prompt describing a human**. 
+
+**Absolute rejection:** unapproved character insertions; fake matchup results. Source SHA-256 by itself is not proof that the image generator received or conditioned on the correct image. Require actual full-resolution pixel inspection, 390px typography, Week 4 comparator and independent Umpire acceptance; otherwise **HOLD**. Original manuscript, scene location and adjacent story causality remain controlling.
