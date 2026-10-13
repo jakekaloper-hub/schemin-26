@@ -17,8 +17,8 @@ class Phase1SourceByteHoldTests(unittest.TestCase):
             {x["character_id"] for x in MATRIX["entries"]},
         )
 
-    def test_library_metadata_matches_registered_sizes(self):
-        expected={x["character_id"]:x["observed_library_size_bytes"] for x in REG["entries"]}
+    def test_historical_library_metadata_matches_historical_registered_sizes(self):
+        expected={x["character_id"]:x["prior_active_source_2026_10_12"]["observed_library_size_bytes"] for x in REG["entries"]}
         for row in MATRIX["entries"]:
             self.assertEqual(row["observed_library_size_bytes"],expected[row["character_id"]])
             self.assertEqual(row["library_record"],"FOUND")
@@ -35,9 +35,12 @@ class Phase1SourceByteHoldTests(unittest.TestCase):
         self.assertEqual(gap["status"],"HOLD_AUTHORIZED_RAW_BYTE_EXPORT_UNAVAILABLE")
         self.assertEqual(gap["blocker_type"],"provider_capability")
 
-    def test_phase1_probe_would_not_pass_without_all_repo_assets(self):
-        missing=[ROOT/x["repository_path"] for x in REG["entries"] if not (ROOT/x["repository_path"]).exists()]
-        self.assertEqual(len(missing),12)
+    def test_active_source_bytes_now_present(self):
+        from canon.characters.runtime.source_byte_integrity import verify_source_bytes
+        result=verify_source_bytes(ROOT,REG)
+        self.assertEqual(result["pass_count"],12)
+        self.assertEqual(result["source_bytes_required_count"],0)
+        self.assertEqual(result["state"],"PASS")
 
 if __name__=="__main__":
     unittest.main(verbosity=2)
