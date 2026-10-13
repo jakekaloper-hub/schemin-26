@@ -84,6 +84,11 @@ def test_every_png_has_specific_week4_visual_comparison():
     assert 30 in pages[27]["week4_reference_pages"]
     assert 31 in pages[29]["week4_reference_pages"]
     assert 33 in pages[31]["week4_reference_pages"]
+    assert 25 in pages[11]["week4_reference_pages"]  # P012 Western storm, not coastal golf
+    assert 13 in pages[15]["week4_reference_pages"]  # P016 golf, not tavern
+    assert 25 in pages[19]["week4_reference_pages"]  # P020 Jeep rain, not Pitty's Book
+    assert 4 in pages[23]["week4_reference_pages"]   # P024 joust, not unrelated weather
+
 
 
 def test_fidelity_scores_never_override_character_identity_gate():
