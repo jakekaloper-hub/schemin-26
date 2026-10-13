@@ -15,7 +15,7 @@
 - **Premise:** A Storm Comes to Town.
 - **Reader job:** establish the eventual verified winner's private motivation and ordinary world before confrontation, without telegraphing the outcome.
 - **Canon constraints:** Commissioner-approved Western town street is temporary within Chili's territory. Chili is HOST, Dark Horse companion; El Niño visiting weather-bearing stranger, NEVER sheriff/lawman/bounty hunter.
-- **Current ESPN evidence:** Chili 183.53 / El Niño 130.40 provisional; not final or certified.
+- **Current ESPN evidence:** Chili Cheesers 183.53 / El Niño 156.70 provisional (FLAIM 2026-10-13); not final or certified.
 - **Final winner POV manuscript:** **PENDING Fact Lock**. No fabricated prose is authorized. Preserve both POV possibilities.
 
 ## Visual and typography
