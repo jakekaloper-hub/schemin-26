@@ -3,7 +3,7 @@
 **Status:** CONTRACTED PARTIAL / NOT READY_FOR_RENDER.
 
 ## Source-derived cinematic beat
-lifted 1990s pickup truck mudding obstacles deepen; rooster-tail spray, stuck wheels and recovery stakes.
+Jeeps mudding obstacles deepen; rooster-tail spray, stuck wheels and recovery stakes.
 
 **Atlas:** `LOC-SLOB-FOOTHILL-CAMP`. **Characters:** CHAR-JORDAN-HOLLINGSHEAD / CHAR-BEN-WHIPPLE.
 **Mandatory guard:** No invented permanent course or storm mutation.
@@ -23,12 +23,7 @@ Final verified winner and ESPN fact receipts; complete approved manuscript; exac
 
 **Previous:** P021; **next:** P023.
 
-## Commissioner personalization amendment — binding production patch
-Heavy dusk rain obscures the 1990s lifted pickup trucks as they climb muddy ruts; rooster-tail spray, stuck tires and competing recoveries.
-**Authority:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. This overrides conflicting legacy vehicle/entrance/action notes, not canon, results, or physical pagination. Use full canonical team or owner names in all reader-facing copy. Render eligibility HOLD pending manuscript, reference-mount and independent QA.
-
-## Commissioner personalization — overriding page action
-Heavy rain at dusk throughout. Both owners drive Jeeps; no Jeep vehicles. Headlights pierce rain, ruts deepen and visibility falls. Source: `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. No render authorization.
-
-## Scope audit correction — Commissioner rain amendment
-Commissioner approved **heavy rainfall at dusk throughout the sequence**, with low-light headlights, rain-obscured sightlines, reflections, mud and spray. **Preserve the original Jeep mudding concept.** Any previous reference to lifted 1990s pickup trucks was an unapproved invention and is superseded. No additional vehicle specification is authorized. Source: `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. Outcome, image binding and publication QA remain HOLD.
+## Commissioner personalization — reconciled authoritative page instruction
+**Controlling approval:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`.
+**Page-specific editorial draft and cinematic composition:** `memo-os/week-5/WEEK_5_PERSONALIZATION_EDITORIAL_AND_SHOT_EXECUTION_2026-10-12.md`, section `P022`.
+This single amendment pointer supersedes duplicate prior personalized scene notes on this page; the pre-existing story, Atlas venue, host identity, character source requirements, and outcome-dependent gates remain unchanged. For P020–P023: Jeeps remain the established vehicles, heavy rain persists at dusk; pickup-truck substitutions are forbidden. **Copy is a draft, not accepted final manuscript.** The fantasy winner, exact character image bytes and mounted bindings, typography and mobile shell tests, and independent Umpire approval are still required. **CONTRACTED_PARTIAL / render_eligible=false.**
