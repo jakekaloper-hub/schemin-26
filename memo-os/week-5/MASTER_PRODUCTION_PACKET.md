@@ -105,3 +105,20 @@ After the last game, refresh authenticated FLAIM and **enter production mode eve
 
 **Operating instruction:** Advance all reversible, authorized work without repeated user prompts. Surface only genuine external inputs, Commissioner creative decisions, and unresolved publication vetoes. Record actual authenticated role responses and artifacts; do not claim live conference or production acceptance absent proof.
 
+## Bullpen seven-workstream production sprint — 2026-10-12
+**Commissioner directive:** Advance all reversible readiness work without repeated prompts. No simulated authenticated Director, consultant or Umpire signoff. Keep existing 32-page source manifest authoritative until explicit final pagination approval; 20-page collage is approved for testing only.
+
+| Workstream | Assigned role | Deliverable and acceptance gate | Current evidence state |
+|---|---|---|---|
+| 1. Pagination | Closer, Architect | Compare two atmosphere/action layout proofs at full-size and 390px, preserve all four beats; Commissioner approves final page mapping before changing manifest | Four-page PDF wireframe exists; final page count not locked |
+| 2. Manuscripts | Beat Writer, Author Council | Consolidate six two-page story pairs from 24 source beats; conditional winner POV and outcome-dependent payoffs | Draft only, not independently accepted |
+| 3. Character canon | Librarian, Visual Lead | 12 owner-specific source-byte SHA-256 receipts, real renderer mount and per-output subject binding; D0nkey K0ng is Arsenal Centaur with four equine legs | Unverified; actual character art HOLD |
+| 4. Art direction | Visual Lead, Atlas | Per-page composition, panel order, scene geography, camera, text-safe zones, environment continuity and forbidden mutations | Concepts exist, final render packets outstanding |
+| 5. League departments | Scout, Pitty, Editor | Verified scoreboard, rankings, standings, playoff context, waivers, wagers and Final Word | Requires final facts and independent checking |
+| 6. PNG/PDF engineering | Architect, Groundskeeper | Numbered PNG contract, 390px QA, reproducible assembly, integrity and distribution test; vector-text overlay if searchable text required | Structural proofs only; no full-issue QA |
+| 7. Independent approval | Umpire and actual authorized reviewers | Evidence-backed editorial, factual, canon, mobile, PDF and release acceptance | No authenticated approval receipt |
+
+### Working 20-PNG reading and file order (proposal; not locked)
+01 `W05_P01_COVER.png` (P001); 02 `W05_P02_OPENING.png` (P002); 03 `W05_P03_SCOREBOARD.png` (P003); 04 `W05_P04_CHESS_OVERTURE.png` (P004–P005); 05 `W05_P05_CHESS_COLLAGE.png` (P005–P007); 06 `W05_P06_SWAMP_OVERTURE.png` (P008–P009); 07 `W05_P07_SWAMP_COLLAGE.png` (P009–P011); 08 `W05_P08_CHILI_OVERTURE.png` (P012–P013); 09 `W05_P09_CHILI_COLLAGE.png` (P013–P015); 10 `W05_P10_GOLF_OVERTURE.png` (P016–P017); 11 `W05_P11_GOLF_COLLAGE.png` (P017–P019); 12 `W05_P12_JEEP_OVERTURE.png` (P020–P021); 13 `W05_P13_JEEP_COLLAGE.png` (P021–P023); 14 `W05_P14_JOUST_OVERTURE.png` (P024–P025); 15 `W05_P15_JOUST_COLLAGE.png` (P025–P027); 16 `W05_P16_POWER_RANKINGS.png` (P028); 17 `W05_P17_STATE_OF_REALM.png` (P029); 18 `W05_P18_PITTYS_BOOK.png` (P030); 19 `W05_P19_WAIVERS_TRANSACTIONS.png` (P031); 20 `W05_P20_FINAL_WORD.png` (P032).
+
+**Execution order:** layout acceptance P04–05 and P12–13 → finish scripts, bindings and shot packets → generate verified page PNGs with QA after each → final data departments → assemble and audit PDF. PNG-only assembly rasterizes text; add vector-text overlay if extractability remains a requirement. Start outcome-neutral production after MNF refresh even if FLAIM reports `UNDECIDED`; independently verified results required for winner-specific copy and publication. No invented results or false green.
