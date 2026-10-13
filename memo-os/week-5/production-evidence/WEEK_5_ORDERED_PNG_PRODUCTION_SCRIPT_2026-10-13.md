@@ -18,6 +18,8 @@ P001 Cover → P002 Opening → P003 Scoreboard → P004–P007 Dark Wizard Ches
 
 ## P001 — Cover
 
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **FOR DA BEARS**; cover exception to generic title restrictions; required subjects: CHAR-DAVID-BABB = HUMAN_CORPORATE_RAIDER. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
+
 - **Existing source:** `memo-os/week-5/pages/P001-cover/PAGE_PACKET.md` (Git blob `9e18b587a155bad26be150dd2293434c654386bc`); **expected PNG:** `SCHEMIN26_W05_P001_COVER.png`.
 - **Week 4 reference:** P001. **Benchmark focus:** Memorial dignity, editorial headline, atmospheric cover hierarchy.
 - **Atlas / scene:** editorial issue / existing Atlas only; editorial department.
@@ -32,6 +34,8 @@ P001 Cover → P002 Opening → P003 Scoreboard → P004–P007 Dark Wizard Ches
 
 
 ## P002 — Opening
+
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **THE LAND REMEMBERS**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: No required owner avatar. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
 
 - **Existing source:** `memo-os/week-5/pages/P002-opening/PAGE_PACKET.md` (Git blob `31a79268f469ca636b094ada3202457e2a6bbc9a`); **expected PNG:** `SCHEMIN26_W05_P002_OPENING.png`.
 - **Week 4 reference:** P002, P004, P009, P025. **Benchmark focus:** Immersive world geography, parchment prose column, cinematic light/texture.
@@ -48,6 +52,8 @@ Across the Schemin realm, six contests begin with places that refuse to be mere 
 
 ## P003 — Scoreboard
 
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **THE BOARD**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: No required owner avatar. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
+
 - **Existing source:** `memo-os/week-5/pages/P003-scoreboard/PAGE_PACKET.md` (Git blob `78dc8976d3278cf93b9c7b078a4b97aeaaa6a14c`); **expected PNG:** `SCHEMIN26_W05_P003_SCOREBOARD.png`.
 - **Week 4 reference:** P003, P029, P030. **Benchmark focus:** Illustrated score hierarchies, correct divisions, full team names.
 - **Atlas / scene:** editorial issue / existing Atlas only; editorial department.
@@ -62,6 +68,8 @@ Across the Schemin realm, six contests begin with places that refuse to be mere 
 
 
 ## P004 — His Majesty's Blood versus Three Dreaded Snake — Winner-POV Overture
+
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **His Majesty's Blood at Three Dreaded Snake**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: CHAR-AUSTIN-BYARS = BELT_KEEPER_UNDEAD_HUMANOID; CHAR-PHILLIP-PITTS = THREE_HEADED_SERPENT_HYBRID. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
 
 - **Existing source:** `memo-os/week-5/pages/P004-gotw-overture/PAGE_PACKET.md` (Git blob `f9709619d59088b7e224c2c796b2c789cc88e488`); **expected PNG:** `SCHEMIN26_W05_P004_GOTW_OVERTURE.png`.
 - **Week 4 reference:** P004. **Benchmark focus:** Prose-first cinematic establishing geography without spoiler.
@@ -78,6 +86,8 @@ The Belt Keeper counted the steps from the eastern road to the market. His belt 
 
 ## P005 — His Majesty's Blood versus Three Dreaded Snake — Cinematic Setup
 
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **His Majesty's Blood at Three Dreaded Snake**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: CHAR-AUSTIN-BYARS = BELT_KEEPER_UNDEAD_HUMANOID; CHAR-PHILLIP-PITTS = THREE_HEADED_SERPENT_HYBRID. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
+
 - **Existing source:** `memo-os/week-5/pages/P005-gotw-setup/PAGE_PACKET.md` (Git blob `3501f46a7cc4a077a3b4395f56d51b85fd5dd277`); **expected PNG:** `SCHEMIN26_W05_P005_GOTW_SETUP.png`.
 - **Week 4 reference:** P004, P005. **Benchmark focus:** Visually specific owner confrontation in a consistent venue.
 - **Atlas / scene:** LOC-COMPACT-NEUTRAL-GROUNDS; Dark Wizard Chess.
@@ -92,6 +102,8 @@ Market traders had pulled their carts behind the giant pieces. The serpent's thr
 
 
 ## P006 — His Majesty's Blood versus Three Dreaded Snake — Cinematic Escalation
+
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **His Majesty's Blood at Three Dreaded Snake**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: CHAR-AUSTIN-BYARS = BELT_KEEPER_UNDEAD_HUMANOID; CHAR-PHILLIP-PITTS = THREE_HEADED_SERPENT_HYBRID. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
 
 - **Existing source:** `memo-os/week-5/pages/P006-gotw-escalation/PAGE_PACKET.md` (Git blob `b30ffa7309cadd452ce279ad694b5706ac7824da`); **expected PNG:** `SCHEMIN26_W05_P006_GOTW_ESCALATION.png`.
 - **Week 4 reference:** P004, P006. **Benchmark focus:** Physically credible movement and landmark/costume continuity.
@@ -108,6 +120,8 @@ The first stone struck hard enough to make the stalls tremble. Smith-Njigba's to
 
 ## P007 — His Majesty's Blood versus Three Dreaded Snake — Cinematic Payoff
 
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **His Majesty's Blood at Three Dreaded Snake**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: CHAR-AUSTIN-BYARS = BELT_KEEPER_UNDEAD_HUMANOID; CHAR-PHILLIP-PITTS = THREE_HEADED_SERPENT_HYBRID. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
+
 - **Existing source:** `memo-os/week-5/pages/P007-gotw-payoff/PAGE_PACKET.md` (Git blob `56b7b0aa05a99813b44ece57fed4e378a584610a`); **expected PNG:** `SCHEMIN26_W05_P007_GOTW_PAYOFF.png`.
 - **Week 4 reference:** P004, P008. **Benchmark focus:** Verified outcome-driven consequence integrated with scenery.
 - **Atlas / scene:** LOC-COMPACT-NEUTRAL-GROUNDS; Dark Wizard Chess.
@@ -122,6 +136,8 @@ The broken square smoked beneath the Belt Keeper's feet. He had forced the final
 
 
 ## P008 — The LLC. versus Mud Dogs — Winner-POV Overture
+
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **The LLC. at Mud Dogs**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: CHAR-DAVID-BABB = HUMAN_CORPORATE_RAIDER; CHAR-BOBBY-MITCHELL = MONSTROUS_QUADRUPED_CANINE. LLC retains P001 'FOR DA BEARS' Ditka-era tribute outfit across all swamp pages with individually changed posture; Mud Dogs is massive chained canine quadruped (NOT human). Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
 
 - **Existing source:** `memo-os/week-5/pages/P008-llc-mud-overture/PAGE_PACKET.md` (Git blob `6b6079b5844ee3ca06137c413840d522d522f2a8`); **expected PNG:** `SCHEMIN26_W05_P008_LLC_MUD_OVERTURE.png`.
 - **Week 4 reference:** P009. **Benchmark focus:** Prose-first cinematic establishing geography without spoiler.
@@ -138,6 +154,8 @@ David Babb examined the swamp from the causeway before its surveyors arrived. It
 
 ## P009 — The LLC. versus Mud Dogs — Cinematic Setup
 
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **The LLC. at Mud Dogs**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: CHAR-DAVID-BABB = HUMAN_CORPORATE_RAIDER; CHAR-BOBBY-MITCHELL = MONSTROUS_QUADRUPED_CANINE. LLC retains P001 'FOR DA BEARS' Ditka-era tribute outfit across all swamp pages with individually changed posture; Mud Dogs is massive chained canine quadruped (NOT human). Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
+
 - **Existing source:** `memo-os/week-5/pages/P009-llc-mud-setup/PAGE_PACKET.md` (Git blob `22170128d0dea4fd37f21fffa672bfa10eddbd27`); **expected PNG:** `SCHEMIN26_W05_P009_LLC_MUD_SETUP.png`.
 - **Week 4 reference:** P009, P010. **Benchmark focus:** Visually specific owner confrontation in a consistent venue.
 - **Atlas / scene:** LOC-MUD-DOGS-SWAMP; Save the Swamp.
@@ -152,6 +170,8 @@ Mud Dogs stood near the porch, listening to the roots shift beneath the water. A
 
 
 ## P010 — The LLC. versus Mud Dogs — Cinematic Escalation
+
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **The LLC. at Mud Dogs**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: CHAR-DAVID-BABB = HUMAN_CORPORATE_RAIDER; CHAR-BOBBY-MITCHELL = MONSTROUS_QUADRUPED_CANINE. LLC retains P001 'FOR DA BEARS' Ditka-era tribute outfit across all swamp pages with individually changed posture; Mud Dogs is massive chained canine quadruped (NOT human). Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
 
 - **Existing source:** `memo-os/week-5/pages/P010-llc-mud-escalation/PAGE_PACKET.md` (Git blob `7a95eff28b96f03ff7d6fbeef78f08b7c9017b7d`); **expected PNG:** `SCHEMIN26_W05_P010_LLC_MUD_ESCALATION.png`.
 - **Week 4 reference:** P009, P011. **Benchmark focus:** Physically credible movement and landmark/costume continuity.
@@ -168,6 +188,8 @@ Floodlights caught the torn bank as machinery pressed forward. Burrow's four tou
 
 ## P011 — The LLC. versus Mud Dogs — Cinematic Payoff
 
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **The LLC. at Mud Dogs**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: CHAR-DAVID-BABB = HUMAN_CORPORATE_RAIDER; CHAR-BOBBY-MITCHELL = MONSTROUS_QUADRUPED_CANINE. LLC retains P001 'FOR DA BEARS' Ditka-era tribute outfit across all swamp pages with individually changed posture; Mud Dogs is massive chained canine quadruped (NOT human). Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
+
 - **Existing source:** `memo-os/week-5/pages/P011-llc-mud-payoff/PAGE_PACKET.md` (Git blob `47caf74484542995c53a4a2848a4ab5e2bf13db2`); **expected PNG:** `SCHEMIN26_W05_P011_LLC_MUD_PAYOFF.png`.
 - **Week 4 reference:** P009, P012. **Benchmark focus:** Verified outcome-driven consequence integrated with scenery.
 - **Atlas / scene:** LOC-MUD-DOGS-SWAMP; Save the Swamp.
@@ -182,6 +204,8 @@ At the gouged shoreline, David Babb's victory gave it leverage without a deed to
 
 
 ## P012 — Chili Cheesers versus El Niño — Winner-POV Overture
+
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **El Niño at Chili Cheesers**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: CHAR-MANNING-WELTY = STORM_ELEMENTAL_HUMANOID; CHAR-BRANDON-PRYOR = HUMAN_WESTERN_OUTLAW. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
 
 - **Existing source:** `memo-os/week-5/pages/P012-chili-nino-overture/PAGE_PACKET.md` (Git blob `439c00accccc2f5cb678c6a6bc7f675e2b42d98c`); **expected PNG:** `SCHEMIN26_W05_P012_CHILI_NINO_OVERTURE.png`.
 - **Week 4 reference:** P025. **Benchmark focus:** Prose-first cinematic establishing geography without spoiler.
@@ -198,6 +222,8 @@ The Chili Outlaw watched the water trough before looking toward the road. His Da
 
 ## P013 — Chili Cheesers versus El Niño — Cinematic Setup
 
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **El Niño at Chili Cheesers**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: CHAR-MANNING-WELTY = STORM_ELEMENTAL_HUMANOID; CHAR-BRANDON-PRYOR = HUMAN_WESTERN_OUTLAW. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
+
 - **Existing source:** `memo-os/week-5/pages/P013-chili-nino-setup/PAGE_PACKET.md` (Git blob `9e06c5ea0e11f544e9483cb968e34480a3486c4c`); **expected PNG:** `SCHEMIN26_W05_P013_CHILI_NINO_SETUP.png`.
 - **Week 4 reference:** P025, P026. **Benchmark focus:** Visually specific owner confrontation in a consistent venue.
 - **Atlas / scene:** LOC-CHILI-STABLE; A Storm Comes to Town.
@@ -212,6 +238,8 @@ El Niño arrived as a front of dark cloud at the far end of the street. The Outl
 
 
 ## P014 — Chili Cheesers versus El Niño — Cinematic Escalation
+
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **El Niño at Chili Cheesers**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: CHAR-MANNING-WELTY = STORM_ELEMENTAL_HUMANOID; CHAR-BRANDON-PRYOR = HUMAN_WESTERN_OUTLAW. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
 
 - **Existing source:** `memo-os/week-5/pages/P014-chili-nino-escalation/PAGE_PACKET.md` (Git blob `07673e1304869cf530306e18f0e75096ecd0241d`); **expected PNG:** `SCHEMIN26_W05_P014_CHILI_NINO_ESCALATION.png`.
 - **Week 4 reference:** P025, P027. **Benchmark focus:** Physically credible movement and landmark/costume continuity.
@@ -228,6 +256,8 @@ Wind drove red dust between the buildings. Watson's two touchdowns and Brissett'
 
 ## P015 — Chili Cheesers versus El Niño — Cinematic Payoff
 
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **El Niño at Chili Cheesers**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: CHAR-MANNING-WELTY = STORM_ELEMENTAL_HUMANOID; CHAR-BRANDON-PRYOR = HUMAN_WESTERN_OUTLAW. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
+
 - **Existing source:** `memo-os/week-5/pages/P015-chili-nino-payoff/PAGE_PACKET.md` (Git blob `e6e4f970f90bbd20eb7b942d93a3864a6067658a`); **expected PNG:** `SCHEMIN26_W05_P015_CHILI_NINO_PAYOFF.png`.
 - **Week 4 reference:** P025, P028. **Benchmark focus:** Verified outcome-driven consequence integrated with scenery.
 - **Atlas / scene:** LOC-CHILI-STABLE; A Storm Comes to Town.
@@ -243,6 +273,8 @@ The thunder passed down the street without taking the town. The Outlaw remained 
 
 ## P016 — Dr. Duckhook versus D0nkey K0ng — Winner-POV Overture
 
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **D0nkey K0ng at Dr. Duckhook**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: CHAR-WILSON-LOOK = FOUR_LEGGED_ARSENAL_GORILLA_CENTAUR; CHAR-ZACH-WILSON = ANTHROPOMORPHIC_DUCK. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
+
 - **Existing source:** `memo-os/week-5/pages/P016-duck-dk-overture/PAGE_PACKET.md` (Git blob `8711a99f47c60df7f97ff1535423066a05d8f768`); **expected PNG:** `SCHEMIN26_W05_P016_DUCK_DK_OVERTURE.png`.
 - **Week 4 reference:** P013. **Benchmark focus:** Prose-first cinematic establishing geography without spoiler.
 - **Atlas / scene:** LOC-COUNTRY-CLUB-JACKSON; David vs Goliath.
@@ -257,6 +289,8 @@ Dr. Duckhook studied the practice green while the clubhouse was still quiet. His
 
 
 ## P017 — Dr. Duckhook versus D0nkey K0ng — Cinematic Setup
+
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **D0nkey K0ng at Dr. Duckhook**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: CHAR-WILSON-LOOK = FOUR_LEGGED_ARSENAL_GORILLA_CENTAUR; CHAR-ZACH-WILSON = ANTHROPOMORPHIC_DUCK. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
 
 - **Page source:** `memo-os/week-5/pages/P017-duck-dk-setup/PAGE_PACKET.md`; blob `b8633746af1cb0cff4d66330239ddc24cfd79e66`.
 - **Deliverable:** `SCHEMIN26_W05_P017_DUCK_DK_SETUP.png` (opaque sRGB 1024×1536 with cinematic image and legible pixel-integrated masthead/body).
@@ -274,6 +308,8 @@ Groundskeepers moved behind the hedges as D0nkey K0ng crossed the first fairway.
 
 ## P018 — Dr. Duckhook versus D0nkey K0ng — Cinematic Escalation
 
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **D0nkey K0ng at Dr. Duckhook**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: CHAR-WILSON-LOOK = FOUR_LEGGED_ARSENAL_GORILLA_CENTAUR; CHAR-ZACH-WILSON = ANTHROPOMORPHIC_DUCK. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
+
 - **Page source:** `memo-os/week-5/pages/P018-duck-dk-escalation/PAGE_PACKET.md`; blob `1914c2d73774d66af7a9c2ab1c75c1ce59006455`.
 - **Deliverable:** `SCHEMIN26_W05_P018_DUCK_DK_ESCALATION.png` (opaque sRGB 1024×1536 with cinematic image and legible pixel-integrated masthead/body).
 - **Week 4 visual benchmark:** P013, P015. Physically credible movement and landmark/costume continuity.
@@ -289,6 +325,8 @@ The hooves cut four tracks through the turf. Maye's four passing touchdowns and 
 
 
 ## P019 — Dr. Duckhook versus D0nkey K0ng — Cinematic Payoff
+
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **D0nkey K0ng at Dr. Duckhook**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: CHAR-WILSON-LOOK = FOUR_LEGGED_ARSENAL_GORILLA_CENTAUR; CHAR-ZACH-WILSON = ANTHROPOMORPHIC_DUCK. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
 
 - **Page source:** `memo-os/week-5/pages/P019-duck-dk-payoff/PAGE_PACKET.md`; blob `319b821437f86d1092af6402564cad09ab9fd648`.
 - **Deliverable:** `SCHEMIN26_W05_P019_DUCK_DK_PAYOFF.png` (opaque sRGB 1024×1536 with cinematic image and legible pixel-integrated masthead/body).
@@ -306,6 +344,8 @@ The ball cleared the Arsenal centaur and vanished beyond the final bunker. Dr. D
 
 ## P020 — Seven Deadly Chins versus Slob on my Dobb — Winner-POV Overture
 
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **Seven Deadly Chins at Slob on my Dobb**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: CHAR-BEN-WHIPPLE = HEAVYSET_HUMAN_BRUISER; CHAR-JORDAN-HOLLINGSHEAD = HORNED_FRAT_STAR_BERSERKER. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
+
 - **Page source:** `memo-os/week-5/pages/P020-chins-slob-overture/PAGE_PACKET.md`; blob `3c0f074fbc92ad03dd466217afbb544b3f2765e7`.
 - **Deliverable:** `SCHEMIN26_W05_P020_CHINS_SLOB_OVERTURE.png` (opaque sRGB 1024×1536 with cinematic image and legible pixel-integrated masthead/body).
 - **Week 4 visual benchmark:** P009, P025. Prose-first cinematic establishing geography without spoiler.
@@ -321,6 +361,8 @@ Seven Deadly Chins listened to rain strike the Jeep roof at the edge of the foot
 
 
 ## P021 — Seven Deadly Chins versus Slob on my Dobb — Cinematic Setup
+
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **Seven Deadly Chins at Slob on my Dobb**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: CHAR-BEN-WHIPPLE = HEAVYSET_HUMAN_BRUISER; CHAR-JORDAN-HOLLINGSHEAD = HORNED_FRAT_STAR_BERSERKER. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
 
 - **Page source:** `memo-os/week-5/pages/P021-chins-slob-setup/PAGE_PACKET.md`; blob `38020effdac36f97694109bbc741107f31d0c5af`.
 - **Deliverable:** `SCHEMIN26_W05_P021_CHINS_SLOB_SETUP.png` (opaque sRGB 1024×1536 with cinematic image and legible pixel-integrated masthead/body).
@@ -338,6 +380,8 @@ Slob on my Dobb stood by the flooded track with his bat, daring the visitors to 
 
 ## P022 — Seven Deadly Chins versus Slob on my Dobb — Cinematic Escalation
 
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **Seven Deadly Chins at Slob on my Dobb**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: CHAR-BEN-WHIPPLE = HEAVYSET_HUMAN_BRUISER; CHAR-JORDAN-HOLLINGSHEAD = HORNED_FRAT_STAR_BERSERKER. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
+
 - **Page source:** `memo-os/week-5/pages/P022-chins-slob-escalation/PAGE_PACKET.md`; blob `eb830488c9433f28ffe2b5e9ce86affcbfde7852`.
 - **Deliverable:** `SCHEMIN26_W05_P022_CHINS_SLOB_ESCALATION.png` (opaque sRGB 1024×1536 with cinematic image and legible pixel-integrated masthead/body).
 - **Week 4 visual benchmark:** P009, P027. Physically credible movement and landmark/costume continuity.
@@ -353,6 +397,8 @@ Jaylen Warren's rushing and receiving touchdowns gave Seven Deadly Chins the fan
 
 
 ## P023 — Seven Deadly Chins versus Slob on my Dobb — Cinematic Payoff
+
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **Seven Deadly Chins at Slob on my Dobb**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: CHAR-BEN-WHIPPLE = HEAVYSET_HUMAN_BRUISER; CHAR-JORDAN-HOLLINGSHEAD = HORNED_FRAT_STAR_BERSERKER. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
 
 - **Page source:** `memo-os/week-5/pages/P023-chins-slob-payoff/PAGE_PACKET.md`; blob `d08b0a7856ecb6fb11ef2e1316f149f8faa963ee`.
 - **Deliverable:** `SCHEMIN26_W05_P023_CHINS_SLOB_PAYOFF.png` (opaque sRGB 1024×1536 with cinematic image and legible pixel-integrated masthead/body).
@@ -370,6 +416,8 @@ The last Jeep cleared the hill as dusk swallowed the track. Jordan Hollingshead 
 
 ## P024 — Red Leopards versus ObiWan Jacoby — Winner-POV Overture
 
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **ObiWan Jacoby at Red Leopards**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: CHAR-JAKE-KALOPER = BLOND_HUMAN_TRADE_JEDI; CHAR-KEVIN-ZEEK = RED_ANTHROPOMORPHIC_LEOPARD. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
+
 - **Page source:** `memo-os/week-5/pages/P024-red-obi-overture/PAGE_PACKET.md`; blob `cdcd70e68c0e4c58bb8bd6a639f964b79b7bb803`.
 - **Deliverable:** `SCHEMIN26_W05_P024_RED_OBI_OVERTURE.png` (opaque sRGB 1024×1536 with cinematic image and legible pixel-integrated masthead/body).
 - **Week 4 visual benchmark:** P004, P017. Prose-first cinematic establishing geography without spoiler.
@@ -386,6 +434,8 @@ ObiWan Jacoby approached the Red ruins by the permitted mountain route. His gold
 
 ## P025 — Red Leopards versus ObiWan Jacoby — Cinematic Setup
 
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **ObiWan Jacoby at Red Leopards**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: CHAR-JAKE-KALOPER = BLOND_HUMAN_TRADE_JEDI; CHAR-KEVIN-ZEEK = RED_ANTHROPOMORPHIC_LEOPARD. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
+
 - **Source:** `memo-os/week-5/pages/P025-red-obi-setup/PAGE_PACKET.md` Git blob `80e756974b8de79054f271b36458269dd08bb6ec`. **PNG:** `SCHEMIN26_W05_P025_RED_OBI_SETUP.png`.
 - **Week 4 comparator(s):** P005, P017. Visually specific owner confrontation in a consistent venue.
 - **Atlas / story world:** LOC-RED-RUINS; Champions' Joust.
@@ -400,6 +450,8 @@ Red Leopards waited beneath the banners of his home ground, armor bright against
 
 
 ## P026 — Red Leopards versus ObiWan Jacoby — Cinematic Escalation
+
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **ObiWan Jacoby at Red Leopards**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: CHAR-JAKE-KALOPER = BLOND_HUMAN_TRADE_JEDI; CHAR-KEVIN-ZEEK = RED_ANTHROPOMORPHIC_LEOPARD. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
 
 - **Source:** `memo-os/week-5/pages/P026-red-obi-escalation/PAGE_PACKET.md` Git blob `2dc956bb7db61e24b3b17aaecee8eb324a1e781f`. **PNG:** `SCHEMIN26_W05_P026_RED_OBI_ESCALATION.png`.
 - **Week 4 comparator(s):** P006, P017. Physically credible movement and landmark/costume continuity.
@@ -416,6 +468,8 @@ The first collision sent splinters across the arena. Nacua's seventeen catches f
 
 ## P027 — Red Leopards versus ObiWan Jacoby — Cinematic Payoff
 
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **ObiWan Jacoby at Red Leopards**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: CHAR-JAKE-KALOPER = BLOND_HUMAN_TRADE_JEDI; CHAR-KEVIN-ZEEK = RED_ANTHROPOMORPHIC_LEOPARD. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
+
 - **Source:** `memo-os/week-5/pages/P027-red-obi-payoff/PAGE_PACKET.md` Git blob `254dc33bddcc7869bda9b2bb5c89d0813ed17330`. **PNG:** `SCHEMIN26_W05_P027_RED_OBI_PAYOFF.png`.
 - **Week 4 comparator(s):** P008, P017. Verified outcome-driven consequence integrated with scenery.
 - **Atlas / story world:** LOC-RED-RUINS; Champions' Joust.
@@ -430,6 +484,8 @@ The final pass broke the last lance. Jake Kaloper lowered his green blade and ac
 
 
 ## P028 — Power Rankings
+
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **POWER RANKINGS**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: No required owner avatar. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
 
 - **Source:** `memo-os/week-5/pages/P028-power-rankings/PAGE_PACKET.md` Git blob `26f16816bdb18a5f08212bc4e9f97199a5d13eac`. **PNG:** `SCHEMIN26_W05_P028_POWER_RANKINGS.png`.
 - **Week 4 comparator(s):** P030. 12-owner illustrated rankings with readable movement.
@@ -446,6 +502,8 @@ The final pass broke the last lance. Jake Kaloper lowered his green blade and ac
 
 ## P029 — State of the Realm
 
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **STATE OF THE REALM**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: No required owner avatar. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
+
 - **Source:** `memo-os/week-5/pages/P029-state-of-realm/PAGE_PACKET.md` Git blob `f2ec4ab1429f6e008c284d29f261001f0f4ab6bc`. **PNG:** `SCHEMIN26_W05_P029_STATE_OF_REALM.png`.
 - **Week 4 comparator(s):** P029. Three-division illustrated political map and full names.
 - **Atlas / story world:** editorial physical geography; editorial.
@@ -460,6 +518,8 @@ The final pass broke the last lance. Jake Kaloper lowered his green blade and ac
 
 
 ## P030 — Pitty's Book
+
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **PITTY'S BOOK**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: No required owner avatar. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
 
 - **Source:** `memo-os/week-5/pages/P030-pittys-book/PAGE_PACKET.md` Git blob `b2063642747025cab7b9c9d10565518c719a8e1f`. **PNG:** `SCHEMIN26_W05_P030_PITTYS_BOOK.png`.
 - **Week 4 comparator(s):** P021, P022, P023, P024, P031. Ornate financial architecture and receipt-legible settlement; all inputs deferred.
@@ -476,6 +536,8 @@ The final pass broke the last lance. Jake Kaloper lowered his green blade and ac
 
 ## P031 — Waiver Wire and Transactions
 
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **WAIVER WIRE & TRANSACTIONS**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: No required owner avatar. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
+
 - **Source:** `memo-os/week-5/pages/P031-waiver-transactions/PAGE_PACKET.md` Git blob `20bb471255e3dc74a39519a8a1ea81d1e5d6c589`. **PNG:** `SCHEMIN26_W05_P031_WAIVER_TRANSACTIONS.png`.
 - **Week 4 comparator(s):** P003, P030, P031. Visual hierarchy for exact waiver/transaction receipts.
 - **Atlas / story world:** editorial physical geography; editorial.
@@ -490,6 +552,8 @@ The final pass broke the last lance. Jake Kaloper lowered his green blade and ac
 
 
 ## P032 — The Final Word
+
+**LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK (overrides legacy naming and PDF staging):** Large on-image header exactly **THE FINAL WORD**; NO dominant repeated SCHEMIN ’26 masthead; required subjects: No required owner avatar. Read `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json` and reject art that fails species, wardrobe or header. **No new artwork authorized until a real original-subject conditioning pass.**
 
 - **Source:** `memo-os/week-5/pages/P032-final-word/PAGE_PACKET.md` Git blob `65ded33939e838c8415cf617f163d2be4585835a`. **PNG:** `SCHEMIN26_W05_P032_FINAL_WORD.png`.
 - **Week 4 comparator(s):** P033. Visually memorable object continuity and final editorial prose.
