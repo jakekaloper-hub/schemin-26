@@ -6,7 +6,7 @@
 Conditional bogging, recovery or humiliation based on final result.
 
 **Atlas:** `LOC-SLOB-FOOTHILL-CAMP`. **Characters:** CHAR-JORDAN-HOLLINGSHEAD / CHAR-BEN-WHIPPLE.
-**Mandatory guard:** Seven Chins leads provisionally 168.76 vs Slob 100.20; Josh Allen active.
+**Mandatory guard:** Seven Deadly Chins 170.46 / Slob on my Dobb 134.70 (Week 5 provisional, FLAIM 2026-10-13). Josh Allen's Week 5 NFL game has completed; fantasy winner remains UNDECIDED.
 
 ## Governing sources
 - `memo-os/week-5/WEEK_5_MATCHUP_VISUAL_BRAINSTORM_HARDENED_2026-10-11.md` (creative premise)
