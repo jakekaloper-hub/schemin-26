@@ -76,3 +76,21 @@ Six provisional points leaders, 24 revised manuscript packets, and a simulated e
 Next production lanes: construct a 21-page PROOF shell mapped to all 32 source pages without dropping six winner-POV overtures or any story beats; perform 390px text-overflow QA; verify exact character source hash and actual renderer mount before final owner-character art; integrate rankings, Pitty, waivers and Week 6 with source receipts; render and independently audit final PDF. A proof-only artifact must not be represented as the official Memo.
 
 State: PRODUCTION_AUTHORIZED / CANON_ART_BLOCKED / RESULT_CERTIFICATION_PENDING / PUBLICATION_HOLD.
+
+## 2026-10-13 individual page-generation staging acceptance
+
+**Implemented:** 32/32 source PAGE_PACKETs have uniquely scoped page-execution staging sections. P004–P027 preserve all 24 candidate cinematic manuscripts; P001–P003 and P028–P032 now include exact editorial staging. P030 Pitty receipts are expressly deferred to October 14 by Commissioner instruction; its layout and settlement formula are ready but no outcomes asserted.
+
+**Fact/data closure for preparation:** Connected FLAIM Week 5 summary + player detail were cross-compared by team; all 12 teams' 10 starter scores sum to the displayed `pointsByScoringPeriod[5]` to the cent. The six official winner fields remain `UNDECIDED`, standings are still through Week 4. Week 6 six fixtures are identified, but GOTW is not selected. Corrected pre-final Rams–Bills player statistics in source P026/P027 and current PDF proof. Source records are `production-evidence/WEEK_5_12_TEAM_STARTER_SUM_AND_WEEK6_FIXTURES_2026-10-13.json`.
+
+**Character/source closure for preparation:** 12 unique Commissioner primary art files located in GitHub with exact paths and Git blob IDs; source bytes, raw SHA-256, provider reference mounts and subject bindings are **NOT** proven, so `CANON_ART_BLOCKED` survives. Source metadata are `production-evidence/WEEK_5_CHARACTER_SOURCE_ASSET_RECEIPTS_2026-10-13.json`.
+
+**TESTED:** Six deterministic test functions added in `tests/test_week5_individual_page_staging.py`, executed in existing `Weekly Memo Authority CI`: GitHub Actions run `38348410832`, job `115135037833`, "Test Week 5 individual page staging" = **success**. This is not art, NFL, author, mobile composition or Umpire acceptance. Corrected 32-page PDF preview: 32/32 extractable pages, 390px contact sheet rerendered, 149,845 bytes, SHA-256 `2153a6360d0400cea3cbf881308f1251f26d3ee346e98c46068c5892a1fae526`; session output only.
+
+**AUDITED:** Source-page staging structurally validated; full image/canon QA, authenticated Director runtime and true independent Umpire remain unverified. No automatic final standings/payoff promotion from the scored starter sums. Netlify novel-site preview is a separate failed check (missing `novel/book` publish directory); not a Memo PDF error, but total PR check status is not all-green.
+
+**PROMOTED:** Only the page-prep instructions, corrected source facts, acceptance suite and factual receipts into PR #152. Neither manifest `render_eligible` state nor final pagination nor any physical page receives publication approval.
+
+**BLOCKED:** 6 official ESPN winners; raw-byte/mount/subject binding; selected NFL source claims not individually reverified; commissioner Week 6 GOTW/editorial power rankings lock; finalized page-image/390px QA; independent Umpire; P030 tickets; publication. **Commissioner external inputs:** Pitty actual tickets tomorrow; any final pagination/GOTW decision not already approved in master. Do not reopen existing six scenes or cover.
+
+**NEXT AUTOMATIC ACTION:** process P001 individually when character conditioning is actually proven; meanwhile finish reversible deterministic copy/layout receipts for other 31 pages, independent checks and result-neutral frames. See master packet's 2026-10-13 individual page invocation contract.
