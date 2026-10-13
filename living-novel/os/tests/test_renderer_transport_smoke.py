@@ -1,10 +1,10 @@
 """Offline execution-readiness smoke test: validates adapter→transport receipt boundary without spending a render."""
 from hashlib import sha256
-import json, importlib.util
+import json, importlib.util, sys
 from pathlib import Path
 root=Path(__file__).parents[3]
 tp=root/"living-novel/os/transports/renderer_transport.py"
-spec=importlib.util.spec_from_file_location("transport",tp); t=importlib.util.module_from_spec(spec); spec.loader.exec_module(t)
+spec=importlib.util.spec_from_file_location("transport",tp); t=importlib.util.module_from_spec(spec); sys.modules[spec.name] = t; spec.loader.exec_module(t)
 workflow={
  "job_id":"SMOKE-NONCANON-001","adapter":"novel-os-comfyui/v1","native_graph":{"1":{"class_type":"SaveImage","inputs":{}}},
  "provenance":{"references":[]},"control_modules":[],"output":{"width":64,"height":64,"format":"png"},

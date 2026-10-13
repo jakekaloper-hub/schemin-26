@@ -1,4 +1,9 @@
 import unittest
+import sys
+from pathlib import Path
+# This release-candidate package has a hyphenated directory name; resolve
+# its sibling modules explicitly for repository-root pytest collection.
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from records import RECORDS,ASSETS
 from registry import compile_index,resolve
 from models import CharacterRecord,Layer,QACheck
