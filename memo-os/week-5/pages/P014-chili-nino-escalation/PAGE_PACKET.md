@@ -55,3 +55,11 @@ Wind drove red dust between the buildings. Watson's two touchdowns and Brissett'
 - **Canon/causality rejects:** The Dark Horse must remain a black horse. El Niño is a weather visitor, never a sheriff. Chili is spilled by El Niño, and town/stable remain. No unapproved persistent Atlas change.
 - **Result handling:** Approved setup/escalation may remain outcome-neutral while fantasy settlement is pending.
 - **Accept only on evidence:** matching owner-specific SHA-256s, actual mounted-byte/subject-binding receipts, source-backed NFL data if mentioned, Atlas/costume/anatomy visual inspection, rendered text at full/390px, full-name typography scan and independent Umpire pass. Otherwise maintain `render_eligible=false`.
+
+## Commissioner 2026-10-13 hard render correction: species and visible header
+
+**Top-priority override** on this page, superseding older PDF-first and generic masthead language: exactly one complete 1024×1536 PNG with full illustrated art and legible integrated text. **Primary visible reader-facing header: El Niño at Chili Cheesers.** Never replace it with an oversized `SCHEMIN ’26` banner. Secondary literary scene heading follows the matchup header.
+
+**Physical identity, not team-name guesswork:** CHAR-MANNING-WELTY / STORM_ELEMENTAL_HUMANOID / SHA-256 b5b0b10e06cf0598bdc9e3501c170d14529bdb4dee31f8ee3453a40048a6099c; CHAR-BRANDON-PRYOR / HUMAN_WESTERN_OUTLAW / SHA-256 17ee4bcfcd774ac649ca96df01522f16d7c4fd626f9bdd047faefa3a4d381319. 
+
+**Absolute visual rejects:** sheriff; normal human; surfer; sheriff character; generic chili mascot; horse missing or wrong color when shown. Confirm canonical original mounted as each distinct subject, compare actual generated pixels with original subject, inspect 390px title legibility, Atlas continuity and page-to-page costume, and obtain independent Umpire acceptance. A renderer missing conditioning proof may run an explicitly failed experiment but MUST NOT produce an accepted page. **P009 original art was REJECTED** for human hunter substitution plus bad title; `WEEK_5_P009_REJECTION_AND_32_PAGE_RENDER_CORRECTION_2026-10-13.md` is the receipt. No manuscript rewrites and no final winner declarations without Fact Lock.
