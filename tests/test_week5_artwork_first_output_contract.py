@@ -98,6 +98,91 @@ def test_fidelity_scores_never_override_character_identity_gate():
     assert ref["proof_status"]["page"] == "P002"
     assert ref["proof_status"]["state"] == "FAILED_W4_FIDELITY"
 
+
+def _character_title_contract():
+    return json.loads((WEEK5 / "production-evidence" / "WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json").read_text(encoding="utf-8"))
+
+def test_exact_32_visible_titles_and_no_repeated_dominant_masthead():
+    m = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    c = _character_title_contract()
+    assert len(m["pages"]) == len(c["pages"]) == 32
+    assert [x["page_id"] for x in c["pages"]] == [x["page_id"] for x in m["pages"]]
+    for p, expected in zip(m["pages"], c["pages"]):
+        assert p["reader_facing_primary_header"] == expected["display_header"]
+        assert p["primary_header_brand_policy"] == expected["league_wordmark_policy"]
+        assert p["reader_facing_primary_header_priority"] == "REQUIRED_TOP_TEXT_ON_PAGE"
+        assert p["render_eligible"] is False
+        assert expected["accepted_final_art"] is False
+        if int(p["page_id"][1:]) != 1:
+            assert p["primary_header_brand_policy"] == "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD"
+    assert m["pages"][0]["reader_facing_primary_header"] == "FOR DA BEARS"
+    assert m["pages"][1]["reader_facing_primary_header"] == "THE LAND REMEMBERS"
+    assert m["pages"][8]["reader_facing_primary_header"] == "The LLC. at Mud Dogs"
+
+def test_each_matchup_primary_header_matches_actual_home_and_away():
+    m = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    waves = m["matchup_waves"]
+    assert len(waves) == 6
+    for wave in waves:
+        expected = f"{wave['away']} at {wave['home']}"
+        assert len(wave["page_ids"]) == 4
+        for page_id in wave["page_ids"]:
+            p = next(x for x in m["pages"] if x["page_id"] == page_id)
+            assert p["reader_facing_primary_header"] == expected, page_id
+
+def test_all_32_page_preflights_enforce_character_and_title():
+    m = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    script = (WEEK5 / "production-evidence" / "WEEK_5_ORDERED_PNG_PRODUCTION_SCRIPT_2026-10-13.md").read_text(encoding="utf-8")
+    for p in m["pages"]:
+        content = (ROOT / p["packet_path"]).read_text(encoding="utf-8")
+        assert content.count("## Commissioner 2026-10-13 hard render correction: species and visible header") == 1, p["page_id"]
+        assert p["reader_facing_primary_header"] in content
+        assert "NO" in content or "not" in content.lower()
+        assert f"## {p['page_id']} —" in script
+        assert f"LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK" in script
+    assert script.count("LATEST COMMISSIONER 2026-10-13 TITLE / CHARACTER LOCK") == 32
+
+def test_original_mud_dogs_subject_species_and_llc_costume_survive_all_swamp_pages():
+    c = _character_title_contract()
+    d = c["owner_visual_invariants"]["CHAR-BOBBY-MITCHELL"]
+    llc = c["owner_visual_invariants"]["CHAR-DAVID-BABB"]
+    assert d["species"] == "MONSTROUS_QUADRUPED_CANINE"
+    assert "FOUR" not in d["species"] or "QUADRUPED" in d["species"]
+    assert "human body" in d["reject"] and "human torso" in d["reject"]
+    assert "shotgun-bearing human" in d["reject"]
+    assert llc["species"] == "HUMAN_CORPORATE_RAIDER"
+    for n in range(8, 12):
+        p = c["pages"][n-1]
+        text = (ROOT / json.loads(MANIFEST.read_text(encoding="utf-8"))["pages"][n-1]["packet_path"]).read_text(encoding="utf-8")
+        assert p["display_header"] == "The LLC. at Mud Dogs", n
+        assert set(p["owner_character_ids"]) == {"CHAR-DAVID-BABB", "CHAR-BOBBY-MITCHELL"}
+        assert "FOR DA BEARS" in text
+        assert "human" in text.lower()
+    assert c["pages"][8]["secondary_scene_headline"] == "INDUSTRIAL FORCES ARRIVE"
+
+def test_mud_dogs_uploaded_original_byte_identity_equals_registered_git_source():
+    source = json.loads((WEEK5 / "production-evidence" / "WEEK_5_CHARACTER_SOURCE_ASSET_RECEIPTS_2026-10-13.json").read_text(encoding="utf-8"))
+    entry = next(x for x in source["assets"] if x["character_id"] == "CHAR-BOBBY-MITCHELL")
+    assert entry["raw_sha256"] == "462e5d6517b5653458c8d32c20692e94d037b134de7aac18325c1af41647eefc"
+    c = _character_title_contract()
+    assert c["pages"][8]["owner_reference_requirements"][1]["raw_sha256"] == entry["raw_sha256"]
+    assert c["pages"][8]["rendering_provenance"] == "NOT_PROVEN"
+
+def test_commissioner_rejection_is_binding_and_not_promoted():
+    m = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    c = _character_title_contract()
+    p = m["pages"][8]
+    assert p["page_id"] == "P009"
+    assert p["page_specific_art_rejection"] == "REJECTED_BOBBY_SPECIES_AND_MATCHUP_HEADER"
+    assert p["image_artifact_status"] != "ACCEPTED_FINAL"
+    assert p["render_eligible"] is False
+    assert c["page_rejection"]["verdict"] == "REJECTED"
+    assert len(c["page_rejection"]["failure_codes"]) == 3
+    report = (WEEK5 / "production-evidence" / "WEEK_5_P009_REJECTION_AND_32_PAGE_RENDER_CORRECTION_2026-10-13.md").read_text(encoding="utf-8")
+    assert "FATAL CANON SUBJECT REPLACEMENT" in report
+    assert "FATAL HEADER HIERARCHY" in report
+    assert "462e5d6517b5653458c8d32c20692e94d037b134de7aac18325c1af41647eefc" in report
+
 if __name__ == "__main__":
     checks = [v for name, v in sorted(globals().items()) if name.startswith("test_") and callable(v)]
     for check in checks:
