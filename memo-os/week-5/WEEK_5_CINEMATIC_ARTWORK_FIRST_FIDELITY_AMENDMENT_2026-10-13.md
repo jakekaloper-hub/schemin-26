@@ -32,7 +32,7 @@ Commissioner provided the official `Pro_Schemin_26_Week_4_Official_Memo(3).pdf`,
 
 1. **Dark Wizard Chess** — P004–P007; temporary monumental chessboard within `LOC-COMPACT-NEUTRAL-GROUNDS`; one exactly three-headed serpent body and the actual Belt Keeper; no permanent capture of neutral ground.
 2. **Save the Swamp** — P008–P011; `LOC-MUD-DOGS-SWAMP`; wetland household, bulldozers, partial local damage, Mud Dogs' emotional exit, bounded aftermath.
-3. **A Storm Comes to Town** — P012–P015; `LOC-CHILI-STABLE`; Chile Outlaw's spoiled chili pot, Dark Horse and arriving El Niño weather; no sheriff.
+3. **A Storm Comes to Town** — P012–P015; `LOC-CHILI-STABLE`; Chili Outlaw's spoiled chili pot, Dark Horse and arriving El Niño weather; no sheriff.
 4. **David vs Goliath** — P016–P019; `LOC-COUNTRY-CLUB-JACKSON`; true duck-faced Dr. Duckhook with fused-right-arm driver vs one **four-legged** gorilla/Arsenal centaur body.
 5. **After the Storm** — P020–P023; `LOC-SLOB-FOOTHILL-CAMP`; rainy-dusk real Jeeps and genuine muddy foothills, no unapproved trucks.
 6. **Champions' Joust** — P024–P027; `LOC-RED-RUINS`; temporary medieval tournament architecture, no belt on ObiWan Jacoby, original clever herald/crowd easter egg, no film-copied frames.
