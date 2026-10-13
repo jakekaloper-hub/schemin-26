@@ -28,3 +28,5 @@ jobs:
         run: python governance/publication-manifest/test_memo_reference_resolver.py
       - name: Test Week 5 individual page staging
         run: python tests/test_week5_individual_page_staging.py
+      - name: Test Week 5 artwork-first image delivery contract
+        run: python tests/test_week5_artwork_first_output_contract.py
