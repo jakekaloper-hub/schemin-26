@@ -40,7 +40,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-Mud Dogs stood near the porch, listening to the roots shift beneath the water. A child's forgotten object lay in the foreground; behind it the first bulldozer made the marsh look suddenly small. The LLC called its plan infrastructure. Mud Dogs knew the channels carried floodwater away from homes downstream, and he would not allow a neat diagram to erase that fact.
+Mud Dogs stood near the porch, listening to the roots shift beneath the water. A child's forgotten object lay in the foreground; behind it the first bulldozer made the marsh look suddenly small. David Babb called its plan infrastructure. Mud Dogs knew the channels carried floodwater away from homes downstream, and he would not allow a neat diagram to erase that fact.
 
 **Visual coordination from approved page brief:** - **Shot:** extreme low-angle machinery procession from swamp bank; foreground tiny marsh plants and Mud Dogs' personal object; middle ground advancing machines and surveyors; background forest canopy, fog and corporate floodlights. Corporate plans must remain legible as a rational development motive.
 
