@@ -2,6 +2,27 @@
 
 **Status:** EDITORIAL DRAFT / NOT FACT LOCKED / NO WINNER SELECTED. Authored production material, not authenticated Beat Writer or Author Council output. Source: verified Atlas IDs/routes, owner packages, Commissioner scene approval and PR #150 shell doctrine. The narratives are candidate treatments; no outcomes or permanent world deltas asserted.
 
+## Post-MNF editorial activation — 2026-10-13
+
+**Status:** NFL Monday box score now available through StatsHawk; ESPN/Flaim Week 5 `pointsByScoringPeriod[5]` populated but `winner=UNDECIDED`, `totalPoints=0` for all six. Therefore the following are **provisional points leaders**, not officially certified winners. Conditional winner-specific endings may be developed as labelled provisional branches, but no final Umpire/publishing promotion.
+
+| Host | Visitor | Period fantasy points (host–visitor) | Provisional points leader | Outcome branch to prepare |
+| --- | --- | --- | --- | --- |
+| Three Dreaded Snake | His Majesty's Blood | 85.34–113.45 | His Majesty's Blood | HMB chess victory, belt retained; no permanent empire |
+| Mud Dogs | The LLC | 127.09–193.73 | The LLC | LLC development pressure wins; swamp only partially/reversibly damaged |
+| The Chili Cheesers | El Niño | 183.53–156.70 | The Chili Cheesers | Chili Outlaw survives high-noon duel; Dark Horse and no sheriff |
+| Dr. Duckhook | D0nkey K0ng | 184.91–141.44 | Dr. Duckhook | Golf-domain upset over Arsenal centaur; no anatomy drift |
+| Slob on my Dobb | Seven Deadly Chins | 134.70–170.46 | Seven Deadly Chins | Jeep mudding result, heavy rain at dusk; no pickup trucks |
+| Red Leopards | ObiWan Jacoby | 110.42–154.42 | ObiWan Jacoby | Trade Jedi joust victory, no belt; temporary tournament |
+
+**Monday NFL evidence (StatsHawk Rams–Bills, contest `cst_06ggjqdamdza1fjhsn914r7kcg`, refreshed 2026-10-13):** Puka Nacua 14 receptions/19 targets, 96 receiving yards, 1 receiving TD plus 9 rushing yards; Matthew Stafford 31/42, 274 passing yards, 3 passing TD, 0 INT; Kyren Williams 13 rushes/45 yards, 3 catches/10 yards; Josh Allen 8/15, 129 passing yards, 1 passing TD, 1 INT, plus 53 rushing yards and 1 rushing TD; James Cook III 16 rushes/90 yards/1 TD, 1 catch/7 yards. These are **NFL box-score figures**, not fantasy points. The sports provider's game status was still `in_progress` at initial read despite returning player lines; reconfirm FINAL before NFL game-state certification.
+
+**Manuscript pivots:** In Champions' Joust, Puka's 14 catches and Stafford's three passing TDs become the repeated charge and decisive sustained pressure from ObiWan, while Red's Kyren Williams cannot match that momentum; the winner POV remains provisional. In A Storm Comes to Town, Cook's 90 rushing yards and score add genuine late pressure to El Niño's weather front despite Chili's provisional points lead. In After the Storm, Josh Allen's rushing score and interception create a credible counterpunch and risk for Slob, despite the Seven Deadly Chins points lead. None of these real NFL players physically replaces a league-owner character in artwork.
+
+**Next gates:** recheck provider winner after settlement; verify final NFL Monday game status; reconcile individual P004–P027 full-page prose/shot packets; source any contemporary NFL news used; independent authenticated Scout/Beat Writer/Author Council/Librarian/Umpire acceptance. No manufactured ACK.
+
+---
+
 ## 1. Dark Wizard Chess
 **Host:** TDS; **visitor:** HMB; **LOC_ID:** `LOC-COMPACT-NEUTRAL-GROUNDS`; **REGION_ZONE:** `REG-CENTRAL-BASIN`.
 
