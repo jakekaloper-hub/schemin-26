@@ -254,3 +254,131 @@ The thunder passed down the street without taking the town. The Outlaw remained 
 Dr. Duckhook studied the practice green while the clubhouse was still quiet. His right arm ended in the driver he could never set down. Across the course, the Arsenal centaur's four iron-shod hooves made the distant figure look larger than the trees. Dr. Duckhook knew every bunker; he did not yet know whether that knowledge would matter.
 
 **Production preflight:** One 1024×1536 full-bleed sRGB PNG, complete integrated typography and art. Preserve full team names, attached current character versions, true Atlas landforms and adjacent-page continuity. Winner-viewpoint / victor gesture is conditional until Week 5 matchup result becomes official. Test at native size and 390px against specific Week 4 comparator; require real independent Umpire page verdict; keep final lock on HOLD until evidence exists.
+
+
+## P017 — Dr. Duckhook versus D0nkey K0ng — Cinematic Setup
+
+- **Page source:** `memo-os/week-5/pages/P017-duck-dk-setup/PAGE_PACKET.md`; blob `b8633746af1cb0cff4d66330239ddc24cfd79e66`.
+- **Deliverable:** `SCHEMIN26_W05_P017_DUCK_DK_SETUP.png` (opaque sRGB 1024×1536 with cinematic image and legible pixel-integrated masthead/body).
+- **Week 4 visual benchmark:** P013, P014. Visually specific owner confrontation in a consistent venue.
+- **Venue / genre:** `LOC-COUNTRY-CLUB-JACKSON` / David vs Goliath.
+- **Owner-originals:** `CHAR-ZACH-WILSON` SHA-256 `5ff6fc4fc0b2f37d76bbab8651400478e37a709418867b0fd111c993762f9eda`; `CHAR-WILSON-LOOK` SHA-256 `c4ef045845641e6e2067d1ed82be20b9a0fd154c41aff0bfec4c2e36d26d319d`. Provider mount/subject binding remains unproven, so this is not authorized final character art.
+- **Exact shot preflight:** - **Shot:** huge centaur in background, golfer in foreground, country-club hazards clearly legible.
+
+**Existing integrated narrative manuscript (editorial candidate; not independently author-approved):**
+
+Groundskeepers moved behind the hedges as D0nkey K0ng crossed the first fairway. Red Arsenal cloth snapped against the centaur's gorilla torso. Dr. Duckhook stood beside the tee, small against the immaculate sweep of grass, and watched the giant misjudge the slope near the water hazard. The course was not a battlefield until the visitor made it one.
+
+**Page acceptance:** original approved scene, camera scale, host geography, verified facts, separate owner identities and temporal canon; legible headline/narration in pixels; full resolution + 390px visual check vs Week 4; correct setup-to-payoff continuity; true independent Umpire.  No PDF production by Bullpen.
+
+
+## P018 — Dr. Duckhook versus D0nkey K0ng — Cinematic Escalation
+
+- **Page source:** `memo-os/week-5/pages/P018-duck-dk-escalation/PAGE_PACKET.md`; blob `1914c2d73774d66af7a9c2ab1c75c1ce59006455`.
+- **Deliverable:** `SCHEMIN26_W05_P018_DUCK_DK_ESCALATION.png` (opaque sRGB 1024×1536 with cinematic image and legible pixel-integrated masthead/body).
+- **Week 4 visual benchmark:** P013, P015. Physically credible movement and landmark/costume continuity.
+- **Venue / genre:** `LOC-COUNTRY-CLUB-JACKSON` / David vs Goliath.
+- **Owner-originals:** `CHAR-ZACH-WILSON` SHA-256 `5ff6fc4fc0b2f37d76bbab8651400478e37a709418867b0fd111c993762f9eda`; `CHAR-WILSON-LOOK` SHA-256 `c4ef045845641e6e2067d1ed82be20b9a0fd154c41aff0bfec4c2e36d26d319d`. Provider mount/subject binding remains unproven, so this is not authorized final character art.
+- **Exact shot preflight:** - **Shot:** ball arc above course, four equine legs in midground, fused right-arm driver clearly visible.
+
+**Existing integrated narrative manuscript (editorial candidate; not independently author-approved):**
+
+The hooves cut four tracks through the turf. Maye's four passing touchdowns and rushing score, with Gibbs' two rushing touchdowns, had supplied Dr. Duckhook's fantasy force; McBride's touchdown reminded him that the giant could answer. Dr. Duckhook swung his fused driver and sent the ball into a high arc over the centaur's reach. He had chosen the air because the ground belonged to the bigger fighter.
+
+**Page acceptance:** original approved scene, camera scale, host geography, verified facts, separate owner identities and temporal canon; legible headline/narration in pixels; full resolution + 390px visual check vs Week 4; correct setup-to-payoff continuity; true independent Umpire.  No PDF production by Bullpen.
+
+
+## P019 — Dr. Duckhook versus D0nkey K0ng — Cinematic Payoff
+
+- **Page source:** `memo-os/week-5/pages/P019-duck-dk-payoff/PAGE_PACKET.md`; blob `319b821437f86d1092af6402564cad09ab9fd648`.
+- **Deliverable:** `SCHEMIN26_W05_P019_DUCK_DK_PAYOFF.png` (opaque sRGB 1024×1536 with cinematic image and legible pixel-integrated masthead/body).
+- **Week 4 visual benchmark:** P013, P016. Verified outcome-driven consequence integrated with scenery.
+- **Venue / genre:** `LOC-COUNTRY-CLUB-JACKSON` / David vs Goliath.
+- **Owner-originals:** `CHAR-ZACH-WILSON` SHA-256 `5ff6fc4fc0b2f37d76bbab8651400478e37a709418867b0fd111c993762f9eda`; `CHAR-WILSON-LOOK` SHA-256 `c4ef045845641e6e2067d1ed82be20b9a0fd154c41aff0bfec4c2e36d26d319d`. Provider mount/subject binding remains unproven, so this is not authorized final character art.
+- **Exact shot preflight:** - **Shot:** low-angle ball flight, authentic four-legged Arsenal centaur, Duckhook driver fused to right arm.
+
+**Existing integrated narrative manuscript (editorial candidate; not independently author-approved):**
+
+The ball cleared the Arsenal centaur and vanished beyond the final bunker. Dr. Duckhook lowered the driver that was part of his body. The giant remained enormous and dignified, four hooves planted in the torn grass, but the smaller figure had won the exchange. The groundskeepers would repair the divots. They would not forget the shot.
+
+**Page acceptance:** original approved scene, camera scale, host geography, verified facts, separate owner identities and temporal canon; legible headline/narration in pixels; full resolution + 390px visual check vs Week 4; correct setup-to-payoff continuity; true independent Umpire. Final winning POV/payoff is conditional pending ESPN certified result. No PDF production by Bullpen.
+
+
+## P020 — Seven Deadly Chins versus Slob on my Dobb — Winner-POV Overture
+
+- **Page source:** `memo-os/week-5/pages/P020-chins-slob-overture/PAGE_PACKET.md`; blob `3c0f074fbc92ad03dd466217afbb544b3f2765e7`.
+- **Deliverable:** `SCHEMIN26_W05_P020_CHINS_SLOB_OVERTURE.png` (opaque sRGB 1024×1536 with cinematic image and legible pixel-integrated masthead/body).
+- **Week 4 visual benchmark:** P009, P025. Prose-first cinematic establishing geography without spoiler.
+- **Venue / genre:** `LOC-SLOB-FOOTHILL-CAMP` / After the Storm.
+- **Owner-originals:** `CHAR-BEN-WHIPPLE` SHA-256 `291cdcdb8cb7504f66b556208c774d88dec0979e6fe25c68783b272541c63f70`; `CHAR-JORDAN-HOLLINGSHEAD` SHA-256 `535d984397cd7aeeda0b83b652d35b4975fd4c0f6c52230174201720ec41a655`. Provider mount/subject binding remains unproven, so this is not authorized final character art.
+- **Exact shot preflight:** - **Image:** prose-first twilight rain, hillside silhouettes, Jeep headlights and spectators; no result cue.
+
+**Existing integrated narrative manuscript (editorial candidate; not independently author-approved):**
+
+Seven Deadly Chins listened to rain strike the Jeep roof at the edge of the foothills. The road was almost gone beneath the runoff. He had brought a convoy because he trusted machines that could be repaired, and a hammer because he trusted work he could do himself. Somewhere ahead, Jordan Hollingshead's camp lights shook in the downpour.
+
+**Page acceptance:** original approved scene, camera scale, host geography, verified facts, separate owner identities and temporal canon; legible headline/narration in pixels; full resolution + 390px visual check vs Week 4; correct setup-to-payoff continuity; true independent Umpire. Final winning POV/payoff is conditional pending ESPN certified result. No PDF production by Bullpen.
+
+
+## P021 — Seven Deadly Chins versus Slob on my Dobb — Cinematic Setup
+
+- **Page source:** `memo-os/week-5/pages/P021-chins-slob-setup/PAGE_PACKET.md`; blob `38020effdac36f97694109bbc741107f31d0c5af`.
+- **Deliverable:** `SCHEMIN26_W05_P021_CHINS_SLOB_SETUP.png` (opaque sRGB 1024×1536 with cinematic image and legible pixel-integrated masthead/body).
+- **Week 4 visual benchmark:** P009, P026. Visually specific owner confrontation in a consistent venue.
+- **Venue / genre:** `LOC-SLOB-FOOTHILL-CAMP` / After the Storm.
+- **Owner-originals:** `CHAR-BEN-WHIPPLE` SHA-256 `291cdcdb8cb7504f66b556208c774d88dec0979e6fe25c68783b272541c63f70`; `CHAR-JORDAN-HOLLINGSHEAD` SHA-256 `535d984397cd7aeeda0b83b652d35b4975fd4c0f6c52230174201720ec41a655`. Provider mount/subject binding remains unproven, so this is not authorized final character art.
+- **Exact shot preflight:** - **Shot:** symmetrical low frontal frame of two Jeeps; foreground pooled mud; middle ground owners/vehicles; background spectators under wet tarps and storm-dark ridges; preserve visible character identity rather than replacing characters with vehicles.
+
+**Existing integrated narrative manuscript (editorial candidate; not independently author-approved):**
+
+Slob on my Dobb stood by the flooded track with his bat, daring the visitors to cross. The first Jeep entered the mud; its tires dug down instead of forward. Seven Deadly Chins saw the rut and waved the second driver toward the higher bank. Rain flattened the grass and hid the depth of the water from both sides.
+
+**Page acceptance:** original approved scene, camera scale, host geography, verified facts, separate owner identities and temporal canon; legible headline/narration in pixels; full resolution + 390px visual check vs Week 4; correct setup-to-payoff continuity; true independent Umpire.  No PDF production by Bullpen.
+
+
+## P022 — Seven Deadly Chins versus Slob on my Dobb — Cinematic Escalation
+
+- **Page source:** `memo-os/week-5/pages/P022-chins-slob-escalation/PAGE_PACKET.md`; blob `eb830488c9433f28ffe2b5e9ce86affcbfde7852`.
+- **Deliverable:** `SCHEMIN26_W05_P022_CHINS_SLOB_ESCALATION.png` (opaque sRGB 1024×1536 with cinematic image and legible pixel-integrated masthead/body).
+- **Week 4 visual benchmark:** P009, P027. Physically credible movement and landmark/costume continuity.
+- **Venue / genre:** `LOC-SLOB-FOOTHILL-CAMP` / After the Storm.
+- **Owner-originals:** `CHAR-BEN-WHIPPLE` SHA-256 `291cdcdb8cb7504f66b556208c774d88dec0979e6fe25c68783b272541c63f70`; `CHAR-JORDAN-HOLLINGSHEAD` SHA-256 `535d984397cd7aeeda0b83b652d35b4975fd4c0f6c52230174201720ec41a655`. Provider mount/subject binding remains unproven, so this is not authorized final character art.
+- **Exact shot preflight:** - **Shot:** dynamic side-tracking Jeep climb; foreground muddy spray; middle ground both vehicles and drivers; background rain-obscured hills; low contrast must not destroy character readability.
+
+**Existing integrated narrative manuscript (editorial candidate; not independently author-approved):**
+
+Jaylen Warren's rushing and receiving touchdowns gave Seven Deadly Chins the fantasy momentum to press through the storm; Jones and Allen kept Jordan Hollingshead's side dangerous. A Jeep slipped sideways, headlights catching the horned figure by the camp. Ben Whipple climbed out into the rain, used his hammer to free a buried tow point, and sent the convoy onward by inches.
+
+**Page acceptance:** original approved scene, camera scale, host geography, verified facts, separate owner identities and temporal canon; legible headline/narration in pixels; full resolution + 390px visual check vs Week 4; correct setup-to-payoff continuity; true independent Umpire.  No PDF production by Bullpen.
+
+
+## P023 — Seven Deadly Chins versus Slob on my Dobb — Cinematic Payoff
+
+- **Page source:** `memo-os/week-5/pages/P023-chins-slob-payoff/PAGE_PACKET.md`; blob `d08b0a7856ecb6fb11ef2e1316f149f8faa963ee`.
+- **Deliverable:** `SCHEMIN26_W05_P023_CHINS_SLOB_PAYOFF.png` (opaque sRGB 1024×1536 with cinematic image and legible pixel-integrated masthead/body).
+- **Week 4 visual benchmark:** P009, P028. Verified outcome-driven consequence integrated with scenery.
+- **Venue / genre:** `LOC-SLOB-FOOTHILL-CAMP` / After the Storm.
+- **Owner-originals:** `CHAR-BEN-WHIPPLE` SHA-256 `291cdcdb8cb7504f66b556208c774d88dec0979e6fe25c68783b272541c63f70`; `CHAR-JORDAN-HOLLINGSHEAD` SHA-256 `535d984397cd7aeeda0b83b652d35b4975fd4c0f6c52230174201720ec41a655`. Provider mount/subject binding remains unproven, so this is not authorized final character art.
+- **Exact shot preflight:** - **Shot:** wide split-depth finish/bog composition; **winner and stuck vehicle assignment conditional** on Fact Lock. No invented permanent flood damage.
+
+**Existing integrated narrative manuscript (editorial candidate; not independently author-approved):**
+
+The last Jeep cleared the hill as dusk swallowed the track. Jordan Hollingshead remained by his camp, soaked but unbowed; his home had not vanished with the loss. Seven Deadly Chins looked back at the ruts, already knowing the road would need work tomorrow. The victory belonged to the convoy. The mud belonged to the mountain.
+
+**Page acceptance:** original approved scene, camera scale, host geography, verified facts, separate owner identities and temporal canon; legible headline/narration in pixels; full resolution + 390px visual check vs Week 4; correct setup-to-payoff continuity; true independent Umpire. Final winning POV/payoff is conditional pending ESPN certified result. No PDF production by Bullpen.
+
+
+## P024 — Red Leopards versus ObiWan Jacoby — Winner-POV Overture
+
+- **Page source:** `memo-os/week-5/pages/P024-red-obi-overture/PAGE_PACKET.md`; blob `cdcd70e68c0e4c58bb8bd6a639f964b79b7bb803`.
+- **Deliverable:** `SCHEMIN26_W05_P024_RED_OBI_OVERTURE.png` (opaque sRGB 1024×1536 with cinematic image and legible pixel-integrated masthead/body).
+- **Week 4 visual benchmark:** P004, P017. Prose-first cinematic establishing geography without spoiler.
+- **Venue / genre:** `LOC-RED-RUINS` / Champions' Joust.
+- **Owner-originals:** `CHAR-JAKE-KALOPER` SHA-256 `cc35af31973f2a35fe0231a269923234185f9908a67545d2b2e1190d052ad9a1`; `CHAR-KEVIN-ZEEK` SHA-256 `4752363b8e55dabd530caf74bdeb2da4feaee3870377d96c3c7f5eac7027f32c`. Provider mount/subject binding remains unproven, so this is not authorized final character art.
+- **Exact shot preflight:** - **Image:** prose-first windswept escarpment and tournament lists, banners against storm coast; no winner cue.
+
+**Existing integrated narrative manuscript (editorial candidate; not independently author-approved):**
+
+ObiWan Jacoby approached the Red ruins by the permitted mountain route. His golden retriever walked close beside him, and the green blade stayed unlit. The temporary lists rose between old stones, a tournament assembled for one contest rather than a new fortress. He had come to meet a champion's challenge, not to take a belt he did not own.
+
+**Page acceptance:** original approved scene, camera scale, host geography, verified facts, separate owner identities and temporal canon; legible headline/narration in pixels; full resolution + 390px visual check vs Week 4; correct setup-to-payoff continuity; true independent Umpire. Final winning POV/payoff is conditional pending ESPN certified result. No PDF production by Bullpen.
