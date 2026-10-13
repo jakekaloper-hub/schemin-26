@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "issue": "2026-W5",
+  "checked_at": "2026-10-13",
+  "source": "GitHub contents API, PR #152 working branch; source existence and Git blob identities only",
+  "sha1_is_not_sha256": true,
+  "source_state": "12_OF_12_EXACT_PRIMARY_PATHS_LOCATED",
+  "renderer_mount_state": "NOT_PROVEN",
+  "subject_binding_state": "NOT_PROVEN",
+  "render_permission": "HOLD",
+  "note": "Do not substitute Git blob SHA-1 for raw byte SHA-256 or renderer mounted-byte proof. Each owner must be mounted as a separate original before scene generation.",
+  "assets": [
+    {
+      "character_id": "CHAR-AUSTIN-BYARS",
+      "path": "canon/characters/assets/CHAR-AUSTIN-BYARS/primary/COMMISSIONER_2026-10-12.jpeg",
+      "git_blob_sha1": "aa7e51ab08a31e6595c9c19d5eab67fb107d8dda",
+      "bytes": 238145,
+      "raw_sha256": null,
+      "renderer_mount_receipt": null,
+      "subject_binding_receipt": null
+    },
+    {
+      "character_id": "CHAR-BEN-WHIPPLE",
+      "path": "canon/characters/assets/CHAR-BEN-WHIPPLE/primary/COMMISSIONER_2026-10-12.png",
+      "git_blob_sha1": "37dc961af73085e306a68dd31eb1a8c5460025ae",
+      "bytes": 2726102,
+      "raw_sha256": null,
+      "renderer_mount_receipt": null,
+      "subject_binding_receipt": null
+    },
+    {
+      "character_id": "CHAR-BOBBY-MITCHELL",
+      "path": "canon/characters/assets/CHAR-BOBBY-MITCHELL/primary/COMMISSIONER_2026-10-12.png",
+      "git_blob_sha1": "8d47b202142dae4d697d940c4fab59110b2ea549",
+      "bytes": 3069667,
+      "raw_sha256": null,
+      "renderer_mount_receipt": null,
+      "subject_binding_receipt": null
+    },
+    {
+      "character_id": "CHAR-BRANDON-PRYOR",
+      "path": "canon/characters/assets/CHAR-BRANDON-PRYOR/primary/COMMISSIONER_2026-10-12.png",
+      "git_blob_sha1": "a070a5c0608c9ff0426ff7a90fd6ca2fa8224e6e",
+      "bytes": 3412016,
+      "raw_sha256": null,
+      "renderer_mount_receipt": null,
+      "subject_binding_receipt": null
+    },
+    {
+      "character_id": "CHAR-DAVID-BABB",
+      "path": "canon/characters/assets/CHAR-DAVID-BABB/primary/COMMISSIONER_2026-10-12.png",
+      "git_blob_sha1": "e8866792133fede5ccd2e75e3a9c9fbb71f5668f",
+      "bytes": 2477087,
+      "raw_sha256": null,
+      "renderer_mount_receipt": null,
+      "subject_binding_receipt": null
+    },
+    {
+      "character_id": "CHAR-JAKE-KALOPER",
+      "path": "canon/characters/assets/CHAR-JAKE-KALOPER/primary/COMMISSIONER_2026-10-12.png",
+      "git_blob_sha1": "8d7648fe510f771509e088fb78b80399b25a0425",
+      "bytes": 3187845,
+      "raw_sha256": null,
+      "renderer_mount_receipt": null,
+      "subject_binding_receipt": null
+    },
+    {
+      "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "path": "canon/characters/assets/CHAR-JORDAN-HOLLINGSHEAD/primary/COMMISSIONER_2026-10-12.png",
+      "git_blob_sha1": "362961d4fb6f5bd5878778854b12a5b5bec1104b",
+      "bytes": 2743466,
+      "raw_sha256": null,
+      "renderer_mount_receipt": null,
+      "subject_binding_receipt": null
+    },
+    {
+      "character_id": "CHAR-KEVIN-ZEEK",
+      "path": "canon/characters/assets/CHAR-KEVIN-ZEEK/primary/COMMISSIONER_2026-10-12.png",
+      "git_blob_sha1": "a3255f97169ea33251d04859b58f45539b3b67f9",
+      "bytes": 2720659,
+      "raw_sha256": null,
+      "renderer_mount_receipt": null,
+      "subject_binding_receipt": null
+    },
+    {
+      "character_id": "CHAR-MANNING-WELTY",
+      "path": "canon/characters/assets/CHAR-MANNING-WELTY/primary/COMMISSIONER_2026-10-12.png",
+      "git_blob_sha1": "7536e1ad149bcaca17f663f9e97b819bd36e13fa",
+      "bytes": 2950604,
+      "raw_sha256": null,
+      "renderer_mount_receipt": null,
+      "subject_binding_receipt": null
+    },
+    {
+      "character_id": "CHAR-PHILLIP-PITTS",
+      "path": "canon/characters/assets/CHAR-PHILLIP-PITTS/primary/COMMISSIONER_2026-10-12.jpeg",
+      "git_blob_sha1": "61065d0ee5dbffb750da9aeea3f64e664f38a1be",
+      "bytes": 200005,
+      "raw_sha256": null,
+      "renderer_mount_receipt": null,
+      "subject_binding_receipt": null
+    },
+    {
+      "character_id": "CHAR-WILSON-LOOK",
+      "path": "canon/characters/assets/CHAR-WILSON-LOOK/primary/COMMISSIONER_2026-10-12.png",
+      "git_blob_sha1": "cce192725a9b7f452072884bc13aa41833ddad0c",
+      "bytes": 2209166,
+      "raw_sha256": null,
+      "renderer_mount_receipt": null,
+      "subject_binding_receipt": null
+    },
+    {
+      "character_id": "CHAR-ZACH-WILSON",
+      "path": "canon/characters/assets/CHAR-ZACH-WILSON/primary/COMMISSIONER_2026-10-12.png",
+      "git_blob_sha1": "182c2c6530ea52e06cd9aab0aebb44fab16398d2",
+      "bytes": 2845619,
+      "raw_sha256": null,
+      "renderer_mount_receipt": null,
+      "subject_binding_receipt": null
+    }
+  ]
+}
