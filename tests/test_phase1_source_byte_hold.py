@@ -2,6 +2,8 @@ import json
 import pathlib
 import unittest
 
+from canon.characters.runtime.source_byte_integrity import verify_source_bytes
+
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 PLAN=ROOT/"planning"/"character-native-render"
 REG=json.loads((ROOT/"canon"/"characters"/"reference_sources_v1.json").read_text())
@@ -35,9 +37,18 @@ class Phase1SourceByteHoldTests(unittest.TestCase):
         self.assertEqual(gap["status"],"HOLD_AUTHORIZED_RAW_BYTE_EXPORT_UNAVAILABLE")
         self.assertEqual(gap["blocker_type"],"provider_capability")
 
-    def test_phase1_probe_would_not_pass_without_all_repo_assets(self):
+    def test_phase1_probe_reports_actual_remote_asset_recovery(self):
+        # Do not assert that the repository is permanently empty: recovered
+        # original bytes must increment coverage without breaking the gate.
         missing=[ROOT/x["repository_path"] for x in REG["entries"] if not (ROOT/x["repository_path"]).exists()]
-        self.assertEqual(len(missing),12)
+        report=verify_source_bytes()
+        self.assertEqual(report["source_bytes_required_count"], len(missing))
+        self.assertEqual(report["pass_count"] + report["source_bytes_required_count"], len(REG["entries"]))
+        self.assertEqual(report["blocked_count"], 0)
+        self.assertEqual(
+            report["state"],
+            "PASS" if not missing else "SOURCE_BYTES_REQUIRED",
+        )
 
 if __name__=="__main__":
     unittest.main(verbosity=2)
