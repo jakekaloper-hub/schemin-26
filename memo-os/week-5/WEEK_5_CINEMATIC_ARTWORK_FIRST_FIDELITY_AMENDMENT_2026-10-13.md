@@ -1,5 +1,8 @@
 # Week 5 — Commissioner Cinematic Visual Fidelity & Artwork-First Production Amendment
 
+**MOST RECENT COMMISSIONER RENDER OVERRIDE (P009 REJECTION):** Production is PAUSED. All P004–P027 images must use a dominant **full `away at home` matchup header**, not an oversized recurring league-wordmark banner. Every depicted owner must satisfy the exact canonical **species**, original reference pixels and temporal costume lock. Mud Dogs is a huge four-legged rabid chained swamp canine, **never** a human hunter; The LLC. retains its P001 `FOR DA BEARS` outfit through P008–P011, different pose each scene. Refer to `production-evidence/WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json`; supersedes any contradictory masthead, PDF staging or loose visual-identity instructions below. Actual renderer reference conditioning plus independent image QA remain NOT PROVEN; the bad P009 PNG is REJECTED.
+
+
 **Authority:** Commissioner binding directive, 2026-10-13. **Scope:** Existing Week 5 Memo OS, PR #152 and P001–P032; no new operating system. This amendment supersedes all conflicting Week 5 "PDF-first production," "assembled PDF is the deliverable," "vector/extractable text in PDF," "Bullpen PDF assembly," and "compressed physical pagination" language in earlier packets. Their history is retained as benchmark/proof-only documentation.
 
 ## 1. Contract correction: output per page, no assembled PDF
