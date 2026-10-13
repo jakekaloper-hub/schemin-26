@@ -17,3 +17,11 @@ Verified Week 5 waiver pickups, drops, trades, transaction impact and next-week 
 Approved final manuscript; source-backed factual tables/receipts; exact art brief and camera; text safe zones/copy budget; character/Atlas render eligibility where applicable; page-family shell render; mobile QA; independent Umpire. **No render or release approval.**
 
 **Previous:** P030; **next:** P032.
+
+## Page-isolated editorial production staging — 2026-10-13
+
+**Gate:** `VERIFIED_W5_TRANSACTION_SEED; EDITORIAL_QA_PENDING`. Preserve this page as an independent, individually QA'd source ID and physical 612×792 text/vector page; keep page 32 source manifest order unchanged. This is an editorial preparation supplement, not publisher/Umpire approval.
+
+**Direct ESPN evidence:** FLAIM Week 5 2026, 22 transaction rows returned, including completed and failed bids. Selected completed moves for reader copy: Seven Deadly Chins acquired Keon Coleman for 62 FAAB and Dohnte Meyers for 32 FAAB; The LLC. acquired Will Shipley for 51 FAAB; Chili Cheesers acquired Jacoby Brissett for 5 FAAB; Dr. Duckhook acquired Jaguars D/ST for 5 FAAB; ObiWan Jacoby added Kendre Miller Oct 11; Red Leopards added Bo Nix Oct 7; Mud Dogs added Matt Gay Oct 7. Note: these are **Week 5 moves**, not invented Week 6 claims. Highlight 62/51/32 bidding rivalry, plus the 5-FAAB QB pivot, with accurate owner-to-team joins; failed bids go in a discrete *near misses* panel only if statuses and sources are printed. No injuries described without current credible source. Reserve a small conditional Week 6 watch column for genuinely refreshed waiver/availability data; do not infer availability from transactions. Page is independently typeset; no fake player likeness art.
+
+**One-page acceptance:** verify original receipts; 12-owner/Atlas/name continuity; independent fact and editorial audit; separate typography from scene art; no title/copy overlap; render full page and 390px phone proof; retain `CONTRACTED_PARTIAL / render_eligible=false` until all required gates pass. Pitty remains independent of all other departments.
