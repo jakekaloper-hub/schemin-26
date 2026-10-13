@@ -5,6 +5,10 @@
 ## 1. Dark Wizard Chess
 **Host:** TDS; **visitor:** HMB; **LOC_ID:** `LOC-COMPACT-NEUTRAL-GROUNDS`; **REGION_ZONE:** `REG-CENTRAL-BASIN`.
 
+### Verified sports-to-story editorial revision (2026-10-13; not final Fact Lock)
+
+**NFL evidence:** Jaxon Smith-Njigba caught 5 of 8 targets for 102 yards and a TD; Jameson Williams caught 2 of 4 for 47 yards and 2 TDs; Javonte Williams rushed 12 times for 45 yards and a TD; Emanuel Wilson rushed 20 times for 61 yards and a TD. **Author revision:** The champion’s offensive threats arrive as a sequence of knight moves—Smith-Njigba opens the center with a scoring strike, and Jameson Williams turns two receptions into two separate breaches. Across the board, Javonte and Emanuel Wilson answer with ground attacks, keeping the serpent’s flanks dangerous. Do not treat these NFL events as literal actions by owner characters; retain the neutral board and outcome branch.
+
 ### Manuscript treatment
 The board had been laid across the Compact Neutral Grounds, but the silence belonged to the people who had come to watch. The League's neutral ground was usually a place of argument, wagers and ceremonial restraint. Tonight its central square carried an impossible chessboard: pale and dark stone squares, each broad enough for a procession, with pieces towering above the spectators. The structure was temporary. Its consequences might not be.
 
@@ -52,6 +56,10 @@ Page role: matchup cinema; fact dependencies: verified Week 5 ESPN/FLAIM matchup
 
 ## 2. Save the Swamp
 **Host:** Mud Dogs; **visitor:** LLC; **LOC_ID:** `LOC-MUD-DOGS-SWAMP`; **REGION_ZONE:** `REG-SOUTHERN-WETLANDS`.
+
+### Verified sports-to-story editorial revision (2026-10-13; not final Fact Lock)
+
+**NFL evidence:** Joe Burrow completed 23/32 for 190 yards and 4 passing TDs; Parker Washington caught 6 for 124 yards and 2 TDs; Isaiah Likely caught 11 for 94 yards and 2 TDs; Garrett Wilson caught 7 for 104 yards and a TD. Mud Dogs countered with Jared Goff’s 271 passing yards, 3 passing TDs and a rushing TD; Sam LaPorta caught 5 for 88 yards and a TD. **Author revision:** Four bursts of fire reflected off the marsh—the four scoring throws Burrow delivered on Sunday. Two were mirrored in Washington’s long cuts through the fog; Likely and Wilson added their own blows against the shoreline. But the swamp had its own pulse: Goff’s four total touchdowns and LaPorta’s score kept Mud Dogs resisting the advancing survey stakes. This conflict concerns threatened home and development, not a generic corporate villain. The LLC’s Ditka dedication belongs to the respectful cover frame; no fictional Ditka appearance or quote in the swamp.
 
 ### Manuscript treatment
 The swamp did not welcome visitors with a sign. It made them choose where to place their feet. Mud Dogs knew the raised ground and the channels beneath the reeds, the sound of water shifting under a root, and the hour when the insects turned the afternoon into a warning. This was not empty land waiting for a use. It already had one.
@@ -101,6 +109,10 @@ Page role: matchup cinema; fact dependencies: verified Week 5 ESPN/FLAIM matchup
 ## 3. A Storm Comes to Town
 **Host:** Chili; **visitor:** El Niño; **LOC_ID:** `LOC-CHILI-STABLE`; **REGION_ZONE:** `REG-WESTERN-TABLELANDS`.
 
+### Verified sports-to-story editorial revision (2026-10-13; not final Fact Lock)
+
+**NFL evidence:** Christian Watson caught 6 of 8 targets for 143 yards and 2 TDs; Jacoby Brissett passed for 292 yards and 3 TDs with 1 INT; Malik Nabers caught 11 for 121 yards and a TD; Brock Bowers caught 8 for 110 yards and a TD. El Niño’s George Pickens caught 9 for 130 yards and a TD; Mike Evans caught 7 for 113 yards and a TD. **Author revision:** The first storm gust was not weather: it was Watson turning six catches into 143 yards and two scores. Brissett’s three touchdowns gave the Outlaw reason to stand his ground, though the interception kept the scene from becoming a procession. Pickens and Evans drove opposing thunder down the high-noon street. The overturned chili tub, Dark Horse and sheriff-free duel remain controlling; no winning gunslinger identified until Fact Lock.
+
 ### Manuscript treatment
 At the edge of the Western Tablelands, the town's main street ran from the stable toward the open range. On an ordinary afternoon it was a place of water troughs, delivery wagons and arguments over feed prices. The Chili Outlaw knew which boards creaked under the shop awnings. He knew which doors stayed open for travelers and which were shut at the first hint of trouble.
 
@@ -148,6 +160,10 @@ Page role: matchup cinema; fact dependencies: verified Week 5 ESPN/FLAIM matchup
 
 ## 4. David vs Goliath
 **Host:** Duckhook; **visitor:** DK; **LOC_ID:** `LOC-COUNTRY-CLUB-JACKSON`; **REGION_ZONE:** `REG-SOUTHERN-WETLANDS`.
+
+### Verified sports-to-story editorial revision (2026-10-13; not final Fact Lock)
+
+**NFL evidence:** Drake Maye completed 26/34 for 374 passing yards and 4 passing TDs, then rushed for a fifth TD; Jahmyr Gibbs rushed for 151 yards and 2 TDs and caught 5 for 56 yards; Matthew Golden caught 6 for 123 yards. DK’s Trey McBride caught 9 for 66 yards and a TD. **Author revision:** Five thunderclaps rolled across the golf course, matching Maye’s five total touchdowns. Gibbs tore two channels through the fairway, while Golden’s 123 receiving yards made the distance feel impossible for the towering Arsenal centaur. Yet McBride’s score reminded the crowd that the giant could still answer. Duckhook’s right arm remains fused to his golf driver; DK retains gorilla torso and four equine legs. Hold outcome.
 
 ### Manuscript treatment
 The Country Club of Jackson had strict opinions about grass and very little experience with guests who could make the fairway feel narrow. Its members lined the verandas in pressed shirts, some amused and some alarmed, as the visitor came into view along the levee approach.
@@ -197,6 +213,10 @@ Page role: matchup cinema; fact dependencies: verified Week 5 ESPN/FLAIM matchup
 ## 5. After the Storm
 **Host:** Slob; **visitor:** Seven Chins; **LOC_ID:** `LOC-SLOB-FOOTHILL-CAMP`; **REGION_ZONE:** `REG-UPPER-VALLEYS`.
 
+### Verified sports-to-story editorial revision (2026-10-13; not final Fact Lock)
+
+**NFL evidence:** Jaylen Warren rushed 15 for 101 yards and a TD and caught 6 for 87 yards and a TD; Tyler Warren caught 7 for 83 yards and scored a 1-yard rushing TD. Slob’s Aaron Jones Sr. rushed for 113 yards and a TD; Christian McCaffrey rushed for 68 yards and a TD. **Author revision:** The convoy surged twice: Jaylen Warren found a route through the flooded incline on the ground and another through the spray, reflecting his rushing and receiving touchdowns. Tyler Warren’s short plunge forced the second Jeep into deeper mud. Jones and McCaffrey gave Slob’s side real momentum in the opposing lane. Maintain Jeeps, heavy rain at dusk, and conditional finishing positions; no pickup trucks.
+
 ### Manuscript treatment
 The foothill camp was noisy long before the engines started. Someone had built a viewing platform from spare boards. Someone else was selling hot food to spectators who claimed they were there for the competition but spent most of their time arguing about tires. Slob on my Dobb, the Frat-Bro Berserker known as Frat Star, had treated the camp like a homecoming. The People's Champ had arrived from the Central Basin roads to prove that applause did not belong to the host.
 
@@ -244,6 +264,10 @@ Page role: matchup cinema; fact dependencies: verified Week 5 ESPN/FLAIM matchup
 
 ## 6. Champions' Joust
 **Host:** Red; **visitor:** ObiWan; **LOC_ID:** `LOC-RED-RUINS`; **REGION_ZONE:** `REG-EASTERN-STORM-COAST`.
+
+### Verified sports-to-story editorial revision (2026-10-13; not final Fact Lock)
+
+**NFL evidence:** Derrick Henry rushed 24 times for 102 yards and caught a TD pass for 18 yards; Ja’Marr Chase caught 6 for 77 yards and a TD. Puka Nacua, Matthew Stafford and Kyren Williams were on the Rams Monday game, which was not finalized by the sports source at this research pass. **Author revision:** Henry’s 102 ground yards drove the first challenge down the lists; Chase’s touchdown gave the Red Leopards a concrete answer from their own gate. The tournament’s real turning point remains unfinished until Nacua, Stafford and Williams receive a FINAL NFL box-score check and FLAIM certifies the fantasy result. Preserve the long ceremonial entrance, equal heroic presentation, temporary lists and ObiWan without a belt.
 
 ### Manuscript treatment
 The tournament arena stood within the weathered reach of the Red Leopard Ruins. Its temporary lists were bright with banners against dark stone. On the eastern escarpment the wind could change without warning, and the crowd had learned to hold its hats when the sea air climbed the cliffs.
