@@ -47,7 +47,9 @@ def test_owner_source_paths_are_12_distinct_originals_and_not_false_render_proof
         assert p.is_file(), x["character_id"]
         assert p.stat().st_size == x["bytes"], x["character_id"]
         assert len(x["git_blob_sha1"]) == 40
-        assert x["raw_sha256"] is None
+        assert isinstance(x["raw_sha256"], str) and len(x["raw_sha256"]) == 64
+        assert all(c in "0123456789abcdef" for c in x["raw_sha256"])
+        assert d["source_state"] == "12_OF_12_SOURCE_BYTES_SHA256_AND_GIT_BLOB_MATCH"
         assert x["renderer_mount_receipt"] is None
 
 def test_provisional_week5_starter_evidence_does_not_promote_a_winner():
