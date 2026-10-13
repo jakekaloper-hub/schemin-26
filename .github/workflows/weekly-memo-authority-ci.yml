@@ -30,3 +30,5 @@ jobs:
         run: python tests/test_week5_individual_page_staging.py
       - name: Test Week 5 artwork-first image delivery contract
         run: python tests/test_week5_artwork_first_output_contract.py
+      - name: Test Week 5 render gateway rejects unverified requests
+        run: python tests/test_week5_production_gateway.py
