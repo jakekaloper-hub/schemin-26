@@ -27,6 +27,7 @@
 ## QA and stop rules
 Required: certified winning team; complete winner POV copy; reference binding proof; Atlas/temporal continuity; shot and copy budget; phone-scale test; independent Umpire. **HOLD** until resolved. Previous P007; next P009.
 
-## Commissioner personalization amendment — binding creative direction
-**Matchup:** The LLC. versus Mud Dogs. **Physical page:** P008. **Scene-specific integration:** Intact lived-in swamp, Mud Dogs' emotional home stakes.
-**Source:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. This supersedes conflicting earlier action, weather, vehicle, or entrance notes for this page; does not authorize an official result, finished manuscript, character render, permanent Atlas mutation or new page. No reader-facing team shorthand. Independent Author Council and Umpire approval pending.
+## Commissioner personalization — reconciled authoritative page instruction
+**Controlling approval:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`.
+**Page-specific editorial draft and cinematic composition:** `memo-os/week-5/WEEK_5_PERSONALIZATION_EDITORIAL_AND_SHOT_EXECUTION_2026-10-12.md`, section `P008`.
+This single amendment pointer supersedes duplicate prior personalized scene notes on this page; the pre-existing story, Atlas venue, host identity, character source requirements, and outcome-dependent gates remain unchanged. For P020–P023: Jeeps remain the established vehicles, heavy rain persists at dusk; pickup-truck substitutions are forbidden. **Copy is a draft, not accepted final manuscript.** The fantasy winner, exact character image bytes and mounted bindings, typography and mobile shell tests, and independent Umpire approval are still required. **CONTRACTED_PARTIAL / render_eligible=false.**
