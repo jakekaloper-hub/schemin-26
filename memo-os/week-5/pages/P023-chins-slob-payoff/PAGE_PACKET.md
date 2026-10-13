@@ -49,7 +49,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-The last Jeep cleared the hill as dusk swallowed the track. Slob remained by his camp, soaked but unbowed; his home had not vanished with the loss. Seven Deadly Chins looked back at the ruts, already knowing the road would need work tomorrow. The victory belonged to the convoy. The mud belonged to the mountain.
+The last Jeep cleared the hill as dusk swallowed the track. Jordan Hollingshead remained by his camp, soaked but unbowed; his home had not vanished with the loss. Seven Deadly Chins looked back at the ruts, already knowing the road would need work tomorrow. The victory belonged to the convoy. The mud belonged to the mountain.
 
 **Visual coordination from approved page brief:** - **Shot:** wide split-depth finish/bog composition; **winner and stuck vehicle assignment conditional** on Fact Lock. No invented permanent flood damage.
 
