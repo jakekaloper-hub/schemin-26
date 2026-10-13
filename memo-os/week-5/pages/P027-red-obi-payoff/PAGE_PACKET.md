@@ -58,3 +58,17 @@ The final pass broke the last lance. ObiWan lowered his green blade and acknowle
 ## NFL Week 5 correction receipt — 2026-10-13
 
 The older NFL game-in-progress claim that Puka Nacua made fourteen catches is **superseded** by the October 12 Buffalo Bills–Los Angeles Rams postgame box-score reporting: Puka Nacua **17 receptions, 138 receiving yards, 1 receiving touchdown**; Matthew Stafford **383 passing yards, 3 passing touchdowns**. NFL final is separate from ESPN fantasy winner finality. Sources: https://www.reuters.com/sports/nfl/josh-allens-rushing-passing-power-bills-past-rams-ot--flm-2026-10-13/ and https://www.footballdb.com/games/boxscore/buffalo-bills-vs-los-angeles-rams-2026101202 . Reviewed against the live FLAIM Week 5 starters, in which ObiWan Jacoby fields Puka Nacua and Matthew Stafford. All fictional outcome writing remains **CONDITIONAL** until the Commissioner-authorized fantasy outcome reconciliation; no final fantasy victory promoted.
+
+## Page-isolated generator staging — 2026-10-13
+
+**State:** BRIEF_PREPARED; render_eligible=false until original subject binding plus page Fact Lock. Execute only `P027` and record its own QA artifact.
+
+**Atlas and shot:** `LOC-RED-RUINS`, PAYOFF. Temporary lists after last collision; dramatic composition to be assigned to certified winner, no trophy transfer. Use the approved page manuscript, positional shot specification and Atlas route from `WEEK_5_VERIFIED_ATLAS_ROUTES_AND_CHARACTER_AUDIT_2026-10-12.md`.
+
+**Exact original inputs:** `CHAR-JAKE-KALOPER` (ObiWan Jacoby: blond Trade Jedi, green blade, golden retriever, NO BELT) and `CHAR-KEVIN-ZEEK` (Red Leopards: armored red leopard home defender). Resolve distinct originals from `production-evidence/WEEK_5_CHARACTER_SOURCE_ASSET_RECEIPTS_2026-10-13.json`; record SHA-256, reference mount and subject-binding receipts. Source Git blobs alone are not conditioning proof.
+
+**Composition:** portrait 1024×1536 master, cinematic scale, fixed Red-ruins geography. Art-forward single beat; keep all names and prose separately typeset. The temporary joust must feel inspired by *A Knight's Tale* only at the level of lively herald and crowd energy: no copied dialogue, copyrighted song lyric, exact film image, or character likeness.
+
+**Outcome and data:** No winning rider, unhorsing, victory pose or transfer assigned until verified fantasy finality. Correct Oct 12 Rams–Bills box details: Puka Nacua 17 receptions, 138 receiving yards, one TD; Matthew Stafford 383 passing yards, three TD. Refer to the 2026-10-13 correction receipt on P026/P027.
+
+**Page QA:** reference/hashes, subject anatomy and costume, no ObiWan championship belt, actual source-to-scene complementarity, complete full team names in deterministic typography, final result gate, full-size and 390px inspection, independent Umpire. Until then retain original manifest page state and **no production art acceptance**.
