@@ -48,3 +48,15 @@ Seven Deadly Chins listened to rain strike the Jeep roof at the edge of the foot
 **Visual coordination from approved page brief:** - **Image:** prose-first twilight rain, hillside silhouettes, Jeep headlights and spectators; no result cue.
 
 **Editorial checks:** No fabricated NFL player presence in the fictional world. Stats are causality, not the main story. Character/Atlas continuity and real reference-conditioned render QA required. Independent Beat Writer, Author Council, Librarian, Visual Lead and Umpire acceptance remains outstanding.
+
+## Page-isolated generator staging — 2026-10-13
+
+**State:** BRIEF_PREPARED; render_eligible=false pending official fantasy result where needed and exact character source-byte/renderer mount/subject binding. Process **only source P020**, with independent render and acceptance receipt.
+
+**Scene:** `LOC-SLOB-FOOTHILL-CAMP`; OVERTURE; Rain-drenched foothill approach with Jeep convoy headlights at dusk; camp remains distant. Reuse the exact page manuscript and shot camera from the source above; no isolated sports-poster substitution.
+
+**Conditioned source identities:** `CHAR-JORDAN-HOLLINGSHEAD` (host Slob on my Dobb: horned Frat Star berserker) and `CHAR-BEN-WHIPPLE` (visiting Seven Deadly Chins: hammer/workwear). Fetch the two **distinct** original Commissioner assets indexed in `production-evidence/WEEK_5_CHARACTER_SOURCE_ASSET_RECEIPTS_2026-10-13.json`; record SHA-256, renderer mount and separate owner bindings. Git blob receipts alone do not prove conditioning.
+
+**Execution frame:** portrait 1024×1536 cinematic art master, separate deterministic vector text, genuine two-vehicle race/Jeep recovery, heavy dusk rain; foreground mud, middle-ground drivers, background camp and storm ridges. Prose-forward atmospheric page (65–75% copy), no ending cues. Never swap the Jeeps for 1990s pickups; never invent lasting Atlas storm damage.
+
+**Outcome gate:** Winner POV unselected until independent ESPN winner reconciliation. **Acceptance checklist:** correct two-owner anatomy and assets, stage/weather, FAA/ESPN facts if referenced, identity+name check, no embedded labels, readable full/390px page, independent Umpire signoff. Reject scene-specific failures without stopping other pages.
