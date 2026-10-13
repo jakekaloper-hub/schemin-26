@@ -28,3 +28,13 @@
 **Controlling approval:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`.
 **Page-specific editorial draft and cinematic composition:** `memo-os/week-5/WEEK_5_PERSONALIZATION_EDITORIAL_AND_SHOT_EXECUTION_2026-10-12.md`, section `P011`.
 This single amendment pointer supersedes duplicate prior personalized scene notes on this page; the pre-existing story, Atlas venue, host identity, character source requirements, and outcome-dependent gates remain unchanged. For P020–P023: Jeeps remain the established vehicles, heavy rain persists at dusk; pickup-truck substitutions are forbidden. **Copy is a draft, not accepted final manuscript.** The fantasy winner, exact character image bytes and mounted bindings, typography and mobile shell tests, and independent Umpire approval are still required. **CONTRACTED_PARTIAL / render_eligible=false.**
+
+## Post-MNF provisional outcome branch — editorial draft, not Fact Lock
+
+**Points leader:** The LLC 193.73 over Mud Dogs 127.09 (FLAIM ESPN league 1417621 Week 5 period points, 2026-10-13). Provider winner remains `UNDECIDED`; no official final score/winner promotion. This draft is authorized for editorial/layout preparation only. Preserve existing shot and Atlas constraints, and reject this branch if settlement differs.
+
+**Proposed payoff prose:**
+
+At the causeway, the surveyors waited for a signal. The LLC had brought enough force to win the argument on the week's scoreboard: Burrow's four touchdown passes, Washington's two scoring catches, Likely's two, and Wilson's scoring reception had turned the campaign into a sustained offensive surge. Goff and LaPorta had made Mud Dogs' resistance credible, not futile. Yet the bulldozers stopped short of the surviving trees. The LLC unfolded its plans, already thinking in phases; Mud Dogs stood at the edge of the torn earth, measuring what had been lost and what might still be saved. A victory had secured leverage, not ownership of the swamp's future. The boardroom would call it progress. The marsh had another word for it: unfinished.
+
+**QA:** sports numbers refer to NFL box scores or labelled fantasy period points, not invented character feats; character identity, host geography and temporary scene consequences stay locked. Authenticated Beat Writer/Author Council and independent Umpire acceptance remain pending.

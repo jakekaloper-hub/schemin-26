@@ -22,3 +22,13 @@ Image tells the approved action and spatial geography; prose carries motives, tr
 Final verified winner and ESPN fact receipts; complete approved manuscript; exact reference bytes, hash, mounted Character-ID subject binding; shot-by-shot camera, foreground/midground/background, depth/lighting, copy budget, safe zones, mobile preview; independent Umpire acceptance. **No artwork authorized** while unresolved.
 
 **Previous:** P018; **next:** P020.
+
+## Post-MNF provisional outcome branch — editorial draft, not Fact Lock
+
+**Points leader:** Dr. Duckhook 184.91 over D0nkey K0ng 141.44 (FLAIM ESPN league 1417621 Week 5 period points, 2026-10-13). Provider winner remains `UNDECIDED`; no official final score/winner promotion. This draft is authorized for editorial/layout preparation only. Preserve existing shot and Atlas constraints, and reject this branch if settlement differs.
+
+**Proposed payoff prose:**
+
+The Arsenal centaur's four iron-shod hooves dug into the fairway as the final ball rose against the storm. The giant had looked unbeatable at first sight. Yet five blows had already sounded from the clubhouse—the four touchdown passes and rushing score Drake Maye had delivered on the real gridiron—and Gibbs had driven two more scoring runs through the week's defense. Duckhook's golf driver, fused to his right arm, followed the ball's arc as it cleared the enormous silhouette. The centaur did not shrink. He simply had no answer to the final flight. At the Country Club of Jackson, the smaller figure had earned the louder silence. The groundskeepers would repair the divots; nobody would forget the scale of the opponent.
+
+**QA:** sports numbers refer to NFL box scores or labelled fantasy period points, not invented character feats; character identity, host geography and temporary scene consequences stay locked. Authenticated Beat Writer/Author Council and independent Umpire acceptance remain pending.

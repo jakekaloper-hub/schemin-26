@@ -28,3 +28,13 @@
 **Controlling approval:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`.
 **Page-specific editorial draft and cinematic composition:** `memo-os/week-5/WEEK_5_PERSONALIZATION_EDITORIAL_AND_SHOT_EXECUTION_2026-10-12.md`, section `P015`.
 This single amendment pointer supersedes duplicate prior personalized scene notes on this page; the pre-existing story, Atlas venue, host identity, character source requirements, and outcome-dependent gates remain unchanged. For P020–P023: Jeeps remain the established vehicles, heavy rain persists at dusk; pickup-truck substitutions are forbidden. **Copy is a draft, not accepted final manuscript.** The fantasy winner, exact character image bytes and mounted bindings, typography and mobile shell tests, and independent Umpire approval are still required. **CONTRACTED_PARTIAL / render_eligible=false.**
+
+## Post-MNF provisional outcome branch — editorial draft, not Fact Lock
+
+**Points leader:** The Chili Cheesers 183.53 over El Niño 156.70 (FLAIM ESPN league 1417621 Week 5 period points, 2026-10-13). Provider winner remains `UNDECIDED`; no official final score/winner promotion. This draft is authorized for editorial/layout preparation only. Preserve existing shot and Atlas constraints, and reject this branch if settlement differs.
+
+**Proposed payoff prose:**
+
+At noon, the street went silent. The Dark Horse did not move. Across the spilled chili, El Niño's weather front pressed forward with Pickens, Evans and Cook behind it. But Watson's two touchdown catches had already given the Outlaw the first opening, and Brissett's three scoring throws gave him the nerve to hold the line. The shots cracked beneath the thunder. When the dust cleared, the Chili Outlaw remained standing in the middle of his own street. He did not celebrate the ruined batch. He knelt, touched the red stain on the boards and began planning the next pot. A high-noon victory could protect the town; it could not restore dinner.
+
+**QA:** sports numbers refer to NFL box scores or labelled fantasy period points, not invented character feats; character identity, host geography and temporary scene consequences stay locked. Authenticated Beat Writer/Author Council and independent Umpire acceptance remain pending.

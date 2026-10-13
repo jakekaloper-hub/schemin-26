@@ -27,3 +27,13 @@ Final verified winner and ESPN fact receipts; complete approved manuscript; exac
 **Controlling approval:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`.
 **Page-specific editorial draft and cinematic composition:** `memo-os/week-5/WEEK_5_PERSONALIZATION_EDITORIAL_AND_SHOT_EXECUTION_2026-10-12.md`, section `P027`.
 This single amendment pointer supersedes duplicate prior personalized scene notes on this page; pre-existing story, Atlas venue, host identity, character source requirements, and outcome-dependent gates remain unchanged. **Copy is a draft, not accepted final manuscript.** Fantasy winner, exact character image bytes and mounted bindings, typography/mobile tests and independent Umpire approval are still required. **CONTRACTED_PARTIAL / render_eligible=false.**
+
+## Post-MNF provisional outcome branch — editorial draft, not Fact Lock
+
+**Points leader:** ObiWan Jacoby 154.42 over Red Leopards 110.42 (FLAIM ESPN league 1417621 Week 5 period points, 2026-10-13). Provider winner remains `UNDECIDED`; no official final score/winner promotion. This draft is authorized for editorial/layout preparation only. Preserve existing shot and Atlas constraints, and reject this branch if settlement differs.
+
+**Proposed payoff prose:**
+
+The lances met at the center of the lists. For an instant the grandstand saw only shattered wood and the red banners above the ruins. The Trade Jedi had survived the opening exchanges because Nacua kept returning to the ball—fourteen catches on Monday—and Stafford had answered with three passing touchdowns. Henry's ground work gave the charge its weight. Chase had struck for the Red Leopards, and the host had defended the ruins with pride, but the visitor carried the decisive momentum through the last pass. ObiWan Jacoby steadied himself beyond the barrier, green blade lowered rather than raised in triumph. He wore no championship belt. The temporary lists would come down; the memory of the contest would stay.
+
+**QA:** sports numbers refer to NFL box scores or labelled fantasy period points, not invented character feats; character identity, host geography and temporary scene consequences stay locked. Authenticated Beat Writer/Author Council and independent Umpire acceptance remain pending.
