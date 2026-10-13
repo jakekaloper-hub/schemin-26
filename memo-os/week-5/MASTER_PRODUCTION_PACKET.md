@@ -1,5 +1,8 @@
 # Week 5 — Master Production Packet (V2, recovery-in-progress)
 
+**MOST RECENT COMMISSIONER RENDER OVERRIDE (P009 REJECTION):** Production is PAUSED. All P004–P027 images must use a dominant **full `away at home` matchup header**, not an oversized recurring league-wordmark banner. Every depicted owner must satisfy the exact canonical **species**, original reference pixels and temporal costume lock. Mud Dogs is a huge four-legged rabid chained swamp canine, **never** a human hunter; The LLC. retains its P001 `FOR DA BEARS` outfit through P008–P011, different pose each scene. Refer to `production-evidence/WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json`; supersedes any contradictory masthead, PDF staging or loose visual-identity instructions below. Actual renderer reference conditioning plus independent image QA remain NOT PROVEN; the bad P009 PNG is REJECTED.
+
+
 ## Controlling Commissioner production-format correction — 2026-10-13
 
 **LATEST BINDING AUTHORITY / SUPERSEDES CONFLICTS:** `WEEK_5_CINEMATIC_ARTWORK_FIRST_FIDELITY_AMENDMENT_2026-10-13.md`.
