@@ -1,5 +1,7 @@
 # Schemin ’26 Week 5 — Single-Page PNG Production Script (P001–P032)
 
+**POST-P009 FATAL VISUAL ERROR OVERRIDE:** The user-uploaded Mud Dogs image matches the registered original SHA-256. P009 rendered a *human hunter instead of the monstrous dog* and a giant generic `SCHEMIN ’26` masthead. That render is rejected. Use `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json`: its per-page `display_header`, visual-species invariants, P001 Ditka costume continuity, absolute rejects and image-QA proof requirements are **higher priority than any earlier masthead instruction in this script**. No new art until character conditioning is actually demonstrated.
+
 **Working ordered source transcript, not an independently authenticated final author manuscript or render certificate.** Prepared October 13, 2026 against PR #152. This document consolidates existing 32 source packets **verbatim where their final-position “Narrative copy” blocks are present**, and carefully distinguishes absent editorial manuscript, conditional payoff copy, and provisional sports data. No original premises are rewritten here. This belongs to the existing Memo OS and does not replace the master packet, manifest, or page packets. Commissioner-governed one-page-at-a-time PNG handoff.
 
 ## Governing production envelope
@@ -446,7 +448,7 @@ ObiWan Jacoby approached the Red ruins by the permitted mountain route. His gold
 
 Red Leopards waited beneath the banners of his home ground, armor bright against the broken walls. The crowd could see both entrances across the lists. Jake Kaloper looked at the narrow run between the barriers and understood that the host knew every uneven stone. His dog settled behind the safety line as the first challenge was called.
 
-**Quality and gates:** 1024×1536 single final PNG with full integrated Schemin ’26 brand typography, no assembled PDF; validate host, fantasy facts and approved narrative, source bytes / owner mount as necessary, action and Atlas geography. Inspect true 390px downscale vs Week 4 and require independent Umpire. 
+**Quality and gates:** 1024×1536 single final PNG with full page-specific dominant matchup or section title typography, no assembled PDF; validate host, fantasy facts and approved narrative, source bytes / owner mount as necessary, action and Atlas geography. Inspect true 390px downscale vs Week 4 and require independent Umpire. 
 
 
 ## P026 — Red Leopards versus ObiWan Jacoby — Cinematic Escalation
@@ -463,7 +465,7 @@ Red Leopards waited beneath the banners of his home ground, armor bright against
 
 The first collision sent splinters across the arena. Nacua's seventeen catches for 138 receiving yards and Stafford's three passing touchdowns had given Jake Kaloper's fantasy side repeated opportunities; Chase's touchdown gave Red Leopards an answer. Jake Kaloper adjusted his line, let the host commit to the center, and carried the next charge past the ruined gate without pretending the ground was his.
 
-**Quality and gates:** 1024×1536 single final PNG with full integrated Schemin ’26 brand typography, no assembled PDF; validate host, fantasy facts and approved narrative, source bytes / owner mount as necessary, action and Atlas geography. Inspect true 390px downscale vs Week 4 and require independent Umpire. 
+**Quality and gates:** 1024×1536 single final PNG with full page-specific dominant matchup or section title typography, no assembled PDF; validate host, fantasy facts and approved narrative, source bytes / owner mount as necessary, action and Atlas geography. Inspect true 390px downscale vs Week 4 and require independent Umpire. 
 
 
 ## P027 — Red Leopards versus ObiWan Jacoby — Cinematic Payoff
@@ -480,7 +482,7 @@ The first collision sent splinters across the arena. Nacua's seventeen catches f
 
 The final pass broke the last lance. Jake Kaloper lowered his green blade and acknowledged Red Leopards across the shattered lists. His dog ran to meet him once the barriers opened. The tournament structures would come down; the ruins would remain Red territory. He left with a win, not a championship belt.
 
-**Quality and gates:** 1024×1536 single final PNG with full integrated Schemin ’26 brand typography, no assembled PDF; validate host, fantasy facts and approved narrative, source bytes / owner mount as necessary, action and Atlas geography. Inspect true 390px downscale vs Week 4 and require independent Umpire. Ending victory pose conditional on decided ESPN results.
+**Quality and gates:** 1024×1536 single final PNG with full page-specific dominant matchup or section title typography, no assembled PDF; validate host, fantasy facts and approved narrative, source bytes / owner mount as necessary, action and Atlas geography. Inspect true 390px downscale vs Week 4 and require independent Umpire. Ending victory pose conditional on decided ESPN results.
 
 
 ## P028 — Power Rankings
@@ -497,7 +499,7 @@ The final pass broke the last lance. Jake Kaloper lowered his green blade and ac
 
 **No approved Week 5 final editorial rankings manuscript found.** The Week 4 standings are not the Week 5 Power Rankings. Preserve the full rank 1–12 table as a source-gated data region.
 
-**Quality and gates:** 1024×1536 single final PNG with full integrated Schemin ’26 brand typography, no assembled PDF; validate host, fantasy facts and approved narrative, source bytes / owner mount as necessary, action and Atlas geography. Inspect true 390px downscale vs Week 4 and require independent Umpire. 
+**Quality and gates:** 1024×1536 single final PNG with full page-specific dominant matchup or section title typography, no assembled PDF; validate host, fantasy facts and approved narrative, source bytes / owner mount as necessary, action and Atlas geography. Inspect true 390px downscale vs Week 4 and require independent Umpire. 
 
 
 ## P029 — State of the Realm
@@ -514,7 +516,7 @@ The final pass broke the last lance. Jake Kaloper lowered his green blade and ac
 
 **No independently accepted Week 5 State of the Realm final narrative found.** Rely on approved division geography and W4 completed standings only until Week 5 becomes settled; no invented Monte Carlo playoff odds.
 
-**Quality and gates:** 1024×1536 single final PNG with full integrated Schemin ’26 brand typography, no assembled PDF; validate host, fantasy facts and approved narrative, source bytes / owner mount as necessary, action and Atlas geography. Inspect true 390px downscale vs Week 4 and require independent Umpire. 
+**Quality and gates:** 1024×1536 single final PNG with full page-specific dominant matchup or section title typography, no assembled PDF; validate host, fantasy facts and approved narrative, source bytes / owner mount as necessary, action and Atlas geography. Inspect true 390px downscale vs Week 4 and require independent Umpire. 
 
 
 ## P030 — Pitty's Book
@@ -531,7 +533,7 @@ The final pass broke the last lance. Jake Kaloper lowered his green blade and ac
 
 **Pitty’s Book authentic tickets/odds/stakes/settlement are deferred to October 14.** No manuscript with actual financial receipts has been approved. Leave monetary entries blank.
 
-**Quality and gates:** 1024×1536 single final PNG with full integrated Schemin ’26 brand typography, no assembled PDF; validate host, fantasy facts and approved narrative, source bytes / owner mount as necessary, action and Atlas geography. Inspect true 390px downscale vs Week 4 and require independent Umpire. PITTY DATA DEFERRED; do not fill numerical fields.
+**Quality and gates:** 1024×1536 single final PNG with full page-specific dominant matchup or section title typography, no assembled PDF; validate host, fantasy facts and approved narrative, source bytes / owner mount as necessary, action and Atlas geography. Inspect true 390px downscale vs Week 4 and require independent Umpire. PITTY DATA DEFERRED; do not fill numerical fields.
 
 
 ## P031 — Waiver Wire and Transactions
@@ -548,7 +550,7 @@ The final pass broke the last lance. Jake Kaloper lowered his green blade and ac
 
 **Waiver manuscript is data-seeded, not final editorial copy.** Existing week-5 transactions include Seven Deadly Chins Keon Coleman 62 FAAB, The LLC. Will Shipley 51, Seven Deadly Chins Dohnte Meyers 32, Chili Cheesers Jacoby Brissett 5, and Dr. Duckhook Jaguars D/ST 5. Reverify when typesetting.
 
-**Quality and gates:** 1024×1536 single final PNG with full integrated Schemin ’26 brand typography, no assembled PDF; validate host, fantasy facts and approved narrative, source bytes / owner mount as necessary, action and Atlas geography. Inspect true 390px downscale vs Week 4 and require independent Umpire. 
+**Quality and gates:** 1024×1536 single final PNG with full page-specific dominant matchup or section title typography, no assembled PDF; validate host, fantasy facts and approved narrative, source bytes / owner mount as necessary, action and Atlas geography. Inspect true 390px downscale vs Week 4 and require independent Umpire. 
 
 
 ## P032 — The Final Word
@@ -565,4 +567,4 @@ The final pass broke the last lance. Jake Kaloper lowered his green blade and ac
 
 The League will remember the figures who crossed each landscape. But when the pieces leave the neutral market, its stalls remain. When the machines idle, the swamp's roots still carry the water. A pot can be ruined without surrendering a town. A ball can change a country club's story without changing the land. The road will need to be repaired after the Jeeps pass; the ruins will still belong to their host when the temporary lists come down. Week Five has pushed this world toward consequences. Week Six will decide which ones persist.
 
-**Quality and gates:** 1024×1536 single final PNG with full integrated Schemin ’26 brand typography, no assembled PDF; validate host, fantasy facts and approved narrative, source bytes / owner mount as necessary, action and Atlas geography. Inspect true 390px downscale vs Week 4 and require independent Umpire. 
+**Quality and gates:** 1024×1536 single final PNG with full page-specific dominant matchup or section title typography, no assembled PDF; validate host, fantasy facts and approved narrative, source bytes / owner mount as necessary, action and Atlas geography. Inspect true 390px downscale vs Week 4 and require independent Umpire. 
