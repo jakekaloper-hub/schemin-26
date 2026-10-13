@@ -54,3 +54,13 @@ The last Jeep cleared the hill as dusk swallowed the track. Slob remained by his
 **Visual coordination from approved page brief:** - **Shot:** wide split-depth finish/bog composition; **winner and stuck vehicle assignment conditional** on Fact Lock. No invented permanent flood damage.
 
 **Editorial checks:** No fabricated NFL player presence in the fictional world. Stats are causality, not the main story. Character/Atlas continuity and real reference-conditioned render QA required. Independent Beat Writer, Author Council, Librarian, Visual Lead and Umpire acceptance remains outstanding.
+
+## Page-isolated generator staging — 2026-10-13
+
+**Stage:** BRIEF_PREPARED / render_eligible=false. Generate **only P023** after all relevant character and final-fantasy-result gates; require its own acceptance receipt. Use the integrated narrative draft and the approved aftermath visual coordination above, not a newly invented scene.
+
+**Identity bindings:** `CHAR-JORDAN-HOLLINGSHEAD` (host Slob on my Dobb; horned Frat Star) and `CHAR-BEN-WHIPPLE` (visitor Seven Deadly Chins; workwear). Mount two distinct Commissioner source originals indexed in `production-evidence/WEEK_5_CHARACTER_SOURCE_ASSET_RECEIPTS_2026-10-13.json` and record SHA-256 plus separate mounted-subject receipts before render.
+
+**Scene:** `LOC-SLOB-FOOTHILL-CAMP`, dusk in heavy rain, real Jeeps and reversible ruts. Wide cinematic outcome composition of the rain-soaked Jeep climb and surviving home camp. No pickup trucks or permanent terrain damage. Do not choose winner or defeated driver position until authorized fantasy Fact Lock.
+
+**Production:** 1024×1536 portrait master; typography, score and labels separately composited. Check image/copy complementarity, full canonical team names, specific owner identities, scene continuity, 390px readability and independent Umpire. Source packet remains on HOLD until these receipts exist.
