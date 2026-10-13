@@ -24,6 +24,7 @@
 - QA: exact character source binding, Atlas time-state, world mutation review, visual complementarity, typography/phone proof, independent Umpire.
 - **STOP** if any dependency unresolved. Do not promote to READY_FOR_RENDER.
 
-## Commissioner personalization amendment — binding creative direction
-**Matchup:** The LLC. versus Mud Dogs. **Physical page:** P011. **Scene-specific integration:** Swamp partially damaged, not completely destroyed; future Atlas damage remains unpromoted.
-**Source:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. This supersedes conflicting earlier action, weather, vehicle, or entrance notes for this page; does not authorize an official result, finished manuscript, character render, permanent Atlas mutation or new page. No reader-facing team shorthand. Independent Author Council and Umpire approval pending.
+## Commissioner personalization — reconciled authoritative page instruction
+**Controlling approval:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`.
+**Page-specific editorial draft and cinematic composition:** `memo-os/week-5/WEEK_5_PERSONALIZATION_EDITORIAL_AND_SHOT_EXECUTION_2026-10-12.md`, section `P011`.
+This single amendment pointer supersedes duplicate prior personalized scene notes on this page; the pre-existing story, Atlas venue, host identity, character source requirements, and outcome-dependent gates remain unchanged. For P020–P023: Jeeps remain the established vehicles, heavy rain persists at dusk; pickup-truck substitutions are forbidden. **Copy is a draft, not accepted final manuscript.** The fantasy winner, exact character image bytes and mounted bindings, typography and mobile shell tests, and independent Umpire approval are still required. **CONTRACTED_PARTIAL / render_eligible=false.**
