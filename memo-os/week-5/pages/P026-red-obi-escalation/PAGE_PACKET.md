@@ -39,7 +39,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-The first collision sent splinters across the arena. Nacua's seventeen catches for 138 receiving yards and Stafford's three passing touchdowns had given ObiWan's fantasy side repeated opportunities; Chase's touchdown gave Red Leopards an answer. ObiWan adjusted his line, let the host commit to the center, and carried the next charge past the ruined gate without pretending the ground was his.
+The first collision sent splinters across the arena. Nacua's seventeen catches for 138 receiving yards and Stafford's three passing touchdowns had given Jake Kaloper's fantasy side repeated opportunities; Chase's touchdown gave Red Leopards an answer. Jake Kaloper adjusted his line, let the host commit to the center, and carried the next charge past the ruined gate without pretending the ground was his.
 
 **Visual coordination from approved page brief:** - **Shot:** compressed telephoto along jousting barrier; foreground lances converging; middle ground both riders equal stature; background storm-coast ruins and crowds; ObiWan Jacoby no championship belt.
 
