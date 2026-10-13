@@ -39,7 +39,7 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-Jaylen Warren's rushing and receiving touchdowns gave Seven Deadly Chins the fantasy momentum to press through the storm; Jones and Allen kept Slob's side dangerous. A Jeep slipped sideways, headlights catching the horned figure by the camp. Chins climbed out into the rain, used his hammer to free a buried tow point, and sent the convoy onward by inches.
+Jaylen Warren's rushing and receiving touchdowns gave Seven Deadly Chins the fantasy momentum to press through the storm; Jones and Allen kept Jordan Hollingshead's side dangerous. A Jeep slipped sideways, headlights catching the horned figure by the camp. Ben Whipple climbed out into the rain, used his hammer to free a buried tow point, and sent the convoy onward by inches.
 
 **Visual coordination from approved page brief:** - **Shot:** dynamic side-tracking Jeep climb; foreground muddy spray; middle ground both vehicles and drivers; background rain-obscured hills; low contrast must not destroy character readability.
 
