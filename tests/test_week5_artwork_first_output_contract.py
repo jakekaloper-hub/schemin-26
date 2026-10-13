@@ -266,7 +266,7 @@ def test_p011_specific_payoff_correct_result_and_records():
     assert p["away"]["record_after_w5"] == "2-3"
     assert p["home"]["record_after_w5"] == "2-3"
     assert p["victory_margin"] == "66.64"
-    assert "actual" in p["portrait_rule"].lower()
+    assert "exact" in p["portrait_rule"].lower()
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
     m = manifest["pages"][10]
     assert m["image_qa_status"] == "REVISED_CANDIDATE_SELF_INSPECTED_INDEPENDENT_UMPIRE_PENDING"
