@@ -23,6 +23,7 @@ Final verified winner and ESPN fact receipts; complete approved manuscript; exac
 
 **Previous:** P025; **next:** P027.
 
-## Commissioner personalization amendment — binding production patch
-The crowd's stomp-and-clap energy subsides into ceremonial hush; Red Leopards and ObiWan Jacoby mount their credible lance charge at the temporary Red Ruins lists.
-**Authority:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`. This overrides conflicting legacy vehicle/entrance/action notes, not canon, results, or physical pagination. Use full canonical team or owner names in all reader-facing copy. Render eligibility HOLD pending manuscript, reference-mount and independent QA.
+## Commissioner personalization — reconciled authoritative page instruction
+**Controlling approval:** `memo-os/week-5/WEEK_5_COMMISSIONER_PERSONALIZATION_AMENDMENTS_2026-10-12.md`.
+**Page-specific editorial draft and cinematic composition:** `memo-os/week-5/WEEK_5_PERSONALIZATION_EDITORIAL_AND_SHOT_EXECUTION_2026-10-12.md`, section `P026`.
+This single amendment pointer supersedes duplicate prior personalized scene notes on this page; pre-existing story, Atlas venue, host identity, character source requirements, and outcome-dependent gates remain unchanged. **Copy is a draft, not accepted final manuscript.** Fantasy winner, exact character image bytes and mounted bindings, typography/mobile tests and independent Umpire approval are still required. **CONTRACTED_PARTIAL / render_eligible=false.**
