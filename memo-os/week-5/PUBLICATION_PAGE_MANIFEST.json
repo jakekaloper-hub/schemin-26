@@ -283,7 +283,18 @@
         }
       ],
       "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
-      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE",
+      "payoff_result_banner": {
+        "required": true,
+        "contract": "production-evidence/WEEK_5_PAYOFF_RESULT_BANNER_CONTRACT_2026-10-13.json",
+        "winner": "His Majesty's Blood",
+        "away_score": 113.45,
+        "home_score": 85.34,
+        "away_record": "3–2",
+        "home_record": "2–3",
+        "character_portraits_required": 2,
+        "visible_pixel_qa": "NOT_YET_PASSED"
+      }
     },
     {
       "page_id": "P008",
@@ -394,8 +405,8 @@
       "adjacent_prev": "P010",
       "adjacent_next": "P012",
       "expected_flattened_png": "SCHEMIN26_W05_P011_LLC_MUD_PAYOFF.png",
-      "image_artifact_status": "NOT_ACCEPTED_FINAL",
-      "image_qa_status": "NOT_APPROVED",
+      "image_artifact_status": "REJECTED_PAYOFF_MISSING_RESULT_BANNER",
+      "image_qa_status": "REJECTED_LAYOUT_AND_RESULT_PANEL",
       "reader_facing_primary_header": "The LLC. at Mud Dogs",
       "reader_facing_primary_header_priority": "REQUIRED_TOP_TEXT_ON_PAGE",
       "primary_header_brand_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
@@ -414,7 +425,18 @@
       "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
       "page_specific_art_rejection": "NO_ACCEPTED_IMAGE",
       "temporary_costume_continuity": "CHAR-DAVID-BABB: same commissioner-approved P001 FOR DA BEARS costume / face; vary pose. CHAR-BOBBY-MITCHELL: huge chained four-legged feral swamp beast; NEVER HUMAN",
-      "secondary_scene_headline": "AFTERMATH AND UNCERTAIN FUTURE"
+      "secondary_scene_headline": "AFTERMATH AND UNCERTAIN FUTURE",
+      "payoff_result_banner": {
+        "required": true,
+        "contract": "production-evidence/WEEK_5_PAYOFF_RESULT_BANNER_CONTRACT_2026-10-13.json",
+        "winner": "The LLC.",
+        "away_score": 193.73,
+        "home_score": 127.09,
+        "away_record": "2–3",
+        "home_record": "2–3",
+        "character_portraits_required": 2,
+        "visible_pixel_qa": "NOT_YET_PASSED"
+      }
     },
     {
       "page_id": "P012",
@@ -538,7 +560,18 @@
         }
       ],
       "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
-      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE",
+      "payoff_result_banner": {
+        "required": true,
+        "contract": "production-evidence/WEEK_5_PAYOFF_RESULT_BANNER_CONTRACT_2026-10-13.json",
+        "winner": "Chili Cheesers",
+        "away_score": 156.7,
+        "home_score": 183.53,
+        "away_record": "2–3",
+        "home_record": "3–2",
+        "character_portraits_required": 2,
+        "visible_pixel_qa": "NOT_YET_PASSED"
+      }
     },
     {
       "page_id": "P016",
@@ -662,7 +695,18 @@
         }
       ],
       "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
-      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE",
+      "payoff_result_banner": {
+        "required": true,
+        "contract": "production-evidence/WEEK_5_PAYOFF_RESULT_BANNER_CONTRACT_2026-10-13.json",
+        "winner": "Dr. Duckhook",
+        "away_score": 141.44,
+        "home_score": 184.91,
+        "away_record": "3–2",
+        "home_record": "2–3",
+        "character_portraits_required": 2,
+        "visible_pixel_qa": "NOT_YET_PASSED"
+      }
     },
     {
       "page_id": "P020",
@@ -786,7 +830,18 @@
         }
       ],
       "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
-      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE",
+      "payoff_result_banner": {
+        "required": true,
+        "contract": "production-evidence/WEEK_5_PAYOFF_RESULT_BANNER_CONTRACT_2026-10-13.json",
+        "winner": "Seven Deadly Chins",
+        "away_score": 170.46,
+        "home_score": 134.7,
+        "away_record": "2–3",
+        "home_record": "2–3",
+        "character_portraits_required": 2,
+        "visible_pixel_qa": "NOT_YET_PASSED"
+      }
     },
     {
       "page_id": "P024",
@@ -910,7 +965,18 @@
         }
       ],
       "render_character_identity_gate": "HOLD_UNTIL_SOURCE_CONDITIONING_AND_VISUAL_QA",
-      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE"
+      "page_specific_art_rejection": "NO_ACCEPTED_IMAGE",
+      "payoff_result_banner": {
+        "required": true,
+        "contract": "production-evidence/WEEK_5_PAYOFF_RESULT_BANNER_CONTRACT_2026-10-13.json",
+        "winner": "ObiWan Jacoby",
+        "away_score": 154.42,
+        "home_score": 110.42,
+        "away_record": "4–1",
+        "home_record": "3–2",
+        "character_portraits_required": 2,
+        "visible_pixel_qa": "NOT_YET_PASSED"
+      }
     },
     {
       "page_id": "P028",
