@@ -42,3 +42,13 @@ The hooves cut four tracks through the turf. Maye's four passing touchdowns and 
 **Visual coordination from approved page brief:** - **Shot:** ball arc above course, four equine legs in midground, fused right-arm driver clearly visible.
 
 **Editorial checks:** No fabricated NFL player presence in the fictional world. Stats are causality, not the main story. Character/Atlas continuity and real reference-conditioned render QA required. Independent Beat Writer, Author Council, Librarian, Visual Lead and Umpire acceptance remains outstanding.
+
+## Page-isolated generator staging — 2026-10-13
+
+- **Stage:** BRIEF_PREPARED; CANON_RENDER_HOLD; retain source and manifest. Process exactly one page at a time.
+- **Scene:** `LOC-COUNTRY-CLUB-JACKSON`; `escalation`. Low angle of golf ball arcing above large centaur, club remains anatomically integrated. Existing editorial manuscript and shot directions remain authoritative, including precise foreground/midground/background and stage geography.
+- **Required distinct originals:** `CHAR-ZACH-WILSON`; `CHAR-WILSON-LOOK`. Resolve exact paths/Git blob receipts in `production-evidence/WEEK_5_CHARACTER_SOURCE_ASSET_RECEIPTS_2026-10-13.json`. Do not treat those receipts as renderer conditioning proof.
+- **Image master:** portrait 1024×1536, atmospheric deep scale. Keep every title and line of prose in deterministic PDF text, never baked into the artwork. Capture one approved scene beat, preserve image/prose complementarity.
+- **Hard character locks:** Dr. Duckhook is a white-gray anthropomorphic duck with yellow-orange bill, floral/camouflage bucket hat and RIGHT ARM permanently integrated with his driver. D0nkey K0ng is one gorilla-torso Arsenal centaur with FOUR equine legs and red Arsenal cloth. No generic human or separated horse and rider.
+- **Result:** Setup/escalation can be prepared without claiming an official winner.
+- **Release QA:** raw bytes SHA-256, mounted-byte receipt, each owner subject binding, NFL fact receipt if used, shot/Atlas and full names, full page and 390px preview, independent Umpire. Remain `render_eligible=false` until proofs exist.
