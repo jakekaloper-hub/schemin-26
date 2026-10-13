@@ -39,8 +39,12 @@ This page is subject to the binding four-strand narrative quality lock in `memo-
 
 **Narrative copy:**
 
-The first collision sent splinters across the arena. Nacua's fourteen catches and Stafford's three passing touchdowns had given ObiWan's fantasy side repeated opportunities; Chase's touchdown gave Red Leopards an answer. ObiWan adjusted his line, let the host commit to the center, and carried the next charge past the ruined gate without pretending the ground was his.
+The first collision sent splinters across the arena. Nacua's seventeen catches for 138 receiving yards and Stafford's three passing touchdowns had given ObiWan's fantasy side repeated opportunities; Chase's touchdown gave Red Leopards an answer. ObiWan adjusted his line, let the host commit to the center, and carried the next charge past the ruined gate without pretending the ground was his.
 
 **Visual coordination from approved page brief:** - **Shot:** compressed telephoto along jousting barrier; foreground lances converging; middle ground both riders equal stature; background storm-coast ruins and crowds; ObiWan Jacoby no championship belt.
 
 **Editorial checks:** No fabricated NFL player presence in the fictional world. Stats are causality, not the main story. Character/Atlas continuity and real reference-conditioned render QA required. Independent Beat Writer, Author Council, Librarian, Visual Lead and Umpire acceptance remains outstanding.
+
+## NFL Week 5 correction receipt — 2026-10-13
+
+The older NFL game-in-progress claim that Puka Nacua made fourteen catches is **superseded** by the October 12 Buffalo Bills–Los Angeles Rams postgame box-score reporting: Puka Nacua **17 receptions, 138 receiving yards, 1 receiving touchdown**; Matthew Stafford **383 passing yards, 3 passing touchdowns**. NFL final is separate from ESPN fantasy winner finality. Sources: https://www.reuters.com/sports/nfl/josh-allens-rushing-passing-power-bills-past-rams-ot--flm-2026-10-13/ and https://www.footballdb.com/games/boxscore/buffalo-bills-vs-los-angeles-rams-2026101202 . Reviewed against the live FLAIM Week 5 starters, in which ObiWan Jacoby fields Puka Nacua and Matthew Stafford. All fictional outcome writing remains **CONDITIONAL** until the Commissioner-authorized fantasy outcome reconciliation; no final fantasy victory promoted.
