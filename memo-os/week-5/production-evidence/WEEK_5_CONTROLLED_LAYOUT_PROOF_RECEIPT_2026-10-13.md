@@ -68,3 +68,11 @@ After the compact-mobile legibility rejection, a third real PDF was generated **
 - The PDF and preview PNGs currently remain session artifacts; this report provides cryptographic receipts but is **not** itself a GitHub binary upload or approved reproducible rendering workflow.
 
 **NEXT AUTOMATIC ACTION:** Treat the full 32-page proof as the readability-safe layout reference pending Commissioner pagination lock, and advance the independent fact/identity/visual acceptance gates before substituting finished artwork.
+
+## Post-staging corrected 32-page source proof / CI gate
+
+**2026-10-13 revision:** The same 32-page experimental PDF was rebuilt after the final Buffalo–Rams box-score update (Nacua 17 catches/138 yards, Stafford 383 passing yards) and full reader-name cleanup in the original source page manuscripts. Earlier hash `16df1f...` identifies a prior **superseded** test output, not the current best test file. Revised PDF: `SCHEMIN_26_WEEK5_32_SOURCE_PAGE_LAYOUT_PROOF_NONFINAL.pdf`, 32 pages, 149,845 bytes, SHA-256 `2153a6360d0400cea3cbf881308f1251f26d3ee346e98c46068c5892a1fae526`. Verified 32/32 text-bearing pages, no obsolete fourteen-catch line, 390px previews rerendered. Assets still abstract placeholders; no character art release.
+
+**Source/CI acceptance:** 32 page-local stage instructions persisted directly into the existing 32 `PAGE_PACKET.md` files. Twelve unique original character paths and blob identities proven present, not their mounted SHA-256. All twelve FLAIM starter-score sums match Week 5 period totals to the cent; provider winner still UNDECIDED. Source receipts: `WEEK_5_CHARACTER_SOURCE_ASSET_RECEIPTS_2026-10-13.json` and `WEEK_5_12_TEAM_STARTER_SUM_AND_WEEK6_FIXTURES_2026-10-13.json`. Six tests in `tests/test_week5_individual_page_staging.py` passed on GitHub Actions `Weekly Memo Authority CI` run `38348410832`, job `115135037833`, step `Test Week 5 individual page staging` = SUCCESS. This is **PRE-GENERATION STRUCTURE PASS ONLY**, not source-byte conditioning, fact finality, independent Umpire acceptance or publication.
+
+**Commissioner reservation:** P030 Pitty's Book input on October 14; design/schema staged, no invented wagers or settlements; other page prep proceeds independently. All pages remain `CONTRACTED_PARTIAL / render_eligible=false`, and the PR remains draft.
