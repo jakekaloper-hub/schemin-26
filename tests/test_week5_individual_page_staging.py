@@ -79,3 +79,10 @@ def test_known_post_mnf_stale_page_headers_are_reconciled():
         s = (WEEK5 / "pages" / slug / "PAGE_PACKET.md").read_text(encoding="utf-8")
         assert "fourteen catches" not in s
         assert "seventeen" in s
+
+if __name__ == "__main__":
+    tests = [value for name, value in sorted(globals().items()) if name.startswith("test_") and callable(value)]
+    for test in tests:
+        test()
+        print(f"PASS {test.__name__}")
+    print(f"Week 5 staging acceptance: {len(tests)} checks passed")
