@@ -53,3 +53,11 @@ Dr. Duckhook studied the practice green while the clubhouse was still quiet. His
 - **Hard character locks:** Dr. Duckhook is a white-gray anthropomorphic duck with yellow-orange bill, floral/camouflage bucket hat and RIGHT ARM permanently integrated with his driver. D0nkey K0ng is one gorilla-torso Arsenal centaur with FOUR equine legs and red Arsenal cloth. No generic human or separated horse and rider.
 - **Result:** Choose winner POV only after independent fantasy certification.
 - **Release QA:** raw bytes SHA-256, mounted-byte receipt, each owner subject binding, NFL fact receipt if used, shot/Atlas and full names, full page and 390px preview, independent Umpire. Remain `render_eligible=false` until proofs exist.
+
+## Commissioner 2026-10-13 hard render correction: species and visible header
+
+**Top-priority override** on this page, superseding older PDF-first and generic masthead language: exactly one complete 1024×1536 PNG with full illustrated art and legible integrated text. **Primary visible reader-facing header: D0nkey K0ng at Dr. Duckhook.** Never replace it with an oversized `SCHEMIN ’26` banner. Secondary literary scene heading follows the matchup header.
+
+**Physical identity, not team-name guesswork:** CHAR-WILSON-LOOK / FOUR_LEGGED_ARSENAL_GORILLA_CENTAUR / SHA-256 c4ef045845641e6e2067d1ed82be20b9a0fd154c41aff0bfec4c2e36d26d319d; CHAR-ZACH-WILSON / ANTHROPOMORPHIC_DUCK / SHA-256 5ff6fc4fc0b2f37d76bbab8651400478e37a709418867b0fd111c993762f9eda. 
+
+**Absolute visual rejects:** bipedal gorilla; horse rider; detached horse; human head; human golfer; normal duck; hand holding separate club instead of right arm prosthetic. Confirm canonical original mounted as each distinct subject, compare actual generated pixels with original subject, inspect 390px title legibility, Atlas continuity and page-to-page costume, and obtain independent Umpire acceptance. A renderer missing conditioning proof may run an explicitly failed experiment but MUST NOT produce an accepted page. **P009 original art was REJECTED** for human hunter substitution plus bad title; `WEEK_5_P009_REJECTION_AND_32_PAGE_RENDER_CORRECTION_2026-10-13.md` is the receipt. No manuscript rewrites and no final winner declarations without Fact Lock.
