@@ -15,7 +15,7 @@
 - **Premise:** Champions' Joust.
 - **Reader job:** establish the eventual verified winner's private motivation and ordinary world before confrontation, without telegraphing the outcome.
 - **Canon constraints:** Commissioner-approved temporary jousting lists at Red Ruins; both receive equal heroic entrances; ObiWan Trade Jedi has NO BELT.
-- **Current ESPN evidence:** Red 89.22 / ObiWan 81.20 provisional; both remaining starters; not final or certified.
+- **Current ESPN evidence:** Red Leopards 110.42 / ObiWan Jacoby 154.42 provisional (FLAIM 2026-10-13); post-MNF period scores populated, but winner remains UNDECIDED and not certified.
 - **Final winner POV manuscript:** **PENDING Fact Lock**. No fabricated prose is authorized. Preserve both POV possibilities.
 
 ## Visual and typography
