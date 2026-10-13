@@ -198,3 +198,86 @@ The prior sprint shorthand "Arsenal Centaur" was incomplete: `canon/characters/C
 **Explicit gate semantics:** `PRODUCTION_ASSET_ORDER != PUBLICATION_PAGE_ORDER`. Each character face in scoreboard must point to a previously approved matchup render (same character ID and crop/source artifact receipt); no source render = scoreboard character tile HOLD, not a newly hallucinated face. Individual page HOLD must not cascade into unrelated page generation. Publication remains HOLD if any required page or factual gate fails. This is the controlling Week 4 postmortem corrective action for Week 5.
 
 **Required next engineering control:** Add machine-readable per-page dependencies to the existing Week 5 production scheduler/manifest, without creating a parallel OS; verify a topological build where scoreboard depends on approved matchup portrait derivatives, Pitty is independent, and State of Realm precedes GOTW hype in the final PDF. Run regression proving Pitty-data absence does not prevent unrelated production jobs.
+
+
+## BULLPEN MISSION: Week 5 Preproduction Closure and Recovery — controlling execution contract
+
+**Mission reference:** PR #152 discussion; 2026-10-12 Commissioner directive. **State at activation:** ACTIVE / OPEN. This section is an execution and recovery index, not an authenticated Director conference, art render, final manuscript signoff, PDF acceptance or merge. All work runs under existing Memo OS; no parallel OS.
+
+### Three independent lanes
+
+**NOW / before result Fact Lock:** Complete six manuscript/shot reconciliation packets, exact page-by-page recovery detail, physical pagination proof, real owner-specific renderer reference verification, production dependency enforcement, and representative mobile-safe layout proofs. A block on one page is not a block on other eligible page jobs.
+
+**AFTER FINAL GAME / evidence required:** Refresh authenticated FLAIM ESPN 1417621, verify fantasy totals, all six outcomes and character/winner POV branches, standings, rankings, transaction details, plus one Week 6 GOTW selection shared by State of the Realm and immediately following hype page. The NFL game reaching FINAL starts the refresh, even if FLAIM still reports UNDECIDED; provider ambiguity is documented, never silently converted to certified winners.
+
+**PARALLEL / INDEPENDENT:** Pitty exclusively supplies verified odds, tickets and settlements for his designated page. Layout shell and other pages continue. Pitty's absence only holds his page and, if required at deadline, final publication decision.
+
+### Mandatory gates, evidence, and owner assignments
+
+| Gate | Responsible production lane | Verifiable acceptance | Current status |
+| --- | --- | --- | --- |
+| Master page bible and manuscript reconciliation | Groundskeeper / Beat Writer / Author Council / Librarian | Every source P001–P032 indexed to original packet, emotional arc, exact approved text reference, shot hierarchy, Atlas, canon IDs, variants, dependencies, layout, receipt and unresolved questions | OPEN |
+| Compact pagination lock | Groundskeeper / Architect / Commissioner | 32 source IDs survive mapping to 21 reader pages, no lost overtures or beats, two legible physical layout proofs and explicit final pagination approval | PROPOSED / HOLD |
+| Renderer proof | Visual Lead / Librarian / Architect / independent Umpire | Transport owner binary into actual provider; prove provider reference tag or asset ID, generate image, inspect character fidelity, retain task ID/asset receipt/output artifact and verdict | BLOCKED / NOT PROVEN |
+| Production dependency order | Architect / Groundskeeper | Matchup character renders and approved ID/hash-linked face crops built before P003 scoreboard; independent Pitty leaf; testable DAG and negative regression | DOCUMENTED / NOT TECHNICALLY ENFORCED |
+| Layout and PDF mobile preflight | Visual Lead / Groundskeeper / Umpire | Real representative PDF pages, 390px phone previews, text extraction and safe zones; fix defects and rerun | OPEN |
+| Post-MNF Fact Lock | Scout / Beat Writer | Confirm six fantasy outcomes, correct host/visitor, scores, ranking/standings, winner POV and result-sensitive copy from authoritative evidence | WAITING FOR VERIFIED RESULTS |
+| Pitty receipt lock | Pitty / Umpire | Pitty-delivered authoritative data, independent page production and settlement verification | INDEPENDENT / WAITING FOR PITTY |
+| Final release | Umpire / Closer | All page locks, complete PDF in correct reader order, no fabricated receipts or results, distribution inspection | HOLD |
+
+### Source-page-by-page recovery register (32 source units; publication manifest unchanged)
+
+Each entry refers to the existing, authoritative `memo-os/week-5/pages/<Pxxx-slug>/PAGE_PACKET.md` and complementary source-derived manuscripts. These page descriptions define recovery tasks; they **do not** falsely label the actual pages finalized or render-eligible.
+
+| Source ID | Purpose and binding recovery requirement |
+| --- | --- |
+| P001 | **Cover**: cinematic Week 5 identity, approved characters, hierarchy and no false victory imagery; create after artwork references are eligible, despite reader position first. |
+| P002 | **Opening**: scene-setting six-story thesis, verified league context, typography and transition to scoreboard; full-name and mobile checks. |
+| P003 | **Scoreboard**: six certified outcomes; reuse approved source-render character-face crops with exact owner-ID/hash/crop provenance after six visual waves are made; do not regenerate faces. |
+| P004 | **HMB vs TDS / overture**: dedicated prose-forward eventual winner POV, neutral approach to temporary Dark Wizard Chess board; branch held pending result; Belt Keeper and three-headed serpent locked. |
+| P005 | **HMB vs TDS / setup**: monumental temporary chess field and opposing figures, host/visitor geography, scene opening and visual scale. |
+| P006 | **HMB vs TDS / escalation**: chess-position causal tactical conflict, contrasting scale/angles, no winner or permanent-world alteration inferred. |
+| P007 | **HMB vs TDS / payoff**: verified consequence and end image only after Fact Lock; belt cannot transfer because of an individual result. |
+| P008 | **LLC vs Mud Dogs / overture**: eventual winner POV, swamp arrival and stake, no premature outcome. |
+| P009 | **LLC vs Mud Dogs / setup**: Mud Dogs' home swamp, environment establishing view, LLC intrusion or pressure and character locks. |
+| P010 | **LLC vs Mud Dogs / escalation**: environmental danger/Save the Swamp pressure, water/terrain and motion continuity. |
+| P011 | **LLC vs Mud Dogs / payoff**: confirmed matchup consequence and coherent swamp state; no fabricated persistent ecological damage. |
+| P012 | **Chili vs El Niño / overture**: conditional winning perspective, western-town buildup and impending storm. |
+| P013 | **Chili vs El Niño / setup**: Chili home street and Dark Horse, high-noon tableau; no sheriff mythology. |
+| P014 | **Chili vs El Niño / escalation**: encroaching weather, western showdown compositions, anchored location and source-approved character design. |
+| P015 | **Chili vs El Niño / payoff**: consequence only from verified result; resolve storm impact without inventing permanent Atlas changes. |
+| P016 | **Duckhook vs DK / overture**: conditional POV and Country Club of Jackson approach; golf/scale opposition. |
+| P017 | **Duckhook vs DK / setup**: home golf domain and Arsenal gorilla-centaur invader; Duckhook's fused golf-driver arm. |
+| P018 | **Duckhook vs DK / escalation**: David-and-Goliath encounter, giant body and four equine legs continuous, no generic humanoid DK substitution. |
+| P019 | **Duckhook vs DK / payoff**: sourced consequence, country-club visual continuity, winner gated. |
+| P020 | **Seven Deadly Chins vs Slob / overture**: eventual winning POV, dusk and oncoming rain; Jeep concept retained. |
+| P021 | **Seven Deadly Chins vs Slob / setup**: host foothill camp and heavy-rain Jeep mudding, no unauthorized pickup-truck substitutions. |
+| P022 | **Seven Deadly Chins vs Slob / escalation**: terrain/rain/mudding causal action, stable character-vehicle identity. |
+| P023 | **Seven Deadly Chins vs Slob / payoff**: verified outcome, aftermath and environment consequences without invented damage. |
+| P024 | **Red Leopards vs ObiWan / overture**: conditional champion's perspective, Red ruins and tournament approach; no belt on ObiWan. |
+| P025 | **Red Leopards vs ObiWan / setup**: temporary jousting lists within host Red territory, strong opposing identity silhouettes. |
+| P026 | **Red Leopards vs ObiWan / escalation**: dramatic joust interaction, camera variation, approved weapons/costumes and no unearned coronation. |
+| P027 | **Red Leopards vs ObiWan / payoff**: verified consequence and winner perspective, do not permanently alter ruins without Atlas authority. |
+| P028 | **Power Rankings**: source-backed 12-team ordinal movement and analysis; no unsupported percentages. |
+| P029 | **State of the Realm**: facts/stakes plus six verified Week 6 fixtures (host first) in a quick visual; exactly one circled editorial GOTW, shared with next physical page. |
+| P030 | **Pitty's Book**: Pitty-owned facts, lines/wagers/receipts; independent late-binding page, never blocks other pages. |
+| P031 | **Waivers / Transactions**: verified roster additions, drops, transaction implications and mobile-readable list. |
+| P032 | **Final Word**: conclusive editorial perspective, Week 6 bridge and fact-disciplined forward stakes; no fabricated results. |
+
+### Proposed 21-page physical publication mapping (NOT promoted)
+
+Physical 01–03: P001 cover, P002 opening, P003 scoreboard. Physical 04–15: exactly two pages for each of the six four-source-unit waves P004–P027: first overture (dedicated prose-forward), then a carefully composed image-and-prose collage preserving setup, escalation and payoff text and visuals. Physical 16: P028 Power Rankings. Physical 17: P029 State of the Realm with all six Week 6 matchups and one GOTW circle. **Physical 18 NEW Week 6 GOTW cinematic hype:** same single selected matchup, host territory and both canon-bound owners, no invented Week 6 score. Physical 19: P030 Pitty. Physical 20: P031 Waivers/Transactions. Physical 21: P032 Final Word. Require two actual compact readability proofs and Commissioner approval before writing final physical manifest. Distinguish source count (32) from physical count (21). Preserve each source packet unmodified until its reconciliation is independently verified.
+
+### Production execution order — not publication order
+
+1. Resolve identities, source hashes, Atlas coordinates/venues, plot and font templates.
+2. Verify actual provider reference mount/binding. Generate and inspect six matchup visual waves; archive canonical face crops from those exact renders with character IDs and crop receipts.
+3. Finalize conditional narrative page units and approved visual/prose collage compositions.
+4. Build P003 scoreboard using the previously approved owner-face derivatives; insert independently verified official fantasy results.
+5. Build cover, opening, rankings, State of Realm, Week 6 GOTW hype and closing departments according to their own evidence readiness.
+6. Independently build Pitty as his data is delivered; preserve reserved final reader position.
+7. Reassemble in approved reader sequence, 390px mobile PDF QA, independent Umpire gates and release.
+
+**Regression requirements:** all 32 source packet paths resolve; 12 distinct owner bindings; scoreboard requires approved face receipts and cannot silently synthesize replacements; removing Pitty data does not stop unrelated work; P029 Week 6 selected GOTW ID equals hype-page ID; six Week 6 fixture pairs remain correct; all 21 physical pages preserve unique source lineage and full reader-facing team names; no final winner-specific copy until Fact Lock.
+
+**Mandated completion report:** IMPLEMENTED, TESTED, AUDITED, PROMOTED, BLOCKED, REMAINING_EXTERNAL_INPUT_REQUIRED, source paths/commit, actual test logs, independent Umpire evidence. Any missing proof = HOLD, not green.
