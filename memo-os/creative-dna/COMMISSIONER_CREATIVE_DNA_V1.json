@@ -153,5 +153,22 @@
     ],
     "missing_module_override": "explicit_module_omission_reasons",
     "QA_owner": "independent_umpire"
+  },
+  "render_direction": {
+    "preferred_quality_reference": "Week 4 cinematic hyperrealism: detailed believable character surfaces, environment depth, sharp intentional subject rendering and convincing materials; qualitative preference, not measured resolution superiority",
+    "quality_invariants": [
+      "high perceived detail at final display size",
+      "clear anatomy and character recognition",
+      "environmental depth and credible material texture",
+      "legibility under scene-appropriate lighting"
+    ],
+    "optional_treatments": [
+      "dark low-key grading",
+      "wet reflective materials",
+      "glossy specular highlights",
+      "heavy atmospheric gloom"
+    ],
+    "default_rule": "Do not impose dark, glossy or reflective grading as universal Schemin house style. Lighting and surface treatment derive from venue, time, weather and specific story.",
+    "art_direction_qa": "Visually review scene-specific exposure, contrast, highlight restraint, character readability and whether reflective/dark styling was earned; no automated aesthetic PASS."
   }
 }
