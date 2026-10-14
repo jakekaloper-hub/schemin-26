@@ -1,19 +1,20 @@
 """Memo publication manifest guard: fail closed on deterministic defects."""
-import json,sys
+import json,sys,re
 from collections import Counter
 
 def validate(d):
     errors=[]; pages=d.get("pages",[]); expected=d.get("expected_pages",0)
     slots=[p.get("slot") for p in pages]
-    if not isinstance(expected,int) or expected<1: errors.append("expected_pages invalid")
-    if len(pages)!=expected or sorted(x for x in slots if isinstance(x,int))!=list(range(1,expected+1)):
+    if type(expected) is not int or expected<1: errors.append("expected_pages invalid")
+    if len(pages)!=expected or any(type(x) is not int for x in slots) or sorted(x for x in slots if type(x) is int)!=list(range(1,expected+1)):
         errors.append("page coverage incomplete or duplicated")
     assets=[p.get("asset_sha256") for p in pages]
     if len(set(assets))!=len(assets): errors.append("duplicate page asset")
     for p in pages:
         n=p.get("slot")
         if p.get("printed_page")!=n: errors.append(f"page {n}: printed label mismatch")
-        if not p.get("asset_sha256") or len(p["asset_sha256"])!=64: errors.append(f"page {n}: missing SHA256")
+        if not isinstance(p.get("asset_sha256"),str) or not re.fullmatch(r"[0-9a-fA-F]{64}",p["asset_sha256"]): errors.append(f"page {n}: missing SHA256")
+        if p.get("role") not in {"RESULT","SETUP","ESCALATION","EDITORIAL","COVER"}: errors.append(f"page {n}: unknown page role")
         if p.get("role")=="RESULT":
             fact=d.get("results",{}).get(p.get("matchup_key"))
             if not fact or p.get("final_scores")!=fact: errors.append(f"page {n}: fact lock mismatch")
@@ -31,12 +32,14 @@ def validate(d):
         else: divisions[members[winner]]+=1
     highlight=d.get("division_highlight")
     if highlight and divisions:
-        if highlight.get("wins")!=divisions.get(highlight.get("name")) or divisions.get(highlight.get("name"),0)!=max(divisions.values()):
+        if highlight.get("wins")!=divisions.get(highlight.get("name")) or divisions.get(highlight.get("name"),0)!=max(divisions.values()) or sum(1 for count in divisions.values() if count==max(divisions.values()))>1:
             errors.append("division winner claim unsupported")
+    if d.get("publication_state") not in ("PLANNED","REVIEW","RELEASED","PUBLISHED"):
+        errors.append("unknown publication state")
     if d.get("publication_state") in ("RELEASED","PUBLISHED"):
         if d.get("pdf_page_count")!=expected: errors.append("PDF count mismatch")
         if d.get("independent_umpire_approval")!="PASS": errors.append("Umpire required")
-        if not d.get("published_artifact_sha256"): errors.append("release hash missing")
+        if not isinstance(d.get("published_artifact_sha256"),str) or not re.fullmatch(r"[0-9a-fA-F]{64}",d["published_artifact_sha256"]): errors.append("release hash missing")
     return errors
 
 if __name__=="__main__":
