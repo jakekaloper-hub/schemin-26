@@ -93,7 +93,7 @@ def inspect_creative_dna(manifest, manifest_path):
     import sys
 
     base = Path(manifest_path).resolve().parent
-    found = re.fullmatch(r"2026-week-(\\d+)", base.name)
+    found = re.fullmatch(r"2026-week-(\d+)", base.name)
     raw_week = manifest.get("week")
     week = raw_week if type(raw_week) is int else (int(found.group(1)) if found else None)
     season = manifest.get("season", 2026 if found else None)
@@ -125,7 +125,7 @@ def inspect_creative_dna(manifest, manifest_path):
     expected = manifest.get("expected_pages")
     rows = data.get("pages", [])
     slots = [row.get("slot") for row in rows if isinstance(row, dict)]
-    if type(expected) is not int or len(rows) != expected or sorted(slots) != list(range(1, expected + 1)):
+    if type(expected) is not int or len(rows) != expected or any(type(n) is not int for n in slots) or sorted(n for n in slots if type(n) is int) != list(range(1, expected + 1)):
         errors.append("creative DNA: candidate page slots must cover every physical page")
     return errors
 
