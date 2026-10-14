@@ -67,9 +67,16 @@ def validate_evidence(manifest, base):
                 evidence = (base / path).resolve()
                 if not evidence.is_relative_to(base) or not evidence.is_file() or digest(evidence) != rec.get("evidence_sha256"):
                     errors.append(f"page {n}: {scope} evidence bytes missing/mismatched")
+            if scope in {"character", "atlas", "visual", "mobile"} and isinstance(path, str):
+                try:
+                    from PIL import Image
+                    with Image.open(evidence) as img:
+                        img.verify()
+                except (OSError, ValueError, NameError):
+                    errors.append(f"page {n}: {scope} evidence is not a readable image")
             if scope == "character" and not rec.get("canonical_character_ids"):
                 errors.append(f"page {n}: character source identifiers absent")
-            if scope == "atlas" and not rec.get("venue_id"):
+            if scope == "character" and not rec.get("reference_sha256"):\n                errors.append(f"page {n}: canonical character source hash absent")\n            if scope == "atlas" and not rec.get("venue_id"):
                 errors.append(f"page {n}: Atlas venue absent")
         if not required.issubset(seen):
             errors.append(f"page {n}: missing independent review scopes {sorted(required-seen)}")
