@@ -76,7 +76,10 @@ class PrologueSceneContract(unittest.TestCase):
         for entry in SOURCES["entries"]:
             self.assertEqual(entry["approval_state"], "APPROVED")
             self.assertEqual(len(entry["expected_sha256"]), 64)
-            self.assertEqual(entry["current_byte_verification"], "PENDING_DURABLE_RAW_BYTE_ACCESS")
+            self.assertIn(entry["current_byte_verification"], {"PENDING_DURABLE_RAW_BYTE_ACCESS", "VERIFIED_CANONICAL_MAIN_SHA256_2026_10_13"})
+            if entry["current_byte_verification"] == "VERIFIED_CANONICAL_MAIN_SHA256_2026_10_13":
+                self.assertIn(entry["character_id"], {"CHAR-PHILLIP-PITTS", "CHAR-AUSTIN-BYARS"})
+                self.assertTrue(entry.get("repository_path"))
 
     def test_visual_lookup_uses_full_reference_registry(self):
         scene = dict(MANIFEST["scenes"][0], visual_required=True)
