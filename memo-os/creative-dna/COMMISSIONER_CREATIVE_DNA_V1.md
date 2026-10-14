@@ -55,8 +55,20 @@ Four approved exemplars are **layout and editorial references only**:
 
 Before real Week 6 publication: reconcile final prior issue's source identity and publication gate, source current approved character bytes, demonstrate actual mounted-character proof, assemble candidate PDF, and inspect final pixels at phone scale. These gates fail closed under Memo OS V5.5 and the current canonical release-evidence authority.
 
-## Commissioner art-direction clarification — October 14
+## Commissioner cross-OS creative authority clarification — October 14
 
-Week 4's **hyperrealistic cinematic appearance** is the preferred qualitative rendering benchmark: convincing material texture, recognizable anatomy, environmental depth, crisp details and visual clarity. This does not assert measured source pixel counts or require one lighting setup for all locations.
+**The Memo does not own an independent visual standard.** A coherent Schemin universe is authored through existing Character Canon, World Engine/Atlas, cross-OS visual/story contracts and the creative contributions of the established Author Council and Bullpen specialists. The Weekly Memo, Living Novel, and other publication forms consume that shared authority; they may use different narrative compositions without redesigning characters, geography, landmarks or history.
 
-Week 5's darker and more reflective visual treatment was appreciated in places but **is not a universal house style**. Low-key lighting, wet/glossy surfaces and dramatic specular reflections are optional scene-specific choices, justified by narrative, location, time and weather. The visual review must avoid defaulting all issues to dark, shiny grading. Test final output for credible texture, controlled highlights, legible faces and scene-appropriate exposure. This art preference never overrides active character identity, geography or visual QA.
+The Commissioner liked Week 4's convincing material detail, environmental depth, clarity and cinematic execution. These are **quality observations**, not a mandatory hyperrealism preset or house style. Week 5's darker, reflective grading is likewise one available scene-specific treatment, not a standard to impose. Genre, visual style, light, texture and symbols arise from the actual story and venue.
+
+### Creative decision pathway
+
+1. Beat Writer / Author Council: establish the story-specific emotional, causal and symbolic purposes of each image; explain what prose and visuals communicate differently.
+2. Librarian + Character Canon + World/Atlas: resolve authoritative identity, temporal costume, place, travel and entering world state across **all Schemin publications**.
+3. Visual Direction: translate the authored intent and shared references into composition, camera, atmospheric treatment and rendering strategy without copying an exemplar blindly.
+4. Groundskeeper / Page Design: apply this Memo's preferred **editorial functions** (rankings, opening drive, sequential story, result strip) and actual phone-readable text geometry.
+5. Independent Umpire: verify the final artifacts against current characters, geography, league evidence, manuscript purpose and visual continuity—not a fixed dark/light/style aesthetic.
+
+The four Memo Creative DNA patterns are reusable editorial *techniques* only. They neither replace the existing cross-OS art direction nor confer authority over the Living Novel. A Memo page, Novel illustration and Atlas depiction of the same moment must agree on character/world facts even if their framing, aesthetics and amount of text differ.
+
+No live authenticated Author Council, Visual Direction or Umpire signoff is represented by these documented roles alone.
