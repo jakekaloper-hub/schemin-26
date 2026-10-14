@@ -91,7 +91,8 @@ def main():
         manifest = json.load(f)
     from validate_issue import validate
     from validate_evidence import validate_evidence
-    errors = validate(manifest) + inspect(manifest, args.manifest) + validate_evidence(manifest, Path(args.manifest).resolve().parent)
+    from validate_character_provenance import validate_character_provenance
+    errors = validate(manifest) + inspect(manifest, args.manifest) + validate_evidence(manifest, Path(args.manifest).resolve().parent) + validate_character_provenance(manifest, Path(args.manifest).resolve().parent)
     print(json.dumps({"status": "FAIL" if errors else "PASS", "errors": errors}, indent=2))
     return bool(errors)
 
