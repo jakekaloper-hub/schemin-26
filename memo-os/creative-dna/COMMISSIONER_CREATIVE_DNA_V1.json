@@ -33,13 +33,9 @@
       },
       "purpose": "Consistent twelve-team editorial hierarchy",
       "required_data": [
-        "rank",
-        "prior_rank",
-        "movement",
-        "team_id",
-        "record",
-        "commentary",
-        "portrait_asset_ref"
+        "ranking_rows",
+        "fact_lock_ref",
+        "previous_published_rankings_ref"
       ],
       "qa": [
         "all_12_unique_teams_and_ranks",
