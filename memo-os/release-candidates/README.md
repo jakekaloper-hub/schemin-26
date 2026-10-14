@@ -7,6 +7,12 @@ This folder contains *future* Weekly Memo release candidates, not a new publicat
 
 Every claimed `RELEASED` weekly memo for season 2026 Week 6 onward in `governance/publication-manifest/PUBLICATION_MANIFEST_V1.json` requires the corresponding bundle. The `Memo Issue Guardrail Regression` GitHub Action now inspects each bundled manifest when this directory or the publication registry changes. Unrelated historical Week 5 distribution is unaffected.
 
+## Commissioner Creative DNA preflight (Week 6 onward)
+
+A real Week 6+ candidate must include a hashed `creative_dna_packet_path` (relative to the release directory) and `creative_dna_packet_sha256` in the existing `issue-manifest.json`. The companion JSON follows `memo-os/creative-dna/COMMISSIONER_CREATIVE_DNA_V1.json` and covers every physical page by `slot: 1..expected_pages`. Pages without one of the four patterns are allowed with `creative_dna_patterns: []`; recurring Opening Drive and Power Rankings require either a valid implementation or an explicit issue-level omission reason.
+
+The `memo-os/tests/validate_artifacts.py` release-candidate preflight now loads the source bytes, recomputes SHA256 and runs structural creative-DNA validation. Referenced artwork cannot be assumed approved or rendered merely because the JSON passes. Keep current Character Canon, Fact Lock, Atlas, phone-raster review and Umpire gates unchanged. Historical Week 1–5 releases are not retroactively judged under this new rule.
+
 ## Minimum real-candidate evidence
 - `issue-manifest.json`: expected page count, PDF relative path, exact SHA256, all unique page slots, master-image paths and SHA256s, declared scores/roles/canon review statuses, release state.
 - `provider_receipt_path` and `provider_receipt_sha256`: a separate immutable FLAIM/ESPN retrieval receipt with `league_id`, `week`, `source=FLAIM_ESPN`, `status=FINAL`, and exactly six matchup keys, home/away owners, and final scores. Obtaining the data must occur via the authenticated FLAIM connector; *file labels and hashes alone do not prove provider authentication*. Store retrieval identifier, extraction timestamp and raw-provider provenance in the companion intake register.
