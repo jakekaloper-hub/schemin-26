@@ -1,16 +1,17 @@
 import copy,json,tempfile,unittest
 from pathlib import Path
 from validate_evidence import digest,validate_evidence
+from PIL import Image
 
 class EvidenceTests(unittest.TestCase):
     def setUp(self):
         self.t=tempfile.TemporaryDirectory();self.addCleanup(self.t.cleanup);self.root=Path(self.t.name)
         games=[{"matchup_key":str(i),"home":"H"+str(i),"away":"A"+str(i),"final_scores":{"winner":"H"+str(i),"home":120+i,"away":110+i}} for i in range(6)]
         src=self.root/"source.json";src.write_text(json.dumps({"league_id":"1417621","week":5,"source":"FLAIM_ESPN","status":"FINAL","matchups":games}))
-        for scope in ("character","atlas","visual","mobile"): (self.root/(scope+".txt")).write_text("independent inspect "+scope)
+        for scope in ("character","atlas","visual","mobile"): Image.new("RGB",(390,700),(22,33,44)).save(self.root/(scope+".png"))
         sha="a"*64; pdf="b"*64
         receipts=[dict(scope=scope,reviewer_id="review-"+scope,reviewed_at="2026-10-14",decision="PASS",page_sha256=sha,pdf_sha256=pdf,
-                       evidence_path=scope+".txt",evidence_sha256=digest(self.root/(scope+".txt")),
+                       evidence_path=scope+".png",evidence_sha256=digest(self.root/(scope+".png")),reference_sha256="c"*64,
                        canonical_character_ids=["CHAR-A"],venue_id="LOC-A") for scope in ("character","atlas","visual","mobile")]
         self.d={"publication_state":"PUBLISHED","league_id":"1417621","week":5,"provider_receipt_path":"source.json","provider_receipt_sha256":digest(src),
                 "results":{g["matchup_key"]:g["final_scores"] for g in games},
@@ -27,7 +28,7 @@ class EvidenceTests(unittest.TestCase):
     def test_missing_visual_receipt(self):
         x=copy.deepcopy(self.d);x["pages"][0]["review_receipts"]=[r for r in x["pages"][0]["review_receipts"] if r["scope"]!="visual"];self.assertTrue(validate_evidence(x,self.root))
     def test_tampered_evidence(self):
-        (self.root/"atlas.txt").write_text("tampered");self.assertTrue(validate_evidence(self.d,self.root))
+        (self.root/"atlas.png").write_text("tampered");self.assertTrue(validate_evidence(self.d,self.root))
     def test_umpire_not_independent(self):
         x=copy.deepcopy(self.d);x["umpire_receipt"]["reviewer_id"]="review-visual";self.assertTrue(validate_evidence(x,self.root))
     def test_invalid_atlas_venue(self):
