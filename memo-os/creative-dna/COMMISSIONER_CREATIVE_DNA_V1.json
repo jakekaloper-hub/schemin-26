@@ -1,0 +1,161 @@
+{
+  "version": "1.0.0",
+  "status": "COMMISSIONER_APPROVED_DESIGN_DIRECTION / IMPLEMENTATION_CANDIDATE",
+  "authority": "Commissioner creative preferences from Weeks 1–5 review; existing Memo OS V5.5, Character Canon, World Engine, Fact Lock and release gates remain superior for operational truth",
+  "doctrine": "Preserve page functions and editorial strengths, not pixel-perfect copies, outdated character designs, or creative outcomes.",
+  "creative_freedom": [
+    "camera",
+    "lighting",
+    "palette",
+    "genre",
+    "composition",
+    "number_of_pages",
+    "scene_structure",
+    "earned_headlines",
+    "art_text_balance"
+  ],
+  "invariants": [
+    "verified_fantasy_events_cause_world_consequences",
+    "active_character_references_only",
+    "final_raster_character_QA",
+    "deterministic_scores_records_rankings",
+    "phone_scale_readability",
+    "independent_umpire_release_evidence"
+  ],
+  "patterns": [
+    {
+      "id": "power_rankings",
+      "reference": {
+        "week": 3,
+        "pdf_page": 17,
+        "published_page_label": "THE TWELVE",
+        "source": "Week 3 Memo(3).pdf"
+      },
+      "purpose": "Consistent twelve-team editorial hierarchy",
+      "required_data": [
+        "rank",
+        "prior_rank",
+        "movement",
+        "team_id",
+        "record",
+        "commentary",
+        "portrait_asset_ref"
+      ],
+      "qa": [
+        "all_12_unique_teams_and_ranks",
+        "movement_from_previous_published_ranking",
+        "fact_lock_record",
+        "portrait_from_accepted_matchup_or_current_authorized_ref",
+        "deterministic_typography",
+        "mobile_legibility"
+      ],
+      "not_character_authority": true
+    },
+    {
+      "id": "cinematic_sequence",
+      "reference": {
+        "week": 4,
+        "pdf_pages": [
+          1,
+          4,
+          5
+        ],
+        "source": "Pro_Schemin_26_Week_4_Official_Memo(4).pdf"
+      },
+      "purpose": "Art-led scene storytelling with readable integrated copy, world geography, and football causality",
+      "required_data": [
+        "sequence_beats",
+        "narrative_text",
+        "fantasy_causality_ref",
+        "world_atlas_ref",
+        "text_treatment"
+      ],
+      "qa": [
+        "image_and_prose_complementarity",
+        "visual_rhythm",
+        "earned_headers_not_auto_overture",
+        "fantasy_evidence_in_story",
+        "world_state_consistency",
+        "mobile_legibility"
+      ],
+      "not_character_authority": true
+    },
+    {
+      "id": "matchup_progression_receipt",
+      "reference": {
+        "week": 4,
+        "pdf_pages": [
+          15,
+          16,
+          20
+        ],
+        "source": "Pro_Schemin_26_Week_4_Official_Memo(4).pdf"
+      },
+      "purpose": "Multi-view setup and payoff, with standardized verified result strip that reuses character faces from the accepted matchup artwork",
+      "required_data": [
+        "scene_asset_refs",
+        "accepted_character_assets",
+        "result"
+      ],
+      "qa": [
+        "setup_to_payoff_consequence",
+        "same_face_source_reused_in_receipt",
+        "home_away_result_and_records",
+        "margin_arithmetic",
+        "deterministic_result_typography",
+        "mobile_legibility"
+      ],
+      "not_character_authority": true
+    },
+    {
+      "id": "opening_drive",
+      "reference": {
+        "week": 5,
+        "pdf_page": 3,
+        "source": "Schemin26_Week5_Artwork_Review_19_Pages(3).pdf",
+        "release_note": "Review-assembly reference only; not proof of completed 21-page publication"
+      },
+      "purpose": "World-state weekly thesis with multiple visual consequence zones and genuine readable narration",
+      "required_data": [
+        "weekly_thesis",
+        "narrative_text",
+        "world_event_callouts",
+        "fact_evidence_refs",
+        "world_atlas_ref",
+        "entry_world_state_ref"
+      ],
+      "qa": [
+        "consequences_trace_to_verified_events",
+        "one_coherent_weekly_thesis",
+        "multi_zone_visual_reading_order",
+        "geography_consistency",
+        "text_integrated_not_obscured",
+        "mobile_legibility"
+      ],
+      "not_character_authority": true
+    }
+  ],
+  "reuse_policy": {
+    "historical_pages": "COMPOSITION_REFERENCE_ONLY",
+    "portrait_priority": [
+      "same_issue_accepted_matchup_crop",
+      "exact_current_approved_canonical_asset"
+    ],
+    "forbid": [
+      "historical_page_as_identity_authority",
+      "independently_regenerated_rankings_portrait",
+      "synthetic_player_scores_in_art",
+      "unverified_scorecard_as_league_fact"
+    ]
+  },
+  "production_bindings": {
+    "page_packet": "memo-os/post-production/PAGE_DESIGN_PACKET_TEMPLATE_V2.md",
+    "creative_conditioning": "governance/resilience/CREATIVE_CONDITIONING_REGISTRY_V1.json",
+    "required_issue_modules": [
+      "power_rankings",
+      "opening_drive"
+    ],
+    "missing_module_override": "explicit_module_omission_reasons",
+    "QA_owner": "independent_umpire"
+  }
+}
