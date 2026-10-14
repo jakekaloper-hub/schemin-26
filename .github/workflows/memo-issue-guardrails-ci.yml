@@ -52,6 +52,9 @@ jobs:
                   expected = pathlib.Path("memo-os/release-candidates") / ("2026-week-" + str(weeks[0]).zfill(2)) / "issue-manifest.json"
                   if expected not in candidates:
                       raise SystemExit("Missing mandatory candidate bundle for released Memo: " + str(expected))
+                  released_candidate = json.loads(expected.read_text())
+                  if released_candidate.get("publication_state") not in ("RELEASED", "PUBLISHED"):
+                      raise SystemExit("Registry RELEASED but candidate manifest is not released: " + str(expected))
           for manifest in candidates:
               print("Inspecting", manifest, flush=True)
               subprocess.run([sys.executable, "memo-os/tests/validate_artifacts.py", str(manifest)], check=True)
