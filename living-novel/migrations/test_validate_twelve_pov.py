@@ -45,5 +45,31 @@ class TestPOV(unittest.TestCase):
     def test_twelve_count(self):
         self.assertTrue(validate({**REGISTRY, "principals":REGISTRY["principals"][:11]}, []))
 
+    def test_chapter_one_two_source_scene_coverage(self):
+        path = Path(__file__).parent / "CHAPTER_01_02_TWELVE_POV_SCENE_MIGRATION_PLAN_2026-10-14.json"
+        packet = json.loads(path.read_text(encoding="utf-8"))
+        scenes = packet["sections"]
+        self.assertEqual(len(scenes), 19)
+        self.assertEqual(len({s["scene_id"] for s in scenes}), 19)
+        self.assertEqual(validate(REGISTRY, scenes), [])
+        root = Path(__file__).resolve().parents[2]
+        for chapter in packet["chapters"]:
+            prose = (root / chapter["main_path"]).read_text(encoding="utf-8")
+            headings = [line[3:] for line in prose.splitlines() if line.startswith("## ")]
+            actual = [x["source_heading"] for x in scenes if x["source_chapter"] == chapter["chapter"]]
+            self.assertEqual(actual, headings)
+            self.assertEqual(len(actual), chapter["source_section_count"])
+        self.assertTrue(all(s["hard_manuscript_replacement_status"] == "PROPOSED_NOT_WRITTEN_OR_ACCEPTED" for s in scenes))
+
+    def test_early_chapter_candidate_fails_closed_on_unlicensed_narrator(self):
+        path = Path(__file__).parent / "CHAPTER_01_02_TWELVE_POV_SCENE_MIGRATION_PLAN_2026-10-14.json"
+        scenes = json.loads(path.read_text(encoding="utf-8"))["sections"]
+        invalid = [dict(s) for s in scenes]
+        invalid[0]["principal_pov_id"] = "edrin"
+        self.assertTrue(validate(REGISTRY, invalid))
+        elemental = [dict(s) for s in scenes]
+        elemental[0]["principal_pov_id"] = "el_nino"
+        self.assertTrue(validate(REGISTRY, elemental))
+
 if __name__ == "__main__":
     unittest.main()
