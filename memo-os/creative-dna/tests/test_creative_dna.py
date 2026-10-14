@@ -3,14 +3,18 @@
 No fixture represents a real league result, approved render, or publication.
 """
 import copy
+import hashlib
 import json
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from validate_creative_dna import validate_packet, validate_registry  # noqa: E402
+sys.path.insert(0, str(ROOT.parent / "tests"))
+from validate_artifacts import inspect_creative_dna  # noqa: E402
 
 
 def fixture():
@@ -150,6 +154,43 @@ class CreativeDNAContractTests(unittest.TestCase):
         obj["reuse_policy"]["historical_pages"] = "CHARACTER_IDENTITY_AUTHORITY"
         self.assertTrue(any("historical reference images" in e for e in validate_registry(obj)))
 
+
+
+    def test_week6_candidate_must_bind_packet(self):
+        with tempfile.TemporaryDirectory() as temp:
+            folder = Path(temp) / "2026-week-06"
+            folder.mkdir()
+            issues = inspect_creative_dna({"expected_pages": 4}, folder / "issue-manifest.json")
+            self.assertTrue(any("missing creative_dna_packet_path" in e for e in issues), issues)
+
+    def test_week6_candidate_checks_hash_and_all_page_slots(self):
+        with tempfile.TemporaryDirectory() as temp:
+            folder = Path(temp) / "2026-week-06"
+            folder.mkdir()
+            packet = fixture()
+            for slot, page in enumerate(packet["pages"], start=1):
+                page["slot"] = slot
+            contents = json.dumps(packet).encode("utf-8")
+            (folder / "creative.json").write_bytes(contents)
+            manifest = {
+                "expected_pages": 4, "creative_dna_packet_path": "creative.json",
+                "creative_dna_packet_sha256": hashlib.sha256(contents).hexdigest(),
+            }
+            self.assertEqual(inspect_creative_dna(manifest, folder / "issue-manifest.json"), [])
+            manifest["creative_dna_packet_sha256"] = "0" * 64
+            self.assertTrue(any("SHA256 mismatch" in e for e in inspect_creative_dna(manifest, folder / "issue-manifest.json")))
+            manifest["creative_dna_packet_sha256"] = hashlib.sha256(contents).hexdigest()
+            packet["pages"][3]["slot"] = 99
+            new_contents = json.dumps(packet).encode("utf-8")
+            (folder / "creative.json").write_bytes(new_contents)
+            manifest["creative_dna_packet_sha256"] = hashlib.sha256(new_contents).hexdigest()
+            self.assertTrue(any("page slots must cover" in e for e in inspect_creative_dna(manifest, folder / "issue-manifest.json")))
+
+    def test_week5_archive_is_not_retroactively_released_or_blocked(self):
+        with tempfile.TemporaryDirectory() as temp:
+            folder = Path(temp) / "2026-week-05"
+            folder.mkdir()
+            self.assertEqual(inspect_creative_dna({"expected_pages": 19}, folder / "issue-manifest.json"), [])
 
 if __name__ == "__main__":
     unittest.main()
