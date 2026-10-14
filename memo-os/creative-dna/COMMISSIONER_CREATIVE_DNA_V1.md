@@ -54,3 +54,9 @@ Four approved exemplars are **layout and editorial references only**:
 ### Release / visual acceptance still pending
 
 Before real Week 6 publication: reconcile final prior issue's source identity and publication gate, source current approved character bytes, demonstrate actual mounted-character proof, assemble candidate PDF, and inspect final pixels at phone scale. These gates fail closed under Memo OS V5.5 and the current canonical release-evidence authority.
+
+## Commissioner art-direction clarification — October 14
+
+Week 4's **hyperrealistic cinematic appearance** is the preferred qualitative rendering benchmark: convincing material texture, recognizable anatomy, environmental depth, crisp details and visual clarity. This does not assert measured source pixel counts or require one lighting setup for all locations.
+
+Week 5's darker and more reflective visual treatment was appreciated in places but **is not a universal house style**. Low-key lighting, wet/glossy surfaces and dramatic specular reflections are optional scene-specific choices, justified by narrative, location, time and weather. The visual review must avoid defaulting all issues to dark, shiny grading. Test final output for credible texture, controlled highlights, legible faces and scene-appropriate exposure. This art preference never overrides active character identity, geography or visual QA.
