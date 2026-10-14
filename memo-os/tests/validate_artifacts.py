@@ -83,6 +83,52 @@ def inspect(manifest, manifest_path):
             errors.append(f"page {slot}: corrupt or unsupported image: {exc}")
     return errors
 
+
+def inspect_creative_dna(manifest, manifest_path):
+    """Bind Week 6+ staged Memo publication to a hashed Creative DNA page packet.
+
+    This supplements existing release gates and does not attest to visual QA.
+    """
+    import re
+    import sys
+
+    base = Path(manifest_path).resolve().parent
+    found = re.fullmatch(r"2026-week-(\\d+)", base.name)
+    raw_week = manifest.get("week")
+    week = raw_week if type(raw_week) is int else (int(found.group(1)) if found else None)
+    season = manifest.get("season", 2026 if found else None)
+    if season != 2026 or week is None or week < 6:
+        return []
+
+    errors = []
+    relative = manifest.get("creative_dna_packet_path")
+    if not isinstance(relative, str) or not relative.strip():
+        return ["creative DNA: Week 6+ candidate missing creative_dna_packet_path"]
+    source = (base / relative).resolve()
+    if not source.is_relative_to(base):
+        return ["creative DNA: packet path escapes release candidate directory"]
+    if not source.is_file():
+        return [f"creative DNA: source file missing: {relative}"]
+    if sha256(source) != manifest.get("creative_dna_packet_sha256"):
+        return ["creative DNA: packet SHA256 mismatch"]
+    try:
+        data = json.loads(source.read_text(encoding="utf-8"))
+    except (ValueError, OSError) as exc:
+        return [f"creative DNA: invalid packet JSON: {exc}"]
+
+    current_root = Path(__file__).resolve().parents[1]
+    dna_root = current_root / "creative-dna"
+    sys.path.insert(0, str(dna_root))
+    from validate_creative_dna import validate_packet
+    registry = json.loads((dna_root / "COMMISSIONER_CREATIVE_DNA_V1.json").read_text(encoding="utf-8"))
+    errors.extend("creative DNA: " + issue for issue in validate_packet(data, registry))
+    expected = manifest.get("expected_pages")
+    rows = data.get("pages", [])
+    slots = [row.get("slot") for row in rows if isinstance(row, dict)]
+    if type(expected) is not int or len(rows) != expected or sorted(slots) != list(range(1, expected + 1)):
+        errors.append("creative DNA: candidate page slots must cover every physical page")
+    return errors
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("manifest")
@@ -91,7 +137,7 @@ def main():
         manifest = json.load(f)
     from validate_issue import validate
     from validate_evidence import validate_evidence
-    errors = validate(manifest) + inspect(manifest, args.manifest) + validate_evidence(manifest, Path(args.manifest).resolve().parent)
+    errors = validate(manifest) + inspect(manifest, args.manifest) + validate_evidence(manifest, Path(args.manifest).resolve().parent) + inspect_creative_dna(manifest, args.manifest)
     print(json.dumps({"status": "FAIL" if errors else "PASS", "errors": errors}, indent=2))
     return bool(errors)
 
