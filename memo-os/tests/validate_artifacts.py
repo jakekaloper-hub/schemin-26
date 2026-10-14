@@ -90,7 +90,8 @@ def main():
     with open(args.manifest, encoding="utf-8") as f:
         manifest = json.load(f)
     from validate_issue import validate
-    errors = validate(manifest) + inspect(manifest, args.manifest)
+    from validate_evidence import validate_evidence
+    errors = validate(manifest) + inspect(manifest, args.manifest) + validate_evidence(manifest, Path(args.manifest).resolve().parent)
     print(json.dumps({"status": "FAIL" if errors else "PASS", "errors": errors}, indent=2))
     return bool(errors)
 
