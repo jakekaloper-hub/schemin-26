@@ -31,7 +31,7 @@ def validate_scene(scene,contract):
     for name in ("memo_os","novel_os","visual_grounding","interactive_atlas"):
         view=views.get(name)
         if not isinstance(view,dict): errors.append("missing view "+name);continue
-        for key in ("character_id","location_id","world_state_ref","verified_event_ref"):
+        for key in contract["immutable"]:
             if view.get(key)!=scene.get(key): errors.append(name+": divergent "+key)
         if not isinstance(view.get("narrative_purpose"),str) or not view["narrative_purpose"].strip():
             errors.append(name+": missing narrative purpose")
