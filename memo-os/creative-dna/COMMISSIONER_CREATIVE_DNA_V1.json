@@ -35,7 +35,8 @@
       "required_data": [
         "ranking_rows",
         "fact_lock_ref",
-        "previous_published_rankings_ref"
+        "previous_published_rankings_ref",
+        "previous_published_ranking_rows"
       ],
       "qa": [
         "all_12_unique_teams_and_ranks",
@@ -43,7 +44,8 @@
         "fact_lock_record",
         "portrait_from_accepted_matchup_or_current_authorized_ref",
         "deterministic_typography",
-        "mobile_legibility"
+        "mobile_legibility",
+        "all_12_prior_ranks_owner_bounded_to_previous_published_baseline"
       ],
       "not_character_authority": true
     },
@@ -99,7 +101,8 @@
         "home_away_result_and_records",
         "margin_arithmetic",
         "deterministic_result_typography",
-        "mobile_legibility"
+        "mobile_legibility",
+        "winner_team_id_derived_from_final_score"
       ],
       "not_character_authority": true
     },
