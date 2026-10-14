@@ -28,6 +28,12 @@ class SceneConvergenceTests(unittest.TestCase):
     def test_character_drift_fails(self):
         obj=candidate();obj["views"]["novel_os"]["character_id"]="CHAR-WRONG"
         self.assertTrue(any("divergent character_id" in x for x in module.validate_scene(obj,CONTRACT)))
+    def test_character_source_ref_drift_fails(self):
+        obj=candidate();obj["views"]["memo_os"]["character_source_ref"]="obsolete-image-ref"
+        self.assertTrue(any("divergent character_source_ref" in x for x in module.validate_scene(obj,CONTRACT)))
+    def test_missing_character_source_ref_in_view_fails(self):
+        obj=candidate();del obj["views"]["visual_grounding"]["character_source_ref"]
+        self.assertTrue(any("divergent character_source_ref" in x for x in module.validate_scene(obj,CONTRACT)))
     def test_world_state_drift_fails(self):
         obj=candidate();obj["views"]["interactive_atlas"]["world_state_ref"]="old"
         self.assertTrue(any("divergent world_state_ref" in x for x in module.validate_scene(obj,CONTRACT)))
