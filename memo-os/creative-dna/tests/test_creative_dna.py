@@ -52,6 +52,10 @@ def fixture():
             page("TEST-RANKS", "power_rankings", {
                 "ranking_rows": rows, "fact_lock_ref": "test-fact-lock",
                 "previous_published_rankings_ref": "test-prior-rankings",
+                "previous_published_ranking_rows": [
+                    {"team_id": f"synthetic-owner-{i:02}", "rank": i}
+                    for i in range(1, 13)
+                ],
             }),
             page("TEST-STORY", "cinematic_sequence", {
                 "sequence_beats": ["Challenge", "Reversal"],
@@ -71,6 +75,7 @@ def fixture():
                     "away": {"team_id": "synthetic-owner-02", "score": 140.25,
                              "record": {"wins": 2, "losses": 3}, "portrait_asset_ref": "accepted/portrait-02"},
                     "margin": 10.25,
+                    "winner_team_id": "synthetic-owner-01",
                 },
                 "fact_lock_ref": "test-final-fact-lock",
             }),
@@ -118,6 +123,31 @@ class CreativeDNAContractTests(unittest.TestCase):
         obj = fixture()
         obj["pages"][1]["creative_dna"]["power_rankings"]["ranking_rows"][1]["team_id"] = "synthetic-owner-01"
         self.check_defect(obj, "missing/duplicate stable team_id")
+
+    def test_ranking_movement_cannot_invent_prior_owners_rank(self):
+        obj = fixture()
+        entry = obj["pages"][1]["creative_dna"]["power_rankings"]["ranking_rows"][0]
+        entry["prior_rank"] = 2
+        entry["movement"] = 1
+        other = obj["pages"][1]["creative_dna"]["power_rankings"]["ranking_rows"][1]
+        other["prior_rank"] = 1
+        other["movement"] = -1
+        self.check_defect(obj, "prior rank disagrees with published team baseline")
+
+    def test_prior_published_baseline_mandatory(self):
+        obj = fixture()
+        del obj["pages"][1]["creative_dna"]["power_rankings"]["previous_published_ranking_rows"]
+        self.check_defect(obj, "expected 12 published baseline")
+
+    def test_result_winner_must_derive_from_scores(self):
+        obj = fixture()
+        obj["pages"][3]["creative_dna"]["matchup_progression_receipt"]["result"]["winner_team_id"] = "synthetic-owner-02"
+        self.check_defect(obj, "winner does not match verified scores")
+
+    def test_invalid_page_creative_dna_shape_fails_closed(self):
+        obj = fixture()
+        obj["pages"][1]["creative_dna"] = ["untrusted-list-payload"]
+        self.check_defect(obj, "creative_dna payload missing")
 
     def test_rankings_portrait_not_independently_generated(self):
         obj = fixture()
