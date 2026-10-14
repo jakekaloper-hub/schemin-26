@@ -94,10 +94,15 @@ def inspect_creative_dna(manifest, manifest_path):
 
     base = Path(manifest_path).resolve().parent
     found = re.fullmatch(r"2026-week-(\d+)", base.name)
+    folder_week = int(found.group(1)) if found else None
     raw_week = manifest.get("week")
-    week = raw_week if type(raw_week) is int else (int(found.group(1)) if found else None)
-    season = manifest.get("season", 2026 if found else None)
-    if season != 2026 or week is None or week < 6:
+    declared_season = manifest.get("season", 2026 if found else None)
+    if found and declared_season not in (2026, "2026"):
+        return ["creative DNA: folder season conflicts with declared season"]
+    if found and raw_week is not None and raw_week != folder_week:
+        return ["creative DNA: folder week conflicts with declared week"]
+    week = folder_week if found else (raw_week if type(raw_week) is int else None)
+    if declared_season not in (2026, "2026") or week is None or week < 6:
         return []
 
     errors = []
