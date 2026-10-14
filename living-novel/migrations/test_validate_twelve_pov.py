@@ -71,5 +71,19 @@ class TestPOV(unittest.TestCase):
         elemental[0]["principal_pov_id"] = "el_nino"
         self.assertTrue(validate(REGISTRY, elemental))
 
+    def test_two_scene_prose_pilot_is_explicitly_noncanonical(self):
+        path = Path(__file__).parent / "CHAPTER_01_02_TWELVE_POV_PROSE_PILOT_NONCANON_2026-10-14.md"
+        prose = path.read_text(encoding="utf-8")
+        self.assertIn("NOT hard canon", prose)
+        self.assertIn("## CHAPTER_01_S01", prose)
+        self.assertIn("## CHAPTER_02_S01", prose)
+        self.assertNotIn("Edrin", prose)
+        self.assertNotIn("Edin", prose)
+        self.assertIn("141.70", prose)
+        self.assertIn("131.26", prose)
+        self.assertIn("191.90", prose)
+        self.assertIn("100.90", prose)
+        self.assertIn("other 17 remain mapped", prose)
+
 if __name__ == "__main__":
     unittest.main()
