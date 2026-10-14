@@ -90,7 +90,8 @@ def validate_packet(packet, registry):
                 errors.append(f"{location} has unknown pattern {pattern_id}")
                 continue
             used.add(pattern_id)
-            payload = (page.get("creative_dna") or {}).get(pattern_id)
+            content = page.get("creative_dna") or {}
+            payload = content.get(pattern_id) if isinstance(content, dict) else None
             if not isinstance(payload, dict):
                 errors.append(f"{location}/{pattern_id}: creative_dna payload missing")
                 continue
@@ -125,6 +126,27 @@ def _check_rankings(data, errors, location):
     if not isinstance(rows, list) or len(rows) != 12:
         errors.append(prefix + ": expected exactly 12 ranking rows")
         return
+    # Movement cannot be authenticated from a self-reported prior_rank alone.
+    # Require the prior-published 12-team baseline to bind owner identity to rank.
+    previous = data.get("previous_published_ranking_rows")
+    prior_by_owner = {}
+    if not isinstance(previous, list) or len(previous) != 12:
+        errors.append(prefix + ": expected 12 published baseline ranking rows")
+    else:
+        baseline_ranks = set()
+        for baseline in previous:
+            if not isinstance(baseline, dict):
+                errors.append(prefix + ": malformed previous published baseline")
+                continue
+            owner = baseline.get("team_id")
+            position = baseline.get("rank")
+            if not _filled(owner) or type(position) is not int or not 1 <= position <= 12:
+                errors.append(prefix + ": malformed previous published baseline row")
+                continue
+            if owner in prior_by_owner or position in baseline_ranks:
+                errors.append(prefix + ": duplicate previous published baseline team/rank")
+            prior_by_owner[owner] = position
+            baseline_ranks.add(position)
     ranks, teams, priors = set(), set(), set()
     for row in rows:
         if not isinstance(row, dict):
@@ -144,6 +166,8 @@ def _check_rankings(data, errors, location):
         team = row.get("team_id")
         if not _filled(team) or team in teams:
             errors.append(prefix + ": missing/duplicate stable team_id")
+        if prior_by_owner and prior_by_owner.get(team) != prior:
+            errors.append(prefix + ": prior rank disagrees with published team baseline")
         teams.add(team)
         if not _record(row.get("record")):
             errors.append(prefix + ": invalid W-L record")
@@ -208,10 +232,20 @@ def _check_receipt(data, errors, location):
         if isinstance(accepted, dict) and row.get("portrait_asset_ref") != accepted.get(team):
             errors.append(f"{prefix}: {side} portrait is not from accepted matchup wave")
         sides.append(row)
-    if len(sides) == 2 and all(_number(s.get("score")) for s in sides):
-        margin = abs(sides[0]["score"] - sides[1]["score"])
-        if not _number(result.get("margin")) or abs(margin - result["margin"]) > 0.001:
-            errors.append(prefix + ": margin does not match score difference")
+    if len(sides) == 2:
+        if sides[0].get("team_id") == sides[1].get("team_id"):
+            errors.append(prefix + ": matchup cannot use same owner twice")
+        if all(_number(s.get("score")) for s in sides):
+            margin = abs(sides[0]["score"] - sides[1]["score"])
+            if not _number(result.get("margin")) or abs(margin - result["margin"]) > 0.001:
+                errors.append(prefix + ": margin does not match score difference")
+            expected_winner = None
+            if sides[0]["score"] > sides[1]["score"]:
+                expected_winner = sides[0]["team_id"]
+            elif sides[1]["score"] > sides[0]["score"]:
+                expected_winner = sides[1]["team_id"]
+            if result.get("winner_team_id") != expected_winner:
+                errors.append(prefix + ": winner does not match verified scores")
     if not _filled(data.get("fact_lock_ref")):
         errors.append(prefix + ": missing final result Fact Lock")
 
