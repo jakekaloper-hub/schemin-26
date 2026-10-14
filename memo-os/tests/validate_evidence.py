@@ -76,7 +76,9 @@ def validate_evidence(manifest, base):
                     errors.append(f"page {n}: {scope} evidence is not a readable image")
             if scope == "character" and not rec.get("canonical_character_ids"):
                 errors.append(f"page {n}: character source identifiers absent")
-            if scope == "character" and not rec.get("reference_sha256"):\n                errors.append(f"page {n}: canonical character source hash absent")\n            if scope == "atlas" and not rec.get("venue_id"):
+            if scope == "character" and not rec.get("reference_sha256"):
+                errors.append(f"page {n}: canonical character source hash absent")
+            if scope == "atlas" and not rec.get("venue_id"):
                 errors.append(f"page {n}: Atlas venue absent")
         if not required.issubset(seen):
             errors.append(f"page {n}: missing independent review scopes {sorted(required-seen)}")
