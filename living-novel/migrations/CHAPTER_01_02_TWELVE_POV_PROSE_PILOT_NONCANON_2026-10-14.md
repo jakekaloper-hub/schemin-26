@@ -40,11 +40,11 @@ The last result took longer.
 
 A messenger opened one of the notices, looked up, and tried to find a voice louder than the hundreds already using theirs.
 
-"ObiWan Jacoby. One forty-one point seven."
+"ObiWan Jacoby. 141.70."
 
 Jake felt the dog's shoulders settle under his palm.
 
-"His Majesty's Blood. One thirty-one point two six."
+"His Majesty's Blood. 131.26."
 
 For a moment the crowd seemed to draw toward him without moving. Ten point four four. There were enough witnesses to carry that margin to the mountains, and enough clever people to turn it into something more dangerous before midday.
 
