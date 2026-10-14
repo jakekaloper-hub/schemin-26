@@ -1,0 +1,151 @@
+{
+  "schema": "schemin.novel.week04_05.flaim_fact_snapshot.v1",
+  "generated_on": "2026-10-14",
+  "read_context": "Authenticated Flaim session October 14, 2026; session timestamp 2026-10-14T16:34:34.033Z. Week 4 and 5 matchup reads performed in this session.",
+  "league": {
+    "platform": "espn",
+    "sport": "football",
+    "league_id": "1417621",
+    "season_year": 2026,
+    "teams": 12
+  },
+  "w4": [
+    {
+      "week": 4,
+      "home": "D0nkey K0ng",
+      "away": "ObiWan Jacoby",
+      "home_points": 139.67,
+      "away_points": 157.33,
+      "provider_winner_flag": "AWAY",
+      "winner": "ObiWan Jacoby",
+      "score_semantics": "ESPN totalPoints and pointsByScoringPeriod agree (verified readback)"
+    },
+    {
+      "week": 4,
+      "home": "Mud Dogs",
+      "away": "Three Dreaded Snake",
+      "home_points": 126.98,
+      "away_points": 149.84,
+      "provider_winner_flag": "AWAY",
+      "winner": "Three Dreaded Snake",
+      "score_semantics": "ESPN totalPoints and pointsByScoringPeriod agree (verified readback)"
+    },
+    {
+      "week": 4,
+      "home": "Red Leopards",
+      "away": "Dr. Duckhook",
+      "home_points": 164.08,
+      "away_points": 128.36,
+      "provider_winner_flag": "HOME",
+      "winner": "Red Leopards",
+      "score_semantics": "ESPN totalPoints and pointsByScoringPeriod agree (verified readback)"
+    },
+    {
+      "week": 4,
+      "home": "Slob on my Dobb",
+      "away": "The Chili Cheesers",
+      "home_points": 190.72,
+      "away_points": 139.96,
+      "provider_winner_flag": "HOME",
+      "winner": "Slob on my Dobb",
+      "score_semantics": "ESPN totalPoints and pointsByScoringPeriod agree (verified readback)"
+    },
+    {
+      "week": 4,
+      "home": "The LLC",
+      "away": "His Majesty's Blood",
+      "home_points": 138.87,
+      "away_points": 177.32,
+      "provider_winner_flag": "AWAY",
+      "winner": "His Majesty's Blood",
+      "score_semantics": "ESPN totalPoints and pointsByScoringPeriod agree (verified readback)"
+    },
+    {
+      "week": 4,
+      "home": "El Niño",
+      "away": "Seven Deadly Chins",
+      "home_points": 170.62,
+      "away_points": 106.2,
+      "provider_winner_flag": "HOME",
+      "winner": "El Niño",
+      "score_semantics": "ESPN totalPoints and pointsByScoringPeriod agree (verified readback)"
+    }
+  ],
+  "w5": [
+    {
+      "week": 5,
+      "home": "Dr. Duckhook",
+      "away": "D0nkey K0ng",
+      "home_points": 184.91,
+      "away_points": 141.44,
+      "provider_winner_flag": "HOME",
+      "winner": "Dr. Duckhook",
+      "score_semantics": "ESPN totalPoints and pointsByScoringPeriod agree (verified readback)"
+    },
+    {
+      "week": 5,
+      "home": "The Chili Cheesers",
+      "away": "El Niño",
+      "home_points": 183.53,
+      "away_points": 156.7,
+      "provider_winner_flag": "HOME",
+      "winner": "The Chili Cheesers",
+      "score_semantics": "ESPN totalPoints and pointsByScoringPeriod agree (verified readback)"
+    },
+    {
+      "week": 5,
+      "home": "Red Leopards",
+      "away": "ObiWan Jacoby",
+      "home_points": 110.42,
+      "away_points": 154.42,
+      "provider_winner_flag": "AWAY",
+      "winner": "ObiWan Jacoby",
+      "score_semantics": "ESPN totalPoints and pointsByScoringPeriod agree (verified readback)"
+    },
+    {
+      "week": 5,
+      "home": "Slob on my Dobb",
+      "away": "Seven Deadly Chins",
+      "home_points": 134.7,
+      "away_points": 170.46,
+      "provider_winner_flag": "AWAY",
+      "winner": "Seven Deadly Chins",
+      "score_semantics": "ESPN totalPoints and pointsByScoringPeriod agree (verified readback)"
+    },
+    {
+      "week": 5,
+      "home": "Three Dreaded Snake",
+      "away": "His Majesty's Blood",
+      "home_points": 85.34,
+      "away_points": 113.45,
+      "provider_winner_flag": "AWAY",
+      "winner": "His Majesty's Blood",
+      "score_semantics": "ESPN totalPoints and pointsByScoringPeriod agree (verified readback)"
+    },
+    {
+      "week": 5,
+      "home": "Mud Dogs",
+      "away": "The LLC",
+      "home_points": 127.09,
+      "away_points": 193.73,
+      "provider_winner_flag": "AWAY",
+      "winner": "The LLC",
+      "score_semantics": "ESPN totalPoints and pointsByScoringPeriod agree (verified readback)"
+    }
+  ],
+  "source_provenance": {
+    "tool": "Flaim Fantasy selected league matchups",
+    "tool_mode": "read-only",
+    "response_capture": "normalized selected fields for story-room review; not signed raw ESPN archive",
+    "w5_comparator": "memo-os/week-5/WEEK_5_FRESH_RESTART_FACT_AND_CHARACTER_RECEIPT_2026-10-13.json (draft PR #157)",
+    "w5_artifact_sha256": "cec56bd490f3e34b958b650ea6a512a0c867e70d1074948c4f21a844d64734cb",
+    "w5_artifact_pdf_pages": 19,
+    "w5_artifact_status": "commissioner-confirmed distributed; no retrospective technical certification"
+  },
+  "guardrails": [
+    "Never treat official winner as a transfer of title or land",
+    "Do not infer novel POV from Memo winner-POV editorial requirement",
+    "Do not promote a provisional location or simulated Director response",
+    "Do not treat week number as chapter number"
+  ]
+}
