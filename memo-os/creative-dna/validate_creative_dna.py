@@ -82,7 +82,7 @@ def validate_packet(packet, registry):
             errors.append(f"{location} has missing or repeated page_id")
         seen_page_ids.add(pid)
         selected = page.get("creative_dna_patterns", [])
-        if not isinstance(selected, list) or len(selected) != len(set(selected)):
+        if not isinstance(selected, list) or any(not isinstance(x, str) for x in selected) or len(selected) != len(set(selected)):
             errors.append(f"{location} has invalid/duplicate creative_dna_patterns")
             continue
         for pattern_id in selected:
