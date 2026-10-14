@@ -22,5 +22,5 @@ jobs:
           python-version: "3.12"
       - name: Validate shared authority and consumer map
         run: python governance/cross-os/validate_scene_convergence.py
-      - name: Detect consumer drift and source forks
+      - name: Verify adapter hydration fails closed\n        run: python -m unittest discover -s governance/cross-os -p "test_scene_hydration.py" -v\n      - name: Detect consumer drift and source forks
         run: python -m unittest discover -s governance/cross-os -p "test_*.py" -v
