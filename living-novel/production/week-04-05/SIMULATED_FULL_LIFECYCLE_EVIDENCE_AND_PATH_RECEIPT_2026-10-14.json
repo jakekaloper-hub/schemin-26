@@ -1,0 +1,653 @@
+{
+  "schema": "schemin.novel.week04_week05.simulated_execution_receipt.v1",
+  "date": "2026-10-14",
+  "mode": "SOURCE_BACKED_SIMULATION_WITH_REAL_REPOSITORY_READBACK",
+  "not_an_authenticated_board_call": true,
+  "all_new_scene_routes_approved": false,
+  "related": {
+    "mission": "https://github.com/jakekaloper-hub/schemin-26/issues/166",
+    "pr": "https://github.com/jakekaloper-hub/schemin-26/pull/167",
+    "existing_chapter_iv": "https://github.com/jakekaloper-hub/schemin-26/pull/128",
+    "twelve_pov": "https://github.com/jakekaloper-hub/schemin-26/pull/130"
+  },
+  "gates": [
+    {
+      "id": "G0",
+      "simulation": "SIMULATED_ROLE_MAP",
+      "real_state": "SOURCE_REFS_READ; NO AUTHENTICATED BULLPEN DIRECTOR SESSION",
+      "decision": "ADVANCE_RESEARCH_ONLY"
+    },
+    {
+      "id": "G1",
+      "simulation": "FACT_PARITY_PASS",
+      "real_state": "PRIOR AUTHENTICATED FLAIM 6+6 DECIDED; REPO-NORMALIZED RECEIPT; CURRENT SOURCE CHECK",
+      "decision": "ADVANCE_NONCANON_STORY_ROOM"
+    },
+    {
+      "id": "G2",
+      "simulation": "PROPOSED_CANON_RECONCILIATION",
+      "real_state": "ANTI-CENTAUR MATRIX CONFLICTS WITH ACTIVE GORILLA-CENTAUR PACKAGE; UNFIXED",
+      "decision": "HOLD_CHAR_CANON_TRANSACTION"
+    },
+    {
+      "id": "G3",
+      "simulation": "PROPOSED_TWELVE_POV_READER_CONTRACT",
+      "real_state": "PR #130 OPEN; 388 EDRIN/OREN OCCURRENCES IN PROLOGUE+I+II; EL_NINO MODEL UNAPPROVED",
+      "decision": "HOLD_POV_PRODUCTION"
+    },
+    {
+      "id": "G4",
+      "simulation": "ACTUAL_ROUTE_GRAPH_AUDIT",
+      "real_state": "W4 5/6 AND W5 5/6 DEFAULT AWAY ROUTES CONNECTED; SLOB CAMP DISCONNECTED; NEED ATLAS REPAIR",
+      "decision": "HOLD_LOCATION_PROMOTION"
+    },
+    {
+      "id": "G5",
+      "simulation": "CHAPTER_IV_EDITORIAL_ACCEPTANCE_REHEARSAL",
+      "real_state": "PR #128 OPEN; MATCHUP FINALITY COMPARES 157.33–139.67; NO EXACT-BLOB FOUNDER CANON APPROVAL",
+      "decision": "REUSE_EXISTING_SOFT_MANUSCRIPT"
+    },
+    {
+      "id": "G6",
+      "simulation": "PROVISIONAL_CAUSAL_SPINE_SELECTION",
+      "real_state": "SURVEY_LINE SELECTED AS POST-CH4 CANDIDATE WITH TWO-POV CONSTRAINT; NOT ASSIGNED CANON CHAPTER NUMBER",
+      "decision": "ADVANCE_NONCANON_PROSE_POC"
+    },
+    {
+      "id": "G7",
+      "simulation": "ILLUSTRATIVE_SCENE_TEST",
+      "real_state": "EXPLICITLY NONCANON SOFT PROSE EXPERIMENT; NOT AUTHENTICATED AUTHOR COUNCIL OR FINISHED CHAPTER",
+      "decision": "EDITORIAL_REVIEW_REQUIRED"
+    },
+    {
+      "id": "G8",
+      "simulation": "TWELVE_PATH_SCENE_DESIGN",
+      "real_state": "12 DRAFT READER PATH HOOKS; 0 RUNTIME ROUTES TESTED IN THIS SIMULATION; ART NOT RENDERED",
+      "decision": "HOLD_INTERACTIVE_PUBLISH"
+    },
+    {
+      "id": "G9",
+      "simulation": "ADVERSARIAL_UMPIRE_REHEARSAL",
+      "real_state": "SOURCE AND DESIGN CAN BE REVIEWED; AUTHENTICATED INDEPENDENT UMPiRE AND FOUNDER EXACT-BLOB TRANSACTION UNPROVEN",
+      "decision": "RELEASE_HOLD"
+    }
+  ],
+  "source_counts": {
+    "total_week_results": 12,
+    "unique_principals": 12,
+    "atlas_locations": 23,
+    "atlas_edges": 18,
+    "hard_manuscript_e_or_mentions": {
+      "prologue": 130,
+      "chapter_1": 166,
+      "chapter_2": 92,
+      "chapter_3": 0,
+      "soft_chapter_4": 0
+    },
+    "hard_manuscript_e_or_total": 388
+  },
+  "venue_checks": [
+    {
+      "week": 4,
+      "home_team": "D0nkey K0ng",
+      "away_team": "ObiWan Jacoby",
+      "verified_winner": "ObiWan Jacoby",
+      "host_location": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "away_origin": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "canonical_graph_path": [
+        {
+          "route_id": "ROUTE-EASTERN-ASCENT",
+          "to_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE"
+        },
+        {
+          "route_id": "ROUTE-HEARTHROAD",
+          "to_location_id": "LOC-ARSENAL-BARBERSHOP"
+        },
+        {
+          "route_id": "ROUTE-DK-HIGHLAND-LINK",
+          "to_location_id": "LOC-DK-HIGHLAND-STRONGHOLD"
+        }
+      ],
+      "travel_gate": "STRUCTURAL_PATH_EXISTS"
+    },
+    {
+      "week": 4,
+      "home_team": "Mud Dogs",
+      "away_team": "Three Dreaded Snake",
+      "verified_winner": "Three Dreaded Snake",
+      "host_location": "LOC-MUD-DOGS-SWAMP",
+      "away_origin": "LOC-TDS-WATERFALL-TEMPLE",
+      "canonical_graph_path": [
+        {
+          "route_id": "ROUTE-FALLS-PATH",
+          "to_location_id": "LOC-MUD-DOGS-SWAMP"
+        }
+      ],
+      "travel_gate": "STRUCTURAL_PATH_EXISTS"
+    },
+    {
+      "week": 4,
+      "home_team": "Red Leopards",
+      "away_team": "Dr. Duckhook",
+      "verified_winner": "Red Leopards",
+      "host_location": "LOC-RED-RUINS",
+      "away_origin": "LOC-COUNTRY-CLUB-JACKSON",
+      "canonical_graph_path": [
+        {
+          "route_id": "ROUTE-JACKSON-LEVEE",
+          "to_location_id": "LOC-CHINS-ROAD-COMMONS"
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "to_location_id": "LOC-LEAGUE-CHAMBER"
+        },
+        {
+          "route_id": "ROUTE-UPPER-BASIN-CONNECTOR",
+          "to_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE"
+        },
+        {
+          "route_id": "ROUTE-RAIN-ESCARPMENT",
+          "to_location_id": "LOC-RED-RUINS"
+        }
+      ],
+      "travel_gate": "STRUCTURAL_PATH_EXISTS"
+    },
+    {
+      "week": 4,
+      "home_team": "Slob on my Dobb",
+      "away_team": "The Chili Cheesers",
+      "verified_winner": "Slob on my Dobb",
+      "host_location": "LOC-SLOB-FOOTHILL-CAMP",
+      "away_origin": "LOC-CHILI-STABLE",
+      "canonical_graph_path": null,
+      "travel_gate": "HOLD_MISSING_ROUTE"
+    },
+    {
+      "week": 4,
+      "home_team": "The LLC",
+      "away_team": "His Majesty's Blood",
+      "verified_winner": "His Majesty's Blood",
+      "host_location": "LOC-LLC-BOARDROOM",
+      "away_origin": "LOC-BELT-KEEPER-KEEP",
+      "canonical_graph_path": [
+        {
+          "route_id": "ROUTE-BLACK-CLIFF",
+          "to_location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+        },
+        {
+          "route_id": "ROUTE-EASTERN-ASCENT",
+          "to_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE"
+        },
+        {
+          "route_id": "ROUTE-UPPER-BASIN-CONNECTOR",
+          "to_location_id": "LOC-LEAGUE-CHAMBER"
+        },
+        {
+          "route_id": "ROUTE-PORT-BASIN-CONNECTOR",
+          "to_location_id": "LOC-LLC-STORM-CITY"
+        },
+        {
+          "route_id": "ROUTE-INNER-SEA-QUAY",
+          "to_location_id": "LOC-LLC-BOARDROOM"
+        }
+      ],
+      "travel_gate": "STRUCTURAL_PATH_EXISTS"
+    },
+    {
+      "week": 4,
+      "home_team": "El Niño",
+      "away_team": "Seven Deadly Chins",
+      "verified_winner": "El Niño",
+      "host_location": "LOC-STORM-BOWL",
+      "away_origin": "LOC-CHINS-ROAD-COMMONS",
+      "canonical_graph_path": [
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "to_location_id": "LOC-LEAGUE-CHAMBER"
+        },
+        {
+          "route_id": "ROUTE-PORT-BASIN-CONNECTOR",
+          "to_location_id": "LOC-LLC-STORM-CITY"
+        },
+        {
+          "route_id": "ROUTE-STORM-COAST",
+          "to_location_id": "LOC-STORM-BOWL"
+        }
+      ],
+      "travel_gate": "STRUCTURAL_PATH_EXISTS"
+    },
+    {
+      "week": 5,
+      "home_team": "Dr. Duckhook",
+      "away_team": "D0nkey K0ng",
+      "verified_winner": "Dr. Duckhook",
+      "host_location": "LOC-COUNTRY-CLUB-JACKSON",
+      "away_origin": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "canonical_graph_path": [
+        {
+          "route_id": "ROUTE-DK-HIGHLAND-LINK",
+          "to_location_id": "LOC-ARSENAL-BARBERSHOP"
+        },
+        {
+          "route_id": "ROUTE-HEARTHROAD",
+          "to_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE"
+        },
+        {
+          "route_id": "ROUTE-UPPER-BASIN-CONNECTOR",
+          "to_location_id": "LOC-LEAGUE-CHAMBER"
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "to_location_id": "LOC-CHINS-ROAD-COMMONS"
+        },
+        {
+          "route_id": "ROUTE-JACKSON-LEVEE",
+          "to_location_id": "LOC-COUNTRY-CLUB-JACKSON"
+        }
+      ],
+      "travel_gate": "STRUCTURAL_PATH_EXISTS"
+    },
+    {
+      "week": 5,
+      "home_team": "The Chili Cheesers",
+      "away_team": "El Niño",
+      "verified_winner": "The Chili Cheesers",
+      "host_location": "LOC-CHILI-STABLE",
+      "away_origin": "LOC-STORM-BOWL",
+      "canonical_graph_path": [
+        {
+          "route_id": "ROUTE-STORM-COAST",
+          "to_location_id": "LOC-LLC-STORM-CITY"
+        },
+        {
+          "route_id": "ROUTE-PORT-BASIN-CONNECTOR",
+          "to_location_id": "LOC-LEAGUE-CHAMBER"
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "to_location_id": "LOC-CHINS-ROAD-COMMONS"
+        },
+        {
+          "route_id": "ROUTE-WESTERN-RANGE",
+          "to_location_id": "LOC-CHILI-STABLE"
+        }
+      ],
+      "travel_gate": "STRUCTURAL_PATH_EXISTS"
+    },
+    {
+      "week": 5,
+      "home_team": "Red Leopards",
+      "away_team": "ObiWan Jacoby",
+      "verified_winner": "ObiWan Jacoby",
+      "host_location": "LOC-RED-RUINS",
+      "away_origin": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "canonical_graph_path": [
+        {
+          "route_id": "ROUTE-EASTERN-ASCENT",
+          "to_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE"
+        },
+        {
+          "route_id": "ROUTE-RAIN-ESCARPMENT",
+          "to_location_id": "LOC-RED-RUINS"
+        }
+      ],
+      "travel_gate": "STRUCTURAL_PATH_EXISTS"
+    },
+    {
+      "week": 5,
+      "home_team": "Slob on my Dobb",
+      "away_team": "Seven Deadly Chins",
+      "verified_winner": "Seven Deadly Chins",
+      "host_location": "LOC-SLOB-FOOTHILL-CAMP",
+      "away_origin": "LOC-CHINS-ROAD-COMMONS",
+      "canonical_graph_path": null,
+      "travel_gate": "HOLD_MISSING_ROUTE"
+    },
+    {
+      "week": 5,
+      "home_team": "Three Dreaded Snake",
+      "away_team": "His Majesty's Blood",
+      "verified_winner": "His Majesty's Blood",
+      "host_location": "LOC-TDS-WATERFALL-TEMPLE",
+      "away_origin": "LOC-BELT-KEEPER-KEEP",
+      "canonical_graph_path": [
+        {
+          "route_id": "ROUTE-BLACK-CLIFF",
+          "to_location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+        },
+        {
+          "route_id": "ROUTE-EASTERN-ASCENT",
+          "to_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE"
+        },
+        {
+          "route_id": "ROUTE-UPPER-BASIN-CONNECTOR",
+          "to_location_id": "LOC-LEAGUE-CHAMBER"
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "to_location_id": "LOC-CHINS-ROAD-COMMONS"
+        },
+        {
+          "route_id": "ROUTE-WESTERN-RANGE",
+          "to_location_id": "LOC-CHILI-STABLE"
+        },
+        {
+          "route_id": "ROUTE-TDS-CHILI-SHARED-MARCH",
+          "to_location_id": "LOC-TDS-WATERFALL-TEMPLE"
+        }
+      ],
+      "travel_gate": "STRUCTURAL_PATH_EXISTS"
+    },
+    {
+      "week": 5,
+      "home_team": "Mud Dogs",
+      "away_team": "The LLC",
+      "verified_winner": "The LLC",
+      "host_location": "LOC-MUD-DOGS-SWAMP",
+      "away_origin": "LOC-LLC-BOARDROOM",
+      "canonical_graph_path": [
+        {
+          "route_id": "ROUTE-INNER-SEA-QUAY",
+          "to_location_id": "LOC-LLC-STORM-CITY"
+        },
+        {
+          "route_id": "ROUTE-PORT-BASIN-CONNECTOR",
+          "to_location_id": "LOC-LEAGUE-CHAMBER"
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "to_location_id": "LOC-CHINS-ROAD-COMMONS"
+        },
+        {
+          "route_id": "ROUTE-JACKSON-LEVEE",
+          "to_location_id": "LOC-COUNTRY-CLUB-JACKSON"
+        },
+        {
+          "route_id": "ROUTE-DELTA-CAUSEWAY",
+          "to_location_id": "LOC-MUD-DOGS-SWAMP"
+        }
+      ],
+      "travel_gate": "STRUCTURAL_PATH_EXISTS"
+    }
+  ],
+  "neutral_override_candidate": {
+    "event": "E26-W05-HMB-TDS",
+    "location": "LOC-COMPACT-NEUTRAL-GROUNDS",
+    "status": "VENUE_CANDIDATE_NOT_FORMALLY_PROMOTED",
+    "home_path": [
+      {
+        "route_id": "ROUTE-TDS-CHILI-SHARED-MARCH",
+        "to_location_id": "LOC-CHILI-STABLE"
+      },
+      {
+        "route_id": "ROUTE-WESTERN-RANGE",
+        "to_location_id": "LOC-CHINS-ROAD-COMMONS"
+      },
+      {
+        "route_id": "ROUTE-BASIN-MARKET",
+        "to_location_id": "LOC-LEAGUE-CHAMBER"
+      },
+      {
+        "route_id": "ROUTE-COMPACT-GROUNDS",
+        "to_location_id": "LOC-COMPACT-NEUTRAL-GROUNDS"
+      }
+    ],
+    "away_path": [
+      {
+        "route_id": "ROUTE-BLACK-CLIFF",
+        "to_location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+      },
+      {
+        "route_id": "ROUTE-EASTERN-ASCENT",
+        "to_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE"
+      },
+      {
+        "route_id": "ROUTE-UPPER-BASIN-CONNECTOR",
+        "to_location_id": "LOC-LEAGUE-CHAMBER"
+      },
+      {
+        "route_id": "ROUTE-COMPACT-GROUNDS",
+        "to_location_id": "LOC-COMPACT-NEUTRAL-GROUNDS"
+      }
+    ]
+  },
+  "invalid_access_assertions": [
+    {
+      "location": "LOC-SLOB-FOOTHILL-CAMP",
+      "claimed_route_id": "ROUTE-HEARTHROAD",
+      "issue": "LOCATION_CLAIMS_ROUTE_BUT_NO_DIRECT_EDGE"
+    },
+    {
+      "location": "LOC-PITTSYS-BOOK",
+      "claimed_route_id": "ROUTE-BASIN-MARKET",
+      "issue": "LOCATION_CLAIMS_ROUTE_BUT_NO_DIRECT_EDGE"
+    },
+    {
+      "location": "LOC-DK-MUD-HILL",
+      "claimed_route_id": "ROUTE-BASIN-MARKET",
+      "issue": "LOCATION_CLAIMS_ROUTE_BUT_NO_DIRECT_EDGE"
+    },
+    {
+      "location": "LOC-DK-MUD-HILL",
+      "claimed_route_id": "ROUTE-DELTA-CAUSEWAY",
+      "issue": "LOCATION_CLAIMS_ROUTE_BUT_NO_DIRECT_EDGE"
+    },
+    {
+      "location": "LOC-SOUTHERN-SPEEDWAY",
+      "claimed_route_id": "ROUTE-BASIN-MARKET",
+      "issue": "LOCATION_CLAIMS_ROUTE_BUT_NO_DIRECT_EDGE"
+    },
+    {
+      "location": "LOC-TDS-CHILI-SHARED-MARCH",
+      "claimed_route_id": "ROUTE-TDS-CHILI-SHARED-MARCH",
+      "issue": "LOCATION_CLAIMS_ROUTE_BUT_NO_DIRECT_EDGE"
+    }
+  ],
+  "llc_to_mud_route": [
+    {
+      "route_id": "ROUTE-INNER-SEA-QUAY",
+      "to_location_id": "LOC-LLC-STORM-CITY"
+    },
+    {
+      "route_id": "ROUTE-PORT-BASIN-CONNECTOR",
+      "to_location_id": "LOC-LEAGUE-CHAMBER"
+    },
+    {
+      "route_id": "ROUTE-BASIN-MARKET",
+      "to_location_id": "LOC-CHINS-ROAD-COMMONS"
+    },
+    {
+      "route_id": "ROUTE-JACKSON-LEVEE",
+      "to_location_id": "LOC-COUNTRY-CLUB-JACKSON"
+    },
+    {
+      "route_id": "ROUTE-DELTA-CAUSEWAY",
+      "to_location_id": "LOC-MUD-DOGS-SWAMP"
+    }
+  ],
+  "pov_routes": [
+    {
+      "team": "ObiWan Jacoby",
+      "principal_id": "CHAR-JAKE-KALOPER",
+      "week4_result": "WIN",
+      "week5_result": "WIN",
+      "proposed_anchor_event": "E26-W05-OBIWAN-JACOBY",
+      "independent_scene_proposal": "How does refusing premature sovereignty change the way ObiWan uses growing influence?",
+      "knowledge_scope": "CAN_ACCESS_ONLY_PRINCIPAL_OBSERVED_ACTIONS_AND_PUBLIC_FACTS",
+      "reader_path_status": "PROPOSED_NOT_WRITTEN",
+      "runtime_tested": false,
+      "fiction_not_real_owner_biography": true
+    },
+    {
+      "team": "Red Leopards",
+      "principal_id": "CHAR-KEVIN-ZEEK",
+      "week4_result": "WIN",
+      "week5_result": "LOSS",
+      "proposed_anchor_event": "E26-W05-RED-LEOPARDS",
+      "independent_scene_proposal": "How does the Red Ruins audience reinterpret recent prestige and an earlier returned receipt?",
+      "knowledge_scope": "CAN_ACCESS_ONLY_PRINCIPAL_OBSERVED_ACTIONS_AND_PUBLIC_FACTS",
+      "reader_path_status": "PROPOSED_NOT_WRITTEN",
+      "runtime_tested": false,
+      "fiction_not_real_owner_biography": true
+    },
+    {
+      "team": "Slob on my Dobb",
+      "principal_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "week4_result": "WIN",
+      "week5_result": "LOSS",
+      "proposed_anchor_event": "E26-W05-SLOB-ON-MY-DOBB",
+      "independent_scene_proposal": "What happens to local confidence after outsiders win on the host's road?",
+      "knowledge_scope": "CAN_ACCESS_ONLY_PRINCIPAL_OBSERVED_ACTIONS_AND_PUBLIC_FACTS",
+      "reader_path_status": "PROPOSED_NOT_WRITTEN",
+      "runtime_tested": false,
+      "fiction_not_real_owner_biography": true
+    },
+    {
+      "team": "The LLC",
+      "principal_id": "CHAR-DAVID-BABB",
+      "week4_result": "LOSS",
+      "week5_result": "WIN",
+      "proposed_anchor_event": "E26-W05-LLC-MUD",
+      "independent_scene_proposal": "Can commercial leverage become legitimate access to territory without treating a result as a deed?",
+      "knowledge_scope": "CAN_ACCESS_ONLY_PRINCIPAL_OBSERVED_ACTIONS_AND_PUBLIC_FACTS",
+      "reader_path_status": "PROPOSED_NOT_WRITTEN",
+      "runtime_tested": false,
+      "fiction_not_real_owner_biography": true
+    },
+    {
+      "team": "D0nkey K0ng",
+      "principal_id": "CHAR-WILSON-LOOK",
+      "week4_result": "LOSS",
+      "week5_result": "LOSS",
+      "proposed_anchor_event": "E26-W04-OBI-DK",
+      "independent_scene_proposal": "What remains of the hill's public crown narrative when two successive defeats arrive?",
+      "knowledge_scope": "CAN_ACCESS_ONLY_PRINCIPAL_OBSERVED_ACTIONS_AND_PUBLIC_FACTS",
+      "reader_path_status": "PROPOSED_NOT_WRITTEN",
+      "runtime_tested": false,
+      "fiction_not_real_owner_biography": true
+    },
+    {
+      "team": "Three Dreaded Snake",
+      "principal_id": "CHAR-PHILLIP-PITTS",
+      "week4_result": "WIN",
+      "week5_result": "LOSS",
+      "proposed_anchor_event": "E26-W05-HMB-TDS",
+      "independent_scene_proposal": "Can reconstruction persist when a public demonstration of restored form collapses?",
+      "knowledge_scope": "CAN_ACCESS_ONLY_PRINCIPAL_OBSERVED_ACTIONS_AND_PUBLIC_FACTS",
+      "reader_path_status": "PROPOSED_NOT_WRITTEN",
+      "runtime_tested": false,
+      "fiction_not_real_owner_biography": true
+    },
+    {
+      "team": "The Chili Cheesers",
+      "principal_id": "CHAR-BRANDON-PRYOR",
+      "week4_result": "LOSS",
+      "week5_result": "WIN",
+      "proposed_anchor_event": "E26-W05-THE-CHILI-CHEESERS",
+      "independent_scene_proposal": "How do the outlaw, Dark Horse, and town relate to a storm the showdown did not necessarily erase?",
+      "knowledge_scope": "CAN_ACCESS_ONLY_PRINCIPAL_OBSERVED_ACTIONS_AND_PUBLIC_FACTS",
+      "reader_path_status": "PROPOSED_NOT_WRITTEN",
+      "runtime_tested": false,
+      "fiction_not_real_owner_biography": true
+    },
+    {
+      "team": "His Majesty's Blood",
+      "principal_id": "CHAR-AUSTIN-BYARS",
+      "week4_result": "WIN",
+      "week5_result": "WIN",
+      "proposed_anchor_event": "E26-W05-HMB-TDS",
+      "independent_scene_proposal": "Can a champion's improved results repair authority without restoring a lost resource?",
+      "knowledge_scope": "CAN_ACCESS_ONLY_PRINCIPAL_OBSERVED_ACTIONS_AND_PUBLIC_FACTS",
+      "reader_path_status": "PROPOSED_NOT_WRITTEN",
+      "runtime_tested": false,
+      "fiction_not_real_owner_biography": true
+    },
+    {
+      "team": "El Niño",
+      "principal_id": "CHAR-MANNING-WELTY",
+      "week4_result": "WIN",
+      "week5_result": "LOSS",
+      "proposed_anchor_event": "E26-W05-CHILI-ELNINO",
+      "independent_scene_proposal": "How can a selected reader path represent El Niño without human thought or a hidden thirteenth narrator?",
+      "knowledge_scope": "CAN_ACCESS_ONLY_PRINCIPAL_OBSERVED_ACTIONS_AND_PUBLIC_FACTS",
+      "reader_path_status": "DESIGN_BLOCKED_ON_ELEMENTAL_ONTOLOGY",
+      "runtime_tested": false,
+      "fiction_not_real_owner_biography": true
+    },
+    {
+      "team": "Mud Dogs",
+      "principal_id": "CHAR-BOBBY-MITCHELL",
+      "week4_result": "LOSS",
+      "week5_result": "LOSS",
+      "proposed_anchor_event": "E26-W05-LLC-MUD",
+      "independent_scene_proposal": "What concrete cost does a community pay for development leverage exercised over its familiar wetlands?",
+      "knowledge_scope": "CAN_ACCESS_ONLY_PRINCIPAL_OBSERVED_ACTIONS_AND_PUBLIC_FACTS",
+      "reader_path_status": "PROPOSED_NOT_WRITTEN",
+      "runtime_tested": false,
+      "fiction_not_real_owner_biography": true
+    },
+    {
+      "team": "Seven Deadly Chins",
+      "principal_id": "CHAR-BEN-WHIPPLE",
+      "week4_result": "LOSS",
+      "week5_result": "WIN",
+      "proposed_anchor_event": "E26-W05-SEVEN-DEADLY-CHINS",
+      "independent_scene_proposal": "Does the road-earned reversal create reciprocal obligations or merely brief acclaim?",
+      "knowledge_scope": "CAN_ACCESS_ONLY_PRINCIPAL_OBSERVED_ACTIONS_AND_PUBLIC_FACTS",
+      "reader_path_status": "PROPOSED_NOT_WRITTEN",
+      "runtime_tested": false,
+      "fiction_not_real_owner_biography": true
+    },
+    {
+      "team": "Dr. Duckhook",
+      "principal_id": "CHAR-ZACH-WILSON",
+      "week4_result": "LOSS",
+      "week5_result": "WIN",
+      "proposed_anchor_event": "E26-W05-DR-DUCKHOOK",
+      "independent_scene_proposal": "What does an underdog victory change about public expectations and territorial status?",
+      "knowledge_scope": "CAN_ACCESS_ONLY_PRINCIPAL_OBSERVED_ACTIONS_AND_PUBLIC_FACTS",
+      "reader_path_status": "PROPOSED_NOT_WRITTEN",
+      "runtime_tested": false,
+      "fiction_not_real_owner_biography": true
+    }
+  ],
+  "world_state_mutations_applied": 0,
+  "chapters_rewritten": 0,
+  "rendered_visuals": 0,
+  "real_author_council_calls": 0,
+  "authenticated_director_calls": 0,
+  "independent_umpire_approvals": 0,
+  "founder_canon_approvals": 0,
+  "replay_probes": [
+    {
+      "case": "LLC score grants land ownership",
+      "expected": "FAIL",
+      "ruling": "REJECT"
+    },
+    {
+      "case": "Edrin narrator after migration",
+      "expected": "FAIL",
+      "ruling": "REJECT"
+    },
+    {
+      "case": "El Niño human sheriff",
+      "expected": "FAIL",
+      "ruling": "REJECT"
+    },
+    {
+      "case": "Chapter IV leaks Duckhook Week 5 win",
+      "expected": "FAIL",
+      "ruling": "REJECT"
+    },
+    {
+      "case": "Slob venue route exists because text says route ID",
+      "expected": "FAIL",
+      "ruling": "REJECT"
+    },
+    {
+      "case": "New canonical image without hash-mount QA",
+      "expected": "FAIL",
+      "ruling": "REJECT"
+    }
+  ]
+}
