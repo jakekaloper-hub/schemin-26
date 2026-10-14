@@ -4,12 +4,16 @@ on:
     paths:
       - 'memo-os/tests/validate_issue.py'
       - 'memo-os/tests/test_validate_issue.py'
+      - 'memo-os/tests/validate_artifacts.py'
+      - 'memo-os/tests/test_validate_artifacts.py'
       - '.github/workflows/memo-issue-guardrails-ci.yml'
   push:
     branches: [main]
     paths:
       - 'memo-os/tests/validate_issue.py'
       - 'memo-os/tests/test_validate_issue.py'
+      - 'memo-os/tests/validate_artifacts.py'
+      - 'memo-os/tests/test_validate_artifacts.py'
       - '.github/workflows/memo-issue-guardrails-ci.yml'
 jobs:
   test:
@@ -19,6 +23,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Run issue manifest regression suite
+      - name: Install artifact inspection dependencies
+        run: python -m pip install --disable-pip-version-check pymupdf pillow
+      - name: Run manifest and actual-artifact regressions
         working-directory: memo-os/tests
-        run: python -m unittest -v test_validate_issue.py
+        run: python -m unittest -v test_validate_issue.py test_validate_artifacts.py
