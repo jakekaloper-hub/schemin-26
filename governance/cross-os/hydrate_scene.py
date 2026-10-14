@@ -51,7 +51,7 @@ def hydrate_scene(scene):
     views={}
     for consumer in ("memo_os","novel_os","visual_grounding","interactive_atlas"):
         views[consumer]={
-            **{k:scene[k] for k in ("character_id","location_id","world_state_ref","verified_event_ref")},
+            **{k:scene[k] for k in ("character_id","character_source_ref","location_id","world_state_ref","verified_event_ref")},
             "narrative_purpose":(scene.get("narrative_purpose_by_consumer") or {}).get(consumer,
                 "Consumer-specific creative treatment required before production")
         }
