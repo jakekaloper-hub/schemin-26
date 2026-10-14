@@ -1,0 +1,22 @@
+name: Cinematic Studio Previs
+on:
+  pull_request:
+    paths:
+      - 'planning/cinematic-studio/**'
+      - 'planning/SCHEMIN_CINEMATIC_STUDIO_GATES_0_3_2026-10-14.md'
+      - '.github/workflows/cinematic-studio-previs.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'planning/cinematic-studio/**'
+      - '.github/workflows/cinematic-studio-previs.yml'
+  workflow_dispatch:
+jobs:
+  storyboard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s planning/cinematic-studio -p 'test_*.py' -v
