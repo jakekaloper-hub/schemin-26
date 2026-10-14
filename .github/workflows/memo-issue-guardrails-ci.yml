@@ -9,6 +9,7 @@ on:
       - 'memo-os/tests/validate_evidence.py'
       - 'memo-os/tests/test_validate_evidence.py'
       - 'memo-os/release-candidates/**'
+      - 'governance/publication-manifest/PUBLICATION_MANIFEST_V1.json'
       - '.github/workflows/memo-issue-guardrails-ci.yml'
   push:
     branches: [main]
@@ -20,6 +21,7 @@ on:
       - 'memo-os/tests/validate_evidence.py'
       - 'memo-os/tests/test_validate_evidence.py'
       - 'memo-os/release-candidates/**'
+      - 'governance/publication-manifest/PUBLICATION_MANIFEST_V1.json'
       - '.github/workflows/memo-issue-guardrails-ci.yml'
 jobs:
   test:
@@ -37,9 +39,19 @@ jobs:
       - name: Validate all actual staged Memo release candidates
         run: |
           python - <<'PY'
-          import pathlib, subprocess, sys
+          import json, pathlib, subprocess, sys
           candidates = sorted(pathlib.Path("memo-os/release-candidates").glob("*/issue-manifest.json"))
           print(f"Real release candidates discovered: {len(candidates)}")
+          registry = json.loads(pathlib.Path("governance/publication-manifest/PUBLICATION_MANIFEST_V1.json").read_text())
+          for publication in registry.get("publications", []):
+              interval = publication.get("source_interval") or {}
+              if publication.get("family") != "weekly_memo" or publication.get("release_state") != "RELEASED":
+                  continue
+              weeks = interval.get("weeks") or []
+              if publication.get("season") == 2026 and any(isinstance(w, int) and w >= 6 for w in weeks):
+                  expected = pathlib.Path("memo-os/release-candidates") / ("2026-week-" + str(weeks[0]).zfill(2)) / "issue-manifest.json"
+                  if expected not in candidates:
+                      raise SystemExit("Missing mandatory candidate bundle for released Memo: " + str(expected))
           for manifest in candidates:
               print("Inspecting", manifest, flush=True)
               subprocess.run([sys.executable, "memo-os/tests/validate_artifacts.py", str(manifest)], check=True)
