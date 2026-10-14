@@ -58,7 +58,7 @@ Those files remain literary/provenance source only. They may not replace hard ma
 ## Explicit contradictions blocked
 
 1. Any Chapter III other than `THE_HILL_IS_NOT_THE_KINGDOM` as current hard canon.
-2. Wilson Look as Arsenal Centaur/equine anatomy in present-day 2026 production.
+2. Wilson Look as anything other than one integrated four-legged Arsenal Gorilla Centaur, per the current owner-specific character package; the former no-centaur negative lock is retired.
 3. TDS as anything other than one body with exactly three serpent heads in current visual canon.
 4. ObiWan Jacoby carrying the championship belt in 2026.
 5. Divisions as sealed countries/species borders.
