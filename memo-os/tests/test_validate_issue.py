@@ -23,4 +23,14 @@ class Gate(unittest.TestCase):
         d=good();d["division_highlight"]["name"]="Wings";self.assertTrue(validate(d))
     def test_mobile_hold(self):
         d=good();d["pages"][0]["mobile_qa"]="HOLD";self.assertTrue(validate(d))
+    def test_invalid_sha(self):
+        d=good();d["pages"][0]["asset_sha256"]="z"*64;self.assertTrue(validate(d))
+    def test_invalid_release_sha(self):
+        d=good();d.update(publication_state="PUBLISHED",pdf_page_count=1,independent_umpire_approval="PASS",published_artifact_sha256="faked");self.assertTrue(validate(d))
+    def test_unknown_role(self):
+        d=good();d["pages"][0]["role"]="SCOREBOARD_RESULT_TBD";self.assertTrue(validate(d))
+    def test_unknown_release_state(self):
+        d=good();d["publication_state"]="FINISHED";self.assertTrue(validate(d))
+    def test_false_sole_division_on_tie(self):
+        d=good();d["results"]["C-D"]={"winner":"C","C":12,"D":9};d["team_divisions"]["C"]="Wings";self.assertTrue(validate(d))
 if __name__=="__main__":unittest.main()
