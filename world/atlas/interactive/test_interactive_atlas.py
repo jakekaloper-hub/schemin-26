@@ -34,6 +34,17 @@ class Phase4Tests(unittest.TestCase):
   text=OUT.read_text()
   for l in self.load("world/data/locations.json")["locations"]:
    self.assertIn(l["id"],text)
+ def test_semantic_property_features_come_from_existing_registry(self):
+  text=OUT.read_text()
+  controls=self.load("world/location-control-plane/registries/PARENT_SUBLOCATION_REGISTRY.json")["handles"]
+  self.assertEqual(len(controls),58)
+  for handle in controls:
+   self.assertIn(handle["handle_id"],text)
+  self.assertIn("SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::HIGH-RIDGE",text)
+  self.assertIn("SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::WAR-ROOM-OVERLOOK",text)
+  self.assertIn("Known feature handles:",text)
+  self.assertIn("site measurements UNKNOWN",text)
+
  def test_readonly_route_preview_trade_jedi_to_bridge(self):
   packet=route_view.read_only_preview("LOC-TRADE-JEDI-MOUNTAIN-BASE","LOC-BRIDGE-MOUNTAIN-LAKE")
   self.assertTrue(packet["ok"])
