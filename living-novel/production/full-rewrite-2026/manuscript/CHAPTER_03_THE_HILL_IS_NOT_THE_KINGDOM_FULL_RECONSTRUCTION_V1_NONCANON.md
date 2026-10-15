@@ -828,7 +828,7 @@ The keep returned to its work.
 
 At the desk, Austin examined the rest of the public result sheet. ObiWan had beaten Three Dreaded Snake. Chili had narrowly beaten Duckhook. The Red Leopards had beaten Slob. The LLC had finally defeated El Niño.
 
-The LLC's result mattered to him in an inconvenient way. A commercial opponent that had been zero and two was now one and two. People would call the victory an acquisition of confidence; some would attempt to sell it as evidence that the LLC's office deserved new influence over roads and cargo. They could talk that way. They could not turn the Contest into a deed.
+The LLC's result was 147.43 to 114.62 over El Niño. The victory mattered to him in an inconvenient way. A commercial opponent that had been zero and two was now one and two. People would call the victory an acquisition of confidence; some would attempt to sell it as evidence that the LLC's office deserved new influence over roads and cargo. They could talk that way. They could not turn the Contest into a deed.
 
 There was also the report of D0nkey K0ng's third straight victory over Mud Dogs. The figures stood apart from everything else on the sheet: 172.48 to 126.86.
 
