@@ -1,0 +1,401 @@
+{
+  "schema": "schemin.novel.remaining_gate_execution.v1",
+  "status": "PROPOSED_PLAN_NOT_EXECUTED",
+  "as_of": "2026-10-14",
+  "mission_issues": [
+    "https://github.com/jakekaloper-hub/bullpen/issues/117",
+    "https://github.com/jakekaloper-hub/schemin-26/issues/166"
+  ],
+  "target_pr": "https://github.com/jakekaloper-hub/schemin-26/pull/167",
+  "source_of_truth": "jakekaloper-hub/schemin-26",
+  "planning_authority": "Director role and Staff capability mapping from jakekaloper-hub/bullpen core/org/directorOrg.js; actual invocation not proven",
+  "gates": [
+    {
+      "gate": "G0",
+      "name": "Authority and runtime preflight",
+      "stage": "immediate",
+      "owner": "the_closer",
+      "partners": [
+        "the_librarian",
+        "the_architect",
+        "the_groundskeeper"
+      ],
+      "deps": [],
+      "scope": "Freeze issue #166, PR #167, Bullpen #117, Novel migration #129/#130, existing Chapter IV PR #128 and reader experiment #148/#149; verify actual authenticated Bullpen runtime before asserting director execution; match work to shared execution-control registry.",
+      "inputs": [
+        "PR #167 dossier",
+        "Bullpen BULLPEN.md",
+        "Bullpen #117",
+        "Schemin source authority matrix",
+        "execution control adapters"
+      ],
+      "artifacts": [
+        "CURRENT_AUTHORITY_AND_DEPENDENCY_RECEIPT.md",
+        "DIRECTOR_INVOCATION_PROVENANCE.md"
+      ],
+      "acceptance": [
+        "Explicit ref/SHA/state for each active or draft authority",
+        "No duplicate mission registry, Director OS or Chapter IV",
+        "Authenticated director invocations recorded only with transport/correlation/provenance; otherwise labeled ANALYTIC_SIMULATION",
+        "List of optional/mandatory release checks separated"
+      ],
+      "status": "READY",
+      "blocking": "No live authenticated Bullpen invocation proven in ChatGPT"
+    },
+    {
+      "gate": "G1",
+      "name": "Week 4 and Week 5 final evidence closure",
+      "stage": "parallel_A",
+      "owner": "the_scout",
+      "partners": [
+        "the_analyst",
+        "the_librarian"
+      ],
+      "deps": [
+        "G0"
+      ],
+      "scope": "Bind 12/12 decided ESPN league 1417621 matchups and relevant starters/transactions to durable receipts; reconcile PR #128 Chapter IV facts and 12-owner Week 5 matrix; update provisional Week 4 state through a controlled derived candidate rather than rewriting historical logs.",
+      "inputs": [
+        "2026-10-14 Flaim Week 4–5 snapshot",
+        "PR #128 Week 4 reconstruction",
+        "PR #157 Week 5 final receipt",
+        "Week 4 keeper campaign ledger"
+      ],
+      "artifacts": [
+        "WEEK04_FINAL_DATA_DELTA.md",
+        "WEEK04_WEEK05_PROVIDER_RECEIPTS.json",
+        "WEEK04_05_FOUNDATIONAL_ASSET_TEMPORAL_LEDGER.md"
+      ],
+      "acceptance": [
+        "6/6 Week 4 and 6/6 Week 5 winners/scores match independent frozen receipts",
+        "Provider DECIDED and source timestamp recorded; no projected outcomes",
+        "Player-level named causal statements rechecked against actual started player rows",
+        "Trade and injury duration unknowns retained rather than invented",
+        "Explicit Chapter IV score parity 157.33–139.67"
+      ],
+      "status": "READY",
+      "blocking": "Immutable upstream source/archive may require additional receipt capture; retroactive injury status depends on dated evidence"
+    },
+    {
+      "gate": "G2",
+      "name": "Character canon and source precedence",
+      "stage": "parallel_A",
+      "owner": "the_librarian",
+      "partners": [
+        "the_architect",
+        "the_beat_writer",
+        "the_umpire"
+      ],
+      "deps": [
+        "G0"
+      ],
+      "scope": "Resolve older whole-book DK anti-centaur line vs current CHAR-WILSON-LOOK owner package and newer approved render history; classify source timestamps, active authority and obsolete text; verify all 12 principal temporal states and artifact continuity. Separate prose semantics from real renderer mount acceptance.",
+      "inputs": [
+        "whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+        "CHAR-WILSON-LOOK/PACKAGE.md",
+        "CHARACTER_REGISTRY.yaml",
+        "PR #152 Commissioner character amendments",
+        "Chapter III and IV source copies"
+      ],
+      "artifacts": [
+        "CHARACTER_SOURCE_PRECEDENCE_RESOLUTION.md",
+        "TWELVE_TEMPORAL_CHARACTER_CROSSWALK.json",
+        "CANON_COLLISION_DIFF_PROPOSAL.md"
+      ],
+      "acceptance": [
+        "Contradiction disposition with cited provenance and exact target files",
+        "DK one integrated four-legged gorilla-centaur under latest approved owner authority unless Founder contradicts",
+        "TDS one body/three heads and time-specific hair; HMB Belt Keeper; ObiWan no Belt; no stand-in characters",
+        "No assertion of source-byte raster QA without hash+mount+pixel evidence",
+        "If existing hard canon is affected, change is staged as a separate proposal not silently committed"
+      ],
+      "status": "READY",
+      "blocking": "Canonical authority correction requires governed review; potential past hard-canon text semantics"
+    },
+    {
+      "gate": "G3",
+      "name": "Twelve-principal POV migration integration",
+      "stage": "parallel_A",
+      "owner": "the_architect",
+      "partners": [
+        "the_beat_writer",
+        "the_librarian",
+        "the_gm",
+        "the_umpire"
+      ],
+      "deps": [
+        "G0"
+      ],
+      "scope": "Resume existing Issue #129 / PR #130, not a new POV subsystem. Eliminate active Edrin/Edin/witness narrator licensing, qualify 12 POV packets, choose a legal El Niño experience mode without storm-human interiority or a hidden thirteenth narrator, and preserve original hard canon pending separate approval.",
+      "inputs": [
+        "PR #130 phased migration",
+        "POV Constitution V1",
+        "Author Room knowledge-map standards",
+        "PR #149 inkjs experiment"
+      ],
+      "artifacts": [
+        "POV_CONSTITUTION_V2_REVIEW_DIFF.md",
+        "TWELVE_PRINCIPAL_ELIGIBILITY_MATRIX.json",
+        "MANNING_ELEMENTAL_POV_DECISION.md",
+        "NARRATOR_DEPENDENCY_AND_LEAKAGE_AUDIT.md"
+      ],
+      "acceptance": [
+        "12/12 legal principal IDs and temporal knowledge packets",
+        "Active narrator license excludes Edrin/Edin/Oren/supporting witnesses after approved migration",
+        "El Niño path preserves elemental ontology; no unlicensed omniscience",
+        "Scene manifest test rejects non-Twelve POV, temporal leakage and duplicate-event replays",
+        "Exact-binary hard manuscript rewrites gated by Founder; no bulk mechanical name replacement"
+      ],
+      "status": "BLOCKED",
+      "blocking": "PR #130 not merged; El Niño special Founder/canon gate unresolved"
+    },
+    {
+      "gate": "G4",
+      "name": "Universe Atlas and Week 4–5 world-state qualification",
+      "stage": "parallel_A",
+      "owner": "the_architect",
+      "partners": [
+        "the_librarian",
+        "the_beat_writer",
+        "the_analyst",
+        "the_umpire"
+      ],
+      "deps": [
+        "G0",
+        "G1"
+      ],
+      "scope": "Use existing Universe OS/Atlas to resolve six Week 5 venues, Week 4 arrival/departure state, character travel routes, temporary encounter features, wetland land-use institutions, who owns repair/property claims, and what can change from league outcomes.",
+      "inputs": [
+        "world/data/locations.json",
+        "Atlas Control Plane V2",
+        "World State Ledger",
+        "Week 5 conditional Atlas packets PR #152",
+        "Chapter III world-state",
+        "Week 4 release/keeper handoff"
+      ],
+      "artifacts": [
+        "WEEK04_TO_WEEK05_WORLD_STATE_HANDOFF.md",
+        "SIX_VENUE_LOCATION_AND_ROUTE_MATRIX.json",
+        "SWAMP_LAND_USE_AND_ECONOMY_RULES_PROPOSAL.md",
+        "WORLD_DELTA_APPROVAL_QUEUE.json"
+      ],
+      "acceptance": [
+        "6/6 host/neutral location anchors mapped to known LOC IDs or marked UNKNOWN",
+        "Travel path and date/condition for each dramatized scene; no invented roads",
+        "Temporary chess/joust/street/course features not permanent by illustration",
+        "LLC victory does not confer deeds, built campus, or authorized eviction",
+        "State changes use before/evidence/proposed-after plus reversible vs permanent classification"
+      ],
+      "status": "BLOCKED",
+      "blocking": "Requires verified Week 4 state and world/civic rules, no unauthorized changes to atlas"
+    },
+    {
+      "gate": "G5",
+      "name": "Chapter IV existing manuscript revalidation and migration",
+      "stage": "after_A",
+      "owner": "the_beat_writer",
+      "partners": [
+        "the_scout",
+        "the_librarian",
+        "the_architect",
+        "the_umpire"
+      ],
+      "deps": [
+        "G1",
+        "G2",
+        "G3",
+        "G4"
+      ],
+      "scope": "Recover PR #128 Chapter IV THE ROAD DOES NOT BOW exact manuscript blob SHA 851ab270b577a9b5e4d28eab7b75178b9fc7e84f. Confirm source, all stated player/keeper facts, time boundary, existing 2-POV approach, Atlas and twelve-only constitution compatibility. Amend only real defects in a review branch, show exact diff, and re-run author/editing tests. Do not recreate Chapter IV.",
+      "inputs": [
+        "PR #128 soft Chapter IV and QA",
+        "current hard Chapter III",
+        "12 finalized Week 4 results",
+        "POV V2 candidate",
+        "Character and Atlas receipts"
+      ],
+      "artifacts": [
+        "CHAPTER04_RESULT_FINALITY_CLOSEOUT.md",
+        "CHAPTER04_TWELVE_POV_COMPATIBILITY_AUDIT.md",
+        "CHAPTER04_EXACT_BLOB_REVIEW_AND_PROPOSED_DIFF.md"
+      ],
+      "acceptance": [
+        "Official Week 4 score and winner parity PASS across 6 matches, 157.33–139.67 exact for focal",
+        "No post-week-4 knowledge, injury prognosis or Week 5 leak",
+        "No Edrin/institutional POV and no real-owner mindreading",
+        "No unauthorized character morphology or Atlas change",
+        "Full literary and provenance QA, exact reviewed manuscript blob designated for Founder decision"
+      ],
+      "status": "BLOCKED",
+      "blocking": "Existing PR #128 is unmerged canon proposal; migration/world reconciliation and Founder approval pending"
+    },
+    {
+      "gate": "G6",
+      "name": "Next causal chapter selection and story room",
+      "stage": "after_A",
+      "owner": "the_beat_writer",
+      "partners": [
+        "the_analyst",
+        "the_librarian",
+        "the_gm",
+        "the_closer"
+      ],
+      "deps": [
+        "G1",
+        "G3",
+        "G4",
+        "G5"
+      ],
+      "scope": "Use Week 5 as causal evidence, not a mandatory chapter. Stress-test LLC–Mud Dogs Survey Line against post-defeat Wilson continuity and HMB/TDS chess. Select chapter job, 1–3 legal POVs, scene stakes, location, temporal cutoff, story costs, omitted events and next open loops.",
+      "inputs": [
+        "PR #167 Week 4–5 dossier",
+        "12-owner matrix",
+        "current open-loop ledger",
+        "qualified Chapter IV proposal",
+        "Universe Atlas candidate deltas"
+      ],
+      "artifacts": [
+        "CAUSAL_SPINE_SELECTION_DECISION.md",
+        "STORY_ROOM_SCENE_AND_OMISSION_BOARD.json",
+        "MINIMUM_PRE_PROSE_GATE_SELECTED.md"
+      ],
+      "acceptance": [
+        "Three candidates independently scored for cause/choice/cost/novel quality",
+        "No auto chapter from Week 5; no unavoidable six-matchup recap",
+        "Chapter IV transition not duplicated",
+        "Exactly one dramatic question, 1–3 candidate POVs, specific world-state entry and exit",
+        "Literary dissent recorded with reopen conditions; minimum 10-point Pre-Prose Gate passes"
+      ],
+      "status": "BLOCKED",
+      "blocking": "G5 chronology needed; El Niño and Atlas eligibility not fully closed"
+    },
+    {
+      "gate": "G7",
+      "name": "Next unit manuscript and author council",
+      "stage": "after_selection",
+      "owner": "the_beat_writer",
+      "partners": [
+        "the_librarian",
+        "the_analyst",
+        "the_gm",
+        "the_umpire"
+      ],
+      "deps": [
+        "G6"
+      ],
+      "scope": "Write a Chapter Dossier V2, original prose, seven research-grounded craft-lens critiques where the project doctrine requires full review, editorial pass, twelve-POV knowledge audit, continuity QA. Save as soft manuscript until authorized approval.",
+      "inputs": [
+        "selected causal spine",
+        "Novel style guide",
+        "Chapter III & validated Chapter IV",
+        "character packets",
+        "location and world state"
+      ],
+      "artifacts": [
+        "CHAPTER_DOSSIER_V2.md",
+        "SOFT_MANUSCRIPT_CANDIDATE.md",
+        "AUTHOR_LENS_AND_DEV_EDITOR_REVIEW.md",
+        "CONTINUITY_AND_LITERARY_QA.md"
+      ],
+      "acceptance": [
+        "Scene-level protagonist knowledge and causal cost explicitly verified",
+        "Zero future score leaks, no required seven-for-six matchup symmetry",
+        "No model imitation or fake real author engagement",
+        "Independent editorial challenge documents cuts/rewrites rather than generic approval",
+        "Source and world-state change manifest for any proposed new canon"
+      ],
+      "status": "BLOCKED",
+      "blocking": "Formal story selection and predecessor state outstanding"
+    },
+    {
+      "gate": "G8",
+      "name": "Reader paths, artwork and delivery proof",
+      "stage": "parallel_after_selection",
+      "owner": "the_architect",
+      "partners": [
+        "the_gm",
+        "the_pitching_coach",
+        "the_librarian",
+        "the_groundskeeper",
+        "the_umpire"
+      ],
+      "deps": [
+        "G3",
+        "G5",
+        "G6"
+      ],
+      "scope": "Resume PR #149 inkjs reader proof. Build actual 12 selectable timeline paths and default book-order path from one event graph; source-bound character art only through approved durable reference and physical placement QA; test browser reload/save, accessibility, outsider orientation, mobile reading and correct avatar/location continuity. Do not publish a half-fictionalized prototype as final book.",
+      "inputs": [
+        "PR #149 inkjs tests",
+        "Twelve-POV scene manifest",
+        "canonical source-byte/Character Portability task chain",
+        "qualified manuscript scenes"
+      ],
+      "artifacts": [
+        "TWELVE_PATH_AND_BOOK_ORDER_MANIFEST.json",
+        "READER_PATH_TEST_REPORT.md",
+        "CHARACTER_VISUAL_BINDING_RECEIPTS.md",
+        "WEB_AND_ART_PUBLICATION_READINESS.md"
+      ],
+      "acceptance": [
+        "12/12 valid chronological paths with distinct meaningful value or honest pending scenes; no fake complete paths",
+        "Canonical order and single/multi-path mode; spoiler/knowledge boundary tested",
+        "Browser save/reload verification with actual acceptance run",
+        "No art approval without source-to-subject render binding, pixel QA and temporal canon",
+        "Netlify deploy preview failure separately diagnosed; missing novel/book does not cause fictitious empty book release"
+      ],
+      "status": "BLOCKED",
+      "blocking": "PR #149 draft, character render proof and 12-POV migration not complete"
+    },
+    {
+      "gate": "G9",
+      "name": "Independent acceptance and canon promotion",
+      "stage": "last",
+      "owner": "the_umpire",
+      "partners": [
+        "the_closer",
+        "the_librarian",
+        "the_groundskeeper"
+      ],
+      "deps": [
+        "G5",
+        "G7",
+        "G8"
+      ],
+      "scope": "Independently verify entire source-to-prose-to-reader chain; ensure merge gate tests are testing actual artifacts not self-attested strings. Request exact-blob Founder canon approval for any change to accepted manuscript or character/world law. Promote narrowly and record continuity handoff.",
+      "inputs": [
+        "all gate evidence",
+        "actual CI and test receipts",
+        "Founder exact-blob approval",
+        "world/canon transaction diffs"
+      ],
+      "artifacts": [
+        "INDEPENDENT_UMPIRE_RELEASE_RECEIPT.md",
+        "EXACT_BLOB_FOUNDER_CANON_TRANSACTION.md",
+        "MERGE_AND_CONTINUATION_HANDOFF.md"
+      ],
+      "acceptance": [
+        "All mandatory gates PASS with authentic independently checkable receipts",
+        "CI/code/reader/POV/Atlas/source tests run on exact candidate commit",
+        "No unresolved BLOCKER/P0 or simulated approvals falsely marked authenticated",
+        "Founder signs off exact blob and any hard canon world change",
+        "Merged state verified, old drafts superseded with provenance and next Open Loop state recorded"
+      ],
+      "status": "BLOCKED",
+      "blocking": "External Founder approvals and real independent Umpire not yet obtained"
+    }
+  ],
+  "invariant_checks": [
+    "existing Prologue/Chapters I–III hard manuscript canon unchanged without explicit transaction",
+    "chapter IV from PR128 reused",
+    "no founder decision inferred from mission go",
+    "Week 5 user-distributed PDF 19 pages preserved as historical",
+    "twelve and only twelve eventual POV principals",
+    "Flaim/ESPN governs matchups; no score transfers Belt or swamp land",
+    "no Edrin active POV under new architecture",
+    "no unverified permanent world mutation",
+    "independent Umpire separate from author"
+  ],
+  "scheduling_note": "Dependencies are topological work lanes, not a promised calendar deadline; G1/G2/G3 can proceed in parallel after G0; G4 depends on G1 for final state, then G5 and G6; downstream G7/G8; final G9.",
+  "no_false_green": "All status labels are planning statuses and do not constitute authenticated execution/approval."
+}
