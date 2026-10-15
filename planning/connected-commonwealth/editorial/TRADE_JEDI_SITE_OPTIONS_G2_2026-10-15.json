@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.1-editorial",
+  "lifecycle_status": "EDITORIAL_ONLY_NOT_ACTIVE_WORLD_GEOGRAPHY",
+  "authority": "G0 Commissioner-approved methodology; does NOT authorize new property canon",
+  "origin_location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+  "owner_character_id": "CHAR-JAKE-KALOPER",
+  "physical_zone_id": "REG-UPPER-VALLEYS",
+  "canonical_abstract_position": [
+    69,
+    69
+  ],
+  "canonical_feature_handle_ids": [
+    "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::HIGH-RIDGE",
+    "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::WAR-ROOM-OVERLOOK"
+  ],
+  "canonical_access_route_id": "ROUTE-EASTERN-ASCENT",
+  "related_existing_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+  "source_paths": [
+    "world/data/locations.json",
+    "world/data/routes.json",
+    "world/location-control-plane/locations/LOC-TRADE-JEDI-MOUNTAIN-BASE/CARD.json",
+    "chronicles/production/reference-packets/environments/ENV-TRADE-JEDI-MOUNTAINS/PACKET.md"
+  ],
+  "metric_frame_status": "NOT_SELECTED",
+  "parcel_area_m2": null,
+  "parcel_boundary_m": null,
+  "elevation_datum": null,
+  "buildings": [],
+  "approved_cinematic_reference_ids": [],
+  "site_alternatives": [
+    {
+      "id": "SITE-OPT-TJ-A",
+      "name": "High-ridge overlook along existing ascent",
+      "proposal_only": true,
+      "site_placement": "UNRESOLVED",
+      "ridge_overlook_preserved": true,
+      "lake_view_proven": false,
+      "metric_area_m2": null,
+      "fictional_building_plan": "NOT_AUTHORIZED",
+      "source_feature_handles": [
+        "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::HIGH-RIDGE",
+        "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::WAR-ROOM-OVERLOOK"
+      ]
+    },
+    {
+      "id": "SITE-OPT-TJ-B",
+      "name": "Sheltered high-ridge spur with optional lower service bench",
+      "proposal_only": true,
+      "site_placement": "UNRESOLVED",
+      "ridge_overlook_preserved": true,
+      "lake_view_proven": false,
+      "metric_area_m2": null,
+      "fictional_building_plan": "NOT_AUTHORIZED",
+      "source_feature_handles": [
+        "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::HIGH-RIDGE",
+        "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::WAR-ROOM-OVERLOOK"
+      ]
+    },
+    {
+      "id": "SITE-OPT-TJ-C",
+      "name": "High ridge with lake-watershed sightline to be tested",
+      "proposal_only": true,
+      "site_placement": "UNRESOLVED",
+      "ridge_overlook_preserved": true,
+      "lake_view_proven": false,
+      "metric_area_m2": null,
+      "fictional_building_plan": "NOT_AUTHORIZED",
+      "source_feature_handles": [
+        "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::HIGH-RIDGE",
+        "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::WAR-ROOM-OVERLOOK"
+      ]
+    }
+  ],
+  "reviewer_signoffs": [],
+  "commissioner_selected_site_id": null,
+  "do_not_promote_without": [
+    "G1_MEASUREMENT_MODEL_APPROVAL",
+    "ATLAS_TOPOLOGY_AND_WATERSHED_REVIEW",
+    "CANON_VISUAL_SOURCE_RECONCILIATION",
+    "COMMISSIONER_SITE_SELECTION",
+    "INDEPENDENT_UMPIRE"
+  ]
+}
