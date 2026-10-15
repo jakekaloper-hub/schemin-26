@@ -18,11 +18,12 @@ def main():
     state=load(DATA/"current_world_state.json")
     candidates=load(DATA/"atlas_location_candidates.json")["candidates"]
     refs=load(LCP/"LOCATION_REFERENCE_REGISTRY.json")["locations"]
+    handles=load(LCP/"PARENT_SUBLOCATION_REGISTRY.json")["handles"]
     refmap={x["location_id"]:x for x in refs}
     payload={
       "meta":{"coordinate_space":"schemin-local-v1 abstract/non-metric","active_location_count":len(locs),"route_count":len(routes),"zone_count":len(zones),"candidate_count":len(candidates)},
       "zones":zones,"locations":locs,"routes":routes,"divisions":divs,"state":state,
-      "references":refmap,
+      "references":refmap,"feature_handles":handles,
       "candidate_catalog":[{"id":c["id"],"name":c["working_name"],"status":c["lifecycle_status"],"zones":c.get("likely_physical_zone_ids",[]),"class":c["location_class"],"championship_only":c.get("championship_only",False)} for c in candidates]
     }
     j=json.dumps(payload,separators=(",",":"),ensure_ascii=False).replace("</","<\/")
@@ -115,7 +116,7 @@ D.zones.forEach(z=>{{const [xmin,ymin,xmax,ymax]=z.abstract_bounds;const r=el('r
 D.routes.forEach(r=>{{let via=r.via_location_ids||[];if(!via.length&&r.via_location_id)via=[r.via_location_id];const chain=[r.from,...via,r.to];for(let i=0;i<chain.length-1;i++){{const a=locBy[chain[i]],b=locBy[chain[i+1]];if(!a?.abstract_position||!b?.abstract_position)continue;const l=el('line',{{x1:sx(a.abstract_position[0]),y1:sy(a.abstract_position[1]),x2:sx(b.abstract_position[0]),y2:sy(b.abstract_position[1]),class:'route'}});l.dataset.route=r.id;l.dataset.from=chain[i];l.dataset.to=chain[i+1];svg.append(l);routeEls.push(l);}}}});
 const markerClass=l=>l.division_id||'NEUTRAL';
 D.locations.forEach(l=>{{if(!l.abstract_position)return;const g=el('g',{{class:'location'}});const c=el('circle',{{cx:sx(l.abstract_position[0]),cy:sy(l.abstract_position[1]),r:7,class:'loc','data-division':markerClass(l),'data-location':l.id}});const txt=el('text',{{x:sx(l.abstract_position[0])+10,y:sy(l.abstract_position[1])-9,'font-size':10}});txt.textContent=l.name;g.append(c,txt);svg.append(g);locEls.push({{g,c,l}});c.addEventListener('click',()=>show(l));}});
-function show(l){{document.getElementById('title').textContent=l.name;const s=D.state.locations[l.id]||[];const ref=D.references[l.id]||{{}};document.getElementById('detail').innerHTML='<p><b>'+l.id+'</b></p><p>Zone: '+l.physical_zone_id+'</p><p>Type: '+l.location_type+'</p><p>Canon: '+l.canon_status+'</p><p>Landmarks: '+(l.persistent_landmarks||[]).join(', ')+'</p><p>Access: '+(l.access_route_ids||[]).join(', ')+'</p><p>Current state: '+(s.join(' | ')||'no additional mutation asserted')+'</p>'+(ref.approved_structural_reference_uris?.[0]?'<p><a href="../../environment-references/plates/'+l.id+'/STRUCTURAL_PLATE.svg">Open structural plate</a></p>':'');}}
+function show(l){{document.getElementById('title').textContent=l.name;const s=D.state.locations[l.id]||[];const ref=D.references[l.id]||{{}};document.getElementById('detail').innerHTML='<p><b>'+l.id+'</b></p><p>Zone: '+l.physical_zone_id+'</p><p>Type: '+l.location_type+'</p><p>Canon: '+l.canon_status+'</p><p>Landmarks: '+(l.persistent_landmarks||[]).join(', ')+'</p><p>Known feature handles: '+(D.feature_handles||[]).filter(h=>h.parent_location_id===l.id).map(h=>h.name+' ['+h.handle_id+']').join(', ')+' (semantic only; site measurements UNKNOWN)</p><p>Access: '+(l.access_route_ids||[]).join(', ')+'</p><p>Current state: '+(s.join(' | ')||'no additional mutation asserted')+'</p>'+(ref.approved_structural_reference_uris?.[0]?'<p><a href="../../environment-references/plates/'+l.id+'/STRUCTURAL_PLATE.svg">Open structural plate</a></p>':'');}}
 function apply(){{const f=document.getElementById('division').value;locEls.forEach(x=>x.g.classList.toggle('dim',f!=='ALL'&&markerClass(x.l)!==f));routeEls.forEach(x=>x.classList.toggle('dim',f!=='ALL'));document.querySelectorAll('.state-ring').forEach(x=>x.remove());if(document.getElementById('stateToggle').checked){{Object.keys(D.state.locations).forEach(id=>{{const l=locBy[id];if(!l?.abstract_position)return;svg.append(el('circle',{{cx:sx(l.abstract_position[0]),cy:sy(l.abstract_position[1]),r:12,class:'state-ring'}}));}});}}}}
 document.getElementById('division').addEventListener('change',apply);document.getElementById('stateToggle').addEventListener('change',apply);
 if(new URLSearchParams(location.search).get('editorial')==='1')document.body.classList.add('editorial');
