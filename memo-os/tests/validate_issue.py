@@ -47,3 +47,21 @@ if __name__=="__main__":
     issues=validate(data)
     print(json.dumps({"verdict":"FAIL" if issues else "PASS","errors":issues},indent=2))
     sys.exit(bool(issues))
+
+
+def validate_civilization_rehearsal(location_id: str, season: int, week: int, source_event: dict) -> dict:
+    """Existing Memo QA entrypoint: check source-bound world context without approving a page."""
+    from pathlib import Path
+    root = Path(__file__).resolve().parents[2]
+    import sys
+    if str(root) not in sys.path:
+        sys.path.insert(0, str(root))
+    from world.engine.civilization_phase2_handoff import build_phase2_handoff
+    if not source_event.get("fact_lock_sha256") or source_event.get("season") != season or source_event.get("week") != week:
+        return {"ok": False, "code": "MEMO_FACT_PROVENANCE_REQUIRED"}
+    result = build_phase2_handoff(location_id, season, week)
+    if not result.get("ok"):
+        return {"ok": False, "code": result.get("code")}
+    return {"ok": True, "context_id": result["shared_context_id"],
+            "fact_lock_sha256": source_event["fact_lock_sha256"],
+            "publication_eligible": False, "status": "MEMO_QA_REHEARSAL_ONLY"}
