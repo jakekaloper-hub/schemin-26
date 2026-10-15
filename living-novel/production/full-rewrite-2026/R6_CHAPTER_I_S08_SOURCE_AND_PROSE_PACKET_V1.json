@@ -1,0 +1,52 @@
+{
+  "schema": "schemin.novel.reconstruction.scene_candidate.v1",
+  "status": "DEVELOPMENT_ONLY_NOT_CANON",
+  "source_control": {
+    "target_existing_migration_issue": 129,
+    "existing_pr": 130,
+    "existing_migration_section": "CHAPTER_01_S08",
+    "existing_migration_path": "living-novel/migrations/CHAPTER_01_02_TWELVE_POV_SCENE_MIGRATION_PLAN_2026-10-14.json",
+    "historical_witness": "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md",
+    "historical_approved_sections": [
+      "I. Six Envelopes",
+      "VIII. Proof and Possession"
+    ],
+    "historical_evidence_class": "APPROVED_MANUSCRIPT_WITNESS_NOT_NEW_ESPN_RECEIPT",
+    "new_prose_path": "living-novel/production/full-rewrite-2026/manuscript/CHAPTER_01_S08_BELT_KEEPER_PROOF_AND_POSSESSION_PILOT_NONCANON.md"
+  },
+  "scene": {
+    "id": "CHAPTER_01_S08_PROSE_TEST_V1",
+    "pov_character_id": "CHAR-AUSTIN-BYARS",
+    "narrative_class": "PRINCIPAL_CHARACTER",
+    "pov_segment_count": 1,
+    "location_id": "LOC-LEAGUE-ARCHIVE",
+    "region_id": "REG-CENTRAL-BASIN",
+    "world_context_id": "SETCTX-CENTRAL-BASIN",
+    "location_status": "PROPOSED_INTERIOR_OF_EXISTING_ARCHIVE",
+    "story_time_cutoff": "WEEK_01_POST_RESULT_BEFORE_WEEK_02",
+    "verified_in_manuscript": {
+      "winner": "ObiWan Jacoby",
+      "winner_points": 141.7,
+      "loser": "His Majesty's Blood",
+      "loser_points": 131.26
+    },
+    "belt_owner_after_match": "CHAR-AUSTIN-BYARS",
+    "obligation": "Austin must choose whether to suppress unverified title claims or let public records and citizens act",
+    "decision": "He acknowledges the loss and rejects inaccurate Belt transfer while declining to commandeer a courier's work",
+    "civilian_agency": "Courier maintains delivery obligation, Archive clerk refuses to manufacture a champion's defense, tradeswoman names unresolved repair problem",
+    "cost": "False notices still circulate; the title's public legitimacy remains subject to contested interpretation",
+    "knowledge_limits": [
+      "No view into ObiWan's private thought",
+      "No future Week 2+ match outcomes",
+      "No invented authorization for asset ownership or city law"
+    ],
+    "world_delta_status": "NO_APPROVED_WORLD_EVOLUTION_TRANSACTION",
+    "chapter_promotion_status": "HOLD"
+  },
+  "editorial": [
+    "Scene dramaturgy and sustained chapter voice await human beta reader feedback",
+    "Prepublication location interior needs owning World/Atlas context review",
+    "Actual provenance of the Week 1 event should be confirmed with source ledger before hard promotion",
+    "This packet does not authorize a second reader engine or bypass #130 migration"
+  ]
+}
