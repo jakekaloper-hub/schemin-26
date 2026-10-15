@@ -100,7 +100,7 @@ class TestChapterTwoFullReconstruction(unittest.TestCase):
         self.assertIn("Mud Dogs.",CHAPTER)
         self.assertIn("Belt",CHAPTER)
         self.assertNotIn("Sonic chili dog",CHAPTER)
-        self.assertNotIn("Week Three",CHAPTER)
+        self.assertNotIn("172.48",CHAPTER)  # preserve Week 3 score future boundary
         self.assertNotIn("3–0",CHAPTER)
 
     def test_release_gate_and_no_forged_event(self):
