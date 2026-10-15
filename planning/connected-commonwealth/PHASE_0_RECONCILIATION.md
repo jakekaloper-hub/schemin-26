@@ -35,3 +35,39 @@ Byte-level SHA-256 comparisons against the isolated canonical worktree:
 6. Advance to Phase 1 only on evidence-backed Phase 0 acceptance.
 
 **Not performed:** Canon promotion, implementation of civilization features, authenticated Director consultation, independent Umpire acceptance, PR, merge.
+
+## Phase 0 continuation — baseline and authority checks
+
+### Current character precedence — verified
+`canon/_INDEX.md` explicitly identifies the 2026-10-02 Commissioner clarification as the latest governing semantic correction. `canon/characters/CHARACTER_REGISTRY.yaml` records `CHAR-WILSON-LOOK`, version 2.1, effective 2026-10-02, as **Arsenal Gorilla Centaur Warrior**: one gorilla-upper/equine-four-legged hybrid. `canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md` sections around lines 58–64 agree; its older September 29 retirement note is superseded. Therefore the World Bible and inhabitant ontology's “centaur superseded” statements are stale and require narrowly scoped corrective documentation; no character image generation is authorized. The canonical asset/mount/binding gate remains separate and BLOCKED absent receipts.
+
+### Existing cross-OS contract — verified
+`governance/SCHEMIN_OS_CONTRACT_MAP_V1.md` already defines the authoritative dependency chain:
+- Universe OS: world IDs, ontology, civilization context, institutions, memory, state and mutations.
+- Atlas: derived containment, routes, travel, hydrology, visibility and spatial QA.
+- Character Control: principal morphology, wardrobe, props and negative locks.
+- Memo OS: verified weekly outcomes, home/away facts, release evidence and *proposed* world-state deltas.
+- Novel OS: consumes Universe/Atlas context, memory, ontology, settlements, institutions and POV knowledge.
+- Art Pipeline: consumes Visual World Packet, Atlas, environment tier, character packet and typography plan.
+No consumer may fork active LOC/ROUTE/REG/DIV/CHAR identities. A same-scene cross-consumer compatibility test is required. No second store is justified.
+
+### Existing civilization support — verified
+`world/civilization/CIVILIZATION_DENSITY_ENGINE_V1.md` already defines unnamed confidence-tagged settlement context and placement reasons, explicitly disallowing named canon merely for scenery. This is the appropriate extension point; reconcile its stale RELEASE CANDIDATE header against Universe V1.2 release evidence before edits.
+
+### Baseline test evidence (local isolated branch)
+- `python3 world/qa/test_one_world_model_contract.py` → ONE WORLD MODEL CONTRACT: PASS.
+- `python3 world/qa/test_world_engine.py` → 8 tests PASS.
+- `python3 world/qa/test_universe_v1_1.py` → 11 tests PASS.
+- `python3 world/qa/test_universe_os_v1_2.py` → UNIVERSE OS V1.2 ACCEPTANCE: PASS.
+- `npm test` in `bullpen-runtime/` → 24 tests PASS.
+- `python3 living-novel/consultants/test_advisor_registry.py` → 12 tests PASS.
+These are **local baseline tests**, not independent Umpire acceptance, nor proof of live authenticated Bullpen invocation.
+
+### ConsultEngine verification
+The Schemin `bullpen-runtime/` exists and its 24 tests pass, including fail-closed unavailable specialists and independent-gate requirements. This does **not** establish access to the separately governed canonical Bullpen ConsultEngine or its authenticated Director runtime. The Living Novel advisor registry is ACTIVE/ADVISORY_ONLY, with published-method lenses and no unverified human advisor participation. Actual ConsultEngine calls and Director attestations remain **BLOCKED/NOT DEMONSTRATED** until runtime discovery and authenticated invocation.
+
+### Outstanding Phase 0
+- File-by-file provenance and suitability review for 19 local-only and four divergent files; all remain unimported.
+- Narrow doc fixes for superseded DK anatomy and Atlas/Civilization Density stale release-candidate labels, only after verifying owning document authority.
+- Verified authentic ConsultEngine / Director invocations and Umpire independent sign-off.
+- Broader CI-level cross-OS consumer regression; no promotion until evidence.
