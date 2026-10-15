@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - "living-novel/os/**"
+      - "living-novel/migrations/**"
       - "living-novel/whole-book/**"
       - "living-novel/consultants/**"
       - "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
@@ -11,6 +12,7 @@ on:
   pull_request:
     paths:
       - "living-novel/os/**"
+      - "living-novel/migrations/**"
       - "living-novel/whole-book/**"
       - "living-novel/consultants/**"
       - "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
@@ -48,5 +50,7 @@ jobs:
         run: python living-novel/os/evaluations/test_chapter_03_mission.py
       - name: Validate Chapter III Founder canon closeout
         run: python living-novel/os/evaluations/test_chapter_03_canon_closeout.py
+      - name: Test Twelve POV migration validator
+        run: python -m unittest discover -s living-novel/migrations -p "test_*.py" -v
       - name: Validate whole-book convergence
         run: python living-novel/os/evaluations/test_whole_book_convergence.py
