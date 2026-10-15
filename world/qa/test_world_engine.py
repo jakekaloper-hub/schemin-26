@@ -66,14 +66,40 @@ class WorldEngineTests(unittest.TestCase):
         errs = mod.validate_payloads(*bad)
         self.assertTrue(any("references missing location" in e for e in errs))
 
-    def test_character_negative_lock_fails_bad_fixture(self):
-        p = self.payloads()
-        bad = copy.deepcopy(p)
+    def test_missing_gorilla_centaur_anatomy_fails_bad_fixture(self):
+        bad = copy.deepcopy(self.payloads())
         for d in bad[3]["domains"]:
             if d["character_id"] == "CHAR-WILSON-LOOK":
-                d["canon_guard"] = ["ARSENAL_GORILLA_WARRIOR"]
+                d["canon_guard"] = ["ARSENAL_GORILLA_CENTAUR_WARRIOR"]
         errs = mod.validate_payloads(*bad)
-        self.assertTrue(any("retired-centaur negative lock" in e for e in errs))
+        self.assertTrue(any("FOUR_LEGGED_CENTAUR_LOWER_BODY" in e for e in errs))
+        self.assertTrue(any("ONE_INTEGRATED_GORILLA_EQUINE_BODY" in e for e in errs))
+
+    def test_superseded_no_centaur_guard_is_rejected(self):
+        bad = copy.deepcopy(self.payloads())
+        for d in bad[3]["domains"]:
+            if d["character_id"] == "CHAR-WILSON-LOOK":
+                d["canon_guard"].append("NO_CENTAUR_ANATOMY")
+        errs = mod.validate_payloads(*bad)
+        self.assertTrue(any("obsolete no-centaur" in e for e in errs))
+
+    def test_wilson_active_location_and_visual_context_match_character_canon(self):
+        domain = next(d for d in mod.load_json("owner_domains.json")["domains"] if d["character_id"] == "CHAR-WILSON-LOOK")
+        profile = next(d for d in mod.load_json("domain_profiles.json")["domains"] if d["owner_character_id"] == "CHAR-WILSON-LOOK")
+        homeland = mod.load_repo_json("world/location-control-plane/homelands/CHAR-WILSON-LOOK/CARD.json")
+        location = next(d for d in mod.load_json("locations.json")["locations"] if d["id"] == "LOC-DK-HIGHLAND-STRONGHOLD")
+        location_card = mod.load_repo_json("world/location-control-plane/locations/LOC-DK-HIGHLAND-STRONGHOLD/CARD.json")
+        ontology = mod.load_json("inhabitant_ontology.json")["people_notes"]["CHAR-WILSON-LOOK"]
+        required = {"ARSENAL_GORILLA_CENTAUR_WARRIOR", "ONE_INTEGRATED_GORILLA_EQUINE_BODY", "FOUR_LEGGED_CENTAUR_LOWER_BODY"}
+        self.assertTrue(required.issubset(set(domain["canon_guard"])))
+        self.assertTrue(required.issubset(set(homeland["canon_guard"])))
+        self.assertTrue(required.issubset(set(profile["forbidden_drift"])))
+        self.assertNotIn("NO_CENTAUR_ANATOMY", domain["canon_guard"])
+        self.assertNotIn("NO_CENTAUR_ANATOMY", profile["forbidden_drift"])
+        self.assertNotIn("NO_CENTAUR_ANATOMY", homeland["canon_guard"])
+        self.assertIn("Gorilla Centaur Warrior", location["current_state"][0])
+        self.assertIn("Gorilla Centaur Warrior", location_card["base_location_state"][0])
+        self.assertIn("Gorilla Centaur Warrior", ontology)
 
     def test_tds_three_head_lock_fails_bad_fixture(self):
         p = self.payloads()
