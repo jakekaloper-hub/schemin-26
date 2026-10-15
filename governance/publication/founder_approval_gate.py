@@ -11,6 +11,17 @@ from typing import Mapping, Any
 
 ISSUE_STATES = frozenset({"INTAKE", "SOURCE_LOCK", "PREPRODUCTION", "PAGE_PRODUCTION", "BLOCKED", "ASSEMBLY", "RELEASE_CANDIDATE", "CORRECTION_REQUIRED", "RELEASED"})
 REQUIRED_QA = ("source_lock", "fact_qa", "story_qa", "originality_qa", "character_qa", "art_qa", "design_qa", "mobile_qa", "copy_qa", "assembly_qa", "release_audit")
+ALLOWED_TRANSITIONS = {
+    "INTAKE": {"SOURCE_LOCK", "BLOCKED"},
+    "SOURCE_LOCK": {"PREPRODUCTION", "BLOCKED"},
+    "PREPRODUCTION": {"PAGE_PRODUCTION", "BLOCKED"},
+    "PAGE_PRODUCTION": {"ASSEMBLY", "CORRECTION_REQUIRED", "BLOCKED"},
+    "ASSEMBLY": {"RELEASE_CANDIDATE", "CORRECTION_REQUIRED", "BLOCKED"},
+    "RELEASE_CANDIDATE": {"RELEASED", "CORRECTION_REQUIRED", "BLOCKED"},
+    "CORRECTION_REQUIRED": {"PREPRODUCTION", "PAGE_PRODUCTION", "BLOCKED"},
+    "BLOCKED": {"SOURCE_LOCK", "PREPRODUCTION", "CORRECTION_REQUIRED"},
+    "RELEASED": set(),
+}
 BLOCKING_FLAGS = ("character_reference_verified", "subject_binding_verified", "venue_verified", "finality_verified", "page_manifest_locked", "final_pdf_inspected", "independent_auditor_verified")
 
 @dataclass(frozen=True)
