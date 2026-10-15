@@ -3,7 +3,7 @@ on:
   pull_request:
     paths:
       - 'governance/publication/founder_approval_gate.py'
-      - 'governance/publication/test_founder_approval_gate.py'
+      - 'governance/publication/test_founder_approval_gate.py'\n      - 'governance/publication/founder_approval_runtime.py'\n      - 'governance/publication/test_founder_approval_runtime.py'
       - '.github/workflows/founder-approval-gate.yml'
   push:
     paths:
