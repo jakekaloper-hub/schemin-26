@@ -79,7 +79,7 @@ class ChapterThreeReconstructionAcceptance(unittest.TestCase):
         self.assertIn("four-legged equine body",CHAPTER)
         self.assertIn("four iron-shod hooves",CHAPTER)
         self.assertNotIn("beneath one boot",CHAPTER)
-        self.assertIn("Below the top.",CHAPTER)
+        self.assertIn("Then below the top.",CHAPTER)
         self.assertIn("Did I buy it?",CHAPTER)
         self.assertIn("They had not given him the Belt.",CHAPTER)
         self.assertIn("hair grow back",CHAPTER)  # negative image: a misleading drawing
