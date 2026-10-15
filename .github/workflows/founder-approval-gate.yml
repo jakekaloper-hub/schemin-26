@@ -3,12 +3,16 @@ on:
   pull_request:
     paths:
       - 'governance/publication/founder_approval_gate.py'
-      - 'governance/publication/test_founder_approval_gate.py'\n      - 'governance/publication/founder_approval_runtime.py'\n      - 'governance/publication/test_founder_approval_runtime.py'
+      - 'governance/publication/test_founder_approval_gate.py'
+      - 'governance/publication/founder_approval_runtime.py'
+      - 'governance/publication/test_founder_approval_runtime.py'
       - '.github/workflows/founder-approval-gate.yml'
   push:
     paths:
       - 'governance/publication/founder_approval_gate.py'
       - 'governance/publication/test_founder_approval_gate.py'
+      - 'governance/publication/founder_approval_runtime.py'
+      - 'governance/publication/test_founder_approval_runtime.py'
       - '.github/workflows/founder-approval-gate.yml'
 jobs:
   test:
@@ -18,5 +22,5 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Founder gate regression
-        run: python -m unittest discover -s governance/publication -p 'test_founder_approval_gate.py' -v
+      - name: Founder approval and runtime regression
+        run: python -m unittest discover -s governance/publication -p 'test_founder_approval_*.py' -v
