@@ -13,10 +13,10 @@ BOARD=ROOT/"living-novel/production/full-rewrite-2026"
 M=BOARD/"R7_CHAPTER_I_NINE_CARD_RECONSTRUCTION_REGISTER_V1.json"
 DOC=json.loads(M.read_text(encoding="utf-8"))
 CHAPTER=ROOT/DOC["manuscript_path"]
-POV_PATTERN=re.compile(r"(?m)^\\*\\*POV: (CHAR-[A-Z-]+)\\b")
+POV_PATTERN=re.compile(r"(?m)^\*\*POV: (CHAR-[A-Z-]+)\b")
 # Same Git object byte identity method used by Git itself.
 def git_blob_sha(content:bytes)->str:
-    return hashlib.sha1(f"blob {len(content)}\\0".encode()+content).hexdigest()
+    return hashlib.sha1(f"blob {len(content)}\0".encode()+content).hexdigest()
 
 def valid_location_anchor(location_id,region_id,context_id):
     if not all((location_id,region_id,context_id)):
@@ -76,8 +76,8 @@ class FullChapterOneDevelopmentGate(unittest.TestCase):
         for item in DOC["score_witness"]:
             w=item["winner"]; l=item["loser"]
             a=f'{item["winner_points"]:.2f}';b=f'{item["loser_points"]:.2f}'
-            pattern=re.compile(re.escape(w)+r"\\s+—\\s+"+re.escape(a)+r"\\s+"+
-                               re.escape(l)+r"\\s+—\\s+"+re.escape(b),re.I)
+            pattern=re.compile(re.escape(w)+r"\s+—\s+"+re.escape(a)+r"\s+"+
+                               re.escape(l)+r"\s+—\s+"+re.escape(b),re.I)
             self.assertRegex(self.historical,pattern)
             self.assertIn(a,self.text)
             self.assertIn(b,self.text)
@@ -88,7 +88,7 @@ class FullChapterOneDevelopmentGate(unittest.TestCase):
         self.assertIn("He had not lost the Belt.",self.text)
         self.assertIn("A boy stopped him at the archive steps",self.text)
         self.assertIn("They're mine to deliver",self.text)
-        self.assertNotRegex(self.text,re.compile(r"\\bEdrin(?: Vale)?\\b|\\bEdin\\b",re.I))
+        self.assertNotRegex(self.text,re.compile(r"\bEdrin(?: Vale)?\b|\bEdin\b",re.I))
 
     def test_location_checks_fail_closed_for_three_unresolved_places(self):
         unresolved=0
