@@ -65,3 +65,28 @@ def validate_civilization_rehearsal(location_id: str, season: int, week: int, so
     return {"ok": True, "context_id": result["shared_context_id"],
             "fact_lock_sha256": source_event["fact_lock_sha256"],
             "publication_eligible": False, "status": "MEMO_QA_REHEARSAL_ONLY"}
+
+
+def validate_future_week_world_gate(*, season:int, week:int, location_id:str,
+                                    fact_lock_sha256:str, character_reference_verified:bool,
+                                    final_artifact_verified:bool) -> dict:
+    """Prospective Memo OS gate only; never modifies or reopens historical issues."""
+    import sys
+    from pathlib import Path
+    root=Path(__file__).resolve().parents[2]
+    if str(root) not in sys.path:
+        sys.path.insert(0,str(root))
+    from world.engine.civilization_phase2_handoff import build_phase2_handoff
+    if not fact_lock_sha256 or len(fact_lock_sha256)!=64 or any(c not in "0123456789abcdef" for c in fact_lock_sha256.lower()):
+        return {"ok":False,"code":"SOURCE_FACT_LOCK_REQUIRED"}
+    context=build_phase2_handoff(location_id,season,week)
+    if not context.get("ok"):
+        return {"ok":False,"code":context.get("code")}
+    blockers=[]
+    if not character_reference_verified:
+        blockers.append("CHARACTER_REFERENCE_MOUNT_NOT_VERIFIED")
+    if not final_artifact_verified:
+        blockers.append("FINAL_ARTIFACT_QA_NOT_VERIFIED")
+    return {"ok":not blockers,"status":"READY_FOR_SIMULATED_REVIEW" if not blockers else "PUBLICATION_HOLD",
+            "context_id":context["shared_context_id"],"blockers":blockers,
+            "scope":"PROSPECTIVE_WEEK_ONLY","independent_approval_claimed":False}
