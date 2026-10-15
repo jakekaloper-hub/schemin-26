@@ -1,0 +1,61 @@
+{
+  "schema": "schemin.novel.reconstruction.survey_line.v1",
+  "status": "NONCANON_DEVELOPMENT_NOT_PUBLICATION_ELIGIBLE",
+  "manuscript_path": "living-novel/production/full-rewrite-2026/manuscript/THE_SURVEY_LINE_FULL_CAUSAL_MANUSCRIPT_V1_NONCANON.md",
+  "lineage": {
+    "pr167": "living-novel/production/week-04-05/SURVEY_LINE_SIMULATED_TWO_POV_SCENE_PROOF_NONCANON_2026-10-14.md",
+    "snapshot": "living-novel/production/week-04-05/WEEK_04_05_FLAIM_FACT_SNAPSHOT_2026-10-14.json",
+    "source_commit": "685c41788f132908f7f7518d090a0c578538f689",
+    "week4_manuscript_owner_pr": 128
+  },
+  "fixed_game": {
+    "week": 5,
+    "winner": "The LLC",
+    "winner_points": 193.73,
+    "loser": "Mud Dogs",
+    "loser_points": 127.09
+  },
+  "scenes": [
+    {
+      "part": "I",
+      "owner": "CHAR-BOBBY-MITCHELL",
+      "location": "LOC-MUD-DOGS-SWAMP",
+      "region": "REG-SOUTHERN-WETLANDS",
+      "decision": "Preserve survey evidence and protect access",
+      "status": "FICTIONAL_PROPOSAL"
+    },
+    {
+      "part": "II",
+      "owner": "CHAR-DAVID-BABB",
+      "location": "LOC-LLC-BOARDROOM",
+      "region": "REG-INNER-SEA-LITTORAL",
+      "decision": "Commission possible inquiry, not construction",
+      "status": "FICTIONAL_PROPOSAL"
+    },
+    {
+      "part": "III",
+      "owner": "CHAR-BOBBY-MITCHELL",
+      "location": "LOC-MUD-DOGS-SWAMP",
+      "region": "REG-SOUTHERN-WETLANDS",
+      "decision": "Request community hearing on actual crossing",
+      "status": "FICTIONAL_PROPOSAL"
+    },
+    {
+      "part": "IV",
+      "owner": "CHAR-DAVID-BABB",
+      "location": "LOC-LLC-BOARDROOM",
+      "region": "REG-INNER-SEA-LITTORAL",
+      "decision": "Document objections and condition investigation",
+      "status": "FICTIONAL_PROPOSAL"
+    }
+  ],
+  "unresolved": [
+    "No established legal easement or Commonwealth survey permission",
+    "Precise causeway site and any stakes/letters are fictional test events",
+    "No elapsed travel duration specified between cuts",
+    "No original image asset or visual approval",
+    "Not a settled chapter number; potential competing week5 hill fall spine",
+    "Founder and genuinely independent editorial release approval absent"
+  ],
+  "promotion": "HOLD"
+}
