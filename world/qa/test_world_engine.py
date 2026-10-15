@@ -93,7 +93,10 @@ class WorldEngineTests(unittest.TestCase):
         required = {"ARSENAL_GORILLA_CENTAUR_WARRIOR", "ONE_INTEGRATED_GORILLA_EQUINE_BODY", "FOUR_LEGGED_CENTAUR_LOWER_BODY"}
         self.assertTrue(required.issubset(set(domain["canon_guard"])))
         self.assertTrue(required.issubset(set(homeland["canon_guard"])))
-        self.assertTrue(required.issubset(set(profile["forbidden_drift"])))
+        self.assertTrue(all(lock not in profile["forbidden_drift"] for lock in required))
+        self.assertTrue({"NO_GENERIC_BIPEDAL_GORILLA", "NO_HORSE_HEADED_CENTAUR",
+                         "NO_RIDER_MOUNT_SUBSTITUTE", "NO_TWO_CREATURE_SUBSTITUTE",
+                         "NO_ARSENAL_IDENTITY_OMISSION"}.issubset(set(profile["forbidden_drift"])))
         self.assertNotIn("NO_CENTAUR_ANATOMY", domain["canon_guard"])
         self.assertNotIn("NO_CENTAUR_ANATOMY", profile["forbidden_drift"])
         self.assertNotIn("NO_CENTAUR_ANATOMY", homeland["canon_guard"])
