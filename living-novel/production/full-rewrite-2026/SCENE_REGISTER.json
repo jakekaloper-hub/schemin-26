@@ -1,10 +1,134 @@
 {
-  "status":"DEVELOPMENT_CANDIDATE_NOT_CANON",
-  "scenes":[
-    {"file":"PROLOGUE_REWRITE_CANDIDATE.md","pov_character_id":"CHAR-JAKE-KALOPER","pov_class":"PRINCIPAL_CHARACTER","source_event_ids":["PRESEASON_NO_RESULT_ASSERTED"],"world_context_id":"SETCTX-CENTRAL-BASIN","story_time_cutoff":"BEFORE_CERTIFIED_CONTEST_OUTCOME","real_owner_boundary_note":"Fictional owner character; not the real person's private psychology."},
-    {"file":"CHAPTER_01_REWRITE_CANDIDATE.md","pov_character_id":"CHAR-BRANDON-PRYOR","pov_class":"PRINCIPAL_CHARACTER","source_event_ids":["GENERAL_CONTEST_RESULT_CERTIFICATION_PROCESS_NO_SCORE"],"world_context_id":"SETCTX-CENTRAL-BASIN","story_time_cutoff":"EARLY_SEASON_RESULT_UNSPECIFIED","real_owner_boundary_note":"Fictional owner character; not the real person's private psychology."},
-    {"file":"CHAPTER_02_REWRITE_CANDIDATE.md","pov_character_id":"CHAR-KEVIN-ZEEK","pov_class":"PRINCIPAL_CHARACTER","source_event_ids":["FICTIONAL_UNVERIFIED_MESSAGE_NOT_A_LEAGUE_RESULT"],"world_context_id":"SETCTX-CENTRAL-BASIN","story_time_cutoff":"EARLY_SEASON_NO_RESULT_ASSERTED","real_owner_boundary_note":"Fictional owner character; not the real person's private psychology."},
-    {"file":"CHAPTER_03_REWRITE_CANDIDATE.md","pov_character_id":"CHAR-WILSON-LOOK","pov_class":"PRINCIPAL_CHARACTER","source_event_ids":["WEEK_3_FACT_LOCK_V1"],"world_context_id":"SETCTX-CENTRAL-BASIN","story_time_cutoff":"AFTER_WEEK_3_CERTIFICATION_BEFORE_WEEK_4_RESULT","real_owner_boundary_note":"Fictional owner characters; not real owners' private psychology."}
+  "status": "DEVELOPMENT_CANDIDATE_NOT_CANON",
+  "schema_version": "novel-rewrite-scene-segments-v2",
+  "source_proposal": "R2_SCENE_REGISTER_CORRECTIVE_PROPOSAL_V2.json",
+  "fact_boundary": "Nonresult placeholders are not fact locks. Unresolved locations remain blocked; only source-joined records can be considered for later QA.",
+  "scenes": [
+    {
+      "scene_id": "R2-PROLOGUE-OBI",
+      "file": "PROLOGUE_REWRITE_CANDIDATE.md",
+      "scene_part": 1,
+      "pov_character_id": "CHAR-JAKE-KALOPER",
+      "location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "region_id": "REG-UPPER-VALLEYS",
+      "world_context_id": "SETCTX-UPPER-VALLEYS",
+      "time_cutoff": "PRESEASON",
+      "evidence_ref": "PRESEASON_NO_RESULT_ASSERTED",
+      "source_evidence_class": "NON_RESULT_FICTIONAL_SCENE",
+      "place_role": "home vantage",
+      "status": "PROPOSED_CORRECTION",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "source_event_ids": [
+        "PRESEASON_NO_RESULT_ASSERTED"
+      ],
+      "story_time_cutoff": "PRESEASON",
+      "real_owner_boundary_note": "Fictional principal only; no real owner's private mental state asserted"
+    },
+    {
+      "scene_id": "R2-CH1-CHILI",
+      "file": "CHAPTER_01_REWRITE_CANDIDATE.md",
+      "scene_part": 1,
+      "pov_character_id": "CHAR-BRANDON-PRYOR",
+      "location_id": null,
+      "region_id": null,
+      "world_context_id": null,
+      "time_cutoff": "EARLY_SEASON_UNSPECIFIED",
+      "evidence_ref": "GENERAL_CERTIFICATION_PROCESS_NO_SCORE",
+      "source_evidence_class": "UNRESOLVED_EVENT_AND_VENUE",
+      "place_role": "unnamed square; no location qualification",
+      "status": "BLOCKED_LOCATION_EVIDENCE",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "source_event_ids": [
+        "GENERAL_CERTIFICATION_PROCESS_NO_SCORE"
+      ],
+      "story_time_cutoff": "EARLY_SEASON_UNSPECIFIED",
+      "real_owner_boundary_note": "Fictional principal only; no real owner's private mental state asserted"
+    },
+    {
+      "scene_id": "R2-CH2-RED",
+      "file": "CHAPTER_02_REWRITE_CANDIDATE.md",
+      "scene_part": 1,
+      "pov_character_id": "CHAR-KEVIN-ZEEK",
+      "location_id": null,
+      "region_id": null,
+      "world_context_id": null,
+      "time_cutoff": "EARLY_SEASON_UNSPECIFIED",
+      "evidence_ref": "FICTIONAL_UNVERIFIED_MESSAGE_NO_SCORE",
+      "source_evidence_class": "NON_RESULT_FICTIONAL_SCENE",
+      "place_role": "Red Leopards approach/gate; potential home link not certified",
+      "status": "BLOCKED_LOCATION_EVIDENCE",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "source_event_ids": [
+        "FICTIONAL_UNVERIFIED_MESSAGE_NO_SCORE"
+      ],
+      "story_time_cutoff": "EARLY_SEASON_UNSPECIFIED",
+      "real_owner_boundary_note": "Fictional principal only; no real owner's private mental state asserted"
+    },
+    {
+      "scene_id": "R2-CH3-WILSON",
+      "file": "CHAPTER_03_REWRITE_CANDIDATE.md",
+      "scene_part": 1,
+      "pov_character_id": "CHAR-WILSON-LOOK",
+      "location_id": "LOC-DK-MUD-HILL",
+      "region_id": "REG-CENTRAL-BASIN",
+      "world_context_id": "SETCTX-CENTRAL-BASIN",
+      "time_cutoff": "AFTER_WEEK_3_BEFORE_WEEK_4",
+      "evidence_ref": "memo-os/week-3/WEEK_3_FACT_LOCK_V1.md",
+      "source_evidence_class": "VERIFIED_WEEK_3",
+      "place_role": "Mire Hill event aftermath (provisional site)",
+      "status": "DEVELOPMENT_ONLY",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "source_event_ids": [
+        "memo-os/week-3/WEEK_3_FACT_LOCK_V1.md"
+      ],
+      "story_time_cutoff": "AFTER_WEEK_3_BEFORE_WEEK_4",
+      "real_owner_boundary_note": "Fictional principal only; no real owner's private mental state asserted"
+    },
+    {
+      "scene_id": "R2-CH3-OBI",
+      "file": "CHAPTER_03_REWRITE_CANDIDATE.md",
+      "scene_part": 2,
+      "pov_character_id": "CHAR-JAKE-KALOPER",
+      "location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "region_id": "REG-UPPER-VALLEYS",
+      "world_context_id": "SETCTX-UPPER-VALLEYS",
+      "time_cutoff": "AFTER_WEEK_3_BEFORE_WEEK_4",
+      "evidence_ref": "memo-os/week-3/WEEK_3_FACT_LOCK_V1.md",
+      "source_evidence_class": "VERIFIED_WEEK_3",
+      "place_role": "Trade Jedi mountain room",
+      "status": "DEVELOPMENT_ONLY",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "source_event_ids": [
+        "memo-os/week-3/WEEK_3_FACT_LOCK_V1.md"
+      ],
+      "story_time_cutoff": "AFTER_WEEK_3_BEFORE_WEEK_4",
+      "real_owner_boundary_note": "Fictional principal only; no real owner's private mental state asserted"
+    },
+    {
+      "scene_id": "R2-CH3-BYARS",
+      "file": "CHAPTER_03_REWRITE_CANDIDATE.md",
+      "scene_part": 3,
+      "pov_character_id": "CHAR-AUSTIN-BYARS",
+      "location_id": null,
+      "region_id": null,
+      "world_context_id": null,
+      "time_cutoff": "AFTER_WEEK_3_BEFORE_WEEK_4",
+      "evidence_ref": "memo-os/week-3/WEEK_3_FACT_LOCK_V1.md",
+      "source_evidence_class": "VERIFIED_WEEK_3_RESULT_KEEPER_CAUSAL_CLAIM_NEEDS_DATED_SOURCE",
+      "place_role": "Belt displayed, interior unspecified; do not infer Keep location",
+      "status": "BLOCKED_LOCATION_EVIDENCE",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "source_event_ids": [
+        "memo-os/week-3/WEEK_3_FACT_LOCK_V1.md"
+      ],
+      "story_time_cutoff": "AFTER_WEEK_3_BEFORE_WEEK_4",
+      "real_owner_boundary_note": "Fictional principal only; no real owner's private mental state asserted"
+    }
   ],
-  "notes":["Chapter III contains three owner POV sections, separately marked. Scene register primary POV is Wilson; the other two owner IDs must be independently validated before promotion.","Prologue/Chapters I-II are atmospheric fiction without asserted specific historical results; their placeholders are NOT verified event IDs.","No venue claims are promoted by this candidate."]
+  "notes": [
+    "Six scene entries represent four candidate manuscript files, with Chapter III three separate owner POVs",
+    "Three scenes are explicitly blocked because their concrete LOC/REG/SETCTX source anchors are absent",
+    "This source register is noncanonical and does not grant manuscript/canon/publication approval",
+    "Full rewritten manuscript text and human editorial acceptance remain future gates"
+  ]
 }
