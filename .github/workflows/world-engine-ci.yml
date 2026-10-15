@@ -50,6 +50,10 @@ jobs:
         run: python world/atlas/integration/test_publication_convergence.py
       - name: Run Universe OS V1.2 acceptance
         run: python world/qa/test_universe_os_v1_2.py
+      - name: Run Connected Commonwealth Phase 1 integration and adversarial suite
+        run: |
+          python -m unittest discover -s world/qa -p "test_civilization*.py" -q
+          python world/qa/test_central_basin_pilot.py
       - name: Run One World Model anti-fork contract
         run: python world/qa/test_one_world_model_contract.py
       - name: Re-run Memo OS V5.5 acceptance suite
