@@ -41,12 +41,12 @@ def validate_evidence(manifest, base):
                     # The signed persisted state proves integrity, not actual upstream
                     # identity-provider authentication or reviewer independence.
                     approvals = issue.get("approvals", {})
-                    for slot, gate, digest in (
+                    for slot, gate, expected_hash in (
                         ("creative", "CREATIVE_DIRECTION", issue.get("approved_plan_sha256")),
                         ("publication", "FINAL_PUBLICATION", issue.get("final_pdf_sha256")),
                     ):
                         approval = approvals.get(slot, {})
-                        if approval.get("gate") != gate or approval.get("artifact_sha256") != digest or approval.get("decision") != "APPROVED":
+                        if approval.get("gate") != gate or approval.get("artifact_sha256") != expected_hash or approval.get("decision") != "APPROVED":
                             errors.append("Founder approval absent or stale: " + slot)
                 except Exception as exc:
                     errors.append("Founder transaction integrity or verification failure: " + type(exc).__name__)
