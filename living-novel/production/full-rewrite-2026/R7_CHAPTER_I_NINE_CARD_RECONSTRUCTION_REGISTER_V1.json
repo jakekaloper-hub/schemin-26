@@ -1,0 +1,208 @@
+{
+  "schema": "schemin.novel.reconstruction.chapter_01.v1",
+  "status": "FULL_LENGTH_DEVELOPMENT_CANDIDATE_NOT_CANON",
+  "canonical_source": "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md",
+  "canonical_source_blob_sha": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+  "privileged_opening_candidate": {
+    "repository_pr": 130,
+    "path": "living-novel/migrations/PROLOGUE_TWELVE_POV_EDITORIAL_CANDIDATE_V4R2.md",
+    "blob_sha": "2744c2f3b8984e12e85ba95464f3876607f2c3dc",
+    "status": "PREFERRED_NONCANON_PROLOGUE_RETAINED_UNCHANGED"
+  },
+  "migrations": {
+    "issue": 129,
+    "pr": 130,
+    "path": "living-novel/migrations/CHAPTER_01_02_TWELVE_POV_SCENE_MIGRATION_PLAN_2026-10-14.json",
+    "source_ch1_sections": 9,
+    "source_ch2_sections": 10
+  },
+  "manuscript_path": "living-novel/production/full-rewrite-2026/manuscript/CHAPTER_01_THE_FIRST_ANSWER_FULL_RECONSTRUCTION_V1_NONCANON.md",
+  "source_event_class": "HARD_MANUSCRIPT_WITNESS_NO_NEW_ESPN_PROVIDER_ASSERTION",
+  "score_witness": [
+    {
+      "winner": "Mud Dogs",
+      "winner_points": 125.36,
+      "loser": "Red Leopards",
+      "loser_points": 120.86
+    },
+    {
+      "winner": "Dr. Duckhook",
+      "winner_points": 147.32,
+      "loser": "Seven Deadly Chins",
+      "loser_points": 145.82
+    },
+    {
+      "winner": "D0nkey K0ng",
+      "winner_points": 142.7,
+      "loser": "Slob on my Dobb",
+      "loser_points": 134.96
+    },
+    {
+      "winner": "Three Dreaded Snake",
+      "winner_points": 175.56,
+      "loser": "El Niño",
+      "loser_points": 144.42
+    },
+    {
+      "winner": "Chili Cheesers",
+      "winner_points": 198,
+      "loser": "The LLC",
+      "loser_points": 122.01
+    },
+    {
+      "winner": "ObiWan Jacoby",
+      "winner_points": 141.7,
+      "loser": "His Majesty's Blood",
+      "loser_points": 131.26
+    }
+  ],
+  "pov_segments": [
+    {
+      "segment": "I",
+      "title": "Six Bells",
+      "owner_id": "CHAR-JAKE-KALOPER",
+      "primary_source_card": "CHAPTER_01_S01",
+      "location_id": null,
+      "region_id": "REG-CENTRAL-BASIN",
+      "settlement_context_id": "SETCTX-CENTRAL-BASIN",
+      "site_status": "HALL_OF_MEASURES_DISTRICT_PRECISE_LOC_NOT_RESOLVED",
+      "date": "W1_POST_CERTIFICATION_MORNING",
+      "decision": "Refrain from claiming the Belt; inspect his imperfect victory's public deployment evidence",
+      "event_scope": "PUBLIC_WEEK1_RESULT_ONLY",
+      "world_effect": "Public certification and conflicting Belt interpretation; no authorized world mutation"
+    },
+    {
+      "segment": "II",
+      "title": "The Grain Exchange",
+      "owner_id": "CHAR-BRANDON-PRYOR",
+      "primary_source_card": "CHAPTER_01_S03",
+      "location_id": null,
+      "region_id": "REG-CENTRAL-BASIN",
+      "settlement_context_id": "SETCTX-CENTRAL-BASIN",
+      "site_status": "GRAIN_EXCHANGE_LEGACY_DESC_NO_CANON_LOC_ID",
+      "date": "W1_POST_CERTIFICATION_DAY",
+      "decision": "Pay for market cleanup and potential steps repair instead of keeping spectacle costless",
+      "event_scope": "W1_CHILI_WIN_HARD_MANUSCRIPT_WITNESS",
+      "world_effect": "Fictional invoice/repair proposal ONLY; no canonical works or construction"
+    },
+    {
+      "segment": "III",
+      "title": "Proof and Possession",
+      "owner_id": "CHAR-AUSTIN-BYARS",
+      "primary_source_card": "CHAPTER_01_S08",
+      "location_id": "LOC-LEAGUE-ARCHIVE",
+      "region_id": "REG-CENTRAL-BASIN",
+      "settlement_context_id": "SETCTX-CENTRAL-BASIN",
+      "site_status": "ARCHIVE_ANCHORED_HALL_OF_KEEPING_INTERIOR_FROM_APPROVED_MANUSCRIPT",
+      "date": "W1_POST_CERTIFICATION_DAY",
+      "decision": "Let true defeat be publicly recorded but reject fabricated Belt succession; examine worker and courier claims",
+      "event_scope": "W1_OBIWAN_OVER_BYARS_HARD_MANUSCRIPT_WITNESS",
+      "world_effect": "Fictional public notice/repair conversations ONLY; no world transaction"
+    },
+    {
+      "segment": "IV",
+      "title": "What It Costs",
+      "owner_id": "CHAR-JAKE-KALOPER",
+      "primary_source_card": "CHAPTER_01_S07",
+      "location_id": null,
+      "region_id": "REG-CENTRAL-BASIN",
+      "settlement_context_id": "SETCTX-CENTRAL-BASIN",
+      "site_status": "EASTERN_GATE_PRECISE_LOCATION_UNRESOLVED_NO_MOUNTAIN_TELEPORT",
+      "date": "W1_POST_CERTIFICATION_EVENING",
+      "decision": "Decline unsupported Belt claim, verify transit proposal, budget for travel",
+      "event_scope": "W1_PUBLIC_RECORD_AND_FICTIONAL_OFFERS",
+      "world_effect": "Preparatory private decisions only; no new contract authorized"
+    }
+  ],
+  "card_fate": [
+    {
+      "card": "CHAPTER_01_S01",
+      "status": "DRAMATIZED",
+      "part": "I",
+      "note": "Six result certificates witnessed in public, Obi's limited POV"
+    },
+    {
+      "card": "CHAPTER_01_S02",
+      "status": "FOLDED_AS_EVIDENCE",
+      "part": "I",
+      "note": "Duckhook's narrow win certified; detailed independent Duckhook POV deferred rather than forced into Chapter I"
+    },
+    {
+      "card": "CHAPTER_01_S03",
+      "status": "DRAMATIZED",
+      "part": "II",
+      "note": "Chili feast, score leverage, business and community cost"
+    },
+    {
+      "card": "CHAPTER_01_S04",
+      "status": "DEFERRED",
+      "part": "I",
+      "note": "Seven Chins close loss is in public record; original button/review mechanism needs precise character/release qualification"
+    },
+    {
+      "card": "CHAPTER_01_S05",
+      "status": "FOLDED_AS_AMBIENT_LEGACY",
+      "part": "II",
+      "note": "Older damaged steps and cleanup; no unverified El Niño causation or fabricated district damage"
+    },
+    {
+      "card": "CHAPTER_01_S06",
+      "status": "FOLDED_AS_STORY_OBJECT",
+      "part": "IV",
+      "note": "Mud Dogs result + bogus historical mud jars; Mud POV optional later only when earned"
+    },
+    {
+      "card": "CHAPTER_01_S07",
+      "status": "DRAMATIZED",
+      "part": "IV",
+      "note": "Supply/road readiness as a consequence and choice"
+    },
+    {
+      "card": "CHAPTER_01_S08",
+      "status": "DRAMATIZED_EXISTING_PILOT_INCORPORATED",
+      "part": "III",
+      "note": "Source derived from PR #188's Chapter I Belt Keeper literary pilot, edited only to remove draft frontmatter and review text"
+    },
+    {
+      "card": "CHAPTER_01_S09",
+      "status": "FOLDED_AS_PUBLIC_SIGNAL",
+      "part": "IV",
+      "note": "Three Dreaded Snake's unexpected first win in civic public print; his private response is not omniscient or invented"
+    }
+  ],
+  "policy": {
+    "pov_cap": 3,
+    "actual_unique_principal_count": 3,
+    "segment_count": 4,
+    "owner_ids": [
+      "CHAR-JAKE-KALOPER",
+      "CHAR-BRANDON-PRYOR",
+      "CHAR-AUSTIN-BYARS"
+    ],
+    "no_edrin_institutional_pov": true,
+    "no_week2_or_future_result_asserted": true,
+    "belt_owner_after_week1": "CHAR-AUSTIN-BYARS",
+    "public_score_vs_succession_separate": true,
+    "source_venues_unknown_count": 3,
+    "unapproved_societal_incidents": "DEVELOPMENT_FICTION_NOT_WORLD_EVOLUTION",
+    "future_full_twelve_paths": "OWNED_BY_ISSUE_129_AND_PR_130_NOT_COMPLETED_BY_THIS_CHAPTER",
+    "output_release": "HOLD_NO_FOUNDER_OR_INDEPENDENT_UMPIRE_APPROVAL"
+  },
+  "editorial_qa": {
+    "strengths": [
+      "Significant owner decisions vs nine episodic recaps",
+      "Ordinary people have agency and physical/economic lives",
+      "Original material recovered with distinct POV windows",
+      "Distinct championship and weekly result consequences"
+    ],
+    "holds": [
+      "Founder direction approval and twelve-POV Constitution V2",
+      "Independent outsider and manuscript editor review",
+      "Verify Grain Exchange/Hall district/eastern gate against Atlas before final release",
+      "Recheck all Week 1 scores against dated league source for final fact approval",
+      "The new fictional repair/courier details are not World/Chronicle state",
+      "Potential same-day scene overlap and repeated abstract proof/meaning lines for line edit",
+      "Character imagery/render binding not reviewed"
+    ]
+  }
+}
