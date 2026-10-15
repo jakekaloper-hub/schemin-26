@@ -753,7 +753,7 @@ Brandon was feeding a city and discovering the cost.
 
 The others had their own reasons to be pleased, furious or silent. Jake could read the public papers, but he could not claim to know what those men would do next. That uncertainty had survived the certification intact.
 
-At the eastern ascent, he stopped beside the gate and looked down the road. Its dark stone disappeared between the trees, not into legend but toward settlements where people were waiting for carts, letters, food and the ordinary things a Contest could interrupt.
+At the eastern gate of the city, he stopped and looked toward the road that would eventually return him to the Upper Valleys. Beyond the nearest houses it slipped out of sight. Somewhere along that route settlements were waiting for carts, letters, food and the ordinary things a Contest could interrupt.
 
 He reached inside his coat and touched the folded result sheet.
 
