@@ -1,0 +1,300 @@
+{
+  "status": "NONCANON_AUTHOR_ROOM_GRAPH_NOT_NEW_OS",
+  "sources": [
+    "memo-os/week-3/WEEK_3_FACT_LOCK_V1.md",
+    "living-novel/canon/MASTER_TIMELINE.md",
+    "living-novel/whole-book/HISTORICAL_INTEGRATION_MAP_V1.md",
+    "living-novel/production/full-rewrite-2026/R39_TWELVE_OWNER_LONGFORM_STORY_DOSSIERS_V1.md"
+  ],
+  "principals": [
+    "Jake",
+    "Kevin",
+    "Jordan",
+    "David",
+    "Wilson",
+    "Phillip",
+    "Brandon",
+    "Austin",
+    "Manning",
+    "Bobby",
+    "Ben",
+    "Zach"
+  ],
+  "edges": [
+    {
+      "id": "CONSEQ-001",
+      "source": "Jake",
+      "target": "Austin",
+      "temporal_anchor": "2024–2025",
+      "status": "FACT",
+      "causal_interpretation": "Verified championship reversal changes title standing; fictional encounter not inferred",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-002",
+      "source": "Austin",
+      "target": "Jake",
+      "temporal_anchor": "2025–2026",
+      "status": "PROPOSED",
+      "causal_interpretation": "Incumbent title imposes negotiation pressure, private thoughts invented",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-003",
+      "source": "Jake",
+      "target": "Wilson",
+      "temporal_anchor": "2026 W4",
+      "status": "FACT",
+      "causal_interpretation": "157.33 to 139.67 first DK loss; Belt does not transfer",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-004",
+      "source": "Wilson",
+      "target": "Zach",
+      "temporal_anchor": "2026 W5",
+      "status": "FACT",
+      "causal_interpretation": "Duckhook 184.91 versus Wilson 141.44, second straight loss",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-005",
+      "source": "Phillip",
+      "target": "Wilson",
+      "temporal_anchor": "2026 W2",
+      "status": "FACT",
+      "causal_interpretation": "Wilson victory over TDS and haircut aftermath; exact cultural reaction proposal",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-006",
+      "source": "Wilson",
+      "target": "Phillip",
+      "temporal_anchor": "2026 W2 onward",
+      "status": "PROPOSED",
+      "causal_interpretation": "Public haircut identity and witness dispute carry forward",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-007",
+      "source": "Phillip",
+      "target": "Brandon",
+      "temporal_anchor": "2026",
+      "status": "PROPOSED",
+      "causal_interpretation": "Shared March allows two independent ambitions, no invented result",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-008",
+      "source": "Brandon",
+      "target": "Kevin",
+      "temporal_anchor": "2026 W2",
+      "status": "FACT",
+      "causal_interpretation": "Returned Red receipt/parcel exists, separate from Week 3 dog",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-009",
+      "source": "Kevin",
+      "target": "Jordan",
+      "temporal_anchor": "2026 W3",
+      "status": "FACT",
+      "causal_interpretation": "Red 158.44 beats Slob 141.86; side wager public story",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-010",
+      "source": "Jordan",
+      "target": "Brandon",
+      "temporal_anchor": "2026 W4",
+      "status": "FACT",
+      "causal_interpretation": "Slob 190.72 beats Chili 139.96",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-011",
+      "source": "Brandon",
+      "target": "Zach",
+      "temporal_anchor": "2026 W3",
+      "status": "FACT",
+      "causal_interpretation": "Chili 132.19 beats Duckhook 126.16; Sonic parcel",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-012",
+      "source": "Zach",
+      "target": "Austin",
+      "temporal_anchor": "2025",
+      "status": "FACT",
+      "causal_interpretation": "2025 semifinal incumbent survived Duckhook by 0.40",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-013",
+      "source": "Austin",
+      "target": "Ben",
+      "temporal_anchor": "2026 W3",
+      "status": "FACT",
+      "causal_interpretation": "Byars 136 beats Chins 125.54",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-014",
+      "source": "Ben",
+      "target": "Jordan",
+      "temporal_anchor": "2026 W5",
+      "status": "FACT",
+      "causal_interpretation": "Chins 170.46 beats Slob 134.70",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-015",
+      "source": "Ben",
+      "target": "Bobby",
+      "temporal_anchor": "future fictional",
+      "status": "PROPOSED",
+      "causal_interpretation": "Working commons advocacy versus wetland access and labor",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-016",
+      "source": "Bobby",
+      "target": "David",
+      "temporal_anchor": "2026 W5",
+      "status": "FACT",
+      "causal_interpretation": "LLC 193.73 beats Mud Dogs 127.09; no land rights created",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-017",
+      "source": "David",
+      "target": "Bobby",
+      "temporal_anchor": "fictional aftermath W5",
+      "status": "PROPOSED",
+      "causal_interpretation": "Proposed inquiry/timber dispute from Survey Line, not accepted World State",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-018",
+      "source": "David",
+      "target": "Manning",
+      "temporal_anchor": "2026 W3",
+      "status": "FACT",
+      "causal_interpretation": "LLC 147.43 defeats El Niño 114.62",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-019",
+      "source": "Manning",
+      "target": "Kevin",
+      "temporal_anchor": "2022",
+      "status": "FACT",
+      "causal_interpretation": "El Niño semifinals defeat Red 116.32 to 97.96",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-020",
+      "source": "Kevin",
+      "target": "Manning",
+      "temporal_anchor": "2022",
+      "status": "PROPOSED",
+      "causal_interpretation": "Distinguish 13-1 Red dominance from elemental championship interpretation",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-021",
+      "source": "Manning",
+      "target": "Brandon",
+      "temporal_anchor": "2026 W5",
+      "status": "FACT",
+      "causal_interpretation": "Chili 183.53 beats El Niño 156.70",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-022",
+      "source": "Bobby",
+      "target": "Wilson",
+      "temporal_anchor": "2026 W3",
+      "status": "FACT",
+      "causal_interpretation": "DK 172.48 defeats Mud Dogs 126.86",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-023",
+      "source": "Jake",
+      "target": "Bobby",
+      "temporal_anchor": "2026 W2",
+      "status": "FACT",
+      "causal_interpretation": "Mud defeats Obi (documented old narrative; verify exact score before quoting)",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-024",
+      "source": "Austin",
+      "target": "Phillip",
+      "temporal_anchor": "2026 W5",
+      "status": "FACT",
+      "causal_interpretation": "Byars 113.45 defeats TDS 85.34",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-025",
+      "source": "Jordan",
+      "target": "Zach",
+      "temporal_anchor": "fictional long arc",
+      "status": "PROPOSED",
+      "causal_interpretation": "Country-club code collides with chaotic public celebration",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-026",
+      "source": "Ben",
+      "target": "Austin",
+      "temporal_anchor": "2023 historical",
+      "status": "UNKNOWN",
+      "causal_interpretation": "Team 11 runner-up old owner identity cannot be inferred",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-027",
+      "source": "Wilson",
+      "target": "Jake",
+      "temporal_anchor": "fictional W4 aftermath",
+      "status": "PROPOSED",
+      "causal_interpretation": "Shared bridge disagreement after first loss; candidate Chapter IV author controls",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-028",
+      "source": "Zach",
+      "target": "Ben",
+      "temporal_anchor": "fictional civic",
+      "status": "PROPOSED",
+      "causal_interpretation": "Local rule interpretation affects commons worker reputation",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-029",
+      "source": "Brandon",
+      "target": "Phillip",
+      "temporal_anchor": "fictional social",
+      "status": "PROPOSED",
+      "causal_interpretation": "Shared-march friendship tested by private ambition",
+      "canon_transaction": false
+    },
+    {
+      "id": "CONSEQ-030",
+      "source": "David",
+      "target": "Austin",
+      "temporal_anchor": "fictional political",
+      "status": "PROPOSED",
+      "causal_interpretation": "Conditional credit collides with Belt steward resource needs",
+      "canon_transaction": false
+    }
+  ],
+  "meaning_of_status": {
+    "FACT": "Source result or established story-object claim; causal impact beyond certified result must be separately verified",
+    "PROPOSED": "Fictional author-room pressure, not existing world-state",
+    "UNKNOWN": "Attribution not proven; hold"
+  }
+}
