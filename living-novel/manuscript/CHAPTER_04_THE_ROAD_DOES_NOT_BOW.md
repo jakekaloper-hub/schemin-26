@@ -472,7 +472,7 @@ The courier tucked it away.
 
 A road worker grunted as the slab rose.
 
-Wilson stepped forward and took one corner.
+Wilson braced his four iron-shod equine legs beneath him, reached out with his gorilla arms and took one corner.
 
 The stone moved another inch.
 
@@ -480,7 +480,7 @@ The stone moved another inch.
 
 They lifted.
 
-Mud sucked at Wilson's boots.
+Mud pulled against his four hooves.
 
 The slab settled into place.
 
@@ -562,7 +562,7 @@ He walked back to the road.
 
 ---
 
-They met three days later without ceremony.
+They met later that week without ceremony.
 
 Not at Mire Hill.
 
@@ -578,9 +578,7 @@ Wilson arrived from the north with one.
 
 Neither had summoned the other.
 
-Both had been traveling.
-
-That was the story they agreed to tell themselves.
+Each had arrived by his own road. Neither had asked the other to come.
 
 They stopped near the center because walking past each other would have required more theater than stopping.
 
@@ -656,13 +654,7 @@ Recognition.
 
 The same sentence in another form.
 
-A hill was not a kingdom.
-
-A victory was not sovereignty.
-
-A record was not a Belt.
-
-The road did not belong to whichever man had most recently won on it.
+From the southern approach, a loaded cart rolled onto the bridge and stopped. Its driver waited for the two rivals to clear a path.
 
 Wilson looked south.
 
@@ -684,11 +676,7 @@ A week before that, it had carried stories calling him king.
 
 Before either event, it had carried grain, tools, rumors, letters, debts, marriages, funerals, soldiers, drunks and people who had never heard either of their names.
 
-That was the useful thing about roads.
-
-They remembered nothing correctly.
-
-They survived everything anyway.
+The cart driver's animals shifted against their harnesses. Wilson saw one worn strap and understood that the man had a longer day ahead than either rival.
 
 Obi stepped away from the parapet.
 
@@ -732,13 +720,7 @@ Wilson's face stayed straight for almost two seconds.
 
 Then both men laughed.
 
-It was not friendship.
-
-It was not peace.
-
-It was not a pact.
-
-It was two rivals standing on a bridge older than either claim, each carrying less certainty than he had arrived with.
+They did not offer an alliance or an explanation. They moved aside so the driver could cross.
 
 Obi started south.
 
@@ -754,12 +736,4 @@ No score.
 
 Only the mason's year, worn nearly smooth by weather.
 
-The road did not bow to Obi's victory.
-
-It had not bowed to Wilson's unbeaten run.
-
-It would not bow to the next man either.
-
-Behind them, water moved beneath the bridge without asking who was ahead.
-
-And somewhere farther down the road, someone was already drawing the story wrong.
+The cart passed between them, the wheel rims clicking across the stone joins. When the driver called his thanks, both rivals had already turned toward their separate roads.
