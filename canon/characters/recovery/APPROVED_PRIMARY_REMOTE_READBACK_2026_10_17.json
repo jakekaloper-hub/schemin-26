@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "task": "CHAR-PORT-002",
+  "date": "2026-10-17",
+  "verified_commit": "a1fbce57b38164dc6275c27fd1332966e5a40349",
+  "verification_type": "FRESH_ISOLATED_REMOTE_GITHUB_CLONE",
+  "primary_total": 12,
+  "primary_pass": 4,
+  "primary_missing": 8,
+  "primary_corrupt": 0,
+  "image_generation_reference_mount_proven": false,
+  "deterministic_subject_binding_proven": false,
+  "c1_actual_generated_raster_accepted": false,
+  "t15": "HOLD",
+  "t16": "HOLD",
+  "verified": [
+    {
+      "character_id": "CHAR-MANNING-WELTY",
+      "repository_path": "canon/characters/assets/CHAR-MANNING-WELTY/primary/2FA6D29A-5E4C-4CA1-9790-88BE5E75F14E.jpeg",
+      "sha256": "5e43eadf7ea6426ea8ba2c3af80c108714638625db5adc9d5a32492ff84fc965",
+      "byte_size": 520546,
+      "git_blob_sha": "0c4498d6010434516a7956a6ce5e47e523bebe06"
+    },
+    {
+      "character_id": "CHAR-BRANDON-PRYOR",
+      "repository_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/primary/76344FB3-1974-48D0-AA90-8B231E6008F7.jpeg",
+      "sha256": "0bb99794f3a0b9fa1a7f791e17e6885fffcca4b79c824057623bab5c74598cfe",
+      "byte_size": 767855,
+      "git_blob_sha": "a31397a0cde639d99e32558d9700ce4d2e759dc0"
+    },
+    {
+      "character_id": "CHAR-PHILLIP-PITTS",
+      "repository_path": "canon/characters/assets/CHAR-PHILLIP-PITTS/primary/IMG_2178.jpeg",
+      "sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+      "byte_size": 200005,
+      "git_blob_sha": "61065d0ee5dbffb750da9aeea3f64e664f38a1be"
+    },
+    {
+      "character_id": "CHAR-AUSTIN-BYARS",
+      "repository_path": "canon/characters/assets/CHAR-AUSTIN-BYARS/primary/IMG_2179.jpeg",
+      "sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
+      "byte_size": 238145,
+      "git_blob_sha": "aa7e51ab08a31e6595c9c19d5eab67fb107d8dda"
+    }
+  ],
+  "missing_character_ids": [
+    "CHAR-BOBBY-MITCHELL",
+    "CHAR-BEN-WHIPPLE",
+    "CHAR-KEVIN-ZEEK",
+    "CHAR-DAVID-BABB",
+    "CHAR-ZACH-WILSON",
+    "CHAR-JAKE-KALOPER",
+    "CHAR-JORDAN-HOLLINGSHEAD",
+    "CHAR-WILSON-LOOK"
+  ]
+}

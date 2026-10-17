@@ -13,11 +13,11 @@ primary:
   expected_repository_path: "canon/characters/assets/CHAR-BRANDON-PRYOR/primary/76344FB3-1974-48D0-AA90-8B231E6008F7.jpeg"
   observed_library_size_bytes: 767855
   media_type: "image/jpeg"
-  current_state: "SOURCE_BYTES_REQUIRED"
-  actual_sha256: null
-  git_blob_sha: null
-  repository_byte_size: null
-  fresh_context_fetch: "NOT_PROVEN"
+  current_state: "PRIMARY_BYTES_VERIFIED_RENDERER_HOLD"
+  actual_sha256: "0bb99794f3a0b9fa1a7f791e17e6885fffcca4b79c824057623bab5c74598cfe"
+  git_blob_sha: "a31397a0cde639d99e32558d9700ce4d2e759dc0"
+  repository_byte_size: 767855
+  fresh_context_fetch: "FRESH_REMOTE_GITHUB_CLONE_VERIFIED_2026_10_17"
   renderer_mount: "NOT_PROVEN"
 supersession_state: "CURRENT"
 rule: "A Library-visible image or conversation file ID is not a durable renderer mount. Generation remains blocked until exact bytes are repository-addressable, rehashed, mounted, subject-bound, and receipted."
