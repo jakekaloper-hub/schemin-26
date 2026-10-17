@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "authority": "PROJECT_CONTROL_REGISTRY.md + domain source authorities",
-  "generated_at": "2026-10-17T18:00:00Z",
+  "generated_at": "2026-10-17T18:08:00Z",
   "tasks": [
     {
       "task_id": "CHAR-PORT-001",
@@ -261,7 +261,7 @@
       "workstream": "League Truth",
       "owner": "the_scout",
       "reviewer": "the_umpire",
-      "priority": "P0",
+      "priority": "P1",
       "status": "IN_PROGRESS",
       "created_at": "2026-10-01",
       "started_at": "2026-10-17T18:00:00Z",
@@ -291,10 +291,16 @@
           "ref": "governance/execution-control/FLA_ORIENTOR_NEXT_RECONCILIATION_2026-10-17.md",
           "status": "PARTIAL",
           "note": "Six Week 4 matchups decided on 2026-10-17 provider read; post-Week-4 standings and material transaction/injury Fact Lock still unresolved. Not a Memo release receipt."
+        },
+        {
+          "type": "priority_reconciliation",
+          "ref": "governance/execution-control/FLA_ORIENTOR_NEXT_RECONCILIATION_2026-10-17.md",
+          "status": "OBSERVED",
+          "note": "Week 4 is historical following Week 5's Commissioner-confirmed distribution; live production character recovery retains P0 priority."
         }
       ],
       "source_authority": "memo-os/week-4/WEEK_4_FACT_SCOPE_AND_EVIDENCE_REGISTER_V1.md",
-      "next_action": "Verify Week 4 post-week records and material roster/transaction/injury evidence against existing Fact Scope, then run Scout/Umpire Fact Lock; do not retroactively publish from results alone.",
+      "next_action": "Historical fact-closure P1 (not current weekly publication P0): reconcile Week 4 end-week standings, material transactions/injuries and Fact Scope, then evidence-backed Scout/Umpire closure. Do not block urgent CHAR-PORT-002 recovery or Week 6 setup.",
       "aliases": [
         "continue week 4 memo",
         "week 4 final evidence",
@@ -934,6 +940,13 @@
       "to": "IN_PROGRESS",
       "at": "2026-10-17T18:00:00Z",
       "evidence_ref": "memo-os/week-6/WEEK_6_FLAIM_SETUP_INTAKE_2026-10-17.md"
+    },
+    {
+      "task_id": "MEMO-W4-002",
+      "from_priority": "P0",
+      "to_priority": "P1",
+      "at": "2026-10-17T18:08:00Z",
+      "evidence_ref": "governance/execution-control/FLA_ORIENTOR_NEXT_RECONCILIATION_2026-10-17.md"
     }
   ]
 }
