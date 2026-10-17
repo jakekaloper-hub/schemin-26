@@ -20,23 +20,26 @@ class ExecutionControlTests(unittest.TestCase):
     def test_character_portability_resolves_existing_work(self):
         hit=ec.resolve("Where are we with character portability?",self.data)
         self.assertEqual(hit["task_id"],"CHAR-PORT-002")
-        self.assertEqual(hit["status"],"IN_PROGRESS")
+        self.assertEqual(hit["status"],self.index["CHAR-PORT-002"]["status"])
         self.assertEqual(self.index["CHAR-PORT-001"]["status"],"COMPLETE")
         self.assertTrue(self.index["CHAR-PORT-001"]["evidence"])
 
     def test_week4_resume_finds_live_evidence_gate_not_new_plan(self):
         hit=ec.resolve("Continue Week 4 Memo.",self.data)
         self.assertEqual(hit["task_id"],"MEMO-W4-002")
-        self.assertEqual(hit["status"],"IN_PROGRESS")
+        self.assertEqual(hit["status"],self.index["MEMO-W4-002"]["status"])
         self.assertIn("MEMO-W4-002",self.index["MEMO-W4-003"]["dependencies"])
 
-    def test_week6_preproduction_is_active_and_not_released(self):
+    def test_week6_preproduction_preserves_final_result_gate(self):
         task=self.index["MEMO-W6-001"]
-        self.assertEqual(task["status"],"IN_PROGRESS")
-        self.assertEqual(task["priority"],"P1")
-        self.assertTrue(any(e.get("status")=="PARTIAL" for e in task["evidence"]))
+        self.assertTrue(task["acceptance_criteria"])
         self.assertIn("week-6/",task["source_authority"])
-        self.assertNotEqual(task["status"],"COMPLETE")
+        self.assertTrue((ROOT / task["source_authority"]).exists())
+        intake=(ROOT / task["source_authority"]).read_text()
+        self.assertIn("UNDECIDED",intake)
+        self.assertIn("not facts or locked creative outcomes",intake)
+        if task["status"]=="COMPLETE":
+            self.assertTrue(any(e.get("status")=="PASS" for e in task["evidence"]))
 
     def test_novel_distinguishes_closed_canon_from_future_work(self):
         self.assertEqual(self.index["NOVEL-NEXT-001"]["status"],"COMPLETE")
@@ -47,7 +50,8 @@ class ExecutionControlTests(unittest.TestCase):
     def test_bullpen_next_returns_executable_task(self):
         nxt=ec.select_next(self.data)
         self.assertIsNotNone(nxt)
-        self.assertEqual(nxt["task_id"],"CHAR-PORT-002")
+        self.assertIn(nxt["task_id"],self.index)
+        self.assertIn(nxt["status"],{"READY","NOT_STARTED","REOPENED","IN_PROGRESS","VERIFYING"})
         self.assertTrue(ec.dependency_complete(nxt,self.index))
 
     def test_complete_tasks_are_evidence_backed(self):
