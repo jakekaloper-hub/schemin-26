@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "authority": "PROJECT_CONTROL_REGISTRY.md + domain source authorities",
-  "generated_at": "2026-10-17T18:08:00Z",
+  "generated_at": "2026-10-17T18:47:00Z",
   "tasks": [
     {
       "task_id": "CHAR-PORT-001",
@@ -82,10 +82,16 @@
           "ref": "canon/characters/CHAR_PORT_002_RECOVERY_READBACK_2026-10-17.md",
           "status": "PARTIAL",
           "note": "2/12 canonical primary paths observed on main; 10 404; original Library raw-byte export unavailable; no fresh twelve-source SHA-256 or mount proof."
+        },
+        {
+          "type": "commissioner_archive_sha256_12_of_12_local_verified",
+          "ref": "canon/characters/recovery/COMMISSIONER_2026_10_12_INGEST_RECEIPT.json",
+          "status": "PARTIAL",
+          "note": "Found and hash-verified existing 2026-10-12 Commissioner ZIP on connected authorized Mac. 12 exact source binaries exist locally, 2 match earlier active SHA-256s, 10 differ by uploaded version. Local staging and fresh readback verified. Git persistence, canon supersession, renderer slot binding and T15/T16 NOT proven."
         }
       ],
       "source_authority": "bullpen/LIBRARIAN_THREAD_CLOSEOUT_CHARACTER_PORTABILITY_2026-10-01.md",
-      "next_action": "Continue recovery of ten previously supplied canonical binaries through authorized existing source-byte routes. Rehash all 12 and persist Git locator/hash receipts; then prove clean-context retrieval and render subject binding. Never ask for generic bulk reupload.",
+      "next_action": "Source bytes have been RECOVERED locally as 12/12: use existing verified Oct12 source lock plus importer to persist binary assets in canonical GitHub repository from authorized local machine; independently re-read Git SHA/blob and reconcile 10 newer image versions before switching active manifest. Do not request new uploads or falsely greenlight renderer.",
       "aliases": [
         "character portability",
         "durable asset ingestion",
@@ -947,6 +953,13 @@
       "to_priority": "P1",
       "at": "2026-10-17T18:08:00Z",
       "evidence_ref": "governance/execution-control/FLA_ORIENTOR_NEXT_RECONCILIATION_2026-10-17.md"
+    },
+    {
+      "task_id": "CHAR-PORT-002",
+      "at": "2026-10-17T18:47:00Z",
+      "event": "SOURCE_BYTES_RECOVERED_LOCAL_12_OF_12",
+      "evidence_ref": "canon/characters/recovery/COMMISSIONER_2026_10_12_INGEST_RECEIPT.json",
+      "status": "PARTIAL"
     }
   ]
 }
