@@ -7,7 +7,7 @@ from __future__ import annotations
 import json
 from collections import Counter, defaultdict
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[3]
+ROOT=Path(__file__).resolve().parents[4]
 EVIDENCE=ROOT/"living-novel/production/full-rewrite-2026/evidence"
 
 def build_profiles(boards):
