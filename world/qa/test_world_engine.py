@@ -66,14 +66,55 @@ class WorldEngineTests(unittest.TestCase):
         errs = mod.validate_payloads(*bad)
         self.assertTrue(any("references missing location" in e for e in errs))
 
-    def test_character_negative_lock_fails_bad_fixture(self):
+    def test_current_wilson_morphology_requires_integrated_four_legged_hybrid(self):
         p = self.payloads()
         bad = copy.deepcopy(p)
         for d in bad[3]["domains"]:
             if d["character_id"] == "CHAR-WILSON-LOOK":
-                d["canon_guard"] = ["ARSENAL_GORILLA_WARRIOR"]
+                d["canon_guard"] = ["ARSENAL_GORILLA_CENTAUR_WARRIOR"]
         errs = mod.validate_payloads(*bad)
-        self.assertTrue(any("retired-centaur negative lock" in e for e in errs))
+        self.assertTrue(any("four-legged Arsenal gorilla-centaur identity" in e for e in errs))
+
+    def test_old_no_centaur_guard_fails_closed_not_migrated_to_current_canon(self):
+        bad = copy.deepcopy(self.payloads())
+        for d in bad[3]["domains"]:
+            if d["character_id"] == "CHAR-WILSON-LOOK":
+                d["canon_guard"].append("NO_CENTAUR_ANATOMY")
+        errs = mod.validate_payloads(*bad)
+        self.assertTrue(any("stale bipedal/no-centaur guard" in e for e in errs))
+
+    def test_world_active_wilson_guard_matches_character_primary_authority(self):
+        p = self.payloads()
+        d = next(x for x in p[3]["domains"] if x["character_id"] == "CHAR-WILSON-LOOK")
+        self.assertEqual(set(d["canon_guard"]), {
+            "ARSENAL_GORILLA_CENTAUR_WARRIOR",
+            "ONE_BODY_GORILLA_UPPER_FOUR_LEGGED_EQUINE_LOWER",
+            "ARSENAL_IDENTITY_REQUIRED",
+        })
+        canonical=(ROOT/"canon/characters/CHARACTER_REGISTRY.yaml").read_text()
+        self.assertIn("FOUR-LEGGED CENTAUR LOWER BODY",canonical)
+        self.assertIn("ONE BODY",canonical)
+
+    def test_current_wilson_world_surfaces_cannot_disagree(self):
+        root=ROOT
+        owners=mod.load_json("owner_domains.json")
+        domain=next(d for d in owners["domains"] if d["character_id"]=="CHAR-WILSON-LOOK")
+        profiles=json.loads((root/"world/data/domain_profiles.json").read_text())
+        profile=next(d for d in profiles["domains"] if d["owner_character_id"]=="CHAR-WILSON-LOOK")
+        homeland=json.loads((root/"world/location-control-plane/homelands/CHAR-WILSON-LOOK/CARD.json").read_text())
+        expected={
+            "ARSENAL_GORILLA_CENTAUR_WARRIOR",
+            "ONE_BODY_GORILLA_UPPER_FOUR_LEGGED_EQUINE_LOWER",
+            "ARSENAL_IDENTITY_REQUIRED",
+        }
+        self.assertEqual(set(domain["canon_guard"]),expected)
+        self.assertTrue(expected.issubset(set(profile["forbidden_drift"])))
+        self.assertEqual(set(homeland["canon_guard"]),expected)
+        for guards in (domain["canon_guard"],profile["forbidden_drift"],homeland["canon_guard"]):
+            self.assertNotIn("NO_CENTAUR_ANATOMY",guards)
+            self.assertNotIn("ARSENAL_GORILLA_WARRIOR",guards)
+        self.assertIn("Arsenal Gorilla Centaur Warrior",str(profile["current_state"]))
+        self.assertIn("Arsenal Gorilla Centaur Warrior",str(homeland["current_world_state"]))
 
     def test_tds_three_head_lock_fails_bad_fixture(self):
         p = self.payloads()

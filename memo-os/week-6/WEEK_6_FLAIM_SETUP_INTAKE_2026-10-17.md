@@ -4,6 +4,8 @@
 **Canonical repo:** `jakekaloper-hub/schemin-26`; existing Weekly Memo OS V5.5, World/Atlas, Character Canon, release-evidence gates.  
 **Connected source:** Flaim Fantasy → ESPN public league **1417621**, 2026 NFL fantasy Week 6, read-only calls `get_user_session`, `get_league_info`, `get_matchups` (Weeks 4–6), `get_standings` and `get_transactions` on 2026-10-17. A live chat receipt is not an independently signed publication receipt.
 
+October 17 draft-PR runtime-canon repair note (NOT promoted to main): The obsolete NO_CENTAUR_ANATOMY World Engine validator requirement and live domain/homeland guards referenced in Section E1 have been corrected to require the four-legged Arsenal Gorilla Centaur Warrior. The historical intake below is preserved as captured; publication depends on approved merge, primary-reference recovery and visual QA.
+
 ## A. Week 6 six-fixture intake
 
 **Score so far:** ESPN `currentPoints`, not `totalPoints` (which remains zero while undecided). All six have `winner=UNDECIDED`; no final winners. The projections are provider projections **at capture**, not facts or locked creative outcomes. Home/away from provider.

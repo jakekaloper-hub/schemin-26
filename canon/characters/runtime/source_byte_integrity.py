@@ -164,6 +164,79 @@ def verify_character_visual_coverage(root: Path = ROOT, registry: dict | None = 
     }
 
 
+def preflight_character_set(
+    character_ids: list[str],
+    *,
+    root: Path = ROOT,
+    renderer_route: str = "CURRENT_CHATGPT_IMAGE_RENDERER",
+) -> dict:
+    """Read-only production boundary for a set of characters in one scene.
+
+    Uses the ORIGINAL approved primary asset and existing renderer capability
+    registry. A source-only preflight never issues or fakes a generation token.
+    Actual generation remains governed by generation_eligibility and its
+    independently supplied mounted-byte and per-subject receipts.
+    """
+    from .renderer_capabilities import negotiate
+
+    canonical = load_registry(root / "canon/characters/reference_sources_v1.json")
+    entries = {e["character_id"]: e for e in canonical["entries"]}
+    if (
+        not isinstance(character_ids, list)
+        or not character_ids
+        or any(not isinstance(cid, str) for cid in character_ids)
+        or len(set(character_ids)) != len(character_ids)
+        or not set(character_ids).issubset(entries)
+    ):
+        return {
+            "state": "GENERATION_BLOCKED",
+            "reason": "CHARACTER_SET_INVALID_OR_UNRECOGNIZED",
+            "generation_eligible": False,
+        }
+
+    verified = {r["character_id"]: r for r in verify_source_bytes(root, canonical)["records"]}
+    requested = []
+    for cid in character_ids:
+        record = verified[cid]
+        entry = entries[cid]
+        requested.append({
+            "character_id": cid,
+            "approved_primary_sha256": entry["expected_sha256"],
+            "approved_primary_path": entry["repository_path"],
+            "source_state": record["state"],
+            "source_sha256": record["actual_sha256"],
+        })
+
+    missing = [r["character_id"] for r in requested if r["source_state"] == "SOURCE_BYTES_REQUIRED"]
+    corrupt = [r["character_id"] for r in requested if r["source_state"] == "GENERATION_BLOCKED"]
+    capability = json.loads((root / "canon/characters/renderer_capabilities_v1.json").read_text())
+    route_result = negotiate(renderer_route, capability["routes"], len(character_ids))
+    if corrupt:
+        reason = "APPROVED_PRIMARY_HASH_OR_SIZE_MISMATCH"
+    elif missing:
+        reason = "APPROVED_PRIMARY_BYTES_MISSING"
+    elif route_result["state"] != "CAPABILITY_VERIFIED":
+        reason = "RENDERER_CAPABILITY_OR_SUBJECT_BINDING_UNPROVEN"
+    else:
+        reason = "PER_REQUEST_MOUNT_AND_SUBJECT_RECEIPTS_REQUIRED"
+    return {
+        "state": "GENERATION_BLOCKED",
+        "reason": reason,
+        "generation_eligible": False,
+        "source_verified_count": sum(x["source_state"] == "PASS" for x in requested),
+        "source_required_count": len(missing),
+        "requested_character_ids": list(character_ids),
+        "missing_character_ids": missing,
+        "corrupt_character_ids": corrupt,
+        "route": renderer_route,
+        "route_state": route_result["state"],
+        "route_reason": route_result.get("reason"),
+        "records": requested,
+        "next_approval": "Existing governed_generate requires genuine provider attachment, mounted-byte, subject-slot and independent QA receipts. Preflight is not publication approval.",
+    }
+
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--json", action="store_true")

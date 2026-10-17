@@ -140,10 +140,16 @@ def validate_payloads(
 
     by_char = {d["character_id"]: d for d in domain_list}
     wilson = by_char.get("CHAR-WILSON-LOOK", {})
-    if "ARSENAL_GORILLA_WARRIOR" not in wilson.get("canon_guard", []):
-        errors.append("Wilson Look current gorilla lock missing")
-    if "NO_CENTAUR_ANATOMY" not in wilson.get("canon_guard", []):
-        errors.append("Wilson Look retired-centaur negative lock missing")
+    guards = set(wilson.get("canon_guard", []))
+    required_wilson_guards = {
+        "ARSENAL_GORILLA_CENTAUR_WARRIOR",
+        "ONE_BODY_GORILLA_UPPER_FOUR_LEGGED_EQUINE_LOWER",
+        "ARSENAL_IDENTITY_REQUIRED",
+    }
+    if not required_wilson_guards.issubset(guards):
+        errors.append("Wilson Look current four-legged Arsenal gorilla-centaur identity lock missing")
+    if {"NO_CENTAUR_ANATOMY", "ARSENAL_GORILLA_WARRIOR"} & guards:
+        errors.append("Wilson Look stale bipedal/no-centaur guard is forbidden in current World Engine")
 
     pitts = by_char.get("CHAR-PHILLIP-PITTS", {})
     if "ONE_BODY_THREE_SERPENT_HEADS" not in pitts.get("canon_guard", []):

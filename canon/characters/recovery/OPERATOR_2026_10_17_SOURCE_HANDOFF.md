@@ -40,3 +40,15 @@ Wilson Look's current body form is ONE Arsenal gorilla-centaur hybrid: gorilla u
 - Week 6 final character-bearing Memo art and PR merge remain HOLD pending genuine acceptance gates, including separate Netlify preview issue.
 
 No generic new image re-upload. Prioritize recovery of original PRIMARY binaries via already-authorized storage, and preserve supplementary card role and temporal limits.
+
+## Additional continuation: current World Engine canon fault repaired
+
+The active World Engine validator required NO_CENTAUR_ANATOMY for Wilson Look, contradicting October 2 canon. Existing active World surfaces repaired within the same draft PR: world/data/owner_domains.json, world/data/domain_profiles.json, world/location-control-plane/homelands/CHAR-WILSON-LOOK/CARD.json, and world/engine/validate_world.py. Current guards now explicitly require ONE integrated Arsenal gorilla-centaur with a four-legged equine lower body, Arsenal identity, and no old bipedal-only negative constraint. Historical v1.1 release exports remain historical and were not rewritten. Existing tests now include negative and cross-surface agreement checks.
+
+The existing character runtime also gains read-only preflight_character_set in source_byte_integrity.py. It checks approved primary hashes and existing renderer capabilities, blocking incomplete or duplicate character sets without using supplementary sources. Even four verified original primaries do not confer actual provider mounted-byte, generative subject-binding, or output-instance QA acceptance.
+
+### Existing-source search boundary
+
+Authorized local source roots including browser cache, archives, and 181 remote GitHub branch refs yielded no additional eight-primary original filename matches. A ZIP-member size/hash scan covered 42 ZIP files and 5,171 members with zero pending-primary source-size entries. Branch filename absence does NOT prove blob bytes could not exist under alternate filenames; no exhaustive Git object search is claimed. Eight original primary source binaries remain unresolved, and no synthetic image is treated as an original. No bulk re-upload requested.
+
+Release gate unchanged: 4/12 exact primary bytes stored, eight missing, actual image renderer subject binding unproven; C1 generated-output QA, independent Umpire T15, dependent T16 HOLD. PR remains draft/unmerged.
