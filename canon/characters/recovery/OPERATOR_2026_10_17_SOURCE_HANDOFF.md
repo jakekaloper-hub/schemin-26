@@ -52,3 +52,11 @@ The existing character runtime also gains read-only preflight_character_set in s
 Authorized local source roots including browser cache, archives, and 181 remote GitHub branch refs yielded no additional eight-primary original filename matches. A ZIP-member size/hash scan covered 42 ZIP files and 5,171 members with zero pending-primary source-size entries. Branch filename absence does NOT prove blob bytes could not exist under alternate filenames; no exhaustive Git object search is claimed. Eight original primary source binaries remain unresolved, and no synthetic image is treated as an original. No bulk re-upload requested.
 
 Release gate unchanged: 4/12 exact primary bytes stored, eight missing, actual image renderer subject binding unproven; C1 generated-output QA, independent Umpire T15, dependent T16 HOLD. PR remains draft/unmerged.
+
+## Final follow-up source audit and twelve-owner regression — 2026-10-17
+
+Additional authorized local filesystem search of Mac Developer, local Claude history, and ChatGPT/OpenAI application-support folders scanned 180,546 files with zero additional pending-primary exact source-size candidates. Existing ZIP archive audit had previously examined 42 archives / 5,171 members without original-primary size matches. Targeted archived Memo PDFs were also checked for directly recoverable unchanged JPEG/DCT streams: no matching original SHA-256s recovered. These searches are bounded, not proof of file absence; original source bytes might remain inaccessible in the ChatGPT Library or other backing stores.
+
+Active World Engine owner-domain, domain-profile and homeland canon-guard contracts were reconciled for all twelve immutable Character IDs. The cross-owner regression in world/qa/test_world_engine.py requires exact ID coverage, matching homeland guards, domain-profile guard inclusion, and rejection of the obsolete NO_CENTAUR_ANATOMY rule in every active owner guard. This is a structural domain-consistency check, not visual acceptance of generated artwork.
+
+Operational result: approved primary source recovery remains 4/12; eight originals unresolved; local source-copy diagnostic 4/4 only. No image-generation provider producing mounted-byte and deterministic subject-binding receipts has been certified. C1/T15/T16 production gates and draft PR merge remain HOLD.

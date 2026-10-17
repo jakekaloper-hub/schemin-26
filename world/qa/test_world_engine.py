@@ -116,6 +116,33 @@ class WorldEngineTests(unittest.TestCase):
         self.assertIn("Arsenal Gorilla Centaur Warrior",str(profile["current_state"]))
         self.assertIn("Arsenal Gorilla Centaur Warrior",str(homeland["current_world_state"]))
 
+    def test_all_twelve_active_owner_world_guard_sets_match_homelands_and_profiles(self):
+        import re
+        owners=mod.load_json("owner_domains.json")["domains"]
+        profiles=json.loads((ROOT/"world/data/domain_profiles.json").read_text())["domains"]
+        owner_ids={x["character_id"] for x in owners}
+        profile_by_id={x["owner_character_id"]:x for x in profiles}
+        canon=(ROOT/"canon/characters/CHARACTER_REGISTRY.yaml").read_text()
+        canon_ids=set(re.findall(r"\bid:\s*(CHAR-[A-Z-]+)",canon))
+        self.assertEqual(len(owners),12)
+        self.assertEqual(len(profiles),12)
+        self.assertEqual(owner_ids,set(profile_by_id))
+        self.assertEqual(owner_ids,canon_ids)
+        for owner in owners:
+            cid=owner["character_id"]
+            homeland=json.loads(
+                (ROOT/f"world/location-control-plane/homelands/{cid}/CARD.json").read_text()
+            )
+            guards=owner.get("canon_guard",[])
+            self.assertTrue(guards,cid)
+            self.assertEqual(len(guards),len(set(guards)),cid)
+            self.assertEqual(set(guards),set(homeland["canon_guard"]),cid)
+            self.assertTrue(set(guards).issubset(
+                set(profile_by_id[cid]["forbidden_drift"])
+            ),cid)
+            self.assertNotIn("NO_CENTAUR_ANATOMY",guards,cid)
+            self.assertEqual(homeland["character_id"],cid)
+
     def test_tds_three_head_lock_fails_bad_fixture(self):
         p = self.payloads()
         bad = copy.deepcopy(p)
