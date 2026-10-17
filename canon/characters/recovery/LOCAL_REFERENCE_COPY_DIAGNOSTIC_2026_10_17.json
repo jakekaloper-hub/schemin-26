@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "route": "LOCAL_DETERMINISTIC_REFERENCE_COPY_DIAGNOSTIC_ONLY",
+  "production_renderer": false,
+  "approval_scope": "PROVES_SOURCED_SOURCE_RASTER_TRANSPORT_NOT_GENERATIVE_CHARACTER_PRESERVATION",
+  "total_characters": 12,
+  "tested_primary_count": 4,
+  "unavailable_primary_count": 8,
+  "renderer_subject_binding_proven": false,
+  "c1_generated_raster_qa_passed": false,
+  "t15": "HOLD",
+  "t16": "HOLD",
+  "outputs": [
+    {
+      "character_id": "CHAR-MANNING-WELTY",
+      "input_repository_path": "canon/characters/assets/CHAR-MANNING-WELTY/primary/2FA6D29A-5E4C-4CA1-9790-88BE5E75F14E.jpeg",
+      "input_sha256": "5e43eadf7ea6426ea8ba2c3af80c108714638625db5adc9d5a32492ff84fc965",
+      "input_size_bytes": 520546,
+      "output_repository_path": "canon/characters/evidence/LOCAL_REFERENCE_COPY_DIAGNOSTIC_2026_10_17/CHAR-MANNING-WELTY.png",
+      "output_sha256": "55403333d88e65323f1a9a8d49331fa0f2842d28d6ff556b6309964bcb9d273f",
+      "output_size_bytes": 2109042,
+      "subject_slot": "DIAGNOSTIC_SOURCE_COPY_SLOT_CHAR-MANNING-WELTY",
+      "source_hash_checked_before_copy": true,
+      "repeat_conversion_byte_identical": true,
+      "provider_image_generation_binding_proven": false,
+      "c1_generated_character_output_pass": false
+    },
+    {
+      "character_id": "CHAR-BRANDON-PRYOR",
+      "input_repository_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/primary/76344FB3-1974-48D0-AA90-8B231E6008F7.jpeg",
+      "input_sha256": "0bb99794f3a0b9fa1a7f791e17e6885fffcca4b79c824057623bab5c74598cfe",
+      "input_size_bytes": 767855,
+      "output_repository_path": "canon/characters/evidence/LOCAL_REFERENCE_COPY_DIAGNOSTIC_2026_10_17/CHAR-BRANDON-PRYOR.png",
+      "output_sha256": "48028d4437ac0b4d469dde4d24a738bffa9312385cdab189287ff917b2411b24",
+      "output_size_bytes": 2881979,
+      "subject_slot": "DIAGNOSTIC_SOURCE_COPY_SLOT_CHAR-BRANDON-PRYOR",
+      "source_hash_checked_before_copy": true,
+      "repeat_conversion_byte_identical": true,
+      "provider_image_generation_binding_proven": false,
+      "c1_generated_character_output_pass": false
+    },
+    {
+      "character_id": "CHAR-PHILLIP-PITTS",
+      "input_repository_path": "canon/characters/assets/CHAR-PHILLIP-PITTS/primary/IMG_2178.jpeg",
+      "input_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+      "input_size_bytes": 200005,
+      "output_repository_path": "canon/characters/evidence/LOCAL_REFERENCE_COPY_DIAGNOSTIC_2026_10_17/CHAR-PHILLIP-PITTS.png",
+      "output_sha256": "82a54e61668aa63779aeeff14f1e301c34d802ced587c364914881c8df754ed9",
+      "output_size_bytes": 1388471,
+      "subject_slot": "DIAGNOSTIC_SOURCE_COPY_SLOT_CHAR-PHILLIP-PITTS",
+      "source_hash_checked_before_copy": true,
+      "repeat_conversion_byte_identical": true,
+      "provider_image_generation_binding_proven": false,
+      "c1_generated_character_output_pass": false
+    },
+    {
+      "character_id": "CHAR-AUSTIN-BYARS",
+      "input_repository_path": "canon/characters/assets/CHAR-AUSTIN-BYARS/primary/IMG_2179.jpeg",
+      "input_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
+      "input_size_bytes": 238145,
+      "output_repository_path": "canon/characters/evidence/LOCAL_REFERENCE_COPY_DIAGNOSTIC_2026_10_17/CHAR-AUSTIN-BYARS.png",
+      "output_sha256": "be6cd60eacab6d5bcd9339a9f595a76fc5d9524f90324caa714c9bbabdd5a5fd",
+      "output_size_bytes": 1602043,
+      "subject_slot": "DIAGNOSTIC_SOURCE_COPY_SLOT_CHAR-AUSTIN-BYARS",
+      "source_hash_checked_before_copy": true,
+      "repeat_conversion_byte_identical": true,
+      "provider_image_generation_binding_proven": false,
+      "c1_generated_character_output_pass": false
+    }
+  ],
+  "missing": [
+    {
+      "character_id": "CHAR-BOBBY-MITCHELL",
+      "reason": "EXACT_PRIMARY_BYTES_NOT_STORED"
+    },
+    {
+      "character_id": "CHAR-BEN-WHIPPLE",
+      "reason": "EXACT_PRIMARY_BYTES_NOT_STORED"
+    },
+    {
+      "character_id": "CHAR-KEVIN-ZEEK",
+      "reason": "EXACT_PRIMARY_BYTES_NOT_STORED"
+    },
+    {
+      "character_id": "CHAR-DAVID-BABB",
+      "reason": "EXACT_PRIMARY_BYTES_NOT_STORED"
+    },
+    {
+      "character_id": "CHAR-ZACH-WILSON",
+      "reason": "EXACT_PRIMARY_BYTES_NOT_STORED"
+    },
+    {
+      "character_id": "CHAR-JAKE-KALOPER",
+      "reason": "EXACT_PRIMARY_BYTES_NOT_STORED"
+    },
+    {
+      "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "reason": "EXACT_PRIMARY_BYTES_NOT_STORED"
+    },
+    {
+      "character_id": "CHAR-WILSON-LOOK",
+      "reason": "EXACT_PRIMARY_BYTES_NOT_STORED"
+    }
+  ]
+}
