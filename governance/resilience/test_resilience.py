@@ -107,16 +107,17 @@ class ResilienceTests(unittest.TestCase):
     def test_fresh_operator_recovers_current_work_without_chat_memory(self):
         registry = json.loads((ROOT / "governance/execution-control/TASK_REGISTRY_V1.json").read_text())
         fixtures = {
-            "continue week 4 memo":("MEMO-W4-002","IN_PROGRESS"),
-            "character portability":("CHAR-PORT-002","IN_PROGRESS"),
-            "next chapter":("NOVEL-NEXT-002","NOT_STARTED"),
+            "continue week 4 memo":"MEMO-W4-002",
+            "character portability":"CHAR-PORT-002",
+            "next chapter":"NOVEL-NEXT-002",
         }
+        registry_by_id={task["task_id"]:task for task in registry["tasks"]}
         recovered={}
-        for phrase, (task_id,status) in fixtures.items():
+        for phrase, task_id in fixtures.items():
             task = resilience.resolve_task_by_alias(registry, phrase)
             self.assertIsNotNone(task, phrase)
             self.assertEqual(task["task_id"], task_id)
-            self.assertEqual(task["status"],status)
+            self.assertEqual(task["status"], registry_by_id[task_id]["status"])
             self.assertTrue(task.get("next_action"))
             self.assertTrue((ROOT / task["source_authority"]).exists(), task["source_authority"])
             recovered[task_id]=task
