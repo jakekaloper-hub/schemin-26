@@ -68,6 +68,23 @@ Evidence examples: TDS claimed Courtland Sutton for FAAB $7 on Oct 15; Red Leopa
 
 Each pairing starts in the established **home team's** environment per World Engine V1.1. A neutral GOTW or special venue is **unselected** until explicitly approved. Every proposed scene must resolve real Atlas venue ID, approved away travel path, persistent state, twelve-owner reference packet and historical chronology before scene lock. The above dramatic premises are suggested editorial framings, not claims about what characters actually did.
 
+## E1. Preliminary World Engine / Atlas host and route reconciliation
+
+**Read-only source:** `world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md`, `world/data/owner_domains.json`, `world/data/locations.json`, `world/data/routes.json`, `world/data/current_world_state.json` (on main, 2026-10-17).
+
+The following default home anchors come from the **existing twelve-owner location registry**, not new inventions. Preliminary route chains were found by undirected adjacency traversal across existing route endpoints and `via_location_ids`; this establishes **abstract graph connectivity only**. It is **not** a certified directed itinerary, passable route, chosen travel mode or current-week route-state approval.
+
+| Home host / away visitor | Existing home location ID | Preliminary away-origin → host route ID chain |
+|---|---|---|
+| Red Leopards / D0nkey K0ng | `LOC-RED-RUINS` | `ROUTE-DK-HIGHLAND-LINK → ROUTE-HEARTHROAD → ROUTE-RAIN-ESCARPMENT` |
+| Dr. Duckhook / El Niño | `LOC-COUNTRY-CLUB-JACKSON` | `ROUTE-STORM-COAST → ROUTE-PORT-BASIN-CONNECTOR → ROUTE-BASIN-MARKET → ROUTE-DELTA-CAUSEWAY` |
+| Slob on my Dobb / ObiWan Jacoby | `LOC-SLOB-FOOTHILL-CAMP` | `ROUTE-EASTERN-ASCENT → ROUTE-HEARTHROAD` |
+| Chili Cheesers / Seven Deadly Chins | `LOC-CHILI-STABLE` | `ROUTE-WESTERN-RANGE` |
+| Mud Dogs / His Majesty's Blood | `LOC-MUD-DOGS-SWAMP` | `ROUTE-BLACK-CLIFF → ROUTE-EASTERN-ASCENT → ROUTE-UPPER-BASIN-CONNECTOR → ROUTE-BASIN-MARKET → ROUTE-DELTA-CAUSEWAY` |
+| Three Dreaded Snake / The LLC | `LOC-TDS-WATERFALL-TEMPLE` | `ROUTE-INNER-SEA-QUAY → ROUTE-PORT-BASIN-CONNECTOR → ROUTE-BASIN-MARKET → ROUTE-DELTA-CAUSEWAY → ROUTE-FALLS-PATH` |
+
+**Atlas approval gaps:** Validate connectivity against owning resolver's actual direction, transport capabilities, closures and evolving World State before publishing these as literal journeys. `current_world_state.json` is only stamped **end of Week 3**, not verified current for Week 6. The Country Club's Week 3 contamination/cleanup is unresolved; LLC's boardroom destruction/repair also remains under-specified. Do not depict either pristine or fully restored by default. The current `owner_domains.json` contains DK's stale `NO_CENTAUR_ANATOMY` guard, conflicting with the latest explicit four-legged Arsenal Gorilla Centaur canon; **character authority outranks the stale guard** and any scene involving DK must fail closed until the owning World records reconcile this inconsistency. A Game-of-the-Week designation could require an approved neutral site instead; no GOTW was selected in this intake.
+
 ## F. Week 6 production gates and known blockers
 
 - **Facts / Scout:** six fixtures and current context retrieved; re-read results and standings at the actual weekly Fact Lock. No winners, point differentials, division crowns or implied playoff clinches from projections.
