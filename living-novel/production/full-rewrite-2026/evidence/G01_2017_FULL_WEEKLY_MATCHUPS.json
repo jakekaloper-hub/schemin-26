@@ -902,7 +902,9 @@
           "ap": 80.42,
           "winner": "HOME",
           "tier": "WINNERS_BRACKET",
-          "period": 16
+          "period": 16,
+          "home_id": 12,
+          "away_id": 7
         },
         {
           "home": "I'M HERE SO I WON'T GET FINED",
@@ -955,5 +957,6 @@
       "week": 17,
       "matchups": []
     }
-  ]
+  ],
+  "correction_note": "Week16 owner-independent historical team IDs retrieved separately from live Flaim in regression repair; historical owner identity remains unknown."
 }
