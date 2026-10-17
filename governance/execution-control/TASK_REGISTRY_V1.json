@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "authority": "PROJECT_CONTROL_REGISTRY.md + domain source authorities",
-  "generated_at": "2026-10-01",
+  "generated_at": "2026-10-17T18:00:00Z",
   "tasks": [
     {
       "task_id": "CHAR-PORT-001",
@@ -61,9 +61,9 @@
       "owner": "the_architect",
       "reviewer": "the_librarian",
       "priority": "P0",
-      "status": "READY",
+      "status": "IN_PROGRESS",
       "created_at": "2026-10-01",
-      "started_at": null,
+      "started_at": "2026-10-17T18:00:00Z",
       "completed_at": null,
       "dependencies": [
         "CHAR-PORT-001"
@@ -76,9 +76,16 @@
         "Durable locators exist for all approved current references",
         "Fresh SHA/blob receipts bind each locator to Character ID"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "type": "github_library_readback",
+          "ref": "canon/characters/CHAR_PORT_002_RECOVERY_READBACK_2026-10-17.md",
+          "status": "PARTIAL",
+          "note": "2/12 canonical primary paths observed on main; 10 404; original Library raw-byte export unavailable; no fresh twelve-source SHA-256 or mount proof."
+        }
+      ],
       "source_authority": "bullpen/LIBRARIAN_THREAD_CLOSEOUT_CHARACTER_PORTABILITY_2026-10-01.md",
-      "next_action": "Resume from the already-materialized approved bytes and persist durable locators/hash receipts; do not ask for bulk re-upload.",
+      "next_action": "Continue recovery of ten previously supplied canonical binaries through authorized existing source-byte routes. Rehash all 12 and persist Git locator/hash receipts; then prove clean-context retrieval and render subject binding. Never ask for generic bulk reupload.",
       "aliases": [
         "character portability",
         "durable asset ingestion",
@@ -255,9 +262,9 @@
       "owner": "the_scout",
       "reviewer": "the_umpire",
       "priority": "P0",
-      "status": "WAITING_EXTERNAL",
+      "status": "IN_PROGRESS",
       "created_at": "2026-10-01",
-      "started_at": null,
+      "started_at": "2026-10-17T18:00:00Z",
       "completed_at": null,
       "dependencies": [
         "MEMO-W4-001"
@@ -278,10 +285,16 @@
           "ref": "memo-os/week-4/WEEK_4_LIVING_STORY_ROOM_PROMOTION_RECEIPT_2026-10-01.md",
           "status": "PENDING",
           "note": "Receipt records all six matchups undecided at current capture."
+        },
+        {
+          "type": "flaim_espn_week4_outcome_readback",
+          "ref": "governance/execution-control/FLA_ORIENTOR_NEXT_RECONCILIATION_2026-10-17.md",
+          "status": "PARTIAL",
+          "note": "Six Week 4 matchups decided on 2026-10-17 provider read; post-Week-4 standings and material transaction/injury Fact Lock still unresolved. Not a Memo release receipt."
         }
       ],
       "source_authority": "memo-os/week-4/WEEK_4_FACT_SCOPE_AND_EVIDENCE_REGISTER_V1.md",
-      "next_action": "Refresh Flaim/ESPN evidence after games finalize; projections cannot close this task.",
+      "next_action": "Verify Week 4 post-week records and material roster/transaction/injury evidence against existing Fact Scope, then run Scout/Umpire Fact Lock; do not retroactively publish from results alone.",
       "aliases": [
         "continue week 4 memo",
         "week 4 final evidence",
@@ -855,7 +868,72 @@
       ],
       "supersedes": [],
       "superseded_by": null
+    },
+    {
+      "task_id": "MEMO-W6-001",
+      "title": "Week 6 live facts and six-fixture setup preproduction",
+      "project": "Schemin '26",
+      "program": "Weekly Memo",
+      "roadmap": "Week 6 Memo Production",
+      "phase": "Preproduction / Live Setup",
+      "milestone": "Six fixtures grounded, conditional packets before result-lock",
+      "workstream": "League Truth + Memo Story Room",
+      "owner": "the_groundskeeper",
+      "reviewer": "the_umpire",
+      "priority": "P1",
+      "status": "IN_PROGRESS",
+      "created_at": "2026-10-17",
+      "started_at": "2026-10-17T18:00:00Z",
+      "completed_at": null,
+      "dependencies": [],
+      "blocked_by": [],
+      "blocks": [],
+      "acceptance_criteria": [
+        "Six verified Week 6 host/away fixtures and pre-Week-6 standings identified with connected ESPN data and freshness boundaries",
+        "Every matchup has only conditional setup hypotheses until final results and World/Atlas venue/route proof",
+        "No character-bearing production bypasses active raw-byte, subject-binding and final-raster character QA gates",
+        "Before release, actual Week 6 final scores, complete page set, deterministic typography, true PDF bytes and independent review must pass owning Memo gates"
+      ],
+      "evidence": [
+        {
+          "type": "flaim_espn_week6_intake",
+          "ref": "memo-os/week-6/WEEK_6_FLAIM_SETUP_INTAKE_2026-10-17.md",
+          "status": "PARTIAL",
+          "note": "Connected league and six fixtures plus Week 5 completed results, standings, and limited transaction rows observed. Six Week 6 winners still UNDECIDED; no art or production release."
+        }
+      ],
+      "source_authority": "memo-os/week-6/WEEK_6_FLAIM_SETUP_INTAKE_2026-10-17.md",
+      "next_action": "Resolve six canonical home-venue/route packets and distinct conditional story briefs, then refresh FLAIM as Week 6 games finish. Await CHAR-PORT-002 and dependent renderer/QA gates for character-bearing final art.",
+      "aliases": [
+        "week 6",
+        "week six memo",
+        "week 6 preproduction"
+      ],
+      "supersedes": [],
+      "superseded_by": null
     }
   ],
-  "history": []
+  "history": [
+    {
+      "task_id": "CHAR-PORT-002",
+      "from": "READY",
+      "to": "IN_PROGRESS",
+      "at": "2026-10-17T18:00:00Z",
+      "evidence_ref": "canon/characters/CHAR_PORT_002_RECOVERY_READBACK_2026-10-17.md"
+    },
+    {
+      "task_id": "MEMO-W4-002",
+      "from": "WAITING_EXTERNAL",
+      "to": "IN_PROGRESS",
+      "at": "2026-10-17T18:00:00Z",
+      "evidence_ref": "governance/execution-control/FLA_ORIENTOR_NEXT_RECONCILIATION_2026-10-17.md"
+    },
+    {
+      "task_id": "MEMO-W6-001",
+      "from": null,
+      "to": "IN_PROGRESS",
+      "at": "2026-10-17T18:00:00Z",
+      "evidence_ref": "memo-os/week-6/WEEK_6_FLAIM_SETUP_INTAKE_2026-10-17.md"
+    }
+  ]
 }
