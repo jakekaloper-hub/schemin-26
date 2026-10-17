@@ -6,7 +6,7 @@
   "verified_at": "2026-10-17",
   "verification": "Fresh SHA-256 calculated locally from each of the 12 original ZIP image byte streams against embedded upload receipt on authorized Mac",
   "authority_boundary": "Exact recovered bytes are verified; the ten PNGs do not match the earlier active Sep29 JPEG hashes and must NOT be silently declared the old file, overwrite existing active file locators, or pass visual/renderer QA automatically.",
-  "status": "RAW_12_OF_12_RECOVERED_LOCAL; GITHUB_BINARY_INGEST_PENDING",
+  "status": "RAW_12_OF_12_RECOVERED; GITHUB_12_OF_12_CANDIDATE_BINARIES_PERSISTED; RENDERER_HOLD",
   "assets": [
     {
       "character_id": "CHAR-WILSON-LOOK",
@@ -16,7 +16,7 @@
       "prior_active_sha256": "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10",
       "prior_active_repo_path": "canon/characters/assets/CHAR-WILSON-LOOK/primary/IMG_7866(1).jpeg",
       "hash_relation_to_prior": "DIFFERENT_VERSION_REQUIRES_CANON_RECONCILIATION",
-      "ingest_state": "LOCAL_VERIFIED_PENDING_GITHUB_STORAGE"
+      "ingest_state": "GITHUB_CANDIDATE_STORED_PENDING_VISUAL_SUPERSESSION"
     },
     {
       "character_id": "CHAR-MANNING-WELTY",
@@ -26,7 +26,7 @@
       "prior_active_sha256": "5e43eadf7ea6426ea8ba2c3af80c108714638625db5adc9d5a32492ff84fc965",
       "prior_active_repo_path": "canon/characters/assets/CHAR-MANNING-WELTY/primary/2FA6D29A-5E4C-4CA1-9790-88BE5E75F14E.jpeg",
       "hash_relation_to_prior": "DIFFERENT_VERSION_REQUIRES_CANON_RECONCILIATION",
-      "ingest_state": "LOCAL_VERIFIED_PENDING_GITHUB_STORAGE"
+      "ingest_state": "GITHUB_CANDIDATE_STORED_PENDING_VISUAL_SUPERSESSION"
     },
     {
       "character_id": "CHAR-KEVIN-ZEEK",
@@ -36,7 +36,7 @@
       "prior_active_sha256": "df597e71aed77ddf510fd81f3fcd4ee812ac22b8f8e129e276dc5edfbd9dddc1",
       "prior_active_repo_path": "canon/characters/assets/CHAR-KEVIN-ZEEK/primary/4369C44E-C5C8-46E9-B99F-04A97CEBEC13.jpeg",
       "hash_relation_to_prior": "DIFFERENT_VERSION_REQUIRES_CANON_RECONCILIATION",
-      "ingest_state": "LOCAL_VERIFIED_PENDING_GITHUB_STORAGE"
+      "ingest_state": "GITHUB_CANDIDATE_STORED_PENDING_VISUAL_SUPERSESSION"
     },
     {
       "character_id": "CHAR-BOBBY-MITCHELL",
@@ -46,7 +46,7 @@
       "prior_active_sha256": "4ad8693d7f155f2ee99722f87eb74ea99490eebdfe0b30ca2f17f05004e7cf12",
       "prior_active_repo_path": "canon/characters/assets/CHAR-BOBBY-MITCHELL/primary/17E68E6F-7825-460F-A612-734BE1E2A543.jpeg",
       "hash_relation_to_prior": "DIFFERENT_VERSION_REQUIRES_CANON_RECONCILIATION",
-      "ingest_state": "LOCAL_VERIFIED_PENDING_GITHUB_STORAGE"
+      "ingest_state": "GITHUB_CANDIDATE_STORED_PENDING_VISUAL_SUPERSESSION"
     },
     {
       "character_id": "CHAR-AUSTIN-BYARS",
@@ -56,7 +56,7 @@
       "prior_active_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
       "prior_active_repo_path": "canon/characters/assets/CHAR-AUSTIN-BYARS/primary/IMG_2179.jpeg",
       "hash_relation_to_prior": "EXACT_MATCH",
-      "ingest_state": "LOCAL_VERIFIED_PENDING_GITHUB_STORAGE"
+      "ingest_state": "GITHUB_STORED_EXACT_PRIOR_HASH"
     },
     {
       "character_id": "CHAR-PHILLIP-PITTS",
@@ -66,7 +66,7 @@
       "prior_active_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
       "prior_active_repo_path": "canon/characters/assets/CHAR-PHILLIP-PITTS/primary/IMG_2178.jpeg",
       "hash_relation_to_prior": "EXACT_MATCH",
-      "ingest_state": "LOCAL_VERIFIED_PENDING_GITHUB_STORAGE"
+      "ingest_state": "GITHUB_STORED_EXACT_PRIOR_HASH"
     },
     {
       "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
@@ -76,7 +76,7 @@
       "prior_active_sha256": "c052e8c74939338517f1b14bbca5f2ea3d57146794f675d065698a44fb1064e8",
       "prior_active_repo_path": "canon/characters/assets/CHAR-JORDAN-HOLLINGSHEAD/primary/0435E914-64B3-4350-8A41-758173DDC98D.jpeg",
       "hash_relation_to_prior": "DIFFERENT_VERSION_REQUIRES_CANON_RECONCILIATION",
-      "ingest_state": "LOCAL_VERIFIED_PENDING_GITHUB_STORAGE"
+      "ingest_state": "GITHUB_CANDIDATE_STORED_PENDING_VISUAL_SUPERSESSION"
     },
     {
       "character_id": "CHAR-BRANDON-PRYOR",
@@ -86,7 +86,7 @@
       "prior_active_sha256": "0bb99794f3a0b9fa1a7f791e17e6885fffcca4b79c824057623bab5c74598cfe",
       "prior_active_repo_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/primary/76344FB3-1974-48D0-AA90-8B231E6008F7.jpeg",
       "hash_relation_to_prior": "DIFFERENT_VERSION_REQUIRES_CANON_RECONCILIATION",
-      "ingest_state": "LOCAL_VERIFIED_PENDING_GITHUB_STORAGE"
+      "ingest_state": "GITHUB_CANDIDATE_STORED_PENDING_VISUAL_SUPERSESSION"
     },
     {
       "character_id": "CHAR-JAKE-KALOPER",
@@ -96,7 +96,7 @@
       "prior_active_sha256": "e9b6690899566864fc9d56b3bc9dbce0e1eb43a2901d23c0949170be4da91e58",
       "prior_active_repo_path": "canon/characters/assets/CHAR-JAKE-KALOPER/primary/73B4BF07-22E9-44CA-BCBB-882612DFA9C1.jpeg",
       "hash_relation_to_prior": "DIFFERENT_VERSION_REQUIRES_CANON_RECONCILIATION",
-      "ingest_state": "LOCAL_VERIFIED_PENDING_GITHUB_STORAGE"
+      "ingest_state": "GITHUB_CANDIDATE_STORED_PENDING_VISUAL_SUPERSESSION"
     },
     {
       "character_id": "CHAR-ZACH-WILSON",
@@ -106,7 +106,7 @@
       "prior_active_sha256": "c8124a1f1146c0acc65b5e82d1c21289afd6a74a8ac2046895e39794619dcefb",
       "prior_active_repo_path": "canon/characters/assets/CHAR-ZACH-WILSON/primary/5B8C182F-FEBF-40A3-8DDA-1B4B62386B10.jpeg",
       "hash_relation_to_prior": "DIFFERENT_VERSION_REQUIRES_CANON_RECONCILIATION",
-      "ingest_state": "LOCAL_VERIFIED_PENDING_GITHUB_STORAGE"
+      "ingest_state": "GITHUB_CANDIDATE_STORED_PENDING_VISUAL_SUPERSESSION"
     },
     {
       "character_id": "CHAR-BEN-WHIPPLE",
@@ -116,7 +116,7 @@
       "prior_active_sha256": "c4401f79783637c9e3974f02de20ba5aeb1209e7ed4e0f5620e2bfcce3b270cf",
       "prior_active_repo_path": "canon/characters/assets/CHAR-BEN-WHIPPLE/primary/88B8E56B-8320-4524-8425-134FFAE8FBF5.jpeg",
       "hash_relation_to_prior": "DIFFERENT_VERSION_REQUIRES_CANON_RECONCILIATION",
-      "ingest_state": "LOCAL_VERIFIED_PENDING_GITHUB_STORAGE"
+      "ingest_state": "GITHUB_CANDIDATE_STORED_PENDING_VISUAL_SUPERSESSION"
     },
     {
       "character_id": "CHAR-DAVID-BABB",
@@ -126,7 +126,8 @@
       "prior_active_sha256": "ce3137d1472d63deb7a026d114d200f338d2461d3d223647f34b473794e1f85b",
       "prior_active_repo_path": "canon/characters/assets/CHAR-DAVID-BABB/primary/A6F3AA99-CDB1-4265-AB08-3728117089A3.jpeg",
       "hash_relation_to_prior": "DIFFERENT_VERSION_REQUIRES_CANON_RECONCILIATION",
-      "ingest_state": "LOCAL_VERIFIED_PENDING_GITHUB_STORAGE"
+      "ingest_state": "GITHUB_CANDIDATE_STORED_PENDING_VISUAL_SUPERSESSION"
     }
-  ]
+  ],
+  "github_candidate_readback_receipt": "canon/characters/recovery/GITHUB_REMOTE_ASSET_READBACK_2026_10_17.json"
 }

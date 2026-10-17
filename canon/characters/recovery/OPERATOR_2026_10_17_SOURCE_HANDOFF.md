@@ -1,53 +1,29 @@
-# Bullpen CHAR-PORT-002 — recovered source-byte deployment handoff
+# Bullpen CHAR-PORT-002 — recovered character source bytes
 
-**State: LOCAL 12/12 SOURCE-IDENTITY PASS; GITHUB 12/12 PRIMARY STORAGE NOT YET VERIFIED; RENDERER STILL HOLD.**  
-**Authority:** Existing Schemin Character Canon, Bullpen #133, draft PR #195. This is not a new OS, identity redesign or request for photographs.
+**State: GitHub 12/12 CANDIDATE BINARIES PERSISTED AND FRESH-CLONE VERIFIED; renderer subject binding and visual supersession remain HOLD.**
+**Authority:** Existing Schemin Character Canon; Bullpen #133; draft Schemin PR #195. No new OS, identity redesign, or new photograph request.
 
-## Discovery and evidence
+## Completed recovery — October 17, 2026
 
-On 2026-10-17, authorized Desktop Commander access to the connected Mac found the existing `~/Downloads/schemin26_12_character_reference_packet_20261012.zip`. It contained **twelve image binaries, one per canonical Character ID**, and `CHARACTER_UPLOAD_RECEIPTS.json`.
+Authorized Desktop Commander access to the existing Mac found the October 12 twelve-character image archive. All twelve images matched the original ZIP upload receipts by SHA-256 and exact byte count.
 
-Fresh streaming SHA-256 from the ZIP matched the embedded uploaded-byte receipts for **12/12**, byte counts for **12/12**. The ZIP itself had SHA-256 `e132398eeb422fb859a756ccd2c461c4287c34960cb42c561654c7a2c4f2130a`.
+An isolated Git worktree was created without touching the user's existing checkout and its unrelated uncommitted work. The existing tested importer staged exactly twelve character-specific images at distinct candidate paths under canon/characters/assets/<Character-ID>/primary/COMMISSIONER_2026-10-12.*.
 
-An isolated recovery folder on the Mac holds all 12 extracted binaries, the same pinned source lock and the exact importer used in this PR. The importer was actually executed against the recovered ZIP in both verification and local-stage modes and passed 12/12, with fresh local readback. The immutable hash/Git-blob receipts are in `COMMISSIONER_2026_10_12_INGEST_RECEIPT.json`.
+**Pushed actual images:** commit 6f99bcdc87a2074efe508fe371b425c59307a148 on existing review branch bullpen/next-2026-10-17-char-w6-reconcile. Binary files total **28,780,381 bytes**. A separate fresh, isolated GitHub shallow/sparse clone retrieved all twelve images; each independently passed SHA-256, Git blob SHA-1, and byte-count checks.
 
-**Authority exception:** Austin Byars and Phillip Pitts are byte-identical to previously registered Sept 29 primary images. The other **ten October 12 Commissioner-supplied PNG references have distinct SHA-256s** from the Sept 29 approved JPEGs. They are genuine Oct 12 *source images*, but an exact-byte check cannot by itself assert that they are the same old binary or that the old visual-source registry has been superseded. Keep temporal/version provenance, do not silently overwrite the prior manifest.
+Machine-readable proof: GITHUB_REMOTE_ASSET_READBACK_2026_10_17.json. Distinguish this remote readback from the earlier Commissioner ingest receipt, which intentionally records local staging before pushing.
 
-## Why the direct push is not yet green
+## Version authority
 
-The authorized ChatGPT Library file handles were readable as metadata but denied raw-byte export. On the connected Mac the recovered 12 originals were readable; attempted direct cross-tool binary transmission into GitHub was disallowed by the connection safety boundary. Therefore this PR contains executable importer and authentic **text-only hash receipt**, not the JPEG/PNG binary payloads. Do not equate the receipt to a GitHub-stored binary.
+Two images (Austin Byars and Phillip Pitts) match previously approved September 29 SHA-256s. Ten newer October 12 PNGs differ from September 29 approved JPEGs. These source versions are recovered and stored, but **have NOT silently superseded** existing approved primary references. The active reference_sources_v1.json and twelve owner manifests remain unchanged.
 
-## Repository-native import from the existing Mac archive
+The ten candidates require owner-specific visual-version reconciliation. An exact match against the October 12 upload receipt authenticates bytes, not approval as latest image canon.
 
-Use an isolated Git worktree; do **not** change the user's existing checkout, which already contains unrelated uncommitted work. The following is an operator runbook, not an instruction that has already executed:
+## Separate production gates — not waived
 
-```bash
-set -euo pipefail
-PROJECT="$HOME/Desktop/AI Project/schemin-26"
-BRANCH="bullpen/next-2026-10-17-char-w6-reconcile"
-WORKTREE="$HOME/Projects/schemin-character-upload-worktree-20261017"
-ARCHIVE="$HOME/Downloads/schemin26_12_character_reference_packet_20261012.zip"
+1. Compare ten candidates to current owner manifests; explicitly reconcile identity and version before supersession. No cross-owner reuse.
+2. Verify actual reference mount, byte receipt, character-specific subject-slot binding and output evidence. The current renderer capabilities registry reports NO_PRODUCTION_ROUTE_PROVEN.
+3. Complete twelve independent C1 character crop reviews and multi-character contamination tests. Require genuine independent Umpire T15 and dependent T16 acceptance.
+4. Keep PR draft/unmerged while acceptance or required Netlify checks remain unresolved. Week 6 character-bearing final Memo art remains HOLD.
 
-git -C "$PROJECT" fetch origin "$BRANCH"
-git -C "$PROJECT" worktree add -b character-bytes-20261017 "$WORKTREE" "origin/$BRANCH"
-
-python3 "$WORKTREE/canon/characters/recovery/ingest_commissioner_packet.py" \
-  --archive "$ARCHIVE" --root "$WORKTREE" --stage
-
-git -C "$WORKTREE" add canon/characters/assets canon/characters/recovery/COMMISSIONER_2026_10_12_INGEST_RECEIPT.json
-git -C "$WORKTREE" diff --cached --stat
-git -C "$WORKTREE" commit -m "fix(canon): persist 12 verified Commissioner reference binaries"
-git -C "$WORKTREE" push origin "HEAD:refs/heads/$BRANCH"
-```
-
-**If the branch has advanced since fetch, STOP rather than force-push**; refresh/rebase before any retry. Require authenticated GitHub write access. No private credential contents, signed URLs or new photo uploads should appear in logs.
-
-## Full acceptance gates after binary push
-
-1. GitHub main/PR new commit readback: 12 exact uploaded-byte paths, Git blob IDs matching receipt, sizes, hashes (actual binaries).
-2. Ten divergent October 12 visual-source versions reconciled against the existing 12-owner manifest/Commissioner visual locks with explicit version or supersession decisions. No wrong-character active mapping.
-3. Machine/renderer fresh-context retrieval. Subject-slot identity binding evidence, not just image presence.
-4. C1 12 independent character subject/crop comparison proof; then multicharacter contamination testing, actual independent Umpire T15, dependent T16.
-5. Memo Week 6 only generates character-bearing final art after proven reference identity and output QA.
-
-**Do not ask the Commissioner to resupply any of the twelve.** The bytes are already accessible through the recovered ZIP.
+**No new twelve-image upload is necessary.** The remaining blockers are visual-version authority and provable rendering/QA, not source binary recovery.
