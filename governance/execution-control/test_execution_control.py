@@ -20,15 +20,23 @@ class ExecutionControlTests(unittest.TestCase):
     def test_character_portability_resolves_existing_work(self):
         hit=ec.resolve("Where are we with character portability?",self.data)
         self.assertEqual(hit["task_id"],"CHAR-PORT-002")
-        self.assertEqual(hit["status"],"READY")
+        self.assertEqual(hit["status"],"IN_PROGRESS")
         self.assertEqual(self.index["CHAR-PORT-001"]["status"],"COMPLETE")
         self.assertTrue(self.index["CHAR-PORT-001"]["evidence"])
 
     def test_week4_resume_finds_live_evidence_gate_not_new_plan(self):
         hit=ec.resolve("Continue Week 4 Memo.",self.data)
         self.assertEqual(hit["task_id"],"MEMO-W4-002")
-        self.assertEqual(hit["status"],"WAITING_EXTERNAL")
+        self.assertEqual(hit["status"],"IN_PROGRESS")
         self.assertIn("MEMO-W4-002",self.index["MEMO-W4-003"]["dependencies"])
+
+    def test_week6_preproduction_is_active_and_not_released(self):
+        task=self.index["MEMO-W6-001"]
+        self.assertEqual(task["status"],"IN_PROGRESS")
+        self.assertEqual(task["priority"],"P1")
+        self.assertTrue(any(e.get("status")=="PARTIAL" for e in task["evidence"]))
+        self.assertIn("week-6/",task["source_authority"])
+        self.assertNotEqual(task["status"],"COMPLETE")
 
     def test_novel_distinguishes_closed_canon_from_future_work(self):
         self.assertEqual(self.index["NOVEL-NEXT-001"]["status"],"COMPLETE")
