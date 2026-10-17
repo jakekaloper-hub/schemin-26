@@ -46,5 +46,5 @@ def validate_extract(doc: dict) -> dict:
                                    "Singleton records are not H2H wins or losses"]}
 
 if __name__ == "__main__":
-    p = Path(__file__).resolve().parents[3] / "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json"
+    p = Path(__file__).resolve().parents[4] / "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json"
     print(json.dumps(validate_extract(json.loads(p.read_text())), indent=2))
