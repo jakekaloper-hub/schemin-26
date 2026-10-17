@@ -4,6 +4,18 @@ Authority: Existing Character Canon / CCCP, Bullpen #133, draft Schemin PR #195.
 
 Current state: Twelve recovered October 12 original uploads safely stored in the GitHub PR branch; **nine are already-registered supplementary spotlight originals, two match approved primary reference hashes, one is an additional Wilson/DK candidate.** All twelve owner IDs remain canonically locked. This does NOT certify that all twelve older primary JPEG sources are recovered or that artistic rendering is safe.
 
+## Latest continuation — October 17, source-and-diagnostic readback
+
+**CURRENT PRODUCTION STATUS: 4/12 exact approved PRIMARY JPEGs stored and remote-verified; eight remain missing at approved primary paths.** Two additional original primaries for Manning Welty / El Niño and Brandon Pryor / Chili Cheesers were recovered byte-for-byte from an authorized, pre-existing macOS browser cache. Their SHA-256, sizes and owner-specific reference paths match current active canon.
+
+The first two approved primaries are Austin Byars and Phillip Pitts. Exact evidence is in EXACT_PRIMARY_CACHE_RECOVERY_2026_10_17.json and APPROVED_PRIMARY_REMOTE_READBACK_2026_10_17.json. A completely fresh GitHub checkout verified 4/12 expected original primary sha/size pairs and zero mismatches. The new owner manifests and existing source registry statuses were updated only for the two newly verified individuals. Approved source identity fields and original hashes remain unchanged.
+
+A LOCAL_DETERMINISTIC_REFERENCE_COPY_DIAGNOSTIC_ONLY test converted the four exact source JPEGs into owner-ID-specific PNG slots, and each conversion repeated byte-identically. Evidence is LOCAL_REFERENCE_COPY_DIAGNOSTIC_2026_10_17.json and four actual test rasters in canon/characters/evidence/LOCAL_REFERENCE_COPY_DIAGNOSTIC_2026_10_17. This does not demonstrate generative image reference attachment/subject fidelity, native model bind receipts, C1 acceptance, or T15/T16.
+
+The new source scanner requires explicitly authorized local search directories and checks exact sizes/hashes. It does not transfer data through a network, alter canon, or overwrite conflicting references. An additional scan found no other exact primary matches.
+
+The ten-missing count in the earlier snapshot below is historical and superseded by eight remaining. The nine existing supplementary spotlight image originals and DK's separate candidate still retain their existing, nonprimary visual roles.
+
 ## Evidence / timeline
 
 1. Existing October 12 Commissioner archive located on authorized Mac; all twelve original byte streams passed SHA-256 upload receipt and byte-size checks. Source ZIP SHA-256: e132398eeb422fb859a756ccd2c461c4287c34960cb42c561654c7a2c4f2130a.

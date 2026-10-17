@@ -88,10 +88,16 @@
           "ref": "canon/characters/recovery/COMMISSIONER_2026_10_12_INGEST_RECEIPT.json",
           "status": "PARTIAL",
           "note": "Found and hash-verified existing 2026-10-12 Commissioner ZIP on connected authorized Mac. 12 exact source binaries exist locally, 2 match earlier active SHA-256s, 10 differ by uploaded version. Local staging and fresh readback verified. Git persistence, canon supersession, renderer slot binding and T15/T16 NOT proven."
+        },
+        {
+          "type": "exact_primary_remote_readback_and_diagnostic",
+          "ref": "canon/characters/recovery/APPROVED_PRIMARY_REMOTE_READBACK_2026_10_17.json",
+          "status": "PARTIAL",
+          "note": "Fresh GitHub clone verified four exact primary SHA256s and paths including newly recovered Manning Welty and Brandon Pryor. Eight primary images still missing. Four deterministic source-copy diagnostic outputs are NOT native AI renderer subject-binding proof; T15/T16 HOLD."
         }
       ],
       "source_authority": "bullpen/LIBRARIAN_THREAD_CLOSEOUT_CHARACTER_PORTABILITY_2026-10-01.md",
-      "next_action": "Source bytes have been RECOVERED locally as 12/12: use existing verified Oct12 source lock plus importer to persist binary assets in canonical GitHub repository from authorized local machine; independently re-read Git SHA/blob and reconcile 10 newer image versions before switching active manifest. Do not ask for bulk re-upload; source bytes were recovered and are staged locally. Do not falsely greenlight renderer.",
+      "next_action": "Continue authorized recovery of EIGHT exact approved primary JPEGs using existing local sources and fail-closed scanner. No bulk re-upload. Persist and verify new exact sources, then prove genuine provider mounted-byte and subject binding; C1 generated crops and independent Umpire T15/T16 required. Nine spotlights and DK candidate may not replace primaries.",
       "aliases": [
         "character portability",
         "durable asset ingestion",
