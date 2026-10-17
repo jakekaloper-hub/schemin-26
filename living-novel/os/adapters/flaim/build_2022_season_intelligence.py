@@ -2,7 +2,7 @@
 from __future__ import annotations
 import json
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[3]
+ROOT=Path(__file__).resolve().parents[4]
 BASE=ROOT/"living-novel/production/full-rewrite-2026/evidence"
 def build():
     draft=json.loads((BASE/"G01_2015_2026_DRAFT_HISTORY_PROVIDER_PICKS.json").read_text())
