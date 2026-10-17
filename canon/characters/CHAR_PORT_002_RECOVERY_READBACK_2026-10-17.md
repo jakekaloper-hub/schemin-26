@@ -1,5 +1,7 @@
 # CHAR-PORT-002 — bounded recovery readback (2026-10-17)
 
+> **HISTORICAL CHECKPOINT ONLY:** This 2/12 primary-path status describes the first October 17 main-branch readback, not later recovery. The original October 12 archive supplied 2 exact prior-primary images, 9 previously registered supplementary spotlight originals, and 1 nonactive DK candidate (PR #195). Ten older approved primary JPEGs remain unavailable. See recovery/OPERATOR_2026_10_17_SOURCE_HANDOFF.md for current status.
+
 **Authority:** Schemin '26 current Character Canon / reference_sources_v1.json and Bullpen #133.  
 **Task:** `CHAR-PORT-002` on existing Execution Control registry.  
 **Disposition:** IN_PROGRESS / PARTIAL GIT STORAGE 2/12 / 10/12 UNRECOVERED IN PRIMARY PATH. **Not a T15 or T16 acceptance.**

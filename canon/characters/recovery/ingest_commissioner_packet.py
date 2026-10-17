@@ -42,6 +42,10 @@ def verify_packet(archive: Path, pins: dict) -> list[dict]:
     if len(expected_paths) != 12:
         raise IntegrityError("Duplicate reference paths in pinned references")
 
+    targets = {x.get("repository_path", x["archive_member"]) for x in rows}
+    if len(targets) != 12:
+        raise IntegrityError("Duplicate durable storage paths")
+
     if digest(archive.read_bytes()) != pins["source_archive_sha256"]:
         raise IntegrityError("Archive hash differs from verified Commissioner packet")
 
@@ -63,8 +67,23 @@ def verify_packet(archive: Path, pins: dict) -> list[dict]:
             member = item["archive_member"]
             character_id = item["character_id"]
             prefix = "canon/characters/assets/" + character_id + "/primary/"
-            if not member.startswith(prefix) or "/../" in member or "\\" in member:
+            target = item.get("repository_path", member)
+            owner_prefix = "canon/characters/assets/" + character_id + "/"
+            role = item.get("asset_role")
+            if (not member.startswith(prefix) or "/../" in member or chr(92) in member
+                    or not target.startswith(owner_prefix) or ".." in Path(target).parts
+                    or chr(92) in target):
                 raise IntegrityError("Unsafe path or cross-character asset mapping")
+            required_folder = {
+                "PRIMARY_EXACT_MATCH_SOURCE": "primary",
+                "SUPPLEMENTARY_REGISTERED_SPOTLIGHT_ORIGINAL": "supplementary",
+                "NONACTIVE_VISUAL_CANDIDATE": "candidate",
+            }
+            if role is not None:
+                if role not in required_folder or not target.startswith(owner_prefix + required_folder[role] + "/"):
+                    raise IntegrityError("Source-role storage mismatch: " + character_id)
+                if role == "PRIMARY_EXACT_MATCH_SOURCE" and item["hash_relation_to_prior"] != "EXACT_MATCH":
+                    raise IntegrityError("Nonmatching bytes cannot be primary canon")
             entry = indexed[character_id]
             if (entry.get("target_repository_path") != member
                     or entry.get("sha256") != item["expected_sha256"]
@@ -80,7 +99,9 @@ def verify_packet(archive: Path, pins: dict) -> list[dict]:
                 raise IntegrityError("JPEG magic mismatch")
             validated.append({
                 "character_id": character_id,
-                "repository_path": member,
+                "repository_path": target,
+                "archive_member": member,
+                "asset_role": role or "LEGACY_UNCLASSIFIED_TEST_FIXTURE",
                 "sha256": digest(data),
                 "git_blob_sha1": git_blob_sha1(data),
                 "size_bytes": len(data),
@@ -122,7 +143,8 @@ def make_receipt(rows: list[dict], source_archive_sha256: str, staged: bool) -> 
         "archive_sha256": source_archive_sha256,
         "n_verified": len(safe_rows),
         "n_prior_hash_matches": sum(x["relation_to_prior"] == "EXACT_MATCH" for x in safe_rows),
-        "n_versions_requiring_reconciliation": sum(x["relation_to_prior"] != "EXACT_MATCH" for x in safe_rows),
+        "n_versions_requiring_reconciliation": sum(x["asset_role"] == "NONACTIVE_VISUAL_CANDIDATE" for x in safe_rows),
+        "n_previously_registered_supplementary": sum(x["asset_role"] == "SUPPLEMENTARY_REGISTERED_SPOTLIGHT_ORIGINAL" for x in safe_rows),
         "github_persistence_verified": False,
         "renderer_subject_binding_verified": False,
         "t15": "HOLD",
@@ -154,7 +176,8 @@ def main() -> int:
         "hash_verified": all(x["sha256"] for x in rows),
         "staged": args.stage,
         "matching_old": sum(x["relation_to_prior"] == "EXACT_MATCH" for x in rows),
-        "divergent_versions": sum(x["relation_to_prior"] != "EXACT_MATCH" for x in rows),
+        "supplementary_spotlights": sum(x["asset_role"] == "SUPPLEMENTARY_REGISTERED_SPOTLIGHT_ORIGINAL" for x in rows),
+        "unreconciled_candidates": sum(x["asset_role"] == "NONACTIVE_VISUAL_CANDIDATE" for x in rows),
         "t15": "HOLD",
     }))
     return 0

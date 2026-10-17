@@ -1,5 +1,7 @@
 # PRO SCHEMIN' WORLD BIBLE V1
 
+**CURRENT BODY-FORM AUTHORITY NOTICE (2026-10-02):** The historic version below includes a superseded DK morphology claim. D0nkey K0ng / Wilson Look is the **Arsenal Gorilla Centaur Warrior**: ONE integrated gorilla upper body, FOUR-LEGGED centaur/equine lower body, Arsenal heraldry. Older 'no centaur/equine anatomy' language here is NON-AUTHORITATIVE for current character packets and artwork. Consult canon/characters/CHAR-WILSON-LOOK/REFERENCE_MANIFEST.yaml and canon/characters/CHARACTER_REGISTRY.yaml. Do not erase past version history.
+
 **Status:** WORLD ENGINE V1.1 RELEASE CANDIDATE  
 **Scope:** Shared universe substrate for Weekly Memo, Living Novel, Atlas and visual production.
 
