@@ -9,7 +9,7 @@
 | Task ID | Previous status | New status | Reason |
 |---|---|---|---|
 | `CHAR-PORT-002` | READY | IN_PROGRESS | Live 12-path GitHub inspection and Library recovery attempted; exactly two primary Git binaries on main, ten paths absent. Source/hash and mount acceptance not complete. |
-| `MEMO-W4-002` | WAITING_EXTERNAL | IN_PROGRESS | External wait for games is no longer valid: ESPN now reports six decided outcomes. Post-Week-4 records, injuries, roster / transaction relevance and owning Fact Lock require validation; no COMPLETE / PASS. |
+| `MEMO-W4-002` | WAITING_EXTERNAL / P0 | IN_PROGRESS / P1 | Week 4 is historical after Week 5 distribution; urgent character recovery retains P0. External wait for games is no longer valid: ESPN now reports six decided outcomes. Post-Week-4 records, injuries, roster / transaction relevance and owning Fact Lock require validation; no COMPLETE / PASS. |
 | `MEMO-W6-001` | Not registered | IN_PROGRESS | No duplicate Week 6 task in migrated registry. Live six fixture intake prepared in existing `memo-os/week-6/`. Final outcomes still UNDECIDED; production art blocked by character chain. |
 
 All status transitions follow the Bullpen V1 state machine (`READY → IN_PROGRESS`; `WAITING_EXTERNAL → IN_PROGRESS`). **None enters COMPLETE.**
@@ -49,3 +49,9 @@ Flaim `get_matchups(week=4)` returned these results on October 17. **Do not use 
 4. Umpire: run actual CI/regression checks on this PR, audit reference and temporal authority, accept/reject without fabricated sign-off. Promotion/merge only upon applicable real checks.
 
 **Verdict:** Evidence intake and task-state reconciliation implemented as review candidate; **NOT independently tested or promoted**.
+
+## First CI feedback and bounded regression repair
+
+Initial PR #195 GitHub Actions readback: four workflows PASS (Cross-Domain Authority, Bullpen Runtime, Character Lock, Weekly Memo Authority), but Repository Merge Gate FAIL because three existing execution-control tests asserted *obsolete* registry statuses or next-task priority. The existing task-state vocabulary itself validated. Netlify `scheminnovel/deploy-preview` also reported FAIL; this known publish-path problem is tracked separately in Schemin #174/#191.
+
+Corrective branch action: recategorize Week 4 historical fact closure from P0 to P1 (no acceptance bypass); preserve current character P0 in progress; update two stale task-fixture assertions; add Week 6 in-progress/not-released negative check in existing execution-control suite. A passing **new CI receipt** is required, not presumed.
