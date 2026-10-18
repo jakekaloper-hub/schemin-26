@@ -1,0 +1,882 @@
+{
+  "story_room": [
+    {
+      "season": 2015,
+      "status": "SOURCE_BACKED_NONCANON_STORY_ROOM",
+      "team_identity_coverage": "TWELVE_SLOT_MATCHUP_IDS_RESOLVED",
+      "source_paths": [
+        "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+        "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json"
+      ],
+      "game_row_count": 102,
+      "historical_team_slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "scoring_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "championship": {
+        "season": 2015,
+        "final_scoring_week": 16,
+        "winner_team_id": 12,
+        "winner_team_name": "Discount Belichick",
+        "winner_points": 211.5,
+        "runnerup_team_id": 8,
+        "runnerup_team_name": "Austin's Hyena's",
+        "runnerup_points": 187
+      },
+      "story_question": "What did the contest for the 2015 title cost its contenders, and which consequences survived the result?",
+      "scene_candidates": [
+        {
+          "kind": "opening",
+          "anchor": "earliest verified matchups",
+          "week": 1
+        },
+        {
+          "kind": "midseason",
+          "anchor": "midseason evidence anchor",
+          "week": 9
+        },
+        {
+          "kind": "final",
+          "anchor": "verified winner-bracket championship",
+          "week": 16
+        }
+      ],
+      "evidence_limits": [
+        "Historical team slot is not proof of current owner identity",
+        "Division memberships unknown without annual source",
+        "No vintage preseason projection assumed",
+        "No trade or waiver cause derived from roster differences",
+        "2015\u20132017 identical roster snapshots unsuitable as season-change evidence",
+        "Scoring periods may duplicate cumulative playoff information"
+      ],
+      "author_admission": "Historical facts are scene anchors, not license for owner backstory, motives, quotes or canonical outcomes beyond recorded games",
+      "review_status": "NOT_INDEPENDENTLY_REVIEWED"
+    },
+    {
+      "season": 2016,
+      "status": "SOURCE_BACKED_NONCANON_STORY_ROOM",
+      "team_identity_coverage": "TWELVE_SLOT_MATCHUP_IDS_RESOLVED",
+      "source_paths": [
+        "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+        "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json"
+      ],
+      "game_row_count": 102,
+      "historical_team_slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "scoring_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "championship": {
+        "season": 2016,
+        "final_scoring_week": 16,
+        "winner_team_id": 8,
+        "winner_team_name": "Austin's Hyena's",
+        "winner_points": 217.7,
+        "runnerup_team_id": 7,
+        "runnerup_team_name": "The Gunslingers",
+        "runnerup_points": 206.88
+      },
+      "story_question": "What did the contest for the 2016 title cost its contenders, and which consequences survived the result?",
+      "scene_candidates": [
+        {
+          "kind": "opening",
+          "anchor": "earliest verified matchups",
+          "week": 1
+        },
+        {
+          "kind": "midseason",
+          "anchor": "midseason evidence anchor",
+          "week": 9
+        },
+        {
+          "kind": "final",
+          "anchor": "verified winner-bracket championship",
+          "week": 16
+        }
+      ],
+      "evidence_limits": [
+        "Historical team slot is not proof of current owner identity",
+        "Division memberships unknown without annual source",
+        "No vintage preseason projection assumed",
+        "No trade or waiver cause derived from roster differences",
+        "2015\u20132017 identical roster snapshots unsuitable as season-change evidence",
+        "Scoring periods may duplicate cumulative playoff information"
+      ],
+      "author_admission": "Historical facts are scene anchors, not license for owner backstory, motives, quotes or canonical outcomes beyond recorded games",
+      "review_status": "NOT_INDEPENDENTLY_REVIEWED"
+    },
+    {
+      "season": 2017,
+      "status": "SOURCE_BACKED_NONCANON_STORY_ROOM",
+      "team_identity_coverage": "PARTIAL_TEAM_ID_SOURCE_GAP",
+      "source_paths": [
+        "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+        "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json"
+      ],
+      "game_row_count": 97,
+      "historical_team_slots": [
+        7,
+        12
+      ],
+      "scoring_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "championship": {
+        "season": 2017,
+        "final_scoring_week": 16,
+        "winner_team_id": 12,
+        "winner_team_name": "The Fournecators",
+        "winner_points": 144.2,
+        "runnerup_team_id": 7,
+        "runnerup_team_name": "The Gunslingers",
+        "runnerup_points": 80.42
+      },
+      "story_question": "What did the contest for the 2017 title cost its contenders, and which consequences survived the result?",
+      "scene_candidates": [
+        {
+          "kind": "opening",
+          "anchor": "earliest verified matchups",
+          "week": 1
+        },
+        {
+          "kind": "midseason",
+          "anchor": "midseason evidence anchor",
+          "week": 9
+        },
+        {
+          "kind": "final",
+          "anchor": "verified winner-bracket championship",
+          "week": 16
+        }
+      ],
+      "evidence_limits": [
+        "Team identity incomplete in provider extract; do not join unnamed rows to owner slots",
+        "Historical team slot is not proof of current owner identity",
+        "Division memberships unknown without annual source",
+        "No vintage preseason projection assumed",
+        "No trade or waiver cause derived from roster differences",
+        "2015\u20132017 identical roster snapshots unsuitable as season-change evidence",
+        "Scoring periods may duplicate cumulative playoff information"
+      ],
+      "author_admission": "Historical facts are scene anchors, not license for owner backstory, motives, quotes or canonical outcomes beyond recorded games",
+      "review_status": "NOT_INDEPENDENTLY_REVIEWED"
+    },
+    {
+      "season": 2018,
+      "status": "SOURCE_BACKED_NONCANON_STORY_ROOM",
+      "team_identity_coverage": "TWELVE_SLOT_MATCHUP_IDS_RESOLVED",
+      "source_paths": [
+        "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+        "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json"
+      ],
+      "game_row_count": 97,
+      "historical_team_slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "scoring_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "championship": {
+        "season": 2018,
+        "final_scoring_week": 16,
+        "winner_team_id": 8,
+        "winner_team_name": "Kardiac Kids",
+        "winner_points": 160.69,
+        "runnerup_team_id": 12,
+        "runnerup_team_name": "Christopher Columbus",
+        "runnerup_points": 153.26
+      },
+      "story_question": "What did the contest for the 2018 title cost its contenders, and which consequences survived the result?",
+      "scene_candidates": [
+        {
+          "kind": "opening",
+          "anchor": "earliest verified matchups",
+          "week": 1
+        },
+        {
+          "kind": "midseason",
+          "anchor": "midseason evidence anchor",
+          "week": 9
+        },
+        {
+          "kind": "final",
+          "anchor": "verified winner-bracket championship",
+          "week": 16
+        }
+      ],
+      "evidence_limits": [
+        "Historical team slot is not proof of current owner identity",
+        "Division memberships unknown without annual source",
+        "No vintage preseason projection assumed",
+        "No trade or waiver cause derived from roster differences",
+        "Two-point roster comparison does not establish transaction timeline",
+        "Scoring periods may duplicate cumulative playoff information"
+      ],
+      "author_admission": "Historical facts are scene anchors, not license for owner backstory, motives, quotes or canonical outcomes beyond recorded games",
+      "review_status": "NOT_INDEPENDENTLY_REVIEWED"
+    },
+    {
+      "season": 2019,
+      "status": "SOURCE_BACKED_NONCANON_STORY_ROOM",
+      "team_identity_coverage": "TWELVE_SLOT_MATCHUP_IDS_RESOLVED",
+      "source_paths": [
+        "living-novel/production/full-rewrite-2026/evidence/G01_2019_FULL_WEEKLY_MATCHUPS.json",
+        "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json"
+      ],
+      "game_row_count": 97,
+      "historical_team_slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "scoring_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "championship": {
+        "season": 2019,
+        "final_scoring_week": 16,
+        "winner_team_id": 3,
+        "winner_team_name": "Please, Please, Please, please",
+        "winner_points": 158.3,
+        "runnerup_team_id": 5,
+        "runnerup_team_name": "Make Amarica Great Again",
+        "runnerup_points": 113.46
+      },
+      "story_question": "What did the contest for the 2019 title cost its contenders, and which consequences survived the result?",
+      "scene_candidates": [
+        {
+          "kind": "opening",
+          "anchor": "earliest verified matchups",
+          "week": 1
+        },
+        {
+          "kind": "midseason",
+          "anchor": "midseason evidence anchor",
+          "week": 9
+        },
+        {
+          "kind": "final",
+          "anchor": "verified winner-bracket championship",
+          "week": 16
+        }
+      ],
+      "evidence_limits": [
+        "Historical team slot is not proof of current owner identity",
+        "Division memberships unknown without annual source",
+        "No vintage preseason projection assumed",
+        "No trade or waiver cause derived from roster differences",
+        "Two-point roster comparison does not establish transaction timeline",
+        "Scoring periods may duplicate cumulative playoff information"
+      ],
+      "author_admission": "Historical facts are scene anchors, not license for owner backstory, motives, quotes or canonical outcomes beyond recorded games",
+      "review_status": "NOT_INDEPENDENTLY_REVIEWED"
+    },
+    {
+      "season": 2020,
+      "status": "SOURCE_BACKED_NONCANON_STORY_ROOM",
+      "team_identity_coverage": "TWELVE_SLOT_MATCHUP_IDS_RESOLVED",
+      "source_paths": [
+        "living-novel/production/full-rewrite-2026/evidence/G01_2020_FULL_WEEKLY_MATCHUPS.json",
+        "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json"
+      ],
+      "game_row_count": 97,
+      "historical_team_slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "scoring_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "championship": {
+        "season": 2020,
+        "final_scoring_week": 16,
+        "winner_team_id": 10,
+        "winner_team_name": "Where Mahomies at?",
+        "winner_points": 189.19,
+        "runnerup_team_id": 8,
+        "runnerup_team_name": "The Grinch",
+        "runnerup_points": 188.44
+      },
+      "story_question": "What did the contest for the 2020 title cost its contenders, and which consequences survived the result?",
+      "scene_candidates": [
+        {
+          "kind": "opening",
+          "anchor": "earliest verified matchups",
+          "week": 1
+        },
+        {
+          "kind": "midseason",
+          "anchor": "midseason evidence anchor",
+          "week": 9
+        },
+        {
+          "kind": "final",
+          "anchor": "verified winner-bracket championship",
+          "week": 16
+        }
+      ],
+      "evidence_limits": [
+        "Historical team slot is not proof of current owner identity",
+        "Division memberships unknown without annual source",
+        "No vintage preseason projection assumed",
+        "No trade or waiver cause derived from roster differences",
+        "Two-point roster comparison does not establish transaction timeline",
+        "Scoring periods may duplicate cumulative playoff information"
+      ],
+      "author_admission": "Historical facts are scene anchors, not license for owner backstory, motives, quotes or canonical outcomes beyond recorded games",
+      "review_status": "NOT_INDEPENDENTLY_REVIEWED"
+    },
+    {
+      "season": 2021,
+      "status": "SOURCE_BACKED_NONCANON_STORY_ROOM",
+      "team_identity_coverage": "TWELVE_SLOT_MATCHUP_IDS_RESOLVED",
+      "source_paths": [
+        "living-novel/production/full-rewrite-2026/evidence/G01_2021_FULL_WEEKLY_MATCHUPS.json",
+        "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json"
+      ],
+      "game_row_count": 105,
+      "historical_team_slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "scoring_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "championship": {
+        "season": 2021,
+        "final_scoring_week": 17,
+        "winner_team_id": 5,
+        "winner_team_name": "Dewars White Label",
+        "winner_points": 178.06,
+        "runnerup_team_id": 8,
+        "runnerup_team_name": "The Third Coming",
+        "runnerup_points": 96.58
+      },
+      "story_question": "What did the contest for the 2021 title cost its contenders, and which consequences survived the result?",
+      "scene_candidates": [
+        {
+          "kind": "opening",
+          "anchor": "earliest verified matchups",
+          "week": 1
+        },
+        {
+          "kind": "midseason",
+          "anchor": "midseason evidence anchor",
+          "week": 9
+        },
+        {
+          "kind": "final",
+          "anchor": "verified winner-bracket championship",
+          "week": 17
+        }
+      ],
+      "evidence_limits": [
+        "Historical team slot is not proof of current owner identity",
+        "Division memberships unknown without annual source",
+        "No vintage preseason projection assumed",
+        "No trade or waiver cause derived from roster differences",
+        "Two-point roster comparison does not establish transaction timeline",
+        "Scoring periods may duplicate cumulative playoff information"
+      ],
+      "author_admission": "Historical facts are scene anchors, not license for owner backstory, motives, quotes or canonical outcomes beyond recorded games",
+      "review_status": "NOT_INDEPENDENTLY_REVIEWED"
+    },
+    {
+      "season": 2022,
+      "status": "SOURCE_BACKED_NONCANON_STORY_ROOM",
+      "team_identity_coverage": "TWELVE_SLOT_MATCHUP_IDS_RESOLVED",
+      "source_paths": [
+        "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+        "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json"
+      ],
+      "game_row_count": 105,
+      "historical_team_slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "scoring_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "championship": {
+        "season": 2022,
+        "final_scoring_week": 17,
+        "winner_team_id": 9,
+        "winner_team_name": "El Ni\u00f1o",
+        "winner_points": 111.56,
+        "runnerup_team_id": 10,
+        "runnerup_team_name": "Where Mahomies at?",
+        "runnerup_points": 78.3
+      },
+      "story_question": "What did the contest for the 2022 title cost its contenders, and which consequences survived the result?",
+      "scene_candidates": [
+        {
+          "kind": "opening",
+          "anchor": "earliest verified matchups",
+          "week": 1
+        },
+        {
+          "kind": "midseason",
+          "anchor": "midseason evidence anchor",
+          "week": 9
+        },
+        {
+          "kind": "final",
+          "anchor": "verified winner-bracket championship",
+          "week": 17
+        }
+      ],
+      "evidence_limits": [
+        "Historical team slot is not proof of current owner identity",
+        "Division memberships unknown without annual source",
+        "No vintage preseason projection assumed",
+        "No trade or waiver cause derived from roster differences",
+        "Two-point roster comparison does not establish transaction timeline",
+        "Scoring periods may duplicate cumulative playoff information"
+      ],
+      "author_admission": "Historical facts are scene anchors, not license for owner backstory, motives, quotes or canonical outcomes beyond recorded games",
+      "review_status": "NOT_INDEPENDENTLY_REVIEWED"
+    },
+    {
+      "season": 2023,
+      "status": "SOURCE_BACKED_NONCANON_STORY_ROOM",
+      "team_identity_coverage": "TWELVE_SLOT_MATCHUP_IDS_RESOLVED",
+      "source_paths": [
+        "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+        "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json"
+      ],
+      "game_row_count": 105,
+      "historical_team_slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "scoring_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "championship": {
+        "season": 2023,
+        "final_scoring_week": 17,
+        "winner_team_id": 12,
+        "winner_team_name": "Eggs Benedict",
+        "winner_points": 192.88,
+        "runnerup_team_id": 11,
+        "runnerup_team_name": "Arm Chair GM",
+        "runnerup_points": 140.76
+      },
+      "story_question": "What did the contest for the 2023 title cost its contenders, and which consequences survived the result?",
+      "scene_candidates": [
+        {
+          "kind": "opening",
+          "anchor": "earliest verified matchups",
+          "week": 1
+        },
+        {
+          "kind": "midseason",
+          "anchor": "midseason evidence anchor",
+          "week": 9
+        },
+        {
+          "kind": "final",
+          "anchor": "verified winner-bracket championship",
+          "week": 17
+        }
+      ],
+      "evidence_limits": [
+        "Historical team slot is not proof of current owner identity",
+        "Division memberships unknown without annual source",
+        "No vintage preseason projection assumed",
+        "No trade or waiver cause derived from roster differences",
+        "Two-point roster comparison does not establish transaction timeline",
+        "Scoring periods may duplicate cumulative playoff information"
+      ],
+      "author_admission": "Historical facts are scene anchors, not license for owner backstory, motives, quotes or canonical outcomes beyond recorded games",
+      "review_status": "NOT_INDEPENDENTLY_REVIEWED"
+    },
+    {
+      "season": 2024,
+      "status": "SOURCE_BACKED_NONCANON_STORY_ROOM",
+      "team_identity_coverage": "TWELVE_SLOT_MATCHUP_IDS_RESOLVED",
+      "source_paths": [
+        "living-novel/production/full-rewrite-2026/evidence/G01_2024_FULL_WEEKLY_MATCHUPS.json",
+        "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json"
+      ],
+      "game_row_count": 105,
+      "historical_team_slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "scoring_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "championship": {
+        "season": 2024,
+        "final_scoring_week": 17,
+        "winner_team_id": 1,
+        "winner_team_name": "ObiWan Jacoby",
+        "winner_points": 187.52,
+        "runnerup_team_id": 8,
+        "runnerup_team_name": "The King",
+        "runnerup_points": 161.68
+      },
+      "story_question": "What did the contest for the 2024 title cost its contenders, and which consequences survived the result?",
+      "scene_candidates": [
+        {
+          "kind": "opening",
+          "anchor": "earliest verified matchups",
+          "week": 1
+        },
+        {
+          "kind": "midseason",
+          "anchor": "midseason evidence anchor",
+          "week": 9
+        },
+        {
+          "kind": "final",
+          "anchor": "verified winner-bracket championship",
+          "week": 17
+        }
+      ],
+      "evidence_limits": [
+        "Historical team slot is not proof of current owner identity",
+        "Division memberships unknown without annual source",
+        "No vintage preseason projection assumed",
+        "No trade or waiver cause derived from roster differences",
+        "Two-point roster comparison does not establish transaction timeline",
+        "Scoring periods may duplicate cumulative playoff information"
+      ],
+      "author_admission": "Historical facts are scene anchors, not license for owner backstory, motives, quotes or canonical outcomes beyond recorded games",
+      "review_status": "NOT_INDEPENDENTLY_REVIEWED"
+    },
+    {
+      "season": 2025,
+      "status": "SOURCE_BACKED_NONCANON_STORY_ROOM",
+      "team_identity_coverage": "TWELVE_SLOT_MATCHUP_IDS_RESOLVED",
+      "source_paths": [
+        "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+        "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json"
+      ],
+      "game_row_count": 105,
+      "historical_team_slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "scoring_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "championship": {
+        "season": 2025,
+        "final_scoring_week": 17,
+        "winner_team_id": 8,
+        "winner_team_name": "The Immortal",
+        "winner_points": 161.07,
+        "runnerup_team_id": 1,
+        "runnerup_team_name": "ObiWan Jacoby",
+        "runnerup_points": 109.56
+      },
+      "story_question": "What did the contest for the 2025 title cost its contenders, and which consequences survived the result?",
+      "scene_candidates": [
+        {
+          "kind": "opening",
+          "anchor": "earliest verified matchups",
+          "week": 1
+        },
+        {
+          "kind": "midseason",
+          "anchor": "midseason evidence anchor",
+          "week": 9
+        },
+        {
+          "kind": "final",
+          "anchor": "verified winner-bracket championship",
+          "week": 17
+        }
+      ],
+      "evidence_limits": [
+        "Historical team slot is not proof of current owner identity",
+        "Division memberships unknown without annual source",
+        "No vintage preseason projection assumed",
+        "No trade or waiver cause derived from roster differences",
+        "Two-point roster comparison does not establish transaction timeline",
+        "Scoring periods may duplicate cumulative playoff information"
+      ],
+      "author_admission": "Historical facts are scene anchors, not license for owner backstory, motives, quotes or canonical outcomes beyond recorded games",
+      "review_status": "NOT_INDEPENDENTLY_REVIEWED"
+    }
+  ]
+}
