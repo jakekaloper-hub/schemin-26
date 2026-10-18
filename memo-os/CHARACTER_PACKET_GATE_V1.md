@@ -65,6 +65,3 @@ This exact lineup is approved for all twelve character appearances including the
 - Umpire final-raster checks (C1/T15/T16), source attachment, and per-subject identity binding remain independent prerequisites.
 
 **Status:** appearance approved; generation/publication gates HOLD until actual provider evidence and independent visual QA.
-
-## October 18 operational visual-context bridge
-The existing compile_memo_location_packet adapter now actually resolves current Commissioner lineup visual rules, physical anatomy and verified homeland anchors, and build_visual_world_packet adds actual owner-specific physical/negative locks. READY_FOR_SEMANTIC_QA never grants character image-generation eligibility. Nameplate-trimmed panels remain ISOLATION_QA_HOLD and never substitute for an approved primary source. Actual Memo production/release still requires native binding and independent C1/T15/T16 generated-output evidence. See canon/characters/lineup_2026_10_18/OPERATIONAL_CONVERGENCE_REVIEW_2026_10_18.md.
