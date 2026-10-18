@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "status": "TWELVE_PIXEL_DERIVATIVES_REPLAY_DETERMINISTIC_ONLY",
+  "test_method": "Run existing approved-source Swift pixel-cropper twice into separate temporary directories and compare each original Git worktree derived PNG SHA-256",
+  "source_lineup_sha256": "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2",
+  "derived_reproduced_sha256_count": 12,
+  "generative_image_provider_tested": false,
+  "independent_visual_acceptance": "NOT_PERFORMED",
+  "all_images_full_subject_isolated": false,
+  "items": [
+    {
+      "character_id": "CHAR-JAKE-KALOPER",
+      "sha256": "a4c5ce3af850292429410ab3e86fe57ad73e403e9ac28bc9b1d3bf598f503526",
+      "local_replay_count": 2,
+      "identical_output_bytes": true,
+      "source_img_semantic_isolation_qa": "ISOLATION_QA_HOLD"
+    },
+    {
+      "character_id": "CHAR-WILSON-LOOK",
+      "sha256": "9b993409f7aa11f67ab3a489da401ce6ab6b82b27f554a78a14929108afc1ce1",
+      "local_replay_count": 2,
+      "identical_output_bytes": true,
+      "source_img_semantic_isolation_qa": "ISOLATION_QA_HOLD"
+    },
+    {
+      "character_id": "CHAR-PHILLIP-PITTS",
+      "sha256": "ade30d241dcf1021f0e64a162f570f49f957b3eabb50fe53850cad5d9ffd3b07",
+      "local_replay_count": 2,
+      "identical_output_bytes": true,
+      "source_img_semantic_isolation_qa": "ISOLATION_QA_HOLD"
+    },
+    {
+      "character_id": "CHAR-AUSTIN-BYARS",
+      "sha256": "078b2030b3a293537071068f9bd73b7c9da116456fd20cce26405cc9e2b93a57",
+      "local_replay_count": 2,
+      "identical_output_bytes": true,
+      "source_img_semantic_isolation_qa": "ISOLATION_QA_HOLD"
+    },
+    {
+      "character_id": "CHAR-BRANDON-PRYOR",
+      "sha256": "5c0a1f5692e81f3ca41f60ff79044ee66be2ea5d6ebf25d70963965cf1edb5a8",
+      "local_replay_count": 2,
+      "identical_output_bytes": true,
+      "source_img_semantic_isolation_qa": "ISOLATION_QA_HOLD"
+    },
+    {
+      "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "sha256": "60934656ac86f26ca85e417c72743c9731c491438258a8b5e0ddc153d5c931f0",
+      "local_replay_count": 2,
+      "identical_output_bytes": true,
+      "source_img_semantic_isolation_qa": "ISOLATION_QA_HOLD"
+    },
+    {
+      "character_id": "CHAR-ZACH-WILSON",
+      "sha256": "04085c798bb581d2dbab7b8f28b4113b7a58c270d5c0bc159a1c61ce56c17a44",
+      "local_replay_count": 2,
+      "identical_output_bytes": true,
+      "source_img_semantic_isolation_qa": "ISOLATION_QA_HOLD"
+    },
+    {
+      "character_id": "CHAR-KEVIN-ZEEK",
+      "sha256": "c6218fb9f33fe601bffe73ffa453c3d861bbb2889b4e59f83910eb4ea8c0b820",
+      "local_replay_count": 2,
+      "identical_output_bytes": true,
+      "source_img_semantic_isolation_qa": "ISOLATION_QA_HOLD"
+    },
+    {
+      "character_id": "CHAR-BOBBY-MITCHELL",
+      "sha256": "03150a859fba73702777f1394e968a675f288da5329de692ed7a6a61470c8db0",
+      "local_replay_count": 2,
+      "identical_output_bytes": true,
+      "source_img_semantic_isolation_qa": "ISOLATION_QA_HOLD"
+    },
+    {
+      "character_id": "CHAR-BEN-WHIPPLE",
+      "sha256": "570ae5953a283900159b21c1e41f667d5eb6c2aafb650d95e6989d43318ff88f",
+      "local_replay_count": 2,
+      "identical_output_bytes": true,
+      "source_img_semantic_isolation_qa": "ISOLATION_QA_HOLD"
+    },
+    {
+      "character_id": "CHAR-DAVID-BABB",
+      "sha256": "f6e8aa9c4a5d1bad70ec65f5d4b2852bca7b704283a48d73347c0712e178fb25",
+      "local_replay_count": 2,
+      "identical_output_bytes": true,
+      "source_img_semantic_isolation_qa": "ISOLATION_QA_HOLD"
+    },
+    {
+      "character_id": "CHAR-MANNING-WELTY",
+      "sha256": "af2a195f432e29993741fc345f6dbd1a0d8f083ba85c3e5defaa210efaded6fc",
+      "local_replay_count": 2,
+      "identical_output_bytes": true,
+      "source_img_semantic_isolation_qa": "ISOLATION_QA_HOLD"
+    }
+  ]
+}

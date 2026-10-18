@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-18",
+  "approved_master_sha256": "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2",
+  "run_type": "REAL_MEMO_NOVEL_ADAPTER_INVOCATION_AND_SOURCE_CAPABILITY_PREFLIGHT",
+  "live_image_generation_calls": 0,
+  "actual_generated_output_count": 0,
+  "provider_route": "CURRENT_CHATGPT_IMAGE_RENDERER",
+  "provider_status": "PROVIDER_CAPABILITY_BLOCKED",
+  "mounted_byte_hash_receipts_available": false,
+  "subject_binding_receipts_available": false,
+  "semantic_canary_count": 7,
+  "production_character_image_eligible": false,
+  "independent_umpire_C1": "HOLD",
+  "t15": "HOLD",
+  "t16": "HOLD",
+  "canaries": [
+    {
+      "id": "A_DK_SINGLE",
+      "character_ids": [
+        "CHAR-WILSON-LOOK"
+      ],
+      "location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "memo_status": "READY_FOR_SEMANTIC_QA",
+      "novel_status": "READY_FOR_SEMANTIC_QA",
+      "visual_lineup_sha256": "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2",
+      "physics_present": true,
+      "spatial_present": true,
+      "reference_provider_mount_verified": false,
+      "generated_artwork": "NOT_SUBMITTED__PROVIDER_SUBJECT_BINDING_UNPROVEN",
+      "output_instance_visual_QA": "NOT_PERFORMED"
+    },
+    {
+      "id": "B_HMB_SINGLE",
+      "character_ids": [
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "location_id": "LOC-BELT-KEEPER-KEEP",
+      "memo_status": "READY_FOR_SEMANTIC_QA",
+      "novel_status": "READY_FOR_SEMANTIC_QA",
+      "visual_lineup_sha256": "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2",
+      "physics_present": true,
+      "spatial_present": true,
+      "reference_provider_mount_verified": false,
+      "generated_artwork": "NOT_SUBMITTED__PROVIDER_SUBJECT_BINDING_UNPROVEN",
+      "output_instance_visual_QA": "NOT_PERFORMED"
+    },
+    {
+      "id": "C_OBIWAN_COMPANION",
+      "character_ids": [
+        "CHAR-JAKE-KALOPER"
+      ],
+      "location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "memo_status": "READY_FOR_SEMANTIC_QA",
+      "novel_status": "READY_FOR_SEMANTIC_QA",
+      "visual_lineup_sha256": "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2",
+      "physics_present": true,
+      "spatial_present": true,
+      "reference_provider_mount_verified": false,
+      "generated_artwork": "NOT_SUBMITTED__PROVIDER_SUBJECT_BINDING_UNPROVEN",
+      "output_instance_visual_QA": "NOT_PERFORMED"
+    },
+    {
+      "id": "D_TDS_THREE_HEAD",
+      "character_ids": [
+        "CHAR-PHILLIP-PITTS"
+      ],
+      "location_id": "LOC-TDS-WATERFALL-TEMPLE",
+      "memo_status": "READY_FOR_SEMANTIC_QA",
+      "novel_status": "READY_FOR_SEMANTIC_QA",
+      "visual_lineup_sha256": "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2",
+      "physics_present": true,
+      "spatial_present": true,
+      "reference_provider_mount_verified": false,
+      "generated_artwork": "NOT_SUBMITTED__PROVIDER_SUBJECT_BINDING_UNPROVEN",
+      "output_instance_visual_QA": "NOT_PERFORMED"
+    },
+    {
+      "id": "E_TWELVE_SEPARATE_CHARACTER_PACKETS",
+      "characters_resolved": 12,
+      "character_ids": [
+        "CHAR-AUSTIN-BYARS",
+        "CHAR-BEN-WHIPPLE",
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-BRANDON-PRYOR",
+        "CHAR-DAVID-BABB",
+        "CHAR-JAKE-KALOPER",
+        "CHAR-JORDAN-HOLLINGSHEAD",
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-MANNING-WELTY",
+        "CHAR-PHILLIP-PITTS",
+        "CHAR-WILSON-LOOK",
+        "CHAR-ZACH-WILSON"
+      ],
+      "source_binding": "UNPROVEN",
+      "generated_artwork": "NOT_SUBMITTED__PROVIDER_SUBJECT_BINDING_UNPROVEN"
+    },
+    {
+      "id": "F_MULTI_CHARACTER_SCENE",
+      "character_ids": [
+        "CHAR-AUSTIN-BYARS",
+        "CHAR-BEN-WHIPPLE",
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-BRANDON-PRYOR",
+        "CHAR-DAVID-BABB",
+        "CHAR-JAKE-KALOPER",
+        "CHAR-JORDAN-HOLLINGSHEAD",
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-MANNING-WELTY",
+        "CHAR-PHILLIP-PITTS",
+        "CHAR-WILSON-LOOK",
+        "CHAR-ZACH-WILSON"
+      ],
+      "location_id": "LOC-LEAGUE-CHAMBER",
+      "semantic_status": "READY_FOR_SEMANTIC_QA",
+      "visual_subject_count": 12,
+      "image_generation_eligible": false,
+      "generated_artwork": "NOT_SUBMITTED__PROVIDER_SUBJECT_BINDING_UNPROVEN"
+    },
+    {
+      "id": "G_RED_LEOPARDS_HOST_DK_MATCHUP",
+      "character_ids": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-WILSON-LOOK"
+      ],
+      "existing_venue_id": "LOC-RED-RUINS",
+      "memo_semantic_status": "READY_FOR_SEMANTIC_QA",
+      "memo_visual_subjects": 2,
+      "world_packet_home_character_ids": [
+        "CHAR-KEVIN-ZEEK"
+      ],
+      "geography_new_or_invented": false,
+      "generated_artwork": "NOT_SUBMITTED__PROVIDER_SUBJECT_BINDING_UNPROVEN",
+      "output_identity_QA": "NOT_PERFORMED"
+    }
+  ]
+}

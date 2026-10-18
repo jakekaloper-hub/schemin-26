@@ -58,6 +58,28 @@ def build_packet(location_id:str)->dict[str,Any]:
     if civilization.get("character_rendering_allowed") is not False:
         raise ValueError("civilization context cannot authorize character rendering")
 
+    # Existing lineage-only visual resolver: no conditioning source promotion.
+    # The World Packet now actually carries owner physical/visual constraints,
+    # while publication and provider binding stay explicitly blocked.
+    from canon.characters.runtime.reference_authority import resolve_approved_lineup_presentation
+    visual = resolve_approved_lineup_presentation(owners) if owners else None
+    if visual and visual.get("state") != "COMMISSIONER_APPROVED_VISUAL_PRESENTATION_EVIDENCE":
+        raise ValueError(f"Character visual canon unresolved for {location_id}: {visual.get('reason')}")
+    if visual:
+        known = {d["owner_character_id"]: d for d in domains}
+        for subject in visual["subjects"]:
+            cid = subject["character_id"]
+            domain = known.get(cid)
+            anchor = subject["spatial_anchor"]
+            physics = subject["physical_constraints"]
+            if (domain is None
+                or anchor.get("home_location_id") != domain.get("home_anchor")
+                or not physics.get("anatomy_constraints")
+                or not subject["presentation"].get("negative_rules")):
+                raise ValueError(f"Character physical/spatial canon mismatch: {cid}")
+    physical = {v["character_id"]: v["physical_constraints"] for v in visual["subjects"]} if visual else {}
+    negatives = {v["character_id"]: v["presentation"]["negative_rules"] for v in visual["subjects"]} if visual else {}
+
     return {
       "civilization_context": civilization,
       "schema_version":"2.0",
@@ -89,8 +111,12 @@ def build_packet(location_id:str)->dict[str,Any]:
       "character":{
         "principal_character_ids":owners,
         "reference_status":"CHARACTER_REFERENCE_GATE_SEPARATE" if owners else "NO_PRINCIPAL_REQUIRED",
-        "body_locks":[],
-        "negative_locks":domain.get("forbidden_drift",[])
+        "body_locks":physical,
+        "negative_locks":domain.get("forbidden_drift",[]),
+        "owner_specific_negative_locks":negatives,
+        "visual_authority":visual,
+        "source_binding_state":"UNPROVEN_RENDERER_HOLD",
+        "generation_eligible":False
       },
       "memory":{
         "events":events,

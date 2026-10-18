@@ -1,0 +1,255 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-18",
+  "status": "TWELVE_NAMEPLATE_TRIMMED_CONTEXTUAL_DERIVATIVES__ISOLATION_QA_HOLD",
+  "approved_lineup_sha256": "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2",
+  "original_master_unchanged": true,
+  "existing_twelve_original_crops_unchanged": true,
+  "method": "CGImageSource direct rectangle pixel cropping and PNG reencode; strips bottom border/nameplate; does NOT segment character from background, invent pixels or preserve clipped prop portions",
+  "reproduction_script": "canon/characters/runtime/rebuild_approved_lineup_trimmed_2026_10_18.swift",
+  "all_images_subject_isolated": false,
+  "release_status": "NOT_PRODUCTION_RENDER_REFERENCE",
+  "visual_reviewer_assessment": "PENDING",
+  "items": [
+    {
+      "character_id": "CHAR-JAKE-KALOPER",
+      "repository_path": "canon/characters/assets/lineups/2026-10-18-nameplate-trimmed/CHAR-JAKE-KALOPER.png",
+      "derived_sha256": "a4c5ce3af850292429410ab3e86fe57ad73e403e9ac28bc9b1d3bf598f503526",
+      "byte_size": 262255,
+      "source_lineup_sha256": "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2",
+      "source_crop_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+      "source_rectangle_top_left": {
+        "x": 0,
+        "y": 0,
+        "width": 362,
+        "height": 333
+      },
+      "transform": "LOSSLESS_PIXEL_SELECTION_PNG_REENCODE_NO_INPAINT",
+      "source_image_partially_cropped": true,
+      "isolation_level": "NAMEPLATE_TRIMMED_BACKGROUND_AND_SOME_TEXT_REMAIN",
+      "source_primary_supersession": false,
+      "subject_isolation_qa": "ISOLATION_QA_HOLD",
+      "rendering_eligible": false
+    },
+    {
+      "character_id": "CHAR-WILSON-LOOK",
+      "repository_path": "canon/characters/assets/lineups/2026-10-18-nameplate-trimmed/CHAR-WILSON-LOOK.png",
+      "derived_sha256": "9b993409f7aa11f67ab3a489da401ce6ab6b82b27f554a78a14929108afc1ce1",
+      "byte_size": 278014,
+      "source_lineup_sha256": "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2",
+      "source_crop_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+      "source_rectangle_top_left": {
+        "x": 362,
+        "y": 0,
+        "width": 362,
+        "height": 333
+      },
+      "transform": "LOSSLESS_PIXEL_SELECTION_PNG_REENCODE_NO_INPAINT",
+      "source_image_partially_cropped": true,
+      "isolation_level": "NAMEPLATE_TRIMMED_BACKGROUND_AND_SOME_TEXT_REMAIN",
+      "source_primary_supersession": false,
+      "subject_isolation_qa": "ISOLATION_QA_HOLD",
+      "rendering_eligible": false
+    },
+    {
+      "character_id": "CHAR-PHILLIP-PITTS",
+      "repository_path": "canon/characters/assets/lineups/2026-10-18-nameplate-trimmed/CHAR-PHILLIP-PITTS.png",
+      "derived_sha256": "ade30d241dcf1021f0e64a162f570f49f957b3eabb50fe53850cad5d9ffd3b07",
+      "byte_size": 271428,
+      "source_lineup_sha256": "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2",
+      "source_crop_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+      "source_rectangle_top_left": {
+        "x": 724,
+        "y": 0,
+        "width": 362,
+        "height": 333
+      },
+      "transform": "LOSSLESS_PIXEL_SELECTION_PNG_REENCODE_NO_INPAINT",
+      "source_image_partially_cropped": true,
+      "isolation_level": "NAMEPLATE_TRIMMED_BACKGROUND_AND_SOME_TEXT_REMAIN",
+      "source_primary_supersession": false,
+      "subject_isolation_qa": "ISOLATION_QA_HOLD",
+      "rendering_eligible": false
+    },
+    {
+      "character_id": "CHAR-AUSTIN-BYARS",
+      "repository_path": "canon/characters/assets/lineups/2026-10-18-nameplate-trimmed/CHAR-AUSTIN-BYARS.png",
+      "derived_sha256": "078b2030b3a293537071068f9bd73b7c9da116456fd20cce26405cc9e2b93a57",
+      "byte_size": 270391,
+      "source_lineup_sha256": "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2",
+      "source_crop_sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+      "source_rectangle_top_left": {
+        "x": 1086,
+        "y": 0,
+        "width": 362,
+        "height": 333
+      },
+      "transform": "LOSSLESS_PIXEL_SELECTION_PNG_REENCODE_NO_INPAINT",
+      "source_image_partially_cropped": true,
+      "isolation_level": "NAMEPLATE_TRIMMED_BACKGROUND_AND_SOME_TEXT_REMAIN",
+      "source_primary_supersession": false,
+      "subject_isolation_qa": "ISOLATION_QA_HOLD",
+      "rendering_eligible": false
+    },
+    {
+      "character_id": "CHAR-BRANDON-PRYOR",
+      "repository_path": "canon/characters/assets/lineups/2026-10-18-nameplate-trimmed/CHAR-BRANDON-PRYOR.png",
+      "derived_sha256": "5c0a1f5692e81f3ca41f60ff79044ee66be2ea5d6ebf25d70963965cf1edb5a8",
+      "byte_size": 186493,
+      "source_lineup_sha256": "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2",
+      "source_crop_sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+      "source_rectangle_top_left": {
+        "x": 0,
+        "y": 405,
+        "width": 362,
+        "height": 235
+      },
+      "transform": "LOSSLESS_PIXEL_SELECTION_PNG_REENCODE_NO_INPAINT",
+      "source_image_partially_cropped": true,
+      "isolation_level": "NAMEPLATE_TRIMMED_BACKGROUND_AND_SOME_TEXT_REMAIN",
+      "source_primary_supersession": false,
+      "subject_isolation_qa": "ISOLATION_QA_HOLD",
+      "rendering_eligible": false
+    },
+    {
+      "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "repository_path": "canon/characters/assets/lineups/2026-10-18-nameplate-trimmed/CHAR-JORDAN-HOLLINGSHEAD.png",
+      "derived_sha256": "60934656ac86f26ca85e417c72743c9731c491438258a8b5e0ddc153d5c931f0",
+      "byte_size": 192550,
+      "source_lineup_sha256": "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2",
+      "source_crop_sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+      "source_rectangle_top_left": {
+        "x": 362,
+        "y": 405,
+        "width": 362,
+        "height": 235
+      },
+      "transform": "LOSSLESS_PIXEL_SELECTION_PNG_REENCODE_NO_INPAINT",
+      "source_image_partially_cropped": true,
+      "isolation_level": "NAMEPLATE_TRIMMED_BACKGROUND_AND_SOME_TEXT_REMAIN",
+      "source_primary_supersession": false,
+      "subject_isolation_qa": "ISOLATION_QA_HOLD",
+      "rendering_eligible": false
+    },
+    {
+      "character_id": "CHAR-ZACH-WILSON",
+      "repository_path": "canon/characters/assets/lineups/2026-10-18-nameplate-trimmed/CHAR-ZACH-WILSON.png",
+      "derived_sha256": "04085c798bb581d2dbab7b8f28b4113b7a58c270d5c0bc159a1c61ce56c17a44",
+      "byte_size": 183036,
+      "source_lineup_sha256": "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2",
+      "source_crop_sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+      "source_rectangle_top_left": {
+        "x": 724,
+        "y": 405,
+        "width": 362,
+        "height": 235
+      },
+      "transform": "LOSSLESS_PIXEL_SELECTION_PNG_REENCODE_NO_INPAINT",
+      "source_image_partially_cropped": true,
+      "isolation_level": "NAMEPLATE_TRIMMED_BACKGROUND_AND_SOME_TEXT_REMAIN",
+      "source_primary_supersession": false,
+      "subject_isolation_qa": "ISOLATION_QA_HOLD",
+      "rendering_eligible": false
+    },
+    {
+      "character_id": "CHAR-KEVIN-ZEEK",
+      "repository_path": "canon/characters/assets/lineups/2026-10-18-nameplate-trimmed/CHAR-KEVIN-ZEEK.png",
+      "derived_sha256": "c6218fb9f33fe601bffe73ffa453c3d861bbb2889b4e59f83910eb4ea8c0b820",
+      "byte_size": 200837,
+      "source_lineup_sha256": "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2",
+      "source_crop_sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b",
+      "source_rectangle_top_left": {
+        "x": 1086,
+        "y": 405,
+        "width": 362,
+        "height": 235
+      },
+      "transform": "LOSSLESS_PIXEL_SELECTION_PNG_REENCODE_NO_INPAINT",
+      "source_image_partially_cropped": true,
+      "isolation_level": "NAMEPLATE_TRIMMED_BACKGROUND_AND_SOME_TEXT_REMAIN",
+      "source_primary_supersession": false,
+      "subject_isolation_qa": "ISOLATION_QA_HOLD",
+      "rendering_eligible": false
+    },
+    {
+      "character_id": "CHAR-BOBBY-MITCHELL",
+      "repository_path": "canon/characters/assets/lineups/2026-10-18-nameplate-trimmed/CHAR-BOBBY-MITCHELL.png",
+      "derived_sha256": "03150a859fba73702777f1394e968a675f288da5329de692ed7a6a61470c8db0",
+      "byte_size": 235803,
+      "source_lineup_sha256": "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2",
+      "source_crop_sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
+      "source_rectangle_top_left": {
+        "x": 0,
+        "y": 695,
+        "width": 362,
+        "height": 276
+      },
+      "transform": "LOSSLESS_PIXEL_SELECTION_PNG_REENCODE_NO_INPAINT",
+      "source_image_partially_cropped": true,
+      "isolation_level": "NAMEPLATE_TRIMMED_BACKGROUND_AND_SOME_TEXT_REMAIN",
+      "source_primary_supersession": false,
+      "subject_isolation_qa": "ISOLATION_QA_HOLD",
+      "rendering_eligible": false
+    },
+    {
+      "character_id": "CHAR-BEN-WHIPPLE",
+      "repository_path": "canon/characters/assets/lineups/2026-10-18-nameplate-trimmed/CHAR-BEN-WHIPPLE.png",
+      "derived_sha256": "570ae5953a283900159b21c1e41f667d5eb6c2aafb650d95e6989d43318ff88f",
+      "byte_size": 226418,
+      "source_lineup_sha256": "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2",
+      "source_crop_sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+      "source_rectangle_top_left": {
+        "x": 362,
+        "y": 695,
+        "width": 362,
+        "height": 276
+      },
+      "transform": "LOSSLESS_PIXEL_SELECTION_PNG_REENCODE_NO_INPAINT",
+      "source_image_partially_cropped": true,
+      "isolation_level": "NAMEPLATE_TRIMMED_BACKGROUND_AND_SOME_TEXT_REMAIN",
+      "source_primary_supersession": false,
+      "subject_isolation_qa": "ISOLATION_QA_HOLD",
+      "rendering_eligible": false
+    },
+    {
+      "character_id": "CHAR-DAVID-BABB",
+      "repository_path": "canon/characters/assets/lineups/2026-10-18-nameplate-trimmed/CHAR-DAVID-BABB.png",
+      "derived_sha256": "f6e8aa9c4a5d1bad70ec65f5d4b2852bca7b704283a48d73347c0712e178fb25",
+      "byte_size": 199549,
+      "source_lineup_sha256": "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2",
+      "source_crop_sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
+      "source_rectangle_top_left": {
+        "x": 724,
+        "y": 695,
+        "width": 362,
+        "height": 276
+      },
+      "transform": "LOSSLESS_PIXEL_SELECTION_PNG_REENCODE_NO_INPAINT",
+      "source_image_partially_cropped": true,
+      "isolation_level": "NAMEPLATE_TRIMMED_BACKGROUND_AND_SOME_TEXT_REMAIN",
+      "source_primary_supersession": false,
+      "subject_isolation_qa": "ISOLATION_QA_HOLD",
+      "rendering_eligible": false
+    },
+    {
+      "character_id": "CHAR-MANNING-WELTY",
+      "repository_path": "canon/characters/assets/lineups/2026-10-18-nameplate-trimmed/CHAR-MANNING-WELTY.png",
+      "derived_sha256": "af2a195f432e29993741fc345f6dbd1a0d8f083ba85c3e5defaa210efaded6fc",
+      "byte_size": 233215,
+      "source_lineup_sha256": "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2",
+      "source_crop_sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+      "source_rectangle_top_left": {
+        "x": 1086,
+        "y": 695,
+        "width": 362,
+        "height": 276
+      },
+      "transform": "LOSSLESS_PIXEL_SELECTION_PNG_REENCODE_NO_INPAINT",
+      "source_image_partially_cropped": true,
+      "isolation_level": "NAMEPLATE_TRIMMED_BACKGROUND_AND_SOME_TEXT_REMAIN",
+      "source_primary_supersession": false,
+      "subject_isolation_qa": "ISOLATION_QA_HOLD",
+      "rendering_eligible": false
+    }
+  ]
+}
