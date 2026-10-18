@@ -21,3 +21,13 @@ primary:
   renderer_mount: "NOT_PROVEN"
 supersession_state: "CURRENT_IDENTITY_AUTHORITY"
 rule: "A Library-visible image or conversation file ID is not a durable renderer mount. Generation remains blocked until exact bytes are repository-addressable, rehashed, mounted, subject-bound, and receipted."
+
+lineup_presentation_approval_2026_10_18:
+  state: "COMMISSIONER_APPROVED_VISUAL_PRESENTATION"
+  parent_image_sha256: "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2"
+  lineup_path: "canon/characters/assets/lineups/SCHEMIN_26_COMMISSIONER_APPROVED_LINEUP_2026_10_18.png"
+  owner_crop_path: "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png"
+  owner_crop_sha256: "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65"
+  visual_delta_path: "canon/characters/lineup_2026_10_18/CHAR-PHILLIP-PITTS.json"
+  primary_reference_supersession: false
+  approved_for_unverified_provider_generation: false
