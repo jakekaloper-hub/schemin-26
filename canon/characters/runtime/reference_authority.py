@@ -107,3 +107,72 @@ def request_authority_state(character_ids,candidates,source_registry=None,author
         "state":"REFERENCE_AUTHORITY_RESOLVED" if all(x.get("state")=="REFERENCE_AUTHORITY_RESOLVED" for x in results) else "GENERATION_BLOCKED",
         "results":results,
     }
+
+
+def resolve_approved_lineup_presentation(character_ids, repository_root=None):
+    """Return current Commissioner-approved appearance evidence, not a render permit.
+
+    This is deliberately independent of PRIMARY source-image SHA approvals and
+    native provider-mount capability. It fails closed on missing/mismatched
+    original lineup bytes, owner crop bytes, owner ID or owner-specific deltas.
+    """
+    import hashlib
+
+    def file_sha(p):
+        with p.open("rb") as handle:
+            return hashlib.file_digest(handle, "sha256").hexdigest()
+
+    root = Path(repository_root) if repository_root is not None else ROOT.parents[1]
+    master_path = root / "canon/characters/APPROVED_LINEUP_2026_10_18.json"
+    if not master_path.is_file():
+        return {"state": "GENERATION_BLOCKED", "reason": "CURRENT_APPROVED_LINEUP_UNAVAILABLE"}
+    master = json.loads(master_path.read_text())
+    members = {x["character_id"]: x for x in master.get("individuals", [])}
+    if (not isinstance(character_ids, list) or not character_ids
+            or any(not isinstance(x, str) for x in character_ids)
+            or len(character_ids) != len(set(character_ids))
+            or len(members) != 12 or not set(character_ids).issubset(members)):
+        return {"state": "GENERATION_BLOCKED", "reason": "LINEUP_CHARACTER_SET_INVALID"}
+    image_path = root / master["stored_repository_path"]
+    if not image_path.is_file() or file_sha(image_path) != master["sha256"]:
+        return {"state": "GENERATION_BLOCKED", "reason": "LINEUP_APPROVED_MASTER_SHA256_FAILED"}
+    hmb = master.get("supporting_hmb_correction", {})
+    if "CHAR-AUSTIN-BYARS" in character_ids:
+        hp = root / hmb.get("path", "")
+        if not hp.is_file() or file_sha(hp) != hmb.get("sha256"):
+            return {"state": "GENERATION_BLOCKED", "reason": "HMB_CORRECTION_EVIDENCE_MISSING"}
+    subjects = []
+    for cid in character_ids:
+        entry = members[cid]
+        crop_path = root / entry["crop"]
+        delta_path = root / entry["appearance_delta"]
+        if not crop_path.is_file() or file_sha(crop_path) != entry["crop_sha256"]:
+            return {"state": "GENERATION_BLOCKED", "reason": "LINEUP_OWNER_CROP_SHA256_FAILED", "character_id": cid}
+        if not delta_path.is_file():
+            return {"state": "GENERATION_BLOCKED", "reason": "LINEUP_OWNER_DELTA_MISSING", "character_id": cid}
+        delta = json.loads(delta_path.read_text())
+        if (delta.get("character_id") != cid
+                or delta.get("lineup_parent_sha256") != master["sha256"]
+                or delta.get("derived_crop_sha256") != entry["crop_sha256"]
+                or delta.get("primary_source_supersession_approved") is not False):
+            return {"state": "GENERATION_BLOCKED", "reason": "LINEUP_OWNER_DELTA_PROVENANCE_FAILED", "character_id": cid}
+        subjects.append({
+            "character_id": cid,
+            "presentation": delta["approved_visual_assertions"],
+            "physical_constraints": delta["physical_engine_delta"],
+            "spatial_anchor": delta["spatial_anchor"],
+            "crop_path": entry["crop"],
+            "crop_sha256": entry["crop_sha256"],
+            "not_authorized_as_primary_photo": True,
+        })
+    return {
+        "state": "COMMISSIONER_APPROVED_VISUAL_PRESENTATION_EVIDENCE",
+        "master_lineup_sha256": master["sha256"],
+        "requested_character_ids": list(character_ids),
+        "subjects": subjects,
+        "image_generation_eligible": False,
+        "C1_visual_QA_passed": False,
+        "T15": "HOLD",
+        "T16": "HOLD",
+        "next_gate": "Existing PRIMARY source and native binding controls plus actual generated-image identity QA",
+    }

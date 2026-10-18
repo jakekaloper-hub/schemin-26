@@ -44,6 +44,12 @@ Creative Claw, Higgsfield, OpenArt, Runway, Adobe paid services, fal.ai, Replica
 
 ChatGPT-native capabilities are the default funded generation/editing route within plan limits. Existing connected services may be used only at their current access level with no paid upgrade assumed.
 
+## Commissioner-approved character lineup — October 18, 2026
+
+The exact twelve-character appearance baseline is recorded at canon/characters/APPROVED_LINEUP_2026_10_18.json, grounded in the original approved PNG SHA-256 24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2. It includes owner-ID-specific reference crops, physical morphology descriptions, and spatial reconciliations using existing Atlas homelands. The separate HMB correction image is supporting appearance authority. See canon/characters/lineup_2026_10_18/BOARD_SIMULATION_AND_RELEASE_GATE.md for the distinction between Commissioner appearance approval and separately held production gates.
+
+This is the CURRENT comparative 12-character visual baseline, not a new OS, not an automatic September primary-image SHA supersession, and not a certified image-generation route. The previous bipedal DK primary remains quarantined under merged PR #197. Provider binding and generated-image C1/T15/T16 remain HOLD.
+
 ## Character native-render program
 
 **Status:** ACTIVE PROGRAM PLAN / PHASE 0 COMPLETE / PHASE 1 NEXT.
