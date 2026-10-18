@@ -13,11 +13,11 @@ primary:
   expected_repository_path: "canon/characters/assets/CHAR-MANNING-WELTY/primary/2FA6D29A-5E4C-4CA1-9790-88BE5E75F14E.jpeg"
   observed_library_size_bytes: 520546
   media_type: "image/jpeg"
-  current_state: "SOURCE_BYTES_REQUIRED"
-  actual_sha256: null
-  git_blob_sha: null
-  repository_byte_size: null
-  fresh_context_fetch: "NOT_PROVEN"
+  current_state: "PRIMARY_BYTES_VERIFIED_RENDERER_HOLD"
+  actual_sha256: "5e43eadf7ea6426ea8ba2c3af80c108714638625db5adc9d5a32492ff84fc965"
+  git_blob_sha: "0c4498d6010434516a7956a6ce5e47e523bebe06"
+  repository_byte_size: 520546
+  fresh_context_fetch: "FRESH_REMOTE_GITHUB_CLONE_VERIFIED_2026_10_17"
   renderer_mount: "NOT_PROVEN"
 supersession_state: "CURRENT"
 rule: "A Library-visible image or conversation file ID is not a durable renderer mount. Generation remains blocked until exact bytes are repository-addressable, rehashed, mounted, subject-bound, and receipted."

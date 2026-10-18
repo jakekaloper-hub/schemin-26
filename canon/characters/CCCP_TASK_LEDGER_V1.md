@@ -98,3 +98,16 @@ Authoritative current distinction:
 - C1/output-instance/Character-QA proof: OPEN.
 
 Do not request another bulk upload. Resume from durable ingestion/retrieval and binding proof.
+
+## October 17 source recovery continuation (CHAR-PORT-002)
+
+- 12/12 character identities remain canonically registered; design locks unchanged.
+- Exactly 4/12 older approved primary JPEG sources are present in Schemin PR #195: Austin Byars, Phillip Pitts, Brandon Pryor and Manning Welty. Last two recovered from authorized local browser cache; exact hash, size and GitHub readback verified.
+- Eight earlier approved primary JPEG binaries remain unavailable; nine October 12 spotlight originals reconcile to prior supplementary receipt data and one DK illustration remains NONACTIVE candidate. No auto-supersession.
+- Four deterministic source-copy diagnostic PNGs have verified per-owner input and output hashes and repeatable conversion. This is not real AI image provider subject-binding, C1 generated visual QA, or T15/T16 acceptance.
+- A recovery scanner uses only operator-specified local roots and fails closed on hash mismatch; local character suite at checkpoint 64/64 PASS. Source recovery is PARTIAL; CHAR-PORT-002, T15 and T16 cannot be closed.
+- Evidence files in canon/characters/recovery: EXACT_PRIMARY_CACHE_RECOVERY_2026_10_17.json, APPROVED_PRIMARY_REMOTE_READBACK_2026_10_17.json, and LOCAL_REFERENCE_COPY_DIAGNOSTIC_2026_10_17.json. No authenticated Umpire sign-off claimed.
+
+## October 18 DK source visual-canon conflict
+
+Review of registered DK Library preview reveals an upright bipedal Arsenal gorilla Week 3 poster, not the current Oct 2 four-legged gorilla-centaur. Old source identity and hash remain historically recorded but now have active visual-canon HOLD even after exact-byte recovery. Oct12 new pose is a nonactive candidate requiring explicit Commissioner version approval and independent C1 QA. Native handle and DK Week 4 page bindings are on visual hold. Of eight unavailable primary raw JPEGs, seven remain useful retrieval targets and DK now needs visually conformant approved supersession. Actual renderer subject-binding and T15/T16 remain gated.

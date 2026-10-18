@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "status": "LOCAL_STAGED",
+  "archive_sha256": "e132398eeb422fb859a756ccd2c461c4287c34960cb42c561654c7a2c4f2130a",
+  "n_verified": 12,
+  "n_prior_hash_matches": 2,
+  "n_versions_requiring_reconciliation": 1,
+  "n_previously_registered_supplementary": 9,
+  "github_persistence_verified": false,
+  "renderer_subject_binding_verified": false,
+  "t15": "HOLD",
+  "t16": "HOLD",
+  "items": [
+    {
+      "character_id": "CHAR-WILSON-LOOK",
+      "repository_path": "canon/characters/assets/CHAR-WILSON-LOOK/candidate/COMMISSIONER_2026-10-12.png",
+      "archive_member": "canon/characters/assets/CHAR-WILSON-LOOK/primary/COMMISSIONER_2026-10-12.png",
+      "asset_role": "NONACTIVE_VISUAL_CANDIDATE",
+      "sha256": "c4ef045845641e6e2067d1ed82be20b9a0fd154c41aff0bfec4c2e36d26d319d",
+      "git_blob_sha1": "cce192725a9b7f452072884bc13aa41833ddad0c",
+      "size_bytes": 2209166,
+      "relation_to_prior": "DIFFERENT_VERSION_REQUIRES_CANON_RECONCILIATION"
+    },
+    {
+      "character_id": "CHAR-MANNING-WELTY",
+      "repository_path": "canon/characters/assets/CHAR-MANNING-WELTY/supplementary/COMMISSIONER_2026-10-12-original.png",
+      "archive_member": "canon/characters/assets/CHAR-MANNING-WELTY/primary/COMMISSIONER_2026-10-12.png",
+      "asset_role": "SUPPLEMENTARY_REGISTERED_SPOTLIGHT_ORIGINAL",
+      "sha256": "b5b0b10e06cf0598bdc9e3501c170d14529bdb4dee31f8ee3453a40048a6099c",
+      "git_blob_sha1": "7536e1ad149bcaca17f663f9e97b819bd36e13fa",
+      "size_bytes": 2950604,
+      "relation_to_prior": "DIFFERENT_VERSION_REQUIRES_CANON_RECONCILIATION"
+    },
+    {
+      "character_id": "CHAR-KEVIN-ZEEK",
+      "repository_path": "canon/characters/assets/CHAR-KEVIN-ZEEK/supplementary/COMMISSIONER_2026-10-12-original.png",
+      "archive_member": "canon/characters/assets/CHAR-KEVIN-ZEEK/primary/COMMISSIONER_2026-10-12.png",
+      "asset_role": "SUPPLEMENTARY_REGISTERED_SPOTLIGHT_ORIGINAL",
+      "sha256": "4752363b8e55dabd530caf74bdeb2da4feaee3870377d96c3c7f5eac7027f32c",
+      "git_blob_sha1": "a3255f97169ea33251d04859b58f45539b3b67f9",
+      "size_bytes": 2720659,
+      "relation_to_prior": "DIFFERENT_VERSION_REQUIRES_CANON_RECONCILIATION"
+    },
+    {
+      "character_id": "CHAR-BOBBY-MITCHELL",
+      "repository_path": "canon/characters/assets/CHAR-BOBBY-MITCHELL/supplementary/COMMISSIONER_2026-10-12-original.png",
+      "archive_member": "canon/characters/assets/CHAR-BOBBY-MITCHELL/primary/COMMISSIONER_2026-10-12.png",
+      "asset_role": "SUPPLEMENTARY_REGISTERED_SPOTLIGHT_ORIGINAL",
+      "sha256": "462e5d6517b5653458c8d32c20692e94d037b134de7aac18325c1af41647eefc",
+      "git_blob_sha1": "8d47b202142dae4d697d940c4fab59110b2ea549",
+      "size_bytes": 3069667,
+      "relation_to_prior": "DIFFERENT_VERSION_REQUIRES_CANON_RECONCILIATION"
+    },
+    {
+      "character_id": "CHAR-AUSTIN-BYARS",
+      "repository_path": "canon/characters/assets/CHAR-AUSTIN-BYARS/primary/COMMISSIONER_2026-10-12.jpeg",
+      "archive_member": "canon/characters/assets/CHAR-AUSTIN-BYARS/primary/COMMISSIONER_2026-10-12.jpeg",
+      "asset_role": "PRIMARY_EXACT_MATCH_SOURCE",
+      "sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
+      "git_blob_sha1": "aa7e51ab08a31e6595c9c19d5eab67fb107d8dda",
+      "size_bytes": 238145,
+      "relation_to_prior": "EXACT_MATCH"
+    },
+    {
+      "character_id": "CHAR-PHILLIP-PITTS",
+      "repository_path": "canon/characters/assets/CHAR-PHILLIP-PITTS/primary/COMMISSIONER_2026-10-12.jpeg",
+      "archive_member": "canon/characters/assets/CHAR-PHILLIP-PITTS/primary/COMMISSIONER_2026-10-12.jpeg",
+      "asset_role": "PRIMARY_EXACT_MATCH_SOURCE",
+      "sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+      "git_blob_sha1": "61065d0ee5dbffb750da9aeea3f64e664f38a1be",
+      "size_bytes": 200005,
+      "relation_to_prior": "EXACT_MATCH"
+    },
+    {
+      "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "repository_path": "canon/characters/assets/CHAR-JORDAN-HOLLINGSHEAD/supplementary/COMMISSIONER_2026-10-12-original.png",
+      "archive_member": "canon/characters/assets/CHAR-JORDAN-HOLLINGSHEAD/primary/COMMISSIONER_2026-10-12.png",
+      "asset_role": "SUPPLEMENTARY_REGISTERED_SPOTLIGHT_ORIGINAL",
+      "sha256": "535d984397cd7aeeda0b83b652d35b4975fd4c0f6c52230174201720ec41a655",
+      "git_blob_sha1": "362961d4fb6f5bd5878778854b12a5b5bec1104b",
+      "size_bytes": 2743466,
+      "relation_to_prior": "DIFFERENT_VERSION_REQUIRES_CANON_RECONCILIATION"
+    },
+    {
+      "character_id": "CHAR-BRANDON-PRYOR",
+      "repository_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_2026-10-12-original.png",
+      "archive_member": "canon/characters/assets/CHAR-BRANDON-PRYOR/primary/COMMISSIONER_2026-10-12.png",
+      "asset_role": "SUPPLEMENTARY_REGISTERED_SPOTLIGHT_ORIGINAL",
+      "sha256": "17ee4bcfcd774ac649ca96df01522f16d7c4fd626f9bdd047faefa3a4d381319",
+      "git_blob_sha1": "a070a5c0608c9ff0426ff7a90fd6ca2fa8224e6e",
+      "size_bytes": 3412016,
+      "relation_to_prior": "DIFFERENT_VERSION_REQUIRES_CANON_RECONCILIATION"
+    },
+    {
+      "character_id": "CHAR-JAKE-KALOPER",
+      "repository_path": "canon/characters/assets/CHAR-JAKE-KALOPER/supplementary/COMMISSIONER_2026-10-12-original.png",
+      "archive_member": "canon/characters/assets/CHAR-JAKE-KALOPER/primary/COMMISSIONER_2026-10-12.png",
+      "asset_role": "SUPPLEMENTARY_REGISTERED_SPOTLIGHT_ORIGINAL",
+      "sha256": "cc35af31973f2a35fe0231a269923234185f9908a67545d2b2e1190d052ad9a1",
+      "git_blob_sha1": "8d7648fe510f771509e088fb78b80399b25a0425",
+      "size_bytes": 3187845,
+      "relation_to_prior": "DIFFERENT_VERSION_REQUIRES_CANON_RECONCILIATION"
+    },
+    {
+      "character_id": "CHAR-ZACH-WILSON",
+      "repository_path": "canon/characters/assets/CHAR-ZACH-WILSON/supplementary/COMMISSIONER_2026-10-12-original.png",
+      "archive_member": "canon/characters/assets/CHAR-ZACH-WILSON/primary/COMMISSIONER_2026-10-12.png",
+      "asset_role": "SUPPLEMENTARY_REGISTERED_SPOTLIGHT_ORIGINAL",
+      "sha256": "5ff6fc4fc0b2f37d76bbab8651400478e37a709418867b0fd111c993762f9eda",
+      "git_blob_sha1": "182c2c6530ea52e06cd9aab0aebb44fab16398d2",
+      "size_bytes": 2845619,
+      "relation_to_prior": "DIFFERENT_VERSION_REQUIRES_CANON_RECONCILIATION"
+    },
+    {
+      "character_id": "CHAR-BEN-WHIPPLE",
+      "repository_path": "canon/characters/assets/CHAR-BEN-WHIPPLE/supplementary/COMMISSIONER_2026-10-12-original.png",
+      "archive_member": "canon/characters/assets/CHAR-BEN-WHIPPLE/primary/COMMISSIONER_2026-10-12.png",
+      "asset_role": "SUPPLEMENTARY_REGISTERED_SPOTLIGHT_ORIGINAL",
+      "sha256": "291cdcdb8cb7504f66b556208c774d88dec0979e6fe25c68783b272541c63f70",
+      "git_blob_sha1": "37dc961af73085e306a68dd31eb1a8c5460025ae",
+      "size_bytes": 2726102,
+      "relation_to_prior": "DIFFERENT_VERSION_REQUIRES_CANON_RECONCILIATION"
+    },
+    {
+      "character_id": "CHAR-DAVID-BABB",
+      "repository_path": "canon/characters/assets/CHAR-DAVID-BABB/supplementary/COMMISSIONER_2026-10-12-original.png",
+      "archive_member": "canon/characters/assets/CHAR-DAVID-BABB/primary/COMMISSIONER_2026-10-12.png",
+      "asset_role": "SUPPLEMENTARY_REGISTERED_SPOTLIGHT_ORIGINAL",
+      "sha256": "33e70a9208b47692d9d883707236a2b3a670629e0cb3b3f84c61eacff20fea37",
+      "git_blob_sha1": "e8866792133fede5ccd2e75e3a9c9fbb71f5668f",
+      "size_bytes": 2477087,
+      "relation_to_prior": "DIFFERENT_VERSION_REQUIRES_CANON_RECONCILIATION"
+    }
+  ]
+}

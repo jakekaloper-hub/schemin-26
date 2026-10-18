@@ -1,5 +1,7 @@
 # EXISTING UNIVERSE INVENTORY V1
 
+**CURRENT BODY-FORM AUTHORITY NOTICE (2026-10-02):** The historic version below includes a superseded DK morphology claim. D0nkey K0ng / Wilson Look is the **Arsenal Gorilla Centaur Warrior**: ONE integrated gorilla upper body, FOUR-LEGGED centaur/equine lower body, Arsenal heraldry. Older 'no centaur/equine anatomy' language here is NON-AUTHORITATIVE for current character packets and artwork. Consult canon/characters/CHAR-WILSON-LOOK/REFERENCE_MANIFEST.yaml and canon/characters/CHARACTER_REGISTRY.yaml. Do not erase past version history.
+
 **Date:** 2026-09-30  
 **Status:** FOUNDATION INVENTORY / DERIVED FROM ACTIVE WORLD ENGINE V1.1  
 **Authority:** Human-readable inventory only; canonical machine location/route records remain under `world/data/`.

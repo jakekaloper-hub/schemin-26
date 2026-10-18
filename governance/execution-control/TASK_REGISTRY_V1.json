@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "authority": "PROJECT_CONTROL_REGISTRY.md + domain source authorities",
-  "generated_at": "2026-10-01",
+  "generated_at": "2026-10-17T18:47:00Z",
   "tasks": [
     {
       "task_id": "CHAR-PORT-001",
@@ -61,9 +61,9 @@
       "owner": "the_architect",
       "reviewer": "the_librarian",
       "priority": "P0",
-      "status": "READY",
+      "status": "IN_PROGRESS",
       "created_at": "2026-10-01",
-      "started_at": null,
+      "started_at": "2026-10-17T18:00:00Z",
       "completed_at": null,
       "dependencies": [
         "CHAR-PORT-001"
@@ -76,9 +76,34 @@
         "Durable locators exist for all approved current references",
         "Fresh SHA/blob receipts bind each locator to Character ID"
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "type": "github_library_readback",
+          "ref": "canon/characters/CHAR_PORT_002_RECOVERY_READBACK_2026-10-17.md",
+          "status": "PARTIAL",
+          "note": "2/12 canonical primary paths observed on main; 10 404; original Library raw-byte export unavailable; no fresh twelve-source SHA-256 or mount proof."
+        },
+        {
+          "type": "commissioner_archive_sha256_12_of_12_local_verified",
+          "ref": "canon/characters/recovery/COMMISSIONER_2026_10_12_INGEST_RECEIPT.json",
+          "status": "PARTIAL",
+          "note": "Found and hash-verified existing 2026-10-12 Commissioner ZIP on connected authorized Mac. 12 exact source binaries exist locally, 2 match earlier active SHA-256s, 10 differ by uploaded version. Local staging and fresh readback verified. Git persistence, canon supersession, renderer slot binding and T15/T16 NOT proven."
+        },
+        {
+          "type": "exact_primary_remote_readback_and_diagnostic",
+          "ref": "canon/characters/recovery/APPROVED_PRIMARY_REMOTE_READBACK_2026_10_17.json",
+          "status": "PARTIAL",
+          "note": "Fresh GitHub clone verified four exact primary SHA256s and paths including newly recovered Manning Welty and Brandon Pryor. Eight primary images still missing. Four deterministic source-copy diagnostic outputs are NOT native AI renderer subject-binding proof; T15/T16 HOLD."
+        },
+        {
+          "type": "dk_library_preview_semantic_conflict_and_fail_closed_native_binding",
+          "ref": "canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json",
+          "status": "PARTIAL",
+          "note": "2026-10-18 original DK registered Library JPEG Week 3 cover visibly shows bipedal Arsenal gorilla, conflicting with Oct 2 four-legged Arsenal gorilla-centaur current canon. Old exact SHA and Library handle in VISUAL_CANON_CONFLICT_HOLD. Oct12 stored four-legged candidate unpromoted pending Commissioner source-version approval and independent C1 visual QA. Seven other approved primary JPEG originals still require raw-byte access."
+        }
+      ],
       "source_authority": "bullpen/LIBRARIAN_THREAD_CLOSEOUT_CHARACTER_PORTABILITY_2026-10-01.md",
-      "next_action": "Resume from the already-materialized approved bytes and persist durable locators/hash receipts; do not ask for bulk re-upload.",
+      "next_action": "Resume existing CHAR-PORT-002: recover the SEVEN other pending approved primary JPEG raw bytes through authorized existing sources. For DK, require explicit Commissioner approval of the October 12 four-legged Arsenal gorilla-centaur candidate as a new primary version or another valid current-morphology source. The older bipedal Week 3 Library JPEG must never activate even with matching old SHA. Prove real renderer mounted-byte and subject binding and complete independent generated C1 output QA, Umpire T15 and T16. Do not ask the Commissioner for another bulk reference upload.",
       "aliases": [
         "character portability",
         "durable asset ingestion",
@@ -254,10 +279,10 @@
       "workstream": "League Truth",
       "owner": "the_scout",
       "reviewer": "the_umpire",
-      "priority": "P0",
-      "status": "WAITING_EXTERNAL",
+      "priority": "P1",
+      "status": "IN_PROGRESS",
       "created_at": "2026-10-01",
-      "started_at": null,
+      "started_at": "2026-10-17T18:00:00Z",
       "completed_at": null,
       "dependencies": [
         "MEMO-W4-001"
@@ -278,10 +303,22 @@
           "ref": "memo-os/week-4/WEEK_4_LIVING_STORY_ROOM_PROMOTION_RECEIPT_2026-10-01.md",
           "status": "PENDING",
           "note": "Receipt records all six matchups undecided at current capture."
+        },
+        {
+          "type": "flaim_espn_week4_outcome_readback",
+          "ref": "governance/execution-control/FLA_ORIENTOR_NEXT_RECONCILIATION_2026-10-17.md",
+          "status": "PARTIAL",
+          "note": "Six Week 4 matchups decided on 2026-10-17 provider read; post-Week-4 standings and material transaction/injury Fact Lock still unresolved. Not a Memo release receipt."
+        },
+        {
+          "type": "priority_reconciliation",
+          "ref": "governance/execution-control/FLA_ORIENTOR_NEXT_RECONCILIATION_2026-10-17.md",
+          "status": "OBSERVED",
+          "note": "Week 4 is historical following Week 5's Commissioner-confirmed distribution; live production character recovery retains P0 priority."
         }
       ],
       "source_authority": "memo-os/week-4/WEEK_4_FACT_SCOPE_AND_EVIDENCE_REGISTER_V1.md",
-      "next_action": "Refresh Flaim/ESPN evidence after games finalize; projections cannot close this task.",
+      "next_action": "Historical fact-closure P1 (not current weekly publication P0): reconcile Week 4 end-week standings, material transactions/injuries and Fact Scope, then evidence-backed Scout/Umpire closure. Do not block urgent CHAR-PORT-002 recovery or Week 6 setup.",
       "aliases": [
         "continue week 4 memo",
         "week 4 final evidence",
@@ -855,7 +892,86 @@
       ],
       "supersedes": [],
       "superseded_by": null
+    },
+    {
+      "task_id": "MEMO-W6-001",
+      "title": "Week 6 live facts and six-fixture setup preproduction",
+      "project": "Schemin '26",
+      "program": "Weekly Memo",
+      "roadmap": "Week 6 Memo Production",
+      "phase": "Preproduction / Live Setup",
+      "milestone": "Six fixtures grounded, conditional packets before result-lock",
+      "workstream": "League Truth + Memo Story Room",
+      "owner": "the_groundskeeper",
+      "reviewer": "the_umpire",
+      "priority": "P1",
+      "status": "IN_PROGRESS",
+      "created_at": "2026-10-17",
+      "started_at": "2026-10-17T18:00:00Z",
+      "completed_at": null,
+      "dependencies": [],
+      "blocked_by": [],
+      "blocks": [],
+      "acceptance_criteria": [
+        "Six verified Week 6 host/away fixtures and pre-Week-6 standings identified with connected ESPN data and freshness boundaries",
+        "Every matchup has only conditional setup hypotheses until final results and World/Atlas venue/route proof",
+        "No character-bearing production bypasses active raw-byte, subject-binding and final-raster character QA gates",
+        "Before release, actual Week 6 final scores, complete page set, deterministic typography, true PDF bytes and independent review must pass owning Memo gates"
+      ],
+      "evidence": [
+        {
+          "type": "flaim_espn_week6_intake",
+          "ref": "memo-os/week-6/WEEK_6_FLAIM_SETUP_INTAKE_2026-10-17.md",
+          "status": "PARTIAL",
+          "note": "Connected league and six fixtures plus Week 5 completed results, standings, and limited transaction rows observed. Six Week 6 winners still UNDECIDED; no art or production release."
+        }
+      ],
+      "source_authority": "memo-os/week-6/WEEK_6_FLAIM_SETUP_INTAKE_2026-10-17.md",
+      "next_action": "Resolve six canonical home-venue/route packets and distinct conditional story briefs, then refresh FLAIM as Week 6 games finish. Await CHAR-PORT-002 and dependent renderer/QA gates for character-bearing final art.",
+      "aliases": [
+        "week 6",
+        "week six memo",
+        "week 6 preproduction"
+      ],
+      "supersedes": [],
+      "superseded_by": null
     }
   ],
-  "history": []
+  "history": [
+    {
+      "task_id": "CHAR-PORT-002",
+      "from": "READY",
+      "to": "IN_PROGRESS",
+      "at": "2026-10-17T18:00:00Z",
+      "evidence_ref": "canon/characters/CHAR_PORT_002_RECOVERY_READBACK_2026-10-17.md"
+    },
+    {
+      "task_id": "MEMO-W4-002",
+      "from": "WAITING_EXTERNAL",
+      "to": "IN_PROGRESS",
+      "at": "2026-10-17T18:00:00Z",
+      "evidence_ref": "governance/execution-control/FLA_ORIENTOR_NEXT_RECONCILIATION_2026-10-17.md"
+    },
+    {
+      "task_id": "MEMO-W6-001",
+      "from": null,
+      "to": "IN_PROGRESS",
+      "at": "2026-10-17T18:00:00Z",
+      "evidence_ref": "memo-os/week-6/WEEK_6_FLAIM_SETUP_INTAKE_2026-10-17.md"
+    },
+    {
+      "task_id": "MEMO-W4-002",
+      "from_priority": "P0",
+      "to_priority": "P1",
+      "at": "2026-10-17T18:08:00Z",
+      "evidence_ref": "governance/execution-control/FLA_ORIENTOR_NEXT_RECONCILIATION_2026-10-17.md"
+    },
+    {
+      "task_id": "CHAR-PORT-002",
+      "at": "2026-10-17T18:47:00Z",
+      "event": "SOURCE_BYTES_RECOVERED_LOCAL_12_OF_12",
+      "evidence_ref": "canon/characters/recovery/COMMISSIONER_2026_10_12_INGEST_RECEIPT.json",
+      "status": "PARTIAL"
+    }
+  ]
 }

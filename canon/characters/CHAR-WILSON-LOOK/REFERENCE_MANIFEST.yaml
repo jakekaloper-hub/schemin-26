@@ -19,6 +19,8 @@ primary:
   repository_byte_size: null
   fresh_context_fetch: "NOT_PROVEN"
   renderer_mount: "NOT_PROVEN"
+  visual_semantic_review_state: "ACTIVE_CANON_VISUAL_CONFLICT_HOLD"
+  semantic_review_evidence: "2026-10-18 direct visual inspection of original Library file shows historical bipedal DK Week 3 cover; conflicts with 2026-10-02 four-legged canon"
 supersession_state: "CURRENT_COMMISSIONER_CLARIFIED_2026_10_02"
 rule: "A Library-visible image or conversation file ID is not a durable renderer mount. Generation remains blocked until exact bytes are repository-addressable, rehashed, mounted, subject-bound, and receipted."
 
@@ -27,3 +29,11 @@ supplementary_historical_cover:
   repository_path: "canon/characters/assets/CHAR-WILSON-LOOK/supplementary/WEEK_03_LAST_UNDEFEATED_COVER.png"
   visual_receipt: "canon/characters/CHAR-WILSON-LOOK/W3_COVER_VISUAL_REFERENCE_RECEIPT.json"
   primary_identity_supersession: false
+
+current_version_review_2026_10_18:
+  original_jpeg_raw_bytes_state: "SOURCE_BYTES_REQUIRED"
+  registered_old_primary_shaunchanged: true
+  original_image_current_semantics: "HOLD_BIPEDAL_CONFLICT"
+  oct12_four_legged_candidate: "canon/characters/assets/CHAR-WILSON-LOOK/candidate/COMMISSIONER_2026-10-12.png"
+  candidate_approved_primary: false
+  unblock_requires: "Commissioner-approved version supersession plus fresh candidate hash / mount / independent C1 Character QA"

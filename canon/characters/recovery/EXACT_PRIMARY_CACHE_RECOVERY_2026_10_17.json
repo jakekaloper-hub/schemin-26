@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "mission": "CHAR-PORT-002",
+  "date": "2026-10-17",
+  "status": "TWO_ADDITIONAL_EXACT_PRIMARY_FILES_RECOVERED_LOCALLY",
+  "source_bytes": "FOUND_IN_PREEXISTING_AUTHORIZED_LOCAL_BROWSER_CACHE",
+  "approved_prior_sha256_match": true,
+  "n_new_verified": 2,
+  "remaining_prior_primary_count": 6,
+  "renderer_mount_verified": false,
+  "t15": "HOLD",
+  "t16": "HOLD",
+  "items": [
+    {
+      "character_id": "CHAR-MANNING-WELTY",
+      "repository_path": "canon/characters/assets/CHAR-MANNING-WELTY/primary/2FA6D29A-5E4C-4CA1-9790-88BE5E75F14E.jpeg",
+      "expected_sha256": "5e43eadf7ea6426ea8ba2c3af80c108714638625db5adc9d5a32492ff84fc965",
+      "sha256": "5e43eadf7ea6426ea8ba2c3af80c108714638625db5adc9d5a32492ff84fc965",
+      "size_bytes": 520546,
+      "git_blob_sha1": "0c4498d6010434516a7956a6ce5e47e523bebe06",
+      "source_kind": "AUTHORIZED_LOCAL_WEBKIT_CACHE_EXACT_HASH_MATCH",
+      "approval_authority": "EXISTING_CANON_REFERENCE_SOURCES_V1",
+      "active_primary": true,
+      "renderer_mount_verified": false,
+      "subject_binding_verified": false
+    },
+    {
+      "character_id": "CHAR-BRANDON-PRYOR",
+      "repository_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/primary/76344FB3-1974-48D0-AA90-8B231E6008F7.jpeg",
+      "expected_sha256": "0bb99794f3a0b9fa1a7f791e17e6885fffcca4b79c824057623bab5c74598cfe",
+      "sha256": "0bb99794f3a0b9fa1a7f791e17e6885fffcca4b79c824057623bab5c74598cfe",
+      "size_bytes": 767855,
+      "git_blob_sha1": "a31397a0cde639d99e32558d9700ce4d2e759dc0",
+      "source_kind": "AUTHORIZED_LOCAL_WEBKIT_CACHE_EXACT_HASH_MATCH",
+      "approval_authority": "EXISTING_CANON_REFERENCE_SOURCES_V1",
+      "active_primary": true,
+      "renderer_mount_verified": false,
+      "subject_binding_verified": false
+    }
+  ]
+}
