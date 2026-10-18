@@ -18,7 +18,7 @@ def asof(*, character_id, scene_year, scene_week):
     for e in graph["edges"]:
         if name not in (e["source"],e["target"]):continue
         anchor=e.get("temporal_anchor","")
-        match=re.fullmatch(r"(20\\d{2}) W(\\d{1,2})(?: onward)?",anchor)
+        match=re.fullmatch(r"(20[0-9]{2}) W([0-9]{1,2})(?: onward)?",anchor)
         # Annual and multiyear anchors do not certify a particular scene-week.
         if not match:
             withheld.append({"id":e["id"],"reason":"ANCHOR_NOT_WEEK_SPECIFIC"});continue
