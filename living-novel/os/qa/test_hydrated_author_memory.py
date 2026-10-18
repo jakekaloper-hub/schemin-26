@@ -26,4 +26,14 @@ class HydratedTests(unittest.TestCase):
   self.assertIsNone(b["period_division_id"])
  def test_invalid_year_rejected(self):
   with self.assertRaises(ValueError):m.hydrate(character_id="CHAR-JAKE-KALOPER",scene_year=2014,scene_week=2)
+ def test_historical_year_specific_retrieval_with_explicit_identity(self):
+  x=m.hydrate(character_id="CHAR-JAKE-KALOPER",scene_year=2018,scene_week=10,
+              historical_identity_links={"CHAR-JAKE-KALOPER":[1]})
+  self.assertTrue(x["character_matchups"])
+  self.assertTrue(all((e["season"],e["week"]) <= (2018,10) for e in x["character_matchups"]))
+  self.assertTrue(all(e["season"]<=2018 for e in x["other_public_matchups"]))
+ def test_without_proven_identity_no_historical_personal_matchups(self):
+  x=m.hydrate(character_id="CHAR-JAKE-KALOPER",scene_year=2025,scene_week=17)
+  self.assertEqual(x["character_matchups"],[])
+  self.assertGreater(len(x["other_public_matchups"]),0)
 if __name__=="__main__":unittest.main()
