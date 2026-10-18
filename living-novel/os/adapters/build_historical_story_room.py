@@ -22,7 +22,8 @@ def build(year:int)->dict:
     if len(finals)!=1: raise ValueError("missing or ambiguous verified championship")
     teams=sorted({int(t) for g in games for t in (g["home_id"],g["away_id"]) if t is not None})
     week_numbers=sorted({g["week"] for g in games})
-    return {"season":year,"status":"SOURCE_BACKED_NONCANON_STORY_ROOM",
+    coverage = "PARTIAL_TEAM_ID_SOURCE_GAP" if len(teams)!=12 else "TWELVE_SLOT_MATCHUP_IDS_RESOLVED"
+    return {"season":year,"status":"SOURCE_BACKED_NONCANON_STORY_ROOM", "team_identity_coverage":coverage,
       "source_paths":[str((EVIDENCE/(f"G01_{year}_FULL_WEEKLY_MATCHUPS.json" if year!=2022 else "G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json")).relative_to(ROOT)),
           "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json"],
       "game_row_count":len(games),"historical_team_slots":teams,"scoring_weeks":week_numbers,
@@ -31,7 +32,7 @@ def build(year:int)->dict:
       "scene_candidates":[{"kind":"opening","anchor":"earliest verified matchups","week":week_numbers[0]},
                           {"kind":"midseason","anchor":"midseason evidence anchor","week":week_numbers[len(week_numbers)//2]},
                           {"kind":"final","anchor":"verified winner-bracket championship","week":finals[0]["final_scoring_week"]}],
-      "evidence_limits":["Historical team slot is not proof of current owner identity",
+      "evidence_limits":(["Team identity incomplete in provider extract; do not join unnamed rows to owner slots"] if coverage!="TWELVE_SLOT_MATCHUP_IDS_RESOLVED" else []) + ["Historical team slot is not proof of current owner identity",
           "Division memberships unknown without annual source","No vintage preseason projection assumed",
           "No trade or waiver cause derived from roster differences",
           "2015–2017 identical roster snapshots unsuitable as season-change evidence" if year<=2017 else "Two-point roster comparison does not establish transaction timeline",
