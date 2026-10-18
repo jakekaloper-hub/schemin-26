@@ -56,6 +56,10 @@ def hydrate(*, character_id:str, scene_year:int, scene_week:int, historical_iden
     division_state=division.season_divisions(season=scene_year,
                           division_data=_load(ROOT/"world/data/divisions.json"))
     team_id=next(d["team_id"] for d in owner_domains["domains"] if d["character_id"]==character_id)
+    identity=_module("period_identity",ROOT/"living-novel/os/adapters/historical_owner_identity.py")
+    relation=_module("story_overlay",ROOT/"living-novel/os/adapters/story_continuity_context.py")
+    context["period_owner_identity_evidence"]=identity.season_slot_evidence(scene_year)
+    context["relationship_and_story_obligations"]=relation.asof(character_id=character_id,scene_year=scene_year,scene_week=scene_week)
     context["world_memory_events_as_of_scene"]=visible
     context["world_memory_withheld_future_or_unresolved"]=withheld
     context["period_division_id"]=division_state["assignments"].get(team_id)
