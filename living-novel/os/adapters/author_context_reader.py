@@ -41,7 +41,10 @@ def author_context(*, character_id: str, scene_year: int, scene_week: int,
                  "away_points": row.get("away_points"), "winner": row.get("winner"),
                  "source_status": "HISTORICAL_MATCHUP_RECORD"}
         involved = {row.get("home_team_id"), row.get("away_team_id")}
-        if involved & permitted_team_ids:
+        # The registered 2026 team slot never licenses older-season personal history.
+        # Only independently provided historical identity links permit that attribution.
+        allowed = {int(t) for t in proven} if year < 2026 else permitted_team_ids
+        if involved & allowed:
             factual.append(entry)
         else:
             unresolved.append(entry)
