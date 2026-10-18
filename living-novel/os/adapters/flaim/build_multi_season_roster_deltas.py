@@ -22,7 +22,8 @@ def build(season: int):
               "retained_count":len(left.keys()&right.keys()),
               "transaction_type":"UNKNOWN_UNVERIFIED",
               "season_division":"UNKNOWN_UNLESS_SEASON_SOURCE_PROVIDED"})
-    return {"season":season,"source":"Flaim ESPN historical weekly roster snapshots",
+    temporal_quality = "SUSPICIOUS_IDENTICAL_EARLY_SNAPSHOTS" if season <= 2017 else "TWO_SNAPSHOT_COMPARISON"
+    return {"season":season,"temporal_quality":temporal_quality,"source":"Flaim ESPN historical weekly roster snapshots",
       "provenance":"season-scoped provider team IDs, not verified actual human owner identity",
       "teams":sorted(teams,key=lambda t:t["historical_team_id"])}
 if __name__=="__main__":
