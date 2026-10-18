@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "commissioner_decision": "CREATIVE_LOCK_NOT_CANONICAL_APPROVAL",
   "source": "Schemin26_Week6_Six_Standalone_Environment_Candidates.zip",
-  "status": "EXACT_SOURCE_BYTES_VERIFIED_IN_CHAT_SANDBOX_NOT_YET_REPO_MOUNTED",
+  "status": "SIX_EXACT_PNG_BYTES_COMMITTED_TO_PR202_CANDIDATE_BRANCH_CLEAN_CLONE_VERIFIED",
   "assets": [
     {
       "location_id": "LOC-RED-RUINS",
@@ -13,7 +13,7 @@
       "width": 1672,
       "height": 941,
       "candidate_uri": "world/environment-references/candidates/week-6/LOC-RED-RUINS/CINEMATIC_CANDIDATE_V1.png",
-      "candidate_uri_status": "NOT_YET_WRITTEN"
+      "candidate_uri_status": "STAGED_ON_PR202_BRANCH_HASH_VERIFIED_NOT_CANONICALLY_APPROVED"
     },
     {
       "location_id": "LOC-COUNTRY-CLUB-JACKSON",
@@ -24,7 +24,7 @@
       "width": 1672,
       "height": 941,
       "candidate_uri": "world/environment-references/candidates/week-6/LOC-COUNTRY-CLUB-JACKSON/CINEMATIC_CANDIDATE_V1.png",
-      "candidate_uri_status": "NOT_YET_WRITTEN"
+      "candidate_uri_status": "STAGED_ON_PR202_BRANCH_HASH_VERIFIED_NOT_CANONICALLY_APPROVED"
     },
     {
       "location_id": "LOC-SLOB-FOOTHILL-CAMP",
@@ -35,7 +35,7 @@
       "width": 1672,
       "height": 941,
       "candidate_uri": "world/environment-references/candidates/week-6/LOC-SLOB-FOOTHILL-CAMP/CINEMATIC_CANDIDATE_V1.png",
-      "candidate_uri_status": "NOT_YET_WRITTEN"
+      "candidate_uri_status": "STAGED_ON_PR202_BRANCH_HASH_VERIFIED_NOT_CANONICALLY_APPROVED"
     },
     {
       "location_id": "LOC-CHILI-STABLE",
@@ -46,7 +46,7 @@
       "width": 1672,
       "height": 941,
       "candidate_uri": "world/environment-references/candidates/week-6/LOC-CHILI-STABLE/CINEMATIC_CANDIDATE_V1.png",
-      "candidate_uri_status": "NOT_YET_WRITTEN"
+      "candidate_uri_status": "STAGED_ON_PR202_BRANCH_HASH_VERIFIED_NOT_CANONICALLY_APPROVED"
     },
     {
       "location_id": "LOC-MUD-DOGS-SWAMP",
@@ -57,7 +57,7 @@
       "width": 1672,
       "height": 941,
       "candidate_uri": "world/environment-references/candidates/week-6/LOC-MUD-DOGS-SWAMP/CINEMATIC_CANDIDATE_V1.png",
-      "candidate_uri_status": "NOT_YET_WRITTEN"
+      "candidate_uri_status": "STAGED_ON_PR202_BRANCH_HASH_VERIFIED_NOT_CANONICALLY_APPROVED"
     },
     {
       "location_id": "LOC-TDS-WATERFALL-TEMPLE",
@@ -68,7 +68,12 @@
       "width": 1672,
       "height": 941,
       "candidate_uri": "world/environment-references/candidates/week-6/LOC-TDS-WATERFALL-TEMPLE/CINEMATIC_CANDIDATE_V1.png",
-      "candidate_uri_status": "NOT_YET_WRITTEN"
+      "candidate_uri_status": "STAGED_ON_PR202_BRANCH_HASH_VERIFIED_NOT_CANONICALLY_APPROVED"
     }
-  ]
+  ],
+  "git_branch": "memo/week6-cinematic-asset-ingestion-20261018",
+  "proof_commit": "2c78205abf71d5d48e65c4256a9633459ef4074e",
+  "canonical_approval": "NOT_GRANTED",
+  "runtime_renderer_mount": "NOT_TESTED",
+  "approved_cinematic_registry_mutation": "NONE"
 }
