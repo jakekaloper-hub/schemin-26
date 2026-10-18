@@ -23,7 +23,7 @@ def stage(path:Path,write=False):
   assert set(files)=={v[0] for v in EXPECTED.values()},"PNG_MEMBERSHIP_DRIFT"
   for loc,(name,digest) in EXPECTED.items():
    data=z.read(files[name])
-   assert data[:8]==b"\\x89PNG\\r\\n\\x1a\\n".decode("unicode_escape").encode("latin1"),(loc,"INVALID_PNG")
+   assert data[:8]==bytes.fromhex("89504e470d0a1a0a"),(loc,"INVALID_PNG")
    actual=hashlib.sha256(data).hexdigest()
    assert actual==digest,(loc,"SOURCE_BYTE_HASH_MISMATCH",actual)
    # PNG IHDR width/height are big endian at byte offsets 16..23
