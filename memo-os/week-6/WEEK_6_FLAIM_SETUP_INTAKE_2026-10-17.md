@@ -102,3 +102,7 @@ The following default home anchors come from the **existing twelve-owner locatio
 Continue existing Week 6 production under Memo OS rather than create another OS: source refresh → facts separation → host/venue/route authority → 6 story packets → character-gate closure → controlled render C1 → page QA → final results → independent acceptance → Commissioner publication gate.
 
 **Evidence status:** FLAIM/ESPN observed in connected live session, documented on a *review branch*. GitHub CI and Umpire review still required. No final artwork, PDF or release was produced.
+
+## October 18 DK source gate — Red Leopards hosting DK
+
+The old registered DK Week 3-cover JPEG depicts an upright Arsenal gorilla inconsistent with current four-legged Arsenal gorilla-centaur body canon. It is now ACTIVE_VISUAL_CANON_CONFLICT_HOLD even if original raw bytes are recovered. The October 12 four-legged illustration is an unpromoted candidate, not a substitute primary. Do not generate final Red Leopards versus DK art using the old source or candidate until explicit source-version and true binding plus generated-output acceptance gates pass.

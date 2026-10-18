@@ -29,7 +29,8 @@ class CurrentCharacterPreflightTests(unittest.TestCase):
         self.assertEqual(report["source_verified_count"],0)
         self.assertEqual(report["source_required_count"],8)
         self.assertEqual(set(report["missing_character_ids"]),set(ids))
-        self.assertEqual(report["reason"],"APPROVED_PRIMARY_BYTES_MISSING")
+        self.assertEqual(report["reason"],"ACTIVE_VISUAL_CANON_CONFLICT")
+        self.assertEqual(report["visual_conflict_character_ids"],["CHAR-WILSON-LOOK"])
         self.assertFalse(report["generation_eligible"])
 
     def test_duplicate_and_unknown_characters_are_rejected(self):

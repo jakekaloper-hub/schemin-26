@@ -209,10 +209,23 @@ def preflight_character_set(
 
     missing = [r["character_id"] for r in requested if r["source_state"] == "SOURCE_BYTES_REQUIRED"]
     corrupt = [r["character_id"] for r in requested if r["source_state"] == "GENERATION_BLOCKED"]
+    visual_authority = json.loads((root / "canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json").read_text())
+    visual_conflicts = [
+        r["character_id"]
+        for r in requested
+        if any(
+            c.get("character_id") == r["character_id"]
+            and c.get("state") == "ACTIVE_CANON_VISUAL_CONFLICT_HOLD"
+            and c.get("affected_expected_sha256") == r["approved_primary_sha256"]
+            for c in visual_authority.get("source_visual_conflicts", [])
+        )
+    ]
     capability = json.loads((root / "canon/characters/renderer_capabilities_v1.json").read_text())
     route_result = negotiate(renderer_route, capability["routes"], len(character_ids))
     if corrupt:
         reason = "APPROVED_PRIMARY_HASH_OR_SIZE_MISMATCH"
+    elif visual_conflicts:
+        reason = "ACTIVE_VISUAL_CANON_CONFLICT"
     elif missing:
         reason = "APPROVED_PRIMARY_BYTES_MISSING"
     elif route_result["state"] != "CAPABILITY_VERIFIED":
@@ -228,6 +241,7 @@ def preflight_character_set(
         "requested_character_ids": list(character_ids),
         "missing_character_ids": missing,
         "corrupt_character_ids": corrupt,
+        "visual_conflict_character_ids": visual_conflicts,
         "route": renderer_route,
         "route_state": route_result["state"],
         "route_reason": route_result.get("reason"),
