@@ -73,6 +73,20 @@ def validate_reference_candidate(character_id,candidate,source_registry=None,aut
             "observed_sha256":sha,
         }
 
+    for conflict in authority.get("source_visual_conflicts", []):
+        if (
+            conflict.get("character_id") == character_id
+            and conflict.get("state") == "ACTIVE_CANON_VISUAL_CONFLICT_HOLD"
+            and sha.lower() == conflict.get("affected_expected_sha256", "").lower()
+        ):
+            return {
+                "state": "GENERATION_BLOCKED",
+                "reason": "ACTIVE_VISUAL_CANON_CONFLICT",
+                "character_id": character_id,
+                "review_gate": conflict["state"],
+                "source_sha256": sha,
+            }
+
     return {
         "state":"REFERENCE_AUTHORITY_RESOLVED",
         "character_id":character_id,
