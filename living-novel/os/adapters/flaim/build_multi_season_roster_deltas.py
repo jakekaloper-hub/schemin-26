@@ -5,8 +5,8 @@ ROOT=Path(__file__).resolve().parents[4]
 BASE=ROOT/"living-novel/production/full-rewrite-2026/evidence"
 
 def build(season: int):
-    if season not in range(2017,2026):
-        raise ValueError("Only 2017–2025 snapshots source-backed")
+    if season not in range(2015,2026):
+        raise ValueError("Only 2015–2025 snapshots source-backed")
     teams=[]
     for segment in (("1_3","4_6","7_9","10_12") if season in (2017,2018) else ("1_6","7_12")):
         doc=json.loads((BASE/f"G01_{season}_ROSTER_SLOTS_{segment}{'' if season in (2017,2018) else '_W1_W14'}.json").read_text())
