@@ -21,9 +21,20 @@ def hydrate(*, character_id:str, scene_year:int, scene_week:int, historical_iden
     if not isinstance(scene_week,int) or not 1 <= scene_week <= 19:
         raise ValueError("invalid scene week")
     owner_domains=_load(ROOT/"world/data/owner_domains.json")
-    archive=_load(EVIDENCE/"G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json")
-    # Historical 2022 rows only; no fabricated generic season records.
-    rows=[dict(r,season=2022) for r in archive["rows"]]
+    rows=[]
+    for year in range(2015, min(scene_year, 2025)+1):
+        if year == 2022:
+            archive=_load(EVIDENCE/"G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json")
+            rows.extend(dict(r,season=year) for r in archive["rows"])
+        else:
+            archive=_load(EVIDENCE/f"G01_{year}_FULL_WEEKLY_MATCHUPS.json")
+            for period in archive["weeks"]:
+                for game in period["matchups"]:
+                    rows.append({"season":year,"week":period["week"],
+                        "home_team_id":game.get("home_id"),"away_team_id":game.get("away_id"),
+                        "home_points":game.get("hp"),"away_points":game.get("ap"),
+                        "winner":game.get("winner"),"source_period":game.get("period"),
+                        "source_tier":game.get("tier")})
     reader=_module("author_reader",ROOT/"living-novel/os/adapters/author_context_reader.py")
     context=reader.author_context(character_id=character_id,scene_year=scene_year,scene_week=scene_week,
                                    owner_domains=owner_domains,historical_rows=rows,
