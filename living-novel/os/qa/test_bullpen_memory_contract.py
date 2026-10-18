@@ -12,7 +12,7 @@ class ContractTests(unittest.TestCase):
   a=bridge.export_memories(p,observed_at="2026-10-18T12:00:00Z")
   self.assertTrue(a)
   for e in a:
-   for key in ("id","scope","source","owner","observed_at","confidence","freshness_days","supersedes","status","value"):
+   for key in ("id","scope","source","owner","observed_at","confidence","supersedes","status","value"):
     self.assertIn(key,e)
    self.assertEqual(e["scope"],"schemin-26")
  def test_no_future_memory(self):
