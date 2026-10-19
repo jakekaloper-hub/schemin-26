@@ -27,7 +27,7 @@ test('bookmark identity and spoiler boundary reject forged or unsupported POVs',
 
 test('reader identities match canonical character registry on repository checkout',()=>{
  const registry=readFileSync(new URL('../../../canon/characters/CHARACTER_REGISTRY.yaml',import.meta.url),'utf8');
- const canonical=[...registry.matchAll(/^  - \\{id: (CHAR-[A-Z-]+), owner: [^,]+, team: (?:"([^"]+)"|'([^']+)'|([^,}]+)),/gm)].map(m=>({id:m[1],team:(m[2]??m[3]??m[4]).trim()}));
+ const canonical=[...registry.matchAll(/^  - \{id: (CHAR-[A-Z-]+), owner: [^,]+, team: (?:"([^"]+)"|'([^']+)'|([^,}]+)),/gm)].map(m=>({id:m[1],team:(m[2]??m[3]??m[4]).trim()}));
  assert.equal(canonical.length,12,'canonical registry must resolve twelve entries');
  assert.deepEqual(availablePOVs.map(({id,team})=>({id,team})),canonical,'reader roster drifted from canonical registry');
 });
