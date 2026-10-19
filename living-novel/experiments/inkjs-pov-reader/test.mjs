@@ -24,3 +24,10 @@ test('bookmark identity and spoiler boundary reject forged or unsupported POVs',
  assert.throws(()=>restore(source,JSON.stringify(valid)+' '.repeat(1100000)),/Invalid bookmark size/);
  assert.throws(()=>bookmark(story,'CHAR-JAKE-KALOPER','x'.repeat(100001)),/Invalid bookmark transcript/);
 });
+
+test('reader identities match canonical character registry on repository checkout',()=>{
+ const registry=readFileSync(new URL('../../../canon/characters/CHARACTER_REGISTRY.yaml',import.meta.url),'utf8');
+ const canonical=[...registry.matchAll(/^  - \\{id: (CHAR-[A-Z-]+), owner: [^,]+, team: (?:"([^"]+)"|'([^']+)'|([^,}]+)),/gm)].map(m=>({id:m[1],team:(m[2]??m[3]??m[4]).trim()}));
+ assert.equal(canonical.length,12,'canonical registry must resolve twelve entries');
+ assert.deepEqual(availablePOVs.map(({id,team})=>({id,team})),canonical,'reader roster drifted from canonical registry');
+});
