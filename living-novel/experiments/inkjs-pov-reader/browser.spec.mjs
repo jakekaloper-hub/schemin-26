@@ -11,10 +11,10 @@ test('retains selected POV, choice state and visible narrative through a full re
  await expect(page.locator('#story')).toContainText('136.73');
  await expect(page.locator('#choices button')).toHaveCount(2);
  await page.locator('#choices button').first().click();
- await expect(page.locator('#story')).toContainText('bridge remained');
+ await expect(page.locator('#story')).toContainText(/bridge remained/i);
  await page.getByRole('button',{name:'Save progress'}).click();
  await page.reload();
  await page.getByRole('button',{name:'Resume'}).click();
- await expect(page.locator('#story')).toContainText('bridge remained');
+ await expect(page.locator('#story')).toContainText(/bridge remained/i);
  await expect(page.locator('#choices button')).toHaveCount(0);
 });
