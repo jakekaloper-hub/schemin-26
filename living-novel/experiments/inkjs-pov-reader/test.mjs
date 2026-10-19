@@ -1,6 +1,26 @@
-import test from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';import {availablePOVs,createReader,readToChoice,bookmark,restore,event} from './engine.mjs';
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {availablePOVs,createReader,readToChoice,bookmark,restore,event} from './engine.mjs';
 const source=readFileSync(new URL('./story.ink',import.meta.url),'utf8');
 test('twelve unique canonical IDs and two available routes',()=>{assert.equal(availablePOVs.length,12);assert.equal(new Set(availablePOVs.map(c=>c.id)).size,12);assert.equal(availablePOVs.filter(c=>c.implemented).length,2);});
-test('historical score consistency across both POVs',()=>{for(const id of ['CHAR-JAKE-KALOPER','CHAR-PHILLIP-PITTS']){const story=createReader(source,id);const o=readToChoice(story);assert.match(o.text,/136\.73/);assert.match(o.text,/114\.50/);assert.equal(o.choices.length,2);story.ChooseChoiceIndex(0);assert.match(readToChoice(story).text,/bridge remained/);}assert.ok(Object.isFrozen(event.score));});
+test('historical score consistency across both POVs',()=>{for(const id of ['CHAR-JAKE-KALOPER','CHAR-PHILLIP-PITTS']){const story=createReader(source,id);const o=readToChoice(story);assert.match(o.text,/136\\.73/);assert.match(o.text,/114\\.50/);assert.equal(o.choices.length,2);story.ChooseChoiceIndex(0);assert.match(readToChoice(story).text,/bridge remained/);}assert.ok(Object.isFrozen(event.score));});
 test('bookmark restoration retains choices',()=>{const pov='CHAR-PHILLIP-PITTS';const story=createReader(source,pov);readToChoice(story);const restored=restore(source,bookmark(story,pov));assert.equal(restored.pov,pov);assert.equal(restored.story.currentChoices.length,2);restored.story.ChooseChoiceIndex(1);assert.match(readToChoice(restored.story).text,/A score could decide/);});
 test('unapproved POV fails closed',()=>assert.throws(()=>createReader(source,'CHAR-KEVIN-ZEEK'),/not implemented/));
+test('bookmark identity and spoiler boundary reject forged or unsupported POVs',()=>{
+ const story=createReader(source,'CHAR-JAKE-KALOPER');readToChoice(story);
+ const valid=JSON.parse(bookmark(story,'CHAR-JAKE-KALOPER','Visible passage'));
+ for(const payload of [
+  {...valid,pov:'CHAR-KEVIN-ZEEK'},
+  {...valid,pov:'__proto__'},
+  {...valid,eventId:'W4-FUTURE'},
+  {...valid,schema:2},
+  {...valid,transcript:null},
+  {...valid,transcript:'future'.repeat(20000)},
+  {...valid,storyState:{unexpected:'object'}},
+  {...valid,storyState:''}
+ ])assert.throws(()=>restore(source,JSON.stringify(payload)),/Invalid bookmark/);
+ assert.throws(()=>restore(source,'not json'),/Invalid bookmark JSON/);
+ assert.throws(()=>restore(source,JSON.stringify(valid)+' '.repeat(1100000)),/Invalid bookmark size/);
+ assert.throws(()=>bookmark(story,'CHAR-JAKE-KALOPER','x'.repeat(100001)),/Invalid bookmark transcript/);
+});
