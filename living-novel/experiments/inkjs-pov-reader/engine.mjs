@@ -1,10 +1,15 @@
 import * as inkjs from 'inkjs/full';
 import characters from './characters.json' with { type: 'json' };
+import lockedEvent from './event.generated.json' with { type: 'json' };
+import sceneManifest from './scenes.generated.json' with { type: 'json' };
 const { Compiler } = inkjs;
 const MAX_BOOKMARK_BYTES = 1024 * 1024;
 const MAX_TRANSCRIPT_CHARS = 100_000;
-export const event = Object.freeze({id:'W3-2026-OBIWAN-TDS',season:2026,week:3,status:'NONCANON illustrative scene; historic score fixture',score:Object.freeze({'CHAR-JAKE-KALOPER':136.73,'CHAR-PHILLIP-PITTS':114.50})});
-const paths=Object.freeze({'CHAR-JAKE-KALOPER':'obiwan','CHAR-PHILLIP-PITTS':'snake'});
+export const event=Object.freeze({...lockedEvent,score:Object.freeze({...lockedEvent.score})});
+if(sceneManifest.schema!==1||sceneManifest.classification!=='NONCANON_EXPERIMENT'||sceneManifest.eventId!==event.id)throw new Error('Invalid scene manifest');
+const approvedRoutes=sceneManifest.routes;
+if(!Array.isArray(approvedRoutes)||approvedRoutes.length!==2||new Set(approvedRoutes.map(r=>r.pov)).size!==2||approvedRoutes.some(r=>r.status!=='ILLUSTRATIVE_NOT_APPROVED'||r.worldLocation!=='UNVERIFIED_SCENE_PROPOSAL'||r.knowledgeCutoff!=='2026-W03-POSTFINAL'))throw new Error('Invalid scene manifest');
+const paths=Object.freeze(Object.fromEntries(approvedRoutes.map(r=>[r.pov,r.knot])));
 export const availablePOVs=Object.freeze(characters.map(c=>Object.freeze({...c,implemented:Object.hasOwn(paths,c.id)})));
 export function createReader(source,pov){
   if(typeof pov!=='string'||!Object.hasOwn(paths,pov))throw new Error('POV not implemented');
