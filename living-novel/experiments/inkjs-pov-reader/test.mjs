@@ -31,3 +31,20 @@ test('reader identities match canonical character registry on repository checkou
  assert.equal(canonical.length,12,'canonical registry must resolve twelve entries');
  assert.deepEqual(availablePOVs.map(({id,team})=>({id,team})),canonical,'reader roster drifted from canonical registry');
 });
+
+test('locked Week 3 reader event includes verified provenance and safe route classifications',()=>{
+ assert.equal(event.status,'FACT_LOCKED_READER_SAMPLE');
+ assert.equal(event.winner,'CHAR-JAKE-KALOPER');
+ assert.equal(event.provenance.factLock,'memo-os/week-3/WEEK_3_FACT_LOCK_V1.md');
+ assert.equal(event.provenance.providerSnapshot,'memo-os/week-3/WEEK_3_FINAL_EVIDENCE_SNAPSHOT_06.md');
+ const manifest=JSON.parse(readFileSync(new URL('./scenes.generated.json',import.meta.url),'utf8'));
+ assert.equal(manifest.classification,'NONCANON_EXPERIMENT');
+ assert.equal(manifest.eventId,event.id);
+ assert.equal(manifest.routes.length,2);
+ assert.deepEqual(manifest.routes.map(r=>r.pov).sort(),['CHAR-JAKE-KALOPER','CHAR-PHILLIP-PITTS'].sort());
+ for(const route of manifest.routes){
+  assert.equal(route.status,'ILLUSTRATIVE_NOT_APPROVED');
+  assert.equal(route.knowledgeCutoff,'2026-W03-POSTFINAL');
+  assert.equal(route.worldLocation,'UNVERIFIED_SCENE_PROPOSAL');
+ }
+});
