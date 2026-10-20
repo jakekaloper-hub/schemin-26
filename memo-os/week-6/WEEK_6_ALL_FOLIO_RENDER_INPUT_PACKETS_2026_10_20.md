@@ -1,7 +1,7 @@
 # WEEK 6 — 24 PRODUCTION-SPECIFIC FINAL PRE-RENDER PACKETS
 **Camera amendment 2026-10-20:** Every sheet now has a five-axis cinematography and unit-stills layer inspired by public discussion of Frank Masi's in-frame composition principles. This is internal interpretive direction, not his endorsement or actual consultancy.\n**Source basis:** current exact-copy split, draft PR222; October20 Commissioner Founder Vision, POV overtures and cover/generation order. **State: REVIEW-READY PACKETS, NOT INDEPENDENTLY ACCEPTED, NO GENERATED IMAGES.**
 **Writing:** story prose is source-traceable and still needs final art-specific line editing and real mobile proof. This file does not falsely call every paragraph copyfit approved. Existing 24 slots may expand based on real proof.
-**Image generation order:** 04,05,06,07,08,09,10,11,12,13,14 → 01 (after accepted 12) → 02,03,15,16,17,18,19,23 → 20,21,22. **Final PDF order** can be 01..23 after verified inventory.
+**Image generation order:** 04,05,06,07,08,09,10,11,12,13,14,15 → 01 (after accepted 13) → 02,03,16,17,18,19,20,24 → 21,22,23. **Final PDF order** can be 01..24 after verified inventory.
 **Exact data treatment:** all scores, names, standings and wagers composited deterministically; AI illustration never owns statistics.
 **Global canvas contract:** ALL page masters MUST be PNG, exactly **1024 px wide × 1536 px high**, portrait **2:3**. Render and typeset natively for this geometry; Masi-inspired focal-length/framing never overrides the Memo OS canvas. Reject 1536×1024, 1024×1024, 9:16 or any other size. Validate pixel dimensions on each deliverable, with no silent crop, scale, stretch or padding. 390px review is a downscaled readability test, NOT master export size.
 
@@ -40,7 +40,7 @@ Direct next-instant aftermath of accepted Blackwater Part II image. Mud Dogs hol
 
 **CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired study; not his personal involvement or approval):**
 - **Camera and POV:** Mud's shaken foreground viewpoint, 50mm-equivalent medium-close shot.
-- **Height / framing / lens perspective:** eye-level slightly above the damp deed; barge remains in midground on same river axis as 12.
+- **Height / framing / lens perspective:** eye-level slightly above the damp deed; barge remains in midground on same river axis as 13.
 - **Focal hierarchy and decisive moment:** wet parchment sharp, Mud reaction second, departing HMB Belt/hood/red eyes silhouette third.
 - **Motivated lighting and sequential geography:** inherit exact weather, current direction, barge rotation and chest placement from accepted 12; no reverse angle.
 - **Magazine crop, safe text and phone-scale challenge:** negative upper masthead space; no crop of Belt, reeds or face.
