@@ -4,6 +4,16 @@
 **Image generation order:** 04,05,06,07,08,09,10,11,12,13,14 → 01 (after accepted 12) → 02,03,15,16,17,18,19,23 → 20,21,22. **Final PDF order** can be 01..23 after verified inventory.
 **Exact data treatment:** all scores, names, standings and wagers composited deterministically; AI illustration never owns statistics.
 
+## MANDATORY MEMO OS PNG PAGE-MASTER FORMAT — COMMISSIONER LOCK 2026-10-20
+- **Exact raster width:** 1024 px.
+- **Exact raster height:** 1536 px.
+- **Orientation:** portrait; **aspect ratio:** 2:3.
+- **File format:** PNG. No landscape, 3:2, square, or other dimensions accepted.
+- Every final page master MUST be exactly `1024 × 1536` pixels before Commissioner approval and separate PDF assembly. Cinematographic lens/framing notes must operate WITHIN this canvas, never change page geometry.
+- Inspect output PNG metadata with an actual dimension check (width, height, format), as well as full-page visual copyfit at phone scale and character/Atlas QA. A correct filename, prompt or visually portrait image is NOT sufficient proof.
+- Any generated off-spec page is REJECTED and must be regenerated/corrected before approval. Do not stretch the image or silently crop away narration/subjects merely to meet geometry.
+- Keep final dimensions consistent on **all 23 current folios** and on any additional story-driven folios.
+
 ## FOLIO 01 — COVER
 **Narrative job:** Cover: champion's 0.12 escape
 **POV-overture / reading lens:** Mud Dogs — disbelief as Blood escapes
@@ -12,6 +22,7 @@
 CHAR-BOBBY-MITCHELL — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png` — SHA256 expected `d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736`
 CHAR-AUSTIN-BYARS — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png` — SHA256 expected `e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3`
 **Visual/camera/props:** FOLLOW-UP to approved Blackwater II: damp unsigned deed foreground, HMB in black hooded red-eye armor + Belt departing on same slow-turning barge; chest, reeds, channel, light continuous
+**PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** Cover: one headline, one deck, one exact numeric result; typography composited. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
 **Source copy for final editorial fit:**
 
@@ -42,6 +53,7 @@ Direct next-instant aftermath of accepted Blackwater Part II image. Mud Dogs hol
 **Subject asset receipts (expected source hashes; actual generator binding UNPROVEN):**
 No owner faces essential; civic environment + exact typography.
 **Visual/camera/props:** Courier unfolds six sealed dispatch fragments in established record court, windows to different regional encounters; show people in background
+**PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 170 words as 2–3 editorial blocks; prioritize visual breathing room. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
 **Source copy for final editorial fit:**
 
@@ -72,6 +84,7 @@ D0nkey K0ng invaded the Theatre of Ruins and stole the football afternoon. Duckh
 **Subject asset receipts (expected source hashes; actual generator binding UNPROVEN):**
 No owner faces essential; civic environment + exact typography.
 **Visual/camera/props:** League Chamber tally wall with couriers and public audience; text and score data deterministic overlay
+**PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** Six matchup rows, verified 2 decimals; hierarchy at 390px. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
 **Source copy for final editorial fit:**
 
@@ -101,6 +114,7 @@ Two victories came by 0.12 and 0.37 points, respectively. Neither margin needs e
 CHAR-KEVIN-ZEEK — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png` — SHA256 expected `53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b`
 CHAR-WILSON-LOOK — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png` — SHA256 expected `3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f`
 **Visual/camera/props:** Storm Coast ruins, temporary football terrace, United-coded Red, DK Arsenal-coded integrated gorilla-centaur arriving at gate, damp stair comedy
+**PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 180 words in 2 blocks + character dialogue. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
 **Source copy for final editorial fit:**
 
@@ -136,6 +150,7 @@ The crowd divided the rain with noise. For a moment the ancient ruins seemed to 
 CHAR-KEVIN-ZEEK — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png` — SHA256 expected `53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b`
 CHAR-WILSON-LOOK — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png` — SHA256 expected `3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f`
 **Visual/camera/props:** Same pitch axis, arch shadows, non-biped DK four horse legs all attached
+**PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 153 words; action-first panoramic art. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
 **Source copy for final editorial fit:**
 
@@ -167,6 +182,7 @@ The Leopard made a final run. DK met him beneath the shadow of a ruined arch, an
 CHAR-KEVIN-ZEEK — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png` — SHA256 expected `53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b`
 CHAR-WILSON-LOOK — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png` — SHA256 expected `3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f`
 **Visual/camera/props:** DK visiting victory, Red defiant in foreground, same temporary environment not permanent stadium
+**PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 116 words + 118.96 vs 108.08 accurate result strip. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
 **Source copy for final editorial fit:**
 
@@ -202,6 +218,7 @@ By evening, the temporary touchlines were washing away. The ruin stood as it alw
 CHAR-ZACH-WILSON — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png` — SHA256 expected `c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a`
 CHAR-MANNING-WELTY — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png` — SHA256 expected `d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04`
 **Visual/camera/props:** Country Club golf green, runaway cart/bunker/towel, caddies and terrace, no lasting environmental damage
+**PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 205 words HIGH: tighten into 3 short paragraphs; if illegible split sheet. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
 **Source copy for final editorial fit:**
 
@@ -237,6 +254,7 @@ There was a spectacular misadventure with a bunker, a club towel, and an increas
 CHAR-JORDAN-HOLLINGSHEAD — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png` — SHA256 expected `5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515`
 CHAR-JAKE-KALOPER — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png` — SHA256 expected `fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8`
 **Visual/camera/props:** Fixed dodgeball court, referee judge platform; Slob pitbull and Obi golden retriever within continuity; no truck/no belt on Obi
+**PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 90 words, punchy dialogue boxes. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
 **Source copy for final editorial fit:**
 
@@ -272,6 +290,7 @@ ObiWan Jacoby crossed into Slob's camp with the calm of a traveler who had seen 
 CHAR-JORDAN-HOLLINGSHEAD — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png` — SHA256 expected `5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515`
 CHAR-JAKE-KALOPER — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png` — SHA256 expected `fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8`
 **Visual/camera/props:** Reverse on SAME court axis, absurd legalistic ball foul, comic spectators, no modern truck
+**PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 110 words + Slob 143.70 / Obi 123.38 strip. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
 **Source copy for final editorial fit:**
 
@@ -303,6 +322,7 @@ Slob gave the platform a weary glance. “Next time,” he replied, “I'm bring
 CHAR-BRANDON-PRYOR — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png` — SHA256 expected `f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e`
 CHAR-BEN-WHIPPLE — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png` — SHA256 expected `0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f`
 **Visual/camera/props:** Raccoon with hot dog, wagon route, Dark Horse, western dust and fenced arena; no motor cars
+**PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 200 words HIGH: separate beats into 2 panels or expand folios. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
 **Source copy for final editorial fit:**
 
@@ -340,6 +360,7 @@ No one could identify the sender with certainty, which preserved the mystery and
 CHAR-BOBBY-MITCHELL — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png` — SHA256 expected `d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736`
 CHAR-AUSTIN-BYARS — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png` — SHA256 expected `e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3`
 **Visual/camera/props:** Low barge, chest/ink/deed, marsh; HMB red eyes black hood armor and Belt, no legal title transfer
+**PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 150 words + two dialog exchanges. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
 **Source copy for final editorial fit:**
 
@@ -375,6 +396,7 @@ The channel offered no opinion. It did, however, move the barge an inconvenient 
 CHAR-BOBBY-MITCHELL — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png` — SHA256 expected `d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736`
 CHAR-AUSTIN-BYARS — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png` — SHA256 expected `e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3`
 **Visual/camera/props:** Same barge/chest/bank geometry, Blood departure with belt; this page's FINAL ACCEPTED KEYFRAME feeds cover
+**PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 150 words + Blood 136.92 / Mud 136.80 by 0.12. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
 **Source copy for final editorial fit:**
 
@@ -412,6 +434,7 @@ The river carried the words downstream. The paperwork remained what it had been 
 CHAR-PHILLIP-PITTS — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png` — SHA256 expected `0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65`
 CHAR-DAVID-BABB — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png` — SHA256 expected `f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340`
 **Visual/camera/props:** Ledge and spray, TDS exactly three heads one body, LLC plans but no bridge built
+**PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 153 words; tight stacked dialogue. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
 **Source copy for final editorial fit:**
 
@@ -451,6 +474,7 @@ Their arguments were interrupted by a gust that lifted a corner of the plan over
 CHAR-PHILLIP-PITTS — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png` — SHA256 expected `0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65`
 CHAR-DAVID-BABB — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png` — SHA256 expected `f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340`
 **Visual/camera/props:** Same ledge/camera axis, damp files, no construction/contract finalization
+**PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 124 words + TDS 138.06 / LLC 137.69 by 0.37. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
 **Source copy for final editorial fit:**
 
@@ -500,6 +524,7 @@ CHAR-BEN-WHIPPLE — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-
 CHAR-DAVID-BABB — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png` — SHA256 expected `f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340`
 CHAR-MANNING-WELTY — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png` — SHA256 expected `d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04`
 **Visual/camera/props:** League Archive upper six ranked portrait alcoves; six current canonical portraits, no movement arrows
+**PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** ~293 words HIGH. Six entries concise or extra sheet; data composited. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
 **Source copy for final editorial fit:**
 
@@ -549,6 +574,7 @@ CHAR-BEN-WHIPPLE — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-
 CHAR-DAVID-BABB — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png` — SHA256 expected `f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340`
 CHAR-MANNING-WELTY — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png` — SHA256 expected `d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04`
 **Visual/camera/props:** Same archive gallery, six lower slots; visual match page15
+**PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** ~243 words HIGH; no movement arrows. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
 **Source copy for final editorial fit:**
 
@@ -587,6 +613,7 @@ At the far wall, last week's placards wait to be moved—but their positions wil
 **Subject asset receipts (expected source hashes; actual generator binding UNPROVEN):**
 CHAR-PHILLIP-PITTS — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png` — SHA256 expected `0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65`
 **Visual/camera/props:** Week4 gold PITTSY'S BOOK facade CLOSED, serpents, water, black/gold desks, banker lamps; no confirmed investigation
+**PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 141 words + clearly CLOSED masthead. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
 **Source copy for final editorial fit:**
 
@@ -621,6 +648,7 @@ There was a note on the counter in a handwriting no one volunteered to claim:
 **Subject asset receipts (expected source hashes; actual generator binding UNPROVEN):**
 No owner faces essential; civic environment + exact typography.
 **Visual/camera/props:** Accurate seven Atlas regions with divisions cultural overlay, no sovereign transfer
+**PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 127 words, legible map tags and grounded reports. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
 **Source copy for final editorial fit:**
 
@@ -649,6 +677,7 @@ The Commonwealth itself could not yet certify the more theatrical changes allege
 **Subject asset receipts (expected source hashes; actual generator binding UNPROVEN):**
 No owner faces essential; civic environment + exact typography.
 **Visual/camera/props:** Courier court with FAAB receipts; distinguish complete claims from unstructured activity rows
+**PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 105 words; deterministic dollar/FAAB values. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
 **Source copy for final editorial fit:**
 
@@ -677,6 +706,7 @@ The full Week Six ESPN feed returned 51 activity rows, including unsuccessful cl
 **Subject asset receipts (expected source hashes; actual generator binding UNPROVEN):**
 No owner faces essential; civic environment + exact typography.
 **Visual/camera/props:** Atlas route table with first three home-first Week7 pairings, no fabricated route metrics
+**PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 102 words, 3 large schedule cards. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
 **Source copy for final editorial fit:**
 
@@ -707,6 +737,7 @@ No owner faces essential; civic environment + exact typography.
 **Subject asset receipts (expected source hashes; actual generator binding UNPROVEN):**
 No owner faces essential; civic environment + exact typography.
 **Visual/camera/props:** Same scheduling board second three; Red-home Blood-away distinguished as GOTW
+**PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 143 words, 3 large schedule cards. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
 **Source copy for final editorial fit:**
 
@@ -740,6 +771,7 @@ All six are official ESPN schedule pairings and **UNDECIDED**, not predictions o
 CHAR-KEVIN-ZEEK — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png` — SHA256 expected `53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b`
 CHAR-AUSTIN-BYARS — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png` — SHA256 expected `e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3`
 **Visual/camera/props:** Existing Red ruins gate, only temporary arrival terrace as noncanon possible staging; red leopard meets dark hooded Belt Keeper
+**PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 180 words HIGH, two prior-meeting records verified only; no Week7 result. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
 **Source copy for final editorial fit:**
 
@@ -777,6 +809,7 @@ Now ESPN places Blood second in playoff seeding and Red third as Week Seven appr
 **Subject asset receipts (expected source hashes; actual generator binding UNPROVEN):**
 No owner faces essential; civic environment + exact typography.
 **Visual/camera/props:** Record hall desk after hours, objects from six encounters, last courier departing
+**PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** High: trim to two legible blocks while preserving reflective close. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
 **Source copy for final editorial fit:**
 
