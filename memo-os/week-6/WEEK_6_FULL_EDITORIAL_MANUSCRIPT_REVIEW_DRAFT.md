@@ -37,7 +37,7 @@ The crowd divided the rain with noise. For a moment the ancient ruins seemed to 
 # THEATRE OF RUINS — Part II: The Wrong Kind of Defence
 The Leopard played as if the home terraces could close the distance for him. He cut across broken light, darted between opponents imagined by the chanting crowd, and attempted the kind of curling finish that makes an afternoon survive decades. DK answered with the stubborn physics of four legs: no effortless human footwork, no mistaken two-legged mascot pose, just a tremendous creature learning to turn force into angles.
 
-Behind the terraces, supporters argued over which famous football memory the ruin was paying tribute to. On the field, the rivalry had become its own memory. DK's winning fantasy result would eventually be written in the external league ledger; the literary goal is only a dramatic metaphor for that result, not a reported sports play.
+Behind the terraces, supporters argued over which famous football memory the ruin was paying tribute to. On the field, the rivalry had become its own memory. The home crowd roared for an equalizer; across the terraces, visitors beat their banners against ancient stone until the ruin itself seemed to echo their answer.
 
 The Leopard made a final run. DK met him beneath the shadow of a ruined arch, and the crowd's collective breath seemed to hang there, suspended among the hanging banners.
 
@@ -50,7 +50,7 @@ DK's supporters were suddenly much louder than the weather. The Leopard stood ne
 
 “Get off it,” the Leopard replied, and the entire home end roared in approval.
 
-No new permanent stadium had been canonized by the match, no roof grafted onto the escarpment. By evening, the ruin was a ruin again, except that it had acquired a story Red could not prevent the visitors from telling.
+By evening, the temporary touchlines were washing away. The ruin stood as it always had—only now it held a story Red could not prevent the visitors from telling.
 
 # JACKSON INVITATIONAL — The Guest Who Wouldn't Leave
 The Country Club of Jackson believed in a hierarchy of disasters. A guest arriving late was vulgar. A cart leaving tracks across the wrong approach was unforgivable. A storm following El Niño through the front gates was neither of those things; it was a scheduling matter to be discussed after lunch.
@@ -87,7 +87,7 @@ The first wagon arrived with a banner, a flourish, and an obvious lack of contro
 
 A dark horse passed across a fenced lane at the worst possible time, throwing dust over the evidence. The raccoon doubled back. A spectator shouted the wrong instructions. Half the stable believed the lunch was heading east; the other half had already begun composing songs about its disappearance.
 
-The fantasy scoreboard ultimately favored Seven Deadly Chins, 131.78 to 125.24. The victor accepted the day's applause as if he had organized the entire disaster. The Chili Cheesers stared at the emptied wagon.
+The final ledger favored Seven Deadly Chins, 131.78 to 125.24. The victor accepted the day's applause as if he had organized the entire disaster. The Chili Cheesers stared at the emptied wagon.
 
 “Was that even our order?” someone asked.
 
