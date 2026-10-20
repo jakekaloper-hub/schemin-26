@@ -52,7 +52,7 @@ DK's supporters were suddenly much louder than the weather. The Leopard stood ne
 
 By evening, the temporary touchlines were washing away. The ruin stood as it always had—only now it held a story Red could not prevent the visitors from telling.
 
-# JACKSON INVITATIONAL — The Guest Who Wouldn't Leave
+# JACKSON INVITATIONAL — Part I: A Question of Etiquette
 The Country Club of Jackson believed in a hierarchy of disasters. A guest arriving late was vulgar. A cart leaving tracks across the wrong approach was unforgivable. A storm following El Niño through the front gates was neither of those things; it was a scheduling matter to be discussed after lunch.
 
 Dr. Duckhook's guests arrived in polished layers, ready to treat the tournament as a meeting of civilized minds. El Niño surveyed the green like a man who had brought his own weather but forgotten where to check it. The caddies watched the edge of the sky. The staff quietly identified the driest route back to the veranda.
@@ -61,7 +61,16 @@ Dr. Duckhook's guests arrived in polished layers, ready to treat the tournament 
 
 “You got one,” El Niño answered. “You didn't specify how long it would stay fair.”
 
-There was a spectacular misadventure with a bunker, a club towel, and an increasingly nervous official whose job required him to say the event was under control. The club survived in the only way it knew how: by refusing to admit anything unusual had happened. Duckhook took the fantasy contest, 132.40 to 119.86, and turned his score into a toast. El Niño raised an empty glass to the ceiling, studying the sound of rain above it.
+The event began beneath the clubhouse's unwavering rules of etiquette. Beyond the windows, a caddy steadied the club towel as the wind lifted it sideways. Duckhook watched the green; El Niño watched the clouds.
+
+# JACKSON INVITATIONAL — Part II: The Clubhouse Refuses to Notice
+The first golf cart lurched away from the clubhouse approach, chased by a caddy carrying a club towel like a surrender flag. It missed the neat path, skirted the lip of the bunker, then swung into the rough while the official repeated that everything was under control. The spectators disagreed without daring to say so aloud.
+
+Duckhook reached the terrace as the rain arrived in earnest. The white tablecloths fluttered; the bunker acquired its own little weather system. El Niño, unhurried, surveyed the soaked fairway.
+
+The club survived the spectacle in the only way it knew how: by refusing to admit anything unusual had happened.
+
+Dr. Duckhook took the fantasy contest **132.40–119.86**, then transformed his victory into a dignified toast. El Niño raised an empty glass toward the ceiling, listening to the rain above it. The club's staff began restoring the course before anyone could suggest that the tournament's disorder had become a new permanent feature.
 
 # FOOTHILL FIX — The House Referees
 The dodgeball court at Foothill Camp had three truths. The centerline was straight. The judge's platform had an unobstructed view. And somehow every controversial call seemed to favor whoever knew the referee's cousin.
