@@ -1,5 +1,5 @@
 # WEEK 6 — 23 PRODUCTION-SPECIFIC FINAL PRE-RENDER PACKETS
-**Source basis:** current exact-copy split, draft PR222; October20 Commissioner Founder Vision, POV overtures and cover/generation order. **State: REVIEW-READY PACKETS, NOT INDEPENDENTLY ACCEPTED, NO GENERATED IMAGES.**
+**Camera amendment 2026-10-20:** Every sheet now has a five-axis cinematography and unit-stills layer inspired by public discussion of Frank Masi's in-frame composition principles. This is internal interpretive direction, not his endorsement or actual consultancy.\n**Source basis:** current exact-copy split, draft PR222; October20 Commissioner Founder Vision, POV overtures and cover/generation order. **State: REVIEW-READY PACKETS, NOT INDEPENDENTLY ACCEPTED, NO GENERATED IMAGES.**
 **Writing:** story prose is source-traceable and still needs final art-specific line editing and real mobile proof. This file does not falsely call every paragraph copyfit approved. Existing 23 slots may expand based on real proof.
 **Image generation order:** 04,05,06,07,08,09,10,11,12,13,14 → 01 (after accepted 12) → 02,03,15,16,17,18,19,23 → 20,21,22. **Final PDF order** can be 01..23 after verified inventory.
 **Exact data treatment:** all scores, names, standings and wagers composited deterministically; AI illustration never owns statistics.
@@ -25,6 +25,14 @@ Direct next-instant aftermath of accepted Blackwater Part II image. Mud Dogs hol
 
 **Continuity-in/out and prohibited mutations:** uphold parent environment, current approved identities, current fantasy state; never invent title transfers, Week7 outcomes, character anatomy, modern vehicles, betting facts or unapproved permanent structures. Sequential art must match adjacent page. **Acceptance:** exact factual text, verified visual subjects, actual render proof and independent review (pending).
 
+**CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired study; not his personal involvement or approval):**
+- **Camera and POV:** Mud's shaken foreground viewpoint, 50mm-equivalent medium-close shot.
+- **Height / framing / lens perspective:** eye-level slightly above the damp deed; barge remains in midground on same river axis as 12.
+- **Focal hierarchy and decisive moment:** wet parchment sharp, Mud reaction second, departing HMB Belt/hood/red eyes silhouette third.
+- **Motivated lighting and sequential geography:** inherit exact weather, current direction, barge rotation and chest placement from accepted 12; no reverse angle.
+- **Magazine crop, safe text and phone-scale challenge:** negative upper masthead space; no crop of Belt, reeds or face.
+- **Frame validation:** Review whether this single still tells the reader who wants what, what changed, and where the story happens. Treat focal-length labels as artistic equivalents, not camera metadata. Match eyelines, shot axis, character scale, shadows and physical props to adjacent scene; reject incorrect identity or illegibility.
+
 ---
 
 ## FOLIO 02 — OPENING DRIVE
@@ -47,6 +55,14 @@ D0nkey K0ng invaded the Theatre of Ruins and stole the football afternoon. Duckh
 
 **Continuity-in/out and prohibited mutations:** uphold parent environment, current approved identities, current fantasy state; never invent title transfers, Week7 outcomes, character anatomy, modern vehicles, betting facts or unapproved permanent structures. Sequential art must match adjacent page. **Acceptance:** exact factual text, verified visual subjects, actual render proof and independent review (pending).
 
+**CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired study; not his personal involvement or approval):**
+- **Camera and POV:** Courier's shoulder-level documentary angle, 35mm.
+- **Height / framing / lens perspective:** three-quarter view through Archive windows toward dispatch hands.
+- **Focal hierarchy and decisive moment:** six visual remnants clustered around one central broadsheet rather than six miniature posters.
+- **Motivated lighting and sequential geography:** dawn/late night motivated window and lamp light, consistent Archive architecture.
+- **Magazine crop, safe text and phone-scale challenge:** three readable literary text blocks and wide atmospheric margin.
+- **Frame validation:** Review whether this single still tells the reader who wants what, what changed, and where the story happens. Treat focal-length labels as artistic equivalents, not camera metadata. Match eyelines, shot axis, character scale, shadows and physical props to adjacent scene; reject incorrect identity or illegibility.
+
 ---
 
 ## FOLIO 03 — SCOREBOARD
@@ -66,6 +82,14 @@ Two victories came by 0.12 and 0.37 points, respectively. Neither margin needs e
 
 
 **Continuity-in/out and prohibited mutations:** uphold parent environment, current approved identities, current fantasy state; never invent title transfers, Week7 outcomes, character anatomy, modern vehicles, betting facts or unapproved permanent structures. Sequential art must match adjacent page. **Acceptance:** exact factual text, verified visual subjects, actual render proof and independent review (pending).
+
+**CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired study; not his personal involvement or approval):**
+- **Camera and POV:** League Chamber public observer, 40mm normal lens.
+- **Height / framing / lens perspective:** slightly elevated frontal three-quarter view of large tally wall.
+- **Focal hierarchy and decisive moment:** six result rows dominant, witnesses small, architecture spatially recognizable.
+- **Motivated lighting and sequential geography:** even diffuse daylight and desk lamps; no fake decorative score text baked into art.
+- **Magazine crop, safe text and phone-scale challenge:** large six-row overlay readable at phone scale.
+- **Frame validation:** Review whether this single still tells the reader who wants what, what changed, and where the story happens. Treat focal-length labels as artistic equivalents, not camera metadata. Match eyelines, shot axis, character scale, shadows and physical props to adjacent scene; reject incorrect identity or illegibility.
 
 ---
 
@@ -94,6 +118,14 @@ The crowd divided the rain with noise. For a moment the ancient ruins seemed to 
 
 **Continuity-in/out and prohibited mutations:** uphold parent environment, current approved identities, current fantasy state; never invent title transfers, Week7 outcomes, character anatomy, modern vehicles, betting facts or unapproved permanent structures. Sequential art must match adjacent page. **Acceptance:** exact factual text, verified visual subjects, actual render proof and independent review (pending).
 
+**CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired study; not his personal involvement or approval):**
+- **Camera and POV:** Red Leopards over-the-shoulder at gate, 28–35mm.
+- **Height / framing / lens perspective:** low eye height relative to Red; DK approaches front three-quarter, four grounded equine legs visible.
+- **Focal hierarchy and decisive moment:** Red's red kit foreground, integrated DK one body midground, crowds and ruins behind.
+- **Motivated lighting and sequential geography:** wet Storm Coast light / visiting banners approach along consistent screen direction.
+- **Magazine crop, safe text and phone-scale challenge:** reserve clean prose panel away from full DK lower anatomy.
+- **Frame validation:** Review whether this single still tells the reader who wants what, what changed, and where the story happens. Treat focal-length labels as artistic equivalents, not camera metadata. Match eyelines, shot axis, character scale, shadows and physical props to adjacent scene; reject incorrect identity or illegibility.
+
 ---
 
 ## FOLIO 05 — THEATRE 2
@@ -116,6 +148,14 @@ The Leopard made a final run. DK met him beneath the shadow of a ruined arch, an
 
 
 **Continuity-in/out and prohibited mutations:** uphold parent environment, current approved identities, current fantasy state; never invent title transfers, Week7 outcomes, character anatomy, modern vehicles, betting facts or unapproved permanent structures. Sequential art must match adjacent page. **Acceptance:** exact factual text, verified visual subjects, actual render proof and independent review (pending).
+
+**CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired study; not his personal involvement or approval):**
+- **Camera and POV:** Ground-level lateral football sideline, 35mm.
+- **Height / framing / lens perspective:** same field axis as 04, panning perspective frozen at decisive crossing.
+- **Focal hierarchy and decisive moment:** four visible equine legs in physically credible stride, Red playing off arch shadow.
+- **Motivated lighting and sequential geography:** weather and banner placement continuous, no sudden nightfall.
+- **Magazine crop, safe text and phone-scale challenge:** action silhouette prioritized over long copy.
+- **Frame validation:** Review whether this single still tells the reader who wants what, what changed, and where the story happens. Treat focal-length labels as artistic equivalents, not camera metadata. Match eyelines, shot axis, character scale, shadows and physical props to adjacent scene; reject incorrect identity or illegibility.
 
 ---
 
@@ -144,6 +184,14 @@ By evening, the temporary touchlines were washing away. The ruin stood as it alw
 
 **Continuity-in/out and prohibited mutations:** uphold parent environment, current approved identities, current fantasy state; never invent title transfers, Week7 outcomes, character anatomy, modern vehicles, betting facts or unapproved permanent structures. Sequential art must match adjacent page. **Acceptance:** exact factual text, verified visual subjects, actual render proof and independent review (pending).
 
+**CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired study; not his personal involvement or approval):**
+- **Camera and POV:** Red reaction at touchline, 50mm.
+- **Height / framing / lens perspective:** medium shot from home section, DK supporters spatially beyond field.
+- **Focal hierarchy and decisive moment:** Red dignified disappointment near plane, DK celebrations behind, score overlay separate.
+- **Motivated lighting and sequential geography:** same ruins, wet stone and temporary pitch; left-right positions follow 05.
+- **Magazine crop, safe text and phone-scale challenge:** two short dialogue beats and result strip.
+- **Frame validation:** Review whether this single still tells the reader who wants what, what changed, and where the story happens. Treat focal-length labels as artistic equivalents, not camera metadata. Match eyelines, shot axis, character scale, shadows and physical props to adjacent scene; reject incorrect identity or illegibility.
+
 ---
 
 ## FOLIO 07 — JACKSON
@@ -170,6 +218,14 @@ There was a spectacular misadventure with a bunker, a club towel, and an increas
 
 
 **Continuity-in/out and prohibited mutations:** uphold parent environment, current approved identities, current fantasy state; never invent title transfers, Week7 outcomes, character anatomy, modern vehicles, betting facts or unapproved permanent structures. Sequential art must match adjacent page. **Acceptance:** exact factual text, verified visual subjects, actual render proof and independent review (pending).
+
+**CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired study; not his personal involvement or approval):**
+- **Camera and POV:** Duckhook host view through clubhouse door, 50mm to 28mm widened chaos.
+- **Height / framing / lens perspective:** eye-level prestige composition with runaway golf cart still trackable on fairway.
+- **Focal hierarchy and decisive moment:** Duckhook composed reaction; El Niño storm; caddy/cart/towel gag in readable second plane.
+- **Motivated lighting and sequential geography:** storm cloud direction fixed; clubhouse veranda geometry stable; no permanent damage.
+- **Magazine crop, safe text and phone-scale challenge:** high copy density: use more space or split sheet, not tiny type.
+- **Frame validation:** Review whether this single still tells the reader who wants what, what changed, and where the story happens. Treat focal-length labels as artistic equivalents, not camera metadata. Match eyelines, shot axis, character scale, shadows and physical props to adjacent scene; reject incorrect identity or illegibility.
 
 ---
 
@@ -198,6 +254,14 @@ ObiWan Jacoby crossed into Slob's camp with the calm of a traveler who had seen 
 
 **Continuity-in/out and prohibited mutations:** uphold parent environment, current approved identities, current fantasy state; never invent title transfers, Week7 outcomes, character anatomy, modern vehicles, betting facts or unapproved permanent structures. Sequential art must match adjacent page. **Acceptance:** exact factual text, verified visual subjects, actual render proof and independent review (pending).
 
+**CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired study; not his personal involvement or approval):**
+- **Camera and POV:** ObiWan entering court through 35mm spectator line.
+- **Height / framing / lens perspective:** court-level view maintaining centerline and judges' platform on single side.
+- **Focal hierarchy and decisive moment:** Obi's facial uncertainty, Slob gloating across fixed court.
+- **Motivated lighting and sequential geography:** court markings and referees positions mapped; no modern truck.
+- **Magazine crop, safe text and phone-scale challenge:** dialogue/speech bubbles use open negative space.
+- **Frame validation:** Review whether this single still tells the reader who wants what, what changed, and where the story happens. Treat focal-length labels as artistic equivalents, not camera metadata. Match eyelines, shot axis, character scale, shadows and physical props to adjacent scene; reject incorrect identity or illegibility.
+
 ---
 
 ## FOLIO 09 — FOOTHILL 2
@@ -220,6 +284,14 @@ Slob gave the platform a weary glance. “Next time,” he replied, “I'm bring
 
 
 **Continuity-in/out and prohibited mutations:** uphold parent environment, current approved identities, current fantasy state; never invent title transfers, Week7 outcomes, character anatomy, modern vehicles, betting facts or unapproved permanent structures. Sequential art must match adjacent page. **Acceptance:** exact factual text, verified visual subjects, actual render proof and independent review (pending).
+
+**CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired study; not his personal involvement or approval):**
+- **Camera and POV:** Reverse from SAME court geography, 35mm.
+- **Height / framing / lens perspective:** match-cut/referee visible, avoid inexplicable 180-degree inversion.
+- **Focal hierarchy and decisive moment:** Slob challenge and disputed ball foreground, Obi referee accusation midground.
+- **Motivated lighting and sequential geography:** whistle stand/centerline consistent with 08; no Obi belt.
+- **Magazine crop, safe text and phone-scale challenge:** short verdict, 143.70 result easy to find.
+- **Frame validation:** Review whether this single still tells the reader who wants what, what changed, and where the story happens. Treat focal-length labels as artistic equivalents, not camera metadata. Match eyelines, shot axis, character scale, shadows and physical props to adjacent scene; reject incorrect identity or illegibility.
 
 ---
 
@@ -250,6 +322,14 @@ No one could identify the sender with certainty, which preserved the mystery and
 
 **Continuity-in/out and prohibited mutations:** uphold parent environment, current approved identities, current fantasy state; never invent title transfers, Week7 outcomes, character anatomy, modern vehicles, betting facts or unapproved permanent structures. Sequential art must match adjacent page. **Acceptance:** exact factual text, verified visual subjects, actual render proof and independent review (pending).
 
+**CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired study; not his personal involvement or approval):**
+- **Camera and POV:** Low wagon-lane tracking still, 24–28mm.
+- **Height / framing / lens perspective:** three-quarter angle with raccoon movement trail legible.
+- **Focal hierarchy and decisive moment:** raccoon/hot dog foreground, Chins Dark Horse chase, Chili stable reaction background.
+- **Motivated lighting and sequential geography:** keep wagon, arena fence, sun and dust orientation constant.
+- **Magazine crop, safe text and phone-scale challenge:** 200-word warning: increase panels rather than shrink captions.
+- **Frame validation:** Review whether this single still tells the reader who wants what, what changed, and where the story happens. Treat focal-length labels as artistic equivalents, not camera metadata. Match eyelines, shot axis, character scale, shadows and physical props to adjacent scene; reject incorrect identity or illegibility.
+
 ---
 
 ## FOLIO 11 — BLACKWATER 1
@@ -276,6 +356,14 @@ The channel offered no opinion. It did, however, move the barge an inconvenient 
 
 
 **Continuity-in/out and prohibited mutations:** uphold parent environment, current approved identities, current fantasy state; never invent title transfers, Week7 outcomes, character anatomy, modern vehicles, betting facts or unapproved permanent structures. Sequential art must match adjacent page. **Acceptance:** exact factual text, verified visual subjects, actual render proof and independent review (pending).
+
+**CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired study; not his personal involvement or approval):**
+- **Camera and POV:** Mud's waterline negotiation POV, 35mm.
+- **Height / framing / lens perspective:** two-shot profile across low barge with chest between both.
+- **Focal hierarchy and decisive moment:** wet deed and Mud hand near camera, HMB black hood/red eyes/Belt midground.
+- **Motivated lighting and sequential geography:** record barge bow pointing screen-right, water current screen-left unless accepted scene specifies otherwise.
+- **Magazine crop, safe text and phone-scale challenge:** give dialogue and document space without obscuring armored figure.
+- **Frame validation:** Review whether this single still tells the reader who wants what, what changed, and where the story happens. Treat focal-length labels as artistic equivalents, not camera metadata. Match eyelines, shot axis, character scale, shadows and physical props to adjacent scene; reject incorrect identity or illegibility.
 
 ---
 
@@ -305,6 +393,14 @@ The river carried the words downstream. The paperwork remained what it had been 
 
 
 **Continuity-in/out and prohibited mutations:** uphold parent environment, current approved identities, current fantasy state; never invent title transfers, Week7 outcomes, character anatomy, modern vehicles, betting facts or unapproved permanent structures. Sequential art must match adjacent page. **Acceptance:** exact factual text, verified visual subjects, actual render proof and independent review (pending).
+
+**CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired study; not his personal involvement or approval):**
+- **Camera and POV:** Mud's near-defeat reaction / departure still, 50mm.
+- **Height / framing / lens perspective:** same bank side/axis as 11; chest remains barge-level, HMB begins departure.
+- **Focal hierarchy and decisive moment:** Mud damp unsigned paper foreground, HMB closes chest as barge rotates in midground.
+- **Motivated lighting and sequential geography:** avoid arbitrary hardcoded current direction if scene11 actual frame differs; save accepted frame as cover parent.
+- **Magazine crop, safe text and phone-scale challenge:** precise 0.12 score readable; cover keyframe photographed after this moment.
+- **Frame validation:** Review whether this single still tells the reader who wants what, what changed, and where the story happens. Treat focal-length labels as artistic equivalents, not camera metadata. Match eyelines, shot axis, character scale, shadows and physical props to adjacent scene; reject incorrect identity or illegibility.
 
 ---
 
@@ -337,6 +433,14 @@ Their arguments were interrupted by a gust that lifted a corner of the plan over
 
 **Continuity-in/out and prohibited mutations:** uphold parent environment, current approved identities, current fantasy state; never invent title transfers, Week7 outcomes, character anatomy, modern vehicles, betting facts or unapproved permanent structures. Sequential art must match adjacent page. **Acceptance:** exact factual text, verified visual subjects, actual render proof and independent review (pending).
 
+**CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired study; not his personal involvement or approval):**
+- **Camera and POV:** LLC's visitor-level approach, 35mm.
+- **Height / framing / lens perspective:** three-quarter ledge shot above spray with waterfall depth.
+- **Focal hierarchy and decisive moment:** LLC ledger/plan foreground, TDS three heads connected to one body background.
+- **Motivated lighting and sequential geography:** stair orientation/ledge edge/waterfall all fixed for page14.
+- **Magazine crop, safe text and phone-scale challenge:** each head visible distinctly, no severed floating heads.
+- **Frame validation:** Review whether this single still tells the reader who wants what, what changed, and where the story happens. Treat focal-length labels as artistic equivalents, not camera metadata. Match eyelines, shot axis, character scale, shadows and physical props to adjacent scene; reject incorrect identity or illegibility.
+
 ---
 
 ## FOLIO 14 — FALLS 2
@@ -367,6 +471,14 @@ The pages left dry enough to be filed and damp enough to be doubted. The temple 
 
 
 **Continuity-in/out and prohibited mutations:** uphold parent environment, current approved identities, current fantasy state; never invent title transfers, Week7 outcomes, character anatomy, modern vehicles, betting facts or unapproved permanent structures. Sequential art must match adjacent page. **Acceptance:** exact factual text, verified visual subjects, actual render proof and independent review (pending).
+
+**CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired study; not his personal involvement or approval):**
+- **Camera and POV:** LLC's retreat seen from same ledge, 50mm.
+- **Height / framing / lens perspective:** slightly tighter same side of axis, TDS head trio watches.
+- **Focal hierarchy and decisive moment:** damp sheet and retreat, temple axis preserved, score overlay outside mist.
+- **Motivated lighting and sequential geography:** mist direction and ledge alignment match 13; no bridge built.
+- **Magazine crop, safe text and phone-scale challenge:** 0.37 precision prominent.
+- **Frame validation:** Review whether this single still tells the reader who wants what, what changed, and where the story happens. Treat focal-length labels as artistic equivalents, not camera metadata. Match eyelines, shot axis, character scale, shadows and physical props to adjacent scene; reject incorrect identity or illegibility.
 
 ---
 
@@ -409,6 +521,14 @@ The Archive has twelve places, but none are reserved. Here the recordkeepers mak
 
 **Continuity-in/out and prohibited mutations:** uphold parent environment, current approved identities, current fantasy state; never invent title transfers, Week7 outcomes, character anatomy, modern vehicles, betting facts or unapproved permanent structures. Sequential art must match adjacent page. **Acceptance:** exact factual text, verified visual subjects, actual render proof and independent review (pending).
 
+**CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired study; not his personal involvement or approval):**
+- **Camera and POV:** Archivist documentary gallery view, 50mm.
+- **Height / framing / lens perspective:** level frontal oblique to first six portrait bays.
+- **Focal hierarchy and decisive moment:** approved six individuals presented as exact clipped portraits rather than synthetic redraw where practical.
+- **Motivated lighting and sequential geography:** real League Archive corridor, lamp and stone repeated on 16.
+- **Magazine crop, safe text and phone-scale challenge:** high-density: portrait caption grid spacious; expand if unreadable.
+- **Frame validation:** Review whether this single still tells the reader who wants what, what changed, and where the story happens. Treat focal-length labels as artistic equivalents, not camera metadata. Match eyelines, shot axis, character scale, shadows and physical props to adjacent scene; reject incorrect identity or illegibility.
+
 ---
 
 ## FOLIO 16 — RANKINGS: THE TWELVE II (7–12)
@@ -450,6 +570,14 @@ At the far wall, last week's placards wait to be moved—but their positions wil
 
 **Continuity-in/out and prohibited mutations:** uphold parent environment, current approved identities, current fantasy state; never invent title transfers, Week7 outcomes, character anatomy, modern vehicles, betting facts or unapproved permanent structures. Sequential art must match adjacent page. **Acceptance:** exact factual text, verified visual subjects, actual render proof and independent review (pending).
 
+**CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired study; not his personal involvement or approval):**
+- **Camera and POV:** Archivist same physical corridor, 50mm.
+- **Height / framing / lens perspective:** same eye height, opposite bays in same architectural schema.
+- **Focal hierarchy and decisive moment:** rank 7–12 framed portrait bays; no unexpected new species.
+- **Motivated lighting and sequential geography:** matching gallery lamps, ceiling and corridor axes from 15.
+- **Magazine crop, safe text and phone-scale challenge:** six portraits; no arrows unless verified.
+- **Frame validation:** Review whether this single still tells the reader who wants what, what changed, and where the story happens. Treat focal-length labels as artistic equivalents, not camera metadata. Match eyelines, shot axis, character scale, shadows and physical props to adjacent scene; reject incorrect identity or illegibility.
+
 ---
 
 ## FOLIO 17 — PITTSY
@@ -476,6 +604,14 @@ There was a note on the counter in a handwriting no one volunteered to claim:
 
 **Continuity-in/out and prohibited mutations:** uphold parent environment, current approved identities, current fantasy state; never invent title transfers, Week7 outcomes, character anatomy, modern vehicles, betting facts or unapproved permanent structures. Sequential art must match adjacent page. **Acceptance:** exact factual text, verified visual subjects, actual render proof and independent review (pending).
 
+**CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired study; not his personal involvement or approval):**
+- **Camera and POV:** Visitor at locked Pittsy shutters, 35mm.
+- **Height / framing / lens perspective:** slightly low angle facing recognizable gold BOOK façade, waterfall context.
+- **Focal hierarchy and decisive moment:** CLOSED sign / empty public entry, three-headed custodian optional background.
+- **Motivated lighting and sequential geography:** match Week4 facade proportions, gold palette, serpent carvings; no investigative evidence.
+- **Magazine crop, safe text and phone-scale challenge:** closure statement prominently typeset without inventing reason.
+- **Frame validation:** Review whether this single still tells the reader who wants what, what changed, and where the story happens. Treat focal-length labels as artistic equivalents, not camera metadata. Match eyelines, shot axis, character scale, shadows and physical props to adjacent scene; reject incorrect identity or illegibility.
+
 ---
 
 ## FOLIO 18 — STATE
@@ -496,6 +632,14 @@ The Commonwealth itself could not yet certify the more theatrical changes allege
 
 **Continuity-in/out and prohibited mutations:** uphold parent environment, current approved identities, current fantasy state; never invent title transfers, Week7 outcomes, character anatomy, modern vehicles, betting facts or unapproved permanent structures. Sequential art must match adjacent page. **Acceptance:** exact factual text, verified visual subjects, actual render proof and independent review (pending).
 
+**CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired study; not his personal involvement or approval):**
+- **Camera and POV:** Chronicler before Chamber map wall, 40mm.
+- **Height / framing / lens perspective:** wide frontal 3/4 showing physically plausible map wall.
+- **Focal hierarchy and decisive moment:** seven-zone map, league sigils as overlays, public witness silhouettes.
+- **Motivated lighting and sequential geography:** same Chamber landmarks as scoreboard page 03.
+- **Magazine crop, safe text and phone-scale challenge:** all cartographic labels mechanically set, no new sovereign borders.
+- **Frame validation:** Review whether this single still tells the reader who wants what, what changed, and where the story happens. Treat focal-length labels as artistic equivalents, not camera metadata. Match eyelines, shot axis, character scale, shadows and physical props to adjacent scene; reject incorrect identity or illegibility.
+
 ---
 
 ## FOLIO 19 — TRANSACTIONS
@@ -515,6 +659,14 @@ The full Week Six ESPN feed returned 51 activity rows, including unsuccessful cl
 
 
 **Continuity-in/out and prohibited mutations:** uphold parent environment, current approved identities, current fantasy state; never invent title transfers, Week7 outcomes, character anatomy, modern vehicles, betting facts or unapproved permanent structures. Sequential art must match adjacent page. **Acceptance:** exact factual text, verified visual subjects, actual render proof and independent review (pending).
+
+**CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired study; not his personal involvement or approval):**
+- **Camera and POV:** Claims clerk desk-height still, 50mm.
+- **Height / framing / lens perspective:** over-the-shoulder toward Archive courier court transaction receipts.
+- **Focal hierarchy and decisive moment:** hands, sealed bills and four verifiable waiver receipts.
+- **Motivated lighting and sequential geography:** same archive/courier courts in 02/15/16; no fabricated deals.
+- **Magazine crop, safe text and phone-scale challenge:** FAAB amounts legible as compositor text.
+- **Frame validation:** Review whether this single still tells the reader who wants what, what changed, and where the story happens. Treat focal-length labels as artistic equivalents, not camera metadata. Match eyelines, shot axis, character scale, shadows and physical props to adjacent scene; reject incorrect identity or illegibility.
 
 ---
 
@@ -537,6 +689,14 @@ No owner faces essential; civic environment + exact typography.
 
 
 **Continuity-in/out and prohibited mutations:** uphold parent environment, current approved identities, current fantasy state; never invent title transfers, Week7 outcomes, character anatomy, modern vehicles, betting facts or unapproved permanent structures. Sequential art must match adjacent page. **Acceptance:** exact factual text, verified visual subjects, actual render proof and independent review (pending).
+
+**CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired study; not his personal involvement or approval):**
+- **Camera and POV:** League schedule clerk atop Atlas docket, 40mm.
+- **Height / framing / lens perspective:** slight overhead 3/4 with three fixture cards.
+- **Focal hierarchy and decisive moment:** three official pairings dominate rather than false miniature live match scenes.
+- **Motivated lighting and sequential geography:** League Chamber continuity with 03/18/21.
+- **Magazine crop, safe text and phone-scale challenge:** large home/away labels and status UPCOMING.
+- **Frame validation:** Review whether this single still tells the reader who wants what, what changed, and where the story happens. Treat focal-length labels as artistic equivalents, not camera metadata. Match eyelines, shot axis, character scale, shadows and physical props to adjacent scene; reject incorrect identity or illegibility.
 
 ---
 
@@ -561,6 +721,14 @@ All six are official ESPN schedule pairings and **UNDECIDED**, not predictions o
 
 
 **Continuity-in/out and prohibited mutations:** uphold parent environment, current approved identities, current fantasy state; never invent title transfers, Week7 outcomes, character anatomy, modern vehicles, betting facts or unapproved permanent structures. Sequential art must match adjacent page. **Acceptance:** exact factual text, verified visual subjects, actual render proof and independent review (pending).
+
+**CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired study; not his personal involvement or approval):**
+- **Camera and POV:** Same schedule clerk 40mm matching page20.
+- **Height / framing / lens perspective:** matching overhead angle, continuation of adjacent board.
+- **Focal hierarchy and decisive moment:** other three fixtures; Red vs HMB GOTW card distinguished in editorial type.
+- **Motivated lighting and sequential geography:** same table/sun direction/card scales as 20.
+- **Magazine crop, safe text and phone-scale challenge:** three games all undecided, exact home/away.
+- **Frame validation:** Review whether this single still tells the reader who wants what, what changed, and where the story happens. Treat focal-length labels as artistic equivalents, not camera metadata. Match eyelines, shot axis, character scale, shadows and physical props to adjacent scene; reject incorrect identity or illegibility.
 
 ---
 
@@ -592,6 +760,14 @@ Now ESPN places Blood second in playoff seeding and Red third as Week Seven appr
 
 **Continuity-in/out and prohibited mutations:** uphold parent environment, current approved identities, current fantasy state; never invent title transfers, Week7 outcomes, character anatomy, modern vehicles, betting facts or unapproved permanent structures. Sequential art must match adjacent page. **Acceptance:** exact factual text, verified visual subjects, actual render proof and independent review (pending).
 
+**CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired study; not his personal involvement or approval):**
+- **Camera and POV:** Red gate vantage toward incoming champion, 50mm.
+- **Height / framing / lens perspective:** shoulder-height from Red side facing road without inventing built arrival terrace.
+- **Focal hierarchy and decisive moment:** Red looking down existing Storm Coast entrance; HMB distant hood/red eye/Belt silhouette.
+- **Motivated lighting and sequential geography:** architecture traces back to Theatre pages 04–06, not construction of permanent stadium.
+- **Magazine crop, safe text and phone-scale challenge:** historic two past fixtures clear as two records, Week7 UNDECIDED.
+- **Frame validation:** Review whether this single still tells the reader who wants what, what changed, and where the story happens. Treat focal-length labels as artistic equivalents, not camera metadata. Match eyelines, shot axis, character scale, shadows and physical props to adjacent scene; reject incorrect identity or illegibility.
+
 ---
 
 ## FOLIO 23 — FINAL
@@ -616,3 +792,11 @@ The scores are final for now; the arguments are not. Next week, Red Leopards wel
 
 **Continuity-in/out and prohibited mutations:** uphold parent environment, current approved identities, current fantasy state; never invent title transfers, Week7 outcomes, character anatomy, modern vehicles, betting facts or unapproved permanent structures. Sequential art must match adjacent page. **Acceptance:** exact factual text, verified visual subjects, actual render proof and independent review (pending).
 
+
+**CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired study; not his personal involvement or approval):**
+- **Camera and POV:** Late-shift archivist closing ledger, 50mm.
+- **Height / framing / lens perspective:** intimate desk-height still with distant corridor depth.
+- **Focal hierarchy and decisive moment:** six grounded relics/visual echoes near ledger, courier departs in background.
+- **Motivated lighting and sequential geography:** Archive lamp/door matches 02 and 15/16; quiet nightfall.
+- **Magazine crop, safe text and phone-scale challenge:** lyrical epilogue gets spacious column and final line.
+- **Frame validation:** Review whether this single still tells the reader who wants what, what changed, and where the story happens. Treat focal-length labels as artistic equivalents, not camera metadata. Match eyelines, shot axis, character scale, shadows and physical props to adjacent scene; reject incorrect identity or illegibility.
