@@ -3,6 +3,7 @@
 **Writing:** story prose is source-traceable and still needs final art-specific line editing and real mobile proof. This file does not falsely call every paragraph copyfit approved. Existing 23 slots may expand based on real proof.
 **Image generation order:** 04,05,06,07,08,09,10,11,12,13,14 → 01 (after accepted 12) → 02,03,15,16,17,18,19,23 → 20,21,22. **Final PDF order** can be 01..23 after verified inventory.
 **Exact data treatment:** all scores, names, standings and wagers composited deterministically; AI illustration never owns statistics.
+**Global canvas contract:** ALL page masters MUST be PNG, exactly **1024 px wide × 1536 px high**, portrait **2:3**. Render and typeset natively for this geometry; Masi-inspired focal-length/framing never overrides the Memo OS canvas. Reject 1536×1024, 1024×1024, 9:16 or any other size. Validate pixel dimensions on each deliverable, with no silent crop, scale, stretch or padding. 390px review is a downscaled readability test, NOT master export size.
 
 ## MANDATORY MEMO OS PNG PAGE-MASTER FORMAT — COMMISSIONER LOCK 2026-10-20
 - **Exact raster width:** 1024 px.
@@ -24,6 +25,7 @@ CHAR-AUSTIN-BYARS — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUS
 **Visual/camera/props:** FOLLOW-UP to approved Blackwater II: damp unsigned deed foreground, HMB in black hooded red-eye armor + Belt departing on same slow-turning barge; chest, reeds, channel, light continuous
 **PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** Cover: one headline, one deck, one exact numeric result; typography composited. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
+**Mandatory PNG master specification:** `1024 × 1536 px` · **portrait** · **2:3 aspect ratio** · **PNG**. This is the final page-master canvas, not a suggested crop. Camera/lens choices must be composed WITHIN this fixed frame. Reject any other raster dimensions, landscape crops, stretched/resampled character art, missing content or typography outside the safe area. Verify PNG header width=1024 and height=1536 before Commissioner approval and before PDF assembly.
 **Source copy for final editorial fit:**
 
 
@@ -55,6 +57,7 @@ No owner faces essential; civic environment + exact typography.
 **Visual/camera/props:** Courier unfolds six sealed dispatch fragments in established record court, windows to different regional encounters; show people in background
 **PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 170 words as 2–3 editorial blocks; prioritize visual breathing room. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
+**Mandatory PNG master specification:** `1024 × 1536 px` · **portrait** · **2:3 aspect ratio** · **PNG**. This is the final page-master canvas, not a suggested crop. Camera/lens choices must be composed WITHIN this fixed frame. Reject any other raster dimensions, landscape crops, stretched/resampled character art, missing content or typography outside the safe area. Verify PNG header width=1024 and height=1536 before Commissioner approval and before PDF assembly.
 **Source copy for final editorial fit:**
 
 
@@ -86,6 +89,7 @@ No owner faces essential; civic environment + exact typography.
 **Visual/camera/props:** League Chamber tally wall with couriers and public audience; text and score data deterministic overlay
 **PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** Six matchup rows, verified 2 decimals; hierarchy at 390px. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
+**Mandatory PNG master specification:** `1024 × 1536 px` · **portrait** · **2:3 aspect ratio** · **PNG**. This is the final page-master canvas, not a suggested crop. Camera/lens choices must be composed WITHIN this fixed frame. Reject any other raster dimensions, landscape crops, stretched/resampled character art, missing content or typography outside the safe area. Verify PNG header width=1024 and height=1536 before Commissioner approval and before PDF assembly.
 **Source copy for final editorial fit:**
 
 
@@ -116,6 +120,7 @@ CHAR-WILSON-LOOK — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILS
 **Visual/camera/props:** Storm Coast ruins, temporary football terrace, United-coded Red, DK Arsenal-coded integrated gorilla-centaur arriving at gate, damp stair comedy
 **PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 180 words in 2 blocks + character dialogue. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
+**Mandatory PNG master specification:** `1024 × 1536 px` · **portrait** · **2:3 aspect ratio** · **PNG**. This is the final page-master canvas, not a suggested crop. Camera/lens choices must be composed WITHIN this fixed frame. Reject any other raster dimensions, landscape crops, stretched/resampled character art, missing content or typography outside the safe area. Verify PNG header width=1024 and height=1536 before Commissioner approval and before PDF assembly.
 **Source copy for final editorial fit:**
 
 
@@ -152,6 +157,7 @@ CHAR-WILSON-LOOK — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILS
 **Visual/camera/props:** Same pitch axis, arch shadows, non-biped DK four horse legs all attached
 **PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 153 words; action-first panoramic art. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
+**Mandatory PNG master specification:** `1024 × 1536 px` · **portrait** · **2:3 aspect ratio** · **PNG**. This is the final page-master canvas, not a suggested crop. Camera/lens choices must be composed WITHIN this fixed frame. Reject any other raster dimensions, landscape crops, stretched/resampled character art, missing content or typography outside the safe area. Verify PNG header width=1024 and height=1536 before Commissioner approval and before PDF assembly.
 **Source copy for final editorial fit:**
 
 
@@ -184,6 +190,7 @@ CHAR-WILSON-LOOK — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILS
 **Visual/camera/props:** DK visiting victory, Red defiant in foreground, same temporary environment not permanent stadium
 **PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 116 words + 118.96 vs 108.08 accurate result strip. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
+**Mandatory PNG master specification:** `1024 × 1536 px` · **portrait** · **2:3 aspect ratio** · **PNG**. This is the final page-master canvas, not a suggested crop. Camera/lens choices must be composed WITHIN this fixed frame. Reject any other raster dimensions, landscape crops, stretched/resampled character art, missing content or typography outside the safe area. Verify PNG header width=1024 and height=1536 before Commissioner approval and before PDF assembly.
 **Source copy for final editorial fit:**
 
 
@@ -220,6 +227,7 @@ CHAR-MANNING-WELTY — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-MA
 **Visual/camera/props:** Country Club golf green, runaway cart/bunker/towel, caddies and terrace, no lasting environmental damage
 **PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 205 words HIGH: tighten into 3 short paragraphs; if illegible split sheet. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
+**Mandatory PNG master specification:** `1024 × 1536 px` · **portrait** · **2:3 aspect ratio** · **PNG**. This is the final page-master canvas, not a suggested crop. Camera/lens choices must be composed WITHIN this fixed frame. Reject any other raster dimensions, landscape crops, stretched/resampled character art, missing content or typography outside the safe area. Verify PNG header width=1024 and height=1536 before Commissioner approval and before PDF assembly.
 **Source copy for final editorial fit:**
 
 
@@ -256,6 +264,7 @@ CHAR-JAKE-KALOPER — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAK
 **Visual/camera/props:** Fixed dodgeball court, referee judge platform; Slob pitbull and Obi golden retriever within continuity; no truck/no belt on Obi
 **PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 90 words, punchy dialogue boxes. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
+**Mandatory PNG master specification:** `1024 × 1536 px` · **portrait** · **2:3 aspect ratio** · **PNG**. This is the final page-master canvas, not a suggested crop. Camera/lens choices must be composed WITHIN this fixed frame. Reject any other raster dimensions, landscape crops, stretched/resampled character art, missing content or typography outside the safe area. Verify PNG header width=1024 and height=1536 before Commissioner approval and before PDF assembly.
 **Source copy for final editorial fit:**
 
 
@@ -292,6 +301,7 @@ CHAR-JAKE-KALOPER — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAK
 **Visual/camera/props:** Reverse on SAME court axis, absurd legalistic ball foul, comic spectators, no modern truck
 **PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 110 words + Slob 143.70 / Obi 123.38 strip. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
+**Mandatory PNG master specification:** `1024 × 1536 px` · **portrait** · **2:3 aspect ratio** · **PNG**. This is the final page-master canvas, not a suggested crop. Camera/lens choices must be composed WITHIN this fixed frame. Reject any other raster dimensions, landscape crops, stretched/resampled character art, missing content or typography outside the safe area. Verify PNG header width=1024 and height=1536 before Commissioner approval and before PDF assembly.
 **Source copy for final editorial fit:**
 
 
@@ -324,6 +334,7 @@ CHAR-BEN-WHIPPLE — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-
 **Visual/camera/props:** Raccoon with hot dog, wagon route, Dark Horse, western dust and fenced arena; no motor cars
 **PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 200 words HIGH: separate beats into 2 panels or expand folios. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
+**Mandatory PNG master specification:** `1024 × 1536 px` · **portrait** · **2:3 aspect ratio** · **PNG**. This is the final page-master canvas, not a suggested crop. Camera/lens choices must be composed WITHIN this fixed frame. Reject any other raster dimensions, landscape crops, stretched/resampled character art, missing content or typography outside the safe area. Verify PNG header width=1024 and height=1536 before Commissioner approval and before PDF assembly.
 **Source copy for final editorial fit:**
 
 
@@ -362,6 +373,7 @@ CHAR-AUSTIN-BYARS — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUS
 **Visual/camera/props:** Low barge, chest/ink/deed, marsh; HMB red eyes black hood armor and Belt, no legal title transfer
 **PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 150 words + two dialog exchanges. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
+**Mandatory PNG master specification:** `1024 × 1536 px` · **portrait** · **2:3 aspect ratio** · **PNG**. This is the final page-master canvas, not a suggested crop. Camera/lens choices must be composed WITHIN this fixed frame. Reject any other raster dimensions, landscape crops, stretched/resampled character art, missing content or typography outside the safe area. Verify PNG header width=1024 and height=1536 before Commissioner approval and before PDF assembly.
 **Source copy for final editorial fit:**
 
 
@@ -398,6 +410,7 @@ CHAR-AUSTIN-BYARS — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUS
 **Visual/camera/props:** Same barge/chest/bank geometry, Blood departure with belt; this page's FINAL ACCEPTED KEYFRAME feeds cover
 **PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 150 words + Blood 136.92 / Mud 136.80 by 0.12. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
+**Mandatory PNG master specification:** `1024 × 1536 px` · **portrait** · **2:3 aspect ratio** · **PNG**. This is the final page-master canvas, not a suggested crop. Camera/lens choices must be composed WITHIN this fixed frame. Reject any other raster dimensions, landscape crops, stretched/resampled character art, missing content or typography outside the safe area. Verify PNG header width=1024 and height=1536 before Commissioner approval and before PDF assembly.
 **Source copy for final editorial fit:**
 
 
@@ -436,6 +449,7 @@ CHAR-DAVID-BABB — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID
 **Visual/camera/props:** Ledge and spray, TDS exactly three heads one body, LLC plans but no bridge built
 **PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 153 words; tight stacked dialogue. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
+**Mandatory PNG master specification:** `1024 × 1536 px` · **portrait** · **2:3 aspect ratio** · **PNG**. This is the final page-master canvas, not a suggested crop. Camera/lens choices must be composed WITHIN this fixed frame. Reject any other raster dimensions, landscape crops, stretched/resampled character art, missing content or typography outside the safe area. Verify PNG header width=1024 and height=1536 before Commissioner approval and before PDF assembly.
 **Source copy for final editorial fit:**
 
 
@@ -476,6 +490,7 @@ CHAR-DAVID-BABB — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID
 **Visual/camera/props:** Same ledge/camera axis, damp files, no construction/contract finalization
 **PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 124 words + TDS 138.06 / LLC 137.69 by 0.37. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
+**Mandatory PNG master specification:** `1024 × 1536 px` · **portrait** · **2:3 aspect ratio** · **PNG**. This is the final page-master canvas, not a suggested crop. Camera/lens choices must be composed WITHIN this fixed frame. Reject any other raster dimensions, landscape crops, stretched/resampled character art, missing content or typography outside the safe area. Verify PNG header width=1024 and height=1536 before Commissioner approval and before PDF assembly.
 **Source copy for final editorial fit:**
 
 
@@ -526,6 +541,7 @@ CHAR-MANNING-WELTY — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-MA
 **Visual/camera/props:** League Archive upper six ranked portrait alcoves; six current canonical portraits, no movement arrows
 **PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** ~293 words HIGH. Six entries concise or extra sheet; data composited. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
+**Mandatory PNG master specification:** `1024 × 1536 px` · **portrait** · **2:3 aspect ratio** · **PNG**. This is the final page-master canvas, not a suggested crop. Camera/lens choices must be composed WITHIN this fixed frame. Reject any other raster dimensions, landscape crops, stretched/resampled character art, missing content or typography outside the safe area. Verify PNG header width=1024 and height=1536 before Commissioner approval and before PDF assembly.
 **Source copy for final editorial fit:**
 
 
@@ -576,6 +592,7 @@ CHAR-MANNING-WELTY — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-MA
 **Visual/camera/props:** Same archive gallery, six lower slots; visual match page15
 **PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** ~243 words HIGH; no movement arrows. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
+**Mandatory PNG master specification:** `1024 × 1536 px` · **portrait** · **2:3 aspect ratio** · **PNG**. This is the final page-master canvas, not a suggested crop. Camera/lens choices must be composed WITHIN this fixed frame. Reject any other raster dimensions, landscape crops, stretched/resampled character art, missing content or typography outside the safe area. Verify PNG header width=1024 and height=1536 before Commissioner approval and before PDF assembly.
 **Source copy for final editorial fit:**
 
 
@@ -615,6 +632,7 @@ CHAR-PHILLIP-PITTS — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-PH
 **Visual/camera/props:** Week4 gold PITTSY'S BOOK facade CLOSED, serpents, water, black/gold desks, banker lamps; no confirmed investigation
 **PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 141 words + clearly CLOSED masthead. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
+**Mandatory PNG master specification:** `1024 × 1536 px` · **portrait** · **2:3 aspect ratio** · **PNG**. This is the final page-master canvas, not a suggested crop. Camera/lens choices must be composed WITHIN this fixed frame. Reject any other raster dimensions, landscape crops, stretched/resampled character art, missing content or typography outside the safe area. Verify PNG header width=1024 and height=1536 before Commissioner approval and before PDF assembly.
 **Source copy for final editorial fit:**
 
 
@@ -650,6 +668,7 @@ No owner faces essential; civic environment + exact typography.
 **Visual/camera/props:** Accurate seven Atlas regions with divisions cultural overlay, no sovereign transfer
 **PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 127 words, legible map tags and grounded reports. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
+**Mandatory PNG master specification:** `1024 × 1536 px` · **portrait** · **2:3 aspect ratio** · **PNG**. This is the final page-master canvas, not a suggested crop. Camera/lens choices must be composed WITHIN this fixed frame. Reject any other raster dimensions, landscape crops, stretched/resampled character art, missing content or typography outside the safe area. Verify PNG header width=1024 and height=1536 before Commissioner approval and before PDF assembly.
 **Source copy for final editorial fit:**
 
 
@@ -679,6 +698,7 @@ No owner faces essential; civic environment + exact typography.
 **Visual/camera/props:** Courier court with FAAB receipts; distinguish complete claims from unstructured activity rows
 **PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 105 words; deterministic dollar/FAAB values. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
+**Mandatory PNG master specification:** `1024 × 1536 px` · **portrait** · **2:3 aspect ratio** · **PNG**. This is the final page-master canvas, not a suggested crop. Camera/lens choices must be composed WITHIN this fixed frame. Reject any other raster dimensions, landscape crops, stretched/resampled character art, missing content or typography outside the safe area. Verify PNG header width=1024 and height=1536 before Commissioner approval and before PDF assembly.
 **Source copy for final editorial fit:**
 
 
@@ -708,6 +728,7 @@ No owner faces essential; civic environment + exact typography.
 **Visual/camera/props:** Atlas route table with first three home-first Week7 pairings, no fabricated route metrics
 **PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 102 words, 3 large schedule cards. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
+**Mandatory PNG master specification:** `1024 × 1536 px` · **portrait** · **2:3 aspect ratio** · **PNG**. This is the final page-master canvas, not a suggested crop. Camera/lens choices must be composed WITHIN this fixed frame. Reject any other raster dimensions, landscape crops, stretched/resampled character art, missing content or typography outside the safe area. Verify PNG header width=1024 and height=1536 before Commissioner approval and before PDF assembly.
 **Source copy for final editorial fit:**
 
 
@@ -739,6 +760,7 @@ No owner faces essential; civic environment + exact typography.
 **Visual/camera/props:** Same scheduling board second three; Red-home Blood-away distinguished as GOTW
 **PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 143 words, 3 large schedule cards. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
+**Mandatory PNG master specification:** `1024 × 1536 px` · **portrait** · **2:3 aspect ratio** · **PNG**. This is the final page-master canvas, not a suggested crop. Camera/lens choices must be composed WITHIN this fixed frame. Reject any other raster dimensions, landscape crops, stretched/resampled character art, missing content or typography outside the safe area. Verify PNG header width=1024 and height=1536 before Commissioner approval and before PDF assembly.
 **Source copy for final editorial fit:**
 
 
@@ -773,6 +795,7 @@ CHAR-AUSTIN-BYARS — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUS
 **Visual/camera/props:** Existing Red ruins gate, only temporary arrival terrace as noncanon possible staging; red leopard meets dark hooded Belt Keeper
 **PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** 180 words HIGH, two prior-meeting records verified only; no Week7 result. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
+**Mandatory PNG master specification:** `1024 × 1536 px` · **portrait** · **2:3 aspect ratio** · **PNG**. This is the final page-master canvas, not a suggested crop. Camera/lens choices must be composed WITHIN this fixed frame. Reject any other raster dimensions, landscape crops, stretched/resampled character art, missing content or typography outside the safe area. Verify PNG header width=1024 and height=1536 before Commissioner approval and before PDF assembly.
 **Source copy for final editorial fit:**
 
 
@@ -811,6 +834,7 @@ No owner faces essential; civic environment + exact typography.
 **Visual/camera/props:** Record hall desk after hours, objects from six encounters, last courier departing
 **PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
 **Copyfit protocol:** High: trim to two legible blocks while preserving reflective close. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
+**Mandatory PNG master specification:** `1024 × 1536 px` · **portrait** · **2:3 aspect ratio** · **PNG**. This is the final page-master canvas, not a suggested crop. Camera/lens choices must be composed WITHIN this fixed frame. Reject any other raster dimensions, landscape crops, stretched/resampled character art, missing content or typography outside the safe area. Verify PNG header width=1024 and height=1536 before Commissioner approval and before PDF assembly.
 **Source copy for final editorial fit:**
 
 
