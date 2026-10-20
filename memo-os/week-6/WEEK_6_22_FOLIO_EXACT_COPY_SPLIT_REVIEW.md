@@ -1,6 +1,6 @@
-# WEEK 6 — 23 FOLIO EXACT COPY SPLIT (EDITING / COPYFIT REVIEW)
+# WEEK 6 — 24 FOLIO EXACT COPY SPLIT (EDITING / COPYFIT REVIEW)
 
-**State:** SOURCE-TRACEABLE COPY SPLIT, NOT FINAL VISUAL APPROVAL. Each text panel below is mechanically extracted from existing reviewed manuscript draft; story and section order follows existing 23-slot flexible allocation. Splitting and title are layout drafts. Source files: `WEEK_6_FULL_EDITORIAL_MANUSCRIPT_REVIEW_DRAFT.md`, `WEEK_7_GOTW_HISTORICAL_HYPE_PAGE_REVIEW.md`. This does not freeze the count. Actual page PNGs remain subject to readable copyfit, editorial approval and independent image QA.
+**State:** SOURCE-TRACEABLE COPY SPLIT, NOT FINAL VISUAL APPROVAL. Each text panel below is mechanically extracted from existing reviewed manuscript draft; story and section order follows existing 24-slot flexible allocation. Splitting and title are layout drafts. Source files: `WEEK_6_FULL_EDITORIAL_MANUSCRIPT_REVIEW_DRAFT.md`, `WEEK_7_GOTW_HISTORICAL_HYPE_PAGE_REVIEW.md`. This does not freeze the count. Actual page PNGs remain subject to readable copyfit, editorial approval and independent image QA.
 
 ## FOLIO 01 — COVER
 **Source section:** COVER — BLACKWATER DEED JOB · **Gate:** EDITORIAL_COPYFIT_REVIEW · **Override:** October20 Commissioner cover selection supersedes earlier Theatre proposal.
@@ -74,8 +74,8 @@ By evening, the temporary touchlines were washing away. The ruin stood as it alw
 
 ---
 
-## FOLIO 07 — JACKSON
-**Source section:** JACKSON INVITATIONAL · **Word count:** 205 · **Gate:** EDITORIAL_COPYFIT_REVIEW
+## FOLIO 07 — JACKSON I / A QUESTION OF ETIQUETTE
+**Source section:** JACKSON INVITATIONAL Part I · **Gate:** EDITORIAL_COPYFIT_REVIEW · **PAGE MASTER:** 1024 × 1536 PNG, portrait 2:3
 
 The Country Club of Jackson believed in a hierarchy of disasters. A guest arriving late was vulgar. A cart leaving tracks across the wrong approach was unforgivable. A storm following El Niño through the front gates was neither of those things; it was a scheduling matter to be discussed after lunch.
 
@@ -85,11 +85,24 @@ Dr. Duckhook's guests arrived in polished layers, ready to treat the tournament 
 
 “You got one,” El Niño answered. “You didn't specify how long it would stay fair.”
 
-There was a spectacular misadventure with a bunker, a club towel, and an increasingly nervous official whose job required him to say the event was under control. The club survived in the only way it knew how: by refusing to admit anything unusual had happened. Duckhook took the fantasy contest, 132.40 to 119.86, and turned his score into a toast. El Niño raised an empty glass to the ceiling, studying the sound of rain above it.
+The event began beneath the clubhouse's unwavering rules of etiquette. Beyond the windows, a caddy steadied the club towel as the wind lifted it sideways. Duckhook watched the green; El Niño watched the clouds.
 
 ---
 
-## FOLIO 08 — FOOTHILL 1
+## FOLIO 08 — JACKSON II / THE CLUBHOUSE REFUSES TO NOTICE
+**Source section:** JACKSON INVITATIONAL Part II · **Gate:** EDITORIAL_COPYFIT_REVIEW · **PAGE MASTER:** 1024 × 1536 PNG, portrait 2:3
+
+The first golf cart lurched away from the clubhouse approach, chased by a caddy carrying a club towel like a surrender flag. It missed the neat path, skirted the lip of the bunker, then swung into the rough while the official repeated that everything was under control. The spectators disagreed without daring to say so aloud.
+
+Duckhook reached the terrace as the rain arrived in earnest. The white tablecloths fluttered; the bunker acquired its own little weather system. El Niño, unhurried, surveyed the soaked fairway.
+
+The club survived the spectacle in the only way it knew how: by refusing to admit anything unusual had happened.
+
+Dr. Duckhook took the fantasy contest **132.40–119.86**, then transformed his victory into a dignified toast. El Niño raised an empty glass toward the ceiling, listening to the rain above it. The club's staff began restoring the course before anyone could suggest that the tournament's disorder had become a new permanent feature.
+
+---
+
+## FOLIO 09 — FOOTHILL 1
 **Source section:** FOOTHILL FIX · **Word count:** 90 · **Gate:** EDITORIAL_COPYFIT_REVIEW
 
 The dodgeball court at Foothill Camp had three truths. The centerline was straight. The judge's platform had an unobstructed view. And somehow every controversial call seemed to favor whoever knew the referee's cousin.
@@ -104,7 +117,7 @@ ObiWan Jacoby crossed into Slob's camp with the calm of a traveler who had seen 
 
 ---
 
-## FOLIO 09 — FOOTHILL 2
+## FOLIO 10 — FOOTHILL 2
 **Source section:** FOOTHILL FIX · **Word count:** 110 · **Gate:** EDITORIAL_COPYFIT_REVIEW
 
 The spectators began counting impossible infractions. A ball rolled across the boundary and was declared to have traveled through a restricted philosophical region. Slob challenged a call against himself, won the appeal, and somehow received a penalty for an appeal he had personally requested. By the time the last ball settled, the court was a public embarrassment—but the fantasy result was not disputed. Slob on my Dobb finished with 143.70, the highest total of Week Six, against ObiWan's 123.38.
@@ -115,7 +128,7 @@ Slob gave the platform a weary glance. “Next time,” he replied, “I'm bring
 
 ---
 
-## FOLIO 10 — CHILI
+## FOLIO 11 — CHILI
 **Source section:** CHILI DOG RODEO · **Word count:** 200 · **Gate:** EDITORIAL_COPYFIT_REVIEW
 
 The Chili Stable had prepared for a rodeo. It had not prepared for a chili dog to become the most pursued cargo in the western range.
@@ -132,7 +145,7 @@ No one could identify the sender with certainty, which preserved the mystery and
 
 ---
 
-## FOLIO 11 — BLACKWATER 1
+## FOLIO 12 — BLACKWATER 1
 **Source section:** BLACKWATER DEED JOB · **Word count:** 150 · **Gate:** EDITORIAL_COPYFIT_REVIEW
 
 The Mud Dogs had arranged a meeting where the river made promises hard to enforce: a low barge, a chest of damp papers, and marsh banks that looked identical from every angle. His Majesty's Blood arrived hooded and armored, the red eyes of his approved form holding a steady place within the dark. The Belt remained his, independent of the week's fantasy result.
@@ -147,7 +160,7 @@ The channel offered no opinion. It did, however, move the barge an inconvenient 
 
 ---
 
-## FOLIO 12 — BLACKWATER 2
+## FOLIO 13 — BLACKWATER 2
 **Source section:** BLACKWATER DEED JOB · **Word count:** 150 · **Gate:** EDITORIAL_COPYFIT_REVIEW
 
 The account would later be simplified into a contest for ownership. That was never settled. The barge was a temporary office, the chest held documents of unverified force, and neither participant had produced a lawful land transfer recognized by the Commonwealth.
@@ -164,7 +177,7 @@ The river carried the words downstream. The paperwork remained what it had been 
 
 ---
 
-## FOLIO 13 — FALLS 1
+## FOLIO 14 — FALLS 1
 **Source section:** FALLS PROTOCOL · **Word count:** 153 · **Gate:** EDITORIAL_COPYFIT_REVIEW
 
 Mist covered the Waterfall Temple stairs so completely that The LLC could hear Three Dreaded Snake before seeing him. Three heads appeared above one coiled body, each considering a different aspect of the negotiation. One asked about cost. One asked about liability. The third wanted to know why the visitor had brought so many papers to a place made mostly of water.
@@ -183,7 +196,7 @@ Their arguments were interrupted by a gust that lifted a corner of the plan over
 
 ---
 
-## FOLIO 14 — FALLS 2
+## FOLIO 15 — FALLS 2
 **Source section:** FALLS PROTOCOL · **Word count:** 124 · **Gate:** EDITORIAL_COPYFIT_REVIEW
 
 For all the paper placed between them, the two parties were finally divided by something very small: Three Dreaded Snake scored 138.06 to The LLC's 137.69, a victory of thirty-seven hundredths.
@@ -202,7 +215,7 @@ The pages left dry enough to be filed and damp enough to be doubted. The temple 
 
 ---
 
-## FOLIO 15 — RANKINGS: THE TWELVE I (1–6)
+## FOLIO 16 — RANKINGS: THE TWELVE I (1–6)
 **Source section:** POWER RANKINGS · **Gate:** COPYFIT_REVIEW · **Rank movement arrows:** awaiting prior published issue
 
 The Archive has twelve places, but none are reserved. Here the recordkeepers make their weekly argument using form, danger, and the damage a team can do to a better-seeded opponent. These are **editorial power rankings**, not ESPN playoff seeds. Each position and record is a Week Six review proposal; published-week rank-change arrows are withheld until the last published ranking can be checked against its source PNG.
@@ -221,7 +234,7 @@ The Archive has twelve places, but none are reserved. Here the recordkeepers mak
 
 ---
 
-## FOLIO 16 — RANKINGS: THE TWELVE II (7–12)
+## FOLIO 17 — RANKINGS: THE TWELVE II (7–12)
 **Source section:** POWER RANKINGS · **Gate:** COPYFIT_REVIEW · **Rank movement arrows:** awaiting prior published issue
 
 **07 — The Chili Cheesers (3–3, 879.82 PF).** The highest scoring of the teams below the top six in this editorial order must still answer for losing the rodeo. The stable's offense is credible; its record is less persuasive.
@@ -240,7 +253,7 @@ At the far wall, last week's placards wait to be moved—but their positions wil
 
 ---
 
-## FOLIO 17 — PITTSY
+## FOLIO 18 — PITTSY
 **Source section:** PITTSY'S BOOK · **Word count:** 141 · **Gate:** EDITORIAL_COPYFIT_REVIEW
 
 The shutters at Pittsy's Book remained closed. The Waterfall Temple had many sounds—water against stone, uncertain footsteps, the soft flap of abandoned paper—but it did not have the usual chorus of shouted prices.
@@ -255,7 +268,7 @@ There was a note on the counter in a handwriting no one volunteered to claim:
 
 ---
 
-## FOLIO 18 — STATE
+## FOLIO 19 — STATE
 **Source section:** STATE OF PLAY · **Word count:** 127 · **Gate:** EDITORIAL_COPYFIT_REVIEW
 
 The league entered Week Seven with ObiWan Jacoby and His Majesty's Blood occupying ESPN's first two playoff seeds at 4–2. D0nkey K0ng also stood 4–2 and led the league in accumulated points. Slob's 3–3 position concealed a 940.86-point scoring total; his opponents had every reason to care more about that number than his win column. The middle of the league was crowded with 3–3 records, while The LLC, El Niño, and Mud Dogs needed a change of direction at 2–4.
@@ -264,7 +277,7 @@ The Commonwealth itself could not yet certify the more theatrical changes allege
 
 ---
 
-## FOLIO 19 — TRANSACTIONS
+## FOLIO 20 — TRANSACTIONS
 **Source section:** WAIVER WIRE / TRADE DESK · **Word count:** 105 · **Gate:** EDITORIAL_COPYFIT_REVIEW
 
 In the courier market, every completed transfer comes with a name and an amount. Seven Deadly Chins secured Germie Bernard for 78 FAAB. Dr. Duckhook added Dameon Pierce for 37. Slob on my Dobb acquired Tyler Higbee for 31. Three Dreaded Snake acquired Courtland Sutton for 7. These are reported complete Week Six waiver acquisitions.
@@ -273,7 +286,7 @@ The full Week Six ESPN feed returned 51 activity rows, including unsuccessful cl
 
 ---
 
-## FOLIO 20 — W7 1
+## FOLIO 21 — W7 1
 **Source section:** SIX ROADS FORWARD · **Word count:** 102 · **Gate:** EDITORIAL_COPYFIT_REVIEW
 
 **Three Dreaded Snake (home) vs Dr. Duckhook (away):** Two 3–3 managers face each other, each carrying a different kind of Week Six triumph. The Waterfall Temple's keeper has a question for the Country Club's champion: can momentum travel uphill?
@@ -284,7 +297,7 @@ The full Week Six ESPN feed returned 51 activity rows, including unsuccessful cl
 
 ---
 
-## FOLIO 21 — W7 2
+## FOLIO 22 — W7 2
 **Source section:** SIX ROADS FORWARD · **Word count:** 143 · **Gate:** EDITORIAL_COPYFIT_REVIEW
 
 **Mud Dogs (home) vs Chili Cheesers (away):** Mud Dogs, 2–4, must recover from a twelve-hundredths heartbreak. Chili, 3–3, has an opportunity to turn a chaotic rodeo week into a steadier result.
@@ -297,7 +310,7 @@ All six are official ESPN schedule pairings and **UNDECIDED**, not predictions o
 
 ---
 
-## FOLIO 22 — W7 HYPE
+## FOLIO 23 — W7 HYPE
 **Source section:** RED RETURNS TO THE GATE · **Word count:** 180 · **Gate:** EDITORIAL_COPYFIT_REVIEW
 
 ### RED RETURNS TO THE GATE
@@ -315,7 +328,7 @@ Now ESPN places Blood second in playoff seeding and Red third as Week Seven appr
 
 ---
 
-## FOLIO 23 — FINAL
+## FOLIO 24 — FINAL
 **Source section:** FINAL WORD · **Word count:** 151 · **Gate:** EDITORIAL_COPYFIT_REVIEW
 
 There are two ways to judge a week in the Commonwealth. One is to ask who won. The other is to look at what the winners left behind.
