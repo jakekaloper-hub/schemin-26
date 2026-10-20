@@ -4,9 +4,12 @@
 ## Editorial contract
 This is newly authored prose following the six previously selected Week 6 fiction premises and confirmed FLAIM scores. Fictional actions and dialogue are invented literary dramatizations, *not reported fantasy-football transactions, injuries, game events, real owner quotations, or automatically promoted world canon*. Named physical changes and legal agreements remain conditional. Week 7 previews are upcoming/undecided. No image generation permitted by this manuscript.
 
-# COVER — The Theatre of Ruins: The Visitors Take the Stage
-**Cover copy:** SIX CONTESTS. TWO DECIDED BY LESS THAN HALF A POINT. ONE COMMONWEALTH LEFT TO COUNT THE COST. **THEATRE OF RUINS** · RED LEOPARDS 108.08 — D0NKEY K0NG 118.96 · WEEK SIX.
-**Art brief:** Red's ancient Storm Coast ruins act as terraces framing an improvised football field. Red wears United-coded colors, DK Arsenal-coded kit on ONE integrated gorilla-centaur body with four equine legs. DK dominates the central silhouette but Red remains unmistakable. This is a proposal; cover approval pending, especially DK reference authority and temporary stadium venue approval.
+# COVER — BLACKWATER DEED JOB: TWELVE HUNDREDTHS
+**Commissioner cover selection:** BLACKWATER DEED JOB, not Theatre of Ruins. Generate this cover only AFTER the accepted final Blackwater sequence frame (matching the barge, wet unsigned deed, paper chest, water direction, weather, Mud and Blood identities).
+**Cover headline:** BLACKWATER DEED JOB.
+**Deck:** THE CHAMPION SURVIVED BY 0.12.
+**Verified scoreline:** HIS MAJESTY'S BLOOD 136.92 — MUD DOGS 136.80.
+**Cinematic keyframe:** From Mud Dogs' shocked foreground viewpoint, a damp disputed deed in hand. The hooded, red-eyed, black-armored His Majesty's Blood departs on the same low slowly turning barge as the previous Blackwater feature frame, Belt retained. Swamp reeds, chest, light and water remain continuous with that last illustration. This is the *immediate aftermath* of the prior scene, not a separate clash, a newly concluded legal sale or permanent change of Commonwealth land title. Exact characters, typography, and mobile copyfit remain gated by actual source mounts, raster QA and independent acceptance.
 
 # OPENING DRIVE — The Weight of a Fraction
 In most weeks, winning is easy to recognize. Someone towers over a scoreboard, someone falls out of the frame, and the Commonwealth collects the debris by sunrise. Week Six did not offer that kindness.
