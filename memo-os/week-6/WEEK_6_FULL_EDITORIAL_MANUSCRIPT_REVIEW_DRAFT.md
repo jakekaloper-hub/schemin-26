@@ -144,10 +144,34 @@ The LLC gathered his forms and looked toward the mist. “We can revisit the dea
 
 The pages left dry enough to be filed and damp enough to be doubted. The temple was unchanged. Its keeper had won. The proposed crossing remained a proposal.
 
-# POWER RANKINGS — The Argument After the Argument
-A standings ledger orders teams by the rules of ESPN. A power ranking asks who ought to frighten whom next Sunday, and is therefore less comfortable and more entertaining. Slob's 143.70 makes a powerful case for attention even from a 3–3 record. D0nkey K0ng's 4–2 mark travels with the league's largest points-for total, 881.03. ObiWan Jacoby and His Majesty's Blood remain at the top two ESPN playoff-seed positions at 4–2, the former in defeat this week, the latter by 0.12. Red Leopards, 3–3, has scored 853.78 across the season and remains dangerous regardless of the latest loss.
+# POWER RANKINGS — The Twelve in the Archive
+The Archive has twelve places, but none are reserved. Here the recordkeepers make their weekly argument using form, danger, and the damage a team can do to a better-seeded opponent. These are **editorial power rankings**, not ESPN playoff seeds. Each position and record is a Week Six review proposal; published-week rank-change arrows are withheld until the last published ranking can be checked against its source PNG.
 
-**Editorial note:** This paragraph offers ranking analysis, not an invented numbered top twelve. The formal ranking order and movements require a separate authorial ranking decision and source-checked layout.
+**01 — D0nkey K0ng (4–2, 881.03 PF).** The visitors owned the Theatre of Ruins. A three-digit score would be enough to matter; doing it on Red's home stage matters more. The Archive places DK first for its blend of season-long production and statement victory.
+
+**02 — Slob on my Dobb (3–3, 940.86 PF).** The league's most prolific scorer has a .500 record and the week's largest single total, 143.70. A crooked dodgeball court may not produce clean justice, but it has produced an intimidating offense.
+
+**03 — ObiWan Jacoby (4–2, 836.47 PF).** ESPN's top playoff seed survives a steep defeat at Foothill Camp. The council does not erase five weeks of competitive footing because a visiting Jedi could not get a fair whistle.
+
+**04 — His Majesty's Blood (4–2, 808.47 PF).** Blood leaves the swamp with the Belt intact and a victory of twelve hundredths. Winning while cornered is a powerful skill; needing the final fraction is a warning as Week Seven approaches.
+
+**05 — Red Leopards (3–3, 853.78 PF).** A bruising afternoon at the Ruins does not erase a substantial points total or the danger of playing on Red's home terrain. Blood's approaching visit makes the next answer urgent.
+
+**06 — Dr. Duckhook (3–3, 842.12 PF).** The Jackson Invitational was wet, vulgar, and won. Duckhook's 132.40 is proof the clubhouse can produce more than polished excuses.
+
+**07 — The Chili Cheesers (3–3, 879.82 PF).** The highest scoring of the teams below the top six in this editorial order must still answer for losing the rodeo. The stable's offense is credible; its record is less persuasive.
+
+**08 — Seven Deadly Chins (3–3, 815.18 PF).** The cowboy who carried the final word at Chili Stable has momentum and a league-leading opponent waiting next. It is a good week to be dangerous, even without a top seed.
+
+**09 — The LLC (2–4, 865.61 PF).** With more season points than several winning teams, LLC is a threat the standings hide. Thirty-seven hundredths separated a needed victory from another filing in the loss column.
+
+**10 — Three Dreaded Snake (3–3, 759.17 PF).** The temple keeper won the negotiation's arithmetic and kept the doors of Pittsy's Book shut. The score gives Snake a reprieve; the modest season production leaves something to prove.
+
+**11 — El Niño (2–4, 837.28 PF).** The weather still brings danger, but Duckhook left the country club with the points. The forecast is volatile, not hopeless.
+
+**12 — Mud Dogs (2–4, 773.93 PF).** A twelve-hundredths defeat is an act of cruelty by the arithmetic gods. The Dogs remain competitive enough to make their next visitor uncomfortable, but the Archive cannot award a victory for heartbreak.
+
+At the far wall, last week's placards wait to be moved—but their positions will not be guessed. Only verified prior-edition rankings may determine arrows, jumps, or falls.
 
 # PITTSY'S BOOK — CLOSED FOR BUSINESS
 The shutters at Pittsy's Book remained closed. The Waterfall Temple had many sounds—water against stone, uncertain footsteps, the soft flap of abandoned paper—but it did not have the usual chorus of shouted prices.
