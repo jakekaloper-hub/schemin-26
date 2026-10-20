@@ -1,6 +1,6 @@
-# WEEK 6 — 22 FOLIO EXACT COPY SPLIT (EDITING / COPYFIT REVIEW)
+# WEEK 6 — 23 FOLIO EXACT COPY SPLIT (EDITING / COPYFIT REVIEW)
 
-**State:** SOURCE-TRACEABLE COPY SPLIT, NOT FINAL VISUAL APPROVAL. Each text panel below is mechanically extracted from existing reviewed manuscript draft; story and section order follows existing 22-slot flexible allocation. Splitting and title are layout drafts. Source files: `WEEK_6_FULL_EDITORIAL_MANUSCRIPT_REVIEW_DRAFT.md`, `WEEK_7_GOTW_HISTORICAL_HYPE_PAGE_REVIEW.md`. This does not freeze the count. Actual page PNGs remain subject to readable copyfit, editorial approval and independent image QA.
+**State:** SOURCE-TRACEABLE COPY SPLIT, NOT FINAL VISUAL APPROVAL. Each text panel below is mechanically extracted from existing reviewed manuscript draft; story and section order follows existing 23-slot flexible allocation. Splitting and title are layout drafts. Source files: `WEEK_6_FULL_EDITORIAL_MANUSCRIPT_REVIEW_DRAFT.md`, `WEEK_7_GOTW_HISTORICAL_HYPE_PAGE_REVIEW.md`. This does not freeze the count. Actual page PNGs remain subject to readable copyfit, editorial approval and independent image QA.
 
 ## FOLIO 01 — COVER
 **Source section:** COVER · **Word count:** 89 · **Gate:** EDITORIAL_COPYFIT_REVIEW
@@ -199,8 +199,8 @@ The pages left dry enough to be filed and damp enough to be doubted. The temple 
 
 ---
 
-## FOLIO 15 — RANKINGS
-**Source section:** POWER RANKINGS · **Word count:** 536 · **Gate:** EDITORIAL_COPYFIT_REVIEW
+## FOLIO 15 — RANKINGS: THE TWELVE I (1–6)
+**Source section:** POWER RANKINGS · **Gate:** COPYFIT_REVIEW · **Rank movement arrows:** awaiting prior published issue
 
 The Archive has twelve places, but none are reserved. Here the recordkeepers make their weekly argument using form, danger, and the damage a team can do to a better-seeded opponent. These are **editorial power rankings**, not ESPN playoff seeds. Each position and record is a Week Six review proposal; published-week rank-change arrows are withheld until the last published ranking can be checked against its source PNG.
 
@@ -215,6 +215,11 @@ The Archive has twelve places, but none are reserved. Here the recordkeepers mak
 **05 — Red Leopards (3–3, 853.78 PF).** A bruising afternoon at the Ruins does not erase a substantial points total or the danger of playing on Red's home terrain. Blood's approaching visit makes the next answer urgent.
 
 **06 — Dr. Duckhook (3–3, 842.12 PF).** The Jackson Invitational was wet, vulgar, and won. Duckhook's 132.40 is proof the clubhouse can produce more than polished excuses.
+
+---
+
+## FOLIO 16 — RANKINGS: THE TWELVE II (7–12)
+**Source section:** POWER RANKINGS · **Gate:** COPYFIT_REVIEW · **Rank movement arrows:** awaiting prior published issue
 
 **07 — The Chili Cheesers (3–3, 879.82 PF).** The highest scoring of the teams below the top six in this editorial order must still answer for losing the rodeo. The stable's offense is credible; its record is less persuasive.
 
@@ -232,7 +237,7 @@ At the far wall, last week's placards wait to be moved—but their positions wil
 
 ---
 
-## FOLIO 16 — PITTSY
+## FOLIO 17 — PITTSY
 **Source section:** PITTSY'S BOOK · **Word count:** 141 · **Gate:** EDITORIAL_COPYFIT_REVIEW
 
 The shutters at Pittsy's Book remained closed. The Waterfall Temple had many sounds—water against stone, uncertain footsteps, the soft flap of abandoned paper—but it did not have the usual chorus of shouted prices.
@@ -247,7 +252,7 @@ There was a note on the counter in a handwriting no one volunteered to claim:
 
 ---
 
-## FOLIO 17 — STATE
+## FOLIO 18 — STATE
 **Source section:** STATE OF PLAY · **Word count:** 127 · **Gate:** EDITORIAL_COPYFIT_REVIEW
 
 The league entered Week Seven with ObiWan Jacoby and His Majesty's Blood occupying ESPN's first two playoff seeds at 4–2. D0nkey K0ng also stood 4–2 and led the league in accumulated points. Slob's 3–3 position concealed a 940.86-point scoring total; his opponents had every reason to care more about that number than his win column. The middle of the league was crowded with 3–3 records, while The LLC, El Niño, and Mud Dogs needed a change of direction at 2–4.
@@ -256,7 +261,7 @@ The Commonwealth itself could not yet certify the more theatrical changes allege
 
 ---
 
-## FOLIO 18 — TRANSACTIONS
+## FOLIO 19 — TRANSACTIONS
 **Source section:** WAIVER WIRE / TRADE DESK · **Word count:** 105 · **Gate:** EDITORIAL_COPYFIT_REVIEW
 
 In the courier market, every completed transfer comes with a name and an amount. Seven Deadly Chins secured Germie Bernard for 78 FAAB. Dr. Duckhook added Dameon Pierce for 37. Slob on my Dobb acquired Tyler Higbee for 31. Three Dreaded Snake acquired Courtland Sutton for 7. These are reported complete Week Six waiver acquisitions.
@@ -265,7 +270,7 @@ The full Week Six ESPN feed returned 51 activity rows, including unsuccessful cl
 
 ---
 
-## FOLIO 19 — W7 1
+## FOLIO 20 — W7 1
 **Source section:** SIX ROADS FORWARD · **Word count:** 102 · **Gate:** EDITORIAL_COPYFIT_REVIEW
 
 **Three Dreaded Snake (home) vs Dr. Duckhook (away):** Two 3–3 managers face each other, each carrying a different kind of Week Six triumph. The Waterfall Temple's keeper has a question for the Country Club's champion: can momentum travel uphill?
@@ -276,7 +281,7 @@ The full Week Six ESPN feed returned 51 activity rows, including unsuccessful cl
 
 ---
 
-## FOLIO 20 — W7 2
+## FOLIO 21 — W7 2
 **Source section:** SIX ROADS FORWARD · **Word count:** 143 · **Gate:** EDITORIAL_COPYFIT_REVIEW
 
 **Mud Dogs (home) vs Chili Cheesers (away):** Mud Dogs, 2–4, must recover from a twelve-hundredths heartbreak. Chili, 3–3, has an opportunity to turn a chaotic rodeo week into a steadier result.
@@ -289,7 +294,7 @@ All six are official ESPN schedule pairings and **UNDECIDED**, not predictions o
 
 ---
 
-## FOLIO 21 — W7 HYPE
+## FOLIO 22 — W7 HYPE
 **Source section:** RED RETURNS TO THE GATE · **Word count:** 180 · **Gate:** EDITORIAL_COPYFIT_REVIEW
 
 ### RED RETURNS TO THE GATE
@@ -307,7 +312,7 @@ Now ESPN places Blood second in playoff seeding and Red third as Week Seven appr
 
 ---
 
-## FOLIO 22 — FINAL
+## FOLIO 23 — FINAL
 **Source section:** FINAL WORD · **Word count:** 151 · **Gate:** EDITORIAL_COPYFIT_REVIEW
 
 There are two ways to judge a week in the Commonwealth. One is to ask who won. The other is to look at what the winners left behind.
@@ -324,4 +329,4 @@ The scores are final for now; the arguments are not. Next week, Red Leopards wel
 - Each page must preserve the actual text above or a traceable editorial revision; scores and rankings inserted as deterministic editable type.
 - 390px proof needed for dense folios (Power Rankings and narrative scenes above ~180 words): split further rather than shrink illegibly.
 - Week 7 preview pairings are not future results.
-- All twenty-two sections have nonempty prose; their raster production authorization remains on HOLD.
+- All twenty-three sections have nonempty prose; their raster production authorization remains on HOLD.
