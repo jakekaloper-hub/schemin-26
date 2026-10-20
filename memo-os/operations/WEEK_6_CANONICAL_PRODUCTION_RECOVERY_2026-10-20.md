@@ -47,30 +47,32 @@
 5. Red Leopards vs His Majesty's Blood — **Week 7 GOTW, Commissioner LOCK**
 6. Slob on my Dobb vs The LLC
 
-## Page order and manuscript provenance: FAIL CLOSED
-October 19 discussions entertained a **21-page WORKING PROPOSAL**, not a frozen sequence: cover; opening; scoreboard; Week 6 GOTW pp4–6; other matchups pp7–16; State of Realm; rankings; Pittsy's Book; waiver/trade; Final Word. A separately proposed 17-page breakdown is **NOT authority** and cannot supersede approved allocations. The precise page order, manuscripts, narrations, copy and production packets have NOT been verified on main. In particular `memo-os/week-6/MASTER_PRODUCTION_PACKET.md` returned 404 on main (Oct 20); do not infer absence on other branches or in user-provided files. Before assigning physical folios, locate and digest original approved packets and compare page-by-page.
+## Page allocations: EDITORIAL FLEXIBILITY, not a fixed-number recovery gate
+The Commissioner has clarified that page count and matchup allocations are deliberately FLEXIBLE and story-driven. The October 19 21-page working concept and later 17-page sketch are only references, not frozen pagination or mandatory recovery targets. Managing Editor and Groundskeeper must propose the final page sequence based on narrative weight, six locked story premises, the Week 6 original GOTW, and supporting pages; authorize expansions or contractions for storytelling and mobile legibility. Do not create a missing-original-page-order blocker.
+
+**Manuscript lifecycle clarification (Commissioner, 2026-10-20):** The team deliberately waited for FLAIM/ESPN to decide Week 6 results before drafting final scripts. A missing original finished manuscript is therefore EXPECTED, not a failed recovery gate. The Authors, Beat Writers, Managing Editor and other relevant Bullpen Directors MUST NOW AUTHOR the final Week 6 manuscript, narrations, dialogue, humorous beats, score-aware endings, supporting-page copy, and page-specific prompt-ready scripts from the approved storylines and newly verified results. Reuse any genuine existing draft or locked dialogue, but do not imply a final finished manuscript existed. Keep authored fiction distinct from verified fantasy outcomes. `memo-os/week-6/MASTER_PRODUCTION_PACKET.md` returned 404 on main (Oct 20); create the canonical Week 6 production packet through the normal review lifecycle rather than requiring a phantom artifact.
 
 ### Page-production contract required for EVERY actual folio
-`page_id, original_source_path/ref/version, approved_order, page_role, manuscript_exact_text, narration_exact_text, fact_receipts, owner_character_ids, visual_hashes, venue_id, continuity_in/out, camera/action, foreground/midground/background, deterministic_text_fields, mobile_copy_budget, forbidden_mutations, reviewer, gate_status`.
+`page_id, source_concept_ref/version, proposed_order, page_role, newly_authored_and_editorially_approved_manuscript_exact_text, narration_exact_text, fact_receipts, owner_character_ids, visual_hashes, venue_id, continuity_in/out, camera/action, foreground/midground/background, deterministic_text_fields, mobile_copy_budget, forbidden_mutations, reviewer, gate_status`.
 
 ## Outstanding gates with responsible desks
-- **Groundskeeper / Librarian:** Recover actual Oct 19 production packet and original manuscripts/narrations from approved source location(s), preserve exact page numbering and copy. Missing originals = BLOCKED, not license to fabricate replacements.
+- **Groundskeeper / Librarian:** Review any prior packet ideas/approved story beats and prepare a flexible page budget and a complete revised proposed issue order. Allocate based on editorial significance; no arbitrary fixed sheet count. Coordinate new manuscript authoring after FLAIM fact lock.
 - **Scout:** Archive FLAIM Week 6 result, standings, full player stats as required, and Week 7 schedule evidence; source check against each text/score and track corrections. Completed basic scoreboard/standings/transaction retrieval, not immutable archived receipts.
 - **Pittsy desk:** Resolve authoritative Week 6 closed-book narration and any actual betting ledger. Closed status is storyline; never invent settlement.
 - **Atlas:** Reconcile Week 4–5 deltas, approve host-based venues and proposed SUB features, metric/structural claims remain unknown. All six location cinematic references pending.
 - **Librarian/Character QA:** Mount exact October 18 lineup bytes and owner-crop receipts, settle DK primary-reference conflict and Slob correction dependencies. A typed description alone is not a reference mount.
-- **Authors:** Verify exact approved script text and adapt only winner-dependent endings; give every supporting page a full composition/copy budget.
+- **Authors:** AUTHOR the complete, substantial final Week 6 narrative manuscript and narration now that FLAIM decided all results; preserve preapproved premises, supporting-page continuity and fact boundaries. Write actual copy for every approved page, not placeholders or a promise to recover nonexistent originals.
 - **Closer:** Lock cover based on original authorized considerations, not unilateral replacement.
 - **Independent Umpire:** Actual independent artifacts, tests, reviewer proof, and accepted release decision required; simulated board signatures never PASS.
 
 ## Umpire pre-render outcome
-**HOLD.** Six ESPN final results and Week 7 pairings/GOTW are verified; manuscript/page order and individual page packets remain unverified on active main, some branch-only spatial references unresolved, and independent acceptance absent. No images produced.
+**HOLD.** Six ESPN final results and Week 7 pairings/GOTW are verified; new complete manuscript, story-driven pagination, and individual page packets still need to be authored and approved, some branch-only spatial references unresolved, and independent acceptance absent. No images produced.
 
 ## Completion definitions
 - IMPLEMENTED: this recovery register proposed in branch / PR, not the full recovered edition.
 - TESTED: matchups read directly from FLAIM; PR statuses and main directory inspected. No automated suite executed in this chat.
 - AUDITED: source-vs-lock conflicts documented; simulated Umpire, not independent approval.
 - PROMOTED: none until review/merge; no release certification.
-- REMAINING_EXTERNAL_INPUT_REQUIRED: existing exact approved manuscripts/packet and supporting Pittsy ledger if not recoverable from authorized sources; final reviewer signoffs.
+- REMAINING_EXTERNAL_INPUT_REQUIRED: supporting Pittsy ledger if actual results are required and unavailable; character/location source bytes and independent reviewers as required. New manuscripts and flexible pagination are INTERNAL Bullpen responsibilities, not missing external input; final reviewer signoffs.
 
-**Next authorized path:** recover originals → reconcile sequence and scripts → finish individual contracts → verify source/reference mounts → independent pre-render audit → approval request. No generation before gate passes.
+**Next authorized path:** draft full manuscript after final results → assign flexible story-driven page sequence → finish individual contracts → verify source/reference mounts → independent pre-render audit → approval request. No generation before gate passes.
