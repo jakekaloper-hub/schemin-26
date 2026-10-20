@@ -4,7 +4,7 @@
 **Governance:** `memo-os/PAGE_PRODUCTION_CONTRACT_V1.md`, `CHARACTER_PACKET_GATE_V1.md`, `PAGE_FIDELITY_MODEL_V1.md`
 
 ## Page-count rationale
-**Proposed 23-sheet structure** is a *new editorial allocation*, not a Commissioner pagination lock. Three pages for Week 6 GOTW, two each for three narrative-heavy matchups, one each for Jackson and Rodeo, two schedule sheets plus one dedicated historical Week 7 GOTW teaser, so every matchup has readable space. The meeting can remove or add folios on manuscript review. No packet below is READY_FOR_RENDER.
+**Proposed 23-sheet structure** is a *new editorial allocation*, not a Commissioner pagination lock. Three pages for Week 6 GOTW, two each for three narrative-heavy matchups, one each for Jackson and Rodeo, two schedule sheets plus one dedicated historical Week 7 GOTW teaser, so every matchup has readable space. The meeting can remove or add folios on manuscript review. No packet below is READY_FOR_RENDER. **Generation order is six matchup sequences, then Blackwater-afterimage cover, then civic departments, then Week7 previews; final PDF reading sequence may still position folio 01 first.**
 
 ## Common production requirements across ALL pages
 Portrait mobile-first premium illustrated-magazine language; detailed grounded Commonwealth environment rather than flat dashboard; source-controlled exact character identity, no substituted species or merged multi-character anatomy; exact typography overlays for scores, transaction amounts, names and future fixtures; consistent spelling, no uncited invented statistics, readable at 390px wide. Every scene requires approved stable parent LOC; derived features remain temporary/noncanonical pending acceptance. Review cover, matchup and utility content independently. Image tells the action/physical comedy; prose provides motive, consequences and exact facts. **Reference montage or descriptive words are never asset mount proof.**
@@ -14,7 +14,7 @@ Each row names the manuscript section that is authoritative source for exact cop
 
 | Proposed folio | Page / narrative job | Exact manuscript section(s) | Visual/camera/props | Fact and identity checks |
 |---|---|---|---|---|
-| 01 | **Cover** / sell League Week 6 rivalry | COVER | Red Storm Coast ruins establishing wide, opposed supporter terraces, temporary pitch; main DK/Red readable at thumbnail | Week 6 GOTW ≠ Week 7 GOTW; DK four equine legs; venue override |
+| 01 | **Cover** / aftermath of Blackwater's 0.12-point champion escape | BLACKWATER Part II + COMMISSIONER FINAL COVER DIRECTIVE | Mud Dogs foreground holds damp unsigned disputed deed; HMB hooded red-eyed black armor and Belt departing on same low turning barge, swamp and light continuous from folio 12 | HMB 136.92 / Mud Dogs 136.80; no title transfer; generate only AFTER accepted Blackwater ending frame |
 | 02 | **Opening Drive** / explain week thesis | OPENING DRIVE | Commonwealth courier's broadsheet over six thematic visual fragments, one legible lead headline | Both 0.12/0.37 margins; don't imply physical canon |
 | 03 | **Scoreboard** / all six verified outcomes | SCOREBOARD | Framed league tally board in League Chamber / confirm LOC; exact text separate | All 12 teams, scores, HOME/AWAY, decimals |
 | 04 | **Theatre I** / supporter arrival | THEATRE Part I | Red home gate, wet stone escarpment, arrivals, DK enters horizontally grounded | Red species, DK ONE torso and four equine legs; football kits |
@@ -51,8 +51,8 @@ The structure totals **23 proposed pages**, including the newly added dedicated 
 - `required_qa`: Scout + Librarian + Atlas + Copy + Visual + Groundskeeper + actual Umpire. `manual_approval_required=true`.
 - **All pages:** `page_state=PLANNED`; no simulated review constitutes `READY_FOR_RENDER`.
 
-## Cover selection recommendation, not fake Commissioner approval
-Production lead nominates **THEATRE OF RUINS** cover because original Week 6 GOTW received bespoke Commissioner creative direction and supports football rivalry iconography. Alternate cover story candidates: Blackwater (0.12) and Falls (0.37). **COVER FINAL APPROVAL PENDING**.
+## Cover narrative and Commissioner selection LOCKED; actual PNG still awaits acceptance
+Commissioner has selected **BLACKWATER DEED JOB** as cover: cinematic aftermath immediately after the HMB 136.92–Mud 136.80 scene, relying on accepted Blackwater final page as visual continuity keyframe. Theatre remains the Week6 GOTW feature, not the cover. Cover source-image and reviewer QA remain pending.
 
 ## Missing complete outputs
 1. Complete subjective 1–12 Power Rankings now drafted and split into two pages; prior-published rank movement remains evidence-blocked, and editorial signoff remains required.
