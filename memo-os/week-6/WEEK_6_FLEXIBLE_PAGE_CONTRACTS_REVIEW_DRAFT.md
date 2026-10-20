@@ -4,7 +4,7 @@
 **Governance:** `memo-os/PAGE_PRODUCTION_CONTRACT_V1.md`, `CHARACTER_PACKET_GATE_V1.md`, `PAGE_FIDELITY_MODEL_V1.md`
 
 ## Page-count rationale
-**Proposed 22-sheet structure** is a *new editorial allocation*, not a Commissioner pagination lock. Three pages for Week 6 GOTW, two each for three narrative-heavy matchups, one each for Jackson and Rodeo, two schedule sheets plus one dedicated historical Week 7 GOTW teaser, so every matchup has readable space. The meeting can remove or add folios on manuscript review. No packet below is READY_FOR_RENDER.
+**Proposed 23-sheet structure** is a *new editorial allocation*, not a Commissioner pagination lock. Three pages for Week 6 GOTW, two each for three narrative-heavy matchups, one each for Jackson and Rodeo, two schedule sheets plus one dedicated historical Week 7 GOTW teaser, so every matchup has readable space. The meeting can remove or add folios on manuscript review. No packet below is READY_FOR_RENDER.
 
 ## Common production requirements across ALL pages
 Portrait mobile-first premium illustrated-magazine language; detailed grounded Commonwealth environment rather than flat dashboard; source-controlled exact character identity, no substituted species or merged multi-character anatomy; exact typography overlays for scores, transaction amounts, names and future fixtures; consistent spelling, no uncited invented statistics, readable at 390px wide. Every scene requires approved stable parent LOC; derived features remain temporary/noncanonical pending acceptance. Review cover, matchup and utility content independently. Image tells the action/physical comedy; prose provides motive, consequences and exact facts. **Reference montage or descriptive words are never asset mount proof.**
@@ -28,16 +28,16 @@ Each row names the manuscript section that is authoritative source for exact cop
 | 12 | **Blackwater II** / impossible narrow escape | BLACKWATER Part II | Detail on disputed document and river, Blood departure and Mud stunned | HMB 136.92 Mud 136.80; 0.12; no signed legal transfer |
 | 13 | **Falls I** / negotiation | FALLS Part I | Waterfall Temple existing stairs and mist; LLC paper plan on ledge; three snake heads one body | No built bridge/vault; parent LOC; anatomy |
 | 14 | **Falls II** / 0.37 decision | FALLS Part II | Same ledge and camera geography; damp forms and retreat | TDS 138.06 LLC 137.69; 0.37; no completed trade |
-| 15 | **Power Rankings** / editorial hierarchy | POWER RANKINGS | League archive physically anchored ranking lectern, exact editable scores/rank rows | Formal rankings not yet decided; ESPN standings distinct. **COPY SUBGATE OPEN** |
-| 16 | **Pittsy's Book** / closed institution | PITTSY'S BOOK | Waterfall Temple closed shutters, absent patrons, silent book and three-headed custodian | CLOSED; Week 4 visual precedent; no wagers/verified ledger invented |
-| 17 | **State of Play** / resulting competitive landscape | STATE OF PLAY | Physical Commonwealth map, league balance of powers, no literal territorial edits | ESPN seed positions vs editorial rankings; W4–W5 deltas unresolved |
-| 18 | **Waiver / Trade** / documented movements | WAIVER WIRE / TRADE DESK | Courier market receipt stacks, official bills, high legibility | 51 returned activity rows NOT 51 completed trades; FAAB 78/37/31/7 complete; incomplete trades flagged |
-| 19 | **Six Roads I** / early Week 7 schedule | SIX ROADS FORWARD first 3 games | Road docket on Atlas table; 3 route cards with home-first fixtures | TDS–Duckhook, DK–El Niño, ObiWan–Chins all undecided |
-| 20 | **Six Roads II** / remainder Week 7 schedule | SIX ROADS FORWARD last 3 games | Mud–Chili, Red–HMB, Slob–LLC as schedule cards; refer to next-page marquee | Week 7 RED home HMB away GOTW LOCK; all undecided |
-| 21 | **Red Returns to the Gate — Week 7 GOTW historical teaser** | WEEK_7_GOTW_HISTORICAL_HYPE_PAGE_REVIEW.md | Red Leopard Ruins gate; Red awaits distant HMB arrival; temporary Storm Coast Arrival Terrace is only a candidate visual feature | 2024 W1 Red 131.52–team8 98.16; 2025 W7 team8 138.46–Red 129.81; 2026 Red 3–3 vs Blood 4–2, playoff seeds 3 and 2; CHAR-KEVIN-ZEEK and CHAR-AUSTIN-BYARS; LOC-RED-RUINS; Atlas/reference QA HOLD |
-| 22 | **Final Word** / resonance | FINAL WORD | Closing periodical desk at dusk, six distinct physical remnants in foreground | No fabricated winners; Week 7 GOTW exact text |
+| 15 | **Power Rankings I — The Twelve (1–6)** | POWER RANKINGS top 6 from exact-copy split | League Archive's records hall; approved owner portraits and distinct top-six ranking slots | Editorial order drafted; prior-published movement unverified, no arrows |\n| 16 | **Power Rankings II — The Twelve (7–12)** | POWER RANKINGS bottom 6 from exact-copy split | Continuation of same physical Archive/recordkeeper scene, distinct lower-six slots | Editorial order drafted; no fabricated movements |
+| 17 | **Pittsy's Book** / closed institution | PITTSY'S BOOK | Waterfall Temple closed shutters, absent patrons, silent book and three-headed custodian | CLOSED; Week 4 visual precedent; no wagers/verified ledger invented |
+| 18 | **State of Play** / resulting competitive landscape | STATE OF PLAY | Physical Commonwealth map, league balance of powers, no literal territorial edits | ESPN seed positions vs editorial rankings; W4–W5 deltas unresolved |
+| 19 | **Waiver / Trade** / documented movements | WAIVER WIRE / TRADE DESK | Courier market receipt stacks, official bills, high legibility | 51 returned activity rows NOT 51 completed trades; FAAB 78/37/31/7 complete; incomplete trades flagged |
+| 20 | **Six Roads I** / early Week 7 schedule | SIX ROADS FORWARD first 3 games | Road docket on Atlas table; 3 route cards with home-first fixtures | TDS–Duckhook, DK–El Niño, ObiWan–Chins all undecided |
+| 21 | **Six Roads II** / remainder Week 7 schedule | SIX ROADS FORWARD last 3 games | Mud–Chili, Red–HMB, Slob–LLC as schedule cards; refer to next-page marquee | Week 7 RED home HMB away GOTW LOCK; all undecided |
+| 22 | **Red Returns to the Gate — Week 7 GOTW historical teaser** | WEEK_7_GOTW_HISTORICAL_HYPE_PAGE_REVIEW.md | Red Leopard Ruins gate; Red awaits distant HMB arrival; temporary Storm Coast Arrival Terrace is only a candidate visual feature | 2024 W1 Red 131.52–team8 98.16; 2025 W7 team8 138.46–Red 129.81; 2026 Red 3–3 vs Blood 4–2, playoff seeds 3 and 2; CHAR-KEVIN-ZEEK and CHAR-AUSTIN-BYARS; LOC-RED-RUINS; Atlas/reference QA HOLD |
+| 23 | **Final Word** / resonance | FINAL WORD | Closing periodical desk at dusk, six distinct physical remnants in foreground | No fabricated winners; Week 7 GOTW exact text |
 
-The structure totals **22 proposed pages**, including the newly added dedicated Week 7 historical GOTW hype page. This remains adjustable after copyfit and cover review.
+The structure totals **23 proposed pages**, including the newly added dedicated Week 7 historical GOTW hype page. This remains adjustable after copyfit and cover review.
 
 ## Detailed page fields / unresolved dependencies (all apply before transition)
 - `fact_lock_receipts`: FLAIM/ESPN 2026 Week6 outcome + standings; Week7 schedule; transaction rows for page 18. Snapshot archiving and stat correction watch pending.
@@ -54,7 +54,7 @@ The structure totals **22 proposed pages**, including the newly added dedicated 
 Production lead nominates **THEATRE OF RUINS** cover because original Week 6 GOTW received bespoke Commissioner creative direction and supports football rivalry iconography. Alternate cover story candidates: Blackwater (0.12) and Falls (0.37). **COVER FINAL APPROVAL PENDING**.
 
 ## Missing complete outputs
-1. Formal subjective 1–12 Power Rankings needs an editorial panel decision and change-from-last-week analysis.
+1. Complete subjective 1–12 Power Rankings now drafted and split into two pages; prior-published rank movement remains evidence-blocked, and editorial signoff remains required.
 2. Matchup feature prose is drafted but multi-page boundaries need per-page full finalized text, panel layout and copy fitting.
 3. Visual/reference hashes and exact canon locks for every character and location.
 4. Independent authorized Umpire execution, actual provider-image reference proof, QA receipts.
