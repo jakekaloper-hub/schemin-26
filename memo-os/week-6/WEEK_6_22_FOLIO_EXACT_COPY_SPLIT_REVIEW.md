@@ -3,10 +3,13 @@
 **State:** SOURCE-TRACEABLE COPY SPLIT, NOT FINAL VISUAL APPROVAL. Each text panel below is mechanically extracted from existing reviewed manuscript draft; story and section order follows existing 23-slot flexible allocation. Splitting and title are layout drafts. Source files: `WEEK_6_FULL_EDITORIAL_MANUSCRIPT_REVIEW_DRAFT.md`, `WEEK_7_GOTW_HISTORICAL_HYPE_PAGE_REVIEW.md`. This does not freeze the count. Actual page PNGs remain subject to readable copyfit, editorial approval and independent image QA.
 
 ## FOLIO 01 — COVER
-**Source section:** COVER · **Word count:** 89 · **Gate:** EDITORIAL_COPYFIT_REVIEW
+**Source section:** COVER — BLACKWATER DEED JOB · **Gate:** EDITORIAL_COPYFIT_REVIEW · **Override:** October20 Commissioner cover selection supersedes earlier Theatre proposal.
 
-**Cover copy:** SIX CONTESTS. TWO DECIDED BY LESS THAN HALF A POINT. ONE COMMONWEALTH LEFT TO COUNT THE COST. **THEATRE OF RUINS** · RED LEOPARDS 108.08 — D0NKEY K0NG 118.96 · WEEK SIX.
-**Art brief:** Red's ancient Storm Coast ruins act as terraces framing an improvised football field. Red wears United-coded colors, DK Arsenal-coded kit on ONE integrated gorilla-centaur body with four equine legs. DK dominates the central silhouette but Red remains unmistakable. This is a proposal; cover approval pending, especially DK reference authority and temporary stadium venue approval.
+**Cover headline:** BLACKWATER DEED JOB.
+**Deck:** THE CHAMPION SURVIVED BY 0.12.
+**Verified scoreline:** HIS MAJESTY'S BLOOD 136.92 — MUD DOGS 136.80.
+**Art brief:** Direct next-instant aftermath of accepted Blackwater Part II image. Mud Dogs holds a damp unsigned deed, foreground. HMB hooded red-eyed black-armored, Belt retained, departs on the *same* low turning barge; match chest/reeds/water/weather/camera continuity. Not a land transfer or a new match.
+**Pre-render HOLD:** accepted Blackwater keyframe, real approved image-crop mount and independent QA still needed.
 
 ---
 
