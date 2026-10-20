@@ -152,7 +152,7 @@ No new permanent stadium had been canonized by the match, no roof grafted onto t
 **Parent Atlas LOC:** `LOC-COUNTRY-CLUB-JACKSON` (existing, not a new venue)
 **Subject asset receipts (expected source hashes; actual generator binding UNPROVEN):**
 CHAR-ZACH-WILSON — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png` — SHA256 expected `c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a`
-CHAR-DAVID-BABB — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png` — SHA256 expected `f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340`
+CHAR-MANNING-WELTY — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png` — SHA256 expected `d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04`
 **Visual/camera/props:** Country Club golf green, runaway cart/bunker/towel, caddies and terrace, no lasting environmental damage
 **Copyfit protocol:** 205 words HIGH: tighten into 3 short paragraphs; if illegible split sheet. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
 **Source copy for final editorial fit:**
@@ -314,7 +314,7 @@ The river carried the words downstream. The paperwork remained what it had been 
 **Parent Atlas LOC:** `LOC-TDS-WATERFALL-TEMPLE` (existing, not a new venue)
 **Subject asset receipts (expected source hashes; actual generator binding UNPROVEN):**
 CHAR-PHILLIP-PITTS — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png` — SHA256 expected `0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65`
-CHAR-MANNING-WELTY — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png` — SHA256 expected `d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04`
+CHAR-DAVID-BABB — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png` — SHA256 expected `f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340`
 **Visual/camera/props:** Ledge and spray, TDS exactly three heads one body, LLC plans but no bridge built
 **Copyfit protocol:** 153 words; tight stacked dialogue. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
 **Source copy for final editorial fit:**
@@ -345,7 +345,7 @@ Their arguments were interrupted by a gust that lifted a corner of the plan over
 **Parent Atlas LOC:** `LOC-TDS-WATERFALL-TEMPLE` (existing, not a new venue)
 **Subject asset receipts (expected source hashes; actual generator binding UNPROVEN):**
 CHAR-PHILLIP-PITTS — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png` — SHA256 expected `0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65`
-CHAR-MANNING-WELTY — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png` — SHA256 expected `d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04`
+CHAR-DAVID-BABB — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png` — SHA256 expected `f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340`
 **Visual/camera/props:** Same ledge/camera axis, damp files, no construction/contract finalization
 **Copyfit protocol:** 124 words + TDS 138.06 / LLC 137.69 by 0.37. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
 **Source copy for final editorial fit:**
