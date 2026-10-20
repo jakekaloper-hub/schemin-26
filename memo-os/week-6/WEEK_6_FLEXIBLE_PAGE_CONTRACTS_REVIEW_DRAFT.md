@@ -4,7 +4,7 @@
 **Governance:** `memo-os/PAGE_PRODUCTION_CONTRACT_V1.md`, `CHARACTER_PACKET_GATE_V1.md`, `PAGE_FIDELITY_MODEL_V1.md`
 
 ## Page-count rationale
-**Proposed 21-sheet structure** is a *new editorial allocation*, not a Commissioner pagination lock. Three pages for Week 6 GOTW, two each for three narrative-heavy matchups, one each for Jackson and Rodeo, two sheets for Matchups to Come so every Week 7 game has readable space. The meeting can remove or add folios on manuscript review. No packet below is READY_FOR_RENDER.
+**Proposed 22-sheet structure** is a *new editorial allocation*, not a Commissioner pagination lock. Three pages for Week 6 GOTW, two each for three narrative-heavy matchups, one each for Jackson and Rodeo, two schedule sheets plus one dedicated historical Week 7 GOTW teaser, so every matchup has readable space. The meeting can remove or add folios on manuscript review. No packet below is READY_FOR_RENDER.
 
 ## Common production requirements across ALL pages
 Portrait mobile-first premium illustrated-magazine language; detailed grounded Commonwealth environment rather than flat dashboard; source-controlled exact character identity, no substituted species or merged multi-character anatomy; exact typography overlays for scores, transaction amounts, names and future fixtures; consistent spelling, no uncited invented statistics, readable at 390px wide. Every scene requires approved stable parent LOC; derived features remain temporary/noncanonical pending acceptance. Review cover, matchup and utility content independently. Image tells the action/physical comedy; prose provides motive, consequences and exact facts. **Reference montage or descriptive words are never asset mount proof.**
@@ -33,10 +33,11 @@ Each row names the manuscript section that is authoritative source for exact cop
 | 17 | **State of Play** / resulting competitive landscape | STATE OF PLAY | Physical Commonwealth map, league balance of powers, no literal territorial edits | ESPN seed positions vs editorial rankings; W4–W5 deltas unresolved |
 | 18 | **Waiver / Trade** / documented movements | WAIVER WIRE / TRADE DESK | Courier market receipt stacks, official bills, high legibility | 51 returned activity rows NOT 51 completed trades; FAAB 78/37/31/7 complete; incomplete trades flagged |
 | 19 | **Six Roads I** / early Week 7 schedule | SIX ROADS FORWARD first 3 games | Road docket on Atlas table; 3 route cards with home-first fixtures | TDS–Duckhook, DK–El Niño, ObiWan–Chins all undecided |
-| 20 | **Six Roads II** / remainder Week 7 and GOTW | SIX ROADS FORWARD last 3 games | Featured Red–HMB confrontation heraldic announcement plus Mud–Chili and Slob–LLC mini-cards | Week 7 RED home HMB away GOTW LOCK; all undecided |
-| 21 | **Final Word** / resonance | FINAL WORD | Closing periodical desk at dusk, six distinct physical remnants in foreground | No fabricated winners; Week 7 GOTW exact text |
+| 20 | **Six Roads II** / remainder Week 7 schedule | SIX ROADS FORWARD last 3 games | Mud–Chili, Red–HMB, Slob–LLC as schedule cards; refer to next-page marquee | Week 7 RED home HMB away GOTW LOCK; all undecided |
+| 21 | **Red Returns to the Gate — Week 7 GOTW historical teaser** | WEEK_7_GOTW_HISTORICAL_HYPE_PAGE_REVIEW.md | Red Leopard Ruins gate; Red awaits distant HMB arrival; temporary Storm Coast Arrival Terrace is only a candidate visual feature | 2024 W1 Red 131.52–team8 98.16; 2025 W7 team8 138.46–Red 129.81; 2026 Red 3–3 vs Blood 4–2, playoff seeds 3 and 2; CHAR-KEVIN-ZEEK and CHAR-AUSTIN-BYARS; LOC-RED-RUINS; Atlas/reference QA HOLD |
+| 22 | **Final Word** / resonance | FINAL WORD | Closing periodical desk at dusk, six distinct physical remnants in foreground | No fabricated winners; Week 7 GOTW exact text |
 
-The structure totals **21 proposed pages**. This is deliberately adjustable after copyfit and cover review. Fix heading/count before lock.
+The structure totals **22 proposed pages**, including the newly added dedicated Week 7 historical GOTW hype page. This remains adjustable after copyfit and cover review.
 
 ## Detailed page fields / unresolved dependencies (all apply before transition)
 - `fact_lock_receipts`: FLAIM/ESPN 2026 Week6 outcome + standings; Week7 schedule; transaction rows for page 18. Snapshot archiving and stat correction watch pending.
