@@ -1,6 +1,6 @@
-# WEEK 6 — 23 PRODUCTION-SPECIFIC FINAL PRE-RENDER PACKETS
+# WEEK 6 — 24 PRODUCTION-SPECIFIC FINAL PRE-RENDER PACKETS
 **Camera amendment 2026-10-20:** Every sheet now has a five-axis cinematography and unit-stills layer inspired by public discussion of Frank Masi's in-frame composition principles. This is internal interpretive direction, not his endorsement or actual consultancy.\n**Source basis:** current exact-copy split, draft PR222; October20 Commissioner Founder Vision, POV overtures and cover/generation order. **State: REVIEW-READY PACKETS, NOT INDEPENDENTLY ACCEPTED, NO GENERATED IMAGES.**
-**Writing:** story prose is source-traceable and still needs final art-specific line editing and real mobile proof. This file does not falsely call every paragraph copyfit approved. Existing 23 slots may expand based on real proof.
+**Writing:** story prose is source-traceable and still needs final art-specific line editing and real mobile proof. This file does not falsely call every paragraph copyfit approved. Existing 24 slots may expand based on real proof.
 **Image generation order:** 04,05,06,07,08,09,10,11,12,13,14 → 01 (after accepted 12) → 02,03,15,16,17,18,19,23 → 20,21,22. **Final PDF order** can be 01..23 after verified inventory.
 **Exact data treatment:** all scores, names, standings and wagers composited deterministically; AI illustration never owns statistics.
 **Global canvas contract:** ALL page masters MUST be PNG, exactly **1024 px wide × 1536 px high**, portrait **2:3**. Render and typeset natively for this geometry; Masi-inspired focal-length/framing never overrides the Memo OS canvas. Reject 1536×1024, 1024×1024, 9:16 or any other size. Validate pixel dimensions on each deliverable, with no silent crop, scale, stretch or padding. 390px review is a downscaled readability test, NOT master export size.
@@ -13,7 +13,7 @@
 - Every final page master MUST be exactly `1024 × 1536` pixels before Commissioner approval and separate PDF assembly. Cinematographic lens/framing notes must operate WITHIN this canvas, never change page geometry.
 - Inspect output PNG metadata with an actual dimension check (width, height, format), as well as full-page visual copyfit at phone scale and character/Atlas QA. A correct filename, prompt or visually portrait image is NOT sufficient proof.
 - Any generated off-spec page is REJECTED and must be regenerated/corrected before approval. Do not stretch the image or silently crop away narration/subjects merely to meet geometry.
-- Keep final dimensions consistent on **all 23 current folios** and on any additional story-driven folios.
+- Keep final dimensions consistent on **all 24 current folios** and on any additional story-driven folios.
 
 ## FOLIO 01 — COVER
 **Narrative job:** Cover: champion's 0.12 escape
@@ -217,19 +217,17 @@ By evening, the temporary touchlines were washing away. The ruin stood as it alw
 
 ---
 
-## FOLIO 07 — JACKSON
-**Narrative job:** Jackson / clubhouse collapse
-**POV-overture / reading lens:** Duckhook's prestige vs El Niño's arriving storm
-**Parent Atlas LOC:** `LOC-COUNTRY-CLUB-JACKSON` (existing, not a new venue)
+## FOLIO 07 — JACKSON I — A QUESTION OF ETIQUETTE
+**Narrative job:** arrival and POV overture
+**POV-overture / reading lens:** Dr. Duckhook's dignity and prestige threatened by the visiting El Niño; second page reveals Duckhook's composure through the chaos.
+**Parent Atlas LOC:** `LOC-COUNTRY-CLUB-JACKSON` (existing venue; no new construction)
 **Subject asset receipts (expected source hashes; actual generator binding UNPROVEN):**
 CHAR-ZACH-WILSON — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png` — SHA256 expected `c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a`
 CHAR-MANNING-WELTY — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png` — SHA256 expected `d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04`
-**Visual/camera/props:** Country Club golf green, runaway cart/bunker/towel, caddies and terrace, no lasting environmental damage
-**PAGE MASTER:** `1024 × 1536 px` · PNG · Portrait · 2:3 · hard reject any nonmatching actual output dimensions.
-**Copyfit protocol:** 205 words HIGH: tighten into 3 short paragraphs; if illegible split sheet. Never fit via tiny fonts. Visual 390px test must occur once raster exists.
-**Mandatory PNG master specification:** `1024 × 1536 px` · **portrait** · **2:3 aspect ratio** · **PNG**. This is the final page-master canvas, not a suggested crop. Camera/lens choices must be composed WITHIN this fixed frame. Reject any other raster dimensions, landscape crops, stretched/resampled character art, missing content or typography outside the safe area. Verify PNG header width=1024 and height=1536 before Commissioner approval and before PDF assembly.
+**Visual/camera/props:** Formal clubhouse entry, caddies, wind approaching
+**PAGE MASTER:** `1024 × 1536 px` PNG · portrait · 2:3, strict dimensions.
+**Copyfit:** Two compact text zones; no scoreboard; reserve readable editorial text within this canvas; do not shrink typography to conceal overflow.
 **Source copy for final editorial fit:**
-
 
 The Country Club of Jackson believed in a hierarchy of disasters. A guest arriving late was vulgar. A cart leaving tracks across the wrong approach was unforgivable. A storm following El Niño through the front gates was neither of those things; it was a scheduling matter to be discussed after lunch.
 
@@ -239,22 +237,47 @@ Dr. Duckhook's guests arrived in polished layers, ready to treat the tournament 
 
 “You got one,” El Niño answered. “You didn't specify how long it would stay fair.”
 
-There was a spectacular misadventure with a bunker, a club towel, and an increasingly nervous official whose job required him to say the event was under control. The club survived in the only way it knew how: by refusing to admit anything unusual had happened. Duckhook took the fantasy contest, 132.40 to 119.86, and turned his score into a toast. El Niño raised an empty glass to the ceiling, studying the sound of rain above it.
+The event began beneath the clubhouse's unwavering rules of etiquette. Beyond the windows, a caddy steadied the club towel as the wind lifted it sideways. Duckhook watched the green; El Niño watched the clouds.
 
-
-**Continuity-in/out and prohibited mutations:** uphold parent environment, current approved identities, current fantasy state; never invent title transfers, Week7 outcomes, character anatomy, modern vehicles, betting facts or unapproved permanent structures. Sequential art must match adjacent page. **Acceptance:** exact factual text, verified visual subjects, actual render proof and independent review (pending).
-
-**CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired study; not his personal involvement or approval):**
-- **Camera and POV:** Duckhook host view through clubhouse door, 50mm to 28mm widened chaos.
-- **Height / framing / lens perspective:** eye-level prestige composition with runaway golf cart still trackable on fairway.
-- **Focal hierarchy and decisive moment:** Duckhook composed reaction; El Niño storm; caddy/cart/towel gag in readable second plane.
-- **Motivated lighting and sequential geography:** storm cloud direction fixed; clubhouse veranda geometry stable; no permanent damage.
-- **Magazine crop, safe text and phone-scale challenge:** high copy density: use more space or split sheet, not tiny type.
-- **Frame validation:** Review whether this single still tells the reader who wants what, what changed, and where the story happens. Treat focal-length labels as artistic equivalents, not camera metadata. Match eyelines, shot axis, character scale, shadows and physical props to adjacent scene; reject incorrect identity or illegibility.
+**Continuity-in/out:** Locked veranda/bunker/cart route, caddy and towel, club terrain and approaching storm. No permanent damage. First page ends before chaos outcome; second ends with final Duckhook victory and club restoration.
+**CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired editorial research, not personal participation):**
+- **Camera / POV:** Duckhook's clubhouse-level 50mm-equivalent dignified first impression.
+- **Decisive image:** Duckhook holds court while storm announces El Niño; staff struggles with windblown towel.
+- **Composition:** premium 2:3 illustrated Memo; generous legible prose zone; foreground/midground/background separated; correct approved character shapes, natural motivated weather.
+- **Sequential QA:** keep horizon, direction of storm, clubhouse entrance, golf green, bunker position and cart route continuous. Only folio08 may print verified final score. Validate exact pixel size + 390px readability on raster; independent review remains pending.
 
 ---
 
-## FOLIO 08 — FOOTHILL 1
+## FOLIO 08 — JACKSON II — THE CLUBHOUSE REFUSES TO NOTICE
+**Narrative job:** comedic storm-and-cart escalation, score-aware resolution
+**POV-overture / reading lens:** Dr. Duckhook's dignity and prestige threatened by the visiting El Niño; second page reveals Duckhook's composure through the chaos.
+**Parent Atlas LOC:** `LOC-COUNTRY-CLUB-JACKSON` (existing venue; no new construction)
+**Subject asset receipts (expected source hashes; actual generator binding UNPROVEN):**
+CHAR-ZACH-WILSON — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png` — SHA256 expected `c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a`
+CHAR-MANNING-WELTY — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png` — SHA256 expected `d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04`
+**Visual/camera/props:** Runaway cart, club towel, bunker and rain; winning toast
+**PAGE MASTER:** `1024 × 1536 px` PNG · portrait · 2:3, strict dimensions.
+**Copyfit:** Two cinematic beats with score strip; reserve readable editorial text within this canvas; do not shrink typography to conceal overflow.
+**Source copy for final editorial fit:**
+
+The first golf cart lurched away from the clubhouse approach, chased by a caddy carrying a club towel like a surrender flag. It missed the neat path, skirted the lip of the bunker, then swung into the rough while the official repeated that everything was under control. The spectators disagreed without daring to say so aloud.
+
+Duckhook reached the terrace as the rain arrived in earnest. The white tablecloths fluttered; the bunker acquired its own little weather system. El Niño, unhurried, surveyed the soaked fairway.
+
+The club survived the spectacle in the only way it knew how: by refusing to admit anything unusual had happened.
+
+Dr. Duckhook took the fantasy contest **132.40–119.86**, then transformed his victory into a dignified toast. El Niño raised an empty glass toward the ceiling, listening to the rain above it. The club's staff began restoring the course before anyone could suggest that the tournament's disorder had become a new permanent feature.
+
+**Continuity-in/out:** Locked veranda/bunker/cart route, caddy and towel, club terrain and approaching storm. No permanent damage. First page ends before chaos outcome; second ends with final Duckhook victory and club restoration.
+**CINEMATOGRAPHY / UNIT-STILLS LAYER (Frank Masi-inspired editorial research, not personal participation):**
+- **Camera / POV:** Wider dynamic 28–35mm-equivalent from same clubhouse/fairway geographic axis.
+- **Decisive image:** Escaped golf cart near bunker, caddy chasing towel, El Niño storm, Duckhook regains social command in victory toast.
+- **Composition:** premium 2:3 illustrated Memo; generous legible prose zone; foreground/midground/background separated; correct approved character shapes, natural motivated weather.
+- **Sequential QA:** keep horizon, direction of storm, clubhouse entrance, golf green, bunker position and cart route continuous. Only folio08 may print verified final score. Validate exact pixel size + 390px readability on raster; independent review remains pending.
+
+---
+
+## FOLIO 09 — FOOTHILL 1
 **Narrative job:** Foothill I / rigged court
 **POV-overture / reading lens:** ObiWan interrogates Slob's rules
 **Parent Atlas LOC:** `LOC-SLOB-FOOTHILL-CAMP` (existing, not a new venue)
@@ -291,7 +314,7 @@ ObiWan Jacoby crossed into Slob's camp with the calm of a traveler who had seen 
 
 ---
 
-## FOLIO 09 — FOOTHILL 2
+## FOLIO 10 — FOOTHILL 2
 **Narrative job:** Foothill II / unfair triumph
 **POV-overture / reading lens:** Slob's own rigged apparatus rebounds
 **Parent Atlas LOC:** `LOC-SLOB-FOOTHILL-CAMP` (existing, not a new venue)
@@ -324,7 +347,7 @@ Slob gave the platform a weary glance. “Next time,” he replied, “I'm bring
 
 ---
 
-## FOLIO 10 — CHILI
+## FOLIO 11 — CHILI
 **Narrative job:** Chili / runaway meal
 **POV-overture / reading lens:** Chili tries to keep stable in order
 **Parent Atlas LOC:** `LOC-CHILI-STABLE` (existing, not a new venue)
@@ -363,7 +386,7 @@ No one could identify the sender with certainty, which preserved the mystery and
 
 ---
 
-## FOLIO 11 — BLACKWATER 1
+## FOLIO 12 — BLACKWATER 1
 **Narrative job:** Blackwater I / bargain
 **POV-overture / reading lens:** Mud's bid for leverage
 **Parent Atlas LOC:** `LOC-MUD-DOGS-SWAMP` (existing, not a new venue)
@@ -400,7 +423,7 @@ The channel offered no opinion. It did, however, move the barge an inconvenient 
 
 ---
 
-## FOLIO 12 — BLACKWATER 2
+## FOLIO 13 — BLACKWATER 2
 **Narrative job:** Blackwater II / escape
 **POV-overture / reading lens:** Mud's near-victory turns to stunned loss
 **Parent Atlas LOC:** `LOC-MUD-DOGS-SWAMP` (existing, not a new venue)
@@ -439,7 +462,7 @@ The river carried the words downstream. The paperwork remained what it had been 
 
 ---
 
-## FOLIO 13 — FALLS 1
+## FOLIO 14 — FALLS 1
 **Narrative job:** Falls I / propositions
 **POV-overture / reading lens:** LLC arrives convinced paperwork can conquer the falls
 **Parent Atlas LOC:** `LOC-TDS-WATERFALL-TEMPLE` (existing, not a new venue)
@@ -480,7 +503,7 @@ Their arguments were interrupted by a gust that lifted a corner of the plan over
 
 ---
 
-## FOLIO 14 — FALLS 2
+## FOLIO 15 — FALLS 2
 **Narrative job:** Falls II / narrow refusal
 **POV-overture / reading lens:** LLC retreats while snake interprets margin
 **Parent Atlas LOC:** `LOC-TDS-WATERFALL-TEMPLE` (existing, not a new venue)
@@ -521,7 +544,7 @@ The pages left dry enough to be filed and damp enough to be doubted. The temple 
 
 ---
 
-## FOLIO 15 — RANKINGS: THE TWELVE I (1–6)
+## FOLIO 16 — RANKINGS: THE TWELVE I (1–6)
 **Narrative job:** The Twelve ranks 1-6
 **POV-overture / reading lens:** Archivist's subjective editorial debate
 **Parent Atlas LOC:** `LOC-LEAGUE-ARCHIVE` (existing, not a new venue)
@@ -572,7 +595,7 @@ The Archive has twelve places, but none are reserved. Here the recordkeepers mak
 
 ---
 
-## FOLIO 16 — RANKINGS: THE TWELVE II (7–12)
+## FOLIO 17 — RANKINGS: THE TWELVE II (7–12)
 **Narrative job:** The Twelve ranks 7-12
 **POV-overture / reading lens:** Same Archivist's argument continued
 **Parent Atlas LOC:** `LOC-LEAGUE-ARCHIVE` (existing, not a new venue)
@@ -623,7 +646,7 @@ At the far wall, last week's placards wait to be moved—but their positions wil
 
 ---
 
-## FOLIO 17 — PITTSY
+## FOLIO 18 — PITTSY
 **Narrative job:** Pittsy / House is Dark
 **POV-overture / reading lens:** TDS domain from a visitor's suspicious perspective
 **Parent Atlas LOC:** `LOC-TDS-WATERFALL-TEMPLE` (existing, not a new venue)
@@ -659,7 +682,7 @@ There was a note on the counter in a handwriting no one volunteered to claim:
 
 ---
 
-## FOLIO 18 — STATE
+## FOLIO 19 — STATE
 **Narrative job:** State of Realm map wall
 **POV-overture / reading lens:** Chamber chronicler, geography and reputation
 **Parent Atlas LOC:** `LOC-LEAGUE-CHAMBER` (existing, not a new venue)
@@ -689,7 +712,7 @@ The Commonwealth itself could not yet certify the more theatrical changes allege
 
 ---
 
-## FOLIO 19 — TRANSACTIONS
+## FOLIO 20 — TRANSACTIONS
 **Narrative job:** Waiver/Trade courier market
 **POV-overture / reading lens:** Claims clerk tracks verified transactions
 **Parent Atlas LOC:** `LOC-LEAGUE-ARCHIVE` (existing, not a new venue)
@@ -719,7 +742,7 @@ The full Week Six ESPN feed returned 51 activity rows, including unsuccessful cl
 
 ---
 
-## FOLIO 20 — W7 1
+## FOLIO 21 — W7 1
 **Narrative job:** Week7 3 official fixtures A
 **POV-overture / reading lens:** Court of schedules anticipates travel
 **Parent Atlas LOC:** `LOC-LEAGUE-CHAMBER` (existing, not a new venue)
@@ -751,7 +774,7 @@ No owner faces essential; civic environment + exact typography.
 
 ---
 
-## FOLIO 21 — W7 2
+## FOLIO 22 — W7 2
 **Narrative job:** Week7 3 official fixtures B
 **POV-overture / reading lens:** Courier previews the second half
 **Parent Atlas LOC:** `LOC-LEAGUE-CHAMBER` (existing, not a new venue)
@@ -785,7 +808,7 @@ All six are official ESPN schedule pairings and **UNDECIDED**, not predictions o
 
 ---
 
-## FOLIO 22 — W7 HYPE
+## FOLIO 23 — W7 HYPE
 **Narrative job:** Week7 Red/HMB historical GOTW
 **POV-overture / reading lens:** Red awaits Belt Keeper's arrival
 **Parent Atlas LOC:** `LOC-RED-RUINS` (existing, not a new venue)
@@ -825,7 +848,7 @@ Now ESPN places Blood second in playoff seeding and Red third as Week Seven appr
 
 ---
 
-## FOLIO 23 — FINAL
+## FOLIO 24 — FINAL
 **Narrative job:** Final Word / The Count
 **POV-overture / reading lens:** Closing editor's late-night dispatch
 **Parent Atlas LOC:** `LOC-LEAGUE-ARCHIVE` (existing, not a new venue)
