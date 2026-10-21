@@ -24,3 +24,4 @@ jobs:
       - run: python -m unittest discover -s memo-os/tests -p 'test_editorial_preflight.py' -v
       - run: python -m unittest discover -s memo-os/tests -p 'test_produce_png_page.py' -v
       - run: python -m unittest discover -s memo-os/tests -p 'test_source_binding_telemetry.py' -v
+      - run: python -m unittest discover -s memo-os/tests -p 'test_sports_claim_binding.py' -v
