@@ -4,9 +4,12 @@ Transport receipt validation is distinct from generated-image identity QA.
 """
 from __future__ import annotations
 import re
+import hmac
+import hashlib
+import json
 
 _HEX64 = re.compile(r"^[0-9a-f]{64}$")
-def validate_provider_attachment_receipt(request_id, route, expected_assets, provider_receipt):
+def validate_provider_attachment_receipt(request_id, route, expected_assets, provider_receipt, *, trusted_attestation_key=None):
     """Fail closed when per-subject provider attachment evidence is absent or swapped.
 
     expected_assets: list of dictionaries with character_id, sha256, subject_slot.
@@ -22,6 +25,19 @@ def validate_provider_attachment_receipt(request_id, route, expected_assets, pro
         return blocked("REQUEST_OR_ROUTE_MISMATCH")
     if provider_receipt.get("origin") != "PROVIDER_OBSERVED":
         return blocked("PROVIDER_ORIGIN_UNVERIFIED")
+    # A caller-supplied "PROVIDER_OBSERVED" string is not trust evidence.
+    # Require an attestation made by the separately provisioned trusted adapter.
+    # This verifies adapter attestation, NOT that a provider actually consumed bytes.
+    if not isinstance(trusted_attestation_key, bytes) or len(trusted_attestation_key) < 32:
+        return blocked("TRUSTED_ADAPTER_KEY_REQUIRED")
+    supplied_mac = provider_receipt.get("adapter_attestation_hmac_sha256")
+    if not isinstance(supplied_mac, str) or not _HEX64.fullmatch(supplied_mac):
+        return blocked("ADAPTER_ATTESTATION_REQUIRED")
+    attested = {k: v for k, v in provider_receipt.items() if k != "adapter_attestation_hmac_sha256"}
+    canonical = json.dumps(attested, sort_keys=True, separators=(",", ":"), ensure_ascii=False).encode()
+    computed = hmac.new(trusted_attestation_key, canonical, hashlib.sha256).hexdigest()
+    if not hmac.compare_digest(computed, supplied_mac):
+        return blocked("ADAPTER_ATTESTATION_INVALID")
     if not provider_receipt.get("provider_invocation_id") or not provider_receipt.get("provider_evidence_id"):
         return blocked("PROVIDER_INVOCATION_EVIDENCE_REQUIRED")
     if not isinstance(expected_assets, list) or not expected_assets:
