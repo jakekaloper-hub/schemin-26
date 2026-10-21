@@ -56,6 +56,7 @@ jobs:
           python world/qa/test_central_basin_pilot.py
           python -m unittest -v world.qa.test_central_basin_spatial
           python -m unittest -v world.qa.test_central_basin_spatial_packet
+          python -m unittest -v world.qa.test_central_basin_surface
           python world/location-control-plane/qa/test_location_control_plane.py
       - name: Run One World Model anti-fork contract
         run: python world/qa/test_one_world_model_contract.py
