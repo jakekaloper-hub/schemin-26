@@ -49,4 +49,24 @@ class StoryPreflight(unittest.TestCase):
     def test_missing_camera(self):
         x=dict(STORY,camera_axis="")
         self.assertIn("story missing camera_axis",m.validate_story(x))
+class AtlasPreflight(unittest.TestCase):
+    def packet(self):
+        return {"location_id":"LOC-COMMONWEALTH-PRESS-GALLERY-CANDIDATE",
+                "physical_zone":"Central River Basin",
+                "camera_viewpoint":"35mm three-quarter",
+                "environment_notes":"stone and dark walnut press gallery",
+                "location_authority":"CANDIDATE",
+                "permanent_canon_claim":False}
+    def test_candidate_remains_candidate(self):
+        self.assertEqual([],m.validate_atlas(self.packet()))
+    def test_cannot_self_promote_candidate(self):
+        x=self.packet();x["permanent_canon_claim"]=True
+        self.assertIn("cannot self-promote",str(m.validate_atlas(x)))
+    def test_rejects_unsupported_spatial_certification(self):
+        x=self.packet();x["spatial_verification"]="VERIFIED"
+        self.assertIn("requires independent spatial evidence",str(m.validate_atlas(x)))
+    def test_rejects_invented_route_distance(self):
+        x=self.packet();x["route_distance"]=13.4
+        self.assertIn("unsupported precise route distance",str(m.validate_atlas(x)))
+
 if __name__=="__main__":unittest.main()
