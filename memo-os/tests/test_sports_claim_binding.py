@@ -11,14 +11,14 @@ class TestSportsClaimBinding(unittest.TestCase):
         self.previous=os.environ.get("SCHEMIN_MEMO_INGEST_HMAC_KEY")
         self.key="synthetic-secret-only-0123456789abcdef"
         os.environ["SCHEMIN_MEMO_INGEST_HMAC_KEY"]=self.key
-        source=self.root/"source.json";source.write_text('{"result":"source fixture"}')
+        source=self.root/"source.json";source.write_text('{"records":[{"id":"r1","matchup":"Home vs Away","status":"SCHEDULED"}]}')
         sha=hashlib.sha256(source.read_bytes()).hexdigest()
         Image.new("RGB",(1024,1536),"#253443").save(self.root/"background.png")
         spec={"format":"schemin-memo-editorial-v1","background":"background.png",
         "regions":[{"text":"TEST SPORTS DESK","x":50,"y":50,"width":800,"height":100}]}
         (self.root/"spec.json").write_text(json.dumps(spec))
         claim={"claim_id":"fixture-1","kind":"UPCOMING_MATCHUP","source_provider":"SYNTHETIC",
-        "source_reference":"fixture:1","source_sha256":sha,"event_at":"2026-10-20T12:00:00-04:00",
+        "source_reference":"fixture:1","source_sha256":sha,"source_record_id":"r1","source_fields":{"status":"SCHEDULED"},"event_at":"2026-10-20T12:00:00-04:00",
         "retrieved_at":"2026-10-20T13:00:00-04:00","text":"A synthetic fact"}
         self.packet={"format":"schemin-memo-production-v1","production_kind":"SPORTS_DESK",
             "editorial_approval_reference":"fixture-approval",
