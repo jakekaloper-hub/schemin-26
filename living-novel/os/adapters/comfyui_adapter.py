@@ -45,7 +45,9 @@ def validate_job(job: dict[str, Any]) -> None:
         raise ValueError(f"NovelVisualJob missing required fields: {missing}")
     if job["schema"] != "NovelVisualJob/v1":
         raise ValueError("Unsupported NovelVisualJob schema")
-    if "unit_stills_review" in job:\n        validate_unit_stills(job["unit_stills_review"])\n    out = job["output"]
+    if "unit_stills_review" in job:
+        validate_unit_stills(job["unit_stills_review"])
+    out = job["output"]
     if not all(k in out for k in ("width","height","format")):
         raise ValueError("output requires width, height, format")
 
