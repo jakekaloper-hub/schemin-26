@@ -9,6 +9,8 @@ on:
       - 'tests/test_approved_lineup_binary_integrity.py'
       - 'tests/test_provider_attachment_receipt.py'
       - 'canon/characters/runtime/provider_attachment_receipt.py'
+      - 'canon/characters/runtime/primary_source_audit.py'
+      - 'canon/characters/reference_sources_v1.json'
       - '.github/workflows/character-reference-binary-integrity.yml'
   workflow_dispatch:
 jobs:
@@ -19,4 +21,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Verify synthetic guardrails and actual 12 PNG crops
-        run: python -m unittest discover -s tests -p 'test_verified_reference_transport.py' && python -m unittest discover -s tests -p 'test_approved_lineup_binary_integrity.py' && python -m unittest discover -s tests -p 'test_provider_attachment_receipt.py'
+        run: python -m unittest discover -s tests -p 'test_verified_reference_transport.py' && python -m unittest discover -s tests -p 'test_approved_lineup_binary_integrity.py' && python -m unittest discover -s tests -p 'test_provider_attachment_receipt.py' && python -m canon.characters.runtime.primary_source_audit --allow-missing-for-audit
