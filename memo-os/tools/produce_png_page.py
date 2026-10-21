@@ -2,7 +2,7 @@
 """Memo OS PNG-first production entrypoint; refuses unverified preflight.
 Candidate artifact only: no self-certification, no PDF, no character mounting.
 """
-import argparse,hashlib,json,sys
+import argparse,hashlib,json,sys,datetime as dt
 from pathlib import Path
 from render_editorial_page import render
 from validate_editorial_preflight import validate_atlas,validate_sports,validate_story
@@ -43,12 +43,19 @@ def run(packet_path, output):
         elif data.get("page_spec_sha256") != hashlib.sha256(spec_path.read_bytes()).hexdigest():
             errors.append("page spec SHA-256 mismatch")
     if errors:
-        return {"status":"BLOCKED","errors":errors,"render_invoked":False}
+        blocked={"status":"BLOCKED","errors":errors,"render_invoked":False,
+                 "packet_sha256":hashlib.sha256(path.read_bytes()).hexdigest(),
+                 "event_time":dt.datetime.now(dt.timezone.utc).isoformat()}
+        log=Path(output).with_suffix(".production.json")
+        log.parent.mkdir(parents=True,exist_ok=True)
+        log.write_text(json.dumps(blocked,indent=2),encoding="utf-8")
+        return blocked
     receipt=render(spec_path,output)
     result={"status":"CANDIDATE_NOT_APPROVED","errors":[],"render_invoked":True,
             "packet_sha256":hashlib.sha256(path.read_bytes()).hexdigest(),
             "artifact_sha256":receipt["output_sha256"],"renderer_receipt":receipt,
-            "independent_approval":False}
+            "independent_approval":False,
+            "event_time":dt.datetime.now(dt.timezone.utc).isoformat()}
     report=Path(output).with_suffix(".production.json")
     report.write_text(json.dumps(result,indent=2),encoding="utf-8")
     return result
