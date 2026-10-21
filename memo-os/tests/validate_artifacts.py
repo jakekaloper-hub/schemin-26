@@ -66,6 +66,27 @@ def inspect(manifest, manifest_path):
                 document.close()
             except Exception:
                 pass
+    # Editorial receipts verify source/output integrity, not visual approval.
+    for page in pages:
+        if "editorial_receipt_path" not in page:
+            continue
+        slot = page.get("slot")
+        rp = checked_path(page["editorial_receipt_path"], f"page {slot} editorial receipt")
+        if rp is None:
+            continue
+        try:
+            receipt = json.loads(rp.read_text(encoding="utf-8"))
+        except (OSError, ValueError) as exc:
+            errors.append(f"page {slot}: invalid editorial receipt: {exc}")
+            continue
+        asset = checked_path(page.get("asset_path"), f"page {slot} editorial output")
+        spec = checked_path(page.get("editorial_spec_path"), f"page {slot} editorial spec")
+        if asset and receipt.get("output_sha256") != sha256(asset):
+            errors.append(f"page {slot}: editorial output hash mismatch")
+        if spec and receipt.get("spec_sha256") != sha256(spec):
+            errors.append(f"page {slot}: editorial source spec hash mismatch")
+        if receipt.get("status") != "CANDIDATE_NOT_APPROVED" or receipt.get("visual_text_independently_verified") is not False:
+            errors.append(f"page {slot}: invalid compositor acceptance claim")
     for page in pages:
         slot = page.get("slot")
         path = checked_path(page.get("asset_path"), f"page {slot}")
