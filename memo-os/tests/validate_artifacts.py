@@ -36,9 +36,20 @@ def inspect(manifest, manifest_path):
             errors.append(f"{label}: file missing: {value}")
             return None
         return path
-    pdf = checked_path(manifest.get("pdf_path"), "PDF")
     pages = manifest.get("pages", [])
     expected = manifest.get("expected_pages")
+    stage = manifest.get("artifact_stage", "ISSUE_PACKAGE")
+    if stage not in ("PAGE_PRODUCTION", "ISSUE_PACKAGE"):
+        return ["unknown artifact stage"]
+    # PNG page masters are primary; PDF is final distribution packaging only.
+    if stage == "PAGE_PRODUCTION" and (manifest.get("pdf_path") or manifest.get("published_artifact_sha256")):
+        errors.append("page production cannot claim PDF issue assembly")
+    if stage == "ISSUE_PACKAGE":
+        if not isinstance(pages, list) or len(pages) < 2:
+            errors.append("issue package requires multiple accepted PNG masters")
+        if any(p.get("status") != "ACCEPTED" for p in pages):
+            errors.append("issue package requires accepted PNG masters")
+    pdf = checked_path(manifest.get("pdf_path"), "PDF") if stage == "ISSUE_PACKAGE" else None
     if pdf:
         if sha256(pdf) != manifest.get("published_artifact_sha256"):
             errors.append("PDF: actual SHA256 differs from manifest")
@@ -89,6 +100,8 @@ def inspect(manifest, manifest_path):
             errors.append(f"page {slot}: invalid compositor acceptance claim")
     for page in pages:
         slot = page.get("slot")
+        if not str(page.get("asset_path", "")).lower().endswith(".png"):
+            errors.append(f"page {slot}: PNG master required")
         path = checked_path(page.get("asset_path"), f"page {slot}")
         if not path:
             continue
