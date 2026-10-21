@@ -14,7 +14,7 @@ class TestEditorialReceiptIntegration(unittest.TestCase):
         doc.save(self.root/"issue.pdf");doc.close()
         self.receipt={"status":"CANDIDATE_NOT_APPROVED","visual_text_independently_verified":False,
             "spec_sha256":m.sha256(self.root/"spec.json"),"output_sha256":m.sha256(self.root/"art.png")}
-        self.manifest={"pdf_path":"issue.pdf","published_artifact_sha256":m.sha256(self.root/"issue.pdf"),
+        self.manifest={"artifact_stage":"PAGE_PRODUCTION",
            "expected_pages":1,"pages":[{"slot":1,"asset_path":"art.png","asset_sha256":m.sha256(self.root/"art.png"),
                     "editorial_spec_path":"spec.json","editorial_receipt_path":"receipt.json"}]}
     def tearDown(self):self.t.cleanup()
