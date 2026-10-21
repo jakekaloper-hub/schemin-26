@@ -19,3 +19,4 @@ jobs:
       - run: python -m unittest discover -s memo-os/tests -p 'test_editorial_compositor.py' -v
       - run: python -m unittest discover -s memo-os/tests -p 'test_publication_manifest.py' -v
       - run: python -m unittest discover -s memo-os/tests -p 'test_editorial_receipt_integration.py' -v
+      - run: python -m unittest discover -s memo-os/tests -p 'test_png_first_stages.py' -v
