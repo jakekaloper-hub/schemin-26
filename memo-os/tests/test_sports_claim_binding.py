@@ -42,6 +42,15 @@ class TestSportsClaimBinding(unittest.TestCase):
     def test_hash_mismatched_claim_rejected(self):
         self.packet["sports"]["claims"][0]["source_sha256"]="0"*64
         self.assertIn("claim source hash mismatch",str(self.call()["errors"]))
+    def test_mismatched_claim_field_rejected(self):
+        self.packet["sports"]["claims"][0]["source_fields"]["status"]="COMPLETED"
+        self.assertIn("published source fields differ from evidence",str(self.call()["errors"]))
+    def test_nonexistent_record_rejected(self):
+        self.packet["sports"]["claims"][0]["source_record_id"]="missing"
+        self.assertIn("source record missing or ambiguous",str(self.call()["errors"]))
+    def test_missing_explicit_fields_rejected(self):
+        self.packet["sports"]["claims"][0]["source_fields"]={}
+        self.assertIn("explicit source fields required",str(self.call()["errors"]))
     def test_self_declared_source_without_valid_attestation_rejected(self):
         self.packet["source_inputs"][0]["ingest_attestation"]="0"*64
         self.assertIn("trusted ingestion attestation mismatch",str(self.call()["errors"]))
