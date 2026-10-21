@@ -20,6 +20,9 @@ class TestSurface(unittest.TestCase):
     def test_surface_height_mismatch(self):
         self.d["drainage"][0]["surface_z"]=100
         self.assertIn("DRAINAGE_ELEVATION_MISMATCH",validate_surface(self.d))
+    def test_route_alignment(self):
+        self.d["route_geometries"][1]["polyline"][1]=[650,460]
+        self.assertIn("ROUTE_ALIGNMENT_DRIFT",validate_surface(self.d))
     def test_route_identity(self):
         self.d["route_geometries"][0]["route_id"]="ROUTE-INVENTED"
         self.assertIn("ROUTE_ID_DRIFT",validate_surface(self.d))
