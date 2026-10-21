@@ -77,6 +77,34 @@ def inspect(manifest, manifest_path):
                 document.close()
             except Exception:
                 pass
+    # Verify the PDF contains the same accepted PNG pixel content, in order.
+    # This checks the derivative distribution package, not page-level approval.
+    if pdf and stage == "ISSUE_PACKAGE" and isinstance(pages, list):
+        try:
+            with fitz.open(pdf) as assembled:
+                if assembled.page_count == len(pages):
+                    for index, entry in enumerate(pages):
+                        asset = checked_path(entry.get("asset_path"), f"page {index+1} comparison master")
+                        if asset is None:
+                            continue
+                        with Image.open(asset) as master:
+                            expected_rgb = master.convert("RGB")
+                        sheet = assembled[index]
+                        images = sheet.get_images(full=True)
+                        if len(images) != 1:
+                            errors.append(f"PDF page {index+1}: expected exactly one embedded PNG master, got {len(images)} images")
+                            continue
+                        xref = images[0][0]
+                        extracted = assembled.extract_image(xref)
+                        import io
+                        with Image.open(io.BytesIO(extracted["image"])) as embedded:
+                            embedded_rgb = embedded.convert("RGB")
+                        if embedded_rgb.size != expected_rgb.size or embedded_rgb.tobytes() != expected_rgb.tobytes():
+                            errors.append(f"PDF page {index+1}: embedded pixels differ from accepted PNG master or page order")
+                else:
+                    errors.append("PDF: cannot compare accepted PNG masters against mismatched page count")
+        except Exception as exc:
+            errors.append(f"PDF: master comparison failed: {exc}")
     # Editorial receipts verify source/output integrity, not visual approval.
     for page in pages:
         if "editorial_receipt_path" not in page:
