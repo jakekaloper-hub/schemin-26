@@ -31,7 +31,7 @@ def run(packet_path, output):
             errors.append("Sports Desk authenticated source inputs required")
         elif isinstance(inputs,list):
             claims=data.get("sports",{}).get("claims",[])
-            indexed={item.get("source_reference"): item for item in inputs if isinstance(item,dict)}
+            indexed={item.get("source_reference"): item for item in inputs if isinstance(item,dict) and isinstance(item.get("source_reference"),str)}
             for claim in claims if isinstance(claims,list) else []:
                 if not isinstance(claim,dict):
                     continue
