@@ -1,0 +1,230 @@
+{
+  "status": "SYNTHETIC_TEST_ONLY",
+  "surface": {
+    "width": 5,
+    "step_m": 250,
+    "heights": [
+      [
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      [
+        20,
+        19,
+        18,
+        17,
+        16
+      ],
+      [
+        30,
+        29,
+        28,
+        27,
+        26
+      ],
+      [
+        40,
+        39,
+        38,
+        37,
+        36
+      ],
+      [
+        50,
+        49,
+        48,
+        47,
+        46
+      ]
+    ]
+  },
+  "footprints": [
+    {
+      "location_id": "LOC-LEAGUE-CHAMBER",
+      "ring": [
+        [
+          470,
+          470
+        ],
+        [
+          530,
+          470
+        ],
+        [
+          530,
+          530
+        ],
+        [
+          470,
+          530
+        ]
+      ]
+    },
+    {
+      "location_id": "LOC-LEAGUE-ARCHIVE",
+      "ring": [
+        [
+          320,
+          520
+        ],
+        [
+          380,
+          520
+        ],
+        [
+          380,
+          580
+        ],
+        [
+          320,
+          580
+        ]
+      ]
+    },
+    {
+      "location_id": "LOC-PITTSYS-BOOK",
+      "ring": [
+        [
+          820,
+          270
+        ],
+        [
+          880,
+          270
+        ],
+        [
+          880,
+          330
+        ],
+        [
+          820,
+          330
+        ]
+      ]
+    },
+    {
+      "location_id": "LOC-DK-MUD-HILL",
+      "ring": [
+        [
+          600,
+          410
+        ],
+        [
+          660,
+          410
+        ],
+        [
+          660,
+          470
+        ],
+        [
+          600,
+          470
+        ]
+      ]
+    },
+    {
+      "location_id": "LOC-SOUTHERN-SPEEDWAY",
+      "ring": [
+        [
+          680,
+          310
+        ],
+        [
+          780,
+          310
+        ],
+        [
+          780,
+          430
+        ],
+        [
+          680,
+          430
+        ]
+      ]
+    }
+  ],
+  "route_geometries": [
+    {
+      "route_id": "ROUTE-ARCHIVE-CHAMBER",
+      "polyline": [
+        [
+          350,
+          550
+        ],
+        [
+          500,
+          500
+        ]
+      ]
+    },
+    {
+      "route_id": "ROUTE-BASIN-MARKET",
+      "polyline": [
+        [
+          500,
+          500
+        ],
+        [
+          630,
+          440
+        ],
+        [
+          730,
+          370
+        ],
+        [
+          850,
+          300
+        ]
+      ]
+    }
+  ],
+  "drainage": [
+    {
+      "id": "SYN-UP",
+      "xy": [
+        250,
+        1000
+      ],
+      "surface_z": 49,
+      "downstream": "SYN-MID"
+    },
+    {
+      "id": "SYN-MID",
+      "xy": [
+        500,
+        500
+      ],
+      "surface_z": 28,
+      "downstream": "SYN-END"
+    },
+    {
+      "id": "SYN-END",
+      "xy": [
+        750,
+        0
+      ],
+      "surface_z": 7,
+      "downstream": null
+    }
+  ],
+  "seasonal_fields": [
+    {
+      "date": "2026-10-21",
+      "status": "HYPOTHETICAL",
+      "temperature_c": 12,
+      "snow_cm": 0
+    },
+    {
+      "date": "2026-12-21",
+      "status": "HYPOTHETICAL",
+      "temperature_c": 2,
+      "snow_cm": 3
+    }
+  ]
+}
