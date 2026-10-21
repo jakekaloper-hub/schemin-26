@@ -25,8 +25,22 @@ def run(packet_path, output):
         errors.extend(validate_sports(data.get("sports",{})))
     if data.get("production_kind")=="NARRATIVE":
         errors.extend(validate_story(data.get("story",{})))
-    if data.get("production_kind") == "SPORTS_DESK" and not data.get("source_inputs"):
-        errors.append("Sports Desk authenticated source inputs required")
+    if data.get("production_kind") == "SPORTS_DESK":
+        inputs=data.get("source_inputs",[])
+        if not inputs:
+            errors.append("Sports Desk authenticated source inputs required")
+        elif isinstance(inputs,list):
+            claims=data.get("sports",{}).get("claims",[])
+            indexed={item.get("source_reference"): item for item in inputs if isinstance(item,dict)}
+            for claim in claims if isinstance(claims,list) else []:
+                if not isinstance(claim,dict):
+                    continue
+                ref=claim.get("source_reference")
+                matched=indexed.get(ref)
+                if not matched:
+                    errors.append(f"Sports Desk claim source not bound: {claim.get('claim_id')}")
+                elif matched.get("sha256") != claim.get("source_sha256"):
+                    errors.append(f"Sports Desk claim source hash mismatch: {claim.get('claim_id')}")
     if data.get("character_ids"):
         errors.append("BLOCKED_BY_CHARACTER_REFERENCE_PIPELINE: authenticated input receipts required")
     if not data.get("editorial_approval_reference"):
