@@ -54,6 +54,15 @@ def validate_surface(data):
         if len(points)<2 or any(not inside(p) for p in points) or any(hypot(b[0]-a[0],b[1]-a[1])==0 for a,b in zip(points,points[1:])):
             errors.append("INVALID_ROUTE_GEOMETRY")
     reference=load_candidate()
+    anchors={a["location_id"]:a["xy"] for a in reference["anchors"]+reference["route_intermediates"]}
+    routes={r["route_id"]:r for r in reference["paths"]}
+    for route in data.get("route_geometries",[]):
+        ref=routes.get(route.get("route_id"))
+        polyline=route.get("polyline",[])
+        if ref and len(polyline)>=2:
+            points=[anchors[i] for i in ref["locations"]]
+            if len(polyline)!=len(points) or any(hypot(a[0]-b[0],a[1]-b[1])>0.01 for a,b in zip(polyline,points)):
+                errors.append("ROUTE_ALIGNMENT_DRIFT")
     if {p["route_id"] for p in data.get("route_geometries",[])}!={p["route_id"] for p in reference["paths"]}: errors.append("ROUTE_ID_DRIFT")
     drains=data.get("drainage",[])
     nodes={n.get("id"):n for n in drains}
