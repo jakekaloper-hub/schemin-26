@@ -86,13 +86,32 @@ def validate_story(packet):
         errors.append("story factual result not final")
     return errors
 
+def validate_atlas(packet):
+    """Conservative evidence check; never certifies real-world coordinates or canon."""
+    errors = []
+    for key in ("location_id", "physical_zone", "camera_viewpoint", "environment_notes"):
+        if not isinstance(packet.get(key), str) or not packet[key].strip():
+            errors.append(f"atlas missing {key}")
+    authority = packet.get("location_authority")
+    if authority not in {"ESTABLISHED", "CANDIDATE", "TEMPORARY"}:
+        errors.append("atlas location authority invalid")
+    if authority != "ESTABLISHED" and packet.get("permanent_canon_claim") is True:
+        errors.append("candidate or temporary scene cannot self-promote into Atlas canon")
+    if packet.get("spatial_verification") == "VERIFIED" and not packet.get("spatial_evidence_reference"):
+        errors.append("spatial verification requires independent spatial evidence")
+    if packet.get("physical_verification") == "VERIFIED" and not packet.get("physical_evidence_reference"):
+        errors.append("physical verification requires independent physical evidence")
+    if packet.get("route_distance") is not None and packet.get("route_distance_source") is None:
+        errors.append("unsupported precise route distance")
+    return errors
+
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("packet")
-    p.add_argument("--kind", choices=["sports", "story"], required=True)
+    p.add_argument("--kind", choices=["sports", "story", "atlas"], required=True)
     a = p.parse_args()
     data = json.load(open(a.packet, encoding="utf-8"))
-    errors = validate_sports(data) if a.kind == "sports" else validate_story(data)
+    errors = validate_sports(data) if a.kind == "sports" else validate_story(data) if a.kind == "story" else validate_atlas(data)
     print(json.dumps({"verdict": "FAIL" if errors else "PASS", "errors": errors}, indent=2))
     return bool(errors)
 
