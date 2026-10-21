@@ -7,6 +7,7 @@ from pathlib import Path
 from render_editorial_page import render
 from validate_editorial_preflight import validate_atlas,validate_sports,validate_story
 from verify_source_inputs import verify_sources
+from validate_claim_payload import validate_claim_payload
 
 def run(packet_path, output):
     path=Path(packet_path).resolve()
@@ -41,6 +42,8 @@ def run(packet_path, output):
                     errors.append(f"Sports Desk claim source not bound: {claim.get('claim_id')}")
                 elif matched.get("sha256") != claim.get("source_sha256"):
                     errors.append(f"Sports Desk claim source hash mismatch: {claim.get('claim_id')}")
+    if data.get("production_kind") == "SPORTS_DESK":
+        errors.extend(validate_claim_payload(data,path))
     if data.get("character_ids"):
         errors.append("BLOCKED_BY_CHARACTER_REFERENCE_PIPELINE: authenticated input receipts required")
     if not data.get("editorial_approval_reference"):
