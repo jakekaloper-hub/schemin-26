@@ -6,11 +6,12 @@ import argparse,hashlib,json,sys
 from pathlib import Path
 from render_editorial_page import render
 from validate_editorial_preflight import validate_atlas,validate_sports,validate_story
+from verify_source_inputs import verify_sources
 
 def run(packet_path, output):
     path=Path(packet_path).resolve()
     data=json.loads(path.read_text(encoding="utf-8"))
-    errors=[]
+    errors=verify_sources(data,path)
     if data.get("format")!="schemin-memo-production-v1":
         errors.append("invalid Memo OS production packet format")
     if data.get("production_kind") not in ("SPORTS_DESK","NARRATIVE","FACTUAL_EDITORIAL"):
@@ -24,6 +25,8 @@ def run(packet_path, output):
         errors.extend(validate_sports(data.get("sports",{})))
     if data.get("production_kind")=="NARRATIVE":
         errors.extend(validate_story(data.get("story",{})))
+    if data.get("production_kind") == "SPORTS_DESK" and not data.get("source_inputs"):
+        errors.append("Sports Desk authenticated source inputs required")
     if data.get("character_ids"):
         errors.append("BLOCKED_BY_CHARACTER_REFERENCE_PIPELINE: authenticated input receipts required")
     if not data.get("editorial_approval_reference"):
