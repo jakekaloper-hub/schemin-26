@@ -24,6 +24,8 @@ RECEIPT = {
 
 KEY = b"adapter-receipt-test-key-with-32-byte-minimum"
 def sign(receipt):
+    if receipt is None:
+        return None
     r = copy.deepcopy(receipt)
     r.pop("adapter_attestation_hmac_sha256", None)
     payload = json.dumps(r, sort_keys=True, separators=(",", ":"), ensure_ascii=False).encode()
