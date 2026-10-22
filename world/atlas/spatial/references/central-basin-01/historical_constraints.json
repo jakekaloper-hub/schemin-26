@@ -1,0 +1,89 @@
+{
+  "authorization": "RESEARCH_AND_SIMULATION_ONLY",
+  "historical_observations": {
+    "LOC-DK-MUD-HILL": [],
+    "LOC-LEAGUE-ARCHIVE": [],
+    "LOC-LEAGUE-CHAMBER": [],
+    "LOC-PITTSYS-BOOK": [
+      {
+        "archive_path": "archive/publications/2026/week-04/Pro_Schemin_26_Week_4_Official_Memo.pdf",
+        "evidence_id": "MEMO26-4-05",
+        "pdf_pages": "21-24",
+        "scene": "Pittsy's Book ledger hall, windows and waterfall vista",
+        "sha256": "1fc322a3eb0e8b43499ee4556c715ba4c00a8c388e7a92a904954a35f0482124",
+        "spatial_inference": "NOT_APPROVED",
+        "week": 4
+      },
+      {
+        "archive_path": "archive/publications/2026/week-04/Pro_Schemin_26_Week_4_Official_Memo.pdf",
+        "evidence_id": "MEMO26-4-08",
+        "pdf_pages": "31",
+        "scene": "Pittsy's Book accounting/results",
+        "sha256": "1fc322a3eb0e8b43499ee4556c715ba4c00a8c388e7a92a904954a35f0482124",
+        "spatial_inference": "NOT_APPROVED",
+        "week": 4
+      },
+      {
+        "archive_path": "archive/publications/2026/week-05/Schemin26_Week5_Artwork_Review_19_Pages.pdf",
+        "evidence_id": "MEMO26-5-16",
+        "pdf_pages": "17",
+        "scene": "Pittsy's Book closed and unattended",
+        "sha256": "cec56bd490f3e34b958b650ea6a512a0c867e70d1074948c4f21a844d64734cb",
+        "spatial_inference": "NOT_APPROVED",
+        "week": 5
+      },
+      {
+        "archive_path": "archive/publications/2026/week-06/Schemin_26_Week_6_Memo.pdf",
+        "evidence_id": "MEMO26-6-26",
+        "pdf_pages": "20",
+        "scene": "Pittsy's Book closed investigations",
+        "sha256": "1d9b1b6915bf4b757a927c33719ab1cbd9f8f8eb93523e8103d3d8e2bd1a61c8",
+        "spatial_inference": "NOT_APPROVED",
+        "week": 6
+      }
+    ],
+    "LOC-SOUTHERN-SPEEDWAY": []
+  },
+  "landmark_ids": [
+    "LOC-LEAGUE-CHAMBER",
+    "LOC-LEAGUE-ARCHIVE",
+    "LOC-PITTSYS-BOOK",
+    "LOC-DK-MUD-HILL",
+    "LOC-SOUTHERN-SPEEDWAY"
+  ],
+  "physical_requirements": {
+    "central_basin_drains_towards_southern_lowlands": true,
+    "metric_scale_and_landmark_footprints_approved": false,
+    "roads_require_viable_grade_and_crossings": true,
+    "uplands_feed_central_basin": true
+  },
+  "prohibited_inferences": [
+    "ILLUSTRATED_WATERFALL_IMPLIES_PITTSYS_DISTANCE",
+    "ARTWORK_LABEL_POSITION_EQUALS_METRIC_COORDINATE",
+    "WEEK5_ARTWORK_REVIEW_EQUALS_RELEASE_ACCEPTANCE"
+  ],
+  "region_id": "REG-CENTRAL-BASIN",
+  "route_topology_constraints": [
+    {
+      "geometry_approved": false,
+      "metric_distance_approved": false,
+      "ordered_location_ids": [
+        "LOC-LEAGUE-ARCHIVE",
+        "LOC-LEAGUE-CHAMBER"
+      ],
+      "route_id": "ROUTE-ARCHIVE-CHAMBER"
+    },
+    {
+      "geometry_approved": false,
+      "metric_distance_approved": false,
+      "ordered_location_ids": [
+        "LOC-LEAGUE-CHAMBER",
+        "LOC-DK-MUD-HILL",
+        "LOC-SOUTHERN-SPEEDWAY",
+        "LOC-PITTSYS-BOOK"
+      ],
+      "route_id": "ROUTE-BASIN-MARKET"
+    }
+  ],
+  "status": "EVIDENCE_CONSTRAINED_CANDIDATE_NOT_CANON"
+}
