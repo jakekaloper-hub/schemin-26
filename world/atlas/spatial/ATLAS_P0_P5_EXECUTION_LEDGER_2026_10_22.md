@@ -26,3 +26,8 @@ Do not convert algorithmic success into coastline, river mouth, physical scale o
 
 ## End-to-end release-readiness audit
 Expanded focused regression: 64 Central Basin and 14 continental tests PASS. Four GitHub CI workflows PASS on 084775b. See `ATLAS_P0_P5_RELEASE_READINESS_2026_10_22.md` for phase-scoped blockers and decisions. No founder physical-canon promotion or authenticated independent Umpire approval was supplied; preserve PR #226 as draft.
+
+## Physical-world closure evidence pass
+- P2 IMPLEMENTED/TESTED: machine-checkable historical site-to-archive provenance with explicit no-metric-inference policy. Real Git LFS source PDF SHA-256 values checked against the four page-referenced Pittsy's Book observations; all match. Five existing pilot landmark IDs preserved.
+- P3/P4: Scene and independent visual QA still unresolved; source-hash acceptance is not visual acceptance.
+- P5: No independent or founder approval has been supplied; not merged.
