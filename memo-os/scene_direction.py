@@ -77,6 +77,14 @@ def validate_scene(packet: dict[str, Any]) -> list[str]:
     route = packet["director_route"]
     if not isinstance(route, dict) or not route.get("primary") or not isinstance(route.get("counterweight_plan"), dict):
         errors.append("canonical director route and counterweight plan required")
+    else:
+        plan = route["counterweight_plan"]
+        if plan.get("primary") not in (None, route["primary"]):
+            errors.append("counterweight primary mismatches director")
+        if plan.get("activated") is True and not isinstance(plan.get("counterweights"), list):
+            errors.append("activated counterweights must be listed")
+        if route.get("authority", {}).get("primary_preserved") is False:
+            errors.append("primary authority cannot be reassigned")
     if not isinstance(packet["character_intentions"], list):
         errors.append("character_intentions must be an array")
     if not isinstance(packet["reference_receipts"], list):
