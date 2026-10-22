@@ -1,0 +1,84 @@
+{
+  "status": "SITE_AND_ROUTE_SCREEN_ONLY",
+  "segments": [
+    {
+      "route_id": "ROUTE-ARCHIVE-CHAMBER",
+      "from": "LOC-LEAGUE-ARCHIVE",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "synthetic_straight_line_length_m": 158.114,
+      "peak_absolute_grade": 0.006222,
+      "exceeds_review_grade_limit": false,
+      "requires_crossing_review": true,
+      "route_feasible_approved": false
+    },
+    {
+      "route_id": "ROUTE-BASIN-MARKET",
+      "from": "LOC-LEAGUE-CHAMBER",
+      "to": "LOC-DK-MUD-HILL",
+      "synthetic_straight_line_length_m": 143.178,
+      "peak_absolute_grade": 0.004369,
+      "exceeds_review_grade_limit": false,
+      "requires_crossing_review": true,
+      "route_feasible_approved": false
+    },
+    {
+      "route_id": "ROUTE-BASIN-MARKET",
+      "from": "LOC-DK-MUD-HILL",
+      "to": "LOC-SOUTHERN-SPEEDWAY",
+      "synthetic_straight_line_length_m": 122.066,
+      "peak_absolute_grade": 0.006054,
+      "exceeds_review_grade_limit": false,
+      "requires_crossing_review": true,
+      "route_feasible_approved": false
+    },
+    {
+      "route_id": "ROUTE-BASIN-MARKET",
+      "from": "LOC-SOUTHERN-SPEEDWAY",
+      "to": "LOC-PITTSYS-BOOK",
+      "synthetic_straight_line_length_m": 138.924,
+      "peak_absolute_grade": 0.004536,
+      "exceeds_review_grade_limit": false,
+      "requires_crossing_review": true,
+      "route_feasible_approved": false
+    }
+  ],
+  "sites": [
+    {
+      "location_id": "LOC-LEAGUE-CHAMBER",
+      "max_local_grade_candidate": 0.012035,
+      "foundation_type": "UNVERIFIED",
+      "site_certified": false
+    },
+    {
+      "location_id": "LOC-LEAGUE-ARCHIVE",
+      "max_local_grade_candidate": 0.016722,
+      "foundation_type": "UNVERIFIED",
+      "site_certified": false
+    },
+    {
+      "location_id": "LOC-PITTSYS-BOOK",
+      "max_local_grade_candidate": 0.021489,
+      "foundation_type": "UNVERIFIED",
+      "site_certified": false
+    },
+    {
+      "location_id": "LOC-DK-MUD-HILL",
+      "max_local_grade_candidate": 0.003647,
+      "foundation_type": "UNVERIFIED",
+      "site_certified": false
+    },
+    {
+      "location_id": "LOC-SOUTHERN-SPEEDWAY",
+      "max_local_grade_candidate": 0.0102,
+      "foundation_type": "UNVERIFIED",
+      "site_certified": false
+    }
+  ],
+  "review_grade_limit": 0.08,
+  "acceptance": "HOLD",
+  "limitations": [
+    "STRAIGHT_LINE_PATHS_NOT_ENGINEERED_ROADS",
+    "CROSSING_LOCATIONS_UNVERIFIED",
+    "SYNTHETIC_METRIC_DISTANCE_NOT_CANON"
+  ]
+}
