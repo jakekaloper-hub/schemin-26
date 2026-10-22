@@ -1,0 +1,103 @@
+{
+  "schema": "SCHEMIN_ENV_REFERENCE_CANDIDATE_V1",
+  "approval": "NOT_CANON_NOT_VISUALLY_REVIEWED",
+  "mesh_sha256": "49bbc3e0d5303ceafdaa11595ebfaffaa5627e8e9095e0bcb2575e1a2c74d5ab",
+  "camera_count": 3,
+  "cameras": [
+    {
+      "id": "CB-NORTH-LOOK-SOUTH",
+      "xyz": [
+        800,
+        1350,
+        145
+      ],
+      "look_at": [
+        700,
+        600,
+        20
+      ],
+      "yaw_deg": -172.4054,
+      "pitch_deg": -9.3808
+    },
+    {
+      "id": "CB-EAST-LOOK-WEST",
+      "xyz": [
+        1450,
+        700,
+        130
+      ],
+      "look_at": [
+        700,
+        550,
+        20
+      ],
+      "yaw_deg": -101.3099,
+      "pitch_deg": -8.1841
+    },
+    {
+      "id": "CB-SOUTH-LOOK-NORTH",
+      "xyz": [
+        780,
+        -280,
+        115
+      ],
+      "look_at": [
+        700,
+        600,
+        20
+      ],
+      "yaw_deg": -5.1944,
+      "pitch_deg": -6.1364
+    }
+  ],
+  "landmarks": [
+    {
+      "location_id": "LOC-LEAGUE-CHAMBER",
+      "synthetic_xyz": [
+        500,
+        500,
+        25
+      ],
+      "coordinate_authority": "EXPERIMENTAL_ONLY"
+    },
+    {
+      "location_id": "LOC-LEAGUE-ARCHIVE",
+      "synthetic_xyz": [
+        350,
+        550,
+        26
+      ],
+      "coordinate_authority": "EXPERIMENTAL_ONLY"
+    },
+    {
+      "location_id": "LOC-PITTSYS-BOOK",
+      "synthetic_xyz": [
+        850,
+        300,
+        18
+      ],
+      "coordinate_authority": "EXPERIMENTAL_ONLY"
+    },
+    {
+      "location_id": "LOC-DK-MUD-HILL",
+      "synthetic_xyz": [
+        630,
+        440,
+        24
+      ],
+      "coordinate_authority": "EXPERIMENTAL_ONLY"
+    },
+    {
+      "location_id": "LOC-SOUTHERN-SPEEDWAY",
+      "synthetic_xyz": [
+        730,
+        370,
+        20
+      ],
+      "coordinate_authority": "EXPERIMENTAL_ONLY"
+    }
+  ],
+  "terrain_units": "SYNTHETIC_METERS_NO_REAL_DISTANCE_CLAIM",
+  "render_status": "GEOMETRY_AND_CAMERA_PACKET_ONLY_NO_RENDERED_PLATES",
+  "reference_integrity": "ALL_CAMERAS_SHARE_ONE_MESH_HASH_AND_LANDMARK_PACK"
+}
