@@ -24,6 +24,15 @@ def scene():
     }
 
 class SceneDirectionTests(unittest.TestCase):
+    def test_provenance_registry_never_claims_collaboration(self):
+        import json
+        profile_path = ROOT / "memo-os/cinematography/PRODUCTION_SPECIALIST_REFERENCE_BENCH_V1.json"
+        doc = json.loads(profile_path.read_text())
+        self.assertEqual(len(doc["profiles"]), 12)
+        self.assertEqual(doc["authority"], "ADVISORY_ONLY")
+        self.assertTrue(all(not p["may_approve_release"] and not p["may_override_canon"] for p in doc["profiles"]))
+        self.assertTrue(all(p["source_status"] in {"CREDIT_SOURCE_IDENTIFIED", "SOURCE_RESEARCH_REQUIRED"} for p in doc["profiles"]))
+
     def test_twelve_profiles(self):
         self.assertEqual(len(sd.SPECIALISTS), 12)
 
