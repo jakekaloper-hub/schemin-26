@@ -23,3 +23,6 @@ Do not convert algorithmic success into coastline, river mouth, physical scale o
 - P3 BLOCKED: OBJ geometry remains synthetic; new approved geography not yet available for repeatable genuine environment review.
 - P4 TESTED: explicit outlet negative tests plus pre-existing suites; independent human approval still required.
 - P5 BLOCKED: no canon promotion, no independent sign-off and no authorized merge.
+
+## End-to-end release-readiness audit
+Expanded focused regression: 64 Central Basin and 14 continental tests PASS. Four GitHub CI workflows PASS on 084775b. See `ATLAS_P0_P5_RELEASE_READINESS_2026_10_22.md` for phase-scoped blockers and decisions. No founder physical-canon promotion or authenticated independent Umpire approval was supplied; preserve PR #226 as draft.
