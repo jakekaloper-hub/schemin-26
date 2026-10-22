@@ -54,6 +54,15 @@ class SceneDirectionTests(unittest.TestCase):
         p=scene();p["typography_safe"]=False
         self.assertEqual(sd.preflight(p)["status"],"BLOCK")
 
+    def test_render_gate_rejects_invalid_optional_stage(self):
+        import sys
+        sys.path.insert(0, str(ROOT / "governance/publication"))
+        from week4_render_eligibility import render_eligibility
+        p = scene()
+        del p["camera"]["position"]
+        result = render_eligibility({"scene_direction": p})
+        self.assertEqual(result["reason"], "SCENE_DIRECTION_NOT_READY")
+
     def test_unknown_scene_rejected(self):
         p=scene();p["scene_type"]="spectacle"
         self.assertEqual(sd.preflight(p)["status"],"BLOCK")
