@@ -1,0 +1,25 @@
+{
+  "results": [
+    {
+      "variant": "baseline",
+      "raised_cells": 12,
+      "interior_terminal_sinks": 0,
+      "boundary_reachable": true
+    },
+    {
+      "variant": "west-ridge",
+      "raised_cells": 83,
+      "interior_terminal_sinks": 0,
+      "boundary_reachable": true
+    },
+    {
+      "variant": "central-valley",
+      "raised_cells": 57,
+      "interior_terminal_sinks": 0,
+      "boundary_reachable": true
+    }
+  ],
+  "acceptance": "EXPERIMENTAL_ONLY",
+  "outlet_geography_approved": false,
+  "note": "Open-boundary conditioning is algorithmic; coastal/river outlet positions not independently verified."
+}
