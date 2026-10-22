@@ -70,6 +70,7 @@ jobs:
           python -m unittest -v world.qa.test_central_basin_river_floodplain
           python -m unittest -v world.qa.test_continental_constraint_gate
           python -m unittest -v world.qa.test_continental_basin_coupling
+          python -m unittest -v world.qa.test_continental_boundary_policy
           python world/location-control-plane/qa/test_location_control_plane.py
       - name: Run One World Model anti-fork contract
         run: python world/qa/test_one_world_model_contract.py

@@ -12,7 +12,7 @@ def inspect():
     rows=[]
     for v in compare_candidates()['variants']:
         z=v['heightfield']; n=len(z)
-        routing=drain_to_boundary(z)
+        routing=drain_to_boundary(z, permitted_outlets={(x,0) for x in range(n)})
         parents={(x,y):(a,b) for x,y,a,b in routing['routing_parents']}
         terminals={tuple(p) for p in routing['terminal_boundary_cells']}
         basin={}
@@ -26,6 +26,7 @@ def inspect():
         rows.append({'variant':v['variant'],'cells':n*n,'hypothetical_south_receiving_cells':south,
                      'unresolved_other_edge_receiving_cells':other,'south_receiving_fraction':round(south/(n*n),6),
                      'has_unvalidated_other_edge_discharge':other>0,
+                     'boundary_policy':'HYPOTHETICAL_SOUTH_ONLY',
                      'all_terminal_roots_identified':set(basin)==terminals,
                      'source_region':'REG-UPPER-VALLEYS','target_region':'REG-SOUTHERN-WETLANDS',
                      'geographically_approved':False})

@@ -15,3 +15,11 @@ Do not convert algorithmic success into coastline, river mouth, physical scale o
 - IMPLEMENTED/TESTED: all 3 synthetic candidate root-basin partitions checked against the abstract macro watershed.
 - BLOCKED: each routes just 33 / 1,089 cells to hypothetical south-edge terminals; 1,056 cells exit via other unverified boundaries. No model may claim continent-constrained southward discharge.
 - Next technical dependency: boundary-condition redesign (north/west/east inlet or closed/explicit side-outlet policies), then flow conservation and landmark-aware terrain validation.
+
+## Cross-phase integration pass — explicit outlet policy
+- P0: continental adjacency validator retained and tested.
+- P1 IMPLEMENTED/TESTED: optional explicit permitted boundary outlets in priority flood; synthetic southern-only basin routes all 1,089 cells to allowed edges. This is a **boundary-policy experiment**, not verified river mouths.
+- P2 AUDITED/BLOCKED: no evidence to assign surveyed bridges, landmarks or settlements to this synthetic grid. Canonical LOC/ROUTE unchanged.
+- P3 BLOCKED: OBJ geometry remains synthetic; new approved geography not yet available for repeatable genuine environment review.
+- P4 TESTED: explicit outlet negative tests plus pre-existing suites; independent human approval still required.
+- P5 BLOCKED: no canon promotion, no independent sign-off and no authorized merge.

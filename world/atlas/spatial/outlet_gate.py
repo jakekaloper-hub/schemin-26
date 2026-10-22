@@ -3,13 +3,17 @@ import heapq
 from world.atlas.spatial.candidate_comparison import compare_candidates
 
 
-def drain_to_boundary(grid):
+def drain_to_boundary(grid, permitted_outlets=None):
     n=len(grid)
     if n<3 or any(len(row)!=n for row in grid):raise ValueError('INVALID_GRID')
     visited=set();heap=[];filled=[[None]*n for _ in range(n)];parent={}
+    if permitted_outlets is not None:
+        permitted_outlets=set(map(tuple,permitted_outlets))
+        if not permitted_outlets or any(not (0<=x<n and 0<=y<n and (x in (0,n-1) or y in (0,n-1))) for x,y in permitted_outlets):
+            raise ValueError('INVALID_PERMITTED_OUTLET')
     for y in range(n):
         for x in range(n):
-            if x in (0,n-1) or y in (0,n-1):
+            if (x in (0,n-1) or y in (0,n-1)) and (permitted_outlets is None or (x,y) in permitted_outlets):
                 filled[y][x]=grid[y][x]
                 heapq.heappush(heap,(grid[y][x],y,x))
                 visited.add((x,y));parent[(x,y)]=None
@@ -31,6 +35,7 @@ def drain_to_boundary(grid):
             seen.add(p);p=parent[p]
         if p[0] not in (0,n-1) and p[1] not in (0,n-1):raise ValueError('INTERNAL_OUTLET')
     return {'raised_cells':raised,'boundary_outlets':len({p for p,v in parent.items() if v is None}),
+            'outlet_policy':'ALL_GRID_EDGES' if permitted_outlets is None else 'EXPLICIT_PERMITTED_BOUNDARY',
             'all_cells_boundary_reachable':len(parent)==n*n,
             'interior_terminal_sinks':0,'filled_surface':filled,
             'routing_parents':[[x,y,*to] for (x,y),to in sorted(parent.items()) if to is not None],
