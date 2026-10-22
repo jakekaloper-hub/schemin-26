@@ -47,4 +47,4 @@ def validate():
 if __name__=="__main__":
     problems=validate()
     if problems:raise SystemExit(";".join(problems))
-    print("Memo Week 4-6 intake metadata/provenance validated; PDF bytes remain unarchived")
+    print("Memo Week 4-6 intake manifest and archive references validated. This check permits matching Git LFS pointers and does not certify retrieved PDF bytes, visual fidelity, or publication approval.")
