@@ -1,5 +1,11 @@
 name: Operational Convergence Drift Inventory
 on:
+  pull_request:
+    paths:
+      - "skills/schemin-pdf-bytes/**"
+      - "governance/execution-control/pr_reconciliation.py"
+      - "governance/execution-control/test_pr_reconciliation.py"
+      - ".github/workflows/operational-convergence-inventory.yml"
   workflow_dispatch:
   schedule:
     - cron: '23 12 * * *'
