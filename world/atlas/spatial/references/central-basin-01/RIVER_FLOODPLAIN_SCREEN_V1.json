@@ -3,9 +3,10 @@
   "results": [
     {
       "variant": "baseline",
-      "channel_cells": 38,
+      "channel_cells": 41,
       "near_channel_low_cells": 138,
-      "unresolved_flat_interior_cells": 12,
+      "unresolved_flat_interior_cells": 0,
+      "routed_flat_interior_cells": 12,
       "landmarks": [
         {
           "location_id": "LOC-LEAGUE-CHAMBER",
@@ -37,9 +38,10 @@
     },
     {
       "variant": "west-ridge",
-      "channel_cells": 29,
-      "near_channel_low_cells": 107,
-      "unresolved_flat_interior_cells": 83,
+      "channel_cells": 45,
+      "near_channel_low_cells": 153,
+      "unresolved_flat_interior_cells": 0,
+      "routed_flat_interior_cells": 83,
       "landmarks": [
         {
           "location_id": "LOC-LEAGUE-CHAMBER",
@@ -71,9 +73,10 @@
     },
     {
       "variant": "central-valley",
-      "channel_cells": 28,
-      "near_channel_low_cells": 110,
-      "unresolved_flat_interior_cells": 57,
+      "channel_cells": 46,
+      "near_channel_low_cells": 167,
+      "unresolved_flat_interior_cells": 0,
+      "routed_flat_interior_cells": 57,
       "landmarks": [
         {
           "location_id": "LOC-LEAGUE-CHAMBER",

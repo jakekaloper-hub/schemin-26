@@ -33,6 +33,8 @@ def drain_to_boundary(grid):
     return {'raised_cells':raised,'boundary_outlets':len({p for p,v in parent.items() if v is None}),
             'all_cells_boundary_reachable':len(parent)==n*n,
             'interior_terminal_sinks':0,'filled_surface':filled,
+            'routing_parents':[[x,y,*to] for (x,y),to in sorted(parent.items()) if to is not None],
+            'terminal_boundary_cells':[list(p) for p,v in sorted(parent.items()) if v is None],
             'status':'SYNTHETIC_HYDROLOGICAL_CONDITIONING_NOT_CANON'}
 
 
