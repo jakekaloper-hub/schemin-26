@@ -10,3 +10,8 @@ Authority: Atlas Control Plane V2 RELEASED/ACTIVE; this ledger and new continent
 - **P5 — NOT PROMOTED:** draft PR only. Real founder canon authorization, independent acceptance and merge remain outstanding.
 
 Do not convert algorithmic success into coastline, river mouth, physical scale or independent acceptance claims. Continue P1 and P2 independent proof lanes while preparing exact-source decisions for P4/P5.
+
+## P1 continental-local coupling audit
+- IMPLEMENTED/TESTED: all 3 synthetic candidate root-basin partitions checked against the abstract macro watershed.
+- BLOCKED: each routes just 33 / 1,089 cells to hypothetical south-edge terminals; 1,056 cells exit via other unverified boundaries. No model may claim continent-constrained southward discharge.
+- Next technical dependency: boundary-condition redesign (north/west/east inlet or closed/explicit side-outlet policies), then flow conservation and landmark-aware terrain validation.

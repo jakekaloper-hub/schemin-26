@@ -1,0 +1,44 @@
+{
+  "phase": "P1",
+  "status": "CONTINENTAL_LOCAL_AUDIT_ONLY",
+  "results": [
+    {
+      "variant": "baseline",
+      "cells": 1089,
+      "hypothetical_south_receiving_cells": 33,
+      "unresolved_other_edge_receiving_cells": 1056,
+      "south_receiving_fraction": 0.030303,
+      "has_unvalidated_other_edge_discharge": true,
+      "all_terminal_roots_identified": true,
+      "source_region": "REG-UPPER-VALLEYS",
+      "target_region": "REG-SOUTHERN-WETLANDS",
+      "geographically_approved": false
+    },
+    {
+      "variant": "west-ridge",
+      "cells": 1089,
+      "hypothetical_south_receiving_cells": 33,
+      "unresolved_other_edge_receiving_cells": 1056,
+      "south_receiving_fraction": 0.030303,
+      "has_unvalidated_other_edge_discharge": true,
+      "all_terminal_roots_identified": true,
+      "source_region": "REG-UPPER-VALLEYS",
+      "target_region": "REG-SOUTHERN-WETLANDS",
+      "geographically_approved": false
+    },
+    {
+      "variant": "central-valley",
+      "cells": 1089,
+      "hypothetical_south_receiving_cells": 33,
+      "unresolved_other_edge_receiving_cells": 1056,
+      "south_receiving_fraction": 0.030303,
+      "has_unvalidated_other_edge_discharge": true,
+      "all_terminal_roots_identified": true,
+      "source_region": "REG-UPPER-VALLEYS",
+      "target_region": "REG-SOUTHERN-WETLANDS",
+      "geographically_approved": false
+    }
+  ],
+  "acceptance": "HOLD",
+  "note": "Open grid edges are synthetic; other-edge discharge is not an approved coastline or river outlet."
+}
