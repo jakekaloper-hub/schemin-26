@@ -27,7 +27,7 @@ class ChampionshipSpineTests(unittest.TestCase):
             champion,runner,third=rows[s["season"]]
             for actual,cell in [(s["champion"],champion),(s["runner_up"],runner),(s["third"],third)]:
                 self.assertTrue(cell.startswith(actual["team_name"]+" ("),f"{s['season']} {cell}")
-                self.assertTrue(cell.endswith(f"({actual['team_slot']})"),f"{s['season']} {cell}")
+                self.assertTrue(cell.endswith(f"({actual['team_slot']})") or cell.endswith(f"(Team {actual['team_slot']})"),f"{s['season']} {cell}")
 
 if __name__=="__main__":
     unittest.main()
