@@ -7,6 +7,8 @@ from typing import Any
 
 import json
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 from memo_os_story_gate import validate_story_gate
 
 REGISTRY_PATH = Path(__file__).resolve().parent / "cinematography" / "PRODUCTION_SPECIALIST_REFERENCE_BENCH_V1.json"
