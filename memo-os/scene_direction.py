@@ -5,20 +5,23 @@ Advisory only: never mutates canon, approves a raster, or replaces Bullpen Core.
 from __future__ import annotations
 from typing import Any
 
-SPECIALISTS = {
-    "Doug Chiang": ("production_design", "Visual Direction Lead"),
-    "Dylan Cole": ("environment_design", "World/Atlas"),
-    "Joe Letteri": ("character_vfx", "Visual Direction Lead"),
-    "Ngila Dickson": ("costume", "Librarian"),
-    "Andy Serkis": ("performance", "Beat Writer"),
-    "Rob Alonzo": ("stunt_blocking", "Visual Direction Lead"),
-    "James Baxter": ("pose_silhouette", "Visual Direction Lead"),
-    "Frank Masi": ("unit_stills", "Visual Direction Lead"),
-    "John Knoll": ("vfx_pipeline", "Architect"),
-    "Jill Bogdanowicz": ("color_finishing", "Publication Design"),
-    "Thelma Schoonmaker": ("editing", "Beat Writer"),
-    "Randy Thom": ("sound_motion", "Visual Direction Lead"),
-}
+import json
+from pathlib import Path
+
+REGISTRY_PATH = Path(__file__).resolve().parent / "cinematography" / "PRODUCTION_SPECIALIST_REFERENCE_BENCH_V1.json"
+def load_specialist_registry() -> dict[str, tuple[str, str]]:
+    doc = json.loads(REGISTRY_PATH.read_text(encoding="utf-8"))
+    if doc.get("authority") != "ADVISORY_ONLY":
+        raise ValueError("specialist registry cannot grant authority")
+    profiles = doc.get("profiles", [])
+    if len(profiles) != 12 or len({p.get("name") for p in profiles}) != 12:
+        raise ValueError("expected twelve unique specialist references")
+    if any(p.get("may_override_canon") is not False or p.get("may_approve_release") is not False for p in profiles):
+        raise ValueError("specialists cannot override canon or approve releases")
+    return {p["name"]: (p["domain"], p["sponsor"]) for p in profiles}
+
+SPECIALISTS = load_specialist_registry()
+
 ROUTES = {
     "combat": ("performance", "stunt_blocking", "pose_silhouette", "unit_stills", "character_vfx"),
     "dialogue": ("performance", "costume", "unit_stills", "editing"),
