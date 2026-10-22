@@ -76,6 +76,7 @@ jobs:
           python -m unittest -v world.qa.test_central_basin_scene_svg_render
           python -m unittest -v world.qa.test_central_basin_camera_projection_audit
           python -m unittest -v world.qa.test_central_basin_terrain_occlusion
+          python -m unittest -v world.qa.test_central_basin_mesh_visibility
           python world/location-control-plane/qa/test_location_control_plane.py
       - name: Run One World Model anti-fork contract
         run: python world/qa/test_one_world_model_contract.py
