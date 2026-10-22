@@ -40,3 +40,11 @@ Gate 4: IMPLEMENTED LOCALLY, pending independent CI/merge.
 Gate 5: TESTED LOCALLY, NOT LIVE.
 
 Do not mark five-gate mission complete. Do not auto-promote or merge.
+
+## Gate 2 repair execution addendum — 2026-10-22
+- Created isolated Python venv in /tmp/schemin-gate2-venv-20261022; installed Pillow and PyMuPDF there, leaving the existing worktree/environment untouched.
+- Memo OS full unittest discovery: 81/81 PASS (former import errors resolved).
+- Root tests: 88/88 PASS; World QA: 85/85 PASS; Novel OS evaluation suite: 78/78 PASS; FLAIM adapter contract: 8/8 PASS; Character Canon discovery: 61/61 PASS; repository merge-gate tests: 24/24 PASS; project mission validator PASS.
+- Initial Novel OS tests/ directory discovery found no tests (exit 5). Corrected to the workflow-authoritative living-novel/os/evaluations directory; 78 tests passed.
+- These isolated deterministic passes DO NOT establish authenticated live ESPN/FLAIM session freshness, production renderer reference binding, comprehensive staged workflow execution, real publication fidelity, current GitHub Actions success, or independent human review.
+- Gate 2 remains HOLD for live E2E evidence. No automatic promotion of Gates 3–5.
