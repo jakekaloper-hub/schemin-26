@@ -7,6 +7,9 @@ from typing import Any
 
 import json
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from memo_os_story_gate import validate_story_gate
 
 REGISTRY_PATH = Path(__file__).resolve().parent / "cinematography" / "PRODUCTION_SPECIALIST_REFERENCE_BENCH_V1.json"
 def load_specialist_registry() -> dict[str, tuple[str, str]]:
@@ -97,7 +100,7 @@ def validate_scene(packet: dict[str, Any]) -> list[str]:
 
 
 def preflight(packet: dict[str, Any]) -> dict[str, Any]:
-    errors = validate_scene(packet)
+    errors = validate_scene(packet) + validate_story_gate(packet)
     if errors:
         return {"status": "BLOCK", "errors": errors, "can_render": False}
     if packet["character_intentions"] and not packet["reference_receipts"]:
