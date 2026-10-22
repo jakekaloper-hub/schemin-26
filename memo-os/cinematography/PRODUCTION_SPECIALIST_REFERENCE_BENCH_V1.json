@@ -45,19 +45,24 @@
     },
     {
       "name": "Andy Serkis",
-      "source_urls": [],
-      "source_status": "SOURCE_RESEARCH_REQUIRED",
+      "source_urls": [
+        "https://www.youtube.com/watch?v=MaT6iPY4vmw"
+      ],
+      "source_status": "CREDIT_SOURCE_IDENTIFIED",
       "method_verification": "PENDING_METHOD-SPECIFIC_CITATION",
       "may_override_canon": false,
       "may_approve_release": false
     },
     {
       "name": "Rob Alonzo",
-      "source_urls": [],
-      "source_status": "SOURCE_RESEARCH_REQUIRED",
+      "source_urls": [
+        "https://www.dynamicactiondesign.com/about"
+      ],
+      "source_status": "CREDIT_SOURCE_IDENTIFIED",
       "method_verification": "PENDING_METHOD-SPECIFIC_CITATION",
       "may_override_canon": false,
-      "may_approve_release": false
+      "may_approve_release": false,
+      "professional_name": "Robert Alonzo"
     },
     {
       "name": "James Baxter",
@@ -89,8 +94,10 @@
     },
     {
       "name": "Jill Bogdanowicz",
-      "source_urls": [],
-      "source_status": "SOURCE_RESEARCH_REQUIRED",
+      "source_urls": [
+        "https://www.company3.com/artists/jill-bogdanowicz/"
+      ],
+      "source_status": "CREDIT_SOURCE_IDENTIFIED",
       "method_verification": "PENDING_METHOD-SPECIFIC_CITATION",
       "may_override_canon": false,
       "may_approve_release": false
@@ -115,5 +122,6 @@
       "may_override_canon": false,
       "may_approve_release": false
     }
-  ]
+  ],
+  "verification_note": "All 12 have a documentary career/source lead except James Baxter; method-specific guidance remains unverified and may not be impersonated."
 }
