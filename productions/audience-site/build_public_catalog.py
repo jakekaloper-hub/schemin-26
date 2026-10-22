@@ -46,6 +46,43 @@ def verify_file(path, expected):
     return actual
 
 
+def load_artwork(output, source_dir=None):
+    """Publish only reviewed, byte-verified presentation art; never character canon."""
+    source_dir = pathlib.Path(source_dir or BASE / 'artwork').resolve()
+    manifest_path = source_dir / 'manifest.json'
+    target = (pathlib.Path(output) / 'artwork').resolve()
+    if target == source_dir or source_dir.is_relative_to(target):
+        raise ValueError('Artwork output must be separate from its sources')
+    if target.exists():
+        shutil.rmtree(target)
+    if not manifest_path.exists():
+        return {'schemaVersion': 1, 'assets': {}}
+    manifest = json.loads(manifest_path.read_text())
+    if manifest.get('schemaVersion') != 1 or not isinstance(manifest.get('assets'), dict):
+        raise ValueError('Unsupported artwork manifest')
+    assets = {}
+    target.mkdir(parents=True, exist_ok=True)
+    location_ids = {item['id'] for item in json.loads((ROOT / 'world/data/locations.json').read_text())['locations']}
+    allowed_slots = {'home', 'atlas', 'characters', 'memos', 'library', 'read-prologue', 'read-chapter-1', 'read-chapter-2', 'read-chapter-3'} | location_ids | {f'memo-{week}' for week in range(2, 7)}
+    for asset_id, record in manifest['assets'].items():
+        if asset_id not in allowed_slots:
+            raise ValueError(f'Unsupported or character-gated artwork slot: {asset_id}')
+        if record.get('subjectClass') not in {'environment', 'editorial'}:
+            raise ValueError(f'Artwork subject class is not eligible: {asset_id}')
+        if record.get('status') != 'REVIEWED_PRESENTATION':
+            continue
+        filename = record.get('file', '')
+        path = (source_dir / filename).resolve()
+        if path.parent != source_dir or path.suffix.lower() not in {'.webp', '.png', '.jpg', '.jpeg'}:
+            raise ValueError(f'Invalid artwork file: {asset_id}')
+        if not record.get('alt') or not record.get('sha256'):
+            raise ValueError(f'Missing artwork receipt: {asset_id}')
+        verify_file(path, record['sha256'])
+        shutil.copyfile(path, target / filename)
+        assets[asset_id] = dict(record)
+    return {'schemaVersion': 1, 'assets': assets}
+
+
 def build_catalog(output=None, render=True, released_source_dir=None):
     output = pathlib.Path(output or BASE / 'dist')
     output.mkdir(parents=True, exist_ok=True)
@@ -189,7 +226,8 @@ def build_catalog(output=None, render=True, released_source_dir=None):
          'source': intake['files'][2]['archive_path'], 'label': label}
         for number, label in [(6, 'Red Ruins'), (9, 'Jackson Invitational'), (13, 'Chili Stable'), (17, 'Waterfall Temple')]
     ]
-    data = {'characters': characters, 'locations': locations, 'routes': routes, 'zones': zones,
+    artwork = load_artwork(output)
+    data = {'artwork': artwork, 'characters': characters, 'locations': locations, 'routes': routes, 'zones': zones,
             'memos': sorted(memos, key=lambda x: x['week'], reverse=True), 'chapters': chapters,
             'meta': {'title': 'Schemin · The Commonwealth', 'schemaVersion': 1, 'sourceRevision': REVISION,
                      'currentReleasedMemoId': current_released_memo_id,
