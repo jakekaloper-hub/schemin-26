@@ -8,6 +8,7 @@ on:
       - 'memo-os/tests/test_scene_direction.py'
       - 'governance/publication/week4_render_eligibility.py'
       - 'governance/publication/test_week7_story_first_render_gate.py'
+      - 'governance/publication/test_memo_production_story_gate.py'
       - '.github/workflows/memo-production-story-first-ci.yml'
   workflow_dispatch:
 jobs:
@@ -24,3 +25,5 @@ jobs:
         run: python -m unittest discover -s memo-os/tests -p 'test_scene_direction.py' -v
       - name: Render-entry non-bypass regression
         run: python -m unittest discover -s governance/publication -p 'test_week7_story_first_render_gate.py' -v
+      - name: Week-neutral future-issue coverage
+        run: python -m unittest discover -s governance/publication -p 'test_memo_production_story_gate.py' -v
