@@ -1,0 +1,164 @@
+{
+  "scope": "SYNTHETIC_CAMERA_PROJECTION",
+  "views": [
+    {
+      "camera_id": "CB-NORTH-LOOK-SOUTH",
+      "mesh_sha256": "49bbc3e0d5303ceafdaa11595ebfaffaa5627e8e9095e0bcb2575e1a2c74d5ab",
+      "projections": [
+        {
+          "location_id": "LOC-LEAGUE-CHAMBER",
+          "in_front": true,
+          "uv": [
+            0.207909,
+            0.028539
+          ],
+          "in_reference_frame": true
+        },
+        {
+          "location_id": "LOC-LEAGUE-ARCHIVE",
+          "in_front": true,
+          "uv": [
+            0.395515,
+            0.025031
+          ],
+          "in_reference_frame": true
+        },
+        {
+          "location_id": "LOC-PITTSYS-BOOK",
+          "in_front": true,
+          "uv": [
+            -0.180907,
+            0.041559
+          ],
+          "in_reference_frame": true
+        },
+        {
+          "location_id": "LOC-DK-MUD-HILL",
+          "in_front": true,
+          "uv": [
+            0.051768,
+            0.033595
+          ],
+          "in_reference_frame": true
+        },
+        {
+          "location_id": "LOC-SOUTHERN-SPEEDWAY",
+          "in_front": true,
+          "uv": [
+            -0.06087,
+            0.03696
+          ],
+          "in_reference_frame": true
+        }
+      ]
+    },
+    {
+      "camera_id": "CB-EAST-LOOK-WEST",
+      "mesh_sha256": "49bbc3e0d5303ceafdaa11595ebfaffaa5627e8e9095e0bcb2575e1a2c74d5ab",
+      "projections": [
+        {
+          "location_id": "LOC-LEAGUE-CHAMBER",
+          "in_front": true,
+          "uv": [
+            -0.010049,
+            0.035111
+          ],
+          "in_reference_frame": true
+        },
+        {
+          "location_id": "LOC-LEAGUE-ARCHIVE",
+          "in_front": true,
+          "uv": [
+            0.061751,
+            0.049295
+          ],
+          "in_reference_frame": true
+        },
+        {
+          "location_id": "LOC-PITTSYS-BOOK",
+          "in_front": true,
+          "uv": [
+            -0.406189,
+            -0.02358
+          ],
+          "in_reference_frame": true
+        },
+        {
+          "location_id": "LOC-DK-MUD-HILL",
+          "in_front": true,
+          "uv": [
+            -0.109276,
+            0.019504
+          ],
+          "in_reference_frame": true
+        },
+        {
+          "location_id": "LOC-SOUTHERN-SPEEDWAY",
+          "in_front": true,
+          "uv": [
+            -0.234267,
+            0.001076
+          ],
+          "in_reference_frame": true
+        }
+      ]
+    },
+    {
+      "camera_id": "CB-SOUTH-LOOK-NORTH",
+      "mesh_sha256": "49bbc3e0d5303ceafdaa11595ebfaffaa5627e8e9095e0bcb2575e1a2c74d5ab",
+      "projections": [
+        {
+          "location_id": "LOC-LEAGUE-CHAMBER",
+          "in_front": true,
+          "uv": [
+            -0.257978,
+            -0.004632
+          ],
+          "in_reference_frame": true
+        },
+        {
+          "location_id": "LOC-LEAGUE-ARCHIVE",
+          "in_front": true,
+          "uv": [
+            -0.405814,
+            0.004632
+          ],
+          "in_reference_frame": true
+        },
+        {
+          "location_id": "LOC-PITTSYS-BOOK",
+          "in_front": true,
+          "uv": [
+            0.211321,
+            -0.061166
+          ],
+          "in_reference_frame": true
+        },
+        {
+          "location_id": "LOC-DK-MUD-HILL",
+          "in_front": true,
+          "uv": [
+            -0.114374,
+            -0.016815
+          ],
+          "in_reference_frame": true
+        },
+        {
+          "location_id": "LOC-SOUTHERN-SPEEDWAY",
+          "in_front": true,
+          "uv": [
+            0.013753,
+            -0.037637
+          ],
+          "in_reference_frame": true
+        }
+      ]
+    }
+  ],
+  "approval": "NOT_CANON_NOT_INDEPENDENTLY_VISUALLY_REVIEWED",
+  "limitations": [
+    "NO_OCCLUSION_RAYTRACE",
+    "NO_HISTORICALLY_APPROVED_LANDMARK_FOOTPRINT",
+    "NO_VIEWER_ACCEPTANCE"
+  ]
+}
