@@ -47,3 +47,23 @@ ATLAS HORIZON / CHARACTER REFERENCE CHECK:
 STILLS REVIEWER / RECEIPT:
 
 Photographic consultation never authorizes missing source reference bytes, absent approval, new geography, fabricated game facts, or overwritten typography. Existing V5.5 character and geography gates control.
+
+## Scene Direction & Cinematic Staging (optional additive block; does not supersede existing required fields)
+
+SCENE INTENT / DRAMATIC CHANGE:
+VISUAL INTENSITY: grounded | epic | mythic
+SCENE CATEGORY: combat | dialogue | environment | aftermath | motion
+CHARACTER INTENTIONS / EYELINES / PERFORMANCE:
+BLOCKING POSITIONS / CONTACT / ACTION AXIS / SILHOUETTES:
+SCENE-CORRECT COSTUME STATE (identity preserved):
+REQUIRED ENVIRONMENT / NON-SALIENT DETAILS:
+CAMERA POSITION / SHOT SCALE / MOTIVATED LIGHT / DECISIVE INSTANT:
+FOCAL HIERARCHY / TEXT SAFE AREA:
+STORYBOARD AND ALTERNATIVE COMPOSITION RECEIPTS:
+PUBLISHED-METHOD SPECIALIST REFERENCES (advisory only):
+CANONICAL BULLPEN ROUTE + COUNTERWEIGHT RECEIPT:
+STAGING PREFLIGHT: BLOCK | HOLD | PREVIS_READY
+RASTER ACCEPTANCE: independently assessed under existing PAGE_GENERATION_GATE
+
+Reference implementation: `memo-os/scene_direction.py`.
+Previs readiness never implies render eligibility or publication acceptance.
