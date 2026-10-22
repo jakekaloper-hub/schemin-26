@@ -1,0 +1,47 @@
+{
+  "status": "TOPOLOGICAL_CONTRACT_ONLY",
+  "region_id": "REG-CENTRAL-BASIN",
+  "outlet_orientation_assumption": "SOUTH_GRID_EDGE_AS_DOWNSTREAM_HYPOTHESIS",
+  "results": [
+    {
+      "variant": "baseline",
+      "north_boundary_class": "REG-UPPER-VALLEYS",
+      "southern_receiving_zone": "REG-SOUTHERN-WETLANDS",
+      "downstream_regional_relation": {
+        "REG-SOUTHERN-WETLANDS": "REG-INNER-SEA-LITTORAL"
+      },
+      "hypothetical_south_edge_cells": 33,
+      "hypothetical_north_edge_cells": 33,
+      "boundary_reachable": true,
+      "verified_river_mouths": 0,
+      "geographic_boundary_certified": false
+    },
+    {
+      "variant": "west-ridge",
+      "north_boundary_class": "REG-UPPER-VALLEYS",
+      "southern_receiving_zone": "REG-SOUTHERN-WETLANDS",
+      "downstream_regional_relation": {
+        "REG-SOUTHERN-WETLANDS": "REG-INNER-SEA-LITTORAL"
+      },
+      "hypothetical_south_edge_cells": 33,
+      "hypothetical_north_edge_cells": 33,
+      "boundary_reachable": true,
+      "verified_river_mouths": 0,
+      "geographic_boundary_certified": false
+    },
+    {
+      "variant": "central-valley",
+      "north_boundary_class": "REG-UPPER-VALLEYS",
+      "southern_receiving_zone": "REG-SOUTHERN-WETLANDS",
+      "downstream_regional_relation": {
+        "REG-SOUTHERN-WETLANDS": "REG-INNER-SEA-LITTORAL"
+      },
+      "hypothetical_south_edge_cells": 33,
+      "hypothetical_north_edge_cells": 33,
+      "boundary_reachable": true,
+      "verified_river_mouths": 0,
+      "geographic_boundary_certified": false
+    }
+  ],
+  "independent_acceptance": "HOLD"
+}
