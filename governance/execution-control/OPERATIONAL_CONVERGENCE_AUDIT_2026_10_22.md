@@ -67,3 +67,8 @@ Do not mark five-gate mission complete. Do not auto-promote or merge.
 - Local `lib/workflow/kernel.js` exists, but `lib/workflow/stepCheckpoint.js` and `lib/league-health` were absent in this local checkout. Do not classify this stale local file inventory as an up-to-date remote FLA `main` verdict.
 - Schemin already includes repository-native `governance/resilience/checkpoint_cli.py`, validators, fresh-operator gate and conditioning registry; any FLA reuse must be proof-driven, not a wholesale runtime replacement.
 - Gate 3 cannot be independently promoted before Gate 2 full acceptance. Review evidence only.
+
+## Reusable PDF byte skill (Gate 2 follow-through)
+- Added `skills/schemin-pdf-bytes/SKILL.md` plus verifier and six tests; indexed it from Bullpen and the catalog, with CI tests under existing operational convergence workflow.
+- Verified real PDF source bytes from archive for Weeks 4, 5, 6 against manifest hashes: 121338910, 70385795 and 18105809 bytes respectively. Receipts stored outside Git in `/tmp`.
+- Does not automatically install a native ChatGPT skill; remains a repository-local skill available to connected assistant runtimes with repository access. Independently accepted publication and renderer gates remain HOLD.
