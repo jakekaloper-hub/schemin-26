@@ -1,0 +1,31 @@
+name: Commonwealth Archivist CI
+on:
+  push:
+    paths:
+      - "living-novel/os/engine/commonwealth_archivist.py"
+      - "living-novel/os/tests/test_commonwealth_archivist.py"
+      - "living-novel/os/tests/living_novel_archivist_test_support.py"
+      - "world/data/locations.json"
+      - "world/data/world_state_events.json"
+      - "world/data/location_relationship_graph.json"
+      - ".github/workflows/novel-archivist-ci.yml"
+  pull_request:
+    paths:
+      - "living-novel/os/engine/commonwealth_archivist.py"
+      - "living-novel/os/tests/**"
+      - "world/data/**"
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run provenance and orphan tests
+        run: python -m unittest discover -s living-novel/os/tests -p 'test_commonwealth_archivist.py' -v
+      - name: Build read-only archive index
+        run: python living-novel/os/engine/commonwealth_archivist.py --out /tmp/commonwealth-archive-index.json
+      - name: Validate generated index
+        run: python -c 'import json; x=json.load(open("/tmp/commonwealth-archive-index.json")); assert x["entries"]; assert not any(f["severity"]=="FATAL" for f in x["findings"])'
