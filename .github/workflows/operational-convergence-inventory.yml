@@ -1,0 +1,30 @@
+name: Operational Convergence Drift Inventory
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 12 * * *'
+permissions:
+  contents: read
+  pull-requests: read
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test read-only inventory classification
+        run: python -m unittest -v governance/execution-control/test_pr_reconciliation.py
+      - name: Query GitHub and record disposition candidates
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python governance/execution-control/pr_reconciliation.py --output /tmp/operational-pr-inventory.json
+          echo '## Operational PR inventory (metadata-only; no merge certification)' >> "$GITHUB_STEP_SUMMARY"
+          python -c "import json; d=json.load(open('/tmp/operational-pr-inventory.json')); print('\n'.join(f'- {k}: {v}' for k,v in d['counts'].items()))" >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: operational-pr-inventory
+          path: /tmp/operational-pr-inventory.json
+          retention-days: 30
