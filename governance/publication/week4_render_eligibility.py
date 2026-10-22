@@ -41,7 +41,8 @@ def render_eligibility(packet: dict) -> dict:
     # New production candidates cannot bypass creative review by omitting
     # scene_direction or publication_candidate metadata. Historical Week 4
     # packets remain on their established, separately controlled route.
-    new_candidate = packet.get("publication_candidate") is True or packet.get("production_week") == 7
+    week = packet.get("production_week")
+    new_candidate = packet.get("publication_candidate") is True or (type(week) is int and week >= 5)
     if new_candidate and "scene_direction" not in packet:
         return {"state": "PAGE_RENDER_BLOCKED", "reason": "STORY_FIRST_SCENE_MISSING"}
     if "scene_direction" in packet:
