@@ -54,3 +54,16 @@ Do not mark five-gate mission complete. Do not auto-promote or merge.
 - Added additive `data-gateway/weekly_matchup_receipt.py` for explicitly captured six-matchup weekly FLAIM observations; validates league/season/week, unique twelve-team coverage, timezone-bearing capture time, stale/future refusal, and winner enum.
 - This adapter does **not** authenticate/connect to FLAIM; captures must originate from an authorized connector invocation with trustworthy receipt provenance. Synthetic tests do not certify live ingestion.
 - Added nine negative/positive tests and Flaim CI wiring. Existing eight FLAIM V1 tests continue to pass. Gate 2 remains HOLD for authenticated connector-to-receipt handoff and independent production acceptance.
+
+## Gate 2 authenticated connector-to-adapter evidence — 2026-10-22
+- Invoked connected Flaim `get_matchups` for ESPN `1417621`, 2026 Week 6. Provider returned success and six matchups.
+- Wrote the exact provider matchups into an isolated, locally time-stamped receipt without altering canonical league facts. The output was normalized by the new `data-gateway/weekly_matchup_receipt.py` on the authorized Mac.
+- Actual adapter result: league `1417621`, season `2026`, week `6`, `6/6` matchups, `stale=false`, observed age 14 seconds with 3600-second SLO. Exact normalized-output SHA-256: `22cb7847d8463a0cf9bb90907e6900ca0a926df354b4848ea92162f4d48b8da8`.
+- The raw connector response is deliberately retained outside the repo under `/tmp/`; it is not committed, nor does this receipt have independent user/canon promotion status. Source capture timestamp was recorded at handoff rather than supplied by upstream provider.
+- REAL CONNECTOR→SCHEMIN ADAPTER = PASS. Full Memo/Novel/render/publication and independent Umpire acceptance = HOLD.
+
+## Gate 3 FLA comparative local readback
+- Existing local Fantasy League Artworks checkout `e28432f` has extensive unrelated uncommitted changes: preserved untouched.
+- Local `lib/workflow/kernel.js` exists, but `lib/workflow/stepCheckpoint.js` and `lib/league-health` were absent in this local checkout. Do not classify this stale local file inventory as an up-to-date remote FLA `main` verdict.
+- Schemin already includes repository-native `governance/resilience/checkpoint_cli.py`, validators, fresh-operator gate and conditioning registry; any FLA reuse must be proof-driven, not a wholesale runtime replacement.
+- Gate 3 cannot be independently promoted before Gate 2 full acceptance. Review evidence only.
