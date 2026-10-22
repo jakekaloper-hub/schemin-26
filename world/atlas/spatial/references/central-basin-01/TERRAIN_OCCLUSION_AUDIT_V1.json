@@ -1,0 +1,116 @@
+{
+  "status": "SYNTHETIC_LINE_OF_SIGHT_DIAGNOSTIC",
+  "views": [
+    {
+      "camera_id": "CB-NORTH-LOOK-SOUTH",
+      "landmarks": [
+        {
+          "location_id": "LOC-LEAGUE-CHAMBER",
+          "in_frame": true,
+          "terrain_occluded": false,
+          "visibility_certified": false
+        },
+        {
+          "location_id": "LOC-LEAGUE-ARCHIVE",
+          "in_frame": true,
+          "terrain_occluded": false,
+          "visibility_certified": false
+        },
+        {
+          "location_id": "LOC-PITTSYS-BOOK",
+          "in_frame": true,
+          "terrain_occluded": false,
+          "visibility_certified": false
+        },
+        {
+          "location_id": "LOC-DK-MUD-HILL",
+          "in_frame": true,
+          "terrain_occluded": false,
+          "visibility_certified": false
+        },
+        {
+          "location_id": "LOC-SOUTHERN-SPEEDWAY",
+          "in_frame": true,
+          "terrain_occluded": false,
+          "visibility_certified": false
+        }
+      ]
+    },
+    {
+      "camera_id": "CB-EAST-LOOK-WEST",
+      "landmarks": [
+        {
+          "location_id": "LOC-LEAGUE-CHAMBER",
+          "in_frame": true,
+          "terrain_occluded": false,
+          "visibility_certified": false
+        },
+        {
+          "location_id": "LOC-LEAGUE-ARCHIVE",
+          "in_frame": true,
+          "terrain_occluded": false,
+          "visibility_certified": false
+        },
+        {
+          "location_id": "LOC-PITTSYS-BOOK",
+          "in_frame": true,
+          "terrain_occluded": false,
+          "visibility_certified": false
+        },
+        {
+          "location_id": "LOC-DK-MUD-HILL",
+          "in_frame": true,
+          "terrain_occluded": false,
+          "visibility_certified": false
+        },
+        {
+          "location_id": "LOC-SOUTHERN-SPEEDWAY",
+          "in_frame": true,
+          "terrain_occluded": false,
+          "visibility_certified": false
+        }
+      ]
+    },
+    {
+      "camera_id": "CB-SOUTH-LOOK-NORTH",
+      "landmarks": [
+        {
+          "location_id": "LOC-LEAGUE-CHAMBER",
+          "in_frame": true,
+          "terrain_occluded": false,
+          "visibility_certified": false
+        },
+        {
+          "location_id": "LOC-LEAGUE-ARCHIVE",
+          "in_frame": true,
+          "terrain_occluded": false,
+          "visibility_certified": false
+        },
+        {
+          "location_id": "LOC-PITTSYS-BOOK",
+          "in_frame": true,
+          "terrain_occluded": false,
+          "visibility_certified": false
+        },
+        {
+          "location_id": "LOC-DK-MUD-HILL",
+          "in_frame": true,
+          "terrain_occluded": false,
+          "visibility_certified": false
+        },
+        {
+          "location_id": "LOC-SOUTHERN-SPEEDWAY",
+          "in_frame": true,
+          "terrain_occluded": false,
+          "visibility_certified": false
+        }
+      ]
+    }
+  ],
+  "approval": "HOLD",
+  "limitations": [
+    "NO_BUILDINGS_OR_VEGETATION_OCCLUSION",
+    "SAMPLED_HEIGHTFIELD_NOT_EXACT_RAY_TRIANGLE",
+    "SYNTHETIC_LANDMARK_ELEVATIONS"
+  ]
+}
