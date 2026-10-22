@@ -38,6 +38,15 @@ def dk_authority_valid():
     return all(x in text for x in ["ONE BODY", "GORILLA", "FOUR-LEGGED", "ARSENAL"])
 
 def render_eligibility(packet: dict) -> dict:
+    # Optional additive scene review. Legacy packets are unaffected.
+    # Previs review never independently grants render permission.
+    if "scene_direction" in packet:
+        sys.path.insert(0, str(ROOT / "memo-os"))
+        from scene_direction import preflight
+        review = preflight(packet["scene_direction"])
+        if review["status"] != "PREVIS_READY":
+            return {"state": "PAGE_RENDER_BLOCKED",
+                    "reason": "SCENE_DIRECTION_NOT_READY", "review": review}
     required = [
       "page_id","page_number","page_function","narrative_purpose","story_beat",
       "fact_dependencies","character_ids","character_authority_refs","exact_reference_assets",
