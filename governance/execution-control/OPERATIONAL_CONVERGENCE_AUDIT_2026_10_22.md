@@ -48,3 +48,9 @@ Do not mark five-gate mission complete. Do not auto-promote or merge.
 - Initial Novel OS tests/ directory discovery found no tests (exit 5). Corrected to the workflow-authoritative living-novel/os/evaluations directory; 78 tests passed.
 - These isolated deterministic passes DO NOT establish authenticated live ESPN/FLAIM session freshness, production renderer reference binding, comprehensive staged workflow execution, real publication fidelity, current GitHub Actions success, or independent human review.
 - Gate 2 remains HOLD for live E2E evidence. No automatic promotion of Gates 3–5.
+
+## Gate 2 weekly-provider integration addendum
+- The original `data-gateway/flaim_adapter.py` validates a full Week 4-shaped capture, not arbitrary future-week connector responses.
+- Added additive `data-gateway/weekly_matchup_receipt.py` for explicitly captured six-matchup weekly FLAIM observations; validates league/season/week, unique twelve-team coverage, timezone-bearing capture time, stale/future refusal, and winner enum.
+- This adapter does **not** authenticate/connect to FLAIM; captures must originate from an authorized connector invocation with trustworthy receipt provenance. Synthetic tests do not certify live ingestion.
+- Added nine negative/positive tests and Flaim CI wiring. Existing eight FLAIM V1 tests continue to pass. Gate 2 remains HOLD for authenticated connector-to-receipt handoff and independent production acceptance.
