@@ -55,6 +55,11 @@ class SceneDirectionTests(unittest.TestCase):
         p=scene();p["director_route"]={}
         self.assertEqual(sd.preflight(p)["status"],"BLOCK")
 
+    def test_counterweight_primary_mismatch(self):
+        p=scene()
+        p["director_route"]["counterweight_plan"]["primary"]="other"
+        self.assertEqual(sd.preflight(p)["status"],"BLOCK")
+
     def test_character_missing_reference_holds(self):
         p=scene();p["character_intentions"]=[{"character_id":"one","objective":"advance"}]
         self.assertEqual(sd.preflight(p)["status"],"HOLD")
