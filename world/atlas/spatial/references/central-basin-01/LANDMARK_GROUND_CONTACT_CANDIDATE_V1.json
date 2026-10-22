@@ -1,0 +1,103 @@
+{
+  "status": "NONCANONICAL_GROUND_CONTACT_DERIVATION",
+  "region_id": "REG-CENTRAL-BASIN",
+  "source_fixture_status": "DERIVED_SYNTHETIC_NOT_CANON",
+  "placements": [
+    {
+      "location_id": "LOC-LEAGUE-CHAMBER",
+      "xy_candidate": [
+        500,
+        500
+      ],
+      "original_z_candidate": 25,
+      "terrain_ground_z_candidate": 16.3123,
+      "original_vertical_offset_m_candidate": 8.6877,
+      "derived_ground_contact_xyz_candidate": [
+        500,
+        500,
+        16.3123
+      ],
+      "structure_or_platform_height": "UNRESOLVED",
+      "original_landmark_geometry_preserved": true,
+      "derived_ground_contact_approved": false
+    },
+    {
+      "location_id": "LOC-LEAGUE-ARCHIVE",
+      "xy_candidate": [
+        350,
+        550
+      ],
+      "original_z_candidate": 26,
+      "terrain_ground_z_candidate": 15.4443,
+      "original_vertical_offset_m_candidate": 10.5557,
+      "derived_ground_contact_xyz_candidate": [
+        350,
+        550,
+        15.4443
+      ],
+      "structure_or_platform_height": "UNRESOLVED",
+      "original_landmark_geometry_preserved": true,
+      "derived_ground_contact_approved": false
+    },
+    {
+      "location_id": "LOC-PITTSYS-BOOK",
+      "xy_candidate": [
+        850,
+        300
+      ],
+      "original_z_candidate": 18,
+      "terrain_ground_z_candidate": 17.5656,
+      "original_vertical_offset_m_candidate": 0.4344,
+      "derived_ground_contact_xyz_candidate": [
+        850,
+        300,
+        17.5656
+      ],
+      "structure_or_platform_height": "UNRESOLVED",
+      "original_landmark_geometry_preserved": true,
+      "derived_ground_contact_approved": false
+    },
+    {
+      "location_id": "LOC-DK-MUD-HILL",
+      "xy_candidate": [
+        630,
+        440
+      ],
+      "original_z_candidate": 24,
+      "terrain_ground_z_candidate": 16.7737,
+      "original_vertical_offset_m_candidate": 7.2263,
+      "derived_ground_contact_xyz_candidate": [
+        630,
+        440,
+        16.7737
+      ],
+      "structure_or_platform_height": "UNRESOLVED",
+      "original_landmark_geometry_preserved": true,
+      "derived_ground_contact_approved": false
+    },
+    {
+      "location_id": "LOC-SOUTHERN-SPEEDWAY",
+      "xy_candidate": [
+        730,
+        370
+      ],
+      "original_z_candidate": 20,
+      "terrain_ground_z_candidate": 17.1692,
+      "original_vertical_offset_m_candidate": 2.8308,
+      "derived_ground_contact_xyz_candidate": [
+        730,
+        370,
+        17.1692
+      ],
+      "structure_or_platform_height": "UNRESOLVED",
+      "original_landmark_geometry_preserved": true,
+      "derived_ground_contact_approved": false
+    }
+  ],
+  "acceptance": "HOLD",
+  "blocked_on": [
+    "SITE_FOUNDATION_TYPE_UNVERIFIED",
+    "NO_APPROVED_SURVEY_ELEVATIONS",
+    "NO_INDEPENDENT_SITE_REVIEW"
+  ]
+}
