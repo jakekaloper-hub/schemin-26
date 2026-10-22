@@ -1,0 +1,33 @@
+{
+  "status": "DIAGNOSTIC_ONLY",
+  "results": [
+    {
+      "variant": "baseline",
+      "catchment_cells": 1089,
+      "outlet_catchments": 2,
+      "interior_sinks": 2,
+      "unresolved_interior_cells": 615,
+      "boundary_model_approved": false,
+      "hydrology_accepted": false
+    },
+    {
+      "variant": "west-ridge",
+      "catchment_cells": 1089,
+      "outlet_catchments": 2,
+      "interior_sinks": 3,
+      "unresolved_interior_cells": 802,
+      "boundary_model_approved": false,
+      "hydrology_accepted": false
+    },
+    {
+      "variant": "central-valley",
+      "catchment_cells": 1089,
+      "outlet_catchments": 2,
+      "interior_sinks": 2,
+      "unresolved_interior_cells": 725,
+      "boundary_model_approved": false,
+      "hydrology_accepted": false
+    }
+  ],
+  "physical_acceptance": "HOLD"
+}
