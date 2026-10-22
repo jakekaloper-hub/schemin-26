@@ -4,6 +4,9 @@ on:
     paths:
       - "living-novel/os/engine/commonwealth_archivist.py"
       - "living-novel/os/tests/test_commonwealth_archivist.py"
+      - "living-novel/os/tests/test_championship_spine.py"
+      - "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      - "living-novel/history/CHAMPIONSHIP_SUCCESSION.md"
       - "living-novel/os/tests/living_novel_archivist_test_support.py"
       - "world/data/locations.json"
       - "world/data/world_state_events.json"
@@ -24,7 +27,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Run provenance and orphan tests
-        run: python -m unittest discover -s living-novel/os/tests -p 'test_commonwealth_archivist.py' -v
+        run: python -m unittest discover -s living-novel/os/tests -p 'test_*.py' -v
       - name: Build read-only archive index
         run: python living-novel/os/engine/commonwealth_archivist.py --out /tmp/commonwealth-archive-index.json
       - name: Validate generated index
