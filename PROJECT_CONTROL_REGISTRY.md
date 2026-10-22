@@ -367,3 +367,7 @@ FLA Bullpen is a selective specialist/governance adapter. It is not a sixth Sche
 - A late correction reopens only dependent artifacts when possible.
 - Private Mercer intelligence must not leak into public memo production.
 - Material operating changes belong in Git history.
+
+## Cinematography specialist reference — proposed
+
+Frank Masi motion-picture unit-stills methodology is documented as a **Tier-1 advisory resource**, not a real-world collaborator or an override of the Cinematography Director. Proposed reference and review contract: `memo-os/cinematography/FRANK_MASI_UNIT_STILLS_REFERENCE_V1.md`. **Status: FEATURE-BRANCH PROPOSAL / NOT ACTIVE** until actual packet integration, render comparison, independent Umpire acceptance, and promotion gates are verified. All existing character/Atlas/release holds remain effective.
