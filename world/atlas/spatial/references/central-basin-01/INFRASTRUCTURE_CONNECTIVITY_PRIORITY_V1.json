@@ -1,0 +1,188 @@
+{
+  "status": "SYNTHETIC_SINGLE_EDGE_CONNECTIVITY_RANKING",
+  "results": [
+    {
+      "variant": "baseline",
+      "corridor_radius_cells": 0,
+      "baseline_components": 1,
+      "baseline_connected_pairs": 10,
+      "candidate_single_edge_repairs": [],
+      "winner_authorized": false
+    },
+    {
+      "variant": "baseline",
+      "corridor_radius_cells": 1,
+      "baseline_components": 1,
+      "baseline_connected_pairs": 10,
+      "candidate_single_edge_repairs": [],
+      "winner_authorized": false
+    },
+    {
+      "variant": "baseline",
+      "corridor_radius_cells": 2,
+      "baseline_components": 3,
+      "baseline_connected_pairs": 3,
+      "candidate_single_edge_repairs": [
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "restored_connected_pairs": 3,
+          "remaining_components": 2,
+          "cost_estimate": "NOT_AVAILABLE",
+          "infrastructure_type": "UNDETERMINED",
+          "historically_approved": false
+        },
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "restored_connected_pairs": 1,
+          "remaining_components": 2,
+          "cost_estimate": "NOT_AVAILABLE",
+          "infrastructure_type": "UNDETERMINED",
+          "historically_approved": false
+        }
+      ],
+      "winner_authorized": false
+    },
+    {
+      "variant": "west-ridge",
+      "corridor_radius_cells": 0,
+      "baseline_components": 1,
+      "baseline_connected_pairs": 10,
+      "candidate_single_edge_repairs": [],
+      "winner_authorized": false
+    },
+    {
+      "variant": "west-ridge",
+      "corridor_radius_cells": 1,
+      "baseline_components": 1,
+      "baseline_connected_pairs": 10,
+      "candidate_single_edge_repairs": [],
+      "winner_authorized": false
+    },
+    {
+      "variant": "west-ridge",
+      "corridor_radius_cells": 2,
+      "baseline_components": 4,
+      "baseline_connected_pairs": 1,
+      "candidate_single_edge_repairs": [
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "restored_connected_pairs": 2,
+          "remaining_components": 3,
+          "cost_estimate": "NOT_AVAILABLE",
+          "infrastructure_type": "UNDETERMINED",
+          "historically_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "restored_connected_pairs": 1,
+          "remaining_components": 3,
+          "cost_estimate": "NOT_AVAILABLE",
+          "infrastructure_type": "UNDETERMINED",
+          "historically_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "restored_connected_pairs": 1,
+          "remaining_components": 3,
+          "cost_estimate": "NOT_AVAILABLE",
+          "infrastructure_type": "UNDETERMINED",
+          "historically_approved": false
+        }
+      ],
+      "winner_authorized": false
+    },
+    {
+      "variant": "central-valley",
+      "corridor_radius_cells": 0,
+      "baseline_components": 1,
+      "baseline_connected_pairs": 10,
+      "candidate_single_edge_repairs": [],
+      "winner_authorized": false
+    },
+    {
+      "variant": "central-valley",
+      "corridor_radius_cells": 1,
+      "baseline_components": 3,
+      "baseline_connected_pairs": 2,
+      "candidate_single_edge_repairs": [
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "restored_connected_pairs": 2,
+          "remaining_components": 2,
+          "cost_estimate": "NOT_AVAILABLE",
+          "infrastructure_type": "UNDETERMINED",
+          "historically_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "restored_connected_pairs": 2,
+          "remaining_components": 2,
+          "cost_estimate": "NOT_AVAILABLE",
+          "infrastructure_type": "UNDETERMINED",
+          "historically_approved": false
+        }
+      ],
+      "winner_authorized": false
+    },
+    {
+      "variant": "central-valley",
+      "corridor_radius_cells": 2,
+      "baseline_components": 4,
+      "baseline_connected_pairs": 1,
+      "candidate_single_edge_repairs": [
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "restored_connected_pairs": 2,
+          "remaining_components": 3,
+          "cost_estimate": "NOT_AVAILABLE",
+          "infrastructure_type": "UNDETERMINED",
+          "historically_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "restored_connected_pairs": 1,
+          "remaining_components": 3,
+          "cost_estimate": "NOT_AVAILABLE",
+          "infrastructure_type": "UNDETERMINED",
+          "historically_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "restored_connected_pairs": 1,
+          "remaining_components": 3,
+          "cost_estimate": "NOT_AVAILABLE",
+          "infrastructure_type": "UNDETERMINED",
+          "historically_approved": false
+        }
+      ],
+      "winner_authorized": false
+    }
+  ],
+  "acceptance": "HOLD",
+  "limitations": [
+    "NO_COSTS_OR_CONSTRUCTION_FEASIBILITY",
+    "NO_APPROVED_WATERWAY_WIDTH",
+    "NO_CANONICAL_BRIDGE_SITE",
+    "MULTI_EDGE_BUDGET_OPTIMIZATION_NOT_PERFORMED"
+  ]
+}
