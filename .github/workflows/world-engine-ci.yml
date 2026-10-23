@@ -80,6 +80,7 @@ jobs:
           python -m unittest -v world.qa.test_central_basin_landmark_surface_reconciliation
           python -m unittest -v world.qa.test_central_basin_site_access
           python -m unittest -v world.qa.test_central_basin_river_crossing
+          python -m unittest -v world.qa.test_central_basin_crossing_sensitivity
           python world/location-control-plane/qa/test_location_control_plane.py
       - name: Run One World Model anti-fork contract
         run: python world/qa/test_one_world_model_contract.py
