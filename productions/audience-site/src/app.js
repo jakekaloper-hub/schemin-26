@@ -46,7 +46,7 @@ function atlas(initialId){
  const layout=el('section','atlas-layout page-width'),workspace=el('div','atlas-workspace'),panel=el('aside','location-panel');panel.setAttribute('aria-label','Selected place');
  const svgNS='http://www.w3.org/2000/svg',sv=(tag,attrs)=>{const n=document.createElementNS(svgNS,tag);for(const[k,v]of Object.entries(attrs))n.setAttribute(k,v);return n;};
  const map=el('div','atlas-map'),svg=sv('svg',{viewBox:'0 0 1000 700',role:'group','aria-label':'Schematic Commonwealth map; numbered places match the index'}),world=sv('g',{});
- const paper=artwork('atlas','atlas-paper');if(paper)map.append(paper);
+ const terrain=artRecord('atlas');if(terrain){map.classList.add('illustrated-atlas');world.append(sv('image',{href:'./artwork/'+terrain.file,x:0,y:0,width:1000,height:700,preserveAspectRatio:'none','aria-hidden':'true'}));}
  const points=new Map(L().map(l=>[l.id,projectPoint(l)]));
  // Region extents are canonical abstract bounds, shown as translucent fields, not invented coastlines.
  for(const [i,z]of(data.zones||[]).entries()){const b=z.abstract_bounds;if(!b)continue;const top=projectPoint({x:b[0],y:b[3]}),bottom=projectPoint({x:b[2],y:b[1]});const r=sv('rect',{x:top.x,y:top.y,width:bottom.x-top.x,height:bottom.y-top.y,rx:18,class:'region-field region-'+i});const t=sv('title',{});t.textContent=z.name;r.append(t);world.append(r);}
@@ -62,7 +62,7 @@ function atlas(initialId){
   panel.append(link('Enter this destination →',href('location',l.id),'button gold'));source(l,panel);map.querySelectorAll('[data-location]').forEach(n=>{const yes=n.dataset.location===id;n.classList.toggle('selected',yes);n.setAttribute('aria-pressed',String(yes));});index.querySelectorAll('[data-location]').forEach(n=>{const yes=n.dataset.location===id;n.classList.toggle('selected',yes);n.setAttribute('aria-pressed',String(yes));});
  }
  for(const [i,l]of L().entries()){const p=points.get(l.id),g=sv('g',{transform:`translate(${p.x} ${p.y})`,tabindex:0,role:'button','aria-label':l.name,'aria-pressed':'false','data-location':l.id,class:'map-point'});const t=sv('title',{});t.textContent=l.name;const num=sv('text',{'text-anchor':'middle',y:4});num.textContent=String(i+1);g.append(t,sv('circle',{r:14}),num);g.addEventListener('click',()=>select(l.id,true));g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();select(l.id,true);}});world.append(g);}
- svg.append(world);add(map,el('span','map-compass','N\n↑'),svg,el('p','map-caption','SCHEMATIC ATLAS · Numbered places · Routes show connections, not travel distance.'));
+ svg.append(world);add(map,el('span','map-compass','N\n↑'),svg,el('p','map-caption','ILLUSTRATED ATLAS · Interpretive terrain; location and route overlays are schematic, not surveyed distances.'));
  const controls=el('div','map-controls');controls.setAttribute('aria-label','Map controls');
  add(controls,button('Zoom in',()=>{zoom=Math.min(3,zoom+.4);paint();}),button('Zoom out',()=>{zoom=Math.max(1,zoom-.4);paint();}),button('←',()=>{panX=Math.min(500*zoom,panX+70);paint();}),button('→',()=>{panX=Math.max(-500*zoom,panX-70);paint();}),button('↑',()=>{panY=Math.min(350*zoom,panY+70);paint();}),button('↓',()=>{panY=Math.max(-350*zoom,panY-70);paint();}),button('Reset view',()=>{zoom=1;panX=0;panY=0;paint();}));
  const labels=['Pan west','Pan east','Pan north','Pan south'];[...controls.children].slice(2,6).forEach((b,i)=>b.setAttribute('aria-label',labels[i]));
