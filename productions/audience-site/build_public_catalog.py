@@ -9,12 +9,15 @@ import subprocess
 import urllib.parse
 import importlib.util
 import re
+import os
 from concurrent.futures import ThreadPoolExecutor
 
 BASE = pathlib.Path(__file__).resolve().parent
 ROOT = BASE.parents[1]
-REVISION = subprocess.run(['git', 'rev-parse', 'HEAD'], cwd=ROOT, check=True,
-                          capture_output=True, text=True).stdout.strip()
+REVISION = os.environ.get('SCHEMIN_SOURCE_REVISION') or subprocess.run(
+    ['git', 'rev-parse', 'HEAD'], cwd=ROOT, check=True, capture_output=True, text=True).stdout.strip()
+if not re.fullmatch(r'[0-9a-f]{40}', REVISION):
+    raise ValueError('SCHEMIN_SOURCE_REVISION must be a full verified commit SHA')
 REPO = f'https://github.com/jakekaloper-hub/schemin-26/blob/{REVISION}/'
 MEDIA = f'https://media.githubusercontent.com/media/jakekaloper-hub/schemin-26/{REVISION}/'
 # Fresh source-byte ingestion receipts from canonical Library materialization.
@@ -83,6 +86,48 @@ def load_artwork(output, source_dir=None):
     return {'schemaVersion': 1, 'assets': assets}
 
 
+def character_mentions(text, characters):
+    """Only explicit canonical display/team names establish presentation links."""
+    normalized = re.sub(r'[^\w]+', ' ', text.casefold()).strip()
+    found = []
+    for person in characters:
+        names = {person.get('name', ''), person.get('team', '')}
+        for name in names:
+            candidate = re.sub(r'[^\w]+', ' ', name.casefold()).strip()
+            if candidate and re.search(r'(?<!\w)' + re.escape(candidate) + r'(?!\w)', normalized):
+                found.append(person['id'])
+                break
+    return found
+
+
+def pdf_mentions(path, characters):
+    # Raster-only issues intentionally produce no text-derived links.
+    text = subprocess.run(['pdftotext', str(path), '-'], check=True,
+                          capture_output=True, text=True).stdout
+    return character_mentions(text, characters)
+
+
+def render_pdf_page(pdf, number, destination, scale=1600, quality=86, renderer=None):
+    """Rasterize a one-based PDF page with a portable fallback."""
+    destination = pathlib.Path(destination)
+    renderer = renderer or ('poppler' if shutil.which('pdftoppm') else 'pymupdf')
+    if renderer == 'pymupdf':
+        import pymupdf
+        with pymupdf.open(pdf) as document:
+            if not 1 <= number <= len(document):
+                raise ValueError('PDF page is outside the source edition')
+            page = document[number - 1]
+            ratio = scale / max(page.rect.width, page.rect.height)
+            pixmap = page.get_pixmap(matrix=pymupdf.Matrix(ratio, ratio), alpha=False)
+            pixmap.save(str(destination), jpg_quality=quality)
+    elif renderer == 'poppler':
+        subprocess.run(['pdftoppm', '-f', str(number), '-l', str(number), '-scale-to', str(scale),
+                        '-jpeg', '-jpegopt', f'quality={quality}', '-singlefile', str(pdf),
+                        str(destination.with_suffix(''))], check=True, capture_output=True)
+    else:
+        raise ValueError('Unknown PDF renderer')
+
+
 def build_catalog(output=None, render=True, released_source_dir=None):
     output = pathlib.Path(output or BASE / 'dist')
     output.mkdir(parents=True, exist_ok=True)
@@ -105,9 +150,7 @@ def build_catalog(output=None, render=True, released_source_dir=None):
     def page(pdf, number, name, scale=1600, quality=86):
         destination = output / 'assets' / name
         if render:
-            subprocess.run(['pdftoppm', '-f', str(number), '-l', str(number), '-scale-to', str(scale),
-                            '-jpeg', '-jpegopt', f'quality={quality}', '-singlefile', str(pdf),
-                            str(destination.with_suffix(''))], check=True, capture_output=True)
+            render_pdf_page(pdf, number, destination, scale, quality)
         return 'assets/' + name if render else None
 
     lineup_path = 'canon/characters/APPROVED_LINEUP_2026_10_18.json'
@@ -130,6 +173,14 @@ def build_catalog(output=None, render=True, released_source_dir=None):
         location['x'], location['y'] = location['abstract_position']
         location['zone'] = location['physical_zone_id']
         location['description'] = ', '.join(location.get('persistent_landmarks', []))
+        card_path = f"world/location-control-plane/locations/{location['id']}/CARD.json"
+        if (ROOT / card_path).is_file():
+            card = read(card_path)
+            location['environment'] = card.get('physical_zone', {})
+            location['accessRoutes'] = card.get('access_routes', [])
+            location['features'] = card.get('addressable_feature_handles', [])
+            location['worldState'] = card.get('current_world_state', [])
+            location['baseState'] = card.get('base_location_state', [])
         location['source'] = 'world/data/locations.json'
         location['sourceUrl'] = REPO + 'world/data/locations.json'
     routes = read('world/data/routes.json')['routes']
@@ -154,6 +205,8 @@ def build_catalog(output=None, render=True, released_source_dir=None):
             'status': status, 'releaseState': 'SOURCE_VERIFIED_NOT_RELEASE_PROMOTED',
             'currentBenchmark': False, 'pdf': MEDIA + urllib.parse.quote(item['archive_path']),
             'cover': memo_pages[0], 'pageImages': memo_pages, 'pageCount': item['pages'],
+            'characterIds': pdf_mentions(pdf, characters),
+            'mentionBasis': 'Exact canonical display/team name in extracted source PDF text; raster-only pages may have no indexable mentions.',
             'source': item['archive_path'],
             'sourceUrl': REPO + item['archive_path'], 'sha256': item['sha256'],
             'note': 'Original supplied edition. Source verification does not establish publication release acceptance.',
@@ -197,6 +250,8 @@ def build_catalog(output=None, render=True, released_source_dir=None):
                           'pages': recovered['pages'], 'pageCount': recovered['pages'],
                           'cover': images[0], 'pageImages': images, 'status': 'Released edition',
                           'releaseState': publication['release_state'], 'currentBenchmark': is_current,
+                          'characterIds': pdf_mentions(pdf, characters),
+                          'mentionBasis': 'Exact canonical display/team name in extracted source PDF text.',
                           'source': recovered['filename'], 'sourceUrl': REPO + recovered['authority'],
                           'sha256': recovered['sha256'], 'libraryFileId': recovered['libraryFileId'],
                           'note': 'Exact historical released edition. Original source preserved; pages rendered for web reading.'})
@@ -217,6 +272,8 @@ def build_catalog(output=None, render=True, released_source_dir=None):
         chapters.append({'id': chapter_id, 'title': title, 'text': text, 'source': path,
                          'sourceUrl': REPO + path, 'sha256': sha256(ROOT / path),
                          'status': 'Archive edition · rewrite commissioned',
+                         'characterIds': character_mentions(text, characters),
+                         'mentionBasis': 'Exact canonical display/team name in the unchanged archival manuscript.',
                          'note': 'Historical accepted text preserved verbatim. A twelve-owner rewrite is commissioned; candidates are not published here.'})
         sources.append({'path': path, 'sha256': sha256(ROOT / path), 'url': REPO + path})
     week6 = ROOT / intake['files'][2]['archive_path']

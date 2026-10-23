@@ -29,6 +29,15 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual({x['id']: [x['x'], x['y']] for x in self.data['locations']},
                          {x['id']: x['abstract_position'] for x in source})
 
+    def test_destination_environments_match_derived_location_cards(self):
+        for location in self.data['locations']:
+            path = catalog.ROOT / f"world/location-control-plane/locations/{location['id']}/CARD.json"
+            if path.is_file():
+                card = json.loads(path.read_text())
+                self.assertEqual(location['environment'], card['physical_zone'])
+                self.assertEqual(location['accessRoutes'], card['access_routes'])
+                self.assertEqual(location['features'], card['addressable_feature_handles'])
+
     def test_relationships_resolve(self):
         locations = {x['id'] for x in self.data['locations']}
         self.assertTrue(all(x['locationId'] in locations for x in self.data['characters']))
