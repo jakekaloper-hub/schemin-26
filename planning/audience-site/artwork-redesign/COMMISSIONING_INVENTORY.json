@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "prepared": "2026-10-22",
   "sourceRevision": "5e737b3bf04b0c7380403b5e53503de9384ec03d",
-  "status": "BATCH_02__TWO_PRESENTATIONS_REVIEWED__ATLAS_POSITIONAL_HOLD",
-  "scope": "49 required original compositions across every currently available primary website route; no promise of art bytes before generation and review.",
+  "status": "RECONCILED_56_ROUTE_COMMISSIONS__TWO_ENVIRONMENT_PRESENTATIONS_REVIEWED",
+  "scope": "56 required page-specific compositions: five entrances, seven regions,23 locations,12 profiles,five memo issues and four chapter openings. Founder final visual acceptance remains open.",
   "style": {
     "name": "Commonwealth illuminated editorial",
     "medium": "Original painterly narrative illustration, fine engraved detail, tactile pigments, atmospheric depth, precise readable silhouettes; sophisticated illustrated publishing, no imitation of a named artist or franchise.",
@@ -29,7 +29,7 @@
     "implementation": "Architect / Tim Veil",
     "independent_acceptance": "Umpire"
   },
-  "requiredCount": 49,
+  "requiredCount": 56,
   "items": [
     {
       "id": "home",
@@ -3599,6 +3599,447 @@
       ],
       "prompt": "Original editorial illustration for Schemin \u201926. Hand-painted oil and gouache with atmospheric depth, fine confident brushwork, deep pine and ink-teal shadows, aged ivory light, weathered stone, and restrained antique brass. No typography, UI, watermarks, logos, people, animals, named characters, invented heraldry, invented results, or new geographic claims. This is presentation art, not a source of new canon. Subject: An empty rain-soaked ridge over low wet ground after a contest, broken unmarked standard, cart tracks and drainage channels, twilight sky; no figures or trophies. Intended page purpose: Archival chapter-opening illustration tied to existing text; no depiction of deprecated narrator. Wide landscape, central focal landmark safe for narrow-screen crop. Any map geometry or exact labels must be rendered in code, not generated.",
       "blockers": []
+    },
+    {
+      "id": "region-REG-NORTHERN-SPINE",
+      "route": "#region/REG-NORTHERN-SPINE",
+      "title": "Northern Spine",
+      "kind": "regional entrance",
+      "required": true,
+      "status": "NOT_GENERATED",
+      "subject": "high mountains, narrow passes, rock ridges",
+      "narrativePurpose": "Introduce this established region and its connected destinations with a dedicated environmental composition.",
+      "sources": [
+        {
+          "path": "world/data/physical_zones.json",
+          "sha256": "89734f7171039f4a14614d93e1a9aaf666c05f8951d39ad42732d01aba7433bc",
+          "revision": "691007d27da604d4c3df4c48a7828fafb9916aa7"
+        }
+      ],
+      "desktop": {
+        "aspectRatio": "16:9",
+        "focalPoint": [
+          0.5,
+          0.5
+        ],
+        "composition": "Regional scene leads; live text on a separate readable surface.",
+        "sourceAspectRatio": "16:9"
+      },
+      "mobile": {
+        "aspectRatio": "16:9",
+        "focalPoint": [
+          0.5,
+          0.5
+        ],
+        "composition": "Preserve the full regional scene; live title and navigation on a separate surface."
+      },
+      "layers": [
+        "single original illustration",
+        "separate HTML text and controls",
+        "CSS scrim when required"
+      ],
+      "reviewers": {
+        "creative": "Visual Direction Lead",
+        "literary": "Author Council / Beat Writer",
+        "identity": "Librarian",
+        "geography": "Groundskeeper",
+        "implementation": "Architect / Tim Veil",
+        "independent_acceptance": "Umpire"
+      },
+      "acceptanceCriteria": [
+        "Original composition created for this specific route, not an existing memo page used as a decorative substitute.",
+        "Distinct subject and intended narrative purpose recognizable at phone size.",
+        "No words or exact labels baked into image; interface text remains selectable HTML/SVG.",
+        "Source identities, reference hashes, prompts and generated-byte hashes recorded.",
+        "Contrast and responsive crop verified in actual browser; focal subject not hidden by title/navigation.",
+        "No canon promotion inferred from generation or technical acceptance."
+      ],
+      "constraints": [
+        "Interpret only Northern Spine using its established terrain: high mountains, narrow passes, rock ridges.",
+        "Respect regional climate: cold winters, snow at elevation, headwater precipitation.",
+        "No principal characters, generated labels, invented permanent landmarks, surveyed boundaries or new canon claims."
+      ],
+      "prompt": "Original regional environmental composition for Northern Spine. Established terrain: high mountains, narrow passes, rock ridges. Climate: cold winters, snow at elevation, headwater precipitation. Travel: passes constrain travel, winter closures possible, mounts and foot travel dominate. No text, invented named landmarks, exact surveyed geometry or principal characters. Match Commonwealth editorial art direction; keep live page text in code. Preserve recognizable regional features on phone.",
+      "blockers": [],
+      "currentEvidence": "productions/audience-site/artwork/BATCH_02_REVIEW.md"
+    },
+    {
+      "id": "region-REG-UPPER-VALLEYS",
+      "route": "#region/REG-UPPER-VALLEYS",
+      "title": "Upper Valleys and Foothills",
+      "kind": "regional entrance",
+      "required": true,
+      "status": "NOT_GENERATED",
+      "subject": "rolling uplands, mixed forest, pasture, defensible ridges",
+      "narrativePurpose": "Introduce this established region and its connected destinations with a dedicated environmental composition.",
+      "sources": [
+        {
+          "path": "world/data/physical_zones.json",
+          "sha256": "89734f7171039f4a14614d93e1a9aaf666c05f8951d39ad42732d01aba7433bc",
+          "revision": "691007d27da604d4c3df4c48a7828fafb9916aa7"
+        }
+      ],
+      "desktop": {
+        "aspectRatio": "16:9",
+        "focalPoint": [
+          0.5,
+          0.5
+        ],
+        "composition": "Regional scene leads; live text on a separate readable surface.",
+        "sourceAspectRatio": "16:9"
+      },
+      "mobile": {
+        "aspectRatio": "16:9",
+        "focalPoint": [
+          0.5,
+          0.5
+        ],
+        "composition": "Preserve the full regional scene; live title and navigation on a separate surface."
+      },
+      "layers": [
+        "single original illustration",
+        "separate HTML text and controls",
+        "CSS scrim when required"
+      ],
+      "reviewers": {
+        "creative": "Visual Direction Lead",
+        "literary": "Author Council / Beat Writer",
+        "identity": "Librarian",
+        "geography": "Groundskeeper",
+        "implementation": "Architect / Tim Veil",
+        "independent_acceptance": "Umpire"
+      },
+      "acceptanceCriteria": [
+        "Original composition created for this specific route, not an existing memo page used as a decorative substitute.",
+        "Distinct subject and intended narrative purpose recognizable at phone size.",
+        "No words or exact labels baked into image; interface text remains selectable HTML/SVG.",
+        "Source identities, reference hashes, prompts and generated-byte hashes recorded.",
+        "Contrast and responsive crop verified in actual browser; focal subject not hidden by title/navigation.",
+        "No canon promotion inferred from generation or technical acceptance."
+      ],
+      "constraints": [
+        "Interpret only Upper Valleys and Foothills using its established terrain: rolling uplands, mixed forest, pasture, defensible ridges.",
+        "Respect regional climate: temperate, seasonal rain.",
+        "No principal characters, generated labels, invented permanent landmarks, surveyed boundaries or new canon claims."
+      ],
+      "prompt": "Original regional environmental composition for Upper Valleys and Foothills. Established terrain: rolling uplands, mixed forest, pasture, defensible ridges. Climate: temperate, seasonal rain. Travel: horse roads, ridge routes, market-town connectors. No text, invented named landmarks, exact surveyed geometry or principal characters. Match Commonwealth editorial art direction; keep live page text in code. Preserve recognizable regional features on phone.",
+      "blockers": [],
+      "currentEvidence": "productions/audience-site/artwork/BATCH_02_REVIEW.md"
+    },
+    {
+      "id": "region-REG-CENTRAL-BASIN",
+      "route": "#region/REG-CENTRAL-BASIN",
+      "title": "Central River Basin",
+      "kind": "regional entrance",
+      "required": true,
+      "status": "NOT_GENERATED",
+      "subject": "broad river valleys, fertile lowlands, bridge corridors",
+      "narrativePurpose": "Introduce this established region and its connected destinations with a dedicated environmental composition.",
+      "sources": [
+        {
+          "path": "world/data/physical_zones.json",
+          "sha256": "89734f7171039f4a14614d93e1a9aaf666c05f8951d39ad42732d01aba7433bc",
+          "revision": "691007d27da604d4c3df4c48a7828fafb9916aa7"
+        }
+      ],
+      "desktop": {
+        "aspectRatio": "16:9",
+        "focalPoint": [
+          0.5,
+          0.5
+        ],
+        "composition": "Regional scene leads; live text on a separate readable surface.",
+        "sourceAspectRatio": "16:9"
+      },
+      "mobile": {
+        "aspectRatio": "16:9",
+        "focalPoint": [
+          0.5,
+          0.5
+        ],
+        "composition": "Preserve the full regional scene; live title and navigation on a separate surface."
+      },
+      "layers": [
+        "single original illustration",
+        "separate HTML text and controls",
+        "CSS scrim when required"
+      ],
+      "reviewers": {
+        "creative": "Visual Direction Lead",
+        "literary": "Author Council / Beat Writer",
+        "identity": "Librarian",
+        "geography": "Groundskeeper",
+        "implementation": "Architect / Tim Veil",
+        "independent_acceptance": "Umpire"
+      },
+      "acceptanceCriteria": [
+        "Original composition created for this specific route, not an existing memo page used as a decorative substitute.",
+        "Distinct subject and intended narrative purpose recognizable at phone size.",
+        "No words or exact labels baked into image; interface text remains selectable HTML/SVG.",
+        "Source identities, reference hashes, prompts and generated-byte hashes recorded.",
+        "Contrast and responsive crop verified in actual browser; focal subject not hidden by title/navigation.",
+        "No canon promotion inferred from generation or technical acceptance."
+      ],
+      "constraints": [
+        "Interpret only Central River Basin using its established terrain: broad river valleys, fertile lowlands, bridge corridors.",
+        "Respect regional climate: temperate, flood-cycle influence.",
+        "No principal characters, generated labels, invented permanent landmarks, surveyed boundaries or new canon claims."
+      ],
+      "prompt": "Original regional environmental composition for Central River Basin. Established terrain: broad river valleys, fertile lowlands, bridge corridors. Climate: temperate, flood-cycle influence. Travel: navigable rivers, major roads, bridges and toll points. No text, invented named landmarks, exact surveyed geometry or principal characters. Match Commonwealth editorial art direction; keep live page text in code. Preserve recognizable regional features on phone.",
+      "blockers": [],
+      "currentEvidence": "productions/audience-site/artwork/BATCH_02_REVIEW.md"
+    },
+    {
+      "id": "region-REG-WESTERN-TABLELANDS",
+      "route": "#region/REG-WESTERN-TABLELANDS",
+      "title": "Western Tablelands",
+      "kind": "regional entrance",
+      "required": true,
+      "status": "NOT_GENERATED",
+      "subject": "open grassland, broken stone ridges, dry frontier",
+      "narrativePurpose": "Introduce this established region and its connected destinations with a dedicated environmental composition.",
+      "sources": [
+        {
+          "path": "world/data/physical_zones.json",
+          "sha256": "89734f7171039f4a14614d93e1a9aaf666c05f8951d39ad42732d01aba7433bc",
+          "revision": "691007d27da604d4c3df4c48a7828fafb9916aa7"
+        }
+      ],
+      "desktop": {
+        "aspectRatio": "16:9",
+        "focalPoint": [
+          0.5,
+          0.5
+        ],
+        "composition": "Regional scene leads; live text on a separate readable surface.",
+        "sourceAspectRatio": "16:9"
+      },
+      "mobile": {
+        "aspectRatio": "16:9",
+        "focalPoint": [
+          0.5,
+          0.5
+        ],
+        "composition": "Preserve the full regional scene; live title and navigation on a separate surface."
+      },
+      "layers": [
+        "single original illustration",
+        "separate HTML text and controls",
+        "CSS scrim when required"
+      ],
+      "reviewers": {
+        "creative": "Visual Direction Lead",
+        "literary": "Author Council / Beat Writer",
+        "identity": "Librarian",
+        "geography": "Groundskeeper",
+        "implementation": "Architect / Tim Veil",
+        "independent_acceptance": "Umpire"
+      },
+      "acceptanceCriteria": [
+        "Original composition created for this specific route, not an existing memo page used as a decorative substitute.",
+        "Distinct subject and intended narrative purpose recognizable at phone size.",
+        "No words or exact labels baked into image; interface text remains selectable HTML/SVG.",
+        "Source identities, reference hashes, prompts and generated-byte hashes recorded.",
+        "Contrast and responsive crop verified in actual browser; focal subject not hidden by title/navigation.",
+        "No canon promotion inferred from generation or technical acceptance."
+      ],
+      "constraints": [
+        "Interpret only Western Tablelands using its established terrain: open grassland, broken stone ridges, dry frontier.",
+        "Respect regional climate: drier, rain-shadow influence, large temperature swings.",
+        "No principal characters, generated labels, invented permanent landmarks, surveyed boundaries or new canon claims."
+      ],
+      "prompt": "Original regional environmental composition for Western Tablelands. Established terrain: open grassland, broken stone ridges, dry frontier. Climate: drier, rain-shadow influence, large temperature swings. Travel: long overland routes, mounted travel, dispersed settlements. No text, invented named landmarks, exact surveyed geometry or principal characters. Match Commonwealth editorial art direction; keep live page text in code. Preserve recognizable regional features on phone.",
+      "blockers": [],
+      "currentEvidence": "productions/audience-site/artwork/BATCH_02_REVIEW.md"
+    },
+    {
+      "id": "region-REG-EASTERN-STORM-COAST",
+      "route": "#region/REG-EASTERN-STORM-COAST",
+      "title": "Eastern Forest and Storm Coast",
+      "kind": "regional entrance",
+      "required": true,
+      "status": "NOT_GENERATED",
+      "subject": "dense forest, rocky approaches, storm-exposed coast",
+      "narrativePurpose": "Introduce this established region and its connected destinations with a dedicated environmental composition.",
+      "sources": [
+        {
+          "path": "world/data/physical_zones.json",
+          "sha256": "89734f7171039f4a14614d93e1a9aaf666c05f8951d39ad42732d01aba7433bc",
+          "revision": "691007d27da604d4c3df4c48a7828fafb9916aa7"
+        }
+      ],
+      "desktop": {
+        "aspectRatio": "16:9",
+        "focalPoint": [
+          0.5,
+          0.5
+        ],
+        "composition": "Regional scene leads; live text on a separate readable surface.",
+        "sourceAspectRatio": "16:9"
+      },
+      "mobile": {
+        "aspectRatio": "16:9",
+        "focalPoint": [
+          0.5,
+          0.5
+        ],
+        "composition": "Preserve the full regional scene; live title and navigation on a separate surface."
+      },
+      "layers": [
+        "single original illustration",
+        "separate HTML text and controls",
+        "CSS scrim when required"
+      ],
+      "reviewers": {
+        "creative": "Visual Direction Lead",
+        "literary": "Author Council / Beat Writer",
+        "identity": "Librarian",
+        "geography": "Groundskeeper",
+        "implementation": "Architect / Tim Veil",
+        "independent_acceptance": "Umpire"
+      },
+      "acceptanceCriteria": [
+        "Original composition created for this specific route, not an existing memo page used as a decorative substitute.",
+        "Distinct subject and intended narrative purpose recognizable at phone size.",
+        "No words or exact labels baked into image; interface text remains selectable HTML/SVG.",
+        "Source identities, reference hashes, prompts and generated-byte hashes recorded.",
+        "Contrast and responsive crop verified in actual browser; focal subject not hidden by title/navigation.",
+        "No canon promotion inferred from generation or technical acceptance."
+      ],
+      "constraints": [
+        "Interpret only Eastern Forest and Storm Coast using its established terrain: dense forest, rocky approaches, storm-exposed coast.",
+        "Respect regional climate: wet, violent coastal storms, high rainfall.",
+        "No principal characters, generated labels, invented permanent landmarks, surveyed boundaries or new canon claims."
+      ],
+      "prompt": "Original regional environmental composition for Eastern Forest and Storm Coast. Established terrain: dense forest, rocky approaches, storm-exposed coast. Climate: wet, violent coastal storms, high rainfall. Travel: forest roads, coastal navigation, weather disruption. No text, invented named landmarks, exact surveyed geometry or principal characters. Match Commonwealth editorial art direction; keep live page text in code. Preserve recognizable regional features on phone.",
+      "blockers": [],
+      "currentEvidence": "productions/audience-site/artwork/BATCH_02_REVIEW.md"
+    },
+    {
+      "id": "region-REG-SOUTHERN-WETLANDS",
+      "route": "#region/REG-SOUTHERN-WETLANDS",
+      "title": "Southern Wetlands and Delta",
+      "kind": "regional entrance",
+      "required": true,
+      "status": "NOT_GENERATED",
+      "subject": "slow rivers, cypress-like wetlands, mudflats, raised ground",
+      "narrativePurpose": "Introduce this established region and its connected destinations with a dedicated environmental composition.",
+      "sources": [
+        {
+          "path": "world/data/physical_zones.json",
+          "sha256": "89734f7171039f4a14614d93e1a9aaf666c05f8951d39ad42732d01aba7433bc",
+          "revision": "691007d27da604d4c3df4c48a7828fafb9916aa7"
+        }
+      ],
+      "desktop": {
+        "aspectRatio": "16:9",
+        "focalPoint": [
+          0.5,
+          0.5
+        ],
+        "composition": "Regional scene leads; live text on a separate readable surface.",
+        "sourceAspectRatio": "16:9"
+      },
+      "mobile": {
+        "aspectRatio": "16:9",
+        "focalPoint": [
+          0.5,
+          0.5
+        ],
+        "composition": "Preserve the full regional scene; live title and navigation on a separate surface."
+      },
+      "layers": [
+        "single original illustration",
+        "separate HTML text and controls",
+        "CSS scrim when required"
+      ],
+      "reviewers": {
+        "creative": "Visual Direction Lead",
+        "literary": "Author Council / Beat Writer",
+        "identity": "Librarian",
+        "geography": "Groundskeeper",
+        "implementation": "Architect / Tim Veil",
+        "independent_acceptance": "Umpire"
+      },
+      "acceptanceCriteria": [
+        "Original composition created for this specific route, not an existing memo page used as a decorative substitute.",
+        "Distinct subject and intended narrative purpose recognizable at phone size.",
+        "No words or exact labels baked into image; interface text remains selectable HTML/SVG.",
+        "Source identities, reference hashes, prompts and generated-byte hashes recorded.",
+        "Contrast and responsive crop verified in actual browser; focal subject not hidden by title/navigation.",
+        "No canon promotion inferred from generation or technical acceptance."
+      ],
+      "constraints": [
+        "Interpret only Southern Wetlands and Delta using its established terrain: slow rivers, cypress-like wetlands, mudflats, raised ground.",
+        "Respect regional climate: warm, humid, seasonal flooding.",
+        "No principal characters, generated labels, invented permanent landmarks, surveyed boundaries or new canon claims."
+      ],
+      "prompt": "Original regional environmental composition for Southern Wetlands and Delta. Established terrain: slow rivers, cypress-like wetlands, mudflats, raised ground. Climate: warm, humid, seasonal flooding. Travel: boats, causeways, raised roads, specialized wetland travel. No text, invented named landmarks, exact surveyed geometry or principal characters. Match Commonwealth editorial art direction; keep live page text in code. Preserve recognizable regional features on phone.",
+      "blockers": [],
+      "currentEvidence": "productions/audience-site/artwork/BATCH_02_REVIEW.md"
+    },
+    {
+      "id": "region-REG-INNER-SEA-LITTORAL",
+      "route": "#region/REG-INNER-SEA-LITTORAL",
+      "title": "Inner Sea Littoral",
+      "kind": "regional entrance",
+      "required": true,
+      "status": "NOT_GENERATED",
+      "subject": "warm ports, islands, sheltered bays, coastal terraces",
+      "narrativePurpose": "Introduce this established region and its connected destinations with a dedicated environmental composition.",
+      "sources": [
+        {
+          "path": "world/data/physical_zones.json",
+          "sha256": "89734f7171039f4a14614d93e1a9aaf666c05f8951d39ad42732d01aba7433bc",
+          "revision": "691007d27da604d4c3df4c48a7828fafb9916aa7"
+        }
+      ],
+      "desktop": {
+        "aspectRatio": "16:9",
+        "focalPoint": [
+          0.5,
+          0.5
+        ],
+        "composition": "Regional scene leads; live text on a separate readable surface.",
+        "sourceAspectRatio": "16:9"
+      },
+      "mobile": {
+        "aspectRatio": "16:9",
+        "focalPoint": [
+          0.5,
+          0.5
+        ],
+        "composition": "Preserve the full regional scene; live title and navigation on a separate surface."
+      },
+      "layers": [
+        "single original illustration",
+        "separate HTML text and controls",
+        "CSS scrim when required"
+      ],
+      "reviewers": {
+        "creative": "Visual Direction Lead",
+        "literary": "Author Council / Beat Writer",
+        "identity": "Librarian",
+        "geography": "Groundskeeper",
+        "implementation": "Architect / Tim Veil",
+        "independent_acceptance": "Umpire"
+      },
+      "acceptanceCriteria": [
+        "Original composition created for this specific route, not an existing memo page used as a decorative substitute.",
+        "Distinct subject and intended narrative purpose recognizable at phone size.",
+        "No words or exact labels baked into image; interface text remains selectable HTML/SVG.",
+        "Source identities, reference hashes, prompts and generated-byte hashes recorded.",
+        "Contrast and responsive crop verified in actual browser; focal subject not hidden by title/navigation.",
+        "No canon promotion inferred from generation or technical acceptance."
+      ],
+      "constraints": [
+        "Interpret only Inner Sea Littoral using its established terrain: warm ports, islands, sheltered bays, coastal terraces.",
+        "Respect regional climate: maritime, warm, storm spillover.",
+        "No principal characters, generated labels, invented permanent landmarks, surveyed boundaries or new canon claims."
+      ],
+      "prompt": "Original regional environmental composition for Inner Sea Littoral. Established terrain: warm ports, islands, sheltered bays, coastal terraces. Climate: maritime, warm, storm spillover. Travel: sea lanes, port roads, coastal trade. No text, invented named landmarks, exact surveyed geometry or principal characters. Match Commonwealth editorial art direction; keep live page text in code. Preserve recognizable regional features on phone.",
+      "blockers": [],
+      "currentEvidence": "productions/audience-site/artwork/BATCH_02_REVIEW.md"
     }
   ],
   "regionalCoverage": [

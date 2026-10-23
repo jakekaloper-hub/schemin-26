@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1400" width="2000" height="1400" role="img" aria-labelledby="title desc">
+<title id="title">Commonwealth atlas composition guide: 23 governed location anchors</title>
+<desc id="desc">Source-bound abstract region extents, 18 route chains, and 23 numbered locations. Not final artwork, a survey, or new canon.</desc>
+<rect width="2000" height="1400" fill="#171719"/>
+<style>text{font-family:Arial,sans-serif;fill:#eee8da}.fine{fill:#bfb8aa;font-size:18px}.small{font-size:14px}.region-label{font-size:17px;font-weight:bold;paint-order:stroke;stroke:#171719;stroke-width:4;stroke-linejoin:round}.point{fill:#17251f;stroke:#fff0bd;stroke-width:2}.route{fill:none;stroke:#f1d49b;stroke-width:2;stroke-dasharray:5 5}.anchor-label{font-size:12px;paint-order:stroke;stroke:#171719;stroke-width:3}.pending{fill:#e6b985}</style>
+<text x="40" y="58" font-size="34">SCHEMIN — ATLAS COMPOSITION GUIDE</text>
+<text x="40" y="98" class="fine">Existing geography first. All 23 anchors require individual source, biome, landmark, route and phone review.</text>
+<text x="40" y="134" class="fine">ABSTRACT / NON-METRIC • NOT FINAL ART • NO CANON PROMOTION • ALL VISUAL REVIEWS PENDING</text>
+<text x="40" y="177" class="fine">Map uses the exact audience-site projection. Region extents overlap; they are not coastlines or land boundaries.</text>
+<g id="map-frame" transform="translate(40 220) scale(1.25)">
+<rect width="1000" height="700" fill="#262824" stroke="#dfbf78"/>
+<g id="region-extents">
+<rect data-region="REG-NORTHERN-SPINE" x="295.0" y="70.0" width="369.0" height="162.40000000000003" fill="#8ea0b4" fill-opacity=".18" stroke="#8ea0b4" stroke-dasharray="4 3"><title>Northern Spine</title></rect>
+<rect data-region="REG-UPPER-VALLEYS" x="254.0" y="197.60000000000002" width="451.0" height="133.39999999999998" fill="#b1bd8b" fill-opacity=".18" stroke="#b1bd8b" stroke-dasharray="4 3"><title>Upper Valleys and Foothills</title></rect>
+<rect data-region="REG-CENTRAL-BASIN" x="295.0" y="313.6" width="385.4" height="162.39999999999998" fill="#c4bc74" fill-opacity=".18" stroke="#c4bc74" stroke-dasharray="4 3"><title>Central River Basin</title></rect>
+<rect data-region="REG-WESTERN-TABLELANDS" x="90.0" y="232.40000000000003" width="287.0" height="272.59999999999997" fill="#c7996a" fill-opacity=".18" stroke="#c7996a" stroke-dasharray="4 3"><title>Western Tablelands</title></rect>
+<rect data-region="REG-EASTERN-STORM-COAST" x="647.5999999999999" y="139.60000000000002" width="262.4" height="365.4" fill="#719e8e" fill-opacity=".18" stroke="#719e8e" stroke-dasharray="4 3"><title>Eastern Forest and Storm Coast</title></rect>
+<rect data-region="REG-SOUTHERN-WETLANDS" x="254.0" y="464.4" width="426.4" height="185.60000000000002" fill="#6b9d9c" fill-opacity=".18" stroke="#6b9d9c" stroke-dasharray="4 3"><title>Southern Wetlands and Delta</title></rect>
+<rect data-region="REG-INNER-SEA-LITTORAL" x="541.0" y="505.0" width="368.9999999999999" height="145.0" fill="#8ab5c5" fill-opacity=".18" stroke="#8ab5c5" stroke-dasharray="4 3"><title>Inner Sea Littoral</title></rect>
+</g>
+<g id="route-chains">
+<polyline data-route="ROUTE-EASTERN-ASCENT" points="655.8,249.8 614.8,267.2" class="route"><title>Eastern Ascent</title></polyline>
+<polyline data-route="ROUTE-HEARTHROAD" points="508.2,307.8 393.4,290.40000000000003 614.8,267.2" class="route"><title>Hearthroad</title></polyline>
+<polyline data-route="ROUTE-DELTA-CAUSEWAY" points="434.4,557.2 418.0,377.40000000000003 557.4,510.8" class="route"><title>Delta Causeway</title></polyline>
+<polyline data-route="ROUTE-JACKSON-LEVEE" points="557.4,510.8 499.99999999999994,400.6" class="route"><title>Jackson Levee Road</title></polyline>
+<polyline data-route="ROUTE-STORM-COAST" points="778.8,400.6 770.5999999999999,534.0" class="route"><title>Storm Coast Road</title></polyline>
+<polyline data-route="ROUTE-INNER-SEA-QUAY" points="729.5999999999999,545.6 770.5999999999999,534.0" class="route"><title>Inner Sea Quay Road</title></polyline>
+<polyline data-route="ROUTE-RAIN-ESCARPMENT" points="705.0,296.2 614.8,267.2" class="route"><title>Rain Escarpment Road</title></polyline>
+<polyline data-route="ROUTE-FALLS-PATH" points="352.4,481.8 434.4,557.2" class="route"><title>Falls Path</title></polyline>
+<polyline data-route="ROUTE-WESTERN-RANGE" points="213.0,389.0 499.99999999999994,400.6" class="route"><title>Western Range Road</title></polyline>
+<polyline data-route="ROUTE-BLACK-CLIFF" points="688.5999999999999,209.2 655.8,249.8" class="route"><title>Black Cliff Road</title></polyline>
+<polyline data-route="ROUTE-BASIN-MARKET" points="499.99999999999994,400.6 532.8,418.0 475.4,447.0 418.0,377.40000000000003 549.1999999999999,377.40000000000003" class="route"><title>Basin Market Road</title></polyline>
+<polyline data-route="ROUTE-NORTHERN-PASS" points="458.99999999999994,174.40000000000003 508.2,307.8" class="route"><title>Northern Pass</title></polyline>
+<polyline data-route="ROUTE-DK-HIGHLAND-LINK" points="483.59999999999997,255.60000000000002 508.2,307.8" class="route"><title>Highland Stronghold Road</title></polyline>
+<polyline data-route="ROUTE-TDS-CHILI-SHARED-MARCH" points="352.4,481.8 319.59999999999997,406.4 213.0,389.0" class="route"><title>Shared March Road</title></polyline>
+<polyline data-route="ROUTE-COMPACT-GROUNDS" points="549.1999999999999,377.40000000000003 582.0,383.2" class="route"><title>Compact Grounds Road</title></polyline>
+<polyline data-route="ROUTE-UPPER-BASIN-CONNECTOR" points="614.8,267.2 549.1999999999999,377.40000000000003" class="route"><title>Upper Basin Connector</title></polyline>
+<polyline data-route="ROUTE-PORT-BASIN-CONNECTOR" points="770.5999999999999,534.0 549.1999999999999,377.40000000000003" class="route"><title>Port-to-Basin Road</title></polyline>
+<polyline data-route="ROUTE-ARCHIVE-CHAMBER" points="541.0,360.0 549.1999999999999,377.40000000000003" class="route"><title>Archive–Chamber Processional</title></polyline>
+</g>
+<g id="anchor-points">
+<g data-location="LOC-TRADE-JEDI-MOUNTAIN-BASE" transform="translate(655.8 249.8)"><title>Trade Jedi Mountain Base</title><circle r="15" class="point"/><text text-anchor="middle" y="5" font-size="14" font-weight="bold">1</text></g>
+<g data-location="LOC-MUD-DOGS-SWAMP" transform="translate(434.4 557.2)"><title>Mud Dogs Swamp</title><circle r="15" class="point"/><text text-anchor="middle" y="5" font-size="14" font-weight="bold">2</text></g>
+<g data-location="LOC-COUNTRY-CLUB-JACKSON" transform="translate(557.4 510.8)"><title>Country Club of Jackson</title><circle r="15" class="point"/><text text-anchor="middle" y="5" font-size="14" font-weight="bold">3</text></g>
+<g data-location="LOC-ARSENAL-BARBERSHOP" transform="translate(508.2 307.8)"><title>Arsenal Barbershop</title><circle r="15" class="point"/><text text-anchor="middle" y="5" font-size="14" font-weight="bold">4</text></g>
+<g data-location="LOC-STORM-BOWL" transform="translate(778.8 400.6)"><title>Storm Bowl</title><circle r="15" class="point"/><text text-anchor="middle" y="5" font-size="14" font-weight="bold">5</text></g>
+<g data-location="LOC-LLC-BOARDROOM" transform="translate(729.5999999999999 545.6)"><title>LLC Mercantile Boardroom</title><circle r="15" class="point"/><text text-anchor="middle" y="5" font-size="14" font-weight="bold">6</text></g>
+<g data-location="LOC-RED-RUINS" transform="translate(705.0 296.2)"><title>Red Leopard Ruins</title><circle r="15" class="point"/><text text-anchor="middle" y="5" font-size="14" font-weight="bold">7</text></g>
+<g data-location="LOC-TDS-WATERFALL-TEMPLE" transform="translate(352.4 481.8)"><title>Podium Shadow Waterfall Temple</title><circle r="15" class="point"/><text text-anchor="middle" y="5" font-size="14" font-weight="bold">8</text></g>
+<g data-location="LOC-CHILI-STABLE" transform="translate(213.0 389.0)"><title>Chili Outlaw Stable</title><circle r="15" class="point"/><text text-anchor="middle" y="5" font-size="14" font-weight="bold">9</text></g>
+<g data-location="LOC-BELT-KEEPER-KEEP" transform="translate(688.5999999999999 209.2)"><title>Belt Keeper Rune Keep</title><circle r="15" class="point"/><text text-anchor="middle" y="5" font-size="14" font-weight="bold">10</text></g>
+<g data-location="LOC-SLOB-FOOTHILL-CAMP" transform="translate(393.4 290.40000000000003)"><title>Slob Foothill Camp</title><circle r="15" class="point"/><text text-anchor="middle" y="5" font-size="14" font-weight="bold">11</text></g>
+<g data-location="LOC-CHINS-ROAD-COMMONS" transform="translate(499.99999999999994 400.6)"><title>People&#x27;s Champ Road Commons</title><circle r="15" class="point"/><text text-anchor="middle" y="5" font-size="14" font-weight="bold">12</text></g>
+<g data-location="LOC-LEAGUE-CHAMBER" transform="translate(549.1999999999999 377.40000000000003)"><title>League Chamber</title><circle r="15" class="point"/><text text-anchor="middle" y="5" font-size="14" font-weight="bold">13</text></g>
+<g data-location="LOC-PITTSYS-BOOK" transform="translate(532.8 418.0)"><title>Pittsy&#x27;s Book</title><circle r="15" class="point"/><text text-anchor="middle" y="5" font-size="14" font-weight="bold">14</text></g>
+<g data-location="LOC-BRIDGE-MOUNTAIN-LAKE" transform="translate(614.8 267.2)"><title>Bridge at the Mountain Lake</title><circle r="15" class="point"/><text text-anchor="middle" y="5" font-size="14" font-weight="bold">15</text></g>
+<g data-location="LOC-DK-MUD-HILL" transform="translate(418.0 377.40000000000003)"><title>Mire Hill Battlefield</title><circle r="15" class="point"/><text text-anchor="middle" y="5" font-size="14" font-weight="bold">16</text></g>
+<g data-location="LOC-RED-SLOB-ALPINE-ROUTE" transform="translate(458.99999999999994 174.40000000000003)"><title>Alpine Wager Route</title><circle r="15" class="point"/><text text-anchor="middle" y="5" font-size="14" font-weight="bold">17</text></g>
+<g data-location="LOC-SOUTHERN-SPEEDWAY" transform="translate(475.4 447.0)"><title>Southern Speedway</title><circle r="15" class="point"/><text text-anchor="middle" y="5" font-size="14" font-weight="bold">18</text></g>
+<g data-location="LOC-LLC-STORM-CITY" transform="translate(770.5999999999999 534.0)"><title>LLC Port City Storm District</title><circle r="15" class="point"/><text text-anchor="middle" y="5" font-size="14" font-weight="bold">19</text></g>
+<g data-location="LOC-DK-HIGHLAND-STRONGHOLD" transform="translate(483.59999999999997 255.60000000000002)"><title>D0nkey K0ng Highland Stronghold</title><circle r="15" class="point"/><text text-anchor="middle" y="5" font-size="14" font-weight="bold">20</text></g>
+<g data-location="LOC-TDS-CHILI-SHARED-MARCH" transform="translate(319.59999999999997 406.4)"><title>TDS–Chili Shared March</title><circle r="15" class="point"/><text text-anchor="middle" y="5" font-size="14" font-weight="bold">21</text></g>
+<g data-location="LOC-COMPACT-NEUTRAL-GROUNDS" transform="translate(582.0 383.2)"><title>Compact Neutral Grounds</title><circle r="15" class="point"/><text text-anchor="middle" y="5" font-size="14" font-weight="bold">22</text></g>
+<g data-location="LOC-LEAGUE-ARCHIVE" transform="translate(541.0 360.0)"><title>League Archive</title><circle r="15" class="point"/><text text-anchor="middle" y="5" font-size="14" font-weight="bold">23</text></g>
+</g>
+<g id="optional-inline-labels" display="none">
+<text x="674.8" y="253.8" class="anchor-label">Trade Jedi Mountain Base</text>
+<text x="453.4" y="561.2" class="anchor-label">Mud Dogs Swamp</text>
+<text x="576.4" y="514.8" class="anchor-label">Country Club of Jackson</text>
+<text x="527.2" y="311.8" class="anchor-label">Arsenal Barbershop</text>
+<text x="797.8" y="404.6" class="anchor-label">Storm Bowl</text>
+<text x="748.5999999999999" y="549.6" class="anchor-label">LLC Mercantile Boardroom</text>
+<text x="724.0" y="300.2" class="anchor-label">Red Leopard Ruins</text>
+<text x="371.4" y="485.8" class="anchor-label">Podium Shadow Waterfall Temple</text>
+<text x="232.0" y="393.0" class="anchor-label">Chili Outlaw Stable</text>
+<text x="707.5999999999999" y="213.2" class="anchor-label">Belt Keeper Rune Keep</text>
+<text x="412.4" y="294.40000000000003" class="anchor-label">Slob Foothill Camp</text>
+<text x="519.0" y="404.6" class="anchor-label">People&#x27;s Champ Road Commons</text>
+<text x="568.1999999999999" y="381.40000000000003" class="anchor-label">League Chamber</text>
+<text x="551.8" y="422.0" class="anchor-label">Pittsy&#x27;s Book</text>
+<text x="633.8" y="271.2" class="anchor-label">Bridge at the Mountain Lake</text>
+<text x="437.0" y="381.40000000000003" class="anchor-label">Mire Hill Battlefield</text>
+<text x="477.99999999999994" y="178.40000000000003" class="anchor-label">Alpine Wager Route</text>
+<text x="494.4" y="451.0" class="anchor-label">Southern Speedway</text>
+<text x="789.5999999999999" y="538.0" class="anchor-label">LLC Port City Storm District</text>
+<text x="502.59999999999997" y="259.6" class="anchor-label">D0nkey K0ng Highland Stronghold</text>
+<text x="338.59999999999997" y="410.4" class="anchor-label">TDS–Chili Shared March</text>
+<text x="601.0" y="387.2" class="anchor-label">Compact Neutral Grounds</text>
+<text x="560.0" y="364.0" class="anchor-label">League Archive</text>
+</g>
+<text x="945" y="42" font-size="24">N ↑</text>
+</g>
+<g id="anchor-register">
+<text x="1340" y="200" font-size="24">FIXED LOCATION REGISTER</text>
+<text x="1340" y="239" font-size="17">01 · Trade Jedi Mountain Base</text><text x="1379" y="258" class="small" fill="#bfb8aa">Upper Valleys and Foothills</text>
+<text x="1340" y="286" font-size="17">02 · Mud Dogs Swamp</text><text x="1379" y="305" class="small" fill="#bfb8aa">Southern Wetlands and Delta</text>
+<text x="1340" y="333" font-size="17">03 · Country Club of Jackson</text><text x="1379" y="352" class="small" fill="#bfb8aa">Southern Wetlands and Delta</text>
+<text x="1340" y="380" font-size="17">04 · Arsenal Barbershop</text><text x="1379" y="399" class="small" fill="#bfb8aa">Upper Valleys and Foothills</text>
+<text x="1340" y="427" font-size="17">05 · Storm Bowl</text><text x="1379" y="446" class="small" fill="#bfb8aa">Eastern Forest and Storm Coast</text>
+<text x="1340" y="474" font-size="17">06 · LLC Mercantile Boardroom</text><text x="1379" y="493" class="small" fill="#bfb8aa">Inner Sea Littoral</text>
+<text x="1340" y="521" font-size="17">07 · Red Leopard Ruins</text><text x="1379" y="540" class="small" fill="#bfb8aa">Eastern Forest and Storm Coast</text>
+<text x="1340" y="568" font-size="17">08 · Podium Shadow Waterfall Temple</text><text x="1379" y="587" class="small" fill="#bfb8aa">Southern Wetlands and Delta</text>
+<text x="1340" y="615" font-size="17">09 · Chili Outlaw Stable</text><text x="1379" y="634" class="small" fill="#bfb8aa">Western Tablelands</text>
+<text x="1340" y="662" font-size="17">10 · Belt Keeper Rune Keep</text><text x="1379" y="681" class="small" fill="#bfb8aa">Eastern Forest and Storm Coast</text>
+<text x="1340" y="709" font-size="17">11 · Slob Foothill Camp</text><text x="1379" y="728" class="small" fill="#bfb8aa">Upper Valleys and Foothills</text>
+<text x="1340" y="756" font-size="17">12 · People&#x27;s Champ Road Commons</text><text x="1379" y="775" class="small" fill="#bfb8aa">Central River Basin</text>
+<text x="1340" y="803" font-size="17">13 · League Chamber</text><text x="1379" y="822" class="small" fill="#bfb8aa">Central River Basin</text>
+<text x="1340" y="850" font-size="17">14 · Pittsy&#x27;s Book</text><text x="1379" y="869" class="small" fill="#bfb8aa">Central River Basin</text>
+<text x="1340" y="897" font-size="17">15 · Bridge at the Mountain Lake</text><text x="1379" y="916" class="small" fill="#bfb8aa">Upper Valleys and Foothills</text>
+<text x="1340" y="944" font-size="17">16 · Mire Hill Battlefield</text><text x="1379" y="963" class="small" fill="#bfb8aa">Central River Basin</text>
+<text x="1340" y="991" font-size="17">17 · Alpine Wager Route</text><text x="1379" y="1010" class="small" fill="#bfb8aa">Northern Spine</text>
+<text x="1340" y="1038" font-size="17">18 · Southern Speedway</text><text x="1379" y="1057" class="small" fill="#bfb8aa">Central River Basin</text>
+<text x="1340" y="1085" font-size="17">19 · LLC Port City Storm District</text><text x="1379" y="1104" class="small" fill="#bfb8aa">Inner Sea Littoral</text>
+<text x="1340" y="1132" font-size="17">20 · D0nkey K0ng Highland Stronghold</text><text x="1379" y="1151" class="small" fill="#bfb8aa">Upper Valleys and Foothills</text>
+<text x="1340" y="1179" font-size="17">21 · TDS–Chili Shared March</text><text x="1379" y="1198" class="small" fill="#bfb8aa">Western Tablelands</text>
+<text x="1340" y="1226" font-size="17">22 · Compact Neutral Grounds</text><text x="1379" y="1245" class="small" fill="#bfb8aa">Central River Basin</text>
+<text x="1340" y="1273" font-size="17">23 · League Archive</text><text x="1379" y="1292" class="small" fill="#bfb8aa">Central River Basin</text>
+</g>
+<g id="region-register">
+<rect x="40" y="1125" width="16" height="16" fill="#8ea0b4"/><text x="69" y="1140" font-size="18">Northern Spine</text>
+<rect x="40" y="1155" width="16" height="16" fill="#b1bd8b"/><text x="69" y="1170" font-size="18">Upper Valleys and Foothills</text>
+<rect x="40" y="1185" width="16" height="16" fill="#c4bc74"/><text x="69" y="1200" font-size="18">Central River Basin</text>
+<rect x="40" y="1215" width="16" height="16" fill="#c7996a"/><text x="69" y="1230" font-size="18">Western Tablelands</text>
+<rect x="40" y="1245" width="16" height="16" fill="#719e8e"/><text x="69" y="1260" font-size="18">Eastern Forest and Storm Coast</text>
+<rect x="40" y="1275" width="16" height="16" fill="#6b9d9c"/><text x="69" y="1290" font-size="18">Southern Wetlands and Delta</text>
+<rect x="40" y="1305" width="16" height="16" fill="#8ab5c5"/><text x="69" y="1320" font-size="18">Inner Sea Littoral</text>
+</g>
+<text x="700" y="1160" class="fine">23 anchors • 18 route chains • 7 regional extents</text>
+<text x="700" y="1200" class="fine">JSON matrix contains landmarks, regional environments,</text>
+<text x="700" y="1230" class="fine">ordinary activities, authoritative state and source hashes.</text>
+<text x="700" y="1280" class="pending" font-size="19">No painted output passes by resemblance alone.</text>
+<text x="40" y="1370" class="fine">Toggle named SVG groups in a vector editor. Optional inline labels are hidden to avoid implying finished label placement.</text>
+</svg>

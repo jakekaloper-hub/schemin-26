@@ -66,10 +66,17 @@ def load_artwork(output, source_dir=None):
     assets = {}
     target.mkdir(parents=True, exist_ok=True)
     location_ids = {item['id'] for item in json.loads((ROOT / 'world/data/locations.json').read_text())['locations']}
-    allowed_slots = {'home', 'atlas', 'characters', 'memos', 'library', 'read-prologue', 'read-chapter-1', 'read-chapter-2', 'read-chapter-3'} | location_ids | {f'memo-{week}' for week in range(2, 7)}
+    region_slots = {'region-' + item['id'] for item in json.loads((ROOT / 'world/data/physical_zones.json').read_text())['regions']}
+    allowed_slots = region_slots | {'home', 'atlas', 'characters', 'memos', 'library', 'read-prologue', 'read-chapter-1', 'read-chapter-2', 'read-chapter-3'} | location_ids | {f'memo-{week}' for week in range(2, 7)}
     for asset_id, record in manifest['assets'].items():
         if asset_id not in allowed_slots:
             raise ValueError(f'Unsupported or character-gated artwork slot: {asset_id}')
+        uses = record.get('allowedUses', ['page'])
+        if not isinstance(uses, list) or not uses or not all(use in {'page', 'masthead', 'destination'} for use in uses):
+            raise ValueError(f'Atlas or artwork use is not eligible: {asset_id}')
+        if asset_id == 'atlas' and uses != ['masthead']:
+            raise ValueError('Atlas panorama is approved for masthead use only; positional acceptance remains open')
+        record = dict(record, allowedUses=uses)
         if record.get('subjectClass') not in {'environment', 'editorial'}:
             raise ValueError(f'Artwork subject class is not eligible: {asset_id}')
         if record.get('status') != 'REVIEWED_PRESENTATION':
@@ -168,6 +175,7 @@ def build_catalog(output=None, render=True, released_source_dir=None):
             'sha256': person['crop_sha256'], 'source': person['appearance_delta'],
             'sourceUrl': REPO + person['appearance_delta'],
         })
+    world_state = read('world/data/current_world_state.json')
     locations = read('world/data/locations.json')['locations']
     for location in locations:
         location['x'], location['y'] = location['abstract_position']
@@ -179,8 +187,16 @@ def build_catalog(output=None, render=True, released_source_dir=None):
             location['environment'] = card.get('physical_zone', {})
             location['accessRoutes'] = card.get('access_routes', [])
             location['features'] = card.get('addressable_feature_handles', [])
-            location['worldState'] = card.get('current_world_state', [])
+            location['worldState'] = []
             location['baseState'] = card.get('base_location_state', [])
+        location['worldState'] = world_state.get('locations', {}).get(location['id'], [])
+        location['worldStateAsOf'] = world_state.get('as_of')
+        location['worldStateSourceUrl'] = REPO + 'world/data/current_world_state.json'
+        packet_path = f"world/production/visual-packets/{location['id']}.json"
+        if (ROOT / packet_path).is_file():
+            packet = read(packet_path)
+            location['ordinaryActivities'] = packet.get('world', {}).get('ordinary_inhabitants', [])
+            location['activitySourceUrl'] = REPO + packet_path
         location['source'] = 'world/data/locations.json'
         location['sourceUrl'] = REPO + 'world/data/locations.json'
     routes = read('world/data/routes.json')['routes']

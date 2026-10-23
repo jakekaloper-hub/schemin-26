@@ -6,3 +6,5 @@ export function clampPage(value,count){const n=Number(value);return Math.max(1,M
 export function loadPreference(key,fallback,storage){try{const raw=(storage||localStorage).getItem('schemin-experience:'+key);return raw===null?fallback:JSON.parse(raw);}catch{return fallback;}}
 export function savePreference(key,value,storage){try{(storage||localStorage).setItem('schemin-experience:'+key,JSON.stringify(value));}catch{/* Browsing never depends on storage. */}}
 export function relatedRecords(records,field,id){return records.filter(record=>Array.isArray(record[field])&&record[field].includes(id));}
+export function routeNeighbors(route,id){const stops=[route.from,...(route.via_location_ids||(route.via_location_id?[route.via_location_id]:[])),route.to];const i=stops.indexOf(id);return i<0?[]:[stops[i-1],stops[i+1]].filter(Boolean);}
+export function artForUse(assets,id,use='page'){const a=assets?.[id];return a?.status==='REVIEWED_PRESENTATION'&&(a.allowedUses||['page']).includes(use)?a:null;}

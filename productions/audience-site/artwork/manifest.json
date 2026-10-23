@@ -8,7 +8,10 @@
       "subjectClass": "environment",
       "sha256": "5c292438c1dcc2bcd8c74345e8a27057d8b19169fa3360855f2d568a12915cd6",
       "focal": "50% 50%",
-      "usage": "non-positional overview only; marker alignment rejected"
+      "usage": "non-positional overview only; marker alignment rejected",
+      "allowedUses": [
+        "masthead"
+      ]
     },
     "home": {
       "file": "commonwealth-entrance-v1.webp",

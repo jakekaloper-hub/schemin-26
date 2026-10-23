@@ -50,6 +50,22 @@ class ArtworkCatalogTests(unittest.TestCase):
         self.assertEqual(catalog.load_artwork(self.output, self.source)['assets'], {})
         self.assertFalse((self.output / 'artwork').exists())
 
+    def test_known_regional_artwork_can_publish(self):
+        self.manifest({'region-REG-UPPER-VALLEYS': self.record})
+        result = catalog.load_artwork(self.output, self.source)
+        self.assertIn('region-REG-UPPER-VALLEYS', result['assets'])
+
+    def test_unknown_regional_slot_is_rejected(self):
+        self.manifest({'region-REG-INVENTED': self.record})
+        with self.assertRaisesRegex(ValueError, 'Unsupported'):
+            catalog.load_artwork(self.output, self.source)
+
+    def test_unreviewed_atlas_cannot_claim_positional_use(self):
+        self.record['allowedUses'] = ['positional']
+        self.manifest({'atlas': self.record})
+        with self.assertRaisesRegex(ValueError, 'Atlas'):
+            catalog.load_artwork(self.output, self.source)
+
     def test_wrong_hash_fails_closed(self):
         self.record['sha256'] = '0' * 64
         self.manifest({'home': self.record})

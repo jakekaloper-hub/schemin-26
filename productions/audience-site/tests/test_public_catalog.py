@@ -38,6 +38,17 @@ class CatalogTests(unittest.TestCase):
                 self.assertEqual(location['accessRoutes'], card['access_routes'])
                 self.assertEqual(location['features'], card['addressable_feature_handles'])
 
+    def test_latest_world_state_retains_contested_hill_qualifiers(self):
+        source = json.loads((catalog.ROOT / 'world/data/current_world_state.json').read_text())
+        hill = next(x for x in self.data['locations'] if x['id'] == 'LOC-DK-MUD-HILL')
+        self.assertEqual(hill['worldState'], source['locations'][hill['id']])
+        self.assertEqual(hill['worldStateAsOf'], source['as_of'])
+
+    def test_living_homeland_activity_is_projected_from_source_packet(self):
+        source = json.loads((catalog.ROOT / 'world/production/visual-packets/LOC-TRADE-JEDI-MOUNTAIN-BASE.json').read_text())
+        home = next(x for x in self.data['locations'] if x['id'] == 'LOC-TRADE-JEDI-MOUNTAIN-BASE')
+        self.assertEqual(home['ordinaryActivities'], source['world']['ordinary_inhabitants'])
+
     def test_relationships_resolve(self):
         locations = {x['id'] for x in self.data['locations']}
         self.assertTrue(all(x['locationId'] in locations for x in self.data['characters']))
