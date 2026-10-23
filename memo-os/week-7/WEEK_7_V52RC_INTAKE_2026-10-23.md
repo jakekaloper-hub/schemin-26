@@ -9,7 +9,7 @@ Owner intent: continue weekly memo production with ESPN truth-plane acquisition,
 Assignment class: periodic data intake / drift review / governance coordination.
 Required evidence: native raw acquisition receipt; structural, semantic and freshness validation; baseline diff; Release Steward review; canonical snapshot and independent Fact Lock.
 Execution assignment: ECS → V5.1 League Data Platform acquisition (read-only) → DATA_RELEASE_STEWARD (pending ACK) → independent FACT QA → Domain Council → editorial/character/design → independent QA/release.
-**Dependency graph:** data acquisition READY/RUNNING → provider-normalized payload HANDOFF_READY → native raw + semantic validation BLOCKED → steward review WAITING → CANONICAL_SNAPSHOT_LOCK BLOCKED → FACT_LOCK BLOCKED → STORY_LOCK WAITING → CHARACTER_PACKET_LOCK WAITING → ART_LOCK WAITING → COPY_LOCK WAITING → PAGE_LOCK WAITING → RELEASE_DATA_FREEZE WAITING → final PDF / Blind Release Audit BLOCKED.
+**Dependency graph:** data acquisition observed / provider-normalized evidence recorded → Steward assignment ASSIGNED (no receiver ACK) → native raw + semantic validation BLOCKED → steward review WAITING → CANONICAL_SNAPSHOT_LOCK BLOCKED → FACT_LOCK BLOCKED → STORY_LOCK WAITING → CHARACTER_PACKET_LOCK WAITING → ART_LOCK WAITING → COPY_LOCK WAITING → PAGE_LOCK WAITING → RELEASE_DATA_FREEZE WAITING → final PDF / Blind Release Audit BLOCKED.
 Only the acquisition/intake portions were executed here; no independent agent ACK has been observed. No producer declaration counts as PASSED.
 
 ## 2. Read-only ESPN evidence and preliminary checks
@@ -58,7 +58,7 @@ handoff:
   artifact_version: 1
   source_authority: ESPN_via_authenticated_Flaim_adapter
   source_snapshot: PROVISIONAL_W07_20261023
-  status: HANDOFF_READY
+  status: ASSIGNED
   verified_facts: [six_week7_matchups_returned, twelve_standings_returned, thirty_three_week7_transaction_rows_returned]
   interpretations: [week7_live_scores_only, week6_results_readback_unchanged]
   assumptions: []
@@ -72,7 +72,7 @@ handoff:
   next_gate: CANONICAL_SNAPSHOT_LOCK
 ```
 
-**ACK lifecycle:** ASSIGNED → ACKNOWLEDGED → RUNNING → HANDOFF_READY (**outbound only**); RECEIVED and VALIDATED are NOT claimed.
+**ACK lifecycle:** Current state is **ASSIGNED**; no receiver ACK observed. The envelope and provider-normalized evidence are prepared, but ACKNOWLEDGED, receiver RUNNING, HANDOFF_READY, RECEIVED and VALIDATED are NOT claimed. This is a staged assignment, not a completed consequential handoff.
 **Failure route:** `MISSING_PROVENANCE` / `MISSING_DEPENDENCY` → Data Platform; `QA_NOT_PERFORMED` → independent reviewer; `MERCER_FIREWALL_VIOLATION` → critical release block and SUPERSEDE contaminated downstream artifacts.
 
 ## 5. Release governance and next work
@@ -80,7 +80,7 @@ handoff:
 - Character-reference [PR #223](https://github.com/jakekaloper-hub/schemin-26/pull/223) is also DRAFT, with binary/attachment/subject-binding QA incomplete. No new imagery or page lock authorized.
 - Domain Council must evaluate league facts, character/Atlas continuity, story originality and orchestration risk **before Story Budget Lock**. Fan-out/fan-in cannot bypass missing gates.
 - COLLAB-001 through COLLAB-012, SCK-01 through SCK-04, Week 2 controlled acceptance, V5/V5.1 criteria, owner visual review, independent mobile/final-PDF QA, and Blind Release Audit: **not executed/NOT PASSED in this run**.
-- Communication KPI audit: one ECS→Steward outbound artifact prepared; authenticated receiver ACKs = 0; rejected handoffs = 0 observed (not proof of none); owner interventions this run = 0 observed; **Jake Intervention Rate = NOT MEASURABLE** until eligible task denominator and organization-level event telemetry are captured.
+- Communication KPI audit: one ECS→Steward assignment packet staged; authenticated receiver ACKs = 0; rejected handoffs = 0 observed (not proof of none); owner interventions this run = 0 observed; **Jake Intervention Rate = NOT MEASURABLE** until eligible task denominator and organization-level event telemetry are captured.
 - Standardized event recorded by this intake: `RELEASE_BLOCKED` (record only; no live event-bus dispatch claimed). No `FACT_LOCKED` or `RELEASE_CERTIFIED` event emitted.
 - Scoped-context/benchmark isolation retained. Jack Mercer intentionally excluded. No Mercer-derived intelligence incorporated.
 
