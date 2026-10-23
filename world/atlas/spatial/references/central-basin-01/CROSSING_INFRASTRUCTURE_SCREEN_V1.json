@@ -1,0 +1,662 @@
+{
+  "status": "SYNTHETIC_INFRASTRUCTURE_FEASIBILITY_SCREEN",
+  "results": [
+    {
+      "variant": "baseline",
+      "corridor_radius_cells": 0,
+      "segments": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "peak_grade_straight_candidate": 0.006222,
+          "corridor_contacts_high_penalty": 0,
+          "candidate_treatments": [
+            "NO_DETECTED_CROSSING",
+            "REROUTE"
+          ],
+          "classification": "NO_CROSSING_DETECTED_AT_THIS_ASSUMPTION",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "NOT_TRIGGERED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "peak_grade_straight_candidate": 0.004369,
+          "corridor_contacts_high_penalty": 0,
+          "candidate_treatments": [
+            "NO_DETECTED_CROSSING",
+            "REROUTE"
+          ],
+          "classification": "NO_CROSSING_DETECTED_AT_THIS_ASSUMPTION",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "NOT_TRIGGERED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "peak_grade_straight_candidate": 0.006054,
+          "corridor_contacts_high_penalty": 0,
+          "candidate_treatments": [
+            "NO_DETECTED_CROSSING",
+            "REROUTE"
+          ],
+          "classification": "NO_CROSSING_DETECTED_AT_THIS_ASSUMPTION",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "NOT_TRIGGERED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "peak_grade_straight_candidate": 0.004536,
+          "corridor_contacts_high_penalty": 0,
+          "candidate_treatments": [
+            "NO_DETECTED_CROSSING",
+            "REROUTE"
+          ],
+          "classification": "NO_CROSSING_DETECTED_AT_THIS_ASSUMPTION",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "NOT_TRIGGERED",
+          "historical_approval": false
+        }
+      ]
+    },
+    {
+      "variant": "baseline",
+      "corridor_radius_cells": 1,
+      "segments": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "peak_grade_straight_candidate": 0.006222,
+          "corridor_contacts_high_penalty": 0,
+          "candidate_treatments": [
+            "NO_DETECTED_CROSSING",
+            "REROUTE"
+          ],
+          "classification": "NO_CROSSING_DETECTED_AT_THIS_ASSUMPTION",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "NOT_TRIGGERED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "peak_grade_straight_candidate": 0.004369,
+          "corridor_contacts_high_penalty": 0,
+          "candidate_treatments": [
+            "NO_DETECTED_CROSSING",
+            "REROUTE"
+          ],
+          "classification": "NO_CROSSING_DETECTED_AT_THIS_ASSUMPTION",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "NOT_TRIGGERED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "peak_grade_straight_candidate": 0.006054,
+          "corridor_contacts_high_penalty": 0,
+          "candidate_treatments": [
+            "NO_DETECTED_CROSSING",
+            "REROUTE"
+          ],
+          "classification": "NO_CROSSING_DETECTED_AT_THIS_ASSUMPTION",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "NOT_TRIGGERED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "peak_grade_straight_candidate": 0.004536,
+          "corridor_contacts_high_penalty": 0,
+          "candidate_treatments": [
+            "NO_DETECTED_CROSSING",
+            "REROUTE"
+          ],
+          "classification": "NO_CROSSING_DETECTED_AT_THIS_ASSUMPTION",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "NOT_TRIGGERED",
+          "historical_approval": false
+        }
+      ]
+    },
+    {
+      "variant": "baseline",
+      "corridor_radius_cells": 2,
+      "segments": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "peak_grade_straight_candidate": 0.006222,
+          "corridor_contacts_high_penalty": 1,
+          "candidate_treatments": [
+            "BRIDGE",
+            "FORD",
+            "CAUSEWAY",
+            "REROUTE"
+          ],
+          "classification": "CROSSING_REVIEW_REQUIRED",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "REQUIRED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "peak_grade_straight_candidate": 0.004369,
+          "corridor_contacts_high_penalty": 1,
+          "candidate_treatments": [
+            "BRIDGE",
+            "FORD",
+            "CAUSEWAY",
+            "REROUTE"
+          ],
+          "classification": "CROSSING_REVIEW_REQUIRED",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "REQUIRED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "peak_grade_straight_candidate": 0.006054,
+          "corridor_contacts_high_penalty": 0,
+          "candidate_treatments": [
+            "NO_DETECTED_CROSSING",
+            "REROUTE"
+          ],
+          "classification": "NO_CROSSING_DETECTED_AT_THIS_ASSUMPTION",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "NOT_TRIGGERED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "peak_grade_straight_candidate": 0.004536,
+          "corridor_contacts_high_penalty": 0,
+          "candidate_treatments": [
+            "NO_DETECTED_CROSSING",
+            "REROUTE"
+          ],
+          "classification": "NO_CROSSING_DETECTED_AT_THIS_ASSUMPTION",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "NOT_TRIGGERED",
+          "historical_approval": false
+        }
+      ]
+    },
+    {
+      "variant": "west-ridge",
+      "corridor_radius_cells": 0,
+      "segments": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "peak_grade_straight_candidate": 0.006222,
+          "corridor_contacts_high_penalty": 0,
+          "candidate_treatments": [
+            "NO_DETECTED_CROSSING",
+            "REROUTE"
+          ],
+          "classification": "NO_CROSSING_DETECTED_AT_THIS_ASSUMPTION",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "NOT_TRIGGERED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "peak_grade_straight_candidate": 0.004369,
+          "corridor_contacts_high_penalty": 0,
+          "candidate_treatments": [
+            "NO_DETECTED_CROSSING",
+            "REROUTE"
+          ],
+          "classification": "NO_CROSSING_DETECTED_AT_THIS_ASSUMPTION",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "NOT_TRIGGERED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "peak_grade_straight_candidate": 0.006054,
+          "corridor_contacts_high_penalty": 0,
+          "candidate_treatments": [
+            "NO_DETECTED_CROSSING",
+            "REROUTE"
+          ],
+          "classification": "NO_CROSSING_DETECTED_AT_THIS_ASSUMPTION",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "NOT_TRIGGERED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "peak_grade_straight_candidate": 0.004536,
+          "corridor_contacts_high_penalty": 0,
+          "candidate_treatments": [
+            "NO_DETECTED_CROSSING",
+            "REROUTE"
+          ],
+          "classification": "NO_CROSSING_DETECTED_AT_THIS_ASSUMPTION",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "NOT_TRIGGERED",
+          "historical_approval": false
+        }
+      ]
+    },
+    {
+      "variant": "west-ridge",
+      "corridor_radius_cells": 1,
+      "segments": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "peak_grade_straight_candidate": 0.006222,
+          "corridor_contacts_high_penalty": 0,
+          "candidate_treatments": [
+            "NO_DETECTED_CROSSING",
+            "REROUTE"
+          ],
+          "classification": "NO_CROSSING_DETECTED_AT_THIS_ASSUMPTION",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "NOT_TRIGGERED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "peak_grade_straight_candidate": 0.004369,
+          "corridor_contacts_high_penalty": 0,
+          "candidate_treatments": [
+            "NO_DETECTED_CROSSING",
+            "REROUTE"
+          ],
+          "classification": "NO_CROSSING_DETECTED_AT_THIS_ASSUMPTION",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "NOT_TRIGGERED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "peak_grade_straight_candidate": 0.006054,
+          "corridor_contacts_high_penalty": 0,
+          "candidate_treatments": [
+            "NO_DETECTED_CROSSING",
+            "REROUTE"
+          ],
+          "classification": "NO_CROSSING_DETECTED_AT_THIS_ASSUMPTION",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "NOT_TRIGGERED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "peak_grade_straight_candidate": 0.004536,
+          "corridor_contacts_high_penalty": 0,
+          "candidate_treatments": [
+            "NO_DETECTED_CROSSING",
+            "REROUTE"
+          ],
+          "classification": "NO_CROSSING_DETECTED_AT_THIS_ASSUMPTION",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "NOT_TRIGGERED",
+          "historical_approval": false
+        }
+      ]
+    },
+    {
+      "variant": "west-ridge",
+      "corridor_radius_cells": 2,
+      "segments": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "peak_grade_straight_candidate": 0.006222,
+          "corridor_contacts_high_penalty": 0,
+          "candidate_treatments": [
+            "NO_DETECTED_CROSSING",
+            "REROUTE"
+          ],
+          "classification": "NO_CROSSING_DETECTED_AT_THIS_ASSUMPTION",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "NOT_TRIGGERED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "peak_grade_straight_candidate": 0.004369,
+          "corridor_contacts_high_penalty": 1,
+          "candidate_treatments": [
+            "BRIDGE",
+            "FORD",
+            "CAUSEWAY",
+            "REROUTE"
+          ],
+          "classification": "CROSSING_REVIEW_REQUIRED",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "REQUIRED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "peak_grade_straight_candidate": 0.006054,
+          "corridor_contacts_high_penalty": 2,
+          "candidate_treatments": [
+            "BRIDGE",
+            "FORD",
+            "CAUSEWAY",
+            "REROUTE"
+          ],
+          "classification": "CROSSING_REVIEW_REQUIRED",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "REQUIRED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "peak_grade_straight_candidate": 0.004536,
+          "corridor_contacts_high_penalty": 1,
+          "candidate_treatments": [
+            "BRIDGE",
+            "FORD",
+            "CAUSEWAY",
+            "REROUTE"
+          ],
+          "classification": "CROSSING_REVIEW_REQUIRED",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "REQUIRED",
+          "historical_approval": false
+        }
+      ]
+    },
+    {
+      "variant": "central-valley",
+      "corridor_radius_cells": 0,
+      "segments": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "peak_grade_straight_candidate": 0.006222,
+          "corridor_contacts_high_penalty": 0,
+          "candidate_treatments": [
+            "NO_DETECTED_CROSSING",
+            "REROUTE"
+          ],
+          "classification": "NO_CROSSING_DETECTED_AT_THIS_ASSUMPTION",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "NOT_TRIGGERED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "peak_grade_straight_candidate": 0.004369,
+          "corridor_contacts_high_penalty": 0,
+          "candidate_treatments": [
+            "NO_DETECTED_CROSSING",
+            "REROUTE"
+          ],
+          "classification": "NO_CROSSING_DETECTED_AT_THIS_ASSUMPTION",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "NOT_TRIGGERED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "peak_grade_straight_candidate": 0.006054,
+          "corridor_contacts_high_penalty": 0,
+          "candidate_treatments": [
+            "NO_DETECTED_CROSSING",
+            "REROUTE"
+          ],
+          "classification": "NO_CROSSING_DETECTED_AT_THIS_ASSUMPTION",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "NOT_TRIGGERED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "peak_grade_straight_candidate": 0.004536,
+          "corridor_contacts_high_penalty": 0,
+          "candidate_treatments": [
+            "NO_DETECTED_CROSSING",
+            "REROUTE"
+          ],
+          "classification": "NO_CROSSING_DETECTED_AT_THIS_ASSUMPTION",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "NOT_TRIGGERED",
+          "historical_approval": false
+        }
+      ]
+    },
+    {
+      "variant": "central-valley",
+      "corridor_radius_cells": 1,
+      "segments": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "peak_grade_straight_candidate": 0.006222,
+          "corridor_contacts_high_penalty": 0,
+          "candidate_treatments": [
+            "NO_DETECTED_CROSSING",
+            "REROUTE"
+          ],
+          "classification": "NO_CROSSING_DETECTED_AT_THIS_ASSUMPTION",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "NOT_TRIGGERED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "peak_grade_straight_candidate": 0.004369,
+          "corridor_contacts_high_penalty": 1,
+          "candidate_treatments": [
+            "BRIDGE",
+            "FORD",
+            "CAUSEWAY",
+            "REROUTE"
+          ],
+          "classification": "CROSSING_REVIEW_REQUIRED",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "REQUIRED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "peak_grade_straight_candidate": 0.006054,
+          "corridor_contacts_high_penalty": 1,
+          "candidate_treatments": [
+            "BRIDGE",
+            "FORD",
+            "CAUSEWAY",
+            "REROUTE"
+          ],
+          "classification": "CROSSING_REVIEW_REQUIRED",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "REQUIRED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "peak_grade_straight_candidate": 0.004536,
+          "corridor_contacts_high_penalty": 0,
+          "candidate_treatments": [
+            "NO_DETECTED_CROSSING",
+            "REROUTE"
+          ],
+          "classification": "NO_CROSSING_DETECTED_AT_THIS_ASSUMPTION",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "NOT_TRIGGERED",
+          "historical_approval": false
+        }
+      ]
+    },
+    {
+      "variant": "central-valley",
+      "corridor_radius_cells": 2,
+      "segments": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "peak_grade_straight_candidate": 0.006222,
+          "corridor_contacts_high_penalty": 0,
+          "candidate_treatments": [
+            "NO_DETECTED_CROSSING",
+            "REROUTE"
+          ],
+          "classification": "NO_CROSSING_DETECTED_AT_THIS_ASSUMPTION",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "NOT_TRIGGERED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "peak_grade_straight_candidate": 0.004369,
+          "corridor_contacts_high_penalty": 2,
+          "candidate_treatments": [
+            "BRIDGE",
+            "FORD",
+            "CAUSEWAY",
+            "REROUTE"
+          ],
+          "classification": "CROSSING_REVIEW_REQUIRED",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "REQUIRED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "peak_grade_straight_candidate": 0.006054,
+          "corridor_contacts_high_penalty": 3,
+          "candidate_treatments": [
+            "BRIDGE",
+            "FORD",
+            "CAUSEWAY",
+            "REROUTE"
+          ],
+          "classification": "CROSSING_REVIEW_REQUIRED",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "REQUIRED",
+          "historical_approval": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "peak_grade_straight_candidate": 0.004536,
+          "corridor_contacts_high_penalty": 1,
+          "candidate_treatments": [
+            "BRIDGE",
+            "FORD",
+            "CAUSEWAY",
+            "REROUTE"
+          ],
+          "classification": "CROSSING_REVIEW_REQUIRED",
+          "verified_infrastructure": "NONE",
+          "crossing_type_selected": null,
+          "hydraulic_and_foundation_review": "REQUIRED",
+          "historical_approval": false
+        }
+      ]
+    }
+  ],
+  "acceptance": "HOLD",
+  "blocks": [
+    "NO_APPROVED_RIVER_WIDTH_OR_FLOW",
+    "NO_CROSSING_FOUNDATIONS",
+    "NO_CONFIRMED_HISTORICAL_BRIDGE_SITE",
+    "NO_APPROVED_ROUTE_CENTERLINE"
+  ]
+}
