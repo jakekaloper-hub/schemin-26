@@ -1,0 +1,2841 @@
+{
+  "status": "WIDENED_SYNTHETIC_CORRIDOR_ALTERNATIVES",
+  "results": [
+    {
+      "variant": "baseline",
+      "corridor_radius_cells": 0,
+      "segments": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 0,
+              "candidate_length": 141.421,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  14,
+                  8
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 0,
+              "candidate_length": 141.421,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  14,
+                  8
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 0,
+              "candidate_length": 141.421,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  14,
+                  8
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 0,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  7
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 0,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  7
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 0,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  7
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": false
+        }
+      ]
+    },
+    {
+      "variant": "baseline",
+      "corridor_radius_cells": 1,
+      "segments": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 0,
+              "candidate_length": 141.421,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  14,
+                  8
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 0,
+              "candidate_length": 141.421,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  14,
+                  8
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 0,
+              "candidate_length": 141.421,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  14,
+                  8
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 0,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  7
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 0,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  7
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 0,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  7
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": false
+        }
+      ]
+    },
+    {
+      "variant": "baseline",
+      "corridor_radius_cells": 2,
+      "segments": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 2,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 1,
+              "candidate_length": 200.0,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  11
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 1,
+              "candidate_length": 200.0,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  11
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": true
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 2,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 1,
+              "candidate_length": 212.132,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  11
+                ],
+                [
+                  12,
+                  10
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 1,
+              "candidate_length": 212.132,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  11
+                ],
+                [
+                  12,
+                  10
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": true
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 0,
+              "candidate_length": 141.421,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  14,
+                  8
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 0,
+              "candidate_length": 141.421,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  14,
+                  8
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 0,
+              "candidate_length": 141.421,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  14,
+                  8
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 0,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  7
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 0,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  7
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 0,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  7
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": false
+        }
+      ]
+    },
+    {
+      "variant": "west-ridge",
+      "corridor_radius_cells": 0,
+      "segments": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 0,
+              "candidate_length": 141.421,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  14,
+                  8
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 0,
+              "candidate_length": 141.421,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  14,
+                  8
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 0,
+              "candidate_length": 141.421,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  14,
+                  8
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 0,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  7
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 0,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  7
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 0,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  7
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": false
+        }
+      ]
+    },
+    {
+      "variant": "west-ridge",
+      "corridor_radius_cells": 1,
+      "segments": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 1,
+              "candidate_length": 141.421,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  14,
+                  8
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  13,
+                  8
+                ],
+                [
+                  14,
+                  7
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  13,
+                  8
+                ],
+                [
+                  14,
+                  7
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 0,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  7
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 0,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  7
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 0,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  7
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": false
+        }
+      ]
+    },
+    {
+      "variant": "west-ridge",
+      "corridor_radius_cells": 2,
+      "segments": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 1,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  11
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  11
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 1,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 1,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 1,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": true
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 3,
+              "candidate_length": 141.421,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  14,
+                  8
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 2,
+              "candidate_length": 341.421,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  12,
+                  8
+                ],
+                [
+                  12,
+                  7
+                ],
+                [
+                  13,
+                  6
+                ],
+                [
+                  14,
+                  6
+                ],
+                [
+                  15,
+                  6
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 2,
+              "candidate_length": 341.421,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  12,
+                  8
+                ],
+                [
+                  12,
+                  7
+                ],
+                [
+                  13,
+                  6
+                ],
+                [
+                  14,
+                  6
+                ],
+                [
+                  15,
+                  6
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": true
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 2,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  7
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 1,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  6
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 1,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  6
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": true
+        }
+      ]
+    },
+    {
+      "variant": "central-valley",
+      "corridor_radius_cells": 0,
+      "segments": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 0,
+              "candidate_length": 141.421,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  14,
+                  8
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 0,
+              "candidate_length": 141.421,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  14,
+                  8
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 0,
+              "candidate_length": 141.421,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  14,
+                  8
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 0,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  7
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 0,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  7
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 0,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  7
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": false
+        }
+      ]
+    },
+    {
+      "variant": "central-valley",
+      "corridor_radius_cells": 1,
+      "segments": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 1,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 1,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 1,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": true
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 2,
+              "candidate_length": 141.421,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  14,
+                  8
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 1,
+              "candidate_length": 241.421,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  12,
+                  8
+                ],
+                [
+                  13,
+                  7
+                ],
+                [
+                  14,
+                  7
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 1,
+              "candidate_length": 241.421,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  12,
+                  8
+                ],
+                [
+                  13,
+                  7
+                ],
+                [
+                  14,
+                  7
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": true
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 0,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  7
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 0,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  7
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 0,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  7
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": false
+        }
+      ]
+    },
+    {
+      "variant": "central-valley",
+      "corridor_radius_cells": 2,
+      "segments": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 1,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  11
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 0,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  11
+                ],
+                [
+                  10,
+                  10
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 2,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 2,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 2,
+              "candidate_length": 170.711,
+              "candidate_cells": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  13,
+                  9
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": true
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 3,
+              "candidate_length": 141.421,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  14,
+                  8
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 3,
+              "candidate_length": 441.421,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  11,
+                  8
+                ],
+                [
+                  11,
+                  7
+                ],
+                [
+                  12,
+                  6
+                ],
+                [
+                  13,
+                  6
+                ],
+                [
+                  14,
+                  6
+                ],
+                [
+                  15,
+                  6
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 3,
+              "candidate_length": 441.421,
+              "candidate_cells": [
+                [
+                  13,
+                  9
+                ],
+                [
+                  12,
+                  9
+                ],
+                [
+                  11,
+                  8
+                ],
+                [
+                  11,
+                  7
+                ],
+                [
+                  12,
+                  6
+                ],
+                [
+                  13,
+                  6
+                ],
+                [
+                  14,
+                  6
+                ],
+                [
+                  15,
+                  6
+                ],
+                [
+                  15,
+                  7
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": true
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "options": [
+            {
+              "penalty": 0,
+              "corridor_contacts": 2,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  7
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 8,
+              "corridor_contacts": 1,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  6
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            },
+            {
+              "penalty": 25,
+              "corridor_contacts": 1,
+              "candidate_length": 120.711,
+              "candidate_cells": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  16,
+                  6
+                ],
+                [
+                  17,
+                  6
+                ]
+              ],
+              "road_approved": false
+            }
+          ],
+          "mandatory_contact_under_all_penalties": true
+        }
+      ]
+    }
+  ],
+  "acceptance": "HOLD",
+  "limitations": [
+    "RIVER_WIDTH_UNVERIFIED",
+    "NO_APPROVED_BRIDGE_OR_FORD",
+    "LOCAL_GRID_DISTANCE_NOT_CANON"
+  ]
+}
