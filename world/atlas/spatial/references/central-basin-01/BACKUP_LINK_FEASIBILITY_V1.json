@@ -1,0 +1,282 @@
+{
+  "status": "SYNTHETIC_BACKUP_LINK_FEASIBILITY_SCREEN",
+  "results": [
+    {
+      "variant": "baseline",
+      "corridor_radius_cells": 0,
+      "from": "LOC-LEAGUE-ARCHIVE",
+      "to": "LOC-PITTSYS-BOOK",
+      "alternatives": [
+        {
+          "risk_weight": 0,
+          "candidate_length_m": 603.553,
+          "corridor_contact_cells": 0,
+          "max_segment_grade": 0.00933,
+          "route_approved": false
+        },
+        {
+          "risk_weight": 8,
+          "candidate_length_m": 603.553,
+          "corridor_contact_cells": 0,
+          "max_segment_grade": 0.00933,
+          "route_approved": false
+        },
+        {
+          "risk_weight": 25,
+          "candidate_length_m": 603.553,
+          "corridor_contact_cells": 0,
+          "max_segment_grade": 0.00933,
+          "route_approved": false
+        }
+      ],
+      "high_water_redundancy_approved": false
+    },
+    {
+      "variant": "baseline",
+      "corridor_radius_cells": 1,
+      "from": "LOC-LEAGUE-ARCHIVE",
+      "to": "LOC-PITTSYS-BOOK",
+      "alternatives": [
+        {
+          "risk_weight": 0,
+          "candidate_length_m": 603.553,
+          "corridor_contact_cells": 2,
+          "max_segment_grade": 0.00933,
+          "route_approved": false
+        },
+        {
+          "risk_weight": 8,
+          "candidate_length_m": 603.553,
+          "corridor_contact_cells": 0,
+          "max_segment_grade": 0.010884,
+          "route_approved": false
+        },
+        {
+          "risk_weight": 25,
+          "candidate_length_m": 603.553,
+          "corridor_contact_cells": 0,
+          "max_segment_grade": 0.010884,
+          "route_approved": false
+        }
+      ],
+      "high_water_redundancy_approved": false
+    },
+    {
+      "variant": "baseline",
+      "corridor_radius_cells": 2,
+      "from": "LOC-LEAGUE-ARCHIVE",
+      "to": "LOC-PITTSYS-BOOK",
+      "alternatives": [
+        {
+          "risk_weight": 0,
+          "candidate_length_m": 603.553,
+          "corridor_contact_cells": 4,
+          "max_segment_grade": 0.00933,
+          "route_approved": false
+        },
+        {
+          "risk_weight": 8,
+          "candidate_length_m": 603.553,
+          "corridor_contact_cells": 0,
+          "max_segment_grade": 0.010884,
+          "route_approved": false
+        },
+        {
+          "risk_weight": 25,
+          "candidate_length_m": 603.553,
+          "corridor_contact_cells": 0,
+          "max_segment_grade": 0.010884,
+          "route_approved": false
+        }
+      ],
+      "high_water_redundancy_approved": false
+    },
+    {
+      "variant": "west-ridge",
+      "corridor_radius_cells": 0,
+      "from": "LOC-LEAGUE-ARCHIVE",
+      "to": "LOC-PITTSYS-BOOK",
+      "alternatives": [
+        {
+          "risk_weight": 0,
+          "candidate_length_m": 603.553,
+          "corridor_contact_cells": 0,
+          "max_segment_grade": 0.00791,
+          "route_approved": false
+        },
+        {
+          "risk_weight": 8,
+          "candidate_length_m": 603.553,
+          "corridor_contact_cells": 0,
+          "max_segment_grade": 0.00791,
+          "route_approved": false
+        },
+        {
+          "risk_weight": 25,
+          "candidate_length_m": 603.553,
+          "corridor_contact_cells": 0,
+          "max_segment_grade": 0.00791,
+          "route_approved": false
+        }
+      ],
+      "high_water_redundancy_approved": false
+    },
+    {
+      "variant": "west-ridge",
+      "corridor_radius_cells": 1,
+      "from": "LOC-LEAGUE-ARCHIVE",
+      "to": "LOC-PITTSYS-BOOK",
+      "alternatives": [
+        {
+          "risk_weight": 0,
+          "candidate_length_m": 603.553,
+          "corridor_contact_cells": 2,
+          "max_segment_grade": 0.00791,
+          "route_approved": false
+        },
+        {
+          "risk_weight": 8,
+          "candidate_length_m": 603.553,
+          "corridor_contact_cells": 0,
+          "max_segment_grade": 0.010084,
+          "route_approved": false
+        },
+        {
+          "risk_weight": 25,
+          "candidate_length_m": 603.553,
+          "corridor_contact_cells": 0,
+          "max_segment_grade": 0.010084,
+          "route_approved": false
+        }
+      ],
+      "high_water_redundancy_approved": false
+    },
+    {
+      "variant": "west-ridge",
+      "corridor_radius_cells": 2,
+      "from": "LOC-LEAGUE-ARCHIVE",
+      "to": "LOC-PITTSYS-BOOK",
+      "alternatives": [
+        {
+          "risk_weight": 0,
+          "candidate_length_m": 603.553,
+          "corridor_contact_cells": 5,
+          "max_segment_grade": 0.00791,
+          "route_approved": false
+        },
+        {
+          "risk_weight": 8,
+          "candidate_length_m": 632.843,
+          "corridor_contact_cells": 0,
+          "max_segment_grade": 0.012422,
+          "route_approved": false
+        },
+        {
+          "risk_weight": 25,
+          "candidate_length_m": 632.843,
+          "corridor_contact_cells": 0,
+          "max_segment_grade": 0.012422,
+          "route_approved": false
+        }
+      ],
+      "high_water_redundancy_approved": false
+    },
+    {
+      "variant": "central-valley",
+      "corridor_radius_cells": 0,
+      "from": "LOC-LEAGUE-ARCHIVE",
+      "to": "LOC-PITTSYS-BOOK",
+      "alternatives": [
+        {
+          "risk_weight": 0,
+          "candidate_length_m": 603.553,
+          "corridor_contact_cells": 1,
+          "max_segment_grade": 0.008966,
+          "route_approved": false
+        },
+        {
+          "risk_weight": 8,
+          "candidate_length_m": 603.553,
+          "corridor_contact_cells": 0,
+          "max_segment_grade": 0.008966,
+          "route_approved": false
+        },
+        {
+          "risk_weight": 25,
+          "candidate_length_m": 603.553,
+          "corridor_contact_cells": 0,
+          "max_segment_grade": 0.008966,
+          "route_approved": false
+        }
+      ],
+      "high_water_redundancy_approved": false
+    },
+    {
+      "variant": "central-valley",
+      "corridor_radius_cells": 1,
+      "from": "LOC-LEAGUE-ARCHIVE",
+      "to": "LOC-PITTSYS-BOOK",
+      "alternatives": [
+        {
+          "risk_weight": 0,
+          "candidate_length_m": 603.553,
+          "corridor_contact_cells": 3,
+          "max_segment_grade": 0.008966,
+          "route_approved": false
+        },
+        {
+          "risk_weight": 8,
+          "candidate_length_m": 603.553,
+          "corridor_contact_cells": 0,
+          "max_segment_grade": 0.008966,
+          "route_approved": false
+        },
+        {
+          "risk_weight": 25,
+          "candidate_length_m": 603.553,
+          "corridor_contact_cells": 0,
+          "max_segment_grade": 0.008966,
+          "route_approved": false
+        }
+      ],
+      "high_water_redundancy_approved": false
+    },
+    {
+      "variant": "central-valley",
+      "corridor_radius_cells": 2,
+      "from": "LOC-LEAGUE-ARCHIVE",
+      "to": "LOC-PITTSYS-BOOK",
+      "alternatives": [
+        {
+          "risk_weight": 0,
+          "candidate_length_m": 603.553,
+          "corridor_contact_cells": 7,
+          "max_segment_grade": 0.008966,
+          "route_approved": false
+        },
+        {
+          "risk_weight": 8,
+          "candidate_length_m": 662.132,
+          "corridor_contact_cells": 0,
+          "max_segment_grade": 0.009553,
+          "route_approved": false
+        },
+        {
+          "risk_weight": 25,
+          "candidate_length_m": 662.132,
+          "corridor_contact_cells": 0,
+          "max_segment_grade": 0.009553,
+          "route_approved": false
+        }
+      ],
+      "high_water_redundancy_approved": false
+    }
+  ],
+  "acceptance": "HOLD",
+  "limitations": [
+    "NO_APPROVED_WATERWAY_WIDTH",
+    "NO_CANONICAL_BACKUP_CORRIDOR",
+    "NO_SIMULTANEOUS_FAILURE_PROOF",
+    "NO_ENGINEERING_SITE_SURVEY"
+  ]
+}
