@@ -24,3 +24,7 @@ It does not replace:
 - Jack Mercer;
 - Data Gateway / ESPN truth;
 - Jake's commissioner / creative authority.
+
+## Canonical PDF byte retrieval skill
+
+For original Memo archive PDF bytes use `skills/schemin-pdf-bytes/SKILL.md` and its fail-closed SHA-256 verifier. Requires an authorized Git LFS materialized checkout or original attached bytes. A Git LFS pointer is not a PDF, and hash integrity is not artistic or publication acceptance. This is repository-discoverable, not a native ChatGPT-platform skill installation.

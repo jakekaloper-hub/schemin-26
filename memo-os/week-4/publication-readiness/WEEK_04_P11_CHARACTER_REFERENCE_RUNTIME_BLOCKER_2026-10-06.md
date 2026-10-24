@@ -1,5 +1,8 @@
 # WEEK 4 PAGE 11 — CHARACTER REFERENCE RUNTIME BLOCKER RECEIPT
 
+> **Historical record — current authority check required (2026-10-24).** Runtime availability and Library handles below describe the October 6 session only. They do not establish current provider capability or require a new upload today. Resolve current approved character assets and renderer capability through PROJECT_CONTROL_REGISTRY.md and canon/characters/runtime/ before any new render.
+
+
 **Date:** 2026-10-06
 **Page:** W4-P11 — RECOVERY TRIP
 **Chapter:** Pages 11–13 Red Leopards × Dr. Duckhook

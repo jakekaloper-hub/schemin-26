@@ -1,0 +1,61 @@
+name: Memo Issue Guardrail Regression
+on:
+  pull_request:
+    paths:
+      - 'memo-os/tests/validate_issue.py'
+      - 'memo-os/tests/test_validate_issue.py'
+      - 'memo-os/tests/validate_artifacts.py'
+      - 'memo-os/tests/test_validate_artifacts.py'
+      - 'memo-os/tests/validate_evidence.py'
+      - 'memo-os/tests/test_validate_evidence.py'
+      - 'memo-os/release-candidates/**'
+      - 'governance/publication-manifest/PUBLICATION_MANIFEST_V1.json'
+      - '.github/workflows/memo-issue-guardrails-ci.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'memo-os/tests/validate_issue.py'
+      - 'memo-os/tests/test_validate_issue.py'
+      - 'memo-os/tests/validate_artifacts.py'
+      - 'memo-os/tests/test_validate_artifacts.py'
+      - 'memo-os/tests/validate_evidence.py'
+      - 'memo-os/tests/test_validate_evidence.py'
+      - 'memo-os/release-candidates/**'
+      - 'governance/publication-manifest/PUBLICATION_MANIFEST_V1.json'
+      - '.github/workflows/memo-issue-guardrails-ci.yml'
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install artifact inspection dependencies
+        run: python -m pip install --disable-pip-version-check pymupdf pillow
+      - name: Run manifest and actual-artifact regressions
+        working-directory: memo-os/tests
+        run: python -m unittest -v test_validate_issue.py test_validate_artifacts.py test_validate_evidence.py
+      - name: Validate all actual staged Memo release candidates
+        run: |
+          python - <<'PY'
+          import json, pathlib, subprocess, sys
+          candidates = sorted(pathlib.Path("memo-os/release-candidates").glob("*/issue-manifest.json"))
+          print(f"Real release candidates discovered: {len(candidates)}")
+          registry = json.loads(pathlib.Path("governance/publication-manifest/PUBLICATION_MANIFEST_V1.json").read_text())
+          for publication in registry.get("publications", []):
+              interval = publication.get("source_interval") or {}
+              if publication.get("family") != "weekly_memo" or publication.get("release_state") != "RELEASED":
+                  continue
+              weeks = interval.get("weeks") or []
+              if publication.get("season") == 2026 and any(isinstance(w, int) and w >= 6 for w in weeks):
+                  expected = pathlib.Path("memo-os/release-candidates") / ("2026-week-" + str(weeks[0]).zfill(2)) / "issue-manifest.json"
+                  if expected not in candidates:
+                      raise SystemExit("Missing mandatory candidate bundle for released Memo: " + str(expected))
+                  released_candidate = json.loads(expected.read_text())
+                  if released_candidate.get("publication_state") not in ("RELEASED", "PUBLISHED"):
+                      raise SystemExit("Registry RELEASED but candidate manifest is not released: " + str(expected))
+          for manifest in candidates:
+              print("Inspecting", manifest, flush=True)
+              subprocess.run([sys.executable, "memo-os/tests/validate_artifacts.py", str(manifest)], check=True)
+          PY
