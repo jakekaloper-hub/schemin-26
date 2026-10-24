@@ -21,6 +21,7 @@ When opened, each packet must include:
 - deterministic data layer;
 - adjacency;
 - mobile risk;
-- QA requirements.
+- QA requirements;
+- optional PLAYOFF CONTEXT field: NONE/HIGH, evidence class, source snapshot, model version, run seed/receipt, editorial reason, approved wording, Umpire status.
 
 Material redundancy between IMAGE TELLS and PROSE TELLS returns the page for revision.

@@ -1,6 +1,7 @@
 """Fail-closed integrity checks for Commissioner-supplied memo intake.
 Metadata verification does not imply GitHub stores PDF bytes.
 """
+import argparse
 import json
 import re
 import hashlib
@@ -8,7 +9,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
 INDEX=ROOT/"governance/publication-manifest/WEEKS_04_06_COMMISSIONER_SOURCE_INTAKE_2026_10_22.json"
 ATLAS=ROOT/"world/atlas/foundation/WEEKS_04_06_PUBLISHED_VISUAL_GEOGRAPHY_INTAKE_V1.json"
-def validate():
+def validate(*, require_pdf_bytes=False):
     a=json.loads(INDEX.read_text())
     b=json.loads(ATLAS.read_text())
     errors=[]
@@ -26,6 +27,8 @@ def validate():
             else:
                 contents=target.read_bytes()
                 if contents.startswith(b"version https://git-lfs.github.com/spec/v1\n"):
+                    if require_pdf_bytes:
+                        errors.append(f"UNRESOLVED_LFS_POINTER_{week}")
                     pointer=contents.decode("ascii")
                     if f"oid sha256:{item['sha256']}" not in pointer or f"size {item['size_bytes']}" not in pointer:
                         errors.append(f"LFS_POINTER_MISMATCH_{week}")
@@ -45,6 +48,12 @@ def validate():
             errors.append("UNAUTHORIZED_CANON_PROMOTION")
     return sorted(set(errors))
 if __name__=="__main__":
-    problems=validate()
+    parser=argparse.ArgumentParser()
+    parser.add_argument("--require-pdf-bytes",action="store_true")
+    args=parser.parse_args()
+    problems=validate(require_pdf_bytes=args.require_pdf_bytes)
     if problems:raise SystemExit(";".join(problems))
-    print("Memo Week 4-6 intake metadata/provenance validated; PDF bytes remain unarchived")
+    if args.require_pdf_bytes:
+        print("Week 4-6 archived PDF sizes and SHA-256 hashes verified against locally retrieved bytes. Visual and publication acceptance not certified.")
+    else:
+        print("Memo Week 4-6 intake manifest and archive references validated. This check permits matching Git LFS pointers and does not certify retrieved PDF bytes, visual fidelity, or publication approval.")

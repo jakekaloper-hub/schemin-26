@@ -142,8 +142,10 @@ def validate_payloads(
     wilson = by_char.get("CHAR-WILSON-LOOK", {})
     if "ARSENAL_GORILLA_WARRIOR" not in wilson.get("canon_guard", []):
         errors.append("Wilson Look current gorilla lock missing")
-    if "NO_CENTAUR_ANATOMY" not in wilson.get("canon_guard", []):
-        errors.append("Wilson Look retired-centaur negative lock missing")
+    if "ONE_BODY_GORILLA_CENTAUR_FOUR_LEGS" not in wilson.get("canon_guard", []):
+        errors.append("Wilson Look one-body four-legged gorilla-centaur positive lock missing")
+    if "NO_CENTAUR_ANATOMY" in wilson.get("canon_guard", []):
+        errors.append("Wilson Look obsolete no-centaur negative lock present")
 
     pitts = by_char.get("CHAR-PHILLIP-PITTS", {})
     if "ONE_BODY_THREE_SERPENT_HEADS" not in pitts.get("canon_guard", []):

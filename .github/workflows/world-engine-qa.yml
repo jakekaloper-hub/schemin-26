@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - 'world/**'
+      - 'tests/test_unreal_manifest_export.py'
       - 'schemas/world-*.schema.json'
       - 'memo-os/WORLD_ENGINE_INTEGRATION_PATCH_V1.md'
       - 'living-novel/os/WORLD_ENGINE_INTEGRATION_PATCH_V1.md'
@@ -17,6 +18,7 @@ on:
       - 'world/**'
     paths:
       - 'world/**'
+      - 'tests/test_unreal_manifest_export.py'
       - 'schemas/world-*.schema.json'
       - 'living-novel/os/geography/**'
       - 'living-novel/os/engine/novel_os.py'
@@ -30,6 +32,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test committed Unreal preview manifest
+        run: python -m unittest discover -s tests -p test_unreal_manifest_export.py -v
       - name: Run spatial topology tests
         run: node world/qa/spatial/spatial_topology_test.js
       - name: Validate JSON files

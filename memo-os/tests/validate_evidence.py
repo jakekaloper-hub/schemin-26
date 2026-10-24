@@ -14,6 +14,42 @@ def validate_evidence(manifest, base):
     errors = []
     if manifest.get("publication_state") not in ("RELEASED", "PUBLISHED"):
         return errors
+    # Prospective issues must present the signed Founder release transaction.
+    # Historical published weeks are not retroactively rewritten.
+    if manifest.get("season") == 2026 and isinstance(manifest.get("week"), int) and manifest["week"] >= 6:
+        state_path = manifest.get("founder_release_state_path")
+        if not isinstance(state_path, str) or not state_path:
+            errors.append("Founder release transaction missing")
+        else:
+            state_file = (Path(base).resolve() / state_path).resolve()
+            if not state_file.is_relative_to(Path(base).resolve()) or not state_file.is_file():
+                errors.append("Founder release transaction inaccessible")
+            else:
+                try:
+                    import sys
+                    root = Path(__file__).resolve().parents[2]
+                    if str(root) not in sys.path:
+                        sys.path.insert(0, str(root))
+                    from governance.publication.founder_approval_runtime import inspect, verify_receipt
+                    issue = inspect(state_file)
+                    if issue.get("state") != "RELEASED":
+                        errors.append("Founder transaction not released")
+                    if str(issue.get("issue_id")) != str(manifest.get("issue_id")):
+                        errors.append("Founder transaction issue mismatch")
+                    if issue.get("final_pdf_sha256") != manifest.get("published_artifact_sha256"):
+                        errors.append("Founder transaction PDF mismatch")
+                    # The signed persisted state proves integrity, not actual upstream
+                    # identity-provider authentication or reviewer independence.
+                    approvals = issue.get("approvals", {})
+                    for slot, gate, expected_hash in (
+                        ("creative", "CREATIVE_DIRECTION", issue.get("approved_plan_sha256")),
+                        ("publication", "FINAL_PUBLICATION", issue.get("final_pdf_sha256")),
+                    ):
+                        approval = approvals.get(slot, {})
+                        if approval.get("gate") != gate or approval.get("artifact_sha256") != expected_hash or approval.get("decision") != "APPROVED":
+                            errors.append("Founder approval absent or stale: " + slot)
+                except Exception as exc:
+                    errors.append("Founder transaction integrity or verification failure: " + type(exc).__name__)
     base = Path(base).resolve()
     receipt_path = manifest.get("provider_receipt_path")
     if not receipt_path:

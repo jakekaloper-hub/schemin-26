@@ -5,6 +5,8 @@ on:
     paths:
       - 'PROJECT_CONTROL_REGISTRY.md'
       - 'memo-os/**'
+      - 'tests/test_week5_*.py'
+      - 'tests/test_commissioner_20261012_character_bindings.py'
       - 'governance/publication-manifest/**'
       - '.github/workflows/weekly-memo-authority-ci.yml'
   push:
@@ -30,3 +32,13 @@ jobs:
         run: python governance/publication-manifest/validate_publication_manifest.py
       - name: Test deterministic Memo resolver
         run: python governance/publication-manifest/test_memo_reference_resolver.py
+      - name: Test Week 5 individual page staging
+        run: python tests/test_week5_individual_page_staging.py
+      - name: Test Week 5 artwork-first image delivery contract
+        run: python tests/test_week5_artwork_first_output_contract.py
+      - name: Test Week 5 render gateway rejects unverified requests
+        run: python tests/test_week5_production_gateway.py
+      - name: Install raster regression test runner
+        run: python -m pip install pytest
+      - name: Test actual Week 5 post-render PNG rejection cases
+        run: python -m pytest -q tests/test_week5_raster_acceptance.py tests/test_week5_current_reference_authority.py tests/test_commissioner_20261012_character_bindings.py

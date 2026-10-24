@@ -18,6 +18,9 @@ def build_packet(location_id:str)->dict[str,Any]:
     memory=load("world_memory.json")["events"]
     institutions=load("league_institutions.json")["institutions"]
     domains=load("domain_profiles.json")["domains"]
+    # Positive anatomy/identity requirements have independent character-canon
+    # semantics and MUST NOT be inverted into renderer negative instructions.
+    owner_domains=load("owner_domains.json")["domains"]
     settlements=load("settlements.json")["settlements"]
 
     loc=next((x for x in locations if x["id"]==location_id),None)
@@ -33,6 +36,17 @@ def build_packet(location_id:str)->dict[str,Any]:
     events=[e for e in memory if e.get("location")==location_id]
     inst=[i for i in institutions if i.get("location_id")==location_id]
     domain=next((d for d in domains if d.get("home_anchor")==location_id),{})
+    canonical_character_id=loc.get("owner_character_id")
+    owner_record=next((d for d in owner_domains if d["character_id"]==canonical_character_id),{})
+    canon_guards=owner_record.get("canon_guard",[])
+    visual_domain_rules=domain.get("forbidden_drift",[])
+    # A descriptor such as ONE_BODY_THREE_SERPENT_HEADS is a positive lock.
+    # Only explicitly negative NO_* rules may be sent as visual negative locks.
+    # Institutional constraints are still carried separately in 'domain'.
+    body_locks=list(dict.fromkeys(g for g in canon_guards if not g.startswith("NO_")))
+    negative_locks=list(dict.fromkeys(
+        g for g in [*canon_guards,*visual_domain_rules] if g.startswith("NO_")
+    ))
     ordinary=[]
     for s in settlements:
         if location_id in s.get("anchor_location_ids",[]):
@@ -111,9 +125,9 @@ def build_packet(location_id:str)->dict[str,Any]:
       "character":{
         "principal_character_ids":owners,
         "reference_status":"CHARACTER_REFERENCE_GATE_SEPARATE" if owners else "NO_PRINCIPAL_REQUIRED",
-        "body_locks":[],
+        "body_locks":body_locks,
         "owner_specific_physical_constraints":physical,
-        "negative_locks":domain.get("forbidden_drift",[]),
+        "negative_locks":negative_locks,
         "owner_specific_negative_locks":negatives,
         "visual_authority":visual,
         "source_binding_state":"UNPROVEN_RENDERER_HOLD",

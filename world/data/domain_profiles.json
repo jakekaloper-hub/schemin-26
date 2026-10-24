@@ -124,13 +124,16 @@
         "ROUTE-DK-HIGHLAND-LINK"
       ],
       "current_state": [
-        "current principal identity = Arsenal Gorilla Warrior",
+        "current principal identity = Arsenal Gorilla Centaur Warrior",
         "peopled-kind home society"
       ],
       "forbidden_drift": [
         "OWNER_DOMAIN_NOT_SOVEREIGN_COUNTRY",
-        "ARSENAL_GORILLA_WARRIOR",
-        "NO_CENTAUR_ANATOMY"
+        "NO_GENERIC_BIPEDAL_GORILLA",
+        "NO_HORSE_HEADED_CENTAUR",
+        "NO_RIDER_MOUNT_SUBSTITUTE",
+        "NO_TWO_CREATURE_SUBSTITUTE",
+        "NO_ARSENAL_IDENTITY_OMISSION"
       ],
       "source_provenance": [
         "world/data/owner_domains.json",
