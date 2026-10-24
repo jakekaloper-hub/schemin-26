@@ -123,3 +123,55 @@ The storekeeper turned away. “Then do not tell me the ledger matters.”
 “It matters because it tells me where not to collect.”
 
 The last result did not reward him for that answer. Nothing in the room changed to make it noble. But Mara copied the margin into the ledger: *unclaimed.* Jake left it there, a debt he had chosen not to convert into power.
+
+## VII. Four Small Accounts
+
+The first slate opened the year in Jake’s favor, and he refused the wreath someone hung on the doorway. The second went against him; he took the wreath down himself rather than let Mara do it in secret. The fourth was worse, and a lender asked to be repaid early. Jake said no, then spent the afternoon finding an honest way to say that the store could not carry every debt.
+
+The fifth result favored him. The lender returned with a cup of wine and called the refusal prudent. Jake poured the wine into four smaller cups for the people whose requests he had delayed.
+
+“That is not repayment,” the lender said.
+
+“No,” Jake said. “It is what I can do before I pretend a result bought us room.”
+
+The cups changed nothing on the board. They did make the lender wait to collect, which was a consequence neither of them could call generous.
+
+## VIII. The Sixth Mark
+
+The sixth result gave Jake a favorable mark. A builder immediately asked whether the ledger rule now proved itself.
+
+Jake handed him the book. “Find the first return that came late.”
+
+The builder found three. The eighth result went against Jake, and the builder returned to say the book had become an insult.
+
+“To whom?” Jake asked.
+
+“To people who cannot keep up.”
+
+Jake crossed out no names. He added a column for delays, then required himself to read it aloud with the returns. The ninth result favored him, and the room heard the late names anyway. By the tenth, when another loss arrived, the rule could no longer be praised without also naming whom it had burdened.
+
+## IX. Three Ways to Leave
+
+The eleventh mark favored Jake. A porter offered to carry the news through the passage for coin. Jake refused the bargain and asked him to carry a list of delayed returns instead.
+
+The twelfth and thirteenth marks went against him. The porter came back empty-handed, furious that bad news had followed good work.
+
+“You used me,” he said.
+
+“I asked you to carry a list.”
+
+“You knew what people would hear.”
+
+Jake did know. That was the harm. He paid the porter double and removed his name from the next list. The payment did not repair the choice. It only made the cost visible enough that he could not call it administration.
+
+## X. The Final Refusal
+
+After the last slate, Mara asked whether he would burn the ledger.
+
+“No.”
+
+“Then we begin again with all this hanging over us.”
+
+Jake set the book beside the door. “We begin knowing what it cost to leave it open.”
+
+No one cheered. The rule had survived, but not cleanly. The passage had debts, resentments and names missing from the board. Jake had no title to place over them, no final proof that his choices had been right. He had only the next season’s empty page and the obligation not to call it empty because he disliked what came before.

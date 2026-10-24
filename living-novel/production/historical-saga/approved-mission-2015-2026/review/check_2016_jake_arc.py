@@ -12,7 +12,7 @@ def main() -> int:
     actual={event for scene in register["scenes"] for event in scene["source_event_ids"]}
     errors=[]
     if expected!=actual: errors.append("EVENT_SET_MISMATCH")
-    if len(register["scenes"])!=6: errors.append("SCENE_COUNT_INVALID")
+    if len(register["scenes"])!=10: errors.append("SCENE_COUNT_INVALID")
     if any(s["pov_character_id"]!="CHAR-JAKE-KALOPER" or s["pov_class"]!="PRINCIPAL_CHARACTER" for s in register["scenes"]): errors.append("POV_SCOPE_INVALID")
     prose=(ROOT/"manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md").read_text().lower()
     present=[x for x in ["austin","kevin","jordan","phillip","2017","champion","championship"] if x in prose]
