@@ -83,3 +83,9 @@ No authenticated `ACKNOWLEDGED`, `RECEIVED` or `VALIDATED` state was observed. M
 **Event vocabulary:** `RELEASE_BLOCKED` documented here, not dispatched on a live bus. `MERCER_FIREWALL_VIOLATION` remains a critical fail-closed route: SUPERSEDE contaminated artifacts and return to clean checkpoint.
 **Communication KPIs:** one staged ECS→Steward assignment; authenticated ACKs 0 observed; observed Jake interventions 0; Jake Intervention Rate **NOT MEASURABLE** without a real denominator and event stream.
 **Owner visual review:** required wherever V5 reserves final judgment. Not requested prematurely.
+
+## 5. Post-commit verification and domain-scoped CI disposition (2026-10-24)
+- Read-back verified the new adapter-normalized JSON (**34** transaction rows), 23→24 row-diff diagnostic (**one added, zero removed, zero changed**), and this report, all on draft PR #239.
+- Five GitHub Actions runs associated with commit `1a0d852511825424e5af71e684495d945f4c49df` completed **successfully**: Cross-Domain Authority CI, Repository Merge Gate, Weekly Memo Authority CI, Bullpen Runtime CI, and Week 7 Intake Diagnostics. These are implementation checks, **not COLLAB-001–012 / SCK-01–04 acceptance certification**, not independent Steward ACK, and not PDF release QA.
+- Combined commit status independently reports **`netlify/scheminnovel/deploy-preview = failure`**. Route the affected website-preview/deployment branch to its deployment owner for diagnosis; do not misclassify the entire ESPN acquisition as failed or infer the cause without logs. No website or PDF release promotion is authorized.
+- Draft PR #239 remains open/unmerged. The native raw evidence/Fact Lock and all downstream release gates remain blocked.
