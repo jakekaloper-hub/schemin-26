@@ -1614,6 +1614,262 @@
         "Commissioner Atlas Phase 1 directive 2026-09-30",
         "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
       ]
+    },
+    {
+      "id": "CAND-W7-RED-CLIFF-HALFCOURT",
+      "working_name": "Red Ruins Cliffside Half-Court",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "SPORT_RECREATION",
+      "likely_physical_zone_ids": [
+        "REG-EASTERN-STORM-COAST"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "GOTW"
+      ],
+      "activation_trigger": "Week 7 Commissioner concept selected and World/Atlas preproduction approval obtained",
+      "story_functions": [
+        "low-profile outdoor half-court on existing ruin terrace",
+        "existing cliff escarpment visible beyond playing surface",
+        "no spectator seating; mist and airborne dust are conditional weather/lighting"
+      ],
+      "technology_translation": "REQUIRES_TECH_UNLOCK",
+      "championship_only": false,
+      "rare_use": true,
+      "related_active_location_ids": [
+        "LOC-RED-RUINS"
+      ],
+      "prerequisites": [
+        "GOTW neutral-site override with explicit reason",
+        "verify court surface, hoops and ball technology translation",
+        "verify Red parent terrain and both visitors' route",
+        "no cliff-edge construction without stability review"
+      ],
+      "inspiration": "Commissioner Week 7 personalized venue exploration, 2026-10-24",
+      "canon_notes": [
+        "Sub-location proposal inherits parent geography; no active LOC, coordinates or route invented.",
+        "Outcome-dependent visuals are not built or promoted.",
+        "See world/atlas/phase-1/WEEK_7_SIX_SITE_GEOGRAPHIC_DESIGN_V1.md"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Week 7 location direction 2026-10-24",
+        "world/atlas/phase-1/FUTURE_LOCATION_UNLOCK_FRAMEWORK_V1.md",
+        "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-W7-JEDI-CLIFF-DUEL",
+      "working_name": "Mountain Base Cliffside Duel Terrace",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "SPORT_RECREATION",
+      "likely_physical_zone_ids": [
+        "REG-UPPER-VALLEYS"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "REGULAR"
+      ],
+      "activation_trigger": "Week 7 Commissioner concept selected and World/Atlas preproduction approval obtained",
+      "story_functions": [
+        "existing high ridge and war-room overlook govern silhouette",
+        "narrow stable terrace, controlled approach and fall protection",
+        "bar-spin apparatus only if native material and engineering fit"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+      ],
+      "prerequisites": [
+        "do not relocate historical Bridge at Mountain Lake",
+        "verify stable cliff ledge and route for Chins",
+        "acrobatics and equipment remain optional"
+      ],
+      "inspiration": "Commissioner Week 7 personalized venue exploration, 2026-10-24",
+      "canon_notes": [
+        "Sub-location proposal inherits parent geography; no active LOC, coordinates or route invented.",
+        "Outcome-dependent visuals are not built or promoted.",
+        "See world/atlas/phase-1/WEEK_7_SIX_SITE_GEOGRAPHIC_DESIGN_V1.md"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Week 7 location direction 2026-10-24",
+        "world/atlas/phase-1/FUTURE_LOCATION_UNLOCK_FRAMEWORK_V1.md",
+        "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-W7-TDS-FALLS-GOLF",
+      "working_name": "Waterfall Temple Jungle Golf Grounds",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "SPORT_RECREATION",
+      "likely_physical_zone_ids": [
+        "REG-SOUTHERN-WETLANDS"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "REGULAR"
+      ],
+      "activation_trigger": "Week 7 Commissioner concept selected and World/Atlas preproduction approval obtained",
+      "story_functions": [
+        "waterfall remains orientation landmark",
+        "compact routed fairways on existing natural clearings rather than wholesale jungle clearing",
+        "tee-to-green line, sand bunker, water runoff and safe separation need topographic proof"
+      ],
+      "technology_translation": "REQUIRES_TECH_UNLOCK",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-TDS-WATERFALL-TEMPLE"
+      ],
+      "prerequisites": [
+        "golf equipment and turf management technology review",
+        "Andrew Green work as design research not copied architecture",
+        "avoid golf course overlap with temple or waterfall headwaters",
+        "verify Duckhook visitor route"
+      ],
+      "inspiration": "Commissioner Week 7 personalized venue exploration, 2026-10-24",
+      "canon_notes": [
+        "Sub-location proposal inherits parent geography; no active LOC, coordinates or route invented.",
+        "Outcome-dependent visuals are not built or promoted.",
+        "See world/atlas/phase-1/WEEK_7_SIX_SITE_GEOGRAPHIC_DESIGN_V1.md"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Week 7 location direction 2026-10-24",
+        "world/atlas/phase-1/FUTURE_LOCATION_UNLOCK_FRAMEWORK_V1.md",
+        "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-W7-DK-STRONGHOLD-HALL",
+      "working_name": "Highland Stronghold Hospitality Hall",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "COMMERCIAL_LEISURE",
+      "likely_physical_zone_ids": [
+        "REG-UPPER-VALLEYS"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "REGULAR"
+      ],
+      "activation_trigger": "Week 7 Commissioner concept selected and World/Atlas preproduction approval obtained",
+      "story_functions": [
+        "interior within established stronghold architecture",
+        "service desk and reserved table space only if institution fits",
+        "weather and elevation inherited from stronghold"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-DK-HIGHLAND-STRONGHOLD"
+      ],
+      "prerequisites": [
+        "confirm stronghold interior evidence and local institution",
+        "verify El Niño's weather manifestation classification and access",
+        "no modern restaurant signage"
+      ],
+      "inspiration": "Commissioner Week 7 personalized venue exploration, 2026-10-24",
+      "canon_notes": [
+        "Sub-location proposal inherits parent geography; no active LOC, coordinates or route invented.",
+        "Outcome-dependent visuals are not built or promoted.",
+        "See world/atlas/phase-1/WEEK_7_SIX_SITE_GEOGRAPHIC_DESIGN_V1.md"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Week 7 location direction 2026-10-24",
+        "world/atlas/phase-1/FUTURE_LOCATION_UNLOCK_FRAMEWORK_V1.md",
+        "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-W7-MUD-BUCK-TRACK",
+      "working_name": "Mud Dogs Fourteen-Point Buck Trail",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "SPORT_RECREATION",
+      "likely_physical_zone_ids": [
+        "REG-SOUTHERN-WETLANDS"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "REGULAR"
+      ],
+      "activation_trigger": "Week 7 Commissioner concept selected and World/Atlas preproduction approval obtained",
+      "story_functions": [
+        "existing raised ground, cypress channels and mud crossings",
+        "buck movement corridor with habitat and seasonal conditions verified",
+        "hunting blind and photo clearing only as temporary scene fixtures"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-MUD-DOGS-SWAMP"
+      ],
+      "prerequisites": [
+        "verify deer ecology and legal/fictional hunting season convention",
+        "do not assert real-world hunting permit rules in fantasy world",
+        "verify Chili arrival route and safe wetlands passage",
+        "no permanent trophy landmark from hypothetical result"
+      ],
+      "inspiration": "Commissioner Week 7 personalized venue exploration, 2026-10-24",
+      "canon_notes": [
+        "Sub-location proposal inherits parent geography; no active LOC, coordinates or route invented.",
+        "Outcome-dependent visuals are not built or promoted.",
+        "See world/atlas/phase-1/WEEK_7_SIX_SITE_GEOGRAPHIC_DESIGN_V1.md"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Week 7 location direction 2026-10-24",
+        "world/atlas/phase-1/FUTURE_LOCATION_UNLOCK_FRAMEWORK_V1.md",
+        "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+      ]
+    },
+    {
+      "id": "CAND-W7-SLOB-MANCAVE-POKER",
+      "working_name": "Slob Foothill Man Cave Poker Table",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "COMMERCIAL_LEISURE",
+      "likely_physical_zone_ids": [
+        "REG-UPPER-VALLEYS"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "REGULAR"
+      ],
+      "activation_trigger": "Week 7 Commissioner concept selected and World/Atlas preproduction approval obtained",
+      "story_functions": [
+        "existing man cave in foothill camp; no new independent city",
+        "table, seating, lighting and entry sightline within established interior",
+        "arrival staging at existing camp route"
+      ],
+      "technology_translation": "REQUIRES_TECH_UNLOCK",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-SLOB-FOOTHILL-CAMP"
+      ],
+      "prerequisites": [
+        "helicopter arrival not approved absent technology unlock; default mount/road approach",
+        "validate poker cards/chips/currency convention",
+        "verify LLC incoming route",
+        "no invented ownership transfer or wager settlement"
+      ],
+      "inspiration": "Commissioner Week 7 personalized venue exploration, 2026-10-24",
+      "canon_notes": [
+        "Sub-location proposal inherits parent geography; no active LOC, coordinates or route invented.",
+        "Outcome-dependent visuals are not built or promoted.",
+        "See world/atlas/phase-1/WEEK_7_SIX_SITE_GEOGRAPHIC_DESIGN_V1.md"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Week 7 location direction 2026-10-24",
+        "world/atlas/phase-1/FUTURE_LOCATION_UNLOCK_FRAMEWORK_V1.md",
+        "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+      ]
     }
   ]
 }
