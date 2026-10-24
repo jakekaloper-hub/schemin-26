@@ -2,9 +2,9 @@
   "status": "PROPOSED_NONCANON_LINKS_ONLY",
   "scope": "Actual new scene-to-source links; distinct linked events do not equal accepted or fully dramatized contests.",
   "baseline_passage_audit": "evidence/CURRENT_SEASON_PASSAGE_AUDIT.json",
-  "distinct_linked_event_count": 40,
-  "distinct_scene_count": 50,
-  "scene_link_count": 71,
+  "distinct_linked_event_count": 45,
+  "distinct_scene_count": 53,
+  "scene_link_count": 76,
   "accepted_event_count_claimed": null,
   "events": [
     {
@@ -535,6 +535,91 @@
           "pov_character_id": "CHAR-JAKE-KALOPER",
           "story_time_cutoff": "2016 through observed final team-1 event in Week 15 only",
           "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2017-P01-E001",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2017-J-01",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/THE_ROOM_THAT_KEPT_COUNT_NONCANON.md",
+          "heading": "## I. The First Refusal",
+          "line": 5,
+          "manuscript_sha256": "db96e0d53314004d2b5221768ce0d3ffc36d5d801e1b4ca26565c458cd24e37b",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2017 Week 1 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2017-P08-E047",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2017-J-02",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/THE_ROOM_THAT_KEPT_COUNT_NONCANON.md",
+          "heading": "## II. The Eighth Slate",
+          "line": 17,
+          "manuscript_sha256": "db96e0d53314004d2b5221768ce0d3ffc36d5d801e1b4ca26565c458cd24e37b",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2017 Week 8 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2017-P14-E084",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2017-J-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/THE_ROOM_THAT_KEPT_COUNT_NONCANON.md",
+          "heading": "## III. The Last Ladder",
+          "line": 31,
+          "manuscript_sha256": "db96e0d53314004d2b5221768ce0d3ffc36d5d801e1b4ca26565c458cd24e37b",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2017 through final observed team-1 event",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2017-P15-E089",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2017-J-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/THE_ROOM_THAT_KEPT_COUNT_NONCANON.md",
+          "heading": "## III. The Last Ladder",
+          "line": 31,
+          "manuscript_sha256": "db96e0d53314004d2b5221768ce0d3ffc36d5d801e1b4ca26565c458cd24e37b",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2017 through final observed team-1 event",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2017-P16-E095",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2017-J-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/THE_ROOM_THAT_KEPT_COUNT_NONCANON.md",
+          "heading": "## III. The Last Ladder",
+          "line": 31,
+          "manuscript_sha256": "db96e0d53314004d2b5221768ce0d3ffc36d5d801e1b4ca26565c458cd24e37b",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2017 through final observed team-1 event",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/SCENE_REGISTER.json",
           "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
         }
       ]

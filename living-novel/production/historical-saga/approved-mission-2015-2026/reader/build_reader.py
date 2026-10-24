@@ -27,7 +27,8 @@ SCENE_LANES = {
     "2015-jake-week1": (-3, "2015 Week 1 connected-account Jake candidate; user-attested identity plus Flaim continuity; no opponent identity"),
     "2015-jake-arc": (-2, "2015 Weeks 2–15 connected-account Jake candidate; user-attested identity plus Flaim continuity; no opponent identity"),
     "2016-jake-arc": (-1, "2016 connected-account Jake candidate; user-attested identity plus Flaim continuity; no opponent identity"),
-    "2024-title": (0, "2024 title aftermath only; no 2025 knowledge; event-scoped fictional identity support, raw human-owner UNKNOWN"),
+    "2017-jake-turning": (0, "2017 selected connected-account Jake turning fixtures; Flaim event-level team-1 join; no opponent identity"),
+    "2024-title": (1, "2024 title aftermath only; no 2025 knowledge; event-scoped fictional identity support, raw human-owner UNKNOWN"),
     "2025-reckoning": (1, "2025 named postseason events only; no 2026 knowledge; event-scoped fictional identity support, raw human-owner UNKNOWN"),
     "2026": (2, "After Chapter III; before Week 4 results"),
     "2026-week4": (3, "Week 4 consequence lane"),
@@ -36,7 +37,7 @@ SCENE_LANES = {
     "2026-week6-wetland": (6, "Same post-Week-6/pre-Week-7-result window; display order only, not proved temporal ordering of separate geographic events"),
 }
 EXPLICIT_LITERARY_FILES = ("2026-week5/A_DOOR_WIDE_ENOUGH_NONCANON.md",)
-HISTORICAL_LANES = {"2015-jake-week1", "2015-jake-arc", "2016-jake-arc", "2024-title", "2025-reckoning"}
+HISTORICAL_LANES = {"2015-jake-week1", "2015-jake-arc", "2016-jake-arc", "2017-jake-turning", "2024-title", "2025-reckoning"}
 HISTORICAL_BINDING_AUDIT = MISSION / "evidence/HISTORICAL_BINDING_AUDIT_2022_2025.json"
 CONNECTED_ACCOUNT_AUDIT = MISSION / "evidence/owner-extraction-audit/FLAIM_CONNECTED_ACCOUNT_CONTINUITY.md"
 
@@ -206,7 +207,7 @@ def build() -> dict:
         historical_metadata = {}
         if path.parent.name in {"2024-title", "2025-reckoning"}:
             historical_metadata = {"raw_human_owner_status": "UNKNOWN", "fictional_binding_audit": relative(HISTORICAL_BINDING_AUDIT), "fictional_binding_audit_sha256": digest(HISTORICAL_BINDING_AUDIT)}
-        elif path.parent.name in {"2015-jake-week1", "2015-jake-arc", "2016-jake-arc"}:
+        elif path.parent.name in {"2015-jake-week1", "2015-jake-arc", "2016-jake-arc", "2017-jake-turning"}:
             historical_metadata = {"raw_human_owner_status": "UNKNOWN", "identity_basis": "USER_ATTESTED_IDENTITY_PLUS_PROVIDER_CONNECTED_ACCOUNT_CONTINUITY", "connected_account_audit": relative(CONNECTED_ACCOUNT_AUDIT), "connected_account_audit_sha256": digest(CONNECTED_ACCOUNT_AUDIT)}
         entries.append({"path": relative(path), "sha256": digest(path), "anchor": anchor,
                         "scene_lane_order": SCENE_LANES[path.parent.name][0],
