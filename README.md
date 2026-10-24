@@ -22,6 +22,10 @@ Known migrations and recovery items remain in `MIGRATION_LEDGER.md`.
 
 Repository placement and folder ownership are governed by `docs/architecture/REPOSITORY_ARCHITECTURE_V2.md` and `governance/repository-architecture/FOLDER_DOMAIN_REGISTRY_V2.json`.
 
+## External creators and AI production engines
+
+For filmmakers, AI production systems, and outside creative teams entering the Commonwealth, start with the [External AI Production Charter](docs/production/EXTERNAL_AI_PRODUCTION_CHARTER.md). It routes external collaborators to the current Atlas, World Engine, character canon, Novel OS, Memo OS, Bullpen, Author Council, and advisory research. This is an onboarding and advisory entry point, not a new canon or release authority; the source-of-truth controls above still govern.
+
 ## Canonical league
 
 - ESPN league ID: `1417621`
