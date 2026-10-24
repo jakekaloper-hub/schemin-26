@@ -1,112 +1,134 @@
 # THE WEIGHT OF A CORRECTION
-*2026 — proposed continuation immediately after Chapter III, NONCANON / does not supersede approved prose*
+*2026 — proposed scene immediately after Chapter III; NONCANON / editorial candidate / not Chapter IV authorization*
 
-> Story cutoff: after the certified Week 3 result at Mire Hill and before any Week 4 result. Wilson is the sole principal POV. This text assumes no later standings, injury, trade, or encounter outcome. Geography is restricted to the established Mire Hill northern road and the already described working routes; the proposed minor objects and dialogue require editorial continuity review.
+> One principal POV: Wilson Look. Knowledge cutoff: certified Week 3, before any Week 4 result. Wilson has one integrated gorilla-centaur body with four legs; his attendant may ride, Wilson does not ride a separate mount. This scene uses the existing northern road, road workers, damaged drainage and false-crown motif from Chapter III. The obstruction, actions, objects and dialogue below are proposed fiction, not established events or new Atlas authority. See `WILSON_SCENE_SOURCE_AND_REVIEW_2026_10_24.md`.
 
-By the time Wilson reached the road's second bend, the picture of the crown had outrun him.
+The wheel stopped turning before Wilson understood why the men had stopped shouting.
 
-Not the drawing itself. The freight wagon carrying it was still behind his party, stopped where the shoulder narrowed and an axle needed attention. But a traveler coming the other way had seen the picture, remembered its least accurate detail, and passed the detail on as confidently as if he had stood on the summit.
+A repair wagon stood across the northern road. One wheel had slipped toward the broken edge of the drainage cut; the other held the higher stones. Its load leaned with it. The workers had gone quiet in the way people did when the next wrong movement might make their work much larger.
 
-"They say you planted it at the highest stone," the traveler told Wilson's attendant.
+His attendant drew up behind him.
 
-Wilson reined in.
+“We could go around.”
 
-"Who says?"
+Wilson looked at the strip beside the road. Beyond it, the ground fell toward the damaged cut. A man on foot might pass there. His own four-legged body would need more room, and the wagon needed the space that remained.
 
-The traveler stared. Recognition changed his face in stages: first excitement, then apprehension, then a determination not to abandon the story merely because its subject had appeared.
+“Where?”
 
-"The people coming from the hill."
+The attendant considered the question and said nothing.
 
-"Which people?"
+One of the workers recognized Wilson. He straightened, then looked past him, as if the victory might have brought someone better equipped to mend a road.
 
-"I didn't ask."
+“We'll clear it.”
 
-"There are a lot of people on a road."
+“I can see that.”
 
-The attendant leaned down. "The standard was below the summit."
+“We didn't know you were coming.”
 
-The traveler looked between them. "But you won."
+Wilson felt the answer rise: neither had the road.
 
-"Yes," Wilson said.
+It would have pleased his attendant. Someone would have repeated it. By evening a clever sentence might have acquired a witness who had never been there.
 
-"Then why not put it at the top?"
+He kept it.
 
-Because the top had been the very thing the custodians were trying to keep separate from possession. Because a mark that could be moved down a few paces could also be removed when its proper time came. Because an account of victory was not an instrument of transfer.
+“What moves first?”
 
-He could have explained all of that.
+The worker pointed at the wheel, then at a loose stone beside it. “That goes under. If we lift before it's ready, we lose what little purchase we've got.”
 
-Instead he asked, "Do you use this road?"
+Wilson stepped closer. The road pressed differently beneath each of his four legs. He shortened his stance until he could reach the wagon without crowding the men beside the cut.
 
-"Most days."
+The attendant began to dismount.
 
-"Did you use it before the Encounter?"
+“Stay there,” Wilson said. “Keep anyone else from pushing through.”
 
-"Of course."
+He put one hand against the wagon's side.
 
-"Did you ask anyone's permission then?"
+The worker shook his head.
 
-The man looked surprised. "No."
+“Not there.”
 
-"Good."
+Wilson looked at him.
 
-Wilson moved past him.
+For a moment neither moved. He knew the moment well: the pause after a refusal, when everyone waited to learn whether the refusal would be permitted to exist.
 
-A short way on, the attendant said, "He won't repeat any of that."
+Three wins. A standard on a hill. A stranger telling him where not to put his hand.
 
-"Probably not."
+The worker touched a lower timber.
 
-"He'll say you refused a crown."
+“Here. That board will split.”
 
-"I did refuse a crown. There wasn't one."
+Wilson moved his hand.
 
-The attendant made a noise that might have been laughter.
+“Tell me when.”
 
-The northern track gathered small evidence of the day's rain. Water pooled where cart wheels had displaced stone; grass leaned toward the ruts; a broken strip of binding lay caught beneath a roadside marker. Wilson dismounted to lift it free. He did not know whose binding it was. The material had no house color and no mark of ownership. He left it on the maintenance heap beside the road instead of carrying it away as a trophy.
+The stone scraped. A man crouched beside the wheel while another held the load steady. Wilson could see the crouching man's knuckles whiten around the edge of the stone. He waited for the signal and disliked waiting. He had enough strength to make the wagon move. That was the easy part. Strength offered him a dozen ways to make the road worse.
 
-Behind him, the attendant watched.
+“Now. A little.”
 
-"Everything becomes a story now," the attendant said.
+He leaned into the timber. The wagon answered with a long complaint. Behind him, one of his rear feet slid on loose grit; he checked the movement before it became a shove, reset his footing, and held.
 
-"No. Everything becomes somebody's version of one."
+“Enough.”
 
-Wilson climbed back into the saddle. He was tired enough that the distinction mattered more than it should have.
+He stopped.
 
-There had been three certified wins. There would be another encounter in time, and he would prepare for it. Neither fact explained why strangers on the road needed him to have claimed a hill he had left behind. They wanted something larger than a result, something with a shape and an ending. A crown was an efficient ending. So was a kingdom.
+The man by the wheel drew his hand clear.
 
-But the next work was not finished. The straps torn on the field needed replacing. The people who had traveled with him needed food. Orders would need to be checked before anyone departed again. Those things did not end when the standard went up, and they did not become less urgent because a charcoal artist had added seven points above his head.
+“Down.”
 
-At a roadside hollow, Wilson stopped to let a repair wagon pass. Two workers recognized him and offered a salute. A third barely glanced over; he was occupied keeping a wheel out of a rut.
+The weight settled. For an instant Wilson thought the stone would turn with it. Then the wheel held.
 
-Wilson watched the third until the wagon had cleared.
+Someone breathed out loudly enough to make the others laugh.
 
-"What?" his attendant asked.
+“Again?” Wilson asked.
 
-"That one knew what mattered."
+“Not yet.”
 
-"The wheel?"
+This time the waiting was worse. His shoulder burned. He could straighten and leave the wagon resting where it was; the men could finish without him. The road would remain blocked for a while, but he would be on the other side of the blockage. His attendant watched him, waiting for an order that would turn departure into something more dignified than impatience.
 
-"The road beneath it."
+Wilson kept his hand against the timber.
 
-The attendant looked back toward Mire Hill, though it could no longer be seen.
+The worker fitted another stone.
 
-"Shall I send someone to correct the drawing?"
+“Now.”
 
-Wilson considered it. He could send a rider, find the wagon, pay for a new sideboard, stand above the artist until every line had been fixed. By evening there might be three more drawings. A victory could be certified. A rumor could only be followed until the pursuer became its best advertisement.
+They moved the wheel back onto the road in two awkward efforts, neither fit for a picture. When the wagon finally stood level, Wilson had dust pressed into the seams of his hand and nothing to raise above his head.
 
-"No," he said. "They can keep it."
+The worker gave the wheel a hard shake. Only then did he look at Wilson.
 
-"The crown?"
+“Thank you.”
 
-"The mistake."
+Wilson nodded toward the road ahead. “Does the next wagon get through?”
 
-The attendant smiled. "Those are not usually gifts."
+“If they wait when we tell them.”
 
-Wilson urged his mount forward.
+His attendant laughed once, then pretended to cough.
 
-The road did not narrow for him. Its stones made no place for a conqueror; the ruts made no allowance for an unbeaten record. Somewhere behind them the approved standard stood on its shelf below the summit, and somewhere ahead waited the ordinary labor that would determine whether the next journey was possible.
+The worker looked alarmed. Wilson let him see the smile before it disappeared.
 
-He could not govern what people would remember.
+A gap had opened beside the wagon. This time it was wide enough. Wilson passed through under his own weight, four legs finding the sound stones, his attendant following on horseback.
 
-He could govern what he did next.
+Behind them, the men began arguing about where to put the next load. They had already returned to a problem that did not require him.
 
-That was enough road for one day.
+“Should I have given them your name?” the attendant asked.
+
+“They had it.”
+
+“For the account, I mean.”
+
+Wilson flexed the hand he had braced against the timber. He imagined the wagon drawing from the hill: a crown where none had been placed, a summit made to surrender by charcoal. It would be easy to add this road. A figure at the center, a wheel lifted one-handed, men kneeling where they had only been working.
+
+“No.”
+
+“They'll tell it anyway.”
+
+“Then let them get the wheel wrong.”
+
+“And the crown?”
+
+Wilson looked ahead. “They'll manage both.”
+
+The attendant rode on beside him without answering.
+
+Wilson's shoulder still hurt. There was no glory in the discomfort, and no reason it should last. For now it reminded him that he had waited when someone with muddy hands told him to wait.
+
+Behind him, a wheel began to turn.
