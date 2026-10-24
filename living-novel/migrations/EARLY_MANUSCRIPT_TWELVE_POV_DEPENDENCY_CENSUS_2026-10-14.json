@@ -1,0 +1,182 @@
+{
+  "schema": "schemin.novel.twelve_pov.early_manuscript_dependency_census.v1",
+  "as_of": "2026-10-14",
+  "status": "ACTUAL_SOURCE_CENSUS_NOT_MANUSCRIPT_MIGRATION",
+  "scoping": "Source is current main hard manuscript, not unmerged revisions. Segment boundaries are markdown divider heuristics, not verified literary scene POV classifications.",
+  "total_named_mentions": 388,
+  "owner_pr": "https://github.com/jakekaloper-hub/schemin-26/pull/130",
+  "docs": [
+    {
+      "unit": "Prologue",
+      "source_path": "living-novel/manuscript/PROLOGUE_DRAFT_V1.md",
+      "blob_sha": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "source_length": 35634,
+      "total_mentions": 130,
+      "segment_count": 2,
+      "segments_with_mentions": 2,
+      "segments": [
+        {
+          "sequence": 1,
+          "characters": 14588,
+          "mentions": 68,
+          "edrin": 40,
+          "oren": 28,
+          "opening_excerpt": "# PROLOGUE — THE KEEPING OF NAMES Final Candidate — Five Movements The rain had found the western windows before dawn. It came softly at first, touching the old",
+          "requires_pov_review": true,
+          "provisional_action": "CLASSIFY_SCENE_INNER_POV_THEN_DELETE_REASSIGN_OR_REBUILD",
+          "approved_migration": false
+        },
+        {
+          "sequence": 2,
+          "characters": 21040,
+          "mentions": 62,
+          "edrin": 38,
+          "oren": 24,
+          "opening_excerpt": "*End Movement I.* # MOVEMENT II — THE ARGUMENT By noon the rain had stopped, and the city began arguing. It argued in markets, beneath bridges, and inside count",
+          "requires_pov_review": true,
+          "provisional_action": "CLASSIFY_SCENE_INNER_POV_THEN_DELETE_REASSIGN_OR_REBUILD",
+          "approved_migration": false
+        }
+      ]
+    },
+    {
+      "unit": "Chapter I",
+      "source_path": "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md",
+      "blob_sha": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "source_length": 41464,
+      "total_mentions": 166,
+      "segment_count": 2,
+      "segments_with_mentions": 2,
+      "segments": [
+        {
+          "sequence": 1,
+          "characters": 4733,
+          "mentions": 31,
+          "edrin": 19,
+          "oren": 12,
+          "opening_excerpt": "# CHAPTER I — THE FIRST ANSWER ## I. Six Envelopes The bells changed before sunrise. Edrin knew this because he had been awake to hear them. For twelve days the",
+          "requires_pov_review": true,
+          "provisional_action": "CLASSIFY_SCENE_INNER_POV_THEN_DELETE_REASSIGN_OR_REBUILD",
+          "approved_migration": false
+        },
+        {
+          "sequence": 2,
+          "characters": 36725,
+          "mentions": 135,
+          "edrin": 97,
+          "oren": 38,
+          "opening_excerpt": "By full sunrise, the north square was packed. Someone had already painted OBIWAN across a bedsheet and hung it from a balcony. Someone else had painted KEEP THE",
+          "requires_pov_review": true,
+          "provisional_action": "CLASSIFY_SCENE_INNER_POV_THEN_DELETE_REASSIGN_OR_REBUILD",
+          "approved_migration": false
+        }
+      ]
+    },
+    {
+      "unit": "Chapter II",
+      "source_path": "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md",
+      "blob_sha": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "source_length": 32531,
+      "total_mentions": 92,
+      "segment_count": 2,
+      "segments_with_mentions": 2,
+      "segments": [
+        {
+          "sequence": 1,
+          "characters": 1650,
+          "mentions": 6,
+          "edrin": 3,
+          "oren": 3,
+          "opening_excerpt": "# CHAPTER II — WHAT COMES BACK ## I. Return to Sender The parcel arrived before the results. That was the problem. Had it arrived afterward, Master Oren said, i",
+          "requires_pov_review": true,
+          "provisional_action": "CLASSIFY_SCENE_INNER_POV_THEN_DELETE_REASSIGN_OR_REBUILD",
+          "approved_migration": false
+        },
+        {
+          "sequence": 2,
+          "characters": 30875,
+          "mentions": 86,
+          "edrin": 67,
+          "oren": 19,
+          "opening_excerpt": "The Red Leopards did not celebrate at the Record House. They celebrated in the avenue. The old ceremonial road ran from the eastern gate to the Hall of Measures",
+          "requires_pov_review": true,
+          "provisional_action": "CLASSIFY_SCENE_INNER_POV_THEN_DELETE_REASSIGN_OR_REBUILD",
+          "approved_migration": false
+        }
+      ]
+    },
+    {
+      "unit": "Chapter III",
+      "source_path": "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md",
+      "blob_sha": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc",
+      "source_length": 12600,
+      "total_mentions": 0,
+      "segment_count": 5,
+      "segments_with_mentions": 0,
+      "segments": [
+        {
+          "sequence": 1,
+          "characters": 2991,
+          "mentions": 0,
+          "edrin": 0,
+          "oren": 0,
+          "opening_excerpt": "# CHAPTER III — THE HILL IS NOT THE KINGDOM The hill had names before someone won it. None of them were the one people would remember. By dusk, travelers who ha",
+          "requires_pov_review": false,
+          "provisional_action": "VERIFY_EXISTING_PRINCIPAL_BOUNDARIES",
+          "approved_migration": false
+        },
+        {
+          "sequence": 2,
+          "characters": 2334,
+          "mentions": 0,
+          "edrin": 0,
+          "oren": 0,
+          "opening_excerpt": "The certificate arrived before the food. Wilson had made it as far as a temporary awning below the ridge when a rider came up the northern road hard enough to t",
+          "requires_pov_review": false,
+          "provisional_action": "VERIFY_EXISTING_PRINCIPAL_BOUNDARIES",
+          "approved_migration": false
+        },
+        {
+          "sequence": 3,
+          "characters": 3495,
+          "mentions": 0,
+          "edrin": 0,
+          "oren": 0,
+          "opening_excerpt": "The old custom was simple enough to survive centuries of people trying to complicate it. Win the ground. Use the ground. Leave the ground. Neutral Encounter sit",
+          "requires_pov_review": false,
+          "provisional_action": "VERIFY_EXISTING_PRINCIPAL_BOUNDARIES",
+          "approved_migration": false
+        },
+        {
+          "sequence": 4,
+          "characters": 2340,
+          "mentions": 0,
+          "edrin": 0,
+          "oren": 0,
+          "opening_excerpt": "By the time they descended, the first drawing had already appeared. It was charcoal on the sideboard of a stopped freight wagon. Crude. Fast. A broad black figu",
+          "requires_pov_review": false,
+          "provisional_action": "VERIFY_EXISTING_PRINCIPAL_BOUNDARIES",
+          "approved_migration": false
+        },
+        {
+          "sequence": 5,
+          "characters": 1416,
+          "mentions": 0,
+          "edrin": 0,
+          "oren": 0,
+          "opening_excerpt": "The road had existed before him. That was the thought that stayed. Not the score. Not the certificate. Not the fact that no other unbeaten record remained. The ",
+          "requires_pov_review": false,
+          "provisional_action": "VERIFY_EXISTING_PRINCIPAL_BOUNDARIES",
+          "approved_migration": false
+        }
+      ]
+    }
+  ],
+  "negative_controls": [
+    "Do not treat a supporting character mention as prohibited POV without review",
+    "Do not mechanically replace Edrin/Oren name with one of Twelve",
+    "Do not delete Record House institution by deleting its viewpoint",
+    "Do not edit accepted hard manuscript without Founder-approved exact proposed diffs"
+  ],
+  "next_action": "Produce scene-by-scene actual narrator ownership + institutional function transfer for earliest manuscript, then propose approved Twelve-principal rewrite under PR #130."
+}
