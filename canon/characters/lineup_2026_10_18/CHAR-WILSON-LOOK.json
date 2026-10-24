@@ -1,0 +1,77 @@
+{
+  "character_id": "CHAR-WILSON-LOOK",
+  "owner": "Wilson Look",
+  "team": "Donkey Kong",
+  "approved_presentation_title": "D0nkey K0ng",
+  "row": 1,
+  "column": 2,
+  "lineup_parent_path": "canon/characters/assets/lineups/SCHEMIN_26_COMMISSIONER_APPROVED_LINEUP_2026_10_18.png",
+  "lineup_parent_sha256": "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2",
+  "derived_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+  "derived_crop_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+  "pixel_rectangle_top_left": {
+    "x": 362,
+    "y": 0,
+    "width": 362,
+    "height": 405
+  },
+  "derived_crop_classification": "DERIVED_APPROVED_LINEUP_CROP",
+  "current_presentation_approval": "COMMISSIONER_APPROVED_2026_10_18",
+  "primary_source_supersession_approved": false,
+  "approved_visual_assertions": {
+    "subject_morphology": "ONE integrated Arsenal gorilla-centaur, gorilla head and upper torso fused to equine four-legged lower body",
+    "head_face": "Black-furred roaring gorilla",
+    "silhouette": "Broad ape shoulders over horse-bodied centaur; giant axe; red-and-gold Arsenal-inspired war cloth",
+    "palette": [
+      "black fur",
+      "red armor cloth",
+      "antique gold",
+      "dark equine coat"
+    ],
+    "recognizable_props": [
+      "large war axe",
+      "red-and-gold cannon heraldry"
+    ],
+    "negative_rules": [
+      "bipedal-only gorilla",
+      "gorilla rider on separate horse",
+      "human torso",
+      "missing lower pair of legs"
+    ]
+  },
+  "physical_engine_delta": {
+    "basis": "VISUAL_PRESENTATION_PLUS_EXISTING_CHARACTER_CANON_NOT_NUMERIC_SIMULATION",
+    "body_architecture": "ONE integrated Arsenal gorilla-centaur, gorilla head and upper torso fused to equine four-legged lower body",
+    "anatomy_constraints": [
+      "four weight-bearing equine lower limbs",
+      "gorilla upper arms and torso unified with centaur trunk",
+      "no separate gorilla riding a horse"
+    ],
+    "locomotion_class_interpretation": "quadrupedal equine-centaur ground motion",
+    "signature_equipment": [
+      "large war axe",
+      "red-and-gold cannon heraldry"
+    ],
+    "collision_and_attachment_measurements": "UNKNOWN_REQUIRES_GEOMETRY_CALIBRATION",
+    "height_mass_and_movement_ranges": "UNKNOWN_NOT_ESTABLISHED_BY_LINEUP",
+    "state": "CHARACTER_APPEARANCE_APPROVED__PHYSICS_QUANTIFICATION_HOLD"
+  },
+  "source_authority_continuity": {
+    "historical_primary_sha256": "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10",
+    "historical_primary_path": "canon/characters/assets/CHAR-WILSON-LOOK/primary/IMG_7866(1).jpeg",
+    "historical_primary_approval_unchanged": true,
+    "renderer_mounted_byte_receipt_present": false,
+    "c1_generated_output_acceptance_present": false
+  },
+  "spatial_anchor": {
+    "home_location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+    "region_ids": [
+      "REG-UPPER-VALLEYS",
+      "REG-NORTHERN-SPINE"
+    ],
+    "location_source": "world/location-control-plane/homelands/CHAR-WILSON-LOOK/CARD.json",
+    "lineup_background": "banners and embattled highland citadel",
+    "lineup_background_classification": "PRESENTATION_MOOD_ONLY__NOT_ATLAS_TRAVEL_OR_LOCATION_AUTHORITY"
+  },
+  "dk_special_hold": "EARLIER_REGISTERED_BIPEDAL_PRIMARY_JPEG_REMains_VISUAL_CANON_CONFLICT_HOLD; four-legged lineup depiction approved but per-character new primary source not superseded; prior main hotfix #197 intact"
+}

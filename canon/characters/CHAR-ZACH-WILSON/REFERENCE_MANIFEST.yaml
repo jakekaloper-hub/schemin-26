@@ -21,3 +21,21 @@ primary:
   renderer_mount: "NOT_PROVEN"
 supersession_state: "CURRENT"
 rule: "A Library-visible image or conversation file ID is not a durable renderer mount. Generation remains blocked until exact bytes are repository-addressable, rehashed, mounted, subject-bound, and receipted."
+
+supplementary_owner_spotlight_2026_10_13:
+  classification: "SUPPLEMENTARY_APPROVED_POSTER_NOT_PRIMARY"
+  repository_path: "canon/characters/assets/CHAR-ZACH-WILSON/supplementary/OWNER_SPOTLIGHT_2026.png"
+  receipt_path: "canon/characters/CHAR-ZACH-WILSON/OWNER_SPOTLIGHT_2026_RECEIPT.json"
+  identity_supersession: false
+  current_score_authority: false
+  renderer_gate: "HOLD_UNTIL_PRIMARY_AND_SUBJECT_BINDING_PROVEN"
+
+lineup_presentation_approval_2026_10_18:
+  state: "COMMISSIONER_APPROVED_VISUAL_PRESENTATION"
+  parent_image_sha256: "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2"
+  lineup_path: "canon/characters/assets/lineups/SCHEMIN_26_COMMISSIONER_APPROVED_LINEUP_2026_10_18.png"
+  owner_crop_path: "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png"
+  owner_crop_sha256: "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a"
+  visual_delta_path: "canon/characters/lineup_2026_10_18/CHAR-ZACH-WILSON.json"
+  primary_reference_supersession: false
+  approved_for_unverified_provider_generation: false

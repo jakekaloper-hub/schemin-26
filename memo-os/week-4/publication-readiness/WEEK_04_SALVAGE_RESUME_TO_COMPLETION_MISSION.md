@@ -1,4 +1,7 @@
 # BULLPEN — WEEK 4 SALVAGE RESUME TO COMPLETION
+
+> **Historical record — current authority check required (2026-10-24).** The 33-page spine, rejection states and completion orders below record the October 6 salvage plan. They do not reopen a released artifact, impose a current page count, or authorize production. Current issue state and acceptance follow PROJECT_CONTROL_REGISTRY.md, memo-os/README.md and the owning publication/release evidence gates.
+
 **Date:** 2026-10-06
 **Mode:** AUTONOMOUS COMPLETION / NO NEW STORY DISCOVERY
 
