@@ -206,6 +206,12 @@ def build_catalog(output=None, render=True, released_source_dir=None):
             'sha256': person['crop_sha256'], 'source': person['appearance_delta'],
             'sourceUrl': REPO + person['appearance_delta'],
         })
+    narrative_spec = importlib.util.spec_from_file_location('character_narratives', BASE / 'character_narratives.py')
+    narrative_module = importlib.util.module_from_spec(narrative_spec)
+    narrative_spec.loader.exec_module(narrative_module)
+    narratives = narrative_module.character_narratives(ROOT, characters, REVISION)
+    for character in characters:
+        character['narrative'] = narratives[character['id']]
     world_state = read('world/data/current_world_state.json')
     locations = read('world/data/locations.json')['locations']
     for location in locations:
@@ -338,8 +344,12 @@ def build_catalog(output=None, render=True, released_source_dir=None):
     companions = companion_module.load_companions(ROOT, memos, REVISION)
     for memo in memos:
         memo['pageText'] = companions.get(memo['id'], {})
+    composition_spec = importlib.util.spec_from_file_location('reviewed_character_compositions', BASE / 'reviewed_character_compositions.py')
+    composition_module = importlib.util.module_from_spec(composition_spec)
+    composition_spec.loader.exec_module(composition_module)
+    compositions = composition_module.load_compositions(ROOT, output, REVISION)
     artwork = load_artwork(output)
-    data = {'artwork': artwork, 'characters': characters, 'locations': locations, 'routes': routes, 'zones': zones,
+    data = {'characterCompositions': compositions, 'artwork': artwork, 'characters': characters, 'locations': locations, 'routes': routes, 'zones': zones,
             'memos': sorted(memos, key=lambda x: x['week'], reverse=True), 'chapters': chapters,
             'meta': {'title': 'Schemin · The Commonwealth', 'schemaVersion': 1, 'sourceRevision': REVISION,
                      'currentReleasedMemoId': current_released_memo_id,
