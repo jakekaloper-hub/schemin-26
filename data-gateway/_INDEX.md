@@ -9,7 +9,8 @@
 3. `FLAIM_PROVIDER_ADAPTER_V1.md`
 4. `flaim_adapter.py`
 5. `../schemas/freshness.schema.json`
-6. `../docs/governance/SOURCE_OF_TRUTH.md`
+6. `playoff-context/README.md` — derived postseason-context analytics candidate (NOT ACTIVE)
+7. `../docs/governance/SOURCE_OF_TRUTH.md`
 
 ## Core contract
 
@@ -41,3 +42,8 @@ A payload existing does not prove freshness. Consumers must propagate freshness 
 Flaim is a read-only provider adapter, not a second source of truth.
 
 Authorized connector captures are stored as provenance-stamped provider receipts and validated by `flaim_adapter.py`. Consumers must preserve provider limitations and recompute freshness from the capture timestamp.
+
+
+## Playoff Context Intelligence
+
+`playoff-context/` is a derived analytics capability beneath Data Gateway. It may compute probabilistic playoff context and conservative exact-status proofs from freshness-valid normalized league state. It does not become a source of truth, publish prose, mutate canon, or bypass result locks. Status remains **BUILD CANDIDATE / NOT ACTIVE** until its acceptance report closes all activation gates.

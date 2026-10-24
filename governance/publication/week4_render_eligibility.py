@@ -38,6 +38,25 @@ def dk_authority_valid():
     return all(x in text for x in ["ONE BODY", "GORILLA", "FOUR-LEGGED", "ARSENAL"])
 
 def render_eligibility(packet: dict) -> dict:
+    # New production candidates cannot bypass creative review by omitting
+    # scene_direction or publication_candidate metadata. Historical Week 4
+    # packets remain on their established, separately controlled route.
+    week = packet.get("production_week")
+    new_candidate = packet.get("publication_candidate") is True or (type(week) is int and week >= 5)
+    if new_candidate and "scene_direction" not in packet:
+        return {"state": "PAGE_RENDER_BLOCKED", "reason": "STORY_FIRST_SCENE_MISSING"}
+    if "scene_direction" in packet:
+        sys.path.insert(0, str(ROOT / "memo-os"))
+        from scene_direction import preflight
+        scene_packet = packet["scene_direction"]
+        if not isinstance(scene_packet, dict):
+            return {"state": "PAGE_RENDER_BLOCKED", "reason": "STORY_FIRST_SCENE_INVALID"}
+        if new_candidate:
+            scene_packet = {**scene_packet, "publication_candidate": True}
+        review = preflight(scene_packet)
+        if review["status"] != "PREVIS_READY":
+            return {"state": "PAGE_RENDER_BLOCKED",
+                    "reason": "SCENE_DIRECTION_NOT_READY", "review": review}
     required = [
       "page_id","page_number","page_function","narrative_purpose","story_beat",
       "fact_dependencies","character_ids","character_authority_refs","exact_reference_assets",

@@ -37,6 +37,7 @@
 28. `WEEK_4_ISSUE_PREVIS_BOARD_V1.md`
 29. `WEEK_4_PAGE_PACKET_REGISTER_V1.md`
 30. `WEEK_4_RELEASE_GATE_V1.md`
+31. `WEEK_4_PLAYOFF_CONTEXT_INTELLIGENCE_INTEGRATION_2026-10-05.md` — **CONDITIONAL POST-RESULT-LOCK ANALYTICS HOOK / DIRECTOR+UMPIRE GATED**
 
 ## Current state
 
@@ -50,13 +51,13 @@ The LLC × HMB casino / ledger concept remains an event-specific LLC-domain expr
 
 The Slob × Chili branch now uses **THE BEER CHAMPION'S BELT** as its preferred conditional payoff inside the existing invitation → celebration → beer contest → social-reversal engine. The former dart-throwing payoff is retired, and the paddling payoff is removed from the active branch. The belt ceremony remains conditional on a verified Slob victory and must be visually distinct from HMB's canonical championship belt. Country Club of Jackson currently functions as social-history motivation unless World/Atlas later resolves it as the physical scene.
 
-No finished art, final cover thesis, Week 4 result language, final standings language, or publication lock is authorized until the dependent V5.5 gates pass. The Commissioner has selected **TDS vs HMB** as the Week 5 GOTW forward module; that editorial selection is active while entering records and page form remain gated.
+No finished art, final cover thesis, Week 4 result language, final standings language, or publication lock is authorized until the dependent V5.5 gates pass. Playoff Context Intelligence is connected only as a conditional post-result-lock planning input; it may return no material candidate and has no authority to add a page or override Story Room. The Commissioner has selected **TDS vs HMB** as the Week 5 GOTW forward module; that editorial selection is active while entering records and page form remain gated.
 
 ## Prime rule
 
 Do not recreate Week 3's workflow manually. Week 4 runs through V5.5:
 
-DATA_REFRESH → FACT_SCOPE → TEMPORAL_CANON → CHARACTER/CONTINUITY → WORLD STATE → STORY INTELLIGENCE → STORY ROOM → ISSUE ARCHITECTURE → COMPLETE ISSUE PREVIS → PAGE PACKETS → PRODUCTION → QA → RELEASE.
+DATA_REFRESH → FACT_SCOPE → RESULT LOCK → PLAYOFF-CONTEXT CHECK → TEMPORAL_CANON → CHARACTER/CONTINUITY → WORLD STATE → STORY INTELLIGENCE → STORY ROOM → ISSUE ARCHITECTURE → COMPLETE ISSUE PREVIS → PAGE PACKETS → PRODUCTION → QA → RELEASE.
 
 
 ## Pre-publication story-authority hardening — 2026-10-05
