@@ -21,6 +21,20 @@ def fixture():
     return item
 
 class FounderApprovalGateTests(unittest.TestCase):
+    def test_intake_cannot_skip_source_lock(self):
+        item=fixture()
+        item["state"]="INTAKE"
+        self.assertIn("INVALID_STATE_TRANSITION", evaluate_transition(item,"PREPRODUCTION").errors)
+
+    def test_blocked_cannot_jump_directly_to_assembly(self):
+        item=fixture()
+        item["state"]="BLOCKED"
+        self.assertIn("INVALID_STATE_TRANSITION", evaluate_transition(item,"ASSEMBLY").errors)
+
+    def test_declared_early_transitions_remain_usable(self):
+        self.assertEqual(evaluate_transition({"state":"INTAKE"},"SOURCE_LOCK").state,"PASS")
+        self.assertEqual(evaluate_transition({"state":"SOURCE_LOCK"},"PREPRODUCTION").state,"PASS")
+
     def test_valid_release(self):
         self.assertEqual(evaluate_transition(fixture(), "RELEASED").state, "PASS")
 

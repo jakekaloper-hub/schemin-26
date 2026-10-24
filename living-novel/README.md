@@ -54,3 +54,12 @@ Start with:
 - `os/state/CURRENT_OPEN_LOOP_LEDGER_V1.json`
 
 The Prologue and Chapters I–III are closed hard manuscript canon. Chapter III (`THE HILL IS NOT THE KINGDOM`) was Founder-approved on 2026-10-01 against manuscript blob `49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc`. The accepted architecture came from the Full Seven four-round engagement under `consultants/author-council/engagements/NOVEL-AUTHOR-CONSULT-2026-10-01-001/`.
+
+
+## October 18 approved lineup — character-appearance and staging continuity
+
+The Commissioner-approved twelve-character appearance plate is documented at canon/characters/APPROVED_LINEUP_2026_10_18.json, with twelve owner-ID crops and descriptive physical records in canon/characters/lineup_2026_10_18/.
+
+Novel illustrators and scene architects preserve current character anatomy, silhouette, gear, companions and negative rules. Consult world/location-control-plane/evidence/APPROVED_LINEUP_SPATIAL_RECONCILIATION_2026_10_18.json for each existing homeland and region. A backdrop in the approved lineup is visual mood, not new Atlas geography, measured terrain, or proof of travel/venue events. League facts still require existing ESPN/Flaim evidence and temporal canon.
+
+This registration does not promote primary source SHA versions. Provider reference binding, C1 generated visual acceptance, and independent T15/T16 review remain on HOLD; no final character-bearing production art may be released without them.

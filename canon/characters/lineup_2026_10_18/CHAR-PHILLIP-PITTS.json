@@ -1,0 +1,72 @@
+{
+  "character_id": "CHAR-PHILLIP-PITTS",
+  "owner": "Phillip Pitts",
+  "team": "Three Dreaded Snake",
+  "approved_presentation_title": "Three Dreaded Snake",
+  "row": 1,
+  "column": 3,
+  "lineup_parent_path": "canon/characters/assets/lineups/SCHEMIN_26_COMMISSIONER_APPROVED_LINEUP_2026_10_18.png",
+  "lineup_parent_sha256": "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2",
+  "derived_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+  "derived_crop_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+  "pixel_rectangle_top_left": {
+    "x": 724,
+    "y": 0,
+    "width": 362,
+    "height": 405
+  },
+  "derived_crop_classification": "DERIVED_APPROVED_LINEUP_CROP",
+  "current_presentation_approval": "COMMISSIONER_APPROVED_2026_10_18",
+  "primary_source_supersession_approved": false,
+  "approved_visual_assertions": {
+    "subject_morphology": "Reptilian humanoid with THREE live serpent head-and-neck projections",
+    "head_face": "Exactly three snake heads, mouths and tongues independently visible",
+    "silhouette": "Three serpent necks over an armored humanoid torso; weapons carried below",
+    "palette": [
+      "bronze scales",
+      "moss green",
+      "dark leather"
+    ],
+    "recognizable_props": [
+      "blade weapons",
+      "layered leather/metal armor"
+    ],
+    "negative_rules": [
+      "single-headed snake",
+      "three separate creatures",
+      "restoring long pre-haircut dreads"
+    ]
+  },
+  "physical_engine_delta": {
+    "basis": "VISUAL_PRESENTATION_PLUS_EXISTING_CHARACTER_CANON_NOT_NUMERIC_SIMULATION",
+    "body_architecture": "Reptilian humanoid with THREE live serpent head-and-neck projections",
+    "anatomy_constraints": [
+      "three heads on one continuous body",
+      "humanoid pair of arms and legs beneath snake necks"
+    ],
+    "locomotion_class_interpretation": "humanoid bipedal; flexible three-neck articulation",
+    "signature_equipment": [
+      "blade weapons",
+      "layered leather/metal armor"
+    ],
+    "collision_and_attachment_measurements": "UNKNOWN_REQUIRES_GEOMETRY_CALIBRATION",
+    "height_mass_and_movement_ranges": "UNKNOWN_NOT_ESTABLISHED_BY_LINEUP",
+    "state": "CHARACTER_APPEARANCE_APPROVED__PHYSICS_QUANTIFICATION_HOLD"
+  },
+  "source_authority_continuity": {
+    "historical_primary_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+    "historical_primary_path": "canon/characters/assets/CHAR-PHILLIP-PITTS/primary/IMG_2178.jpeg",
+    "historical_primary_approval_unchanged": true,
+    "renderer_mounted_byte_receipt_present": false,
+    "c1_generated_output_acceptance_present": false
+  },
+  "spatial_anchor": {
+    "home_location_id": "LOC-TDS-WATERFALL-TEMPLE",
+    "region_ids": [
+      "REG-SOUTHERN-WETLANDS"
+    ],
+    "location_source": "world/location-control-plane/homelands/CHAR-PHILLIP-PITTS/CARD.json",
+    "lineup_background": "wet stone ruins with spectral green mist",
+    "lineup_background_classification": "PRESENTATION_MOOD_ONLY__NOT_ATLAS_TRAVEL_OR_LOCATION_AUTHORITY"
+  }
+}

@@ -49,6 +49,8 @@ def evaluate_transition(issue: Mapping[str, Any], target: str) -> Decision:
         return Decision("HOLD", ("INVALID_STATE",))
     if source == "RELEASED" and target != "RELEASED":
         return Decision("HOLD", ("RELEASED_IMMUTABLE",))
+    if target not in ALLOWED_TRANSITIONS[source]:
+        errors.append("INVALID_STATE_TRANSITION")
     if target in {"PAGE_PRODUCTION", "ASSEMBLY", "RELEASE_CANDIDATE", "RELEASED"}:
         plan_hash = issue.get("approved_plan_sha256")
         if not isinstance(plan_hash, str) or len(plan_hash) != 64:
