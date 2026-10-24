@@ -2,9 +2,9 @@
 
 Status: partial manuscript production, NONCANON. Baseline 8fcb77191955f413fe970154d47632770f923055; branch novel/historical-epic-2015-2026. The checkpoint records exact content digests; the enclosing Git commit records the revision.
 
-Completed: seven revised sequences, 35 scenes, ten distinct linked events. Historical subset: eleven scenes across four 2024–2025 contests. Current subset: 24 scenes across six 2026 events. No complete season. Original 62 artifacts preserved.
+Completed: twelve revised sequences, 62 scenes, 56 distinct linked events. Historical subset: 35 scenes across 50 event joins: all observed team-1 events in the bounded 2015–2017 Jake lane plus four 2024–2025 contests. Current subset: 27 scenes across six 2026 events. No complete season. Original 62 artifacts preserved.
 
-Next operation: inspect the 2015 rows in evidence/HISTORICAL_BINDING_MATRIX_2015_2025.json, then acquire a dated historical roster/owner source or an explicit canonical historical casting license for an affected principal. Match the actual event, temporal character state and proposed venue before revising the earliest reusable 2015 passage. A current slot match alone is insufficient. The binding matrix lists every later row and the four-event exception; do not reinstate a blanket historical hold.
+Next operation: retrieve and validate the 2018 Flaim team-1 event set. Use the same bounded user-attestation plus connected-account rule only for Jake; resolve each source event, temporal character state and proposed venue before drafting. A current slot match alone is insufficient. The binding matrix lists every later row and the four-event exception; do not reinstate a blanket historical hold.
 
 Independent work still pending: expand candidate book architecture into connected manuscript consequences, resolve remaining current-season passage gaps and legacy POV repairs, and complete season openings/closings. These are unfinished production, not all source-blocked. Do not treat this checkpoint as completion or automatic permission for canon promotion.
 

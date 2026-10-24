@@ -41,3 +41,35 @@ At the final slate, Mara brought the courier back. This time he had a witness: t
 Jake looked at the new marks and the old page. “I wanted it to stop us lying about what we owed.”
 
 He released the requested material. The visitor signed the return beside the first refusal. The season did not become a triumph. The room did not become fair. But the ledger remained open to a name that had once wanted it closed.
+
+## IV. The Second and Third Doors
+
+The second slate favored Jake; the third did not. A carpenter asked whether the reversal proved the room’s rule foolish. Jake offered wood now with a returner, or directions to a maker who owed the room nothing. The carpenter chose the maker.
+
+It cost Jake a useful visitor. It also kept the ledger from becoming a toll for every person who needed help. Mara recorded the departure without calling it a loss.
+
+## V. The Fourth and Fifth
+
+The fourth result went against him, and a supporter asked to move ahead of the people waiting at the door. Jake gave him a place at the table but not the first claim on the store. The fifth result went against Jake as well. The supporter left before supper.
+
+Mara said, “You lost him twice.” Jake wrote the man’s name in the margin, not as a debtor but as a cost he had accepted.
+
+## VI. The Sixth and Seventh
+
+The sixth result favored Jake. The seventh did not. A child returned a cracked lamp, and the storekeeper demanded payment. Jake created a repairs column instead.
+
+“Then everyone will break what they borrow,” the storekeeper said.
+
+“We will know the difference between a debt and an accident,” Jake answered. The rule cost him the storekeeper’s approval and gave the child reason to return the lamp rather than hide it.
+
+## VII. The Ninth Through Eleventh
+
+The ninth and tenth slates favored Jake. The eleventh did not. Mara said his repeated refusal of celebration had become a performance, so Jake opened the ledger to the passage and asked three people to change a rule.
+
+He chose the request that the room list what it could not give before people learned by public refusal. He hung an empty inventory beside the board. The next requester walked away without asking. Jake lost a chance to seem generous and spared someone the humiliation of being denied.
+
+## VIII. The Twelfth and Thirteenth
+
+The twelfth result favored Jake, and the inventory began to fill. The thirteenth did not. Someone erased a ration line overnight. Jake replaced it and added one question: *who bears the dark?*
+
+At dawn a woman wrote two names beneath it, including the old visitor’s. Jake changed the ration publicly. The decision angered people with more claim to the room, but made the inventory something people could argue with instead of a wall they had to climb.
