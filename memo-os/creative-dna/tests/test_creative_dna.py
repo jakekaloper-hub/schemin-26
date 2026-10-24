@@ -149,6 +149,30 @@ class CreativeDNAContractTests(unittest.TestCase):
         obj["pages"][1]["creative_dna"] = ["untrusted-list-payload"]
         self.check_defect(obj, "creative_dna payload missing")
 
+    def test_malformed_page_ids_return_diagnostics(self):
+        for value in (None, True, 7, [], {}, " "):
+            with self.subTest(value=value):
+                obj=fixture()
+                obj["pages"][0]["page_id"]=value
+                self.check_defect(obj,"missing or repeated page_id")
+
+    def test_inspection_malformed_packet_shapes_return_diagnostics(self):
+        with tempfile.TemporaryDirectory() as temp:
+            folder=Path(temp)/"2026-week-06"
+            folder.mkdir()
+            for packet in (None, [], "packet", {"pages":None}, {"pages":7}, {"pages":{}}):
+                with self.subTest(packet=packet):
+                    contents=json.dumps(packet).encode()
+                    (folder/"creative.json").write_bytes(contents)
+                    manifest={"expected_pages":4,"creative_dna_packet_path":"creative.json",
+                              "creative_dna_packet_sha256":hashlib.sha256(contents).hexdigest()}
+                    errors=inspect_creative_dna(manifest,folder/"issue-manifest.json")
+                    self.assertTrue(errors)
+                    self.assertTrue(all(isinstance(error,str) for error in errors))
+            for manifest in (None, [], "manifest"):
+                with self.subTest(manifest=manifest):
+                    self.assertTrue(inspect_creative_dna(manifest,folder/"issue-manifest.json"))
+
     def test_rankings_portrait_not_independently_generated(self):
         obj = fixture()
         obj["pages"][1]["creative_dna"]["power_rankings"]["ranking_rows"][0]["portrait_source"] = "fresh_generated_portrait"

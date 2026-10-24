@@ -92,6 +92,9 @@ def inspect_creative_dna(manifest, manifest_path):
     import re
     import sys
 
+    if not isinstance(manifest, dict):
+        return ["creative DNA: manifest must be an object"]
+
     base = Path(manifest_path).resolve().parent
     found = re.fullmatch(r"2026-week-(\d+)", base.name)
     folder_week = int(found.group(1)) if found else None
@@ -127,8 +130,10 @@ def inspect_creative_dna(manifest, manifest_path):
     from validate_creative_dna import validate_packet
     registry = json.loads((dna_root / "COMMISSIONER_CREATIVE_DNA_V1.json").read_text(encoding="utf-8"))
     errors.extend("creative DNA: " + issue for issue in validate_packet(data, registry))
+    if not isinstance(data, dict) or not isinstance(data.get("pages"), list):
+        return errors
     expected = manifest.get("expected_pages")
-    rows = data.get("pages", [])
+    rows = data["pages"]
     slots = [row.get("slot") for row in rows if isinstance(row, dict)]
     if type(expected) is not int or len(rows) != expected or any(type(n) is not int for n in slots) or sorted(n for n in slots if type(n) is int) != list(range(1, expected + 1)):
         errors.append("creative DNA: candidate page slots must cover every physical page")
