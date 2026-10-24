@@ -1,0 +1,139 @@
+{
+  "atlas": {
+    "arrival_routes": [
+      "ROUTE-BASIN-MARKET",
+      "ROUTE-COMPACT-GROUNDS",
+      "ROUTE-UPPER-BASIN-CONNECTOR",
+      "ROUTE-PORT-BASIN-CONNECTOR",
+      "ROUTE-ARCHIVE-CHAMBER"
+    ],
+    "background_topography": null,
+    "camera_direction": null,
+    "civil_context": "league_institution",
+    "division_presence": [],
+    "elevation_relationship": "DERIVE_FROM_ACTIVE_ATLAS",
+    "forbidden_landmarks": [],
+    "foreground_terrain": null,
+    "historical_overlays": [],
+    "midground": null,
+    "owner_domain": null,
+    "visible_landmarks": [
+      "records desk",
+      "map wall"
+    ],
+    "water_relationship": "DERIVE_FROM_ACTIVE_ATLAS"
+  },
+  "character": {
+    "body_locks": [],
+    "negative_locks": [],
+    "principal_character_ids": [],
+    "reference_status": "NO_PRINCIPAL_REQUIRED"
+  },
+  "civilization_context": {
+    "authority": "READ_ONLY_INTERPRETIVE_CONTEXT",
+    "character_rendering_allowed": false,
+    "consumer": "art_environment",
+    "context_id": "SETCTX-CENTRAL-BASIN",
+    "economic_activities": [
+      "markets",
+      "courier work",
+      "recordkeeping",
+      "caravan trade",
+      "agriculture"
+    ],
+    "location_id": "LOC-LEAGUE-CHAMBER",
+    "ok": true,
+    "ordinary_life": [
+      "markets",
+      "courier work",
+      "recordkeeping",
+      "caravan trade",
+      "agriculture"
+    ],
+    "prohibitions": [
+      "NO_NAMED_NPCS",
+      "NO_NEW_LOCATION_IDS",
+      "NO_CHARACTER_AUTHORITY",
+      "NO_WORLD_STATE_MUTATION"
+    ],
+    "provenance": [
+      "world/data/physical_zones.json",
+      "world/data/settlements.json",
+      "world/data/economies.json",
+      "world/data/locations.json"
+    ],
+    "region_id": "REG-CENTRAL-BASIN",
+    "scene_support": {
+      "background": [
+        "markets",
+        "courier work",
+        "recordkeeping",
+        "caravan trade",
+        "agriculture"
+      ],
+      "climate": [
+        "temperate",
+        "flood-cycle influence"
+      ],
+      "terrain": [
+        "broad river valleys",
+        "fertile lowlands",
+        "bridge corridors"
+      ]
+    }
+  },
+  "domain": {},
+  "memory": {
+    "events": [],
+    "prohibited_literalization": [
+      "generated scenery does not create canon"
+    ]
+  },
+  "schema_version": "2.0",
+  "typography": {
+    "approved_labels": [
+      "League Chamber"
+    ],
+    "exact_location_name": "League Chamber",
+    "generated_text_allowed": false
+  },
+  "world": {
+    "history": [],
+    "institutions": [
+      {
+        "function": [
+          "governance",
+          "arbiter functions",
+          "public League administration"
+        ],
+        "id": "INST-LEAGUE-CHAMBER",
+        "location_id": "LOC-LEAGUE-CHAMBER",
+        "name": "League Chamber",
+        "neutral": true
+      },
+      {
+        "canon_confidence": "INFERRED_FROM_RECURRING_MEMO_INSTITUTION",
+        "function": [
+          "waiver/transaction administration"
+        ],
+        "id": "INST-TRANSACTION-DESK",
+        "location_id": "LOC-LEAGUE-CHAMBER",
+        "name": "League Transaction Function",
+        "neutral": true
+      }
+    ],
+    "location_id": "LOC-LEAGUE-CHAMBER",
+    "ordinary_inhabitants": [
+      "markets",
+      "courier work",
+      "recordkeeping",
+      "caravan trade",
+      "agriculture"
+    ],
+    "physical_zone": "REG-CENTRAL-BASIN",
+    "weather": null,
+    "world_state": [
+      "neutral institutional space"
+    ]
+  }
+}

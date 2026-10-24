@@ -13,11 +13,21 @@ primary:
   expected_repository_path: "canon/characters/assets/CHAR-PHILLIP-PITTS/primary/IMG_2178.jpeg"
   observed_library_size_bytes: 200005
   media_type: "image/jpeg"
-  current_state: "SOURCE_BYTES_REQUIRED"
-  actual_sha256: null
-  git_blob_sha: null
-  repository_byte_size: null
-  fresh_context_fetch: "NOT_PROVEN"
+  current_state: "SOURCE_BYTES_VERIFIED_CANONICAL_MAIN"
+  actual_sha256: "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c"
+  git_blob_sha: "61065d0ee5dbffb750da9aeea3f64e664f38a1be"
+  repository_byte_size: 200005
+  fresh_context_fetch: "VERIFIED_CLEAN_MAIN_CHECKOUT_2026_10_13"
   renderer_mount: "NOT_PROVEN"
 supersession_state: "CURRENT_IDENTITY_AUTHORITY"
 rule: "A Library-visible image or conversation file ID is not a durable renderer mount. Generation remains blocked until exact bytes are repository-addressable, rehashed, mounted, subject-bound, and receipted."
+
+lineup_presentation_approval_2026_10_18:
+  state: "COMMISSIONER_APPROVED_VISUAL_PRESENTATION"
+  parent_image_sha256: "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2"
+  lineup_path: "canon/characters/assets/lineups/SCHEMIN_26_COMMISSIONER_APPROVED_LINEUP_2026_10_18.png"
+  owner_crop_path: "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png"
+  owner_crop_sha256: "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65"
+  visual_delta_path: "canon/characters/lineup_2026_10_18/CHAR-PHILLIP-PITTS.json"
+  primary_reference_supersession: false
+  approved_for_unverified_provider_generation: false

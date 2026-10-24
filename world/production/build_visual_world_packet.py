@@ -50,7 +50,16 @@ def build_packet(location_id:str)->dict[str,Any]:
     divisions.extend(loc.get("division_presence_ids",[]))
     divisions=list(dict.fromkeys(divisions))
 
+    # Derive environmental context from the same Universe source used by Memo/Novel.
+    from world.engine.civilization_consumers import resolve_scene_context
+    civilization = resolve_scene_context(location_id, "art_environment")
+    if not civilization.get("ok"):
+        raise ValueError(f"unresolved civilization context for {location_id}: {civilization.get('code', civilization.get('error'))}")
+    if civilization.get("character_rendering_allowed") is not False:
+        raise ValueError("civilization context cannot authorize character rendering")
+
     return {
+      "civilization_context": civilization,
       "schema_version":"2.0",
       "world":{
         "location_id":location_id,

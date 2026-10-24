@@ -1,3 +1,5 @@
+> **Historical record — reconciled 2026-10-24:** This document preserves the October 5 planning state and its contemporaneous authority language. It does not reinstate a fixed 19-page or 27-page issue, override later Commissioner decisions, or authorize new production. Resolve current Week 4 story authority through `memo-os/week-4/publication-readiness/WEEK_04_STORY_AUTHORITY_REGISTER.json`, current production guidance through `memo-os/week-4/_INDEX.md`, and release status through `governance/publication-manifest/PUBLICATION_MANIFEST_V1.json`. The historical text below is retained unchanged.
+
 # Week 4 Commissioner Current Overrides — 2026-10-05
 
 **Status:** LATEST EXPLICIT COMMISSIONER AUTHORITY FOR WEEK 4 PACKET RECONCILIATION
