@@ -16,8 +16,8 @@
   },
   "explicit_user_locks": {
     "mud_dogs": "Bobby Mitchell is the giant diseased mud-and-chain swamp dog, not a human in camouflage and not a pet alongside a human.",
-    "llc_memorial": "On P008–P011 David Babb wears the same Ditka-inspired Bears tribute outfit as the Commissioner-approved P001 FOR DA BEARS cover, changing posture per scene without changing his identity.",
-    "matchup_title": "For all matchup story pages P004–P027 the large main banner MUST be '${away} at ${home}', not 'SCHEMIN ’26'.",
+    "llc_memorial": "On P008\u2013P011 David Babb wears the same Ditka-inspired Bears tribute outfit as the Commissioner-approved P001 FOR DA BEARS cover, changing posture per scene without changing his identity.",
+    "matchup_title": "For all matchup story pages P004\u2013P027 the large main banner MUST be '${away} at ${home}', not 'SCHEMIN \u201926'.",
     "overrides": "P001 primary FOR DA BEARS; editorial pages have section titles; Schemin wordmark may be small issue metadata but NEVER repeated as main banner on every page."
   },
   "owner_visual_invariants": {
@@ -37,11 +37,11 @@
     },
     "CHAR-DAVID-BABB": {
       "species": "HUMAN_CORPORATE_RAIDER",
-      "description": "Recognizable dark-haired sunglasses-wearing David Babb Hostile Takeover identity. For the P001, P008–P011 Week 5 memorial arc specifically: costume continuity from Commissioner-approved P001 'FOR DA BEARS' image — dark navy Bears-inspired knit sweater, navy-orange team jacket, dark slacks, cigar; executive briefcase if scene requires. Different natural posture per page; preserve same human facial identity, do not substitute Mike Ditka's face.",
+      "description": "Recognizable dark-haired sunglasses-wearing David Babb Hostile Takeover identity. For the P001, P008\u2013P011 Week 5 memorial arc specifically: costume continuity from Commissioner-approved P001 'FOR DA BEARS' image \u2014 dark navy Bears-inspired knit sweater, navy-orange team jacket, dark slacks, cigar; executive briefcase if scene requires. Different natural posture per page; preserve same human facial identity, do not substitute Mike Ditka's face.",
       "reject": [
         "generic construction worker",
         "new actor's face",
-        "business suit replacing active P001 tribute outfit within P008–P011",
+        "business suit replacing active P001 tribute outfit within P008\u2013P011",
         "real Mike Ditka face substitution",
         "identical cutout pose pasted repeatedly"
       ]
@@ -438,7 +438,7 @@
     {
       "page_id": "P012",
       "expected_png": "SCHEMIN26_W05_P012_CHILI_NINO_OVERTURE.png",
-      "display_header": "El Niño at Chili Cheesers",
+      "display_header": "El Ni\u00f1o at Chili Cheesers",
       "header_priority": "PRIMARY",
       "league_wordmark_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
       "secondary_scene_headline": null,
@@ -468,7 +468,7 @@
     {
       "page_id": "P013",
       "expected_png": "SCHEMIN26_W05_P013_CHILI_NINO_SETUP.png",
-      "display_header": "El Niño at Chili Cheesers",
+      "display_header": "El Ni\u00f1o at Chili Cheesers",
       "header_priority": "PRIMARY",
       "league_wordmark_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
       "secondary_scene_headline": null,
@@ -498,7 +498,7 @@
     {
       "page_id": "P014",
       "expected_png": "SCHEMIN26_W05_P014_CHILI_NINO_ESCALATION.png",
-      "display_header": "El Niño at Chili Cheesers",
+      "display_header": "El Ni\u00f1o at Chili Cheesers",
       "header_priority": "PRIMARY",
       "league_wordmark_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
       "secondary_scene_headline": null,
@@ -528,7 +528,7 @@
     {
       "page_id": "P015",
       "expected_png": "SCHEMIN26_W05_P015_CHILI_NINO_PAYOFF.png",
-      "display_header": "El Niño at Chili Cheesers",
+      "display_header": "El Ni\u00f1o at Chili Cheesers",
       "header_priority": "PRIMARY",
       "league_wordmark_policy": "NO_LARGE_REPEATED_SCHEMIN_26_MASTHEAD",
       "secondary_scene_headline": null,
@@ -995,5 +995,12 @@
       "rendering_provenance": "NOT_PROVEN",
       "qa_gate": "HOLD"
     }
-  ]
+  ],
+  "historical_candidate_only": true,
+  "current_authority_resolution": {
+    "character_sources": "canon/characters/reference_sources_v1.json",
+    "visual_semantics": "canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json",
+    "publication": "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+    "rule": "Historical hashes and candidate page order do not supersede these current authorities."
+  }
 }

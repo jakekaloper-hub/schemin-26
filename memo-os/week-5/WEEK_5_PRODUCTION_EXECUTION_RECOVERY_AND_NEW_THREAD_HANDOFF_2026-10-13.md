@@ -1,3 +1,5 @@
+> **Historical candidate record (October 12–13):** Preserved for provenance, not current source or release authority. Current approved character registry, visual-reference authority and October 18 lineup prevail; older source supersession and 32-page planning claims below are not reactivated. Current release status resolves through `governance/publication-manifest/PUBLICATION_MANIFEST_V1.json`.
+
 # WEEK 5 — PRODUCTION EXECUTION RECOVERY / NEW-THREAD AUTHORITATIVE HANDOFF
 
 **Status:** AUTHORITATIVE RECOVERY ORDER / NOT ART-READY. **Commissioner instruction:** Bullpen assumes ownership; no repetitive requests for the Commissioner to restate assets, storylines, page text or approve normal reversible engineering actions. This document lives INSIDE the existing Memo OS; it is not a replacement operating system.

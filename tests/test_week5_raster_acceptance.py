@@ -50,6 +50,12 @@ def case(tmp_path):
     titles = [{"page_id": "P004", "display_header": "His Majesty's Blood at Three Dreaded Snake", "owner_reference_requirements": refs}]
     (week / "PUBLICATION_PAGE_MANIFEST.json").write_text(json.dumps({"pages": rows}))
     (week / "production-evidence/WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json").write_text(json.dumps({"pages": titles}))
+    canon = tmp_path / "canon/characters"
+    canon.mkdir(parents=True)
+    (canon / "reference_sources_v1.json").write_text(json.dumps({"entries": [
+        {"character_id": ref["character_id"], "expected_sha256": ref["raw_sha256"],
+         "approval_state": "APPROVED"} for ref in refs]}))
+    (canon / "VISUAL_REFERENCE_AUTHORITY_V1.json").write_text(json.dumps({}))
     mounts = [{
         "character_id": cid, "original_repo_path": "assets/" + name,
         "mounted_repo_path": "assets/" + name, "subject_binding_id": cid,
@@ -104,3 +110,25 @@ def test_wrong_subject_bytes_rejected(case):
 def test_missing_review_rejected(case):
     case[2]["full_res_manual_pixel_review"] = False
     assert _check(case)["reason"] == "PIXEL_AND_MOBILE_REVIEW_UNVERIFIED"
+
+
+def test_historical_hash_cannot_override_current_source(case):
+    registry = case[0] / "canon/characters/reference_sources_v1.json"
+    doc = json.loads(registry.read_text())
+    doc["entries"][0]["expected_sha256"] = "0" * 64
+    registry.write_text(json.dumps(doc))
+    assert _check(case)["reason"] == "ACTIVE_SOURCE_CONTRACT_MISMATCH"
+
+
+def test_hash_matching_but_semantically_conflicting_source_blocked(case):
+    root = case[0]
+    source = json.loads((root / "canon/characters/reference_sources_v1.json").read_text())["entries"][0]
+    (root / "canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json").write_text(json.dumps({
+        "source_visual_conflicts": [{"character_id": source["character_id"],
+            "state": "ACTIVE_CANON_VISUAL_CONFLICT_HOLD", "affected_expected_sha256": source["expected_sha256"]}]}))
+    assert _check(case)["reason"] == "ACTIVE_SOURCE_CONTRACT_MISMATCH"
+
+
+def test_missing_current_source_authority_blocks(case):
+    (case[0] / "canon/characters/reference_sources_v1.json").unlink()
+    assert _check(case)["reason"] == "ACTIVE_SOURCE_CONTRACT_MISMATCH"

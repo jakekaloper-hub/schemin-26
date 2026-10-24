@@ -1,3 +1,5 @@
+> **Historical candidate record (October 12–13):** Preserved for provenance, not current source or release authority. Current approved character registry, visual-reference authority and October 18 lineup prevail; older source supersession and 32-page planning claims below are not reactivated. Current release status resolves through `governance/publication-manifest/PUBLICATION_MANIFEST_V1.json`.
+
 # Week 5 — Image-First Benchmark & Renderer Acceptance Evidence
 
 **Date:** 2026-10-13. **Commissioner directive:** Individual complete page PNG assets, not a Bullpen-built PDF. Controlled by `../WEEK_5_CINEMATIC_ARTWORK_FIRST_FIDELITY_AMENDMENT_2026-10-13.md`.

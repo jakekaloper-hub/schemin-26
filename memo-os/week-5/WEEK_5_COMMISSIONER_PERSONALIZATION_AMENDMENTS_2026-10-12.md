@@ -1,3 +1,5 @@
+> **Historical candidate record (October 12–13):** Preserved for provenance, not current source or release authority. Current approved character registry, visual-reference authority and October 18 lineup prevail; older source supersession and 32-page planning claims below are not reactivated. Current release status resolves through `governance/publication-manifest/PUBLICATION_MANIFEST_V1.json`.
+
 # Week 5 — Commissioner Personalization Amendments (2026-10-12)
 
 **Authority:** Direct Commissioner creative direction. **Status:** APPROVED SCENE DETAILS; final outcomes, manuscripts, visual execution and independent Umpire remain gated. Inherits existing six-matchup concepts, venue/Atlas and character canon. No new parallel operating system or page count.

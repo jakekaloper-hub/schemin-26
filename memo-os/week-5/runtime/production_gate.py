@@ -10,6 +10,7 @@ built-in image-generation endpoint; only registered callers which invoke this
 entrypoint before generation are governed.
 """
 import argparse
+import importlib.util
 import hashlib
 import json
 from pathlib import Path
@@ -22,9 +23,28 @@ TITLE = WEEK_DIR / "production-evidence" / "WEEK_5_CHARACTER_AND_TITLE_RENDER_GA
 def read_json(path):
     return json.loads(Path(path).read_text(encoding="utf-8"))
 
+def current_reference_authority(root, expected):
+    """Historical page hashes cannot override the current approved source contract."""
+    try:
+        source = read_json(Path(root) / "canon/characters/reference_sources_v1.json")
+        authority = read_json(Path(root) / "canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json")
+        path = Path(__file__).resolve().parents[3] / "canon/characters/runtime/reference_authority.py"
+        spec = importlib.util.spec_from_file_location("week5_current_reference_authority", path)
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        candidates = {cid: {"sha256": sha, "asset_id": "historical-page:" + cid,
+                           "source_kind": "PAGE_SOURCE_CANDIDATE"}
+                      for cid, sha in expected.items()}
+        return module.request_authority_state(list(expected), candidates,
+            source_registry=source, authority_registry=authority)
+    except (OSError, ValueError, KeyError, TypeError):
+        return {"state": "GENERATION_BLOCKED", "reason": "CURRENT_SOURCE_AUTHORITY_UNAVAILABLE"}
+
+
 def check(page_id, evidence=None, repo_root=None):
     root = Path(repo_root) if repo_root else WEEK_DIR.parents[1]
-    manifest = read_json(MANIFEST)
+    week = root / "memo-os/week-5"
+    manifest = read_json(week / "PUBLICATION_PAGE_MANIFEST.json")
     page = next((p for p in manifest["pages"] if p["page_id"] == page_id), None)
     if not page:
         return {"state":"GENERATION_BLOCKED","reason":"UNKNOWN_PAGE","page_id":page_id}
@@ -32,7 +52,7 @@ def check(page_id, evidence=None, repo_root=None):
         return {"state":"GENERATION_BLOCKED","reason":"MANIFEST_RENDER_INELIGIBLE","page_id":page_id}
     if not isinstance(evidence, dict):
         return {"state":"GENERATION_BLOCKED","reason":"RENDER_EVIDENCE_MISSING","page_id":page_id}
-    titles = read_json(TITLE)
+    titles = read_json(week / "production-evidence/WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json")
     row = next(x for x in titles["pages"] if x["page_id"] == page_id)
     if evidence.get("page_id") != page_id or evidence.get("visible_primary_header") != row["display_header"]:
         return {"state":"GENERATION_BLOCKED","reason":"PAGE_TITLE_OR_ID_MISMATCH","page_id":page_id}
@@ -42,6 +62,9 @@ def check(page_id, evidence=None, repo_root=None):
     if not isinstance(refs,list):
         return {"state":"GENERATION_BLOCKED","reason":"MOUNT_RECEIPTS_MISSING","page_id":page_id}
     expected = {x["character_id"]:x["raw_sha256"] for x in row["owner_reference_requirements"]}
+    authority = current_reference_authority(root, expected)
+    if authority.get("state") != "REFERENCE_AUTHORITY_RESOLVED":
+        return {"state":"GENERATION_BLOCKED", "reason":"ACTIVE_SOURCE_CONTRACT_MISMATCH", "authority":authority, "page_id":page_id}
     actual = {x.get("character_id"):x for x in refs if isinstance(x,dict)}
     if set(actual)!=set(expected) or len(refs)!=len(expected):
         return {"state":"GENERATION_BLOCKED","reason":"REFERENCE_SET_MISMATCH","page_id":page_id}

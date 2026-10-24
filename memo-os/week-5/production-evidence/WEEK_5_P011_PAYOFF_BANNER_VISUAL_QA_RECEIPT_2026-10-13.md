@@ -1,3 +1,5 @@
+> **Historical candidate record (October 12–13):** Preserved for provenance, not current source or release authority. Current approved character registry, visual-reference authority and October 18 lineup prevail; older source supersession and 32-page planning claims below are not reactivated. Current release status resolves through `governance/publication-manifest/PUBLICATION_MANIFEST_V1.json`.
+
 # Week 5 P011 — Final Result Banner failure, factual closure and corrected PNG candidate
 
 **Commissioner issue:** P011 did not meet the proven Week 4 payoff-page visual standard and lacked a full scoring/record/owner portrait result bar. The lack of result-bar visual QA across all six final matchup pages was a production system defect, not a Commissioner input gap.

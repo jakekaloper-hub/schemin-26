@@ -1,3 +1,5 @@
+> **Historical candidate record (October 12–13):** Preserved for provenance, not current source or release authority. Current approved character registry, visual-reference authority and October 18 lineup prevail; older source supersession and 32-page planning claims below are not reactivated. Current release status resolves through `governance/publication-manifest/PUBLICATION_MANIFEST_V1.json`.
+
 # Week 5 — Compact Cinematic Collage: Editorial Conference Proposal
 **State:** DOCUMENTARY REVIEW / COMMISSIONER IDEA FOR DISCUSSION; NOT authenticated Bullpen Director, Author Council, consultant, or Umpire approval. No manifest or page packet changes authorized by this proposal alone.
 

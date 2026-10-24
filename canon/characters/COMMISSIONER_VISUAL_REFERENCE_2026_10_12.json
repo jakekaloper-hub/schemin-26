@@ -4,7 +4,7 @@
   "scope": "ALL_SCHEMIN_26_VISUALS",
   "approval": "COMMISSIONER_EXPLICIT",
   "source": "12 direct conversation image uploads",
-  "status": "SOURCE_BYTES_HASHED_IN_CONVERSATION; REPOSITORY_BINARY_INGEST_PENDING",
+  "status": "HISTORICAL_REFERENCE_ONLY_NOT_ACTIVE_AUTHORITY",
   "notes": [
     "Supersedes conflicting written physical descriptions, not established story events.",
     "Current PNG/JPEG files are not asserted to be byte-identical to earlier registered JPEG originals.",
@@ -24,7 +24,7 @@
     },
     {
       "character_id": "CHAR-MANNING-WELTY",
-      "team": "El Niño",
+      "team": "El Ni\u00f1o",
       "sha256": "b5b0b10e06cf0598bdc9e3501c170d14529bdb4dee31f8ee3453a40048a6099c",
       "source": "commissioner_uploaded_2026_10_12",
       "binary_state": "VERIFIED_IN_CONVERSATION_NOT_YET_IN_GIT"
@@ -99,5 +99,8 @@
       "source": "commissioner_uploaded_2026_10_12",
       "binary_state": "VERIFIED_IN_CONVERSATION_NOT_YET_IN_GIT"
     }
-  ]
+  ],
+  "historical_status": "SOURCE_BYTES_HASHED_IN_CONVERSATION; REPOSITORY_BINARY_INGEST_PENDING",
+  "active_source_supersession": false,
+  "current_authority": "canon/characters/reference_sources_v1.json + VISUAL_REFERENCE_AUTHORITY_V1.json + approved October18 lineup"
 }

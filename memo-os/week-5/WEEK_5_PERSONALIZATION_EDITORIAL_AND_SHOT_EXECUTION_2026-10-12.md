@@ -1,3 +1,5 @@
+> **Historical candidate record (October 12–13):** Preserved for provenance, not current source or release authority. Current approved character registry, visual-reference authority and October 18 lineup prevail; older source supersession and 32-page planning claims below are not reactivated. Current release status resolves through `governance/publication-manifest/PUBLICATION_MANIFEST_V1.json`.
+
 # Week 5 — Personalization: Manuscript and Shot Execution Packet
 **Execution:** Commissioner-approved creative details translated into **editorial draft prose + page-level visual directions**, NOT final approved manuscripts or actual renders. Canonical references: personalization amendment, hardened six-matchup concepts, Commissioner scene-feature authorization, verified Atlas/character audit, existing Week 5 master and manifest. Physical pages remain 32 provisional. All reader-facing team names are full canonical names.
 

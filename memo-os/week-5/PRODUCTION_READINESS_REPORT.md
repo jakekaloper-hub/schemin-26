@@ -1,3 +1,5 @@
+> **Historical candidate record (October 12–13):** Preserved for provenance, not current source or release authority. Current approved character registry, visual-reference authority and October 18 lineup prevail; older source supersession and 32-page planning claims below are not reactivated. Current release status resolves through `governance/publication-manifest/PUBLICATION_MANIFEST_V1.json`.
+
 # Week 5 — Production Readiness / Page Hydration Checkpoint
 
 **Overall: CONTROLLED_PRODUCTION_AUTHORIZED (Commissioner, 2026-10-13) / PUBLICATION HOLD.** Physical PDF proof production is permitted. This does NOT satisfy ESPN Fact Lock, Character Render Lock, 390px mobile typography, independently authenticated Umpire approval, or merge/release.

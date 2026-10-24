@@ -1,3 +1,5 @@
+> **Historical candidate record (October 12–13):** Preserved for provenance, not current source or release authority. Current approved character registry, visual-reference authority and October 18 lineup prevail; older source supersession and 32-page planning claims below are not reactivated. Current release status resolves through `governance/publication-manifest/PUBLICATION_MANIFEST_V1.json`.
+
 # Week 5 — Verified Atlas Routes and Twelve-Character Package Audit
 2026-10-12 | Source-backed preproduction evidence; no final results or rendering certification.
 Source authorities: world/data/locations.json, living-novel/os/geography/world_travel_graph_v1.json, canon/characters/CHARACTER_REGISTRY.yaml, canon/characters/CHAR-*/PACKAGE.md, canon/_INDEX.md.

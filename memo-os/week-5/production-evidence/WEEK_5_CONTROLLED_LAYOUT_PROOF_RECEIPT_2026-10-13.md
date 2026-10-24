@@ -1,3 +1,5 @@
+> **Historical candidate record (October 12–13):** Preserved for provenance, not current source or release authority. Current approved character registry, visual-reference authority and October 18 lineup prevail; older source supersession and 32-page planning claims below are not reactivated. Current release status resolves through `governance/publication-manifest/PUBLICATION_MANIFEST_V1.json`.
+
 # Week 5 — Controlled physical-layout proof receipt (2026-10-13)
 
 **Authority:** Commissioner `CONTROLLED_PRODUCTION_AUTHORIZED`, Issue #146 / PR #152, master packet and 32-ID `PUBLICATION_PAGE_MANIFEST.json`. This is production evidence **within the existing Memo OS**, not a new system. **Publication = HOLD.** **This document does not approve pagination, artwork or copy.**

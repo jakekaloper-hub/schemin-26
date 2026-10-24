@@ -1,3 +1,5 @@
+> **Historical candidate record (October 12–13):** Preserved for provenance, not current source or release authority. Current approved character registry, visual-reference authority and October 18 lineup prevail; older source supersession and 32-page planning claims below are not reactivated. Current release status resolves through `governance/publication-manifest/PUBLICATION_MANIFEST_V1.json`.
+
 # Week 5 — Commissioner Cinematic Visual Fidelity and Artwork Acceptance Amendment
 
 **Authority:** Commissioner, 2026-10-13. Binding **additive** instruction within existing Memo OS. Source: official 33-page `Pro_Schemin_26_Week_4_Official_Memo(3).pdf`; hash and audited comparisons in `production-evidence/WEEK_5_WEEK4_FIDELITY_BENCHMARK_AUDIT_2026-10-13.md`. Do not create a new OS, restart the six concepts, change the memorial cover, overwrite existing 32 packets, or promote an alternate page count without proof.

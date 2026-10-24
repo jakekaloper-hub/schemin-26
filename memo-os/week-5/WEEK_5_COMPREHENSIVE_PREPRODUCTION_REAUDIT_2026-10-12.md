@@ -1,3 +1,5 @@
+> **Historical candidate record (October 12–13):** Preserved for provenance, not current source or release authority. Current approved character registry, visual-reference authority and October 18 lineup prevail; older source supersession and 32-page planning claims below are not reactivated. Current release status resolves through `governance/publication-manifest/PUBLICATION_MANIFEST_V1.json`.
+
 # Week 5 — Comprehensive Preproduction Re-Audit Trigger and Recovery Scope
 2026-10-12 | STATUS: RE-AUDIT REQUIRED / PRIOR READINESS HANDOFF SUPERSEDED
 Work key SCHEMIN26-W05-UNIFIED-PREPROD-20261012. This document does not supersede approved creative decisions or verified Atlas and character facts.

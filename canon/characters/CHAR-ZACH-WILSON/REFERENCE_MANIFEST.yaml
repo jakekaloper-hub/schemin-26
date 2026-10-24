@@ -6,20 +6,36 @@ primary:
   classification: "PRIMARY_IDENTITY_AUTHORITY"
   approval_state: "APPROVED"
   render_quality: "HIGH"
-  source_filename: "COMMISSIONER_2026-10-12.png"
+  source_filename: "5B8C182F-FEBF-40A3-8DDA-1B4B62386B10.jpeg"
   conversation_file_id: "file_00000000684c81f88ac9e7373dbf8479"
   library_file_id: "libfile_af25a9c60db88191b46b0f343fe50e09"
-  expected_sha256: "5ff6fc4fc0b2f37d76bbab8651400478e37a709418867b0fd111c993762f9eda"
-  expected_repository_path: "canon/characters/assets/CHAR-ZACH-WILSON/primary/COMMISSIONER_2026-10-12.png"
-  observed_library_size_bytes: 2845619
-  media_type: "image/png"
-  current_state: "SOURCE_BYTES_VERIFIED"
-  actual_sha256: "5ff6fc4fc0b2f37d76bbab8651400478e37a709418867b0fd111c993762f9eda"
-  git_blob_sha: "182c2c6530ea52e06cd9aab0aebb44fab16398d2"
-  repository_byte_size: 2845619
-  fresh_context_fetch: "LOCAL_GIT_CHECKOUT_VERIFIED"
+  expected_sha256: "c8124a1f1146c0acc65b5e82d1c21289afd6a74a8ac2046895e39794619dcefb"
+  expected_repository_path: "canon/characters/assets/CHAR-ZACH-WILSON/primary/5B8C182F-FEBF-40A3-8DDA-1B4B62386B10.jpeg"
+  observed_library_size_bytes: 508338
+  media_type: "image/jpeg"
+  current_state: "SOURCE_BYTES_REQUIRED"
+  actual_sha256: null
+  git_blob_sha: null
+  repository_byte_size: null
+  fresh_context_fetch: "NOT_PROVEN"
   renderer_mount: "NOT_PROVEN"
 supersession_state: "CURRENT"
 rule: "A Library-visible image or conversation file ID is not a durable renderer mount. Generation remains blocked until exact bytes are repository-addressable, rehashed, mounted, subject-bound, and receipted."
 
-# Prior registered source preserved in reference_sources_v1.json.prior_active_source_2026_10_12
+supplementary_owner_spotlight_2026_10_13:
+  classification: "SUPPLEMENTARY_APPROVED_POSTER_NOT_PRIMARY"
+  repository_path: "canon/characters/assets/CHAR-ZACH-WILSON/supplementary/OWNER_SPOTLIGHT_2026.png"
+  receipt_path: "canon/characters/CHAR-ZACH-WILSON/OWNER_SPOTLIGHT_2026_RECEIPT.json"
+  identity_supersession: false
+  current_score_authority: false
+  renderer_gate: "HOLD_UNTIL_PRIMARY_AND_SUBJECT_BINDING_PROVEN"
+
+lineup_presentation_approval_2026_10_18:
+  state: "COMMISSIONER_APPROVED_VISUAL_PRESENTATION"
+  parent_image_sha256: "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2"
+  lineup_path: "canon/characters/assets/lineups/SCHEMIN_26_COMMISSIONER_APPROVED_LINEUP_2026_10_18.png"
+  owner_crop_path: "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png"
+  owner_crop_sha256: "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a"
+  visual_delta_path: "canon/characters/lineup_2026_10_18/CHAR-ZACH-WILSON.json"
+  primary_reference_supersession: false
+  approved_for_unverified_provider_generation: false

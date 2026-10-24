@@ -6,6 +6,7 @@ supplied annotations nor code checks attest that a native renderer conditioned
 on those images or that its pixels look correct. Live pixel QA remains mandatory.
 """
 import argparse
+import importlib.util
 import hashlib
 import json
 import struct
@@ -145,6 +146,12 @@ def inspect_candidate(page_id, png_path, receipt, repo_root, previous_page_diges
         expected_refs = {r["character_id"]: r["raw_sha256"] for r in title["owner_reference_requirements"]}
     except (KeyError, TypeError, ValueError):
         return stop("OWNER_REFERENCE_CONTRACT_INVALID")
+    gate_spec = importlib.util.spec_from_file_location("week5_preflight_authority", Path(__file__).with_name("production_gate.py"))
+    gate = importlib.util.module_from_spec(gate_spec)
+    gate_spec.loader.exec_module(gate)
+    authority = gate.current_reference_authority(root, expected_refs)
+    if authority.get("state") != "REFERENCE_AUTHORITY_RESOLVED":
+        return stop("ACTIVE_SOURCE_CONTRACT_MISMATCH")
     refs = receipt.get("reference_mounts")
     if not isinstance(refs, list) or len(refs) != len(expected_refs):
         return stop("ORIGINAL_REFERENCES_UNVERIFIED")

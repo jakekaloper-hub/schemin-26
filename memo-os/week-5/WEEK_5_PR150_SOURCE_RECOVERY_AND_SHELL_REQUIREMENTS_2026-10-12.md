@@ -1,3 +1,5 @@
+> **Historical candidate record (October 12–13):** Preserved for provenance, not current source or release authority. Current approved character registry, visual-reference authority and October 18 lineup prevail; older source supersession and 32-page planning claims below are not reactivated. Current release status resolves through `governance/publication-manifest/PUBLICATION_MANIFEST_V1.json`.
+
 # Week 5 — PR #150 recovered source reconciliation and shell control
 
 Status: REVIEW-ONLY; recovered from PR #150 branch, not promoted to main. This is a source-preservation companion to the existing Week 5 board, not a new OS.

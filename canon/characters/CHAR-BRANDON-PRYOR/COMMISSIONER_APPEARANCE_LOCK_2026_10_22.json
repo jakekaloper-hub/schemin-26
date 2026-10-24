@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "character_id": "CHAR-BRANDON-PRYOR",
+  "owner": "Brandon Pryor",
+  "team": "Chili Cheesers",
+  "identity": "The Chili Outlaw",
+  "approval_date": "2026-10-22",
+  "approval_source": "Explicit Commissioner correction in Schemin '26 conversation",
+  "status": "COMMISSIONER_APPROVED_APPEARANCE__REFERENCE_BINARY_INGESTION_PENDING",
+  "current_preferred_presentation": true,
+  "primary_september_source_supersession": false,
+  "image_reference": {
+    "filename": "chili_cheesers_the_chili_outlaw.png",
+    "sha256": "5812d9b62844368fdd1e23bb11657bbe47af101f7c026413eea6ce2bb8a3793f",
+    "canonical_target_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_CHILI_OUTLAW_2026_10_22.png",
+    "binary_ingested_to_repository": false,
+    "git_blob_sha": null,
+    "renderer_mount_verified": false
+  },
+  "original_reference_image": {
+    "filename": "Screenshot 2026-10-22 at 13.24.14.png",
+    "sha256": "dd961918a7707e276dcd9e9fe515fef9ae64e2ff0223f1c75a18da70d3b70e10",
+    "role": "COMMISSIONER_SUPPLIED_ORIGINAL_VISUAL_CORRECTION"
+  },
+  "visual_lock": {
+    "anatomy": "Adult rugged human cowboy outlaw, not anthropomorphic; The Dark Horse is a distinct four-legged black horse companion",
+    "face": "Dark beard and moustache, medium-length dark windswept hair, black sunglasses, weathered features",
+    "hat": "Weathered black-brown Western cowboy hat with red chili pepper and brass-metal ornamentation",
+    "outfit": "Long deep crimson and rust red leather outlaw coat or cape, red neckerchief, black tactical-western shirt, red cartridges across chest, leather gloves, dark scarred trousers and rugged black boots",
+    "equipment": "Western revolver, black-leather holster, prominent CHILI OUTLAW belt buckle",
+    "color_palette": ["deep crimson", "burnt orange", "weathered black leather", "brass", "warm gunmetal"],
+    "companion": "The Dark Horse: separate black horse, optionally beside or behind Brandon in group scenes",
+    "cinematography": "Low-angle heroic western framing with warm sunset backlight, dramatic smoke and dust; camera/framing may vary by scene",
+    "forbidden": [
+      "generic sheriff substitution",
+      "clean-shaven cowboy",
+      "human-horse fusion or centaur",
+      "changing the Dark Horse to another animal",
+      "swapping Brandon's face or costume with another principal character",
+      "treating the poster lettering or exact pose as mandatory in every scene"
+    ]
+  },
+  "authority": {
+    "legacy_primary_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/primary/76344FB3-1974-48D0-AA90-8B231E6008F7.jpeg",
+    "legacy_primary_sha256": "0bb99794f3a0b9fa1a7f791e17e6885fffcca4b79c824057623bab5c74598cfe",
+    "approval_scope": "Appearance and visual continuity for future Chili Cheesers productions",
+    "generation_eligible": false,
+    "next_gate": "Ingest the exact approved PNG bytes, verify SHA-256 and Git blob, reconcile resolver precedence, prove renderer reference attachment and independent visual QA"
+  }
+}

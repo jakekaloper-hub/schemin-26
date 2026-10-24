@@ -145,5 +145,12 @@
   ],
   "raw_byte_verification": "VERIFIED_BY_READ_ONLY_AUTHORIZED_DESKTOP_COMMANDER_RETRIEVAL_2026-10-13",
   "byte_integrity_verified": true,
-  "raw_byte_receipt_note": "On 2026-10-13 original bytes fetched in-memory from the PR #152 raw GitHub source on an authorized read-only Mac session. For each of 12 entries measured file length, SHA-256 and Git canonical blob SHA-1; all matched GitHub metadata. No image renderer mounting, subject binding, character visual inspection or final image acceptance occurred."
+  "raw_byte_receipt_note": "On 2026-10-13 original bytes fetched in-memory from the PR #152 raw GitHub source on an authorized read-only Mac session. For each of 12 entries measured file length, SHA-256 and Git canonical blob SHA-1; all matched GitHub metadata. No image renderer mounting, subject binding, character visual inspection or final image acceptance occurred.",
+  "historical_candidate_only": true,
+  "current_authority_resolution": {
+    "character_sources": "canon/characters/reference_sources_v1.json",
+    "visual_semantics": "canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json",
+    "publication": "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+    "rule": "Historical hashes and candidate page order do not supersede these current authorities."
+  }
 }

@@ -1,3 +1,5 @@
+> **Historical candidate record (October 12–13):** Preserved for provenance, not current source or release authority. Current approved character registry, visual-reference authority and October 18 lineup prevail; older source supersession and 32-page planning claims below are not reactivated. Current release status resolves through `governance/publication-manifest/PUBLICATION_MANIFEST_V1.json`.
+
 # Week 5 — PDF-First Cross-Domain Production Review
 **Status:** DOCUMENTARY CROSS-DOMAIN REVIEW / PROPOSED EXECUTION CONTROLS; **NOT** authenticated Director, Author Council, consultant, or Umpire signatures.
 **North Star:** Deliver one complete, cinematic, legible, portable **Week 5 league-shareable PDF**, not an HTML substitute. Use existing Memo OS, Master Production Packet, 32-page provisional manifest, page packets and approved Commissioner amendments; do not create a new OS.

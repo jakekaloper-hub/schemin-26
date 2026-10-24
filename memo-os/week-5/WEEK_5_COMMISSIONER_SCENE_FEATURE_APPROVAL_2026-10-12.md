@@ -1,3 +1,5 @@
+> **Historical candidate record (October 12–13):** Preserved for provenance, not current source or release authority. Current approved character registry, visual-reference authority and October 18 lineup prevail; older source supersession and 32-page planning claims below are not reactivated. Current release status resolves through `governance/publication-manifest/PUBLICATION_MANIFEST_V1.json`.
+
 # Week 5 — Commissioner Scene Feature Authorization (2026-10-12)
 **Decision:** APPROVED BY COMMISSIONER for Week 5 editorial/preproduction scene features.
 **Scope:** This approval authorizes designing and using the following features inside the established Schemin Atlas for the current Week 5 Memo. It does not by itself change canonical world coordinates, create independent permanent LOC_IDs, authorize unrelated new settlements, finalize fantasy results, or grant Character/Art/Page/Release Locks.

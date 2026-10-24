@@ -20,8 +20,5 @@ characters:
   - {id: CHAR-MANNING-WELTY, owner: Manning Welty, team: El Niño, identity: The Weather System, status: ACTIVE}
   - {id: CHAR-AUSTIN-BYARS, owner: Austin Byars, team: "His Majesty's Blood", aliases: ["The Immortal","That's Fantasy"], identity: The Belt Keeper, status: ACTIVE}
   - {id: CHAR-BOBBY-MITCHELL, owner: Bobby Mitchell, team: Mud Dogs, identity: Swamp-Born Menace, status: ACTIVE}
-  - {id: CHAR-ZACH-WILSON, owner: Zach Wilson, team: Dr. Duckhook, identity: King of the Impossible Lie, status: ACTIVE, hard_lock: "ANTHROPOMORPHIC WHITE-GRAY DUCK / YELLOW-ORANGE BILL / CAMOUFLAGE-FLORAL BUCKET HAT / RIGHT ARM FUSED TO GOLF DRIVER", hard_reject: ["human golfer","ordinary duck","physician","human in duck-print clothing","separate right arm holding club","generic golf mascot"]}
+  - {id: CHAR-ZACH-WILSON, owner: Zach Wilson, team: Dr. Duckhook, identity: King of the Impossible Lie, status: ACTIVE}
   - {id: CHAR-BEN-WHIPPLE, owner: Ben Whipple, team: Seven Deadly Chins, identity: "The People's Champ", aliases: ["Blue-Collar Spoiler"], status: ACTIVE}
-
-# 2026-10-12 Commissioner visual correction: Zach Wilson's user-supplied owner spotlight outranks failed generated human golfer.
-# All 12 owner-specific packages require exact approved asset bytes + hash + renderer mount + subject-binding proof; semantic locks alone do not authorize renders.

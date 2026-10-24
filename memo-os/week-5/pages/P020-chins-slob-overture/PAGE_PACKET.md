@@ -1,3 +1,5 @@
+> **Historical candidate record (October 12–13):** Preserved for provenance, not current source or release authority. Current approved character registry, visual-reference authority and October 18 lineup prevail; older source supersession and 32-page planning claims below are not reactivated. Current release status resolves through `governance/publication-manifest/PUBLICATION_MANIFEST_V1.json`.
+
 # P020 — After the Storm: Winner-POV Overture
 
 **State:** CONTRACTED PARTIAL / NOT READY_FOR_RENDER. **Dedicated physical page** immediately before P021 setup. No scoreboard, checkmate, winner pose or outcome spoiler.

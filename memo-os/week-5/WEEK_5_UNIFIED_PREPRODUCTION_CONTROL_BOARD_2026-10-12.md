@@ -1,3 +1,5 @@
+> **Historical candidate record (October 12–13):** Preserved for provenance, not current source or release authority. Current approved character registry, visual-reference authority and October 18 lineup prevail; older source supersession and 32-page planning claims below are not reactivated. Current release status resolves through `governance/publication-manifest/PUBLICATION_MANIFEST_V1.json`.
+
 # Week 5 Unified Preproduction Control Board — October 12, 2026
 Status: WORKING INDEX / PRE-MNF PROVISIONAL / NO FACT LOCK
 Work key: SCHEMIN26-W05-UNIFIED-PREPROD-20261012

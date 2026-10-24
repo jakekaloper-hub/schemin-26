@@ -1,3 +1,5 @@
+> **Historical candidate record (October 12–13):** Preserved for provenance, not current source or release authority. Current approved character registry, visual-reference authority and October 18 lineup prevail; older source supersession and 32-page planning claims below are not reactivated. Current release status resolves through `governance/publication-manifest/PUBLICATION_MANIFEST_V1.json`.
+
 # Schemin ’26 Week 5 — Single-Page PNG Production Script (P001–P032)
 
 **POST-P009 FATAL VISUAL ERROR OVERRIDE:** The user-uploaded Mud Dogs image matches the registered original SHA-256. P009 rendered a *human hunter instead of the monstrous dog* and a giant generic `SCHEMIN ’26` masthead. That render is rejected. Use `WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json`: its per-page `display_header`, visual-species invariants, P001 Ditka costume continuity, absolute rejects and image-QA proof requirements are **higher priority than any earlier masthead instruction in this script**. No new art until character conditioning is actually demonstrated.

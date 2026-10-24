@@ -1,3 +1,5 @@
+> **Historical candidate record (October 12–13):** Preserved for provenance, not current source or release authority. Current approved character registry, visual-reference authority and October 18 lineup prevail; older source supersession and 32-page planning claims below are not reactivated. Current release status resolves through `governance/publication-manifest/PUBLICATION_MANIFEST_V1.json`.
+
 # Week 5 — Six Substantive Conditional Story Treatments and Atlas Hydration
 
 **Status:** EDITORIAL DRAFT / NOT FACT LOCKED / NO WINNER SELECTED. Authored production material, not authenticated Beat Writer or Author Council output. Source: verified Atlas IDs/routes, owner packages, Commissioner scene approval and PR #150 shell doctrine. The narratives are candidate treatments; no outcomes or permanent world deltas asserted.

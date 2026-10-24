@@ -1,3 +1,5 @@
+> **Historical candidate record (October 12–13):** Preserved for provenance, not current source or release authority. Current approved character registry, visual-reference authority and October 18 lineup prevail; older source supersession and 32-page planning claims below are not reactivated. Current release status resolves through `governance/publication-manifest/PUBLICATION_MANIFEST_V1.json`.
+
 # Week 5 — Bullpen simulated conference, engineering proof and acceptance ledger
 **Mode: SIMULATED DIRECTOR/EDITORIAL/Umpire REVIEW, NOT AUTHENTICATED.** The role statements below are proposed specialist assessments. No live Bullpen runtime, consultant participation, or authenticated signoff was obtained. Existing Week 5 Master Production Packet is the sole controlling plan.
 

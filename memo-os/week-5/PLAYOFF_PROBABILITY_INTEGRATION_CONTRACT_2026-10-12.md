@@ -1,3 +1,5 @@
+> **Historical candidate record (October 12–13):** Preserved for provenance, not current source or release authority. Current approved character registry, visual-reference authority and October 18 lineup prevail; older source supersession and 32-page planning claims below are not reactivated. Current release status resolves through `governance/publication-manifest/PUBLICATION_MANIFEST_V1.json`.
+
 # Week 5 — Playoff Probability and Monte Carlo Integration Contract
 **Status:** SOURCE-RECOVERY COMPLETE FOR GITHUB TREE / MODEL RUNTIME NOT VERIFIED / ANALYTICS PUBLICATION HOLD.
 **Authority:** Existing Week 5 Issue #146, Memo OS V5.5, League Data Gateway and existing playoff context work. Additive Memo consumer contract, NOT a new mathematics OS.
