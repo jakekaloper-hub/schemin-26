@@ -26,9 +26,8 @@ class VisualPacketTests(unittest.TestCase):
                            "NO_ARSENAL_IDENTITY_OMISSION"}
         self.assertTrue(required_negative.issubset(forbidden))
         self.assertNotIn("NO_CENTAUR_ANATOMY", forbidden)
-        for valid_positive in ("ARSENAL_GORILLA_CENTAUR_WARRIOR",
-                               "ONE_INTEGRATED_GORILLA_EQUINE_BODY",
-                               "FOUR_LEGGED_CENTAUR_LOWER_BODY"):
+        for valid_positive in ("ARSENAL_GORILLA_WARRIOR",
+                               "ONE_BODY_GORILLA_CENTAUR_FOUR_LEGS"):
             self.assertNotIn(valid_positive, forbidden)
         self.assertIn("Gorilla Centaur Warrior", p["world"]["world_state"][0])
 
@@ -55,7 +54,7 @@ class VisualPacketTests(unittest.TestCase):
             "LOC-BELT-KEEPER-KEEP":("CHAMPIONSHIP_BELT",[]),
             "LOC-CHILI-STABLE":("DARK_HORSE",[]),
             "LOC-TRADE-JEDI-MOUNTAIN-BASE":(None,["NO_CHAMPIONSHIP_BELT"]),
-            "LOC-DK-HIGHLAND-STRONGHOLD":("FOUR_LEGGED_CENTAUR_LOWER_BODY",["NO_GENERIC_BIPEDAL_GORILLA"]),
+            "LOC-DK-HIGHLAND-STRONGHOLD":("ONE_BODY_GORILLA_CENTAUR_FOUR_LEGS",["NO_GENERIC_BIPEDAL_GORILLA"]),
         }
         for lid,(positive,negatives) in cases.items():
             with self.subTest(location=lid):

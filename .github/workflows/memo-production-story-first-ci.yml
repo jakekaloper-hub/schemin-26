@@ -1,0 +1,29 @@
+name: Memo Production Story-First CI
+on:
+  pull_request:
+    paths:
+      - 'memo-os/memo_os_story_gate.py'
+      - 'memo-os/test_memo_os_story_gate.py'
+      - 'memo-os/scene_direction.py'
+      - 'memo-os/tests/test_scene_direction.py'
+      - 'governance/publication/week4_render_eligibility.py'
+      - 'governance/publication/test_week7_story_first_render_gate.py'
+      - 'governance/publication/test_memo_production_story_gate.py'
+      - '.github/workflows/memo-production-story-first-ci.yml'
+  workflow_dispatch:
+jobs:
+  creative-story-preflight:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Story-first editorial positive and negative cases
+        run: python -m unittest discover -s memo-os -p 'test_memo_os_story_gate.py' -v
+      - name: Existing scene-direction regression
+        run: python -m unittest discover -s memo-os/tests -p 'test_scene_direction.py' -v
+      - name: Render-entry non-bypass regression
+        run: python -m unittest discover -s governance/publication -p 'test_week7_story_first_render_gate.py' -v
+      - name: Week-neutral future-issue coverage
+        run: python -m unittest discover -s governance/publication -p 'test_memo_production_story_gate.py' -v

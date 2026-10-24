@@ -12,6 +12,7 @@
 5. complete Issue Previs;
 6. Page Design Packet for every page;
 7. deterministic composition of critical data;
+7a. if playoff-context notation is used: finalized source snapshot + model/run receipt + evidence class + Umpire approval;
 8. final-raster Character QA;
 9. Continuity QA;
 10. World Geography QA;
