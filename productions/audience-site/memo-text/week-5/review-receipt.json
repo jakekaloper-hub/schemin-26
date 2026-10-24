@@ -1,0 +1,37 @@
+{
+  "decision": "ACCEPTED_FOR_TEXT_COMPANION",
+  "scope": "TEXT_COMPANION_ONLY",
+  "preparedBy": "AI agent /root/transcribe_week5 (simulated Bullpen framing; actual pixel inspection)",
+  "reviewer": "AI agent /root/modern_repairs; actual independent source-pixel review; Bullpen framing simulated, not authenticated Director or human approval",
+  "packetSha256": "05b7c9503db0725986549ed36156ae82670fbc794e2db822499447f48c8a6748",
+  "sourcePdfSha256": "cec56bd490f3e34b958b650ea6a512a0c867e70d1074948c4f21a844d64734cb",
+  "acceptedPhysicalPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "checks": {
+    "textAccuracy": "PASS",
+    "readingOrder": "PASS",
+    "visualDescription": "PASS"
+  },
+  "reviewScope": "Visible text, scores, names, narrative, reading order and visual descriptions. Intrinsically illegible decorative/occluded marks are explicitly disclosed, never guessed. Not certified full transcription, factual revalidation, source-original acceptance, canon promotion or artwork approval.",
+  "correctionIteration": "Independent reviewer added visible p1 stone snippets; author /root/transcribe_week5 separately reopened detail0 and confirmed TOUGHNESS/DISCIPLINE/PASSION, clipped LEADERSHI and partially occluded CHICAGO. Added p7 visible40 and p8 visibleCOMPLAC/3; hidden lettering never completed. Original author separately reopened p7 detail0 and p8 detail0/full page, confirming 40, clipped COMPLAC and the chest numeral3; small bottle lettering stays explicitly unresolved.",
+  "sourceCandidateSha256": "f8c46728a293f0f6e63b1f573e6f9d6a128955144ae2b8e3a05bdd99f2419533"
+}
