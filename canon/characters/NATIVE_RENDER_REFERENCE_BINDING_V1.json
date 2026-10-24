@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "status": "ACTIVE_NATIVE_REFERENCE_BINDING",
+  "status": "PARTIAL_NATIVE_REFERENCE_BINDING_DK_VISUAL_CONFLICT_HOLD",
   "created_at": "2026-10-06T02:57:00-04:00",
   "purpose": "Bridge current Commissioner-approved character references into first-party native image generation without paid external plugins.",
   "proof_basis": {
@@ -11,13 +11,13 @@
     "exact_size_match": true,
     "raw_byte_materialization_available": false,
     "fresh_sha256_recomputed": false,
-    "note": "This bridge does not claim a fresh byte hash. It binds the native renderer to the exact registered first-party Library handles already associated with the approved expected SHA-256 receipts."
+    "note": "This bridge does not claim a fresh byte hash. It binds the native renderer to the exact registered first-party Library handles already associated with the approved expected SHA-256 receipts. 2026-10-18: exact native handle metadata is NOT sufficient to establish current visual morphology; DK registered handle visually depicts retired bipedal body form and is blocked."
   },
   "renderer_contract": {
     "tool_family": "OpenAI native image generation",
     "required_parameter": "referenced_image_ids",
     "rule": "For every character-bearing page, pass every renderer_reference_id listed for that page. Do not omit, substitute, or replace with prose-only conditioning.",
-    "fail_closed": "If any required file_id cannot be resolved at render time: CHARACTER_REFERENCE_HANDLE_UNAVAILABLE / DO NOT GENERATE."
+    "fail_closed": "If any required file_id cannot be resolved at render time: CHARACTER_REFERENCE_HANDLE_UNAVAILABLE / DO NOT GENERATE. DK current registered file_id is visually stale for the October 2 four-legged morphology: DO NOT GENERATE current DK using this handle without approved version supersession."
   },
   "characters": [
     {
@@ -77,8 +77,10 @@
       "expected_sha256": "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10",
       "live_library_check": "MATCHED_REGISTERED_LIBRARY_HANDLE_2026-10-06",
       "renderer_reference_id": "file_00000000df4081f5803f8ba6dfb68b42",
-      "binding_state": "DIRECT_CANONICAL_HANDLE_READY",
-      "raw_hash_recomputed": false
+      "binding_state": "VISUAL_CANON_CONFLICT_HOLD",
+      "raw_hash_recomputed": false,
+      "visual_conflict_register": "canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json",
+      "approved_active_render_seed": false
     },
     {
       "character_id": "CHAR-PHILLIP-PITTS",
@@ -198,7 +200,7 @@
         "file_00000000df4081f5803f8ba6dfb68b42",
         "file_000000001f6881f59e412a2b70adf3ca"
       ],
-      "binding_state": "DIRECT_CANONICAL_HANDLE_READY"
+      "binding_state": "VISUAL_CANON_CONFLICT_HOLD"
     },
     {
       "page_id": "W4-P05",
@@ -210,7 +212,7 @@
         "file_00000000df4081f5803f8ba6dfb68b42",
         "file_000000001f6881f59e412a2b70adf3ca"
       ],
-      "binding_state": "DIRECT_CANONICAL_HANDLE_READY"
+      "binding_state": "VISUAL_CANON_CONFLICT_HOLD"
     },
     {
       "page_id": "W4-P06",
@@ -222,7 +224,7 @@
         "file_00000000df4081f5803f8ba6dfb68b42",
         "file_000000001f6881f59e412a2b70adf3ca"
       ],
-      "binding_state": "DIRECT_CANONICAL_HANDLE_READY"
+      "binding_state": "VISUAL_CANON_CONFLICT_HOLD"
     },
     {
       "page_id": "W4-P07",
@@ -234,7 +236,7 @@
         "file_00000000df4081f5803f8ba6dfb68b42",
         "file_000000001f6881f59e412a2b70adf3ca"
       ],
-      "binding_state": "DIRECT_CANONICAL_HANDLE_READY"
+      "binding_state": "VISUAL_CANON_CONFLICT_HOLD"
     },
     {
       "page_id": "W4-P08",

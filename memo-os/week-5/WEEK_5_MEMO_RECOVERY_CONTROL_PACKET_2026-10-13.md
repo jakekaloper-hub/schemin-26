@@ -1,4 +1,7 @@
 # WEEK 5 — MEMO PRODUCTION RECOVERY & DRIFT CONTROL
+
+> **Historical record — current authority check required (2026-10-24).** This October 13 recovery plan records conversation-based inventory and proposed production actions, not certified accepted pages or a current command to render. Its 21-page spine and reference assumptions do not override later approved story direction, current character sources or publication state. Resolve current authority through PROJECT_CONTROL_REGISTRY.md, memo-os/README.md and the owning release gates.
+
 **Date:** 2026-10-13
 **Authority:** Commissioner-directed recovery; existing Memo OS and Schemin Universe Atlas apply.
 **Status:** REVIEW PACKET / NO ART GENERATED / NO PAGE RELEASE / NO INDEPENDENT UMP RECONCILIATION

@@ -37,3 +37,22 @@ unreleased/unknown week → no substitution.
 13. Postmortem / OS patch
 
 Historical outputs are regression evidence, not current-state defaults or templates to copy verbatim.
+
+
+## Release-candidate artifact gate (Week 5 learning patch)
+
+**Historical Week 5:** User-confirmed distributed 19-page issue is archived as shipped; do not rewrite or backfill with invented pages. Its visible numbering and provenance issues become future-production regression fixtures.
+
+**New candidate checks:** `memo-os/tests/validate_issue.py` checks the structured release manifest (fact parity, pagination, identity/mobility QA status and dual acceptance). `memo-os/tests/validate_artifacts.py` independently opens the proposed PDF and page-master image files, recomputes SHA-256 values from disk, verifies PDF page count, decodes images and renders all PDF pages at 390px width.
+
+Use the *existing* Memo OS release candidate and manifest; do not start a second registry. A candidate manifest uses `pdf_path`, `published_artifact_sha256`, `expected_pages`, and for each page `slot`, `asset_path`, `asset_sha256`, alongside the existing validator fields. Paths resolve relative to the manifest and cannot escape its directory. Examples may be preflighted in review state, but **actual release requires independent, evidence-backed character, mobile, editorial, Scout and Umpire sign-offs**.
+
+Run on a real staged candidate before approving it:
+
+```bash
+python3 -m pip install pymupdf pillow
+python3 memo-os/tests/validate_artifacts.py path/to/actual/issue-manifest.json
+```
+
+The new CI executes synthetic positive/negative artifact regression fixtures. **CI success by itself does not prove the current weekly PDF passed the candidate gate.** Ensure the actual candidate command has run with archived outputs and reviewer receipts before release. The validator detects render failures but does **not** certify human-readability, character likeness, printed numbers embedded inside raster images, FLAIM source authenticity, or canonical geography. Those remain existing independent desks' responsibilities; a literal `PASS` field alone is not proof.
+

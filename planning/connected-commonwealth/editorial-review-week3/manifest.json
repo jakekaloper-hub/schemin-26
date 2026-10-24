@@ -1,0 +1,52 @@
+{
+  "artifacts": {
+    "atlas.json": "13f08e32a901a911426b15459dba37972bafe9680a3ac7c297d01a3b4673a1b1",
+    "memo-source.md": "72e3710c734b47b3f38fd913ba669d8b8afc48e17a7abc2a82c794025af16cd3",
+    "memo.md": "c7e64a30ee0c202b37d884d00b4b42cb74dd1e7dde9d8c7029ed87e5aeae1cd5",
+    "novel-source.md": "cfed9e35319eb98c2e0d23fa67de5f3a0aca0b55afe368f4f8a241d1cf57c4c0",
+    "novel.md": "3a40609226e470fad311130c05acf5a0f8fd4559a36f0074f857ee7807fe8901"
+  },
+  "blockers": [
+    "ACTIVE_MEMO_PUBLICATION_RUNNER_UNVERIFIED",
+    "ACTIVE_NOVEL_MANUSCRIPT_COMPILER_UNVERIFIED",
+    "CHARACTER_SOURCE_BYTES_AND_RENDER_MOUNT_NOT_VERIFIED",
+    "SCENE_SETTING_NOT_EDITORIALLY_APPROVED",
+    "INDEPENDENT_UMPIRE_NOT_ATTESTED",
+    "EVENT_APPROPRIATE_OWNER_POV_REQUIRED",
+    "FINAL_PDF_COMPOSITION_AND_ARTWORK_UNVERIFIED",
+    "NOVEL_MANUSCRIPT_APPROVAL_UNVERIFIED",
+    "SIMULATED_UMPIRE_REVIEW_ONLY"
+  ],
+  "event": {
+    "fact_lock_path": "memo-os/week-3/WEEK_3_FACT_LOCK_V1.md",
+    "fact_lock_sha256": "3abad0219b8e7f0589aae3de46917db162e36e1f3714b0411afb965ef8763b28",
+    "loser": "Three Dreaded Snake",
+    "loser_score": "114.50",
+    "season": 2026,
+    "week": 3,
+    "winner": "ObiWan Jacoby",
+    "winner_score": "136.73"
+  },
+  "existing_editorial_sources": {
+    "memo": "memo-os/week-3/WEEK_3_COMPLETE_MANUSCRIPT_V1.md",
+    "novel": "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md"
+  },
+  "memo_preflight": {
+    "context_id": "SETCTX-CENTRAL-BASIN",
+    "fact_lock_sha256": "3abad0219b8e7f0589aae3de46917db162e36e1f3714b0411afb965ef8763b28",
+    "ok": true,
+    "publication_eligible": false,
+    "status": "MEMO_QA_REHEARSAL_ONLY"
+  },
+  "novel_preflight": {
+    "context_id": "SETCTX-CENTRAL-BASIN",
+    "fact_lock_sha256": "3abad0219b8e7f0589aae3de46917db162e36e1f3714b0411afb965ef8763b28",
+    "ok": true,
+    "pov_character_id": "wilson_look",
+    "publication_eligible": false,
+    "status": "NOVEL_ENGINE_REHEARSAL_ONLY"
+  },
+  "publication_eligible": false,
+  "shared_context_id": "SETCTX-CENTRAL-BASIN",
+  "status": "SOURCE_BACKED_EDITORIAL_REVIEW_BUNDLE_NOT_PUBLICATION"
+}
