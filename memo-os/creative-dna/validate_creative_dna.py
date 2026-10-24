@@ -21,7 +21,12 @@ def _filled(value):
 
 
 def _number(value):
-    return isinstance(value, (int, float)) and not isinstance(value, bool) and math.isfinite(value)
+    if not isinstance(value, (int, float)) or isinstance(value, bool):
+        return False
+    try:
+        return math.isfinite(value)
+    except OverflowError:
+        return False
 
 
 def _record(obj):
@@ -160,16 +165,19 @@ def _check_rankings(data, errors, location):
             errors.append(prefix + ": invalid prior_rank")
         if type(move) is not int or (type(prior) is int and type(rank) is int and move != prior - rank):
             errors.append(prefix + ": movement not equal to prior_rank - rank")
-        if rank in ranks or prior in priors:
+        if (type(rank) is int and rank in ranks) or (type(prior) is int and prior in priors):
             errors.append(prefix + ": duplicated rank/prior rank")
-        ranks.add(rank)
-        priors.add(prior)
+        if type(rank) is int:
+            ranks.add(rank)
+        if type(prior) is int:
+            priors.add(prior)
         team = row.get("team_id")
         if not _filled(team) or team in teams:
             errors.append(prefix + ": missing/duplicate stable team_id")
-        if prior_by_owner and prior_by_owner.get(team) != prior:
+        if _filled(team) and prior_by_owner and prior_by_owner.get(team) != prior:
             errors.append(prefix + ": prior rank disagrees with published team baseline")
-        teams.add(team)
+        if _filled(team):
+            teams.add(team)
         if not _record(row.get("record")):
             errors.append(prefix + ": invalid W-L record")
         if not _filled(row.get("commentary")):
@@ -230,7 +238,7 @@ def _check_receipt(data, errors, location):
             errors.append(f"{prefix}: {side} missing team/portrait")
         if not _record(row.get("record")) or not _number(row.get("score")) or row.get("score", -1) < 0:
             errors.append(f"{prefix}: {side} invalid result data")
-        if isinstance(accepted, dict) and row.get("portrait_asset_ref") != accepted.get(team):
+        if _filled(team) and row.get("portrait_asset_ref") != accepted.get(team):
             errors.append(f"{prefix}: {side} portrait is not from accepted matchup wave")
         sides.append(row)
     if len(sides) == 2:

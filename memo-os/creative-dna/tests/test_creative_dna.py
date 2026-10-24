@@ -173,6 +173,35 @@ class CreativeDNAContractTests(unittest.TestCase):
                 with self.subTest(manifest=manifest):
                     self.assertTrue(inspect_creative_dna(manifest,folder/"issue-manifest.json"))
 
+    def test_nested_ranking_shapes_return_diagnostics(self):
+        for field, phrase in (("rank", "invalid rank"), ("prior_rank", "invalid prior_rank"),
+                              ("team_id", "missing/duplicate stable team_id")):
+            for value in ([], {}):
+                with self.subTest(field=field, value=value):
+                    obj=fixture()
+                    obj["pages"][1]["creative_dna"]["power_rankings"]["ranking_rows"][0][field]=value
+                    self.check_defect(obj, phrase)
+
+    def test_result_team_shapes_return_diagnostics(self):
+        for value in ([], {}):
+            with self.subTest(value=value):
+                obj=fixture()
+                obj["pages"][3]["creative_dna"]["matchup_progression_receipt"]["result"]["home"]["team_id"]=value
+                self.check_defect(obj, "home missing team/portrait")
+
+    def test_unrepresentable_numeric_scores_return_diagnostics(self):
+        for field in ("score", "margin"):
+            with self.subTest(field=field):
+                obj=fixture()
+                result=obj["pages"][3]["creative_dna"]["matchup_progression_receipt"]["result"]
+                if field == "score":
+                    result["home"][field]=10**400
+                    phrase="home invalid result data"
+                else:
+                    result[field]=10**400
+                    phrase="margin does not match score difference"
+                self.check_defect(obj, phrase)
+
     def test_rankings_portrait_not_independently_generated(self):
         obj = fixture()
         obj["pages"][1]["creative_dna"]["power_rankings"]["ranking_rows"][0]["portrait_source"] = "fresh_generated_portrait"
