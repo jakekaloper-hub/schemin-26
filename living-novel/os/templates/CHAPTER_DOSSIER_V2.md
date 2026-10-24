@@ -80,3 +80,15 @@ Ask:
 > **Could this page be reassigned to another POV by changing names only?**
 
 If yes, the voice/attention pass fails. Revise perception, vocabulary, body awareness, conflict reflex and knowledge—not merely dialogue tags.
+
+## Applied reading evidence (when a learning/revision pass is invoked)
+
+- assembled manuscript revision and pass receipt (see Author Council `ROUND_MEMO_TEMPLATE_V1.md`, section 9):
+- observed gaffe: exact file/passage and reader consequence, not a generic weakness:
+- reference section actually read; attributable claim versus our application inference:
+- two alternatives and selected targeted change; reason expansion earns its place:
+- constraint → choice → physical action → consequence; route/obstacle continuity:
+- information sender/recipient, later rediscovery and cross-year arc affected:
+- unchanged competitive facts/canon; unresolved dated owner bindings:
+- counterweight challenge and decision effect; independent review result:
+- scope: EXCERPT_ONLY or fully evidenced assembled-manuscript pass; never equate fixtures with literary coverage:

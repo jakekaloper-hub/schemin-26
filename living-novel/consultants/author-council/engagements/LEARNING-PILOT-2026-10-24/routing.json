@@ -1,0 +1,139 @@
+{
+  "bullpen_revision": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+  "mode": "ROUTER_EXECUTED_BOARD_SIMULATED",
+  "orientation": {
+    "version": "1.0.0",
+    "task": "Narrative writing creative quality: apply resource learning to story revision with provenance and completion checks",
+    "command": "mission",
+    "project": "schemin-26",
+    "planning_depth": "deep",
+    "matched_routes": [
+      {
+        "id": "execution-control",
+        "score": 1,
+        "hits": [
+          "completion"
+        ]
+      }
+    ],
+    "context_sources": [
+      "BULLPEN.md",
+      "knowledge/EXECUTION_CONTROL_REGISTRY_V1.json",
+      "docs/UNIFIED_EXECUTION_CONTROL_PLANE_SPEC_V1.md",
+      "runtime/executionControl.js"
+    ],
+    "planning_contract": {
+      "max_context_sources": 6,
+      "max_preplanning_passes": 3,
+      "max_directors_before_action": 4,
+      "research": "reuse_known_evidence_then_fill_only_material_gaps",
+      "spec": "required_only_when_acceptance_or_authority_is_unclear",
+      "premortem": "material_risks_only_not_generic_brainstorming",
+      "board": "targeted_board_not_full_board_by_default",
+      "proof": "tests_verify_audit_with_regression_where_relevant"
+    },
+    "existing_task": null,
+    "expansion_rule": "Expand context only when a material evidence gap, authority conflict, failed test, or cross-domain dependency appears.",
+    "execution_rule": "Resolve an existing roadmap/task before creating a new one. Do not serialize every lifecycle phase into a separate planning pass. Collapse compatible work and move to execution once the minimum authoritative context is sufficient."
+  },
+  "intent": {
+    "input": "/bullpen mission Narrative writing creative quality: apply resource learning to story revision with provenance and completion checks",
+    "command": "mission",
+    "mode": "build",
+    "mutation": true,
+    "confidence": 1,
+    "explicit": true,
+    "fallback_used": false,
+    "directors": [
+      "the_closer",
+      "the_groundskeeper",
+      "the_beat_writer",
+      "the_librarian",
+      "the_umpire"
+    ],
+    "lifecycle": [
+      "status",
+      "research",
+      "spec",
+      "premortem",
+      "plan",
+      "execute",
+      "test",
+      "verify",
+      "audit",
+      "redteam",
+      "polish",
+      "test",
+      "reconcile",
+      "handoff",
+      "retro",
+      "next"
+    ]
+  },
+  "route": {
+    "task": "Narrative writing creative quality: apply resource learning to story revision with provenance and completion checks",
+    "primary": "the_beat_writer",
+    "secondary": [
+      "the_librarian",
+      "the_umpire"
+    ],
+    "scores": {
+      "the_closer": 0,
+      "the_setup_man": 0,
+      "the_scout": 0,
+      "the_umpire": 1,
+      "the_beat_writer": 6,
+      "the_groundskeeper": 0,
+      "the_gm": 0,
+      "the_pitching_coach": 0,
+      "the_warden": 0,
+      "the_commissioner": 0,
+      "the_analyst": 0,
+      "the_librarian": 1,
+      "the_agent": 0,
+      "the_bookkeeper": 0,
+      "the_commissioner_general": 0,
+      "the_clubhouse_manager": 0,
+      "the_scout_master": 0,
+      "the_architect": 0
+    },
+    "confidence": 1,
+    "fallback_used": false,
+    "counterweight_plan": {
+      "primary": "the_beat_writer",
+      "activated": true,
+      "edge": "truth-preserving narrative quality",
+      "failure_mode": "narrative coherence becoming stronger than evidentiary truth",
+      "counterweights": [
+        "the_scout",
+        "the_librarian"
+      ],
+      "trigger_reasons": [],
+      "challenge_questions": [
+        "What is the verified event spine?",
+        "Which statements are interpretation rather than fact?",
+        "Did creative framing alter causality or history?"
+      ],
+      "preflight": [
+        "build the fact spine before prose"
+      ],
+      "during": [
+        "keep creative framing subordinate to the event spine"
+      ],
+      "postflight": [
+        "reconcile narrative claims against evidence and provenance"
+      ],
+      "tension": {
+        "id": "story_truth",
+        "name": "Claim Provenance",
+        "principle": "Every meaningful factual claim must know where it came from."
+      }
+    },
+    "participants": [
+      "the_beat_writer",
+      "the_librarian",
+      "the_umpire",
+      "the_scout"
+    ]
+  }
+}
