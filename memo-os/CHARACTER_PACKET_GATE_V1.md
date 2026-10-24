@@ -48,3 +48,20 @@ Prompt correctness cannot override a wrong final raster.
 
 ## Rename rule
 A team rename changes display metadata, not character identity, unless explicit Commissioner canon changes the character.
+
+
+## October 18, 2026 lineup approval — mandatory presentation reference
+
+For any owner-character page, resolve the owner to immutable CHAR-* ID and attach the current Commissioner-approved comparative appearance baseline:
+canon/characters/APPROVED_LINEUP_2026_10_18.json and the matching derived subject record under canon/characters/lineup_2026_10_18/.
+
+This exact lineup is approved for all twelve character appearances including the hooded red-eyed black-armored His Majesty's Blood correction. It does not authorize substitution of a September primary JPEG with a supplementary PNG, actual image provider binding, or publication without existing gates.
+
+- The visual compositor compares each character against the exact owner crop hash and negative rules, not generic prose.
+- Physical morphology preserves required limb/head counts and companions; numerical dimensions remain unmeasured.
+- Venue, terrain and travel remain governed by world/location-control-plane and existing location IDs, not artwork backdrops.
+- Historical poster captions are not fantasy league results, scores or roster facts.
+- DK historical bipedal source remains hard-blocked by active VISUAL_REFERENCE_AUTHORITY_V1.json conflict. A new four-legged depiction is not automatically a versioned replacement primary.
+- Umpire final-raster checks (C1/T15/T16), source attachment, and per-subject identity binding remain independent prerequisites.
+
+**Status:** appearance approved; generation/publication gates HOLD until actual provider evidence and independent visual QA.
