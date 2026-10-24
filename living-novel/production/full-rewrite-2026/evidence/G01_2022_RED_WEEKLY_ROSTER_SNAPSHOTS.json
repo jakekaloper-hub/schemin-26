@@ -1,0 +1,691 @@
+{
+  "year": 2022,
+  "historical_team_slot": 2,
+  "source": "Flaim ESPN week roster snapshots",
+  "caveat": "Roster changes cannot identify trade vs waiver; personal owner identity not certified",
+  "snapshots": [
+    {
+      "week": 1,
+      "success": true,
+      "team": "Red Leopards",
+      "limitations": {
+        "acquisitionMetadataAvailable": false,
+        "playerProTeamAvailable": false,
+        "keeperValueFutureAvailable": false
+      },
+      "players": [
+        {
+          "id": 3116406,
+          "name": "Tyreek Hill",
+          "pos": "WR",
+          "slot": "WR",
+          "acquisition": null
+        },
+        {
+          "id": 3116365,
+          "name": "Mark Andrews",
+          "pos": "TE",
+          "slot": "TE",
+          "acquisition": null
+        },
+        {
+          "id": 3117251,
+          "name": "Christian McCaffrey",
+          "pos": "RB",
+          "slot": "RB",
+          "acquisition": null
+        },
+        {
+          "id": 4040655,
+          "name": "Darnell Mooney",
+          "pos": "WR",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 2977187,
+          "name": "Cooper Kupp",
+          "pos": "WR",
+          "slot": "WR",
+          "acquisition": null
+        },
+        {
+          "id": 3135321,
+          "name": "Hunter Renfrow",
+          "pos": "WR",
+          "slot": "WR/TE",
+          "acquisition": null
+        },
+        {
+          "id": 4045163,
+          "name": "Miles Sanders",
+          "pos": "RB",
+          "slot": "RB",
+          "acquisition": null
+        },
+        {
+          "id": 4569173,
+          "name": "Rhamondre Stevenson",
+          "pos": "RB",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 3916148,
+          "name": "Tony Pollard",
+          "pos": "RB",
+          "slot": "FLEX",
+          "acquisition": null
+        },
+        {
+          "id": 4383351,
+          "name": "Trey Lance",
+          "pos": "QB",
+          "slot": "QB",
+          "acquisition": null
+        },
+        {
+          "id": 15795,
+          "name": "DeAndre Hopkins",
+          "pos": "WR",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 15835,
+          "name": "Zach Ertz",
+          "pos": "TE",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 2574808,
+          "name": "Robbie Anderson",
+          "pos": "WR",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": -16025,
+          "name": "49ers D/ST",
+          "pos": "D/ST",
+          "slot": "D/ST",
+          "acquisition": null
+        },
+        {
+          "id": 4362887,
+          "name": "Justin Fields",
+          "pos": "QB",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 4569587,
+          "name": "Wan'Dale Robinson",
+          "pos": "WR",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 3051909,
+          "name": "Daniel Carlson",
+          "pos": "K",
+          "slot": "K",
+          "acquisition": null
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "success": true,
+      "team": "Red Leopards",
+      "limitations": {
+        "acquisitionMetadataAvailable": false,
+        "playerProTeamAvailable": false,
+        "keeperValueFutureAvailable": false
+      },
+      "players": [
+        {
+          "id": 3116406,
+          "name": "Tyreek Hill",
+          "pos": "WR",
+          "slot": "WR",
+          "acquisition": null
+        },
+        {
+          "id": 3116365,
+          "name": "Mark Andrews",
+          "pos": "TE",
+          "slot": "TE",
+          "acquisition": null
+        },
+        {
+          "id": 3117251,
+          "name": "Christian McCaffrey",
+          "pos": "RB",
+          "slot": "RB",
+          "acquisition": null
+        },
+        {
+          "id": 4040655,
+          "name": "Darnell Mooney",
+          "pos": "WR",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 2977187,
+          "name": "Cooper Kupp",
+          "pos": "WR",
+          "slot": "WR",
+          "acquisition": null
+        },
+        {
+          "id": 3135321,
+          "name": "Hunter Renfrow",
+          "pos": "WR",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 4045163,
+          "name": "Miles Sanders",
+          "pos": "RB",
+          "slot": "RB",
+          "acquisition": null
+        },
+        {
+          "id": 4569173,
+          "name": "Rhamondre Stevenson",
+          "pos": "RB",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 3916148,
+          "name": "Tony Pollard",
+          "pos": "RB",
+          "slot": "FLEX",
+          "acquisition": null
+        },
+        {
+          "id": 15795,
+          "name": "DeAndre Hopkins",
+          "pos": "WR",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 15835,
+          "name": "Zach Ertz",
+          "pos": "TE",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 2574808,
+          "name": "Robbie Anderson",
+          "pos": "WR",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": -16025,
+          "name": "49ers D/ST",
+          "pos": "D/ST",
+          "slot": "D/ST",
+          "acquisition": null
+        },
+        {
+          "id": 4362887,
+          "name": "Justin Fields",
+          "pos": "QB",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 3051909,
+          "name": "Daniel Carlson",
+          "pos": "K",
+          "slot": "K",
+          "acquisition": null
+        },
+        {
+          "id": 4037235,
+          "name": "Greg Dortch",
+          "pos": "WR",
+          "slot": "WR/TE",
+          "acquisition": null
+        },
+        {
+          "id": 2576980,
+          "name": "Marcus Mariota",
+          "pos": "QB",
+          "slot": "QB",
+          "acquisition": null
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "success": true,
+      "team": "Red Leopards",
+      "limitations": {
+        "acquisitionMetadataAvailable": false,
+        "playerProTeamAvailable": false,
+        "keeperValueFutureAvailable": false
+      },
+      "players": [
+        {
+          "id": 3116406,
+          "name": "Tyreek Hill",
+          "pos": "WR",
+          "slot": "WR",
+          "acquisition": null
+        },
+        {
+          "id": 3116365,
+          "name": "Mark Andrews",
+          "pos": "TE",
+          "slot": "TE",
+          "acquisition": null
+        },
+        {
+          "id": 3117251,
+          "name": "Christian McCaffrey",
+          "pos": "RB",
+          "slot": "RB",
+          "acquisition": null
+        },
+        {
+          "id": 4040655,
+          "name": "Darnell Mooney",
+          "pos": "WR",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 2977187,
+          "name": "Cooper Kupp",
+          "pos": "WR",
+          "slot": "WR/TE",
+          "acquisition": null
+        },
+        {
+          "id": 3135321,
+          "name": "Hunter Renfrow",
+          "pos": "WR",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 4045163,
+          "name": "Miles Sanders",
+          "pos": "RB",
+          "slot": "FLEX",
+          "acquisition": null
+        },
+        {
+          "id": 4569173,
+          "name": "Rhamondre Stevenson",
+          "pos": "RB",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 3916148,
+          "name": "Tony Pollard",
+          "pos": "RB",
+          "slot": "RB",
+          "acquisition": null
+        },
+        {
+          "id": 15795,
+          "name": "DeAndre Hopkins",
+          "pos": "WR",
+          "slot": "WR",
+          "acquisition": null
+        },
+        {
+          "id": 15835,
+          "name": "Zach Ertz",
+          "pos": "TE",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": -16025,
+          "name": "49ers D/ST",
+          "pos": "D/ST",
+          "slot": "D/ST",
+          "acquisition": null
+        },
+        {
+          "id": 3051909,
+          "name": "Daniel Carlson",
+          "pos": "K",
+          "slot": "K",
+          "acquisition": null
+        },
+        {
+          "id": 2576980,
+          "name": "Marcus Mariota",
+          "pos": "QB",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 4240455,
+          "name": "Deon Jackson",
+          "pos": "RB",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 3917792,
+          "name": "Daniel Jones",
+          "pos": "QB",
+          "slot": "QB",
+          "acquisition": null
+        },
+        {
+          "id": -16022,
+          "name": "Cardinals D/ST",
+          "pos": "D/ST",
+          "slot": "Bench",
+          "acquisition": null
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "success": true,
+      "team": "Red Leopards",
+      "limitations": {
+        "acquisitionMetadataAvailable": false,
+        "playerProTeamAvailable": false,
+        "keeperValueFutureAvailable": false
+      },
+      "players": [
+        {
+          "id": 3116406,
+          "name": "Tyreek Hill",
+          "pos": "WR",
+          "slot": "WR",
+          "acquisition": null
+        },
+        {
+          "id": 3116365,
+          "name": "Mark Andrews",
+          "pos": "TE",
+          "slot": "TE",
+          "acquisition": null
+        },
+        {
+          "id": 3117251,
+          "name": "Christian McCaffrey",
+          "pos": "RB",
+          "slot": "RB",
+          "acquisition": null
+        },
+        {
+          "id": 2977187,
+          "name": "Cooper Kupp",
+          "pos": "WR",
+          "slot": "IR",
+          "acquisition": null
+        },
+        {
+          "id": 4045163,
+          "name": "Miles Sanders",
+          "pos": "RB",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 4569173,
+          "name": "Rhamondre Stevenson",
+          "pos": "RB",
+          "slot": "RB",
+          "acquisition": null
+        },
+        {
+          "id": 3916148,
+          "name": "Tony Pollard",
+          "pos": "RB",
+          "slot": "FLEX",
+          "acquisition": null
+        },
+        {
+          "id": 15795,
+          "name": "DeAndre Hopkins",
+          "pos": "WR",
+          "slot": "WR",
+          "acquisition": null
+        },
+        {
+          "id": -16025,
+          "name": "49ers D/ST",
+          "pos": "D/ST",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 3051909,
+          "name": "Daniel Carlson",
+          "pos": "K",
+          "slot": "K",
+          "acquisition": null
+        },
+        {
+          "id": 3917792,
+          "name": "Daniel Jones",
+          "pos": "QB",
+          "slot": "QB",
+          "acquisition": null
+        },
+        {
+          "id": 4360248,
+          "name": "Kyle Pitts",
+          "pos": "TE",
+          "slot": "IR",
+          "acquisition": null
+        },
+        {
+          "id": 3843945,
+          "name": "Foster Moreau",
+          "pos": "TE",
+          "slot": "WR/TE",
+          "acquisition": null
+        },
+        {
+          "id": 4248528,
+          "name": "Christian Watson",
+          "pos": "WR",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 4035687,
+          "name": "Michael Pittman Jr.",
+          "pos": "WR",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 3043116,
+          "name": "Demarcus Robinson",
+          "pos": "WR",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": -16012,
+          "name": "Chiefs D/ST",
+          "pos": "D/ST",
+          "slot": "D/ST",
+          "acquisition": null
+        },
+        {
+          "id": 4360569,
+          "name": "Jordan Mason",
+          "pos": "RB",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 3051381,
+          "name": "Mike White",
+          "pos": "QB",
+          "slot": "Bench",
+          "acquisition": null
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "success": true,
+      "team": "Red Leopards",
+      "limitations": {
+        "acquisitionMetadataAvailable": false,
+        "playerProTeamAvailable": false,
+        "keeperValueFutureAvailable": false
+      },
+      "players": [
+        {
+          "id": 3116406,
+          "name": "Tyreek Hill",
+          "pos": "WR",
+          "slot": "WR",
+          "acquisition": null
+        },
+        {
+          "id": 3116365,
+          "name": "Mark Andrews",
+          "pos": "TE",
+          "slot": "TE",
+          "acquisition": null
+        },
+        {
+          "id": 3117251,
+          "name": "Christian McCaffrey",
+          "pos": "RB",
+          "slot": "RB",
+          "acquisition": null
+        },
+        {
+          "id": 2977187,
+          "name": "Cooper Kupp",
+          "pos": "WR",
+          "slot": "IR",
+          "acquisition": null
+        },
+        {
+          "id": 4045163,
+          "name": "Miles Sanders",
+          "pos": "RB",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 4569173,
+          "name": "Rhamondre Stevenson",
+          "pos": "RB",
+          "slot": "FLEX",
+          "acquisition": null
+        },
+        {
+          "id": 3916148,
+          "name": "Tony Pollard",
+          "pos": "RB",
+          "slot": "RB",
+          "acquisition": null
+        },
+        {
+          "id": 15795,
+          "name": "DeAndre Hopkins",
+          "pos": "WR",
+          "slot": "WR",
+          "acquisition": null
+        },
+        {
+          "id": -16025,
+          "name": "49ers D/ST",
+          "pos": "D/ST",
+          "slot": "D/ST",
+          "acquisition": null
+        },
+        {
+          "id": 3051909,
+          "name": "Daniel Carlson",
+          "pos": "K",
+          "slot": "K",
+          "acquisition": null
+        },
+        {
+          "id": 3917792,
+          "name": "Daniel Jones",
+          "pos": "QB",
+          "slot": "QB",
+          "acquisition": null
+        },
+        {
+          "id": 4360248,
+          "name": "Kyle Pitts",
+          "pos": "TE",
+          "slot": "IR",
+          "acquisition": null
+        },
+        {
+          "id": 3843945,
+          "name": "Foster Moreau",
+          "pos": "TE",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 4248528,
+          "name": "Christian Watson",
+          "pos": "WR",
+          "slot": "WR/TE",
+          "acquisition": null
+        },
+        {
+          "id": 4035687,
+          "name": "Michael Pittman Jr.",
+          "pos": "WR",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 3043116,
+          "name": "Demarcus Robinson",
+          "pos": "WR",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": -16012,
+          "name": "Chiefs D/ST",
+          "pos": "D/ST",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 4360569,
+          "name": "Jordan Mason",
+          "pos": "RB",
+          "slot": "Bench",
+          "acquisition": null
+        },
+        {
+          "id": 4035676,
+          "name": "Zack Moss",
+          "pos": "RB",
+          "slot": "Bench",
+          "acquisition": null
+        }
+      ]
+    }
+  ]
+}

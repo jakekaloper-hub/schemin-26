@@ -1,0 +1,97 @@
+{
+  "schema": "novel-rewrite-scene-proposals-v2",
+  "status": "DEVELOPMENT_ONLY_NOT_RELEASE_ELIGIBLE",
+  "supersedes_for_development": "living-novel/production/full-rewrite-2026/SCENE_REGISTER.json",
+  "fact_boundary": "Week 3 scores sourced from locked report; speculative locations stay null until verified",
+  "scenes": [
+    {
+      "scene_id": "R2-PROLOGUE-OBI",
+      "file": "PROLOGUE_REWRITE_CANDIDATE.md",
+      "scene_part": 1,
+      "pov_character_id": "CHAR-JAKE-KALOPER",
+      "location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "region_id": "REG-UPPER-VALLEYS",
+      "world_context_id": "SETCTX-UPPER-VALLEYS",
+      "time_cutoff": "PRESEASON",
+      "evidence_ref": "PRESEASON_NO_RESULT_ASSERTED",
+      "source_evidence_class": "NON_RESULT_FICTIONAL_SCENE",
+      "place_role": "home vantage",
+      "status": "PROPOSED_CORRECTION"
+    },
+    {
+      "scene_id": "R2-CH1-CHILI",
+      "file": "CHAPTER_01_REWRITE_CANDIDATE.md",
+      "scene_part": 1,
+      "pov_character_id": "CHAR-BRANDON-PRYOR",
+      "location_id": null,
+      "region_id": null,
+      "world_context_id": null,
+      "time_cutoff": "EARLY_SEASON_UNSPECIFIED",
+      "evidence_ref": "GENERAL_CERTIFICATION_PROCESS_NO_SCORE",
+      "source_evidence_class": "UNRESOLVED_EVENT_AND_VENUE",
+      "place_role": "unnamed square; no location qualification",
+      "status": "BLOCKED_LOCATION_EVIDENCE"
+    },
+    {
+      "scene_id": "R2-CH2-RED",
+      "file": "CHAPTER_02_REWRITE_CANDIDATE.md",
+      "scene_part": 1,
+      "pov_character_id": "CHAR-KEVIN-ZEEK",
+      "location_id": null,
+      "region_id": null,
+      "world_context_id": null,
+      "time_cutoff": "EARLY_SEASON_UNSPECIFIED",
+      "evidence_ref": "FICTIONAL_UNVERIFIED_MESSAGE_NO_SCORE",
+      "source_evidence_class": "NON_RESULT_FICTIONAL_SCENE",
+      "place_role": "Red Leopards approach/gate; potential home link not certified",
+      "status": "BLOCKED_LOCATION_EVIDENCE"
+    },
+    {
+      "scene_id": "R2-CH3-WILSON",
+      "file": "CHAPTER_03_REWRITE_CANDIDATE.md",
+      "scene_part": 1,
+      "pov_character_id": "CHAR-WILSON-LOOK",
+      "location_id": "LOC-DK-MUD-HILL",
+      "region_id": "REG-CENTRAL-BASIN",
+      "world_context_id": "SETCTX-CENTRAL-BASIN",
+      "time_cutoff": "AFTER_WEEK_3_BEFORE_WEEK_4",
+      "evidence_ref": "memo-os/week-3/WEEK_3_FACT_LOCK_V1.md",
+      "source_evidence_class": "VERIFIED_WEEK_3",
+      "place_role": "Mire Hill event aftermath (provisional site)",
+      "status": "DEVELOPMENT_ONLY"
+    },
+    {
+      "scene_id": "R2-CH3-OBI",
+      "file": "CHAPTER_03_REWRITE_CANDIDATE.md",
+      "scene_part": 2,
+      "pov_character_id": "CHAR-JAKE-KALOPER",
+      "location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "region_id": "REG-UPPER-VALLEYS",
+      "world_context_id": "SETCTX-UPPER-VALLEYS",
+      "time_cutoff": "AFTER_WEEK_3_BEFORE_WEEK_4",
+      "evidence_ref": "memo-os/week-3/WEEK_3_FACT_LOCK_V1.md",
+      "source_evidence_class": "VERIFIED_WEEK_3",
+      "place_role": "Trade Jedi mountain room",
+      "status": "DEVELOPMENT_ONLY"
+    },
+    {
+      "scene_id": "R2-CH3-BYARS",
+      "file": "CHAPTER_03_REWRITE_CANDIDATE.md",
+      "scene_part": 3,
+      "pov_character_id": "CHAR-AUSTIN-BYARS",
+      "location_id": null,
+      "region_id": null,
+      "world_context_id": null,
+      "time_cutoff": "AFTER_WEEK_3_BEFORE_WEEK_4",
+      "evidence_ref": "memo-os/week-3/WEEK_3_FACT_LOCK_V1.md",
+      "source_evidence_class": "VERIFIED_WEEK_3_RESULT_KEEPER_CAUSAL_CLAIM_NEEDS_DATED_SOURCE",
+      "place_role": "Belt displayed, interior unspecified; do not infer Keep location",
+      "status": "BLOCKED_LOCATION_EVIDENCE"
+    }
+  ],
+  "exceptions": [
+    "Chapters I-II unnamed squares and gates must not silently resolve to the Central Basin",
+    "Chapter III Byars setting not asserted as his Keep",
+    "Only one SCENE_REGISTER entry for three Chapter III POV parts is not acceptable for final routing"
+  ]
+}

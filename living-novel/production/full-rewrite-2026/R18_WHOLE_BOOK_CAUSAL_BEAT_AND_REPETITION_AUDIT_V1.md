@@ -1,0 +1,35 @@
+# R18 — Whole-book causal beat and repetition audit (execution)
+**Date:** 2026-10-15 | **Method:** source-grounded editorial inspection of existing V4R2 + PR #188 V1 work. Development, NOT external author review or final canon.
+
+| Unit | POV | Desire | Opposition | Decision | Cost / state delta | Next pressure | Place / time constraint | Revision target |
+|---|---|---|---|---|---|---|---|---|---|
+| Prologue V4R2 | Jake | Entering a public season with bounded knowledge | Institutions, Belt history, labor obligations | Accept limits of what records authorize | Cannot control reputation before result | Week 1 question and old public title | Upper Valleys → Central Basin; no fixed travel speed | Too much administrative framing before immediate desire |
+| Ch I: Six Bells | Jake | Verify own win without Belt entitlement | Crowd exaggerates record | Inspect deployments, refuse claim | Reserve choice exposed; future rivals see it | Information strategy; Belt dispute | Basin hall exact address unresolved | Six scores risk reading like scoreboard |
+| Ch I: Grain Exchange | Chili | Turn giant win into social leverage | Factor, labor, horse, cleanup | Pay costs, plan next kitchen | Expenses and expectations | Returned parcel sets up next event | Basin market exact subsite unresolved | Quips and moral reflection repeat |
+| Ch I: Proof and Possession | Byars | Protect title legitimacy while admitting loss | Fake circular, labor, public pressure | Keep printed false claim as evidence | Cannot stop copies; repairs compete | W2/W3 Belt story | Archive recognized | Repeats Jake proof/meaning lesson |
+| Ch I: What It Costs | Jake | Stay flexible after victory | Offers and wagon costs | Verify terms, decline title claim | Miss speculative advantage | W2 mud and future rivalry | Basin gate exact site unresolved | Reiterates first and third sections |
+| Ch II: Return to Sender | Chili | Make pre-result insult memorable | Red's decisive victory | Absorb returned receipt | Reputation, meal work | W3 different Sonic object | Central Basin market | Source has energetic pace; duplicated later analysis |
+| Ch II: The Ground He Knows | Mud Dogs | Defend home crossing | Jedi intruder and actual freight | Share safe route with rival | Reveals useful local path | W3 DK loss and W5 commerce | LOC-MUD-DOGS-SWAMP | Keep canine perception / civic division |
+| Ch II: Three Heads in Mirror | TDS | Regain agency after severe loss | Public hair ritual | Accept complete haircut, leave rear door, assess bids | Famous silhouette changes | W3 Obi rivalry and visual locks | LOC-ARSENAL-BARBERSHOP | Ensure three heads, one body, no hair regression |
+| Ch II: Things City Keeps | Chili | Hold kitchen through public humiliation | Cancelations, work invoices | Require authenticated future parcels | Less impulsive leverage | W3 Sonic new provocation needs independent source | Basin market unresolved | Too many match results through one mail pile |
+| Ch III: Lower Standard | Wilson | Understand victory without annexation | Hill road has its own labor and past | Plant standard below summit | Public legend ignores him | W4 first defeat | LOC-DK-MUD-HILL provisional | Preserve original literary quality; anatomy fixed |
+| Ch III: Bridge and Word | Jake | Determine what W3 win permits | False barber image, dubious offers | Demand legal trade terms | Less short-term advantage | W4 contest vs Wilson | LOC-TRADE-JEDI-MOUNTAIN-BASE | Score/Belt aphorism already familiar |
+| Ch III: Keeper Cannot Keep | Byars | Deal with third-week win and keeper shortage | Real scarcity vs ceremonial demands | Limit requisition and verify resources | Potential weaker defense | Next Byars wins; actual keeper receipt pending | LOC-BELT-KEEPER-KEEP provisional | Do not imply literal injury to fantasy character |
+| Ch IV: Road Does Not Bow | ObiWan/Wilson scene constraints | Respond to W4 first DK loss | Public victory narrative vs older crossing | Face rival without territorial claim | Wilson loses unbeaten shield | Second loss W5 | Bridge route and travel interval unresolved | Same anti-crown argument as Ch III needs compression |
+| W5: Second Fall | Wilson | Stay useful after repeat loss | Tradespeople and public spectacle | Fund possible road needs over image sales | Deeper reputational cost | Survey Line theme about utility | LOC-DK-HIGHLAND-STRONGHOLD | Another road lesson risks repeating first fall |
+| W5: Survey I–IV | Mud Dogs/LLC | Choose viable trade crossing | Urgency of supplies, corporate capital, divided local opinions | Conditional hearing/inquiry | Time and budgets spent without title assurance | Future civic conflict without written victory | Swamp/LLC boardroom, exact causeway site unknown | V1 resolves too politely; needs harder opposing choices |
+
+## Editorial red-team score
+- Motif-density counts (case-insensitive occurrences of road/record/proof/crown/belt/score/kingdom) inspected in repo samples: Prologue 21 / 2,992 words; Chapter I 42 / 6,360; Chapter II 14 / 5,616; Chapter III 61 / 5,344; Chapter IV 47 / 2,508; Wilson second fall 10 / 1,118. These are raw word occurrences, NOT an objective literary grading. Chapter III/IV are priority for repeated thesis language.
+- Owner specificity: Jake cares about verifiable terms; Wilson tactile effort/stewardship; Chili hospitality and embarrassing humor; Mud Dogs watery/quad sensory and community constraints; TDS plural heads but one subject; Byars stewardship under loss; LLC credible asset/capital choices. Avoid giving each protagonist identical sage maxims.
+- Survey Line V1 conflict is overcautious: permission inquiry creates no hard sacrifice. Revised V2 must cost time, capital and local trust, with no legal permission or construction accidentally canonicalized.
+- The Week 5 Wilson second fall belongs as a short bridge to Survey Line unless actual outsider readers find the interlude delays the wetland story. Not a mandatory numbered chapter.
+
+## Priority redline moves
+1. Survey V2: remove repeated LLC paperwork setup, introduce expiring practical availability (working crossing/last usable material) without fabricated government permit deadline, and make risk/commitment observable.
+2. Chapters III and IV: preserve original Hill lower-standard mechanics but replace later repetitive score-is-not-title conclusions with specific differing decisions; on this sprint document line-edit candidates rather than altering PR #128 owning source.
+3. Chapter I: cut duplicated Belt exposition in Jake coda; put a live trade verification task in foreground. Keep Austin's one strong possession scene.
+4. Prologue: A/B sample only; preserve V4R2 pending Founder approval. Need actual blinded outsider-reader results, not a fake scoring sheet.
+5. Final manuscript QA requires source-provider checks for W1/W2; El Niño bounded POV contract remains with PR #130.
+
+**Status:** Causal map and prioritized redline complete as editorial work product. Revised prose V2 and automated tests are separate commits. No live authenticated Bullpen authors or independent Umpire were invoked.

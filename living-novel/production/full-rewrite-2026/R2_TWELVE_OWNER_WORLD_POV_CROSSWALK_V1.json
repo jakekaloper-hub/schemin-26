@@ -1,0 +1,225 @@
+{
+  "schema": "novel-rewrite-board-crosswalk-v1",
+  "status": "DEVELOPMENT_PROPOSAL_NOT_CANON",
+  "source_commit": "c6fccb5ed27328c2a82c7369fb44dec34d9cb4a2",
+  "source_paths": [
+    "canon/characters/CHARACTER_REGISTRY.yaml",
+    "world/data/owner_domains.json",
+    "world/data/locations.json",
+    "world/data/settlements.json",
+    "world/data/physical_zones.json"
+  ],
+  "policy": {
+    "temporal": "2026 identities only; 2027 realignment cannot move owner homes",
+    "main_ensemble": "Exactly twelve principal POVs; ambient inhabitants may act but not narrate",
+    "world": "Inferred settlements provide unnamed context, not a right to invent named LOC/REG/ROUTE or exact distances",
+    "elemental": "El Niño has an unresolved bounded POV design gate; ordinary storms do not automatically represent this principal",
+    "visual": "Character asset bytes + mounted subject-bound reference are separate release gates"
+  },
+  "owners": [
+    {
+      "character_id": "CHAR-JAKE-KALOPER",
+      "team": "ObiWan Jacoby",
+      "division_id": "DIV-BURGERS",
+      "home_location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "home_region_id": "REG-UPPER-VALLEYS",
+      "civilization_context_id": "SETCTX-UPPER-VALLEYS",
+      "home_location_canon_status": "PERMANENT_CANON",
+      "home_route_ids": [
+        "ROUTE-EASTERN-ASCENT"
+      ],
+      "ontology_class": "PEOPLED_KIND",
+      "story_attention_lens": "strategic bargains, controlled information, chosen risk",
+      "candidate_arc_pressure": "competition vs legitimacy; trust and negotiated obligation",
+      "narrative_license": "PRINCIPAL_CHARACTER_ONLY",
+      "approval_state": "DEVELOPMENT_PROPOSAL_NOT_CANON"
+    },
+    {
+      "character_id": "CHAR-KEVIN-ZEEK",
+      "team": "Red Leopards",
+      "division_id": "DIV-WINGS",
+      "home_location_id": "LOC-RED-RUINS",
+      "home_region_id": "REG-EASTERN-STORM-COAST",
+      "civilization_context_id": "SETCTX-EASTERN-STORM-COAST",
+      "home_location_canon_status": "PERMANENT_CANON",
+      "home_route_ids": [
+        "ROUTE-RAIN-ESCARPMENT"
+      ],
+      "ontology_class": "PEOPLED_KIND",
+      "story_attention_lens": "witness receipts, pride, reputation recalibration",
+      "candidate_arc_pressure": "public wager, loss, return and contested status",
+      "narrative_license": "PRINCIPAL_CHARACTER_ONLY",
+      "approval_state": "DEVELOPMENT_PROPOSAL_NOT_CANON"
+    },
+    {
+      "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "team": "Slob on my Dobb",
+      "division_id": "DIV-WINGS",
+      "home_location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "home_region_id": "REG-UPPER-VALLEYS",
+      "civilization_context_id": "SETCTX-UPPER-VALLEYS",
+      "home_location_canon_status": "PROVISIONAL_CANON",
+      "home_route_ids": [
+        "ROUTE-HEARTHROAD"
+      ],
+      "ontology_class": "PEOPLED_KIND",
+      "story_attention_lens": "swagger, spectacle, exposed risk",
+      "candidate_arc_pressure": "humor giving way to social cost and repair",
+      "narrative_license": "PRINCIPAL_CHARACTER_ONLY",
+      "approval_state": "DEVELOPMENT_PROPOSAL_NOT_CANON"
+    },
+    {
+      "character_id": "CHAR-DAVID-BABB",
+      "team": "The LLC",
+      "division_id": "DIV-PIZZA",
+      "home_location_id": "LOC-LLC-BOARDROOM",
+      "home_region_id": "REG-INNER-SEA-LITTORAL",
+      "civilization_context_id": "SETCTX-INNER-SEA",
+      "home_location_canon_status": "PERMANENT_CANON",
+      "home_route_ids": [
+        "ROUTE-INNER-SEA-QUAY"
+      ],
+      "ontology_class": "SINGULAR_BEING",
+      "story_attention_lens": "contracts, scarcity, acquisition, measurable obligation",
+      "candidate_arc_pressure": "private ambition vs community consent",
+      "narrative_license": "PRINCIPAL_CHARACTER_ONLY",
+      "approval_state": "DEVELOPMENT_PROPOSAL_NOT_CANON"
+    },
+    {
+      "character_id": "CHAR-WILSON-LOOK",
+      "team": "D0nkey K0ng",
+      "division_id": "DIV-BURGERS",
+      "home_location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "home_region_id": "REG-UPPER-VALLEYS",
+      "civilization_context_id": "SETCTX-UPPER-VALLEYS",
+      "home_location_canon_status": "INTERPRETIVE_CANON",
+      "home_route_ids": [
+        "ROUTE-DK-HIGHLAND-LINK"
+      ],
+      "ontology_class": "PEOPLED_KIND",
+      "story_attention_lens": "ground pressure, physical weight, standard-bearing",
+      "candidate_arc_pressure": "undefeated reputation vs legitimate stewardship",
+      "narrative_license": "PRINCIPAL_CHARACTER_ONLY",
+      "approval_state": "DEVELOPMENT_PROPOSAL_NOT_CANON"
+    },
+    {
+      "character_id": "CHAR-PHILLIP-PITTS",
+      "team": "Three Dreaded Snake",
+      "division_id": "DIV-BURGERS",
+      "home_location_id": "LOC-TDS-WATERFALL-TEMPLE",
+      "home_region_id": "REG-SOUTHERN-WETLANDS",
+      "civilization_context_id": "SETCTX-SOUTHERN-WETLANDS",
+      "home_location_canon_status": "PERMANENT_CANON",
+      "home_route_ids": [
+        "ROUTE-FALLS-PATH"
+      ],
+      "ontology_class": "SHARED_COHABITATION",
+      "story_attention_lens": "three-headed embodied difference, tactical memory, humiliation",
+      "candidate_arc_pressure": "haircut and rivalry become choices, not cosmetic resets",
+      "narrative_license": "PRINCIPAL_CHARACTER_ONLY",
+      "approval_state": "DEVELOPMENT_PROPOSAL_NOT_CANON"
+    },
+    {
+      "character_id": "CHAR-BRANDON-PRYOR",
+      "team": "Chili Cheesers",
+      "division_id": "DIV-WINGS",
+      "home_location_id": "LOC-CHILI-STABLE",
+      "home_region_id": "REG-WESTERN-TABLELANDS",
+      "civilization_context_id": "SETCTX-WESTERN-TABLELANDS",
+      "home_location_canon_status": "PERMANENT_CANON",
+      "home_route_ids": [
+        "ROUTE-WESTERN-RANGE"
+      ],
+      "ontology_class": "SHARED_COHABITATION",
+      "story_attention_lens": "public performance, provocation, hospitality, Dark Horse",
+      "candidate_arc_pressure": "comic objects escape their maker's control",
+      "narrative_license": "PRINCIPAL_CHARACTER_ONLY",
+      "approval_state": "DEVELOPMENT_PROPOSAL_NOT_CANON"
+    },
+    {
+      "character_id": "CHAR-AUSTIN-BYARS",
+      "team": "His Majesty's Blood",
+      "division_id": "DIV-PIZZA",
+      "home_location_id": "LOC-BELT-KEEPER-KEEP",
+      "home_region_id": "REG-EASTERN-STORM-COAST",
+      "civilization_context_id": "SETCTX-EASTERN-STORM-COAST",
+      "home_location_canon_status": "PROVISIONAL_CANON",
+      "home_route_ids": [
+        "ROUTE-BLACK-CLIFF"
+      ],
+      "ontology_class": "SINGULAR_BEING",
+      "story_attention_lens": "ceremonial duty, loss under authority, risk management",
+      "candidate_arc_pressure": "championship stewardship amid dwindling resources",
+      "narrative_license": "PRINCIPAL_CHARACTER_ONLY",
+      "approval_state": "DEVELOPMENT_PROPOSAL_NOT_CANON"
+    },
+    {
+      "character_id": "CHAR-MANNING-WELTY",
+      "team": "El Niño",
+      "division_id": "DIV-PIZZA",
+      "home_location_id": "LOC-STORM-BOWL",
+      "home_region_id": "REG-EASTERN-STORM-COAST",
+      "civilization_context_id": "SETCTX-EASTERN-STORM-COAST",
+      "home_location_canon_status": "PROVISIONAL_CANON",
+      "home_route_ids": [
+        "ROUTE-STORM-COAST"
+      ],
+      "ontology_class": "SINGULAR_BEING",
+      "story_attention_lens": "bounded elemental manifestation, weather's consequences",
+      "candidate_arc_pressure": "twelve-path sensory/knowledge contract unresolved; no anthropomorphic interiority inferred",
+      "narrative_license": "PRINCIPAL_CHARACTER_ONLY",
+      "approval_state": "DEVELOPMENT_PROPOSAL_NOT_CANON"
+    },
+    {
+      "character_id": "CHAR-BOBBY-MITCHELL",
+      "team": "Mud Dogs",
+      "division_id": "DIV-BURGERS",
+      "home_location_id": "LOC-MUD-DOGS-SWAMP",
+      "home_region_id": "REG-SOUTHERN-WETLANDS",
+      "civilization_context_id": "SETCTX-SOUTHERN-WETLANDS",
+      "home_location_canon_status": "PERMANENT_CANON",
+      "home_route_ids": [
+        "ROUTE-DELTA-CAUSEWAY"
+      ],
+      "ontology_class": "PEOPLED_KIND",
+      "story_attention_lens": "wetland competence, local stewardship, movement",
+      "candidate_arc_pressure": "home advantage vs civic livelihoods and external leverage",
+      "narrative_license": "PRINCIPAL_CHARACTER_ONLY",
+      "approval_state": "DEVELOPMENT_PROPOSAL_NOT_CANON"
+    },
+    {
+      "character_id": "CHAR-BEN-WHIPPLE",
+      "team": "Seven Deadly Chins",
+      "division_id": "DIV-PIZZA",
+      "home_location_id": "LOC-CHINS-ROAD-COMMONS",
+      "home_region_id": "REG-CENTRAL-BASIN",
+      "civilization_context_id": "SETCTX-CENTRAL-BASIN",
+      "home_location_canon_status": "PROVISIONAL_CANON",
+      "home_route_ids": [
+        "ROUTE-BASIN-MARKET"
+      ],
+      "ontology_class": "PEOPLED_KIND",
+      "story_attention_lens": "road networks, civic endurance, underdog solidarity",
+      "candidate_arc_pressure": "public valuation and perseverance without invented biographical motives",
+      "narrative_license": "PRINCIPAL_CHARACTER_ONLY",
+      "approval_state": "DEVELOPMENT_PROPOSAL_NOT_CANON"
+    },
+    {
+      "character_id": "CHAR-ZACH-WILSON",
+      "team": "Dr. Duckhook",
+      "division_id": "DIV-WINGS",
+      "home_location_id": "LOC-COUNTRY-CLUB-JACKSON",
+      "home_region_id": "REG-SOUTHERN-WETLANDS",
+      "civilization_context_id": "SETCTX-SOUTHERN-WETLANDS",
+      "home_location_canon_status": "PERMANENT_CANON",
+      "home_route_ids": [
+        "ROUTE-JACKSON-LEVEE"
+      ],
+      "ontology_class": "SINGULAR_BEING",
+      "story_attention_lens": "precision, etiquette, boundaries, competitive dignity",
+      "candidate_arc_pressure": "institutional order tested by disruptive rivals",
+      "narrative_license": "PRINCIPAL_CHARACTER_ONLY",
+      "approval_state": "DEVELOPMENT_PROPOSAL_NOT_CANON"
+    }
+  ]
+}
