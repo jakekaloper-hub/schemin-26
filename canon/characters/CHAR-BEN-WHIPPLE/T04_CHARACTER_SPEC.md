@@ -3,7 +3,8 @@
 status: ACTIVE / T04_CANDIDATE
 owner: Ben Whipple
 current_team: Seven Deadly Chins
-canonical_identity: The People's Champ / Blue-Collar Spoiler
+canonical_identity: The People's Champ
+presentation_alias: Blue-Collar Spoiler
 
 ## Primary identity evidence
 Commissioner-supplied 2026-09-29 owner reference. SHA-256: `c4401f79783637c9e3974f02de20ba5aeb1209e7ed4e0f5620e2bfcce3b270cf`. Render quality: HIGH. See `../COMMISSIONER_REFERENCE_REGISTER_12_OF_12.md`.

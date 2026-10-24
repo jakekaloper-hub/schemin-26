@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "publication_id": "memo.2026.week-04",
+  "status": "ACTIVE_PUBLISHABLE_IDENTITY_AUTHORITY",
+  "rule": "Internal IDs, abbreviations, owner names and production shorthand are NEVER publishable team-name copy. Only publishable_name may appear as a team name in a Memo artifact.",
+  "sources": [
+    "Flaim/ESPN league 1417621 team names",
+    "world/divisions/BURGERS_DIVISION_INDEX_V2.md",
+    "world/divisions/WINGS_DIVISION_INDEX_V2.md",
+    "world/divisions/PIZZA_DIVISION_INDEX_V2.md"
+  ],
+  "divisions": {
+    "Burgers": ["ObiWan Jacoby", "D0nkey K0ng", "Three Dreaded Snake", "Mud Dogs"],
+    "Wings": ["Red Leopards", "Slob on my Dobb", "The Chili Cheesers", "Dr. Duckhook"],
+    "Pizza": ["The LLC", "His Majesty's Blood", "El Niño", "Seven Deadly Chins"]
+  },
+  "teams": [
+    {"team_id":1,"publishable_name":"ObiWan Jacoby","internal_aliases":["OBI","Obi","Jake"],"division":"Burgers","character_id":"CHAR-JAKE-KALOPER"},
+    {"team_id":2,"publishable_name":"Red Leopards","internal_aliases":["RED","Red"],"division":"Wings","character_id":"CHAR-KEVIN-ZEEK"},
+    {"team_id":3,"publishable_name":"Slob on my Dobb","internal_aliases":["SLOB","Slob"],"division":"Wings","character_id":"CHAR-JORDAN-HOLLINGSHEAD"},
+    {"team_id":4,"publishable_name":"The LLC","internal_aliases":["LLC"],"division":"Pizza","character_id":"CHAR-DAVID-BABB"},
+    {"team_id":5,"publishable_name":"D0nkey K0ng","internal_aliases":["DK","Donkey Kong","D0nkey"],"division":"Burgers","character_id":"CHAR-WILSON-LOOK"},
+    {"team_id":6,"publishable_name":"Three Dreaded Snake","internal_aliases":["TDS"],"division":"Burgers","character_id":"CHAR-PHILLIP-PITTS"},
+    {"team_id":7,"publishable_name":"The Chili Cheesers","internal_aliases":["Chili","Chili Cheesers"],"division":"Wings","character_id":"CHAR-BRANDON-PRYOR"},
+    {"team_id":8,"publishable_name":"His Majesty's Blood","internal_aliases":["HMB","That's Fantasy","The Immortal"],"division":"Pizza","character_id":"CHAR-AUSTIN-BYARS"},
+    {"team_id":9,"publishable_name":"El Niño","internal_aliases":["El Nino"],"division":"Pizza","character_id":"CHAR-MANNING-WELTY"},
+    {"team_id":10,"publishable_name":"Mud Dogs","internal_aliases":["MUD","Mud"],"division":"Burgers","character_id":"CHAR-BOBBY-MITCHELL"},
+    {"team_id":11,"publishable_name":"Seven Deadly Chins","internal_aliases":["7DC","Chins"],"division":"Pizza","character_id":"CHAR-BEN-WHIPPLE"},
+    {"team_id":12,"publishable_name":"Dr. Duckhook","internal_aliases":["DUCK","Duckhook"],"division":"Wings","character_id":"CHAR-ZACH-WILSON"}
+  ]
+}

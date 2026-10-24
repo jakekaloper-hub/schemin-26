@@ -1,0 +1,632 @@
+{
+  "schema_version": "2.0.0",
+  "publication_id": "memo.2026.week-04",
+  "status": "ACTIVE_27_PAGE_STORY_AUTHORITY",
+  "authority_rule": [
+    "latest explicit Commissioner instruction",
+    "WEEK_04_MISSION_REVIEW_STORY_LOCK_CORRECTED_2026-10-05.md",
+    "WEEK_04_27_PAGE_DIRECTOR_REVIEW_PACKET.md",
+    "lower historical sources"
+  ],
+  "conflict_rule": "27-page Mission Review lock controls; Flaim fills deterministic fact slots only.",
+  "generation_state": "PRE_ART_LOCKED_WAITING_ON_FLAIM_ONLY",
+  "required_matchup_story_units": [
+    "W4-STORY-DK-OBI",
+    "W4-STORY-MUD-TDS",
+    "W4-STORY-RED-DUCK",
+    "W4-STORY-SLOB-CHILI",
+    "W4-STORY-LLC-HMB",
+    "W4-STORY-ELNINO-7DC"
+  ],
+  "required_editorial_modules": [
+    "W4-MODULE-COVER",
+    "W4-MODULE-OPENING",
+    "W4-MODULE-SCOREBOARD",
+    "W4-MODULE-STATE-REALM",
+    "W4-MODULE-POWER-RANKINGS",
+    "W4-MODULE-PITTSY",
+    "W4-MODULE-WEEK5-GOTW",
+    "W4-MODULE-FINAL-WORD"
+  ],
+  "story_units": [
+    {
+      "story_unit_id": "W4-STORY-DK-OBI",
+      "kind": "matchup",
+      "title": "D0nkey K0ng × ObiWan Jacoby",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_MISSION_REVIEW_STORY_LOCK_CORRECTED_2026-10-05.md",
+          "blob_sha": "83d8b410d6ecd09c792b9aa5634317c5543efa10",
+          "role": "Commissioner/Bullpen Mission Review lock"
+        },
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_27_PAGE_DIRECTOR_REVIEW_PACKET.md",
+          "blob_sha": "a00fe9f1e000d4acd179179373a0d08fb57546a8",
+          "role": "27-page Director-reviewed production treatment"
+        }
+      ],
+      "superseded_sources": [],
+      "current_page_count": 4,
+      "page_count_state": "LOCKED_27_PAGE_MISSION_REVIEW",
+      "page_role": "Pages 4–7 locked four-page tragic action epic: THE RETURN → THE DUEL → THE HIGH GROUND → UNDEFEATED NO MORE.",
+      "headline_direction": "D0nkey K0ng × ObiWan Jacoby",
+      "visual_job": "Highland confrontation → duel → elevation hinge → quiet aftermath.",
+      "prose_job": "Restrained myth-breaking and divisional consequence.",
+      "data_job": "Final score/records/material scorers only after Fact Lock.",
+      "transition_job": "Page turn continuity only; no bridge page.",
+      "unresolved_conditions": [
+        "Flaim/ESPN decided fields only"
+      ],
+      "fact_lock_dependencies": [
+        "official final data where applicable"
+      ],
+      "character_dependencies": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-WILSON-LOOK"
+      ],
+      "world_dependencies": [
+        "WEEK_4_WORLD_ENTRY_RECEIPT_V1 + page-specific World/Atlas resolution"
+      ],
+      "director_owner": "Beat Writer",
+      "cross_reference_reviewer": "Librarian",
+      "status": "CURRENT",
+      "story_authority_hash": "77d7783be4210db20cc59f73e8cbc06ee69d5d7c0637933b43c3ecc3310338a9"
+    },
+    {
+      "story_unit_id": "W4-STORY-MUD-TDS",
+      "kind": "matchup",
+      "title": "Mud Dogs × Three Dreaded Snake",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_MISSION_REVIEW_STORY_LOCK_CORRECTED_2026-10-05.md",
+          "blob_sha": "83d8b410d6ecd09c792b9aa5634317c5543efa10",
+          "role": "Commissioner/Bullpen Mission Review lock"
+        },
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_27_PAGE_DIRECTOR_REVIEW_PACKET.md",
+          "blob_sha": "a00fe9f1e000d4acd179179373a0d08fb57546a8",
+          "role": "27-page Director-reviewed production treatment"
+        }
+      ],
+      "superseded_sources": [],
+      "current_page_count": 3,
+      "page_count_state": "LOCKED_27_PAGE_MISSION_REVIEW",
+      "page_role": "Pages 8–10 locked three-page hunting comedy: OPENING MORNING → THE HUNT → THE BETTER HUNTER.",
+      "headline_direction": "Mud Dogs × Three Dreaded Snake",
+      "visual_job": "Prepared TDS hunter vs enthusiastic-amateur Mud in Burgers wetlands.",
+      "prose_job": "Dry observational hunting comedy.",
+      "data_job": "Final score/records and causal evidence after Fact Lock.",
+      "transition_job": "Direct page turn from DK aftermath; no bridge page.",
+      "unresolved_conditions": [
+        "Flaim/ESPN decided fields only"
+      ],
+      "fact_lock_dependencies": [
+        "official final data where applicable"
+      ],
+      "character_dependencies": [
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-PHILLIP-PITTS"
+      ],
+      "world_dependencies": [
+        "WEEK_4_WORLD_ENTRY_RECEIPT_V1 + page-specific World/Atlas resolution"
+      ],
+      "director_owner": "Beat Writer",
+      "cross_reference_reviewer": "Librarian",
+      "status": "CURRENT",
+      "story_authority_hash": "840ec9993e2e4fb352a166b18c808ca9d691560ea4cf9cf706ce21f98961afce"
+    },
+    {
+      "story_unit_id": "W4-STORY-RED-DUCK",
+      "kind": "matchup",
+      "title": "Red Leopards × Dr. Duckhook",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_MISSION_REVIEW_STORY_LOCK_CORRECTED_2026-10-05.md",
+          "blob_sha": "83d8b410d6ecd09c792b9aa5634317c5543efa10",
+          "role": "Commissioner/Bullpen Mission Review lock"
+        },
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_27_PAGE_DIRECTOR_REVIEW_PACKET.md",
+          "blob_sha": "a00fe9f1e000d4acd179179373a0d08fb57546a8",
+          "role": "27-page Director-reviewed production treatment"
+        }
+      ],
+      "superseded_sources": [],
+      "current_page_count": 3,
+      "page_count_state": "LOCKED_27_PAGE_MISSION_REVIEW",
+      "page_role": "Pages 11–13 locked three-page coastal golf humiliation: RECOVERY TRIP → THE LESSON → THE SCORECARD DOESN'T LIE.",
+      "headline_direction": "Red Leopards × Dr. Duckhook",
+      "visual_job": "Coastal recovery trip becomes competence-based golf humiliation; scorecard returns to Country Club.",
+      "prose_job": "Deadpan embarrassment; competence not abuse.",
+      "data_job": "Final fantasy inscription/records after Fact Lock.",
+      "transition_job": "Direct page turn; no Club-Information Bridge.",
+      "unresolved_conditions": [
+        "Flaim/ESPN decided fields only"
+      ],
+      "fact_lock_dependencies": [
+        "official final data where applicable"
+      ],
+      "character_dependencies": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-ZACH-WILSON"
+      ],
+      "world_dependencies": [
+        "WEEK_4_WORLD_ENTRY_RECEIPT_V1 + page-specific World/Atlas resolution"
+      ],
+      "director_owner": "Beat Writer",
+      "cross_reference_reviewer": "Librarian",
+      "status": "CURRENT",
+      "story_authority_hash": "1797130f82d73a0fafe1e1c6b01f77540b92396314d2f41447ff0aabc863bbfa"
+    },
+    {
+      "story_unit_id": "W4-STORY-SLOB-CHILI",
+      "kind": "matchup",
+      "title": "Slob on my Dobb × Chili Cheesers",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_MISSION_REVIEW_STORY_LOCK_CORRECTED_2026-10-05.md",
+          "blob_sha": "83d8b410d6ecd09c792b9aa5634317c5543efa10",
+          "role": "Commissioner/Bullpen Mission Review lock"
+        },
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_27_PAGE_DIRECTOR_REVIEW_PACKET.md",
+          "blob_sha": "a00fe9f1e000d4acd179179373a0d08fb57546a8",
+          "role": "27-page Director-reviewed production treatment"
+        }
+      ],
+      "superseded_sources": [],
+      "current_page_count": 3,
+      "page_count_state": "LOCKED_27_PAGE_MISSION_REVIEW",
+      "page_role": "Pages 14–16 locked three-page man-cave comedy: WELCOME TO THE CAVE → ONE MORE ROUND → THE BEER CHAMPION.",
+      "headline_direction": "Slob on my Dobb × Chili Cheesers",
+      "visual_job": "Slob man cave, escalating social contest, homemade Beer Champion belt payoff.",
+      "prose_job": "Dialogue/personality/comic timing.",
+      "data_job": "Final fantasy score/result only after Fact Lock.",
+      "transition_job": "Direct page turn; no bridge page.",
+      "unresolved_conditions": [
+        "Flaim/ESPN decided fields only"
+      ],
+      "fact_lock_dependencies": [
+        "official final data where applicable"
+      ],
+      "character_dependencies": [
+        "CHAR-JORDAN-HOLLINGSHEAD",
+        "CHAR-BRANDON-PRYOR"
+      ],
+      "world_dependencies": [
+        "WEEK_4_WORLD_ENTRY_RECEIPT_V1 + page-specific World/Atlas resolution"
+      ],
+      "director_owner": "Beat Writer",
+      "cross_reference_reviewer": "Librarian",
+      "status": "CURRENT",
+      "story_authority_hash": "8ac65cb64c55c67c3baa79b595351917ac1e50777e25426ec5c435fd4f406dc4"
+    },
+    {
+      "story_unit_id": "W4-STORY-LLC-HMB",
+      "kind": "matchup",
+      "title": "The LLC × His Majesty's Blood",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_MISSION_REVIEW_STORY_LOCK_CORRECTED_2026-10-05.md",
+          "blob_sha": "83d8b410d6ecd09c792b9aa5634317c5543efa10",
+          "role": "Commissioner/Bullpen Mission Review lock"
+        },
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_27_PAGE_DIRECTOR_REVIEW_PACKET.md",
+          "blob_sha": "a00fe9f1e000d4acd179179373a0d08fb57546a8",
+          "role": "27-page Director-reviewed production treatment"
+        }
+      ],
+      "superseded_sources": [],
+      "current_page_count": 3,
+      "page_count_state": "LOCKED_27_PAGE_MISSION_REVIEW",
+      "page_role": "Pages 17–19 locked three-page financial institutional irony: THE HOUSE SETS THE LINE → EXPOSURE → THE HOUSE GETS BEAT.",
+      "headline_direction": "THE HOUSE SETS THE LINE → EXPOSURE → THE HOUSE GETS BEAT",
+      "visual_job": "Corporate gaming exchange: confidence → distributed exposure → quiet settlement.",
+      "prose_job": "Precise financial language gradually losing control.",
+      "data_job": "Final score/records/wager settlement after Fact Lock.",
+      "transition_job": "Direct page turn into El Niño; Models/Pressure Bridge forbidden.",
+      "unresolved_conditions": [
+        "Flaim/ESPN decided fields only"
+      ],
+      "fact_lock_dependencies": [
+        "official final data where applicable"
+      ],
+      "character_dependencies": [
+        "CHAR-DAVID-BABB",
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "world_dependencies": [
+        "WEEK_4_WORLD_ENTRY_RECEIPT_V1 + page-specific World/Atlas resolution"
+      ],
+      "director_owner": "Beat Writer",
+      "cross_reference_reviewer": "Librarian",
+      "status": "CURRENT",
+      "story_authority_hash": "f797caf91e0dfb98f983e4c53d65b7fd575bc5f700b4baf914a5d07d9d033c38"
+    },
+    {
+      "story_unit_id": "W4-STORY-ELNINO-7DC",
+      "kind": "matchup",
+      "title": "El Niño × Seven Deadly Chins",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_MISSION_REVIEW_STORY_LOCK_CORRECTED_2026-10-05.md",
+          "blob_sha": "83d8b410d6ecd09c792b9aa5634317c5543efa10",
+          "role": "Commissioner/Bullpen Mission Review lock"
+        },
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_27_PAGE_DIRECTOR_REVIEW_PACKET.md",
+          "blob_sha": "a00fe9f1e000d4acd179179373a0d08fb57546a8",
+          "role": "27-page Director-reviewed production treatment"
+        }
+      ],
+      "superseded_sources": [],
+      "current_page_count": 3,
+      "page_count_state": "LOCKED_27_PAGE_MISSION_REVIEW",
+      "page_role": "Pages 20–22 locked three-page environmental disaster comedy: PRESSURE AT HOME → THAT'S PROBABLY NOT GOOD → THE STORM FINALLY CAME.",
+      "headline_direction": "El Niño × Seven Deadly Chins",
+      "visual_job": "Domestic chaos escalates into maximal local storm comedy.",
+      "prose_job": "Begin small/domestic; expand with weather.",
+      "data_job": "Final score/records after Fact Lock.",
+      "transition_job": "Direct page turn into league modules; no bridge page.",
+      "unresolved_conditions": [
+        "Flaim/ESPN decided fields only"
+      ],
+      "fact_lock_dependencies": [
+        "official final data where applicable"
+      ],
+      "character_dependencies": [
+        "CHAR-MANNING-WELTY",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "world_dependencies": [
+        "WEEK_4_WORLD_ENTRY_RECEIPT_V1 + page-specific World/Atlas resolution"
+      ],
+      "director_owner": "Beat Writer",
+      "cross_reference_reviewer": "Librarian",
+      "status": "CURRENT",
+      "story_authority_hash": "2a4e89581fa8b28d16dd07bb27accc7bf39081223ada9000aff2361ada1ecaeb"
+    },
+    {
+      "story_unit_id": "W4-MODULE-COVER",
+      "kind": "module",
+      "title": "Cover",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_MISSION_REVIEW_STORY_LOCK_CORRECTED_2026-10-05.md",
+          "blob_sha": "83d8b410d6ecd09c792b9aa5634317c5543efa10",
+          "role": "Commissioner/Bullpen Mission Review lock"
+        },
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_27_PAGE_DIRECTOR_REVIEW_PACKET.md",
+          "blob_sha": "a00fe9f1e000d4acd179179373a0d08fb57546a8",
+          "role": "27-page Director-reviewed production treatment"
+        }
+      ],
+      "superseded_sources": [],
+      "current_page_count": 1,
+      "page_count_state": "LOCKED_27_PAGE_MISSION_REVIEW",
+      "page_role": "Page 1 locked cover: RETURN OF THE JEDI.",
+      "headline_direction": "Cover",
+      "visual_job": "Obi alone walking toward reader in DK highland language; unlit saber on belt; no dog/no belt.",
+      "prose_job": "Title-first; no explanatory clutter.",
+      "data_job": "Optional factual deck after Fact Lock.",
+      "transition_job": "Opens issue.",
+      "unresolved_conditions": [
+        "Flaim/ESPN decided fields only"
+      ],
+      "fact_lock_dependencies": [
+        "official final data where applicable"
+      ],
+      "character_dependencies": [
+        "CHAR-JAKE-KALOPER"
+      ],
+      "world_dependencies": [
+        "WEEK_4_WORLD_ENTRY_RECEIPT_V1 + page-specific World/Atlas resolution"
+      ],
+      "director_owner": "Beat Writer",
+      "cross_reference_reviewer": "Librarian",
+      "status": "CURRENT",
+      "story_authority_hash": "f8444a6bc7da643ad430b4c1699660d122ae5e078b189cf49eafe64e94fe48c7"
+    },
+    {
+      "story_unit_id": "W4-MODULE-OPENING",
+      "kind": "module",
+      "title": "Opening Drive",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_MISSION_REVIEW_STORY_LOCK_CORRECTED_2026-10-05.md",
+          "blob_sha": "83d8b410d6ecd09c792b9aa5634317c5543efa10",
+          "role": "Commissioner/Bullpen Mission Review lock"
+        },
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_27_PAGE_DIRECTOR_REVIEW_PACKET.md",
+          "blob_sha": "a00fe9f1e000d4acd179179373a0d08fb57546a8",
+          "role": "27-page Director-reviewed production treatment"
+        }
+      ],
+      "superseded_sources": [],
+      "current_page_count": 1,
+      "page_count_state": "LOCKED_27_PAGE_MISSION_REVIEW",
+      "page_role": "Page 2 locked Opening Drive: DIVISIONAL WEEK BROUGHT CONSEQUENCES HOME.",
+      "headline_direction": "Opening Drive",
+      "visual_job": "Connected divisional panorama, no six-character collage.",
+      "prose_job": "Editorial orientation.",
+      "data_job": "3–4 verified facts after Fact Lock.",
+      "transition_job": "Leads to scoreboard.",
+      "unresolved_conditions": [
+        "Flaim/ESPN decided fields only"
+      ],
+      "fact_lock_dependencies": [
+        "official final data where applicable"
+      ],
+      "character_dependencies": [],
+      "world_dependencies": [
+        "WEEK_4_WORLD_ENTRY_RECEIPT_V1 + page-specific World/Atlas resolution"
+      ],
+      "director_owner": "Beat Writer",
+      "cross_reference_reviewer": "Librarian",
+      "status": "CURRENT",
+      "story_authority_hash": "ac6603af4d05519c16573ad3b114a72e9ef904691689efbddc258b46a07d8307"
+    },
+    {
+      "story_unit_id": "W4-MODULE-SCOREBOARD",
+      "kind": "module",
+      "title": "The Board / Final Scoreboard",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_MISSION_REVIEW_STORY_LOCK_CORRECTED_2026-10-05.md",
+          "blob_sha": "83d8b410d6ecd09c792b9aa5634317c5543efa10",
+          "role": "Commissioner/Bullpen Mission Review lock"
+        },
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_27_PAGE_DIRECTOR_REVIEW_PACKET.md",
+          "blob_sha": "a00fe9f1e000d4acd179179373a0d08fb57546a8",
+          "role": "27-page Director-reviewed production treatment"
+        }
+      ],
+      "superseded_sources": [],
+      "current_page_count": 1,
+      "page_count_state": "LOCKED_27_PAGE_MISSION_REVIEW",
+      "page_role": "Page 3 locked deterministic final scoreboard.",
+      "headline_direction": "The Board / Final Scoreboard",
+      "visual_job": "Clean deterministic information board.",
+      "prose_job": "Minimal prose.",
+      "data_job": "All six final scores/winners/margins/records after Fact Lock.",
+      "transition_job": "Leads into DK × Obi.",
+      "unresolved_conditions": [
+        "Flaim/ESPN decided fields only"
+      ],
+      "fact_lock_dependencies": [
+        "official final data where applicable"
+      ],
+      "character_dependencies": [],
+      "world_dependencies": [
+        "WEEK_4_WORLD_ENTRY_RECEIPT_V1 + page-specific World/Atlas resolution"
+      ],
+      "director_owner": "Beat Writer",
+      "cross_reference_reviewer": "Librarian",
+      "status": "CURRENT",
+      "story_authority_hash": "7e3d988bb30d4a16eea092437433b461650a837f8228a62818f63897d0bf6c53"
+    },
+    {
+      "story_unit_id": "W4-MODULE-STATE-REALM",
+      "kind": "module",
+      "title": "State of the Realm",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_MISSION_REVIEW_STORY_LOCK_CORRECTED_2026-10-05.md",
+          "blob_sha": "83d8b410d6ecd09c792b9aa5634317c5543efa10",
+          "role": "Commissioner/Bullpen Mission Review lock"
+        },
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_27_PAGE_DIRECTOR_REVIEW_PACKET.md",
+          "blob_sha": "a00fe9f1e000d4acd179179373a0d08fb57546a8",
+          "role": "27-page Director-reviewed production treatment"
+        }
+      ],
+      "superseded_sources": [],
+      "current_page_count": 1,
+      "page_count_state": "LOCKED_27_PAGE_MISSION_REVIEW",
+      "page_role": "Page 23 locked State of the Realm module; values fill after Fact Lock.",
+      "headline_direction": "State of the Realm",
+      "visual_job": "League/world consequence view.",
+      "prose_job": "One concise consequence per division.",
+      "data_job": "Final records/division state after Fact Lock.",
+      "transition_job": "Leads to rankings.",
+      "unresolved_conditions": [
+        "Flaim/ESPN decided fields only"
+      ],
+      "fact_lock_dependencies": [
+        "official final data where applicable"
+      ],
+      "character_dependencies": [],
+      "world_dependencies": [
+        "WEEK_4_WORLD_ENTRY_RECEIPT_V1 + page-specific World/Atlas resolution"
+      ],
+      "director_owner": "Beat Writer",
+      "cross_reference_reviewer": "Librarian",
+      "status": "CURRENT",
+      "story_authority_hash": "6bbf183f6dcba3bbfa8b032f73067743bfa4156453fb9408275e2bef9224dd05"
+    },
+    {
+      "story_unit_id": "W4-MODULE-POWER-RANKINGS",
+      "kind": "module",
+      "title": "Power Rankings",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_MISSION_REVIEW_STORY_LOCK_CORRECTED_2026-10-05.md",
+          "blob_sha": "83d8b410d6ecd09c792b9aa5634317c5543efa10",
+          "role": "Commissioner/Bullpen Mission Review lock"
+        },
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_27_PAGE_DIRECTOR_REVIEW_PACKET.md",
+          "blob_sha": "a00fe9f1e000d4acd179179373a0d08fb57546a8",
+          "role": "27-page Director-reviewed production treatment"
+        }
+      ],
+      "superseded_sources": [],
+      "current_page_count": 1,
+      "page_count_state": "LOCKED_27_PAGE_MISSION_REVIEW",
+      "page_role": "Page 24 locked Power Rankings module; values fill after Fact Lock.",
+      "headline_direction": "Power Rankings",
+      "visual_job": "Deterministic 1–12 information design.",
+      "prose_job": "One concise rationale per team.",
+      "data_job": "Final ranking/movement/records after Fact Lock.",
+      "transition_job": "Leads to Pittsy's Book.",
+      "unresolved_conditions": [
+        "Flaim/ESPN decided fields only"
+      ],
+      "fact_lock_dependencies": [
+        "official final data where applicable"
+      ],
+      "character_dependencies": [],
+      "world_dependencies": [
+        "WEEK_4_WORLD_ENTRY_RECEIPT_V1 + page-specific World/Atlas resolution"
+      ],
+      "director_owner": "Beat Writer",
+      "cross_reference_reviewer": "Librarian",
+      "status": "CURRENT",
+      "story_authority_hash": "ab92e3573abca4d6238f56a5adcf0e2bdf436099ea5b8b059a4972f8169b2399"
+    },
+    {
+      "story_unit_id": "W4-MODULE-PITTSY",
+      "kind": "module",
+      "title": "Pittsy's Book",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_MISSION_REVIEW_STORY_LOCK_CORRECTED_2026-10-05.md",
+          "blob_sha": "83d8b410d6ecd09c792b9aa5634317c5543efa10",
+          "role": "Commissioner/Bullpen Mission Review lock"
+        },
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_27_PAGE_DIRECTOR_REVIEW_PACKET.md",
+          "blob_sha": "a00fe9f1e000d4acd179179373a0d08fb57546a8",
+          "role": "27-page Director-reviewed production treatment"
+        },
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_P25_PITTYS_BOOK_FINAL_PRODUCTION_PACKET.md",
+          "blob_sha": "7743d5ae64ed907fb4cdc04bf7a0b57cfa078364",
+          "role": "Page 25 final production authority"
+        },
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_P25_PITTYS_BOOK_VISUAL_REFERENCE_RECEIPT.md",
+          "blob_sha": "d83728c0d54109277523a58184987957dc41ccd4",
+          "role": "Commissioner-approved visual reference receipt"
+        }
+      ],
+      "superseded_sources": [],
+      "current_page_count": 1,
+      "page_count_state": "LOCKED_27_PAGE_MISSION_REVIEW",
+      "page_role": "Page 25 locked Pittsy's Book settlement module; arithmetic fills after Fact Lock.",
+      "headline_direction": "PITTSY'S BOOK — WEEK 4 SETTLEMENT",
+      "visual_job": "Waterfall-temple bookmaker institution with TDS/Pittsy as House operator; readable spread board, O/U board, house rules, Byars featured ticket and reserved settlement ledger.",
+      "prose_job": "Market-reform thesis: Weeks 1–3 were market research; Week 4 shifts to spreads-only discipline, then settles actual booked tickets.",
+      "data_job": "Locked spread slate + locked O/U slate + Byars +650 four-piece; final mathematical outcomes from Flaim/ESPN and actual booked-ticket settlement from Pitts.",
+      "transition_job": "Leads to Week 5 GOTW.",
+      "unresolved_conditions": [
+        "Flaim/ESPN official decided results",
+        "Pitts authoritative Week 4 settlement ledger"
+      ],
+      "fact_lock_dependencies": [
+        "official final scores",
+        "spread/total mathematical outcomes",
+        "Pitts booked-ticket ledger",
+        "settlement arithmetic"
+      ],
+      "character_dependencies": [
+        "CHAR-PHILLIP-PITTS"
+      ],
+      "world_dependencies": [
+        "WEEK_4_WORLD_ENTRY_RECEIPT_V1 + page-specific World/Atlas resolution"
+      ],
+      "director_owner": "Beat Writer",
+      "cross_reference_reviewer": "Librarian",
+      "status": "CURRENT",
+      "story_authority_hash": "b43b4c59fe7d08448e9b9bc1dd4422084288aa372babf44c82cb58c864df79d9"
+    },
+    {
+      "story_unit_id": "W4-MODULE-WEEK5-GOTW",
+      "kind": "module",
+      "title": "Week 5 GOTW — HMB × TDS",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_MISSION_REVIEW_STORY_LOCK_CORRECTED_2026-10-05.md",
+          "blob_sha": "83d8b410d6ecd09c792b9aa5634317c5543efa10",
+          "role": "Commissioner/Bullpen Mission Review lock"
+        },
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_27_PAGE_DIRECTOR_REVIEW_PACKET.md",
+          "blob_sha": "a00fe9f1e000d4acd179179373a0d08fb57546a8",
+          "role": "27-page Director-reviewed production treatment"
+        }
+      ],
+      "superseded_sources": [],
+      "current_page_count": 1,
+      "page_count_state": "LOCKED_27_PAGE_MISSION_REVIEW",
+      "page_role": "Page 26 locked Week 5 GOTW HMB × TDS.",
+      "headline_direction": "Week 5 GOTW — HMB × TDS",
+      "visual_job": "TDS home-region/Waterfall Temple teaser with exact TDS/HMB identities.",
+      "prose_job": "Forward pressure; GM-of-Year framing only as question.",
+      "data_job": "Entering records after Fact Lock.",
+      "transition_job": "Leads to Final Word.",
+      "unresolved_conditions": [
+        "Flaim/ESPN decided fields only"
+      ],
+      "fact_lock_dependencies": [
+        "official final data where applicable"
+      ],
+      "character_dependencies": [
+        "CHAR-AUSTIN-BYARS",
+        "CHAR-PHILLIP-PITTS"
+      ],
+      "world_dependencies": [
+        "WEEK_4_WORLD_ENTRY_RECEIPT_V1 + page-specific World/Atlas resolution"
+      ],
+      "director_owner": "Beat Writer",
+      "cross_reference_reviewer": "Librarian",
+      "status": "CURRENT",
+      "story_authority_hash": "df0d9cb4163d7019e7e8e1880d346e9e8ba514820feb4b0caca9fc4cd3a24a24"
+    },
+    {
+      "story_unit_id": "W4-MODULE-FINAL-WORD",
+      "kind": "module",
+      "title": "Final Word",
+      "current_controlling_sources": [
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_MISSION_REVIEW_STORY_LOCK_CORRECTED_2026-10-05.md",
+          "blob_sha": "83d8b410d6ecd09c792b9aa5634317c5543efa10",
+          "role": "Commissioner/Bullpen Mission Review lock"
+        },
+        {
+          "path": "memo-os/week-4/publication-readiness/WEEK_04_27_PAGE_DIRECTOR_REVIEW_PACKET.md",
+          "blob_sha": "a00fe9f1e000d4acd179179373a0d08fb57546a8",
+          "role": "27-page Director-reviewed production treatment"
+        }
+      ],
+      "superseded_sources": [],
+      "current_page_count": 1,
+      "page_count_state": "LOCKED_27_PAGE_MISSION_REVIEW",
+      "page_role": "Page 27 locked final word: THE WORLD DOES NOT RESET.",
+      "headline_direction": "Final Word",
+      "visual_job": "Quiet aftermath with a few earned objects; no collage.",
+      "prose_job": "Weekly scoring ends, consequence persists.",
+      "data_job": "Only verified durable objects/results.",
+      "transition_job": "Closes issue.",
+      "unresolved_conditions": [
+        "Flaim/ESPN decided fields only"
+      ],
+      "fact_lock_dependencies": [
+        "official final data where applicable"
+      ],
+      "character_dependencies": [],
+      "world_dependencies": [
+        "WEEK_4_WORLD_ENTRY_RECEIPT_V1 + page-specific World/Atlas resolution"
+      ],
+      "director_owner": "Beat Writer",
+      "cross_reference_reviewer": "Librarian",
+      "status": "CURRENT",
+      "story_authority_hash": "2676417d80d55fba717b5581d474765110ab2237eeaf4a4fa758cc461cfa4b48"
+    }
+  ]
+}

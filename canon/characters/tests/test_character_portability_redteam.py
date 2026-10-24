@@ -72,18 +72,18 @@ class CharacterPortabilityRedTeam(unittest.TestCase):
         self.assertIn("championship belt",text.lower())
         self.assertIn("NEGATIVE LOCKS",text)
 
-    def test_retired_wilson_centaur_forward_resolves_to_gorilla(self):
+    def test_wilson_aliases_forward_resolve_to_current_gorilla_centaur(self):
         for query in ("Arsenal Centaur","Baker Moore Purdy"):
             r=resolve_character(query)
             self.assertEqual(r["status"],"CURRENT_CANON_RESOLVED")
             self.assertEqual(r["character_id"],"CHAR-WILSON-LOOK")
-            self.assertEqual(r["identity"],"Arsenal Gorilla Warrior")
+            self.assertEqual(r["identity"],"Arsenal Gorilla Centaur Warrior")
         retired=resolve_character("Arsenal Centaur")
         self.assertNotEqual(retired.get("input_state"),"SUPERSEDED_ALIAS")
 
     def test_tds_one_body_three_heads_and_negative_locks_survive(self):
         text=(ROOT/"canon/characters/CHAR-PHILLIP-PITTS/T04_CHARACTER_SPEC.md").read_text()
-        self.assertIn("one reptilian humanoid body / three serpent heads",text)
+        self.assertIn("ONE reptilian humanoid BODY with EXACTLY THREE serpent HEADS",text)
         for forbidden in ("three separate snakes","single-headed reptile","Medusa","human substitute"):
             self.assertIn(forbidden,text)
 
@@ -93,7 +93,7 @@ class CharacterPortabilityRedTeam(unittest.TestCase):
             self.assertEqual(r["character_id"],"CHAR-AUSTIN-BYARS")
             self.assertEqual(r["identity"],"The Belt Keeper")
         text=(ROOT/"canon/characters/CHAR-AUSTIN-BYARS/T04_CHARACTER_SPEC.md").read_text()
-        for forbidden in ("king","vampire","blood creature","rename-driven royal redesign"):
+        for forbidden in ("king","vampire","blood creature","rename-driven anatomy or mascot redesign"):
             self.assertIn(forbidden,text)
 
     def _roundtrip(self,count):

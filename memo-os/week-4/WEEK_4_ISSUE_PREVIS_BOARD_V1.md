@@ -72,3 +72,14 @@ Planning constraints:
 - Week 4 final records remain unlocked until current-week provider finality.
 - exact GOTW page form, copy depth, art:text ratio and final environment remain open until historical rivalry evidence + venue resolution + Week 4 finality are reconciled.
 - this ruling does not alter the Week 4 cover doctrine.
+
+
+## El Niño × 7DC storm-alarm personalization — 2026-10-05
+
+Authority: `WEEK_4_PERSONALIZED_INTELLIGENCE_AMENDMENT_ELNINO_7DC_STORM_ALARMS_2026-10-05.md`.
+
+Planning-only two-beat page concept:
+- **PAGE A — NOT SOUNDING THE ALARMS YET:** ignored warning signs, mini El Niño frustration/weather cues, dormant storm alarm, 7DC dismissive as pressure escalates.
+- **PAGE B — THE STORM FINALLY ARRIVED:** realization comes too late; Whipple futilely tries to shoot the storm; storm overwhelms and washes 7DC away in stylized comic fashion.
+
+This does not lock two pages. Exact page count remains subject to Complete Issue Previs.

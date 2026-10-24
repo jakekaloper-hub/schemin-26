@@ -4,6 +4,7 @@ status: ACTIVE / T04_CANDIDATE
 owner: Jordan Hollingshead
 current_team: Slob on my Dobb
 canonical_identity: Frat-Bro Berserker
+presentation_alias: Frat Star
 
 ## Primary identity evidence
 Commissioner-supplied 2026-09-29 owner reference. SHA-256: `c052e8c74939338517f1b14bbca5f2ea3d57146794f675d065698a44fb1064e8`. Render quality: HIGH. See `../COMMISSIONER_REFERENCE_REGISTER_12_OF_12.md`.

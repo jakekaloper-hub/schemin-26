@@ -1,0 +1,1604 @@
+# SCHEMIN '26 — WEEK 4 OFFICIAL MANUAL PRODUCTION PACKET
+
+**Status:** ACTIVE CONTROLLED MANUAL PRODUCTION / STORY LOCKED / WRITTEN MANUSCRIPT LOCKED
+**Repository:** jakekaloper-hub/schemin-26
+**Authority:** Commissioner + Bullpen Mission Review
+**Production mode:** Manual page-by-page
+**Issue length:** 27 pages
+**Story state:** LOCKED
+**Remaining open state:** Flaim/ESPN finality + deterministic result fields only
+
+---
+
+# WRITTEN NARRATIVE AUTHORITY
+
+**Controlling reader-facing prose:** `memo-os/week-4/publication-readiness/WEEK_04_FINAL_WRITTEN_MANUSCRIPT.md`
+
+**Editorial QA:** `memo-os/week-4/publication-readiness/WEEK_04_WRITING_RECOVERY_AUDIT_2026-10-06.md`
+
+The packet describes page purpose, story, visual job, data job and rejection conditions. It is **not** allowed to invent or substitute reader-facing prose.
+
+If any headline, deck, caption, paragraph, quote treatment or other reader-facing wording in this packet conflicts with the Final Written Manuscript, the manuscript controls unless the Commissioner issues a newer explicit written correction.
+
+No page-generation thread may improvise copy because a layout contains unused text space. Silence is permitted.
+
+# RENDER-FACING PUBLICATION CONTRACT — 2026-10-06 RECOVERY
+
+This packet has two namespaces:
+
+- **internal production identifiers**: page IDs, Character IDs, abbreviations and shorthand used only for routing;
+- **publishable copy**: exact league/team/division/issue text that may appear in the Memo.
+
+These namespaces may never be confused.
+
+Before any page render/composition, retrieve `WEEK_04_PUBLISHABLE_IDENTITY_REGISTRY.json`.
+
+### Deterministic text rule
+The following are NEVER delegated to image generation:
+- SCHEMIN '26 masthead;
+- WEEK 4 / issue/date labels;
+- page title/headline when exact wording matters;
+- team names;
+- division names;
+- GAME OF THE WEEK labels;
+- scores, records, standings, rankings;
+- odds, totals, betting ledgers;
+- quotes intended as exact copy;
+- body copy longer than decorative environmental lettering.
+
+Those fields are composited deterministically after the illustration layer is accepted.
+
+### Character-reference rule
+A prose description is not a visual-reference attachment.
+A historical page is not current identity authority.
+A master lineup is not authority for DK, TDS or HMB.
+If the active renderer cannot actually receive the current approved reference for every depicted character, the character-bearing page is BLOCKED.
+
+### Candidate visibility limitation
+The active ChatGPT image renderer surfaces generated candidates to the conversation when invoked. Therefore Bullpen must not claim that a candidate was invisibly raster-QA'd before the Commissioner could see it. Production may resume only with the strongest pre-render controls available, and the Commissioner-visible candidate is not an approved page until acceptance evidence exists. Any earlier claim that a surfaced image had already passed hidden raster QA is revoked.
+
+# EXECUTION CONTRACT
+
+This file is the story/page authority for the Week 4 Memo. Manual rendering is authorized through the active Page Generation Gate; reader-facing prose is controlled by the locked Final Written Manuscript.
+
+Jake should be able to instruct:
+
+- "do page 1"
+- "do page 2"
+- ...
+- "do page 27"
+
+and the production agent must retrieve and execute the corresponding page section from this file.
+
+The production agent has NO authority to:
+- redesign story beats;
+- change page count;
+- invent alternate titles;
+- substitute a different scene;
+- invent character details;
+- invent geography;
+- invent data;
+- add bridge pages;
+- collapse multi-page matchups;
+- reopen Story Room.
+
+If any lower source conflicts with this packet, this packet controls unless Jake issues a newer explicit Commissioner correction.
+
+Before any character-bearing render, resolve:
+Character_ID → current approved reference/hash → page-state override → actual raster QA.
+
+Critical numerical text must be deterministic composition.
+
+Forbidden standalone pages:
+- Repair Bridge
+- Club-Information Bridge
+- Models/Pressure Bridge
+
+Flaim/ESPN may update only:
+- winner;
+- final score;
+- margin;
+- record;
+- standings;
+- verified player-level scoring evidence;
+- Week 4 Pittsy's Book settlement.
+
+Flaim does not reopen storytelling.
+
+# PROVISIONAL-FINAL WEEK 4 DATA OVERLAY — 2026-10-06
+
+**State:** `PROVISIONAL_FINAL / PROVIDER_DECIDED_PENDING`
+**Source:** `WEEK_04_PROVISIONAL_FINAL_FLAIM_SNAPSHOT_2026-10-06.json`
+**Page impact:** `WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json`
+**Provider state:** all six ESPN winner fields remain `UNDECIDED`.
+
+Current completed-football scoreboard:
+- ObiWan Jacoby **157.33** — D0nkey K0ng **139.67**
+- Three Dreaded Snake **149.84** — Mud Dogs **126.98**
+- Red Leopards **164.08** — Dr. Duckhook **128.36**
+- Slob on my Dobb **190.72** — Chili Cheesers **139.96**
+- His Majesty's Blood **177.32** — The LLC **138.87**
+- El Niño **170.62** — Seven Deadly Chins **106.20**
+
+Projected records if these scores survive official finality:
+- DK 3-1; ObiWan 3-1; Mud 2-2; TDS 2-2;
+- Red 3-1; Slob 2-2; Chili 2-2; Duckhook 1-3;
+- El Niño 2-2; HMB 2-2; LLC 1-3; 7DC 1-3.
+
+Page-specific data has been propagated through the Page Impact Register. Production must use that register for Pages 1–27 until the morning DECIDED transaction replaces provisional fields with official values.
+
+Page 23 provisional State of the Realm: `WEEK_04_STATE_OF_REALM.md`.
+Page 24 provisional Power Rankings: `WEEK_04_PROVISIONAL_POWER_RANKINGS_2026-10-06.md`.
+Page 25 provisional market math: `WEEK_04_PROVISIONAL_PITTSY_MATH_2026-10-06.md`; Pitts booked-ticket ledger remains pending.
+Page 27 World State Delta: `WEEK_04_PROVISIONAL_WORLD_STATE_DELTA_2026-10-06.md` staged only.
+
+Morning command: `/bullpen resume Week 4 from official ESPN/Flaim DECIDED flip`.
+
+---
+
+# PAGE 1 — COVER — RETURN OF THE JEDI
+
+**Function:** Cover / issue thesis.
+**Story state:** LOCKED.
+**Data state:** final supporting result language may populate after Flaim finality.
+
+**Character:** ObiWan Jacoby / The Trade Jedi.
+
+**Locked visual direction:**
+- ObiWan walks directly toward the audience alone.
+- dark;
+- ominous;
+- cinematic;
+- confident;
+- controlled;
+- not triumphal comedy.
+- the image should feel like someone has returned to a place everyone thought belonged to DK.
+- use DK mountain/highland world language.
+- no golden retriever.
+- no championship belt.
+- no lit lightsaber.
+- lightsaber is unlit and attached to ObiWan's belt.
+- do not add DK unless Jake explicitly changes the cover.
+
+**Composition:**
+- one-character cover;
+- strong environmental scale;
+- negative space;
+- highland terrain and atmosphere;
+- ObiWan remains the sole focal point.
+
+**Headline:** RETURN OF THE JEDI.
+
+**Do not print until finality if result-dependent:** any explicit undefeated-ended / DK-defeated language.
+
+**Reject if:** dog appears; belt appears; saber glows; saber is in hand; DK crowds composition; ObiWan looks celebratory/comedic; setting becomes generic sci-fi.
+
+---
+
+# PAGE 2 — THE WORLD REMEMBERS
+
+**Function:** issue overture / narrative hook.
+**Story state:** LOCKED.
+**Publishable headline:** **THE WORLD REMEMBERS**.
+**Publishable deck:** **Last week the league learned the map. This week, everybody had to defend where they lived.**
+
+**Purpose:** Open the actual Week 4 stories immediately. This page is not a generic division explainer and not an Atlas lecture.
+
+**Locked body copy:**
+
+D0nkey K0ng entered Week 4 as the last unbeaten team in the league. ObiWan Jacoby walked straight into his highlands.
+
+Three Dreaded Snake went hunting in the Burgers wetlands. Dr. Duckhook tried to escape the chili dog and found Red Leopards waiting on the coast. The Chili Cheesers rode into Slob on my Dobb's cave. His Majesty's Blood walked into a house that had priced its own victory. And somewhere across Pizza territory, pressure at El Niño's home started changing the weather.
+
+That is what divisional week means in Schemin'.
+
+These were not six isolated scoreboards. They happened on roads we already know, inside institutions that remember, between rivals who do not reset when Monday night ends.
+
+Week 4 did not introduce the world.
+
+It made the world answer for what had already happened in it.
+
+**Locked visual direction:** one panoramic issue-overture environment with six story-specific signals:
+- DK highland ridge / approaching Jedi route;
+- pre-dawn marsh blind and decoys;
+- coastal golf flag / scorecard motif;
+- neon man-cave glow;
+- corporate gaming-exchange light spilling from an institutional facade;
+- storm wall building above Whipple's trailer-park horizon.
+
+**World rule:** divisions remain cultural networks, not literal food nations. Wings = chicken wings only where heraldry appears; never angel/bird/dragon wings.
+
+**Character rule:** avoid principal character faces on this page unless exact current reference binding is proven. Story objects/environments carry the overture.
+
+**Text rule:** headline, deck and body are deterministic composition. No image-generated body copy.
+
+**Reject if:** generic three-castle division poster; generic fantasy map; food-shaped terrain; six-character collage; generic “Week 4 mattered” prose; invented permanent landmarks; any division membership error; any publishable team-name shorthand.
+
+---
+
+# PAGE 3 — THE BOARD / FINAL SCOREBOARD
+
+**Function:** deterministic Week 4 factual anchor.
+**Story state:** LOCKED.
+**Data state:** RESULT FIELDS FOLLOW CURRENT FACT-LOCK STATUS.
+
+**This is an information-design page, not character art.**
+
+**Character icons:** **FORBIDDEN.**
+Do not generate mascots, owner portraits, archetype icons or substitute characters.
+
+**Exact publishable team-name pairs:**
+- D0nkey K0ng vs ObiWan Jacoby — Burgers;
+- Mud Dogs vs Three Dreaded Snake — Burgers;
+- Red Leopards vs Dr. Duckhook — Wings;
+- Slob on my Dobb vs The Chili Cheesers — Wings;
+- The LLC vs His Majesty's Blood — Pizza;
+- El Niño vs Seven Deadly Chins — Pizza.
+
+**Required deterministic fields:**
+- exact team name;
+- final/provisional-final score according to current Fact Lock state;
+- winner state;
+- margin when authorized;
+- updated record when authorized;
+- division.
+
+**Design:** six clean matchup cards or rows integrated into Schemin materials—engraved board, paper ledger, brass/stone/wood framing, restrained division heraldry. Worldbuilding may decorate the information architecture but may not replace it.
+
+**Typography rule:** all names, divisions, scores, records, labels and date/issue metadata are deterministic composition only.
+
+**Reject if:** any character icon appears; any internal alias appears as a team name; any team is assigned to wrong division; Wings uses bird/angel/dragon symbolism; any numeral is image-generated; projection is presented as result; decorative worldbuilding reduces phone readability.
+
+---
+
+# PAGE 4 — GAME OF THE WEEK — D0nkey K0ng vs ObiWan Jacoby I — THE RETURN
+
+**Function:** arrival / territorial confrontation.
+**Story state:** LOCKED.
+
+**Publishable matchup label:** **GAME OF THE WEEK — D0nkey K0ng vs ObiWan Jacoby**.
+**Week 3 precedent:** this matchup was explicitly designated the Week 4 GAME OF THE WEEK on Week 3's forward teaser. That status is mandatory across Pages 4–7.
+**Recurring chapter treatment:** restrained GAME OF THE WEEK wordmark / issue chrome on all four pages; exact team names deterministic; never render `DK × OBI` as public copy.
+
+**ObiWan:**
+- Trade Jedi;
+- no championship belt;
+- no golden retriever in Week 4 DK × Obi pages;
+- calm, strategic, controlled.
+
+**DK:**
+- one integrated body;
+- gorilla upper identity;
+- four-legged centaur/equine lower body;
+- Arsenal supporter identity;
+- physically imposing;
+- not humiliated.
+
+**Setting:** DK mountain/highland territory.
+
+**Composition:**
+- Obi elevated at a threshold / stair / ridge / platform inside the resolved highland environment;
+- DK lower front-right foreground;
+- DK looks upward;
+- both look fully ready;
+- low-angle confrontation staging.
+
+**Image tells:** scale, readiness, territorial pressure.
+**Prose tells:** undefeated mythology and local divisional stakes.
+
+**Reject if:** generic Jedi-vs-gorilla poster; dog; DK anatomy drift; DK submissive.
+
+---
+
+# PAGE 5 — GAME OF THE WEEK — D0nkey K0ng vs ObiWan Jacoby II — THE DUEL
+
+**Function:** active matchup collision.
+**Story state:** LOCKED.
+**Data state:** final verified scoring evidence may be inserted after Flaim lock.
+
+**Setting:** same highland battlefield / encounter space as Page 4. No scene reset.
+
+**Visual job:**
+- actual battle progression;
+- multiple simultaneous pressure points where supported by final fantasy evidence;
+- DK remains dangerous and fighting;
+- Obi's side is beginning to break the structure.
+
+**Fantasy translation:** verified scoring contributors may be translated into battlefield momentum, but no player-level element is invented before finality.
+
+**Image tells:** momentum, pressure, tactical contrast.
+**Prose tells:** why the fantasy evidence is causing the line to move.
+
+**Reject if:** victory pose; NFL player collage; invented stats; DK already defeated.
+
+---
+
+# PAGE 6 — GAME OF THE WEEK — D0nkey K0ng vs ObiWan Jacoby III — THE HIGH GROUND
+
+**Function:** visual hinge.
+**Story state:** LOCKED.
+
+**Visual job:** control has shifted.
+
+**Composition:**
+- elevation must matter;
+- Obi has advantageous position;
+- DK remains massive, credible and dangerous;
+- no cheap fall or surrender image.
+
+**Image tells:** the matchup has changed hands.
+**Prose tells:** minimal.
+
+**Headline:** THE HIGH GROUND.
+
+**Reject if:** DK becomes comic, submissive, tiny or anatomically incorrect.
+
+---
+
+# PAGE 7 — GAME OF THE WEEK — D0nkey K0ng vs ObiWan Jacoby IV — UNDEFEATED NO MORE
+
+**Function:** aftermath / structural consequence.
+**Story state:** LOCKED.
+**Data state:** title/result language becomes printable only after Flaim confirms final result.
+
+**Visual job:**
+- quiet aftermath;
+- damaged/broken field;
+- DK still standing;
+- Obi moving through or beyond the scene;
+- no gloating;
+- no coronation.
+
+**Prose job:** if finality confirms present result, explain:
+- DK's undefeated status ended;
+- Obi's preparation/ability was validated;
+- divisional power shifted;
+- DK remains a future threat.
+
+**Data slots:** final score, margin, new records.
+
+**Reject if:** humiliation meme; belt; victory dog; comedic DK.
+
+---
+
+# PAGE 8 — Mud Dogs vs Three Dreaded Snake I — OPENING MORNING
+
+**Function:** establish hunting comedy.
+**Story state:** LOCKED.
+
+**Genre:** dry observational hunting comedy.
+
+**Setting:** pre-dawn Burgers wetlands.
+
+**TDS:**
+- one reptilian humanoid body;
+- exactly three serpent heads;
+- Week 4 dreads present;
+- competent and overprepared.
+
+**TDS blind:**
+- camo netting;
+- decoy spread;
+- thermos;
+- calls;
+- organized gear/ammunition boxes;
+- military-like precision.
+- one head spotting;
+- one head calling;
+- one head watching the spread.
+
+**Mud Dogs:**
+- monstrous swamp canine identity;
+- confident despite poor preparation.
+
+**Mud blind:**
+- crooked plywood;
+- sagging tarp;
+- wrong-angle opening;
+- wall leaning into marsh.
+
+**Visual joke:** competence difference is obvious before any fantasy result is discussed.
+
+**Reject if:** gore; generic snake/dog combat; TDS split into three bodies.
+
+---
+
+# PAGE 9 — Mud Dogs vs Three Dreaded Snake II — THE HUNT
+
+**Function:** comic escalation.
+**Story state:** LOCKED.
+**Data state:** final fantasy evidence may support narration after finality.
+
+**TDS:** calm and effective.
+
+**Mud Dogs repeatedly ruin opportunities:**
+- steps on something noisy;
+- blind section collapses;
+- bad call timing;
+- dog jumps too early;
+- decoy floats away.
+
+Use only enough beats to communicate the mechanism.
+
+**Core contrast:** prepared hunter versus enthusiastic amateur.
+
+**Narration:** connect locked fantasy story: TDS rebuilt and found answers; Mud produced respectably but not enough to take control if final result confirms.
+
+**Reject if:** gore; hunting instructions; cruelty; result language before finality.
+
+---
+
+# PAGE 10 — Mud Dogs vs Three Dreaded Snake III — THE BETTER HUNTER
+
+**Function:** punchline / result consequence.
+**Story state:** LOCKED.
+**Final title:** THE BETTER HUNTER.
+
+**Scene:**
+- truck beside marsh at end of day;
+- TDS sits on open tailgate;
+- exaggerated but non-graphic harvested haul;
+- muddy boots hanging down;
+- completely satisfied;
+- Mud nearby with essentially nothing;
+- Mud annoyed/jealous and staring at the haul.
+
+**Three-head beats:**
+- one smugly looking at Mud;
+- one drinking from thermos;
+- one counting birds.
+
+**Data slots:** final fantasy score / records after Flaim finality.
+
+**Reject if:** gore; taunting speech required to make joke work; generic winner pose.
+
+---
+
+# PAGE 11 — Red Leopards vs Dr. Duckhook I — RECOVERY TRIP
+
+**Function:** establish coastal golf humiliation.
+**Story state:** LOCKED.
+
+**Genre:** deadpan coastal sports embarrassment.
+
+**Setting:** scenic Wings coastal resort.
+
+**Scene:**
+- Duckhook has come away to recover from being Chili'd;
+- Red is relaxed/supportive;
+- beach chairs;
+- drinks;
+- ocean;
+- clubs nearby;
+- Duckhook finally decompressing.
+
+**Beat:** Red suggests golf.
+
+**Character locks:** Red remains canonical red leopard/jaguar; Duckhook remains canonical anthropomorphic white duck golfer.
+
+**Reject if:** repeat chili-dog humiliation; physical abuse; generic beach postcard with no setup.
+
+---
+
+# PAGE 12 — Red Leopards vs Dr. Duckhook II — THE LESSON
+
+**Function:** competence-driven humiliation.
+**Story state:** LOCKED.
+
+**Setting:** coastal links overlooking water.
+
+**Red:** unexpectedly plays like a tour professional.
+- controlled drives;
+- perfect irons;
+- effortless putts.
+
+**Duckhook:** golf-identity character who suddenly cannot hit straight.
+
+**Multi-beat visual options:**
+- slice into surf;
+- ball into dunes;
+- ricochet off cart sign;
+- Duckhook furiously searching bag for another ball;
+- Red calmly sticks approach beside pin.
+
+**Image tells:** the actual golfer is being outclassed by Red.
+**Narration:** deadpan; do not over-explain.
+
+---
+
+# PAGE 13 — Red Leopards vs Dr. Duckhook III — SCORECARD PAYOFF
+
+**Function:** enduring institutional embarrassment.
+**Story state:** LOCKED.
+
+**Scene:**
+- after losing the fantasy matchup and golf round if finality confirms;
+- Duckhook carries Red's bag back toward clubhouse like a caddie;
+- Red carries the signed scorecard.
+
+**Payoff:**
+- Red makes Duckhook post/frame the scorecard on the Country Club of Jackson member board when they return.
+
+**Object continuity:** the scorecard becomes a reusable universe object.
+
+**Preferred final headline from Mission Review:** THE SCORECARD DOESN'T LIE.
+
+**Data slot:** small Week 4 fantasy-result inscription may be added only after finality.
+
+**Reject if:** physical cruelty; Chili callback becomes main joke; Country Club geography is silently moved.
+
+---
+
+# PAGE 14 — Slob on my Dobb vs The Chili Cheesers I — WELCOME TO THE CAVE
+
+**Function:** establish man-cave social farce.
+**Story state:** LOCKED.
+
+**Setting:** Slob's man cave.
+
+**Environment:**
+- wall-to-wall TVs;
+- fantasy scores;
+- arcade cabinets;
+- neon beer signs;
+- sports memorabilia;
+- pool table;
+- recliners;
+- mini-fridges;
+- speakers;
+- scoreboard;
+- ridiculous homemade championship display.
+
+**Chili arrival:**
+- Chili Outlaw arrives as guest of honor;
+- Dark Horse outside / visible through opening;
+- Slob genuinely welcomes him.
+
+**Beer Champion's Belt:** visible in room before contest begins.
+
+**Reject if:** Chili already humiliated; belt looks like HMB's belt.
+
+---
+
+# PAGE 15 — Slob on my Dobb vs The Chili Cheesers II — ONE MORE ROUND
+
+**Function:** escalating social comedy.
+**Story state:** LOCKED.
+
+**Visual mechanism:** repetition.
+
+Chili deteriorates:
+- hat crooked;
+- eyes heavy;
+- missed high-five;
+- sits lower;
+- increasingly disorganized.
+
+Slob:
+- visually unchanged;
+- same composure as beginning.
+
+Fantasy-score updates may appear on a TV after finality to reinforce that the matchup is moving the same direction.
+
+**Safety/tone:** no vomiting, injury or instructional drinking quantities.
+
+**Reject if:** slapstick becomes dangerous; Slob changes more than Chili; belt awarded early.
+
+---
+
+# PAGE 16 — Slob on my Dobb vs The Chili Cheesers III — THE BEER CHAMPION
+
+**Function:** social payoff.
+**Story state:** LOCKED.
+
+**Scene:**
+- Slob relaxed with homemade Beer Champion's Belt;
+- Chili passed out safely in oversized recliner/couch/beanbag;
+- cowboy hat over face;
+- Dark Horse waiting outside impatiently.
+
+**Belt design:**
+- intentionally homemade;
+- beer tabs;
+- leather scraps;
+- bottle-cap ornamentation;
+- tacky novelty construction;
+- must look NOTHING like HMB's championship belt.
+
+**Final headline:** THE BEER CHAMPION.
+
+**Reject if:** HMB-style championship belt; unsafe injury scene; humiliating gore/illness.
+
+---
+
+# PAGE 17 — The LLC vs His Majesty's Blood I — THE HOUSE SETS THE LINE
+
+**Function:** establish financial institutional confidence.
+**Story state:** LOCKED.
+
+**Genre:** precise financial institutional irony.
+
+**Setting:** LLC's Pizza-region corporate gaming exchange.
+Part casino / part trading floor / part actuarial command center.
+
+**Environment:**
+- screens;
+- projections;
+- ledgers;
+- odds boards;
+- self-ticket paperwork;
+- expensive controlled design.
+
+**LLC:** confident; wagered on itself.
+**HMB:** enters like high-value customer the house thinks it understands.
+
+**Character lock:** HMB is the exact Belt Keeper; no crown/king/vampire redesign.
+
+**Prose tone:** controlled, smug, precise.
+
+---
+
+# PAGE 18 — The LLC vs His Majesty's Blood II — EXPOSURE
+
+**Function:** numbers turn against the model.
+**Story state:** LOCKED.
+**Data state:** exact scoring references only after finality.
+
+**Visual mechanism:**
+- one board moves;
+- another;
+- another;
+- distributed HMB scoring creates broad institutional risk.
+
+**Possible visual beats:**
+- multiple cashier windows owing HMB;
+- risk managers moving across floor;
+- LLC self-ticket buried under exposure notices;
+- giant board changes from MODEL to LIABILITY.
+
+**HMB:** remains calm.
+
+**Story:** house cannot isolate problem because everything is paying him.
+
+**Reject if:** HMB becomes screaming warrior; invented odds; fake financial arithmetic.
+
+---
+
+# PAGE 19 — The LLC vs His Majesty's Blood III — THE HOUSE GETS BEAT
+
+**Function:** settlement / quiet reversal.
+**Story state:** LOCKED.
+**Data state:** title remains conditional on official final result, but architecture does not reopen.
+
+**Scene:**
+- after-hours financial floor;
+- screens dark;
+- loose tickets/reports;
+- LLC at settlement desk staring at losing self-ticket;
+- HMB already leaving;
+- no gloating.
+
+**Primary prop:** receipt / settlement evidence.
+**Belt:** visible as identity, not story centerpiece.
+**Pittsy's Book:** outside authority stamping settlement only; not protagonist.
+
+**Story grammar:** confidence → risk → settlement.
+
+**If HMB victory officially locks, approved closing quote may be used:**
+“The disrespect towards His Majesty's Blood will not go unnoticed.”
+
+---
+
+# PAGE 20 — El Niño vs Seven Deadly Chins I — PRESSURE AT HOME
+
+**Function:** domestic origin of disaster comedy.
+**Story state:** LOCKED.
+
+**Genre:** domestic comedy expanding into environmental disaster.
+
+**Split-world page:**
+
+**El Niño home:**
+- mini-El Niños causing complete chaos;
+- toys;
+- spilled food;
+- screaming;
+- broken object;
+- child climbing somewhere;
+- simultaneous household disasters;
+- El Niño visibly losing patience.
+
+**Whipple elsewhere in Pizza region:**
+- trailer park;
+- RV;
+- lawn chair;
+- 40 oz;
+- quiet evening.
+
+**Weather:** begins changing almost imperceptibly as El Niño's frustration rises.
+
+**Reject if:** actual child danger; storm already maximal; generic hurricane mascot.
+
+---
+
+# PAGE 21 — El Niño vs Seven Deadly Chins II — THAT'S PROBABLY NOT GOOD
+
+**Function:** storm escalation.
+**Story state:** LOCKED.
+
+**Whipple:** finally looks up.
+
+**Environment:**
+- black rotating clouds;
+- RV awnings snapping;
+- lawn furniture moving;
+- neighbors scrambling.
+
+**Whipple response:** absurd Schemin logic—grabs shotgun and fires toward storm as if it were a varmint.
+
+**Safety:** no firearm instructions; no realistic tactical detail; no gore.
+
+**Image tells:** denial gives way to irrational defiance.
+
+---
+
+# PAGE 22 — El Niño vs Seven Deadly Chins III — THE STORM FINALLY CAME
+
+**Function:** maximal environmental payoff.
+**Story state:** LOCKED.
+
+**Scene:**
+- trailer park overwhelmed;
+- RVs;
+- lawn chairs;
+- coolers;
+- yard ornaments;
+- debris airborne;
+- Whipple carried with possessions in exaggerated slapstick;
+- no gore;
+- beer may remain in hand as visual joke;
+- El Niño's storm dominates the sky.
+
+**World rule:** storm can devastate Whipple's local environment but may not cause unrelated Pizza matchup outcomes.
+
+**Data slots:** final score / records after finality.
+
+**Reject if:** realistic injury; gore; global weather causation.
+
+---
+
+# PAGE 23 — STATE OF THE REALM
+
+**Function:** league-level divisional consequence.
+**Story state:** LOCKED.
+**Data state:** WAITING ON FINALITY.
+
+**Must answer:**
+- what changed in Burgers;
+- what changed in Wings;
+- what changed in Pizza;
+- who gained leverage;
+- who lost leverage;
+- what pressure carries into Week 5.
+
+**Design:** league/world view, not another matchup illustration.
+**Do not duplicate standings or Power Rankings.**
+
+**No bridge page.**
+
+---
+
+# PAGE 24 — POWER RANKINGS
+
+**Function:** final 1–12 editorial hierarchy.
+**Story state:** LOCKED.
+**Data state:** WAITING ON FINALITY.
+
+**Required for all 12 teams:**
+- rank;
+- week-over-week movement;
+- final record;
+- one concise evidence-based rationale.
+
+**TDS season note:** FROM #12 / climb language only if still editorially supported.
+
+**Do not treat standings as rankings.**
+**No invented movement arrows.**
+
+---
+
+# PAGE 25 — PITTSY'S BOOK — WEEK 4 SETTLEMENT
+
+**Page ID:** `W4-P25`
+**Story authority:** `W4-MODULE-PITTSY`
+**Function:** official Week 4 bookmaker settlement / institutional consequence page.
+**Story state:** LOCKED.
+**Pre-art state:** LOCKED.
+**Data state:** OFFICIAL PITTS WEEK 4 SETTLEMENT SUMMARY LOCKED; FLAIM/ESPN FINALITY CONTROL REMAINS FOR LEAGUE RESULT AUTHORITY.
+**Page-specific packet:** `memo-os/week-4/publication-readiness/WEEK_04_P25_PITTYS_BOOK_FINAL_PRODUCTION_PACKET.md`
+**Approved visual-reference receipt:** `memo-os/week-4/publication-readiness/WEEK_04_P25_PITTYS_BOOK_VISUAL_REFERENCE_RECEIPT.md`
+**Approved source-image SHA-256:** `273932d9b9e3c0eab56e517f663cffce443155cd5eee9c75c2b707bdac0be82b`
+
+**Narrative purpose:** Pittsy's Book was punished through the opening three weeks and changed policy. Week 4 becomes the institutional pivot from easy moneyline/parlay exposure to disciplined spread pricing and settlement.
+
+**Story beat:** market reform → priced board → dangerous customer exposure → settlement.
+
+**Character authority — TDS / Pittsy:**
+- `CHAR-PHILLIP-PITTS`;
+- expected SHA-256 `31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c`;
+- ONE reptilian humanoid body;
+- EXACTLY THREE serpent heads;
+- Week 4 DREADS PRESENT;
+- green-gold scales / glowing eyes / current #3 identity where visible;
+- bookmaker / line-manager role;
+- owner-specific approved reference/hash controls over stale master-lineup imagery.
+
+**Reject character if:** three separate bodies; wrong head count; no dreads; human bookmaker; generic hydra; stale character reconstruction.
+
+**World / Atlas continuity:**
+- recurring Pittsy's Book institution;
+- TDS-domain waterfall/temple environmental family;
+- carved dark stone;
+- black/gold and brass bookmaker identity;
+- vertical waterfalls, bridges and terraces;
+- serpent banners/motifs;
+- green banker lamps;
+- betting windows;
+- ledgers;
+- receipts;
+- operational settlement counters;
+- monumental fantasy scale integrated into Schemin Atlas logic.
+
+**Visual-reference directive:** evolve the approved attached betting-room reference rather than copying it literally. Improve information hierarchy, negative space, mobile readability, deterministic board design and Atlas/worldbuilding coherence.
+
+**Art:text ratio:** approximately 50–55% environment/character and 45–50% deterministic editorial/betting information.
+
+**Portrait/mobile composition:**
+- top: PITTSY'S BOOK institutional identity + TDS/Pittsy;
+- upper-middle: Week 4 spread board;
+- inset: WEEK 4 HOUSE RULES;
+- middle/lower: Week 4 O/U board;
+- featured artifact: Byars "FUCK THE BOOK" four-piece;
+- lower settlement zone: final bettor/ticket/results ledger;
+- footer: Week 4 / season House ledger and institutional closing line.
+
+**Locked Week 4 spread slate:**
+- Mud Dogs **-5.5 (-125)** vs Three Dreaded Snake **+5.5 (-125)**;
+- ObiWan Jacoby **-19.5 (-125)** vs D0nkey K0ng **+19.5 (-125)**;
+- Red Leopards **-10.5 (-125)** vs Dr. Duckhook **+10.5 (-125)**;
+- Slob on my Dobb **-2.5 (-125)** vs Chili Cheesers **+2.5 (-125)**;
+- The LLC **-10.5 (-125)** vs His Majesty's Blood **+10.5 (-125)**;
+- Seven Deadly Chins **-4.5 (-125)** vs El Niño **+4.5 (-125)**.
+
+**Locked house rule:** **SPREADS ONLY. NO MONEYLINES.**
+
+**House-policy copy:** No more moneylines. No more free parlay money. We are pricing the actual rosters, injuries, benches and matchups. Want the better team? Lay the points.
+
+**Locked featured artifact — THE BYARS "FUCK THE BOOK" FOUR-PIECE:**
+- His Majesty's Blood **+10.5**;
+- Slob on my Dobb **-2.5**;
+- Mud Dogs **-5.5**;
+- D0nkey K0ng **+19.5**;
+- **THE FUCK THE BOOK SPECIAL: +650**;
+- flavor line: **Four legs. One Byars. Zero respect for Pittsy's financial well-being.**
+
+The featured ticket is a booked/exposure artifact. Its four legs settled 3/4 with Mud Dogs -5.5 as the losing leg; do not invent unsupported stake/gross-return detail.
+
+**Locked Week 4 O/U slate:**
+- Mud Dogs vs TDS — **O/U 276.5 (-125)**;
+- ObiWan vs D0nkey K0ng — **O/U 289.5 (-125)**;
+- Red Leopards vs Duckhook — **O/U 290.5 (-125)**;
+- Slob vs Chili — **O/U 303.5 (-125)**;
+- The LLC vs His Majesty's Blood — **O/U 287.5 (-125)**;
+- Seven Deadly Chins vs El Niño — **O/U 292.5 (-125)**.
+
+**Locked O/U rule:**
+- **You CAN bet the OVER on your own matchup.**
+- **You CANNOT bet the UNDER on your own matchup.**
+
+**Written material:**
+- primary headline: **PITTSY'S BOOK — WEEK 4 SETTLEMENT**;
+- institutional subhead: **SPREADS ONLY. NO MONEYLINES.**;
+- house thesis: **THE BOOK IS OPEN.**;
+- supporting line: **Weeks 1–3 were market research. Week 4, Pittsy's Book starts collecting tuition.**;
+- optional Pittsy voice box: **"The book is hurting and asks for a week of grace with MLs. Be confident in your teams and take the points." — Pittsy**.
+
+**Deterministic data fields:**
+- all spreads;
+- all prices;
+- all O/U totals;
+- +650;
+- bettor names;
+- stakes;
+- result labels;
+- gross return;
+- net P/L;
+- Week 4 totals;
+- season totals;
+- Book P/L.
+
+All critical betting data must be typeset/composited deterministically. Image-generated numerals are not authoritative.
+
+**Official Week 4 settlement summary — LOCKED 2026-10-06:**
+- Kaloper **+$16.00**;
+- Byars **-$14.00**;
+- Babb **-$100.00**;
+- Pittsy's Book Week 4 **+$98.00**;
+- overall: Byars **+$125.60**, Zeek **+$72.54**, Pryor **+$22.25**, Kaloper **+$8.77**, Babb **-$18.33**, QWhips **-$20.00**, Wilson **-$20.00**, Zwilson **-$61.12**;
+- Book ledger: W1 **+$63.00**, W2 **-$132.66**, W3 **-$138.05**, W4 **+$98.00**;
+- **BOOK OVERALL: -$109.71**;
+- arithmetic verification: **PASS**;
+- closing consequence: **THE ADJUSTMENTS WORKED. No moneylines, tougher spreads, parlay tax — Pittsy's Book finally punched back.**
+
+**Remaining evidence-bound receipt detail:**
+- exact ticket-by-ticket wager descriptions beyond already locked featured artifacts;
+- exact stakes where not separately supplied;
+- gross returns where not separately supplied;
+- individual receipt imagery / best-worst receipt / notable bad beat only if Pitts supplies it.
+Week 4 bettor totals, season standings, Week 4 Book P/L and cumulative Book P/L are LOCKED and are not pending.
+
+**Authority distinction:** Flaim/ESPN supplies official fantasy results and mathematical spread/total resolution. Pitts supplies the authoritative booked-ticket ledger. Do not infer tickets from the market board.
+
+**Image tells:** the House changed policy; Pittsy runs a real institution; the betting room belongs to the Schemin world; Week 4 contains meaningful financial exposure.
+
+**Prose tells:** why policy changed; why Week 4 is different; Pittsy's institutional voice; final settlement consequence.
+
+**Data tells:** exact markets, rules, featured exposure ticket, actual booked tickets and final arithmetic.
+
+**Negative constraints:**
+- no active Week 4 moneylines;
+- no omitted O/U board;
+- no omitted Byars four-piece;
+- no invented tickets;
+- no guessed settlement arithmetic;
+- no generic Vegas/casino redesign;
+- no TDS anatomy drift;
+- no stale master-lineup TDS;
+- no excessive receipt clutter that destroys readability;
+- no invented Week 5 betting line;
+- no visual merger of Pittsy's Book with The LLC's corporate exchange;
+- no silent Atlas geography mutation.
+
+**Drift risks:** TDS head/body drift; dreads omission; generic casino drift; board-number hallucination; visual clutter; reintroduced moneylines; featured-ticket omission; LLC/Pittsy institutional conflation; mobile readability collapse.
+
+**Reject if:** any character rule fails; any locked market number is wrong; active moneylines appear; O/U rule is wrong/missing; Byars ticket is wrong/missing; source environment loses waterfall-temple bookmaker identity; critical information is unreadable at phone width; final Pitts settlement data is invented; PAGE_GENERATION_GATE fails.
+
+**Previous page:** W4-P24 — Power Rankings.
+**Next page:** W4-P26 — Week 5 GOTW: HMB × TDS.
+
+**Director lock:**
+- Groundskeeper — LOCKED;
+- Scout — result-math method locked; final scores pending;
+- Pitty Desk — markets/rules/featured ticket + official Week 4 settlement summary locked; only unsupported granular receipt detail remains evidence-bound;
+- Librarian — visual-reference receipt + TDS authority locked;
+- World / Atlas — institutional environment locked;
+- Visual Direction — composition/hierarchy locked;
+- Character QA — TDS specification locked;
+- Publication Design — deterministic typography/mobile hierarchy locked;
+- Author Council — restraint/tone locked;
+- Umpire — PRE-ART PASS;
+- Closer — frozen except official result math + Pitts settlement fields.
+
+**Manual dispatch:** when Jake says `generate page 25`, retrieve the page-specific packet + reference receipt + Fact Lock + Pitts ledger, run PAGE_GENERATION_GATE, generate candidate, inspect it, reject/repair internally if needed, and only return a page marked `APPROVED_FOR_LOCAL_FOLDER`.
+
+**No invented Week 5 lines.**
+**No estimated missing wagers.**
+
+---
+
+# PAGE 26 — WEEK 5 PREVIEW / GAME OF THE WEEK — Three Dreaded Snake vs His Majesty's Blood
+
+**Function:** forward-looking trailer.
+**Story state:** LOCKED.
+**Data state:** entering Week 5 records fill after Week 4 finality.
+
+**Official Week 5 GOTW:** HMB vs TDS / Three Dreaded Snake vs His Majesty's Blood.
+
+**Characters:**
+TDS:
+- one body;
+- exactly three heads;
+- dreads;
+- current approved source/hash.
+
+HMB:
+- exact Belt Keeper;
+- belt;
+- dark supernatural armor;
+- no crown/king/vampire redesign.
+
+**Venue:** TDS home-region / Waterfall Temple logic unless authoritative venue resolver says otherwise.
+
+**Editorial layer:** Pitts GM-of-the-Year question may appear as a question, never as award declaration.
+
+**No invented Week 5 betting line.**
+
+---
+
+# PAGE 27 — FINAL WORD / CLOSING PAGE
+
+**Function:** quiet issue epilogue.
+**Story state:** LOCKED.
+
+**Purpose:** prove the Schemin world does not reset when the scoring period ends.
+
+**Visual direction:**
+- quiet aftermath;
+- use only a few earned Week 4 objects or environmental consequences;
+- do not create a collage of every matchup;
+- no new permanent mutation without World authority.
+
+**Prose job:** distinguish weekly result from lasting consequence; turn toward Week 5 without predicting it.
+
+**Data:** minimal.
+
+---
+
+# GLOBAL CHARACTER FAIL-CLOSED RULE
+
+If the current character source/hash cannot be retrieved:
+CHARACTER_AUTHORITY_UNPROVEN / DO NOT RENDER.
+
+If the actual raster differs from the approved identity:
+FAIL / REGENERATE.
+
+Prompt correctness is not acceptance evidence.
+
+---
+
+# GLOBAL WORLD FAIL-CLOSED RULE
+
+If a scene's venue/geography cannot be resolved from current World/Atlas authority:
+WORLD_AUTHORITY_UNRESOLVED / DO NOT INVENT.
+
+---
+
+# GLOBAL DATA FAIL-CLOSED RULE
+
+If Flaim/ESPN has not formally decided the result:
+DATA_UNVERIFIED / LEAVE RESULT FIELD OPEN.
+
+No projection or provisional score may be promoted to final truth.
+
+---
+
+# MANUAL PRODUCTION DISPATCH RULE
+
+When Jake says:
+
+"do page N"
+
+the production agent must:
+
+1. open this file;
+2. locate PAGE N;
+3. retrieve the page's current character/world/data authorities;
+4. verify no newer Commissioner correction exists;
+5. execute exactly that page;
+6. perform post-render Character/World/Text QA;
+7. reject and repair any authority violation;
+8. return the completed page output;
+9. do not alter any other page;
+10. do not ask Jake to restate the page prompt.
+
+If result-dependent fields are still unresolved, produce only if the page is otherwise render-safe and leave deterministic result fields open.
+
+Once Flaim finality is locked, fill those fields from the canonical Fact Lock before final page lock.
+
+---
+
+# FINAL PRODUCTION STATE
+
+STORY = LOCKED
+PAGE ORDER = LOCKED
+MATCHUP PAGE COUNTS = LOCKED
+GENRE = LOCKED
+CHARACTER CANON = LOCKED
+WORLD RULES = LOCKED
+BRIDGE-PAGE BAN = LOCKED
+
+OPEN ONLY:
+- Flaim/ESPN final result truth;
+- deterministic Week 4 records/standings;
+- verified player scoring details where already required;
+- Pittsy's Book settlement arithmetic.
+
+No other production layer is open.
+
+<!-- BEGIN VERBATIM LOCKED WEEK 4 MANUSCRIPT BINDING -->
+
+## Verbatim reader-facing copy — Pages 1–27
+
+The following block is reproduced byte-for-byte from `WEEK_04_FINAL_WRITTEN_MANUSCRIPT.md`. It is included so each page's locked words are present alongside this production packet. The separate manuscript remains the sole copy authority; this block must not be edited independently. Deterministic scores, records, rankings, odds and ledger values remain data overlays and may not be invented.
+
+```markdown
+# SCHEMIN '26 — WEEK 4 FINAL WRITTEN MANUSCRIPT
+
+**Status:** WRITTEN MANUSCRIPT — PASS / LOCKED  
+**Scope:** reader-facing written material only  
+**Authority:** Beat Writer + Author Council + Librarian + Scout + Publication Design  
+**Rule:** the production packet explains the page; this manuscript contains the words the reader actually sees.
+
+> Deterministic scores, records, rankings, odds and settlement values remain bound to the current Fact Lock / result authority. Where the provider is not yet immutable, the copy below is approved conditionally on the current completed-football result surviving official finality.
+
+---
+
+## PAGE 1 — COVER
+
+**Masthead:** SCHEMIN '26  
+**Issue line:** WEEK 4 — OCTOBER 6, 2026  
+**Headline:** RETURN OF THE JEDI
+
+No body copy.
+
+---
+
+## PAGE 2 — OPENING OVERTURE
+
+**Headline:** THE WORLD REMEMBERS
+
+**Deck:** The last unbeaten owner in Schemin' spent Week 4 looking downhill.
+
+For three weeks, D0nkey K0ng had owned the view from the Burgers highlands. Then ObiWan Jacoby came up the road.
+
+By Monday night, Three Dreaded Snake was counting birds beside a truck, Dr. Duckhook was carrying somebody else's golf bag, the Chili Outlaw was asleep under a cowboy hat, The LLC was staring at its own ticket, and Whipple's lawn furniture had joined the weather.
+
+That's divisional week here. Nobody gets a new opponent. They get somebody who already knows where the door is.
+
+Nobody traveled far.
+
+The consequences did.
+
+---
+
+## PAGE 3 — FINAL SCOREBOARD
+
+**Headline:** THE BOARD
+
+**Subhead:** WEEK 4 — DIVISIONAL RESULTS
+
+No narrative body copy.
+
+Deterministic matchup rows only:
+- D0nkey K0ng vs ObiWan Jacoby
+- Mud Dogs vs Three Dreaded Snake
+- Red Leopards vs Dr. Duckhook
+- Slob on my Dobb vs The Chili Cheesers
+- The LLC vs His Majesty's Blood
+- El Niño vs Seven Deadly Chins
+
+Scores, records, margins and division labels are deterministic data.
+
+---
+
+# GAME OF THE WEEK — D0nkey K0ng vs ObiWan Jacoby
+
+## PAGE 4 — THE RETURN
+
+**Eyebrow:** GAME OF THE WEEK  
+**Matchup:** D0nkey K0ng vs ObiWan Jacoby  
+**Headline:** THE RETURN
+
+For three weeks, the highlands had been proof that D0nkey K0ng was the one problem nobody had solved.
+
+ObiWan did not come to admire the view.
+
+---
+
+## PAGE 5 — THE DUEL
+
+**Headline:** THE DUEL
+
+One big score would have been survivable.
+
+The problem was that ObiWan kept finding another one.
+
+Kenneth Walker opened the wound. Puka widened it. Deebo and Henry made sure DK never got the clean turn he needed.
+
+DK still had answers.
+
+He just ran out of places to put them.
+
+---
+
+## PAGE 6 — THE HIGH GROUND
+
+**Headline:** THE HIGH GROUND
+
+DK still had the size.
+
+ObiWan had the position.
+
+That was enough.
+
+---
+
+## PAGE 7 — UNDEFEATED NO MORE
+
+**Headline:** UNDEFEATED NO MORE
+
+The hill did not disappear. Neither did DK.
+
+He leaves Week 4 at 3-1, still dangerous, just no longer untouchable.
+
+ObiWan leaves with the one result nobody else had managed to bring down from the mountain.
+
+**Deterministic result line:** ObiWan Jacoby 157.33 — D0nkey K0ng 139.67  
+**Deterministic records:** ObiWan Jacoby 3-1 | D0nkey K0ng 3-1
+
+---
+
+# Mud Dogs vs Three Dreaded Snake
+
+## PAGE 8 — OPENING MORNING
+
+**Headline:** OPENING MORNING
+
+Pitts brought a blind, a decoy spread, three sets of eyes and enough gear to make sunrise feel scheduled.
+
+Mud Dogs brought confidence.
+
+At dawn, both still counted as plans.
+
+---
+
+## PAGE 9 — THE HUNT
+
+**Headline:** THE HUNT
+
+Three Dreaded Snake rebuilt his roster the same way he built the blind: early, expensive and with more parts than anybody wanted to carry.
+
+By Sunday, the pieces were finally working together.
+
+Mud Dogs kept finding ways to make noise at exactly the wrong time.
+
+By the third ruined chance, even the decoys looked disappointed.
+
+---
+
+## PAGE 10 — THE BETTER HUNTER
+
+**Headline:** THE BETTER HUNTER
+
+The rebuild finally brought home something besides receipts.
+
+TDS finished the day with the haul.
+
+Mud Dogs got the ride back.
+
+**Deterministic result line:** Three Dreaded Snake 149.84 — Mud Dogs 126.98  
+**Deterministic records:** Three Dreaded Snake 2-2 | Mud Dogs 2-2
+
+---
+
+# Red Leopards vs Dr. Duckhook
+
+## PAGE 11 — RECOVERY TRIP
+
+**Headline:** RECOVERY TRIP
+
+Duckhook went to the coast because last week came with a chili dog attached.
+
+Red brought clubs.
+
+That should have been the warning.
+
+---
+
+## PAGE 12 — THE LESSON
+
+**Headline:** THE LESSON
+
+By the turn, the league's golfer was digging for another ball while Red was asking which side of the pin he wanted.
+
+There are bad rounds.
+
+Then there are rounds where the leopard starts giving you reads.
+
+---
+
+## PAGE 13 — THE SCORECARD DOESN'T LIE
+
+**Headline:** THE SCORECARD DOESN'T LIE
+
+One trip. Two losses. One signed card headed for the Country Club of Jackson member board.
+
+Duckhook can argue with the fantasy score.
+
+The scorecard is already framed.
+
+**Deterministic result line:** Red Leopards 164.08 — Dr. Duckhook 128.36  
+**Deterministic records:** Red Leopards 3-1 | Dr. Duckhook 1-3
+
+---
+
+# Slob on my Dobb vs The Chili Cheesers
+
+## PAGE 14 — WELCOME TO THE CAVE
+
+**Headline:** WELCOME TO THE CAVE
+
+Slob invited Chili over like a good host.
+
+The cave had cold beer, too many televisions and a homemade belt nobody had asked about yet.
+
+The Dark Horse probably should have stayed saddled.
+
+---
+
+## PAGE 15 — ONE MORE ROUND
+
+**Headline:** ONE MORE ROUND
+
+The first round looked social.
+
+The second looked competitive.
+
+By the third, only one of them still thought this was a contest.
+
+---
+
+## PAGE 16 — THE BEER CHAMPION
+
+**Headline:** THE BEER CHAMPION
+
+The belt was homemade.
+
+The result was not.
+
+Slob finished the night wearing both the joke and the win.
+
+Chili woke up with neither.
+
+**Deterministic result line:** Slob on my Dobb 190.72 — The Chili Cheesers 139.96  
+**Deterministic records:** Slob on my Dobb 2-2 | The Chili Cheesers 2-2
+
+---
+
+# The LLC vs His Majesty's Blood
+
+## PAGE 17 — THE HOUSE SETS THE LINE
+
+**Headline:** THE HOUSE SETS THE LINE
+
+The LLC priced its own victory and sold itself the ticket.
+
+On paper, the position looked clean.
+
+That is why they call it exposure before they call it a loss.
+
+---
+
+## PAGE 18 — EXPOSURE
+
+**Headline:** EXPOSURE
+
+Then every screen started paying the same customer.
+
+Hubbard. Harvey. Tate. Darnold. Williams. Minnesota's defense. Strange.
+
+No single position to hedge. No one leak to isolate. Just another line item turning red.
+
+The model had not missed one thing.
+
+It had missed the whole room.
+
+---
+
+## PAGE 19 — THE HOUSE GETS BEAT
+
+**Headline:** THE HOUSE GETS BEAT
+
+By close, the model had become a receipt.
+
+His Majesty's Blood did not need a throne speech. The Belt Keeper just walked out with the number the house could not explain.
+
+The LLC stayed behind with its own ticket.
+
+**Deterministic result line:** His Majesty's Blood 177.32 — The LLC 138.87  
+**Deterministic records:** His Majesty's Blood 2-2 | The LLC 1-3
+
+**Optional approved quote after official result lock:** “The disrespect towards His Majesty's Blood will not go unnoticed.”
+
+---
+
+# El Niño vs Seven Deadly Chins
+
+## PAGE 20 — PRESSURE AT HOME
+
+**Headline:** PRESSURE AT HOME
+
+At El Niño's house, the first warning sign was not weather.
+
+It was the living room.
+
+A spill. A broken thing. Somebody climbing where they should not be. Another small emergency arriving before the first one had left.
+
+Across Pizza territory, Whipple sat beside the RV with a forty and a quiet evening.
+
+For a few minutes, only one of them had a problem.
+
+---
+
+## PAGE 21 — THAT'S PROBABLY NOT GOOD
+
+**Headline:** THAT'S PROBABLY NOT GOOD
+
+Whipple looked up when the patio furniture did.
+
+The awning went first.
+
+Then the chairs.
+
+Then whatever confidence remained that this was still somebody else's weather.
+
+---
+
+## PAGE 22 — THE STORM FINALLY CAME
+
+**Headline:** THE STORM FINALLY CAME
+
+By then, the forecast had stopped being useful.
+
+El Niño did not beat Seven Deadly Chins with one lightning strike. The whole system arrived.
+
+Whipple kept the forty.
+
+Everything else became negotiable.
+
+**Deterministic result line:** El Niño 170.62 — Seven Deadly Chins 106.20  
+**Deterministic records:** El Niño 2-2 | Seven Deadly Chins 1-3
+
+---
+
+## PAGE 23 — STATE OF THE REALM
+
+**Headline:** STATE OF THE REALM
+
+### BURGERS
+The division no longer belongs to the unbeaten team because there is no unbeaten team left.
+
+DK and ObiWan sit at 3-1. TDS and Mud sit at 2-2. What looked like a hill with one owner now has traffic on every road leading up it.
+
+The most important change is not DK falling. It is that ObiWan now owns proof he can reach him, while TDS finally has scoreboard evidence that the waiver bills bought something real.
+
+### WINGS
+Red Leopards has the cleanest record at 3-1.
+
+Slob has the uglier number to explain: 2-2 with 662.46 projected points, the most in the league.
+
+That makes Wings less a hierarchy than a warning. Red owns the lead. Slob owns the argument that the standings are lying about him.
+
+Chili is still 2-2. Duckhook is 1-3 and now has a scorecard problem on top of it.
+
+### PIZZA
+Pizza finally split in half.
+
+His Majesty's Blood and El Niño climb to 2-2 after scoring 177.32 and 170.62. The LLC and Seven Deadly Chins fall to 1-3.
+
+HMB's answer matters because Achane is still gone. The roster did not replace the asset; it proved it could survive the loss.
+
+El Niño's answer was simpler.
+
+The storm finally showed up.
+
+### LEAGUE VIEW
+If the current results hold through official finality, Red, DK and ObiWan form the 3-1 top-record cluster.
+
+Slob remains the league's loudest 2-2 team.
+
+And Week 5 gets a matchup that did not look nearly as heavy seven days ago: Three Dreaded Snake vs His Majesty's Blood, both 2-2, both leaving Week 4 stronger than they entered it.
+
+---
+
+## PAGE 24 — POWER RANKINGS
+
+**Headline:** POWER RANKINGS
+
+**1. Red Leopards — 3-1**  
+The best blend of record, scoring and current form. Red has fewer explanations to make than anyone else.
+
+**2. Slob on my Dobb — 2-2**  
+The record says middle. The league-high scoring profile says nobody should treat him that way.
+
+**3. ObiWan Jacoby — 3-1**  
+Beating the last unbeaten is the strongest new piece of evidence on the board. The win-now roster finally produced the result it was built to produce.
+
+**4. D0nkey K0ng — 3-1**  
+One loss removes the aura, not the résumé. DK still owns elite scoring and now gets measured by how he answers being caught.
+
+**5. His Majesty's Blood — 2-2**  
+The Achane loss remains real. So does 177.32 without him. That changes the roster conversation immediately.
+
+**6. El Niño — 2-2**  
+The ceiling stopped being theoretical. A 170.62 week built across the lineup is different from one player saving the day.
+
+**7. Three Dreaded Snake — 2-2 — FROM #12**  
+The rebuild finally converted into a full Sunday. The jump is earned by evidence, not by the size of the waiver bill.
+
+**8. The Chili Cheesers — 2-2**  
+139.96 would survive plenty of weeks. It did not survive Slob's 190.72, and the Week 3 momentum gets checked hard.
+
+**9. Mud Dogs — 2-2**  
+Competitive, dangerous and still looking for the week that forces the rankings to stop qualifying those words.
+
+**10. The LLC — 1-3**  
+The roster can score. The record keeps refusing to care about the model.
+
+**11. Dr. Duckhook — 1-3**  
+There were usable performances inside the loss. Red made sure none of them mattered enough.
+
+**12. Seven Deadly Chins — 1-3**  
+The week's lowest total leaves no ranking argument to hide behind.
+
+---
+
+## PAGE 25 — PITTSY'S BOOK
+
+**Headline:** PITTSY'S BOOK — WEEK 4 SETTLEMENT
+
+**Subhead:** SPREADS ONLY. NO MONEYLINES.
+
+**House copy:** Weeks 1–3 were market research. Week 4, the Book started charging tuition.
+
+**Market note:** Five totals went over. One stayed under. Four underdogs covered. The House changed the rules; the board still found ways to bite back.
+
+**Featured ticket:** THE BYARS “FUCK THE BOOK” FOUR-PIECE  
+HMB +10.5 — COVER  
+Slob -2.5 — COVER  
+Mud Dogs -5.5 — DOES NOT COVER  
+D0nkey K0ng +19.5 — COVER
+
+**Ticket line:** Three legs got there. Mud Dogs killed the receipt.
+
+**Settlement results:** Kaloper +$16.00 | Byars -$14.00 | Babb -$100.00 | **PITTSY'S BOOK WEEK 4: +$98.00**
+
+**Overall standings through Week 4:** Byars +$125.60 | Zeek +$72.54 | Pryor +$22.25 | Kaloper +$8.77 | Babb -$18.33 | QWhips -$20.00 | Wilson -$20.00 | Zwilson -$61.12
+
+**Book ledger:** W1 +$63.00 | W2 -$132.66 | W3 -$138.05 | W4 +$98.00 | **BOOK OVERALL: -$109.71**
+
+**Closing line:** THE ADJUSTMENTS WORKED. No moneylines, tougher spreads, parlay tax — Pittsy's Book finally punched back.
+
+Granular ticket stakes/gross-return details remain evidence-bound; do not print estimates.
+
+---
+
+## PAGE 26 — WEEK 5 GAME OF THE WEEK
+
+**Eyebrow:** WEEK 5 — GAME OF THE WEEK  
+**Matchup:** Three Dreaded Snake vs His Majesty's Blood
+
+TDS spent Week 4 proving the rebuild could win.
+
+HMB spent it proving the roster could still breathe after losing Achane.
+
+Now both walk into Week 5 at 2-2.
+
+One has spent a month buying answers.
+
+The other still carries the belt.
+
+Pittsy can price it later.
+
+---
+
+## PAGE 27 — FINAL WORD
+
+**Headline:** THE WEEK ENDS. THE RECEIPTS STAY.
+
+A signed scorecard is headed for a member board.
+
+A homemade beer belt hangs somewhere it did not belong on Friday.
+
+The LLC has a losing ticket with its own name on it.
+
+Pittsy's Book finally punched back: +$98.00 for Week 4.
+
+In the Burgers highlands, the last unbeaten record is already gone.
+
+ESPN will mark Week 4 final in the morning.
+
+Nobody in Schemin' is waiting for permission to remember it.
+```
+
+<!-- END VERBATIM LOCKED WEEK 4 MANUSCRIPT BINDING -->
