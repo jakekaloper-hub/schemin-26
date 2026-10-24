@@ -1,4 +1,6 @@
 import json
+import subprocess
+import sys
 import tempfile
 import unittest
 from pathlib import Path
@@ -22,6 +24,18 @@ class CommonwealthArchivistTests(unittest.TestCase):
             self.assertEqual(r["counts"]["events"],1)
             self.assertEqual(r["entries"][0]["events"][0]["source_provenance"],["b.md"])
             self.assertEqual(r["findings"],[])
+    def test_cli_default_root_resolves_repository_from_outside_checkout(self):
+        root=Path(__file__).resolve().parents[3]
+        script=root/"living-novel/os/engine/commonwealth_archivist.py"
+        with tempfile.TemporaryDirectory() as directory:
+            output=Path(directory)/"archive-index.json"
+            result=subprocess.run(
+                [sys.executable,str(script),"--out",str(output)],
+                cwd=directory,capture_output=True,text=True,
+            )
+            self.assertEqual(result.returncode,0,result.stderr)
+            self.assertEqual(json.loads(output.read_text()),build(root))
+
     def test_orphan_event_fails_closed(self):
         with tempfile.TemporaryDirectory() as d:
             root=Path(d)
