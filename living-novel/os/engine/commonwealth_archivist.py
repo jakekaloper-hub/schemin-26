@@ -52,7 +52,7 @@ def build(root: Path) -> dict:
 
 def main():
     parser=argparse.ArgumentParser()
-    parser.add_argument("--root",type=Path,default=Path(__file__).resolve().parents[2])
+    parser.add_argument("--root",type=Path,default=Path(__file__).resolve().parents[3])
     parser.add_argument("--out",type=Path)
     args=parser.parse_args()
     result=build(args.root)
