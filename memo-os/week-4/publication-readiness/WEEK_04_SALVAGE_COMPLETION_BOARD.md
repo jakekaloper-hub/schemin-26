@@ -1,4 +1,7 @@
 # WEEK 4 — SALVAGE COMPLETION BOARD
+
+> **Historical record — current authority check required (2026-10-24).** The 33-page spine, rejection states and completion orders below record the October 6 salvage plan. They do not reopen a released artifact, impose a current page count, or authorize production. Current issue state and acceptance follow PROJECT_CONTROL_REGISTRY.md, memo-os/README.md and the owning publication/release evidence gates.
+
 **Date:** 2026-10-06
 **Mode:** Bullpen autonomous completion control
 
@@ -12,8 +15,8 @@ Known objective follow-up:
 
 ## Issue-level source pages
 
-- P23: REBUILD REQUIRED under derivative-world rule.
-- P24: REBUILD REQUIRED under derivative-character rule.
+- P23: CURRENT LIVE CANDIDATE REJECTED_NOT_FOR_FOLDER — rebuild from accepted matchup-wave geography only.
+- P24: CURRENT LIVE CANDIDATE REJECTED_NOT_FOR_FOLDER — regenerate from payoff/result-page character crops only; no fresh icons/faces/logos.
 - P25: NOT YET ACCEPTED.
 - P26: NOT YET ACCEPTED.
 - P27: NOT YET ACCEPTED.
@@ -43,6 +46,20 @@ OV01 → OV02 → OV03 → OV04 → OV05 → OV06
 
 ### Lane 3 — derivative issue-level rebuilds
 P23 → P24
+
+P24 is explicitly blocked from fresh character/icon generation. Required portrait-source map:
+- Red → P13
+- Slob → P16
+- Obi → P07
+- DK → P07
+- HMB → P19
+- El Niño → P22
+- TDS → P10
+- Chili → P16
+- Mud → P10
+- LLC → P19
+- Duckhook → P13
+- 7DC → P22
 
 ### Lane 4 — front-of-book repairs
 P01 → P02 → P03
