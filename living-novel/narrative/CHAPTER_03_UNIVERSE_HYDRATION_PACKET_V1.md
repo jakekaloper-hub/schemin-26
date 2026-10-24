@@ -70,14 +70,14 @@ No instantaneous travel is permitted. The rewrite should avoid precise travel-ti
 
 ### Wilson Look / D0nkey K0ng
 Current active identity:
-- massive black-furred gorilla warrior;
+- ONE Arsenal gorilla-centaur hybrid body with gorilla head/upper identity and FOUR-LEGGED centaur/equine lower body;
 - Arsenal-red war gear;
 - ornate double-headed axe;
 - heavy tankard;
 - monumental warlord presence.
 
-**Centaur anatomy is retired.**
-The current manuscript's "four iron-shod legs," centaur body and equine movement are invalid and must be rewritten.
+**Superseded 2026-10-02: centaur lower-body anatomy is REQUIRED as part of the one-body gorilla-centaur hybrid.**
+Four-legged centaur/equine movement is compatible with current DK architecture; any prior rewrite instruction based solely on banning centaur anatomy is void.
 
 World ontology: Wilson is one member of a broader gorilla-warrior people/culture.
 
@@ -232,7 +232,7 @@ Preserve:
 - final road image.
 
 Rewrite:
-- all centaur/equine anatomy;
+- generic bipedal-gorilla substitution, horse-headed centaur, rider+mount split, or two-creature substitution;
 - any claim to Bobby's private understanding;
 - geography that implies an ungrounded floating battlefield;
 - "present supremacy" language;

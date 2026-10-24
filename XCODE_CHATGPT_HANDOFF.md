@@ -151,7 +151,7 @@ The canonical twelve currently include:
 
 - Jake Kaloper / ObiWan Jacoby → **The Trade Jedi**. Youthful blond human strategist; earth-tone Jedi-inspired wardrobe; green energy sword; golden retriever; North Georgia mountain-war-room language. **NO CHAMPIONSHIP BELT.**
 - Austin Byars → **The Belt Keeper**. Corpse-pale immortal champion; long black hair; pale eyes; black rune armor/cloak; rune sword; championship belt; gothic atmosphere. Team renames never turn him into a new king/vampire/blood mascot.
-- Wilson Look / Donkey Kong → **Donkey Kong / Arsenal Gorilla Warrior** (Commissioner-approved redesign 2026-09-29). Massive black-furred gorilla warrior; Arsenal-red jersey/armor; ornate double-headed axe; metal tankard; bronze/gold fantasy armor. Owner-specific 2026-09-29 reference outranks the older lineup plate. **Former Arsenal Centaur is RETIRED; never render centaur/equine anatomy in new art.**
+- Wilson Look / Donkey Kong → **Arsenal Gorilla Centaur Warrior** (Commissioner clarification 2026-10-02). ONE hybrid body: gorilla head/upper identity + powerful armored torso + FOUR-LEGGED centaur/equine lower body; Arsenal-red supporter/warrior identity; ornate double-headed axe; metal tankard. Never split into rider+mount or generic bipedal gorilla.
 - Jordan Hollingshead / Slob on my Dobb → **Frat-Bro Berserker**. Huge horned shaggy human-beast; battered football armor; filthy championship shirt; metal bat; beer/tailgate language; pit-bull.
 - Bobby Mitchell / Mud Dogs → **Swamp-Born Menace**. Massive rabid mud-covered dog/wolf beast; blue/orange; chain; diseased teeth; violent swamp.
 - Phillip Pitts / Three Dreaded Snake → **The Podium Shadow**. Reptile humanoid; green-gold scales; glowing eyes; dreadlocks; dark #3 gear; jungle/waterfall language.
@@ -499,7 +499,7 @@ Do not label a phase complete merely because files exist.
 - Evidence before inference.
 - Character identity outranks team-name semantics.
 - ObiWan has **NO championship belt**.
-- Donkey Kong is the **Arsenal Centaur**, never a gorilla.
+- Donkey Kong is the **Arsenal Gorilla Centaur Warrior**: gorilla head/upper identity integrated with a four-legged centaur/equine lower body; neither generic gorilla nor horse-headed centaur.
 - Chili Cheesers uses **The Chili Outlaw + Dark Horse**, not retired concepts.
 - Belt Keeper identity persists through team renames.
 - Published Week 1/2 history is not casually retconned.

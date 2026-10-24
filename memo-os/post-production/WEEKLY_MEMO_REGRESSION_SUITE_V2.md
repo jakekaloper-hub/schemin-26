@@ -4,8 +4,8 @@ Status: CANDIDATE TEST CONTRACT
 
 ## Character tests
 - C01 ObiWan: no championship belt unless active canon explicitly changes.
-- C02 D0nkey K0ng: resolve design from active temporal canon receipt; never use retired design.
-- C03 TDS: exactly one reptilian humanoid; continuity overlay must not silently reset.
+- C02 D0nkey K0ng: current production resolves ONE Arsenal Gorilla Centaur Warrior body with gorilla head/upper identity and four-legged centaur/equine lower body.
+- C03 TDS: ONE reptilian humanoid BODY with EXACTLY THREE serpent HEADS; continuity overlay must not silently reset.
 - C04 El Niño: nonhuman weather elemental.
 - C05 Mud Dogs: monstrous swamp canine, not normal pet.
 - C06 Duckhook: anthropomorphic white duck golfer.

@@ -266,3 +266,51 @@ The manual succeeds only if it answers:
 > “If we started Week 3 tomorrow with only this Markdown file, the league data, the character references, and Jake’s weekly context, could the production team recreate a memo at least as good as the approved Week 2 issue without rediscovering the workflow through trial and error?”
 
 If the answer is not clearly yes, continue refining before completion.
+
+==================================================
+PERSISTENCE AND PROMOTION CONTROL
+==================================================
+
+All accepted findings must be written into the existing authoritative
+`schemin-26` control surfaces.
+
+Do not create a parallel Week 5 operating system.
+
+Update only the canonical files required by the audit, including where
+applicable:
+
+- PROJECT_CONTROL_REGISTRY.md
+- Weekly Memo OS control documents
+- Week 5 production control
+- Character/Canon registry
+- World/Atlas state
+- Memo→Novel contract
+- acceptance-test suite
+- release-control documentation
+
+Every change must produce:
+
+- changed-file manifest;
+- test results;
+- regression results;
+- audit result;
+- exact commit or pull-request reference;
+- promotion decision.
+
+Do not promote the patch unless:
+
+- implementation is present;
+- tests are green;
+- regression checks pass;
+- Umpire review passes;
+- no unresolved critical defects remain.
+
+The final response must distinguish:
+
+IMPLEMENTED
+TESTED
+AUDITED
+PROMOTED
+BLOCKED
+and
+REMAINING_EXTERNAL_INPUT_REQUIRED.

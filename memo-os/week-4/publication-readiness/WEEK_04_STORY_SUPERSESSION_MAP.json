@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0.0",
+  "publication_id": "memo.2026.week-04",
+  "status": "ACTIVE_27_PAGE_SUPERSESSION_MAP",
+  "rule": "Latest explicit Commissioner/Bullpen Mission Review lock controls. Flaim updates facts only.",
+  "classifications": [
+    {
+      "source": "memo-os/week-4/publication-readiness/WEEK_04_MISSION_REVIEW_STORY_LOCK_CORRECTED_2026-10-05.md",
+      "classification": "CURRENT",
+      "scope": [
+        "ALL_WEEK4"
+      ],
+      "notes": "Primary 27-page story/page-count authority."
+    },
+    {
+      "source": "memo-os/week-4/publication-readiness/WEEK_04_27_PAGE_DIRECTOR_REVIEW_PACKET.md",
+      "classification": "CURRENT",
+      "scope": [
+        "ALL_WEEK4"
+      ],
+      "notes": "Page-level Director-reviewed production treatment."
+    },
+    {
+      "source": "fixed 19-page Week 4 production plan",
+      "classification": "SUPERSEDED",
+      "scope": [
+        "ISSUE_PAGE_PLAN"
+      ],
+      "notes": "Replaced by 27-page Mission Review architecture."
+    },
+    {
+      "source": "one-page LLC × HMB architecture",
+      "classification": "SUPERSEDED",
+      "scope": [
+        "W4-STORY-LLC-HMB"
+      ],
+      "notes": "Replaced by three-page THE HOUSE SETS THE LINE → EXPOSURE → THE HOUSE GETS BEAT sequence."
+    },
+    {
+      "source": "three-page DK × Obi siege variant",
+      "classification": "SUPERSEDED",
+      "scope": [
+        "W4-STORY-DK-OBI"
+      ],
+      "notes": "Replaced by four-page THE RETURN → THE DUEL → THE HIGH GROUND → UNDEFEATED NO MORE sequence."
+    },
+    {
+      "source": "Repair Bridge",
+      "classification": "FORBIDDEN",
+      "scope": [
+        "ISSUE_PAGE_PLAN"
+      ],
+      "notes": "Not allowed as standalone Memo page."
+    },
+    {
+      "source": "Club-Information Bridge",
+      "classification": "FORBIDDEN",
+      "scope": [
+        "ISSUE_PAGE_PLAN"
+      ],
+      "notes": "Not allowed as standalone Memo page."
+    },
+    {
+      "source": "Models/Pressure Bridge",
+      "classification": "FORBIDDEN",
+      "scope": [
+        "ISSUE_PAGE_PLAN"
+      ],
+      "notes": "Not allowed as standalone Memo page."
+    },
+    {
+      "source": "draft PR #115 sandbox synthetic facts and rehearsal packets",
+      "classification": "NON_CONTROLLING",
+      "scope": [
+        "SANDBOX_ONLY"
+      ],
+      "notes": "Defect evidence only; cannot seed production authority."
+    }
+  ]
+}

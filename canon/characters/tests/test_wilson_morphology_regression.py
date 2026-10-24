@@ -10,7 +10,11 @@ class WilsonMorphologyRegression(unittest.TestCase):
         r=resolve_character("Wilson Look")
         self.assertEqual(r["status"],"CURRENT_CANON_RESOLVED")
         self.assertEqual(r["identity"],"Arsenal Gorilla Centaur Warrior")
-        self.assertIn("four-legged centaur lower body",r["hard_lock"])
+        # Anatomy is owned by the approved registry, not the name resolver API.
+        registry=(ROOT/"canon/characters/CHARACTER_REGISTRY.yaml").read_text()
+        row=next(line for line in registry.splitlines() if "id: CHAR-WILSON-LOOK," in line)
+        self.assertIn("FOUR-LEGGED CENTAUR LOWER BODY",row)
+        self.assertIn("ONE BODY",row)
 
     def test_arsenal_centaur_is_not_retired_alias(self):
         r=resolve_character("Arsenal Centaur")
@@ -25,8 +29,8 @@ class WilsonMorphologyRegression(unittest.TestCase):
 
     def test_registry_rejects_wrong_reconstructions(self):
         t=(ROOT/"canon/characters/CHARACTER_REGISTRY.yaml").read_text()
-        self.assertIn("four-legged centaur lower body",t)
-        self.assertIn("bipedal gorilla-only body",t)
+        self.assertIn("FOUR-LEGGED CENTAUR LOWER BODY",t)
+        self.assertIn("generic bipedal gorilla",t)
         self.assertIn("horse-headed centaur",t)
 
 if __name__=="__main__": unittest.main()

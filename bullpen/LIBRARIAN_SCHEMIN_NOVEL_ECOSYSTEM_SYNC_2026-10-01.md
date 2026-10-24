@@ -43,8 +43,8 @@ Current character identity authority remains the active canon stack:
 5. owner-scoped current reference packages
 
 High-risk current locks include:
-- Wilson Look / D0nkey K0ng = **Arsenal Gorilla Warrior**; centaur/equine form retired for new production.
-- Phillip Pitts / TDS = **one reptilian humanoid body with exactly three serpent heads**.
+- **2026-10-02 correction:** Wilson Look / D0nkey K0ng = **Arsenal Gorilla Centaur Warrior**; ONE body with gorilla head/upper identity + FOUR-LEGGED centaur/equine lower body + Arsenal supporter identity. Prior centaur-retired language is stale.
+- Phillip Pitts / TDS = **one reptilian humanoid body with exactly three serpent heads**; older single-head/never-three-head language is stale.
 - Jake Kaloper / ObiWan Jacoby = **The Trade Jedi; no championship belt**.
 - Jordan Hollingshead = **Frat-Bro Berserker** canonical identity; Win Ugly / Fart Star are presentation aliases.
 - Austin Byars = **The Belt Keeper**.

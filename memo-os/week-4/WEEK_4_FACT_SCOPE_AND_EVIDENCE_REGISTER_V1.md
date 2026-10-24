@@ -99,3 +99,48 @@ Commissioner-supplied beach activity and conditional cookie-face storytelling re
 
 ### Freshness boundary
 These observations are a 2026-10-01 current-provider read for this planning update. They do not become perpetual live state; later Story Lock must refresh any status that materially affects publication.
+
+
+## 2026-10-02 live Week 4 synchronization
+
+Fresh Flaim/ESPN provider observation captured during the cross-OS synchronization mission at approximately 2026-10-02T17:22Z.
+
+### Live matchup state
+
+All six provider winner flags remain `UNDECIDED`.
+
+Current scoring-period observations:
+- D0nkey K0ng 17.5 — ObiWan Jacoby 0.0
+- Mud Dogs 0.0 — Three Dreaded Snake 0.0
+- Red Leopards 0.0 — Dr. Duckhook 0.0
+- Slob on my Dobb 21.8 — The Chili Cheesers 7.1
+- The LLC 0.0 — His Majesty's Blood 12.9
+- El Niño 0.0 — Seven Deadly Chins 17.3
+
+These values supersede the 2026-10-01 pre-kickoff 0.00–0.00 snapshot for **current live planning only**. They are not final results.
+
+Current standings remain the Week 3-close records because Week 4 has not completed.
+
+### Current Week 4 transaction window
+
+The provider returned 29 Week 4 transaction rows from `mTransactions2`; `structured_details_incomplete=true` remains in force.
+
+Material observations for Story Room intake include:
+- Dr. Duckhook — Ollie Gordon II $71 FAAB; Jaylen Wright $8; Bills D/ST $3.
+- Slob on my Dobb — Mack Hollins $11; Browns D/ST $11.
+- His Majesty's Blood — Sam Darnold $15.
+- Three Dreaded Snake — 49ers D/ST $3 plus later completed additions.
+- D0nkey K0ng — Skyy Moore added.
+- Red Leopards — Raheim Sanders added.
+- Seven Deadly Chins — multiple completed kicker changes.
+
+Trade lifecycle rows exist, but exact directional assets remain unresolved wherever provider structured detail is incomplete.
+
+### Cross-OS handoff
+
+Current reconciliation:
+- `WEEK_4_STORY_ROOM_CURRENT_STATE_RECONCILIATION_2026-10-02.md`
+- `../../living-novel/weekly-ledger/2026_WEEK_04_LIVE_EVIDENCE_AND_SIGNIFICANCE.md`
+- `../../world/atlas/integration/WEEK_4_CROSS_OS_LIVE_SYNC_RECEIPT_2026-10-02.md`
+
+Persistent World/Atlas state is **not** advanced by this live evidence. Story Lock, final venues, issue architecture, finished art and publication remain blocked.

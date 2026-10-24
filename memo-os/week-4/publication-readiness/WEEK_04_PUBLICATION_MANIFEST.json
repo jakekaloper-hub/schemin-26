@@ -1,0 +1,517 @@
+{
+  "schema_version": "2.0.0",
+  "publication_id": "memo.2026.week-04",
+  "issue_version": "27-page-mission-review-pre-art-lock",
+  "current_state": "CONTROLLED_MANUAL_PRODUCTION_OPEN_PROVISIONAL_FINAL",
+  "issue_length": 27,
+  "authority": {
+    "mission_review_lock": "memo-os/week-4/publication-readiness/WEEK_04_MISSION_REVIEW_STORY_LOCK_CORRECTED_2026-10-05.md",
+    "official_packet": "memo-os/week-4/publication-readiness/WEEK_04_OFFICIAL_MANUAL_PRODUCTION_PACKET.md",
+    "director_review_packet": "memo-os/week-4/publication-readiness/WEEK_04_27_PAGE_DIRECTOR_REVIEW_PACKET.md",
+    "page_generation_gate": "memo-os/week-4/publication-readiness/WEEK_04_PAGE_GENERATION_GATE.md",
+    "character_authority": "canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json",
+    "character_matrix": "memo-os/week-4/publication-readiness/WEEK_04_12_CHARACTER_AUTHORITY_MATRIX.json",
+    "world_entry": "memo-os/week-4/WEEK_4_WORLD_ENTRY_RECEIPT_V1.md",
+    "written_manuscript": "memo-os/week-4/publication-readiness/WEEK_04_FINAL_WRITTEN_MANUSCRIPT.md",
+    "native_reference_binding": "canon/characters/NATIVE_RENDER_REFERENCE_BINDING_V1.json",
+    "production_integrity_recovery": "memo-os/week-4/publication-readiness/WEEK_04_PRODUCTION_INTEGRITY_RECOVERY_2026-10-06.md"
+  },
+  "only_preproduction_hold": null,
+  "finality_fields": [
+    "winner",
+    "final_score",
+    "margin",
+    "record",
+    "standings",
+    "material_verified_player_events",
+    "Pitty settlement arithmetic",
+    "derived State of Realm values",
+    "derived Power Rankings values",
+    "Pitts authoritative Week 4 booked-ticket ledger",
+    "Pitts Week 4 settlement arithmetic"
+  ],
+  "locked_non_flaim": [
+    "27-page count",
+    "page order",
+    "story beats",
+    "genre",
+    "character identities",
+    "character hashes",
+    "page-specific character overrides",
+    "world/venue plan",
+    "visual composition intent",
+    "written-material purpose",
+    "negative constraints",
+    "mobile design rules",
+    "bridge-page ban",
+    "director preflight criteria"
+  ],
+  "pages": [
+    {
+      "page_id": "W4-P01",
+      "page_number": 1,
+      "title": "RETURN OF THE JEDI",
+      "character_ids": [
+        "CHAR-JAKE-KALOPER"
+      ],
+      "pre_art_state": "LOCKED",
+      "data_state": "PROVISIONAL_RESULT_COPY_READY_DECIDED_PENDING",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE",
+      "data_receipt": "NO_FINALITY_BLOCK"
+    },
+    {
+      "page_id": "W4-P02",
+      "page_number": 2,
+      "title": "DIVISIONAL WEEK BROUGHT CONSEQUENCES HOME",
+      "character_ids": [],
+      "pre_art_state": "LOCKED",
+      "data_state": "PROVISIONAL_FACTS_READY_DECIDED_PENDING",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
+    },
+    {
+      "page_id": "W4-P03",
+      "page_number": 3,
+      "title": "THE BOARD / FINAL SCOREBOARD",
+      "character_ids": [],
+      "pre_art_state": "LOCKED",
+      "data_state": "PROVISIONAL_FINAL_DECIDED_PENDING",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
+    },
+    {
+      "page_id": "W4-P04",
+      "page_number": 4,
+      "title": "DK × OBI I — THE RETURN",
+      "character_ids": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-WILSON-LOOK"
+      ],
+      "pre_art_state": "LOCKED",
+      "data_state": "NO_FINALITY_BLOCK",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
+    },
+    {
+      "page_id": "W4-P05",
+      "page_number": 5,
+      "title": "DK × OBI II — THE DUEL",
+      "character_ids": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-WILSON-LOOK"
+      ],
+      "pre_art_state": "LOCKED",
+      "data_state": "PROVISIONAL_CAUSAL_DATA_READY_DECIDED_PENDING",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
+    },
+    {
+      "page_id": "W4-P06",
+      "page_number": 6,
+      "title": "DK × OBI III — THE HIGH GROUND",
+      "character_ids": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-WILSON-LOOK"
+      ],
+      "pre_art_state": "LOCKED",
+      "data_state": "NO_FINALITY_BLOCK",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
+    },
+    {
+      "page_id": "W4-P07",
+      "page_number": 7,
+      "title": "DK × OBI IV — UNDEFEATED NO MORE",
+      "character_ids": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-WILSON-LOOK"
+      ],
+      "pre_art_state": "LOCKED",
+      "data_state": "PROVISIONAL_FINAL_COPY_READY_DECIDED_PENDING",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
+    },
+    {
+      "page_id": "W4-P08",
+      "page_number": 8,
+      "title": "MUD × TDS I — OPENING MORNING",
+      "character_ids": [
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-PHILLIP-PITTS"
+      ],
+      "pre_art_state": "LOCKED",
+      "data_state": "NO_FINALITY_BLOCK",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
+    },
+    {
+      "page_id": "W4-P09",
+      "page_number": 9,
+      "title": "MUD × TDS II — THE HUNT",
+      "character_ids": [
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-PHILLIP-PITTS"
+      ],
+      "pre_art_state": "LOCKED",
+      "data_state": "PROVISIONAL_CAUSAL_DATA_READY_DECIDED_PENDING",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
+    },
+    {
+      "page_id": "W4-P10",
+      "page_number": 10,
+      "title": "MUD × TDS III — THE BETTER HUNTER",
+      "character_ids": [
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-PHILLIP-PITTS"
+      ],
+      "pre_art_state": "LOCKED",
+      "data_state": "PROVISIONAL_FINAL_DECIDED_PENDING",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
+    },
+    {
+      "page_id": "W4-P11",
+      "page_number": 11,
+      "title": "RED × DUCK I — RECOVERY TRIP",
+      "character_ids": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-ZACH-WILSON"
+      ],
+      "pre_art_state": "LOCKED",
+      "data_state": "NO_FINALITY_BLOCK",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
+    },
+    {
+      "page_id": "W4-P12",
+      "page_number": 12,
+      "title": "RED × DUCK II — THE LESSON",
+      "character_ids": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-ZACH-WILSON"
+      ],
+      "pre_art_state": "LOCKED",
+      "data_state": "NO_FINALITY_BLOCK",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
+    },
+    {
+      "page_id": "W4-P13",
+      "page_number": 13,
+      "title": "RED × DUCK III — THE SCORECARD DOESN'T LIE",
+      "character_ids": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-ZACH-WILSON"
+      ],
+      "pre_art_state": "LOCKED",
+      "data_state": "PROVISIONAL_FINAL_DECIDED_PENDING",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
+    },
+    {
+      "page_id": "W4-P14",
+      "page_number": 14,
+      "title": "SLOB × CHILI I — WELCOME TO THE CAVE",
+      "character_ids": [
+        "CHAR-JORDAN-HOLLINGSHEAD",
+        "CHAR-BRANDON-PRYOR"
+      ],
+      "pre_art_state": "LOCKED",
+      "data_state": "NO_FINALITY_BLOCK",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
+    },
+    {
+      "page_id": "W4-P15",
+      "page_number": 15,
+      "title": "SLOB × CHILI II — ONE MORE ROUND",
+      "character_ids": [
+        "CHAR-JORDAN-HOLLINGSHEAD",
+        "CHAR-BRANDON-PRYOR"
+      ],
+      "pre_art_state": "LOCKED",
+      "data_state": "PROVISIONAL_SCORE_FIELD_READY_DECIDED_PENDING",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
+    },
+    {
+      "page_id": "W4-P16",
+      "page_number": 16,
+      "title": "SLOB × CHILI III — THE BEER CHAMPION",
+      "character_ids": [
+        "CHAR-JORDAN-HOLLINGSHEAD",
+        "CHAR-BRANDON-PRYOR"
+      ],
+      "pre_art_state": "LOCKED",
+      "data_state": "PROVISIONAL_FINAL_DECIDED_PENDING",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
+    },
+    {
+      "page_id": "W4-P17",
+      "page_number": 17,
+      "title": "LLC × HMB I — THE HOUSE SETS THE LINE",
+      "character_ids": [
+        "CHAR-DAVID-BABB",
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "pre_art_state": "LOCKED",
+      "data_state": "NO_FINALITY_BLOCK",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
+    },
+    {
+      "page_id": "W4-P18",
+      "page_number": 18,
+      "title": "LLC × HMB II — EXPOSURE",
+      "character_ids": [
+        "CHAR-DAVID-BABB",
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "pre_art_state": "LOCKED",
+      "data_state": "PROVISIONAL_CAUSAL_DATA_READY_DECIDED_PENDING",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
+    },
+    {
+      "page_id": "W4-P19",
+      "page_number": 19,
+      "title": "LLC × HMB III — THE HOUSE GETS BEAT",
+      "character_ids": [
+        "CHAR-DAVID-BABB",
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "pre_art_state": "LOCKED",
+      "data_state": "PROVISIONAL_FINAL_DECIDED_PENDING",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
+    },
+    {
+      "page_id": "W4-P20",
+      "page_number": 20,
+      "title": "EL NIÑO × 7DC I — PRESSURE AT HOME",
+      "character_ids": [
+        "CHAR-MANNING-WELTY",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "pre_art_state": "LOCKED",
+      "data_state": "NO_FINALITY_BLOCK",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
+    },
+    {
+      "page_id": "W4-P21",
+      "page_number": 21,
+      "title": "EL NIÑO × 7DC II — THAT'S PROBABLY NOT GOOD",
+      "character_ids": [
+        "CHAR-MANNING-WELTY",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "pre_art_state": "LOCKED",
+      "data_state": "NO_FINALITY_BLOCK",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
+    },
+    {
+      "page_id": "W4-P22",
+      "page_number": 22,
+      "title": "EL NIÑO × 7DC III — THE STORM FINALLY CAME",
+      "character_ids": [
+        "CHAR-MANNING-WELTY",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "pre_art_state": "LOCKED",
+      "data_state": "PROVISIONAL_FINAL_DECIDED_PENDING",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
+    },
+    {
+      "page_id": "W4-P23",
+      "page_number": 23,
+      "title": "STATE OF THE REALM",
+      "character_ids": [],
+      "pre_art_state": "LOCKED",
+      "data_state": "PROVISIONAL_FINAL_MORNING_VERIFICATION_REQUIRED",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
+    },
+    {
+      "page_id": "W4-P24",
+      "page_number": 24,
+      "title": "POWER RANKINGS",
+      "character_ids": [],
+      "pre_art_state": "LOCKED",
+      "data_state": "PROVISIONAL_FINAL_MORNING_VERIFICATION_REQUIRED",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
+    },
+    {
+      "page_id": "W4-P25",
+      "page_number": 25,
+      "title": "PITTSY'S BOOK — WEEK 4 SETTLEMENT",
+      "character_ids": [
+        "CHAR-PHILLIP-PITTS"
+      ],
+      "pre_art_state": "LOCKED",
+      "data_state": "RESULT_MATH_PROVISIONAL_FINAL_PITTS_LEDGER_PENDING_DECIDED_PENDING",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "page_specific_packet": "memo-os/week-4/publication-readiness/WEEK_04_P25_PITTYS_BOOK_FINAL_PRODUCTION_PACKET.md",
+      "visual_reference_receipt": "memo-os/week-4/publication-readiness/WEEK_04_P25_PITTYS_BOOK_VISUAL_REFERENCE_RECEIPT.md",
+      "story_authority_hash": "a3c249205a324c5fe6fca02db7ed964196dd6e104cc4eac5628a46c22e413059",
+      "approved_source_image_sha256": "273932d9b9e3c0eab56e517f663cffce443155cd5eee9c75c2b707bdac0be82b",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "ART_READY_SETTLEMENT_DATA_PENDING"
+    },
+    {
+      "page_id": "W4-P26",
+      "page_number": 26,
+      "title": "WEEK 5 GOTW — HMB × TDS",
+      "character_ids": [
+        "CHAR-AUSTIN-BYARS",
+        "CHAR-PHILLIP-PITTS"
+      ],
+      "pre_art_state": "LOCKED",
+      "data_state": "PROVISIONAL_ENTERING_RECORDS_READY_DECIDED_PENDING",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
+    },
+    {
+      "page_id": "W4-P27",
+      "page_number": 27,
+      "title": "FINAL WORD — THE WORLD DOES NOT RESET",
+      "character_ids": [],
+      "pre_art_state": "LOCKED",
+      "data_state": "WORLD_DELTA_STAGED_DECIDED_PENDING",
+      "generation_gate": "WEEK_04_PAGE_GENERATION_GATE.md",
+      "provisional_data_source": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+      "production_state": "READY_FOR_PAGE_GENERATION_GATE"
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "G1",
+      "domain": "Scout Result Lock",
+      "owner_matrix": "WEEK_04_DIRECTOR_OWNERSHIP_MATRIX.json"
+    },
+    {
+      "gate_id": "G2",
+      "domain": "Pitty Settlement",
+      "owner_matrix": "WEEK_04_DIRECTOR_OWNERSHIP_MATRIX.json"
+    },
+    {
+      "gate_id": "G3",
+      "domain": "Power Rankings",
+      "owner_matrix": "WEEK_04_DIRECTOR_OWNERSHIP_MATRIX.json"
+    },
+    {
+      "gate_id": "G4",
+      "domain": "State of Realm",
+      "owner_matrix": "WEEK_04_DIRECTOR_OWNERSHIP_MATRIX.json"
+    },
+    {
+      "gate_id": "G5",
+      "domain": "Matchup Story",
+      "owner_matrix": "WEEK_04_DIRECTOR_OWNERSHIP_MATRIX.json"
+    },
+    {
+      "gate_id": "G6",
+      "domain": "World/Venue",
+      "owner_matrix": "WEEK_04_DIRECTOR_OWNERSHIP_MATRIX.json"
+    },
+    {
+      "gate_id": "G7",
+      "domain": "Page Packets",
+      "owner_matrix": "WEEK_04_DIRECTOR_OWNERSHIP_MATRIX.json"
+    },
+    {
+      "gate_id": "G8",
+      "domain": "Page Generation Gate",
+      "owner_matrix": "WEEK_04_DIRECTOR_OWNERSHIP_MATRIX.json"
+    },
+    {
+      "gate_id": "G9",
+      "domain": "Publication Design",
+      "owner_matrix": "WEEK_04_DIRECTOR_OWNERSHIP_MATRIX.json"
+    },
+    {
+      "gate_id": "G10",
+      "domain": "Author Council Preflight",
+      "owner_matrix": "WEEK_04_DIRECTOR_OWNERSHIP_MATRIX.json"
+    },
+    {
+      "gate_id": "G11",
+      "domain": "Umpire Preflight/Assembly",
+      "owner_matrix": "WEEK_04_DIRECTOR_OWNERSHIP_MATRIX.json"
+    },
+    {
+      "gate_id": "G12",
+      "domain": "Closer Freeze",
+      "owner_matrix": "WEEK_04_DIRECTOR_OWNERSHIP_MATRIX.json"
+    }
+  ],
+  "production_command_contract": "Jake says 'generate page N'. System retrieves authoritative page packet and final Fact Lock, runs PAGE_GENERATION_GATE preflight, generates candidate, performs candidate acceptance, and only an accepted page is APPROVED_FOR_LOCAL_FOLDER.",
+  "failed_candidate_rule": "A failed candidate is REJECTED_NOT_FOR_FOLDER and is not a locked Memo page.",
+  "final_assembly_contract": "After Jake supplies all 27 approved PNGs, verify 27/27 order, normalize portrait mobile/iPhone-friendly page dimensions, compile one PDF, and run final assembly QA without reopening page story.",
+  "legacy_19_page_plan": {
+    "state": "SUPERSEDED_NON_CONTROLLING",
+    "reason": "Bullpen Mission Review/Commissioner lock superseded fixed 19-page architecture with the canonical 27-page plan."
+  },
+  "release_requirements": {
+    "all_pages_approved": true,
+    "final_pdf_required": true,
+    "final_pdf_sha256_required": true,
+    "page_hash_manifest_required": true,
+    "umpire_assembly_pass_required": true
+  },
+  "page_plan_state": "LOCKED",
+  "external_holds": [
+    "MNF_ESPN_FLAIM_FINALITY"
+  ],
+  "pre_art_data_holds": [
+    "MNF_ESPN_FLAIM_FINALITY",
+    "PITTS_WEEK4_SETTLEMENT_LEDGER"
+  ],
+  "provisional_final_snapshot": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_FINAL_FLAIM_SNAPSHOT_2026-10-06.json",
+  "provisional_page_impact_register": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PAGE_IMPACT_REGISTER_2026-10-06.json",
+  "provisional_power_rankings": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_POWER_RANKINGS_2026-10-06.md",
+  "provisional_pitty_math": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_PITTSY_MATH_2026-10-06.md",
+  "provisional_world_delta": "memo-os/week-4/publication-readiness/WEEK_04_PROVISIONAL_WORLD_STATE_DELTA_2026-10-06.md",
+  "morning_decided_handoff": "memo-os/week-4/publication-readiness/WEEK_04_MORNING_DECIDED_HANDOFF_2026-10-06.md",
+  "remaining_content_holds": [
+    "ESPN/Flaim provider DECIDED finality",
+    "Pitts authoritative Week 4 settlement ledger for W4-P25"
+  ],
+  "production_open": true,
+  "morning_revalidation_required": true,
+  "remaining_holds": [
+    "ESPN/Flaim provider DECIDED revalidation for result-dependent pages",
+    "Pitts authoritative Week 4 settlement ledger for final W4-P25 settlement"
+  ]
+}

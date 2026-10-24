@@ -16,6 +16,7 @@ Preserve useful whole-book convergence work recovered from superseded PR #61 wit
 4. `MEMO_TO_NOVEL_TRANSLATION_REGISTER_V1.md`
 5. `WORLD_ATLAS_NARRATIVE_HYDRATION_REGISTER_V1.md`
 6. `LIVE_NOVEL_CONTINUATION_CONTRACT_V1.md`
+7. `WEEK_4_KEEPER_STATE_HANDOFF_2026-10-05.md` — **Week 4 foundational-asset / keeper-state preliminary handoff**
 
 ## Anti-fork law
 

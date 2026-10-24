@@ -14,10 +14,11 @@ class NovelOSTests(unittest.TestCase):
         self.assertEqual(r["status"],"CONFLICTED")
     def test_trade_jedi_belt_drift(self):
         self.assertFalse(can_accept(validate_character_text("ObiWan Jacoby wore his championship belt.")))
-    def test_donkey_kong_current_gorilla_passes(self):
-        self.assertTrue(can_accept(validate_character_text("D0nkey K0ng, the Arsenal Gorilla Warrior, entered.")))
-    def test_donkey_kong_retired_centaur_fails(self):
-        self.assertFalse(can_accept(validate_character_text("D0nkey K0ng entered with a centaur body.")))
+    def test_donkey_kong_current_gorilla_centaur_passes(self):
+        self.assertTrue(can_accept(validate_character_text("D0nkey K0ng, the Arsenal Gorilla Centaur Warrior, entered on one integrated four-legged centaur body.")))
+    def test_donkey_kong_split_or_bipedal_substitute_fails(self):
+        self.assertFalse(can_accept(validate_character_text("D0nkey K0ng entered as a generic bipedal gorilla.")))
+        self.assertFalse(can_accept(validate_character_text("D0nkey K0ng entered as a human rider on horse.")))
     def test_oracle_guard(self):
         self.assertFalse(can_accept(validate_oracle_mutation({"temporal_layer":"ORACLE","authority":"WORLD_CANON"})))
     def test_promise_abandon_requires_reason(self):

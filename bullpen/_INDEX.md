@@ -11,7 +11,8 @@
 4. `LIBRARIAN_THREAD_CLOSEOUT_CHARACTER_PORTABILITY_2026-10-01.md` — binding closeout of the repeated-upload trust incident; records 12/12 source recovery truth and the correct future resume point.
 5. `LIBRARIAN_SCHEMIN_NOVEL_ECOSYSTEM_SYNC_2026-10-01.md` — cross-ecosystem current-state checkpoint and fresh-context load order.
 6. `LIBRARIAN_CURRENT_AUTHORITY_LEARNING_2026-10-02.md` — durable lesson from stale-authority stress testing and PR #99 hardening.
-7. `README.md` — Bullpen purpose.
+7. `LIBRARIAN_WEEK_4_CROSS_OS_SYNC_2026-10-02.md` — current Week 4 temporal synchronization across Universe/Atlas/World Evolution/Memo/Novel.
+8. `README.md` — Bullpen purpose.
 
 ## Boundary
 

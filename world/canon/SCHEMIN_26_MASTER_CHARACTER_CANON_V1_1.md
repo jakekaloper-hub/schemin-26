@@ -36,11 +36,11 @@ For every visual assignment: resolve the owner; map the owner to this canon; use
 ### Wilson Look / Donkey Kong
 
 **Former name:** Baker Moore Purdy.  
-**Character:** The Philosopher-Warrior / Arsenal Centaur.  
-**ACTIVE DESIGN LOCK — revised 2026-09-29:** massive black-furred gorilla warrior; unmistakable gorilla anatomy with broad shoulders, long powerful arms, heavy black fur, dark primate face and roaring/fanged expression; Arsenal-red football-warrior jersey/armor with gold/bronze fantasy armor accents; oversized ornate double-headed battle axe; heavy metal tankard/beer mug; monumental battlefield/high-fantasy warlord aesthetic.  
-**PRIMARY VISUAL AUTHORITY:** Commissioner-approved 2026-09-29 Donkey Kong gorilla-warrior reference. This owner-specific reference supersedes the older lineup panel for Wilson Look.  
-**RETIRED DESIGN:** Philosopher-Warrior / Arsenal Centaur; centaur/equine anatomy must not appear in new artwork.  
-**Never:** centaur, horse/equine body, mounted-human substitute, generic jungle mascot, or human-only barbarian.
+**Character:** Arsenal Gorilla Centaur Warrior.  
+**ACTIVE DESIGN LOCK — Commissioner clarified 2026-10-02:** ONE hybrid body; black-furred gorilla head/upper identity and powerful armored torso integrated with a FOUR-LEGGED centaur/equine lower body; Arsenal-red football-warrior/supporter identity with bronze/gold accents; ornate double-headed axe; metal tankard.  
+**PRIMARY VISUAL AUTHORITY:** Commissioner-approved owner-specific Donkey Kong reference, with anatomy clarified 2026-10-02.  
+**SUPERSEDED SEMANTIC RULE:** the prior blanket retirement of centaur/equine anatomy was erroneous and is retired.  
+**Never:** generic bipedal gorilla, horse-headed centaur, human rider on horse, split gorilla+horse, two-creature substitute, generic jungle mascot, or human-only barbarian.
 
 ### Jordan Hollingshead / Slob on my Dobb
 
@@ -119,7 +119,7 @@ When ESPN reports a rename, update team-name typography/signage, matchup labels 
 
 Examples:
 - Austin Byars: The Immortal -> That's Fantasy -> His Majesty's Blood = **THE BELT KEEPER**
-- Wilson Look: Baker Moore Purdy -> Donkey Kong = **ARSENAL CENTAUR**
+- Wilson Look: Baker Moore Purdy -> Donkey Kong = **ARSENAL GORILLA CENTAUR WARRIOR**
 - Brandon Pryor = **THE CHILI OUTLAW + THE DARK HORSE**
 - Jake Kaloper = **THE TRADE JEDI - NO CHAMPIONSHIP BELT**
 

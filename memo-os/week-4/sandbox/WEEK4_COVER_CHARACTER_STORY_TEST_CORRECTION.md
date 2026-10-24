@@ -1,3 +1,5 @@
+> Historical October 2026 correction record. Current identity and source authority remain the approved main character registry, visual-reference authority, and October 18 lineup; this record does not reopen canon or authorize artwork.
+
 # Week 4 Cover Character/Story Test — Canon Correction Overlay
 Status: BINDING CORRECTION TO COMMISSIONER-SUPPLIED TEST PROMPT
 Date: 2026-10-02

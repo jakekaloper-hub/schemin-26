@@ -1,6 +1,3 @@
-> **WILSON LOOK CANON CORRECTION — 2026-10-02**  
-> Commissioner authority: D0nkey K0ng / Wilson Look is the **Arsenal Gorilla Centaur Warrior**: one continuous body with gorilla head/upper warrior identity, powerful black-furred armored torso, four-legged centaur lower body, and intrinsic Arsenal supporter identity. Earlier 2026-09-29 language treating centaur/equine anatomy as retired was an erroneous interpretation of the current Wilson reference and is superseded.
-
 # Schemin '26 — Project Control Registry
 
 **Status:** ACTIVE  
@@ -46,6 +43,12 @@ No Schemin subsystem may require separately purchased plugin credits, metered AP
 Creative Claw, Higgsfield, OpenArt, Runway, Adobe paid services, fal.ai, Replicate, ElevenLabs and Cartesia are currently **UNFUNDED_EXTERNAL / OPTIONAL / NON-BLOCKING**.
 
 ChatGPT-native capabilities are the default funded generation/editing route within plan limits. Existing connected services may be used only at their current access level with no paid upgrade assumed.
+
+## Commissioner-approved character lineup — October 18, 2026
+
+The exact twelve-character appearance baseline is recorded at canon/characters/APPROVED_LINEUP_2026_10_18.json, grounded in the original approved PNG SHA-256 24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2. It includes owner-ID-specific reference crops, physical morphology descriptions, and spatial reconciliations using existing Atlas homelands. The separate HMB correction image is supporting appearance authority. See canon/characters/lineup_2026_10_18/BOARD_SIMULATION_AND_RELEASE_GATE.md for the distinction between Commissioner appearance approval and separately held production gates.
+
+This is the CURRENT comparative 12-character visual baseline, not a new OS, not an automatic September primary-image SHA supersession, and not a certified image-generation route. The previous bipedal DK primary remains quarantined under merged PR #197. Provider binding and generated-image C1/T15/T16 remain HOLD.
 
 ## Character native-render program
 
@@ -135,7 +138,7 @@ Read:
 
 Rule: **OWNER → CANONICAL CHARACTER → CURRENT TEAM NAME**.
 
-Latest explicit Commissioner-approved corrections outrank older visual plates and historical production. Current examples include Wilson Look's 2026-09-29 Arsenal Gorilla Warrior redesign and Phillip Pitts' one-body/three-serpent-head lock.
+Latest explicit Commissioner-approved corrections outrank older visual plates and historical production. Current high-risk examples include Wilson Look's 2026-10-02 **Arsenal Gorilla Centaur Warrior** clarification (ONE body: gorilla head/upper identity + four-legged centaur/equine lower body + Arsenal supporter identity), Phillip Pitts' one-body/exactly-three-serpent-head lock, Austin Byars' Belt Keeper/championship-belt lock, and Jake Kaloper's beltless Trade Jedi lock.
 
 The typed Character Control Plane v2 under `canon/character-control-plane-v2/` is **RELEASE_CANDIDATE / NOT ACTIVE** until its release gates close. Do not treat v2 existence as runtime promotion.
 
@@ -364,3 +367,7 @@ FLA Bullpen is a selective specialist/governance adapter. It is not a sixth Sche
 - A late correction reopens only dependent artifacts when possible.
 - Private Mercer intelligence must not leak into public memo production.
 - Material operating changes belong in Git history.
+
+## Cinematography specialist reference — proposed
+
+Frank Masi motion-picture unit-stills methodology is documented as a **Tier-1 advisory resource**, not a real-world collaborator or an override of the Cinematography Director. Proposed reference and review contract: `memo-os/cinematography/FRANK_MASI_UNIT_STILLS_REFERENCE_V1.md`. **Status: FEATURE-BRANCH PROPOSAL / NOT ACTIVE** until actual packet integration, render comparison, independent Umpire acceptance, and promotion gates are verified. All existing character/Atlas/release holds remain effective.

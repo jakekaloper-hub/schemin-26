@@ -54,9 +54,9 @@ def validate_character_text(text:str)->list[Finding]:
     if "obiwan jacoby" in low or "jake kaloper" in low or "trade jedi" in low:
         if re.search(r"(his|jake'?s|obiwan'?s).{0,30}championship belt",low):
             f.append(Finding("CHAR-JAKE-BELT","FATAL","Trade Jedi may not possess/wear a championship belt."))
-    if any(x in low for x in ("donkey kong","d0nkey k0ng","wilson look","arsenal gorilla warrior")):
-        if re.search(r"\bcentaur\b|\bequine\b|horse[- ]bodied|equine lower body",low):
-            f.append(Finding("CHAR-WILSON-SPECIES","FATAL","Current Wilson Look canon is Arsenal Gorilla Warrior; centaur/equine anatomy is retired."))
+    if any(x in low for x in ("donkey kong","d0nkey k0ng","wilson look","arsenal gorilla warrior","arsenal gorilla centaur warrior")):
+        if re.search(r"generic bipedal gorilla|human rider on horse|separate gorilla|horse-headed centaur|two[- ]creature",low):
+            f.append(Finding("CHAR-WILSON-SPECIES","FATAL","Wilson Look must remain ONE Arsenal gorilla-centaur hybrid body: gorilla head/upper identity integrated with a four-legged centaur/equine lower body."))
     if "his majesty's blood" in low and re.search(r"\bking\b|\bcrown\b",low):
         f.append(Finding("CHAR-BYARS-ROYAL","IMPORTANT","Team rename must not redefine Belt Keeper as a king/crowned character."))
     return f
@@ -344,3 +344,30 @@ def grade_significance(signals:dict)->str:
     if score>=2:return "MEANINGFUL"
     if score>=1:return "TEXTURE"
     return "NOISE"
+
+
+def validate_civilization_manuscript_rehearsal(location_id: str, season: int, week: int,
+                                               pov_packet: dict, source_event: dict) -> dict:
+    """Existing Novel OS engine entrypoint: source/POV/world preflight, not manuscript approval."""
+    import importlib.util
+    root = Path(__file__).resolve().parents[3]
+    import sys
+    if str(root) not in sys.path:
+        sys.path.insert(0, str(root))
+    from world.engine.civilization_phase2_handoff import build_phase2_handoff
+    validator_path = root / "living-novel/os/qa/pov_packet_validator.py"
+    spec = importlib.util.spec_from_file_location("novel_pov_phase4", validator_path)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    errors = module.validate_pov_packet(pov_packet)
+    if errors:
+        return {"ok": False, "code": "INVALID_POV_PACKET", "errors": errors}
+    if not source_event.get("fact_lock_sha256") or source_event.get("season") != season or source_event.get("week") != week:
+        return {"ok": False, "code": "NOVEL_FACT_PROVENANCE_REQUIRED"}
+    result = build_phase2_handoff(location_id, season, week)
+    if not result.get("ok"):
+        return {"ok": False, "code": result.get("code")}
+    return {"ok": True, "context_id": result["shared_context_id"],
+            "pov_character_id": pov_packet["character_id"],
+            "fact_lock_sha256": source_event["fact_lock_sha256"],
+            "publication_eligible": False, "status": "NOVEL_ENGINE_REHEARSAL_ONLY"}

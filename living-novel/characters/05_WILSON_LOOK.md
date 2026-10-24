@@ -1,7 +1,7 @@
-# Wilson Look — Donkey Kong / Arsenal Gorilla Warrior
+# Wilson Look — Donkey Kong / Arsenal Gorilla Centaur Warrior
 
 ## Identity lock
-massive black-furred gorilla warrior; unmistakable gorilla anatomy with broad shoulders, long powerful arms, heavy black fur, dark primate face and roaring/fanged expression; Arsenal-red football-warrior jersey/armor with gold/bronze fantasy armor accents; oversized ornate double-headed battle axe; heavy metal tankard/beer mug; monumental battlefield/high-fantasy warlord aesthetic.
+ONE hybrid body: black-furred gorilla head/upper identity and powerful armored torso integrated with a FOUR-LEGGED centaur/equine lower body; dark primate face; Arsenal-red football-warrior/supporter armor with bronze/gold accents; ornate double-headed battle axe; metal tankard; monumental battlefield/high-fantasy warlord aesthetic.
 
 ## Evidence anchors
 Current: D0nkey K0ng, Team 5; former 2025 name Baker Moore Purdy.
@@ -50,4 +50,4 @@ A renamed banner must not become a renamed self.
 Philosopher forced into practical rule; warrior chooses between doctrine and friendship; mobility becomes exile or freedom.
 
 ## Forbidden drift
-Never centaur/equine, mounted-human substitute, human-only barbarian, or generic unarmored jungle gorilla. The former Arsenal Centaur design is RETIRED as of 2026-09-29.
+Never generic bipedal gorilla, horse-headed centaur, mounted-human substitute, split gorilla+horse, two-creature substitute, human-only barbarian, or generic jungle gorilla. Commissioner clarification 2026-10-02 controls.

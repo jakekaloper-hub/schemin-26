@@ -14,7 +14,7 @@ The approved plate/crop is visual authority. Text constrains; it never redesigns
 02 Kevin Zeek / Red Leopards — The Predator Board — giant anthropomorphic red leopard.
 03 Jordan Hollingshead / Slob on my Dobb — Win Ugly / Frat-Bro Berserker.
 04 David Babb / The LLC — Hostile Takeover.
-05 Wilson Look / Donkey Kong — Donkey Kong / Arsenal Gorilla Warrior — massive black-furred gorilla; Arsenal-red jersey/armor; ornate double-headed axe; metal tankard; owner-specific 2026-09-29 reference outranks older lineup panel; CENTAUR/EQUINE DESIGN RETIRED.
+05 Wilson Look / Donkey Kong — Donkey Kong / Arsenal Gorilla Centaur Warrior — ONE hybrid body: black-furred gorilla head/upper identity integrated with FOUR-LEGGED centaur/equine lower body; Arsenal-red jersey/armor; ornate double-headed axe; metal tankard; Commissioner clarification 2026-10-02 controls.
 06 Phillip Pitts / Three Dreaded Snake — The Podium Shadow — ONE powerful reptilian humanoid BODY with THREE distinct serpent HEADS; green-gold scales; glowing eyes; dreadlock-like extensions; never three separate snakes/single-headed reptile/Medusa/human. Commissioner-supplied 2026-09-29 reference is PRIMARY IDENTITY AUTHORITY (legacy-low render quality).
 07 Brandon Pryor / Chili Cheesers — The Chili Outlaw + Dark Horse.
 08 Manning Welty / El Niño — The Weather System — nonhuman elemental.
