@@ -1,0 +1,71 @@
+{
+  "status": "ROW_COMPARISON_COMPLETE_NOT_APPROVED",
+  "provider_authenticity_verified": false,
+  "steward_accepted": false,
+  "fact_lock": false,
+  "source_artifacts": {
+    "before": "WEEK_7_PROVIDER_NORMALIZED_EVIDENCE_2026-10-23.json",
+    "after": "WEEK_7_PROVIDER_NORMALIZED_EVIDENCE_2026-10-24.json"
+  },
+  "old_count": 33,
+  "new_count": 34,
+  "added_rows": [
+    {
+      "transaction_id": "52cf536c-dfdd-4295-be75-e217ebdefe98",
+      "type": "add",
+      "status": "complete",
+      "timestamp": 1792796689525,
+      "timestamp_source": "proposedDate",
+      "date": "2026-10-23",
+      "week": 7,
+      "provider_scoring_period_id": 7,
+      "team_ids": [
+        "11"
+      ],
+      "players_added": [
+        {
+          "id": "4710855",
+          "name": "Konata Mumpfield",
+          "position": "WR",
+          "team": "LAR"
+        }
+      ],
+      "players_dropped": [
+        {
+          "id": "4428850",
+          "name": "Dontayvion Wicks",
+          "position": "WR",
+          "team": "PHI"
+        }
+      ],
+      "faab_bid": 0
+    }
+  ],
+  "removed_rows": [],
+  "changed_rows": [],
+  "unchanged_count": 33,
+  "scope": {
+    "platform": "espn",
+    "sport": "football",
+    "league_id": "1417621",
+    "season_year": 2026,
+    "source": "mTransactions2",
+    "window": {
+      "mode": "explicit_week",
+      "unit": "matchup_period",
+      "requested_week": 7,
+      "normalization": "none",
+      "weeks": [
+        7
+      ],
+      "provider_scoring_period_ids": [
+        7
+      ],
+      "start_date": null,
+      "end_date": null,
+      "date_bounds_kind": "unavailable",
+      "timezone": "America/New_York"
+    }
+  },
+  "errors": []
+}
