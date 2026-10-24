@@ -1,0 +1,37 @@
+{
+  "mode": "SIMULATED_HANDOFF_WITH_EXECUTABLE_NEGATIVE_CONTROLS",
+  "resources": [
+    "UPSTREAM",
+    "EOS",
+    "CULTURE"
+  ],
+  "sender": "Beat Writer / Literary Director",
+  "receiver": "Librarian / Continuity Director",
+  "before": {
+    "claim": "The source-linked Wilson scene establishes a verified historical owner and complete season coverage.",
+    "source": "planning/connected-commonwealth/editorial-review-week3/novel-source.md",
+    "owner_binding": "UNVERIFIED",
+    "coverage": "FIXTURE_ONLY",
+    "decision": "REJECT",
+    "historical_claim": true,
+    "coverage_claim": "FULL_MANUSCRIPT",
+    "review_mode": "SIMULATED",
+    "accepted": true
+  },
+  "after": {
+    "claim": "A noncanonical craft exercise uses a pinned draft excerpt. It does not establish a historical owner or season coverage.",
+    "source": "planning/connected-commonwealth/editorial-review-week3/novel-source.md",
+    "owner_binding": "UNVERIFIED",
+    "coverage": "EXCERPT_ONLY",
+    "decision": "ALLOW_EXERCISE_ONLY",
+    "historical_claim": false,
+    "coverage_claim": "EXCERPT_ONLY",
+    "review_mode": "SIMULATED",
+    "accepted": false
+  },
+  "sender_uncertainty": "I cannot establish the historical owner behind Wilson from this source.",
+  "receiver_challenge": "Supply a dated authoritative owner binding before any historical reconstruction; a draft label is insufficient.",
+  "decision_effect": "Removed historical/coverage claim; retained bounded craft exercise.",
+  "next_action": "League Historian checks authoritative season-specific owner records when a historical task resumes; this pilot does not do that reconstruction.",
+  "acceptance_authority": "NONE: simulated review is advisory; existing production acceptance gates remain required."
+}

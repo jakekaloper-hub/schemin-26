@@ -31,3 +31,11 @@ Ask:
 > **What in this scene would still exist if no Contest were occurring today?**
 
 `NONE_RELEVANT` is allowed. Inventing lore to satisfy the question is forbidden.
+
+## Learning-pilot preflight (only when applying reference-driven revisions)
+
+Before prose, freeze the source passage/revision and mark facts, interpretation and exercise inventions separately. An unverified historical owner binding blocks historical claims, even when a draft name matches. A source-linked fixture proves neither season coverage nor a complete manuscript reading.
+
+Name one physical constraint that changes action and check the preceding scene for a repeated ledger/access mechanism. If no change is justified, retain the scene. Keep production-policy vocabulary in the packet rather than the narrator's voice.
+
+At handoff, the sender identifies one uncertainty; the receiver records the evidence needed, blocking decision and next owner/action. A simulated readback is advisory, not independent acceptance. Reuse the existing Author Council reading-pass receipt instead of creating another reading system.

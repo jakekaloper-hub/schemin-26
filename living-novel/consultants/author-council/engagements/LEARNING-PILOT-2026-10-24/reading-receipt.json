@@ -1,0 +1,71 @@
+{
+  "scope": "EXCERPT_ONLY",
+  "assembly": {
+    "before.md": "910d16225fec1ffd6a8f9d830674a6b68d42aa0f3440eefe6ef1144c9cc303cd",
+    "first-revision.md": "7bb902dffdbc5559cf02ad585e0796f4ec57589e1044539d8faa52d86f7e933d",
+    "after.md": "7da94905c4a475b1824b6bbad43759b790660c2ac543b527b009ce214cbf965d"
+  },
+  "read_files": {
+    "before.md": "910d16225fec1ffd6a8f9d830674a6b68d42aa0f3440eefe6ef1144c9cc303cd",
+    "first-revision.md": "7bb902dffdbc5559cf02ad585e0796f4ec57589e1044539d8faa52d86f7e933d",
+    "after.md": "7da94905c4a475b1824b6bbad43759b790660c2ac543b527b009ce214cbf965d"
+  },
+  "gaps": [
+    "Entire active assembled manuscript not read; active novel branch excluded.",
+    "Unwritten saga cannot be read."
+  ],
+  "accepted": false,
+  "reference_revisits": [
+    {
+      "source_id": "LEGUIN",
+      "claim_depth": "EXCERPT_PARTIAL",
+      "method_applied": true
+    },
+    {
+      "source_id": "MIYAZAKI-ESSAY",
+      "claim_depth": "PUBLIC_ESSAY",
+      "method_applied": true
+    },
+    {
+      "source_id": "SANDERSON",
+      "claim_depth": "PUBLIC_ESSAY_PARTIAL",
+      "method_applied": true
+    }
+  ],
+  "findings": [
+    {
+      "pass": "1 reader experience, excerpt only",
+      "passage": "before.md: road keeper paragraph; Wilson said Not yet; final kingdom observation",
+      "gaffe": "Action is observed, but this slice does not make Wilson\u2019s decision cause a material change. This is a revision opportunity, not a claim the original is invalid.",
+      "alternatives": [
+        "Keep quiet observation as deliberate characterization",
+        "Expand one physical obstruction into a costly choice"
+      ],
+      "selected": "Expand axle obstruction; preserve invitation to summit and deferral.",
+      "result": "first-revision.md added blocking but not agency."
+    },
+    {
+      "pass": "2 causal/spatial review, excerpt only",
+      "passage": "first-revision.md: Wilson waited on the slope until they had dragged the axle out together",
+      "gaffe": "Wilson is still passive; attendant\u2019s presence obstructs workers.",
+      "alternatives": [
+        "Retain witness scene and narrow improvement claim",
+        "Have Wilson help while keeping attendant and cloth clear"
+      ],
+      "selected": "Second alternative; added worker correction and bodily cost in after.md.",
+      "result": "Independent review triggered targeted revision; invention remains noncanonical."
+    },
+    {
+      "pass": "3 targeted re-read, excerpt only",
+      "passage": "after.md: Toward me / Not up; Wilson retrieves weapon; summit still bare",
+      "gaffe": "Action now changes local movement, but longer-range arc payoff and voice uniqueness remain unproven.",
+      "alternatives": [
+        "Add a new memory/revelation to force an arc",
+        "Stop at local consequence and reserve cross-year payoff for supported manuscript evidence"
+      ],
+      "selected": "Stop without invented historical revelation.",
+      "result": "No claim of full-season or saga quality. Dialogue now coordinates action, not proven multi-scene characterization."
+    }
+  ],
+  "counterweight_effect": "Scout/Librarian prohibit historical binding; independent reviewer rejects passive first revision; Beat Writer revises only isolated copy."
+}
