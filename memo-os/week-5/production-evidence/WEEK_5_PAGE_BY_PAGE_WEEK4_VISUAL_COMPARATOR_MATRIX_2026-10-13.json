@@ -1,0 +1,424 @@
+{
+  "schema": "W5_WEEK4_VISUAL_BENCHMARK_MAP_V1",
+  "authority": "Commissioner Week 5 2026-10-13 visual-fidelity amendment",
+  "source_pdf": {
+    "file_name": "Pro_Schemin_26_Week_4_Official_Memo(3).pdf",
+    "page_count": 33,
+    "each_page_px": [
+      1024,
+      1536
+    ],
+    "sha256": "1fc322a3eb0e8b43499ee4556c715ba4c00a8c388e7a92a904954a35f0482124",
+    "source_location": "User-provided session attachment; not included in GitHub"
+  },
+  "target": {
+    "format": "PNG",
+    "width_px": 1024,
+    "height_px": 1536,
+    "pdf_assembler": "Commissioner",
+    "expected_pages": 32
+  },
+  "review": {
+    "scoring_scale": "0-5 per dimension; 4=meets corresponding Week 4 exemplar, 5=exceeds; 0-3 requires repair",
+    "mandatory_dimensions": [
+      "cinematic_environment_depth",
+      "camera_composition_and_action",
+      "lighting_and_material_specificity",
+      "atlas_scene_and_narrative_cohesion",
+      "typography_and_branding_at_390px",
+      "page_to_page_continuity"
+    ],
+    "art_acceptance": "No final art accepted with any score below 4/5; identity/canon, factuality and independent reviewer are absolute blockers and cannot be offset by artistic scores",
+    "evidence": "full-resolution PNG and 390px scale render with reviewer ID, image hash, Week 4 comparator pages and visual findings"
+  },
+  "pages": [
+    {
+      "source_page_id": "P001",
+      "expected_png": "SCHEMIN26_W05_P001_COVER.png",
+      "week4_reference_pages": [
+        1
+      ],
+      "page_role": "editorial",
+      "atlas_venue": null,
+      "genre": null,
+      "review_focus": "Memorial dignity, editorial headline, atmospheric cover hierarchy"
+    },
+    {
+      "source_page_id": "P002",
+      "expected_png": "SCHEMIN26_W05_P002_OPENING.png",
+      "week4_reference_pages": [
+        2,
+        4,
+        9,
+        25
+      ],
+      "page_role": "editorial",
+      "atlas_venue": null,
+      "genre": null,
+      "review_focus": "Immersive world geography, parchment prose column, cinematic light/texture"
+    },
+    {
+      "source_page_id": "P003",
+      "expected_png": "SCHEMIN26_W05_P003_SCOREBOARD.png",
+      "week4_reference_pages": [
+        3,
+        29,
+        30
+      ],
+      "page_role": "editorial",
+      "atlas_venue": null,
+      "genre": null,
+      "review_focus": "Illustrated score hierarchies, correct divisions, full team names"
+    },
+    {
+      "source_page_id": "P004",
+      "expected_png": "SCHEMIN26_W05_P004_GOTW_OVERTURE.png",
+      "week4_reference_pages": [
+        4
+      ],
+      "page_role": "overture",
+      "atlas_venue": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "genre": "Dark Wizard Chess",
+      "review_focus": "Prose-first cinematic establishing geography without spoiler"
+    },
+    {
+      "source_page_id": "P005",
+      "expected_png": "SCHEMIN26_W05_P005_GOTW_SETUP.png",
+      "week4_reference_pages": [
+        4,
+        5
+      ],
+      "page_role": "setup",
+      "atlas_venue": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "genre": "Dark Wizard Chess",
+      "review_focus": "Visually specific owner confrontation in a consistent venue"
+    },
+    {
+      "source_page_id": "P006",
+      "expected_png": "SCHEMIN26_W05_P006_GOTW_ESCALATION.png",
+      "week4_reference_pages": [
+        4,
+        6
+      ],
+      "page_role": "escalation",
+      "atlas_venue": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "genre": "Dark Wizard Chess",
+      "review_focus": "Physically credible movement and landmark/costume continuity"
+    },
+    {
+      "source_page_id": "P007",
+      "expected_png": "SCHEMIN26_W05_P007_GOTW_PAYOFF.png",
+      "week4_reference_pages": [
+        4,
+        8
+      ],
+      "page_role": "payoff",
+      "atlas_venue": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "genre": "Dark Wizard Chess",
+      "review_focus": "Verified outcome-driven consequence integrated with scenery"
+    },
+    {
+      "source_page_id": "P008",
+      "expected_png": "SCHEMIN26_W05_P008_LLC_MUD_OVERTURE.png",
+      "week4_reference_pages": [
+        9
+      ],
+      "page_role": "overture",
+      "atlas_venue": "LOC-MUD-DOGS-SWAMP",
+      "genre": "Save the Swamp",
+      "review_focus": "Prose-first cinematic establishing geography without spoiler"
+    },
+    {
+      "source_page_id": "P009",
+      "expected_png": "SCHEMIN26_W05_P009_LLC_MUD_SETUP.png",
+      "week4_reference_pages": [
+        9,
+        10
+      ],
+      "page_role": "setup",
+      "atlas_venue": "LOC-MUD-DOGS-SWAMP",
+      "genre": "Save the Swamp",
+      "review_focus": "Visually specific owner confrontation in a consistent venue"
+    },
+    {
+      "source_page_id": "P010",
+      "expected_png": "SCHEMIN26_W05_P010_LLC_MUD_ESCALATION.png",
+      "week4_reference_pages": [
+        9,
+        11
+      ],
+      "page_role": "escalation",
+      "atlas_venue": "LOC-MUD-DOGS-SWAMP",
+      "genre": "Save the Swamp",
+      "review_focus": "Physically credible movement and landmark/costume continuity"
+    },
+    {
+      "source_page_id": "P011",
+      "expected_png": "SCHEMIN26_W05_P011_LLC_MUD_PAYOFF.png",
+      "week4_reference_pages": [
+        9,
+        12
+      ],
+      "page_role": "payoff",
+      "atlas_venue": "LOC-MUD-DOGS-SWAMP",
+      "genre": "Save the Swamp",
+      "review_focus": "Verified outcome-driven consequence integrated with scenery"
+    },
+    {
+      "source_page_id": "P012",
+      "expected_png": "SCHEMIN26_W05_P012_CHILI_NINO_OVERTURE.png",
+      "week4_reference_pages": [
+        25
+      ],
+      "page_role": "overture",
+      "atlas_venue": "LOC-CHILI-STABLE",
+      "genre": "A Storm Comes to Town",
+      "review_focus": "Prose-first cinematic establishing geography without spoiler"
+    },
+    {
+      "source_page_id": "P013",
+      "expected_png": "SCHEMIN26_W05_P013_CHILI_NINO_SETUP.png",
+      "week4_reference_pages": [
+        25,
+        26
+      ],
+      "page_role": "setup",
+      "atlas_venue": "LOC-CHILI-STABLE",
+      "genre": "A Storm Comes to Town",
+      "review_focus": "Visually specific owner confrontation in a consistent venue"
+    },
+    {
+      "source_page_id": "P014",
+      "expected_png": "SCHEMIN26_W05_P014_CHILI_NINO_ESCALATION.png",
+      "week4_reference_pages": [
+        25,
+        27
+      ],
+      "page_role": "escalation",
+      "atlas_venue": "LOC-CHILI-STABLE",
+      "genre": "A Storm Comes to Town",
+      "review_focus": "Physically credible movement and landmark/costume continuity"
+    },
+    {
+      "source_page_id": "P015",
+      "expected_png": "SCHEMIN26_W05_P015_CHILI_NINO_PAYOFF.png",
+      "week4_reference_pages": [
+        25,
+        28
+      ],
+      "page_role": "payoff",
+      "atlas_venue": "LOC-CHILI-STABLE",
+      "genre": "A Storm Comes to Town",
+      "review_focus": "Verified outcome-driven consequence integrated with scenery"
+    },
+    {
+      "source_page_id": "P016",
+      "expected_png": "SCHEMIN26_W05_P016_DUCK_DK_OVERTURE.png",
+      "week4_reference_pages": [
+        13
+      ],
+      "page_role": "overture",
+      "atlas_venue": "LOC-COUNTRY-CLUB-JACKSON",
+      "genre": "David vs Goliath",
+      "review_focus": "Prose-first cinematic establishing geography without spoiler"
+    },
+    {
+      "source_page_id": "P017",
+      "expected_png": "SCHEMIN26_W05_P017_DUCK_DK_SETUP.png",
+      "week4_reference_pages": [
+        13,
+        14
+      ],
+      "page_role": "setup",
+      "atlas_venue": "LOC-COUNTRY-CLUB-JACKSON",
+      "genre": "David vs Goliath",
+      "review_focus": "Visually specific owner confrontation in a consistent venue"
+    },
+    {
+      "source_page_id": "P018",
+      "expected_png": "SCHEMIN26_W05_P018_DUCK_DK_ESCALATION.png",
+      "week4_reference_pages": [
+        13,
+        15
+      ],
+      "page_role": "escalation",
+      "atlas_venue": "LOC-COUNTRY-CLUB-JACKSON",
+      "genre": "David vs Goliath",
+      "review_focus": "Physically credible movement and landmark/costume continuity"
+    },
+    {
+      "source_page_id": "P019",
+      "expected_png": "SCHEMIN26_W05_P019_DUCK_DK_PAYOFF.png",
+      "week4_reference_pages": [
+        13,
+        16
+      ],
+      "page_role": "payoff",
+      "atlas_venue": "LOC-COUNTRY-CLUB-JACKSON",
+      "genre": "David vs Goliath",
+      "review_focus": "Verified outcome-driven consequence integrated with scenery"
+    },
+    {
+      "source_page_id": "P020",
+      "expected_png": "SCHEMIN26_W05_P020_CHINS_SLOB_OVERTURE.png",
+      "week4_reference_pages": [
+        9,
+        25
+      ],
+      "page_role": "overture",
+      "atlas_venue": "LOC-SLOB-FOOTHILL-CAMP",
+      "genre": "After the Storm",
+      "review_focus": "Prose-first cinematic establishing geography without spoiler"
+    },
+    {
+      "source_page_id": "P021",
+      "expected_png": "SCHEMIN26_W05_P021_CHINS_SLOB_SETUP.png",
+      "week4_reference_pages": [
+        9,
+        26
+      ],
+      "page_role": "setup",
+      "atlas_venue": "LOC-SLOB-FOOTHILL-CAMP",
+      "genre": "After the Storm",
+      "review_focus": "Visually specific owner confrontation in a consistent venue"
+    },
+    {
+      "source_page_id": "P022",
+      "expected_png": "SCHEMIN26_W05_P022_CHINS_SLOB_ESCALATION.png",
+      "week4_reference_pages": [
+        9,
+        27
+      ],
+      "page_role": "escalation",
+      "atlas_venue": "LOC-SLOB-FOOTHILL-CAMP",
+      "genre": "After the Storm",
+      "review_focus": "Physically credible movement and landmark/costume continuity"
+    },
+    {
+      "source_page_id": "P023",
+      "expected_png": "SCHEMIN26_W05_P023_CHINS_SLOB_PAYOFF.png",
+      "week4_reference_pages": [
+        9,
+        28
+      ],
+      "page_role": "payoff",
+      "atlas_venue": "LOC-SLOB-FOOTHILL-CAMP",
+      "genre": "After the Storm",
+      "review_focus": "Verified outcome-driven consequence integrated with scenery"
+    },
+    {
+      "source_page_id": "P024",
+      "expected_png": "SCHEMIN26_W05_P024_RED_OBI_OVERTURE.png",
+      "week4_reference_pages": [
+        4,
+        17
+      ],
+      "page_role": "overture",
+      "atlas_venue": "LOC-RED-RUINS",
+      "genre": "Champions' Joust",
+      "review_focus": "Prose-first cinematic establishing geography without spoiler"
+    },
+    {
+      "source_page_id": "P025",
+      "expected_png": "SCHEMIN26_W05_P025_RED_OBI_SETUP.png",
+      "week4_reference_pages": [
+        5,
+        17
+      ],
+      "page_role": "setup",
+      "atlas_venue": "LOC-RED-RUINS",
+      "genre": "Champions' Joust",
+      "review_focus": "Visually specific owner confrontation in a consistent venue"
+    },
+    {
+      "source_page_id": "P026",
+      "expected_png": "SCHEMIN26_W05_P026_RED_OBI_ESCALATION.png",
+      "week4_reference_pages": [
+        6,
+        17
+      ],
+      "page_role": "escalation",
+      "atlas_venue": "LOC-RED-RUINS",
+      "genre": "Champions' Joust",
+      "review_focus": "Physically credible movement and landmark/costume continuity"
+    },
+    {
+      "source_page_id": "P027",
+      "expected_png": "SCHEMIN26_W05_P027_RED_OBI_PAYOFF.png",
+      "week4_reference_pages": [
+        8,
+        17
+      ],
+      "page_role": "payoff",
+      "atlas_venue": "LOC-RED-RUINS",
+      "genre": "Champions' Joust",
+      "review_focus": "Verified outcome-driven consequence integrated with scenery"
+    },
+    {
+      "source_page_id": "P028",
+      "expected_png": "SCHEMIN26_W05_P028_POWER_RANKINGS.png",
+      "week4_reference_pages": [
+        30
+      ],
+      "page_role": "editorial",
+      "atlas_venue": null,
+      "genre": null,
+      "review_focus": "12-owner illustrated rankings with readable movement"
+    },
+    {
+      "source_page_id": "P029",
+      "expected_png": "SCHEMIN26_W05_P029_STATE_OF_REALM.png",
+      "week4_reference_pages": [
+        29
+      ],
+      "page_role": "editorial",
+      "atlas_venue": null,
+      "genre": null,
+      "review_focus": "Three-division illustrated political map and full names"
+    },
+    {
+      "source_page_id": "P030",
+      "expected_png": "SCHEMIN26_W05_P030_PITTYS_BOOK.png",
+      "week4_reference_pages": [
+        21,
+        22,
+        23,
+        24,
+        31
+      ],
+      "page_role": "editorial",
+      "atlas_venue": null,
+      "genre": null,
+      "review_focus": "Ornate financial architecture and receipt-legible settlement; all inputs deferred"
+    },
+    {
+      "source_page_id": "P031",
+      "expected_png": "SCHEMIN26_W05_P031_WAIVER_TRANSACTIONS.png",
+      "week4_reference_pages": [
+        3,
+        30,
+        31
+      ],
+      "page_role": "editorial",
+      "atlas_venue": null,
+      "genre": null,
+      "review_focus": "Visual hierarchy for exact waiver/transaction receipts"
+    },
+    {
+      "source_page_id": "P032",
+      "expected_png": "SCHEMIN26_W05_P032_FINAL_WORD.png",
+      "week4_reference_pages": [
+        33
+      ],
+      "page_role": "editorial",
+      "atlas_venue": null,
+      "genre": null,
+      "review_focus": "Visually memorable object continuity and final editorial prose"
+    }
+  ],
+  "proof_status": {
+    "page": "P002",
+    "state": "FAILED_W4_FIDELITY",
+    "reason": "2026-10-13 procedural silhouette proof lacks photorealistic environments, detailed textures and depth versus W4 P002; no accepted image-model render or independent Umpire"
+  }
+}

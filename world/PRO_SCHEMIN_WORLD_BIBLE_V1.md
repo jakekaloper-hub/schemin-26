@@ -75,7 +75,7 @@ Population/civilization status is governed by:
 ### Peopled kinds
 The following inhabit home societies containing ordinary members of their own broad kind:
 - ObiWan / Trade Jedi
-- D0nkey K0ng / Arsenal Gorilla Warrior
+- D0nkey K0ng / Arsenal Gorilla Centaur Warrior (principal has one gorilla upper identity and a four-legged equine lower body; ordinary population does not automatically share the principal's exact morphology)
 - Red Leopards / Predator Board
 - Slob / Frat-Bro Berserker
 - Mud Dogs / Swamp-Born Menace
@@ -243,12 +243,12 @@ Character Control Plane remains body-form authority.
 
 Current critical locks:
 - Trade Jedi: NO championship belt.
-- Wilson Look / D0nkey K0ng: **Arsenal Gorilla Warrior; no centaur/equine anatomy**.
+- Wilson Look / D0nkey K0ng: **Arsenal Gorilla Centaur Warrior; ONE integrated gorilla upper identity + FOUR-LEGGED equine lower body; Arsenal identity retained**. This is the 2026-10-02 Commissioner correction in active Character Canon.
 - TDS: one reptilian body with three serpent heads.
 - Belt Keeper identity survives team renames.
 - Chili Outlaw retains Dark Horse.
 
-Historical centaur material remains historical/superseded and does not define current ontology.
+Historical centaur-only and later gorilla-only depictions remain their respective historical states. The 2026-10-02 Commissioner-approved gorilla-centaur hybrid governs current principal appearance; ontology never supersedes the Character Canon.
 
 ## 16. Weekly ingestion
 
