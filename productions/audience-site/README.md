@@ -46,3 +46,16 @@ The hosting provider retains saved versions. Redeploy a previously verified save
 ## Review
 
 Use `planning/audience-site/EXECUTION_LEDGER.md` for current execution evidence and limitations. Engineering tests do not constitute founder approval of the atmosphere or design.
+
+
+## Offline memo text review candidates
+
+The verified Weeks4–6 source PDFs are image-only. The optional local review tool uses Poppler and Tesseract, without model/API calls, to create selected physical-page images, OCR candidate text and a keyboard-readable side-by-side review page:
+
+```bash
+python3 productions/audience-site/build_memo_text_candidates.py --week 6 --page 1 --page 2 --output /tmp/week6-text-review
+```
+
+The intake manifest is read from the current Git commit. Source PDF size, SHA-256 and physical page count must match it. Every candidate records source revision/hash, physical page number and image/text hashes. Output must be empty and outside public `src/` and `dist/`. This is an **UNREVIEWED_OCR_CANDIDATE**, never publication eligible. The public catalog does not import these packets. OCR failures leave no candidate receipt; partial artifacts are not accepted output.
+
+Reviewers must compare every line, name, score, caption and reading order with the original pixels, record corrections against the source/page hashes, and independently accept a future companion before public integration. Candidate OCR is not a fact lock, accessible edition certification, creative rewrite or permission to change the original PDF. An offline reviewer can open `review.html`, follow physical-page links and focus/select the candidate text. No reviewed-transcript approval mechanism is claimed by this tool.
