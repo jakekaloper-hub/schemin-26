@@ -1,0 +1,32 @@
+name: Audience website
+on:
+  pull_request:
+    paths:
+      - 'productions/audience-site/**'
+      - 'canon/characters/**'
+      - 'world/data/**'
+      - 'governance/publication-manifest/**'
+      - '.github/workflows/audience-site.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - run: python3 productions/audience-site/tests/test_public_catalog.py
+      - run: npm --prefix productions/audience-site test
+      - run: python3 productions/audience-site/build_public_catalog.py
+      - run: python3 governance/publication-manifest/validate_publication_manifest.py
+      - run: python3 governance/repository-architecture/validate_repository_architecture.py
+      - run: python3 world/qa/test_one_world_model_contract.py
