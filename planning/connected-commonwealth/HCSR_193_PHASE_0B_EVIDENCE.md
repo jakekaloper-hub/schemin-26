@@ -1,5 +1,8 @@
 # HCSR #193 — Phase 0B evidence review
 
+> **Historical record — current authority check required (2026-10-24).** This October 16 inventory/topology record preserves findings from the inspected snapshot. Counts, missing-asset statements and the downstream DK conflict describe that snapshot, not a new current diagnosis or a requirement for fresh canon approval to preserve already approved morphology. Current authority remains PROJECT_CONTROL_REGISTRY.md, world/data and the governing character registry; this report promotes no geometry, character design or production approval.
+
+
 2026-10-16. Read-only source inspection, not canon.
 
 Reviewed all 12 registered Homeland Cards and all 23 registered Location Cards on default branch. All homelands identify a primary location, region, landmarks and access routes. All 23 locations expose semantic features and routes; their inspected card schemas do not include top-level metric geometry, building dimensions, or population counts. All 23 structural reference entries are approved, while approved cinematic reference entries are missing.

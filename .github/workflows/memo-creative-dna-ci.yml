@@ -1,0 +1,34 @@
+name: Memo Commissioner Creative DNA
+
+on:
+  pull_request:
+    paths:
+      - "memo-os/creative-dna/**"
+      - "memo-os/post-production/PAGE_DESIGN_PACKET_TEMPLATE_V2.md"
+      - "memo-os/_INDEX.md"
+      - "governance/resilience/CREATIVE_CONDITIONING_REGISTRY_V1.json"
+      - ".github/workflows/memo-creative-dna-ci.yml"
+  push:
+    branches: [main]
+    paths:
+      - "memo-os/creative-dna/**"
+      - "memo-os/post-production/PAGE_DESIGN_PACKET_TEMPLATE_V2.md"
+      - "memo-os/_INDEX.md"
+      - "governance/resilience/CREATIVE_CONDITIONING_REGISTRY_V1.json"
+      - ".github/workflows/memo-creative-dna-ci.yml"
+  workflow_dispatch:
+
+jobs:
+  creative-dna-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate Creative DNA registry
+        run: python memo-os/creative-dna/validate_creative_dna.py
+      - name: Run Creative DNA regression tests
+        run: python -m unittest discover -s memo-os/creative-dna/tests -p "test_*.py" -v
+      - name: Check existing creative conditioning registry
+        run: python governance/resilience/validate_resilience.py
