@@ -135,6 +135,37 @@ def render_pdf_page(pdf, number, destination, scale=1600, quality=86, renderer=N
         raise ValueError('Unknown PDF renderer')
 
 
+def jpeg_dimensions(path):
+    """Read dimensions from the generated JPEG frame, before browser decoding."""
+    with pathlib.Path(path).open('rb') as stream:
+        if stream.read(2) != b'\xff\xd8':
+            raise ValueError('Expected a rendered JPEG')
+        while True:
+            if stream.read(1) != b'\xff':
+                raise ValueError('Invalid JPEG marker')
+            marker = stream.read(1)
+            while marker == b'\xff':
+                marker = stream.read(1)
+            if marker in (b'', b'\xda', b'\xd9'):
+                raise ValueError('JPEG frame dimensions missing')
+            length_bytes = stream.read(2)
+            if len(length_bytes) != 2:
+                raise ValueError('Truncated JPEG segment')
+            length = int.from_bytes(length_bytes, 'big')
+            if length < 2:
+                raise ValueError('Invalid JPEG segment length')
+            segment = stream.read(length - 2)
+            if len(segment) != length - 2:
+                raise ValueError('Truncated JPEG segment')
+            if marker in (b'\xc0', b'\xc1', b'\xc2'):
+                if len(segment) < 5:
+                    raise ValueError('Truncated JPEG frame')
+                height, width = int.from_bytes(segment[1:3], 'big'), int.from_bytes(segment[3:5], 'big')
+                if not width or not height:
+                    raise ValueError('Invalid JPEG frame dimensions')
+                return {'width': width, 'height': height}
+
+
 def build_catalog(output=None, render=True, released_source_dir=None):
     output = pathlib.Path(output or BASE / 'dist')
     output.mkdir(parents=True, exist_ok=True)
@@ -221,6 +252,7 @@ def build_catalog(output=None, render=True, released_source_dir=None):
             'status': status, 'releaseState': 'SOURCE_VERIFIED_NOT_RELEASE_PROMOTED',
             'currentBenchmark': False, 'pdf': MEDIA + urllib.parse.quote(item['archive_path']),
             'cover': memo_pages[0], 'pageImages': memo_pages, 'pageCount': item['pages'],
+            'pageDimensions': [jpeg_dimensions(output / path) for path in memo_pages] if render else [],
             'characterIds': pdf_mentions(pdf, characters),
             'mentionBasis': 'Exact canonical display/team name in extracted source PDF text; raster-only pages may have no indexable mentions.',
             'source': item['archive_path'],
@@ -265,6 +297,7 @@ def build_catalog(output=None, render=True, released_source_dir=None):
             memos.append({'id': f'week-{week}', 'week': week, 'title': publication['title'],
                           'pages': recovered['pages'], 'pageCount': recovered['pages'],
                           'cover': images[0], 'pageImages': images, 'status': 'Released edition',
+                          'pageDimensions': [jpeg_dimensions(output / path) for path in images] if render else [],
                           'releaseState': publication['release_state'], 'currentBenchmark': is_current,
                           'characterIds': pdf_mentions(pdf, characters),
                           'mentionBasis': 'Exact canonical display/team name in extracted source PDF text.',
