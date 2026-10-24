@@ -70,6 +70,17 @@ class RenderProvenanceTests(unittest.TestCase):
         d=copy.deepcopy(self.d);d["pages"][0]["character_generation_receipts"][0]["independent_reviewer_id"]="artist"
         self.fails(d,"not independent")
 
+    def test_missing_generation_operator_cannot_prove_independence(self):
+        for value in (None, "", "   "):
+            with self.subTest(value=value):
+                d=copy.deepcopy(self.d)
+                receipt=d["pages"][0]["character_generation_receipts"][0]
+                if value is None:
+                    receipt.pop("generation_operator_id")
+                else:
+                    receipt["generation_operator_id"]=value
+                self.fails(d,"missing generation_operator_id")
+
     def test_raster_qa_failed(self):
         d=copy.deepcopy(self.d);d["pages"][0]["character_generation_receipts"][0]["raster_qa_decision"]="HOLD"
         self.fails(d,"failed final-raster")

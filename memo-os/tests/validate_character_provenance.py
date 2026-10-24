@@ -42,7 +42,7 @@ def validate_character_provenance(manifest, base):
             for field in ("owner_id", "canonical_asset_path", "generation_reference_id",
                           "subject_slot", "subject_binding_id", "renderer_route",
                           "mount_receipt_id", "capability_receipt_id", "output_instance_id",
-                          "independent_reviewer_id", "reviewed_raster_path"):
+                          "generation_operator_id", "independent_reviewer_id", "reviewed_raster_path"):
                 if not isinstance(receipt.get(field), str) or not receipt[field].strip():
                     errors.append(f"page {n}: {cid} missing {field}")
             for field in ("expected_sha256", "mounted_sha256", "raster_sha256"):
