@@ -111,7 +111,8 @@ def build_packet(location_id:str)->dict[str,Any]:
       "character":{
         "principal_character_ids":owners,
         "reference_status":"CHARACTER_REFERENCE_GATE_SEPARATE" if owners else "NO_PRINCIPAL_REQUIRED",
-        "body_locks":physical,
+        "body_locks":[],
+        "owner_specific_physical_constraints":physical,
         "negative_locks":domain.get("forbidden_drift",[]),
         "owner_specific_negative_locks":negatives,
         "visual_authority":visual,

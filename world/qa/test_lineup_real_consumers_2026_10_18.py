@@ -62,7 +62,7 @@ class LineupRuntimeConsumersTests(unittest.TestCase):
             self.assertEqual(p["character"]["principal_character_ids"],[cid])
             self.assertFalse(p["character"]["generation_eligible"])
             self.assertEqual(p["character"]["source_binding_state"],"UNPROVEN_RENDERER_HOLD")
-            self.assertTrue(p["character"]["body_locks"][cid]["anatomy_constraints"])
+            self.assertTrue(p["character"]["owner_specific_physical_constraints"][cid]["anatomy_constraints"])
             self.assertTrue(p["character"]["owner_specific_negative_locks"][cid])
             r=p["character"]["visual_authority"]
             self.assertEqual(r["state"],"COMMISSIONER_APPROVED_VISUAL_PRESENTATION_EVIDENCE")
@@ -70,6 +70,18 @@ class LineupRuntimeConsumersTests(unittest.TestCase):
             self.assertEqual(r["T16"],"HOLD")
             if cid=="CHAR-WILSON-LOOK":
                 self.assertIn("four",str(r["subjects"][0]["physical_constraints"]).lower())
+
+    def test_visual_world_body_locks_remain_a_sequence_for_existing_consumers(self):
+        import json
+        for location in ("LOC-TRADE-JEDI-MOUNTAIN-BASE", "LOC-ARSENAL-BARBERSHOP", "LOC-LEAGUE-CHAMBER"):
+            with self.subTest(location=location):
+                character=json.loads(json.dumps(build_packet(location)))["character"]
+                # List-valued packet locks support consumer concatenation.
+                # Owner-keyed physical context must not change that public shape.
+                locks=character["body_locks"] + character["negative_locks"]
+                self.assertIsInstance(locks,list)
+                self.assertTrue(all(isinstance(lock,str) for lock in locks))
+                self.assertFalse(character["generation_eligible"])
 
     def test_production_world_packet_fails_closed_on_invalid_visual_resolver(self):
         with patch("canon.characters.runtime.reference_authority.resolve_approved_lineup_presentation",
