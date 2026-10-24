@@ -24,6 +24,7 @@ HARD_CANON = {
 LEGACY_READER_EXCLUDED = HARD_CANON - {"CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md"}
 # Explicit editorial order for these mission lanes, not filename inference.
 SCENE_LANES = {
+    "2015-jake-week1": (-3, "2015 Week 1 connected-account Jake candidate; user-attested identity plus Flaim continuity; no opponent identity"),
     "2024-title": (-2, "2024 title aftermath only; no 2025 knowledge; event-scoped fictional identity support, raw human-owner UNKNOWN"),
     "2025-reckoning": (-1, "2025 named postseason events only; no 2026 knowledge; event-scoped fictional identity support, raw human-owner UNKNOWN"),
     "2026": (0, "After Chapter III; before Week 4 results"),
@@ -33,8 +34,9 @@ SCENE_LANES = {
     "2026-week6-wetland": (4, "Same post-Week-6/pre-Week-7-result window; display order only, not proved temporal ordering of separate geographic events"),
 }
 EXPLICIT_LITERARY_FILES = ("2026-week5/A_DOOR_WIDE_ENOUGH_NONCANON.md",)
-HISTORICAL_LANES = {"2024-title", "2025-reckoning"}
+HISTORICAL_LANES = {"2015-jake-week1", "2024-title", "2025-reckoning"}
 HISTORICAL_BINDING_AUDIT = MISSION / "evidence/HISTORICAL_BINDING_AUDIT_2022_2025.json"
+CONNECTED_ACCOUNT_AUDIT = MISSION / "evidence/owner-extraction-audit/FLAIM_CONNECTED_ACCOUNT_CONTINUITY.md"
 
 
 def relative(path: Path) -> str:
@@ -145,8 +147,10 @@ def mission_manuscripts() -> list[Path]:
         if not path.is_file():
             raise FileNotFoundError(f"Explicitly registered literary manuscript missing: {name}")
         paths.add(path)
-    if any(path.parent.name in HISTORICAL_LANES for path in paths) and not HISTORICAL_BINDING_AUDIT.is_file():
+    if any(path.parent.name in {"2024-title", "2025-reckoning"} for path in paths) and not HISTORICAL_BINDING_AUDIT.is_file():
         raise FileNotFoundError("Historical manuscript requires the event-scoped fictional binding audit; missing raw owner fields cannot be silently promoted.")
+    if any(path.parent.name == "2015-jake-week1" for path in paths) and not CONNECTED_ACCOUNT_AUDIT.is_file():
+        raise FileNotFoundError("2015 Jake candidate requires the Flaim connected-account audit.")
     return sorted(paths, key=manuscript_order)
 
 
@@ -154,7 +158,7 @@ def scope_disclosure(manuscripts: list[Path]) -> str:
     historical = [p for p in manuscripts if p.parent.name in HISTORICAL_LANES]
     current = [p for p in manuscripts if p.parent.name not in HISTORICAL_LANES]
     if historical:
-        summary = f"<strong>This reader includes {len(historical)} proposed historical sequence(s) and {len(current)} current-2026 sequence(s). No historical season is complete.</strong> Historical material is limited to event-scoped fictional associations documented for 2024/2025. Raw human-owner identity remains UNKNOWN; existing hard fiction is not proof of an ESPN account holder."
+        summary = f"<strong>This reader includes {len(historical)} proposed historical sequence(s) and {len(current)} current-2026 sequence(s). No historical season is complete.</strong> Historical material is limited to 2024/2025 event-scoped fictional associations and one 2015 Jake candidate supported by user-attested identity plus Flaim connected-account continuity. Raw human-owner identity remains UNKNOWN; neither route identifies other historical owners."
     else:
         summary = "<strong>All new prose currently included in this reader concerns 2026. No new historical manuscript is included yet.</strong> Narrow 2024/2025 fictional event lanes have been identified, but planned files do not count as written prose."
     return summary + ' Broader 2015–2025 coverage remains incomplete; no whole-season identity license follows from these exceptions. Read the <a href="../evidence/HISTORICAL_BINDING_AUDIT_2022_2025.md">event-scoped historical binding audit and correction to the earlier blanket hold</a>. Existing historical drafts remain preserved, and new geography, dialogue and consequences remain proposed.'
@@ -197,12 +201,17 @@ def build() -> dict:
         anchor = f"manuscript-{i}"
         title = next((s.lstrip("# ") for s in path.read_text().splitlines() if s.startswith("#")), path.stem)
         links.append(f'<li><a href="#{anchor}">{html.escape(title)}</a></li>')
+        historical_metadata = {}
+        if path.parent.name in {"2024-title", "2025-reckoning"}:
+            historical_metadata = {"raw_human_owner_status": "UNKNOWN", "fictional_binding_audit": relative(HISTORICAL_BINDING_AUDIT), "fictional_binding_audit_sha256": digest(HISTORICAL_BINDING_AUDIT)}
+        elif path.parent.name == "2015-jake-week1":
+            historical_metadata = {"raw_human_owner_status": "UNKNOWN", "identity_basis": "USER_ATTESTED_IDENTITY_PLUS_PROVIDER_CONNECTED_ACCOUNT_CONTINUITY", "connected_account_audit": relative(CONNECTED_ACCOUNT_AUDIT), "connected_account_audit_sha256": digest(CONNECTED_ACCOUNT_AUDIT)}
         entries.append({"path": relative(path), "sha256": digest(path), "anchor": anchor,
                         "scene_lane_order": SCENE_LANES[path.parent.name][0],
                         "scene_cutoff_label": SCENE_LANES[path.parent.name][1],
                         "status": "DRAFT_NONCANON_NO_RELEASE_APPROVAL",
                         "scope": "EVENT_SCOPED_HISTORICAL_FICTION" if path.parent.name in HISTORICAL_LANES else "CURRENT_2026_DRAFT",
-                        **({"raw_human_owner_status": "UNKNOWN", "fictional_binding_audit": relative(HISTORICAL_BINDING_AUDIT), "fictional_binding_audit_sha256": digest(HISTORICAL_BINDING_AUDIT)} if path.parent.name in HISTORICAL_LANES else {})})
+                        **historical_metadata})
         chapters.append(f'<article id="{anchor}"><p class="badge">Draft · noncanon · no release approval</p><p>{html.escape(SCENE_LANES[path.parent.name][1])}</p><p class="source">{html.escape(relative(path))}<br>SHA-256: {digest(path)}</p>{render_markdown(path.read_text())}<p><a href="#contents">Back to contents</a></p></article>')
     source_items = []
     for row in rows:

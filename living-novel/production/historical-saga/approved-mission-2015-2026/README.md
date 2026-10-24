@@ -2,12 +2,13 @@
 
 **PARTIAL PRODUCTION / NONCANON / NO SEASON-COMPLETE CLAIM.**
 
-Read the seven actual revised sequences in [the local draft reader](reader/index.html). This is a portable HTML draft, not a deployed or canonical publication. Historical production now includes eleven scenes tied to four 2024–2025 postseason contests. Five separate sequences address 2026. No season is complete.
+Read the eight actual revised sequences in [the local draft reader](reader/index.html). This is a portable HTML draft, not a deployed or canonical publication. Historical production now includes fourteen scenes tied to five contests: one bounded 2015 connected-account Jake candidate and four 2024–2025 postseason contests. Five separate sequences address 2026. No season is complete.
 
 ## What was produced
 
 | Draft | Period and source-event bindings | Actual scope |
 |---|---|---|
+| [The First Debt](manuscript/2015-jake-week1/THE_FIRST_DEBT_NONCANON.md) | 2015 W1 Scruffy Looking Nerf Herders/Here, Ok I took L's; `ESPN1417621-2015-P01-E002` | Three Jake scenes revising the existing opening-loss chronicle. Identity authority is user attestation plus Flaim connected-account continuity; opponent identity and venue remain unresolved/proposed. |
 | [The Door After the Crown](manuscript/2024-title/THE_DOOR_AFTER_THE_CROWN_NONCANON.md) | 2024 championship; `ESPN1417621-2024-P17-E099` | Four Jake scenes; title obligations become a costly access and patronage decision. |
 | [The Place Left Empty](manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md) | 2025 two semifinals and final; exact event joins in adjacent register | Seven Jake/Austin scenes; certification, preparation, defeat and custody change relationships. |
 | [The Price of an Open Gate](manuscript/2026/THE_PRICE_OF_AN_OPEN_GATE.md) | 2026 after W3, before W4 results; `ESPN1417621-2026-P03-E002`, `ESPN1417621-2026-P03-E005` | Six Ben/Wilson scenes; private choices around damaged roads and the cost of apparent generosity. |
@@ -16,7 +17,7 @@ Read the seven actual revised sequences in [the local draft reader](reader/index
 | [The Line Left Standing](manuscript/2026-week6/THE_LINE_LEFT_STANDING_NONCANON.md) | 2026 W6 Slob/ObiWan; `ESPN1417621-2026-P06-E003` | Five Jordan/Jake scenes; an unpaid promise costs the victor a follower and the loser a useful claim. |
 | [The Water Beneath the Line](manuscript/2026-week6-wetland/THE_WATER_BENEATH_THE_LINE.md) | 2026 W6 Mud Dogs/HMB; exact event join in adjacent register | Five Bobby/Austin scenes; rescue costs evidence and a crossing, without settling mutual distrust. |
 
-[CANDIDATE_EVENT_LINKS.json](CANDIDATE_EVENT_LINKS.json) supplies all exact event IDs, scene headings, line anchors and manuscript digests: **35 distinct scenes associated with ten distinct source events (39 scene-event links)**. These are proposed context/aftermath links, not a claim that ten whole fixtures passed final literary acceptance. Every draft has a source packet and machine scene register. Neither newer draft inherits another unaccepted draft's inventions automatically.
+[CANDIDATE_EVENT_LINKS.json](CANDIDATE_EVENT_LINKS.json) supplies all exact event IDs, scene headings, line anchors and manuscript digests: **38 distinct scenes associated with eleven distinct source events (42 scene-event links)**. These are proposed context/aftermath links, not a claim that eleven whole fixtures passed final literary acceptance. Every draft has a source packet and machine scene register. Neither newer draft inherits another unaccepted draft's inventions automatically.
 
 The current-season source cutoff is **Week 6 final results**, using the repository's October 20 receipt. Week 7 is undecided; no 2026 postseason, champion or completed-season closing movement is invented.
 
@@ -26,7 +27,8 @@ The eleven historical extracts contain 1,117 returned rows: 1,055 observed paire
 
 | Seasons | Observed contests per season | New historical draft scenes in this tranche |
 |---|---:|---:|
-| 2015–2016 | 90 | 0 |
+| 2015 | 90 | 3 scenes / 1 event |
+| 2016 | 90 | 0 |
 | 2017–2020 | 95 | 0 |
 | 2021–2023 | 99 | 0 |
 | 2024 | 99 | 4 scenes / 1 event |
@@ -34,7 +36,7 @@ The eleven historical extracts contain 1,117 returned rows: 1,055 observed paire
 
 Each year has its own JSON ledger, source observations, postseason tiers, title evidence and manuscript candidates. These are observed denominators, not an independent assertion that no external fixtures are missing. The 2015/2016 postseason spans multiweek aggregates; current format was not applied retroactively.
 
-The [132-row historical binding matrix](evidence/HISTORICAL_BINDING_MATRIX_2015_2025.md) records every year/slot separately. All raw human-owner fields remain UNKNOWN. Hard Chapter I and Prologue canon nevertheless support eight event/principal fictional associations across six year/slot rows and four contests: the 2024 final and 2025 semifinals/final. These narrow licenses enabled the two historical sequences; they do not establish whole-year ownership or earlier careers. Historical venue applicability and new civilian continuity remain PROPOSED. The [independent historical ruling](review/HISTORICAL_BINDING_REVIEW.md) supersedes the initial blanket historical hold.
+The [132-row historical binding matrix](evidence/HISTORICAL_BINDING_MATRIX_2015_2025.md) records every year/slot separately. All raw human-owner fields remain UNKNOWN. Hard Chapter I and Prologue canon nevertheless support eight event/principal fictional associations across six year/slot rows and four contests: the 2024 final and 2025 semifinals/final. Separately, the user-attested Jake identity plus [Flaim connected-account continuity](evidence/owner-extraction-audit/FLAIM_CONNECTED_ACCOUNT_CONTINUITY.md) supports the 2015 team-1 candidate only. These narrow licenses do not establish whole-year ownership of every team, earlier careers for opponents or membership transitions. Historical venue applicability and new civilian continuity remain PROPOSED. The [independent historical ruling](review/HISTORICAL_BINDING_REVIEW.md) supersedes the initial blanket historical hold.
 
 Fresh connected-provider reads for every historical year corroborated period structure but supplied no ownership fields. The existing public ESPN adapter and one bounded safe retry failed with `ESPN_TIMEOUT / getaddrinfo EAI_AGAIN`. [Historical unblock check](evidence/HISTORICAL_UNBLOCK_CHECK_2026_10_24.md) records the exact source evidence, limitation and earliest-first resume path. Personal historical scene drafting remains blocked where owner/character/era correspondence is load-bearing. No human-owner history has been invented to clear it. DNS failures are failed reads, not definitive missing-source findings. The earliest unresolved rows are 2015 slots 1–12; the matrix supplies exact later rows and narrow exceptions. Source-backed historical drafting proceeded wherever canon supplied the needed license.
 
@@ -46,7 +48,7 @@ The existing Author Council router/registry selected the full seven published-me
 
 Implemented repairs include duplicated openings, production-policy prose inside fiction, rescuer/target physical staging, stable turning geometry, an unexplained wound and civilian POV leakage. [Independent review](review/INDEPENDENT_REVIEW.md) and the council engagement record exact hashes, observations, revisions and remaining assembly concerns. Several sequences still share a rescue/retelling structure; later book development must diversify conflict and carry the costs forward rather than repeat the same moral pattern.
 
-The existing Novel OS structural gate succeeds on all 24 current and 11 historical actual scene bodies and their event/location joins. This does not establish depth, historical ownership, complete coverage or publication approval. Reader tests and independent static HTML checks pass. Browser rendering was **denied** by managed Chromium policy (`net::ERR_BLOCKED_BY_ADMINISTRATOR`); [the exact receipt](reader/BROWSER_CHECK.json) records the attempted local navigation. No bypass or rendering success is claimed.
+The existing Novel OS structural gate previously succeeded on the 24 current and 11 earlier historical scene bodies. The new three-scene 2015 candidate separately passes its source/contract check; all fourteen historical scenes remain draft material. This does not establish depth, historical ownership, complete coverage or publication approval. Reader tests and independent static HTML checks pass. Browser rendering was **denied** by managed Chromium policy (`net::ERR_BLOCKED_BY_ADMINISTRATOR`); [the exact receipt](reader/BROWSER_CHECK.json) records the attempted local navigation. No bypass or rendering success is claimed.
 
 ## Resume without restarting
 

@@ -2,11 +2,50 @@
   "status": "PROPOSED_NONCANON_LINKS_ONLY",
   "scope": "Actual new scene-to-source links; distinct linked events do not equal accepted or fully dramatized contests.",
   "baseline_passage_audit": "evidence/CURRENT_SEASON_PASSAGE_AUDIT.json",
-  "distinct_linked_event_count": 10,
-  "distinct_scene_count": 35,
-  "scene_link_count": 39,
+  "distinct_linked_event_count": 11,
+  "distinct_scene_count": 38,
+  "scene_link_count": 42,
   "accepted_event_count_claimed": null,
   "events": [
+    {
+      "event_id": "ESPN1417621-2015-P01-E002",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2015-J-01",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-week1/THE_FIRST_DEBT_NONCANON.md",
+          "heading": "## I. The Slate",
+          "line": 5,
+          "manuscript_sha256": "355cbbea10bc7bc2adea028ee18393641b2be6d4506c7804795ff4b20a6db880",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2015 Week 1 result only; no later-season knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-week1/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "2015-J-02",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-week1/THE_FIRST_DEBT_NONCANON.md",
+          "heading": "## II. The Loan",
+          "line": 47,
+          "manuscript_sha256": "355cbbea10bc7bc2adea028ee18393641b2be6d4506c7804795ff4b20a6db880",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2015 Week 1 result only; no later-season knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-week1/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "2015-J-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-week1/THE_FIRST_DEBT_NONCANON.md",
+          "heading": "## III. What Remains Open",
+          "line": 85,
+          "manuscript_sha256": "355cbbea10bc7bc2adea028ee18393641b2be6d4506c7804795ff4b20a6db880",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2015 Week 1 result only; no later-season knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-week1/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
     {
       "event_id": "ESPN1417621-2024-P17-E099",
       "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2024_FULL_WEEKLY_MATCHUPS.json",

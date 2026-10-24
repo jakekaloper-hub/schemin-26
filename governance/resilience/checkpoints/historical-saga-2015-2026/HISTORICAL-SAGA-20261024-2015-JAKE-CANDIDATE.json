@@ -1,0 +1,51 @@
+{
+  "version": "1.0.0",
+  "checkpoint_id": "HISTORICAL-SAGA-20261024-2015-JAKE-CANDIDATE",
+  "project": "schemin-26",
+  "workflow": "historical-saga-2015-2026",
+  "stage": "BOUNDED_2015_JAKE_DRAFT_REVISED_AND_REVIEWED",
+  "owner": "Novel production task",
+  "source_authority": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+  "completed_at": "2026-10-24T05:48:06.405363+00:00",
+  "input_fingerprints": [
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2015_FIXTURE_COVERAGE.json",
+      "digest_algo": "sha256",
+      "digest": "73fb75de749b25ee055a1ebe07c1617fc9dcd921b171b26bb3899efac47feaff"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/owner-extraction-audit/FLAIM_CONNECTED_ACCOUNT_CONTINUITY.md",
+      "digest_algo": "sha256",
+      "digest": "f7746a9765b83dddc5d42d17788799d95971853b9b0bda2624085dafcf3bb219"
+    },
+    {
+      "path": "canon/characters/CHARACTER_REGISTRY.yaml",
+      "digest_algo": "sha256",
+      "digest": "972947f50831b31e0a7e89538da38a907f4dbf8578d2a16e4cc210baeeacfd48"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-week1/THE_FIRST_DEBT_NONCANON.md",
+      "digest_algo": "sha256",
+      "digest": "355cbbea10bc7bc2adea028ee18393641b2be6d4506c7804795ff4b20a6db880"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-week1/SCENE_REGISTER.json",
+      "digest_algo": "sha256",
+      "digest": "8d62c9c3ab7e3fd14c1f4352d04e5c9531d22efb0c16c879339fdadc305adde4"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/2015_JAKE_INDEPENDENT_REVIEW.md",
+      "digest_algo": "sha256",
+      "digest": "17abd7964046a2126794da45d39b10fe8af23863883135b2e85bcc6de18ae466"
+    }
+  ],
+  "evidence": [
+    "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/historical-supplement/2015_CONNECTED_ACCOUNT_ADMISSION.md",
+    "living-novel/production/historical-saga/approved-mission-2015-2026/review/2015_JAKE_CONNECTED_ACCOUNT_CHECK.json"
+  ],
+  "invalidation_triggers": [
+    "Changes to the user-attested identity, Flaim continuity record, source event, scene register or prose require this candidate to be re-reviewed."
+  ]
+}

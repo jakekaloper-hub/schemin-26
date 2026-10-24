@@ -65,9 +65,9 @@ class ReaderTests(unittest.TestCase):
 
     def test_explicit_story_order_and_unknown_lane_rejection(self):
         paths = [Path(folder) / "THE_TEST.md" for folder in
-                 ("2026-week6-wetland", "2024-title", "2026-week6", "2026-week4", "2025-reckoning", "2026", "2026-week5")]
+                 ("2026-week6-wetland", "2024-title", "2026-week6", "2026-week4", "2025-reckoning", "2026", "2026-week5", "2015-jake-week1")]
         self.assertEqual([p.parent.name for p in sorted(paths, key=reader.manuscript_order)],
-                         ["2024-title", "2025-reckoning", "2026", "2026-week4", "2026-week5", "2026-week6", "2026-week6-wetland"])
+                         ["2015-jake-week1", "2024-title", "2025-reckoning", "2026", "2026-week4", "2026-week5", "2026-week6", "2026-week6-wetland"])
         with self.assertRaisesRegex(ValueError, "resolve its cutoff"):
             reader.manuscript_order(Path("2015") / "THE_UNBOUND_PAST.md")
         with self.assertRaisesRegex(ValueError, "resolve its cutoff"):
@@ -90,7 +90,11 @@ class ReaderTests(unittest.TestCase):
         for entry in self.manifest["manuscripts"]:
             if entry["scope"] == "EVENT_SCOPED_HISTORICAL_FICTION":
                 self.assertEqual(entry["raw_human_owner_status"], "UNKNOWN")
-                self.assertEqual(entry["fictional_binding_audit_sha256"], reader.digest(reader.HISTORICAL_BINDING_AUDIT))
+                if "fictional_binding_audit_sha256" in entry:
+                    self.assertEqual(entry["fictional_binding_audit_sha256"], reader.digest(reader.HISTORICAL_BINDING_AUDIT))
+                else:
+                    self.assertEqual(entry["identity_basis"], "USER_ATTESTED_IDENTITY_PLUS_PROVIDER_CONNECTED_ACCOUNT_CONTINUITY")
+                    self.assertEqual(entry["connected_account_audit_sha256"], reader.digest(reader.CONNECTED_ACCOUNT_AUDIT))
 
     def test_local_links_and_coverage_source_resolve(self):
         for target in self.page.links:
