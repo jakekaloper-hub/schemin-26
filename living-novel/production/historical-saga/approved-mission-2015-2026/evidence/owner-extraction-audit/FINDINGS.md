@@ -13,3 +13,9 @@ Required evidence to unblock an affected historical scene: a season-qualified ra
 Earliest unresolved scope remains 2015 slots 1–12. Later unresolved rows and the narrow four-event hard-canon fictional exceptions remain in HISTORICAL_BINDING_MATRIX_2015_2025.json. No new personal historical scene was unblocked by this investigation. The existing 2024/2025 fictional licenses remain valid within their reviewed event limits; no original prose, current drafts or reader was changed. Draft PR creation remains stopped pending new user approval evidence.
 
 Next action: obtain the missing dated raw owner/member join through an authorized accessible source or commissioner record; preserve original payload provenance, then test the parser against that actual fixture before changing extraction or extending prose. No credential introduction, merge, deployment or canonical promotion occurred.
+
+## Flaim follow-up, 2026-10-24
+
+The connected Flaim account supplied a useful, narrower result: it returns team ID `1` as the connected account's historical team in every Pro Schemin' Football League season from 2015 through 2025. The season-qualified labels and the provider abbreviation `Jake` are preserved in [FLAIM_CONNECTED_ACCOUNT_CONTINUITY.md](FLAIM_CONNECTED_ACCOUNT_CONTINUITY.md). This safely distinguishes one continuing participant record from the eleven other slots, including later replacement members.
+
+Flaim did **not** expose a historical human owner name, `primaryOwner`, `owners`, `members`, or its optional draft `teamOwners` map for this league. The new result therefore does not prove an actual provider owner value was dropped, does not identify opponents, and does not license a broad historical cast. It refines the source ladder: a canon-eligible connected-account perspective may be evaluated separately from all other historical principals, while human-name publication and opponent casting still require the dated join described above.
