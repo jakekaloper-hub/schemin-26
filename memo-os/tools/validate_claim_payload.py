@@ -43,6 +43,6 @@ def validate_claim_payload(packet, packet_path):
         if not isinstance(expected,dict) or not expected:
             errors.append(f"claim {cid}: explicit source fields required")
             continue
-        if any(record.get(k)!=v for k,v in expected.items()):
+        if any(k not in record or record[k]!=v for k,v in expected.items()):
             errors.append(f"claim {cid}: published source fields differ from evidence")
     return errors

@@ -45,6 +45,12 @@ class TestSportsClaimBinding(unittest.TestCase):
     def test_mismatched_claim_field_rejected(self):
         self.packet["sports"]["claims"][0]["source_fields"]["status"]="COMPLETED"
         self.assertIn("published source fields differ from evidence",str(self.call()["errors"]))
+    def test_absent_field_cannot_be_claimed_as_verified_null(self):
+        self.packet["sports"]["claims"][0]["source_fields"]={"unreported_result":None}
+        result=self.call()
+        self.assertEqual(result["status"],"BLOCKED")
+        self.assertFalse(result["render_invoked"])
+        self.assertIn("published source fields differ from evidence",str(result["errors"]))
     def test_nonexistent_record_rejected(self):
         self.packet["sports"]["claims"][0]["source_record_id"]="missing"
         self.assertIn("source record missing or ambiguous",str(self.call()["errors"]))
