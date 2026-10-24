@@ -1,0 +1,371 @@
+{
+  "status": "SYNTHETIC_MITIGATION_DIAGNOSTIC_ONLY",
+  "results": [
+    {
+      "variant": "baseline",
+      "radius_cells": 0,
+      "base_network_connected": true,
+      "segment_recovery": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "recovery_status": "EXPERIMENTAL_DETOUR_CANDIDATE",
+          "candidate_detour_extra_m": 0.0,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "recovery_status": "EXPERIMENTAL_DETOUR_CANDIDATE",
+          "candidate_detour_extra_m": 0.0,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "recovery_status": "EXPERIMENTAL_DETOUR_CANDIDATE",
+          "candidate_detour_extra_m": 0.0,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "recovery_status": "EXPERIMENTAL_DETOUR_CANDIDATE",
+          "candidate_detour_extra_m": 0.0,
+          "historical_detour_approved": false
+        }
+      ],
+      "full_network_recovery_certified": false
+    },
+    {
+      "variant": "baseline",
+      "radius_cells": 1,
+      "base_network_connected": true,
+      "segment_recovery": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "recovery_status": "EXPERIMENTAL_DETOUR_CANDIDATE",
+          "candidate_detour_extra_m": 0.0,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "recovery_status": "EXPERIMENTAL_DETOUR_CANDIDATE",
+          "candidate_detour_extra_m": 0.0,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "recovery_status": "EXPERIMENTAL_DETOUR_CANDIDATE",
+          "candidate_detour_extra_m": 0.0,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "recovery_status": "EXPERIMENTAL_DETOUR_CANDIDATE",
+          "candidate_detour_extra_m": 0.0,
+          "historical_detour_approved": false
+        }
+      ],
+      "full_network_recovery_certified": false
+    },
+    {
+      "variant": "baseline",
+      "radius_cells": 2,
+      "base_network_connected": false,
+      "segment_recovery": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "recovery_status": "CROSSING_INFRASTRUCTURE_OR_UNMODELED_ROUTE_REQUIRED",
+          "candidate_detour_extra_m": null,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "recovery_status": "CROSSING_INFRASTRUCTURE_OR_UNMODELED_ROUTE_REQUIRED",
+          "candidate_detour_extra_m": null,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "recovery_status": "EXPERIMENTAL_DETOUR_CANDIDATE",
+          "candidate_detour_extra_m": 0.0,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "recovery_status": "EXPERIMENTAL_DETOUR_CANDIDATE",
+          "candidate_detour_extra_m": 0.0,
+          "historical_detour_approved": false
+        }
+      ],
+      "full_network_recovery_certified": false
+    },
+    {
+      "variant": "west-ridge",
+      "radius_cells": 0,
+      "base_network_connected": true,
+      "segment_recovery": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "recovery_status": "EXPERIMENTAL_DETOUR_CANDIDATE",
+          "candidate_detour_extra_m": 0.0,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "recovery_status": "EXPERIMENTAL_DETOUR_CANDIDATE",
+          "candidate_detour_extra_m": 0.0,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "recovery_status": "EXPERIMENTAL_DETOUR_CANDIDATE",
+          "candidate_detour_extra_m": 0.0,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "recovery_status": "EXPERIMENTAL_DETOUR_CANDIDATE",
+          "candidate_detour_extra_m": 0.0,
+          "historical_detour_approved": false
+        }
+      ],
+      "full_network_recovery_certified": false
+    },
+    {
+      "variant": "west-ridge",
+      "radius_cells": 1,
+      "base_network_connected": true,
+      "segment_recovery": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "recovery_status": "EXPERIMENTAL_DETOUR_CANDIDATE",
+          "candidate_detour_extra_m": 0.0,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "recovery_status": "EXPERIMENTAL_DETOUR_CANDIDATE",
+          "candidate_detour_extra_m": 0.0,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "recovery_status": "EXPERIMENTAL_DETOUR_CANDIDATE",
+          "candidate_detour_extra_m": 29.29,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "recovery_status": "EXPERIMENTAL_DETOUR_CANDIDATE",
+          "candidate_detour_extra_m": 0.0,
+          "historical_detour_approved": false
+        }
+      ],
+      "full_network_recovery_certified": false
+    },
+    {
+      "variant": "west-ridge",
+      "radius_cells": 2,
+      "base_network_connected": false,
+      "segment_recovery": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "recovery_status": "EXPERIMENTAL_DETOUR_CANDIDATE",
+          "candidate_detour_extra_m": 0.0,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "recovery_status": "CROSSING_INFRASTRUCTURE_OR_UNMODELED_ROUTE_REQUIRED",
+          "candidate_detour_extra_m": null,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "recovery_status": "CROSSING_INFRASTRUCTURE_OR_UNMODELED_ROUTE_REQUIRED",
+          "candidate_detour_extra_m": null,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "recovery_status": "CROSSING_INFRASTRUCTURE_OR_UNMODELED_ROUTE_REQUIRED",
+          "candidate_detour_extra_m": null,
+          "historical_detour_approved": false
+        }
+      ],
+      "full_network_recovery_certified": false
+    },
+    {
+      "variant": "central-valley",
+      "radius_cells": 0,
+      "base_network_connected": true,
+      "segment_recovery": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "recovery_status": "EXPERIMENTAL_DETOUR_CANDIDATE",
+          "candidate_detour_extra_m": 0.0,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "recovery_status": "EXPERIMENTAL_DETOUR_CANDIDATE",
+          "candidate_detour_extra_m": 0.0,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "recovery_status": "EXPERIMENTAL_DETOUR_CANDIDATE",
+          "candidate_detour_extra_m": 0.0,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "recovery_status": "EXPERIMENTAL_DETOUR_CANDIDATE",
+          "candidate_detour_extra_m": 0.0,
+          "historical_detour_approved": false
+        }
+      ],
+      "full_network_recovery_certified": false
+    },
+    {
+      "variant": "central-valley",
+      "radius_cells": 1,
+      "base_network_connected": false,
+      "segment_recovery": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "recovery_status": "EXPERIMENTAL_DETOUR_CANDIDATE",
+          "candidate_detour_extra_m": 0.0,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "recovery_status": "CROSSING_INFRASTRUCTURE_OR_UNMODELED_ROUTE_REQUIRED",
+          "candidate_detour_extra_m": null,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "recovery_status": "CROSSING_INFRASTRUCTURE_OR_UNMODELED_ROUTE_REQUIRED",
+          "candidate_detour_extra_m": null,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "recovery_status": "EXPERIMENTAL_DETOUR_CANDIDATE",
+          "candidate_detour_extra_m": 0.0,
+          "historical_detour_approved": false
+        }
+      ],
+      "full_network_recovery_certified": false
+    },
+    {
+      "variant": "central-valley",
+      "radius_cells": 2,
+      "base_network_connected": false,
+      "segment_recovery": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "recovery_status": "EXPERIMENTAL_DETOUR_CANDIDATE",
+          "candidate_detour_extra_m": 0.0,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "recovery_status": "CROSSING_INFRASTRUCTURE_OR_UNMODELED_ROUTE_REQUIRED",
+          "candidate_detour_extra_m": null,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "recovery_status": "CROSSING_INFRASTRUCTURE_OR_UNMODELED_ROUTE_REQUIRED",
+          "candidate_detour_extra_m": null,
+          "historical_detour_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "recovery_status": "CROSSING_INFRASTRUCTURE_OR_UNMODELED_ROUTE_REQUIRED",
+          "candidate_detour_extra_m": null,
+          "historical_detour_approved": false
+        }
+      ],
+      "full_network_recovery_certified": false
+    }
+  ],
+  "acceptance": "HOLD",
+  "limitations": [
+    "NO_SURVEYED_ALTERNATE_ROADS",
+    "NO_VALIDATED_WATERWAY_GEOMETRY",
+    "NO_APPROVED_TRAVEL_TIME"
+  ]
+}

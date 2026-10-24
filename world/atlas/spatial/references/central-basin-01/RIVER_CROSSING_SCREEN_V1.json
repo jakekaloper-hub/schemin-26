@@ -1,0 +1,135 @@
+{
+  "status": "CANDIDATE_CORRIDOR_INTERSECTION_ONLY",
+  "results": [
+    {
+      "variant": "baseline",
+      "segments": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "candidate_channel_contacts": [],
+          "requires_crossing_design": false,
+          "bridge_ford_causeway_type": "NOT_ESTABLISHED",
+          "route_infrastructure_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "candidate_channel_contacts": [],
+          "requires_crossing_design": false,
+          "bridge_ford_causeway_type": "NOT_ESTABLISHED",
+          "route_infrastructure_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "candidate_channel_contacts": [],
+          "requires_crossing_design": false,
+          "bridge_ford_causeway_type": "NOT_ESTABLISHED",
+          "route_infrastructure_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "candidate_channel_contacts": [],
+          "requires_crossing_design": false,
+          "bridge_ford_causeway_type": "NOT_ESTABLISHED",
+          "route_infrastructure_approved": false
+        }
+      ]
+    },
+    {
+      "variant": "west-ridge",
+      "segments": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "candidate_channel_contacts": [],
+          "requires_crossing_design": false,
+          "bridge_ford_causeway_type": "NOT_ESTABLISHED",
+          "route_infrastructure_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "candidate_channel_contacts": [],
+          "requires_crossing_design": false,
+          "bridge_ford_causeway_type": "NOT_ESTABLISHED",
+          "route_infrastructure_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "candidate_channel_contacts": [],
+          "requires_crossing_design": false,
+          "bridge_ford_causeway_type": "NOT_ESTABLISHED",
+          "route_infrastructure_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "candidate_channel_contacts": [],
+          "requires_crossing_design": false,
+          "bridge_ford_causeway_type": "NOT_ESTABLISHED",
+          "route_infrastructure_approved": false
+        }
+      ]
+    },
+    {
+      "variant": "central-valley",
+      "segments": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "candidate_channel_contacts": [],
+          "requires_crossing_design": false,
+          "bridge_ford_causeway_type": "NOT_ESTABLISHED",
+          "route_infrastructure_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "candidate_channel_contacts": [],
+          "requires_crossing_design": false,
+          "bridge_ford_causeway_type": "NOT_ESTABLISHED",
+          "route_infrastructure_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "candidate_channel_contacts": [],
+          "requires_crossing_design": false,
+          "bridge_ford_causeway_type": "NOT_ESTABLISHED",
+          "route_infrastructure_approved": false
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "candidate_channel_contacts": [],
+          "requires_crossing_design": false,
+          "bridge_ford_causeway_type": "NOT_ESTABLISHED",
+          "route_infrastructure_approved": false
+        }
+      ]
+    }
+  ],
+  "acceptance": "HOLD",
+  "limitations": [
+    "RIVER_CHANNELS_SYNTHETIC",
+    "NO_WATERWAY_WIDTH_OR_DESIGN_FLOOD",
+    "STRAIGHT_LINE_ROUTES_NOT_APPROVED_ROADS",
+    "NO_APPROVED_CROSSING_INFRASTRUCTURE"
+  ]
+}

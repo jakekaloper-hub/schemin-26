@@ -1,0 +1,39 @@
+{
+  "authority": "NONCANONICAL_DERIVED_CONSTRAINT",
+  "source": "living-novel/world/PHYSICAL_WORLD.md",
+  "canonical_zone_source": "world/data/physical_zones.json",
+  "coordinates": "NONE",
+  "edges": [
+    {
+      "upstream": "REG-NORTHERN-SPINE",
+      "downstream": "REG-UPPER-VALLEYS",
+      "status": "GEOGRAPHIC_HYPOTHESIS",
+      "distance_m": null
+    },
+    {
+      "upstream": "REG-UPPER-VALLEYS",
+      "downstream": "REG-CENTRAL-BASIN",
+      "status": "GEOGRAPHIC_HYPOTHESIS",
+      "distance_m": null
+    },
+    {
+      "upstream": "REG-CENTRAL-BASIN",
+      "downstream": "REG-SOUTHERN-WETLANDS",
+      "status": "GEOGRAPHIC_HYPOTHESIS",
+      "distance_m": null
+    },
+    {
+      "upstream": "REG-SOUTHERN-WETLANDS",
+      "downstream": "REG-INNER-SEA-LITTORAL",
+      "status": "GEOGRAPHIC_HYPOTHESIS",
+      "distance_m": null
+    }
+  ],
+  "unresolved": [
+    "EASTERN_DIRECT_COASTAL_OUTLETS",
+    "WESTERN_SEASONAL_DRAINAGE",
+    "ACTUAL_RIVER_MOUTHS",
+    "COASTLINE_GEOMETRY"
+  ],
+  "acceptance": "CONSTRAINT_VALIDATION_ONLY"
+}

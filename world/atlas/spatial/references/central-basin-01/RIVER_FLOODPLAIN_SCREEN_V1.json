@@ -1,0 +1,117 @@
+{
+  "status": "NONCANONICAL_COMPARISON",
+  "results": [
+    {
+      "variant": "baseline",
+      "channel_cells": 41,
+      "near_channel_low_cells": 138,
+      "unresolved_flat_interior_cells": 0,
+      "routed_flat_interior_cells": 12,
+      "landmarks": [
+        {
+          "location_id": "LOC-LEAGUE-CHAMBER",
+          "synthetic_near_channel_screen": false,
+          "flood_risk_approved": false
+        },
+        {
+          "location_id": "LOC-LEAGUE-ARCHIVE",
+          "synthetic_near_channel_screen": false,
+          "flood_risk_approved": false
+        },
+        {
+          "location_id": "LOC-PITTSYS-BOOK",
+          "synthetic_near_channel_screen": false,
+          "flood_risk_approved": false
+        },
+        {
+          "location_id": "LOC-DK-MUD-HILL",
+          "synthetic_near_channel_screen": false,
+          "flood_risk_approved": false
+        },
+        {
+          "location_id": "LOC-SOUTHERN-SPEEDWAY",
+          "synthetic_near_channel_screen": false,
+          "flood_risk_approved": false
+        }
+      ],
+      "floodplain_certified": false
+    },
+    {
+      "variant": "west-ridge",
+      "channel_cells": 45,
+      "near_channel_low_cells": 153,
+      "unresolved_flat_interior_cells": 0,
+      "routed_flat_interior_cells": 83,
+      "landmarks": [
+        {
+          "location_id": "LOC-LEAGUE-CHAMBER",
+          "synthetic_near_channel_screen": false,
+          "flood_risk_approved": false
+        },
+        {
+          "location_id": "LOC-LEAGUE-ARCHIVE",
+          "synthetic_near_channel_screen": false,
+          "flood_risk_approved": false
+        },
+        {
+          "location_id": "LOC-PITTSYS-BOOK",
+          "synthetic_near_channel_screen": false,
+          "flood_risk_approved": false
+        },
+        {
+          "location_id": "LOC-DK-MUD-HILL",
+          "synthetic_near_channel_screen": false,
+          "flood_risk_approved": false
+        },
+        {
+          "location_id": "LOC-SOUTHERN-SPEEDWAY",
+          "synthetic_near_channel_screen": false,
+          "flood_risk_approved": false
+        }
+      ],
+      "floodplain_certified": false
+    },
+    {
+      "variant": "central-valley",
+      "channel_cells": 46,
+      "near_channel_low_cells": 167,
+      "unresolved_flat_interior_cells": 0,
+      "routed_flat_interior_cells": 57,
+      "landmarks": [
+        {
+          "location_id": "LOC-LEAGUE-CHAMBER",
+          "synthetic_near_channel_screen": false,
+          "flood_risk_approved": false
+        },
+        {
+          "location_id": "LOC-LEAGUE-ARCHIVE",
+          "synthetic_near_channel_screen": false,
+          "flood_risk_approved": false
+        },
+        {
+          "location_id": "LOC-PITTSYS-BOOK",
+          "synthetic_near_channel_screen": false,
+          "flood_risk_approved": false
+        },
+        {
+          "location_id": "LOC-DK-MUD-HILL",
+          "synthetic_near_channel_screen": false,
+          "flood_risk_approved": false
+        },
+        {
+          "location_id": "LOC-SOUTHERN-SPEEDWAY",
+          "synthetic_near_channel_screen": false,
+          "flood_risk_approved": false
+        }
+      ],
+      "floodplain_certified": false
+    }
+  ],
+  "acceptance": "HOLD",
+  "blocking_evidence": [
+    "UNAPPROVED_RIVER_OUTLETS",
+    "NO_DESIGN_STORM_OR_DISCHARGE",
+    "UNRESOLVED_FILLED_FLATS",
+    "NO_SURVEYED_LANDMARK_ELEVATIONS"
+  ]
+}

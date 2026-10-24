@@ -1,0 +1,165 @@
+{
+  "status": "MIN_CARDINALITY_SYNTHETIC_REPAIR_PORTFOLIOS",
+  "results": [
+    {
+      "variant": "baseline",
+      "corridor_radius_cells": 0,
+      "initial_component_count": 1,
+      "minimum_repairs_for_full_connectivity": 0,
+      "all_minimum_portfolios": [
+        []
+      ],
+      "capital_cost_computed": false,
+      "approved_infrastructure": false
+    },
+    {
+      "variant": "baseline",
+      "corridor_radius_cells": 1,
+      "initial_component_count": 1,
+      "minimum_repairs_for_full_connectivity": 0,
+      "all_minimum_portfolios": [
+        []
+      ],
+      "capital_cost_computed": false,
+      "approved_infrastructure": false
+    },
+    {
+      "variant": "baseline",
+      "corridor_radius_cells": 2,
+      "initial_component_count": 3,
+      "minimum_repairs_for_full_connectivity": 2,
+      "all_minimum_portfolios": [
+        [
+          {
+            "route_id": "ROUTE-ARCHIVE-CHAMBER",
+            "from": "LOC-LEAGUE-ARCHIVE",
+            "to": "LOC-LEAGUE-CHAMBER"
+          },
+          {
+            "route_id": "ROUTE-BASIN-MARKET",
+            "from": "LOC-LEAGUE-CHAMBER",
+            "to": "LOC-DK-MUD-HILL"
+          }
+        ]
+      ],
+      "capital_cost_computed": false,
+      "approved_infrastructure": false
+    },
+    {
+      "variant": "west-ridge",
+      "corridor_radius_cells": 0,
+      "initial_component_count": 1,
+      "minimum_repairs_for_full_connectivity": 0,
+      "all_minimum_portfolios": [
+        []
+      ],
+      "capital_cost_computed": false,
+      "approved_infrastructure": false
+    },
+    {
+      "variant": "west-ridge",
+      "corridor_radius_cells": 1,
+      "initial_component_count": 1,
+      "minimum_repairs_for_full_connectivity": 0,
+      "all_minimum_portfolios": [
+        []
+      ],
+      "capital_cost_computed": false,
+      "approved_infrastructure": false
+    },
+    {
+      "variant": "west-ridge",
+      "corridor_radius_cells": 2,
+      "initial_component_count": 4,
+      "minimum_repairs_for_full_connectivity": 3,
+      "all_minimum_portfolios": [
+        [
+          {
+            "route_id": "ROUTE-BASIN-MARKET",
+            "from": "LOC-LEAGUE-CHAMBER",
+            "to": "LOC-DK-MUD-HILL"
+          },
+          {
+            "route_id": "ROUTE-BASIN-MARKET",
+            "from": "LOC-DK-MUD-HILL",
+            "to": "LOC-SOUTHERN-SPEEDWAY"
+          },
+          {
+            "route_id": "ROUTE-BASIN-MARKET",
+            "from": "LOC-SOUTHERN-SPEEDWAY",
+            "to": "LOC-PITTSYS-BOOK"
+          }
+        ]
+      ],
+      "capital_cost_computed": false,
+      "approved_infrastructure": false
+    },
+    {
+      "variant": "central-valley",
+      "corridor_radius_cells": 0,
+      "initial_component_count": 1,
+      "minimum_repairs_for_full_connectivity": 0,
+      "all_minimum_portfolios": [
+        []
+      ],
+      "capital_cost_computed": false,
+      "approved_infrastructure": false
+    },
+    {
+      "variant": "central-valley",
+      "corridor_radius_cells": 1,
+      "initial_component_count": 3,
+      "minimum_repairs_for_full_connectivity": 2,
+      "all_minimum_portfolios": [
+        [
+          {
+            "route_id": "ROUTE-BASIN-MARKET",
+            "from": "LOC-LEAGUE-CHAMBER",
+            "to": "LOC-DK-MUD-HILL"
+          },
+          {
+            "route_id": "ROUTE-BASIN-MARKET",
+            "from": "LOC-DK-MUD-HILL",
+            "to": "LOC-SOUTHERN-SPEEDWAY"
+          }
+        ]
+      ],
+      "capital_cost_computed": false,
+      "approved_infrastructure": false
+    },
+    {
+      "variant": "central-valley",
+      "corridor_radius_cells": 2,
+      "initial_component_count": 4,
+      "minimum_repairs_for_full_connectivity": 3,
+      "all_minimum_portfolios": [
+        [
+          {
+            "route_id": "ROUTE-BASIN-MARKET",
+            "from": "LOC-LEAGUE-CHAMBER",
+            "to": "LOC-DK-MUD-HILL"
+          },
+          {
+            "route_id": "ROUTE-BASIN-MARKET",
+            "from": "LOC-DK-MUD-HILL",
+            "to": "LOC-SOUTHERN-SPEEDWAY"
+          },
+          {
+            "route_id": "ROUTE-BASIN-MARKET",
+            "from": "LOC-SOUTHERN-SPEEDWAY",
+            "to": "LOC-PITTSYS-BOOK"
+          }
+        ]
+      ],
+      "capital_cost_computed": false,
+      "approved_infrastructure": false
+    }
+  ],
+  "acceptance": "HOLD",
+  "limitations": [
+    "NO_CONSTRUCTION_COSTS",
+    "NO_APPROVED_BRIDGE_LOCATIONS",
+    "NO_VERIFIED_HYDRAULICS",
+    "MINIMUM_EDGE_COUNT_NOT_MINIMUM_INVESTMENT"
+  ]
+}

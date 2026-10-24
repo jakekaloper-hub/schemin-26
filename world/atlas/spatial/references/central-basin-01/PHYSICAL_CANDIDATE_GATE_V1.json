@@ -1,0 +1,180 @@
+{
+  "status": "COMPARISON_ONLY_NO_WINNER",
+  "region": "REG-CENTRAL-BASIN",
+  "results": [
+    {
+      "variant": "baseline",
+      "candidate_sink_count": 4,
+      "candidate_sinks": [
+        [
+          0,
+          7
+        ],
+        [
+          30,
+          7
+        ],
+        [
+          2,
+          25
+        ],
+        [
+          32,
+          25
+        ]
+      ],
+      "drainage_edge_count": 1085,
+      "peak_route_grade_candidate": 0.00619,
+      "landmark_relief": [
+        {
+          "location_id": "LOC-LEAGUE-CHAMBER",
+          "local_relief_m_candidate": 1.8389,
+          "site_certified": false
+        },
+        {
+          "location_id": "LOC-LEAGUE-ARCHIVE",
+          "local_relief_m_candidate": 2.7039,
+          "site_certified": false
+        },
+        {
+          "location_id": "LOC-PITTSYS-BOOK",
+          "local_relief_m_candidate": 2.7095,
+          "site_certified": false
+        },
+        {
+          "location_id": "LOC-DK-MUD-HILL",
+          "local_relief_m_candidate": 0.9514,
+          "site_certified": false
+        },
+        {
+          "location_id": "LOC-SOUTHERN-SPEEDWAY",
+          "local_relief_m_candidate": 1.2651,
+          "site_certified": false
+        }
+      ],
+      "grade_review_flag": false,
+      "hydrology_certified": false,
+      "geometry_approved": false
+    },
+    {
+      "variant": "west-ridge",
+      "candidate_sink_count": 5,
+      "candidate_sinks": [
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          30,
+          7
+        ],
+        [
+          5,
+          24
+        ],
+        [
+          32,
+          25
+        ]
+      ],
+      "drainage_edge_count": 1084,
+      "peak_route_grade_candidate": 0.00496,
+      "landmark_relief": [
+        {
+          "location_id": "LOC-LEAGUE-CHAMBER",
+          "local_relief_m_candidate": 1.0975,
+          "site_certified": false
+        },
+        {
+          "location_id": "LOC-LEAGUE-ARCHIVE",
+          "local_relief_m_candidate": 1.825,
+          "site_certified": false
+        },
+        {
+          "location_id": "LOC-PITTSYS-BOOK",
+          "local_relief_m_candidate": 3.2368,
+          "site_certified": false
+        },
+        {
+          "location_id": "LOC-DK-MUD-HILL",
+          "local_relief_m_candidate": 0.5447,
+          "site_certified": false
+        },
+        {
+          "location_id": "LOC-SOUTHERN-SPEEDWAY",
+          "local_relief_m_candidate": 1.761,
+          "site_certified": false
+        }
+      ],
+      "grade_review_flag": false,
+      "hydrology_certified": false,
+      "geometry_approved": false
+    },
+    {
+      "variant": "central-valley",
+      "candidate_sink_count": 4,
+      "candidate_sinks": [
+        [
+          0,
+          7
+        ],
+        [
+          27,
+          8
+        ],
+        [
+          5,
+          24
+        ],
+        [
+          32,
+          25
+        ]
+      ],
+      "drainage_edge_count": 1085,
+      "peak_route_grade_candidate": 0.00466,
+      "landmark_relief": [
+        {
+          "location_id": "LOC-LEAGUE-CHAMBER",
+          "local_relief_m_candidate": 1.0638,
+          "site_certified": false
+        },
+        {
+          "location_id": "LOC-LEAGUE-ARCHIVE",
+          "local_relief_m_candidate": 1.7472,
+          "site_certified": false
+        },
+        {
+          "location_id": "LOC-PITTSYS-BOOK",
+          "local_relief_m_candidate": 2.5192,
+          "site_certified": false
+        },
+        {
+          "location_id": "LOC-DK-MUD-HILL",
+          "local_relief_m_candidate": 0.5128,
+          "site_certified": false
+        },
+        {
+          "location_id": "LOC-SOUTHERN-SPEEDWAY",
+          "local_relief_m_candidate": 1.5015,
+          "site_certified": false
+        }
+      ],
+      "grade_review_flag": false,
+      "hydrology_certified": false,
+      "geometry_approved": false
+    }
+  ],
+  "acceptance": "HOLD",
+  "blocks": [
+    "NO_OUTLET_BOUNDARY_MODEL",
+    "NO_FLOODPLAIN_MODEL",
+    "NO_SURVEYED_LANDMARK_FOOTPRINTS",
+    "NO_APPROVED_SCALE",
+    "NO_CINEMATIC_GROUND_TRUTH"
+  ]
+}

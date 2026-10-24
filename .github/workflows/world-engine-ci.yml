@@ -56,6 +56,44 @@ jobs:
         run: |
           python -m unittest discover -s world/qa -p "test_civilization*.py" -q
           python world/qa/test_central_basin_pilot.py
+          python -m unittest -v world.qa.test_central_basin_spatial
+          python -m unittest -v world.qa.test_central_basin_spatial_packet
+          python -m unittest -v world.qa.test_central_basin_surface
+          python -m unittest -v world.qa.test_central_basin_landscape
+          python -m unittest -v world.qa.test_central_basin_mesh
+          python -m unittest -v world.qa.test_central_basin_grade
+          python -m unittest -v world.qa.test_central_basin_memo_grounding
+          python -m unittest -v world.qa.test_central_basin_historical_constraints
+          python -m unittest -v world.qa.test_central_basin_candidate_comparison
+          python -m unittest -v world.qa.test_central_basin_physical_gate
+          python -m unittest -v world.qa.test_central_basin_watershed_audit
+          python -m unittest -v world.qa.test_central_basin_outlet_gate
+          python -m unittest -v world.qa.test_central_basin_boundary_contract
+          python -m unittest -v world.qa.test_central_basin_river_floodplain
+          python -m unittest -v world.qa.test_continental_constraint_gate
+          python -m unittest -v world.qa.test_continental_basin_coupling
+          python -m unittest -v world.qa.test_continental_boundary_policy
+          python -m unittest -v world.qa.test_central_basin_evidence_closure
+          python -m unittest -v world.qa.test_central_basin_cinematic_scene_proof
+          python -m unittest -v world.qa.test_central_basin_scene_svg_render
+          python -m unittest -v world.qa.test_central_basin_camera_projection_audit
+          python -m unittest -v world.qa.test_central_basin_terrain_occlusion
+          python -m unittest -v world.qa.test_central_basin_mesh_visibility
+          python -m unittest -v world.qa.test_central_basin_landmark_surface_reconciliation
+          python -m unittest -v world.qa.test_central_basin_site_access
+          python -m unittest -v world.qa.test_central_basin_river_crossing
+          python -m unittest -v world.qa.test_central_basin_crossing_sensitivity
+          python -m unittest -v world.qa.test_central_basin_route_alignment
+          python -m unittest -v world.qa.test_central_basin_wide_corridor_routes
+          python -m unittest -v world.qa.test_central_basin_crossing_infrastructure
+          python -m unittest -v world.qa.test_central_basin_seasonal_crossing
+          python -m unittest -v world.qa.test_central_basin_seasonal_network
+          python -m unittest -v world.qa.test_central_basin_network_recovery
+          python -m unittest -v world.qa.test_central_basin_infrastructure_priority
+          python -m unittest -v world.qa.test_central_basin_crossing_portfolio
+          python -m unittest -v world.qa.test_central_basin_crossing_robust_portfolio
+          python -m unittest -v world.qa.test_central_basin_network_redundancy
+          python -m unittest -v world.qa.test_central_basin_backup_link_feasibility
           python world/location-control-plane/qa/test_location_control_plane.py
       - name: Run One World Model anti-fork contract
         run: python world/qa/test_one_world_model_contract.py

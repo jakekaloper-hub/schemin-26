@@ -1,0 +1,1 @@
+Noncanonical experimental heightfield, OBJ geometry and source-backed historical constraint manifest. The terrain does not position landmarks or certify watersheds. No illustrative map is a spatial authority.

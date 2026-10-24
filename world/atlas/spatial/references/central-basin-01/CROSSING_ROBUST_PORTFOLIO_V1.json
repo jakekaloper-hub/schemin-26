@@ -1,0 +1,38 @@
+{
+  "status": "SYNTHETIC_CROSS_SCENARIO_ROBUST_PORTFOLIO",
+  "scenario_count": 27,
+  "edge_count": 4,
+  "minimum_permanent_repair_count": 4,
+  "minimum_portfolios": [
+    [
+      {
+        "route_id": "ROUTE-ARCHIVE-CHAMBER",
+        "from": "LOC-LEAGUE-ARCHIVE",
+        "to": "LOC-LEAGUE-CHAMBER"
+      },
+      {
+        "route_id": "ROUTE-BASIN-MARKET",
+        "from": "LOC-DK-MUD-HILL",
+        "to": "LOC-SOUTHERN-SPEEDWAY"
+      },
+      {
+        "route_id": "ROUTE-BASIN-MARKET",
+        "from": "LOC-LEAGUE-CHAMBER",
+        "to": "LOC-DK-MUD-HILL"
+      },
+      {
+        "route_id": "ROUTE-BASIN-MARKET",
+        "from": "LOC-SOUTHERN-SPEEDWAY",
+        "to": "LOC-PITTSYS-BOOK"
+      }
+    ]
+  ],
+  "approved_investments": false,
+  "acceptance": "HOLD",
+  "limitations": [
+    "REPAIR_COSTS_UNKNOWN",
+    "NO_APPROVED_BRIDGES",
+    "SEASONAL_CLOSURES_HYPOTHETICAL",
+    "NO_INDEPENDENT_GEOGRAPHIC_APPROVAL"
+  ]
+}

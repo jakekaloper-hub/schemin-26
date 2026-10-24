@@ -1,0 +1,106 @@
+{
+  "status": "COMPARATIVE_SYNTHETIC_CANDIDATES",
+  "constraints_status": "EVIDENCE_CONSTRAINED_CANDIDATE_NOT_CANON",
+  "note": "No generated heightfield is historical evidence or hydrologically certified",
+  "variants": [
+    {
+      "variant": "baseline",
+      "min_elevation": 9.2494,
+      "max_elevation": 23.576,
+      "candidate_segments": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "candidate_max_grade": 0.00619
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "candidate_max_grade": 0.00434
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "candidate_max_grade": 0.00603
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "candidate_max_grade": 0.00452
+        }
+      ],
+      "historical_ids_preserved": true,
+      "coordinate_approval": false
+    },
+    {
+      "variant": "west-ridge",
+      "min_elevation": 9.2845,
+      "max_elevation": 26.0431,
+      "candidate_segments": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "candidate_max_grade": 0.00283
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "candidate_max_grade": 0.00496
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "candidate_max_grade": 0.0038
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "candidate_max_grade": 0.00414
+        }
+      ],
+      "historical_ids_preserved": true,
+      "coordinate_approval": false
+    },
+    {
+      "variant": "central-valley",
+      "min_elevation": 8.8412,
+      "max_elevation": 18.576,
+      "candidate_segments": [
+        {
+          "route_id": "ROUTE-ARCHIVE-CHAMBER",
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "candidate_max_grade": 0.00422
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-DK-MUD-HILL",
+          "candidate_max_grade": 0.00466
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-SOUTHERN-SPEEDWAY",
+          "candidate_max_grade": 0.00226
+        },
+        {
+          "route_id": "ROUTE-BASIN-MARKET",
+          "from": "LOC-SOUTHERN-SPEEDWAY",
+          "to": "LOC-PITTSYS-BOOK",
+          "candidate_max_grade": 0.00369
+        }
+      ],
+      "historical_ids_preserved": true,
+      "coordinate_approval": false
+    }
+  ]
+}

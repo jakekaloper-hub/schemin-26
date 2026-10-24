@@ -1,0 +1,584 @@
+{
+  "status": "SYNTHETIC_NETWORK_RESILIENCE_ONLY",
+  "results": [
+    {
+      "variant": "baseline",
+      "radius_cells": 0,
+      "season": "DRY",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 4,
+      "closed_edges_hypothesis": 0,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL",
+          "LOC-LEAGUE-ARCHIVE",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-PITTSYS-BOOK",
+          "LOC-SOUTHERN-SPEEDWAY"
+        ]
+      ],
+      "isolated_landmarks": [],
+      "all_landmarks_connected": true,
+      "verified_real_closure": false
+    },
+    {
+      "variant": "baseline",
+      "radius_cells": 0,
+      "season": "WET",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 4,
+      "closed_edges_hypothesis": 0,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL",
+          "LOC-LEAGUE-ARCHIVE",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-PITTSYS-BOOK",
+          "LOC-SOUTHERN-SPEEDWAY"
+        ]
+      ],
+      "isolated_landmarks": [],
+      "all_landmarks_connected": true,
+      "verified_real_closure": false
+    },
+    {
+      "variant": "baseline",
+      "radius_cells": 0,
+      "season": "HIGH_WATER",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 4,
+      "closed_edges_hypothesis": 0,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL",
+          "LOC-LEAGUE-ARCHIVE",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-PITTSYS-BOOK",
+          "LOC-SOUTHERN-SPEEDWAY"
+        ]
+      ],
+      "isolated_landmarks": [],
+      "all_landmarks_connected": true,
+      "verified_real_closure": false
+    },
+    {
+      "variant": "baseline",
+      "radius_cells": 1,
+      "season": "DRY",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 4,
+      "closed_edges_hypothesis": 0,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL",
+          "LOC-LEAGUE-ARCHIVE",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-PITTSYS-BOOK",
+          "LOC-SOUTHERN-SPEEDWAY"
+        ]
+      ],
+      "isolated_landmarks": [],
+      "all_landmarks_connected": true,
+      "verified_real_closure": false
+    },
+    {
+      "variant": "baseline",
+      "radius_cells": 1,
+      "season": "WET",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 4,
+      "closed_edges_hypothesis": 0,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL",
+          "LOC-LEAGUE-ARCHIVE",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-PITTSYS-BOOK",
+          "LOC-SOUTHERN-SPEEDWAY"
+        ]
+      ],
+      "isolated_landmarks": [],
+      "all_landmarks_connected": true,
+      "verified_real_closure": false
+    },
+    {
+      "variant": "baseline",
+      "radius_cells": 1,
+      "season": "HIGH_WATER",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 4,
+      "closed_edges_hypothesis": 0,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL",
+          "LOC-LEAGUE-ARCHIVE",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-PITTSYS-BOOK",
+          "LOC-SOUTHERN-SPEEDWAY"
+        ]
+      ],
+      "isolated_landmarks": [],
+      "all_landmarks_connected": true,
+      "verified_real_closure": false
+    },
+    {
+      "variant": "baseline",
+      "radius_cells": 2,
+      "season": "DRY",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 4,
+      "closed_edges_hypothesis": 0,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL",
+          "LOC-LEAGUE-ARCHIVE",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-PITTSYS-BOOK",
+          "LOC-SOUTHERN-SPEEDWAY"
+        ]
+      ],
+      "isolated_landmarks": [],
+      "all_landmarks_connected": true,
+      "verified_real_closure": false
+    },
+    {
+      "variant": "baseline",
+      "radius_cells": 2,
+      "season": "WET",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 4,
+      "closed_edges_hypothesis": 0,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL",
+          "LOC-LEAGUE-ARCHIVE",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-PITTSYS-BOOK",
+          "LOC-SOUTHERN-SPEEDWAY"
+        ]
+      ],
+      "isolated_landmarks": [],
+      "all_landmarks_connected": true,
+      "verified_real_closure": false
+    },
+    {
+      "variant": "baseline",
+      "radius_cells": 2,
+      "season": "HIGH_WATER",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 2,
+      "closed_edges_hypothesis": 2,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL",
+          "LOC-PITTSYS-BOOK",
+          "LOC-SOUTHERN-SPEEDWAY"
+        ],
+        [
+          "LOC-LEAGUE-ARCHIVE"
+        ],
+        [
+          "LOC-LEAGUE-CHAMBER"
+        ]
+      ],
+      "isolated_landmarks": [
+        "LOC-LEAGUE-ARCHIVE",
+        "LOC-LEAGUE-CHAMBER"
+      ],
+      "all_landmarks_connected": false,
+      "verified_real_closure": false
+    },
+    {
+      "variant": "west-ridge",
+      "radius_cells": 0,
+      "season": "DRY",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 4,
+      "closed_edges_hypothesis": 0,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL",
+          "LOC-LEAGUE-ARCHIVE",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-PITTSYS-BOOK",
+          "LOC-SOUTHERN-SPEEDWAY"
+        ]
+      ],
+      "isolated_landmarks": [],
+      "all_landmarks_connected": true,
+      "verified_real_closure": false
+    },
+    {
+      "variant": "west-ridge",
+      "radius_cells": 0,
+      "season": "WET",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 4,
+      "closed_edges_hypothesis": 0,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL",
+          "LOC-LEAGUE-ARCHIVE",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-PITTSYS-BOOK",
+          "LOC-SOUTHERN-SPEEDWAY"
+        ]
+      ],
+      "isolated_landmarks": [],
+      "all_landmarks_connected": true,
+      "verified_real_closure": false
+    },
+    {
+      "variant": "west-ridge",
+      "radius_cells": 0,
+      "season": "HIGH_WATER",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 4,
+      "closed_edges_hypothesis": 0,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL",
+          "LOC-LEAGUE-ARCHIVE",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-PITTSYS-BOOK",
+          "LOC-SOUTHERN-SPEEDWAY"
+        ]
+      ],
+      "isolated_landmarks": [],
+      "all_landmarks_connected": true,
+      "verified_real_closure": false
+    },
+    {
+      "variant": "west-ridge",
+      "radius_cells": 1,
+      "season": "DRY",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 4,
+      "closed_edges_hypothesis": 0,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL",
+          "LOC-LEAGUE-ARCHIVE",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-PITTSYS-BOOK",
+          "LOC-SOUTHERN-SPEEDWAY"
+        ]
+      ],
+      "isolated_landmarks": [],
+      "all_landmarks_connected": true,
+      "verified_real_closure": false
+    },
+    {
+      "variant": "west-ridge",
+      "radius_cells": 1,
+      "season": "WET",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 4,
+      "closed_edges_hypothesis": 0,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL",
+          "LOC-LEAGUE-ARCHIVE",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-PITTSYS-BOOK",
+          "LOC-SOUTHERN-SPEEDWAY"
+        ]
+      ],
+      "isolated_landmarks": [],
+      "all_landmarks_connected": true,
+      "verified_real_closure": false
+    },
+    {
+      "variant": "west-ridge",
+      "radius_cells": 1,
+      "season": "HIGH_WATER",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 4,
+      "closed_edges_hypothesis": 0,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL",
+          "LOC-LEAGUE-ARCHIVE",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-PITTSYS-BOOK",
+          "LOC-SOUTHERN-SPEEDWAY"
+        ]
+      ],
+      "isolated_landmarks": [],
+      "all_landmarks_connected": true,
+      "verified_real_closure": false
+    },
+    {
+      "variant": "west-ridge",
+      "radius_cells": 2,
+      "season": "DRY",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 4,
+      "closed_edges_hypothesis": 0,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL",
+          "LOC-LEAGUE-ARCHIVE",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-PITTSYS-BOOK",
+          "LOC-SOUTHERN-SPEEDWAY"
+        ]
+      ],
+      "isolated_landmarks": [],
+      "all_landmarks_connected": true,
+      "verified_real_closure": false
+    },
+    {
+      "variant": "west-ridge",
+      "radius_cells": 2,
+      "season": "WET",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 4,
+      "closed_edges_hypothesis": 0,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL",
+          "LOC-LEAGUE-ARCHIVE",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-PITTSYS-BOOK",
+          "LOC-SOUTHERN-SPEEDWAY"
+        ]
+      ],
+      "isolated_landmarks": [],
+      "all_landmarks_connected": true,
+      "verified_real_closure": false
+    },
+    {
+      "variant": "west-ridge",
+      "radius_cells": 2,
+      "season": "HIGH_WATER",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 1,
+      "closed_edges_hypothesis": 3,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL"
+        ],
+        [
+          "LOC-LEAGUE-ARCHIVE",
+          "LOC-LEAGUE-CHAMBER"
+        ],
+        [
+          "LOC-PITTSYS-BOOK"
+        ],
+        [
+          "LOC-SOUTHERN-SPEEDWAY"
+        ]
+      ],
+      "isolated_landmarks": [
+        "LOC-DK-MUD-HILL",
+        "LOC-PITTSYS-BOOK",
+        "LOC-SOUTHERN-SPEEDWAY"
+      ],
+      "all_landmarks_connected": false,
+      "verified_real_closure": false
+    },
+    {
+      "variant": "central-valley",
+      "radius_cells": 0,
+      "season": "DRY",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 4,
+      "closed_edges_hypothesis": 0,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL",
+          "LOC-LEAGUE-ARCHIVE",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-PITTSYS-BOOK",
+          "LOC-SOUTHERN-SPEEDWAY"
+        ]
+      ],
+      "isolated_landmarks": [],
+      "all_landmarks_connected": true,
+      "verified_real_closure": false
+    },
+    {
+      "variant": "central-valley",
+      "radius_cells": 0,
+      "season": "WET",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 4,
+      "closed_edges_hypothesis": 0,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL",
+          "LOC-LEAGUE-ARCHIVE",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-PITTSYS-BOOK",
+          "LOC-SOUTHERN-SPEEDWAY"
+        ]
+      ],
+      "isolated_landmarks": [],
+      "all_landmarks_connected": true,
+      "verified_real_closure": false
+    },
+    {
+      "variant": "central-valley",
+      "radius_cells": 0,
+      "season": "HIGH_WATER",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 4,
+      "closed_edges_hypothesis": 0,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL",
+          "LOC-LEAGUE-ARCHIVE",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-PITTSYS-BOOK",
+          "LOC-SOUTHERN-SPEEDWAY"
+        ]
+      ],
+      "isolated_landmarks": [],
+      "all_landmarks_connected": true,
+      "verified_real_closure": false
+    },
+    {
+      "variant": "central-valley",
+      "radius_cells": 1,
+      "season": "DRY",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 4,
+      "closed_edges_hypothesis": 0,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL",
+          "LOC-LEAGUE-ARCHIVE",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-PITTSYS-BOOK",
+          "LOC-SOUTHERN-SPEEDWAY"
+        ]
+      ],
+      "isolated_landmarks": [],
+      "all_landmarks_connected": true,
+      "verified_real_closure": false
+    },
+    {
+      "variant": "central-valley",
+      "radius_cells": 1,
+      "season": "WET",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 4,
+      "closed_edges_hypothesis": 0,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL",
+          "LOC-LEAGUE-ARCHIVE",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-PITTSYS-BOOK",
+          "LOC-SOUTHERN-SPEEDWAY"
+        ]
+      ],
+      "isolated_landmarks": [],
+      "all_landmarks_connected": true,
+      "verified_real_closure": false
+    },
+    {
+      "variant": "central-valley",
+      "radius_cells": 1,
+      "season": "HIGH_WATER",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 2,
+      "closed_edges_hypothesis": 2,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL"
+        ],
+        [
+          "LOC-LEAGUE-ARCHIVE",
+          "LOC-LEAGUE-CHAMBER"
+        ],
+        [
+          "LOC-PITTSYS-BOOK",
+          "LOC-SOUTHERN-SPEEDWAY"
+        ]
+      ],
+      "isolated_landmarks": [
+        "LOC-DK-MUD-HILL"
+      ],
+      "all_landmarks_connected": false,
+      "verified_real_closure": false
+    },
+    {
+      "variant": "central-valley",
+      "radius_cells": 2,
+      "season": "DRY",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 4,
+      "closed_edges_hypothesis": 0,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL",
+          "LOC-LEAGUE-ARCHIVE",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-PITTSYS-BOOK",
+          "LOC-SOUTHERN-SPEEDWAY"
+        ]
+      ],
+      "isolated_landmarks": [],
+      "all_landmarks_connected": true,
+      "verified_real_closure": false
+    },
+    {
+      "variant": "central-valley",
+      "radius_cells": 2,
+      "season": "WET",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 4,
+      "closed_edges_hypothesis": 0,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL",
+          "LOC-LEAGUE-ARCHIVE",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-PITTSYS-BOOK",
+          "LOC-SOUTHERN-SPEEDWAY"
+        ]
+      ],
+      "isolated_landmarks": [],
+      "all_landmarks_connected": true,
+      "verified_real_closure": false
+    },
+    {
+      "variant": "central-valley",
+      "radius_cells": 2,
+      "season": "HIGH_WATER",
+      "base_route_edges": 4,
+      "passable_edges_hypothesis": 1,
+      "closed_edges_hypothesis": 3,
+      "connected_components": [
+        [
+          "LOC-DK-MUD-HILL"
+        ],
+        [
+          "LOC-LEAGUE-ARCHIVE",
+          "LOC-LEAGUE-CHAMBER"
+        ],
+        [
+          "LOC-PITTSYS-BOOK"
+        ],
+        [
+          "LOC-SOUTHERN-SPEEDWAY"
+        ]
+      ],
+      "isolated_landmarks": [
+        "LOC-DK-MUD-HILL",
+        "LOC-PITTSYS-BOOK",
+        "LOC-SOUTHERN-SPEEDWAY"
+      ],
+      "all_landmarks_connected": false,
+      "verified_real_closure": false
+    }
+  ],
+  "acceptance": "HOLD",
+  "limitations": [
+    "NO_AUTHORIZED_SEASONAL_ROAD_CLOSURES",
+    "NO_VERIFIED_ALTERNATE_ROADS",
+    "DETOUR_TIME_NOT_ESTABLISHED"
+  ]
+}

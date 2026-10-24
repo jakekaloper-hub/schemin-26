@@ -1,0 +1,27 @@
+{
+  "status": "SYNTHETIC_GRAPH_REDUNDANCY_ONLY",
+  "existing_edge_count": 4,
+  "candidate_new_link_count": 6,
+  "minimum_added_links": 1,
+  "minimum_topological_solutions": [
+    {
+      "proposed_links": [
+        {
+          "from": "LOC-LEAGUE-ARCHIVE",
+          "to": "LOC-PITTSYS-BOOK",
+          "synthetic_straight_distance_m": 559.017,
+          "engineering_feasible": false,
+          "approved_route": false
+        }
+      ],
+      "survives_any_one_edge_failure": true
+    }
+  ],
+  "acceptance": "HOLD",
+  "limitations": [
+    "NO_TERRAIN_ROUTE_SURVEY",
+    "NO_SEASONAL_COFAILURE_MODEL",
+    "NO_APPROVED_NEW_ROAD",
+    "GRAPH_OPTIMAL_NOT_FINANCIALLY_OPTIMAL"
+  ]
+}

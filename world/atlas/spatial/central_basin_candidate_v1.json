@@ -1,0 +1,117 @@
+{
+  "schema_version": "0.1-candidate",
+  "status": "DERIVED_SYNTHETIC_NOT_CANON",
+  "coordinate_reference": {
+    "id": "schemin-local-metric-candidate-v1",
+    "units": "meters",
+    "x": "east",
+    "y": "north",
+    "z": "up",
+    "origin": "arbitrary local pilot origin",
+    "real_distance_claim": false
+  },
+  "region_id": "REG-CENTRAL-BASIN",
+  "anchors": [
+    {
+      "location_id": "LOC-LEAGUE-CHAMBER",
+      "xy": [
+        500,
+        500
+      ],
+      "z": 25
+    },
+    {
+      "location_id": "LOC-LEAGUE-ARCHIVE",
+      "xy": [
+        350,
+        550
+      ],
+      "z": 26
+    },
+    {
+      "location_id": "LOC-PITTSYS-BOOK",
+      "xy": [
+        850,
+        300
+      ],
+      "z": 18
+    }
+  ],
+  "route_intermediates": [
+    {
+      "location_id": "LOC-DK-MUD-HILL",
+      "xy": [
+        630,
+        440
+      ],
+      "z": 24
+    },
+    {
+      "location_id": "LOC-SOUTHERN-SPEEDWAY",
+      "xy": [
+        730,
+        370
+      ],
+      "z": 20
+    }
+  ],
+  "paths": [
+    {
+      "route_id": "ROUTE-ARCHIVE-CHAMBER",
+      "locations": [
+        "LOC-LEAGUE-ARCHIVE",
+        "LOC-LEAGUE-CHAMBER"
+      ]
+    },
+    {
+      "route_id": "ROUTE-BASIN-MARKET",
+      "locations": [
+        "LOC-LEAGUE-CHAMBER",
+        "LOC-DK-MUD-HILL",
+        "LOC-SOUTHERN-SPEEDWAY",
+        "LOC-PITTSYS-BOOK"
+      ]
+    }
+  ],
+  "synthetic_drainage": [
+    {
+      "id": "TEST-HEADWATER",
+      "xy": [
+        400,
+        700
+      ],
+      "z": 90,
+      "downstream": "TEST-MID"
+    },
+    {
+      "id": "TEST-MID",
+      "xy": [
+        560,
+        450
+      ],
+      "z": 35,
+      "downstream": "TEST-OUTLET"
+    },
+    {
+      "id": "TEST-OUTLET",
+      "xy": [
+        760,
+        150
+      ],
+      "z": 5,
+      "downstream": null
+    }
+  ],
+  "scenarios": [
+    {
+      "date": "2026-10-21",
+      "season": "autumn",
+      "model_tag": "HYPOTHETICAL"
+    },
+    {
+      "date": "2026-12-21",
+      "season": "winter",
+      "model_tag": "HYPOTHETICAL"
+    }
+  ]
+}
