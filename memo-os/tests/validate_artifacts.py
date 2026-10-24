@@ -36,9 +36,20 @@ def inspect(manifest, manifest_path):
             errors.append(f"{label}: file missing: {value}")
             return None
         return path
-    pdf = checked_path(manifest.get("pdf_path"), "PDF")
     pages = manifest.get("pages", [])
     expected = manifest.get("expected_pages")
+    stage = manifest.get("artifact_stage", "ISSUE_PACKAGE")
+    if stage not in ("PAGE_PRODUCTION", "ISSUE_PACKAGE"):
+        return ["unknown artifact stage"]
+    # PNG page masters are primary; PDF is final distribution packaging only.
+    if stage == "PAGE_PRODUCTION" and (manifest.get("pdf_path") or manifest.get("published_artifact_sha256")):
+        errors.append("page production cannot claim PDF issue assembly")
+    if stage == "ISSUE_PACKAGE":
+        if not isinstance(pages, list) or len(pages) < 2:
+            errors.append("issue package requires multiple accepted PNG masters")
+        if any(p.get("status") != "ACCEPTED" for p in pages):
+            errors.append("issue package requires accepted PNG masters")
+    pdf = checked_path(manifest.get("pdf_path"), "PDF") if stage == "ISSUE_PACKAGE" else None
     if pdf:
         if sha256(pdf) != manifest.get("published_artifact_sha256"):
             errors.append("PDF: actual SHA256 differs from manifest")
@@ -66,8 +77,71 @@ def inspect(manifest, manifest_path):
                 document.close()
             except Exception:
                 pass
+    # Verify the PDF contains the same accepted PNG pixel content, in order.
+    # This checks the derivative distribution package, not page-level approval.
+    if pdf and stage == "ISSUE_PACKAGE" and isinstance(pages, list):
+        try:
+            with fitz.open(pdf) as assembled:
+                if assembled.page_count == len(pages):
+                    for index, entry in enumerate(pages):
+                        asset = checked_path(entry.get("asset_path"), f"page {index+1} comparison master")
+                        if asset is None:
+                            continue
+                        with Image.open(asset) as master:
+                            expected_rgb = master.convert("RGB")
+                        sheet = assembled[index]
+                        # Embedded-image identity alone misses overlays, clipping,
+                        # rotation and displaced placement in the final PDF.
+                        ratio = expected_rgb.width / expected_rgb.height
+                        if sheet.rotation != 0 or abs(sheet.rect.width / sheet.rect.height - ratio) > 1e-6:
+                            errors.append(f"PDF page {index+1}: page geometry differs from PNG master")
+                        else:
+                            rendered = sheet.get_pixmap(matrix=fitz.Matrix(
+                                expected_rgb.width / sheet.rect.width,
+                                expected_rgb.height / sheet.rect.height),
+                                colorspace=fitz.csRGB, alpha=False, annots=True)
+                            if (rendered.width, rendered.height) != expected_rgb.size or rendered.samples != expected_rgb.tobytes():
+                                errors.append(f"PDF page {index+1}: rendered pixels differ from accepted PNG master")
+                        images = sheet.get_images(full=True)
+                        if len(images) != 1:
+                            errors.append(f"PDF page {index+1}: expected exactly one embedded PNG master, got {len(images)} images")
+                            continue
+                        xref = images[0][0]
+                        extracted = assembled.extract_image(xref)
+                        import io
+                        with Image.open(io.BytesIO(extracted["image"])) as embedded:
+                            embedded_rgb = embedded.convert("RGB")
+                        if embedded_rgb.size != expected_rgb.size or embedded_rgb.tobytes() != expected_rgb.tobytes():
+                            errors.append(f"PDF page {index+1}: embedded pixels differ from accepted PNG master or page order")
+                else:
+                    errors.append("PDF: cannot compare accepted PNG masters against mismatched page count")
+        except Exception as exc:
+            errors.append(f"PDF: master comparison failed: {exc}")
+    # Editorial receipts verify source/output integrity, not visual approval.
+    for page in pages:
+        if "editorial_receipt_path" not in page:
+            continue
+        slot = page.get("slot")
+        rp = checked_path(page["editorial_receipt_path"], f"page {slot} editorial receipt")
+        if rp is None:
+            continue
+        try:
+            receipt = json.loads(rp.read_text(encoding="utf-8"))
+        except (OSError, ValueError) as exc:
+            errors.append(f"page {slot}: invalid editorial receipt: {exc}")
+            continue
+        asset = checked_path(page.get("asset_path"), f"page {slot} editorial output")
+        spec = checked_path(page.get("editorial_spec_path"), f"page {slot} editorial spec")
+        if asset and receipt.get("output_sha256") != sha256(asset):
+            errors.append(f"page {slot}: editorial output hash mismatch")
+        if spec and receipt.get("spec_sha256") != sha256(spec):
+            errors.append(f"page {slot}: editorial source spec hash mismatch")
+        if receipt.get("status") != "CANDIDATE_NOT_APPROVED" or receipt.get("visual_text_independently_verified") is not False:
+            errors.append(f"page {slot}: invalid compositor acceptance claim")
     for page in pages:
         slot = page.get("slot")
+        if not str(page.get("asset_path", "")).lower().endswith(".png"):
+            errors.append(f"page {slot}: PNG master required")
         path = checked_path(page.get("asset_path"), f"page {slot}")
         if not path:
             continue
@@ -149,7 +223,15 @@ def main():
     from validate_evidence import validate_evidence
     from validate_character_provenance import validate_character_provenance
     errors = validate(manifest) + inspect(manifest, args.manifest) + validate_evidence(manifest, Path(args.manifest).resolve().parent) + inspect_creative_dna(manifest, args.manifest) + validate_character_provenance(manifest, Path(args.manifest).resolve().parent)
-    print(json.dumps({"status": "FAIL" if errors else "PASS", "errors": errors}, indent=2))
+    # Observe final distribution pixels, not merely the embedded PNG payload.
+    # Existing non-editorial packages retain explicit NOT_RUN coverage gaps.
+    import sys
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
+    from inspect_pdf_copy import inspect_pdf_copy
+    pdf_copy = inspect_pdf_copy(manifest, args.manifest)
+    errors.extend(pdf_copy["errors"])
+    print(json.dumps({"status": "FAIL" if errors else "PASS", "errors": errors,
+                      "pdf_copy_diagnostics": pdf_copy}, indent=2))
     return bool(errors)
 
 if __name__ == "__main__":

@@ -16,16 +16,19 @@ class RealArtifactGate(unittest.TestCase):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
-        png = self.root / "page1.png"
-        Image.new("RGB", (1080, 1920), (32, 44, 62)).save(png)
-        pdf = self.root / "memo.pdf"
+        masters = []
         doc = fitz.open()
-        page = doc.new_page(width=540,height=960)
-        page.insert_text((30,40), "Page 1")
+        for n, color in [(1, (32, 44, 62)), (2, (62, 44, 32))]:
+            png = self.root / f"page{n}.png"
+            Image.new("RGB", (1024, 1536), color).save(png)
+            page = doc.new_page(width=512, height=768)
+            page.insert_image(page.rect, filename=str(png))
+            masters.append({"slot":n,"status":"ACCEPTED","asset_path":png.name,"asset_sha256":digest(png)})
+        pdf = self.root / "memo.pdf"
         doc.save(pdf)
         doc.close()
-        self.data = {"expected_pages":1,"pdf_path":"memo.pdf","published_artifact_sha256":digest(pdf),
-            "pages":[{"slot":1,"asset_path":"page1.png","asset_sha256":digest(png)}]}
+        self.data = {"artifact_stage":"ISSUE_PACKAGE","expected_pages":2,"pdf_path":"memo.pdf",
+            "published_artifact_sha256":digest(pdf),"pages":masters}
 
     def test_valid_artifacts(self): self.assertEqual(inspect(self.data,self.root/"issue.json"),[])
     def test_wrong_pdf_checksum(self):
@@ -38,7 +41,7 @@ class RealArtifactGate(unittest.TestCase):
         d=copy.deepcopy(self.data);d["pages"][0]["asset_sha256"]="f"*64
         self.assertTrue(any("hash mismatch" in s for s in inspect(d,self.root/"issue.json")))
     def test_pdf_page_count(self):
-        d=copy.deepcopy(self.data);d["expected_pages"]=2
+        d=copy.deepcopy(self.data);d["expected_pages"]=3
         self.assertTrue(any("actual page count" in s for s in inspect(d,self.root/"issue.json")))
     def test_path_escape(self):
         d=copy.deepcopy(self.data);d["pdf_path"]="../memo.pdf"

@@ -1,0 +1,31 @@
+name: Memo OS Week 7 non-character QA
+on:
+  pull_request:
+    paths:
+      - 'memo-os/tools/**'
+      - 'memo-os/tests/**'
+      - '.github/workflows/memo-week7-editorial.yml'
+  workflow_dispatch:
+jobs:
+  editorial-unit-regression:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: sudo apt-get update && sudo apt-get install -y tesseract-ocr tesseract-ocr-eng fonts-dejavu-core
+      - run: python -m pip install pillow pymupdf
+      - run: python -m unittest discover -s memo-os/tests -p 'test_editorial_raster_text.py' -v
+      - run: python -m unittest discover -s memo-os/tests -p 'test_pdf_copy_pipeline.py' -v
+      - run: python -m unittest discover -s memo-os/tests -p 'test_editorial_compositor.py' -v
+      - run: python -m unittest discover -s memo-os/tests -p 'test_publication_manifest.py' -v
+      - run: python -m unittest discover -s memo-os/tests -p 'test_editorial_receipt_integration.py' -v
+      - run: python -m unittest discover -s memo-os/tests -p 'test_png_first_stages.py' -v
+      - run: python -m unittest discover -s memo-os/tests -p 'test_png_assembly_parity.py' -v
+      - run: python -m unittest discover -s memo-os/tests -p 'test_editorial_preflight.py' -v
+      - run: python -m unittest discover -s memo-os/tests -p 'test_produce_png_page.py' -v
+      - run: python -m unittest discover -s memo-os/tests -p 'test_source_binding_telemetry.py' -v
+      - run: python -m unittest discover -s memo-os/tests -p 'test_sports_claim_binding.py' -v
+      - run: python -m unittest discover -s memo-os/tests -p 'test_png_multifolio_integration.py' -v
+      - run: python -m unittest discover -s memo-os/tests -p 'test_week6_fact_fixture.py' -v
