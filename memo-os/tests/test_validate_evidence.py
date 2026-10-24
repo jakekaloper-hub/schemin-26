@@ -19,6 +19,30 @@ class EvidenceTests(unittest.TestCase):
                 "pages":[{"slot":1,"asset_sha256":sha,"characters":["CHAR-A"],"review_receipts":receipts}],
                 "umpire_receipt":{"reviewer_id":"independent-umpire","reviewed_at":"2026-10-14","decision":"PASS","pdf_sha256":pdf}}
     def test_valid(self): self.assertEqual(validate_evidence(self.d,self.root),[])
+    def test_future_release_requires_founder_transaction(self):
+        x=copy.deepcopy(self.d)
+        x["season"]=2026
+        x["week"]=6
+        errors=validate_evidence(x,self.root)
+        self.assertIn("Founder release transaction missing",errors)
+
+    def test_future_release_rejects_missing_transaction_file(self):
+        x=copy.deepcopy(self.d)
+        x["season"]=2026
+        x["week"]=6
+        x["founder_release_state_path"]="not-found.json"
+        errors=validate_evidence(x,self.root)
+        self.assertIn("Founder release transaction inaccessible",errors)
+
+    def test_future_release_rejects_tampered_transaction(self):
+        x=copy.deepcopy(self.d)
+        x["season"]=2026
+        x["week"]=6
+        x["founder_release_state_path"]="tampered.json"
+        (self.root/"tampered.json").write_text(json.dumps({"payload":{"state":"RELEASED"},"signature":"forged"}))
+        errors=validate_evidence(x,self.root)
+        self.assertTrue(any("Founder transaction integrity" in e for e in errors))
+
     def test_wrong_provider_result(self):
         x=copy.deepcopy(self.d);x["results"]["0"]["home"]=999;self.assertTrue(validate_evidence(x,self.root))
     def test_missing_provider(self):
