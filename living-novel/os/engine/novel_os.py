@@ -344,3 +344,30 @@ def grade_significance(signals:dict)->str:
     if score>=2:return "MEANINGFUL"
     if score>=1:return "TEXTURE"
     return "NOISE"
+
+
+def validate_civilization_manuscript_rehearsal(location_id: str, season: int, week: int,
+                                               pov_packet: dict, source_event: dict) -> dict:
+    """Existing Novel OS engine entrypoint: source/POV/world preflight, not manuscript approval."""
+    import importlib.util
+    root = Path(__file__).resolve().parents[3]
+    import sys
+    if str(root) not in sys.path:
+        sys.path.insert(0, str(root))
+    from world.engine.civilization_phase2_handoff import build_phase2_handoff
+    validator_path = root / "living-novel/os/qa/pov_packet_validator.py"
+    spec = importlib.util.spec_from_file_location("novel_pov_phase4", validator_path)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    errors = module.validate_pov_packet(pov_packet)
+    if errors:
+        return {"ok": False, "code": "INVALID_POV_PACKET", "errors": errors}
+    if not source_event.get("fact_lock_sha256") or source_event.get("season") != season or source_event.get("week") != week:
+        return {"ok": False, "code": "NOVEL_FACT_PROVENANCE_REQUIRED"}
+    result = build_phase2_handoff(location_id, season, week)
+    if not result.get("ok"):
+        return {"ok": False, "code": result.get("code")}
+    return {"ok": True, "context_id": result["shared_context_id"],
+            "pov_character_id": pov_packet["character_id"],
+            "fact_lock_sha256": source_event["fact_lock_sha256"],
+            "publication_eligible": False, "status": "NOVEL_ENGINE_REHEARSAL_ONLY"}

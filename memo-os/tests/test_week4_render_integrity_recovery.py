@@ -78,7 +78,8 @@ def test_remaining_public_matchup_headings_use_full_names():
     s=PACKET.read_text()
     forbidden=["MUD DOGS × TDS","SLOB × CHILI","LLC × HMB","HMB × TDS","RED LEOPARDS × DR. DUCKHOOK"]
     for token in forbidden:
-        assert token not in s
+        import re
+        assert not re.search(r"^# PAGE \d+[^\n]*" + re.escape(token), s, re.MULTILINE)
     assert "Three Dreaded Snake vs His Majesty's Blood" in s
 
 

@@ -1,5 +1,8 @@
 # CCCP T03 — REFERENCE ASSET AUTHORITY MANIFEST v1
 
+
+> **CURRENT-STATE NOTICE — 2026-10-18:** The table below is a historical T03 primary-byte audit, not a current statement that the newly approved visual lineup file is missing. Exact Commissioner-approved twelve-character lineup bytes and twelve SHA-traceable derived crops are now registered under canon/characters/APPROVED_LINEUP_2026_10_18.json. This approves the current comparative appearance of all twelve but does not replace the old primary JPEG SHA records, authorize DK's quarantined old file, or close the provider mount/C1/T15/T16 gates. Preserve historical T03 receipt as evidence.
+
 status: HOLD
 rule: "PRIMARY requires a deterministically retrievable asset; prose filenames and conversation asset IDs do not qualify."
 

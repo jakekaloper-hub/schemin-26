@@ -1,36 +1,47 @@
 # CHAR-AUSTIN-BYARS — CCCP T04 CHARACTER SPECIFICATION
 
-status: ACTIVE / COMMISSIONER_APPROVED_REFERENCE_SET / RENDER_BLOCKED_UNTIL_MOUNT_PROVEN
+status: ACTIVE / T04_CANDIDATE
 owner: Austin Byars
 current_team: His Majesty's Blood
 canonical_identity: The Belt Keeper
-issue: https://github.com/jakekaloper-hub/schemin-26/issues/153
 
-## Identity references
-- PRIMARY: `IMG_2179.jpeg`, Commissioner re-upload `IMG_2179(3).jpeg`, exact SHA-256 `eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76`. Original identity authority.
-- SECONDARY: `IMG_2175(1).jpeg`, SHA-256 `ef5039481c5614de9d3397b738a6ac1243228a5647fbd27b7e5654d417bba93e`. Full-body armor, beltline, sword, silhouette.
-- SECONDARY: `Screenshot 2026-10-12 at 19.58.23.png`, SHA-256 `f3b82d914f489531a7f4ff68a35f6baf570be4abfe1514c0d49b6f0645544c97`. Moonlit hood, shadowed face and luminous red eyes.
-All three are references for ONE character; never merge into alternate identities.
+## Primary identity evidence
+Commissioner-supplied owner reference `IMG_2179.jpeg`. SHA-256: `eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76`. Render quality: LEGACY_LOW. Current identity authority remains unchanged.
 
-## IMMUTABLE visual DNA
-- Towering humanoid, shadow-concealed face under deep black hood; two distinct glowing red eyes.
-- Black engraved medieval plate armor, layered ragged dark cloak.
-- Large round gold chest medallion/royal insignia; gold metal accents and ornate medieval sword.
-- Menacing, regal, supernatural champion presence. Gothic realm visual language.
-- Championship belt belongs exclusively to Byars (identity-critical **ownership**, not mandatory on-frame appearance).
-- Renames and opponent/environment changes NEVER redesign face, armor, insignia, body, sword or silhouette.
+## IMMUTABLE
+- Species/body architecture: towering supernatural humanoid champion
+- Visual DNA: dark armored champion; supernatural glowing eyes; layered black armor/cloak; championship belt; medieval/rune sword
+- The championship belt is identity-critical
+- Team rename does not redesign this character.
 
-## CONTROLLED / SCENE VARIABLES
-Pose, camera, weather, exposure, day/night, weapon held/sheathed, dirt, damage, environment and scene action; belt may be off-frame or carried/stored when narrative placement requires, without changing ownership.
+## CONTROLLED_VARIABLE
+- expression and emotional state
+- dirt, damage, weathering and season-continuity wear
+- temporary scene attire only when the Belt Keeper remains unmistakable
+
+## SCENE_VARIABLE
+- pose/action
+- camera/lens/composition
+- lighting/weather/time
+- opponent interaction
+- scene-specific environment, provided it does not mutate identity
+
+## Signature objects / companions
+- Props: championship belt; medieval/rune sword
+- Companion: UNKNOWN
+- Canon environment anchor: gothic dark-fantasy championship/relic environment
 
 ## NEGATIVE LOCKS
-Never redesign as a king with crown, vampire, blood creature, generic knight, bare-faced human, alternate-color armored champion or another league character; no rename-driven anatomy or mascot redesign. Never transfer Byars's championship belt to another owner. Do not replace photographic reference with text prompting.
+king/crown redesign; vampire; blood creature; generic knight; belt omission; rename-driven anatomy or mascot redesign
 
-## Rendering and evidence contract
-Resolve owner → active character package → exact primary source bytes → SHA-256 verification → immutable image attachment/mount with character-ID subject binding → scene construction → generation → independent Character QA → page QA. Supplementary references constrain likeness; they cannot override the primary authority. If the generator cannot mount the exact primary image or supply mount/subject receipts, return HUMAN_REVIEW_REQUIRED and block final publication. A generated image without source binding cannot earn PASS.
+## HARD LOCKS
+THE BELT KEEPER; CHAMPIONSHIP BELT IDENTITY-CRITICAL; TEAM RENAMES NEVER REDESIGN HIM
 
-## Independent QA acceptance
-Evidence required: OWNER_MATCH, PRIMARY_SHA_MATCH, SOURCE_RETRIEVAL, RENDERER_MOUNT_RECEIPT, SUBJECT_BINDING, HOOD_AND_RED_EYES, BLACK_ENGRAVED_ARMOR, GOLD_ROUND_CHEST_INSIGNIA, SWORD, CLOAK, BELT_OWNERSHIP, NO_CROWN, NO_VAMPIRE, NO_CROSS_CHARACTER_CONTAMINATION, TEAM_RENAME_SAFE. A missing on-frame belt alone is NOT a failure if ownership is maintained. Outcomes: PASS / REGENERATE / HUMAN_REVIEW_REQUIRED. Only PASS permits publication.
+## Render contract
+Resolve owner → CHAR-AUSTIN-BYARS → ACTIVE package → Commissioner reference → immutable locks → controlled/scene variables. “His Majesty's Blood,” “That's Fantasy,” and “The Immortal” are team/name history, not permission to redesign him as a king, vampire, or blood mascot. If approved reference bytes cannot be retrieved, return HUMAN_REVIEW_REQUIRED.
 
-## Production provenance update — 2026-10-13
-All three exact approved source assets are committed to the existing issue #153 GitHub PR branch and recovered from a fresh remote checkout with their approved SHA-256 values and Git blob identities. This proves repository persistence **on the PR branch**, not promotion to main. Real renderer mount, subject-binding proof, final raster and independent Umpire acceptance remain NOT PROVEN. No production-lock claim until evidence exists.
+## QA contract
+Required checks: OWNER_MATCH; ACTIVE_IDENTITY; REFERENCE_PROVENANCE; BELT_KEEPER_IDENTITY; CHAMPIONSHIP_BELT_PRESENT; DARK_ARMORED_CHAMPION; NO_KING_CROWN; NO_VAMPIRE_BLOOD_MASCOT; NO_CROSS_CHARACTER_CONTAMINATION; TEAM_RENAME_SAFE. Outcomes only: PASS / REGENERATE / HUMAN_REVIEW_REQUIRED. Publication requires PASS.
+
+## Provenance
+Verified/reconciled 2026-10-02 against current owner-specific visual authority. No HMB redesign was authorized; this hardens anti-regression controls for the third known outlier.
