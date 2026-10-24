@@ -1,0 +1,96 @@
+{
+  "schema": "schemin.novel.critical_path_execution.v1",
+  "record_date": "2026-10-14",
+  "record_type": "SOURCE_BACKED_DIRECT_CONNECTOR_EXECUTION_NOT_AUTHENTICATED_BULLPEN_RUNTIME",
+  "governance": [
+    "jakekaloper-hub/bullpen#117",
+    "jakekaloper-hub/schemin-26#166"
+  ],
+  "status": "IMPLEMENTATION_PROGRESS_WITH_APPROVAL_HOLDS",
+  "source_of_truth": "jakekaloper-hub/schemin-26",
+  "workstreams": [
+    {
+      "id": "CP-CHAR-WILSON",
+      "pr": "https://github.com/jakekaloper-hub/schemin-26/pull/171",
+      "branch": "novel/canon-world-precedence-issue166-20261014",
+      "files_modified": [
+        "world/data/owner_domains.json",
+        "world/data/domain_profiles.json",
+        "world/data/inhabitant_ontology.json",
+        "world/location-control-plane/homelands/CHAR-WILSON-LOOK/CARD.json",
+        "world/engine/validate_world.py",
+        "world/qa/test_world_engine.py",
+        "world/qa/test_universe_v1_1.py",
+        "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md"
+      ],
+      "result": "ACTIVE_SOURCE_CODE_AND_METADATA_PATCHED_IN_DRAFT",
+      "acceptance": "CI ON LATEST COMMIT MUST BE RERUN_OR_VERIFIED; INDEPENDENT_UMPIRE_AND_CANON_REVIEW_HOLD",
+      "controlling_character_rule": "one integrated Arsenal Gorilla Centaur body; four legs; no bipedal or split creature",
+      "unmodified": "accepted book prose and historical release exports"
+    },
+    {
+      "id": "CP-CH04-PRECANON",
+      "pr": "https://github.com/jakekaloper-hub/schemin-26/pull/128",
+      "branch": "living-novel/week4-causal-manuscript-2026-10-06",
+      "files_added": [
+        "living-novel/production/chapter-04/PROVIDER_FINALITY_RECHECK_2026-10-14.md",
+        "living-novel/production/chapter-04/STARTER_SCORE_PARITY_2026-10-14.md",
+        "living-novel/qa/CHAPTER_04_PRE_CANON_GATE_REVALIDATION_2026-10-14.md"
+      ],
+      "result": "SCORE_AND_STARTER_EVIDENCE_VERIFIED; EXISTING_SOFT_MANUSCRIPT_UNMODIFIED",
+      "existing_manuscript_sha": "851ab270b577a9b5e4d28eab7b75178b9fc7e84f",
+      "acceptance": "SOURCE_GATES_SATISFIED; QUALIFIED_INDEPENDENT_LITERARY_REVIEW_AND_EXPLICIT_FOUNDER_BLOB_ACCEPTANCE_OUTSTANDING"
+    },
+    {
+      "id": "CP-TWELVE-POV",
+      "pr": "https://github.com/jakekaloper-hub/schemin-26/pull/130",
+      "branch": "novel/12-principal-pov-migration",
+      "files_added": [
+        "living-novel/migrations/CHAPTER_01_02_TWELVE_POV_SCENE_MIGRATION_PLAN_2026-10-14.json",
+        "living-novel/migrations/CHAPTER_01_02_TWELVE_POV_PROSE_PILOT_NONCANON_2026-10-14.md",
+        "living-novel/migrations/EL_NINO_PRINCIPAL_PATH_ONTOLOGY_DECISION_PACKET_2026-10-14.md",
+        "living-novel/migrations/EARLY_MANUSCRIPT_TWELVE_POV_DEPENDENCY_CENSUS_2026-10-14.json"
+      ],
+      "files_modified": [
+        "living-novel/migrations/test_validate_twelve_pov.py",
+        "living-novel/migrations/test_prologue_scene_manifest.py"
+      ],
+      "result": "19_OF_19_SCENES_MAPPED; 2_OF_19_PILOT_SCENES_WRITTEN_NONCANON; STRICT_CI_TESTS_ADDED",
+      "acceptance": "17_SCENES_REMAIN_UNWRITTEN; TEST_CI_LATEST_HEAD_IN_PROGRESS_AT_THIS_RECEIPT; FOUNDER_El_NINO_EXCEPTION_AND_FULL_MANUSCRIPT_ACCEPTANCE_UNRESOLVED"
+    },
+    {
+      "id": "CP-ATLAS-ROUTE",
+      "pr": "https://github.com/jakekaloper-hub/schemin-26/pull/167",
+      "result": "STRUCTURAL_ROUTES_12_OF_12_MATCHUPS_PASS; FALSE_ENDPOINT_ONLY_FAILURE_RETRACTED",
+      "authority": "living-novel/os/geography/world_travel_graph_v1.json",
+      "route_model": "18 source routes compile to 24 traversable graph edges (via stops included)",
+      "unmodified": "active routes and geography"
+    }
+  ],
+  "counts": {
+    "chapter1_sections": 9,
+    "chapter2_sections": 10,
+    "total_sections": 19,
+    "source_identity_mentions_in_early_hard_prose": 388,
+    "pilot_replacement_sections": 2,
+    "remaining_replacement_sections": 17,
+    "selected_reader_principals": 12,
+    "applied_world_mutations": 0,
+    "merged_prs_this_execution": 0
+  },
+  "signoff_boundaries": {
+    "user_authorization": "execute tasks and prepare review candidates",
+    "authenticated_director_session": false,
+    "independent_umpire_acceptance": false,
+    "founder_exact_blob_canon_approval": false,
+    "hard_canon_prose_replaced": false,
+    "automated_background_execution": false
+  },
+  "next_ready_actions": [
+    "Finish independently source-checked Chapter I and Chapter II prose movement drafts in PR #130, do not replace hard canon until explicit exact-byte decision",
+    "Obtain lawful El Niño principal path Founder ontology receipt; keep validator fail-closed",
+    "Confirm CI on latest PR #171 and #130 heads; debug actual failures, not waive",
+    "Independent reviewer accept Wilson precedence and Chapter IV, then Founder exact blob decision",
+    "After approved transition, resume Week 5 Survey Line causal story and inkjs reader prototype"
+  ]
+}
