@@ -1,0 +1,75 @@
+{
+  "character_id": "CHAR-BRANDON-PRYOR",
+  "owner": "Brandon Pryor",
+  "team": "Chili Cheesers",
+  "approved_presentation_title": "Chili Cheesers",
+  "row": 2,
+  "column": 1,
+  "lineup_parent_path": "canon/characters/assets/lineups/SCHEMIN_26_COMMISSIONER_APPROVED_LINEUP_2026_10_18.png",
+  "lineup_parent_sha256": "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2",
+  "derived_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+  "derived_crop_sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+  "pixel_rectangle_top_left": {
+    "x": 0,
+    "y": 405,
+    "width": 362,
+    "height": 290
+  },
+  "derived_crop_classification": "DERIVED_APPROVED_LINEUP_CROP",
+  "current_presentation_approval": "COMMISSIONER_APPROVED_2026_10_18",
+  "primary_source_supersession_approved": false,
+  "approved_visual_assertions": {
+    "subject_morphology": "Cowboy outlaw human with western hat, red-orange shawl and dark horse beside him",
+    "head_face": "Weathered male outlaw face beneath brown cowboy hat",
+    "silhouette": "Long poncho or cape, pistol hand, separate dark equine companion",
+    "palette": [
+      "rust red",
+      "brown leather",
+      "warm orange",
+      "black horse coat"
+    ],
+    "recognizable_props": [
+      "western revolver",
+      "The Dark Horse",
+      "flame-like shawl"
+    ],
+    "negative_rules": [
+      "horse fused to human",
+      "generic town sheriff supersession",
+      "loss of The Dark Horse"
+    ]
+  },
+  "physical_engine_delta": {
+    "basis": "VISUAL_PRESENTATION_PLUS_EXISTING_CHARACTER_CANON_NOT_NUMERIC_SIMULATION",
+    "body_architecture": "Cowboy outlaw human with western hat, red-orange shawl and dark horse beside him",
+    "anatomy_constraints": [
+      "human bipedal",
+      "separate equine companion identifiable as The Dark Horse"
+    ],
+    "locomotion_class_interpretation": "human walking; horse remains separate quadrupedal animal",
+    "signature_equipment": [
+      "western revolver",
+      "The Dark Horse",
+      "flame-like shawl"
+    ],
+    "collision_and_attachment_measurements": "UNKNOWN_REQUIRES_GEOMETRY_CALIBRATION",
+    "height_mass_and_movement_ranges": "UNKNOWN_NOT_ESTABLISHED_BY_LINEUP",
+    "state": "CHARACTER_APPEARANCE_APPROVED__PHYSICS_QUANTIFICATION_HOLD"
+  },
+  "source_authority_continuity": {
+    "historical_primary_sha256": "0bb99794f3a0b9fa1a7f791e17e6885fffcca4b79c824057623bab5c74598cfe",
+    "historical_primary_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/primary/76344FB3-1974-48D0-AA90-8B231E6008F7.jpeg",
+    "historical_primary_approval_unchanged": true,
+    "renderer_mounted_byte_receipt_present": false,
+    "c1_generated_output_acceptance_present": false
+  },
+  "spatial_anchor": {
+    "home_location_id": "LOC-CHILI-STABLE",
+    "region_ids": [
+      "REG-WESTERN-TABLELANDS"
+    ],
+    "location_source": "world/location-control-plane/homelands/CHAR-BRANDON-PRYOR/CARD.json",
+    "lineup_background": "sunset western frontier",
+    "lineup_background_classification": "PRESENTATION_MOOD_ONLY__NOT_ATLAS_TRAVEL_OR_LOCATION_AUTHORITY"
+  }
+}

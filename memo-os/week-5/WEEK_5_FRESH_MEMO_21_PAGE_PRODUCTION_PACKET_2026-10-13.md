@@ -1,4 +1,7 @@
 # Schemin' 26 — Week 5 Fresh Memo Production Packet
+
+> **Historical record — current authority check required (2026-10-24).** This October 13 packet and companion WEEK_5_FRESH_RESTART_FACT_AND_CHARACTER_RECEIPT_2026-10-13.json are historical intake/production candidates. Recorded scores and source IDs are retained as dated evidence, not newly verified raw provider bytes or current renderer bindings. The 21-page spine and winner-POV allocation do not override later approved story direction. Current sources, story structure and publication state follow PROJECT_CONTROL_REGISTRY.md, memo-os/README.md and the owning release gates.
+
 **Established:** 2026-10-13. **Status:** PAGE ARCHITECTURE + RESULTS RECEIPT PREPARED / WRITING AND ACTUAL RENDER QA OPEN / NOT PUBLISHED.
 **Repository:** `jakekaloper-hub/schemin-26` on branch `week5-fresh-memo-production-20261013`; existing `memo-os/week-5` domain, **not a new Memo OS**.
 **Data companion:** `WEEK_5_FRESH_RESTART_FACT_AND_CHARACTER_RECEIPT_2026-10-13.json`.

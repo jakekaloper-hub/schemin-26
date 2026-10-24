@@ -1,4 +1,21 @@
-# Novel POV Constitution V1
+# Novel POV Constitution V1 — superseded authority notice
+
+**Status:** HISTORICAL RECORD, SUPERSEDED by founder-authorized exclusive twelve-owner POV direction (2026-10-06 onward).  
+**Implementation authority:** `living-novel/os/qa/twelve_owner_rewrite_gate.py`; canonical identities: `canon/characters/CHARACTER_REGISTRY.yaml`.
+
+> This document preserves the original Author Council Engagement 001 policy for audit history. Its former permissions for Archive POV, Bounded Witness POV, Edrin/Edin, or Oren **are revoked for active manuscripts and reader paths**. It is not an active production license.
+
+## Current governing law
+
+Only the twelve canonical league-owner fantasy characters may act as viewpoint narrators in any new or rewritten scene. Institutional figures can appear as reported voices or historical artifacts only when the twelve-owner rewrite gate and authorized canon permit the content; retired Edrin/Edin and Master Oren must not be inserted into active manuscripts. Real people’s private thoughts are not claimed as facts.
+
+Every scene must satisfy the existing `validate_rewrite_scene` contract: valid owner identity, `PRINCIPAL_CHARACTER` POV, event provenance, shared world context, story-time cutoff, real-owner firewall, and nonempty compliant prose.
+
+The original policy is archived below as historical context; do not interpret it as currently executable authority.
+
+---
+
+# Original Novel POV Constitution V1 (archival)
 
 **Status:** RELEASED / ACTIVE — Author Council Engagement 001  
 **Applies prospectively:** Chapter III onward

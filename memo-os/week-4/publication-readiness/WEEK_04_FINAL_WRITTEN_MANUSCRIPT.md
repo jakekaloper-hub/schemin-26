@@ -437,7 +437,15 @@ D0nkey K0ng +19.5 — COVER
 
 **Ticket line:** Three legs got there. Mud Dogs killed the receipt.
 
-**Settlement footer:** Actual bettor stakes, payouts, Week 4 P/L and season Book P/L remain locked to Pitts's authoritative ledger. Do not print estimates.
+**Settlement results:** Kaloper +$16.00 | Byars -$14.00 | Babb -$100.00 | **PITTSY'S BOOK WEEK 4: +$98.00**
+
+**Overall standings through Week 4:** Byars +$125.60 | Zeek +$72.54 | Pryor +$22.25 | Kaloper +$8.77 | Babb -$18.33 | QWhips -$20.00 | Wilson -$20.00 | Zwilson -$61.12
+
+**Book ledger:** W1 +$63.00 | W2 -$132.66 | W3 -$138.05 | W4 +$98.00 | **BOOK OVERALL: -$109.71**
+
+**Closing line:** THE ADJUSTMENTS WORKED. No moneylines, tougher spreads, parlay tax — Pittsy's Book finally punched back.
+
+Granular ticket stakes/gross-return details remain evidence-bound; do not print estimates.
 
 ---
 
@@ -470,7 +478,7 @@ A homemade beer belt hangs somewhere it did not belong on Friday.
 
 The LLC has a losing ticket with its own name on it.
 
-Pittsy's ledger still needs settling.
+Pittsy's Book finally punched back: +$98.00 for Week 4.
 
 In the Burgers highlands, the last unbeaten record is already gone.
 
