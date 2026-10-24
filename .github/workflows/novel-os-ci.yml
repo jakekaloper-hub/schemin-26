@@ -27,6 +27,8 @@ jobs:
           python-version: "3.12"
       - name: Compile Novel OS
         run: python -m py_compile living-novel/os/engine/novel_os.py
+      - name: Validate Frank Masi unit-stills adapter contract
+        run: python -m unittest discover -s living-novel/os/adapters -p 'test_*unit_stills*.py' -v
       - name: Run deterministic and adversarial suite
         working-directory: living-novel/os/evaluations
         run: python -m unittest -v test_novel_os.py
