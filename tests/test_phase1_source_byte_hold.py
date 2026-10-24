@@ -37,7 +37,11 @@ class Phase1SourceByteHoldTests(unittest.TestCase):
 
     def test_phase1_probe_would_not_pass_without_all_repo_assets(self):
         missing=[ROOT/x["repository_path"] for x in REG["entries"] if not (ROOT/x["repository_path"]).exists()]
-        self.assertEqual(len(missing),12)
+        from canon.characters.runtime.source_byte_integrity import verify_source_bytes
+        report=verify_source_bytes()
+        self.assertEqual(len(missing),report["source_bytes_required_count"])
+        self.assertEqual(report["pass_count"] + len(missing),12)
+        self.assertEqual(report["blocked_count"],0)
 
 if __name__=="__main__":
     unittest.main(verbosity=2)

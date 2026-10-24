@@ -1,0 +1,270 @@
+# WEEK 4 PAGE GENERATION GATE — QA BEFORE DELIVERY
+
+**Status:** ACTIVE / CONTROLLED MANUAL PRODUCTION
+**Issue:** Schemin '26 Week 4 Memo
+**Page count:** 27
+**Commissioner workflow:** "generate page N" → Bullpen page board → Umpire challenge → CLOSER_PRE_RENDER_PASS → exact canonical reference binding → illustration candidate → candidate QA → CLOSER_PAGE_ACCEPT → approved PNG only
+**Current state:** production-integrity recovery PASSED; publishable identity enforcement ACTIVE; deterministic composition ACTIVE; native canonical reference binding ACTIVE; written manuscript LOCKED. ESPN/Flaim official finality remains a page-specific data revalidation gate, not a global art hold.
+
+
+## PRODUCTION RECOVERY CLEARED — 2026-10-06
+
+The Pages 1–4 production incident has been resolved through three merged control changes:
+
+- production-integrity recovery: publishable names/divisions, deterministic text, Page 2/Page 3/GOTW hardening;
+- native character-reference binding: exact registered Library `file_id` handles for all 12 canonical characters;
+- written-narrative recovery: one locked reader-facing manuscript for all 27 pages.
+
+These controls remain mandatory:
+- retrieve `WEEK_04_PUBLISHABLE_IDENTITY_REGISTRY.json` before every page;
+- retrieve `canon/characters/NATIVE_RENDER_REFERENCE_BINDING_V1.json` for every character-bearing page;
+- pass every required exact registered `file_id` as a renderer reference;
+- internal labels such as DK/OBI/TDS/HMB/7DC are never publishable team-name copy;
+- exact names/divisions/GOTW labels/dates/scores/records/rankings/odds are deterministic composition only;
+- reader-facing prose comes only from `WEEK_04_FINAL_WRITTEN_MANUSCRIPT.md`;
+- Page 3 prohibits character icons entirely;
+- Pages 4–7 carry the Week 3-established GAME OF THE WEEK treatment for **D0nkey K0ng vs ObiWan Jacoby**;
+- visible candidate does not equal approved page; raster QA remains required.
+
+**Manual production is reopened.**
+
+## Mandatory Bullpen / Closer authority
+
+Controlling protocol: `WEEK_04_CLOSER_PAGE_APPROVAL_PROTOCOL.md`.
+
+The production agent does not independently authorize a Week 4 render.
+
+Every page requires:
+1. applicable Bullpen Director synthesis;
+2. Umpire adversarial preflight;
+3. explicit `CLOSER_PRE_RENDER_PASS` before the renderer is invoked;
+4. candidate QA after rendering;
+5. explicit `CLOSER_PAGE_ACCEPT` before the page is `APPROVED_FOR_LOCAL_FOLDER`.
+
+Any `CLOSER_PRE_RENDER_HOLD` or `CLOSER_PAGE_REJECT` is release-blocking and cannot be overridden by the production agent.
+
+## LIVE PRODUCTION SALVAGE OVERLAY — 2026-10-06
+
+Controlling overlays:
+- `WEEK_04_CURRENT_RASTER_AUDIT_2026-10-06.md`
+- `WEEK_04_LIVE_PRODUCTION_SALVAGE_PROTOCOL.md`
+- `WEEK_04_VISUAL_FAMILY_MATRIX.md`
+
+### Production unit changed
+
+For Pages 11–22, the production unit is no longer an isolated page.
+
+The controlling unit is the complete three-page matchup chapter:
+- 11–13;
+- 14–16;
+- 17–19;
+- 20–22.
+
+Before the first page in a chapter may render, Bullpen must lock:
+- all three camera/composition states;
+- all three text loads;
+- all three continuity states;
+- the payoff/result page;
+- the chapter-specific visual family;
+- the exact ways Page 2 differs from Page 1 and Page 3 differs from both.
+
+### Fixed shell
+
+All new page masters must be authored at **1024×1536**.
+
+No renderer is allowed to redesign:
+- masthead geometry;
+- issue/date region;
+- title-safe zone;
+- body-copy safe zones;
+- result-strip safe zone.
+
+### Deterministic typography rule strengthened
+
+The image model does not own:
+- team names;
+- scores;
+- records;
+- rankings;
+- odds;
+- exact manuscript copy;
+- GAME OF THE WEEK status;
+- issue/date text.
+
+Generated typography may be treated only as a visual placeholder during art exploration.
+
+### Result-page component
+
+Pages 13, 16, 19 and 22 inherit one reusable result-strip family from the established Week 4 result-page grammar.
+
+The result strip must be composed from Fact Lock after art and must not be regenerated independently by the image model.
+
+### Early-page salvage rule
+
+Pages 1–10 are now a salvage corpus until final assembly QA.
+
+Before PDF assembly, Bullpen must:
+- normalize all accepted masters to the canonical 1024×1536 ratio;
+- remaster Page 2 to the locked final manuscript;
+- remaster Page 3 into a release-clean deterministic board;
+- repair exact team-name chrome drift on Pages 4–7 if present;
+- re-certify TDS one-body / exactly-three-head anatomy on Pages 8–10;
+- replace generated result digits with deterministic result modules where required.
+
+### Commissioner burden rule
+
+Jake is not the first-line QA operator.
+
+A page may not rely on Jake to discover:
+- wrong team names;
+- wrong GOTW status;
+- repeated chapter composition;
+- wrong result treatment;
+- wrong manuscript version;
+- wrong body plan;
+- wrong page ratio.
+
+Such defects are Bullpen failures and require self-rejection.
+
+## Commissioner operating rule
+
+For Week 4, "QA before art" and "QA of the art" are treated as **one PAGE_GENERATION_GATE**.
+
+This is not a sequence where a page is casually generated, delivered, and audited later.
+
+A page command means:
+
+1. retrieve the locked page packet;
+2. complete all pre-render QA;
+3. resolve deterministic data under the current authority state;
+4. convene the applicable Bullpen Directors and Umpire;
+5. require `CLOSER_PRE_RENDER_PASS`;
+6. render a candidate;
+7. inspect that candidate against the same gate;
+8. require `CLOSER_PAGE_ACCEPT` after candidate QA;
+9. reject the candidate as `REJECTED_NOT_FOR_FOLDER` if the Closer does not accept it;
+10. only an accepted page belongs in Jake's local Week 4 PNG folder.
+
+A failed candidate is not a locked Memo page and cannot be assembled into the final PDF.
+
+## Important implementation distinction
+
+The gate has two checks because visual facts cannot be verified before pixels exist:
+
+### A. PRE-RENDER PREFLIGHT — must PASS before any render request
+- correct page number and title;
+- correct story beat;
+- correct page count/sequence;
+- correct character IDs;
+- correct approved source/hash authority;
+- page-specific character overrides;
+- world/venue/geography authority;
+- written-material plan;
+- deterministic data slots populated or intentionally blank;
+- composition;
+- camera;
+- foreground/midground/background;
+- props and continuity objects;
+- negative constraints;
+- mobile-safe text hierarchy;
+- previous/next-page continuity;
+- Author Council restraint;
+- Umpire preflight.
+
+### B. CANDIDATE ACCEPTANCE — same gate, after candidate exists and before page lock
+- character identity visibly correct;
+- character count/anatomy correct;
+- forbidden props absent;
+- venue/world continuity correct;
+- visual beat matches the locked page;
+- no accidental story rewrite;
+- no hallucinated numerical text;
+- text hierarchy legible;
+- phone/mobile framing safe;
+- composition matches packet;
+- no cross-character contamination;
+- no stale reference identity;
+- no unexpected logo/character/object drift.
+
+The page is considered generated for production purposes only after B passes.
+
+## Native renderer visibility note
+
+The production system must distinguish **candidate visibility** from **page acceptance**. A renderer may surface a candidate image as part of generation, but that does not make it an approved Memo PNG. The production record must clearly mark only QA-passed output as APPROVED_FOR_LOCAL_FOLDER.
+
+## Flaim finality is the only remaining editorial/data input
+
+Before Week 4 manual production begins, Bullpen may leave only these fields unresolved:
+- official final winner;
+- official final score;
+- final margin;
+- updated record;
+- final standings;
+- material verified player-level events already called for by a locked page;
+- Pittsy's Book settlement arithmetic;
+- downstream deterministic summaries derived from those facts.
+
+Flaim finality may not reopen:
+- 27-page count;
+- page order;
+- titles already locked;
+- genres;
+- visual concepts;
+- character identities;
+- page-specific character states;
+- world/venue plan;
+- composition intent;
+- written-material purpose;
+- bridge-page ban.
+
+## Page command contract
+
+When Jake says **"generate page N"**, the system must not ask for the prompt again.
+
+It must:
+- fetch WEEK_04_27_PAGE_DIRECTOR_REVIEW_PACKET.md;
+- fetch WEEK_04_OFFICIAL_MANUAL_PRODUCTION_PACKET.md;
+- fetch current character authority;
+- fetch current world authority;
+- fetch final Fact Lock after Flaim refresh;
+- fetch page-specific deterministic data;
+- run PRE-RENDER PREFLIGHT;
+- if any non-Flaim field is unresolved, STOP as INTERNAL_PREPRODUCTION_DEFECT;
+- if only required Flaim-derived data is unresolved, STOP as WAITING_ON_FLAIM;
+- otherwise generate candidate;
+- inspect candidate under CANDIDATE ACCEPTANCE;
+- if candidate fails, it is REJECTED_NOT_FOR_FOLDER;
+- if candidate passes, mark APPROVED_FOR_LOCAL_FOLDER and return it as the page.
+
+## Character hard locks
+
+All character-bearing pages inherit WEEK_04_12_CHARACTER_AUTHORITY_MATRIX.json and VISUAL_REFERENCE_AUTHORITY_V1.json.
+
+DK, TDS and HMB owner-specific approved source/hash authority outranks the stale master lineup.
+
+## Mobile production target
+
+Every page is authored as a portrait mobile-reading page suitable for final assembly into an iPhone/mobile-friendly PDF.
+
+Before approval:
+- essential text must remain readable at phone width;
+- important faces/characters/props must remain inside safe crop;
+- no critical text near trim/crop edges;
+- dense data pages must use deterministic typography, not generated text;
+- page composition must remain legible when viewed one page at a time on a phone.
+
+## Final PDF workflow
+
+Jake will save each approved PNG locally.
+
+After all 27 approved PNGs are supplied back for assembly:
+- verify 27/27 filenames/order;
+- verify no duplicate/missing pages;
+- verify each is an approved Week 4 page;
+- normalize portrait page dimensions for mobile/iPhone reading;
+- preserve image quality;
+- compile a single ordered PDF;
+- run final assembly QA;
+- return final PDF.
+
+The final assembly audit is not a substitute for page QA. Every page must already have passed PAGE_GENERATION_GATE before inclusion.

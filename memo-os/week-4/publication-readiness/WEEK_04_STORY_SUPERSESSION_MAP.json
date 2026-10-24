@@ -1,158 +1,80 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "publication_id": "memo.2026.week-04",
-  "status": "ACTIVE_PREPUBLICATION_SUPERSESSION_MAP",
-  "rule": "newer + more specific beats older + more general; conflicts require explicit reconciliation",
+  "status": "ACTIVE_27_PAGE_SUPERSESSION_MAP",
+  "rule": "Latest explicit Commissioner/Bullpen Mission Review lock controls. Flaim updates facts only.",
   "classifications": [
     {
-      "source": "memo-os/week-4/WEEK_4_COMMISSIONER_STORY_AUTHORITY_CORRECTION_2026-10-05.md",
+      "source": "memo-os/week-4/publication-readiness/WEEK_04_MISSION_REVIEW_STORY_LOCK_CORRECTED_2026-10-05.md",
       "classification": "CURRENT",
-      "scope": [
-        "W4-STORY-LLC-HMB"
-      ],
-      "notes": "Latest explicit Commissioner correction; controls page count and HMB-win inversion treatment."
-    },
-    {
-      "source": "memo-os/week-4/WEEK_4_DK_OBI_VISUAL_TONE_OVERLAY_2026-10-05.md",
-      "classification": "CURRENT_WITH_AMENDMENT",
-      "scope": [
-        "W4-STORY-DK-OBI",
-        "W4-MODULE-COVER"
-      ],
-      "notes": "Additive visual direction only; does not rewrite story arc."
-    },
-    {
-      "source": "memo-os/week-4/WEEK_4_KEEPER_CAMPAIGN_STATE_CLOSURE_2026-10-05.md",
-      "classification": "CURRENT_WITH_AMENDMENT",
-      "scope": [
-        "W4-STORY-DK-OBI",
-        "W4-STORY-MUD-TDS",
-        "W4-STORY-RED-DUCK",
-        "W4-STORY-LLC-HMB",
-        "W4-STORY-ELNINO-7DC",
-        "W4-MODULE-STATE-REALM",
-        "W4-MODULE-FINAL-WORD"
-      ],
-      "notes": "Latest scoped campaign-state/keeper consequence authority."
-    },
-    {
-      "source": "memo-os/week-4/WEEK_4_PITTS_GMOY_EDITORIAL_ADDENDUM_2026-10-05.md",
-      "classification": "CURRENT_WITH_AMENDMENT",
-      "scope": [
-        "W4-MODULE-STATE-REALM",
-        "W4-MODULE-WEEK5-GOTW"
-      ],
-      "notes": "Pitts GM-of-Year question is editorial question only; no award declaration."
-    },
-    {
-      "source": "memo-os/week-4/WEEK_4_PERSONALIZED_INTELLIGENCE_AMENDMENT_SLOB_CHILI_INITIATION_2026-10-04.md",
-      "classification": "CURRENT",
-      "scope": [
-        "W4-STORY-SLOB-CHILI"
-      ],
-      "notes": "Supersedes paddling/dart payoff; Beer Champion's Belt conditional branch controls."
-    },
-    {
-      "source": "memo-os/week-4/WEEK_4_FULL_AUTHOR_COUNCIL_WORLD_ATLAS_STORY_ROOM_REVIEW_2026-10-04.md",
-      "classification": "CURRENT_WITH_AMENDMENT",
-      "scope": [
-        "W4-STORY-DK-OBI",
-        "W4-STORY-MUD-TDS",
-        "W4-STORY-RED-DUCK",
-        "W4-STORY-SLOB-CHILI",
-        "W4-STORY-LLC-HMB",
-        "W4-STORY-ELNINO-7DC"
-      ],
-      "notes": "Current broad matchup story-room lens except where later Commissioner/amendment decisions supersede specific details."
-    },
-    {
-      "source": "memo-os/week-4/WEEK_4_TRANSITION_ARCHITECTURE_STORY_ROOM_REVIEW_2026-10-04.md",
-      "classification": "CURRENT_WITH_AMENDMENT",
-      "scope": [
-        "W4-STORY-DK-OBI",
-        "W4-STORY-MUD-TDS",
-        "W4-STORY-RED-DUCK",
-        "W4-STORY-SLOB-CHILI",
-        "W4-STORY-LLC-HMB",
-        "W4-STORY-ELNINO-7DC",
-        "W4-MODULE-OPENING",
-        "W4-MODULE-STATE-REALM",
-        "W4-MODULE-PITTSY",
-        "W4-MODULE-FINAL-WORD"
-      ],
-      "notes": "Controls issue-flow transitions; does not override later matchup-specific story corrections."
-    },
-    {
-      "source": "memo-os/week-4/WEEK_4_PERSONALIZED_INTELLIGENCE_AMENDMENT_LLC_HMB_CASINO_2026-10-02.md",
-      "classification": "CURRENT_WITH_AMENDMENT",
-      "scope": [
-        "W4-STORY-LLC-HMB"
-      ],
-      "notes": "Casino/ledger institutional details remain usable, but current 2026-10-05 Commissioner correction supersedes mandatory three-page or House Collects assumptions."
-    },
-    {
-      "source": "memo-os/week-4/WEEK_4_STORY_ROOM_CURRENT_STATE_RECONCILIATION_2026-10-02.md",
-      "classification": "HISTORICAL_ONLY",
       "scope": [
         "ALL_WEEK4"
       ],
-      "notes": "Temporal live snapshot only; current score observations are stale and cannot seed final story or current score copy."
+      "notes": "Primary 27-page story/page-count authority."
     },
     {
-      "source": "memo-os/week-4/publication-readiness/WEEK_04_PUBLICATION_MANIFEST.json#legacy_page_plan",
+      "source": "memo-os/week-4/publication-readiness/WEEK_04_27_PAGE_DIRECTOR_REVIEW_PACKET.md",
+      "classification": "CURRENT",
+      "scope": [
+        "ALL_WEEK4"
+      ],
+      "notes": "Page-level Director-reviewed production treatment."
+    },
+    {
+      "source": "fixed 19-page Week 4 production plan",
       "classification": "SUPERSEDED",
       "scope": [
         "ISSUE_PAGE_PLAN"
       ],
-      "notes": "Fixed 19-page plan contained stale mandatory 3-page LLC/HMB architecture; retained only as historical receipt."
+      "notes": "Replaced by 27-page Mission Review architecture."
     },
     {
-      "source": "MODEL → LIABILITY → THE HOUSE GETS BEAT mandatory three-page LLC/HMB architecture",
+      "source": "one-page LLC × HMB architecture",
       "classification": "SUPERSEDED",
       "scope": [
         "W4-STORY-LLC-HMB"
       ],
-      "notes": "Cannot seed current packets unless explicitly re-approved."
+      "notes": "Replaced by three-page THE HOUSE SETS THE LINE → EXPOSURE → THE HOUSE GETS BEAT sequence."
     },
     {
-      "source": "The House Collects / cookie humiliation branch after verified HMB win",
+      "source": "three-page DK × Obi siege variant",
       "classification": "SUPERSEDED",
       "scope": [
-        "W4-STORY-LLC-HMB"
+        "W4-STORY-DK-OBI"
       ],
-      "notes": "Killed by current HMB-win inversion branch if Fact Lock confirms HMB."
+      "notes": "Replaced by four-page THE RETURN → THE DUEL → THE HIGH GROUND → UNDEFEATED NO MORE sequence."
     },
     {
-      "source": "Slob × Chili paddling payoff",
-      "classification": "SUPERSEDED",
+      "source": "Repair Bridge",
+      "classification": "FORBIDDEN",
       "scope": [
-        "W4-STORY-SLOB-CHILI"
+        "ISSUE_PAGE_PLAN"
       ],
-      "notes": "Retired by 2026-10-04 matchup-specific amendment."
+      "notes": "Not allowed as standalone Memo page."
     },
     {
-      "source": "Slob × Chili dart-throwing payoff",
-      "classification": "SUPERSEDED",
+      "source": "Club-Information Bridge",
+      "classification": "FORBIDDEN",
       "scope": [
-        "W4-STORY-SLOB-CHILI"
+        "ISSUE_PAGE_PLAN"
       ],
-      "notes": "Retired from active branch."
+      "notes": "Not allowed as standalone Memo page."
     },
     {
-      "source": "Week 1-3 published memo material",
-      "classification": "HISTORICAL_ONLY",
+      "source": "Models/Pressure Bridge",
+      "classification": "FORBIDDEN",
       "scope": [
-        "HISTORY"
+        "ISSUE_PAGE_PLAN"
       ],
-      "notes": "May supply continuity evidence; cannot override current Week 4 Commissioner or story-room authority."
+      "notes": "Not allowed as standalone Memo page."
     },
     {
-      "source": "draft PR #115 sandbox synthetic facts and stale rehearsal packets",
+      "source": "draft PR #115 sandbox synthetic facts and rehearsal packets",
       "classification": "NON_CONTROLLING",
       "scope": [
         "SANDBOX_ONLY"
       ],
-      "notes": "Preserve only defect evidence/regression lessons; do not merge synthetic truth or stale story architecture into production authority."
+      "notes": "Defect evidence only; cannot seed production authority."
     }
   ]
 }

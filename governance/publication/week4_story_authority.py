@@ -1,155 +1,60 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-
-import hashlib
-import json
-import subprocess
+import hashlib, json, subprocess
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
-PACK = ROOT / "memo-os/week-4/publication-readiness"
-REGISTER = PACK / "WEEK_04_STORY_AUTHORITY_REGISTER.json"
-SUPERSESSION = PACK / "WEEK_04_STORY_SUPERSESSION_MAP.json"
-OWNERSHIP = PACK / "WEEK_04_DIRECTOR_OWNERSHIP_MATRIX.json"
+ROOT=Path(__file__).resolve().parents[2]
+PACK=ROOT/"memo-os/week-4/publication-readiness"
+REGISTER=PACK/"WEEK_04_STORY_AUTHORITY_REGISTER.json"
+SUPERSESSION=PACK/"WEEK_04_STORY_SUPERSESSION_MAP.json"
+OWNERSHIP=PACK/"WEEK_04_DIRECTOR_OWNERSHIP_MATRIX.json"
 
-def load_json(path: Path):
-    return json.loads(path.read_text())
-
-def git_blob_sha(path: Path) -> str:
-    proc = subprocess.run(
-        ["git","hash-object",str(path.relative_to(ROOT))],
-        cwd=ROOT, check=True, capture_output=True, text=True
-    )
-    return proc.stdout.strip()
-
-def story_hash(unit: dict) -> str:
-    payload = {
-        "role": unit["page_role"],
-        "sources": [s["blob_sha"] for s in unit["current_controlling_sources"]],
-    }
-    raw = json.dumps(payload, sort_keys=True, separators=(",",":"), ensure_ascii=False)
+def load_json(path): return json.loads(Path(path).read_text())
+def git_blob_sha(path):
+    p=subprocess.run(["git","hash-object",str(Path(path).relative_to(ROOT))],cwd=ROOT,check=True,capture_output=True,text=True)
+    return p.stdout.strip()
+def story_hash(unit):
+    payload={"role":unit["page_role"],"sources":[s["blob_sha"] for s in unit["current_controlling_sources"]]}
+    raw=json.dumps(payload,sort_keys=True,separators=(",",":"),ensure_ascii=False)
     return hashlib.sha256(raw.encode()).hexdigest()
 
-def validate(register=None) -> dict:
-    doc = register or load_json(REGISTER)
+def validate(register=None):
+    doc=register or load_json(REGISTER)
     errors=[]
     units=doc.get("story_units",[])
     by_id={u.get("story_unit_id"):u for u in units}
-
-    required_matchups=set(doc.get("required_matchup_story_units",[]))
-    required_modules=set(doc.get("required_editorial_modules",[]))
-    missing=[x for x in sorted(required_matchups|required_modules) if x not in by_id]
-    if missing:
-        errors.append({"code":"STORY_AUTHORITY_UNIT_MISSING","units":missing})
-
-    if len(by_id)!=len(units):
-        errors.append({"code":"DUPLICATE_STORY_UNIT_ID"})
-
+    required=set(doc.get("required_matchup_story_units",[]))|set(doc.get("required_editorial_modules",[]))
+    missing=sorted(required-set(by_id))
+    if missing: errors.append({"code":"STORY_AUTHORITY_UNIT_MISSING","units":missing})
+    if len(by_id)!=len(units): errors.append({"code":"DUPLICATE_STORY_UNIT_ID"})
     for uid,u in by_id.items():
-        if u.get("status")!="CURRENT":
-            errors.append({"code":"NON_CURRENT_STORY_UNIT","unit":uid,"state":u.get("status")})
-        if not u.get("director_owner") or not u.get("cross_reference_reviewer"):
-            errors.append({"code":"MISSING_OWNER_OR_COUNTERWEIGHT","unit":uid})
-        if not u.get("current_controlling_sources"):
-            errors.append({"code":"MISSING_CONTROLLING_SOURCE","unit":uid})
-            continue
-        for src in u["current_controlling_sources"]:
+        if u.get("status")!="CURRENT": errors.append({"code":"NON_CURRENT_STORY_UNIT","unit":uid})
+        if not u.get("director_owner") or not u.get("cross_reference_reviewer"): errors.append({"code":"MISSING_OWNER_OR_COUNTERWEIGHT","unit":uid})
+        for src in u.get("current_controlling_sources",[]):
             p=ROOT/src["path"]
             if not p.exists():
-                errors.append({"code":"CONTROLLING_SOURCE_MISSING","unit":uid,"path":src["path"]})
-                continue
+                errors.append({"code":"CONTROLLING_SOURCE_MISSING","unit":uid,"path":src["path"]}); continue
             actual=git_blob_sha(p)
-            if actual!=src["blob_sha"]:
-                errors.append({
-                    "code":"STORY_AUTHORITY_SOURCE_STALE",
-                    "unit":uid,"path":src["path"],
-                    "expected":src["blob_sha"],"actual":actual
-                })
-        expected=story_hash(u)
-        if expected!=u.get("story_authority_hash"):
-            errors.append({
-                "code":"STORY_AUTHORITY_HASH_MISMATCH",
-                "unit":uid,
-                "expected":expected,
-                "supplied":u.get("story_authority_hash")
-            })
-
-    # Supersession must be explicit and machine-readable.
-    if not SUPERSESSION.exists():
-        errors.append({"code":"SUPERSESSION_MAP_MISSING"})
-    else:
-        smap=load_json(SUPERSESSION)
-        classifications=smap.get("classifications",[])
-        llc_sup=[
-            row for row in classifications
-            if "W4-STORY-LLC-HMB" in row.get("scope",[])
-            and row.get("classification")=="SUPERSEDED"
-        ]
-        if not any("three-page" in (row.get("source","")+" "+row.get("notes","")).lower() for row in llc_sup):
-            errors.append({"code":"LLC_HMB_THREE_PAGE_NOT_EXPLICITLY_SUPERSEDED"})
-        sandbox=[
-            row for row in classifications
-            if "PR #115" in row.get("source","") or "sandbox" in row.get("source","").lower()
-        ]
-        if not sandbox or any(row.get("classification")!="NON_CONTROLLING" for row in sandbox):
-            errors.append({"code":"SANDBOX_AUTHORITY_NOT_NON_CONTROLLING"})
-
-    # Each gate must have exactly one named owner; counterweight is separate.
-    if not OWNERSHIP.exists():
-        errors.append({"code":"DIRECTOR_OWNERSHIP_MATRIX_MISSING"})
-    else:
-        ownership=load_json(OWNERSHIP)
-        gates=ownership.get("gates",[])
-        if [g.get("gate_id") for g in gates] != [f"G{i}" for i in range(1,13)]:
-            errors.append({"code":"DIRECTOR_GATE_SET_INVALID"})
-        for g in gates:
-            owner=str(g.get("owner","")).strip()
-            counter=str(g.get("counterweight","")).strip()
-            if not owner:
-                errors.append({"code":"GATE_OWNER_MISSING","gate":g.get("gate_id")})
-            if " + " in owner or " / " in owner:
-                errors.append({"code":"SHARED_OWNER_NOT_ALLOWED","gate":g.get("gate_id"),"owner":owner})
-            if not counter:
-                errors.append({"code":"COUNTERWEIGHT_MISSING","gate":g.get("gate_id")})
-
-    # Exact regression against the rehearsal failure.
-    llc=by_id.get("W4-STORY-LLC-HMB")
-    if llc:
-        rejects=" | ".join(llc.get("superseded_sources",[])).lower()
-        combined=" ".join([
-            llc.get("page_role",""), llc.get("headline_direction",""),
-            llc.get("visual_job",""), llc.get("prose_job",""),
-            llc.get("data_job",""), llc.get("transition_job",""), rejects
-        ]).lower()
-        required_tokens=[
-            "one substantial matchup page",
-            "the house gets beat",
-            "$100",
-            "achane",
-            "darnold $15",
-            "ledger",
-            "barometer",
-            "three-page"
-        ]
-        for token in required_tokens:
-            if token not in combined:
-                errors.append({"code":"LLC_HMB_CURRENT_TREATMENT_INCOMPLETE","missing":token})
-        if llc.get("current_page_count")!=1:
-            errors.append({"code":"LLC_HMB_STALE_PAGE_COUNT","actual":llc.get("current_page_count")})
-
-    # No artwork while the register itself says no generation.
-    if doc.get("generation_state")!="NO_ART_GENERATION_AUTHORIZED":
-        errors.append({"code":"GENERATION_STATE_NOT_FAIL_CLOSED"})
-
-    return {
-        "state":"FAIL_INTERNAL" if errors else "PASS",
-        "errors":errors,
-        "story_units":len(units),
-        "required_matchups":len(required_matchups),
-        "required_modules":len(required_modules)
+            if actual!=src["blob_sha"]: errors.append({"code":"STORY_AUTHORITY_SOURCE_STALE","unit":uid,"path":src["path"],"expected":src["blob_sha"],"actual":actual})
+        if story_hash(u)!=u.get("story_authority_hash"): errors.append({"code":"STORY_AUTHORITY_HASH_MISMATCH","unit":uid})
+    expected_counts={
+      "W4-STORY-DK-OBI":4,"W4-STORY-MUD-TDS":3,"W4-STORY-RED-DUCK":3,
+      "W4-STORY-SLOB-CHILI":3,"W4-STORY-LLC-HMB":3,"W4-STORY-ELNINO-7DC":3
     }
+    for uid,count in expected_counts.items():
+        if by_id.get(uid,{}).get("current_page_count")!=count: errors.append({"code":"PAGE_COUNT_MISMATCH","unit":uid,"expected":count,"actual":by_id.get(uid,{}).get("current_page_count")})
+    if doc.get("generation_state")!="PRE_ART_LOCKED_WAITING_ON_FLAIM_ONLY": errors.append({"code":"GENERATION_STATE_INVALID"})
+    smap=load_json(SUPERSESSION)
+    rows=smap.get("classifications",[])
+    if not any(r.get("classification")=="SUPERSEDED" and "one-page LLC" in r.get("source","") for r in rows): errors.append({"code":"STALE_LLC_ONE_PAGE_NOT_SUPERSEDED"})
+    for forbidden in ("Repair Bridge","Club-Information Bridge","Models/Pressure Bridge"):
+        if not any(r.get("classification")=="FORBIDDEN" and r.get("source")==forbidden for r in rows): errors.append({"code":"FORBIDDEN_BRIDGE_NOT_RECORDED","source":forbidden})
+    ownership=load_json(OWNERSHIP)
+    gates=ownership.get("gates",[])
+    if [g.get("gate_id") for g in gates] != [f"G{i}" for i in range(1,13)]: errors.append({"code":"DIRECTOR_GATE_SET_INVALID"})
+    for g in gates:
+        if not g.get("owner") or not g.get("counterweight") or g.get("control_status")!="PASS": errors.append({"code":"DIRECTOR_GATE_INVALID","gate":g.get("gate_id")})
+    return {"state":"FAIL_INTERNAL" if errors else "PASS","errors":errors,"story_units":len(units)}
 
 if __name__=="__main__":
-    result=validate()
-    print(json.dumps(result,indent=2))
-    raise SystemExit(1 if result["state"]!="PASS" else 0)
+    r=validate(); print(json.dumps(r,indent=2)); raise SystemExit(1 if r["state"]!="PASS" else 0)

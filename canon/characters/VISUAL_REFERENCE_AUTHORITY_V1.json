@@ -10,7 +10,7 @@
     "canonical_prose",
     "historical_artwork"
   ],
-  "production_rule": "A character-bearing renderer input is authoritative only when its mounted source bytes hash to the current approved expected_sha256 for that Character ID. Asset names, tags, prompts, composites, previews, and generated redraws are not authority.",
+  "production_rule": "A character-bearing renderer input is authoritative when either (A) mounted source bytes freshly hash to the approved expected_sha256, or (B) for OpenAI native image generation, the exact registered canonical Library file_id is directly bound through NATIVE_RENDER_REFERENCE_BINDING_V1.json. Path B proves canonical-handle binding, not fresh byte re-hashing; expected_sha256 remains provenance authority and visible raster Character QA remains mandatory. Semantic visual conflicts listed in source_visual_conflicts MUST block either path A or B even if the original filename, approved SHA or Library handle matches.",
   "derived_asset_rule": "A generated or composite asset may never become PRIMARY_IDENTITY_AUTHORITY by filename/tag. Promotion requires an explicit Commissioner-approved source supersession recorded in canon and a new approved SHA-256.",
   "master_lineup": {
     "name": "SCHEMIN_26_CHARACTER_CANON_MASTER_LINEUP_2026.png",
@@ -31,7 +31,7 @@
     "stale_for": [
       {
         "character_id": "CHAR-WILSON-LOOK",
-        "reason": "Commissioner correction 2026-10-02: current owner-specific source depicts canonical ONE-BODY Arsenal Gorilla Centaur Warrior — gorilla head/upper identity integrated with four-legged centaur/equine lower body; prior semantic 'centaur retired' interpretation is stale",
+        "reason": "2026-10-18 visual re-review of registered original Library JPEG IMG_7866(1).jpeg shows a bipedal Arsenal gorilla on historic Week 3 cover. This conflicts with Commissioner 2026-10-02 current integrated four-legged Arsenal Gorilla Centaur; do not assume the old registered source visually depicts current anatomy. October 12 candidate remains unpromoted.",
         "active_source_filename": "IMG_7866(1).jpeg",
         "expected_sha256": "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10",
         "commissioner_correction": "2026-10-02",
@@ -73,6 +73,48 @@
       "CHAR-PHILLIP-PITTS",
       "CHAR-AUSTIN-BYARS"
     ],
-    "rule": "Owner-specific approved source/hash plus latest explicit Commissioner correction outrank contradictory semantic prose. TDS/HMB retain their approved source/hash; DK anatomy correction changes semantic interpretation of the existing approved source, not its bytes."
+    "rule": "Owner-specific approved hashes are source provenance; the latest explicit Commissioner anatomy correction prevails in current visual semantics. The registered older DK JPEG visibly conflicts with the later four-legged anatomy lock and is blocked for current production until approved source supersession. TDS/HMB retain their independent existing primary hashes."
+  },
+  "native_handle_bridge_2026_10_06": {
+    "status": "ACTIVE",
+    "manifest": "canon/characters/NATIVE_RENDER_REFERENCE_BINDING_V1.json",
+    "rationale": "The first-party Files Library exposes the exact registered canonical library_file_id and file_id handles for all 12 current references, while raw-byte materialization is unavailable in this execution context.",
+    "rule": "For OpenAI native image generation, exact registered file_id handle binding may be used as the renderer conditioning path when the handle matches the active canonical Library record. This is renderer-binding authorization, not a claim of freshly recomputed SHA-256. WARNING: the previously READY DK native handle now fails semantic visual-canon review and is blocked regardless of exact handle.",
+    "fail_closed": "If the exact registered file_id is unavailable or omitted, CHARACTER_REFERENCE_HANDLE_UNAVAILABLE / DO NOT GENERATE."
+  },
+  "source_visual_conflicts": [
+    {
+      "character_id": "CHAR-WILSON-LOOK",
+      "state": "ACTIVE_CANON_VISUAL_CONFLICT_HOLD",
+      "affected_original_file_id": "file_00000000df4081f5803f8ba6dfb68b42",
+      "affected_filename": "IMG_7866(1).jpeg",
+      "affected_expected_sha256": "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10",
+      "observed_at": "2026-10-18",
+      "source_preview_observation": "The original registered Library JPEG visibly depicts a bipedal Arsenal gorilla on a Week 3 cover; it does not show the four-legged centaur/equine lower body required by the later current canon.",
+      "current_canon_requirement": "ONE integrated gorilla upper identity with FOUR-LEGGED centaur/equine lower anatomy; Arsenal identity; not two creatures",
+      "review_authority": "ASSISTANT_VISUAL_INSPECTION_ONLY__INDEPENDENT_UMPIRE_NOT_SIGNED",
+      "block_old_exact_sha_after_recovery": true,
+      "block_native_library_handle": true,
+      "candidate_asset": "canon/characters/assets/CHAR-WILSON-LOOK/candidate/COMMISSIONER_2026-10-12.png",
+      "candidate_sha256": "c4ef045845641e6e2067d1ed82be20b9a0fd154c41aff0bfec4c2e36d26d319d",
+      "candidate_role": "NONACTIVE_VISUAL_CANDIDATE__NOT_APPROVED_PRIMARY",
+      "candidate_preliminary_observation": "October 12 illustration visibly portrays Arsenal gorilla upper body joined to a centaur-like four-legged lower body; complete leg-count QA is pending.",
+      "supersession_state": "COMMISSIONER_EXPLICIT_VERSION_APPROVAL_AND_INDEPENDENT_C1_REQUIRED",
+      "candidate_retrieval_note": "Candidate bytes are currently held on separate draft PR #195; not available to this hotfix main branch and not approved for current production."
+    }
+  ],
+  "commissioner_approved_current_lineup_2026_10_18": {
+    "approval": "COMMISSIONER_APPROVED_CURRENT_TWELVE_CHARACTER_PRESENTATION",
+    "date": "2026-10-18",
+    "manifest": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+    "image_path": "canon/characters/assets/lineups/SCHEMIN_26_COMMISSIONER_APPROVED_LINEUP_2026_10_18.png",
+    "sha256": "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2",
+    "supporting_HMB_correction_sha256": "ed65db3f1271e19db54be94d7a09b7910b333cde79dcaa107020cc54015d5ade",
+    "semantic_role": "VISUAL_PRESENTATION_AUTHORITY_ALL_TWELVE",
+    "is_primary_source_supersession": false,
+    "renderer_identity_bindings_certified": false,
+    "current_DK_historical_primary_visual_conflict_still_active": true,
+    "historical_reference_hashes_unchanged": true,
+    "scope": "Appearance and comparative visual QA baseline; not automatic conditioning-seed, source supersession, scene renderer success or publication approval."
   }
 }

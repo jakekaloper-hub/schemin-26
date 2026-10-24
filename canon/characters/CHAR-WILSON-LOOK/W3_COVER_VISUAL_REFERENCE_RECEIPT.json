@@ -1,0 +1,36 @@
+{
+  "receipt_version": "1.0",
+  "character_id": "CHAR-WILSON-LOOK",
+  "owner": "Wilson Look",
+  "team": "D0nkey K0ng",
+  "active_identity": "Arsenal Gorilla Centaur Warrior",
+  "source_kind": "COMMISSIONER_SUPPLIED_W3_COVER",
+  "classification": "SUPPLEMENTARY_APPEARANCE_AND_HISTORICAL_COVER_ONLY",
+  "repository_path": "canon/characters/assets/CHAR-WILSON-LOOK/supplementary/WEEK_03_LAST_UNDEFEATED_COVER.png",
+  "stored_file_sha256": "29aca59d4e2ebd81355cb6fbad339791383f898c3bf7f74e5c0dce2add4b811a",
+  "stored_file_size_bytes": 2750630,
+  "uploaded_2026_10_13": {
+    "filename": "IMG_7866(2).PNG",
+    "sha256": "8f64dfcfc1ceae4f737320e33dbfe296a0aae35ff4552af35f791e6b0615703a",
+    "byte_size": 3405452,
+    "pixel_digest_sha256": "323958ee9d9dcf7dd7efd0a55924aedcb85cc9f1fc0773414095fa79d0d5b0be",
+    "pixel_dimensions": [
+      1086,
+      1448
+    ]
+  },
+  "stored_file_pixel_digest_sha256": "323958ee9d9dcf7dd7efd0a55924aedcb85cc9f1fc0773414095fa79d0d5b0be",
+  "pixel_identity_verification": "PASS_PIXEL_IDENTICAL_DESPITE_DISTINCT_PNG_BYTE_ENCODING",
+  "render_usage": "VISUAL_CONTINUITY_CONTEXT_ONLY_NOT_PRIMARY_IDENTITY_SOURCE",
+  "morphology_lock": "ONE Gorilla head/upper torso + FOUR_LEGGED centaur lower body; W3 cover framing is NOT permission to substitute a biped in full-body character scenes",
+  "primary_reference": {
+    "source_filename": "IMG_7866(1).jpeg",
+    "expected_sha256": "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10",
+    "repository_byte_ingest": "NOT_PROVEN",
+    "approval_state": "APPROVED_BUT_REPOSITORY_BYTES_REQUIRED"
+  },
+  "provider_mount_verified": false,
+  "subject_binding_verified": false,
+  "character_raster_qa": "NOT_YET_PASS",
+  "production_gate": "HOLD_UNTIL_PRIMARY_BYTES_AND_REAL_RENDERER_SUBJECT_BINDING_PROVEN"
+}
