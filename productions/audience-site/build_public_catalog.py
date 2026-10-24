@@ -332,6 +332,12 @@ def build_catalog(output=None, render=True, released_source_dir=None):
          'source': intake['files'][2]['archive_path'], 'label': label}
         for number, label in [(6, 'Red Ruins'), (9, 'Jackson Invitational'), (13, 'Chili Stable'), (17, 'Waterfall Temple')]
     ]
+    companion_spec = importlib.util.spec_from_file_location('reviewed_memo_text', BASE / 'reviewed_memo_text.py')
+    companion_module = importlib.util.module_from_spec(companion_spec)
+    companion_spec.loader.exec_module(companion_module)
+    companions = companion_module.load_companions(ROOT, memos, REVISION)
+    for memo in memos:
+        memo['pageText'] = companions.get(memo['id'], {})
     artwork = load_artwork(output)
     data = {'artwork': artwork, 'characters': characters, 'locations': locations, 'routes': routes, 'zones': zones,
             'memos': sorted(memos, key=lambda x: x['week'], reverse=True), 'chapters': chapters,
