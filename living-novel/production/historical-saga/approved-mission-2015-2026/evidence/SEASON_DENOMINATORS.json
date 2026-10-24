@@ -1,0 +1,682 @@
+{
+  "baseline_commit": "8fcb77191955f413fe970154d47632770f923055",
+  "policy": "Observed evidence denominators are not certified complete schedules. No acceptance inferred from manuscript existence. Unpaired rows retained separately.",
+  "seasons": [
+    {
+      "season": 2015,
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "returned_rows": 102,
+      "distinct_source_entries": 90,
+      "duplicate_display_rows": 12,
+      "observed_paired_contests": 90,
+      "regular_season_contests": 78,
+      "postseason_contests": 12,
+      "unpaired_rows": 0,
+      "postseason_tiers_paired": {
+        "WINNERS_BRACKET": 3,
+        "LOSERS_CONSOLATION_LADDER": 8,
+        "WINNERS_CONSOLATION_LADDER": 1
+      },
+      "regular_scoring_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "postseason_scoring_weeks": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "denominator_scope": "OBSERVED_PAIRED_SOURCE_CONTESTS; full historical schedule completeness not independently certified",
+      "accepted_literary_coverage": 0,
+      "coverage_status": "UNACCEPTED_NOT_UNWRITTEN",
+      "missing_data": [
+        "Historical owner binding",
+        "Historical division and venue binding",
+        "Raw provider bytes not supplied by these transcriptions",
+        "Independent schedule/bracket completeness reconciliation"
+      ],
+      "title_outcome": {
+        "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json",
+        "source_sha256": "21af60795d2431dbe5a7b971e7ef0d7d6515a61451420db18986f00329c69e2e",
+        "record": {
+          "season": 2015,
+          "final_scoring_week": 16,
+          "winner_team_id": 12,
+          "winner_team_name": "Discount Belichick",
+          "winner_points": 211.5,
+          "runnerup_team_id": 8,
+          "runnerup_team_name": "Austin's Hyena's",
+          "runnerup_points": 187
+        },
+        "meaning": "Historical team label and slot only; not verified present-owner title"
+      }
+    },
+    {
+      "season": 2016,
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "returned_rows": 102,
+      "distinct_source_entries": 90,
+      "duplicate_display_rows": 12,
+      "observed_paired_contests": 90,
+      "regular_season_contests": 78,
+      "postseason_contests": 12,
+      "unpaired_rows": 0,
+      "postseason_tiers_paired": {
+        "WINNERS_BRACKET": 3,
+        "LOSERS_CONSOLATION_LADDER": 8,
+        "WINNERS_CONSOLATION_LADDER": 1
+      },
+      "regular_scoring_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "postseason_scoring_weeks": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "denominator_scope": "OBSERVED_PAIRED_SOURCE_CONTESTS; full historical schedule completeness not independently certified",
+      "accepted_literary_coverage": 0,
+      "coverage_status": "UNACCEPTED_NOT_UNWRITTEN",
+      "missing_data": [
+        "Historical owner binding",
+        "Historical division and venue binding",
+        "Raw provider bytes not supplied by these transcriptions",
+        "Independent schedule/bracket completeness reconciliation"
+      ],
+      "title_outcome": {
+        "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json",
+        "source_sha256": "21af60795d2431dbe5a7b971e7ef0d7d6515a61451420db18986f00329c69e2e",
+        "record": {
+          "season": 2016,
+          "final_scoring_week": 16,
+          "winner_team_id": 8,
+          "winner_team_name": "Austin's Hyena's",
+          "winner_points": 217.7,
+          "runnerup_team_id": 7,
+          "runnerup_team_name": "The Gunslingers",
+          "runnerup_points": 206.88
+        },
+        "meaning": "Historical team label and slot only; not verified present-owner title"
+      }
+    },
+    {
+      "season": 2017,
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "returned_rows": 97,
+      "distinct_source_entries": 97,
+      "duplicate_display_rows": 0,
+      "observed_paired_contests": 95,
+      "regular_season_contests": 78,
+      "postseason_contests": 17,
+      "unpaired_rows": 2,
+      "postseason_tiers_paired": {
+        "WINNERS_BRACKET": 5,
+        "LOSERS_CONSOLATION_LADDER": 9,
+        "WINNERS_CONSOLATION_LADDER": 3
+      },
+      "regular_scoring_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "postseason_scoring_weeks": [
+        14,
+        15,
+        16
+      ],
+      "denominator_scope": "OBSERVED_PAIRED_SOURCE_CONTESTS; full historical schedule completeness not independently certified",
+      "accepted_literary_coverage": 0,
+      "coverage_status": "UNACCEPTED_NOT_UNWRITTEN",
+      "missing_data": [
+        "Historical owner binding",
+        "Historical division and venue binding",
+        "Raw provider bytes not supplied by these transcriptions",
+        "Independent schedule/bracket completeness reconciliation"
+      ],
+      "title_outcome": {
+        "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json",
+        "source_sha256": "21af60795d2431dbe5a7b971e7ef0d7d6515a61451420db18986f00329c69e2e",
+        "record": {
+          "season": 2017,
+          "final_scoring_week": 16,
+          "winner_team_id": 12,
+          "winner_team_name": "The Fournecators",
+          "winner_points": 144.2,
+          "runnerup_team_id": 7,
+          "runnerup_team_name": "The Gunslingers",
+          "runnerup_points": 80.42
+        },
+        "meaning": "Historical team label and slot only; not verified present-owner title"
+      }
+    },
+    {
+      "season": 2018,
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "returned_rows": 97,
+      "distinct_source_entries": 97,
+      "duplicate_display_rows": 0,
+      "observed_paired_contests": 95,
+      "regular_season_contests": 78,
+      "postseason_contests": 17,
+      "unpaired_rows": 2,
+      "postseason_tiers_paired": {
+        "WINNERS_BRACKET": 5,
+        "LOSERS_CONSOLATION_LADDER": 9,
+        "WINNERS_CONSOLATION_LADDER": 3
+      },
+      "regular_scoring_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "postseason_scoring_weeks": [
+        14,
+        15,
+        16
+      ],
+      "denominator_scope": "OBSERVED_PAIRED_SOURCE_CONTESTS; full historical schedule completeness not independently certified",
+      "accepted_literary_coverage": 0,
+      "coverage_status": "UNACCEPTED_NOT_UNWRITTEN",
+      "missing_data": [
+        "Historical owner binding",
+        "Historical division and venue binding",
+        "Raw provider bytes not supplied by these transcriptions",
+        "Independent schedule/bracket completeness reconciliation"
+      ],
+      "title_outcome": {
+        "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json",
+        "source_sha256": "21af60795d2431dbe5a7b971e7ef0d7d6515a61451420db18986f00329c69e2e",
+        "record": {
+          "season": 2018,
+          "final_scoring_week": 16,
+          "winner_team_id": 8,
+          "winner_team_name": "Kardiac Kids",
+          "winner_points": 160.69,
+          "runnerup_team_id": 12,
+          "runnerup_team_name": "Christopher Columbus",
+          "runnerup_points": 153.26
+        },
+        "meaning": "Historical team label and slot only; not verified present-owner title"
+      }
+    },
+    {
+      "season": 2019,
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2019_FULL_WEEKLY_MATCHUPS.json",
+      "returned_rows": 97,
+      "distinct_source_entries": 97,
+      "duplicate_display_rows": 0,
+      "observed_paired_contests": 95,
+      "regular_season_contests": 78,
+      "postseason_contests": 17,
+      "unpaired_rows": 2,
+      "postseason_tiers_paired": {
+        "WINNERS_BRACKET": 5,
+        "LOSERS_CONSOLATION_LADDER": 9,
+        "WINNERS_CONSOLATION_LADDER": 3
+      },
+      "regular_scoring_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "postseason_scoring_weeks": [
+        14,
+        15,
+        16
+      ],
+      "denominator_scope": "OBSERVED_PAIRED_SOURCE_CONTESTS; full historical schedule completeness not independently certified",
+      "accepted_literary_coverage": 0,
+      "coverage_status": "UNACCEPTED_NOT_UNWRITTEN",
+      "missing_data": [
+        "Historical owner binding",
+        "Historical division and venue binding",
+        "Raw provider bytes not supplied by these transcriptions",
+        "Independent schedule/bracket completeness reconciliation"
+      ],
+      "title_outcome": {
+        "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json",
+        "source_sha256": "21af60795d2431dbe5a7b971e7ef0d7d6515a61451420db18986f00329c69e2e",
+        "record": {
+          "season": 2019,
+          "final_scoring_week": 16,
+          "winner_team_id": 3,
+          "winner_team_name": "Please, Please, Please, please",
+          "winner_points": 158.3,
+          "runnerup_team_id": 5,
+          "runnerup_team_name": "Make Amarica Great Again",
+          "runnerup_points": 113.46
+        },
+        "meaning": "Historical team label and slot only; not verified present-owner title"
+      }
+    },
+    {
+      "season": 2020,
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2020_FULL_WEEKLY_MATCHUPS.json",
+      "returned_rows": 97,
+      "distinct_source_entries": 97,
+      "duplicate_display_rows": 0,
+      "observed_paired_contests": 95,
+      "regular_season_contests": 78,
+      "postseason_contests": 17,
+      "unpaired_rows": 2,
+      "postseason_tiers_paired": {
+        "WINNERS_BRACKET": 5,
+        "LOSERS_CONSOLATION_LADDER": 9,
+        "WINNERS_CONSOLATION_LADDER": 3
+      },
+      "regular_scoring_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "postseason_scoring_weeks": [
+        14,
+        15,
+        16
+      ],
+      "denominator_scope": "OBSERVED_PAIRED_SOURCE_CONTESTS; full historical schedule completeness not independently certified",
+      "accepted_literary_coverage": 0,
+      "coverage_status": "UNACCEPTED_NOT_UNWRITTEN",
+      "missing_data": [
+        "Historical owner binding",
+        "Historical division and venue binding",
+        "Raw provider bytes not supplied by these transcriptions",
+        "Independent schedule/bracket completeness reconciliation"
+      ],
+      "title_outcome": {
+        "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json",
+        "source_sha256": "21af60795d2431dbe5a7b971e7ef0d7d6515a61451420db18986f00329c69e2e",
+        "record": {
+          "season": 2020,
+          "final_scoring_week": 16,
+          "winner_team_id": 10,
+          "winner_team_name": "Where Mahomies at?",
+          "winner_points": 189.19,
+          "runnerup_team_id": 8,
+          "runnerup_team_name": "The Grinch",
+          "runnerup_points": 188.44
+        },
+        "meaning": "Historical team label and slot only; not verified present-owner title"
+      }
+    },
+    {
+      "season": 2021,
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2021_FULL_WEEKLY_MATCHUPS.json",
+      "returned_rows": 105,
+      "distinct_source_entries": 105,
+      "duplicate_display_rows": 0,
+      "observed_paired_contests": 99,
+      "regular_season_contests": 84,
+      "postseason_contests": 15,
+      "unpaired_rows": 6,
+      "postseason_tiers_paired": {
+        "WINNERS_BRACKET": 6,
+        "LOSERS_CONSOLATION_LADDER": 6,
+        "WINNERS_CONSOLATION_LADDER": 3
+      },
+      "regular_scoring_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "postseason_scoring_weeks": [
+        15,
+        16,
+        17
+      ],
+      "denominator_scope": "OBSERVED_PAIRED_SOURCE_CONTESTS; full historical schedule completeness not independently certified",
+      "accepted_literary_coverage": 0,
+      "coverage_status": "UNACCEPTED_NOT_UNWRITTEN",
+      "missing_data": [
+        "Historical owner binding",
+        "Historical division and venue binding",
+        "Raw provider bytes not supplied by these transcriptions",
+        "Independent schedule/bracket completeness reconciliation"
+      ],
+      "title_outcome": {
+        "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json",
+        "source_sha256": "21af60795d2431dbe5a7b971e7ef0d7d6515a61451420db18986f00329c69e2e",
+        "record": {
+          "season": 2021,
+          "final_scoring_week": 17,
+          "winner_team_id": 5,
+          "winner_team_name": "Dewars White Label",
+          "winner_points": 178.06,
+          "runnerup_team_id": 8,
+          "runnerup_team_name": "The Third Coming",
+          "runnerup_points": 96.58
+        },
+        "meaning": "Historical team label and slot only; not verified present-owner title"
+      }
+    },
+    {
+      "season": 2022,
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "returned_rows": 105,
+      "distinct_source_entries": 105,
+      "duplicate_display_rows": 0,
+      "observed_paired_contests": 99,
+      "regular_season_contests": 84,
+      "postseason_contests": 15,
+      "unpaired_rows": 6,
+      "postseason_tiers_paired": {
+        "WINNERS_BRACKET": 6,
+        "LOSERS_CONSOLATION_LADDER": 6,
+        "WINNERS_CONSOLATION_LADDER": 3
+      },
+      "regular_scoring_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "postseason_scoring_weeks": [
+        15,
+        16,
+        17
+      ],
+      "denominator_scope": "OBSERVED_PAIRED_SOURCE_CONTESTS; full historical schedule completeness not independently certified",
+      "accepted_literary_coverage": 0,
+      "coverage_status": "UNACCEPTED_NOT_UNWRITTEN",
+      "missing_data": [
+        "Historical owner binding",
+        "Historical division and venue binding",
+        "Raw provider bytes not supplied by these transcriptions",
+        "Independent schedule/bracket completeness reconciliation"
+      ],
+      "title_outcome": {
+        "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json",
+        "source_sha256": "21af60795d2431dbe5a7b971e7ef0d7d6515a61451420db18986f00329c69e2e",
+        "record": {
+          "season": 2022,
+          "final_scoring_week": 17,
+          "winner_team_id": 9,
+          "winner_team_name": "El Niño",
+          "winner_points": 111.56,
+          "runnerup_team_id": 10,
+          "runnerup_team_name": "Where Mahomies at?",
+          "runnerup_points": 78.3
+        },
+        "meaning": "Historical team label and slot only; not verified present-owner title"
+      }
+    },
+    {
+      "season": 2023,
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "returned_rows": 105,
+      "distinct_source_entries": 105,
+      "duplicate_display_rows": 0,
+      "observed_paired_contests": 99,
+      "regular_season_contests": 84,
+      "postseason_contests": 15,
+      "unpaired_rows": 6,
+      "postseason_tiers_paired": {
+        "WINNERS_BRACKET": 6,
+        "LOSERS_CONSOLATION_LADDER": 6,
+        "WINNERS_CONSOLATION_LADDER": 3
+      },
+      "regular_scoring_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "postseason_scoring_weeks": [
+        15,
+        16,
+        17
+      ],
+      "denominator_scope": "OBSERVED_PAIRED_SOURCE_CONTESTS; full historical schedule completeness not independently certified",
+      "accepted_literary_coverage": 0,
+      "coverage_status": "UNACCEPTED_NOT_UNWRITTEN",
+      "missing_data": [
+        "Historical owner binding",
+        "Historical division and venue binding",
+        "Raw provider bytes not supplied by these transcriptions",
+        "Independent schedule/bracket completeness reconciliation"
+      ],
+      "title_outcome": {
+        "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json",
+        "source_sha256": "21af60795d2431dbe5a7b971e7ef0d7d6515a61451420db18986f00329c69e2e",
+        "record": {
+          "season": 2023,
+          "final_scoring_week": 17,
+          "winner_team_id": 12,
+          "winner_team_name": "Eggs Benedict",
+          "winner_points": 192.88,
+          "runnerup_team_id": 11,
+          "runnerup_team_name": "Arm Chair GM",
+          "runnerup_points": 140.76
+        },
+        "meaning": "Historical team label and slot only; not verified present-owner title"
+      }
+    },
+    {
+      "season": 2024,
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2024_FULL_WEEKLY_MATCHUPS.json",
+      "returned_rows": 105,
+      "distinct_source_entries": 105,
+      "duplicate_display_rows": 0,
+      "observed_paired_contests": 99,
+      "regular_season_contests": 84,
+      "postseason_contests": 15,
+      "unpaired_rows": 6,
+      "postseason_tiers_paired": {
+        "WINNERS_BRACKET": 6,
+        "LOSERS_CONSOLATION_LADDER": 6,
+        "WINNERS_CONSOLATION_LADDER": 3
+      },
+      "regular_scoring_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "postseason_scoring_weeks": [
+        15,
+        16,
+        17
+      ],
+      "denominator_scope": "OBSERVED_PAIRED_SOURCE_CONTESTS; full historical schedule completeness not independently certified",
+      "accepted_literary_coverage": 0,
+      "coverage_status": "UNACCEPTED_NOT_UNWRITTEN",
+      "missing_data": [
+        "Historical owner binding",
+        "Historical division and venue binding",
+        "Raw provider bytes not supplied by these transcriptions",
+        "Independent schedule/bracket completeness reconciliation"
+      ],
+      "title_outcome": {
+        "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json",
+        "source_sha256": "21af60795d2431dbe5a7b971e7ef0d7d6515a61451420db18986f00329c69e2e",
+        "record": {
+          "season": 2024,
+          "final_scoring_week": 17,
+          "winner_team_id": 1,
+          "winner_team_name": "ObiWan Jacoby",
+          "winner_points": 187.52,
+          "runnerup_team_id": 8,
+          "runnerup_team_name": "The King",
+          "runnerup_points": 161.68
+        },
+        "meaning": "Historical team label and slot only; not verified present-owner title"
+      }
+    },
+    {
+      "season": 2025,
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "returned_rows": 105,
+      "distinct_source_entries": 105,
+      "duplicate_display_rows": 0,
+      "observed_paired_contests": 99,
+      "regular_season_contests": 84,
+      "postseason_contests": 15,
+      "unpaired_rows": 6,
+      "postseason_tiers_paired": {
+        "WINNERS_BRACKET": 6,
+        "LOSERS_CONSOLATION_LADDER": 6,
+        "WINNERS_CONSOLATION_LADDER": 3
+      },
+      "regular_scoring_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "postseason_scoring_weeks": [
+        15,
+        16,
+        17
+      ],
+      "denominator_scope": "OBSERVED_PAIRED_SOURCE_CONTESTS; full historical schedule completeness not independently certified",
+      "accepted_literary_coverage": 0,
+      "coverage_status": "UNACCEPTED_NOT_UNWRITTEN",
+      "missing_data": [
+        "Historical owner binding",
+        "Historical division and venue binding",
+        "Raw provider bytes not supplied by these transcriptions",
+        "Independent schedule/bracket completeness reconciliation"
+      ],
+      "title_outcome": {
+        "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json",
+        "source_sha256": "21af60795d2431dbe5a7b971e7ef0d7d6515a61451420db18986f00329c69e2e",
+        "record": {
+          "season": 2025,
+          "final_scoring_week": 17,
+          "winner_team_id": 8,
+          "winner_team_name": "The Immortal",
+          "winner_points": 161.07,
+          "runnerup_team_id": 1,
+          "runnerup_team_name": "ObiWan Jacoby",
+          "runnerup_points": 109.56
+        },
+        "meaning": "Historical team label and slot only; not verified present-owner title"
+      }
+    },
+    {
+      "season": 2026,
+      "observed_paired_contests": 36,
+      "decided_repository_receipts": 36,
+      "unresolved_finality": 0,
+      "latest_final_repository_cutoff": "2026 Week 6; receipt 2026-10-20",
+      "cutoff_limit": "Not live-provider refreshed; Week 4 finality reconciled to Oct14 receipt; W7 source fixtures explicitly UNDECIDED; no season ending or future results licensed",
+      "denominator_scope": "OBSERVED_W1_W6_PAIRED_ROWS; not full-season denominator"
+    }
+  ]
+}

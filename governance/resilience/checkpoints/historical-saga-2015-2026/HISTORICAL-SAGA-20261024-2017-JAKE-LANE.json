@@ -1,0 +1,51 @@
+{
+  "version": "1.0.0",
+  "checkpoint_id": "HISTORICAL-SAGA-20261024-2017-JAKE-LANE",
+  "project": "schemin-26",
+  "workflow": "historical-saga-2015-2026",
+  "stage": "BOUNDED_2017_JAKE_EVENTS_DRAFT_REVIEWED",
+  "owner": "Novel production task",
+  "source_authority": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+  "completed_at": "2026-10-24T06:08:46.442271+00:00",
+  "input_fingerprints": [
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/FLAIM_2017_TEAM1_EVENT_JOIN.md",
+      "digest_algo": "sha256",
+      "digest": "d52c47b20e25fdb5b84abe98a06ae053f0cd4ff3e8b6d394373d16ce50d7f8f4"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2017_FIXTURE_COVERAGE.json",
+      "digest_algo": "sha256",
+      "digest": "5168485cb2298f5b696addc7c84c381d6adb2c08b60b149e0c117946ff05b78c"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/owner-extraction-audit/FLAIM_CONNECTED_ACCOUNT_CONTINUITY.md",
+      "digest_algo": "sha256",
+      "digest": "f7746a9765b83dddc5d42d17788799d95971853b9b0bda2624085dafcf3bb219"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/THE_ROOM_THAT_KEPT_COUNT_NONCANON.md",
+      "digest_algo": "sha256",
+      "digest": "41d0e831e714a43ce2c2ed88bac01af4ac5242dac18aa6402daf2d6415890d0d"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/SCENE_REGISTER.json",
+      "digest_algo": "sha256",
+      "digest": "7ae70bc37965fe6730f4e3bc9a843d2e0d02dda231f8de128f846b0a53458e32"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/2017_JAKE_LITERARY_REVIEW.md",
+      "digest_algo": "sha256",
+      "digest": "56c1e13b9da10aac15dbc8c735ff7b914669499e097d4608fb58fbe3a23530e9"
+    }
+  ],
+  "evidence": [
+    "living-novel/production/historical-saga/approved-mission-2015-2026/review/2017_JAKE_LANE_CHECK.json",
+    "living-novel/production/historical-saga/approved-mission-2015-2026/review/check_2017_jake_lane.py"
+  ],
+  "invalidation_triggers": [
+    "Changes to the user-attested Jake identity, Flaim 2017 team-1 join, fixture evidence, scene register, or prose require re-review."
+  ]
+}

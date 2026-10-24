@@ -1,0 +1,13 @@
+# Published-method source packet
+
+Read via web tool on 2026-10-24. Official source pages were accessible. Sources establish general craft methods, never participation, approval, private opinions, project facts, or permission to imitate a distinctive prose voice. Detailed project prescriptions below are this critic’s applications of repository dossiers.
+
+- **jrr_tolkien**: [Verlyn Flieger on On Fairy-stories](https://www.tolkienestate.com/scholarship/verlyn-flieger-on-fairy-stories/); registry support: secondary_world_coherence, sub_creation, inner_consistency. Dossier: `living-novel/consultants/author-council/advisors/JRR_TOLKIEN_CONSULTANT_DOSSIER_V1.md`.
+- **george_rr_martin**: [A Winter Garden](https://georgerrmartin.com/notablog/2022/07/08/a-winter-garden/); registry support: gardener_architect_balance, story_evolution, viewpoint_character_growth. Dossier: `living-novel/consultants/author-council/advisors/GEORGE_RR_MARTIN_CONSULTANT_DOSSIER_V1.md`.
+- **jk_rowling**: [On Writing](https://www.jkrowling.com/on-writing/); registry support: writing_process, research, editing, long_form_creation. Dossier: `living-novel/consultants/author-council/advisors/JK_ROWLING_CONSULTANT_DOSSIER_V1.md`.
+- **john_grisham**: [John Grisham's Writing Routine](https://jgrisham.com/writing-advice/); registry support: chapter_outlining, pacing, iterative_outline_revision, writing_discipline. Dossier: `living-novel/consultants/author-council/advisors/JOHN_GRISHAM_CONSULTANT_DOSSIER_V1.md`.
+- **ursula_k_le_guin**: [Steering the Craft](https://www.ursulakleguin.com/steering-the-craft); registry support: point_of_view, voice, sentence_craft. Dossier: `living-novel/consultants/author-council/advisors/URSULA_K_LE_GUIN_CONSULTANT_DOSSIER_V1.md`.
+- **brandon_sanderson**: [What Are Sanderson's Laws of Magic?](https://faq.brandonsanderson.com/knowledge-base/what-are-sandersons-laws-of-magic/); registry support: reader_understanding, limitations, expand_before_add. Dossier: `living-novel/consultants/author-council/advisors/BRANDON_SANDERSON_CONSULTANT_DOSSIER_V1.md`.
+- **joe_abercrombie**: [Why the Third Person?](https://joeabercrombie.com/why-the-third-person/); registry support: third_person_limited, pov_flexibility, contrasting_perceptions. Dossier: `living-novel/consultants/author-council/advisors/JOE_ABERCROMBIE_CONSULTANT_DOSSIER_V1.md`.
+
+Rowling’s retrieved landing page identifies embedded films and their subjects; it does not expose a film transcript. Detailed setup/payoff recommendations therefore derive from the existing dossier and are not presented as freshly verified quotations or claims from those films. Le Guin’s page describes a craft book; reading its page is not reading the complete book. No source was quoted verbatim in these memos.

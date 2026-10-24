@@ -1,0 +1,983 @@
+{
+  "season": 2026,
+  "observed_paired_contests": 36,
+  "decided_repository_receipts": 36,
+  "unresolved_finality": 0,
+  "latest_final_repository_cutoff": "2026 Week 6; receipt 2026-10-20",
+  "cutoff_limit": "Not live-provider refreshed; Week 4 finality reconciled to Oct14 receipt; W7 source fixtures explicitly UNDECIDED; no season ending or future results licensed",
+  "denominator_scope": "OBSERVED_W1_W6_PAIRED_ROWS; not full-season denominator",
+  "events": [
+    {
+      "event_id": "ESPN1417621-2026-P01-E001",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 1,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "Mud Dogs",
+      "side_a_score": 125.36,
+      "side_b": "Red Leopards",
+      "side_b_score": 120.86,
+      "home_side": "UNRESOLVED_FROM_THIS_SOURCE",
+      "winner": "Mud Dogs",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "living-novel/weekly-ledger/2026_WEEK_01_EVIDENCE_AND_SIGNIFICANCE.md",
+      "source_sha256": "32d07d5a021a9cf01ef7ec0d1b958d06a44402e3da1c4f10f3bc9e337808189b",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P01-E002",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 1,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "Dr. Duckhook",
+      "side_a_score": 147.32,
+      "side_b": "Seven Deadly Chins",
+      "side_b_score": 145.82,
+      "home_side": "UNRESOLVED_FROM_THIS_SOURCE",
+      "winner": "Dr. Duckhook",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "living-novel/weekly-ledger/2026_WEEK_01_EVIDENCE_AND_SIGNIFICANCE.md",
+      "source_sha256": "32d07d5a021a9cf01ef7ec0d1b958d06a44402e3da1c4f10f3bc9e337808189b",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P01-E003",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 1,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "D0nkey K0ng",
+      "side_a_score": 142.7,
+      "side_b": "Slob on my Dobb",
+      "side_b_score": 134.96,
+      "home_side": "UNRESOLVED_FROM_THIS_SOURCE",
+      "winner": "D0nkey K0ng",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "living-novel/weekly-ledger/2026_WEEK_01_EVIDENCE_AND_SIGNIFICANCE.md",
+      "source_sha256": "32d07d5a021a9cf01ef7ec0d1b958d06a44402e3da1c4f10f3bc9e337808189b",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P01-E004",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 1,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "ObiWan Jacoby",
+      "side_a_score": 141.7,
+      "side_b": "His Majesty's Blood",
+      "side_b_score": 131.26,
+      "home_side": "UNRESOLVED_FROM_THIS_SOURCE",
+      "winner": "ObiWan Jacoby",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "living-novel/weekly-ledger/2026_WEEK_01_EVIDENCE_AND_SIGNIFICANCE.md",
+      "source_sha256": "32d07d5a021a9cf01ef7ec0d1b958d06a44402e3da1c4f10f3bc9e337808189b",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P01-E005",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 1,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "Chili Cheesers",
+      "side_a_score": 198.0,
+      "side_b": "The LLC",
+      "side_b_score": 122.01,
+      "home_side": "UNRESOLVED_FROM_THIS_SOURCE",
+      "winner": "Chili Cheesers",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "living-novel/weekly-ledger/2026_WEEK_01_EVIDENCE_AND_SIGNIFICANCE.md",
+      "source_sha256": "32d07d5a021a9cf01ef7ec0d1b958d06a44402e3da1c4f10f3bc9e337808189b",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P01-E006",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 1,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "Three Dreaded Snake",
+      "side_a_score": 175.56,
+      "side_b": "El Niño",
+      "side_b_score": 144.42,
+      "home_side": "UNRESOLVED_FROM_THIS_SOURCE",
+      "winner": "Three Dreaded Snake",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "living-novel/weekly-ledger/2026_WEEK_01_EVIDENCE_AND_SIGNIFICANCE.md",
+      "source_sha256": "32d07d5a021a9cf01ef7ec0d1b958d06a44402e3da1c4f10f3bc9e337808189b",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P02-E001",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 2,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "Mud Dogs",
+      "side_a_score": 130.84,
+      "side_b": "ObiWan Jacoby",
+      "side_b_score": 122.91,
+      "home_side": "UNRESOLVED_FROM_THIS_SOURCE",
+      "winner": "Mud Dogs",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "living-novel/weekly-ledger/2026_WEEK_02_EVIDENCE_AND_SIGNIFICANCE.md",
+      "source_sha256": "31654957f36c30e45766f8f945f96df76a10cfa277990e5dba0ab74c84da330e",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P02-E002",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 2,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "D0nkey K0ng",
+      "side_a_score": 165.78,
+      "side_b": "Three Dreaded Snake",
+      "side_b_score": 95.87,
+      "home_side": "UNRESOLVED_FROM_THIS_SOURCE",
+      "winner": "D0nkey K0ng",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "living-novel/weekly-ledger/2026_WEEK_02_EVIDENCE_AND_SIGNIFICANCE.md",
+      "source_sha256": "31654957f36c30e45766f8f945f96df76a10cfa277990e5dba0ab74c84da330e",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P02-E003",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 2,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "Slob on my Dobb",
+      "side_a_score": 194.92,
+      "side_b": "Dr. Duckhook",
+      "side_b_score": 122.97,
+      "home_side": "UNRESOLVED_FROM_THIS_SOURCE",
+      "winner": "Slob on my Dobb",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "living-novel/weekly-ledger/2026_WEEK_02_EVIDENCE_AND_SIGNIFICANCE.md",
+      "source_sha256": "31654957f36c30e45766f8f945f96df76a10cfa277990e5dba0ab74c84da330e",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P02-E004",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 2,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "Red Leopards",
+      "side_a_score": 191.9,
+      "side_b": "Chili Cheesers",
+      "side_b_score": 100.9,
+      "home_side": "UNRESOLVED_FROM_THIS_SOURCE",
+      "winner": "Red Leopards",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "living-novel/weekly-ledger/2026_WEEK_02_EVIDENCE_AND_SIGNIFICANCE.md",
+      "source_sha256": "31654957f36c30e45766f8f945f96df76a10cfa277990e5dba0ab74c84da330e",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P02-E005",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 2,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "El Niño",
+      "side_a_score": 131.06,
+      "side_b": "His Majesty's Blood",
+      "side_b_score": 113.52,
+      "home_side": "UNRESOLVED_FROM_THIS_SOURCE",
+      "winner": "El Niño",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "living-novel/weekly-ledger/2026_WEEK_02_EVIDENCE_AND_SIGNIFICANCE.md",
+      "source_sha256": "31654957f36c30e45766f8f945f96df76a10cfa277990e5dba0ab74c84da330e",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P02-E006",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 2,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "Seven Deadly Chins",
+      "side_a_score": 135.38,
+      "side_b": "The LLC",
+      "side_b_score": 125.88,
+      "home_side": "UNRESOLVED_FROM_THIS_SOURCE",
+      "winner": "Seven Deadly Chins",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "living-novel/weekly-ledger/2026_WEEK_02_EVIDENCE_AND_SIGNIFICANCE.md",
+      "source_sha256": "31654957f36c30e45766f8f945f96df76a10cfa277990e5dba0ab74c84da330e",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P03-E001",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 3,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "Three Dreaded Snake",
+      "side_a_score": 114.5,
+      "side_b": "ObiWan Jacoby",
+      "side_b_score": 136.73,
+      "home_side": "UNRESOLVED_FROM_THIS_SOURCE",
+      "winner": "ObiWan Jacoby",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "memo-os/week-3/WEEK_3_FINAL_EVIDENCE_SNAPSHOT_06.md",
+      "source_sha256": "62e3483de951d9103ac6cfb87936d3b686bb243b6abd9419fb9a7e473b23c283",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P03-E002",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 3,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "Mud Dogs",
+      "side_a_score": 126.86,
+      "side_b": "D0nkey K0ng",
+      "side_b_score": 172.48,
+      "home_side": "UNRESOLVED_FROM_THIS_SOURCE",
+      "winner": "D0nkey K0ng",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "memo-os/week-3/WEEK_3_FINAL_EVIDENCE_SNAPSHOT_06.md",
+      "source_sha256": "62e3483de951d9103ac6cfb87936d3b686bb243b6abd9419fb9a7e473b23c283",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P03-E003",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 3,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "The Chili Cheesers",
+      "side_a_score": 132.19,
+      "side_b": "Dr. Duckhook",
+      "side_b_score": 126.16,
+      "home_side": "UNRESOLVED_FROM_THIS_SOURCE",
+      "winner": "The Chili Cheesers",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "memo-os/week-3/WEEK_3_FINAL_EVIDENCE_SNAPSHOT_06.md",
+      "source_sha256": "62e3483de951d9103ac6cfb87936d3b686bb243b6abd9419fb9a7e473b23c283",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P03-E004",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 3,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "Slob on my Dobb",
+      "side_a_score": 141.86,
+      "side_b": "Red Leopards",
+      "side_b_score": 158.44,
+      "home_side": "UNRESOLVED_FROM_THIS_SOURCE",
+      "winner": "Red Leopards",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "memo-os/week-3/WEEK_3_FINAL_EVIDENCE_SNAPSHOT_06.md",
+      "source_sha256": "62e3483de951d9103ac6cfb87936d3b686bb243b6abd9419fb9a7e473b23c283",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P03-E005",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 3,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "Seven Deadly Chins",
+      "side_a_score": 125.54,
+      "side_b": "His Majesty's Blood",
+      "side_b_score": 136.0,
+      "home_side": "UNRESOLVED_FROM_THIS_SOURCE",
+      "winner": "His Majesty's Blood",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "memo-os/week-3/WEEK_3_FINAL_EVIDENCE_SNAPSHOT_06.md",
+      "source_sha256": "62e3483de951d9103ac6cfb87936d3b686bb243b6abd9419fb9a7e473b23c283",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P03-E006",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 3,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "El Nino",
+      "side_a_score": 114.62,
+      "side_b": "The LLC",
+      "side_b_score": 147.43,
+      "home_side": "UNRESOLVED_FROM_THIS_SOURCE",
+      "winner": "The LLC",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "memo-os/week-3/WEEK_3_FINAL_EVIDENCE_SNAPSHOT_06.md",
+      "source_sha256": "62e3483de951d9103ac6cfb87936d3b686bb243b6abd9419fb9a7e473b23c283",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P04-E001",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 4,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "D0nkey K0ng",
+      "side_a_score": 139.67,
+      "side_b": "ObiWan Jacoby",
+      "side_b_score": 157.33,
+      "home_side": "A",
+      "winner": "ObiWan Jacoby",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "living-novel/production/week-04-05/WEEK_04_05_FLAIM_FACT_SNAPSHOT_2026-10-14.json",
+      "source_sha256": "c0b17ab85e17223e79960f3afc621b71965118c64c382931432c5d282dbc0ec5",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      },
+      "provider_winner_flag": "AWAY",
+      "superseded_observation": {
+        "path": "memo-os/week-4/publication-readiness/WEEK_04_DETERMINISTIC_DATA.json",
+        "status": "PROVISIONAL_UNDECIDED_SUPERSEDED_BY_OCT14_DECIDED_RECEIPT"
+      },
+      "corroboration": "living-novel/production/chapter-04/PROVIDER_FINALITY_RECHECK_2026-10-14.md"
+    },
+    {
+      "event_id": "ESPN1417621-2026-P04-E002",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 4,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "Mud Dogs",
+      "side_a_score": 126.98,
+      "side_b": "Three Dreaded Snake",
+      "side_b_score": 149.84,
+      "home_side": "A",
+      "winner": "Three Dreaded Snake",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "living-novel/production/week-04-05/WEEK_04_05_FLAIM_FACT_SNAPSHOT_2026-10-14.json",
+      "source_sha256": "c0b17ab85e17223e79960f3afc621b71965118c64c382931432c5d282dbc0ec5",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      },
+      "provider_winner_flag": "AWAY",
+      "superseded_observation": {
+        "path": "memo-os/week-4/publication-readiness/WEEK_04_DETERMINISTIC_DATA.json",
+        "status": "PROVISIONAL_UNDECIDED_SUPERSEDED_BY_OCT14_DECIDED_RECEIPT"
+      },
+      "corroboration": "living-novel/production/chapter-04/PROVIDER_FINALITY_RECHECK_2026-10-14.md"
+    },
+    {
+      "event_id": "ESPN1417621-2026-P04-E003",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 4,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "Red Leopards",
+      "side_a_score": 164.08,
+      "side_b": "Dr. Duckhook",
+      "side_b_score": 128.36,
+      "home_side": "A",
+      "winner": "Red Leopards",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "living-novel/production/week-04-05/WEEK_04_05_FLAIM_FACT_SNAPSHOT_2026-10-14.json",
+      "source_sha256": "c0b17ab85e17223e79960f3afc621b71965118c64c382931432c5d282dbc0ec5",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      },
+      "provider_winner_flag": "HOME",
+      "superseded_observation": {
+        "path": "memo-os/week-4/publication-readiness/WEEK_04_DETERMINISTIC_DATA.json",
+        "status": "PROVISIONAL_UNDECIDED_SUPERSEDED_BY_OCT14_DECIDED_RECEIPT"
+      },
+      "corroboration": "living-novel/production/chapter-04/PROVIDER_FINALITY_RECHECK_2026-10-14.md"
+    },
+    {
+      "event_id": "ESPN1417621-2026-P04-E004",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 4,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "Slob on my Dobb",
+      "side_a_score": 190.72,
+      "side_b": "The Chili Cheesers",
+      "side_b_score": 139.96,
+      "home_side": "A",
+      "winner": "Slob on my Dobb",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "living-novel/production/week-04-05/WEEK_04_05_FLAIM_FACT_SNAPSHOT_2026-10-14.json",
+      "source_sha256": "c0b17ab85e17223e79960f3afc621b71965118c64c382931432c5d282dbc0ec5",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      },
+      "provider_winner_flag": "HOME",
+      "superseded_observation": {
+        "path": "memo-os/week-4/publication-readiness/WEEK_04_DETERMINISTIC_DATA.json",
+        "status": "PROVISIONAL_UNDECIDED_SUPERSEDED_BY_OCT14_DECIDED_RECEIPT"
+      },
+      "corroboration": "living-novel/production/chapter-04/PROVIDER_FINALITY_RECHECK_2026-10-14.md"
+    },
+    {
+      "event_id": "ESPN1417621-2026-P04-E005",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 4,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "The LLC",
+      "side_a_score": 138.87,
+      "side_b": "His Majesty's Blood",
+      "side_b_score": 177.32,
+      "home_side": "A",
+      "winner": "His Majesty's Blood",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "living-novel/production/week-04-05/WEEK_04_05_FLAIM_FACT_SNAPSHOT_2026-10-14.json",
+      "source_sha256": "c0b17ab85e17223e79960f3afc621b71965118c64c382931432c5d282dbc0ec5",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      },
+      "provider_winner_flag": "AWAY",
+      "superseded_observation": {
+        "path": "memo-os/week-4/publication-readiness/WEEK_04_DETERMINISTIC_DATA.json",
+        "status": "PROVISIONAL_UNDECIDED_SUPERSEDED_BY_OCT14_DECIDED_RECEIPT"
+      },
+      "corroboration": "living-novel/production/chapter-04/PROVIDER_FINALITY_RECHECK_2026-10-14.md"
+    },
+    {
+      "event_id": "ESPN1417621-2026-P04-E006",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 4,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "El Niño",
+      "side_a_score": 170.62,
+      "side_b": "Seven Deadly Chins",
+      "side_b_score": 106.2,
+      "home_side": "A",
+      "winner": "El Niño",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "living-novel/production/week-04-05/WEEK_04_05_FLAIM_FACT_SNAPSHOT_2026-10-14.json",
+      "source_sha256": "c0b17ab85e17223e79960f3afc621b71965118c64c382931432c5d282dbc0ec5",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      },
+      "provider_winner_flag": "HOME",
+      "superseded_observation": {
+        "path": "memo-os/week-4/publication-readiness/WEEK_04_DETERMINISTIC_DATA.json",
+        "status": "PROVISIONAL_UNDECIDED_SUPERSEDED_BY_OCT14_DECIDED_RECEIPT"
+      },
+      "corroboration": "living-novel/production/chapter-04/PROVIDER_FINALITY_RECHECK_2026-10-14.md"
+    },
+    {
+      "event_id": "ESPN1417621-2026-P05-E001",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 5,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "Three Dreaded Snake",
+      "side_a_score": 85.34,
+      "side_b": "His Majesty's Blood",
+      "side_b_score": 113.45,
+      "home_side": "A",
+      "winner": "His Majesty's Blood",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "memo-os/week-5/production-evidence/WEEK_5_SIX_PAYOFF_FINAL_RESULT_BANNER_LOCK_2026-10-13.json",
+      "source_sha256": "9d5f99b6383c24d6165bbd1d56ec824c4024284479120374255ab9fb6a7048bf",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P05-E002",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 5,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "Mud Dogs",
+      "side_a_score": 127.09,
+      "side_b": "The LLC.",
+      "side_b_score": 193.73,
+      "home_side": "A",
+      "winner": "The LLC.",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "memo-os/week-5/production-evidence/WEEK_5_SIX_PAYOFF_FINAL_RESULT_BANNER_LOCK_2026-10-13.json",
+      "source_sha256": "9d5f99b6383c24d6165bbd1d56ec824c4024284479120374255ab9fb6a7048bf",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P05-E003",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 5,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "Chili Cheesers",
+      "side_a_score": 183.53,
+      "side_b": "El Niño",
+      "side_b_score": 156.7,
+      "home_side": "A",
+      "winner": "Chili Cheesers",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "memo-os/week-5/production-evidence/WEEK_5_SIX_PAYOFF_FINAL_RESULT_BANNER_LOCK_2026-10-13.json",
+      "source_sha256": "9d5f99b6383c24d6165bbd1d56ec824c4024284479120374255ab9fb6a7048bf",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P05-E004",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 5,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "Dr. Duckhook",
+      "side_a_score": 184.91,
+      "side_b": "D0nkey K0ng",
+      "side_b_score": 141.44,
+      "home_side": "A",
+      "winner": "Dr. Duckhook",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "memo-os/week-5/production-evidence/WEEK_5_SIX_PAYOFF_FINAL_RESULT_BANNER_LOCK_2026-10-13.json",
+      "source_sha256": "9d5f99b6383c24d6165bbd1d56ec824c4024284479120374255ab9fb6a7048bf",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P05-E005",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 5,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "Slob on my Dobb",
+      "side_a_score": 134.7,
+      "side_b": "Seven Deadly Chins",
+      "side_b_score": 170.46,
+      "home_side": "A",
+      "winner": "Seven Deadly Chins",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "memo-os/week-5/production-evidence/WEEK_5_SIX_PAYOFF_FINAL_RESULT_BANNER_LOCK_2026-10-13.json",
+      "source_sha256": "9d5f99b6383c24d6165bbd1d56ec824c4024284479120374255ab9fb6a7048bf",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P05-E006",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 5,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "Red Leopards",
+      "side_a_score": 110.42,
+      "side_b": "ObiWan Jacoby",
+      "side_b_score": 154.42,
+      "home_side": "A",
+      "winner": "ObiWan Jacoby",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "memo-os/week-5/production-evidence/WEEK_5_SIX_PAYOFF_FINAL_RESULT_BANNER_LOCK_2026-10-13.json",
+      "source_sha256": "9d5f99b6383c24d6165bbd1d56ec824c4024284479120374255ab9fb6a7048bf",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P06-E001",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 6,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "Red Leopards",
+      "side_a_score": 108.08,
+      "side_b": "D0nkey K0ng",
+      "side_b_score": 118.96,
+      "home_side": "A",
+      "winner": "D0nkey K0ng",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "memo-os/week-6/WEEK_6_FLAIM_REVERIFICATION_AND_HANDOFF_CONVERGENCE_2026-10-20.md",
+      "source_sha256": "f049ae5a8954b4e247ff81dfee984c1025f88fdc708d4e0a1ea80d73429467bf",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P06-E002",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 6,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "Dr. Duckhook",
+      "side_a_score": 132.4,
+      "side_b": "El Niño",
+      "side_b_score": 119.86,
+      "home_side": "A",
+      "winner": "Dr. Duckhook",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "memo-os/week-6/WEEK_6_FLAIM_REVERIFICATION_AND_HANDOFF_CONVERGENCE_2026-10-20.md",
+      "source_sha256": "f049ae5a8954b4e247ff81dfee984c1025f88fdc708d4e0a1ea80d73429467bf",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P06-E003",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 6,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "Slob on my Dobb",
+      "side_a_score": 143.7,
+      "side_b": "ObiWan Jacoby",
+      "side_b_score": 123.38,
+      "home_side": "A",
+      "winner": "Slob on my Dobb",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "memo-os/week-6/WEEK_6_FLAIM_REVERIFICATION_AND_HANDOFF_CONVERGENCE_2026-10-20.md",
+      "source_sha256": "f049ae5a8954b4e247ff81dfee984c1025f88fdc708d4e0a1ea80d73429467bf",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P06-E004",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 6,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "The Chili Cheesers",
+      "side_a_score": 125.24,
+      "side_b": "Seven Deadly Chins",
+      "side_b_score": 131.78,
+      "home_side": "A",
+      "winner": "Seven Deadly Chins",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "memo-os/week-6/WEEK_6_FLAIM_REVERIFICATION_AND_HANDOFF_CONVERGENCE_2026-10-20.md",
+      "source_sha256": "f049ae5a8954b4e247ff81dfee984c1025f88fdc708d4e0a1ea80d73429467bf",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P06-E005",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 6,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "Mud Dogs",
+      "side_a_score": 136.8,
+      "side_b": "His Majesty's Blood",
+      "side_b_score": 136.92,
+      "home_side": "A",
+      "winner": "His Majesty's Blood",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "memo-os/week-6/WEEK_6_FLAIM_REVERIFICATION_AND_HANDOFF_CONVERGENCE_2026-10-20.md",
+      "source_sha256": "f049ae5a8954b4e247ff81dfee984c1025f88fdc708d4e0a1ea80d73429467bf",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2026-P06-E006",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "season": 2026,
+      "period": 6,
+      "phase": "REGULAR_SEASON",
+      "kind": "PAIRED_CONTEST",
+      "side_a": "Three Dreaded Snake",
+      "side_a_score": 138.06,
+      "side_b": "The LLC",
+      "side_b_score": 137.69,
+      "home_side": "A",
+      "winner": "Three Dreaded Snake",
+      "finality": "REPOSITORY_DECIDED_RECEIPT",
+      "source_path": "memo-os/week-6/WEEK_6_FLAIM_REVERIFICATION_AND_HANDOFF_CONVERGENCE_2026-10-20.md",
+      "source_sha256": "f049ae5a8954b4e247ff81dfee984c1025f88fdc708d4e0a1ea80d73429467bf",
+      "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+      "owner_time_binding": {
+        "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+        "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+      },
+      "literary_coverage": {
+        "status": "RECONCILE_EXISTING_MANUSCRIPT",
+        "accepted_locations": []
+      }
+    }
+  ]
+}
