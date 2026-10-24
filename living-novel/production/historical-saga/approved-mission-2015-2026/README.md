@@ -1,0 +1,56 @@
+# Commonwealth saga — production checkpoint for Jake
+
+**PARTIAL PRODUCTION / NONCANON / NO SEASON-COMPLETE CLAIM.**
+
+Read the five actual revised sequences in [the local draft reader](reader/index.html). This is a portable HTML draft, not a deployed or canonical publication. All new prose in this tranche is **2026**, not historical-season completion.
+
+## What was produced
+
+| Draft | Period and source-event bindings | Actual scope |
+|---|---|---|
+| [The Price of an Open Gate](manuscript/2026/THE_PRICE_OF_AN_OPEN_GATE.md) | 2026 after W3, before W4 results; `ESPN1417621-2026-P03-E002`, `ESPN1417621-2026-P03-E005` | Six Ben/Wilson scenes; private choices around damaged roads and the cost of apparent generosity. |
+| [The Unfinished Applause](manuscript/2026-week4/THE_UNFINISHED_APPLAUSE_NONCANON.md) | 2026 W4 Red/Duckhook result; exact event join in adjacent register | Four Kevin/Zach scenes; public spectacle becomes a test of dignity and control. |
+| [A Door Wide Enough](manuscript/2026-week5/A_DOOR_WIDE_ENOUGH_NONCANON.md) | 2026 W5 Chili/El Niño result; exact event join in adjacent register | Four Brandon scenes; a physical rescue fails to erase an earlier selfish choice. El Niño has no dialogue or interiority. |
+| [The Line Left Standing](manuscript/2026-week6/THE_LINE_LEFT_STANDING_NONCANON.md) | 2026 W6 Slob/ObiWan; `ESPN1417621-2026-P06-E003` | Five Jordan/Jake scenes; an unpaid promise costs the victor a follower and the loser a useful claim. |
+| [The Water Beneath the Line](manuscript/2026-week6-wetland/THE_WATER_BENEATH_THE_LINE.md) | 2026 W6 Mud Dogs/HMB; exact event join in adjacent register | Five Bobby/Austin scenes; rescue costs evidence and a crossing, without settling mutual distrust. |
+
+[CANDIDATE_EVENT_LINKS.json](CANDIDATE_EVENT_LINKS.json) supplies all exact event IDs, scene headings, line anchors and manuscript digests: **24 scenes associated with six distinct source events**. These are proposed context/aftermath links, not a claim that six whole fixtures passed final literary acceptance. Every draft has a source packet and machine scene register. Neither newer draft inherits another unaccepted draft's inventions automatically.
+
+The current-season source cutoff is **Week 6 final results**, using the repository's October 20 receipt. Week 7 is undecided; no 2026 postseason, champion or completed-season closing movement is invented.
+
+## Historical seasons remain the primary gap
+
+The eleven historical extracts contain 1,117 returned rows: 1,055 observed paired contests, 38 unpaired rows (one documented bye and 37 unresolved candidates), and 24 repeated displays. Observed contest counts by year are:
+
+| Seasons | Observed contests per season | New historical personal-POV chapters in this tranche |
+|---|---:|---:|
+| 2015–2016 | 90 | 0 |
+| 2017–2020 | 95 | 0 |
+| 2021–2025 | 99 | 0 |
+
+Each year has its own JSON ledger, source observations, postseason tiers, title evidence and manuscript candidates. These are observed denominators, not an independent assertion that no external fixtures are missing. The 2015/2016 postseason spans multiweek aggregates; current format was not applied retroactively.
+
+Fresh connected-provider reads for every historical year corroborated period structure but supplied no ownership fields. The existing public ESPN adapter failed with `ESPN_TIMEOUT / getaddrinfo EAI_AGAIN`. [Historical unblock check](evidence/HISTORICAL_UNBLOCK_CHECK_2026_10_24.md) records the exact source evidence, limitation and earliest-first resume path. Personal historical scene drafting remains blocked where owner/character/era correspondence is load-bearing. No approved casting rule or human-owner history has been invented to clear it.
+
+The [62-artifact inventory](inventory/MANUSCRIPT_INVENTORY.md) preserves original prose with hashes, classifications and reuse notes. Legacy texts remain sources even when their narrator rules now require revision. No accepted manuscript was overwritten, no old draft was called unwritten, and no pilot was called a completed novel.
+
+## Actual review and limits
+
+The existing Author Council router/registry selected the full seven published-method lenses. The engagement records explicitly simulated reviews by a critic separate from the writers; a separate agent independently checked sources, actual scenes and reader structure. No actual authors or authenticated Directors participated. This is evidence-backed model review, not human cold-reader or canon acceptance.
+
+Implemented repairs include duplicated openings, production-policy prose inside fiction, rescuer/target physical staging, stable turning geometry, an unexplained wound and civilian POV leakage. [Independent review](review/INDEPENDENT_REVIEW.md) and the council engagement record exact hashes, observations, revisions and remaining assembly concerns. Several sequences still share a rescue/retelling structure; later book development must diversify conflict and carry the costs forward rather than repeat the same moral pattern.
+
+The existing Novel OS structural gate succeeds on all 24 actual scene bodies and their event/location joins. This does not establish depth, historical ownership, complete coverage or publication approval. Reader tests and independent static HTML checks pass. Browser rendering was **denied** by managed Chromium policy (`net::ERR_BLOCKED_BY_ADMINISTRATOR`); [the exact receipt](reader/BROWSER_CHECK.json) records the attempted local navigation. No bypass or rendering success is claimed.
+
+## Resume without restarting
+
+The baseline is `8fcb77191955f413fe970154d47632770f923055`; work is isolated on `novel/historical-epic-2015-2026`. This packet continues existing historical-chronicle/R38/R53 work and does not create a replacement OS. Applicable execution skill and existing resilience/consultation contracts were used. No AGENTS.md or populated `.agents/skills` was found in the selected checkouts; the repository-local execution skill was read.
+
+Run `python governance/resilience/checkpoint_cli.py resume --workflow historical-saga-2015-2026` from repository root; validate current input/output digests before reusing completed stages. The checkpoint is for audit and draft production only.
+
+1. **Historical priority:** resolve the first 2015 historical principal/era binding from documented evidence, then revise the existing scene and carry its consequences forward. Continue chronologically through eleven completed seasons, including missing postseason/consolation coverage and every season opening/closing. Existing observed fixtures remain available while this gate is held.
+2. **2026 remaining production:** use `evidence/CURRENT_SEASON_PASSAGE_AUDIT.json` (baseline) plus candidate links (new work). The baseline had 18 scene/aftermath instances, three dispatch references, nine planning-only entries and six W6 fixtures without located Novel passages; these are forms, not quality acceptance. New work deepens only the six linked events. Other contemporary writing and legacy POV repairs remain **pending work**, not falsely attributed to the historical owner blocker.
+3. **Continuity/assembly:** reconcile proposed consequences across the draft reading order; finish the still-missing character threads; conduct deeper book-level editorial review and source/POV checks. Preserve source lineage when salvaging original text.
+4. **Delivery/acceptance:** complete literary and coverage gates, browser reader validation when the managed environment permits it, and any required human/canon acceptance. A draft PR does not authorize merger, publication, deployment or canon promotion.
+
+Unrelated held PRs #155, #195, #220, #224, #226, #236, #237 and #239 were not acted on. No service, security setting, paid resource, original source manuscript or canonical publication manifest was changed.

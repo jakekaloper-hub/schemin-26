@@ -1,0 +1,310 @@
+{
+  "status": "PROPOSED_NONCANON_LINKS_ONLY",
+  "scope": "Actual new scene-to-source links; distinct linked events do not equal accepted or fully dramatized contests.",
+  "baseline_passage_audit": "evidence/CURRENT_SEASON_PASSAGE_AUDIT.json",
+  "distinct_linked_event_count": 6,
+  "scene_link_count": 24,
+  "accepted_event_count_claimed": null,
+  "events": [
+    {
+      "event_id": "ESPN1417621-2026-P03-E002",
+      "source_path": "memo-os/week-3/WEEK_3_FINAL_EVIDENCE_SNAPSHOT_06.md",
+      "candidate_scenes": [
+        {
+          "scene_id": "OPEN-GATE-2026-02",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/THE_PRICE_OF_AN_OPEN_GATE.md",
+          "heading": "## II. The passage \u2014 Wilson",
+          "line": 125,
+          "manuscript_sha256": "be1255612c84db92f9188f29aae2e68674e236950bbf9a0d2f6ddb01868830db",
+          "pov_character_id": "CHAR-WILSON-LOOK",
+          "story_time_cutoff": "After hard Chapter III / Week 3 final; before Week 4 final outcomes. No later knowledge licensed.",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "OPEN-GATE-2026-04",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/THE_PRICE_OF_AN_OPEN_GATE.md",
+          "heading": "## IV. The signature \u2014 Wilson",
+          "line": 337,
+          "manuscript_sha256": "be1255612c84db92f9188f29aae2e68674e236950bbf9a0d2f6ddb01868830db",
+          "pov_character_id": "CHAR-WILSON-LOOK",
+          "story_time_cutoff": "After hard Chapter III / Week 3 final; before Week 4 final outcomes. No later knowledge licensed.",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "OPEN-GATE-2026-06",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/THE_PRICE_OF_AN_OPEN_GATE.md",
+          "heading": "## VI. The open gate \u2014 Wilson",
+          "line": 529,
+          "manuscript_sha256": "be1255612c84db92f9188f29aae2e68674e236950bbf9a0d2f6ddb01868830db",
+          "pov_character_id": "CHAR-WILSON-LOOK",
+          "story_time_cutoff": "After hard Chapter III / Week 3 final; before Week 4 final outcomes. No later knowledge licensed.",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2026-P03-E005",
+      "source_path": "memo-os/week-3/WEEK_3_FINAL_EVIDENCE_SNAPSHOT_06.md",
+      "candidate_scenes": [
+        {
+          "scene_id": "OPEN-GATE-2026-01",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/THE_PRICE_OF_AN_OPEN_GATE.md",
+          "heading": "## I. The pot \u2014 Ben",
+          "line": 5,
+          "manuscript_sha256": "be1255612c84db92f9188f29aae2e68674e236950bbf9a0d2f6ddb01868830db",
+          "pov_character_id": "CHAR-BEN-WHIPPLE",
+          "story_time_cutoff": "After hard Chapter III / Week 3 final; before Week 4 final outcomes. No later knowledge licensed.",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "OPEN-GATE-2026-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/THE_PRICE_OF_AN_OPEN_GATE.md",
+          "heading": "## III. What belongs to the hall \u2014 Ben",
+          "line": 229,
+          "manuscript_sha256": "be1255612c84db92f9188f29aae2e68674e236950bbf9a0d2f6ddb01868830db",
+          "pov_character_id": "CHAR-BEN-WHIPPLE",
+          "story_time_cutoff": "After hard Chapter III / Week 3 final; before Week 4 final outcomes. No later knowledge licensed.",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "OPEN-GATE-2026-05",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/THE_PRICE_OF_AN_OPEN_GATE.md",
+          "heading": "## V. The beam \u2014 Ben",
+          "line": 443,
+          "manuscript_sha256": "be1255612c84db92f9188f29aae2e68674e236950bbf9a0d2f6ddb01868830db",
+          "pov_character_id": "CHAR-BEN-WHIPPLE",
+          "story_time_cutoff": "After hard Chapter III / Week 3 final; before Week 4 final outcomes. No later knowledge licensed.",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2026-P04-E003",
+      "source_path": "living-novel/production/week-04-05/WEEK_04_05_FLAIM_FACT_SNAPSHOT_2026-10-14.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "W4-UA-01",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week4/THE_UNFINISHED_APPLAUSE_NONCANON.md",
+          "heading": "## I. The Victor's Shade",
+          "line": 5,
+          "manuscript_sha256": "dcdf76089d04fdad43a92175663d8b4783cd7c88bac9342cf1f337cb82d4d5da",
+          "pov_character_id": "CHAR-KEVIN-ZEEK",
+          "story_time_cutoff": "2026 AFTER_WEEK_4_FINAL_BEFORE_WEEK_5_RESULTS; consecutive afternoon scenes",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week4/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "W4-UA-02",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week4/THE_UNFINISHED_APPLAUSE_NONCANON.md",
+          "heading": "## II. A Favorable Angle",
+          "line": 125,
+          "manuscript_sha256": "dcdf76089d04fdad43a92175663d8b4783cd7c88bac9342cf1f337cb82d4d5da",
+          "pov_character_id": "CHAR-ZACH-WILSON",
+          "story_time_cutoff": "2026 AFTER_WEEK_4_FINAL_BEFORE_WEEK_5_RESULTS; consecutive afternoon scenes",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week4/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "W4-UA-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week4/THE_UNFINISHED_APPLAUSE_NONCANON.md",
+          "heading": "## III. What the Court Saw",
+          "line": 267,
+          "manuscript_sha256": "dcdf76089d04fdad43a92175663d8b4783cd7c88bac9342cf1f337cb82d4d5da",
+          "pov_character_id": "CHAR-KEVIN-ZEEK",
+          "story_time_cutoff": "2026 AFTER_WEEK_4_FINAL_BEFORE_WEEK_5_RESULTS; consecutive afternoon scenes",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week4/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "W4-UA-04",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week4/THE_UNFINISHED_APPLAUSE_NONCANON.md",
+          "heading": "## IV. The Shape of Leaving",
+          "line": 421,
+          "manuscript_sha256": "dcdf76089d04fdad43a92175663d8b4783cd7c88bac9342cf1f337cb82d4d5da",
+          "pov_character_id": "CHAR-ZACH-WILSON",
+          "story_time_cutoff": "2026 AFTER_WEEK_4_FINAL_BEFORE_WEEK_5_RESULTS; consecutive afternoon scenes",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week4/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2026-P05-E003",
+      "source_path": "memo-os/week-5/production-evidence/WEEK_5_SIX_PAYOFF_FINAL_RESULT_BANNER_LOCK_2026-10-13.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "W5-CH-01",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week5/A_DOOR_WIDE_ENOUGH_NONCANON.md",
+          "heading": "## I. The Performance",
+          "line": 5,
+          "manuscript_sha256": "8a8ee0cb748301ca9a04dc4258f2de82c6f579888fb34ef9538c02cf7e0eb713",
+          "pov_character_id": "CHAR-BRANDON-PRYOR",
+          "story_time_cutoff": "2026 WEEK5_CONTEST_AND_IMMEDIATE_AFTERMATH_BEFORE_WEEK6; result learned only in scene W5-CH-04",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week5/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "W5-CH-02",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week5/A_DOOR_WIDE_ENOUGH_NONCANON.md",
+          "heading": "## II. The First One Through",
+          "line": 49,
+          "manuscript_sha256": "8a8ee0cb748301ca9a04dc4258f2de82c6f579888fb34ef9538c02cf7e0eb713",
+          "pov_character_id": "CHAR-BRANDON-PRYOR",
+          "story_time_cutoff": "2026 WEEK5_CONTEST_AND_IMMEDIATE_AFTERMATH_BEFORE_WEEK6; result learned only in scene W5-CH-04",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week5/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "W5-CH-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week5/A_DOOR_WIDE_ENOUGH_NONCANON.md",
+          "heading": "## III. What Came out of the Cloth",
+          "line": 129,
+          "manuscript_sha256": "8a8ee0cb748301ca9a04dc4258f2de82c6f579888fb34ef9538c02cf7e0eb713",
+          "pov_character_id": "CHAR-BRANDON-PRYOR",
+          "story_time_cutoff": "2026 WEEK5_CONTEST_AND_IMMEDIATE_AFTERMATH_BEFORE_WEEK6; result learned only in scene W5-CH-04",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week5/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "W5-CH-04",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week5/A_DOOR_WIDE_ENOUGH_NONCANON.md",
+          "heading": "## IV. The Result Arrives",
+          "line": 213,
+          "manuscript_sha256": "8a8ee0cb748301ca9a04dc4258f2de82c6f579888fb34ef9538c02cf7e0eb713",
+          "pov_character_id": "CHAR-BRANDON-PRYOR",
+          "story_time_cutoff": "2026 WEEK5_CONTEST_AND_IMMEDIATE_AFTERMATH_BEFORE_WEEK6; result learned only in scene W5-CH-04",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week5/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2026-P06-E003",
+      "source_path": "memo-os/week-6/WEEK_6_FLAIM_REVERIFICATION_AND_HANDOFF_CONVERGENCE_2026-10-20.md",
+      "candidate_scenes": [
+        {
+          "scene_id": "W6-FH-01",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/THE_LINE_LEFT_STANDING_NONCANON.md",
+          "heading": "## I. What the Welcome Cost",
+          "line": 5,
+          "manuscript_sha256": "5fd9ace01c6ea520b704d4aa202cdbd2111c955b54e39d419b8dd6cd2bea1612",
+          "pov_character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "story_time_cutoff": "2026 AFTER_WEEK_6_FINAL_BEFORE_WEEK_7_RESULTS; evening to planned next morning departure",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "W6-FH-02",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/THE_LINE_LEFT_STANDING_NONCANON.md",
+          "heading": "## II. A Better Offer",
+          "line": 91,
+          "manuscript_sha256": "5fd9ace01c6ea520b704d4aa202cdbd2111c955b54e39d419b8dd6cd2bea1612",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2026 AFTER_WEEK_6_FINAL_BEFORE_WEEK_7_RESULTS; evening to planned next morning departure",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "W6-FH-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/THE_LINE_LEFT_STANDING_NONCANON.md",
+          "heading": "## III. The Captain's Share",
+          "line": 195,
+          "manuscript_sha256": "5fd9ace01c6ea520b704d4aa202cdbd2111c955b54e39d419b8dd6cd2bea1612",
+          "pov_character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "story_time_cutoff": "2026 AFTER_WEEK_6_FINAL_BEFORE_WEEK_7_RESULTS; evening to planned next morning departure",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "W6-FH-04",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/THE_LINE_LEFT_STANDING_NONCANON.md",
+          "heading": "## IV. No One to Send",
+          "line": 279,
+          "manuscript_sha256": "5fd9ace01c6ea520b704d4aa202cdbd2111c955b54e39d419b8dd6cd2bea1612",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2026 AFTER_WEEK_6_FINAL_BEFORE_WEEK_7_RESULTS; evening to planned next morning departure",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "W6-FH-05",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/THE_LINE_LEFT_STANDING_NONCANON.md",
+          "heading": "## V. The Part Nobody Cheered",
+          "line": 371,
+          "manuscript_sha256": "5fd9ace01c6ea520b704d4aa202cdbd2111c955b54e39d419b8dd6cd2bea1612",
+          "pov_character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "story_time_cutoff": "2026 AFTER_WEEK_6_FINAL_BEFORE_WEEK_7_RESULTS; evening to planned next morning departure",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2026-P06-E005",
+      "source_path": "memo-os/week-6/WEEK_6_FLAIM_REVERIFICATION_AND_HANDOFF_CONVERGENCE_2026-10-20.md",
+      "candidate_scenes": [
+        {
+          "scene_id": "WATER-LINE-2026-W06-01",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6-wetland/THE_WATER_BENEATH_THE_LINE.md",
+          "heading": "## I. A scent missing \u2014 Bobby",
+          "line": 5,
+          "manuscript_sha256": "e25a07a398aaffaf1d1087c85d7219846c550bde2ee13612b64d33d373ace71a",
+          "pov_character_id": "CHAR-BOBBY-MITCHELL",
+          "story_time_cutoff": "After verified 2026 Week 6; before any Week 7 result. Story year 2026. No older owner binding inferred.",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6-wetland/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "WATER-LINE-2026-W06-02",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6-wetland/THE_WATER_BENEATH_THE_LINE.md",
+          "heading": "## II. The clean edge \u2014 Austin",
+          "line": 77,
+          "manuscript_sha256": "e25a07a398aaffaf1d1087c85d7219846c550bde2ee13612b64d33d373ace71a",
+          "pov_character_id": "CHAR-AUSTIN-BYARS",
+          "story_time_cutoff": "After verified 2026 Week 6; before any Week 7 result. Story year 2026. No older owner binding inferred.",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6-wetland/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "WATER-LINE-2026-W06-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6-wetland/THE_WATER_BENEATH_THE_LINE.md",
+          "heading": "## III. Under the root \u2014 Bobby",
+          "line": 157,
+          "manuscript_sha256": "e25a07a398aaffaf1d1087c85d7219846c550bde2ee13612b64d33d373ace71a",
+          "pov_character_id": "CHAR-BOBBY-MITCHELL",
+          "story_time_cutoff": "After verified 2026 Week 6; before any Week 7 result. Story year 2026. No older owner binding inferred.",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6-wetland/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "WATER-LINE-2026-W06-04",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6-wetland/THE_WATER_BENEATH_THE_LINE.md",
+          "heading": "## IV. What could be saved \u2014 Austin",
+          "line": 241,
+          "manuscript_sha256": "e25a07a398aaffaf1d1087c85d7219846c550bde2ee13612b64d33d373ace71a",
+          "pov_character_id": "CHAR-AUSTIN-BYARS",
+          "story_time_cutoff": "After verified 2026 Week 6; before any Week 7 result. Story year 2026. No older owner binding inferred.",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6-wetland/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "WATER-LINE-2026-W06-05",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6-wetland/THE_WATER_BENEATH_THE_LINE.md",
+          "heading": "## V. The way around \u2014 Bobby",
+          "line": 325,
+          "manuscript_sha256": "e25a07a398aaffaf1d1087c85d7219846c550bde2ee13612b64d33d373ace71a",
+          "pov_character_id": "CHAR-BOBBY-MITCHELL",
+          "story_time_cutoff": "After verified 2026 Week 6; before any Week 7 result. Story year 2026. No older owner binding inferred.",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6-wetland/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    }
+  ]
+}
