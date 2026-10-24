@@ -14,7 +14,8 @@ Local execution on the task branch, 2026-10-24. These are actual command results
 | `review/check_historical_candidate_scenes.py` | 11 historical scenes across four events; zero structural/source/dual-authority errors |
 | `review/check_2015_jake_connected_account.py` | Three 2015 Jake scenes for one event; zero source/POV/scope/foreknowledge errors under the bounded user-attestation plus Flaim-continuity rule |
 | `review/check_2015_jake_arc.py` | Six further 2015 Jake scenes link every remaining observed team-1 event; zero source/POV/scope/foreknowledge errors |
-| `assemble_candidate_links.py` | Twenty-five distinct source-event keys, 44 actual scene anchors and 56 scene-event links; no acceptance asserted |
+| `review/check_2016_jake_arc.py` | Three 2016 Jake scenes link every observed team-1 event; zero source/POV/scope/foreknowledge errors |
+| `assemble_candidate_links.py` | Forty distinct source-event keys, 47 actual scene anchors and 71 scene-event links; no acceptance asserted |
 | Repository-native checkpoint emit/resume | Receipt emitted and VALID_CHECKPOINT resolved; stage is audit/draft production, not canon |
 
 Source checks resolve real observation pointers and hashes rather than trusting an acceptance label. They preserve equal-score rows whose declared winner is HOME without inventing a tiebreak cause; distinguish one documented bye from other unpaired rows; and keep multiweek aggregate repeats separate from distinct contests.

@@ -44,10 +44,23 @@
       "connected_account_audit_sha256": "f7746a9765b83dddc5d42d17788799d95971853b9b0bda2624085dafcf3bb219"
     },
     {
-      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/THE_DOOR_AFTER_THE_CROWN_NONCANON.md",
-      "sha256": "5251fc7d84337587987a4576d593c13c9b2c691bc145c8587a23687cb769a9df",
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+      "sha256": "f8e69f686e9986c9349c26fd7a16de3d5da07d5929bf9cd9ab13b6aaf006f648",
       "anchor": "manuscript-4",
       "scene_lane_order": -1,
+      "scene_cutoff_label": "2016 connected-account Jake candidate; user-attested identity plus Flaim continuity; no opponent identity",
+      "status": "DRAFT_NONCANON_NO_RELEASE_APPROVAL",
+      "scope": "EVENT_SCOPED_HISTORICAL_FICTION",
+      "raw_human_owner_status": "UNKNOWN",
+      "identity_basis": "USER_ATTESTED_IDENTITY_PLUS_PROVIDER_CONNECTED_ACCOUNT_CONTINUITY",
+      "connected_account_audit": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/owner-extraction-audit/FLAIM_CONNECTED_ACCOUNT_CONTINUITY.md",
+      "connected_account_audit_sha256": "f7746a9765b83dddc5d42d17788799d95971853b9b0bda2624085dafcf3bb219"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/THE_DOOR_AFTER_THE_CROWN_NONCANON.md",
+      "sha256": "5251fc7d84337587987a4576d593c13c9b2c691bc145c8587a23687cb769a9df",
+      "anchor": "manuscript-5",
+      "scene_lane_order": 0,
       "scene_cutoff_label": "2024 title aftermath only; no 2025 knowledge; event-scoped fictional identity support, raw human-owner UNKNOWN",
       "status": "DRAFT_NONCANON_NO_RELEASE_APPROVAL",
       "scope": "EVENT_SCOPED_HISTORICAL_FICTION",
@@ -58,8 +71,8 @@
     {
       "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md",
       "sha256": "5922f4958fba95b9b6881644688aa999d071efce7ecb0533fdd8cdbda07ed324",
-      "anchor": "manuscript-5",
-      "scene_lane_order": 0,
+      "anchor": "manuscript-6",
+      "scene_lane_order": 1,
       "scene_cutoff_label": "2025 named postseason events only; no 2026 knowledge; event-scoped fictional identity support, raw human-owner UNKNOWN",
       "status": "DRAFT_NONCANON_NO_RELEASE_APPROVAL",
       "scope": "EVENT_SCOPED_HISTORICAL_FICTION",
@@ -70,8 +83,8 @@
     {
       "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/THE_PRICE_OF_AN_OPEN_GATE.md",
       "sha256": "be1255612c84db92f9188f29aae2e68674e236950bbf9a0d2f6ddb01868830db",
-      "anchor": "manuscript-6",
-      "scene_lane_order": 1,
+      "anchor": "manuscript-7",
+      "scene_lane_order": 2,
       "scene_cutoff_label": "After Chapter III; before Week 4 results",
       "status": "DRAFT_NONCANON_NO_RELEASE_APPROVAL",
       "scope": "CURRENT_2026_DRAFT"
@@ -79,8 +92,8 @@
     {
       "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week4/THE_UNFINISHED_APPLAUSE_NONCANON.md",
       "sha256": "dcdf76089d04fdad43a92175663d8b4783cd7c88bac9342cf1f337cb82d4d5da",
-      "anchor": "manuscript-7",
-      "scene_lane_order": 2,
+      "anchor": "manuscript-8",
+      "scene_lane_order": 3,
       "scene_cutoff_label": "Week 4 consequence lane",
       "status": "DRAFT_NONCANON_NO_RELEASE_APPROVAL",
       "scope": "CURRENT_2026_DRAFT"
@@ -88,8 +101,8 @@
     {
       "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week5/A_DOOR_WIDE_ENOUGH_NONCANON.md",
       "sha256": "8a8ee0cb748301ca9a04dc4258f2de82c6f579888fb34ef9538c02cf7e0eb713",
-      "anchor": "manuscript-8",
-      "scene_lane_order": 3,
+      "anchor": "manuscript-9",
+      "scene_lane_order": 4,
       "scene_cutoff_label": "Week 5 consequence lane",
       "status": "DRAFT_NONCANON_NO_RELEASE_APPROVAL",
       "scope": "CURRENT_2026_DRAFT"
@@ -97,8 +110,8 @@
     {
       "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/THE_LINE_LEFT_STANDING_NONCANON.md",
       "sha256": "5fd9ace01c6ea520b704d4aa202cdbd2111c955b54e39d419b8dd6cd2bea1612",
-      "anchor": "manuscript-9",
-      "scene_lane_order": 4,
+      "anchor": "manuscript-10",
+      "scene_lane_order": 5,
       "scene_cutoff_label": "Week 6 consequence lane; no Week 7 result",
       "status": "DRAFT_NONCANON_NO_RELEASE_APPROVAL",
       "scope": "CURRENT_2026_DRAFT"
@@ -106,8 +119,8 @@
     {
       "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6-wetland/THE_WATER_BENEATH_THE_LINE.md",
       "sha256": "e25a07a398aaffaf1d1087c85d7219846c550bde2ee13612b64d33d373ace71a",
-      "anchor": "manuscript-10",
-      "scene_lane_order": 5,
+      "anchor": "manuscript-11",
+      "scene_lane_order": 6,
       "scene_cutoff_label": "Same post-Week-6/pre-Week-7-result window; display order only, not proved temporal ordering of separate geographic events",
       "status": "DRAFT_NONCANON_NO_RELEASE_APPROVAL",
       "scope": "CURRENT_2026_DRAFT"
@@ -118,5 +131,5 @@
     "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/SEASON_DENOMINATORS.json",
     "sha256": "ff38c6a7fd61689dbca9c26dc023240d7bae4fe67ffce3d3b0b8cd5ad2b3d284"
   },
-  "output_sha256": "e057d98611e2d6974c55e06269b2996030d360e1aba4f6c00dcd062d095dfc4b"
+  "output_sha256": "427ff0549a016912193afdc1048a2223986cad1fe91a2a3e1e9a6a2d1172e65b"
 }
