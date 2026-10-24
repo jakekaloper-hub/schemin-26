@@ -1,0 +1,104 @@
+{
+  "schema": "schemin.project_composite_consultants.v1",
+  "status": "PROPOSED_NOT_REGISTERED_IN_BULLPEN_RUNTIME",
+  "governance": "jakekaloper-hub/bullpen/docs/EXTERNAL_ADVISORY_PROGRAM_V1.md",
+  "authority": "ADVISORY_ONLY",
+  "engagement_id": "SCHEMIN-W7-ATLAS-GEOSCIENCE-20261024",
+  "consultants": [
+    {
+      "slug": "geo_geomorphology_slope",
+      "mode": "COMPOSITE_SPECIALIST",
+      "domain": "geomorphology and engineering geology",
+      "sponsor": "Atlas Architect",
+      "review_questions": [
+        "cliff stability",
+        "erosion",
+        "substrate uncertainty",
+        "geotechnical evidence gaps"
+      ],
+      "source_families": [
+        "existing Schemin World Engine and Atlas",
+        "public disciplinary references subject to later source freeze"
+      ],
+      "human_participation": false,
+      "may_override_canon": false,
+      "may_approve_release": false
+    },
+    {
+      "slug": "geo_hydrology_watersheds",
+      "mode": "COMPOSITE_SPECIALIST",
+      "domain": "watershed hydrology and wetland geomorphology",
+      "sponsor": "World/Atlas",
+      "review_questions": [
+        "runoff",
+        "waterfall headwaters",
+        "flood routing",
+        "wetland passage"
+      ],
+      "source_families": [
+        "existing Schemin World Engine and Atlas",
+        "public disciplinary references subject to later source freeze"
+      ],
+      "human_participation": false,
+      "may_override_canon": false,
+      "may_approve_release": false
+    },
+    {
+      "slug": "geo_landscape_ecology",
+      "mode": "COMPOSITE_SPECIALIST",
+      "domain": "landscape ecology",
+      "sponsor": "World/Atlas",
+      "review_questions": [
+        "habitat continuity",
+        "land disturbance",
+        "wildlife corridor",
+        "seasonality"
+      ],
+      "source_families": [
+        "existing Schemin World Engine and Atlas",
+        "public disciplinary references subject to later source freeze"
+      ],
+      "human_participation": false,
+      "may_override_canon": false,
+      "may_approve_release": false
+    },
+    {
+      "slug": "geo_landscape_architecture",
+      "mode": "COMPOSITE_SPECIALIST",
+      "domain": "landscape architecture and sports-ground design",
+      "sponsor": "Visual Direction Lead",
+      "review_questions": [
+        "adaptive site planning",
+        "sports surfaces",
+        "sightlines",
+        "site circulation"
+      ],
+      "source_families": [
+        "existing Schemin World Engine and Atlas",
+        "public disciplinary references subject to later source freeze"
+      ],
+      "human_participation": false,
+      "may_override_canon": false,
+      "may_approve_release": false
+    },
+    {
+      "slug": "geo_transport_topology",
+      "mode": "COMPOSITE_SPECIALIST",
+      "domain": "GIS and network topology",
+      "sponsor": "Architect",
+      "review_questions": [
+        "parent-child handles",
+        "route graph",
+        "visitor access",
+        "nonmetric coordinates"
+      ],
+      "source_families": [
+        "existing Schemin World Engine and Atlas",
+        "public disciplinary references subject to later source freeze"
+      ],
+      "human_participation": false,
+      "may_override_canon": false,
+      "may_approve_release": false
+    }
+  ]
+}
