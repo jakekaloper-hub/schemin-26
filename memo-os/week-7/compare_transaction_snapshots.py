@@ -24,6 +24,11 @@ def decode(raw):
     if not isinstance(batch, dict) or not isinstance(batch.get('transactions'), list):
         raise ValueError('full transaction rows required; summary counts are insufficient')
     rows = batch['transactions']
+    limitations = batch.get('limitations', {})
+    if not isinstance(limitations, dict) or any(v not in (False, 0) for v in limitations.values()):
+        raise ValueError('provider reports limited transaction coverage/details')
+    if batch.get('source') not in ('mTransactions2', 'mTransactions2_with_activity_trade_details'):
+        raise ValueError('stable structured transaction IDs required')
     window = batch.get('window')
     if not isinstance(window, dict):
         raise ValueError('transaction window required')
@@ -47,7 +52,7 @@ def decode(raw):
         if not isinstance(row, dict):
             raise ValueError('transaction row must be an object')
         key = row.get('transaction_id')
-        if not isinstance(key, str) or not key.strip() or key in indexed:
+        if not isinstance(key, str) or not key.strip() or key.startswith('mtx-') or key in indexed:
             raise ValueError('missing or duplicate transaction_id')
         if (type(row.get('timestamp')) is not int or row['timestamp'] <= 0
                 or not isinstance(row.get('status'), str) or not row['status']):

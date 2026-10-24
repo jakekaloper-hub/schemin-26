@@ -57,6 +57,17 @@ class TransactionComparisonTests(unittest.TestCase):
         after['week7_transactions']['league_id'] = 'other-league'
         self.assertEqual(self.run_compare(self.snapshot, after)['status'], 'DIAGNOSTIC_HOLD')
 
+    def test_provider_limits_and_unstable_generated_ids_hold(self):
+        mutations = [lambda b: b.update(source='activity_feed'),
+                     lambda b: b.update(limitations={'omitted_unrecognized_rows': 1}),
+                     lambda b: b.update(limitations={'possibly_truncated': True}),
+                     lambda b: b.update(limitations={'possibly_truncated': None}),
+                     lambda b: b['transactions'][0].update(transaction_id='mtx-generated')]
+        for mutate in mutations:
+            after = copy.deepcopy(self.snapshot)
+            mutate(after['week7_transactions'])
+            self.assertEqual(self.run_compare(self.snapshot, after)['status'], 'DIAGNOSTIC_HOLD')
+
     def test_invalid_json_is_structured_hold(self):
         for raw in (b'null', b'[]', b'{', b'{"value": NaN}'):
             self.assertEqual(compare(raw, SOURCE.read_bytes())['status'], 'DIAGNOSTIC_HOLD')
