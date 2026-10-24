@@ -2,7 +2,7 @@ import unittest
 
 from canon.characters.runtime.asset_reference import AssetReference
 from canon.characters.runtime.asset_resolver import request_state, resolve_assets
-from canon.characters.runtime.generation_adapter import governed_generate
+from canon.characters.runtime.generation_adapter import governed_generate, canonical_renderer_payload
 from canon.characters.runtime.generation_eligibility import (
     issue_eligibility,
     validate_eligibility,
@@ -274,6 +274,64 @@ class Boundary(unittest.TestCase):
             "GENERATION_BLOCKED",
         )
 
+    def test_valid_eligibility_does_not_invoke_renderer_without_reference_payload(self):
+        mounts = [mount()]
+        eligible = issue_eligibility(
+            "missing-refs", [CID], mounts, "test", negotiate("test", CAP, 1),
+            authority_receipt=authority_receipt(CID), signing_key="test-key", now=1,
+        )
+        calls = []
+        result = governed_generate(
+            lambda payload: calls.append(payload) or {"output_instance_id": "bad"},
+            eligible, "missing-refs", [CID], mounts, "test", {},
+            authority_receipt=authority_receipt(CID), signing_key="test-key",
+            consumed_nonces=set(), now=2,
+        )
+        self.assertEqual(result["reason"], "RENDERER_REFERENCE_PAYLOAD_MISMATCH")
+        self.assertEqual(calls, [])
+
+    def test_subject_swap_and_extra_reference_block_before_render(self):
+        mounts = [
+            mount(),
+            mount(cid=CID2, owner="AUSTIN", asset_id="A2", slot="subject-2",
+                  mount_receipt_id="mount-2", binding_id="bind-2",
+                  generation_reference_id="ref-2"),
+        ]
+        eligible = issue_eligibility(
+            "two", [CID, CID2], mounts, "test", negotiate("test", CAP, 2),
+            authority_receipt=authority_receipt(CID, CID2), signing_key="test-key", now=1,
+        )
+        calls = []
+        clean = canonical_renderer_payload("two", mounts, "scene")
+        swapped = dict(clean)
+        swapped["subject_bindings"] = [dict(row) for row in clean["subject_bindings"]]
+        swapped["subject_bindings"][0]["generation_reference_id"] = clean["subject_bindings"][1]["generation_reference_id"]
+        swapped["subject_bindings"][1]["generation_reference_id"] = clean["subject_bindings"][0]["generation_reference_id"]
+        extra = dict(clean, referenced_image_ids=clean["referenced_image_ids"] + ["ref-3"])
+        for payload in (swapped, extra):
+            result = governed_generate(
+                lambda value: calls.append(value), eligible, "two", [CID, CID2],
+                mounts, "test", payload, authority_receipt=authority_receipt(CID, CID2),
+                signing_key="test-key", consumed_nonces=set(), now=2,
+            )
+            self.assertEqual(result["reason"], "RENDERER_REFERENCE_PAYLOAD_MISMATCH")
+        self.assertEqual(calls, [])
+
+    def test_valid_eligibility_without_nonce_store_blocks_replay(self):
+        mounts = [mount()]
+        eligible = issue_eligibility(
+            "replay", [CID], mounts, "test", negotiate("test", CAP, 1),
+            authority_receipt=authority_receipt(CID), signing_key="test-key", now=1,
+        )
+        called = []
+        result = governed_generate(
+            lambda payload: called.append(payload), eligible, "replay", [CID],
+            mounts, "test", canonical_renderer_payload("replay", mounts, "scene"),
+            authority_receipt=authority_receipt(CID), signing_key="test-key", now=2,
+        )
+        self.assertEqual(result["reason"], "REPLAY_PROTECTION_REQUIRED")
+        self.assertEqual(called, [])
+
     def test_adapter_blocks_direct_bypass(self):
         called = {"n": 0}
 
@@ -298,7 +356,7 @@ class Boundary(unittest.TestCase):
         )
         result = governed_generate(
             lambda payload: {"pixels": "opaque"},
-            eligible, "r", [CID], mounts, "test", {},
+            eligible, "r", [CID], mounts, "test", canonical_renderer_payload("r", mounts, "scene"),
             authority_receipt=authority_receipt(CID),
             signing_key="test-key", consumed_nonces=set(), now=2,
         )
@@ -315,7 +373,7 @@ class Boundary(unittest.TestCase):
         )
         result = governed_generate(
             lambda payload: {"output_instance_id": "out-1"},
-            eligible, "r", [CID], mounts, "test", {},
+            eligible, "r", [CID], mounts, "test", canonical_renderer_payload("r", mounts, "scene"),
             authority_receipt=authority_receipt(CID),
             signing_key="test-key", consumed_nonces=set(), now=2,
         )
@@ -336,7 +394,7 @@ class Boundary(unittest.TestCase):
                 "output_instance_id": "out-1",
                 "execution_receipt": receipt,
             },
-            eligible, "r", [CID], mounts, "test", {},
+            eligible, "r", [CID], mounts, "test", canonical_renderer_payload("r", mounts, "scene"),
             authority_receipt=authority_receipt(CID),
             signing_key="test-key", consumed_nonces=set(), now=2,
         )
@@ -360,14 +418,15 @@ class Boundary(unittest.TestCase):
                 "output_instance_id": "out-1",
                 "execution_receipt": execution_receipt("native-1", "openai_native", mounts),
             }
-        for payload in ({}, {"referenced_image_ids": ["wrong"]},
-                        {"referenced_image_ids": ["ref-1", "ref-1"]}):
+        for references in ([], ["wrong"], ["ref-1", "ref-1"]):
+            payload = canonical_renderer_payload("native-1", mounts, "scene")
+            payload["referenced_image_ids"] = references
             result = governed_generate(
                 renderer, eligible, "native-1", [CID], mounts, "openai_native",
                 payload, authority_receipt=authority_receipt(CID),
-                signing_key="test-key", now=2,
+                signing_key="test-key", consumed_nonces=set(), now=2,
             )
-            self.assertEqual(result["reason"], "NATIVE_RENDER_REFERENCE_INPUT_MISMATCH")
+            self.assertEqual(result["reason"], "RENDERER_REFERENCE_PAYLOAD_MISMATCH")
             self.assertEqual(result["renderer_invoked"], False)
         self.assertEqual(invoked, [])
 
@@ -380,7 +439,7 @@ class Boundary(unittest.TestCase):
             authority_receipt=authority_receipt(CID),
             signing_key="test-key", now=1,
         )
-        payload = {"referenced_image_ids": ["ref-1"]}
+        payload = canonical_renderer_payload("native-2", mounts, "scene")
         observed = []
         def renderer(value):
             observed.append(value)
@@ -392,7 +451,7 @@ class Boundary(unittest.TestCase):
             renderer, eligible, "native-2", [CID], mounts,
             "openai_native", payload,
             authority_receipt=authority_receipt(CID),
-            signing_key="test-key", now=2,
+            signing_key="test-key", consumed_nonces=set(), now=2,
         )
         self.assertEqual(observed, [payload])
         self.assertEqual(result["state"], "GENERATION_EXECUTED_PENDING_CHARACTER_QA")

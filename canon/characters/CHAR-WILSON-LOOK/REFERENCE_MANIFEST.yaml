@@ -1,7 +1,7 @@
 character_id: "CHAR-WILSON-LOOK"
 owner: "Wilson Look"
-identity: "Arsenal Gorilla Warrior"
-active_version: "2.0"
+identity: "Arsenal Gorilla Centaur Warrior"
+active_version: "2.1"
 primary:
   classification: "PRIMARY_IDENTITY_AUTHORITY"
   approval_state: "APPROVED"
@@ -19,5 +19,21 @@ primary:
   repository_byte_size: null
   fresh_context_fetch: "NOT_PROVEN"
   renderer_mount: "NOT_PROVEN"
-supersession_state: "CURRENT_SUPERSEDES_RETIRED_CENTAUR"
+supersession_state: "CURRENT_COMMISSIONER_CLARIFIED_2026_10_02"
 rule: "A Library-visible image or conversation file ID is not a durable renderer mount. Generation remains blocked until exact bytes are repository-addressable, rehashed, mounted, subject-bound, and receipted."
+
+supplementary_historical_cover:
+  classification: "SUPPLEMENTARY_APPEARANCE_AND_HISTORICAL_COVER_ONLY"
+  repository_path: "canon/characters/assets/CHAR-WILSON-LOOK/supplementary/WEEK_03_LAST_UNDEFEATED_COVER.png"
+  visual_receipt: "canon/characters/CHAR-WILSON-LOOK/W3_COVER_VISUAL_REFERENCE_RECEIPT.json"
+  primary_identity_supersession: false
+
+lineup_presentation_approval_2026_10_18:
+  state: "COMMISSIONER_APPROVED_VISUAL_PRESENTATION"
+  parent_image_sha256: "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2"
+  lineup_path: "canon/characters/assets/lineups/SCHEMIN_26_COMMISSIONER_APPROVED_LINEUP_2026_10_18.png"
+  owner_crop_path: "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png"
+  owner_crop_sha256: "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f"
+  visual_delta_path: "canon/characters/lineup_2026_10_18/CHAR-WILSON-LOOK.json"
+  primary_reference_supersession: false
+  approved_for_unverified_provider_generation: false

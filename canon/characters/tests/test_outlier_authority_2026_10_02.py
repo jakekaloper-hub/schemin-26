@@ -11,7 +11,7 @@ def test_dk_active_spec_is_one_body_gorilla_centaur():
     s=read("canon/characters/CHAR-WILSON-LOOK/T04_CHARACTER_SPEC.md")
     assert "ONE hybrid centaur-bodied gorilla warrior" in s
     assert "FOUR-LEGGED centaur/equine lower body" in s
-    assert "Arsenal supporter" in s
+    assert "arsenal supporter" in s.lower()
     assert "centaur; equine body" not in s
 
 def test_tds_exactly_three_heads_one_body():
