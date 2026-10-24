@@ -30,4 +30,23 @@ class TestPNGAssemblyParity(unittest.TestCase):
         m=self.build();Image.new("RGB",(1024,1536),"green").save(self.root/"p2.png")
         errors=gate.inspect(m,self.root/"manifest.json")
         self.assertTrue(any("embedded pixels differ" in x for x in errors),errors)
+    def alter_pdf(self, mode):
+        manifest=self.build()
+        pdf=self.root/"issue.pdf"
+        with fitz.open(pdf) as doc:
+            if mode == "overlay":
+                doc[0].draw_rect(fitz.Rect(30,30,150,150),color=(1,1,1),fill=(1,1,1))
+            elif mode == "rotation":
+                doc[0].set_rotation(90)
+            elif mode == "crop":
+                doc[0].set_cropbox(fitz.Rect(0,0,400,700))
+            doc.saveIncr()
+        manifest["published_artifact_sha256"]=gate.sha256(pdf)
+        return manifest
+    def test_visible_overlay_cannot_hide_behind_matching_embedded_master(self):
+        self.assertIn("rendered pixels differ",str(gate.inspect(self.alter_pdf("overlay"),self.root/"manifest.json")))
+    def test_rotation_changes_page_presentation(self):
+        self.assertIn("page geometry",str(gate.inspect(self.alter_pdf("rotation"),self.root/"manifest.json")))
+    def test_crop_changes_page_presentation(self):
+        self.assertIn("page geometry",str(gate.inspect(self.alter_pdf("crop"),self.root/"manifest.json")))
 if __name__=="__main__":unittest.main()
