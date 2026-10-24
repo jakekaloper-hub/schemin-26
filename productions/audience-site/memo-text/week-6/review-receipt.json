@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "decision": "ACCEPTED_FOR_TEXT_COMPANION",
+  "scope": "TEXT_COMPANION_ONLY",
+  "packetSha256": "1499edad0c7f3b45242b5655dc1145e509d673c24d23606ee46967cc07f7391f",
+  "sourcePdfSha256": "1d9b1b6915bf4b757a927c33719ab1cbd9f8f8eb93523e8103d3d8e2bd1a61c8",
+  "preparedBy": "AI agents /root/transcribe_week6 (pages3–7,9–23) and /root/transcribe_week5 (pages1,2,8); simulated Bullpen framing only; no human/authenticated Director claim",
+  "reviewer": "AI agent /root/audit_review (actual independent review; simulated Bullpen framing)",
+  "acceptedPhysicalPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "checks": {
+    "textAccuracy": "PASS",
+    "readingOrder": "PASS",
+    "visualDescription": "PASS"
+  },
+  "reviewMethod": "Actual independent AI reviewer displayed all 23 source PNGs with view_image and compared every legible editorial line, name, score, caption, table, illustration label, reading order and visual description against separately authored candidates. Source crops additionally inspected for clipped character and small map lettering. Simulated Bullpen persona framing only; no authenticated persona or human approval claim.",
+  "limitations": "Visible-source text companion only. Unreadable decorative microprint and physically occluded marks on pages1,2,8,12,15,16,17,18,20,21 remain explicitly disclosed in page descriptions and are not recovered or invented. PASS means accuracy of legible text, reading order and those descriptions; it does not mean every invisible mark was decoded. Original printed typos, malformed punctuation, stylized names and folio mismatches are preserved. Sports/news/medical assertions on page21 are transcribed source claims, not independently verified reporting. No whole-document accessibility certification, canon approval, historical fact certification, or whole-product publication acceptance.",
+  "reviewedSourceImages": [
+    {
+      "physicalPage": 1,
+      "sourceImageSha256": "f14936f5c0df8150764038bd4f3990c67ef0f030bd888f37c78c058c009a960d"
+    },
+    {
+      "physicalPage": 2,
+      "sourceImageSha256": "ceca8d58743d30f13973342f9a4229cb160687a885e06f564978a50bd6ab70d2"
+    },
+    {
+      "physicalPage": 3,
+      "sourceImageSha256": "5ad8b9256f657306ff65269be5e1459d472a06bc3d0e033d12f70173fa9bc638"
+    },
+    {
+      "physicalPage": 4,
+      "sourceImageSha256": "1b2b266f53153dc3081d0937da77525d8385b89449d5d272a35d8be4901f8659"
+    },
+    {
+      "physicalPage": 5,
+      "sourceImageSha256": "cc52941f9f5a057c14aeebb4d040bb752a0b6a90f46888bcba31a359b57aafce"
+    },
+    {
+      "physicalPage": 6,
+      "sourceImageSha256": "023879c44ce9173372c59770f3158c851d0e2518fa7434e3de1220397b4367a0"
+    },
+    {
+      "physicalPage": 7,
+      "sourceImageSha256": "88d955c219deb8f9c73ac89de78daad354419c1d660b2cda969031d2560f11c0"
+    },
+    {
+      "physicalPage": 8,
+      "sourceImageSha256": "34e500f3354197224977327c0405194947c707214b13c0486191b7c1e04f81b3"
+    },
+    {
+      "physicalPage": 9,
+      "sourceImageSha256": "174bccd9e135899e3ddaa52c204d7ac750773055b05e1564f0b9bf21ad5696df"
+    },
+    {
+      "physicalPage": 10,
+      "sourceImageSha256": "196a5358bfcd61c058b070502a6770cd7b9953c6336226af6591ee180ca364fb"
+    },
+    {
+      "physicalPage": 11,
+      "sourceImageSha256": "5ab8a82783175703229f0585ee2e411086a7b440b6b7d1883fb114c4858ed423"
+    },
+    {
+      "physicalPage": 12,
+      "sourceImageSha256": "908255940ce1058c9b3a558158b642d3ed0e52215b03219165305ebadf8bebc4"
+    },
+    {
+      "physicalPage": 13,
+      "sourceImageSha256": "bef185963fd76d26d14c8afac6ef536fcd1d02a128951fb21a5cd5fd8bb02381"
+    },
+    {
+      "physicalPage": 14,
+      "sourceImageSha256": "975d45daecca42d4e5107052399878e4148db52bc8eb4d6931f7181bde459d4d"
+    },
+    {
+      "physicalPage": 15,
+      "sourceImageSha256": "05454f7f89cb76062fc4617b7571b1c6620422ebe6b1b1cf47c70c4369e61795"
+    },
+    {
+      "physicalPage": 16,
+      "sourceImageSha256": "d5731ce9790d4ff620102a3cd3a31833281e75740051c6439c8b9f270663bfcd"
+    },
+    {
+      "physicalPage": 17,
+      "sourceImageSha256": "9d517432982517e2609c6fd23261100fd150e0673552bcdd9fa57b18b1f20ac2"
+    },
+    {
+      "physicalPage": 18,
+      "sourceImageSha256": "b549352fa75f6167dcd03337abddca1edba910efea9643abe08b8963e3d5bde6"
+    },
+    {
+      "physicalPage": 19,
+      "sourceImageSha256": "3235e393118745f5195c18b59d95ff5391bbf512dc136402e34a84d8fc92ee3a"
+    },
+    {
+      "physicalPage": 20,
+      "sourceImageSha256": "4935bd040b0a5b14caaa54504f3cdb3000c23b686d53c818c897e706489fa6ef"
+    },
+    {
+      "physicalPage": 21,
+      "sourceImageSha256": "d80bd171d9bb532c7d3ea2d4fd4312f94c33cb8d71fd5c0d7664a3f3c468ba32"
+    },
+    {
+      "physicalPage": 22,
+      "sourceImageSha256": "26935b9287515ac1c986701405a170ab86d38bf302ba168a4b7359e0f0d942ca"
+    },
+    {
+      "physicalPage": 23,
+      "sourceImageSha256": "4527f19b5677cacb50d6380630a7e92bd60125cedb0173255f0dc7e7681e69fa"
+    }
+  ],
+  "correctionsVerified": [
+    "Pages13/14 visual descriptions say cowboy figure without asserting a mounted rider.",
+    "Page5 describes spatial grouping rather than a strict vertical order.",
+    "Page1 fists bump rather than clasp hands.",
+    "Page12 clipped opening remains literal he spectators, missing quote is preserved.",
+    "Page21 visible C and11 jersey labels restored."
+  ]
+}
