@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "commissioner_decision": "CREATIVE_LOCK_NOT_CANONICAL_APPROVAL",
+  "source": "Schemin26_Week6_Six_Standalone_Environment_Candidates.zip",
+  "status": "SIX_EXACT_PNG_BYTES_COMMITTED_TO_PR202_CANDIDATE_BRANCH_CLEAN_CLONE_VERIFIED",
+  "assets": [
+    {
+      "location_id": "LOC-RED-RUINS",
+      "source_zip_member": "LOC-RED-RUINS/golden_hour_jungle_ruin_stadium.png",
+      "filename": "golden_hour_jungle_ruin_stadium.png",
+      "bytes": 3159575,
+      "sha256": "1b589d2eb888f428a19171d0850faba84289fa5b694dc813f799150c36ec24ec",
+      "width": 1672,
+      "height": 941,
+      "candidate_uri": "world/environment-references/candidates/week-6/LOC-RED-RUINS/CINEMATIC_CANDIDATE_V1.png",
+      "candidate_uri_status": "STAGED_ON_PR202_BRANCH_HASH_VERIFIED_NOT_CANONICALLY_APPROVED"
+    },
+    {
+      "location_id": "LOC-COUNTRY-CLUB-JACKSON",
+      "source_zip_member": "LOC-COUNTRY-CLUB-JACKSON/golden_hour_cypress_golf_retreat.png",
+      "filename": "golden_hour_cypress_golf_retreat.png",
+      "bytes": 3069829,
+      "sha256": "56ddc7b1ca50747ccb3097a0936ba0f832715cdd1cd911569ac803e4ae51cb71",
+      "width": 1672,
+      "height": 941,
+      "candidate_uri": "world/environment-references/candidates/week-6/LOC-COUNTRY-CLUB-JACKSON/CINEMATIC_CANDIDATE_V1.png",
+      "candidate_uri_status": "STAGED_ON_PR202_BRANCH_HASH_VERIFIED_NOT_CANONICALLY_APPROVED"
+    },
+    {
+      "location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "source_zip_member": "LOC-SLOB-FOOTHILL-CAMP/rustic_mountain_dodgeball_camp_at_sunset.png",
+      "filename": "rustic_mountain_dodgeball_camp_at_sunset.png",
+      "bytes": 3288261,
+      "sha256": "94d8b7cbf6bd001b0a41c56e7f58bea8e40ecc75571300a3965330a24f7a91da",
+      "width": 1672,
+      "height": 941,
+      "candidate_uri": "world/environment-references/candidates/week-6/LOC-SLOB-FOOTHILL-CAMP/CINEMATIC_CANDIDATE_V1.png",
+      "candidate_uri_status": "STAGED_ON_PR202_BRANCH_HASH_VERIFIED_NOT_CANONICALLY_APPROVED"
+    },
+    {
+      "location_id": "LOC-CHILI-STABLE",
+      "source_zip_member": "LOC-CHILI-STABLE/golden_hour_ranch_rodeo_landscape.png",
+      "filename": "golden_hour_ranch_rodeo_landscape.png",
+      "bytes": 3275186,
+      "sha256": "ef1c2a1063eed6ce2b8b4af38da4e2a5ebcabb051f0b4dbb0b22f181a2246365",
+      "width": 1672,
+      "height": 941,
+      "candidate_uri": "world/environment-references/candidates/week-6/LOC-CHILI-STABLE/CINEMATIC_CANDIDATE_V1.png",
+      "candidate_uri_status": "STAGED_ON_PR202_BRANCH_HASH_VERIFIED_NOT_CANONICALLY_APPROVED"
+    },
+    {
+      "location_id": "LOC-MUD-DOGS-SWAMP",
+      "source_zip_member": "LOC-MUD-DOGS-SWAMP/misty_bayou_landing_at_dawn.png",
+      "filename": "misty_bayou_landing_at_dawn.png",
+      "bytes": 2927635,
+      "sha256": "9dc76844e7c64725004cec79d6387b18943b3559471503e1fb7f05562c684114",
+      "width": 1672,
+      "height": 941,
+      "candidate_uri": "world/environment-references/candidates/week-6/LOC-MUD-DOGS-SWAMP/CINEMATIC_CANDIDATE_V1.png",
+      "candidate_uri_status": "STAGED_ON_PR202_BRANCH_HASH_VERIFIED_NOT_CANONICALLY_APPROVED"
+    },
+    {
+      "location_id": "LOC-TDS-WATERFALL-TEMPLE",
+      "source_zip_member": "LOC-TDS-WATERFALL-TEMPLE/misty_jungle_waterfall_temple.png",
+      "filename": "misty_jungle_waterfall_temple.png",
+      "bytes": 3368015,
+      "sha256": "e44ae1c8f036c5e93634ef7fb0c50671fed02de2e9cbb32e5e1ca22222857e42",
+      "width": 1672,
+      "height": 941,
+      "candidate_uri": "world/environment-references/candidates/week-6/LOC-TDS-WATERFALL-TEMPLE/CINEMATIC_CANDIDATE_V1.png",
+      "candidate_uri_status": "STAGED_ON_PR202_BRANCH_HASH_VERIFIED_NOT_CANONICALLY_APPROVED"
+    }
+  ],
+  "git_branch": "memo/week6-cinematic-asset-ingestion-20261018",
+  "proof_commit": "2c78205abf71d5d48e65c4256a9633459ef4074e",
+  "canonical_approval": "NOT_GRANTED",
+  "runtime_renderer_mount": "NOT_TESTED",
+  "approved_cinematic_registry_mutation": "NONE"
+}

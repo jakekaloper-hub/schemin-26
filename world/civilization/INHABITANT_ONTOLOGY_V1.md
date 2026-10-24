@@ -26,7 +26,7 @@ The character belongs to a broader kind/culture whose ordinary members exist in 
 
 Locked members:
 - Jake Kaloper / ObiWan Jacoby / Trade Jedi — human mountain/valley society.
-- Wilson Look / D0nkey K0ng / Arsenal Gorilla Warrior — gorilla-bodied people exist; Wilson is not a unique species.
+- Wilson Look / D0nkey K0ng / Arsenal Gorilla Centaur Warrior — gorilla-bodied people exist; Wilson has one integrated gorilla-upper/four-legged-equine lower body; do not duplicate his principal design on civilians.
 - Kevin Zeek / Red Leopards / Predator Board — leopard-bodied people exist.
 - Jordan Hollingshead / Slob on my Dobb / Frat-Bro Berserker — his home society contains people of his own broad human/berserker kind; horned gear does not by itself establish a separate biological species.
 - Bobby Mitchell / Mud Dogs / Swamp-Born Menace — sapient swamp canine/wolf people exist.
@@ -128,7 +128,7 @@ TDS + Chili is the controlling example.
 
 This ontology answers population/civilization questions. It does **not** redesign principal bodies.
 
-Current Character Control Plane remains authoritative. Therefore Wilson Look is the current **Arsenal Gorilla Warrior**; older centaur material is historical/superseded visual canon and cannot be revived by ontology prose.
+Current Character Control Plane remains authoritative. Therefore Wilson Look is the current **Arsenal Gorilla Centaur Warrior** per the October 2, 2026 Commissioner correction: one integrated gorilla-upper/equine-four-legged body. Older gorilla-only and centaur-retired statements are superseded. Ontology prose cannot override that current Character Canon.
 
 ## 8. Unknowns preserved
 

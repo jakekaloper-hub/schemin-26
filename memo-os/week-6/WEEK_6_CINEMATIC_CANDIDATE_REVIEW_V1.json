@@ -1,0 +1,166 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-18",
+  "commissioner_review": "DEVELOP_SIX_NOT_FINAL_APPROVE",
+  "authority": "STRUCTURAL_PLATES_V1",
+  "register_mutations": "NONE",
+  "cinematic_approval": "NONE",
+  "locations": [
+    {
+      "location_id": "LOC-RED-RUINS",
+      "name": "Red Leopard Ruins",
+      "zone": "REG-EASTERN-STORM-COAST",
+      "status": "CANDIDATE_REVIEW_NOT_APPROVED",
+      "structural_reference": "world/environment-references/plates/LOC-RED-RUINS/STRUCTURAL_PLATE.svg",
+      "approved_structural_reference": true,
+      "anchors": [
+        "dense forest",
+        "rocky approaches",
+        "storm-exposed coast",
+        "jungle ruins",
+        "predator banners"
+      ],
+      "spatial_staging": "Rain Escarpment access -> stone home/visitor tunnels -> independently leveled pitch terrace -> spectator terraces -> forested ruins; avoid rendering unsupported ocean waterfalls or stadium foundations as pre-existing",
+      "cinematic_direction": "Wide landscape of ancient jungle ruins on a wet coastal escarpment, predator banners in stone, with a proposed temporary football pitch and separate visitor entrance nested into a plausible terrace; Arsenal vs Manchester United crowd colors, dramatic moisture and restrained structural engineering",
+      "rejected_drift": "Football pitch and terraces are FUTURE proposed derived features, not a permanent stadium. No unsupported massive waterfalls beneath pitch, free-floating field or real-world urban stadium transplant.",
+      "proposed_asset_status": "NOT_REGISTERED_NO_APPROVED_CINEMATIC_BYTES",
+      "needs": [
+        "separate human review of corrected environmental image",
+        "parent LOC and active World State verification",
+        "physical/route geometry signoff",
+        "visual reference durable mount/provenance",
+        "independent Librarian/Atlas/Umpire receipt"
+      ]
+    },
+    {
+      "location_id": "LOC-COUNTRY-CLUB-JACKSON",
+      "name": "Country Club of Jackson",
+      "zone": "REG-SOUTHERN-WETLANDS",
+      "status": "CANDIDATE_REVIEW_NOT_APPROVED",
+      "structural_reference": "world/environment-references/plates/LOC-COUNTRY-CLUB-JACKSON/STRUCTURAL_PLATE.svg",
+      "approved_structural_reference": true,
+      "anchors": [
+        "clubhouse",
+        "golf grounds",
+        "water hazards",
+        "humid cypress wetlands",
+        "raised ground"
+      ],
+      "spatial_staging": "Jackson Levee -> clubhouse -> 18th green -> cart path -> existing water hazard; maintain chase sightlines",
+      "cinematic_direction": "Southern wetland golf estate on raised terrain, clubhouse and maintained greens, water hazards beyond paths, discreet old chili cleanup traces, tournament furnishings and cinematic late-summer weather",
+      "rejected_drift": "Do not imply pristine Week3 cleanup, invented brand-new waterway, uncontested extreme weather damage or automatically enormous luxury resort.",
+      "proposed_asset_status": "NOT_REGISTERED_NO_APPROVED_CINEMATIC_BYTES",
+      "needs": [
+        "separate human review of corrected environmental image",
+        "parent LOC and active World State verification",
+        "physical/route geometry signoff",
+        "visual reference durable mount/provenance",
+        "independent Librarian/Atlas/Umpire receipt"
+      ]
+    },
+    {
+      "location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "name": "Slob Foothill Camp",
+      "zone": "REG-UPPER-VALLEYS",
+      "status": "CANDIDATE_REVIEW_NOT_APPROVED",
+      "structural_reference": "world/environment-references/plates/LOC-SLOB-FOOTHILL-CAMP/STRUCTURAL_PLATE.svg",
+      "approved_structural_reference": true,
+      "anchors": [
+        "tailgate yard",
+        "rough training ground",
+        "rolling uplands",
+        "mixed forest",
+        "pasture"
+      ],
+      "spatial_staging": "Hearthroad -> camp lane -> rough training yard -> temporary dodgeball playing surface -> modest referee stand and spectator rails; ridges behind",
+      "cinematic_direction": "Ragged foothill camp in temperate Upper Valleys, approachable working camp with a temporary packed-earth dodgeball court and rustic bleachers, woodland and tailgate yard visible, funny biased referee setup",
+      "rejected_drift": "Parent LOC provisional. Do not invent a permanent stadium, monumental Himalayan mountains, modern electronic arena signs, or new named permanent settlement.",
+      "proposed_asset_status": "NOT_REGISTERED_NO_APPROVED_CINEMATIC_BYTES",
+      "needs": [
+        "separate human review of corrected environmental image",
+        "parent LOC and active World State verification",
+        "physical/route geometry signoff",
+        "visual reference durable mount/provenance",
+        "independent Librarian/Atlas/Umpire receipt"
+      ]
+    },
+    {
+      "location_id": "LOC-CHILI-STABLE",
+      "name": "Chili Outlaw Stable",
+      "zone": "REG-WESTERN-TABLELANDS",
+      "status": "CANDIDATE_REVIEW_NOT_APPROVED",
+      "structural_reference": "world/environment-references/plates/LOC-CHILI-STABLE/STRUCTURAL_PLATE.svg",
+      "approved_structural_reference": true,
+      "anchors": [
+        "stable",
+        "pit smoke",
+        "Dark Horse enclosure",
+        "open grassland",
+        "broken stone ridges"
+      ],
+      "spatial_staging": "Western Range road -> stable gates -> temporary rodeo corral -> wagon turn -> livestock pen with spectator separation",
+      "cinematic_direction": "Broad drier Western Tablelands range showing Chili's actual stable, pit-smoke and Dark Horse enclosure with temporary rodeo arena, food stalls and wagon course; open plains broken by stone ridges",
+      "rejected_drift": "Reject modern tractor, pickup, automated rodeo or motorized machinery; no desert mesas forced where source says broken stone ridges and grassland.",
+      "proposed_asset_status": "NOT_REGISTERED_NO_APPROVED_CINEMATIC_BYTES",
+      "needs": [
+        "separate human review of corrected environmental image",
+        "parent LOC and active World State verification",
+        "physical/route geometry signoff",
+        "visual reference durable mount/provenance",
+        "independent Librarian/Atlas/Umpire receipt"
+      ]
+    },
+    {
+      "location_id": "LOC-MUD-DOGS-SWAMP",
+      "name": "Mud Dogs Swamp",
+      "zone": "REG-SOUTHERN-WETLANDS",
+      "status": "CANDIDATE_REVIEW_NOT_APPROVED",
+      "structural_reference": "world/environment-references/plates/LOC-MUD-DOGS-SWAMP/STRUCTURAL_PLATE.svg",
+      "approved_structural_reference": true,
+      "anchors": [
+        "mud channels",
+        "raised ground",
+        "slow rivers",
+        "cypress-like wetlands",
+        "mudflats"
+      ],
+      "spatial_staging": "Delta Causeway -> raised landing -> existing muddy channel -> small craft side-channel; vessel staging conditional on actual depth/width proof",
+      "cinematic_direction": "Dense low Southern wetlands, slow dark waterways, tangled cypress-like vegetation, muddy elevated banks and a small lantern-lit rivercraft approaching a proposed landing in heavy mist, barge-heist atmosphere",
+      "rejected_drift": "Do not assert a huge ocean-class multi-deck steamboat is navigable, extensive existing commercial dock complex, determined LLC land title, or new deep river without hydrology evidence.",
+      "proposed_asset_status": "NOT_REGISTERED_NO_APPROVED_CINEMATIC_BYTES",
+      "needs": [
+        "separate human review of corrected environmental image",
+        "parent LOC and active World State verification",
+        "physical/route geometry signoff",
+        "visual reference durable mount/provenance",
+        "independent Librarian/Atlas/Umpire receipt"
+      ]
+    },
+    {
+      "location_id": "LOC-TDS-WATERFALL-TEMPLE",
+      "name": "Podium Shadow Waterfall Temple",
+      "zone": "REG-SOUTHERN-WETLANDS",
+      "status": "CANDIDATE_REVIEW_NOT_APPROVED",
+      "structural_reference": "world/environment-references/plates/LOC-TDS-WATERFALL-TEMPLE/STRUCTURAL_PLATE.svg",
+      "approved_structural_reference": true,
+      "anchors": [
+        "waterfall",
+        "temple stone",
+        "dense vegetation",
+        "wetland escarpment",
+        "Falls Path"
+      ],
+      "spatial_staging": "Falls Path -> stone approach -> temple terrace -> existing waterfall outlook; candidate short bridging/cavern detail contingent on structural feasibility",
+      "cinematic_direction": "Weathered stone waterfall temple embedded in dense southern wet escarpment vegetation, strong waterfall as primary anchor, moss and river mist, restrained temple terrace and possible unapproved rope traversal",
+      "rejected_drift": "No canonical hidden vault, impossible multi-bridge city, giant new canyon, waterfall height or structural load claimed without evidence. TDS is ONE serpent body with THREE heads if later composited.",
+      "proposed_asset_status": "NOT_REGISTERED_NO_APPROVED_CINEMATIC_BYTES",
+      "needs": [
+        "separate human review of corrected environmental image",
+        "parent LOC and active World State verification",
+        "physical/route geometry signoff",
+        "visual reference durable mount/provenance",
+        "independent Librarian/Atlas/Umpire receipt"
+      ]
+    }
+  ]
+}

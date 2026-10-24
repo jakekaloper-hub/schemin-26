@@ -53,3 +53,7 @@ The repository should remain deliberately smaller than FLA. We adopt the Librari
 4. Current state and historical evidence are never mixed without labels.
 5. Chat history may supply context, but durable decisions must be written into Git.
 6. Every major operating change updates the relevant index, inventory, and decision record in the same work cycle.
+
+## Repository-local skill: PDF archive bytes
+
+- `skills/schemin-pdf-bytes/SKILL.md` — canonical PDF-byte retrieval, verification and handoff for archival Memo workflows; uses existing manifest and release governance.

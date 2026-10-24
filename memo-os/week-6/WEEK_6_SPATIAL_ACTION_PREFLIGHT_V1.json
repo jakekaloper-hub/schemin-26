@@ -1,0 +1,217 @@
+{
+  "schema_version": "1.0",
+  "status": "PROVISIONAL_SPATIAL_PREVIS_ONLY",
+  "authority": "week6_spatial_gate; nonmetric and noncanonical derived features",
+  "source_coordinate_space": "schemin-local-v1 abstract/non-metric",
+  "encounters": [
+    {
+      "id": "W6-RED-DK",
+      "home_loc": "LOC-RED-RUINS",
+      "away_character": "CHAR-WILSON-LOOK",
+      "home_character": "CHAR-KEVIN-ZEEK",
+      "event_class": "GAME_OF_THE_WEEK",
+      "commissioner_home_override_required": true,
+      "feature_candidate": "SUB::LOC-RED-RUINS::SOCCER-TERRACE",
+      "activity": "Manchester United vs Arsenal football",
+      "anchor_sequence": [
+        "Rain Escarpment arrival",
+        "separate entry tunnels",
+        "lower-terrace pitch",
+        "goal-mouth end A",
+        "goal-mouth end B",
+        "ruin and forest stands"
+      ],
+      "action_path": [
+        "visitors tunnel",
+        "centre circle",
+        "goal-mouth",
+        "safe runoff",
+        "opposite end"
+      ],
+      "camera_axes": [
+        "high corner stadium oblique",
+        "low goal-line reverse"
+      ],
+      "physical_checks": [
+        "pitch must fit natural/engineered terrace without false metric dimensions",
+        "drainage and terrace foundation",
+        "crowd ingress separated from playing field",
+        "gorilla-centaur four-legged locomotion validated",
+        "ball movement goal orientation continuous"
+      ]
+    },
+    {
+      "id": "W6-DUCK-NINO",
+      "home_loc": "LOC-COUNTRY-CLUB-JACKSON",
+      "home_character": "CHAR-ZACH-WILSON",
+      "away_character": "CHAR-MANNING-WELTY",
+      "event_class": "REGULAR",
+      "feature_candidate": "SUB::LOC-COUNTRY-CLUB-JACKSON::18TH-HOLE-CART-LOOP",
+      "activity": "Celebrity tournament and golf-cart pursuit",
+      "anchor_sequence": [
+        "eighteenth green",
+        "portrait/spectator terrace",
+        "clubhouse",
+        "cart loop",
+        "water hazard"
+      ],
+      "action_path": [
+        "green",
+        "portrait terrace",
+        "clubhouse track",
+        "hazard approach",
+        "escape shoulder"
+      ],
+      "camera_axes": [
+        "clubhouse establishing oblique",
+        "cart-path chase profile"
+      ],
+      "physical_checks": [
+        "lane and vehicle turning",
+        "slope braking water-edge separation",
+        "spectator evacuation",
+        "Week3 contamination state reconciled",
+        "El Nino weather manifestation governed"
+      ]
+    },
+    {
+      "id": "W6-SLOB-OBI",
+      "home_loc": "LOC-SLOB-FOOTHILL-CAMP",
+      "home_character": "CHAR-JORDAN-HOLLINGSHEAD",
+      "away_character": "CHAR-JAKE-KALOPER",
+      "event_class": "REGULAR",
+      "feature_candidate": "SUB::LOC-SLOB-FOOTHILL-CAMP::DODGEBALL-COURT",
+      "activity": "Corruptly refereed mountain dodgeball",
+      "anchor_sequence": [
+        "camp entry",
+        "packed-earth court",
+        "referee stand",
+        "spectator rail",
+        "mud runoff"
+      ],
+      "action_path": [
+        "visitor gate",
+        "court",
+        "official platform sightline",
+        "safe rail"
+      ],
+      "camera_axes": [
+        "throw-to-referee common axis",
+        "crowd reverse"
+      ],
+      "physical_checks": [
+        "court clearance and sightline",
+        "projectile trajectory",
+        "referee-stand structural safety",
+        "animal companions kept spatially distinct",
+        "no ObiWan belt"
+      ]
+    },
+    {
+      "id": "W6-CHILI-CHINS",
+      "home_loc": "LOC-CHILI-STABLE",
+      "home_character": "CHAR-BRANDON-PRYOR",
+      "away_character": "CHAR-BEN-WHIPPLE",
+      "event_class": "REGULAR",
+      "feature_candidate": "SUB::LOC-CHILI-STABLE::RODEO-CORRAL",
+      "activity": "Rodeo contest misdelivered chili dog wagon chase",
+      "anchor_sequence": [
+        "stable",
+        "delivery table",
+        "rodeo gate",
+        "barrel course",
+        "wagon track",
+        "spectator rail"
+      ],
+      "action_path": [
+        "delivery table",
+        "wagon gate",
+        "barrels",
+        "outer escape lane",
+        "controlled stop"
+      ],
+      "camera_axes": [
+        "arena-wide high angle",
+        "horse-wagon parallel tracking"
+      ],
+      "physical_checks": [
+        "animal/wagon trajectory continuity",
+        "crowd exclusion",
+        "livestock barriers",
+        "no implausible motorized rodeo machinery",
+        "chili dog handoff/provenance"
+      ]
+    },
+    {
+      "id": "W6-MUD-HMB",
+      "home_loc": "LOC-MUD-DOGS-SWAMP",
+      "home_character": "CHAR-BOBBY-MITCHELL",
+      "away_character": "CHAR-AUSTIN-BYARS",
+      "event_class": "REGULAR",
+      "feature_candidate": "SUB::LOC-MUD-DOGS-SWAMP::BARGE-CHANNEL",
+      "activity": "Riverboat robbery for disputed corporate papers",
+      "anchor_sequence": [
+        "causeway approach",
+        "loading landing",
+        "main river bend",
+        "side skiff channel",
+        "pinch point",
+        "raised bank"
+      ],
+      "action_path": [
+        "riverboat approaches bend",
+        "small craft flanks",
+        "boarding at pinch point",
+        "chest moves between decks",
+        "raised-land escape"
+      ],
+      "camera_axes": [
+        "channel-wide geography",
+        "deck-to-landing side profile"
+      ],
+      "physical_checks": [
+        "depth draft and vessel beam UNKNOWN",
+        "current and turn radius UNKNOWN",
+        "boarding reach and vessel stability",
+        "visibility during fog",
+        "belt stays with HMB; deeds confer no ownership"
+      ]
+    },
+    {
+      "id": "W6-TDS-LLC",
+      "home_loc": "LOC-TDS-WATERFALL-TEMPLE",
+      "home_character": "CHAR-PHILLIP-PITTS",
+      "away_character": "CHAR-DAVID-BABB",
+      "event_class": "REGULAR",
+      "feature_candidate": "SUB::LOC-TDS-WATERFALL-TEMPLE::FALLS-APPROACH",
+      "conditional_feature": "HYPOTHETICAL-BEHIND-FALLS-VAULT-NOT-CANON",
+      "activity": "Waterfall corporate takeover and vault heist",
+      "anchor_sequence": [
+        "Falls Path arrival",
+        "negotiation terrace",
+        "upper stone passage",
+        "suspension span",
+        "falls recess hypothetical",
+        "return exit"
+      ],
+      "action_path": [
+        "negotiation",
+        "staged tour",
+        "bridge crossing",
+        "briefcase exchange",
+        "escape path"
+      ],
+      "camera_axes": [
+        "cliff-wide bridge geography",
+        "perpendicular bridge close confrontation"
+      ],
+      "physical_checks": [
+        "anchor strength and span load UNKNOWN",
+        "waterfall head and geology UNKNOWN",
+        "single body with exactly three heads",
+        "post haircut temporal continuity",
+        "vault remains fictional hypothesis until verified"
+      ]
+    }
+  ]
+}

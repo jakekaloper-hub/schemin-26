@@ -1,0 +1,64 @@
+{
+  "version": "1.0",
+  "status": "PREVIS_CANDIDATE_NOT_RENDER_AUTHORIZED",
+  "scenario_id": "W5-SLOB-CHINS-AFTER-STORM",
+  "source_refs": [
+    "memo-os/week-5/WEEK_5_MATCHUP_VISUAL_BRAINSTORM_HARDENED_2026-10-11.md",
+    "memo-os/week-5/WEEK_5_DISTRIBUTED_EDITION_POST_PUBLICATION_AUDIT_2026-10-14.md"
+  ],
+  "teams": [
+    {
+      "team": "Seven Deadly Chins",
+      "character_id": "CHAR-BEN-WHIPPLE",
+      "score": 170.46
+    },
+    {
+      "team": "Slob on my Dobb",
+      "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "score": 134.7
+    }
+  ],
+  "venue": {
+    "location_id": null,
+    "state": "UNRESOLVED_REQUIRES_HOST_ATLAS_EVIDENCE",
+    "prohibited_assumption": "LOC-MUD-DOGS-SWAMP"
+  },
+  "scene_beats": [
+    {
+      "id": "W5-SC-EST",
+      "narrative_job": "establish terrain and competition",
+      "character_render_status": "NO_CHARACTER_ART_AUTHORIZED"
+    },
+    {
+      "id": "W5-SC-REV",
+      "narrative_job": "intelligible reversal with storm-damaged terrain",
+      "character_render_status": "NO_CHARACTER_ART_AUTHORIZED"
+    },
+    {
+      "id": "W5-SC-RCT",
+      "narrative_job": "verified Chins win and consequential aftermath",
+      "character_render_status": "NO_CHARACTER_ART_AUTHORIZED"
+    }
+  ],
+  "fact_boundary": {
+    "source_type": "DISTRIBUTED_MEMO_INTERNAL_PARITY_ONLY",
+    "needs_live_espn_reverification": true,
+    "winner": "Seven Deadly Chins"
+  },
+  "character_boundary": {
+    "original_refs_identified": true,
+    "per_subject_mount_proof": false,
+    "final_raster_qa": false
+  },
+  "consumer_treatments": {
+    "memo": "cinematic event sequence plus deterministic score strip",
+    "novel": "character-selected POV with immersive world consequences",
+    "atlas": "read-only resolved venue; no invented point"
+  },
+  "art_direction": {
+    "fixed_style": false,
+    "composition_selection": "AUTHOR_AND_VISUAL_DIRECTION",
+    "requires_mobile_readability": true
+  },
+  "publication_authorized": false
+}

@@ -1,0 +1,124 @@
+{
+  "source": "Live Flaim Fantasy ESPN 1417621 get_matchups; finals winners-bracket selected from completed 2015-2025 playoffs",
+  "retrieved_date": "2026-10-17",
+  "champion_decision_method": "winner of paired final WINNERS_BRACKET matchup, NOT maximal combined points",
+  "coverage": "FINAL ROUND ONLY (all seasons); complete week-by-week 2022 is separately captured",
+  "limitations": [
+    "No raw provider bytes/checksum",
+    "No 2015-2025 complete per-week backfill here except 2022",
+    "Historic team slot is NOT verified owner identity",
+    "2015 and 2016 cumulative playoff period scoring spans weeks, records reflect final aggregate"
+  ],
+  "finals": [
+    {
+      "season": 2015,
+      "final_scoring_week": 16,
+      "winner_team_id": 12,
+      "winner_team_name": "Discount Belichick",
+      "winner_points": 211.5,
+      "runnerup_team_id": 8,
+      "runnerup_team_name": "Austin's Hyena's",
+      "runnerup_points": 187
+    },
+    {
+      "season": 2016,
+      "final_scoring_week": 16,
+      "winner_team_id": 8,
+      "winner_team_name": "Austin's Hyena's",
+      "winner_points": 217.7,
+      "runnerup_team_id": 7,
+      "runnerup_team_name": "The Gunslingers",
+      "runnerup_points": 206.88
+    },
+    {
+      "season": 2017,
+      "final_scoring_week": 16,
+      "winner_team_id": 12,
+      "winner_team_name": "The Fournecators",
+      "winner_points": 144.2,
+      "runnerup_team_id": 7,
+      "runnerup_team_name": "The Gunslingers",
+      "runnerup_points": 80.42
+    },
+    {
+      "season": 2018,
+      "final_scoring_week": 16,
+      "winner_team_id": 8,
+      "winner_team_name": "Kardiac Kids",
+      "winner_points": 160.69,
+      "runnerup_team_id": 12,
+      "runnerup_team_name": "Christopher Columbus",
+      "runnerup_points": 153.26
+    },
+    {
+      "season": 2019,
+      "final_scoring_week": 16,
+      "winner_team_id": 3,
+      "winner_team_name": "Please, Please, Please, please",
+      "winner_points": 158.3,
+      "runnerup_team_id": 5,
+      "runnerup_team_name": "Make Amarica Great Again",
+      "runnerup_points": 113.46
+    },
+    {
+      "season": 2020,
+      "final_scoring_week": 16,
+      "winner_team_id": 10,
+      "winner_team_name": "Where Mahomies at?",
+      "winner_points": 189.19,
+      "runnerup_team_id": 8,
+      "runnerup_team_name": "The Grinch",
+      "runnerup_points": 188.44
+    },
+    {
+      "season": 2021,
+      "final_scoring_week": 17,
+      "winner_team_id": 5,
+      "winner_team_name": "Dewars White Label",
+      "winner_points": 178.06,
+      "runnerup_team_id": 8,
+      "runnerup_team_name": "The Third Coming",
+      "runnerup_points": 96.58
+    },
+    {
+      "season": 2022,
+      "final_scoring_week": 17,
+      "winner_team_id": 9,
+      "winner_team_name": "El Niño",
+      "winner_points": 111.56,
+      "runnerup_team_id": 10,
+      "runnerup_team_name": "Where Mahomies at?",
+      "runnerup_points": 78.3
+    },
+    {
+      "season": 2023,
+      "final_scoring_week": 17,
+      "winner_team_id": 12,
+      "winner_team_name": "Eggs Benedict",
+      "winner_points": 192.88,
+      "runnerup_team_id": 11,
+      "runnerup_team_name": "Arm Chair GM",
+      "runnerup_points": 140.76
+    },
+    {
+      "season": 2024,
+      "final_scoring_week": 17,
+      "winner_team_id": 1,
+      "winner_team_name": "ObiWan Jacoby",
+      "winner_points": 187.52,
+      "runnerup_team_id": 8,
+      "runnerup_team_name": "The King",
+      "runnerup_points": 161.68
+    },
+    {
+      "season": 2025,
+      "final_scoring_week": 17,
+      "winner_team_id": 8,
+      "winner_team_name": "The Immortal",
+      "winner_points": 161.07,
+      "runnerup_team_id": 1,
+      "runnerup_team_name": "ObiWan Jacoby",
+      "runnerup_points": 109.56
+    }
+  ]
+}

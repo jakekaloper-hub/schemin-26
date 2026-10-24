@@ -1,0 +1,192 @@
+{
+  "schema": "schemin.novel.reconstruction.chapter_03.v1",
+  "status": "FULL_LENGTH_DEVELOPMENT_CANDIDATE_NOT_CANON",
+  "title": "THE HILL IS NOT THE KINGDOM",
+  "manuscript_path": "living-novel/production/full-rewrite-2026/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM_FULL_RECONSTRUCTION_V1_NONCANON.md",
+  "hard_original": {
+    "path": "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md",
+    "blob_sha": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc",
+    "preservation": "BYTE_IDENTICAL_UNCHANGED"
+  },
+  "week3_fact_lock": {
+    "path": "memo-os/week-3/WEEK_3_FACT_LOCK_V1.md",
+    "blob_sha": "09b4f512514e38ac2bea4d2540066b84fa355d80",
+    "status": "CLOSER_APPROVED_SCORING_LOCK_PROVIDER_ROLLUP_STALE",
+    "publication_final_stat_correction_check": "PENDING"
+  },
+  "previous_opening": {
+    "prologue": {
+      "pr": 130,
+      "path": "living-novel/migrations/PROLOGUE_TWELVE_POV_EDITORIAL_CANDIDATE_V4R2.md",
+      "status": "PREFERRED_NONCANON_ONLY_UNCHANGED"
+    },
+    "chapter_01": "living-novel/production/full-rewrite-2026/manuscript/CHAPTER_01_THE_FIRST_ANSWER_FULL_RECONSTRUCTION_V1_NONCANON.md",
+    "chapter_02": "living-novel/production/full-rewrite-2026/manuscript/CHAPTER_02_WHAT_COMES_BACK_FULL_RECONSTRUCTION_V1_NONCANON.md",
+    "transition": "end W2 Wilson and Mud 2-0; TDS post haircut; Byars 0-2 retaining Belt; Obi 1-1; Chili 1-1"
+  },
+  "pov_segments": [
+    {
+      "segment": "I",
+      "title": "The Lower Standard",
+      "character_id": "CHAR-WILSON-LOOK",
+      "location_id": "LOC-DK-MUD-HILL",
+      "region_id": "REG-CENTRAL-BASIN",
+      "context_id": "SETCTX-CENTRAL-BASIN",
+      "site_canon_status": "PROVISIONAL_CANON",
+      "time": "AFTER_WEEK_03_DK_MUD_CERTIFICATION_BEFORE_WEEK_04",
+      "event_ids": [
+        "2026-W03-DK-MUD"
+      ],
+      "decision": "Set public standard below summit and reject land/title entitlement despite lone 3–0 record",
+      "cost": "Public misinterpretation persists; labor and access independent of the champion",
+      "source_class": "ADAPTED_HARD_CHAPTER_III",
+      "character_canon": "AR-MULTI-LEG-GORILLA_CENTAUR_REPAIR_DEVELOPMENT_ONLY",
+      "world_evolution": "NO_NEW_TRANSACTION"
+    },
+    {
+      "segment": "II",
+      "title": "The Bridge and the Word",
+      "character_id": "CHAR-JAKE-KALOPER",
+      "location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "region_id": "REG-UPPER-VALLEYS",
+      "context_id": "SETCTX-UPPER-VALLEYS",
+      "site_canon_status": "PERMANENT_CANON",
+      "time": "AFTER_WEEK_03_ALL_SIX_CERTIFIED_BEFORE_WEEK_04",
+      "event_ids": [
+        "2026-W03-OBI-TDS",
+        "2026-W03-CHILI-DUCKHOOK",
+        "2026-W03-RED-SLOB",
+        "2026-W03-DK-MUD"
+      ],
+      "decision": "Publish accurate result, refuse bridge sovereignty claim, request verifiable trade terms not implicit consent",
+      "cost": "Forfeits chance to exploit public impression before verification",
+      "source_class": "NEW_FICTIONAL_OWNER_SCENE_ALL_PUBLIC_SCORES_CLOSED",
+      "world_evolution": "NO_NEW_TRANSACTION"
+    },
+    {
+      "segment": "III",
+      "title": "What a Keeper Cannot Keep",
+      "character_id": "CHAR-AUSTIN-BYARS",
+      "location_id": "LOC-BELT-KEEPER-KEEP",
+      "region_id": "REG-EASTERN-STORM-COAST",
+      "context_id": "SETCTX-EASTERN-STORM-COAST",
+      "site_canon_status": "PROVISIONAL_CANON",
+      "time": "AFTER_WEEK_03_ALL_SIX_CERTIFIED_BEFORE_WEEK_04",
+      "event_ids": [
+        "2026-W03-BYARS-CHINS",
+        "2026-W03-LLC-ELNINO",
+        "2026-W03-DK-MUD"
+      ],
+      "decision": "Record win while separately restricting unavailable keeper allocation and deny unauthorized road/resource requisition",
+      "cost": "Champion admits supply shortage and delays response pending lawful proof",
+      "source_class": "NEW_FICTIONAL_OWNER_SCENE_MIXED_SOURCE_STORY_BEAT",
+      "keeper_achane_claim": "SECONDARY_STORY_EVIDENCE_NEEDS_ROSTER_TRANSACTION_VETTING",
+      "world_evolution": "NO_NEW_TRANSACTION"
+    }
+  ],
+  "score_witness": [
+    {
+      "event_id": "2026-W03-OBI-TDS",
+      "winner": "ObiWan Jacoby",
+      "winner_points": 136.73,
+      "loser": "Three Dreaded Snake",
+      "loser_points": 114.5
+    },
+    {
+      "event_id": "2026-W03-DK-MUD",
+      "winner": "D0nkey K0ng",
+      "winner_points": 172.48,
+      "loser": "Mud Dogs",
+      "loser_points": 126.86
+    },
+    {
+      "event_id": "2026-W03-CHILI-DUCKHOOK",
+      "winner": "Chili Cheesers",
+      "winner_points": 132.19,
+      "loser": "Dr. Duckhook",
+      "loser_points": 126.16
+    },
+    {
+      "event_id": "2026-W03-RED-SLOB",
+      "winner": "Red Leopards",
+      "winner_points": 158.44,
+      "loser": "Slob on my Dobb",
+      "loser_points": 141.86
+    },
+    {
+      "event_id": "2026-W03-BYARS-CHINS",
+      "winner": "His Majesty's Blood",
+      "winner_points": 136,
+      "loser": "Seven Deadly Chins",
+      "loser_points": 125.54
+    },
+    {
+      "event_id": "2026-W03-LLC-ELNINO",
+      "winner": "The LLC",
+      "winner_points": 147.43,
+      "loser": "El Niño",
+      "loser_points": 114.62
+    }
+  ],
+  "development_story_objects": [
+    {
+      "object": "Mire Hill victory standard",
+      "origin": "hard Chapter III",
+      "chronology": "W3",
+      "canon_truth": "placed BELOW summit, no annexation"
+    },
+    {
+      "object": "bridge/lake rivalry illustration",
+      "origin": "fictional dispatch in new candidate",
+      "chronology": "W3 after proof",
+      "canon_truth": "TDS has no returning dreadlocks"
+    },
+    {
+      "object": "Sonic chili dog",
+      "origin": "Week 3 Memo / story room report rather than the score lock",
+      "chronology": "W3",
+      "canon_truth": "Separate from W2 Red parcel; provenance of delivery and timing unresolved"
+    },
+    {
+      "object": "white flag / $100 wager receipt",
+      "origin": "Week 3 Memo / story room report rather than score lock",
+      "chronology": "W3",
+      "canon_truth": "not a certified payment or signed deed"
+    },
+    {
+      "object": "Achane season-ending keeper unavailability",
+      "origin": "existing merged Chapter III sketch and Week3 story dossier, NOT W3 score fact lock",
+      "chronology": "W3",
+      "canon_truth": "not an asserted injury/death in fictional character body; roster availability requires separate source approval"
+    },
+    {
+      "object": "LLC first win",
+      "origin": "Week3 score fact lock plus W1/W2 prior witness",
+      "chronology": "W3",
+      "canon_truth": "not an executed land acquisition"
+    }
+  ],
+  "continuity_gates": [
+    "Exactly THREE owner viewpoint sections, no Edrin/Edin/Oren omniscience",
+    "Wilson has ONE body with gorilla upper half and equine FOUR-hoof lower half, never a biped",
+    "Three Dreaded Snake has exactly three heads, ONE serpent body and NO W3 dreadlocks",
+    "ObiWan NO Belt; Byars retains Belt despite W1/2 losses and W3 win",
+    "Mire Hill standard below summit; no land/road/river sovereignty or land grant",
+    "Week 3 score data from Commissioner-authorized Fact Lock; distinguish extra keeper and object story source",
+    "Week 2 Chili Red parcel not confused with Week 3 Sonic delivery",
+    "No exact invented travel time and no same-day cross-zone teleportation",
+    "No future Week4 final score/record leaks; Wilson 3-0 at Week3 cutoff, not coronated",
+    "World settlement textures are inferred, not measured populations, exact new municipalities or approved roads",
+    "Independent actual 12 POV reader paths, human readers, final source byte mount and Founder/Umpire approvals still pending"
+  ],
+  "approval": {
+    "technical": "PENDING_CI",
+    "scoring": "WEEK3_LOCK_PRESENT_FINAL_PUBLISHER_CHECK_OUTSTANDING",
+    "keeper_claim": "SECONDARY_NEEDS_SOURCE",
+    "illustrated_chapter": "NOT_RENDERED",
+    "literary_human_review": "NOT_DONE",
+    "director_runtime": "NOT_AUTHENTICATED",
+    "founder": "NOT_OBTAINED",
+    "canon_promotion": "HOLD"
+  }
+}

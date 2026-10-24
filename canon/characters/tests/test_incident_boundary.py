@@ -402,5 +402,61 @@ class Boundary(unittest.TestCase):
         self.assertEqual(result["execution_receipt"], receipt)
 
 
+    def test_native_route_rejects_missing_and_wrong_reference_input(self):
+        mounts = [mount(route="openai_native")]
+        native_cap = {"openai_native": CAP["test"]}
+        capability = negotiate("openai_native", native_cap, 1)
+        eligible = issue_eligibility(
+            "native-1", [CID], mounts, "openai_native", capability,
+            authority_receipt=authority_receipt(CID),
+            signing_key="test-key", now=1,
+        )
+        invoked = []
+        def renderer(payload):
+            invoked.append(payload)
+            return {
+                "output_instance_id": "out-1",
+                "execution_receipt": execution_receipt("native-1", "openai_native", mounts),
+            }
+        for references in ([], ["wrong"], ["ref-1", "ref-1"]):
+            payload = canonical_renderer_payload("native-1", mounts, "scene")
+            payload["referenced_image_ids"] = references
+            result = governed_generate(
+                renderer, eligible, "native-1", [CID], mounts, "openai_native",
+                payload, authority_receipt=authority_receipt(CID),
+                signing_key="test-key", consumed_nonces=set(), now=2,
+            )
+            self.assertEqual(result["reason"], "RENDERER_REFERENCE_PAYLOAD_MISMATCH")
+            self.assertEqual(result["renderer_invoked"], False)
+        self.assertEqual(invoked, [])
+
+    def test_native_route_reaches_renderer_with_exact_reference_and_receipt(self):
+        mounts = [mount(route="openai_native")]
+        native_cap = {"openai_native": CAP["test"]}
+        capability = negotiate("openai_native", native_cap, 1)
+        eligible = issue_eligibility(
+            "native-2", [CID], mounts, "openai_native", capability,
+            authority_receipt=authority_receipt(CID),
+            signing_key="test-key", now=1,
+        )
+        payload = canonical_renderer_payload("native-2", mounts, "scene")
+        observed = []
+        def renderer(value):
+            observed.append(value)
+            return {
+                "output_instance_id": "transport-test-out",
+                "execution_receipt": execution_receipt("native-2", "openai_native", mounts),
+            }
+        result = governed_generate(
+            renderer, eligible, "native-2", [CID], mounts,
+            "openai_native", payload,
+            authority_receipt=authority_receipt(CID),
+            signing_key="test-key", consumed_nonces=set(), now=2,
+        )
+        self.assertEqual(observed, [payload])
+        self.assertEqual(result["state"], "GENERATION_EXECUTED_PENDING_CHARACTER_QA")
+        self.assertEqual(result["execution_receipt"]["generation_reference_ids"], ["ref-1"])
+
+
 if __name__ == "__main__":
     unittest.main()
