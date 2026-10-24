@@ -77,7 +77,21 @@ class ReferenceAuthorityTests(unittest.TestCase):
                 "filename":e["source_filename"],
             }
         result=request_authority_state(ids,candidates,SRC,AUTH)
-        self.assertEqual(result["state"],"REFERENCE_AUTHORITY_RESOLVED")
+        self.assertEqual(result["state"],"GENERATION_BLOCKED")
+        dk=next(x for x in result["results"] if x.get("character_id")=="CHAR-WILSON-LOOK")
+        self.assertEqual(dk["reason"],"ACTIVE_VISUAL_CANON_CONFLICT")
+
+    def test_exact_old_dk_approved_sha_cannot_override_current_body_form(self):
+        cid="CHAR-WILSON-LOOK"
+        e=expected(cid)
+        r=validate_reference_candidate(cid,{
+            "sha256":e["expected_sha256"],
+            "asset_id":"source-original",
+            "source_kind":"COMMISSIONER_SOURCE",
+            "filename":e["source_filename"],
+        },SRC,AUTH)
+        self.assertEqual(r["state"],"GENERATION_BLOCKED")
+        self.assertEqual(r["reason"],"ACTIVE_VISUAL_CANON_CONFLICT")
 
 if __name__=="__main__":
     unittest.main(verbosity=2)

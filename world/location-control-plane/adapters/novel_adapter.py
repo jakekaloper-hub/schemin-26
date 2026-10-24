@@ -13,4 +13,19 @@ def compile_novel_location_packet(location_id, character_ids=None, event_class="
             "pov_knowledge_envelope_required":True,
             "ordinary_world_consequence_required_for_major_events":True
         }
+    # Additive, read-only civilization context; never elevates semantic QA to publication.
+    if packet.get("status") in {"READY_FOR_SEMANTIC_QA", "READY_FOR_RENDER"}:
+        from pathlib import Path
+        import sys
+        root = Path(__file__).resolve().parents[3]
+        if str(root) not in sys.path:
+            sys.path.insert(0, str(root))
+        from world.engine.civilization_consumers import resolve_scene_context
+        context = resolve_scene_context(location_id, "novel")
+        if not context.get("ok"):
+            packet["status"] = "HUMAN_REVIEW_REQUIRED"
+            packet.setdefault("review_blockers", []).append("CIVILIZATION_CONTEXT_UNRESOLVED")
+        else:
+            packet["civilization_context"] = context
+            packet["civilization_context_status"] = "INTERPRETIVE_NON_PROMOTING"
     return packet
