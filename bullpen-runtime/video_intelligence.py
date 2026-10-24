@@ -4,6 +4,7 @@ import argparse
 import json
 import re
 import subprocess
+import tempfile
 from pathlib import Path
 from urllib.parse import urlparse, parse_qs
 
@@ -24,25 +25,30 @@ def run(url, output, allow_media=False):
     ident = video_id(url)
     output = Path(output)
     output.mkdir(parents=True, exist_ok=True)
+    # Each attempt gets an isolated directory: prior captures must never become
+    # evidence that this invocation retrieved captions or media.
+    artifacts = Path(tempfile.mkdtemp(prefix=ident + "-", dir=output))
     source = "https://www.youtube.com/watch?v=" + ident
     cmd = ["yt-dlp", "--no-playlist", "--skip-download", "--write-info-json",
            "--write-auto-subs", "--write-subs", "--sub-langs", "en.*",
-           "--sub-format", "vtt", "-o", str(output / "%(id)s.%(ext)s"), source]
+           "--sub-format", "vtt", "-o", str(artifacts / "%(id)s.%(ext)s"), source]
     subprocess.run(cmd, check=True, timeout=180)
-    metadata_file = output / (ident + ".info.json")
+    metadata_file = artifacts / (ident + ".info.json")
     if not metadata_file.exists():
         raise RuntimeError("No metadata receipt")
     metadata = json.loads(metadata_file.read_text())
+    if metadata.get("id") != ident:
+        raise RuntimeError("Metadata video identity mismatch")
     receipt = {"video_id": ident, "source": source, "title": metadata.get("title"),
                "duration_seconds": metadata.get("duration"), "status": "METADATA_ONLY",
-               "transcript_files": sorted(p.name for p in output.glob(ident + "*.vtt")),
+               "transcript_files": sorted(str(p.relative_to(output)) for p in artifacts.glob(ident + "*.vtt")),
                "visual_review": "NOT_PERFORMED", "director_review": "NOT_PERFORMED"}
     if receipt["transcript_files"]:
         receipt["status"] = "CAPTIONS_RETRIEVED"
     if allow_media:
         subprocess.run(["yt-dlp", "--no-playlist", "-f", "bv*+ba/b", "-o",
-                        str(output / "%(id)s.%(ext)s"), source], check=True, timeout=900)
-        receipt["media_files"] = sorted(p.name for p in output.glob(ident + ".*")
+                        str(artifacts / "%(id)s.%(ext)s"), source], check=True, timeout=900)
+        receipt["media_files"] = sorted(str(p.relative_to(output)) for p in artifacts.glob(ident + ".*")
                                         if p.suffix not in {".json", ".vtt"})
         receipt["status"] = "MEDIA_RETRIEVED" if receipt["media_files"] else receipt["status"]
     (output / "receipt.json").write_text(json.dumps(receipt, indent=2) + "\n")

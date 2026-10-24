@@ -14,3 +14,7 @@ This retrieves available metadata and English captions and writes a receipt. Use
 https://www.youtube.com/watch?v=vFMnz75y5y4
 
 Issue: https://github.com/jakekaloper-hub/schemin-26/issues/217
+
+Each ingestion attempt writes to its own subdirectory under `--output`; receipt paths are relative to that output directory. Existing captures are retained but never counted as evidence from a new attempt. Metadata must identify the requested video. Unit tests use synthetic downloader responses; they do not establish live platform access.
+
+`receipt.json` describes the last successful ingestion only; a failed attempt raises an error and does not replace that receipt. Check the current command result before interpreting it as evidence for a new attempt.
