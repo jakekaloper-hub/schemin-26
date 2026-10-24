@@ -102,5 +102,19 @@
       "supersession_state": "COMMISSIONER_EXPLICIT_VERSION_APPROVAL_AND_INDEPENDENT_C1_REQUIRED",
       "candidate_retrieval_note": "Candidate bytes are currently held on separate draft PR #195; not available to this hotfix main branch and not approved for current production."
     }
-  ]
+  ],
+  "commissioner_approved_current_lineup_2026_10_18": {
+    "approval": "COMMISSIONER_APPROVED_CURRENT_TWELVE_CHARACTER_PRESENTATION",
+    "date": "2026-10-18",
+    "manifest": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+    "image_path": "canon/characters/assets/lineups/SCHEMIN_26_COMMISSIONER_APPROVED_LINEUP_2026_10_18.png",
+    "sha256": "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2",
+    "supporting_HMB_correction_sha256": "ed65db3f1271e19db54be94d7a09b7910b333cde79dcaa107020cc54015d5ade",
+    "semantic_role": "VISUAL_PRESENTATION_AUTHORITY_ALL_TWELVE",
+    "is_primary_source_supersession": false,
+    "renderer_identity_bindings_certified": false,
+    "current_DK_historical_primary_visual_conflict_still_active": true,
+    "historical_reference_hashes_unchanged": true,
+    "scope": "Appearance and comparative visual QA baseline; not automatic conditioning-seed, source supersession, scene renderer success or publication approval."
+  }
 }

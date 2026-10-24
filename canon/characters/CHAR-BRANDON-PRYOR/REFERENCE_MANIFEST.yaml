@@ -29,3 +29,25 @@ supplementary_owner_spotlight_2026_10_13:
   identity_supersession: false
   current_score_authority: false
   renderer_gate: "HOLD_UNTIL_PRIMARY_AND_SUBJECT_BINDING_PROVEN"
+
+lineup_presentation_approval_2026_10_18:
+  state: "COMMISSIONER_APPROVED_VISUAL_PRESENTATION"
+  parent_image_sha256: "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2"
+  lineup_path: "canon/characters/assets/lineups/SCHEMIN_26_COMMISSIONER_APPROVED_LINEUP_2026_10_18.png"
+  owner_crop_path: "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png"
+  owner_crop_sha256: "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e"
+  visual_delta_path: "canon/characters/lineup_2026_10_18/CHAR-BRANDON-PRYOR.json"
+  primary_reference_supersession: false
+  approved_for_unverified_provider_generation: false
+
+commissioner_appearance_lock_2026_10_22:
+  state: "COMMISSIONER_APPROVED_APPEARANCE__SOURCE_BINARY_INGEST_PENDING"
+  record: "canon/characters/CHAR-BRANDON-PRYOR/COMMISSIONER_APPEARANCE_LOCK_2026_10_22.json"
+  target_asset: "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_CHILI_OUTLAW_2026_10_22.png"
+  expected_sha256: "5812d9b62844368fdd1e23bb11657bbe47af101f7c026413eea6ce2bb8a3793f"
+  original_commissioner_reference_sha256: "dd961918a7707e276dcd9e9fe515fef9ae64e2ff0223f1c75a18da70d3b70e10"
+  appearance_precedence: "LATEST_COMMISSIONER_APPROVED_CHILI_OUTLAW_PRESENTATION"
+  includes: "Bearded sunglasses outlaw; chili-ornamented hat; crimson long leather coat; red cartridge bandolier; revolver; CHILI OUTLAW buckle; separate Dark Horse"
+  historical_primary_sha_superseded: false
+  binary_mounted: false
+  renderer_eligible: false
