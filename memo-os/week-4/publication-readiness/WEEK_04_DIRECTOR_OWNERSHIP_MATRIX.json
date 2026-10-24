@@ -1,7 +1,8 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "publication_id": "memo.2026.week-04",
-  "status": "ACTIVE_PREPUBLICATION_OWNERSHIP",
+  "status": "ACTIVE_27_PAGE_PRE_ART_QA_OWNERSHIP",
+  "doctrine": "All non-Flaim planning/QA is locked before manual art production. PAGE_GENERATION_GATE combines pre-render preflight and candidate acceptance; only QA-passed output is APPROVED_FOR_LOCAL_FOLDER.",
   "gates": [
     {
       "gate_id": "G1",
@@ -9,39 +10,39 @@
       "owner": "Scout",
       "counterweight": "Umpire",
       "control_status": "PASS",
-      "execution_status": "HOLD_EXTERNAL",
-      "enforcement": "Flaim finality + freshness + contradiction checks",
-      "regression_test": "test_pre_mnf_readiness_is_hold_not_false_pass"
+      "execution_status": "WAITING_ON_FLAIM_ONLY",
+      "enforcement": "Official Flaim/ESPN decided state; populate deterministic result fields without reopening story.",
+      "regression_test": "test_result_lock_is_only_remaining_editorial_input"
     },
     {
       "gate_id": "G2",
-      "domain": "Pitty's Book",
+      "domain": "Pitty's Book Final Data",
       "owner": "Pitty desk",
       "counterweight": "Scout",
       "control_status": "PASS",
-      "execution_status": "HOLD_EXTERNAL",
-      "enforcement": "deterministic settlement + prior ledger reconciliation",
-      "regression_test": "test_release_blocked_until_all_pass"
+      "execution_status": "WAITING_ON_FLAIM_ONLY",
+      "enforcement": "Template/story/visual family locked now; only final settlement arithmetic remains.",
+      "regression_test": "test_pitty_template_locked_before_finality"
     },
     {
       "gate_id": "G3",
-      "domain": "Power Rankings",
+      "domain": "Power Rankings Final Data",
       "owner": "Power Rankings desk",
       "counterweight": "Scout + Beat Writer",
       "control_status": "PASS",
-      "execution_status": "WAITING_ON_FACT_LOCK",
-      "enforcement": "current ranking rules + prior Week 3 baseline",
-      "regression_test": "test_story_authority_modules_present"
+      "execution_status": "WAITING_ON_FLAIM_ONLY",
+      "enforcement": "Format and rules locked now; ranking values/movement recompute after Fact Lock.",
+      "regression_test": "test_rankings_structure_locked_values_deferred"
     },
     {
       "gate_id": "G4",
-      "domain": "State of the Realm",
+      "domain": "State of the Realm Final Data",
       "owner": "Scout",
       "counterweight": "Beat Writer + World / Atlas Director",
       "control_status": "PASS",
-      "execution_status": "WAITING_ON_FACT_LOCK",
-      "enforcement": "final division state only; no stale projections",
-      "regression_test": "test_story_authority_modules_present"
+      "execution_status": "WAITING_ON_FLAIM_ONLY",
+      "enforcement": "Narrative role and visual design locked; final divisional consequences populate after Fact Lock.",
+      "regression_test": "test_realm_structure_locked_values_deferred"
     },
     {
       "gate_id": "G5",
@@ -49,81 +50,81 @@
       "owner": "Beat Writer",
       "counterweight": "Librarian",
       "control_status": "PASS",
-      "execution_status": "WAITING_ON_FACT_LOCK",
-      "enforcement": "WEEK_04_STORY_AUTHORITY_REGISTER + source blob verification + semantic fidelity",
-      "regression_test": "test_llc_hmb_current_story_authority_rejects_three_page_stale_architecture"
+      "execution_status": "LOCKED_PRE_ART",
+      "enforcement": "27-page Mission Review story lock controls. Final facts may surgically fill existing copy slots only.",
+      "regression_test": "test_27_page_story_lock_and_three_page_llc_hmb"
     },
     {
       "gate_id": "G6",
-      "domain": "World State Delta",
+      "domain": "World / Venue Pre-Art Authority",
       "owner": "Librarian",
       "counterweight": "World / Atlas Director",
       "control_status": "PASS",
-      "execution_status": "WAITING_ON_FACT_LOCK",
-      "enforcement": "world mutations must cite current story unit + final consequence",
-      "regression_test": "test_world_delta_requires_current_story_authority"
+      "execution_status": "LOCKED_PRE_ART",
+      "enforcement": "Entering state, scene geography, permitted/non-permitted mutations and continuity objects are pre-cleared. Durable result-driven delta fields alone may fill after finality.",
+      "regression_test": "test_world_plan_locked_before_art"
     },
     {
       "gate_id": "G7",
-      "domain": "Page Production Packets",
+      "domain": "27 Page Production Packets",
       "owner": "Groundskeeper",
       "counterweight": "Architect",
       "control_status": "PASS",
-      "execution_status": "WAITING_ON_STORY_LOCK",
-      "enforcement": "story_authority_id + hash + receipt required; stale packets fail closed",
-      "regression_test": "test_stale_story_hash_blocks_render"
+      "execution_status": "LOCKED_PRE_ART",
+      "enforcement": "All 27 page story/character/world/composition/writing/rejection/mobile fields must exist before generation. Flaim-derived slots may remain placeholders only.",
+      "regression_test": "test_exact_27_page_packet_inventory"
     },
     {
       "gate_id": "G8",
-      "domain": "Art Production",
+      "domain": "PAGE_GENERATION_GATE",
       "owner": "Visual Direction Lead",
-      "counterweight": "CAIO + Librarian",
+      "counterweight": "CAIO + Librarian + Umpire",
       "control_status": "PASS",
-      "execution_status": "BLOCKED",
-      "enforcement": "current story authority + character authority + exact refs + world packet + Umpire preflight + Closer authorization",
-      "regression_test": "test_generation_hold_blocks_even_current_packet"
+      "execution_status": "READY_AFTER_FLAIM",
+      "enforcement": "Single gate: pre-render preflight must pass, then candidate raster is inspected against the same packet; failed candidate is REJECTED_NOT_FOR_FOLDER; only passed candidate becomes APPROVED_FOR_LOCAL_FOLDER.",
+      "regression_test": "test_page_generation_gate_requires_preflight_and_acceptance"
     },
     {
       "gate_id": "G9",
-      "domain": "Publication Design",
+      "domain": "Publication Design Per-Page",
       "owner": "Publication Design",
       "counterweight": "Scout",
       "control_status": "PASS",
-      "execution_status": "WAITING_ON_RENDER",
-      "enforcement": "deterministic critical text and factual overlay reconciliation",
-      "regression_test": "test_generated_fact_fields_forbidden"
+      "execution_status": "LOCKED_PRE_ART",
+      "enforcement": "Mobile hierarchy, deterministic critical text, safe crop and text density are pre-cleared; final values fill after Fact Lock.",
+      "regression_test": "test_mobile_page_design_locked_before_render"
     },
     {
       "gate_id": "G10",
-      "domain": "Author Council Restraint / Continuity",
+      "domain": "Author Council Restraint Preflight",
       "owner": "Author Council",
       "counterweight": "Beat Writer",
       "control_status": "PASS",
-      "execution_status": "WAITING_ON_CURRENT_PAGE_PACKETS",
-      "enforcement": "current story register comparison + redundancy/stale-joke/page-inflation challenge",
-      "regression_test": "test_llc_hmb_current_page_count_is_one"
+      "execution_status": "LOCKED_PRE_ART",
+      "enforcement": "Restraint, tone, redundancy and page-purpose challenge run on the packet before art. No post-hoc story redesign.",
+      "regression_test": "test_author_council_preflight_precedes_art"
     },
     {
       "gate_id": "G11",
-      "domain": "Umpire Full-Issue Audit",
+      "domain": "Umpire Page Preflight + Final Assembly Audit",
       "owner": "Umpire",
       "counterweight": "INDEPENDENT",
       "control_status": "PASS",
-      "execution_status": "WAITING_ON_ASSEMBLY",
-      "enforcement": "assembled issue compared against current story authority register, not schemas alone",
-      "regression_test": "test_assembly_waits_on_story_lock"
+      "execution_status": "PAGE_PREFLIGHT_LOCKED_ASSEMBLY_LATER",
+      "enforcement": "Umpire pre-clears each packet before art; later assembly audit checks 27 approved PNGs/order/duplicates/mobile PDF without reopening page stories.",
+      "regression_test": "test_umpire_preflight_and_assembly_are_distinct"
     },
     {
       "gate_id": "G12",
-      "domain": "Closer Release",
+      "domain": "Closer Production Freeze",
       "owner": "Closer",
       "counterweight": "Umpire + Groundskeeper evidence pack",
       "control_status": "PASS",
-      "execution_status": "BLOCKED",
-      "enforcement": "Story + Fact + Character + World + Visual + Editorial + Publication + Umpire PASS required",
-      "regression_test": "test_release_blocked_until_all_pass"
+      "execution_status": "PRE_ART_LOCKED_RELEASE_LATER",
+      "enforcement": "Closer freezes all non-Flaim production decisions now. Final publication receipt later binds the compiled PDF.",
+      "regression_test": "test_closer_preart_freeze_preserves_only_flaim_slots"
     }
   ],
-  "closer_rule": "No PASS_TO_PRODUCTION until owner PASS + counterweight PASS + Umpire PASS + current evidence receipts. No PASS_TO_RELEASE until G1-G11 execution PASS.",
-  "rule": "Exactly one named owner per gate; counterweights may be plural. Owner cannot self-certify where counterweight is required."
+  "closer_rule": "Before art: all non-Flaim page decisions and QA criteria are frozen. After Flaim: populate deterministic slots only, then 'generate page N' invokes PAGE_GENERATION_GATE. No approved PNG enters Jake's local folder without candidate acceptance PASS.",
+  "rule": "Exactly one named owner per gate; counterweights cannot be bypassed. Story/design/world/character decisions may not reopen merely because final scores arrive."
 }
