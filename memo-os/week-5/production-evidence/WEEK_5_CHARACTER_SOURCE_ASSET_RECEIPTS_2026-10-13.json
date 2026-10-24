@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "issue": "2026-W5",
+  "checked_at": "2026-10-13",
+  "source": "GitHub contents API, PR #152 working branch; source existence and Git blob identities only",
+  "sha1_is_not_sha256": true,
+  "source_state": "12_OF_12_SOURCE_BYTES_SHA256_AND_GIT_BLOB_MATCH",
+  "renderer_mount_state": "NOT_PROVEN",
+  "subject_binding_state": "NOT_PROVEN",
+  "render_permission": "HOLD",
+  "note": "Do not substitute Git blob SHA-1 for raw byte SHA-256 or renderer mounted-byte proof. Each owner must be mounted as a separate original before scene generation.",
+  "assets": [
+    {
+      "character_id": "CHAR-AUSTIN-BYARS",
+      "path": "canon/characters/assets/CHAR-AUSTIN-BYARS/primary/COMMISSIONER_2026-10-12.jpeg",
+      "git_blob_sha1": "aa7e51ab08a31e6595c9c19d5eab67fb107d8dda",
+      "bytes": 238145,
+      "raw_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
+      "renderer_mount_receipt": null,
+      "subject_binding_receipt": null,
+      "raw_sha256_verification": "VERIFIED",
+      "raw_git_blob_identity": "MATCH"
+    },
+    {
+      "character_id": "CHAR-BEN-WHIPPLE",
+      "path": "canon/characters/assets/CHAR-BEN-WHIPPLE/primary/COMMISSIONER_2026-10-12.png",
+      "git_blob_sha1": "37dc961af73085e306a68dd31eb1a8c5460025ae",
+      "bytes": 2726102,
+      "raw_sha256": "291cdcdb8cb7504f66b556208c774d88dec0979e6fe25c68783b272541c63f70",
+      "renderer_mount_receipt": null,
+      "subject_binding_receipt": null,
+      "raw_sha256_verification": "VERIFIED",
+      "raw_git_blob_identity": "MATCH"
+    },
+    {
+      "character_id": "CHAR-BOBBY-MITCHELL",
+      "path": "canon/characters/assets/CHAR-BOBBY-MITCHELL/primary/COMMISSIONER_2026-10-12.png",
+      "git_blob_sha1": "8d47b202142dae4d697d940c4fab59110b2ea549",
+      "bytes": 3069667,
+      "raw_sha256": "462e5d6517b5653458c8d32c20692e94d037b134de7aac18325c1af41647eefc",
+      "renderer_mount_receipt": null,
+      "subject_binding_receipt": null,
+      "raw_sha256_verification": "VERIFIED",
+      "raw_git_blob_identity": "MATCH"
+    },
+    {
+      "character_id": "CHAR-BRANDON-PRYOR",
+      "path": "canon/characters/assets/CHAR-BRANDON-PRYOR/primary/COMMISSIONER_2026-10-12.png",
+      "git_blob_sha1": "a070a5c0608c9ff0426ff7a90fd6ca2fa8224e6e",
+      "bytes": 3412016,
+      "raw_sha256": "17ee4bcfcd774ac649ca96df01522f16d7c4fd626f9bdd047faefa3a4d381319",
+      "renderer_mount_receipt": null,
+      "subject_binding_receipt": null,
+      "raw_sha256_verification": "VERIFIED",
+      "raw_git_blob_identity": "MATCH"
+    },
+    {
+      "character_id": "CHAR-DAVID-BABB",
+      "path": "canon/characters/assets/CHAR-DAVID-BABB/primary/COMMISSIONER_2026-10-12.png",
+      "git_blob_sha1": "e8866792133fede5ccd2e75e3a9c9fbb71f5668f",
+      "bytes": 2477087,
+      "raw_sha256": "33e70a9208b47692d9d883707236a2b3a670629e0cb3b3f84c61eacff20fea37",
+      "renderer_mount_receipt": null,
+      "subject_binding_receipt": null,
+      "raw_sha256_verification": "VERIFIED",
+      "raw_git_blob_identity": "MATCH"
+    },
+    {
+      "character_id": "CHAR-JAKE-KALOPER",
+      "path": "canon/characters/assets/CHAR-JAKE-KALOPER/primary/COMMISSIONER_2026-10-12.png",
+      "git_blob_sha1": "8d7648fe510f771509e088fb78b80399b25a0425",
+      "bytes": 3187845,
+      "raw_sha256": "cc35af31973f2a35fe0231a269923234185f9908a67545d2b2e1190d052ad9a1",
+      "renderer_mount_receipt": null,
+      "subject_binding_receipt": null,
+      "raw_sha256_verification": "VERIFIED",
+      "raw_git_blob_identity": "MATCH"
+    },
+    {
+      "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "path": "canon/characters/assets/CHAR-JORDAN-HOLLINGSHEAD/primary/COMMISSIONER_2026-10-12.png",
+      "git_blob_sha1": "362961d4fb6f5bd5878778854b12a5b5bec1104b",
+      "bytes": 2743466,
+      "raw_sha256": "535d984397cd7aeeda0b83b652d35b4975fd4c0f6c52230174201720ec41a655",
+      "renderer_mount_receipt": null,
+      "subject_binding_receipt": null,
+      "raw_sha256_verification": "VERIFIED",
+      "raw_git_blob_identity": "MATCH"
+    },
+    {
+      "character_id": "CHAR-KEVIN-ZEEK",
+      "path": "canon/characters/assets/CHAR-KEVIN-ZEEK/primary/COMMISSIONER_2026-10-12.png",
+      "git_blob_sha1": "a3255f97169ea33251d04859b58f45539b3b67f9",
+      "bytes": 2720659,
+      "raw_sha256": "4752363b8e55dabd530caf74bdeb2da4feaee3870377d96c3c7f5eac7027f32c",
+      "renderer_mount_receipt": null,
+      "subject_binding_receipt": null,
+      "raw_sha256_verification": "VERIFIED",
+      "raw_git_blob_identity": "MATCH"
+    },
+    {
+      "character_id": "CHAR-MANNING-WELTY",
+      "path": "canon/characters/assets/CHAR-MANNING-WELTY/primary/COMMISSIONER_2026-10-12.png",
+      "git_blob_sha1": "7536e1ad149bcaca17f663f9e97b819bd36e13fa",
+      "bytes": 2950604,
+      "raw_sha256": "b5b0b10e06cf0598bdc9e3501c170d14529bdb4dee31f8ee3453a40048a6099c",
+      "renderer_mount_receipt": null,
+      "subject_binding_receipt": null,
+      "raw_sha256_verification": "VERIFIED",
+      "raw_git_blob_identity": "MATCH"
+    },
+    {
+      "character_id": "CHAR-PHILLIP-PITTS",
+      "path": "canon/characters/assets/CHAR-PHILLIP-PITTS/primary/COMMISSIONER_2026-10-12.jpeg",
+      "git_blob_sha1": "61065d0ee5dbffb750da9aeea3f64e664f38a1be",
+      "bytes": 200005,
+      "raw_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+      "renderer_mount_receipt": null,
+      "subject_binding_receipt": null,
+      "raw_sha256_verification": "VERIFIED",
+      "raw_git_blob_identity": "MATCH"
+    },
+    {
+      "character_id": "CHAR-WILSON-LOOK",
+      "path": "canon/characters/assets/CHAR-WILSON-LOOK/primary/COMMISSIONER_2026-10-12.png",
+      "git_blob_sha1": "cce192725a9b7f452072884bc13aa41833ddad0c",
+      "bytes": 2209166,
+      "raw_sha256": "c4ef045845641e6e2067d1ed82be20b9a0fd154c41aff0bfec4c2e36d26d319d",
+      "renderer_mount_receipt": null,
+      "subject_binding_receipt": null,
+      "raw_sha256_verification": "VERIFIED",
+      "raw_git_blob_identity": "MATCH"
+    },
+    {
+      "character_id": "CHAR-ZACH-WILSON",
+      "path": "canon/characters/assets/CHAR-ZACH-WILSON/primary/COMMISSIONER_2026-10-12.png",
+      "git_blob_sha1": "182c2c6530ea52e06cd9aab0aebb44fab16398d2",
+      "bytes": 2845619,
+      "raw_sha256": "5ff6fc4fc0b2f37d76bbab8651400478e37a709418867b0fd111c993762f9eda",
+      "renderer_mount_receipt": null,
+      "subject_binding_receipt": null,
+      "raw_sha256_verification": "VERIFIED",
+      "raw_git_blob_identity": "MATCH"
+    }
+  ],
+  "raw_byte_verification": "VERIFIED_BY_READ_ONLY_AUTHORIZED_DESKTOP_COMMANDER_RETRIEVAL_2026-10-13",
+  "byte_integrity_verified": true,
+  "raw_byte_receipt_note": "On 2026-10-13 original bytes fetched in-memory from the PR #152 raw GitHub source on an authorized read-only Mac session. For each of 12 entries measured file length, SHA-256 and Git canonical blob SHA-1; all matched GitHub metadata. No image renderer mounting, subject binding, character visual inspection or final image acceptance occurred.",
+  "historical_candidate_only": true,
+  "current_authority_resolution": {
+    "character_sources": "canon/characters/reference_sources_v1.json",
+    "visual_semantics": "canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json",
+    "publication": "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+    "rule": "Historical hashes and candidate page order do not supersede these current authorities."
+  }
+}

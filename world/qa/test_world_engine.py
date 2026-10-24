@@ -66,14 +66,14 @@ class WorldEngineTests(unittest.TestCase):
         errs = mod.validate_payloads(*bad)
         self.assertTrue(any("references missing location" in e for e in errs))
 
-    def test_missing_gorilla_centaur_anatomy_fails_bad_fixture(self):
-        bad = copy.deepcopy(self.payloads())
+    def test_gorilla_centaur_positive_lock_fails_bad_fixture(self):
+        p = self.payloads()
+        bad = copy.deepcopy(p)
         for d in bad[3]["domains"]:
             if d["character_id"] == "CHAR-WILSON-LOOK":
-                d["canon_guard"] = ["ARSENAL_GORILLA_CENTAUR_WARRIOR"]
+                d["canon_guard"] = ["ARSENAL_GORILLA_WARRIOR"]
         errs = mod.validate_payloads(*bad)
-        self.assertTrue(any("FOUR_LEGGED_CENTAUR_LOWER_BODY" in e for e in errs))
-        self.assertTrue(any("ONE_INTEGRATED_GORILLA_EQUINE_BODY" in e for e in errs))
+        self.assertTrue(any("one-body four-legged gorilla-centaur positive lock" in e for e in errs))
 
     def test_superseded_no_centaur_guard_is_rejected(self):
         bad = copy.deepcopy(self.payloads())
@@ -90,7 +90,7 @@ class WorldEngineTests(unittest.TestCase):
         location = next(d for d in mod.load_json("locations.json")["locations"] if d["id"] == "LOC-DK-HIGHLAND-STRONGHOLD")
         location_card = mod.load_repo_json("world/location-control-plane/locations/LOC-DK-HIGHLAND-STRONGHOLD/CARD.json")
         ontology = mod.load_json("inhabitant_ontology.json")["people_notes"]["CHAR-WILSON-LOOK"]
-        required = {"ARSENAL_GORILLA_CENTAUR_WARRIOR", "ONE_INTEGRATED_GORILLA_EQUINE_BODY", "FOUR_LEGGED_CENTAUR_LOWER_BODY"}
+        required = {"ARSENAL_GORILLA_WARRIOR", "ONE_BODY_GORILLA_CENTAUR_FOUR_LEGS"}
         self.assertTrue(required.issubset(set(domain["canon_guard"])))
         self.assertTrue(required.issubset(set(homeland["canon_guard"])))
         self.assertTrue(all(lock not in profile["forbidden_drift"] for lock in required))

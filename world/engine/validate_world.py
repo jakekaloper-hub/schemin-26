@@ -140,18 +140,11 @@ def validate_payloads(
 
     by_char = {d["character_id"]: d for d in domain_list}
     wilson = by_char.get("CHAR-WILSON-LOOK", {})
-    wilson_guards = set(wilson.get("canon_guard", []))
-    # Commissioner-approved 2026-10-02 Character Canon v2.1 supersedes
-    # earlier gorilla-only / retired-centaur world text. A principal has
-    # ONE gorilla upper identity and FOUR equine lower legs, never two beings.
-    required_wilson_guards = {
-        "ARSENAL_GORILLA_CENTAUR_WARRIOR",
-        "ONE_INTEGRATED_GORILLA_EQUINE_BODY",
-        "FOUR_LEGGED_CENTAUR_LOWER_BODY",
-    }
-    for guard in sorted(required_wilson_guards - wilson_guards):
-        errors.append(f"Wilson Look current gorilla-centaur lock missing: {guard}")
-    if "NO_CENTAUR_ANATOMY" in wilson_guards:
+    if "ARSENAL_GORILLA_WARRIOR" not in wilson.get("canon_guard", []):
+        errors.append("Wilson Look current gorilla lock missing")
+    if "ONE_BODY_GORILLA_CENTAUR_FOUR_LEGS" not in wilson.get("canon_guard", []):
+        errors.append("Wilson Look one-body four-legged gorilla-centaur positive lock missing")
+    if "NO_CENTAUR_ANATOMY" in wilson.get("canon_guard", []):
         errors.append("Wilson Look obsolete no-centaur negative lock present")
 
     pitts = by_char.get("CHAR-PHILLIP-PITTS", {})

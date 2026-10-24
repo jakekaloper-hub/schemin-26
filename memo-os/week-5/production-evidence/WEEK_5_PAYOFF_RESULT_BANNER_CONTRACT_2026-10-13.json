@@ -1,0 +1,123 @@
+{
+  "schema_version": "1",
+  "authority": "Commissioner payoff-page result banner correction",
+  "source": "FLAIM authenticated ESPN league 1417621 season 2026 week 5 get_matchups winner official and get_standings after week 5",
+  "format": "One complete 1024x1536 PNG per page, no PDF by Bullpen",
+  "binding_rules": {
+    "scope": "ONLY P007,P011,P015,P019,P023,P027 final pages of matchup arcs",
+    "visible_final_banner": "Mandatory original-illustration integrated distinct result banner with full opponent names, exact 2-decimal points, post-W5 W–L record, winner identification, BOTH recognizable owner character portraits cropped from the SAME page's render and individually validated against each owner's primary original",
+    "text": "deterministically verified names, scores, records and WINNER label; no AI-invented numbers or fake faces",
+    "image_qa": "full resolution and 390px inspection, no crop, contrast, character identity/pose verification, matching P009/P010 visual language in P011, Week4 payoff visual comparator",
+    "blocker": "Missing any banner field, missing portrait, incorrectly parsed winner, nonverified source reference, or no independent image inspection -> REJECTED, not accepted final"
+  },
+  "result_pages": [
+    {
+      "page_id": "P007",
+      "primary_header": "His Majesty's Blood at Three Dreaded Snake",
+      "away": {
+        "team": "His Majesty's Blood",
+        "points": 113.45,
+        "post_week_5_record": "3–2"
+      },
+      "home": {
+        "team": "Three Dreaded Snake",
+        "points": 85.34,
+        "post_week_5_record": "2–3"
+      },
+      "winner_side": "away",
+      "winner_team": "His Majesty's Blood",
+      "result_status": "DECIDED",
+      "visible_banner_required": true
+    },
+    {
+      "page_id": "P011",
+      "primary_header": "The LLC. at Mud Dogs",
+      "away": {
+        "team": "The LLC.",
+        "points": 193.73,
+        "post_week_5_record": "2–3"
+      },
+      "home": {
+        "team": "Mud Dogs",
+        "points": 127.09,
+        "post_week_5_record": "2–3"
+      },
+      "winner_side": "away",
+      "winner_team": "The LLC.",
+      "result_status": "DECIDED",
+      "visible_banner_required": true
+    },
+    {
+      "page_id": "P015",
+      "primary_header": "El Niño at Chili Cheesers",
+      "away": {
+        "team": "El Niño",
+        "points": 156.7,
+        "post_week_5_record": "2–3"
+      },
+      "home": {
+        "team": "Chili Cheesers",
+        "points": 183.53,
+        "post_week_5_record": "3–2"
+      },
+      "winner_side": "home",
+      "winner_team": "Chili Cheesers",
+      "result_status": "DECIDED",
+      "visible_banner_required": true
+    },
+    {
+      "page_id": "P019",
+      "primary_header": "D0nkey K0ng at Dr. Duckhook",
+      "away": {
+        "team": "D0nkey K0ng",
+        "points": 141.44,
+        "post_week_5_record": "3–2"
+      },
+      "home": {
+        "team": "Dr. Duckhook",
+        "points": 184.91,
+        "post_week_5_record": "2–3"
+      },
+      "winner_side": "home",
+      "winner_team": "Dr. Duckhook",
+      "result_status": "DECIDED",
+      "visible_banner_required": true
+    },
+    {
+      "page_id": "P023",
+      "primary_header": "Seven Deadly Chins at Slob on my Dobb",
+      "away": {
+        "team": "Seven Deadly Chins",
+        "points": 170.46,
+        "post_week_5_record": "2–3"
+      },
+      "home": {
+        "team": "Slob on my Dobb",
+        "points": 134.7,
+        "post_week_5_record": "2–3"
+      },
+      "winner_side": "away",
+      "winner_team": "Seven Deadly Chins",
+      "result_status": "DECIDED",
+      "visible_banner_required": true
+    },
+    {
+      "page_id": "P027",
+      "primary_header": "ObiWan Jacoby at Red Leopards",
+      "away": {
+        "team": "ObiWan Jacoby",
+        "points": 154.42,
+        "post_week_5_record": "4–1"
+      },
+      "home": {
+        "team": "Red Leopards",
+        "points": 110.42,
+        "post_week_5_record": "3–2"
+      },
+      "winner_side": "away",
+      "winner_team": "ObiWan Jacoby",
+      "result_status": "DECIDED",
+      "visible_banner_required": true
+    }
+  ]
+}
