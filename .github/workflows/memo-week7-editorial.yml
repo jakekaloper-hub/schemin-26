@@ -3,8 +3,7 @@ on:
   pull_request:
     paths:
       - 'memo-os/tools/**'
-      - 'memo-os/tests/test_editorial_compositor.py'
-      - 'memo-os/tests/test_publication_manifest.py'
+      - 'memo-os/tests/**'
       - '.github/workflows/memo-week7-editorial.yml'
   workflow_dispatch:
 jobs:
