@@ -53,3 +53,73 @@ Jake looked at the witness names, some crossed out because a return had failed, 
 She sat beside him. The final slate waited on the board. He did not move it. He did not hide it behind the better ones. Tomorrow, the passage would want a new measure. It always did.
 
 Jake shut the ledger, left the door unbarred, and let the season end without pretending he had mastered its account.
+
+## IV. The Unpaid Name
+
+The third result was not close enough to turn into a dispute.
+
+Mara read the two totals once, then folded the slate against her chest. Jake did not ask her to repeat them. The size of the loss had already found its way into the passage. A man waiting by the door used it to make his proposal sound generous: if Jake reserved the next two loans for people who would speak for him at the board, the room would look steadier.
+
+“You want witnesses,” Jake said.
+
+“I want friends.”
+
+“Those are not the same account.”
+
+The man named three people. One had returned a tool. One had not. The third had never asked for anything at all. That was the point. Jake could buy a public voice by choosing someone who owed him nothing and call it trust.
+
+He wrote none of the names down.
+
+“You can speak for yourself,” he said. “So can they.”
+
+The man left the doorway without taking water. Mara watched him go.
+
+“That may cost you help later.”
+
+“Then it was help I could not afford.”
+
+He knew this was not a victory. The slate remained on the board. The passage had one more reason to doubt him. But the ledger kept its first useful absence: no purchased witness.
+
+## V. The Witness Who Refused
+
+After the seventh result, the witness rule began to fail in public.
+
+The loss had been large, and somebody had copied the totals onto the threshold before Mara could place the official slate. A woman arrived with a request for lamp oil and named her brother as witness. Her brother shook his head.
+
+“I will witness the oil,” he said, “but not the return. I cannot promise what she will have.”
+
+The room waited for Jake to call that disloyalty. It would have been easy. The passage wanted the rule to have an enemy.
+
+Instead he slid the request back across the table. “Then it cannot be a loan.”
+
+The woman’s mouth tightened. “You said the door stayed open.”
+
+“It does. The store does not have to pretend it owns tomorrow.”
+
+She left without oil. The brother stayed, ashamed of having been honest in the wrong direction.
+
+Mara said, “That was cruel.”
+
+“It was incomplete,” Jake answered. “Cruel would have been making him lie.”
+
+That night he crossed out the word *witness* and wrote *returner* beneath it. The new word offered no mercy. It only admitted that a promise required a person who could actually carry it.
+
+## VI. The Margin
+
+The later arrangement gave Jake one narrow margin and then took it away.
+
+At the board, the difference was small enough to invite the old sickness: perhaps one more favor collected, one repayment demanded early, one door quietly closed, and the result would have belonged to him. The storekeeper saw the thought before Jake could bury it.
+
+“There is a cart at the east bend,” he said. “They still have our clamps.”
+
+Jake understood the offer. Send someone now. Call the loan. Bring the material home before the next slate settled. Make the passage see that defeat had consequences for people outside the board.
+
+He imagined the cart stopped on the road, the borrower explaining a loss they had not caused, the clamps becoming a punishment for a number. The thought was efficient. It was also the first thing he had sworn not to build.
+
+“Leave them,” he said.
+
+The storekeeper turned away. “Then do not tell me the ledger matters.”
+
+“It matters because it tells me where not to collect.”
+
+The last result did not reward him for that answer. Nothing in the room changed to make it noble. But Mara copied the margin into the ledger: *unclaimed.* Jake left it there, a debt he had chosen not to convert into power.
