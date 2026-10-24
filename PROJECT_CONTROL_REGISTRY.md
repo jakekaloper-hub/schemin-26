@@ -44,6 +44,12 @@ Creative Claw, Higgsfield, OpenArt, Runway, Adobe paid services, fal.ai, Replica
 
 ChatGPT-native capabilities are the default funded generation/editing route within plan limits. Existing connected services may be used only at their current access level with no paid upgrade assumed.
 
+## Commissioner-approved character lineup — October 18, 2026
+
+The exact twelve-character appearance baseline is recorded at canon/characters/APPROVED_LINEUP_2026_10_18.json, grounded in the original approved PNG SHA-256 24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2. It includes owner-ID-specific reference crops, physical morphology descriptions, and spatial reconciliations using existing Atlas homelands. The separate HMB correction image is supporting appearance authority. See canon/characters/lineup_2026_10_18/BOARD_SIMULATION_AND_RELEASE_GATE.md for the distinction between Commissioner appearance approval and separately held production gates.
+
+This is the CURRENT comparative 12-character visual baseline, not a new OS, not an automatic September primary-image SHA supersession, and not a certified image-generation route. The previous bipedal DK primary remains quarantined under merged PR #197. Provider binding and generated-image C1/T15/T16 remain HOLD.
+
 ## Character native-render program
 
 **Status:** ACTIVE PROGRAM PLAN / PHASE 0 COMPLETE / PHASE 1 NEXT.
@@ -123,6 +129,16 @@ Read:
 - `schemas/freshness.schema.json`
 
 No downstream system may imply live ESPN verification unless freshness metadata supports that claim.
+
+**Playoff Context Intelligence Layer V1:** BUILD CANDIDATE / NOT ACTIVE.
+
+Read:
+- `data-gateway/playoff-context/README.md`
+- `data-gateway/playoff-context/MODEL_SPEC.md`
+- `data-gateway/playoff-context/EDITORIAL_POLICY.md`
+- `data-gateway/playoff-context/ACCEPTANCE_REPORT.md`
+
+This derived capability may feed Weekly Memo, Mercer, Living Novel/Story Room and planning surfaces, but it owns only derived analytics. It cannot override Data Gateway/Flaim evidence authority, Memo/Novel narrative authority, or release gates. Production output fails closed while the current result lock is unresolved.
 
 ### Character canon
 Read:
@@ -361,3 +377,7 @@ FLA Bullpen is a selective specialist/governance adapter. It is not a sixth Sche
 - A late correction reopens only dependent artifacts when possible.
 - Private Mercer intelligence must not leak into public memo production.
 - Material operating changes belong in Git history.
+
+## Cinematography specialist reference — proposed
+
+Frank Masi motion-picture unit-stills methodology is documented as a **Tier-1 advisory resource**, not a real-world collaborator or an override of the Cinematography Director. Proposed reference and review contract: `memo-os/cinematography/FRANK_MASI_UNIT_STILLS_REFERENCE_V1.md`. **Status: FEATURE-BRANCH PROPOSAL / NOT ACTIVE** until actual packet integration, render comparison, independent Umpire acceptance, and promotion gates are verified. All existing character/Atlas/release holds remain effective.

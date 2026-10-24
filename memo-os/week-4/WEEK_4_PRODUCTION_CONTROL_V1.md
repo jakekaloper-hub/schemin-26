@@ -52,6 +52,7 @@ Locked from Week 3:
 | W4-G4 temporal canon | PASS FOR OPENING | current 2026-09-29 canon receipt recorded |
 | W4-G5 continuity/world entry | **PASS** | persisted `end_of_week_3_2026` World Engine state bound by `WEEK_4_WORLD_ENTRY_RECEIPT_V1.md` |
 | W4-G6 personalized story intelligence | **LIVE / PARTIAL PASS** | governed reservoirs contain provenance-classified Commissioner/provider inputs; full current-week story evidence remains incomplete |
+| W4-G6.5 playoff-context intelligence | **CONDITIONAL / BLOCKED ON RESULT LOCK** | optional derived check after finalized Week 4 state; may return NO MATERIAL CANDIDATE; Director + Umpire gated |
 | W4-G7 Story Room | **PROVISIONAL DEVELOPMENT AUTHORIZED / FINAL STORY LOCK BLOCKED** | G5 is closed; G3 remains partial and G6 remains partial; no reservoir is STORY_LOCKED |
 | W4-G8 issue architecture | **BLOCKED ON STORY LOCK** | provisional Story Room development exists, but no reservoir is STORY_LOCKED |
 | W4-G9 complete issue previs | BLOCKED | architecture required |
@@ -68,6 +69,10 @@ DK–ObiWan is an obvious candidate from entering records, but selection must wa
 ## Data rule
 
 Scores, standings, schedules, bids, trades, rankings, odds and arithmetic remain deterministic fields. Image-model text is not authoritative.
+
+## Playoff-context rule
+
+After Week 4 provider finality, Data Gateway may run the Playoff Context Intelligence candidate layer before final Story Lock. Only HIGH-priority, provenance-backed candidates may enter existing page plans, with primary preference for State of the Realm and the Week 5 TDS × HMB handoff. No candidate means no insertion. Power Rankings and Pittsy's Book remain separate systems.
 
 ## Character rule
 

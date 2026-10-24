@@ -1,0 +1,75 @@
+{
+  "character_id": "CHAR-BEN-WHIPPLE",
+  "owner": "Ben Whipple",
+  "team": "Seven Deadly Chins",
+  "approved_presentation_title": "Seven Deadly Chins",
+  "row": 3,
+  "column": 2,
+  "lineup_parent_path": "canon/characters/assets/lineups/SCHEMIN_26_COMMISSIONER_APPROVED_LINEUP_2026_10_18.png",
+  "lineup_parent_sha256": "24cd6adf9654e598c97a6588afc07603d5adcc40c276eba07e7c86c0d438e7b2",
+  "derived_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+  "derived_crop_sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+  "pixel_rectangle_top_left": {
+    "x": 362,
+    "y": 695,
+    "width": 362,
+    "height": 391
+  },
+  "derived_crop_classification": "DERIVED_APPROVED_LINEUP_CROP",
+  "current_presentation_approval": "COMMISSIONER_APPROVED_2026_10_18",
+  "primary_source_supersession_approved": false,
+  "approved_visual_assertions": {
+    "subject_morphology": "Very heavyset trucker / blue-collar human brawler with folded neck and overalls",
+    "head_face": "Human face with prominent multiple chin folds, dark glasses and red trucker cap",
+    "silhouette": "Broad heavy torso in dirty tank/overalls, large blunt tool, big-rig backdrop",
+    "palette": [
+      "off-white tank",
+      "denim blue",
+      "truck red",
+      "steel"
+    ],
+    "recognizable_props": [
+      "trucker cap",
+      "metal striking tool",
+      "big-rig association"
+    ],
+    "negative_rules": [
+      "slim athletic substitute",
+      "animal-headed characterization",
+      "executive suit"
+    ]
+  },
+  "physical_engine_delta": {
+    "basis": "VISUAL_PRESENTATION_PLUS_EXISTING_CHARACTER_CANON_NOT_NUMERIC_SIMULATION",
+    "body_architecture": "Very heavyset trucker / blue-collar human brawler with folded neck and overalls",
+    "anatomy_constraints": [
+      "heavyset human bipedal",
+      "human arms and legs; broad chest and neck folds"
+    ],
+    "locomotion_class_interpretation": "grounded human bipedal heavy stance",
+    "signature_equipment": [
+      "trucker cap",
+      "metal striking tool",
+      "big-rig association"
+    ],
+    "collision_and_attachment_measurements": "UNKNOWN_REQUIRES_GEOMETRY_CALIBRATION",
+    "height_mass_and_movement_ranges": "UNKNOWN_NOT_ESTABLISHED_BY_LINEUP",
+    "state": "CHARACTER_APPEARANCE_APPROVED__PHYSICS_QUANTIFICATION_HOLD"
+  },
+  "source_authority_continuity": {
+    "historical_primary_sha256": "c4401f79783637c9e3974f02de20ba5aeb1209e7ed4e0f5620e2bfcce3b270cf",
+    "historical_primary_path": "canon/characters/assets/CHAR-BEN-WHIPPLE/primary/88B8E56B-8320-4524-8425-134FFAE8FBF5.jpeg",
+    "historical_primary_approval_unchanged": true,
+    "renderer_mounted_byte_receipt_present": false,
+    "c1_generated_output_acceptance_present": false
+  },
+  "spatial_anchor": {
+    "home_location_id": "LOC-CHINS-ROAD-COMMONS",
+    "region_ids": [
+      "REG-CENTRAL-BASIN"
+    ],
+    "location_source": "world/location-control-plane/homelands/CHAR-BEN-WHIPPLE/CARD.json",
+    "lineup_background": "truck-stop / industrial roadway",
+    "lineup_background_classification": "PRESENTATION_MOOD_ONLY__NOT_ATLAS_TRAVEL_OR_LOCATION_AUTHORITY"
+  }
+}

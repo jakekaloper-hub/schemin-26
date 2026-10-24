@@ -66,14 +66,14 @@ class WorldEngineTests(unittest.TestCase):
         errs = mod.validate_payloads(*bad)
         self.assertTrue(any("references missing location" in e for e in errs))
 
-    def test_character_negative_lock_fails_bad_fixture(self):
+    def test_gorilla_centaur_positive_lock_fails_bad_fixture(self):
         p = self.payloads()
         bad = copy.deepcopy(p)
         for d in bad[3]["domains"]:
             if d["character_id"] == "CHAR-WILSON-LOOK":
                 d["canon_guard"] = ["ARSENAL_GORILLA_WARRIOR"]
         errs = mod.validate_payloads(*bad)
-        self.assertTrue(any("retired-centaur negative lock" in e for e in errs))
+        self.assertTrue(any("one-body four-legged gorilla-centaur positive lock" in e for e in errs))
 
     def test_tds_three_head_lock_fails_bad_fixture(self):
         p = self.payloads()
