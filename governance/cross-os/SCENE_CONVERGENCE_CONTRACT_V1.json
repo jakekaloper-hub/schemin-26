@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "parent": "world/atlas/integration/ATLAS_PUBLICATION_CONVERGENCE_CONTRACT_V1.json",
+  "sources": {
+    "league": "data-gateway/_INDEX.md",
+    "character": "canon/_INDEX.md",
+    "world": "world/atlas/ATLAS_CONTROL_PLANE_V2.md"
+  },
+  "consumers": [
+    "memo_os",
+    "novel_os",
+    "visual_grounding",
+    "interactive_atlas",
+    "world_evolution",
+    "mercer",
+    "chronicles"
+  ],
+  "immutable": [
+    "character_id",
+    "character_source_ref",
+    "location_id",
+    "world_state_ref",
+    "verified_event_ref"
+  ],
+  "creative_choices": [
+    "camera",
+    "composition",
+    "lighting",
+    "visual_treatment",
+    "narrative_purpose"
+  ],
+  "constraints": [
+    "no parallel canon",
+    "no default global style",
+    "no implicit world mutation",
+    "no private Mercer data in public packets"
+  ],
+  "status": "CANDIDATE_NEEDS_INDEPENDENT_AUDIT"
+}

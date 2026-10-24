@@ -130,6 +130,16 @@ Read:
 
 No downstream system may imply live ESPN verification unless freshness metadata supports that claim.
 
+**Playoff Context Intelligence Layer V1:** BUILD CANDIDATE / NOT ACTIVE.
+
+Read:
+- `data-gateway/playoff-context/README.md`
+- `data-gateway/playoff-context/MODEL_SPEC.md`
+- `data-gateway/playoff-context/EDITORIAL_POLICY.md`
+- `data-gateway/playoff-context/ACCEPTANCE_REPORT.md`
+
+This derived capability may feed Weekly Memo, Mercer, Living Novel/Story Room and planning surfaces, but it owns only derived analytics. It cannot override Data Gateway/Flaim evidence authority, Memo/Novel narrative authority, or release gates. Production output fails closed while the current result lock is unresolved.
+
 ### Character canon
 Read:
 - `canon/_INDEX.md`
@@ -367,3 +377,7 @@ FLA Bullpen is a selective specialist/governance adapter. It is not a sixth Sche
 - A late correction reopens only dependent artifacts when possible.
 - Private Mercer intelligence must not leak into public memo production.
 - Material operating changes belong in Git history.
+
+## Cinematography specialist reference — proposed
+
+Frank Masi motion-picture unit-stills methodology is documented as a **Tier-1 advisory resource**, not a real-world collaborator or an override of the Cinematography Director. Proposed reference and review contract: `memo-os/cinematography/FRANK_MASI_UNIT_STILLS_REFERENCE_V1.md`. **Status: FEATURE-BRANCH PROPOSAL / NOT ACTIVE** until actual packet integration, render comparison, independent Umpire acceptance, and promotion gates are verified. All existing character/Atlas/release holds remain effective.
