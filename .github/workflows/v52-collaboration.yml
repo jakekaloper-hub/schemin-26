@@ -4,6 +4,7 @@ on:
     paths:
       - 'memo-os/collaboration/**'
       - 'memo-os/tests/test_v52_collaboration.py'
+      - 'memo-os/tests/test_v52_execution_adapter.py'
       - '.github/workflows/v52-collaboration.yml'
   workflow_dispatch:
 jobs:
@@ -15,4 +16,4 @@ jobs:
         with:
           python-version: '3.11'
       - name: Run collaboration fixtures
-        run: python -m unittest discover -s memo-os/tests -p test_v52_collaboration.py -v
+        run: python -m unittest discover -s memo-os/tests -p 'test_v52*.py' -v
