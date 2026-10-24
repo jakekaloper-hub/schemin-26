@@ -2,13 +2,15 @@
 
 **PARTIAL PRODUCTION / NONCANON / NO SEASON-COMPLETE CLAIM.**
 
-Read the eight actual revised sequences in [the local draft reader](reader/index.html). This is a portable HTML draft, not a deployed or canonical publication. Historical production now includes fourteen scenes tied to five contests: one bounded 2015 connected-account Jake candidate and four 2024–2025 postseason contests. Five separate sequences address 2026. No season is complete.
+Read the ten actual revised sequences in [the local draft reader](reader/index.html). This is a portable HTML draft, not a deployed or canonical publication. Historical production now includes twenty scenes tied to nineteen contests: all fifteen observed 2015 team-1 contests under the bounded Jake authority and four 2024–2025 postseason contests. Five separate sequences address 2026. No season is complete.
 
 ## What was produced
 
 | Draft | Period and source-event bindings | Actual scope |
 |---|---|---|
 | [The First Debt](manuscript/2015-jake-week1/THE_FIRST_DEBT_NONCANON.md) | 2015 W1 Scruffy Looking Nerf Herders/Here, Ok I took L's; `ESPN1417621-2015-P01-E002` | Three Jake scenes revising the existing opening-loss chronicle. Identity authority is user attestation plus Flaim connected-account continuity; opponent identity and venue remain unresolved/proposed. |
+| [The Cost of Return](manuscript/2015-jake-arc/THE_COST_OF_RETURN_NONCANON.md) | 2015 W2–W7, six team-1 fixtures | Three Jake scenes; a proposed public-accounting rule is tested by two wins and four losses without attributing opponents. |
+| [The Record He Cannot Keep](manuscript/2015-jake-arc/THE_RECORD_HE_CANNOT_KEEP_NONCANON.md) | 2015 W8–W15, eight team-1 fixtures including the observed final team-1 fixture | Three Jake scenes; gains, reversals and two later wins culminate in a draft-only season closing movement, without title or placement claim. |
 | [The Door After the Crown](manuscript/2024-title/THE_DOOR_AFTER_THE_CROWN_NONCANON.md) | 2024 championship; `ESPN1417621-2024-P17-E099` | Four Jake scenes; title obligations become a costly access and patronage decision. |
 | [The Place Left Empty](manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md) | 2025 two semifinals and final; exact event joins in adjacent register | Seven Jake/Austin scenes; certification, preparation, defeat and custody change relationships. |
 | [The Price of an Open Gate](manuscript/2026/THE_PRICE_OF_AN_OPEN_GATE.md) | 2026 after W3, before W4 results; `ESPN1417621-2026-P03-E002`, `ESPN1417621-2026-P03-E005` | Six Ben/Wilson scenes; private choices around damaged roads and the cost of apparent generosity. |
@@ -17,7 +19,7 @@ Read the eight actual revised sequences in [the local draft reader](reader/index
 | [The Line Left Standing](manuscript/2026-week6/THE_LINE_LEFT_STANDING_NONCANON.md) | 2026 W6 Slob/ObiWan; `ESPN1417621-2026-P06-E003` | Five Jordan/Jake scenes; an unpaid promise costs the victor a follower and the loser a useful claim. |
 | [The Water Beneath the Line](manuscript/2026-week6-wetland/THE_WATER_BENEATH_THE_LINE.md) | 2026 W6 Mud Dogs/HMB; exact event join in adjacent register | Five Bobby/Austin scenes; rescue costs evidence and a crossing, without settling mutual distrust. |
 
-[CANDIDATE_EVENT_LINKS.json](CANDIDATE_EVENT_LINKS.json) supplies all exact event IDs, scene headings, line anchors and manuscript digests: **38 distinct scenes associated with eleven distinct source events (42 scene-event links)**. These are proposed context/aftermath links, not a claim that eleven whole fixtures passed final literary acceptance. Every draft has a source packet and machine scene register. Neither newer draft inherits another unaccepted draft's inventions automatically.
+[CANDIDATE_EVENT_LINKS.json](CANDIDATE_EVENT_LINKS.json) supplies all exact event IDs, scene headings, line anchors and manuscript digests: **44 distinct scenes associated with twenty-five distinct source events (56 scene-event links)**. These are proposed context/aftermath links, not a claim that twenty-five whole fixtures passed final literary acceptance. Every draft has a source packet and machine scene register. Neither newer draft inherits another unaccepted draft's inventions automatically.
 
 The current-season source cutoff is **Week 6 final results**, using the repository's October 20 receipt. Week 7 is undecided; no 2026 postseason, champion or completed-season closing movement is invented.
 
@@ -27,7 +29,7 @@ The eleven historical extracts contain 1,117 returned rows: 1,055 observed paire
 
 | Seasons | Observed contests per season | New historical draft scenes in this tranche |
 |---|---:|---:|
-| 2015 | 90 | 3 scenes / 1 event |
+| 2015 | 90 | 9 scenes / 15 team-1 events |
 | 2016 | 90 | 0 |
 | 2017–2020 | 95 | 0 |
 | 2021–2023 | 99 | 0 |

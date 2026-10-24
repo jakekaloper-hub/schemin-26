@@ -65,9 +65,9 @@ class ReaderTests(unittest.TestCase):
 
     def test_explicit_story_order_and_unknown_lane_rejection(self):
         paths = [Path(folder) / "THE_TEST.md" for folder in
-                 ("2026-week6-wetland", "2024-title", "2026-week6", "2026-week4", "2025-reckoning", "2026", "2026-week5", "2015-jake-week1")]
+                 ("2026-week6-wetland", "2024-title", "2026-week6", "2026-week4", "2025-reckoning", "2026", "2026-week5", "2015-jake-week1", "2015-jake-arc")]
         self.assertEqual([p.parent.name for p in sorted(paths, key=reader.manuscript_order)],
-                         ["2015-jake-week1", "2024-title", "2025-reckoning", "2026", "2026-week4", "2026-week5", "2026-week6", "2026-week6-wetland"])
+                         ["2015-jake-week1", "2015-jake-arc", "2024-title", "2025-reckoning", "2026", "2026-week4", "2026-week5", "2026-week6", "2026-week6-wetland"])
         with self.assertRaisesRegex(ValueError, "resolve its cutoff"):
             reader.manuscript_order(Path("2015") / "THE_UNBOUND_PAST.md")
         with self.assertRaisesRegex(ValueError, "resolve its cutoff"):
