@@ -1,0 +1,18 @@
+name: V5.2 collaboration acceptance
+on:
+  pull_request:
+    paths:
+      - 'memo-os/collaboration/**'
+      - 'memo-os/tests/test_v52_collaboration.py'
+      - '.github/workflows/v52-collaboration.yml'
+  workflow_dispatch:
+jobs:
+  acceptance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run collaboration fixtures
+        run: python -m unittest discover -s memo-os/tests -p test_v52_collaboration.py -v
