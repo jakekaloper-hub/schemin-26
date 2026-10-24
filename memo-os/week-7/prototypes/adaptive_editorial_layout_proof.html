@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Schemin Week 7 — non-character layout proof</title>
+<style>
+:root{--ink:#18212c;--paper:#f5f1e8;--muted:#485665;--line:#a6aeb5}
+*{box-sizing:border-box}body{margin:0;background:#e5e6e5;color:var(--ink);font-family:Georgia,serif}
+main{max-width:1000px;margin:auto;padding:24px}h1{font:700 1.5rem/1.25 system-ui,sans-serif}p{line-height:1.58}
+.issue{background:var(--paper);border:1px solid var(--line);margin:24px 0;box-shadow:0 5px 25px #0002}
+.mast{padding:20px 26px;border-bottom:2px solid var(--ink);font:700 .85rem system-ui,sans-serif;letter-spacing:.12em}
+.scene{height:320px;background:linear-gradient(145deg,#263b47,#5f7077 55%,#acb3ac);display:flex;align-items:end;padding:24px;color:white}
+.scene strong{font:700 clamp(1.9rem,5vw,3.4rem)/1.04 system-ui,sans-serif;max-width:600px;text-shadow:0 2px 7px #000a}
+.copy{padding:clamp(24px,5vw,54px);max-width:72ch;margin:auto}
+.copy h2{font:700 clamp(1.5rem,4vw,2.4rem)/1.15 system-ui,sans-serif;margin:0 0 16px}
+.copy p{font-size:clamp(1rem,2.1vw,1.125rem);line-height:1.65;margin:0 0 1em}
+.kicker{font:700 .8rem system-ui,sans-serif;letter-spacing:.12em;color:var(--muted);margin-bottom:14px}
+.montage{display:grid;grid-template-columns:2fr 1fr;gap:8px;padding:8px;background:#1b2c36}
+.frame{min-height:170px;background:linear-gradient(140deg,#4b5b65,#a2a49a);display:flex;align-items:end;padding:14px;color:white;font:700 .8rem system-ui,sans-serif}
+.frame:nth-child(2){background:linear-gradient(140deg,#303d49,#71858b)}.frame:nth-child(3){grid-column:1/-1;min-height:105px;background:linear-gradient(100deg,#394c58,#7e9391)}
+.note{font:.8rem/1.5 system-ui,sans-serif;color:var(--muted);padding:0 26px 20px}
+@media(max-width:440px){main{padding:8px}.mast{padding:14px}.scene{height:240px;padding:18px}.copy{padding:22px}.montage{grid-template-columns:1fr 1fr}.frame{min-height:120px}}
+@media print{body{background:white}main{padding:0}.issue{box-shadow:none;break-after:page}.scene{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+</style></head><body><main>
+<h1>Week 7 adaptive editorial layout proof — NON-CHARACTER / NON-CANON</h1>
+<p>These two specimens test layout structure only. Gradient blocks are deliberate placeholders, not approved Schemin environments, character art or final copy. No results or factual claims are implied.</p>
+<article class="issue" aria-label="Layout A cinematic opener and separate prose">
+<div class="mast">SCHEMIN’ ’26 · LAYOUT A · CINEMATIC OPENER</div>
+<div class="scene"><strong>One image. One clear dramatic question.</strong></div>
+<div class="copy"><div class="kicker">NARRATION · BEAT WRITER</div><h2>Give the prose room to breathe.</h2>
+<p>A scene can begin with a single image that establishes the environment, the competing personalities, and the tension between them. The narration should then deepen the reader’s understanding without competing against a busy illustration. Historical receipts belong in the prose only when they change what the characters stand to lose.</p>
+<p>The layout intentionally places long-form writing on a quiet, high-contrast surface. The image carries atmosphere; the typography carries the argument. Neither should obscure the other. When the copy grows, allocate another panel rather than reducing the type until the reader cannot comfortably follow the story.</p>
+<p>As the contest approaches its turning point, the prose can narrow its attention to a single action. A hand on a trophy. A glance toward a rival. A quiet realization that the week's events have altered the relationship. The scene need not contain a speech to feel cinematic. What remains unsaid can be as consequential as what appears on the page.</p></div>
+<div class="note">Prototype A: dense narration, approximately 170 words. Layout test only.</div></article>
+<article class="issue" aria-label="Layout B visual montage and concise narration">
+<div class="mast">SCHEMIN’ ’26 · LAYOUT B · MONTAGE</div>
+<div class="montage"><div class="frame">ESTABLISHING FRAME</div><div class="frame">REACTION</div><div class="frame">CONSEQUENCE / PAYOFF</div></div>
+<div class="copy"><div class="kicker">NARRATION · BEAT WRITER</div><h2>Let the sequence do the work.</h2>
+<p>Three images can communicate a reversal faster than three paragraphs. The first establishes expectation. The second reveals the moment it fails. The third leaves the reader with a consequence that matters beyond this week. Narration provides context and emotional continuity; the images deliver the immediate experience.</p></div>
+<div class="note">Prototype B: short narration, approximately 60 words. Layout test only.</div></article>
+</main></body></html>
