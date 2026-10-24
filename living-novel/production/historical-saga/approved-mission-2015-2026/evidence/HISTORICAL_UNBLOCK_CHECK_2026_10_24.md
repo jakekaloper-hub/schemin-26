@@ -1,6 +1,6 @@
 # Historical production unblock check — 2015–2025
 
-**Outcome: source research advanced; historical personal-POV drafting remains BLOCKED.** No historical manuscript was declared complete in this check. The new contemporary sequences are separately identified as 2026 and do not discharge historical coverage.
+**Initial outcome: provider-side source research advanced; owner-dependent historical drafting remained held. The broader blanket reading is corrected by the later authority audit below.** No historical manuscript was declared complete in this check. The new contemporary sequences are separately identified as 2026 and do not discharge historical coverage.
 
 ## Fresh evidence acquired
 
@@ -49,3 +49,14 @@ Bounded invented dialogue, civilians and connective events remain available once
 3. Repeat 2016 onward with each year's own schedule, byes/consolation evidence, current scene-status inventory and source-to-prose joins. Unresolved ownership blocks only the affected personal scene; do not invent absent records or call existing text unwritten.
 4. Complete each season's dramatic opening and consequence-bearing ending after source/continuity validation. A title row, chronicle summary or pilot is not that deliverable.
 5. Keep the 2026 continuation lane separate. Its current source cutoff is Week 6; its draft event links are listed in `../CANDIDATE_EVENT_LINKS.json`. Do not count those links toward the eleven historical seasons.
+
+
+## Subsequent broader authority audit — narrow correction
+
+A later search of accepted manuscripts, approval receipts, character records and historical drafts found stronger evidence than the provider fields alone. See `HISTORICAL_BINDING_AUDIT_2015_2021.*`, `HISTORICAL_BINDING_AUDIT_2022_2025.*` and `../review/HISTORICAL_BINDING_REVIEW.md`.
+
+Active hard-canon Chapter I explicitly places Jake and Austin against 2024/2025 title records and recounts the named 2025 semifinals and final. The Prologue supplies the named 2024/2025 final pairings. These support **event-specific fictional personal associations**, not verified real human-owner histories. The original blanket stop was therefore too broad for those exact accepted story facts. Bounded NONCANON expansion of Jake's 2024 title aftermath and the three specified 2025 postseason events can proceed with explicit proposed historical staging and a full scene packet. No whole-year ownership, earlier career or unmentioned fixture is thereby licensed.
+
+The broader early-year audit did not establish an exact principal-as-owner interval for 2015–2021. It retained slot-lineage leads, inspected supplementary images and recorded contradictions; that is an unresolved narrow evidence dependency, not proof that no source exists anywhere. Kevin's 2022 association remains disputed/interpretive under the reviewed authorities.
+
+At the parent's request, root also made one bounded repeat invocation of the existing public ESPN adapter. It again ended `ESPN_TIMEOUT / getaddrinfo EAI_AGAIN lm-api-reads.fantasy.espn.com`. An alternate read-only web fetch of the official 2024 `mTeam`/`mSettings` URL reported that the URL was not accessible through that tool. Neither route returned a payload; no raw ownership conclusion follows from those failures. These were failed reads, not a definitive missing-source finding or permission bypass. No further retry loop was run.

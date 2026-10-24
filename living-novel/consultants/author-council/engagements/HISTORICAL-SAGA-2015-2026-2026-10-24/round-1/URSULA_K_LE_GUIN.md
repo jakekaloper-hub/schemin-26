@@ -15,4 +15,3 @@
 **Project evidence:** OWNER_LINEAGE; current hydration; revoked POV constitution; R53 identity holds.
 
 **Uncertainty:** Historical participation remains unbound until corroboration beyond slot continuity.
-

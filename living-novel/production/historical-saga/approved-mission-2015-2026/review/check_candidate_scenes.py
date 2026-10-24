@@ -22,7 +22,7 @@ def check():
     routes = {r['id'] for r in json.loads((ROOT / 'world/data/routes.json').read_text())['routes']}
     results, hashes, missing = [], {}, []
     seen_scene_ids = set()
-    for directory in sorted(p for p in (MISSION / 'manuscript').iterdir() if p.is_dir()):
+    for directory in sorted(p for p in (MISSION / 'manuscript').iterdir() if p.is_dir() and p.name.startswith('2026')):
         register_path = directory / 'SCENE_REGISTER.json'
         if not register_path.is_file():
             missing.append(str(register_path.relative_to(ROOT)))

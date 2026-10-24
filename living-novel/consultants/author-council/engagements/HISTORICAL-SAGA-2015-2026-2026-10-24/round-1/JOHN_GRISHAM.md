@@ -15,4 +15,3 @@
 **Project evidence:** 2015 W01 Bavid Dabbs hypothetical council; R53 expanded pilot opening; source packet.
 
 **Uncertainty:** Compression decisions need the full revised sequence, not an outline alone.
-

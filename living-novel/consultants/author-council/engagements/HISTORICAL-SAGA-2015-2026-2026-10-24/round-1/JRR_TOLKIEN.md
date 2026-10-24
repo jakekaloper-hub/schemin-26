@@ -15,4 +15,3 @@
 **Project evidence:** R53 Thirteenth Standard; Author Room hydration; R53 red-team.
 
 **Uncertainty:** Historical site existence and neutral status remain unresolved.
-

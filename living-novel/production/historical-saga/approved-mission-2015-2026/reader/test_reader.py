@@ -65,16 +65,32 @@ class ReaderTests(unittest.TestCase):
 
     def test_explicit_story_order_and_unknown_lane_rejection(self):
         paths = [Path(folder) / "THE_TEST.md" for folder in
-                 ("2026-week6-wetland", "2026-week6", "2026-week4", "2026", "2026-week5")]
+                 ("2026-week6-wetland", "2024-title", "2026-week6", "2026-week4", "2025-reckoning", "2026", "2026-week5")]
         self.assertEqual([p.parent.name for p in sorted(paths, key=reader.manuscript_order)],
-                         ["2026", "2026-week4", "2026-week5", "2026-week6", "2026-week6-wetland"])
+                         ["2024-title", "2025-reckoning", "2026", "2026-week4", "2026-week5", "2026-week6", "2026-week6-wetland"])
         with self.assertRaisesRegex(ValueError, "resolve its cutoff"):
             reader.manuscript_order(Path("2015") / "THE_UNBOUND_PAST.md")
+        with self.assertRaisesRegex(ValueError, "resolve its cutoff"):
+            reader.manuscript_order(Path("2022-semifinal") / "THE_DISPUTED_ASSOCIATION.md")
         self.assertEqual(reader.SCENE_LANES["2026"][1], "After Chapter III; before Week 4 results")
         self.assertIn("no Week 7 result", reader.SCENE_LANES["2026-week6"][1])
         self.assertIn("display order only", reader.SCENE_LANES["2026-week6-wetland"][1])
         actual = [entry["scene_lane_order"] for entry in self.manifest["manuscripts"]]
         self.assertEqual(actual, sorted(actual))
+
+    def test_historical_disclosure_counts_only_included_text(self):
+        current = [Path("2026") / "THE_PRESENT.md"]
+        no_history = reader.scope_disclosure(current)
+        self.assertIn("No new historical manuscript is included yet", no_history)
+        self.assertNotIn("1 proposed historical sequence", no_history)
+        with_history = reader.scope_disclosure(current + [Path("2024-title") / "THE_TITLE.md"])
+        self.assertIn("1 proposed historical sequence(s) and 1 current-2026 sequence(s)", with_history)
+        self.assertIn("No historical season is complete", with_history)
+        self.assertIn("Raw human-owner identity remains UNKNOWN", with_history)
+        for entry in self.manifest["manuscripts"]:
+            if entry["scope"] == "EVENT_SCOPED_HISTORICAL_FICTION":
+                self.assertEqual(entry["raw_human_owner_status"], "UNKNOWN")
+                self.assertEqual(entry["fictional_binding_audit_sha256"], reader.digest(reader.HISTORICAL_BINDING_AUDIT))
 
     def test_local_links_and_coverage_source_resolve(self):
         for target in self.page.links:
@@ -104,9 +120,11 @@ class ReaderTests(unittest.TestCase):
         self.assertEqual(self.manifest["status"], "PARTIAL_DRAFT_PREVIEW_NOT_PUBLICATION")
         page = (reader.HERE / "index.html").read_text()
         self.assertIn("not a finished saga or canonical release", page)
-        self.assertIn("All new prose in this reader concerns 2026.", page)
-        self.assertIn("No new 2015–2025 chapter has been completed by this mission.", page)
+        self.assertIn(reader.scope_disclosure(reader.mission_manuscripts()), page)
+        self.assertIn("Broader 2015–2025 coverage remains incomplete", page)
+        self.assertIn("../evidence/HISTORICAL_BINDING_AUDIT_2022_2025.md", self.page.links)
         self.assertIn("../CANDIDATE_EVENT_LINKS.json", self.page.links)
+        self.assertIn("../ALL_SEASON_PROGRESS.json", self.page.links)
         self.assertIn("../evidence/HISTORICAL_UNBLOCK_CHECK_2026_10_24.md", self.page.links)
         self.assertIn("../evidence/provider-readback/READBACK_INDEX.json", self.page.links)
         self.assertIn('lang="en"', page)

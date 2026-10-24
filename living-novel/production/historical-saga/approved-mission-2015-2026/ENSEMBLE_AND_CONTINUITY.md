@@ -2,7 +2,7 @@
 
 **Status: PROPOSED literary planning, not a new character registry or canon transaction.** Current identities resolve through `canon/characters/CHARACTER_REGISTRY.yaml`; the individual sheets in `living-novel/characters/` supply interpretive pressures. Current owner-specific canon and Author Room hydration supersede those sheets where they conflict. In particular, the Manning sheet's desire, fear and speaking-person arc are **not licensed** by current elemental ontology.
 
-These are fictional dramatic questions, not claims about real owners' psychology or verified historical participation. No row supplies missing pre-2026 owner binding. All historical extensions stay held until period-specific identities and geography resolve. The chronological evidence ledger, rather than this table, controls results.
+These are fictional dramatic questions, not claims about real owners' psychology or verified historical participation. No row supplies missing pre-2026 owner binding. Historical extensions require period-specific authority: four 2024–2025 events now have narrow hard-canon fictional associations, while their venue application remains explicitly proposed. See the historical binding matrix; this table supplies no additional license. The chronological evidence ledger, rather than this table, controls results.
 
 | Principal | Proposed continuing dramatic question | Dangerous choice to develop, not a predicted outcome | Current production state |
 |---|---|---|---|
@@ -47,3 +47,7 @@ The independent reviewer checks actual text against source and packet. A populat
 3. Resolve each newly introduced private obligation within the candidate reading order or carry it as an explicit open loop; do not substitute a clean moral conclusion.
 4. Develop the still-unwritten/insufficiently dramatized current-season threads from the audited passage register, preserving choice-driven chapters.
 5. Establish each completed season's opening and closing movement only after its historical facts and POV eligibility are secure. No proposed table or staged pilot counts as that deliverable.
+
+## Historical continuation added at this checkpoint
+
+The 2024 title sequence and 2025 reckoning sequence use hard-canon event-specific Jake/Austin associations, not verified real-owner identities. Sorel is a proposed fictional aide linking their candidate continuity: the 2025 packet explicitly depends on the 2024 draft. Their losses, duties and access arrangements remain proposed world changes. Exact event IDs, temporal certifications and staging limits are in their adjacent source packets and scene registers. Eleven scenes address four contests; neither season is complete. The earliest unresolved chronological work remains 2015, with each year/slot uncertainty separately recorded rather than blanket-blocking supported later history.

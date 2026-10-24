@@ -43,12 +43,33 @@ def build():
         'scope': 'Actual new scene-to-source links; distinct linked events do not equal accepted or fully dramatized contests.',
         'baseline_passage_audit': 'evidence/CURRENT_SEASON_PASSAGE_AUDIT.json',
         'distinct_linked_event_count': len(links),
+        'distinct_scene_count': len({scene['scene_id'] for rows in links.values() for scene in rows}),
         'scene_link_count': sum(len(v) for v in links.values()),
         'accepted_event_count_claimed': None,
         'events': [{'event_id': key, 'source_path': events[key]['source_path'], 'candidate_scenes': links[key]} for key in sorted(links)],
     }
     (HERE / 'CANDIDATE_EVENT_LINKS.json').write_text(json.dumps(result, indent=2) + '\n')
-    print(f'Linked {len(links)} events to {result["scene_link_count"]} draft scene references; no literary acceptance asserted.')
+    seasons = []
+    for year in range(2015, 2027):
+        ledger = json.loads((HERE / 'evidence' / f'{year}_FIXTURE_COVERAGE.json').read_text())
+        year_events = {key: rows for key, rows in links.items() if events[key]['season'] == year}
+        seasons.append({
+            'season': year,
+            'observed_contest_denominator': ledger['observed_paired_contests'],
+            'denominator_scope': ledger['denominator_scope'],
+            'new_candidate_event_links': len(year_events),
+            'new_candidate_scene_ids': sorted({row['scene_id'] for rows in year_events.values() for row in rows}),
+            'complete_season_claim': False,
+            'accepted_coverage_count_claimed': None,
+            'remaining_work': 'Resolve event-specific historical identity authority and period staging; recover/revise existing prose and produce all missing season movements and contest consequences.' if year < 2026 else 'Complete remaining verified W1-W6 causal coverage and legacy POV repairs; no W7 results or season ending licensed.',
+            'binding_matrix': 'evidence/HISTORICAL_BINDING_MATRIX_2015_2025.json' if year < 2026 else None,
+        })
+    (HERE / 'ALL_SEASON_PROGRESS.json').write_text(json.dumps({
+        'status': 'PARTIAL_PRODUCTION_NOT_ACCEPTANCE',
+        'rule': 'New candidate links do not erase existing prose or establish full literary coverage. See inventories, passage audits and independent reviews.',
+        'seasons': seasons,
+    }, indent=2) + '\n')
+    print(f'Linked {len(links)} events to {result["distinct_scene_count"]} distinct scenes ({result["scene_link_count"]} references); no literary acceptance asserted.')
 
 
 if __name__ == '__main__':

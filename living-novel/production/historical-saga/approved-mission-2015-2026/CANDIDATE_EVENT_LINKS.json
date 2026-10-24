@@ -2,10 +2,200 @@
   "status": "PROPOSED_NONCANON_LINKS_ONLY",
   "scope": "Actual new scene-to-source links; distinct linked events do not equal accepted or fully dramatized contests.",
   "baseline_passage_audit": "evidence/CURRENT_SEASON_PASSAGE_AUDIT.json",
-  "distinct_linked_event_count": 6,
-  "scene_link_count": 24,
+  "distinct_linked_event_count": 10,
+  "distinct_scene_count": 35,
+  "scene_link_count": 39,
   "accepted_event_count_claimed": null,
   "events": [
+    {
+      "event_id": "ESPN1417621-2024-P17-E099",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2024_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2024-T-01",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/THE_DOOR_AFTER_THE_CROWN_NONCANON.md",
+          "heading": "## I. The Speech for Tomorrow",
+          "line": 5,
+          "manuscript_sha256": "5251fc7d84337587987a4576d593c13c9b2c691bc145c8587a23687cb769a9df",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2024 POST_CHAMPIONSHIP_FINAL_PRE_2025; no 2025 knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "2024-T-02",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/THE_DOOR_AFTER_THE_CROWN_NONCANON.md",
+          "heading": "## II. The Names Left Outside",
+          "line": 69,
+          "manuscript_sha256": "5251fc7d84337587987a4576d593c13c9b2c691bc145c8587a23687cb769a9df",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2024 POST_CHAMPIONSHIP_FINAL_PRE_2025; no 2025 knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "2024-T-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/THE_DOOR_AFTER_THE_CROWN_NONCANON.md",
+          "heading": "## III. A Place at the Table",
+          "line": 135,
+          "manuscript_sha256": "5251fc7d84337587987a4576d593c13c9b2c691bc145c8587a23687cb769a9df",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2024 POST_CHAMPIONSHIP_FINAL_PRE_2025; no 2025 knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "2024-T-04",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/THE_DOOR_AFTER_THE_CROWN_NONCANON.md",
+          "heading": "## IV. The Work of Keeping a Door",
+          "line": 233,
+          "manuscript_sha256": "5251fc7d84337587987a4576d593c13c9b2c691bc145c8587a23687cb769a9df",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2024 POST_CHAMPIONSHIP_FINAL_PRE_2025; no 2025 knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2025-P16-E092",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "RECKONING-2025-01",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md",
+          "heading": "## I. The pennant \u2014 Jake",
+          "line": 5,
+          "manuscript_sha256": "5922f4958fba95b9b6881644688aa999d071efce7ecb0533fdd8cdbda07ed324",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2025 semifinal in progress; knows own result only when announced; no final knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "RECKONING-2025-02",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md",
+          "heading": "## II. The last space \u2014 Austin",
+          "line": 93,
+          "manuscript_sha256": "5922f4958fba95b9b6881644688aa999d071efce7ecb0533fdd8cdbda07ed324",
+          "pov_character_id": "CHAR-AUSTIN-BYARS",
+          "story_time_cutoff": "2025 semifinal in progress; knows own result only when announced; no final knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "RECKONING-2025-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md",
+          "heading": "## III. The speech Sorel would not give \u2014 Jake",
+          "line": 171,
+          "manuscript_sha256": "5922f4958fba95b9b6881644688aa999d071efce7ecb0533fdd8cdbda07ed324",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2025 between completed semifinals and final; no final result known",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "RECKONING-2025-04",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md",
+          "heading": "## IV. The lower place \u2014 Austin",
+          "line": 267,
+          "manuscript_sha256": "5922f4958fba95b9b6881644688aa999d071efce7ecb0533fdd8cdbda07ed324",
+          "pov_character_id": "CHAR-AUSTIN-BYARS",
+          "story_time_cutoff": "2025 between completed semifinals and final; no final result known",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "RECKONING-2025-05",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md",
+          "heading": "## V. The final \u2014 Jake",
+          "line": 345,
+          "manuscript_sha256": "5922f4958fba95b9b6881644688aa999d071efce7ecb0533fdd8cdbda07ed324",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2025 final and immediate closing movement; no 2026 knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2025-P16-E093",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "RECKONING-2025-02",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md",
+          "heading": "## II. The last space \u2014 Austin",
+          "line": 93,
+          "manuscript_sha256": "5922f4958fba95b9b6881644688aa999d071efce7ecb0533fdd8cdbda07ed324",
+          "pov_character_id": "CHAR-AUSTIN-BYARS",
+          "story_time_cutoff": "2025 semifinal in progress; knows own result only when announced; no final knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "RECKONING-2025-04",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md",
+          "heading": "## IV. The lower place \u2014 Austin",
+          "line": 267,
+          "manuscript_sha256": "5922f4958fba95b9b6881644688aa999d071efce7ecb0533fdd8cdbda07ed324",
+          "pov_character_id": "CHAR-AUSTIN-BYARS",
+          "story_time_cutoff": "2025 between completed semifinals and final; no final result known",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "RECKONING-2025-05",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md",
+          "heading": "## V. The final \u2014 Jake",
+          "line": 345,
+          "manuscript_sha256": "5922f4958fba95b9b6881644688aa999d071efce7ecb0533fdd8cdbda07ed324",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2025 final and immediate closing movement; no 2026 knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2025-P17-E099",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "RECKONING-2025-05",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md",
+          "heading": "## V. The final \u2014 Jake",
+          "line": 345,
+          "manuscript_sha256": "5922f4958fba95b9b6881644688aa999d071efce7ecb0533fdd8cdbda07ed324",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2025 final and immediate closing movement; no 2026 knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "RECKONING-2025-06",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md",
+          "heading": "## VI. The case \u2014 Austin",
+          "line": 423,
+          "manuscript_sha256": "5922f4958fba95b9b6881644688aa999d071efce7ecb0533fdd8cdbda07ed324",
+          "pov_character_id": "CHAR-AUSTIN-BYARS",
+          "story_time_cutoff": "2025 final and immediate closing movement; no 2026 knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "RECKONING-2025-07",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md",
+          "heading": "## VII. Closing movement: the departing ground \u2014 Jake",
+          "line": 483,
+          "manuscript_sha256": "5922f4958fba95b9b6881644688aa999d071efce7ecb0533fdd8cdbda07ed324",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2025 final and immediate closing movement; no 2026 knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
     {
       "event_id": "ESPN1417621-2026-P03-E002",
       "source_path": "memo-os/week-3/WEEK_3_FINAL_EVIDENCE_SNAPSHOT_06.md",

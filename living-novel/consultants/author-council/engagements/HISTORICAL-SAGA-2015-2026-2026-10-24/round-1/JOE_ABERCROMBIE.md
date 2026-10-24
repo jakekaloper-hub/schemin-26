@@ -15,4 +15,3 @@
 **Project evidence:** Thirteenth Standard opening; R38 simulated confrontation; twelve-owner firewall.
 
 **Uncertainty:** The opening sample does not establish the entire chapter’s ultimate psychological arc.
-

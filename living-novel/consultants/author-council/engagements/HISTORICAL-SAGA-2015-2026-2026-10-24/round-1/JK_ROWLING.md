@@ -15,4 +15,3 @@
 **Project evidence:** 2015 W01 Discount Belichick passage; temporal firewall; R53 governance.
 
 **Uncertainty:** Reader accessibility has not received cold-reader testing; film contents were not independently transcribed.
-

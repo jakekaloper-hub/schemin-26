@@ -15,4 +15,3 @@
 **Project evidence:** Author Room translation law; R38 reuse table; R53 venue gate.
 
 **Uncertainty:** A validator can check IDs and time but cannot prove that a payoff is emotionally earned.
-

@@ -9,9 +9,10 @@ Local execution on the task branch, 2026-10-24. These are actual command results
 | `python -m unittest discover -s living-novel/migrations -p 'test_*.py' -v` | 49 tests passed |
 | `python -m unittest -v test_novel_os.py` from `living-novel/os/evaluations` | 34 tests passed |
 | `python -m unittest discover -s living-novel/production/historical-saga/approved-mission-2015-2026/evidence -p 'test_coverage.py' -v` | 8 tests passed |
-| Reader build and `python -m unittest -v test_reader.py` in `reader/` | 10 tests passed; exact command output in `reader/TECHNICAL_CHECK.json` |
+| Reader build and `python -m unittest -v test_reader.py` in `reader/` | 11 tests passed; exact command output in `reader/TECHNICAL_CHECK.json` |
 | `review/check_candidate_scenes.py` | 24 actual scenes, zero structural/source-join errors, no missing registers; see durable reviewer result |
-| `assemble_candidate_links.py` | Six distinct verified source-event keys joined to 24 actual scene anchors; no acceptance asserted |
+| `review/check_historical_candidate_scenes.py` | 11 historical scenes across four events; zero structural/source/dual-authority errors |
+| `assemble_candidate_links.py` | Ten distinct source-event keys, 35 actual scene anchors and 39 scene-event links; no acceptance asserted |
 | Repository-native checkpoint emit/resume | Receipt emitted and VALID_CHECKPOINT resolved; stage is audit/draft production, not canon |
 
 Source checks resolve real observation pointers and hashes rather than trusting an acceptance label. They preserve equal-score rows whose declared winner is HOME without inventing a tiebreak cause; distinguish one documented bye from other unpaired rows; and keep multiweek aggregate repeats separate from distinct contests.

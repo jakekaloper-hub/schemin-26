@@ -15,4 +15,3 @@
 **Project evidence:** 2015 W01 sections I–IV; R38 consequence-graph brief; owner lineage.
 
 **Uncertainty:** No early-season principal can yet be certified merely from a slot.
-

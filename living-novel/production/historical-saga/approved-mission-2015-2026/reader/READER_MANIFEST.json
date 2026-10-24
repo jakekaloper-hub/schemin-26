@@ -5,44 +5,73 @@
   "scope": "Local read-only presentation; no canon, release, interactive-owner-path or browser-acceptance claim.",
   "manuscripts": [
     {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/THE_DOOR_AFTER_THE_CROWN_NONCANON.md",
+      "sha256": "5251fc7d84337587987a4576d593c13c9b2c691bc145c8587a23687cb769a9df",
+      "anchor": "manuscript-1",
+      "scene_lane_order": -2,
+      "scene_cutoff_label": "2024 title aftermath only; no 2025 knowledge; event-scoped fictional identity support, raw human-owner UNKNOWN",
+      "status": "DRAFT_NONCANON_NO_RELEASE_APPROVAL",
+      "scope": "EVENT_SCOPED_HISTORICAL_FICTION",
+      "raw_human_owner_status": "UNKNOWN",
+      "fictional_binding_audit": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/HISTORICAL_BINDING_AUDIT_2022_2025.json",
+      "fictional_binding_audit_sha256": "a571f53f6b14a944d3848f466a3b262b59db0e4c3051b646993c6a7888cd13d9"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md",
+      "sha256": "5922f4958fba95b9b6881644688aa999d071efce7ecb0533fdd8cdbda07ed324",
+      "anchor": "manuscript-2",
+      "scene_lane_order": -1,
+      "scene_cutoff_label": "2025 named postseason events only; no 2026 knowledge; event-scoped fictional identity support, raw human-owner UNKNOWN",
+      "status": "DRAFT_NONCANON_NO_RELEASE_APPROVAL",
+      "scope": "EVENT_SCOPED_HISTORICAL_FICTION",
+      "raw_human_owner_status": "UNKNOWN",
+      "fictional_binding_audit": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/HISTORICAL_BINDING_AUDIT_2022_2025.json",
+      "fictional_binding_audit_sha256": "a571f53f6b14a944d3848f466a3b262b59db0e4c3051b646993c6a7888cd13d9"
+    },
+    {
       "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/THE_PRICE_OF_AN_OPEN_GATE.md",
       "sha256": "be1255612c84db92f9188f29aae2e68674e236950bbf9a0d2f6ddb01868830db",
-      "anchor": "manuscript-1",
+      "anchor": "manuscript-3",
       "scene_lane_order": 0,
       "scene_cutoff_label": "After Chapter III; before Week 4 results",
-      "status": "DRAFT_NONCANON_NO_RELEASE_APPROVAL"
+      "status": "DRAFT_NONCANON_NO_RELEASE_APPROVAL",
+      "scope": "CURRENT_2026_DRAFT"
     },
     {
       "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week4/THE_UNFINISHED_APPLAUSE_NONCANON.md",
       "sha256": "dcdf76089d04fdad43a92175663d8b4783cd7c88bac9342cf1f337cb82d4d5da",
-      "anchor": "manuscript-2",
+      "anchor": "manuscript-4",
       "scene_lane_order": 1,
       "scene_cutoff_label": "Week 4 consequence lane",
-      "status": "DRAFT_NONCANON_NO_RELEASE_APPROVAL"
+      "status": "DRAFT_NONCANON_NO_RELEASE_APPROVAL",
+      "scope": "CURRENT_2026_DRAFT"
     },
     {
       "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week5/A_DOOR_WIDE_ENOUGH_NONCANON.md",
       "sha256": "8a8ee0cb748301ca9a04dc4258f2de82c6f579888fb34ef9538c02cf7e0eb713",
-      "anchor": "manuscript-3",
+      "anchor": "manuscript-5",
       "scene_lane_order": 2,
       "scene_cutoff_label": "Week 5 consequence lane",
-      "status": "DRAFT_NONCANON_NO_RELEASE_APPROVAL"
+      "status": "DRAFT_NONCANON_NO_RELEASE_APPROVAL",
+      "scope": "CURRENT_2026_DRAFT"
     },
     {
       "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/THE_LINE_LEFT_STANDING_NONCANON.md",
       "sha256": "5fd9ace01c6ea520b704d4aa202cdbd2111c955b54e39d419b8dd6cd2bea1612",
-      "anchor": "manuscript-4",
+      "anchor": "manuscript-6",
       "scene_lane_order": 3,
       "scene_cutoff_label": "Week 6 consequence lane; no Week 7 result",
-      "status": "DRAFT_NONCANON_NO_RELEASE_APPROVAL"
+      "status": "DRAFT_NONCANON_NO_RELEASE_APPROVAL",
+      "scope": "CURRENT_2026_DRAFT"
     },
     {
       "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6-wetland/THE_WATER_BENEATH_THE_LINE.md",
       "sha256": "e25a07a398aaffaf1d1087c85d7219846c550bde2ee13612b64d33d373ace71a",
-      "anchor": "manuscript-5",
+      "anchor": "manuscript-7",
       "scene_lane_order": 4,
       "scene_cutoff_label": "Same post-Week-6/pre-Week-7-result window; display order only, not proved temporal ordering of separate geographic events",
-      "status": "DRAFT_NONCANON_NO_RELEASE_APPROVAL"
+      "status": "DRAFT_NONCANON_NO_RELEASE_APPROVAL",
+      "scope": "CURRENT_2026_DRAFT"
     }
   ],
   "source_inventory_count": 62,
@@ -50,5 +79,5 @@
     "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/SEASON_DENOMINATORS.json",
     "sha256": "ff38c6a7fd61689dbca9c26dc023240d7bae4fe67ffce3d3b0b8cd5ad2b3d284"
   },
-  "output_sha256": "d7cbc7260a7348c14c97e5186bf209d9ac7505c41fda294721da2903e642675d"
+  "output_sha256": "aca7734635249552adb4a9d5f07dbc7e9c410ac56862954858f25f387cbb5a48"
 }

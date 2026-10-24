@@ -24,6 +24,8 @@ HARD_CANON = {
 LEGACY_READER_EXCLUDED = HARD_CANON - {"CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md"}
 # Explicit editorial order for these mission lanes, not filename inference.
 SCENE_LANES = {
+    "2024-title": (-2, "2024 title aftermath only; no 2025 knowledge; event-scoped fictional identity support, raw human-owner UNKNOWN"),
+    "2025-reckoning": (-1, "2025 named postseason events only; no 2026 knowledge; event-scoped fictional identity support, raw human-owner UNKNOWN"),
     "2026": (0, "After Chapter III; before Week 4 results"),
     "2026-week4": (1, "Week 4 consequence lane"),
     "2026-week5": (2, "Week 5 consequence lane"),
@@ -31,6 +33,8 @@ SCENE_LANES = {
     "2026-week6-wetland": (4, "Same post-Week-6/pre-Week-7-result window; display order only, not proved temporal ordering of separate geographic events"),
 }
 EXPLICIT_LITERARY_FILES = ("2026-week5/A_DOOR_WIDE_ENOUGH_NONCANON.md",)
+HISTORICAL_LANES = {"2024-title", "2025-reckoning"}
+HISTORICAL_BINDING_AUDIT = MISSION / "evidence/HISTORICAL_BINDING_AUDIT_2022_2025.json"
 
 
 def relative(path: Path) -> str:
@@ -78,7 +82,7 @@ def classify(path: Path) -> tuple[str, str, str]:
         return "EXISTING_HISTORICAL_DRAFT_REQUIRES_REVISION", year, note
     if "/R53/" in key or "/historical-chronicle/author-room/" in key:
         year = next((y for y in ("2022", "2024", "2025", "2026") if y in path.name), "UNRESOLVED")
-        return "EXISTING_LITERARY_PILOT_NONCANON", year, "Recover dramatic questions and useful prose; pilot is not a book. Historical owner/venue proof and independent acceptance remain open."
+        return "EXISTING_LITERARY_PILOT_NONCANON", year, "Recover dramatic questions and useful prose; pilot is not a book. Raw human-owner proof, venue and independent acceptance remain open. The mission historical binding audit separately identifies narrow fictional event associations for 2024/2025; it does not promote this pilot or establish a whole-season license."
     if "/full-rewrite-2026/" in key:
         year = "2022" if "2022" in path.name else "2026"
         assembly = " This is an assembled reading candidate; its contents must not be counted again as unique prose." if "READING_CANDIDATE" in path.name else ""
@@ -141,7 +145,19 @@ def mission_manuscripts() -> list[Path]:
         if not path.is_file():
             raise FileNotFoundError(f"Explicitly registered literary manuscript missing: {name}")
         paths.add(path)
+    if any(path.parent.name in HISTORICAL_LANES for path in paths) and not HISTORICAL_BINDING_AUDIT.is_file():
+        raise FileNotFoundError("Historical manuscript requires the event-scoped fictional binding audit; missing raw owner fields cannot be silently promoted.")
     return sorted(paths, key=manuscript_order)
+
+
+def scope_disclosure(manuscripts: list[Path]) -> str:
+    historical = [p for p in manuscripts if p.parent.name in HISTORICAL_LANES]
+    current = [p for p in manuscripts if p.parent.name not in HISTORICAL_LANES]
+    if historical:
+        summary = f"<strong>This reader includes {len(historical)} proposed historical sequence(s) and {len(current)} current-2026 sequence(s). No historical season is complete.</strong> Historical material is limited to event-scoped fictional associations documented for 2024/2025. Raw human-owner identity remains UNKNOWN; existing hard fiction is not proof of an ESPN account holder."
+    else:
+        summary = "<strong>All new prose currently included in this reader concerns 2026. No new historical manuscript is included yet.</strong> Narrow 2024/2025 fictional event lanes have been identified, but planned files do not count as written prose."
+    return summary + ' Broader 2015–2025 coverage remains incomplete; no whole-season identity license follows from these exceptions. Read the <a href="../evidence/HISTORICAL_BINDING_AUDIT_2022_2025.md">event-scoped historical binding audit and correction to the earlier blanket hold</a>. Existing historical drafts remain preserved, and new geography, dialogue and consequences remain proposed.'
 
 
 def coverage_summary() -> tuple[str, dict | None]:
@@ -169,7 +185,7 @@ def build() -> dict:
                  "sources": rows}
     (INVENTORY / "MANUSCRIPT_INVENTORY.json").write_text(json.dumps(inventory, indent=2) + "\n")
     report = ["# Existing manuscript inventory", "", f"Baseline: `{BASELINE}`. No original manuscript was edited.", "",
-              "Existing prose is preserved, not relabeled unwritten. The 2015 regular-season audit explicitly reports 78 fixture anchors and literary FAIL; this inventory does not infer literary completion from files or length. Historical owner-era binding blocks dependent principal scenes. 2016 contains partial material. R53 contains pilots, not completed books. The original Prologue and Chapters I–III remain preserved hard-canon sources; legacy institutional POV material is excluded from this draft reading surface. Chapter IV's presence alone is not a release receipt.", "",
+              "Existing prose is preserved, not relabeled unwritten. The 2015 regular-season audit explicitly reports 78 fixture anchors and literary FAIL; this inventory does not infer literary completion from files or length. Missing historical owner-era binding blocks unsupported principal scenes. The mission's HISTORICAL_BINDING_AUDIT_2022_2025 identifies narrow hard-fiction event associations for 2024/2025 without promoting raw human-owner UNKNOWN fields or granting whole-season permission. 2016 contains partial material. R53 contains pilots, not completed books. The original Prologue and Chapters I–III remain preserved hard-canon sources; legacy institutional POV material is excluded from this draft reading surface. Chapter IV's presence alone is not a release receipt.", "",
               "All entries remain archive links; only new mission manuscripts are embedded in the isolated reader. An assembled candidate can duplicate other entries, so counts must not be summed as unique prose.", "",
               "| Source | Season | Disposition | SHA-256 | Reuse action |", "|---|---|---|---|---|"]
     for row in rows:
@@ -184,7 +200,9 @@ def build() -> dict:
         entries.append({"path": relative(path), "sha256": digest(path), "anchor": anchor,
                         "scene_lane_order": SCENE_LANES[path.parent.name][0],
                         "scene_cutoff_label": SCENE_LANES[path.parent.name][1],
-                        "status": "DRAFT_NONCANON_NO_RELEASE_APPROVAL"})
+                        "status": "DRAFT_NONCANON_NO_RELEASE_APPROVAL",
+                        "scope": "EVENT_SCOPED_HISTORICAL_FICTION" if path.parent.name in HISTORICAL_LANES else "CURRENT_2026_DRAFT",
+                        **({"raw_human_owner_status": "UNKNOWN", "fictional_binding_audit": relative(HISTORICAL_BINDING_AUDIT), "fictional_binding_audit_sha256": digest(HISTORICAL_BINDING_AUDIT)} if path.parent.name in HISTORICAL_LANES else {})})
         chapters.append(f'<article id="{anchor}"><p class="badge">Draft · noncanon · no release approval</p><p>{html.escape(SCENE_LANES[path.parent.name][1])}</p><p class="source">{html.escape(relative(path))}<br>SHA-256: {digest(path)}</p>{render_markdown(path.read_text())}<p><a href="#contents">Back to contents</a></p></article>')
     source_items = []
     for row in rows:
@@ -196,8 +214,8 @@ def build() -> dict:
 <title>Commonwealth saga — draft reading room</title>
 <style>body{margin:0;background:#f8f5ee;color:#241f1b;font:18px/1.65 Georgia,serif}main{max-width:76ch;margin:auto;padding:2rem 1.2rem}h1,h2,h3{line-height:1.25}a{color:#165777}a:focus{outline:3px solid #a64d16;outline-offset:3px}.notice{border-left:5px solid #a64d16;padding:1rem;background:#fff}.badge{font:bold .85rem system-ui;color:#733817}.source{font: .8rem/1.5 monospace;overflow-wrap:anywhere}article{border-top:2px solid #c5bbaa;margin-top:3rem;padding-top:2rem}p{margin:1em 0}details{margin-top:2rem}li{margin:.7rem 0}li p{font-size:.9rem}nav{background:#eee8dc;padding:1rem 1.5rem}table{width:100%;border-collapse:collapse;font: .85rem/1.4 system-ui}td,th{padding:.45rem;border-bottom:1px solid #c5bbaa;text-align:left}caption{text-align:left;margin-bottom:.6rem}@media print{body{background:white}nav,details{display:none}article{break-before:page}.source{font-size:9pt}}</style></head><body><main>
 <h1>Commonwealth saga</h1><p>Isolated draft reading room · 2015–2026 mission</p>
-<div class="notice"><strong>Partial production; not a finished saga or canonical release.</strong><p><strong>All new prose in this reader concerns 2026. No new 2015–2025 chapter has been completed by this mission.</strong> The eleven historical seasons still require source-bound literary coverage; historical owner identity remains unresolved. Existing historical drafts are preserved, with ownership, temporal, spatial and literary gates open. Current-season writing does not close that historical gap.</p><p>The 2026 lane stops at verified events; each included draft has its own earlier scene cutoff. No future result is invented. New scenes and durable consequences remain proposed. <a href="../CANDIDATE_EVENT_LINKS.json">Candidate scene-to-event links</a> establish draft traceability, not accepted coverage. Read the <a href="../evidence/HISTORICAL_UNBLOCK_CHECK_2026_10_24.md">historical unblock check</a> and <a href="../evidence/provider-readback/READBACK_INDEX.json">fresh provider-readback index</a> for the remaining evidence boundary.</p><p>This local preview embeds new mission prose. Preserved manuscripts remain source archive links, not silently approved reader paths. No publication manifest, canon or service was changed.</p></div>
-<nav id="contents" aria-label="Draft contents"><h2>Draft contents</h2><ul>''' + "".join(links) + '''</ul><p><a href="../inventory/MANUSCRIPT_INVENTORY.md">Source inventory</a> · <a href="../evidence/">Evidence and coverage files</a></p></nav>
+<div class="notice"><strong>Partial production; not a finished saga or canonical release.</strong><p>''' + scope_disclosure(manuscripts) + '''</p><p>The 2026 lane stops at verified events; each included draft has its own earlier scene cutoff. No future result is invented. New scenes and durable consequences remain proposed. <a href="../CANDIDATE_EVENT_LINKS.json">Candidate scene-to-event links</a> establish draft traceability, not accepted coverage. Read the <a href="../evidence/HISTORICAL_UNBLOCK_CHECK_2026_10_24.md">initial historical unblock check</a> and <a href="../evidence/provider-readback/READBACK_INDEX.json">fresh provider-readback index</a>; the later binding audit above corrects the initial blanket fictional hold without changing raw owner fields.</p><p>This local preview embeds new mission prose. Preserved manuscripts remain source archive links, not silently approved reader paths. No publication manifest, canon or service was changed.</p></div>
+<nav id="contents" aria-label="Draft contents"><h2>Draft contents</h2><ul>''' + "".join(links) + '''</ul><p><a href="../inventory/MANUSCRIPT_INVENTORY.md">Source inventory</a> · <a href="../ALL_SEASON_PROGRESS.json">All twelve seasons: observed denominators and proposed coverage</a> · <a href="../evidence/">Evidence and coverage files</a></p><p>A scene may link several events. Scene counts, scene-to-event links and distinct linked events are different measures; none establishes accepted coverage or a completed season.</p></nav>
 ''' + body + coverage + '''<details><summary>Preserved source archive — not active manuscript approval</summary><p>Links target the inspected baseline revision. Original text may contain superseded POV or anatomy; archive links do not license its use in new prose.</p><ul>''' + "".join(source_items) + '''</ul></details></main></body></html>'''
     (HERE / "index.html").write_text(page)
     manifest = {"schema_version": 1, "baseline_revision": BASELINE,
