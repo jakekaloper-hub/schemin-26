@@ -1,0 +1,20 @@
+{
+  "name": "schemin-pov-ink-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "npm run check:generated && node --test test.mjs",
+    "dev": "vite --host 127.0.0.1",
+    "build": "npm run check:generated && vite build",
+    "test:browser": "playwright test",
+    "check:generated": "node generate-reader-data.mjs --check"
+  },
+  "dependencies": {
+    "inkjs": "2.4.0"
+  },
+  "devDependencies": {
+    "vite": "^6.3.0",
+    "@playwright/test": "1.55.1"
+  }
+}
