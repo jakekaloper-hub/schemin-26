@@ -98,5 +98,20 @@ class UniverseV11Tests(unittest.TestCase):
         self.assertTrue(any("zero approved edges" in e or "SEED_NOT_FULL_MAP" in e for e in errs))
 
 
+
+    def test_wilson_current_identity_cross_layer_authority(self):
+        owner = mod.load_json("owner_domains.json")
+        domain = next(d for d in owner["domains"] if d["character_id"] == "CHAR-WILSON-LOOK")
+        self.assertIn("ONE_BODY_GORILLA_CENTAUR_FOUR_LEGS", domain["canon_guard"])
+        self.assertNotIn("NO_CENTAUR_ANATOMY", domain["canon_guard"])
+        ontology = mod.load_json("inhabitant_ontology.json")
+        self.assertIn("four-legged Arsenal Gorilla Centaur", ontology["people_notes"]["CHAR-WILSON-LOOK"])
+        matrix = (ROOT / "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md").read_text()
+        package = (ROOT / "canon/characters/CHAR-WILSON-LOOK/PACKAGE.md").read_text()
+        self.assertIn("four-legged Arsenal Gorilla Centaur", matrix)
+        self.assertIn("FOUR-LEGGED", package)
+        self.assertNotIn("Wilson Look as Arsenal Centaur/equine anatomy", matrix)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

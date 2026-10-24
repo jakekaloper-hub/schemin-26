@@ -109,6 +109,20 @@ def governed_generate(
     if consumed_nonces is not None:
         consumed_nonces.add(nonce)
 
+    # Verify native references at the actual governed transport boundary.
+    # A returned receipt cannot compensate for omitted/incorrect input references.
+    if route == "openai_native":
+        supplied = payload.get("referenced_image_ids") if isinstance(payload, dict) else None
+        expected_refs = [m.generation_reference_id for m in mounts]
+        if not isinstance(supplied, list) or len(supplied) != len(expected_refs) or (
+            len(set(supplied)) != len(supplied) or set(supplied) != set(expected_refs)
+        ):
+            return {
+                "state": "GENERATION_BLOCKED",
+                "reason": "NATIVE_RENDER_REFERENCE_INPUT_MISMATCH",
+                "renderer_invoked": False,
+            }
+
     result = renderer(payload)
     if not isinstance(result, dict) or not result.get("output_instance_id"):
         return {
