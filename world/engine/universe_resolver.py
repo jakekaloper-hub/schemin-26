@@ -164,6 +164,27 @@ class UniverseResolver:
         rows = [x for x in self.economies if x.get("physical_zone_id") == region]
         return self._ok(location_id=loc["id"], physical_zone_id=region, economy=rows, authority=["world/data/economies.json"])
 
+    def what_civilization_context(self, location: str) -> dict[str, Any]:
+        """One canonical location -> one shared ambient context for all consumers."""
+        try:
+            from .civilization_context import resolve_civilization_context
+        except ImportError:
+            from civilization_context import resolve_civilization_context
+
+        loc = self._location(location)
+        if not loc:
+            return self._fail("UNKNOWN_LOCATION", location)
+        region_id = loc.get("physical_zone_id")
+        context = resolve_civilization_context(region_id)
+        if not context["ok"]:
+            return self._fail(context["error"], region_id)
+        return self._ok(
+            location_id=loc["id"],
+            physical_zone_id=region_id,
+            civilization_context=context,
+            authority=context["provenance"],
+        )
+
     def what_division_culture(self, location: str) -> dict[str, Any]:
         loc = self._location(location)
         if not loc:
@@ -250,6 +271,7 @@ def main() -> int:
         "WHAT_STATE": r.what_state,
         "WHAT_INSTITUTIONS_NEAR": r.what_institutions_near,
         "WHAT_ECONOMY": r.what_economy,
+        "WHAT_CIVILIZATION_CONTEXT": r.what_civilization_context,
         "WHAT_DIVISION_CULTURE": r.what_division_culture,
         "WHAT_CAN_APPEAR_IN_SCENE": r.what_can_appear_in_scene,
         "WHAT_IS_FORBIDDEN": r.what_is_forbidden,

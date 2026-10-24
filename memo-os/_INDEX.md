@@ -15,6 +15,13 @@
 8. `../canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md` — includes binding v2.0 Reference-Plate Execution Patch
 9. `../chronicles/standards/CHARACTER_VISUAL_LOCK_GATE.md` — release-blocking character QA
 
+## Commissioner Creative DNA v1 — approved preferences, subordinate to V5.5
+
+- `creative-dna/COMMISSIONER_CREATIVE_DNA_V1.md` and `creative-dna/COMMISSIONER_CREATIVE_DNA_V1.json` capture four Commissioner-selected patterns from Weeks 3–5; the examples govern composition/editorial goals, **not** obsolete character likeness or release authority.
+- Every future weekly issue starts its issue previs/page packet with this conditioning layer. Load it together with Fact Lock, temporal canon, current character source references, World Atlas and the existing release gates. Unused/missing recurring rankings/opening modules require an explicit omission reason.
+- `creative-dna/validate_creative_dna.py` and CI reject structural packet drift (12 ranking rows, prior-week movement, reused result portraits, margins, event/world links), but do not substitute for final-raster Character QA, mobile QA or the independent Umpire.
+- The Week 5 19-page review assembly is a visual exemplar only; its 21-page publication provenance remains subject to the governing release manifest and Issue #164.
+
 ## V5.6 publication-integrity salvage
 
 - `V5_6_CURRENT_MAIN_RECONCILIATION_V1.md` — current-main reconciliation and HOLD decision.

@@ -1,5 +1,8 @@
 # Week 5 — Consolidated Preproduction Source Reconciliation (2026-10-11)
 
+> **Historical record — current authority check required (2026-10-24).** These October 11 conditional candidates and source reconciliations retain the original proposal history. They do not supersede later approved story direction, current character references, result receipts or flexible story-driven page structure. Resolve current authority through PROJECT_CONTROL_REGISTRY.md and memo-os/README.md; no new cover, Fact Lock or render approval is granted.
+
+
 **State:** REVIEW / NOT FACT LOCK / NOT PRODUCTION-APPROVED. **Owner:** Existing Week 5 Issue #146; no new OS.
 **Scope:** Reconcile the five committed Week 5 Markdown files and two Commissioner-uploaded Markdown files with Memo OS V5.5 and the proposed cinematic design shell.
 

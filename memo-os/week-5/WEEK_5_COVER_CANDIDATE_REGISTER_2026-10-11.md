@@ -1,4 +1,7 @@
 # Week 5 — Cover Candidate Register (2026-10-11)
+
+> **Historical record — current authority check required (2026-10-24).** These October 11 conditional candidates and source reconciliations retain the original proposal history. They do not supersede later approved story direction, current character references, result receipts or flexible story-driven page structure. Resolve current authority through PROJECT_CONTROL_REGISTRY.md and memo-os/README.md; no new cover, Fact Lock or render approval is granted.
+
 **Status:** PREPRODUCTION CANDIDATES / NO COVER LOCK / NO ART AUTHORIZATION / NO FINAL WINNERS
 **Authority:** Commissioner instruction to retain brainstorm in Week 5 preproduction; candidate recommendations are simulated Bullpen/Author Council analysis, not authenticated Director or live-author responses.
 **Existing mission:** Issue #146; Memo OS V5.5 cover sandbox controls §19; Design Bible V1.1 review; Week 5 winner-POV lock; Week 5 Atlas venue candidates.
