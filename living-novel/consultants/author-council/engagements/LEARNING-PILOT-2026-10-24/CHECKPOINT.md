@@ -1,6 +1,6 @@
 # Resumable completion record
 
-Date: 2026-10-24. State: ACCESSIBLE_SOURCE_PILOT_APPLIED_AND_TESTED; publication pending transport. No production acceptance or canon promotion.
+Date: 2026-10-24. State: ACCESSIBLE_SOURCE_PILOT_APPLIED_AND_TESTED; published as draft PR #244. No production acceptance or canon promotion.
 
 ## Read first
 - MISSION.md: full prompt, steering amendment and simulated board decisions.
@@ -30,4 +30,4 @@ Full-book study is BLOCKED by absent owned accessible reference text, separately
 
 The active novel branch and manuscripts, Bullpen files, held PRs and production settings were not changed. Baseline main is 8fcb77191955f413fe970154d47632770f923055; observed active novel remote was 3e5c77353564c121cb0400eac3d0c0d6d4c89a4d. Branch: learning/accessible-source-pilot-20261024. Independent review is an actual separate agent review, not human/author acceptance.
 
-Publication: local gh CLI authentication check failed (invalid GH_TOKEN), but connected GitHub read-only metadata check succeeded with push permission. No denial received. Use existing authenticated transport only; no credentials created. Preserve expected absent branch on first push; do not overwrite any remotely created branch. Record final result in terminal handoff.
+Publication verified: https://github.com/jakekaloper-hub/schemin-26/pull/244 is OPEN / DRAFT / NOT MERGED. Implementation commit e8b15942b8beb7aab2b4313cd5142eb2ec4f5fba matched remote branch; main remained at the frozen baseline. Initial push used an expected-absent ref lease; checkpoint follow-up uses expected implementation-head lease. Local gh CLI authentication check failed (invalid GH_TOKEN), but existing git push transport succeeded and the connected GitHub tool opened the draft. No denial, credential creation or access expansion occurred. CI outcome is not claimed; local tests and independent review are the evidence. This checkpoint follow-up changes publication status only.
