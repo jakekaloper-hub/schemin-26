@@ -1,4 +1,7 @@
 # Schemin ’26 Cinematic Studio — Gates 0–3 Execution Packet
+
+> **Historical record — current authority check required (2026-10-24).** This October 14 preproduction audit and its companion previs JSON retain dated source-readiness observations and a candidate storyboard. Source counts, branch states and runtime availability below are not current capability certification. Resolve current authority through PROJECT_CONTROL_REGISTRY.md and canon/characters/runtime/. The previs remains unapproved for rendering and publication.
+
 **2026-10-14 · Preproduction · Existing systems only · Not a production release**
 
 ## Gate 0 — authority and reuse reconciliation

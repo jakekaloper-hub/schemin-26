@@ -3,17 +3,21 @@ on:
   push:
     paths:
       - "data-gateway/flaim_adapter.py"
+      - "data-gateway/weekly_matchup_receipt.py"
       - "data-gateway/FLAIM_PROVIDER_ADAPTER_V1.md"
       - "data/provider-receipts/flaim/**"
       - "tests/test_flaim_adapter_contract.py"
+      - "tests/test_weekly_matchup_receipt.py"
       - ".github/workflows/flaim-adapter-ci.yml"
       - "memo-os/week-4/**"
   pull_request:
     paths:
       - "data-gateway/flaim_adapter.py"
+      - "data-gateway/weekly_matchup_receipt.py"
       - "data-gateway/FLAIM_PROVIDER_ADAPTER_V1.md"
       - "data/provider-receipts/flaim/**"
       - "tests/test_flaim_adapter_contract.py"
+      - "tests/test_weekly_matchup_receipt.py"
       - ".github/workflows/flaim-adapter-ci.yml"
       - "memo-os/week-4/**"
   workflow_dispatch:
@@ -29,6 +33,8 @@ jobs:
         run: python -m py_compile data-gateway/flaim_adapter.py
       - name: Run Flaim adapter contract tests
         run: python -m unittest -v tests/test_flaim_adapter_contract.py
+      - name: Test generic weekly matchup receipt fail-closed bridge
+        run: python -m unittest -v tests/test_weekly_matchup_receipt.py
       - name: Normalize current Week 4 receipt
         run: |
           python data-gateway/flaim_adapter.py             data/provider-receipts/flaim/1417621/2026/week-4/2026-09-29T175654Z.json             --slo-seconds 86400             --output /tmp/flaim-week4-normalized.json
