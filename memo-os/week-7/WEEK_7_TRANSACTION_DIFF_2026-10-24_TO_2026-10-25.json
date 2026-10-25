@@ -1,0 +1,132 @@
+{
+  "status": "ROW_COMPARISON_COMPLETE_NOT_APPROVED",
+  "provider_authenticity_verified": false,
+  "steward_accepted": false,
+  "fact_lock": false,
+  "source_artifacts": {
+    "before": "WEEK_7_PROVIDER_NORMALIZED_EVIDENCE_2026-10-24.json",
+    "after": "WEEK_7_PROVIDER_NORMALIZED_EVIDENCE_2026-10-25.json"
+  },
+  "old_count": 34,
+  "new_count": 37,
+  "added_rows": [
+    {
+      "transaction_id": "e6e94ab1-759e-4820-baa5-ad034c480bf5",
+      "type": "add",
+      "status": "complete",
+      "timestamp": 1792896511135,
+      "timestamp_source": "proposedDate",
+      "date": "2026-10-24",
+      "week": 7,
+      "provider_scoring_period_id": 7,
+      "team_ids": [
+        "1"
+      ],
+      "players_added": [
+        {
+          "id": "4427728",
+          "name": "Bam Knight",
+          "position": "RB",
+          "team": "ARI"
+        }
+      ],
+      "players_dropped": [
+        {
+          "id": "-16009",
+          "name": "Packers D/ST",
+          "position": "D/ST",
+          "team": "GB"
+        }
+      ],
+      "faab_bid": 0
+    },
+    {
+      "transaction_id": "b5206801-93df-453c-b51b-e782f2367c59",
+      "type": "add",
+      "status": "complete",
+      "timestamp": 1792896357199,
+      "timestamp_source": "proposedDate",
+      "date": "2026-10-24",
+      "week": 7,
+      "provider_scoring_period_id": 7,
+      "team_ids": [
+        "1"
+      ],
+      "players_added": [
+        {
+          "id": "4715355",
+          "name": "Darius Cooper",
+          "position": "WR",
+          "team": "PHI"
+        }
+      ],
+      "players_dropped": [
+        {
+          "id": "2576925",
+          "name": "Darren Waller",
+          "position": "TE",
+          "team": "CAR"
+        }
+      ],
+      "faab_bid": 0
+    },
+    {
+      "transaction_id": "c7bf65c6-cb34-427d-82ce-f4d1ae7b3e1c",
+      "type": "add",
+      "status": "complete",
+      "timestamp": 1792896312609,
+      "timestamp_source": "proposedDate",
+      "date": "2026-10-24",
+      "week": 7,
+      "provider_scoring_period_id": 7,
+      "team_ids": [
+        "1"
+      ],
+      "players_added": [
+        {
+          "id": "4242557",
+          "name": "Colby Parkinson",
+          "position": "TE",
+          "team": "LAR"
+        }
+      ],
+      "players_dropped": [
+        {
+          "id": "3676833",
+          "name": "KaVontae Turpin",
+          "position": "WR",
+          "team": "DAL"
+        }
+      ],
+      "faab_bid": 0
+    }
+  ],
+  "removed_rows": [],
+  "changed_rows": [],
+  "unchanged_count": 34,
+  "scope": {
+    "platform": "espn",
+    "sport": "football",
+    "league_id": "1417621",
+    "season_year": 2026,
+    "source": "mTransactions2",
+    "window": {
+      "mode": "explicit_week",
+      "unit": "matchup_period",
+      "requested_week": 7,
+      "normalization": "none",
+      "weeks": [
+        7
+      ],
+      "provider_scoring_period_ids": [
+        7
+      ],
+      "start_date": null,
+      "end_date": null,
+      "date_bounds_kind": "unavailable",
+      "timezone": "America/New_York",
+      "returned_rows": 37
+    }
+  },
+  "errors": []
+}
