@@ -1,0 +1,1810 @@
+{
+  "invocation_type": "ACTUAL_LOCAL_DETERMINISTIC_ROUTING_ONLY",
+  "bullpen_revision": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+  "director_consultation": "DIRECTOR_RUNTIME_NOT_OBSERVED",
+  "reason": "AuthenticatedChatProvider requires explicitly configured endpoint, credential and model; none supplied for this mission. No paid or credential setup attempted.",
+  "route": {
+    "input": "/bullpen mission R53 cinematic cross-domain synthesis and story development",
+    "command": "mission",
+    "mode": "build",
+    "mutation": true,
+    "confidence": 1,
+    "explicit": true,
+    "fallback_used": false,
+    "directors": [
+      "the_closer",
+      "the_groundskeeper",
+      "the_beat_writer"
+    ],
+    "directorRoute": {
+      "task": "/bullpen mission R53 cinematic cross-domain synthesis and story development",
+      "primary": "the_closer",
+      "secondary": [
+        "the_beat_writer"
+      ],
+      "scores": {
+        "the_closer": 2,
+        "the_setup_man": 0,
+        "the_scout": 0,
+        "the_umpire": 0,
+        "the_beat_writer": 1,
+        "the_groundskeeper": 0,
+        "the_gm": 0,
+        "the_pitching_coach": 0,
+        "the_warden": 0,
+        "the_commissioner": 0,
+        "the_analyst": 0,
+        "the_librarian": 0,
+        "the_agent": 0,
+        "the_bookkeeper": 0,
+        "the_commissioner_general": 0,
+        "the_clubhouse_manager": 0,
+        "the_scout_master": 0,
+        "the_architect": 0
+      },
+      "confidence": 0.3333333333333333,
+      "fallback_used": false,
+      "counterweight_plan": {
+        "primary": "the_closer",
+        "activated": true,
+        "edge": "decisive cross-domain synthesis",
+        "failure_mode": "premature closure, manufactured consensus, central decision bottleneck",
+        "counterweights": [
+          "the_analyst",
+          "the_umpire"
+        ],
+        "trigger_reasons": [
+          "profile_trigger:synthesis"
+        ],
+        "challenge_questions": [
+          "Is a decision actually required now?",
+          "What material dissent or uncertainty remains?",
+          "What evidence would cause this decision to be reopened?"
+        ],
+        "preflight": [
+          "classify urgency and reversibility",
+          "surface material dissent",
+          "estimate information value of waiting"
+        ],
+        "during": [
+          "preserve competing authoritative views",
+          "state why one course is selected without erasing dissent"
+        ],
+        "postflight": [
+          "record decision, dissent, confidence, assumptions, and reopening conditions"
+        ],
+        "tension": {
+          "id": "speed_certainty",
+          "name": "Decision Confidence Protocol",
+          "principle": "State urgency, reversibility, evidence confidence, and remaining uncertainty."
+        }
+      },
+      "participants": [
+        "the_closer",
+        "the_beat_writer",
+        "the_analyst",
+        "the_umpire"
+      ],
+      "world_context": {
+        "status": "RELEASE_CANDIDATE_NOT_ACTIVE",
+        "primary": {
+          "slug": "the_closer",
+          "status": "RELEASE_CANDIDATE_NOT_ACTIVE",
+          "behavior": {
+            "slug": "the_closer",
+            "listening": "listens for the decision boundary and unresolved dissent",
+            "speaking": "speaks last when possible; compresses arguments into a decision frame",
+            "decision": "asks what must be decided now versus deferred",
+            "disagreement": "names competing views without dramatizing them",
+            "evidence": "looks for decision-changing evidence and reversibility",
+            "failure": "slows the room, isolates the failed assumption, reassigns ownership",
+            "pressure": "becomes quieter and more explicit about tradeoffs",
+            "informal": "prefers two- or three-person synthesis walks or terrace reviews",
+            "meeting_posture": "still, upright, open-palm synthesis gestures",
+            "closure": "work is closed when owner, decision, evidence, dissent and reopening condition are explicit",
+            "forbidden_behavioral_drift": "premature closure; manufactured consensus",
+            "formal_mode": "domain-authoritative, evidence-led, concise and role-bounded",
+            "informal_mode": "same decision instincts with lower ceremony; no authority drift"
+          },
+          "workspace": {
+            "slug": "the_closer",
+            "primary": "BPHQ-LOC-STRATEGY",
+            "secondary": [
+              "BPHQ-LOC-BOARD"
+            ],
+            "informal": [
+              "BPHQ-LOC-TERRACE",
+              "BPHQ-LOC-WALK"
+            ],
+            "formal": [
+              "BPHQ-LOC-OPS"
+            ],
+            "low_affinity": [
+              "BPHQ-LOC-BOAT-LOWER"
+            ]
+          },
+          "movement": {
+            "slug": "the_closer",
+            "normal": [
+              "BPHQ-LOC-STRATEGY",
+              "BPHQ-LOC-BOARD"
+            ],
+            "triggered": [
+              {
+                "trigger": "cross-domain conflict",
+                "path": [
+                  "BPHQ-LOC-STRATEGY",
+                  "BPHQ-LOC-WALK",
+                  "BPHQ-LOC-BOARD"
+                ]
+              }
+            ]
+          },
+          "relationships": [
+            {
+              "counterpart": "the_analyst",
+              "types": [
+                "operational_alliance",
+                "counterweight"
+              ],
+              "strength": "STRONG",
+              "purpose": "decision synthesis ↔ calibrated evidence"
+            },
+            {
+              "counterpart": "the_umpire",
+              "types": [
+                "governance_pair",
+                "counterweight"
+              ],
+              "strength": "STRONG",
+              "purpose": "closure ↔ proof/completion discipline"
+            },
+            {
+              "counterpart": "the_gm",
+              "types": [
+                "operational_alliance"
+              ],
+              "strength": "STRONG",
+              "purpose": "enterprise synthesis ↔ product priority"
+            },
+            {
+              "counterpart": "the_clubhouse_manager",
+              "types": [
+                "operational_alliance",
+                "escalation_path"
+              ],
+              "strength": "REGULAR",
+              "purpose": "organizational coherence and role design"
+            },
+            {
+              "counterpart": "the_scout",
+              "types": [
+                "counterweight"
+              ],
+              "strength": "COUNTERWEIGHT",
+              "purpose": "research completeness ↔ bounded decision"
+            },
+            {
+              "counterpart": "the_groundskeeper",
+              "types": [
+                "operational_alliance"
+              ],
+              "strength": "REGULAR",
+              "purpose": "delivery reality ↔ priority/closure"
+            },
+            {
+              "counterpart": "the_commissioner_general",
+              "types": [
+                "counterweight",
+                "escalation_path"
+              ],
+              "strength": "COUNTERWEIGHT",
+              "purpose": "legal options ↔ executable cross-domain choice"
+            },
+            {
+              "counterpart": "the_clubhouse_manager",
+              "types": [
+                "counterweight"
+              ],
+              "strength": "COUNTERWEIGHT",
+              "purpose": "role neatness ↔ actual organizational need"
+            }
+          ],
+          "groups": [
+            {
+              "id": "BPHQ-GRP-STRATEGY",
+              "name": "Strategy Triad",
+              "members": [
+                "the_closer",
+                "the_gm",
+                "the_analyst"
+              ],
+              "owner": "the_closer",
+              "location": "BPHQ-LOC-STRATEGY",
+              "trigger": "cross-domain priority decision",
+              "dynamic": "Closer synthesizes; GM represents user/product outcome; Analyst tests evidence/measurement.",
+              "output": "decision brief"
+            },
+            {
+              "id": "BPHQ-GRP-PEOPLE",
+              "name": "People & Capability Quartet",
+              "members": [
+                "the_clubhouse_manager",
+                "the_closer",
+                "the_librarian",
+                "the_umpire"
+              ],
+              "owner": "the_clubhouse_manager",
+              "location": "BPHQ-LOC-GREAT",
+              "trigger": "role/capability lifecycle issue",
+              "dynamic": "Clubhouse Manager owns org health; Closer tests enterprise need; Librarian checks existing authority; Umpire guards promotion/completion rules.",
+              "output": "role/capability action"
+            }
+          ],
+          "scenes": [
+            {
+              "id": "BPHQ-SCENE-001",
+              "name": "Full Board Meeting",
+              "location_id": "BPHQ-LOC-BOARD",
+              "owner": "the_closer",
+              "standard_participants": [
+                "all_directors"
+              ],
+              "optional_participants": [
+                "jake"
+              ],
+              "default_absent": [],
+              "trigger": "major cross-domain or constitutional decision",
+              "opening_state": "decision brief circulated",
+              "tension": "speed versus certainty",
+              "artifacts": [
+                "decision brief",
+                "evidence packet"
+              ],
+              "speaks_first": "domain_owner",
+              "challenge": "activated_counterweight_or_the_umpire",
+              "resolves": "the_closer",
+              "closes": "the_closer",
+              "duration": "long",
+              "time": "day",
+              "formality": "formal",
+              "distinctive": "only scene where the full 18-Director constitution is expected"
+            },
+            {
+              "id": "BPHQ-SCENE-007",
+              "name": "Morning Strategy",
+              "location_id": "BPHQ-LOC-TERRACE",
+              "owner": "the_closer",
+              "standard_participants": [
+                "the_closer",
+                "the_gm",
+                "the_analyst"
+              ],
+              "optional_participants": [
+                "the_commissioner"
+              ],
+              "default_absent": [
+                "the_warden"
+              ],
+              "trigger": "priority synthesis before a work cycle",
+              "opening_state": "competing priorities and evidence",
+              "tension": "user impact versus evidence confidence versus urgency",
+              "artifacts": [
+                "decision brief",
+                "prototype cards",
+                "calibration sheet"
+              ],
+              "speaks_first": "the_gm",
+              "challenge": "the_analyst",
+              "resolves": "the_closer",
+              "closes": "the_closer",
+              "duration": "short",
+              "time": "morning",
+              "formality": "informal_work",
+              "distinctive": "small strategic synthesis before formal board work"
+            },
+            {
+              "id": "BPHQ-SCENE-008",
+              "name": "Boathouse After-Action",
+              "location_id": "BPHQ-LOC-BOAT-UPPER",
+              "owner": "the_groundskeeper",
+              "standard_participants": [
+                "the_groundskeeper",
+                "the_closer",
+                "the_librarian"
+              ],
+              "optional_participants": [
+                "the_clubhouse_manager"
+              ],
+              "default_absent": [
+                "the_warden"
+              ],
+              "trigger": "major work cycle completed",
+              "opening_state": "facts/results known; lessons not yet consolidated",
+              "tension": "closure versus durable learning",
+              "artifacts": [
+                "run summary",
+                "decision log",
+                "lesson notes"
+              ],
+              "speaks_first": "the_groundskeeper",
+              "challenge": "the_librarian",
+              "resolves": "the_closer",
+              "closes": "the_librarian",
+              "duration": "medium",
+              "time": "evening",
+              "formality": "informal",
+              "distinctive": "operational learning in relaxed setting"
+            },
+            {
+              "id": "BPHQ-SCENE-010",
+              "name": "Winter Fireside Retro",
+              "location_id": "BPHQ-LOC-PORCH",
+              "owner": "the_clubhouse_manager",
+              "standard_participants": [
+                "the_clubhouse_manager",
+                "the_groundskeeper",
+                "the_librarian"
+              ],
+              "optional_participants": [
+                "the_closer",
+                "the_commissioner"
+              ],
+              "default_absent": [],
+              "trigger": "periodic organizational/process retrospective",
+              "opening_state": "completed cycle with people/process evidence",
+              "tension": "learning versus needless restructuring",
+              "artifacts": [
+                "outcome notes",
+                "role/capability notes",
+                "lessons"
+              ],
+              "speaks_first": "the_clubhouse_manager",
+              "challenge": "the_librarian",
+              "resolves": "the_clubhouse_manager",
+              "closes": "the_clubhouse_manager",
+              "duration": "medium",
+              "time": "winter_evening",
+              "formality": "informal",
+              "distinctive": "organizational learning rather than incident postmortem"
+            },
+            {
+              "id": "BPHQ-SCENE-011",
+              "name": "Scout Evidence Brief",
+              "location_id": "BPHQ-LOC-STRATEGY",
+              "owner": "the_scout",
+              "standard_participants": [
+                "the_scout",
+                "the_analyst",
+                "the_librarian"
+              ],
+              "optional_participants": [
+                "the_closer"
+              ],
+              "default_absent": [
+                "the_agent"
+              ],
+              "trigger": "decision depends on uncertain external/internal evidence",
+              "opening_state": "source packet assembled",
+              "tension": "more research versus bounded decision",
+              "artifacts": [
+                "provenance tablet",
+                "calibration sheet",
+                "source cards"
+              ],
+              "speaks_first": "the_scout",
+              "challenge": "the_analyst",
+              "resolves": "the_scout",
+              "closes": "the_librarian",
+              "duration": "medium",
+              "time": "day",
+              "formality": "working",
+              "distinctive": "evidence confidence and authority before decision"
+            },
+            {
+              "id": "BPHQ-SCENE-012",
+              "name": "Governance Review",
+              "location_id": "BPHQ-LOC-GOV",
+              "owner": "the_umpire",
+              "standard_participants": [
+                "the_warden",
+                "the_umpire",
+                "the_architect",
+                "the_commissioner_general"
+              ],
+              "optional_participants": [
+                "the_closer"
+              ],
+              "default_absent": [
+                "the_agent",
+                "the_scout_master"
+              ],
+              "trigger": "material control, security or legal boundary",
+              "opening_state": "proposed control or blocked capability",
+              "tension": "safety/compliance versus usable capability",
+              "artifacts": [
+                "threat boundary",
+                "policy evidence",
+                "rights sources",
+                "implementation design"
+              ],
+              "speaks_first": "domain_risk_owner",
+              "challenge": "the_architect",
+              "resolves": "the_umpire",
+              "closes": "the_umpire",
+              "duration": "medium",
+              "time": "day",
+              "formality": "formal",
+              "distinctive": "minimum effective control across governance/security/legal/engineering"
+            },
+            {
+              "id": "BPHQ-SCENE-013",
+              "name": "Product & Success Review",
+              "location_id": "BPHQ-LOC-STRATEGY",
+              "owner": "the_gm",
+              "standard_participants": [
+                "the_gm",
+                "the_commissioner",
+                "the_analyst"
+              ],
+              "optional_participants": [
+                "the_closer"
+              ],
+              "default_absent": [
+                "the_warden"
+              ],
+              "trigger": "product hypothesis or stakeholder-impact decision",
+              "opening_state": "user problem plus signal available",
+              "tension": "product intuition versus stakeholder/population evidence",
+              "artifacts": [
+                "prototype cards",
+                "feedback notebook",
+                "metrics"
+              ],
+              "speaks_first": "the_commissioner",
+              "challenge": "the_analyst",
+              "resolves": "the_gm",
+              "closes": "the_gm",
+              "duration": "medium",
+              "time": "midday",
+              "formality": "working",
+              "distinctive": "user/product decision with falsification signal"
+            },
+            {
+              "id": "BPHQ-SCENE-015",
+              "name": "Financial Envelope Review",
+              "location_id": "BPHQ-LOC-STRATEGY",
+              "owner": "the_bookkeeper",
+              "standard_participants": [
+                "the_bookkeeper",
+                "the_groundskeeper",
+                "the_gm",
+                "the_analyst"
+              ],
+              "optional_participants": [
+                "the_closer"
+              ],
+              "default_absent": [
+                "the_beat_writer"
+              ],
+              "trigger": "material spend, cost variance or learning investment",
+              "opening_state": "costs and expected outcome identified",
+              "tension": "discipline versus valuable experimentation",
+              "artifacts": [
+                "ledger",
+                "service costs",
+                "product value",
+                "expected-value analysis"
+              ],
+              "speaks_first": "the_bookkeeper",
+              "challenge": "the_gm",
+              "resolves": "the_bookkeeper",
+              "closes": "the_bookkeeper",
+              "duration": "medium",
+              "time": "afternoon",
+              "formality": "working",
+              "distinctive": "Run/Build/Learn/Bet classification with bounded downside"
+            },
+            {
+              "id": "BPHQ-SCENE-016",
+              "name": "People & Capability Review",
+              "location_id": "BPHQ-LOC-GREAT",
+              "owner": "the_clubhouse_manager",
+              "standard_participants": [
+                "the_clubhouse_manager",
+                "the_closer",
+                "the_librarian",
+                "the_umpire"
+              ],
+              "optional_participants": [
+                "domain_owner"
+              ],
+              "default_absent": [
+                "the_scout_master"
+              ],
+              "trigger": "role overlap, capability gap, promotion or lifecycle concern",
+              "opening_state": "observed organizational need",
+              "tension": "real capability gap versus unnecessary restructuring",
+              "artifacts": [
+                "role map",
+                "capability evidence",
+                "current authority",
+                "promotion rules"
+              ],
+              "speaks_first": "the_clubhouse_manager",
+              "challenge": "the_librarian",
+              "resolves": "the_clubhouse_manager",
+              "closes": "the_umpire",
+              "duration": "medium",
+              "time": "afternoon",
+              "formality": "working",
+              "distinctive": "organizational design without changing constitution by default"
+            }
+          ]
+        },
+        "participants": [
+          {
+            "slug": "the_closer",
+            "status": "RELEASE_CANDIDATE_NOT_ACTIVE",
+            "behavior": {
+              "slug": "the_closer",
+              "listening": "listens for the decision boundary and unresolved dissent",
+              "speaking": "speaks last when possible; compresses arguments into a decision frame",
+              "decision": "asks what must be decided now versus deferred",
+              "disagreement": "names competing views without dramatizing them",
+              "evidence": "looks for decision-changing evidence and reversibility",
+              "failure": "slows the room, isolates the failed assumption, reassigns ownership",
+              "pressure": "becomes quieter and more explicit about tradeoffs",
+              "informal": "prefers two- or three-person synthesis walks or terrace reviews",
+              "meeting_posture": "still, upright, open-palm synthesis gestures",
+              "closure": "work is closed when owner, decision, evidence, dissent and reopening condition are explicit",
+              "forbidden_behavioral_drift": "premature closure; manufactured consensus",
+              "formal_mode": "domain-authoritative, evidence-led, concise and role-bounded",
+              "informal_mode": "same decision instincts with lower ceremony; no authority drift"
+            },
+            "workspace": {
+              "slug": "the_closer",
+              "primary": "BPHQ-LOC-STRATEGY",
+              "secondary": [
+                "BPHQ-LOC-BOARD"
+              ],
+              "informal": [
+                "BPHQ-LOC-TERRACE",
+                "BPHQ-LOC-WALK"
+              ],
+              "formal": [
+                "BPHQ-LOC-OPS"
+              ],
+              "low_affinity": [
+                "BPHQ-LOC-BOAT-LOWER"
+              ]
+            },
+            "movement": {
+              "slug": "the_closer",
+              "normal": [
+                "BPHQ-LOC-STRATEGY",
+                "BPHQ-LOC-BOARD"
+              ],
+              "triggered": [
+                {
+                  "trigger": "cross-domain conflict",
+                  "path": [
+                    "BPHQ-LOC-STRATEGY",
+                    "BPHQ-LOC-WALK",
+                    "BPHQ-LOC-BOARD"
+                  ]
+                }
+              ]
+            },
+            "relationships": [
+              {
+                "counterpart": "the_analyst",
+                "types": [
+                  "operational_alliance",
+                  "counterweight"
+                ],
+                "strength": "STRONG",
+                "purpose": "decision synthesis ↔ calibrated evidence"
+              },
+              {
+                "counterpart": "the_umpire",
+                "types": [
+                  "governance_pair",
+                  "counterweight"
+                ],
+                "strength": "STRONG",
+                "purpose": "closure ↔ proof/completion discipline"
+              },
+              {
+                "counterpart": "the_gm",
+                "types": [
+                  "operational_alliance"
+                ],
+                "strength": "STRONG",
+                "purpose": "enterprise synthesis ↔ product priority"
+              },
+              {
+                "counterpart": "the_clubhouse_manager",
+                "types": [
+                  "operational_alliance",
+                  "escalation_path"
+                ],
+                "strength": "REGULAR",
+                "purpose": "organizational coherence and role design"
+              },
+              {
+                "counterpart": "the_scout",
+                "types": [
+                  "counterweight"
+                ],
+                "strength": "COUNTERWEIGHT",
+                "purpose": "research completeness ↔ bounded decision"
+              },
+              {
+                "counterpart": "the_groundskeeper",
+                "types": [
+                  "operational_alliance"
+                ],
+                "strength": "REGULAR",
+                "purpose": "delivery reality ↔ priority/closure"
+              },
+              {
+                "counterpart": "the_commissioner_general",
+                "types": [
+                  "counterweight",
+                  "escalation_path"
+                ],
+                "strength": "COUNTERWEIGHT",
+                "purpose": "legal options ↔ executable cross-domain choice"
+              },
+              {
+                "counterpart": "the_clubhouse_manager",
+                "types": [
+                  "counterweight"
+                ],
+                "strength": "COUNTERWEIGHT",
+                "purpose": "role neatness ↔ actual organizational need"
+              }
+            ],
+            "groups": [
+              {
+                "id": "BPHQ-GRP-STRATEGY",
+                "name": "Strategy Triad",
+                "members": [
+                  "the_closer",
+                  "the_gm",
+                  "the_analyst"
+                ],
+                "owner": "the_closer",
+                "location": "BPHQ-LOC-STRATEGY",
+                "trigger": "cross-domain priority decision",
+                "dynamic": "Closer synthesizes; GM represents user/product outcome; Analyst tests evidence/measurement.",
+                "output": "decision brief"
+              },
+              {
+                "id": "BPHQ-GRP-PEOPLE",
+                "name": "People & Capability Quartet",
+                "members": [
+                  "the_clubhouse_manager",
+                  "the_closer",
+                  "the_librarian",
+                  "the_umpire"
+                ],
+                "owner": "the_clubhouse_manager",
+                "location": "BPHQ-LOC-GREAT",
+                "trigger": "role/capability lifecycle issue",
+                "dynamic": "Clubhouse Manager owns org health; Closer tests enterprise need; Librarian checks existing authority; Umpire guards promotion/completion rules.",
+                "output": "role/capability action"
+              }
+            ],
+            "scenes": [
+              {
+                "id": "BPHQ-SCENE-001",
+                "name": "Full Board Meeting",
+                "location_id": "BPHQ-LOC-BOARD",
+                "owner": "the_closer",
+                "standard_participants": [
+                  "all_directors"
+                ],
+                "optional_participants": [
+                  "jake"
+                ],
+                "default_absent": [],
+                "trigger": "major cross-domain or constitutional decision",
+                "opening_state": "decision brief circulated",
+                "tension": "speed versus certainty",
+                "artifacts": [
+                  "decision brief",
+                  "evidence packet"
+                ],
+                "speaks_first": "domain_owner",
+                "challenge": "activated_counterweight_or_the_umpire",
+                "resolves": "the_closer",
+                "closes": "the_closer",
+                "duration": "long",
+                "time": "day",
+                "formality": "formal",
+                "distinctive": "only scene where the full 18-Director constitution is expected"
+              },
+              {
+                "id": "BPHQ-SCENE-007",
+                "name": "Morning Strategy",
+                "location_id": "BPHQ-LOC-TERRACE",
+                "owner": "the_closer",
+                "standard_participants": [
+                  "the_closer",
+                  "the_gm",
+                  "the_analyst"
+                ],
+                "optional_participants": [
+                  "the_commissioner"
+                ],
+                "default_absent": [
+                  "the_warden"
+                ],
+                "trigger": "priority synthesis before a work cycle",
+                "opening_state": "competing priorities and evidence",
+                "tension": "user impact versus evidence confidence versus urgency",
+                "artifacts": [
+                  "decision brief",
+                  "prototype cards",
+                  "calibration sheet"
+                ],
+                "speaks_first": "the_gm",
+                "challenge": "the_analyst",
+                "resolves": "the_closer",
+                "closes": "the_closer",
+                "duration": "short",
+                "time": "morning",
+                "formality": "informal_work",
+                "distinctive": "small strategic synthesis before formal board work"
+              },
+              {
+                "id": "BPHQ-SCENE-008",
+                "name": "Boathouse After-Action",
+                "location_id": "BPHQ-LOC-BOAT-UPPER",
+                "owner": "the_groundskeeper",
+                "standard_participants": [
+                  "the_groundskeeper",
+                  "the_closer",
+                  "the_librarian"
+                ],
+                "optional_participants": [
+                  "the_clubhouse_manager"
+                ],
+                "default_absent": [
+                  "the_warden"
+                ],
+                "trigger": "major work cycle completed",
+                "opening_state": "facts/results known; lessons not yet consolidated",
+                "tension": "closure versus durable learning",
+                "artifacts": [
+                  "run summary",
+                  "decision log",
+                  "lesson notes"
+                ],
+                "speaks_first": "the_groundskeeper",
+                "challenge": "the_librarian",
+                "resolves": "the_closer",
+                "closes": "the_librarian",
+                "duration": "medium",
+                "time": "evening",
+                "formality": "informal",
+                "distinctive": "operational learning in relaxed setting"
+              },
+              {
+                "id": "BPHQ-SCENE-010",
+                "name": "Winter Fireside Retro",
+                "location_id": "BPHQ-LOC-PORCH",
+                "owner": "the_clubhouse_manager",
+                "standard_participants": [
+                  "the_clubhouse_manager",
+                  "the_groundskeeper",
+                  "the_librarian"
+                ],
+                "optional_participants": [
+                  "the_closer",
+                  "the_commissioner"
+                ],
+                "default_absent": [],
+                "trigger": "periodic organizational/process retrospective",
+                "opening_state": "completed cycle with people/process evidence",
+                "tension": "learning versus needless restructuring",
+                "artifacts": [
+                  "outcome notes",
+                  "role/capability notes",
+                  "lessons"
+                ],
+                "speaks_first": "the_clubhouse_manager",
+                "challenge": "the_librarian",
+                "resolves": "the_clubhouse_manager",
+                "closes": "the_clubhouse_manager",
+                "duration": "medium",
+                "time": "winter_evening",
+                "formality": "informal",
+                "distinctive": "organizational learning rather than incident postmortem"
+              },
+              {
+                "id": "BPHQ-SCENE-011",
+                "name": "Scout Evidence Brief",
+                "location_id": "BPHQ-LOC-STRATEGY",
+                "owner": "the_scout",
+                "standard_participants": [
+                  "the_scout",
+                  "the_analyst",
+                  "the_librarian"
+                ],
+                "optional_participants": [
+                  "the_closer"
+                ],
+                "default_absent": [
+                  "the_agent"
+                ],
+                "trigger": "decision depends on uncertain external/internal evidence",
+                "opening_state": "source packet assembled",
+                "tension": "more research versus bounded decision",
+                "artifacts": [
+                  "provenance tablet",
+                  "calibration sheet",
+                  "source cards"
+                ],
+                "speaks_first": "the_scout",
+                "challenge": "the_analyst",
+                "resolves": "the_scout",
+                "closes": "the_librarian",
+                "duration": "medium",
+                "time": "day",
+                "formality": "working",
+                "distinctive": "evidence confidence and authority before decision"
+              },
+              {
+                "id": "BPHQ-SCENE-012",
+                "name": "Governance Review",
+                "location_id": "BPHQ-LOC-GOV",
+                "owner": "the_umpire",
+                "standard_participants": [
+                  "the_warden",
+                  "the_umpire",
+                  "the_architect",
+                  "the_commissioner_general"
+                ],
+                "optional_participants": [
+                  "the_closer"
+                ],
+                "default_absent": [
+                  "the_agent",
+                  "the_scout_master"
+                ],
+                "trigger": "material control, security or legal boundary",
+                "opening_state": "proposed control or blocked capability",
+                "tension": "safety/compliance versus usable capability",
+                "artifacts": [
+                  "threat boundary",
+                  "policy evidence",
+                  "rights sources",
+                  "implementation design"
+                ],
+                "speaks_first": "domain_risk_owner",
+                "challenge": "the_architect",
+                "resolves": "the_umpire",
+                "closes": "the_umpire",
+                "duration": "medium",
+                "time": "day",
+                "formality": "formal",
+                "distinctive": "minimum effective control across governance/security/legal/engineering"
+              },
+              {
+                "id": "BPHQ-SCENE-013",
+                "name": "Product & Success Review",
+                "location_id": "BPHQ-LOC-STRATEGY",
+                "owner": "the_gm",
+                "standard_participants": [
+                  "the_gm",
+                  "the_commissioner",
+                  "the_analyst"
+                ],
+                "optional_participants": [
+                  "the_closer"
+                ],
+                "default_absent": [
+                  "the_warden"
+                ],
+                "trigger": "product hypothesis or stakeholder-impact decision",
+                "opening_state": "user problem plus signal available",
+                "tension": "product intuition versus stakeholder/population evidence",
+                "artifacts": [
+                  "prototype cards",
+                  "feedback notebook",
+                  "metrics"
+                ],
+                "speaks_first": "the_commissioner",
+                "challenge": "the_analyst",
+                "resolves": "the_gm",
+                "closes": "the_gm",
+                "duration": "medium",
+                "time": "midday",
+                "formality": "working",
+                "distinctive": "user/product decision with falsification signal"
+              },
+              {
+                "id": "BPHQ-SCENE-015",
+                "name": "Financial Envelope Review",
+                "location_id": "BPHQ-LOC-STRATEGY",
+                "owner": "the_bookkeeper",
+                "standard_participants": [
+                  "the_bookkeeper",
+                  "the_groundskeeper",
+                  "the_gm",
+                  "the_analyst"
+                ],
+                "optional_participants": [
+                  "the_closer"
+                ],
+                "default_absent": [
+                  "the_beat_writer"
+                ],
+                "trigger": "material spend, cost variance or learning investment",
+                "opening_state": "costs and expected outcome identified",
+                "tension": "discipline versus valuable experimentation",
+                "artifacts": [
+                  "ledger",
+                  "service costs",
+                  "product value",
+                  "expected-value analysis"
+                ],
+                "speaks_first": "the_bookkeeper",
+                "challenge": "the_gm",
+                "resolves": "the_bookkeeper",
+                "closes": "the_bookkeeper",
+                "duration": "medium",
+                "time": "afternoon",
+                "formality": "working",
+                "distinctive": "Run/Build/Learn/Bet classification with bounded downside"
+              },
+              {
+                "id": "BPHQ-SCENE-016",
+                "name": "People & Capability Review",
+                "location_id": "BPHQ-LOC-GREAT",
+                "owner": "the_clubhouse_manager",
+                "standard_participants": [
+                  "the_clubhouse_manager",
+                  "the_closer",
+                  "the_librarian",
+                  "the_umpire"
+                ],
+                "optional_participants": [
+                  "domain_owner"
+                ],
+                "default_absent": [
+                  "the_scout_master"
+                ],
+                "trigger": "role overlap, capability gap, promotion or lifecycle concern",
+                "opening_state": "observed organizational need",
+                "tension": "real capability gap versus unnecessary restructuring",
+                "artifacts": [
+                  "role map",
+                  "capability evidence",
+                  "current authority",
+                  "promotion rules"
+                ],
+                "speaks_first": "the_clubhouse_manager",
+                "challenge": "the_librarian",
+                "resolves": "the_clubhouse_manager",
+                "closes": "the_umpire",
+                "duration": "medium",
+                "time": "afternoon",
+                "formality": "working",
+                "distinctive": "organizational design without changing constitution by default"
+              }
+            ]
+          },
+          {
+            "slug": "the_beat_writer",
+            "status": "RELEASE_CANDIDATE_NOT_ACTIVE",
+            "behavior": {
+              "slug": "the_beat_writer",
+              "listening": "listens for the human meaning inside verified facts",
+              "speaking": "speaks in scene, sequence, contrast and reader effect",
+              "decision": "chooses the clearest truthful narrative structure",
+              "disagreement": "challenges flatness or false causality, not evidence ownership",
+              "evidence": "seeks verified event spine before interpretation",
+              "failure": "separates broken fact, broken framing and broken execution",
+              "pressure": "protects truth more aggressively under pressure",
+              "informal": "moves between Creative, AI and lake-facing informal spaces with proofs in hand",
+              "meeting_posture": "animated hands; shifts between wall and table",
+              "closure": "closed when story, truth and audience comprehension align",
+              "forbidden_behavioral_drift": "narrative coherence outrunning evidence",
+              "formal_mode": "domain-authoritative, evidence-led, concise and role-bounded",
+              "informal_mode": "same decision instincts with lower ceremony; no authority drift"
+            },
+            "workspace": {
+              "slug": "the_beat_writer",
+              "primary": "BPHQ-LOC-CREATIVE",
+              "secondary": [
+                "BPHQ-LOC-AI",
+                "BPHQ-LOC-STRATEGY"
+              ],
+              "informal": [
+                "BPHQ-LOC-TERRACE",
+                "BPHQ-LOC-BOAT-UPPER"
+              ],
+              "formal": [
+                "BPHQ-LOC-BOARD"
+              ],
+              "low_affinity": [
+                "BPHQ-LOC-GOV"
+              ]
+            },
+            "movement": {
+              "slug": "the_beat_writer",
+              "normal": [
+                "BPHQ-LOC-CREATIVE",
+                "BPHQ-LOC-AI",
+                "BPHQ-LOC-TERRACE"
+              ],
+              "triggered": [
+                {
+                  "trigger": "creative review",
+                  "path": [
+                    "BPHQ-LOC-CREATIVE",
+                    "BPHQ-LOC-AI",
+                    "BPHQ-LOC-TERRACE"
+                  ]
+                }
+              ]
+            },
+            "relationships": [
+              {
+                "counterpart": "the_scout",
+                "types": [
+                  "counterweight"
+                ],
+                "strength": "COUNTERWEIGHT",
+                "purpose": "story coherence ↔ event truth"
+              },
+              {
+                "counterpart": "the_librarian",
+                "types": [
+                  "counterweight",
+                  "evidence_partnership"
+                ],
+                "strength": "STRONG",
+                "purpose": "narrative continuity ↔ provenance"
+              },
+              {
+                "counterpart": "the_pitching_coach",
+                "types": [
+                  "creative_partnership"
+                ],
+                "strength": "STRONG",
+                "purpose": "creative intent ↔ AI execution quality"
+              },
+              {
+                "counterpart": "the_agent",
+                "types": [
+                  "creative_partnership"
+                ],
+                "strength": "STRONG",
+                "purpose": "story ↔ audience positioning"
+              }
+            ],
+            "groups": [
+              {
+                "id": "BPHQ-GRP-CREATIVE",
+                "name": "Creative Triad",
+                "members": [
+                  "the_beat_writer",
+                  "the_pitching_coach",
+                  "the_agent"
+                ],
+                "owner": "the_beat_writer",
+                "location": "BPHQ-LOC-CREATIVE",
+                "trigger": "artifact or narrative direction",
+                "dynamic": "Beat Writer owns story; Pitching Coach tests AI execution; Agent tests audience/claim fit.",
+                "output": "creative direction + evidence-safe message"
+              }
+            ],
+            "scenes": [
+              {
+                "id": "BPHQ-SCENE-004",
+                "name": "Model & Visual Evaluation",
+                "location_id": "BPHQ-LOC-AI",
+                "owner": "the_pitching_coach",
+                "standard_participants": [
+                  "the_pitching_coach",
+                  "the_analyst",
+                  "the_beat_writer"
+                ],
+                "optional_participants": [
+                  "the_gm"
+                ],
+                "default_absent": [
+                  "the_bookkeeper"
+                ],
+                "trigger": "model/prompt/visual candidate requires evaluation",
+                "opening_state": "baseline and candidate available",
+                "tension": "quality improvement versus complexity/regression",
+                "artifacts": [
+                  "reference deck",
+                  "eval sheet",
+                  "candidate output"
+                ],
+                "speaks_first": "the_pitching_coach",
+                "challenge": "the_analyst",
+                "resolves": "the_pitching_coach",
+                "closes": "the_analyst",
+                "duration": "medium",
+                "time": "day",
+                "formality": "working",
+                "distinctive": "comparative AI quality evaluation"
+              },
+              {
+                "id": "BPHQ-SCENE-006",
+                "name": "Creative Pin-Up",
+                "location_id": "BPHQ-LOC-CREATIVE",
+                "owner": "the_beat_writer",
+                "standard_participants": [
+                  "the_beat_writer",
+                  "the_pitching_coach",
+                  "the_agent"
+                ],
+                "optional_participants": [
+                  "the_scout"
+                ],
+                "default_absent": [
+                  "the_bookkeeper"
+                ],
+                "trigger": "creative/artifact direction needs review",
+                "opening_state": "candidate concept or draft visible",
+                "tension": "creative strength versus truth/claim/AI feasibility",
+                "artifacts": [
+                  "proofs",
+                  "reference swatches",
+                  "message deck"
+                ],
+                "speaks_first": "the_beat_writer",
+                "challenge": "the_agent",
+                "resolves": "the_beat_writer",
+                "closes": "the_pitching_coach",
+                "duration": "medium",
+                "time": "afternoon",
+                "formality": "studio",
+                "distinctive": "creative direction, not product prioritization"
+              }
+            ]
+          },
+          {
+            "slug": "the_analyst",
+            "status": "RELEASE_CANDIDATE_NOT_ACTIVE",
+            "behavior": {
+              "slug": "the_analyst",
+              "listening": "listens for population, denominator, uncertainty and decision relevance",
+              "speaking": "speaks with calibrated precision and explicit limitations",
+              "decision": "chooses measures that change a decision",
+              "disagreement": "challenges false precision and proxy metrics",
+              "evidence": "seeks comparable populations, calculation clarity and confidence",
+              "failure": "rebuilds measurement before defending a conclusion",
+              "pressure": "reduces precision when inputs degrade",
+              "informal": "likes Strategy/Ops working sessions with paper and calibration sheets",
+              "meeting_posture": "squares papers; points to exact evidence",
+              "closure": "closed when metric supports a real decision and limitations are recorded",
+              "forbidden_behavioral_drift": "measuring what is easy rather than what matters",
+              "formal_mode": "domain-authoritative, evidence-led, concise and role-bounded",
+              "informal_mode": "same decision instincts with lower ceremony; no authority drift"
+            },
+            "workspace": {
+              "slug": "the_analyst",
+              "primary": "BPHQ-LOC-STRATEGY",
+              "secondary": [
+                "BPHQ-LOC-OPS",
+                "BPHQ-LOC-AI"
+              ],
+              "informal": [
+                "BPHQ-LOC-GARDEN"
+              ],
+              "formal": [
+                "BPHQ-LOC-BOARD"
+              ],
+              "low_affinity": [
+                "BPHQ-LOC-BOAT-LOWER"
+              ]
+            },
+            "movement": {
+              "slug": "the_analyst",
+              "normal": [
+                "BPHQ-LOC-STRATEGY",
+                "BPHQ-LOC-OPS",
+                "BPHQ-LOC-AI"
+              ],
+              "triggered": [
+                {
+                  "trigger": "metric dispute",
+                  "path": [
+                    "BPHQ-LOC-OPS",
+                    "BPHQ-LOC-STRATEGY",
+                    "BPHQ-LOC-BOARD"
+                  ]
+                }
+              ]
+            },
+            "relationships": [
+              {
+                "counterpart": "the_closer",
+                "types": [
+                  "operational_alliance",
+                  "counterweight"
+                ],
+                "strength": "STRONG",
+                "purpose": "decision synthesis ↔ calibrated evidence"
+              },
+              {
+                "counterpart": "the_scout",
+                "types": [
+                  "evidence_partnership",
+                  "counterweight"
+                ],
+                "strength": "STRONG",
+                "purpose": "source quality ↔ decision calibration"
+              },
+              {
+                "counterpart": "the_gm",
+                "types": [
+                  "counterweight",
+                  "evidence_partnership"
+                ],
+                "strength": "STRONG",
+                "purpose": "product bet ↔ measurable falsification"
+              },
+              {
+                "counterpart": "the_pitching_coach",
+                "types": [
+                  "counterweight",
+                  "evidence_partnership"
+                ],
+                "strength": "STRONG",
+                "purpose": "AI quality ↔ measurable delta"
+              },
+              {
+                "counterpart": "the_commissioner",
+                "types": [
+                  "counterweight",
+                  "evidence_partnership"
+                ],
+                "strength": "STRONG",
+                "purpose": "feedback ↔ population-level signal"
+              },
+              {
+                "counterpart": "the_bookkeeper",
+                "types": [
+                  "counterweight"
+                ],
+                "strength": "COUNTERWEIGHT",
+                "purpose": "spend envelope ↔ expected information value"
+              }
+            ],
+            "groups": [
+              {
+                "id": "BPHQ-GRP-EVIDENCE",
+                "name": "Evidence Triad",
+                "members": [
+                  "the_scout",
+                  "the_analyst",
+                  "the_librarian"
+                ],
+                "owner": "the_scout",
+                "location": "BPHQ-LOC-STRATEGY",
+                "trigger": "important factual or measurement uncertainty",
+                "dynamic": "Scout owns source truth; Analyst calibrates; Librarian resolves canon/provenance.",
+                "output": "evidence packet + confidence/authority state"
+              },
+              {
+                "id": "BPHQ-GRP-STRATEGY",
+                "name": "Strategy Triad",
+                "members": [
+                  "the_closer",
+                  "the_gm",
+                  "the_analyst"
+                ],
+                "owner": "the_closer",
+                "location": "BPHQ-LOC-STRATEGY",
+                "trigger": "cross-domain priority decision",
+                "dynamic": "Closer synthesizes; GM represents user/product outcome; Analyst tests evidence/measurement.",
+                "output": "decision brief"
+              },
+              {
+                "id": "BPHQ-GRP-PRODUCT",
+                "name": "Product Success Triad",
+                "members": [
+                  "the_gm",
+                  "the_commissioner",
+                  "the_analyst"
+                ],
+                "owner": "the_gm",
+                "location": "BPHQ-LOC-STRATEGY",
+                "trigger": "product hypothesis or stakeholder-impact decision",
+                "dynamic": "GM owns product choice; Commissioner brings stakeholder reality; Analyst tests population/measurement.",
+                "output": "bounded product experiment/decision"
+              },
+              {
+                "id": "BPHQ-GRP-COST",
+                "name": "Operating Economics Quartet",
+                "members": [
+                  "the_bookkeeper",
+                  "the_groundskeeper",
+                  "the_gm",
+                  "the_analyst"
+                ],
+                "owner": "the_bookkeeper",
+                "location": "BPHQ-LOC-STRATEGY",
+                "trigger": "material cost envelope or investment decision",
+                "dynamic": "Bookkeeper owns reconciliation; Groundskeeper maps run cost; GM states product value; Analyst tests expected value.",
+                "output": "bounded spend decision"
+              }
+            ],
+            "scenes": [
+              {
+                "id": "BPHQ-SCENE-004",
+                "name": "Model & Visual Evaluation",
+                "location_id": "BPHQ-LOC-AI",
+                "owner": "the_pitching_coach",
+                "standard_participants": [
+                  "the_pitching_coach",
+                  "the_analyst",
+                  "the_beat_writer"
+                ],
+                "optional_participants": [
+                  "the_gm"
+                ],
+                "default_absent": [
+                  "the_bookkeeper"
+                ],
+                "trigger": "model/prompt/visual candidate requires evaluation",
+                "opening_state": "baseline and candidate available",
+                "tension": "quality improvement versus complexity/regression",
+                "artifacts": [
+                  "reference deck",
+                  "eval sheet",
+                  "candidate output"
+                ],
+                "speaks_first": "the_pitching_coach",
+                "challenge": "the_analyst",
+                "resolves": "the_pitching_coach",
+                "closes": "the_analyst",
+                "duration": "medium",
+                "time": "day",
+                "formality": "working",
+                "distinctive": "comparative AI quality evaluation"
+              },
+              {
+                "id": "BPHQ-SCENE-007",
+                "name": "Morning Strategy",
+                "location_id": "BPHQ-LOC-TERRACE",
+                "owner": "the_closer",
+                "standard_participants": [
+                  "the_closer",
+                  "the_gm",
+                  "the_analyst"
+                ],
+                "optional_participants": [
+                  "the_commissioner"
+                ],
+                "default_absent": [
+                  "the_warden"
+                ],
+                "trigger": "priority synthesis before a work cycle",
+                "opening_state": "competing priorities and evidence",
+                "tension": "user impact versus evidence confidence versus urgency",
+                "artifacts": [
+                  "decision brief",
+                  "prototype cards",
+                  "calibration sheet"
+                ],
+                "speaks_first": "the_gm",
+                "challenge": "the_analyst",
+                "resolves": "the_closer",
+                "closes": "the_closer",
+                "duration": "short",
+                "time": "morning",
+                "formality": "informal_work",
+                "distinctive": "small strategic synthesis before formal board work"
+              },
+              {
+                "id": "BPHQ-SCENE-011",
+                "name": "Scout Evidence Brief",
+                "location_id": "BPHQ-LOC-STRATEGY",
+                "owner": "the_scout",
+                "standard_participants": [
+                  "the_scout",
+                  "the_analyst",
+                  "the_librarian"
+                ],
+                "optional_participants": [
+                  "the_closer"
+                ],
+                "default_absent": [
+                  "the_agent"
+                ],
+                "trigger": "decision depends on uncertain external/internal evidence",
+                "opening_state": "source packet assembled",
+                "tension": "more research versus bounded decision",
+                "artifacts": [
+                  "provenance tablet",
+                  "calibration sheet",
+                  "source cards"
+                ],
+                "speaks_first": "the_scout",
+                "challenge": "the_analyst",
+                "resolves": "the_scout",
+                "closes": "the_librarian",
+                "duration": "medium",
+                "time": "day",
+                "formality": "working",
+                "distinctive": "evidence confidence and authority before decision"
+              },
+              {
+                "id": "BPHQ-SCENE-013",
+                "name": "Product & Success Review",
+                "location_id": "BPHQ-LOC-STRATEGY",
+                "owner": "the_gm",
+                "standard_participants": [
+                  "the_gm",
+                  "the_commissioner",
+                  "the_analyst"
+                ],
+                "optional_participants": [
+                  "the_closer"
+                ],
+                "default_absent": [
+                  "the_warden"
+                ],
+                "trigger": "product hypothesis or stakeholder-impact decision",
+                "opening_state": "user problem plus signal available",
+                "tension": "product intuition versus stakeholder/population evidence",
+                "artifacts": [
+                  "prototype cards",
+                  "feedback notebook",
+                  "metrics"
+                ],
+                "speaks_first": "the_commissioner",
+                "challenge": "the_analyst",
+                "resolves": "the_gm",
+                "closes": "the_gm",
+                "duration": "medium",
+                "time": "midday",
+                "formality": "working",
+                "distinctive": "user/product decision with falsification signal"
+              },
+              {
+                "id": "BPHQ-SCENE-015",
+                "name": "Financial Envelope Review",
+                "location_id": "BPHQ-LOC-STRATEGY",
+                "owner": "the_bookkeeper",
+                "standard_participants": [
+                  "the_bookkeeper",
+                  "the_groundskeeper",
+                  "the_gm",
+                  "the_analyst"
+                ],
+                "optional_participants": [
+                  "the_closer"
+                ],
+                "default_absent": [
+                  "the_beat_writer"
+                ],
+                "trigger": "material spend, cost variance or learning investment",
+                "opening_state": "costs and expected outcome identified",
+                "tension": "discipline versus valuable experimentation",
+                "artifacts": [
+                  "ledger",
+                  "service costs",
+                  "product value",
+                  "expected-value analysis"
+                ],
+                "speaks_first": "the_bookkeeper",
+                "challenge": "the_gm",
+                "resolves": "the_bookkeeper",
+                "closes": "the_bookkeeper",
+                "duration": "medium",
+                "time": "afternoon",
+                "formality": "working",
+                "distinctive": "Run/Build/Learn/Bet classification with bounded downside"
+              }
+            ]
+          },
+          {
+            "slug": "the_umpire",
+            "status": "RELEASE_CANDIDATE_NOT_ACTIVE",
+            "behavior": {
+              "slug": "the_umpire",
+              "listening": "listens for unsupported completion, authority drift and unenforceable rules",
+              "speaking": "asks short, precise gate questions",
+              "decision": "accepts minimum effective control rather than maximal process",
+              "disagreement": "challenges the claim that something is done, allowed or proven",
+              "evidence": "seeks executable evidence, test result or enforceable control",
+              "failure": "classifies severity and blocks only the affected path",
+              "pressure": "becomes even more exact and minimal",
+              "informal": "informally reviews controls one-on-one before formal gate meetings",
+              "meeting_posture": "square posture, minimal gesture, one question at a time",
+              "closure": "closed when acceptance evidence meets the declared gate",
+              "forbidden_behavioral_drift": "compliance theater; governance for its own sake",
+              "formal_mode": "domain-authoritative, evidence-led, concise and role-bounded",
+              "informal_mode": "same decision instincts with lower ceremony; no authority drift"
+            },
+            "workspace": {
+              "slug": "the_umpire",
+              "primary": "BPHQ-LOC-GOV",
+              "secondary": [
+                "BPHQ-LOC-BOARD",
+                "BPHQ-LOC-ENG"
+              ],
+              "informal": [
+                "BPHQ-LOC-PORCH"
+              ],
+              "formal": [
+                "BPHQ-LOC-STRATEGY"
+              ],
+              "low_affinity": [
+                "BPHQ-LOC-DOCK"
+              ]
+            },
+            "movement": {
+              "slug": "the_umpire",
+              "normal": [
+                "BPHQ-LOC-GOV",
+                "BPHQ-LOC-BOARD"
+              ],
+              "triggered": [
+                {
+                  "trigger": "quality gate",
+                  "path": [
+                    "BPHQ-LOC-GOV",
+                    "BPHQ-LOC-ENG",
+                    "BPHQ-LOC-BOARD"
+                  ]
+                }
+              ]
+            },
+            "relationships": [
+              {
+                "counterpart": "the_closer",
+                "types": [
+                  "governance_pair",
+                  "counterweight"
+                ],
+                "strength": "STRONG",
+                "purpose": "closure ↔ proof/completion discipline"
+              },
+              {
+                "counterpart": "the_architect",
+                "types": [
+                  "counterweight",
+                  "productive_tension"
+                ],
+                "strength": "STRONG",
+                "purpose": "minimum enforceable governance ↔ implementation"
+              },
+              {
+                "counterpart": "the_warden",
+                "types": [
+                  "governance_pair"
+                ],
+                "strength": "REGULAR",
+                "purpose": "compliance ↔ security controls"
+              },
+              {
+                "counterpart": "the_commissioner_general",
+                "types": [
+                  "governance_pair"
+                ],
+                "strength": "REGULAR",
+                "purpose": "policy ↔ legal/source interpretation"
+              },
+              {
+                "counterpart": "the_agent",
+                "types": [
+                  "counterweight"
+                ],
+                "strength": "COUNTERWEIGHT",
+                "purpose": "external promise ↔ allowed wording"
+              }
+            ],
+            "groups": [
+              {
+                "id": "BPHQ-GRP-ARCH",
+                "name": "Architecture Triad",
+                "members": [
+                  "the_architect",
+                  "the_setup_man",
+                  "the_umpire"
+                ],
+                "owner": "the_architect",
+                "location": "BPHQ-LOC-ENG",
+                "trigger": "material architecture or refactor decision",
+                "dynamic": "Architect owns design; Setup Man tests runtime necessity; Umpire tests enforceability/evidence.",
+                "output": "bounded architecture decision + tests"
+              },
+              {
+                "id": "BPHQ-GRP-PEOPLE",
+                "name": "People & Capability Quartet",
+                "members": [
+                  "the_clubhouse_manager",
+                  "the_closer",
+                  "the_librarian",
+                  "the_umpire"
+                ],
+                "owner": "the_clubhouse_manager",
+                "location": "BPHQ-LOC-GREAT",
+                "trigger": "role/capability lifecycle issue",
+                "dynamic": "Clubhouse Manager owns org health; Closer tests enterprise need; Librarian checks existing authority; Umpire guards promotion/completion rules.",
+                "output": "role/capability action"
+              },
+              {
+                "id": "BPHQ-GRP-RISK",
+                "name": "Governance & Risk Quartet",
+                "members": [
+                  "the_warden",
+                  "the_umpire",
+                  "the_commissioner_general",
+                  "the_architect"
+                ],
+                "owner": "the_umpire",
+                "location": "BPHQ-LOC-GOV",
+                "trigger": "material policy/security/legal boundary",
+                "dynamic": "Umpire owns governance gate; Warden tests threat; Commissioner General maps legal options; Architect tests implementability.",
+                "output": "minimum effective control + action route"
+              }
+            ],
+            "scenes": [
+              {
+                "id": "BPHQ-SCENE-005",
+                "name": "Architecture Review",
+                "location_id": "BPHQ-LOC-ENG",
+                "owner": "the_architect",
+                "standard_participants": [
+                  "the_architect",
+                  "the_setup_man",
+                  "the_umpire"
+                ],
+                "optional_participants": [
+                  "the_gm"
+                ],
+                "default_absent": [
+                  "the_agent"
+                ],
+                "trigger": "material architecture, dependency or refactor decision",
+                "opening_state": "observed technical pain and proposed change",
+                "tension": "engineering quality versus unnecessary complexity",
+                "artifacts": [
+                  "system diagram",
+                  "tests",
+                  "failure evidence"
+                ],
+                "speaks_first": "the_architect",
+                "challenge": "the_setup_man",
+                "resolves": "the_architect",
+                "closes": "the_umpire",
+                "duration": "medium",
+                "time": "day",
+                "formality": "technical",
+                "distinctive": "module/interface decision with fitness-test closure"
+              },
+              {
+                "id": "BPHQ-SCENE-012",
+                "name": "Governance Review",
+                "location_id": "BPHQ-LOC-GOV",
+                "owner": "the_umpire",
+                "standard_participants": [
+                  "the_warden",
+                  "the_umpire",
+                  "the_architect",
+                  "the_commissioner_general"
+                ],
+                "optional_participants": [
+                  "the_closer"
+                ],
+                "default_absent": [
+                  "the_agent",
+                  "the_scout_master"
+                ],
+                "trigger": "material control, security or legal boundary",
+                "opening_state": "proposed control or blocked capability",
+                "tension": "safety/compliance versus usable capability",
+                "artifacts": [
+                  "threat boundary",
+                  "policy evidence",
+                  "rights sources",
+                  "implementation design"
+                ],
+                "speaks_first": "domain_risk_owner",
+                "challenge": "the_architect",
+                "resolves": "the_umpire",
+                "closes": "the_umpire",
+                "duration": "medium",
+                "time": "day",
+                "formality": "formal",
+                "distinctive": "minimum effective control across governance/security/legal/engineering"
+              },
+              {
+                "id": "BPHQ-SCENE-016",
+                "name": "People & Capability Review",
+                "location_id": "BPHQ-LOC-GREAT",
+                "owner": "the_clubhouse_manager",
+                "standard_participants": [
+                  "the_clubhouse_manager",
+                  "the_closer",
+                  "the_librarian",
+                  "the_umpire"
+                ],
+                "optional_participants": [
+                  "domain_owner"
+                ],
+                "default_absent": [
+                  "the_scout_master"
+                ],
+                "trigger": "role overlap, capability gap, promotion or lifecycle concern",
+                "opening_state": "observed organizational need",
+                "tension": "real capability gap versus unnecessary restructuring",
+                "artifacts": [
+                  "role map",
+                  "capability evidence",
+                  "current authority",
+                  "promotion rules"
+                ],
+                "speaks_first": "the_clubhouse_manager",
+                "challenge": "the_librarian",
+                "resolves": "the_clubhouse_manager",
+                "closes": "the_umpire",
+                "duration": "medium",
+                "time": "afternoon",
+                "formality": "working",
+                "distinctive": "organizational design without changing constitution by default"
+              }
+            ]
+          }
+        ],
+        "internal_relationships": [
+          {
+            "a": "the_closer",
+            "b": "the_analyst",
+            "types": [
+              "operational_alliance",
+              "counterweight"
+            ],
+            "strength": "STRONG",
+            "purpose": "decision synthesis ↔ calibrated evidence"
+          },
+          {
+            "a": "the_closer",
+            "b": "the_umpire",
+            "types": [
+              "governance_pair",
+              "counterweight"
+            ],
+            "strength": "STRONG",
+            "purpose": "closure ↔ proof/completion discipline"
+          }
+        ],
+        "matching_groups": [],
+        "authority_rule": "World context is read-only orchestration context. It cannot change routing ownership, Director authority, counterweights, project authority, or canon."
+      }
+    },
+    "lifecycle": [
+      "status",
+      "research",
+      "spec",
+      "premortem",
+      "plan",
+      "execute",
+      "test",
+      "verify",
+      "audit",
+      "redteam",
+      "polish",
+      "test",
+      "reconcile",
+      "handoff",
+      "retro",
+      "next"
+    ]
+  }
+}
