@@ -1,3 +1,5 @@
+> Subsequent milestone: `../feature-development/CHECKPOINT.md` records the twelve-arc coverage audit and connected2024–25 feature development. This suite remains preserved as companion material.
+
 # Reading-suite milestone
 
 2026-10-25. Current artifact: `THE_PART_YOU_OFFER.md`, revision2, 3,430 whitespace-counted words. Final SHA256 `6d06e9f26cf0ac2fe14423cfba34264510bf790430e850ae1dadc1adeaeba6ab`.
