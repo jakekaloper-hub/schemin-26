@@ -1,0 +1,132 @@
+{
+  "status": "COMPLETE_SUPPORTED_PARSED_TEXT_RECOVERY_NOT_ORIGINAL_BYTE_RECOVERY",
+  "original_download_error": "library file transfer failed: download failed",
+  "download_http_status": "NOT_EXPOSED_BY_HELPER",
+  "no_access_denial_observed": true,
+  "items": [
+    {
+      "library_file_id": "libfile_6c4ed78b26848191bab3854fa4669c37",
+      "file_id": "file_00000000929881f58ff16379dff47959",
+      "file_name": "SCHEMIN_Verified_Current_Reading_Edition.docx",
+      "reported_original_size_bytes": 237563,
+      "version_id": null,
+      "created_at": "2026-10-25T15:59:17.657427Z",
+      "pages": 337,
+      "text_lines_covered": [
+        1,
+        15631
+      ],
+      "ranges": [
+        {
+          "start": 1,
+          "end": 1000
+        },
+        {
+          "start": 1001,
+          "end": 2000
+        },
+        {
+          "start": 2001,
+          "end": 3000
+        },
+        {
+          "start": 3001,
+          "end": 4000
+        },
+        {
+          "start": 4001,
+          "end": 5000
+        },
+        {
+          "start": 5001,
+          "end": 6000
+        },
+        {
+          "start": 6001,
+          "end": 7000
+        },
+        {
+          "start": 7001,
+          "end": 8000
+        },
+        {
+          "start": 8001,
+          "end": 9000
+        },
+        {
+          "start": 9001,
+          "end": 10000
+        },
+        {
+          "start": 10001,
+          "end": 11000
+        },
+        {
+          "start": 11001,
+          "end": 12000
+        },
+        {
+          "start": 12001,
+          "end": 13000
+        },
+        {
+          "start": 13001,
+          "end": 14000
+        },
+        {
+          "start": 14001,
+          "end": 15000
+        },
+        {
+          "start": 15001,
+          "end": 15631
+        }
+      ],
+      "all_ranges_contiguous": true,
+      "all_warnings_empty": true,
+      "original_docx_sha256": null,
+      "parsed_text_local_path": "/workspace/r53-inputs/latest-reading-edition.txt",
+      "parsed_text_sha256": "1246c13a315031f8d3cc11ee943edb91d8b88f819e2adb2d7939bdc258133096",
+      "raw_read_receipt_sha256": "7eeb83c9b0d7c0108f8a42c3df52f7cd49a68c92b345b7c9f0420e76c68d0af7",
+      "parsed_whitespace_words_including_page_labels": 99628
+    },
+    {
+      "library_file_id": "libfile_d92cc6c3b4a081919665016fdca3a98d",
+      "file_id": "file_00000000993c81f5889897f0464b92b6",
+      "file_name": "SCHEMIN_Bullpen_Review_and_Revision_Pilot.docx",
+      "reported_original_size_bytes": 100928,
+      "version_id": null,
+      "created_at": "2026-10-25T16:22:00.136448Z",
+      "pages": 87,
+      "text_lines_covered": [
+        1,
+        3371
+      ],
+      "ranges": [
+        {
+          "start": 1,
+          "end": 1000
+        },
+        {
+          "start": 1001,
+          "end": 2000
+        },
+        {
+          "start": 2001,
+          "end": 3000
+        },
+        {
+          "start": 3001,
+          "end": 3371
+        }
+      ],
+      "all_ranges_contiguous": true,
+      "all_warnings_empty": true,
+      "original_docx_sha256": null,
+      "parsed_text_local_path": "/workspace/r53-inputs/latest-review-report.txt",
+      "parsed_text_sha256": "d021d44efd8f87220225c5dbbacbac29bfa4272c197df8028803053b824f4937",
+      "raw_read_receipt_sha256": "bff8be2b313ce19b3a77d6de6468083cc8db1bc53a4eb084c4bdf074917b65c6",
+      "parsed_whitespace_words_including_page_labels": 25468
+    }
+  ]
+}

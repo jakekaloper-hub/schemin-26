@@ -1,0 +1,58 @@
+# Continuous comprehension review — fifty-unit convergence reading
+
+**Disposition: ACCEPT for the next bounded development stage within integration/comprehension scope. HOLD for finished-film pacing, audience validation and whole-saga acceptance.** The additions supply meaningful choices and consequences, not merely coverage entries. This is an actual source-aware AI reading, not a cold human audience test, authenticated director consultation or Umpire sign-off.
+
+## Full reading receipt and independence limits
+
+Reader `/root/ensemble_reading_b` read every line of `principal-convergence/SAGA_READING_ASSEMBLY.md`: lines1–4815, all50 units, supplied count26,020 words. Independently verified exact file SHA256 `90b91083c2364e4174290e1fec4717558d32fd45ac6d04835e6542a0599852ec`. Reading windows1–900,901–1850,1851–2800,2801–3800,3801–4815 returned without truncation. This is a complete read of the present assembly, not a new full reading of the42 original manuscripts or rendered screenplay pages.
+
+**Authorship conflict disclosed:** I authored the2021–23 middle sequence module, the new Austin/Jordan module (current units30/35/45), and underlying Bobby sequence material (current units28/39/41/46). I cannot independently accept their literary quality or source fidelity, nor turn this continuous read into independent acceptance of my own work. Component reviews by other readers must carry those gates. Here I assess how all50 units communicate together, with that prior knowledge disclosed. My familiarity with source and earlier versions also prevents any naive-audience claim. No assembly or original source was edited for this review.
+
+## What a reader can now follow
+
+**The map has acquired a history rather than a retroactive explanation.** Unit6 shows multiple users authoring a warning and Jake wanting a cleaner image. Unit7 makes his production choice explicit: twenty copies, the printer's challenge, the ambiguous gap, the handwritten repair, the unfinished tenth. Unit8 gives circulation an actual victim and a bounded loss. Unit9 distinguishes the replacement block and Jake's unauthorized intervention. Unit10 separates the assistant's delayed pay from the map commission; unit11 recovers another original without restoring the private confidence Jake breached. The three-to-two missing-copy progression is intelligible. These added units earn their length because later objects no longer carry meanings the audience never saw established.
+
+The interleaved keeper chronology also helps: he asks for material, finds a different working arrangement when the patch fails, retrieves his own tools, then returns with a bell the room never lent. His final contribution is not repayment for Jake's help. The map receives a usable call mechanism while the ledger loses its claim to describe every contribution. This is an active institution forming through contested uses, without requiring a league briefing.
+
+**Movement II has a different emotional destination.** The2021 dispute cannot be solved by a better final speech; the driver settles his fee while preserving disagreement. The2022 worker has customers and hours; the printer can simply keep the greens she likes. The2023 opponents want to play well, sometimes spitefully, without completing Jake's education. The subsequent Sorel relationship raises the stakes: Jake and Sorel create something together before Jake appropriates its meaning. The pennant rupture and undecided departure are still the reading's strongest sustained emotional ending. Sorel is not just the next stranger who corrects Jake.
+
+**The2026 additions improve principal differentiation.** Kevin is now seen choosing between reputation and information in unit29, then discovering that losing did not prove his preparations wrong in unit38. That is a more specific basis for his later desire to practice with Wilson than generic humility. Phillip's blind, portrait and frame give him design ambitions and embodied constraints: he can undo useful work for a practical reason and still resent what another person makes visible. The portrait's marked-but-uncut panel and the frame's actual sawing remain distinct events. Austin's Belt persists through victory, an awkward meal, the portrait and Kes's rescue; holding the title does not supply the authority he wants in each setting.
+
+Jordan's new sequence ends with someone actually leaving his company. That is materially different from another courteous refusal at the table. The follower's claim is legitimate even though Senn must be paid. Opening the chest chooses between promises rather than discovering enough resources for everyone. Existing chair comedy between the morning belt and evening feast keeps Jordan's appetite for control alive; one useful choice has not cured him. These are integration observations, not self-acceptance of my authored additions.
+
+## Remaining pacing pressure
+
+The assembly is coherent as three selected historical movements. It is **not yet one escalating dramatic plot**. The first six units repeatedly move from a claim to a qualification and an unresolved object. Later sections provide more variations, but a reader still learns the expected cadence: a principal offers help, another person states a limit, a useful act costs something, a final object remains unfinished. Accuracy does not by itself prevent that cadence becoming predictable.
+
+The strongest changes of rhythm should be protected: the empty-cart lift, divided supper, game-table competitiveness, the comic timing of the keg throne and oversized coat, the dangerous stopped shot, Kes's interrupted rescue. Do not obtain a shorter cut by deleting these and retaining only solemn negotiations. Nor does adding a third damaged object automatically create another arc.
+
+Two **optional concrete selection tests**, not required source repairs:
+
+1. In unit5, test removing the passage from **“When the next favorable result draws more visitors…”** through **“Jake has no refusal to make and no gratitude to receive.”** Keep the initial reservation, the outgoing threat revised to a question, the visitor's arrival and the blank return. This removes a second public-list improvement between closely spaced ledger scenes while preserving the unit's material waiting conflict. The omitted source event remains in its manuscript; no contradictory action is substituted. If the visible shortage-list institution is needed in a later selected scene, retain it and make a different cut.
+2. In unit38, test ending the principal exchange at **“I'm still reading.”** Cut its following **LATER** return-paper exchange through **“He reads the ordinary practice again.”** The wrong expectation, torn overfilled schedule and retained ordinary practice have already changed the scene. The last joke leaves Kevin wanting knowledge rather than delivering another measured departure. This cut does not authorize Jake to leave without his note; it simply stops this scene before the source's later return, which remains preserved outside the selected screen extract.
+
+I do not recommend removing the keeper's return, the map's printing origin or the chair to save their larger word counts: those omissions would restore missing causes. I also do not recommend a new intercut implying everyone shares a storm, crossing or paid job; that would buy artificial momentum by inventing evidence.
+
+## Audience orientation and presentation
+
+Year/movement cards make the timeline clear. Local cuts distinguish offices, the stable, the wagon landing and Kes's foot crossing. No exact same-day itinerary is needed. The late bodily introductions are useful: Bobby is explicitly a speaking four-legged principal; Wilson is one integrated gorilla-centaur; Phillip has one body and three heads. Zach/Duckhook and Phillip/Pitts aliases are clarified. A finished screenplay must supply those visual introductions at the first appearance where each body matters, including earlier contest appearances; this development reading should not be mistaken for a tested visual reveal strategy.
+
+Development instructions remain embedded in action: unit12's “Ending within this sequence,” unit36's camera cautions, and many source/authority qualifiers. They help an informed reviewer but interrupt audience immersion. Before a cold-reader or timed-table-read gate, move such commentary to the companion source map and render the selected action consistently. That is a requirement for **that next audience test**, not evidence that the current source-aware reading failed. Keep the restrictions operative after moving them; removing commentary does not license new outcomes.
+
+## Ending test
+
+Unit50 has earned local causality. The arrival-order notice imposes a separate cart charge, and David must give up a marketable sample and prospective customers to pursue an uncertain fit. Phillip's earlier brace and portrait make his refusal to conceal discomfort more particular. The maker controls the trial and the next appointment. The final answer is continued inquiry with money committed, not a new product or an emotional settlement.
+
+It works as **Movement III's selected stop**, not as closure of the whole Commonwealth history. Sorel remains absent; two old maps remain unaccounted for; the driver has supplied no general forgiveness; Jordan's follower has not returned; Kes has not trusted either rescuer; David has not sold the sample. The assembly knows these limits. It should not promise that its final frame reconciles all of them.
+
+The ending is quieter than the2025 departure and the physical rescue. If a single feature is ultimately chosen, the dramatic center and terminal relationship must be selected before claiming this final workshop scene resolves that feature. For the current multi-movement development artifact, no new cliffhanger, recovered sheet or forced cross-era encounter is needed.
+
+## Final scope
+
+No mandatory continuity repair identified by this full integration read. The optional cuts above deserve a bounded comparative reading, not automatic implementation. Independent component acceptance must remain separate for all material I authored. Canonical promotion, finished runtime, broad audience comprehension, original screenplay integration, exhaustive principal biography and publication/merge remain outside this receipt. This review accepts continued development of the50-unit assembly while explicitly withholding those broader claims.
+
+## Bounded changed-pass addendum
+
+Coordinator supplied four repairs after the complete read above. Verified current assembly SHA256 `7bda62f044b5dc45c5500f3c1b7573cdf718c7f51ec0b23ce238046a5133d996` and read the relevant contexts: end of unit10 into11 (removed internal END OF SEQUENCE); first Phillip entrance in34 (Pitts alias, one reptilian humanoid body/exactly three serpent heads); unit44's offered tomorrow and revised “surprised to see me standing” line. Search confirmed the removed “Today. Tomorrow” phrasing and internal END OF SEQUENCE are absent. This is bounded verification of the supplied repair sites, **not a second full26,030-word reading or an independently exhaustive byte diff**. Original full-read hash remains above.
+
+These inspected changes remove a premature ending cue and improve identity/original-meaning clarity without creating a pacing failure. No mandatory pacing repair is required to continue the declared multi-movement development stage. The two optional selection tests and finished-film HOLD remain. The integration disposition carries to these inspected changes within the same limited scope; no new source-fidelity acceptance of another agent's portrait scene is claimed.
