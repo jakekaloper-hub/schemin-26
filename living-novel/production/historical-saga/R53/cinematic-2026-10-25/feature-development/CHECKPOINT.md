@@ -1,3 +1,5 @@
+> Subsequent integrated milestone: `../ensemble-expansion/CHECKPOINT.md` broadens the earlier-era and non-Jake ensemble development. This selected historical feature remains preserved.
+
 # Feature-development milestone — What the Order Costs
 
 2026-10-25. NONCANON. Existing R53 cinematic branch and PR251; no merge or original manuscript/screenplay edits.
