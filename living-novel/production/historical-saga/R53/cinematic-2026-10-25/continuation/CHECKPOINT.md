@@ -1,3 +1,5 @@
+> Subsequent milestone: `../reading-unit/CHECKPOINT.md` records the completed M37→M41 reading suite and reject/revise comprehension tests. This continuation remains preserved.
+
 # R53 cinematic continuation — recovered corpus, changed selection, written adaptations
 
 October25 2026. NONCANON / DRAFT on existing film branch and PR251. This is the current checkpoint; the first packet remains dated evidence. No merge, screenplay edit, novel-task publication retry, manuscript promotion or new operating system.
