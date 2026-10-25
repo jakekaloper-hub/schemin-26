@@ -1,0 +1,227 @@
+{
+  "status": "DERIVED_ADAPTATION_EVIDENCE_EXTRACT_NOT_NEW_CANON_OR_LIVE_FETCH",
+  "repository_revision": "e7916155842a1dcf1f14b812538901d2d1fb965a",
+  "new_raw_provider_fetch": false,
+  "sources": [
+    {
+      "path": "living-novel/history/PLAYOFF_MATCHUP_EVIDENCE_2022_2025.json",
+      "sha256": "ed8fb45530be44dd143788f2f21e8dd57df0224628927f47031c3316d1b3fa6a"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/HISTORICAL_BINDING_MATRIX_2015_2025.json",
+      "sha256": "c7f4f9e159010c183d7c6f085acc8366bb3e9e2c2e8e77347868e484cb93ce52"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2026_FIXTURE_COVERAGE.json",
+      "sha256": "a180c79e680039e5e4145c6de3ebc1338cd57c1246cf67d2a8b99d769693281d"
+    }
+  ],
+  "historical_results": [
+    {
+      "id": "HIST-2024-SEMIFINAL-1",
+      "season": 2024,
+      "round": "semifinal",
+      "winner": "The King",
+      "winner_score": 226.28,
+      "loser": "El Ni\u00f1o",
+      "loser_score": 166.04,
+      "margin": 60.24,
+      "provenance": [
+        "living-novel/history/PLAYOFF_ARCHAEOLOGY.md"
+      ],
+      "canon_class": "HISTORICAL_RESULT"
+    },
+    {
+      "id": "HIST-2024-SEMIFINAL-2",
+      "season": 2024,
+      "round": "semifinal",
+      "winner": "ObiWan Jacoby",
+      "winner_score": 185.54,
+      "loser": "Red Leopards",
+      "loser_score": 177.78,
+      "margin": 7.76,
+      "provenance": [
+        "living-novel/history/PLAYOFF_ARCHAEOLOGY.md"
+      ],
+      "canon_class": "HISTORICAL_RESULT"
+    },
+    {
+      "id": "HIST-2024-CHAMPIONSHIP-1",
+      "season": 2024,
+      "round": "championship",
+      "winner": "ObiWan Jacoby",
+      "winner_score": 187.52,
+      "loser": "The King",
+      "loser_score": 161.68,
+      "margin": 25.84,
+      "provenance": [
+        "living-novel/history/PLAYOFF_ARCHAEOLOGY.md"
+      ],
+      "canon_class": "HISTORICAL_RESULT"
+    },
+    {
+      "id": "HIST-2025-SEMIFINAL-1",
+      "season": 2025,
+      "round": "semifinal",
+      "winner": "ObiWan Jacoby",
+      "winner_score": 174.38,
+      "loser": "Three Dreaded Snake",
+      "loser_score": 153.2,
+      "margin": 21.18,
+      "provenance": [
+        "living-novel/history/PLAYOFF_ARCHAEOLOGY.md"
+      ],
+      "canon_class": "HISTORICAL_RESULT"
+    },
+    {
+      "id": "HIST-2025-SEMIFINAL-2",
+      "season": 2025,
+      "round": "semifinal",
+      "winner": "The Immortal",
+      "winner_score": 152.2,
+      "loser": "Dr. Duckhook",
+      "loser_score": 151.8,
+      "margin": 0.4,
+      "provenance": [
+        "living-novel/history/PLAYOFF_ARCHAEOLOGY.md"
+      ],
+      "canon_class": "HISTORICAL_RESULT"
+    },
+    {
+      "id": "HIST-2025-CHAMPIONSHIP-1",
+      "season": 2025,
+      "round": "championship",
+      "winner": "The Immortal",
+      "winner_score": 161.07,
+      "loser": "ObiWan Jacoby",
+      "loser_score": 109.56,
+      "margin": 51.51,
+      "provenance": [
+        "living-novel/history/PLAYOFF_ARCHAEOLOGY.md"
+      ],
+      "canon_class": "HISTORICAL_RESULT"
+    }
+  ],
+  "fictional_event_associations": [
+    {
+      "season": 2024,
+      "slot": 1,
+      "provider_owner_status": "UNKNOWN",
+      "principal": "CHAR-JAKE-KALOPER",
+      "event": "ObiWan Jacoby defeats The King 187.52\u2013161.68",
+      "event_id": "ESPN1417621-2024-P17-E099",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_ID",
+      "scope_limit": "Only named event and bounded fictional aftermath; not whole season, earlier fixtures, actual owner fact, accepted new prose, or historical geography.",
+      "basis": "SUPPORTED_HARD_CANON_FICTIONAL_TEMPORAL_ASSOCIATION"
+    },
+    {
+      "season": 2024,
+      "slot": 8,
+      "provider_owner_status": "UNKNOWN",
+      "principal": "CHAR-AUSTIN-BYARS",
+      "event": "The King loses final to ObiWan Jacoby",
+      "event_id": "ESPN1417621-2024-P17-E099",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_ID",
+      "scope_limit": "Only named event and bounded fictional aftermath; not whole season, earlier fixtures, actual owner fact, accepted new prose, or historical geography.",
+      "basis": "SUPPORTED_COMPOSITE_HARD_CANON_ASSOCIATION_WITH_EXPLICIT_R53_CONFLICT"
+    },
+    {
+      "season": 2025,
+      "slot": 1,
+      "provider_owner_status": "UNKNOWN",
+      "principal": "CHAR-JAKE-KALOPER",
+      "event": "ObiWan Jacoby beats Three Dreaded Snake 174.38\u2013153.20",
+      "event_id": "ESPN1417621-2025-P16-E092",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_ID",
+      "scope_limit": "Only named event and bounded fictional aftermath; not whole season, earlier fixtures, actual owner fact, accepted new prose, or historical geography.",
+      "basis": "SUPPORTED_HARD_CANON_FICTIONAL_TEMPORAL_ASSOCIATION"
+    },
+    {
+      "season": 2025,
+      "slot": 1,
+      "provider_owner_status": "UNKNOWN",
+      "principal": "CHAR-JAKE-KALOPER",
+      "event": "The Immortal beats ObiWan Jacoby 161.07\u2013109.56",
+      "event_id": "ESPN1417621-2025-P17-E099",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_ID",
+      "scope_limit": "Only named event and bounded fictional aftermath; not whole season, earlier fixtures, actual owner fact, accepted new prose, or historical geography.",
+      "basis": "SUPPORTED_HARD_CANON_FICTIONAL_TEMPORAL_ASSOCIATION"
+    },
+    {
+      "season": 2025,
+      "slot": 6,
+      "provider_owner_status": "UNKNOWN",
+      "principal": "CHAR-PHILLIP-PITTS",
+      "event": "ObiWan Jacoby beats Three Dreaded Snake 174.38\u2013153.20",
+      "event_id": "ESPN1417621-2025-P16-E092",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_ID",
+      "scope_limit": "Only named event and bounded fictional aftermath; not whole season, earlier fixtures, actual owner fact, accepted new prose, or historical geography.",
+      "basis": "SUPPORTED_HARD_CANON_FICTIONAL_TEMPORAL_ASSOCIATION"
+    },
+    {
+      "season": 2025,
+      "slot": 8,
+      "provider_owner_status": "UNKNOWN",
+      "principal": "CHAR-AUSTIN-BYARS",
+      "event": "The Immortal beats Dr. Duckhook 152.20\u2013151.80",
+      "event_id": "ESPN1417621-2025-P16-E093",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_ID",
+      "scope_limit": "Only named event and bounded fictional aftermath; not whole season, earlier fixtures, actual owner fact, accepted new prose, or historical geography.",
+      "basis": "SUPPORTED_HARD_CANON_FICTIONAL_TEMPORAL_ASSOCIATION"
+    },
+    {
+      "season": 2025,
+      "slot": 8,
+      "provider_owner_status": "UNKNOWN",
+      "principal": "CHAR-AUSTIN-BYARS",
+      "event": "The Immortal beats ObiWan Jacoby 161.07\u2013109.56",
+      "event_id": "ESPN1417621-2025-P17-E099",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_ID",
+      "scope_limit": "Only named event and bounded fictional aftermath; not whole season, earlier fixtures, actual owner fact, accepted new prose, or historical geography.",
+      "basis": "SUPPORTED_HARD_CANON_FICTIONAL_TEMPORAL_ASSOCIATION"
+    },
+    {
+      "season": 2025,
+      "slot": 12,
+      "provider_owner_status": "UNKNOWN",
+      "principal": "CHAR-ZACH-WILSON",
+      "event": "The Immortal beats Dr. Duckhook 152.20\u2013151.80",
+      "event_id": "ESPN1417621-2025-P16-E093",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_ID",
+      "scope_limit": "Only named event and bounded fictional aftermath; not whole season, earlier fixtures, actual owner fact, accepted new prose, or historical geography.",
+      "basis": "SUPPORTED_HARD_CANON_FICTIONAL_TEMPORAL_ASSOCIATION"
+    }
+  ],
+  "frame_sequence_event": {
+    "event_id": "ESPN1417621-2026-P06-E006",
+    "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+    "season": 2026,
+    "period": 6,
+    "phase": "REGULAR_SEASON",
+    "kind": "PAIRED_CONTEST",
+    "side_a": "Three Dreaded Snake",
+    "side_a_score": 138.06,
+    "side_b": "The LLC",
+    "side_b_score": 137.69,
+    "home_side": "A",
+    "winner": "Three Dreaded Snake",
+    "finality": "REPOSITORY_DECIDED_RECEIPT",
+    "source_path": "memo-os/week-6/WEEK_6_FLAIM_REVERIFICATION_AND_HANDOFF_CONVERGENCE_2026-10-20.md",
+    "source_sha256": "f049ae5a8954b4e247ff81dfee984c1025f88fdc708d4e0a1ea80d73429467bf",
+    "evidence_kind": "REPOSITORY_TRANSCRIPTION_NOT_LIVE_REFRESH",
+    "owner_time_binding": {
+      "status": "CURRENT_CANON_REQUIRES_SCENE_PACKET",
+      "source": "canon/characters/CHARACTER_REGISTRY.yaml"
+    },
+    "literary_coverage": {
+      "status": "RECONCILE_EXISTING_MANUSCRIPT",
+      "accepted_locations": []
+    }
+  },
+  "limits": [
+    "Provider human-owner fields remain UNKNOWN.",
+    "No whole-season association inferred from a named event.",
+    "No accepted scene location, historical venue, engineering result or world-state mutation follows from this extract.",
+    "Earlier Jake fictional lane relies on separate user attestation and connected-account continuity."
+  ]
+}

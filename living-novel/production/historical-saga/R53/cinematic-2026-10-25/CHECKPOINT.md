@@ -1,5 +1,7 @@
 # R53 cinematic development checkpoint — October 25
 
+**Current continuation:** [Stage2 checkpoint](continuation/CHECKPOINT.md). Latest corpus text was recovered, the duplicate commission premise was set aside, and source-led historical/ensemble adaptation advanced. This first checkpoint is preserved for its original scope and receipts; its latest-text blocker and selected premise are superseded.
+
 Status: substantive NONCANON development delivered; scoped independent excerpt acceptance; broader source, feature and release gates HOLD. Issues #211/#210 remain open. This directory is a review packet inside the existing R53 mission, not a new operating system or manuscript authority.
 
 ## Read the work

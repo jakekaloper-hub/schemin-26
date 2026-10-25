@@ -1,5 +1,7 @@
 # R53 cinematic source and coverage reconciliation
 
+**Continuation update:** the byte-download failures below remain accurate, but supported Library reads subsequently recovered the entire latest337-page reading edition and87-page review as parsed text. Latest text access is no longer blocked. See [continuation checkpoint](continuation/CHECKPOINT.md) and `continuation/LIBRARY_TEXT_RECOVERY.json`. The following preserves the initial-stage evidence boundary, not the current text-access status.
+
 2026-10-25. Development checkpoint. Governing mission remains Issues #211/#210; no novel task, Caliper task, manuscript file, production authority or screenplay is rewritten by this packet.
 
 ## Frozen live state

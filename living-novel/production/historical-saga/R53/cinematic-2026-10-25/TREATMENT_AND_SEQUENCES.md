@@ -1,5 +1,7 @@
 # The Place Left Open — cinematic development treatment
 
+**Later disposition:** preserved exploratory treatment, no longer the selected film. Complete supported Library text recovery revealed substantial overlap with existing M07/M16/M29/M38. See [source-led replacement](continuation/SOURCE_LED_ADAPTATION.md). The earlier independent excerpt acceptance remains valid only within its original, incomplete source scope; it was not a novelty verdict against the recovered corpus.
+
 2026-10-25. NONCANON / PROPOSED FICTION. Original working title, not a renamed manuscript or a replacement for DogTable Media's screenplay. Author Council method analysis by the executing AI, not named-author participation. Development-only; no greenlight, historical venue approval, casting, visual eligibility or canon promotion.
 
 ## The choice of story

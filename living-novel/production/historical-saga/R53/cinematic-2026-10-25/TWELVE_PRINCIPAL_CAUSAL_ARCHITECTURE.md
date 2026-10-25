@@ -1,5 +1,7 @@
 # Twelve principals in one accumulating history
 
+**Later disposition:** this speculative first-pass table is preserved as history. The [source-grounded V2](continuation/LONGITUDINAL_CONSEQUENCES_V2.md) replaces its cinematic selections after all42 manuscripts became text-readable. No underlying canon was superseded.
+
 NONCANON development, 2026-10-25. A proposed adaptation architecture, not new character dossiers, owner bindings, world mutations or a replacement organization. Canonical IDs and contemporary identities derive from `canon/characters/CHARACTER_REGISTRY.yaml`, `living-novel/history/OWNER_LINEAGE.md`, current Project Control and the approved lineup. Historical fact and proposed choice are separate in every row. No equal-scene quota; none of these proposals is a new historical fact about the real owner.
 
 ## Causal spine across eras
