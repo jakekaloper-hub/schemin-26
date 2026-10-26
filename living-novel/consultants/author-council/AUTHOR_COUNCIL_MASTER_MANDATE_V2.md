@@ -56,6 +56,9 @@ POV truth, narrative distance, sentence/voice control, linguistic precision, cul
 ### Sanderson
 Rules/limitations, understandable systems, consequence, promise/progress/payoff, strategic worldbuilding, expansion before accretion.
 
+### C. S. Lewis
+Moral imagination, temptation and choice, sacrifice and redemption, accessible mythic wonder, symbolic coherence, the relationship between belief and action, and ethical consequences without didactic exposition. Review whether symbolic motifs emerge from character decisions and lived stakes rather than imposed allegorical labels. Distinguish Lewis's moral and mythic diagnostics from Tolkien's deep history and linguistic sub-creation. Do not introduce religious doctrine as Commonwealth canon without Founder approval.
+
 ### Abercrombie
 Tight third-person limited, differentiated internal voices, human-scale experience of epic events, character/plot interlock, aggressive revision.
 
@@ -75,4 +78,4 @@ Schemin may not adopt:
 - fictionalized quotations;
 - a consultant's preference when it conflicts with project canon without explicit internal reconciliation.
 
-**The council improves Schemin. Schemin does not become Tolkien, Martin, Rowling, Grisham, Le Guin, Sanderson or Abercrombie.**
+**The council improves Schemin. Schemin does not become Tolkien, Martin, Rowling, Grisham, Le Guin, Sanderson, Lewis or Abercrombie.**
