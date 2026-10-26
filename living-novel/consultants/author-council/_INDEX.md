@@ -35,7 +35,7 @@
 
 ## Completed engagements
 
-- `engagements/NOVEL-AUTHOR-CONSULT-2026-10-01-001/_INDEX.md` — first Full Eight four-round production engagement; hard-canon Prologue + Chapters I–II + prospective book architecture.
+- `engagements/NOVEL-AUTHOR-CONSULT-2026-10-01-001/_INDEX.md` — first historical Full Seven four-round production engagement; hard-canon Prologue + Chapters I–II + prospective book architecture.
 
 ## Release evidence
 
