@@ -50,6 +50,10 @@ def core_eight(registry: dict[str, Any] | None = None) -> list[str]:
     registry = registry or load_registry()
     return list(registry["author_council"]["core_eight"])
 
+def core_seven(registry: dict[str, Any] | None = None) -> list[str]:
+    """Legacy compatibility: original seven, excluding Lewis."""
+    return [x for x in core_eight(registry) if x != "cs_lewis"]
+
 def _dedupe(ids: list[str]) -> list[str]:
     out = []
     seen = set()
