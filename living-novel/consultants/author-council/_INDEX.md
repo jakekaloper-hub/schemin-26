@@ -4,15 +4,16 @@
 **Program:** Author Consulting Program V2  
 **Authority:** advisory only
 
-## Core Seven
+## Core Eight
 
 1. J.R.R. Tolkien — world depth / historical texture
-2. George R.R. Martin — ensemble / multi-POV architecture
-3. J.K. Rowling — long-horizon setup/payoff / accessible world entry
-4. John Grisham — propulsion / chapter discipline
-5. Ursula K. Le Guin — POV / narrative distance / voice
-6. Brandon Sanderson — systems / limits / reader legibility
-7. Joe Abercrombie — tight POV / character voice / human-scale epic action
+2. C. S. Lewis — moral imagination / mythic wonder / ethical consequence
+3. George R.R. Martin — ensemble / multi-POV architecture
+4. J.K. Rowling — long-horizon setup/payoff / accessible world entry
+5. John Grisham — propulsion / chapter discipline
+6. Ursula K. Le Guin — POV / narrative distance / voice
+7. Brandon Sanderson — systems / limits / reader legibility
+8. Joe Abercrombie — tight POV / character voice / human-scale epic action
 
 ## Program controls
 
@@ -34,7 +35,7 @@
 
 ## Completed engagements
 
-- `engagements/NOVEL-AUTHOR-CONSULT-2026-10-01-001/_INDEX.md` — first Full Seven four-round production engagement; hard-canon Prologue + Chapters I–II + prospective book architecture.
+- `engagements/NOVEL-AUTHOR-CONSULT-2026-10-01-001/_INDEX.md` — first Full Eight four-round production engagement; hard-canon Prologue + Chapters I–II + prospective book architecture.
 
 ## Release evidence
 
@@ -58,3 +59,7 @@
 - `Bullpen, convene the full Novel Author Council before we rewrite the book structure.`
 
 Bullpen resolves these names to published-method lenses. No phrase implies live author participation.
+
+## 2026-10-26 Lewis integration
+
+Lewis is the eighth published-method lens, focused on moral imagination, mythic wonder, temptation, sacrifice and ethical consequence. See `CS_LEWIS_METHODOLOGY_PROFILE.md` and `COMMONWEALTH_INKLINGS_WORKSHOP_PROPOSAL_2026-10-26.md`. The workshop proposal is simulated and does not itself certify runtime execution.
