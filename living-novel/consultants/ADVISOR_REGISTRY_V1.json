@@ -1,5 +1,5 @@
 {
-  "version": "2.1",
+  "version": "2.2",
   "status": "ACTIVE",
   "authority": "advisory_only",
   "routing": {
@@ -41,6 +41,25 @@
         "promote_canon",
         "imitate_prose",
         "invent_private_opinion"
+      ]
+    },
+    {
+      "id": "cs_lewis",
+      "mode": "PUBLISHED_METHOD_LENS",
+      "display_name": "C. S. Lewis — Moral Imagination, Mythic Wonder & Ethical Consequence",
+      "lens": "C. S. Lewis published-method and literary scholarship lens",
+      "dossier_path": "living-novel/consultants/author-council/CS_LEWIS_METHODOLOGY_PROFILE.md",
+      "source_ids": [],
+      "requires_engagement_source_packet": true,
+      "internal_counterparts": [
+        "the_beat_writer",
+        "the_librarian"
+      ],
+      "cannot": [
+        "promote_canon",
+        "imitate_prose",
+        "invent_private_opinion",
+        "impose_religious_canon"
       ]
     },
     {
@@ -236,15 +255,6 @@
   "author_council": {
     "status": "ACTIVE",
     "program_home": "living-novel/consultants/author-council/",
-    "core_seven": [
-      "jrr_tolkien",
-      "george_rr_martin",
-      "jk_rowling",
-      "john_grisham",
-      "ursula_k_le_guin",
-      "brandon_sanderson",
-      "joe_abercrombie"
-    ],
     "default_panel": "chapter_triage",
     "panels": {
       "chapter_triage": [
@@ -254,6 +264,7 @@
       ],
       "world_depth": [
         "jrr_tolkien",
+        "cs_lewis",
         "ursula_k_le_guin",
         "brandon_sanderson"
       ],
@@ -280,7 +291,13 @@
       ],
       "epic_fantasy_integrity": [
         "jrr_tolkien",
+        "cs_lewis",
         "george_rr_martin",
+        "ursula_k_le_guin",
+        "joe_abercrombie"
+      ],
+      "moral_imagination": [
+        "cs_lewis",
         "ursula_k_le_guin",
         "joe_abercrombie"
       ]
@@ -321,7 +338,23 @@
       "epic_fantasy_integrity": [
         "epic fantasy integrity",
         "epic fantasy panel"
+      ],
+      "moral_imagination": [
+        "moral imagination",
+        "ethical stakes",
+        "sacrifice panel",
+        "mythic meaning"
       ]
-    }
+    },
+    "core_eight": [
+      "jrr_tolkien",
+      "cs_lewis",
+      "george_rr_martin",
+      "jk_rowling",
+      "john_grisham",
+      "ursula_k_le_guin",
+      "brandon_sanderson",
+      "joe_abercrombie"
+    ]
   }
 }
