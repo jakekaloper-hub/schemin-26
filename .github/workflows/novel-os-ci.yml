@@ -31,6 +31,8 @@ jobs:
         run: python -m py_compile living-novel/os/engine/novel_os.py
       - name: Validate governed creative context adapter
         run: python -m unittest discover -s living-novel/os/tests -p 'test_creative_context.py' -v
+      - name: Validate candidate manuscript staging
+        run: python -m unittest discover -s living-novel/os/tests -p 'test_creative_production.py' -v
       - name: Validate Frank Masi unit-stills adapter contract
         run: python -m unittest discover -s living-novel/os/adapters -p 'test_*unit_stills*.py' -v
       - name: Run deterministic and adversarial suite
