@@ -185,7 +185,7 @@ def validate_engagement_manifest(manifest: dict[str, Any], registry: dict[str, A
     unknown = [advisor_id for advisor_id in selected if advisor_id not in valid_ids]
     if unknown:
         errors.append("UNKNOWN_CONSULTANT:" + ",".join(sorted(unknown)))
-    if manifest.get("consultation_type") == "FULL_COUNCIL" and selected != core_seven(registry):
+    if manifest.get("consultation_type") == "FULL_COUNCIL" and selected != core_eight(registry):
         errors.append("FULL_COUNCIL_NOT_CORE_EIGHT")
     independence = manifest.get("independence") or {}
     if independence.get("cross_reading_before_lock") is not False:
