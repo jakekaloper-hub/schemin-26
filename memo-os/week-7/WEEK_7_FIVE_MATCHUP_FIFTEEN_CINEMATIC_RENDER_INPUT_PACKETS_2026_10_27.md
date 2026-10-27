@@ -258,6 +258,17 @@ The first argument came after a drive that ended with both players touching the 
 
 HMB defended like someone accustomed to occupying the center of a room. Red attacked the gaps instead, darting toward an edge and forcing the champion to turn. The Belt Keeper's title was present but could not help him change direction. Red knew that; HMB knew Red knew. By the final exchanges, the only ceremony left was the ball returning to the ground.
 
+### P017 corrective production overlay — 2026-10-27 (review candidate; NOT approved master)
+**Commissioner clarification:** Red Leopards is a fully anthropomorphic, full-bodied leopard, with red/black spotted fur covering the entire visible body, feline head/muzzle/ears, spotted forearms/hands and legs, and tail. **Zero visible human skin** on arms, shoulders, torso, neck, face or legs. Basketball attire must not convert him into a human athlete wearing a leopard mask. Preserve `CHAR-KEVIN-ZEEK` identity, body build, fur pattern and armor-era cues from the current approved crop. Do not substitute a logo-like or human-faced mascot.
+
+**HMB counterlock:** `CHAR-AUSTIN-BYARS` is a hooded, red-eyed, black-armored Belt Keeper. No separate crown worn on the hood/head, no exposed human face, no basketball-human recasting; the championship Belt rests safely off-court and remains HMB's property. Do not conflate the crown motif on insignia/Belt with physical headwear.
+
+**Revised P017 staging:** Retain first-to-eleven private meeting, single hoop, two subjects only, no crowd. Opening possession/courtesy conflict rather than P019's decisive crossover. Respect original historical and exact-copy text. Use 1024×1536 portrait; typeset source manuscript deterministically, not by fabricated AI lettering.
+
+**Actual observed visual iteration:** A new illustration candidate exhibits continuous leopard spots/fur across visible Red limbs and a hooded, crownless HMB. This is a *visual candidate only*: actual renderer subject-to-reference consumption remains unproven; exact character likeness, text-proof, approved neutral-court scene geometry and independent 390px raster QA are NOT certified. Do not mark P017 READY, accepted, published or merged on this note alone.
+
+**Reusable negative controls for P018–P019:** Reject bare/human arms or face on Red; missing feline tail, human-only anatomy, leopard-mask shorthand; HMB exposed human face or added crown; altered Belt ownership; extra basketball players; unsupported neutral Atlas landmark; invented typography or result. P018/P019 retain their distinct escalation/payoff beats and same court/hoop/sideline Belt geography.
+
 ### FOLIO P018 — ESCALATION
 **NARRATIVE JOB:** THE FORGOTTEN COURT: Red Leopards (HOME) / His Majesty's Blood (AWAY) — Escalation: Every Inch Contested
 **CAMERA / LENS EQUIVALENT:** 50mm lateral two-shot; fixed 1024×1536 portrait composition. Lens numbers are artistic cues, not EXIF claims.
