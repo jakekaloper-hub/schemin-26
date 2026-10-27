@@ -57,7 +57,9 @@ class VisualSourceTests(unittest.TestCase):
         self.assertTrue(all((ROOT/x["path"]).is_file() for x in records))
         self.assertTrue(all(x.get("panel") is None or (VIS/x["panel"]).is_file() for x in records))
         page=(VIS/"index.html").read_text()
-        self.assertEqual(page.count('Open interactive panel'),sum(bool(x.get("panel")) for x in records))
+        self.assertEqual(page.count('class="portrait"'),12)
+        self.assertEqual(page.count('class="feature"'),8)
+        self.assertIn('MAKES HISTORY',page)
 
 if __name__ == "__main__":
     unittest.main()
