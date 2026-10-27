@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch
-from .check_pilot_gate import assess
+from check_pilot_gate import assess
 
 class PilotGateTest(unittest.TestCase):
     def test_real_gate_fails_closed_without_provider(self):
