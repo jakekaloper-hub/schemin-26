@@ -83,3 +83,81 @@ Data: source-native receipt and exact date bounds absent; monitor Week 7 correct
 **No release:** no SOURCE_LOCKED, CANONICAL_SNAPSHOT_PROMOTED, FACT_LOCKED or RELEASE_CERTIFIED events asserted. `RELEASE_BLOCKED` is documented, not sent to a live event bus. Collaboration KPIs: one staged Steward handoff, zero authenticated ACKs observed; Jake Intervention Rate not measurable without a sampled event stream and denominator. No private strategy derived from excluded specialists was used.
 
 **Next:** native ESPN provenance or formally accepted quarantine; Steward validation; independent Fact Lock; then eligible Week 8 production gates. Maintain targeted reopen on late stat correction; never promote this diagnostic into release certification.
+
+## 5. Founder trade-deadline editorial intake — October 27
+
+**Founder-confirmed:** Pro Schemin' league trade deadline is **November 4, 2026**. This is Founder-supplied editorial authority, not independently verified ESPN league-settings provenance. Do not invent a cutoff hour or trade-processing rule.
+
+**Editorial disposition:** INTAKE ACCEPTED / STORY TREATMENT PROPOSED / NOT STORY_LOCKED. Fold approaching trade-market urgency into the existing Week 7 State of Play (preferred), with a concise Opening Drive teaser and optional Final Word callback only if existing folio allocations permit. No new page without page-budget review. Eight clubs are 4–3, two 3–4 and two 2–5 after Week 7, per authenticated Flaim standings read; do not imply playoff qualification is mathematically settled.
+
+**Visual brief:** Commonwealth-wide market tension through existing franchise locations, canon-safe travel and character poses; contrast quiet negotiation with impending deadline. All named trades, negotiations, prices, draft assets and private motivations require transaction-ledger or Founder confirmation. Existing Pittsy's Book 'NO FURTHER QUESTIONS' concept remains independent; do not merge the storylines or alter the exact TDS quote.
+
+**Production handoff:** Reconcile existing Week 7 storyline, staging, travel, character plates, folio packets and manuscript before editing copy. The current intake's provisional evidence, missing source-native receipt, Steward ACK and independent Fact QA remain blockers. No FACT_LOCK, STORY_LOCK, PAGE_LOCK or release claim from this addition.
+
+**Verification:** Authenticated Flaim Week 7 results match the six outcomes in section 2. Standings distribution 8×4–3, 2×3–4, 2×2–5. Trade activity must be checked against transaction records before any trade-specific narrative is written. No independent Umpire sign-off recorded.
+
+## 6. Historical macro-storyline intake — October 27
+
+**Status:** HISTORICAL FLAIM RESEARCH / EDITORIAL CANDIDATES / NOT STORY_LOCKED. Authenticated ESPN historical standings were read for 2023, 2024, 2025 (league 1417621); team ID 4 identifies The LLC in those seasons and in 2026. This is a three-completed-season sample, not a claim of exhaustive 2015–2026 historical reconciliation.
+
+| Season | The LLC regular-season record | Verified final rank |
+| --- | --- | --- |
+| 2023 | 6–8 | 6 |
+| 2024 | 10–4 | 7 |
+| 2025 | 4–10 | 10 |
+| 2026 through Week 7 | 2–5 | Not determined |
+
+**Candidate macro angle:** The LLC's 2024 ten-win regular season yielded only seventh place at season end; 2025 brought a 4–10 record and tenth-place finish, followed by a 2–5 opening in 2026. Frame as a franchise reversal, not an invented uninterrupted multi-year losing streak. 2026 is incomplete. Inklings *method-lens* exercise only, not live author consultation: Tolkien (institutional memory and established location), Lewis (expectation versus result), Martin (competing public narratives without fictionalized private motives), Abercrombie (dry irony and human-scale cost). Do not attribute opinions to real authors or imply actual meetings.
+
+**Broader candidates for verification:** Mud Dogs (2024 4–10, 2025 6–8, 2026 2–5); Slob on my Dobb (2025 4–10, now 4–3 and 155.92 Week 7 points); El Niño (2023 11–3, 2025 4–10, now 3–4). Historical names and owner identities may shift; cross-season continuity requires identity mapping before publication. Compare all twelve franchises across the available history, including 2015–2022, before making all-time or dynasty claims.
+
+**Proposed placement:** State of Play macro-league section or existing Power Rankings analysis, cross-referenced to the The LLC vs Slob on my Dobb Week 7 matchup packet. Preserve all approved matchup concepts until editorial council reviews them. No new folio automatically authorized.
+
+**Gates:** Historical evidence reconciliation, canonical identity continuity, manuscript/folio mapping, independent Fact QA and Umpire sign-off remain OPEN. Existing provisional snapshot and publication hold unchanged.
+
+## 7. Simulated Bullpen board — macro-history editorial and operating gaps
+
+**Simulation disclosure:** This is a structured role-lens review of repository contracts and authenticated FLAIM observations, not a meeting of actual agents, live Inklings authors, or independent Umpire. Decisions below are editorial proposals, not signed approvals.
+
+**Historical ledger — ESPN league 1417621, stable team ID 4 (identity continuity still requires owner/canon reconciliation):**
+
+| Year | Provider team name | W–L | Final rank |
+|---|---|---|---|
+| 2015 | Bavid Dabbs | 6–7 | 10 |
+| 2016 | Bavid Dabbs | 4–9 | 12 |
+| 2017 | Bavid Dabbs | 6–7 | 10 |
+| 2018 | $20 Grahams | 10–3 | 3 |
+| 2019 | Mr. Kenyan Drake Killed Me | 9–4 | 4 |
+| 2020 | InDavey .500 | 5–8 | 10 |
+| 2021 | B.A.B.B. LLC | 9–5 | 3 |
+| 2022 | The LLC | 4–10 | 11 |
+| 2023 | The LLC | 6–8 | 6 |
+| 2024 | The LLC | 10–4 | 7 |
+| 2025 | The LLC | 4–10 | 10 |
+| 2026 (through W7) | The LLC | 2–5 | Not final |
+
+**Historian:** The 2018–19 and 2021 high finishes disprove a claim that this franchise has always underperformed. The 2024 10–4 / seventh-place contrast is central; 2025 and early 2026 support a recent reversal, not an uninterrupted decade-long collapse. Stable ESPN team ID is evidence of slot continuity, not independently verified human owner continuity.
+
+**Inklings method lenses (simulated):** Tolkien: inherited institution and Atlas-specific memory. Lewis: comic disparity between expectations and outcomes. Martin: multiple competing public readings, no invented private negotiations. Abercrombie: restrained, unsentimental visual punchline. No actual consultation with authors claimed.
+
+**Editorial Director:** Primary treatment in existing State of Play / Power Rankings, not an automatic new page. Week 7 LLC defeat to Slob on my Dobb is a natural cross-reference; trade deadline supplies stakes but must not be portrayed as a forced trade. Other team arcs require season-by-season verification before ranking the league's worst franchises.
+
+**Atlas/Character Directors:** Resolve 2015–2026 franchise aliases and current canon mapping before character captions; retain existing home/away staging, travel, reference plates and approved page packets. No new canon locations.
+
+**Data Steward:** Historical ESPN standings are provider-reported; independent snapshot acceptance remains unacknowledged. Distinguish regular-season wins, final ranks and incomplete 2026 season. Preserve provenance for every season.
+
+**Production/Design:** Amend existing folio briefs only after mapping current page index; allow a compact history graphic or diegetic archival prop if page budget and mobile legibility permit. Do not replace approved matchup artwork.
+
+**Independent Umpire role-lens:** BLOCK promotion until verified owner identity, source lineage, folio continuity, actual tests, Steward acknowledgement and independent QA evidence. This is not an Umpire signature.
+
+**Missing-work register:** (1) full twelve-franchise 2015–2026 historical comparison; (2) owner/alias continuity; (3) existing Week 7 page-by-page inventory; (4) provenance or formal quarantine; (5) canonical snapshot and Fact Lock; (6) source-backed transaction/rumor separation; (7) reference-attached character and Atlas sign-off; (8) independent review and regression execution.
+
+**Patch routing:** The standing Memo OS cross-OS contract is amended on this review branch to add a reusable historical-macro-storyline lane. Its adoption is pending actual review and merge, not active on main.
+
+## 8. Founder scope correction — production-first (October 27)
+
+**Controlling priority:** Finish the existing Week 7 memo production. The historical research in sections 6–7 is retained as reference, not a mandate for an exhaustive historical study before production. **Current historical editorial focus: The LLC only.** Preserve its 2015–2026 provider team-slot record, with unresolved owner/canon identity appropriately labeled. Historical reviews of other franchises are **DEFERRED FUTURE BACKLOG**, not Week 7 dependencies or release blockers. No new historical research initiative, page, or cross-team comparison is authorized by this intake.
+
+**Week 7 action:** Editorial should use the LLC's 2024 10–4/seventh-place contrast, 2025 4–10/tenth-place finish, and current 2–5 start only where it strengthens an already planned State of Play or LLC matchup feature. Preserve the November 4 Founder-confirmed deadline, all six final matchup results, existing Pittsy's Book narrative, Atlas, character, travel, and folio decisions. Resume the normal production dependency graph immediately. The reusable historical-macro lane remains a proposed optional future workflow, not a required gate for this issue.
+
+**No-false-green:** Existing source provenance, Steward acceptance, independent Fact QA, and artwork/folio gates retain their actual states. This scope correction removes *newly proposed* all-franchise historical work from the critical path; it does not waive established release controls.
