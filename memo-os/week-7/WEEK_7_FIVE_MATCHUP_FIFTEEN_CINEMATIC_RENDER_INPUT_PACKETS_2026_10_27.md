@@ -509,6 +509,14 @@ The LLC inspected the table, the light and the uneven stack of chips. He accepte
 
 The LLC liked systems. He built one from the smallest details: a hesitation before Slob checked his cards, the way the host arranged his chips, the timing of a courteous question. After two hands, the visitor believed he could distinguish confidence from anxiety. After three, he began to act on the distinction without checking whether the underlying evidence had changed.
 
+### P020 Founder visual approval and P021 continuity handoff — 2026-10-27
+**Founder decision:** Commissioner explicitly visually approved `P020 — The Invitation` candidate `SCHEMIN_26_W07_P020_THE_INVITATION_REVIEW.png`. This records FOUNDER_VISUAL_APPROVED only; binary GitHub archival, independently audited raster/copy accuracy and publication are not implied. P021 and P022 have not been generated.
+**P020 approved visual locks:** Jordan/Slob = long-haired, large heavyset bearded tattooed human in dirty blue overalls and SLOB cap; his cap has a lighter front panel in the accepted image, which is acceptable visual continuity. David Babb/LLC = short dark hair, charcoal suit, white shirt, RED tie and pocket square, black sunglasses and cigar. Slob LEFT, LLC RIGHT across the same small green-felt table; retain stacked chips, cards/card backs, amber rustic lamps, wooden walls, mounted antlers, home-made SLOB sign and warm smoky atmosphere. These are event staging details, not permanent Atlas registrations.
+**P021 beat:** `A Tell Too Easy`: switch to 50mm over-LLC-shoulder viewpoint while preserving LEFT/RIGHT seating geography. LLC studies apparent Slob poker tells with increasing overconfidence; Slob's politeness misleads him. Hands/chip positions plausible, no new poker hand claimed to win, no showing a royal flush or a five-card ranked reveal. Maintain the same character likeness/costume, lighting and table props, not an arbitrary casino.
+**Printed copy:** Existing P021 draft manuscript from this packet remains controlling. Do not replace with model-invented dialogue/stakes, gambling ledger, betting odds or factual claims; use deterministic text when composing the PNG.
+**Banner restrictions:** P021 has NO final scores, winner declaration or results banner. ONLY P022 carries the P013-style `FINAL · WEEK 7` strip with Slob 155.92 and LLC 111.21.
+**Next stage:** Individually render P021 and hold for Founder visual review before producing P022. Inspect both characters against approved Oct18 crop plates; current generator binding and independent QA remain separate technical gates.
+
 ### FOLIO P021 — ESCALATION
 **NARRATIVE JOB:** THE GENTLEMAN'S FLUSH: Slob on my Dobb (HOME) / The LLC (AWAY) — Escalation: A Tell Too Easy
 **CAMERA / LENS EQUIVALENT:** 50mm over LLC shoulder; fixed 1024×1536 portrait composition. Lens numbers are artistic cues, not EXIF claims.
