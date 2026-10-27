@@ -86,6 +86,17 @@ DK climbed to settle the matter.
 
 The frame had been left partly open to ventilate the room. A loose catch let the shutter swing, and the same crosswind that bent the lantern flame below had found a direct passage through the tower. Nothing supernatural had happened. The explanation was almost insultingly ordinary.
 
+### P009 Founder visual approval → P010 final folio handoff — 2026-10-27
+**Founder decision:** P009 `The Wrong Enemy` visually APPROVED in the current conversation. Approved conversation asset `SCHEMIN_26_W07_P009_THE_WRONG_ENEMY_REVIEW.png`; exact uploaded PNG binary not yet ingested into canonical GitHub assets. P008 and P009 are Founder-approved artwork, not publication-certified or independently visually accepted by Umpire.
+
+**Continuity:** Preserve both pages' haunted highland stronghold with gray-blue storm outside, amber torch/lantern interior, high stone staircase and landing, red gorilla-insignia banners, rattling shutters and cast shadows. DK is `CHAR-WILSON-LOOK`, the established **Arsenal Centaur**: gorilla-warrior upper body seamlessly integrated with equine torso and FOUR anatomically connected legs/hooves, not bipedal gorilla or separate rider/horse. All four hooves/legs must be visually demonstrable in P010 despite action. No added second character: El Niño manifests as wind and weather.
+
+**P010 unique payoff — `The Window`:** 28mm exterior low/wide view looking toward a BROAD, physically plausible tower aperture. A gust blows DK's entire centaur body OUTWARD through it; visibly coherent body mechanics, limb count and directional wind in banners/fabric. Do not render a tiny human-scale window or an impossible fall or show harm/death. Preserve the previously established tower geometry and storm causation. Outside of tower, no humanlike El Niño, ghosts or onlookers. Different cinematic shot from P008/P009.
+
+**P010 results banner only:** Use established P007 two-team `FINAL · WEEK 7` scoreboard motif, deterministically typeset: `EL NIÑO 133.75` WINNER; `D0NKEY K0NG 122.67`; fantasy margin `11.08` points where appropriate. No GOTW designation (belongs to Red Leopards/HMB), no made-up literal fall metric. The body copy must exactly derive from source P010 manuscript; generator must not invent recap statistics.
+
+**QA boundaries:** Founder approvals for P008–P009 are locked. P010 remains unrendered. Actual source-reference attachment, geometry proof, exact typography and 390px raster plus independent publication Umpire remain future gates, never silently pass.
+ 
 ### FOLIO P010 — PAYOFF
 **NARRATIVE JOB:** THE HAUNTED STRONGHOLD: D0nkey K0ng (HOME) / El Niño (AWAY) — Payoff: The Window
 **CAMERA / LENS EQUIVALENT:** 28mm exterior wide from below; fixed 1024×1536 portrait composition. Lens numbers are artistic cues, not EXIF claims.
