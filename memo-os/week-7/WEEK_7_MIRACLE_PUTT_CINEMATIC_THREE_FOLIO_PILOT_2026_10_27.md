@@ -4,6 +4,13 @@
 
 **FOUNDER VENUE DECISION (2026-10-27):** All six Week 7 matchup scene settings are APPROVED for Memo OS cinematic staging. Source: `memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md`. Approval does not create permanent Atlas locations, prove renderer attachment, approve travel modes or remove technical staging HOLDs. The proposed Red/HMB neutral court uses `LOC-COMPACT-NEUTRAL-GROUNDS` as a provisional parent, not a registered permanent court.
 
+## Commissioner results-banner allocation — 2026-10-27
+**Controlling page rule:** Only **P007 — One Last Roll** carries a final-results banner, using the same scoreboard layout/template approved for **P019 — The Crossover** (prominent labeled FINAL, two clubs and exact two-decimal scores, clear winner). **P005 and P006 MUST NOT contain any results banner, winner strip, margin, or premature outcome reveal.** Their editorial headers and cinematic imagery tell the unfolding story without final-score spoilers.
+- P007 deterministic banner: `FINAL · WEEK 7 | DR. DUCKHOOK 141.74 — THREE DREADED SNAKE 141.42 | DUCKHOOK WINNER`.
+- Winner margin: 0.32 fantasy points, not literal golf strokes. Do not confuse P007 with Week 7 Game of the Week: that designation belongs to Red Leopards–HMB P019, NOT this matchup.
+- Reuse P019's **results-banner template**, not its basketball backdrop, labels, characters or game-of-week insignia.
+- Existing exact P005–P007 narrative copy remains unchanged. The P007 results banner is a separately typeset graphical layer, subject to source/fact QA and 390px readability.
+
 ## Global production contract
 - **Master:** native 1024×1536 PNG, portrait 2:3. Not a PDF-first page or generic illustration placeholder. 390px downscale is final-page QA only.
 - **Character source:** `CHAR-PHILLIP-PITTS` approved crop `canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png`, expected SHA256 `0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65`. TDS is an **armored reptilian humanoid with three serpent necks and heads, two arms, two legs**, NOT a giant snake body.
