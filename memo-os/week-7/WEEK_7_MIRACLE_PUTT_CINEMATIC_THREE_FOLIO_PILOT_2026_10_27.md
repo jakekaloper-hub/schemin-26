@@ -48,3 +48,39 @@
 - **Groundskeeper:** preserve exact P005–P007 copy in current split/V2/JSON; no competing copy source.
 - **Umpire:** real source-byte attachment, actual 1024×1536 page-master, 390px downscaled final raster and independent signoff are NOT RUN.
 - **Final state:** PLANNED/HOLD, NOT READY_FOR_RENDER. No artwork, PDF publication or merge.
+
+## Appendix — exact synchronized page copy
+
+### P005 — exact source copy (not locked)
+
+The waterfall made a steady sound behind the little jungle golf course. Duckhook followed the path to the first tee, where Three Dreaded Snake waited beside a flag no taller than the surrounding ferns. Three heads studied the same green from three different angles.
+
+“Friendly round,” Duckhook said.
+
+“Of course,” replied one head. Another examined the visitor's grip. The third watched the cup.
+
+The host had made an effort to welcome him: trimmed grass, a clear approach and a dry place for the bags. Duckhook praised the course. TDS praised the guest's punctuality. Both spoke with the care of men who meant to remain gracious, at least until the first difficult shot.
+
+Duckhook set down his bag and looked toward the waterfall. It was a beautiful place to lose track of an afternoon. Neither player mentioned losing.
+
+### P006 — exact source copy (not locked)
+
+The first dispute concerned a leaf. It lay beside Duckhook's ball, and TDS insisted it could be moved. Duckhook asked where the house rules were written. The left head offered to write them immediately; the middle head called for the next stroke; the right head laughed.
+
+By the next green, courtesy had turned competitive. Duckhook celebrated a modest recovery as if it were a championship. TDS demanded that a conceded putt be played anyway. Each compliment arrived with a little more edge.
+
+The jungle swallowed their excuses. A branch redirected Duckhook's ball. TDS called it luck. Three heads then disagreed over whether the host's own ball had stopped moving. Duckhook crouched beside the cup and watched the last rotation.
+
+The waterfall kept its counsel. Their friendship had survived the opening holes; their pride was now a separate matter.
+
+### P007 — exact source copy (not locked)
+
+At the final green, Duckhook faced a putt no reasonable guest should have attempted with confidence. Waterfall mist softened the far edge. The ground seemed to lean away from the cup. TDS stood motionless except for three pairs of eyes following the club.
+
+Duckhook struck. The ball crossed the wet grass, slowed, hesitated on the lip and fell.
+
+For a heartbeat the three heads gave three different verdicts. Then all three went quiet.
+
+Duckhook raised his cap, not quite able to stop himself from smiling. TDS looked at the empty green and offered a towel as though the entire afternoon had been an exercise in hospitality.
+
+The Commonwealth ledger would show Duckhook ahead by **0.32**. The little course could offer no such precision. It had only a cup, a ball and a host who would remember that sound for a long time.
