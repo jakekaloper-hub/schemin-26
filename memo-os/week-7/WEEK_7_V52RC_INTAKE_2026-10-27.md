@@ -153,3 +153,11 @@ Data: source-native receipt and exact date bounds absent; monitor Week 7 correct
 **Missing-work register:** (1) full twelve-franchise 2015–2026 historical comparison; (2) owner/alias continuity; (3) existing Week 7 page-by-page inventory; (4) provenance or formal quarantine; (5) canonical snapshot and Fact Lock; (6) source-backed transaction/rumor separation; (7) reference-attached character and Atlas sign-off; (8) independent review and regression execution.
 
 **Patch routing:** The standing Memo OS cross-OS contract is amended on this review branch to add a reusable historical-macro-storyline lane. Its adoption is pending actual review and merge, not active on main.
+
+## 8. Founder scope correction — production-first (October 27)
+
+**Controlling priority:** Finish the existing Week 7 memo production. The historical research in sections 6–7 is retained as reference, not a mandate for an exhaustive historical study before production. **Current historical editorial focus: The LLC only.** Preserve its 2015–2026 provider team-slot record, with unresolved owner/canon identity appropriately labeled. Historical reviews of other franchises are **DEFERRED FUTURE BACKLOG**, not Week 7 dependencies or release blockers. No new historical research initiative, page, or cross-team comparison is authorized by this intake.
+
+**Week 7 action:** Editorial should use the LLC's 2024 10–4/seventh-place contrast, 2025 4–10/tenth-place finish, and current 2–5 start only where it strengthens an already planned State of Play or LLC matchup feature. Preserve the November 4 Founder-confirmed deadline, all six final matchup results, existing Pittsy's Book narrative, Atlas, character, travel, and folio decisions. Resume the normal production dependency graph immediately. The reusable historical-macro lane remains a proposed optional future workflow, not a required gate for this issue.
+
+**No-false-green:** Existing source provenance, Steward acceptance, independent Fact QA, and artwork/folio gates retain their actual states. This scope correction removes *newly proposed* all-franchise historical work from the critical path; it does not waive established release controls.
