@@ -298,6 +298,20 @@ Their rivalry had shrunk from the Commonwealth's history to the width of a half-
 
 Red had shown the leftward drive several times. HMB had learned to cut it off. The winning move began as the same familiar threat: shoulders angled, dribble low, eyes fixed beyond the defender. The champion shifted to meet it. Red planted and crossed back into the space HMB had just surrendered.
 
+### P019 Commissioner editorial amendment — Week 7 Game of the Week and results banner (2026-10-27)
+**Explicit Commissioner direction:** P019 must visibly identify Red Leopards vs His Majesty's Blood as **WEEK 7 GAME OF THE WEEK** in the page title or top banner, AND carry a prominent, readable **final results banner**. This is additive to the approved narrative, not permission to change character canon or reuse the P017/P018 headings unchanged.
+
+**Required deterministic display copy:**
+- Eyebrow / upper title rail: `WEEK 7 · GAME OF THE WEEK`
+- Main dramatic title: `THE CROSSOVER`
+- Result banner: `FINAL  |  RED LEOPARDS 148.53  —  HIS MAJESTY'S BLOOD 137.02`
+- Optional compact winner identifier: `RED LEOPARDS WIN · +11.51` (margin derived arithmetically; independent source/fact QA required before publication)
+- Scoreboard values derive from Oct 27 Week 7 provider-normalized ESPN/Flaim outcome, where Red is HOME 148.53 and HMB AWAY 137.02. Preserve two decimal places and exact names. Do not invent an in-world basketball score.
+
+**Composition:** Game-of-the-Week label belongs in the upper hierarchy; dramatic jumper/ankle-breaker action occupies visual center; results banner sits in a conspicuous, unobstructed dedicated panel near the bottom or directly beneath the image before body copy, without interfering with the HMB-owned Belt or the ball/hoop trajectory. Large scores and winner contrast must remain legible at 390px. Exact title and scoreboard must be composited as controlled editorial text, not left to hallucinated in-image lettering.
+
+**Existing locks remain:** fully spotted furred leopard/no human skin; HMB hooded black/gold armor and red eyes/no head crown; Belt on right sideline and not transferred; basket on right as P017/P018; same stone court, sunset, arches/waterfall; no crowd, extra ball or invented injury; P019 alone depicts climactic crossover and completed jumper. Founder approved P017/P018 visual direction, not yet P019. No image generated or QA accepted by this amendment.
+
 ### FOLIO P019 — PAYOFF
 **NARRATIVE JOB:** THE FORGOTTEN COURT: Red Leopards (HOME) / His Majesty's Blood (AWAY) — Payoff: The Crossover
 **CAMERA / LENS EQUIVALENT:** 35mm low-side decisive jumper; fixed 1024×1536 portrait composition. Lens numbers are artistic cues, not EXIF claims.
