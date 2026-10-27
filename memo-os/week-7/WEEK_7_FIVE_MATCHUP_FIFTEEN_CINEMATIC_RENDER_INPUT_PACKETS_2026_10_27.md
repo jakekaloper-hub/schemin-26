@@ -52,6 +52,14 @@ He closed a door, checked the corridor and returned to his equipment. The knocki
 
 A long whistle came from above. DK looked up. Somewhere outside, the wind gathered strength.
 
+### P008 Founder visual acceptance and P009 handoff — October 27, 2026
+**Decision:** Commissioner explicitly stated "i visually approve, prepare ourselves for next page" regarding displayed P008 `The First Knock`. Record `FOUNDER_VISUAL_APPROVED`, not independent identity/raster/release certification.
+**Accepted conversation artifact:** `SCHEMIN_26_W07_P008_THE_FIRST_KNOCK_REVIEW.png` (not verified as ingested into GitHub binary storage). Keep P008 intact; do not re-render without instruction.
+**Continuity inherited by P009:** The approved storm-lashed medieval stone stronghold has warm torch/lantern light against blue-gray storm light, red gorilla insignia banners, heavy stone furniture, exposed shutters and a visible mountain tower outside. DK is an integrated armored Arsenal Centaur `CHAR-WILSON-LOOK`, with gorilla torso and equine body. P008's silhouette did not conclusively reveal all four legs, so **P009 requires an unambiguous four-hoof/four-leg body configuration** and no separate mount, human legs or bipedal gorilla. Do not add worn crown not backed by primary reference. Dark, eerie wind clues are natural, not ghosts.
+**P009 scene-specific shot:** `The Wrong Enemy` — 50mm medium oblique composition on a wide, horse-body-accessible staircase/landing; DK approaches a flapping shutter as a loose metal ring and self-cast shadow mislead him. Physically plausible foot placement, four limbs readable, lantern flame and fabrics obey coherent crosswind. No tower ejection or payoff yet. Use existing P009 manuscript as controlled, legible type; never substitute AI prose.
+**P010 reserve:** Only P010 displays P007-style final score banner: El Niño 133.75 winner, D0nkey K0ng 122.67. P009 has NO scoreboard, winner or margin.
+**Uncleared production checks:** approved source-image per-subject binding, exact 390px final visual proof, tower geometry and independent publication Umpire. These do not negate the recorded Founder visual approval.
+ 
 ### FOLIO P009 — ESCALATION
 **NARRATIVE JOB:** THE HAUNTED STRONGHOLD: D0nkey K0ng (HOME) / El Niño (AWAY) — Escalation: The Wrong Enemy
 **CAMERA / LENS EQUIVALENT:** 50mm medium oblique staircase; fixed 1024×1536 portrait composition. Lens numbers are artistic cues, not EXIF claims.
