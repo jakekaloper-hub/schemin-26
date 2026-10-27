@@ -132,6 +132,19 @@ On the league's observed scoreboard, El Niño stood **11.08 points** ahead. At t
 - P013 — `The Sky Between`: coherent planted-foot throw and airborne arc, lightsaber still untouched. **ONLY P013** receives the same P007/P010 `FINAL · WEEK 7` two-team results banner, deterministically typeset: `SEVEN DEADLY CHINS 116.60` WINNER vs `OBIWAN JACOBY 94.75`; 21.85-point fantasy margin. No Week 7 GOTW label (reserved for Red–HMB).
 **Production scope:** Prepare P011 for generation and Founder visual review; do not render P012/P013 preemptively. Exact source manuscript must remain controlled typography, 1024×1536 portrait; preserve no-false-green gates.
 
+## P010 Founder visual acceptance and Chins–ObiWan banner lock — October 27, 2026
+**Founder approval:** The Commissioner explicitly approved `P010 — The Window` visual candidate as displayed in this conversation: `SCHEMIN_26_W07_P010_THE_WINDOW_REVIEW.png`. P008, P009 and P010 now have **Founder visual approval**. This does not imply binary archival, independent Umpire acceptance, canonical Atlas signoff, full PDF publishing, or validated source-copy mobile readability.
+
+**Next matchup:** `THE UNARMED LESSON` — ObiWan Jacoby HOME vs Seven Deadly Chins AWAY, P011/P012/P013. Existing manuscript, character presentation, location and three-phase storyline remain controlling; do not reinvent.
+
+**Results banner allocation (Commissioner directive):**
+- P011 `A Weapon Left Sleeping`: NO FINAL banner, winner strip, score or margin.
+- P012 `Weight and Timing`: NO FINAL banner, winner strip, score or margin.
+- P013 `The Sky Between`: ONLY page with P010-style prominent `FINAL · WEEK 7` two-team banner, `SEVEN DEADLY CHINS 116.60` as WINNER, `OBIWAN JACOBY 94.75`, optional observed fantasy margin `+21.85`. Controlled deterministic typography, correct two decimals; never confuse fantasy points with physical martial-arts scoring. Do not label Game of the Week.
+**Character/prop lock:** `CHAR-JAKE-KALOPER` Trade Jedi and `CHAR-BEN-WHIPPLE` Seven Deadly Chins. ObiWan's green lightsaber remains **UNLIT**, hooked to belt and never drawn throughout P011–P013; no championship Belt on ObiWan. Do not let model add glowing blades, duplicate hands, false anatomy or extra characters. Use actual approved appearance references.
+**Atlas/story arc:** `LOC-TRADE-JEDI-MOUNTAIN-BASE` home training courtyard; Chins visitor. Same courtyard entry, mountain horizon, architecture, light and action axis throughout. P011 establishes the voluntary unarmed challenge; P012 shows close skill/leverage escalation; P013 depicts planted leverage, coherent aerial throw and safe landing. No preemptive victory reveal in first two.
+**Workflow:** Generate P011 alone, seek Founder visual approval, then P012, then P013. Independent technical/Fact/390px/print QA are separate release gates. No render was performed by this packet update.
+
 ## UNARMED LESSON — ObiWan Jacoby HOME vs Seven Deadly Chins AWAY
 **Parent Atlas:** `LOC-TRADE-JEDI-MOUNTAIN-BASE`. **Subject A:** `CHAR-JAKE-KALOPER`, crop `canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png`, expected SHA256 `fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8`. **Subject B:** `CHAR-BEN-WHIPPLE`, crop `canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png`, expected SHA256 `0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f`. All SHA values are manifest expectations, not fresh byte-verification. **Continuity:** Training courtyard wall, mountains and entrance remain on fixed sides; unlit green lightsaber hilt stays clipped to ObiWan belt throughout.
 
