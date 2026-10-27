@@ -1093,3 +1093,23 @@ The organization succeeds when:
 > rather than rescuing preventable production failures.
 
 **END OF OFFICIAL V5.2-RC MUTUAL IMPLEMENTATION PATCH**
+
+------------------------------------------------------------------------
+
+# PROPOSED RC AMENDMENT — HISTORICAL MACRO-STORYLINE INTAKE (2026-10-27)
+
+**Change state:** REVIEW BRANCH ONLY / NOT PERMANENTLY PROMOTED. Extends the existing Truth → Production → Governance handoff without a parallel OS or automatic editorial expansion.
+
+For every completed fantasy week, after current-week normalized acquisition and before STORY_LOCK, Executive Control should evaluate whether multi-season franchise trajectories materially change the issue's editorial hierarchy. This lane is **conditional**: if no meaningful, verifiable development exists, record NO_MACRO_STORY and proceed without added copy or pages.
+
+1. **Acquire:** use authenticated historical standings and outcomes for available seasons; record exact league, season, provider, timestamp and availability. An absent year is UNKNOWN, not a losing year.
+2. **Resolve identity:** build season-specific provider team ID, name, owner/canon alias mapping. Team-slot continuity does not alone prove a continuous human owner or franchise persona. Unresolved aliases block personalized historical claims.
+3. **Compute and compare:** retain W–L–T, points, finalRank and championshipWon separately; never treat regular-season rank as postseason finish, or extrapolate partial current-year records. Cross-check major reversals, streaks, and prior high/low baselines across all franchises, not just the week's editorial favorite.
+4. **Generate candidates:** Historian and Statistics produce source-grounded trend cards; Narrative and Inklings *method lenses* propose humor, contrast and stakes without impersonating real authors or inventing private intentions. Require evidence/counterevidence and a 'do not claim' field.
+5. **Budget:** Editorial selects existing State of Play, Power Rankings, matchup feature, Opening Drive or Final Word placement; add no folio without an explicit page-budget decision. Preserve approved copy, art and Atlas travel unless targeted invalidation is justified.
+6. **Handoff:** pass typed evidence through existing SCK; require Steward acceptance, independent Fact QA, canonical character and geography checks, then normal STORY_LOCK and release gates. Simulated board consensus cannot advance a state.
+7. **Learn:** record false narratives caught (alias conflation, incomplete seasons, regular-season/postseason confusion), candidate acceptance and unused research in existing retrospective/learning surfaces. Add regression cases before permanent adoption.
+
+**Minimum story-card fields:** current_week, seasons_covered, unavailable_seasons, franchise_slot_id, canonical_identity_status, facts_with_source, counterevidence, narrative_hypothesis, speculation_label, approved_folio_target, atlas_character_dependencies, fact_lock_status, editorial_state, independent_qa_receipt.
+
+**Week 7 pilot:** `memo-os/week-7/WEEK_7_V52RC_INTAKE_2026-10-27.md`, sections 5–7. November 4 trade deadline is Founder-confirmed, not an inferred provider rule; the historical LLC arc is evidence-backed but identity mapping and independent approval remain open.
