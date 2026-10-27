@@ -32,7 +32,15 @@ class AuthorRouterTests(unittest.TestCase):
         reg = router.load_registry()
         r = router.select_consultants("Convene the full Seven.")
         self.assertEqual(r["consultation_type"], "FULL_COUNCIL")
-        self.assertEqual(r["advisors"], reg["author_council"]["core_seven"])
+        self.assertEqual(r["advisors"], reg["author_council"]["core_eight"])
+
+    def test_lewis_named_route(self):
+        r = router.select_consultants("Ask C. S. Lewis to review the sacrifice.")
+        self.assertEqual(r["advisors"], ["cs_lewis"])
+
+    def test_full_eight(self):
+        r = router.select_consultants("Convene all eight authors.")
+        self.assertEqual(len(r["advisors"]), 8)
 
     def test_book_architecture_escalates_full_council(self):
         r = router.select_consultants("Audit the book architecture.")

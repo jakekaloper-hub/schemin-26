@@ -10,6 +10,7 @@ REGISTRY_PATH = ROOT.parent / "ADVISOR_REGISTRY_V1.json"
 
 AUTHOR_ALIASES = {
     "jrr_tolkien": ("tolkien", "j.r.r. tolkien", "jrr tolkien"),
+    "cs_lewis": ("c.s. lewis", "cs lewis", "c. s. lewis", "clive staples lewis", "lewis"),
     "george_rr_martin": ("george r.r. martin", "george rr martin", "grrm", "martin"),
     "jk_rowling": ("j.k. rowling", "jk rowling", "rowling"),
     "john_grisham": ("john grisham", "grisham"),
@@ -20,6 +21,8 @@ AUTHOR_ALIASES = {
 
 FULL_COUNCIL_TERMS = (
     "full seven",
+    "full eight",
+    "all eight",
     "full council",
     "author council",
     "all seven",
@@ -43,9 +46,13 @@ def _norm(text: str) -> str:
 def load_registry(path: str | Path = REGISTRY_PATH) -> dict[str, Any]:
     return json.loads(Path(path).read_text(encoding="utf-8"))
 
-def core_seven(registry: dict[str, Any] | None = None) -> list[str]:
+def core_eight(registry: dict[str, Any] | None = None) -> list[str]:
     registry = registry or load_registry()
-    return list(registry["author_council"]["core_seven"])
+    return list(registry["author_council"]["core_eight"])
+
+def core_seven(registry: dict[str, Any] | None = None) -> list[str]:
+    """Legacy compatibility: original seven, excluding Lewis."""
+    return [x for x in core_eight(registry) if x != "cs_lewis"]
 
 def _dedupe(ids: list[str]) -> list[str]:
     out = []
@@ -80,8 +87,8 @@ def select_consultants(command: str, registry: dict[str, Any] | None = None) -> 
         return {
             "consultation_type": "FULL_COUNCIL",
             "selection_mode": "FULL_COUNCIL_TRIGGER",
-            "panel": "full_seven",
-            "advisors": core_seven(registry),
+            "panel": "full_eight",
+            "advisors": core_eight(registry),
             "reason": "Cross-cutting or explicit full-council request.",
         }
 
@@ -96,6 +103,7 @@ def select_consultants(command: str, registry: dict[str, Any] | None = None) -> 
             }
 
     problem_rules = [
+        (("moral", "sacrifice", "redemption", "temptation", "mythic meaning"), "moral_imagination"),
         (("pov", "viewpoint", "narrative distance", "voice"), "pov_character"),
         (("pacing", "slow", "drag", "page turn", "chapter ending", "chapter opening"), "pacing_readability"),
         (("worldbuilding", "world depth", "history", "culture", "geography"), "world_depth"),
@@ -177,8 +185,8 @@ def validate_engagement_manifest(manifest: dict[str, Any], registry: dict[str, A
     unknown = [advisor_id for advisor_id in selected if advisor_id not in valid_ids]
     if unknown:
         errors.append("UNKNOWN_CONSULTANT:" + ",".join(sorted(unknown)))
-    if manifest.get("consultation_type") == "FULL_COUNCIL" and selected != core_seven(registry):
-        errors.append("FULL_COUNCIL_NOT_CORE_SEVEN")
+    if manifest.get("consultation_type") == "FULL_COUNCIL" and selected != core_eight(registry):
+        errors.append("FULL_COUNCIL_NOT_CORE_EIGHT")
     independence = manifest.get("independence") or {}
     if independence.get("cross_reading_before_lock") is not False:
         errors.append("INDEPENDENCE_VIOLATION")

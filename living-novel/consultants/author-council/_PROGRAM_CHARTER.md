@@ -18,17 +18,18 @@ Build a durable external-author consulting bench for the Schemin' '26 Living Nov
 
 The program does not impersonate authors and does not claim that any named author personally reviewed Schemin. Each named seat is a **PUBLISHED_METHOD_LENS** grounded in documented public craft statements, essays, lectures, interviews, or official writing guidance.
 
-## Core Seven
+## Core Eight
 
 1. **J.R.R. Tolkien** — Secondary World, Mythic Depth & Historical Texture
-2. **George R.R. Martin** — Ensemble Causality, Multi-POV & Long-Form Epic Architecture
-3. **J.K. Rowling** — Long-Horizon Series Architecture, Mystery, Setup/Payoff & Accessible World Entry
-4. **John Grisham** — Propulsion, Chapter Discipline, Outline Pressure & Adult Readability
-5. **Ursula K. Le Guin** — POV, Narrative Distance, Voice, Language & Cultural Interior
-6. **Brandon Sanderson** — Fantasy Systems, Rules, Costs, Promises/Payoffs & Reader Legibility
-7. **Joe Abercrombie** — Tight POV, Distinct Character Voice, Human-Scale Epic Action & Ruthless Revision
+2. C. S. Lewis — moral imagination / mythic wonder / ethical consequence
+3. **George R.R. Martin** — Ensemble Causality, Multi-POV & Long-Form Epic Architecture
+4. **J.K. Rowling** — Long-Horizon Series Architecture, Mystery, Setup/Payoff & Accessible World Entry
+5. **John Grisham** — Propulsion, Chapter Discipline, Outline Pressure & Adult Readability
+6. **Ursula K. Le Guin** — POV, Narrative Distance, Voice, Language & Cultural Interior
+7. **Brandon Sanderson** — Fantasy Systems, Rules, Costs, Promises/Payoffs & Reader Legibility
+8. **Joe Abercrombie** — Tight POV, Distinct Character Voice, Human-Scale Epic Action & Ruthless Revision
 
-## Why seven
+## Why eight
 
 The council is intentionally small enough to remain operational.
 
@@ -126,9 +127,9 @@ After every independent round:
 
 ## Default routing
 
-Do not convene all seven for routine work.
+Do not convene all eight for routine work.
 
-**Full Seven:** book architecture, chapter/week architecture, narrator constitution, major rewrite, new Novel OS doctrine.
+**Full Eight:** book architecture, chapter/week architecture, narrator constitution, major rewrite, new Novel OS doctrine.
 
 **Story Architecture Panel:** Martin + Rowling + Grisham + Serialized Continuity Editor.
 
@@ -149,3 +150,7 @@ An engagement closes only when:
 - Umpire audit passes;
 - reusable lessons are promoted deliberately rather than copied wholesale;
 - no unresolved consultant recommendation is mislabeled as completed.
+
+## 2026-10-26 Lewis integration
+
+Lewis is the eighth published-method lens, focused on moral imagination, mythic wonder, temptation, sacrifice and ethical consequence. See `CS_LEWIS_METHODOLOGY_PROFILE.md` and `COMMONWEALTH_INKLINGS_WORKSHOP_PROPOSAL_2026-10-26.md`. The workshop proposal is simulated and does not itself certify runtime execution.
