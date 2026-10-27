@@ -95,3 +95,22 @@ Data: source-native receipt and exact date bounds absent; monitor Week 7 correct
 **Production handoff:** Reconcile existing Week 7 storyline, staging, travel, character plates, folio packets and manuscript before editing copy. The current intake's provisional evidence, missing source-native receipt, Steward ACK and independent Fact QA remain blockers. No FACT_LOCK, STORY_LOCK, PAGE_LOCK or release claim from this addition.
 
 **Verification:** Authenticated Flaim Week 7 results match the six outcomes in section 2. Standings distribution 8×4–3, 2×3–4, 2×2–5. Trade activity must be checked against transaction records before any trade-specific narrative is written. No independent Umpire sign-off recorded.
+
+## 6. Historical macro-storyline intake — October 27
+
+**Status:** HISTORICAL FLAIM RESEARCH / EDITORIAL CANDIDATES / NOT STORY_LOCKED. Authenticated ESPN historical standings were read for 2023, 2024, 2025 (league 1417621); team ID 4 identifies The LLC in those seasons and in 2026. This is a three-completed-season sample, not a claim of exhaustive 2015–2026 historical reconciliation.
+
+| Season | The LLC regular-season record | Verified final rank |
+| --- | --- | --- |
+| 2023 | 6–8 | 6 |
+| 2024 | 10–4 | 7 |
+| 2025 | 4–10 | 10 |
+| 2026 through Week 7 | 2–5 | Not determined |
+
+**Candidate macro angle:** The LLC's 2024 ten-win regular season yielded only seventh place at season end; 2025 brought a 4–10 record and tenth-place finish, followed by a 2–5 opening in 2026. Frame as a franchise reversal, not an invented uninterrupted multi-year losing streak. 2026 is incomplete. Inklings *method-lens* exercise only, not live author consultation: Tolkien (institutional memory and established location), Lewis (expectation versus result), Martin (competing public narratives without fictionalized private motives), Abercrombie (dry irony and human-scale cost). Do not attribute opinions to real authors or imply actual meetings.
+
+**Broader candidates for verification:** Mud Dogs (2024 4–10, 2025 6–8, 2026 2–5); Slob on my Dobb (2025 4–10, now 4–3 and 155.92 Week 7 points); El Niño (2023 11–3, 2025 4–10, now 3–4). Historical names and owner identities may shift; cross-season continuity requires identity mapping before publication. Compare all twelve franchises across the available history, including 2015–2022, before making all-time or dynasty claims.
+
+**Proposed placement:** State of Play macro-league section or existing Power Rankings analysis, cross-referenced to the The LLC vs Slob on my Dobb Week 7 matchup packet. Preserve all approved matchup concepts until editorial council reviews them. No new folio automatically authorized.
+
+**Gates:** Historical evidence reconciliation, canonical identity continuity, manuscript/folio mapping, independent Fact QA and Umpire sign-off remain OPEN. Existing provisional snapshot and publication hold unchanged.
