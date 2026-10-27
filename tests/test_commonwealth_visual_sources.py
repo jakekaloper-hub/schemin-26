@@ -39,6 +39,17 @@ class VisualSourceTests(unittest.TestCase):
         self.assertEqual({x["publication_id"]:x["release_state"] for x in src},
                          {x["publication_id"]:x["release_state"] for x in derived})
 
+    def test_explicit_evidence_graph(self):
+        import subprocess
+        subprocess.run([sys.executable,str(VIS / "build_evidence_graph.py")],cwd=ROOT,check=True,capture_output=True)
+        data=json.loads((VIS / "evidence-graph.json").read_text())
+        ids={x["id"] for x in data["nodes"]}
+        self.assertEqual(len(ids),len(data["nodes"]))
+        self.assertTrue(all(x["from"] in ids and x["to"] in ids for x in data["edges"]))
+        self.assertTrue(all(x["classification"]=="EXPLICIT_REFERENCE" for x in data["edges"]))
+        self.assertFalse(any("MEMO_PAGE" in x["relation"] or "LEAGUE_FACT" in x["relation"] for x in data["edges"]))
+        self.assertEqual(len(data["unresolved"]),14)
+
     def test_portal_routes_and_source_presence(self):
         records=json.loads((VIS/"command-center.json").read_text())["modules"]
         self.assertEqual(len(records),24)
