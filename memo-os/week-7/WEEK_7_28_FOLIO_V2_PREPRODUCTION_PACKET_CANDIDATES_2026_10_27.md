@@ -291,6 +291,8 @@ Duckhook 141.74, TDS 141.42. El Niño 133.75, DK 122.67. Chins 116.60, ObiWan 94
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P005 — THE MIRACLE PUTT: Three Dreaded Snake (HOME) / Dr. Duckhook (AWAY) — Overture: A Friendly Round
+FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
+ATLAS PARENT BINDING: LOC-TDS-WATERFALL-TEMPLE — event-specific scene approval only; no permanent location promotion
 PAGE ID: P005
 CHAPTER/MODULE: THE MIRACLE PUTT: Three Dreaded Snake (HOME) / Dr. Duckhook (AWAY) — Overture: A Friendly Round
 NARRATIVE JOB: Advance golf course overture through observable change
@@ -327,7 +329,7 @@ PREVIOUS PAGE RELATIONSHIP: P004
 NEXT PAGE RELATIONSHIP: P006
 MOBILE RISKS: reduced text density; actual 390px proof pending; no actual 390px proof; avoid Week6 dense top banners and image-only inaccessible text
 QA REQUIRED: source and Fact Lock; character SHA/byte mount; Atlas route and venue; literary copy edit; cinematic physical staging; 390px raster; physical/printed folio map; independent Umpire
-APPROVAL/LOCK STATE: PLANNED / HOLD — no READY_FOR_RENDER
+APPROVAL/LOCK STATE: FOUNDER_SCENE_APPROVED / TECHNICAL_PRE_RENDER_HOLD — no READY_FOR_RENDER
 SPECIALIST DESK: Frank Masi published unit-stills reference Tier 1; not actual human attendance
 DECISIVE INSTANT: wide arrival and golf-green geography
 CAMERA POSITION / AXIS: putting green from tee to cup; maintain waterfall on one side
@@ -371,6 +373,8 @@ Duckhook set down his bag and looked toward the waterfall. It was a beautiful pl
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P006 — THE MIRACLE PUTT: Three Dreaded Snake (HOME) / Dr. Duckhook (AWAY) — Escalation: The Courtesies End
+FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
+ATLAS PARENT BINDING: LOC-TDS-WATERFALL-TEMPLE — event-specific scene approval only; no permanent location promotion
 PAGE ID: P006
 CHAPTER/MODULE: THE MIRACLE PUTT: Three Dreaded Snake (HOME) / Dr. Duckhook (AWAY) — Escalation: The Courtesies End
 NARRATIVE JOB: Advance golf course escalation through observable change
@@ -407,7 +411,7 @@ PREVIOUS PAGE RELATIONSHIP: P005
 NEXT PAGE RELATIONSHIP: P007
 MOBILE RISKS: reduced text density; actual 390px proof pending; no actual 390px proof; avoid Week6 dense top banners and image-only inaccessible text
 QA REQUIRED: source and Fact Lock; character SHA/byte mount; Atlas route and venue; literary copy edit; cinematic physical staging; 390px raster; physical/printed folio map; independent Umpire
-APPROVAL/LOCK STATE: PLANNED / HOLD — no READY_FOR_RENDER
+APPROVAL/LOCK STATE: FOUNDER_SCENE_APPROVED / TECHNICAL_PRE_RENDER_HOLD — no READY_FOR_RENDER
 SPECIALIST DESK: Frank Masi published unit-stills reference Tier 1; not actual human attendance
 DECISIVE INSTANT: medium competitive reaction with all three TDS heads
 CAMERA POSITION / AXIS: putting green from tee to cup; maintain waterfall on one side
@@ -449,6 +453,8 @@ The waterfall kept its counsel. Their friendship had survived the opening holes;
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P007 — THE MIRACLE PUTT: Three Dreaded Snake (HOME) / Dr. Duckhook (AWAY) — Payoff: One Last Roll
+FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
+ATLAS PARENT BINDING: LOC-TDS-WATERFALL-TEMPLE — event-specific scene approval only; no permanent location promotion
 PAGE ID: P007
 CHAPTER/MODULE: THE MIRACLE PUTT: Three Dreaded Snake (HOME) / Dr. Duckhook (AWAY) — Payoff: One Last Roll
 NARRATIVE JOB: Advance golf course payoff through observable change
@@ -485,7 +491,7 @@ PREVIOUS PAGE RELATIONSHIP: P006
 NEXT PAGE RELATIONSHIP: P008
 MOBILE RISKS: STANDARD — actual mobile test required; no actual 390px proof; avoid Week6 dense top banners and image-only inaccessible text
 QA REQUIRED: source and Fact Lock; character SHA/byte mount; Atlas route and venue; literary copy edit; cinematic physical staging; 390px raster; physical/printed folio map; independent Umpire
-APPROVAL/LOCK STATE: PLANNED / HOLD — no READY_FOR_RENDER
+APPROVAL/LOCK STATE: FOUNDER_SCENE_APPROVED / TECHNICAL_PRE_RENDER_HOLD — no READY_FOR_RENDER
 SPECIALIST DESK: Frank Masi published unit-stills reference Tier 1; not actual human attendance
 DECISIVE INSTANT: low tracking putt at cup with opposing reaction
 CAMERA POSITION / AXIS: putting green from tee to cup; maintain waterfall on one side
@@ -529,6 +535,8 @@ The Commonwealth ledger would show Duckhook ahead by **0.32**. The little course
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P008 — THE HAUNTED STRONGHOLD: D0nkey K0ng (HOME) / El Niño (AWAY) — Overture: The First Knock
+FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
+ATLAS PARENT BINDING: LOC-DK-HIGHLAND-STRONGHOLD — event-specific scene approval only; no permanent location promotion
 PAGE ID: P008
 CHAPTER/MODULE: THE HAUNTED STRONGHOLD: D0nkey K0ng (HOME) / El Niño (AWAY) — Overture: The First Knock
 NARRATIVE JOB: Advance stronghold tower overture through observable change
@@ -565,7 +573,7 @@ PREVIOUS PAGE RELATIONSHIP: P007
 NEXT PAGE RELATIONSHIP: P009
 MOBILE RISKS: reduced text density; actual 390px proof pending; no actual 390px proof; avoid Week6 dense top banners and image-only inaccessible text
 QA REQUIRED: source and Fact Lock; character SHA/byte mount; Atlas route and venue; literary copy edit; cinematic physical staging; 390px raster; physical/printed folio map; independent Umpire
-APPROVAL/LOCK STATE: PLANNED / HOLD — no READY_FOR_RENDER
+APPROVAL/LOCK STATE: FOUNDER_SCENE_APPROVED / TECHNICAL_PRE_RENDER_HOLD — no READY_FOR_RENDER
 SPECIALIST DESK: Frank Masi published unit-stills reference Tier 1; not actual human attendance
 DECISIVE INSTANT: wide haunted stronghold hall, lantern and shutter
 CAMERA POSITION / AXIS: interior stairs to shutter to broad opening; consistent gust direction
@@ -609,6 +617,8 @@ A long whistle came from above. DK looked up. Somewhere outside, the wind gather
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P009 — THE HAUNTED STRONGHOLD: D0nkey K0ng (HOME) / El Niño (AWAY) — Escalation: The Wrong Enemy
+FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
+ATLAS PARENT BINDING: LOC-DK-HIGHLAND-STRONGHOLD — event-specific scene approval only; no permanent location promotion
 PAGE ID: P009
 CHAPTER/MODULE: THE HAUNTED STRONGHOLD: D0nkey K0ng (HOME) / El Niño (AWAY) — Escalation: The Wrong Enemy
 NARRATIVE JOB: Advance stronghold tower escalation through observable change
@@ -645,7 +655,7 @@ PREVIOUS PAGE RELATIONSHIP: P008
 NEXT PAGE RELATIONSHIP: P010
 MOBILE RISKS: STANDARD — actual mobile test required; no actual 390px proof; avoid Week6 dense top banners and image-only inaccessible text
 QA REQUIRED: source and Fact Lock; character SHA/byte mount; Atlas route and venue; literary copy edit; cinematic physical staging; 390px raster; physical/printed folio map; independent Umpire
-APPROVAL/LOCK STATE: PLANNED / HOLD — no READY_FOR_RENDER
+APPROVAL/LOCK STATE: FOUNDER_SCENE_APPROVED / TECHNICAL_PRE_RENDER_HOLD — no READY_FOR_RENDER
 SPECIALIST DESK: Frank Masi published unit-stills reference Tier 1; not actual human attendance
 DECISIVE INSTANT: medium DK fear and moving shadows
 CAMERA POSITION / AXIS: interior stairs to shutter to broad opening; consistent gust direction
@@ -691,6 +701,8 @@ The frame had been left partly open to ventilate the room. A loose catch let the
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P010 — THE HAUNTED STRONGHOLD: D0nkey K0ng (HOME) / El Niño (AWAY) — Payoff: The Window
+FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
+ATLAS PARENT BINDING: LOC-DK-HIGHLAND-STRONGHOLD — event-specific scene approval only; no permanent location promotion
 PAGE ID: P010
 CHAPTER/MODULE: THE HAUNTED STRONGHOLD: D0nkey K0ng (HOME) / El Niño (AWAY) — Payoff: The Window
 NARRATIVE JOB: Advance stronghold tower payoff through observable change
@@ -727,7 +739,7 @@ PREVIOUS PAGE RELATIONSHIP: P009
 NEXT PAGE RELATIONSHIP: P011
 MOBILE RISKS: STANDARD — actual mobile test required; no actual 390px proof; avoid Week6 dense top banners and image-only inaccessible text
 QA REQUIRED: source and Fact Lock; character SHA/byte mount; Atlas route and venue; literary copy edit; cinematic physical staging; 390px raster; physical/printed folio map; independent Umpire
-APPROVAL/LOCK STATE: PLANNED / HOLD — no READY_FOR_RENDER
+APPROVAL/LOCK STATE: FOUNDER_SCENE_APPROVED / TECHNICAL_PRE_RENDER_HOLD — no READY_FOR_RENDER
 SPECIALIST DESK: Frank Masi published unit-stills reference Tier 1; not actual human attendance
 DECISIVE INSTANT: wide exterior tower aperture and DK four-legged fall
 CAMERA POSITION / AXIS: interior stairs to shutter to broad opening; consistent gust direction
@@ -771,6 +783,8 @@ On the league's observed scoreboard, El Niño stood **11.08 points** ahead. At t
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P011 — THE UNARMED LESSON: ObiWan Jacoby (HOME) / Seven Deadly Chins (AWAY) — Overture: A Weapon Left Sleeping
+FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
+ATLAS PARENT BINDING: LOC-TRADE-JEDI-MOUNTAIN-BASE — event-specific scene approval only; no permanent location promotion
 PAGE ID: P011
 CHAPTER/MODULE: THE UNARMED LESSON: ObiWan Jacoby (HOME) / Seven Deadly Chins (AWAY) — Overture: A Weapon Left Sleeping
 NARRATIVE JOB: Advance training courtyard overture through observable change
@@ -807,7 +821,7 @@ PREVIOUS PAGE RELATIONSHIP: P010
 NEXT PAGE RELATIONSHIP: P012
 MOBILE RISKS: reduced text density; actual 390px proof pending; no actual 390px proof; avoid Week6 dense top banners and image-only inaccessible text
 QA REQUIRED: source and Fact Lock; character SHA/byte mount; Atlas route and venue; literary copy edit; cinematic physical staging; 390px raster; physical/printed folio map; independent Umpire
-APPROVAL/LOCK STATE: PLANNED / HOLD — no READY_FOR_RENDER
+APPROVAL/LOCK STATE: FOUNDER_SCENE_APPROVED / TECHNICAL_PRE_RENDER_HOLD — no READY_FOR_RENDER
 SPECIALIST DESK: Frank Masi published unit-stills reference Tier 1; not actual human attendance
 DECISIVE INSTANT: wide unarmed challenge, unlit belt hilt visible
 CAMERA POSITION / AXIS: grip to pivot to throw, coherent landing space
@@ -853,6 +867,8 @@ The mountain air moved across the courtyard. ObiWan smiled as though the result 
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P012 — THE UNARMED LESSON: ObiWan Jacoby (HOME) / Seven Deadly Chins (AWAY) — Escalation: Weight and Timing
+FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
+ATLAS PARENT BINDING: LOC-TRADE-JEDI-MOUNTAIN-BASE — event-specific scene approval only; no permanent location promotion
 PAGE ID: P012
 CHAPTER/MODULE: THE UNARMED LESSON: ObiWan Jacoby (HOME) / Seven Deadly Chins (AWAY) — Escalation: Weight and Timing
 NARRATIVE JOB: Advance training courtyard escalation through observable change
@@ -889,7 +905,7 @@ PREVIOUS PAGE RELATIONSHIP: P011
 NEXT PAGE RELATIONSHIP: P013
 MOBILE RISKS: REVIEW — layout test; no actual 390px proof; avoid Week6 dense top banners and image-only inaccessible text
 QA REQUIRED: source and Fact Lock; character SHA/byte mount; Atlas route and venue; literary copy edit; cinematic physical staging; 390px raster; physical/printed folio map; independent Umpire
-APPROVAL/LOCK STATE: PLANNED / HOLD — no READY_FOR_RENDER
+APPROVAL/LOCK STATE: FOUNDER_SCENE_APPROVED / TECHNICAL_PRE_RENDER_HOLD — no READY_FOR_RENDER
 SPECIALIST DESK: Frank Masi published unit-stills reference Tier 1; not actual human attendance
 DECISIVE INSTANT: medium contact and stance, unlit belt hilt
 CAMERA POSITION / AXIS: grip to pivot to throw, coherent landing space
@@ -935,6 +951,8 @@ The airborne instant was spectacular precisely because the mechanics beneath it 
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P013 — THE UNARMED LESSON: ObiWan Jacoby (HOME) / Seven Deadly Chins (AWAY) — Payoff: The Sky Between
+FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
+ATLAS PARENT BINDING: LOC-TRADE-JEDI-MOUNTAIN-BASE — event-specific scene approval only; no permanent location promotion
 PAGE ID: P013
 CHAPTER/MODULE: THE UNARMED LESSON: ObiWan Jacoby (HOME) / Seven Deadly Chins (AWAY) — Payoff: The Sky Between
 NARRATIVE JOB: Advance training courtyard payoff through observable change
@@ -971,7 +989,7 @@ PREVIOUS PAGE RELATIONSHIP: P012
 NEXT PAGE RELATIONSHIP: P014
 MOBILE RISKS: STANDARD — actual mobile test required; no actual 390px proof; avoid Week6 dense top banners and image-only inaccessible text
 QA REQUIRED: source and Fact Lock; character SHA/byte mount; Atlas route and venue; literary copy edit; cinematic physical staging; 390px raster; physical/printed folio map; independent Umpire
-APPROVAL/LOCK STATE: PLANNED / HOLD — no READY_FOR_RENDER
+APPROVAL/LOCK STATE: FOUNDER_SCENE_APPROVED / TECHNICAL_PRE_RENDER_HOLD — no READY_FOR_RENDER
 SPECIALIST DESK: Frank Masi published unit-stills reference Tier 1; not actual human attendance
 DECISIVE INSTANT: low-angle aerial throw with Chins planted
 CAMERA POSITION / AXIS: grip to pivot to throw, coherent landing space
@@ -1015,6 +1033,8 @@ The observed fantasy margin was **21.85 points** in Chins's favor. The training 
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P014 — THE CYPRESS CLEARING: Mud Dogs (HOME) / The Chili Cheesers (AWAY) — Overture: Tracks Too Large
+FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
+ATLAS PARENT BINDING: LOC-MUD-DOGS-SWAMP — event-specific scene approval only; no permanent location promotion
 PAGE ID: P014
 CHAPTER/MODULE: THE CYPRESS CLEARING: Mud Dogs (HOME) / The Chili Cheesers (AWAY) — Overture: Tracks Too Large
 NARRATIVE JOB: Advance cypress clearing overture through observable change
@@ -1051,7 +1071,7 @@ PREVIOUS PAGE RELATIONSHIP: P013
 NEXT PAGE RELATIONSHIP: P015
 MOBILE RISKS: reduced text density; actual 390px proof pending; no actual 390px proof; avoid Week6 dense top banners and image-only inaccessible text
 QA REQUIRED: source and Fact Lock; character SHA/byte mount; Atlas route and venue; literary copy edit; cinematic physical staging; 390px raster; physical/printed folio map; independent Umpire
-APPROVAL/LOCK STATE: PLANNED / HOLD — no READY_FOR_RENDER
+APPROVAL/LOCK STATE: FOUNDER_SCENE_APPROVED / TECHNICAL_PRE_RENDER_HOLD — no READY_FOR_RENDER
 SPECIALIST DESK: Frank Masi published unit-stills reference Tier 1; not actual human attendance
 DECISIVE INSTANT: ground-level deer tracks with two hunters
 CAMERA POSITION / AXIS: tracks through reeds to clearing, no teleportation
@@ -1093,6 +1113,8 @@ They took the longer route. A second print appeared beneath a low branch. Whatev
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P015 — THE CYPRESS CLEARING: Mud Dogs (HOME) / The Chili Cheesers (AWAY) — Escalation: The Buck in the Reeds
+FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
+ATLAS PARENT BINDING: LOC-MUD-DOGS-SWAMP — event-specific scene approval only; no permanent location promotion
 PAGE ID: P015
 CHAPTER/MODULE: THE CYPRESS CLEARING: Mud Dogs (HOME) / The Chili Cheesers (AWAY) — Escalation: The Buck in the Reeds
 NARRATIVE JOB: Advance cypress clearing escalation through observable change
@@ -1129,7 +1151,7 @@ PREVIOUS PAGE RELATIONSHIP: P014
 NEXT PAGE RELATIONSHIP: P016
 MOBILE RISKS: STANDARD — actual mobile test required; no actual 390px proof; avoid Week6 dense top banners and image-only inaccessible text
 QA REQUIRED: source and Fact Lock; character SHA/byte mount; Atlas route and venue; literary copy edit; cinematic physical staging; 390px raster; physical/printed folio map; independent Umpire
-APPROVAL/LOCK STATE: PLANNED / HOLD — no READY_FOR_RENDER
+APPROVAL/LOCK STATE: FOUNDER_SCENE_APPROVED / TECHNICAL_PRE_RENDER_HOLD — no READY_FOR_RENDER
 SPECIALIST DESK: Frank Masi published unit-stills reference Tier 1; not actual human attendance
 DECISIVE INSTANT: long-lens distant buck, no clean shot
 CAMERA POSITION / AXIS: tracks through reeds to clearing, no teleportation
@@ -1171,6 +1193,8 @@ The final opportunity came only after the two abandoned their argument over whic
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P016 — THE CYPRESS CLEARING: Mud Dogs (HOME) / The Chili Cheesers (AWAY) — Payoff: The Photograph
+FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
+ATLAS PARENT BINDING: LOC-MUD-DOGS-SWAMP — event-specific scene approval only; no permanent location promotion
 PAGE ID: P016
 CHAPTER/MODULE: THE CYPRESS CLEARING: Mud Dogs (HOME) / The Chili Cheesers (AWAY) — Payoff: The Photograph
 NARRATIVE JOB: Advance cypress clearing payoff through observable change
@@ -1207,7 +1231,7 @@ PREVIOUS PAGE RELATIONSHIP: P015
 NEXT PAGE RELATIONSHIP: P017
 MOBILE RISKS: STANDARD — actual mobile test required; no actual 390px proof; avoid Week6 dense top banners and image-only inaccessible text
 QA REQUIRED: source and Fact Lock; character SHA/byte mount; Atlas route and venue; literary copy edit; cinematic physical staging; 390px raster; physical/printed folio map; independent Umpire
-APPROVAL/LOCK STATE: PLANNED / HOLD — no READY_FOR_RENDER
+APPROVAL/LOCK STATE: FOUNDER_SCENE_APPROVED / TECHNICAL_PRE_RENDER_HOLD — no READY_FOR_RENDER
 SPECIALIST DESK: Frank Masi published unit-stills reference Tier 1; not actual human attendance
 DECISIVE INSTANT: medium trophy portrait in cypress clearing
 CAMERA POSITION / AXIS: tracks through reeds to clearing, no teleportation
@@ -1247,6 +1271,8 @@ The league ledger showed Chili ahead by **26.20**. The swamp kept a more complic
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P017 — THE FORGOTTEN COURT: Red Leopards (HOME) / His Majesty's Blood (AWAY) — Overture: A Game Without Witnesses
+FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
+ATLAS PARENT BINDING: LOC-COMPACT-NEUTRAL-GROUNDS — event-specific scene approval only; no permanent location promotion
 PAGE ID: P017
 CHAPTER/MODULE: THE FORGOTTEN COURT: Red Leopards (HOME) / His Majesty's Blood (AWAY) — Overture: A Game Without Witnesses
 NARRATIVE JOB: Advance private half-court overture through observable change
@@ -1265,7 +1291,7 @@ IMMUTABLE CHARACTER FEATURES: Oct18 lineup subject record and reference manifest
 CURRENT CONTINUITY OVERLAYS: Founder 34-decision intake, Week6 ending/travel reconciliation PENDING
 FORBIDDEN MUTATIONS: Wrong anatomy, generated unverified letters/scores, title transfer, unapproved permanent sites, non-canonical technology
 WORLD REGION/LOCATION: private half-court
-MAP/ATLAS ID: UNRESOLVED-FORGOTTEN-NEUTRAL-COURT
+MAP/ATLAS ID: LOC-COMPACT-NEUTRAL-GROUNDS (PROPOSED NEUTRAL PARENT; NOT PERMANENT COURT)
 ENTERING WORLD STATE: Week 6 ending and Oct25 travel workbook to be verified; not independently accepted
 CONTINUITY-OUT: Phase Overture transitions to next story phase
 TIME / WEATHER / LIGHT: Late October; climate from active Atlas required; motivated practical light and location-specific weather
@@ -1283,7 +1309,7 @@ PREVIOUS PAGE RELATIONSHIP: P016
 NEXT PAGE RELATIONSHIP: P018
 MOBILE RISKS: REVIEW — layout test; no actual 390px proof; avoid Week6 dense top banners and image-only inaccessible text
 QA REQUIRED: source and Fact Lock; character SHA/byte mount; Atlas route and venue; literary copy edit; cinematic physical staging; 390px raster; physical/printed folio map; independent Umpire
-APPROVAL/LOCK STATE: PLANNED / HOLD — no READY_FOR_RENDER
+APPROVAL/LOCK STATE: FOUNDER_SCENE_APPROVED / TECHNICAL_PRE_RENDER_HOLD — no READY_FOR_RENDER
 SPECIALIST DESK: Frank Masi published unit-stills reference Tier 1; not actual human attendance
 DECISIVE INSTANT: wide private court with two rivals and belt aside
 CAMERA POSITION / AXIS: maintain hoop and ball possession across drive and crossover
@@ -1327,6 +1353,8 @@ HMB defended like someone accustomed to occupying the center of a room. Red atta
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P018 — THE FORGOTTEN COURT: Red Leopards (HOME) / His Majesty's Blood (AWAY) — Escalation: Every Inch Contested
+FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
+ATLAS PARENT BINDING: LOC-COMPACT-NEUTRAL-GROUNDS — event-specific scene approval only; no permanent location promotion
 PAGE ID: P018
 CHAPTER/MODULE: THE FORGOTTEN COURT: Red Leopards (HOME) / His Majesty's Blood (AWAY) — Escalation: Every Inch Contested
 NARRATIVE JOB: Advance private half-court escalation through observable change
@@ -1345,7 +1373,7 @@ IMMUTABLE CHARACTER FEATURES: Oct18 lineup subject record and reference manifest
 CURRENT CONTINUITY OVERLAYS: Founder 34-decision intake, Week6 ending/travel reconciliation PENDING
 FORBIDDEN MUTATIONS: Wrong anatomy, generated unverified letters/scores, title transfer, unapproved permanent sites, non-canonical technology
 WORLD REGION/LOCATION: private half-court
-MAP/ATLAS ID: UNRESOLVED-FORGOTTEN-NEUTRAL-COURT
+MAP/ATLAS ID: LOC-COMPACT-NEUTRAL-GROUNDS (PROPOSED NEUTRAL PARENT; NOT PERMANENT COURT)
 ENTERING WORLD STATE: Week 6 ending and Oct25 travel workbook to be verified; not independently accepted
 CONTINUITY-OUT: Phase Escalation transitions to next story phase
 TIME / WEATHER / LIGHT: Late October; climate from active Atlas required; motivated practical light and location-specific weather
@@ -1363,7 +1391,7 @@ PREVIOUS PAGE RELATIONSHIP: P017
 NEXT PAGE RELATIONSHIP: P019
 MOBILE RISKS: STANDARD — actual mobile test required; no actual 390px proof; avoid Week6 dense top banners and image-only inaccessible text
 QA REQUIRED: source and Fact Lock; character SHA/byte mount; Atlas route and venue; literary copy edit; cinematic physical staging; 390px raster; physical/printed folio map; independent Umpire
-APPROVAL/LOCK STATE: PLANNED / HOLD — no READY_FOR_RENDER
+APPROVAL/LOCK STATE: FOUNDER_SCENE_APPROVED / TECHNICAL_PRE_RENDER_HOLD — no READY_FOR_RENDER
 SPECIALIST DESK: Frank Masi published unit-stills reference Tier 1; not actual human attendance
 DECISIVE INSTANT: medium hard defense and dribble
 CAMERA POSITION / AXIS: maintain hoop and ball possession across drive and crossover
@@ -1405,6 +1433,8 @@ Red had shown the leftward drive several times. HMB had learned to cut it off. T
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P019 — THE FORGOTTEN COURT: Red Leopards (HOME) / His Majesty's Blood (AWAY) — Payoff: The Crossover
+FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
+ATLAS PARENT BINDING: LOC-COMPACT-NEUTRAL-GROUNDS — event-specific scene approval only; no permanent location promotion
 PAGE ID: P019
 CHAPTER/MODULE: THE FORGOTTEN COURT: Red Leopards (HOME) / His Majesty's Blood (AWAY) — Payoff: The Crossover
 NARRATIVE JOB: Advance private half-court payoff through observable change
@@ -1423,7 +1453,7 @@ IMMUTABLE CHARACTER FEATURES: Oct18 lineup subject record and reference manifest
 CURRENT CONTINUITY OVERLAYS: Founder 34-decision intake, Week6 ending/travel reconciliation PENDING
 FORBIDDEN MUTATIONS: Wrong anatomy, generated unverified letters/scores, title transfer, unapproved permanent sites, non-canonical technology
 WORLD REGION/LOCATION: private half-court
-MAP/ATLAS ID: UNRESOLVED-FORGOTTEN-NEUTRAL-COURT
+MAP/ATLAS ID: LOC-COMPACT-NEUTRAL-GROUNDS (PROPOSED NEUTRAL PARENT; NOT PERMANENT COURT)
 ENTERING WORLD STATE: Week 6 ending and Oct25 travel workbook to be verified; not independently accepted
 CONTINUITY-OUT: Phase Payoff transitions to Week 8 travel, pending
 TIME / WEATHER / LIGHT: Late October; climate from active Atlas required; motivated practical light and location-specific weather
@@ -1441,7 +1471,7 @@ PREVIOUS PAGE RELATIONSHIP: P018
 NEXT PAGE RELATIONSHIP: P020
 MOBILE RISKS: STANDARD — actual mobile test required; no actual 390px proof; avoid Week6 dense top banners and image-only inaccessible text
 QA REQUIRED: source and Fact Lock; character SHA/byte mount; Atlas route and venue; literary copy edit; cinematic physical staging; 390px raster; physical/printed folio map; independent Umpire
-APPROVAL/LOCK STATE: PLANNED / HOLD — no READY_FOR_RENDER
+APPROVAL/LOCK STATE: FOUNDER_SCENE_APPROVED / TECHNICAL_PRE_RENDER_HOLD — no READY_FOR_RENDER
 SPECIALIST DESK: Frank Masi published unit-stills reference Tier 1; not actual human attendance
 DECISIVE INSTANT: low-side crossover and jumper; HMB stumbles
 CAMERA POSITION / AXIS: maintain hoop and ball possession across drive and crossover
@@ -1483,6 +1513,8 @@ The observed Week 7 fantasy score favored Red by **11.51 points**. The private b
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P020 — THE GENTLEMAN'S FLUSH: Slob on my Dobb (HOME) / The LLC (AWAY) — Overture: The Invitation
+FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
+ATLAS PARENT BINDING: LOC-SLOB-FOOTHILL-CAMP — event-specific scene approval only; no permanent location promotion
 PAGE ID: P020
 CHAPTER/MODULE: THE GENTLEMAN'S FLUSH: Slob on my Dobb (HOME) / The LLC (AWAY) — Overture: The Invitation
 NARRATIVE JOB: Advance man-cave card table overture through observable change
@@ -1519,7 +1551,7 @@ PREVIOUS PAGE RELATIONSHIP: P019
 NEXT PAGE RELATIONSHIP: P021
 MOBILE RISKS: STANDARD — actual mobile test required; no actual 390px proof; avoid Week6 dense top banners and image-only inaccessible text
 QA REQUIRED: source and Fact Lock; character SHA/byte mount; Atlas route and venue; literary copy edit; cinematic physical staging; 390px raster; physical/printed folio map; independent Umpire
-APPROVAL/LOCK STATE: PLANNED / HOLD — no READY_FOR_RENDER
+APPROVAL/LOCK STATE: FOUNDER_SCENE_APPROVED / TECHNICAL_PRE_RENDER_HOLD — no READY_FOR_RENDER
 SPECIALIST DESK: Frank Masi published unit-stills reference Tier 1; not actual human attendance
 DECISIVE INSTANT: wide invitation and rustic poker table
 CAMERA POSITION / AXIS: fixed seats, hand orientation, five-card same-suit royal flush
@@ -1561,6 +1593,8 @@ The LLC liked systems. He built one from the smallest details: a hesitation befo
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P021 — THE GENTLEMAN'S FLUSH: Slob on my Dobb (HOME) / The LLC (AWAY) — Escalation: A Tell Too Easy
+FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
+ATLAS PARENT BINDING: LOC-SLOB-FOOTHILL-CAMP — event-specific scene approval only; no permanent location promotion
 PAGE ID: P021
 CHAPTER/MODULE: THE GENTLEMAN'S FLUSH: Slob on my Dobb (HOME) / The LLC (AWAY) — Escalation: A Tell Too Easy
 NARRATIVE JOB: Advance man-cave card table escalation through observable change
@@ -1597,7 +1631,7 @@ PREVIOUS PAGE RELATIONSHIP: P020
 NEXT PAGE RELATIONSHIP: P022
 MOBILE RISKS: STANDARD — actual mobile test required; no actual 390px proof; avoid Week6 dense top banners and image-only inaccessible text
 QA REQUIRED: source and Fact Lock; character SHA/byte mount; Atlas route and venue; literary copy edit; cinematic physical staging; 390px raster; physical/printed folio map; independent Umpire
-APPROVAL/LOCK STATE: PLANNED / HOLD — no READY_FOR_RENDER
+APPROVAL/LOCK STATE: FOUNDER_SCENE_APPROVED / TECHNICAL_PRE_RENDER_HOLD — no READY_FOR_RENDER
 SPECIALIST DESK: Frank Masi published unit-stills reference Tier 1; not actual human attendance
 DECISIVE INSTANT: over-shoulder LLC studying Slob
 CAMERA POSITION / AXIS: fixed seats, hand orientation, five-card same-suit royal flush
@@ -1641,6 +1675,8 @@ Slob had been watching the game, even while his visitor watched him. The final r
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P022 — THE GENTLEMAN'S FLUSH: Slob on my Dobb (HOME) / The LLC (AWAY) — Payoff: Five Cards
+FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
+ATLAS PARENT BINDING: LOC-SLOB-FOOTHILL-CAMP — event-specific scene approval only; no permanent location promotion
 PAGE ID: P022
 CHAPTER/MODULE: THE GENTLEMAN'S FLUSH: Slob on my Dobb (HOME) / The LLC (AWAY) — Payoff: Five Cards
 NARRATIVE JOB: Advance man-cave card table payoff through observable change
@@ -1677,7 +1713,7 @@ PREVIOUS PAGE RELATIONSHIP: P021
 NEXT PAGE RELATIONSHIP: P023
 MOBILE RISKS: STANDARD — actual mobile test required; no actual 390px proof; avoid Week6 dense top banners and image-only inaccessible text
 QA REQUIRED: source and Fact Lock; character SHA/byte mount; Atlas route and venue; literary copy edit; cinematic physical staging; 390px raster; physical/printed folio map; independent Umpire
-APPROVAL/LOCK STATE: PLANNED / HOLD — no READY_FOR_RENDER
+APPROVAL/LOCK STATE: FOUNDER_SCENE_APPROVED / TECHNICAL_PRE_RENDER_HOLD — no READY_FOR_RENDER
 SPECIALIST DESK: Frank Masi published unit-stills reference Tier 1; not actual human attendance
 DECISIVE INSTANT: low table-level royal flush and LLC reaction
 CAMERA POSITION / AXIS: fixed seats, hand orientation, five-card same-suit royal flush
