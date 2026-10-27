@@ -1,0 +1,170 @@
+{
+  "schema": "schemin26.memo_os.transaction_delta.v1",
+  "run_id": "S26-MEMO-W07-20261026-AM",
+  "baseline": "WEEK_7_PROVIDER_NORMALIZED_EVIDENCE_2026-10-25.json",
+  "current": "WEEK_7_PROVIDER_NORMALIZED_EVIDENCE_2026-10-26.json",
+  "source": "mTransactions2",
+  "scope": {
+    "mode": "explicit_week",
+    "unit": "matchup_period",
+    "requested_week": 7,
+    "normalization": "none",
+    "weeks": [
+      7
+    ],
+    "provider_scoring_period_ids": [
+      7
+    ],
+    "date_bounds_kind": "unavailable",
+    "timezone": "America/New_York"
+  },
+  "previous_count": 37,
+  "current_count": 39,
+  "added": [
+    {
+      "transaction_id": "81c4fc9c-ed12-4187-813e-0396fa90453f",
+      "type": "add",
+      "status": "complete",
+      "timestamp": 1792937357617,
+      "timestamp_source": "proposedDate",
+      "date": "2026-10-25",
+      "week": 7,
+      "provider_scoring_period_id": 7,
+      "team_ids": [
+        "11"
+      ],
+      "players_added": [
+        {
+          "id": "4869645",
+          "name": "Caleb Douglas",
+          "position": "WR",
+          "team": "MIA"
+        }
+      ],
+      "players_dropped": [
+        {
+          "id": "4710855",
+          "name": "Konata Mumpfield",
+          "position": "WR",
+          "team": "LAR"
+        }
+      ],
+      "faab_bid": 0
+    },
+    {
+      "transaction_id": "00e6a01e-c157-4d31-8629-afdc876acc47",
+      "type": "add",
+      "status": "complete",
+      "timestamp": 1792937125527,
+      "timestamp_source": "proposedDate",
+      "date": "2026-10-25",
+      "week": 7,
+      "provider_scoring_period_id": 7,
+      "team_ids": [
+        "5"
+      ],
+      "players_added": [
+        {
+          "id": "4384852",
+          "name": "Dohnte Meyers",
+          "position": "WR",
+          "team": "CIN"
+        }
+      ],
+      "players_dropped": [
+        {
+          "id": "4366031",
+          "name": "Tank Dell",
+          "position": "WR",
+          "team": "HOU"
+        }
+      ],
+      "faab_bid": 0
+    }
+  ],
+  "removed": [],
+  "changed": [],
+  "unchanged_count": 37,
+  "partial_score_changes": [
+    {
+      "home": "Three Dreaded Snake",
+      "away": "Dr. Duckhook",
+      "previous": [
+        61.72,
+        59.94
+      ],
+      "current": [
+        116.42,
+        141.74
+      ],
+      "winner": "UNDECIDED"
+    },
+    {
+      "home": "D0nkey K0ng",
+      "away": "El Niño",
+      "previous": [
+        0,
+        0
+      ],
+      "current": [
+        98.87,
+        121.85
+      ],
+      "winner": "UNDECIDED"
+    },
+    {
+      "home": "ObiWan Jacoby",
+      "away": "Seven Deadly Chins",
+      "previous": [
+        0.35,
+        21.2
+      ],
+      "current": [
+        94.75,
+        116.6
+      ],
+      "winner": "UNDECIDED"
+    },
+    {
+      "home": "Mud Dogs",
+      "away": "The Chili Cheesers ",
+      "previous": [
+        0,
+        0
+      ],
+      "current": [
+        92.92,
+        132.92
+      ],
+      "winner": "UNDECIDED"
+    },
+    {
+      "home": "Red Leopards",
+      "away": "His Majesty's Blood",
+      "previous": [
+        0,
+        0
+      ],
+      "current": [
+        148.53,
+        137.02
+      ],
+      "winner": "UNDECIDED"
+    },
+    {
+      "home": "Slob on my Dobb",
+      "away": "The LLC",
+      "previous": [
+        0,
+        15
+      ],
+      "current": [
+        131.52,
+        111.21
+      ],
+      "winner": "UNDECIDED"
+    }
+  ],
+  "disposition": "ROW_COMPARISON_COMPLETE_NOT_APPROVED",
+  "provenance": "provider_normalized_only"
+}
