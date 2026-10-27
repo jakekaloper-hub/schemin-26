@@ -291,6 +291,9 @@ Duckhook 141.74, TDS 141.42. El Niño 133.75, DK 122.67. Chins 116.60, ObiWan 94
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P005 — THE MIRACLE PUTT: Three Dreaded Snake (HOME) / Dr. Duckhook (AWAY) — Overture: A Friendly Round
+TRAVEL EVIDENCE: Duckhook: ROUTE-DELTA-CAUSEWAY (via DK Mud Hill) → ROUTE-FALLS-PATH; graph reachability proven, directional/seasonal authority HOLD
+RENDERER SUBJECT BINDING: SOURCE CROP SHA VERIFIED 12/12; production per-subject binding and mounted-byte receipt NOT PROVEN; DK old native handle STALE, current four-legged crop required
+TRAVEL/RENDERER RECEIPT: memo-os/week-7/WEEK_7_TRAVEL_RENDERER_ACCEPTANCE_EXECUTION_2026_10_27.md
 FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
 ATLAS PARENT BINDING: LOC-TDS-WATERFALL-TEMPLE — event-specific scene approval only; no permanent location promotion
 PAGE ID: P005
@@ -373,6 +376,9 @@ Duckhook set down his bag and looked toward the waterfall. It was a beautiful pl
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P006 — THE MIRACLE PUTT: Three Dreaded Snake (HOME) / Dr. Duckhook (AWAY) — Escalation: The Courtesies End
+TRAVEL EVIDENCE: Duckhook: ROUTE-DELTA-CAUSEWAY (via DK Mud Hill) → ROUTE-FALLS-PATH; graph reachability proven, directional/seasonal authority HOLD
+RENDERER SUBJECT BINDING: SOURCE CROP SHA VERIFIED 12/12; production per-subject binding and mounted-byte receipt NOT PROVEN; DK old native handle STALE, current four-legged crop required
+TRAVEL/RENDERER RECEIPT: memo-os/week-7/WEEK_7_TRAVEL_RENDERER_ACCEPTANCE_EXECUTION_2026_10_27.md
 FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
 ATLAS PARENT BINDING: LOC-TDS-WATERFALL-TEMPLE — event-specific scene approval only; no permanent location promotion
 PAGE ID: P006
@@ -453,6 +459,9 @@ The waterfall kept its counsel. Their friendship had survived the opening holes;
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P007 — THE MIRACLE PUTT: Three Dreaded Snake (HOME) / Dr. Duckhook (AWAY) — Payoff: One Last Roll
+TRAVEL EVIDENCE: Duckhook: ROUTE-DELTA-CAUSEWAY (via DK Mud Hill) → ROUTE-FALLS-PATH; graph reachability proven, directional/seasonal authority HOLD
+RENDERER SUBJECT BINDING: SOURCE CROP SHA VERIFIED 12/12; production per-subject binding and mounted-byte receipt NOT PROVEN; DK old native handle STALE, current four-legged crop required
+TRAVEL/RENDERER RECEIPT: memo-os/week-7/WEEK_7_TRAVEL_RENDERER_ACCEPTANCE_EXECUTION_2026_10_27.md
 FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
 ATLAS PARENT BINDING: LOC-TDS-WATERFALL-TEMPLE — event-specific scene approval only; no permanent location promotion
 PAGE ID: P007
@@ -535,6 +544,9 @@ The Commonwealth ledger would show Duckhook ahead by **0.32**. The little course
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P008 — THE HAUNTED STRONGHOLD: D0nkey K0ng (HOME) / El Niño (AWAY) — Overture: The First Knock
+TRAVEL EVIDENCE: El Niño: storm/weather propagation, not a road traveler; World Engine weather-region proof HOLD
+RENDERER SUBJECT BINDING: SOURCE CROP SHA VERIFIED 12/12; production per-subject binding and mounted-byte receipt NOT PROVEN; DK old native handle STALE, current four-legged crop required
+TRAVEL/RENDERER RECEIPT: memo-os/week-7/WEEK_7_TRAVEL_RENDERER_ACCEPTANCE_EXECUTION_2026_10_27.md
 FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
 ATLAS PARENT BINDING: LOC-DK-HIGHLAND-STRONGHOLD — event-specific scene approval only; no permanent location promotion
 PAGE ID: P008
@@ -617,6 +629,9 @@ A long whistle came from above. DK looked up. Somewhere outside, the wind gather
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P009 — THE HAUNTED STRONGHOLD: D0nkey K0ng (HOME) / El Niño (AWAY) — Escalation: The Wrong Enemy
+TRAVEL EVIDENCE: El Niño: storm/weather propagation, not a road traveler; World Engine weather-region proof HOLD
+RENDERER SUBJECT BINDING: SOURCE CROP SHA VERIFIED 12/12; production per-subject binding and mounted-byte receipt NOT PROVEN; DK old native handle STALE, current four-legged crop required
+TRAVEL/RENDERER RECEIPT: memo-os/week-7/WEEK_7_TRAVEL_RENDERER_ACCEPTANCE_EXECUTION_2026_10_27.md
 FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
 ATLAS PARENT BINDING: LOC-DK-HIGHLAND-STRONGHOLD — event-specific scene approval only; no permanent location promotion
 PAGE ID: P009
@@ -701,6 +716,9 @@ The frame had been left partly open to ventilate the room. A loose catch let the
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P010 — THE HAUNTED STRONGHOLD: D0nkey K0ng (HOME) / El Niño (AWAY) — Payoff: The Window
+TRAVEL EVIDENCE: El Niño: storm/weather propagation, not a road traveler; World Engine weather-region proof HOLD
+RENDERER SUBJECT BINDING: SOURCE CROP SHA VERIFIED 12/12; production per-subject binding and mounted-byte receipt NOT PROVEN; DK old native handle STALE, current four-legged crop required
+TRAVEL/RENDERER RECEIPT: memo-os/week-7/WEEK_7_TRAVEL_RENDERER_ACCEPTANCE_EXECUTION_2026_10_27.md
 FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
 ATLAS PARENT BINDING: LOC-DK-HIGHLAND-STRONGHOLD — event-specific scene approval only; no permanent location promotion
 PAGE ID: P010
@@ -783,6 +801,9 @@ On the league's observed scoreboard, El Niño stood **11.08 points** ahead. At t
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P011 — THE UNARMED LESSON: ObiWan Jacoby (HOME) / Seven Deadly Chins (AWAY) — Overture: A Weapon Left Sleeping
+TRAVEL EVIDENCE: Chins: ROUTE-BASIN-MARKET → ROUTE-UPPER-BASIN-CONNECTOR → ROUTE-EASTERN-ASCENT; graph reachability proven, seasonal authority HOLD
+RENDERER SUBJECT BINDING: SOURCE CROP SHA VERIFIED 12/12; production per-subject binding and mounted-byte receipt NOT PROVEN; DK old native handle STALE, current four-legged crop required
+TRAVEL/RENDERER RECEIPT: memo-os/week-7/WEEK_7_TRAVEL_RENDERER_ACCEPTANCE_EXECUTION_2026_10_27.md
 FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
 ATLAS PARENT BINDING: LOC-TRADE-JEDI-MOUNTAIN-BASE — event-specific scene approval only; no permanent location promotion
 PAGE ID: P011
@@ -867,6 +888,9 @@ The mountain air moved across the courtyard. ObiWan smiled as though the result 
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P012 — THE UNARMED LESSON: ObiWan Jacoby (HOME) / Seven Deadly Chins (AWAY) — Escalation: Weight and Timing
+TRAVEL EVIDENCE: Chins: ROUTE-BASIN-MARKET → ROUTE-UPPER-BASIN-CONNECTOR → ROUTE-EASTERN-ASCENT; graph reachability proven, seasonal authority HOLD
+RENDERER SUBJECT BINDING: SOURCE CROP SHA VERIFIED 12/12; production per-subject binding and mounted-byte receipt NOT PROVEN; DK old native handle STALE, current four-legged crop required
+TRAVEL/RENDERER RECEIPT: memo-os/week-7/WEEK_7_TRAVEL_RENDERER_ACCEPTANCE_EXECUTION_2026_10_27.md
 FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
 ATLAS PARENT BINDING: LOC-TRADE-JEDI-MOUNTAIN-BASE — event-specific scene approval only; no permanent location promotion
 PAGE ID: P012
@@ -951,6 +975,9 @@ The airborne instant was spectacular precisely because the mechanics beneath it 
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P013 — THE UNARMED LESSON: ObiWan Jacoby (HOME) / Seven Deadly Chins (AWAY) — Payoff: The Sky Between
+TRAVEL EVIDENCE: Chins: ROUTE-BASIN-MARKET → ROUTE-UPPER-BASIN-CONNECTOR → ROUTE-EASTERN-ASCENT; graph reachability proven, seasonal authority HOLD
+RENDERER SUBJECT BINDING: SOURCE CROP SHA VERIFIED 12/12; production per-subject binding and mounted-byte receipt NOT PROVEN; DK old native handle STALE, current four-legged crop required
+TRAVEL/RENDERER RECEIPT: memo-os/week-7/WEEK_7_TRAVEL_RENDERER_ACCEPTANCE_EXECUTION_2026_10_27.md
 FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
 ATLAS PARENT BINDING: LOC-TRADE-JEDI-MOUNTAIN-BASE — event-specific scene approval only; no permanent location promotion
 PAGE ID: P013
@@ -1033,6 +1060,9 @@ The observed fantasy margin was **21.85 points** in Chins's favor. The training 
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P014 — THE CYPRESS CLEARING: Mud Dogs (HOME) / The Chili Cheesers (AWAY) — Overture: Tracks Too Large
+TRAVEL EVIDENCE: Chili: ROUTE-TDS-CHILI-SHARED-MARCH → ROUTE-FALLS-PATH; graph reachability proven, seasonal authority HOLD
+RENDERER SUBJECT BINDING: SOURCE CROP SHA VERIFIED 12/12; production per-subject binding and mounted-byte receipt NOT PROVEN; DK old native handle STALE, current four-legged crop required
+TRAVEL/RENDERER RECEIPT: memo-os/week-7/WEEK_7_TRAVEL_RENDERER_ACCEPTANCE_EXECUTION_2026_10_27.md
 FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
 ATLAS PARENT BINDING: LOC-MUD-DOGS-SWAMP — event-specific scene approval only; no permanent location promotion
 PAGE ID: P014
@@ -1113,6 +1143,9 @@ They took the longer route. A second print appeared beneath a low branch. Whatev
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P015 — THE CYPRESS CLEARING: Mud Dogs (HOME) / The Chili Cheesers (AWAY) — Escalation: The Buck in the Reeds
+TRAVEL EVIDENCE: Chili: ROUTE-TDS-CHILI-SHARED-MARCH → ROUTE-FALLS-PATH; graph reachability proven, seasonal authority HOLD
+RENDERER SUBJECT BINDING: SOURCE CROP SHA VERIFIED 12/12; production per-subject binding and mounted-byte receipt NOT PROVEN; DK old native handle STALE, current four-legged crop required
+TRAVEL/RENDERER RECEIPT: memo-os/week-7/WEEK_7_TRAVEL_RENDERER_ACCEPTANCE_EXECUTION_2026_10_27.md
 FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
 ATLAS PARENT BINDING: LOC-MUD-DOGS-SWAMP — event-specific scene approval only; no permanent location promotion
 PAGE ID: P015
@@ -1193,6 +1226,9 @@ The final opportunity came only after the two abandoned their argument over whic
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P016 — THE CYPRESS CLEARING: Mud Dogs (HOME) / The Chili Cheesers (AWAY) — Payoff: The Photograph
+TRAVEL EVIDENCE: Chili: ROUTE-TDS-CHILI-SHARED-MARCH → ROUTE-FALLS-PATH; graph reachability proven, seasonal authority HOLD
+RENDERER SUBJECT BINDING: SOURCE CROP SHA VERIFIED 12/12; production per-subject binding and mounted-byte receipt NOT PROVEN; DK old native handle STALE, current four-legged crop required
+TRAVEL/RENDERER RECEIPT: memo-os/week-7/WEEK_7_TRAVEL_RENDERER_ACCEPTANCE_EXECUTION_2026_10_27.md
 FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
 ATLAS PARENT BINDING: LOC-MUD-DOGS-SWAMP — event-specific scene approval only; no permanent location promotion
 PAGE ID: P016
@@ -1271,6 +1307,9 @@ The league ledger showed Chili ahead by **26.20**. The swamp kept a more complic
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P017 — THE FORGOTTEN COURT: Red Leopards (HOME) / His Majesty's Blood (AWAY) — Overture: A Game Without Witnesses
+TRAVEL EVIDENCE: Red/HMB: Red ROUTE-RAIN-ESCARPMENT → UPPER-BASIN-CONNECTOR → COMPACT-GROUNDS; HMB BLACK-CLIFF → EASTERN-ASCENT → UPPER-BASIN-CONNECTOR → COMPACT-GROUNDS; graph reachability proven, neutral-court site and seasonal authority HOLD
+RENDERER SUBJECT BINDING: SOURCE CROP SHA VERIFIED 12/12; production per-subject binding and mounted-byte receipt NOT PROVEN; DK old native handle STALE, current four-legged crop required
+TRAVEL/RENDERER RECEIPT: memo-os/week-7/WEEK_7_TRAVEL_RENDERER_ACCEPTANCE_EXECUTION_2026_10_27.md
 FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
 ATLAS PARENT BINDING: LOC-COMPACT-NEUTRAL-GROUNDS — event-specific scene approval only; no permanent location promotion
 PAGE ID: P017
@@ -1353,6 +1392,9 @@ HMB defended like someone accustomed to occupying the center of a room. Red atta
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P018 — THE FORGOTTEN COURT: Red Leopards (HOME) / His Majesty's Blood (AWAY) — Escalation: Every Inch Contested
+TRAVEL EVIDENCE: Red/HMB: Red ROUTE-RAIN-ESCARPMENT → UPPER-BASIN-CONNECTOR → COMPACT-GROUNDS; HMB BLACK-CLIFF → EASTERN-ASCENT → UPPER-BASIN-CONNECTOR → COMPACT-GROUNDS; graph reachability proven, neutral-court site and seasonal authority HOLD
+RENDERER SUBJECT BINDING: SOURCE CROP SHA VERIFIED 12/12; production per-subject binding and mounted-byte receipt NOT PROVEN; DK old native handle STALE, current four-legged crop required
+TRAVEL/RENDERER RECEIPT: memo-os/week-7/WEEK_7_TRAVEL_RENDERER_ACCEPTANCE_EXECUTION_2026_10_27.md
 FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
 ATLAS PARENT BINDING: LOC-COMPACT-NEUTRAL-GROUNDS — event-specific scene approval only; no permanent location promotion
 PAGE ID: P018
@@ -1433,6 +1475,9 @@ Red had shown the leftward drive several times. HMB had learned to cut it off. T
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P019 — THE FORGOTTEN COURT: Red Leopards (HOME) / His Majesty's Blood (AWAY) — Payoff: The Crossover
+TRAVEL EVIDENCE: Red/HMB: Red ROUTE-RAIN-ESCARPMENT → UPPER-BASIN-CONNECTOR → COMPACT-GROUNDS; HMB BLACK-CLIFF → EASTERN-ASCENT → UPPER-BASIN-CONNECTOR → COMPACT-GROUNDS; graph reachability proven, neutral-court site and seasonal authority HOLD
+RENDERER SUBJECT BINDING: SOURCE CROP SHA VERIFIED 12/12; production per-subject binding and mounted-byte receipt NOT PROVEN; DK old native handle STALE, current four-legged crop required
+TRAVEL/RENDERER RECEIPT: memo-os/week-7/WEEK_7_TRAVEL_RENDERER_ACCEPTANCE_EXECUTION_2026_10_27.md
 FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
 ATLAS PARENT BINDING: LOC-COMPACT-NEUTRAL-GROUNDS — event-specific scene approval only; no permanent location promotion
 PAGE ID: P019
@@ -1513,6 +1558,9 @@ The observed Week 7 fantasy score favored Red by **11.51 points**. The private b
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P020 — THE GENTLEMAN'S FLUSH: Slob on my Dobb (HOME) / The LLC (AWAY) — Overture: The Invitation
+TRAVEL EVIDENCE: LLC: ROUTE-INNER-SEA-QUAY → ROUTE-PORT-BASIN-CONNECTOR → ROUTE-UPPER-BASIN-CONNECTOR → ROUTE-HEARTHROAD (via LOC-SLOB-FOOTHILL-CAMP); graph reachability proven, directional/seasonal authority HOLD
+RENDERER SUBJECT BINDING: SOURCE CROP SHA VERIFIED 12/12; production per-subject binding and mounted-byte receipt NOT PROVEN; DK old native handle STALE, current four-legged crop required
+TRAVEL/RENDERER RECEIPT: memo-os/week-7/WEEK_7_TRAVEL_RENDERER_ACCEPTANCE_EXECUTION_2026_10_27.md
 FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
 ATLAS PARENT BINDING: LOC-SLOB-FOOTHILL-CAMP — event-specific scene approval only; no permanent location promotion
 PAGE ID: P020
@@ -1593,6 +1641,9 @@ The LLC liked systems. He built one from the smallest details: a hesitation befo
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P021 — THE GENTLEMAN'S FLUSH: Slob on my Dobb (HOME) / The LLC (AWAY) — Escalation: A Tell Too Easy
+TRAVEL EVIDENCE: LLC: ROUTE-INNER-SEA-QUAY → ROUTE-PORT-BASIN-CONNECTOR → ROUTE-UPPER-BASIN-CONNECTOR → ROUTE-HEARTHROAD (via LOC-SLOB-FOOTHILL-CAMP); graph reachability proven, directional/seasonal authority HOLD
+RENDERER SUBJECT BINDING: SOURCE CROP SHA VERIFIED 12/12; production per-subject binding and mounted-byte receipt NOT PROVEN; DK old native handle STALE, current four-legged crop required
+TRAVEL/RENDERER RECEIPT: memo-os/week-7/WEEK_7_TRAVEL_RENDERER_ACCEPTANCE_EXECUTION_2026_10_27.md
 FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
 ATLAS PARENT BINDING: LOC-SLOB-FOOTHILL-CAMP — event-specific scene approval only; no permanent location promotion
 PAGE ID: P021
@@ -1675,6 +1726,9 @@ Slob had been watching the game, even while his visitor watched him. The final r
 - Complete creative DNA machine payload and validator pass not demonstrated; independent Umpire not run.
 
 ## P022 — THE GENTLEMAN'S FLUSH: Slob on my Dobb (HOME) / The LLC (AWAY) — Payoff: Five Cards
+TRAVEL EVIDENCE: LLC: ROUTE-INNER-SEA-QUAY → ROUTE-PORT-BASIN-CONNECTOR → ROUTE-UPPER-BASIN-CONNECTOR → ROUTE-HEARTHROAD (via LOC-SLOB-FOOTHILL-CAMP); graph reachability proven, directional/seasonal authority HOLD
+RENDERER SUBJECT BINDING: SOURCE CROP SHA VERIFIED 12/12; production per-subject binding and mounted-byte receipt NOT PROVEN; DK old native handle STALE, current four-legged crop required
+TRAVEL/RENDERER RECEIPT: memo-os/week-7/WEEK_7_TRAVEL_RENDERER_ACCEPTANCE_EXECUTION_2026_10_27.md
 FOUNDER VENUE AUTHORITY: Week 7 six-venue approval 2026-10-27; memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md
 ATLAS PARENT BINDING: LOC-SLOB-FOOTHILL-CAMP — event-specific scene approval only; no permanent location promotion
 PAGE ID: P022
