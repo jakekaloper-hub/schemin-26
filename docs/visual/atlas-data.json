@@ -1,0 +1,651 @@
+{
+  "schema_version": 1,
+  "coordinate_space": "schemin-local-v1 (abstract, non-metric)",
+  "state_as_of": "end_of_week_3_2026",
+  "notices": [
+    "Abstract positions are non-metric: no geographic distances or travel times should be inferred.",
+    "Historical interpretation is distinguished from world canon.",
+    "Current world state may lag more recent weekly storytelling."
+  ],
+  "locations": [
+    {
+      "id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "name": "Trade Jedi Mountain Base",
+      "position": [
+        69,
+        69
+      ],
+      "zone": "REG-UPPER-VALLEYS",
+      "division": "DIV-BURGERS",
+      "owner": "CHAR-JAKE-KALOPER",
+      "canon_status": "PERMANENT_CANON",
+      "current_state": []
+    },
+    {
+      "id": "LOC-MUD-DOGS-SWAMP",
+      "name": "Mud Dogs Swamp",
+      "position": [
+        42,
+        16
+      ],
+      "zone": "REG-SOUTHERN-WETLANDS",
+      "division": "DIV-BURGERS",
+      "owner": "CHAR-BOBBY-MITCHELL",
+      "canon_status": "PERMANENT_CANON",
+      "current_state": []
+    },
+    {
+      "id": "LOC-COUNTRY-CLUB-JACKSON",
+      "name": "Country Club of Jackson",
+      "position": [
+        57,
+        24
+      ],
+      "zone": "REG-SOUTHERN-WETLANDS",
+      "division": "DIV-WINGS",
+      "owner": "CHAR-ZACH-WILSON",
+      "canon_status": "PERMANENT_CANON",
+      "current_state": [
+        "Week 3 chili contamination/humiliation history",
+        "cleanup status unresolved"
+      ]
+    },
+    {
+      "id": "LOC-ARSENAL-BARBERSHOP",
+      "name": "Arsenal Barbershop",
+      "position": [
+        51,
+        59
+      ],
+      "zone": "REG-UPPER-VALLEYS",
+      "division": "DIV-BURGERS",
+      "owner": "CHAR-WILSON-LOOK",
+      "canon_status": "PERMANENT_CANON",
+      "current_state": []
+    },
+    {
+      "id": "LOC-STORM-BOWL",
+      "name": "Storm Bowl",
+      "position": [
+        84,
+        43
+      ],
+      "zone": "REG-EASTERN-STORM-COAST",
+      "division": "DIV-PIZZA",
+      "owner": "CHAR-MANNING-WELTY",
+      "canon_status": "PROVISIONAL_CANON",
+      "current_state": []
+    },
+    {
+      "id": "LOC-LLC-BOARDROOM",
+      "name": "LLC Mercantile Boardroom",
+      "position": [
+        78,
+        18
+      ],
+      "zone": "REG-INNER-SEA-LITTORAL",
+      "division": "DIV-PIZZA",
+      "owner": "CHAR-DAVID-BABB",
+      "canon_status": "PERMANENT_CANON",
+      "current_state": [
+        "Week 2 intrusion/destruction history retained",
+        "repair state not fully specified"
+      ]
+    },
+    {
+      "id": "LOC-RED-RUINS",
+      "name": "Red Leopard Ruins",
+      "position": [
+        75,
+        61
+      ],
+      "zone": "REG-EASTERN-STORM-COAST",
+      "division": "DIV-WINGS",
+      "owner": "CHAR-KEVIN-ZEEK",
+      "canon_status": "PERMANENT_CANON",
+      "current_state": []
+    },
+    {
+      "id": "LOC-TDS-WATERFALL-TEMPLE",
+      "name": "Podium Shadow Waterfall Temple",
+      "position": [
+        32,
+        29
+      ],
+      "zone": "REG-SOUTHERN-WETLANDS",
+      "division": "DIV-BURGERS",
+      "owner": "CHAR-PHILLIP-PITTS",
+      "canon_status": "PERMANENT_CANON",
+      "current_state": []
+    },
+    {
+      "id": "LOC-CHILI-STABLE",
+      "name": "Chili Outlaw Stable",
+      "position": [
+        15,
+        45
+      ],
+      "zone": "REG-WESTERN-TABLELANDS",
+      "division": "DIV-WINGS",
+      "owner": "CHAR-BRANDON-PRYOR",
+      "canon_status": "PERMANENT_CANON",
+      "current_state": []
+    },
+    {
+      "id": "LOC-BELT-KEEPER-KEEP",
+      "name": "Belt Keeper Rune Keep",
+      "position": [
+        73,
+        76
+      ],
+      "zone": "REG-EASTERN-STORM-COAST",
+      "division": "DIV-PIZZA",
+      "owner": "CHAR-AUSTIN-BYARS",
+      "canon_status": "PROVISIONAL_CANON",
+      "current_state": []
+    },
+    {
+      "id": "LOC-SLOB-FOOTHILL-CAMP",
+      "name": "Slob Foothill Camp",
+      "position": [
+        37,
+        62
+      ],
+      "zone": "REG-UPPER-VALLEYS",
+      "division": "DIV-WINGS",
+      "owner": "CHAR-JORDAN-HOLLINGSHEAD",
+      "canon_status": "PROVISIONAL_CANON",
+      "current_state": []
+    },
+    {
+      "id": "LOC-CHINS-ROAD-COMMONS",
+      "name": "People's Champ Road Commons",
+      "position": [
+        50,
+        43
+      ],
+      "zone": "REG-CENTRAL-BASIN",
+      "division": "DIV-PIZZA",
+      "owner": "CHAR-BEN-WHIPPLE",
+      "canon_status": "PROVISIONAL_CANON",
+      "current_state": []
+    },
+    {
+      "id": "LOC-LEAGUE-CHAMBER",
+      "name": "League Chamber",
+      "position": [
+        56,
+        47
+      ],
+      "zone": "REG-CENTRAL-BASIN",
+      "division": null,
+      "owner": null,
+      "canon_status": "PROVISIONAL_CANON",
+      "current_state": []
+    },
+    {
+      "id": "LOC-PITTSYS-BOOK",
+      "name": "Pittsy's Book",
+      "position": [
+        54,
+        40
+      ],
+      "zone": "REG-CENTRAL-BASIN",
+      "division": null,
+      "owner": "CHAR-PHILLIP-PITTS",
+      "canon_status": "PROVISIONAL_CANON",
+      "current_state": []
+    },
+    {
+      "id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "name": "Bridge at the Mountain Lake",
+      "position": [
+        64,
+        66
+      ],
+      "zone": "REG-UPPER-VALLEYS",
+      "division": "DIV-BURGERS",
+      "owner": null,
+      "canon_status": "PROVISIONAL_CANON",
+      "current_state": [
+        "Week 3 decision landmark",
+        "structurally intact unless later evidence changes it"
+      ]
+    },
+    {
+      "id": "LOC-DK-MUD-HILL",
+      "name": "Mire Hill Battlefield",
+      "position": [
+        40,
+        47
+      ],
+      "zone": "REG-CENTRAL-BASIN",
+      "division": "DIV-BURGERS",
+      "owner": null,
+      "canon_status": "PROVISIONAL_CANON",
+      "current_state": [
+        "battlefield scar and yield memory",
+        "cleanup/custodial work continues after the Week 3 Encounter",
+        "Wilson/D0nkey K0ng standard placed below summit; summit remains unclaimed and no sovereignty or territorial transfer"
+      ]
+    },
+    {
+      "id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "name": "Alpine Wager Route",
+      "position": [
+        45,
+        82
+      ],
+      "zone": "REG-NORTHERN-SPINE",
+      "division": "DIV-WINGS",
+      "owner": null,
+      "canon_status": "PROVISIONAL_CANON",
+      "current_state": [
+        "wager/summit landmark"
+      ]
+    },
+    {
+      "id": "LOC-SOUTHERN-SPEEDWAY",
+      "name": "Southern Speedway",
+      "position": [
+        47,
+        35
+      ],
+      "zone": "REG-CENTRAL-BASIN",
+      "division": "DIV-PIZZA",
+      "owner": null,
+      "canon_status": "PROVISIONAL_CANON",
+      "current_state": [
+        "Week 3 survival-race history"
+      ]
+    },
+    {
+      "id": "LOC-LLC-STORM-CITY",
+      "name": "LLC Port City Storm District",
+      "position": [
+        83,
+        20
+      ],
+      "zone": "REG-INNER-SEA-LITTORAL",
+      "division": "DIV-PIZZA",
+      "owner": "CHAR-DAVID-BABB",
+      "canon_status": "PROVISIONAL_CANON",
+      "current_state": [
+        "Week 3 weather-event history",
+        "storm-protection continuity"
+      ]
+    },
+    {
+      "id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "name": "D0nkey K0ng Highland Stronghold",
+      "position": [
+        48,
+        68
+      ],
+      "zone": "REG-UPPER-VALLEYS",
+      "division": "DIV-BURGERS",
+      "owner": "CHAR-WILSON-LOOK",
+      "canon_status": "INTERPRETIVE_CANON",
+      "current_state": []
+    },
+    {
+      "id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "name": "TDS–Chili Shared March",
+      "position": [
+        28,
+        42
+      ],
+      "zone": "REG-WESTERN-TABLELANDS",
+      "division": null,
+      "owner": null,
+      "canon_status": "INTERPRETIVE_CANON",
+      "current_state": []
+    },
+    {
+      "id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "name": "Compact Neutral Grounds",
+      "position": [
+        60,
+        46
+      ],
+      "zone": "REG-CENTRAL-BASIN",
+      "division": null,
+      "owner": null,
+      "canon_status": "PROVISIONAL_CANON",
+      "current_state": []
+    },
+    {
+      "id": "LOC-LEAGUE-ARCHIVE",
+      "name": "League Archive",
+      "position": [
+        55,
+        50
+      ],
+      "zone": "REG-CENTRAL-BASIN",
+      "division": null,
+      "owner": null,
+      "canon_status": "INTERPRETIVE_CANON",
+      "current_state": []
+    }
+  ],
+  "routes": [
+    {
+      "id": "ROUTE-EASTERN-ASCENT",
+      "name": "Eastern Ascent",
+      "from": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "class": "REGIONAL",
+      "canon_status": "INTERPRETIVE_CANON",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ]
+    },
+    {
+      "id": "ROUTE-HEARTHROAD",
+      "name": "Hearthroad",
+      "from": "LOC-ARSENAL-BARBERSHOP",
+      "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "class": "REGIONAL",
+      "canon_status": "INTERPRETIVE_CANON",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ]
+    },
+    {
+      "id": "ROUTE-DELTA-CAUSEWAY",
+      "name": "Delta Causeway",
+      "from": "LOC-MUD-DOGS-SWAMP",
+      "to": "LOC-COUNTRY-CLUB-JACKSON",
+      "class": "CROSS_DIVISION",
+      "canon_status": "INTERPRETIVE_CANON",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wetland"
+      ]
+    },
+    {
+      "id": "ROUTE-JACKSON-LEVEE",
+      "name": "Jackson Levee Road",
+      "from": "LOC-COUNTRY-CLUB-JACKSON",
+      "to": "LOC-CHINS-ROAD-COMMONS",
+      "class": "CROSS_DIVISION",
+      "canon_status": "INTERPRETIVE_CANON",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ]
+    },
+    {
+      "id": "ROUTE-STORM-COAST",
+      "name": "Storm Coast Road",
+      "from": "LOC-STORM-BOWL",
+      "to": "LOC-LLC-STORM-CITY",
+      "class": "REGIONAL",
+      "canon_status": "INTERPRETIVE_CANON",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon",
+        "sea"
+      ]
+    },
+    {
+      "id": "ROUTE-INNER-SEA-QUAY",
+      "name": "Inner Sea Quay Road",
+      "from": "LOC-LLC-BOARDROOM",
+      "to": "LOC-LLC-STORM-CITY",
+      "class": "LOCAL",
+      "canon_status": "INTERPRETIVE_CANON",
+      "travel_modes": [
+        "foot",
+        "wagon",
+        "sea"
+      ]
+    },
+    {
+      "id": "ROUTE-RAIN-ESCARPMENT",
+      "name": "Rain Escarpment Road",
+      "from": "LOC-RED-RUINS",
+      "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "class": "CROSS_DIVISION",
+      "canon_status": "INTERPRETIVE_CANON",
+      "travel_modes": [
+        "foot",
+        "mount"
+      ]
+    },
+    {
+      "id": "ROUTE-FALLS-PATH",
+      "name": "Falls Path",
+      "from": "LOC-TDS-WATERFALL-TEMPLE",
+      "to": "LOC-MUD-DOGS-SWAMP",
+      "class": "REGIONAL",
+      "canon_status": "INTERPRETIVE_CANON",
+      "travel_modes": [
+        "foot",
+        "wetland"
+      ]
+    },
+    {
+      "id": "ROUTE-WESTERN-RANGE",
+      "name": "Western Range Road",
+      "from": "LOC-CHILI-STABLE",
+      "to": "LOC-CHINS-ROAD-COMMONS",
+      "class": "CROSS_DIVISION",
+      "canon_status": "INTERPRETIVE_CANON",
+      "travel_modes": [
+        "mount",
+        "wagon",
+        "foot"
+      ]
+    },
+    {
+      "id": "ROUTE-BLACK-CLIFF",
+      "name": "Black Cliff Road",
+      "from": "LOC-BELT-KEEPER-KEEP",
+      "to": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "class": "CROSS_DIVISION",
+      "canon_status": "INTERPRETIVE_CANON",
+      "travel_modes": [
+        "foot",
+        "mount"
+      ]
+    },
+    {
+      "id": "ROUTE-BASIN-MARKET",
+      "name": "Basin Market Road",
+      "from": "LOC-CHINS-ROAD-COMMONS",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "class": "LOCAL",
+      "canon_status": "INTERPRETIVE_CANON",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon",
+        "river"
+      ]
+    },
+    {
+      "id": "ROUTE-NORTHERN-PASS",
+      "name": "Northern Pass",
+      "from": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "to": "LOC-ARSENAL-BARBERSHOP",
+      "class": "EXPEDITION",
+      "canon_status": "INTERPRETIVE_CANON",
+      "travel_modes": [
+        "foot",
+        "mount"
+      ]
+    },
+    {
+      "id": "ROUTE-DK-HIGHLAND-LINK",
+      "name": "Highland Stronghold Road",
+      "from": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "to": "LOC-ARSENAL-BARBERSHOP",
+      "class": "LOCAL",
+      "canon_status": "INTERPRETIVE_CANON",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ]
+    },
+    {
+      "id": "ROUTE-TDS-CHILI-SHARED-MARCH",
+      "name": "Shared March Road",
+      "from": "LOC-TDS-WATERFALL-TEMPLE",
+      "to": "LOC-CHILI-STABLE",
+      "class": "CROSS_DIVISION",
+      "canon_status": "INTERPRETIVE_CANON",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon",
+        "wetland"
+      ]
+    },
+    {
+      "id": "ROUTE-COMPACT-GROUNDS",
+      "name": "Compact Grounds Road",
+      "from": "LOC-LEAGUE-CHAMBER",
+      "to": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "class": "LOCAL",
+      "canon_status": "INTERPRETIVE_CANON",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ]
+    },
+    {
+      "id": "ROUTE-UPPER-BASIN-CONNECTOR",
+      "name": "Upper Basin Connector",
+      "from": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "class": "REGIONAL",
+      "canon_status": "INTERPRETIVE_CANON",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon",
+        "river"
+      ]
+    },
+    {
+      "id": "ROUTE-PORT-BASIN-CONNECTOR",
+      "name": "Port-to-Basin Road",
+      "from": "LOC-LLC-STORM-CITY",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "class": "REGIONAL",
+      "canon_status": "INTERPRETIVE_CANON",
+      "travel_modes": [
+        "wagon",
+        "river",
+        "coastal_vessel"
+      ]
+    },
+    {
+      "id": "ROUTE-ARCHIVE-CHAMBER",
+      "name": "Archive–Chamber Processional",
+      "from": "LOC-LEAGUE-ARCHIVE",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "class": "LOCAL",
+      "canon_status": "INTERPRETIVE_CANON",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "EVT-W2-LLC-INTRUSION",
+      "week": 2,
+      "location_id": "LOC-LLC-BOARDROOM",
+      "type": "damage",
+      "classification": "NARRATIVE_INTERPRETATION",
+      "continuity_out": [
+        "intrusion/destruction history",
+        "future reuse may show repair or scars"
+      ]
+    },
+    {
+      "id": "EVT-W3-BRIDGE",
+      "week": 3,
+      "location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "type": "encounter",
+      "classification": "WORLD_CANON",
+      "continuity_out": [
+        "remembered decision landmark",
+        "no physical destruction required"
+      ]
+    },
+    {
+      "id": "EVT-W3-MIRE-HILL",
+      "week": 3,
+      "location_id": "LOC-DK-MUD-HILL",
+      "type": "scar",
+      "classification": "WORLD_CANON",
+      "continuity_out": [
+        "scarred hill",
+        "yield memory",
+        "discarded standards/debris may persist until cleanup"
+      ]
+    },
+    {
+      "id": "EVT-W3-COUNTRY-CLUB-CHILI",
+      "week": 3,
+      "location_id": "LOC-COUNTRY-CLUB-JACKSON",
+      "type": "contamination",
+      "classification": "WORLD_CANON",
+      "continuity_out": [
+        "chili contamination/humiliation history",
+        "cleanup required before pristine reset"
+      ]
+    },
+    {
+      "id": "EVT-W3-ALPINE-WAGER",
+      "week": 3,
+      "location_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "type": "memorialization",
+      "classification": "WORLD_CANON",
+      "continuity_out": [
+        "wager/summit receipt landmark"
+      ]
+    },
+    {
+      "id": "EVT-W3-SPEEDWAY",
+      "week": 3,
+      "location_id": "LOC-SOUTHERN-SPEEDWAY",
+      "type": "encounter",
+      "classification": "WORLD_CANON",
+      "continuity_out": [
+        "HMB/Chins survival-race history"
+      ]
+    },
+    {
+      "id": "EVT-W3-LLC-STORM",
+      "week": 3,
+      "location_id": "LOC-LLC-STORM-CITY",
+      "type": "weather",
+      "classification": "WORLD_CANON",
+      "continuity_out": [
+        "major weather event remembered",
+        "storm-protection works become continuity object"
+      ]
+    }
+  ],
+  "provenance": [
+    "world/data/locations.json",
+    "world/data/routes.json",
+    "world/data/world_state_events.json",
+    "world/data/current_world_state.json"
+  ]
+}
