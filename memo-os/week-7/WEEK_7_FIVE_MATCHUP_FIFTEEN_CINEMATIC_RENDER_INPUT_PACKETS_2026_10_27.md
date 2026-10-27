@@ -121,6 +121,17 @@ The tower remained. The haunting did not.
 
 On the league's observed scoreboard, El Niño stood **11.08 points** ahead. At the stronghold, DK had finally identified his opponent. Unfortunately, the explanation had arrived after he left the room.
 
+### P010 Founder approval and Unarmed Lesson production handoff — 2026-10-27
+**Founder decision:** P010 `The Window` visually APPROVED in conversation, following already approved P008 and P009. Accepted conversation PNG `SCHEMIN_26_W07_P010_THE_WINDOW_REVIEW.png`. Approval records visual acceptance of the three-page Haunted Stronghold chapter; do not assert independent anatomy/copy/Atlas/mobile QA or binary ingestion into GitHub. P010 imagery is not to be regenerated absent new direction.
+
+**Next matchup / stable story:** ObiWan Jacoby HOME vs Seven Deadly Chins AWAY, `The Unarmed Lesson`. Existing P011–P013 manuscripts and scene direction remain controlling; no new plot or Atlas. ObiWan = `CHAR-JAKE-KALOPER` Trade Jedi, green lightsaber UNLIT and clipped to belt in every frame (no champion's Belt). Seven Deadly Chins = `CHAR-BEN-WHIPPLE` approved representation. `LOC-TRADE-JEDI-MOUNTAIN-BASE` mountain training court remains spatially consistent across all pages.
+
+**Individual folio progression:**
+- P011 — `A Weapon Left Sleeping`: the courteous arrival and ObiWan's confident unarmed invitation. Wide establishing shot, no throw or winning-result reveal.
+- P012 — `Weight and Timing`: changing footwork, grip and first credible leverage. No final airborne payoff or winner banner.
+- P013 — `The Sky Between`: coherent planted-foot throw and airborne arc, lightsaber still untouched. **ONLY P013** receives the same P007/P010 `FINAL · WEEK 7` two-team results banner, deterministically typeset: `SEVEN DEADLY CHINS 116.60` WINNER vs `OBIWAN JACOBY 94.75`; 21.85-point fantasy margin. No Week 7 GOTW label (reserved for Red–HMB).
+**Production scope:** Prepare P011 for generation and Founder visual review; do not render P012/P013 preemptively. Exact source manuscript must remain controlled typography, 1024×1536 portrait; preserve no-false-green gates.
+
 ## UNARMED LESSON — ObiWan Jacoby HOME vs Seven Deadly Chins AWAY
 **Parent Atlas:** `LOC-TRADE-JEDI-MOUNTAIN-BASE`. **Subject A:** `CHAR-JAKE-KALOPER`, crop `canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png`, expected SHA256 `fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8`. **Subject B:** `CHAR-BEN-WHIPPLE`, crop `canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png`, expected SHA256 `0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f`. All SHA values are manifest expectations, not fresh byte-verification. **Continuity:** Training courtyard wall, mountains and entrance remain on fixed sides; unlit green lightsaber hilt stays clipped to ObiWan belt throughout.
 
