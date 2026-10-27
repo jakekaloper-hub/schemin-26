@@ -71,20 +71,18 @@ Duckhook 141.74, TDS 141.42. El Niño 133.75, DK 122.67. Chins 116.60, ObiWan 94
 - QA: exact-copy line edit, 390px layout, source/fact reconciliation, page-number proof and independent Umpire NOT RUN.
 
 ## P005 — THE MIRACLE PUTT: Three Dreaded Snake (HOME) / Dr. Duckhook (AWAY) — Overture: A Friendly Round
-**Source:** Revision 2 manuscript; **Class:** matchup; **Copy words:** 278; **Copyfit:** HIGH; **Approval:** HOLD.
+**Source:** Revision 2 manuscript; **Class:** matchup; **Copy words:** 137; **Copyfit:** TRIAGE OK — actual mobile HOLD; **Approval:** HOLD.
 
 ### Candidate exact publishable copy (not copy-locked)
-The waterfall made a sound so steady that Duckhook mistook it for silence. He stepped out of the damp jungle path and found his host beside a compact strip of grass, three heads peering at the same flag from three different angles. TDS had cleared a little room for the game, though the jungle had already begun claiming it back.
+The waterfall made a steady sound behind the little jungle golf course. Duckhook followed the path to the first tee, where Three Dreaded Snake waited beside a flag no taller than the surrounding ferns. Three heads studied the same green from three different angles.
 
 “Friendly round,” Duckhook said.
 
-“Of course,” answered one head. Another studied his grip. The third watched the little cup at the end of the green.
+“Of course,” replied one head. Another examined the visitor's grip. The third watched the cup.
 
-The visitor set down his bag with the care of a professional preparing for an afternoon nobody would remember. TDS indicated the first tee. The two exchanged compliments about the course, each careful to make the compliments sound sincere. Neither asked what the other considered a friendly score.
+The host had made an effort to welcome him: trimmed grass, a clear approach and a dry place for the bags. Duckhook praised the course. TDS praised the guest's punctuality. Both spoke with the care of men who meant to remain gracious, at least until the first difficult shot.
 
-The first disagreement was about a leaf. It had landed beside Duckhook's ball, and TDS insisted the rules of the house permitted its removal. Duckhook pointed out that the house was a temple and the rules had not been written down. TDS's left head offered to write them immediately. The middle head called for the next stroke. The right head began to laugh, which was not helpful to either side.
-
-They played on. The green was small enough for every misjudgment to be witnessed and the jungle large enough to swallow any excuse. Duckhook clipped a branch and declared it a strategic ricochet. TDS praised the shot in a tone that made praise sound suspiciously like pity. At the next cup, the host's three heads disagreed over whether a ball had stopped moving. Duckhook crouched to watch the last rotation. Nobody spoke until it settled.
+Duckhook set down his bag and looked toward the waterfall. It was a beautiful place to lose track of an afternoon. Neither player mentioned losing.
 
 ### Staging/production notes excluded from printed copy
 - No embedded production-instruction paragraph detected; camera and source requirements remain in the manuscript/packet contract.
@@ -96,18 +94,16 @@ They played on. The green was small enough for every misjudgment to be witnessed
 - QA: exact-copy line edit, 390px layout, source/fact reconciliation, page-number proof and independent Umpire NOT RUN.
 
 ## P006 — THE MIRACLE PUTT: Three Dreaded Snake (HOME) / Dr. Duckhook (AWAY) — Escalation: The Courtesies End
-**Source:** Revision 2 manuscript; **Class:** matchup; **Copy words:** 254; **Copyfit:** HIGH; **Approval:** HOLD.
+**Source:** Revision 2 manuscript; **Class:** matchup; **Copy words:** 138; **Copyfit:** TRIAGE OK — actual mobile HOLD; **Approval:** HOLD.
 
 ### Candidate exact publishable copy (not copy-locked)
-By the next stretch of play, every compliment had acquired a sharp edge. Duckhook took an unnecessary practice swing after a perfectly acceptable shot. TDS celebrated a short putt as if the temple had survived a siege. One head called the line straight; another insisted it broke left; the third accused the first two of standing where the light was best.
+The first dispute concerned a leaf. It lay beside Duckhook's ball, and TDS insisted it could be moved. Duckhook asked where the house rules were written. The left head offered to write them immediately; the middle head called for the next stroke; the right head laughed.
 
-They began to invent ceremonies for their own successes. Duckhook removed his cap after each good stroke. TDS's heads developed three incompatible victory nods. When Duckhook conceded a harmless putt, TDS demanded the ball be struck anyway. When TDS suggested a break, Duckhook asked whether the course had always been so difficult after sundown.
+By the next green, courtesy had turned competitive. Duckhook celebrated a modest recovery as if it were a championship. TDS demanded that a conceded putt be played anyway. Each compliment arrived with a little more edge.
 
-The waterfall kept its own counsel. Beneath the humor, both had begun to count the distance between friendship and defeat.
+The jungle swallowed their excuses. A branch redirected Duckhook's ball. TDS called it luck. Three heads then disagreed over whether the host's own ball had stopped moving. Duckhook crouched beside the cup and watched the last rotation.
 
-Before the final stroke, Duckhook noticed the damp grass falling away toward the waterfall. He had spent the afternoon arguing with his host, but he had also learned the course: the little ridge by the stone, the moisture near the cup, the way the breeze changed after the spray rose. He adjusted his stance instead of taking another theatrical practice swing.
-
-TDS watched that small change. For the first time all afternoon, none of his heads offered advice. The host had made this place for a friendly game; now he understood why the guest had taken it seriously. The putt would not erase the ridiculousness of the afternoon. It would decide who got to remember it with a smile.
+The waterfall kept its counsel. Their friendship had survived the opening holes; their pride was now a separate matter.
 
 ### Staging/production notes excluded from printed copy
 - No embedded production-instruction paragraph detected; camera and source requirements remain in the manuscript/packet contract.
@@ -142,20 +138,18 @@ The Commonwealth ledger would show Duckhook ahead by **0.32**. The little course
 - QA: exact-copy line edit, 390px layout, source/fact reconciliation, page-number proof and independent Umpire NOT RUN.
 
 ## P008 — THE HAUNTED STRONGHOLD: D0nkey K0ng (HOME) / El Niño (AWAY) — Overture: The First Knock
-**Source:** Revision 2 manuscript; **Class:** matchup; **Copy words:** 252; **Copyfit:** HIGH; **Approval:** HOLD.
+**Source:** Revision 2 manuscript; **Class:** matchup; **Copy words:** 134; **Copyfit:** TRIAGE OK — actual mobile HOLD; **Approval:** HOLD.
 
 ### Candidate exact publishable copy (not copy-locked)
-DK had returned to a stronghold that seemed unwilling to welcome him. A shutter clicked twice against stone. Somewhere above the Arsenal hall, a lantern guttered and recovered. The banner at the stairhead moved though the inner doors were closed.
+The stronghold was making noises DK did not recognize. A shutter knocked twice against stone. A lantern bent toward the stairwell. The banner above the hall moved though the doors were closed.
 
-He inspected the latch, declared it sound and went back to arranging the training gear. A second knock came from the tower.
+DK inspected the latch and declared it sound. Then came a third knock, high in the tower.
 
-There were ordinary explanations for all of it. DK knew that. He also knew the sound had come from above him, and that no one had passed on the stairs. He stood in the doorway with his four equine legs planted squarely, the gorilla-warrior above them listening for a third knock.
+He stood squarely on four equine legs, gorilla torso turned toward the sound. There were ordinary explanations for old buildings in autumn storms. He knew that. But no one had climbed the stairs, and the upper room was supposed to be empty.
 
-It came immediately.
+He closed a door, checked the corridor and returned to his equipment. The knocking stopped. That should have been reassuring. Instead, he found himself listening for its return.
 
-He went looking for evidence and found only more opportunities to frighten himself. A hanging coat became a figure at the end of the corridor. A loose metal ring tapped the wall just as he passed. The sound stopped when he stopped, and resumed when he moved, which seemed to him conclusive proof of pursuit. He had forgotten that the draft strengthened each time he opened the inner door.
-
-He could have gone downstairs. Instead, pride demanded that he solve the mystery in the tower. The upper stair curved too tightly for a careless charge, so he climbed with the deliberate, awkward precision of a great four-legged creature trying not to appear nervous. Each hoof sounded like another set of footsteps following him. By the landing, the stronghold seemed crowded with things that were not there.
+A long whistle came from above. DK looked up. Somewhere outside, the wind gathered strength.
 
 ### Staging/production notes excluded from printed copy
 - No embedded production-instruction paragraph detected; camera and source requirements remain in the manuscript/packet contract.
@@ -215,22 +209,20 @@ On the league's observed scoreboard, El Niño stood **11.08 points** ahead. At t
 - QA: exact-copy line edit, 390px layout, source/fact reconciliation, page-number proof and independent Umpire NOT RUN.
 
 ## P011 — THE UNARMED LESSON: ObiWan Jacoby (HOME) / Seven Deadly Chins (AWAY) — Overture: A Weapon Left Sleeping
-**Source:** Revision 2 manuscript; **Class:** matchup; **Copy words:** 247; **Copyfit:** HIGH; **Approval:** HOLD.
+**Source:** Revision 2 manuscript; **Class:** matchup; **Copy words:** 132; **Copyfit:** TRIAGE OK — actual mobile HOLD; **Approval:** HOLD.
 
 ### Candidate exact publishable copy (not copy-locked)
-ObiWan practiced alone on the mountain training ground when Chins appeared at the edge of the courtyard. The visitor watched the last movement, then stepped forward with a challenge that sounded almost courteous.
+ObiWan was practicing in the mountain courtyard when Seven Deadly Chins arrived. The visitor watched the final movement and stepped forward with a challenge that sounded almost courteous.
 
-The Trade Jedi glanced at the green lightsaber clipped to his belt. It remained dark.
+The Jedi glanced at the green lightsaber clipped to his belt. It remained unlit.
 
 “Not necessary,” he said.
 
-Chins looked from the weapon to ObiWan's empty hands. He had traveled too far for an exhibition, but he had no intention of insisting that an opponent draw a blade. The two took their places on firm ground, the mountain air moving through the courtyard without favor.
+Chins looked at the weapon, then at ObiWan's empty hands. He had traveled too far for an exhibition, but he would not insist that an opponent draw a blade. They took their places on firm ground.
 
-ObiWan smiled as though the outcome had already been explained.
+ObiWan believed he was offering a lesson without unnecessary ceremony. Chins believed he had come to measure the skill behind the reputation. Neither recognized the other's intention.
 
-Chins had not come to the mountain to ridicule a Jedi. He wanted to know whether the confidence he had heard about was a skill he could measure. ObiWan, meanwhile, believed he was offering his guest a lesson without unnecessary ceremony. Their misunderstanding made the contest sharper: each thought the other had failed to appreciate the courtesy being extended.
-
-The first exchange rewarded ObiWan's speed. The second taught Chins the rhythm of his pivots. By the third, the visitor stopped following the Jedi's hands and began watching his hips. ObiWan noticed the adjustment and chose a more ambitious maneuver, partly because he could and partly because he wanted the audience of one to understand how much he was withholding. The unlit hilt at his belt moved with him, a silent reminder of a choice he had already made.
+The mountain air moved across the courtyard. ObiWan smiled as though the result had already been explained. Chins settled his stance and waited.
 
 ### Staging/production notes excluded from printed copy
 - No embedded production-instruction paragraph detected; camera and source requirements remain in the manuscript/packet contract.
@@ -290,20 +282,16 @@ The observed fantasy margin was **21.85 points** in Chins's favor. The training 
 - QA: exact-copy line edit, 390px layout, source/fact reconciliation, page-number proof and independent Umpire NOT RUN.
 
 ## P014 — THE CYPRESS CLEARING: Mud Dogs (HOME) / The Chili Cheesers (AWAY) — Overture: Tracks Too Large
-**Source:** Revision 2 manuscript; **Class:** matchup; **Copy words:** 233; **Copyfit:** HIGH; **Approval:** HOLD.
+**Source:** Revision 2 manuscript; **Class:** matchup; **Copy words:** 133; **Copyfit:** TRIAGE OK — actual mobile HOLD; **Approval:** HOLD.
 
 ### Candidate exact publishable copy (not copy-locked)
-The first print lay in soft mud where the reeds thinned. Mud Dogs stopped beside it and said nothing. Chili knelt, measured the shape with his eyes and followed the trail toward the darker trees.
+The first deer print lay in soft mud where the reeds thinned. Mud Dogs stopped beside it. Chili knelt and studied the unusually large shape. Neither hunter wanted to be first to say what it might mean.
 
-The tracks were unusually large. Neither hunter wanted to be first to say what that might mean.
+Mud knew which ground would hold a boot and which would swallow one. Chili read the broken stems along the trail. They moved through the Southern Wetlands in an uneasy partnership, each pretending not to notice when the other found a better sign.
 
-Mud knew which patches would hold a boot and which would swallow one. Chili had his own method of reading broken stems and disturbed leaves. They moved through the wetland in an uneasy partnership, each pretending not to notice when the other found the better sign.
+Ahead, something shifted beyond the cypress roots. Chili started forward, but Mud raised a hand. The dark patch between them was water, not soil.
 
-Ahead, something shifted beyond the cypress roots.
-
-Mud stopped Chili before the next patch of ground. The visitor had seen a promising opening, but Mud knew the dark water beneath it would take a boot to the knee. He pointed to a line of roots that could carry their weight. Chili followed, irritated by the delay and grateful for it in the same breath.
-
-Their rivalry grew quieter as the animal drew nearer. The buck was not an opponent obliged to appear on schedule. It would move when the wind, light and cover allowed. Chili wanted the decisive chance; Mud wanted the visitors to leave the swamp understanding why chances could not be forced. When the first sighting dissolved into reeds, neither blamed the other. That restraint was the first honest cooperation of the day.
+They took the longer route. A second print appeared beneath a low branch. Whatever had made it was moving toward the deeper reeds. The two hunters followed in silence.
 
 ### Staging/production notes excluded from printed copy
 - No embedded production-instruction paragraph detected; camera and source requirements remain in the manuscript/packet contract.
