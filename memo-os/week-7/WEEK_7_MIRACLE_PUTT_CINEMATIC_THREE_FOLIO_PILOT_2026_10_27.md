@@ -30,6 +30,17 @@
 **Typography:** Small shared masthead and chapter title, exact 137-word source copy from synchronized P005, integrated in negative space; no huge OVERTURE label.
 **Next instant:** A leaf beside the ball becomes the disputed rule. **Reject:** giant clubhouse, final putt, extra heads, ordinary human Duckhook face, generic hero poster.
 
+## P005 Founder visual approval and P006 continuity handoff — 2026-10-27
+**Founder decision:** The Commissioner explicitly approved the P005 `A Friendly Round` page as shown in the conversation. This is Founder **visual** approval, not independent raster/character/copy QA or official memo publication.
+
+**Accepted page candidate:** `SCHEMIN_26_W07_P005_A_FRIENDLY_ROUND_REVIEW.png` in current ChatGPT conversation; no GitHub-hosted image asset or binary lineage is claimed. The approved page's exact image bytes still require archival in the canonical asset store.
+
+**Visual continuity inherited by P006:** P005 establishes TDS as a single armored reptilian humanoid with three attached serpent heads and two arms/two legs, and Duckhook as white-feathered humanoid duck golfer with orange bill, green cap, green vest and golf bag/club. Continue the jungle Waterfall Temple, compact damp green, temple stone and waterfall on the established screen-left axis, humid golden afternoon, green/gold/cream editorial palette and legible two-column magazine treatment. Avoid reproducing P005's wide greeting shot on P006; move closer to the **leaf and golf ball dispute** with Duckhook on the approach/right and TDS near the cup/left. The approved P005 figure walking toward camera is accepted despite the original bag-set-down pose suggestion.
+
+**P006 page restrictions:** Keep exactly three heads attached to one armored torso; no detached independent snakes, no scoreboard/results banner, no 0.32 margin or winner announcement, no miracle putt. Preserve exact P006 manuscript and controlled typography; do not use model-generated alternate article prose. P007 alone carries the inherited P019-style FINAL results banner.
+
+**Next approval scope:** P006 only; P007 waits for Founder P006 visual review. Keep independent publication QA and source-image renderer binding status distinct from Founder visual approval.
+
 ## P006 — ESCALATION / THE COURTESIES END
 **Narrative job:** Petty golf etiquette dispute escalates into a competitive spiral. **POV:** sideline witness.
 **Camera:** 50mm-equivalent medium two-shot on SAME landward side, three-quarter view; retain waterfall screen-left and same cup/flag axis.
