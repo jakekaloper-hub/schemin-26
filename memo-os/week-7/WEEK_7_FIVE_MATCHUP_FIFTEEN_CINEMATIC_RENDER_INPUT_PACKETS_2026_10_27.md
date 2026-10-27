@@ -299,6 +299,9 @@ The ball fell cleanly through the basket. For a moment neither moved. Red had th
 The observed Week 7 fantasy score favored Red by **11.51 points**. The private basketball ending dramatized that result without pretending the game transferred any title.
 
 ## GENTLEMAN'S FLUSH — Slob on my Dobb HOME vs The LLC AWAY
+**TRAVEL SOURCE UPDATE (2026-10-27, registered graph):** LLC Boardroom → LLC Storm City via ROUTE-INNER-SEA-QUAY → League Chamber via ROUTE-PORT-BASIN-CONNECTOR → Bridge Mountain Lake via ROUTE-UPPER-BASIN-CONNECTOR → Slob Foothill Camp as a registered VIA waypoint of ROUTE-HEARTHROAD. Reachability FOUND; mode/weather/travel-time acceptance remains conditional. This corrects earlier missing-route claims. Man-cave interior and renderer binding remain HOLD.
+
+
 **Parent Atlas:** `LOC-SLOB-FOOTHILL-CAMP`. **Subject A:** `CHAR-JORDAN-HOLLINGSHEAD`, crop `canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png`, expected SHA256 `5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515`. **Subject B:** `CHAR-DAVID-BABB`, crop `canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png`, expected SHA256 `f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340`. All SHA values are manifest expectations, not fresh byte-verification. **Continuity:** Same rustic table, same seats, light source and card backs throughout; royal flush must show one suit 10 J Q K A, no duplicates.
 
 ### FOLIO P020 — OVERTURE
