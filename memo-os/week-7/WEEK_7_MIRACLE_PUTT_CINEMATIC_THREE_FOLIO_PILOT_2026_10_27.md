@@ -50,6 +50,15 @@
 **Typography:** Exact 138-word source copy P006, controlled text zone; avoid repeating P005's establishing camera and masthead weight.
 **Next instant:** Duckhook notices green slope, host falls silent. **Reject:** fabricated scoreboard, three independent snakes, reversed geography, AI speech bubbles.
 
+## P006 Founder visual approval and P007 continuity handoff — 2026-10-27
+**Commissioner decision:** P006 `The Courtesies End` visually APPROVED in conversation. Approved conversation artifact: `SCHEMIN_26_W07_P006_THE_COURTESIES_END_REVIEW.png`; this is NOT proof of binary GitHub ingestion or independent print/mobile QA.
+
+**Carry forward to P007:** P005/P006 established Dr. Duckhook as a white-feathered anthropomorphic duck golfer, orange bill, green cap, green vest, humanoid hands/legs; TDS as exactly THREE serpent heads/three necks joined to ONE armored reptilian humanoid torso, two arms, two legs. Retain humid jungle temple, mossy stone architecture, waterfall, trimmed wet green, consistent bag, club, golf ball, cup/flag, warm mist-filtered sunset and green/gold/cream magazine design. The established waterfall/camera geography requires particular care because P006 varied perspective; the P007 scene should follow the **P005 source packet geography: waterfall screen-left, Duckhook approach-side screen-right, TDS cup-side screen-left**, ball rolls near-right toward far-left.
+
+**P007 only:** final one-last-roll putt, physically coherent ball at lip OR in cup, emotional three-head reaction, Duckhook restrained celebration. This page uniquely includes a large controlled FINAL score banner using P019's familiar two-column scoreboard hierarchy: `DR. DUCKHOOK 141.74` (WINNER) / `THREE DREADED SNAKE 141.42`, margin 0.32. No Game of the Week tag; no invented golf stroke score, wagers or changes to outcome. Respect exact P007 manuscript and typeset it deterministically; do not substitute image-generated recap or premature P005/P006 ending copy.
+
+**Acceptance boundary:** Only P005 and P006 carry Founder visual approval. P007 remains to be produced/reviewed. Independent publication QA and permanent Atlas ratification are separate gates.
+
 ## P007 — PAYOFF / ONE LAST ROLL
 **Narrative job:** Earn Duckhook's miraculous putt and the 0.32 observed margin. **POV:** ball-level suspense and restrained character reaction.
 **Camera:** 85mm-equivalent low telephoto along established near-right-to-distant-left putting line; cup and ball foreground, both characters legible behind in a deliberate depth hierarchy.
