@@ -6,6 +6,20 @@
 
 **FOUNDER VENUE DECISION (2026-10-27):** All six Week 7 matchup scene settings are APPROVED for Memo OS cinematic staging. Source: `memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md`. Approval does not create permanent Atlas locations, prove renderer attachment, approve travel modes or remove technical staging HOLDs. The proposed Red/HMB neutral court uses `LOC-COMPACT-NEUTRAL-GROUNDS` as a provisional parent, not a registered permanent court.
 
+## Commissioner results-banner rule — Haunted Stronghold (2026-10-27)
+**Founder directive:** For the three-folio Haunted Stronghold sequence, P008 and P009 have **NO final score banner, winner strip or result spoiler**. **P010 only**, as the payoff folio, uses the same accepted structured `FINAL · WEEK 7` results-banner presentation as `P007 — One Last Roll`. Do not incorrectly label this matchup Game of the Week (that designation belongs to Red Leopards / HMB).
+
+**P010 deterministic scoreboard:** `FINAL · WEEK 7` — `EL NIÑO 133.75` **WINNER** and `D0NKEY K0NG 122.67` (HOME); observed margin `11.08` fantasy points. Use a readable two-team contrast with two-decimal precision and controlled typesetting, not fantasy-point figures as physical wind measurements. Current Oct 27 ESPN/Flaim normalized snapshot reports `AWAY` winner; independent publication Fact Lock remains separately gated.
+
+**Three-frame environmental and morphology continuity:**
+- `P008 — The First Knock`: unsettling but physically explicable knocks, shutters, moving banners, lantern draft; DK at interior threshold, four horse legs + upper gorilla torso, no ghost, **no results banner**.
+- `P009 — The Wrong Enemy`: fear escalates through the same natural wind clues and broad credible staircase; no supernatural apparition or result reveal, **no results banner**.
+- `P010 — The Window`: wide exterior low viewpoint, strong gust forces DK through a convincingly broad tower opening with all four equine legs anatomically connected; action driven by El Niño's storm rather than a humanoid El Niño. **Only P010** carries the P007-style FINAL banner.
+- Preserve existing parent `LOC-DK-HIGHLAND-STRONGHOLD`, persistent architectural continuity, wind direction, banners/shutters and lantern light. `CHAR-WILSON-LOOK` must be the integrated **gorilla-centaur** (not a bipedal gorilla, not the Donkey Kong video-game ape); El Niño is storm/wind, never a second humanlike character.
+- Exact source manuscript in controlled editorial text zones; no image-generated substitute paragraph, unapproved final injury or permanent world damage.
+
+**Status:** Founder banner allocation approved as a production requirement; technical reference/Atlas/geometry, mobile, independent QA still have their own gates. P008, then P009, then P010 — generate individually and pause for Founder visual acceptance after each page.
+
 ## HAUNTED STRONGHOLD — D0nkey K0ng HOME vs El Niño AWAY
 **Parent Atlas:** `LOC-DK-HIGHLAND-STRONGHOLD`. **Subject A:** `CHAR-WILSON-LOOK`, crop `canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png`, expected SHA256 `3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f`. **Subject B:** `CHAR-MANNING-WELTY`, crop `canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png`, expected SHA256 `d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04`. All SHA values are manifest expectations, not fresh byte-verification. **Continuity:** Storm wind flows from tower outer opening toward interior, then outward through broad exit as gust changes; banners and lantern flame must obey same wind field.
 
