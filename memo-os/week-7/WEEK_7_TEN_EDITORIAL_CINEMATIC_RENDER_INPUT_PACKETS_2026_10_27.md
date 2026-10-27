@@ -35,6 +35,9 @@ DR. DUCKHOOK · WEEK SEVEN'S UNLIKELIEST FINISH
 **Asset/release boundaries:** Accepted PNG currently exists in the conversation; binary GitHub archive/upload and image hash readback not evidenced. Independent exact-copy, final raster/mobile and release QA not asserted. No PDF publication or PR merge.
 **Next matchup:** `The Haunted Stronghold` — D0nkey K0ng HOME vs El Niño AWAY — P008 first, P009/P010 separately afterward. Correct DK anatomy is one integrated gorilla-centaur with four equine legs; El Niño is environmental wind/storm, not an invented humanoid guest. P010 alone contains final-score banner, matching the other three-folio matchup payoff-page convention; validate this banner allocation with controlling page design rules before finalization.
 
+### P001 Founder visual acceptance receipt — 2026-10-27
+The Commissioner explicitly accepted the displayed P001 `The Miracle Putt` cover and authorized moving to the next matchup. Accepted conversation image: `a_cinematic_fantasy_magazine_cover_style_illustrat.png`. Dr. Duckhook is the only visible character, with approved composed putter-on-shoulder pose, traditional issue masthead and Week 7 banner. **Founder visual approval: YES.** Duplicate teaser lettering and non-packet location caption had been flagged at prior QA; approval of the image is not proof of exact-copy clearance. Canonical binary asset ingestion, independent typography/390px QA and PDF publication are NOT asserted. Preserve this visual direction; do not regenerate without explicit instruction.
+
 ## FOLIO P002 — Cover Letter: From the Editor
 **NARRATIVE JOB:** Cover letter.
 **CAMERA / STAGING / FOCAL HIERARCHY:** Editorial desk still life: folded Commonwealth issue, ink, six dispatch seals; no fake character portraits. Foreground focal object, middle-ground story consequence, background Atlas specificity. Scene must have a single visual thesis, not a generic empty text rectangle.
