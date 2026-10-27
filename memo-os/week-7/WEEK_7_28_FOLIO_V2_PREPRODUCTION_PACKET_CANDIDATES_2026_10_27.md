@@ -2,6 +2,9 @@
 
 **Governance:** Existing `memo-os/PAGE_PRODUCTION_CONTRACT_V1.md` and `memo-os/post-production/PAGE_DESIGN_PACKET_TEMPLATE_V2.md`. **All pages PLANNED/HOLD.** These are fully enumerated editorial/previs packet fields, NOT accepted source-bound render packets: absent evidence is explicitly marked UNRESOLVED rather than fabricated. No new Memo OS. Existing 28-folio split remains flexible. Real Creative DNA JSON, camera proof, image mount, independent Umpire, mobile proof and official Fact Lock remain unpassed.
 
+## P001 Founder superseding cover amendment — 2026-10-27
+**CONTROLLING OVERLAY FOR P001:** Founder approves `A — The Composed Champion`. Dr. Duckhook (`CHAR-ZACH-WILSON`) ONLY; NO TDS or any second figure, including background silhouettes. Post-victory low-angle medium-full portrait; crooked green cap, white feathered duck head, orange bill, green sweater vest, golf putter resting over shoulder, small composed grin. Mossy terrace, Waterfall Temple backdrop, golf course and mist, late-day light. Traditional Schemin masthead/Week 7 banner, `THE MIRACLE PUTT` headline and optional 0.32 teaser; NO P007 FINAL scoreboard and NO Week 7 GOTW banner. Treat any older P001 `CHARACTERS: Three Dreaded Snake; Dr. Duckhook`, old 85mm ball/cup close or score-as-banner instructions below as HISTORICAL/SUPERSEDED, not current render instructions. P005–P007 unchanged. Source-specific complete packet and source-grounded simulated Inklings method-lens dispositions are in `WEEK_7_TEN_EDITORIAL_CINEMATIC_RENDER_INPUT_PACKETS_2026_10_27.md`. Founder composition approved; asset conditioning, Atlas and raster QA NOT YET PASSED. Do not render during this preproduction update.
+
 ## P001 — Cover: The Miracle Putt
 PAGE ID: P001
 CHAPTER/MODULE: Cover: The Miracle Putt
