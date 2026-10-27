@@ -29,6 +29,12 @@ THE MIRACLE PUTT
 ONE PUTT. THREE HEADS. 0.32 POINTS.
 DR. DUCKHOOK · WEEK SEVEN'S UNLIKELIEST FINISH
 
+### P001 Founder visual acceptance — 2026-10-27 (subsequent decision)
+**Commissioner disposition:** Explicitly APPROVED the presented `a_cinematic_fantasy_magazine_cover_style_illustrat.png` as the Week 7 cover. The illustrated cover is accepted as-is for Founder visual purposes, including its pose and editorial presentation. Previous comments about duplicated teaser and location caption are not a mandate to change this image absent further instruction.
+**Continuity:** Duckhook ONLY, composed champion with putter across shoulder at waterfall jungle golf grounds. No TDS rendered. Post-match cover remains visually separate from P005–P007.
+**Asset/release boundaries:** Accepted PNG currently exists in the conversation; binary GitHub archive/upload and image hash readback not evidenced. Independent exact-copy, final raster/mobile and release QA not asserted. No PDF publication or PR merge.
+**Next matchup:** `The Haunted Stronghold` — D0nkey K0ng HOME vs El Niño AWAY — P008 first, P009/P010 separately afterward. Correct DK anatomy is one integrated gorilla-centaur with four equine legs; El Niño is environmental wind/storm, not an invented humanoid guest. P010 alone contains final-score banner, matching the other three-folio matchup payoff-page convention; validate this banner allocation with controlling page design rules before finalization.
+
 ## FOLIO P002 — Cover Letter: From the Editor
 **NARRATIVE JOB:** Cover letter.
 **CAMERA / STAGING / FOCAL HIERARCHY:** Editorial desk still life: folded Commonwealth issue, ink, six dispatch seals; no fake character portraits. Foreground focal object, middle-ground story consequence, background Atlas specificity. Scene must have a single visual thesis, not a generic empty text rectangle.
