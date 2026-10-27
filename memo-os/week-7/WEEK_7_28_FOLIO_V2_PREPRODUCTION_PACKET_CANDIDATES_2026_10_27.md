@@ -295,7 +295,7 @@ PAGE ID: P005
 CHAPTER/MODULE: THE MIRACLE PUTT: Three Dreaded Snake (HOME) / Dr. Duckhook (AWAY) — Overture: A Friendly Round
 NARRATIVE JOB: Advance golf course overture through observable change
 STORY BEAT: Overture
-CREATIVE DNA PATTERN IDs: cinematic_sequence; matchup_progression_receipt
+CREATIVE DNA PATTERN IDs: cinematic_sequence
 CREATIVE DNA PACKET JSON REF: UNRESOLVED — validator payload not yet compiled
 EXEMPLAR PAGE ID + WHAT TO BORROW: Week 6 finished PDF pp6–8 evolving camera/POV for matchup pages; pp15–18 causal stakes; p4 rankings; p2 Opening Drive; benchmark-only, not likeness authority
 ART-LED COPY TREATMENT: hybrid / art-led; high word count may force text-forward split
@@ -377,7 +377,7 @@ PAGE ID: P006
 CHAPTER/MODULE: THE MIRACLE PUTT: Three Dreaded Snake (HOME) / Dr. Duckhook (AWAY) — Escalation: The Courtesies End
 NARRATIVE JOB: Advance golf course escalation through observable change
 STORY BEAT: Escalation
-CREATIVE DNA PATTERN IDs: cinematic_sequence; matchup_progression_receipt
+CREATIVE DNA PATTERN IDs: cinematic_sequence
 CREATIVE DNA PACKET JSON REF: UNRESOLVED — validator payload not yet compiled
 EXEMPLAR PAGE ID + WHAT TO BORROW: Week 6 finished PDF pp6–8 evolving camera/POV for matchup pages; pp15–18 causal stakes; p4 rankings; p2 Opening Drive; benchmark-only, not likeness authority
 ART-LED COPY TREATMENT: hybrid / art-led; high word count may force text-forward split
@@ -457,7 +457,7 @@ PAGE ID: P007
 CHAPTER/MODULE: THE MIRACLE PUTT: Three Dreaded Snake (HOME) / Dr. Duckhook (AWAY) — Payoff: One Last Roll
 NARRATIVE JOB: Advance golf course payoff through observable change
 STORY BEAT: Payoff
-CREATIVE DNA PATTERN IDs: cinematic_sequence; matchup_progression_receipt
+CREATIVE DNA PATTERN IDs: cinematic_sequence
 CREATIVE DNA PACKET JSON REF: UNRESOLVED — validator payload not yet compiled
 EXEMPLAR PAGE ID + WHAT TO BORROW: Week 6 finished PDF pp6–8 evolving camera/POV for matchup pages; pp15–18 causal stakes; p4 rankings; p2 Opening Drive; benchmark-only, not likeness authority
 ART-LED COPY TREATMENT: hybrid / art-led; high word count may force text-forward split
@@ -537,7 +537,7 @@ PAGE ID: P008
 CHAPTER/MODULE: THE HAUNTED STRONGHOLD: D0nkey K0ng (HOME) / El Niño (AWAY) — Overture: The First Knock
 NARRATIVE JOB: Advance stronghold tower overture through observable change
 STORY BEAT: Overture
-CREATIVE DNA PATTERN IDs: cinematic_sequence; matchup_progression_receipt
+CREATIVE DNA PATTERN IDs: cinematic_sequence
 CREATIVE DNA PACKET JSON REF: UNRESOLVED — validator payload not yet compiled
 EXEMPLAR PAGE ID + WHAT TO BORROW: Week 6 finished PDF pp6–8 evolving camera/POV for matchup pages; pp15–18 causal stakes; p4 rankings; p2 Opening Drive; benchmark-only, not likeness authority
 ART-LED COPY TREATMENT: hybrid / art-led; high word count may force text-forward split
@@ -619,7 +619,7 @@ PAGE ID: P009
 CHAPTER/MODULE: THE HAUNTED STRONGHOLD: D0nkey K0ng (HOME) / El Niño (AWAY) — Escalation: The Wrong Enemy
 NARRATIVE JOB: Advance stronghold tower escalation through observable change
 STORY BEAT: Escalation
-CREATIVE DNA PATTERN IDs: cinematic_sequence; matchup_progression_receipt
+CREATIVE DNA PATTERN IDs: cinematic_sequence
 CREATIVE DNA PACKET JSON REF: UNRESOLVED — validator payload not yet compiled
 EXEMPLAR PAGE ID + WHAT TO BORROW: Week 6 finished PDF pp6–8 evolving camera/POV for matchup pages; pp15–18 causal stakes; p4 rankings; p2 Opening Drive; benchmark-only, not likeness authority
 ART-LED COPY TREATMENT: hybrid / art-led; high word count may force text-forward split
@@ -701,7 +701,7 @@ PAGE ID: P010
 CHAPTER/MODULE: THE HAUNTED STRONGHOLD: D0nkey K0ng (HOME) / El Niño (AWAY) — Payoff: The Window
 NARRATIVE JOB: Advance stronghold tower payoff through observable change
 STORY BEAT: Payoff
-CREATIVE DNA PATTERN IDs: cinematic_sequence; matchup_progression_receipt
+CREATIVE DNA PATTERN IDs: cinematic_sequence
 CREATIVE DNA PACKET JSON REF: UNRESOLVED — validator payload not yet compiled
 EXEMPLAR PAGE ID + WHAT TO BORROW: Week 6 finished PDF pp6–8 evolving camera/POV for matchup pages; pp15–18 causal stakes; p4 rankings; p2 Opening Drive; benchmark-only, not likeness authority
 ART-LED COPY TREATMENT: hybrid / art-led; high word count may force text-forward split
@@ -781,7 +781,7 @@ PAGE ID: P011
 CHAPTER/MODULE: THE UNARMED LESSON: ObiWan Jacoby (HOME) / Seven Deadly Chins (AWAY) — Overture: A Weapon Left Sleeping
 NARRATIVE JOB: Advance training courtyard overture through observable change
 STORY BEAT: Overture
-CREATIVE DNA PATTERN IDs: cinematic_sequence; matchup_progression_receipt
+CREATIVE DNA PATTERN IDs: cinematic_sequence
 CREATIVE DNA PACKET JSON REF: UNRESOLVED — validator payload not yet compiled
 EXEMPLAR PAGE ID + WHAT TO BORROW: Week 6 finished PDF pp6–8 evolving camera/POV for matchup pages; pp15–18 causal stakes; p4 rankings; p2 Opening Drive; benchmark-only, not likeness authority
 ART-LED COPY TREATMENT: hybrid / art-led; high word count may force text-forward split
@@ -865,7 +865,7 @@ PAGE ID: P012
 CHAPTER/MODULE: THE UNARMED LESSON: ObiWan Jacoby (HOME) / Seven Deadly Chins (AWAY) — Escalation: Weight and Timing
 NARRATIVE JOB: Advance training courtyard escalation through observable change
 STORY BEAT: Escalation
-CREATIVE DNA PATTERN IDs: cinematic_sequence; matchup_progression_receipt
+CREATIVE DNA PATTERN IDs: cinematic_sequence
 CREATIVE DNA PACKET JSON REF: UNRESOLVED — validator payload not yet compiled
 EXEMPLAR PAGE ID + WHAT TO BORROW: Week 6 finished PDF pp6–8 evolving camera/POV for matchup pages; pp15–18 causal stakes; p4 rankings; p2 Opening Drive; benchmark-only, not likeness authority
 ART-LED COPY TREATMENT: hybrid / art-led; high word count may force text-forward split
@@ -947,7 +947,7 @@ PAGE ID: P013
 CHAPTER/MODULE: THE UNARMED LESSON: ObiWan Jacoby (HOME) / Seven Deadly Chins (AWAY) — Payoff: The Sky Between
 NARRATIVE JOB: Advance training courtyard payoff through observable change
 STORY BEAT: Payoff
-CREATIVE DNA PATTERN IDs: cinematic_sequence; matchup_progression_receipt
+CREATIVE DNA PATTERN IDs: cinematic_sequence
 CREATIVE DNA PACKET JSON REF: UNRESOLVED — validator payload not yet compiled
 EXEMPLAR PAGE ID + WHAT TO BORROW: Week 6 finished PDF pp6–8 evolving camera/POV for matchup pages; pp15–18 causal stakes; p4 rankings; p2 Opening Drive; benchmark-only, not likeness authority
 ART-LED COPY TREATMENT: hybrid / art-led; high word count may force text-forward split
@@ -1027,7 +1027,7 @@ PAGE ID: P014
 CHAPTER/MODULE: THE CYPRESS CLEARING: Mud Dogs (HOME) / The Chili Cheesers (AWAY) — Overture: Tracks Too Large
 NARRATIVE JOB: Advance cypress clearing overture through observable change
 STORY BEAT: Overture
-CREATIVE DNA PATTERN IDs: cinematic_sequence; matchup_progression_receipt
+CREATIVE DNA PATTERN IDs: cinematic_sequence
 CREATIVE DNA PACKET JSON REF: UNRESOLVED — validator payload not yet compiled
 EXEMPLAR PAGE ID + WHAT TO BORROW: Week 6 finished PDF pp6–8 evolving camera/POV for matchup pages; pp15–18 causal stakes; p4 rankings; p2 Opening Drive; benchmark-only, not likeness authority
 ART-LED COPY TREATMENT: hybrid / art-led; high word count may force text-forward split
@@ -1109,7 +1109,7 @@ PAGE ID: P015
 CHAPTER/MODULE: THE CYPRESS CLEARING: Mud Dogs (HOME) / The Chili Cheesers (AWAY) — Escalation: The Buck in the Reeds
 NARRATIVE JOB: Advance cypress clearing escalation through observable change
 STORY BEAT: Escalation
-CREATIVE DNA PATTERN IDs: cinematic_sequence; matchup_progression_receipt
+CREATIVE DNA PATTERN IDs: cinematic_sequence
 CREATIVE DNA PACKET JSON REF: UNRESOLVED — validator payload not yet compiled
 EXEMPLAR PAGE ID + WHAT TO BORROW: Week 6 finished PDF pp6–8 evolving camera/POV for matchup pages; pp15–18 causal stakes; p4 rankings; p2 Opening Drive; benchmark-only, not likeness authority
 ART-LED COPY TREATMENT: hybrid / art-led; high word count may force text-forward split
@@ -1187,7 +1187,7 @@ PAGE ID: P016
 CHAPTER/MODULE: THE CYPRESS CLEARING: Mud Dogs (HOME) / The Chili Cheesers (AWAY) — Payoff: The Photograph
 NARRATIVE JOB: Advance cypress clearing payoff through observable change
 STORY BEAT: Payoff
-CREATIVE DNA PATTERN IDs: cinematic_sequence; matchup_progression_receipt
+CREATIVE DNA PATTERN IDs: cinematic_sequence
 CREATIVE DNA PACKET JSON REF: UNRESOLVED — validator payload not yet compiled
 EXEMPLAR PAGE ID + WHAT TO BORROW: Week 6 finished PDF pp6–8 evolving camera/POV for matchup pages; pp15–18 causal stakes; p4 rankings; p2 Opening Drive; benchmark-only, not likeness authority
 ART-LED COPY TREATMENT: hybrid / art-led; high word count may force text-forward split
@@ -1263,7 +1263,7 @@ PAGE ID: P017
 CHAPTER/MODULE: THE FORGOTTEN COURT: Red Leopards (HOME) / His Majesty's Blood (AWAY) — Overture: A Game Without Witnesses
 NARRATIVE JOB: Advance private half-court overture through observable change
 STORY BEAT: Overture
-CREATIVE DNA PATTERN IDs: cinematic_sequence; matchup_progression_receipt
+CREATIVE DNA PATTERN IDs: cinematic_sequence
 CREATIVE DNA PACKET JSON REF: UNRESOLVED — validator payload not yet compiled
 EXEMPLAR PAGE ID + WHAT TO BORROW: Week 6 finished PDF pp6–8 evolving camera/POV for matchup pages; pp15–18 causal stakes; p4 rankings; p2 Opening Drive; benchmark-only, not likeness authority
 ART-LED COPY TREATMENT: hybrid / art-led; high word count may force text-forward split
@@ -1343,7 +1343,7 @@ PAGE ID: P018
 CHAPTER/MODULE: THE FORGOTTEN COURT: Red Leopards (HOME) / His Majesty's Blood (AWAY) — Escalation: Every Inch Contested
 NARRATIVE JOB: Advance private half-court escalation through observable change
 STORY BEAT: Escalation
-CREATIVE DNA PATTERN IDs: cinematic_sequence; matchup_progression_receipt
+CREATIVE DNA PATTERN IDs: cinematic_sequence
 CREATIVE DNA PACKET JSON REF: UNRESOLVED — validator payload not yet compiled
 EXEMPLAR PAGE ID + WHAT TO BORROW: Week 6 finished PDF pp6–8 evolving camera/POV for matchup pages; pp15–18 causal stakes; p4 rankings; p2 Opening Drive; benchmark-only, not likeness authority
 ART-LED COPY TREATMENT: hybrid / art-led; high word count may force text-forward split
@@ -1421,7 +1421,7 @@ PAGE ID: P019
 CHAPTER/MODULE: THE FORGOTTEN COURT: Red Leopards (HOME) / His Majesty's Blood (AWAY) — Payoff: The Crossover
 NARRATIVE JOB: Advance private half-court payoff through observable change
 STORY BEAT: Payoff
-CREATIVE DNA PATTERN IDs: cinematic_sequence; matchup_progression_receipt
+CREATIVE DNA PATTERN IDs: cinematic_sequence
 CREATIVE DNA PACKET JSON REF: UNRESOLVED — validator payload not yet compiled
 EXEMPLAR PAGE ID + WHAT TO BORROW: Week 6 finished PDF pp6–8 evolving camera/POV for matchup pages; pp15–18 causal stakes; p4 rankings; p2 Opening Drive; benchmark-only, not likeness authority
 ART-LED COPY TREATMENT: hybrid / art-led; high word count may force text-forward split
@@ -1499,7 +1499,7 @@ PAGE ID: P020
 CHAPTER/MODULE: THE GENTLEMAN'S FLUSH: Slob on my Dobb (HOME) / The LLC (AWAY) — Overture: The Invitation
 NARRATIVE JOB: Advance man-cave card table overture through observable change
 STORY BEAT: Overture
-CREATIVE DNA PATTERN IDs: cinematic_sequence; matchup_progression_receipt
+CREATIVE DNA PATTERN IDs: cinematic_sequence
 CREATIVE DNA PACKET JSON REF: UNRESOLVED — validator payload not yet compiled
 EXEMPLAR PAGE ID + WHAT TO BORROW: Week 6 finished PDF pp6–8 evolving camera/POV for matchup pages; pp15–18 causal stakes; p4 rankings; p2 Opening Drive; benchmark-only, not likeness authority
 ART-LED COPY TREATMENT: hybrid / art-led; high word count may force text-forward split
@@ -1577,7 +1577,7 @@ PAGE ID: P021
 CHAPTER/MODULE: THE GENTLEMAN'S FLUSH: Slob on my Dobb (HOME) / The LLC (AWAY) — Escalation: A Tell Too Easy
 NARRATIVE JOB: Advance man-cave card table escalation through observable change
 STORY BEAT: Escalation
-CREATIVE DNA PATTERN IDs: cinematic_sequence; matchup_progression_receipt
+CREATIVE DNA PATTERN IDs: cinematic_sequence
 CREATIVE DNA PACKET JSON REF: UNRESOLVED — validator payload not yet compiled
 EXEMPLAR PAGE ID + WHAT TO BORROW: Week 6 finished PDF pp6–8 evolving camera/POV for matchup pages; pp15–18 causal stakes; p4 rankings; p2 Opening Drive; benchmark-only, not likeness authority
 ART-LED COPY TREATMENT: hybrid / art-led; high word count may force text-forward split
@@ -1657,7 +1657,7 @@ PAGE ID: P022
 CHAPTER/MODULE: THE GENTLEMAN'S FLUSH: Slob on my Dobb (HOME) / The LLC (AWAY) — Payoff: Five Cards
 NARRATIVE JOB: Advance man-cave card table payoff through observable change
 STORY BEAT: Payoff
-CREATIVE DNA PATTERN IDs: cinematic_sequence; matchup_progression_receipt
+CREATIVE DNA PATTERN IDs: cinematic_sequence
 CREATIVE DNA PACKET JSON REF: UNRESOLVED — validator payload not yet compiled
 EXEMPLAR PAGE ID + WHAT TO BORROW: Week 6 finished PDF pp6–8 evolving camera/POV for matchup pages; pp15–18 causal stakes; p4 rankings; p2 Opening Drive; benchmark-only, not likeness authority
 ART-LED COPY TREATMENT: hybrid / art-led; high word count may force text-forward split
