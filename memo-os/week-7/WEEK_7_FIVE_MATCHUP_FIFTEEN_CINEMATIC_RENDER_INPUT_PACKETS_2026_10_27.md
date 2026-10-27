@@ -20,6 +20,11 @@
 
 **Status:** Founder banner allocation approved as a production requirement; technical reference/Atlas/geometry, mobile, independent QA still have their own gates. P008, then P009, then P010 — generate individually and pause for Founder visual acceptance after each page.
 
+### Arsenal Centaur Commissioner reinforcement — 2026-10-27
+**Controlling character identity:** D0nkey K0ng is the established `CHAR-WILSON-LOOK` **Arsenal Centaur**: anatomically integrated gorilla-like warrior upper torso upon a horse body, FOUR equine legs, hooves and a continuous torso/hip junction. Not a videogame ape, not two-legged gorilla, not a rider on a horse, not separate gorilla/horse beings, and no human legs. Require silhouette/limb count preflight on P008, P009 and P010. Use approved Oct 18 crop and reference authority; stale conflicting native handle is not controlling.
+**Banner confirmation:** P008/P009 no final result or winner display; only P010 includes P007 template `FINAL · WEEK 7`, `EL NIÑO 133.75` WINNER and `D0NKEY K0NG 122.67`. No Game of the Week label. Storm / wind is El Niño's presence, not a new humanoid character.
+**Individual release sequence:** P008 → Founder review → P009 → Founder review → P010. Existing manuscript and chapter camera instructions retained. Creative approval does not waive actual source conditioning, physically plausible four-legged tower exit, and publication gates.
+
 ## HAUNTED STRONGHOLD — D0nkey K0ng HOME vs El Niño AWAY
 **Parent Atlas:** `LOC-DK-HIGHLAND-STRONGHOLD`. **Subject A:** `CHAR-WILSON-LOOK`, crop `canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png`, expected SHA256 `3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f`. **Subject B:** `CHAR-MANNING-WELTY`, crop `canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png`, expected SHA256 `d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04`. All SHA values are manifest expectations, not fresh byte-verification. **Continuity:** Storm wind flows from tower outer opening toward interior, then outward through broad exit as gust changes; banners and lantern flame must obey same wind field.
 
