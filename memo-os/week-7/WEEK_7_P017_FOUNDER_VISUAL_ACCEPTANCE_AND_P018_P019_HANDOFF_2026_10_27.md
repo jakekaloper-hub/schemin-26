@@ -44,3 +44,10 @@
 
 ## Disposition
 FOUNDER_VISUAL_APPROVED_P017 / FOUNDER_VISUAL_APPROVED_P018 / P019_READY_FOR_INDIVIDUAL_CREATIVE_PRODUCTION. Independent factual, asset-ingestion, Atlas and raster QA remain separately tracked. This handoff does not claim authenticated live Bullpen agent conference, independent Umpire acceptance, publication or merge.
+
+## P019 individual render candidate — 2026-10-27
+- **Generated:** single 1024×1536 PNG review candidate, `SCHEMIN_26_W07_P019_SOURCE_COPY_REVIEW.png`; local SHA256 `5f3de4865c995a33cb800776228e7615a1218b9ee8f6eb97429445f6a64f9db4`.
+- **Creative:** Game of the Week masthead, `THE CROSSOVER` payoff, right-side hoop and retained HMB Belt, RED 148.53 / HMB 137.02 result banner, RED +11.51 margin. Full furred Red with feline anatomy; hooded red-eyed HMB; no worn crown. Action is a cinematic raised-ball finishing moment, not an image-proven made basket; prose narrates the made jumper.
+- **Copy remediation:** initial image-generated bottom article contained unsupported standings and text other than the P019 packet. Replaced that narrative region with the existing P019 exact candidate editorial copy via deterministic raster text. Do not treat image-model article text as authoritative.
+- **State:** `P019_RENDERED_FOUNDER_REVIEW_PENDING`. This image lives in the conversation output filesystem, **not GitHub**; no claimed binary GitHub ingestion or independent Umpire acceptance. Preview at 1024×1536 has been visually inspected; 390px mobile and publication PDF QA not independently certified.
+- **Next gate:** Founder visual approval or precise corrections. Do not automatically declare the three-folio matchup officially published.
