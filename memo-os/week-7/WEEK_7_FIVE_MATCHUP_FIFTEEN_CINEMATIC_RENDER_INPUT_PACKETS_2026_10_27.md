@@ -466,6 +466,14 @@ The ball fell cleanly through the basket. For a moment neither moved. Red had th
 
 The observed Week 7 fantasy score favored Red by **11.51 points**. The private basketball ending dramatized that result without pretending the game transferred any title.
 
+## P016 Founder approval and P022-only FINAL banner — 2026-10-27
+**Founder approval:** Commissioner explicitly VISUALLY APPROVED `P016 — The Photograph` candidate `SCHEMIN_26_W07_P016_THE_PHOTOGRAPH_REVIEW.png`, completing visual approval for P014–P016. Binary storage/independent publication QA are separate and NOT asserted.
+**Next matchup:** Slob on my Dobb HOME vs The LLC AWAY, P020 `The Invitation` → P021 `A Tell Too Easy` → P022 `Five Cards`. Produce individually, receive Founder visual review before each successor.
+**FINAL banner rule:** P020 and P021 NO results banner, no winner or outcome spoiler. P022 ONLY uses P013-style `FINAL · WEEK 7` scoreboard, `SLOB ON MY DOBB 155.92` WINNER versus `THE LLC 111.21`, margin `44.71` optional; no GOTW designation.
+**Actual October 18 image inspection:** `CHAR-JORDAN-HOLLINGSHEAD` (Slob) approved PNG visibly depicts massive long-haired bearded heavyset man in battered denim overalls, backwards dark SLOB cap, bare muddy tattooed arms/torso, holding metal beer keg. **NOT** a suited gentleman, pig, fantasy monster or generic poker pro. Club/keg may be off to side to permit table play. `CHAR-DAVID-BABB` (LLC) approved PNG depicts clean-cut dark-haired man in charcoal executive suit, white shirt, red necktie/pocket square, dark sunglasses, cigar. Preserve actual owner design, no fictional animal.
+**Room continuity:** Rustic man-cave interior under `LOC-SLOB-FOOTHILL-CAMP`, same table, mismatched chairs, lamp, chip stacks and seats from P020 to P022; no unconfirmed modern casino or new permanent Atlas landmark. P022 flush must have EXACTLY 10 J Q K A of one suit, no duplicate cards, card faces on controlled graphic layer.
+**Rendering and QA:** Reference PNGs directly inspected from GitHub; actual renderer attachment is a distinct not-yet-proven step. Source copy and P013-style scoreboard must be controlled typography. 1024×1536 master; inspect at 390px, no false claims of independent QA or publication.
+
 ## GENTLEMAN'S FLUSH — Slob on my Dobb HOME vs The LLC AWAY
 **TRAVEL SOURCE UPDATE (2026-10-27, registered graph):** LLC Boardroom → LLC Storm City via ROUTE-INNER-SEA-QUAY → League Chamber via ROUTE-PORT-BASIN-CONNECTOR → Bridge Mountain Lake via ROUTE-UPPER-BASIN-CONNECTOR → Slob Foothill Camp as a registered VIA waypoint of ROUTE-HEARTHROAD. Reachability FOUND; mode/weather/travel-time acceptance remains conditional. This corrects earlier missing-route claims. Man-cave interior and renderer binding remain HOLD.
 
