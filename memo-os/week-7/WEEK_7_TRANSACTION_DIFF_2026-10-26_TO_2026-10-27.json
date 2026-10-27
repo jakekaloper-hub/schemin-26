@@ -1,0 +1,96 @@
+{
+  "schema": "schemin26.memo_os.provider_normalized_diagnostic.v1",
+  "run_id": "S26-MEMO-W07-20261027-AM",
+  "comparison_class": "ROW_COMPARISON_COMPLETE_NOT_APPROVED",
+  "baseline_snapshot_path": "WEEK_7_PROVIDER_NORMALIZED_EVIDENCE_2026-10-26.json",
+  "current_snapshot_path": "WEEK_7_PROVIDER_NORMALIZED_EVIDENCE_2026-10-27.json",
+  "scope_compatible": true,
+  "source": "mTransactions2",
+  "from_count": 39,
+  "to_count": 39,
+  "added": [],
+  "removed": [],
+  "changed": [],
+  "unchanged": 39,
+  "full_row_proof": {
+    "truncated": false,
+    "window_bounds_approved": false,
+    "native_espn_raw": false
+  },
+  "week7_results": [
+    {
+      "key": "6-12",
+      "home": "Three Dreaded Snake",
+      "away": "Dr. Duckhook",
+      "previous_winner": "UNDECIDED",
+      "current_winner": "AWAY",
+      "previous_home_points": 116.42,
+      "current_home_points": 141.42,
+      "previous_away_points": 141.74,
+      "current_away_points": 141.74,
+      "changed": true
+    },
+    {
+      "key": "5-9",
+      "home": "D0nkey K0ng",
+      "away": "El Niño",
+      "previous_winner": "UNDECIDED",
+      "current_winner": "AWAY",
+      "previous_home_points": 98.87,
+      "current_home_points": 122.67,
+      "previous_away_points": 121.85,
+      "current_away_points": 133.75,
+      "changed": true
+    },
+    {
+      "key": "1-11",
+      "home": "ObiWan Jacoby",
+      "away": "Seven Deadly Chins",
+      "previous_winner": "UNDECIDED",
+      "current_winner": "AWAY",
+      "previous_home_points": 94.75,
+      "current_home_points": 94.75,
+      "previous_away_points": 116.6,
+      "current_away_points": 116.6,
+      "changed": true
+    },
+    {
+      "key": "10-7",
+      "home": "Mud Dogs",
+      "away": "The Chili Cheesers",
+      "previous_winner": "UNDECIDED",
+      "current_winner": "AWAY",
+      "previous_home_points": 92.92,
+      "current_home_points": 108.72,
+      "previous_away_points": 132.92,
+      "current_away_points": 134.92,
+      "changed": true
+    },
+    {
+      "key": "2-8",
+      "home": "Red Leopards",
+      "away": "His Majesty's Blood",
+      "previous_winner": "UNDECIDED",
+      "current_winner": "HOME",
+      "previous_home_points": 148.53,
+      "current_home_points": 148.53,
+      "previous_away_points": 137.02,
+      "current_away_points": 137.02,
+      "changed": true
+    },
+    {
+      "key": "3-4",
+      "home": "Slob on my Dobb",
+      "away": "The LLC",
+      "previous_winner": "UNDECIDED",
+      "current_winner": "HOME",
+      "previous_home_points": 131.52,
+      "current_home_points": 155.92,
+      "previous_away_points": 111.21,
+      "current_away_points": 111.21,
+      "changed": true
+    }
+  ],
+  "week7_winner_state_transitions": 6,
+  "week7_score_rows_changed": 6
+}
