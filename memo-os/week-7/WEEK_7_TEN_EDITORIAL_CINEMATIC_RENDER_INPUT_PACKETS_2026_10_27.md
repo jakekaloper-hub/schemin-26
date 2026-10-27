@@ -3,17 +3,31 @@
 **Status:** DRAFT / HOLD. Governed by Week 6 1024×1536 native PNG production standard, Memo OS V1/V2, Founder 34 locks and Week 7 exact copy split. No new OS. The current 28-page sequence is a flexible candidate. Exact scores and other factual text are deterministic overlays; the image generator owns illustration, not data or typography. 390px is a downscale of final PNG, not an alternative page master.
 
 ## FOLIO P001 — Cover: The Miracle Putt
-**NARRATIVE JOB:** The Miracle Putt cover.
-**CAMERA / STAGING / FOCAL HIERARCHY:** 85mm ball/cup close foreground, Duckhook celebrating midground, three-headed TDS reacting behind, waterfall left. Foreground focal object, middle-ground story consequence, background Atlas specificity. Scene must have a single visual thesis, not a generic empty text rectangle.
-**ATLAS / WORLD STATE:** Waterfall Temple parent; golf green proposed. Preserve existing locations, no silent canon promotion.
-**EDITORIAL DESIGN:** One strong headline and deterministic provisional 0.32 margin; no image-model type. Use controlled publication masthead, legible text-safe area and accurate printed folio; do not repeat Week 6 heavy header + portrait + footer mechanically.
-**PAGE MASTER:** native PNG 1024×1536 2:3 portrait, deterministic typography/score/data overlays. Source-specific color and lighting motivated by physical environment.
-**QA:** exact source text, approved character crop binding if any, Atlas continuity, physical/printed folio match, phone-scale final PNG readability, independent Umpire; all NOT RUN.
-**PRODUCTION STATE:** PLANNED/HOLD; never call READY_FOR_RENDER based on this text packet alone.
+**Founder pose lock (2026-10-27):** A — THE COMPOSED CHAMPION. Explicitly selected by the Commissioner. This is the active P001 creative authority, superseding earlier ball-at-lip/TDS-in-frame cover candidates, without changing P005–P007 story pages.
+**NARRATIVE JOB:** A distinct post-match portrait that shows Dr. Duckhook's unshowy satisfaction after the miraculous 0.32-point Week 7 victory. P007 tells the final-putt action; P001 shows the composed aftermath.
+**CHARACTER HARD LOCK:** ONLY `CHAR-ZACH-WILSON` / Dr. Duckhook may be depicted. Duck-headed humanoid golfer: white feathered head, orange bill, green cap, green sweater vest and established humanoid golfer clothing. Absolutely NO TDS, no serpent heads, no crowd, no silhouettes, no duplicate Duckhook, no additional sentient figure or invented mascot. Retrieve current approved reference-image bytes; identity proof and renderer binding are technical release gates.
+**CAMERA / STAGING:** Slightly low-angle cinematic medium-full single-character portrait, not a macro ball/cup repeat. Duckhook stands on a mossy stone terrace overlooking the compact jungle course, putter resting casually across one shoulder, crooked green cap, damp vest, composed self-satisfied grin directed near camera. Hands and club contact anatomically coherent. Optional golf ball near his feet; NO miracle putt in progress, victory dance, trophy, or fabricated golf score.
+**ATLAS / WORLD STATE:** `LOC-TDS-WATERFALL-TEMPLE` Southern Wetlands parent. Waterfall, temple masonry, jungle vegetation and mist; event-only golf green remains temporary and not permanent new Atlas canon. Match P005–P007 continuity but allow a fresh post-match camera direction.
+**LIGHT / EMOTION:** Late-afternoon mist-filtered golden light, wet stone and subtle comedy. Celebratory without humiliation of the absent host. No fake crown or gold-winning trophy.
+**FOCAL ORDER:** Duckhook's expression → putter/pose → distant waterfall/green; reserve uncluttered title-safe space. Only one recognizable subject.
+**TRADITIONAL ISSUE COVER TYPE:** Deterministic overlay with `SCHEMIN ’26`, `THE OFFICIAL LEAGUE MEMO · WEEK 7`, title `THE MIRACLE PUTT`, and optional teaser `ONE PUTT. THREE HEADS. 0.32 POINTS.` The teaser references TDS only in words, never portrays him. No large P007-style FINAL two-team score banner and no `GAME OF THE WEEK` label (reserved for Red/HMB). Do not produce two-column matchup recap body copy on the COVER.
+**PAGE MASTER:** native 1024×1536 PNG 2:3 portrait; legible traditional masthead and headline at 390px preview; no generated substitute lettering, duplicate titles, misnumbered folios or data outside source.
+**INKLINGS METHOD-LENS EDITORIAL REVIEW (source-grounded, NOT a live consultant session):**
+- Tolkien/world-history lens — the established Waterfall Temple environment visually anchors the aftermath; avoid invented permanent site or landscape claims. **ADOPT.**
+- Lewis/meaning lens — poise and quiet satisfaction give the win meaning without a speech or mocking TDS. **ADOPT.**
+- Martin/character-motive lens — the overly gracious visiting golfer's barely restrained satisfaction is a credible comic reversal from the friendly opening. **ADOPT.**
+- Abercrombie/human-scale irony lens — damp vest, crooked cap and understated grin are stronger than bombastic victory theater. **ADOPT.**
+- Counterweight — No invented owner dialogue, no phantom companion, no scoreboard masquerading as literal golf strokes, no second focal character. **REJECT such drift.**
+**QA:** Founder concept/pose APPROVED. Character byte retrieval/binding, image-level identity QA, exact typography, Atlas scene implementation, 390px final raster inspection and independent Umpire remain separate checks, not falsely passed.
+**PRODUCTION STATE:** FOUNDER COVER COMPOSITION APPROVED / RENDER NOT YET EXECUTED under this amendment.
 
-### EXACT CANDIDATE EDITORIAL COPY
+### EXACT CANDIDATE COVER DISPLAY COPY — controlled typography, not image-model prose
 
-A ball pauses at the lip of a jungle cup. Three serpent heads stare. One golfer has already begun to smile. THE MIRACLE PUTT. WEEK SEVEN. Duckhook 141.74 — Three Dreaded Snake 141.42.
+SCHEMIN ’26
+THE OFFICIAL LEAGUE MEMO · WEEK 7
+THE MIRACLE PUTT
+ONE PUTT. THREE HEADS. 0.32 POINTS.
+DR. DUCKHOOK · WEEK SEVEN'S UNLIKELIEST FINISH
 
 ## FOLIO P002 — Cover Letter: From the Editor
 **NARRATIVE JOB:** Cover letter.
