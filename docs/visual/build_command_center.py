@@ -19,6 +19,7 @@ PANEL_ROUTES={
  'Interactive Atlas':'atlas.html',
  'Character Canon':'characters.html',
  'Visual Approval':'characters.html',
+ 'Release Evidence':'release.html',
  'Publication Manifest':'publications.html',
  'Memo OS':'publications.html',
 }
