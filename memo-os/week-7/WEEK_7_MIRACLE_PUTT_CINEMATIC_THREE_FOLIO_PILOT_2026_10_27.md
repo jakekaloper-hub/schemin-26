@@ -2,6 +2,8 @@
 
 **Status:** PRE-RENDER REVIEW / HOLD. Existing Memo OS and Week 6 `WEEK_6_ALL_FOLIO_RENDER_INPUT_PACKETS_2026_10_20.md` govern. Founder Q1=A (waterfall golf), Q2=A (friendly), Q3=C (spiral), Q4=A (miracle putt). Three source pages P005–P007; no final page count lock.
 
+**FOUNDER VENUE DECISION (2026-10-27):** All six Week 7 matchup scene settings are APPROVED for Memo OS cinematic staging. Source: `memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md`. Approval does not create permanent Atlas locations, prove renderer attachment, approve travel modes or remove technical staging HOLDs. The proposed Red/HMB neutral court uses `LOC-COMPACT-NEUTRAL-GROUNDS` as a provisional parent, not a registered permanent court.
+
 ## Global production contract
 - **Master:** native 1024×1536 PNG, portrait 2:3. Not a PDF-first page or generic illustration placeholder. 390px downscale is final-page QA only.
 - **Character source:** `CHAR-PHILLIP-PITTS` approved crop `canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png`, expected SHA256 `0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65`. TDS is an **armored reptilian humanoid with three serpent necks and heads, two arms, two legs**, NOT a giant snake body.
