@@ -83,3 +83,15 @@ Data: source-native receipt and exact date bounds absent; monitor Week 7 correct
 **No release:** no SOURCE_LOCKED, CANONICAL_SNAPSHOT_PROMOTED, FACT_LOCKED or RELEASE_CERTIFIED events asserted. `RELEASE_BLOCKED` is documented, not sent to a live event bus. Collaboration KPIs: one staged Steward handoff, zero authenticated ACKs observed; Jake Intervention Rate not measurable without a sampled event stream and denominator. No private strategy derived from excluded specialists was used.
 
 **Next:** native ESPN provenance or formally accepted quarantine; Steward validation; independent Fact Lock; then eligible Week 8 production gates. Maintain targeted reopen on late stat correction; never promote this diagnostic into release certification.
+
+## 5. Founder trade-deadline editorial intake — October 27
+
+**Founder-confirmed:** Pro Schemin' league trade deadline is **November 4, 2026**. This is Founder-supplied editorial authority, not independently verified ESPN league-settings provenance. Do not invent a cutoff hour or trade-processing rule.
+
+**Editorial disposition:** INTAKE ACCEPTED / STORY TREATMENT PROPOSED / NOT STORY_LOCKED. Fold approaching trade-market urgency into the existing Week 7 State of Play (preferred), with a concise Opening Drive teaser and optional Final Word callback only if existing folio allocations permit. No new page without page-budget review. Eight clubs are 4–3, two 3–4 and two 2–5 after Week 7, per authenticated Flaim standings read; do not imply playoff qualification is mathematically settled.
+
+**Visual brief:** Commonwealth-wide market tension through existing franchise locations, canon-safe travel and character poses; contrast quiet negotiation with impending deadline. All named trades, negotiations, prices, draft assets and private motivations require transaction-ledger or Founder confirmation. Existing Pittsy's Book 'NO FURTHER QUESTIONS' concept remains independent; do not merge the storylines or alter the exact TDS quote.
+
+**Production handoff:** Reconcile existing Week 7 storyline, staging, travel, character plates, folio packets and manuscript before editing copy. The current intake's provisional evidence, missing source-native receipt, Steward ACK and independent Fact QA remain blockers. No FACT_LOCK, STORY_LOCK, PAGE_LOCK or release claim from this addition.
+
+**Verification:** Authenticated Flaim Week 7 results match the six outcomes in section 2. Standings distribution 8×4–3, 2×3–4, 2×2–5. Trade activity must be checked against transaction records before any trade-specific narrative is written. No independent Umpire sign-off recorded.
