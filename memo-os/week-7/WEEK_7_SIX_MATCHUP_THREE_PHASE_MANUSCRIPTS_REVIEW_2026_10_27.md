@@ -1,5 +1,5 @@
 # Week 7 — Six Matchup Manuscripts / Inklings Development Draft
-**State:** EDITORIAL DRAFT / FOUNDER DECISIONS PRESERVED / NOT FACT-LOCKED / NOT RENDER-READY
+**State:** DEVELOPMENTAL REVISION 2 / FOUNDER DECISIONS PRESERVED / NOT FACT-LOCKED / NOT RENDER-READY
 **Source:** Week 7 Founder 34-decision intake, observed FLAIM scoring snapshot, established Week 6 fiction and Atlas. All dialogue and physical action are invented fiction. Inklings comments below are AI-simulated craft reviews, not live advisor participation. Three phases are narrative units; not automatically three pages.
 
 ## 01 — THE MIRACLE PUTT: Three Dreaded Snake (HOME) / Dr. Duckhook (AWAY)
@@ -12,12 +12,20 @@ The waterfall made a sound so steady that Duckhook mistook it for silence. He st
 
 The visitor set down his bag with the care of a professional preparing for an afternoon nobody would remember. TDS indicated the first tee. The two exchanged compliments about the course, each careful to make the compliments sound sincere. Neither asked what the other considered a friendly score.
 
+The first disagreement was about a leaf. It had landed beside Duckhook's ball, and TDS insisted the rules of the house permitted its removal. Duckhook pointed out that the house was a temple and the rules had not been written down. TDS's left head offered to write them immediately. The middle head called for the next stroke. The right head began to laugh, which was not helpful to either side.
+
+They played on. The green was small enough for every misjudgment to be witnessed and the jungle large enough to swallow any excuse. Duckhook clipped a branch and declared it a strategic ricochet. TDS praised the shot in a tone that made praise sound suspiciously like pity. At the next cup, the host's three heads disagreed over whether a ball had stopped moving. Duckhook crouched to watch the last rotation. Nobody spoke until it settled.
+
 ### Escalation — The Courtesies End
 By the next stretch of play, every compliment had acquired a sharp edge. Duckhook took an unnecessary practice swing after a perfectly acceptable shot. TDS celebrated a short putt as if the temple had survived a siege. One head called the line straight; another insisted it broke left; the third accused the first two of standing where the light was best.
 
 They began to invent ceremonies for their own successes. Duckhook removed his cap after each good stroke. TDS's heads developed three incompatible victory nods. When Duckhook conceded a harmless putt, TDS demanded the ball be struck anyway. When TDS suggested a break, Duckhook asked whether the course had always been so difficult after sundown.
 
 The waterfall kept its own counsel. Beneath the humor, both had begun to count the distance between friendship and defeat.
+
+Before the final stroke, Duckhook noticed the damp grass falling away toward the waterfall. He had spent the afternoon arguing with his host, but he had also learned the course: the little ridge by the stone, the moisture near the cup, the way the breeze changed after the spray rose. He adjusted his stance instead of taking another theatrical practice swing.
+
+TDS watched that small change. For the first time all afternoon, none of his heads offered advice. The host had made this place for a friendly game; now he understood why the guest had taken it seriously. The putt would not erase the ridiculousness of the afternoon. It would decide who got to remember it with a smile.
 
 ### Payoff — One Last Roll
 At the final green, Duckhook faced a putt no reasonable guest should have attempted with confidence. Waterfall mist softened the far edge. The ground seemed to lean away from the cup. TDS stood motionless except for three pairs of eyes following the club.
@@ -42,6 +50,10 @@ There were ordinary explanations for all of it. DK knew that. He also knew the s
 
 It came immediately.
 
+He went looking for evidence and found only more opportunities to frighten himself. A hanging coat became a figure at the end of the corridor. A loose metal ring tapped the wall just as he passed. The sound stopped when he stopped, and resumed when he moved, which seemed to him conclusive proof of pursuit. He had forgotten that the draft strengthened each time he opened the inner door.
+
+He could have gone downstairs. Instead, pride demanded that he solve the mystery in the tower. The upper stair curved too tightly for a careless charge, so he climbed with the deliberate, awkward precision of a great four-legged creature trying not to appear nervous. Each hoof sounded like another set of footsteps following him. By the landing, the stronghold seemed crowded with things that were not there.
+
 ### Escalation — The Wrong Enemy
 The first precaution was sensible: close the shutters. The second was less so: wedge a rack of equipment against a door that had not opened. By the third, DK had begun to address the empty hall in the voice he reserved for enemies who needed warning.
 
@@ -52,6 +64,10 @@ He laughed at himself. Too loudly.
 Then the lantern went out. He relit it and watched the flame bend toward the tower opening. The draft had a direction. The knocking had a rhythm. Every sign pointed toward the weather, but fear had already supplied a more exciting explanation.
 
 DK climbed to settle the matter.
+
+The frame had been left partly open to ventilate the room. A loose catch let the shutter swing, and the same crosswind that bent the lantern flame below had found a direct passage through the tower. Nothing supernatural had happened. The explanation was almost insultingly ordinary.
+
+That was when the shutter crashed behind him. His startle was involuntary, a reflex made worse by the certainty that he had finally caught the haunting in the act. The gust struck as he twisted. The exterior view must show a broad, physically plausible opening and a continuous path outward, not a narrow human-sized window inexplicably admitting his entire body. The landing remains outside the written scene until staging and safety geometry are approved.
 
 ### Payoff — The Window
 The tower's upper room held no ghost. It held a battered shutter, a loose fastening and a gust gathering strength beyond the opening. DK stepped forward to inspect the frame. Behind him, another shutter struck stone with the violence of a slammed door.
@@ -78,6 +94,10 @@ Chins looked from the weapon to ObiWan's empty hands. He had traveled too far fo
 
 ObiWan smiled as though the outcome had already been explained.
 
+Chins had not come to the mountain to ridicule a Jedi. He wanted to know whether the confidence he had heard about was a skill he could measure. ObiWan, meanwhile, believed he was offering his guest a lesson without unnecessary ceremony. Their misunderstanding made the contest sharper: each thought the other had failed to appreciate the courtesy being extended.
+
+The first exchange rewarded ObiWan's speed. The second taught Chins the rhythm of his pivots. By the third, the visitor stopped following the Jedi's hands and began watching his hips. ObiWan noticed the adjustment and chose a more ambitious maneuver, partly because he could and partly because he wanted the audience of one to understand how much he was withholding. The unlit hilt at his belt moved with him, a silent reminder of a choice he had already made.
+
 ### Escalation — Weight and Timing
 ObiWan moved first, light on his feet, turning his opponent's momentum into a series of near misses. Chins absorbed the feints and adjusted his stance. The Jedi's hands moved with precision, his feet drawing circles that seemed to keep him safely outside the larger man's reach.
 
@@ -86,6 +106,10 @@ Then Chins caught an arm.
 For an instant the balance changed. ObiWan twisted free and made a show of brushing dust from his sleeve. His lightsaber remained unlit against his belt. The gesture earned no applause. Chins merely stepped closer.
 
 ObiWan attempted a more elaborate unarmed maneuver, confident that skill would replace leverage. Chins recognized the opening before the motion was complete.
+
+The decisive grip did not arrive out of nowhere. Chins had tested that same angle twice, each time allowing ObiWan to slip away. On the final exchange, the Jedi committed farther forward, expecting another escape route. Chins stepped across it and rotated, turning the Jedi's own momentum into the arc of the throw.
+
+The airborne instant was spectacular precisely because the mechanics beneath it were simple. ObiWan had enough time to see the mountain beyond the courtyard, but not enough to correct the mistake. His hand passed near the belt and did not touch the hilt. Whether that was discipline or stubbornness was a question he would have to answer later.
 
 ### Payoff — The Sky Between
 The counter began at ground level: a planted foot, a firm grip, a turn of the hips. ObiWan discovered that confidence could not change where his weight had gone.
@@ -110,12 +134,20 @@ Mud knew which patches would hold a boot and which would swallow one. Chili had 
 
 Ahead, something shifted beyond the cypress roots.
 
+Mud stopped Chili before the next patch of ground. The visitor had seen a promising opening, but Mud knew the dark water beneath it would take a boot to the knee. He pointed to a line of roots that could carry their weight. Chili followed, irritated by the delay and grateful for it in the same breath.
+
+Their rivalry grew quieter as the animal drew nearer. The buck was not an opponent obliged to appear on schedule. It would move when the wind, light and cover allowed. Chili wanted the decisive chance; Mud wanted the visitors to leave the swamp understanding why chances could not be forced. When the first sighting dissolved into reeds, neither blamed the other. That restraint was the first honest cooperation of the day.
+
 ### Escalation — The Buck in the Reeds
 The buck appeared in a brief corridor of light, magnificent and almost impossibly still. Chili saw it first; Mud saw the obstruction between them. Neither had a clean shot. The animal turned and vanished before either man could settle the question.
 
 They followed without speaking. A splash farther down the channel sent both toward the wrong bank. Mud corrected the route with a gesture. Chili hesitated, then accepted the local knowledge he had been reluctant to ask for.
 
 At the clearing, the wind moved through the cypress crowns. The tracks crossed a patch of firmer ground. This time they waited rather than rushed.
+
+The final opportunity came only after the two abandoned their argument over which route was faster. Mud identified a firm approach through the roots. Chili took the position and waited. The clearing was not a stage built for a trophy; it was a small piece of dry ground the swamp happened to permit.
+
+In the photograph, Chili's triumph would be unmistakable. So would the damp boots, cypress trunks and difficult terrain that made the hunt a story rather than a pose. Mud's expression should carry disappointment and reluctant acknowledgment at once. The image must not imply a literal fantasy-football trophy transfer or establish a permanent wildlife legend without separate world approval.
 
 ### Payoff — The Photograph
 The buck stepped into the open. Chili had the position, the clear line and the patience to wait for it. The hunt ended there.
@@ -134,12 +166,20 @@ Red Leopards had won one documented encounter in 2024. The owner lineage now kno
 
 The Belt Keeper arrived in his approved dark presentation, the Belt retained and set safely away from play. Red took the ball. First to eleven, they agreed. Nothing else needed to be said.
 
+The first argument came after a drive that ended with both players touching the ball. Red called possession; HMB called a clean stop. There was no official to decide, and neither wanted a stranger's judgment anyway. They replayed the point. It cost them more breath than the original possession and made the next one twice as intense.
+
+HMB defended like someone accustomed to occupying the center of a room. Red attacked the gaps instead, darting toward an edge and forcing the champion to turn. The Belt Keeper's title was present but could not help him change direction. Red knew that; HMB knew Red knew. By the final exchanges, the only ceremony left was the ball returning to the ground.
+
 ### Escalation — Every Inch Contested
 The first drives were measured. Then the defense tightened. HMB used his reach to force Red wide; Red answered with quicker changes of direction. Each basket acquired a comment. Each missed attempt became evidence in an argument neither intended to concede.
 
 There was no referee to appeal to, and no crowd to reward a flourish. When a possession ended awkwardly, the two settled it themselves and resumed.
 
 Their rivalry had shrunk from the Commonwealth's history to the width of a half-court. That made every step more personal. Red dribbled at the perimeter and watched HMB set his feet.
+
+Red had shown the leftward drive several times. HMB had learned to cut it off. The winning move began as the same familiar threat: shoulders angled, dribble low, eyes fixed beyond the defender. The champion shifted to meet it. Red planted and crossed back into the space HMB had just surrendered.
+
+The visual should capture the imbalance without turning HMB into a caricature: one boot searching for purchase, one hand still reaching toward the old lane, Red already rising into the new one. The basket, ball and players must remain on a consistent action axis across the sequence. This is a basketball victory, not a transfer of rank, land or championship title.
 
 ### Payoff — The Crossover
 Red moved left. HMB followed. The Leopard planted, crossed the ball sharply back and changed direction before the Belt Keeper could recover. HMB's balance broke for a step, then another.
@@ -160,6 +200,10 @@ The LLC arrived dressed for a negotiation and found Slob waiting beside a card t
 
 The LLC inspected the table, the light and the uneven stack of chips. He accepted a chair. For a while the evening proceeded with surprising courtesy. Slob dealt carefully. The visitor smiled as though the room had confirmed everything he expected.
 
+The LLC liked systems. He built one from the smallest details: a hesitation before Slob checked his cards, the way the host arranged his chips, the timing of a courteous question. After two hands, the visitor believed he could distinguish confidence from anxiety. After three, he began to act on the distinction without checking whether the underlying evidence had changed.
+
+Slob did not need to be a secret genius. His manner was simply inconsistent with the polished opponent's expectations. He could be attentive to a guest and indifferent to appearing formidable at the same time. The LLC mistook the absence of a professional mask for the absence of a plan. The final betting sequence should be settled against an explicit poker variant before page lock; the story need not invent real-money stakes to make a decision costly.
+
 ### Escalation — A Tell Too Easy
 The LLC began to notice a pattern. Slob seemed to pause before strong hands, speak too quickly before weak ones and stare at the same corner whenever he had something worth protecting.
 
@@ -168,6 +212,10 @@ The visitor tested his theory. Once it worked. Then again. Confidence arrived we
 Slob remained polite. He asked whether the cards were comfortable to hold. He offered to move a lamp. The LLC mistook every small courtesy for a distraction and every distraction for proof that his reading was correct.
 
 On the final hand, the visitor studied Slob's face rather than the table. That was his mistake.
+
+Slob had been watching the game, even while his visitor watched him. The final reveal was not accompanied by a speech or a flourish. He aligned the cards so that the ranks could be read in order and turned them toward the center of the table. The LLC's expression changed only after he counted all five.
+
+The room's visual joke was restraint. The least formal host made the cleanest possible presentation, while the immaculate guest sat surrounded by the assumptions that had failed him. A production packet must specify the suit and ranks exactly, use deterministic card art if needed, and never depict duplicate cards or an impossible deal. The payoff depends on the viewer understanding the hand at a glance.
 
 ### Payoff — Five Cards
 Slob laid his cards down in a neat row.
@@ -192,3 +240,11 @@ The simulated Inklings lens recommends: (1) distinct dramatic engines rather tha
 - Existing design packet: `memo-os/post-production/PAGE_DESIGN_PACKET_TEMPLATE_V2.md`.
 - All six results observed in FLAIM but provider still UNDECIDED at capture.
 - **Editorial draft only:** no independent Umpire review, exact page copyfit, provider asset mounts or render approval.
+
+## Revision 2 editorial challenge and remaining acceptance
+- Expanded six narratives with additional causal transitions, dual-protagonist motivations, stageable decisions and character-specific payoffs. This is a real manuscript revision, not a live human Inklings consultation.
+- **Beat Writer diagnostic:** Golf uses hospitality versus pride; DK fear versus evidence; ObiWan confidence versus earned leverage; Mud/Chili rivalry versus cooperation; Red/HMB status versus private skill; Slob/LLC expectation versus perception.
+- **Inklings-method critique (simulated):** Each conclusion must arise from an earlier choice. Avoid narrating the score as the only moral; allow opponents dignity and preserve distinct comic/dramatic registers.
+- **Visual counterweight:** DK window geometry, aerial throw mechanics, court action axis, poker card legality and cypress hunting staging require real production design validation.
+- **Copy editor:** Several passages are production instructions intentionally separated from narrative prose in the next copy-lock pass. Do not print camera/QA notes in final pages.
+- **Umpire status:** NOT independently reviewed. No manuscript, venue, fact or page lock granted.
