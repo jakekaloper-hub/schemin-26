@@ -1,0 +1,264 @@
+{
+  "scope": "Source-indexed 2026 weeks; not an event-level causal linkage ledger",
+  "warning": "Week co-occurrence does not establish that an event caused or appears in a specific publication. Interpretive events are not automatically physical canon.",
+  "weeks": [
+    {
+      "week": 1,
+      "publications": [
+        {
+          "id": "novel.2026.chapter-01",
+          "title": "Chapter I \u2014 The First Answer",
+          "family": "living_novel",
+          "status": "CANON_CLOSED",
+          "relations": [
+            {
+              "type": "follows",
+              "publication_id": "novel.2026.prologue"
+            },
+            {
+              "type": "precedes",
+              "publication_id": "novel.2026.chapter-02"
+            }
+          ],
+          "authority": [
+            "living-novel/qa/CHAPTER_01_FINAL_GATE.md",
+            "living-novel/consultants/author-council/engagements/NOVEL-AUTHOR-CONSULT-2026-10-01-001/00_EVIDENCE_FREEZE.md"
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
+      "week": 2,
+      "publications": [
+        {
+          "id": "memo.2026.week-02",
+          "title": "Pro Schemin Week 2 Memo",
+          "family": "weekly_memo",
+          "status": "RELEASED",
+          "relations": [
+            {
+              "type": "precedes",
+              "publication_id": "memo.2026.week-03"
+            },
+            {
+              "type": "interprets_same_source_interval",
+              "publication_id": "novel.2026.chapter-02"
+            }
+          ],
+          "authority": [
+            "PROJECT_CONTROL_REGISTRY.md",
+            "docs/governance/SOURCE_OF_TRUTH.md",
+            "docs/publications/WEEK_2_OFFICIAL_PUBLICATION_RECOVERY_RECEIPT_V1.md"
+          ]
+        },
+        {
+          "id": "novel.2026.chapter-02",
+          "title": "Chapter II \u2014 What Comes Back",
+          "family": "living_novel",
+          "status": "CANON_CLOSED",
+          "relations": [
+            {
+              "type": "follows",
+              "publication_id": "novel.2026.chapter-01"
+            },
+            {
+              "type": "interprets_same_source_interval",
+              "publication_id": "memo.2026.week-02"
+            },
+            {
+              "type": "precedes",
+              "publication_id": "novel.2026.chapter-03"
+            }
+          ],
+          "authority": [
+            "living-novel/qa/CHAPTER_02_FINAL_GATE.md",
+            "living-novel/consultants/author-council/engagements/NOVEL-AUTHOR-CONSULT-2026-10-01-001/00_EVIDENCE_FREEZE.md"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "id": "EVT-W2-LLC-INTRUSION",
+          "classification": "NARRATIVE_INTERPRETATION",
+          "location_id": "LOC-LLC-BOARDROOM",
+          "location_name": "LLC Mercantile Boardroom",
+          "event_type": "damage",
+          "continuity": [
+            "intrusion/destruction history",
+            "future reuse may show repair or scars"
+          ],
+          "provenance": [
+            "memo-os/week-3/WEEK_3_VISUAL_CALLBACK_AND_CONTINUITY_INVENTORY_V1.md"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "publications": [
+        {
+          "id": "memo.2026.week-03",
+          "title": "Pro Schemin Week 3 Memo",
+          "family": "weekly_memo",
+          "status": "RELEASED",
+          "relations": [
+            {
+              "type": "follows",
+              "publication_id": "memo.2026.week-02"
+            },
+            {
+              "type": "precedes",
+              "publication_id": "memo.2026.week-04"
+            },
+            {
+              "type": "interprets_same_source_interval",
+              "publication_id": "novel.2026.chapter-03"
+            }
+          ],
+          "authority": [
+            "PROJECT_CONTROL_REGISTRY.md",
+            "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md",
+            "world/qa/WEEK3_RELEASE_ARTIFACT_RECONCILIATION.md"
+          ]
+        },
+        {
+          "id": "novel.2026.chapter-03",
+          "title": "Chapter III \u2014 The Hill Is Not the Kingdom",
+          "family": "living_novel",
+          "status": "CANON_CLOSED",
+          "relations": [
+            {
+              "type": "follows",
+              "publication_id": "novel.2026.chapter-02"
+            },
+            {
+              "type": "interprets_same_source_interval",
+              "publication_id": "memo.2026.week-03"
+            }
+          ],
+          "authority": [
+            "PROJECT_CONTROL_REGISTRY.md",
+            "living-novel/qa/CHAPTER_03_FINAL_CANON_GATE_V1.md",
+            "living-novel/qa/CHAPTER_03_CANON_PROPOSAL_V1.md"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "id": "EVT-W3-BRIDGE",
+          "classification": "WORLD_CANON",
+          "location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+          "location_name": "Bridge at the Mountain Lake",
+          "event_type": "encounter",
+          "continuity": [
+            "remembered decision landmark",
+            "no physical destruction required"
+          ],
+          "provenance": [
+            "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+          ]
+        },
+        {
+          "id": "EVT-W3-MIRE-HILL",
+          "classification": "WORLD_CANON",
+          "location_id": "LOC-DK-MUD-HILL",
+          "location_name": "Mire Hill Battlefield",
+          "event_type": "scar",
+          "continuity": [
+            "scarred hill",
+            "yield memory",
+            "discarded standards/debris may persist until cleanup"
+          ],
+          "provenance": [
+            "memo-os/post-production/WORLD_STATE_CONTINUITY_LEDGER_V1_CANDIDATE.md",
+            "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+          ]
+        },
+        {
+          "id": "EVT-W3-COUNTRY-CLUB-CHILI",
+          "classification": "WORLD_CANON",
+          "location_id": "LOC-COUNTRY-CLUB-JACKSON",
+          "location_name": "Country Club of Jackson",
+          "event_type": "contamination",
+          "continuity": [
+            "chili contamination/humiliation history",
+            "cleanup required before pristine reset"
+          ],
+          "provenance": [
+            "memo-os/post-production/WORLD_STATE_CONTINUITY_LEDGER_V1_CANDIDATE.md",
+            "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+          ]
+        },
+        {
+          "id": "EVT-W3-ALPINE-WAGER",
+          "classification": "WORLD_CANON",
+          "location_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+          "location_name": "Alpine Wager Route",
+          "event_type": "memorialization",
+          "continuity": [
+            "wager/summit receipt landmark"
+          ],
+          "provenance": [
+            "memo-os/post-production/WORLD_STATE_CONTINUITY_LEDGER_V1_CANDIDATE.md"
+          ]
+        },
+        {
+          "id": "EVT-W3-SPEEDWAY",
+          "classification": "WORLD_CANON",
+          "location_id": "LOC-SOUTHERN-SPEEDWAY",
+          "location_name": "Southern Speedway",
+          "event_type": "encounter",
+          "continuity": [
+            "HMB/Chins survival-race history"
+          ],
+          "provenance": [
+            "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+          ]
+        },
+        {
+          "id": "EVT-W3-LLC-STORM",
+          "classification": "WORLD_CANON",
+          "location_id": "LOC-LLC-STORM-CITY",
+          "location_name": "LLC Port City Storm District",
+          "event_type": "weather",
+          "continuity": [
+            "major weather event remembered",
+            "storm-protection works become continuity object"
+          ],
+          "provenance": [
+            "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "publications": [
+        {
+          "id": "memo.2026.week-04",
+          "title": "Pro Schemin Week 4 Memo",
+          "family": "weekly_memo",
+          "status": "BLOCKED",
+          "relations": [
+            {
+              "type": "follows",
+              "publication_id": "memo.2026.week-03"
+            }
+          ],
+          "authority": [
+            "PROJECT_CONTROL_REGISTRY.md",
+            "memo-os/week-4/_INDEX.md",
+            "memo-os/week-4/WEEK_4_RELEASE_GATE_V1.md"
+          ]
+        }
+      ],
+      "events": []
+    }
+  ],
+  "sources": [
+    "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+    "world/data/world_state_events.json",
+    "world/data/locations.json"
+  ]
+}
