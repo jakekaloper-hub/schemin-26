@@ -155,6 +155,18 @@ On the league's observed scoreboard, El Niño stood **11.08 points** ahead. At t
 **Editorial:** Use P011–P013 source manuscript and controlled text, no AI-generated recap, ungrounded `Jade Peaks` label or alternate location until Atlas authority confirms. One folio at a time with Founder visual review. No new OS.
 **Status:** P011 REQUIRES REDO; P012/P013 NOT STARTED, no image rendered by this amendment.
 
+### Commissioner correction — Unarmed Lesson character and three-folio reset (2026-10-27)
+**Scope:** P011/P012/P013 only; retain the existing three-phase storyline and score-banner allocation. P011 previously generated candidate `SCHEMIN_26_W07_P011_A_WEAPON_LEFT_SLEEPING_REVIEW.png` is **REJECTED** for character mismatches. No Founder approval. P012 and P013 have not been rendered or approved.
+
+**OBIWAN / OBJ / `CHAR-JAKE-KALOPER` HARD LOCK:** Blond-haired Trade Jedi, canonical human facial and costume appearance from `canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png`, green cloak and earth-tone robes. Hair must be blond, not black or dark brown. The green lightsaber must be OFF, undrawn, with hilt securely clipped to his belt in all three folios. He has NO championship Belt. **Golden retriever is forbidden in P011, P012 and P013** regardless of its presence in the character's standalone reference portrait. No other animals or companions.
+
+**SEVEN DEADLY CHINS / `CHAR-BEN-WHIPPLE` HARD LOCK:** Use approved crop `canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png`: heavyset figure with CHINS cap, dark sunglasses, dirty white tank top, denim overalls, tattoos, and metal club/pipe as the approved identity accessory. Story fight remains UNARMED; no striking with the club, no alternate sumo/fantasy armor or red-gold warrior redesign. If an accessory cannot coexist with safe unarmed blocking, stage it set aside; preserve clothing and likeness.
+
+**No character substitutions:** No generic Jedi, generic sumo opponent, dark-haired ObiWan, glowing weapon, invented armor, extra bystanders, or golden retriever. Reference images must be retrieved and visually checked before every new render; source ID alone is not conditioning proof.
+
+**Three-phase continuity:** P011 `A Weapon Left Sleeping` arrival and voluntary unarmed challenge; P012 `Weight and Timing` technical grips, leverage, and overcommitment; P013 `The Sky Between` grounded counterthrow with unobstructed landing. Same mountain courtyard, entrance, mountain axis, light and costume; winner is Chins only on final P013 score strip. P011 and P012 NO final results banner. P013 P010-style `FINAL · WEEK 7` strip: `SEVEN DEADLY CHINS 116.60` WINNER versus `OBIWAN JACOBY 94.75`.
+**Governance:** Commissioner character correction supersedes older loose descriptions and rejected visual candidate, but does not claim image renderer subject binding, final raster QA, or publication. Do not render in this packet-correction step.
+
 ## UNARMED LESSON — ObiWan Jacoby HOME vs Seven Deadly Chins AWAY
 **Parent Atlas:** `LOC-TRADE-JEDI-MOUNTAIN-BASE`. **Subject A:** `CHAR-JAKE-KALOPER`, crop `canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png`, expected SHA256 `fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8`. **Subject B:** `CHAR-BEN-WHIPPLE`, crop `canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png`, expected SHA256 `0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f`. All SHA values are manifest expectations, not fresh byte-verification. **Continuity:** Training courtyard wall, mountains and entrance remain on fixed sides; unlit green lightsaber hilt stays clipped to ObiWan belt throughout.
 
