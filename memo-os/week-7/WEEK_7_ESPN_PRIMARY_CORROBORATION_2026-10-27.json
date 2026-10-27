@@ -1,0 +1,403 @@
+{
+  "schema": "schemin26.memo_os.primary_espn_adapter_crosscheck.v1",
+  "check_id": "S26-MEMO-W07W08-PRIMARY-ESPN-20261027-001",
+  "run_id": "S26-MEMO-W08-20261027-PREFLIGHT",
+  "work_key": "league=1417621/2026/raw=data-live-7b842988/adapter=W07_20261027_PROVIDER_NORMALIZED_SNAPSHOT_V1",
+  "source_native": {
+    "description": "Primary ESPN source-native JSON returned by direct ESPN gateway, parsed and persisted inside gateway JSON envelope; NOT original HTTP wire bytes",
+    "source": "espn-lm-api-reads",
+    "league_id": 1417621,
+    "season": 2026,
+    "branch": "data/live",
+    "git_commit": "7b842988c864fcbd8580907a8d9ba04a3ee85c06",
+    "latest_json_git_blob_sha": "0cefead89fef8cca248f3796239f7669da8b2175",
+    "manifest_json_git_blob_sha": "7df2958d55629581787d3c61f9d937a8b377d94f",
+    "fetched_at_utc": "2026-10-27T10:51:11.344439+00:00",
+    "gateway_validation": {
+      "team_count": 12,
+      "configured_roster_capacity": 19,
+      "roster_entry_counts": [
+        19,
+        18,
+        19,
+        19,
+        19,
+        19,
+        17,
+        19,
+        17,
+        17,
+        19,
+        19
+      ]
+    },
+    "http_wire_bytes_captured": false,
+    "response_headers_captured": false
+  },
+  "normalized": {
+    "artifact": "memo-os/week-7/WEEK_7_PROVIDER_NORMALIZED_EVIDENCE_2026-10-27.json",
+    "git_blob_sha": "34c982c5a5b23630dad89b3f61300b34061d08fb",
+    "artifact_id": "W07_20261027_PROVIDER_NORMALIZED_SNAPSHOT_V1",
+    "source": {
+      "provider": "ESPN via authenticated Flaim adapter",
+      "native_espn_raw": false,
+      "source_payload_class": "provider_normalized_connector_response",
+      "observed_date": "2026-10-27",
+      "source_native_acquisition_receipt": null,
+      "endpoint_raw_provenance": null,
+      "credentials_included": false
+    }
+  },
+  "checks": {
+    "week_6": true,
+    "week_7": true,
+    "week_8": true,
+    "standings": true,
+    "raw_scope": true
+  },
+  "weekly_matchup_comparisons": [
+    {
+      "week": 6,
+      "comparison_count": 6,
+      "matched": 6,
+      "rows": [
+        {
+          "home_id": "2",
+          "away_id": "5",
+          "home_name": "Red Leopards",
+          "away_name": "D0nkey K0ng",
+          "home_points": 108.08,
+          "away_points": 118.96,
+          "provider_winner": "AWAY",
+          "raw_match": true
+        },
+        {
+          "home_id": "12",
+          "away_id": "9",
+          "home_name": "Dr. Duckhook",
+          "away_name": "El Niño",
+          "home_points": 132.4,
+          "away_points": 119.86,
+          "provider_winner": "HOME",
+          "raw_match": true
+        },
+        {
+          "home_id": "3",
+          "away_id": "1",
+          "home_name": "Slob on my Dobb",
+          "away_name": "ObiWan Jacoby",
+          "home_points": 143.7,
+          "away_points": 123.38,
+          "provider_winner": "HOME",
+          "raw_match": true
+        },
+        {
+          "home_id": "7",
+          "away_id": "11",
+          "home_name": "The Chili Cheesers",
+          "away_name": "Seven Deadly Chins",
+          "home_points": 125.24,
+          "away_points": 131.78,
+          "provider_winner": "AWAY",
+          "raw_match": true
+        },
+        {
+          "home_id": "10",
+          "away_id": "8",
+          "home_name": "Mud Dogs",
+          "away_name": "His Majesty's Blood",
+          "home_points": 136.8,
+          "away_points": 136.92,
+          "provider_winner": "AWAY",
+          "raw_match": true
+        },
+        {
+          "home_id": "6",
+          "away_id": "4",
+          "home_name": "Three Dreaded Snake",
+          "away_name": "The LLC",
+          "home_points": 138.06,
+          "away_points": 137.69,
+          "provider_winner": "HOME",
+          "raw_match": true
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "comparison_count": 6,
+      "matched": 6,
+      "rows": [
+        {
+          "home_id": "6",
+          "away_id": "12",
+          "home_name": "Three Dreaded Snake",
+          "away_name": "Dr. Duckhook",
+          "home_points": 141.42,
+          "away_points": 141.74,
+          "provider_winner": "AWAY",
+          "raw_match": true
+        },
+        {
+          "home_id": "5",
+          "away_id": "9",
+          "home_name": "D0nkey K0ng",
+          "away_name": "El Niño",
+          "home_points": 122.67,
+          "away_points": 133.75,
+          "provider_winner": "AWAY",
+          "raw_match": true
+        },
+        {
+          "home_id": "1",
+          "away_id": "11",
+          "home_name": "ObiWan Jacoby",
+          "away_name": "Seven Deadly Chins",
+          "home_points": 94.75,
+          "away_points": 116.6,
+          "provider_winner": "AWAY",
+          "raw_match": true
+        },
+        {
+          "home_id": "10",
+          "away_id": "7",
+          "home_name": "Mud Dogs",
+          "away_name": "The Chili Cheesers",
+          "home_points": 108.72,
+          "away_points": 134.92,
+          "provider_winner": "AWAY",
+          "raw_match": true
+        },
+        {
+          "home_id": "2",
+          "away_id": "8",
+          "home_name": "Red Leopards",
+          "away_name": "His Majesty's Blood",
+          "home_points": 148.53,
+          "away_points": 137.02,
+          "provider_winner": "HOME",
+          "raw_match": true
+        },
+        {
+          "home_id": "3",
+          "away_id": "4",
+          "home_name": "Slob on my Dobb",
+          "away_name": "The LLC",
+          "home_points": 155.92,
+          "away_points": 111.21,
+          "provider_winner": "HOME",
+          "raw_match": true
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "comparison_count": 6,
+      "matched": 6,
+      "rows": [
+        {
+          "home_id": "10",
+          "away_id": "12",
+          "home_name": "Mud Dogs",
+          "away_name": "Dr. Duckhook",
+          "home_points": 0,
+          "away_points": 0,
+          "provider_winner": "UNDECIDED",
+          "raw_match": true
+        },
+        {
+          "home_id": "1",
+          "away_id": "9",
+          "home_name": "ObiWan Jacoby",
+          "away_name": "El Niño",
+          "home_points": 0,
+          "away_points": 0,
+          "provider_winner": "UNDECIDED",
+          "raw_match": true
+        },
+        {
+          "home_id": "5",
+          "away_id": "11",
+          "home_name": "D0nkey K0ng",
+          "away_name": "Seven Deadly Chins",
+          "home_points": 0,
+          "away_points": 0,
+          "provider_winner": "UNDECIDED",
+          "raw_match": true
+        },
+        {
+          "home_id": "6",
+          "away_id": "7",
+          "home_name": "Three Dreaded Snake",
+          "away_name": "The Chili Cheesers",
+          "home_points": 0,
+          "away_points": 0,
+          "provider_winner": "UNDECIDED",
+          "raw_match": true
+        },
+        {
+          "home_id": "3",
+          "away_id": "8",
+          "home_name": "Slob on my Dobb",
+          "away_name": "His Majesty's Blood",
+          "home_points": 0,
+          "away_points": 0,
+          "provider_winner": "UNDECIDED",
+          "raw_match": true
+        },
+        {
+          "home_id": "2",
+          "away_id": "4",
+          "home_name": "Red Leopards",
+          "away_name": "The LLC",
+          "home_points": 0,
+          "away_points": 0,
+          "provider_winner": "UNDECIDED",
+          "raw_match": true
+        }
+      ]
+    }
+  ],
+  "standings_comparisons": [
+    {
+      "team_id": "1",
+      "team_name": "ObiWan Jacoby",
+      "wins": 4,
+      "losses": 3,
+      "ties": 0,
+      "points_for": 931.22,
+      "points_against": 886.9899999999999,
+      "provider_match": true
+    },
+    {
+      "team_id": "2",
+      "team_name": "Red Leopards",
+      "wins": 4,
+      "losses": 3,
+      "ties": 0,
+      "points_for": 1002.31,
+      "points_against": 906.88,
+      "provider_match": true
+    },
+    {
+      "team_id": "8",
+      "team_name": "His Majesty's Blood",
+      "wins": 4,
+      "losses": 3,
+      "ties": 0,
+      "points_for": 945.4899999999999,
+      "points_against": 907.8400000000001,
+      "provider_match": true
+    },
+    {
+      "team_id": "3",
+      "team_name": "Slob on my Dobb",
+      "wins": 4,
+      "losses": 3,
+      "ties": 0,
+      "points_for": 1096.7800000000002,
+      "points_against": 969.12,
+      "provider_match": true
+    },
+    {
+      "team_id": "7",
+      "team_name": "The Chili Cheesers",
+      "wins": 4,
+      "losses": 3,
+      "ties": 0,
+      "points_for": 1014.7399999999999,
+      "points_against": 1027.99,
+      "provider_match": true
+    },
+    {
+      "team_id": "5",
+      "team_name": "D0nkey K0ng",
+      "wins": 4,
+      "losses": 3,
+      "ties": 0,
+      "points_for": 1003.6999999999999,
+      "points_against": 941.76,
+      "provider_match": true
+    },
+    {
+      "team_id": "12",
+      "team_name": "Dr. Duckhook",
+      "wins": 4,
+      "losses": 3,
+      "ties": 0,
+      "points_for": 983.8599999999999,
+      "points_against": 1039.73,
+      "provider_match": true
+    },
+    {
+      "team_id": "11",
+      "team_name": "Seven Deadly Chins",
+      "wins": 4,
+      "losses": 3,
+      "ties": 0,
+      "points_for": 931.7800000000001,
+      "points_against": 934.51,
+      "provider_match": true
+    },
+    {
+      "team_id": "6",
+      "team_name": "Three Dreaded Snake",
+      "wins": 3,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 900.59,
+      "points_against": 966.79,
+      "provider_match": true
+    },
+    {
+      "team_id": "9",
+      "team_name": "El Niño",
+      "wins": 3,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 971.0300000000001,
+      "points_against": 981.31,
+      "provider_match": true
+    },
+    {
+      "team_id": "4",
+      "team_name": "The LLC",
+      "wins": 2,
+      "losses": 5,
+      "ties": 0,
+      "points_for": 976.8200000000002,
+      "points_against": 1046.39,
+      "provider_match": true
+    },
+    {
+      "team_id": "10",
+      "team_name": "Mud Dogs",
+      "wins": 2,
+      "losses": 5,
+      "ties": 0,
+      "points_for": 882.6500000000001,
+      "points_against": 1031.66,
+      "provider_match": true
+    }
+  ],
+  "aggregate": {
+    "matchups_compared": 18,
+    "matchups_agree": 18,
+    "standings_compared": 12,
+    "standings_agree": 12,
+    "discrepancies": 0
+  },
+  "classification": {
+    "evidence_status": "PRELIMINARY_CROSS_SOURCE_CORROBORATED",
+    "native_json_preservation": "PRESENT_BY_GIT_BLOB",
+    "raw_http_byte_preservation": "UNAVAILABLE",
+    "snapshot_freshness_acceptance": "UNREVIEWED",
+    "source_authentication_independent": "NOT_PERFORMED",
+    "data_release_steward_ack": "NOT_OBSERVED",
+    "canonical_snapshot_lock": "BLOCKED",
+    "fact_lock": "BLOCKED",
+    "publication_release": "HOLD"
+  },
+  "required_next_action": "Route source-native JSON receipt + adapter evidence through Data Release Steward for independent time/freshness, semantics, lineage, and source-native byte policy evaluation. Do not promote snapshot or Fact Lock on this crosscheck alone.",
+  "footer": "This is a machine-computed equality diagnostic, not a real Steward signature, an independent QA pass, source HTTP byte forensics or an OS release."
+}

@@ -24,6 +24,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Enforce V5.2-RC collaboration regression fixtures (COLLAB-001..012)
+        run: python -m unittest discover -s memo-os/tests -p 'test_v52*.py' -v
       - name: Validate unit-stills Page Design Packet routing
         run: python -m unittest discover -s memo-os/tests -p 'test_frank_masi_packet_routing.py' -v
       - name: Validate cinematic scene-direction preflight
