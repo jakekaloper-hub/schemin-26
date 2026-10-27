@@ -51,3 +51,9 @@ FOUNDER_VISUAL_APPROVED_P017 / FOUNDER_VISUAL_APPROVED_P018 / P019_READY_FOR_IND
 - **Copy remediation:** initial image-generated bottom article contained unsupported standings and text other than the P019 packet. Replaced that narrative region with the existing P019 exact candidate editorial copy via deterministic raster text. Do not treat image-model article text as authoritative.
 - **State:** `P019_RENDERED_FOUNDER_REVIEW_PENDING`. This image lives in the conversation output filesystem, **not GitHub**; no claimed binary GitHub ingestion or independent Umpire acceptance. Preview at 1024×1536 has been visually inspected; 390px mobile and publication PDF QA not independently certified.
 - **Next gate:** Founder visual approval or precise corrections. Do not automatically declare the three-folio matchup officially published.
+
+## P019 Founder visual acceptance — subsequent decision
+- Commissioner stated: "im satisfied, lets move on to another matchup. now Dr Duckhook vs Three Dreaded Snakes". This is explicit visual acceptance of the latest P019 revision, completing Founder visual review of P017–P019.
+- Accepted conversation artifact: `SCHEMIN_26_W07_P019_REVISED_EXACT_COPY.png` (not yet proven to be ingested as a binary into GitHub).
+- **Status:** P017/P018/P019 FOUNDER VISUAL APPROVED. This is not independent copyfit/raster certification, permanent Atlas ratification, Fact Lock, PDF release or repo merge.
+- **Next matchup:** Three Dreaded Snake (HOME) vs Dr. Duckhook (AWAY), `The Miracle Putt`, P005–P007; begin P005 individually. Maintain actual character refs `CHAR-PHILLIP-PITTS` (one armored humanoid body, three serpent heads) and `CHAR-ZACH-WILSON` (duck-headed golfer) under `LOC-TDS-WATERFALL-TEMPLE` with proposed event-only green.
