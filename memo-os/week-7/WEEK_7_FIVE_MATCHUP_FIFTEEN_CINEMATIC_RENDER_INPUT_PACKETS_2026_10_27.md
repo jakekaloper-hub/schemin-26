@@ -228,6 +228,8 @@ Later, in the cypress clearing, Chili stood beside the trophy for a photograph. 
 The league ledger showed Chili ahead by **26.20**. The swamp kept a more complicated account: one hunter had claimed the buck, but neither had reached it alone.
 
 ## FORGOTTEN COURT — Red Leopards HOME vs His Majesty's Blood AWAY
+**NEUTRAL SITE REVIEW (2026-10-27):** `LOC-COMPACT-NEUTRAL-GROUNDS` is an existing PROVISIONAL_CANON neutral parent, reached by both characters through registered routes and `ROUTE-COMPACT-GROUNDS`. Its approved features are open ceremonial field, arbiter pavilion and arrival roads; a basketball court is NOT registered. This is a candidate parent only, not a court approval. P017–P019 remain HARD HOLD on venue subsite and renderer binding.
+
 **Parent Atlas:** `UNRESOLVED-FORGOTTEN-NEUTRAL-COURT`. **Subject A:** `CHAR-KEVIN-ZEEK`, crop `canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png`, expected SHA256 `53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b`. **Subject B:** `CHAR-AUSTIN-BYARS`, crop `canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png`, expected SHA256 `e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3`. All SHA values are manifest expectations, not fresh byte-verification. **Continuity:** Basket remains at same end of half-court; ball possession and left/right dribble direction consistent; HMB's championship Belt set aside, never transferred.
 
 ### FOLIO P017 — OVERTURE
