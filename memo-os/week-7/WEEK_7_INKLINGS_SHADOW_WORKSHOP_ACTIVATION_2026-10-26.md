@@ -33,3 +33,12 @@ These are method references, not actual human participants.
 7. Verify command invocation from authenticated Bullpen runtime and read back persisted candidate.
 
 Current gate: BLOCKED FOR LIVE ACTIVATION. The deterministic workshop component is tested, but provider-backed critiques, Week 7 bound pilot, full CI, Umpire and runtime registration are not yet verified.
+
+
+## Operational status reconciliation — 2026-10-27
+
+- PR #254 was merged into main at commit `2c7e5f54d42a1c7b0cd8a60253019fdb7de215a2`; the historical header above describes the pre-merge candidate state, not the current GitHub merge status.
+- Founder reports that the Commonwealth Inklings workflow was **working and verified in another thread**. Record this as `FOUNDER_REPORTED_LIVE_VERIFIED`, not as a newly independently reproduced runtime test or Umpire receipt in this file.
+- The Week 7 production team is authorized to use the existing Inklings capability, subject to normal Memo OS fact, character, Atlas, editorial and publication controls. This does not automatically certify Week 7 outcomes or authorize final release.
+- Librarian follow-up: link the actual live invocation, persisted output, runtime version, test receipt and Umpire evidence from the other thread when available. Avoid rerunning or rebuilding already verified capabilities without a demonstrated regression.
+- The original SHADOW/NOT LIVE header is retained as historical context; the current operational declaration is founder-reported live verification pending receipt reconciliation.
