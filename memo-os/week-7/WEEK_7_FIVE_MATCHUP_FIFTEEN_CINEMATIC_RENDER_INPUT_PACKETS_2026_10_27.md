@@ -196,6 +196,14 @@ ObiWan believed he was offering a lesson without unnecessary ceremony. Chins bel
 
 The mountain air moved across the courtyard. ObiWan smiled as though the result had already been explained. Chins settled his stance and waited.
 
+### P011 Founder visual acceptance and P012 handoff — 2026-10-27
+**Founder decision:** The Commissioner visually APPROVED the corrected P011 `A Weapon Left Sleeping` candidate, `SCHEMIN_26_W07_P011_CHARACTER_CORRECTED_REVIEW.png`. The earlier incorrect P011 render remains REJECTED. This is Founder visual acceptance, not independent source/raster or publication QA; the binary is not verified as uploaded to canonical GitHub.
+**Appearance lock inherited by P012 and P013:** `CHAR-JAKE-KALOPER` ObiWan has BLOND hair, canonical human appearance, green cloak over earth-toned robes, lightsaber hilt visibly clipped to his belt, **OFF AND NEVER DRAWN**. NO golden retriever or other animal/companion in any of these three pages. `CHAR-BEN-WHIPPLE` Seven Deadly Chins has heavyset build, CHINS cap, dark sunglasses, dirty white tank top, denim overalls and tattoos. His metal club remains set aside, never used as an unarmed weapon. No generic Jedi, armor-clad sumo substitute or other figures.
+**P012 scene and visual change:** `Weight and Timing` is a more intimate **50mm waist-high side-on** confrontation at the same mountain training courtyard. ObiWan feints and overcommits while Chins observes his hips, plants his feet and catches an arm, establishing believable grip, rotational leverage and continuation into P013. Preserve action axis, gates, mountain ridgeline, banners and motivated light from P011; do NOT simply recreate P011's face-off portrait or show the complete aerial throw yet.
+**Text and regional naming:** Use the exact existing P012 manuscript with controlled magazine typography; prior P011 image's `Jade Peaks` label remains unverified and must NOT be propagated as canonical geography without Atlas proof. Binding parent `LOC-TRADE-JEDI-MOUNTAIN-BASE`.
+**Banner:** P012 has NO FINAL score, winner or margin banner. ONLY P013 gets P010-style `FINAL · WEEK 7`, `SEVEN DEADLY CHINS 116.60` WINNER and `OBIWAN JACOBY 94.75`.
+**QA:** Before presentation inspect identities, actual limb/contact mechanics, no dog, hilt off/on belt, exact copy and 1024×1536 geometry. Do not falsely claim independent renderer-reference conditioning or full PDF release.
+
 ### FOLIO P012 — ESCALATION
 **NARRATIVE JOB:** THE UNARMED LESSON: ObiWan Jacoby (HOME) / Seven Deadly Chins (AWAY) — Escalation: Weight and Timing
 **CAMERA / LENS EQUIVALENT:** 50mm waist-high side-on; fixed 1024×1536 portrait composition. Lens numbers are artistic cues, not EXIF claims.
