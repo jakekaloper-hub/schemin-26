@@ -4,6 +4,8 @@
 
 **Global master:** Native 1024×1536 PNG portrait 2:3. Never PDF-first or blank-box wireframe. 390px QA is a downscale of the actual illustrated PNG. Score/name/folio/card text must be deterministic overlays. All scenes require actual character crop bytes verified against manifest SHA, accepted Atlas/route and independent visual QA. Week 6 is composition precedent, NOT likeness authority. The current FLAIM Week 7 score snapshots remain provider UNDECIDED; observed story margins are provisional.
 
+**FOUNDER VENUE DECISION (2026-10-27):** All six Week 7 matchup scene settings are APPROVED for Memo OS cinematic staging. Source: `memo-os/week-7/WEEK_7_FOUNDER_SIX_VENUE_SCENE_AUTHORIZATION_2026_10_27.md`. Approval does not create permanent Atlas locations, prove renderer attachment, approve travel modes or remove technical staging HOLDs. The proposed Red/HMB neutral court uses `LOC-COMPACT-NEUTRAL-GROUNDS` as a provisional parent, not a registered permanent court.
+
 ## HAUNTED STRONGHOLD — D0nkey K0ng HOME vs El Niño AWAY
 **Parent Atlas:** `LOC-DK-HIGHLAND-STRONGHOLD`. **Subject A:** `CHAR-WILSON-LOOK`, crop `canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png`, expected SHA256 `3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f`. **Subject B:** `CHAR-MANNING-WELTY`, crop `canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png`, expected SHA256 `d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04`. All SHA values are manifest expectations, not fresh byte-verification. **Continuity:** Storm wind flows from tower outer opening toward interior, then outward through broad exit as gust changes; banners and lantern flame must obey same wind field.
 
