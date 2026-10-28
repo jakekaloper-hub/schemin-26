@@ -56,3 +56,8 @@ python3 memo-os/tests/validate_artifacts.py path/to/actual/issue-manifest.json
 
 The new CI executes synthetic positive/negative artifact regression fixtures. **CI success by itself does not prove the current weekly PDF passed the candidate gate.** Ensure the actual candidate command has run with archived outputs and reviewer receipts before release. The validator detects render failures but does **not** certify human-readability, character likeness, printed numbers embedded inside raster images, FLAIM source authenticity, or canonical geography. Those remain existing independent desks' responsibilities; a literal `PASS` field alone is not proof.
 
+
+
+## Native page geometry — forward-only amendment (2026-10-28)
+
+Newly produced weekly memo page PNGs (including unapproved Week 7 commissions and Week 8 onward) use **1080 × 1920 pixels, exact 9:16** as their native composition master. The authoritative fields and lock conditions are in [`PAGE_PRODUCTION_CONTRACT_V1.md`](PAGE_PRODUCTION_CONTRACT_V1.md). Validate actual bytes with `python memo-os/native_png_contract.py <page.png>`; the `test_native_png_contract.py` regression checks run in the Memo Issue Guardrail workflow. Legacy historical page packets and published images are evidence, not forward raster defaults. Changing the documented target is not proof that every generator/assembler has switched; runtime integration and visual acceptance remain independent gates.
