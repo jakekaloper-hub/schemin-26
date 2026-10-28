@@ -599,6 +599,38 @@ Mud Dogs host Duckhook. ObiWan hosts El Niño. DK hosts Chins. TDS hosts Chili. 
 
 A ball fell into a cup. A storm found an open window. A Jedi left his weapon sleeping. A hunter carried home his trophy. A Leopard found room for one more jumper. A gentleman laid five cards on the table. The Commonwealth will argue about the meaning of each. The ledger will keep the numbers. Next week, the roads fill again.
 
+### FINAL WORD — ISSUE-WIDE PREPRODUCTION REVISION / THE LAST MOVE (2026-10-28)
+**State:** Working editorial copy proposal, NOT exact-copy lock; no render; existing P028 source text retained above as historical candidate. Founder requested preparing final closing department after Atlas map, sports desk extension, trade-deadline Waiver Wire. Final publication index is provisionally P031 after three inserts and must be reconciled with production manifest, not silently renumbered.
+**Narrative role:** Final Word closes whole league issue, not simply six matchup summaries. Week6 Final Word establishes reflective, aftermath-first newsroom voice. P002 Editor's Letter welcomes; the final page looks forward. P027 Week8 preview owns fixture specifics; P026 waiver owns completed activity; Sports Desk owns real NFL/player reporting. This closer draws meaning from their presence without duplicating tables or rumors.
+**Verified facts used:** Six Week7 matchups decided; Duckhook narrow victory by 0.32, El Niño over DK, Chins over ObiWan, Chili over Mud, Red over HMB, Slob over LLC. Official ESPN/Flaim trade deadline `2026-11-04T18:00:00Z`, Wednesday Nov4 at 1pm EST. Pittsy's exact owner announcement promises reopening next week; it is a promise, not verified reopening. The individual supernatural/cinematic actions below are fictional dramatizations, not literal NFL actions. Avoid declaring unavailable fantasy playoff odds or post-Week7 future results.
+**Atlas/visual brief:** Art-led League Chamber/Archive elevated gallery overlooking the continuous Commonwealth landscape; physical world relief/table map occupying lower half, three clear road branches fading into distance; one small closed-book seal, a chess-sized golf ball, an unsigned registrar note as restrained relics (not six tiny recap thumbnails). No owner portraits or newly invented realm capital. Harmonize with the new Week7 full-world map but do NOT copy its overhead layout. Dusk-to-dawn gradient, warm paper vs cool distant weather, one compositional vanishing point. P031 1024×1536, candidate copy 180 words approximate, maintain phone-scale readability; exact source overlay and independent image QA.
+**Provisional method Inklings counterweight:** Punchline at Pittsy's is earned because his actual quotation predates reopening; no direct fabricated TDS quote. Closing aphorism is the issue's distinct thematic payoff and should not be repeated in P002 or preview. Scene motifs must stay true to six manuscript packets; do not create a new permanent map landmark. This is an assistant editorial synthesis, not a verified live independent author meeting.
+**CURRENT REVIEW MANUSCRIPT (not Founder copy-locked):**
+
+# THE FINAL WORD — The Last Move
+
+A golf ball disappeared into a cup, and three serpent heads were left to contemplate the cruelty of fractions.
+
+Across the Commonwealth, the weather humbled a stronghold. A Jedi discovered that restraint was not enough. A hunter returned with his prize. A Leopard defended his ruins. And somewhere behind a closed door, five cards settled an argument before it could begin.
+
+Six contests. Six conclusions. Not one of them the end of the story.
+
+The standings have tightened. Reputations have shifted. The infirmary has delivered its warnings, the market has changed hands, and the League's merchants are already watching the calendar. November 4 approaches, and with it the final opportunity to reshape a roster through trade.
+
+Meanwhile, Pittsy's Book remains locked—although its proprietor has somehow managed to threaten customers before reopening.
+
+Such is life in the Commonwealth.
+
+The Atlas remembers the places. The Archive remembers the numbers. The owners will remember whichever version makes them look best.
+
+But the roads do not end at this week's results. They lead toward new visitors, old grudges, and consequences nobody has written yet.
+
+**The scores are final. The Commonwealth is not.**
+
+— The Editorial Desk
+
+**Open gates:** Founder manuscript/visual review, Atlas visual location grounding, exact copyfit, final issue-wide Inklings polish, independent QA, final folio numbering, no render yet.
+
 ## Department-specific acceptance blockers
 - P023 requires authoritative prior published Power Rankings and current model inputs; do not use ESPN seed as editorial power rank.
 - P024 requires final seven-game standings and tie-break authority; conditional projections must remain labeled.
