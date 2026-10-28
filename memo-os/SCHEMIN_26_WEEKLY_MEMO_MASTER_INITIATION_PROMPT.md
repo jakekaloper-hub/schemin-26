@@ -314,3 +314,7 @@ PROMOTED
 BLOCKED
 and
 REMAINING_EXTERNAL_INPUT_REQUIRED.
+
+## Forward PNG geometry (2026-10-28)
+
+**Binding for new commissions (including unfinished Week 7 and Week 8 onward):** Every Memo OS Page Design Packet, render prompt, complete-issue previs, page master and PNG acceptance receipt MUST inherit `output_format: PNG`, `output_width_px: 1080`, `output_height_px: 1920`, `output_aspect_ratio: 9:16` from `memo-os/PAGE_PRODUCTION_CONTRACT_V1.md`. Treat 1080×1920 as the final master, not a historical 1024×1536 composition stretched or arbitrarily cropped to fit. Keep character references, narrative copy, score/data typography, composition safe zones and Commissioner approvals intact. Providers may deliver an exact-ratio larger master resampled uniformly, but any ratio mismatch, crop, text loss or reference drift is a QA failure. Run `memo-os/native_png_contract.py` on actual PNG bytes before PAGE_LOCK; full-resolution character/world/copy inspection and 390px mobile QA remain mandatory. Already-published issues and their archived page packets are immutable historical evidence, not active defaults. No API or new provider is required for this policy change.

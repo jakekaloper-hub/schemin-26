@@ -12,10 +12,6 @@ issue_id:
 page_id:
 page_role:
 page_state: PLANNED
-output_format: PNG
-output_width_px: 1080
-output_height_px: 1920
-output_aspect_ratio: '9:16'
 
 narrative_job:
 chapter_beat:
@@ -55,6 +51,10 @@ copy_budget:
 adjacent_pages:
 rhythm_function:
 mobile_risk:
+output_format: PNG
+output_width_px: 1080
+output_height_px: 1920
+output_aspect_ratio: '9:16'
 
 failure_conditions:
 required_qa:
