@@ -62,3 +62,6 @@ jobs:
         run: python living-novel/os/evaluations/test_chapter_i_causal_cut_v3.py
       - name: Validate noncanonical Chapter I causal cut V4
         run: python living-novel/os/evaluations/test_chapter_i_causal_cut_v4.py
+
+      - name: Validate noncanonical Chapter I causal cut V5
+        run: python living-novel/os/evaluations/test_chapter_i_causal_cut_v5.py
