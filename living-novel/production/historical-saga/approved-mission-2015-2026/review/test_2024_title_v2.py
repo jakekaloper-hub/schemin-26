@@ -35,14 +35,14 @@ class TestTitleCausalV2(unittest.TestCase):
         self.assertGreaterEqual(len(self.combined.split()), 4300)
 
     def test_exactly_five_development_scenes(self):
-        headers = re.findall(r"^## ([IVX]+)\\. ", self.combined, flags=re.M)
+        headers = re.findall(r"^## ([IVX]+)\. ", self.combined, flags=re.M)
         self.assertEqual(headers, ["I", "II", "III", "IV", "V"])
         self.assertEqual(len(self.registry["scenes"]), 5)
 
     def test_all_pov_entries_are_sole_eligible_principal(self):
         self.assertEqual(self.registry["primary_pov_ids"], ["CHAR-JAKE-KALOPER"])
         self.assertEqual({scene["pov_character_id"] for scene in self.registry["scenes"]}, {"CHAR-JAKE-KALOPER"})
-        self.assertNotRegex(self.combined, r"(?m)^## [IVX]+\\. .*\\b(?:Edrin|Oren|El Niño)\\b")
+        self.assertNotRegex(self.combined, r"(?m)^## [IVX]+\. .*\b(?:Edrin|Oren|El Niño)\b")
 
     def test_verified_title_facts_and_boundary(self):
         self.assertIn("187.52", self.combined)
@@ -53,8 +53,8 @@ class TestTitleCausalV2(unittest.TestCase):
 
     def test_no_future_2025_2026_outcome_given_to_character(self):
         story = self.combined[self.combined.index("## I. The Speech for Tomorrow"):]
-        self.assertNotRegex(story, r"\\b202[56]\\b")
-        self.assertNotRegex(story, r"(?m)^## [IVX]+\\. .*\\b(?:2025|2026)\\b")
+        self.assertNotRegex(story, r"\b202[56]\b")
+        self.assertNotRegex(story, r"(?m)^## [IVX]+\. .*\b(?:2025|2026)\b")
 
     def test_release_fails_closed(self):
         self.assertEqual(self.registry["status"], "DRAFT_NONCANON_REVIEW_HOLD")
