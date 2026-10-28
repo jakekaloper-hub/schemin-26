@@ -56,3 +56,5 @@ jobs:
         run: python -m unittest discover -s living-novel/migrations -p "test_*.py" -v
       - name: Validate whole-book convergence
         run: python living-novel/os/evaluations/test_whole_book_convergence.py
+      - name: Validate noncanonical Chapter I causal cut V2
+        run: python living-novel/os/evaluations/test_chapter_i_causal_cut_v2.py
