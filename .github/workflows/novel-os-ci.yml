@@ -6,6 +6,7 @@ on:
       - "living-novel/migrations/**"
       - "living-novel/whole-book/**"
       - "living-novel/consultants/**"
+      - "living-novel/production/historical-saga/approved-mission-2015-2026/**"
       - "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
       - "chronicles/proof-of-concept/prologue/**"
       - ".github/workflows/novel-os-ci.yml"
@@ -15,6 +16,7 @@ on:
       - "living-novel/migrations/**"
       - "living-novel/whole-book/**"
       - "living-novel/consultants/**"
+      - "living-novel/production/historical-saga/approved-mission-2015-2026/**"
       - "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
       - "chronicles/proof-of-concept/prologue/**"
       - ".github/workflows/novel-os-ci.yml"
@@ -56,3 +58,5 @@ jobs:
         run: python -m unittest discover -s living-novel/migrations -p "test_*.py" -v
       - name: Validate whole-book convergence
         run: python living-novel/os/evaluations/test_whole_book_convergence.py
+      - name: Validate 2025 historical Pitts eight-scene candidate (noncanon)
+        run: python -m unittest discover -s living-novel/production/historical-saga/approved-mission-2015-2026/review -p "test_2025_reckoning_v2.py" -v
