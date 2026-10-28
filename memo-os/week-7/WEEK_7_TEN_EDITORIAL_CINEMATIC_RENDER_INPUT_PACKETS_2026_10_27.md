@@ -243,6 +243,12 @@ The Commissioner expressly visually APPROVED the latest P004 `SCOREBOARD` with o
 
 The Commonwealth's Power Rankings measure more than one week. The Analyst must weigh season record, total scoring strength, recent form and the prior published hierarchy. Week 7 produced Slob's 155.92, Red's 148.53 and Duckhook's narrow escape, but a single performance is not the whole season. Publish the ordered twelve only after model inputs and movement evidence are validated.
 
+### P023 Commissioner simplified rankings-page directive — 2026-10-27
+**Latest visual authority:** Use a simple, readable physical chalkboard or traditional league rankings board, visually aligned with the Founder-approved P004 scoreboard. No portraits, character faces, team logos, crests, decorative owner seals, six-story montage, or ornate individual ranking cards. Prior `twelve numbered owner seals` visual packet staging is SUPERSEDED for P023 only.
+**Printed hierarchy:** `SCHEMIN ’26 · WEEK 7` / `POWER RANKINGS`, followed by exactly twelve aligned entries `RANK | TEAM | MOVEMENT` (optional W–L only if validated and space permits). One concise analyst note if source-grounded and readable; no generic commentary filling space.
+**Critical data boundary:** Rank positions are NOT ESPN standings/playoff seeds or simply sorted fantasy points. Retrieve last officially published Week 6 Power Rankings order, apply the existing independent Analyst method to Week 7 decided results, and verify the 12-team order and movements before typesetting. If either baseline or method is not established, do not fabricate ranks or movement arrows. Await correct input or use a clearly marked pre-render layout proof without invented ranking data.
+**Composition:** Single modest blackboard on a restrained League Archive / Commonwealth editorial setting, dark background, light chalk type, muted gold for leading ranks, no data drawn by image generator. Exact 1024×1536 PNG, 390px mobile legibility and independent QA on actual raster. This is a production-packet direction, not rank certification or a finished render.
+
 ## FOLIO P024 — State of the Realm: The Divisions
 **NARRATIVE JOB:** State of the Realm.
 **CAMERA / STAGING / FOCAL HIERARCHY:** Wide regional Atlas table with three distinct cultural division overlays, not burger/pizza landscapes. Foreground focal object, middle-ground story consequence, background Atlas specificity. Scene must have a single visual thesis, not a generic empty text rectangle.
