@@ -45,17 +45,23 @@ The Commissioner explicitly accepted the displayed P001 `The Miracle Putt` cover
 **Status:** P002 next candidate for individual render and Founder review; no art produced by this update.
 
 ## FOLIO P002 — Cover Letter: From the Editor
-**NARRATIVE JOB:** Cover letter.
-**CAMERA / STAGING / FOCAL HIERARCHY:** Editorial desk still life: folded Commonwealth issue, ink, six dispatch seals; no fake character portraits. Foreground focal object, middle-ground story consequence, background Atlas specificity. Scene must have a single visual thesis, not a generic empty text rectangle.
-**ATLAS / WORLD STATE:** Existing league editorial environment, venue binding pending. Preserve existing locations, no silent canon promotion.
-**EDITORIAL DESIGN:** Distinct letterhead, byline and readable editorial prose, no scoreboard banner. Use controlled publication masthead, legible text-safe area and accurate printed folio; do not repeat Week 6 heavy header + portrait + footer mechanically.
-**PAGE MASTER:** native PNG 1024×1536 2:3 portrait, deterministic typography/score/data overlays. Source-specific color and lighting motivated by physical environment.
-**QA:** exact source text, approved character crop binding if any, Atlas continuity, physical/printed folio match, phone-scale final PNG readability, independent Umpire; all NOT RUN.
-**PRODUCTION STATE:** PLANNED/HOLD; never call READY_FOR_RENDER based on this text packet alone.
+**NARRATIVE JOB:** Editorial welcome and publication covenant: explain why the Week 7 Memo is an imaginative record anchored in actual league results. Distinct from P003 (six events / causal thesis) and P004 (six final scores). Do not summarize matchups or repeat scores, winner names, scenes, cliffhangers, rankings or the six-remnant illustration.
+**EDITORIAL VOICE:** Commissioner/Editor-in-Chief institutional letter, grounded, concise, mischievous but sincere; no invented personal quote attributed to the Commissioner. Address all twelve owners as members of a shared ongoing Commonwealth.
+**CAMERA / DESIGN:** An intimate editorial letter still-life: a half-folded issue, ink, publisher's pen, single embossed Commonwealth seal and warm practical lamp, tightly composed at the League Archive writing desk. DO NOT place six wax seals/dispatch packets as that would duplicate P003's six-object archive scene. No character portraits, magic map, scoreboards or six separate environmental vignettes.
+**TYPE:** Traditional `SCHEMIN ’26` masthead, `WEEK 7`, `FROM THE EDITOR`, one balanced letter column, measured signature/closing `— The Editorial Desk` (not a forged handwritten individual signature). 1024×1536 portrait PNG; exact copy overlaid deterministically; test actual final raster at 390px.
+**FACT DISCIPLINE:** Results reported in P004 and payoff pages are ESPN/Flaim facts once validated. Cinematic actions/locations are literary interpretation and may not be represented as literal ESPN facts, standings changes or permanent Atlas mutations. Final issue release QA remains independent of Founder visual approval.
+**COUNTERWEIGHT / NONDUPLICATION CHECK:** If P002 calls out the miracle putt, a storm, a lightsaber, a hunt, a crossover, poker cards or a numerical margin, it is doing P003/P004's job. If it repeats the six-remnant desk layout, it is visually redundant. Reserve the stories and receipts for their own folios.
+**REVIEW STATE:** Revised editorial copy candidate based on Commissioner anti-duplication direction; NOT yet Founder copy-approved or rendered. This supersedes P002's prior manuscript only for pre-render review; retain earlier text in version history.
 
-### EXACT CANDIDATE EDITORIAL COPY
+### REVISED EXACT-COPY CANDIDATE — NOT YET FOUNDER LOCKED
 
-Seven weeks into this strange Commonwealth season, the difference between triumph and disbelief can fit inside a fraction. The league has produced a miracle putt, a storm that refused to behave, a training-ground lesson and a private game with no audience. These pages belong to the owners who made the numbers real and to the imaginary world that makes their consequences memorable. We will follow the evidence where it leads and let the stories do the rest.
+Seven weeks in, the Commonwealth has learned to keep two kinds of records. One belongs to the league: numbers, decisions, and the consequences nobody gets to rewrite. The other belongs to our imagination, where twelve owners turn a season into a world with history and personality.
+
+This issue respects both. The receipts remain receipts. The illustrations are our way of making the experience worth remembering.
+
+To everyone who makes this league what it is: the next chapter is never written alone.
+
+— The Editorial Desk
 
 ## FOLIO P003 — Opening Drive: The Week of the Last Move
 **NARRATIVE JOB:** Opening Drive.
@@ -183,6 +189,9 @@ These match the Oct27 normalized stored snapshot and historical prepared P004 pa
 **Current highest-authority P004 visual direction:** Modest, naturally staged handwritten/chalkboard scoreboard at TDS Waterfall Temple golf green, no team portraits/logos, no original six-image banners, no ornate panel collage. Six distinct score rows, single physical blackboard, traditional `SCHEMIN ’26 · WEEK 7 · SCOREBOARD` heading. Older banner-asset montage directions are SUPERSEDED; keep history without resuming them.
 **Existing candidate:** `SCHEMIN_26_W07_P004_GOLF_COURSE_CHALKBOARD_REDO.png` in ChatGPT working files; listed in previous record at 1024×1536, Founder visual approval and independent mobile/type audit not evidenced. Reuse/reinspect it BEFORE generating new artwork. If improved readability needed, recompose exact source numbers on the same simple board without changing concept.
 **Bullpen acceptance procedure:** Librarian verifies current page authority and image candidate lineage; Data Steward row-by-row compares 6/6 winner/score/pairings with authenticated read; Visual Lead checks actual blackboard readability and golf-green continuity; Umpire is an independent release gate, not presumed passed. P004 is REVIEW CANDIDATE / NEEDS FOUNDER VISUAL APPROVAL; not automatically published or merged.
+
+### P004 Founder visual approval — simplified chalkboard (2026-10-27)
+The Commissioner expressly visually APPROVED the latest P004 `SCOREBOARD` with only `Team (score) vs Team (score)` text on a chalkboard, no team logos/icons/faces; accepted conversation file `a_cinematic_fantasy_inspired_outdoor_scene_a_lar.png`. This supersedes previous P004 candidate designs and visual review statuses for Founder acceptance only. All six scores were independently checked in this production conversation against live week-seven Flaim `winner=HOME/AWAY` and `totalPoints=currentPoints`; final typography, asset ingestion and independent publication QA are NOT asserted complete. P002 must not duplicate this scoreboard's contents or environment.
 
 ## FOLIO P023 — Power Rankings: The Twelve
 **NARRATIVE JOB:** Power Rankings.
