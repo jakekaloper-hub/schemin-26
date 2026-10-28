@@ -281,7 +281,7 @@ Austin wanted to say yes.
 
 That was the part he disliked most.
 
-When he had taken the title in 2025, he had survived Duckhook by **152.20 to 151.80** in the semifinal, then defeated Jake **161.07 to 109.56** in the final. A fourth of a point less in the earlier contest would not have changed the quality of his preparations or the weight of his sword. It might have changed who stood here wearing the Belt. The difference had been four-tenths, smaller than nearly anything a stranger could perceive.
+When he had taken the title in 2025, he had survived Duckhook by **152.20 to 151.80** in the semifinal, then defeated Jake **161.07 to 109.56** in the final. Half a point less in the earlier contest would not have changed the quality of his preparations or the weight of his sword. It might have changed who stood here wearing the Belt. The difference had been four-tenths, smaller than nearly anything a stranger could perceive.
 
 A reign could rest on a distinction so narrow and still be legitimate. That was why the rules mattered. They told the people who lost close encounters that a fraction counted, and the people who won large ones that a fraction did not make them kings.
 
