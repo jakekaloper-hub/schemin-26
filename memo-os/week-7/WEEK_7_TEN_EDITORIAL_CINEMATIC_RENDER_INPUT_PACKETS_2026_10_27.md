@@ -38,6 +38,12 @@ DR. DUCKHOOK · WEEK SEVEN'S UNLIKELIEST FINISH
 ### P001 Founder visual acceptance receipt — 2026-10-27
 The Commissioner explicitly accepted the displayed P001 `The Miracle Putt` cover and authorized moving to the next matchup. Accepted conversation image: `a_cinematic_fantasy_magazine_cover_style_illustrat.png`. Dr. Duckhook is the only visible character, with approved composed putter-on-shoulder pose, traditional issue masthead and Week 7 banner. **Founder visual approval: YES.** Duplicate teaser lettering and non-packet location caption had been flagged at prior QA; approval of the image is not proof of exact-copy clearance. Canonical binary asset ingestion, independent typography/390px QA and PDF publication are NOT asserted. Preserve this visual direction; do not regenerate without explicit instruction.
 
+### P004 Founder visual approval and P002 handoff — 2026-10-27
+**Founder visual approval:** Commissioner approved the newest P004 simple chalkboard scoreboard image `a_cinematic_fantasy_inspired_outdoor_scene_a_lar.png` as displayed, with no team faces/logos/icons, TDS Waterfall Temple golf setting and six correct scores. Earlier P004 variants remain historical/rejected for this visual decision. Visual approval is not independent typography/raster certification or a GitHub binary archival receipt.
+**Next:** P002 Cover Letter: From the Editor, immediately after approved P001 cover and before approved P003 Opening Drive. Use the existing exact 77-word candidate editorial copy and P002's own original still-life art direction. Do not invent a different editorial thesis or copy without source approval.
+**Composition:** One atmospheric editorial desk still life, folded Commonwealth issue, ink, six physical dispatch seals; no added owner characters, no scoreboard/results banner, no invented League Archive permanent geography, and no copied P003 six-remnant collage. Maintain traditional SCHEMIN ’26 / WEEK 7 editorial hierarchy, letterhead, byline only if sourced, and mobile-legible controlled paragraph.
+**Status:** P002 next candidate for individual render and Founder review; no art produced by this update.
+
 ## FOLIO P002 — Cover Letter: From the Editor
 **NARRATIVE JOB:** Cover letter.
 **CAMERA / STAGING / FOCAL HIERARCHY:** Editorial desk still life: folded Commonwealth issue, ink, six dispatch seals; no fake character portraits. Foreground focal object, middle-ground story consequence, background Atlas specificity. Scene must have a single visual thesis, not a generic empty text rectangle.
