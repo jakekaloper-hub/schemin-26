@@ -86,7 +86,7 @@ class Historical2025PittsV2(unittest.TestCase):
     def test_knowledge_cutoff_and_no_retired_pov(self):
         self.assertNotRegex(self.new_parts[2][1], r"\b(?:161\.07|109\.56)\b")
         self.assertNotRegex(self.assembled, r"\b(?:Edrin|Edin|Master Oren)\b")
-        self.assertNotRegex(self.assembled, r"^## [IVX]+\..*— (?:El Niño|Manning)\s*$")
+        self.assertNotRegex(self.assembled, re.compile(r"^## [IVX]+\..*— (?:El Niño|Manning)\s*$", flags=re.M))
 
     def test_protected_hard_chapter_blob_unchanged(self):
         self.assertEqual(git_blob_sha(HARD_CH1.read_bytes()), HARD_CH1_BLOB_SHA)
