@@ -71,6 +71,12 @@
     {
       "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/PITTS_V2_SOURCE_EDITORIAL_AND_QA_RECEIPT_2026_10_28.md",
       "status": "SELF_AUDIT_NOT_INDEPENDENT"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/test_2025_reckoning_v2.py",
+      "git_blob_sha": "b448419746edc3e7a4f3c5f329e747e55baf64c8",
+      "type": "focused_repository_regression",
+      "status": "COMMITTED_NOT_YET_EXECUTION_VERIFIED"
     }
   ],
   "technical_checks": {
@@ -100,6 +106,7 @@
   "independent_review": "NOT_YET_ACCEPTED",
   "state": "PARTIAL_COMPLETION_CONTINUE",
   "next_actions": [
+    "Observe Novel OS CI exact code head 9b2660c5; repair named regression if non-green; do not claim success from source-only checks.",
     "Request independent Umpire/editorial assessment of PR #243 eight-scene V2, including Phill 2023 burden/2025 temporal placement.",
     "Add a scoped versioned scene register and eligible dedicated validation without loosening existing Jake/Austin historical source gate.",
     "If an independent review finds new Pitts scene slows final sequence, split as a separate companion piece; preserve source-bound original 2025 chapter.",
@@ -123,5 +130,16 @@
   "no_canon_promotion": true,
   "no_merge": true,
   "no_publication": true,
-  "no_personified_elemental_pov": true
+  "no_personified_elemental_pov": true,
+  "test_contract": {
+    "status": "FOCUSED_TEST_COMMITTED_AWAITING_EXACT_HEAD_CI_READBACK",
+    "test_path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/test_2025_reckoning_v2.py",
+    "test_git_blob_sha": "b448419746edc3e7a4f3c5f329e747e55baf64c8",
+    "workflow_path": ".github/workflows/novel-os-ci.yml",
+    "workflow_git_blob_sha": "bfd6ebe5aa186343fdd8c60e138cfaa5faaa4141",
+    "test_invocation": "python -m unittest discover -s living-novel/production/historical-saga/approved-mission-2015-2026/review -p 'test_2025_reckoning_v2.py' -v",
+    "observed_command_result": "NOT_YET_OBSERVED",
+    "last_source_code_head": "9b2660c548ad145ab86a9bfcce21e2ba918cc9d9",
+    "scope": "Seven targeted unittest cases; canonical source comparison, exact scene preservation, owner and story-time guards. No independent literary or Umpire review."
+  }
 }
