@@ -257,6 +257,26 @@ The Commonwealth's Power Rankings measure more than one week. The Analyst must w
 **Studio responsibilities (methodological, not live agent conference):** Analyst resolves Power Ranking score, evidence, and last-week movement; Data Steward verifies playoff probability inputs; Librarian reconciles Week 6 public baseline; Visual Lead reuses P004's deliberate typographic simplicity; Umpire blocks unsupported probability and bad ranking claims.
 **Status:** REVISED BRIEF, NOT YET RENDER-READY until numerical power-ranking and odds inputs verified. No P023 artwork generated or final QA passed.
 
+### P023 Analyst/Data research pilot — reproducible provisional ranking and odds (2026-10-27)
+**Source extraction:** Connected authenticated Flaim ESPN football 2026 league 1417621. All Week 1–7 final matchups and Week 8–14 schedule were returned in this session; 12 teams, 7 scores per team, 42 remaining games, 6 per week. Every team's seven score totals reconciled to Week 7 provider standings pointsFor. A subsequent duplicate connector sweep hit AUTH_RATE_LIMITED, so no additional fresh run is claimed. The Oct 27 seven-game standing snapshot remains evidence.
+**Baseline:** `memo-os/week-6/WEEK_6_22_FOLIO_EXACT_COPY_SPLIT_REVIEW.md` Folios 16–17 provides Week 6 **REVIEW-PROPOSAL** editorial order DK, Slob, ObiWan, HMB, Red, Duckhook, Chili, Chins, LLC, TDS, El Niño, Mud Dogs. That document explicitly says published ranking arrows were withheld pending source-PNG checking. All deltas below are `vs Week 6 editorial proposal`, not official week-over-week movement, until the published page is verified.
+**Provisional Analyst score definition:** `PowerScore = 0.45*(first 7 mean weekly points)+0.25*(latest 3 mean weekly points)+0.20*(150*current wins/7)+0.10*(110+4*(13-prior-proposed-rank))`. Transparent proposed editorial heuristic, NOT a verified existing canonical Power Rankings algorithm, and NOT an ESPN standing. No formal Analyst authentication was executed.
+**Provisional Power Ranking rows** (rank, team, prior candidate, direction, 4–3 etc, score, simulated odds): 
+1 Slob on my Dobb | prior 2 | +1 | 4–3 | 139.2 | 68%;
+2 The Chili Cheesers | 7 | +5 | 4–3 | 132.8 | 77%;
+3 Dr. Duckhook | 6 | +3 | 4–3 | 132.4 | 77%;
+4 D0nkey K0ng | 1 | -3 | 4–3 | 129.4 | 76%;
+5 Red Leopards | 5 | 0 | 4–3 | 126.4 | 66%;
+6 Seven Deadly Chins | 8 | +2 | 4–3 | 124.9 | 68%;
+7 His Majesty's Blood | 4 | -3 | 4–3 | 124.8 | 50%;
+8 ObiWan Jacoby | 3 | -5 | 4–3 | 123.1 | 50%;
+9 El Niño | 11 | +2 | 3–4 | 121.3 | 61%;
+10 The LLC | 9 | -1 | 2–5 | 120.9 | 52%;
+11 Three Dreaded Snake | 10 | -1 | 3–4 | 113.4 | 24%;
+12 Mud Dogs | 12 | 0 | 2–5 | 107.8 | 31%.
+**Playoff Monte Carlo pilot:** 50,000 trials; numpy PCG64 deterministic seed 2607; 7 remaining head-to-head games per team (weeks 8–14). Per-team weekly score normal means `0.6*(weeks1–7 average)+0.4*(weeks5–7 average)`, sigma `max(12,0.7*team weekly SD + 0.3*league score SD)`. Independently draw one team-score per week and decide each real future matchup from simulated point comparison; add simulated PF. Rank trial final by wins then PF, select top 7 (sum modeled probabilities = 700%). **Known limitation:** the real ESPN playoff seeding rule is `H2H_RECORD`, and the existing repo playoff engine `data-gateway/playoff-context/src/playoff_context/engine.py` does not implement that precise tiebreak/division-winner mechanism. The model is a *pilot approximation*, not the activated production engine or an eligible publication odds receipt. None of these percentages may be labeled official ESPN odds or exact clinches.
+**Editor/QA gate:** Before publication, locate Week6 *published* PNG ranking, confirm approved Power Score methodology, implement and verify H2H_RECORD / division-winner seeding semantics, re-run exact governed engine with source snapshot/version/seed receipt, then independent Umpire check. P023 visual may show a clearly marked `PROVISIONAL ANALYST MODEL` candidate for Founder review, but do not claim release-ready or genuine authenticated Director conference. Simple twelve-row chalkboard/ledger without icons/faces/logos, separate columns for rank, team, movement relative only to proposal, W-L, Power and modeled playoff %. 
+
 ## FOLIO P024 — State of the Realm: The Divisions
 **NARRATIVE JOB:** State of the Realm.
 **CAMERA / STAGING / FOCAL HIERARCHY:** Wide regional Atlas table with three distinct cultural division overlays, not burger/pizza landscapes. Foreground focal object, middle-ground story consequence, background Atlas specificity. Scene must have a single visual thesis, not a generic empty text rectangle.
