@@ -65,17 +65,37 @@ Seven weeks into this strange Commonwealth season, the difference between triump
 The final moment mattered everywhere. At the jungle green, a putt rolled toward the smallest margin of the week. At the mountain stronghold, the wind delivered a less delicate conclusion. A Jedi kept his weapon on his belt; a hunter found his buck; the Leopard found space for a jumper; and a card player laid down five perfect cards. The Commonwealth did not have one kind of Week Seven. It had six.
 
 ## FOLIO P004 — Scoreboard: Six Games, Six Receipts
-**NARRATIVE JOB:** Scoreboard.
-**CAMERA / STAGING / FOCAL HIERARCHY:** Registrar's table with six sealed regional dispatches, deterministic overlay grid. Foreground focal object, middle-ground story consequence, background Atlas specificity. Scene must have a single visual thesis, not a generic empty text rectangle.
-**ATLAS / WORLD STATE:** League Chamber/Archive parent, pending. Preserve existing locations, no silent canon promotion.
-**EDITORIAL DESIGN:** Six exact score rows from FLAIM currentPoints; all winner fields UNDECIDED. Use controlled publication masthead, legible text-safe area and accurate printed folio; do not repeat Week 6 heavy header + portrait + footer mechanically.
-**PAGE MASTER:** native PNG 1024×1536 2:3 portrait, deterministic typography/score/data overlays. Source-specific color and lighting motivated by physical environment.
-**QA:** exact source text, approved character crop binding if any, Atlas continuity, physical/printed folio match, phone-scale final PNG readability, independent Umpire; all NOT RUN.
-**PRODUCTION STATE:** PLANNED/HOLD; never call READY_FOR_RENDER based on this text packet alone.
+**2026-10-27 Commissioner direction / active P004 staging:** Use the TDS Waterfall Temple golf-property setting established by P005–P007 and P001. This supersedes the historical registrar-table / Archive staging for THIS folio; do not alter the archived exact-copy record or make a new permanent Atlas location. The scoreboard is an event-specific temporary fixture placed on firm ground near the small green, with the waterfall screen-left and temple stone/jungle behind. No character portraits or six individual poster banners.
 
-### EXACT CANDIDATE EDITORIAL COPY
+**NARRATIVE JOB:** One glance tells the entire Week 7 result story via SIX accurate matchup rows; the visual is one believable, physical tournament-style scoreboard on the course, not six collaged card designs. Viewer looks toward a large rustic dark-wood/metal-framed results board from a slightly low, three-quarter landward camera (35mm-equivalent) with readable planar face, grounded supports and understated gold/cream/green accents. Native 1024 × 1536 portrait magazine master, ample scoreboard area, no busy terrain obscuring rows. Late-afternoon filtered waterfall light consistent with P001/P005–P007; waterfall, flag and green secondary, scores primary. No owner characters necessary.
+
+**EDITORIAL HEADER:** `SCHEMIN ’26`, `WEEK 7`, `SCOREBOARD`, optional `SIX GAMES · SIX RECEIPTS`. Follow traditional memo issue masthead and readable folio marker. Avoid misleading labels such as Game of the Week for the entire board.
+
+**ACTUAL SCORE ROWS — deterministic scoreboard overlay (not AI-generated text):**
+1. `DR. DUCKHOOK 141.74  —  THREE DREADED SNAKE 141.42` — winner Duckhook
+2. `EL NIÑO 133.75  —  D0NKEY K0NG 122.67` — winner El Niño
+3. `SEVEN DEADLY CHINS 116.60  —  OBIWAN JACOBY 94.75` — winner Chins
+4. `THE CHILI CHEESERS 134.92  —  MUD DOGS 108.72` — winner Chili
+5. `RED LEOPARDS 148.53  —  HIS MAJESTY'S BLOOD 137.02` — winner Red
+6. `SLOB ON MY DOBB 155.92  —  THE LLC 111.21` — winner Slob
+These values match the repository's 2026-10-27 provider-normalized Week 7 six DECIDED matchup rows. Retain full team names, two decimal places, winners and one team per column. Do not use partial crops from six results banners as the printed board or attempt image-model score lettering. Reuse their validated row DATA and familiar winner hierarchy, not their separate framed banner graphics.
+
+**BULLPEN METHOD-DESK PREFLIGHT (source-anchored synthesis, not a live 18-Director or human Inklings meeting):**
+- Librarian / Data: compare six rows against provider-normalized snapshot and existing matchup packets, not speculative standings.
+- Atlas / World: approved Waterfall Temple parent `LOC-TDS-WATERFALL-TEMPLE`; physical freestanding board is temporary event scenery; no registry promotion.
+- Cinematography / Visual Lead: believable board scale and geometry; camera sufficiently frontal for text to be read at 390px; atmospheric waterfall secondary to scores.
+- Managing Editor / Type: deterministic six-row overlay, strong column and baseline alignment, distinct winner indicator, no duplicate score/banner.
+- Umpire QA: actual final 1024×1536 PNG, 390px downscale, row by row transcription checks, source-state and Atlas inspection. No QA pass or publication is claimed until performed.
+
+**FACT STATUS:** October 27 normalized adapter snapshot reports winners DECIDED; this supersedes October 25/26 `UNDECIDED` claims as current observation. Source-native corroboration exists in a separate Week 7 receipt; independent canonical Fact Lock / release acceptance must still be evidenced before final publication.
+
+**COPY CONTROL:** The original 42-word candidate below is historical, predates DECIDED states and must not be reproduced as a claim that winners remain undecided. Active P004 printed content is the six scoreboard rows and header above, pending copyfit. Preserve original as historical source, not controlling release copy.
+
+### HISTORICAL P004 CANDIDATE EDITORIAL COPY — superseded status note
 
 Duckhook 141.74, TDS 141.42. El Niño 133.75, DK 122.67. Chins 116.60, ObiWan 94.75. Chili 134.92, Mud Dogs 108.72. Red Leopards 148.53, HMB 137.02. Slob 155.92, LLC 111.21. Scores are the observed Week 7 provider snapshot; official DECIDED status was pending at retrieval.
+
+**PRODUCTION STATE:** FOUNDER STAGING DIRECTIVE CAPTURED / NO ART GENERATED / NO FINAL QA OR PUBLICATION CERTIFIED. Prepare controlled board design and render only on next explicit request.
 
 ## FOLIO P023 — Power Rankings: The Twelve
 **NARRATIVE JOB:** Power Rankings.
