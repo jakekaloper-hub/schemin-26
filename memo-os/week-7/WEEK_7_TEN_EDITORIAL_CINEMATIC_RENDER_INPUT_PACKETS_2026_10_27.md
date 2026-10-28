@@ -164,6 +164,20 @@ Duckhook 141.74, TDS 141.42. El Niño 133.75, DK 122.67. Chins 116.60, ObiWan 94
 **Generated QA review asset:** `SCHEMIN_26_W07_P004_GOLF_COURSE_CHALKBOARD_REDO.png`, 1024×1536 PNG; SHA256 `4bccd0682ae7eccdc8f5144f18c4e79f99b2027f3665f264b35a613ac6cf377a`. Composite uses a rendered golf course with waterfalls, flag, lush cliffs and a physically staged rustic chalkboard. Original AI-rendered erroneous scores were fully painted over using controlled PIL typesetting; explicit six-pair / twelve-unique-team structural checks PASS. The source image's scenic structures are artistic continuation, not evidence of a new Atlas permanent golf clubhouse.
 **Review disposition:** P004 NEW CANDIDATE BUILT AND VISUALLY INSPECTED by producing assistant; Founder visual approval and independent publication QA NOT YET RECEIVED. At 390px the handwritten-like scores may require adjustment after Founder review. No claim the PNG is GitHub-ingested or that authenticated independent Bullpen/Umpire agents attended.
 
+### P004 fresh Flaim scoreboard reconciliation and execution handoff — 2026-10-27
+**Request resolution:** The Commissioner referenced P003 and Flaim scoring after visually approving P024; P003 is already Founder visually approved as Opening Drive, while score-bearing folio P004 is `Scoreboard: Six Games, Six Receipts`. This P004 reconciliation does NOT reopen or renumber P003. 
+**ACTUAL connected Flaim read in this conversation:** `get_user_session` resolves ESPN football `1417621` season `2026`; `get_league_info` reports current scoring/matchup period 8; `get_matchups(week=7)` succeeded and returned SIX `winner=HOME/AWAY` decided rows with totalPoints=currentPoints for all 12:
+1. Dr. Duckhook (AWAY) 141.74 over Three Dreaded Snake (HOME) 141.42.
+2. El Niño (AWAY) 133.75 over D0nkey K0ng (HOME) 122.67.
+3. Seven Deadly Chins (AWAY) 116.60 over ObiWan Jacoby (HOME) 94.75.
+4. The Chili Cheesers (AWAY) 134.92 over Mud Dogs (HOME) 108.72.
+5. Red Leopards (HOME) 148.53 over His Majesty's Blood (AWAY) 137.02.
+6. Slob on my Dobb (HOME) 155.92 over The LLC (AWAY) 111.21.
+These match the Oct27 normalized stored snapshot and historical prepared P004 page packet. This confirms live provider-decided states, **not** an independent permanent `FACT_LOCK` receipt.
+**Current highest-authority P004 visual direction:** Modest, naturally staged handwritten/chalkboard scoreboard at TDS Waterfall Temple golf green, no team portraits/logos, no original six-image banners, no ornate panel collage. Six distinct score rows, single physical blackboard, traditional `SCHEMIN ’26 · WEEK 7 · SCOREBOARD` heading. Older banner-asset montage directions are SUPERSEDED; keep history without resuming them.
+**Existing candidate:** `SCHEMIN_26_W07_P004_GOLF_COURSE_CHALKBOARD_REDO.png` in ChatGPT working files; listed in previous record at 1024×1536, Founder visual approval and independent mobile/type audit not evidenced. Reuse/reinspect it BEFORE generating new artwork. If improved readability needed, recompose exact source numbers on the same simple board without changing concept.
+**Bullpen acceptance procedure:** Librarian verifies current page authority and image candidate lineage; Data Steward row-by-row compares 6/6 winner/score/pairings with authenticated read; Visual Lead checks actual blackboard readability and golf-green continuity; Umpire is an independent release gate, not presumed passed. P004 is REVIEW CANDIDATE / NEEDS FOUNDER VISUAL APPROVAL; not automatically published or merged.
+
 ## FOLIO P023 — Power Rankings: The Twelve
 **NARRATIVE JOB:** Power Rankings.
 **CAMERA / STAGING / FOCAL HIERARCHY:** Archive's twelve numbered owner seals, portraits only when accepted assets mounted. Foreground focal object, middle-ground story consequence, background Atlas specificity. Scene must have a single visual thesis, not a generic empty text rectangle.
