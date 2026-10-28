@@ -541,6 +541,14 @@ On the final hand, the visitor studied Slob's face rather than the table. That w
 
 Slob had been watching the game, even while his visitor watched him. The final reveal was not accompanied by a speech or a flourish. He aligned the cards so that the ranks could be read in order and turned them toward the center of the table. The LLC's expression changed only after he counted all five.
 
+### P021 Founder visual approval and P022 final-payoff handoff — October 27, 2026
+**Approval:** Commissioner expressly visually approved P021 `A Tell Too Easy` as shown in conversation, `SCHEMIN_26_W07_P021_A_TELL_TOO_EASY_REVIEW.png`. P020 and P021 are Founder-approved visuals. Actual binary ingestion to GitHub, independent source-copy QA, raster proof and PDF publication are NOT represented as completed.
+**Identity / environment:** Continue P020–P021: Jordan Hollingshead/Slob `CHAR-JORDAN-HOLLINGSHEAD` is massive, long-haired and bearded, tattooed arms, weathered denim overalls and light-front SLOB cap accepted from P020. David Babb/LLC `CHAR-DAVID-BABB` remains dark-haired suited executive with sunglasses, red tie and cigar. Same rustic man-cave green felt table, warm amber lamps, chip stacks, antlers, wall signage; Jordan sits LEFT and Babb RIGHT when seen from the original P020 camera axis. Camera now lowers to 85mm table-height for the decisive revelation, with Babb's stunned reaction beyond the hand.
+**Royal flush: correctness is non-negotiable.** Five and only five face-up cards in the decisive hand, all same suit, precisely TEN, JACK, QUEEN, KING, ACE. Card art/ranks/suits must be deterministic and independently readable; no six-card hand, no duplicated ranks, no mismatched suits or poker-rule inventions. Prefer compositing controlled card faces rather than image-model text.
+**Source narrative:** P021's draft closing paragraph alludes to reveal; this is a documented editorial overlap to fix in final copy editing, NOT a reason to repeat the reveal twice. P022 contains the actual visual payoff and its existing source manuscript is controlling. No fabricated real money stakes or gambling receipt.
+**P022 only FINAL scoreboard:** Inherit P013 structured results banner `FINAL · WEEK 7`, `SLOB ON MY DOBB 155.92` WINNER vs `THE LLC 111.21`, margin 44.71 fantasy points where used. No Game of the Week designation.
+**Production acceptance:** One 1024×1536 portrait PNG. Verify character likeness against original plates, exact card hand, scoreboard and text, warm lighting and no added characters; inspect actual downscaled 390px legibility. P022 NOT YET GENERATED or Founder-approved. This update is preparation only.
+
 ### FOLIO P022 — PAYOFF
 **NARRATIVE JOB:** THE GENTLEMAN'S FLUSH: Slob on my Dobb (HOME) / The LLC (AWAY) — Payoff: Five Cards
 **CAMERA / LENS EQUIVALENT:** 85mm table-level low reveal; fixed 1024×1536 portrait composition. Lens numbers are artistic cues, not EXIF claims.
