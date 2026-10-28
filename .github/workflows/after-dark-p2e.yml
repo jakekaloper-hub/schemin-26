@@ -20,4 +20,6 @@ jobs:
         with:
           node-version: '22'
       - name: Run After Dark P2E candidate / weather fixtures
-        run: node productions/after-dark/validate_p2e_candidate.cjs
+        run: |
+          node productions/after-dark/validate_p2e_candidate.cjs
+          node productions/after-dark/validate_p3c_narrative.cjs
