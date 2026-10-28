@@ -27,14 +27,14 @@ POV_NAMES = ["Jake", "Austin", "Zach", "Phillip", "Jake", "Austin", "Jake", "Aus
 
 
 def sections(text):
-    positions = list(re.finditer(r"^## ([IVX]+)\\. (.+)$", text, re.M))
+    positions = list(re.finditer(r"^## ([IVX]+)\. (.+)$", text, re.M))
     return [(m.group(1), m.group(2),
              text[m.end():positions[i+1].start() if i + 1 < len(positions) else None].strip())
             for i, m in enumerate(positions)]
 
 
 def sha_blob(payload):
-    return hashlib.sha1(b"blob " + str(len(payload)).encode() + b"\\0" + payload).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(payload)).encode() + b"\0" + payload).hexdigest()
 
 
 class Historical2025DuckhookV3(unittest.TestCase):
@@ -60,8 +60,8 @@ class Historical2025DuckhookV3(unittest.TestCase):
                 self.assertEqual(old[2], self.new[i if i < 2 else i+1][2])
 
     def test_duckhook_insert_exact_prose(self):
-        self.assertIn("\\n---\\n", self.insert)
-        independent_body = self.insert.split("\\n---\\n",1)[1].strip()
+        self.assertIn("\n---\n", self.insert)
+        independent_body = self.insert.split("\n---\n",1)[1].strip()
         self.assertEqual(independent_body,self.new[2][2])
         self.assertGreaterEqual(len(independent_body.split()),1800)
         self.assertGreaterEqual(len(self.v3.split()),9000)
@@ -80,14 +80,14 @@ class Historical2025DuckhookV3(unittest.TestCase):
                     self.assertIn(f"{n:.2f}",self.v3)
 
     def test_duckhook_lacks_future_knowledge(self):
-        self.assertNotRegex(self.new[2][2], r"\\b(?:161\\.07|109\\.56|2026)\\b")
+        self.assertNotRegex(self.new[2][2], r"\b(?:161\.07|109\.56|2026)\b")
         self.assertIn("before the season's final",self.insert)
 
     def test_preserve_exclusive_principal_pov(self):
         self.assertEqual([x["pov_character_id"] for x in self.register["scenes"]],OWNERS)
         self.assertEqual(len(self.register["scenes"]),9)
         self.assertEqual(len(set(OWNERS)),4)
-        self.assertNotRegex(self.v3,r"\\b(?:Edrin|Edin|Master Oren)\\b")
+        self.assertNotRegex(self.v3,r"\b(?:Edrin|Edin|Master Oren)\b")
         self.assertIn("four canonical principal POVs",self.v3)
 
     def test_four_pov_exception_unapproved(self):
