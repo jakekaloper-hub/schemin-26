@@ -64,3 +64,14 @@ This copy is an editorial candidate, not a Shane Gillis impersonation and not ap
 5. Authenticated board consultation and independent Umpire verification.
 
 **Disposition:** P2B design candidate ready for review. No character or location canon promotion, no production proof, no release.
+
+
+## Founder set revision — open, roofed, weather-exposed live theatre (2026-10-28)
+**Supersedes any closed-window/purely painted skyline treatment.** The Broadcasting House is an open-sided, roofed live-production theatre. The backdrop is an ACTUAL Central Basin civic-city skyline observed through the open rear/side of the stage, not an invented projection or transregional painted panorama. Exact settlement, physical skyline landmarks, orientation, visible river/bridges and LOS must be validated in Atlas before they are treated as canon.
+- Roof: substantial timber-and-stone supported canopy above host, audience and stage, with believable runoff, drainage, gutters and water protection. Do not enclose the visible city view behind glass.
+- Stage crew: visible or partly visible in-world stagehands, riggers, cue callers, prop handlers, score-placard attendants, audience ushers and weather crew as ontology-consistent inhabitants. Unnamed supporting extras do not gain principal POV or owner character identity.
+- Live stage geography: consistent host desk stage right, sketch platform stage left, band/guest annex reserved but not populated with invented canonical figures, tiered audience, backstage/service lanes, camera/observer vantage positions and physical access routes.
+- Weather-aware continuity: compile current approved Central Basin regional conditions (rain, wind, flood-stage, seasonal light, horizon visibility, routes, persistent damage/repairs) from World Engine/Atlas overlays for each episode. Stage can show dripping eaves, shifting curtains, wet pavement, crew adjusting covers, delayed entrances and changed audience behavior. Weather may not be invented or equated with El Niño absent explicit manifestation evidence.
+- Safety/operability: rain-exposed areas have runoff paths, equipment shelters, safe audience movement and defined severe-weather hold/alternate stage policy; no unfounded assumption that every storm permits a show.
+- Visual QA: every angle must reconcile roof supports, skyline direction, light direction, ground wetness, audience/crew positions and previous-episode repairs. Do not reset environmental traces on a new week.
+- Broadcast mechanic: keep "live" as an in-world event with a present audience. Exact reproduction/transmission mechanism is a candidate functional analogue awaiting World Engine technology-law judgment; do not assert electronic TV or real-time continent-wide signal as canon.
