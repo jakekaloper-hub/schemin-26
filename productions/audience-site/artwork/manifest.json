@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "assets": {
+    "atlas": {
+      "file": "atlas-terrain-v1.webp",
+      "alt": "Interpretive Commonwealth terrain: northern mountains, western tablelands, central valleys, eastern forests and coast, southern wetlands and southeast littoral.",
+      "status": "REVIEWED_PRESENTATION",
+      "subjectClass": "environment",
+      "sha256": "5c292438c1dcc2bcd8c74345e8a27057d8b19169fa3360855f2d568a12915cd6",
+      "focal": "50% 50%",
+      "usage": "non-positional overview only; marker alignment rejected",
+      "allowedUses": [
+        "masthead"
+      ]
+    },
+    "home": {
+      "file": "commonwealth-entrance-v1.webp",
+      "alt": "Interpretive dawn view from a ridge over the established Upper Valleys mixed forest and pasture.",
+      "focal": "65% 50%",
+      "status": "REVIEWED_PRESENTATION",
+      "subjectClass": "environment",
+      "sha256": "7a9395f710389578c71db282b7db533b4cc03db1ee8a298486f4e8bd6fd639fd"
+    },
+    "LOC-TRADE-JEDI-MOUNTAIN-BASE": {
+      "file": "trade-jedi-homeland-v1.webp",
+      "alt": "Interpretive Trade Jedi homeland: connected ridge paths, communal work and training spaces, orchard cultivation, and a high overlook within forested uplands.",
+      "focal": "45% 50%",
+      "status": "REVIEWED_PRESENTATION",
+      "subjectClass": "environment",
+      "sha256": "9cc277492268c7044de1cddb123a846d1ac458bd19bf7b3954b30791a88e5b4f"
+    }
+  }
+}

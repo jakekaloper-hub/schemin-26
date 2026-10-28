@@ -25,3 +25,26 @@ E10 deployed: public https://schemin-commonwealth.jakekaloper.chatgpt.site; Site
 Full generated artifact: 136 files, 36,454,400-byte deployment archive, five memo issues/110 pages. No QA iframe page in deployed bundle.
 Path-scoped repository merge gate completed: execution-control and resilience suites pass (8 and 9 tests respectively).
 Mainline merge remains pending PR CI and founder experiential review; public first edition is deployed independently. No merge or rollback rehearsal is claimed.
+
+
+## 2026-10-28 — Commonwealth website convergence mission, P0–P7 gate reconciliation
+
+Founder command: resume existing PR #237, maintain PR #236 upstream and Week 7 PR #256 as separate owning lane; do not start parallel site or override Memo OS.
+
+**P0 — AUTHORITY VERIFIED:** GitHub PR metadata on 2026-10-28: #237 open/draft, head `feat/original-website-artwork` at `0fcf8feab9401afb3196f40cedb6bfe41a1e064f`, base `feat/commonwealth-audience-site-20261022`; #236 open/draft at `ca8c43dd5750e0abc7ae9bab55fc93c9c5e8dfa8`; #256 open/draft at `f16edc0bf3f1981ed663e6660a9bc2770df4cc8a`. Existing board synthesis in `planning/audience-site/audit-2026-10-22/WHOLE_SITE_AUDIT.md` is expressly simulated; no authenticated 18-Director meeting recorded in this execution.
+
+**P1 — LIVE SITE UNVERIFIED:** Public fetch of https://schemin-commonwealth.jakekaloper.chatgpt.site returned cache miss; connected Browser action returned originating-browser-context unavailable. No new screenshots, device tests, broken-route claims or live deploy receipts were obtained. Earlier historical deployment record is not a fresh smoke test.
+
+**P2 — WEEK 7 HOLD:** `memo-os/week-7/WEEK_7_V52RC_INTAKE_2026-10-27.md` still documents provisional adapter-normalized evidence, source-native lineage or quarantine disposition absent, Steward ACK absent, CANONICAL_SNAPSHOT_LOCK / FACT_LOCK blocked and independent release certification missing. PR #256 contains draft 22-folio material, not a certified completed issue. Stage only privately until release evidence, exact art/page review, 1080x1920 output verification and Founder signoff.
+
+**P3 — ARCHIVE HOLD:** `docs/publications/WEEKS_04_06_ARCHIVE_INTAKE_AND_BINARY_GATE_2026_10_22.md` confirms byte-verification for three PDFs but not final league-shared equivalence. Published-status reconciliation must occur through existing Publication Manifest authority, not the audience app.
+
+**P4/P5 — EXISTING IMPLEMENTATION:** Audit documents working page families and partial Atlas/profile/readability repair. Remaining route compositions, atlas positional artwork, source-reviewed memo-to-character connections, exact released-PDF access and comprehensive accessible text remain unaccepted. No new visual acceptance or world/canon promotion.
+
+**P6 — TEST/RELEASE HOLD:** This execution used read-only GitHub metadata/source inspection and wrote this evidence-only ledger update. No source-code repair, new CI run, browser tests, independent Umpire authentication, mainline merge or deployment verification is asserted.
+
+**P7 — DISPOSITION:** This is a partial gate reconciliation, not completion of P0–P7. Resume scoped implementation on PR #237 when an authenticated build/browser runtime is available. Mandatory next proof is current production browser smoke (desktop/390px), exact archive-release status and Week 7 release prerequisites; continue nondependent accessibility and layout repairs. Never silently promote publication.
+
+## 2026-10-28 — Reader keyboard accessibility repair
+
+Commit `d928f31c51b08dbe99b5cf6ee3405889f3cefad0` updates `productions/audience-site/src/app.js`: the illustrated memo page is keyboard-focusable, explicitly describes arrow-key operation, and processes Left/Right only while its own page region has focus. It preserves Previous/Next disabled boundary behavior and existing page selection, URL synchronization and saved position. A source readback/commit was completed. GitHub Actions workflow-run query and combined-status query at this head returned zero results immediately after the commit; **no CI pass is claimed**. Independent desktop/mobile browser acceptance remains outstanding. This limited accessibility repair does not certify website publication readiness.

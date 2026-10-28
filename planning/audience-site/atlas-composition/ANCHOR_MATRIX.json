@@ -1,0 +1,3168 @@
+{
+  "schemaVersion": 1,
+  "status": "COMPOSITION_GUIDE__NOT_FINAL_ART__NO_CANON_PROMOTION",
+  "coordinateSpace": "schemin-local-v1 (abstract, non-metric)",
+  "projection": {
+    "viewBox": [
+      0,
+      0,
+      1000,
+      700
+    ],
+    "x": "90 + x * 8.2",
+    "y": "650 - y * 5.8",
+    "svgTranslate": [
+      40,
+      220
+    ],
+    "svgScale": 1.25
+  },
+  "warning": "Region rectangles are abstract source extents, not coastlines, political borders, surveyed land parcels or terrain masks. Route strokes are connections, not travel-distance claims. This guide does not authorize new permanent scenery.",
+  "regions": [
+    {
+      "id": "REG-NORTHERN-SPINE",
+      "name": "Northern Spine",
+      "canon_status": "INTERPRETIVE_CANON",
+      "zone_type": "physical",
+      "adjacent_region_ids": [
+        "REG-UPPER-VALLEYS",
+        "REG-WESTERN-TABLELANDS",
+        "REG-EASTERN-STORM-COAST"
+      ],
+      "abstract_bounds": [
+        25,
+        72,
+        70,
+        100
+      ],
+      "environment": {
+        "terrain": [
+          "high mountains",
+          "narrow passes",
+          "rock ridges"
+        ],
+        "climate": [
+          "cold winters",
+          "snow at elevation",
+          "headwater precipitation"
+        ],
+        "movement": [
+          "passes constrain travel",
+          "winter closures possible",
+          "mounts and foot travel dominate"
+        ]
+      },
+      "provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ]
+    },
+    {
+      "id": "REG-UPPER-VALLEYS",
+      "name": "Upper Valleys and Foothills",
+      "canon_status": "INTERPRETIVE_CANON",
+      "zone_type": "physical",
+      "adjacent_region_ids": [
+        "REG-NORTHERN-SPINE",
+        "REG-CENTRAL-BASIN",
+        "REG-WESTERN-TABLELANDS",
+        "REG-EASTERN-STORM-COAST"
+      ],
+      "abstract_bounds": [
+        20,
+        55,
+        75,
+        78
+      ],
+      "environment": {
+        "terrain": [
+          "rolling uplands",
+          "mixed forest",
+          "pasture",
+          "defensible ridges"
+        ],
+        "climate": [
+          "temperate",
+          "seasonal rain"
+        ],
+        "movement": [
+          "horse roads",
+          "ridge routes",
+          "market-town connectors"
+        ]
+      },
+      "provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ]
+    },
+    {
+      "id": "REG-CENTRAL-BASIN",
+      "name": "Central River Basin",
+      "canon_status": "INTERPRETIVE_CANON",
+      "zone_type": "physical",
+      "adjacent_region_ids": [
+        "REG-UPPER-VALLEYS",
+        "REG-WESTERN-TABLELANDS",
+        "REG-SOUTHERN-WETLANDS",
+        "REG-EASTERN-STORM-COAST",
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "abstract_bounds": [
+        25,
+        30,
+        72,
+        58
+      ],
+      "environment": {
+        "terrain": [
+          "broad river valleys",
+          "fertile lowlands",
+          "bridge corridors"
+        ],
+        "climate": [
+          "temperate",
+          "flood-cycle influence"
+        ],
+        "movement": [
+          "navigable rivers",
+          "major roads",
+          "bridges and toll points"
+        ]
+      },
+      "provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ]
+    },
+    {
+      "id": "REG-WESTERN-TABLELANDS",
+      "name": "Western Tablelands",
+      "canon_status": "INTERPRETIVE_CANON",
+      "zone_type": "physical",
+      "adjacent_region_ids": [
+        "REG-NORTHERN-SPINE",
+        "REG-UPPER-VALLEYS",
+        "REG-CENTRAL-BASIN",
+        "REG-SOUTHERN-WETLANDS"
+      ],
+      "abstract_bounds": [
+        0,
+        25,
+        35,
+        72
+      ],
+      "environment": {
+        "terrain": [
+          "open grassland",
+          "broken stone ridges",
+          "dry frontier"
+        ],
+        "climate": [
+          "drier",
+          "rain-shadow influence",
+          "large temperature swings"
+        ],
+        "movement": [
+          "long overland routes",
+          "mounted travel",
+          "dispersed settlements"
+        ]
+      },
+      "provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ]
+    },
+    {
+      "id": "REG-EASTERN-STORM-COAST",
+      "name": "Eastern Forest and Storm Coast",
+      "canon_status": "INTERPRETIVE_CANON",
+      "zone_type": "physical",
+      "adjacent_region_ids": [
+        "REG-NORTHERN-SPINE",
+        "REG-UPPER-VALLEYS",
+        "REG-CENTRAL-BASIN",
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "abstract_bounds": [
+        68,
+        25,
+        100,
+        88
+      ],
+      "environment": {
+        "terrain": [
+          "dense forest",
+          "rocky approaches",
+          "storm-exposed coast"
+        ],
+        "climate": [
+          "wet",
+          "violent coastal storms",
+          "high rainfall"
+        ],
+        "movement": [
+          "forest roads",
+          "coastal navigation",
+          "weather disruption"
+        ]
+      },
+      "provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ]
+    },
+    {
+      "id": "REG-SOUTHERN-WETLANDS",
+      "name": "Southern Wetlands and Delta",
+      "canon_status": "INTERPRETIVE_CANON",
+      "zone_type": "physical",
+      "adjacent_region_ids": [
+        "REG-WESTERN-TABLELANDS",
+        "REG-CENTRAL-BASIN",
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "abstract_bounds": [
+        20,
+        0,
+        72,
+        32
+      ],
+      "environment": {
+        "terrain": [
+          "slow rivers",
+          "cypress-like wetlands",
+          "mudflats",
+          "raised ground"
+        ],
+        "climate": [
+          "warm",
+          "humid",
+          "seasonal flooding"
+        ],
+        "movement": [
+          "boats",
+          "causeways",
+          "raised roads",
+          "specialized wetland travel"
+        ]
+      },
+      "provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ]
+    },
+    {
+      "id": "REG-INNER-SEA-LITTORAL",
+      "name": "Inner Sea Littoral",
+      "canon_status": "INTERPRETIVE_CANON",
+      "zone_type": "physical",
+      "adjacent_region_ids": [
+        "REG-CENTRAL-BASIN",
+        "REG-SOUTHERN-WETLANDS",
+        "REG-EASTERN-STORM-COAST"
+      ],
+      "abstract_bounds": [
+        55,
+        0,
+        100,
+        25
+      ],
+      "environment": {
+        "terrain": [
+          "warm ports",
+          "islands",
+          "sheltered bays",
+          "coastal terraces"
+        ],
+        "climate": [
+          "maritime",
+          "warm",
+          "storm spillover"
+        ],
+        "movement": [
+          "sea lanes",
+          "port roads",
+          "coastal trade"
+        ]
+      },
+      "provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "ROUTE-EASTERN-ASCENT",
+      "name": "Eastern Ascent",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "REGIONAL",
+      "from": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "constraints": [
+        "steep grades",
+        "weather exposure"
+      ],
+      "source_provenance": [
+        "world/atlas/PHYSICAL_ATLAS_V1.md"
+      ]
+    },
+    {
+      "id": "ROUTE-HEARTHROAD",
+      "name": "Hearthroad",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "REGIONAL",
+      "from": "LOC-ARSENAL-BARBERSHOP",
+      "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "constraints": [
+        "ridge traffic",
+        "market congestion"
+      ],
+      "source_provenance": [
+        "world/divisions/BURGERS_DIVISION_INDEX_V1.md"
+      ],
+      "via_location_ids": [
+        "LOC-SLOB-FOOTHILL-CAMP"
+      ],
+      "crosses_division": true
+    },
+    {
+      "id": "ROUTE-DELTA-CAUSEWAY",
+      "name": "Delta Causeway",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "CROSS_DIVISION",
+      "from": "LOC-MUD-DOGS-SWAMP",
+      "to": "LOC-COUNTRY-CLUB-JACKSON",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wetland"
+      ],
+      "constraints": [
+        "seasonal flooding",
+        "soft ground"
+      ],
+      "source_provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ],
+      "via_location_ids": [
+        "LOC-DK-MUD-HILL"
+      ],
+      "crosses_division": true
+    },
+    {
+      "id": "ROUTE-JACKSON-LEVEE",
+      "name": "Jackson Levee Road",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "CROSS_DIVISION",
+      "from": "LOC-COUNTRY-CLUB-JACKSON",
+      "to": "LOC-CHINS-ROAD-COMMONS",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "constraints": [
+        "flood closures",
+        "river crossings"
+      ],
+      "source_provenance": [
+        "world/divisions/WINGS_DIVISION_INDEX_V1.md"
+      ]
+    },
+    {
+      "id": "ROUTE-STORM-COAST",
+      "name": "Storm Coast Road",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "REGIONAL",
+      "from": "LOC-STORM-BOWL",
+      "to": "LOC-LLC-STORM-CITY",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon",
+        "sea"
+      ],
+      "constraints": [
+        "major storms",
+        "forest washouts",
+        "coastal surge"
+      ],
+      "source_provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ]
+    },
+    {
+      "id": "ROUTE-INNER-SEA-QUAY",
+      "name": "Inner Sea Quay Road",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "LOCAL",
+      "from": "LOC-LLC-BOARDROOM",
+      "to": "LOC-LLC-STORM-CITY",
+      "travel_modes": [
+        "foot",
+        "wagon",
+        "sea"
+      ],
+      "constraints": [
+        "port congestion",
+        "storm gates"
+      ],
+      "source_provenance": [
+        "world/divisions/PIZZA_DIVISION_INDEX_V1.md"
+      ]
+    },
+    {
+      "id": "ROUTE-RAIN-ESCARPMENT",
+      "name": "Rain Escarpment Road",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "CROSS_DIVISION",
+      "from": "LOC-RED-RUINS",
+      "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "travel_modes": [
+        "foot",
+        "mount"
+      ],
+      "constraints": [
+        "heavy rain",
+        "forest grade"
+      ],
+      "source_provenance": [
+        "world/divisions/BURGERS_DIVISION_INDEX_V1.md"
+      ]
+    },
+    {
+      "id": "ROUTE-FALLS-PATH",
+      "name": "Falls Path",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "REGIONAL",
+      "from": "LOC-TDS-WATERFALL-TEMPLE",
+      "to": "LOC-MUD-DOGS-SWAMP",
+      "travel_modes": [
+        "foot",
+        "wetland"
+      ],
+      "constraints": [
+        "waterfall escarpment",
+        "seasonal high water"
+      ],
+      "source_provenance": [
+        "world/divisions/WINGS_DIVISION_INDEX_V1.md"
+      ]
+    },
+    {
+      "id": "ROUTE-WESTERN-RANGE",
+      "name": "Western Range Road",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "CROSS_DIVISION",
+      "from": "LOC-CHILI-STABLE",
+      "to": "LOC-CHINS-ROAD-COMMONS",
+      "travel_modes": [
+        "mount",
+        "wagon",
+        "foot"
+      ],
+      "constraints": [
+        "long exposed distances",
+        "dry-season water stops"
+      ],
+      "source_provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ]
+    },
+    {
+      "id": "ROUTE-BLACK-CLIFF",
+      "name": "Black Cliff Road",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "CROSS_DIVISION",
+      "from": "LOC-BELT-KEEPER-KEEP",
+      "to": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "travel_modes": [
+        "foot",
+        "mount"
+      ],
+      "constraints": [
+        "cliff exposure",
+        "storm closures"
+      ],
+      "source_provenance": [
+        "world/divisions/PIZZA_DIVISION_INDEX_V1.md"
+      ]
+    },
+    {
+      "id": "ROUTE-BASIN-MARKET",
+      "name": "Basin Market Road",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "LOCAL",
+      "from": "LOC-CHINS-ROAD-COMMONS",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon",
+        "river"
+      ],
+      "constraints": [
+        "market traffic"
+      ],
+      "source_provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ],
+      "via_location_ids": [
+        "LOC-PITTSYS-BOOK",
+        "LOC-SOUTHERN-SPEEDWAY",
+        "LOC-DK-MUD-HILL"
+      ],
+      "crosses_division": true
+    },
+    {
+      "id": "ROUTE-NORTHERN-PASS",
+      "name": "Northern Pass",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "EXPEDITION",
+      "from": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "to": "LOC-ARSENAL-BARBERSHOP",
+      "travel_modes": [
+        "foot",
+        "mount"
+      ],
+      "constraints": [
+        "snow",
+        "rockfall",
+        "seasonal pass closure"
+      ],
+      "source_provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ],
+      "crosses_division": true
+    },
+    {
+      "id": "ROUTE-DK-HIGHLAND-LINK",
+      "name": "Highland Stronghold Road",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "LOCAL",
+      "from": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "to": "LOC-ARSENAL-BARBERSHOP",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "constraints": [
+        "ridge grade",
+        "market traffic"
+      ],
+      "source_provenance": [
+        "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+      ]
+    },
+    {
+      "id": "ROUTE-TDS-CHILI-SHARED-MARCH",
+      "name": "Shared March Road",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "CROSS_DIVISION",
+      "from": "LOC-TDS-WATERFALL-TEMPLE",
+      "to": "LOC-CHILI-STABLE",
+      "via_location_id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon",
+        "wetland"
+      ],
+      "constraints": [
+        "seasonal water",
+        "tableland exposure"
+      ],
+      "source_provenance": [
+        "world/civilization/INHABITANT_ONTOLOGY_V1.md"
+      ]
+    },
+    {
+      "id": "ROUTE-COMPACT-GROUNDS",
+      "name": "Compact Grounds Road",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "LOCAL",
+      "from": "LOC-LEAGUE-CHAMBER",
+      "to": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "constraints": [
+        "event traffic"
+      ],
+      "source_provenance": [
+        "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+      ]
+    },
+    {
+      "id": "ROUTE-UPPER-BASIN-CONNECTOR",
+      "name": "Upper Basin Connector",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "REGIONAL",
+      "from": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon",
+        "river"
+      ],
+      "constraints": [
+        "grade descent",
+        "river crossing",
+        "seasonal mud"
+      ],
+      "source_provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md",
+        "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+      ]
+    },
+    {
+      "id": "ROUTE-PORT-BASIN-CONNECTOR",
+      "name": "Port-to-Basin Road",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "REGIONAL",
+      "from": "LOC-LLC-STORM-CITY",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "travel_modes": [
+        "wagon",
+        "river",
+        "coastal_vessel"
+      ],
+      "constraints": [
+        "storm gates",
+        "river traffic",
+        "port congestion"
+      ],
+      "source_provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md",
+        "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+      ]
+    },
+    {
+      "id": "ROUTE-ARCHIVE-CHAMBER",
+      "name": "Archive\u2013Chamber Processional",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_class": "LOCAL",
+      "from": "LOC-LEAGUE-ARCHIVE",
+      "to": "LOC-LEAGUE-CHAMBER",
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "constraints": [
+        "institutional traffic"
+      ],
+      "source_provenance": [
+        "world/SCHEMIN_WORLD_BIBLE_ARCHIVE_AND_RECORDS_V1.md"
+      ]
+    }
+  ],
+  "anchors": [
+    {
+      "number": 1,
+      "id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "label": "Trade Jedi Mountain Base",
+      "canonStatus": "PERMANENT_CANON",
+      "abstractPosition": [
+        69,
+        69
+      ],
+      "overlayPoint": {
+        "x": 655.8,
+        "y": 249.8
+      },
+      "svgPoint": {
+        "x": 859.75,
+        "y": 532.25
+      },
+      "regionId": "REG-UPPER-VALLEYS",
+      "regionLabel": "Upper Valleys and Foothills",
+      "regionalEnvironment": {
+        "terrain": [
+          "rolling uplands",
+          "mixed forest",
+          "pasture",
+          "defensible ridges"
+        ],
+        "climate": [
+          "temperate",
+          "seasonal rain"
+        ],
+        "movement": [
+          "horse roads",
+          "ridge routes",
+          "market-town connectors"
+        ]
+      },
+      "landmarks": [
+        "high ridge",
+        "war-room overlook"
+      ],
+      "routeIds": [
+        "ROUTE-EASTERN-ASCENT",
+        "ROUTE-BLACK-CLIFF"
+      ],
+      "baseState": [
+        "operational"
+      ],
+      "authoritativeState": [],
+      "stateAsOf": "end_of_week_3_2026",
+      "ordinaryActivities": [
+        "craft work",
+        "road services",
+        "training/communal spaces",
+        "pasture/orchard-scale activity"
+      ],
+      "features": [
+        {
+          "handle_id": "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::HIGH-RIDGE",
+          "parent_location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+          "name": "high ridge",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::WAR-ROOM-OVERLOOK",
+          "parent_location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+          "name": "war-room overlook",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        }
+      ],
+      "sourcePaths": [
+        "world/data/locations.json",
+        "world/data/physical_zones.json",
+        "world/data/routes.json",
+        "world/data/current_world_state.json",
+        "world/location-control-plane/locations/LOC-TRADE-JEDI-MOUNTAIN-BASE/CARD.json",
+        "world/production/visual-packets/LOC-TRADE-JEDI-MOUNTAIN-BASE.json"
+      ],
+      "review": {
+        "sourceBinding": "PENDING",
+        "biome": "PENDING",
+        "landmarks": "PENDING",
+        "routes": "PENDING",
+        "desktop": "PENDING",
+        "phone": "PENDING"
+      }
+    },
+    {
+      "number": 2,
+      "id": "LOC-MUD-DOGS-SWAMP",
+      "label": "Mud Dogs Swamp",
+      "canonStatus": "PERMANENT_CANON",
+      "abstractPosition": [
+        42,
+        16
+      ],
+      "overlayPoint": {
+        "x": 434.4,
+        "y": 557.2
+      },
+      "svgPoint": {
+        "x": 583.0,
+        "y": 916.5
+      },
+      "regionId": "REG-SOUTHERN-WETLANDS",
+      "regionLabel": "Southern Wetlands and Delta",
+      "regionalEnvironment": {
+        "terrain": [
+          "slow rivers",
+          "cypress-like wetlands",
+          "mudflats",
+          "raised ground"
+        ],
+        "climate": [
+          "warm",
+          "humid",
+          "seasonal flooding"
+        ],
+        "movement": [
+          "boats",
+          "causeways",
+          "raised roads",
+          "specialized wetland travel"
+        ]
+      },
+      "landmarks": [
+        "mud channels",
+        "raised ground"
+      ],
+      "routeIds": [
+        "ROUTE-DELTA-CAUSEWAY",
+        "ROUTE-FALLS-PATH"
+      ],
+      "baseState": [
+        "Week 2 and Week 3 history remembered"
+      ],
+      "authoritativeState": [],
+      "stateAsOf": "end_of_week_3_2026",
+      "ordinaryActivities": [
+        "wetland transport",
+        "estate work",
+        "fishing/agriculture",
+        "causeway maintenance"
+      ],
+      "features": [
+        {
+          "handle_id": "SUB::LOC-MUD-DOGS-SWAMP::MUD-CHANNELS",
+          "parent_location_id": "LOC-MUD-DOGS-SWAMP",
+          "name": "mud channels",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-MUD-DOGS-SWAMP::RAISED-GROUND",
+          "parent_location_id": "LOC-MUD-DOGS-SWAMP",
+          "name": "raised ground",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        }
+      ],
+      "sourcePaths": [
+        "world/data/locations.json",
+        "world/data/physical_zones.json",
+        "world/data/routes.json",
+        "world/data/current_world_state.json",
+        "world/location-control-plane/locations/LOC-MUD-DOGS-SWAMP/CARD.json",
+        "world/production/visual-packets/LOC-MUD-DOGS-SWAMP.json"
+      ],
+      "review": {
+        "sourceBinding": "PENDING",
+        "biome": "PENDING",
+        "landmarks": "PENDING",
+        "routes": "PENDING",
+        "desktop": "PENDING",
+        "phone": "PENDING"
+      }
+    },
+    {
+      "number": 3,
+      "id": "LOC-COUNTRY-CLUB-JACKSON",
+      "label": "Country Club of Jackson",
+      "canonStatus": "PERMANENT_CANON",
+      "abstractPosition": [
+        57,
+        24
+      ],
+      "overlayPoint": {
+        "x": 557.4,
+        "y": 510.8
+      },
+      "svgPoint": {
+        "x": 736.75,
+        "y": 858.5
+      },
+      "regionId": "REG-SOUTHERN-WETLANDS",
+      "regionLabel": "Southern Wetlands and Delta",
+      "regionalEnvironment": {
+        "terrain": [
+          "slow rivers",
+          "cypress-like wetlands",
+          "mudflats",
+          "raised ground"
+        ],
+        "climate": [
+          "warm",
+          "humid",
+          "seasonal flooding"
+        ],
+        "movement": [
+          "boats",
+          "causeways",
+          "raised roads",
+          "specialized wetland travel"
+        ]
+      },
+      "landmarks": [
+        "clubhouse",
+        "golf grounds",
+        "water hazards"
+      ],
+      "routeIds": [
+        "ROUTE-DELTA-CAUSEWAY",
+        "ROUTE-JACKSON-LEVEE"
+      ],
+      "baseState": [
+        "Week 3 chili contamination is historical memory; cleanup state required before pristine reset"
+      ],
+      "authoritativeState": [
+        "Week 3 chili contamination/humiliation history",
+        "cleanup status unresolved"
+      ],
+      "stateAsOf": "end_of_week_3_2026",
+      "ordinaryActivities": [],
+      "features": [
+        {
+          "handle_id": "SUB::LOC-COUNTRY-CLUB-JACKSON::CLUBHOUSE",
+          "parent_location_id": "LOC-COUNTRY-CLUB-JACKSON",
+          "name": "clubhouse",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-COUNTRY-CLUB-JACKSON::GOLF-GROUNDS",
+          "parent_location_id": "LOC-COUNTRY-CLUB-JACKSON",
+          "name": "golf grounds",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-COUNTRY-CLUB-JACKSON::WATER-HAZARDS",
+          "parent_location_id": "LOC-COUNTRY-CLUB-JACKSON",
+          "name": "water hazards",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        }
+      ],
+      "sourcePaths": [
+        "world/data/locations.json",
+        "world/data/physical_zones.json",
+        "world/data/routes.json",
+        "world/data/current_world_state.json",
+        "world/location-control-plane/locations/LOC-COUNTRY-CLUB-JACKSON/CARD.json"
+      ],
+      "review": {
+        "sourceBinding": "PENDING",
+        "biome": "PENDING",
+        "landmarks": "PENDING",
+        "routes": "PENDING",
+        "desktop": "PENDING",
+        "phone": "PENDING"
+      }
+    },
+    {
+      "number": 4,
+      "id": "LOC-ARSENAL-BARBERSHOP",
+      "label": "Arsenal Barbershop",
+      "canonStatus": "PERMANENT_CANON",
+      "abstractPosition": [
+        51,
+        59
+      ],
+      "overlayPoint": {
+        "x": 508.2,
+        "y": 307.8
+      },
+      "svgPoint": {
+        "x": 675.25,
+        "y": 604.75
+      },
+      "regionId": "REG-UPPER-VALLEYS",
+      "regionLabel": "Upper Valleys and Foothills",
+      "regionalEnvironment": {
+        "terrain": [
+          "rolling uplands",
+          "mixed forest",
+          "pasture",
+          "defensible ridges"
+        ],
+        "climate": [
+          "temperate",
+          "seasonal rain"
+        ],
+        "movement": [
+          "horse roads",
+          "ridge routes",
+          "market-town connectors"
+        ]
+      },
+      "landmarks": [
+        "barber chair",
+        "Arsenal-red owner history"
+      ],
+      "routeIds": [
+        "ROUTE-HEARTHROAD",
+        "ROUTE-NORTHERN-PASS",
+        "ROUTE-DK-HIGHLAND-LINK"
+      ],
+      "baseState": [
+        "Week 2 humiliation site",
+        "owner body redesign does not alter site history"
+      ],
+      "authoritativeState": [],
+      "stateAsOf": "end_of_week_3_2026",
+      "ordinaryActivities": [],
+      "features": [
+        {
+          "handle_id": "SUB::LOC-ARSENAL-BARBERSHOP::BARBER-CHAIR",
+          "parent_location_id": "LOC-ARSENAL-BARBERSHOP",
+          "name": "barber chair",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-ARSENAL-BARBERSHOP::ARSENAL-RED-OWNER-HISTORY",
+          "parent_location_id": "LOC-ARSENAL-BARBERSHOP",
+          "name": "Arsenal-red owner history",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        }
+      ],
+      "sourcePaths": [
+        "world/data/locations.json",
+        "world/data/physical_zones.json",
+        "world/data/routes.json",
+        "world/data/current_world_state.json",
+        "world/location-control-plane/locations/LOC-ARSENAL-BARBERSHOP/CARD.json"
+      ],
+      "review": {
+        "sourceBinding": "PENDING",
+        "biome": "PENDING",
+        "landmarks": "PENDING",
+        "routes": "PENDING",
+        "desktop": "PENDING",
+        "phone": "PENDING"
+      }
+    },
+    {
+      "number": 5,
+      "id": "LOC-STORM-BOWL",
+      "label": "Storm Bowl",
+      "canonStatus": "PROVISIONAL_CANON",
+      "abstractPosition": [
+        84,
+        43
+      ],
+      "overlayPoint": {
+        "x": 778.8,
+        "y": 400.6
+      },
+      "svgPoint": {
+        "x": 1013.5,
+        "y": 720.75
+      },
+      "regionId": "REG-EASTERN-STORM-COAST",
+      "regionLabel": "Eastern Forest and Storm Coast",
+      "regionalEnvironment": {
+        "terrain": [
+          "dense forest",
+          "rocky approaches",
+          "storm-exposed coast"
+        ],
+        "climate": [
+          "wet",
+          "violent coastal storms",
+          "high rainfall"
+        ],
+        "movement": [
+          "forest roads",
+          "coastal navigation",
+          "weather disruption"
+        ]
+      },
+      "landmarks": [
+        "weather-exposed venue",
+        "service counter"
+      ],
+      "routeIds": [
+        "ROUTE-STORM-COAST"
+      ],
+      "baseState": [
+        "Week 2 event memory",
+        "El Ni\u00f1o may manifest as embodied Weather System or explicitly resolved atmospheric disaster"
+      ],
+      "authoritativeState": [],
+      "stateAsOf": "end_of_week_3_2026",
+      "ordinaryActivities": [],
+      "features": [
+        {
+          "handle_id": "SUB::LOC-STORM-BOWL::WEATHER-EXPOSED-VENUE",
+          "parent_location_id": "LOC-STORM-BOWL",
+          "name": "weather-exposed venue",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-STORM-BOWL::SERVICE-COUNTER",
+          "parent_location_id": "LOC-STORM-BOWL",
+          "name": "service counter",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        }
+      ],
+      "sourcePaths": [
+        "world/data/locations.json",
+        "world/data/physical_zones.json",
+        "world/data/routes.json",
+        "world/data/current_world_state.json",
+        "world/location-control-plane/locations/LOC-STORM-BOWL/CARD.json"
+      ],
+      "review": {
+        "sourceBinding": "PENDING",
+        "biome": "PENDING",
+        "landmarks": "PENDING",
+        "routes": "PENDING",
+        "desktop": "PENDING",
+        "phone": "PENDING"
+      }
+    },
+    {
+      "number": 6,
+      "id": "LOC-LLC-BOARDROOM",
+      "label": "LLC Mercantile Boardroom",
+      "canonStatus": "PERMANENT_CANON",
+      "abstractPosition": [
+        78,
+        18
+      ],
+      "overlayPoint": {
+        "x": 729.5999999999999,
+        "y": 545.6
+      },
+      "svgPoint": {
+        "x": 951.9999999999999,
+        "y": 902.0
+      },
+      "regionId": "REG-INNER-SEA-LITTORAL",
+      "regionLabel": "Inner Sea Littoral",
+      "regionalEnvironment": {
+        "terrain": [
+          "warm ports",
+          "islands",
+          "sheltered bays",
+          "coastal terraces"
+        ],
+        "climate": [
+          "maritime",
+          "warm",
+          "storm spillover"
+        ],
+        "movement": [
+          "sea lanes",
+          "port roads",
+          "coastal trade"
+        ]
+      },
+      "landmarks": [
+        "executive chamber",
+        "ledgers",
+        "market overlook"
+      ],
+      "routeIds": [
+        "ROUTE-INNER-SEA-QUAY"
+      ],
+      "baseState": [
+        "Week 2 intrusion/destruction remembered",
+        "repair/scar continuity permitted"
+      ],
+      "authoritativeState": [
+        "Week 2 intrusion/destruction history retained",
+        "repair state not fully specified"
+      ],
+      "stateAsOf": "end_of_week_3_2026",
+      "ordinaryActivities": [],
+      "features": [
+        {
+          "handle_id": "SUB::LOC-LLC-BOARDROOM::EXECUTIVE-CHAMBER",
+          "parent_location_id": "LOC-LLC-BOARDROOM",
+          "name": "executive chamber",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-LLC-BOARDROOM::LEDGERS",
+          "parent_location_id": "LOC-LLC-BOARDROOM",
+          "name": "ledgers",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-LLC-BOARDROOM::MARKET-OVERLOOK",
+          "parent_location_id": "LOC-LLC-BOARDROOM",
+          "name": "market overlook",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        }
+      ],
+      "sourcePaths": [
+        "world/data/locations.json",
+        "world/data/physical_zones.json",
+        "world/data/routes.json",
+        "world/data/current_world_state.json",
+        "world/location-control-plane/locations/LOC-LLC-BOARDROOM/CARD.json"
+      ],
+      "review": {
+        "sourceBinding": "PENDING",
+        "biome": "PENDING",
+        "landmarks": "PENDING",
+        "routes": "PENDING",
+        "desktop": "PENDING",
+        "phone": "PENDING"
+      }
+    },
+    {
+      "number": 7,
+      "id": "LOC-RED-RUINS",
+      "label": "Red Leopard Ruins",
+      "canonStatus": "PERMANENT_CANON",
+      "abstractPosition": [
+        75,
+        61
+      ],
+      "overlayPoint": {
+        "x": 705.0,
+        "y": 296.2
+      },
+      "svgPoint": {
+        "x": 921.25,
+        "y": 590.25
+      },
+      "regionId": "REG-EASTERN-STORM-COAST",
+      "regionLabel": "Eastern Forest and Storm Coast",
+      "regionalEnvironment": {
+        "terrain": [
+          "dense forest",
+          "rocky approaches",
+          "storm-exposed coast"
+        ],
+        "climate": [
+          "wet",
+          "violent coastal storms",
+          "high rainfall"
+        ],
+        "movement": [
+          "forest roads",
+          "coastal navigation",
+          "weather disruption"
+        ]
+      },
+      "landmarks": [
+        "jungle ruins",
+        "predator banners"
+      ],
+      "routeIds": [
+        "ROUTE-RAIN-ESCARPMENT"
+      ],
+      "baseState": [
+        "operational"
+      ],
+      "authoritativeState": [],
+      "stateAsOf": "end_of_week_3_2026",
+      "ordinaryActivities": [],
+      "features": [
+        {
+          "handle_id": "SUB::LOC-RED-RUINS::JUNGLE-RUINS",
+          "parent_location_id": "LOC-RED-RUINS",
+          "name": "jungle ruins",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-RED-RUINS::PREDATOR-BANNERS",
+          "parent_location_id": "LOC-RED-RUINS",
+          "name": "predator banners",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        }
+      ],
+      "sourcePaths": [
+        "world/data/locations.json",
+        "world/data/physical_zones.json",
+        "world/data/routes.json",
+        "world/data/current_world_state.json",
+        "world/location-control-plane/locations/LOC-RED-RUINS/CARD.json"
+      ],
+      "review": {
+        "sourceBinding": "PENDING",
+        "biome": "PENDING",
+        "landmarks": "PENDING",
+        "routes": "PENDING",
+        "desktop": "PENDING",
+        "phone": "PENDING"
+      }
+    },
+    {
+      "number": 8,
+      "id": "LOC-TDS-WATERFALL-TEMPLE",
+      "label": "Podium Shadow Waterfall Temple",
+      "canonStatus": "PERMANENT_CANON",
+      "abstractPosition": [
+        32,
+        29
+      ],
+      "overlayPoint": {
+        "x": 352.4,
+        "y": 481.8
+      },
+      "svgPoint": {
+        "x": 480.5,
+        "y": 822.25
+      },
+      "regionId": "REG-SOUTHERN-WETLANDS",
+      "regionLabel": "Southern Wetlands and Delta",
+      "regionalEnvironment": {
+        "terrain": [
+          "slow rivers",
+          "cypress-like wetlands",
+          "mudflats",
+          "raised ground"
+        ],
+        "climate": [
+          "warm",
+          "humid",
+          "seasonal flooding"
+        ],
+        "movement": [
+          "boats",
+          "causeways",
+          "raised roads",
+          "specialized wetland travel"
+        ]
+      },
+      "landmarks": [
+        "waterfall",
+        "temple stone",
+        "dense vegetation"
+      ],
+      "routeIds": [
+        "ROUTE-FALLS-PATH",
+        "ROUTE-TDS-CHILI-SHARED-MARCH"
+      ],
+      "baseState": [
+        "current owner anatomy = one body, three serpent heads",
+        "cross-divisional coexistence with Chili is canon"
+      ],
+      "authoritativeState": [],
+      "stateAsOf": "end_of_week_3_2026",
+      "ordinaryActivities": [],
+      "features": [
+        {
+          "handle_id": "SUB::LOC-TDS-WATERFALL-TEMPLE::WATERFALL",
+          "parent_location_id": "LOC-TDS-WATERFALL-TEMPLE",
+          "name": "waterfall",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-TDS-WATERFALL-TEMPLE::TEMPLE-STONE",
+          "parent_location_id": "LOC-TDS-WATERFALL-TEMPLE",
+          "name": "temple stone",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-TDS-WATERFALL-TEMPLE::DENSE-VEGETATION",
+          "parent_location_id": "LOC-TDS-WATERFALL-TEMPLE",
+          "name": "dense vegetation",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        }
+      ],
+      "sourcePaths": [
+        "world/data/locations.json",
+        "world/data/physical_zones.json",
+        "world/data/routes.json",
+        "world/data/current_world_state.json",
+        "world/location-control-plane/locations/LOC-TDS-WATERFALL-TEMPLE/CARD.json"
+      ],
+      "review": {
+        "sourceBinding": "PENDING",
+        "biome": "PENDING",
+        "landmarks": "PENDING",
+        "routes": "PENDING",
+        "desktop": "PENDING",
+        "phone": "PENDING"
+      }
+    },
+    {
+      "number": 9,
+      "id": "LOC-CHILI-STABLE",
+      "label": "Chili Outlaw Stable",
+      "canonStatus": "PERMANENT_CANON",
+      "abstractPosition": [
+        15,
+        45
+      ],
+      "overlayPoint": {
+        "x": 213.0,
+        "y": 389.0
+      },
+      "svgPoint": {
+        "x": 306.25,
+        "y": 706.25
+      },
+      "regionId": "REG-WESTERN-TABLELANDS",
+      "regionLabel": "Western Tablelands",
+      "regionalEnvironment": {
+        "terrain": [
+          "open grassland",
+          "broken stone ridges",
+          "dry frontier"
+        ],
+        "climate": [
+          "drier",
+          "rain-shadow influence",
+          "large temperature swings"
+        ],
+        "movement": [
+          "long overland routes",
+          "mounted travel",
+          "dispersed settlements"
+        ]
+      },
+      "landmarks": [
+        "stable",
+        "pit smoke",
+        "Dark Horse enclosure"
+      ],
+      "routeIds": [
+        "ROUTE-WESTERN-RANGE",
+        "ROUTE-TDS-CHILI-SHARED-MARCH"
+      ],
+      "baseState": [
+        "operational",
+        "cross-divisional coexistence with TDS is canon"
+      ],
+      "authoritativeState": [],
+      "stateAsOf": "end_of_week_3_2026",
+      "ordinaryActivities": [],
+      "features": [
+        {
+          "handle_id": "SUB::LOC-CHILI-STABLE::STABLE",
+          "parent_location_id": "LOC-CHILI-STABLE",
+          "name": "stable",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-CHILI-STABLE::PIT-SMOKE",
+          "parent_location_id": "LOC-CHILI-STABLE",
+          "name": "pit smoke",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-CHILI-STABLE::DARK-HORSE-ENCLOSURE",
+          "parent_location_id": "LOC-CHILI-STABLE",
+          "name": "Dark Horse enclosure",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        }
+      ],
+      "sourcePaths": [
+        "world/data/locations.json",
+        "world/data/physical_zones.json",
+        "world/data/routes.json",
+        "world/data/current_world_state.json",
+        "world/location-control-plane/locations/LOC-CHILI-STABLE/CARD.json"
+      ],
+      "review": {
+        "sourceBinding": "PENDING",
+        "biome": "PENDING",
+        "landmarks": "PENDING",
+        "routes": "PENDING",
+        "desktop": "PENDING",
+        "phone": "PENDING"
+      }
+    },
+    {
+      "number": 10,
+      "id": "LOC-BELT-KEEPER-KEEP",
+      "label": "Belt Keeper Rune Keep",
+      "canonStatus": "PROVISIONAL_CANON",
+      "abstractPosition": [
+        73,
+        76
+      ],
+      "overlayPoint": {
+        "x": 688.5999999999999,
+        "y": 209.2
+      },
+      "svgPoint": {
+        "x": 900.7499999999999,
+        "y": 481.5
+      },
+      "regionId": "REG-EASTERN-STORM-COAST",
+      "regionLabel": "Eastern Forest and Storm Coast",
+      "regionalEnvironment": {
+        "terrain": [
+          "dense forest",
+          "rocky approaches",
+          "storm-exposed coast"
+        ],
+        "climate": [
+          "wet",
+          "violent coastal storms",
+          "high rainfall"
+        ],
+        "movement": [
+          "forest roads",
+          "coastal navigation",
+          "weather disruption"
+        ]
+      },
+      "landmarks": [
+        "dark keep",
+        "championship hall"
+      ],
+      "routeIds": [
+        "ROUTE-BLACK-CLIFF"
+      ],
+      "baseState": [
+        "Belt remains with Belt Keeper"
+      ],
+      "authoritativeState": [],
+      "stateAsOf": "end_of_week_3_2026",
+      "ordinaryActivities": [],
+      "features": [
+        {
+          "handle_id": "SUB::LOC-BELT-KEEPER-KEEP::DARK-KEEP",
+          "parent_location_id": "LOC-BELT-KEEPER-KEEP",
+          "name": "dark keep",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-BELT-KEEPER-KEEP::CHAMPIONSHIP-HALL",
+          "parent_location_id": "LOC-BELT-KEEPER-KEEP",
+          "name": "championship hall",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        }
+      ],
+      "sourcePaths": [
+        "world/data/locations.json",
+        "world/data/physical_zones.json",
+        "world/data/routes.json",
+        "world/data/current_world_state.json",
+        "world/location-control-plane/locations/LOC-BELT-KEEPER-KEEP/CARD.json"
+      ],
+      "review": {
+        "sourceBinding": "PENDING",
+        "biome": "PENDING",
+        "landmarks": "PENDING",
+        "routes": "PENDING",
+        "desktop": "PENDING",
+        "phone": "PENDING"
+      }
+    },
+    {
+      "number": 11,
+      "id": "LOC-SLOB-FOOTHILL-CAMP",
+      "label": "Slob Foothill Camp",
+      "canonStatus": "PROVISIONAL_CANON",
+      "abstractPosition": [
+        37,
+        62
+      ],
+      "overlayPoint": {
+        "x": 393.4,
+        "y": 290.40000000000003
+      },
+      "svgPoint": {
+        "x": 531.75,
+        "y": 583.0
+      },
+      "regionId": "REG-UPPER-VALLEYS",
+      "regionLabel": "Upper Valleys and Foothills",
+      "regionalEnvironment": {
+        "terrain": [
+          "rolling uplands",
+          "mixed forest",
+          "pasture",
+          "defensible ridges"
+        ],
+        "climate": [
+          "temperate",
+          "seasonal rain"
+        ],
+        "movement": [
+          "horse roads",
+          "ridge routes",
+          "market-town connectors"
+        ]
+      },
+      "landmarks": [
+        "tailgate yard",
+        "rough training ground"
+      ],
+      "routeIds": [
+        "ROUTE-HEARTHROAD"
+      ],
+      "baseState": [
+        "operational"
+      ],
+      "authoritativeState": [],
+      "stateAsOf": "end_of_week_3_2026",
+      "ordinaryActivities": [],
+      "features": [
+        {
+          "handle_id": "SUB::LOC-SLOB-FOOTHILL-CAMP::TAILGATE-YARD",
+          "parent_location_id": "LOC-SLOB-FOOTHILL-CAMP",
+          "name": "tailgate yard",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-SLOB-FOOTHILL-CAMP::ROUGH-TRAINING-GROUND",
+          "parent_location_id": "LOC-SLOB-FOOTHILL-CAMP",
+          "name": "rough training ground",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        }
+      ],
+      "sourcePaths": [
+        "world/data/locations.json",
+        "world/data/physical_zones.json",
+        "world/data/routes.json",
+        "world/data/current_world_state.json",
+        "world/location-control-plane/locations/LOC-SLOB-FOOTHILL-CAMP/CARD.json"
+      ],
+      "review": {
+        "sourceBinding": "PENDING",
+        "biome": "PENDING",
+        "landmarks": "PENDING",
+        "routes": "PENDING",
+        "desktop": "PENDING",
+        "phone": "PENDING"
+      }
+    },
+    {
+      "number": 12,
+      "id": "LOC-CHINS-ROAD-COMMONS",
+      "label": "People's Champ Road Commons",
+      "canonStatus": "PROVISIONAL_CANON",
+      "abstractPosition": [
+        50,
+        43
+      ],
+      "overlayPoint": {
+        "x": 499.99999999999994,
+        "y": 400.6
+      },
+      "svgPoint": {
+        "x": 664.9999999999999,
+        "y": 720.75
+      },
+      "regionId": "REG-CENTRAL-BASIN",
+      "regionLabel": "Central River Basin",
+      "regionalEnvironment": {
+        "terrain": [
+          "broad river valleys",
+          "fertile lowlands",
+          "bridge corridors"
+        ],
+        "climate": [
+          "temperate",
+          "flood-cycle influence"
+        ],
+        "movement": [
+          "navigable rivers",
+          "major roads",
+          "bridges and toll points"
+        ]
+      },
+      "landmarks": [
+        "roadside hall",
+        "BBQ yard",
+        "caravan court"
+      ],
+      "routeIds": [
+        "ROUTE-JACKSON-LEVEE",
+        "ROUTE-WESTERN-RANGE",
+        "ROUTE-BASIN-MARKET"
+      ],
+      "baseState": [
+        "operational"
+      ],
+      "authoritativeState": [],
+      "stateAsOf": "end_of_week_3_2026",
+      "ordinaryActivities": [],
+      "features": [
+        {
+          "handle_id": "SUB::LOC-CHINS-ROAD-COMMONS::ROADSIDE-HALL",
+          "parent_location_id": "LOC-CHINS-ROAD-COMMONS",
+          "name": "roadside hall",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-CHINS-ROAD-COMMONS::BBQ-YARD",
+          "parent_location_id": "LOC-CHINS-ROAD-COMMONS",
+          "name": "BBQ yard",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-CHINS-ROAD-COMMONS::CARAVAN-COURT",
+          "parent_location_id": "LOC-CHINS-ROAD-COMMONS",
+          "name": "caravan court",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        }
+      ],
+      "sourcePaths": [
+        "world/data/locations.json",
+        "world/data/physical_zones.json",
+        "world/data/routes.json",
+        "world/data/current_world_state.json",
+        "world/location-control-plane/locations/LOC-CHINS-ROAD-COMMONS/CARD.json"
+      ],
+      "review": {
+        "sourceBinding": "PENDING",
+        "biome": "PENDING",
+        "landmarks": "PENDING",
+        "routes": "PENDING",
+        "desktop": "PENDING",
+        "phone": "PENDING"
+      }
+    },
+    {
+      "number": 13,
+      "id": "LOC-LEAGUE-CHAMBER",
+      "label": "League Chamber",
+      "canonStatus": "PROVISIONAL_CANON",
+      "abstractPosition": [
+        56,
+        47
+      ],
+      "overlayPoint": {
+        "x": 549.1999999999999,
+        "y": 377.40000000000003
+      },
+      "svgPoint": {
+        "x": 726.4999999999999,
+        "y": 691.75
+      },
+      "regionId": "REG-CENTRAL-BASIN",
+      "regionLabel": "Central River Basin",
+      "regionalEnvironment": {
+        "terrain": [
+          "broad river valleys",
+          "fertile lowlands",
+          "bridge corridors"
+        ],
+        "climate": [
+          "temperate",
+          "flood-cycle influence"
+        ],
+        "movement": [
+          "navigable rivers",
+          "major roads",
+          "bridges and toll points"
+        ]
+      },
+      "landmarks": [
+        "records desk",
+        "map wall"
+      ],
+      "routeIds": [
+        "ROUTE-BASIN-MARKET",
+        "ROUTE-COMPACT-GROUNDS",
+        "ROUTE-UPPER-BASIN-CONNECTOR",
+        "ROUTE-PORT-BASIN-CONNECTOR",
+        "ROUTE-ARCHIVE-CHAMBER"
+      ],
+      "baseState": [
+        "neutral institutional space"
+      ],
+      "authoritativeState": [],
+      "stateAsOf": "end_of_week_3_2026",
+      "ordinaryActivities": [],
+      "features": [
+        {
+          "handle_id": "SUB::LOC-LEAGUE-CHAMBER::RECORDS-DESK",
+          "parent_location_id": "LOC-LEAGUE-CHAMBER",
+          "name": "records desk",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-LEAGUE-CHAMBER::MAP-WALL",
+          "parent_location_id": "LOC-LEAGUE-CHAMBER",
+          "name": "map wall",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        }
+      ],
+      "sourcePaths": [
+        "world/data/locations.json",
+        "world/data/physical_zones.json",
+        "world/data/routes.json",
+        "world/data/current_world_state.json",
+        "world/location-control-plane/locations/LOC-LEAGUE-CHAMBER/CARD.json"
+      ],
+      "review": {
+        "sourceBinding": "PENDING",
+        "biome": "PENDING",
+        "landmarks": "PENDING",
+        "routes": "PENDING",
+        "desktop": "PENDING",
+        "phone": "PENDING"
+      }
+    },
+    {
+      "number": 14,
+      "id": "LOC-PITTSYS-BOOK",
+      "label": "Pittsy's Book",
+      "canonStatus": "PROVISIONAL_CANON",
+      "abstractPosition": [
+        54,
+        40
+      ],
+      "overlayPoint": {
+        "x": 532.8,
+        "y": 418.0
+      },
+      "svgPoint": {
+        "x": 706.0,
+        "y": 742.5
+      },
+      "regionId": "REG-CENTRAL-BASIN",
+      "regionLabel": "Central River Basin",
+      "regionalEnvironment": {
+        "terrain": [
+          "broad river valleys",
+          "fertile lowlands",
+          "bridge corridors"
+        ],
+        "climate": [
+          "temperate",
+          "flood-cycle influence"
+        ],
+        "movement": [
+          "navigable rivers",
+          "major roads",
+          "bridges and toll points"
+        ]
+      },
+      "landmarks": [
+        "ledger boards",
+        "settlement desk"
+      ],
+      "routeIds": [
+        "ROUTE-BASIN-MARKET"
+      ],
+      "baseState": [
+        "recurring bookmaking function"
+      ],
+      "authoritativeState": [],
+      "stateAsOf": "end_of_week_3_2026",
+      "ordinaryActivities": [],
+      "features": [
+        {
+          "handle_id": "SUB::LOC-PITTSYS-BOOK::LEDGER-BOARDS",
+          "parent_location_id": "LOC-PITTSYS-BOOK",
+          "name": "ledger boards",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-PITTSYS-BOOK::SETTLEMENT-DESK",
+          "parent_location_id": "LOC-PITTSYS-BOOK",
+          "name": "settlement desk",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        }
+      ],
+      "sourcePaths": [
+        "world/data/locations.json",
+        "world/data/physical_zones.json",
+        "world/data/routes.json",
+        "world/data/current_world_state.json",
+        "world/location-control-plane/locations/LOC-PITTSYS-BOOK/CARD.json"
+      ],
+      "review": {
+        "sourceBinding": "PENDING",
+        "biome": "PENDING",
+        "landmarks": "PENDING",
+        "routes": "PENDING",
+        "desktop": "PENDING",
+        "phone": "PENDING"
+      }
+    },
+    {
+      "number": 15,
+      "id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "label": "Bridge at the Mountain Lake",
+      "canonStatus": "PROVISIONAL_CANON",
+      "abstractPosition": [
+        64,
+        66
+      ],
+      "overlayPoint": {
+        "x": 614.8,
+        "y": 267.2
+      },
+      "svgPoint": {
+        "x": 808.5,
+        "y": 554.0
+      },
+      "regionId": "REG-UPPER-VALLEYS",
+      "regionLabel": "Upper Valleys and Foothills",
+      "regionalEnvironment": {
+        "terrain": [
+          "rolling uplands",
+          "mixed forest",
+          "pasture",
+          "defensible ridges"
+        ],
+        "climate": [
+          "temperate",
+          "seasonal rain"
+        ],
+        "movement": [
+          "horse roads",
+          "ridge routes",
+          "market-town connectors"
+        ]
+      },
+      "landmarks": [
+        "stone bridge",
+        "lake",
+        "jump point"
+      ],
+      "routeIds": [
+        "ROUTE-EASTERN-ASCENT",
+        "ROUTE-HEARTHROAD",
+        "ROUTE-RAIN-ESCARPMENT",
+        "ROUTE-UPPER-BASIN-CONNECTOR"
+      ],
+      "baseState": [
+        "Week 3 ObiWan/TDS decision landmark"
+      ],
+      "authoritativeState": [
+        "Week 3 decision landmark",
+        "structurally intact unless later evidence changes it"
+      ],
+      "stateAsOf": "end_of_week_3_2026",
+      "ordinaryActivities": [],
+      "features": [
+        {
+          "handle_id": "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::STONE-BRIDGE",
+          "parent_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+          "name": "stone bridge",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::LAKE",
+          "parent_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+          "name": "lake",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::JUMP-POINT",
+          "parent_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+          "name": "jump point",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        }
+      ],
+      "sourcePaths": [
+        "world/data/locations.json",
+        "world/data/physical_zones.json",
+        "world/data/routes.json",
+        "world/data/current_world_state.json",
+        "world/location-control-plane/locations/LOC-BRIDGE-MOUNTAIN-LAKE/CARD.json"
+      ],
+      "review": {
+        "sourceBinding": "PENDING",
+        "biome": "PENDING",
+        "landmarks": "PENDING",
+        "routes": "PENDING",
+        "desktop": "PENDING",
+        "phone": "PENDING"
+      }
+    },
+    {
+      "number": 16,
+      "id": "LOC-DK-MUD-HILL",
+      "label": "Mire Hill Battlefield",
+      "canonStatus": "PROVISIONAL_CANON",
+      "abstractPosition": [
+        40,
+        47
+      ],
+      "overlayPoint": {
+        "x": 418.0,
+        "y": 377.40000000000003
+      },
+      "svgPoint": {
+        "x": 562.5,
+        "y": 691.75
+      },
+      "regionId": "REG-CENTRAL-BASIN",
+      "regionLabel": "Central River Basin",
+      "regionalEnvironment": {
+        "terrain": [
+          "broad river valleys",
+          "fertile lowlands",
+          "bridge corridors"
+        ],
+        "climate": [
+          "temperate",
+          "flood-cycle influence"
+        ],
+        "movement": [
+          "navigable rivers",
+          "major roads",
+          "bridges and toll points"
+        ]
+      },
+      "landmarks": [
+        "hill",
+        "mire",
+        "battle standards"
+      ],
+      "routeIds": [
+        "ROUTE-DELTA-CAUSEWAY",
+        "ROUTE-BASIN-MARKET"
+      ],
+      "baseState": [
+        "Week 3 battlefield scar",
+        "Mud Dogs yield memory"
+      ],
+      "authoritativeState": [
+        "battlefield scar and yield memory",
+        "cleanup/custodial work continues after the Week 3 Encounter",
+        "Wilson/D0nkey K0ng standard placed below summit; summit remains unclaimed and no sovereignty or territorial transfer"
+      ],
+      "stateAsOf": "end_of_week_3_2026",
+      "ordinaryActivities": [],
+      "features": [
+        {
+          "handle_id": "SUB::LOC-DK-MUD-HILL::HILL",
+          "parent_location_id": "LOC-DK-MUD-HILL",
+          "name": "hill",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-DK-MUD-HILL::MIRE",
+          "parent_location_id": "LOC-DK-MUD-HILL",
+          "name": "mire",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-DK-MUD-HILL::BATTLE-STANDARDS",
+          "parent_location_id": "LOC-DK-MUD-HILL",
+          "name": "battle standards",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        }
+      ],
+      "sourcePaths": [
+        "world/data/locations.json",
+        "world/data/physical_zones.json",
+        "world/data/routes.json",
+        "world/data/current_world_state.json",
+        "world/location-control-plane/locations/LOC-DK-MUD-HILL/CARD.json"
+      ],
+      "review": {
+        "sourceBinding": "PENDING",
+        "biome": "PENDING",
+        "landmarks": "PENDING",
+        "routes": "PENDING",
+        "desktop": "PENDING",
+        "phone": "PENDING"
+      }
+    },
+    {
+      "number": 17,
+      "id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "label": "Alpine Wager Route",
+      "canonStatus": "PROVISIONAL_CANON",
+      "abstractPosition": [
+        45,
+        82
+      ],
+      "overlayPoint": {
+        "x": 458.99999999999994,
+        "y": 174.40000000000003
+      },
+      "svgPoint": {
+        "x": 613.7499999999999,
+        "y": 438.00000000000006
+      },
+      "regionId": "REG-NORTHERN-SPINE",
+      "regionLabel": "Northern Spine",
+      "regionalEnvironment": {
+        "terrain": [
+          "high mountains",
+          "narrow passes",
+          "rock ridges"
+        ],
+        "climate": [
+          "cold winters",
+          "snow at elevation",
+          "headwater precipitation"
+        ],
+        "movement": [
+          "passes constrain travel",
+          "winter closures possible",
+          "mounts and foot travel dominate"
+        ]
+      },
+      "landmarks": [
+        "summit",
+        "base camp",
+        "wager marker"
+      ],
+      "routeIds": [
+        "ROUTE-NORTHERN-PASS"
+      ],
+      "baseState": [
+        "Week 3 wager landmark"
+      ],
+      "authoritativeState": [
+        "wager/summit landmark"
+      ],
+      "stateAsOf": "end_of_week_3_2026",
+      "ordinaryActivities": [],
+      "features": [
+        {
+          "handle_id": "SUB::LOC-RED-SLOB-ALPINE-ROUTE::SUMMIT",
+          "parent_location_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+          "name": "summit",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-RED-SLOB-ALPINE-ROUTE::BASE-CAMP",
+          "parent_location_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+          "name": "base camp",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-RED-SLOB-ALPINE-ROUTE::WAGER-MARKER",
+          "parent_location_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+          "name": "wager marker",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        }
+      ],
+      "sourcePaths": [
+        "world/data/locations.json",
+        "world/data/physical_zones.json",
+        "world/data/routes.json",
+        "world/data/current_world_state.json",
+        "world/location-control-plane/locations/LOC-RED-SLOB-ALPINE-ROUTE/CARD.json"
+      ],
+      "review": {
+        "sourceBinding": "PENDING",
+        "biome": "PENDING",
+        "landmarks": "PENDING",
+        "routes": "PENDING",
+        "desktop": "PENDING",
+        "phone": "PENDING"
+      }
+    },
+    {
+      "number": 18,
+      "id": "LOC-SOUTHERN-SPEEDWAY",
+      "label": "Southern Speedway",
+      "canonStatus": "PROVISIONAL_CANON",
+      "abstractPosition": [
+        47,
+        35
+      ],
+      "overlayPoint": {
+        "x": 475.4,
+        "y": 447.0
+      },
+      "svgPoint": {
+        "x": 634.25,
+        "y": 778.75
+      },
+      "regionId": "REG-CENTRAL-BASIN",
+      "regionLabel": "Central River Basin",
+      "regionalEnvironment": {
+        "terrain": [
+          "broad river valleys",
+          "fertile lowlands",
+          "bridge corridors"
+        ],
+        "climate": [
+          "temperate",
+          "flood-cycle influence"
+        ],
+        "movement": [
+          "navigable rivers",
+          "major roads",
+          "bridges and toll points"
+        ]
+      },
+      "landmarks": [
+        "oval/race course",
+        "grandstand"
+      ],
+      "routeIds": [
+        "ROUTE-BASIN-MARKET"
+      ],
+      "baseState": [
+        "Week 3 HMB/Chins survival-race history"
+      ],
+      "authoritativeState": [
+        "Week 3 survival-race history"
+      ],
+      "stateAsOf": "end_of_week_3_2026",
+      "ordinaryActivities": [],
+      "features": [
+        {
+          "handle_id": "SUB::LOC-SOUTHERN-SPEEDWAY::OVAL-RACE-COURSE",
+          "parent_location_id": "LOC-SOUTHERN-SPEEDWAY",
+          "name": "oval/race course",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-SOUTHERN-SPEEDWAY::GRANDSTAND",
+          "parent_location_id": "LOC-SOUTHERN-SPEEDWAY",
+          "name": "grandstand",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        }
+      ],
+      "sourcePaths": [
+        "world/data/locations.json",
+        "world/data/physical_zones.json",
+        "world/data/routes.json",
+        "world/data/current_world_state.json",
+        "world/location-control-plane/locations/LOC-SOUTHERN-SPEEDWAY/CARD.json"
+      ],
+      "review": {
+        "sourceBinding": "PENDING",
+        "biome": "PENDING",
+        "landmarks": "PENDING",
+        "routes": "PENDING",
+        "desktop": "PENDING",
+        "phone": "PENDING"
+      }
+    },
+    {
+      "number": 19,
+      "id": "LOC-LLC-STORM-CITY",
+      "label": "LLC Port City Storm District",
+      "canonStatus": "PROVISIONAL_CANON",
+      "abstractPosition": [
+        83,
+        20
+      ],
+      "overlayPoint": {
+        "x": 770.5999999999999,
+        "y": 534.0
+      },
+      "svgPoint": {
+        "x": 1003.2499999999999,
+        "y": 887.5
+      },
+      "regionId": "REG-INNER-SEA-LITTORAL",
+      "regionLabel": "Inner Sea Littoral",
+      "regionalEnvironment": {
+        "terrain": [
+          "warm ports",
+          "islands",
+          "sheltered bays",
+          "coastal terraces"
+        ],
+        "climate": [
+          "maritime",
+          "warm",
+          "storm spillover"
+        ],
+        "movement": [
+          "sea lanes",
+          "port roads",
+          "coastal trade"
+        ]
+      },
+      "landmarks": [
+        "mercantile towers",
+        "storm barriers"
+      ],
+      "routeIds": [
+        "ROUTE-STORM-COAST",
+        "ROUTE-INNER-SEA-QUAY",
+        "ROUTE-PORT-BASIN-CONNECTOR"
+      ],
+      "baseState": [
+        "Week 3 El Ni\u00f1o weather-event history"
+      ],
+      "authoritativeState": [
+        "Week 3 weather-event history",
+        "storm-protection continuity"
+      ],
+      "stateAsOf": "end_of_week_3_2026",
+      "ordinaryActivities": [],
+      "features": [
+        {
+          "handle_id": "SUB::LOC-LLC-STORM-CITY::MERCANTILE-TOWERS",
+          "parent_location_id": "LOC-LLC-STORM-CITY",
+          "name": "mercantile towers",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-LLC-STORM-CITY::STORM-BARRIERS",
+          "parent_location_id": "LOC-LLC-STORM-CITY",
+          "name": "storm barriers",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        }
+      ],
+      "sourcePaths": [
+        "world/data/locations.json",
+        "world/data/physical_zones.json",
+        "world/data/routes.json",
+        "world/data/current_world_state.json",
+        "world/location-control-plane/locations/LOC-LLC-STORM-CITY/CARD.json"
+      ],
+      "review": {
+        "sourceBinding": "PENDING",
+        "biome": "PENDING",
+        "landmarks": "PENDING",
+        "routes": "PENDING",
+        "desktop": "PENDING",
+        "phone": "PENDING"
+      }
+    },
+    {
+      "number": 20,
+      "id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "label": "D0nkey K0ng Highland Stronghold",
+      "canonStatus": "INTERPRETIVE_CANON",
+      "abstractPosition": [
+        48,
+        68
+      ],
+      "overlayPoint": {
+        "x": 483.59999999999997,
+        "y": 255.60000000000002
+      },
+      "svgPoint": {
+        "x": 644.5,
+        "y": 539.5
+      },
+      "regionId": "REG-UPPER-VALLEYS",
+      "regionLabel": "Upper Valleys and Foothills",
+      "regionalEnvironment": {
+        "terrain": [
+          "rolling uplands",
+          "mixed forest",
+          "pasture",
+          "defensible ridges"
+        ],
+        "climate": [
+          "temperate",
+          "seasonal rain"
+        ],
+        "movement": [
+          "horse roads",
+          "ridge routes",
+          "market-town connectors"
+        ]
+      },
+      "landmarks": [
+        "highland stronghold",
+        "training court",
+        "road approach"
+      ],
+      "routeIds": [
+        "ROUTE-DK-HIGHLAND-LINK"
+      ],
+      "baseState": [
+        "current principal identity = Arsenal Gorilla Warrior",
+        "peopled-kind home society"
+      ],
+      "authoritativeState": [],
+      "stateAsOf": "end_of_week_3_2026",
+      "ordinaryActivities": [],
+      "features": [
+        {
+          "handle_id": "SUB::LOC-DK-HIGHLAND-STRONGHOLD::HIGHLAND-STRONGHOLD",
+          "parent_location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+          "name": "highland stronghold",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-DK-HIGHLAND-STRONGHOLD::TRAINING-COURT",
+          "parent_location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+          "name": "training court",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-DK-HIGHLAND-STRONGHOLD::ROAD-APPROACH",
+          "parent_location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+          "name": "road approach",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        }
+      ],
+      "sourcePaths": [
+        "world/data/locations.json",
+        "world/data/physical_zones.json",
+        "world/data/routes.json",
+        "world/data/current_world_state.json",
+        "world/location-control-plane/locations/LOC-DK-HIGHLAND-STRONGHOLD/CARD.json"
+      ],
+      "review": {
+        "sourceBinding": "PENDING",
+        "biome": "PENDING",
+        "landmarks": "PENDING",
+        "routes": "PENDING",
+        "desktop": "PENDING",
+        "phone": "PENDING"
+      }
+    },
+    {
+      "number": 21,
+      "id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "label": "TDS\u2013Chili Shared March",
+      "canonStatus": "INTERPRETIVE_CANON",
+      "abstractPosition": [
+        28,
+        42
+      ],
+      "overlayPoint": {
+        "x": 319.59999999999997,
+        "y": 406.4
+      },
+      "svgPoint": {
+        "x": 439.49999999999994,
+        "y": 728.0
+      },
+      "regionId": "REG-WESTERN-TABLELANDS",
+      "regionLabel": "Western Tablelands",
+      "regionalEnvironment": {
+        "terrain": [
+          "open grassland",
+          "broken stone ridges",
+          "dry frontier"
+        ],
+        "climate": [
+          "drier",
+          "rain-shadow influence",
+          "large temperature swings"
+        ],
+        "movement": [
+          "long overland routes",
+          "mounted travel",
+          "dispersed settlements"
+        ]
+      },
+      "landmarks": [
+        "mixed caravan settlement",
+        "watercourse crossing",
+        "stable-and-market quarter"
+      ],
+      "routeIds": [
+        "ROUTE-TDS-CHILI-SHARED-MARCH"
+      ],
+      "baseState": [
+        "TDS and Chili coexist here regardless of League division"
+      ],
+      "authoritativeState": [],
+      "stateAsOf": "end_of_week_3_2026",
+      "ordinaryActivities": [],
+      "features": [
+        {
+          "handle_id": "SUB::LOC-TDS-CHILI-SHARED-MARCH::MIXED-CARAVAN-SETTLEMENT",
+          "parent_location_id": "LOC-TDS-CHILI-SHARED-MARCH",
+          "name": "mixed caravan settlement",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-TDS-CHILI-SHARED-MARCH::WATERCOURSE-CROSSING",
+          "parent_location_id": "LOC-TDS-CHILI-SHARED-MARCH",
+          "name": "watercourse crossing",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-TDS-CHILI-SHARED-MARCH::STABLE-AND-MARKET-QUARTER",
+          "parent_location_id": "LOC-TDS-CHILI-SHARED-MARCH",
+          "name": "stable-and-market quarter",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        }
+      ],
+      "sourcePaths": [
+        "world/data/locations.json",
+        "world/data/physical_zones.json",
+        "world/data/routes.json",
+        "world/data/current_world_state.json",
+        "world/location-control-plane/locations/LOC-TDS-CHILI-SHARED-MARCH/CARD.json"
+      ],
+      "review": {
+        "sourceBinding": "PENDING",
+        "biome": "PENDING",
+        "landmarks": "PENDING",
+        "routes": "PENDING",
+        "desktop": "PENDING",
+        "phone": "PENDING"
+      }
+    },
+    {
+      "number": 22,
+      "id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "label": "Compact Neutral Grounds",
+      "canonStatus": "PROVISIONAL_CANON",
+      "abstractPosition": [
+        60,
+        46
+      ],
+      "overlayPoint": {
+        "x": 582.0,
+        "y": 383.2
+      },
+      "svgPoint": {
+        "x": 767.5,
+        "y": 699.0
+      },
+      "regionId": "REG-CENTRAL-BASIN",
+      "regionLabel": "Central River Basin",
+      "regionalEnvironment": {
+        "terrain": [
+          "broad river valleys",
+          "fertile lowlands",
+          "bridge corridors"
+        ],
+        "climate": [
+          "temperate",
+          "flood-cycle influence"
+        ],
+        "movement": [
+          "navigable rivers",
+          "major roads",
+          "bridges and toll points"
+        ]
+      },
+      "landmarks": [
+        "open ceremonial field",
+        "arbiter pavilion",
+        "arrival roads"
+      ],
+      "routeIds": [
+        "ROUTE-COMPACT-GROUNDS"
+      ],
+      "baseState": [
+        "neutral major-Encounter venue"
+      ],
+      "authoritativeState": [],
+      "stateAsOf": "end_of_week_3_2026",
+      "ordinaryActivities": [],
+      "features": [
+        {
+          "handle_id": "SUB::LOC-COMPACT-NEUTRAL-GROUNDS::OPEN-CEREMONIAL-FIELD",
+          "parent_location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+          "name": "open ceremonial field",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-COMPACT-NEUTRAL-GROUNDS::ARBITER-PAVILION",
+          "parent_location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+          "name": "arbiter pavilion",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-COMPACT-NEUTRAL-GROUNDS::ARRIVAL-ROADS",
+          "parent_location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+          "name": "arrival roads",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        }
+      ],
+      "sourcePaths": [
+        "world/data/locations.json",
+        "world/data/physical_zones.json",
+        "world/data/routes.json",
+        "world/data/current_world_state.json",
+        "world/location-control-plane/locations/LOC-COMPACT-NEUTRAL-GROUNDS/CARD.json"
+      ],
+      "review": {
+        "sourceBinding": "PENDING",
+        "biome": "PENDING",
+        "landmarks": "PENDING",
+        "routes": "PENDING",
+        "desktop": "PENDING",
+        "phone": "PENDING"
+      }
+    },
+    {
+      "number": 23,
+      "id": "LOC-LEAGUE-ARCHIVE",
+      "label": "League Archive",
+      "canonStatus": "INTERPRETIVE_CANON",
+      "abstractPosition": [
+        55,
+        50
+      ],
+      "overlayPoint": {
+        "x": 541.0,
+        "y": 360.0
+      },
+      "svgPoint": {
+        "x": 716.25,
+        "y": 670.0
+      },
+      "regionId": "REG-CENTRAL-BASIN",
+      "regionLabel": "Central River Basin",
+      "regionalEnvironment": {
+        "terrain": [
+          "broad river valleys",
+          "fertile lowlands",
+          "bridge corridors"
+        ],
+        "climate": [
+          "temperate",
+          "flood-cycle influence"
+        ],
+        "movement": [
+          "navigable rivers",
+          "major roads",
+          "bridges and toll points"
+        ]
+      },
+      "landmarks": [
+        "record halls",
+        "ledger vaults",
+        "courier court"
+      ],
+      "routeIds": [
+        "ROUTE-ARCHIVE-CHAMBER"
+      ],
+      "baseState": [
+        "neutral records institution"
+      ],
+      "authoritativeState": [],
+      "stateAsOf": "end_of_week_3_2026",
+      "ordinaryActivities": [],
+      "features": [
+        {
+          "handle_id": "SUB::LOC-LEAGUE-ARCHIVE::RECORD-HALLS",
+          "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+          "name": "record halls",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-LEAGUE-ARCHIVE::LEDGER-VAULTS",
+          "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+          "name": "ledger vaults",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        },
+        {
+          "handle_id": "SUB::LOC-LEAGUE-ARCHIVE::COURIER-COURT",
+          "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+          "name": "courier court",
+          "handle_class": "PERSISTENT_FEATURE_HANDLE",
+          "inherits": [
+            "physical_zone",
+            "division_relationship",
+            "current_world_state",
+            "route_context"
+          ],
+          "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+        }
+      ],
+      "sourcePaths": [
+        "world/data/locations.json",
+        "world/data/physical_zones.json",
+        "world/data/routes.json",
+        "world/data/current_world_state.json",
+        "world/location-control-plane/locations/LOC-LEAGUE-ARCHIVE/CARD.json"
+      ],
+      "review": {
+        "sourceBinding": "PENDING",
+        "biome": "PENDING",
+        "landmarks": "PENDING",
+        "routes": "PENDING",
+        "desktop": "PENDING",
+        "phone": "PENDING"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "path": "productions/audience-site/src/experience.js",
+      "sha256": "712b94873bed4640d5bf8375f591f4e4d64787601d54ff146c8be562080a71ee"
+    },
+    {
+      "path": "world/data/current_world_state.json",
+      "sha256": "85ffc3e00dd7d40f2aaf43b24b65907df2add1f08d45861549fd638f8fbc1471"
+    },
+    {
+      "path": "world/data/locations.json",
+      "sha256": "d3aa0d5fca9bf120ad8f1ecc6267f0cbce54bdf83b8117c0328c8d13cd0aeaeb"
+    },
+    {
+      "path": "world/data/physical_zones.json",
+      "sha256": "89734f7171039f4a14614d93e1a9aaf666c05f8951d39ad42732d01aba7433bc"
+    },
+    {
+      "path": "world/data/routes.json",
+      "sha256": "fe2b3ce9670062095908fa03ee6f8f4a77990d3e66dad0bd67230036f452c40c"
+    },
+    {
+      "path": "world/location-control-plane/locations/LOC-ARSENAL-BARBERSHOP/CARD.json",
+      "sha256": "acbba5d33339b1e90cf55cfc7085a619eb99179cfb74c7fd42614efe21e9d4b3"
+    },
+    {
+      "path": "world/location-control-plane/locations/LOC-BELT-KEEPER-KEEP/CARD.json",
+      "sha256": "397f7dc00df9b9b21eed0d2a784f69f0a70171ee66959c8b53edb8eef916792f"
+    },
+    {
+      "path": "world/location-control-plane/locations/LOC-BRIDGE-MOUNTAIN-LAKE/CARD.json",
+      "sha256": "cfb0921c54cd4d7f8d7ef05583b943be04688810641e99aafd0a5abc455c980e"
+    },
+    {
+      "path": "world/location-control-plane/locations/LOC-CHILI-STABLE/CARD.json",
+      "sha256": "467ddddd030b46fd751ab180d0409efe235d1ab83a0edc8c7a8c8d23cd76700c"
+    },
+    {
+      "path": "world/location-control-plane/locations/LOC-CHINS-ROAD-COMMONS/CARD.json",
+      "sha256": "cc2746ad1ad81e7f656c82bf28fb0607b5d4ff70abb48a893c804ff1b8ba2187"
+    },
+    {
+      "path": "world/location-control-plane/locations/LOC-COMPACT-NEUTRAL-GROUNDS/CARD.json",
+      "sha256": "2ec93af39c7b6c9dd15c1c48e8645c862ddc24293bd5af91055f5b312c6fe5ec"
+    },
+    {
+      "path": "world/location-control-plane/locations/LOC-COUNTRY-CLUB-JACKSON/CARD.json",
+      "sha256": "5d683e52d8a7844d8fecbb61a6d01b2fc80668183abdf8bbe2588d43f78b7c92"
+    },
+    {
+      "path": "world/location-control-plane/locations/LOC-DK-HIGHLAND-STRONGHOLD/CARD.json",
+      "sha256": "411250d5afbfa80fcccd11be9062a24898d36543c36d737fbb5202cfc175a903"
+    },
+    {
+      "path": "world/location-control-plane/locations/LOC-DK-MUD-HILL/CARD.json",
+      "sha256": "a0a40745fc1bd80958ab7e598bd12c17cfa35abc0c76a9b34d3947c224a32574"
+    },
+    {
+      "path": "world/location-control-plane/locations/LOC-LEAGUE-ARCHIVE/CARD.json",
+      "sha256": "69f0e2f9df1987aa72b1455e7284bed146bf76ecf34cf24617ad428ef412ab19"
+    },
+    {
+      "path": "world/location-control-plane/locations/LOC-LEAGUE-CHAMBER/CARD.json",
+      "sha256": "54dea38ead7662dfe7dbf3b36e0118f27f1b1ff729c56d640ad32a7d43e8282e"
+    },
+    {
+      "path": "world/location-control-plane/locations/LOC-LLC-BOARDROOM/CARD.json",
+      "sha256": "7bbe51cbe2ec522ec6507633f9e67e9b3294888c579c5a80d542d520de25928f"
+    },
+    {
+      "path": "world/location-control-plane/locations/LOC-LLC-STORM-CITY/CARD.json",
+      "sha256": "c55eb9aa14e6ac4e7dccb6c1725ea93e51abf49121796adec2ee66b878582452"
+    },
+    {
+      "path": "world/location-control-plane/locations/LOC-MUD-DOGS-SWAMP/CARD.json",
+      "sha256": "84fecfef374f34005beda99ff294fe8ad6d898c186fc689db043e862e14ee4cc"
+    },
+    {
+      "path": "world/location-control-plane/locations/LOC-PITTSYS-BOOK/CARD.json",
+      "sha256": "1833245e58776fc53c8975e13b755f7afdf25b8d6bf4b14816d96214f678065d"
+    },
+    {
+      "path": "world/location-control-plane/locations/LOC-RED-RUINS/CARD.json",
+      "sha256": "7b74097630d015ee780782bcce2002db34940e528809113e0df4c357cbbd1284"
+    },
+    {
+      "path": "world/location-control-plane/locations/LOC-RED-SLOB-ALPINE-ROUTE/CARD.json",
+      "sha256": "f2d14dac9bd57347b5202c7607cbcc37ad74ea6408e3068286f1fdab578abb8e"
+    },
+    {
+      "path": "world/location-control-plane/locations/LOC-SLOB-FOOTHILL-CAMP/CARD.json",
+      "sha256": "82c5b8b37768bf1267a2b809f012df83ec3386396563a84cfbb74aa5bbf984fe"
+    },
+    {
+      "path": "world/location-control-plane/locations/LOC-SOUTHERN-SPEEDWAY/CARD.json",
+      "sha256": "7e67182a04a6f96b7ba0bdc53ee426417d95d1eb51366e59bfaa35e27efdf728"
+    },
+    {
+      "path": "world/location-control-plane/locations/LOC-STORM-BOWL/CARD.json",
+      "sha256": "50ca9b021dc0c0e5bc3e9855cc30a596fb8e1d62ae1304d94c9af0cdb0c97a72"
+    },
+    {
+      "path": "world/location-control-plane/locations/LOC-TDS-CHILI-SHARED-MARCH/CARD.json",
+      "sha256": "7a55315137603808cf511b029bbb8aadb3b27137ea8cc367acf430307d4c71e6"
+    },
+    {
+      "path": "world/location-control-plane/locations/LOC-TDS-WATERFALL-TEMPLE/CARD.json",
+      "sha256": "603f71b6f022b6fc89e2b8998adbf0791b7117066a9a4bc6790a499f04f81c10"
+    },
+    {
+      "path": "world/location-control-plane/locations/LOC-TRADE-JEDI-MOUNTAIN-BASE/CARD.json",
+      "sha256": "c06bebacc988d9774a9379590bfb36403eef33a5088ed8324e3d3c8226cdf310"
+    },
+    {
+      "path": "world/production/CANONICAL_WORLD_PLATE_SPATIAL_BLUEPRINT_V1.md",
+      "sha256": "ae34b049aedbfcb9903d8a10d54081d5f6d29ff32887e7f5812a699ace1554e7"
+    },
+    {
+      "path": "world/production/CANONICAL_WORLD_PLATE_SPATIAL_QA_V1.md",
+      "sha256": "a0d8f52584640b92c2e115e97bf492cf3237ad1804ec2dee1bcfef4d5bc3f1dc"
+    },
+    {
+      "path": "world/production/visual-packets/LOC-MUD-DOGS-SWAMP.json",
+      "sha256": "a8fec822d5528bd490590999cba015c451187e270d60fb71cd55874356a8fcf0"
+    },
+    {
+      "path": "world/production/visual-packets/LOC-TRADE-JEDI-MOUNTAIN-BASE.json",
+      "sha256": "0b20172dd2cfcfb9cbe9cde9198d0e37c2a7670a3446d84f4e3cccac56b7e8b0"
+    }
+  ]
+}

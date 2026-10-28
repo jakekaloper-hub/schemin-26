@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "decision": "ACCEPTED_FOR_TEXT_COMPANION",
+  "scope": "TEXT_COMPANION_ONLY",
+  "checks": {
+    "textAccuracy": "PASS",
+    "readingOrder": "PASS",
+    "visualDescription": "PASS"
+  },
+  "packetSha256": "ef2440b4c9b23b4c8dfe296602417bf6c90667828f6836be780d9384d44a5cda",
+  "sourcePdfSha256": "1fc322a3eb0e8b43499ee4556c715ba4c00a8c388e7a92a904954a35f0482124",
+  "reviewer": "/root/production_repairs — independent AI source reviewer",
+  "preparedBy": "/root/transcribe_week4 — AI agent; simulated Bullpen framing, no human or authenticated Director sign-off",
+  "acceptedPhysicalPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33
+  ],
+  "reviewMethod": "actual independent AI source review; Bullpen framing simulated",
+  "reviewLimits": "Bounded visible source text and visual descriptions; intrinsically occluded or indistinct decorative lettering is disclosed, not reconstructed. Historical source values and printed errors are retained. No canon, settlement, full accessibility, final PDF or human approval certification.",
+  "actualWork": "Reviewer viewed every physical page1–33 against author candidates and supplemental enlarged source crops16/33; independently rerendered all33 sourcePDF pages and confirmed exact PNG byte matches. Requested corrections were checked before final acceptance. OCR did not establish acceptance.",
+  "heldPages": [
+    {
+      "physicalPage": 16,
+      "reason": "Red Leopards hole2 golf scorecard numeral is malformed/ambiguous in source, independently confirmed in enlarged crop. No digit inferred.",
+      "requiredInput": "A legible authoritative source scorecard or explicit approved bounded transcription policy for this essential unreadable numeric cell."
+    }
+  ],
+  "evidence": {
+    "pageReviewLedgerSha256": "0a7d2773d0728a7e24ccc03f96068c39ddb87b4827b6a3b42d997cdca536270c",
+    "sourcePixelVerificationSha256": "f5d35c0572fdcd1b9e5f2ff2c76b95adc7ca67e4c9eeba26e2ceac9d83a43291",
+    "authorCandidateSha256": "37c8203fbea9052e0c7ad50214b153d1ba4301a7de182b58cd7b0391319fa959",
+    "supplementalViewedCrops": [
+      {
+        "file": "crop-16-top.png",
+        "sha256": "1b642fcb47aca3eff4245bea644fc48906a17ef8a8da933a5b64a023503c113c"
+      },
+      {
+        "file": "crop-33.png",
+        "sha256": "3931cd62b3725d931b9c974a46fd73cf1639b06b0ded3a9e74d0f437fe6c2190"
+      }
+    ]
+  }
+}
