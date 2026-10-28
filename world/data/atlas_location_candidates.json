@@ -1614,6 +1614,51 @@
         "Commissioner Atlas Phase 1 directive 2026-09-30",
         "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
       ]
+    },
+    {
+      "id": "CAND-AFTER-DARK-BROADCAST-HOUSE",
+      "working_name": "Commonwealth Broadcasting House",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "RECURRING_INSTITUTION",
+      "likely_physical_zone_ids": [
+        "REG-CENTRAL-BASIN"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "NON_MATCHUP"
+      ],
+      "activation_trigger": "Founder-approved site placement, access and sightline evidence, technology reconciliation and independent Atlas promotion",
+      "story_functions": [
+        "weekly late-night comedy",
+        "public open-air performance",
+        "historical fantasy-league satire",
+        "live studio audience"
+      ],
+      "technology_translation": "FUNCTIONAL_ANALOGUE",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [],
+      "prerequisites": [
+        "Validate exact civic-market site and Basin skyline landmark sightline",
+        "Validate pavilion access to established travel graph",
+        "Adjudicate functional broadcast and stage-lighting analogues",
+        "Validate weather, crew and world-state continuity",
+        "Independent Umpire and Founder canon approval"
+      ],
+      "inspiration": "Original Commonwealth studio borrowing live-event energy of college football pregame broadcasts and network variety performance without copying sets",
+      "canon_notes": [
+        "Roofed, open-sided live-performance pavilion; no enclosed soundstage",
+        "Real Central Basin urban backdrop must be independently grounded before scene lock",
+        "Crew and audience are ontology-consistent inhabitants, not automatically owner characters",
+        "Atlas weather affects stage response; no automatic El Niño or scene-to-canon mutation",
+        "This candidate does not establish a city name, road, skyline building or modern electronic broadcast capability"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder After Dark set decisions 2026-10-28",
+        "productions/after-dark/P2D_ATLAS_SITE_RESOLUTION_PREVIS_2026-10-28.md",
+        "productions/after-dark/P2D_HARDENING_DECISION_AND_ACCEPTANCE_V1.md"
+      ]
     }
   ]
 }
