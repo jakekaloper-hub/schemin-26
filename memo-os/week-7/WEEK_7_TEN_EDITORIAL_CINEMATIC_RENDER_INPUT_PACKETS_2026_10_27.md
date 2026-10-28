@@ -64,6 +64,21 @@ Seven weeks into this strange Commonwealth season, the difference between triump
 
 The final moment mattered everywhere. At the jungle green, a putt rolled toward the smallest margin of the week. At the mountain stronghold, the wind delivered a less delicate conclusion. A Jedi kept his weapon on his belt; a hunter found his buck; the Leopard found space for a jumper; and a card player laid down five perfect cards. The Commonwealth did not have one kind of Week Seven. It had six.
 
+### P004 Commissioner original six-banner visual source override — 2026-10-27 late review
+The Commissioner supplied six EXACT result-banner screenshot PNGs in conversation, explicitly requiring their **original team icons/logos and typography**, not model-regenerated substitutes. This latest instruction supersedes P004 text that says not to use the six banner graphics. Keep the physical single-board staging at `LOC-TDS-WATERFALL-TEMPLE`, but mount all six original banners as image assets on one real-world scoreboard board. Do not flatten them into generic text rows or recreate logos. Original screenshots must be preserved pixel-faithfully under proportional resize, no invented replacement icons, winners, wording, or placements.
+
+**Input order and filenames, each originally shown in conversation:**
+1. `Screenshot 2026-10-27 at 23.02.26.png`: Slob 155.92 vs LLC 111.21
+2. `Screenshot 2026-10-27 at 23.02.43.png`: Chili 134.92 vs Mud Dogs 108.72
+3. `Screenshot 2026-10-27 at 23.02.52.png`: Chins 116.60 vs ObiWan 94.75
+4. `Screenshot 2026-10-27 at 23.02.58.png`: El Niño 133.75 vs DK 122.67
+5. `Screenshot 2026-10-27 at 23.03.10.png`: TDS 141.42 vs Duckhook 141.74
+6. `Screenshot 2026-10-27 at 23.03.19.png`: Red Leopards 148.53 vs HMB 137.02; historical GOTW iconography preserved as photographed.
+**Exact source check:** These filenames were read as 888×250, 804×238, 830×240, 728×228, 1182×160, and 1190×158 pixels respectively. No claim they are already ingested into GitHub asset storage.
+
+**Production proof candidate in ChatGPT container:** `SCHEMIN_26_W07_P004_SIX_ORIGINAL_BANNERS_REVIEW.png`; 1024×1536 master; locally computed SHA256 `fe38e195d15ed6bcc83e7a80a7b1b2ce2edcb4e19b18f4bedb9045c7644f0c44` for the first composite before final masthead adjustment; current output needs fresh hash/archival receipt. Composite reuses banner image pixels, a physically staged board and an atmospheric blurred jungle-golf backdrop, with temporary TDS Waterfall Temple plaque; it is NOT yet Founder-approved nor independently mobile certified.
+**QA:** compare all six subimages directly to original uploads, verify orientation/order/data/emblems and absence of inventing a Country Club institution. The existing underlying backdrop is visual atmosphere only; final image and at 390px must undergo Founder review. Do not claim live autonomous Bullpen Director or independent Umpire meeting.
+
 ## FOLIO P004 — Scoreboard: Six Games, Six Receipts
 **2026-10-27 Commissioner direction / active P004 staging:** Use the TDS Waterfall Temple golf-property setting established by P005–P007 and P001. This supersedes the historical registrar-table / Archive staging for THIS folio; do not alter the archived exact-copy record or make a new permanent Atlas location. The scoreboard is an event-specific temporary fixture placed on firm ground near the small green, with the waterfall screen-left and temple stone/jungle behind. No character portraits or six individual poster banners.
 
