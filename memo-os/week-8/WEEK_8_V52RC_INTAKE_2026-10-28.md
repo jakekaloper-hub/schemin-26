@@ -25,7 +25,7 @@
 - **Week 7:** six ESPN-decided matchups, scores match the prior October 27 preflight and reported winner states. ESPN may still correct past scores; no late-correction watch was certified.
 - **Week 8:** six matchups all `UNDECIDED` and 0.00–0.00; no winners are inferred.
 - **Standings:** 12 unique teams; eight at 4–3, two at 3–4, two at 2–5; league wins and losses balance.
-- **Week 7 transactions:** 39 records, unchanged count from October 27; structural checks passed (source `mTransactions2`, `truncated=false`, 0 dropped timestamps). This capture does not itself prove exact historical row-diff continuity.
+- **Week 7 transactions:** 39 records. A full-row comparison against the preserved October 27 normalized snapshot (39 rows, same structured source `mTransactions2`) found **0 additions, 0 removals and 0 changed rows**; 39 unchanged. The previous/current matchup scores, standings and Week 8 fixture rows also match. See [reconciliation diagnostic](./WEEK_7_TO_8_EVIDENCE_RECONCILIATION_2026-10-28.json). This is a diagnostic, not independent Fact Lock or accepted source freshness.
 - **Week 8 transactions:** **8** returned rows (the Oct 27 preflight reported **0**). **3** add/complete, **3** waiver/complete, **1** waiver/failed and **1** waiver/unknown. The latter two are **not** completed acquisitions.
 - The prior Oct 27 baseline is a report of zero rather than a retained full transactional evidence stream: `0 → 8` is a **reported count delta**, not a certified full-row diff or proof of comprehensive source history.
 - ESPN structured transaction window reports `date_bounds_kind=unavailable`; do not infer exact date-window coverage from a nontruncated count alone.
