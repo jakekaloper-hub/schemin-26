@@ -1,0 +1,42 @@
+{
+  "schema": "schemin26.evidence_reconciliation.v1",
+  "run_id": "S26-MEMO-W08-20261028-AM",
+  "observed_at_utc": "2026-10-28T13:08:47.992Z",
+  "class": "diagnostic_only_not_independent_QA",
+  "old": {
+    "path": "memo-os/week-7/WEEK_7_PROVIDER_NORMALIZED_EVIDENCE_2026-10-27.json",
+    "blob_sha": "34c982c5a5b23630dad89b3f61300b34061d08fb",
+    "week7_transactions": 39
+  },
+  "new": {
+    "path": "memo-os/week-8/WEEK_8_PROVIDER_NORMALIZED_EVIDENCE_2026-10-28.json",
+    "blob_sha": "76b3e3032b6294be40dda2ab9b0e88e7a332d767",
+    "week7_transactions": 39,
+    "week8_transactions": 8
+  },
+  "week7_transaction_full_row_comparison": {
+    "comparable_source": true,
+    "source": "mTransactions2",
+    "added": [],
+    "removed": [],
+    "changed": [],
+    "unchanged": 39,
+    "status": "ROW_COMPARISON_COMPLETE_NO_CHANGES_NOT_STEWARD_APPROVED"
+  },
+  "week7_result_matchup_identity_score_winner_equal": true,
+  "week8_fixture_identity_score_winner_equal": true,
+  "standings_season_record_points_equal": true,
+  "week8_previous_transactions": {
+    "prior_summary_count": 0,
+    "now_count": 8,
+    "delta_kind": "count_only_prior_rows_not_retained"
+  },
+  "provider_time_boundary": "Direct ESPN gateway at 06:07Z is earlier than today's adapter evidence and does not validate later transactions.",
+  "limitations": [
+    "Row equality does not prove provider authenticity or source freshness",
+    "No independent Data Release Steward acceptance",
+    "No independent source byte preservation certification",
+    "Week8 delta is count-only, not a historical full-row comparison",
+    "No Fact Lock or canonical snapshot promotion"
+  ]
+}
