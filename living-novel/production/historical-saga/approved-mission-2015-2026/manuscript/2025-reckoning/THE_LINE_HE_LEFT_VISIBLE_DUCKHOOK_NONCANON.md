@@ -131,7 +131,7 @@ The pupil knelt on the floor. He laid the pages beside the dust mark, drew a fre
 
 A steward entered before the boy had finished. The steward wore a silver measuring badge and a coat that had been brushed so thoroughly its age was difficult to guess. He carried a packet of paper sealed with the Hall's lesser mark.
 
-“The practice space is required tomorrow,” he said.
+“The practice space is required before the final,” he said.
 
 “By whom?”
 
