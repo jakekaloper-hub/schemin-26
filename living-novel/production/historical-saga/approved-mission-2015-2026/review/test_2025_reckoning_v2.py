@@ -23,7 +23,7 @@ REQUIRED_IDS = ("HIST-2025-SEMIFINAL-1", "HIST-2025-SEMIFINAL-2", "HIST-2025-CHA
 
 
 def sections(document: str):
-    parts = re.split(r"(?=^## [IVX]+\\. )", document, flags=re.M)
+    parts = re.split(r"(?=^## [IVX]+\. )", document, flags=re.M)
     found = []
     for part in parts:
         if part.startswith("## "):
@@ -33,7 +33,7 @@ def sections(document: str):
 
 
 def git_blob_sha(data: bytes) -> str:
-    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\\0" + data).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest()
 
 
 class Historical2025PittsV2(unittest.TestCase):
@@ -48,7 +48,7 @@ class Historical2025PittsV2(unittest.TestCase):
 
     def test_eight_owner_scenes_in_order(self):
         self.assertEqual(len(self.new_parts), 8)
-        ids = [re.match(r"^## ([IVX]+)\\.", h).group(1) for h, _ in self.new_parts]
+        ids = [re.match(r"^## ([IVX]+)\.", h).group(1) for h, _ in self.new_parts]
         self.assertEqual(ids, ["I", "II", "III", "IV", "V", "VI", "VII", "VIII"])
         povs = [h.rsplit(" — ", 1)[-1] for h, _ in self.new_parts]
         self.assertEqual(povs, REQUIRED_POVS)
@@ -84,9 +84,9 @@ class Historical2025PittsV2(unittest.TestCase):
                     self.assertIn(f"{point:.2f}", self.assembled)
 
     def test_knowledge_cutoff_and_no_retired_pov(self):
-        self.assertNotRegex(self.new_parts[2][1], r"\\b(?:161\\.07|109\\.56)\\b")
-        self.assertNotRegex(self.assembled, r"\\b(?:Edrin|Edin|Master Oren)\\b")
-        self.assertNotRegex(self.assembled, r"^## [IVX]+\\..*— (?:El Niño|Manning)\\s*$")
+        self.assertNotRegex(self.new_parts[2][1], r"\b(?:161\.07|109\.56)\b")
+        self.assertNotRegex(self.assembled, r"\b(?:Edrin|Edin|Master Oren)\b")
+        self.assertNotRegex(self.assembled, r"^## [IVX]+\..*— (?:El Niño|Manning)\s*$")
 
     def test_protected_hard_chapter_blob_unchanged(self):
         self.assertEqual(git_blob_sha(HARD_CH1.read_bytes()), HARD_CH1_BLOB_SHA)
