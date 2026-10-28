@@ -52,7 +52,7 @@ def gate():
 class ChapterICausalCutV4Tests(unittest.TestCase):
     def test_protected_chapter_i_git_blob_exact(self):
         raw = CANON.read_bytes()
-        digest = hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\\0" + raw).hexdigest()
+        digest = hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\0" + raw).hexdigest()
         self.assertEqual(digest, CANON_BLOB_SHA)
 
     def test_fused_score_pairs_and_succession_guard(self):
@@ -76,7 +76,7 @@ class ChapterICausalCutV4Tests(unittest.TestCase):
         self.assertIn("Three days after the results were certified", parts[3])
         self.assertIn("On the third evening after certification", parts[4])
         self.assertNotIn("Three days after the results were certified", parts[1])
-        self.assertIn("The public-notices", chapter.lower().replace("public notices","public-notices"))
+        self.assertIn("public notices", chapter.lower())
         # The standalone Austin scene is incorporated, with frontmatter excluded.
         standalone = read(AUSTIN_SCENE)
         start = standalone.index("## III.")
