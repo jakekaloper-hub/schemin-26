@@ -28,6 +28,24 @@ class RealArtifactGate(unittest.TestCase):
             "pages":[{"slot":1,"asset_path":"page1.png","asset_sha256":digest(png)}]}
 
     def test_valid_artifacts(self): self.assertEqual(inspect(self.data,self.root/"issue.json"),[])
+    def test_forward_native_week8_valid(self):
+        d=copy.deepcopy(self.data);d["week"]=8
+        self.assertEqual(inspect(d,self.root/"issue.json"),[])
+
+    def test_forward_native_week8_reject_legacy(self):
+        d=copy.deepcopy(self.data);d["week"]=8
+        png=self.root/"page1.png"
+        Image.new("RGB",(1024,1536)).save(png)
+        d["pages"][0]["asset_sha256"]=digest(png)
+        self.assertTrue(any("native 1080x1920 PNG rejected" in e for e in inspect(d,self.root/"issue.json")))
+
+    def test_week7_opt_in_reject_legacy(self):
+        d=copy.deepcopy(self.data);d["week"]=7;d["native_page_format"]="1080x1920"
+        png=self.root/"page1.png"
+        Image.new("RGB",(1024,1536)).save(png)
+        d["pages"][0]["asset_sha256"]=digest(png)
+        self.assertTrue(any("native 1080x1920 PNG rejected" in e for e in inspect(d,self.root/"issue.json")))
+
     def test_wrong_pdf_checksum(self):
         d=copy.deepcopy(self.data);d["published_artifact_sha256"]="0"*64
         self.assertTrue(any("actual SHA256" in s for s in inspect(d,self.root/"issue.json")))

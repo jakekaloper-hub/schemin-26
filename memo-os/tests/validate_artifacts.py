@@ -66,6 +66,16 @@ def inspect(manifest, manifest_path):
                 document.close()
             except Exception:
                 pass
+    # Forward issue masters: historical released candidates retain their original geometry.
+    # Explicitly opted-in candidates (including in-progress Week 7) and Week 8+
+    # must pass the native format gate; never infer a historical publication rewrite.
+    issue_week = manifest.get("week")
+    forward_native = (type(issue_week) is int and issue_week >= 8) or manifest.get("native_page_format") == "1080x1920"
+    if forward_native:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("memo_native_png", Path(__file__).resolve().parents[1] / "native_png_contract.py")
+        native = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(native)
     for page in pages:
         slot = page.get("slot")
         path = checked_path(page.get("asset_path"), f"page {slot}")
@@ -76,6 +86,11 @@ def inspect(manifest, manifest_path):
         try:
             with Image.open(path) as im:
                 im.verify()
+            if forward_native:
+                try:
+                    native.validate_png(path)
+                except native.NativePNGError as exc:
+                    errors.append(f"page {slot}: native 1080x1920 PNG rejected: {exc}")
             with Image.open(path) as im:
                 if im.width < 390 or im.height < 700:
                     errors.append(f"page {slot}: insufficient master dimensions")
