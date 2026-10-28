@@ -482,6 +482,73 @@ The injury report identifies who can play. The box score answers what they actua
 - **Current disposition:** MANUSCRIPT CANDIDATES WRITTEN; NFL AVAILABILITY SOURCE BACKING PASS for named Puka/Lamar/Bucky/Adams/Barkley/Jefferson contexts; player-score source evidence retrieved; COPYFIT HIGH-RISK; FINAL COPY LOCK HOLD; 2 STORYBOARDS PREPARED; NO ART GENERATED.
 
 
+## SPORTS DESK TWO-INSERT COPYFIT LOCK CANDIDATE — 2026-10-28
+**Precedence:** This section supersedes the earlier longer candidate prose for art-production copyfit. Exact wording remains provisional until independent sports-source/fact and Founder editorial signoff; do not overwrite previous text or claim final publication lock.
+**Format:** Two inserts, each 1024 × 1536 PNG, preceding the existing P026 Waiver Wire. Keep insert identities A/B until 30-folio manifest is explicitly migrated.
+
+### INSERT A — PRINT COPY / BREAKING & AVAILABLE
+**Masthead:** THE COMMONWEALTH SPORTS DESK
+**Rubric:** BREAKING & AVAILABLE
+**Lead headline:** THE INJURY REPORT DOESN'T SET THE LINEUP
+**Intro (24 words):** The medical report decides who is available. Fantasy managers decide whom to start. Week Seven proved how different those two questions can be.
+
+1. **OBIWAN JACOBY — PUKA CLEARED TO PLAY** (27 words)
+   Puka Nacua was active after a calf concern and delivered 22.0 fantasy points in ObiWan's lineup. The medical question was answered; the franchise still lost its matchup.
+
+2. **RED LEOPARDS — LAMAR OUT; FLOWERS DELIVERS** (32 words)
+   Lamar Jackson was reported inactive in Week Seven. Red's Zay Flowers nevertheless started and scored 30.7 fantasy points. The desk will not attribute a specific lineup decision to Jackson's absence without evidence.
+
+3. **SLOB ON MY DOBB — BUCKY ACTIVE, BENCH LOADED** (31 words)
+   Bucky Irving started and scored 27.4 points for Slob. Omar Cooper Jr. posted another 23.5 on the bench. Both numbers mattered to the story; only Irving's counted toward the starting total.
+
+4. **D0NKEY K0NG — ADAMS SIDELINED; MCBRIDE PRODUCES** (33 words)
+   With Davante Adams reported sidelined by a hamstring injury, DK's lineup received 28.1 points from Trey McBride. Adams appeared in the fantasy IR slot; that designation is not itself an NFL medical report.
+
+5. **MUD DOGS — BARKLEY RETURNS TO ACTION** (31 words)
+   Saquon Barkley was confirmed active for the Eagles' Monday game and started for Mud Dogs, scoring 15.8 fantasy points. His availability gave the franchise production, though Chili still won the week.
+
+6. **SEVEN DEADLY CHINS — JEFFERSON'S MODEST RETURN** (30 words)
+   After ankle-related availability reporting, Justin Jefferson started for Seven Deadly Chins and scored 8.4 fantasy points. This was a modest statistical contribution, not an absence; the franchise nevertheless beat ObiWan.
+
+**Footer attribution:** `NFL team/inactives reporting, Oct. 19–26, 2026 · ESPN/Flaim, Week 7 fantasy lineups and points`. Full URL citations belong in editorial/source ledger, not microprint. No invented NFL quotation or medical diagnosis.
+
+### INSERT B — PRINT COPY / STOCK UP, STOCK DOWN
+**Masthead:** THE COMMONWEALTH SPORTS DESK
+**Rubric:** STOCK UP / STOCK DOWN
+**Lead headline:** THE POINTS THAT DID—AND DID NOT—COUNT
+**Intro (24 words):** The box score reveals production; the lineup decides which numbers count. Here are six franchise stories from both sides of that divide.
+
+1. **THE LLC — TWO CONTRIBUTORS, ONE LOSS** (30 words)
+   Jonathan Taylor scored 20.8 and Drake London added 19.6 in The LLC's starting lineup. Both delivered meaningful production, but the full roster still fell short against Slob on my Dobb.
+
+2. **THREE DREADED SNAKE — THE STARS DID THEIR PART** (30 words)
+   Caleb Williams posted 27.62 and Javonte Williams contributed 25.0 as starters for Three Dreaded Snake. Those strong performances could not prevent a loss to Dr. Duckhook by just 0.32 points.
+
+3. **THE CHILI CHEESERS — TWO PILLARS OF THE WIN** (30 words)
+   Amon-Ra St. Brown started for 25.3 points, with Cam Skattebo contributing 21.8. Chili's Week Seven win had genuine production behind it; no fictional heroics are needed to explain those contributions.
+
+4. **HIS MAJESTY'S BLOOD — POINTS LEFT ON THE BENCH** (31 words)
+   Jaxon Smith-Njigba delivered 32.5 as a starter, while Jameson Williams scored 26.1 on the fantasy bench. The second figure did not count toward Blood's starting total or its loss to Red.
+
+5. **EL NIÑO — PRODUCTION THROUGH THE STORM** (30 words)
+   George Pickens started for 15.7 and Chase Brown added 10.9 in El Niño's winning lineup. Those totals supported the victory over D0nkey K0ng without, by themselves, explaining the entire upset.
+
+6. **DR. DUCKHOOK — EVERY CONTRIBUTION COUNTS** (28 words)
+   Jahmyr Gibbs supplied 21.2 points as a starter. Marvin Harrison Jr.'s 7.6 stayed on Duckhook's bench. The franchise beat Three Dreaded Snake by 0.32—proof that lineup accounting matters.
+
+**Footer attribution:** `ESPN/Flaim, Week 7 fantasy player details · Starting and bench points distinguished`. Do not depict benches as actual counted fantasy results.
+
+### Deterministic source/type hierarchy and physical copy budget
+- **Top masthead:** 10–12% page height, with readable kicker and title, no second giant page title.
+- **Lead image/anchor:** 25–30%, one dominant news panel per page; art and approved photography source only, no synthetic recognizable real-NFL player as an authentic news photo.
+- **Six briefs:** two columns × three briefs, each with team label, 4–7-word heading and 27–35-word copy; approx 155–190 body words per page including intro.
+- **Caption/source strip:** separate 5–7%; no tiny URL walls inside artwork.
+- **Typography:** deterministic typesetting; rough target 21–24 px body at 1024px, 25–30px labels, 32–40px section heads; visual test at 390px and reject if mobile illegible.
+- **Avoid story overlap:** Page A availability reports with fantasy implications; Page B scoring/bench distinctions. Existing Waiver Wire stays exclusive owner of completed transaction ledger; no reprinting league-wide final scores.
+- **Evidence gate:** previously retrieved Week7 ESPN/Flaim player details for all 12 teams, with individual players and starter/bench flags; injury-report references and dates recorded in previous section. Recheck temporal wording and factual ownership at render-time, particularly player injury statuses; no independent final Umpire signoff yet.
+- **Copyfit outcome:** All twelve briefs measured 27–35 words in preflight; actual pixel-safe composition still untested. Manuscript copyfit text length PASS, visual QA NOT RUN. Status: `EDITORIAL_COPYFIT_CANDIDATE`, not `PUBLISHABLE_COPY_LOCK`.
+
+
 ## FOLIO P026 — Waiver Wire: The Market Moves
 **NARRATIVE JOB:** Waiver desk.
 **CAMERA / STAGING / FOCAL HIERARCHY:** Market clerk, ledgers and sealed transactions, no invented player faces. Foreground focal object, middle-ground story consequence, background Atlas specificity. Scene must have a single visual thesis, not a generic empty text rectangle.
