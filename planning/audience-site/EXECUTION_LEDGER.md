@@ -44,3 +44,7 @@ Founder command: resume existing PR #237, maintain PR #236 upstream and Week 7 P
 **P6 — TEST/RELEASE HOLD:** This execution used read-only GitHub metadata/source inspection and wrote this evidence-only ledger update. No source-code repair, new CI run, browser tests, independent Umpire authentication, mainline merge or deployment verification is asserted.
 
 **P7 — DISPOSITION:** This is a partial gate reconciliation, not completion of P0–P7. Resume scoped implementation on PR #237 when an authenticated build/browser runtime is available. Mandatory next proof is current production browser smoke (desktop/390px), exact archive-release status and Week 7 release prerequisites; continue nondependent accessibility and layout repairs. Never silently promote publication.
+
+## 2026-10-28 — Reader keyboard accessibility repair
+
+Commit `d928f31c51b08dbe99b5cf6ee3405889f3cefad0` updates `productions/audience-site/src/app.js`: the illustrated memo page is keyboard-focusable, explicitly describes arrow-key operation, and processes Left/Right only while its own page region has focus. It preserves Previous/Next disabled boundary behavior and existing page selection, URL synchronization and saved position. A source readback/commit was completed. GitHub Actions workflow-run query and combined-status query at this head returned zero results immediately after the commit; **no CI pass is claimed**. Independent desktop/mobile browser acceptance remains outstanding. This limited accessibility repair does not certify website publication readiness.
