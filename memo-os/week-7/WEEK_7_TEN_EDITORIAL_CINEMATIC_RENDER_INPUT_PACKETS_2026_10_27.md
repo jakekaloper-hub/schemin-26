@@ -425,6 +425,63 @@ Source authority: Founder statement reproduced exactly on a deterministic notice
 **QA before render:** Verify 12 team names and 12 player IDs in source snapshot, reconcile temporality of injury stories, write six source-backed short articles per page, run copyfit, independent news accuracy challenge and visual placement. Page count change still proposal; Founder has requested two extra pages, final reindex requires manifest/approval review.
 **Status:** DATA DISCOVERY PASS for twelve Week7 roster/player snapshots; STORY ASSIGNMENT CANDIDATE; INJURY SOURCE PARTIAL; MANUSCRIPT/COPYFIT HOLD; PAGE MASTER NOT GENERATED.
 
+## COMMONWEALTH SPORTS DESK — TWO-PAGE MANUSCRIPT / SOURCE / STORYBOARD / COPYFIT GATE (2026-10-28)
+
+**Gate:** manuscript developed; source-backed working draft; ready for artistic previsualization and independent QA, NOT copy-locked, NOT rendered, NOT renumbered. Insert A+B immediately following original P025, preceding original P026. Existing other folio IDs remain unchanged until manifest approval. The "Inklings" judgment below is an internal literary counterweight exercise, not a real outside author meeting.
+
+### INSERT A — THE COMMONWEALTH SPORTS DESK: BREAKING & AVAILABLE
+
+**Visual hierarchy:** large masthead `THE COMMONWEALTH SPORTS DESK`; strapline `BREAKING & AVAILABLE`; decisive lead `THE INJURY REPORT DOES NOT SET THE LINEUP`; large central news plate Puka Nacua, verified active; six franchise news briefs as engraved newspaper plates; one legible source footer. This is a sports-news page, not a scoreboard or a second waiver ledger.
+
+**Exact candidate reader-facing lead (39 words):**
+The Commonwealth's injury desk operates between the medical report and the fantasy lineup. A questionable designation can become an active player, and an absence can redraw an entire franchise's options. Week Seven supplied evidence on both sides of the ledger.
+
+**Six source-grounded franchise briefs (work-copy; 6 different fantasy owners):**
+
+1. **OBIWAN JACOBY | PUKA GETS THE GREEN LIGHT.** Puka Nacua emerged from a calf-related questionable designation and was officially active for the Rams. ObiWan started him and collected **22.0 fantasy points**. Availability did not rescue the matchup, but it saved a key roster spot from an absence.
+2. **RED LEOPARDS | THE RAVENS ARE WITHOUT LAMAR.** Lamar Jackson was inactive for Baltimore in Week Seven. Red's league roster included him, but the decisive Red scoring came elsewhere: Zay Flowers started and posted **30.7 fantasy points**. Do not claim a benching decision or injury-caused fantasy loss without verified lineup detail.
+3. **SLOB ON MY DOBB | BUCKY ANSWERS PRESENT.** Bucky Irving appeared on the Week Seven active list, then started for Slob and produced **27.4 points**. Meanwhile, Omar Cooper Jr. scored **23.5 on the fantasy bench**—a reminder that reporting availability and choosing optimal starters are different jobs.
+4. **D0NKEY K0NG | ADAMS OUT, MCBRIDE ANSWERS.** Rams reporting placed Davante Adams out for an estimated **six to ten weeks** with a hamstring injury. DK's historical Week Seven roster contained Adams in a fantasy IR slot; Trey McBride started and delivered **28.1**. The IR slot is a fantasy designation, not independent medical proof.
+5. **MUD DOGS | BARKLEY RETURNS UNDER THE LIGHTS.** The Eagles confirmed Saquon Barkley active Monday following a hamstring absence. Mud Dogs started him for **15.8 fantasy points**. That return was real, but it could not change a week in which the Dogs were already being measured against Chili.
+6. **SEVEN DEADLY CHINS | JEFFERSON'S QUIET REPORT.** Justin Jefferson appeared in Week Seven after ankle-related practice coverage and started for Chins. His **8.4 fantasy points** tell a different story from the pregame attention. Do not misstate Jefferson as inactive; older conflicting practice-status snapshots are not final game availability.
+
+**Sources and exactness:** Player fantasy starts/bench/point figures from Flaim ESPN league 1417621, 2026, Week7 `get_matchups(detail="players", team_id=1,2,3,5,10,11)`; Week7 historical roster snapshots checked separately. Dated real NFL reporting: Rams Oct23 Puka questionable https://www.therams.com/news/rams-injury-report-week-7-2026-at-raiders-puka-nacua-trent-mcduffie-questionable-nate-landman-out ; NFL Oct25 Puka active https://amp.nfl.com/news/rams-wr-puka-nacua-calf-active-sunday-game-vs-raiders ; CBS Oct25 Lamar inactive https://www.cbssports.com/nfl/news/nfl-week-7-inactives-injury-tracker-latest-news-updates/live/ ; theScore Oct25 Bucky active https://www.thescore.com/nfl/news/3629831/nfl-week-7-inactives-see-whos-in-and-out ; Rams Oct19 Adams injury https://www.therams.com/news/rams-injury-updates-cardinals-week-6-2026-blake-grupe-torn-acl-out-for-season-poona-ford-davante-adams-kobie-turner-trent-mcduffie-raiders ; Philadelphia Eagles Oct26 Barkley active https://www.philadelphiaeagles.com/news/cowboys-vs-eagles-inactives-saquon-barkley-jalyx-hunt-2026-week-7-monday-night-football ; NBC Oct23 Jefferson clear https://www.nbcsports.com/fantasy/football/player-news/2026-10-23/justin-jefferson-ankle-cleared-to-face-colts . Never use official NFL news to imply points; and never use fantasy points to infer physical health.
+
+**Page A storyboard:** 35mm cinematic medium-wide Commonwealth Press Gallery viewed past ink-stained reporter's desk. Dominant backlit lead news placard/photo **area reserved** (no fabricated athlete likeness); wall of hanging six broadsheets legibly assigned to six fantasy franchises. Warm lamp front, cool dawn window back, newsroom urgency, natural paper shadow. Camera reveals a live editorial investigation, not a fantasy lineup spreadsheet; background continuity with Week6 Sports Desk. Lower-page source strip. Typeset exact brief text as deterministic printed overlays; no literal generative-text newspaper gibberish. Six brief blocks must not obscure a lead subject.
+
+**Page A copyfit:** Candidate six briefs about 36–50 words each plus 39-word intro and title. **HIGH RISK for 1024×1536**, requiring production copy reduction to <=28–34 words/brief and <=25-word lead, or larger physically integrated side-by-side news spread while retaining legibility at 390px. This is a mandatory redline before render; do not shrink type to compensate.
+
+### INSERT B — THE COMMONWEALTH SPORTS DESK: STOCK UP / STOCK DOWN
+
+**Visual hierarchy:** same newsroom identity, different reverse camera facing analyst desk and projection wall. Large `STOCK UP / STOCK DOWN` coverline; hero `THE POINTS THAT DID—AND DID NOT—COUNT`; six individually sourced fantasy franchise beats, no full game-score recap. Focus standout production, disappointments, bench opportunity and lineup implications.
+
+**Exact candidate reader-facing lead (38 words):**
+The injury report identifies who can play. The box score answers what they actually did. From unexpected explosions to useful numbers left on the bench, Week Seven punished assumptions and rewarded the owners who could separate reputation from production.
+
+**Six source-grounded franchise briefs:**
+
+1. **THE LLC | PRODUCTION WITHOUT THE PAYOFF.** Jonathan Taylor started and scored **20.8**, while Drake London contributed **19.6**. Neither was a no-show. The LLC nevertheless lost to Slob, which makes this a story about roster-wide balance rather than blaming the two players who delivered.
+2. **THREE DREADED SNAKE | TWO HANDS ON THE WHEEL.** Caleb Williams started for **27.62**, and Javonte Williams added **25.0**. Both supplied substantial production; the franchise still lost by **0.32 points**. The evidence doesn't support describing either player as a liability.
+3. **THE CHILI CHEESERS | REAL CONTRIBUTIONS, NO MIRACLE REQUIRED.** Amon-Ra St. Brown posted **25.3** and Cam Skattebo added **21.8** from starting positions. Chili's winning week had two reliable pillars; this page records their work rather than replaying the swamp narrative.
+4. **HIS MAJESTY'S BLOOD | THE BENCH HAS A VOICE.** Jaxon Smith-Njigba started for **32.5**, but Jameson Williams logged **26.1 on the bench**. Only the first total contributed to the actual starting lineup. It is a missed-starting-opportunity story, not an invented re-scored victory.
+5. **EL NIÑO | THE QUIET PIECES OF AN UPSET.** George Pickens contributed **15.7**, and Chase Brown **10.9** as starters. Their contributions mattered to El Niño's winning week, although neither individual line explains the entire result. Do not invent the larger decisive player without checked full scoring data.
+6. **DR. DUCKHOOK | EVERY FRACTION HAD A WITNESS.** Jahmyr Gibbs started for **21.2**. Duckhook ultimately won by **0.32 points**, leaving little room to dismiss even an ordinary contribution. Marvin Harrison Jr.'s **7.6 on the bench** did not enter the starting total.
+
+**Player evidence:** Flaim ESPN league 1417621, 2026 Week7 `get_matchups(detail="players",team_id=4,6,7,8,9,12)`, successful initial snapshots; each was cross-mapped through league team IDs and started/bench flags. Do not reattribute an NFL player's real NFL team to a fantasy franchise. All points are league fantasy points, not NFL box-score points.
+
+**Page B storyboard:** reverse-angle 50mm view of the *same* Commonwealth gallery, focused on analyst's writing desk and six hanging report folios; oversized parchment feature sheet carrying two contrasting specimen stat lines, neutral graphic inset where photos would require actual licensed assets. Warm paper and gold highlights, deeper indigo shadows, newsroom staff indistinct and optional, no known owner portraits or fabricated NFL player likeness. Exact text digitally printed as publication typography, no generative letters. Page must feel like companion chapter, not duplicate page A.
+
+**Page B copyfit:** Six 31–49-word briefs and 38-word lead = **HIGH RISK** on a single 1024×1536 canvas if treated as fully illustrated full-width cards. Copy editor must cut to <=30–35 words per brief and <=25-word lead; reserve legible headline and source footer. Shorter deck/type hierarchy required.
+
+### Inklings / Editorial counterweight + independent release gates
+
+- **What the pages add:** Page A is dated real NFL availability plus fantasy franchise consequences; Page B is actual ESPN weekly performance and lineup decisions. P026 original Waiver Wire remains the transaction ledger and is NOT consumed by these two pages.
+- **Potential inaccuracies requiring challenge:** Avoid conflating calendar Week 7 and fantasy scoring week, NFL injury with ESPN IR slot, reported pregame status with official active/inactive, fantasy bench points with starter totals, or sports reporting with invented player motive.
+- **Issue architecture:** Commissioner's two-page expansion request establishes creative intent, but final numbering is deferred: temporary `INSERT-A` / `INSERT-B`; proposed official P026/P027 + original P026→P028, P027→P029, P028→P030 upon manifest migration.
+- **QA:** Fact table 12/12, attribution 12/12, injured statuses with dated source, all fantasy points exactly typed, 2 × 1024×1536 masters after copyfit; 390px proof; source photo legality; image and source provenance receipts; independent Umpire final signoff. Not claim of authenticated external Inklings authors or 12 human consultants.
+- **Current disposition:** MANUSCRIPT CANDIDATES WRITTEN; NFL AVAILABILITY SOURCE BACKING PASS for named Puka/Lamar/Bucky/Adams/Barkley/Jefferson contexts; player-score source evidence retrieved; COPYFIT HIGH-RISK; FINAL COPY LOCK HOLD; 2 STORYBOARDS PREPARED; NO ART GENERATED.
+
+
 ## FOLIO P026 — Waiver Wire: The Market Moves
 **NARRATIVE JOB:** Waiver desk.
 **CAMERA / STAGING / FOCAL HIERARCHY:** Market clerk, ledgers and sealed transactions, no invented player faces. Foreground focal object, middle-ground story consequence, background Atlas specificity. Scene must have a single visual thesis, not a generic empty text rectangle.
