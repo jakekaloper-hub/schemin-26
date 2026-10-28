@@ -58,3 +58,5 @@ jobs:
         run: python living-novel/os/evaluations/test_whole_book_convergence.py
       - name: Validate noncanonical Chapter I causal cut V2
         run: python living-novel/os/evaluations/test_chapter_i_causal_cut_v2.py
+      - name: Validate noncanonical Chapter I causal cut V3
+        run: python living-novel/os/evaluations/test_chapter_i_causal_cut_v3.py
