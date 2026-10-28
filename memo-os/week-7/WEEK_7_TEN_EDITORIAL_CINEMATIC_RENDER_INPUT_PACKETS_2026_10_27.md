@@ -299,6 +299,29 @@ The Commonwealth's Power Rankings measure more than one week. The Analyst must w
 **Restored layout:** cinematic illustrated Archive ranking slate as a physical artifact with controlled ranking rows, muted cream/gold typography, authentic Schemin header and no face/logo stand-ins; 1024×1536, actual 390px proof. One concise source-backed rationale per team. No generated numeric text, no generic stock graphic or ungrounded region map.
 **Production gate:** Actual editorial ranks still need explicit Analyst lock/counterweight review; no automatic transformation of ESPN standings seeds into Power Rankings. No self-invented numeric scoring formula is authorized. Visual Lead may create an ART-ONLY layout with placeholder-safe fields, but it must not be presented as finished P023. Existing issue remains P023 PENDING_ANALYST_LOCK / PLAYOFF_MODEL_HOLD / NO_RELEASE.
 
+### P023 no-render production gate — 2026-10-28, latest controlling receipt
+**Directive executed:** `/bullpen production --schemin-26 --week 7 --folio P023 --flaim-refresh --week6-ranking-baseline --analyst-methodology --twelve-team-fact-lock --inklings-review --production-packet --no-false-green --no-render`.
+**Fresh connected data:** ESPN league 1417621, season 2026 `get_league_info` and `get_standings` returned success, currentMatchupPeriod 8, playoffSeedingRule `H2H_RECORD`. 12 teams present. Results are standings facts, NOT a power-ranking algorithm.
+**12-team fact-locked input table (ESPN standings rank, team, W–L, PF):**
+1 | ObiWan Jacoby | 4–3 | 931.22
+2 | Red Leopards | 4–3 | 1002.31
+3 | His Majesty's Blood | 4–3 | 945.49
+4 | Slob on my Dobb | 4–3 | 1096.78
+5 | The Chili Cheesers | 4–3 | 1014.74
+6 | D0nkey K0ng | 4–3 | 1003.70
+7 | Dr. Duckhook | 4–3 | 983.86
+8 | Seven Deadly Chins | 4–3 | 931.78
+9 | Three Dreaded Snake | 3–4 | 900.59
+10 | El Niño | 3–4 | 971.03
+11 | The LLC | 2–5 | 976.82
+12 | Mud Dogs | 2–5 | 882.65
+**Baseline check:** `memo-os/week-6/WEEK_6_22_FOLIO_EXACT_COPY_SPLIT_REVIEW.md` Folios 16–17 is unequivocally marked COPYFIT_REVIEW and `Week Six review proposal`; it withholds arrows. Actual locally archived 23-page Week6 publication PDF inspected on authenticated Mac in prior mission; no published Week6 1–12 ranking has been positively identified. Therefore WEEK6_PUBLISHED_RANKING_BASELINE=UNVERIFIED; movement column MUST display `—` or be omitted, not draft-relative arrows.
+**Analyst method:** Under the canonical `memo-os/week-4/publication-readiness/WEEK_04_POWER_RANKINGS_LOCK.md`, rankings must weigh season scoring, form, matchup difficulty and editorial reasoning, distinct from standings. No approved numeric formula or authenticated Analyst-voted ranking order was located in consulted authority; do NOT substitute ESPN seed or the previously rejected synthetic power score. A preliminary writer's sequence may be discussed as a *candidate*, never printed as locked ranks.
+**Provisional narrative evidence for Inklings editorial consideration:** Slob's 155.92 in Week 7 and league-leading 1096.78 season PF; Chili 134.92 and 1014.74 PF; Red 148.53 and 1002.31 PF; Duckhook's 141.74–141.42 win, 0.32 margin; El Niño 133.75 against D0nkey K0ng 122.67; Chins 116.60 over ObiWan 94.75; HMB 137.02 loss to Red; TDS 141.42 loss despite close score; LLC 111.21 loss to Slob; Mud Dogs 108.72 loss to Chili. These are fact-derived story inputs, not completed literary board approval.
+**Inklings provisional method check:** P023 should provide short evidence-based rationales and a charming editorial voice, avoiding redundant P004 six-game scores or re-telling P003's cinematic narratives. This is assistant synthesis, NOT an actual authenticated Inklings meeting. Issue-wide Inklings final review remains outstanding.
+**Playoff-odds rule:** Current connected standings contain no numeric playoff probabilities. Repo `data-gateway/playoff-context` is NOT ACTIVE; its tests pass locally but real H2H tie and division qualification logic, complete validation and Umpire remain on hold. Do not print the rejected guessed percentages. Label `Playoff odds — pending verified model` if a candidate layout is needed.
+**Design and release:** Preserve established stylized League Archive ranking artifact, restrained hierarchy and phone-readable deterministic rows; no generic black spreadsheet, no fake portraits/logos. `no-render` explicitly enforced: no P023 PNG generated this run. `NO_FALSE_GREEN`: FACTS PASS / PUBLISHED WEEK6 MOVEMENT HOLD / ANALYST ORDER HOLD / ODDS MODEL HOLD / INKLINGS FINAL HOLD / VISUAL RENDER NOT RUN / PUBLICATION BLOCKED.
+
 ## FOLIO P024 — State of the Realm: The Divisions
 **NARRATIVE JOB:** State of the Realm.
 **CAMERA / STAGING / FOCAL HIERARCHY:** Wide regional Atlas table with three distinct cultural division overlays, not burger/pizza landscapes. Foreground focal object, middle-ground story consequence, background Atlas specificity. Scene must have a single visual thesis, not a generic empty text rectangle.
