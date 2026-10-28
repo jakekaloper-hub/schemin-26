@@ -29,7 +29,7 @@ EXPECTED_POVS = [
     "CHAR-JAKE-KALOPER", "CHAR-BEN-WHIPPLE",
     "CHAR-AUSTIN-BYARS", "CHAR-JAKE-KALOPER",
 ]
-HEADER = re.compile(r"(?m)^## (I|II|III|IV)\\. ([^\\n]+)$")
+HEADER = re.compile(r"(?m)^## (I|II|III|IV)\. ([^\n]+)$")
 
 def read(path):
     return path.read_text(encoding="utf-8")
@@ -52,14 +52,14 @@ def owner_gate():
 class ChapterICausalCutV3Tests(unittest.TestCase):
     def test_original_hard_canon_byte_guard(self):
         raw = CANON.read_bytes()
-        blob = hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\\0" + raw).hexdigest()
+        blob = hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\0" + raw).hexdigest()
         self.assertEqual(blob, CANON_BLOB_SHA)
 
     def test_fused_scores_and_belt_succession(self):
         text, audit = read(MANUSCRIPT), read(AUDIT)
         for pair in PAIRS:
             self.assertIn(pair, audit)
-            left, right = re.findall(r"\\d+\\.\\d+", pair)
+            left, right = re.findall(r"\d+\.\d+", pair)
             self.assertIn(left, text)
             self.assertIn(right, text)
         self.assertIn("No transfer of succession", text)
@@ -93,7 +93,7 @@ class ChapterICausalCutV3Tests(unittest.TestCase):
             self.assertEqual(gate.validate_rewrite_scene(packet), [])
             adversarial = dict(packet, pov_character_id="CHAR-EDRIN-VALE")
             self.assertIn("NON_OWNER_POV_FORBIDDEN", gate.validate_rewrite_scene(adversarial))
-        self.assertNotRegex(read(MANUSCRIPT), r"(?i)\\b(?:Edrin|Edin|Master Oren)\\b")
+        self.assertNotRegex(read(MANUSCRIPT), r"(?i)\b(?:Edrin|Edin|Master Oren)\b")
 
 if __name__ == "__main__":
     unittest.main()
