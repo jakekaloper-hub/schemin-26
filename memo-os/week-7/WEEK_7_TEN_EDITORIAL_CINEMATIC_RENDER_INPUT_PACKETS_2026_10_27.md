@@ -63,6 +63,40 @@ To everyone who makes this league what it is: the next chapter is never written 
 
 — The Editorial Desk
 
+### P002 DRAFT 2 — PROVISIONAL INKLINGS METHOD REVIEW / CURRENT RENDER COPY
+**Authority:** Commissioner explicitly requested improving the greeting with verified fantasy facts and all six established manuscripts, and subsequently invoked P002 --draft-2 rendering. This draft supersedes the earlier short editorial covenant for the current render review, not for final publication. Writer/Inkling lens synthesis is simulated editorial assessment, not an authenticated independent session.
+**Cross-folio distinction:** P002 provides a warm, institutionally voiced editorial reflection and competitive parity; P003 owns the illustrated six-location causal synopsis; P004 owns the full six-row scoreboard. One compact mention per matchup in P002 is authorized by the Commissioner's later request and supersedes the previous strict no-matchup-mentions constraint. P028's ending should remain distinct and not simply repeat the P002 close.
+**Source check:** Connected Week 7 ESPN/Flaim returned six DECIDED winners, numbers consistent with story packets. Seven-game 4–3 parity: eight teams based on October 27 normalized standings. Do not present fictional golf/sports actions as literal ESPN results. Avoid unsupported claims of playoff clinches or seeds.
+**Copyfit:** This longer letter needs a page-specific measured text layout; prioritize editorial readability, restrained archive-desk still-life and masthead. No scoreboard table, six miniature graphics or generic invented owner portrait.
+**Final Inklings pass:** Still required at issue assembly, not represented as performed.
+
+#### CURRENT PROVISIONAL RENDER MANUSCRIPT
+Seven weeks into this season, gentlemen, and the Commonwealth has become a remarkably difficult place to predict.
+
+We entered the week with twelve owners, six matchups, and enough confidence to fill every corner of the Realm. We leave it with something considerably more entertaining: eight teams sitting at 4–3, rivalries growing sharper, and another reminder that reputations mean very little once the games begin.
+
+Consider what Week Seven gave us.
+
+Dr. Duckhook escaped Three Dreaded Snake by a mere 0.32 points—a margin so absurdly small that our authors could find no more fitting conclusion than one impossible putt. Elsewhere, El Niño turned a highland stronghold into a lesson in the dangers of mistaking the weather for something more sinister.
+
+Seven Deadly Chins delivered a rather convincing argument against ObiWan's confidence. Chili claimed the prize in Mud Dogs' own wetlands. Red Leopards added another chapter to a rivalry with the Belt Keeper, while Slob on my Dobb reminded The LLC that the man who looks least prepared may be holding the strongest hand.
+
+But beyond the individual victories, Week Seven revealed something more interesting about our league.
+
+No one has separated themselves from the pack. Even our most imposing characters have discovered that strength, reputation, and preparation offer no guarantees. The standings are crowded, the margins are tightening, and the owners who appeared comfortable a few weeks ago have plenty of company.
+
+That is what makes this Commonwealth worth chronicling.
+
+The fantasy results provide the facts. The characters, places, and stories give those facts a second life. Every week adds another chapter to a world built from the decisions, rivalries, victories, and occasional humiliations of twelve familiar competitors.
+
+To all twelve owners: thank you for continuing to make this league such an entertaining place to spend a season.
+
+Seven weeks are behind us. The Realm is nowhere near settled.
+
+And the next chapter belongs to whoever earns it.
+
+— The Editorial Desk
+
 ## FOLIO P003 — Opening Drive: The Week of the Last Move
 **NARRATIVE JOB:** Opening Drive.
 **CAMERA / STAGING / FOCAL HIERARCHY:** 35mm courier perspective through archive with six physically meaningful remnants of the week's encounters. Foreground focal object, middle-ground story consequence, background Atlas specificity. Scene must have a single visual thesis, not a generic empty text rectangle.
