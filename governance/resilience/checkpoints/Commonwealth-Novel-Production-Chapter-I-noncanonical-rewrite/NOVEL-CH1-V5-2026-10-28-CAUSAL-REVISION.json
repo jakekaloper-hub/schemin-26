@@ -4,7 +4,7 @@
   "project": "Schemin '26",
   "workflow": "Commonwealth Novel Production / Chapter I noncanonical rewrite",
   "status": "IN_PROGRESS_NONCANON_EDITORIAL_HOLD",
-  "stage": "V5 five-scene prose written and QA test wired; CI and independent review require fresh readback",
+  "stage": "V5 manuscript, automated regression and four workflow checks verified at exact precursor commit; independent literary review still BLOCKED",
   "parent_checkpoint": "NOVEL-CH1-V4-2026-10-28-CAUSAL-CONTINUATION",
   "repository": "jakekaloper-hub/schemin-26",
   "branch": "novel/noncanon-ch1-causal-proof-20261028",
@@ -68,8 +68,8 @@
     "protected_source_blob_matches": true,
     "write_readback_confirmed": true
   },
-  "ci_observation": "NOT YET VERIFIED at checkpoint staging; inspect exact last commit workflow runs.",
-  "review": "NO INDEPENDENT REVIEW OBSERVED; no Founder approval, no merge/publication.",
+  "ci_observation": "VERIFIED_SUCCESS at 998afc8111b9bd505e6ae4cf3c0b36e1af671fe8; this checkpoint readback update creates a newer commit requiring its own workflow check.",
+  "review": "ZERO independent reviews observed on PR #264 at verification. Separate independent review explicitly requested in comment #6480134912. NOT APPROVED.",
   "blockers": [
     "Atlas location/route acceptance",
     "independent Umpire/Author Council review",
@@ -83,5 +83,42 @@
   "evidence": [
     "https://github.com/jakekaloper-hub/schemin-26/pull/264",
     "https://github.com/jakekaloper-hub/schemin-26/blob/novel/noncanon-ch1-causal-proof-20261028/living-novel/production/full-rewrite-2026/2026-10-28-causal-cut/CHAPTER_I_THE_FIRST_ANSWER_CAUSAL_READING_CANDIDATE_V5.md"
-  ]
+  ],
+  "ci_verified_commit": "998afc8111b9bd505e6ae4cf3c0b36e1af671fe8",
+  "ci_verification": {
+    "checked_commit": "998afc8111b9bd505e6ae4cf3c0b36e1af671fe8",
+    "run_ids": [
+      {
+        "workflow": "Novel OS CI",
+        "id": 40765006943,
+        "conclusion": "success",
+        "job": 123086667670,
+        "v5_named_step": "success",
+        "v5_test_count": 4
+      },
+      {
+        "workflow": "Cross-Domain Authority CI",
+        "id": 40765007001,
+        "conclusion": "success"
+      },
+      {
+        "workflow": "Repository Merge Gate",
+        "id": 40765006999,
+        "conclusion": "success"
+      },
+      {
+        "workflow": "Bullpen Runtime CI",
+        "id": 40765007145,
+        "conclusion": "success"
+      }
+    ],
+    "urls": [
+      "https://github.com/jakekaloper-hub/schemin-26/actions/runs/40765006943",
+      "https://github.com/jakekaloper-hub/schemin-26/actions/runs/40765007001",
+      "https://github.com/jakekaloper-hub/schemin-26/actions/runs/40765006999",
+      "https://github.com/jakekaloper-hub/schemin-26/actions/runs/40765007145"
+    ],
+    "last_observed_pr_protected_changed_files": 0,
+    "source_memo": "Week 1 results are from prior-fused audit; no newly refreshed ESPN data."
+  }
 }
