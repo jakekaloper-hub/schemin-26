@@ -383,6 +383,9 @@ The shutters remain locked in the TDS jungle. A notice announces the book's retu
 **ADDITIONAL EXACT FOUNDER SOURCE QUOTE (mandatory deterministic overlay):** “The book will be back next week. Any bad mouthing or mentioning of the lines without dollars associated will warrant a ban for 3 weeks. The winningest gambler is still set at $250. That’s all, thanks.”
 **HARD HOLD:** machine location Central Basin vs Founder jungle setting; no invented gambling lines.
 
+### P025 production review candidate — 2026-10-28
+Source authority: Founder statement reproduced exactly on a deterministic notice overlay: “The book will be back next week. Any bad mouthing or mentioning of the lines without dollars associated will warrant a ban for 3 weeks. The winningest gambler is still set at $250. That’s all, thanks.” The storefront is a closed, chained, three-serpent-sign landmark within TDS's jungle / Waterfall Temple environment, not a claimed new registered Atlas location. Cinematic jungle waterfall, lamps and absurd three-week ban placard deliver visual humor. No odds or lines invented; $250 is the announcement's winningest-gambler figure, not a probability or verified payout. Rendered 1024×1536 portrait conversation review PNG: `SCHEMIN_26_W07_P025_PITTSYS_BOOK_REVIEW.png`. This PNG is a local conversation artifact, not yet committed to GitHub. Text and layout were visually inspected at native raster size; founder review, independent Umpire and publication QA remain NOT RUN. This note supersedes older P025 PLANNED/HOLD only as to review-candidate render availability; no promotion to approval.
+
 ## FOLIO P026 — Waiver Wire: The Market Moves
 **NARRATIVE JOB:** Waiver desk.
 **CAMERA / STAGING / FOCAL HIERARCHY:** Market clerk, ledgers and sealed transactions, no invented player faces. Foreground focal object, middle-ground story consequence, background Atlas specificity. Scene must have a single visual thesis, not a generic empty text rectangle.
