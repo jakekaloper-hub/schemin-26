@@ -6,6 +6,8 @@ on:
       - 'memo-os/tests/test_validate_issue.py'
       - 'memo-os/tests/validate_artifacts.py'
       - 'memo-os/tests/test_validate_artifacts.py'
+      - 'memo-os/native_png_contract.py'
+      - 'memo-os/tests/test_native_png_contract.py'
       - 'memo-os/tests/validate_evidence.py'
       - 'memo-os/tests/test_validate_evidence.py'
       - 'memo-os/tests/validate_character_provenance.py'
@@ -20,6 +22,8 @@ on:
       - 'memo-os/tests/test_validate_issue.py'
       - 'memo-os/tests/validate_artifacts.py'
       - 'memo-os/tests/test_validate_artifacts.py'
+      - 'memo-os/native_png_contract.py'
+      - 'memo-os/tests/test_native_png_contract.py'
       - 'memo-os/tests/validate_evidence.py'
       - 'memo-os/tests/test_validate_evidence.py'
       - 'memo-os/release-candidates/**'
@@ -37,7 +41,7 @@ jobs:
         run: python -m pip install --disable-pip-version-check pymupdf pillow
       - name: Run manifest and actual-artifact regressions
         working-directory: memo-os/tests
-        run: python -m unittest -v test_validate_issue.py test_validate_artifacts.py test_validate_evidence.py test_validate_character_provenance.py
+        run: python -m unittest -v test_validate_issue.py test_validate_artifacts.py test_validate_evidence.py test_validate_character_provenance.py test_native_png_contract.py
       - name: Validate all actual staged Memo release candidates
         run: |
           python - <<'PY'
