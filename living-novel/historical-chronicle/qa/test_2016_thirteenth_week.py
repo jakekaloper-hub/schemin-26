@@ -62,7 +62,7 @@ class WeekThirteen2016(unittest.TestCase):
 
     def test_substantive_original_fiction(self):
         self.assertGreaterEqual(len(self.story.split()),3800)
-        for line in ("An inventory of departures","The girl's","A victory that purchased nothing","The record that stayed open"):
+        for line in ("A place for the table","A gift with a condition","The difference that did not vanish","What a regular season could not finish"):
             self.assertIn(line.lower(),self.story.lower())
 
     def test_exclusive_owner_principal_pov(self):
@@ -76,7 +76,7 @@ class WeekThirteen2016(unittest.TestCase):
 
     def test_continuity_holds_not_fabricated_resolution(self):
         for text in ("unopened and undelivered","remained unpaid","cordon","great wheel remained still",
-                     "found key", "old timber claim", "frame remained unbuilt"):
+                     "leaf-shaped key", "old timber claim", "frame remained unbuilt"):
             self.assertIn(text.lower(),self.story.lower())
 
     def test_no_atlas_or_canon_promotion(self):
