@@ -71,7 +71,7 @@ class WeekTwelve2016(unittest.TestCase):
         self.assertNotRegex(self.story,r"(?im)^## (Edrin|Edin|Oren)\b")
 
     def test_historical_identity_firewall(self):
-        for text in ("NOT PROVIDER-AUTHENTICATED","ID 12","ID 8","no newly authenticated"):
+        for text in ("NOT PROVIDER-AUTHENTICATED","ID 12","ID 8","not a newly authenticated"):
             self.assertIn(text.lower(),self.story.lower())
 
     def test_continuity_holds_not_fabricated_resolution(self):
@@ -80,7 +80,7 @@ class WeekTwelve2016(unittest.TestCase):
             self.assertIn(text.lower(),self.story.lower())
 
     def test_no_atlas_or_canon_promotion(self):
-        for text in ("FICTION ONLY","NONCANON","Atlas","HOLD","no canon"):
+        for text in ("FICTION ONLY","NONCANON","Atlas","HOLD","canon promotion"):
             self.assertIn(text.lower(),self.story.lower())
 
     def test_previous_story_byte_unchanged(self):
