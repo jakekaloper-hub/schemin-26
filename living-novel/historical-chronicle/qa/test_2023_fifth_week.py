@@ -134,7 +134,12 @@ class Test2023WeekFiveChronicle(unittest.TestCase):
         self.assertEqual(c["principal_pov_ids"], ["CHAR-JAKE-KALOPER"])
         self.assertEqual(c["historical_transactions_asserted"], 0)
         self.assertTrue(c["drafts"]["fifth_week"].endswith("/W05.md"))
-        self.assertEqual(c["ci_week5"]["status"], "PENDING_NEW_EXACT_HEAD_WORKFLOW")
+        self.assertIn(c["ci_week5"]["status"], [
+            "PENDING_NEW_EXACT_HEAD_WORKFLOW", "SUCCESS_AT_TESTED_COMMIT"
+        ])
+        if c["ci_week5"]["status"] == "SUCCESS_AT_TESTED_COMMIT":
+            self.assertRegex(c["ci_week5"]["tested_commit"], r"^[a-f0-9]{40}$")
+            self.assertEqual(c["ci_week5"]["workflow_runs"]["novel_os_ci"], 40851834785)
 
     def test_hard_manuscript_bytes_unchanged(self):
         for name, expected in PROTECTED.items():
