@@ -23,7 +23,8 @@
   "output_digests": {
     "week10_manuscript_git_blob_sha": "18d43a58d240646322ab0245f82d688bc535a125",
     "other_output_files": "W10_SOURCE_QA_RECEIPT.md; CONTINUITY.json; test_2023_tenth_week.py; novel-os-ci.yml; compatibility tests W3–W9",
-    "git_commit_sha": "PENDING_AT_CREATION"
+    "git_commit_sha": "d3354f554fc176db6edd718964672862f3a4c645",
+    "commit_role": "verified source+manuscript+QA+continuity+regression code baseline; follow-up metadata commit must have its own exact-head CI evidence"
   },
   "evidence_refs": {
     "week10_manuscript": "living-novel/historical-chronicle/seasons/2023/weeks/W10.md",
@@ -31,7 +32,13 @@
     "qa": "living-novel/historical-chronicle/seasons/2023/weeks/W10_SOURCE_QA_RECEIPT.md",
     "regression": "living-novel/historical-chronicle/qa/test_2023_tenth_week.py",
     "previous_tested_head_ci": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/40884667075",
-    "actual_current_head_ci": "PENDING"
+    "actual_current_head_ci": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/40894325866",
+    "ci_runs": {
+      "novel_os_ci": 40894325866,
+      "cross_domain_authority": 40894325875,
+      "bullpen_runtime": 40894325832,
+      "repository_merge_gate": 40894326146
+    }
   },
   "coverage": {
     "regular_season_weeks_drafted": 10,
@@ -50,14 +57,15 @@
     "status": "NONCANON_HISTORICAL_ATLAS_HOLD"
   },
   "status": {
-    "technically_verified": "PENDING_NEW_HEAD_ACTIONS",
+    "technically_verified": "SUCCESS_AT_OBSERVED_TESTED_HEAD_d3354f55",
     "review": "NO_INDEPENDENT_EDITORIAL_REVIEW",
     "umpire": "NOT_ACCEPTED",
     "atlas": "UNAPPROVED",
     "founder": "NOT_APPROVED",
     "merge": "HOLD",
     "publication": "HOLD",
-    "authenticated_bullpen_session": "NOT_OBSERVED"
+    "authenticated_bullpen_session": "NOT_OBSERVED",
+    "caveat": "Exact-head CI evidence applies to d3354f55; later metadata commit requires fresh readback. Independent approval remains absent."
   },
   "next": [
     "Read back the exact new PR head, ensure named W10 and all previous Chronicle compatibility CI passed; fix any actual failure.",

@@ -276,12 +276,19 @@
     "fictional_consequence": "A wrong transport guarantee is publicly retracted despite lost leverage; a dry-ground rig fails without a passenger; a bounded voluntary pay-and-test undertaking funds limited ward heating but not river passage, creditor consent, or far-bank representation. Jake's proposed record becomes 3–7."
   },
   "ci_week10": {
-    "status": "PENDING_GITHUB_ACTIONS_EXACT_HEAD",
+    "status": "SUCCESS_AT_OBSERVED_TESTED_HEAD",
     "suite": "living-novel/historical-chronicle/qa/test_2023_tenth_week.py",
     "cases": 14,
     "independent_umpire": "NOT_OBTAINED",
-    "tested_commit": null,
-    "workflow_runs": {},
-    "warning": "Draft is not technically PASS until exact-head workflow readback. No independent Author/Atlas/Umpire/Founder approval."
+    "tested_commit": "d3354f554fc176db6edd718964672862f3a4c645",
+    "workflow_runs": {
+      "novel_os_ci": 40894325866,
+      "cross_domain_authority": 40894325875,
+      "bullpen_runtime": 40894325832,
+      "repository_merge_gate": 40894326146
+    },
+    "named_week10_step": "success",
+    "prior_week3_to_week9_compatibility": "success",
+    "warning": "CI pass at code commit d3354f55 only; this metadata follow-up needs separate exact-head CI readback. No independent Author/Atlas/Umpire/Founder acceptance."
   }
 }
