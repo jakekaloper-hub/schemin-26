@@ -35,7 +35,7 @@ HEADINGS = [
 
 def git_blob(path):
     raw = path.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\\0" + raw).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\0" + raw).hexdigest()
 
 
 def owner_firewall(reg):
@@ -52,7 +52,7 @@ class Test2022TurningFrameV1(unittest.TestCase):
         cls.reg = json.loads(REGISTER.read_text(encoding="utf-8"))
         cls.sports = json.loads(SCORES.read_text(encoding="utf-8"))
         cls.room = next(x for x in json.loads(ROOM.read_text(encoding="utf-8"))["story_room"] if x["season"] == 2022)
-        cls.parts = re.split(r"(?m)^## [IVX]+\\. [^\\n]+\\n", cls.text)
+        cls.parts = re.split(r"(?m)^## [IVX]+\. [^\n]+\n", cls.text)
         cls.team1 = {
             w: next(m for m in cls.sports["rows"] if m["week"] == w and 1 in (m.get("home_team_id"), m.get("away_team_id")))
             for w in range(1, 18)
@@ -64,7 +64,7 @@ class Test2022TurningFrameV1(unittest.TestCase):
                 self.assertEqual(git_blob(REPO / "living-novel/manuscript" / name), expected)
 
     def test_four_substantial_movement_prose(self):
-        headings = re.findall(r"(?m)^## ([IVX]+)\\. ([^\\n]+)$", self.text)
+        headings = re.findall(r"(?m)^## ([IVX]+)\. ([^\n]+)$", self.text)
         self.assertEqual(headings, list(zip(["I", "II", "III", "IV"], HEADINGS)))
         self.assertEqual(len(self.parts), 5)
         self.assertGreaterEqual(len(self.text.split()), 4000)
@@ -77,7 +77,7 @@ class Test2022TurningFrameV1(unittest.TestCase):
         changed = json.loads(json.dumps(self.reg))
         changed["scenes"][2]["pov_character_id"] = "EDRIN"
         self.assertFalse(owner_firewall(changed))
-        self.assertNotRegex(" ".join(self.parts[1:]), r"\\b(?:Edrin|Edin|Master Oren)\\b")
+        self.assertNotRegex(" ".join(self.parts[1:]), r"\b(?:Edrin|Edin|Master Oren)\b")
         self.assertIn("not authenticated by the historical provider", self.text)
         self.assertIn("invented secondary-world staging", self.text)
 
