@@ -1,0 +1,165 @@
+{
+  "schema_version": "commonwealth-novel-production-v1",
+  "checkpoint_id": "HISTORICAL-SAGA-20261029-2023-FOURTH-ADDRESS-CAUSAL-V1",
+  "state": "IN_PROGRESS_NONCANON_REVIEW_HOLD",
+  "recorded_local_date": "2026-10-29",
+  "mission": "Founder-authorized Commonwealth Novel autonomous source-grounded historical and Living Novel production",
+  "repository": "jakekaloper-hub/schemin-26",
+  "control_repository": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "primary_pr": 243,
+  "active_issue": 211,
+  "related_issues": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "related_prs": {
+    "188": "MERGED historical authority",
+    "252": "DRAFT creative-production adapter",
+    "261": "DRAFT execution-state drift checker",
+    "264": "DRAFT Chapter I alternative"
+  },
+  "main_baseline_sha": "76c3f614c9eae70ead304c3f4cda7b44a95907e7",
+  "bullpen_main_baseline_sha": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+  "source_authority_matrix_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+  "source_evidence_blobs": {
+    "weekly_2023": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
+    "historical_story_room": "79190778ebac9859fb3d560e824f014c793010ae",
+    "owner_lineage": "be68b2b2c836592ed872e32b6216af238a0cd64c"
+  },
+  "output_blobs": {
+    "manuscript": {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2023-fourth-address/THE_FOURTH_ADDRESS_CAUSAL_READING_V1_NONCANON.md",
+      "git_blob_sha": "7a2685600671434bb10289765d4a8093ddb6072f"
+    },
+    "scene_register": {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2023-fourth-address/SCENE_REGISTER_CAUSAL_V1.json",
+      "git_blob_sha": "2d23b31d398e9ff97513a780930910c7f89451cd"
+    },
+    "editorial_receipt": {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2023-fourth-address/SOURCE_EDITORIAL_QA_RECEIPT_V1.md",
+      "git_blob_sha": "4b89049dfba4b9ff8a1b5eba0bba63ba58a042e9"
+    },
+    "regression_test": {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/test_2023_fourth_address_v1.py",
+      "git_blob_sha": "be9a07d6aa26a741926724d78680e71d11c3902b"
+    },
+    "workflow": {
+      "path": ".github/workflows/novel-os-ci.yml",
+      "git_blob_sha": "c24337dbe0d8b8dbc79766b44b272510cdd026d5"
+    }
+  },
+  "literary_output": {
+    "title": "The Fourth Address",
+    "season": 2023,
+    "word_count_including_frontmatter": 4806,
+    "connected_movements": 4,
+    "principal_pov_ids": [
+      "CHAR-JAKE-KALOPER"
+    ],
+    "historical_owner_attribution": "USER_ATTESTED_SLOT_1_CANDIDATE_NOT_PROVIDER_AUTHENTICATED",
+    "historical_venue_status": "PROPOSED_UNAPPROVED",
+    "source_matchup_rows": 105,
+    "scoring_weeks": 17,
+    "team1_exact_score_pair_anchors": 17,
+    "additional_verified_fixtures": 6,
+    "full_chronicle_claim": false,
+    "historical_champion": {
+      "slot": 12,
+      "name": "Eggs Benedict",
+      "score": "192.88",
+      "runner_up_slot": 11,
+      "runner_up_name": "Arm Chair GM",
+      "runner_up_score": "140.76"
+    },
+    "early_record": "0-4; 3 straight wins Weeks 5-7; regular season 5-9",
+    "losers_consolation_weeks": [
+      15,
+      16,
+      17
+    ],
+    "invented_secondary_world_characters": [
+      "Tavi",
+      "Lenna",
+      "Night Registry deputy"
+    ],
+    "invented_events_are_not_espn_facts": true
+  },
+  "protected_main_blob_verification": {
+    "method": "Authenticated GitHub readback on current main and historical branch; four exact blob SHA values matched",
+    "PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+    "CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+    "CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+    "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+  },
+  "observed_ci": {
+    "initial_failure": {
+      "commit": "30020030b9080d5495f413d8adfb92a23f288361",
+      "run_id": 40825035321,
+      "cause": "Test assertion did not account for bold emphasis around historical owner disclaimer; repaired"
+    },
+    "tested_commit": "a6b0fe661e9c1fddbe086d1da48da88184b00660",
+    "runs": [
+      {
+        "name": "Novel OS CI",
+        "run_id": 40825208994,
+        "conclusion": "success",
+        "specific_step": "Validate 2023 Fourth Address four-movement source-scored reader (noncanon)",
+        "step_conclusion": "success",
+        "cases": 12
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "run_id": 40825208999,
+        "conclusion": "success"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "run_id": 40825209010,
+        "conclusion": "success"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "run_id": 40825209149,
+        "conclusion": "success"
+      }
+    ],
+    "note": "Technical workflow success on the observed code/receipt commit does not indicate independent editorial approval. Later checkpoint-only commit is not represented as tested without its own observed run."
+  },
+  "independent_review": {
+    "github_review_submissions_at_check": 0,
+    "explicit_request_comment_id": 6489050957,
+    "status": "REQUEST_POSTED_NO_INDEPENDENT_APPROVAL_VERIFIED",
+    "blocking_questions": [
+      "2023 historical owner association",
+      "time-valid Gallery/Night Registry Atlas law and spatial plausibility",
+      "series-level institutional-record repetition",
+      "why the outer envelope was misaddressed",
+      "Tavi/Lenna agency vs Jake interiority",
+      "chronicle vs causal chapter completeness",
+      "source archive raw ESPN SHA unavailable"
+    ]
+  },
+  "holds": {
+    "historical_owner_binding": "UNVERIFIED",
+    "venue_atlas": "UNAPPROVED",
+    "editorial_independent": "NOT_RECEIVED",
+    "umpire_independent": "NOT_RECEIVED",
+    "founder_canon_promotion": "NOT_AUTHORIZED",
+    "pr": "DRAFT_NOT_MERGE_CLEARED",
+    "publication": "NOT_AUTHORIZED"
+  },
+  "next_authorized_work": [
+    "Recheck independent PR #243 reviews and exact-branch CI; repair observed technical defects only.",
+    "Continue source-cleared 2023 manuscript production via a separate six-matchup 2023 Week 1 Chronicle installment (or first incomplete earlier historical Chronicle unit after scope audit), rather than repeating plans; the 4806-word 2023 causal chapter is already preserved.",
+    "Use G01_2023_FULL_WEEKLY_MATCHUPS.json for each of six Week 1 scores and distinguish archived team names/slots from verified owners; leave original raw ESPN response absent.",
+    "Keep twelve canonical owner principal POVs exclusive, preserve original Prologue and Chapters I–III, and do not invent 2023 physical geography or identify winners of unpaired rows.",
+    "Obtain real independent editorial/Umpire review and Founder-only approval before canon promotion, merging or publishing."
+  ],
+  "branch_head_before_checkpoint": "a6b0fe661e9c1fddbe086d1da48da88184b00660",
+  "canonical_merge": false,
+  "publication_authorized": false
+}
