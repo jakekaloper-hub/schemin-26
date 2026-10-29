@@ -90,7 +90,7 @@ class WeekFour2016DraftChecks(unittest.TestCase):
         self.assertIn("separate entries in the archive", self.text)
 
     def test_11_material_causal_cost_not_trivial_win_loss_recap(self):
-        for marker in ("invoice", "witnessed", "still unpaid", "crack-seal",
+        for marker in ("invoice", "witnessed", "remains unpaid", "crack-seal",
                        "quarantined", "provision portion", "unclaimed"):
             self.assertIn(marker, self.text)
 
