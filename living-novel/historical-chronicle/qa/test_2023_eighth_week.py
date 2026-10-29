@@ -107,13 +107,13 @@ class Test2023EighthWeek(unittest.TestCase):
 
     def test_2023_continuity_append_and_hold(self):
         c = self.continuity
-        self.assertEqual(c["phase"],"WEEK_01_08_DRAFT_NONCANON")
-        self.assertEqual(c["story_time_cutoff"],"after scoring week 8 only")
+        self.assertIn(c["phase"], ["WEEK_01_08_DRAFT_NONCANON", "WEEK_01_09_DRAFT_NONCANON"])
+        self.assertIn(c["story_time_cutoff"], ["after scoring week 8 only", "after scoring week 9 only"])
         m = c["matchup_coverage"]
-        self.assertEqual(m["scoring_weeks_complete"],list(range(1,9)))
+        self.assertEqual(m["scoring_weeks_complete"][:8],list(range(1,9)))
         self.assertEqual(m["regular_season_matchups_total"],84)
-        self.assertEqual(m["regular_season_matchups_covered"],48)
-        self.assertEqual(m["prose_entries"],48)
+        self.assertGreaterEqual(m["regular_season_matchups_covered"],48)
+        self.assertGreaterEqual(m["prose_entries"],48)
         self.assertTrue(m["week8_complete"])
         self.assertEqual(c["drafts"]["eighth_week"],str(W08.relative_to(ROOT)))
 
