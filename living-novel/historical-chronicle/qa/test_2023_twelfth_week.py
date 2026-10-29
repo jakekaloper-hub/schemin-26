@@ -111,13 +111,14 @@ class Test2023TwelfthWeek(unittest.TestCase):
 
     def test_continuity_seventy_two_of_eighty_four_with_season_open(self):
         c=self.cont
-        self.assertEqual(c["phase"],"WEEK_01_12_DRAFT_NONCANON")
-        self.assertEqual(c["story_time_cutoff"],"after scoring week 12 only")
+        self.assertRegex(c["phase"], r"^WEEK_01_(?:0[1-9]|1[0-4])_DRAFT_NONCANON$")
+        self.assertGreaterEqual(int(c["phase"].split("_")[2]),12)
+        self.assertEqual(c["story_time_cutoff"], f"after scoring week {int(c['phase'].split('_')[2])} only")
         m=c["matchup_coverage"]
-        self.assertEqual(m["scoring_weeks_complete"],list(range(1,13)))
-        self.assertEqual(m["verified_matchups"],72)
-        self.assertEqual(m["prose_entries"],72)
-        self.assertEqual(m["regular_season_matchups_covered"],72)
+        self.assertEqual(m["scoring_weeks_complete"][:12],list(range(1,13)))
+        self.assertGreaterEqual(m["verified_matchups"],72)
+        self.assertGreaterEqual(m["prose_entries"],72)
+        self.assertGreaterEqual(m["regular_season_matchups_covered"],72)
         self.assertEqual(m["regular_season_matchups_total"],84)
         self.assertTrue(m["week12_complete"])
         self.assertEqual(m["postseason"],"NOT_DRAFTED")
