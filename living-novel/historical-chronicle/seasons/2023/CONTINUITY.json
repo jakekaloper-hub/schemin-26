@@ -103,7 +103,17 @@
     "archival_results_verified_in_prose": 6
   },
   "ci_week4": {
-    "status": "PENDING_NEW_EXACT_HEAD_WORKFLOW",
-    "note": "Previously recorded ci on W03 does not cover W04. No tests or independent signoff claimed at this point."
+    "status": "SUCCESS_AT_TESTED_COMMIT",
+    "tested_commit": "5066a69f72e9a765fdf8f625281b963f16d2ee21",
+    "workflow_runs": {
+      "novel_os_ci": 40843878646,
+      "cross_domain_authority": 40843878752,
+      "bullpen_runtime": 40843878618,
+      "repository_merge_gate": 40843878758
+    },
+    "week4_named_step": "success",
+    "week3_compatibility_step": "success",
+    "test_case_count": 9,
+    "caveat": "Evidence certifies technical regression at exact 5066a head; any later metadata/checkpoint commit requires separate CI readback. Independent authors/Umpire/Atlas/Founder not accepted."
   }
 }
