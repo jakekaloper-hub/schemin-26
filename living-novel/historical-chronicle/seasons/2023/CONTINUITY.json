@@ -126,15 +126,25 @@
     "principal_pov": "CHAR-JAKE-KALOPER",
     "secondary_owner_povs": 0,
     "status": "NONCANON_HISTORICAL_ATLAS_EDITORIAL_HOLD",
-    "week5_words_whitespace_including_metadata": 5450,
+    "week5_words_whitespace_including_metadata": 5463,
     "archival_result_rows_joined": 6,
     "fictional_consequence": "A real, costly crossing replaces a purely documentary objection: the ferry is lost, private concession liability is triggered, and the city improvises a punt without resolving the legal toll concession."
   },
   "ci_week5": {
-    "status": "PENDING_NEW_EXACT_HEAD_WORKFLOW",
+    "status": "SUCCESS_AT_TESTED_COMMIT",
     "suite": "living-novel/historical-chronicle/qa/test_2023_fifth_week.py",
     "cases": 11,
     "independent_umpire": "NOT_OBTAINED",
-    "note": "Previous Week 4 CI does not validate these Week 5 changes. Await exact-head Novel OS CI workflow readback."
+    "note": "Four GitHub Actions workflows succeeded at exact test SHA 96bc2be5; later metadata/checkpoint commits must be reverified separately. Independent editorial/Umpire/Atlas approval absent.",
+    "tested_commit": "96bc2be5f2cb4142f8fe532b22a4cdc65c86e7b4",
+    "workflow_runs": {
+      "novel_os_ci": 40851834785,
+      "cross_domain_authority": 40851834634,
+      "bullpen_runtime": 40851834705,
+      "repository_merge_gate": 40851834864
+    },
+    "named_week5_step": "success",
+    "named_week4_compatibility": "success",
+    "named_week3_compatibility": "success"
   }
 }
