@@ -108,3 +108,5 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_thirteenth_week.py" -v
       - name: Validate 2023 fourteenth six-match Chronicle installment (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_fourteenth_week.py" -v
+      - name: Validate compiled 2023 historical reading copy source-byte concordance (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_reading_copy.py" -v
