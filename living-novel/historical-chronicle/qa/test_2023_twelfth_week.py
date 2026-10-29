@@ -125,7 +125,7 @@ class Test2023TwelfthWeek(unittest.TestCase):
 
     def test_causal_river_and_warming_room_limits_retained(self):
         for phrase in ("punt grounded","proper ferry","no passenger crossing",
-                       "not a safe operating hearth","lender","far bank"):
+                       "no safe operating hearth","lender","far bank"):
             self.assertIn(phrase.lower(),self.story.lower())
 
     def test_no_unverified_provider_fact_or_auto_promotion(self):
