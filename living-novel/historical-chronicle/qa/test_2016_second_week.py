@@ -76,7 +76,8 @@ class WeekTwo2016DraftChecks(unittest.TestCase):
         self.assertIn("real owner", self.text.lower())
 
     def test_proposed_geography_not_claimed_as_canon(self):
-        self.assertIn("not recovered historical events or approved Atlas geography", self.text)
+        self.assertIn("recovered historical events or approved Atlas geography", self.text)
+        self.assertIn("invented secondary-world material", self.text)
         self.assertIn("No new Atlas settlement", self.text)
         self.assertIn("fictional", self.text.lower())
 
