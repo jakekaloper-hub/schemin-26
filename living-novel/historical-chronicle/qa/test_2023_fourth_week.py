@@ -121,7 +121,12 @@ class Test2023FourthWeek(unittest.TestCase):
         self.assertEqual(c["historical_transactions_asserted"], 0)
         self.assertEqual(c["principal_pov_ids"], ["CHAR-JAKE-KALOPER"])
         self.assertTrue(c["drafts"]["fourth_week"].endswith("/W04.md"))
-        self.assertEqual(c["ci_week4"]["status"], "PENDING_NEW_EXACT_HEAD_WORKFLOW")
+        # A CI receipt may be appended after the original manuscript/test commit.
+        self.assertIn(c["ci_week4"]["status"], [
+            "PENDING_NEW_EXACT_HEAD_WORKFLOW", "SUCCESS_AT_TESTED_COMMIT"])
+        if c["ci_week4"]["status"] == "SUCCESS_AT_TESTED_COMMIT":
+            self.assertRegex(c["ci_week4"]["tested_commit"], r"^[a-f0-9]{40}$")
+            self.assertEqual(c["ci_week4"]["workflow_runs"]["novel_os_ci"], 40843878646)
 
     def test_preserves_week_three_and_hard_canon_bytes(self):
         self.assertIn("The Road With No Owner", self.week3)
