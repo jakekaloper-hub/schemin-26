@@ -9,9 +9,9 @@
 **Story purpose:** Host introduces Babb as the live guest; he is explicitly booked in proposed fiction, not inexplicably absent.
 **Headline:** THE MAN BEHIND THE LIABILITY
 **Display copy:**
-HOST: “Tonight we're talking to David Babb. His company has a history of winning, and his football team is two and five. That's a tough balance sheet.”
-MANAGER: “Please don't suggest financial wrongdoing.”
-HOST: “We're talking about fantasy football. The losses are public. The accounting is a metaphor.”
+HOST: “I asked for David Babb's season history. They brought three boxes and a folder marked *miscellaneous consequences*. Three boxes! That's either a football team or a tax investigation.”
+PRODUCTION MANAGER: “Please don't say tax investigation. We didn't investigate any taxes.”
+HOST: “Right. This program is not accusing the LLC of financial wrongdoing. We're accusing them of playing fantasy football in a way that feels expensive.”
 **Scene:** Original host at desk, manager and ledger; visible, unoccupied guest chair preparing for Babb's entrance. Audience and studio are candidate fiction.
 **Continuity:** No Babb depiction until his approved character reference is loaded. Opening title must identify an actual interview, not an empty-chair investigation.
 
