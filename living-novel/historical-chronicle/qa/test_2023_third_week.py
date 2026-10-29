@@ -98,7 +98,8 @@ class Test2023ThirdWeek(unittest.TestCase):
         c = json.loads(CONTINUITY.read_text(encoding="utf-8"))
         # This suite guards the immutable Week 3 contribution even after later weeks
         # append to the shared season manifest. Do not require a stale final-week phase.
-        self.assertIn(c["phase"], ["WEEK_01_03_DRAFT_NONCANON", "WEEK_01_04_DRAFT_NONCANON", "WEEK_01_05_DRAFT_NONCANON", "WEEK_01_06_DRAFT_NONCANON", "WEEK_01_07_DRAFT_NONCANON", "WEEK_01_08_DRAFT_NONCANON", "WEEK_01_09_DRAFT_NONCANON", "WEEK_01_10_DRAFT_NONCANON", "WEEK_01_11_DRAFT_NONCANON", "WEEK_01_12_DRAFT_NONCANON"])
+        self.assertRegex(c["phase"], r"^WEEK_01_(?:0[1-9]|1[0-4])_DRAFT_NONCANON$")
+        self.assertGreaterEqual(int(c["phase"].split("_")[2]),3)
         self.assertEqual(c["matchup_coverage"]["scoring_weeks_complete"][:3], [1, 2, 3])
         self.assertGreaterEqual(c["matchup_coverage"]["verified_matchups"], 18)
         self.assertGreaterEqual(c["matchup_coverage"]["prose_entries"], 18)
