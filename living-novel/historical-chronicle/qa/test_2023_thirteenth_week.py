@@ -23,7 +23,7 @@ PROTECTED={
 }
 def blob(path):
     data=path.read_bytes()
-    return hashlib.sha1(b"blob "+str(len(data)).encode()+b"\\0"+data).hexdigest()
+    return hashlib.sha1(b"blob "+str(len(data)).encode()+b"\0"+data).hexdigest()
 def fmt(n):
     return f"{Decimal(str(n)):.2f}"
 
@@ -34,8 +34,8 @@ class Test2023ThirteenthWeek(unittest.TestCase):
         cls.story=STORY.read_text(encoding="utf-8")
         cls.cont=json.loads(CONT.read_text(encoding="utf-8"))
         cls.rows=next(w["matchups"] for w in cls.archive["weeks"] if w["week"]==13)
-        cls.headers=re.findall(r"(?m)^## ([IVX]+)\\. ([^\\n]+)$",cls.story)
-        cls.scenes=re.split(r"(?m)^## [IVX]+\\. [^\\n]+\\n",cls.story)[1:]
+        cls.headers=re.findall(r"(?m)^## ([IVX]+)\. ([^\n]+)$",cls.story)
+        cls.scenes=re.split(r"(?m)^## [IVX]+\. [^\n]+\n",cls.story)[1:]
 
     def test_pinned_source_and_known_limit(self):
         self.assertEqual(blob(ARCHIVE),SOURCE_SHA)
@@ -70,7 +70,7 @@ class Test2023ThirteenthWeek(unittest.TestCase):
         for i,scene in enumerate(self.scenes[:5],1):
             with self.subTest(scene=i):
                 self.assertGreaterEqual(len(scene.split()),520)
-                self.assertGreaterEqual(scene.count("\\n\\n"),8)
+                self.assertGreaterEqual(scene.count("\n\n"),8)
         self.assertIn("### After the Thirteenth Reckoning",self.scenes[-1])
 
     def test_slot_one_winning_record_not_human_owner_claim(self):
@@ -93,8 +93,8 @@ class Test2023ThirteenthWeek(unittest.TestCase):
     def test_pov_and_no_personified_storm(self):
         self.assertEqual(self.cont["principal_pov_ids"],["CHAR-JAKE-KALOPER"])
         self.assertEqual(self.cont["other_owner_povs"],"NONE")
-        self.assertNotRegex(self.story,r"\\b(?:Edrin|Edin|Master Oren)\\b")
-        self.assertNotRegex(self.story,r"(?i)El Niño\\s+(?:said|spoke|walked|thought|asked|smiled|decided)")
+        self.assertNotRegex(self.story,r"\b(?:Edrin|Edin|Master Oren)\b")
+        self.assertNotRegex(self.story,r"(?i)El Niño\s+(?:said|spoke|walked|thought|asked|smiled|decided)")
 
     def test_disclaimers_and_geography_firewalls(self):
         for phrase in ["NONCANON","PROPOSED FICTION / HISTORICAL ATLAS HOLD",
