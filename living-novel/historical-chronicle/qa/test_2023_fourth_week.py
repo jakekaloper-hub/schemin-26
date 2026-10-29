@@ -26,7 +26,7 @@ PROTECTED = {
 
 def git_blob(path):
     content = path.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(content)).encode() + b"\\0" + content).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(content)).encode() + b"\0" + content).hexdigest()
 
 
 def score(value):
@@ -40,8 +40,8 @@ class Test2023FourthWeek(unittest.TestCase):
         cls.rows = next(w["matchups"] for w in cls.archive["weeks"] if w["week"] == 4)
         cls.prose = W04.read_text(encoding="utf-8")
         cls.week3 = W03.read_text(encoding="utf-8")
-        cls.parts = re.split(r"(?m)^## [IVX]+\\. [^\\n]+\\n", cls.prose)
-        cls.headings = re.findall(r"(?m)^## ([IVX]+)\\. ([^\\n]+)$", cls.prose)
+        cls.parts = re.split(r"(?m)^## [IVX]+\. [^\n]+\n", cls.prose)
+        cls.headings = re.findall(r"(?m)^## ([IVX]+)\. ([^\n]+)$", cls.prose)
         cls.continuity = json.loads(CONTINUITY.read_text(encoding="utf-8"))
 
     def test_archive_blob_and_2023_week_four_selection(self):
@@ -95,7 +95,7 @@ class Test2023FourthWeek(unittest.TestCase):
         self.assertIn("Jake (", self.prose)
         self.assertIn("alone carries limited interior viewpoint", self.prose)
         self.assertIn("No Week 5+ outcome enters the characters' knowledge", self.prose)
-        self.assertNotRegex(self.prose, r"\\b(?:Edrin|Edin|Master Oren)\\b")
+        self.assertNotRegex(self.prose, r"\b(?:Edrin|Edin|Master Oren)\b")
 
     def test_no_owner_or_weather_personification(self):
         self.assertIn("Four distinct 2023 Benedict banners", self.prose)
@@ -125,7 +125,7 @@ class Test2023FourthWeek(unittest.TestCase):
 
     def test_preserves_week_three_and_hard_canon_bytes(self):
         self.assertIn("The Road With No Owner", self.week3)
-        self.assertEqual(len(re.findall(r"(?m)^## [IVX]+\\.", self.week3)), 6)
+        self.assertEqual(len(re.findall(r"(?m)^## [IVX]+\.", self.week3)), 6)
         for name, expected in PROTECTED.items():
             with self.subTest(name=name):
                 self.assertEqual(git_blob(ROOT / "living-novel/manuscript" / name), expected)
