@@ -1,8 +1,8 @@
 {
   "schema_version": "commonwealth-historical-chronicle-continuity-v1",
   "year": 2023,
-  "phase": "WEEK_01_03_DRAFT_NONCANON",
-  "story_time_cutoff": "after scoring week 3 only",
+  "phase": "WEEK_01_04_DRAFT_NONCANON",
+  "story_time_cutoff": "after scoring week 4 only",
   "source": {
     "path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
     "blob_sha": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
@@ -14,25 +14,28 @@
     "prologue": "living-novel/historical-chronicle/seasons/2023/PROLOGUE.md",
     "first_week": "living-novel/historical-chronicle/seasons/2023/weeks/W01.md",
     "second_week": "living-novel/historical-chronicle/seasons/2023/weeks/W02.md",
-    "third_week": "living-novel/historical-chronicle/seasons/2023/weeks/W03.md"
+    "third_week": "living-novel/historical-chronicle/seasons/2023/weeks/W03.md",
+    "fourth_week": "living-novel/historical-chronicle/seasons/2023/weeks/W04.md"
   },
   "matchup_coverage": {
     "scoring_weeks_complete": [
       1,
       2,
-      3
+      3,
+      4
     ],
-    "verified_matchups": 18,
+    "verified_matchups": 24,
     "distinct_slots_per_week": 12,
-    "prose_entries": 18,
+    "prose_entries": 24,
     "week1_complete": true,
     "week2_complete": true,
     "regular_season_week_count": 14,
     "regular_season_matchups_recorded_per_week": 6,
-    "regular_season_matchups_covered": 18,
+    "regular_season_matchups_covered": 24,
     "regular_season_matchups_total": 84,
     "postseason": "NOT_DRAFTED",
-    "week3_complete": true
+    "week3_complete": true,
+    "week4_complete": true
   },
   "principal_pov_ids": [
     "CHAR-JAKE-KALOPER"
@@ -47,19 +50,22 @@
     "weather and commercial board",
     "dialogue and material consequences",
     "week3 unapproved river landing, amphitheater, public hearing, market kitchen, observatory and library; no precise Atlas location",
-    "week3 named civilians, road ceremony, traveler evacuation and civic arguments are literary invention"
+    "week3 named civilians, road ceremony, traveler evacuation and civic arguments are literary invention",
+    "week4 public toll concession, weighing house, injured carter, charter hearing, closed passage, flour hold, dismantled amphitheater steps and contested archive: invented historical politics / no approved Atlas ID",
+    "week4 Varn, Sena, ferryman's daughter and supporting residents: invented fictional personalities / not authenticated league-owner counterparts"
   ],
   "world_atlas_status": "UNAPPROVED_PROPOSED_STAGING",
   "historical_transactions_asserted": 0,
   "temporal_negative_guards": [
-    "No Week 4+ outcomes appear within character knowledge",
     "No 2026 morphologies projected onto 2023 historical names",
     "El Niño does not speak or occupy a humanoid POV",
     "No certified home flag treated as an Atlas venue",
-    "Four distinct 2023 Benedict banners are not conflated into one human owner"
+    "Four distinct 2023 Benedict banners are not conflated into one human owner",
+    "No Week 5+ outcome appears in any Week 4 character knowledge",
+    "The new Week 4 manuscript grants interior focalization only to proposed CHAR-JAKE-KALOPER; supporting historical owner identities remain unknown"
   ],
-  "protected_manuscripts": "UNMODIFIED_READBACK_MATCHES_MAIN",
-  "literary_status": "DRAFT_UNREVIEWED",
+  "protected_manuscripts": "UNCHANGED_BY_WEEK_4_COMMIT; PRIOR_BLOB_MATCHES_MAIN; REVERIFY_IN_CI",
+  "literary_status": "W01_W04_DRAFT_UNREVIEWED",
   "ci": {
     "tested_commit": "09955de652ec4d583eb9b79b73136f6b84f6740d",
     "novel_ci_run": 40831031518,
@@ -86,5 +92,18 @@
     "all_counts_include_frontmatter": true,
     "week3_regex_words": 3799
   },
-  "week3_editorial_status": "SELF_REVIEW_DRAFT_NO_INDEPENDENT_AUTHOR_OR_UMPIRE_APPROVAL"
+  "week3_editorial_status": "SELF_REVIEW_DRAFT_NO_INDEPENDENT_AUTHOR_OR_UMPIRE_APPROVAL",
+  "week4_literary_notes": {
+    "title": "The Price of the Other Bank",
+    "technique": "Six source-matched encounters share a single consequential toll concession with lasting harm and unresolved political opposition; no one-to-one sports-to-political causality claimed",
+    "principal_pov": "CHAR-JAKE-KALOPER",
+    "secondary_owner_povs": 0,
+    "status": "NONCANON_HISTORICAL_ATLAS_EDITORIAL_HOLD",
+    "week4_words_whitespace_including_metadata": 4497,
+    "archival_results_verified_in_prose": 6
+  },
+  "ci_week4": {
+    "status": "PENDING_NEW_EXACT_HEAD_WORKFLOW",
+    "note": "Previously recorded ci on W03 does not cover W04. No tests or independent signoff claimed at this point."
+  }
 }
