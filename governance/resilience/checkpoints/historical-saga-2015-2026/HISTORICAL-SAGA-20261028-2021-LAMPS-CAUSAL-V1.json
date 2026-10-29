@@ -1,0 +1,104 @@
+{
+  "schema_version": "commonwealth-novel-production-v1",
+  "checkpoint_id": "HISTORICAL-SAGA-20261028-2021-LAMP-NETWORK-CAUSAL-V1",
+  "state": "IN_PROGRESS_NONCANON_REVIEW_HOLD",
+  "recorded_local_date": "2026-10-28",
+  "mission": "Founder-authorized Commonwealth Novel autonomous source-bounded literary production",
+  "repository": "jakekaloper-hub/schemin-26",
+  "control_repository": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "primary_pr": 243,
+  "active_issue": 211,
+  "related_issues": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "main_baseline_sha": "76c3f614c9eae70ead304c3f4cda7b44a95907e7",
+  "bullpen_main_baseline_sha": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+  "source_authority_matrix_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+  "source_evidence_blobs": {
+    "matchups_2021": "ec1f12544fd15b4e8ada0e2652a47b55ef69cab5",
+    "historical_story_room": "79190778ebac9859fb3d560e824f014c793010ae",
+    "owner_lineage": "be68b2b2c836592ed872e32b6216af238a0cd64c"
+  },
+  "output_blobs": {
+    "manuscript": {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2021-lamps/THE_KEEPER_OF_THE_UNLIT_LAMPS_CAUSAL_READING_V1_NONCANON.md",
+      "git_blob_sha": "78e3594bac59c1197c2fe4d6cb6cbe9bc0647d3a"
+    },
+    "register": {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2021-lamps/SCENE_REGISTER_CAUSAL_V1.json",
+      "git_blob_sha": "c70060166b8cb9378dc27344c73698d9173c581e"
+    },
+    "review": {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2021-lamps/SOURCE_EDITORIAL_QA_RECEIPT_V1.md",
+      "git_blob_sha": "14c5d11ae5eaf2fc53f7c4a6dd4acd503f7d346e"
+    },
+    "test": {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/test_2021_lamps_v1.py",
+      "git_blob_sha": "5c77e41fc53e52d11aacdcb3598d623e578e2f87"
+    },
+    "workflow": {
+      "path": ".github/workflows/novel-os-ci.yml",
+      "git_blob_sha": "50318d598572836071a402607bfd2b75ca55320c"
+    }
+  },
+  "literary_output": {
+    "title": "The Keeper of the Unlit Lamps",
+    "season": 2021,
+    "word_count_including_frontmatter": 4083,
+    "connected_movements": 4,
+    "principal_pov_ids": [
+      "CHAR-JAKE-KALOPER"
+    ],
+    "score_pair_anchors": 15,
+    "scoring_weeks_accounted": 17,
+    "offstage_score_weeks": [
+      11,
+      12
+    ],
+    "full_chronicle_claim": false,
+    "owner_binding": "USER_ATTESTED_NOT_RAW_PROVIDER_AUTHENTICATED",
+    "historical_venue_status": "PROPOSED_UNAPPROVED",
+    "observed_self_revision": "Repaired false consent in fuel-carrier negotiation scene II."
+  },
+  "technical_ci": {
+    "new_test_count": 9,
+    "observed_failed_run": {
+      "workflow": "Novel OS CI",
+      "run_id": 40813046676,
+      "test_results": "8_PASS_1_FAIL",
+      "failure": "Week14 losing home-team margin sign asserted backward"
+    },
+    "repair_commit": "cf69b47e3bfb3ce74fe3d7be8a5e631dfd9f86a8",
+    "latest_ci_status": "PENDING_OBSERVATION_AFTER_REPAIR",
+    "other_workflows": "DO_NOT_INFER_LATEST_HEAD_SUCCESS"
+  },
+  "review": {
+    "independent_editorial": "PENDING_NO_AUTHENTICATED_REVIEW",
+    "independent_umpire": "PENDING_NO_AUTHENTICATED_REVIEW",
+    "editorial_risks": [
+      "Repeated Jake arc of control vs local agency across 2018–2021.",
+      "Invented signal incidents not certified history.",
+      "Atlas venues and historical technology unapproved.",
+      "Teams 5,8 and 1 historical human ownership unresolved.",
+      "Chronicle six-fixture per week requirement not closed."
+    ]
+  },
+  "protected_prologue_and_chapters_i_to_iii": "PRESERVED_TESTED_BY_PRIOR_BRANCH_CHECKS_AND_NEW_REGRESSION_SUITE",
+  "adjacent_prs": {
+    "historical_saga": 243,
+    "chapter_i": 264,
+    "creative_adapter": 252,
+    "stale_state_checker": 261,
+    "whole_book_188": "MERGED_PREPRODUCTION_ONLY"
+  },
+  "founder_canon_promotion": "NOT_AUTHORIZED",
+  "merge": "NOT_AUTHORIZED",
+  "publication": "NOT_AUTHORIZED",
+  "continuation_instruction": "Inspect CI for exact source/test head after Week14 assertion correction; repair any actual failures. Obtain independent editorial/Umpire challenge to 2021 lamp narrative. If blocked by independent acceptance, continue substantial source-cleared 2022 or 2026 prose. No reinterpretation of team slot as historical owner; no 2022 El Niño humanoid principal POV; no protected hard manuscript change.",
+  "explicit_non_completion": "One selective 2021 causal chapter; not a complete seasonal chronicle, published novel, canon acceptance or historical owner identification."
+}
