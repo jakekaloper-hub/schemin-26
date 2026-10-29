@@ -1,0 +1,775 @@
+{
+  "version": "1.0",
+  "status": "DERIVED_NONCANON",
+  "as_of": "2026-10-28",
+  "characters": [
+    {
+      "character_id": "CHAR-JAKE-KALOPER",
+      "team_id": 1,
+      "team_name": "ObiWan Jacoby",
+      "owner_identity_source": "world/data/owner_domains.json",
+      "canonical_home": {
+        "location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "name": "Trade Jedi Mountain Base",
+        "zone": "REG-UPPER-VALLEYS",
+        "canon_status": "PERMANENT_CANON"
+      },
+      "known_location_state": {
+        "source": "world/data/locations.json",
+        "states": [
+          "operational"
+        ],
+        "open_questions": [
+          "final fictional place-name"
+        ]
+      },
+      "last_verified_physical_whereabouts": {
+        "status": "UNKNOWN",
+        "note": "Home domain does not establish actual Week 7/8 presence"
+      },
+      "travel_to_broadcast_house": {
+        "status": "UNVERIFIED",
+        "candidate": "CAND-AFTER-DARK-BROADCAST-HOUSE",
+        "home_route_ids": [
+          "ROUTE-EASTERN-ASCENT"
+        ]
+      },
+      "after_dark_knowledge": {
+        "status": "UNVERIFIED",
+        "note": "No automatic knowledge of unpublished Memo/Novel scenes"
+      },
+      "event_cutoff": "2026-W07",
+      "previous_episode_effects": {
+        "status": "NO_RELEASED_AFTER_DARK_EPISODE"
+      },
+      "motivation": {
+        "status": "UNDETERMINED"
+      },
+      "interview": {
+        "allowed": "NO_IN_PERSON_WITHOUT_ROUTE_AND_TIMELINE"
+      },
+      "next_destination": {
+        "status": "UNKNOWN"
+      },
+      "macro_thread": {
+        "status": "REQUIRES_WEEKLY_CONTEXT_PACK",
+        "source_types": [
+          "HISTORICAL_CONTEXT_PACK",
+          "WEEKLY_EVENT_CONTEXT_PACK",
+          "CHARACTER_CONTEXT_PACK",
+          "CONTINUITY_CONTEXT_PACK"
+        ]
+      },
+      "provenance": [
+        "world/data/owner_domains.json",
+        "world/data/locations.json",
+        "world/data/routes.json"
+      ],
+      "approval": "NONCANON_DERIVED_DRAFT"
+    },
+    {
+      "character_id": "CHAR-KEVIN-ZEEK",
+      "team_id": 2,
+      "team_name": "Red Leopards",
+      "owner_identity_source": "world/data/owner_domains.json",
+      "canonical_home": {
+        "location_id": "LOC-RED-RUINS",
+        "name": "Red Leopard Ruins",
+        "zone": "REG-EASTERN-STORM-COAST",
+        "canon_status": "PERMANENT_CANON"
+      },
+      "known_location_state": {
+        "source": "world/data/locations.json",
+        "states": [
+          "operational"
+        ],
+        "open_questions": [
+          "civil settlement relationship"
+        ]
+      },
+      "last_verified_physical_whereabouts": {
+        "status": "UNKNOWN",
+        "note": "Home domain does not establish actual Week 7/8 presence"
+      },
+      "travel_to_broadcast_house": {
+        "status": "UNVERIFIED",
+        "candidate": "CAND-AFTER-DARK-BROADCAST-HOUSE",
+        "home_route_ids": [
+          "ROUTE-RAIN-ESCARPMENT"
+        ]
+      },
+      "after_dark_knowledge": {
+        "status": "UNVERIFIED",
+        "note": "No automatic knowledge of unpublished Memo/Novel scenes"
+      },
+      "event_cutoff": "2026-W07",
+      "previous_episode_effects": {
+        "status": "NO_RELEASED_AFTER_DARK_EPISODE"
+      },
+      "motivation": {
+        "status": "UNDETERMINED"
+      },
+      "interview": {
+        "allowed": "NO_IN_PERSON_WITHOUT_ROUTE_AND_TIMELINE"
+      },
+      "next_destination": {
+        "status": "UNKNOWN"
+      },
+      "macro_thread": {
+        "status": "REQUIRES_WEEKLY_CONTEXT_PACK",
+        "source_types": [
+          "HISTORICAL_CONTEXT_PACK",
+          "WEEKLY_EVENT_CONTEXT_PACK",
+          "CHARACTER_CONTEXT_PACK",
+          "CONTINUITY_CONTEXT_PACK"
+        ]
+      },
+      "provenance": [
+        "world/data/owner_domains.json",
+        "world/data/locations.json",
+        "world/data/routes.json"
+      ],
+      "approval": "NONCANON_DERIVED_DRAFT"
+    },
+    {
+      "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "team_id": 3,
+      "team_name": "Slob on my Dobb",
+      "owner_identity_source": "world/data/owner_domains.json",
+      "canonical_home": {
+        "location_id": "LOC-SLOB-FOOTHILL-CAMP",
+        "name": "Slob Foothill Camp",
+        "zone": "REG-UPPER-VALLEYS",
+        "canon_status": "PROVISIONAL_CANON"
+      },
+      "known_location_state": {
+        "source": "world/data/locations.json",
+        "states": [
+          "operational"
+        ],
+        "open_questions": [
+          "final name"
+        ]
+      },
+      "last_verified_physical_whereabouts": {
+        "status": "UNKNOWN",
+        "note": "Home domain does not establish actual Week 7/8 presence"
+      },
+      "travel_to_broadcast_house": {
+        "status": "UNVERIFIED",
+        "candidate": "CAND-AFTER-DARK-BROADCAST-HOUSE",
+        "home_route_ids": [
+          "ROUTE-HEARTHROAD"
+        ]
+      },
+      "after_dark_knowledge": {
+        "status": "UNVERIFIED",
+        "note": "No automatic knowledge of unpublished Memo/Novel scenes"
+      },
+      "event_cutoff": "2026-W07",
+      "previous_episode_effects": {
+        "status": "NO_RELEASED_AFTER_DARK_EPISODE"
+      },
+      "motivation": {
+        "status": "UNDETERMINED"
+      },
+      "interview": {
+        "allowed": "NO_IN_PERSON_WITHOUT_ROUTE_AND_TIMELINE"
+      },
+      "next_destination": {
+        "status": "UNKNOWN"
+      },
+      "macro_thread": {
+        "status": "REQUIRES_WEEKLY_CONTEXT_PACK",
+        "source_types": [
+          "HISTORICAL_CONTEXT_PACK",
+          "WEEKLY_EVENT_CONTEXT_PACK",
+          "CHARACTER_CONTEXT_PACK",
+          "CONTINUITY_CONTEXT_PACK"
+        ]
+      },
+      "provenance": [
+        "world/data/owner_domains.json",
+        "world/data/locations.json",
+        "world/data/routes.json"
+      ],
+      "approval": "NONCANON_DERIVED_DRAFT"
+    },
+    {
+      "character_id": "CHAR-DAVID-BABB",
+      "team_id": 4,
+      "team_name": "The LLC",
+      "owner_identity_source": "world/data/owner_domains.json",
+      "canonical_home": {
+        "location_id": "LOC-LLC-BOARDROOM",
+        "name": "LLC Mercantile Boardroom",
+        "zone": "REG-INNER-SEA-LITTORAL",
+        "canon_status": "PERMANENT_CANON"
+      },
+      "known_location_state": {
+        "source": "world/data/locations.json",
+        "states": [
+          "Week 2 intrusion/destruction remembered",
+          "repair/scar continuity permitted"
+        ],
+        "open_questions": []
+      },
+      "last_verified_physical_whereabouts": {
+        "status": "UNKNOWN",
+        "note": "Home domain does not establish actual Week 7/8 presence"
+      },
+      "travel_to_broadcast_house": {
+        "status": "UNVERIFIED",
+        "candidate": "CAND-AFTER-DARK-BROADCAST-HOUSE",
+        "home_route_ids": [
+          "ROUTE-INNER-SEA-QUAY"
+        ]
+      },
+      "after_dark_knowledge": {
+        "status": "UNVERIFIED",
+        "note": "No automatic knowledge of unpublished Memo/Novel scenes"
+      },
+      "event_cutoff": "2026-W07",
+      "previous_episode_effects": {
+        "status": "NO_RELEASED_AFTER_DARK_EPISODE"
+      },
+      "motivation": {
+        "status": "UNDETERMINED"
+      },
+      "interview": {
+        "allowed": "NO_IN_PERSON_WITHOUT_ROUTE_AND_TIMELINE"
+      },
+      "next_destination": {
+        "status": "UNKNOWN"
+      },
+      "macro_thread": {
+        "status": "REQUIRES_WEEKLY_CONTEXT_PACK",
+        "source_types": [
+          "HISTORICAL_CONTEXT_PACK",
+          "WEEKLY_EVENT_CONTEXT_PACK",
+          "CHARACTER_CONTEXT_PACK",
+          "CONTINUITY_CONTEXT_PACK"
+        ]
+      },
+      "provenance": [
+        "world/data/owner_domains.json",
+        "world/data/locations.json",
+        "world/data/routes.json"
+      ],
+      "approval": "NONCANON_DERIVED_DRAFT"
+    },
+    {
+      "character_id": "CHAR-WILSON-LOOK",
+      "team_id": 5,
+      "team_name": "D0nkey K0ng",
+      "owner_identity_source": "world/data/owner_domains.json",
+      "canonical_home": {
+        "location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "name": "D0nkey K0ng Highland Stronghold",
+        "zone": "REG-UPPER-VALLEYS",
+        "canon_status": "INTERPRETIVE_CANON"
+      },
+      "known_location_state": {
+        "source": "world/data/locations.json",
+        "states": [
+          "current principal identity = Arsenal Gorilla Centaur Warrior (one gorilla upper body; four-legged equine lower body)",
+          "peopled-kind home society"
+        ],
+        "open_questions": [
+          "final proper place-name"
+        ]
+      },
+      "last_verified_physical_whereabouts": {
+        "status": "UNKNOWN",
+        "note": "Home domain does not establish actual Week 7/8 presence"
+      },
+      "travel_to_broadcast_house": {
+        "status": "UNVERIFIED",
+        "candidate": "CAND-AFTER-DARK-BROADCAST-HOUSE",
+        "home_route_ids": [
+          "ROUTE-DK-HIGHLAND-LINK"
+        ]
+      },
+      "after_dark_knowledge": {
+        "status": "UNVERIFIED",
+        "note": "No automatic knowledge of unpublished Memo/Novel scenes"
+      },
+      "event_cutoff": "2026-W07",
+      "previous_episode_effects": {
+        "status": "NO_RELEASED_AFTER_DARK_EPISODE"
+      },
+      "motivation": {
+        "status": "UNDETERMINED"
+      },
+      "interview": {
+        "allowed": "NO_IN_PERSON_WITHOUT_ROUTE_AND_TIMELINE"
+      },
+      "next_destination": {
+        "status": "UNKNOWN"
+      },
+      "macro_thread": {
+        "status": "REQUIRES_WEEKLY_CONTEXT_PACK",
+        "source_types": [
+          "HISTORICAL_CONTEXT_PACK",
+          "WEEKLY_EVENT_CONTEXT_PACK",
+          "CHARACTER_CONTEXT_PACK",
+          "CONTINUITY_CONTEXT_PACK"
+        ]
+      },
+      "provenance": [
+        "world/data/owner_domains.json",
+        "world/data/locations.json",
+        "world/data/routes.json"
+      ],
+      "approval": "NONCANON_DERIVED_DRAFT"
+    },
+    {
+      "character_id": "CHAR-PHILLIP-PITTS",
+      "team_id": 6,
+      "team_name": "Three Dreaded Snake",
+      "owner_identity_source": "world/data/owner_domains.json",
+      "canonical_home": {
+        "location_id": "LOC-TDS-WATERFALL-TEMPLE",
+        "name": "Podium Shadow Waterfall Temple",
+        "zone": "REG-SOUTHERN-WETLANDS",
+        "canon_status": "PERMANENT_CANON"
+      },
+      "known_location_state": {
+        "source": "world/data/locations.json",
+        "states": [
+          "current owner anatomy = one body, three serpent heads",
+          "cross-divisional coexistence with Chili is canon"
+        ],
+        "open_questions": []
+      },
+      "last_verified_physical_whereabouts": {
+        "status": "UNKNOWN",
+        "note": "Home domain does not establish actual Week 7/8 presence"
+      },
+      "travel_to_broadcast_house": {
+        "status": "UNVERIFIED",
+        "candidate": "CAND-AFTER-DARK-BROADCAST-HOUSE",
+        "home_route_ids": [
+          "ROUTE-FALLS-PATH"
+        ]
+      },
+      "after_dark_knowledge": {
+        "status": "UNVERIFIED",
+        "note": "No automatic knowledge of unpublished Memo/Novel scenes"
+      },
+      "event_cutoff": "2026-W07",
+      "previous_episode_effects": {
+        "status": "NO_RELEASED_AFTER_DARK_EPISODE"
+      },
+      "motivation": {
+        "status": "UNDETERMINED"
+      },
+      "interview": {
+        "allowed": "NO_IN_PERSON_WITHOUT_ROUTE_AND_TIMELINE"
+      },
+      "next_destination": {
+        "status": "UNKNOWN"
+      },
+      "macro_thread": {
+        "status": "REQUIRES_WEEKLY_CONTEXT_PACK",
+        "source_types": [
+          "HISTORICAL_CONTEXT_PACK",
+          "WEEKLY_EVENT_CONTEXT_PACK",
+          "CHARACTER_CONTEXT_PACK",
+          "CONTINUITY_CONTEXT_PACK"
+        ]
+      },
+      "provenance": [
+        "world/data/owner_domains.json",
+        "world/data/locations.json",
+        "world/data/routes.json"
+      ],
+      "approval": "NONCANON_DERIVED_DRAFT"
+    },
+    {
+      "character_id": "CHAR-BRANDON-PRYOR",
+      "team_id": 7,
+      "team_name": "Chili Cheesers",
+      "owner_identity_source": "world/data/owner_domains.json",
+      "canonical_home": {
+        "location_id": "LOC-CHILI-STABLE",
+        "name": "Chili Outlaw Stable",
+        "zone": "REG-WESTERN-TABLELANDS",
+        "canon_status": "PERMANENT_CANON"
+      },
+      "known_location_state": {
+        "source": "world/data/locations.json",
+        "states": [
+          "operational",
+          "cross-divisional coexistence with TDS is canon"
+        ],
+        "open_questions": [
+          "final fictional place-name"
+        ]
+      },
+      "last_verified_physical_whereabouts": {
+        "status": "UNKNOWN",
+        "note": "Home domain does not establish actual Week 7/8 presence"
+      },
+      "travel_to_broadcast_house": {
+        "status": "UNVERIFIED",
+        "candidate": "CAND-AFTER-DARK-BROADCAST-HOUSE",
+        "home_route_ids": [
+          "ROUTE-WESTERN-RANGE"
+        ]
+      },
+      "after_dark_knowledge": {
+        "status": "UNVERIFIED",
+        "note": "No automatic knowledge of unpublished Memo/Novel scenes"
+      },
+      "event_cutoff": "2026-W07",
+      "previous_episode_effects": {
+        "status": "NO_RELEASED_AFTER_DARK_EPISODE"
+      },
+      "motivation": {
+        "status": "UNDETERMINED"
+      },
+      "interview": {
+        "allowed": "NO_IN_PERSON_WITHOUT_ROUTE_AND_TIMELINE"
+      },
+      "next_destination": {
+        "status": "UNKNOWN"
+      },
+      "macro_thread": {
+        "status": "REQUIRES_WEEKLY_CONTEXT_PACK",
+        "source_types": [
+          "HISTORICAL_CONTEXT_PACK",
+          "WEEKLY_EVENT_CONTEXT_PACK",
+          "CHARACTER_CONTEXT_PACK",
+          "CONTINUITY_CONTEXT_PACK"
+        ]
+      },
+      "provenance": [
+        "world/data/owner_domains.json",
+        "world/data/locations.json",
+        "world/data/routes.json"
+      ],
+      "approval": "NONCANON_DERIVED_DRAFT"
+    },
+    {
+      "character_id": "CHAR-AUSTIN-BYARS",
+      "team_id": 8,
+      "team_name": "His Majesty's Blood",
+      "owner_identity_source": "world/data/owner_domains.json",
+      "canonical_home": {
+        "location_id": "LOC-BELT-KEEPER-KEEP",
+        "name": "Belt Keeper Rune Keep",
+        "zone": "REG-EASTERN-STORM-COAST",
+        "canon_status": "PROVISIONAL_CANON"
+      },
+      "known_location_state": {
+        "source": "world/data/locations.json",
+        "states": [
+          "Belt remains with Belt Keeper"
+        ],
+        "open_questions": [
+          "permanent name",
+          "civil jurisdiction"
+        ]
+      },
+      "last_verified_physical_whereabouts": {
+        "status": "UNKNOWN",
+        "note": "Home domain does not establish actual Week 7/8 presence"
+      },
+      "travel_to_broadcast_house": {
+        "status": "UNVERIFIED",
+        "candidate": "CAND-AFTER-DARK-BROADCAST-HOUSE",
+        "home_route_ids": [
+          "ROUTE-BLACK-CLIFF"
+        ]
+      },
+      "after_dark_knowledge": {
+        "status": "UNVERIFIED",
+        "note": "No automatic knowledge of unpublished Memo/Novel scenes"
+      },
+      "event_cutoff": "2026-W07",
+      "previous_episode_effects": {
+        "status": "NO_RELEASED_AFTER_DARK_EPISODE"
+      },
+      "motivation": {
+        "status": "UNDETERMINED"
+      },
+      "interview": {
+        "allowed": "NO_IN_PERSON_WITHOUT_ROUTE_AND_TIMELINE"
+      },
+      "next_destination": {
+        "status": "UNKNOWN"
+      },
+      "macro_thread": {
+        "status": "REQUIRES_WEEKLY_CONTEXT_PACK",
+        "source_types": [
+          "HISTORICAL_CONTEXT_PACK",
+          "WEEKLY_EVENT_CONTEXT_PACK",
+          "CHARACTER_CONTEXT_PACK",
+          "CONTINUITY_CONTEXT_PACK"
+        ]
+      },
+      "provenance": [
+        "world/data/owner_domains.json",
+        "world/data/locations.json",
+        "world/data/routes.json"
+      ],
+      "approval": "NONCANON_DERIVED_DRAFT"
+    },
+    {
+      "character_id": "CHAR-MANNING-WELTY",
+      "team_id": 9,
+      "team_name": "El Ni\u00f1o",
+      "owner_identity_source": "world/data/owner_domains.json",
+      "canonical_home": {
+        "location_id": "LOC-STORM-BOWL",
+        "name": "Storm Bowl",
+        "zone": "REG-EASTERN-STORM-COAST",
+        "canon_status": "PROVISIONAL_CANON"
+      },
+      "known_location_state": {
+        "source": "world/data/locations.json",
+        "states": [
+          "Week 2 event memory",
+          "El Ni\u00f1o may manifest as embodied Weather System or explicitly resolved atmospheric disaster"
+        ],
+        "open_questions": [
+          "permanent civic function"
+        ]
+      },
+      "last_verified_physical_whereabouts": {
+        "status": "UNKNOWN",
+        "note": "Home domain does not establish actual Week 7/8 presence"
+      },
+      "travel_to_broadcast_house": {
+        "status": "UNVERIFIED",
+        "candidate": "CAND-AFTER-DARK-BROADCAST-HOUSE",
+        "home_route_ids": [
+          "ROUTE-STORM-COAST"
+        ]
+      },
+      "after_dark_knowledge": {
+        "status": "UNVERIFIED",
+        "note": "No automatic knowledge of unpublished Memo/Novel scenes"
+      },
+      "event_cutoff": "2026-W07",
+      "previous_episode_effects": {
+        "status": "NO_RELEASED_AFTER_DARK_EPISODE"
+      },
+      "motivation": {
+        "status": "UNDETERMINED"
+      },
+      "interview": {
+        "allowed": "NO_IN_PERSON_WITHOUT_ROUTE_AND_TIMELINE"
+      },
+      "next_destination": {
+        "status": "UNKNOWN"
+      },
+      "macro_thread": {
+        "status": "REQUIRES_WEEKLY_CONTEXT_PACK",
+        "source_types": [
+          "HISTORICAL_CONTEXT_PACK",
+          "WEEKLY_EVENT_CONTEXT_PACK",
+          "CHARACTER_CONTEXT_PACK",
+          "CONTINUITY_CONTEXT_PACK"
+        ]
+      },
+      "provenance": [
+        "world/data/owner_domains.json",
+        "world/data/locations.json",
+        "world/data/routes.json"
+      ],
+      "approval": "NONCANON_DERIVED_DRAFT"
+    },
+    {
+      "character_id": "CHAR-BOBBY-MITCHELL",
+      "team_id": 10,
+      "team_name": "Mud Dogs",
+      "owner_identity_source": "world/data/owner_domains.json",
+      "canonical_home": {
+        "location_id": "LOC-MUD-DOGS-SWAMP",
+        "name": "Mud Dogs Swamp",
+        "zone": "REG-SOUTHERN-WETLANDS",
+        "canon_status": "PERMANENT_CANON"
+      },
+      "known_location_state": {
+        "source": "world/data/locations.json",
+        "states": [
+          "Week 2 and Week 3 history remembered"
+        ],
+        "open_questions": []
+      },
+      "last_verified_physical_whereabouts": {
+        "status": "UNKNOWN",
+        "note": "Home domain does not establish actual Week 7/8 presence"
+      },
+      "travel_to_broadcast_house": {
+        "status": "UNVERIFIED",
+        "candidate": "CAND-AFTER-DARK-BROADCAST-HOUSE",
+        "home_route_ids": [
+          "ROUTE-DELTA-CAUSEWAY"
+        ]
+      },
+      "after_dark_knowledge": {
+        "status": "UNVERIFIED",
+        "note": "No automatic knowledge of unpublished Memo/Novel scenes"
+      },
+      "event_cutoff": "2026-W07",
+      "previous_episode_effects": {
+        "status": "NO_RELEASED_AFTER_DARK_EPISODE"
+      },
+      "motivation": {
+        "status": "UNDETERMINED"
+      },
+      "interview": {
+        "allowed": "NO_IN_PERSON_WITHOUT_ROUTE_AND_TIMELINE"
+      },
+      "next_destination": {
+        "status": "UNKNOWN"
+      },
+      "macro_thread": {
+        "status": "REQUIRES_WEEKLY_CONTEXT_PACK",
+        "source_types": [
+          "HISTORICAL_CONTEXT_PACK",
+          "WEEKLY_EVENT_CONTEXT_PACK",
+          "CHARACTER_CONTEXT_PACK",
+          "CONTINUITY_CONTEXT_PACK"
+        ]
+      },
+      "provenance": [
+        "world/data/owner_domains.json",
+        "world/data/locations.json",
+        "world/data/routes.json"
+      ],
+      "approval": "NONCANON_DERIVED_DRAFT"
+    },
+    {
+      "character_id": "CHAR-BEN-WHIPPLE",
+      "team_id": 11,
+      "team_name": "Seven Deadly Chins",
+      "owner_identity_source": "world/data/owner_domains.json",
+      "canonical_home": {
+        "location_id": "LOC-CHINS-ROAD-COMMONS",
+        "name": "People's Champ Road Commons",
+        "zone": "REG-CENTRAL-BASIN",
+        "canon_status": "PROVISIONAL_CANON"
+      },
+      "known_location_state": {
+        "source": "world/data/locations.json",
+        "states": [
+          "operational"
+        ],
+        "open_questions": [
+          "final name"
+        ]
+      },
+      "last_verified_physical_whereabouts": {
+        "status": "UNKNOWN",
+        "note": "Home domain does not establish actual Week 7/8 presence"
+      },
+      "travel_to_broadcast_house": {
+        "status": "UNVERIFIED",
+        "candidate": "CAND-AFTER-DARK-BROADCAST-HOUSE",
+        "home_route_ids": [
+          "ROUTE-BASIN-MARKET"
+        ]
+      },
+      "after_dark_knowledge": {
+        "status": "UNVERIFIED",
+        "note": "No automatic knowledge of unpublished Memo/Novel scenes"
+      },
+      "event_cutoff": "2026-W07",
+      "previous_episode_effects": {
+        "status": "NO_RELEASED_AFTER_DARK_EPISODE"
+      },
+      "motivation": {
+        "status": "UNDETERMINED"
+      },
+      "interview": {
+        "allowed": "NO_IN_PERSON_WITHOUT_ROUTE_AND_TIMELINE"
+      },
+      "next_destination": {
+        "status": "UNKNOWN"
+      },
+      "macro_thread": {
+        "status": "REQUIRES_WEEKLY_CONTEXT_PACK",
+        "source_types": [
+          "HISTORICAL_CONTEXT_PACK",
+          "WEEKLY_EVENT_CONTEXT_PACK",
+          "CHARACTER_CONTEXT_PACK",
+          "CONTINUITY_CONTEXT_PACK"
+        ]
+      },
+      "provenance": [
+        "world/data/owner_domains.json",
+        "world/data/locations.json",
+        "world/data/routes.json"
+      ],
+      "approval": "NONCANON_DERIVED_DRAFT"
+    },
+    {
+      "character_id": "CHAR-ZACH-WILSON",
+      "team_id": 12,
+      "team_name": "Dr. Duckhook",
+      "owner_identity_source": "world/data/owner_domains.json",
+      "canonical_home": {
+        "location_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "name": "Country Club of Jackson",
+        "zone": "REG-SOUTHERN-WETLANDS",
+        "canon_status": "PERMANENT_CANON"
+      },
+      "known_location_state": {
+        "source": "world/data/locations.json",
+        "states": [
+          "Week 3 chili contamination is historical memory; cleanup state required before pristine reset"
+        ],
+        "open_questions": [
+          "degree of public/private access"
+        ]
+      },
+      "last_verified_physical_whereabouts": {
+        "status": "UNKNOWN",
+        "note": "Home domain does not establish actual Week 7/8 presence"
+      },
+      "travel_to_broadcast_house": {
+        "status": "UNVERIFIED",
+        "candidate": "CAND-AFTER-DARK-BROADCAST-HOUSE",
+        "home_route_ids": [
+          "ROUTE-JACKSON-LEVEE"
+        ]
+      },
+      "after_dark_knowledge": {
+        "status": "UNVERIFIED",
+        "note": "No automatic knowledge of unpublished Memo/Novel scenes"
+      },
+      "event_cutoff": "2026-W07",
+      "previous_episode_effects": {
+        "status": "NO_RELEASED_AFTER_DARK_EPISODE"
+      },
+      "motivation": {
+        "status": "UNDETERMINED"
+      },
+      "interview": {
+        "allowed": "NO_IN_PERSON_WITHOUT_ROUTE_AND_TIMELINE"
+      },
+      "next_destination": {
+        "status": "UNKNOWN"
+      },
+      "macro_thread": {
+        "status": "REQUIRES_WEEKLY_CONTEXT_PACK",
+        "source_types": [
+          "HISTORICAL_CONTEXT_PACK",
+          "WEEKLY_EVENT_CONTEXT_PACK",
+          "CHARACTER_CONTEXT_PACK",
+          "CONTINUITY_CONTEXT_PACK"
+        ]
+      },
+      "provenance": [
+        "world/data/owner_domains.json",
+        "world/data/locations.json",
+        "world/data/routes.json"
+      ],
+      "approval": "NONCANON_DERIVED_DRAFT"
+    }
+  ]
+}
