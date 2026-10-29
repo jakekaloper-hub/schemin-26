@@ -1,0 +1,96 @@
+{
+  "schema_version": "commonwealth-novel-production-checkpoint-v1",
+  "checkpoint_id": "HISTORICAL-SAGA-20261029-2023-CHRONICLE-W06",
+  "status": "NONCANON_TECHNICAL_CI_PENDING_INDEPENDENT_REVIEW_HOLD",
+  "mission": "Commonwealth historical novel production: 2023 Chronicle continuation",
+  "project": "Schemin '26",
+  "workflow": "historical-saga-2015-2026",
+  "stage": "2023-week-6-six-matchup-chronicle",
+  "owner": "Bullpen Closer + novel production; independent Umpire not accepted",
+  "source_authority": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+  "timestamp_utc": "2026-10-29",
+  "repositories": {
+    "novel": "jakekaloper-hub/schemin-26",
+    "bullpen": "jakekaloper-hub/bullpen"
+  },
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "input_fingerprints": {
+    "schemin_main": "76c3f614c9eae70ead304c3f4cda7b44a95907e7",
+    "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "prior_head": "43a8f6aff787e01a70e8f1a329e633d212cdc444",
+    "source_matchups_git_blob": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
+    "prior_week5_git_blob": "6ee34372a9c9b36e141b5a0513ac28bb161b0170",
+    "authority_matrix_git_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+    "prior_checkpoint_git_blob": "524962e474b456b1e1b89a05df8c902c9ae748a7"
+  },
+  "outputs": {
+    "living-novel/historical-chronicle/seasons/2023/weeks/W06.md": "87f8ee0b654d5e259af06e672996c58db85b81b0",
+    "living-novel/historical-chronicle/seasons/2023/weeks/W06_SOURCE_QA_RECEIPT.md": "1ca3e0a9a71bfccef57a5f0b1de0e9e418070a56",
+    "living-novel/historical-chronicle/qa/test_2023_sixth_week.py": "5b9b9096e470522b48b9b09d7928e9cf405d2565",
+    "living-novel/historical-chronicle/seasons/2023/CONTINUITY.json": "b90441b214c8c0ed2cb1b94f060ae93bbc1fe290",
+    ".github/workflows/novel-os-ci.yml": "3a695d488656573bb8de09aca499e749f6b93a8c",
+    "living-novel/historical-chronicle/qa/test_2023_third_week.py": "b6e99104ffef3c321589a04cdec504e27bbde7b8",
+    "living-novel/historical-chronicle/qa/test_2023_fourth_week.py": "d1e2f140c21e7ec121ee0ae2c97acbca063495d5",
+    "living-novel/historical-chronicle/qa/test_2023_fifth_week.py": "2766fd8f9568300b51f499b933aa54f1136ef8c1"
+  },
+  "evidence_references": {
+    "manuscript": "living-novel/historical-chronicle/seasons/2023/weeks/W06.md",
+    "qa": "living-novel/historical-chronicle/seasons/2023/weeks/W06_SOURCE_QA_RECEIPT.md",
+    "test": "living-novel/historical-chronicle/qa/test_2023_sixth_week.py",
+    "continuity": "living-novel/historical-chronicle/seasons/2023/CONTINUITY.json",
+    "workflow": ".github/workflows/novel-os-ci.yml"
+  },
+  "literary_output": {
+    "title": "The Hour No Boat Crossed",
+    "words_including_metadata": 5811,
+    "scenes": 6,
+    "pov_ids": [
+      "CHAR-JAKE-KALOPER"
+    ],
+    "fictional_events_not_sport_facts": true
+  },
+  "coverage": {
+    "year": 2023,
+    "regular_season_weeks_written": 6,
+    "regular_season_pairings_written": 36,
+    "regular_season_pairings_total": 84,
+    "postseason": "NOT_DRAFTED",
+    "historical_owner_joins": "UNAUTHENTICATED"
+  },
+  "ci": {
+    "status": "PENDING_EXACT_HEAD_CHECK",
+    "tests_registered": 10,
+    "named_step": "Validate 2023 sixth six-match Chronicle installment (noncanon)",
+    "required_workflows": [
+      "Novel OS CI",
+      "Cross-Domain Authority CI",
+      "Bullpen Runtime CI",
+      "Repository Merge Gate"
+    ],
+    "prior_head_verification": {
+      "sha": "43a8f6aff787e01a70e8f1a329e633d212cdc444",
+      "workflow_conclusions": "FOUR_SUCCESSFUL"
+    }
+  },
+  "review": {
+    "independent_editor": "NOT_RECEIVED",
+    "umpire": "NOT_ACCEPTED",
+    "founder_canon": "NOT_AUTHORIZED",
+    "merge": "HOLD",
+    "publish": "HOLD"
+  },
+  "invalidation_triggers": [
+    "archival source blob changed",
+    "Week 5 predecessor bytes changed",
+    "POV canon updated",
+    "main hard-canon source changed",
+    "new independent objection or Atlas decision",
+    "CI failure at actual commit"
+  ],
+  "next": [
+    "Read exact newly committed head workflow runs and repair any failures; do not presume green.",
+    "Request independent literary and Umpire challenge; do not self-certify.",
+    "Continue substantial 2023 Week 7 Chronicle if current source and continuity remain valid; do not automatically promote or publish."
+  ]
+}
