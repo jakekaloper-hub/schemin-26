@@ -59,7 +59,7 @@
     },
     "regression": {
       "path": "living-novel/historical-chronicle/qa/test_2023_fifth_week.py",
-      "blob": "7f3ecbe9ba9d26d39a73bf3d89afde1b46964723",
+      "blob": "7e3804ceac9320953033f57af18b2c31f1af051b",
       "test_cases": 11
     },
     "continuity": {
@@ -117,7 +117,9 @@
     "ci_named_week5_step": "success",
     "ci_last_metadata_sha_before_checkpoint": "e21059d004075f418828540d857513664c9deed0",
     "ci_last_metadata_runs_initial": "IN_PROGRESS_AT_CHECKPOINT_COMPOSITION",
-    "warning": "A success at earlier tested SHA does not automatically certify subsequent receipt or checkpoint commits; inspect exact final head."
+    "warning": "A success at earlier tested SHA does not automatically certify subsequent receipt or checkpoint commits; inspect exact final head.",
+    "latest_green_exact_code_sha": "d7853ab7933aa23807f983a7fab98a98326e9872",
+    "latest_green_novel_os_workflow": 40852365270
   },
   "contribution_commits": {
     "initial_prose": "5f3778cda39f85f6148af2e92c2f944cfe801426",
@@ -125,13 +127,14 @@
     "workflow_w5": "4906d2db386f621b241aba09148b586b6473f320",
     "pov_surgical_revisions": "96bc2be5f2cb4142f8fe532b22a4cdc65c86e7b4",
     "qa_receipt": "b57a40847e81b67f41d41e935218cbb017dc0f92",
-    "continuity_ci_update": "e21059d004075f418828540d857513664c9deed0"
+    "continuity_ci_update": "e21059d004075f418828540d857513664c9deed0",
+    "regression_fix": "d7853ab7933aa23807f983a7fab98a98326e9872"
   },
   "independent_review": {
     "pr_reviews_submitted": 0,
     "umpire": "NOT_ACCEPTED",
     "editorial": "SELF_CRITIQUE_ONLY",
-    "request": "PR #243 review comment pending"
+    "request": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6493378682"
   },
   "release": {
     "merged": false,
@@ -148,11 +151,46 @@
     "FOUNDER_ONLY_PUBLICATION"
   ],
   "next": [
+    "Before next prose, observe new final checkpoint commit CI (previous metadata promotion caused a test failure later repaired at d785); do not mistakenly equate prior passing SHA with final current head.",
     "Read final exact-head workflow results; if failure, repair owning branch and retest.",
     "Read independent PR submissions and address substantive review if any; self-comment is not acceptance.",
     "If no stronger eligible task, write 2023 Week 6 Chronicle from six pinned rows; preserve one historical owner interior POV.",
     "Keep prior Weeks 1-5 and causal chapters unchanged; avoid repeating another abstract document dispute; develop stakes of lost ferry and temporary punt.",
     "No merge/canon promotion/publication absent all owner-only gates."
   ],
-  "no_further_planning_without_prose": true
+  "no_further_planning_without_prose": true,
+  "technical_regression_repair": {
+    "observed_failed_commit": "1b25a954d559504fa6406628ba053503b4dcefeb",
+    "observed_failed_workflow": {
+      "name": "Novel OS CI",
+      "id": 40852183452,
+      "conclusion": "failure"
+    },
+    "exact_failed_assertion": "test_continuity_coverage_increment asserted ci_week5.status == PENDING_NEW_EXACT_HEAD_WORKFLOW after the source registry had legitimately transitioned to SUCCESS_AT_TESTED_COMMIT",
+    "diagnosis": "Regression test encoded an obsolete one-state expectation; archival scores, POV boundaries, protected main bytes and all ten other Week 5 cases passed.",
+    "repair_commit": "d7853ab7933aa23807f983a7fab98a98326e9872",
+    "repair": "Test accepts PENDING or SUCCESS, and requires exact 40-character tested SHA plus observed Novel OS CI run ID when SUCCESS.",
+    "verified_after_repair": {
+      "commit": "d7853ab7933aa23807f983a7fab98a98326e9872",
+      "workflows": {
+        "Novel OS CI": {
+          "id": 40852365270,
+          "conclusion": "success"
+        },
+        "Cross-Domain Authority CI": {
+          "id": 40852365208,
+          "conclusion": "success"
+        },
+        "Bullpen Runtime CI": {
+          "id": 40852365345,
+          "conclusion": "success"
+        },
+        "Repository Merge Gate": {
+          "id": 40852365313,
+          "conclusion": "success"
+        }
+      }
+    },
+    "note": "This post-repair success is verified for exact d7853a code/ref; newly updated checkpoint commit must be rechecked separately."
+  }
 }
