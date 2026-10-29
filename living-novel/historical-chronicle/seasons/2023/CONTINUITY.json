@@ -1,8 +1,8 @@
 {
   "schema_version": "commonwealth-historical-chronicle-continuity-v1",
   "year": 2023,
-  "phase": "WEEK_01_08_DRAFT_NONCANON",
-  "story_time_cutoff": "after scoring week 8 only",
+  "phase": "WEEK_01_09_DRAFT_NONCANON",
+  "story_time_cutoff": "after scoring week 9 only",
   "source": {
     "path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
     "blob_sha": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
@@ -19,7 +19,8 @@
     "fifth_week": "living-novel/historical-chronicle/seasons/2023/weeks/W05.md",
     "sixth_week": "living-novel/historical-chronicle/seasons/2023/weeks/W06.md",
     "seventh_week": "living-novel/historical-chronicle/seasons/2023/weeks/W07.md",
-    "eighth_week": "living-novel/historical-chronicle/seasons/2023/weeks/W08.md"
+    "eighth_week": "living-novel/historical-chronicle/seasons/2023/weeks/W08.md",
+    "ninth_week": "living-novel/historical-chronicle/seasons/2023/weeks/W09.md"
   },
   "matchup_coverage": {
     "scoring_weeks_complete": [
@@ -30,16 +31,17 @@
       5,
       6,
       7,
-      8
+      8,
+      9
     ],
-    "verified_matchups": 48,
+    "verified_matchups": 54,
     "distinct_slots_per_week": 12,
-    "prose_entries": 48,
+    "prose_entries": 54,
     "week1_complete": true,
     "week2_complete": true,
     "regular_season_week_count": 14,
     "regular_season_matchups_recorded_per_week": 6,
-    "regular_season_matchups_covered": 48,
+    "regular_season_matchups_covered": 54,
     "regular_season_matchups_total": 84,
     "postseason": "NOT_DRAFTED",
     "week3_complete": true,
@@ -47,7 +49,8 @@
     "week5_complete": true,
     "week6_complete": true,
     "week7_complete": true,
-    "week8_complete": true
+    "week8_complete": true,
+    "week9_complete": true
   },
   "principal_pov_ids": [
     "CHAR-JAKE-KALOPER"
@@ -68,7 +71,8 @@
     "week5 Mara cartwright, temporary punt built from amphitheater seating, river swelling, broken ferry and concession-holder's temporary waiver: invented events and unnamed Atlas staging",
     "week6 punt suspension, material risk, painted-arch brace, creditor inspection, upper-shelf portage and ferrywoman work terms: NONCANON, no Atlas placement",
     "week7 proposed shore-to-shore names, distant couriers, unsafe oar evaluation, conditional wages, civic representation and two-bank claims are NONCANON HISTORICAL ATLAS HOLD",
-    "week8 silent large bell, converted observatory fever ward, double-locked apothecary, disenfranchising hall votes, provisional landing stone survey, uncertain upper-bend courier road, and right-to-refuse worker clause; all invented NONCANON / HISTORICAL ATLAS HOLD"
+    "week8 silent large bell, converted observatory fever ward, double-locked apothecary, disenfranchising hall votes, provisional landing stone survey, uncertain upper-bend courier road, and right-to-refuse worker clause; all invented NONCANON / HISTORICAL ATLAS HOLD",
+    "week9 fictional warehouse coal inventory, partial medical shipment release by examiner, ward fuel, conditional singer performance, re-forged stove hinge, far-bank courier's three objects and trial neighborhood lights: all NONCANON HISTORICAL ATLAS HOLD"
   ],
   "world_atlas_status": "UNAPPROVED_PROPOSED_STAGING",
   "historical_transactions_asserted": 0,
@@ -82,10 +86,11 @@
     "No Week 6+ results enter Week 5 diegetic knowledge; no fabricated owner association beyond user-attested Jake/slot-1 candidate",
     "No Week 7+ result enters Week 6 story-time knowledge; only Jake as proposed exclusive principal viewpoint; Week 6 season banner names are not authenticated real owner identities",
     "No Week 8+ score enters Week 7 characters' knowledge, and only proposed CHAR-JAKE-KALOPER has principal interior viewpoint; human owner assignments unverified",
-    "No Week 9+ result enters Week 8 fictional character knowledge; no 2026 form/personality inferred for archived El Niño or other banners; only Jake has interior POV and even his historical slot-one owner join is user-attested."
+    "No Week 9+ result enters Week 8 fictional character knowledge; no 2026 form/personality inferred for archived El Niño or other banners; only Jake has interior POV and even his historical slot-one owner join is user-attested.",
+    "No Week 10+ result enters Week 9 character knowledge; only proposed Jake interior POV. No owner authentication for historical slots, El Niño remains a nonhuman archival banner, and fictional medical/civic events are not league history."
   ],
   "protected_manuscripts": "UNCHANGED_BY_WEEK_4_COMMIT; PRIOR_BLOB_MATCHES_MAIN; REVERIFY_IN_CI",
-  "literary_status": "W01_W08_DRAFT_UNREVIEWED",
+  "literary_status": "W01_W09_DRAFT_UNREVIEWED",
   "ci": {
     "tested_commit": "09955de652ec4d583eb9b79b73136f6b84f6740d",
     "novel_ci_run": 40831031518,
@@ -103,7 +108,7 @@
     "independent_umpire": "NOT_OBTAINED",
     "third_week_suite": "ADDED_NOT_YET_OBSERVED_IN_GITHUB_ACTIONS"
   },
-  "next_prose": "Week 9: continue grounded punt, medical supply/examiner answer, two-bank consent and specific wage funding; six pinned archival fixtures, no future score leakage.",
+  "next_prose": "Week 10: six archived fixtures, deepen winter fuel, insurer/creditor dispute and tested brace consequences without ungrounded ferry launch, import human owner claims or future competitive knowledge.",
   "literary_output": {
     "prologue_regex_words": 1222,
     "week1_regex_words": 3602,
@@ -236,5 +241,23 @@
     "tested_commit": null,
     "workflow_runs": {},
     "warning": "Do not claim CI success until observed at exact branch head. Independent Authors/Atlas/Umpire/Founder acceptance absent."
+  },
+  "week9_literary_notes": {
+    "title": "The Ash Beneath the Road",
+    "principal_pov": "CHAR-JAKE-KALOPER",
+    "secondary_owner_povs": 0,
+    "status": "NONCANON_HISTORICAL_ATLAS_EDITORIAL_HOLD",
+    "words_including_frontmatter": 5867,
+    "archival_result_rows_joined": 6,
+    "fictional_consequence": "A narrow result contrasts with unresolved real costs; examined medicine is partly released, an improvised hinge improves the ward stove, the courier returns with conditional practical assistance instead of consent, and light stations are negotiated without reopening the grounded punt."
+  },
+  "ci_week9": {
+    "status": "PENDING_EXACT_HEAD_WORKFLOW",
+    "suite": "living-novel/historical-chronicle/qa/test_2023_ninth_week.py",
+    "cases": 12,
+    "independent_umpire": "NOT_OBTAINED",
+    "tested_commit": null,
+    "workflow_runs": {},
+    "warning": "No CI result or independent editorial/Atlas/Umpire/Founder approval may be inferred from prose creation."
   }
 }
