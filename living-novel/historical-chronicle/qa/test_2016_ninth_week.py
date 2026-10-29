@@ -73,7 +73,7 @@ class WeekNine2016(unittest.TestCase):
 
  def test_open_prior_obligations_remain_open(self):
   for phrase in ("missing claimant", "old unverified labor credit", "eastern room remains closed",
-                 "invoice remains unpaid", "No future scores, trades"):
+                 "invoice remained unpaid", "No future scores, trades"):
    self.assertIn(phrase.lower(), self.s.lower())
 
  def test_no_world_auto_promotion(self):
