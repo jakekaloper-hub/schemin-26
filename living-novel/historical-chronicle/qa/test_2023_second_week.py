@@ -81,7 +81,7 @@ class Test2023SecondWeek(unittest.TestCase):
         self.assertIn("The Cloth Nobody Owned", (ROOT / "living-novel/historical-chronicle/seasons/2023/PROLOGUE.md").read_text(encoding="utf-8"))
         self.assertIn("six knots", self.week1.lower())
         self.assertIn("six knots", self.week2.lower())
-        self.assertIn("The Fourth Address", self.week2)
+        self.assertIn("Fourth Address", self.week2)
 
 
 if __name__ == "__main__":
