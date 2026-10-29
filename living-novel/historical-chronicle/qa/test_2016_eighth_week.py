@@ -20,7 +20,7 @@ PROTECTED = {
 
 def blob(path):
  raw = path.read_bytes()
- return hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + b"\\0" + raw).hexdigest()
+ return hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + b"\0" + raw).hexdigest()
 
 class WeekEight2016(unittest.TestCase):
  @classmethod
@@ -64,7 +64,7 @@ class WeekEight2016(unittest.TestCase):
  def test_exclusive_pov_firewall(self):
   for phrase in ("CHAR-JAKE-KALOPER", "PRINCIPAL_CHARACTER", "sole interior viewpoint"):
    self.assertIn(phrase.lower(), self.s.lower())
-  self.assertNotRegex(self.s, r"(?im)^## (Edrin|Edin|Oren)\\b")
+  self.assertNotRegex(self.s, r"(?im)^## (Edrin|Edin|Oren)\b")
   self.assertNotIn("El Niño arrived", self.s)
 
  def test_owner_and_hyena_separation(self):
