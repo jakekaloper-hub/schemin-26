@@ -50,3 +50,17 @@ Week 12 preserves the unsafe eastern-room/wider exterior-wall cordon, returns th
 The repeated evidence notices risk a ledger-driven story rather than a cohesive epic novel; the woman with chest, the registrar, young worker, girl and displaced residents need greater independent drives across a causal novel. The 2016 Prologue already references later outcomes and needs an authorial spoiler/foreshadowing pass. The separate short postseason and epilogue drafts are not a substitute for substantial historical fiction; do not automatically convert Week 1–13 into novel chapters. Historical house engineering, temporary land use, shelter recordkeeping and inspection capacities must be checked against period-specific Character and Atlas authority, not silently canonized. A routine automated test run cannot constitute independent Umpire approval.
 
 **HOLD:** provider-authenticated historical owner mapping; period Character Canon; historical Atlas; independent literary acceptance; independent Umpire; Founder-only canon promotion; merge; publication. No approval, merger or deployment is inferred by this receipt.
+
+
+## Observed CI on final tested code head
+
+At exact patched code commit `dfba365309bfee85678ba5a611be2cb428aeec10`, GitHub returned **COMPLETED / SUCCESS** for all four workflows:
+
+- [Novel OS CI #40974764881](https://github.com/jakekaloper-hub/schemin-26/actions/runs/40974764881) — the named Week 12 manuscript, W12 source-exact reader, Week 13 manuscript, and fourteen-component regular-season reader steps each **SUCCESS**.
+- [Cross-Domain Authority CI #40974764999](https://github.com/jakekaloper-hub/schemin-26/actions/runs/40974764999) — SUCCESS.
+- [Bullpen Runtime CI #40974765179](https://github.com/jakekaloper-hub/schemin-26/actions/runs/40974765179) — SUCCESS.
+- [Repository Merge Gate #40974765064](https://github.com/jakekaloper-hub/schemin-26/actions/runs/40974765064) — SUCCESS.
+
+The first Week 13 workflow on prior commit `a0e448c652c5edff1f3daec1f33362e6391c8daf` **FAILED** two literal-text assertions: it expected old Week 12 headings and the words `found key`. Both tests were repaired by `dfba3653` to check actual Week 13 material and `leaf-shaped key`; the manuscript was **not modified** to satisfy them. The successfully tested code SHA precedes this receipt-only edit. A receipt-inclusive commit requires its own CI readback; do not assume a new final head is green.
+
+No test pass implies historical owner authentication, independent literary approval, Atlas validation, Umpire signoff, Founder canon promotion or a merge.
