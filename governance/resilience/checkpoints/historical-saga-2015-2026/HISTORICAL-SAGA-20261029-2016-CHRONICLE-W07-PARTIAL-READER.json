@@ -5,7 +5,7 @@
   "pr": 243,
   "date": "2026-10-29",
   "continued_from": "HISTORICAL-SAGA-20261029-2016-CHRONICLE-W06-PARTIAL-READER",
-  "stage": "2016_REGULAR_W07_DRAFT_AND_EIGHT_PART_ASSEMBLY_PENDING_CI",
+  "stage": "2016_REGULAR_W07_EIGHT_PART_READER_TESTED_GREEN_EDITORIAL_HOLD",
   "authority": {
     "schemin_main": "1c77ae21ef34bf325b93fe0964d4b7ccd6e9e32d",
     "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
@@ -51,10 +51,37 @@
   "verification": {
     "self_checked_six_fixtures": true,
     "previous_W06_blob": "6d16b7aca6b337c54d5e96f2f6849b0e6c48bd83",
-    "week7_ci": "NOT_YET_OBSERVED",
+    "week7_ci": "SUCCESS_AT_TESTED_HEAD",
     "week6_ci": "PASS_AFTER_TEST_ASSERTION_REPAIR",
     "protected_canon": "NO_FILES_WRITTEN_TO_PROTECTED_PATHS; TESTS_PENDING",
-    "independent_review": "NOT_RECEIVED"
+    "independent_review": "NOT_RECEIVED",
+    "tested_code_head": "7e82cb5e3ceeca1f61e0271f8d84ca808f4f0955",
+    "workflow_runs": {
+      "novel_os_ci": {
+        "id": 40950900549,
+        "conclusion": "success"
+      },
+      "cross_domain_authority_ci": {
+        "id": 40950900586,
+        "conclusion": "success"
+      },
+      "bullpen_runtime_ci": {
+        "id": 40950900659,
+        "conclusion": "success"
+      },
+      "repository_merge_gate": {
+        "id": 40950900728,
+        "conclusion": "success"
+      }
+    },
+    "specific_test_steps": {
+      "w06_six_fixture": "success",
+      "w06_seven_part_reader": "success",
+      "w07_six_fixture": "success",
+      "w07_eight_part_reader": "success",
+      "protected_2026_hard_canon_assertions": "success"
+    },
+    "post_checkpoint_commit": "Must read back exact post-receipt HEAD and workflow status; green tested code head does not automatically prove later commit."
   },
   "gates": {
     "owner_and_year_canon": "HOLD",
