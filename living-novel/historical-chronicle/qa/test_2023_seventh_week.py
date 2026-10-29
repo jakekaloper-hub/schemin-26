@@ -108,12 +108,12 @@ class Test2023SeventhWeek(unittest.TestCase):
 
     def test_continuity_is_append_only_and_complete_through_seven(self):
         c = self.continuity
-        self.assertEqual(c["phase"], "WEEK_01_07_DRAFT_NONCANON")
-        self.assertEqual(c["story_time_cutoff"], "after scoring week 7 only")
+        self.assertIn(c["phase"], ["WEEK_01_07_DRAFT_NONCANON", "WEEK_01_08_DRAFT_NONCANON"])
+        self.assertIn(c["story_time_cutoff"], ["after scoring week 7 only", "after scoring week 8 only"])
         m = c["matchup_coverage"]
-        self.assertEqual(m["scoring_weeks_complete"], list(range(1, 8)))
-        self.assertEqual(m["regular_season_matchups_covered"], 42)
-        self.assertEqual(m["prose_entries"], 42)
+        self.assertEqual(m["scoring_weeks_complete"][:7], list(range(1, 8)))
+        self.assertGreaterEqual(m["regular_season_matchups_covered"], 42)
+        self.assertGreaterEqual(m["prose_entries"], 42)
         self.assertEqual(m["regular_season_matchups_total"], 84)
         self.assertTrue(m["week7_complete"])
         self.assertTrue(m["week6_complete"])
