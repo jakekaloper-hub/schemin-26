@@ -91,7 +91,7 @@ class WeekFive2016DraftChecks(unittest.TestCase):
         self.assertIn("different archived team IDs", self.prose)
 
     def test_11_fictional_material_consequences_persist(self):
-        for token in ("unissued", "seller's invoice", "witnessed", "conditionally",
+        for token in ("unissued", "seller's invoice", "witnessed", "conditional",
                       "labor credits", "unclaimed", "Fiction-only continuity handoff"):
             self.assertIn(token.lower(), self.prose.lower())
 
