@@ -9,7 +9,7 @@
   "branch": "novel/historical-epic-2015-2026",
   "primary_pr": 243,
   "entry_branch_head": "970df94d0257c2a406f246be7412fd2fdd7b614f",
-  "branch_head_before_checkpoint": "fd5cbcf7d0cea8056e08c62f1ab686b656fe8ebf",
+  "branch_head_before_checkpoint": "509ac12419c66683712669804eca613d4051ef25",
   "main_baseline_sha": "76c3f614c9eae70ead304c3f4cda7b44a95907e7",
   "bullpen_main_baseline_sha": "86889a59efb0e7dcdc37eef639981944dc77ed67",
   "source_authority_matrix": {
@@ -41,15 +41,15 @@
     },
     {
       "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2020-third-mark/SCENE_REGISTER_CAUSAL_V1.json",
-      "git_blob_sha": "cce62367f7c91d20a3ba4bef9a647f84243631c2"
+      "git_blob_sha": "ad6f06c6b56c38bc87424c78aa02dab0923ba1dc"
     },
     {
       "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2020-third-mark/SOURCE_EDITORIAL_QA_RECEIPT_V1.md",
-      "git_blob_sha": "46fa94b79f913ba686e8f3a42175609460d6bd05"
+      "git_blob_sha": "758dde92858c103aff7eb2710f18146cf38bf937"
     },
     {
       "path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/test_2020_third_mark_v1.py",
-      "git_blob_sha": "03fa8892962cc5c660b5415a965fd40a5a671871"
+      "git_blob_sha": "58c8ad254c12854890c6fbc3c93f3b76833f1edc"
     },
     {
       "path": ".github/workflows/novel-os-ci.yml",
@@ -102,7 +102,8 @@
     "period14": "UNPAIRED_OPPONENT_ABSENT_WINNER_UNDECIDED_NO_FABRICATED_WIN",
     "championship": "TEAM_10_189.19_BEATS_TEAM_8_188.44",
     "venue_status": "PROPOSED_UNAPPROVED",
-    "full_season_coverage_claim": false
+    "full_season_coverage_claim": false,
+    "empty_source_week_17": "SOURCE_CONTAINS_ZERO_MATCHUPS_NOT_A_SCORING_EVENT"
   },
   "authenticated_readback_preflight": {
     "four_movements": true,
@@ -112,14 +113,41 @@
     "champion_time_gated": true
   },
   "technical_ci": {
-    "status": "PENDING_ACTUAL_GITHUB_ACTIONS_READBACK_AFTER_CHECKPOINT_COMMIT",
-    "new_test_count": 9,
-    "check_name": "Validate 2020 third-place causal reading V1 (noncanon)"
+    "status": "SUCCESS_ON_OBSERVED_CODE_HEAD",
+    "tested_sha": "0e12b76649415b573e4fd72ec2015fad507f033d",
+    "named_step": "Validate 2020 third-place causal reading V1 (noncanon)",
+    "observed_new_test_count": 9,
+    "new_test_result": "PASS",
+    "workflows": [
+      {
+        "name": "Novel OS CI",
+        "id": 40808163167,
+        "status": "SUCCESS"
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "id": 40808162328,
+        "status": "SUCCESS"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "id": 40808162311,
+        "status": "SUCCESS"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "id": 40808162321,
+        "status": "SUCCESS"
+      }
+    ],
+    "qualifier": "Verified at preceding tested code SHA; final checkpoint-only commit requires separate readback. This is not independent Umpire acceptance.",
+    "observed_repair": "Test normalization for 12-1 prose; exclude empty source Week 17 container from registered scoring events."
   },
   "independent_umpire_review": "PENDING_NO_AUTHENTICATED_REVIEW",
   "founder_canon_promotion": "NOT_AUTHORIZED",
   "merge": "NOT_AUTHORIZED",
   "publication": "NOT_AUTHORIZED",
   "continuation_instruction": "Read exact final-head CI and fix observed failures, then independently challenge Sera's agency and chapter pace. If independent review not available, continue 2021 or 2026 source-cleared prose. Never invent Week14 opponent, historical owner, or Atlas venue; preserve hard Prologue and I-III.",
-  "explicit_non_completion": "One chapter, not full 2020 chronicle; historical owner binding, Atlas approval, independent review and publication outstanding."
+  "explicit_non_completion": "One chapter, not full 2020 chronicle; historical owner binding, Atlas approval, independent review and publication outstanding.",
+  "technical_ci_review_status": "DO_NOT_INFER_SUCCESS_FOR_UNOBSERVED_LATER_COMMIT"
 }
