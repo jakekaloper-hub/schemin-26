@@ -26,7 +26,7 @@ PROTECTED = {
 
 def git_blob(path: Path) -> str:
     data = path.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\\0" + data).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest()
 
 
 def printed_amount(x):
@@ -45,8 +45,8 @@ class Test2023OpeningWeek(unittest.TestCase):
         cls.text = W01.read_text(encoding="utf8")
         cls.evidence = json.loads(SCORE_FILE.read_text(encoding="utf8"))
         cls.week = next(x for x in cls.evidence["weeks"] if x["week"] == 1)
-        cls.parts = re.split(r"(?m)^## [IVX]+\\. [^\\n]+\\n", cls.text)
-        cls.headings = re.findall(r"(?m)^## ([IVX]+)\\. (.+)$", cls.text)
+        cls.parts = re.split(r"(?m)^## [IVX]+\. [^\n]+\n", cls.text)
+        cls.headings = re.findall(r"(?m)^## ([IVX]+)\. (.+)$", cls.text)
 
     def test_source_identity_and_six_unique_matches(self):
         self.assertEqual(git_blob(SCORE_FILE), SOURCE_BLOB)
@@ -87,7 +87,7 @@ class Test2023OpeningWeek(unittest.TestCase):
         self.assertEqual(self.week["matchups"][1]["away_id"], 1)
 
     def test_no_unlicensed_pov_or_owner_history(self):
-        self.assertNotRegex(self.text + self.p, r"\\b(?:Edrin|Edin|Master Oren)\\b")
+        self.assertNotRegex(self.text + self.p, r"\b(?:Edrin|Edin|Master Oren)\b")
         self.assertIn("not verified identities of their human owners", self.p)
         self.assertIn("not verified historical human-owner binding", self.text)
         self.assertIn("El Niño is treated as a storm-name/banner", self.text)
