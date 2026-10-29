@@ -18,3 +18,16 @@
 A new **nine-case** deterministic regression is committed at `review/test_2020_third_mark_v1.py`, and its invocation has been added to Novel OS CI. Before GitHub Actions readback, test status is **PENDING**, not PASS. No independent Author Council or Umpire reviewer has accepted this manuscript, and no Founder approval for canon promotion or publication exists. A PR comment requesting review does not constitute review.
 
 **Next:** Read exact-head GitHub CI results, fix failures, confirm the protected blob invariants, request independent adversarial literary assessment, then resume the next source-cleared historical or 2026 narrative lane without a new OS.
+
+## Actual CI and corrective feedback (2026-10-28, 22:4x ET)
+
+GitHub Actions at exact tested code head `0e12b76649415b573e4fd72ec2015fad507f033d` reported:
+
+- [Novel OS CI #40808163167](https://github.com/jakekaloper-hub/schemin-26/actions/runs/40808163167): **SUCCESS**; named **2020 third-place causal reading V1** step succeeded, **9 cases**.
+- [Cross-Domain Authority CI #40808162328](https://github.com/jakekaloper-hub/schemin-26/actions/runs/40808162328): **SUCCESS**.
+- [Bullpen Runtime CI #40808162311](https://github.com/jakekaloper-hub/schemin-26/actions/runs/40808162311): **SUCCESS**.
+- [Repository Merge Gate #40808162321](https://github.com/jakekaloper-hub/schemin-26/actions/runs/40808162321): **SUCCESS**.
+
+**Observed failure and correction:** First executions exposed two test/registry mistakes, not a source change: (1) a test demanded the notation `12–1` where the manuscript correctly wrote *twelve victories and one defeat*; (2) `G01_2020_FULL_WEEKLY_MATCHUPS.json` includes an **empty Week 17 container** with zero matchups; the scene register initially counted it as a team-1 scoring period. The register now records Weeks **1–16** as observed and explicitly flags Week 17 as an empty source container. The new regression verifies the empty week and prohibits its conversion to a fabricated result. The succeeding CI run follows these repairs. Technical validation is not independent literary approval.
+
+A later governance/checkpoint-only commit may have a different head SHA; verify its actual runs separately rather than transplanting these results to an untested head.
