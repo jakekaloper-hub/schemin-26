@@ -1,8 +1,8 @@
 {
   "schema_version": "commonwealth-historical-chronicle-continuity-v1",
   "year": 2023,
-  "phase": "WEEK_01_04_DRAFT_NONCANON",
-  "story_time_cutoff": "after scoring week 4 only",
+  "phase": "WEEK_01_05_DRAFT_NONCANON",
+  "story_time_cutoff": "after scoring week 5 only",
   "source": {
     "path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
     "blob_sha": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
@@ -15,27 +15,30 @@
     "first_week": "living-novel/historical-chronicle/seasons/2023/weeks/W01.md",
     "second_week": "living-novel/historical-chronicle/seasons/2023/weeks/W02.md",
     "third_week": "living-novel/historical-chronicle/seasons/2023/weeks/W03.md",
-    "fourth_week": "living-novel/historical-chronicle/seasons/2023/weeks/W04.md"
+    "fourth_week": "living-novel/historical-chronicle/seasons/2023/weeks/W04.md",
+    "fifth_week": "living-novel/historical-chronicle/seasons/2023/weeks/W05.md"
   },
   "matchup_coverage": {
     "scoring_weeks_complete": [
       1,
       2,
       3,
-      4
+      4,
+      5
     ],
-    "verified_matchups": 24,
+    "verified_matchups": 30,
     "distinct_slots_per_week": 12,
-    "prose_entries": 24,
+    "prose_entries": 30,
     "week1_complete": true,
     "week2_complete": true,
     "regular_season_week_count": 14,
     "regular_season_matchups_recorded_per_week": 6,
-    "regular_season_matchups_covered": 24,
+    "regular_season_matchups_covered": 30,
     "regular_season_matchups_total": 84,
     "postseason": "NOT_DRAFTED",
     "week3_complete": true,
-    "week4_complete": true
+    "week4_complete": true,
+    "week5_complete": true
   },
   "principal_pov_ids": [
     "CHAR-JAKE-KALOPER"
@@ -52,7 +55,8 @@
     "week3 unapproved river landing, amphitheater, public hearing, market kitchen, observatory and library; no precise Atlas location",
     "week3 named civilians, road ceremony, traveler evacuation and civic arguments are literary invention",
     "week4 public toll concession, weighing house, injured carter, charter hearing, closed passage, flour hold, dismantled amphitheater steps and contested archive: invented historical politics / no approved Atlas ID",
-    "week4 Varn, Sena, ferryman's daughter and supporting residents: invented fictional personalities / not authenticated league-owner counterparts"
+    "week4 Varn, Sena, ferryman's daughter and supporting residents: invented fictional personalities / not authenticated league-owner counterparts",
+    "week5 Mara cartwright, temporary punt built from amphitheater seating, river swelling, broken ferry and concession-holder's temporary waiver: invented events and unnamed Atlas staging"
   ],
   "world_atlas_status": "UNAPPROVED_PROPOSED_STAGING",
   "historical_transactions_asserted": 0,
@@ -62,10 +66,11 @@
     "No certified home flag treated as an Atlas venue",
     "Four distinct 2023 Benedict banners are not conflated into one human owner",
     "No Week 5+ outcome appears in any Week 4 character knowledge",
-    "The new Week 4 manuscript grants interior focalization only to proposed CHAR-JAKE-KALOPER; supporting historical owner identities remain unknown"
+    "The new Week 4 manuscript grants interior focalization only to proposed CHAR-JAKE-KALOPER; supporting historical owner identities remain unknown",
+    "No Week 6+ results enter Week 5 diegetic knowledge; no fabricated owner association beyond user-attested Jake/slot-1 candidate"
   ],
   "protected_manuscripts": "UNCHANGED_BY_WEEK_4_COMMIT; PRIOR_BLOB_MATCHES_MAIN; REVERIFY_IN_CI",
-  "literary_status": "W01_W04_DRAFT_UNREVIEWED",
+  "literary_status": "W01_W05_DRAFT_UNREVIEWED",
   "ci": {
     "tested_commit": "09955de652ec4d583eb9b79b73136f6b84f6740d",
     "novel_ci_run": 40831031518,
@@ -83,7 +88,7 @@
     "independent_umpire": "NOT_OBTAINED",
     "third_week_suite": "ADDED_NOT_YET_OBSERVED_IN_GITHUB_ACTIONS"
   },
-  "next_prose": "2023 Week 4 six individually scored weekly Chronicle scenes; maintain diverse institutions and challenge unapproved road geography",
+  "next_prose": "2023 Week 6 six archival pairings, after Week 5 technical acceptance; sustain ferry/punt consequences and prevent sport scores determining fictional physical world events",
   "literary_output": {
     "prologue_regex_words": 1222,
     "week1_regex_words": 3602,
@@ -115,5 +120,21 @@
     "week3_compatibility_step": "success",
     "test_case_count": 9,
     "caveat": "Evidence certifies technical regression at exact 5066a head; any later metadata/checkpoint commit requires separate CI readback. Independent authors/Umpire/Atlas/Founder not accepted."
+  },
+  "week5_literary_notes": {
+    "title": "The Boat Without a Name",
+    "principal_pov": "CHAR-JAKE-KALOPER",
+    "secondary_owner_povs": 0,
+    "status": "NONCANON_HISTORICAL_ATLAS_EDITORIAL_HOLD",
+    "week5_words_whitespace_including_metadata": 5450,
+    "archival_result_rows_joined": 6,
+    "fictional_consequence": "A real, costly crossing replaces a purely documentary objection: the ferry is lost, private concession liability is triggered, and the city improvises a punt without resolving the legal toll concession."
+  },
+  "ci_week5": {
+    "status": "PENDING_NEW_EXACT_HEAD_WORKFLOW",
+    "suite": "living-novel/historical-chronicle/qa/test_2023_fifth_week.py",
+    "cases": 11,
+    "independent_umpire": "NOT_OBTAINED",
+    "note": "Previous Week 4 CI does not validate these Week 5 changes. Await exact-head Novel OS CI workflow readback."
   }
 }
