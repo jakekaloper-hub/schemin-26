@@ -122,8 +122,8 @@ class Test2023WeekFiveChronicle(unittest.TestCase):
 
     def test_continuity_coverage_increment(self):
         c = self.continuity
-        self.assertIn(c["phase"], ["WEEK_01_05_DRAFT_NONCANON", "WEEK_01_06_DRAFT_NONCANON", "WEEK_01_07_DRAFT_NONCANON", "WEEK_01_08_DRAFT_NONCANON"])
-        self.assertIn(c["story_time_cutoff"], ["after scoring week 5 only", "after scoring week 6 only", "after scoring week 7 only", "after scoring week 8 only"])
+        self.assertIn(c["phase"], ["WEEK_01_05_DRAFT_NONCANON", "WEEK_01_06_DRAFT_NONCANON", "WEEK_01_07_DRAFT_NONCANON", "WEEK_01_08_DRAFT_NONCANON", "WEEK_01_09_DRAFT_NONCANON"])
+        self.assertIn(c["story_time_cutoff"], ["after scoring week 5 only", "after scoring week 6 only", "after scoring week 7 only", "after scoring week 8 only", "after scoring week 9 only"])
         m = c["matchup_coverage"]
         self.assertEqual(m["scoring_weeks_complete"][:5], [1, 2, 3, 4, 5])
         self.assertEqual(m["regular_season_matchups_total"], 84)
