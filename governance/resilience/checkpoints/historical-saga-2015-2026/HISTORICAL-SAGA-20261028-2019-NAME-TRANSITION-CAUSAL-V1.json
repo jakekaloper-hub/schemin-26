@@ -1,0 +1,139 @@
+{
+  "schema_version": "commonwealth-novel-production-v1",
+  "checkpoint_id": "HISTORICAL-SAGA-20261028-2019-NAME-TRANSITION-CAUSAL-V1",
+  "state": "IN_PROGRESS_NONCANON_REVIEW_HOLD",
+  "recorded_local_date": "2026-10-28",
+  "mission": "Founder-authorized Commonwealth Novel historical saga autonomous production",
+  "repository": "jakekaloper-hub/schemin-26",
+  "control_repository": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "primary_pr": 243,
+  "related_issues": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "adjacent_prs": {
+    "chapter_i_candidate": 264,
+    "novel_creative_adapter": 252,
+    "execution_staleness": 261,
+    "preproduction_188": "MERGED_AS_PREPRODUCTION"
+  },
+  "main_baseline_sha": "76c3f614c9eae70ead304c3f4cda7b44a95907e7",
+  "bullpen_main_baseline_sha": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+  "source_authority_matrix_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+  "source_evidence": [
+    {
+      "path": "living-novel/history/HISTORICAL_ERAS.md",
+      "git_blob_sha": "c5dd817a223e54d28ba0377da42b8f2aa6e448ff"
+    },
+    {
+      "path": "living-novel/canon/MASTER_TIMELINE.md",
+      "git_blob_sha": "6808e8699b0c25fe1a85029cda5222dc7144cab7"
+    },
+    {
+      "path": "living-novel/production/full-rewrite-2026/evidence/G01_2019_FULL_WEEKLY_MATCHUPS.json",
+      "git_blob_sha": "1495d61f9be4d01a0b24e9a537e89071c7395af8"
+    },
+    {
+      "path": "living-novel/production/full-rewrite-2026/G04_HISTORICAL_SEASON_STORY_ROOM_PACKETS.json",
+      "git_blob_sha": "79190778ebac9859fb3d560e824f014c793010ae"
+    }
+  ],
+  "outputs": [
+    {
+      "type": "manuscript",
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2019-name-transition/THE_NAME_DID_NOT_CARRY_THE_WEIGHT_CAUSAL_READING_V1_NONCANON.md",
+      "git_blob_sha": "146eeed4ecedb0157693fcdea67696792d65df23"
+    },
+    {
+      "type": "scene_registry",
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2019-name-transition/SCENE_REGISTER_CAUSAL_V1.json",
+      "git_blob_sha": "a4a02069ea4be801d867db7748a389f6bcfa636f"
+    },
+    {
+      "type": "source_editorial_ci_receipt",
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2019-name-transition/SOURCE_EDITORIAL_CI_RECEIPT_V1.md",
+      "git_blob_sha": "9f091703bd3b3e5f597b29398d46cf34d3a4c4a1"
+    },
+    {
+      "type": "nine_case_regression_test",
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/test_2019_name_transition_v1.py",
+      "git_blob_sha": "ce6062ff077c3789552459a52868a34838df70dd"
+    },
+    {
+      "type": "ci_workflow",
+      "path": ".github/workflows/novel-os-ci.yml",
+      "git_blob_sha": "48f9a6cea81969776d48d115f198a908107035bd"
+    }
+  ],
+  "literary_output": {
+    "title": "The Name Did Not Carry the Weight",
+    "historical_year": 2019,
+    "noncanonical": true,
+    "connected_story_words_excluding_provenance": 4199,
+    "movements": 4,
+    "exclusive_principal_pov": [
+      "CHAR-JAKE-KALOPER"
+    ],
+    "known_historical_owner_binding": "USER_ATTESTED_SLOT_1_ONLY",
+    "flaim_scoring_periods": 16,
+    "periods_associated_with_foreground": 12,
+    "background_periods": [
+      7,
+      8,
+      11,
+      13
+    ],
+    "year_rename_cause": "UNKNOWN",
+    "atlas_venue": "PROPOSED_UNAPPROVED"
+  },
+  "technical_proof": {
+    "tested_code_head": "fabac8e9ccb277ac52bfae19cf3c9abdd7f34c41",
+    "novel_os_ci": {
+      "run_id": 40801402526,
+      "conclusion": "SUCCESS",
+      "named_2019_step": "SUCCESS",
+      "tests_passed": 9
+    },
+    "other_successes": [
+      {
+        "name": "Repository Merge Gate",
+        "run_id": 40801402559
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "run_id": 40801402540
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "run_id": 40801402528
+      }
+    ],
+    "note": "These results apply to exact tested code head. Documentation/checkpoint commits after it require fresh CI readback; no tests or independent review are inferred from prose."
+  },
+  "protected": {
+    "original_prologue_chapters_i_iii_unchanged": true,
+    "prior_historical_manuscripts_unchanged": true,
+    "canon_promoted": false,
+    "merged": false,
+    "published": false
+  },
+  "independent_review": "NOT_RECEIVED",
+  "task_registry_note": "NOVEL-POV-MIG-001 IN_PROGRESS with Founder/external gates; NOVEL-NEXT-002 NOT_STARTED dependent on MEMO-W4-002 WAITING_EXTERNAL. Historical #211/#215 lane permits noncanonical prose without editing either task registry status.",
+  "blocked": [
+    "Independent Author Council and independent Umpire literary acceptance not received",
+    "Historical owner human identity beyond user-attested team-1 context unverified",
+    "Historical venue and physical civic sign unapproved",
+    "Founder-only canon promotion/publication gates outstanding"
+  ],
+  "next_actions": [
+    "Read current main and current PR #243 head plus this checkpoint outputs by fresh SHA before adding new work.",
+    "Request actual independent critique of 2019 chapter, especially 2018 motif repetition, Neris agency, Week 10-to-16 coda and source-time scope.",
+    "Do not revise protected Prologue or Chapters I–III; no merge or promotion without independent Umpire and Founder.",
+    "Advance a distinct source-cleared 2020 or 2022 causal manuscript if independent review remains pending."
+  ],
+  "not_evidence_of": "Persistent authenticated agent execution, actual director consultation, human author review, ESPN raw SHA verification, official historical rename motive, physical Atlas authority or full historical chronicle completion"
+}
