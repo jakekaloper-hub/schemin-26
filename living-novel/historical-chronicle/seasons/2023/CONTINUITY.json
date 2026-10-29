@@ -1,0 +1,58 @@
+{
+  "schema_version": "commonwealth-historical-chronicle-continuity-v1",
+  "year": 2023,
+  "phase": "WEEK_01_DRAFT_NONCANON",
+  "story_time_cutoff": "after scoring week 1 only",
+  "source": {
+    "path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+    "blob_sha": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
+    "archival_source": "Flaim ESPN 1417621",
+    "raw_provider_sha": "UNKNOWN",
+    "owner_identity": "UNVERIFIED"
+  },
+  "drafts": {
+    "prologue": "living-novel/historical-chronicle/seasons/2023/PROLOGUE.md",
+    "first_week": "living-novel/historical-chronicle/seasons/2023/weeks/W01.md"
+  },
+  "matchup_coverage": {
+    "week": 1,
+    "verified_matchups": 6,
+    "distinct_slots": 12,
+    "prose_entries": 6,
+    "complete_week1_coverage": true
+  },
+  "principal_pov_ids": [
+    "CHAR-JAKE-KALOPER"
+  ],
+  "principal_pov_caveat": "USER_ATTESTED_SLOT_1_LITERARY_CANDIDATE_NOT_PROVIDER_AUTHENTICATED",
+  "other_owner_povs": "NONE",
+  "other_archive_banner_owner_joins": "UNKNOWN",
+  "fictional_proposals": [
+    "unnamed public waiting bench and cloth awning",
+    "six repaired knots/cords",
+    "workers, herald, and spectators",
+    "weather and commercial board",
+    "dialogue and material consequences"
+  ],
+  "world_atlas_status": "UNAPPROVED_PROPOSED_STAGING",
+  "historical_transactions_asserted": 0,
+  "temporal_negative_guards": [
+    "No Week 2+ outcomes appear within character knowledge",
+    "No 2026 morphologies projected onto 2023 historical names",
+    "El Niño does not speak or occupy a humanoid POV",
+    "No certified home flag treated as an Atlas venue"
+  ],
+  "protected_manuscripts": "UNMODIFIED_READBACK_MATCHES_MAIN",
+  "literary_status": "DRAFT_UNREVIEWED",
+  "ci": {
+    "tested_commit": "d4a12d81288bc1c42b52199dcbf5e7364429761c",
+    "novel_ci_run": 40830388504,
+    "new_suite_tests_passed": 7,
+    "cross_domain_run": 40830388527,
+    "bullpen_runtime_run": 40830388453,
+    "merge_gate_run": 40830388528,
+    "technical": "PASS",
+    "independent_umpire": "NOT_OBTAINED"
+  },
+  "next_prose": "2023 Week 2 six independently sourced narratives; carry forward shelter condition without treating invented location as canonical"
+}
