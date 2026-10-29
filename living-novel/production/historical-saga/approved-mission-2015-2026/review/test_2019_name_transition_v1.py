@@ -28,7 +28,7 @@ PROTECTED = {
 
 def git_blob_sha(path):
     b = path.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(b)).encode() + b"\\0" + b).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(b)).encode() + b"\0" + b).hexdigest()
 
 class Test2019NameTransitionV1(unittest.TestCase):
     @classmethod
@@ -51,7 +51,7 @@ class Test2019NameTransitionV1(unittest.TestCase):
                 self.assertEqual(git_blob_sha(REPO / "living-novel/manuscript" / fn), sha)
 
     def test_substantial_continuous_four_movement_prose(self):
-        headings = re.findall(r"(?m)^## ([IVX]+)\\. ([^\\n]+)$", self.text)
+        headings = re.findall(r"(?m)^## ([IVX]+)\. ([^\n]+)$", self.text)
         self.assertEqual([x[0] for x in headings], ["I", "II", "III", "IV"])
         self.assertEqual([x[1] for x in headings], [
             "The Letters Under the Cloth", "What the Roof Required",
@@ -65,7 +65,7 @@ class Test2019NameTransitionV1(unittest.TestCase):
         self.assertTrue(all(s["pov_character_id"] == "CHAR-JAKE-KALOPER" and
                             s["pov_class"] == "PRINCIPAL_CHARACTER"
                             for s in self.reg["scenes"]))
-        self.assertNotRegex(self.story, r"\\b(?:Edrin|Edin|Master Oren)\\b")
+        self.assertNotRegex(self.story, r"\b(?:Edrin|Edin|Master Oren)\b")
 
     def test_verified_name_change_is_bounded_and_cause_unknown(self):
         self.assertEqual(self.scores["year"], 2019)
@@ -114,7 +114,7 @@ class Test2019NameTransitionV1(unittest.TestCase):
         self.assertEqual(room2019["championship"]["winner_team_id"], 3)
         self.assertEqual(room2019["championship"]["final_scoring_week"], 16)
         self.assertEqual(room2019["championship"]["winner_points"], 158.3)
-        parts = re.split(r"(?m)^## [IVX]+\\. ", self.text)
+        parts = re.split(r"(?m)^## [IVX]+\. ", self.text)
         self.assertEqual(len(parts), 5)
         for passage in parts[1:4]:
             self.assertNotIn("The championship belonged", passage)
