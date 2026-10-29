@@ -1,0 +1,57 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261029-2023-CHRONICLE-W14",
+  "project": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "stage": "2023_REGULAR_SEASON_84_OF_84_FICTION_DRAFTED_POSTSEASON_UNKNOWN",
+  "input": {
+    "previous_w13_head": "0bce665e3cfa22753ea1389f848e8924b59b99f5",
+    "archive_blob_sha": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
+    "w13_story_sha": "819d069735c2f1f72effcd92bc8049fe87fde3df"
+  },
+  "literary": {
+    "title": "The Letters That Would Not Cross",
+    "path": "living-novel/historical-chronicle/seasons/2023/weeks/W14.md",
+    "blob_sha": "99e6f01ab9ef9eceb281cd65bbb4db8829ad6401",
+    "words_including_metadata": 5069,
+    "scenes": 6,
+    "owner_pov": [
+      "CHAR-JAKE-KALOPER"
+    ],
+    "status": "NONCANON_HISTORICAL_ATLAS_HOLD"
+  },
+  "coverage": {
+    "regular_season_weeks_drafted": 14,
+    "fixture_prose_entries": 84,
+    "regular_season_fixtures": 84,
+    "remaining_regular_season": 0,
+    "postseason": "UNVERIFIED_NOT_DRAFTED"
+  },
+  "technical": {
+    "regression": "living-novel/historical-chronicle/qa/test_2023_fourteenth_week.py",
+    "cases": 15,
+    "final_head_CI": "PENDING_ACTUAL_READBACK",
+    "previous_W13_exact_head": "0bce665e3cfa22753ea1389f848e8924b59b99f5",
+    "previous_W13_observed_ci": {
+      "Novel_OS_CI": 40912918285,
+      "Cross_Domain_Authority": 40912918576,
+      "Bullpen_Runtime": 40912918530,
+      "Repository_Merge_Gate": 40912918494
+    }
+  },
+  "gates": {
+    "owner_binding": "UNVERIFIED",
+    "Atlas": "UNAPPROVED",
+    "independent_editor": "NOT_OBSERVED",
+    "independent_umpire": "NOT_OBTAINED",
+    "Founder": "NOT_APPROVED",
+    "merge": "HOLD",
+    "publication": "HOLD"
+  },
+  "next": [
+    "Read exact PR 243 head and four workflow conclusions, inspect Week 14 step. Repair any test defects without changing protected 2026 canon.",
+    "Recover a primary 2023 postseason evidence dataset, do not guess champion; if none, draft noncanon season epilogue only with verified Week 14 cutoff.",
+    "Assess 2023 chronological chapter assembly and twelve owner-POV boundary with separate editorial and historical Atlas challenge.",
+    "Continue other seasons via source-grounded verified matches; never declare saga finished from this single season."
+  ]
+}
