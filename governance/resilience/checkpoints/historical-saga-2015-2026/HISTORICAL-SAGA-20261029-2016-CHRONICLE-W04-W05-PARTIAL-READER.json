@@ -1,0 +1,155 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261029-2016-CHRONICLE-W04-W05-PARTIAL-READER",
+  "project": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "produced_on": "2026-10-29",
+  "continued_from": "HISTORICAL-SAGA-20261029-2016-CHRONICLE-W04-PARTIAL-READER",
+  "stage": "2016_REGULAR_W04_W05_NONCANON_FICTION_AND_PARTIAL_ASSEMBLY_CODE_SHA_CI_PASS_EDITORIAL_HOLD",
+  "authority": {
+    "schemin_main_at_intake": "1c77ae21ef34bf325b93fe0964d4b7ccd6e9e32d",
+    "bullpen_main_at_intake": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "whole_book_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "novel_route": "living-novel/os/SESSION_CONTEXT.md",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "bullpen_commands": "docs/COMMAND_SYSTEM_V2.md",
+    "bullpen_lifecycle": "runtime/lifecycleEngine.js",
+    "related_issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "related_prs": {
+      "historical_draft": 243,
+      "whole_book_prior_merged": 188,
+      "creative_integration_draft": 252,
+      "task_drift_draft": 261
+    }
+  },
+  "archive": {
+    "file": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+    "blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "source_label": "retained Flaim ESPN league 1417621 2016 historical export",
+    "weeks_this_run": [
+      4,
+      5
+    ],
+    "new_regular_season_fixtures_written": 12,
+    "cumulative_2016_regular_season_draft_fixtures": 30,
+    "cumulative_week_coverage": "1-5 inclusive",
+    "regular_season_fixture_total": 78,
+    "historical_human_identity": "NOT_PROVIDER_AUTHENTICATED",
+    "real_world_transaction_or_owner_motives": "NOT_ASSERTED"
+  },
+  "new_literary_production": {
+    "noncanon_fiction_words_including_headers_metadata": 10627,
+    "components": [
+      {
+        "week": 4,
+        "title": "The Portion That Was Missing",
+        "path": "living-novel/historical-chronicle/seasons/2016/weeks/W04.md",
+        "git_blob": "c04700fe674489a5e0aac8f73ce4ddae9ba564eb",
+        "words": 5186,
+        "fixture_scenes": 6
+      },
+      {
+        "week": 5,
+        "title": "The Road That Counted the Absent",
+        "path": "living-novel/historical-chronicle/seasons/2016/weeks/W05.md",
+        "git_blob": "bab0fe58cd46e77950d59fe0359a92efb78bd1ae",
+        "words": 5441,
+        "fixture_scenes": 6
+      }
+    ],
+    "current_assembled_reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/READING_COPY_PROLOGUE_W01_W05_PARTIAL_NONCANON.md",
+      "blob": "aad58b90bab288c865b74dd89236071cd4e1c60a",
+      "whitespace_words_including_assembly_markers": 20327,
+      "exact_component_body_count": 6,
+      "not_full_season": true,
+      "not_causal_novel": true
+    },
+    "prior_partial_reader_retained": "living-novel/historical-chronicle/seasons/2016/READING_COPY_PROLOGUE_W01_W04_PARTIAL_NONCANON.md",
+    "qa_receipts": [
+      "living-novel/historical-chronicle/seasons/2016/W04_SOURCE_QA_RECEIPT.md",
+      "living-novel/historical-chronicle/seasons/2016/W05_SOURCE_QA_RECEIPT.md"
+    ],
+    "fictional_causal_handoff": [
+      "Conditional eastern beam inspection and paper crack seal",
+      "Verified supplier material invoice unpaid, provision collateral only hypothetical fictional Jake's deferred share",
+      "Names/volunteer credits/actual grain count publicly distinct from win-loss records",
+      "An unissued claimant remains missing, without invented death, return, owner identity or criminal allegation",
+      "An absent-claimant entry and perishable-food disposition rule are fictional proposals",
+      "Recount next date witnessed; no unassigned grain collected"
+    ],
+    "exclusive_proposed_interior_pov": "CHAR-JAKE-KALOPER",
+    "historical_slot_one_real_owner_binding": "NOT_PROVIDER_AUTHENTICATED",
+    "physical_atlas_and_era_character_clearance": "HOLD"
+  },
+  "verification": {
+    "tested_code_head": "316a3f557ed061ef4fd5a7ede6e405942b1f30ce",
+    "workflow_conclusions": {
+      "novel_os_ci": {
+        "id": 40942435507,
+        "conclusion": "success",
+        "new_w04_step": "success",
+        "new_w04_reader_step": "success",
+        "new_w05_step": "success",
+        "new_w05_reader_step": "success"
+      },
+      "cross_domain_authority_ci": {
+        "id": 40942435500,
+        "conclusion": "success"
+      },
+      "bullpen_runtime_ci": {
+        "id": 40942435648,
+        "conclusion": "success"
+      },
+      "repository_merge_gate": {
+        "id": 40942435675,
+        "conclusion": "success"
+      }
+    },
+    "new_test_cases_total": 43,
+    "new_test_suites": [
+      "living-novel/historical-chronicle/qa/test_2016_fourth_week.py",
+      "living-novel/historical-chronicle/qa/test_2016_partial_reader.py",
+      "living-novel/historical-chronicle/qa/test_2016_fifth_week.py",
+      "living-novel/historical-chronicle/qa/test_2016_partial_reader_w05.py"
+    ],
+    "observed_failure_and_repair": {
+      "failed_run_id": 40942258749,
+      "failed_step": "Validate 2016 fifth six-match Chronicle installment (noncanon)",
+      "cause": "Case-sensitive expected substring supplied with uppercase letters while comparison string was lowercased (test 15 only)",
+      "fix_sha": "316a3f557ed061ef4fd5a7ede6e405942b1f30ce",
+      "narrative_changed_for_repair": false,
+      "verified_pass_run": 40942435507
+    },
+    "direct_github_branch_vs_main_blob_check": {
+      "PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+    },
+    "post_checkpoint_note": "The checkpoint commit follows tested code SHA; inspect exact final branch HEAD and GitHub workflows again before calling the new HEAD verified."
+  },
+  "gates": {
+    "historical_human_owner_authentication": "HOLD",
+    "history_specific_character_canon": "HOLD",
+    "historical_atlas_spatial_authority": "HOLD",
+    "independent_literary_author_council": "NOT_RECEIVED",
+    "independent_umpire": "NOT_RECEIVED",
+    "founder_canon_promotion": "HOLD",
+    "merge": "HOLD",
+    "public_release": "HOLD"
+  },
+  "next": [
+    "Read exact latest branch head, PR reviews/comments, current main/source matrix and resumed checkpoint; do not repeat Week 4 or Week 5.",
+    "Next eligible manuscript is the 2016 Week 6 six-fixture Chronicle from pinned year-correct historical archive, carrying forward the unpaid invoice, absent claimant and external road accountability without treating them as historical fact.",
+    "Update source-exact partial reader after a new verified full week; retain all existing components, never title it a complete season prematurely.",
+    "Do causality-first literary critique and revisions, not mechanical week=novel-chapter promotion.",
+    "Seek authenticated independent Author/Atlas/Umpire review; no self-review or simulated meeting can satisfy these gates."
+  ]
+}
