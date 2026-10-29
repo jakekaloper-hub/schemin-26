@@ -26,7 +26,7 @@ PREDECESSOR_GIT_SHA = "6b8b59368ad10c19e67c52731539aaed321ea9c3"
 
 def git_blob_sha(path):
     raw = path.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\\0" + raw).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\0" + raw).hexdigest()
 
 class Test2018CausalV2(unittest.TestCase):
     @classmethod
@@ -47,7 +47,7 @@ class Test2018CausalV2(unittest.TestCase):
         self.assertIn("## VIII. The Fourth Return", PREDECESSOR.read_text(encoding="utf-8"))
 
     def test_four_distinct_causal_movements_and_substantial_prose(self):
-        headings = re.findall(r"(?m)^## ([IVX]+)\\. (.+)$", self.story)
+        headings = re.findall(r"(?m)^## ([IVX]+)\. (.+)$", self.story)
         self.assertEqual([a for a, _ in headings], ["I", "II", "III", "IV"])
         self.assertEqual([name for _,name in headings],
                          ["Half a Voice", "A Map That Lied Less", "The Empty Chair", "The Sound That Returned"])
@@ -58,7 +58,7 @@ class Test2018CausalV2(unittest.TestCase):
         self.assertEqual(self.reg["primary_pov_ids"], ["CHAR-JAKE-KALOPER"])
         self.assertEqual({s["pov_character_id"] for s in self.reg["scenes"]}, {"CHAR-JAKE-KALOPER"})
         self.assertTrue(all(s["pov_class"] == "PRINCIPAL_CHARACTER" for s in self.reg["scenes"]))
-        self.assertNotRegex(self.story, r"\\b(?:Edrin|Edin|Master Oren)\\b")
+        self.assertNotRegex(self.story, r"\b(?:Edrin|Edin|Master Oren)\b")
 
     def test_all_sixteen_attested_result_ids_are_accounted_for_without_full_coverage_claim(self):
         before = {event for scene in self.old_reg["scenes"] for event in scene["source_event_ids"]}
@@ -75,11 +75,11 @@ class Test2018CausalV2(unittest.TestCase):
     def test_period_order_and_knowledge_limits(self):
         groups = []
         for scene in self.reg["scenes"]:
-            groups.append([int(re.search(r"-P(\\d+)-", event).group(1))
+            groups.append([int(re.search(r"-P(\d+)-", event).group(1))
                            for event in scene["source_event_ids"]])
         self.assertEqual(groups, [[4, 5], [8, 9], [10, 11, 12], [13, 14, 15, 16]])
-        self.assertNotRegex(self.story, r"\\b202[4-9]\\b")
-        self.assertNotRegex(self.story, r"\\b(?:championship|champion's Belt)\\b")
+        self.assertNotRegex(self.story, r"\b202[4-9]\b")
+        self.assertNotRegex(self.story, r"\b(?:championship|champion's Belt)\b")
 
     def test_narrative_causality_and_clear_fiction_boundary(self):
         for anchor in ["the bell", "map", "the cart", "keeper", "correction"]:
