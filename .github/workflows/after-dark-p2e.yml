@@ -27,5 +27,7 @@ jobs:
           python3 productions/after-dark/test_twelve_context.py
           python3 productions/after-dark/build_story_docket.py
           python3 productions/after-dark/test_story_docket.py
+          python3 productions/after-dark/reconcile_novel_anchors.py
           python3 productions/after-dark/enrich_week7_week8.py
           python3 productions/after-dark/test_story_docket.py
+          python3 productions/after-dark/reconcile_novel_anchors.py
