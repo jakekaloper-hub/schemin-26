@@ -394,12 +394,32 @@
     "fictional_consequence": "A conditional loitering of letters and competing route claims; Jake's former room inventory is completed, but his conditional tenancy at Adra's loft remains provisional. The grounded punt is secured without authorizing passengers; grain is partly delivered and individual disputed wage claims diverge. A daughter changes her own play's ending; Jake returns an unopened letter rather than pretending it belongs to him. River, institution and Atlas matters remain open; this is the end of archived REGULAR-SEASON scoring only."
   },
   "ci_week14": {
-    "status": "PENDING_ACTUAL_CI_READBACK",
+    "status": "SUCCESS_AT_TESTED_COMMIT",
     "suite": "living-novel/historical-chronicle/qa/test_2023_fourteenth_week.py",
     "cases": 15,
     "source_sha": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
     "story_blob_sha": "99e6f01ab9ef9eceb281cd65bbb4db8829ad6401",
     "independent_umpire": "NOT_OBTAINED",
-    "note": "Do not call this passage technically green until the named Week 14 test step and all relevant GitHub workflows are observed at the exact head."
+    "note": "All four workflows and named W14 test step observed SUCCESS at exact 838c1f70 (before new reading-copy regression test). After assembly integrity test and checkpoint amendments, newest HEAD requires its own CI readback. Independent Umpire, Author Council, Atlas, Founder remain HOLD.",
+    "tested_commit": "838c1f70d1b0c7423d5277bd55474a2489946477",
+    "workflow_runs": {
+      "novel_os_ci": 40914144531,
+      "cross_domain_authority": 40914144829,
+      "bullpen_runtime": 40914144810,
+      "repository_merge_gate": 40914145382
+    },
+    "named_week14_step": "success"
+  },
+  "regular_season_reading_copy": {
+    "path": "living-novel/historical-chronicle/seasons/2023/READING_COPY_REGULAR_SEASON_NONCANON.md",
+    "assembly_commit": "838c1f70d1b0c7423d5277bd55474a2489946477",
+    "constituent_manuscripts": 15,
+    "regular_season_weeks": 14,
+    "source_words_whitespace_including_metadata": 73157,
+    "byte_size_utf8": 430180,
+    "status": "NONCANON_SOURCE_READING_COPY_ONLY",
+    "qa": "living-novel/historical-chronicle/qa/test_2023_reading_copy.py",
+    "new_assembly_qa_actual_CI": "PENDING_ACTUAL_READBACK",
+    "postseason": "NOT_DRAFTED"
   }
 }
