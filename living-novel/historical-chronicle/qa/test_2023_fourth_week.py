@@ -107,15 +107,15 @@ class Test2023FourthWeek(unittest.TestCase):
         self.assertIn("Sena", self.prose)
         self.assertIn("ferryman's daughter", self.prose)
 
-    def test_continuity_manifest_is_exact_append(self):
+    def test_continuity_manifest_preserves_week_four_under_later_append(self):
         c = self.continuity
-        self.assertEqual(c["phase"], "WEEK_01_04_DRAFT_NONCANON")
-        self.assertEqual(c["story_time_cutoff"], "after scoring week 4 only")
+        self.assertIn(c["phase"], ["WEEK_01_04_DRAFT_NONCANON", "WEEK_01_05_DRAFT_NONCANON"])
+        self.assertIn(c["story_time_cutoff"], ["after scoring week 4 only", "after scoring week 5 only"])
         m = c["matchup_coverage"]
-        self.assertEqual(m["scoring_weeks_complete"], [1, 2, 3, 4])
-        self.assertEqual(m["verified_matchups"], 24)
-        self.assertEqual(m["prose_entries"], 24)
-        self.assertEqual(m["regular_season_matchups_covered"], 24)
+        self.assertEqual(m["scoring_weeks_complete"][:4], [1, 2, 3, 4])
+        self.assertGreaterEqual(m["verified_matchups"], 24)
+        self.assertGreaterEqual(m["prose_entries"], 24)
+        self.assertGreaterEqual(m["regular_season_matchups_covered"], 24)
         self.assertEqual(m["regular_season_matchups_total"], 84)
         self.assertTrue(m["week4_complete"])
         self.assertEqual(c["historical_transactions_asserted"], 0)
