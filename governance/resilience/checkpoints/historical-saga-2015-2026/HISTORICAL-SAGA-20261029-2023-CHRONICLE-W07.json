@@ -1,7 +1,7 @@
 {
   "schema_version": "commonwealth-novel-production-checkpoint-v1",
   "checkpoint_id": "HISTORICAL-SAGA-20261029-2023-CHRONICLE-W07",
-  "status": "NONCANON_PROSE_DELIVERED_CI_PENDING_INDEPENDENT_EDITORIAL_HOLD",
+  "status": "NONCANON_TECHNICALLY_VERIFIED_INDEPENDENT_EDITORIAL_HOLD",
   "mission": "Bullpen Commonwealth 2023 Historical Chronicle continuation",
   "project": "Schemin '26",
   "repositories": {
@@ -41,8 +41,31 @@
     "suite": "living-novel/historical-chronicle/qa/test_2023_seventh_week.py",
     "cases_written": 12,
     "workflow": ".github/workflows/novel-os-ci.yml",
-    "technical_status": "AWAITING_EXACT_HEAD_CI",
-    "last_code_commit": "e9e9dcbe507d58ba0560be21128ce0f5bbf258fa"
+    "technical_status": "SUCCESS_AT_TESTED_CODE_COMMIT",
+    "last_code_commit": "e9e9dcbe507d58ba0560be21128ce0f5bbf258fa",
+    "tested_commit": "e9e9dcbe507d58ba0560be21128ce0f5bbf258fa",
+    "named_week7_step": "success",
+    "named_prior_2023_chronicle_steps": "success",
+    "workflow_runs": {
+      "Novel OS CI": {
+        "id": 40867465405,
+        "conclusion": "success",
+        "named_week7_step": "success"
+      },
+      "Cross-Domain Authority CI": {
+        "id": 40867465453,
+        "conclusion": "success"
+      },
+      "Bullpen Runtime CI": {
+        "id": 40867465436,
+        "conclusion": "success"
+      },
+      "Repository Merge Gate": {
+        "id": 40867465446,
+        "conclusion": "success"
+      }
+    },
+    "warning": "Prior evidence applies to exact tested code commit e9e9dcbe. Re-read any subsequent branch-head CI; independent Author/Atlas/Umpire/Founder review remains absent."
   },
   "review": {
     "independent_author": "NOT_RECEIVED",
