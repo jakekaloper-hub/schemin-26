@@ -1,8 +1,8 @@
 {
   "schema_version": "commonwealth-historical-chronicle-continuity-v1",
   "year": 2023,
-  "phase": "WEEK_01_06_DRAFT_NONCANON",
-  "story_time_cutoff": "after scoring week 6 only",
+  "phase": "WEEK_01_07_DRAFT_NONCANON",
+  "story_time_cutoff": "after scoring week 7 only",
   "source": {
     "path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
     "blob_sha": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
@@ -17,7 +17,8 @@
     "third_week": "living-novel/historical-chronicle/seasons/2023/weeks/W03.md",
     "fourth_week": "living-novel/historical-chronicle/seasons/2023/weeks/W04.md",
     "fifth_week": "living-novel/historical-chronicle/seasons/2023/weeks/W05.md",
-    "sixth_week": "living-novel/historical-chronicle/seasons/2023/weeks/W06.md"
+    "sixth_week": "living-novel/historical-chronicle/seasons/2023/weeks/W06.md",
+    "seventh_week": "living-novel/historical-chronicle/seasons/2023/weeks/W07.md"
   },
   "matchup_coverage": {
     "scoring_weeks_complete": [
@@ -26,22 +27,24 @@
       3,
       4,
       5,
-      6
+      6,
+      7
     ],
-    "verified_matchups": 36,
+    "verified_matchups": 42,
     "distinct_slots_per_week": 12,
-    "prose_entries": 36,
+    "prose_entries": 42,
     "week1_complete": true,
     "week2_complete": true,
     "regular_season_week_count": 14,
     "regular_season_matchups_recorded_per_week": 6,
-    "regular_season_matchups_covered": 36,
+    "regular_season_matchups_covered": 42,
     "regular_season_matchups_total": 84,
     "postseason": "NOT_DRAFTED",
     "week3_complete": true,
     "week4_complete": true,
     "week5_complete": true,
-    "week6_complete": true
+    "week6_complete": true,
+    "week7_complete": true
   },
   "principal_pov_ids": [
     "CHAR-JAKE-KALOPER"
@@ -60,7 +63,8 @@
     "week4 public toll concession, weighing house, injured carter, charter hearing, closed passage, flour hold, dismantled amphitheater steps and contested archive: invented historical politics / no approved Atlas ID",
     "week4 Varn, Sena, ferryman's daughter and supporting residents: invented fictional personalities / not authenticated league-owner counterparts",
     "week5 Mara cartwright, temporary punt built from amphitheater seating, river swelling, broken ferry and concession-holder's temporary waiver: invented events and unnamed Atlas staging",
-    "week6 punt suspension, material risk, painted-arch brace, creditor inspection, upper-shelf portage and ferrywoman work terms: NONCANON, no Atlas placement"
+    "week6 punt suspension, material risk, painted-arch brace, creditor inspection, upper-shelf portage and ferrywoman work terms: NONCANON, no Atlas placement",
+    "week7 proposed shore-to-shore names, distant couriers, unsafe oar evaluation, conditional wages, civic representation and two-bank claims are NONCANON HISTORICAL ATLAS HOLD"
   ],
   "world_atlas_status": "UNAPPROVED_PROPOSED_STAGING",
   "historical_transactions_asserted": 0,
@@ -72,10 +76,11 @@
     "No Week 5+ outcome appears in any Week 4 character knowledge",
     "The new Week 4 manuscript grants interior focalization only to proposed CHAR-JAKE-KALOPER; supporting historical owner identities remain unknown",
     "No Week 6+ results enter Week 5 diegetic knowledge; no fabricated owner association beyond user-attested Jake/slot-1 candidate",
-    "No Week 7+ result enters Week 6 story-time knowledge; only Jake as proposed exclusive principal viewpoint; Week 6 season banner names are not authenticated real owner identities"
+    "No Week 7+ result enters Week 6 story-time knowledge; only Jake as proposed exclusive principal viewpoint; Week 6 season banner names are not authenticated real owner identities",
+    "No Week 8+ score enters Week 7 characters' knowledge, and only proposed CHAR-JAKE-KALOPER has principal interior viewpoint; human owner assignments unverified"
   ],
   "protected_manuscripts": "UNCHANGED_BY_WEEK_4_COMMIT; PRIOR_BLOB_MATCHES_MAIN; REVERIFY_IN_CI",
-  "literary_status": "W01_W06_DRAFT_UNREVIEWED",
+  "literary_status": "W01_W07_DRAFT_UNREVIEWED",
   "ci": {
     "tested_commit": "09955de652ec4d583eb9b79b73136f6b84f6740d",
     "novel_ci_run": 40831031518,
@@ -93,14 +98,15 @@
     "independent_umpire": "NOT_OBTAINED",
     "third_week_suite": "ADDED_NOT_YET_OBSERVED_IN_GITHUB_ACTIONS"
   },
-  "next_prose": "2023 Week 7: six source-pinned archival pairings, after Week 6 exact-head test verification; consequences of deliberate punt suspension and unsafe work; preserve prior weeks unchanged",
+  "next_prose": "Week 8: six pinned archival fixtures; continue conflicting near/far-bank demands and creditor reply without false transportation resolution",
   "literary_output": {
     "prologue_regex_words": 1222,
     "week1_regex_words": 3602,
     "week2_regex_words": 3072,
     "total_regex_words": 11695,
     "all_counts_include_frontmatter": true,
-    "week3_regex_words": 3799
+    "week3_regex_words": 3799,
+    "week7_regex_words": 6291
   },
   "week3_editorial_status": "SELF_REVIEW_DRAFT_NO_INDEPENDENT_AUTHOR_OR_UMPIRE_APPROVAL",
   "week4_literary_notes": {
@@ -181,5 +187,22 @@
       "repair_commit": "2b9e2c26e2061bdcdf2fe5abefc7aca25d78f4e7"
     },
     "warning": "Verified results apply to exact tested 2b9e2c code; later metadata commit requires fresh CI readback. No literary/Umpire approval."
+  },
+  "week7_literary_notes": {
+    "title": "The Names on Both Banks",
+    "principal_pov": "CHAR-JAKE-KALOPER",
+    "secondary_owner_povs": 0,
+    "status": "NONCANON_HISTORICAL_ATLAS_EDITORIAL_HOLD",
+    "words_including_frontmatter": 6291,
+    "archival_result_rows_joined": 6,
+    "fictional_consequence": "Couriers bring far-bank terms and names while punt remains unsafe, the debt contested, and labor compensation unresolved."
+  },
+  "ci_week7": {
+    "status": "PENDING_EXACT_HEAD_WORKFLOW",
+    "suite": "living-novel/historical-chronicle/qa/test_2023_seventh_week.py",
+    "cases": 12,
+    "independent_umpire": "NOT_OBTAINED",
+    "tested_commit": null,
+    "workflow_runs": null
   }
 }
