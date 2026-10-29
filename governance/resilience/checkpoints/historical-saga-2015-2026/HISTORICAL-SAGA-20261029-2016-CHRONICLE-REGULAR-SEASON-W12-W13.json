@@ -1,0 +1,145 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261029-2016-CHRONICLE-REGULAR-SEASON-W12-W13",
+  "created_date": "2026-10-29",
+  "repo": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "prior_checkpoint": "HISTORICAL-SAGA-20261029-2016-CHRONICLE-W10-W11-PARTIAL-READER",
+  "state": "2016_REGULAR_SEASON_78_OF_78_DRAFT_COMPLETE_SOURCE_EXACT_NONCANON_EDITORIAL_HOLD",
+  "authority": {
+    "schemin_main_read": "1c77ae21ef34bf325b93fe0964d4b7ccd6e9e32d",
+    "bullpen_main_read": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "source_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "project_control": "PROJECT_CONTROL_REGISTRY.md",
+    "novel_pov_law": "living-novel/os/NOVEL_POV_CONSTITUTION_V1.md",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "bullpen_command": "jakekaloper-hub/bullpen/docs/COMMAND_SYSTEM_V2.md",
+    "bullpen_lifecycle": "jakekaloper-hub/bullpen/runtime/lifecycleEngine.js",
+    "issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "prs": {
+      "188": "CLOSED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT",
+      "261": "OPEN_DRAFT"
+    }
+  },
+  "source": {
+    "path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+    "git_blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "source": "retained Flaim/ESPN league 1417621, not fresh ESPN authentication",
+    "years": [
+      2016
+    ],
+    "weeks": [
+      12,
+      13
+    ],
+    "rows": 12,
+    "limits": [
+      "historical human owner identity not provider-authenticated",
+      "multiweek scoring may duplicate matchup periods",
+      "home/away denotes scoring slots, not physical venues"
+    ]
+  },
+  "literary_output": {
+    "week12": {
+      "path": "living-novel/historical-chronicle/seasons/2016/weeks/W12.md",
+      "title": "The Names We Would Not Move",
+      "words_including_heading_notes": 5069,
+      "source_exact_scenes": 6,
+      "blob": "311957166b974f30fff5d615bf8a1072bf936e5e"
+    },
+    "week13": {
+      "path": "living-novel/historical-chronicle/seasons/2016/weeks/W13.md",
+      "title": "The Table That Kept Its Place",
+      "words_including_heading_notes": 3874,
+      "source_exact_scenes": 6,
+      "blob": "eeb336261d44bc92fe688a84e094462f89916581"
+    },
+    "total_new_words_including_notes": 8943,
+    "regular_season_coverage": "78/78 regular-season fixtures across weeks 1-13",
+    "assembled_reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/READING_COPY_REGULAR_SEASON_W01_W13_NONCANON.md",
+      "words_including_assembly": 62518,
+      "pinned_source_exact_components": 14,
+      "parts": "Prologue + Weeks 1-13",
+      "postseason_included": false,
+      "novel_causal_edit_complete": false
+    },
+    "qa_receipt": "living-novel/historical-chronicle/seasons/2016/W12_W13_SOURCE_QA_RECEIPT.md"
+  },
+  "verification": {
+    "four_new_regression_suites": [
+      "living-novel/historical-chronicle/qa/test_2016_twelfth_week.py",
+      "living-novel/historical-chronicle/qa/test_2016_partial_reader_w12.py",
+      "living-novel/historical-chronicle/qa/test_2016_thirteenth_week.py",
+      "living-novel/historical-chronicle/qa/test_2016_regular_season_reader.py"
+    ],
+    "new_test_methods": 36,
+    "novel_os_ci_workflow_steps": "all four named Week 12-13 and reader steps SUCCESS",
+    "tested_code_head": "dfba365309bfee85678ba5a611be2cb428aeec10",
+    "workflows": [
+      {
+        "name": "Novel OS CI",
+        "run_id": 40974764881,
+        "conclusion": "SUCCESS"
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "run_id": 40974764999,
+        "conclusion": "SUCCESS"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "run_id": 40974765179,
+        "conclusion": "SUCCESS"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "run_id": 40974765064,
+        "conclusion": "SUCCESS"
+      }
+    ],
+    "earlier_fail_and_repair": "Novel OS CI run 40974663508 failed two stale Week 13 literal assertions on a0e448c652c5edff1f3daec1f33362e6391c8daf; repaired only tests on dfba365309bfee85678ba5a611be2cb428aeec10, manuscript text unchanged.",
+    "protected_2026_main_equal": true,
+    "protected_prologue_and_chapters": {
+      "PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+    },
+    "last_receipt_commit": "cafbf4501f82eab7ec1aa17ca2a3642307fc3b2b",
+    "checkpoint_inclusive_ci": "CHECK_AFTER_COMMIT; prior tested code SHA is not the newly committed checkpoint SHA",
+    "independent_reviews_received": false
+  },
+  "review_request": {
+    "pr": 243,
+    "issue_comment_id": 6511159364,
+    "url": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6511159364",
+    "type": "REQUEST_ONLY_NOT_APPROVAL"
+  },
+  "holds": {
+    "historical_owner_auth": "HOLD",
+    "period_character": "HOLD",
+    "historical_atlas": "HOLD",
+    "independent_authors": "HOLD",
+    "independent_umpire": "HOLD",
+    "founder_canon": "HOLD",
+    "merge": "HOLD",
+    "publication": "HOLD"
+  },
+  "next": [
+    "Read latest PR head and CI. Do not misattribute observed SUCCESS from tested code SHA to the new checkpoint-inclusive SHA.",
+    "Continue from existing 2016 POSTSEASON.md and EPILOGUE.md, both short provisional drafts; reconstruct substantial source-supported postseason literary fiction before claiming a full-season manuscript.",
+    "Keep non-owner interior POV prohibited and preserve unverified owner/slot identity firewall and 2016 period character/Atlas controls.",
+    "Produce causal, edited novel chapters from season manuscripts without automatic week=chapter mapping, preserve protected 2026 main Prologue and Chapters I-III.",
+    "Seek actual independent Authors Council, historical Character, Atlas and Umpire approval before Founder-only canon gate; do not merge or publish until authorized."
+  ],
+  "no_merge_or_publication": true
+}
