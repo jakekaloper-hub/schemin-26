@@ -419,7 +419,11 @@
     "byte_size_utf8": 430180,
     "status": "NONCANON_SOURCE_READING_COPY_ONLY",
     "qa": "living-novel/historical-chronicle/qa/test_2023_reading_copy.py",
-    "new_assembly_qa_actual_CI": "PENDING_ACTUAL_READBACK",
-    "postseason": "NOT_DRAFTED"
+    "new_assembly_qa_actual_CI": "SUCCESS_AT_TESTED_COMMIT",
+    "postseason": "NOT_DRAFTED",
+    "tested_commit": "eff441478c3cada7b62f725da87e17e5ef098d00",
+    "workflow_run": 40914583499,
+    "test_cases": 8,
+    "byte_identity_verification": "15_OF_15_SHA_AND_CONTENT_EQUAL"
   }
 }
