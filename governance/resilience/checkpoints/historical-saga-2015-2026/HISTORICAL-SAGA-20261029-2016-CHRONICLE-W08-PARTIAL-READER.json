@@ -1,0 +1,112 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261029-2016-CHRONICLE-W08-PARTIAL-READER",
+  "project": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "date": "2026-10-29",
+  "continued_from": "HISTORICAL-SAGA-20261029-2016-CHRONICLE-W07-PARTIAL-READER",
+  "stage": "2016_REGULAR_W08_NINE_PART_READER_TECH_GREEN_EDITORIAL_HOLD",
+  "authority": {
+    "schemin_base_main_at_intake": "8fcb77191955f413fe970154d47632770f923055",
+    "prior_checkpoint_schemin_main": "1c77ae21ef34bf325b93fe0964d4b7ccd6e9e32d",
+    "prior_checkpoint_bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "whole_book_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "matrix_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+    "novel_routes": "living-novel/os/SESSION_CONTEXT.md",
+    "command_registry": "jakekaloper-hub/bullpen/docs/COMMAND_SYSTEM_V2.md",
+    "command_registry_blob": "cccf90a3cadac802767988ceab8f44453aa86819",
+    "lifecycle_engine": "jakekaloper-hub/bullpen/runtime/lifecycleEngine.js",
+    "issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "prs": {
+      "188": "MERGED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT",
+      "261": "OPEN_DRAFT"
+    }
+  },
+  "archive": {
+    "path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+    "blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "week": 8,
+    "fixtures_this_week": 6,
+    "unique_teams": 12,
+    "season_regular_coverage": "48/78",
+    "weeks_in_draft": 8,
+    "historical_owner_identity": "NOT_PROVIDER_AUTHENTICATED",
+    "not_fresh_upstream": true
+  },
+  "literary_output": {
+    "title": "The Song No One Could Sell",
+    "manuscript": "living-novel/historical-chronicle/seasons/2016/weeks/W08.md",
+    "manuscript_blob": "f96082ae79cae7cae5681a8ceec2cd69601ea403",
+    "words_including_notes": 5934,
+    "fixture_scenes": 6,
+    "reader": "living-novel/historical-chronicle/seasons/2016/READING_COPY_PROLOGUE_W01_W08_PARTIAL_NONCANON.md",
+    "reader_blob": "004eeff195a85ef7935ebc31e89137d0f6b9001b",
+    "reader_words_including_assembly": 37588,
+    "reader_components": 9,
+    "reader_is_not_causal_novel": true,
+    "season_not_complete": true,
+    "receipt": "living-novel/historical-chronicle/seasons/2016/W08_SOURCE_QA_RECEIPT.md"
+  },
+  "verification": {
+    "direct_readback": {
+      "all_six_scores_exact": true,
+      "nine_component_bodies_exact": true,
+      "protected_2026_canon_main_equal": 4,
+      "errors": 0
+    },
+    "prior_w07_blob": "6174757e09c9dc9cf2f5e99f8a18a7116d660b73",
+    "tests_added": {
+      "week8": 12,
+      "reader9": 6,
+      "combined": 18
+    },
+    "tested_pre_checkpoint_head": "1e6e424031163f040c373fe4493cd6d47e84eb9f",
+    "workflows_at_tested_pre_checkpoint_head": {
+      "novel_os_ci": {
+        "id": 40958585224,
+        "status": "COMPLETED_SUCCESS",
+        "week8_step": "success",
+        "nine_part_reader_step": "success"
+      },
+      "cross_domain_authority_ci": {
+        "id": 40958585188,
+        "status": "COMPLETED_SUCCESS"
+      },
+      "bullpen_runtime_ci": {
+        "id": 40958585196,
+        "status": "COMPLETED_SUCCESS"
+      },
+      "repository_merge_gate": {
+        "id": 40958585214,
+        "status": "COMPLETED_SUCCESS"
+      }
+    },
+    "final_checkpoint_commit": "PENDING_COMMIT_AND_EXACT_HEAD_VERIFICATION",
+    "independent_review": "NOT_RECEIVED"
+  },
+  "gates": {
+    "historical_owner_authentication": "HOLD",
+    "character_canon_2016": "HOLD",
+    "atlas_2016": "HOLD",
+    "authors_council": "NOT_RECEIVED",
+    "umpire": "NOT_RECEIVED",
+    "founder_promote": "HOLD",
+    "merge": "HOLD",
+    "publication": "HOLD"
+  },
+  "next": [
+    "Check workflow results on exact final checkpoint-inclusive PR head; record further receipts without overclaiming.",
+    "Request actual independent Authors Council, Character, Atlas and Umpire review; self-audit is not acceptance.",
+    "Continue W09 using six pinned 2016 archival fixtures, only one eligible principal interior POV, no owner-identity fabrication.",
+    "Extend reader to W09 by exact component assembly; retain all earlier source blobs and protected 2026 main.",
+    "Evaluate literary causal editing to reduce repetitive moral/procedural dialogue, without auto-converting weeks to chapters."
+  ]
+}
