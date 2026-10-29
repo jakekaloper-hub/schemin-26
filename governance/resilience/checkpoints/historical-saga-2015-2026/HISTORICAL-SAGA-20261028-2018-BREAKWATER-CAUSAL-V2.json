@@ -1,0 +1,96 @@
+{
+  "schema_version": "commonwealth-novel-production-v1",
+  "checkpoint_id": "HISTORICAL-SAGA-20261028-2018-BREAKWATER-CAUSAL-V2",
+  "state": "IN_PROGRESS_NONCANON_REVIEW_HOLD",
+  "recorded_local_date": "2026-10-28",
+  "utc_test_completed": "2026-10-29T00:48:09Z",
+  "mission": "Founder-authorized Commonwealth Novel source-grounded production",
+  "repository": "jakekaloper-hub/schemin-26",
+  "control_repository": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "linked_issue_ids": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "primary_pr": 243,
+  "main_baseline_sha": "76c3f614c9eae70ead304c3f4cda7b44a95907e7",
+  "bullpen_main_baseline_sha": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+  "task_registry_status": "NOVEL-POV-MIG-001 IN_PROGRESS with owner-only gates; NOVEL-NEXT-002 NOT_STARTED stale relative to soft manuscript, NOT AUTO-RECONCILED",
+  "writing_lifecycle": "source-read -> bounded literary production -> preservation/source tests -> independent-review request pending",
+  "outputs": [
+    {
+      "type": "manuscript",
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/THE_NAMES_HE_DID_NOT_KEEP_CAUSAL_READING_CANDIDATE_V2_NONCANON.md",
+      "git_blob_sha": "1d2b1301f0233fbea4b4a64714c51b52a857e7ff",
+      "words_including_frontmatter": 4366,
+      "scenes": 4,
+      "principal_pov": [
+        "CHAR-JAKE-KALOPER"
+      ],
+      "status": "NONCANON"
+    },
+    {
+      "type": "scene_registry",
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/SCENE_REGISTER_CAUSAL_V2.json",
+      "git_blob_sha": "5f02b56893f2e5efe04c45e5e3916489681ce471"
+    },
+    {
+      "type": "qa_test",
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/test_2018_causal_v2.py",
+      "git_blob_sha": "cb645a3269c798cfaa287c80d873766bdafae839",
+      "tests": 8
+    },
+    {
+      "type": "ci_workflow",
+      "path": ".github/workflows/novel-os-ci.yml",
+      "git_blob_sha": "e2e3b1643d95b8980180b96310ddf7f025620847"
+    },
+    {
+      "type": "source_qa_receipt",
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/CAUSAL_V2_SOURCE_EDITORIAL_AND_CI_RECEIPT_2026_10_28.md"
+    }
+  ],
+  "technical_proof": {
+    "exact_tested_commit": "b73b55cd84536090ec6ae866e1ee68b3b8089e5c",
+    "novel_os_ci_run": 40796398333,
+    "job_id": 123193795267,
+    "result": "SUCCESS",
+    "new_suite_tests_passed": 8,
+    "other_success_at_tested_head": [
+      "Cross-Domain Authority CI #40796403470",
+      "Bullpen Runtime CI #40796403507",
+      "Bullpen Runtime CI push #40796398048"
+    ],
+    "documentation_changes_after_tested_commit": true,
+    "independent_literary_review": false
+  },
+  "historical_scope": {
+    "year": 2018,
+    "source": "Existing 2018 SCENE_REGISTER.json / user-attested connected-account Flaim team-1 join",
+    "linked_events": 16,
+    "foreground_event_anchors": 11,
+    "background_event_anchors": 5,
+    "human_owner_identity": "NOT_INDEPENDENTLY_AUTHENTICATED",
+    "historic_venue": "PROPOSED_UNAPPROVED",
+    "sports_results": "NO NEW ESPN DATA OR OPPONENT IDENTITIES"
+  },
+  "preserved": {
+    "hard_canon_prologue_chapters_i_iii": true,
+    "previous_2018_eight_vignette_draft_unchanged": true,
+    "main_unmodified": true,
+    "canon_promoted": false,
+    "merged": false,
+    "published": false
+  },
+  "blocked": [
+    "Independent Author Council/Umpire signoff not received",
+    "Atlas historical harbor/tower venue status unapproved",
+    "Historical human owner identity beyond user-attested team-1 connected-account remains unknown",
+    "Founder-only canon promotion/publication gate"
+  ],
+  "next_action": "Continue PR #243 rather than opening competing PR. Seek actual independent literary findings on 2018 four-movement causal V2; revise prose only against evidence-based editorial findings. Alternatively produce next substantial source-cleared historical chapter while keeping gates and protected canon intact.",
+  "not_evidence_of": "ongoing autonomous worker, author acceptance, live Bullpen Director invocation, ESPN refresh, complete historical saga, passed deployment"
+}
