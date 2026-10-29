@@ -25,3 +25,5 @@ jobs:
           node productions/after-dark/validate_p3c_narrative.cjs
           python3 productions/after-dark/compile_twelve_context.py
           python3 productions/after-dark/test_twelve_context.py
+          python3 productions/after-dark/build_story_docket.py
+          python3 productions/after-dark/test_story_docket.py
