@@ -40,14 +40,22 @@
   "evidence_state": {
     "self_checked_story_scores": true,
     "all_source_fields_from_archived_week11": true,
-    "GitHub_CI": "PENDING_EXACT_HEAD_WORKFLOW",
+    "GitHub_CI": "SUCCESS_AT_OBSERVED_TESTED_HEAD_9c4d263b",
     "independent_editorial": "NOT_OBTAINED",
     "atlas": "UNAPPROVED",
     "umpire": "NOT_ACCEPTED",
     "founder": "NOT_APPROVED",
     "merge": "HOLD",
     "publication": "HOLD",
-    "authenticated_bullpen_session": "NOT_OBSERVED"
+    "authenticated_bullpen_session": "NOT_OBSERVED",
+    "workflow_runs": {
+      "novel_os_ci": 40903403735,
+      "cross_domain_authority": 40903403744,
+      "bullpen_runtime": 40903403947,
+      "repository_merge_gate": 40903403736
+    },
+    "independent_review": "NOT_OBTAINED",
+    "caveat": "Technical approval at exact 9c4d263b; no canon/Atlas/editorial/Umpire approval. This checkpoint metadata updated in later commit."
   },
   "next": [
     "Read exact PR #243 head; confirm all workflows, fix actual CI failures and update receipt accurately.",

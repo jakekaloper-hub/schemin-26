@@ -44,14 +44,22 @@
     "compatibility_tests": "W03-W11"
   },
   "status": {
-    "GitHub_CI": "PENDING_EXACT_HEAD_WORKFLOW",
+    "GitHub_CI": "SUCCESS_AT_OBSERVED_TESTED_HEAD_e64bba07",
     "independent_review": "NONE",
     "Atlas": "UNAPPROVED",
     "umpire": "NOT_ACCEPTED",
     "founder": "NOT_APPROVED",
     "merge": "HOLD",
     "publication": "HOLD",
-    "authenticated_Bullpen_directors": "NOT_OBSERVED"
+    "authenticated_Bullpen_directors": "NOT_OBSERVED",
+    "workflow_runs": {
+      "novel_os_ci": 40904717497,
+      "cross_domain_authority": 40904717118,
+      "bullpen_runtime": 40904716833,
+      "repository_merge_gate": 40904717456
+    },
+    "technical_negative_case": "First W12 test head c35221a3 failed assertion wording only (CI #40904551531); corrected in e64bba07, all 14 cases passed with named W12 step success.",
+    "caveat": "Exact-code CI evidence applies to e64bba07; metadata-only follow-up commit must be separately checked. Independent Authors Council, Atlas, Umpire, Founder approval not observed."
   },
   "next": [
     "Read final PR #243 exact head and four GitHub workflows; inspect named Week 12 step, repair any observed test failure.",

@@ -312,11 +312,19 @@
     "fictional_consequence": "An itinerant theater and disputed orchard recenter the city's political narrative around custody and voluntary aid, culminating in a non-crossing walk and refusal to misrepresent far-bank consent. The ferry remains grounded."
   },
   "ci_week11": {
-    "status": "PENDING_EXACT_HEAD_WORKFLOW",
+    "status": "SUCCESS_AT_TESTED_COMMIT",
     "suite": "living-novel/historical-chronicle/qa/test_2023_eleventh_week.py",
     "cases": 13,
     "independent_umpire": "NOT_OBTAINED",
-    "note": "No GitHub CI result can be claimed until workflow runs complete at an observed exact head."
+    "note": "No GitHub CI result can be claimed until workflow runs complete at an observed exact head.",
+    "tested_commit": "9c4d263ba2d75077587a55f3d92e4744b6be6029",
+    "workflow_runs": {
+      "novel_os_ci": 40903403735,
+      "cross_domain_authority": 40903403744,
+      "bullpen_runtime": 40903403947,
+      "repository_merge_gate": 40903403736
+    },
+    "test_evidence": "14 named cases passed; all four GitHub workflows success at same head; independent review not obtained."
   },
   "week12_literary_notes": {
     "title": "The House That Could Not Be Locked",
@@ -327,10 +335,19 @@
     "fictional_consequence": "Jake's fictional lodging becomes subject to inventory and he moves temporarily to the foundry; a ruined shed gains safe unheated shelter but not a certified hearth. The lender's claim persists and unsafe river crossing remains closed."
   },
   "ci_week12": {
-    "status": "PENDING_EXACT_HEAD_WORKFLOW",
+    "status": "SUCCESS_AT_TESTED_COMMIT",
     "suite": "living-novel/historical-chronicle/qa/test_2023_twelfth_week.py",
-    "cases": 13,
+    "cases": 14,
     "independent_umpire": "NOT_OBTAINED",
-    "note": "No CI success is claimed until authenticated Actions readback at exact head."
+    "note": "Authenticated exact-code SHA e64bba07: Novel OS named W12 step passed, all four workflows completed success. Subsequent metadata commit requires separate exact-head CI readback. No independent editorial/Atlas/Umpire approval.",
+    "tested_commit": "e64bba07f24703089432c8b5a2891fc9cbd50ef5",
+    "workflow_runs": {
+      "novel_os_ci": 40904717497,
+      "cross_domain_authority": 40904717118,
+      "bullpen_runtime": 40904716833,
+      "repository_merge_gate": 40904717456
+    },
+    "initial_failed_run": 40904551531,
+    "initial_failure": "One text-only assertion expected 'not a safe operating hearth' but actual manuscript says 'no safe operating hearth'; corrected test literal at e64bba07 without changing story."
   }
 }
