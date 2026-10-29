@@ -74,8 +74,34 @@
       "failure": "Week14 losing home-team margin sign asserted backward"
     },
     "repair_commit": "cf69b47e3bfb3ce74fe3d7be8a5e631dfd9f86a8",
-    "latest_ci_status": "PENDING_OBSERVATION_AFTER_REPAIR",
-    "other_workflows": "DO_NOT_INFER_LATEST_HEAD_SUCCESS"
+    "latest_ci_status": "SUCCESS_OBSERVED_AT_COMPLETE_PRIOR_CHECKPOINT_HEAD",
+    "other_workflows": "DO_NOT_INFER_LATEST_HEAD_SUCCESS",
+    "observed_tested_head_sha": "1f1c9e753d11f5f062898332ab3d37b62e8bf7b4",
+    "workflows": [
+      {
+        "name": "Novel OS CI",
+        "run_id": 40813207610,
+        "conclusion": "success",
+        "named_2021_test_step": "success"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "run_id": 40813207528,
+        "conclusion": "success"
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "run_id": 40813207613,
+        "conclusion": "success"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "run_id": 40813207622,
+        "conclusion": "success"
+      }
+    ],
+    "ancillary_checks": "Three Netlify scheminnovel preview rules checks FAILED on tested head; unrelated to four passing GitHub workflows and NOT a full-release green.",
+    "qualifier": "Observed at exact branch head before this checkpoint metadata update; re-check latest head CI on resume. No independent Umpire acceptance."
   },
   "review": {
     "independent_editorial": "PENDING_NO_AUTHENTICATED_REVIEW",
@@ -86,7 +112,10 @@
       "Atlas venues and historical technology unapproved.",
       "Teams 5,8 and 1 historical human ownership unresolved.",
       "Chronicle six-fixture per week requirement not closed."
-    ]
+    ],
+    "pr_review_request_comment_id": 6487218578,
+    "pr_review_request_url": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6487218578",
+    "independent_reviews_observed": 0
   },
   "protected_prologue_and_chapters_i_to_iii": "PRESERVED_TESTED_BY_PRIOR_BRANCH_CHECKS_AND_NEW_REGRESSION_SUITE",
   "adjacent_prs": {
@@ -99,6 +128,6 @@
   "founder_canon_promotion": "NOT_AUTHORIZED",
   "merge": "NOT_AUTHORIZED",
   "publication": "NOT_AUTHORIZED",
-  "continuation_instruction": "Inspect CI for exact source/test head after Week14 assertion correction; repair any actual failures. Obtain independent editorial/Umpire challenge to 2021 lamp narrative. If blocked by independent acceptance, continue substantial source-cleared 2022 or 2026 prose. No reinterpretation of team slot as historical owner; no 2022 El Niño humanoid principal POV; no protected hard manuscript change.",
+  "continuation_instruction": "Read exact current PR #243 head and checks after this metadata update. Four core workflows succeeded at prior head 1f1c9e7; three Netlify scheminnovel preview checks failed and must not be called green. The nine-case 2021 novel guard suite passed; independent editorial/Umpire response remains absent. Continue source-cleared 2022/2026 manuscript on existing production lane, preserving owner, storm-POV, Atlas and Founder promotion gates.",
   "explicit_non_completion": "One selective 2021 causal chapter; not a complete seasonal chronicle, published novel, canon acceptance or historical owner identification."
 }
