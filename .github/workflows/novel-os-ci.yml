@@ -86,3 +86,5 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_second_week.py" -v
       - name: Validate 2023 third six-match Chronicle installment (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_third_week.py" -v
+      - name: Validate 2023 fourth six-match Chronicle installment (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_fourth_week.py" -v
