@@ -114,7 +114,10 @@ class Test2023SixthWeek(unittest.TestCase):
         self.assertTrue(m["week6_complete"])
         self.assertEqual(c["principal_pov_ids"], ["CHAR-JAKE-KALOPER"])
         self.assertEqual(c["historical_transactions_asserted"], 0)
-        self.assertEqual(c["ci_week6"]["status"], "PENDING_EXACT_HEAD_WORKFLOW")
+        self.assertIn(c["ci_week6"]["status"], ["PENDING_EXACT_HEAD_WORKFLOW", "SUCCESS_AT_TESTED_COMMIT"])
+        if c["ci_week6"]["status"] == "SUCCESS_AT_TESTED_COMMIT":
+            self.assertRegex(c["ci_week6"]["tested_commit"], r"^[a-f0-9]{40}$")
+            self.assertEqual(c["ci_week6"]["workflow_runs"]["novel_os_ci"], 40859837525)
         self.assertEqual(c["ci_week6"]["independent_umpire"], "NOT_OBTAINED")
 
     def test_protected_hard_canon_byte_stability(self):

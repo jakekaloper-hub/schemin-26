@@ -25,7 +25,7 @@ The new dramatic answer is **a suspension of crossing**, not another signed decl
 
 ## Automated verification contract
 
-New `living-novel/historical-chronicle/qa/test_2023_sixth_week.py` defines **10** deterministic cases covering source blob, slot completeness, score/winner/margins, six substantive scenes, 2–4 sequence, source/fiction firewall, POV law, Week 7 spoiler prevention, prior Week 5 bytes, continuity 36/84, and protected hard-canon blobs. It is registered as its own Novel OS CI step. Prior Week 3–5 suites are changed only to accept a longer append-only coverage prefix; their original source assertions remain. All tests are **PENDING ACTUAL EXACT-COMMIT CI** until independent GitHub workflow results are read back.
+New `living-novel/historical-chronicle/qa/test_2023_sixth_week.py` defines **10** deterministic cases covering source blob, slot completeness, score/winner/margins, six substantive scenes, 2–4 sequence, source/fiction firewall, POV law, Week 7 spoiler prevention, prior Week 5 bytes, continuity 36/84, and protected hard-canon blobs. It is registered as its own Novel OS CI step. Prior Week 3–5 suites are changed only to accept a longer append-only coverage prefix; their original source assertions remain. At initial manuscript commit the tests were pending observation. Initial Novel OS CI **failed** because an existing Week 4 test rejected the valid Week 6 story-time cutoff; this was diagnosed and repaired. At exact repaired code commit `2b9e2c26e2061bdcdf2fe5abefc7aca25d78f4e7`, the ten-case named Week 6 suite **passed**, alongside Week 3–5 compatibility and the rest of Novel OS CI. The other three workflows also succeeded. This is technical test evidence, not independent literary/Umpire clearance.
 
 ## Adversarial SELF-review (not an independent critic or Umpire)
 
@@ -38,3 +38,15 @@ New `living-novel/historical-chronicle/qa/test_2023_sixth_week.py` defines **10*
 **Independent gates still open:** historical owner identity verification, 2023 Atlas spatial consistency, independent literary assessment, actual Umpire acceptance, and Founder-only canon/release permission. No merge, canon promotion or publication is requested.
 
 **Next:** Re-read exact PR head and all named CI results; repair any genuine failures. Obtain independent review if possible. Then write the 2023 Week 7 six-result Chronicle with a different dramatic center while keeping the grounded Week 6 suspension as a live consequence.
+
+## Direct post-repair GitHub Actions readback — 2026-10-29
+
+- **Failure observed:** [Novel OS CI #40859676343](https://github.com/jakekaloper-hub/schemin-26/actions/runs/40859676343) on initial manuscript commit `97342e1c7e849158129c5a6957ab467735d11a16`. Week 4 compatibility assertion had an obsolete cutoff allow-list; prior Week 4 source, scores, protected bytes and independent hold remained intact.
+- **Repaired test:** `living-novel/historical-chronicle/qa/test_2023_fourth_week.py` now permits the appended Week 6 cutoff, not an altered Week 4 source.
+- **Exact validated code SHA:** `2b9e2c26e2061bdcdf2fe5abefc7aca25d78f4e7`.
+- [Novel OS CI #40859837525](https://github.com/jakekaloper-hub/schemin-26/actions/runs/40859837525): **success**, specifically named 2023 Week 6 test step **success**.
+- [Cross-Domain Authority CI #40859837515](https://github.com/jakekaloper-hub/schemin-26/actions/runs/40859837515): **success**.
+- [Bullpen Runtime CI #40859837460](https://github.com/jakekaloper-hub/schemin-26/actions/runs/40859837460): **success**.
+- [Repository Merge Gate #40859837472](https://github.com/jakekaloper-hub/schemin-26/actions/runs/40859837472): **success**.
+- Direct blob comparisons against current main: Prologue, Chapters I, II and III remain **byte-identical** (all four matching Git blob SHAs).
+- **Important:** a later metadata/checkpoint commit does not inherit this SHA's green state; recheck any final exact head. No independent authors or Umpire have accepted the manuscript.

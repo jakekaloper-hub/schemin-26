@@ -162,12 +162,24 @@
     "fictional_consequence": "The ferrywoman rejects unsafe passage and forces a three-part reckoning over loading, repairs and labor compensation; the punt is deliberately grounded; no false reconciliation of charter or debt."
   },
   "ci_week6": {
-    "status": "PENDING_EXACT_HEAD_WORKFLOW",
+    "status": "SUCCESS_AT_TESTED_COMMIT",
     "suite": "living-novel/historical-chronicle/qa/test_2023_sixth_week.py",
     "cases": 10,
     "independent_umpire": "NOT_OBTAINED",
-    "tested_commit": null,
-    "workflow_runs": null,
-    "warning": "All PASS claims require exact committed SHA and observed GitHub Actions; no self-review substitutes for independent Umpire."
+    "tested_commit": "2b9e2c26e2061bdcdf2fe5abefc7aca25d78f4e7",
+    "workflow_runs": {
+      "novel_os_ci": 40859837525,
+      "cross_domain_authority": 40859837515,
+      "bullpen_runtime": 40859837460,
+      "repository_merge_gate": 40859837472
+    },
+    "named_week6_step": "success",
+    "initial_failure": {
+      "commit": "97342e1c7e849158129c5a6957ab467735d11a16",
+      "run_id": 40859676343,
+      "root_cause": "Week 4 append regression cutoff list omitted after scoring week 6 only",
+      "repair_commit": "2b9e2c26e2061bdcdf2fe5abefc7aca25d78f4e7"
+    },
+    "warning": "Verified results apply to exact tested 2b9e2c code; later metadata commit requires fresh CI readback. No literary/Umpire approval."
   }
 }

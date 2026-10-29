@@ -1,7 +1,7 @@
 {
   "schema_version": "commonwealth-novel-production-checkpoint-v1",
   "checkpoint_id": "HISTORICAL-SAGA-20261029-2023-CHRONICLE-W06",
-  "status": "NONCANON_TECHNICAL_CI_PENDING_INDEPENDENT_REVIEW_HOLD",
+  "status": "NONCANON_TECHNICAL_VERIFIED_INDEPENDENT_EDITORIAL_HOLD",
   "mission": "Commonwealth historical novel production: 2023 Chronicle continuation",
   "project": "Schemin '26",
   "workflow": "historical-saga-2015-2026",
@@ -26,9 +26,9 @@
   },
   "outputs": {
     "living-novel/historical-chronicle/seasons/2023/weeks/W06.md": "87f8ee0b654d5e259af06e672996c58db85b81b0",
-    "living-novel/historical-chronicle/seasons/2023/weeks/W06_SOURCE_QA_RECEIPT.md": "1ca3e0a9a71bfccef57a5f0b1de0e9e418070a56",
-    "living-novel/historical-chronicle/qa/test_2023_sixth_week.py": "5b9b9096e470522b48b9b09d7928e9cf405d2565",
-    "living-novel/historical-chronicle/seasons/2023/CONTINUITY.json": "b90441b214c8c0ed2cb1b94f060ae93bbc1fe290",
+    "living-novel/historical-chronicle/seasons/2023/weeks/W06_SOURCE_QA_RECEIPT.md": "343ff1fee347b261e63d5f185f67f98bb8a1e71f",
+    "living-novel/historical-chronicle/qa/test_2023_sixth_week.py": "e2639a58d495062dc96f6fe73610f4d1b9f9b962",
+    "living-novel/historical-chronicle/seasons/2023/CONTINUITY.json": "a2d8384cd34491cec109bb118978c5ad35a0e81e",
     ".github/workflows/novel-os-ci.yml": "3a695d488656573bb8de09aca499e749f6b93a8c",
     "living-novel/historical-chronicle/qa/test_2023_third_week.py": "b6e99104ffef3c321589a04cdec504e27bbde7b8",
     "living-novel/historical-chronicle/qa/test_2023_fourth_week.py": "d1e2f140c21e7ec121ee0ae2c97acbca063495d5",
@@ -59,26 +59,42 @@
     "historical_owner_joins": "UNAUTHENTICATED"
   },
   "ci": {
-    "status": "PENDING_EXACT_HEAD_CHECK",
-    "tests_registered": 10,
-    "named_step": "Validate 2023 sixth six-match Chronicle installment (noncanon)",
-    "required_workflows": [
-      "Novel OS CI",
-      "Cross-Domain Authority CI",
-      "Bullpen Runtime CI",
-      "Repository Merge Gate"
-    ],
-    "prior_head_verification": {
-      "sha": "43a8f6aff787e01a70e8f1a329e633d212cdc444",
-      "workflow_conclusions": "FOUR_SUCCESSFUL"
-    }
+    "status": "SUCCESS_AT_TESTED_CODE_COMMIT",
+    "exact_tested_commit": "2b9e2c26e2061bdcdf2fe5abefc7aca25d78f4e7",
+    "observed_failure": {
+      "commit": "97342e1c7e849158129c5a6957ab467735d11a16",
+      "novel_os_workflow": 40859676343,
+      "root_cause": "stale Week 4 cutoff expectation",
+      "repair_commit": "2b9e2c26e2061bdcdf2fe5abefc7aca25d78f4e7"
+    },
+    "verified_runs": {
+      "Novel OS CI": {
+        "id": 40859837525,
+        "conclusion": "success",
+        "named_week6_step": "success"
+      },
+      "Cross-Domain Authority CI": {
+        "id": 40859837515,
+        "conclusion": "success"
+      },
+      "Bullpen Runtime CI": {
+        "id": 40859837460,
+        "conclusion": "success"
+      },
+      "Repository Merge Gate": {
+        "id": 40859837472,
+        "conclusion": "success"
+      }
+    },
+    "warning": "Do not transfer green verdict from 2b9e code commit to later metadata commit; re-read final exact-head workflows."
   },
   "review": {
     "independent_editor": "NOT_RECEIVED",
     "umpire": "NOT_ACCEPTED",
     "founder_canon": "NOT_AUTHORIZED",
     "merge": "HOLD",
-    "publish": "HOLD"
+    "publish": "HOLD",
+    "request_url": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6494520555"
   },
   "invalidation_triggers": [
     "archival source blob changed",
@@ -89,8 +105,15 @@
     "CI failure at actual commit"
   ],
   "next": [
-    "Read exact newly committed head workflow runs and repair any failures; do not presume green.",
-    "Request independent literary and Umpire challenge; do not self-certify.",
-    "Continue substantial 2023 Week 7 Chronicle if current source and continuity remain valid; do not automatically promote or publish."
-  ]
+    "Observe exact final metadata/checkpoint SHA workflows and named Week 6 regression; repair if failure.",
+    "Seek genuinely independent literary/Atlas/Umpire decision; absent acceptance keep draft HOLD.",
+    "Write 2023 Week 7 from six pinned archival fixtures as new noncanonical prose, with different dramatic stakes and no future knowledge.",
+    "Never merge, release or auto-promote drafts without Founder approval."
+  ],
+  "protected_manuscripts_verified_against_main": {
+    "PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+    "CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+    "CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+    "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+  }
 }
