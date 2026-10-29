@@ -43,7 +43,7 @@ class Test2023NinthWeek(unittest.TestCase):
         self.assertEqual(git_blob(ARCHIVE), SOURCE_SHA)
         self.assertEqual(self.archive["source"], "Flaim ESPN 1417621")
         self.assertEqual(self.archive["year"], 2023)
-        self.assertIn("Raw ESPN SHA unavailable", "Raw ESPN SHA unavailable")
+        self.assertIn("Raw ESPN SHA unavailable", self.archive["limits"])
 
     def test_six_matchups_have_all_twelve_disjoint_archive_slots(self):
         self.assertEqual(len(self.rows), 6)
