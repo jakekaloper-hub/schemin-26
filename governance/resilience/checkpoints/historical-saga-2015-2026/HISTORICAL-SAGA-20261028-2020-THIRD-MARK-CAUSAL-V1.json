@@ -1,0 +1,125 @@
+{
+  "schema_version": "commonwealth-novel-production-v1",
+  "checkpoint_id": "HISTORICAL-SAGA-20261028-2020-THIRD-MARK-CAUSAL-V1",
+  "state": "IN_PROGRESS_NONCANON_REVIEW_HOLD",
+  "recorded_local_date": "2026-10-28",
+  "mission": "Founder-authorized Commonwealth Novel autonomous source-bounded literary production",
+  "repository": "jakekaloper-hub/schemin-26",
+  "control_repository": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "primary_pr": 243,
+  "entry_branch_head": "970df94d0257c2a406f246be7412fd2fdd7b614f",
+  "branch_head_before_checkpoint": "fd5cbcf7d0cea8056e08c62f1ab686b656fe8ebf",
+  "main_baseline_sha": "76c3f614c9eae70ead304c3f4cda7b44a95907e7",
+  "bullpen_main_baseline_sha": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+  "source_authority_matrix": {
+    "path": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "git_blob_sha": "67fcd669dc7b43393f2d15e93545301961dd81e4"
+  },
+  "sources": [
+    {
+      "path": "living-novel/production/full-rewrite-2026/evidence/G01_2020_FULL_WEEKLY_MATCHUPS.json",
+      "git_blob_sha": "be865764154825b5ba6a635a6ef5562d26dbbbcb"
+    },
+    {
+      "path": "living-novel/production/full-rewrite-2026/G04_HISTORICAL_SEASON_STORY_ROOM_PACKETS.json",
+      "git_blob_sha": "79190778ebac9859fb3d560e824f014c793010ae"
+    },
+    {
+      "path": "living-novel/history/OWNER_LINEAGE.md",
+      "git_blob_sha": "be68b2b2c836592ed872e32b6216af238a0cd64c"
+    },
+    {
+      "path": "living-novel/characters/01_JAKE_KALOPER.md",
+      "git_blob_sha": "a7cb2a40c28e4976a0674e3120bf07ea16e4e175"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2020-third-mark/THE_THIRD_MARK_CAUSAL_READING_V1_NONCANON.md",
+      "git_blob_sha": "ccd8f34828748b38cd64e0e3f33ebd64b12dd488"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2020-third-mark/SCENE_REGISTER_CAUSAL_V1.json",
+      "git_blob_sha": "cce62367f7c91d20a3ba4bef9a647f84243631c2"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2020-third-mark/SOURCE_EDITORIAL_QA_RECEIPT_V1.md",
+      "git_blob_sha": "46fa94b79f913ba686e8f3a42175609460d6bd05"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/test_2020_third_mark_v1.py",
+      "git_blob_sha": "03fa8892962cc5c660b5415a965fd40a5a671871"
+    },
+    {
+      "path": ".github/workflows/novel-os-ci.yml",
+      "git_blob_sha": "7e6587e00e38b53c8d71ce183b2986734260b7aa"
+    }
+  ],
+  "related_issues": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "adjacent_prs": {
+    "historical_saga": 243,
+    "chapter_i": 264,
+    "creative_context": 252,
+    "staleness_checker": 261,
+    "whole_book_188": "MERGED_PREPRODUCTION_ONLY"
+  },
+  "literary_output": {
+    "title": "The Third Mark",
+    "historical_year": 2020,
+    "narrative_words": 3821,
+    "movements": 4,
+    "exclusive_pov_ids": [
+      "CHAR-JAKE-KALOPER"
+    ],
+    "historical_owner_binding": "USER_ATTESTED_SLOT_1_ONLY_NOT_RAW_PROVIDER_AUTHENTICATED",
+    "foreground_periods": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      13,
+      14,
+      15,
+      16
+    ],
+    "background_periods": [
+      8,
+      11,
+      12
+    ],
+    "period14": "UNPAIRED_OPPONENT_ABSENT_WINNER_UNDECIDED_NO_FABRICATED_WIN",
+    "championship": "TEAM_10_189.19_BEATS_TEAM_8_188.44",
+    "venue_status": "PROPOSED_UNAPPROVED",
+    "full_season_coverage_claim": false
+  },
+  "authenticated_readback_preflight": {
+    "four_movements": true,
+    "narrative_min_words": true,
+    "all_team1_periods_accounted": true,
+    "week14_unpaired": true,
+    "champion_time_gated": true
+  },
+  "technical_ci": {
+    "status": "PENDING_ACTUAL_GITHUB_ACTIONS_READBACK_AFTER_CHECKPOINT_COMMIT",
+    "new_test_count": 9,
+    "check_name": "Validate 2020 third-place causal reading V1 (noncanon)"
+  },
+  "independent_umpire_review": "PENDING_NO_AUTHENTICATED_REVIEW",
+  "founder_canon_promotion": "NOT_AUTHORIZED",
+  "merge": "NOT_AUTHORIZED",
+  "publication": "NOT_AUTHORIZED",
+  "continuation_instruction": "Read exact final-head CI and fix observed failures, then independently challenge Sera's agency and chapter pace. If independent review not available, continue 2021 or 2026 source-cleared prose. Never invent Week14 opponent, historical owner, or Atlas venue; preserve hard Prologue and I-III.",
+  "explicit_non_completion": "One chapter, not full 2020 chronicle; historical owner binding, Atlas approval, independent review and publication outstanding."
+}
