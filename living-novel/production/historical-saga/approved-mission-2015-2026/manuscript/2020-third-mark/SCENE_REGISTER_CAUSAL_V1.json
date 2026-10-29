@@ -52,8 +52,7 @@
     13,
     14,
     15,
-    16,
-    17
+    16
   ],
   "background_unforegrounded_weeks": [
     8,
@@ -237,5 +236,12 @@
   "independent_umpire_acceptance": false,
   "founder_canon_promotion": false,
   "canonical_merge": false,
-  "publication_authorized": false
+  "publication_authorized": false,
+  "empty_source_weeks": [
+    {
+      "week": 17,
+      "matchups": 0,
+      "interpretation": "EMPTY_PROVIDER_WEEK_CONTAINER_NOT_A_PLAYED_CONTEST_OR_TEAM_1_SCORING_EVENT"
+    }
+  ]
 }
