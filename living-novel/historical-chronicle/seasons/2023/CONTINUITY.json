@@ -198,11 +198,19 @@
     "fictional_consequence": "Couriers bring far-bank terms and names while punt remains unsafe, the debt contested, and labor compensation unresolved."
   },
   "ci_week7": {
-    "status": "PENDING_EXACT_HEAD_WORKFLOW",
+    "status": "SUCCESS_AT_TESTED_COMMIT",
     "suite": "living-novel/historical-chronicle/qa/test_2023_seventh_week.py",
     "cases": 12,
     "independent_umpire": "NOT_OBTAINED",
-    "tested_commit": null,
-    "workflow_runs": null
+    "tested_commit": "e9e9dcbe507d58ba0560be21128ce0f5bbf258fa",
+    "workflow_runs": {
+      "novel_os_ci": 40867465405,
+      "cross_domain_authority": 40867465453,
+      "bullpen_runtime": 40867465436,
+      "repository_merge_gate": 40867465446
+    },
+    "named_week7_step": "success",
+    "prior_week3_through_week6_steps": "success",
+    "warning": "Pass receipts apply at e9e9dcbe tested code commit; later status/checkpoint-only heads must be read independently. No literary, Umpire, Atlas, Founder approval."
   }
 }
