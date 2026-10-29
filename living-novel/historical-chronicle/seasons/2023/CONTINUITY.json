@@ -1,8 +1,8 @@
 {
   "schema_version": "commonwealth-historical-chronicle-continuity-v1",
   "year": 2023,
-  "phase": "WEEK_01_10_DRAFT_NONCANON",
-  "story_time_cutoff": "after scoring week 10 only",
+  "phase": "WEEK_01_11_DRAFT_NONCANON",
+  "story_time_cutoff": "after scoring week 11 only",
   "source": {
     "path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
     "blob_sha": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
@@ -21,7 +21,8 @@
     "seventh_week": "living-novel/historical-chronicle/seasons/2023/weeks/W07.md",
     "eighth_week": "living-novel/historical-chronicle/seasons/2023/weeks/W08.md",
     "ninth_week": "living-novel/historical-chronicle/seasons/2023/weeks/W09.md",
-    "tenth_week": "living-novel/historical-chronicle/seasons/2023/weeks/W10.md"
+    "tenth_week": "living-novel/historical-chronicle/seasons/2023/weeks/W10.md",
+    "eleventh_week": "living-novel/historical-chronicle/seasons/2023/weeks/W11.md"
   },
   "matchup_coverage": {
     "scoring_weeks_complete": [
@@ -34,16 +35,17 @@
       7,
       8,
       9,
-      10
+      10,
+      11
     ],
-    "verified_matchups": 60,
+    "verified_matchups": 66,
     "distinct_slots_per_week": 12,
-    "prose_entries": 60,
+    "prose_entries": 66,
     "week1_complete": true,
     "week2_complete": true,
     "regular_season_week_count": 14,
     "regular_season_matchups_recorded_per_week": 6,
-    "regular_season_matchups_covered": 60,
+    "regular_season_matchups_covered": 66,
     "regular_season_matchups_total": 84,
     "postseason": "NOT_DRAFTED",
     "week3_complete": true,
@@ -53,7 +55,8 @@
     "week7_complete": true,
     "week8_complete": true,
     "week9_complete": true,
-    "week10_complete": true
+    "week10_complete": true,
+    "week11_complete": true
   },
   "principal_pov_ids": [
     "CHAR-JAKE-KALOPER"
@@ -76,7 +79,8 @@
     "week7 proposed shore-to-shore names, distant couriers, unsafe oar evaluation, conditional wages, civic representation and two-bank claims are NONCANON HISTORICAL ATLAS HOLD",
     "week8 silent large bell, converted observatory fever ward, double-locked apothecary, disenfranchising hall votes, provisional landing stone survey, uncertain upper-bend courier road, and right-to-refuse worker clause; all invented NONCANON / HISTORICAL ATLAS HOLD",
     "week9 fictional warehouse coal inventory, partial medical shipment release by examiner, ward fuel, conditional singer performance, re-forged stove hinge, far-bank courier's three objects and trial neighborhood lights: all NONCANON HISTORICAL ATLAS HOLD",
-    "Week10: upper-bend gate assessment, trial wooden bell striker and masonry risk, steward's conditional feast, rig failure with nonpassenger loads, Jake's withdrawn transport estimate, and separately conditional worker-funded dry test; all NONCANON HISTORICAL ATLAS HOLD, no raft/punt launch or debt resolution."
+    "Week10: upper-bend gate assessment, trial wooden bell striker and masonry risk, steward's conditional feast, rig failure with nonpassenger loads, Jake's withdrawn transport estimate, and separately conditional worker-funded dry test; all NONCANON HISTORICAL ATLAS HOLD, no raft/punt launch or debt resolution.",
+    "Week11: itinerant lantern makers, disputed orchard seed custody, touring actors, lodging threat, ward performance, far-bank counters, and a non-crossing collective walk; all NONCANON / HISTORICAL ATLAS HOLD, not documentary league facts."
   ],
   "world_atlas_status": "UNAPPROVED_PROPOSED_STAGING",
   "historical_transactions_asserted": 0,
@@ -92,10 +96,11 @@
     "No Week 8+ score enters Week 7 characters' knowledge, and only proposed CHAR-JAKE-KALOPER has principal interior viewpoint; human owner assignments unverified",
     "No Week 9+ result enters Week 8 fictional character knowledge; no 2026 form/personality inferred for archived El Niño or other banners; only Jake has interior POV and even his historical slot-one owner join is user-attested.",
     "No Week 10+ result enters Week 9 character knowledge; only proposed Jake interior POV. No owner authentication for historical slots, El Niño remains a nonhuman archival banner, and fictional medical/civic events are not league history.",
-    "No Week 11+ result enters Week 10 fictional knowledge; only Jake / CHAR-JAKE-KALOPER proposed principal interior POV. Distinct 2023 Benedict banners remain unjoined, El Niño is not human, and archived home/away flags are not locations."
+    "No Week 11+ result enters Week 10 fictional knowledge; only Jake / CHAR-JAKE-KALOPER proposed principal interior POV. Distinct 2023 Benedict banners remain unjoined, El Niño is not human, and archived home/away flags are not locations.",
+    "No Week 12+ outcomes enter Week 11 story-time knowledge; 2023 slot-one Jake remains user-attested literary candidate, archived banner rivals' owners are unidentified, and home/away sports flags are not physical Atlas locations."
   ],
   "protected_manuscripts": "UNCHANGED_BY_WEEK_4_COMMIT; PRIOR_BLOB_MATCHES_MAIN; REVERIFY_IN_CI",
-  "literary_status": "W01_W10_DRAFT_UNREVIEWED",
+  "literary_status": "W01_W11_DRAFT_UNREVIEWED",
   "ci": {
     "tested_commit": "09955de652ec4d583eb9b79b73136f6b84f6740d",
     "novel_ci_run": 40831031518,
@@ -113,7 +118,7 @@
     "independent_umpire": "NOT_OBTAINED",
     "third_week_suite": "ADDED_NOT_YET_OBSERVED_IN_GITHUB_ACTIONS"
   },
-  "next_prose": "Week 11: six source-pinned fixtures, carry forward the newly excluded false transport estimate, unpaid obligations, a dry-ground brace trial with no passenger load, worker consent and far-bank independent response; retain independent review / Atlas HOLD.",
+  "next_prose": "Week 12: continue six archived fixtures, steward's unresolved toll claim, threatened lodging, worker safety, contested representation, and unanswered far-bank terms without future-event leakage.",
   "literary_output": {
     "prologue_regex_words": 1222,
     "week1_regex_words": 3602,
@@ -123,7 +128,8 @@
     "week3_regex_words": 3799,
     "week7_regex_words": 6291,
     "week8_words_whitespace_including_metadata": 5463,
-    "week10_words_whitespace_including_metadata": 6381
+    "week10_words_whitespace_including_metadata": 6381,
+    "week11_words_whitespace_including_metadata": 5755
   },
   "week3_editorial_status": "SELF_REVIEW_DRAFT_NO_INDEPENDENT_AUTHOR_OR_UMPIRE_APPROVAL",
   "week4_literary_notes": {
@@ -290,5 +296,20 @@
     "named_week10_step": "success",
     "prior_week3_to_week9_compatibility": "success",
     "warning": "CI pass at code commit d3354f55 only; this metadata follow-up needs separate exact-head CI readback. No independent Author/Atlas/Umpire/Founder acceptance."
+  },
+  "week11_literary_notes": {
+    "title": "The Orchard That Refused a Name",
+    "status": "NONCANON_HISTORICAL_ATLAS_EDITORIAL_HOLD",
+    "principal_pov": "CHAR-JAKE-KALOPER",
+    "secondary_owner_povs": 0,
+    "archival_result_rows_joined": 6,
+    "fictional_consequence": "An itinerant theater and disputed orchard recenter the city's political narrative around custody and voluntary aid, culminating in a non-crossing walk and refusal to misrepresent far-bank consent. The ferry remains grounded."
+  },
+  "ci_week11": {
+    "status": "PENDING_EXACT_HEAD_WORKFLOW",
+    "suite": "living-novel/historical-chronicle/qa/test_2023_eleventh_week.py",
+    "cases": 13,
+    "independent_umpire": "NOT_OBTAINED",
+    "note": "No GitHub CI result can be claimed until workflow runs complete at an observed exact head."
   }
 }

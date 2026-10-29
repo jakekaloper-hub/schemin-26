@@ -117,13 +117,13 @@ class Test2023TenthWeek(unittest.TestCase):
 
     def test_append_only_2023_continuity_sixty_of_eighty_four(self):
         c=self.cont
-        self.assertEqual(c["phase"],"WEEK_01_10_DRAFT_NONCANON")
-        self.assertEqual(c["story_time_cutoff"],"after scoring week 10 only")
+        self.assertIn(c["phase"],["WEEK_01_10_DRAFT_NONCANON","WEEK_01_11_DRAFT_NONCANON"])
+        self.assertIn(c["story_time_cutoff"],["after scoring week 10 only","after scoring week 11 only"])
         m=c["matchup_coverage"]
-        self.assertEqual(m["scoring_weeks_complete"],list(range(1,11)))
-        self.assertEqual(m["verified_matchups"],60)
-        self.assertEqual(m["prose_entries"],60)
-        self.assertEqual(m["regular_season_matchups_covered"],60)
+        self.assertEqual(m["scoring_weeks_complete"][:10],list(range(1,11)))
+        self.assertGreaterEqual(m["verified_matchups"],60)
+        self.assertGreaterEqual(m["prose_entries"],60)
+        self.assertGreaterEqual(m["regular_season_matchups_covered"],60)
         self.assertEqual(m["regular_season_matchups_total"],84)
         self.assertTrue(m["week10_complete"])
         self.assertEqual(c["drafts"]["tenth_week"],str(W10.relative_to(ROOT)))
