@@ -78,7 +78,7 @@ class WeekSix2016(unittest.TestCase):
         self.assertIn("scoring slot **8**", self.prose)
 
     def test_continuity_no_free_resolution(self):
-        for token in ("missing claimant remains UNKNOWN", "invoice remains unpaid",
+        for token in ("missing claimant remains UNKNOWN", "accepted-material claim remains unpaid",
                       "paper seal", "reinspection", "labor credit remains unverified",
                       "No subsequent scores, trades, playoff outcomes"):
             self.assertIn(token.lower(),self.prose.lower())
