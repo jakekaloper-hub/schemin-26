@@ -34,7 +34,7 @@ MOVEMENTS = [
 
 def blob_sha(path):
     body = path.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(body)).encode() + b"\\0" + body).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(body)).encode() + b"\0" + body).hexdigest()
 
 def fmt_points(value):
     return f"{Decimal(str(value)):.2f}"
@@ -60,7 +60,7 @@ class Test2020ThirdMarkV1(unittest.TestCase):
             if rows:
                 assert len(rows) == 1
                 cls.by_week[w["week"]] = rows[0]
-        cls.parts = re.split(r"(?m)^## [IVX]+\\. ", cls.text)
+        cls.parts = re.split(r"(?m)^## [IVX]+\. ", cls.text)
 
     def test_protected_hard_canon_unchanged(self):
         for filename, expected in PROTECTED.items():
@@ -68,7 +68,7 @@ class Test2020ThirdMarkV1(unittest.TestCase):
                 self.assertEqual(blob_sha(REPO / "living-novel/manuscript" / filename), expected)
 
     def test_substantial_four_movement_fiction(self):
-        headings = re.findall(r"(?m)^## ([IVX]+)\\. ([^\\n]+)$", self.text)
+        headings = re.findall(r"(?m)^## ([IVX]+)\. ([^\n]+)$", self.text)
         self.assertEqual([t[0] for t in headings], ["I", "II", "III", "IV"])
         self.assertEqual([t[1] for t in headings], MOVEMENTS)
         self.assertGreaterEqual(len(self.text.split("## I. ", 1)[1].split()), 3500)
@@ -80,12 +80,12 @@ class Test2020ThirdMarkV1(unittest.TestCase):
         mutated = json.loads(json.dumps(self.reg))
         mutated["scenes"][0]["pov_character_id"] = "EDRIN"
         self.assertFalse(register_pov_passes(mutated))
-        self.assertNotRegex(self.text.split("## I. ", 1)[1], r"\\b(?:Edrin|Edin|Master Oren)\\b")
+        self.assertNotRegex(self.text.split("## I. ", 1)[1], r"\b(?:Edrin|Edin|Master Oren)\b")
 
     def test_score_anchor_sources_and_onpage_representation(self):
         self.assertEqual(self.scores["year"], 2020)
         for scene in self.reg["scenes"]:
-            passage = self.text.split("## "+scene["scene_id"][-2:],1)[0] if False else self.parts[int(scene["scene_id"][-2:])]
+            passage = self.parts[int(scene["scene_id"][-2:])]
             for anchor in scene["source_score_anchors"]:
                 with self.subTest(scene=scene["scene_id"], week=anchor["week"]):
                     row = self.by_week[anchor["week"]]
@@ -137,7 +137,7 @@ class Test2020ThirdMarkV1(unittest.TestCase):
             self.assertNotIn("188.44", p)
         self.assertIn("189.19", self.parts[4])
         self.assertIn("188.44", self.parts[4])
-        self.assertIn("12–1", SUCCESSION.read_text(encoding="utf-8"))
+        self.assertIn("The Grinch, 12-1", SUCCESSION.read_text(encoding="utf-8"))
         self.assertIn("12–1", self.parts[3])
         self.assertEqual(self.reg["scenes"][-1]["story_time_cutoff"],
                          "after all 2020 Week 16 outcomes were certified")
