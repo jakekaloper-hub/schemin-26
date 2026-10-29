@@ -109,8 +109,9 @@ class Test2023FourthWeek(unittest.TestCase):
 
     def test_continuity_manifest_preserves_week_four_under_later_append(self):
         c = self.continuity
-        self.assertIn(c["phase"], ["WEEK_01_04_DRAFT_NONCANON", "WEEK_01_05_DRAFT_NONCANON", "WEEK_01_06_DRAFT_NONCANON", "WEEK_01_07_DRAFT_NONCANON", "WEEK_01_08_DRAFT_NONCANON", "WEEK_01_09_DRAFT_NONCANON", "WEEK_01_10_DRAFT_NONCANON", "WEEK_01_11_DRAFT_NONCANON", "WEEK_01_12_DRAFT_NONCANON"])
-        self.assertIn(c["story_time_cutoff"], ["after scoring week 4 only", "after scoring week 5 only", "after scoring week 6 only", "after scoring week 7 only", "after scoring week 8 only", "after scoring week 9 only", "after scoring week 10 only", "after scoring week 11 only", "after scoring week 12 only"])
+        self.assertRegex(c["phase"], r"^WEEK_01_(?:0[1-9]|1[0-4])_DRAFT_NONCANON$")
+        self.assertGreaterEqual(int(c["phase"].split("_")[2]),4)
+        self.assertEqual(c["story_time_cutoff"], f"after scoring week {int(c['phase'].split('_')[2])} only")
         m = c["matchup_coverage"]
         self.assertEqual(m["scoring_weeks_complete"][:4], [1, 2, 3, 4])
         self.assertGreaterEqual(m["verified_matchups"], 24)
