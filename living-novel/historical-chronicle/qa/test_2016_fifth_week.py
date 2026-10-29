@@ -111,7 +111,7 @@ class WeekFive2016DraftChecks(unittest.TestCase):
     def test_15_no_auto_future_season_assertions(self):
         self.assertIn("no subsequent scores, trades, playoff outcomes", self.prose)
         self.assertIn("human owner", self.prose)
-        self.assertIn("not historical Commonwealth canon", self.prose.lower())
+        self.assertIn("none of this is historical commonwealth canon", self.prose.lower())
 
 
 if __name__ == "__main__":
