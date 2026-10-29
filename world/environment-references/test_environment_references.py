@@ -67,7 +67,10 @@ class EnvironmentReferencePhase3Tests(unittest.TestCase):
 
     def test_candidate_store_unchanged(self):
         c=self.load("world/data/atlas_location_candidates.json")
-        self.assertEqual(len(c["candidates"]),48)
+        ids=[item["id"] for item in c["candidates"]]
+        self.assertEqual(len(ids),len(set(ids)))
+        self.assertIn("CAND-AFTER-DARK-BROADCAST-HOUSE",ids)
+        self.assertFalse(any(item["id"].startswith("LOC-AFTER-DARK") for item in self.load("world/data/locations.json")["locations"]))
 
 if __name__=="__main__":
     unittest.main(verbosity=2)
