@@ -1,0 +1,126 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261029-2016-CHRONICLE-W10-W11-PARTIAL-READER",
+  "date": "2026-10-29",
+  "repo": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "prior_checkpoint": "HISTORICAL-SAGA-20261029-2016-CHRONICLE-W09-PARTIAL-READER",
+  "state": "2016_W10_W11_SOURCE_EXACT_PROSE_TECH_VERIFIED_NONCANON_EDITORIAL_HOLD",
+  "authority": {
+    "schemin_main_read": "1c77ae21ef34bf325b93fe0964d4b7ccd6e9e32d",
+    "bullpen_main_read": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "context": "living-novel/os/SESSION_CONTEXT.md",
+    "task_state": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "bullpen_command": "jakekaloper-hub/bullpen/docs/COMMAND_SYSTEM_V2.md",
+    "bullpen_lifecycle": "jakekaloper-hub/bullpen/runtime/lifecycleEngine.js",
+    "issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "prs": {
+      "188": "MERGED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT",
+      "261": "OPEN_DRAFT"
+    }
+  },
+  "archive": {
+    "path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+    "blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "league": 1417621,
+    "periods": [
+      10,
+      11
+    ],
+    "fixtures_verified": 12,
+    "owner_binding": "NOT_PROVIDER_AUTHENTICATED",
+    "upstream_fresh": false,
+    "home_away_venues": false
+  },
+  "literary_output": {
+    "week10": {
+      "name": "The Door That Opened Outward",
+      "path": "living-novel/historical-chronicle/seasons/2016/weeks/W10.md",
+      "blob": "1b30e4e36fa9e3cca585a5f43d3e96ca422d79d1",
+      "words_including_notes": 5789,
+      "scenes": 6
+    },
+    "week11": {
+      "name": "The Places Rain Could Find",
+      "path": "living-novel/historical-chronicle/seasons/2016/weeks/W11.md",
+      "blob": "7b7c53091e1dec4c253b271677468b8256bb8f75",
+      "words_including_notes": 5132,
+      "scenes": 6
+    },
+    "new_words_including_notes": 10921,
+    "assembled_reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/READING_COPY_PROLOGUE_W01_W11_PARTIAL_NONCANON.md",
+      "words_including_assembly": 53549,
+      "components_source_exact": 12
+    },
+    "season_regular_draft_coverage": "66/78",
+    "remaining_regular_weeks": [
+      12,
+      13
+    ],
+    "postseason_in_reader": false,
+    "season_complete": false,
+    "causal_novel_complete": false,
+    "qa_receipt": "living-novel/historical-chronicle/seasons/2016/W10_W11_SOURCE_QA_RECEIPT.md"
+  },
+  "verification": {
+    "code_head_tested": "de04c2650859200e873d8ea03814b2cf1804423c",
+    "source_rows_exact": true,
+    "archived_duplicate_period_caution": true,
+    "component_readback": "12/12 verbatim pinned Git blobs",
+    "protected_main_match": "Prologue and Chapters I-III Git blob equal to main",
+    "added_regression_methods": 36,
+    "workflow_runs": [
+      {
+        "name": "Novel OS CI",
+        "id": 40968320547,
+        "conclusion": "success",
+        "week10_and_week11_named_steps": "success"
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "id": 40968320553,
+        "conclusion": "success"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "id": 40968320646,
+        "conclusion": "success"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "id": 40968320472,
+        "conclusion": "success"
+      }
+    ],
+    "receipt_commit": "839955963f98d1c639efc51f1e3528aadd94caa7",
+    "checkpoint_inclusive_commit": "PENDING_NEW_COMMIT_EXACT_HEAD_READBACK",
+    "independent_review": "NOT_RECEIVED"
+  },
+  "holds": {
+    "historical_owner_auth": "HOLD",
+    "period_character": "HOLD",
+    "historical_atlas": "HOLD",
+    "independent_editorial": "HOLD",
+    "independent_umpire": "HOLD",
+    "founder_canon": "HOLD",
+    "merge": "HOLD",
+    "publication": "HOLD"
+  },
+  "next": [
+    "Inspect exact checkpoint-inclusive PR head, named CI steps and actual independent review status; do not confuse comment with approval.",
+    "Draft 2016 Week 12 six fixtures from pinned source, preserve the original 2016 components and extend reader verbatim.",
+    "Continue the external-wall safety cordon, pending letter/chest retrieval specialist, worker's old unverified credit, unpaid material invoice and absent claimant without auto-resolution.",
+    "Review Chapter causality separately; source weeks are not automatically novel chapters; preserve 2026 hard-canon opening."
+  ],
+  "no_merge_or_publication": true
+}
