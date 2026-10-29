@@ -7,6 +7,7 @@ on:
       - "living-novel/whole-book/**"
       - "living-novel/consultants/**"
       - "living-novel/production/historical-saga/approved-mission-2015-2026/**"
+      - "living-novel/historical-chronicle/**"
       - "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
       - "chronicles/proof-of-concept/prologue/**"
       - ".github/workflows/novel-os-ci.yml"
@@ -17,6 +18,7 @@ on:
       - "living-novel/whole-book/**"
       - "living-novel/consultants/**"
       - "living-novel/production/historical-saga/approved-mission-2015-2026/**"
+      - "living-novel/historical-chronicle/**"
       - "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
       - "chronicles/proof-of-concept/prologue/**"
       - ".github/workflows/novel-os-ci.yml"
@@ -78,3 +80,5 @@ jobs:
         run: python -m unittest discover -s living-novel/production/historical-saga/approved-mission-2015-2026/review -p "test_2022_turning_frame_v1.py" -v
       - name: Validate 2023 Fourth Address four-movement source-scored reader (noncanon)
         run: python -m unittest discover -s living-novel/production/historical-saga/approved-mission-2015-2026/review -p "test_2023_fourth_address_v1.py" -v
+      - name: Validate 2023 six-match opening Chronicle candidate (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_opening_week.py" -v
