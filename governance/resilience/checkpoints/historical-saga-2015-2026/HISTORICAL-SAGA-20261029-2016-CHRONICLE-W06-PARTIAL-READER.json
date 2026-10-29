@@ -5,7 +5,7 @@
   "pr": 243,
   "date": "2026-10-29",
   "continued_from": "HISTORICAL-SAGA-20261029-2016-CHRONICLE-W04-W05-PARTIAL-READER",
-  "stage": "2016_W06_SOURCE_BOUNDED_FICTION_DRAFT_AND_SEVEN_PART_READER_CI_PENDING",
+  "stage": "2016_REGULAR_W06_SOURCE_EXACT_CI_VERIFIED_EDITORIAL_HOLD",
   "authority": {
     "schemin_main": "1c77ae21ef34bf325b93fe0964d4b7ccd6e9e32d",
     "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
@@ -53,11 +53,25 @@
   "verification": {
     "self_checked_fixture_lines": 6,
     "self_checked_word_floor": true,
-    "ci_status": "NOT_YET_OBSERVED",
+    "ci_status": "SUCCESS_AT_REPAIRED_CODE_HEAD",
     "independent_literary_review": "NOT_RECEIVED",
     "independent_umpire": "NOT_RECEIVED",
     "protected_canon": "test_exists_CI_PENDING",
-    "current_final_head": "TBD"
+    "current_final_head": "W07_COMMIT_FOLLOWS_W06_CI_PASS",
+    "successful_code_head": "42cd2c59a3118fcb9e3b1f206c875f7679dc174b",
+    "ci_runs": {
+      "novel_os_ci": 40950195428,
+      "cross_domain_authority_ci": 40950195579,
+      "bullpen_runtime_ci": 40950195389,
+      "repository_merge_gate": 40950195861
+    },
+    "observed_test_failure": {
+      "failed_run": 40950074048,
+      "failed_case": "test_continuity_no_free_resolution",
+      "issue": "assertion searched for 'invoice remains unpaid' while manuscript states 'accepted-material claim remains unpaid'",
+      "repair_commit": "42cd2c59a3118fcb9e3b1f206c875f7679dc174b",
+      "manuscript_unchanged": true
+    }
   },
   "gates": {
     "human_owner": "HOLD",
