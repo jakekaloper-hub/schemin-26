@@ -64,3 +64,5 @@ jobs:
         run: python -m unittest discover -s living-novel/production/historical-saga/approved-mission-2015-2026/review -p "test_2025_reckoning_v3.py" -v
       - name: Validate 2024 historical title five-scene causal candidate V2 (noncanon)
         run: python -m unittest discover -s living-novel/production/historical-saga/approved-mission-2015-2026/review -p "test_2024_title_v2.py" -v
+      - name: Validate 2024 historical title six-scene causal candidate V3 (noncanon)
+        run: python -m unittest discover -s living-novel/production/historical-saga/approved-mission-2015-2026/review -p "test_2024_title_v3.py" -v
