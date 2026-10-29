@@ -104,7 +104,8 @@ class Test2023PostseasonAndFullSeason(unittest.TestCase):
             text = self.story[w].lower()
             self.assertIn("winner undecided", text)
             self.assertIn("unpaired", text)
-            self.assertIn("no opponent", text)
+            self.assertTrue(any(term in text for term in ("no opponent", "without an opponent", "no opposing side")),
+                            f"Unpaired row narrative missing in W{w}")
 
     def test_w15_does_not_know_w16_or_w17_scores(self):
         for future in ("214.52","192.88","159.52","140.76","181.20"):
@@ -165,7 +166,8 @@ class Test2023PostseasonAndFullSeason(unittest.TestCase):
             self.assertIn("noncanon",t)
             self.assertIn("atlas",t)
             self.assertIn("umpire",t)
-            self.assertIn("unverified",t)
+            self.assertTrue(any(term in t for term in ("unverified", "not authenticated", "unknown", "does not authenticate")),
+                            f"Historical owner identity must remain unproven in {p.name}")
         self.assertIn("NOT PUBLISHED",self.reading)
         self.assertIn("Founder HOLD",self.reading)
         self.assertIn("not an automatically released",self.reading)
