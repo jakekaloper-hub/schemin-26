@@ -72,3 +72,5 @@ jobs:
         run: python -m unittest discover -s living-novel/production/historical-saga/approved-mission-2015-2026/review -p "test_2019_name_transition_v1.py" -v
       - name: Validate 2020 third-place causal reading V1 (noncanon)
         run: python -m unittest discover -s living-novel/production/historical-saga/approved-mission-2015-2026/review -p "test_2020_third_mark_v1.py" -v
+      - name: Validate 2021 lamp-network four-movement causal reading (noncanon)
+        run: python -m unittest discover -s living-novel/production/historical-saga/approved-mission-2015-2026/review -p "test_2021_lamps_v1.py" -v
