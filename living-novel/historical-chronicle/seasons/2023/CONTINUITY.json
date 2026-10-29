@@ -1,8 +1,8 @@
 {
   "schema_version": "commonwealth-historical-chronicle-continuity-v1",
   "year": 2023,
-  "phase": "WEEK_01_02_DRAFT_NONCANON",
-  "story_time_cutoff": "after scoring week 2 only",
+  "phase": "WEEK_01_03_DRAFT_NONCANON",
+  "story_time_cutoff": "after scoring week 3 only",
   "source": {
     "path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
     "blob_sha": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
@@ -13,23 +13,26 @@
   "drafts": {
     "prologue": "living-novel/historical-chronicle/seasons/2023/PROLOGUE.md",
     "first_week": "living-novel/historical-chronicle/seasons/2023/weeks/W01.md",
-    "second_week": "living-novel/historical-chronicle/seasons/2023/weeks/W02.md"
+    "second_week": "living-novel/historical-chronicle/seasons/2023/weeks/W02.md",
+    "third_week": "living-novel/historical-chronicle/seasons/2023/weeks/W03.md"
   },
   "matchup_coverage": {
     "scoring_weeks_complete": [
       1,
-      2
+      2,
+      3
     ],
-    "verified_matchups": 12,
+    "verified_matchups": 18,
     "distinct_slots_per_week": 12,
-    "prose_entries": 12,
+    "prose_entries": 18,
     "week1_complete": true,
     "week2_complete": true,
     "regular_season_week_count": 14,
     "regular_season_matchups_recorded_per_week": 6,
-    "regular_season_matchups_covered": 12,
+    "regular_season_matchups_covered": 18,
     "regular_season_matchups_total": 84,
-    "postseason": "NOT_DRAFTED"
+    "postseason": "NOT_DRAFTED",
+    "week3_complete": true
   },
   "principal_pov_ids": [
     "CHAR-JAKE-KALOPER"
@@ -42,12 +45,14 @@
     "six repaired knots/cords",
     "workers, herald, and spectators",
     "weather and commercial board",
-    "dialogue and material consequences"
+    "dialogue and material consequences",
+    "week3 unapproved river landing, amphitheater, public hearing, market kitchen, observatory and library; no precise Atlas location",
+    "week3 named civilians, road ceremony, traveler evacuation and civic arguments are literary invention"
   ],
   "world_atlas_status": "UNAPPROVED_PROPOSED_STAGING",
   "historical_transactions_asserted": 0,
   "temporal_negative_guards": [
-    "No Week 3+ outcomes appear within character knowledge",
+    "No Week 4+ outcomes appear within character knowledge",
     "No 2026 morphologies projected onto 2023 historical names",
     "El Niño does not speak or occupy a humanoid POV",
     "No certified home flag treated as an Atlas venue",
@@ -63,20 +68,23 @@
     "cross_domain_run": 40831031606,
     "bullpen_runtime_run": 40831031495,
     "merge_gate_run": 40831031612,
-    "technical": "PASS",
+    "technical": "PREVIOUS_WEEK_01_02_CI_ONLY; WEEK_03_PENDING",
     "prior_failure": {
       "run": 40830935809,
       "cause": "Week 2 title-article test assertion mismatch, scoreboard checks passed",
       "fixed_test_commit": "09955de652ec4d583eb9b79b73136f6b84f6740d"
     },
-    "independent_umpire": "NOT_OBTAINED"
+    "independent_umpire": "NOT_OBTAINED",
+    "third_week_suite": "ADDED_NOT_YET_OBSERVED_IN_GITHUB_ACTIONS"
   },
-  "next_prose": "2023 Week 3 six individually source-checked Chronicle episodes, moving beyond repeated repair/tally motifs",
+  "next_prose": "2023 Week 4 six individually scored weekly Chronicle scenes; maintain diverse institutions and challenge unapproved road geography",
   "literary_output": {
     "prologue_regex_words": 1222,
     "week1_regex_words": 3602,
     "week2_regex_words": 3072,
-    "total_regex_words": 7896,
-    "all_counts_include_frontmatter": true
-  }
+    "total_regex_words": 11695,
+    "all_counts_include_frontmatter": true,
+    "week3_regex_words": 3799
+  },
+  "week3_editorial_status": "SELF_REVIEW_DRAFT_NO_INDEPENDENT_AUTHOR_OR_UMPIRE_APPROVAL"
 }
