@@ -138,7 +138,7 @@ class Test2020ThirdMarkV1(unittest.TestCase):
         self.assertIn("189.19", self.parts[4])
         self.assertIn("188.44", self.parts[4])
         self.assertIn("The Grinch, 12-1", SUCCESSION.read_text(encoding="utf-8"))
-        self.assertIn("12–1", self.parts[3])
+        self.assertIn("twelve victories and one defeat", self.parts[3])
         self.assertEqual(self.reg["scenes"][-1]["story_time_cutoff"],
                          "after all 2020 Week 16 outcomes were certified")
 
@@ -155,6 +155,9 @@ class Test2020ThirdMarkV1(unittest.TestCase):
         self.assertEqual(actual, expected)
         self.assertEqual(self.room["game_row_count"], 97)
         self.assertEqual(self.reg["scoring_periods_known"], list(range(1, 17)))
+        empty = next(w for w in self.scores["weeks"] if w["week"] == 17)
+        self.assertEqual(empty["matchups"], [])
+        self.assertEqual(self.reg["empty_source_weeks"][0]["week"], 17)
 
     def test_provenance_and_release_gates(self):
         self.assertEqual(blob_sha(SCORES), self.reg["sports_evidence_git_blob"])
