@@ -55,7 +55,7 @@ class Test2023ReadingCopy(unittest.TestCase):
         for section in self.sections:
             with self.subTest(path=section.group("path")):
                 self.assertEqual(section.group("sha"),blob(ROOT/section.group("path")))
-                self.assertIn(f'| \`{section.group("path")}\` | \`{section.group("sha")}\` |',self.text)
+                self.assertIn(f'| `{section.group("path")}` | `{section.group("sha")}` |',self.text)
 
     def test_noncanonical_boundary_not_cloaked_as_book_one_release(self):
         header=self.text.split("<!-- BEGIN_COMPILED_MANUSCRIPT -->",1)[0]
