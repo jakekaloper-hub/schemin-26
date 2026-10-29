@@ -1,8 +1,8 @@
 {
   "schema_version": "commonwealth-historical-chronicle-continuity-v1",
   "year": 2023,
-  "phase": "WEEK_01_13_DRAFT_NONCANON",
-  "story_time_cutoff": "after scoring week 13 only",
+  "phase": "WEEK_01_14_DRAFT_NONCANON",
+  "story_time_cutoff": "after scoring week 14 only",
   "source": {
     "path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
     "blob_sha": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
@@ -24,7 +24,8 @@
     "tenth_week": "living-novel/historical-chronicle/seasons/2023/weeks/W10.md",
     "eleventh_week": "living-novel/historical-chronicle/seasons/2023/weeks/W11.md",
     "twelfth_week": "living-novel/historical-chronicle/seasons/2023/weeks/W12.md",
-    "thirteenth_week": "living-novel/historical-chronicle/seasons/2023/weeks/W13.md"
+    "thirteenth_week": "living-novel/historical-chronicle/seasons/2023/weeks/W13.md",
+    "fourteenth_week": "living-novel/historical-chronicle/seasons/2023/weeks/W14.md"
   },
   "matchup_coverage": {
     "scoring_weeks_complete": [
@@ -40,16 +41,17 @@
       10,
       11,
       12,
-      13
+      13,
+      14
     ],
-    "verified_matchups": 78,
+    "verified_matchups": 84,
     "distinct_slots_per_week": 12,
-    "prose_entries": 78,
+    "prose_entries": 84,
     "week1_complete": true,
     "week2_complete": true,
     "regular_season_week_count": 14,
     "regular_season_matchups_recorded_per_week": 6,
-    "regular_season_matchups_covered": 78,
+    "regular_season_matchups_covered": 84,
     "regular_season_matchups_total": 84,
     "postseason": "NOT_DRAFTED",
     "week3_complete": true,
@@ -62,7 +64,8 @@
     "week10_complete": true,
     "week11_complete": true,
     "week12_complete": true,
-    "week13_complete": true
+    "week13_complete": true,
+    "week14_complete": true
   },
   "principal_pov_ids": [
     "CHAR-JAKE-KALOPER"
@@ -108,7 +111,7 @@
     "No Week 13+ scores in W12 story; historical Jake remains user-attested slot-one candidate only, not certified; no banner-owner/2026 morphology backprojection, no invented home/away venues."
   ],
   "protected_manuscripts": "UNCHANGED_BY_WEEK_4_COMMIT; PRIOR_BLOB_MATCHES_MAIN; REVERIFY_IN_CI",
-  "literary_status": "W01_W13_DRAFT_UNREVIEWED",
+  "literary_status": "W01_W14_DRAFT_UNREVIEWED",
   "ci": {
     "tested_commit": "09955de652ec4d583eb9b79b73136f6b84f6740d",
     "novel_ci_run": 40831031518,
@@ -126,7 +129,7 @@
     "independent_umpire": "NOT_OBTAINED",
     "third_week_suite": "ADDED_NOT_YET_OBSERVED_IN_GITHUB_ACTIONS"
   },
-  "next_prose": "2023 Week 14 six source-exact fixture narratives and the independent 2023 postseason evidence gap; preserve Weeks 01–13 and protected 2026 Prologue/Chapters I–III. No auto-promotion.",
+  "next_prose": "Document source-verifiable 2023 postseason fixtures/placements/champion from an authoritative archive or mark NOT_VERIFIED; write season epilogue without inventing playoff facts, then assemble 2023 causal historical volume chapters with independently checked twelve-POV character and Atlas canon. Preserve W01-W14 and 2026 hard canon.",
   "literary_output": {
     "prologue_regex_words": 1222,
     "week1_regex_words": 3602,
@@ -139,7 +142,8 @@
     "week10_words_whitespace_including_metadata": 6381,
     "week11_words_whitespace_including_metadata": 5755,
     "week12_words_whitespace_including_metadata": 5598,
-    "week13_words_whitespace_including_metadata": 5290
+    "week13_words_whitespace_including_metadata": 5290,
+    "week14_words_whitespace_including_metadata": 5069
   },
   "week3_editorial_status": "SELF_REVIEW_DRAFT_NO_INDEPENDENT_AUTHOR_OR_UMPIRE_APPROVAL",
   "week4_literary_notes": {
@@ -364,12 +368,38 @@
     "fictional_consequence": "Conditional loft lodging and explicit labor bounds; cart and grain remain under inspection; the child's play establishes performer consent; a courier disputes a presumptive upper-road map; lost ferry, grounded punt and creditor's claim persist. The source-scored candidate slot one reaches 5–8 after an extremely narrow Week 13 win."
   },
   "ci_week13": {
-    "status": "PENDING_ACTUAL_CI_READBACK",
+    "status": "SUCCESS_AT_TESTED_COMMIT",
     "suite": "living-novel/historical-chronicle/qa/test_2023_thirteenth_week.py",
     "cases": 13,
     "source_sha": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
     "story_blob_sha": "819d069735c2f1f72effcd92bc8049fe87fde3df",
     "independent_umpire": "NOT_OBTAINED",
-    "note": "Actual observed CI and named step not yet checked; author/editorial, Atlas, Founder and Umpire remain HOLD. Updating this metadata must not be confused with a pass."
+    "note": "All four GitHub Actions workflows observed SUCCESS on 0bce665e after correcting source-coverage compatibility guards in Weeks 03-12. Subsequent branch modifications including W14 require new final-head CI; independent reviews remain absent.",
+    "tested_commit": "0bce665e3cfa22753ea1389f848e8924b59b99f5",
+    "workflow_runs": {
+      "novel_os_ci": 40912918285,
+      "cross_domain_authority": 40912918576,
+      "bullpen_runtime": 40912918530,
+      "repository_merge_gate": 40912918494
+    },
+    "named_week13_step": "success"
+  },
+  "week14_literary_notes": {
+    "title": "The Letters That Would Not Cross",
+    "principal_pov": "CHAR-JAKE-KALOPER",
+    "secondary_owner_povs": 0,
+    "status": "NONCANON_HISTORICAL_ATLAS_EDITORIAL_HOLD",
+    "archival_results_joined": 6,
+    "words_including_metadata": 5069,
+    "fictional_consequence": "A conditional loitering of letters and competing route claims; Jake's former room inventory is completed, but his conditional tenancy at Adra's loft remains provisional. The grounded punt is secured without authorizing passengers; grain is partly delivered and individual disputed wage claims diverge. A daughter changes her own play's ending; Jake returns an unopened letter rather than pretending it belongs to him. River, institution and Atlas matters remain open; this is the end of archived REGULAR-SEASON scoring only."
+  },
+  "ci_week14": {
+    "status": "PENDING_ACTUAL_CI_READBACK",
+    "suite": "living-novel/historical-chronicle/qa/test_2023_fourteenth_week.py",
+    "cases": 15,
+    "source_sha": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
+    "story_blob_sha": "99e6f01ab9ef9eceb281cd65bbb4db8829ad6401",
+    "independent_umpire": "NOT_OBTAINED",
+    "note": "Do not call this passage technically green until the named Week 14 test step and all relevant GitHub workflows are observed at the exact head."
   }
 }
