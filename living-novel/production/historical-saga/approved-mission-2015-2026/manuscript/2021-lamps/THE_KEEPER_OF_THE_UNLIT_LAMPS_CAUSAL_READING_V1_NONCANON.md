@@ -211,7 +211,7 @@ He knew every argument intimately. He could also see Tavin's sleeve drying by th
 
 She glanced at him. “No. The hill does. I'm the person who knows how to mend them.”
 
-He turned to the carrier. “Then the people who light them have to accept your terms.”
+He turned to the carrier. “Then I cannot accept your terms on their behalf.”
 
 The carrier left without paying.
 
