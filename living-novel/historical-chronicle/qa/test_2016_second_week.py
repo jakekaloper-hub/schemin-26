@@ -66,8 +66,8 @@ class WeekTwo2016DraftChecks(unittest.TestCase):
     def test_single_named_principal_pov(self):
         self.assertIn("CHAR-JAKE-KALOPER", self.text)
         self.assertIn("PRINCIPAL_CHARACTER", self.text)
-        self.assertNotRegex(self.text, r"(?im)^## (Edrin|Edin|Oren)\\b")
-        self.assertNotRegex(self.text, r"(?im)^\\*POV: (?!CHAR-JAKE-KALOPER)")
+        self.assertNotRegex(self.text, r"(?im)^## (Edrin|Edin|Oren)\b")
+        self.assertNotRegex(self.text, r"(?im)^\*POV: (?!CHAR-JAKE-KALOPER)")
 
     def test_owner_binding_not_implicitly_promoted(self):
         self.assertIn("NOT PROVIDER-AUTHENTICATED", self.text)
@@ -76,7 +76,7 @@ class WeekTwo2016DraftChecks(unittest.TestCase):
         self.assertIn("real owner", self.text.lower())
 
     def test_proposed_geography_not_claimed_as_canon(self):
-        self.assertIn("not approved Atlas geography", self.text)
+        self.assertIn("not recovered historical events or approved Atlas geography", self.text)
         self.assertIn("No new Atlas settlement", self.text)
         self.assertIn("fictional", self.text.lower())
 
