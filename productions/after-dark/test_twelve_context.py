@@ -19,6 +19,13 @@ class ContinuityTests(unittest.TestCase):
  def test_source_grounded_home_locations(self):
   locs={x["id"] for x in json.loads((ROOT/"world/data/locations.json").read_text())["locations"]}
   for x in self.data:self.assertIn(x["canonical_home"]["location_id"],locs)
+ def test_historical_coverage_is_complete(self):
+  for x in self.data:
+   history=x["historical_franchise_team_id_record"]
+   self.assertEqual(len(history["seasons"]),12)
+   self.assertEqual({y["season_year"] for y in history["seasons"]},set(range(2015,2027)))
+   self.assertIn("UNVERIFIED",history["evidence_status"])
+   self.assertEqual(history["seasons"][-1]["team_id"],x["team_id"])
  def test_no_silent_canon(self):
   for x in self.data:self.assertEqual(x["approval"],"NONCANON_DERIVED_DRAFT")
  def test_existing_narrative_fixture(self):

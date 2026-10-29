@@ -7,10 +7,14 @@ load=lambda p: json.loads((ROOT/p).read_text())
 domains=load("world/data/owner_domains.json")["domains"]
 locations={x["id"]:x for x in load("world/data/locations.json")["locations"]}
 routes={x["id"]:x for x in load("world/data/routes.json")["routes"]}
+history=load("productions/after-dark/fixtures/p3c_historical_standings_2015_2026.json")
+assert history["league_id"]=="1417621"
+
 out=[]
 for d in domains:
     loc=locations.get(d["primary_location_id"])
     assert loc is not None, d["character_id"]
+    franchise_history=[dict(season_year=season["season_year"], **next(t for t in season["teams"] if t["team_id"]==d["team_id"])) for season in history["seasons"]]
     out.append({
       "character_id":d["character_id"],"team_id":d["team_id"],"team_name":d["team"],
       "owner_identity_source":"world/data/owner_domains.json",
@@ -19,6 +23,7 @@ for d in domains:
       "last_verified_physical_whereabouts":{"status":"UNKNOWN","note":"Home domain does not establish actual Week 7/8 presence"},
       "travel_to_broadcast_house":{"status":"UNVERIFIED","candidate":"CAND-AFTER-DARK-BROADCAST-HOUSE","home_route_ids":[r for r in loc.get("access_route_ids",[]) if r in routes]},
       "after_dark_knowledge":{"status":"UNVERIFIED","note":"No automatic knowledge of unpublished Memo/Novel scenes"},
+      "historical_franchise_team_id_record":{"evidence_status":"PROVIDER_TEAM_ID_SERIES_ONLY_OWNER_CONTINUITY_UNVERIFIED","seasons":franchise_history,"source":"productions/after-dark/fixtures/p3c_historical_standings_2015_2026.json"},
       "event_cutoff":"2026-W07", "previous_episode_effects":{"status":"NO_RELEASED_AFTER_DARK_EPISODE"},
       "motivation":{"status":"UNDETERMINED"}, "interview":{"allowed":"NO_IN_PERSON_WITHOUT_ROUTE_AND_TIMELINE"},
       "next_destination":{"status":"UNKNOWN"},
