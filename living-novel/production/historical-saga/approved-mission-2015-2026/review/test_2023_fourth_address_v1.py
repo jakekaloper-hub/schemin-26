@@ -99,7 +99,7 @@ class Test2023FourthAddressV1(unittest.TestCase):
         altered["scenes"][1]["pov_character_id"] = "EDRIN"
         self.assertFalse(safe_principal_pov(altered))
         self.assertNotRegex(" ".join(self.parts[1:]), r"\b(?:Edrin|Edin|Master Oren)\b")
-        self.assertIn("not by authenticated historical human-owner identification", self.text)
+        self.assertIn("**not** by authenticated historical human-owner identification", self.text)
         self.assertIn("invented secondary-world material", self.text)
 
     def test_2023_archive_has_exact_week_count_and_unpaired_status(self):
