@@ -25,7 +25,7 @@ PROTECTED = {
 
 def git_blob(path):
     data = path.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\\0" + data).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest()
 
 
 def score(n):
@@ -38,8 +38,8 @@ class Test2023ThirdWeek(unittest.TestCase):
         cls.text = W03.read_text(encoding="utf-8")
         cls.data = json.loads(SOURCE.read_text(encoding="utf-8"))
         cls.rows = next(week["matchups"] for week in cls.data["weeks"] if week["week"] == 3)
-        cls.headings = re.findall(r"(?m)^## ([IVX]+)\\. ([^\\n]+)$", cls.text)
-        cls.parts = re.split(r"(?m)^## [IVX]+\\. [^\\n]+\\n", cls.text)
+        cls.headings = re.findall(r"(?m)^## ([IVX]+)\. ([^\n]+)$", cls.text)
+        cls.parts = re.split(r"(?m)^## [IVX]+\. [^\n]+\n", cls.text)
 
     def test_source_integrity_and_complete_week(self):
         self.assertEqual(git_blob(SOURCE), SOURCE_SHA)
@@ -81,7 +81,7 @@ class Test2023ThirdWeek(unittest.TestCase):
         self.assertIn("user-attested, not provider-authenticated", self.text)
         self.assertIn("No character knows a Week 4+ result", self.text)
         self.assertIn("The Fourth Address", self.text)
-        self.assertNotRegex(self.text, r"\\b(?:Edrin|Edin|Master Oren)\\b")
+        self.assertNotRegex(self.text, r"\b(?:Edrin|Edin|Master Oren)\b")
 
     def test_fantasy_entities_and_owner_firewall(self):
         self.assertIn("storm-name/banner without speech or humanoid form", self.text)
