@@ -36,7 +36,7 @@ RANGES = [(1, 4), (5, 7), (8, 14), (15, 17)]
 
 def git_blob(path):
     data = path.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\\0" + data).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest()
 
 
 def safe_principal_pov(reg):
@@ -66,7 +66,7 @@ class Test2023FourthAddressV1(unittest.TestCase):
         cls.reg = json.loads(REGISTER.read_text(encoding="utf-8"))
         cls.archive = json.loads(SCORES.read_text(encoding="utf-8"))
         cls.room = next(x for x in json.loads(ROOM.read_text(encoding="utf-8"))["story_room"] if x["season"] == 2023)
-        cls.parts = re.split(r"(?m)^## [IVX]+\\. [^\\n]+\\n", cls.text)
+        cls.parts = re.split(r"(?m)^## [IVX]+\. [^\n]+\n", cls.text)
         cls.rows = [
             dict(row, week=week["week"])
             for week in cls.archive["weeks"]
@@ -83,7 +83,7 @@ class Test2023FourthAddressV1(unittest.TestCase):
                 self.assertEqual(git_blob(REPO / "living-novel/manuscript" / path), sha)
 
     def test_complete_four_movement_chapter_not_outline(self):
-        headings = re.findall(r"(?m)^## ([IVX]+)\\. ([^\\n]+)$", self.text)
+        headings = re.findall(r"(?m)^## ([IVX]+)\. ([^\n]+)$", self.text)
         self.assertEqual(headings, list(zip(["I", "II", "III", "IV"], HEADINGS)))
         self.assertEqual(len(self.parts), 5)
         self.assertGreaterEqual(len(self.text.split()), 4500)
@@ -98,7 +98,7 @@ class Test2023FourthAddressV1(unittest.TestCase):
         altered = json.loads(json.dumps(self.reg))
         altered["scenes"][1]["pov_character_id"] = "EDRIN"
         self.assertFalse(safe_principal_pov(altered))
-        self.assertNotRegex(" ".join(self.parts[1:]), r"\\b(?:Edrin|Edin|Master Oren)\\b")
+        self.assertNotRegex(" ".join(self.parts[1:]), r"\b(?:Edrin|Edin|Master Oren)\b")
         self.assertIn("not by authenticated historical human-owner identification", self.text)
         self.assertIn("invented secondary-world material", self.text)
 
