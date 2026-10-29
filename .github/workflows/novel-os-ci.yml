@@ -116,6 +116,10 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_eleventh_week.py" -v
       - name: Validate 2016 twelve-part source-exact partial reader (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_partial_reader_w11.py" -v
+      - name: Validate 2016 twelfth six-match Chronicle installment (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_twelfth_week.py" -v
+      - name: Validate 2016 thirteen-part source-exact partial reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_partial_reader_w12.py" -v
       - name: Validate 2023 six-match opening Chronicle candidate (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_opening_week.py" -v
       - name: Validate 2023 second six-match Chronicle installment (noncanon)
