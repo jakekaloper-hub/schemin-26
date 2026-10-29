@@ -117,7 +117,7 @@ class Test2021LampsV1(unittest.TestCase):
 
     def test_six_hundredths_and_no_reversal(self):
         r = self.team1[14]
-        self.assertEqual(Decimal(str(r["hp"])) - Decimal(str(r["ap"])), Decimal("0.06"))
+        self.assertEqual(Decimal(str(r["ap"])) - Decimal(str(r["hp"])), Decimal("0.06"))
         self.assertEqual(r["home_id"], 1)
         self.assertEqual(r["away_id"], 2)
         self.assertIn("145.48", self.parts[3])
