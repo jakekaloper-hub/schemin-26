@@ -76,3 +76,5 @@ jobs:
         run: python -m unittest discover -s living-novel/production/historical-saga/approved-mission-2015-2026/review -p "test_2021_lamps_v1.py" -v
       - name: Validate 2022 turning-frame four-movement source-scored reader (noncanon)
         run: python -m unittest discover -s living-novel/production/historical-saga/approved-mission-2015-2026/review -p "test_2022_turning_frame_v1.py" -v
+      - name: Validate 2023 Fourth Address four-movement source-scored reader (noncanon)
+        run: python -m unittest discover -s living-novel/production/historical-saga/approved-mission-2015-2026/review -p "test_2023_fourth_address_v1.py" -v
