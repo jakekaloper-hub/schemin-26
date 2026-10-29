@@ -41,7 +41,7 @@ class Test2019NameTransitionV1(unittest.TestCase):
         cls.room = json.loads(STORY_ROOM.read_text(encoding="utf-8"))
         cls.by_week = {}
         for entry in cls.scores["weeks"]:
-            fixtures = [m for m in entry["matchups"] if 1 in (m["home_id"], m["away_id"])]
+            fixtures = [m for m in entry["matchups"] if 1 in (m.get("home_id"), m.get("away_id"))]
             if fixtures:
                 cls.by_week[entry["week"]] = fixtures[0]
 
