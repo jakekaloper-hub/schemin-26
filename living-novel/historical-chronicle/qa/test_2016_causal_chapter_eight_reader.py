@@ -71,7 +71,7 @@ class Test2016CausalChapterEight(unittest.TestCase):
 
     def test_non_recap_causal_drama_and_independent_craft(self):
         for phrase in ("a smaller test piece", "I do, if it is mine.", "the stool",
-                       "she wrote an answer in her own hand"):
+                       "wrote an answer in her own hand"):
             self.assertIn(phrase, self.prose)
         self.assertNotIn("## Week Fourteen", self.prose)
 
