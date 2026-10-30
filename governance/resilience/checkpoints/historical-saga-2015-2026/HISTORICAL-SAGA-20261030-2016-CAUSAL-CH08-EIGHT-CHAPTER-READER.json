@@ -1,0 +1,162 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH08-EIGHT-CHAPTER-READER",
+  "version": "1.0",
+  "date": "2026-10-30",
+  "project": "Commonwealth Novel / Schemin '26",
+  "repository": "jakekaloper-hub/schemin-26",
+  "mission": "founder-authorized historical saga draft production; no autonomous Bullpen Director invocation claimed",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr_number": 243,
+  "status": "NONCANON_DRAFT_TECHNICALLY_VERIFIED_TESTED_HEAD_PENDING_INDEPENDENT_EDITORIAL_REVIEW",
+  "predecessor": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261030-2016-CAUSAL-CH07-SEVEN-CHAPTER-READER.json",
+  "authority": {
+    "source_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "novel_context": "living-novel/os/SESSION_CONTEXT.md",
+    "causal_chapter": "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md",
+    "POV": "Founder supersession: twelve exclusive principal owner POV; older Edrin/Edin licenses not active for rewritten material",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json (stale entries remain; PR #261 unmerged)",
+    "bullpen_command": "jakekaloper-hub/bullpen/runtime/commandRegistry.js",
+    "bullpen_lifecycle": "jakekaloper-hub/bullpen/runtime/lifecycleEngine.js",
+    "related_issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "related_prs": {
+      "188": "MERGED_PREPRODUCTION",
+      "252": "DRAFT_HOLD",
+      "261": "DRAFT_HOLD"
+    }
+  },
+  "source_fingerprints": {
+    "archive_2016": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "prior_reader_7": "060176ee8e3cb0548ec72e378ca4c7137765a442",
+    "chapter_08": "5266de4f74ee1b9154672acfc7c5f50dc881347c",
+    "reader_8": "cf182ab11be7e200a08d2e8e4bb879d6209e3c9d",
+    "prior_chapter_blobs": [
+      "d93505009d7dda7acc010ce1a6e5ec2bacf65ec2",
+      "756126cb4e151a0bd78ece39ab59a4c54ef2aa43",
+      "f9bf0721c989d30bfd09189388b93293ba3a8ce0",
+      "8994f9e443a6313dee217dfd5f92aedeff7bd88c",
+      "40d12860e93d9393b18d7771c427061c82e46c8c",
+      "4e3d655895847e9910b7e8c69349fb2b09c94b4b",
+      "419e7f6775d0205cf1b49dba5629500245ac59a8"
+    ],
+    "protected_2026_hard_main_equals_branch": {
+      "PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+    }
+  },
+  "outputs": [
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_MEASURE_OF_WHAT_REMAINS_CHAPTER_08_NONCANON.md",
+      "words_including_notes": 4881,
+      "git_blob": "5266de4f74ee1b9154672acfc7c5f50dc881347c",
+      "movements": 5
+    },
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_08_NONCANON.md",
+      "words_including_metadata": 36091,
+      "components": 8,
+      "git_blob": "cf182ab11be7e200a08d2e8e4bb879d6209e3c9d"
+    },
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_08_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "status": "AUTHOR_SELF_CHALLENGE_NOT_INDEPENDENT_REVIEW"
+    },
+    {
+      "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_eight_reader.py",
+      "new_regression_test_count": 10
+    },
+    {
+      "path": ".github/workflows/novel-os-ci.yml",
+      "change": "explicit named Chapter VIII test step"
+    }
+  ],
+  "verification": {
+    "tested_code_head": "e49fcbe9b3162ae32c9396bf8fe0b9beeb222812",
+    "CI": [
+      {
+        "name": "Novel OS CI",
+        "run_id": 41009167921,
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "run_id": 41009167965,
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "run_id": 41009167922,
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "run_id": 41009167947,
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ],
+    "initial_failed_ci": {
+      "run_id": 41009057801,
+      "conclusion": "failure",
+      "finding": "test_non_recap_causal_drama_and_independent_craft expected wrong subject-prefix phrase for handwritten response",
+      "repair": "test assertion corrected to stable substring, manuscript unchanged"
+    },
+    "direct_source_exact_git_readback": "PASS 8/8 components exact, pinned source and seven-chapter predecessor",
+    "protected_main_to_branch": "MATCH 4/4 2026 hard manuscripts",
+    "historical_real_owner_binding": "UNVERIFIED",
+    "independent_review_acceptance": "NONE_OBSERVED",
+    "checkpoint_inclusive_exact_head_CI": "RECHECK_REQUIRED_AFTER_THIS_COMMIT_NOT_CLAIMED"
+  },
+  "fictional_state": {
+    "great_wheel": "UNFINISHED_UNTURNED",
+    "daughter_independent_mark": "FICTION_PROPOSAL_NOT_CLEARED",
+    "prospective_test_commission": "UNSIGNED_UNPAID_UNPROVED",
+    "stool": "PROVISIONAL_FIRST_DAY_NOT_CERTIFIED",
+    "crossing": "UNSAFE_NOT_REPAIRED",
+    "cart": "UNRECOVERED_ON_FAR_BANK",
+    "borrowed_shed": "RECLAIMED",
+    "suspect_grain": "SEGREGATED_NOT_CERTIFIED_EDIBLE",
+    "old_timber_wages": "UNPAID",
+    "supplier_invoice": "UNPAID",
+    "missing_claimant": "UNKNOWN",
+    "sealed_message": "UNOPENED",
+    "singer_destination": "UNKNOWN",
+    "private_chest": "UNRETRIEVED",
+    "unsafe_rooms": "CLOSED"
+  },
+  "review_request": {
+    "url": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6515809519",
+    "status": "REQUESTED_NOT_APPROVED"
+  },
+  "blocked": [
+    "historical human owner authentication",
+    "period Character Canon and supporting character identities",
+    "historical Atlas/material culture",
+    "independent Authors Council assessment",
+    "Librarian source concurrence",
+    "independent Umpire",
+    "Founder-only canon and publication"
+  ],
+  "release": {
+    "merged": false,
+    "canonical": false,
+    "published": false,
+    "spent_external_money": false
+  },
+  "next": [
+    "Recheck GitHub Actions at checkpoint-inclusive exact commit before reporting final CI green; repair any failures",
+    "Write substantive causal Chapter IX with new consequences and stronger Jake agency; do not assume a scoring-week chapter boundary or postseason outcome",
+    "Prepare versioned factual erratum for older noncanonical 2016 pilot misreporting opening Weeks 2 and 3 as defeats; verify archival G01 before edits",
+    "Seek actual independent editorial/Character/Atlas/Librarian/Umpire findings, no simulated signoff"
+  ]
+}
