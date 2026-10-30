@@ -70,9 +70,12 @@ class Test2016CausalChapterTen(unittest.TestCase):
         self.assertEqual(re.findall(r"(?m)^### ([IVX]+)\.", self.prose), ["I", "II", "III", "IV", "V"])
 
     def test_single_owner_pov_noncanon_identity_boundary(self):
-        for token in ("NONCANON", "CHAR-JAKE-KALOPER", "PRINCIPAL_CHARACTER",
-                      "not provider-authenticated"):
+        for token in ("NONCANON", "CHAR-JAKE-KALOPER", "PRINCIPAL_CHARACTER"):
             self.assertIn(token.lower(), self.chapter.lower())
+        # The manuscript uses the equivalent explicit negative sentence;
+        # require that full negation, not a brittle one-phrase variant.
+        self.assertIn("no human jake-to-2016 team-slot association is provider-authenticated",
+                      self.chapter.lower())
         self.assertNotRegex(self.prose, r"(?im)^### (?:Edrin|Edin|Oren)\b")
 
     def test_character_pays_real_cost_after_chapter_nine(self):
