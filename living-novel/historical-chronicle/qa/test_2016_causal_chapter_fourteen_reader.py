@@ -66,7 +66,7 @@ class ChapterFourteen(unittest.TestCase):
 
     def test_earned_interpersonal_and_material_consequence(self):
         self.assertIn("The burned worker", self.prose)
-        self.assertIn("The work there must be kept apart", self.prose) if False else self.assertIn("the work there must be kept apart", self.prose)
+        self.assertIn("the work there must be kept apart", self.prose)
         self.assertIn("I didn't examine it", self.prose)
         self.assertIn("will not move the measures", self.prose)
 
@@ -81,7 +81,7 @@ class ChapterFourteen(unittest.TestCase):
         self.assertIn("Atlas", self.chapter)
         self.assertIn("Umpire", self.chapter)
         self.assertIn("No real external purchase", self.chapter)
-        self.assertIn("No independent Author/Umpire approval", self.chapter)
+        self.assertIn("no independent Author/Umpire approval is claimed", self.chapter)
 
     def test_old_reader_fingerprint_and_thirteen_components(self):
         self.assertEqual(blob(BASE / PREVIOUS), PREVIOUS_SHA)
