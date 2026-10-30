@@ -84,7 +84,7 @@ class ChapterTwentyTwoReader(unittest.TestCase):
         self.assertIn("The cover remained locked", self.prose)
 
     def test_exclusive_owner_pov(self):
-        self.assertIn("sole limited principal POV", self.chapter.lower())
+        self.assertIn("sole limited principal pov", self.chapter.lower())
         self.assertIn("CHAR-JAKE-KALOPER / PRINCIPAL_CHARACTER", self.chapter)
         for forbidden in ("Edrin", "Edin", "Oren"):
             self.assertNotIn(forbidden, self.prose)
