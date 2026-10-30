@@ -2,7 +2,7 @@
 
 *2016 Commonwealth causal-novel Chapter Twelve candidate — NONCANON / editorial and Founder HOLD. Proposed single limited interior POV: fictional Jake / CHAR-JAKE-KALOPER, one of the twelve owner characters. Events follow Chapter XI and the archived Week 13 notice but precede any character knowledge of the 2016 postseason. Every market, costume, route, household, custom, contract, transaction, and utterance below is proposed secondary-world fiction, **not** verified ESPN/Flaim, Character Canon, Atlas, or real-human biography. The historical scoring-slot-to-human-Jake association is not provider-authenticated. No historical match result, title, trade, score, or other owner identity is asserted.*
 
-## I. The sound beneath the door
+### I. The sound beneath the door
 
 The boy came back from the well with a ticket in his fist and no water.
 
@@ -116,7 +116,7 @@ Jake put the ticket in his coat and went out. The boy remained by the door, hold
 
 The boy took the water inside. Jake stood for a moment looking at the dark thumbprint on his own sleeve, where he had touched the paper and then wiped the ink away.
 
-## II. Where the roads changed hands
+### II. Where the roads changed hands
 
 He had seen the meeting of the roads from a distance but never entered it on a market day.
 
@@ -218,7 +218,7 @@ In the shelter the traveling singer had been a person others spoke about. In the
 
 His smile arrived too late.
 
-## III. An audience acquired without a voice
+### III. An audience acquired without a voice
 
 The singer moved to the ticket table and placed one hand on the wood.
 
@@ -348,7 +348,7 @@ A person at the back called that the tray belonged to the man who paid for the c
 
 Jake saw the father shift the child from one shoulder to the other. The child had fallen asleep. A bell sounded from a nearby yard, marking an ordinary hour no one had agreed to make significant. The argument continued beneath it.
 
-## IV. The work of giving back
+### IV. The work of giving back
 
 The clerk had sold more tickets than he could refund without opening the sealed packet beneath the table.
 
@@ -454,7 +454,7 @@ He almost smiled. Her face made clear that the sentence was not intended as comf
 
 She lifted her case. In the sudden emptiness behind her, the red cloth on the platform moved a little in the breeze. The clerk was carrying his table back under the awning. The carrier still stood beside the blocked wagon, negotiating with an entirely different man about a safe alternative route. The world had begun taking up its interrupted work without waiting to decide who was good.
 
-## V. A tune the road kept
+### V. A tune the road kept
 
 Jake found the singer beyond the last trading awning, sitting beneath a wall where the stones had come loose at the top. He had not followed deliberately. The road home passed that way, and her instrument case lay in the dust beside her.
 
