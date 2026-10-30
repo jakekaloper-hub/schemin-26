@@ -14,8 +14,6 @@ BASE = ROOT / "living-novel/historical-chronicle/seasons/2016/causal-novel"
 ARCHIVE = ROOT / "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json"
 ARCHIVE_BLOB = "6dbec1fe2537139f3a97c6a78250e2bae082a518"
 NEW = "THE_PRICE_OF_A_VOICE_CHAPTER_12_NONCANON.md"
-NEW_BLOB = "722cc9318e744d7ab8fdae5b62a1785a0"
-# Blob SHA must be the exact Git content object, not a truncated display ref.
 NEW_BLOB = "722cc9318e744d7ab8fdae5fdd4fb0af775d1745"
 PRIOR_READER = "READING_COPY_CAUSAL_CHAPTERS_01_11_NONCANON.md"
 PRIOR_READER_BLOB = "f98525bd9611879a0750abd913746ecc90e7a7c6"
@@ -86,7 +84,7 @@ class Test2016CausalTwelve(unittest.TestCase):
         self.assertIn("I won't perform under those tickets", self.prose)
         self.assertIn("some people received their money back", self.prose.lower())
         self.assertIn("not all", self.prose.lower())
-        self.assertIn("she had not agreed to provide", self.prose.lower())
+        self.assertIn("You promised them my work", self.prose)
 
     def test_shelter_consent_firewall(self):
         self.assertIn("We have received no such agreement", self.prose)
