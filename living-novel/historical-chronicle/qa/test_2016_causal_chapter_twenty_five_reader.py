@@ -25,11 +25,11 @@ PROTECTED = {
 
 def git_blob(path):
     data = path.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\\0" + data).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest()
 
 def rows(doc):
     return [(int(n), name, sha, int(words)) for n,name,sha,words in re.findall(
-        r"^\\| (\\d+) \\| \\x60([^\\x60]+)\\x60 \\| \\x60([a-f0-9]{40})\\x60 \\| (\\d+) \\|$", doc, re.M)]
+        r"^\| (\d+) \| \x60([^\x60]+)\x60 \| \x60([a-f0-9]{40})\x60 \| (\d+) \|$", doc, re.M)]
 
 def passage(doc, name, sha):
     start = f"<!-- BEGIN 2016_CAUSAL {name} | git_blob {sha} -->"
@@ -45,7 +45,7 @@ class TwentyFiveChapterReader(unittest.TestCase):
         cls.old = (BASE / PREVIOUS).read_text(encoding="utf-8")
         cls.manifest = rows(cls.reader)
         cls.old_manifest = rows(cls.old)
-        cls.prose = cls.chapter.split("### I.", 1)[1].split("\\n---\\n", 1)[0]
+        cls.prose = cls.chapter.split("### I.", 1)[1].split("\n---\n", 1)[0]
 
     def test_01_manifest_is_ordered_and_source_marked(self):
         self.assertEqual([row[0] for row in self.manifest], list(range(1, 26)))
@@ -76,7 +76,7 @@ class TwentyFiveChapterReader(unittest.TestCase):
 
     def test_06_substantial_five_movement_fiction_and_handoff(self):
         self.assertGreaterEqual(len(self.chapter.split()), 5500)
-        self.assertEqual(len(re.findall(r"^### [IVX]+\\.", self.chapter, re.M)), 5)
+        self.assertEqual(len(re.findall(r"^### [IVX]+\.", self.chapter, re.M)), 5)
         self.assertIn("### Editorial handoff", self.chapter)
         self.assertIn("The Mile Beyond the Weigh-Stones", self.chapter)
 
