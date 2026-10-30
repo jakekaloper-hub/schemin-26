@@ -116,7 +116,8 @@ class Test2016PostseasonFullSeason(unittest.TestCase):
     def test_reader_has_sixteen_source_exact_components(self):
         self.assertEqual(len(PARTS), 16)
         self.assertEqual(len(self.sections), 16)
-        self.assertEqual([x.group("path") for x in self.sections], PARTS)
+        self.assertEqual([x.group("path") for x in self.sections],
+                         [str(Path(p).relative_to(BASE)) for p in PARTS])
         self.assertEqual(self.reader.count("<!-- BEGIN 2016 "), 16)
         self.assertEqual(self.reader.count("<!-- END 2016 "), 16)
         self.assertEqual(self.reader.count("<!-- BEGIN_COMPILED_MANUSCRIPT -->"), 1)
@@ -124,10 +125,10 @@ class Test2016PostseasonFullSeason(unittest.TestCase):
         for section in self.sections:
             path = section.group("path")
             with self.subTest(path=path):
-                source = (ROOT / path).read_text(encoding="utf-8")
-                self.assertEqual(blob(ROOT / path), section.group("sha"))
+                source = (ROOT / BASE / path).read_text(encoding="utf-8")
+                self.assertEqual(blob(ROOT / BASE / path), section.group("sha"))
                 self.assertEqual(section.group("body"), source.rstrip())
-                self.assertIn(f"| {path} | {section.group('sha')} |", self.reader)
+                self.assertIn(f"| {BASE / path} | {section.group('sha')} |", self.reader)
 
     def test_substantive_assembled_prose_not_an_outline(self):
         self.assertGreaterEqual(len(self.post.split()), 5400)
