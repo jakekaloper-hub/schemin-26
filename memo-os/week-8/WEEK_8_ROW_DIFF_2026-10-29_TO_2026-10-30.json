@@ -1,0 +1,377 @@
+{
+  "schema": "schemin26.memo.week8_row_diff.v1",
+  "run_id": "S26-MEMO-W08-20261030-AUTOMATED",
+  "observed_at_utc": "2026-10-30T13:02:35.682Z",
+  "league_id": 1417621,
+  "season": 2026,
+  "week": 8,
+  "before": {
+    "date": "2026-10-29",
+    "artifact": "memo-os/week-8/WEEK_8_PROVIDER_NORMALIZED_EVIDENCE_2026-10-29.json",
+    "blob_sha": "ad02f3515b2cb204219429968b487c6839fc291e",
+    "source": "mTransactions2",
+    "transaction_count": 17
+  },
+  "after": {
+    "date": "2026-10-30",
+    "artifact": "memo-os/week-8/WEEK_8_PROVIDER_NORMALIZED_EVIDENCE_2026-10-30.json",
+    "source": "mTransactions2",
+    "transaction_count": 23
+  },
+  "status": "FULL_ROW_COMPARISON_COMPLETE_NOT_STEWARD_APPROVED",
+  "counts": {
+    "added": 6,
+    "removed": 0,
+    "modified": 0,
+    "unchanged": 17
+  },
+  "added_rows": [
+    {
+      "transaction_id": "4cd9bc45-4830-4d07-a664-99c199fa2a73",
+      "type": "add",
+      "status": "complete",
+      "timestamp": 1793321496862,
+      "timestamp_source": "proposedDate",
+      "date": "2026-10-29",
+      "week": 8,
+      "provider_scoring_period_id": 8,
+      "team_ids": [
+        "1"
+      ],
+      "players_added": [
+        {
+          "id": "4635008",
+          "name": "Keon Coleman",
+          "position": "WR",
+          "team": "BUF"
+        }
+      ],
+      "players_dropped": [
+        {
+          "id": "4427728",
+          "name": "Bam Knight",
+          "position": "RB",
+          "team": "ARI"
+        }
+      ],
+      "faab_bid": 0
+    },
+    {
+      "transaction_id": "871958ef-c9b0-4561-8700-a0abf1021592",
+      "type": "add",
+      "status": "complete",
+      "timestamp": 1793320881526,
+      "timestamp_source": "proposedDate",
+      "date": "2026-10-29",
+      "week": 8,
+      "provider_scoring_period_id": 8,
+      "team_ids": [
+        "9"
+      ],
+      "players_added": [
+        {
+          "id": "4363538",
+          "name": "Chad Ryland",
+          "position": "K",
+          "team": "ARI"
+        }
+      ],
+      "players_dropped": [],
+      "faab_bid": 0
+    },
+    {
+      "transaction_id": "f2bd448a-2b7c-40f3-86d2-e6eb6527bff7",
+      "type": "add",
+      "status": "complete",
+      "timestamp": 1793320797160,
+      "timestamp_source": "proposedDate",
+      "date": "2026-10-29",
+      "week": 8,
+      "provider_scoring_period_id": 8,
+      "team_ids": [
+        "10"
+      ],
+      "players_added": [
+        {
+          "id": "4567156",
+          "name": "Treylon Burks",
+          "position": "WR",
+          "team": "WSH"
+        }
+      ],
+      "players_dropped": [
+        {
+          "id": "3121422",
+          "name": "Terry McLaurin",
+          "position": "WR",
+          "team": "WSH"
+        }
+      ],
+      "faab_bid": 0
+    },
+    {
+      "transaction_id": "c46a2fd6-924a-469a-b262-475c7ad756c7",
+      "type": "add",
+      "status": "complete",
+      "timestamp": 1793319255255,
+      "timestamp_source": "proposedDate",
+      "date": "2026-10-29",
+      "week": 8,
+      "provider_scoring_period_id": 8,
+      "team_ids": [
+        "3"
+      ],
+      "players_added": [
+        {
+          "id": "-16028",
+          "name": "Commanders D/ST",
+          "position": "D/ST",
+          "team": "WSH"
+        }
+      ],
+      "players_dropped": [
+        {
+          "id": "4432577",
+          "name": "C.J. Stroud",
+          "position": "QB",
+          "team": "HOU"
+        }
+      ],
+      "faab_bid": 0
+    },
+    {
+      "transaction_id": "dbf30881-59af-4b1d-9bdc-89b0e88435ae",
+      "type": "trade_uphold",
+      "status": "complete",
+      "timestamp": 1793308019152,
+      "timestamp_source": "proposedDate",
+      "date": "2026-10-29",
+      "week": 8,
+      "provider_scoring_period_id": 8,
+      "team_ids": [
+        "7"
+      ],
+      "players_added": [],
+      "players_dropped": [],
+      "faab_bid": 0,
+      "trade_details_unavailable": true
+    },
+    {
+      "transaction_id": "18603527-f818-408c-a071-cae9bc5713e7",
+      "type": "trade",
+      "status": "unknown",
+      "timestamp": 1793302604912,
+      "timestamp_source": "proposedDate",
+      "date": "2026-10-29",
+      "week": 8,
+      "provider_scoring_period_id": 8,
+      "team_ids": [
+        "8"
+      ],
+      "players_added": [],
+      "players_dropped": [],
+      "faab_bid": 0,
+      "trade_details_unavailable": true
+    }
+  ],
+  "removed_rows": [],
+  "modified_rows": [],
+  "unchanged_ids": [
+    "7d74b8af-58ff-4aaa-bec2-0c534157a6fa",
+    "4ac0e1d5-f5d4-4772-a893-0e2f5faf4976",
+    "d64e6a4e-7ba8-4efa-b131-1a81f99885fd",
+    "46b91959-8ab6-4992-8d55-c751efa129af",
+    "177a9a4a-8639-4760-9fd2-176c9bd25126",
+    "03519709-f56d-459f-9363-cb59e8050af6",
+    "083b6c78-3b87-4cdc-87ca-84822a895299",
+    "17d986bb-700a-4f4f-9336-2b3a66702d77",
+    "84396da6-d484-4885-9a42-8eca60d92933",
+    "8fc4c453-d5bb-42c5-95d2-930d105eecca",
+    "80708b4b-614f-4b92-93a4-db13f4e5b981",
+    "4605e2eb-599f-408a-b3f0-e410f1a62839",
+    "bc503c85-1cc0-40ed-9b31-31d77344de0c",
+    "fd7cb8bf-489f-4797-9b87-7ff466e71e03",
+    "3f941a11-53a2-444b-b5c7-f67fd38b6107",
+    "4b118a19-955d-4af9-843b-d49731612477",
+    "f4f970cc-f7cf-48a2-a866-b3e3d79cfdfa"
+  ],
+  "week7_transactions": {
+    "before": 39,
+    "after": 39,
+    "stable": true
+  },
+  "week7_final_results": {
+    "score_changes": [],
+    "winner_states_stable": true
+  },
+  "week8_partial_score_drift": [
+    {
+      "team_id": 12,
+      "team": "Dr. Duckhook",
+      "before": 0,
+      "after": 20.9
+    },
+    {
+      "team_id": 9,
+      "team": "El Niño",
+      "before": 0,
+      "after": 17.3
+    },
+    {
+      "team_id": 7,
+      "team": "The Chili Cheesers ",
+      "before": 0,
+      "after": 30.66
+    },
+    {
+      "team_id": 3,
+      "team": "Slob on my Dobb",
+      "before": 0,
+      "after": 37.1
+    },
+    {
+      "team_id": 8,
+      "team": "His Majesty's Blood",
+      "before": 0,
+      "after": 27.1
+    },
+    {
+      "team_id": 2,
+      "team": "Red Leopards",
+      "before": 0,
+      "after": 9.6
+    },
+    {
+      "team_id": 4,
+      "team": "The LLC",
+      "before": 0,
+      "after": 7.1
+    }
+  ],
+  "week8_projection_drift": [
+    {
+      "team_id": 10,
+      "team": "Mud Dogs",
+      "before": 119.33377889,
+      "after": 126.5050661
+    },
+    {
+      "team_id": 12,
+      "team": "Dr. Duckhook",
+      "before": 154.47191396,
+      "after": 160.98588293
+    },
+    {
+      "team_id": 1,
+      "team": "ObiWan Jacoby",
+      "before": 157.72256344,
+      "after": 157.74956343
+    },
+    {
+      "team_id": 9,
+      "team": "El Niño",
+      "before": 106.16423732,
+      "after": 149.61603192
+    },
+    {
+      "team_id": 5,
+      "team": "D0nkey K0ng",
+      "before": 141.17138429,
+      "after": 142.58779831
+    },
+    {
+      "team_id": 11,
+      "team": "Seven Deadly Chins",
+      "before": 131.03417214,
+      "after": 132.00955988
+    },
+    {
+      "team_id": 6,
+      "team": "Three Dreaded Snake",
+      "before": 140.95133588,
+      "after": 140.90397788
+    },
+    {
+      "team_id": 7,
+      "team": "The Chili Cheesers ",
+      "before": 129.37516661,
+      "after": 126.63418669
+    },
+    {
+      "team_id": 3,
+      "team": "Slob on my Dobb",
+      "before": 157.16129805,
+      "after": 161.09288037
+    },
+    {
+      "team_id": 8,
+      "team": "His Majesty's Blood",
+      "before": 135.82280992,
+      "after": 144.8674708
+    },
+    {
+      "team_id": 2,
+      "team": "Red Leopards",
+      "before": 160.14670255,
+      "after": 155.20141555
+    },
+    {
+      "team_id": 4,
+      "team": "The LLC",
+      "before": 148.49426876,
+      "after": 148.18324987
+    }
+  ],
+  "week8_current_matchups": [
+    {
+      "home_team": "Mud Dogs",
+      "home_points": 0,
+      "away_team": "Dr. Duckhook",
+      "away_points": 20.9,
+      "winner": "UNDECIDED"
+    },
+    {
+      "home_team": "ObiWan Jacoby",
+      "home_points": 0,
+      "away_team": "El Niño",
+      "away_points": 17.3,
+      "winner": "UNDECIDED"
+    },
+    {
+      "home_team": "D0nkey K0ng",
+      "home_points": 0,
+      "away_team": "Seven Deadly Chins",
+      "away_points": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "home_team": "Three Dreaded Snake",
+      "home_points": 0,
+      "away_team": "The Chili Cheesers ",
+      "away_points": 30.66,
+      "winner": "UNDECIDED"
+    },
+    {
+      "home_team": "Slob on my Dobb",
+      "home_points": 37.1,
+      "away_team": "His Majesty's Blood",
+      "away_points": 27.1,
+      "winner": "UNDECIDED"
+    },
+    {
+      "home_team": "Red Leopards",
+      "home_points": 9.6,
+      "away_team": "The LLC",
+      "away_points": 7.1,
+      "winner": "UNDECIDED"
+    }
+  ],
+  "limitations": [
+    "Direct gateway contains parsed ESPN JSON but not original upstream HTTP response bytes or headers.",
+    "Gateway captured earlier than the adapter fetch; partial live-score equivalence cannot be claimed.",
+    "Structured source reported trade_details_unavailable for the two new trade lifecycle records, so no deal participants, exchange or completion can be described.",
+    "Week 8 transaction date_bounds_kind unavailable; returned nontruncated records are not proof of exhaustive date coverage.",
+    "No authenticated Data Release Steward ACK, independent semantic/freshness approval or Fact Lock.",
+    "ESPN may subsequently amend prior final scores."
+  ]
+}
