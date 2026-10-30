@@ -27,7 +27,7 @@
 | 14 | `WHAT_WAS_LEFT_IN_THE_YARD_CHAPTER_14_NONCANON.md` | `f76ec3ae5245bccf57a8df2a3f3d76001319c68e` | 5101 |
 | 15 | `THE_PASSAGE_NO_ONE_COULD_SELL_CHAPTER_15_NONCANON.md` | `5bac0a5028acf452790c61ec41391660e86abb9e` | 6122 |
 
-| 16 | `THE_WORK_THAT_CROSSED_BACK_CHAPTER_16_NONCANON.md` | `ec463f08293219f16277a93b6d64d3a791e44196` | 5896 |
+| 16 | `THE_WORK_THAT_CROSSED_BACK_CHAPTER_16_NONCANON.md` | `134372fe502087a049f22871e0c9ac187d690059` | 5905 |
 
 <!-- BEGIN_CAUSAL_READING_COPY -->
 
@@ -6073,7 +6073,7 @@ In the morning he would have to choose again.
 
 
 
-<!-- BEGIN 2016_CAUSAL THE_WORK_THAT_CROSSED_BACK_CHAPTER_16_NONCANON.md | git_blob ec463f08293219f16277a93b6d64d3a791e44196 -->
+<!-- BEGIN 2016_CAUSAL THE_WORK_THAT_CROSSED_BACK_CHAPTER_16_NONCANON.md | git_blob 134372fe502087a049f22871e0c9ac187d690059 -->
 
 # The Work That Crossed Back
 
@@ -6185,7 +6185,7 @@ The answer stung him more than it should have. Deren was not trying to hurt him.
 
 ### II. The lamps in the wrong room
 
-Before Jake could answer, Bram came running from the far landing in Ren's smaller boat. Ren had returned her repaired peg to the thwart, taken one passenger across, and brought Bram back with a narrow note inside his coat. The boy jumped ashore and looked around for the owner of the cart with the lamps.
+Before Jake could answer, Ren's smaller boat returned from the far landing. Bram stood in the bow with a narrow note tucked inside his coat. Ren had repaired the thwart, carried Bram across to ask after the previous day's delivery, and brought him back to the near bank. The boy jumped ashore and looked around for the owner of the cart with the lamps.
 
 "Three cases," he said, holding the note by its corner. "Tavin says three came into the dry store. The people waiting for the lamps say they sent four."
 
