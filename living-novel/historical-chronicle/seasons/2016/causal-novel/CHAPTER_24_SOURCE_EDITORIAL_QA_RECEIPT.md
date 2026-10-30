@@ -5,7 +5,7 @@
 ## Completed literary production
 
 - New prose: `THE_THINGS_SHE_CAME_BACK_FOR_CHAPTER_24_NONCANON.md`, **6,285 whitespace words including source notes**, five sustained movements, Git blob `f767d79d9cd2ae6fdd58129ea96fbe0a73713461`.
-- Assembly: `READING_COPY_CAUSAL_CHAPTERS_01_24_NONCANON.md`, **128,599 whitespace words** including all editorial notes, source manifest and envelope. Twenty-four source-marked components; previous 23 remain verbatim and are individually checkable.
+- Assembly: `READING_COPY_CAUSAL_CHAPTERS_01_24_NONCANON.md`, **128,598 whitespace words** including all editorial notes, source manifest and envelope. Twenty-four source-marked components; previous 23 remain verbatim and are individually checkable.
 - Previous 23-chapter reader: Git blob `cef21bdf82699e31b1fed5d3e439957d7d5ec939`, preserved without replacement.
 - Regression file: `living-novel/historical-chronicle/qa/test_2016_causal_chapter_twenty_four_reader.py`, **15 new tests** in existing Novel OS CI historical reader discovery. Exact-head CI outcome must be read separately. Three string tests were aligned with authored dialogue before certification; no prose was changed for those assertions.
 - Scope: existing draft PR #243 / branch `novel/historical-epic-2015-2026`. This is NOT the released 2016 season Chronicle and is NOT an overwrite of protected 2026 main manuscript.
