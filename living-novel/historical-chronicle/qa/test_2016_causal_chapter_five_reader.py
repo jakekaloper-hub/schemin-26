@@ -87,7 +87,7 @@ class Test2016CausalChapterFive(unittest.TestCase):
         self.assertIn("not historical facts or approved geography", self.prose)
 
     def test_borrowed_awning_not_permanently_assigned(self):
-        self.assertIn("The assistant took his cart down the road", self.prose)
+        self.assertIn("The young man took his cart down the road", self.prose)
         self.assertIn("The owner of the awning arrived", self.prose)
         self.assertIn("Chapter IV's distinct short market awning is reclaimed", self.chapter)
         self.assertIn("original three-night canvas was returned", self.chapter)
@@ -107,7 +107,7 @@ class Test2016CausalChapterFive(unittest.TestCase):
         lower = self.chapter.lower()
         for phrase in ("chest unretrieved", "reaching frame unbuilt", "supplier invoice",
                        "timber-worker debt", "sealed message unopened", "wheel unturned",
-                       "missing claimant"):
+                       "unknown claimant unidentified"):
             self.assertIn(phrase, lower)
         self.assertNotIn("missing claimant was found", self.prose.lower())
 
