@@ -77,7 +77,7 @@ class Test2016CausalChapterThree(unittest.TestCase):
         self.assertNotIn("## Week Nine", self.prose)
 
     def test_pov_and_world_rights_are_hold_not_claimed(self):
-        for term in ("NONCANON", "CHAR-JAKE-KALOPER", "NOT approved Commonwealth", "HOLD"):
+        for term in ("NONCANON", "CHAR-JAKE-KALOPER", "proposed fiction", "HOLD"):
             self.assertIn(term, self.chapter)
         self.assertNotRegex(self.prose, r"(?m)^### (Edrin|Edin|Oren)\b")
         self.assertNotIn("El Niño said", self.prose)
@@ -108,7 +108,7 @@ class Test2016CausalChapterThree(unittest.TestCase):
                 self.assertEqual(m.group("sha"), BLOBS[idx])
                 self.assertEqual(git_blob(BASE / FILES[idx]), BLOBS[idx])
                 self.assertEqual(m.group("body"), (BASE / FILES[idx]).read_text(encoding="utf-8").rstrip())
-                self.assertIn("| \`" + FILES[idx] + "\` | \`" + BLOBS[idx] + "\` |", self.reader)
+                self.assertIn("| `" + FILES[idx] + "` | `" + BLOBS[idx] + "` |", self.reader)
 
     def test_reader_is_substantial_and_keeps_release_holds(self):
         self.assertGreaterEqual(len(self.reader.split()), 13000)
