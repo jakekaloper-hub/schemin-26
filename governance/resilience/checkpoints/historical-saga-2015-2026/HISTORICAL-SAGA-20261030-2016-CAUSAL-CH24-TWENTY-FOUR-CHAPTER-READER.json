@@ -1,0 +1,113 @@
+{
+  "id": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH24-TWENTY-FOUR-CHAPTER-READER",
+  "date": "2026-10-30",
+  "state": "DRAFT_WRITTEN_ASSEMBLED_SOURCE_READBACK_TESTS_SUBMITTED_CI_PENDING_EDITORIAL_HOLD",
+  "repo": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "resumes": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH23-TWENTY-THREE-CHAPTER-READER",
+  "reference_source": {
+    "source_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "source_matrix_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+    "novel_canon_protocol": "living-novel/os/NOVEL_OS_CANON_PROTOCOL_V1.md",
+    "novel_tasks": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "bullpen_command_registry": "runtime/commandRegistry.js",
+    "bullpen_lifecycle": "runtime/lifecycleEngine.js",
+    "issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "prs": {
+      "188": "CLOSED_MERGED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT_HOLD",
+      "261": "OPEN_DRAFT_HOLD",
+      "264": "OPEN_DRAFT"
+    }
+  },
+  "artifacts": {
+    "chapter": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_THINGS_SHE_CAME_BACK_FOR_CHAPTER_24_NONCANON.md",
+      "git_blob": "f767d79d9cd2ae6fdd58129ea96fbe0a73713461",
+      "words_including_notes": 6285,
+      "movements": 5,
+      "write_commit": "cf966d6daba64a5530a96cb695300bf82245aaee"
+    },
+    "reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_24_NONCANON.md",
+      "git_blob": "a05be29bb470c9b27c3a2c33469fe3ee79249931",
+      "whitespace_words_including_manifest": 128599,
+      "component_count": 24,
+      "prior_reader_blob": "cef21bdf82699e31b1fed5d3e439957d7d5ec939"
+    },
+    "test": {
+      "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_twenty_four_reader.py",
+      "git_blob": "c544b622ebf8f5484d4d03399143cb162a044958",
+      "new_test_methods": 15,
+      "assertions_corrected_before_ci": "9c73583a859c50885a7cf7855f54a80ccf2c1ca6"
+    },
+    "self_qa": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_24_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "git_blob": "5b3f2c863f3748cc5922865310dee8a2267ad647"
+    }
+  },
+  "verification": {
+    "prior_ch23_full_reader_exact_commit": "20e4a196ea552303b9f349410d5efebcb1735d04",
+    "prior_ch23_novel_os_test_count": 257,
+    "prior_ch23_four_ci": "PASS",
+    "new_ch24_source_and_reader": "DIRECT_GITHUB_READBACK_CH24_BLOB_AND_EXACT_SOURCE_COMPONENT; PRIOR_23_MARKERS_PRESERVED_BY_ASSEMBLER",
+    "protected_2026_main_vs_branch": {
+      "status": "BLOB_EQUAL_FRESH",
+      "prologue": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "ch1": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "ch2": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "ch3": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+    },
+    "archive_2016": {
+      "status": "BLOB_EQUAL_FRESH",
+      "blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518"
+    },
+    "novel_os_ci_run_queued": 41124831494,
+    "other_ci_at_test_sha": "QUEUED_AT_LAST_READBACK",
+    "exact_final_head_ci": "TO_BE_CHECKED_AFTER_CHECKPOINT_COMMIT",
+    "independent_author_review": "NOT_ACCEPTED",
+    "independent_umpire": "NOT_ACCEPTED",
+    "merged": false,
+    "canon_promoted": false,
+    "published": false
+  },
+  "narrative": {
+    "principal_pov": "fictional CHAR-JAKE-KALOPER only; 2016 owner-slot not authenticated",
+    "actual_change": "Sola independently returns for paid privacy-screen craft, shows two genuine clogs excluding the stranger's shoe, completes a two-leaf screen without accepting residence. Jake accepts seasonal upriver prospective job and reassigns service/watch shifts; departure and new wages have not happened.",
+    "open_loops": [
+      "unidentified third clog / stranger",
+      "ledger theft culprit/removed leaves unknown",
+      "west-store suspected cover custody expiring",
+      "Sola future work/location independent",
+      "Mara with Senn; no return",
+      "Len injured eye; wooden bird unfinished",
+      "unsafe east boundary; other woman's chest unretrieved",
+      "missing claimant private original and separate sealed message protected",
+      "supplier invoice, Jake pledge balance, singer refunds, wheelwright daughter's unsigned commission outstanding",
+      "upriver prospective start not yet occurred"
+    ],
+    "historical_boundary": "No new ESPN facts, scoring results, owner identity, matchups or postseason claim"
+  },
+  "blocking_gates": [
+    "authenticated 2016 historical owner binding",
+    "period-correct Character Canon and Atlas review",
+    "independent Authors Council acceptance",
+    "independent Umpire acceptance",
+    "Founder-only merge/canon/publication decision",
+    "exact checkpoint-head green CI"
+  ],
+  "next": [
+    "Read four GitHub workflows at this exact checkpoint commit and inspect Novel OS logs if a new regression fails; repair expectations or defects based on observed evidence.",
+    "Request actual independent Authors Council, Character Canon, Atlas, and Umpire findings; do not represent self-review or model council simulation as acceptance.",
+    "Advance Chapter XXV as substantial NONCANON fiction: earn Jake's stoneworks departure or its consequential failure, preserve Sola independent wage/work and privacy without new invented threat.",
+    "Retain exact source manifest, previous 24 passages, all 2016 competition archive and protected 2026 hard manuscript as read-only."
+  ]
+}
