@@ -105,7 +105,7 @@ class CausalTwentyOne(unittest.TestCase):
 
     def test_distinct_chest_not_claimant_property(self):
         self.assertIn("The woman with its key was not the missing claimant", self.prose)
-        self.assertIn("behind the unsafe eastern boundary", self.prose)
+        self.assertIn("Behind the unsafe eastern boundary", self.prose)
         self.assertIn("chest unretrieved behind a closed unsafe east boundary", self.chapter)
 
     def test_book_loss_is_observed_not_only_threatened(self):
