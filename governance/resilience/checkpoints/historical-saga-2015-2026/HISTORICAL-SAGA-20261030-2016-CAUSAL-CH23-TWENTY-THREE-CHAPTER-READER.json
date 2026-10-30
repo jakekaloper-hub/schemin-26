@@ -1,7 +1,7 @@
 {
   "id": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH23-TWENTY-THREE-CHAPTER-READER",
   "date": "2026-10-30",
-  "state": "DRAFT_WRITTEN_ASSEMBLED_AND_SOURCE_PREFLIGHT_VERIFIED__CI_REPAIR_PENDING__INDEPENDENT_EDITORIAL_HOLD",
+  "state": "DRAFT_WRITTEN_ASSEMBLED_SOURCE_VERIFIED_CI_257_PASS_AT_REPAIRED_TEST_SHA_INDEPENDENT_EDITORIAL_HOLD",
   "repo": "jakekaloper-hub/schemin-26",
   "branch": "novel/historical-epic-2015-2026",
   "pr": 243,
@@ -47,12 +47,12 @@
     },
     "test": {
       "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_twenty_three_reader.py",
-      "git_blob_after_repair": "ad3f66bde8abebc2044c66933eab3a4322f7f26e",
+      "git_blob_after_repair": "7b41de76ec160d810c5602c1c793855ee7ec5bbd",
       "new_test_methods": 15
     },
     "self_qa": {
       "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_23_SOURCE_EDITORIAL_QA_RECEIPT.md",
-      "git_blob": "c0af38abdb6723696ae18943e385f37f8621c032"
+      "git_blob": "44e091e1b9950ec8952ed47c17336c369dacf36b"
     }
   },
   "verification": {
@@ -86,16 +86,45 @@
     "repair_commit": "2d70195c3d7636044f285a6b80647c4919297e49",
     "repair_ci_observed": {
       "workflow": "Novel OS CI",
-      "run": 41117540329,
-      "status": "IN_PROGRESS_AT_CHECKPOINT_TIME",
-      "other_three_workflows": "SUCCESS_ON_REPAIR_COMMIT"
+      "run": 41117687076,
+      "status": "SUCCESS_ON_REPAIRED_TEST_SHA",
+      "other_three_workflows": "SUCCESS_ON_SAME_SHA"
     },
-    "exact_final_head_ci": "PENDING_VERIFICATION_AFTER_CHECKPOINT_COMMIT",
+    "exact_final_head_ci": "TO_BE_CHECKED_AFTER_THIS_CHECKPOINT_COMMIT",
     "independent_author_review": "REQUESTED_NOT_ACCEPTED",
     "independent_umpire": "REQUESTED_NOT_ACCEPTED",
     "merged": false,
     "canon_promoted": false,
-    "published": false
+    "published": false,
+    "observed_ci_failure_2": {
+      "workflow": "Novel OS CI",
+      "run": 41117540329,
+      "total_tests": 257,
+      "failed": 1,
+      "reason": "remaining test-only literal mismatch, repaired"
+    },
+    "final_repaired_test_commit": "dfcfe55192ae47e16e99360bf0f3aaf226b031fa",
+    "ci_at_repaired_test_commit": {
+      "novel_os": {
+        "run": 41117687076,
+        "conclusion": "SUCCESS",
+        "test_count": 257,
+        "failed": 0
+      },
+      "cross_domain": {
+        "run": 41117687180,
+        "conclusion": "SUCCESS"
+      },
+      "repository_merge_gate": {
+        "run": 41117687131,
+        "conclusion": "SUCCESS"
+      },
+      "bullpen_runtime": {
+        "run": 41117687228,
+        "conclusion": "SUCCESS"
+      }
+    },
+    "independent_review_request": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6532032003"
   },
   "narrative": {
     "principal_pov": "fictional CHAR-JAKE-KALOPER only; 2016 owner-slot not authenticated",
@@ -124,7 +153,7 @@
     "exact final-head green CI"
   ],
   "next": [
-    "Verify Novel OS CI 257-test run after the targeted two-assertion repair, then verify all four at final checkpoint head.",
+    "Read all four workflows on the exact checkpoint head; if Novel OS CI fails, inspect real logs and repair, never cite previous SHA as final-head proof.",
     "Repair observed failing tests only from evidence; do not rewrite fiction to satisfy a mistaken string literal.",
     "Submit real independent author/Atlas/Character/Umpire review request; self-review is not acceptance.",
     "Advance Chapter XXIV as substantial noncanonical causal fiction with Sola/communal protection consequences but avoid presuming an attack or revealing an unverified ledger thief.",
