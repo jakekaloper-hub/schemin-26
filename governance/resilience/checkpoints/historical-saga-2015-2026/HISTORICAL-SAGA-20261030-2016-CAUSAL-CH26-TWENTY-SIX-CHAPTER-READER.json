@@ -1,0 +1,126 @@
+{
+  "id": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH26-TWENTY-SIX-CHAPTER-READER",
+  "date": "2026-10-30",
+  "state": "DRAFT_WRITTEN_ASSEMBLED_GITHUB_READBACK_PROTECTED_EQUAL_TESTS_AWAITING_CI_EDITORIAL_HOLD",
+  "repo": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "resumes": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH25-TWENTY-FIVE-CHAPTER-READER",
+  "source_authorities": {
+    "matrix": {
+      "path": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+      "main_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4"
+    },
+    "novel_os": "living-novel/os/SESSION_CONTEXT.md",
+    "execution_registry": {
+      "path": "governance/execution-control/TASK_REGISTRY_V1.json",
+      "main_blob": "5e72e48f3c305e6def1051e0b18883a7be6b6af0"
+    },
+    "bullpen_command_registry": {
+      "path": "runtime/commandRegistry.js",
+      "main_blob": "f1aea183040dd169264c466654a4fe3b7c7b867e"
+    },
+    "bullpen_lifecycle": {
+      "path": "runtime/lifecycleEngine.js",
+      "main_blob": "710caca4e4a01c934bdc53f22229acced48a2d78"
+    },
+    "related_issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "related_prs": {
+      "188": "MERGED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT_HOLD",
+      "261": "OPEN_DRAFT_HOLD",
+      "264": "OPEN_DRAFT"
+    }
+  },
+  "artifacts": {
+    "chapter": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_BOARD_AT_THE_OPEN_DOOR_CHAPTER_26_NONCANON.md",
+      "git_blob": "5957266328b8035684c59a1e8c0501f657e05d59",
+      "words_including_editorial": 5845,
+      "movements": 5,
+      "commit": "9cd41b70bc6f7f1f905f16e887ada410a2928c10"
+    },
+    "reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_26_NONCANON.md",
+      "git_blob": "0027269704900b8ecb9d7a10c958cec963bd1df0",
+      "words_including_manifests": 140291,
+      "component_count": 26,
+      "previous_reader_blob": "7e2bd8b000523441785eacf34bb741f58530b5f1",
+      "commit": "e8fa790dfa83f01656c4a0491ef2e6bdf26a1e68"
+    },
+    "tests": {
+      "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_twenty_six_reader.py",
+      "count_new": 15,
+      "commit": "4961d9fd5b739555247ecf87c96312684e4b5027",
+      "execution": "PENDING_GITHUB_ACTIONS"
+    },
+    "self_qa": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_26_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "commit": "91651dc11c88e26d393ec4817a8ea95fd6a2b02c"
+    }
+  },
+  "verification": {
+    "in_process_assembly": {
+      "manifest_rows": 26,
+      "begin_markers": 26,
+      "end_markers": 26,
+      "previous_component_region": "PRESERVED"
+    },
+    "main_to_branch_protected_blobs_equal": {
+      "living-novel/manuscript/PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc",
+      "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json": "6dbec1fe2537139f3a97c6a78250e2bae082a518"
+    },
+    "prior_chapter25_exact_head_ci": "4/4 SUCCESS at 502e7fc0597bbfdd6574f63218a8166d0f555313; 287 Python reader tests",
+    "exact_chapter26_head_ci": "PENDING; new 15 test definitions NOT YET certified PASS",
+    "independent_authors_council": "NO_APPROVAL",
+    "independent_character_atlas": "NO_APPROVAL",
+    "independent_umpire": "NO_APPROVAL",
+    "merged": false,
+    "canon_promoted": false,
+    "published": false
+  },
+  "narrative": {
+    "proposed_pov": "Fictional CHAR-JAKE-KALOPER only; historical 2016 scoring-slot human-owner NOT provider authenticated",
+    "earned_shift": "Four paid hours outside tile shed under Noll; previous arrival evening remains zero hours; kiln remains shut by Vessa",
+    "eren_arc": "Eren paints, delivers, hangs and collects for table-house sign without promising next season's watch",
+    "personal_consequences": "Jake spends part of first wage on secondhand blanket; letter to Esi remains UNSENT; shelter pledge unpaid",
+    "preserved_open_loops": [
+      "2016 owner binding",
+      "Esi stolen ledger pages/thief/west-store cover",
+      "separate claimant file and sealed message",
+      "Sola's unrelated clog and screen",
+      "Mara and Senn",
+      "Len eye/carving",
+      "unsafe eastern boundary and chest",
+      "singer refunds and older supplier invoice",
+      "wheelwright daughter's unsigned commission",
+      "Jake unpaid pledge",
+      "Eren next-season work",
+      "kiln safety/shift assignment"
+    ]
+  },
+  "gates": [
+    "authenticated historical owner binding",
+    "period Character Canon",
+    "Atlas review",
+    "independent Authors Council",
+    "independent Umpire",
+    "Founder-only canon, merge, publication approvals"
+  ],
+  "next": [
+    "Read exact PR head and final-head GitHub Actions; repair real failures and amend receipts rather than assuming green",
+    "Solicit genuinely independent literary/Character/Atlas/Umpire review; do not represent modeled council as accepted",
+    "Continue the next noncanonical causal unit only after current Chapter XXVI verification; challenge prolonged single-owner POV coverage and whether the novel should shift historical year/owner lane",
+    "Do not alter protected 2026 hard manuscripts, historical archive, previous readers or publish automatically"
+  ]
+}
