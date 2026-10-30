@@ -103,7 +103,7 @@ class ChapterTwentyThreeReader(unittest.TestCase):
     def test_09_witnessed_uncertainty_does_not_name_thief(self):
         self.assertIn("a fragment that might not be part of the stolen book at all", self.prose)
         self.assertIn("the leaves and their carrier remained unknown", self.prose)
-        self.assertIn("not proof of injury", self.chapter)
+        self.assertIn("proof of injury, or evidence of a culprit", self.chapter)
 
     def test_10_elected_body_or_hard_law_not_implied(self):
         self.assertIn("They had not voted a new law into being", self.prose)
