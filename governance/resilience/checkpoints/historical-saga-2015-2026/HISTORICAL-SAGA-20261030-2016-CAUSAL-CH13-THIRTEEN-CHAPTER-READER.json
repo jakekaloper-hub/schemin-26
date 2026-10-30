@@ -1,0 +1,130 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH13-THIRTEEN-CHAPTER-READER",
+  "version": "1.0",
+  "date": "2026-10-30",
+  "state": "NONCANON_DRAFT_EDITORIAL_HOLD",
+  "mission": "Continue Founder-authorized Commonwealth 2015–2026 novel production on current PR, not restart; authenticated GitHub file operations; no authenticated Bullpen agents, external author interviews or independent Umpire acceptance claimed",
+  "repository": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "base": "main",
+  "source_readback": {
+    "schemin_main": "8fcb77191955f413fe970154d47632770f923055",
+    "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "whole_book_authority": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "matrix_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+    "causal_architecture": "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md",
+    "routing": "living-novel/os/SESSION_CONTEXT.md and living-novel/os/TASK_CONTEXT_MATRIX_V1.json",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "bullpen_command_registry": "jakekaloper-hub/bullpen/runtime/commandRegistry.js",
+    "bullpen_lifecycle": "jakekaloper-hub/bullpen/runtime/lifecycleEngine.js",
+    "issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "prs": {
+      "188": "MERGED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT_HOLD",
+      "261": "OPEN_DRAFT_HOLD",
+      "264": "OPEN_DRAFT_PARALLEL_2026"
+    }
+  },
+  "prior_checkpoint": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261030-2016-CAUSAL-CH12-TWELVE-CHAPTER-READER.json",
+  "source_fingerprints": {
+    "archive_2016": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "chapter12": "722cc9318e744d7ab8fdae5fdd4fb0af775d1745",
+    "prior_reader12": "962b15a3a4a25e1fd7a1cae116febed79ff046f0",
+    "chapter13": "f238e02a331467db03060f66ff711b65f5a92d04",
+    "reader13": "761395226ade49cfbf907697ee7b41411cb9c3e2",
+    "protected_hard_2026": {
+      "prologue": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "chapter01": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "chapter02": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "chapter03": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+    }
+  },
+  "artifacts": [
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_DOOR_THAT_FED_THE_FIRE_CHAPTER_13_NONCANON.md",
+      "whitespace_words_including_handoff": 5161,
+      "git_blob": "f238e02a331467db03060f66ff711b65f5a92d04"
+    },
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_13_NONCANON.md",
+      "whitespace_words_including_metadata": 63306,
+      "components": 13,
+      "git_blob": "761395226ade49cfbf907697ee7b41411cb9c3e2"
+    },
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_13_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "review": "WRITER_SELF_CHALLENGE_ONLY"
+    },
+    {
+      "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_thirteen_reader.py",
+      "expected_cases": 12
+    },
+    {
+      "path": ".github/workflows/novel-os-ci.yml",
+      "change": "named Chapter XIII noncanon regression step"
+    }
+  ],
+  "narrative_state": {
+    "temporal_cutoff": "After proposed Chapter XII and archived 2016 Week 13 notice, before any postseason foreknowledge",
+    "single_interior_pov": "fictional Jake / CHAR-JAKE-KALOPER / PRINCIPAL_CHARACTER; historical human slot association unverified",
+    "dramatic_turn": "Jake disregards a trained worker's instruction and opens a service door during fictional mill fire, increasing air flow, forcing a truthful admission and loss of trust",
+    "ending": "Proposed mill upper room damaged and closed, loft worker rescued with injury; daughter retains tools but not completed trial; no automatic restoration or forgiveness",
+    "novelty": "Physical emergency and protagonist error replace prior counterfeit-notice/accounting motifs",
+    "unknowns": "No new ESPN results, approved 2016 geography, real world-owner motives, actual external expenditure or canon event"
+  },
+  "continuity_holds": {
+    "missing_claimant": "UNKNOWN",
+    "false_summons_origin": "UNKNOWN",
+    "sealed_message": "UNOPENED",
+    "private_east_chest": "INACCESSIBLE",
+    "east_rooms": "CLOSED",
+    "singer_destination": "UNKNOWN",
+    "great_wheel": "UNFINISHED_UNTURNED",
+    "daughter_trial": "UNSIGNED_UNPROVEN_DELAYED_FICTION",
+    "lower_crossing": "UNSAFE",
+    "stranded_cart": "UNRECOVERED",
+    "suspect_shelter_grain": "UNCERTIFIED_UNCONSUMED",
+    "old_wages": "UNPAID",
+    "supplier_invoice": "UNPAID",
+    "jake_pledge": "PARTIAL_UNPAID",
+    "older_breadmaker": "VOLUNTARY_DEPARTURE_NO_RETURN_PROMISE",
+    "ticket_refunds": "PARTIAL_REMAINDER_DISPUTED_FICTION",
+    "mill_fire": "NEW_NONCANON_FICTION_NOT_CANON_HISTORY"
+  },
+  "verification": {
+    "chapter_source_write_commit": "080501d5fdc15671724ec05f50502cca43a70b34",
+    "reader_assembly_commit": "9a4d9b0ff8f096d7c58f3c747d111d96d26bd40e",
+    "test_fixed_commit": "1ba5a23747fbb70896d6157a8d405075337f4a4f",
+    "workflow_step_commit": "d00420544a4377c810f8f9facec1f1b9e3bc53a1",
+    "editorial_receipt_commit": "79118b31ace1f686d700f4d70ae320a6fcf61053",
+    "connector_assembly_exact": "13/13, prior 12 segments byte-for-byte preserved in composing readback",
+    "test_status": "CI_READBACK_REQUIRED_AT_FINAL_HEAD_NOT_YET_CLAIMED",
+    "independent_approval_count": 0
+  },
+  "blocked": [
+    "Historical human owner/2016 scoring-slot authentication",
+    "Period Character Canon and Atlas clearance",
+    "Independent literary/Umpire review",
+    "Founder-only canon promotion or release"
+  ],
+  "next": [
+    "Read exact checkpoint-inclusive head workflows and test log; fix any failure",
+    "Seek independent Character/Atlas/Librarian/Authors/Umpire review without claiming answer",
+    "Prioritize extended causal Chapter XIV or substantial editorial revision if independent review identifies block",
+    "Keep 2026 Prologue and Chapters I–III unchanged; do not merge/auto-promote"
+  ],
+  "release": {
+    "merged": false,
+    "canonical": false,
+    "published": false,
+    "external_money_spent": false
+  }
+}
