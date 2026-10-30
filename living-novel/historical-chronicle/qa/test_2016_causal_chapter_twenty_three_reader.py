@@ -28,13 +28,13 @@ PROTECTED = {
 
 def blob(path):
     b = path.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(b)).encode() + b"\\0" + b).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(b)).encode() + b"\0" + b).hexdigest()
 
 def rows(doc):
     return [
         (int(i), name, sha, int(words))
         for i, name, sha, words in re.findall(
-            r"^\\| (\\d+) \\| \\x60([^\\x60]+)\\x60 \\| \\x60([0-9a-f]{40})\\x60 \\| (\\d+) \\|$",
+            r"^\| (\d+) \| \x60([^\x60]+)\x60 \| \x60([0-9a-f]{40})\x60 \| (\d+) \|$",
             doc, re.M
         )
     ]
@@ -53,7 +53,7 @@ class ChapterTwentyThreeReader(unittest.TestCase):
         cls.old = (BASE / OLD_READER).read_text()
         cls.manifest = rows(cls.reader)
         cls.previous = rows(cls.old)
-        cls.prose = cls.chapter.split("### I.", 1)[1].split("\\n---\\n", 1)[0]
+        cls.prose = cls.chapter.split("### I.", 1)[1].split("\n---\n", 1)[0]
 
     def test_01_manifest_complete_and_ordered(self):
         self.assertEqual([row[0] for row in self.manifest], list(range(1, 24)))
@@ -80,7 +80,7 @@ class ChapterTwentyThreeReader(unittest.TestCase):
 
     def test_05_substantial_five_movement_literary_chapter(self):
         self.assertGreaterEqual(len(self.chapter.split()), 5000)
-        self.assertEqual(len(re.findall(r"^### [IVX]+\\.", self.chapter, re.M)), 5)
+        self.assertEqual(len(re.findall(r"^### [IVX]+\.", self.chapter, re.M)), 5)
         self.assertIn("### Editorial handoff", self.chapter)
 
     def test_06_sole_proposed_canonical_owner_pov(self):
