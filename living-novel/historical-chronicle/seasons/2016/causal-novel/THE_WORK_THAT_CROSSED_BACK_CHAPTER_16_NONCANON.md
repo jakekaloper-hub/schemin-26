@@ -108,7 +108,7 @@ The answer stung him more than it should have. Deren was not trying to hurt him.
 
 ### II. The lamps in the wrong room
 
-Before Jake could answer, Bram came running from the far landing in Ren's smaller boat. Ren had returned her repaired peg to the thwart, taken one passenger across, and brought Bram back with a narrow note inside his coat. The boy jumped ashore and looked around for the owner of the cart with the lamps.
+Before Jake could answer, Ren's smaller boat returned from the far landing. Bram stood in the bow with a narrow note tucked inside his coat. Ren had repaired the thwart, carried Bram across to ask after the previous day's delivery, and brought him back to the near bank. The boy jumped ashore and looked around for the owner of the cart with the lamps.
 
 "Three cases," he said, holding the note by its corner. "Tavin says three came into the dry store. The people waiting for the lamps say they sent four."
 
