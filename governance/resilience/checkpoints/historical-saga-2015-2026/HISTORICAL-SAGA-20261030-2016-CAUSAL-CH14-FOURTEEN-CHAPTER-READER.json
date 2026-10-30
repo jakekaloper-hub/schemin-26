@@ -54,9 +54,10 @@
     },
     {
       "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_fourteen_reader.py",
-      "git_blob": "f6f680ec90503720f319bc2a4b9e8574c76c0b9f",
+      "git_blob": "b4a796e4cdc34866ba34f25f386713eee35d722a",
       "test_cases": 12,
-      "commit": "0ce5ccb44ecb9fde37e45e8b60ea7fbb3c17914a"
+      "commit": "0ce5ccb44ecb9fde37e45e8b60ea7fbb3c17914a",
+      "corrective_commit": "73a9c99b3f185640ca80e5a9a09a2155275a7bd8"
     },
     {
       "path": ".github/workflows/novel-os-ci.yml",
@@ -107,13 +108,28 @@
     "source_retrieval": "GITHUB_CONNECTOR_AUTHENTICATED",
     "reader_assembly": "14 source segments, first 13 preserved in composition readback",
     "tests_written": true,
-    "tests_status": "CI_PENDING_EXACT_FINAL_HEAD",
+    "tests_status": "AWAITING_SUCCESS_AT_CORRECTED_FINAL_HEAD",
     "independent_editorial": "NOT_OBSERVED",
     "independent_umpire": "NOT_OBSERVED",
     "merge": false,
     "canon_promoted": false,
     "published": false,
-    "external_payment": false
+    "external_payment": false,
+    "observed_failed_ci": {
+      "sha": "6cc335a151fac512b1dec6e253b4a2330e0f566f",
+      "run": 41042452686,
+      "conclusion": "FAIL",
+      "case": "test_noncanon_external_holds",
+      "passed": 11,
+      "failed": 1,
+      "root_cause": "Case-sensitive hold wording expected 'No', manuscript says 'no'; corrected assertion only"
+    },
+    "other_workflows_at_initial_checkpoint": {
+      "Cross-Domain Authority CI": "PASS 41042452788",
+      "Bullpen Runtime CI": "PASS 41042452784",
+      "Repository Merge Gate": "PASS 41042452715"
+    },
+    "independent_review_request_comment": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6520719422"
   },
   "blocked": [
     "Historical human-owner/2016 scoring-slot authentication",
@@ -122,6 +138,7 @@
     "Founder-only manuscript promotion and publication"
   ],
   "next": [
+    "Do not claim technical green until correcting observed failure and reading exact checkpoint-inclusive SHA workflows.",
     "Read exact final-head GitHub Actions (Novel OS CI, Cross-Domain, Bullpen Runtime, Merge Gate) and repair actual failures",
     "Submit independent review request with exact link and no implied acceptance",
     "Continue causal novel beyond repeated shelter and mill moral beats with significant world and relationship consequences",
