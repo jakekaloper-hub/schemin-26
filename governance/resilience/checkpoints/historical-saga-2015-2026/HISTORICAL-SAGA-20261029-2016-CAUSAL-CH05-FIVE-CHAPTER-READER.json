@@ -1,0 +1,124 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261029-2016-CAUSAL-CH05-FIVE-CHAPTER-READER",
+  "version": "1.0",
+  "project": "Schemin '26 Commonwealth Novel",
+  "workflow": "historical-saga-2015-2026",
+  "stage": "draft_2016_causal_chapter_v_and_assemble_five_chapter_reader",
+  "owner": "Founder-authorized draft-production lane (tool operator; no authenticated Director session)",
+  "reviewer": "independent Authors Council, Character/Atlas and Umpire — NOT ACCEPTED",
+  "completed_timestamp": "2026-10-30T03:40:00Z",
+  "status": "DRAFT_NONCANON_EDITORIAL_HOLD_CI_RECHECK_REQUIRED",
+  "repository": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pull_request": 243,
+  "resumed_existing": true,
+  "predecessor_checkpoint": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261029-2016-CAUSAL-CH03-04-FOUR-CHAPTER-READER.json",
+  "source_authority": {
+    "mission": "SCHEMIN_26_PROJECT_MISSION.md",
+    "project_control": "PROJECT_CONTROL_REGISTRY.md",
+    "whole_book_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "causal_chapter_law": "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md",
+    "pov_constitution": "living-novel/os/NOVEL_POV_CONSTITUTION_V1.md (supersession notice governs)",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json (known preexisting drift; PR #261 is draft)",
+    "bullpen_registry": "jakekaloper-hub/bullpen/runtime/commandRegistry.js",
+    "bullpen_lifecycle": "jakekaloper-hub/bullpen/runtime/lifecycleEngine.js"
+  },
+  "input_fingerprints": {
+    "archived_2016_evidence_git_blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "prior_four_chapters_git_blobs": [
+      "d93505009d7dda7acc010ce1a6e5ec2bacf65ec2",
+      "756126cb4e151a0bd78ece39ab59a4c54ef2aa43",
+      "f9bf0721c989d30bfd09189388b93293ba3a8ce0",
+      "8994f9e443a6313dee217dfd5f92aedeff7bd88c"
+    ],
+    "protected_2026_main_draft_identical": {
+      "PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+    }
+  },
+  "output_artifact_digests": [
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_WEIGHT_OF_DRY_GRAIN_CHAPTER_05_NONCANON.md",
+      "git_blob": "40d12860e93d9393b18d7771c427061c82e46c8c",
+      "whitespace_words": 4733
+    },
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_05_NONCANON.md",
+      "git_blob": "a748dcfbd0011835a1c18de4457bccf70c985b56",
+      "whitespace_words": 21816,
+      "source_component_words": 21479
+    },
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_05_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "git_blob": "4e6efd0b33bcb02580b4ef5faa64edb3bca643da"
+    },
+    {
+      "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_five_reader.py",
+      "git_blob": "a056603d98cb41d6a95c9643efec5f34455d759b",
+      "unittest_methods": 11
+    },
+    {
+      "path": ".github/workflows/novel-os-ci.yml",
+      "git_blob": "024fa6a2d744aba61fcf348d7fed265dff958b2e"
+    }
+  ],
+  "evidence_refs": [
+    "https://github.com/jakekaloper-hub/schemin-26/pull/243",
+    "https://github.com/jakekaloper-hub/schemin-26/actions/runs/40998467707",
+    "https://github.com/jakekaloper-hub/schemin-26/actions/runs/40998610187"
+  ],
+  "real_test_history": {
+    "failing_ci_run": 40998467707,
+    "failed_on_commit": "3b632c2c6d9b3572bf5ec5839087061127c5d64d",
+    "observed_failure": "Two assertion-text mismatches: 'assistant' vs actual 'young man' on awning return, and 'missing claimant' vs actual 'unknown claimant unidentified'.",
+    "repair_commit": "5735d186b467edb53411e5a9fa2a2a04d22b2b7a",
+    "repair_scope": "test-only; source prose and source-exact assembled reader unchanged",
+    "final_checkpoint_sha_ci_conclusion": "PENDING_EXACT_HEAD_READBACK_DO_NOT_CLAIM_PASS"
+  },
+  "literary_and_continuity_outcomes": {
+    "selected_archival_fact": "W12 ID7 The Gunslingers home 86.72 lost to ID1 Scruffy Looking Nerf Herders away 112.20",
+    "other_w12_and_future_events": "OFF_PAGE",
+    "historical_slot_one_human_identity": "NOT_AUTHENTICATED",
+    "pov": "CHAR-JAKE-KALOPER proposed fictional limited PRINCIPAL_CHARACTER only",
+    "awning": "Chapter IV's separate small market awning returned, original Chapter III three-night canvas already returned",
+    "mill_and_shed": "NONCANON_FICTION_TEMPORARY_NO_ATLAS_APPROVAL",
+    "food": "suspect water-exposed sacks isolated, no fit-for-consumption certification",
+    "unresolved": [
+      "2016 supplier invoice and timber worker wages",
+      "worker witness unsworn and separate",
+      "east room closed, distinct storeroom post unsafe, retrieval frame unbuilt",
+      "woman's private chest unretrieved; unidentified missing claimant distinct",
+      "unopened sealed stranger message",
+      "wheelwright's large wheel unturned",
+      "temporary shed's term and grain inspection"
+    ],
+    "next_editorial_objection": "Repeated Jake ethical interpretation; next causal unit should create a distinct external consequence and less explicit lesson"
+  },
+  "release_gates": {
+    "independent_literary_acceptance": false,
+    "character_temporal_approval": false,
+    "atlas_period_approval": false,
+    "umpire_independent_approval": false,
+    "founder_canon_publication_approval": false,
+    "merged": false,
+    "published": false,
+    "financial_spend": false
+  },
+  "invalidation_triggers": [
+    "Flaim/ESPN archived 2016 scoring source changes or is contradicted by verified upstream data",
+    "any source manuscript Git blob or assembled reader digest differs",
+    "new approved temporal owner binding or Character/Atlas canon conflicts with candidate",
+    "protected 2026 canonical manuscript blob differs from main",
+    "independent reviewer rejects continuity or narrative ownership",
+    "new competing PR branch changes the chapter or supersedes checkpoint"
+  ],
+  "continuation": {
+    "first": "Read exact post-checkpoint PR head and GitHub workflow results; repair any failure and reverify without false green",
+    "second": "Create separate 2016 Chapter VI causal event with deeper outward-world conflict and exclusive twelve-owner POV; do not restart previous four chapters or duplicate this source scene",
+    "third": "Correct earlier 2016 pilot false Week2/3 losses via versioned errata, not direct canon overwrite",
+    "independent_review": "Request actual review but treat comment as request only",
+    "end_state": "NONCANON DRAFT; NO MERGE/CANON/PUBLICATION"
+  }
+}
