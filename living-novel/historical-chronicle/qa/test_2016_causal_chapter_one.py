@@ -89,7 +89,7 @@ class Test2016CausalChapterOne(unittest.TestCase):
 
     def test_single_proposed_canonical_principal_pov_and_no_institutional_pov(self):
         for term in ("CHAR-JAKE-KALOPER", "Proposed limited principal POV",
-                     "fiction proposal", "NOT", "NONCANON"):
+                     "fiction proposal", "historical-identity", "NONCANON"):
             self.assertIn(term, self.prose)
         for banned in ("Edrin", "Edin", "El Niño said", "the seller thought", "Mara wondered"):
             self.assertNotIn(banned, self.prose)
@@ -104,7 +104,7 @@ class Test2016CausalChapterOne(unittest.TestCase):
         for term in ("seller", "inspector", "Mara", "beam", "conditional",
                      "pledge", "grain", "empty bowl", "latch", "missing"):
             self.assertIn(term.lower(), self.prose.lower())
-        self.assertIn("It was holding", self.prose)
+        self.assertIn("It is holding", self.prose)
 
     def test_all_hard_canon_manuscript_blobs_untouched(self):
         self.assertEqual(len(PROTECTED), 4)
