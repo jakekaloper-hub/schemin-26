@@ -89,7 +89,7 @@ class Test2016CausalTwelve(unittest.TestCase):
     def test_shelter_consent_firewall(self):
         self.assertIn("We have received no such agreement", self.prose)
         self.assertIn("Mara has not agreed", self.prose)
-        self.assertIn("no funds", self.chapter.lower())
+        self.assertIn("No revenue is promised to, received by, or disbursed from the shelter", self.chapter)
 
     def test_continuity_carries_old_woman_and_boy(self):
         self.assertIn("old woman's cup", self.prose.lower())
