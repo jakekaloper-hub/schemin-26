@@ -37,8 +37,8 @@ PRIOR_READER = BASE / "READING_COPY_CAUSAL_CHAPTERS_01_07_NONCANON.md"
 PRIOR_BLOB = "060176ee8e3cb0548ec72e378ca4c7137765a442"
 READER = BASE / "READING_COPY_CAUSAL_CHAPTERS_01_08_NONCANON.md"
 SECTIONS = re.compile(
-    r"<!-- BEGIN 2016_CAUSAL (?P<name>[^ |]+) \\| git_blob (?P<sha>[0-9a-f]{40}) -->\\n\\n"
-    r"(?P<body>.*?)\\n\\n<!-- END 2016_CAUSAL (?P=name) -->", re.S
+    r"<!-- BEGIN 2016_CAUSAL (?P<name>[^ |]+) \| git_blob (?P<sha>[0-9a-f]{40}) -->\n\n"
+    r"(?P<body>.*?)\n\n<!-- END 2016_CAUSAL (?P=name) -->", re.S
 )
 HARD_CANON = {
     "PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
@@ -49,13 +49,13 @@ HARD_CANON = {
 
 def git_blob(path):
     raw = path.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\\0" + raw).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\0" + raw).hexdigest()
 
 class Test2016CausalChapterEight(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.chapter = (BASE / NAMES[-1]).read_text(encoding="utf-8")
-        cls.prose = cls.chapter.split("---\\n\\n*Editorial handoff")[0]
+        cls.prose = cls.chapter.split("---\n\n*Editorial handoff")[0]
         cls.reader = READER.read_text(encoding="utf-8")
         cls.sections = list(SECTIONS.finditer(cls.reader))
 
@@ -66,7 +66,7 @@ class Test2016CausalChapterEight(unittest.TestCase):
 
     def test_eighth_chapter_length_and_five_movements(self):
         self.assertGreaterEqual(len(self.chapter.split()), 4700)
-        self.assertEqual(re.findall(r"(?m)^### ([IVX]+)\\.", self.prose), ["I", "II", "III", "IV", "V"])
+        self.assertEqual(re.findall(r"(?m)^### ([IVX]+)\.", self.prose), ["I", "II", "III", "IV", "V"])
         self.assertIn("# The Measure of What Remains", self.chapter)
 
     def test_non_recap_causal_drama_and_independent_craft(self):
@@ -92,7 +92,7 @@ class Test2016CausalChapterEight(unittest.TestCase):
     def test_exclusive_principal_pov_and_human_firewall(self):
         for token in ("CHAR-JAKE-KALOPER", "PRINCIPAL_CHARACTER", "NONCANON", "HOLD"):
             self.assertIn(token, self.chapter)
-        self.assertNotRegex(self.prose, r"(?m)^### (Edrin|Edin|Oren)\\b")
+        self.assertNotRegex(self.prose, r"(?m)^### (Edrin|Edin|Oren)\b")
         self.assertIn("no secondary-character interiority", self.chapter)
 
     def test_predecessor_reader_and_chapter_blobs_immutable(self):
