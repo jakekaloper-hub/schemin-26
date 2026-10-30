@@ -1,0 +1,137 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH21-TWENTY-ONE-CHAPTER-READER",
+  "version": "1.0",
+  "date": "2026-10-30",
+  "project": "Commonwealth Novel",
+  "workflow": "historical-saga-2015-2026",
+  "stage": "noncanon-manuscript-and-source-verification",
+  "owner": "Author Room / Novel OS, draft only",
+  "status": "NONCANON_DRAFT_INDEPENDENT_EDITORIAL_HOLD",
+  "repo": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "resumed_from": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH20-TWENTY-CHAPTER-READER",
+  "source_authority": {
+    "schemin_main_sha": "ec941811d6334d70015ec97b2ac68a2d8a26eec6",
+    "bullpen_main_sha": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "whole_book_matrix": {
+      "path": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+      "blob": "67fcd669dc7b43393f2d15e93545301961dd81e4"
+    },
+    "novel_task_matrix": "living-novel/os/TASK_CONTEXT_MATRIX_V1.json",
+    "novel_task_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "bullpen_command": "docs/COMMAND_SYSTEM_V2.md",
+    "bullpen_lifecycle": "runtime/lifecycleEngine.js",
+    "bullpen_task_registry": "knowledge/EXECUTION_CONTROL_REGISTRY_V1.json",
+    "issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "prs": {
+      "188": "CLOSED_MERGED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT_HOLD",
+      "261": "OPEN_DRAFT_HOLD"
+    },
+    "historical_archive": {
+      "path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+      "owner_identity": "NOT_PROVIDER_AUTHENTICATED"
+    }
+  },
+  "resume_previous_head": "7c29ffb45fafbdb86d80c2354c500672d9f5797d",
+  "artifacts": {
+    "chapter": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_BOOK_THAT_WALKED_OUT_CHAPTER_21_NONCANON.md",
+      "blob": "6badbdcaa4bad10313cb5de6ccbca8711c24a4e4",
+      "whitespace_words_including_notes": 6218,
+      "movements": 5
+    },
+    "assembled_reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_21_NONCANON.md",
+      "blob": "322138c36de8bf80cf01b41b7870203bc70fd205",
+      "whitespace_words_including_metadata": 109944,
+      "component_count": 21,
+      "previous_reader_blob": "b150c37f0d8adda70359bb8a53d05079b9212631"
+    },
+    "new_tests": {
+      "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_twenty_one_reader.py",
+      "blob": "a55773f109de50b7119caccf75f9d03ec6d3369a",
+      "new_methods": 17
+    },
+    "editorial_qa": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_21_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "blob": "2479c4498f9172f5b33d02afde7d58c74f096d07"
+    },
+    "github_ci_enrollment": {
+      "path": ".github/workflows/novel-os-ci.yml",
+      "blob": "275340cb472b36e65280b29e92b75e77bed715c8",
+      "committed_at": "7bce6e822215704c39df70bd2b670a6bb25b4a72"
+    }
+  },
+  "verification": {
+    "local_python": {
+      "status": "PASS",
+      "tests": 228,
+      "failures": 0,
+      "exact_tested_head": "faa1137d16396b280d7d7430faf1c31bb5bb34cf",
+      "device": "authorized Mac Jakes-MacBook-Pro.local",
+      "command": "python3 -m unittest discover -s living-novel/historical-chronicle/qa -p 'test_2016_causal_chapter*reader.py' -q",
+      "context": "Original test assertion capitalization defect repaired; grammar fixed; later QA and CI workflow edits not yet included in exact local test SHA."
+    },
+    "source_exact": "PASS: all 21 source components and Git blob pins validated by local Python suite",
+    "protected_2026": "PASS: pinned Prologue + Chapters I–III in local suite; verify against refreshed main separately",
+    "historical_archive": "PASS: unchanged historical G01 archive pinned to source blob",
+    "github_ci_at_checkpoint": "QUEUED; novel full historical suite newly enrolled; no green claim until exact final head succeeds",
+    "independent_authors_council": "NOT_OBSERVED",
+    "independent_umpire": "NOT_OBSERVED",
+    "merged": false,
+    "canon_promoted": false,
+    "published": false
+  },
+  "narrative": {
+    "pov": "fictional CHAR-JAKE-KALOPER / PRINCIPAL_CHARACTER only",
+    "change": "After Mara voluntarily leaves, falsified claimant-mark slips circulate; Esi protects the claimant's private file and keys, investigates public claims, and an unidentified intruder actually steals the brown incoming-supplies account book. Esi inventories surviving records and discloses loss; Jake carries notice to market.",
+    "unresolved": [
+      "no authenticated 2016 Jake-owner slot binding",
+      "Mara's return unknown",
+      "thief and organizer unknown",
+      "Holl's culpability unproved",
+      "missing claimant unidentified",
+      "private sealed message unopened",
+      "other woman's chest remains unretrieved behind closed east room",
+      "unsafe grain remains uncertified",
+      "great wheel unturned; mill damaged; commission unsigned",
+      "supplier debt and partial pledge remainder unpaid",
+      "ticket refunds unresolved",
+      "bridge/cart unresolved",
+      "courier disposition unknown",
+      "upriver seasonal offer unaccepted"
+    ],
+    "temporal_boundary": "No invented W14/postseason results, trades, titles, owner identities or real-world motives"
+  },
+  "invalidation_triggers": [
+    "2016 history/owner authentication changes",
+    "protected main manuscript byte change",
+    "new 2016 Character Canon or Atlas contradiction",
+    "supersession of Novel OS source authority",
+    "manuscript/reader/test file blob differs",
+    "independent review requiring revision"
+  ],
+  "blockers": [
+    "Historical owner identity not provider-authenticated",
+    "Period-correct Character Canon and Atlas unknown",
+    "Independent literary/Umpire acceptance absent",
+    "Founder-only canon and publication authorization absent",
+    "GitHub CI exact-head not yet successful at checkpoint creation"
+  ],
+  "next": [
+    "Refresh exact final PR head, verify GitHub CI and locally rerun at that head",
+    "Request independent challenge of Chapter XXI character agency, claimant/chest distinction, market geography and repeated paper mechanism",
+    "Continue substantive NONCANON Chapter XXII only if no contrary actual independent review",
+    "Never merge/promote/publish without Founder-only and independent gates"
+  ]
+}
