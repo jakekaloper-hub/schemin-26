@@ -90,7 +90,7 @@ class Test2016CausalChapterSeven(unittest.TestCase):
         self.assertNotIn("Jake crossed the broken bridge", self.prose)
 
     def test_material_and_emotional_open_loops_carried_forward(self):
-        for token in ("the singer had not reappeared", "Mara still held the unopened sealed message",
+        for token in ("The singer had not reappeared", "Mara still held the unopened sealed message",
                       "the private chest", "The supplier's invoice",
                       "The great wheel remained upright and unfinished"):
             self.assertIn(token, self.prose)
