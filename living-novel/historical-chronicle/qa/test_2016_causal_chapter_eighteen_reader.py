@@ -101,7 +101,7 @@ class ChapterEighteen(unittest.TestCase):
 
     def test_pinned_historical_archive_is_untouched(self):
         self.assertEqual(blob_sha(ARCHIVE), EXPECTED_ARCHIVE)
-        self.assertIn("historical 2016 scoring slot", self.chapter)
+        self.assertIn("2016 scoring slot 1", self.chapter)
 
     def test_gates_explicitly_remain_hold(self):
         for phrase in ("NONCANON", "independent editorial HOLD", "Founder canon/publication approval NOT GRANTED"):
