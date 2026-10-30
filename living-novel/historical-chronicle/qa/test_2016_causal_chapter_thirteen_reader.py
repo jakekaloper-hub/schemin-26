@@ -25,20 +25,20 @@ PROTECTED = {
     "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc",
 }
 SECTIONS = re.compile(
-    r"<!-- BEGIN 2016_CAUSAL (?P<name>[^ |]+) \\| git_blob (?P<sha>[0-9a-f]{40}) -->\\n\\n"
-    r"(?P<body>.*?)\\n\\n<!-- END 2016_CAUSAL (?P=name) -->",
+    r"<!-- BEGIN 2016_CAUSAL (?P<name>[^ |]+) \| git_blob (?P<sha>[0-9a-f]{40}) -->\n\n"
+    r"(?P<body>.*?)\n\n<!-- END 2016_CAUSAL (?P=name) -->",
     re.S
 )
 
 def blob(path):
     data = path.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\\0" + data).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest()
 
 class ChapterThirteen(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.chapter = (BASE / CHAPTER).read_text(encoding="utf-8")
-        cls.prose = cls.chapter.split("\\n---\\n")[0]
+        cls.prose = cls.chapter.split("\n---\n")[0]
         cls.reader = (BASE / READER).read_text(encoding="utf-8")
         cls.old = (BASE / PREVIOUS).read_text(encoding="utf-8")
         cls.matches = list(SECTIONS.finditer(cls.reader))
@@ -51,18 +51,18 @@ class ChapterThirteen(unittest.TestCase):
     def test_chapter_stable_substantive_and_movements(self):
         self.assertEqual(blob(BASE / CHAPTER), CHAPTER_SHA)
         self.assertGreaterEqual(len(self.chapter.split()), 5000)
-        self.assertEqual(re.findall(r"(?m)^### ([IVX]+)\\.", self.prose),
+        self.assertEqual(re.findall(r"(?m)^### ([IVX]+)\.", self.prose),
                          ["I", "II", "III", "IV", "V"])
 
     def test_exclusive_principal_pov_and_firewall(self):
         self.assertIn("CHAR-JAKE-KALOPER", self.chapter)
         self.assertIn("PRINCIPAL_CHARACTER", self.chapter)
         self.assertIn("not provider-authenticated", self.chapter)
-        self.assertNotRegex(self.prose, r"(?im)^### (Edrin|Edin|Oren)\\b")
+        self.assertNotRegex(self.prose, r"(?im)^### (Edrin|Edin|Oren)\b")
 
     def test_no_postseason_foreknowledge_or_fabricated_scores(self):
         self.assertIn("before any 2016 postseason character foreknowledge", self.chapter)
-        self.assertNotRegex(self.prose, r"\\b\\d{2,3}\\.\\d{2}\\s*(?:to|–|-)\\s*\\d{2,3}\\.\\d{2}\\b")
+        self.assertNotRegex(self.prose, r"\b\d{2,3}\.\d{2}\s*(?:to|–|-)\s*\d{2,3}\.\d{2}\b")
 
     def test_fire_has_cost_without_belated_triumph(self):
         self.assertIn("I opened the door", self.prose)
