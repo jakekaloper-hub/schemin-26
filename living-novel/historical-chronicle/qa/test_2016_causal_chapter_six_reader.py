@@ -92,7 +92,7 @@ class Test2016CausalChapterSix(unittest.TestCase):
 
     def test_press_correction_does_not_pretend_recall(self):
         self.assertIn("no performance was contracted", self.prose.lower())
-        self.assertIn("customers could return", self.prose.lower() if "customers could return" in self.prose.lower() else "customers could return")
+        self.assertIn("purchases could be returned", self.prose.lower())
         self.assertIn("A correction to a sheet could not know everyone", self.prose)
         self.assertIn("no shelter authority had consented", self.prose)
 
@@ -127,7 +127,7 @@ class Test2016CausalChapterSix(unittest.TestCase):
                 self.assertEqual(match.group("sha"), BLOBS[idx])
                 self.assertEqual(blob(BASE / NAMES[idx]), BLOBS[idx])
                 self.assertEqual(match.group("body"), (BASE / NAMES[idx]).read_text(encoding="utf-8").rstrip())
-                self.assertIn("| \`" + NAMES[idx] + "\` | \`" + BLOBS[idx] + "\` |", self.reader)
+                self.assertIn("| `" + NAMES[idx] + "` | `" + BLOBS[idx] + "` |", self.reader)
 
     def test_reader_substantial_and_all_release_holds_explicit(self):
         self.assertGreaterEqual(len(self.reader.split()), 26000)
