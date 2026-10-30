@@ -37,7 +37,7 @@
 
 | 20 | `THE_CLOTH_THAT_WOULD_NOT_STAY_FOLDED_CHAPTER_20_NONCANON.md` | `45ef477a74006e14ed9fc83ccf43966aeca2f098` | 6281 |
 
-| 21 | `THE_BOOK_THAT_WALKED_OUT_CHAPTER_21_NONCANON.md` | `059a0ac9821049cd6882749eeb17adb2a489f9b0` | 6218 |
+| 21 | `THE_BOOK_THAT_WALKED_OUT_CHAPTER_21_NONCANON.md` | `6badbdcaa4bad10313cb5de6ccbca8711c24a4e4` | 6218 |
 
 <!-- BEGIN_CAUSAL_READING_COPY -->
 
@@ -8798,7 +8798,7 @@ Esi called for the next jar. He went to fetch it.
 
 <!-- END 2016_CAUSAL THE_CLOTH_THAT_WOULD_NOT_STAY_FOLDED_CHAPTER_20_NONCANON.md -->
 
-<!-- BEGIN 2016_CAUSAL THE_BOOK_THAT_WALKED_OUT_CHAPTER_21_NONCANON.md | git_blob 059a0ac9821049cd6882749eeb17adb2a489f9b0 -->
+<!-- BEGIN 2016_CAUSAL THE_BOOK_THAT_WALKED_OUT_CHAPTER_21_NONCANON.md | git_blob 6badbdcaa4bad10313cb5de6ccbca8711c24a4e4 -->
 
 # The Book That Walked Out
 
@@ -9154,7 +9154,7 @@ Esi looked at the space where it had stood. She did not touch the remaining book
 
 Esi thanked him. Jake heard how much effort the words cost her. Len lowered his carved bird and let it rest beside the window. The injured eye gave him no claim to certain sight, and he had offered none.
 
-Outside, the late market traffic was closing. Jake ran to the point where the western lane divided. One branch sloped toward the public trough, the other toward the low road and the weigh-stones. A carrier with a empty handcart stood by the hedge, trying to turn his axle around a stone.
+Outside, the late market traffic was closing. Jake ran to the point where the western lane divided. One branch sloped toward the public trough, the other toward the low road and the weigh-stones. A carrier with an empty handcart stood by the hedge, trying to turn his axle around a stone.
 
 "Did you see anyone with a bound book?" Jake asked.
 
