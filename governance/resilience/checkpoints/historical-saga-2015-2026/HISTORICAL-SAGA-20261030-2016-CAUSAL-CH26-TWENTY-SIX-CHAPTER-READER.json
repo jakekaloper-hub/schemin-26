@@ -1,7 +1,7 @@
 {
   "id": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH26-TWENTY-SIX-CHAPTER-READER",
   "date": "2026-10-30",
-  "state": "DRAFT_WRITTEN_ASSEMBLED_GITHUB_READBACK_PROTECTED_EQUAL_TESTS_AWAITING_CI_EDITORIAL_HOLD",
+  "state": "DRAFT_WRITTEN_SOURCE_EXACT_READBACK_302_TESTS_GITHUB_CI_PASS_EDITORIAL_HOLD",
   "repo": "jakekaloper-hub/schemin-26",
   "branch": "novel/historical-epic-2015-2026",
   "pr": 243,
@@ -59,7 +59,7 @@
       "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_twenty_six_reader.py",
       "count_new": 15,
       "commit": "4961d9fd5b739555247ecf87c96312684e4b5027",
-      "execution": "PENDING_GITHUB_ACTIONS"
+      "execution": "302/302 PASS in Novel OS CI at e8fdd78433c595a43b020926003635243feb1bd5"
     },
     "self_qa": {
       "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_26_SOURCE_EDITORIAL_QA_RECEIPT.md",
@@ -81,13 +81,36 @@
       "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json": "6dbec1fe2537139f3a97c6a78250e2bae082a518"
     },
     "prior_chapter25_exact_head_ci": "4/4 SUCCESS at 502e7fc0597bbfdd6574f63218a8166d0f555313; 287 Python reader tests",
-    "exact_chapter26_head_ci": "PENDING; new 15 test definitions NOT YET certified PASS",
+    "exact_chapter26_head_ci": {
+      "checked_head": "e8fdd78433c595a43b020926003635243feb1bd5",
+      "novel_os": {
+        "run": 41139006203,
+        "conclusion": "success",
+        "historical_reader_unittest": "302/302 PASS",
+        "job": 124348411284,
+        "observed_log": "2026-10-30T22:34:33.2710160Z Ran 302 tests in 0.510s; next line OK"
+      },
+      "cross_domain": {
+        "run": 41139006490,
+        "conclusion": "success"
+      },
+      "bullpen_runtime": {
+        "run": 41139006452,
+        "conclusion": "success"
+      },
+      "merge_gate": {
+        "run": 41139006285,
+        "conclusion": "success"
+      },
+      "caveat": "This is the CI evidence for the pre-receipt SHA. Check CI on this receipt update commit too; workflow success does not grant independent author, canon, Umpire or Founder acceptance."
+    },
     "independent_authors_council": "NO_APPROVAL",
     "independent_character_atlas": "NO_APPROVAL",
     "independent_umpire": "NO_APPROVAL",
     "merged": false,
     "canon_promoted": false,
-    "published": false
+    "published": false,
+    "independent_review_request_url": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6534927128"
   },
   "narrative": {
     "proposed_pov": "Fictional CHAR-JAKE-KALOPER only; historical 2016 scoring-slot human-owner NOT provider authenticated",
@@ -118,7 +141,7 @@
     "Founder-only canon, merge, publication approvals"
   ],
   "next": [
-    "Read exact PR head and final-head GitHub Actions; repair real failures and amend receipts rather than assuming green",
+    "Read current PR head and CI at the receipt-update commit; if 4/4 pass, record exact-final-head technical receipt in PR conversation. Repair actual failures before claiming a pass.",
     "Solicit genuinely independent literary/Character/Atlas/Umpire review; do not represent modeled council as accepted",
     "Continue the next noncanonical causal unit only after current Chapter XXVI verification; challenge prolonged single-owner POV coverage and whether the novel should shift historical year/owner lane",
     "Do not alter protected 2026 hard manuscripts, historical archive, previous readers or publish automatically"
