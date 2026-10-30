@@ -18,22 +18,22 @@ ARCHIVE = ROOT / "living-novel/production/full-rewrite-2026/evidence/G01_2016_FU
 
 
 def git_blob(data: bytes) -> str:
-    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\\0" + data).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(data)).encode() + bytes([0]) + data).hexdigest()
 
 
 def manifest(text: str) -> list[tuple[int, str, str, int]]:
     return [
         (int(n), name, sha, int(words))
         for n, name, sha, words in re.findall(
-            r"^\\| (\\d+) \\| \`([^\\`]+)\\` \\| \`([a-f0-9]{40})\\` \\| (\\d+) \\|$",
+            r"^[|] ([0-9]+) [|] `([^`]+)` [|] `([a-f0-9]{40})` [|] ([0-9]+) [|]$",
             text, re.MULTILINE,
         )
     ]
 
 
 def get_embedded(text: str, name: str, sha: str) -> str:
-    start = f"<!-- BEGIN 2016_CAUSAL {name} | git_blob {sha} -->\\n\\n"
-    end = f"\\n\\n<!-- END 2016_CAUSAL {name} -->"
+    start = f"<!-- BEGIN 2016_CAUSAL {name} | git_blob {sha} -->\n\n"
+    end = f"\n\n<!-- END 2016_CAUSAL {name} -->"
     left = text.index(start) + len(start)
     right = text.index(end, left)
     return text[left:right]
@@ -53,7 +53,7 @@ class Test2016CausalChapterSeventeenReader(unittest.TestCase):
     def test_source_text_exact_for_all_seventeen_chapters(self):
         for n, name, sha, words in self.rows:
             with self.subTest(chapter=n):
-                self.assertEqual(get_embedded(self.reader, name, sha).rstrip("\\n"), (DIR / name).read_text().rstrip("\\n"))
+                self.assertEqual(get_embedded(self.reader, name, sha).rstrip("\n"), (DIR / name).read_text().rstrip("\n"))
 
     def test_all_seventeen_git_blob_references_match_bytes(self):
         for n, name, sha, words in self.rows:
