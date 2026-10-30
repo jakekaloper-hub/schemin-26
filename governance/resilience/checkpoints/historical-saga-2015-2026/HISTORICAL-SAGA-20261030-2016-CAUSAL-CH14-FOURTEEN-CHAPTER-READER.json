@@ -1,0 +1,130 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH14-FOURTEEN-CHAPTER-READER",
+  "version": "1.0",
+  "date": "2026-10-30",
+  "state": "NONCANON_DRAFT_EDITORIAL_HOLD",
+  "mission": "Standing Founder-authorized Commonwealth novel continuation; resume prior PR #243; authenticated GitHub file writes only; no simulated agent review",
+  "repository": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "base": "main",
+  "source_readback": {
+    "schemin_main": "1c77ae21ef34bf325b93fe0964d4b7ccd6e9e32d",
+    "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "novel_matrix": {
+      "path": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+      "blob": "67fcd669dc7b43393f2d15e93545301961dd81e4"
+    },
+    "causal_architecture": "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md",
+    "pov": "living-novel/os/NOVEL_POV_CONSTITUTION_V1.md [superseded archival constitution; active 12-owner notice applies]",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json [main task states stale, do not automatically modify]",
+    "bullpen_command": "jakekaloper-hub/bullpen/runtime/commandRegistry.js",
+    "bullpen_lifecycle": "jakekaloper-hub/bullpen/runtime/lifecycleEngine.js",
+    "issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "prs": {
+      "188": "CLOSED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT_HOLD",
+      "261": "OPEN_DRAFT_HOLD",
+      "264": "OPEN_DRAFT_PARALLEL_2026"
+    }
+  },
+  "prior_checkpoint": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261030-2016-CAUSAL-CH13-THIRTEEN-CHAPTER-READER.json",
+  "archive_2016_blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+  "artifacts": [
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/WHAT_WAS_LEFT_IN_THE_YARD_CHAPTER_14_NONCANON.md",
+      "git_blob": "f76ec3ae5245bccf57a8df2a3f3d76001319c68e",
+      "whitespace_words_including_handoff": 5101,
+      "commit": "2230eee258b99be72926fbaaa82ca50fefd14b0a"
+    },
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_14_NONCANON.md",
+      "git_blob": "f106411e875c17952eb6d2f87f248f3e78b6f93d",
+      "whitespace_words_including_metadata": 68458,
+      "components": 14,
+      "prior_13_segments_byte_preserved_in_assembly": true,
+      "commit": "5b86e10b48edca54502d700c4977c090e0f25b54"
+    },
+    {
+      "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_fourteen_reader.py",
+      "git_blob": "f6f680ec90503720f319bc2a4b9e8574c76c0b9f",
+      "test_cases": 12,
+      "commit": "0ce5ccb44ecb9fde37e45e8b60ea7fbb3c17914a"
+    },
+    {
+      "path": ".github/workflows/novel-os-ci.yml",
+      "git_blob": "bfff0a568e3497d7da0e23113645fed866e6ac4e",
+      "change": "named Chapter XIV CI step",
+      "commit": "d2b7fbee4e2a3aec4c72d1d21df48c3e0322ac28"
+    },
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_14_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "commit": "17d39cdb04b807e94e0dd75253ff436f2d26f0b6",
+      "review": "WRITER_SELF_CHALLENGE_ONLY"
+    }
+  ],
+  "protected_hard_2026": {
+    "living-novel/manuscript/PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+    "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+    "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+    "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+  },
+  "narrative_state": {
+    "temporal_cutoff": "After fictional Chapter XIII, after archived 2016 Week 13 notice, before postseason character foreknowledge",
+    "pov": "only fictional Jake CHAR-JAKE-KALOPER; historical human scoring-slot binding not authenticated",
+    "dramatic_development": "Daughter refuses to certify fire-damaged timber, risks buyer leaving, secures conditional workbench at father's shop; Jake performs bounded work at injured worker's direction; nobody grants him absolution",
+    "ending": "Small brace and useful accommodation, no mill restoration, sale, signed trial, reconciled family, or new hero status",
+    "world_events": "ALL FICTIONAL_NONCANON_UNAPPROVED"
+  },
+  "continuity_holds": {
+    "missing_claimant": "UNKNOWN",
+    "false_summons_origin": "UNKNOWN",
+    "sealed_message": "UNOPENED",
+    "private_east_chest": "INACCESSIBLE",
+    "east_rooms": "CLOSED",
+    "singer_destination": "UNKNOWN",
+    "great_wheel": "UNFINISHED_UNTURNED",
+    "daughter_trial": "UNSIGNED_UNPROVEN",
+    "lower_crossing": "UNSAFE",
+    "stranded_cart": "UNRECOVERED",
+    "suspect_shelter_grain": "UNCERTIFIED_UNCONSUMED",
+    "old_wages": "UNPAID",
+    "supplier_invoice": "UNPAID",
+    "jake_pledge": "PARTIAL_UNPAID",
+    "older_breadmaker": "VOLUNTARY_DEPARTURE_NO_RETURN_PROMISE",
+    "ticket_refunds": "PARTIAL_REMAINDER_DISPUTED",
+    "mill_fire": "PROPOSED_NONCANON",
+    "burned_worker": "RECOVERY_UNCERTAIN_FICTION"
+  },
+  "verification": {
+    "source_retrieval": "GITHUB_CONNECTOR_AUTHENTICATED",
+    "reader_assembly": "14 source segments, first 13 preserved in composition readback",
+    "tests_written": true,
+    "tests_status": "CI_PENDING_EXACT_FINAL_HEAD",
+    "independent_editorial": "NOT_OBSERVED",
+    "independent_umpire": "NOT_OBSERVED",
+    "merge": false,
+    "canon_promoted": false,
+    "published": false,
+    "external_payment": false
+  },
+  "blocked": [
+    "Historical human-owner/2016 scoring-slot authentication",
+    "Period Character Canon and Atlas physical geography approval",
+    "Independent Authors Council, Librarian, Umpire acceptance",
+    "Founder-only manuscript promotion and publication"
+  ],
+  "next": [
+    "Read exact final-head GitHub Actions (Novel OS CI, Cross-Domain, Bullpen Runtime, Merge Gate) and repair actual failures",
+    "Submit independent review request with exact link and no implied acceptance",
+    "Continue causal novel beyond repeated shelter and mill moral beats with significant world and relationship consequences",
+    "Do not touch hard 2026 canon or merge unpublished draft"
+  ]
+}
