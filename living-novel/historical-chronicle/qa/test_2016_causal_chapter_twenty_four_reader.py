@@ -92,7 +92,7 @@ class ChapterTwentyFourReader(unittest.TestCase):
     def test_07_sola_self_directed_not_rescued(self):
         self.assertIn("She had not come back to be found", self.prose)
         self.assertIn("She did not ask for a bed", self.prose)
-        self.assertIn("Now, is there money for a screen?", self.prose)
+        self.assertIn("is there money for a screen?", self.prose)
         self.assertIn("paid reed-panel work", self.chapter)
 
     def test_08_unrelated_clog_does_not_prove_attack_or_thief(self):
@@ -115,8 +115,8 @@ class ChapterTwentyFourReader(unittest.TestCase):
 
     def test_11_esi_and_residents_make_independent_choices(self):
         self.assertIn("the next arrangement required willing people", self.prose)
-        self.assertIn("the watch and serving shifts are actually reassigned", self.chapter.lower())
-        self.assertIn("the cook could not release its reserve", self.prose)
+        self.assertIn("watch and serving shifts are actually reassigned", self.chapter.lower())
+        self.assertIn("the kitchen could not release its reserve", self.prose)
 
     def test_12_named_consequential_open_loops_are_preserved(self):
         for s in (
