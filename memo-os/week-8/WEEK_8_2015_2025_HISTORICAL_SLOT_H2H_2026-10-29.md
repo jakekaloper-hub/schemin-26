@@ -1,11 +1,13 @@
-# Week 8 Historical H2H — ESPN Slot Ledger (2015–2025)
+# Week 8 — Confirmed Historical Matchups (2015–2025)
 
-**IDENTITY STATUS: OWNER-ATTRIBUTION HOLD.** Source is historical Flaim/ESPN matchups archived in this repository. A historical ESPN team ID identifies a season slot, NOT proven persistent account ownership. Names are vintage names. Current owner names are reference labels only, not historical attribution.
+**Memo copy rule:** Current 2026 owners may be named alongside their current teams. Historical results use the **team names recorded in that season**. Do not call any aggregated older result a personal owner record; historic account ownership is not confirmed across all seasons. The game scores and vintage names are source-backed.
 
-2026 current owner labels: 1 Jake Kaloper; 2 Kevin Zeek; 3 Jordan Hollingshead; 4 David Babb; 5 Wilson Look; 6 Phillip Pitts; 7 Brandon Pryor; 8 Austin Byars; 9 Manning Welty; 10 Bobby Mitchell; 11 Ben Whipple; 12 Zach Wilson.
+**2026 owner-to-current-team roster:** Jake Kaloper — ObiWan Jacoby; Kevin Zeek — Red Leopards; Jordan Hollingshead — Slob on my Dobb; David Babb — The LLC; Wilson Look — D0nkey K0ng; Phillip Pitts — Three Dreaded Snake; Brandon Pryor — Chili Cheesers; Austin Byars — His Majesty's Blood; Manning Welty — El Niño; Bobby Mitchell — Mud Dogs; Ben Whipple — Seven Deadly Chins; Zach Wilson — Dr. Duckhook.
+
+**Editorial treatment:** Cite the specific historical game (season, week, vintage team names, score) rather than presenting an unverified all-time owner-versus-owner tally. The 2022 addendum is retained separately.
 
 ## Current Week 8 matchup: slots 6 vs 7
-**Historical slot-game results:** 12 rows; slot 6: 8 wins, slot 7: 4 wins. These are NOT certified owner-versus-owner lifetime records.
+**Historical season-team results listed below; not owner head-to-head totals.**
 
 | Season | Week | Home vintage name | Away vintage name | Score (home–away) | Winner |
 |---|---:|---|---|---|---|
@@ -23,7 +25,7 @@
 | 2025 | 7 | Three Dreaded Snake | The Chili Cheesers  | 173.58–152.81 | HOME |
 
 ## Current Week 8 matchup: slots 1 vs 9
-**Historical slot-game results:** 12 rows; slot 1: 6 wins, slot 9: 6 wins. These are NOT certified owner-versus-owner lifetime records.
+**Historical season-team results listed below; not owner head-to-head totals.**
 
 | Season | Week | Home vintage name | Away vintage name | Score (home–away) | Winner |
 |---|---:|---|---|---|---|
@@ -41,7 +43,7 @@
 | 2025 | 12 | ObiWan Jacoby | El Niño | 149.12–136.96 | HOME |
 
 ## Current Week 8 matchup: slots 2 vs 4
-**Historical slot-game results:** 12 rows; slot 2: 6 wins, slot 4: 6 wins. These are NOT certified owner-versus-owner lifetime records.
+**Historical season-team results listed below; not owner head-to-head totals.**
 
 | Season | Week | Home vintage name | Away vintage name | Score (home–away) | Winner |
 |---|---:|---|---|---|---|
@@ -59,7 +61,7 @@
 | 2025 | 14 | The LLC | Red Leopards | 183.39–110.51 | HOME |
 
 ## Current Week 8 matchup: slots 5 vs 11
-**Historical slot-game results:** 11 rows; slot 5: 8 wins, slot 11: 3 wins. These are NOT certified owner-versus-owner lifetime records.
+**Historical season-team results listed below; not owner head-to-head totals.**
 
 | Season | Week | Home vintage name | Away vintage name | Score (home–away) | Winner |
 |---|---:|---|---|---|---|
@@ -76,7 +78,7 @@
 | 2025 | 10 | Baker Moore Purdy | Seven Deadly Chins | 135.42–149.8 | AWAY |
 
 ## Current Week 8 matchup: slots 3 vs 8
-**Historical slot-game results:** 10 rows; slot 3: 2 wins, slot 8: 8 wins. These are NOT certified owner-versus-owner lifetime records.
+**Historical season-team results listed below; not owner head-to-head totals.**
 
 | Season | Week | Home vintage name | Away vintage name | Score (home–away) | Winner |
 |---|---:|---|---|---|---|
@@ -92,7 +94,7 @@
 | 2025 | 12 | Slob on my Dobb | The Immortal | 141.53–151.86 | AWAY |
 
 ## Current Week 8 matchup: slots 10 vs 12
-**Historical slot-game results:** 13 rows; slot 10: 6 wins, slot 12: 7 wins. These are NOT certified owner-versus-owner lifetime records.
+**Historical season-team results listed below; not owner head-to-head totals.**
 
 | Season | Week | Home vintage name | Away vintage name | Score (home–away) | Winner |
 |---|---:|---|---|---|---|
