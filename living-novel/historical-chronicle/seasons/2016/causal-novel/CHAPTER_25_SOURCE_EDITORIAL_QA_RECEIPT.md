@@ -20,7 +20,7 @@ This is a different causal register from the recent missing-ledger/privacy seque
 1. Authoritative matrix: `living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md`, main blob `67fcd669dc7b43393f2d15e93545301961dd81e4`.
 2. The only proposed interior viewpoint is fictional `CHAR-JAKE-KALOPER / PRINCIPAL_CHARACTER`. Canonical 12-owner-only POV rule applies; no Edrin/Edin, outside witness interior, or omniscient documentary narration is licensed.
 3. Retained 2016 competitive evidence archive `living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json`, blob `6dbec1fe2537139f3a97c6a78250e2bae082a518`, was read on both main and the draft with equal blob hashes. This does NOT authenticate the human ownership of the historical slot assigned to the proposed Jake lane.
-4. Direct main-to-branch Git blob equality was observed for the **four protected 2026 sources**: Prologue `5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0`; Chapter I `26a17f05eb0565e7648c29add03ee9580ec933c3`; Chapter II `30fcf23aeb8872fa0fb4dff029fe30044141121`; Chapter III `49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc`.
+4. Direct main-to-branch Git blob equality was observed for the **four protected 2026 sources**: Prologue `5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0`; Chapter I `26a17f05eb0565e7648c29add03ee9580ec933c3`; Chapter II `30fcf23a3eb8872fa0fb4dff029fe30044141121`; Chapter III `49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc`.
 5. The shelters, market, landscapes, work customs, smoke and kiln mechanisms, contractual fares and persons in Chapter XXV are **provisional invented fiction**. No new ESPN result, week, trade, opponent, standings, human motive, championship or source-verified geographic claim was introduced.
 
 ## Continuity ledger — intact at the chapter boundary
@@ -41,3 +41,7 @@ This is a different causal register from the recent missing-ledger/privacy seque
 - **Unanswered reader promise:** What will the first paid shift cost Jake, and how will the stoneworks' own conflicts change him? A subsequent chapter must make new employment meaningful rather than staging another repeated lesson in restraint.
 
 **Review gates:** independent Authors Council — NOT ACCEPTED; Character Canon and Atlas — NOT CLEARED; Umpire — NOT ACCEPTED; authenticated 2016 owner binding — NOT ESTABLISHED; Founder canon/publication — NOT AUTHORIZED. No merge or publication.
+
+## Observed GitHub CI defect and repair
+
+At commit `6c2862dc32aee0a658d02d12523c36ce9af87e15`, Novel OS CI run #41132394420 actually executed 287 tests and failed two new Chapter XXV textual/fingerprint assertions: the expected departure quotation omitted the authored opening word `Then`, and the test/receipt copied the Chapter II immutable blob without its ninth hexadecimal character `3`. Direct main/branch Git blob reads proved the protected chapter itself had not changed. The assertion expectations were corrected without altering any narrative or protected source. The new exact-head CI outcome requires independent readback and must not be claimed green in this receipt.
