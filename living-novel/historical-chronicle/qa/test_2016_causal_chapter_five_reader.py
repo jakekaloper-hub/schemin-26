@@ -30,13 +30,13 @@ BLOBS = [
 ]
 READING = BASE / "READING_COPY_CAUSAL_CHAPTERS_01_05_NONCANON.md"
 SECTIONS = re.compile(
-    r"<!-- BEGIN 2016_CAUSAL (?P<name>[^ |]+) \\| git_blob (?P<sha>[0-9a-f]{40}) -->\\n\\n"
-    r"(?P<body>.*?)\\n\\n<!-- END 2016_CAUSAL (?P=name) -->", re.S
+    r"<!-- BEGIN 2016_CAUSAL (?P<name>[^ |]+) \| git_blob (?P<sha>[0-9a-f]{40}) -->\n\n"
+    r"(?P<body>.*?)\n\n<!-- END 2016_CAUSAL (?P=name) -->", re.S
 )
 
 def git_blob(path):
     raw = path.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + b"\\0" + raw).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + b"\0" + raw).hexdigest()
 
 def pts(number):
     return Decimal(str(number)).quantize(Decimal("0.01"))
@@ -46,7 +46,7 @@ class Test2016CausalChapterFive(unittest.TestCase):
     def setUpClass(cls):
         cls.g01 = json.loads(G01.read_text(encoding="utf-8"))
         cls.chapter = (BASE / FILES[-1]).read_text(encoding="utf-8")
-        cls.prose = cls.chapter.split("---\\n\\n*Editorial handoff")[0]
+        cls.prose = cls.chapter.split("---\n\n*Editorial handoff")[0]
         cls.reading = READING.read_text(encoding="utf-8")
         cls.sections = list(SECTIONS.finditer(cls.reading))
 
@@ -74,7 +74,7 @@ class Test2016CausalChapterFive(unittest.TestCase):
 
     def test_substantial_five_part_causal_not_weekly_schedule(self):
         self.assertGreaterEqual(len(self.chapter.split()), 4500)
-        self.assertEqual(re.findall(r"(?m)^### ([IVX]+)\\. ", self.chapter), ["I", "II", "III", "IV", "V"])
+        self.assertEqual(re.findall(r"(?m)^### ([IVX]+)\. ", self.chapter), ["I", "II", "III", "IV", "V"])
         self.assertNotIn("## Week Twelve", self.prose)
         self.assertIn("The weighing yard", self.prose)
         self.assertIn("A cart-owner", self.prose)
@@ -82,14 +82,14 @@ class Test2016CausalChapterFive(unittest.TestCase):
     def test_single_principal_owner_and_only_noncanon_world(self):
         for word in ("CHAR-JAKE-KALOPER", "PRINCIPAL_CHARACTER", "NONCANON", "HOLD", "Atlas"):
             self.assertIn(word, self.chapter)
-        self.assertNotRegex(self.prose, r"(?m)^### (Edrin|Edin|Oren)\\b")
+        self.assertNotRegex(self.prose, r"(?m)^### (Edrin|Edin|Oren)\b")
         self.assertIn("All mills, markets", self.chapter)
-        self.assertNotIn("approved geography", self.prose)
+        self.assertIn("not historical facts or approved geography", self.prose)
 
     def test_borrowed_awning_not_permanently_assigned(self):
         self.assertIn("The assistant took his cart down the road", self.prose)
         self.assertIn("The owner of the awning arrived", self.prose)
-        self.assertIn("the return of a separate", self.chapter.lower().replace("chapter iv's distinct short market awning is reclaimed", "the return of a separate") if False else "Chapter IV's distinct short market awning is reclaimed")
+        self.assertIn("Chapter IV's distinct short market awning is reclaimed", self.chapter)
         self.assertIn("original three-night canvas was returned", self.chapter)
 
     def test_suspect_food_not_declared_safe(self):
@@ -100,10 +100,7 @@ class Test2016CausalChapterFive(unittest.TestCase):
 
     def test_nonowner_characters_do_not_need_jakes_permission(self):
         for term in ("not under him", "The shed owner", "The wrapped-hand woman",
-                     "She had not sought Jake's permission", "another wage"):
-            # one term is an editorial-intent adversarial check, not a demanded quotation
-            if term == "another wage":
-                continue
+                     "She had not sought Jake's permission"):
             self.assertIn(term, self.prose)
 
     def test_unresolved_claims_remain_separate(self):
@@ -122,7 +119,7 @@ class Test2016CausalChapterFive(unittest.TestCase):
                 self.assertEqual(git_blob(BASE / FILES[i]), BLOBS[i])
                 self.assertEqual(match.group("sha"), BLOBS[i])
                 self.assertEqual(match.group("body"), (BASE / FILES[i]).read_text(encoding="utf-8").rstrip())
-                self.assertIn("| \`" + FILES[i] + "\` | \`" + BLOBS[i] + "\` |", self.reading)
+                self.assertIn("| `" + FILES[i] + "` | `" + BLOBS[i] + "` |", self.reading)
 
     def test_reader_release_holds_and_wordcount(self):
         self.assertGreaterEqual(len(self.reading.split()), 21500)
