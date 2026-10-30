@@ -93,7 +93,7 @@ class TestCausalEleven(unittest.TestCase):
         for token in ["claimant", "unopened", "unretrieved", "uncertified",
                       "unrecovered", "unpaid", "unfinished", "unturned"]:
             self.assertIn(token, closing)
-        self.assertIn("the singer", closing)
+        self.assertIn("singer destination", closing)
 
     def test_predecessor_reader_untouched(self):
         self.assertEqual(blob(BASE / PRIOR_READER), PRIOR_READER_BLOB)
