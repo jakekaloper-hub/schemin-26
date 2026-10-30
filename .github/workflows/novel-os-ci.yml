@@ -140,6 +140,8 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_six_reader.py" -v
       - name: Validate 2016 causal Chapter Seven and exact seven-chapter reader (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_seven_reader.py" -v
+      - name: Validate 2016 causal Chapter Eight and exact eight-chapter reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_eight_reader.py" -v
       - name: Validate 2023 six-match opening Chronicle candidate (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_opening_week.py" -v
       - name: Validate 2023 second six-match Chronicle installment (noncanon)
