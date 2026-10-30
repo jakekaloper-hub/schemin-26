@@ -85,8 +85,7 @@ class Test2016CausalChapterNine(unittest.TestCase):
         for phrase in (
             "Two copies, one alteration, no known author.",
             "The woman had not heard a name",
-            "neither ...",  # replaced below by the executable checks
-        )[:2]:
+        ):
             self.assertIn(phrase.lower(), self.prose.lower())
         self.assertIn("The traveler is not proved to be the missing claimant", self.chapter)
         self.assertNotIn("the claimant was found", self.prose.lower())
