@@ -41,6 +41,14 @@ The suspected ledger cover is still at the west store under a paid but expiring 
 - **Historical fit BLOCKED**: the exact 2016 historical owner identities are not authenticated. This chapter is neither a historical matchup record nor an accepted event in the 2026 main novel. Sola is not a thirteenth canonical principal.
 - **Independent gate BLOCKED**: no genuine Authors Council finding, independent Character/Atlas assessment, Umpire acceptance, Founder canon approval, merge or publication verified.
 
+
+## Observed GitHub CI failure and controlled repair
+
+- GitHub Novel OS CI run [#41117378148](https://github.com/jakekaloper-hub/schemin-26/actions/runs/41117378148) ran **257 tests, two failed** in the Chapter XXIII assertions: the notice test asked for a paraphrase rather than the chapter's exact wording, and the suspected-fragment test asked for the wrong grammatical subject. The manuscript and assembled reader did not fail their source-exact assertions.
+- Subsequent Novel OS CI run [#41117466281](https://github.com/jakekaloper-hub/schemin-26/actions/runs/41117466281) was also observed as failure on the pre-repair branch head. It is **not** represented as a PASS.
+- A test-only repair at commit `2d70195c3d7636044f285a6b80647c4919297e49` replaces those two expected literals with passages actually present in the unchanged chapter. GitHub CI for that commit and later checkpoint-only commits must be independently read before declaring success.
+- No real author/Umpire acceptance follows from the corrected expectations; textual asserts are mechanical regression probes, not literary judgment.
+
 ## Required next independent acceptance
 
 Read this entire chapter in context with XXI–XXII and the whole-book continuity, assess secondary character independence and dramatic tension, challenge all provisional Atlas/institutional claims, and check the source exact reader. Keep draft PR #243 in NONCANON review state until an independently evidenced decision. Check final GitHub CI after all checkpoint commits; do not transform a self-review into an independent opinion.
