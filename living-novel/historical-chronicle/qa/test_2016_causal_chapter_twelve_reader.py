@@ -77,7 +77,7 @@ class Test2016CausalTwelve(unittest.TestCase):
     def test_novel_causality_without_inventing_league_results(self):
         self.assertIn("Chapter XI", self.chapter)
         self.assertIn("Week 13", self.chapter)
-        self.assertIn("precedes any character knowledge of the 2016 postseason", self.chapter)
+        self.assertIn("but precede any character knowledge of the 2016 postseason", self.chapter)
         self.assertNotRegex(self.prose, r"\b\d{2,3}\.\d{2}\s*(?:to|–|-)\s*\d{2,3}\.\d{2}\b")
 
     def test_singer_agency_and_unresolved_refunds(self):
