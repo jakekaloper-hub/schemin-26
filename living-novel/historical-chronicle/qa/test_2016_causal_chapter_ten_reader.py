@@ -39,8 +39,8 @@ BLOBS = (
 )
 PRIOR_READER_BLOB = "cac0da28530f7d040b3856c2666ee975ef0617f3"
 SECTION_RE = re.compile(
-    r"<!-- BEGIN 2016_CAUSAL (?P<name>[^ |]+) \\| git_blob (?P<sha>[0-9a-f]{40}) -->\\n\\n"
-    r"(?P<body>.*?)\\n\\n<!-- END 2016_CAUSAL (?P=name) -->", re.S
+    r"<!-- BEGIN 2016_CAUSAL (?P<name>[^ |]+) \| git_blob (?P<sha>[0-9a-f]{40}) -->\n\n"
+    r"(?P<body>.*?)\n\n<!-- END 2016_CAUSAL (?P=name) -->", re.S
 )
 PROTECTED = {
     "PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
@@ -51,13 +51,13 @@ PROTECTED = {
 
 def git_blob(path: Path) -> str:
     raw = path.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\\0" + raw).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\0" + raw).hexdigest()
 
 class Test2016CausalChapterTen(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.chapter = (BASE / NAMES[-1]).read_text(encoding="utf-8")
-        cls.prose = cls.chapter.split("---\\n\\n*Editorial handoff")[0]
+        cls.prose = cls.chapter.split("---\n\n*Editorial handoff")[0]
         cls.reader = (BASE / "READING_COPY_CAUSAL_CHAPTERS_01_10_NONCANON.md").read_text(encoding="utf-8")
         cls.sections = list(SECTION_RE.finditer(cls.reader))
 
@@ -67,13 +67,13 @@ class Test2016CausalChapterTen(unittest.TestCase):
 
     def test_chapter_prose_is_substantial_and_structured(self):
         self.assertGreaterEqual(len(self.chapter.split()), 4700)
-        self.assertEqual(re.findall(r"(?m)^### ([IVX]+)\\.", self.prose), ["I", "II", "III", "IV", "V"])
+        self.assertEqual(re.findall(r"(?m)^### ([IVX]+)\.", self.prose), ["I", "II", "III", "IV", "V"])
 
     def test_single_owner_pov_noncanon_identity_boundary(self):
         for token in ("NONCANON", "CHAR-JAKE-KALOPER", "PRINCIPAL_CHARACTER",
                       "not provider-authenticated"):
             self.assertIn(token.lower(), self.chapter.lower())
-        self.assertNotRegex(self.prose, r"(?im)^### (?:Edrin|Edin|Oren)\\b")
+        self.assertNotRegex(self.prose, r"(?im)^### (?:Edrin|Edin|Oren)\b")
 
     def test_character_pays_real_cost_after_chapter_nine(self):
         for phrase in ("The supplier came at first light", "The notices had to be corrected",
@@ -101,7 +101,7 @@ class Test2016CausalChapterTen(unittest.TestCase):
         self.assertIn("Mara counted the coins once and pushed them back", self.prose)
 
     def test_no_foreknowledge_or_invented_competitive_results(self):
-        self.assertNotRegex(self.prose, r"\\b\\d{2,3}\\.\\d{2}\\s*(?:to|–|-)\\s*\\d{2,3}\\.\\d{2}\\b")
+        self.assertNotRegex(self.prose, r"\b\d{2,3}\.\d{2}\s*(?:to|–|-)\s*\d{2,3}\.\d{2}\b")
         self.assertNotIn("championship winner", self.prose.lower())
         self.assertNotIn("## week fourteen", self.prose.lower())
 
@@ -110,7 +110,7 @@ class Test2016CausalChapterTen(unittest.TestCase):
                        "a sealed message lay unopened", "the private chest inaccessible"):
             self.assertIn(phrase.lower(), self.prose.lower())
         self.assertIn("suspect grain UNCERTIFIED", self.chapter)
-        self.assertIn("no independent Author/Umpire approval", self.chapter)
+        self.assertIn("no independent author/umpire approval", self.chapter.lower())
 
     def test_nine_previous_chapters_and_reader_immutable(self):
         self.assertEqual(git_blob(BASE / "READING_COPY_CAUSAL_CHAPTERS_01_09_NONCANON.md"), PRIOR_READER_BLOB)
