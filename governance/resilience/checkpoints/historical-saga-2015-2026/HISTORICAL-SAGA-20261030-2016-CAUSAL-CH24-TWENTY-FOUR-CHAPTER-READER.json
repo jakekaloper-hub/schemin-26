@@ -51,7 +51,7 @@
     },
     "self_qa": {
       "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_24_SOURCE_EDITORIAL_QA_RECEIPT.md",
-      "git_blob": "5b3f2c863f3748cc5922865310dee8a2267ad647"
+      "git_blob": "7f62bc3ae72005d07076d36e3433ddbb6af636a0"
     }
   },
   "verification": {
@@ -77,7 +77,9 @@
     "independent_umpire": "NOT_ACCEPTED",
     "merged": false,
     "canon_promoted": false,
-    "published": false
+    "published": false,
+    "source_exact_direct_readback": "PASS: 24/24 GITHUB_FETCHED_CHAPTER_COMPONENTS_MATCH_READER_CONTENT_SHA_AND_MANIFEST_WORD_COUNTS",
+    "reader_actual_whitespace_words": 128598
   },
   "narrative": {
     "principal_pov": "fictional CHAR-JAKE-KALOPER only; 2016 owner-slot not authenticated",
