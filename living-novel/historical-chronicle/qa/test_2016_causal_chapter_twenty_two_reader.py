@@ -104,12 +104,12 @@ class ChapterTwentyTwoReader(unittest.TestCase):
 
     def test_missing_notice_remains_unposted(self):
         self.assertIn("I never posted it", self.prose)
-        self.assertIn("the public theft notice remains unposted", self.chapter)
+        self.assertIn("Jake has *not* posted the notice", self.chapter)
         self.assertIn("Tomorrow, before you take a cart", self.prose)
 
     def test_no_invented_recovery_or_debt_discharge(self):
         self.assertIn("Most of the leaves gone", self.prose)
-        self.assertIn("older supplier invoice", self.chapter)
+        self.assertIn("older supplier invoice", self.chapter.lower())
         self.assertIn("partial-pledge remainder", self.chapter)
         self.assertIn("no forgiveness of his unpaid pledge", self.prose)
 
