@@ -1,0 +1,193 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261029-2016-CAUSAL-CH05-06-SIX-CHAPTER-READER",
+  "version": "1.0",
+  "project": "Commonwealth Novel / Schemin '26",
+  "workflow": "historical-saga-2015-2026",
+  "stage": "2016 causal Chapters V-VI and exact-source six-chapter assembly",
+  "owner": "Founder-authorized authenticated GitHub draft operator; independent Bullpen Director execution NOT VERIFIED",
+  "reviewer": "Independent Authors Council / Character / Atlas / Umpire — REQUESTED not accepted",
+  "completed_timestamp": "2026-10-29 America/New_York (commit times auditable via GitHub)",
+  "status": "NONCANON_DRAFT_TECHNICALLY_VERIFIED_AT_TESTED_HEAD_EDITORIAL_HOLD",
+  "repository": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "predecessor": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261029-2016-CAUSAL-CH03-04-FOUR-CHAPTER-READER.json",
+  "source_authority": {
+    "main_mission": "SCHEMIN_26_PROJECT_MISSION.md",
+    "project_control": "PROJECT_CONTROL_REGISTRY.md",
+    "novel_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "causal_law": "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md",
+    "twelve_pov_supersession": "living-novel/os/NOVEL_POV_CONSTITUTION_V1.md",
+    "task_state": "governance/execution-control/TASK_REGISTRY_V1.json (known stale NOVEL-NEXT-002; PR #261 draft)",
+    "bullpen_command": "jakekaloper-hub/bullpen/runtime/commandRegistry.js",
+    "bullpen_lifecycle": "jakekaloper-hub/bullpen/runtime/lifecycleEngine.js"
+  },
+  "source_fingerprints": {
+    "historical_2016_G01_blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "prior_chapters": [
+      "d93505009d7dda7acc010ce1a6e5ec2bacf65ec2",
+      "756126cb4e151a0bd78ece39ab59a4c54ef2aa43",
+      "f9bf0721c989d30bfd09189388b93293ba3a8ce0",
+      "8994f9e443a6313dee217dfd5f92aedeff7bd88c"
+    ],
+    "protected_2026_main_identical_draft": {
+      "PROLOGUE_DRAFT_V1": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "CHAPTER_01_THE_FIRST_ANSWER": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "CHAPTER_02_WHAT_COMES_BACK": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+    }
+  },
+  "outputs": [
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_WEIGHT_OF_DRY_GRAIN_CHAPTER_05_NONCANON.md",
+      "git_blob": "40d12860e93d9393b18d7771c427061c82e46c8c",
+      "words": 4733
+    },
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_SILENCE_IN_THE_SECOND_PRINTING_CHAPTER_06_NONCANON.md",
+      "git_blob": "4e3d655895847e9910b7e8c69349fb2b09c94b4b",
+      "words": 4303
+    },
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_06_NONCANON.md",
+      "git_blob": "21f750ebfce30f3f8b80e1ef326a47e84598a9d2",
+      "words_including_metadata": 26145,
+      "source_component_words": 25782,
+      "components": 6
+    },
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_05_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "git_blob": "4e6efd0b33bcb02580b4ef5faa64edb3bca643da"
+    },
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_06_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "git_blob": "c8c57772eb51f010aaa552e0d9155b2b4ac2ec25"
+    },
+    {
+      "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_five_reader.py",
+      "git_blob": "b4d894bf10a336d2fa10ff00edc6667f0aa0afc3",
+      "test_methods": 11
+    },
+    {
+      "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_six_reader.py",
+      "git_blob": "7f8efd9a819bcdad2cdf44a4f12d3f9c91b2051e",
+      "test_methods": 12
+    },
+    {
+      "path": ".github/workflows/novel-os-ci.yml",
+      "git_blob": "75ee6c0df2cae04d897e6aca26b9c6e1132dbb09"
+    }
+  ],
+  "historical_facts": {
+    "W12": {
+      "home_id": 7,
+      "home": "The Gunslingers",
+      "home_score": 86.72,
+      "away_id": 1,
+      "away": "Scruffy Looking Nerf Herders",
+      "away_score": 112.2,
+      "winner": "AWAY"
+    },
+    "W13": {
+      "home_id": 1,
+      "home": "Scruffy Looking Nerf Herders",
+      "home_score": 81.44,
+      "away_id": 8,
+      "away": "Austin's Hyena's",
+      "away_score": 103.86,
+      "winner": "AWAY",
+      "disambiguation": "ID 8 is distinct from ID 12 The Real Austin's Hyenas"
+    },
+    "human_owner_binding": "NOT_PROVIDER_AUTHENTICATED",
+    "off_page": "all other W12/W13 games, future weeks/postseason"
+  },
+  "verification": {
+    "new_test_methods": 23,
+    "exact_tested_content_head": "a307433ef86d7448bc32264e23085d7bb2af5634",
+    "exact_content_head_workflow_runs": {
+      "Novel_OS_CI": {
+        "id": 40999310092,
+        "status": "completed",
+        "conclusion": "success"
+      },
+      "Cross_Domain_Authority_CI": {
+        "id": 40999310024,
+        "status": "completed",
+        "conclusion": "success"
+      },
+      "Bullpen_Runtime_CI": {
+        "id": 40999310013,
+        "status": "completed",
+        "conclusion": "success"
+      },
+      "Repository_Merge_Gate": {
+        "id": 40999310026,
+        "status": "completed",
+        "conclusion": "success"
+      }
+    },
+    "previous_real_failures": [
+      {
+        "run": 40998467707,
+        "problem": "Ch V assertion text mismatches; test repaired, prose unchanged"
+      },
+      {
+        "run": 40998698297,
+        "problem": "Ch V assertion capitalization mismatch; test repaired, prose unchanged"
+      }
+    ],
+    "protected_2026_direct_main_branch_blob_comparisons": "MATCH all four",
+    "independent_review_submissions_at_first_read": 0,
+    "final_checkpoint_inclusive_sha_ci": "PENDING_RECHECK; never assume inherited tested-head PASS"
+  },
+  "independent_review_request": {
+    "comment_id": 6514473003,
+    "url": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6514473003",
+    "status": "REQUESTED_NOT_ACCEPTED"
+  },
+  "unresolved": {
+    "character_period_approval": false,
+    "atlas_period_approval": false,
+    "independent_author_approval": false,
+    "independent_umpire_approval": false,
+    "founder_canon_or_publication": false,
+    "human_2016_slot1_identity": "UNKNOWN",
+    "historical_2016_pilot_W2_W3_inaccurate_loss_text": "REQUIRES_VERSIONED_ERRATA",
+    "fictional_loops": [
+      "supplier invoice unpaid",
+      "worker old timber wage claim unresolved",
+      "unknown missing claimant and private unopened message",
+      "east room and separate storeroom wall unsafe",
+      "private chest unretrieved and unbuilt reaching frame",
+      "grain suspect and independent borrowed shed deadline",
+      "singer can choose own future after unauthorized broadside correction",
+      "wheel still not turning"
+    ],
+    "editorial_risks": [
+      "Jake explanatory moral summaries are repetitive",
+      "print and mill material culture need Atlas review",
+      "no source supports invented geography or local legal property policy"
+    ]
+  },
+  "release_gates": {
+    "merge": false,
+    "canon_promotion": false,
+    "publication": false,
+    "spend": false
+  },
+  "invalidation_triggers": [
+    "G01 source blob altered or authoritative upstream contradicts archive",
+    "any component Git blob changes or assembled exact-source digest mismatches",
+    "period Character or Atlas authority conflicts",
+    "protected 2026 Prologue/Ch I-III change",
+    "independent reviewers reject POV or narrative",
+    "Founder exercises reserved gate"
+  ],
+  "continuation": {
+    "first": "Recheck four CI workflows against exact checkpoint-inclusive head (new commit) and validate checkpoint fields; if failure, repair before claiming complete",
+    "next": "Develop 2016 causal Chapter VII with external stakes and distinct dramatic conflict rather than repeated didactic mediation, while respecting verified archive and time cutoff",
+    "parallel": "Issue source-labeled noncanon 2016 pilot W2/W3 result erratum (three opening wins then W4 loss), not unreviewed source rewrite",
+    "review": "Seek actual independent Authors Council/Character/Atlas/Umpire written review; request alone is no acceptance",
+    "disposition": "DRAFT ONLY / NO MERGE / NO CANON / NO PUBLICATION"
+  }
+}
