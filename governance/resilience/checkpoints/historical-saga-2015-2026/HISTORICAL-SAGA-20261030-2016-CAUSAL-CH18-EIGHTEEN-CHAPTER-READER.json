@@ -56,12 +56,15 @@
       "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_eighteen_reader.py",
       "new_methods": 12,
       "commit": "12c79f7bb75b68d1aadae8a091bf63ac47387792",
-      "execution": "NOT_VERIFIED",
-      "ci_enrollment": false
+      "execution": "PASS: 12/12 on connected Mac at exact tested head 3acfcb1f58fbe65ebb3bf8429c2abe11dab0fe58",
+      "ci_enrollment": false,
+      "tested_commit": "3acfcb1f58fbe65ebb3bf8429c2abe11dab0fe58",
+      "final_file_blob": "66abf304858e872dbeec7ec985bd305207e19906",
+      "test_assertion_fix_commit": "3acfcb1f58fbe65ebb3bf8429c2abe11dab0fe58"
     },
     "qa_receipt": {
       "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_18_SOURCE_EDITORIAL_QA_RECEIPT.md",
-      "commit": "307e0062fc7a630fafae6c39b215ec771a55f688"
+      "commit": "b9e4c9e1dc918b963eed9d6321356f5ad283ca6a"
     }
   },
   "checks": {
@@ -88,13 +91,30 @@
       "exact_checked_head": "57cd809acc51a0f23b37a8b6204fafc11dd303fc",
       "note": "Includes previous Chapter XV 13 and Chapter XVII 11 once-unverified tests, not new Chapter XVIII test"
     },
-    "new_python": "NOT_VERIFIED remote Mac fast-forward and run request timed out; do not infer completion",
+    "new_python": {
+      "status": "PASS",
+      "methods": 12,
+      "failures": 0,
+      "exact_tested_head": "3acfcb1f58fbe65ebb3bf8429c2abe11dab0fe58",
+      "runner": "connected Mac /tmp/commonwealth-novel-2016-20261030",
+      "duration": "0.017s",
+      "ci_enrollment": false
+    },
     "github_ci": "EXACT_CURRENT_HEAD_CHECK_REQUIRED",
     "independent_author_review": "NOT_OBSERVED",
     "independent_umpire": "NOT_OBSERVED",
     "merged": false,
     "canon_promoted": false,
-    "published": false
+    "published": false,
+    "executed_python_full_suite": {
+      "status": "PASS",
+      "ran": 182,
+      "failures": 0,
+      "exact_tested_head": "3acfcb1f58fbe65ebb3bf8429c2abe11dab0fe58",
+      "command": "python3 -m unittest discover -s living-novel/historical-chronicle/qa -p 'test_2016_causal_chapter*reader.py' -q",
+      "duration": "0.091s",
+      "runner": "isolated connected Mac sparse checkout"
+    }
   },
   "narrative": {
     "sole_interior": "fictional CHAR-JAKE-KALOPER / PRINCIPAL_CHARACTER",
@@ -122,14 +142,14 @@
     "Period-correct Atlas and fictional economic/material culture clearance",
     "Independent Authors Council / Librarian / Character Canon acceptance not observed",
     "Independent Umpire review not observed",
-    "12 new Chapter XVIII Python tests not yet verified running or CI-enrolled",
-    "Founder-only canon, merge and publication approval withheld"
+    "Founder-only canon, merge and publication approval withheld",
+    "Historical-chronicle Python suites pass on Mac but are not yet enrolled in GitHub Novel OS CI (separate integration gate)"
   ],
   "next": [
     "Check exact PR head and Actions statuses, no stale CI claim",
-    "If Mac responsiveness returns, verify head fast-forward and execute twelve new regression tests; capture exact terminal receipt",
     "Request independent textual redline of Chapters XV-XVIII for recurrence, workmanlike exposition and proposed river culture",
     "Continue 2016 Chapter XIX with actual shelter reentry or a different major POV when owner-authenticated and period-canon allowed; do not invent ESPN facts",
-    "Preserve protected Prologue and Chapters I-III; maintain NONCANON, do not merge or publish"
+    "Preserve protected Prologue and Chapters I-III; maintain NONCANON, do not merge or publish",
+    "Preserve evidence of the 182-test connected Mac pass while pursuing reviewed CI enrollment only through authorized workflow controls."
   ]
 }
