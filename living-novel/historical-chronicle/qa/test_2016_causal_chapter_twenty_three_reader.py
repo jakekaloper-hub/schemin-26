@@ -91,7 +91,7 @@ class ChapterTwentyThreeReader(unittest.TestCase):
 
     def test_07_notice_posted_in_this_chapter_not_retroactively(self):
         self.assertIn("The notice had already been nailed to the board", self.prose)
-        self.assertIn("Esi and Tern post the overdue notice", self.chapter)
+        self.assertIn("previously unposted theft notice is now actually posted by Esi and Tern", self.chapter)
         self.assertIn("previously unposted theft notice", self.chapter)
 
     def test_08_sola_decides_her_own_departure(self):
@@ -101,7 +101,7 @@ class ChapterTwentyThreeReader(unittest.TestCase):
         self.assertIn("not authenticated as Sola's", self.chapter)
 
     def test_09_witnessed_uncertainty_does_not_name_thief(self):
-        self.assertIn("it might not be part of the stolen book at all", self.prose)
+        self.assertIn("a fragment that might not be part of the stolen book at all", self.prose)
         self.assertIn("the leaves and their carrier remained unknown", self.prose)
         self.assertIn("not proof of injury", self.chapter)
 
