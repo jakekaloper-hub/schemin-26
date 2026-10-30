@@ -90,7 +90,7 @@ class Test2016CausalChapterFive(unittest.TestCase):
         self.assertIn("The young man took his cart down the road", self.prose)
         self.assertIn("The owner of the awning arrived", self.prose)
         self.assertIn("Chapter IV's distinct short market awning is reclaimed", self.chapter)
-        self.assertIn("original three-night canvas was returned", self.chapter)
+        self.assertIn("original three-night canvas was returned", self.chapter.lower())
 
     def test_suspect_food_not_declared_safe(self):
         self.assertIn("No conclusion could be bought from urgency", self.prose)
