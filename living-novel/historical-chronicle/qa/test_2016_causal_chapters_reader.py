@@ -113,12 +113,12 @@ class Test2016CausalReader(unittest.TestCase):
                 self.assertEqual(blob(BASE / name), KNOWN[name])
                 self.assertEqual(m.group("sha"), KNOWN[name])
                 self.assertEqual(m.group("body"), src.rstrip())
-                self.assertIn(f"| \`{name}\` | \`{KNOWN[name]}\` |", self.reader)
+                self.assertIn("| `" + name + "` | `" + KNOWN[name] + "` |", self.reader)
 
     def test_reader_length_and_no_false_completion(self):
         self.assertGreaterEqual(len(self.reader.split()), 8300)
         self.assertIn("NONCANON", self.reader)
-        self.assertIn("not the official 2016 Historical Chronicle", self.reader)
+        self.assertIn("Not the official 2016 Historical Chronicle", self.reader)
         self.assertIn("HOLD", self.reader)
         self.assertIn("<!-- END_CAUSAL_READING_COPY -->", self.reader)
 
