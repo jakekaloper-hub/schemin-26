@@ -352,7 +352,7 @@ Esi looked at the space where it had stood. She did not touch the remaining book
 
 Esi thanked him. Jake heard how much effort the words cost her. Len lowered his carved bird and let it rest beside the window. The injured eye gave him no claim to certain sight, and he had offered none.
 
-Outside, the late market traffic was closing. Jake ran to the point where the western lane divided. One branch sloped toward the public trough, the other toward the low road and the weigh-stones. A carrier with a empty handcart stood by the hedge, trying to turn his axle around a stone.
+Outside, the late market traffic was closing. Jake ran to the point where the western lane divided. One branch sloped toward the public trough, the other toward the low road and the weigh-stones. A carrier with an empty handcart stood by the hedge, trying to turn his axle around a stone.
 
 "Did you see anyone with a bound book?" Jake asked.
 
