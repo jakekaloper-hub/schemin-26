@@ -23,10 +23,15 @@ PROTECTED = {
 }
 def git_blob(path):
     b=path.read_bytes()
-    return hashlib.sha1(b"blob "+str(len(b)).encode()+b"\\0"+b).hexdigest()
+    return hashlib.sha1(b"blob "+str(len(b)).encode()+b"\0"+b).hexdigest()
 def rows(text):
-    return [(int(n),name,sha,int(words)) for n,name,sha,words in re.findall(
-        r"^\\| (\\d+) \\| \\x60([^\\x60]+)\\x60 \\| \\x60([0-9a-f]{40})\\x60 \\| (\\d+) \\|$",text,re.M)]
+    out=[]
+    for line in text.splitlines():
+        match=re.fullmatch(r"[|] ([0-9]+) [|] `([^`]+)` [|] `([0-9a-f]{40})` [|] ([0-9]+) [|]",line)
+        if match:
+            n,name,sha,words=match.groups()
+            out.append((int(n),name,sha,int(words)))
+    return out
 def section(reader,name,sha):
     start=f"<!-- BEGIN 2016_CAUSAL {name} | git_blob {sha} -->"
     end=f"<!-- END 2016_CAUSAL {name} -->"
@@ -41,7 +46,7 @@ class FortyFiveChapterReader(unittest.TestCase):
         cls.previous=(BASE/PREVIOUS).read_text()
         cls.rows=rows(cls.reader)
         cls.prevrows=rows(cls.previous)
-        cls.prose=cls.chapter.split("### I.",1)[1].split("\\n---\\n",1)[0]
+        cls.prose=cls.chapter.split("### I.",1)[1].split("\n---\n",1)[0]
 
     def test_01_manifest_sequence(self):
         self.assertEqual([r[0] for r in self.rows],list(range(1,46)))
@@ -70,7 +75,7 @@ class FortyFiveChapterReader(unittest.TestCase):
         self.assertEqual(git_blob(BASE/CHAPTER),CHAPTER_SHA)
         self.assertEqual(git_blob(BASE/READER),READER_SHA)
     def test_07_six_substantial_movements(self):
-        self.assertEqual(len(re.findall(r"^### [IVX]+\\.",self.chapter,re.M)),6)
+        self.assertEqual(len(re.findall(r"^### [IVX]+[.]",self.chapter,re.M)),6)
         self.assertEqual(len(self.chapter.split()),4664)
         self.assertGreater(len(self.prose.split()),3800)
         self.assertEqual(len(self.reader.split()),263852)
@@ -98,11 +103,11 @@ class FortyFiveChapterReader(unittest.TestCase):
     def test_14_interiority_only_licensed_owner(self):
         self.assertIn("Sole limited interior viewpoint: proposed fictional Jake",self.chapter)
         self.assertIn("CHAR-JAKE-KALOPER",self.chapter)
-        self.assertNotRegex(self.prose,r"\\b(?:Edrin|Edin)\\b")
+        self.assertNotRegex(self.prose,r"(?<![A-Za-z])(?:Edrin|Edin)(?![A-Za-z])")
     def test_15_no_competitive_facts_asserted(self):
         self.assertNotIn("ESPN",self.prose)
         self.assertNotIn("Flaim",self.prose)
-        self.assertNotRegex(self.prose,r"\\bWeek \\d+\\b")
+        self.assertNotRegex(self.prose,r"(?<![A-Za-z])Week [0-9]+(?![A-Za-z])")
     def test_16_protected_opening_unchanged(self):
         for path,sha in PROTECTED.items():
             with self.subTest(path=path):
