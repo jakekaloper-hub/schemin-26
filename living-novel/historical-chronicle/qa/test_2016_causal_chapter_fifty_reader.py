@@ -22,11 +22,11 @@ PROTECTED = {
 
 def git_blob(path):
     raw = path.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\\0" + raw).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\0" + raw).hexdigest()
 
 def rows(text):
     return [(int(n), name, sha, int(words)) for n, name, sha, words in re.findall(
-        r"^\\| ([0-9]+) \\| \\x60([^\\x60]+)\\x60 \\| \\x60([0-9a-f]{40})\\x60 \\| ([0-9]+) \\|$", text, re.M)]
+        r"^\| ([0-9]+) \| \x60([^\x60]+)\x60 \| \x60([0-9a-f]{40})\x60 \| ([0-9]+) \|$", text, re.M)]
 
 def source(text, name, sha):
     opening = f"<!-- BEGIN 2016_CAUSAL {name} | git_blob {sha} -->"
@@ -42,7 +42,7 @@ class ChapterFifty(unittest.TestCase):
         cls.prior = (BASE / PRIOR).read_text()
         cls.rows = rows(cls.reader)
         cls.prior_rows = rows(cls.prior)
-        cls.prose = cls.chapter.split("### I.", 1)[1].split("\\n---\\n", 1)[0]
+        cls.prose = cls.chapter.split("### I.", 1)[1].split("\n---\n", 1)[0]
 
     def test_01_manifest_sequence(self):
         self.assertEqual([n for n, _, _, _ in self.rows], list(range(1, 51)))
@@ -107,7 +107,7 @@ class ChapterFifty(unittest.TestCase):
     def test_17_exclusive_owner_interior(self):
         self.assertIn("Sole limited interior viewpoint: proposed fictional Jake", self.chapter)
         self.assertIn("CHAR-JAKE-KALOPER", self.chapter)
-        self.assertNotRegex(self.prose, r"\\b(Edrin|Edin)\\b")
+        self.assertNotRegex(self.prose, r"\b(Edrin|Edin)\b")
 
     def test_18_real_structural_failure_not_a_rumor(self):
         self.assertIn("the fourth stair folded against the third", self.prose)
@@ -130,7 +130,7 @@ class ChapterFifty(unittest.TestCase):
     def test_22_new_names_not_collisions_in_prior_copy(self):
         for name in ("Neris", "Dovan", "Tovin"):
             with self.subTest(name=name):
-                self.assertNotRegex(self.prior, r"\\b" + re.escape(name) + r"\\b")
+                self.assertNotRegex(self.prior, r"\b" + re.escape(name) + r"\b")
 
     def test_23_absent_three_remain_unlocated(self):
         self.assertIn("Hessa and two companions were somewhere along an inland track", self.prose)
