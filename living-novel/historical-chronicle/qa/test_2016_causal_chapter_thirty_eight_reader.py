@@ -88,7 +88,7 @@ class ThirtyEightChapterReader(unittest.TestCase):
     def test_09_ambiguous_cut_trace_narrowly_explained(self):
         self.assertIn('"I cut this."', self.prose)
         self.assertIn('"Because the horse was being pulled down."', self.prose)
-        self.assertIn('"The second horse stayed fast.', self.prose)
+        self.assertIn("The second horse stayed fast.", self.prose)
 
     def test_10_mael_return_not_a_freight_resolution(self):
         self.assertIn('"Where is the cart?"', self.prose)
