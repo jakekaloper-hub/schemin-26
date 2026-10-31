@@ -1,0 +1,95 @@
+{
+  "schema": "commonwealth-historical-saga-production-checkpoint-v1",
+  "status": "NONCANON_INDEPENDENT_EDITORIAL_HOLD",
+  "date_utc": "2026-10-31",
+  "mission": "BULLPEN PERMANENT EXECUTIVE MANDATE — COMMONWEALTH NOVEL AUTONOMOUS END-TO-END PRODUCTION",
+  "repository": "jakekaloper-hub/schemin-26",
+  "organizational_authority": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr_number": 243,
+  "resumed_from_head": "7d95931e19b6908a18094de6fb7019abedebfe12",
+  "resumed_from_checkpoint": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261031-2016-CAUSAL-CH37-THIRTY-SEVEN-CHAPTER-READER.json",
+  "authority_sources": {
+    "main_at_intake": "ec941811d6334d70015ec97b2ac68a2d8a26eec6",
+    "novel_source_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "novel_context": "living-novel/os/SESSION_CONTEXT.md; living-novel/os/TASK_CONTEXT_MATRIX_V1.json",
+    "task": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "pov": "canon/characters/TWELVE_CHARACTER_NARRATIVE_POV_REGISTER_V1.md; living-novel/os/NOVEL_POV_CONSTITUTION_V1.md",
+    "bullpen": "docs/COMMAND_SYSTEM_V2.md; runtime/lifecycleEngine.js",
+    "historical_evidence": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json"
+  },
+  "issues_reconciled": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "prs_reconciled": {
+    "188": "CLOSED_MERGED",
+    "243": "OPEN_DRAFT",
+    "252": "OPEN_DRAFT",
+    "261": "OPEN_DRAFT",
+    "264": "OPEN_DRAFT"
+  },
+  "output": {
+    "chapter": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_HAND_THAT_CUT_THE_LEATHER_CHAPTER_38_NONCANON.md",
+    "chapter_blob": "a6f7f737d2ce79542489094be374f3084f24d657",
+    "chapter_words_including_notes": 5725,
+    "movements": 6,
+    "reader": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_38_NONCANON.md",
+    "reader_blob": "730f61196ba8c084a2c8c3721966b494ac12f2eb",
+    "reader_words_including_notes": 216666,
+    "source_components": 38,
+    "previous_reader_blob": "856afd4cdae27c469e68cc56abcbff0d10f1d83e",
+    "tests": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_thirty_eight_reader.py",
+    "qa": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_38_SOURCE_EDITORIAL_QA_RECEIPT.md"
+  },
+  "checks": {
+    "js_reader_assembly": "PASS_LOCAL_SCRIPT",
+    "all_previous_37_source_sections_unchanged": "PASS_LOCAL_SCRIPT",
+    "chapter_38_section_source_exact": "PASS_LOCAL_SCRIPT",
+    "python_tests": "PENDING_GITHUB_CI",
+    "github_workflows": "PENDING_AT_CHECKPOINT_WRITE",
+    "independent_review": "NOT_ACCEPTED"
+  },
+  "continuity": {
+    "entering": "Eight travelers with one cart departed, six including Hessa/infant still at Fara's with another cart, her shortened inherited awning, Jake's four paid hours, Pell injured and driver Mael unlocated.",
+    "turn": "Mael returns alive and admits cutting trace to free mare; Pell admits he delayed asking for aid; neither claims historical location or freight result.",
+    "exit": "Mael is alive with injured hand; he and Pell may eventually offer separate accounts to carrier; missing second horse, cart and freight still unknown; temporary traveler and permanently shortened awning state preserved.",
+    "open_loops": [
+      "Orrel's carrier liability has no signature or verdict",
+      "Second horse, cart and freight unlocated",
+      "Pell and Mael have not testified jointly",
+      "Ash/fire source unknown",
+      "Departed eight's route and safety unknown",
+      "Remaining six's later decision unconfirmed",
+      "Hessa's missing sister",
+      "Fara's permanently shortened awning and missing panel",
+      "Escaped bird unreturned",
+      "Jake's old shelter debts and delivery of Esi letter unconfirmed",
+      "2016 historical owner-slot authentication absent"
+    ]
+  },
+  "protected_main": [
+    "living-novel/manuscript/PROLOGUE_DRAFT_V1.md",
+    "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md",
+    "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md",
+    "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md"
+  ],
+  "gates": {
+    "historical_owner_auth": "NOT_ACCEPTED",
+    "period_atlas_character": "NOT_ACCEPTED",
+    "authors_council": "NOT_ACCEPTED",
+    "independent_umpire": "NOT_ACCEPTED",
+    "founder_canon": "NOT_AUTHORIZED",
+    "merged": false,
+    "published": false
+  },
+  "next": [
+    "Observe exact-final-head GitHub CI runs and fix any concrete failure.",
+    "Post authenticated editorial-review request on existing PR #243; do not represent a request as acceptance.",
+    "Write Chapter XXXIX in a distinct dramatic register and move beyond freight testimony, preserving 12-owner exclusive POV and all source gates.",
+    "Do not auto-promote, merge, publish or invent 2016 ESPN facts."
+  ]
+}
