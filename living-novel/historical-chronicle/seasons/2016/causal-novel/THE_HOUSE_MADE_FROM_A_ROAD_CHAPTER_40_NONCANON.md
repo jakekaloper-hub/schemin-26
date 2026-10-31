@@ -358,7 +358,7 @@ No one called him generous. They carried the wood upstairs together, each aware 
 
 The child slept through the hammering on a folded blanket near the far wall. Hessa remained beside the sleeping place until the noise ceased, then began sorting their possessions by what could stay out of the wet and what might be needed quickly on a road. She did not unpack the bundle containing her sister's small slate. That stayed beside the door, within reach, as though news might arrive before dark.
 
-From the upper window Jake could see the second cart below. It stood on four? No: two wheels and an exposed bed, one side gone, its surviving board scarred where a pin had come out. He corrected the count in his own head before saying anything. The donkey had been led back to the stable keeper; no animal had been made an ornament to their decision.
+From the upper window Jake could see the second cart below. It stood on two wheels with an exposed bed, one side gone and its surviving board scarred where a pin had come out. He corrected the count in his own head before saying anything. The donkey had been led back to the stable keeper; no animal had been made an ornament to their decision.
 
 The sight hurt in a way he had not anticipated. A cart with no side could be repaired. A room made from its boards could be dismantled. Nothing here was impossible to undo. Yet undoing it would require labor, time, negotiations and weather that no one could promise. He had often mistaken the possibility of reversing a decision for freedom from its cost. Hessa's six had no such luxury. They were choosing between two expenses and paying one in advance.
 
