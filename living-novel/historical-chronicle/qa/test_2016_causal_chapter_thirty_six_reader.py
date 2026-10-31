@@ -22,11 +22,11 @@ PROTECTED = {
 
 def git_blob(path):
     data = path.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\\0" + data).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest()
 
 def manifest_rows(text):
     return [(int(n), name, sha, int(words)) for n, name, sha, words in re.findall(
-        r"^\\| (\\d+) \\| \\x60([^\\x60]+)\\x60 \\| \\x60([a-f0-9]{40})\\x60 \\| (\\d+) \\|$", text, re.M)]
+        r"^\| (\d+) \| \x60([^\x60]+)\x60 \| \x60([a-f0-9]{40})\x60 \| (\d+) \|$", text, re.M)]
 
 def extract_passage(reader, name, sha):
     opening = f"<!-- BEGIN 2016_CAUSAL {name} | git_blob {sha} -->"
@@ -70,7 +70,7 @@ class ThirtySixChapterReader(unittest.TestCase):
         self.assertEqual(self.manifest[:-1], self.old_manifest)
 
     def test_06_substantial_six_movement_fiction(self):
-        self.assertEqual(len(re.findall(r"^### [IVX]+\\.", self.chapter, re.M)), 6)
+        self.assertEqual(len(re.findall(r"^### [IVX]+\.", self.chapter, re.M)), 6)
         self.assertGreaterEqual(len(self.chapter.split()), 6500)
         self.assertGreaterEqual(len(self.reader.split()), 204000)
 
