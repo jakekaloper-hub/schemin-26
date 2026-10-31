@@ -103,7 +103,7 @@ class TwentyEightChapterReader(unittest.TestCase):
   self.assertIn("Then I'll look for another place", self.prose)
 
  def test_12_eren_separate_paid_commission(self):
-  self.assertIn("She gave me a price. She has given me half", self.prose) if False else self.assertIn("I've given her a price. She has given me half", self.prose)
+  self.assertIn("I\'ve given her a price. She has given me half", self.prose)
   self.assertIn("She paid me for knowing how", self.prose)
   self.assertIn("Eren's cart-mark order is partially paid", self.chapter)
 
