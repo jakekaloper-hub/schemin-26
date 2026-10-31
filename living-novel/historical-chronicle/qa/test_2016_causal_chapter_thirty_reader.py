@@ -21,10 +21,10 @@ PROTECTED = {
 }
 def blob(path):
  data = path.read_bytes()
- return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\\0" + data).hexdigest()
+ return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest()
 def rows(text):
  return [(int(n),name,sha,int(words)) for n,name,sha,words in re.findall(
-  r"^\\| (\\d+) \\| \\x60([^\\x60]+)\\x60 \\| \\x60([a-f0-9]{40})\\x60 \\| (\\d+) \\|$",text,re.M)]
+  r"^\| (\d+) \| \x60([^\x60]+)\x60 \| \x60([a-f0-9]{40})\x60 \| (\d+) \|$",text,re.M)]
 def passage(text,name,sha):
  start=f"<!-- BEGIN 2016_CAUSAL {name} | git_blob {sha} -->"
  end=f"<!-- END 2016_CAUSAL {name} -->"
@@ -38,7 +38,7 @@ class ThirtyChapterReader(unittest.TestCase):
   cls.old=(BASE/PREVIOUS).read_text()
   cls.manifest=rows(cls.reader)
   cls.old_manifest=rows(cls.old)
-  cls.prose=cls.chapter.split("### I.",1)[1].split("\\n---\\n",1)[0]
+  cls.prose=cls.chapter.split("### I.",1)[1].split("\n---\n",1)[0]
  def test_01_order_and_last_row(self):
   self.assertEqual([n for n,_,_,_ in self.manifest],list(range(1,31)))
   self.assertEqual(self.manifest[-1],(30,CHAPTER,CHAPTER_SHA,len(self.chapter.split())))
@@ -63,7 +63,7 @@ class ThirtyChapterReader(unittest.TestCase):
     self.assertEqual(passage(self.reader,name,sha),passage(self.old,name,sha))
  def test_07_five_substantive_movements(self):
   self.assertGreaterEqual(len(self.chapter.split()),5600)
-  self.assertEqual(len(re.findall(r"^### [IVX]+\\.",self.chapter,re.M)),5)
+  self.assertEqual(len(re.findall(r"^### [IVX]+\.",self.chapter,re.M)),5)
   self.assertIn("### Editorial handoff",self.chapter)
  def test_08_exclusive_principal_pov(self):
   self.assertIn("Sole limited interior viewpoint",self.chapter)
