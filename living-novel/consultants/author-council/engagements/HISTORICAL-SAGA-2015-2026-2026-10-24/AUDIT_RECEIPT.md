@@ -1,0 +1,13 @@
+# Consultation audit receipt — bounded production tranche
+
+Scope: five revised 2026 candidate manuscripts, 24 actual scenes, six distinct source-event links. No historical season was completed by this tranche. Council review used a separately invoked critic applying seven simulated published-method lenses. No authenticated author or Director was consulted; seven independent isolated seats are not claimed.
+
+Actual lifecycle: existing router selected the full seven without named-author filters; Round 1 evidence/sample diagnosis; Round 2 full reads and repairs on two manuscripts; Round 3 adversarial review of three additional manuscripts plus fresh historical-source challenge; actual repair reinspection; Round 4 bounded synthesis. The frozen initial selection manifest remains unchanged as history; CHECKPOINT.md records current progress.
+
+Implemented advice has specific proof: see round-2/REINSPECTION_AND_SYNTHESIS.md, round-3/WEEK5_REINSPECTION.md, round-3/WEEK4_WETLAND_REINSPECTION.md and final hashes in round-4/BOUNDED_TRANCHE_FREEZE.json. At this audit, all five current manuscript hashes match that final freeze. No review edit has been requested after those frozen versions.
+
+Independent technical evidence is separately recorded in `living-novel/production/historical-saga/approved-mission-2015-2026/review/INDEPENDENT_REVIEW.md`, `SCENE_CHECK_RESULT.json`, `SOURCE_CHECK_RESULT.json`, and `STATIC_READER_CHECK.json`. That reviewer reports 24 real extracted scene bodies with no missing registers or contract/join errors; eight coverage tests passed; all 1,117 historical source observations resolve. These are actual technical results with stated limits, not inferred from a council vote. The council did not rerun the entire test suite. Browser navigation was denied by administrator policy and no render acceptance is claimed or bypass recommended.
+
+Historical-source challenge: this critic independently loaded all eleven new saved Flaim league-info results, verified file hashes, counted twelve teams in every year and zero populated owner-key fields. The separately reported ESPN adapter read failed EAI_AGAIN / ESPN_TIMEOUT without raw evidence. Fresh period structure helps deduplication; it does not authorize fictional human-owner bindings.
+
+Disposition: local consultation/revision loop completed for this bounded tranche, suitable for Jake’s draft review and continued authorized production. Full-program isolated-review acceptance, full-book literary acceptance, historical bindings, all-contest coverage and canonical promotion remain unfulfilled. No manuscript count, word count, structural test or simulated verdict proves a finished epic. No merge or deployment follows.

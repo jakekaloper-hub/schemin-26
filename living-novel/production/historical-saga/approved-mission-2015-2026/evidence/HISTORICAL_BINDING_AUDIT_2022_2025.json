@@ -1,0 +1,472 @@
+{
+  "schema_version": "1.0",
+  "audit_baseline": "8fcb77191955f413fe970154d47632770f923055",
+  "status": "READ_ONLY_AUTHORITY_INTERPRETATION_NOT_CANON_MUTATION",
+  "sources": {
+    "authority": {
+      "path": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+      "lines": [
+        24,
+        25,
+        69,
+        76
+      ],
+      "sha256": "96cb7350af25a34166173a87b5564c3403ee2ef137a8f2fb8abbae7a9a4767bd"
+    },
+    "chapter1_gate": {
+      "path": "living-novel/qa/CHAPTER_01_FINAL_GATE.md",
+      "lines": [
+        40
+      ],
+      "sha256": "42009311b169972cfd1e79d9122b59d8adbc7c6c3bf60d74e365f9d31be3fd34"
+    },
+    "chapter1_titles": {
+      "path": "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md",
+      "lines": [
+        1830,
+        1840,
+        1888,
+        1900,
+        1902,
+        1904,
+        1906,
+        1908
+      ],
+      "sha256": "9f2dd7b2b4b65e29c37fdfccb53b3a13a48ae225c56aeafa3d4b6b931e5be01d"
+    },
+    "chapter1_2025": {
+      "path": "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md",
+      "lines": [
+        2022,
+        2026,
+        2030,
+        2032,
+        2038
+      ],
+      "sha256": "9f2dd7b2b4b65e29c37fdfccb53b3a13a48ae225c56aeafa3d4b6b931e5be01d"
+    },
+    "prologue_final": {
+      "path": "living-novel/manuscript/PROLOGUE_DRAFT_V1.md",
+      "lines": [
+        128,
+        130,
+        334,
+        342
+      ],
+      "sha256": "8e1709d56c4ef52b2479c394f7de08f0b3665f13a3cdf79c422d3de71d8e6712"
+    },
+    "prologue_tds": {
+      "path": "living-novel/manuscript/PROLOGUE_DRAFT_V1.md",
+      "lines": [
+        985,
+        987,
+        989,
+        993,
+        997
+      ],
+      "sha256": "8e1709d56c4ef52b2479c394f7de08f0b3665f13a3cdf79c422d3de71d8e6712"
+    },
+    "owner_rule": {
+      "path": "living-novel/history/OWNER_LINEAGE.md",
+      "lines": [
+        22,
+        23,
+        25,
+        26,
+        27,
+        28,
+        31,
+        33
+      ],
+      "sha256": "788b4657b3e5d0553dc55f8248158e2e4400bc68c99aabdd649fb75d4830fb6b"
+    },
+    "canon_protocol": {
+      "path": "living-novel/os/NOVEL_OS_CANON_PROTOCOL_V1.md",
+      "lines": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        17,
+        19
+      ],
+      "sha256": "0bb08613abb9e5629658b763b10abfe03dfe907aee717bdedbaa23508234703f"
+    },
+    "hydration": {
+      "path": "living-novel/world/AUTHOR_ROOM_UNIVERSE_HYDRATION_STANDARD_V1.md",
+      "lines": [
+        6,
+        10,
+        11,
+        12,
+        14,
+        18,
+        23,
+        24
+      ],
+      "sha256": "a07b637871e7c60f042fa859ee99308a9b1622ebb62859b4f1534c18e59cf465"
+    },
+    "kevin_profile": {
+      "path": "living-novel/characters/02_KEVIN_ZEEK.md",
+      "lines": [
+        1,
+        7,
+        8,
+        9
+      ],
+      "sha256": "5eafd6ee2d3e72827887ddee19514a2918387f6ee3b51a8281c490992738a43e"
+    },
+    "jake_profile": {
+      "path": "living-novel/characters/01_JAKE_KALOPER.md",
+      "lines": [
+        1,
+        7,
+        8,
+        9
+      ],
+      "sha256": "273a76b623360d3173f4ce14bef512bb01e883705c82ca23452d226bb71ecf7e"
+    },
+    "interpretive_relations": {
+      "path": "living-novel/characters/RELATIONSHIP_GRAPH.md",
+      "lines": [
+        3,
+        4,
+        5,
+        12,
+        20,
+        22,
+        32,
+        53,
+        59
+      ],
+      "sha256": "75948a1045ff65c75aa606469e7bbd73e34848643c5c179a50fbc65ca1b5313c"
+    },
+    "relationship_gate": {
+      "path": "living-novel/qa/STEP_5_RELATIONSHIP_GRAPH_GATE.md",
+      "lines": [
+        10,
+        11,
+        12,
+        13,
+        24
+      ],
+      "sha256": "a34f1065f3398de7ba8115036b07a335315ecf642185ee56d0afc456ac334f63"
+    },
+    "current_temporal": {
+      "path": "living-novel/whole-book/CHARACTER_POV_TEMPORAL_STATE_MATRIX_V1.md",
+      "lines": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        12,
+        13,
+        15
+      ],
+      "sha256": "8c8111329567706c54176feaf750312cb5a06c01cd21145a848687910a0ad35f"
+    },
+    "current_openloop": {
+      "path": "living-novel/os/state/CURRENT_OPEN_LOOP_LEDGER_V1.json",
+      "lines": [
+        24,
+        25,
+        27,
+        32,
+        34
+      ],
+      "sha256": "97518fe60ce76f162d5c3ef0e8b19018c42bf89e1c9612f25dad5df25a0b563a"
+    },
+    "r53_holds": {
+      "path": "living-novel/production/historical-saga/R53/EDITORIAL_REDTEAM_V1.md",
+      "lines": [
+        3,
+        9,
+        14,
+        24,
+        25,
+        28
+      ],
+      "sha256": "37f8077f4708736e2aed82afa5cec69cb266ec4b510e0ec936c981366f872849"
+    },
+    "r53_era": {
+      "path": "living-novel/production/historical-saga/R53/EVIDENCE_AND_ERA_REGISTER_V1.md",
+      "lines": [
+        25,
+        26,
+        27,
+        29,
+        31,
+        36,
+        40
+      ],
+      "sha256": "2e7f1ca7ef9b3a54b98589bee38135b62ca9ac7547447bba869e441b3e91e09c"
+    },
+    "2024_pilot": {
+      "path": "living-novel/production/historical-saga/R53/HISTORICAL_2024_OBIWAN_NONCANON_PILOT.md",
+      "lines": [
+        2,
+        4,
+        8
+      ],
+      "sha256": "c505be6727695b09d93c0749d6f49e58e1619a686e8e5cb8ebf12aeedf3cb528"
+    },
+    "2024_source": {
+      "path": "living-novel/history/PLAYOFF_MATCHUP_EVIDENCE_2022_2025.json",
+      "lines": [
+        108,
+        122,
+        123,
+        125,
+        126,
+        127,
+        128,
+        133
+      ],
+      "sha256": "ed8fb45530be44dd143788f2f21e8dd57df0224628927f47031c3316d1b3fa6a"
+    },
+    "2025_source": {
+      "path": "living-novel/history/PLAYOFF_MATCHUP_EVIDENCE_2022_2025.json",
+      "lines": [
+        136,
+        139,
+        140,
+        141,
+        142,
+        150,
+        153,
+        154,
+        155,
+        156,
+        164,
+        167,
+        168,
+        169,
+        170
+      ],
+      "sha256": "ed8fb45530be44dd143788f2f21e8dd57df0224628927f47031c3316d1b3fa6a"
+    },
+    "2022_source": {
+      "path": "living-novel/history/PLAYOFF_MATCHUP_EVIDENCE_2022_2025.json",
+      "lines": [
+        10,
+        13,
+        14,
+        15,
+        16,
+        21
+      ],
+      "sha256": "ed8fb45530be44dd143788f2f21e8dd57df0224628927f47031c3316d1b3fa6a"
+    },
+    "venue_reference": {
+      "path": "world/data/locations.json",
+      "lines": [
+        367,
+        369,
+        370,
+        371,
+        378,
+        382,
+        383,
+        386,
+        392
+      ],
+      "sha256": "4dcfe5756ad0cc58b8ba9f3f9e1b0cab77de5b057af9d55afa382490a291e074"
+    }
+  },
+  "event_rulings": [
+    {
+      "id": "2022_RED_SEMIFINAL",
+      "season": 2022,
+      "event": "Red Leopards 13–1 season / semifinal defeat to El Niño 116.32–97.96",
+      "fictional_binding_status": "DISPUTED_INTERPRETIVE_ASSOCIATION_NOT_HARD_EVENT_LICENSE",
+      "provider_owner_status": "UNKNOWN",
+      "principal_candidates": [
+        "CHAR-KEVIN-ZEEK"
+      ],
+      "evidence": [
+        "kevin_profile",
+        "interpretive_relations",
+        "relationship_gate",
+        "current_temporal",
+        "2022_source"
+      ],
+      "counterevidence": [
+        "r53_holds",
+        "r53_era",
+        "owner_rule"
+      ],
+      "disposition": "Current 2026 Kevin burden and labeled existing pilot development are supported; no equally explicit hard-manuscript 2022 personal participation found. Do not promote or treat strict historical pre-prose identity as resolved. El Niño cannot become POV."
+    },
+    {
+      "id": "2023_TDS_AGGREGATE",
+      "season": 2023,
+      "event": "1–13 aggregate attached to Phillip’s place in Contest",
+      "fictional_binding_status": "SUPPORTED_PRESENT_BURDEN_NOT_EVENT_PARTICIPATION",
+      "provider_owner_status": "UNKNOWN",
+      "principal_candidates": [
+        "CHAR-PHILLIP-PITTS"
+      ],
+      "evidence": [
+        "prologue_tds",
+        "current_temporal"
+      ],
+      "counterevidence": [
+        "owner_rule"
+      ],
+      "disposition": "Hard prose deliberately says attached to his place; does not identify a specific 2023 opponent/scene or prove personal participation in every fixture. Preserve burden; no blanket historical scene license."
+    },
+    {
+      "id": "2024_FINAL_JAKE",
+      "season": 2024,
+      "event": "ObiWan Jacoby defeats The King 187.52–161.68",
+      "fictional_binding_status": "SUPPORTED_HARD_CANON_FICTIONAL_TEMPORAL_ASSOCIATION",
+      "provider_owner_status": "UNKNOWN",
+      "principal_candidates": [
+        "CHAR-JAKE-KALOPER"
+      ],
+      "evidence": [
+        "authority",
+        "chapter1_gate",
+        "chapter1_titles",
+        "prologue_final",
+        "jake_profile",
+        "current_temporal",
+        "2024_source"
+      ],
+      "counterevidence": [
+        "owner_rule",
+        "r53_holds",
+        "r53_era"
+      ],
+      "disposition": "Earliest unambiguous event-specific fictional license found. Noncanon post-final Jake scene can elaborate already-accepted fictional title association; do not label human-owner FACT or generalize to earlier seasons/whole 2024 schedule. Venue and action remain proposed."
+    },
+    {
+      "id": "2024_FINAL_AUSTIN",
+      "season": 2024,
+      "event": "The King loses final to ObiWan Jacoby",
+      "fictional_binding_status": "SUPPORTED_COMPOSITE_HARD_CANON_ASSOCIATION_WITH_EXPLICIT_R53_CONFLICT",
+      "provider_owner_status": "UNKNOWN",
+      "principal_candidates": [
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "evidence": [
+        "prologue_final",
+        "chapter1_titles",
+        "interpretive_relations"
+      ],
+      "counterevidence": [
+        "owner_rule",
+        "r53_era"
+      ],
+      "disposition": "Hard prologue calls The King/The Immortal the same great power; hard Chapter I places Jake/Austin against consecutive titles. This supports fictional continuity by composition, not raw personal ownership. Conservative first scene uses Jake POV and historical opponent label The King; do not require invented Austin biography/appearance to stage it."
+    },
+    {
+      "id": "2025_SEMI_JAKE_PITTS",
+      "season": 2025,
+      "event": "ObiWan Jacoby beats Three Dreaded Snake 174.38–153.20",
+      "fictional_binding_status": "SUPPORTED_HARD_CANON_FICTIONAL_TEMPORAL_ASSOCIATION",
+      "provider_owner_status": "UNKNOWN",
+      "principal_candidates": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-PHILLIP-PITTS"
+      ],
+      "evidence": [
+        "chapter1_2025",
+        "authority",
+        "chapter1_gate",
+        "2025_source",
+        "current_temporal"
+      ],
+      "counterevidence": [
+        "owner_rule"
+      ],
+      "disposition": "Explicit last-year Jake/Pitts semifinal dialogue corroborates fictional event identity independently of slot inference. Draft within that event only; current TDS prose supersession still applies, no stale anatomy restored."
+    },
+    {
+      "id": "2025_SEMI_AUSTIN_DUCKHOOK",
+      "season": 2025,
+      "event": "The Immortal beats Dr. Duckhook 152.20–151.80",
+      "fictional_binding_status": "SUPPORTED_HARD_CANON_FICTIONAL_TEMPORAL_ASSOCIATION",
+      "provider_owner_status": "UNKNOWN",
+      "principal_candidates": [
+        "CHAR-AUSTIN-BYARS",
+        "CHAR-ZACH-WILSON"
+      ],
+      "evidence": [
+        "chapter1_2025",
+        "authority",
+        "chapter1_gate",
+        "2025_source",
+        "current_temporal"
+      ],
+      "counterevidence": [
+        "owner_rule"
+      ],
+      "disposition": "Austin directly recounts survival against Duckhook by less than half a point, matching 0.40 source margin. Does not establish older slot12 lineage or full2025 appearances."
+    },
+    {
+      "id": "2025_FINAL_AUSTIN_JAKE",
+      "season": 2025,
+      "event": "The Immortal beats ObiWan Jacoby 161.07–109.56",
+      "fictional_binding_status": "SUPPORTED_HARD_CANON_FICTIONAL_TEMPORAL_ASSOCIATION",
+      "provider_owner_status": "UNKNOWN",
+      "principal_candidates": [
+        "CHAR-AUSTIN-BYARS",
+        "CHAR-JAKE-KALOPER"
+      ],
+      "evidence": [
+        "chapter1_2025",
+        "prologue_final",
+        "chapter1_titles",
+        "authority",
+        "chapter1_gate",
+        "2025_source"
+      ],
+      "counterevidence": [
+        "owner_rule",
+        "r53_era"
+      ],
+      "disposition": "Austin explicitly says he beat Jake in final; Jake confirms memory. Supports bounded fictional final/aftermath without upgrading actual historical owner fields."
+    },
+    {
+      "id": "ALL_OTHER_2022_2025",
+      "season_range": [
+        2022,
+        2025
+      ],
+      "event": "Other fixtures, earlier rounds and full-year biographies",
+      "fictional_binding_status": "UNRESOLVED_PER_EVENT",
+      "provider_owner_status": "UNKNOWN",
+      "principal_candidates": [],
+      "evidence": [
+        "owner_rule"
+      ],
+      "counterevidence": [],
+      "disposition": "No blanket permission from these narrow associations; audit exact event and source separately."
+    }
+  ],
+  "earliest_scene": {
+    "season": 2024,
+    "event": "championship aftermath",
+    "pov": "CHAR-JAKE-KALOPER",
+    "status": "SUPPORTED_FOR_BOUNDED_NONCANON_DRAFT_AFTER_SCENE_PACKET",
+    "source_result": "187.52–161.68 versus The King",
+    "venue_reference": "LOC-LEAGUE-CHAMBER",
+    "historical_venue_status": "PROPOSED_ONLY_NOT_VERIFIED_2024_GEOGRAPHY_OR_MATCH_SITE",
+    "world_basis": [
+      "venue_reference",
+      "r53_era",
+      "2024_pilot"
+    ],
+    "safe_scope": "Reuse existing chamber/records/attendant seeds as explicitly proposed institutional aftermath; no actual match venue claim, no historical journey or exact map coordinate claim, no new institutional law. Avoid visible Belt redesign and unlicensed physical appearance. Scene time after final, before any2025 result. Fictional choice, supporting people and resulting obligations remain proposed.",
+    "remaining_gate": "Author must hydrate and validate bounded scene packet, actual result source and current principal ontology; separate literary/technical review. Canon promotion and factual owner-history promotion remain unapproved."
+  },
+  "correction_to_earlier_audit": "Missing Flaim owners does not erase accepted fictional temporal facts. Earlier blanket held-language is overbroad for these named hard-canon2024/2025 events; real historical owner FACT remains unresolved."
+}

@@ -1,0 +1,110 @@
+{
+  "schema": "commonwealth-historical-saga-production-checkpoint-v1",
+  "status": "NONCANON_INDEPENDENT_EDITORIAL_HOLD",
+  "timestamp_utc": "2026-10-31T07:42:31.229814+00:00",
+  "mission": "BULLPEN PERMANENT EXECUTIVE MANDATE — COMMONWEALTH NOVEL AUTONOMOUS END-TO-END PRODUCTION",
+  "repository": "jakekaloper-hub/schemin-26",
+  "organizational_authority": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr_number": 243,
+  "resumed_from_head": "a34b35b3197717682496c2750ff96b664a92544f",
+  "resumed_from_checkpoint": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261031-2016-CAUSAL-CH34-THIRTY-FOUR-CHAPTER-READER.json",
+  "authorities": {
+    "main_source_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "novel_directive": "living-novel/MASTER_DIRECTIVE.md",
+    "artifact_registry": "living-novel/os/registries/artifact_authority_registry_v1.json",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "pov": "canon/characters/TWELVE_CHARACTER_NARRATIVE_POV_REGISTER_V1.md",
+    "bullpen": "docs/COMMAND_SYSTEM_V2.md; runtime/commandRegistry.js; runtime/lifecycleEngine.js",
+    "history_source": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+    "history_blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "protected_main": [
+      "living-novel/manuscript/PROLOGUE_DRAFT_V1.md",
+      "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md",
+      "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md",
+      "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md"
+    ]
+  },
+  "issues_reconciled": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "prs_reconciled": {
+    "188": "CLOSED_MERGED_OBSERVED",
+    "243": "OPEN_DRAFT_OBSERVED_AT_START",
+    "252": "OPEN_DRAFT_OBSERVED",
+    "261": "OPEN_DRAFT_OBSERVED"
+  },
+  "literary_output": {
+    "chapter": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_COAT_THAT_DID_NOT_BELONG_CHAPTER_35_NONCANON.md",
+      "git_blob": "bb4e2904bead10f403d4eda279cd9eeaf983032e",
+      "whitespace_words_including_notes": 7045,
+      "movements": 5,
+      "title": "The Coat That Did Not Belong",
+      "period": 2016,
+      "canonical_status": "NONCANON"
+    },
+    "reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_35_NONCANON.md",
+      "git_blob": "75deb978aa788747bf6beaf32e8a2fd6ea530c05",
+      "source_components": 35,
+      "whitespace_words_including_notes": 197665
+    },
+    "previous_reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_34_NONCANON.md",
+      "git_blob": "0822c85b9cf936fe319701b16c74726e6a1a0441"
+    },
+    "qa": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_35_SOURCE_EDITORIAL_QA_RECEIPT.md",
+    "tests": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_thirty_five_reader.py"
+  },
+  "local_verification": {
+    "device": "Jakes-MacBook-Pro.local",
+    "isolated_worktree": "/tmp/commonwealth-novel-ch35-20261031",
+    "observed_command": "python3 -m unittest discover -s living-novel/historical-chronicle/qa -p 'test_2016_causal_chapter*reader.py'",
+    "new_chapter_tests_passed": 15,
+    "matching_2016_causal_reader_tests_passed": 437,
+    "failures": 0,
+    "source_exact_components": 35,
+    "previous_reader_unchanged": true,
+    "protected_2026_main_prologue_chapters_I_III_unchanged": true,
+    "retained_2016_archive_unchanged": true,
+    "scope": "local matching reader tests only; not claiming broad CI/workflow green"
+  },
+  "remote_verification": {
+    "commit_sha": "PENDING_PUSH",
+    "github_workflows": "PENDING_EXACT_HEAD_READBACK",
+    "historical_owner_auth": "NOT_ACCEPTED",
+    "period_character_atlas": "NOT_ACCEPTED",
+    "independent_authors_review": "NOT_ACCEPTED",
+    "umpire": "NOT_ACCEPTED",
+    "founder_canon_publication": "NOT_AUTHORIZED",
+    "merged": false,
+    "published": false
+  },
+  "causal_state": {
+    "entering": "Pell absent, his carrier wagon at the high orchard hollow, Mare receiving carrier-funded treatment, Ina/Eren independent work complete; Lysa/Corin unmarried, arch removed; Jake no new wages, shelter debt and unconfirmed letter delivery outstanding.",
+    "turn": "Pell returns injured wearing a borrowed coat and self-reports fleeing a failing cart. Jake accompanies him, loses the opportunity to present for possible outside work; Ina insists on care and a truthful but non-exonerating account; Orrel leaves without obtaining a liability signature.",
+    "exit": "Pell is home with an injured ankle; borrowed coat remains a loan, blue coat remains unfinished; missing driver Mael, other horse and freight remain unknown and the stranded wagon uncollected. No new wages, no kiln reopening or debt repayment, no confirmed letter delivery or period canon approval.",
+    "open_loops": [
+      "2016 Jake / CHAR-JAKE-KALOPER scoring-slot binding UNAUTHENTICATED",
+      "Missing driver's identity and fate UNVERIFIED; Mael is Pell's unsupported reported name only",
+      "Other horse and missing freight unknown; abandoned wagon unrecovered",
+      "Mare eventual recovery unknown",
+      "Mev-to-Esi delivery unknown",
+      "Shelter debts unpaid, Senn/Mara/Sola and Esi arcs unresolved",
+      "Vessa's unsafe kiln passage remains shut",
+      "Lysa/Corin relationship and shared-shed conflict unresolved",
+      "Independent Authors, Atlas/Character, historical Librarian, Umpire and Founder approval absent"
+    ]
+  },
+  "next_actions": [
+    "Verify actual remote PR #243 head and exact GitHub CI/Netlify checks after write; record precise results separately.",
+    "Request authenticated independent Authors Council, Character Canon, Atlas, Librarian, Umpire review of Chapter XXXV; no self-review as approval.",
+    "Prioritize source-grounded ensemble POV expansion or Chapter XXXVI with distinct nonrepeating dramatic conflict; do not paper over long single-viewpoint imbalance.",
+    "Preserve hard 2026 Prologue/Chapters I–III, retained history, previous 34-reader and NONCANON status."
+  ]
+}

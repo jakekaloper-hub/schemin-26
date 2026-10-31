@@ -1,0 +1,111 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261029-2023-CHRONICLE-W14",
+  "project": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "stage": "2023_84_OF_84_HISTORICAL_CHRONICLE_DRAFT_ASSEMBLED_NO_POSTSEASON",
+  "input": {
+    "previous_w13_head": "0bce665e3cfa22753ea1389f848e8924b59b99f5",
+    "archive_blob_sha": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
+    "w13_story_sha": "819d069735c2f1f72effcd92bc8049fe87fde3df"
+  },
+  "literary": {
+    "title": "The Letters That Would Not Cross",
+    "path": "living-novel/historical-chronicle/seasons/2023/weeks/W14.md",
+    "blob_sha": "99e6f01ab9ef9eceb281cd65bbb4db8829ad6401",
+    "words_including_metadata": 5069,
+    "scenes": 6,
+    "owner_pov": [
+      "CHAR-JAKE-KALOPER"
+    ],
+    "status": "NONCANON_HISTORICAL_ATLAS_HOLD",
+    "assembled_reading_copy": "living-novel/historical-chronicle/seasons/2023/READING_COPY_REGULAR_SEASON_NONCANON.md",
+    "full_regular_season_manuscripts": 15,
+    "full_regular_season_source_words_including_metadata": 73157,
+    "assembled_bytes": 430180
+  },
+  "coverage": {
+    "regular_season_weeks_drafted": 14,
+    "fixture_prose_entries": 84,
+    "regular_season_fixtures": 84,
+    "remaining_regular_season": 0,
+    "postseason": "UNVERIFIED_NOT_DRAFTED"
+  },
+  "technical": {
+    "regression": "living-novel/historical-chronicle/qa/test_2023_fourteenth_week.py",
+    "cases": 15,
+    "final_head_CI": "SUCCESS_AT_OBSERVED_TESTED_COMMIT_eff44147_METADATA_UPDATE_FOLLOWS",
+    "previous_W13_exact_head": "0bce665e3cfa22753ea1389f848e8924b59b99f5",
+    "previous_W13_observed_ci": {
+      "Novel_OS_CI": 40912918285,
+      "Cross_Domain_Authority": 40912918576,
+      "Bullpen_Runtime": 40912918530,
+      "Repository_Merge_Gate": 40912918494
+    },
+    "previous_observed_ci": {
+      "tested_head": "838c1f70d1b0c7423d5277bd55474a2489946477",
+      "novel_os_ci": {
+        "id": 40914144531,
+        "conclusion": "success",
+        "week13": "success",
+        "week14": "success"
+      },
+      "cross_domain": {
+        "id": 40914144829,
+        "conclusion": "success"
+      },
+      "bullpen_runtime": {
+        "id": 40914144810,
+        "conclusion": "success"
+      },
+      "repository_merge_gate": {
+        "id": 40914145382,
+        "conclusion": "success"
+      }
+    },
+    "reading_copy_regression": "living-novel/historical-chronicle/qa/test_2023_reading_copy.py",
+    "reading_copy_cases": 8,
+    "assembly_ci": {
+      "tested_head": "eff441478c3cada7b62f725da87e17e5ef098d00",
+      "conclusions": {
+        "novel_os_ci": {
+          "id": 40914583499,
+          "result": "success",
+          "named_w13_step": "success",
+          "named_w14_step": "success",
+          "named_assembled_copy_step": "success"
+        },
+        "cross_domain_authority": {
+          "id": 40914583474,
+          "result": "success"
+        },
+        "bullpen_runtime": {
+          "id": 40914583450,
+          "result": "success"
+        },
+        "repository_merge_gate": {
+          "id": 40914583453,
+          "result": "success"
+        }
+      },
+      "note": "GitHub Actions successful at exact tested commit eff44147, including eight-case reading-copy concordance and both Week 13/14 suites. Editorial, owner, Atlas, Umpire, Founder acceptance unobserved. Subsequent metadata-only commit will need separate CI check."
+    },
+    "assembly_source_blob": "26fbf5460f7f365fe79d197ec29c266d01444ec8",
+    "assembly_sha_and_content_checks": "15_OF_15_VERIFIED_BOTH_IN_CONNECTOR_READBACK"
+  },
+  "gates": {
+    "owner_binding": "UNVERIFIED",
+    "Atlas": "UNAPPROVED",
+    "independent_editor": "NOT_OBSERVED",
+    "independent_umpire": "NOT_OBTAINED",
+    "Founder": "NOT_APPROVED",
+    "merge": "HOLD",
+    "publication": "HOLD"
+  },
+  "next": [
+    "Read latest metadata-only PR head; verify GitHub Novel OS CI, Cross-Domain Authority, Bullpen Runtime and Repository Merge Gate all succeed. Source-code/assembly already all succeeded at eff44147; source byte integrity 15/15 manually read back.",
+    "Retain draft-only status: no independent historical-owner verification, Atlas, Authors Council, Umpire or Founder signoff.",
+    "Do not invent 2023 postseason. Search authoritative postseason archive; if none, record source gap and draft only a source-safe season epilogue.",
+    "Advance from full regular-season Chronicle reading copy into causal multi-POV novel architecture only with verified active twelve-owner temporal identities and grounded world geography."
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH16-SIXTEEN-CHAPTER-READER",
+  "version": "1.0",
+  "date": "2026-10-30",
+  "workflow": "Founder-authorized Commonwealth Novel autonomous end-to-end production",
+  "status": "NONCANON_DRAFT_EDITORIAL_HOLD",
+  "repository": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "resume_from": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH15-FIFTEEN-CHAPTER-READER",
+  "authority": {
+    "source_matrix": {
+      "path": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+      "blob": "67fcd669dc7b43393f2d15e93545301961dd81e4"
+    },
+    "historical_archive": {
+      "path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+      "human_owner_binding": "NOT_AUTHENTICATED"
+    },
+    "pov": "EXCLUSIVE_TWELVE_CANONICAL_OWNER_CHARACTERS",
+    "candidate_pov": "CHAR-JAKE-KALOPER / PRINCIPAL_CHARACTER only",
+    "main_readback": "1c77ae21ef34bf325b93fe0964d4b7ccd6e9e32d",
+    "bullpen_main_readback": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "bullpen_control": [
+      "docs/COMMAND_SYSTEM_V2.md",
+      "runtime/lifecycleEngine.js"
+    ]
+  },
+  "tracked_work": {
+    "issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "prs": {
+      "188": "MERGED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT_HOLD",
+      "261": "OPEN_DRAFT_HOLD",
+      "264": "OTHER OPEN 2026 CHAPTER I NONCANON"
+    }
+  },
+  "input_blobs": {
+    "chapter_15": "5bac0a5028acf452790c61ec41391660e86abb9e",
+    "reader_15": "15edfc5fb050e00cca7b68c41061e538aa01aca7",
+    "historical_2016": "6dbec1fe2537139f3a97c6a78250e2bae082a518"
+  },
+  "outputs": [
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_WORK_THAT_CROSSED_BACK_CHAPTER_16_NONCANON.md",
+      "git_blob": "134372fe502087a049f22871e0c9ac187d690059",
+      "words_whitespace_including_editorial": 5905,
+      "first_commit": "9806cf78d364a51bb60fe7bcbd33c08a7396e82e",
+      "corrected_commit": "a593eff4a1bd733fba86f3a9436b9f2641df5d5f"
+    },
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_16_NONCANON.md",
+      "git_blob": "2c5fb947d738474b4759f99c3ef7be024fb5bf13",
+      "words_whitespace_including_manifest": 80590,
+      "component_count": 16,
+      "previous_15_preserved": true,
+      "first_commit": "79d06d122c54b405a034824c171395de17629e13",
+      "corrected_commit": "bf8a63dfe4b3906d855ab3b14c460861503028ab"
+    },
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_16_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "commit": "7b3a3238bb14cd10406079b45706474c808ab4cb",
+      "review": "WRITER_SELF_CHALLENGE_ONLY"
+    }
+  ],
+  "verification": {
+    "source_exact": {
+      "status": "PASS",
+      "initial_16_component_fetch_and_compare": "16/16 exact",
+      "final_previous_15_against_reader_15": "15/15 unchanged",
+      "final_chapter_16_against_reader_16": "exact",
+      "final_reader_component_count": 16
+    },
+    "protected_hard_2026": {
+      "status": "PASS",
+      "main_branch_sha_matches": {
+        "PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+        "CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+        "CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+        "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+      }
+    },
+    "archive": "PASS: source blob unchanged",
+    "python_chapter_15": "NOT_RUN_OR_UNVERIFIED (13 methods; not wired into Novel OS CI)",
+    "python_chapter_16": "NOT_RUN (source-exact tool assertions performed instead)",
+    "ci_status_at_reader_sync_commit": {
+      "sha": "bf8a63dfe4b3906d855ab3b14c460861503028ab",
+      "novel_os": "IN_PROGRESS_AT_READBACK",
+      "cross_domain": "SUCCESS",
+      "bullpen_runtime": "SUCCESS",
+      "merge_gate": "SUCCESS"
+    },
+    "exact_final_checkpoint_head_ci": "PENDING_CHECK",
+    "independent_review": "REQUESTED_NOT_ACCEPTED",
+    "umpire": "NOT_OBSERVED",
+    "merge": false,
+    "canon_promoted": false,
+    "published": false
+  },
+  "review_request": {
+    "pr_comment_id": 6523146601,
+    "url": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6523146601"
+  },
+  "narrative_state": {
+    "time": "Immediately following Chapter XV and retained 2016 W13 notice, no postseason character foreknowledge",
+    "sole_interior": "fictional Jake",
+    "new_events": "Near-bank damage to one lamp case identified; Iven independently identifies manufacturing defect in one lamp; three cases reportedly accepted across water; inventory and buyer settlement unresolved. Jake sends note to Mara, paid delivery attempt unconfirmed, accepts two-day upriver paid work and departs aboard Deren's cargo vessel. Fictional only.",
+    "setting": "proposed river cut and upriver stone works; Atlas HOLD",
+    "prior_open_loops": "UNRESOLVED except specific lamp investigation advanced",
+    "new_open_loops": {
+      "Mara_note_delivery": "UNCONFIRMED",
+      "Deren_two_day_work": "IN_PROGRESS",
+      "lamp_buyer": "UNRESOLVED",
+      "seed_acceptance": "NOT_ACCEPTED",
+      "Jake_debt": "UNPAID"
+    }
+  },
+  "blocks": [
+    "Historical human owner/team binding",
+    "Period Atlas and Character Canon clearance",
+    "Independent Authors Council/Librarian/Umpire review",
+    "Unexecuted new Python test(s) from preceding run; CI enrollment held",
+    "Founder-only canon or publication approval"
+  ],
+  "invalidation_triggers": [
+    "2016 archive or human owner identity changes",
+    "Source/authority or twelve-owner POV law changes",
+    "Chapter XV or fifteen-chapter reader changes",
+    "Period Atlas or Character Canon negates fictional locale",
+    "Missing or changed Chapter XVI/reading-copy source blob",
+    "Protected 2026 hard-canon drift"
+  ],
+  "next": [
+    "Read current main/PR head, this checkpoint and latest comments; do not restart.",
+    "Check exact checkpoint-head CI, explicitly distinguish unrelated green CI from unrun Python tests.",
+    "Run Chapter XV Python regressions through authorized execution route when possible; do not bypass workflow safety controls.",
+    "Continue noncanonical substantive Chapter XVII only if new chapter has a distinct dramatic question and the 16th chapter's departure consequences are preserved.",
+    "Request genuine editorial/Atlas/Character/Umpire judgment; do not infer acceptance from a comment.",
+    "Never merge, promote or publish without corresponding gates and Founder approval."
+  ]
+}

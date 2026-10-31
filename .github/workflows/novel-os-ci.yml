@@ -6,6 +6,8 @@ on:
       - "living-novel/migrations/**"
       - "living-novel/whole-book/**"
       - "living-novel/consultants/**"
+      - "living-novel/production/historical-saga/approved-mission-2015-2026/**"
+      - "living-novel/historical-chronicle/**"
       - "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
       - "chronicles/proof-of-concept/prologue/**"
       - ".github/workflows/novel-os-ci.yml"
@@ -15,6 +17,8 @@ on:
       - "living-novel/migrations/**"
       - "living-novel/whole-book/**"
       - "living-novel/consultants/**"
+      - "living-novel/production/historical-saga/approved-mission-2015-2026/**"
+      - "living-novel/historical-chronicle/**"
       - "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
       - "chronicles/proof-of-concept/prologue/**"
       - ".github/workflows/novel-os-ci.yml"
@@ -56,3 +60,131 @@ jobs:
         run: python -m unittest discover -s living-novel/migrations -p "test_*.py" -v
       - name: Validate whole-book convergence
         run: python living-novel/os/evaluations/test_whole_book_convergence.py
+      - name: Validate 2025 historical Pitts eight-scene candidate (noncanon)
+        run: python -m unittest discover -s living-novel/production/historical-saga/approved-mission-2015-2026/review -p "test_2025_reckoning_v2.py" -v
+      - name: Validate 2025 historical Duckhook nine-scene collection V3 (noncanon)
+        run: python -m unittest discover -s living-novel/production/historical-saga/approved-mission-2015-2026/review -p "test_2025_reckoning_v3.py" -v
+      - name: Validate 2024 historical title five-scene causal candidate V2 (noncanon)
+        run: python -m unittest discover -s living-novel/production/historical-saga/approved-mission-2015-2026/review -p "test_2024_title_v2.py" -v
+      - name: Validate 2024 historical title six-scene causal candidate V3 (noncanon)
+        run: python -m unittest discover -s living-novel/production/historical-saga/approved-mission-2015-2026/review -p "test_2024_title_v3.py" -v
+      - name: Validate 2018 single-POV causal reading V2 (noncanon)
+        run: python -m unittest discover -s living-novel/production/historical-saga/approved-mission-2015-2026/review -p "test_2018_causal_v2.py" -v
+      - name: Validate 2019 league-name transition four-movement causal reader (noncanon)
+        run: python -m unittest discover -s living-novel/production/historical-saga/approved-mission-2015-2026/review -p "test_2019_name_transition_v1.py" -v
+      - name: Validate 2020 third-place causal reading V1 (noncanon)
+        run: python -m unittest discover -s living-novel/production/historical-saga/approved-mission-2015-2026/review -p "test_2020_third_mark_v1.py" -v
+      - name: Validate 2021 lamp-network four-movement causal reading (noncanon)
+        run: python -m unittest discover -s living-novel/production/historical-saga/approved-mission-2015-2026/review -p "test_2021_lamps_v1.py" -v
+      - name: Validate 2022 turning-frame four-movement source-scored reader (noncanon)
+        run: python -m unittest discover -s living-novel/production/historical-saga/approved-mission-2015-2026/review -p "test_2022_turning_frame_v1.py" -v
+      - name: Validate 2023 Fourth Address four-movement source-scored reader (noncanon)
+        run: python -m unittest discover -s living-novel/production/historical-saga/approved-mission-2015-2026/review -p "test_2023_fourth_address_v1.py" -v
+      - name: Validate 2016 second six-match Chronicle installment (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_second_week.py" -v
+      - name: Validate 2016 third six-match Chronicle installment (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_third_week.py" -v
+      - name: Validate 2016 fourth six-match Chronicle installment (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_fourth_week.py" -v
+      - name: Validate 2016 partial source-exact reading copy (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_partial_reader.py" -v
+      - name: Validate 2016 fifth six-match Chronicle installment (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_fifth_week.py" -v
+      - name: Validate 2016 six-part source-exact partial reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_partial_reader_w05.py" -v
+      - name: Validate 2016 sixth six-match Chronicle installment (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_sixth_week.py" -v
+      - name: Validate 2016 seven-part source-exact partial reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_partial_reader_w06.py" -v
+      - name: Validate 2016 seventh six-match Chronicle installment (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_seventh_week.py" -v
+      - name: Validate 2016 eight-part source-exact partial reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_partial_reader_w07.py" -v
+      - name: Validate 2016 eighth six-match Chronicle installment (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_eighth_week.py" -v
+      - name: Validate 2016 nine-part source-exact partial reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_partial_reader_w08.py" -v
+      - name: Validate 2016 ninth six-match Chronicle installment (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_ninth_week.py" -v
+      - name: Validate 2016 ten-part source-exact partial reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_partial_reader_w09.py" -v
+      - name: Validate 2016 tenth six-match Chronicle installment (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_tenth_week.py" -v
+      - name: Validate 2016 eleven-part source-exact partial reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_partial_reader_w10.py" -v
+      - name: Validate 2016 eleventh six-match Chronicle installment (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_eleventh_week.py" -v
+      - name: Validate 2016 twelve-part source-exact partial reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_partial_reader_w11.py" -v
+      - name: Validate 2016 twelfth six-match Chronicle installment (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_twelfth_week.py" -v
+      - name: Validate 2016 thirteen-part source-exact partial reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_partial_reader_w12.py" -v
+      - name: Validate 2016 thirteenth Chronicle installment
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_thirteenth_week.py" -v
+      - name: Validate 2016 complete regular-season reader
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_regular_season_reader.py" -v
+      - name: Validate full 2016 source-pinned postseason and sixteen-component Chronicle reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_postseason_full_season.py" -v
+      - name: Validate 2016 causality-first historical Chapter One source and POV (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_one.py" -v
+      - name: Validate 2016 causal Chapter Two and exact two-chapter reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapters_reader.py" -v
+      - name: Validate 2016 causal Chapter Three and exact three-chapter reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_three_reader.py" -v
+      - name: Validate 2016 causal Chapter Four and exact four-chapter reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_four_reader.py" -v
+      - name: Validate 2016 causal Chapter Five and exact five-chapter reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_five_reader.py" -v
+      - name: Validate 2016 causal Chapter Six and exact six-chapter reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_six_reader.py" -v
+      - name: Validate 2016 causal Chapter Seven and exact seven-chapter reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_seven_reader.py" -v
+      - name: Validate 2016 causal Chapter Eight and exact eight-chapter reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_eight_reader.py" -v
+      - name: Validate 2016 causal Chapter Nine and exact nine-chapter reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_nine_reader.py" -v
+      - name: Validate 2016 causal Chapter Ten and exact ten-chapter reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_ten_reader.py" -v
+      - name: Validate 2016 causal Chapter Eleven and exact eleven-chapter reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_eleven_reader.py" -v
+      - name: Validate 2016 causal Chapter Twelve and exact twelve-chapter reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_twelve_reader.py" -v
+      - name: Validate 2016 causal Chapter Thirteen and exact thirteen-chapter reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_thirteen_reader.py" -v
+      - name: Validate 2016 causal Chapter Fourteen and exact fourteen-chapter reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_fourteen_reader.py" -v
+      - name: Validate full 2016 causal manuscript reader chain (noncanon, source-exact)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter*reader.py" -q
+      - name: Validate 2023 six-match opening Chronicle candidate (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_opening_week.py" -v
+      - name: Validate 2023 second six-match Chronicle installment (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_second_week.py" -v
+      - name: Validate 2023 third six-match Chronicle installment (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_third_week.py" -v
+      - name: Validate 2023 fourth six-match Chronicle installment (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_fourth_week.py" -v
+      - name: Validate 2023 fifth six-match Chronicle installment (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_fifth_week.py" -v
+      - name: Validate 2023 sixth six-match Chronicle installment (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_sixth_week.py" -v
+      - name: Validate 2023 seventh six-match Chronicle installment (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_seventh_week.py" -v
+      - name: Validate 2023 eighth six-match Chronicle installment (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_eighth_week.py" -v
+      - name: Validate 2023 ninth six-match Chronicle installment (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_ninth_week.py" -v
+      - name: Validate 2023 tenth six-match Chronicle installment (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_tenth_week.py" -v
+      - name: Validate 2023 eleventh six-match Chronicle installment (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_eleventh_week.py" -v
+      - name: Validate 2023 twelfth six-match Chronicle installment (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_twelfth_week.py" -v
+      - name: Validate 2023 thirteenth six-match Chronicle installment (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_thirteenth_week.py" -v
+      - name: Validate 2023 fourteenth six-match Chronicle installment (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_fourteenth_week.py" -v
+      - name: Validate compiled 2023 historical reading copy source-byte concordance (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_reading_copy.py" -v
+      - name: Validate 2023 source-pinned postseason and full-season Chronicle reading copy (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_postseason_full_season.py" -v

@@ -1,0 +1,122 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261029-2016-CAUSAL-CHAPTERS-01-02",
+  "date_local": "2026-10-29",
+  "status": "TWO_NONCANON_CAUSAL_CHAPTERS_WRITTEN_AND_SOURCE_ASSEMBLED_IN_DRAFT_PR_243; INDEPENDENT_EDITORIAL_HOLD",
+  "repos": {
+    "schemin": "jakekaloper-hub/schemin-26",
+    "bullpen": "jakekaloper-hub/bullpen"
+  },
+  "refs": {
+    "schemin_main_read": "1c77ae21ef34bf325b93fe0964d4b7ccd6e9e32d",
+    "bullpen_main_read": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "branch": "novel/historical-epic-2015-2026",
+    "pr": 243,
+    "continuation_baseline": "5548d26787fdf28754a0e0c0a1f461f580eecc26",
+    "tested_code_candidate": "9ea530907bd74b25a6729944eb419de5c7ef57bc",
+    "previous_checkpoint": "HISTORICAL-SAGA-20261029-2016-CHRONICLE-FULL-SEASON-POSTSEASON"
+  },
+  "controls": {
+    "source_authority": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "novel_architecture": "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md",
+    "bullpen_command": "jakekaloper-hub/bullpen/docs/COMMAND_SYSTEM_V2.md",
+    "bullpen_lifecycle": "jakekaloper-hub/bullpen/runtime/lifecycleEngine.js",
+    "schemin_execution": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "bullpen_execution": "jakekaloper-hub/bullpen/knowledge/EXECUTION_CONTROL_REGISTRY_V1.json",
+    "source_facts": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+    "source_git_blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "source_origin": "retained Flaim ESPN league 1417621; not fresh upstream real-owner authentication",
+    "historical_owner_binding": "NOT_PROVIDER_AUTHENTICATED",
+    "period_correct_atlas": "HOLD"
+  },
+  "literary_output": {
+    "chapter_one": {
+      "title": "The Debt Before the Door",
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_DEBT_BEFORE_THE_DOOR_CHAPTER_01_NONCANON.md",
+      "words_with_notes": 4166,
+      "git_blob": "d93505009d7dda7acc010ce1a6e5ec2bacf65ec2",
+      "selected_archive_weeks": [
+        2,
+        3,
+        4
+      ]
+    },
+    "chapter_two": {
+      "title": "The Names Beyond the Wall",
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_NAMES_BEYOND_THE_WALL_CHAPTER_02_NONCANON.md",
+      "words_with_notes": 4108,
+      "git_blob": "756126cb4e151a0bd78ece39ab59a4c54ef2aa43",
+      "selected_archive_weeks": [
+        5,
+        6,
+        7
+      ]
+    },
+    "new_source_manuscript_words": 8274,
+    "reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_02_NONCANON.md",
+      "whitespace_words_including_assembly": 8460,
+      "source_exact_compilation": true,
+      "chapters": 2
+    },
+    "existing_2016_complete_chronicle_preserved": "living-novel/historical-chronicle/seasons/2016/READING_COPY_FULL_SEASON_NONCANON.md",
+    "qa_receipts": [
+      "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_01_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_02_SOURCE_EDITORIAL_QA_RECEIPT.md"
+    ],
+    "historical_source_drift": {
+      "older_noncanon_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+      "observed_error": "older draft claims second and third 2016 slot-one results losses",
+      "verified_source": "2016 slot-one first three weeks are wins; Week 4 is loss",
+      "disposition": "FLAGGED_FOR_SOURCE_RECONCILIATION; DO_NOT_USE_AS_EVIDENCE; older file not overwritten"
+    }
+  },
+  "verification": {
+    "ten_case_first_chapter_regression": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_one.py",
+    "nine_case_second_chapter_reader_regression": "living-novel/historical-chronicle/qa/test_2016_causal_chapters_reader.py",
+    "new_test_methods": 19,
+    "ci_workflow": ".github/workflows/novel-os-ci.yml",
+    "chapter_one_ci_tested_sha": "8c5c5f2b795971088433c6a993ee6a59fc022a66",
+    "chapter_one_workflows": [
+      {
+        "name": "Novel OS CI",
+        "id": 40986925569,
+        "conclusion": "success"
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "id": 40986925555,
+        "conclusion": "success"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "id": 40986925550,
+        "conclusion": "success"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "id": 40986925611,
+        "conclusion": "success"
+      }
+    ],
+    "chapter_two_tested_sha": "9ea530907bd74b25a6729944eb419de5c7ef57bc",
+    "chapter_two_ci": "IN_PROGRESS_ON_LAST_READ; recheck exact SHA; do not assume green",
+    "checkpoint_final_head_ci": "RECHECK_AFTER_THIS_COMMIT",
+    "independent_pr_reviews_received": 0,
+    "protected_2026_hard_canon_sha": {
+      "PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+    }
+  },
+  "continuation": {
+    "next_literary": "2016 causal Chapter Three in outside-world direction; singer, worker employment, cloth return; source-join W8/W9 only for meaningful cause, not calendar",
+    "other_unblocked": "reconcile old contradictory 2016 pilot to primary G01; preserve archived old text while building corrected replacement or errata",
+    "assembled_reader": "extend exact-source partial causal novel from two chapters, do not mix with already complete weekly Chronicle as if novel finished",
+    "review": "request actual independent Authors Council, Character, Atlas and Umpire review, not self-approval; Founder-only canon/publishing gates remain closed",
+    "no_merge": true,
+    "no_canon_promotion": true,
+    "no_publishing": true,
+    "no_spend_or_external_outreach": true
+  }
+}

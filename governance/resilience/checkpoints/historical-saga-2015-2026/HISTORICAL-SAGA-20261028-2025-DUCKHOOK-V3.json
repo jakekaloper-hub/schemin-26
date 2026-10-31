@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "checkpoint_id": "HISTORICAL-SAGA-20261028-2025-DUCKHOOK-V3",
+  "date_utc": "2026-10-28",
+  "project": "Schemin '26",
+  "task_title": "Commonwealth Novel Autonomous End-to-End Production",
+  "repo": "jakekaloper-hub/schemin-26",
+  "counterpart_repo": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "status": "PARTIAL_COMPLETION_CONTINUE",
+  "branch_head_before_checkpoint": "1ec3d225e60c13c5adb41409407a5415b2f3bd36",
+  "decision": "Resume PR #243 high-priority eligible historical writing lane, while registered Novel POV migration is independently blocked and NOVEL-NEXT task state cannot be autocompleted.",
+  "source_authority": {
+    "matrix_main_sha": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+    "task_registry_main_sha": "5e72e48f3c305e6def1051e0b18883a7be6b6af0",
+    "historical_events_main_sha": "9ac3eb65a621399d2cd4bf6600c11680a87ebb20",
+    "zach_dossier_main_sha": "331434aab16bd715ba1ae383a34aa75f214d8c4a",
+    "bullpen_contract_main_sha": "f8a7890eb7a9b0af17cd06eae56b654118c59c31",
+    "bullpen_command_main_sha": "cccf90a3cadac802767988ceab8f44453aa86819"
+  },
+  "outputs": [
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_LINE_HE_LEFT_VISIBLE_DUCKHOOK_NONCANON.md",
+      "blob_sha": "d382a604a9ece8b43b31d3beed39d27f558071f9",
+      "whitespace_words": 2290
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY_EXPANDED_V3_NONCANON.md",
+      "blob_sha": "334924c7ca59873d91435cc0c1c6aa3378aaf26a",
+      "whitespace_words": 9543
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/SCENE_REGISTER_V3.json",
+      "blob_sha": "eff254d33b6415ede633fe944be51106ec53ea59",
+      "whitespace_words": null
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/DUCKHOOK_V3_SOURCE_EDITORIAL_AND_CI_RECEIPT_2026_10_28.md",
+      "blob_sha": "292786a18ea924f33b49a362b6668337075cfad3",
+      "whitespace_words": 788
+    }
+  ],
+  "literary_output": {
+    "new_story": "The Line He Left Visible",
+    "new_scene_words": 2290,
+    "assembled_collection": "The Place Left Empty V3",
+    "collection_words": 9543,
+    "scenes": 9,
+    "canonical_principal_povs": [
+      "Jake",
+      "Austin",
+      "Zach",
+      "Phillip"
+    ],
+    "old_v2_8_scene_bodies_retained": true
+  },
+  "verified_code_head": "4680aac9d827c522cb6accfa9938db65b05cb73f",
+  "ci_exact_head": {
+    "novel_os": {
+      "run_id": 40781162841,
+      "job_id": 123142899215,
+      "conclusion": "success",
+      "v3_regressions": 10,
+      "result": "OK"
+    },
+    "cross_domain": {
+      "run_id": 40781162840,
+      "conclusion": "success"
+    },
+    "bullpen_runtime": {
+      "run_id": 40781162722,
+      "conclusion": "success"
+    },
+    "repository_merge_gate": {
+      "run_id": 40781162565,
+      "conclusion": "success"
+    },
+    "note": "These results precede later documentation/checkpoint commits; no later SHA declared tested."
+  },
+  "protected_manuscripts": [
+    {
+      "path": "living-novel/manuscript/PROLOGUE_DRAFT_V1.md",
+      "main_and_branch_blob_sha": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "identical": true
+    },
+    {
+      "path": "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md",
+      "main_and_branch_blob_sha": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "identical": true
+    },
+    {
+      "path": "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md",
+      "main_and_branch_blob_sha": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "identical": true
+    },
+    {
+      "path": "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md",
+      "main_and_branch_blob_sha": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc",
+      "identical": true
+    }
+  ],
+  "source_scope": {
+    "season": 2025,
+    "only_known_results": [
+      "ObiWan Jacoby 174.38 vs Three Dreaded Snake 153.20",
+      "The Immortal 152.20 vs Dr. Duckhook 151.80",
+      "The Immortal 161.07 vs ObiWan Jacoby 109.56"
+    ],
+    "raw_human_owner": "UNKNOWN",
+    "historical_venue": "PROPOSED_UNAPPROVED",
+    "new_ESPN_read_this_run": false
+  },
+  "independent_review": {
+    "accepted": false,
+    "requested_on_pr": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6482465647"
+  },
+  "release_gates": {
+    "four_pov_chapter_exception": "NOT_APPROVED; V3 classified as historical reading COLLECTION",
+    "historical_atlas": "HOLD",
+    "founder_canon_promotion": "HOLD",
+    "publication": "HOLD",
+    "external_spend": "NONE",
+    "merged": false
+  },
+  "next_actions": [
+    "Check for independent review on PR #243; no approval may be inferred from PR comment request.",
+    "Assess whether Zach scene belongs in 2025 historical core or should be companion to V2, preserving both readers.",
+    "Continue substantial source-bounded literary output in already cleared Jake/Austin/Phillip/Zach historical events, not owner-slot guesswork.",
+    "Avoid editing protected Prologue/Chapters I-III; maintain provenance and exact-head test evidence.",
+    "Review failed Netlify preview separately; it does not block noncanon manuscript drafting."
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH20-TWENTY-CHAPTER-READER",
+  "version": "1.0",
+  "date": "2026-10-30",
+  "status": "NONCANON_DRAFT_INDEPENDENT_EDITORIAL_HOLD",
+  "repo": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "resumed_from": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH19-NINETEEN-CHAPTER-READER",
+  "source_state": {
+    "schemin_main": "ec941811d6334d70015ec97b2ac68a2d8a26eec6",
+    "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "novel_authority_matrix": {
+      "path": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+      "blob": "67fcd669dc7b43393f2d15e93545301961dd81e4"
+    },
+    "novel_task_context": {
+      "path": "living-novel/os/TASK_CONTEXT_MATRIX_V1.json",
+      "blob": "d5aff5aa1ed2b8685174a2d647f3290b3f8fd184"
+    },
+    "bullpen_command": "docs/COMMAND_SYSTEM_V2.md",
+    "bullpen_lifecycle": "runtime/lifecycleEngine.js",
+    "bullpen_task_state": "knowledge/EXECUTION_CONTROL_REGISTRY_V1.json",
+    "schemin_task_state": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "prs": {
+      "188": "CLOSED_MERGED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT_HOLD",
+      "261": "OPEN_DRAFT_HOLD"
+    },
+    "archive_blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "historical_owner_identity": "NOT_PROVIDER_AUTHENTICATED"
+  },
+  "previous_head": "94d2c1551fd4bcd5212be521af8f676a37307b24",
+  "prose_commit": "b380de469492ec8362e409242247dc09d86e9fa9",
+  "artifacts": {
+    "chapter": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_CLOTH_THAT_WOULD_NOT_STAY_FOLDED_CHAPTER_20_NONCANON.md",
+      "blob": "45ef477a74006e14ed9fc83ccf43966aeca2f098",
+      "words": 6281,
+      "movements": 5
+    },
+    "reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_20_NONCANON.md",
+      "blob": "b150c37f0d8adda70359bb8a53d05079b9212631",
+      "words": 103660,
+      "components": 20,
+      "previous_reader_blob": "98ab302848f4f3ed97d36cb3f1d4396a6529e004"
+    },
+    "tests": {
+      "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_twenty_reader.py",
+      "blob": "3c605e15783dad2ddbd079dffb5dff1d558ac44e",
+      "new_methods": 15,
+      "ci_enrolled": false
+    },
+    "editorial_qa": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_20_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "status": "AUTHOR_SIDE_ONLY"
+    }
+  },
+  "verification": {
+    "source_exact": "PASS 20/20 embedded components match source files and Git blob SHA; first 19 components unchanged",
+    "protected_2026": "PASS 4/4 pinned blobs also match main",
+    "historical_archive": "PASS G01_2016 blob matches main",
+    "python": {
+      "status": "PASS",
+      "ran": 211,
+      "failures": 0,
+      "commit": "b380de469492ec8362e409242247dc09d86e9fa9",
+      "runner": "authorized Mac /tmp/commonwealth-novel-2016-20261030",
+      "command": "python3 -m unittest discover -s living-novel/historical-chronicle/qa -p 'test_2016_causal_chapter*reader.py' -q",
+      "ci_enrolled": false
+    },
+    "github_ci_at_prose_commit": "IN_PROGRESS_AT_CHECKPOINT_CREATION; RECHECK EXACT HEAD",
+    "independent_author": "NOT_OBSERVED",
+    "independent_umpire": "NOT_OBSERVED",
+    "merged": false,
+    "canon_promoted": false,
+    "published": false
+  },
+  "narrative": {
+    "pov": "fictional CHAR-JAKE-KALOPER only",
+    "causal_turn": "Senn arrives with a family textile and proposed weaving job; Mara voluntarily leaves with her sister the following dawn, Esi holds the books and keys; Jake makes a single bounded partial-coin pledge payment and remains at the shelter without restored authority.",
+    "speculative_new_state": [
+      "Mara's previously unestablished sister and mother / family history — fiction-only",
+      "Mara departs for an uncertain proposed 3-day weaving inspection, no guaranteed return",
+      "Esi retains shelter keys, accounts and responsibility",
+      "Len continues carving and the daughter's separate handle order remains independent",
+      "Jake's pledge remainder and supplier claims remain unpaid"
+    ],
+    "preserve": [
+      "east room closed",
+      "unsafe grain uncertified",
+      "mill fire damage and great wheel unresolved",
+      "daughter's great-wheel commission unsigned",
+      "old seller invoice and pledge remainder unpaid",
+      "bridge/cart unresolved",
+      "missing claimant/chest/sealed message unresolved",
+      "singer destination and refund claims unresolved",
+      "courier note disposition unknown",
+      "upriver seasonal offer not accepted"
+    ],
+    "future_event_boundary": "No W14/postseason outcomes or owner identities invented"
+  },
+  "blockers": [
+    "Historical human-owner source binding unauthenticated",
+    "Period Character Canon and Atlas not approved, including new Senn family and weaving trade",
+    "Independent literary review and independent Umpire acceptance absent",
+    "Founder-only canon/publishing approval withheld",
+    "Historical reader Python suite not enrolled in GitHub CI"
+  ],
+  "next": [
+    "Verify exact final PR head and GitHub Actions separately from local tests",
+    "Independently challenge Senn's introduction, Mara agency, Esi staffing and material culture",
+    "Reconcile Chapter XX family-history premise with 2016 period Canon before any promotion",
+    "Continue substantive noncanon Chapter XXI or substantial rewrite after actual independent findings",
+    "Never merge, promote canon, publish or alter protected 2026 chapters without separate authorization"
+  ]
+}

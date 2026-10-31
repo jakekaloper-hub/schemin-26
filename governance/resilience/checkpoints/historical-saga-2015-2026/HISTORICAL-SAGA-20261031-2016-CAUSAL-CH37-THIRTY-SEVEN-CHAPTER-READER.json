@@ -1,0 +1,91 @@
+{
+  "schema": "commonwealth-historical-saga-production-checkpoint-v1",
+  "status": "NONCANON_INDEPENDENT_EDITORIAL_HOLD",
+  "date_utc": "2026-10-31",
+  "mission": "BULLPEN PERMANENT EXECUTIVE MANDATE — COMMONWEALTH NOVEL AUTONOMOUS END-TO-END PRODUCTION",
+  "repository": "jakekaloper-hub/schemin-26",
+  "organizational_authority": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr_number": 243,
+  "resumed_from_head": "3c53ebdbebab744282e3e7b8ad0df5a6cc9be8ba",
+  "resumed_from_checkpoint": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261031-2016-CAUSAL-CH36-THIRTY-SIX-CHAPTER-READER.json",
+  "authorities": {
+    "matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "control": "PROJECT_CONTROL_REGISTRY.md",
+    "task": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "pov": "canon/characters/TWELVE_CHARACTER_NARRATIVE_POV_REGISTER_V1.md",
+    "bullpen": "BULLPEN.md; docs/COMMAND_SYSTEM_V2.md; runtime/lifecycleEngine.js",
+    "evidence": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json"
+  },
+  "issues_reconciled": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "prs_reconciled": {
+    "188": "CLOSED",
+    "243": "OPEN_DRAFT",
+    "252": "OPEN_DRAFT",
+    "261": "OPEN_DRAFT",
+    "264": "OPEN_DRAFT"
+  },
+  "output": {
+    "chapter": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_COMPANY_THAT_CAME_APART_CHAPTER_37_NONCANON.md",
+    "chapter_blob": "92aba7618d9d7a5ba88758be48084ded30eca4ba",
+    "chapter_words_including_notes": 6419,
+    "movements": 6,
+    "reader": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_37_NONCANON.md",
+    "reader_blob": "856afd4cdae27c469e68cc56abcbff0d10f1d83e",
+    "reader_words_including_notes": 210878,
+    "source_components": 37,
+    "previous_reader_blob": "32d4dd8868a558e1a7a774fb8d3730c4b7129160",
+    "tests": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_thirty_seven_reader.py",
+    "qa": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_37_SOURCE_EDITORIAL_QA_RECEIPT.md"
+  },
+  "checks": {
+    "js_reader_assembly": "PASS_LOCAL_SCRIPT",
+    "all_previous_36_sections_unchanged": "PASS_LOCAL_SCRIPT",
+    "new_section_source_exact": "PASS_LOCAL_SCRIPT",
+    "python_tests": "PENDING",
+    "github_workflows": "PENDING",
+    "independent_review": "NOT_ACCEPTED"
+  },
+  "continuity": {
+    "entering": "Fourteen travelers, two carts, ashfall unknown cause, Fara's awning burned, Hessa staying through morning, Jake cleaning racks without credited wages.",
+    "turn": "Eight choose departure, six stay one further night; Fara cuts down her mother's awning to remove irreversible burn damage; a fragment patches departing cart; Jake earns exactly four outside-yard hours.",
+    "exit": "One cart and eight people leave without known arrival; one cart and six people remain another night; Fara's smaller awning permanent; Hessa's sister and ash cause unknown; Jake's old debts remain.",
+    "open_loops": [
+      "Ash origin and fire duration unverified",
+      "Departed eight's route and safety unknown",
+      "Remaining six's future stay unconfirmed",
+      "Fara's permanently shortened awning",
+      "Hessa's sister unlocated",
+      "Missing driver Mael/second horse/freight/cart open",
+      "Pell injury and carrier liability open",
+      "Escaped bird unresolved",
+      "Jake's older shelter debts and Esi letter receipt unconfirmed"
+    ]
+  },
+  "protected_main": [
+    "living-novel/manuscript/PROLOGUE_DRAFT_V1.md",
+    "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md",
+    "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md",
+    "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md"
+  ],
+  "gates": {
+    "historical_owner_auth": "NOT_ACCEPTED",
+    "period_atlas_character": "NOT_ACCEPTED",
+    "authors_council": "NOT_ACCEPTED",
+    "independent_umpire": "NOT_ACCEPTED",
+    "founder_canon": "NOT_AUTHORIZED",
+    "merged": false,
+    "published": false
+  },
+  "next": [
+    "Verify branch and CI at exact commit; record authenticated receipt without claiming unobserved review.",
+    "Prepare Chapter XXXVIII as noncanonical fiction, prioritizing fresh dramatic stakes and Fara's materially smaller shade without repeating refugee allocation.",
+    "Do not promote, merge, publish or invent 2016 league facts."
+  ]
+}

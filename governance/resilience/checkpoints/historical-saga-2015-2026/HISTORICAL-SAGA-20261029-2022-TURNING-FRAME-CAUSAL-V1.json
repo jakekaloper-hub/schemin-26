@@ -1,0 +1,145 @@
+{
+  "schema_version": "commonwealth-novel-production-v1",
+  "checkpoint_id": "HISTORICAL-SAGA-20261029-2022-TURNING-FRAME-CAUSAL-V1",
+  "state": "IN_PROGRESS_NONCANON_REVIEW_HOLD",
+  "recorded_local_date": "2026-10-29",
+  "mission": "Founder-authorized Commonwealth Novel autonomous end-to-end source-grounded literary production",
+  "repository": "jakekaloper-hub/schemin-26",
+  "control_repository": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "primary_pr": 243,
+  "active_issue": 211,
+  "related_issues": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "related_prs": {
+    "188": "MERGED historical authority",
+    "252": "DRAFT creative-production adapter",
+    "261": "DRAFT execution-state drift checker",
+    "264": "DRAFT Chapter I alternative"
+  },
+  "main_baseline_sha": "76c3f614c9eae70ead304c3f4cda7b44a95907e7",
+  "bullpen_main_baseline_sha": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+  "source_authority_matrix_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+  "source_evidence_blobs": {
+    "weekly_2022": "e3340ba1676408fa917eff7a61360a6588ba17dd",
+    "historical_story_room": "79190778ebac9859fb3d560e824f014c793010ae",
+    "owner_lineage": "be68b2b2c836592ed872e32b6216af238a0cd64c"
+  },
+  "output_blobs": {
+    "manuscript": {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2022-turning-frame/THE_FRAME_THEY_COULD_TURN_CAUSAL_READING_V1_NONCANON.md",
+      "git_blob_sha": "31c0898a60c0569eea8cde573a2cd3f296258958"
+    },
+    "scene_register": {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2022-turning-frame/SCENE_REGISTER_CAUSAL_V1.json",
+      "git_blob_sha": "a6ada3320a9cafb462ce3364249b0bf1b9d8bb35"
+    },
+    "editorial_receipt": {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2022-turning-frame/SOURCE_EDITORIAL_QA_RECEIPT_V1.md",
+      "git_blob_sha": "69c44fc6ff618d2af7c7d1cd640895e8b19c951f"
+    },
+    "regression_test": {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/test_2022_turning_frame_v1.py",
+      "git_blob_sha": "e30c4b5599edf3e5a42bd6ab44a298c3809c7d25"
+    },
+    "workflow": {
+      "path": ".github/workflows/novel-os-ci.yml",
+      "git_blob_sha": "ff896d30a9ec136f82307b85bd5e13b50b69fd92"
+    }
+  },
+  "literary_output": {
+    "title": "The Frame They Could Turn",
+    "season": 2022,
+    "word_count_including_frontmatter": 4321,
+    "connected_movements": 4,
+    "principal_pov_ids": [
+      "CHAR-JAKE-KALOPER"
+    ],
+    "historical_owner_attribution": "USER_ATTESTED_SLOT_1_CANDIDATE_NOT_PROVIDER_AUTHENTICATED",
+    "historical_venue_status": "PROPOSED_UNAPPROVED",
+    "source_matchup_rows": 105,
+    "scoring_weeks": 17,
+    "team1_exact_score_pair_anchors": 17,
+    "additional_verified_fixtures": 6,
+    "original_secondary_world_characters": [
+      "Sera",
+      "Nell",
+      "Mara"
+    ],
+    "invented_events_are_not_espn_facts": true,
+    "full_chronicle_claim": false
+  },
+  "protected_main_blob_verification": {
+    "method": "Authenticated GitHub readback for main and 2022 branch; each exact Git blob SHA matched",
+    "PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+    "CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+    "CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23aeb8872fa0fb4dff029fe30044141121",
+    "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+  },
+  "observed_ci": {
+    "tested_code_workflow_commit": "c303b6d2e5d4471a5aa1699843a51a0581de770f",
+    "later_review_text_only_commit": "4e059ab2b4dd853426af01cf67282131595abd03",
+    "run_results": [
+      {
+        "name": "Novel OS CI",
+        "run_id": 40818630958,
+        "conclusion": "success",
+        "specific_step": "Validate 2022 turning-frame four-movement source-scored reader (noncanon)",
+        "specific_step_conclusion": "success",
+        "test_cases": 10
+      },
+      {
+        "name": "Repository Merge Gate",
+        "run_id": 40818630923,
+        "conclusion": "success"
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "run_id": 40818631067,
+        "conclusion": "success"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "run_id": 40818631101,
+        "conclusion": "success"
+      }
+    ],
+    "note": "Technical workflow success is not independent editorial or Umpire acceptance, and no unobserved later-commit CI success is claimed."
+  },
+  "independent_review": {
+    "github_review_submissions_at_prior_check": 0,
+    "explicit_request_comment_id": 6488070064,
+    "status": "REQUEST_POSTED_NO_INDEPENDENT_APPROVAL_VERIFIED",
+    "blocking_questions": [
+      "2022 historical owner association",
+      "time-valid Atlas public hall / carpentry plausibility",
+      "series-level repetition vs 2018-2021",
+      "supporting-character agency",
+      "period bracket and seasonal ambiguity"
+    ]
+  },
+  "holds": {
+    "historical_owner_binding": "UNVERIFIED",
+    "venue_atlas": "UNAPPROVED",
+    "editorial_independent": "NOT_RECEIVED",
+    "umpire_independent": "NOT_RECEIVED",
+    "founder_canon_promotion": "NOT_AUTHORIZED",
+    "pr": "DRAFT_NOT_MERGE_CLEARED",
+    "publication": "NOT_AUTHORIZED"
+  },
+  "next_authorized_work": [
+    "Recheck PR #243 independent reviews and exact branch-head CI; repair only observed failures.",
+    "Select the next source-cleared historical fiction assignment (chronological 2023 is a candidate), first reading year-specific owner/score source evidence and existing noncanonical drafts to avoid duplicate manuscript.",
+    "Keep historical 2022 Jake-only chapter separate from unverified Kevin/Red POV pilots; preserve original protected Prologue and Chapters I–III.",
+    "Resolve source authority and Atlas holds with authenticated evidence rather than inventing 2022 owner IDs or world geography.",
+    "Do not merge or canon promote without Founder authorization and independent Umpire acceptance."
+  ],
+  "branch_head_before_checkpoint": "4e059ab2b4dd853426af01cf67282131595abd03",
+  "canonical_merge": false,
+  "publication_authorized": false
+}

@@ -1,0 +1,75 @@
+{
+  "status": "DRAFT_NONCANON_BOUNDED_USER_ATTESTED_CONNECTED_ACCOUNT",
+  "manuscript": "THE_FIRST_DEBT_NONCANON.md",
+  "scene_ids": ["2015-J-01", "2015-J-02", "2015-J-03"],
+  "source_facts": {
+    "home_team_id": 1,
+    "home_team_label": "Scruffy Looking Nerf Herders",
+    "home_score": 65.5,
+    "away_team_id": 5,
+    "away_team_label": "Here, Ok I took L's",
+    "away_score": 129,
+    "winner": "AWAY"
+  },
+  "identity_authority": {
+    "provider_connected_account": "Flaim historical continuity: team ID 1 in 2015",
+    "user_attestation": "User attestation: Jake Kaloper owns the connected-account historical team",
+    "limitation": "Not an ESPN provider owner-name field; no other team or owner is mapped."
+  },
+  "proposed_fiction": ["room staging", "Mara", "storekeeper", "cart axle and clamps", "water custom", "Jake's choices and open obligation"],
+  "unresolved": ["opponent owner identity", "2015 venue geography", "all other historical owner bindings", "season outcome at story time"],
+  "literary_coverage_claim": "Candidate consequential aftermath for one verified Week 1 contest; not acceptance and not full contest staging.",
+  "scenes": [
+    {
+      "scene_id": "2015-J-01",
+      "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-week1/THE_FIRST_DEBT_NONCANON.md",
+      "heading": "I. The Slate",
+      "pov_character_id": "CHAR-JAKE-KALOPER",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "source_event_ids": ["ESPN1417621-2015-P01-E002"],
+      "world_context_id": "LOC-LEAGUE-CHAMBER",
+      "story_time_cutoff": "2015 Week 1 result only; no later-season knowledge",
+      "real_owner_boundary_note": "Jake's interiority is fictional. User-attested identity plus Flaim connected-account continuity applies only to 2015 team 1; opponent ownership and all other historical owner identities remain unverified.",
+      "canon_status": "PROPOSED_NONCANON",
+      "historical_binding_status": "USER_ATTESTED_IDENTITY_PLUS_PROVIDER_CONNECTED_ACCOUNT_CONTINUITY",
+      "raw_human_owner_binding": "UNKNOWN",
+      "historical_venue_status": "PROPOSED_UNAPPROVED",
+      "binding_sources": ["evidence/owner-extraction-audit/FLAIM_CONNECTED_ACCOUNT_CONTINUITY.md", "user attestation recorded in delegated task"],
+      "source_authority": "evidence/2015_FIXTURE_COVERAGE.json#ESPN1417621-2015-P01-E002"
+    },
+    {
+      "scene_id": "2015-J-02",
+      "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-week1/THE_FIRST_DEBT_NONCANON.md",
+      "heading": "II. The Loan",
+      "pov_character_id": "CHAR-JAKE-KALOPER",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "source_event_ids": ["ESPN1417621-2015-P01-E002"],
+      "world_context_id": "LOC-LEAGUE-CHAMBER",
+      "story_time_cutoff": "2015 Week 1 result only; no later-season knowledge",
+      "real_owner_boundary_note": "Jake's interiority is fictional. User-attested identity plus Flaim connected-account continuity applies only to 2015 team 1; opponent ownership and all other historical owner identities remain unverified.",
+      "canon_status": "PROPOSED_NONCANON",
+      "historical_binding_status": "USER_ATTESTED_IDENTITY_PLUS_PROVIDER_CONNECTED_ACCOUNT_CONTINUITY",
+      "raw_human_owner_binding": "UNKNOWN",
+      "historical_venue_status": "PROPOSED_UNAPPROVED",
+      "binding_sources": ["evidence/owner-extraction-audit/FLAIM_CONNECTED_ACCOUNT_CONTINUITY.md", "user attestation recorded in delegated task"],
+      "source_authority": "evidence/2015_FIXTURE_COVERAGE.json#ESPN1417621-2015-P01-E002"
+    },
+    {
+      "scene_id": "2015-J-03",
+      "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-week1/THE_FIRST_DEBT_NONCANON.md",
+      "heading": "III. What Remains Open",
+      "pov_character_id": "CHAR-JAKE-KALOPER",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "source_event_ids": ["ESPN1417621-2015-P01-E002"],
+      "world_context_id": "LOC-LEAGUE-CHAMBER",
+      "story_time_cutoff": "2015 Week 1 result only; no later-season knowledge",
+      "real_owner_boundary_note": "Jake's interiority is fictional. User-attested identity plus Flaim connected-account continuity applies only to 2015 team 1; opponent ownership and all other historical owner identities remain unverified.",
+      "canon_status": "PROPOSED_NONCANON",
+      "historical_binding_status": "USER_ATTESTED_IDENTITY_PLUS_PROVIDER_CONNECTED_ACCOUNT_CONTINUITY",
+      "raw_human_owner_binding": "UNKNOWN",
+      "historical_venue_status": "PROPOSED_UNAPPROVED",
+      "binding_sources": ["evidence/owner-extraction-audit/FLAIM_CONNECTED_ACCOUNT_CONTINUITY.md", "user attestation recorded in delegated task"],
+      "source_authority": "evidence/2015_FIXTURE_COVERAGE.json#ESPN1417621-2015-P01-E002"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "checkpoint_id": "HISTORICAL-SAGA-20261024-OWNER-EXTRACTION",
+  "project": "schemin-26",
+  "workflow": "historical-saga-2015-2026",
+  "stage": "BOUNDED_OWNER_EXTRACTION_AUDIT_NO_NEW_BINDING",
+  "owner": "Novel production task",
+  "source_authority": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+  "completed_at": "2026-10-24T05:07:36.182835+00:00",
+  "input_fingerprints": [
+    {
+      "path": "data-gateway/adapters/espn-public.js",
+      "digest_algo": "sha256",
+      "digest": "a1b7c2b082edbd47a64d17f85c51ca62a62cabefbfba94425ca4f8e42ed8a9d4"
+    },
+    {
+      "path": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261024-SEVEN-DRAFTS.json",
+      "digest_algo": "sha256",
+      "digest": "421f88613e96e884dfa8e90d33e8606800356c43a6ef9bb8a3f51cc5415f8d85"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/owner-extraction-audit/FINDINGS.md",
+      "digest_algo": "sha256",
+      "digest": "b3ab371355b00ceab17c51edf3548edac59b5beec7191bb61851ec500f4e6f40"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/owner-extraction-audit/LOCAL_SNAPSHOT_SCAN.json",
+      "digest_algo": "sha256",
+      "digest": "a4b9ac055c3c8d165c8a64f2a310cd3ab8b2d7458a730b177495e9b2d4e63c26"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/owner-extraction-audit/PUBLIC_READ_RECEIPT.json",
+      "digest_algo": "sha256",
+      "digest": "5aa935d218027b9c55d01c00ebe772b845c8f98c0195625edb8fbb91e5ba2546"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/owner-extraction-audit/SOURCE_PROVENANCE.json",
+      "digest_algo": "sha256",
+      "digest": "780c97487c0693f2b4d8864ee2c29a993af7e5c306a18869aafa36024487aeb0"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/owner-extraction-audit/legacy_espnAgent.js",
+      "digest_algo": "sha256",
+      "digest": "a7f3f85bd2c6bd22f7bc6f1ffe1245666ae00dce87362ae1f2a308db84e16fb0"
+    }
+  ],
+  "evidence": [
+    "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/owner-extraction-audit/FINDINGS.md"
+  ],
+  "invalidation_triggers": [
+    "New dated raw owner/member evidence or source parser change requires revalidation."
+  ]
+}

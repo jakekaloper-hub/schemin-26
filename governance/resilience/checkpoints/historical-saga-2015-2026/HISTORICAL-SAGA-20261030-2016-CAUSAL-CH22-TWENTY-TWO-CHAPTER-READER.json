@@ -1,0 +1,150 @@
+{
+  "id": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH22-TWENTY-TWO-CHAPTER-READER",
+  "version": "1.0",
+  "date": "2026-10-30",
+  "project": "Commonwealth Novel",
+  "status": "NONCANON_DRAFT_TECHNICAL_CI_PASS_INDEPENDENT_EDITORIAL_HOLD",
+  "repo": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "resumes": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH21-TWENTY-ONE-CHAPTER-READER",
+  "reference_source": {
+    "schemin_main_sha": "ec941811d6334d70015ec97b2ac68a2d8a26eec6",
+    "bullpen_main_sha": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "whole_book_authority_matrix_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+    "bullpen_command": "docs/COMMAND_SYSTEM_V2.md",
+    "bullpen_lifecycle": "runtime/lifecycleEngine.js",
+    "novel_os_router": "living-novel/os/TASK_CONTEXT_MATRIX_V1.json",
+    "novel_execution": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "bullpen_execution": "knowledge/EXECUTION_CONTROL_REGISTRY_V1.json",
+    "issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "prs": {
+      "188": "CLOSED_MERGED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT_HOLD",
+      "261": "OPEN_DRAFT_HOLD",
+      "264": "OPEN_DRAFT"
+    }
+  },
+  "artifacts": {
+    "chapter": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_COVER_AND_THE_CARGO_CHAPTER_22_NONCANON.md",
+      "git_blob": "7b2ce956d5aa2836d6f2d30a3520d8c521e870c7",
+      "words_including_notes": 6641,
+      "movements": 5
+    },
+    "reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_22_NONCANON.md",
+      "git_blob": "58f1dedfee156a0e581956f3b91b5a0d653053a2",
+      "whitespace_words_including_manifest": 116650,
+      "component_count": 22,
+      "prior_reader_blob": "322138c36de8bf80cf01b41b7870203bc70fd205"
+    },
+    "test": {
+      "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_twenty_two_reader.py",
+      "git_blob": "6f18dc0364ffd2bff34004b308f7c93a584a074f",
+      "new_test_methods": 14
+    },
+    "self_qa": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_22_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "git_blob": "273a9f879356c31d1cf003e66a3141f648419a9e"
+    }
+  },
+  "verification": {
+    "existing_chapter_21_final_head_ci": "PASS all four 41101334779 41101334681 41101334697 41101334735",
+    "new_reader_source_exact_in_memory_assembly": "PREFLIGHT_ONLY 22 chapters 22 marker pairs; 21 prior source rows retained",
+    "new_python_suite": "PASS_242_TESTS_IN_GITHUB_NOVEL_OS_CI_EXACT_COMMIT_913d44c4",
+    "new_ci_enrollment": "EXISTING_WORKFLOW_DISCOVERY_PATTERN",
+    "protected_2026_main_vs_branch": {
+      "status": "BLOB_EQUAL_FRESH",
+      "prologue": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "ch1": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "ch2": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "ch3": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+    },
+    "archive_2016": {
+      "status": "BLOB_EQUAL_FRESH",
+      "blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518"
+    },
+    "independent_council_review": "REQUESTED_NOT_ACCEPTED",
+    "independent_umpire_review": "REQUESTED_NOT_ACCEPTED",
+    "merged": false,
+    "canon_promoted": false,
+    "published": false,
+    "observed_failure": {
+      "workflow": "Novel OS CI",
+      "run": 41108686341,
+      "exact_tested_sha": "d85e543a27065858d315eefa1f0b477f1fb3c051",
+      "tests_run": 242,
+      "failed": 2,
+      "cause": "Test literal and capitalization assertions; no prose changes"
+    },
+    "test_only_repair": {
+      "commit": "67b460d8990e18695207ce52f541001d8c9bff4a",
+      "test_blob": "6f18dc0364ffd2bff34004b308f7c93a584a074f",
+      "state": "CI_PENDING_ON_REPAIRED_HEAD",
+      "initial_run": 41109116191
+    },
+    "independent_review_request": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6530780315",
+    "repaired_test_suite": {
+      "tests": 242,
+      "failed": 0,
+      "workflow": "Novel OS CI",
+      "run_id": 41109260812,
+      "exact_verified_commit": "913d44c4a1148085c48f5cb16336dd6f26e0f0e7",
+      "status": "SUCCESS"
+    },
+    "cross_domain": {
+      "run_id": 41109260988,
+      "status": "SUCCESS",
+      "exact_verified_commit": "913d44c4a1148085c48f5cb16336dd6f26e0f0e7"
+    },
+    "bullpen_runtime": {
+      "run_id": 41109261024,
+      "status": "SUCCESS",
+      "exact_verified_commit": "913d44c4a1148085c48f5cb16336dd6f26e0f0e7"
+    },
+    "merge_gate": {
+      "run_id": 41109260778,
+      "status": "SUCCESS",
+      "exact_verified_commit": "913d44c4a1148085c48f5cb16336dd6f26e0f0e7"
+    },
+    "checkpoint_commit_note": "This JSON update itself creates a subsequent head; previous-success runs are NOT presented as checks at the new head. Verify latest head independently and record receipt on PR without further commit."
+  },
+  "narrative": {
+    "principal_pov": "fictional CHAR-JAKE-KALOPER only; 2016 owner-slot unauthenticated",
+    "causal_change": "At the west store a probable original empty ledger cover with cut threads is located and retained in third-party custody for one paid day. A porter reports loose pages kept with the cover by unidentified carrier. Esi negotiates physical intake of three flour sacks against a new limited receipt while prior supplier balance remains unresolved. Jake fails to post the public stolen-book notice when redirected by discovery.",
+    "uncertainties": [
+      "cover identity not independently certified",
+      "thief and carrier identity unknown",
+      "contents and buyer of missing leaves unknown",
+      "Mara absent with Senn",
+      "claimant identity and separate chest untouched",
+      "unpaid supplier invoice and pledge balance still unresolved",
+      "2016 historical human owner identity unavailable",
+      "world routes and institutions speculative pending Atlas",
+      "no independent literary/Umpire acceptance"
+    ],
+    "temporal_boundary": "No invented ESPN scores, historical owner facts, trades, matchups, or postseason results"
+  },
+  "blocking_gates": [
+    "Independent Authors Council/editorial review",
+    "Period-correct Character Canon and Atlas clearance",
+    "2016 human owner identity validation",
+    "Independent Umpire acceptance",
+    "Founder-only canon, merge/publish authority",
+    "Exact final branch-head CI confirmation"
+  ],
+  "next": [
+    "Verify subsequent checkpoint-only head CI then begin noncanonical Chapter XXIII, prioritizing new interpersonal stakes beyond repeated ledger/witness procedure.",
+    "Obtain independent Authors Council / Character Canon / Atlas / Umpire review; self-challenge is not independent acceptance",
+    "Continue Chapter XXIII only as noncanonical causal fiction; advance consequences of missing ledger leaves with new kind of interpersonal/structural conflict",
+    "Do not merge, canon-promote, publish or fabricate owner identity"
+  ]
+}

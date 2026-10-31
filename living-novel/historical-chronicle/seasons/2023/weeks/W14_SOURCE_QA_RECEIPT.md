@@ -1,0 +1,24 @@
+# 2023 Week 14 — archival concordance, literary self-challenge and independent HOLD
+
+**Actual manuscript:** [*The Letters That Would Not Cross*](W14.md), **5,069 whitespace words including frontmatter**. Six distinct, source-anchored dramatized encounters, substantial opening and aftermath. It concludes the archived 2023 *regular season* only, **NOT** any playoff season. Draft-only **NONCANON / HISTORICAL ATLAS HOLD**; no canon promotion, merge or publication.
+
+**Evidence:** `living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json`, pinned Git blob `ded119cde5c660f87f197f269b8d6ddd2a11316a`, labeled Flaim ESPN 1417621. Raw upstream ESPN SHA missing; real historical owner/team assignments, transactions, venues and personal motives **UNVERIFIED**. Jake/slot-one Benedict Kenobi interpretation is user-attested, NOT provider-authenticated; four separate Benedict banners do not imply any common person; El Niño is an archive competitor label, NOT human dialogue or actual weather.
+
+| Scene | Home row | Away row | Winner | Margin |
+|---|---|---|---|---:|
+| I — Name | Benedict Kenobi (1), 135.12 | El Niño (9), 161.98 | El Niño (9) | 26.86 |
+| II — Rope | Two Dreaded Snake (6), 148.22 | Eggs Benedict (12), 152.90 | Eggs Benedict (12) | 4.68 |
+| III — Flour | The KING of the Octagon Village (3), 128.04 | The Blew Waffle's (7), 168.44 | The Blew Waffle's (7) | 40.40 |
+| IV — Hours | Arm Chair GM (11), 165.36 | Red Leopards (2), 136.44 | Arm Chair GM (11) | 28.92 |
+| V — Net | Benedict Coomhersnatch (5), 142.80 | The LLC (4), 116.34 | Benedict Coomhersnatch (5) | 26.46 |
+| VI — Door | Mixon it up for a week (10), 158.82 | Benedict Arnold (8), 119.15 | Mixon it up for a week (10) | 39.67 |
+
+Winner slots **9, 12, 7, 11, 5, 10**; 12 unique participant slots. Jake-proposed slot one result: final regular-season **5–9**, subject to human owner authentication. Competitive archive coverage **84/84** across Weeks 1–14 with six discrete fiction passages per week. This does NOT claim the 2023 playoff bracket, title or champion: **POSTSEASON NOT DRAFTED / SOURCE NOT YET MATERIALIZED.**
+
+**Continuity:** A returned letter whose recipient cannot be authenticated becomes the through-line. The creditor inventories Jake's old lodging; he stays conditionally in Adra's loft, repairing nets. The grounded punt is secured with a temporary safety line, not reopened; some laborers accept individual compensation under disputed concession terms while others decline; partially inspected flour arrives with shortages intact; the child ends her performance without requiring an actor to consent to a contrived answer. No court, river or institutional settlement is imposed. All secondary-world sites, names, speeches, economics, medical actions and motivations are **PROPOSED FICTION / HISTORICAL ATLAS HOLD**.
+
+**New technical contract:** `living-novel/historical-chronicle/qa/test_2023_fourteenth_week.py` defines **15 regression cases**: pinned source, disjoint fixtures, exact winners/margins and in-scene records, >=5000 words and six long episodes, slot-one 5–9 arithmetic, postseason knowledge firewall, exclusive Jake POV and unpersonified El Niño, distinct Benedict names, world/owner boundary, Week 13 immutable blob, 84/84 coverage, continuation hold, all four protected Prologue/Chapters I–III blobs. Wired to `.github/workflows/novel-os-ci.yml`. **Final head CI pending** at this receipt's creation, NOT preemptively green. Earlier Week 13 technical CI succeeded at 0bce665e with documented repair to older finite-week assertions; newest code requires rerun.
+
+**Editorial adversarial self-critique (not independent authorship):** The sequence grants genuine choices to the ferryman's daughter, Adra, the playwright and mother, mill workers, food recipients and an individual worker who accepts imperfect wages. The thematic center is consent about what belongs in a public account, rather than a citywide procedural victory. Risks: consecutive chapters rely heavily on a refusal as virtue; final letter motif risks too tidy a symbolic ending; the named creditor is still abstract and must become a fully motivated institutional force if promoted; the fictional geography and ward supply paths lack Atlas verification; league-specific events are primarily registry insertions rather than causal sources of dramatic outcomes. A developmental editor should challenge scenes III/V for overstated moral conclusions and ask whether the male protagonist absorbs too much interpretive authority. These are editorial objections, not resolved findings.
+
+**GATES:** Historical human-owner authentication HOLD; independent Author Council HOLD; historical Atlas HOLD; Umpire HOLD; Founder-only canon promotion and public release HOLD. No simulated Director session or independent human review is asserted. **2023 regular season draft coverage is complete, not the saga.**

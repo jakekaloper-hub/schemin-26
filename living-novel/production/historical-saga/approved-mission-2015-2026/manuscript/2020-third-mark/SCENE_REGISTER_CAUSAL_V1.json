@@ -1,0 +1,247 @@
+{
+  "status": "DRAFT_NONCANON_REVIEW_HOLD",
+  "title": "The Third Mark — 2020 Causal Reading V1",
+  "historical_year": 2020,
+  "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2020-third-mark/THE_THIRD_MARK_CAUSAL_READING_V1_NONCANON.md",
+  "primary_pov_ids": [
+    "CHAR-JAKE-KALOPER"
+  ],
+  "pov_class": "PRINCIPAL_CHARACTER",
+  "historical_team_slot_id": 1,
+  "historical_team_slot_name": "Obi-Wan  Jacoby",
+  "owner_association": "USER_ATTESTED_CONNECTED_ACCOUNT_SLOT_1_LITERARY_CANDIDATE_NOT_AUTHENTICATED_HUMAN_OWNER",
+  "other_owner_identities": "UNKNOWN",
+  "historical_venue_status": "PROPOSED_UNAPPROVED",
+  "proposed_venue_description": "A rented glass-panel exhibition and adjacent market; no Atlas site ID, no sanctioned real venue or infrastructure assertion.",
+  "historical_personal_motives": "INVENTED_FICTION_NOT_BIOGRAPHY",
+  "sports_evidence_path": "living-novel/production/full-rewrite-2026/evidence/G01_2020_FULL_WEEKLY_MATCHUPS.json",
+  "sports_evidence_git_blob": "be865764154825b5ba6a635a6ef5562d26dbbbcb",
+  "sports_evidence_kind": "REPOSITORY_FLAIM_ESPN_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+  "championship_source_path": "living-novel/production/full-rewrite-2026/G04_HISTORICAL_SEASON_STORY_ROOM_PACKETS.json",
+  "championship_source_git_blob": "79190778ebac9859fb3d560e824f014c793010ae",
+  "source_authority_matrix_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+  "championship": {
+    "season": 2020,
+    "final_scoring_week": 16,
+    "winner_team_id": 10,
+    "winner_team_name": "Where Mahomies at?",
+    "winner_points": 189.19,
+    "runnerup_team_id": 8,
+    "runnerup_team_name": "The Grinch",
+    "runnerup_points": 188.44
+  },
+  "regular_season_leader": {
+    "historical_slot": 8,
+    "record": "12-1",
+    "banner": "The Grinch",
+    "source_path": "living-novel/history/CHAMPIONSHIP_SUCCESSION.md"
+  },
+  "scoring_periods_known": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "background_unforegrounded_weeks": [
+    8,
+    11,
+    12
+  ],
+  "full_history_claim": false,
+  "source_role": "CERTIFIED_SCORES_AND_TITLE_SLOT_OUTCOME_ONLY; EXHIBITION_AND_CHOICES_PROPOSED_FICTION",
+  "scenes": [
+    {
+      "scene_id": "2020-J-THIRD-01",
+      "heading": "Three Clear Panes",
+      "pov_character_id": "CHAR-JAKE-KALOPER",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "narrative_role": "OPENING",
+      "story_time_cutoff": "after 2020 Week 3",
+      "source_weeks": [
+        1,
+        2,
+        3
+      ],
+      "source_score_anchors": [
+        {
+          "week": 1,
+          "opponent_slot": 9,
+          "team_1_points": 144.08,
+          "opponent_points": 129.3,
+          "outcome": "WIN",
+          "source_pointer": "/weeks/0/matchups/5"
+        },
+        {
+          "week": 2,
+          "opponent_slot": 2,
+          "team_1_points": 160.4,
+          "opponent_points": 147.86,
+          "outcome": "WIN",
+          "source_pointer": "/weeks/1/matchups/4"
+        },
+        {
+          "week": 3,
+          "opponent_slot": 11,
+          "team_1_points": 173.84,
+          "opponent_points": 148.86,
+          "outcome": "WIN",
+          "source_pointer": "/weeks/2/matchups/0"
+        }
+      ],
+      "fictional_consequence": "Jake agrees to front a seductive predictive exhibition, becoming complicit in the difference between source results and projected outcomes."
+    },
+    {
+      "scene_id": "2020-J-THIRD-02",
+      "heading": "The Pane That Would Not Come Out",
+      "pov_character_id": "CHAR-JAKE-KALOPER",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "narrative_role": "REVERSAL",
+      "story_time_cutoff": "after 2020 Week 6",
+      "source_weeks": [
+        4,
+        5,
+        6
+      ],
+      "source_score_anchors": [
+        {
+          "week": 4,
+          "opponent_slot": 5,
+          "team_1_points": 139.12,
+          "opponent_points": 179.98,
+          "outcome": "LOSS",
+          "source_pointer": "/weeks/3/matchups/3"
+        },
+        {
+          "week": 5,
+          "opponent_slot": 3,
+          "team_1_points": 97.47,
+          "opponent_points": 113.79,
+          "outcome": "LOSS",
+          "source_pointer": "/weeks/4/matchups/0"
+        },
+        {
+          "week": 6,
+          "opponent_slot": 8,
+          "team_1_points": 117.88,
+          "opponent_points": 131.2,
+          "outcome": "LOSS",
+          "source_pointer": "/weeks/5/matchups/2"
+        }
+      ],
+      "fictional_consequence": "Three defeats force a choice between concealed failed forecasts and visible accountability; glassmaker Sera acts for her own economic survival."
+    },
+    {
+      "scene_id": "2020-J-THIRD-03",
+      "heading": "The Unpaired Square",
+      "pov_character_id": "CHAR-JAKE-KALOPER",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "narrative_role": "UNCERTAINTY",
+      "story_time_cutoff": "after 2020 Week 14; before Week 15 contest",
+      "source_weeks": [
+        7,
+        9,
+        10,
+        13,
+        14
+      ],
+      "source_score_anchors": [
+        {
+          "week": 7,
+          "opponent_slot": 10,
+          "team_1_points": 155.68,
+          "opponent_points": 122.1,
+          "outcome": "WIN",
+          "source_pointer": "/weeks/6/matchups/4"
+        },
+        {
+          "week": 9,
+          "opponent_slot": 9,
+          "team_1_points": 133.5,
+          "opponent_points": 134.74,
+          "outcome": "LOSS",
+          "source_pointer": "/weeks/8/matchups/1"
+        },
+        {
+          "week": 10,
+          "opponent_slot": 4,
+          "team_1_points": 149.11,
+          "opponent_points": 150.33,
+          "outcome": "LOSS",
+          "source_pointer": "/weeks/9/matchups/3"
+        },
+        {
+          "week": 13,
+          "opponent_slot": 11,
+          "team_1_points": 199.3,
+          "opponent_points": 105.04,
+          "outcome": "WIN",
+          "source_pointer": "/weeks/12/matchups/2"
+        },
+        {
+          "week": 14,
+          "opponent_slot": null,
+          "team_1_points": 123.72,
+          "opponent_points": null,
+          "outcome": "UNPAIRED_NO_OPPONENT",
+          "source_pointer": "/weeks/13/matchups/3"
+        }
+      ],
+      "fictional_consequence": "Historical leading form and an unpaired record cannot be misrepresented as final title succession or an awarded win."
+    },
+    {
+      "scene_id": "2020-J-THIRD-04",
+      "heading": "What the Third Place Measured",
+      "pov_character_id": "CHAR-JAKE-KALOPER",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "narrative_role": "CLOSURE",
+      "story_time_cutoff": "after all 2020 Week 16 outcomes were certified",
+      "source_weeks": [
+        15,
+        16
+      ],
+      "source_score_anchors": [
+        {
+          "week": 15,
+          "opponent_slot": 10,
+          "team_1_points": 149.46,
+          "opponent_points": 170.21,
+          "outcome": "LOSS",
+          "source_pointer": "/weeks/14/matchups/1"
+        },
+        {
+          "week": 16,
+          "opponent_slot": 2,
+          "team_1_points": 155.5,
+          "opponent_points": 115.22,
+          "outcome": "WIN",
+          "source_pointer": "/weeks/15/matchups/1"
+        }
+      ],
+      "fictional_consequence": "Jake loses the semifinal, wins the third-place contest, then faces a title decided by 0.75 despite the runner-up's 12–1 regular season."
+    }
+  ],
+  "independent_editorial_acceptance": false,
+  "independent_umpire_acceptance": false,
+  "founder_canon_promotion": false,
+  "canonical_merge": false,
+  "publication_authorized": false,
+  "empty_source_weeks": [
+    {
+      "week": 17,
+      "matchups": 0,
+      "interpretation": "EMPTY_PROVIDER_WEEK_CONTAINER_NOT_A_PLAYED_CONTEST_OR_TEAM_1_SCORING_EVENT"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH09-NINE-CHAPTER-READER",
+  "version": "1.0",
+  "date": "2026-10-30",
+  "status": "NONCANON_DRAFT_EDITORIAL_HOLD",
+  "mission": "Founder-authorized Commonwealth novel source-grounded continuation on existing PR #243; actual authenticated GitHub writes, no authenticated Bullpen Director call claimed",
+  "repository": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "base": "main",
+  "previous_checkpoint": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261030-2016-CAUSAL-CH08-EIGHT-CHAPTER-READER.json",
+  "governance": {
+    "source_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "prologue_protection": "living-novel/manuscript/PROLOGUE_DRAFT_V1.md",
+    "causal_rule": "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md",
+    "pov": "12 canonical owner viewpoints only; older Edrin/Edin/Oren POV license superseded",
+    "task_state": "governance/execution-control/TASK_REGISTRY_V1.json (legacy status drift unresolved; PR #261 draft)",
+    "bullpen_registry": "jakekaloper-hub/bullpen/runtime/commandRegistry.js",
+    "bullpen_lifecycle": "jakekaloper-hub/bullpen/runtime/lifecycleEngine.js",
+    "issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "related_prs": {
+      "188": "MERGED",
+      "243": "DRAFT_OPEN",
+      "252": "DRAFT_HOLD",
+      "261": "DRAFT_HOLD",
+      "264": "DRAFT_2026_NONCANON"
+    }
+  },
+  "source_fingerprints": {
+    "archive_2016": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "prior_reader_8": "cf182ab11be7e200a08d2e8e4bb879d6209e3c9d",
+    "chapter_09": "5ea06fabbf2c3c32000d6c8d36077280508c1efa",
+    "reader_9": "cac0da28530f7d040b3856c2666ee975ef0617f3",
+    "prior_chapter_blobs": [
+      "d93505009d7dda7acc010ce1a6e5ec2bacf65ec2",
+      "756126cb4e151a0bd78ece39ab59a4c54ef2aa43",
+      "f9bf0721c989d30bfd09189388b93293ba3a8ce0",
+      "8994f9e443a6313dee217dfd5f92aedeff7bd88c",
+      "40d12860e93d9393b18d7771c427061c82e46c8c",
+      "4e3d655895847e9910b7e8c69349fb2b09c94b4b",
+      "419e7f6775d0205cf1b49dba5629500245ac59a8",
+      "5266de4f74ee1b9154672acfc7c5f50dc881347c"
+    ],
+    "protected_2026_hard_canon_branch_matches_main": {
+      "PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+    }
+  },
+  "outputs": [
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_BELL_THAT_WAS_NOT_A_SUMMONS_CHAPTER_09_NONCANON.md",
+      "words_including_notes": 5261,
+      "movements": 5,
+      "git_blob": "5ea06fabbf2c3c32000d6c8d36077280508c1efa"
+    },
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_09_NONCANON.md",
+      "words_including_metadata": 41399,
+      "components": 9,
+      "git_blob": "cac0da28530f7d040b3856c2666ee975ef0617f3"
+    },
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_09_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "review": "AUTHOR_SELF_CHALLENGE_NOT_INDEPENDENT"
+    },
+    {
+      "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_nine_reader.py",
+      "tests_added": 11
+    },
+    {
+      "path": ".github/workflows/novel-os-ci.yml",
+      "change": "explicit named regression step"
+    }
+  ],
+  "literary_causality": {
+    "dramatic_question": "Jake accepts a material personal cost to correct a harmful public summons without pretending to identify a missing claimant.",
+    "first_movement": "a disabled bell and forged hearing notice strand a group at an unsafe gate",
+    "reversal": "keeper and porter disclose that the public claim propagated through unknown copies, not certified institutional authority",
+    "action": "Jake pays for and personally carries two bounded corrections",
+    "key_unknowns": "claimant identity, forged notice author, singer destination, woman's mother's connection if any",
+    "timeline": "2016 after Week 13 notice and causal Chapter VIII, before any postseason scores known",
+    "viewpoint": "single fictional Jake, no secondary interior POV"
+  },
+  "verification": {
+    "source_exact_readback": "PASS 9/9 via authenticated GitHub fetch of distinct source chapter blobs and assembled reading-copy sections",
+    "protected_hard_canon": "PASS 4/4 GitHub sha equality main versus PR branch",
+    "historical_owner_binding": "UNVERIFIED",
+    "independent_editorial_review": "NONE_OBSERVED",
+    "tested_pre_checkpoint_commit": "f32f50158c5f862b5d39223a235177f33c063080",
+    "observed_pre_checkpoint_ci": [
+      {
+        "name": "Novel OS CI",
+        "id": 41014950610,
+        "conclusion": "success"
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "id": 41014950694,
+        "conclusion": "success"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "id": 41014950501,
+        "conclusion": "success"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "id": 41014950457,
+        "conclusion": "success"
+      }
+    ],
+    "test_clean_up_commit": "ba625016fed9e0160b836fafd7283da1b9e5d4bc",
+    "cleanup_and_checkpoint_exact_head_ci": "RECHECK_REQUIRED_NOT_CLAIMED"
+  },
+  "continuity_holds": {
+    "bell_notice_author": "UNKNOWN",
+    "claimant": "UNIDENTIFIED",
+    "sealed_message": "UNOPENED",
+    "traveling_woman_relation_to_claimant": "UNKNOWN",
+    "singer_location": "UNKNOWN",
+    "great_wheel": "UNFINISHED_UNTURNED",
+    "daughter_commission": "PROSPECTIVE_UNSIGNED",
+    "crossing": "UNSAFE",
+    "cart": "UNRECOVERED",
+    "suspect_grain": "UNCERTIFIED_NOT_CONSUMED",
+    "closed_east_rooms": "CLOSED",
+    "private_east_chest": "UNRETRIEVED",
+    "old_wages": "UNPAID",
+    "supplier_invoice": "UNPAID",
+    "jake_shelter_pledge": "UNPAID_AFTER_SMALL_CORRECTION_COST"
+  },
+  "blockers": [
+    "human owner/2016 team-slot authentication",
+    "historical Character Canon, era, material culture and Atlas routing",
+    "independent Authors Council literary review",
+    "independent Librarian and Umpire acceptance",
+    "Founder-only hard-canon and publication approvals"
+  ],
+  "release": {
+    "merged": false,
+    "canonical": false,
+    "published": false,
+    "money_spent_external": false
+  },
+  "next": [
+    "Check exact checkpoint-inclusive GitHub Actions outcomes and reconcile any failure without changing manuscript solely to satisfy a faulty test",
+    "Continue causal Chapter X with actual repercussions of Jake spending his board money; avoid another lecturing/ledger scene; develop stakes and independent protagonist agency",
+    "Do not claim the traveler's mother matches the missing claimant or introduce new ESPN facts",
+    "Reevaluate source-grounded erratum for older pilot only if a specific verified W2/W3 discrepancy is located",
+    "Attempt genuine independent Authors Council, Character, Atlas, Librarian and Umpire review; no simulated approval",
+    "Never merge or canon-promote the draft without Founder-only and independent gates"
+  ]
+}

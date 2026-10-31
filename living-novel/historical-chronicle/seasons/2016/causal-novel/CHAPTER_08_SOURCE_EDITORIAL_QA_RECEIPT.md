@@ -1,0 +1,39 @@
+# 2016 causal novel — Chapter VIII source and editorial self-review (NONCANON)
+
+**Production date:** 2026-10-30. **Owning draft:** PR #243, branch `novel/historical-epic-2015-2026`. This is a manuscript/self-challenge receipt, **not** an authenticated Authors Council meeting or an independent Umpire verdict. No merge, canon promotion or publication is authorized.
+
+## Delivered fiction
+
+- **Chapter VIII:** [*The Measure of What Remains*](THE_MEASURE_OF_WHAT_REMAINS_CHAPTER_08_NONCANON.md), **4,881 whitespace-delimited words including heading, provenance disclaimer and editorial handoff**; new Git blob `5266de4f74ee1b9154672acfc7c5f50dc881347c`.
+- **Assembled eight-chapter reader:** [2016 causal reading copy](READING_COPY_CAUSAL_CHAPTERS_01_08_NONCANON.md), **36,091 whitespace-delimited words including metadata and editorial source notes**. The first seven source chapters are preserved exactly. Previous seven-chapter reader blob: `060176ee8e3cb0548ec72e378ca4c7137765a442`.
+- **Five causal movements:** I. The wood that was not wasted; II. A name cut under the rim; III. The buyer's hands; IV. A room the wheel could not fill; V. The mark that belonged to her.
+- **No automatic scoring-week-to-chapter conversion.** This is not a new 2016 ESPN Week 14 result and is distinct from the complete historical chronological Chronicle.
+
+## Admission packet / source-to-story firewall
+
+1. **Dramatic question:** May the wheelwright's daughter claim authorship and responsibility for her own technical judgment without treating her father's long-standing craft as worthless?
+2. **Entering causal state:** The massive wheel remains unfinished and unturned. In Chapter VII, the daughter and the young worker refused to use its unproven structure as a hoist and cleared the high lane without it. The grain shed owner has reclaimed the loaned storage, suspect grain is segregated, a cart remains on the far bank of an unsafe crossing, and temporary boards must be returned.
+3. **Single internal viewpoint:** proposed fictional Jake / `CHAR-JAKE-KALOPER` / `PRINCIPAL_CHARACTER`, following and misreading what he witnesses. Father, daughter, worker, visitor, mill boy and other inhabitants receive **no internal narration**. Edrin/Edin is not used as POV. Older `NOVEL_POV_CONSTITUTION_V1.md` and the older temporal matrix contain archive/institutional POV permissions; the later Founder-exclusive Twelve rewrite gate supersedes those permissions.
+4. **Archival time cutoff:** after the certified-to-retained-archive Week 13 notice and before characters know any postseason score. No new results appear in this chapter. Human Jake↔historical scoring slot 1 has **not** been provider-authenticated.
+5. **Source:** `living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json`, Git blob `6dbec1fe2537139f3a97c6a78250e2bae082a518`, retained Flaim/ESPN league 1417621 transcription. The archived file is evidence for competitive history **only**. It does not establish named 2016 historical individuals, motives, weather, geography, craft history, kinship or property contracts.
+6. **Fictional locations and material objects:** wheelwright's shop, upper road, mill, model wheel, buyer's commission, stool, measuring tools, chalk marks and high-lane inspection are **PROPOSED FICTION / Atlas HOLD**, not mapped or certified Commonwealth history.
+7. **First decision:** the daughter refuses to sell the untested wheel as a proven finished mechanism; the visitor offers a reversible inspection/test-frame possibility instead.
+8. **Relationship reversal:** an old model and disputed memory of the daughter's mother allow the father to ask about a measurable test without transferring authorship from his daughter to himself. The memory is deliberately incomplete; the mother has not been assigned an authoritative character canon or dated biography.
+9. **Consequential closing choice:** daughter signs her own prospective carpentry response using a personal mark; the worker chooses to accompany her and the buyer accepts a later discussion. Neither a binding contract, successful wheel test, structural certification nor paid order is claimed. Jake is not elected judge of the family disagreement.
+10. **Omitted off-page evidence:** all six archived period-14 postseason pairings and later period-15 pairings remain in the source archive and Chronicle, outside this scene's knowledge. This chapter does not accelerate or invent postseason standings.
+11. **Continuity handoff:** wheel unfinished/unturned, prospective test not ordered/paid, daughter's independent work response sent but not certified, stool made and surviving its first day only provisionally, old timber wages unresolved, suspect grain not certified as food, shelter rooms still unsafe, key/chest not retrieved, missing claimant unidentified, sealed message unopened, singer's destination not identified, cart unrecovered.
+12. **Noncanonical characterization:** the parent/daughter relationship, mother memory and daughter’s personal mark are specifically proposed traits for unnamed supporting inhabitants, not retroactive real-owner biography, not principal POV grants, and not hard lore.
+
+## Adversarial literary self-challenge (does not equal independent approval)
+
+**Strengths to preserve:** The workshop creates a lived-in private conflict whose outcome matters independently of Jake's contest record. The changing geometry of three drawings is an external form for the family's unspoken revisions; a child's model and an unsold stool keep emotional memory physical. The daughter secures agency without being made a new POV owner, and Jake remains a bounded witness and occasional laborer.
+
+**Defects and objections for genuine reviewers:** (a) Jake risks being too passive for a chapter bearing his sole POV; review whether his decision *not* to certify the family should cost him something on page. (b) The father's invoked memory of a deceased/absent mother is **unapproved fiction**; Character Canon and literary reviewers must evaluate its plausibility, privacy and sentimental pressure before approval. (c) The small stool is structurally untested; do not let its first use imply certification. (d) A test commission, late-medieval print shop and mill wheel presume technology/economic forms that period Atlas has not approved. (e) Some closing lines may be too openly thematic; line-edit against the repeated `certainty/authority/measure` phrasing across Chapters I–VII. (f) The phrase "matchsticks" is a possible anachronistic simile; remove or justify before any period approval. (g) The daughter has no independently certified Character ID, so remain exterior even when she dominates the action. (h) A chronology check is needed before showing the independent high-lane inspection and subsequent postseason material in a final volume.
+
+## Technical validation and release limits
+
+- New regression module: `living-novel/historical-chronicle/qa/test_2016_causal_chapter_eight_reader.py` (10 tests). It checks preserved source Git blob SHA-1s, historical archive fingerprint, eight source-exact assembly blocks, draft length, chapter causal beats, POV exclusions and protected 2026 Prologue/Chapters I–III bytes.
+- CI wiring: existing `.github/workflows/novel-os-ci.yml`; command `python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_eight_reader.py" -v`.
+- **Status of tests and CI:** The presence of the module/step is NOT evidence of passing. Use exact-head GitHub workflow readback; on failure, repair and record the actual failure before reporting PASS.
+- **Independent review:** No literary/Atlas/Character/Librarian/Umpire review acceptance assumed. Request real reviews on PR #243; GitHub request comments themselves are not independent signoff.
+- **Release:** DRAFT / NONCANON / NO MERGE / NO PUBLISH / no automatic Founder approval.
