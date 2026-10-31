@@ -87,15 +87,53 @@
       "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc",
       "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json": "6dbec1fe2537139f3a97c6a78250e2bae082a518"
     },
-    "python_suite": "NOT_YET_VERIFIED_AT_CHECKPOINT_WRITE",
-    "github_ci": "NOT_YET_VERIFIED_AT_CHECKPOINT_WRITE",
+    "python_suite": {
+      "status": "PASS",
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s living-novel/historical-chronicle/qa -p 'test_2016_causal*.py'",
+      "test_count": 342,
+      "observed_commit": "269458f1538c7c4b8f84f573cf5412ccf778b9c2",
+      "executor": "Jakes-MacBook-Pro.local authenticated Desktop Commander, detached temporary worktree",
+      "output": "Ran 342 tests in 0.343s — OK"
+    },
+    "github_ci": {
+      "status": "PASS",
+      "observed_commit": "269458f1538c7c4b8f84f573cf5412ccf778b9c2",
+      "runs": [
+        {
+          "name": "Novel OS CI",
+          "id": 41150556951,
+          "conclusion": "success"
+        },
+        {
+          "name": "Cross-Domain Authority CI",
+          "id": 41150557130,
+          "conclusion": "success"
+        },
+        {
+          "name": "Bullpen Runtime CI",
+          "id": 41150557163,
+          "conclusion": "success"
+        },
+        {
+          "name": "Repository Merge Gate",
+          "id": 41150557293,
+          "conclusion": "success"
+        }
+      ],
+      "scope": "These workflow conclusions apply to the exact observed commit above; updating this checkpoint requires fresh final-head confirmation."
+    },
     "independent_authors_council": "NO_ACCEPTANCE",
     "independent_character_atlas": "NO_ACCEPTANCE",
     "independent_umpire": "NO_ACCEPTANCE",
     "founder_canon_promotion": "NOT_AUTHORIZED",
     "merged": false,
     "published": false,
-    "canon_promoted": false
+    "canon_promoted": false,
+    "independent_review_request": {
+      "type": "GitHub PR conversation comment",
+      "id": 6536542043,
+      "status": "REQUEST_SUBMITTED_NOT_ACCEPTED"
+    }
   },
   "narrative": {
     "proposed_pov": "fictional CHAR-JAKE-KALOPER only; historical owner binding unverified",
@@ -126,10 +164,9 @@
     "Founder-only canon, merge and publication gates"
   ],
   "next_actions": [
-    "Verify exact PR #243 head and all new GitHub Actions conclusions, including actual Python suite result in Novel OS CI; repair any observed failure.",
-    "Submit real PR review request with links, do not claim a review occurred.",
-    "Advance the next noncanonical chapter only with current main authority and actual branch/reader checkpoint; avoid Jake-centric self-sermon repetition and do not add non-owner interior POV.",
-    "Do not merge, promote canon, or publish without Founder and independent Umpire gates."
+    "At the now-updated PR #243 exact head, verify fresh GitHub Actions and local tests; do not carry forward earlier-head PASS without comparing commit.",
+    "Await genuine author council, period Character/Atlas and independent Umpire review; preserve Founder-only release.",
+    "Begin Chapter XXIX on this same draft branch only if the current 28-component source-exact reader and source authority remain stable; avoid inventing ESPN facts, unpaid wages or delivered letters."
   ],
   "invalidation_triggers": [
     "main source/authority matrix superseded",
