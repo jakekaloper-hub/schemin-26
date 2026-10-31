@@ -126,7 +126,7 @@ class FortySevenChapterReader(unittest.TestCase):
         self.assertNotRegex(self.prose, r"(?<![A-Za-z])(?:Edrin|Edin)(?![A-Za-z])")
 
     def test_15_continuity_wages_and_lodging(self):
-        for phrase in ("four false-witness coins remain", "Pell still lacks", "twenty-one-night", "Orrel"):
+        for phrase in ("Four false-witness coins remain", "Pell still lacks", "twenty-one-night", "Orrel"):
             self.assertIn(phrase, self.chapter)
         self.assertIn("Sela's family still slept outside", self.prose)
 
