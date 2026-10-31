@@ -1,0 +1,141 @@
+{
+  "schema": "commonwealth-historical-saga-production-checkpoint-v1",
+  "status": "NONCANON_INDEPENDENT_EDITORIAL_HOLD",
+  "generated_date": "2026-10-30",
+  "mission": "BULLPEN PERMANENT EXECUTIVE MANDATE — COMMONWEALTH NOVEL AUTONOMOUS END-TO-END PRODUCTION",
+  "repo": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr_number": 243,
+  "pr_state_last_observed": "OPEN_DRAFT",
+  "prior_head_before_run": "5bebdea905ec6829e22a8379483cb997cc8f80b0",
+  "observed_main": "ec941811d6334d70015ec97b2ac68a2d8a26eec6",
+  "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+  "related_issues": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "related_prs": [
+    188,
+    243,
+    252,
+    261
+  ],
+  "source_authority": {
+    "matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "novel_os_session": "living-novel/os/SESSION_CONTEXT.md",
+    "pre_prose": "living-novel/os/templates/MINIMUM_PRE_PROSE_GATE_V1.md",
+    "causal": "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md",
+    "pov": "living-novel/os/NOVEL_POV_CONSTITUTION_V1.md (active supersession notice: 12 owner principals exclusively)",
+    "principal_registry": "canon/characters/CHARACTER_REGISTRY.yaml",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "bullpen": [
+      "BULLPEN.md",
+      "docs/COMMAND_SYSTEM_V2.md",
+      "runtime/lifecycleEngine.js"
+    ]
+  },
+  "artifacts": {
+    "chapter": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_SLEEVE_LEFT_UNSTITCHED_CHAPTER_28_NONCANON.md",
+      "git_blob": "47a8475c2029f5b5b8222adfc72d2a4d17760da0",
+      "whitespace_words_including_handoff": 5841,
+      "movements": 5,
+      "creation_commit": "ff4918c84887f4eb146f2e2878e8ce4faa4dd460"
+    },
+    "reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_28_NONCANON.md",
+      "git_blob": "d273d050f1554a087119df4141e340dd795fed9b",
+      "whitespace_words_including_frontmatter": 151624,
+      "components": 28,
+      "creation_commit": "3b5958ace88857d1a8654883280ed3a4aaaee269"
+    },
+    "previous_reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_27_NONCANON.md",
+      "git_blob": "41115b3f158e95d423befba4127063480c60e70b"
+    },
+    "tests": {
+      "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_twenty_eight_reader.py",
+      "git_blob": "69aa65020748ce0edfc88e397c1e8d2aed37eef9",
+      "definitions": 15,
+      "commit": "a8404b9497bca8578538d7f450c2a50c7378833b"
+    },
+    "editorial_qa": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_28_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "git_blob": "913efa5a3c98fe3fb15e6729b036f86d9b460041",
+      "commit": "bfc932d382ee9da656f7cdf0437cd9111faa82ab"
+    }
+  },
+  "verification": {
+    "in_process_assembly": {
+      "manifest_rows": 28,
+      "begin_markers": 28,
+      "end_markers": 28,
+      "previous_reader_component_text_transferred_by_append": true
+    },
+    "source_readback": {
+      "chapter_blob": "47a8475c2029f5b5b8222adfc72d2a4d17760da0",
+      "reader_blob": "d273d050f1554a087119df4141e340dd795fed9b",
+      "tests_blob": "69aa65020748ce0edfc88e397c1e8d2aed37eef9"
+    },
+    "protected_expected_blobs": {
+      "living-novel/manuscript/PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc",
+      "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json": "6dbec1fe2537139f3a97c6a78250e2bae082a518"
+    },
+    "python_suite": "NOT_YET_VERIFIED_AT_CHECKPOINT_WRITE",
+    "github_ci": "NOT_YET_VERIFIED_AT_CHECKPOINT_WRITE",
+    "independent_authors_council": "NO_ACCEPTANCE",
+    "independent_character_atlas": "NO_ACCEPTANCE",
+    "independent_umpire": "NO_ACCEPTANCE",
+    "founder_canon_promotion": "NOT_AUTHORIZED",
+    "merged": false,
+    "published": false,
+    "canon_promoted": false
+  },
+  "narrative": {
+    "proposed_pov": "fictional CHAR-JAKE-KALOPER only; historical owner binding unverified",
+    "entering_state": "four paid hours total, kiln closed, Pell unpaid, Mev letter intermediate transit only",
+    "turn": "Pell asks Jake to misrepresent shift; Ina independently sells dye cloth and offers bounded piece-rate work; Pell seeks 3 uncertain hauling days, Eren secures cart painting order",
+    "changed": "blue coat sleeve fitted and sewn, Pell travels toward temporary hauling, Ina retains trade business, Eren cart-mark job half-paid; no new paid Jake hours, Esi delivery unknown",
+    "open_loops": [
+      "period owner identity binding",
+      "independent artistic and business work not promoted to canon",
+      "Pell three-day hauling work not yet executed",
+      "Ina dye-yard orders",
+      "Eren cart-mark order incomplete; Vessa passage-watch unresolved",
+      "Vessa closed passage",
+      "Mev letter to Esi unconfirmed",
+      "Jake shelter debt",
+      "Esi stolen ledger and missing leaves, private claimant file",
+      "Sola privacy screen/clog",
+      "Mara with Senn",
+      "Len eye and whetstone",
+      "disputed supplier invoice, singer refunds, wheelwright daughter's unsigned commission"
+    ]
+  },
+  "hold_reasons": [
+    "no authenticated 2016 owner identity join",
+    "period Character Canon not independently approved",
+    "Atlas/craft geography unapproved",
+    "no independent Authors Council or Umpire signoff",
+    "Founder-only canon, merge and publication gates"
+  ],
+  "next_actions": [
+    "Verify exact PR #243 head and all new GitHub Actions conclusions, including actual Python suite result in Novel OS CI; repair any observed failure.",
+    "Submit real PR review request with links, do not claim a review occurred.",
+    "Advance the next noncanonical chapter only with current main authority and actual branch/reader checkpoint; avoid Jake-centric self-sermon repetition and do not add non-owner interior POV.",
+    "Do not merge, promote canon, or publish without Founder and independent Umpire gates."
+  ],
+  "invalidation_triggers": [
+    "main source/authority matrix superseded",
+    "real 2016 owner binding changed",
+    "current PR branch modified by other worker",
+    "a source blob differs from expected",
+    "independent review requests substantive edits"
+  ]
+}
