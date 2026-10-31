@@ -1,0 +1,147 @@
+{
+  "schema": "commonwealth-historical-saga-production-checkpoint-v1",
+  "status": "NONCANON_INDEPENDENT_EDITORIAL_HOLD",
+  "generated_date": "2026-10-30",
+  "mission": "BULLPEN PERMANENT EXECUTIVE MANDATE — COMMONWEALTH NOVEL AUTONOMOUS END-TO-END PRODUCTION",
+  "repository": "jakekaloper-hub/schemin-26",
+  "organizational_authority": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr_number": 243,
+  "resumed_from_head": "8bf47d86f51f185af219c8e7c9910c9a282b8f3f",
+  "source_authority": {
+    "source_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "session_context": "living-novel/os/SESSION_CONTEXT.md",
+    "causal_architecture": "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md",
+    "pre_prose": "living-novel/os/templates/MINIMUM_PRE_PROSE_GATE_V1.md",
+    "pov_law": "living-novel/os/NOVEL_POV_CONSTITUTION_V1.md, current twelve-owner supersession notice",
+    "character_registry": "canon/characters/CHARACTER_REGISTRY.yaml",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "bullpen": [
+      "BULLPEN.md",
+      "docs/COMMAND_SYSTEM_V2.md",
+      "runtime/commandRegistry.js",
+      "runtime/lifecycleEngine.js"
+    ]
+  },
+  "related_issues": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "related_prs": {
+    "188": "CLOSED",
+    "243": "OPEN_DRAFT",
+    "252": "OPEN_DRAFT",
+    "261": "OPEN_DRAFT"
+  },
+  "literary_output": {
+    "chapter": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_HORSE_THAT_CAME_WITHOUT_A_CART_CHAPTER_31_NONCANON.md",
+      "git_blob": "057de527cd24fc09a81e689f60c0dac834622791",
+      "words_including_author_notes": 5716,
+      "movements": 5
+    },
+    "reading_copy": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_31_NONCANON.md",
+      "git_blob": "61df63802ae7000c06dde9efaf1ff1856f99d312",
+      "source_components": 31,
+      "words_including_author_notes": 169040
+    },
+    "prior_reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_30_NONCANON.md",
+      "git_blob": "48eb9453b05b4ce30fb948badedefdf79c91d8d6"
+    },
+    "qa": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_31_SOURCE_EDITORIAL_QA_RECEIPT.md",
+    "tests": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_thirty_one_reader.py"
+  },
+  "verification": {
+    "tested_source_branch_commit": "b72b10bfaae7ebabafec57d6ac6cf6f76b8e977f",
+    "local_mac": {
+      "environment": "isolated shallow sparse public GitHub clone under /tmp on authorized Mac",
+      "commit": "b72b10bfaae7ebabafec57d6ac6cf6f76b8e977f",
+      "chapter_tests": {
+        "passed": 15,
+        "failed": 0
+      },
+      "causal_reader_suite": {
+        "passed": 368,
+        "failed": 0,
+        "discovery_pattern": "test_2016_causal_chapter_*reader.py"
+      }
+    },
+    "github_workflows_at_tested_commit": [
+      {
+        "name": "Novel OS CI",
+        "run": 41165055090,
+        "conclusion": "success"
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "run": 41165055157,
+        "conclusion": "success"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "run": 41165055076,
+        "conclusion": "success"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "run": 41165055088,
+        "conclusion": "success"
+      }
+    ],
+    "prior_test_failure": {
+      "commit": "320940e5c9d8cfd5c65e42bb9af885c5a6bf8227",
+      "workflow": "Novel OS CI",
+      "status": "FAILED",
+      "repair_commit": "ca94b9c0bcb2da86e3e6ee7b64a989d884d898a2",
+      "note": "Corrected literal escaping and textual expectation; later exact-head Novel OS CI succeeded."
+    },
+    "source_exact_31_parts": true,
+    "chapter_and_reader_git_blob_readback": true,
+    "protected_hard_canon_vs_main": "Four protected 2026 Prologue/Chapter I/II/III blob SHA values byte-identical at repository reads; not edited",
+    "retained_2016_archive": {
+      "git_blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+      "unchanged_vs_main": true
+    },
+    "external_netlify_preview": {
+      "status": "FAILED",
+      "context": "netlify/scheminnovel/deploy-preview",
+      "note": "External preview not a literary approval or release. Root cause not investigated in this Chapter XXXI production slice."
+    },
+    "authors_council": "NOT_ACCEPTED",
+    "period_character_atlas": "NOT_ACCEPTED",
+    "umpire": "NOT_ACCEPTED",
+    "founder_canon_promotion": "NOT_AUTHORIZED",
+    "merged": false,
+    "published": false,
+    "checkpoint_commit_ci": "PENDING_CREATE_COMMIT_READBACK"
+  },
+  "causal_state": {
+    "viewpoint": "only proposed fictional Jake, one of twelve allowed owners; 2016 historical owner binding unauthenticated",
+    "entering": "Tavin home/new fourth note, Eren cart marks painted but not paid in full, Pell absent, stoneworks kiln shut, Jake four paid hours, Esi/Mev letter undelivered unknown",
+    "turn": "Eren paid fully for boards; Pell's hired mare returns without cart and cut trace; unproved carrier surety claim; Ina and Eren leave with route guide",
+    "exit": "Pell and freight remain missing; mare still needs care; Ina/Eren/guide out of view; new separate external sorting wage for Jake, not kiln reopening",
+    "open_loops": [
+      "historical 2016 owner-slot authentication",
+      "independent literary and period Canon/Atlas clearance",
+      "Pell whereabouts and hiring wages",
+      "carrier, driver, other horse and missing freight",
+      "road party return",
+      "mare's continuing care",
+      "Mev letter arrival at Esi",
+      "Jake's shelter debt",
+      "stolen incoming ledger and Sola/Mara/Senn threads",
+      "kiln passage closure"
+    ]
+  },
+  "next_actions": [
+    "Check final checkpoint commit workflow status; preserve failed external Netlify preview as separate infrastructure HOLD, do not declare all checks green",
+    "Seek genuine independent Authors Council, Librarian, Character Canon, Atlas and Umpire review on draft PR; a request is not acceptance",
+    "Continue to 2016 causal Chapter XXXII only if existing branch remains current; make the unresolved freight/Ina-Eren story consequential, avoid another premature rescue or unsupported historical result",
+    "Keep all 12-owner exclusive POV, protect main Prologue/Chapters I–III, and do not merge/publish/canon-promote without Founder authorization"
+  ]
+}
