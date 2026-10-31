@@ -2,7 +2,7 @@
   "schema": "commonwealth-historical-saga-production-checkpoint-v1",
   "status": "NONCANON_INDEPENDENT_EDITORIAL_HOLD",
   "generated_date": "2026-10-31",
-  "mission": "BULLPEN PERMANENT EXECUTIVE MANDATE — COMMONWEALTH NOVEL AUTONOMOUS END-TO-END PRODUCTION",
+  "mission": "BULLPEN PERMANENT EXECUTIVE MANDATE \u2014 COMMONWEALTH NOVEL AUTONOMOUS END-TO-END PRODUCTION",
   "repository": "jakekaloper-hub/schemin-26",
   "organizational_authority": "jakekaloper-hub/bullpen",
   "branch": "novel/historical-epic-2015-2026",
@@ -64,15 +64,37 @@
     "source": "observed python3 -m unittest outputs before commit; no remote CI claims"
   },
   "remote_verification": {
-    "commit_sha": "PENDING_COMMIT",
-    "github_actions": "PENDING_READBACK",
+    "commit_sha": "FOLLOWUP_CHECKPOINT_COMMIT_PENDING",
+    "github_actions": {
+      "observed_commit": "4dd0e9dea708b857492825a939665b912fbbfb87",
+      "Novel OS CI": {
+        "id": 41173775068,
+        "conclusion": "success"
+      },
+      "Bullpen Runtime CI": {
+        "id": 41173775001,
+        "conclusion": "success"
+      },
+      "Cross-Domain Authority CI": {
+        "id": 41173774935,
+        "conclusion": "success"
+      },
+      "Repository Merge Gate": {
+        "id": 41173774943,
+        "conclusion": "success"
+      }
+    },
     "independent_authors_review": "NOT_ACCEPTED",
     "historical_owner_auth": "NOT_ACCEPTED",
     "period_character_atlas": "NOT_ACCEPTED",
     "umpire": "NOT_ACCEPTED",
     "founder_canon_publication": "NOT_AUTHORIZED",
     "merged": false,
-    "published": false
+    "published": false,
+    "chapter_commit_sha": "4dd0e9dea708b857492825a939665b912fbbfb87",
+    "pr_head_authenticated": "4dd0e9dea708b857492825a939665b912fbbfb87",
+    "new_chapter_reader_tests_in_GitHub_Novel_OS_job": "15 passed; observed job 124457000104",
+    "independent_pr_reviews_submitted": 0
   },
   "causal_state": {
     "entering": "Following Chapter XXXII: Fara's room restored; 2016 road party still missing; Eren/Ina paid work complete; kiln closed; old Jake shelter debt and letter open",
@@ -94,6 +116,6 @@
     "Read exact GitHub pushed PR head and check CI workflow runs; do not extrapolate from local tests",
     "Seek genuinely independent Authors Council, Character Canon, Atlas, Librarian and Umpire review; no review acceptance yet",
     "Advance next substantial causal scene/seasonal manuscript within twelve-principal POV law and historical provenance",
-    "Preserve 2026 Prologue Chapters I–III and never auto-merge or publish"
+    "Preserve 2026 Prologue Chapters I\u2013III and never auto-merge or publish"
   ]
 }
