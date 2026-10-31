@@ -103,7 +103,7 @@ class FortyThreeChapterReader(unittest.TestCase):
     def test_11_payment_persists_without_restitution_fiction(self):
         self.assertIn("Eight small coins", self.prose)
         self.assertIn("The eight coins remained in his pouch", self.prose)
-        self.assertIn("he had not paid them toward his shelter debt", self.prose)
+        self.assertIn("Jake had not paid them toward his shelter debt", self.prose)
 
     def test_12_likely_harm_not_claimed_as_event(self):
         self.assertIn("eight people who left on that road", self.prose)
