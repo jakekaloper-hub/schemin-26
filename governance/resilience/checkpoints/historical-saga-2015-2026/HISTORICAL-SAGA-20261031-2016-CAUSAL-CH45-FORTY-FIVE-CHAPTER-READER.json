@@ -35,11 +35,11 @@
   },
   "output": {
     "chapter": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_ROAD_THAT_WOULD_NOT_WAIT_CHAPTER_45_NONCANON.md",
-    "chapter_blob": "e39363bcf373019193d1d299a9509bcb589eb9ba",
+    "chapter_blob": "8c36678412071e935fd6b7bf0c469a04386f6588",
     "chapter_words_including_editorial": 4664,
     "movements": 6,
     "reader": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_45_NONCANON.md",
-    "reader_blob": "839c6bba9df3e20a07c5048368ad43d4641e1208",
+    "reader_blob": "de28a89a8624479a9f5af202968edadc7c7fecdd",
     "reader_words_including_manifest_and_notes": 263852,
     "assembled_source_components": 45,
     "previous_reader": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_44_NONCANON.md",
@@ -48,7 +48,7 @@
     "qa": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_45_SOURCE_EDITORIAL_QA_RECEIPT.md"
   },
   "checks": {
-    "in_memory_js_assembly": "PASS_EXACT_45_AND_PRESERVE_PRIOR_44",
+    "in_memory_js_assembly": "PASS_EXACT_45_PRESERVE_PRIOR_44_AFTER_IVEN_NAME_COLLISION_REPAIR",
     "python_tests": "NOT_RUN_AT_CHECKPOINT_CREATION",
     "github_actions": "PENDING_EXACT_COMMIT_READBACK",
     "independent_review": "NOT_RECEIVED"
@@ -72,7 +72,8 @@
       "distant ash/fire source unknown",
       "Esi letter receipt, bird and Jake shelter debt unknown",
       "closed kiln passage",
-      "2016 owner lineage and eleven other historical POV bindings unauthenticated"
+      "2016 owner lineage and eleven other historical POV bindings unauthenticated",
+      "Chapter XVI Bram's aunt Iven is NOT the newly introduced visiting fiddler Veyra; draft was renamed to avoid silent conflation."
     ]
   },
   "protected_main": [
@@ -95,6 +96,14 @@
     "Request real independent Authors Council/Librarian/Character Canon/Atlas/Umpire review; do not assert acceptance from a request.",
     "Advance Chapter XLVI or a higher-priority correction, with sharper causal progression and independent agency.",
     "Investigate prior Sela name collision from authored source only; no unverified identity merge.",
-    "Preserve approved hard Prologue and Chapters I–III and 2016 archive; no canon or publication mutation."
-  ]
+    "Preserve approved hard Prologue and Chapters I–III and 2016 archive; no canon or publication mutation.",
+    "Preserve new visiting performer Veyra as fiction distinct from Chapter XVI Iven; no Atlas/historical identity promotion."
+  ],
+  "editorial_repair": {
+    "type": "SOURCE_GROUNDED_NAME_COLLISION",
+    "source": "THE_WORK_THAT_CROSSED_BACK_CHAPTER_16_NONCANON.md (Bram's aunt Iven)",
+    "correction": "chapter XLV touring fiddler named Veyra, not Iven",
+    "prior_chapters_modified": false,
+    "independent_acceptance": "PENDING"
+  }
 }

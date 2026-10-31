@@ -72,7 +72,7 @@
 | 42 | `THE_STAGE_BENEATH_THE_SHORT_AWNING_CHAPTER_42_NONCANON.md` | `6294ffee1d478a493091a532451cdbb9f867f917` | 8180 |
 | 43 | `THE_NAME_HE_SOLD_CHAPTER_43_NONCANON.md` | `c4e3705531e1c4589ac95845df15ccc108da6fd3` | 7089 |
 | 44 | `THE_FLOOR_THAT_COULD_BE_LIFTED_CHAPTER_44_NONCANON.md` | `e3250efd8dbc4df8a1dceba6b663d1f45159aaf3` | 5857 |
-| 45 | `THE_ROAD_THAT_WOULD_NOT_WAIT_CHAPTER_45_NONCANON.md` | `e39363bcf373019193d1d299a9509bcb589eb9ba` | 4664 |
+| 45 | `THE_ROAD_THAT_WOULD_NOT_WAIT_CHAPTER_45_NONCANON.md` | `8c36678412071e935fd6b7bf0c469a04386f6588` | 4664 |
 
 <!-- BEGIN 2016_CAUSAL THE_DEBT_BEFORE_THE_DOOR_CHAPTER_01_NONCANON.md | git_blob d93505009d7dda7acc010ce1a6e5ec2bacf65ec2 -->
 
@@ -21130,7 +21130,7 @@ He closed the book. Nothing had been made permanent except the cost already paid
 
 <!-- END 2016_CAUSAL THE_FLOOR_THAT_COULD_BE_LIFTED_CHAPTER_44_NONCANON.md -->
 
-<!-- BEGIN 2016_CAUSAL THE_ROAD_THAT_WOULD_NOT_WAIT_CHAPTER_45_NONCANON.md | git_blob e39363bcf373019193d1d299a9509bcb589eb9ba -->
+<!-- BEGIN 2016_CAUSAL THE_ROAD_THAT_WOULD_NOT_WAIT_CHAPTER_45_NONCANON.md | git_blob 8c36678412071e935fd6b7bf0c469a04386f6588 -->
 
 # The Road That Would Not Wait
 
@@ -21154,19 +21154,19 @@ Fara wiped her hands. "Who told you?"
 
 A few people laughed, grateful for permission. The woman smiled, but did not enter.
 
-"My name is Iven," she said. "These are Berrit and Sol. We perform when there is a place to perform. We eat when there is a place to eat. Those two things do not always happen together."
+"My name is Veyra," she said. "These are Berrit and Sol. We perform when there is a place to perform. We eat when there is a place to eat. Those two things do not always happen together."
 
-Fara examined the packs, the case, and the damp edge of Iven's cloak. It was a habit of hers to separate a request from everything the requester hoped she would infer. "There is food at a stated price," she said. "Music is a different matter. You may ask me about it after you eat."
+Fara examined the packs, the case, and the damp edge of Veyra's cloak. It was a habit of hers to separate a request from everything the requester hoped she would infer. "There is food at a stated price," she said. "Music is a different matter. You may ask me about it after you eat."
 
-Iven accepted this without resentment. Her companions took the outer bench, leaving their cases where they could be seen. No one moved to make a stage. Fara had not offered one.
+Veyra accepted this without resentment. Her companions took the outer bench, leaving their cases where they could be seen. No one moved to make a stage. Fara had not offered one.
 
-Jake knew only the music he had heard in such places before: road songs worn thin by repetition, tunes made to carry over clattering cups, verses that always ended where the buyer expected. Yet something in Iven's careful handling of the fiddle suggested she believed a room should be earned before it was asked to listen.
+Jake knew only the music he had heard in such places before: road songs worn thin by repetition, tunes made to carry over clattering cups, verses that always ended where the buyer expected. Yet something in Veyra's careful handling of the fiddle suggested she believed a room should be earned before it was asked to listen.
 
 Nella had come to stand near the end of the table. Tam followed, his palm full of the smooth stones with which he had once armed their comic king. He watched the instrument with frank suspicion.
 
 "Can it make a donkey?" he asked.
 
-"It can make a donkey feel overlooked," Iven said.
+"It can make a donkey feel overlooked," Veyra said.
 
 "That's not the same thing."
 
@@ -21176,7 +21176,7 @@ Sela appeared behind the children. She had spent the morning with Meric inspecti
 
 "Come away from the strangers," Sela told them.
 
-Nella did not move immediately. She was looking at Iven's hands. When she obeyed, she did so slowly enough that Jake could see the resistance but not what it meant.
+Nella did not move immediately. She was looking at Veyra's hands. When she obeyed, she did so slowly enough that Jake could see the resistance but not what it meant.
 
 He had four coins remaining from the eight for which he had sold a false account of a missing horse. The other four had gone toward Sela's floor at her insistence on the terms. He was beginning to understand that nothing made the remaining coins less visible than keeping them hidden. They made a faint sound as he shifted on the bench. He stopped moving and listened while Fara set three plates before the travelers.
 
@@ -21184,13 +21184,13 @@ He had four coins remaining from the eight for which he had sold a false account
 
 The music began at dusk, after Fara had agreed that the company could play for one sitting in exchange for food and whatever voluntary coins a listener chose to put in a bowl. She stated the arrangement aloud, twice. It gave no one the use of her table house tomorrow, nor any right to demand silence from people who were eating.
 
-Iven played first without singing. The tune rose in three quick figures and then descended by a note that seemed to catch on something unseen. Berrit tapped the case with his fingertips. Sol moved a narrow cloth between his hands, making a bird of it, then a fish, then a shape that belonged to neither water nor air. He had a gift for showing change without pretending that one creature could be made into another.
+Veyra played first without singing. The tune rose in three quick figures and then descended by a note that seemed to catch on something unseen. Berrit tapped the case with his fingertips. Sol moved a narrow cloth between his hands, making a bird of it, then a fish, then a shape that belonged to neither water nor air. He had a gift for showing change without pretending that one creature could be made into another.
 
 Nella forgot to be shy.
 
 Jake noticed it when the girl took a step from the bench before remembering that her mother sat behind her. She stayed where she was, but her body kept the music. The beat moved through her shoulders and into her hands. Tam watched his sister and attempted, unsuccessfully, to make the same movements.
 
-When the tune ended, Iven asked if anyone knew a story that had not yet been played. Tam raised both hands.
+When the tune ended, Veyra asked if anyone knew a story that had not yet been played. Tam raised both hands.
 
 "The king with the donkey," he said.
 
@@ -21200,7 +21200,7 @@ When the tune ended, Iven asked if anyone knew a story that had not yet been pla
 
 Nella shook her head. "He knew. He was pretending not to know so the people would tell him what they wanted."
 
-The children argued the point with the absolute confidence of people who had invented the story together and had been growing apart inside it ever since. Iven listened to both.
+The children argued the point with the absolute confidence of people who had invented the story together and had been growing apart inside it ever since. Veyra listened to both.
 
 "Will you show us?" she asked.
 
@@ -21214,7 +21214,7 @@ Nella's face hardened. "You let us do it here before."
 
 "Not while someone else is asking for it."
 
-Iven lowered the bow. "Your mother is right to ask what I mean. I meant a scene, not an agreement. But it is not enough for me to mean well."
+Veyra lowered the bow. "Your mother is right to ask what I mean. I meant a scene, not an agreement. But it is not enough for me to mean well."
 
 She spoke lightly, as if a small misunderstanding might be turned aside by being named. Nella did not accept the turn. She went to the end of the table and stood there with her chin lifted.
 
@@ -21228,27 +21228,27 @@ She spoke lightly, as if a small misunderstanding might be turned aside by being
 
 "Do children come with you?"
 
-Berrit looked up sharply. Iven took longer to answer.
+Berrit looked up sharply. Veyra took longer to answer.
 
 "Sometimes families travel together. Sometimes they do not. I do not ask a child to leave her family for a song."
 
 "I didn't ask to leave," Nella said. "I asked whether they come."
 
-Jake saw Sela's fingers tighten around the back of the bench. He could not see the thoughts behind them. She rose, took Tam by the hand, and said it was time to go. Nella followed, but before crossing the threshold she turned to Iven.
+Jake saw Sela's fingers tighten around the back of the bench. He could not see the thoughts behind them. She rose, took Tam by the hand, and said it was time to go. Nella followed, but before crossing the threshold she turned to Veyra.
 
 "Are there places where the donkey never becomes king?"
 
-"There are places that have never heard of him," Iven replied.
+"There are places that have never heard of him," Veyra replied.
 
 Nella looked astonished. That was the first answer of the evening that pleased her.
 
-After they had gone, Iven resumed the tune, though the room did not receive it in the same manner. Jake had heard people make decisions that changed the course of a road; he had not before watched a road appear in a child's face while she remained standing in one place.
+After they had gone, Veyra resumed the tune, though the room did not receive it in the same manner. Jake had heard people make decisions that changed the course of a road; he had not before watched a road appear in a child's face while she remained standing in one place.
 
-He considered going after Sela to say that Iven had offered nothing improper. He had no grounds to know that. He considered saying that a child was allowed to dream. He had not been asked to interpret the girl's dream. At last he remained where he sat. The choice cost him nothing, which made it easier than he wanted to admit.
+He considered going after Sela to say that Veyra had offered nothing improper. He had no grounds to know that. He considered saying that a child was allowed to dream. He had not been asked to interpret the girl's dream. At last he remained where he sat. The choice cost him nothing, which made it easier than he wanted to admit.
 
 ### III. A rehearsal of distances
 
-The next morning Eren found Iven practicing in the strip of sun that fell beyond the short awning. The fiddler had put her bow on the table and was tapping a rhythm with one finger while Sol tested how the cloth bird would move against the sky. There was no audience except a few people collecting bread.
+The next morning Eren found Veyra practicing in the strip of sun that fell beyond the short awning. The fiddler had put her bow on the table and was tapping a rhythm with one finger while Sol tested how the cloth bird would move against the sky. There was no audience except a few people collecting bread.
 
 Eren carried two plain boards. She had sold some earlier frames for Sela's portable floor, and these were the ones she had kept. One bore a shallow painted line; the other had been sanded so often that almost nothing remained of the first sketch. Her red-sky painting, made before the ashfall and withdrawn when people began mistaking invention for evidence, was nowhere in sight.
 
@@ -21276,7 +21276,7 @@ Eren drew a line on the wood with charcoal. "I don't want the doorway painted as
 
 "Because someone will decide the road is real."
 
-Iven watched her. "People decide a great many things about painted roads."
+Veyra watched her. "People decide a great many things about painted roads."
 
 "Yes," Eren said. "I helped them once."
 
@@ -21310,7 +21310,7 @@ In the doorway Fara appeared. She saw Eren's marked board, Meric's brace, Sol's 
 
 "Then it is well suited to this place."
 
-Fara's face did not soften, but she gave them a place beneath the surviving cloth for that evening, on one condition: the children would not be summoned, offered a part, or named in the performance without Sela's consent and their own willingness. Iven agreed. Meric set down his pins. Eren began painting a door with no wall around it.
+Fara's face did not soften, but she gave them a place beneath the surviving cloth for that evening, on one condition: the children would not be summoned, offered a part, or named in the performance without Sela's consent and their own willingness. Veyra agreed. Meric set down his pins. Eren began painting a door with no wall around it.
 
 ### IV. The small kingdom
 
@@ -21378,7 +21378,7 @@ That evening Fara's courtyard was crowded, but not in the manner of a gathering 
 
 Eren had painted the door the color of old bone. Its frame floated against plain wood, with no hinges, no latch, and no road behind it. Sol set the cloth bird on the upper edge. Meric had braced the panel so that a child could lean against it without bringing it down, but the performers had been told not to test it with force. None of this made a real building.
 
-Iven began with a slow song about a person who knocks at a door and is answered by the sound of the sea. Jake had heard the melody's opening at breakfast. Now it carried words of return and failure, none of which claimed to name the travelers at Ina's, or the people still missing somewhere beyond the settlement. He was thankful for that. The company had chosen not to turn visible suffering into convenient material.
+Veyra began with a slow song about a person who knocks at a door and is answered by the sound of the sea. Jake had heard the melody's opening at breakfast. Now it carried words of return and failure, none of which claimed to name the travelers at Ina's, or the people still missing somewhere beyond the settlement. He was thankful for that. The company had chosen not to turn visible suffering into convenient material.
 
 A small figure moved at the entrance. Nella stood just outside, with Sela and Tam behind her. She wore no costume. Her hands were empty.
 
@@ -21388,7 +21388,7 @@ Fara saw them and came out from behind the table.
 
 Sela nodded. Nella stayed beside her.
 
-After the song Iven began a brief play about a traveler who found a door in the middle of an empty field. Sol was the traveler. Berrit was the door's keeper, who had never seen a wall and did not understand why anyone believed the door needed one. The company played it gently. A man in the back laughed at the keeper's solemn insistence that he was guarding a threshold, though nothing stopped the traveler from walking around it.
+After the song Veyra began a brief play about a traveler who found a door in the middle of an empty field. Sol was the traveler. Berrit was the door's keeper, who had never seen a wall and did not understand why anyone believed the door needed one. The company played it gently. A man in the back laughed at the keeper's solemn insistence that he was guarding a threshold, though nothing stopped the traveler from walking around it.
 
 Jake watched Nella watching the scene. At the first laugh she smiled; at the second she went still. The door keeper claimed that without permission the traveler would be lost. The traveler walked around the door, took three steps into the dark, then stopped.
 
@@ -21404,11 +21404,11 @@ Jake watched Nella watching the scene. At the first laugh she smiled; at the sec
 
 For a long moment neither performer moved. The silence was so complete that Jake heard the low scrape of Fara's bowl against her counter. He thought of the carrier's papers that had gone away with Orrel, one false and one corrected, and of the unknown road that lay beyond their receipt. The play did not refer to any of those things. Still he felt the humiliation of recognizing an argument he could not control.
 
-Iven played a note. Sol stepped forward into darkness outside the circle of lamps. Berrit remained beside the door. He did not run after the traveler. He did not announce that the traveler had died, or become a thief, or found a new home.
+Veyra played a note. Sol stepped forward into darkness outside the circle of lamps. Berrit remained beside the door. He did not run after the traveler. He did not announce that the traveler had died, or become a thief, or found a new home.
 
 The scene ended.
 
-People applauded, but uncertainly. Some wanted the traveler to return. A woman asked aloud what became of him. Iven answered, "We have not written it." The woman said a story ought to know where it was going. Sol replied that perhaps the person in it ought to know first.
+People applauded, but uncertainly. Some wanted the traveler to return. A woman asked aloud what became of him. Veyra answered, "We have not written it." The woman said a story ought to know where it was going. Sol replied that perhaps the person in it ought to know first.
 
 Nella began clapping. She was the only person clapping at that moment, and the sound exposed her. Someone turned and called for the donkey king. Another person repeated the call, pleased to have recognized the child who had made them laugh days earlier.
 
@@ -21418,7 +21418,7 @@ Nella did not move toward the board. She stood with her arms by her sides until 
 
 "Not tonight," she said.
 
-It was a small voice, but it carried to the front tables. Someone laughed, thinking the refusal part of a joke. Iven raised her bow without playing. The company waited. Fara moved a tray between the tables, giving the room a reason to let the moment pass.
+It was a small voice, but it carried to the front tables. Someone laughed, thinking the refusal part of a joke. Veyra raised her bow without playing. The company waited. Fara moved a tray between the tables, giving the room a reason to let the moment pass.
 
 Nella had refused the part for which she had been remembered. No apology followed. She leaned against her mother and watched the blank space beside the painted door.
 
@@ -21426,7 +21426,7 @@ Nella had refused the part for which she had been remembered. No apology followe
 
 The troupe slept in a place Fara named and paid for its own bedding from the night's bowl. She did not offer tomorrow. It had been one performance, held under a shortened awning, and the courtyard belonged to the business that fed people whether or not they had enjoyed the play.
 
-Before dawn the company was preparing to leave. Jake had come early for the work book and found Iven fitting the fiddle into its case. Sol folded the bird. The painted door remained with Eren, who had sold neither its image nor the right to invent stories about it. Meric removed the brace and returned the pins to his bundle.
+Before dawn the company was preparing to leave. Jake had come early for the work book and found Veyra fitting the fiddle into its case. Sol folded the bird. The painted door remained with Eren, who had sold neither its image nor the right to invent stories about it. Meric removed the brace and returned the pins to his bundle.
 
 "You will use the door again?" Jake asked Eren.
 
@@ -21434,9 +21434,9 @@ Before dawn the company was preparing to leave. Jake had come early for the work
 
 He did not ask what that meant. He could have watched her paint for years and still failed to know the work she had not chosen to show him.
 
-Iven approached Sela where she stood with the children. Nella held Tam's hand. No one had called her there; they had come to see the departure.
+Veyra approached Sela where she stood with the children. Nella held Tam's hand. No one had called her there; they had come to see the departure.
 
-"I heard what you said last night," Iven told the girl. "You owe us no part."
+"I heard what you said last night," Veyra told the girl. "You owe us no part."
 
 "I know."
 
@@ -21444,7 +21444,7 @@ Iven approached Sela where she stood with the children. Nella held Tam's hand. N
 
 Nella took a breath. "Is the traveler still walking?"
 
-"I don't know," Iven answered. "We may hear from him in another play."
+"I don't know," Veyra answered. "We may hear from him in another play."
 
 "Or he may never come back."
 
@@ -21460,7 +21460,7 @@ Sela's face altered. It was not an expression Jake could interpret safely. She h
 
 It was less than the child wanted. It might also have been more than her mother had been able to say the night before.
 
-Iven lifted her pack. Berrit and Sol joined her. They did not invite the children to follow. Their destination remained their own unverified intention; no route, arrival, salary or future engagement was established by watching them go. Jake saw them pass beyond Fara's outer bench and vanish behind the first turn of buildings. That was as far as his knowledge followed.
+Veyra lifted her pack. Berrit and Sol joined her. They did not invite the children to follow. Their destination remained their own unverified intention; no route, arrival, salary or future engagement was established by watching them go. Jake saw them pass beyond Fara's outer bench and vanish behind the first turn of buildings. That was as far as his knowledge followed.
 
 Tam began asking whether the painted door would be left outside all winter. Nella told him it could be moved, because it had no walls. She was quiet again when they reached the edge of the camp.
 
@@ -21470,7 +21470,7 @@ He drew the four remaining coins from his pouch and set them beside his closed b
 
 Fara came out with the bread. Beyond the short edge of the awning the light fell across a bare section of courtyard, and for once Jake did not imagine repairing it. A room could have an opening and still be a room. A traveler could leave without becoming an accusation. A child could want the road without being given to it.
 
-From the street, faint enough to be mistaken for the wind, came the end of Iven's tune. Then the sound was gone. Jake could not decide whether the last note had been played or whether distance had taken it.
+From the street, faint enough to be mistaken for the wind, came the end of Veyra's tune. Then the sound was gone. Jake could not decide whether the last note had been played or whether distance had taken it.
 
 He wrote in his book only what he had actually seen: three performers departed at first light; the painted door remained. He made no entry for the road beyond his sight.
 
@@ -21480,7 +21480,7 @@ He wrote in his book only what he had actually seen: three performers departed a
 
 - **Primary dramatic question:** Can an uprooted child desire departure without her mother's necessary caution being mistaken for cruelty? Nella's imaginative hunger, Sela's refusal of an unsafe promise and Tam's attachment to his sister remain distinct. No child joins a traveling company.
 - **Causal movement:** The donkey-king performance creates a voluntary artistic invitation and a family disagreement. The visiting troupe plays an original door-and-traveler scene, and Nella declines the audience's demand to repeat her earlier comic role. Her refusal is accepted, while her desire for a different road survives.
-- **POV discipline:** Only Jake / CHAR-JAKE-KALOPER receives interior access. Sela, Nella, Tam, Fara, Iven, Berrit, Sol, Meric, Eren and Hessa are observed through speech, actions and uncertain outward signs. No Edrin/Edin narrator or unauthenticated 2016 owner interiority is introduced.
+- **POV discipline:** Only Jake / CHAR-JAKE-KALOPER receives interior access. Sela, Nella, Tam, Fara, Veyra, Berrit, Sol, Meric, Eren and Hessa are observed through speech, actions and uncertain outward signs. No Edrin/Edin narrator or unauthenticated 2016 owner interiority is introduced.
 - **Continuity:** Sela's portable floor remains a provisional camp object; Hessa's six retain twenty-one nights by private agreement, with the other eight and her missing sister still unlocated. Eren's speculative red-sky painting remains withdrawn. Fara's inherited awning stays shortened. Ina's wet dye and two dry orders remain unresolved. The closed kiln passage, missing freight and second horse, and Orrel's false/corrected packet have not been resolved. Jake keeps four coins from his false testimony; the other four are still bounded to Sela's floor materials. His shelter debt, Esi letter receipt and Pell's lost wage opportunity remain open.
 - **Historical firewall:** The theatrical company, performances, door panel, lodging, fictional dialogue, songs, scenery and travel are entirely secondary-world invention, not an attested 2016 settlement event or a mapped approved route. No historical ESPN result, owner psychology, identity lineage, title or carrier judgment is claimed. The earlier Sela net-mender and current displaced mother are NOT silently equated.
 - **Independent review challenges:** (1) Does the new troupe offer genuine expansion, or merely another visitor/shelter subplot? (2) Is Nella's desire and refusal legible without implying an unapproved age? (3) Does Sela's "wanting will not be forbidden" feel earned, or too modern and declarative? (4) Does the door play mirror Jake's untrusted testimony too neatly? (5) Does the ending rely too heavily on Jake's reflection rather than Sela/Nella's agency? (6) Literary handling of wandering performers, instruments, fees and courtyard geography requires historical and Atlas challenge. (7) Forty-five chapters confined to proposed Jake interiority constitute a significant structural deficit; do not solve by licensing another unverified historical owner.

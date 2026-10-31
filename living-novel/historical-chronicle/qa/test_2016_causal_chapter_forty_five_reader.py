@@ -11,8 +11,8 @@ BASE = ROOT / "living-novel/historical-chronicle/seasons/2016/causal-novel"
 CHAPTER = "THE_ROAD_THAT_WOULD_NOT_WAIT_CHAPTER_45_NONCANON.md"
 READER = "READING_COPY_CAUSAL_CHAPTERS_01_45_NONCANON.md"
 PREVIOUS = "READING_COPY_CAUSAL_CHAPTERS_01_44_NONCANON.md"
-CHAPTER_SHA = "e39363bcf373019193d1d299a9509bcb589eb9ba"
-READER_SHA = "839c6bba9df3e20a07c5048368ad43d4641e1208"
+CHAPTER_SHA = "8c36678412071e935fd6b7bf0c469a04386f6588"
+READER_SHA = "de28a89a8624479a9f5af202968edadc7c7fecdd"
 PREVIOUS_SHA = "e83303d18e0485a4cc811d7ac9c12b42f28a58be"
 ARCHIVE_SHA = "6dbec1fe2537139f3a97c6a78250e2bae082a518"
 PROTECTED = {
@@ -95,8 +95,9 @@ class FortyFiveChapterReader(unittest.TestCase):
         self.assertIn("withdrawn",self.chapter)
         self.assertIn("painted door",self.prose)
     def test_12_family_and_hosts_have_agency(self):
-        for name in ("Sela","Nella","Tam","Fara","Iven","Berrit","Sol","Eren","Meric","Hessa"):
+        for name in ("Sela","Nella","Tam","Fara","Veyra","Berrit","Sol","Eren","Meric","Hessa"):
             self.assertIn(name,self.prose)
+        self.assertNotIn("Iven",self.chapter)
     def test_13_coin_debt_and_shelter_still_open(self):
         for phrase in ("four coins","Pell","Orrel","twenty-one nights","portable floor"):
             self.assertIn(phrase,self.chapter)

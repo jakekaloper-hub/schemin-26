@@ -8,14 +8,14 @@
 - The retained 2016 weekly archive blob `6dbec1fe2537139f3a97c6a78250e2bae082a518` is historical evidence, **not** owner-to-slot authentication. No ESPN results or actual-owner private motives were introduced.
 
 ## Actual writing, assembly and review
-- Six connected fictional movements; **4,664 whitespace words including metadata/editorial handoff**. New source file `THE_ROAD_THAT_WOULD_NOT_WAIT_CHAPTER_45_NONCANON.md`, Git blob `e39363bcf373019193d1d299a9509bcb589eb9ba`.
-- Continuous forty-five-chapter reader `READING_COPY_CAUSAL_CHAPTERS_01_45_NONCANON.md`, **263,852 whitespace words including manifest and chapter notes**, Git blob `839c6bba9df3e20a07c5048368ad43d4641e1208`.
+- Six connected fictional movements; **4,664 whitespace words including metadata/editorial handoff**. New source file `THE_ROAD_THAT_WOULD_NOT_WAIT_CHAPTER_45_NONCANON.md`, Git blob `8c36678412071e935fd6b7bf0c469a04386f6588`.
+- Continuous forty-five-chapter reader `READING_COPY_CAUSAL_CHAPTERS_01_45_NONCANON.md`, **263,852 whitespace words including manifest and chapter notes**, Git blob `de28a89a8624479a9f5af202968edadc7c7fecdd`.
 - **Observed in-memory JS assembly PASS**: manifest 1–45 ordered, 45 begin and 45 end markers, one terminal marker; source text of all prior 44 embedded chapters preserved byte-exact after boundary stripping and new source embedded exactly.
 - Prior reader `READING_COPY_CAUSAL_CHAPTERS_01_44_NONCANON.md` remains frozen, Git blob `e83303d18e0485a4cc811d7ac9c12b42f28a58be`.
 - Added 20 on-disk Python regressions in `living-novel/historical-chronicle/qa/test_2016_causal_chapter_forty_five_reader.py`; at checkpoint creation **NOT YET RUN**. No test PASS or independent review is claimed until observed on exact committed SHA.
 
 ## Literary turning point
-A three-person traveling company earns one evening's lodging and performance at Fara's table house. Nella's longing to hear other places creates a material mother-daughter disagreement with Sela; the child refuses a public summons to repeat her donkey-king role. Eren produces a fictive doorway with no road or wall, while maintaining the ban on using her speculative red-sky painting as historical evidence. Iven's company leaves without taking a child or securing a new itinerary. The desire to travel remains alive and unresolved.
+A three-person traveling company earns one evening's lodging and performance at Fara's table house. Nella's longing to hear other places creates a material mother-daughter disagreement with Sela; the child refuses a public summons to repeat her donkey-king role. Eren produces a fictive doorway with no road or wall, while maintaining the ban on using her speculative red-sky painting as historical evidence. Veyra's company leaves without taking a child or securing a new itinerary. The desire to travel remains alive and unresolved.
 
 ## Adversarial author-side challenges — not Authors Council/Umpire acceptance
 1. A visiting troupe can resemble another arrivals-and-shelter episode; assess whether new family dramatic pressure changes the narrative architecture enough.
@@ -25,6 +25,8 @@ A three-person traveling company earns one evening's lodging and performance at 
 5. Meric, Eren and Hessa retain outward observable agency, yet the manuscript remains singular Jake-interior. Eleven historical owner-to-slot associations remain unauthenticated. Do not add unauthorized POV.
 6. Earlier fictional Sela net-mender and displaced mother have a **name collision**; no identity merger is asserted or justified.
 7. Still unresolved: Orrel's false/corrected packet receipt, Pell's lost offer and ruptured trust, second horse/cart/freight, four coins retained by Jake and four advanced for the floor, travelers' destinations, Hessa's sister, Ina's dye suspension, short awning, closed kiln, Esi letter receipt, and Jake's outstanding shelter debt.
+
+- **Continuity repair (this run):** A verified reading of Chapter XVI identified Bram's aunt **Iven**. The newly introduced Chapter XLV traveling fiddler originally bore the same name, risking an unsupported identity conflation. The new performer is now **Veyra** throughout the chapter and exact-source reader, without altering the previous 44 chapters. The older Sela name collision remains unresolved.
 
 ## Technical/release disposition
 - Assembly: PASS (in-memory JS only).
