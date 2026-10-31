@@ -117,7 +117,7 @@ class ChapterFortyNine(unittest.TestCase):
 
     def test_18_21_night_private_lodging_retained(self):
         self.assertIn("twenty-one-night agreement", self.prose)
-        self.assertIn("the three who stay", self.prose)
+        self.assertIn("The three who stay retain it", self.prose)
         self.assertIn("They would travel without it.", self.prose)
 
     def test_19_open_loops_not_silently_closed(self):
