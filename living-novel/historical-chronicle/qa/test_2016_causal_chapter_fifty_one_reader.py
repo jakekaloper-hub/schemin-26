@@ -122,7 +122,7 @@ class ChapterFiftyOne(unittest.TestCase):
 
     def test_21_property_not_sold_or_transferred(self):
         self.assertIn("would not allow Brast, Dovan, Neris or Tovin to sell her share", self.prose)
-        self.assertIn("not to surrender any claim to it", self.prose)
+        self.assertIn("not to *surrender* any claim to it", self.prose)
 
     def test_22_stair_unrepaired(self):
         self.assertIn("had not opened the upper floor or declared it fit", self.prose)
