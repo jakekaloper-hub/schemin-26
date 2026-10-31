@@ -94,7 +94,7 @@ class ThirtySevenChapterReader(unittest.TestCase):
     def test_10_unrepaired_awning_loss(self):
         for phrase in ("the old awning will no longer reach the outer post",
                        "She drew the line herself",
-                       "The painted flower was upside down"):
+                       "The faded flower was upside down"):
             self.assertIn(phrase, self.prose)
         self.assertIn("Fara permanently shortens", self.reader)
 
