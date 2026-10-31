@@ -25,10 +25,10 @@ PROTECTED = {
 
 def git_blob(path):
     raw = path.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\\0" + raw).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\0" + raw).hexdigest()
 
 def manifest_rows(text):
-    rows = re.findall(r"^\\| (\\d+) \\| `([^`]+)` \\| `([0-9a-f]{40})` \\| (\\d+) \\|$", text, re.M)
+    rows = re.findall(r"^\| (\d+) \| `([^`]+)` \| `([0-9a-f]{40})` \| (\d+) \|$", text, re.M)
     return [(int(n), name, sha, int(words)) for n, name, sha, words in rows]
 
 def section(text, name, sha):
@@ -45,7 +45,7 @@ class FortyFourChapterReader(unittest.TestCase):
         cls.previous = (BASE / PREVIOUS).read_text()
         cls.rows = manifest_rows(cls.reader)
         cls.previous_rows = manifest_rows(cls.previous)
-        cls.prose = cls.chapter.split("### I.", 1)[1].split("\\n---\\n", 1)[0]
+        cls.prose = cls.chapter.split("### I.", 1)[1].split("\n---\n", 1)[0]
 
     def test_01_manifest_44_ordered_sources(self):
         self.assertEqual([r[0] for r in self.rows], list(range(1, 45)))
@@ -80,7 +80,7 @@ class FortyFourChapterReader(unittest.TestCase):
         self.assertEqual(git_blob(BASE / READER), READER_SHA)
 
     def test_07_six_substantial_connected_movements(self):
-        self.assertEqual(len(re.findall(r"^### [IVX]+\\.", self.chapter, re.M)), 6)
+        self.assertEqual(len(re.findall(r"^### [IVX]+\.", self.chapter, re.M)), 6)
         self.assertEqual(len(self.chapter.split()), 5857)
         self.assertGreater(len(self.prose.split()), 5000)
         self.assertEqual(len(self.reader.split()), 259086)
@@ -93,7 +93,7 @@ class FortyFourChapterReader(unittest.TestCase):
     def test_09_work_loss_is_not_invented_wage(self):
         self.assertIn("I did not earn a wage today", self.prose)
         self.assertIn("Pell lost a hauling chance", self.prose)
-        self.assertIn("He did not earn a wage today", self.prose)
+        self.assertIn("The injury to Pell was not only the lost chance", self.prose)
 
     def test_10_money_bounded_not_restitution(self):
         self.assertIn("Four coins", self.prose)
@@ -121,12 +121,12 @@ class FortyFourChapterReader(unittest.TestCase):
     def test_15_only_canonical_owner_interiority(self):
         self.assertIn("Sole limited interior viewpoint: proposed fictional Jake", self.chapter)
         self.assertIn("CHAR-JAKE-KALOPER", self.chapter)
-        self.assertNotRegex(self.prose, r"\\b(?:Edrin|Edin|Oren)\\b")
+        self.assertNotRegex(self.prose, r"\b(?:Edrin|Edin|Oren)\b")
 
     def test_16_no_competitive_history_invented_in_prose(self):
         self.assertNotIn("ESPN", self.prose)
         self.assertNotIn("Flaim", self.prose)
-        self.assertNotRegex(self.prose, r"\\bWeek \\d+\\b")
+        self.assertNotRegex(self.prose, r"\bWeek \d+\b")
 
     def test_17_protected_opening_unmodified(self):
         for path, sha in PROTECTED.items():
