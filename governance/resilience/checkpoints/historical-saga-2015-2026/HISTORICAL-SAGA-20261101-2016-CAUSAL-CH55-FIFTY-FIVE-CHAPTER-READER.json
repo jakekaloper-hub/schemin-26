@@ -76,9 +76,36 @@
     "published": false
   },
   "next": [
-    "Verify 31 new tests and full Novel OS CI at exact committed HEAD, including source hashes and protected main blobs.",
-    "Attempt independent author/historical/Character Canon/Atlas/Umpire review without self-approval.",
-    "If not blocked, prioritize substantial Chapter LVI over further planning, while tracking 55 Jake-limited chapters as structural debt.",
-    "No historical identity invention, canon promotion, merge or publication."
-  ]
+    "Verify the exact final checkpoint commit HEAD and all four required GitHub Actions; 871 regressions passed on ad1bb4fb0a5e8b11a770324857502a90d1e0f817.",
+    "Independently examine literary continuity and period-correct Atlas/Character and historical provenance; request submitted reviews, don't self-approve.",
+    "If eligible, produce substantial Chapter LVI and avoid repeated witness/return plot engines; track 55 Jake-only chapter POV structural debt.",
+    "Respect Founder-only canon/publication gates; no history invention, merge, or deployment."
+  ],
+  "verification_observed": {
+    "at_commit": "ad1bb4fb0a5e8b11a770324857502a90d1e0f817",
+    "python_causal_reader_regressions": "PASS_871_871_IN_GITHUB_ACTIONS",
+    "github_actions": {
+      "novel_os_ci": {
+        "run_id": 41270324835,
+        "conclusion": "success"
+      },
+      "cross_domain_authority_ci": {
+        "run_id": 41270324824,
+        "conclusion": "success"
+      },
+      "bullpen_runtime_ci": {
+        "run_id": 41270324831,
+        "conclusion": "success"
+      },
+      "repository_merge_gate": {
+        "run_id": 41270324834,
+        "conclusion": "success"
+      }
+    },
+    "initial_failed_commit": "3ce48207ddf6d8b5587d17dc0036658820ffbcc1",
+    "initial_failure": "Novel OS CI failed due test_22_hessa_voluntary_departure asserting a literal without leading And; assertion corrected only in test; chapter and reader unchanged",
+    "independent_review_request_comment_id": 6552998598,
+    "independent_acceptance": "NOT_RECEIVED",
+    "note": "The checkpoint update itself creates a newer Git commit; verify exact final head workflows separately."
+  }
 }
