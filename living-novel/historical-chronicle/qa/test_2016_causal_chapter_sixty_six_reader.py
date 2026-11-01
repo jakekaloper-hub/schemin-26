@@ -138,7 +138,7 @@ class ChapterSixtySix(unittest.TestCase):
 
     def test_28_roof_and_peg_remain_open(self):
         self.assertIn("The roof still leaks", self.prose)
-        self.assertIn("Nella's two pegs made but not fitted", self.qa)
+        self.assertIn("Nella's broken-frame pegs not fitted", self.qa)
 
     def test_29_no_unauthorized_canon_transition(self):
         self.assertIn("NOT independent review", self.chapter)
