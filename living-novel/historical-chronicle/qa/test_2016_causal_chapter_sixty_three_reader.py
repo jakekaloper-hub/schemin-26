@@ -33,7 +33,7 @@ PROTECTED = {
 
 def blob_sha(path):
     raw = path.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\\x00" + raw).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\x00" + raw).hexdigest()
 
 class ChapterSixtyThree(unittest.TestCase):
     @classmethod
@@ -41,7 +41,7 @@ class ChapterSixtyThree(unittest.TestCase):
         cls.chapter = (BASE / SOURCES[-1][0]).read_text()
         cls.reader = (BASE / READER).read_text()
         cls.qa = (BASE / QA).read_text()
-        cls.prose = cls.chapter.split("### I.", 1)[1].split("\\n---\\n", 1)[0]
+        cls.prose = cls.chapter.split("### I.", 1)[1].split("\n---\n", 1)[0]
 
     def test_01_all_eight_source_blob_pins(self):
         for filename, sha, _ in SOURCES:
@@ -92,18 +92,18 @@ class ChapterSixtyThree(unittest.TestCase):
         self.assertEqual(blob_sha(BASE / FIFTY_FIVE), FIFTY_FIVE_SHA)
 
     def test_13_retired_or_institutional_povs_excluded(self):
-        self.assertNotRegex(self.prose, r"\\b(?:Edrin|Edin|Oren)\\b")
+        self.assertNotRegex(self.prose, r"\b(?:Edrin|Edin|Oren)\b")
 
     def test_14_no_invented_league_match_result(self):
-        self.assertNotRegex(self.prose, r"\\b(?:ESPN|Flaim|quarterback|touchdown|Week [0-9]+)\\b")
+        self.assertNotRegex(self.prose, r"\b(?:ESPN|Flaim|quarterback|touchdown|Week [0-9]+)\b")
 
     def test_15_only_proposed_registered_interior_pov(self):
         self.assertIn("Sole limited interior viewpoint: proposed fictional Jake", self.chapter)
         self.assertIn("63 consecutive Jake-limited chapters", self.qa)
 
     def test_16_not_a_water_sanitation_instruction(self):
-        self.assertIn("not Atlas-approved settlements", self.chapter)
-        self.assertIn("water-quality certification", self.qa)
+        self.assertIn("not ESPN/Flaim events, approved Atlas geography", self.chapter)
+        self.assertIn("water-quality certification", self.chapter)
 
     def test_17_first_rain_after_fire(self):
         self.assertIn("Then the rain came", self.prose)
@@ -119,7 +119,7 @@ class ChapterSixtyThree(unittest.TestCase):
 
     def test_20_no_unearned_potable_certification(self):
         self.assertIn("I would not promise what I have not tested", self.prose)
-        self.assertIn("no assertion that source or catch is safe", self.qa)
+        self.assertIn("water safety is NOT established", self.qa)
 
     def test_21_esi_owns_limited_stored_water(self):
         self.assertIn("It isn't a gift from the sky", self.prose)
@@ -147,7 +147,7 @@ class ChapterSixtyThree(unittest.TestCase):
 
     def test_27_reed_workers_new_frame_not_destroyed(self):
         self.assertIn("The frame stood", self.prose)
-        self.assertIn("reeds are damp", self.qa)
+        self.assertIn("reduced capacity", self.qa)
 
     def test_28_one_credit_not_debt_cleared(self):
         self.assertIn("shelter tally was one mark smaller", self.prose)
@@ -175,15 +175,15 @@ class ChapterSixtyThree(unittest.TestCase):
 
     def test_34_previous_seven_continuation_sources_are_prefix(self):
         previous = (BASE / PREVIOUS).read_text()
-        anchor = "\\n\\n## Chapter LVI — The Price of One Wheel"
-        self.assertEqual(self.reader.split(anchor, 1)[1].split("\\n\\n## Chapter LXIII", 1)[0].strip(), previous.split(anchor, 1)[1].strip())
+        anchor = "\n\n## Chapter LVI — The Price of One Wheel"
+        self.assertEqual(self.reader.split(anchor, 1)[1].split("\n\n## Chapter LXIII", 1)[0].strip(), previous.split(anchor, 1)[1].strip())
 
     def test_35_separate_historical_owner_and_sela_hold(self):
-        self.assertNotRegex(self.prose, r"\\bSela\\b")
+        self.assertNotRegex(self.prose, r"\bSela\b")
         self.assertIn("Historical owner account authentication remains absent", self.qa)
 
     def test_36_no_invented_water_institution(self):
-        self.assertIn("No new civic authority", self.qa)
+        self.assertIn("No new civic authority", self.chapter)
         self.assertIn("The gesture had no force of law", self.prose)
 
     def test_37_consequence_not_reset(self):
