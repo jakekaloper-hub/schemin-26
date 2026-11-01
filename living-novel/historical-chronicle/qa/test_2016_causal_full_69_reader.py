@@ -105,7 +105,7 @@ class Unified2016SixtyNineSourceReader(unittest.TestCase):
         self.assertEqual(len(re.findall(r"^### [IVX]+\. ", self.chapter, re.M)), 6)
 
     def test_14_explicit_draft_editorial_hold(self):
-        for phrase in ("DRAFT / NONCANON", "INDEPENDENT EDITORIAL HOLD", "Founder", "not provider-authenticated"):
+        for phrase in ("DRAFT / NONCANON", "INDEPENDENT EDITORIAL HOLD", "FOUNDER ACCEPTANCE HOLD", "not provider-authenticated"):
             with self.subTest(phrase=phrase):
                 self.assertIn(phrase, self.chapter)
 
