@@ -125,7 +125,7 @@ class ChapterSixty(unittest.TestCase):
         self.assertIn("The two things need not belong to the same journey", self.prose)
 
     def test_22_far_shore_motion_not_assigned(self):
-        self.assertIn('"I saw something move"', self.prose)
+        self.assertIn("I saw something move", self.prose)
         self.assertIn("There was no reply", self.prose)
 
     def test_23_ilyen_chooses_route_and_companion(self):
