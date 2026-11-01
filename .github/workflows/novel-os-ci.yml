@@ -198,3 +198,5 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_reading_copy.py" -v
       - name: Validate 2023 source-pinned postseason and full-season Chronicle reading copy (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2023_postseason_full_season.py" -v
+      - name: Verify source-exact 2025 two-owner historical reading copy (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2025_two_voices_reader.py" -v
