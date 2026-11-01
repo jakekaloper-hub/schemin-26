@@ -1,0 +1,204 @@
+{
+  "schema": "schemin26.complete_row_diff.v1",
+  "run_id": "S26-MEMO-W08-20261101-AUTOMATED",
+  "trace_id": "TRACE-S26-W08-20261101",
+  "work_key": "league=1417621/season=2026/week=8/date=2026-11-01/adapter=flaim_espn/gateway_payload=b363edf551903df3483f1fd026fcb5eb289b40e7/manifest=3ec8320b66e8da0e6bd798a9597f8df2160a0d9a",
+  "previous_date": "2026-10-31",
+  "current_date": "2026-11-01",
+  "source7": "mTransactions2",
+  "source8": "mTransactions2",
+  "week7": {
+    "previous_count": 41,
+    "current_count": 41,
+    "added_count": 0,
+    "removed_count": 0,
+    "modified_count": 0,
+    "unchanged_count": 41,
+    "added": [],
+    "removed": [],
+    "modified": []
+  },
+  "week8": {
+    "previous_count": 27,
+    "current_count": 30,
+    "added_count": 3,
+    "removed_count": 0,
+    "modified_count": 0,
+    "unchanged_count": 27,
+    "added": [
+      {
+        "transaction_id": "e9363a60-0761-4ed4-a323-91fe6a3e45ad",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793541199081,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-01",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "12"
+        ],
+        "players_added": [
+          {
+            "id": "4431431",
+            "name": "Corey Kiner",
+            "position": "RB",
+            "team": "NE"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "3117256",
+            "name": "Dalton Schultz",
+            "position": "TE",
+            "team": "HOU"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "ac2d33fa-3ce7-43cb-933f-6be097d8c140",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793537417124,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-01",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "3"
+        ],
+        "players_added": [
+          {
+            "id": "4686658",
+            "name": "Mike Washington Jr.",
+            "position": "RB",
+            "team": "LV"
+          }
+        ],
+        "players_dropped": [],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "a90fb33f-959e-4af7-958c-63dcd56344d9",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793497927074,
+        "timestamp_source": "proposedDate",
+        "date": "2026-10-31",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "8"
+        ],
+        "players_added": [
+          {
+            "id": "-16008",
+            "name": "Lions D/ST",
+            "position": "D/ST",
+            "team": "DET"
+          }
+        ],
+        "players_dropped": [],
+        "faab_bid": 0
+      }
+    ],
+    "removed": [],
+    "modified": []
+  },
+  "week7_final_outcomes_stable": true,
+  "week8_score_changes": [],
+  "week8_projection_changes": [
+    {
+      "teamId": 10,
+      "old": 126.98843405,
+      "current": 127.01383333
+    },
+    {
+      "teamId": 12,
+      "old": 160.05058966,
+      "current": 162.42391283
+    },
+    {
+      "teamId": 1,
+      "old": 148.13322877,
+      "current": 148.5300697
+    },
+    {
+      "teamId": 9,
+      "old": 149.72173615,
+      "current": 149.76529431
+    },
+    {
+      "teamId": 5,
+      "old": 135.13723088,
+      "current": 121.45484879
+    },
+    {
+      "teamId": 11,
+      "old": 134.04182256,
+      "current": 134.02597446
+    },
+    {
+      "teamId": 6,
+      "old": 135.91603962,
+      "current": 135.94124166
+    },
+    {
+      "teamId": 7,
+      "old": 118.65247308,
+      "current": 125.90251838
+    },
+    {
+      "teamId": 3,
+      "old": 160.97300361,
+      "current": 160.9604615
+    },
+    {
+      "teamId": 8,
+      "old": 132.77511856,
+      "current": 141.73868758
+    },
+    {
+      "teamId": 2,
+      "old": 156.46866317,
+      "current": 156.58660149
+    },
+    {
+      "teamId": 4,
+      "old": 148.17715538,
+      "current": 148.2720595
+    }
+  ],
+  "source_checks": {
+    "correct_league_id": true,
+    "all_12_teams": true,
+    "all_6_week7_games": true,
+    "all_6_week8_games": true,
+    "direct_week7_gateway_scores": true,
+    "direct_week8_gateway_pair_winners": true,
+    "direct_gateway_standings": true,
+    "week7_final_score_stability": true,
+    "week8_winner_unfinalized": true,
+    "week7_transaction_no_truncation": true,
+    "week8_transaction_no_truncation": true,
+    "invalid_dates_zero": true,
+    "unique_week7_transaction_ids": true,
+    "unique_week8_transaction_ids": true,
+    "transaction_row_accounting_week7": true,
+    "transaction_row_accounting_week8": true,
+    "no_week7_row_removals": true,
+    "no_week8_row_removals": true,
+    "source_type_stable": true,
+    "source_manifest_freshness_metadata_present": true,
+    "source_not_independently_promoted": true
+  },
+  "source_gaps": {
+    "week8_trade_details_unavailable": [
+      "dbf30881-59af-4b1d-9bdc-89b0e88435ae",
+      "18603527-f818-408c-a071-cae9bc5713e7"
+    ],
+    "raw_http_bytes_unavailable": true,
+    "steward_unacknowledged": true
+  }
+}
