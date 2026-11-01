@@ -100,7 +100,7 @@ class ChapterFiftySeven(unittest.TestCase):
 
     def test_16_unknown_cause(self):
         self.assertIn('"Did you see how it began?"', self.prose)
-        self.assertIn("He could not see the source", self.prose)
+        self.assertIn("Jake could not see the source", self.prose)
 
     def test_17_no_false_fire_safety_certainty(self):
         self.assertIn("I cannot tell how far the fire has spread", self.prose)
