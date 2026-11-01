@@ -1,7 +1,7 @@
 {
   "checkpoint_id": "HISTORICAL-SAGA-20261101-2016-CAUSAL-CH70-UNIFIED-70-CHAPTER-READER",
   "date_utc": "2026-11-01",
-  "status": "CH70_UNIFIED_70_READER_PERSISTED_FINAL_CI_AND_INDEPENDENT_REVIEW_PENDING",
+  "status": "CH70_UNIFIED_70_READER_COMMITTED_AND_TESTED_ON_HEAD_7E1A_WITH_EDITORIAL_HOLD",
   "project": "Commonwealth Living Novel / Historical Saga",
   "mission": "BULLPEN_PERMANENT_EXECUTIVE_MANDATE",
   "repository": "jakekaloper-hub/schemin-26",
@@ -75,13 +75,40 @@
     "manifest_rows_constructed": 70,
     "predecessor_reader_deliberately_modified": false,
     "protected_2026_chapters_deliberately_modified": false,
-    "independent_tests_observed": false
+    "independent_tests_observed": false,
+    "github_actions_tests_observed": true
   },
   "ci": {
-    "exact_final_checkpoint_commit": "PENDING_GITHUB_READBACK",
-    "new_suite": "PENDING",
-    "historical_regressions": "PENDING",
-    "required_workflows": "PENDING"
+    "tested_commit": "7e1a16bb7b440a81f9536c0c2bad92a098e62a31",
+    "new_suite": "PASS — 20/20 tests in exact-head GitHub Actions Novel OS CI log",
+    "earlier_68_reader": "PASS",
+    "earlier_69_reader": "PASS",
+    "causal_reader_chain": "PASS",
+    "required_workflows": [
+      {
+        "name": "Novel OS CI",
+        "id": 41347828633,
+        "conclusion": "success"
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "id": 41347828658,
+        "conclusion": "success"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "id": 41347828639,
+        "conclusion": "success"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "id": 41347828648,
+        "conclusion": "success"
+      }
+    ],
+    "tested_job_id": 124971346954,
+    "independent_umpire": "NO INDEPENDENT APPROVAL",
+    "next_checkpoint_update_head": "CI_TO_BE_READ_AFTER_THIS_RECEIPT_COMMIT"
   },
   "story": {
     "proposed_fiction_only": true,
@@ -116,5 +143,19 @@
     "Seek independent Authors Council / Umpire challenge, especially the seventy-owner POV imbalance, labor-board allegory, historical identity and conditional survivor event.",
     "Period-correct ESPN manager account IDs are required to license additional 2016 owner-character interiors; do not infer owners from 2016 team names.",
     "Prioritize substantive fiction only under noncanon and no-False-green guards; do not auto-merge or publish."
-  ]
+  ],
+  "diff_readback": {
+    "base_commit": "a24d10f099fa4efee062594f9d83c34aa979bcd8",
+    "tested_commit": "7e1a16bb7b440a81f9536c0c2bad92a098e62a31",
+    "new_files": 5,
+    "modified_files": 1,
+    "protected_canon_modifications": 0,
+    "modified_path": ".github/workflows/novel-os-ci.yml"
+  },
+  "review_request": {
+    "pr_number": 243,
+    "comment_id": 6563565574,
+    "independent_review_count_at_readback": 0,
+    "acceptance": "HOLD"
+  }
 }
