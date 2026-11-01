@@ -35,7 +35,7 @@ PROTECTED = {
 
 def blob_sha(path):
     raw = path.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\\x00" + raw).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\x00" + raw).hexdigest()
 
 
 class ChapterSixtyFour(unittest.TestCase):
@@ -44,7 +44,7 @@ class ChapterSixtyFour(unittest.TestCase):
         cls.chapter = (BASE / SOURCES[-1][0]).read_text()
         cls.reader = (BASE / READER).read_text()
         cls.qa = (BASE / QA).read_text()
-        cls.prose = cls.chapter.split("### I.", 1)[1].split("\\n---\\n", 1)[0]
+        cls.prose = cls.chapter.split("### I.", 1)[1].split("\n---\n", 1)[0]
 
     def test_01_all_nine_source_blob_pins(self):
         for filename, sha, _ in SOURCES:
@@ -107,10 +107,10 @@ class ChapterSixtyFour(unittest.TestCase):
         self.assertIn("64 consecutive Jake-limited historical chapters", self.qa)
 
     def test_16_no_retired_or_archival_narrator(self):
-        self.assertNotRegex(self.prose, r"\\b(?:Edrin|Edin|Oren)\\b")
+        self.assertNotRegex(self.prose, r"\b(?:Edrin|Edin|Oren)\b")
 
     def test_17_no_unverified_real_matchup_or_score(self):
-        self.assertNotRegex(self.prose, r"\\b(?:ESPN|Flaim|quarterback|touchdown|Week [0-9]+)\\b")
+        self.assertNotRegex(self.prose, r"\b(?:ESPN|Flaim|quarterback|touchdown|Week [0-9]+)\b")
 
     def test_18_nella_prior_false_performance_preserved(self):
         self.assertIn("Nella returning part of the payment", self.prose)
@@ -200,9 +200,9 @@ class ChapterSixtyFour(unittest.TestCase):
 
     def test_40_old_eight_chapter_source_sections_exact_prefix(self):
         old = (BASE / PREVIOUS).read_text()
-        delim = "\\n## Chapter LVI —"
+        delim = "\n## Chapter LVI —"
         self.assertEqual(
-            self.reader.split(delim, 1)[1].split("\\n\\n## Chapter LXIV", 1)[0].strip(),
+            self.reader.split(delim, 1)[1].split("\n\n## Chapter LXIV", 1)[0].strip(),
             old.split(delim, 1)[1].strip(),
         )
 
