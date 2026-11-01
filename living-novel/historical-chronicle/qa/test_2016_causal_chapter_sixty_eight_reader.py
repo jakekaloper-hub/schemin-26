@@ -137,7 +137,7 @@ class ChapterSixtyEight(unittest.TestCase):
 
     def test_28_father_receives_only_before_separation_memory(self):
         self.assertIn("He helped me once", self.prose)
-        self.assertIn("a boot", self.prose)
+        self.assertIn("A boot. I had caught it in mud", self.prose)
         self.assertIn("I don't know what happened to him after we parted", self.prose)
 
     def test_29_no_search_leaves_from_fake_map(self):
