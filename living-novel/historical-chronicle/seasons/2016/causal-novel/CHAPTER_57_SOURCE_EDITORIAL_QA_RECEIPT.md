@@ -13,7 +13,7 @@
 ## Produced artifacts, observed
 
 - Chapter: `THE_BLACK_MEADOW_CHAPTER_57_NONCANON.md`, 4,471 whitespace-separated words total, 4,292 narrative words in six movements, Git blob `d2a483e2d6b90e79b9d858525a1e19ae7657648c`.
-- Source-exact continuation: `READING_COPY_CAUSAL_CHAPTERS_56_57_NONCANON.md`, 9,788 whitespace-separated words (including manifest, markers, and both source texts); it includes the previously unmodified Chapter LVI blob `410285ab80b12c4ea9f07840b51bbd7ddc79dfb2` plus the exact Chapter LVII blob above.
+- Source-exact continuation: `READING_COPY_CAUSAL_CHAPTERS_56_57_NONCANON.md`, 9,787 whitespace-separated words (including manifest, markers, and both source texts); it includes the previously unmodified Chapter LVI blob `410285ab80b12c4ea9f07840b51bbd7ddc79dfb2` plus the exact Chapter LVII blob above.
 - Previous 55-chapter reading copy remains separate and unchanged at blob `a21bbcbc7268e6523378097aa60d62e1c85bed35`. The previous one-chapter continuation remains separate at blob `be596c9f1b172fad7c85f0dfacb0ce30838cc46b`. **No assembled 57-chapter monolith is claimed.**
 - No edits to protected 2026 Prologue / Chapters I–III on main, historical source facts, Character Canon, or Atlas.
 
