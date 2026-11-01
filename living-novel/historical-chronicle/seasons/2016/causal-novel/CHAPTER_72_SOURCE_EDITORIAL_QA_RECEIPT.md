@@ -6,7 +6,7 @@
 
 - New actual prose: **The Pit Without a Floor**, Chapter LXXII, 5,616 whitespace-separated words including header/handoff, six movements, source blob `4cd6a0785a57cdae14f21a1a1a0c7011c324c716`. Externally viewed scenes remain limited to Jake / `CHAR-JAKE-KALOPER`; no additional historical owner is authenticated.
 - Unified Chapters I–LXXII manuscript: source Git blob `8f1dda21ac4962143ba3291cef4d60769197d62f`, **72 Git blob wrappers, 72 manifest rows, 401,919 source words including embedded editorial material**. All prior 71 wrappers were compared byte-exactly to the archived 71-chapter reader (blob `d27c708fbd7b44730ae8d424a709c2eb15f3bed7`); no protected manuscript edits.
-- New dedicated integrity tests in `test_2016_causal_full_72_reader.py` and CI step in `.github/workflows/novel-os-ci.yml`. **Actual CI outcomes remain pending until GitHub verifies exact committed head.**
+- New dedicated integrity tests in `test_2016_causal_full_72_reader.py` and CI step in `.github/workflows/novel-os-ci.yml`. **Observed technical result:** 22/22 new Chapter LXXII tests PASSED in Novel OS CI #41358007853; Cross-Domain Authority CI #41358007988, Bullpen Runtime CI #41358007848 and Repository Merge Gate #41358008039 also succeeded at commit `410eee74d99c5ae06fbae04d2ac1a177920c5b87`. This is technical evidence, not independent literary acceptance.**
 
 ## Authority and facts
 
@@ -24,3 +24,9 @@ The 2016 historical evidence readback `living-novel/historical-chronicle/evidenc
 6. **Literary style:** The closing lever/roof parallel may be too explicit; independent editor should test restraint and whether the scene's physical action changes the novel beyond another lesson in consent.
 
 **GATES: DRAFT / NONCANON / independent Authors Council, Librarian, Atlas, Character Canon, Umpire and Founder acceptance HOLD. No merge, deployment or publication.**
+
+## Authenticated workflow readback
+
+- Source-tested commit: `410eee74d99c5ae06fbae04d2ac1a177920c5b87`; 22/22 new Chapter LXXII reader tests PASS (GitHub workflow logs, job 125002134401).
+- Four required CI workflows: all SUCCESS on that exact commit. Checkpoint-only follow-up commits, if any, require a separate readback.
+- Actual independent PR review submissions: **zero** at the last fetched review list. Review was requested in PR #243 discussion comment 6564926187; this is not an Umpire decision.

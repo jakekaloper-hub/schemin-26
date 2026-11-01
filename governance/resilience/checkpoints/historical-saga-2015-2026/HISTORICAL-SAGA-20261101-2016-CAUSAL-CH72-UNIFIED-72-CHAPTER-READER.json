@@ -56,13 +56,46 @@
     "precommit_wrapper_count": 72,
     "precommit_manifest_count": 72,
     "source_chapter_blob_verified_from_github": true,
-    "new_test_status": "PENDING_CI_AT_EXACT_FINAL_COMMIT",
-    "github_actions": "PENDING"
+    "new_test_status": "PASS_22_OF_22_ON_OBSERVED_HEAD",
+    "github_actions": [
+      {
+        "id": 41358007988,
+        "name": "Cross-Domain Authority CI",
+        "conclusion": "success",
+        "status": "completed",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41358007988"
+      },
+      {
+        "id": 41358007848,
+        "name": "Bullpen Runtime CI",
+        "conclusion": "success",
+        "status": "completed",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41358007848"
+      },
+      {
+        "id": 41358008039,
+        "name": "Repository Merge Gate",
+        "conclusion": "success",
+        "status": "completed",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41358008039"
+      },
+      {
+        "id": 41358007853,
+        "name": "Novel OS CI",
+        "conclusion": "success",
+        "status": "completed",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41358007853"
+      }
+    ],
+    "verified_commit": "410eee74d99c5ae06fbae04d2ac1a177920c5b87",
+    "workflow_72_reader_named_step": "SUCCESS"
   },
   "review": {
     "independent_pr_reviews_at_start": 0,
     "independent_author_acceptance": false,
-    "independent_umpire_acceptance": false
+    "independent_umpire_acceptance": false,
+    "independent_request_pr_comment": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6564926187",
+    "independent_request_submitted": true
   },
   "story": {
     "conditional_survivor_returns": 1,
@@ -81,7 +114,7 @@
     "independent_umpire": false
   },
   "next": [
-    "Check exact final commit four required CI workflows; inspect actual logs before repair, not guess.",
+    "On resumed run, refresh latest main/PR #243 and run exact-head CI for any newer checkpoint-only commit. This checkpoint's observed CI applied to 410eee74d99c5ae06fbae04d2ac1a177920c5b87.",
     "Submit independent Authors Council/Librarian/Atlas/Character Canon/Umpire challenge with scope of Chapter LXXII and POV imbalance; do not mislabel a comment as review.",
     "Prioritize 2016 historical account-owner authentication before extending Jake-only sequence indefinitely.",
     "If writing continues, avoid repetitive repair/ledger/property motifs and keep unsupported survivor return conditional.",
