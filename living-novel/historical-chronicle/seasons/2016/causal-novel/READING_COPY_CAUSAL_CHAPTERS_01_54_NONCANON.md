@@ -97,7 +97,7 @@
 | 51 | `WHAT_THE_SIX_COULD_NOT_CARRY_CHAPTER_51_NONCANON.md` | `6a431144823bc64973f0b57ee5d05f7f1f20cc25` | 5744 |
 | 52 | `THE_MAN_WHO_HAD_NOT_VANISHED_CHAPTER_52_NONCANON.md` | `f78b68521e622e3c60ee9e8ee42534f57fee8c2c` | 5604 |
 | 53 | `THE_SHADOW_THAT_CAME_HOME_CHAPTER_53_NONCANON.md` | `daee3be5efb4123bf6651e74dc3fc3594d219ddb` | 5333 |
-| 54 | `THE_WIDTH_OF_AN_OPEN_DOOR_CHAPTER_54_NONCANON.md` | `6572d70bbd67091661d8fce8a9eff38b5b0e8a3c` | 5362 |
+| 54 | `THE_WIDTH_OF_AN_OPEN_DOOR_CHAPTER_54_NONCANON.md` | `a053640d5a4671f06b2c64892a1f5acf56e58fbe` | 5356 |
 
 <!-- BEGIN 2016_CAUSAL THE_DEBT_BEFORE_THE_DOOR_CHAPTER_01_NONCANON.md | git_blob d93505009d7dda7acc010ce1a6e5ec2bacf65ec2 -->
 
@@ -24867,7 +24867,7 @@ The river did not move. The king, after a brief argument with his maker, was mad
 
 <!-- END 2016_CAUSAL THE_SHADOW_THAT_CAME_HOME_CHAPTER_53_NONCANON.md -->
 
-<!-- BEGIN 2016_CAUSAL THE_WIDTH_OF_AN_OPEN_DOOR_CHAPTER_54_NONCANON.md | git_blob 6572d70bbd67091661d8fce8a9eff38b5b0e8a3c -->
+<!-- BEGIN 2016_CAUSAL THE_WIDTH_OF_AN_OPEN_DOOR_CHAPTER_54_NONCANON.md | git_blob a053640d5a4671f06b2c64892a1f5acf56e58fbe -->
 
 # The Width of an Open Door
 
@@ -24899,7 +24899,7 @@ Neris looked at the white line. "Can you work around our bedding by daylight?"
 
 "Before the next light goes. And I need the passage open afterward."
 
-Jake had come to return the dry thread he had collected for her the previous day. He placed it on the clean corner of the table. He could have offered to move the bedding. That would have made the room look better for an hour and given him the small consolation of useful hands, but it would not have made the workroom larger.
+Jake had come to ask whether Ina needed the frame strips carried to the table house. He set his empty carrying sling on the clean corner of the table. He could have offered to move the bedding. That would have made the room look better for an hour and given him the small consolation of useful hands, but it would not have made the workroom larger.
 
 Tovin laid down the bundle. "We can move into the yard by daylight."
 
@@ -24959,7 +24959,7 @@ Fara held a piece of the awning between two fingers while Ina examined it from b
 
 Fara let go and the torn edge flickered in the wind. Several customers turned toward the sound as if expecting the missing bell.
 
-Jake had accompanied Ina because she was carrying the frame strips and did not want to leave the lower room unoccupied while its residents moved their bedding. Neris had come of her own accord, walking slowly enough that Ina did not have to ask her to slow. She stood beneath the awning and looked not at the tear but at the way the cloth hung from its supports.
+Jake had accompanied Ina because the frame strips needed carrying and the others were occupied with their bedding. Neris had come of her own accord, walking slowly enough that Ina did not have to ask her to slow. She stood beneath the awning and looked not at the tear but at the way the cloth hung from its supports.
 
 "You pull the whole width tight," Neris said.
 
@@ -25221,7 +25221,7 @@ Dovan had chosen a temporary sleeping place in an adjoining covered alcove that 
 
 Neris alone remained by the worktable. The light was nearly gone. She had marked the weak bindings with tiny knots of waste thread, one on each length she thought would fail under strain. The pile of usable work lay on the other side of the frame.
 
-Jake stood beside the doorway with the empty thread parcel in his hand. For a moment he saw the room as it had been on the night of the fallen stair: bodies asleep below a dangerous diagonal of broken wood, Ina unable to reach her business, all of them depending on the next temporary kindness. The stair was no safer now. But the floor had changed use without pretending that the injury or the hospitality had never happened.
+Jake stood beside the doorway with his empty carrying sling in his hand. For a moment he saw the room as it had been on the night of the fallen stair: bodies asleep below a dangerous diagonal of broken wood, Ina unable to reach her business, all of them depending on the next temporary kindness. The stair was no safer now. But the floor had changed use without pretending that the injury or the hospitality had never happened.
 
 "Will you stay here?" he asked Neris.
 
