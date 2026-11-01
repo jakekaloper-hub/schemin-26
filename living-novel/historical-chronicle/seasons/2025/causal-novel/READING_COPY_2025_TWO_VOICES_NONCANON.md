@@ -8,7 +8,7 @@ This is a source-exact *two-part historical companion reading copy*, not a singl
 
 | Part | Principal viewpoint | Relative repository source | Git blob | Source words incl. metadata |
 | ---: | --- | --- | --- | ---: |
-| 1 | Austin / CHAR-AUSTIN-BYARS | `living-novel/historical-chronicle/seasons/2025/causal-novel/THE_NARROWEST_DOOR_AUSTIN_2025_NONCANON.md` | `1a10c9cfff5a5255be3d358588d54f182faa8b24` | 5029 |
+| 1 | Austin / CHAR-AUSTIN-BYARS | `living-novel/historical-chronicle/seasons/2025/causal-novel/THE_NARROWEST_DOOR_AUSTIN_2025_NONCANON.md` | `ae5d50aca6c1ac4da20fb8ead28554baa5e70613` | 5001 |
 | 2 | Jake / CHAR-JAKE-KALOPER | `living-novel/production/historical-saga/R53/HISTORICAL_2025_OBIWAN_NONCANON_PILOT.md` | `9737fa9b9832de847ee504ed9b87d5e2c404e481` | 983 |
 
 ## Shared verified historical anchor
@@ -19,7 +19,7 @@ This is a source-exact *two-part historical companion reading copy*, not a singl
 
 ## Part 1 — Austin / CHAR-AUSTIN-BYARS
 
-<!-- BEGIN 2025_VOICE THE_NARROWEST_DOOR_AUSTIN_2025_NONCANON.md | git_blob 1a10c9cfff5a5255be3d358588d54f182faa8b24 -->
+<!-- BEGIN 2025_VOICE THE_NARROWEST_DOOR_AUSTIN_2025_NONCANON.md | git_blob ae5d50aca6c1ac4da20fb8ead28554baa5e70613 -->
 
 # THE NARROWEST DOOR
 
@@ -445,7 +445,7 @@ At the lower gallery some families were settling beneath the temporary roof. A c
 
 No one had asked for this particular champion. They had needed a place to stay regardless.
 
-He had wanted the Belt badly enough to fear what a loss would make of him. It was a fear he could admit within the privacy of a story, not evidence of anything the real man behind the Contest had confessed. In this imagined hall, with the metal resting against his waist, the fear no longer had the shape he had expected.
+He had wanted the Belt badly enough to fear what a loss would make of him. Now, with the metal resting against his waist, the fear no longer had the shape he had expected.
 
 He was not afraid the championship would be taken away by force that night. The Compact had procedures enough to prevent that without promising him anything more than custody. He was afraid he might begin to make the Belt answer all the questions he had not yet learned to ask.
 
