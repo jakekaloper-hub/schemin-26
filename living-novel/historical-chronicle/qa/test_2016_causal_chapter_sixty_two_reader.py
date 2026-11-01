@@ -104,7 +104,7 @@ class ChapterSixtyTwo(unittest.TestCase):
     def test_15_single_proposed_registered_pov(self):
         self.assertIn("Sole limited interior viewpoint: proposed fictional Jake", self.chapter)
         self.assertIn("CHAR-JAKE-KALOPER", self.chapter)
-        self.assertIn("not as new interior POV carriers", self.chapter)
+        self.assertIn("never as new interior POV carriers", self.chapter)
 
     def test_16_historical_binding_unverified(self):
         self.assertIn("Historical 2016 owner-to-team authentication is absent", self.chapter)
@@ -116,7 +116,7 @@ class ChapterSixtyTwo(unittest.TestCase):
 
     def test_18_reed_worker_survives_and_lost_frame_stays_lost(self):
         self.assertIn("Nothing remained of the wicker frame", self.prose)
-        self.assertIn("The reed worker survives", self.qa)
+        self.assertIn("Reed worker survives", self.qa)
 
     def test_19_reed_worker_new_frame_smaller(self):
         self.assertIn("That will carry less than half what the other one carried", self.prose)
