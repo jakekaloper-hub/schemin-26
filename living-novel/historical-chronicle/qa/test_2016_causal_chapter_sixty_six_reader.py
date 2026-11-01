@@ -26,7 +26,7 @@ PROTECTED = {
 
 def blob_sha(path):
     raw = path.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\\x00" + raw).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\x00" + raw).hexdigest()
 
 class ChapterSixtySix(unittest.TestCase):
     @classmethod
@@ -34,7 +34,7 @@ class ChapterSixtySix(unittest.TestCase):
         cls.chapter = (BASE / CHAPTER).read_text()
         cls.reader = (BASE / READER).read_text()
         cls.qa = (BASE / QA).read_text()
-        cls.prose = cls.chapter.split("### I.", 1)[1].split("\\n---\\n", 1)[0]
+        cls.prose = cls.chapter.split("### I.", 1)[1].split("\n---\n", 1)[0]
 
     def test_01_11_pinned_sources(self):
         for filename, sha, _ in SOURCES:
@@ -100,10 +100,10 @@ class ChapterSixtySix(unittest.TestCase):
         self.assertIn("66 consecutive Jake-limited historical chapters", self.qa)
 
     def test_17_retired_principal_narrators_absent(self):
-        self.assertNotRegex(self.prose, r"\\b(?:Edrin|Edin|Oren)\\b")
+        self.assertNotRegex(self.prose, r"\b(?:Edrin|Edin|Oren)\b")
 
     def test_18_no_2016_sport_results_created(self):
-        self.assertNotRegex(self.prose, r"\\b(?:ESPN|Flaim|touchdown|quarterback|Week [0-9]+)\\b")
+        self.assertNotRegex(self.prose, r"\b(?:ESPN|Flaim|touchdown|quarterback|Week [0-9]+)\b")
 
     def test_19_hessa_returns_physically(self):
         self.assertIn("Hessa had left the settlement in search of the seven", self.prose)
@@ -138,7 +138,7 @@ class ChapterSixtySix(unittest.TestCase):
 
     def test_28_roof_and_peg_remain_open(self):
         self.assertIn("The roof still leaks", self.prose)
-        self.assertIn("The frame had not been repaired", self.qa) if False else self.assertIn("Nella's two pegs made but not fitted", self.qa)
+        self.assertIn("Nella's two pegs made but not fitted", self.qa)
 
     def test_29_no_unauthorized_canon_transition(self):
         self.assertIn("NOT independent review", self.chapter)
