@@ -118,7 +118,7 @@ class ChapterFiftySix(unittest.TestCase):
     def test_22_aven_does_not_buy_ownership_or_forgiveness(self):
         self.assertIn("Aven's", self.prose)
         self.assertIn('"You offered to be necessary."', self.prose)
-        self.assertIn("The offer remained unaccepted", self.prose)
+        self.assertIn("the offer remained unaccepted", self.prose)
 
     def test_23_false_witness_debt_preserved(self):
         self.assertIn("four coins", self.prose)
