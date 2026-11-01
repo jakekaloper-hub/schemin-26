@@ -400,21 +400,25 @@ Jake delivered the tool before the last of the afternoon light left Meric's gate
 
 Meric took it without asking for an account of the morning. The narrow blade had been meant for cutting a shallow channel in a board, and a worker had been waiting for it. Jake saw the worker fit it into its handle and test the edge with a shaving. He had caused a delay, not a disaster. He was ashamed of how readily he would have used the prospect of seven missing travelers to make the delay sound necessary.
 
-At Esi's doorway he paused. He still owed for shelter; returning four false-witness coins to Pell had not discharged that debt. The house was quiet. He put the remaining money he had earned that week on the inner ledge and asked Esi to count it. It was less than he owed.
+At Esi's doorway he paused. He still owed for shelter; returning four false-witness coins to Pell had not discharged that debt. Esi met him with the tally board on which the unpaid amount remained marked. He had no coin to put beside it.
 
-Esi counted, marked the amount on a small board, and put the money away.
+"Can you bring something by sundown tomorrow?" Esi asked.
 
-"Can you bring the rest?" Esi asked.
+"I can't promise that."
 
-"I can work for it."
-
-"That's an intention."
+"Can you promise to look for work?"
 
 "Yes."
 
-"Come tomorrow with what you've earned, not what you expect to earn."
+"And can you promise not to call it payment before it's done?"
 
-Jake agreed. No one called his payment a rescue from debt. The board remained marked with a balance.
+He met Esi's eyes. "I can do that."
+
+Esi set the board against the door frame. "Then we'll speak tomorrow. The number is still here."
+
+"I know."
+
+The door closed without ceremony. Jake stood on the step a moment longer, the debt no smaller, and understood that even a truthful promise had not bought another night's lodging.
 
 Later he found Ilyen sitting at the high end of the road, beyond the bend where the wind smelled less of burned reeds. She held the new stitch in one hand and the old river fragment in the other. A little length of clean linen lay between them so they did not touch.
 
@@ -463,7 +467,7 @@ Jake rose and went back toward the houses. Ilyen remained until the light on the
 - **Chapter job / dramatic question:** Turn the unresolved missing-seven thread into a physical, testable local search direction under Ilyen's agency. Can she investigate a scrap and a passage after the meadow fire without falsely identifying their owner or traveler?
 - **Entry:** Seven fictional companions unlocated, including Ilyen's brother and Hessa's sister; Aven returned voluntarily and remains unreconciled with Neris. Hessa is away searching. Meadow burned, environmental effects and cause unknown. Neris and Dovan injured. Six-owner cart disabled, iron collar remains with buyer after hold expired. Jake's four residual Orrel coins went to Pell as partial restitution; shelter debt to Esi, Orrel paper, second horse/freight, Sela collision and other loops remain open. Fara has six unbroken bowls after the Chapter LIX break.
 - **Causal turn:** Ilyen finds a river-worn blue-stitched strip; Neris identifies a repair technique she remembers making on the missing travelers' pack cover but cannot prove the strip's itinerary. Ilyen, Brast and Jake find post-fire foot impressions on firm ash and a rope among a willow, plus a pale movement across the river; NONE is attributed to a missing person. Ilyen maps an actual stretch of ground and arranges a cautious dawn inspection with Tovin, whose remembered stones are independently checked against Dovan's warning. Neris makes a matching sample while Tovin holds cloth. No owner attribution, crossing, discovery, official marker or death is established.
-- **Exit:** Seven still unlocated; Ilyen and Tovin intend a high-stone walk pending Meric's allowance of the hour, and Jake has made a partial independent payment toward Esi's shelter debt without using Orrel's already returned coins. Six-owner cart and buyer collar unchanged; injuries and Aven estrangement persist; Hessa uninformed and away; source evidence remains distinct from story invention.
+- **Exit:** Seven still unlocated; Ilyen and Tovin intend a high-stone walk pending Meric's allowance of the hour, and Jake has explicitly acknowledged his unpaid shelter debt to Esi without claiming wages or spending Orrel's already returned coins. Six-owner cart and buyer collar unchanged; injuries and Aven estrangement persist; Hessa uninformed and away; source evidence remains distinct from story invention.
 - **Narrative method:** Jake is the only principal with narrated interior awareness; Ilyen and Neris drive the new physical action, and Tovin's skill changes the route without erasing his previous wrongdoing. No new principal-owner interior POV is licensed. No 2016 ESPN/Flaim matchup, score, owner/team mapping, standings, champion or real owner motive is asserted. All proposed river geography, weather and physical details remain Atlas-unapproved fiction.
 - **Omitted-event ledger:** 2016 league-week matchups, titles, trades and contemporary 2026 character identities are omitted from prose because source facts are not authenticated to these invented actions. The narrative does not imply that scoring events caused a search.
 - **Adversarial questions:** Is another evidence/uncertainty scene too close to Chapters LVIII–LIX? Does the low-bank geography behave plausibly after fire and erosion? Does Neris's exact recollection of a one-off stitch seem convenient? Are the post-fire prints and far-bank motion unnecessarily contrived? Is Jake's moral accounting overexplicit at the end? Does Tovin earn agency without accidental absolution? Should the search payoff or secondary-character autonomy become stronger on literary revision?
