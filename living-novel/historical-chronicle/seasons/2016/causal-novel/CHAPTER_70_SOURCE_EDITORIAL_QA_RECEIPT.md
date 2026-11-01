@@ -10,6 +10,19 @@
 - Added `test_2016_causal_full_70_reader.py` with twenty assertions, invoked in existing Novel OS GitHub CI. New GitHub Actions outcomes and independent review must be checked on the eventual exact final commit; the existence of tests alone is not a PASS.
 - No main canon file was edited. Protected 2026 Prologue/Chapters I–III are pinned in the new regression suite; actual success requires a passing run.
 
+## Observed CI verification — authenticated GitHub readback
+
+At exact tested branch commit `7e1a16bb7b440a81f9536c0c2bad92a098e62a31`, GitHub Actions reported **SUCCESS** for:
+
+- Novel OS CI [#41347828633](https://github.com/jakekaloper-hub/schemin-26/actions/runs/41347828633)
+- Cross-Domain Authority CI [#41347828658](https://github.com/jakekaloper-hub/schemin-26/actions/runs/41347828658)
+- Bullpen Runtime CI [#41347828639](https://github.com/jakekaloper-hub/schemin-26/actions/runs/41347828639)
+- Repository Merge Gate [#41347828648](https://github.com/jakekaloper-hub/schemin-26/actions/runs/41347828648)
+
+The Novel OS job [#124971346954](https://github.com/jakekaloper-hub/schemin-26/actions/runs/41347828633/job/124971346954) logs explicitly report `Ran 20 tests` and `OK` for the new seventy-chapter source-exact suite. The preceding 68-/69-reader and causal-chain steps also succeeded.
+
+Commit comparison of prior Chapter LXIX head `a24d10f099fa4efee062594f9d83c34aa979bcd8` against `7e1a16bb7b440a81f9536c0c2bad92a098e62a31` showed **five added files, one CI workflow modification and zero protected-canon changes**. These verifications are technical, not independent literary or Umpire acceptance. CI on this receipt's own commit must be read separately; no false-green status is inherited.
+
 ## Authority and evidence boundaries
 
 - Current main at production start: Schemin `e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80`; Bullpen `86889a59efb0e7dcdc37eef639981944dc77ed67`. Consulted Whole-Book Source Authority Matrix, supersession notice in the POV Constitution, twelve-owner register, Minimum Pre-Prose Gate, Bullpen command/lifecycle registry, prior Chapter LXIX chapter/QA/reader and Chapter LXIX checkpoint; issues #210, #211, #214, #215, #219 and active PRs #243, #252, #261, #264 (PR #188 is closed).
