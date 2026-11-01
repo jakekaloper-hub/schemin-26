@@ -77,7 +77,7 @@ class ChapterSixtyEight(unittest.TestCase):
         self.assertIn("| 68 | " + CHAPTER + " | " + CHAPTER_SHA + " | 3805 |", self.reader)
 
     def test_11_reader_has_thirteen_manifest_rows(self):
-        self.assertEqual(len(re.findall(r"^\\| (?:5[6-9]|6[0-8]) \\| ", self.reader, re.M)), 13)
+        self.assertEqual(len(re.findall(r"^\| (?:5[6-9]|6[0-8]) \| ", self.reader, re.M)), 13)
 
     def test_12_chapter_word_count(self):
         self.assertEqual(len(self.chapter.split()), 3805)
@@ -89,7 +89,7 @@ class ChapterSixtyEight(unittest.TestCase):
         self.assertEqual(len(self.reader.split()), 65602)
 
     def test_15_six_narrative_movements(self):
-        self.assertEqual(len(re.findall(r"^### [IVX]+\\.", self.chapter, re.M)), 6)
+        self.assertEqual(len(re.findall(r"^### [IVX]+\.", self.chapter, re.M)), 6)
 
     def test_16_not_a_canon_release(self):
         self.assertIn("DRAFT / NONCANON / INDEPENDENT EDITORIAL HOLD", self.chapter)
@@ -100,10 +100,10 @@ class ChapterSixtyEight(unittest.TestCase):
         self.assertIn("68 consecutive Jake-limited historical chapters", self.qa)
 
     def test_18_no_retired_narrators(self):
-        self.assertNotRegex(self.prose, r"\\b(?:Edrin|Edin|Oren)\\b")
+        self.assertNotRegex(self.prose, r"\b(?:Edrin|Edin|Oren)\b")
 
     def test_19_no_fiction_claimed_as_score(self):
-        self.assertNotRegex(self.prose, r"\\b(?:ESPN|Flaim|touchdown|quarterback|Week [0-9]+)\\b")
+        self.assertNotRegex(self.prose, r"\b(?:ESPN|Flaim|touchdown|quarterback|Week [0-9]+)\b")
 
     def test_20_source_copy_is_unauthorized(self):
         self.assertIn("The mark appeared on Meric's gate before anyone admitted to making it", self.prose)
