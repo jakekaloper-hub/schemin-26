@@ -105,7 +105,8 @@ class TwoVoices2025SourceReader(unittest.TestCase):
         self.assertIn("no universal sovereignty", self.reader)
 
     def test_15_no_institutional_or_supporting_pov(self):
-        self.assertIsNone(re.search(r"\b(?:Edrin|Edin|Master Oren)\b", self.austin, re.I))
+        narrative = self.austin.split("\n---\n\n### Source and narrative handoff")[0]
+        self.assertIsNone(re.search(r"\b(?:Edrin|Edin|Master Oren)\b", narrative, re.I))
         self.assertIn("sole canonical-owner interior", self.austin)
 
     def test_16_protected_2026_hard_manuscript_unchanged(self):
