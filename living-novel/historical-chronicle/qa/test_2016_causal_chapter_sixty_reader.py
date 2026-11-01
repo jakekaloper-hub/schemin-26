@@ -30,7 +30,7 @@ PROTECTED = {
 
 def blob_sha(path: Path) -> str:
     raw = path.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\\x00" + raw).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\x00" + raw).hexdigest()
 
 class ChapterSixty(unittest.TestCase):
     @classmethod
@@ -38,7 +38,7 @@ class ChapterSixty(unittest.TestCase):
         cls.chapter = (BASE / SOURCES[-1][0]).read_text()
         cls.reader = (BASE / READER).read_text()
         cls.qa = (BASE / QA).read_text()
-        cls.prose = cls.chapter.split("### I.", 1)[1].split("\\n---\\n", 1)[0]
+        cls.prose = cls.chapter.split("### I.", 1)[1].split("\n---\n", 1)[0]
 
     def test_01_five_source_git_blob_pins(self):
         for filename, sha, _ in SOURCES:
@@ -95,14 +95,14 @@ class ChapterSixty(unittest.TestCase):
         self.assertIn("CHAR-JAKE-KALOPER", self.chapter)
 
     def test_14_no_archivist_pov(self):
-        self.assertNotRegex(self.prose, r"\\b(?:Edrin|Edin|Oren)\\b")
+        self.assertNotRegex(self.prose, r"\b(?:Edrin|Edin|Oren)\b")
 
     def test_15_period_owner_binding_unverified(self):
         self.assertIn("Historical 2016 owner-to-team authentication is absent", self.chapter)
         self.assertIn("60 consecutive Jake-limited chapters", self.qa)
 
     def test_16_no_fantasy_outcome_or_matchup_dressing(self):
-        self.assertNotRegex(self.prose, r"\\b(?:ESPN|Flaim|touchdown|quarterback|Week [0-9]+)\\b")
+        self.assertNotRegex(self.prose, r"\b(?:ESPN|Flaim|touchdown|quarterback|Week [0-9]+)\b")
 
     def test_17_previous_eight_now_seven(self):
         self.assertIn("Eight travelers had been missing", self.prose)
