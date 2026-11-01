@@ -356,7 +356,7 @@ Brast went with Dovan and Tovin toward the yard. Neris stayed until Aven stepped
 
 People began to leave. No one announced that the gathering was over. A child needed supper; an older man could no longer see the high road clearly; the man whose cousin was absent carried his stone back down the path. Some of the visitors continued talking as they went. Others went quietly.
 
-Jake remained near the empty patch of road where the blue-lined bowl had broken. It was tempting to think the row had taught the settlement something. He could not see that it had. Six bowls went into Fara's basket, two wrapped fragments went with them, and the seventh had been carried off to hold water. Those were the things he could count.
+Jake remained near the empty patch of road where the blue-lined bowl had broken. It was tempting to think the row had taught the settlement something. He could not see that it had. Five bowls went into Fara's basket, two wrapped fragments went with them, and a sixth had been carried off to hold water. The seventh existed only in the pieces Fara had wrapped. Those were the things he could count.
 
 ### VI. A place not sealed
 
@@ -414,7 +414,7 @@ They walked up the high path together until it joined the first houses. There Il
 
 Ilyen pushed the door open with her shoulder, taking care not to strike the bowl against the frame. She did not look back to see whether Jake followed.
 
-He stayed outside. Through the opening he saw her offer the bowl to Fara, who inspected the rim and placed it upside down with the others. For a moment there were seven shapes along the counter again, although one of them had a different history from the bowl that shattered on the road. Fara did not call it a replacement. She handed Ilyen a cloth and showed her a place where the water had collected under the shelf.
+He stayed outside. Through the opening he saw her offer the bowl to Fara, who inspected the rim and placed it upside down with the others. For a moment there were six shapes along the counter again. Fara had not fetched a seventh to stand in for the blue-lined vessel that shattered on the road. Fara did not call it a replacement. She handed Ilyen a cloth and showed her a place where the water had collected under the shelf.
 
 Jake walked away before they finished cleaning.
 
