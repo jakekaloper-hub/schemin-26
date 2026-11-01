@@ -131,7 +131,7 @@ class ChapterFiftyFive(unittest.TestCase):
         self.assertIn("I will ask here", self.prose)
 
     def test_22_hessa_voluntary_departure(self):
-        self.assertIn("If I go alone", self.prose)
+        self.assertIn("And if I go alone?", self.prose)
         self.assertIn("Hessa went down the lane alone", self.prose)
 
     def test_23_missing_seven_unresolved(self):
