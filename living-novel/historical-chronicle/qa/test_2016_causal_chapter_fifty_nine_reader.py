@@ -97,7 +97,7 @@ class ChapterFiftyNine(unittest.TestCase):
 
     def test_14_owner_binding_unverified(self):
         self.assertIn("2016 owner/team binding remains unverified", self.chapter)
-        self.assertIn("59th consecutive Jake-limited historical chapter", self.qa)
+        self.assertIn("59 consecutive Jake-limited historical chapters", self.qa)
 
     def test_15_no_fantasy_scoring_in_prose(self):
         self.assertNotRegex(self.prose, r"\b(?:ESPN|Flaim|touchdown|quarterback|Week [0-9]+)\b")
@@ -108,7 +108,7 @@ class ChapterFiftyNine(unittest.TestCase):
 
     def test_17_hessa_still_away_and_ilyen_local(self):
         self.assertIn("Hessa had gone away separately", self.prose)
-        self.assertIn("Ilyen stays locally", self.qa)
+        self.assertIn("Ilyen remains local", self.qa)
 
     def test_18_seven_bowls_initially(self):
         self.assertIn("Fara had turned seven bowls upside down", self.prose)
@@ -125,7 +125,7 @@ class ChapterFiftyNine(unittest.TestCase):
     def test_21_six_intact_after_return_not_seven(self):
         self.assertIn("there were six shapes along the counter again", self.prose)
         self.assertIn("Fara had not fetched a seventh", self.prose)
-        self.assertIn("seven physical bowls start", self.qa.lower())
+        self.assertIn("Seven bowls appear at the shop", self.qa)
 
     def test_22_no_missing_death_falsely_asserted(self):
         self.assertIn("We don't know", self.prose)
@@ -133,7 +133,7 @@ class ChapterFiftyNine(unittest.TestCase):
 
     def test_23_nella_does_not_perform_another_claim(self):
         self.assertIn('"Not tonight."', self.prose)
-        self.assertIn("without being absolved", self.qa)
+        self.assertIn("must not be mistaken for absolution", self.qa)
 
     def test_24_no_new_official_commemoration(self):
         self.assertIn("nor had any official announced a ceremony", self.prose)
@@ -154,7 +154,7 @@ class ChapterFiftyNine(unittest.TestCase):
 
     def test_28_fire_and_injuries_persist(self):
         self.assertIn("The meadow had burned recently", self.prose)
-        self.assertIn("Neris and Dovan injuries remain", self.qa)
+        self.assertIn("Neris/Dovan injuries remain", self.qa)
 
     def test_29_independent_gates_still_unmet(self):
         for word in ("NOT INDEPENDENT REVIEW", "NO MERGE", "NO CANON PROMOTION", "NO PUBLICATION"):
@@ -172,7 +172,7 @@ class ChapterFiftyNine(unittest.TestCase):
 
     def test_32_source_evidence_separate_from_fiction(self):
         self.assertIn("not authenticated 2016 ESPN/Flaim events", self.chapter)
-        self.assertIn("No new verified score", self.qa)
+        self.assertIn("no verified ESPN scores", self.qa)
         self.assertIn("No new approved geography", self.qa) if "No new approved geography" in self.qa else self.assertIn("unapproved Atlas proposal", self.qa)
 
 if __name__ == "__main__":
