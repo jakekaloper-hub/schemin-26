@@ -118,7 +118,7 @@ class ChapterFiftyFour(unittest.TestCase):
     def test_18_injured_nreis_dovan_not_healed(self):
         self.assertIn("one arm supported by a folded cloth", self.prose)
         self.assertIn("Dovan's injured leg", self.prose)
-        self.assertIn("His injured leg", self.prose)
+        self.assertIn("his injured leg steadied", self.prose)
 
     def test_19_ina_reclaims_business(self):
         self.assertIn("I need this part", self.prose)
