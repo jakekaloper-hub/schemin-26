@@ -422,7 +422,7 @@ At the lower gallery some families were settling beneath the temporary roof. A c
 
 No one had asked for this particular champion. They had needed a place to stay regardless.
 
-He had wanted the Belt badly enough to fear what a loss would make of him. It was a fear he could admit within the privacy of a story, not evidence of anything the real man behind the Contest had confessed. In this imagined hall, with the metal resting against his waist, the fear no longer had the shape he had expected.
+He had wanted the Belt badly enough to fear what a loss would make of him. Now, with the metal resting against his waist, the fear no longer had the shape he had expected.
 
 He was not afraid the championship would be taken away by force that night. The Compact had procedures enough to prevent that without promising him anything more than custody. He was afraid he might begin to make the Belt answer all the questions he had not yet learned to ask.
 
