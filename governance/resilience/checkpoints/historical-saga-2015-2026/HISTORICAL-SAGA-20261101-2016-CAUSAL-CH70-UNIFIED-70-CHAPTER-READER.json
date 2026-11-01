@@ -1,0 +1,120 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261101-2016-CAUSAL-CH70-UNIFIED-70-CHAPTER-READER",
+  "date_utc": "2026-11-01",
+  "status": "CH70_UNIFIED_70_READER_PERSISTED_FINAL_CI_AND_INDEPENDENT_REVIEW_PENDING",
+  "project": "Commonwealth Living Novel / Historical Saga",
+  "mission": "BULLPEN_PERMANENT_EXECUTIVE_MANDATE",
+  "repository": "jakekaloper-hub/schemin-26",
+  "bullpen_repository": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "pull_request": 243,
+  "pr_state": "OPEN_DRAFT",
+  "prior_checkpoint_commit": "a24d10f099fa4efee062594f9d83c34aa979bcd8",
+  "authority": {
+    "schemin_main_sha": "e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80",
+    "bullpen_main_sha": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "source_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "historical_pov_rule": "living-novel/os/NOVEL_POV_CONSTITUTION_V1.md (supersession notice; twelve principal POV only)",
+    "character_register": "canon/characters/TWELVE_CHARACTER_NARRATIVE_POV_REGISTER_V1.md",
+    "minimum_gate": "living-novel/os/templates/MINIMUM_PRE_PROSE_GATE_V1.md",
+    "command_registry": "runtime/commandRegistry.js (Bullpen main)",
+    "lifecycle": "runtime/lifecycleEngine.js (Bullpen main)",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "owner_lineage_evidence": "living-novel/historical-chronicle/evidence/2016_FLAIM_OWNER_LINEAGE_READBACK_2026-11-01_REVIEW_ONLY.md"
+  },
+  "issues_inspected": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "prs_inspected": {
+    "188": "CLOSED",
+    "243": "OPEN_DRAFT",
+    "252": "OPEN_DRAFT",
+    "261": "OPEN_DRAFT",
+    "264": "OPEN_DRAFT"
+  },
+  "artifacts": {
+    "chapter": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_NAMES_ON_THE_WORKBOARD_CHAPTER_70_NONCANON.md",
+      "git_blob_sha": "07f5967461d19378dd80ac27fc3a74d8c0e1854e",
+      "words_including_handoff": 5633,
+      "approximate_narrative_words": 5064,
+      "movements": 6,
+      "create_commit": "e448b549f58600b1383f93df8462796faffcb345"
+    },
+    "reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_70_NONCANON.md",
+      "git_blob_sha": "6616634a516b4a3e99b015d01c19a5f72be186de",
+      "source_chapters": 70,
+      "source_words_including_handoffs": 391588,
+      "previous_reader_blob_sha": "af620c3b8a4cb38fe0027bf1c741898a37461c3e",
+      "create_commit": "1b77ee4979bce01d459e6ea161e9f5f18286ced6"
+    },
+    "tests": {
+      "path": "living-novel/historical-chronicle/qa/test_2016_causal_full_70_reader.py",
+      "added_test_cases": 20,
+      "create_commit": "3f5e74f62eb600e9ca865994de380cd57476a0a9"
+    },
+    "workflow": {
+      "path": ".github/workflows/novel-os-ci.yml",
+      "integration_commit": "8b5caa31532b1873d885c4aae42cd7893b838357"
+    },
+    "editorial_receipt": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_70_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "create_commit": "5110ee80d9da964ad59075281af517a4281f375d"
+    }
+  },
+  "pre_ci_technical_readback": {
+    "authenticated_github_writes": true,
+    "source_chapter_blob_sha_returned": true,
+    "reader_blob_sha_returned": true,
+    "source_wrappers_constructed": 70,
+    "manifest_rows_constructed": 70,
+    "predecessor_reader_deliberately_modified": false,
+    "protected_2026_chapters_deliberately_modified": false,
+    "independent_tests_observed": false
+  },
+  "ci": {
+    "exact_final_checkpoint_commit": "PENDING_GITHUB_READBACK",
+    "new_suite": "PENDING",
+    "historical_regressions": "PENDING",
+    "required_workflows": "PENDING"
+  },
+  "story": {
+    "proposed_fiction_only": true,
+    "chapter_title": "The Names on the Workboard",
+    "conditional_returned_survivors": 1,
+    "conditional_unlocated_travelers": 6,
+    "changed": "An emergency grain delivery forces accountable recording of work by present people; returning brother records the quantities without physical overload; Jake leaves grain work to inspect Esi's defective roof.",
+    "unresolved": [
+      "six missing travelers",
+      "historical owner-team identities",
+      "cart missing collar",
+      "Esi roof requires priced replacement wood",
+      "damaged timber",
+      "grain damage allocation and labor wages",
+      "legacy community relationship debts"
+    ],
+    "structural_defect": "70 consecutive Jake-limited 2016 chapters; no provider-authenticated additional historical principal-owner POV"
+  },
+  "release_gates": {
+    "noncanon": true,
+    "merged": false,
+    "canon_promoted": false,
+    "published": false,
+    "founder_approved": false,
+    "atlas_approved": false,
+    "independent_authors_council_accepted": false,
+    "independent_umpire_accepted": false
+  },
+  "next_run": [
+    "Read current Schemin/Bullpen main, latest branch PR 243 head, and this checkpoint, not older conversation summaries.",
+    "Obtain exact final-commit CI status; inspect and repair any actual failing test before claiming PASS.",
+    "Seek independent Authors Council / Umpire challenge, especially the seventy-owner POV imbalance, labor-board allegory, historical identity and conditional survivor event.",
+    "Period-correct ESPN manager account IDs are required to license additional 2016 owner-character interiors; do not infer owners from 2016 team names.",
+    "Prioritize substantive fiction only under noncanon and no-False-green guards; do not auto-merge or publish."
+  ]
+}
