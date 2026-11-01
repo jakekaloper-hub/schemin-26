@@ -285,3 +285,219 @@ She stopped.
 She faced him again. "You should be sorry you made the searching necessary. They aren't the same thing."
 
 She went out into the lane. Jake followed at a distance with Ilyen. Behind them the plane moved across the board once, stopped halfway, then began again.
+### IV. The journey that could not be divided evenly
+
+They did not return straight to Ina's yard.
+
+Ilyen stopped beside a low wall where the lane widened, put down her blanket and sat as if the movement had been agreed upon in advance. Hessa went several paces beyond her before she noticed. Jake remained in the middle, unable to offer one woman the courtesy of walking without abandoning the other.
+
+"I cannot set out again tomorrow," Ilyen said.
+
+Hessa came back. "You haven't slept."
+
+"I could sleep a week and still not know where to go."
+
+"We know one place we did not finish searching."
+
+"We know there was one place we could not reach with what we carried. That is not the same as a place where our people are."
+
+"You said the crossing was worth another look."
+
+"I said that before we came home and found a man we thought lost standing at a bench."
+
+Hessa looked down at the worn road. "You can rest here while I go."
+
+"I am telling you I might not go again."
+
+For a moment Jake expected Hessa to contest the word might. She could have demanded a decision. She could have treated reluctance as betrayal because their search had begun as a shared act. Instead she lowered herself to the wall beside Ilyen, carefully enough that the torn strap of her shoe did not catch on the stones.
+
+"Do you want to stop looking for your brother?" she asked.
+
+"No."
+
+"Then how can you stop?"
+
+Ilyen picked a small chip of mortar from the wall. She turned it over between her fingers.
+
+"I can stop walking. I can refuse another stretch of road that gives us no name and no way of knowing if we have passed him. I can be afraid that stopping means I will never find him, and still stop."
+
+Hessa did not answer. The lane carried ordinary traffic past them: a woman with two wrapped loaves, a boy balancing a vessel, an older man leading a tired animal that kept turning toward a patch of grass. Each passed without asking why three travelers had stopped. Their indifference was almost tender. There were other journeys in the world.
+
+Jake wanted to say that a person could search without moving. He formed the sentence so easily that he distrusted it. What would it mean in practice? In this settlement Ilyen might question newcomers, or listen for names, or compare accounts. She might also wait through seasons and hear nothing. The sentence offered no guarantee that any of those acts would return her brother.
+
+Hessa looked up at him as if she had heard the thought anyway.
+
+"You're quiet," she said.
+
+"I don't know what you ought to do."
+
+"That's never kept you from knowing what words to offer."
+
+He almost defended himself. He could have told her of Orrel and the false-witness coins, of his correction and the paper that still survived; she had been present for enough of the aftermath to know his reputation was not an untouched one. Instead he left the easy defense unspoken.
+
+"I've been wrong when I made a story out of what I wanted to help," he said.
+
+"Then don't do it now."
+
+"I won't."
+
+She nodded and turned back to Ilyen.
+
+The light began to fade from the wall. It touched the mortar chip in Ilyen's hand, and for an instant the little fragment looked almost white. She put it down.
+
+"I will stay long enough to find out whether I can do useful work here," Ilyen said. "I won't ask you to stay because I do. I won't promise to come when you send for me. I need to know what staying is before I promise anyone else a road."
+
+Hessa folded her hands in her lap. "And if I go alone?"
+
+"Then I will know where you started. Not where you end."
+
+"Will you tell the others?"
+
+"Yes. If you tell me what I may truthfully say."
+
+Hessa's shoulders moved as she drew in a breath. Jake thought of Neris's cloth, deliberately made uneven so it would bear the strain. A comparison came to him and he let it go. The women were not seams that existed for his understanding. They were two people who had walked together and could no longer make the same promise.
+
+"You can tell them I am still looking," Hessa said. "And that I haven't found my sister."
+
+Ilyen reached across the space between them. Hessa took her hand.
+
+They sat until the woman with the loaves returned carrying an empty cloth, the boy with the vessel returned without it, and the tired animal went past with its head lowered. The road did not change shape to honor the decision.
+
+### V. What could be carried without taking it
+
+After dusk Hessa and Ilyen went back to the covered yard.
+
+Dovan had moved his bedding so they could sit along the wall without stepping around his injured leg. Tovin brought a shallow bowl and divided what little food the four had agreed to share. Brast had kept the cover over the cart despite the settled air, because the damage beneath it was no less real when the weather was calm. Neris joined them later from Ina's workroom. She held a small length of thread with a knot tied at one end, the kind she had used to mark weak binding.
+
+No one arranged a welcome. The two returned women took what was offered. For a little while they listened to Tovin speak about the upper stair, about how Meric had helped with the descent, and about the work Ina had been able to reclaim. The account contained relief and irritation together. Hessa asked whether Dovan's leg was easier than the day after the fall. He showed her how far he could move before pain caught him. She did not insist that he walk farther for reassurance.
+
+Aven did not come. The empty place beside the cart was not named as his.
+
+Later Hessa asked Jake to walk with her to Fara's table house. The lane was almost dark; the mended awning held the last pale stripe of sky above the counter. Fara had closed her bread for the day. The bell still hung silent, its clapper kept away from those who had once tried to make its familiar sound stand for consent to a night watch. Jake showed Hessa the shortened awning and told her the repair had held a test. She touched the uneven seam but did not test it herself.
+
+"Everyone has done work while we were gone," she said.
+
+"Not enough work."
+
+"Enough that the room I left is no longer the room I came back to."
+
+There was a fatigue in her voice Jake could hear without giving it a name. She stood beneath the seam and looked out at the lane.
+
+"When I leave," she said, "people will ask you where I'm going."
+
+"Maybe."
+
+"They asked about the seven. They listened to the child who made a play about them. They listened to a messenger who claimed to know what he had never seen. I don't want a new account of my search printed because I walked out of a gate."
+
+"Then tell me what to say."
+
+"Nothing about the road. Tell them I went by choice."
+
+Jake thought of Aven. The likeness was simple enough to be tempting: two people leaving by choice, two searches, two absences. It was also false in the only place that mattered. Hessa was not abandoning a group in the middle of an unknown journey. She was telling those beside her that she would go and what she could not promise. The similarity belonged to the shape of words; the consequence belonged to acts.
+
+"I can say I saw you leave," he told her. "Not where you go after."
+
+"Good."
+
+She waited. Jake felt the four false-witness coins against his belt as clearly as if he had taken them out. They had survived all his later careful sentences. Pell's lost wages were still lost. If he gave Hessa the coins, she might have enough to buy a few days of food. She might also ask whose money they had been. To give them without telling her would make her search carry part of his old deception. To tell her might make an exhausted woman the custodian of an apology he had not finished making to the people actually harmed.
+
+He put his hand flat against his belt and left the coins where they were.
+
+"I owe Pell something," he said. "That debt won't turn into help just because I choose a different person to hand it to."
+
+Hessa glanced at him. "Then pay the person you owe."
+
+"I don't have all of it."
+
+"Then don't call it paid."
+
+She did not ask him to say more. The silence afterward was not pardon. It allowed both obligations to remain their own size.
+
+At the far end of the lane a light moved behind a shutter and went out. Jake thought how many things he had been tempted to call signs. A light burning meant someone had work, or wanted to see, or feared the dark; it did not mean a missing traveler had returned. He had built a false account once because a possibility had seemed more useful than an empty space. He would not turn the shutter into another promise.
+
+Hessa untied the torn strip from her satchel and knotted it more tightly.
+
+"I don't know whether I'll return," she said.
+
+"Then I won't say you will."
+
+"And don't let them use my sister's name to prove a story."
+
+"Not if I hear it."
+
+She turned toward the yard. Jake followed, not as a guardian but because the road was the same one he had to take.
+
+### VI. The road before anyone could name it
+
+At first light Hessa was awake beside the cart.
+
+She had packed less than she carried back. A plain cloth held her food; the torn strap of the satchel had been retied; the shoe with the white knot remained imperfect but usable. Ilyen stood beside her with the blanket rolled under one arm. Neither had prepared an announcement. Dovan watched from the covered alcove, leaning on his stick. Tovin held one edge of the cart's shelter so the wind would not lift it. Brast was already at the lane, where the first traders went by with closed baskets.
+
+Neris came from Ina's gate. Her arm remained close to her body, and in her sound hand she carried a narrow strip of waste cloth.
+
+"For the shoe," she said.
+
+Hessa looked down at the repaired strap. "It will hold."
+
+"Until it doesn't. Take it anyway."
+
+Hessa took the strip. She did not ask whether it came from Ina's work. Neris said it was offcut Ina had given her to discard. The exchange made no wage, no bargain, and no promise of rescue. It was a small thing, freely transferred, that might be useful on a road.
+
+Ilyen approached Hessa and adjusted the roll on her shoulder. "I will ask here," she said. "At the places where people pass. I will not say I know where you are."
+
+"I wouldn't want you to."
+
+"And you will not tell anyone that I have given up."
+
+"I won't."
+
+Hessa looked toward the cart. Six travelers had arrived with it; six still owned it, though they had found different ways to survive. Its crosspiece would have to be repaired before it carried a proper load again. No one had made it a symbol by carving names into it or declaring a law over its wheels. It remained a broken means of carrying things, and perhaps one day it would carry them.
+
+She put her hand on the rim once more. Then she withdrew it.
+
+Jake stood beside Fara's lane with an empty sling in his hand. The repaired awning was barely visible beyond the roofs. He could have offered to accompany Hessa to the first bend. He had not asked whether she wanted him there. He watched her say farewell to Dovan, Tovin and Brast in turn, each farewell different in its length. Neris embraced her carefully. Ilyen held her hand the longest.
+
+When Hessa came to Jake, she stopped at a distance where they could speak without being overheard by everyone.
+
+"You saw me come home," she said.
+
+"Yes."
+
+"And now you see me go."
+
+"Yes."
+
+"That is all you have."
+
+He nodded.
+
+For a moment he wanted to ask what she would do if she found no one, what choice could be made after the last road and the last witness. But the road had not reached its last place, and the question asked her to imagine a failure as if it were a fact. He kept it.
+
+Hessa went down the lane alone. At the bend she turned enough to raise one hand. Ilyen returned the gesture. Then the houses cut her from view.
+
+No one called after her. Aven did not come out of Meric's yard to ask to be forgiven, and the seven missing travelers did not materialize at the edge of the road. Hessa's sister remained unlocated. Ilyen's brother remained unlocated. The others remained unlocated. The return of two searchers had not converted uncertainty into evidence.
+
+Ilyen stayed by the cart after Hessa vanished. She opened her blanket and folded it again, making a smaller square that could be put beside Dovan's bedding without crowding him. She did not move into Ina's cleared workroom. When Tovin offered to carry her things, she asked him instead whether he would show her where travelers usually stopped to ask for water. He named two places within the settlement that he himself knew. He did not promise that the answer she needed would arrive there.
+
+Jake had a task he could finish without speaking for any of them. Ina's empty frame needed another coil of cord; she had asked for it before Hessa came home. He went back to the yard where his own cord lay, found the coil, and brought it to her doorway.
+
+Inside, Ina was working. She accepted the cord, measured what she needed, and returned the extra. The loom sounded once, then again, its steady knock unrelated to whether a traveler came back. In the little window Neris had marked three lengths of weak binding with waste-thread knots. Ina had not yet promised her wages. The knots remained visible; neither woman had erased the flaws they meant to mend.
+
+Jake stood outside a moment longer than the exchange required. He had witnessed an arrival, a refusal, and a departure. He could report those acts. He could not take the distance between them and close it with a sentence.
+
+Beyond the wall Ilyen asked Tovin for the first place she might sit and listen. Hessa was already beyond the bend, still on a road whose end no one here had seen.
+
+The cart waited, damaged and held in common. Not everyone who belonged to it had returned. Not everyone who returned could stay.
+
+---
+
+### Editorial handoff — author-side self-review, NOT independent acceptance
+
+- **Causal question:** Can Hessa and Ilyen return without allowing Aven's reappearance to dictate what their search meant, and can they choose different futures without making the journey into a new debt?
+- **Entering state:** After LIV, Ina has reclaimed workroom and the stair remains unsafe; Neris is injured with possible inspection work; Dovan impaired; shared six-person cart damaged; Hessa/Ilyen away and uninformed; Aven alive but unreconciled; seven unlocated, Jake retains four false-witness coins and Pell remains uncompensated.
+- **Irreversible turn:** Hessa and Ilyen return without finding relatives, question Aven and reject converting his reasons into excuses. Ilyen elects to stop traveling for now and search by listening in the settlement. Hessa knowingly departs alone.
+- **Exit continuity:** Hessa leaves for an unspecified search road; Ilyen stays provisionally, no settled lodging. Aven not forgiven. Seven remain unlocated. Neris and Dovan injured, Ina offers no guaranteed wage, jointly owned cart intact. Fara's shortened awning mended, flour restitution incomplete and bell clapper removed. False-witness debt, Sela identity naming and other earlier loops remain unresolved.
+- **POV and evidence:** Sole proposed fictional Jake limited interiority, CHAR-JAKE-KALOPER. Other people speak and act externally only. No invented league result, historical identity, Atlas-certified route, owner biography or canon promotion. Missing seven belong to secondary-world fiction alone.
+- **Omissions:** No new source week or historical matchup fictionalized and no unseen inland POV. Destination and search outcome remain unknown.
+- **Independent challenge:** Is the return's time interval plausible; are Hessa and Ilyen sufficiently distinct; does Jake's observer frame dominate; does confrontation over-explain morality; does the coin thought duplicate an older beat; does the departure create a genuinely new trajectory? Human historical, Character Canon, Atlas, literary and independent Umpire acceptance still required.
+- **Release:** NONCANON / NOT INDEPENDENT REVIEW. NO MERGE / NO CANON PROMOTION / NO PUBLICATION. Protected 2026 Prologue and Chapters I–III unchanged.
