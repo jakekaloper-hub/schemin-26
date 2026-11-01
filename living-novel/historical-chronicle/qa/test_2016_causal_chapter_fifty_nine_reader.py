@@ -129,7 +129,7 @@ class ChapterFiftyNine(unittest.TestCase):
 
     def test_22_no_missing_death_falsely_asserted(self):
         self.assertIn("We don't know", self.prose)
-        self.assertIn("not seven confirmed dead", self.qa)
+        self.assertIn("no death, discovery, forgiveness", self.qa)
 
     def test_23_nella_does_not_perform_another_claim(self):
         self.assertIn('"Not tonight."', self.prose)
@@ -149,7 +149,7 @@ class ChapterFiftyNine(unittest.TestCase):
         self.assertIn("cart disabled", self.qa)
 
     def test_27_restitution_not_forgiveness(self):
-        self.assertIn("partial restitution", self.prose)
+        self.assertIn("four false-witness coins Jake had returned", self.prose)
         self.assertIn("Jake has zero remaining false-witness coins", self.qa)
 
     def test_28_fire_and_injuries_persist(self):
