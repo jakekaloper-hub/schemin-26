@@ -9,8 +9,8 @@ BASE = ROOT / "living-novel/historical-chronicle/seasons/2025/causal-novel"
 AUSTIN = BASE / "THE_NARROWEST_DOOR_AUSTIN_2025_NONCANON.md"
 JAKE = ROOT / "living-novel/production/historical-saga/R53/HISTORICAL_2025_OBIWAN_NONCANON_PILOT.md"
 READER = BASE / "READING_COPY_2025_TWO_VOICES_NONCANON.md"
-READER_SHA = "e574129b5851860a2aabf8e5bf2dcc8e083d96f6"
-AUSTIN_SHA = "1a10c9cfff5a5255be3d358588d54f182faa8b24"
+READER_SHA = "3d82eb3a17c23154bee5c6fd4bde601c19fd372b"
+AUSTIN_SHA = "ae5d50aca6c1ac4da20fb8ead28554baa5e70613"
 JAKE_SHA = "9737fa9b9832de847ee504ed9b87d5e2c404e481"
 PREVIOUS_2016_READER = ROOT / "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_72_NONCANON.md"
 PREVIOUS_2016_READER_SHA = "8f1dda21ac4962143ba3291cef4d60769197d62f"
@@ -80,7 +80,7 @@ class TwoVoices2025SourceReader(unittest.TestCase):
                 self.assertTrue(row.group(3).endswith(src.name))
 
     def test_09_austin_substantive_words(self):
-        self.assertEqual(len(self.austin.split()), 5029)
+        self.assertEqual(len(self.austin.split()), 5001)
 
     def test_10_six_movements(self):
         self.assertEqual(len(re.findall(r"^### [IVX]+\. ", self.austin, re.M)), 6)
