@@ -39,7 +39,8 @@
     "reader": "89dd7284ddd6677fd9e309a1a0d6e98761330051",
     "qa": "7b1facc57599778c91fd1342710f133bcd0a2460",
     "test_initial": "73a8d0640abd0c501c3f37ba83d3380898a38a2d",
-    "test_literal_correction": "2f240bde8605eb6c3a8602076b5c94cf1ee5813e"
+    "test_literal_correction": "2f240bde8605eb6c3a8602076b5c94cf1ee5813e",
+    "test_failing_assertion_corrected": "208cd8bf318ef2110d77bba302d8176d89f6001c"
   },
   "literary_output": {
     "chapter": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_TRACK_ABOVE_THE_WATER_CHAPTER_60_NONCANON.md",
@@ -63,7 +64,7 @@
     "qa": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_60_SOURCE_EDITORIAL_QA_RECEIPT.md",
     "regression_test_path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_sixty_reader.py",
     "regression_tests_added": 35,
-    "regression_test_blob_sha": "789f46ad365364327ff5d25ad03efbb355d88898"
+    "regression_test_blob_sha": "97531382a3ad742a1b052dae2e84e8982699d831"
   },
   "proof": {
     "source_exact_composition": "PASS_CHECKED_IN_JS_AGAINST_FIVE_GITHUB_BLOB_CONTENTS",
@@ -74,9 +75,18 @@
     "bullpen_runtime_ci_run": 41294436737,
     "repository_merge_gate_run": 41294436758,
     "all_four_at_test_commit": "IN_PROGRESS_AT_CHECKPOINT_PREPARATION",
-    "independent_editorial": "NOT_RECEIVED; ZERO_SUBMITTED_PR_REVIEWS_AT_INTAKE",
+    "independent_editorial": "NO_APPROVAL_RECEIVED; ZERO_SUBMITTED_PR_REVIEWS_ON_CHECK",
     "final_checkpoint_commit_ci": "TO_BE_OBSERVED_AFTER_CHECKPOINT_WRITE",
-    "netlify": "NOT_CLEARED"
+    "netlify": "NOT_CLEARED",
+    "initial_ci_at_2f240": "FAIL_1_OF_1026; Chapter LX test_22 erroneously required closing quotation immediately after move rather than existing comma in prose",
+    "initial_novel_os_ci_run": 41294436778,
+    "initial_cross_domain_ci_run": 41294436755,
+    "initial_bullpen_runtime_ci_run": 41294436737,
+    "initial_merge_gate_ci_run": 41294436758,
+    "initial_other_three_workflows": "SUCCESS",
+    "test_correction_commit": "208cd8bf318ef2110d77bba302d8176d89f6001c",
+    "ci_after_test_correction": "AWAITING_VERIFICATION",
+    "actual_review_request": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6556319890"
   },
   "causal_state": {
     "entry": "Seven missing fictional travelers remain unlocated, Hessa searching away and Ilyen local. Aven returned alone but unreconciled with Neris; burned meadow, unsafe low riverbank, injured Neris/Dovan, six-owner disabled cart with collar held by buyer (extension expired), Orrel false paper and partial restitution, Esi unpaid shelter debt and broken seventh bowl are active.",
