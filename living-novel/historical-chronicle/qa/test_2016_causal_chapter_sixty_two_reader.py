@@ -10,7 +10,7 @@ SOURCES = (
     ("THE_PRICE_OF_ONE_WHEEL_CHAPTER_56_NONCANON.md", "410285ab80b12c4ea9f07840b51bbd7ddc79dfb2", 5178),
     ("THE_BLACK_MEADOW_CHAPTER_57_NONCANON.md", "d2a483e2d6b90e79b9d858525a1e19ae7657648c", 4471),
     ("THE_DISTANCE_A_NAME_COULD_TRAVEL_CHAPTER_58_NONCANON.md", "23a33fe476aa980667060bde07561861b4111959", 4564),
-    ("THE_PLACE_LEFT_OPEN_CHAPTER_59_NONCANON.md", "9eb451c84168e452971d29d82a981", 5051),
+    ("THE_PLACE_LEFT_OPEN_CHAPTER_59_NONCANON.md", "9eb451c84168e452971d29d82f7e7d9f14972dfc", 5051),
     ("THE_TRACK_ABOVE_THE_WATER_CHAPTER_60_NONCANON.md", "46cf50294a7e34afe465a5d738e2d66bea48edbe", 5277),
     ("THE_MEASURE_OF_A_SHORE_CHAPTER_61_NONCANON.md", "ddccc87b4a7a0a381d567e700adec17f821d57f4", 5665),
     ("THE_FRAME_ABOVE_THE_ASH_CHAPTER_62_NONCANON.md", "56e058db1178899d476b9487c99c54364199af2f", 5094),
@@ -157,7 +157,7 @@ class ChapterSixtyTwo(unittest.TestCase):
 
     def test_28_noncanonical_atlas_and_review_boundary(self):
         self.assertIn("not ESPN/Flaim events, approved Atlas geography", self.chapter)
-        self.assertIn("candidate fiction pending Atlas review", self.qa)
+        self.assertIn("Candidate fiction pending Atlas review", self.qa)
 
     def test_29_archived_historical_league_facts_unchanged(self):
         archive = ROOT / "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json"
