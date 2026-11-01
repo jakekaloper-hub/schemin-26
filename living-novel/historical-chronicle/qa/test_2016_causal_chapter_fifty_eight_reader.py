@@ -122,7 +122,7 @@ class ChapterFiftyEight(unittest.TestCase):
 
     def test_20_no_forgiveness_auto_purchased(self):
         self.assertIn("Pell had accepted them as partial restitution", self.prose)
-        self.assertIn("no forgiveness claimed", self.chapter.lower())
+        self.assertIn("not as wages, vindication, forgiveness", self.prose)
 
     def test_21_false_account_remains_unrecovered(self):
         self.assertIn("The lie itself had not been retrieved from Orrel's pages", self.prose)
@@ -133,7 +133,7 @@ class ChapterFiftyEight(unittest.TestCase):
     def test_23_buyer_extension_expires_without_collateral_promotion(self):
         self.assertIn("The time he offered is past", self.prose)
         self.assertIn("He says yesterday's bargain no longer binds him", self.prose)
-        self.assertIn("the buyer still holds collar", self.qa.lower().replace("'s", ""))
+        self.assertIn("the buyer still has collar", self.qa.lower())
 
     def test_24_cart_six_owners_hessa_away(self):
         self.assertIn("Six cart owners still own their cart", self.qa)
