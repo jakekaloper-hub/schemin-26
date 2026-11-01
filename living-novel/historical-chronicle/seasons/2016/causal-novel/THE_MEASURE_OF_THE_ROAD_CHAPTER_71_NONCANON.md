@@ -118,6 +118,8 @@ Meric turned away at that. Jake did not. The collector held a small length of ch
 
 It was. Jake had intended to price timber, return to Esi, and give her an answer she could accept or refuse. He had not included a stranger who demanded payment for the part of the world lying between one promise and its fulfillment.
 
+He had met this argument before, though not in this form. At a crossing beyond the houses, boats had lain idle while people fought over who could ask payment for carrying a load and who could grant passage through an orchard. Sela had insisted those were separate rights. The pilot had a vessel, a skill, and risk enough to name a price. The orchard was another person's ground. Jake remembered wet ropes against his hands and the strain of crates moved across an actual reach of water. Today there was no boat, no visible maintenance, and no owner willing to stand behind the charge. If the earlier quarrel had taught him anything, it was that the cost of a service and the permission to travel were not the same thing. He could not prove this man had done no work elsewhere; he could insist that the man name it here.
+
 The collector looked beyond him toward Meric's yard, where the workboard hung under its eave.
 
 "That place accounts for labor?" he asked.
