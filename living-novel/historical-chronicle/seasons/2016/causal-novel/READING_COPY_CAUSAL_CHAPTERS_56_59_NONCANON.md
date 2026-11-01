@@ -9,7 +9,7 @@
 | 56 | THE_PRICE_OF_ONE_WHEEL_CHAPTER_56_NONCANON.md | 410285ab80b12c4ea9f07840b51bbd7ddc79dfb2 | 5178 |
 | 57 | THE_BLACK_MEADOW_CHAPTER_57_NONCANON.md | d2a483e2d6b90e79b9d858525a1e19ae7657648c | 4471 |
 | 58 | THE_DISTANCE_A_NAME_COULD_TRAVEL_CHAPTER_58_NONCANON.md | 23a33fe476aa980667060bde07561861b4111959 | 4564 |
-| 59 | THE_PLACE_LEFT_OPEN_CHAPTER_59_NONCANON.md | bfdacb8164c722c94e2ce71184f38893c9f2fc72 | 5039 |
+| 59 | THE_PLACE_LEFT_OPEN_CHAPTER_59_NONCANON.md | 9eb451c84168e452971d29d82f7e7d9f14972dfc | 5051 |
 
 ## Chapter LVI — The Price of One Wheel
 
@@ -1170,7 +1170,7 @@ The wind moved through the surviving grasses, and this time the sound carried wi
 
 ## Chapter LIX — The Place Left Open
 
-<!-- BEGIN 2016_CAUSAL THE_PLACE_LEFT_OPEN_CHAPTER_59_NONCANON.md | git_blob bfdacb8164c722c94e2ce71184f38893c9f2fc72 -->
+<!-- BEGIN 2016_CAUSAL THE_PLACE_LEFT_OPEN_CHAPTER_59_NONCANON.md | git_blob 9eb451c84168e452971d29d82f7e7d9f14972dfc -->
 
 # The Place Left Open
 
@@ -1530,7 +1530,7 @@ Brast went with Dovan and Tovin toward the yard. Neris stayed until Aven stepped
 
 People began to leave. No one announced that the gathering was over. A child needed supper; an older man could no longer see the high road clearly; the man whose cousin was absent carried his stone back down the path. Some of the visitors continued talking as they went. Others went quietly.
 
-Jake remained near the empty patch of road where the blue-lined bowl had broken. It was tempting to think the row had taught the settlement something. He could not see that it had. Six bowls went into Fara's basket, two wrapped fragments went with them, and the seventh had been carried off to hold water. Those were the things he could count.
+Jake remained near the empty patch of road where the blue-lined bowl had broken. It was tempting to think the row had taught the settlement something. He could not see that it had. Five bowls went into Fara's basket, two wrapped fragments went with them, and a sixth had been carried off to hold water. The seventh existed only in the pieces Fara had wrapped. Those were the things he could count.
 
 ### VI. A place not sealed
 
@@ -1588,7 +1588,7 @@ They walked up the high path together until it joined the first houses. There Il
 
 Ilyen pushed the door open with her shoulder, taking care not to strike the bowl against the frame. She did not look back to see whether Jake followed.
 
-He stayed outside. Through the opening he saw her offer the bowl to Fara, who inspected the rim and placed it upside down with the others. For a moment there were seven shapes along the counter again, although one of them had a different history from the bowl that shattered on the road. Fara did not call it a replacement. She handed Ilyen a cloth and showed her a place where the water had collected under the shelf.
+He stayed outside. Through the opening he saw her offer the bowl to Fara, who inspected the rim and placed it upside down with the others. For a moment there were six shapes along the counter again. Fara had not fetched a seventh to stand in for the blue-lined vessel that shattered on the road. Fara did not call it a replacement. She handed Ilyen a cloth and showed her a place where the water had collected under the shelf.
 
 Jake walked away before they finished cleaning.
 
