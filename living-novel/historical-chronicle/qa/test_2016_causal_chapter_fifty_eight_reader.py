@@ -133,7 +133,7 @@ class ChapterFiftyEight(unittest.TestCase):
     def test_23_buyer_extension_expires_without_collateral_promotion(self):
         self.assertIn("The time he offered is past", self.prose)
         self.assertIn("He says yesterday's bargain no longer binds him", self.prose)
-        self.assertIn("the buyer still has collar", self.qa.lower())
+        self.assertIn("the collar still sits at the buyer's table", self.qa.lower())
 
     def test_24_cart_six_owners_hessa_away(self):
         self.assertIn("Six cart owners still own their cart", self.qa)
