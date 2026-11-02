@@ -141,7 +141,7 @@ class TwelveOwnerFourteenPartReader(unittest.TestCase):
     def test_20_shelter_promise_not_retconned(self):
         self.assertIn("Thirty-six sleeping places", self.scene)
         self.assertIn("The first night's lodging had been accounted for", self.scene)
-        self.assertIn("a subsequent unspecified night", self.chapter)
+        self.assertIn("*subsequent unspecified night*", self.chapter)
 
     def test_21_mask_and_chair_continuity(self):
         for phrase in ("thirteenth mask", "shorter third-place chair", "The new handle held"):
