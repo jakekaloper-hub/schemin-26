@@ -149,7 +149,7 @@ class SevenVoicesReaderTest(unittest.TestCase):
 
     def test_16_period_atlas_and_owner_firewalls(self):
         self.assertIn("PERIOD ATLAS HOLD", self.brandon)
-        self.assertIn("not authenticated Atlas facts", self.brandon)
+        self.assertIn("not ESPN transactions or authenticated Atlas facts", self.brandon)
         self.assertIn("Real owners' private motives", self.text)
 
     def test_17_first_load_precedes_receipt_in_new_chapter(self):
@@ -157,7 +157,7 @@ class SevenVoicesReaderTest(unittest.TestCase):
 
     def test_18_delivery_explicitly_partial(self):
         self.assertIn("partial, witnessed wood acceptance", self.text)
-        self.assertIn("not a full two-night delivery", self.text)
+        self.assertIn("does not manufacture a full two-night delivery", self.text)
 
     def test_19_no_third_night_or_worker_vote_promotion(self):
         self.assertIn("the 4–2 vote stands", self.brandon)
