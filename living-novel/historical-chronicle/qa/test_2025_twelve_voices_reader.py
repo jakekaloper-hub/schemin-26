@@ -166,7 +166,7 @@ class TwelveVoiceReaderTests(unittest.TestCase):
         self.assertIn("a cracked support", self.chapter)
 
     def test_25_no_proven_atlas_join_or_meteorology(self):
-        self.assertIn("no fixed canonical road, channel, ferry or maritime network", self.chapter)
+        self.assertIn("No fixed canonical road, channel, ferry or maritime network", self.chapter)
         self.assertIn("rather than historical meteorology or league records", self.chapter)
         self.assertIn("no meteorological claim about the actual world", self.chapter)
 
