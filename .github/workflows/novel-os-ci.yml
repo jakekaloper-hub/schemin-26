@@ -208,3 +208,5 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2025_five_voices_reader.py" -v
       - name: Verify source-exact 2025 six-owner historical reading copy (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2025_six_voices_reader.py" -v
+      - name: Verify source-exact 2025 seven-owner historical reading copy (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2025_seven_voices_reader.py" -v
