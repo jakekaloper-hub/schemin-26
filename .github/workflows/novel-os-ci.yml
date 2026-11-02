@@ -222,3 +222,5 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2025_twelve_voices_reader.py" -v
       - name: Verify 2025 twelve-owner thirteen-part Jake causal coda (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2025_twelve_voices_thirteen_parts.py" -v
+      - name: Verify 2025 fourteen-part Austin-Phillip causal integration (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2025_twelve_voices_fourteen_parts.py" -v
