@@ -14,7 +14,7 @@ The first four narrative sources are reproduced exactly from the existing four-v
 | 2 | Jake / CHAR-JAKE-KALOPER | `living-novel/production/historical-saga/R53/HISTORICAL_2025_OBIWAN_NONCANON_PILOT.md` | `9737fa9b9832de847ee504ed9b87d5e2c404e481` | 983 |
 | 3 | Zach / CHAR-ZACH-WILSON | `living-novel/historical-chronicle/seasons/2025/causal-novel/THE_COURSE_BENEATH_THE_COURSE_ZACH_2025_NONCANON.md` | `112b3890173cbf11879b139bff966cdff83884d4` | 5310 |
 | 4 | Phillip / CHAR-PHILLIP-PITTS | `living-novel/historical-chronicle/seasons/2025/causal-novel/THE_MASKS_THAT_REMAINED_PHILLIP_2025_NONCANON.md` | `f96832d3bd23840d2fb1853d17940ac54774531d` | 4777 |
-| 5 | Ben / CHAR-BEN-WHIPPLE | `living-novel/historical-chronicle/seasons/2025/causal-novel/THE_SIXTH_PLACE_AT_THE_TABLE_BEN_2025_NONCANON.md` | `54b6b5f89ae5e33bb05de002fa57b05f9774618b` | 4498 |
+| 5 | Ben / CHAR-BEN-WHIPPLE | `living-novel/historical-chronicle/seasons/2025/causal-novel/THE_SIXTH_PLACE_AT_THE_TABLE_BEN_2025_NONCANON.md` | `9a2b618d498ad97a6343366dcc18ddc409041419` | 4495 |
 
 ## Verified competition / unresolved identity
 
@@ -1631,7 +1631,7 @@ Behind him the hall keeper lowered the lamps. The blank mask stayed where Veya h
 
 ## Part 5 — Ben / CHAR-BEN-WHIPPLE
 
-<!-- BEGIN 2025_VOICE THE_SIXTH_PLACE_AT_THE_TABLE_BEN_2025_NONCANON.md | git_blob 54b6b5f89ae5e33bb05de002fa57b05f9774618b -->
+<!-- BEGIN 2025_VOICE THE_SIXTH_PLACE_AT_THE_TABLE_BEN_2025_NONCANON.md | git_blob 9a2b618d498ad97a6343366dcc18ddc409041419 -->
 
 # THE SIXTH PLACE AT THE TABLE
 
@@ -1675,7 +1675,7 @@ Inside, heat struck him like an old acquaintance with an insult ready. A great p
 
 "Perhaps they wanted to be certain."
 
-She pushed a small slate over the counter. Seven names had been written in white chalk. He recognized the first five as households that supplied grain, fuel or rent for the kitchen. The sixth was his. The seventh line was blank.
+She pushed a small slate over the counter. Six names had been written in white chalk, all belonging to households that supplied grain, fuel or rent for the kitchen. Beneath them someone had added his name beside the empty square for a seventh stool.
 
 "Who put my name there?"
 
@@ -1757,7 +1757,7 @@ The woman placed the tray down between them. Her palms were striped with the pre
 
 "They've told him you speak for us."
 
-Ben had heard the phrase for years, offered first as a joke and then as a name, and at last so often that it sounded like the thing itself. The people's champion. A big man who could bear what others could not and say what others were afraid to say. It had never occurred to him to ask for an inventory of the people.
+He had heard the phrase at supper tonight, offered first as a joke and then repeated so often that it began to sound like a name. The people's champion. A big man who could bear what others could not and say what others were afraid to say. It had never occurred to him to ask for an inventory of the people.
 
 "Do you want me to speak?" he asked.
 
@@ -2003,7 +2003,7 @@ It was less than the passage needed.
 
 They served the oldest traveler first because Tessa asked the waiting people and they agreed. The boy with the worn token held the handle of the pot while a smaller child drank. Somebody brought a blanket. Somebody complained that the blanket ought to have gone to the named households. The argument lasted until its owner took the blanket back, then returned with it, then demanded to know whether she was being thanked.
 
-Ben wanted to laugh. He had made a living, in part, from the public beauty of a single great effort. Here every effort came with another person's claim attached. A man could haul the wood and be wrong about who ought to have it. He could be fair and still leave someone cold. He could refuse a chair and discover that refusing a chair had done nothing to change the rule that put the chair there.
+Ben wanted to laugh. He had learned to love the public beauty of a single great effort. Here every effort came with another person's claim attached. A man could haul the wood and be wrong about who ought to have it. He could be fair and still leave someone cold. He could refuse a chair and discover that refusing a chair had done nothing to change the rule that put the chair there.
 
 Before the morning meal the six stewards returned. They had seen the altered slate and the passage pot. Pell was annoyed about the borrowed wood. One steward asked whether Ben meant to establish a rival kitchen.
 
