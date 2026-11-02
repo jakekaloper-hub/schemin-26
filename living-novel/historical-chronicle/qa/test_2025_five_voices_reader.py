@@ -11,13 +11,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[3]
 BASE = ROOT / "living-novel/historical-chronicle/seasons/2025/causal-novel"
 READER = BASE / "READING_COPY_2025_FIVE_VOICES_NONCANON.md"
-READER_SHA = "e6bb7db5d9293f846a2a3149f32ca1d9905d366a"
+READER_SHA = "d82f3696959e0c17f5a751f576417ca6b070f409"
 SOURCES = (
     ("living-novel/historical-chronicle/seasons/2025/causal-novel/THE_NARROWEST_DOOR_AUSTIN_2025_NONCANON.md", "ae5d50aca6c1ac4da20fb8ead28554baa5e70613", "CHAR-AUSTIN-BYARS", 5001),
     ("living-novel/production/historical-saga/R53/HISTORICAL_2025_OBIWAN_NONCANON_PILOT.md", "9737fa9b9832de847ee504ed9b87d5e2c404e481", "CHAR-JAKE-KALOPER", 983),
     ("living-novel/historical-chronicle/seasons/2025/causal-novel/THE_COURSE_BENEATH_THE_COURSE_ZACH_2025_NONCANON.md", "112b3890173cbf11879b139bff966cdff83884d4", "CHAR-ZACH-WILSON", 5310),
     ("living-novel/historical-chronicle/seasons/2025/causal-novel/THE_MASKS_THAT_REMAINED_PHILLIP_2025_NONCANON.md", "f96832d3bd23840d2fb1853d17940ac54774531d", "CHAR-PHILLIP-PITTS", 4777),
-    ("living-novel/historical-chronicle/seasons/2025/causal-novel/THE_SIXTH_PLACE_AT_THE_TABLE_BEN_2025_NONCANON.md", "54b6b5f89ae5e33bb05de002fa57b05f9774618b", "CHAR-BEN-WHIPPLE", 4498),
+    ("living-novel/historical-chronicle/seasons/2025/causal-novel/THE_SIXTH_PLACE_AT_THE_TABLE_BEN_2025_NONCANON.md", "9a2b618d498ad97a6343366dcc18ddc409041419", "CHAR-BEN-WHIPPLE", 4495),
 )
 OLD_2025 = BASE / "READING_COPY_2025_FOUR_VOICES_NONCANON.md"
 OLD_2025_SHA = "d51c78949c6461b78e62f1e408bafd0c3812f793"
@@ -85,7 +85,7 @@ class FiveVoicesReaderTest(unittest.TestCase):
             self.assertEqual(body.strip("\n"), self.bodies[index].rstrip("\n"))
 
     def test_07_component_counts_are_exact(self):
-        self.assertEqual(sum(int(m.group(5)) for m in self.manifest), 20569)
+        self.assertEqual(sum(int(m.group(5)) for m in self.manifest), 20566)
         for body, (_, _, _, count) in zip(self.bodies, SOURCES):
             self.assertEqual(len(body.split()), count)
 
