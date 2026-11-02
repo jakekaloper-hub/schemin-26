@@ -239,3 +239,5 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2025_eleven_part_watch_ground_level.py" -v
       - name: Verify 2025 twelve-part Wilson dispatch bridge source-exact reading (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2025_twelve_part_dispatch_bridge.py" -v
+      - name: Verify 2025 Wilson single-departure eleven-part developmental reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2025_integrated_wilson_one_departure.py" -v
