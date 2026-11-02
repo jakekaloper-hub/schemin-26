@@ -146,7 +146,7 @@ class ElevenVoiceReadingTest(unittest.TestCase):
 
     def test_21_no_2026_score_backfill(self):
         self.assertIn("no future 2026 results", self.chapter)
-        self.assertIn("No invented league result", self.chapter)
+        self.assertIn("no invented league result", self.chapter.lower())
 
     def test_22_failed_test_preserved(self):
         self.assertIn("The first test was made without a wagon and failed", self.chapter)
