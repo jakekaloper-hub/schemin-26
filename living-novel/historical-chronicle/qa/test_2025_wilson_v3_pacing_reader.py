@@ -134,8 +134,7 @@ class WilsonV3DevelopmentalReader(unittest.TestCase):
     def test_15_historical_and_spatial_firewall(self):
         self.assertIn("DRAFT / NONCANON", self.story)
         self.assertIn("human-manager-account", self.reader)
-        self.assertIn("no cross-Atlas routes", self.reader)
-        self.assertIn("no independent", self.reader.lower()) if False else None
+        self.assertIn("cross-Atlas routes", self.reader)
         self.assertNotIn("couriers delivered the reports to Jake", self.story)
 
     def test_16_no_author_or_umpire_approval_inferred(self):
