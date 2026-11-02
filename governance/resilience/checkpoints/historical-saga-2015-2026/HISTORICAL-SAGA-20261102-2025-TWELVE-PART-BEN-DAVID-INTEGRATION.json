@@ -6,7 +6,7 @@
   "pr": 243,
   "status": "DRAFT_NONCANON_INDEPENDENT_REVIEW_HOLD",
   "authority": {
-    "schemin_main": "8fcb77191955f413fe970154d47632770f923055",
+    "schemin_main": "e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80",
     "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
     "novel_source_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
     "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
@@ -28,7 +28,8 @@
       "252": "OPEN_DRAFT",
       "261": "OPEN_DRAFT",
       "264": "OPEN_DRAFT"
-    }
+    },
+    "schemin_pr243_base_sha": "8fcb77191955f413fe970154d47632770f923055"
   },
   "previous_branch_checkpoint": "04264eea9e6c2f2e92f4bd7d3ddbdd17a444d318",
   "literary_output": {
@@ -81,12 +82,12 @@
       [
         "Novel OS CI",
         41483363083,
-        "IN_PROGRESS_NEW_STEP_SUCCESS"
+        "SUCCESS"
       ],
       [
         "Cross-Domain Authority CI",
         41483363181,
-        "IN_PROGRESS"
+        "SUCCESS"
       ],
       [
         "Bullpen Runtime CI",
@@ -99,7 +100,9 @@
         "SUCCESS"
       ]
     ],
-    "final_checkpoint_actions": "RECHECK_REQUIRED"
+    "final_checkpoint_actions": "Checkpoint-only governance mutation not eligible for existing Novel OS paths filter; no final-SHA CI run claimed. Compare against tested SHA confirmed only checkpoint file modified.",
+    "new_28_case_step_status": "SUCCESS; observed GitHub job 125407173527 run 41483363083; log contains Ran 28 tests",
+    "tested_sha_only_noncode_difference_verified_via_compare": true
   },
   "editorial": {
     "self_assessment_path": "living-novel/historical-chronicle/seasons/2025/causal-novel/WHAT_THE_DOOR_COULD_HOLD_EDITORIAL_SOURCE_QA_2026-11-02.md",
