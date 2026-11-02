@@ -145,7 +145,7 @@ class WilsonSingleDepartureDevelopmentalReader(unittest.TestCase):
   self.assertIn("declined a search",self.story)
  def test_24_original_causal_consequences_preserved(self):
   self.assertIn("Jordan's two owed hours are paid by Jordan",self.chapter)
-  self.assertIn("watch\u0027s older wage debt",self.story)
+  self.assertIn("The watch's older wage debt",self.story)
   self.assertIn("four agreed wages",self.story)
  def test_25_hard_canon_and_approval_gates_explicit(self):
   self.assertIn("2026 protected Prologue and Chapters I–III stay unmodified",self.chapter)
