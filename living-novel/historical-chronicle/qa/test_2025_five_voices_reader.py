@@ -134,7 +134,7 @@ class FiveVoicesReaderTest(unittest.TestCase):
         self.assertIn("The first place belonged elsewhere, as did the Belt", self.ben)
 
     def test_20_specific_cost_and_unresolved_rule(self):
-        for phrase in ("Four stewards favored the old rule", "Pell still expected payment", "the old serving order stood", "For the moment, he had wood to repay"):
+        for phrase in ("Four stewards favored the old rule", "Pell still expected payment", "The old serving order stood", "For the moment, he had wood to repay"):
             self.assertIn(phrase, self.ben)
 
     def test_21_four_voice_reader_still_byte_exact(self):
@@ -149,7 +149,7 @@ class FiveVoicesReaderTest(unittest.TestCase):
                 self.assertEqual(git_blob(ROOT / p), sha)
 
     def test_24_release_and_external_holds_explicit(self):
-        for phrase in ("DRAFT / NONCANON", "historical manager-account identity remains UNKNOWN", "No merge, deployment, publication or canon promotion"):
+        for phrase in ("DRAFT / NONCANON", "Historical manager-account identity remains UNKNOWN", "No merge, deployment, publication or canon promotion"):
             self.assertIn(phrase, self.text)
 
     def test_25_reader_five_part_closing_marker(self):
