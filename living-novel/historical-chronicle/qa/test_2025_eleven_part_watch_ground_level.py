@@ -170,11 +170,11 @@ class GroundLevelDevelopmentalIntegration(unittest.TestCase):
     def test_23_second_wagon_still_waiting_for_wilson(self):
         self.assertIn("second wagon remains stranded", self.chapter)
         self.assertIn("Wilson's following chapter", self.chapter)
-        self.assertIn("one eventually moves", self.chapter)
+        self.assertIn("One eventually moves", self.chapter)
 
     def test_24_jordan_debt_and_watch_wages_do_not_vanish(self):
         self.assertIn("two-hour debt remains unpaid by Jordan", self.chapter)
-        self.assertIn("watch wage obligations remain separate", self.chapter)
+        self.assertIn("watch\x27s separate unresolved paid-hours procedure", self.chapter)
         self.assertIn("not silently extinguished", self.chapter)
 
     def test_25_actual_connected_scene_with_consequence(self):
@@ -189,7 +189,7 @@ class GroundLevelDevelopmentalIntegration(unittest.TestCase):
         self.assertNotRegex(self.story, r"\b2026\s+(?:Week|championship|playoffs|final)")
 
     def test_27_independent_and_founder_gates_open(self):
-        self.assertIn("independent Authors Council", self.chapter)
+        self.assertIn("Independent Authors Council", self.chapter)
         self.assertIn("FOUNDER", self.chapter)
         self.assertIn("NONCANON", self.reader)
         self.assertIn("independent literary", self.reader)
