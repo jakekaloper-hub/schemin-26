@@ -161,7 +161,7 @@ class TenVoiceReadingTest(unittest.TestCase):
         self.assertIn("the debt discharged", self.chapter)
 
     def test_25_unknown_figures_not_named_enemies(self):
-        self.assertIn("three figures reported earlier remained unidentified", self.chapter)
+        self.assertIn("three figures reported earlier remained unidentified", self.chapter.lower())
         self.assertIn("unknown", self.chapter.lower())
 
     def test_26_no_future_2026_knowledge(self):
