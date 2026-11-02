@@ -1,0 +1,141 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261102-2025-WILSON-V3-63315-READING",
+  "date_utc": "2026-11-02",
+  "mission": "BULLPEN_PERMANENT_EXECUTIVE_MANDATE_COMMONWEALTH_NOVEL",
+  "status": "SOURCE_GROUNDED_DEVELOPMENTAL_REVISION_AND_READER_ASSEMBLED_NONCANON_REVIEW_HOLD",
+  "repository": "jakekaloper-hub/schemin-26",
+  "bullpen": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "pr_state_at_readback": "OPEN_DRAFT_NOT_MERGED",
+  "previous_checkpoint": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261102-2025-SELECTED-WILSON-V2-65K-READER.json",
+  "authorities": {
+    "source_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md@67fcd669dc7b43393f2d15e93545301961dd81e4",
+    "project_control": "PROJECT_CONTROL_REGISTRY.md@23bb20df8a4fbcd0805e84df749bdd231f38ee83",
+    "novel_book_architecture": "living-novel/os/NOVEL_BOOK_ARCHITECTURE_V2.md@9e67ee263848773deeec990fcca4ec8428d40c28",
+    "novel_causal_architecture": "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md@346b5883d41dc6551115a514d0dd9c87c385d60d",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json@5e72e48f3c305e6def1051e0b18883a7be6b6af0",
+    "bullpen_command": "docs/COMMAND_SYSTEM_V2.md@cccf90a3cadac802767988ceab8f44453aa86819",
+    "bullpen_lifecycle": "runtime/lifecycleEngine.js@710caca4e4a01c934bdc53f22229acced48a2d78",
+    "reviewed_issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "reviewed_prs": [
+      188,
+      243,
+      252,
+      261,
+      264
+    ],
+    "main_branches": "Both main branches read; protected 2026 source files directly compared against Schemin main and unchanged"
+  },
+  "selected_task": "2025 selected Wilson V2 scene compression and material-continuity correction, then source-pinned complete eleven-part V3 manuscript",
+  "artifacts": {
+    "chapter": {
+      "path": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_ROAD_THAT_SPOKE_IN_TWO_VOICES_WILSON_2025_DEVELOPMENTAL_COMPRESSION_V3_NONCANON.md",
+      "git_blob": "31ddd0d2f18f7eb433bd1d6d0abb791b666aaeb4",
+      "prior_git_blob": "5c953eb78e8f383d1038712501335418ce8af4ab",
+      "v2_source_words_incl_metadata": 11603,
+      "v3_source_words_incl_metadata": 9909,
+      "net_reduction": -1694,
+      "prose_revision": "Movement IX rewritten as one petition/hire/wage settlement; Movement XI condensed and consistent with blanket/tile unloading; sealed chests remain loaded."
+    },
+    "reader": {
+      "path": "living-novel/historical-chronicle/seasons/2025/causal-novel/READING_COPY_2025_TWELVE_VOICES_ELEVEN_PARTS_WILSON_COMPRESSION_V3_NONCANON.md",
+      "git_blob": "bf47f2bc09bd31500487409fd220a4e818fd1671",
+      "total_chapter_source_words_incl_metadata": 63315,
+      "parts": 11,
+      "exclusive_pov_owner_ids": 12,
+      "retained_other_wrappers_exact": 10,
+      "assembly_preflight": "PASS via source-exact wrapper hash and content checks"
+    },
+    "qa": "living-novel/historical-chronicle/seasons/2025/causal-novel/EDITORIAL_QA_WILSON_V3_WHOLE_2025_MANUSCRIPT_2026-11-02.md",
+    "test_suite": "living-novel/historical-chronicle/qa/test_2025_wilson_v3_pacing_reader.py",
+    "workflow": ".github/workflows/novel-os-ci.yml"
+  },
+  "technical_evidence": {
+    "workflow_code_commit": "04d30be39db8c06652dc65150d10e6f8c65de897",
+    "regression_tests_added": 16,
+    "v3_test_step": {
+      "run_id": 41538137293,
+      "job_id": 125595131543,
+      "step_number": 110,
+      "step_conclusion": "SUCCESS",
+      "note": "GitHub Actions step status observed; full Novel OS workflow in progress at checkpoint preflight; raw job logs not yet retrievable"
+    },
+    "other_workflows": [
+      {
+        "name": "Cross-Domain Authority CI",
+        "id": 41538137224,
+        "conclusion": "SUCCESS"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "id": 41538137300,
+        "conclusion": "SUCCESS"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "id": 41538137312,
+        "conclusion": "SUCCESS"
+      }
+    ],
+    "novel_os_overall": {
+      "id": 41538137293,
+      "status": "IN_PROGRESS",
+      "conclusion": null
+    },
+    "scope_note": "Tests/3 workflow results are tied to exact CI code commit, not automatically attributed to later editorial QA or checkpoint commits."
+  },
+  "protected_2026_main_branch_blobs_match": {
+    "living-novel/manuscript/PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+    "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+    "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+    "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+  },
+  "fictional_state": {
+    "loaded_wagons_passed": 1,
+    "prior_empty_cart": "EXAMINED_UNLOADED",
+    "second_loaded_wagon": "HELD",
+    "damaged_support": "FAILED_AFTER_FIRST_LOADED_WAGON",
+    "driver_goods": "BLANKETS_AND_TILES_MOVED_UNDER_COVER;SEALED_CHESTS_REMAIN_LOADED",
+    "driver_loss": "RECORDED_NO_COMPENSATION",
+    "four_temporary_watchers": "PAID_ONCE",
+    "old_watch_wages": "UNRESOLVED",
+    "jordans_two_hour_debt": "PAID_BY_JORDAN",
+    "fee_collectors": "UNAPPOINTED",
+    "three_figures": "UNIDENTIFIED",
+    "dispatches": "TWO_QUALIFIED_NOTICES;NO_PROVEN_DELIVERY_TO_JAKE",
+    "company_departures": 1
+  },
+  "historical_2016": {
+    "source": "living-novel/historical-chronicle/seasons/2016/source-audits/FLAIM_ESPN_2016_SLOT_OUTCOME_AND_POV_BINDING_AUDIT_2026-11-02.md",
+    "ambiguity": "Separate team slot 8 Austin's Hyena's (champion) and slot 12 The Real Austin's Hyenas (third) must not be joined by names.",
+    "owner_account_join": "UNKNOWN",
+    "separate_causal_reader_chapters": 72,
+    "prior_jake_limited_pov_chapters": 72,
+    "new_owner_reassignments": 0,
+    "status": "BLOCKED_AUTHENTICATED_2016_MANAGER_ACCOUNT_AND_PERIOD_CHARACTER_EVIDENCE"
+  },
+  "review": {
+    "pr_review_request_comment_id": 6590243297,
+    "independent_reviews_submitted_at_readback": 0,
+    "authors_council": "REQUESTED_NOT_RECEIVED",
+    "historical_librarian": "REQUESTED_NOT_RECEIVED",
+    "period_character_canon": "REQUESTED_NOT_RECEIVED",
+    "period_atlas": "REQUESTED_NOT_RECEIVED",
+    "independent_umpire": "REQUESTED_NOT_RECEIVED",
+    "founder_promotion": "HOLD"
+  },
+  "next": [
+    "Verify Novel OS CI overall conclusion at exact code commit and inspect raw 16-test logs if available; repair failures without modifying protected canon.",
+    "Obtain genuine independent developmental reviews of whole 2025 eleven-part edition; consider next targeted edit of Part 10 Austin/Phillip repeated shelter/stage beats.",
+    "Maintain source-pinned eleven-part V3 as NONCANON and preserve older readings.",
+    "Obtain authenticated historical ESPN manager-account ownership and period-character approval before assigning non-Jake historical 2016 interior POV.",
+    "Never merge, publish, canon-promote, spend, invent ESPN facts or certify cross-Atlas geography without proper approval."
+  ]
+}
