@@ -2,7 +2,9 @@
 
 **DRAFT / NONCANON / INDEPENDENT EDITORIAL HOLD / HISTORICAL OWNER-LINEAGE UNKNOWN / PERIOD CHARACTER AND ATLAS HOLD / FOUNDER-ONLY CANON AND PUBLICATION HOLD.**
 
-This is a **new assembled developmental reading** of the previously preserved eleven-part book, now with an actual 4,630-source-word Wilson-only causal passage placed between the original road-and-watch chapter and Manning's weather chapter. The original eleven parts, the original eleven-part reading, the separate 2016 historical novel and the protected 2026 Prologue/Chapters I–III are preserved unchanged. No current-main manuscript was rewritten or promoted.
+This is a **new assembled developmental reading** of the previously preserved eleven-part book, now with an actual 4,698-source-word Wilson-only causal passage placed between the original road-and-watch chapter and Manning's weather chapter. The original eleven parts, the original eleven-part reading, the separate 2016 historical novel and the protected 2026 Prologue/Chapters I–III are preserved unchanged. No current-main manuscript was rewritten or promoted.
+
+**Story-time guard:** Part 8 is an intentional intercut back into the afternoon summarized by the ending of Part 7. Wilson's departure is narrated twice from the same chronology, not represented as two departures; the single-wagon passage, cracked support and unresolved second wagon are each one event. This non-linear editorial experiment is subject to independent review.
 
 **Causal purpose:** The prior part establishes one safely inspected wagon crossing and an immediately failed timber brace. *The Two Words That Traveled* creates a concrete transmission mechanism for the separate dispatch summaries “one wagon passed” and “further passage held.” Both are true with their limiting conditions, but can be distorted when converted into an open/closed field. Jake's later *Map of Unpaid Miles* can therefore receive contradictory secondary accounts without requiring Wilson or Ossa to know Jake, endorse a route, or claim that the road belongs to anyone. Manning's intervening elemental chapter remains separate; no physical link from the road to the coast is asserted.
 
@@ -10,7 +12,7 @@ This is a **new assembled developmental reading** of the previously preserved el
 
 **Physical, ethical and editorial risk:** The courier tradeoffs and one-wagon passage need developmental review for thematic redundancy, plausible communications and material causality. The chapter's numbers (four volunteer watchmen) are fiction, not confirmed economic or engineering history. No independent Authors Council, Character Canon, Atlas, Umpire, Founder or publication acceptance is implied by assembling this reading.
 
-**Composition:** 63630 whitespace-delimited source words **including chapter metadata and source-side QA notes** across 12 parts. The original 11 wrappers are byte-identical to the eleven-part reading and retain their published Git blob references; the newly inserted Part 8 is source-exact to its separately committed file. The new insertion adds 4630 source words rather than compressing or replacing earlier fiction.
+**Composition:** 63698 whitespace-delimited source words **including chapter metadata and source-side QA notes** across 12 parts. The original 11 wrappers are byte-identical to the eleven-part reading and retain their published Git blob references; the newly inserted Part 8 is source-exact to its separately committed file. The new insertion adds 4698 source words rather than compressing or replacing earlier fiction.
 
 ## Source-exact composition manifest
 
@@ -23,13 +25,13 @@ This is a **new assembled developmental reading** of the previously preserved el
 | 5 | Bobby / CHAR-BOBBY-MITCHELL | `living-novel/historical-chronicle/seasons/2025/causal-novel/THE_BANK_THAT_KEPT_ITS_NAME_BOBBY_2025_NONCANON.md` | `80a288faa262fff2f4227240431fd9405a85c021` | 5418 |
 | 6 | Kevin + Jordan / CHAR-KEVIN-ZEEK + CHAR-JORDAN-HOLLINGSHEAD (alternating limited POV) | `living-novel/historical-chronicle/seasons/2025/causal-novel/THE_WATCH_AT_GROUND_LEVEL_KEVIN_JORDAN_2025_DEVELOPMENTAL_NONCANON.md` | `e822af02abd44ecb0ec8a4d739a717f79bbc170b` | 5222 |
 | 7 | Wilson / CHAR-WILSON-LOOK | `living-novel/historical-chronicle/seasons/2025/causal-novel/THE_ROAD_NO_BANNER_COULD_OWN_WILSON_2025_NONCANON.md` | `b737814a6049175ad15ea354cd6e2f44e449f75b` | 5594 |
-| 8 | Wilson / CHAR-WILSON-LOOK (dispatch consequence; return) | `living-novel/historical-chronicle/seasons/2025/causal-novel/THE_TWO_WORDS_THAT_TRAVELED_WILSON_2025_DEVELOPMENTAL_NONCANON.md` | `332743d837708716e0e7cf03052b1ae270f0cc95` | 4630 |
+| 8 | Wilson / CHAR-WILSON-LOOK (dispatch consequence; return) | `living-novel/historical-chronicle/seasons/2025/causal-novel/THE_TWO_WORDS_THAT_TRAVELED_WILSON_2025_DEVELOPMENTAL_NONCANON.md` | `dcddddd05ed4b4b151b11b856fbc01e77aa58dc6` | 4698 |
 | 9 | Manning / CHAR-MANNING-WELTY | `living-novel/historical-chronicle/seasons/2025/causal-novel/THE_WEATHER_THAT_WOULD_NOT_PROMISE_MANNING_2025_NONCANON.md` | `7661cad6a12fd53bbda30faae82809cdee5f7b09` | 6222 |
 | 10 | Jake / CHAR-JAKE-KALOPER (return) | `living-novel/historical-chronicle/seasons/2025/causal-novel/THE_MAP_OF_UNPAID_MILES_JAKE_2025_NONCANON.md` | `3821bc1c3a99bcca5b6419e50ebee6e260dc3234` | 4958 |
 | 11 | Austin + Phillip / CHAR-AUSTIN-BYARS + CHAR-PHILLIP-PITTS (return, alternating limited POV) | `living-novel/historical-chronicle/seasons/2025/causal-novel/THE_ROOM_WITHOUT_A_STAGE_AUSTIN_PHILLIP_2025_NONCANON.md` | `feb66c8f68d83aa9c9b4b6c2e6e7cc755103b116` | 4770 |
 | 12 | Ben + David / CHAR-BEN-WHIPPLE + CHAR-DAVID-BABB (return, alternating limited POV) | `living-novel/historical-chronicle/seasons/2025/causal-novel/THE_DAY_THE_POT_WENT_COLD_BEN_DAVID_2025_NONCANON.md` | `862d0a9dab9a546a1e110fbc45c474d174b127c3` | 5919 |
 
-**Total source words including metadata: 63630; twelve parts; twelve distinct principal owner-character viewpoints.** Not an independent manuscript acceptance, a rights clearance, or a statement of canon.
+**Total source words including metadata: 63698; twelve parts; twelve distinct principal owner-character viewpoints.** Not an independent manuscript acceptance, a rights clearance, or a statement of canon.
 
 ---
 
@@ -2965,11 +2967,13 @@ What he needed was to remember that the wagon had moved only when he ceased trea
 
 ## Part 8 — Wilson / CHAR-WILSON-LOOK (dispatch consequence; return)
 
-<!-- BEGIN 2025_VOICE THE_TWO_WORDS_THAT_TRAVELED_WILSON_2025_DEVELOPMENTAL_NONCANON.md | git_blob 332743d837708716e0e7cf03052b1ae270f0cc95 -->
+<!-- BEGIN 2025_VOICE THE_TWO_WORDS_THAT_TRAVELED_WILSON_2025_DEVELOPMENTAL_NONCANON.md | git_blob dcddddd05ed4b4b151b11b856fbc01e77aa58dc6 -->
 
 # THE TWO WORDS THAT TRAVELED
 
 *2025 Commonwealth historical causal novel — developmental connective chapter, **DRAFT / NONCANON / INDEPENDENT EDITORIAL AND UMPIRE HOLD**. Sole interior viewpoint: fictional Wilson Look / CHAR-WILSON-LOOK, the integrated four-legged Arsenal Gorilla Centaur Warrior. Read between “The Road No Banner Could Own” and “The Weather That Would Not Promise”; this chapter neither replaces nor retcons either source. The verified 2025 historical team-slot summary for Baker Moore Purdy reports 9–5 and fifth place, but the human manager-account linkage to Wilson is **UNKNOWN / UNAUTHENTICATED**; his depicted acts and private experience are fictional, not biographical. The forest watch, the bend, wagons, workers, temporary works, documents, messengers, distances and prices are **proposed secondary-world fiction**, not approved period Atlas geography or authenticated league history. Neither the 2026 hard-canon Prologue nor Chapters I–III are changed. No reader should infer that an illustrated road, a published notice or a successful crossing created sovereign title or a legal public right.*
+
+**Deliberate story-time intercut:** This chapter returns to the same afternoon *after* the first loaded crossing but *before* Wilson's company leaves the bend at the end of the preceding chapter. The closing march depicted here is the **same departure**, not a second departure or a later road reopening. The earlier chapter summarizes an interval this one dramatizes in full. This non-linear placement is an editorial experiment requiring independent acceptance.
 
 ### I. The weight on the far side
 
