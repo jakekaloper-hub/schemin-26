@@ -226,3 +226,5 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2025_twelve_voices_fourteen_parts.py" -v
       - name: Verify 2025 fifteen-part Ben-David franchise turning point (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2025_twelve_voices_fifteen_parts.py" -v
+      - name: Verify 2025 sixteen-part Austin-Jake developmental bridge edition (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2025_sixteen_part_developmental_bridge.py" -v
