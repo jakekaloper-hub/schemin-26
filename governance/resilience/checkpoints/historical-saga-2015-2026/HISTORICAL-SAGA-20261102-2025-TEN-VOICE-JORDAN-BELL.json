@@ -1,0 +1,139 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261102-2025-TEN-VOICE-JORDAN-BELL",
+  "date_utc": "2026-11-02",
+  "mission": "BULLPEN_PERMANENT_EXECUTIVE_MANDATE_COMMONWEALTH_NOVEL",
+  "repos": [
+    "jakekaloper-hub/schemin-26",
+    "jakekaloper-hub/bullpen"
+  ],
+  "observed_main": {
+    "schemin": "e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80",
+    "bullpen": "86889a59efb0e7dcdc37eef639981944dc77ed67"
+  },
+  "pr": {
+    "number": 243,
+    "branch": "novel/historical-epic-2015-2026",
+    "draft": true,
+    "merged": false
+  },
+  "previous_head": "ba09561acfabc3c41078a513881f32574411701a",
+  "previous_checkpoint": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261102-2025-NINE-VOICE-KEVIN-WATCH.json",
+  "scanned_issues": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "scanned_prs": [
+    188,
+    243,
+    252,
+    261
+  ],
+  "selected_task": "Tenth distinct 2025 canonical fictional character viewpoint with a material cost and a causally connected aftermath of Kevin's disabled watch; extend the 2025 assembled reader without source rewrites or hard-canon changes.",
+  "source_constraints": [
+    "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md",
+    "canon/characters/CHARACTER_REGISTRY.yaml",
+    "canon/characters/TWELVE_CHARACTER_NARRATIVE_POV_REGISTER_V1.md",
+    "canon/characters/CHAR-JORDAN-HOLLINGSHEAD/PACKAGE.md",
+    "living-novel/characters/03_JORDAN_HOLLINGSHEAD.md",
+    "living-novel/historical-chronicle/evidence/2025_FLAIM_TEAM_SLOT_AND_PODIUM_READBACK_2026-11-01_REVIEW_ONLY.md",
+    "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_WATCH_THAT_WENT_DARK_KEVIN_2025_NONCANON.md",
+    "jakekaloper-hub/bullpen/docs/COMMAND_SYSTEM_V2.md",
+    "jakekaloper-hub/bullpen/runtime/lifecycleEngine.js"
+  ],
+  "output": {
+    "chapter": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_BELL_BELOW_THE_FLOOR_JORDAN_2025_NONCANON.md",
+    "chapter_git_blob": "e65886fe766c3ba13f07e0cc63d4ebc13560629e",
+    "chapter_words_including_metadata": 6595,
+    "movements": 6,
+    "reader": "living-novel/historical-chronicle/seasons/2025/causal-novel/READING_COPY_2025_TEN_VOICES_NONCANON.md",
+    "reader_git_blob": "ddb10bd2e028410a3240f09fcfcc1a00bd04c314",
+    "original_source_count": 10,
+    "original_source_words_including_metadata": 48669,
+    "previous_reader_git_blob": "43aea9a2c59001e311b1b77d5f009d1ac03d8752",
+    "regression": "living-novel/historical-chronicle/qa/test_2025_ten_voices_reader.py",
+    "regression_git_blob": "06ff34234304a45c34b7a957cb7daaa7d24ef956",
+    "editorial_qa": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_BELL_BELOW_THE_FLOOR_JORDAN_EDITORIAL_SOURCE_QA_2026-11-02.md",
+    "editorial_qa_git_blob": "0571cb988d715f09d52deb00ce534f1ac5241e6a",
+    "workflow": ".github/workflows/novel-os-ci.yml",
+    "workflow_git_blob": "385a5a39d9e5e13c3b082f2655c315a4f30a7d33"
+  },
+  "historical_truth": {
+    "league_id": 1417621,
+    "season": 2025,
+    "team_slot": 3,
+    "team": "Slob on my Dobb",
+    "record": "4-10",
+    "final_rank": 8,
+    "postseason": "missed_playoffs",
+    "human_manager_id": "UNKNOWN",
+    "fictional_character": "CHAR-JORDAN-HOLLINGSHEAD",
+    "owner_binding": "PROVISIONAL_FICTIONAL_ASSOCIATION",
+    "world_events": "PROPOSED_NONCANON"
+  },
+  "fiction_state": {
+    "source_input": "Kevin's watch floor removed, single small kitchen fire demonstrated, road ground-watch only, Ossa's wages unresolved and unidentified three silhouettes",
+    "consequence": "Jordan's celebration obstructs road and injures cart wheel; volunteer two-way signal fails in rain and traffic holds; one cart passes limited daylight test; second remains awaiting safe clearance",
+    "material_cost": "Jordan's followers record two hours unpaid; debt not discharged; celebration and stage ended; drainage cleared",
+    "open_loops": [
+      "Kevin's disabled watch and replacement floor",
+      "unknown three figures",
+      "road toll claimant authority unresolved",
+      "second wagon clearance",
+      "Jordan's wage debt",
+      "Ossa's wages",
+      "kitchen franchise and supplier guarantees",
+      "2016 72 consecutive Jake-only chapters"
+    ]
+  },
+  "observed_testing": {
+    "initial_failed_sha": "f623f4b9337090813775ec19c4adb517af28b6c0",
+    "initial_novel_ci_run": 41408591733,
+    "initial_failure": "27/28 passed; one overly literal lowercase assertion failed on capitalized sentence, not a source error",
+    "test_only_repair_commit": "29c48af065afd4b915d304eda138c3ef584efc2c",
+    "test_only_repair_sha": "06ff34234304a45c34b7a957cb7daaa7d24ef956",
+    "novel_ci_run": 41408706234,
+    "novel_ci": "SUCCESS; observed job 125156541281 and test_2025_ten_voices_reader 28/28 passed",
+    "cross_domain_run": 41408706132,
+    "cross_domain": "SUCCESS",
+    "bullpen_runtime_run": 41408706176,
+    "bullpen_runtime": "SUCCESS",
+    "merge_gate_run": 41408706105,
+    "merge_gate": "SUCCESS",
+    "editorial_qa_added_commit": "7b73240ffcba1a3e7e2ac95d6ec3ec76e354e18e",
+    "editorial_qa_exact_head_ci": {
+      "novel_os": 41408839431,
+      "cross_domain": 41408839442,
+      "bullpen_runtime": 41408839444,
+      "merge_gate": 41408839533,
+      "all": "SUCCESS"
+    },
+    "independent_review_request_comment_id": 6571924976,
+    "independent_pr_reviews_observed": 0,
+    "protected_canon_hashes_tested": true,
+    "prior_nine_sources_embedded_source_exact": true,
+    "old_2016_reader_unchanged": true,
+    "final_checkpoint_commit_ci": "PENDING_INSPECTION"
+  },
+  "review_holds": [
+    "historical manager account IDs not available",
+    "historical 2025 period visual embodiment not authenticated",
+    "Atlas/physical/financial worlds proposed fiction",
+    "independent literary/Character/Atlas/Librarian/Umpire acceptance absent",
+    "Founder-only canon/publication gates remain closed",
+    "2016 72 Jake-only chapters unresolved"
+  ],
+  "no_merge": true,
+  "no_canon_promotion": true,
+  "no_publication": true,
+  "next": [
+    "Inspect exact checkpoint HEAD and its four GitHub Actions workflow runs; attach technical verification receipt or diagnose and repair actual failures.",
+    "Read all new PR reviews and never confuse review request comment with independent acceptance.",
+    "Next eligible literary POV candidates: Wilson Look or Manning Welty after reading time-correct packages; El Niño remains a storm and Wilson is one integrated four-legged Arsenal Gorilla Centaur in current canon, with period projection still on hold.",
+    "Deepen cross-POV causal interactions; Jordan's recorded wage debt and the failed signal must have genuine later consequence; do not extend the same kitchen invoice indefinitely.",
+    "Maintain 2025 human-manager UNKNOWN and 2016 Jake-only structural hold; keep protected 2026 Prologue and Chapters I-III byte-preserved; no merge or publish."
+  ]
+}
