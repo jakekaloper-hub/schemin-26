@@ -247,4 +247,6 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2025_selected_wilson_v2_reader.py" -v
       - name: Verify Wilson V3 compressed prose and source-exact eleven-part reading (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2025_wilson_v3_pacing_reader.py" -v
+      - name: Verify Austin-Phillip V4 costs and source-exact eleven-part reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2025_austin_phillip_v4_reader.py" -v
 
