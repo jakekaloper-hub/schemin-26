@@ -39,7 +39,7 @@
     },
     {
       "path": "living-novel/historical-chronicle/qa/test_2025_integrated_wilson_one_departure.py",
-      "git_blob_sha": "35dfd60af9976946e88545e9ad621e1e1c7f16fc",
+      "git_blob_sha": "79babc22662c85b0585e9c0cfe9fb4930118e733",
       "tests_defined": 25
     },
     {
@@ -53,38 +53,47 @@
     }
   ],
   "evidence_references": {
-    "latest_code_and_ci_trigger_commit": "30542d4f79215d033657b08ac3c7aec788cb19f5",
+    "latest_code_and_ci_trigger_commit": "08cdd362516d1b28865f24d2408a19a2d899f883",
     "producer_review_receipt_commit": "1cc69b322ee840613575ee5f0a275c39cb337ae7",
-    "new_test_workflow_run": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41512343639",
+    "new_test_workflow_run": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41513126940",
     "cross_domain_workflow_run": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41512343482",
     "bullpen_runtime_workflow_run": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41512343618",
     "merge_gate_workflow_run": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41512343749",
     "source_exact_readback": "10/10 retained wrapper texts identical to earlier reading; Wilson source Git blob and new reader pinned by authenticated GitHub reads",
     "protected_blob_readback": "PROLOGUE_DRAFT_V1.md + CHAPTER_01 + CHAPTER_02 + CHAPTER_03 compared Git blob SHA equal on main and production branch",
     "independent_review_request_url": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6586763298",
-    "separate_actual_independent_review_submissions_observed": 0
+    "separate_actual_independent_review_submissions_observed": 0,
+    "qa_wording_repair_commits": [
+      "c3bb0bf85c80158c250541c35de640952a110b18",
+      "72ed6b5c370495a6f86a642aaa2f590b70755d23",
+      "08cdd362516d1b28865f24d2408a19a2d899f883"
+    ],
+    "producer_static_assertion_audit": "20/20 simple literal-source membership assertions present at 08cdd36; this is NOT Python unittest execution"
   },
   "technical_last_observed": {
-    "code_sha": "30542d4f79215d033657b08ac3c7aec788cb19f5",
+    "code_sha": "08cdd362516d1b28865f24d2408a19a2d899f883",
     "novel_os_ci": {
-      "id": 41512343639,
-      "status": "IN_PROGRESS_AT_LAST_SNAPSHOT",
-      "new_25_test_step": "PENDING_AT_LAST_SNAPSHOT",
-      "conclusion": null
+      "id": 41513126940,
+      "status": "in_progress",
+      "conclusion": null,
+      "new_25_test_step": "PENDING_AT_LAST_SNAPSHOT"
     },
     "cross_domain": {
-      "id": 41512343482,
+      "id": 41513126982,
+      "status": "completed",
       "conclusion": "success"
     },
     "bullpen_runtime": {
-      "id": 41512343618,
-      "conclusion": "success"
+      "id": 41513126998,
+      "status": "in_progress",
+      "conclusion": null
     },
     "repository_merge_gate": {
-      "id": 41512343749,
+      "id": 41513126983,
+      "status": "completed",
       "conclusion": "success"
     },
-    "note": "Do not substitute a previous checkpoint's success, or these three other workflows, for an unobserved Novel OS CI pass. Re-query exact commit after writing checkpoint."
+    "note": "Repaired literal QA assertions only; manuscript unchanged. Latest exact code commit 08cdd36 has live CI; do not substitute successful runs from SHA 30542d4 or earlier."
   },
   "historical_and_editorial_hold": [
     "2025 Baker Moore Purdy team slot 9-5/fifth does not authenticate human manager-Wilson link",
@@ -112,7 +121,7 @@
     "CI test failure, independent reviewer finding, or Founder-authorized change"
   ],
   "next": [
-    "Read exact SHA 30542d4 GitHub Novel OS CI run 41512343639 and confirm the new 25-test step, fix any actually observed failures.",
+    "Read exact code SHA 08cdd36 GitHub Novel OS CI run 41513126940 and new 25-case step; repair only observed defects, record success only after a completed successful run.",
     "Review full new integrated chapter for excess length and Wilson voice, using independent human/agent review with actual submitted evidence; retain author-side HOLD until cleared.",
     "Continue 2016 historical manager-account ID investigation without assigning either 2016 Hyenas slot to the same human by display-name resemblance.",
     "Only after verification and real independent approval consider any further gate; do not merge, publish or promote canon."
