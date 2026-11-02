@@ -8,7 +8,7 @@
 
 **Historical and literary firewall:** These are invented secondary-world situations under PERIOD CHARACTER AND ATLAS HOLD. Wilson Look is a single integrated four-legged Gorilla Centaur, with period embodiment unapproved. The 2025 Baker Moore Purdy historical 9–5 fifth-place team slot does **not** establish Wilson's 2025 human-manager-account ownership. No league results, human motives, cross-Atlas routes or courier destinations have been fabricated as historical fact. All twelve registered principal character IDs appear through exclusive owner limited POV, with no secondary character interior access. No merge, publication or canon promotion is authorized.
 
-**Assembly:** Exactly eleven source-exact wrapped parts. Ten sources are byte-identical to the Wilson V3 reading; only Part 10 changes. The new tenth wrapper is 5340 source words including metadata at Git blob `549e31d4c8d3f8032592085e63f48f053862a37a`. **Total: 63885 source words**, including chapter metadata and notes, not reader headers. Prior source reading: `READING_COPY_2025_TWELVE_VOICES_ELEVEN_PARTS_WILSON_COMPRESSION_V3_NONCANON.md` at Git blob `bf47f2bc09bd31500487409fd220a4e818fd1671`.
+**Assembly:** Exactly eleven source-exact wrapped parts. Ten sources are byte-identical to the Wilson V3 reading; only Part 10 changes. The new tenth wrapper is 5390 source words including metadata at Git blob `40616ead56c9f10d94ce122caaa05493db3db924`. **Total: 63935 source words**, including chapter metadata and notes, not reader headers. Prior source reading: `READING_COPY_2025_TWELVE_VOICES_ELEVEN_PARTS_WILSON_COMPRESSION_V3_NONCANON.md` at Git blob `bf47f2bc09bd31500487409fd220a4e818fd1671`.
 
 | Part | Principal viewpoint(s) | Source file (under `living-novel/historical-chronicle/seasons/2025/causal-novel/`) | Git blob | Source words |
 | ---: | --- | --- | --- | ---: |
@@ -21,10 +21,10 @@
 | 7 | Wilson / CHAR-WILSON-LOOK (integrated road, material cost, notices; sole limited POV) | `THE_ROAD_THAT_SPOKE_IN_TWO_VOICES_WILSON_2025_DEVELOPMENTAL_COMPRESSION_V3_NONCANON.md` | `31ddd0d2f18f7eb433bd1d6d0abb791b666aaeb4` | 9909 |
 | 8 | Manning / CHAR-MANNING-WELTY | `THE_WEATHER_THAT_WOULD_NOT_PROMISE_MANNING_2025_NONCANON.md` | `7661cad6a12fd53bbda30faae82809cdee5f7b09` | 6222 |
 | 9 | Jake / CHAR-JAKE-KALOPER (return) | `THE_MAP_OF_UNPAID_MILES_JAKE_2025_NONCANON.md` | `3821bc1c3a99bcca5b6419e50ebee6e260dc3234` | 4958 |
-| 10 | Austin + Phillip / CHAR-AUSTIN-BYARS + CHAR-PHILLIP-PITTS (return, alternating limited POV) | `THE_SEATS_THAT_COULD_BE_EMPTY_AUSTIN_PHILLIP_2025_DEVELOPMENTAL_V2_NONCANON.md` | `549e31d4c8d3f8032592085e63f48f053862a37a` | 5340 |
+| 10 | Austin + Phillip / CHAR-AUSTIN-BYARS + CHAR-PHILLIP-PITTS (return, alternating limited POV) | `THE_SEATS_THAT_COULD_BE_EMPTY_AUSTIN_PHILLIP_2025_DEVELOPMENTAL_V2_NONCANON.md` | `40616ead56c9f10d94ce122caaa05493db3db924` | 5390 |
 | 11 | Ben + David / CHAR-BEN-WHIPPLE + CHAR-DAVID-BABB (return, alternating limited POV) | `THE_DAY_THE_POT_WENT_COLD_BEN_DAVID_2025_NONCANON.md` | `862d0a9dab9a546a1e110fbc45c474d174b127c3` | 5919 |
 
-**Total: 63885 source words across eleven sources, including chapter metadata and QA notes.**
+**Total: 63935 source words across eleven sources, including chapter metadata and QA notes.**
 
 ---
 
@@ -4135,7 +4135,7 @@ Then he moved his own chair away from the table, leaving enough room for someone
 
 ## Part 10 — Austin + Phillip / CHAR-AUSTIN-BYARS + CHAR-PHILLIP-PITTS (return, alternating limited POV)
 
-<!-- BEGIN 2025_VOICE THE_SEATS_THAT_COULD_BE_EMPTY_AUSTIN_PHILLIP_2025_DEVELOPMENTAL_V2_NONCANON.md | git_blob 549e31d4c8d3f8032592085e63f48f053862a37a -->
+<!-- BEGIN 2025_VOICE THE_SEATS_THAT_COULD_BE_EMPTY_AUSTIN_PHILLIP_2025_DEVELOPMENTAL_V2_NONCANON.md | git_blob 40616ead56c9f10d94ce122caaa05493db3db924 -->
 
 # THE SEATS THAT COULD BE EMPTY
 
@@ -4295,6 +4295,8 @@ Calven smiled. "Do you ask every guest whether he is willing to enjoy a musician
 
 "Then the room will never look full. People leave when they are cold or bored. No showman can make a living by giving every customer the right to reconsider."
 
+Calven flattened his hands on the table. "I promised the dye-house a full room before its owners decide whether to advance the next winter order. If I cannot show them one, they will charge the loss to me. You are not the only man who has workers to pay."
+
 Austin nearly replied that a guest was not a customer. He stopped himself. Calven would have welcomed the distinction. It would allow the factor to say he had purchased one kind of person and had been delivered another. The real mistake lay earlier, in treating a body beneath a roof as a promise of attention.
 
 "Your man may count anyone who chooses to listen," Austin said. "He may not include the sleepers."
@@ -4305,7 +4307,7 @@ Calven tapped the page. "That is not the bargain."
 
 There was a small movement at the door. The keeper's staging crew had arrived with a rack of lamps. They had worked since dawn mending the lower room's damaged fittings. The oldest among them looked toward the ink and the coins as though he were measuring the distance from one to the other.
 
-"We have spent part of the advance," the keeper said quietly.
+"We have commissioned work against the promised fee," the keeper said quietly.
 
 "On what?"
 
