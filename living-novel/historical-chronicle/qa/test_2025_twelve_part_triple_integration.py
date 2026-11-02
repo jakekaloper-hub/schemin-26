@@ -161,7 +161,7 @@ class TripleDevelopmentalIntegration(unittest.TestCase):
     def test_21_no_automatic_worker_vote(self):
         self.assertIn("4–2", self.chapter)
         self.assertIn("worker-nomination motion", self.chapter)
-        self.assertIn("no seventh", self.chapter.lower())
+        self.assertIn("seventh stool", self.chapter.lower())
 
     def test_22_consequential_prose_not_an_outline(self):
         self.assertGreater(len(self.story.split()), 4450)
@@ -187,7 +187,7 @@ class TripleDevelopmentalIntegration(unittest.TestCase):
 
     def test_27_independent_gates_are_not_claimed_passed(self):
         self.assertIn("no independent Authors Council", self.reader)
-        self.assertIn("No independent", self.reader)
+        self.assertIn("review hold", self.reader.lower())
         self.assertIn("Founder approval", self.chapter)
 
     def test_28_terminal_manifest_tag_and_following_brandon(self):
