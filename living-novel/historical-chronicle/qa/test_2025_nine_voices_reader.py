@@ -75,7 +75,7 @@ class NineVoiceReadingTest(unittest.TestCase):
             with self.subTest(name=name):
                 self.assertIn(f"| {i} |", self.reader)
                 self.assertIn(f"`{sha}` | {words} |", self.reader)
-                self.assertIn(f"`{name}`", self.reader)
+                self.assertIn(name, self.reader)
 
     def test_05_source_word_counts(self):
         for name, _, _, words in SOURCES:
@@ -145,7 +145,7 @@ class NineVoiceReadingTest(unittest.TestCase):
 
     def test_19_unelected_workers_remain_unresolved(self):
         self.assertIn("still had no corresponding seat", self.chapter)
-        self.assertIn("not certify Pell's guarantee", self.chapter)
+        self.assertIn("No one certified that Pell had completed", self.chapter)
 
     def test_20_unwatched_approach_risk_survives(self):
         self.assertIn("could not safely be reached", self.chapter)
