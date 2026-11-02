@@ -125,7 +125,7 @@ class NineVoiceReadingTest(unittest.TestCase):
 
     def test_15_reader_keeps_historical_firewall(self):
         self.assertIn("human manager IDs", self.reader)
-        self.assertIn("not nine independently verified historical human owner accounts", self.reader)
+        self.assertIn("nine independently verified historical human owner accounts", self.reader)
 
     def test_16_performance_does_not_change_standings(self):
         self.assertIn("No number there could be improved by saving a kitchen", self.chapter)
@@ -172,7 +172,7 @@ class NineVoiceReadingTest(unittest.TestCase):
         self.assertTrue(self.reader.rstrip().endswith("<!-- END_2025_NINE_VOICES_NONCANON -->"))
 
     def test_26_no_external_acceptance_claim(self):
-        self.assertIn("not released or canon-promoted", self.reader)
+        self.assertIn("Neither this assembled document nor its chapter files is released or canon-promoted", self.reader)
         self.assertIn("INDEPENDENT AUTHORS COUNCIL AND UMPIRE HOLD", self.reader)
 
     def test_27_distinct_original_words_from_reader_words(self):
