@@ -39,8 +39,8 @@ class AustinPhillipV4(unittest.TestCase):
         cls.rows=ROW.findall(cls.reader.split("## Part 1 —",1)[0])
 
     def test_01_pinned_chapter_and_reader(self):
-        self.assertEqual(blob(CHAPTER),"549e31d4c8d3f8032592085e63f48f053862a37a")
-        self.assertEqual(blob(READER),"a69b374109b804395ab4316f4614d2fc6a6f34fa")
+        self.assertEqual(blob(CHAPTER),"40616ead56c9f10d94ce122caaa05493db3db924")
+        self.assertEqual(blob(READER),"b3ff6735553912ce4c89b5f825767592d6f6180a")
         self.assertEqual(blob(PREVIOUS),"bf47f2bc09bd31500487409fd220a4e818fd1671")
         self.assertEqual(blob(ORIGINAL),"feb66c8f68d83aa9c9b4b6c2e6e7cc755103b116")
 
@@ -74,9 +74,9 @@ class AustinPhillipV4(unittest.TestCase):
         self.assertNotEqual(self.parts[9].group(1),self.oldparts[9].group(1))
 
     def test_06_word_totals(self):
-        self.assertEqual(len(self.chapter.split()),5340)
-        self.assertEqual(sum(int(row[4]) for row in self.rows),63885)
-        self.assertIn("63885 source words",self.reader)
+        self.assertEqual(len(self.chapter.split()),5390)
+        self.assertEqual(sum(int(row[4]) for row in self.rows),63935)
+        self.assertIn("63935 source words",self.reader)
 
     def test_07_twelve_exclusive_owner_ids(self):
         ids=set(re.findall(r"CHAR-[A-Z0-9-]+"," ".join(r[1] for r in self.rows)))
