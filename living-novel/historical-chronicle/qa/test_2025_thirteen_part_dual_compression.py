@@ -139,7 +139,7 @@ class DualDevelopmentalCompression(unittest.TestCase):
             self.assertIn(val.lower(), self.story.lower())
 
     def test_18_no_authored_atlas_geography_promotion(self):
-        self.assertIn("no approved historical Atlas location", self.chapter)
+        self.assertIn("not an approved historical Atlas location", self.chapter)
         self.assertIn("provisional", self.new.lower())
         self.assertNotIn("ATLAS_APPROVED", self.chapter)
 
@@ -148,7 +148,7 @@ class DualDevelopmentalCompression(unittest.TestCase):
         self.assertIn("### VI. An Unpaid Audience — Phillip", self.story)
 
     def test_20_no_new_factual_transactions_or_2026_results(self):
-        self.assertIn("not an ESPN event", self.chapter.lower())
+        self.assertIn("not an espn event", self.chapter.lower())
         self.assertIn("all 2026 outcomes", self.chapter)
 
     def test_21_protected_main_prologue_and_three_chapters(self):
