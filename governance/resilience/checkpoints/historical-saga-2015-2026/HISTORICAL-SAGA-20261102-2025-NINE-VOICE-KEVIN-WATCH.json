@@ -46,7 +46,7 @@
     "chapter_words_including_metadata": 6155,
     "narrative_movements": 6,
     "reader": "living-novel/historical-chronicle/seasons/2025/causal-novel/READING_COPY_2025_NINE_VOICES_NONCANON.md",
-    "reader_git_blob": "tbd_verify_via_fetch_file",
+    "reader_git_blob": "43aea9a2c59001e311b1b77d5f009d1ac03d8752",
     "reader_source_count": 9,
     "reader_original_source_words_including_metadata": 42074,
     "prior_eight_reader_git_blob": "17050cca9c3492f960c880186d82af23b84aadd0",
@@ -87,7 +87,7 @@
     "initial_novel_ci": "FAILED 26/28; two exact-literal assertions improperly ignored markdown emphasis; repaired test-only",
     "corrected_test_sha": "7311efea15b0a4365fdfacd61de5cbe6830b9820",
     "corrected_novel_ci_run": 41401623269,
-    "corrected_novel_ci_at_checkpoint": "IN_PROGRESS; verify actual result before claiming PASS",
+    "corrected_novel_ci_at_checkpoint": "SUCCESS at commit 7311efea15b0a4365fdfacd61de5cbe6830b9820; GitHub Actions run 41401623269, job 125134470049",
     "corrected_cross_domain_run": 41401623319,
     "corrected_cross_domain": "SUCCESS",
     "corrected_bullpen_runtime_run": 41401623287,
@@ -98,7 +98,11 @@
     "previous_eight_source_bodies_embedded_unchanged": true,
     "protected_canon_hashes_tested_in_prior_ci": true,
     "independent_pr_reviews_observed_before_write": 0,
-    "source_provider_human_owner_authentication": "UNKNOWN"
+    "source_provider_human_owner_authentication": "UNKNOWN",
+    "corrected_novel_ci": "SUCCESS",
+    "corrected_nine_reader_tests": "28/28 PASS observed in job logs at 2026-11-02T06:42:53Z",
+    "review_request_comment": 6570880539,
+    "independent_review_approval": "NOT RECEIVED"
   },
   "holds": [
     "historical human-manager IDs not authenticated",
