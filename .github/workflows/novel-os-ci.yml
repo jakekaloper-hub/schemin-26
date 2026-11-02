@@ -243,3 +243,5 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2025_integrated_wilson_one_departure.py" -v
       - name: Verify alternate 2025 Wilson source-exact eleven-part reading (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2025_wilson_consolidation_variant.py" -v
+      - name: Verify selected Wilson V2 2025 eleven-part developmental reading (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2025_selected_wilson_v2_reader.py" -v
