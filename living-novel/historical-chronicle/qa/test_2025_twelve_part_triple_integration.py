@@ -160,7 +160,7 @@ class TripleDevelopmentalIntegration(unittest.TestCase):
 
     def test_21_no_automatic_worker_vote(self):
         self.assertIn("4–2", self.chapter)
-        self.assertIn("worker-nomination motion", self.chapter)
+        self.assertIn("only a motion", self.chapter)
         self.assertIn("seventh stool", self.chapter.lower())
 
     def test_22_consequential_prose_not_an_outline(self):
