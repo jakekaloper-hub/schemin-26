@@ -43,3 +43,9 @@
 - The connector-based preflight confirmed 11 wrapper tokens, 11 manifest rows, 5,594 words in the new source, source embedding, and no missing direct literal chapter assertions. **This is not a local Python unittest execution.** GitHub Actions results are a separate, explicitly checked gate.
 - Independent authors/character/librarian/Atlas/Umpire review was requested in writing only when a GitHub PR comment is explicitly linked; a PR comment is not an authenticated Director meeting or editorial signoff.
 - **Release:** NONCANON; independent review, Founder-only canon promotion, merge and publication ALL HELD.
+
+## Observed CI fault and corrective action
+
+- Commit `675f6ac8b1e7efa60b220f5a6855c84534067353`: [Novel OS CI #41416029255](https://github.com/jakekaloper-hub/schemin-26/actions/runs/41416029255) **FAILED exactly one of thirty new integrity tests** (`test_16_single_body_four_legged_not_rider`). Logs showed the test expected the literal phrase `not a rider and mount`, whereas the source correctly says `never a rider and mount`; this was a wording mismatch, not a Character Canon contradiction.
+- Test-only correction at `97d4256263950b0c114e5705dd910e5a3dbf46d7` changes the assertion to match the correct integrated-body negation. The new Wilson chapter Git blob `b737814a6049175ad15ea354cd6e2f44e449f75b` and eleven-voice reader blob `d3cd39a5ffc79bd7d728f35615c1bc155718d161` were not modified.
+- Post-repair `Novel OS CI` and the other three workflow conclusions must be observed at the precise final SHA before claiming technical PASS. This producer review does not certify that future run.
