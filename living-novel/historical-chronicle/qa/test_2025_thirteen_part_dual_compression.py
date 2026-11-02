@@ -139,7 +139,7 @@ class DualDevelopmentalCompression(unittest.TestCase):
             self.assertIn(val.lower(), self.story.lower())
 
     def test_18_no_authored_atlas_geography_promotion(self):
-        self.assertIn("not an approved historical Atlas location", self.chapter)
+        self.assertIn("not an ESPN event or an approved historical Atlas location", self.chapter)
         self.assertIn("provisional", self.new.lower())
         self.assertNotIn("ATLAS_APPROVED", self.chapter)
 
