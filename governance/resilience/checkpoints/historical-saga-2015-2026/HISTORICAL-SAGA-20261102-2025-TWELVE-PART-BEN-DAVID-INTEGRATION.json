@@ -1,0 +1,134 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261102-2025-TWELVE-PART-BEN-DAVID-INTEGRATION",
+  "date_utc": "2026-11-02",
+  "mission": "BULLPEN_PERMANENT_EXECUTIVE_MANDATE_COMMONWEALTH_NOVEL",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "status": "DRAFT_NONCANON_INDEPENDENT_REVIEW_HOLD",
+  "authority": {
+    "schemin_main": "8fcb77191955f413fe970154d47632770f923055",
+    "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "novel_source_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "bullpen_command_lifecycle": [
+      "BULLPEN.md",
+      "docs/COMMAND_SYSTEM_V2.md",
+      "runtime/lifecycleEngine.js"
+    ],
+    "reviewed_issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "reviewed_prs": {
+      "188": "MERGED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT",
+      "261": "OPEN_DRAFT",
+      "264": "OPEN_DRAFT"
+    }
+  },
+  "previous_branch_checkpoint": "04264eea9e6c2f2e92f4bd7d3ddbdd17a444d318",
+  "literary_output": {
+    "title": "What the Door Could Hold",
+    "path": "living-novel/historical-chronicle/seasons/2025/causal-novel/WHAT_THE_DOOR_COULD_HOLD_BEN_DAVID_2025_DEVELOPMENTAL_NONCANON.md",
+    "blob": "4425ddab9b8c59936c967f41d634439d64da5204",
+    "source_words_including_metadata": 5393,
+    "narrative_words_before_notes": 4904,
+    "character_ids": [
+      "CHAR-BEN-WHIPPLE",
+      "CHAR-DAVID-BABB"
+    ],
+    "alternating_movements": [
+      "Ben",
+      "David",
+      "Ben",
+      "David",
+      "Ben",
+      "David"
+    ],
+    "historical_human_manager_owner_mapping": "UNKNOWN",
+    "plot": "Ben declines unchosen representation, David rejects taking kitchen passage as collateral and signs conditional two-night personally secured inspected fuel guarantee. No delivery or payment yet. All incidents fictional."
+  },
+  "reader": {
+    "path": "living-novel/historical-chronicle/seasons/2025/causal-novel/READING_COPY_2025_TWELVE_VOICES_TWELVE_PARTS_TRIPLE_INTEGRATION_NONCANON.md",
+    "blob": "0510c40d3e33d1dde6720e8196ca87f23afd5bbf",
+    "parts": 12,
+    "registered_owner_povs": 12,
+    "source_words_including_metadata": 66528,
+    "prior_reader_blob": "fe6e4056c951323aba19b302c67897bda96d59b9",
+    "prior_words": 70117,
+    "replaces_in_reading_only": [
+      "THE_SIXTH_PLACE_AT_THE_TABLE_BEN_2025_NONCANON.md",
+      "THE_WINTER_CLAUSE_DAVID_2025_NONCANON.md"
+    ],
+    "prior_wrappers_preserved_byte_exact": 11,
+    "net_words_removed": 3589
+  },
+  "technical": {
+    "tests_path": "living-novel/historical-chronicle/qa/test_2025_twelve_part_triple_integration.py",
+    "tests_blob": "ab4a5639b84cb591d3c3898d8caffd75f286ca12",
+    "new_test_cases": 28,
+    "workflow_path": ".github/workflows/novel-os-ci.yml",
+    "workflow_blob": "e5bab6f7d9ce49158f2290df392e75fd44bbe0f3",
+    "initial_run_id": 41482916390,
+    "initial_failure": "One test literal wording false-negative (27 of 28 passed), no prose changed",
+    "corrected_precheckpoint_sha": "1b916107dbb155655389dd3bf52ee96ae79a56d2",
+    "observed_new_test_step": "SUCCESS",
+    "precheckpoint_actions": [
+      [
+        "Novel OS CI",
+        41483363083,
+        "IN_PROGRESS_NEW_STEP_SUCCESS"
+      ],
+      [
+        "Cross-Domain Authority CI",
+        41483363181,
+        "IN_PROGRESS"
+      ],
+      [
+        "Bullpen Runtime CI",
+        41483363329,
+        "SUCCESS"
+      ],
+      [
+        "Repository Merge Gate",
+        41483363153,
+        "SUCCESS"
+      ]
+    ],
+    "final_checkpoint_actions": "RECHECK_REQUIRED"
+  },
+  "editorial": {
+    "self_assessment_path": "living-novel/historical-chronicle/seasons/2025/causal-novel/WHAT_THE_DOOR_COULD_HOLD_EDITORIAL_SOURCE_QA_2026-11-02.md",
+    "self_assessment_blob": "c254712bbff56cd6331c46baa3f3b233d1f66f99",
+    "independent_review_request": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6582607841",
+    "submitted_independent_reviews_observed": 0,
+    "approval": "HOLD"
+  },
+  "preservation": {
+    "protected_2026_prologue_chapters_I_II_III": "UNCHANGED_VERIFIED_BY_QA",
+    "prior_2025_source_chapters": "UNCHANGED",
+    "separate_2016_reader": "UNCHANGED_72_JAKE_LIMITED_POV_IMBALANCE"
+  },
+  "holds": [
+    "HISTORICAL_MANAGER_ACCOUNTS",
+    "PERIOD_ATLAS",
+    "PERIOD_CHARACTER_CANON",
+    "AUTHENTIC_AUTHORS_COUNCIL",
+    "INDEPENDENT_UMPIRE",
+    "FOUNDER_CANON_AND_PUBLICATION"
+  ],
+  "merge": "NOT_ATTEMPTED",
+  "publication": "NOT_ATTEMPTED",
+  "external_spend": "NONE",
+  "next": [
+    "Verify exact checkpoint SHA GitHub Actions and 28-test run log, never inherit previous-SHA success.",
+    "Obtain independently identifiable submitted literary/history/Character/Atlas/Umpire review; do not count discussion request as approval.",
+    "Developmentally integrate and edit later 2025 causal arcs and examine excess procedural density.",
+    "Audit 2016 72 Jake-limited POV reader against historically authenticated manager-account maps; no invented owner attribution.",
+    "Preserve Founder-only canon gates, no merge or public release."
+  ]
+}
