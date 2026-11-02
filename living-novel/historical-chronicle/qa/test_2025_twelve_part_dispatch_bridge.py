@@ -18,8 +18,8 @@ JAKE = BASE / "THE_MAP_OF_UNPAID_MILES_JAKE_2025_NONCANON.md"
 READER_2016 = ROOT / "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_72_NONCANON.md"
 
 PREVIOUS_SHA = "3eb4a3c424ba243dc0cb10c81dcf82a7695c6a7e"
-CHAPTER_SHA = "332743d837708716e0e7cf03052b1ae270f0cc95"
-READER_SHA = "8a64821a81e19299aba84ccbf31f70233c148bff"
+CHAPTER_SHA = "dcddddd05ed4b4b151b11b856fbc01e77aa58dc6"
+READER_SHA = "df153f16717f77b7b9c760441c331a7445786c99"
 WILSON_OLD_SHA = "b737814a6049175ad15ea354cd6e2f44e449f75b"
 JAKE_SHA = "3821bc1c3a99bcca5b6419e50ebee6e260dc3234"
 READER_2016_SHA = "8f1dda21ac4962143ba3291cef4d60769197d62f"
@@ -133,12 +133,12 @@ class WilsonDispatchBridge(unittest.TestCase):
     self.assertEqual(int(row[4]), wordcount(self.new_wrap[i].group(3)))
 
  def test_16_source_words_aggregate(self):
-  self.assertEqual(sum(int(x[4]) for x in self.rows), 63630)
-  self.assertIn("63630 whitespace-delimited source words", self.reader)
+  self.assertEqual(sum(int(x[4]) for x in self.rows), 63698)
+  self.assertIn("63698 whitespace-delimited source words", self.reader)
 
- def test_17_new_material_exactly_4630_words(self):
-  self.assertEqual(wordcount(self.chapter), 4630)
-  self.assertEqual(63630 - 59000, 4630)
+ def test_17_new_material_exactly_4698_words(self):
+  self.assertEqual(wordcount(self.chapter), 4698)
+  self.assertEqual(63698 - 59000, 4698)
 
  def test_18_all_twelve_owner_character_ids_covered(self):
   rendered = set(re.findall(r"CHAR-[A-Z]+(?:-[A-Z]+)*", " ".join(x[1] for x in self.rows)))
