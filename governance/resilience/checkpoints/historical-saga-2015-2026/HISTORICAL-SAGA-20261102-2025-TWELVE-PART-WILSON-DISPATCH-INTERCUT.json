@@ -1,0 +1,147 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261102-2025-TWELVE-PART-WILSON-DISPATCH-INTERCUT",
+  "date_utc": "2026-11-02",
+  "mission": "BULLPEN_PERMANENT_EXECUTIVE_MANDATE_COMMONWEALTH_NOVEL",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "status": "DRAFT_NONCANON_INDEPENDENT_EDITORIAL_HOLD",
+  "resumed_from": {
+    "checkpoint": "HISTORICAL-SAGA-20261102-2025-ELEVEN-PART-KEVIN-JORDAN-GROUND-WATCH",
+    "previous_head": "fb19e8ababcd4e6a3b720f533fd6026f6dcc806c",
+    "previous_reader_source_words": 59000,
+    "previous_reader_parts": 11,
+    "previous_novel_os_ci_repaired_sha": "79dba9952067fcb7cb779c3a93c08afc3c962fec",
+    "previous_novel_os_ci_run": 41493416926,
+    "previous_novel_os_ci_verified": "SUCCESS_AT_READBACK_2026_11_02"
+  },
+  "authority": {
+    "novel_source_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "novel_session_context": "living-novel/os/SESSION_CONTEXT.md",
+    "novel_task_matrix": "living-novel/os/TASK_CONTEXT_MATRIX_V1.json",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "active_pov_law": "ONLY_THE_12_CANONICAL_OWNERS_NO_EDRIN_EDIN_OREN",
+    "bullpen_lifecycle": [
+      "docs/COMMAND_SYSTEM_V2.md",
+      "runtime/lifecycleEngine.js"
+    ],
+    "issues_reviewed": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "prs_reviewed": {
+      "188": "MERGED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT",
+      "261": "OPEN_DRAFT"
+    }
+  },
+  "output": {
+    "title": "The Two Words That Traveled",
+    "path": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_TWO_WORDS_THAT_TRAVELED_WILSON_2025_DEVELOPMENTAL_NONCANON.md",
+    "source_git_blob": "dcddddd05ed4b4b151b11b856fbc01e77aa58dc6",
+    "words_including_metadata": 4698,
+    "movements": 5,
+    "pov_ids": [
+      "CHAR-WILSON-LOOK"
+    ],
+    "actual_integration": "Before-departure intercut after first wagon passage, explicitly the same departure already narrated at close of preceding chapter; evidence-based dual dispatch summaries become later Jake contradictory open/closed reports without binding a map.",
+    "source_status": "Historical Baker Moore Purdy 2025 team slot 9-5 fifth; current fictional Wilson identification is provisional and historical account manager ID UNKNOWN.",
+    "repairs": [
+      "Initial two-departure ambiguity detected; wrote explicit story-time intercut in manuscript and reading; original work preserved",
+      "Rebuilt source-exact assembled reading and updated SHA/word count regressions"
+    ]
+  },
+  "assembled": {
+    "path": "living-novel/historical-chronicle/seasons/2025/causal-novel/READING_COPY_2025_TWELVE_VOICES_TWELVE_PARTS_DISPATCH_BRIDGE_NONCANON.md",
+    "source_git_blob": "df153f16717f77b7b9c760441c331a7445786c99",
+    "parts": 12,
+    "principal_current_character_povs": 12,
+    "source_words_including_metadata": 63698,
+    "added_words_vs_previous": 4698,
+    "existing_11_wrappers_byte_exact": true,
+    "prior_reading_blob_preserved": "3eb4a3c424ba243dc0cb10c81dcf82a7695c6a7e"
+  },
+  "technical": {
+    "test_path": "living-novel/historical-chronicle/qa/test_2025_twelve_part_dispatch_bridge.py",
+    "test_functions_defined": 28,
+    "test_source_blob": "4037e9da2f4db03f6eda2fa27036234b0492146d",
+    "workflow": ".github/workflows/novel-os-ci.yml",
+    "repaired_test_code_sha": "fadd32b2b171a013f62813ffdbb9d70d6867d8f9",
+    "qa_only_followup_commit": "bef6599c833615f4c30cd0fb65fb78129497fb87",
+    "new_step_at_qa_commit": {
+      "run_id": 41502574785,
+      "job_id": 125473540508,
+      "step": "Verify 2025 twelve-part Wilson dispatch bridge source-exact reading (noncanon)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    "workflow_snapshot_at_qa_commit": [
+      {
+        "name": "Novel OS CI",
+        "id": 41502574785,
+        "status": "in_progress",
+        "conclusion": null
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "id": 41502574508,
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "id": 41502574294,
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "id": 41502574127,
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ],
+    "warning": "Do not claim overall Novel OS CI success until exact commit run completes. Checkpoint-only commit requires separate run check."
+  },
+  "editorial": {
+    "self_audit_path": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_TWO_WORDS_THAT_TRAVELED_EDITORIAL_SOURCE_QA_2026-11-02.md",
+    "independent_review_request_url": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6585228534",
+    "independent_reviewer_acceptances_observed": 0,
+    "status": "HOLD",
+    "major_literary_risks": [
+      "Intercut deliberately repeats the same departure and may need folding into Part 7",
+      "Tarin's critique partially recurs from original Wilson chapter",
+      "Period communications/fees/engineering/Atlas not authenticated",
+      "Second driver's economic loss remains unresolved",
+      "Wilson historical owner-account linkage UNKNOWN"
+    ]
+  },
+  "preservation": {
+    "previous_reader": "UNCHANGED_PRIOR_GIT_BLOB",
+    "old_11_source_chapters": "UNCHANGED",
+    "separate_2016_72_chapter_reader": "UNCHANGED_PREVIOUS_BLOB_8f1dda21ac4962143ba3291cef4d60769197d62f",
+    "protected_2026_prologue_chapters_I_II_III": "EXPECTED_IMMUTABLE_SOURCE_BLOBS_ENFORCED_BY_NEW_TESTS",
+    "no_canon_promotion": true
+  },
+  "holds": [
+    "HISTORICAL_2025_MANAGER_ACCOUNT_BINDING",
+    "PERIOD_CHARACTER_CANON",
+    "PERIOD_ATLAS",
+    "INDEPENDENT_AUTHOR_LITERARY_ACCEPTANCE",
+    "INDEPENDENT_UMPIRE",
+    "FOUNDER_CANON_AND_PUBLICATION"
+  ],
+  "no_merge": true,
+  "no_publication": true,
+  "no_external_spend": true,
+  "next": [
+    "Recheck exact QA-commit Novel OS CI completion; verify 28-test step against run, repair observed failures only.",
+    "Independent editorial challenge: fold Part 8's analeptic scene into Part 7 or justify repeated departure; preserve source and existing reading alternatives.",
+    "Reconcile Wilson's road notice and later Jake dispatch without certifying a road/harbor route or a human owner identity.",
+    "Investigate 2016 seventy-two-chapter Jake-limited POV problem using actual historical owner-account lineage; no speculative reassignment.",
+    "Keep 2026 protected hard-canon main and Founder publication/promotion gates closed."
+  ]
+}
