@@ -30,7 +30,8 @@
     "previous_head": "1f6eba596a4636605fbffd5be94fe97144bce004",
     "previous_checkpoint": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261102-2025-ELEVEN-VOICE-WILSON-ROAD.json",
     "draft": true,
-    "merge_requested": false
+    "merge_requested": false,
+    "last_verified_head": "628d65631fd4a29439d3394b6f797fd241b261c7"
   },
   "selected_task": "Write twelfth distinct registered fictional owner-character viewpoint; preserve historical data firewall and period Atlas holds; produce source-exact twelve-voice reader with concrete weather/harbor causal consequence rather than another plan.",
   "authority": [
@@ -109,10 +110,39 @@
     "publication": false
   },
   "observed_testing": {
-    "javascript_prewrite_guard": "PASS: six movements, 6,222 whitespace words",
-    "javascript_reader_assembly_guard": "PASS: twelve wrapper matches; 11 prior wrappers byte-exact; twelfth exact text",
-    "python_test_execution": "PENDING_GITHUB_ACTIONS",
-    "four_required_workflows": "PENDING_FINAL_COMMIT_CI"
+    "initial_checkpoint_commit": "169939da46260f326c2bab561d1177585b12c9c1",
+    "initial_run": "Novel OS CI #41422763457 FAILED: test_25 failed one capitalized Atlas disclaimer assertion, 29/30 other assertions passed; actual logs inspected",
+    "initial_workflows": {
+      "novel_os": 41422763457,
+      "cross_domain": 41422763505,
+      "bullpen_runtime": 41422763584,
+      "merge_gate": 41422763514
+    },
+    "test_only_repair_commit": "628d65631fd4a29439d3394b6f797fd241b261c7",
+    "test_repair": "Changed only one test assertion from lowercase No to actual capitalized No; chapter text and source readback unchanged.",
+    "verified_repaired_commit_workflows": {
+      "novel_os": {
+        "run": 41422926518,
+        "conclusion": "SUCCESS",
+        "tests": "30/30 PASS confirmed in job 125202561352 decoded GitHub Actions logs"
+      },
+      "cross_domain": {
+        "run": 41422926470,
+        "conclusion": "SUCCESS"
+      },
+      "bullpen_runtime": {
+        "run": 41422926513,
+        "conclusion": "SUCCESS"
+      },
+      "merge_gate": {
+        "run": 41422926469,
+        "conclusion": "SUCCESS"
+      }
+    },
+    "protected_sources": "30th-suite assertions include four 2026 hard opening git blob hashes, 2016 72-chapter reader and prior 11 voice reader; PASS on repaired SHA",
+    "review_request_comment_id": 6573928913,
+    "independent_reviews_submitted": 0,
+    "final_checkpoint_commit_ci": "PENDING_EXACT_HEAD_INSPECTION"
   },
   "review_hold": [
     "independent editorial/Character/Atlas/Historical Librarian/Umpire acceptance not obtained",
@@ -122,7 +152,7 @@
     "Founder-only promotion, merge and release remain closed"
   ],
   "next": [
-    "Inspect exact checkpoint SHA all four workflows and individual 30-test job logs; correct actual failures",
+    "Inspect new checkpoint commit SHA exact all four required CI workflows; do not mistake prior repaired SHA success for exact checkpoint commit until checked.",
     "Inspect actual independent PR reviews; author comments are not approval",
     "After twelve POV coverage, prioritize assembled manuscript developmental integration and 2016 seventy-two Jake-limited chapters; do not invent historical owner mapping",
     "Do not alter protected Prologue or Chapters I–III; preserve each prior reading copy byte-exact",
