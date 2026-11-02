@@ -124,7 +124,7 @@ class ElevenVoiceReadingTest(unittest.TestCase):
         self.assertIn("Principal and sole interior viewpoint Wilson Look", self.chapter)
 
     def test_16_single_body_four_legged_not_rider(self):
-        for cue in ("ONE integrated body", "four-legged", "not a rider and mount", "forefeet", "rear feet"):
+        for cue in ("ONE integrated body", "four-legged", "never a rider and mount", "forefeet", "rear feet"):
             self.assertIn(cue, self.chapter)
 
     def test_17_competition_grounded(self):
