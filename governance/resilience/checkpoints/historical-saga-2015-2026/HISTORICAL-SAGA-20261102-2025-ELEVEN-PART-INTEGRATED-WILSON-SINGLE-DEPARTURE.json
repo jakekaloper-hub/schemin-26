@@ -56,9 +56,9 @@
     "latest_code_and_ci_trigger_commit": "08cdd362516d1b28865f24d2408a19a2d899f883",
     "producer_review_receipt_commit": "1cc69b322ee840613575ee5f0a275c39cb337ae7",
     "new_test_workflow_run": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41513126940",
-    "cross_domain_workflow_run": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41512343482",
-    "bullpen_runtime_workflow_run": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41512343618",
-    "merge_gate_workflow_run": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41512343749",
+    "cross_domain_workflow_run": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41513126982",
+    "bullpen_runtime_workflow_run": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41513126998",
+    "merge_gate_workflow_run": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41513126983",
     "source_exact_readback": "10/10 retained wrapper texts identical to earlier reading; Wilson source Git blob and new reader pinned by authenticated GitHub reads",
     "protected_blob_readback": "PROLOGUE_DRAFT_V1.md + CHAPTER_01 + CHAPTER_02 + CHAPTER_03 compared Git blob SHA equal on main and production branch",
     "independent_review_request_url": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6586763298",
@@ -68,15 +68,19 @@
       "72ed6b5c370495a6f86a642aaa2f590b70755d23",
       "08cdd362516d1b28865f24d2408a19a2d899f883"
     ],
-    "producer_static_assertion_audit": "20/20 simple literal-source membership assertions present at 08cdd36; this is NOT Python unittest execution"
+    "producer_static_assertion_audit": "20/20 simple literal-source membership assertions present at 08cdd36; this is NOT Python unittest execution",
+    "authenticated_regression_job_id": 125509747179,
+    "authenticated_regression_job_log_result": "25/25 passing, 2026-11-02T19:47:20Z; exact code SHA 08cdd362516d1b28865f24d2408a19a2d899f883"
   },
   "technical_last_observed": {
     "code_sha": "08cdd362516d1b28865f24d2408a19a2d899f883",
     "novel_os_ci": {
       "id": 41513126940,
-      "status": "in_progress",
-      "conclusion": null,
-      "new_25_test_step": "PENDING_AT_LAST_SNAPSHOT"
+      "status": "completed",
+      "conclusion": "success",
+      "new_25_test_step": "completed/success",
+      "regression_tests_passed": 25,
+      "regression_test_log": "Ran 25 tests in 0.034s / OK"
     },
     "cross_domain": {
       "id": 41513126982,
@@ -85,15 +89,15 @@
     },
     "bullpen_runtime": {
       "id": 41513126998,
-      "status": "in_progress",
-      "conclusion": null
+      "status": "completed",
+      "conclusion": "success"
     },
     "repository_merge_gate": {
       "id": 41513126983,
       "status": "completed",
       "conclusion": "success"
     },
-    "note": "Repaired literal QA assertions only; manuscript unchanged. Latest exact code commit 08cdd36 has live CI; do not substitute successful runs from SHA 30542d4 or earlier."
+    "note": "All four workflows and exact 25-test step confirmed success on code SHA 08cdd36. This checkpoint-only commit will have no distinct CI proof; do not call its code tested independently."
   },
   "historical_and_editorial_hold": [
     "2025 Baker Moore Purdy team slot 9-5/fifth does not authenticate human manager-Wilson link",
@@ -121,11 +125,11 @@
     "CI test failure, independent reviewer finding, or Founder-authorized change"
   ],
   "next": [
-    "Read exact code SHA 08cdd36 GitHub Novel OS CI run 41513126940 and new 25-case step; repair only observed defects, record success only after a completed successful run.",
-    "Review full new integrated chapter for excess length and Wilson voice, using independent human/agent review with actual submitted evidence; retain author-side HOLD until cleared.",
-    "Continue 2016 historical manager-account ID investigation without assigning either 2016 Hyenas slot to the same human by display-name resemblance.",
-    "Only after verification and real independent approval consider any further gate; do not merge, publish or promote canon."
+    "Request and obtain genuine independent Authors Council/period Character/Atlas/Umpire review, not simulated acceptance; PR #243 remains open draft.",
+    "Developmentally edit integrated Wilson chapter (10,332 source words) for length, epistemic distance, independent driver agency, and distinct martial voice, retaining authenticated test and historical boundaries.",
+    "Continue 2016 manager-account source investigation; two similarly named Austin Hyenas team slots are distinct and cannot be collapsed without historical account IDs.",
+    "No merge, Founder-only canon promotion or publication absent their approval gates."
   ],
-  "status": "DRAFT_NONCANON_TECHNICAL_CI_PENDING_INDEPENDENT_EDITORIAL_HOLD",
+  "status": "DRAFT_NONCANON_TECHNICAL_PASS_AT_CODE_SHA_INDEPENDENT_EDITORIAL_HOLD",
   "date_utc": "2026-11-02"
 }
