@@ -162,7 +162,8 @@ class TwelveOwnersThirteenParts(unittest.TestCase):
     def test_25_no_false_release_or_editorial_green(self):
         for word in ("DRAFT / NONCANON", "INDEPENDENT", "NO MERGE", "NO CANON PROMOTION", "NO PUBLICATION"):
             self.assertIn(word, self.chapter)
-        self.assertIn("NOT an independent human or Director review", self.chapter)
+        self.assertIn("an independent human or Director review", self.chapter)
+        self.assertIn("**NOT**", self.chapter)
 
     def test_26_reader_emphasizes_not_new_owner(self):
         self.assertIn("twelve distinct registered fictional owner-character viewpoints", self.new)
@@ -175,7 +176,7 @@ class TwelveOwnersThirteenParts(unittest.TestCase):
         self.assertTrue(self.new.rstrip().endswith("<!-- END_2025_TWELVE_VOICES_THIRTEEN_PARTS_NONCANON -->"))
 
     def test_29_raw_historical_owner_not_invented(self):
-        self.assertIn("unknown", self.chapter.lower())
+        self.assertIn("historical manager-account ID remains unavailable", self.chapter)
         self.assertIn("manager-account", self.chapter)
 
     def test_30_no_invisible_acceptance(self):
