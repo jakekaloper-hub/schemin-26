@@ -145,7 +145,7 @@ class SelectedWilsonRevisionV2(unittest.TestCase):
 
     def test_16_explicit_release_and_period_holds(self):
         self.assertIn("DRAFT / NONCANON", self.story)
-        self.assertIn("period Character Canon approval", self.reader)
+        self.assertIn("PERIOD ATLAS AND CHARACTER CANON HOLD", self.reader)
         self.assertIn("not canon promoted", self.reader)
         self.assertIn("independent Umpire", self.story)
 
