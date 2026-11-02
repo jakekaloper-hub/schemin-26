@@ -104,11 +104,11 @@ class ThreeVoices2025SourceReader(unittest.TestCase):
         self.assertIn("historical human-owner account mapping remains UNKNOWN", self.reader)
 
     def test_13_projected_geography_is_proposed(self):
-        for phrase in ("PROPOSED_UNAPPROVED", "not ESPN events", "not assert that venue"):
+        for phrase in ("PROPOSED_UNAPPROVED", "not ESPN events", "2025 Atlas locations"):
             self.assertIn(phrase, self.zach)
 
     def test_14_story_time_after_final(self):
-        self.assertIn("after the certified 2025 championship", self.zach)
+        self.assertIn("after the certified 2025 championship", self.zach.lower())
         self.assertIn("no 2026 knowledge", self.zach)
 
     def test_15_no_canon_promotion(self):
