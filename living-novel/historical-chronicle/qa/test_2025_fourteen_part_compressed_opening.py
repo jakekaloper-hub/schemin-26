@@ -26,13 +26,13 @@ PROTECTED = {
     "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc",
 }
 WRAPPER = re.compile(
-    r"<!-- BEGIN 2025_VOICE ([^\\n]+) \\| git_blob ([0-9a-f]{40}) -->\\n\\n"
-    r"([\\s\\S]*?)\\n\\n<!-- END 2025_VOICE ([^\\n]+) -->"
+    r"<!-- BEGIN 2025_VOICE ([^\n]+) \| git_blob ([0-9a-f]{40}) -->\n\n"
+    r"([\s\S]*?)\n\n<!-- END 2025_VOICE ([^\n]+) -->"
 )
 
 def blob(path):
     data = path.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\\0" + data).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest()
 
 def source_for(name):
     return PILOT if name == PILOT.name else BASE / name
@@ -45,7 +45,7 @@ class CompressedOpening(unittest.TestCase):
         cls.old = OLD.read_text(encoding="utf-8")
         cls.wrap = list(WRAPPER.finditer(cls.new))
         cls.oldwrap = list(WRAPPER.finditer(cls.old))
-        cls.manifest = cls.new.split("## Source-exact composition manifest\\n", 1)[1].split("\\n---\\n", 1)[0]
+        cls.manifest = cls.new.split("## Source-exact composition manifest\n", 1)[1].split("\n---\n", 1)[0]
         cls.story = cls.chapter.split("### Production/source boundary", 1)[0]
 
     def test_01_predecessor_edition_immutable(self):
@@ -64,7 +64,7 @@ class CompressedOpening(unittest.TestCase):
         w = self.wrap[0]
         self.assertEqual(w.group(1), CHAPTER.name)
         self.assertEqual(w.group(2), NEW_CHAPTER_BLOB)
-        self.assertEqual(w.group(3), self.chapter.rstrip("\\n"))
+        self.assertEqual(w.group(3), self.chapter.rstrip("\n"))
 
     def test_06_remaining_thirteen_wrappers_are_exact(self):
         for i, (before, after) in enumerate(zip(self.oldwrap[3:], self.wrap[1:])):
@@ -78,14 +78,14 @@ class CompressedOpening(unittest.TestCase):
                 self.assertTrue(path.is_file())
                 self.assertEqual(wrapper.group(1), wrapper.group(4))
                 self.assertEqual(blob(path), wrapper.group(2))
-                self.assertEqual(path.read_text(encoding="utf-8").rstrip("\\n"), wrapper.group(3))
+                self.assertEqual(path.read_text(encoding="utf-8").rstrip("\n"), wrapper.group(3))
 
     def test_08_sequential_fourteen_part_labels(self):
-        nums = re.findall(r"^## Part (\\d+) —", self.new, re.M)
+        nums = re.findall(r"^## Part (\d+) —", self.new, re.M)
         self.assertEqual(nums, list(map(str, range(1, 15))))
 
     def test_09_manifest_matches_fourteen_wrappers(self):
-        rows = re.findall(r"^\\| (\\d+) \\| ([^|]+) \\| \\x60([^\\x60]+)\\x60 \\| \\x60([0-9a-f]{40})\\x60 \\| (\\d+) \\|$", self.manifest, re.M)
+        rows = re.findall(r"^\| (\d+) \| ([^|]+) \| \x60([^\x60]+)\x60 \| \x60([0-9a-f]{40})\x60 \| (\d+) \|$", self.manifest, re.M)
         self.assertEqual(len(rows), 14)
         for i, row in enumerate(rows):
             self.assertEqual(row[0], str(i+1))
@@ -100,19 +100,19 @@ class CompressedOpening(unittest.TestCase):
         self.assertGreater(len(self.story.split()), 4500)
 
     def test_12_twelve_distinct_registered_owner_views(self):
-        rows = re.findall(r"^\\| \\d+ \\| ([^|]+) \\| \\x60", self.manifest, re.M)
+        rows = re.findall(r"^\| \d+ \| ([^|]+) \| \x60", self.manifest, re.M)
         owners = {v for row in rows for v in re.findall(r"CHAR-[A-Z-]+", row)}
         self.assertEqual(len(owners), 12)
         self.assertEqual(set(re.findall(r"CHAR-[A-Z-]+", rows[0])),
                          {"CHAR-JAKE-KALOPER", "CHAR-AUSTIN-BYARS"})
 
     def test_13_six_changing_legal_pov_movements(self):
-        movements = re.findall(r"^### ([IVX]+)\\. ([^\\n]+) — (Austin|Jake)$", self.story, re.M)
+        movements = re.findall(r"^### ([IVX]+)\. ([^\n]+) — (Austin|Jake)$", self.story, re.M)
         self.assertEqual([m[0] for m in movements], ["I", "II", "III", "IV", "V", "VI"])
         self.assertEqual([m[2] for m in movements], ["Austin", "Jake", "Austin", "Jake", "Austin", "Jake"])
 
     def test_14_no_retired_institutional_pov(self):
-        self.assertIsNone(re.search(r"\\b(Edrin|Edin|Oren)\\b", self.story))
+        self.assertIsNone(re.search(r"\b(Edrin|Edin|Oren)\b", self.story))
 
     def test_15_proven_score_anchors(self):
         for score in ("152.20", "151.80", "161.07", "109.56", "187.52", "161.68"):
@@ -135,7 +135,7 @@ class CompressedOpening(unittest.TestCase):
 
     def test_19_fictional_hall_does_not_claim_atlas_approval(self):
         self.assertIn("proposed secondary-world fiction", self.chapter)
-        self.assertIn("not approved historical geography", self.chapter)
+        self.assertIn("not league events or approved historical geography", self.chapter)
 
     def test_20_protected_2026_hard_manuscript_untouched(self):
         for path, sha in PROTECTED.items():
