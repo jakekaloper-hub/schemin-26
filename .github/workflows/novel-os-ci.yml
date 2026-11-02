@@ -237,3 +237,5 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2025_twelve_part_triple_integration.py" -v
       - name: Verify 2025 eleven-part Kevin–Jordan ground-level developmental manuscript (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2025_eleven_part_watch_ground_level.py" -v
+      - name: Verify 2025 twelve-part Wilson dispatch bridge source-exact reading (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2025_twelve_part_dispatch_bridge.py" -v
