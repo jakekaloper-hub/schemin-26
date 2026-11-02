@@ -136,7 +136,7 @@ class WilsonSingleDepartureDevelopmentalReader(unittest.TestCase):
   self.assertIn("The disputed toll board remains without legal foundation.",self.chapter)
  def test_21_no_period_manager_identity_certification(self):
   self.assertIn("manager-account identity has **not been authenticated**",self.chapter)
-  self.assertIn("No new ESPN fixture",self.chapter)
+  self.assertIn("no scores or fixtures are invented",self.chapter)
  def test_22_provisional_atlas_and_character_disclaimer(self):
   self.assertIn("period Character Canon approval",self.reader)
   self.assertIn("proposed secondary-world fiction",self.reader)
