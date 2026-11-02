@@ -156,6 +156,8 @@ Calven smiled. "Do you ask every guest whether he is willing to enjoy a musician
 
 "Then the room will never look full. People leave when they are cold or bored. No showman can make a living by giving every customer the right to reconsider."
 
+Calven flattened his hands on the table. "I promised the dye-house a full room before its owners decide whether to advance the next winter order. If I cannot show them one, they will charge the loss to me. You are not the only man who has workers to pay."
+
 Austin nearly replied that a guest was not a customer. He stopped himself. Calven would have welcomed the distinction. It would allow the factor to say he had purchased one kind of person and had been delivered another. The real mistake lay earlier, in treating a body beneath a roof as a promise of attention.
 
 "Your man may count anyone who chooses to listen," Austin said. "He may not include the sleepers."
@@ -166,7 +168,7 @@ Calven tapped the page. "That is not the bargain."
 
 There was a small movement at the door. The keeper's staging crew had arrived with a rack of lamps. They had worked since dawn mending the lower room's damaged fittings. The oldest among them looked toward the ink and the coins as though he were measuring the distance from one to the other.
 
-"We have spent part of the advance," the keeper said quietly.
+"We have commissioned work against the promised fee," the keeper said quietly.
 
 "On what?"
 
