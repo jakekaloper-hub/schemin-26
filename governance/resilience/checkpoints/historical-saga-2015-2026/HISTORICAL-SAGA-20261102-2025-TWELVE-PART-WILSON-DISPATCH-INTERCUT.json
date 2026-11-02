@@ -104,7 +104,39 @@
         "conclusion": "success"
       }
     ],
-    "warning": "Do not claim overall Novel OS CI success until exact commit run completes. Checkpoint-only commit requires separate run check."
+    "warning": "Do not claim overall Novel OS CI success until exact commit run completes. Checkpoint-only commit requires separate run check.",
+    "confirmed_success_at_checkpoint_sha": {
+      "sha": "a8566b1cedc16f434186c278c9e05f0cdf800002",
+      "verified_at_utc_date": "2026-11-02",
+      "workflows": [
+        {
+          "name": "Novel OS CI",
+          "id": 41502905242,
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Cross-Domain Authority CI",
+          "id": 41502905321,
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Bullpen Runtime CI",
+          "id": 41502905263,
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Repository Merge Gate",
+          "id": 41502905289,
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ],
+      "new_test_step": "completed/success at run 41502905242; 28 test functions defined; not independent literary review",
+      "note": "Subsequent 2016 audit commit is documentary-only; its exact-head CI results must be checked separately."
+    }
   },
   "editorial": {
     "self_audit_path": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_TWO_WORDS_THAT_TRAVELED_EDITORIAL_SOURCE_QA_2026-11-02.md",
@@ -138,10 +170,17 @@
   "no_publication": true,
   "no_external_spend": true,
   "next": [
-    "Recheck exact QA-commit Novel OS CI completion; verify 28-test step against run, repair observed failures only.",
-    "Independent editorial challenge: fold Part 8's analeptic scene into Part 7 or justify repeated departure; preserve source and existing reading alternatives.",
-    "Reconcile Wilson's road notice and later Jake dispatch without certifying a road/harbor route or a human owner identity.",
-    "Investigate 2016 seventy-two-chapter Jake-limited POV problem using actual historical owner-account lineage; no speculative reassignment.",
-    "Keep 2026 protected hard-canon main and Founder publication/promotion gates closed."
-  ]
+    "Read exact final branch-head CI for documentary update and distinguish that run from a8566b1 fully green production checkpoint.",
+    "Resolve the 2016 dual-Hyenas team-name collision with authenticated ESPN manager-account IDs or commissioner ledger before POV reassignment.",
+    "Have an actual independent literary editor and Umpire review 2025 Wilson intercut, optionally fold its scenes inside Part 7 to avoid narrating the same departure twice.",
+    "Preserve all 12 principal identities, period Character Canon/Atlas, and protected 2026 canon; no founder-only canon promotion, merge or publication."
+  ],
+  "historical_2016_evidence": {
+    "path": "living-novel/historical-chronicle/seasons/2016/source-audits/FLAIM_ESPN_2016_SLOT_OUTCOME_AND_POV_BINDING_AUDIT_2026-11-02.md",
+    "branch_commit": "57c17ac16558c10a1e507beff1d5b471fe994875",
+    "access": "connected read-only Flaim/ESPN league 1417621 historical season 2016 on 2026-11-02",
+    "evidence": "Twelve team slots with explicit post-season finalRank; 2016 winner slot 8 Austin's Hyena's 9-4; runner-up slot 7 The Gunslingers 8-5; connected user historical 2016 team slot 1 finished rank 4.",
+    "blocker": "Team display names overlap (slot 8 Austin's Hyena's vs slot 12 The Real Austin's Hyenas), but no historical human manager account IDs or period-character identity authority returned; do not remap 2016 72 Jake-limited chapters on appearance.",
+    "cross_check_2025": "Baker Moore Purdy slot 5 9-5 finalRank 5 and ObiWan Jacoby slot 1 10-4 finalRank 2; historical human owner binding still UNKNOWN."
+  }
 }
