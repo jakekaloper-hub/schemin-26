@@ -2,6 +2,8 @@
 
 *2025 Commonwealth historical causal novel — developmental connective chapter, **DRAFT / NONCANON / INDEPENDENT EDITORIAL AND UMPIRE HOLD**. Sole interior viewpoint: fictional Wilson Look / CHAR-WILSON-LOOK, the integrated four-legged Arsenal Gorilla Centaur Warrior. Read between “The Road No Banner Could Own” and “The Weather That Would Not Promise”; this chapter neither replaces nor retcons either source. The verified 2025 historical team-slot summary for Baker Moore Purdy reports 9–5 and fifth place, but the human manager-account linkage to Wilson is **UNKNOWN / UNAUTHENTICATED**; his depicted acts and private experience are fictional, not biographical. The forest watch, the bend, wagons, workers, temporary works, documents, messengers, distances and prices are **proposed secondary-world fiction**, not approved period Atlas geography or authenticated league history. Neither the 2026 hard-canon Prologue nor Chapters I–III are changed. No reader should infer that an illustrated road, a published notice or a successful crossing created sovereign title or a legal public right.*
 
+**Deliberate story-time intercut:** This chapter returns to the same afternoon *after* the first loaded crossing but *before* Wilson's company leaves the bend at the end of the preceding chapter. The closing march depicted here is the **same departure**, not a second departure or a later road reopening. The earlier chapter summarizes an interval this one dramatizes in full. This non-linear placement is an editorial experiment requiring independent acceptance.
+
 ### I. The weight on the far side
 
 The first wagon had gone. That was the trouble.
