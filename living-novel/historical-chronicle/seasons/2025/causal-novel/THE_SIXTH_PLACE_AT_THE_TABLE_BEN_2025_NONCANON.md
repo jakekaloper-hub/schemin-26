@@ -40,7 +40,7 @@ Inside, heat struck him like an old acquaintance with an insult ready. A great p
 
 "Perhaps they wanted to be certain."
 
-She pushed a small slate over the counter. Seven names had been written in white chalk. He recognized the first five as households that supplied grain, fuel or rent for the kitchen. The sixth was his. The seventh line was blank.
+She pushed a small slate over the counter. Six names had been written in white chalk, all belonging to households that supplied grain, fuel or rent for the kitchen. Beneath them someone had added his name beside the empty square for a seventh stool.
 
 "Who put my name there?"
 
@@ -122,7 +122,7 @@ The woman placed the tray down between them. Her palms were striped with the pre
 
 "They've told him you speak for us."
 
-Ben had heard the phrase for years, offered first as a joke and then as a name, and at last so often that it sounded like the thing itself. The people's champion. A big man who could bear what others could not and say what others were afraid to say. It had never occurred to him to ask for an inventory of the people.
+He had heard the phrase at supper tonight, offered first as a joke and then repeated so often that it began to sound like a name. The people's champion. A big man who could bear what others could not and say what others were afraid to say. It had never occurred to him to ask for an inventory of the people.
 
 "Do you want me to speak?" he asked.
 
@@ -368,7 +368,7 @@ It was less than the passage needed.
 
 They served the oldest traveler first because Tessa asked the waiting people and they agreed. The boy with the worn token held the handle of the pot while a smaller child drank. Somebody brought a blanket. Somebody complained that the blanket ought to have gone to the named households. The argument lasted until its owner took the blanket back, then returned with it, then demanded to know whether she was being thanked.
 
-Ben wanted to laugh. He had made a living, in part, from the public beauty of a single great effort. Here every effort came with another person's claim attached. A man could haul the wood and be wrong about who ought to have it. He could be fair and still leave someone cold. He could refuse a chair and discover that refusing a chair had done nothing to change the rule that put the chair there.
+Ben wanted to laugh. He had learned to love the public beauty of a single great effort. Here every effort came with another person's claim attached. A man could haul the wood and be wrong about who ought to have it. He could be fair and still leave someone cold. He could refuse a chair and discover that refusing a chair had done nothing to change the rule that put the chair there.
 
 Before the morning meal the six stewards returned. They had seen the altered slate and the passage pot. Pell was annoyed about the borrowed wood. One steward asked whether Ben meant to establish a rival kitchen.
 
