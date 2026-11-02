@@ -167,7 +167,7 @@ class TwelveVoiceReaderTests(unittest.TestCase):
 
     def test_25_no_proven_atlas_join_or_meteorology(self):
         self.assertIn("no fixed canonical road, channel, ferry or maritime network", self.chapter)
-        self.assertIn("not historical meteorology or league records", self.chapter)
+        self.assertIn("rather than historical meteorology or league records", self.chapter)
         self.assertIn("no meteorological claim about the actual world", self.chapter)
 
     def test_26_no_future_competition_history(self):
