@@ -40,3 +40,21 @@
 
 ## Reviewer challenge
 Authors Council: does this new encounter change what the reader believes about each lead, or merely repeat their individual lessons? Historical Librarian: do the exact 2025 semifinal/final numbers remain separate from the fictional meeting, and do humans remain unverified? Character Canon: is Phillip's movement and one-body interior coherent? Atlas/World: can the hall and touring company plausibly occupy a period-correct shared route? Independent Umpire: does the source-exact build, CI at the final commit, and untouched hard opening satisfy all **technical** rather than literary gates? Record dissent explicitly; no implied approval from a comment requesting review.
+
+
+## Actual GitHub Actions CI readback (not independent editorial acceptance)
+
+The first observed CI at workflow-edit SHA `914921d7edfddc3612fd45ec896285741bc6c7c5` **FAILED** Novel OS CI run [41438598275](https://github.com/jakekaloper-hub/schemin-26/actions/runs/41438598275), because `test_20_shelter_promise_not_retconned` searched for the plain phrase `a subsequent unspecified night` while the source's handoff correctly says `*subsequent unspecified night*`. The test assertion, *not* the story or source facts, was repaired in `f57ddc18a7e5da0b18d2dcdf92602ec317d6bd47`.
+
+At the repaired exact SHA, actual GitHub run readback reported all four `completed/success`:
+
+| Workflow | ID | Result |
+|---|---:|---|
+| [Novel OS CI](https://github.com/jakekaloper-hub/schemin-26/actions/runs/41438842299) | 41438842299 | SUCCESS |
+| [Cross-Domain Authority CI](https://github.com/jakekaloper-hub/schemin-26/actions/runs/41438842264) | 41438842264 | SUCCESS |
+| [Bullpen Runtime CI](https://github.com/jakekaloper-hub/schemin-26/actions/runs/41438842381) | 41438842381 | SUCCESS |
+| [Repository Merge Gate](https://github.com/jakekaloper-hub/schemin-26/actions/runs/41438842275) | 41438842275 | SUCCESS |
+
+Decoded Novel OS job `125255335566` explicitly recorded **Ran 30 tests ... OK** for the new fourteenth-part regression. These are technical checks of source-exact structure, protected opening and selected source assertions. They **do not** establish historical manager ownership, a geographically admissible troupe route, human Authors Council approval, independent Umpire acceptance, or Founder canon/publishing authorization.
+
+**This editorial QA receipt is a subsequent commit, so its exact-head workflows must also be read rather than imputed from the repaired test SHA.**
