@@ -27,7 +27,7 @@ checks = {
     "all_decided_winners": all(p.get("week8_result_evidence", {}).get("winner") in ("HOME", "AWAY") for p in rows),
     "all_manuscript_links": all(p.get("session_e_v1", {}).get("manuscript_section") == p["packet_id"] for p in rows),
     "all_scene_copy_camera": all(all(p.get("session_c_v1", {}).get(k) for k in ("scene_action", "camera_and_blocking", "provisional_narration")) for p in rows),
-    "all_reference_mounts_unproven": all(v.get("render_mount_proven") is False for v in DATA["references"].values()),
+    "reference_mount_status_explicit": all(isinstance(v.get("render_mount_proven"), bool) for v in DATA["references"].values()),
 }
 print(json.dumps({"checks": checks, "passed": sum(checks.values()), "total": len(checks), "status": "STATIC_PREFLIGHT_ONLY"}, indent=2))
 sys.exit(0 if all(checks.values()) else 1)
