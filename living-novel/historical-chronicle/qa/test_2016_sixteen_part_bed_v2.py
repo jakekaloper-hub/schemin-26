@@ -15,7 +15,7 @@ ARCHIVE=ROOT/"living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_W
 def blob(b):
     return hashlib.sha1(b"blob "+str(len(b)).encode()+b"\x00"+b).hexdigest()
 def rows(s):
-    return [(int(n),p,h,int(w)) for n,p,h,w in re.findall(r"^\\| (\\d+) \\| \`([^\`]+)\` \\| \`([0-9a-f]{40})\` \\| (\\d+) \\|$",s,re.M)]
+    return [(int(n),p,h,int(w)) for n,p,h,w in re.findall(r"^\| (\d+) \| `([^`]+)` \| `([0-9a-f]{40})` \| (\d+) \|$",s,re.M)]
 def embedded(s,n,h):
     st=f"<!-- BEGIN 2016_CAUSAL {n} | git_blob {h} -->\n\n"
     en=f"\n\n<!-- END 2016_CAUSAL {n} -->"
