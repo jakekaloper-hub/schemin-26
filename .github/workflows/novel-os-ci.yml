@@ -257,3 +257,5 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_roof_cloth_grain_three_part_reader.py" -v
       - name: Verify 2016 I-VI four-part roof-cloth-grain-print edition (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_roof_cloth_grain_print_four_part_reader.py" -v
+      - name: Verify 2016 I-VIII five-part wheel consolidation and custody scene (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_wheel_five_part_integrated_reader.py" -v
