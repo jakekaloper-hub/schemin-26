@@ -275,3 +275,5 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_thirteen_part_roof_ch16.py" -v
       - name: Verify 2016 Chapter XVII freight custody and fourteen-part source-exact reader (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_fourteen_part_mark_at_landing.py" -v
+      - name: Verify 2016 Chapter XVIII marked-bale custody and fifteen-part source-exact reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_fifteen_part_marked_bale.py" -v

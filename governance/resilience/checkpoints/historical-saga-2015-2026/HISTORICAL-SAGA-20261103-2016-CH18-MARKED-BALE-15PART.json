@@ -1,0 +1,86 @@
+{
+  "schema": "commonwealth_historical_saga_autonomous_run_checkpoint_v1",
+  "date_utc": "2026-11-03",
+  "mission": "BULLPEN PERMANENT EXECUTIVE MANDATE — COMMONWEALTH NOVEL AUTONOMOUS END-TO-END PRODUCTION",
+  "repository": "jakekaloper-hub/schemin-26",
+  "organizational_repository": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "status": "DRAFT_NONCANON_HOLD",
+  "baseline": {
+    "branch_head": "a8d08ad1a6ed91cda1a082efb62421ba1d49e126",
+    "schemin_main": "e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80",
+    "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "authority": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "bullpen_command": "docs/COMMAND_SYSTEM_V2.md",
+    "bullpen_lifecycle": "runtime/lifecycleEngine.js",
+    "issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "prs": {
+      "188": "merged_closed",
+      "243": "draft_open",
+      "252": "draft_open",
+      "261": "draft_open"
+    }
+  },
+  "literary": {
+    "original_ch18": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_RIVER_KEPT_NO_PLACE_CHAPTER_18_NONCANON.md",
+    "original_blob": "899ac5eba4e4bb212652ed31baae08c0636631b8",
+    "revised_ch18": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_RIVER_KEPT_NO_PLACE_MARKED_BALE_CH18_V2_NONCANON.md",
+    "revised_ch18_blob": "da33d9bbfc40979d35a1e4b235b95b4648534360",
+    "added_fiction_words_approx": 2174,
+    "revised_ch18_source_words": 7514,
+    "reader": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_2016_CAUSAL_CH01_18_FIFTEEN_PARTS_MARKED_BALE_V2_NONCANON.md",
+    "reader_blob": "98a82194f6d2c6c81e7327e669b621fef53a9514",
+    "reader_source_words_including_metadata": 98459,
+    "parts": 15,
+    "prior_parts_unchanged": 14,
+    "viewpoint": "fictional_Jake_only",
+    "transition": "marked cloth stays under Deren custody; no cloth landed or accepted; Jake walks inland toward shelter"
+  },
+  "tests": {
+    "test": "living-novel/historical-chronicle/qa/test_2016_fifteen_part_marked_bale.py",
+    "test_blob": "05ed8fbf1577d1fadef232e5e3db0eaf13b6db14",
+    "workflow": ".github/workflows/novel-os-ci.yml",
+    "workflow_blob": "5a12cbb2b374f9612730e817af85b586308c00f7",
+    "status": "NOT_YET_OBSERVED",
+    "ci": "PENDING_EXACT_COMMIT_RUN"
+  },
+  "editorial": {
+    "producer_audit": "living-novel/historical-chronicle/seasons/2016/causal-novel/EDITORIAL_QA_CH18_MARKED_BALE_V2_2026-11-03_NONCANON.md",
+    "blob": "4e1b34cefa3cfdee48310e63653c9c608d246255",
+    "independent_umpire": "NOT_OBSERVED",
+    "authors_council": "NOT_OBSERVED",
+    "historical_librarian": "NOT_OBSERVED",
+    "atlas": "NOT_OBSERVED",
+    "character_canon": "NOT_OBSERVED"
+  },
+  "evidence": {
+    "archive": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+    "archive_blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "owner_slot": "NOT_PROVIDER_AUTHENTICATED"
+  },
+  "protected_main_blobs": {
+    "PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a6c6d8ee723bf39fc7dfaf0",
+    "CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+    "CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+    "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+  },
+  "next": [
+    "Read CI on exact commit, repair any observed regression then reverify",
+    "Independent review for Chapters XVI–XIX",
+    "Next priority Chapter XIX shelter re-entry; preserve 2016 owner-slot unknown and 2026 hard canon"
+  ],
+  "release": {
+    "merged": false,
+    "canon": false,
+    "published": false,
+    "founder_approval": false,
+    "umpire_approval": false
+  }
+}
