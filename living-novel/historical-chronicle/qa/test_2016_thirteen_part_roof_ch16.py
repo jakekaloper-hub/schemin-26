@@ -86,7 +86,7 @@ class RoofThatTraveled(unittest.TestCase):
                        "No delivery acceptance", "UNACCEPTED"):
             with self.subTest(phrase=phrase):
                 self.assertIn(phrase, self.new)
-        self.assertIn("one wet outer binding marked for later inspection", self.reader)
+        self.assertIn("marks one cargo binding for later inspection", self.reader)
 
     def test_08_neighboring_chapters_remain_source_exact(self):
         self.assertEqual(self.after[11][0], "THE_PASSAGE_NO_ONE_COULD_SELL_CHAPTER_15_NONCANON.md")
