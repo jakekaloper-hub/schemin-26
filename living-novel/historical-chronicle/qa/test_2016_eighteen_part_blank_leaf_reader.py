@@ -13,15 +13,15 @@ CH=D/"THE_BOOK_THAT_WALKED_OUT_PRICE_OF_A_BLANK_LEAF_CH21_V2_NONCANON.md"
 ORIGINAL=D/"THE_BOOK_THAT_WALKED_OUT_CHAPTER_21_NONCANON.md"
 
 def blob(data:bytes)->str:
-    return hashlib.sha1(b"blob "+str(len(data)).encode()+b"\\x00"+data).hexdigest()
+    return hashlib.sha1(b"blob "+str(len(data)).encode()+b"\x00"+data).hexdigest()
 
 def rows(text:str):
     return [(int(n),f,h,int(words)) for n,f,h,words in re.findall(
-        r"^\\| (\\d+) \\| \\x60([^\\x60]+)\\x60 \\| \\x60([a-f0-9]{40})\\x60 \\| (\\d+) \\|$",text,re.M)]
+        r"^\| (\d+) \| \x60([^\x60]+)\x60 \| \x60([a-f0-9]{40})\x60 \| (\d+) \|$",text,re.M)]
 
 def embedded(text:str,filename:str,source_sha:str)->str:
-    return text.split(f"<!-- BEGIN 2016_CAUSAL {filename} | git_blob {source_sha} -->\\n\\n",1)[1].split(
-        f"\\n\\n<!-- END 2016_CAUSAL {filename} -->",1)[0]
+    return text.split(f"<!-- BEGIN 2016_CAUSAL {filename} | git_blob {source_sha} -->\n\n",1)[1].split(
+        f"\n\n<!-- END 2016_CAUSAL {filename} -->",1)[0]
 
 class ChapterXXIEighteenPartReader(unittest.TestCase):
     @classmethod
@@ -55,7 +55,7 @@ class ChapterXXIEighteenPartReader(unittest.TestCase):
     def test_06_all_reader_bodies_exact(self):
         for n,f,h,word_count in self.rows:
             with self.subTest(part=n):
-                self.assertEqual(embedded(self.new,f,h),(D/f).read_text().rstrip("\\n"))
+                self.assertEqual(embedded(self.new,f,h),(D/f).read_text().rstrip("\n"))
 
     def test_07_previous_seventeen_bodies_exact(self):
         for n,f,h,w in self.prev_rows:
