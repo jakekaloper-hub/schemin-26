@@ -64,7 +64,7 @@ class ChapterThirtyThreeArch(unittest.TestCase):
             self.assertIn(phrase, self.scene)
     def test_07_arch_retained_for_next_chapter(self):
         self.assertIn("The bound branches remained above the gate", self.chapter)
-        self.assertIn("Fara called Noll over", self.chapter)
+        self.assertIn("Fara had seen the exchange from the food table.", self.chapter)
         self.assertNotIn("When the arch came down", self.chapter)
         follow = (BASE / "THE_BEES_IN_THE_WEDDING_ARCH_CHAPTER_34_NONCANON.md").read_text()
         self.assertIn("Bees had gathered on the central branch of the arch", follow)
