@@ -251,3 +251,5 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2025_austin_phillip_v4_reader.py" -v
       - name: Verify 2025 measured-service V5 eleven-part developmental reading (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2025_measured_service_v5_reader.py" -v
+      - name: Verify 2016 I-IV consolidated roof-and-bowl three-part pilot (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_roof_bowl_three_part_reader.py" -v
