@@ -86,7 +86,7 @@ class Test2016FourteenPartMarkAtLanding(unittest.TestCase):
 
     def test_open_cargo_question_without_false_receipt(self):
         self.assertIn("No cloth unloaded at the works. No condition decided.", self.chapter)
-        self.assertIn("original binding intact", self.chapter)
+        self.assertIn("The original binding stays intact", self.chapter)
         self.assertIn("No cloth unloaded", self.chapter)
 
     def test_second_day_and_wages_not_claimed_complete(self):
