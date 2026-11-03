@@ -31,3 +31,16 @@ Fourteen targeted Python regression definitions are enrolled in Novel OS CI via 
 This self-challenge should be independently answered with precise quoted passages and a dated, attributable review on existing PR #243 and Bullpen issue #117. The producer does **not** certify the work, speak for an authenticated Director, claim review consensus or request a Founder-only approval from itself. Leave PR in **DRAFT**, and preserve **NONCANON / NO MERGE / NO PUBLICATION / NO CANON PROMOTION** until independent checks and explicit Owner release authority arrive.
 
 **Next source:** Chapter XXVIII, `THE_SLEEVE_LEFT_UNSTITCHED_CHAPTER_28_NONCANON.md` (blob `47a8475c2029f5b5b8222adfc72d2a4d17760da0`), as the next preserved original; reconcile Pell's attempted optimistic message to his mother with the unopen crossing, while refusing to certify Mev's letter as delivered.
+
+
+## Observed exact-commit technical recovery (2026-11-03)
+
+At `31054ebc7eb9034a7ae154c379898018fbf57a91`, Novel OS CI run [41666066687](https://github.com/jakekaloper-hub/schemin-26/actions/runs/41666066687) **FAILED**, while Cross-Domain Authority, Bullpen Runtime and Repository Merge Gate succeeded. Job `126021595700` executed 1,350 Python tests and reported exactly one test failure in the **new** suite: `test_09_letter_not_certified_delivered` had a case-sensitive literal `the letter's` instead of source-exact `The letter's`. It was an assertion-fixture capitalization error; the chapter, reader and competitive evidence were **not changed**.
+
+Test-only repair commit: `3a4e81fce433b291b42e41dbceeef07287613d0b`. At that exact commit all four required GitHub workflow conclusions were **SUCCESS**:
+- [Novel OS CI 41666386142](https://github.com/jakekaloper-hub/schemin-26/actions/runs/41666386142): success; new Chapter XXVII / 24-part source-exact step also success (14 new test methods).
+- [Cross-Domain Authority CI 41666386136](https://github.com/jakekaloper-hub/schemin-26/actions/runs/41666386136): success.
+- [Bullpen Runtime CI 41666386117](https://github.com/jakekaloper-hub/schemin-26/actions/runs/41666386117): success.
+- [Repository Merge Gate 41666386160](https://github.com/jakekaloper-hub/schemin-26/actions/runs/41666386160): success.
+
+At readback, direct GitHub file comparisons confirmed all four protected 2026 hard-canon blobs and the retained 2016 competition evidence blob matched current `main`. **All passes are technical only:** neither Author Council, period Atlas, Character Canon, historical owner binding, independent Umpire nor Founder-only release clearance is inferred. This receipt-only edit itself requires separate exact-head CI if claiming all-four-workflow success for its new commit.
