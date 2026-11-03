@@ -4,13 +4,13 @@
 
 ## W08-06-01 — The Place We Once Knew: Two arrivals — shared POV
 
-The crossing lay beneath a low ceiling of autumn mist. One road came down from the dry country; another followed the water, carrying the marks of wheels and years. The three heads of the Serpent watched the approaches from one broad-shouldered body. Beyond the worn track, Chili came with Dark Horse. For a moment neither moved. The road was new to them, but the feeling of knowing who waited at its end was not.
+The crossing lay beneath a low ceiling of autumn mist. One road came down from the dry country; another followed the water, carrying the marks of wheels and years. The three heads of the Serpent watched the approaches from one broad-shouldered body. Beyond the worn track, Chili came with Dark Horse. For a moment neither moved. They had never walked this road together. Still, each knew the weight of the other waiting at its end.
 
 *Editorial: Establish shared history without pretending they remain unchanged. Camera: Wide two-axis environmental master; faces withheld until each approach is legible.*
 
 ## W08-06-02 — The Place We Once Knew: Oxford corner bedroom — memory only
 
-Before there were kingdoms to defend and reputations to carry, there had been a corner bedroom in the Kappa Sigma house at Ole Miss. Two roommates, ordinary evenings, a world that had not yet learned to measure their friendship in points. Memory was mercifully imprecise: lamplight, a doorway, the easy certainty that the other would be there. It offered no instruction for what to say now.
+Before there were kingdoms to defend and reputations to carry, there had been a corner bedroom in the Kappa Sigma house at Ole Miss. Two roommates, ordinary evenings, a world that had not yet learned to measure their friendship in points. Memory returned in fragments: lamplight, a doorway, the unexamined certainty that the other would be there. It offered no instruction for what to say now.
 
 *Editorial: The intimacy of former roommates becomes the emotional counterweight. Camera: Still interior perspective with window light and two implied personal presences; no fantasy anatomy inserted into literal college memory.*
 
@@ -180,6 +180,10 @@ HMB survived, 162.62 to 158.26. The Belt remained his, and the victory was real,
 
 These are independent scene passages to be edited into continuous feature manuscripts. They do not prescribe one page per passage. Factual scoring inserts and final copyfit remain gated. Oxford interior is a nonliteral memory; Shared March admission remains provisional. The Book, standings and cover are separate editorial allocations.
 
+
+## Editorial line-edit receipt — November 3
+
+Nine targeted prose and continuity revisions were made in the existing manuscript, with all 29 scene IDs preserved. These edits improve the Oxford memory distinction, avoid repetitive aphorisms, and clarify the six emotional resolutions. Continuous narrative polish and final copyfit remain subject to editorial acceptance.
 
 ## Production reading sequence — pre-generation convergence
 
