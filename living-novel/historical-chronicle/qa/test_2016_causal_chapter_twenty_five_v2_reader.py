@@ -25,10 +25,10 @@ PROTECTED = {
 }
 def git_blob(path):
     data = path.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\\0" + data).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest()
 def rows(text):
     return [(int(n), name, sha, int(w)) for n, name, sha, w in re.findall(
-        r"^\\| (\\d+) \\| \\x60([^\\x60]+)\\x60 \\| \\x60([0-9a-f]{40})\\x60 \\| (\\d+) \\|$", text, re.M)]
+        r"^\| (\d+) \| \x60([^\x60]+)\x60 \| \x60([0-9a-f]{40})\x60 \| (\d+) \|$", text, re.M)]
 def extract(text, name, sha):
     begin = f"<!-- BEGIN 2016_CAUSAL {name} | git_blob {sha} -->"
     end = f"<!-- END 2016_CAUSAL {name} -->"
@@ -43,7 +43,7 @@ class ChapterTwentyFiveV2(unittest.TestCase):
         cls.old = (BASE / OLD).read_text()
         cls.manifest = rows(cls.reader)
         cls.previous = rows(cls.old)
-        cls.prose = cls.chapter.split("### I.", 1)[1].split("\\n---\\n", 1)[0]
+        cls.prose = cls.chapter.split("### I.", 1)[1].split("\n---\n", 1)[0]
 
     def test_01_22_ordered_components(self):
         self.assertEqual([n for n, _, _, _ in self.manifest], list(range(1, 23)))
@@ -73,7 +73,7 @@ class ChapterTwentyFiveV2(unittest.TestCase):
 
     def test_06_substantive_six_movement_chapter(self):
         self.assertGreaterEqual(len(self.chapter.split()), 7600)
-        self.assertEqual(len(re.findall(r"^### [IVX]+\\.", self.chapter, re.M)), 6)
+        self.assertEqual(len(re.findall(r"^### [IVX]+\.", self.chapter, re.M)), 6)
         self.assertIn("### VI. The unstruck bell", self.chapter)
 
     def test_07_workplace_consequence_without_earned_wages(self):
