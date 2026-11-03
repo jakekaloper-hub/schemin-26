@@ -158,6 +158,8 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter*reader.py" -q
       - name: Verify 2016 sixteen-part Chapter XIX V2 source-exact reader (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_sixteen_part_bed_v2.py" -v
+      - name: Verify 2016 17-part Chapter XX Senn and Mara developmental reading (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_seventeen_part_senn_reader.py" -v
       - name: Verify unified 68-chapter source-exact Commonwealth reading manuscript (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_full_68_reader.py" -v
       - name: Verify unified 69-chapter source-exact Commonwealth reading manuscript (noncanon)
