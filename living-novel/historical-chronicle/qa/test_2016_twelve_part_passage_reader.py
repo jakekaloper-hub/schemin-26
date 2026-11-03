@@ -101,13 +101,13 @@ class TwelvePartRecoveryReader(unittest.TestCase):
     def test_09_chapter_15_is_source_exact_and_independent(self):
         self.assertEqual(self.twelve_wraps[10], self.eleven_wraps[10])
         self.assertEqual(self.twelve_wraps[11][0], CH15)
-        self.assertIn("no general road access", self.twelve)
+        self.assertIn("do not constitute general road access", self.twelve)
         self.assertIn("historical owner's thoughts", self.twelve)
 
     def test_10_no_non_owner_principal(self):
         for doc in (self.revised, self.eleven, self.twelve):
             self.assertIn("CHAR-JAKE-KALOPER", doc)
-            self.assertNotRegex(doc, r"(?m)^### (?:Edrin|Edin|Oren)\\b")
+            self.assertNotRegex(doc, r"(?m)^### (?:Edrin|Edin|Oren)\b")
             self.assertIn("NONCANON", doc)
 
     def test_11_four_protected_2026_blobs(self):
