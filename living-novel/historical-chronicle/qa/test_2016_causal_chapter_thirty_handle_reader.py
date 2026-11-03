@@ -27,17 +27,17 @@ PROTECTED = {
 
 def git_blob(path):
     raw=path.read_bytes()
-    return hashlib.sha1(b"blob "+str(len(raw)).encode()+b"\\0"+raw).hexdigest()
+    return hashlib.sha1(b"blob "+str(len(raw)).encode()+b"\0"+raw).hexdigest()
 
 def manifest(content):
     return [(int(n), name, sha, int(words)) for n,name,sha,words in
-            re.findall(r"^\\| (\\d+) \\| \\x60([^\\x60]+)\\x60 \\| \\x60([a-f0-9]{40})\\x60 \\| (\\d+) \\|$", content, re.M)]
+            re.findall(r"^\| (\d+) \| \x60([^\x60]+)\x60 \| \x60([a-f0-9]{40})\x60 \| (\d+) \|$", content, re.M)]
 
 def extract_body(content,name,sha):
     begin=f"<!-- BEGIN 2016_CAUSAL {name} | git_blob {sha} -->"
     end=f"<!-- END 2016_CAUSAL {name} -->"
     assert content.count(begin)==content.count(end)==1, name
-    return content.split(begin+"\\n\\n",1)[1].split("\\n\\n"+end,1)[0]
+    return content.split(begin+"\n\n",1)[1].split("\n\n"+end,1)[0]
 
 class ChapterThirtyHandleReader(unittest.TestCase):
     @classmethod
@@ -60,7 +60,7 @@ class ChapterThirtyHandleReader(unittest.TestCase):
         self.assertEqual(git_blob(BASE/PRIOR),PRIOR_SHA)
 
     def test_04_six_movements_in_order(self):
-        self.assertEqual(re.findall(r"^### ([IVX]+)\\. ",self.chapter,re.M),
+        self.assertEqual(re.findall(r"^### ([IVX]+)\. ",self.chapter,re.M),
                          ["I","II","III","IV","V","VI"])
 
     def test_05_substantial_new_movement(self):
@@ -93,7 +93,7 @@ class ChapterThirtyHandleReader(unittest.TestCase):
                 source=(BASE/name).read_text()
                 self.assertEqual(git_blob(BASE/name),sha)
                 self.assertEqual(len(source.split()),words)
-                self.assertEqual(extract_body(self.reader,name,sha),source.rstrip("\\n"))
+                self.assertEqual(extract_body(self.reader,name,sha),source.rstrip("\n"))
 
     def test_11_prior_26_bodies_unchanged(self):
         self.assertEqual(self.rows[:26],self.prev_rows)
