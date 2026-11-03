@@ -74,7 +74,7 @@ class RoofAndBowlPilot(unittest.TestCase):
         self.assertEqual(sum(x[2] for x in SOURCES), 12036)
         self.assertEqual(4166 + 4108 + 4495 + 3977, 16746)
         self.assertEqual(16746-12036, 4710)
-        self.assertIn("12036 source words", self.reader)
+        self.assertIn("source words including metadata: 12036", self.reader)
 
     def test_07_four_movements_one_principal_pov(self):
         self.assertEqual(len(re.findall(r"^### [IVX]+\. ", self.chapter, re.M)), 4)
