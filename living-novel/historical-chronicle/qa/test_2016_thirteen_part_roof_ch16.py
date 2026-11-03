@@ -77,7 +77,7 @@ class RoofThatTraveled(unittest.TestCase):
         key = "The boat went upriver. Behind it,"
         old_start = self.old.index("### I. What the river gave back")
         new_start = self.new.index("### I. What the river gave back")
-        self.assertEqual(self.old[old_start:self.old.index(key)], self.new[new_start:self.new.index("### VI. The roof that traveled")])
+        self.assertEqual(self.old[old_start:self.old.index(key)].rstrip(), self.new[new_start:self.new.index("### VI. The roof that traveled")].rstrip())
         self.assertTrue(self.new.index("### VI. The roof that traveled") < self.new.index(key))
 
     def test_07_cost_is_real_but_no_resolution_claimed(self):
