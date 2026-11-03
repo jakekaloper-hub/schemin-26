@@ -48,13 +48,44 @@
     "test_blob": "05ed8fbf1577d1fadef232e5e3db0eaf13b6db14",
     "workflow": ".github/workflows/novel-os-ci.yml",
     "workflow_blob": "5a12cbb2b374f9612730e817af85b586308c00f7",
-    "status": "OBSERVED_FAILURE_ONE_INCORRECT_PROLOGUE_EXPECTED_HASH_REPAIR_SUBMITTED",
+    "status": "PASS_AT_CORRECTIVE_COMMIT_12_OF_12",
     "ci": "REPAIR_COMMIT_PENDING_EXACT_HEAD_CI",
     "failing_production_commit": "7ddfb70c695ece1bcac7e0c50aace436f4786ce8",
     "failing_novel_run_id": 41605093099,
     "failing_step": "Verify 2016 Chapter XVIII marked-bale custody and fifteen-part source-exact reader (noncanon)",
     "failure_details": "11 tests passed; protected Prologue expected blob transcribed incorrectly",
-    "corrected_expected_prologue_blob": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0"
+    "corrected_expected_prologue_blob": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+    "corrective_test_commit": "56989f7c4290d3ab6dd398599388564637940bb4",
+    "novel_os_ci_run": {
+      "id": 41605379279,
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41605379279"
+    },
+    "required_workflows_at_corrective_commit": [
+      {
+        "name": "Novel OS CI",
+        "run": 41605379279,
+        "conclusion": "success"
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "run": 41605379083,
+        "conclusion": "success"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "run": 41605379179,
+        "conclusion": "success"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "run": 41605379203,
+        "conclusion": "success"
+      }
+    ],
+    "matched_new_test_step": "12 tests passed; step succeeded",
+    "final_checkpoint_commit_ci": "NOT_OBSERVED_YET_DIFFERENT_COMMIT"
   },
   "editorial": {
     "producer_audit": "living-novel/historical-chronicle/seasons/2016/causal-novel/EDITORIAL_QA_CH18_MARKED_BALE_V2_2026-11-03_NONCANON.md",
@@ -77,9 +108,9 @@
     "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
   },
   "next": [
-    "Read CI on exact commit, repair any observed regression then reverify",
-    "Independent review for Chapters XVI–XIX",
-    "Next priority Chapter XIX shelter re-entry; preserve 2016 owner-slot unknown and 2026 hard canon"
+    "Verify any new checkpoint-only CI independently if triggered",
+    "Obtain genuine independent literary and period Atlas review of Chapters XVI–XIX; no self-approval",
+    "Continue fiction only on next eligible 2016 Chapter XIX shelter re-entry, preserve Jake-limited POV and historical owner uncertainty"
   ],
   "release": {
     "merged": false,
@@ -87,5 +118,11 @@
     "published": false,
     "founder_approval": false,
     "umpire_approval": false
+  },
+  "review": {
+    "pr_243_review_request_comment_id": 6599151557,
+    "bullpen_issue_117_handoff_comment_id": 6599152152,
+    "independent_reviews_observed": 0,
+    "umpire": "NOT_OBSERVED"
   }
 }
