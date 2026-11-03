@@ -41,7 +41,15 @@
       "crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
       "exists": true,
       "hash_verified": true,
-      "render_mount_proven": false
+      "render_mount_proven": false,
+      "reference_remediation": {
+        "source_candidate": "memo-os/week-8/previs/visual-reference-candidates/ARSENAL_CENTAUR_2026_10_12_NONACTIVE.png",
+        "source_git_blob_sha": "cce192725a9b7f452072884bc13aa41833ddad0c",
+        "source_origin": "PR #195 archived, copied as nonactive previsual reference",
+        "status": "RECOVERED_NONACTIVE_NOT_RENDER_APPROVED",
+        "visual_requirement": "one integrated gorilla torso and four equine legs, Arsenal identity",
+        "renderer_mount_verified": false
+      }
     },
     "6": {
       "character_id": "CHAR-PHILLIP-PITTS",
@@ -57,7 +65,14 @@
       "crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
       "exists": true,
       "hash_verified": true,
-      "render_mount_proven": false
+      "render_mount_proven": false,
+      "reference_remediation": {
+        "approved_appearance": "canon/characters/CHAR-BRANDON-PRYOR/COMMISSIONER_APPEARANCE_LOCK_2026_10_22.json",
+        "expected_asset": "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_CHILI_OUTLAW_2026_10_22.png",
+        "status": "APPROVED_APPEARANCE_BINARY_NOT_FOUND",
+        "historical_visuals": "Week 2–5 published editions for comparative continuity only",
+        "renderer_mount_verified": false
+      }
     },
     "8": {
       "character_id": "CHAR-AUSTIN-BYARS",
