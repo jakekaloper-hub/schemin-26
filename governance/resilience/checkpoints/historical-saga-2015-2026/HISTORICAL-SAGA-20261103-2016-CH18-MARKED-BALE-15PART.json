@@ -48,8 +48,13 @@
     "test_blob": "05ed8fbf1577d1fadef232e5e3db0eaf13b6db14",
     "workflow": ".github/workflows/novel-os-ci.yml",
     "workflow_blob": "5a12cbb2b374f9612730e817af85b586308c00f7",
-    "status": "NOT_YET_OBSERVED",
-    "ci": "PENDING_EXACT_COMMIT_RUN"
+    "status": "OBSERVED_FAILURE_ONE_INCORRECT_PROLOGUE_EXPECTED_HASH_REPAIR_SUBMITTED",
+    "ci": "REPAIR_COMMIT_PENDING_EXACT_HEAD_CI",
+    "failing_production_commit": "7ddfb70c695ece1bcac7e0c50aace436f4786ce8",
+    "failing_novel_run_id": 41605093099,
+    "failing_step": "Verify 2016 Chapter XVIII marked-bale custody and fifteen-part source-exact reader (noncanon)",
+    "failure_details": "11 tests passed; protected Prologue expected blob transcribed incorrectly",
+    "corrected_expected_prologue_blob": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0"
   },
   "editorial": {
     "producer_audit": "living-novel/historical-chronicle/seasons/2016/causal-novel/EDITORIAL_QA_CH18_MARKED_BALE_V2_2026-11-03_NONCANON.md",
@@ -66,7 +71,7 @@
     "owner_slot": "NOT_PROVIDER_AUTHENTICATED"
   },
   "protected_main_blobs": {
-    "PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a6c6d8ee723bf39fc7dfaf0",
+    "PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
     "CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
     "CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
     "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"

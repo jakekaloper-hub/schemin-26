@@ -11,3 +11,10 @@
 **Verification:** Repository regression code and a named Novel OS CI step are included, but *PASS is not claimed until observed on exact commit*. Byte-source manifest compares all 15 chapter sources with Git blob hashes; previous 14 source segments unchanged. No protected 2026 hard manuscript files are edited.
 
 **Independent reviewers:** NOT OBSERVED (Authors Council, Historical Librarian, Character Canon, Atlas and Umpire). Founder canon/publication authorization NOT GRANTED. No merge, publication or automatic promotion. Next: exact-head CI readback, independent scrutiny of Chapters XVI–XIX continuity, then source-safe Chapter XIX revision only if justified.
+
+
+## Observed CI failure and repair
+
+At production commit `7ddfb70c695ece1bcac7e0c50aace436f4786ce8`, [Novel OS CI #41605093099](https://github.com/jakekaloper-hub/schemin-26/actions/runs/41605093099) **FAILED** in the new 12-test step: 11 tests passed; one protected-Prologue Git blob assertion failed because the new test had an incorrectly transcribed hash (`5ef240b31a67cf1a6c6d8ee723bf39fc7dfaf0` instead of the independently verified `5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0`). This was a **test-fixture typo**, not a changed manuscript. All four protected 2026 files were fetched on both main and PR branch and their blobs matched. The expected hash was corrected without altering any prose. Re-run status must be independently checked on the corrective commit; no premature PASS claim.
+
+At the failed production commit Cross-Domain Authority, Bullpen Runtime CI and Repository Merge Gate succeeded; independent editorial review remains outstanding.
