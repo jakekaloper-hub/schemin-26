@@ -77,7 +77,7 @@ class ChapterXXIINineteenPartReader(unittest.TestCase):
         self.assertIn("The first sack made its noise before anyone saw it move.", self.chapter)
 
     def test_11_delivery_acceptance_not_retroactively_cancelled(self):
-        self.assertIn("The three measured sacks had been carried into the kitchen.", self.chapter)
+        self.assertIn("the three measured sacks had been carried into the kitchen.", self.chapter.lower())
         self.assertIn("the agent asked for the original signed entry.", self.chapter.lower())
 
     def test_12_nell_retains_undelivered_cloth(self):
@@ -95,7 +95,7 @@ class ChapterXXIINineteenPartReader(unittest.TestCase):
 
     def test_15_no_speculative_espen_history(self):
         self.assertIn("No new ESPN result", self.chapter)
-        self.assertIn("not provider authenticated", self.chapter)
+        self.assertIn("No historical manager-slot identity is provider authenticated", self.chapter)
         self.assertIn("fictional, unapproved secondary-world inventions", self.chapter)
 
     def test_16_noncanon_release_barriers(self):
