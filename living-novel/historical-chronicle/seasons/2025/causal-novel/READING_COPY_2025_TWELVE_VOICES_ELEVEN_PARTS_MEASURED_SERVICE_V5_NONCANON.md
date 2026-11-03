@@ -8,7 +8,7 @@
 
 **POV and evidence firewall:** The twelve canonical fictional owner-character identities are exclusive interior POVs; this edition grants no independent interior to Tessa, Maren, Iva, Pell, Calven or other secondary figures. The proposed scenes do not authenticate historical manager accounts, league actions, civic charters, 2025 geography, or messenger delivery. Wilson is one integrated four-legged Gorilla Centaur. Phillip is one being with exactly three serpent heads. No 2026 championship title is retrojected into 2025.
 
-**Assembly:** Eleven source-exact wrapped parts. **Ten** wrapped chapter sources are byte-identical to V4; only Part 11 changes. Part 11's revised source is pinned at Git blob `95501942a04ee28e77e325f3c6a24b5dc46169f1` and contains **7924 source words including metadata**. New edition totals **65940 source words across eleven parts, including source metadata**, versus V4's 63935. No new canonical release is implied.
+**Assembly:** Eleven source-exact wrapped parts. **Ten** wrapped chapter sources are byte-identical to V4; only Part 11 changes. Part 11's revised source is pinned at Git blob `f38bc57bdf828a8fa7607b1717448cf283a6ce24` and contains **7924 source words including metadata**. New edition totals **65940 source words across eleven parts, including source metadata**, versus V4's 63935. No new canonical release is implied.
 
 | Part | Principal viewpoint(s) | Source file (under `living-novel/historical-chronicle/seasons/2025/causal-novel/`) | Git blob | Source words |
 | ---: | --- | --- | --- | ---: |
@@ -22,7 +22,7 @@
 | 8 | Manning / CHAR-MANNING-WELTY | `THE_WEATHER_THAT_WOULD_NOT_PROMISE_MANNING_2025_NONCANON.md` | `7661cad6a12fd53bbda30faae82809cdee5f7b09` | 6222 |
 | 9 | Jake / CHAR-JAKE-KALOPER (return) | `THE_MAP_OF_UNPAID_MILES_JAKE_2025_NONCANON.md` | `3821bc1c3a99bcca5b6419e50ebee6e260dc3234` | 4958 |
 | 10 | Austin + Phillip / CHAR-AUSTIN-BYARS + CHAR-PHILLIP-PITTS (return, alternating limited POV) | `THE_SEATS_THAT_COULD_BE_EMPTY_AUSTIN_PHILLIP_2025_DEVELOPMENTAL_V2_NONCANON.md` | `40616ead56c9f10d94ce122caaa05493db3db924` | 5390 |
-| 11 | Ben + David / CHAR-BEN-WHIPPLE + CHAR-DAVID-BABB (return, alternating limited POV) | `THE_DAY_THE_POT_WENT_COLD_BEN_DAVID_2025_DEVELOPMENTAL_V2_NONCANON.md` | `95501942a04ee28e77e325f3c6a24b5dc46169f1` | 7924 |
+| 11 | Ben + David / CHAR-BEN-WHIPPLE + CHAR-DAVID-BABB (return, alternating limited POV) | `THE_DAY_THE_POT_WENT_COLD_BEN_DAVID_2025_DEVELOPMENTAL_V2_NONCANON.md` | `f38bc57bdf828a8fa7607b1717448cf283a6ce24` | 7924 |
 
 **Total: 65940 source words across eleven sources, including source metadata and QA notes.**
 
@@ -4599,7 +4599,7 @@ The carriage lamps went out one by one. Veya asked him to hold the painted wall 
 
 ## Part 11 — Ben + David / CHAR-BEN-WHIPPLE + CHAR-DAVID-BABB (return, alternating limited POV)
 
-<!-- BEGIN 2025_VOICE THE_DAY_THE_POT_WENT_COLD_BEN_DAVID_2025_DEVELOPMENTAL_V2_NONCANON.md | git_blob 95501942a04ee28e77e325f3c6a24b5dc46169f1 -->
+<!-- BEGIN 2025_VOICE THE_DAY_THE_POT_WENT_COLD_BEN_DAVID_2025_DEVELOPMENTAL_V2_NONCANON.md | git_blob f38bc57bdf828a8fa7607b1717448cf283a6ce24 -->
 
 # THE DAY THE POT WENT COLD — THE COUNT OF EMPTY BOWLS
 
@@ -5083,6 +5083,8 @@ David heard the rebuke. It pleased him less than he thought a clean correction o
 
 Iva gave a signal. Two of the witnesses lifted the measured vessel; the third brought the portion list. Tessa moved a bench clear of the passage. A worker who had refused the morning subscriber service chose to help with the measured distribution, and the others entered that hour as separate, still-compensable labor. No steward claimed the choice had canceled the arrears.
 
+The fire caught slowly. The sound was poor theater: a sputter, a hiss where a damp edge met coal, and then a low, steady draw beneath the pot. The people outside could see the count. Some, seeing how small it was, left at once. Others stayed because a measured chance was more useful to them than an unlimited promise.
+
 The first worker to take a place at the measured pot was Maren. She had come back from the well with the lines of her palms rubbed raw, and Iva had offered to send her away for the afternoon. Maren stayed to watch the first ladle. Her time would be entered as time; the portion she might later receive was not to be subtracted from a wage that had not been paid.
 
 David's clerk, standing behind him with the reserve account, turned to a clean page.
@@ -5148,8 +5150,6 @@ Near the end of the line, the boy with the worn token held an empty bowl against
 He stayed by the ledger.
 
 The next bowl was measured. The last was not yet known.
-
-The fire caught slowly. The sound was poor theater: a sputter, a hiss where a damp edge met coal, and then a low, steady draw beneath the pot. The people outside could see the count. Some, seeing how small it was, left at once. Others stayed because a measured chance was more useful to them than an unlimited promise.
 
 Pell arrived to see whether the payment had been entered. He found his sum under the accepted-load line, his remainder still disputed, and Tessa seated at the table with the seventh name written where the blank had been. He touched the page, as though the ink might have been put there by a different hand while he was away.
 
