@@ -283,3 +283,5 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_fifteen_part_marked_bale.py" -v
       - name: Verify 2016 Chapter XXI V2 and 18-part blank-leaf source-exact reader (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_eighteen_part_blank_leaf_reader.py" -v
+      - name: Verify 2016 Chapter XXII V2 and 19-part dry-end source-exact reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_nineteen_part_dry_end_reader.py" -v
