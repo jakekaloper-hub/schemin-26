@@ -67,7 +67,7 @@ class EightPartHouseBeyondMarker(unittest.TestCase):
         self.assertLess(self.book.index("The water jars need carrying"),self.book.index("By the time Jake had carried the second water jar"))
 
     def test_09_departure_does_not_resolve_claimant(self):
-        for phrase in ["old woman's family", "is not reidentified as claimant", "message unopened", "east-room chest unretrieved"]:
+        for phrase in ["old woman's family", "**is not** reidentified as claimant", "message unopened", "east-room chest unretrieved"]:
             self.assertIn(phrase.lower(),self.book.lower())
 
     def test_10_exclusive_owner_pov(self):
