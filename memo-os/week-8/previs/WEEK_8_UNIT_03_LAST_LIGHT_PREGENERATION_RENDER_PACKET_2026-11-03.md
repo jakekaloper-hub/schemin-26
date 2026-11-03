@@ -50,8 +50,8 @@ Carry forward: premium lifelike character depiction; believable inhabited, physi
 - 140–220: brand / compact encounter title strip with Mud Dogs and Duckhook, genuine identity artwork if used.
 - 220–1160: uninterrupted environment-led cinematic illustration.
 - 1170–1360: feature serif headline placed over a deliberately quiet region.
-- 1380–1710: exact two-paragraph copy in balanced two columns, safe x90..990. No AI-produced lettering in the image plate; overlay deterministic typography.
-- No score receipt on this opening page. Keep all printed text within the established safe zone; do not force an infeasible font size.
+- 1340–1750: exact two-paragraph copy in balanced two columns, safe x90..990. No AI-produced lettering in the image plate; overlay deterministic typography.
+- **Measured first-pass typographic proxy:** 126 source words total (67 / 59), two columns each 427 px wide with 46 px gutter; EB Garamond body proxy at 28 px, 1.18 line spacing, ~12 / 10 wrapped lines and 396.5 px maximum column height. The allocated 1340–1750 text zone is 410 px tall. This is a font-metric feasibility calculation, **not a rendered visual copyfit pass**; actual final font, scene contrast, safe zones and phone-size legibility remain to be checked. No score receipt on this opening page. Keep all printed text within the established safe zone; do not force an infeasible font size.
 
 ## 5. Verbatim provisional manuscript content (not final locked copy)
 
@@ -73,6 +73,7 @@ Carry forward: premium lifelike character depiction; believable inhabited, physi
 - [x] Parent swamp location established; tentative subsite held provisional.
 - [ ] Actual historical primary source bytes reverified **or** accepted native handle attached to generator with proof; both subject bindings not yet demonstrated.
 - [ ] Duckhook hat/wardrobe appearance compared against actual conditioned source output.
+- [x] Preliminary two-column font-metric fit for the exact 126 words (proxy only; not final visual signoff).
 - [ ] Actual 1080×1920 raster proof with no generated text and deterministic copy overlay.
 - [ ] Copyfit legibility, pixel dimensions, character identity, source-copy accuracy and atlas continuity inspection.
 - [ ] Authenticated Umpire/Founder acceptance.
