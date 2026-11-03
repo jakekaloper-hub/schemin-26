@@ -267,3 +267,5 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_eight_part_house_beyond_marker.py" -v
       - name: Verify 2016 I-XII nine-part wage-and-voice reading (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_nine_part_voice_wage_reader.py" -v
+      - name: Verify 2016 I-XIII ten-part mill-fire reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_ten_part_fire_reader.py" -v
