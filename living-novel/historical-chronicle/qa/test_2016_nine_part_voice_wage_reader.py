@@ -105,7 +105,7 @@ class NinePartVoiceWageReader(unittest.TestCase):
 
     def test_12_unsettled_debts_and_ownership_hold(self):
         for phrase in [
-            "older wages and supplier invoice unpaid",
+            "old timber wages and supplier invoice unpaid",
             "human-Jake association is not provider-authenticated",
             "singer's next destination unknown",
         ]:
