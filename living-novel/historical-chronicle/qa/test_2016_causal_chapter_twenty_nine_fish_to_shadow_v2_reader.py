@@ -25,18 +25,18 @@ PROTECTED = {
 
 def git_blob(path):
     raw = path.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\\0" + raw).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\0" + raw).hexdigest()
 
 def manifest(text):
     return [(int(n), filename, sha, int(words))
             for n, filename, sha, words in re.findall(
-                r"^\\| (\\d+) \\| `([^`]+)` \\| `([a-f0-9]{40})` \\| (\\d+) \\|$", text, re.M)]
+                r"^\| (\d+) \| `([^`]+)` \| `([a-f0-9]{40})` \| (\d+) \|$", text, re.M)]
 
 def body(text, filename, sha):
     start = f"<!-- BEGIN 2016_CAUSAL {filename} | git_blob {sha} -->"
     end = f"<!-- END 2016_CAUSAL {filename} -->"
     assert text.count(start) == 1 and text.count(end) == 1, filename
-    return text.split(start + "\\n\\n", 1)[1].split("\\n\\n" + end, 1)[0]
+    return text.split(start + "\n\n", 1)[1].split("\n\n" + end, 1)[0]
 
 class ChapterTwentyNineFishV2(unittest.TestCase):
     @classmethod
@@ -63,7 +63,7 @@ class ChapterTwentyNineFishV2(unittest.TestCase):
         self.assertEqual(git_blob(BASE / PRIOR), PRIOR_SHA)
 
     def test_04_six_movements_in_order(self):
-        self.assertEqual(re.findall(r"^### ([IVX]+)\\. ", self.ch, re.M),
+        self.assertEqual(re.findall(r"^### ([IVX]+)\. ", self.ch, re.M),
                          ["I", "II", "III", "IV", "V", "VI"])
 
     def test_05_new_bridge_substantial(self):
@@ -97,7 +97,7 @@ class ChapterTwentyNineFishV2(unittest.TestCase):
                 source = (BASE / name).read_text()
                 self.assertEqual(git_blob(BASE / name), sha)
                 self.assertEqual(len(source.split()), words)
-                self.assertEqual(body(self.reader, name, sha), source.rstrip("\\n"))
+                self.assertEqual(body(self.reader, name, sha), source.rstrip("\n"))
 
     def test_10_all_prior_25_bodies_unchanged(self):
         self.assertEqual(self.rows[:25], self.prev_rows)
