@@ -117,7 +117,7 @@ class ChapterThirtyHandleReader(unittest.TestCase):
         for anchor in ("four paid stoneworks hours","Mev","Pell","Vessa","kiln",
                        "Eren","Esi"):
             self.assertIn(anchor,self.chapter)
-        self.assertIn("The fourth note",self.chapter)
+        self.assertIn("A fourth note came.",self.chapter)
         self.assertIn("NO MERGE / NO PUBLICATION / NO CANON PROMOTION",self.reader)
 
     def test_15_historical_competition_archive(self):
