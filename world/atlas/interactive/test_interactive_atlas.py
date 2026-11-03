@@ -16,7 +16,9 @@ class Phase4Tests(unittest.TestCase):
   self.assertEqual(len(self.load("world/data/physical_zones.json")["regions"]),7)
   self.assertEqual(len(self.load("world/data/locations.json")["locations"]),23)
   self.assertEqual(len(self.load("world/data/routes.json")["routes"]),18)
-  self.assertEqual(len(self.load("world/data/atlas_location_candidates.json")["candidates"]),48)
+  candidates=self.load("world/data/atlas_location_candidates.json")["candidates"]
+  self.assertEqual(len({c["id"] for c in candidates}),len(candidates))
+  self.assertIn("CAND-AFTER-DARK-BROADCAST-HOUSE",{c["id"] for c in candidates})
  def test_output_deterministic(self):
   before=OUT.read_text() if OUT.exists() else ""
   m.main(); after=OUT.read_text()

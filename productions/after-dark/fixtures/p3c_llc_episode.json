@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "AFTER-DARK-PILOT-LLC-2026-W07",
+  "canon_status": "NONCANON_DRAFT",
+  "story_cutoff": "2026-10-28",
+  "source_refs": [
+    "FLAIM ESPN league 1417621 standings retrieved 2026-10-28",
+    "memo-os/week-7/",
+    "world/data/locations.json",
+    "world/data/routes.json"
+  ],
+  "venue": {
+    "id": "CAND-AFTER-DARK-BROADCAST-HOUSE",
+    "status": "CANDIDATE_NOT_ACTIVE"
+  },
+  "story_levels": {
+    "micro": {
+      "scene_objective": "A fallible host discovers the counterevidence to his own easy joke about Babb."
+    },
+    "macro": {
+      "thread_id": "LLC-LEGACY-2018-2026",
+      "before": "Strong historical seasons and later decline; 2026 ongoing",
+      "after": "Open inquiry, no canon mutation"
+    }
+  },
+  "appearances": [
+    {
+      "character_id": "CHAR-DAVID-BABB",
+      "last_verified_location": "UNKNOWN",
+      "mode": "ABSENT_ARCHIVAL_REPORT",
+      "travel_status": "UNVERIFIED",
+      "knowledge_cutoff": "2026-10-28",
+      "reason": "Subject of historical investigation; no invented studio arrival"
+    }
+  ],
+  "coverage": [
+    {
+      "team_id": 1,
+      "mode": "EDITORIAL_COVERAGE"
+    },
+    {
+      "team_id": 2,
+      "mode": "EDITORIAL_COVERAGE"
+    },
+    {
+      "team_id": 3,
+      "mode": "EDITORIAL_COVERAGE"
+    },
+    {
+      "team_id": 4,
+      "mode": "EDITORIAL_COVERAGE"
+    },
+    {
+      "team_id": 5,
+      "mode": "EDITORIAL_COVERAGE"
+    },
+    {
+      "team_id": 6,
+      "mode": "EDITORIAL_COVERAGE"
+    },
+    {
+      "team_id": 7,
+      "mode": "EDITORIAL_COVERAGE"
+    },
+    {
+      "team_id": 8,
+      "mode": "EDITORIAL_COVERAGE"
+    },
+    {
+      "team_id": 9,
+      "mode": "EDITORIAL_COVERAGE"
+    },
+    {
+      "team_id": 10,
+      "mode": "EDITORIAL_COVERAGE"
+    },
+    {
+      "team_id": 11,
+      "mode": "EDITORIAL_COVERAGE"
+    },
+    {
+      "team_id": 12,
+      "mode": "EDITORIAL_COVERAGE"
+    }
+  ],
+  "claims": [
+    {
+      "text": "2018 10-3 / final third",
+      "source_ref": "FLAIM ESPN team 4 season 2018",
+      "as_of": "2026-10-28",
+      "classification": "VERIFIED"
+    },
+    {
+      "text": "2024 10-4 / final seventh",
+      "source_ref": "FLAIM ESPN team 4 season 2024",
+      "as_of": "2026-10-28",
+      "classification": "VERIFIED"
+    },
+    {
+      "text": "2025 4-10 / final tenth",
+      "source_ref": "FLAIM ESPN team 4 season 2025",
+      "as_of": "2026-10-28",
+      "classification": "VERIFIED"
+    },
+    {
+      "text": "2026 through week 7 2-5",
+      "source_ref": "FLAIM ESPN team 4 season 2026",
+      "as_of": "2026-10-28",
+      "classification": "VERIFIED"
+    }
+  ],
+  "future_threads": [
+    {
+      "thread": "2026 recovery uncertain",
+      "status": "UNKNOWN"
+    },
+    {
+      "thread": "Babb studio invitation possible only after routes and intent",
+      "status": "PROPOSED"
+    }
+  ]
+}

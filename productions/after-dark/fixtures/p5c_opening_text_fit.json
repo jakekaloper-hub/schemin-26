@@ -1,0 +1,66 @@
+{
+  "canvas" : [
+    1080,
+    1920
+  ],
+  "note" : "Native AppKit type metrics only; not a rendered-image or subjective visual QA.",
+  "rows" : [
+    {
+      "allocated_height" : 50,
+      "field" : "eyebrow",
+      "fits" : true,
+      "font_size" : 26,
+      "measured_height" : 30
+    },
+    {
+      "allocated_height" : 220,
+      "field" : "masthead",
+      "fits" : true,
+      "font_size" : 78,
+      "measured_height" : 91
+    },
+    {
+      "allocated_height" : 120,
+      "field" : "tagline",
+      "fits" : true,
+      "font_size" : 40,
+      "measured_height" : 47
+    },
+    {
+      "allocated_height" : 130,
+      "field" : "joke",
+      "fits" : true,
+      "font_size" : 32,
+      "measured_height" : 76
+    },
+    {
+      "allocated_height" : 180,
+      "field" : "announcer",
+      "fits" : true,
+      "font_size" : 31,
+      "measured_height" : 74
+    },
+    {
+      "allocated_height" : 100,
+      "field" : "reveal",
+      "fits" : true,
+      "font_size" : 35,
+      "measured_height" : 82
+    },
+    {
+      "allocated_height" : 60,
+      "field" : "bill",
+      "fits" : true,
+      "font_size" : 25,
+      "measured_height" : 29
+    },
+    {
+      "allocated_height" : 75,
+      "field" : "guest",
+      "fits" : true,
+      "font_size" : 27,
+      "measured_height" : 32
+    }
+  ],
+  "status" : "PREFLIGHT_TEXT_FIT_PASS"
+}

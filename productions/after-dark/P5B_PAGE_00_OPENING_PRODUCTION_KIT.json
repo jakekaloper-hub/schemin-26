@@ -1,0 +1,69 @@
+{
+  "schema": "schemin.after-dark.opening.production-kit.v1",
+  "status": "P5B_PREGEN_REVIEW_NOT_RENDER_AUTHORIZED",
+  "edition": "spotlight-001-llc",
+  "page": "00",
+  "sequence": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06"
+  ],
+  "dimensions": {
+    "width": 1080,
+    "height": 1920
+  },
+  "copy": {
+    "eyebrow": "THE COMMONWEALTH PRESENTS",
+    "masthead": "SCHEMIN’ AFTER DARK",
+    "tagline": "THE COMMONWEALTH IS STILL AWAKE.",
+    "joke": "Twelve franchises. One Commonwealth. Absolutely no accountability after sundown.",
+    "announcer": "The games are over. The arguments aren't. And somehow, every single one of these people thinks they're winning the league.",
+    "reveal": "Ladies and gentlemen… welcome to SCHEMIN’ AFTER DARK!",
+    "bill": "LIVE FROM THE CENTRAL BASIN • WEDNESDAY NIGHT",
+    "guest": "TONIGHT'S GUEST: DAVID BABB — THE LLC",
+    "identifier": "OPENING / PAGE 00 / SPOTLIGHT 001"
+  },
+  "layout": {
+    "title_pct": 25,
+    "stage_pct": 60,
+    "bill_pct": 15,
+    "master_shot": "monumental theatre-scale establishing wide, host entering from side wings, audience foreground",
+    "characters": [
+      "original host candidate",
+      "non-identifying crowd silhouettes",
+      "crew background"
+    ],
+    "babb_visible": false,
+    "prop_lock": [
+      "wood and brass desk",
+      "reserved guest chair",
+      "archival ledger"
+    ],
+    "text_method": "DETERMINISTIC_COMPOSITOR"
+  },
+  "world": {
+    "studio_id": "CAND-AFTER-DARK-BROADCAST-HOUSE",
+    "region": "REG-CENTRAL-BASIN",
+    "site": "UNAPPROVED",
+    "skyline": "NO_IDENTIFIABLE_UNVERIFIED_LANDMARKS",
+    "routes": "UNVERIFIED",
+    "technology": "FUNCTIONAL_ANALOGUE_PENDING"
+  },
+  "visual_refs": {
+    "host": "P4A_HOST_STUDIO_CANDIDATE_HARDENING.md",
+    "studio": "P2B_HOST_STUDIO_BIBLE_CANDIDATE_2026-10-28.md",
+    "interview": "P4E_LLC_INTERVIEW_SIX_FOLIOS.md"
+  },
+  "gate": {
+    "founder_copy": "REVIEW_PENDING",
+    "host_image": "REVIEW_PENDING",
+    "atlas": "REVIEW_PENDING",
+    "mobile_fit": "NOT_EXECUTED",
+    "render_allowed": false,
+    "publish_allowed": false
+  }
+}
