@@ -82,3 +82,11 @@ Keep the six cinematic features central. Integrate the confirmed Pittsy's Book r
 5. Authenticated independent visual QA and Founder acceptance before bulk generation.
 
 **Not performed:** image generation, raster inspection, authenticated ConsultEngine consultation, independent Umpire acceptance, merge, publication. This receipt does not supersede the Memo OS.
+
+## Narrow execution priorities — November 3
+
+1. Chili: recover October 22 approved image bytes and compare with Week 2–5 published appearance before rendering.
+2. Arsenal Centaur: reject bipedal historical primary and verify a four-legged gorilla-centaur source before rendering.
+3. Keep other ten character references intact; validate actual subject binding at render time.
+4. Perform 1080x1920 mobile copyfit using existing 29 manuscript sections and 15 provisional clusters.
+5. Preserve decided results and the Founder-supplied Pittsy's Book ledger. No new OS or artwork authorization.
