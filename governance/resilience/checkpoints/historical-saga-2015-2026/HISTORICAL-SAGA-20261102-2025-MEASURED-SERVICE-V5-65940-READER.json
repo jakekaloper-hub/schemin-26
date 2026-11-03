@@ -1,0 +1,118 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261102-2025-MEASURED-SERVICE-V5-65940-READER",
+  "date_local": "2026-11-02",
+  "mission": "BULLPEN_PERMANENT_EXECUTIVE_MANDATE_COMMONWEALTH_NOVEL",
+  "state": "SOURCE_EXACT_NONCANON_PRODUCTION_COMMITTED_TESTED_AND_INDEPENDENT_REVIEW_HOLD",
+  "repositories": [
+    "jakekaloper-hub/schemin-26",
+    "jakekaloper-hub/bullpen"
+  ],
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "pr_state_at_initial_read": "OPEN_DRAFT_NOT_MERGED",
+  "resumes": "HISTORICAL-SAGA-20261102-2025-AUSTIN-PHILLIP-V4-63935-READER.json",
+  "source_authority": {
+    "schemin_main": "e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80",
+    "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "source_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md@67fcd669dc7b43393f2d15e93545301961dd81e4",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json@5e72e48f3c305e6def1051e0b18883a7be6b6af0",
+    "bullpen_command": "docs/COMMAND_SYSTEM_V2.md@cccf90a3cadac802767988ceab8f44453aa86819",
+    "bullpen_lifecycle": "runtime/lifecycleEngine.js@710caca4e4a01c934bdc53f22229acced48a2d78",
+    "bullpen_execution": "docs/UNIFIED_EXECUTION_CONTROL_PLANE_SPEC_V1.md@df83bbfe9a81235e0f1fdd136a79e022cda63c7f",
+    "prior_checkpoint": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261102-2025-AUSTIN-PHILLIP-V4-63935-READER.json",
+    "active_issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "historical_or_open_prs": [
+      188,
+      243,
+      252,
+      261,
+      264
+    ]
+  },
+  "literary_work": {
+    "focus": "2025 Part 11 Ben and David developmental deepening: tangible labor, measured service and unresolved costs",
+    "preserved_original": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_DAY_THE_POT_WENT_COLD_BEN_DAVID_2025_NONCANON.md@862d0a9dab9a546a1e110fbc45c474d174b127c3",
+    "revised_chapter": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_DAY_THE_POT_WENT_COLD_BEN_DAVID_2025_DEVELOPMENTAL_V2_NONCANON.md",
+    "revised_chapter_blob": "f38bc57bdf828a8fa7607b1717448cf283a6ce24",
+    "revised_source_words_with_metadata": 7924,
+    "previous_source_words_with_metadata": 5919,
+    "new_scene_words_approx": 1914,
+    "alternating_pov": [
+      "CHAR-BEN-WHIPPLE",
+      "CHAR-DAVID-BABB",
+      "CHAR-BEN-WHIPPLE",
+      "CHAR-DAVID-BABB",
+      "CHAR-BEN-WHIPPLE",
+      "CHAR-DAVID-BABB"
+    ],
+    "reader_path": "living-novel/historical-chronicle/seasons/2025/causal-novel/READING_COPY_2025_TWELVE_VOICES_ELEVEN_PARTS_MEASURED_SERVICE_V5_NONCANON.md",
+    "reader_blob": "3dbf0047e81174b203a63b80797894d2f9ccfbe6",
+    "source_words_including_metadata": 65940,
+    "previous_source_words_including_metadata": 63935,
+    "parts": 11,
+    "unique_owner_povs": 12,
+    "unchanged_sources_from_v4": 10,
+    "precommit_source_concordance": "PASS 11/11 source body, Git blob and manifest word checks",
+    "dramatic_consequences": [
+      "Maren's disputed labor is recorded but not paid through Ben's public work",
+      "Tessa's election is separated from wage settlement and from automatic food creation",
+      "Some authorized portions are physically served while delivery and unserved demand remain distinct",
+      "David does not expand his previous reserve guarantee",
+      "Two future grain pledges remain unrenewed, not retroactively taken"
+    ],
+    "observed_correction": "Relocated inserted hot serving scene from before ignition to after existing fire-catches paragraph; amended source and updated SHA pins",
+    "editorial": "living-novel/historical-chronicle/seasons/2025/causal-novel/EDITORIAL_QA_2025_MEASURED_SERVICE_V5_2026-11-02.md"
+  },
+  "ci": {
+    "test_file": "living-novel/historical-chronicle/qa/test_2025_measured_service_v5_reader.py",
+    "tests": 16,
+    "workflow": ".github/workflows/novel-os-ci.yml",
+    "two_earlier_failed_runs": [
+      41553749329,
+      41554011251
+    ],
+    "failure_cause": "Two tests asserted wording not present verbatim; source prose unchanged in assertion repair",
+    "exact_green_code_commit": "b2d8c20a4f031f193573ea62ea36574bfe1ef951",
+    "novel_os_run": 41554160274,
+    "novel_os_job": 125648816665,
+    "novel_os_result": "SUCCESS",
+    "novel_os_step": 112,
+    "new_step_result": "SUCCESS",
+    "new_step_logs": "Ran 16 tests in 0.016s; OK",
+    "cross_domain_run": 41554160312,
+    "cross_domain_result": "SUCCESS",
+    "bullpen_runtime_run": 41554160473,
+    "bullpen_runtime_result": "SUCCESS",
+    "repository_merge_gate_run": 41554160285,
+    "repository_merge_gate_result": "SUCCESS",
+    "later_editorial_only_commit": "911eaed36089b180799db2456ca9b75badece5b8",
+    "later_editorial_commit_ci": "NOT_CLAIMED_AT_CHECKPOINT"
+  },
+  "protected_2026_blobs_equal_on_main_and_feature": {
+    "living-novel/manuscript/PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+    "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+    "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+    "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+  },
+  "independent_acceptance": "NOT_OBTAINED",
+  "historical_identity": "2016 two Austin-named slots different accounts; 2025/2016 real manager-account joins still unauthenticated; no new owner POV reassignment",
+  "release_hold": [
+    "NO_MERGE",
+    "NO_PUBLICATION",
+    "NO_CANON_PROMOTION",
+    "NO_EXTERNAL_SPEND",
+    "NO_FAKE_DIRECTOR_OR_UMPIRE_REVIEW"
+  ],
+  "next": [
+    "Obtain actual independent literary and period Atlas/Character Canon/Historical Librarian/Umpire acceptance for the selected 2025 reading",
+    "Challenge institutional speech density and the Ben/David Part 11 scene pacing; only revise concrete defects",
+    "Continue source-bounded 2016 Jake-limited structural compression; no historical character owner ID speculation",
+    "Check latest GitHub Actions on editorial/checkpoint commits without substituting earlier green commit"
+  ]
+}
