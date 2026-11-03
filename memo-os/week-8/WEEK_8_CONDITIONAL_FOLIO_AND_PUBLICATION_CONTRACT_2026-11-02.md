@@ -94,3 +94,22 @@ No page production or publication authorized by this contract.
 The Week 8 issue can continue without a powered-on local Mac. Use the existing GitHub branch and canonical references for editorial assembly, exact copy, 1080x1920 layout specifications, factual score reconciliation and static QA. Do not claim that a GitHub file path alone binds an image reference to a renderer.
 
 **Immediate remote deliverables:** complete manuscript continuity edits and copyfit-ready text allocations; keep the 15 reading clusters flexible; preserve the six decided outcomes and Pittsy's Book figures. **Image hard holds:** Chili's October 22 preferred asset bytes and Arsenal Centaur's four-legged approved source must be verified before subject-bearing render requests. The ten other characters do not require blanket redesign. **No final art or publication authorized.**
+
+
+## P3 — Cohesive issue assembly
+
+**Status:** Editorial assembly proposed, not a locked page count or approved publication sequence. Source: Week 8 decided ESPN results, 29 existing packets, Founder Pittsy's Book ledger and Week 7 visual review.
+
+**Opening:** One solo-character cover (priority Chins, then El Niño, Mud Dogs, ObiWan, Red Leopards), concise stakes, restrained Oxford foreshadow. Do not force a long front-matter run.
+
+**Core:** Six features remain the primary narrative. Working rhythm: Last Light → Hostile Ground → Storm → Fallen Giant → Weight of a Crown → Place We Once Knew. Use full environmental POV compositions and varied sequential action, not identical three-page templates.
+
+**Mid-issue context:** A compact division-pressure insert can distinguish Burgers (three at 4–4), Wings (Duckhook 5–3) and Pizza (HMB and Chins 5–3). Do not name tied division champions without the actual tiebreak rules.
+
+**After GOTW:** Pittsy's Book has a natural comedic release: House −$132.42 Week 8, Zwilson +$63.05; preserve the supplied detailed ledger in its existing source file. Avoid a separate bookmaker storyline.
+
+**Closing:** Short midseason consequences and Week 9 horizon. Sports Desk and Good/Bad/Ugly are optional only if verified content adds a distinct editorial function.
+
+**Layout proofs:** Three 1080×1920 SVG wireframes in `previs/layout-proofs/` test overture, action and editorial hierarchy. They contain intentional image placeholders and do **not** certify actual text fit, character fidelity or visual QA.
+
+**Release hold:** Chili preferred image absent; Arsenal Centaur active semantic conflict; renderer binding, full-size raster copyfit and independent QA incomplete. No image generation or publication approval.
