@@ -253,3 +253,5 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2025_measured_service_v5_reader.py" -v
       - name: Verify 2016 I-IV consolidated roof-and-bowl three-part pilot (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_roof_bowl_three_part_reader.py" -v
+      - name: Verify 2016 I-V consolidated roof-cloth-grain three-part candidate (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_roof_cloth_grain_three_part_reader.py" -v
