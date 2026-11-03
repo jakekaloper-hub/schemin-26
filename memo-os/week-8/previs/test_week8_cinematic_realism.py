@@ -11,7 +11,7 @@ def owner_crop_hash_matches(record):
     manifest = ROOT / record["manifest"]
     if not crop.is_file() or not manifest.is_file():
         return False
-    match = re.search(r'owner_crop_sha256:\\s*"?([0-9a-f]{64})', manifest.read_text())
+    match = re.search(r'owner_crop_sha256:\s*"?([0-9a-f]{64})', manifest.read_text())
     return bool(match and hashlib.sha256(crop.read_bytes()).hexdigest() == match.group(1))
 
 
