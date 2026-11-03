@@ -3,7 +3,7 @@
   "season": 2026,
   "week": 8,
   "source": "FLAIM ESPN get_matchups; live read November 2, 2026",
-  "status": "PROVISIONAL_UNDECIDED",
+  "status": "SUPERSEDED_HISTORICAL_PROVISIONAL_SNAPSHOT",
   "note": "Projections are not win probabilities; no winner locked; standings still reflect completed Week 7.",
   "matchups": [
     {
@@ -72,5 +72,6 @@
       "leader": "Red Leopards",
       "margin": 19.72
     }
-  ]
+  ],
+  "superseded_by": "WEEK_8_DECIDED_ESPN_FACT_SNAPSHOT_2026-11-03.json"
 }
