@@ -1,0 +1,165 @@
+{
+  "schema": "schemin26.week8_9_comparison.v1",
+  "run_id": "S26-MEMO-W08-FINAL-W09-PREVIEW-20261103",
+  "prior_path": "memo-os/week-8/WEEK_8_PROVIDER_NORMALIZED_EVIDENCE_2026-11-01.json",
+  "source": "mTransactions2",
+  "week8_row_counts": {
+    "previous": 30,
+    "current": 32,
+    "added": 2,
+    "removed": 0,
+    "modified": 0,
+    "unchanged": 30
+  },
+  "newly_observed_transactions": [
+    {
+      "transaction_id": "1a33e5c2-de24-44f5-b7f9-9a6bbcbbd6a0",
+      "type": "add",
+      "status": "complete",
+      "timestamp": 1793564214505,
+      "timestamp_source": "proposedDate",
+      "date": "2026-11-01",
+      "week": 8,
+      "provider_scoring_period_id": 8,
+      "team_ids": [
+        "1"
+      ],
+      "players_added": [
+        {
+          "id": "4597703",
+          "name": "Tory Horton",
+          "position": "WR",
+          "team": "SEA"
+        }
+      ],
+      "players_dropped": [
+        {
+          "id": "4242557",
+          "name": "Colby Parkinson",
+          "position": "TE",
+          "team": "LAR"
+        }
+      ],
+      "faab_bid": 0
+    },
+    {
+      "transaction_id": "68ec0b42-95ae-4d3f-82ba-f078fe1ddb49",
+      "type": "add",
+      "status": "complete",
+      "timestamp": 1793555444684,
+      "timestamp_source": "proposedDate",
+      "date": "2026-11-01",
+      "week": 8,
+      "provider_scoring_period_id": 8,
+      "team_ids": [
+        "10"
+      ],
+      "players_added": [
+        {
+          "id": "-16005",
+          "name": "Browns D/ST",
+          "position": "D/ST",
+          "team": "CLE"
+        }
+      ],
+      "players_dropped": [
+        {
+          "id": "-16033",
+          "name": "Ravens D/ST",
+          "position": "D/ST",
+          "team": "BAL"
+        }
+      ],
+      "faab_bid": 0
+    }
+  ],
+  "removed": [],
+  "modified": [],
+  "week8_finalization": [
+    {
+      "home": "Mud Dogs",
+      "away": "Dr. Duckhook",
+      "from_home": 0,
+      "from_away": 20.9,
+      "to_home": 100.88,
+      "to_away": 174.06,
+      "winner": "AWAY"
+    },
+    {
+      "home": "ObiWan Jacoby",
+      "away": "El Niño",
+      "from_home": 0,
+      "from_away": 17.3,
+      "to_home": 142.3,
+      "to_away": 164.38,
+      "winner": "AWAY"
+    },
+    {
+      "home": "D0nkey K0ng",
+      "away": "Seven Deadly Chins",
+      "from_home": 0,
+      "from_away": 0,
+      "to_home": 92.75,
+      "to_away": 166.44,
+      "winner": "AWAY"
+    },
+    {
+      "home": "Three Dreaded Snake",
+      "away": "The Chili Cheesers ",
+      "from_home": 0,
+      "from_away": 30.66,
+      "to_home": 136.53,
+      "to_away": 123.51,
+      "winner": "HOME"
+    },
+    {
+      "home": "Slob on my Dobb",
+      "away": "His Majesty's Blood",
+      "from_home": 37.1,
+      "from_away": 27.1,
+      "to_home": 158.26,
+      "to_away": 162.62,
+      "winner": "AWAY"
+    },
+    {
+      "home": "Red Leopards",
+      "away": "The LLC",
+      "from_home": 9.6,
+      "from_away": 7.1,
+      "to_home": 135.8,
+      "to_away": 138.58,
+      "winner": "AWAY"
+    }
+  ],
+  "week9_transactions": [
+    {
+      "transaction_id": "291c9d94-eeb9-4520-ace4-0c25cf20eb2f",
+      "type": "drop",
+      "status": "complete",
+      "timestamp": 1793703518976,
+      "timestamp_source": "proposedDate",
+      "date": "2026-11-03",
+      "week": 9,
+      "provider_scoring_period_id": 9,
+      "team_ids": [
+        "12"
+      ],
+      "players_added": [],
+      "players_dropped": [
+        {
+          "id": "4431431",
+          "name": "Corey Kiner",
+          "position": "RB",
+          "team": "NE"
+        }
+      ],
+      "faab_bid": 0
+    }
+  ],
+  "limitations": {
+    "week8": {
+      "structured_details_incomplete": true
+    },
+    "week9": {}
+  }
+}
