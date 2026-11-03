@@ -58,3 +58,27 @@ Keep the six cinematic features central. Integrate the confirmed Pittsy's Book r
 6. Run real independent visual QA and Founder acceptance before bulk generation or publication.
 
 **Disposition:** PREPRODUCTION SUBSTANTIALLY ADVANCED / TECHNICAL IMAGE GENERATION GATE BLOCKED. Do not claim production-ready until steps above have evidence.
+
+
+## Execution receipt — 2026-11-03 final convergence
+
+**Execution scope:** GitHub source readback, automated structural checks performed against current repository contents, and targeted manuscript correction. This is not a completed independent Bullpen/ConsultEngine/Umpire run.
+
+### Tested and implemented
+- 29 unique composition IDs, 29 matching manuscript sections, and 29 correct Section E links: **PASS**.
+- Six distinct approved story titles, all 29 with ESPN winner evidence, and six selected final branches: **PASS**.
+- All 29 have camera/blocking and provisional narration, and all use 1080×1920: **PASS**.
+- Existing manuscript updated in place with continuous reading order and Arsenal Centaur / Chili continuity boundaries; commit `83577a2`.
+- Existing character authority explicitly reports an **ACTIVE_CANON_VISUAL_CONFLICT_HOLD** for Arsenal Centaur's older bipedal source. Do not use it even if its original hash or Library handle matches.
+- Chili's October 22 appearance is Commissioner-approved, but the preferred source binary remains marked **not ingested** and its renderer mount unverified.
+- The other ten character reference records should be preserved, not redesigned. Prior hash verification is evidence of file provenance, not proof of actual image-model subject conditioning.
+- All 29 composition QA fields are still `NOT RUN`, and 0/12 reference entries record proven renderer mounts. Therefore **generation readiness: BLOCKED**.
+
+### Unresolved work in priority order
+1. Resolve Chili's preferred approved asset and Arsenal Centaur's four-legged approved reference through existing canon authority; obtain real subject-binding receipts. Do not require new approvals for the other ten absent a defect.
+2. Run actual copyfit/mobile visual proof using the existing Week 8 folio clusters and the published Week 7 layout benchmark.
+3. Line edit the six continuous feature reads; avoid inventing player-specific NFL events.
+4. Resolve site admission and divisional tiebreaks only where final copy or visual scenes depend on them.
+5. Authenticated independent visual QA and Founder acceptance before bulk generation.
+
+**Not performed:** image generation, raster inspection, authenticated ConsultEngine consultation, independent Umpire acceptance, merge, publication. This receipt does not supersede the Memo OS.
