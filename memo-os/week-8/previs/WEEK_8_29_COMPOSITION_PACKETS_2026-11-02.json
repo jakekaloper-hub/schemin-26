@@ -1802,7 +1802,7 @@
     "scope": "all 29 compositions",
     "source": "Founder directive 2026-11-02",
     "no_artwork": true,
-    "no_outcome_lock": true,
+    "no_outcome_lock": false,
     "locations_are_proposals": true,
     "review_roles": [
       "Inklings creative methods",
@@ -1813,7 +1813,8 @@
       "League data authority",
       "Independent Umpire when authenticated"
     ],
-    "review_state": "SPECIFIED_NOT_AUTHENTICATED_APPROVAL"
+    "review_state": "SPECIFIED_NOT_AUTHENTICATED_APPROVAL",
+    "outcome_state": "ESPN_DECIDED; independent scoring fact lock and final art approval pending"
   },
   "week8_result_promotion": {
     "status": "SIX_PROVIDER_DECIDED_OUTCOMES_SELECTED",
