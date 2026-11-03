@@ -108,3 +108,17 @@ Keep the six cinematic features central. Integrate the confirmed Pittsy's Book r
 **Counterweight review:** Editorial: preserve six feature diversity and GOTW emotional climax. Character: fail closed on the two explicit visual conflicts; preserve other ten references. Camera: layouts must be inspected at actual mobile size and rendered with real subjects. Fact: use decided team scores, no inferred player scoring. Umpire: no authenticated independent acceptance.
 
 **Precise next action:** Recover the two image binaries from an authorized source and verify SHA/subject identity; then perform actual reference-bound visual and copyfit proofs. The Mac is not required for cloud GitHub documentation, but its absence does not establish missing asset bytes. No new OS, merge, publication, or final artwork.
+
+
+## Cloud pre-generation execution advancement — November 3
+
+**Scope:** Actual GitHub artifact updates, not an expanded planning mission. No final artwork, publication, merge, or simulated independent approval.
+
+- **P0 narrowed:** GitHub readback confirms **12/12** existing lineup crop blobs on the active branch. This is file-availability evidence only, not an assertion that every design is visually correct. Chili and Arsenal remain the two documented visual authority exceptions.
+- **Arsenal Centaur candidate recovered:** Exact archived source Git blob `cce192725a9b7f452072884bc13aa41833ddad0c` from PR #195 copied into `memo-os/week-8/previs/visual-reference-candidates/ARSENAL_CENTAUR_2026_10_12_NONACTIVE.png`. Blob SHA matches source on GitHub. **Nonactive; no Commissioner supersession or renderer approval.** This supersedes prior reports stating the candidate was absent from the Week 8 branch.
+- **Chili preferred image:** October 22 Commissioner-approved appearance record exists, but the newer exact PNG bytes have not been located on the active GitHub branch. Do not substitute the older owner crop silently.
+- **P2 copyfit work:** Added `memo-os/week-8/previs/WEEK_8_ACTUAL_COPY_FOLIO_PROOFS_2026_11_03.html`, a 15-cluster 1080×1920 layout prototype populated with exact text from all 29 existing manuscript scenes. No finished image is embedded; this is *structural text-in-layout preview*, not rendered mobile QA or final page count.
+- **P0 testing improvement:** Extended `previs/test_week8_cinematic_realism.py` to recompute each cropped owner image's SHA-256 against the registered reference manifest. This test requires a real repository checkout and has **not been executed here**; pending GitHub CI cannot be represented as passed.
+- **First safe renderer proof:** `W08-10-01` (Last Light shared POV) selected for a *single controlled reference-binding trial* using Mud Dogs and Duckhook. This avoids blocking every other character while the Chili/Arsenal exceptions are resolved. It is not final artwork authorization.
+
+**Accurate readiness:** GitHub source availability and manuscript layout prototypes have advanced. Character-conditioned rendering, actual crop-hash-test execution, mobile raster inspection, exact selected cover and independent Umpire acceptance remain incomplete. Do not use `0/12 renderer mounts` to infer `0/12 correct characters`; it means zero renderer receipts are logged.
