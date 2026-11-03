@@ -121,7 +121,7 @@ class ClothLockFiveChapterPilot(unittest.TestCase):
         for phrase in ["HISTORICAL HUMAN-MANAGER OWNERSHIP UNKNOWN",
                        "not biographical history", "2016 ESPN/Flaim"]:
             self.assertIn(phrase.lower(), self.chapter.lower())
-        self.assertIn("two different Austin-named", self.reader)
+        self.assertIn("similarly named Austin historical slots remain distinct", self.reader)
 
     def test_15_protected_2026_hardcanon_identical_blob(self):
         for rel, expected in PROTECTED.items():
