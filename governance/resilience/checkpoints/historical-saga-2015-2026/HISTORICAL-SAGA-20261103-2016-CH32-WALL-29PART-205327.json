@@ -46,7 +46,8 @@
     "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_thirty_two_wall_game_reader.py",
     "test_definitions": 20,
     "author_side": "29 ordered source manifest entries; balanced markers; 28 earlier embedded spans preserved",
-    "remote": "NOT YET VERIFIED"
+    "remote": "VERIFIED PASS 20/20, GitHub Novel OS CI job 126194596677 at commit dbfd290025f5995260174cb31c5b395aa6f30e4e; workflow success",
+    "observed_log": "2026-11-03T20:47:12Z Ran 20 tests in 0.061s; all listed tests ... ok"
   },
   "review": {
     "qa": "living-novel/historical-chronicle/seasons/2016/causal-novel/EDITORIAL_QA_CH32_WALL_GAME_V2_2026-11-03_NONCANON.md",
@@ -55,7 +56,9 @@
     "period_atlas": "NOT CLEARED",
     "character_canon": "NOT CLEARED",
     "umpire": "NOT RECEIVED",
-    "founder": "NOT AUTHORIZED"
+    "founder": "NOT AUTHORIZED",
+    "review_request_pr243_comment": 6615040933,
+    "review_request_bullpen117_comment": 6615044997
   },
   "carry": {
     "owner_slot_2016": "UNAUTHENTICATED",
@@ -72,5 +75,30 @@
     "source": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_FEAST_WITH_NO_VOWS_CHAPTER_33_NONCANON.md",
     "focus": "Noll's announced future family table, Lysa/Corin agency, Fara paid food, avoid overlong repeated table geometry and add distinct fiction; assemble 30 parts"
   },
-  "release": "NO MERGE / NO PUBLICATION / NO CANON PROMOTION"
+  "release": "NO MERGE / NO PUBLICATION / NO CANON PROMOTION",
+  "verification": {
+    "exact_commit": "dbfd290025f5995260174cb31c5b395aa6f30e4e",
+    "checked_at_utc": "2026-11-03T20:48:00Z",
+    "workflows": {
+      "Novel OS CI": {
+        "run": 41715589567,
+        "status": "PASS",
+        "job": 126194596677,
+        "tests": "20/20"
+      },
+      "Cross-Domain Authority CI": {
+        "run": 41715589421,
+        "status": "PASS"
+      },
+      "Bullpen Runtime CI": {
+        "run": 41715589743,
+        "status": "PASS"
+      },
+      "Repository Merge Gate": {
+        "run": 41715589477,
+        "status": "PASS"
+      }
+    },
+    "limitation": "These CI statuses are verified only for the exact CI production commit. Subsequent receipt-only commits must not be represented as exact-commit CI validated without separate readback."
+  }
 }
