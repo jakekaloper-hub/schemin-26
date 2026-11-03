@@ -39,8 +39,8 @@ class MeasuredServiceV5(unittest.TestCase):
         cls.rows=ROW.findall(cls.reader.split("## Part 1 —",1)[0])
 
     def test_01_pinned_edition_and_preserved_original(self):
-        self.assertEqual(blob(CHAPTER),"95501942a04ee28e77e325f3c6a24b5dc46169f1")
-        self.assertEqual(blob(READER),"5315503b9288fed9996a6b6c8f45e99c23a91edc")
+        self.assertEqual(blob(CHAPTER),"f38bc57bdf828a8fa7607b1717448cf283a6ce24")
+        self.assertEqual(blob(READER),"3dbf0047e81174b203a63b80797894d2f9ccfbe6")
         self.assertEqual(blob(PREVIOUS),"b3ff6735553912ce4c89b5f825767592d6f6180a")
         self.assertEqual(blob(ORIGINAL),"862d0a9dab9a546a1e110fbc45c474d174b127c3")
 
