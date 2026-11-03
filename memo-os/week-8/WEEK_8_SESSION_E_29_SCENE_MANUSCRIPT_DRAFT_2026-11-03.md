@@ -179,3 +179,17 @@ HMB survived, 162.62 to 158.26. The Belt remained his, and the victory was real,
 ## Editorial boundaries
 
 These are independent scene passages to be edited into continuous feature manuscripts. They do not prescribe one page per passage. Factual scoring inserts and final copyfit remain gated. Oxford interior is a nonliteral memory; Shared March admission remains provisional. The Book, standings and cover are separate editorial allocations.
+
+
+## Production reading sequence — pre-generation convergence
+
+The existing 29 manuscript sections are the controlling source; do not duplicate their prose into a second manuscript. For a continuous editorial read, use this **provisional** feature order and retain the original scene IDs:
+
+1. **The Last Light:** W08-10-01 → 10-02 → 10-03 → 10-04. Remove repetitive descriptions of dark water between transitions; preserve Duckhook's decisive outcome and Mud Dogs' isolation.
+2. **Hostile Ground:** W08-02-01 → 02-02 → 02-03 → 02-04. Maintain a consistent upper/lower access route; the 2.78-point result is a narrow victory, not a dominant conquest.
+3. **The Storm That Wouldn't Leave:** W08-01-01 → 01-02 → 01-03 → 01-04 → 01-05. Progress from situational frustration to consequential defeat; ObiWan never wears the Belt.
+4. **The Fallen Giant:** W08-05-01 → 05-02 → 05-03 → 05-04 → 05-05. The character is **Arsenal Centaur**: one gorilla-headed warrior with four equine legs; ESPN team alias may remain in factual metadata. Chins is a human bruiser, not his raccoon companion.
+5. **The Weight of a Crown:** W08-03-01 → 03-02 → 03-03 → 03-04. HMB survives by 4.36 points; keep his Belt and Slob's credibility.
+6. **The Place We Once Knew:** W08-06-01 → 06-02 → 06-03 → 06-04 → 06-05 → 06-06 → 06-07. The Oxford Kappa Sigma corner bedroom is remembered history; Shared March is separate fictional geography. TDS's victory need not destroy the friendship.
+
+**Editorial acceptance:** six continuous readings still need human-quality line editing and actual page copyfit; this index is not a claim that those reviews have passed. Maintain the 29 packet-to-section links and the existing Memo OS.
