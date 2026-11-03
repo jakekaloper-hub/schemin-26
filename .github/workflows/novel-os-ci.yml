@@ -287,3 +287,5 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_nineteen_part_dry_end_reader.py" -v
       - name: Verify 2016 Chapter XXIII V2 and twenty-part blanket source-exact reader (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_twenty_part_blanket_reader.py" -v
+      - name: Verify 2016 Chapter XXIV V2 and twenty-one-part source-exact reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_twenty_one_part_water_path_reader.py" -v
