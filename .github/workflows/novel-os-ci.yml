@@ -303,3 +303,5 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_thirty_handle_reader.py" -v
       - name: Verify 2016 Chapter XXXI V2 and twenty-eight-part source-exact reading (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_thirty_one_palm_cart_reader.py" -v
+      - name: Validate Chapter XXXII V2 29-part wall-game developmental reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_thirty_two_wall_game_reader.py" -v
