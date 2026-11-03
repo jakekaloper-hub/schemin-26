@@ -12,17 +12,17 @@
 ## Proposed folio sequence and conditional packets
 | Block | Content | Mandatory copy/evidence | Cinematic/layout contract | Gate |
 |---|---|---|---|---|
-| A1 | Cover and cold open | Eight 4–3 teams entering Week 8; seven playoff berths; midpoint tension | One powerful landscape/character scene; headline legible on phone; no map legend | League settings |
+| A1 | Cover and cold open | Week 8 decided: three teams 5–3, seven teams 4–4, LLC 3–5, Mud Dogs 2–6; seven playoff berths | One powerful landscape/character scene; headline legible on phone; no map legend | League settings |
 | A2 | Early pressure / Oxford foreshadow | TDS and Chili were Ole Miss Kappa Sigma corner-bedroom roommates | One understated memory motif; do not invent interior layout or give away GOTW | Founder history |
-| B1 | The Last Light | Mud Dogs host Duckhook, hunter/hunted; final scoring mechanism pending | Water-level discovery, shrinking daylight, 4 beats plus optional pause | Atlas state / outcome |
-| B2 | Hostile Ground | Red hosts LLC; two masterminds; final scoring mechanism pending | Descend coastal ruins; physical tactical reversals, 4 beats | Atlas site |
+| B1 | The Last Light | Mud Dogs host Duckhook, hunter/hunted; weekly player attribution pending | Water-level discovery, shrinking daylight, 4 beats plus optional pause | Atlas state / outcome |
+| B2 | Hostile Ground | Red hosts LLC; two masterminds; weekly player attribution pending | Descend coastal ruins; physical tactical reversals, 4 beats | Atlas site |
 | C1 | Division pulse | Burgers/Pizza/Wings pregame stakes, no fake final seed | Short in-world league artifact; exact factual table if necessary | Tiebreak rules |
 | D1 | The Storm That Wouldn't Leave | ObiWan hosts El Niño, escalating storm and situational comedy | Alpine ascent, orderly-to-chaotic camera, 5 beats | Manifestation / result |
-| D2 | The Fallen Giant | DK hosts Chins; recent losing streak vs contender | Highland approach, low-angle charge, 5 beats | Anatomy / result |
+| D2 | The Fallen Giant | Arsenal Centaur (ESPN team alias D0nkey K0ng) hosts Chins; Chins wins 166.44–92.75 | Highland approach, low-angle charge, 5 beats | Anatomy / result |
 | E1 | Playoff pressure / Sports Desk | Actual player impact, points swing, who is in danger | Modular accurate data layer within tactile environment; no generic dashboard | Final roster stats |
 | F1 | The Weight of a Crown | Slob hosts HMB; prestige vs current legitimacy | Eye-level inhabited camp; formal vs rough composition, 4 beats | Belt / result |
 | G1 | GOTW full feature | The Place We Once Knew, Oxford memory, Shared March, 7 beats | Historical match cut, two character POVs, physical climax, longest emotional arc | Neutral venue / outcome |
-| H1 | Three divisions aftermath | Three division leaders and four other playoff berths, verified tiebreaks | Clear legible standings; avoid annotated world map | Final results |
+| H1 | Three divisions aftermath | Three division leaders and four other playoff berths; exact tiebreaks remain under verification | Clear legible standings; avoid annotated world map | Final results |
 | H2 | Pittsy's Book / waiver / injuries | Verified bets, odds, player news, transactions | Established in-world departments; distribute earlier if editorially earned | Book ledger and data |
 | I1 | The Final Word / Week 9 | Changing reputations and next week's stakes | Sunset/dusk cinematic landscape, hopeful or ominous consequence | Week 9 schedule |
 
