@@ -17,15 +17,15 @@ PIN = {
     PREV: "50463f970f76a6908e286f6cf4f9db09b03eac44",
 }
 WRAP = re.compile(
-    r"<!-- BEGIN 2016_CAUSAL ([^\\n]+) \\| git_blob ([0-9a-f]{40}) -->\\n\\n"
-    r"([\\s\\S]*?)\\n\\n<!-- END 2016_CAUSAL ([^\\n]+) -->"
+    r"<!-- BEGIN 2016_CAUSAL ([^\n]+) \| git_blob ([0-9a-f]{40}) -->\n\n"
+    r"([\s\S]*?)\n\n<!-- END 2016_CAUSAL ([^\n]+) -->"
 )
-ROW = re.compile(r"^\\| (\\d+) \\| \\x60([^\\x60]+)\\x60 \\| \\x60([0-9a-f]{40})\\x60 \\| (\\d+) \\|$", re.M)
+ROW = re.compile(r"^\| (\d+) \| \x60([^\x60]+)\x60 \| \x60([0-9a-f]{40})\x60 \| (\d+) \|$", re.M)
 
 
 def blob(path):
     raw = path.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\\0" + raw).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\0" + raw).hexdigest()
 
 
 def words(s):
@@ -59,7 +59,7 @@ class RoofThatTraveled(unittest.TestCase):
                 self.assertEqual(int(index), n)
                 self.assertEqual(blob(BASE / name), sha)
                 original = (BASE / name).read_text(encoding="utf8")
-                self.assertEqual(body, original.rstrip("\\n"))
+                self.assertEqual(body, original.rstrip("\n"))
                 self.assertEqual(words(original), int(word_count))
 
     def test_04_source_words_total(self):
@@ -68,7 +68,7 @@ class RoofThatTraveled(unittest.TestCase):
         self.assertIn("**Source words including chapter metadata: 83287**", self.reader)
 
     def test_05_chapter_v2_contains_new_material(self):
-        self.assertEqual(len(re.findall(r"(?m)^### [IVX]+\\.", self.new)), 6)
+        self.assertEqual(len(re.findall(r"(?m)^### [IVX]+\.", self.new)), 6)
         self.assertIn("### VI. The roof that traveled", self.new)
         self.assertNotIn("### VI. The roof that traveled", self.old)
         self.assertGreater(words(self.new) - words(self.old), 1900)
@@ -82,7 +82,7 @@ class RoofThatTraveled(unittest.TestCase):
 
     def test_07_cost_is_real_but_no_resolution_claimed(self):
         for phrase in ("Pell", "the cloth lay dry", "wet outer cord", "marked the bale",
-                       "wouldn't make the landing before the next meal",
+                       "won't make the landing before the next meal",
                        "No delivery acceptance", "UNACCEPTED"):
             with self.subTest(phrase=phrase):
                 self.assertIn(phrase, self.new)
@@ -97,7 +97,7 @@ class RoofThatTraveled(unittest.TestCase):
         for doc in (self.new, self.reader):
             self.assertIn("CHAR-JAKE-KALOPER", doc)
             self.assertIn("NONCANON", doc)
-            self.assertNotRegex(doc, r"(?m)^### (?:Edrin|Edin|Oren)\\b")
+            self.assertNotRegex(doc, r"(?m)^### (?:Edrin|Edin|Oren)\b")
             self.assertNotIn("2016 postseason champion", doc)
         self.assertIn("IN TRANSIT_UNCONFIRMED", self.new)
         self.assertIn("NOT ACCEPTED", self.new)
