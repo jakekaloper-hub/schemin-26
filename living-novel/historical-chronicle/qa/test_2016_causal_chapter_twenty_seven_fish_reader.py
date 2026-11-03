@@ -95,7 +95,7 @@ class ChapterTwentySevenFishReader(unittest.TestCase):
     def test_09_letter_not_certified_delivered(self):
         self.assertIn("The letter was no longer on Jake's shelf", self.v2)
         self.assertIn("It had not reached Esi", self.v2)
-        self.assertIn("the letter's arrival at Esi is **NOT CONFIRMED**", self.reader)
+        self.assertIn("The letter's arrival at Esi is **NOT CONFIRMED**", self.reader)
 
     def test_10_wage_and_safety_timeline_still_unresolved(self):
         self.assertIn("Four hours, if you work all four", self.chapter26)
