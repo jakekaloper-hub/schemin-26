@@ -1753,6 +1753,23 @@
         "atlas_gate": "Candidate site only: validate geography, routes, prior world state, location registry and Commissioner approval before promotion",
         "player_attribution": "NOT_VERIFIED",
         "final_raster": "NOT_GENERATED"
+      },
+      "proof_lane_v1": {
+        "candidate": "FIRST_CONTROLLED_RENDERER_BINDING_TEST",
+        "characters": [
+          "CHAR-BOBBY-MITCHELL",
+          "CHAR-ZACH-WILSON"
+        ],
+        "reference_inputs": [
+          "CHAR-BOBBY-MITCHELL",
+          "CHAR-ZACH-WILSON"
+        ],
+        "source_authority": "canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json",
+        "reference_crops_in_repo": true,
+        "subject_binding_requirement": "Attach approved owner-specific sources, verify species/anatomy/golf costume/chain and physically plausible swamp camera framing",
+        "final_art_approval": false,
+        "renderer_proof_status": "NOT_RUN",
+        "editorial_source": "WEEK_8_SESSION_E_29_SCENE_MANUSCRIPT_DRAFT_2026-11-03.md#W08-10-01"
       }
     },
     {
@@ -3000,5 +3017,10 @@
     "stage": "WRITTEN_DRAFT_NOT_FINAL",
     "render": "NOT_AUTHORIZED",
     "folio_count": "OPEN"
+  },
+  "proof_lane": {
+    "selected_packet_id": "W08-10-01",
+    "selection_reason": "Existing first-complete preproduction benchmark, no known active semantic visual conflict in these two characters; avoids blocking the whole issue on Chili/Arsenal; real renderer input still required",
+    "art_authorized": false
   }
 }
