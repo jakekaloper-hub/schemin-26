@@ -480,6 +480,8 @@ David heard the rebuke. It pleased him less than he thought a clean correction o
 
 Iva gave a signal. Two of the witnesses lifted the measured vessel; the third brought the portion list. Tessa moved a bench clear of the passage. A worker who had refused the morning subscriber service chose to help with the measured distribution, and the others entered that hour as separate, still-compensable labor. No steward claimed the choice had canceled the arrears.
 
+The fire caught slowly. The sound was poor theater: a sputter, a hiss where a damp edge met coal, and then a low, steady draw beneath the pot. The people outside could see the count. Some, seeing how small it was, left at once. Others stayed because a measured chance was more useful to them than an unlimited promise.
+
 The first worker to take a place at the measured pot was Maren. She had come back from the well with the lines of her palms rubbed raw, and Iva had offered to send her away for the afternoon. Maren stayed to watch the first ladle. Her time would be entered as time; the portion she might later receive was not to be subtracted from a wage that had not been paid.
 
 David's clerk, standing behind him with the reserve account, turned to a clean page.
@@ -545,8 +547,6 @@ Near the end of the line, the boy with the worn token held an empty bowl against
 He stayed by the ledger.
 
 The next bowl was measured. The last was not yet known.
-
-The fire caught slowly. The sound was poor theater: a sputter, a hiss where a damp edge met coal, and then a low, steady draw beneath the pot. The people outside could see the count. Some, seeing how small it was, left at once. Others stayed because a measured chance was more useful to them than an unlimited promise.
 
 Pell arrived to see whether the payment had been entered. He found his sum under the accepted-load line, his remainder still disputed, and Tessa seated at the table with the seventh name written where the blank had been. He touched the page, as though the ink might have been put there by a different hand while he was away.
 
