@@ -22,7 +22,7 @@ PROTECTED={
 }
 def blob(p):
  data=p.read_bytes()
- return hashlib.sha1(b"blob "+str(len(data)).encode()+b"\\0"+data).hexdigest()
+ return hashlib.sha1(b"blob "+str(len(data)).encode()+b"\0"+data).hexdigest()
 def rows(s):
  return [(int(n),f,sha,int(w)) for n,f,sha,w in re.findall(r"^\| (\d+) \| \x60([^\x60]+)\x60 \| \x60([a-f0-9]{40})\x60 \| (\d+) \|$",s,re.M)]
 def component(s,name,sha):
