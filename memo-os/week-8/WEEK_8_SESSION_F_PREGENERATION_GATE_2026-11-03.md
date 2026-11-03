@@ -90,3 +90,21 @@ Keep the six cinematic features central. Integrate the confirmed Pittsy's Book r
 3. Keep other ten character references intact; validate actual subject binding at render time.
 4. Perform 1080x1920 mobile copyfit using existing 29 manuscript sections and 15 provisional clusters.
 5. Preserve decided results and the Founder-supplied Pittsy's Book ledger. No new OS or artwork authorization.
+
+
+## P0–P4 cloud execution and simulated P4 QA
+
+**Execution date:** 2026-11-03. **P4 review type:** Assistant-authored simulated domain review, NOT an authenticated independent Umpire or human consultant signoff.
+
+| Gate | Finding | Evidence | Disposition |
+|---|---|---|---|
+| P0 Chili approved source | October 22 source path returns GitHub 404 on Week 8 branch; Commissioner lock explicitly marks binary ingestion false | `CHAR-BRANDON-PRYOR/COMMISSIONER_APPEARANCE_LOCK_2026_10_22.json` | BLOCKED — exact approved bytes required |
+| P0 Arsenal Centaur | Candidate source path returns GitHub 404 on Week 8 branch; historical bipedal source has active visual conflict | `VISUAL_REFERENCE_AUTHORITY_V1.json` | BLOCKED — recover and authorize four-legged reference |
+| P1 manuscript | Targeted line edits committed to existing 29-scene manuscript, scene IDs preserved | `WEEK_8_SESSION_E_29_SCENE_MANUSCRIPT_DRAFT_2026-11-03.md` | PARTIAL — continuous literary line-edit acceptance open |
+| P2 layouts | Three 1080×1920 SVG wireframes committed: overture, action, Pittsy ledger | `previs/layout-proofs/W08_*.svg` | IMPLEMENTED AS WIREFRAMES — no raster/mobile proof |
+| P3 assembly | Cohesive provisional issue sequence and recurring department placement added to existing editorial contract | `WEEK_8_CONDITIONAL_FOLIO_AND_PUBLICATION_CONTRACT_2026-11-02.md` | PROVISIONAL — page count not locked |
+| P4 simulated QA | Source/structure review, not independent rendered QA | This receipt | HOLD — no production release |
+
+**Counterweight review:** Editorial: preserve six feature diversity and GOTW emotional climax. Character: fail closed on the two explicit visual conflicts; preserve other ten references. Camera: layouts must be inspected at actual mobile size and rendered with real subjects. Fact: use decided team scores, no inferred player scoring. Umpire: no authenticated independent acceptance.
+
+**Precise next action:** Recover the two image binaries from an authorized source and verify SHA/subject identity; then perform actual reference-bound visual and copyfit proofs. The Mac is not required for cloud GitHub documentation, but its absence does not establish missing asset bytes. No new OS, merge, publication, or final artwork.
