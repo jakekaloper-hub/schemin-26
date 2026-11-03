@@ -87,3 +87,10 @@ No page production or publication authorized by this contract.
 **Open:** player-level weekly scoring; league division tiebreak confirmation; exact folio manuscript; Atlas site/Shared March approvals; rendered character-reference binding; mobile copyfit; independent QA; Founder release approval.
 
 **No new Memo OS, no final page count, no art generation, no publication.**
+
+
+## Remote-only production continuation
+
+The Week 8 issue can continue without a powered-on local Mac. Use the existing GitHub branch and canonical references for editorial assembly, exact copy, 1080x1920 layout specifications, factual score reconciliation and static QA. Do not claim that a GitHub file path alone binds an image reference to a renderer.
+
+**Immediate remote deliverables:** complete manuscript continuity edits and copyfit-ready text allocations; keep the 15 reading clusters flexible; preserve the six decided outcomes and Pittsy's Book figures. **Image hard holds:** Chili's October 22 preferred asset bytes and Arsenal Centaur's four-legged approved source must be verified before subject-bearing render requests. The ten other characters do not require blanket redesign. **No final art or publication authorized.**
