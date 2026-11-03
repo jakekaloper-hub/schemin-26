@@ -1,0 +1,132 @@
+{
+  "schema": "commonwealth_historical_saga_run_checkpoint_v2",
+  "observed_date": "2026-11-03",
+  "status": "NONCANON_INDEPENDENT_EDITORIAL_HOLD",
+  "repo": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pull_request": 243,
+  "prior_checkpoint_sha": "04cbc5041165dc76c27613a0dbbc1925925620fd",
+  "verified_source_basis": {
+    "matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "matrix_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+    "bullpen": "jakekaloper-hub/bullpen",
+    "command_registry": "runtime/commandRegistry.js",
+    "lifecycle": "runtime/lifecycleEngine.js",
+    "issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "additional_open_drafts": [
+      252,
+      261,
+      264
+    ],
+    "prior_PR_188": "closed",
+    "bullpen_issue": 117
+  },
+  "literary": {
+    "new_fiction_words": 1959,
+    "new_movement": "The unstruck bell",
+    "chapter25_v2": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_MILE_BEYOND_THE_WEIGH_STONES_THE_UNSTRUCK_BELL_CH25_V2_NONCANON.md",
+    "chapter25_v2_blob": "49b1929c26a2feea252f98e88cdf982880f50a6f",
+    "chapter25_v2_source_words_including_metadata": 7755,
+    "chapter26_source": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_BOARD_AT_THE_OPEN_DOOR_CHAPTER_26_NONCANON.md",
+    "chapter26_original_blob": "5957266328b8035684c59a1e8c0501f657e05d59",
+    "chapter26_source_words_including_metadata": 5845,
+    "manuscript": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_2016_CAUSAL_CH01_26_TWENTY_THREE_PARTS_OPEN_DOOR_NONCANON.md",
+    "manuscript_blob": "d88eecbe5395064348bca0cf0c660b2a2461435d",
+    "parts": 23,
+    "coverage": "Original chapters I-XXVI",
+    "total_component_source_words_including_metadata": 158161,
+    "source_exact_priors_verified_in_script": 22,
+    "source_exact_new_verified_in_github_ci_step": true,
+    "first_arrival_paid_hours": 0,
+    "following_day_paid_tile_sorting_hours": 4,
+    "unsent_letter_ch26": true
+  },
+  "technical": {
+    "production_ci_commit": "22e17cfebcb248d6e2a106d28a8ef780dcefe45c",
+    "workflow_results_at_readback": [
+      {
+        "workflow": "Repository Merge Gate",
+        "run_id": 41657071851,
+        "head_sha": "22e17cfebcb248d6e2a106d28a8ef780dcefe45c",
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41657071851"
+      },
+      {
+        "workflow": "Cross-Domain Authority CI",
+        "run_id": 41657071847,
+        "head_sha": "22e17cfebcb248d6e2a106d28a8ef780dcefe45c",
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41657071847"
+      },
+      {
+        "workflow": "Bullpen Runtime CI",
+        "run_id": 41657071925,
+        "head_sha": "22e17cfebcb248d6e2a106d28a8ef780dcefe45c",
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41657071925"
+      },
+      {
+        "workflow": "Novel OS CI",
+        "run_id": 41657071892,
+        "head_sha": "22e17cfebcb248d6e2a106d28a8ef780dcefe45c",
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41657071892"
+      }
+    ],
+    "named_tests": [
+      {
+        "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_twenty_five_v2_reader.py",
+        "count": 14,
+        "step_run": 41656237093,
+        "step_status": "SUCCESS",
+        "all_four_workflows_at_sha": "6a581f3853ad40679f95a217794890bd9b457f0c:PASS"
+      },
+      {
+        "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_twenty_six_bridge_reader.py",
+        "count": 14,
+        "step_run": 41657071892,
+        "step_status": "SUCCESS",
+        "full_workflow_status": "See exact commit results / may be in progress"
+      }
+    ],
+    "prior_reader_blob": "57e85e48b4d03c16f0b318f163888d8a59f0de62",
+    "protected_files_blob_sha": {
+      "living-novel/manuscript/PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+    },
+    "historical_archive_blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518"
+  },
+  "review": {
+    "pr243_comment_id": 6606763076,
+    "bullpen_issue117_comment_id": 6606763976,
+    "requests": "INDEPENDENT REVIEW REQUESTED, NOT ACCEPTED",
+    "authors_council": "NOT_RECEIVED",
+    "historical_owner_binding": "UNKNOWN",
+    "historical_librarian": "NOT_CLEARED",
+    "period_atlas": "NOT_CLEARED",
+    "character_canon": "NOT_CLEARED",
+    "umpire": "NOT_RECEIVED",
+    "founder_promotion": "NOT_AUTHORIZED",
+    "publication": "NOT_AUTHORIZED"
+  },
+  "next": {
+    "highest_priority": "Chapter XXVII: The Room with No High Seat",
+    "existing_source": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_ROOM_WITH_NO_HIGH_SEAT_CHAPTER_27_NONCANON.md",
+    "existing_source_blob": "d451e61332ce6da3911cf77957596b09edcaecdf",
+    "source_receipt": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_27_SOURCE_EDITORIAL_QA_RECEIPT.md",
+    "instructions": "Reconcile Jake's paid four-hour sorting, Noll/Vessa off-duty agency, original Chapter XXVII unpaid day and paid carrier receipt without declaring letter delivered; favor substantial prose, reduce repetitive explicit ethics, source-exact developmental assembly only. No new owner-slot associations or invented ESPN facts."
+  },
+  "disclaimer": "This checkpoint is a NEW commit and cannot inherit exact-head CI results. All manuscript work draft NONCANON; no merge, canon promotion or publication."
+}
