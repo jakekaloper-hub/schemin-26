@@ -293,3 +293,5 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_twenty_five_v2_reader.py" -v
       - name: Verify 2016 Chapter XXVI and twenty-three-part source-exact reader (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_twenty_six_bridge_reader.py" -v
+      - name: Verify 2016 Chapter XXVII V2 and twenty-four-part source-exact reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_twenty_seven_fish_reader.py" -v
