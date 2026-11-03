@@ -263,3 +263,5 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_six_part_silent_bell_reader.py" -v
       - name: Verify 2016 I-X seven-part hidden-crack V2 source-exact reader (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_seven_part_sound_face_reader.py" -v
+      - name: Verify 2016 I-XI eight-part family-home source-exact reading (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_eight_part_house_beyond_marker.py" -v
