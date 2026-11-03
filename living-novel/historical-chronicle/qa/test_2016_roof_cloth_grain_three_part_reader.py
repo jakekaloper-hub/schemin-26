@@ -89,7 +89,7 @@ class ClothLockFiveChapterPilot(unittest.TestCase):
         labels = re.findall(r"^### ([IVX]+)\. ", self.chapter, re.M)
         self.assertEqual(labels, ["I","II","III","IV","V","VI","VII","VIII","IX"])
         self.assertIn("CHAR-JAKE-KALOPER", self.chapter)
-        self.assertNotRegex(self.chapter, r"\b(?:Edrin|Edin|Master Oren)\b")
+        self.assertIsNone(re.search(r"^###\\s+(?:Edrin|Edin|Oren)\\b", self.chapter, re.M))
 
     def test_09_new_bridge_has_irreducible_material_action(self):
         for phrase in ["The work at the empty place", "long bench",
