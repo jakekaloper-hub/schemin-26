@@ -3,6 +3,17 @@
 import json
 import pathlib
 import sys
+import hashlib
+import re
+
+def owner_crop_hash_matches(record):
+    crop = ROOT / record["crop"]
+    manifest = ROOT / record["manifest"]
+    if not crop.is_file() or not manifest.is_file():
+        return False
+    match = re.search(r'owner_crop_sha256:\\s*"?([0-9a-f]{64})', manifest.read_text())
+    return bool(match and hashlib.sha256(crop.read_bytes()).hexdigest() == match.group(1))
+
 
 ROOT = pathlib.Path(__file__).resolve().parents[3]
 PACKETS = ROOT / "memo-os/week-8/previs/WEEK_8_29_COMPOSITION_PACKETS_2026-11-02.json"
@@ -20,6 +31,7 @@ checks = {
     "1080x1920": all(p["canvas"] == [1080, 1920] for p in rows),
     "cinematic_specs_present": all(all(p.get("cinematic_realism_v1", {}).get(k) for k in fields) for p in rows),
     "no_rendered_visual_claim": all(p["cinematic_realism_v1"].get("review_status") == "SPECIFIED_NOT_VISUALLY_VERIFIED" for p in rows),
+    "owner_crop_byte_hashes_match": all(owner_crop_hash_matches(v) for v in DATA["references"].values()),
     "reference_paths_relative": all(not pathlib.PurePath(v["crop"]).is_absolute() and not pathlib.PurePath(v["manifest"]).is_absolute() for v in DATA["references"].values()),
     "six_location_parent_ids": len({p["location_id"] for p in rows}) == 6,
     "decided_winners_not_art_lock": DATA["visual_governance"]["no_outcome_lock"] is False and DATA["week8_result_promotion"]["release"] == "BLOCKED",
