@@ -14,7 +14,7 @@
 |---|---|---|---|---|---|---|---|---|---|
 | 01 | Cover — The Fallen Giant candidate | G3-20 | supporting | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
 | 02 | The Midseason Reckoning | G1-01 | supporting | REJECTED 2 proofs | Not applicable (character-free target) | FAIL | NOT RUN | NOT RUN | REVISE |
-| 03 | The Last Light I | G1-02 | W08-10-01, W08-10-02 | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
+| 03 | The Last Light I | G1-02 | W08-10-01, W08-10-02 | SOURCE PREFLIGHT COMPLETE; NOT RENDERED | PRIMARY / NATIVE HANDLE MOUNT NOT PROVEN | FONT-METRIC PROXY ONLY; RASTER NOT RUN | Week 7 pp11/20 VISUALLY INSPECTED | CHARACTER CROP HASH VERIFIED; SCENE QA NOT RUN | BLOCKED PENDING REAL RENDERER REFERENCE BINDING |
 | 04 | The Last Light II | G1-03 | W08-10-03, W08-10-04 | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
 | 05 | Hostile Ground I | G1-04 | W08-02-01, W08-02-02 | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
 | 06 | Hostile Ground II | G1-05 | W08-02-03, W08-02-04 | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
@@ -32,6 +32,10 @@
 | 18 | The Place We Once Knew III | G2-19 | W08-06-06, W08-06-07 | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
 | 19 | Pittsy's Book | G1-12 | supporting | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
 | 20 | The Final Word / Week 9 | G1-13 | supporting | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
+
+## Unit 03 — approved-source preparation receipt (2026-11-03)
+
+Pre-generation packet saved at `memo-os/week-8/previs/WEEK_8_UNIT_03_LAST_LIGHT_PREGENERATION_RENDER_PACKET_2026-11-03.md`. Exact `W08-10-01` and `W08-10-02` manuscript passages and cinematic blocking have been reconciled. On the authorized Mac, Commissioner-approved October 18 lineup crops for Mud Dogs and Duckhook SHA-256-match the existing approved lineup manifest; both were inspected visually. Actual Week 7 published PDF pages 11 (Duckhook) and 20 (Mud Dogs) were rendered locally and visually inspected as the controlling illustrative benchmark. The historical primary JPGs were not found in the checked GitHub branch or local checkout; prior Library handles remain registered but inaccessible for direct raw-byte materialization in this context. No image-model reference-mount receipt, final image, independent review, or page acceptance is claimed. A provisional two-column typographic fit calculation for the exact 126 words has been performed; **no visual/mobile raster copyfit pass has been performed**. The older Duckhook bucket-hat description conflicts with the green cap visible in the Commissioner-approved October 18 lineup and published Week 7; render only from proven visual authority, never a descriptive blend.
 
 ## Remaining gates
 
