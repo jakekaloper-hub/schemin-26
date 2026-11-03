@@ -1,0 +1,121 @@
+{
+  "version": "1.0.0",
+  "checkpoint_id": "NOVEL-CH1-V4-2026-10-28-CAUSAL-CONTINUATION",
+  "project": "Schemin '26",
+  "workflow": "Commonwealth Novel Production / Chapter I noncanonical rewrite",
+  "stage": "V4 five-scene causal prose committed + exact manuscript head V4 CI passed at 86cfc7f; final receipt-head CI in progress; independent acceptance blocked",
+  "status": "IN_PROGRESS_NONCANON_EDITORIAL_HOLD",
+  "owner": "tool-enabled Novel OS production; actual independent Umpire and Founder gates pending",
+  "parent_checkpoint": "NOVEL-CH1-V3-2026-10-28-EDITORIAL-REVISION-CI",
+  "source_authority": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+  "pull_request": 264,
+  "branch": "novel/noncanon-ch1-causal-proof-20261028",
+  "inspected_current_head": "4b5d28573c3d22bec78614e1ef65ae8db231ac0a",
+  "last_ci_proved_manuscript_head": "86cfc7f0ecdf5998664029330e632b10200f7896",
+  "manuscript_metrics": {
+    "words_including_frontmatter": 5913,
+    "sections": 5,
+    "principal_owners": [
+      "CHAR-JAKE-KALOPER",
+      "CHAR-BEN-WHIPPLE",
+      "CHAR-AUSTIN-BYARS"
+    ],
+    "order": [
+      "Jake",
+      "Ben",
+      "Austin",
+      "Ben",
+      "Jake"
+    ]
+  },
+  "input_fingerprints": [
+    {
+      "path": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+      "digest_algo": "git_blob",
+      "digest": "67fcd669dc7b43393f2d15e93545301961dd81e4"
+    },
+    {
+      "path": "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md",
+      "digest_algo": "git_blob",
+      "digest": "26a17f05eb0565e7648c29add03ee9580ec933c3"
+    },
+    {
+      "path": "living-novel/os/adapters/flaim/PRO_SCHEMIN_SOURCE_FUSION_AUDIT_W1_W2_V1.md",
+      "digest_algo": "git_blob",
+      "digest": "fa77a2906e174a7edfa5dfb7f616dd9199205e25"
+    },
+    {
+      "path": "canon/characters/CHARACTER_REGISTRY.yaml",
+      "digest_algo": "git_blob",
+      "digest": "30b490eece6bfcb7edafcb7d2a59c391d1a621d7"
+    },
+    {
+      "path": "living-novel/production/full-rewrite-2026/2026-10-28-causal-cut/CHAPTER_I_THE_FIRST_ANSWER_CAUSAL_READING_CANDIDATE_V3.md",
+      "digest_algo": "git_blob",
+      "digest": "89c5f1563d7cfb939e855a79dfe15eb2affe62f6"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "living-novel/production/full-rewrite-2026/2026-10-28-causal-cut/CHAPTER_I_THE_FIRST_ANSWER_CAUSAL_READING_CANDIDATE_V4.md",
+      "digest_algo": "git_blob",
+      "digest": "1c282d4e30bc146296484a3ff68ad3bb8e3d599f"
+    },
+    {
+      "path": "living-novel/production/full-rewrite-2026/2026-10-28-causal-cut/CHAPTER_I_CAUSAL_CUT_PART_III_AUSTIN_REVISED_V4_NONCANON.md",
+      "digest_algo": "git_blob",
+      "digest": "14ec21696a9aabfe71ac4a8a2e89c9975b3fa23f"
+    },
+    {
+      "path": "living-novel/os/evaluations/test_chapter_i_causal_cut_v4.py",
+      "digest_algo": "git_blob",
+      "digest": "8a8324c07afe249368d759df6deef5fdf52f49a1"
+    },
+    {
+      "path": ".github/workflows/novel-os-ci.yml",
+      "digest_algo": "git_blob",
+      "digest": "fc25e88c56d298264124b781cc262f12e4defb25"
+    },
+    {
+      "path": "living-novel/production/full-rewrite-2026/2026-10-28-causal-cut/V4_EDITORIAL_CHALLENGE_AND_SOURCE_RECEIPT_2026_10_28.md",
+      "digest_algo": "git_blob",
+      "digest": "262d2e5485e28703b5935104db2e1aecad94d01d"
+    }
+  ],
+  "evidence": [
+    "https://github.com/jakekaloper-hub/schemin-26/pull/264",
+    "https://github.com/jakekaloper-hub/schemin-26/actions/runs/40755484275",
+    "https://github.com/jakekaloper-hub/schemin-26/actions/runs/40755484275/job/123053139010",
+    "https://github.com/jakekaloper-hub/schemin-26/actions/runs/40755686154"
+  ],
+  "observed_test_status": {
+    "exact_head": "86cfc7f0ecdf5998664029330e632b10200f7896",
+    "novel_os_ci": "SUCCESS",
+    "v4_named_step": "SUCCESS",
+    "final_receipt_head": "4b5d28573c3d22bec78614e1ef65ae8db231ac0a",
+    "final_head_ci": "IN_PROGRESS_AS_OF_LAST_OBSERVATION",
+    "scope": "Deterministic technical contract only, not independent literary acceptance"
+  },
+  "completed_changes": [
+    "Replaced repeated Austin second confrontation with 1630-word noncanonical custodianship scene",
+    "Assembled five-scene V4 full chapter with three owner POV and six Week 1 score pairs",
+    "Moved Ben cart impact to explicit three-day-after-certification scene",
+    "Fixed incorrect hypothetical quarter-point reversal of 0.40 semifinal margin",
+    "Added V4 Python regression and named CI step; exact V4 candidate head step proved success",
+    "Editorial self-challenge documented with open location and author approval holds"
+  ],
+  "invalidation_triggers": [
+    "protected Chapter I or source-authority matrix changes",
+    "Week 1 audit superseded by freshly verified provider evidence",
+    "active Jake/Ben/Austin canon/owner registry changes",
+    "V4 candidate scene/test/edit changes",
+    "final CI failure, Atlas contradiction or independent Umpire rejection"
+  ],
+  "blocked": [
+    "independent Umpire review and documented acceptance",
+    "Founder-only hard-canon supersession",
+    "unresolved exact Atlas sublocations and journey assumptions",
+    "public announcement, notice tray and Ben's return are fictional not verified world transactions"
+  ],
+  "next_action": "Confirm final checkpoint branch head and exact V4 CI, file independent review request if not present, reconcile nine original Chapter I dramatic movements versus five-scene cut, then continue substantial source-grounded historical prose. Never auto-merge or promote canon."
+}
