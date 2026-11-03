@@ -108,7 +108,7 @@ class MeasuredServiceV5(unittest.TestCase):
     def test_12_financial_and_scarcity_negative_gates(self):
         prose=self.chapter.lower()
         for t in ["accepted quantity","unsettled remainder","two notices",
-                  "future grain pledges","does not promise new funds"]:
+                  "nonrenewal of *future* grain pledges","does not promise new funds"]:
             self.assertIn(t,prose)
 
     def test_13_closing_defers_broad_resolution(self):
@@ -119,7 +119,7 @@ class MeasuredServiceV5(unittest.TestCase):
     def test_14_historical_and_atlas_hold(self):
         t=self.chapter.lower()
         self.assertIn("do not authenticate ben whipple or david babb",t)
-        self.assertIn("atlas-unapproved",t)
+        self.assertIn("period atlas hold",t)
         self.assertIn("no merge",t)
 
     def test_15_part10_part11_only_thematic_not_spatial_join(self):
