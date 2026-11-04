@@ -31,15 +31,38 @@
     "file": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_thirty_eight_windows_v2_reader.py",
     "blob": "dff82af9434045a6f9317b40b71f37f75434c8d8",
     "number": 17,
-    "execution": "CI FAILURE IDENTIFIED; text correction committed, retest pending"
+    "execution": "PASS GITHUB ACTIONS JOB 126352258120",
+    "assertions_passed": 17,
+    "passed_suite_log": "Ran 17 tests in 0.078s OK"
   },
   "github_actions": {
-    "state": "RETEST_PENDING",
-    "required": [
-      "Novel OS CI",
-      "Cross-Domain Authority CI",
-      "Bullpen Runtime CI",
-      "Repository Merge Gate"
+    "state": "VERIFIED_EXACT_COMMIT",
+    "runs": [
+      {
+        "name": "Novel OS CI",
+        "run_id": 41762210003,
+        "status": "completed",
+        "conclusion": "success",
+        "job_id": 126352258120
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "run_id": 41762217225,
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "run_id": 41762217082,
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "run_id": 41762217208,
+        "status": "completed",
+        "conclusion": "success"
+      }
     ]
   },
   "author_side_assembly": "PASS_IN_THIS_RUN_NO_INDEPENDENT_REVIEW",
@@ -63,7 +86,7 @@
     "independent Umpire",
     "Founder-only canon/publication approval"
   ],
-  "next": "Read Chapter XXXIX existing source, challenge transitions from Mael return to dye-water accident, avoid repetitive craftsmen/accident plot devices; continue source-exact 36-part developmental reading only after editorial and regression check. No inferred ESPN facts.",
+  "next": "Proceed Chapter XXXIX — The Street That Turned Blue: original six-movement source located. Ensure the dye-vat spill is distinctive, avoid another freight adjudication; verify Mael still present with Fara and Pell's injury unchanged, 8 departed/6 stayed; extend to 36-part source-exact reader after source and POV validation. No fabricated ESPN facts.",
   "latest_repair": {
     "kind": "POV firewall genuine prose correction",
     "original_failure": "Seli thought ... interiority under Jake-limited POV",
@@ -71,5 +94,7 @@
     "affected_previous_parts": 0,
     "source_exactness": "35/35 PASS author-side",
     "no_historical_facts_added": true
-  }
+  },
+  "exact_tested_commit": "c8a5387dd67112cd6ff97f4742b663054e652fce",
+  "caveat": "All four workflow successes and 17 regression assertions are verified for exact production commit c8a5387d only; no independent author/Umpire acceptance or period provenance review. Updating this receipt makes a later checkpoint-only commit that needs its own CI verification to claim status."
 }
