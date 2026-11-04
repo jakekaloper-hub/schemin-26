@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-03",
+  "workstream": "COMMONWEALTH_HISTORICAL_SAGA_2016",
+  "status": "NONCANON_EDITORIAL_HOLD",
+  "draft_pr": 243,
+  "resumed_from_head": "db3f0940086b5ff330826f67359c2c72432489a2",
+  "original_chapter": {
+    "file": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_COMPANY_THAT_CAME_APART_CHAPTER_37_NONCANON.md",
+    "blob": "92aba7618d9d7a5ba88758be48084ded30eca4ba"
+  },
+  "standalone_scene": {
+    "file": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_EMPTY_PLACE_AT_THE_SECOND_TABLE_CH37_INTERLUDE_V2_NONCANON.md",
+    "blob": "f64925f00534f9e736ac65c6d5ebb9b95334eb8a",
+    "words": 2162
+  },
+  "revised_chapter": {
+    "file": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_COMPANY_THAT_CAME_APART_THE_EMPTY_PLACE_AT_SECOND_TABLE_CH37_V2_NONCANON.md",
+    "blob": "655d437756306ee5386b7d8fa4b825ebb5f33ab5",
+    "source_words": 8709
+  },
+  "reading_copy": {
+    "file": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_2016_CAUSAL_CH01_37_THIRTY_FOUR_PARTS_EMPTY_SECOND_TABLE_NONCANON.md",
+    "blob": "63d9fcbc3f5fb76438882ca26b5da8b8f821a575",
+    "parts": 34,
+    "source_component_words": 250940,
+    "previous_reader_blob": "d3aaf9f6577934a4d360ededcc2426509fb2c6e3",
+    "previous_parts_preserved": 33
+  },
+  "continuity": {
+    "adult_departing_driver": "Rovan",
+    "child_staying": "Orin",
+    "eight_leave_six_remain": true,
+    "infant_stays": true,
+    "awning_permanently_shortened": true
+  },
+  "checks": {
+    "js_assembly": "PASS_LOCAL_JS_ASSERTIONS_ONLY",
+    "python_test": "NOT_YET_RUN",
+    "github_actions": "NOT_YET_OBSERVED",
+    "independent_umpire": "NOT_RECEIVED"
+  },
+  "protected": {
+    "prologue": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+    "ch1": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+    "ch2": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+    "ch3": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+  },
+  "historical_evidence_blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+  "blockers": [
+    "2016 manager/account authentication",
+    "independent Authors Council",
+    "historical Librarian",
+    "Character Canon",
+    "period Atlas",
+    "independent Umpire",
+    "Founder-only canon/publication approval"
+  ],
+  "next": "Inspect Chapter XXXVIII against corrected Rovan/Orin identity; continue literary production while retaining all earlier 34 reader parts. Do not merge or canon promote.",
+  "caveat": "No exact-commit CI claims until the workflow and test steps are independently read."
+}
