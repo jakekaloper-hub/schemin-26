@@ -18,7 +18,7 @@ PROTECTED={
 }
 def gitblob(p):
  b=p.read_bytes()
- return hashlib.sha1(b"blob "+str(len(b)).encode()+b"\\0"+b).hexdigest()
+ return hashlib.sha1(b"blob "+str(len(b)).encode()+b"\0"+b).hexdigest()
 def rows(s):
  pat=r"^\| (\d+) \| \x60([^\x60]+)\x60 \| \x60([a-f0-9]{40})\x60 \| (\d+) \|$"
  return [(int(i),name,sha,int(words)) for i,name,sha,words in re.findall(pat,s,re.M)]
