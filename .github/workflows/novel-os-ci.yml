@@ -328,3 +328,14 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_thirty_eight_windows_v2_reader.py" -v
       - name: Validate Chapter XXXIX V2 and 36-part white-cloth developmental reader (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_thirty_nine_white_cloth_v2_reader.py" -v
+      - name: Validate Chapter XLVI V2 cart movement and source-exact 43-part reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_forty_six_cart_v2_reader.py" -v
+      - name: Assemble nonpublishing 43-part 2016 developmental manuscript
+        run: python living-novel/historical-chronicle/qa/build_2016_causal_43_part_cart_reader.py --output /tmp/commonwealth_2016_43part_cart_NONCANON.md
+      - name: Upload 43-part editorial manuscript (temporary, not publication)
+        uses: actions/upload-artifact@v4
+        with:
+          name: commonwealth-2016-43part-cart-developmental-reader-noncanon
+          path: /tmp/commonwealth_2016_43part_cart_NONCANON.md
+          if-no-files-found: error
+          retention-days: 7
