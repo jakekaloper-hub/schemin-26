@@ -311,3 +311,5 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_thirty_four_blue_bowl_reader.py" -v
       - name: Validate Chapter XXXV V2 and source-exact 32-part roof-due reader (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_thirty_five_roof_due_reader.py" -v
+      - name: Verify 2016 Chapter XXXVI V2 and 33-part Fourteen reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_thirty_six_fourteen_reader.py" -v
