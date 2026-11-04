@@ -70,3 +70,18 @@ The first Part III proof showed the final 135.80–138.58 scoreboard and 4–4 /
 ## W08-02-03 corrected local proof (same incident)
 
 A subsequent locally typeset 1080x1920 PNG is available at `/mnt/data/W08-02-03_Reversal_in_the_Ruins_corrected_proof.png` (SHA-256 `9d1caa9893299655537abb00355849dd78381384809b279f94cc2bfae49202ea`). The first erroneous result panel has been removed, and the W08-02-03 manuscript paragraph is laid out verbatim in two columns. The current scene still includes an illustrative annotated tactical map, and independently verified character-reference mounts are not recorded, so **this is a review proof, NOT an accepted official page**. Packet phases now explicitly prohibit scoreboards/final records in W08-02-01 through W08-02-03; W08-02-04 alone may reveal the decided result. The new 1080x1920 proof is local only, not committed to GitHub.
+
+## Founder-submitted Hostile Ground four-image checkpoint — November 3, 2026
+
+The Founder supplied four finished-looking **local candidate** PNGs for the W08-02 story sequence. Visual direction is coherent and preserves the compact interior-page matchup header, coastal-ruins setting and recognizable two-character silhouettes; **this is not an independent character-canon acceptance or a publication-ready signoff**. Exact uploaded-file inventories and SHA-256 were recomputed from the attached original bytes in the active production review:
+
+| Composition | Submitted local PNG filename | Native pixel dimensions | SHA-256 | Status |
+|---|---|---|---|---|
+| W08-02-01 | `Hostile Ground_ Predator and Intruder(1).png` | 941x1672 | `7677ffe0dba6efaf91fc306325127a287b883e14ffb3ca5e6839ccba2faa5c1f` | Candidate; approved scenic/design direction, technical/copy QA pending |
+| W08-02-02 | `Hostile Ground_ The LLC Advances(1).png` | 941x1672 | `ee746aa5c1bf7e3e4177c656c28df21336c41e75d15407fbd9488a1513768ff0` | Candidate; manuscript fidelity and technical QA pending |
+| W08-02-03 | `W08-02-03_Reversal_in_the_Ruins_corrected_proof(2).png` | 1080x1920 | `8e6b27cb251a140421edc4641ea8df828ddcf4ce0ff359c539e3403f72aeb1c1` | Candidate; no premature score; typography visual consistency and actual ref mount remain pending |
+| W08-02-04 | `Hostile Ground_ Part IV.png` | 941x1672 | `fbcfe3c3513403b9a0a28b2529fd9af3743231c279888d8bf0e5c31a39cb7d31` | Candidate; correct winner/score and team W–L, manuscript fidelity and technical QA pending |
+
+**Remaining non-optional checks:** Reconcile all body copy, titles and any record/score copy to actual authorized source; ensure Parts I–III do not reveal outcomes; make three undersized outputs **genuinely** 1080x1920 with legible type rather than treating a blind resize as full render QA; verify current Red Leopard/LLC approved primary identity input mounts; run same-header and cinematic-Atlas cross-page visual review; obtain real independent and Founder page acceptance. User-uploaded source files are current conversation attachments, **not committed PNGs** and have not been promoted to a repository output folder.
+
+**Next independent matchup production target:** The Last Light, beginning at **W08-10-01** (shared hunter/hunted environmental POV), then W08-10-02 through 10-04. Preserve the full 29-composition original storyboard and the original issue reading order; production order is flexible and 29 packets do not mandate 29 printed pages.
