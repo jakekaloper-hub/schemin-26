@@ -362,3 +362,15 @@ jobs:
           path: /tmp/commonwealth_2016_45part_return_road_NONCANON.md
           if-no-files-found: error
           retention-days: 7
+
+      - name: Validate Chapter XLIX V2 turning-back scene and source-exact 46-part reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_forty_nine_turning_back_v2_reader.py" -v
+      - name: Assemble nonpublishing 46-part 2016 developmental manuscript
+        run: python living-novel/historical-chronicle/qa/build_2016_causal_46_part_turning_back_reader.py --output /tmp/commonwealth_2016_46part_turning_back_NONCANON.md
+      - name: Upload 46-part editorial manuscript (temporary, not publication)
+        uses: actions/upload-artifact@v4
+        with:
+          name: commonwealth-2016-46part-turning-back-developmental-reader-noncanon
+          path: /tmp/commonwealth_2016_46part_turning_back_NONCANON.md
+          if-no-files-found: error
+          retention-days: 7
