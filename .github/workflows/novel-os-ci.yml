@@ -374,3 +374,15 @@ jobs:
           path: /tmp/commonwealth_2016_46part_turning_back_NONCANON.md
           if-no-files-found: error
           retention-days: 7
+
+      - name: Validate Chapter L V2 third-story fiction and source-exact 47-part reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_fifty_third_story_v2_reader.py" -v
+      - name: Assemble nonpublishing 47-part 2016 developmental manuscript
+        run: python living-novel/historical-chronicle/qa/build_2016_causal_47_part_third_story_reader.py --output /tmp/commonwealth_2016_47part_third_story_NONCANON.md
+      - name: Upload 47-part editorial manuscript (temporary, not publication)
+        uses: actions/upload-artifact@v4
+        with:
+          name: commonwealth-2016-47part-third-story-developmental-reader-noncanon
+          path: /tmp/commonwealth_2016_47part_third_story_NONCANON.md
+          if-no-files-found: error
+          retention-days: 7
