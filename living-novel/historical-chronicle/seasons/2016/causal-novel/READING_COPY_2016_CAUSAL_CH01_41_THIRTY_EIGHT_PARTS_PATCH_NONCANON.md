@@ -5,7 +5,7 @@
 
 The previous 37 source-exact parts, including the Chapter XXXIX white-cloth candidate, are preserved as embedded source bodies and pinned manifest rows. The new Chapter XL edition preserves its original six source movements (last two headings renumbered) and introduces a new fifth stable-yard movement. Part 35 integrates a new Jake-limited domestic prelude with archived Chapter XXXVIII. Part 34 keeps the archived six-movement Chapter XXXVII's causal sequence, renames the adult departing handler Rovan so he is not conflated with the child Orin retained among the six (Chapter XXXVI / XXXVIII), and adds an original 2,000-plus-word courtyard movement about voluntary departure, objects, and household space. The original Chapter XXXVII remains intact. Nothing here authenticates a 2016 manager, league outcome, fire, route or historical owner psychology. No independent acceptance is claimed.
 
-**Source component words including metadata: 287554** (wrapper excluded).
+**Source component words including metadata: 287553** (wrapper excluded).
 
 ## Source-exact composition manifest
 
@@ -48,7 +48,7 @@ The previous 37 source-exact parts, including the Chapter XXXIX white-cloth cand
 | 35 | `THE_HAND_THAT_CUT_THE_LEATHER_WINDOWS_THAT_WOULD_NOT_STAY_STILL_CH38_V2_NONCANON.md` | `e25b7799e18672ba2cffb666d25d7c9b1323ff3d` | 8101 |
 | 36 | `THE_STREET_THAT_TURNED_BLUE_THE_WHITE_CLOTH_AT_CORNER_CH39_V2_NONCANON.md` | `6baae4538fcfb6fac43e2bd39107a278e48cfae2` | 9164 |
 | 37 | `THE_HOUSE_MADE_FROM_A_ROAD_THE_DONKEY_AND_THE_BROKEN_MEASURE_CH40_V2_NONCANON.md` | `5b7410cb55007b42bed9f2cdcb9fdb0111e5a964` | 9258 |
-| 38 | `THE_MARKS_AT_THE_CROSSROADS_PRICE_OF_A_PATCH_CH41_V2_NONCANON.md` | `293ff9d63debad3fff7686fa23bdfabb597965d8` | 10091 |
+| 38 | `THE_MARKS_AT_THE_CROSSROADS_PRICE_OF_A_PATCH_CH41_V2_NONCANON.md` | `293ff9d63debad3fff7686fa23bdfabb597965d8` | 10090 |
 
 ## Part 1 — The Roof and the Unclaimed Bowl
 
