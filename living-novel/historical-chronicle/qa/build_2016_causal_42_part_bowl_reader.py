@@ -29,8 +29,8 @@ def gitblob(data: bytes) -> str:
 
 def build(previous: str, chapter: str) -> str:
     """Construct entire reader, preserving all previous 41 marked sections."""
-    if previous.count(TERMINAL) != 1:
-        raise ValueError("previous terminal marker mismatch")
+    if previous.count(TERMINAL) > 1:
+        raise ValueError("ambiguous previous terminal markers")
     if len(START_RE.findall(previous)) != 41 or previous.count("<!-- END 2016_CAUSAL ") != 41:
         raise ValueError("prior component marker count mismatch")
     previous_rows = ROW_RE.findall(previous)
@@ -53,9 +53,14 @@ def build(previous: str, chapter: str) -> str:
         f"Source component words including metadata: {OLD_TOTAL}",
         f"Source component words including metadata: {TOTAL}"
     ).replace("41-part", "42-part").replace("41 parts", "42 parts")
-    if rest.count(TERMINAL) != 1:
-        raise ValueError("terminator is not after component blocks")
-    before_end, after_end = rest.split(TERMINAL, 1)
+    if rest.count(TERMINAL) == 1:
+        before_end, after_end = rest.split(TERMINAL, 1)
+    else:
+        end_matches = list(re.finditer(r"<!-- END 2016_CAUSAL [^>]* -->", rest))
+        if len(end_matches) != 41:
+            raise ValueError("prior component end markers missing")
+        before_end = rest[:end_matches[-1].end()]
+        after_end = rest[end_matches[-1].end():]
     start = f"<!-- BEGIN 2016_CAUSAL {CHAPTER} | git_blob {CHAPTER_SHA} -->"
     end = f"<!-- END 2016_CAUSAL {CHAPTER} -->"
     appended = "\n\n" + start + "\n\n" + chapter.rstrip("\n") + "\n\n" + end + "\n\n"
@@ -72,7 +77,7 @@ def build(previous: str, chapter: str) -> str:
     if len(START_RE.findall(result)) != 42 or result.count("<!-- END 2016_CAUSAL ") != 42:
         raise ValueError("generated marker count mismatch")
     prior_start = previous.index("<!-- BEGIN 2016_CAUSAL ")
-    prior_end = previous.index(TERMINAL)
+    prior_end = prior_start + len(before_end)
     new_start = result.index("<!-- BEGIN 2016_CAUSAL ")
     new_end = result.index(start)
     if previous[prior_start:prior_end].rstrip() != result[new_start:new_end].rstrip():
