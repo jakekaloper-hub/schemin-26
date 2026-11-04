@@ -41,5 +41,62 @@ checks = {
     "all_scene_copy_camera": all(all(p.get("session_c_v1", {}).get(k) for k in ("scene_action", "camera_and_blocking", "provisional_narration")) for p in rows),
     "reference_mount_status_explicit": all(isinstance(v.get("render_mount_proven"), bool) for v in DATA["references"].values()),
 }
-print(json.dumps({"checks": checks, "passed": sum(checks.values()), "total": len(checks), "status": "STATIC_PREFLIGHT_ONLY"}, indent=2))
-sys.exit(0 if all(checks.values()) else 1)
+if len(sys.argv) == 1:
+    print(json.dumps({"checks": checks, "passed": sum(checks.values()), "total": len(checks), "status": "STATIC_PREFLIGHT_ONLY"}, indent=2))
+    sys.exit(0 if all(checks.values()) else 1)
+
+# Optional actual-art gate. This cannot substitute for independent identity/camera/copy review.
+# Usage: python test_week8_cinematic_realism.py --packet W08-02-01 --png FILE --binding-receipt JSON
+import argparse
+import struct
+argp = argparse.ArgumentParser(description="Live Week 8 render gate; never an independent approval.")
+argp.add_argument("--packet", required=True)
+argp.add_argument("--png", required=True)
+argp.add_argument("--binding-receipt", required=True)
+args = argp.parse_args()
+packet = next((v for v in rows if v["packet_id"] == args.packet), None)
+assert packet is not None, "Unknown packet ID"
+img = pathlib.Path(args.png)
+receipt_path = pathlib.Path(args.binding_receipt)
+live_checks = {"static_preflight": all(checks.values())}
+try:
+    image_bytes = img.read_bytes()
+    valid_png = image_bytes.startswith(b"\\x89PNG\\r\\n\\x1a\\n") and image_bytes[12:16] == b"IHDR"
+    live_checks["actual_png_exists"] = valid_png
+    live_checks["exact_resolution"] = valid_png and struct.unpack(">II", image_bytes[16:24]) == tuple(packet["canvas"])
+    actual_sha256 = hashlib.sha256(image_bytes).hexdigest()
+except (FileNotFoundError, OSError, ValueError, struct.error):
+    actual_sha256 = None
+    live_checks["actual_png_exists"] = False
+    live_checks["exact_resolution"] = False
+try:
+    receipt = json.loads(receipt_path.read_text())
+except (OSError, json.JSONDecodeError):
+    receipt = {}
+live_checks["auditable_provider_request"] = bool(receipt.get("provider_request_id") and receipt.get("provider") and receipt.get("submitted_at"))
+submitted = receipt.get("renderer_inputs", [])
+live_checks["required_character_refs_mounted"] = (
+    isinstance(submitted, list)
+    and all(any(
+        isinstance(e, dict)
+        and e.get("character_id") == char
+        and e.get("attached_as_image") is True
+        and e.get("source_path")
+        and e.get("source_sha256")
+        for e in submitted
+    ) for char in packet["reference_ids"])
+)
+live_checks["independent_visual_qa_receipt_present"] = bool(
+    receipt.get("independent_visual_qa", {}).get("evidence_path")
+    and receipt.get("independent_visual_qa", {}).get("result") == "PASS"
+)
+live_checks["copy_qa_receipt_present"] = bool(
+    receipt.get("copy_qa", {}).get("evidence_path")
+    and receipt.get("copy_qa", {}).get("result") == "PASS"
+)
+print(json.dumps({
+    "packet": args.packet, "sha256": actual_sha256,
+    "checks": live_checks, "status": "PROOF_GATES_PASS_NOT_FOUNDER_APPROVAL" if all(live_checks.values()) else "REJECTED_OR_BLOCKED",
+    "warning": "Manual reference identity, scenic camera, source-copy and artistic quality still require actual evidence; a JSON field does not authenticate a reviewer.",
+}, indent=2))
+sys.exit(0 if all(live_checks.values()) else 1)
