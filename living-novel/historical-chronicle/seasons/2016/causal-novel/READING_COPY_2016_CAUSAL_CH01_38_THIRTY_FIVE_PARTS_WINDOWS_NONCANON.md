@@ -5,7 +5,7 @@
 
 The first 34 source-exact parts are preserved byte-for-byte. Part 35 integrates a new Jake-limited domestic prelude with archived Chapter XXXVIII. Part 34 keeps the archived six-movement Chapter XXXVII's causal sequence, renames the adult departing handler Rovan so he is not conflated with the child Orin retained among the six (Chapter XXXVI / XXXVIII), and adds an original 2,000-plus-word courtyard movement about voluntary departure, objects, and household space. The original Chapter XXXVII remains intact. Nothing here authenticates a 2016 manager, league outcome, fire, route or historical owner psychology. No independent acceptance is claimed.
 
-**Source component words including metadata: 259040** (wrapper excluded).
+**Source component words including metadata: 259041** (wrapper excluded).
 
 ## Source-exact composition manifest
 
@@ -45,7 +45,7 @@ The first 34 source-exact parts are preserved byte-for-byte. Part 35 integrates 
 | 32 | `THE_COAT_THAT_DID_NOT_BELONG_WHAT_THE_ROOF_WAS_OWED_CH35_V2_NONCANON.md` | `62bec21c4765016a6156a91450b122669b8c6c98` | 9201 |
 | 33 | `THE_ASH_AT_FARAS_DOOR_THE_WHOLE_OF_FOURTEEN_CH36_V2_NONCANON.md` | `d4bb254766ba03e49c45d0f42e66c9d2208a4595` | 8992 |
 | 34 | `THE_COMPANY_THAT_CAME_APART_THE_EMPTY_PLACE_AT_SECOND_TABLE_CH37_V2_NONCANON.md` | `655d437756306ee5386b7d8fa4b825ebb5f33ab5` | 8709 |
-| 35 | `THE_HAND_THAT_CUT_THE_LEATHER_WINDOWS_THAT_WOULD_NOT_STAY_STILL_CH38_V2_NONCANON.md` | `6ec91eee2ac28e853c51c999058b6584f1dd508a` | 8100 |
+| 35 | `THE_HAND_THAT_CUT_THE_LEATHER_WINDOWS_THAT_WOULD_NOT_STAY_STILL_CH38_V2_NONCANON.md` | `e25b7799e18672ba2cffb666d25d7c9b1323ff3d` | 8101 |
 
 ## Part 1 — The Roof and the Unclaimed Bowl
 
@@ -20991,7 +20991,7 @@ The road behind him held two different mornings now. One would have a cart movin
 
 ## Part 35 — The Hand That Cut the Leather — The Windows That Would Not Stay Still
 
-<!-- BEGIN 2016_CAUSAL THE_HAND_THAT_CUT_THE_LEATHER_WINDOWS_THAT_WOULD_NOT_STAY_STILL_CH38_V2_NONCANON.md | git_blob 6ec91eee2ac28e853c51c999058b6584f1dd508a -->
+<!-- BEGIN 2016_CAUSAL THE_HAND_THAT_CUT_THE_LEATHER_WINDOWS_THAT_WOULD_NOT_STAY_STILL_CH38_V2_NONCANON.md | git_blob e25b7799e18672ba2cffb666d25d7c9b1323ff3d -->
 
 # The Hand That Cut the Leather — The Windows That Would Not Stay Still
 
@@ -21107,7 +21107,7 @@ Jake was not sure whether telling a man about a city gave him any warning that h
 
 Mara took the pebble back. "We haven't started."
 
-The girls began to quarrel without raising their voices. This was clearly an old skill. Seli thought a traveler should be allowed to go wherever he liked; Mara said a game required a rule. Seli offered to make a rule that everybody liked. Mara replied that a rule everybody liked would not tell them what to do when two people wanted different things.
+The girls began to quarrel without raising their voices. This was clearly an old skill. Seli said the traveler should be allowed to go wherever he liked; Mara answered that a game required a rule. Seli offered to make a rule that everybody liked. Mara replied that a rule everybody liked would not tell them what to do when two people wanted different things.
 
 Jake was tempted to praise the observation. He had spent enough time listening to adults who were no better at it. Instead he held his hand open until Mara returned the pebble.
 

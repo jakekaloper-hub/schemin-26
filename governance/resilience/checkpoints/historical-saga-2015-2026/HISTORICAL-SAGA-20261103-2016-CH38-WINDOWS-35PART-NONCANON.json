@@ -11,19 +11,19 @@
   },
   "fictional_prelude": {
     "file": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_WINDOWS_THAT_WOULD_NOT_STAY_STILL_CH38_PRELUDE_V2_NONCANON.md",
-    "blob": "5a548bce4d27cc0fad2588d5698fd4dd2f2fc799",
-    "words": 2267
+    "blob": "b5ac322faf20a108ba4bb495c15d8f7d9e54f61d",
+    "words": 2268
   },
   "revised_chapter": {
     "file": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_HAND_THAT_CUT_THE_LEATHER_WINDOWS_THAT_WOULD_NOT_STAY_STILL_CH38_V2_NONCANON.md",
-    "blob": "6ec91eee2ac28e853c51c999058b6584f1dd508a",
-    "source_words": 8100
+    "blob": "e25b7799e18672ba2cffb666d25d7c9b1323ff3d",
+    "source_words": 8101
   },
   "reading_copy": {
     "file": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_2016_CAUSAL_CH01_38_THIRTY_FIVE_PARTS_WINDOWS_NONCANON.md",
-    "blob": "19ca3d5c6d5d986e2b8e98a365dd0cbaef3210d5",
+    "blob": "c79ebebde7b238b021b8d0e271bd2303d050fd7b",
     "parts": 35,
-    "source_component_words": 259040,
+    "source_component_words": 259041,
     "previous_reader_blob": "63d9fcbc3f5fb76438882ca26b5da8b8f821a575",
     "previous_34_source_rows_and_bodies_preserved": true
   },
@@ -31,10 +31,10 @@
     "file": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_thirty_eight_windows_v2_reader.py",
     "blob": "dff82af9434045a6f9317b40b71f37f75434c8d8",
     "number": 17,
-    "execution": "NOT_YET_OBSERVED"
+    "execution": "CI FAILURE IDENTIFIED; text correction committed, retest pending"
   },
   "github_actions": {
-    "state": "NOT_YET_OBSERVED",
+    "state": "RETEST_PENDING",
     "required": [
       "Novel OS CI",
       "Cross-Domain Authority CI",
@@ -63,5 +63,13 @@
     "independent Umpire",
     "Founder-only canon/publication approval"
   ],
-  "next": "Read Chapter XXXIX existing source, challenge transitions from Mael return to dye-water accident, avoid repetitive craftsmen/accident plot devices; continue source-exact 36-part developmental reading only after editorial and regression check. No inferred ESPN facts."
+  "next": "Read Chapter XXXIX existing source, challenge transitions from Mael return to dye-water accident, avoid repetitive craftsmen/accident plot devices; continue source-exact 36-part developmental reading only after editorial and regression check. No inferred ESPN facts.",
+  "latest_repair": {
+    "kind": "POV firewall genuine prose correction",
+    "original_failure": "Seli thought ... interiority under Jake-limited POV",
+    "repair": "Seli said ... (observable speech), standalone and embedded revised chapter",
+    "affected_previous_parts": 0,
+    "source_exactness": "35/35 PASS author-side",
+    "no_historical_facts_added": true
+  }
 }

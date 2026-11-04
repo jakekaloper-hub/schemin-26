@@ -110,7 +110,7 @@ Jake was not sure whether telling a man about a city gave him any warning that h
 
 Mara took the pebble back. "We haven't started."
 
-The girls began to quarrel without raising their voices. This was clearly an old skill. Seli thought a traveler should be allowed to go wherever he liked; Mara said a game required a rule. Seli offered to make a rule that everybody liked. Mara replied that a rule everybody liked would not tell them what to do when two people wanted different things.
+The girls began to quarrel without raising their voices. This was clearly an old skill. Seli said the traveler should be allowed to go wherever he liked; Mara answered that a game required a rule. Seli offered to make a rule that everybody liked. Mara replied that a rule everybody liked would not tell them what to do when two people wanted different things.
 
 Jake was tempted to praise the observation. He had spent enough time listening to adults who were no better at it. Instead he held his hand open until Mara returned the pebble.
 
