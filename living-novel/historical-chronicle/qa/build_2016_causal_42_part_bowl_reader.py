@@ -21,11 +21,11 @@ OLD_TOTAL = 316215
 NEW_WORDS = 7275
 TOTAL = OLD_TOTAL + NEW_WORDS
 TERMINAL = "<!-- END_CAUSAL_READING_COPY -->"
-ROW_RE = re.compile(r"^\| (\d+) \| \`([^\`]+)\` \| \`([a-f0-9]{40})\` \| (\d+) \|$", re.M)
+ROW_RE = re.compile(r"^\| (\d+) \| `([^`]+)` \| `([a-f0-9]{40})` \| (\d+) \|$", re.M)
 START_RE = re.compile(r"<!-- BEGIN 2016_CAUSAL ")
 
 def gitblob(data: bytes) -> str:
-    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\\0" + data).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest()
 
 def build(previous: str, chapter: str) -> str:
     """Construct entire reader, preserving all previous 41 marked sections."""
@@ -42,11 +42,11 @@ def build(previous: str, chapter: str) -> str:
         raise ValueError("V2 chapter word count drift")
     first = previous.index("<!-- BEGIN 2016_CAUSAL ")
     header, rest = previous[:first], previous[first:]
-    old_row = re.compile(r"(?m)^\| 41 \| \`([^\`]+)\` \| \`([a-f0-9]{40})\` \| (\d+) \|$")
+    old_row = re.compile(r"(?m)^\| 41 \| `([^`]+)` \| `([a-f0-9]{40})` \| (\d+) \|$")
     if len(old_row.findall(header)) != 1:
         raise ValueError("cannot locate manifest row 41")
-    new_row = f"| 42 | \`{CHAPTER}\` | \`{CHAPTER_SHA}\` | {NEW_WORDS} |"
-    header = old_row.sub(lambda m: m.group(0) + "\\n" + new_row, header)
+    new_row = f"| 42 | `{CHAPTER}` | `{CHAPTER_SHA}` | {NEW_WORDS} |"
+    header = old_row.sub(lambda m: m.group(0) + "\n" + new_row, header)
     if f"Source component words including metadata: {OLD_TOTAL}" not in header:
         raise ValueError("previous total header is absent")
     header = header.replace(
@@ -58,10 +58,10 @@ def build(previous: str, chapter: str) -> str:
     before_end, after_end = rest.split(TERMINAL, 1)
     start = f"<!-- BEGIN 2016_CAUSAL {CHAPTER} | git_blob {CHAPTER_SHA} -->"
     end = f"<!-- END 2016_CAUSAL {CHAPTER} -->"
-    appended = "\\n\\n" + start + "\\n\\n" + chapter.rstrip("\\n") + "\\n\\n" + end + "\\n\\n"
+    appended = "\n\n" + start + "\n\n" + chapter.rstrip("\n") + "\n\n" + end + "\n\n"
     result = (
-        "# 42-part cumulative developmental edition — Chapter XLV V2 / NONCANON\\n"
-        "Source-exact print proof only. Independent review HOLD; no canon/publication.\\n\\n"
+        "# 42-part cumulative developmental edition — Chapter XLV V2 / NONCANON\n"
+        "Source-exact print proof only. Independent review HOLD; no canon/publication.\n\n"
         + header + before_end.rstrip() + appended + TERMINAL + after_end
     )
     rows = ROW_RE.findall(result)
@@ -77,7 +77,7 @@ def build(previous: str, chapter: str) -> str:
     new_end = result.index(start)
     if previous[prior_start:prior_end].rstrip() != result[new_start:new_end].rstrip():
         raise ValueError("41 predecessor bodies mutated during assembly")
-    if result.split(start + "\\n\\n", 1)[1].split("\\n\\n" + end, 1)[0] != chapter.rstrip("\\n"):
+    if result.split(start + "\n\n", 1)[1].split("\n\n" + end, 1)[0] != chapter.rstrip("\n"):
         raise ValueError("new chapter body mismatch")
     return result
 
