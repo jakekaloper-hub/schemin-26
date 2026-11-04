@@ -29,7 +29,7 @@
   },
   "test": {
     "file": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_thirty_eight_windows_v2_reader.py",
-    "blob": "dff82af9434045a6f9317b40b71f37f75434c8d8",
+    "blob": "9b97850d15cb9c2b1fc6d340eb3ad60b0c07c98b",
     "number": 17,
     "execution": "PASS GITHUB ACTIONS JOB 126352258120",
     "assertions_passed": 17,
@@ -96,5 +96,5 @@
     "no_historical_facts_added": true
   },
   "exact_tested_commit": "c8a5387dd67112cd6ff97f4742b663054e652fce",
-  "caveat": "All four workflow successes and 17 regression assertions are verified for exact production commit c8a5387d only; no independent author/Umpire acceptance or period provenance review. Updating this receipt makes a later checkpoint-only commit that needs its own CI verification to claim status."
+  "caveat": "All four workflow successes and 17 regression assertions are verified for exact production commit c8a5387d only; no independent author/Umpire acceptance or period provenance review. Updating this receipt makes a later checkpoint-only commit that needs its own CI verification to claim status. Pin correction: regression suite blob updated after initial test-only and prose-only repairs; use the latest test blob, not the first authored test blob."
 }
