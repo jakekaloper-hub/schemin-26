@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-03",
+  "workstream": "COMMONWEALTH_HISTORICAL_SAGA_2016",
+  "status": "NONCANON_EDITORIAL_HOLD",
+  "draft_pr": 243,
+  "parent_commit": "2f037a772a8e1ba96d239a14c71325d6f90ecc8a",
+  "source_main": "e0858b8bc27db2bb095e0e03483b5c98e5809052",
+  "original_chapter": {
+    "file": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_HAND_THAT_CUT_THE_LEATHER_CHAPTER_38_NONCANON.md",
+    "blob": "a6f7f737d2ce79542489094be374f3084f24d657"
+  },
+  "fictional_prelude": {
+    "file": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_WINDOWS_THAT_WOULD_NOT_STAY_STILL_CH38_PRELUDE_V2_NONCANON.md",
+    "blob": "5a548bce4d27cc0fad2588d5698fd4dd2f2fc799",
+    "words": 2267
+  },
+  "revised_chapter": {
+    "file": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_HAND_THAT_CUT_THE_LEATHER_WINDOWS_THAT_WOULD_NOT_STAY_STILL_CH38_V2_NONCANON.md",
+    "blob": "6ec91eee2ac28e853c51c999058b6584f1dd508a",
+    "source_words": 8100
+  },
+  "reading_copy": {
+    "file": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_2016_CAUSAL_CH01_38_THIRTY_FIVE_PARTS_WINDOWS_NONCANON.md",
+    "blob": "19ca3d5c6d5d986e2b8e98a365dd0cbaef3210d5",
+    "parts": 35,
+    "source_component_words": 259040,
+    "previous_reader_blob": "63d9fcbc3f5fb76438882ca26b5da8b8f821a575",
+    "previous_34_source_rows_and_bodies_preserved": true
+  },
+  "test": {
+    "file": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_thirty_eight_windows_v2_reader.py",
+    "blob": "dff82af9434045a6f9317b40b71f37f75434c8d8",
+    "number": 17,
+    "execution": "NOT_YET_OBSERVED"
+  },
+  "github_actions": {
+    "state": "NOT_YET_OBSERVED",
+    "required": [
+      "Novel OS CI",
+      "Cross-Domain Authority CI",
+      "Bullpen Runtime CI",
+      "Repository Merge Gate"
+    ]
+  },
+  "author_side_assembly": "PASS_IN_THIS_RUN_NO_INDEPENDENT_REVIEW",
+  "protected_gitblobs": {
+    "prologue": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+    "chapter_1": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+    "chapter_2": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+    "chapter_3": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc",
+    "historical_2016_archive": "6dbec1fe2537139f3a97c6a78250e2bae082a518"
+  },
+  "historical_owner_slot": "NOT_AUTHENTICATED",
+  "independent_umpire": "NOT_RECEIVED",
+  "canon_promotion": false,
+  "merge": false,
+  "publication": false,
+  "blockers": [
+    "2016 manager-account authentication",
+    "independent Authors Council",
+    "historical Librarian",
+    "period Character Canon and Atlas",
+    "independent Umpire",
+    "Founder-only canon/publication approval"
+  ],
+  "next": "Read Chapter XXXIX existing source, challenge transitions from Mael return to dye-water accident, avoid repetitive craftsmen/accident plot devices; continue source-exact 36-part developmental reading only after editorial and regression check. No inferred ESPN facts."
+}
