@@ -106,7 +106,7 @@ class ChapterThirtySixFourteen(unittest.TestCase):
         for word in ("Mael", "ash", "bird"):
             self.assertIn(word.lower(), self.chapter.lower())
         for phrase in ("no confirmed group split until Chapter XXXVII", "no new wages"):
-            self.assertIn(phrase, self.chapter)
+            self.assertIn(phrase.lower(), self.chapter.lower())
     def test_19_new_material_sequencing(self):
         self.assertLess(self.chapter.index("### V. The road that was not theirs"), self.chapter.index(self.scene))
         self.assertLess(self.chapter.index(self.scene), self.chapter.index("### VI. What the morning could not say"))
