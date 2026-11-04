@@ -21,7 +21,7 @@ WORDS=PRIOR_WORDS+CHAPTER_WORDS
 TERMINAL="<!-- END_CAUSAL_READING_COPY -->"
 BEGIN="<!-- BEGIN 2016_CAUSAL "
 END="<!-- END 2016_CAUSAL "
-ROW=re.compile(r"(?m)^\| (\\d+) \| \x60([^\x60]+)\x60 \| \x60([a-f0-9]{40})\x60 \| (\\d+) \|$")
+ROW=re.compile(r"(?m)^\| (\d+) \| \x60([^\x60]+)\x60 \| \x60([a-f0-9]{40})\x60 \| (\d+) \|$")
 
 def blob(data:bytes)->str:
     return hashlib.sha1(b"blob "+str(len(data)).encode()+b"\0"+data).hexdigest()
