@@ -51,14 +51,14 @@ class ChapterFortyDonkeyReader(unittest.TestCase):
   old=self.old.split("### I.",1)[1].split("\n---\n\n### Editorial handoff",1)[0]
   new=self.ch.split("### I.",1)[1].split("\n---\n\n### Editorial handoff",1)[0]
   scene=self.scene.split("### V. The donkey and the broken measure",1)[1].split("\n---\n",1)[0]
-  new=new.replace("### V. The donkey and the broken measure"+scene.strip("\n")+"\n\n","")
+  new=new.replace("### V. The donkey and the broken measure"+"\n\n"+scene.strip("\n")+"\n\n","")
   new=new.replace("### VI. The part of the cart that stayed","### V. The part of the cart that stayed")
   new=new.replace("### VII. A light where cloth had hung","### VI. A light where cloth had hung")
   self.assertEqual(new,old)
  def test_07_scene_exact_and_substantial(self):
   scene=self.scene.split("### V. The donkey and the broken measure",1)[1].split("\n---\n",1)[0]
   self.assertGreater(len(scene.split()),2000)
-  self.assertIn("### V. The donkey and the broken measure"+scene.strip("\n"),self.ch)
+  self.assertIn("### V. The donkey and the broken measure"+"\n\n"+scene.strip("\n"),self.ch)
  def test_08_headings_seven(self):
   self.assertEqual(re.findall(r"^### ([IVX]+)\. ",self.ch,re.M),["I","II","III","IV","V","VI","VII"])
  def test_09_manifest_37(self):
