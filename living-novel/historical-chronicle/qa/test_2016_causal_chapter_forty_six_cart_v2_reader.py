@@ -120,7 +120,7 @@ class TestCausalXLVICart(unittest.TestCase):
         self.assertEqual(blob(p.read_bytes()),"6dbec1fe2537139f3a97c6a78250e2bae082a518")
     def test_22_no_promotion_or_independent_review_claim(self):
         for guard in ("NONCANON","INDEPENDENT EDITORIAL HOLD","NO MERGE",
-                      "NO CANON PROMOTION","NO PUBLICATION","NOT RECEIVED"):
+                      "NO CANON PROMOTION","NO PUBLICATION","Outstanding:"):
             self.assertIn(guard,self.new)
     def test_23_original_source_still_exists(self):
         self.assertTrue((BASE/OLD).exists())
