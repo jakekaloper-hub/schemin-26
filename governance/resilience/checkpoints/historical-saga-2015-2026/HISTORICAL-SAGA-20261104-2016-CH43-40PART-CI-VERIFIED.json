@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-04",
+  "kind": "EXACT_COMMIT_CI_VERIFIED_RECEIPT",
+  "repo": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": "https://github.com/jakekaloper-hub/schemin-26/pull/243",
+  "tested_production_commit": "e81535a5e78723a6e3984dd035eb715cd7295d73",
+  "prior_head": "f64d986f2c25663ccde1e360c6d0a9b3a92afd96",
+  "literary_output": {
+    "chapter": "The Name He Sold — The Twine with No Direction",
+    "new_fiction_words": 2260,
+    "revised_chapter_words_incl_metadata": 9424,
+    "assembled_reader_parts": 40,
+    "reader_component_source_words_incl_metadata": 307670,
+    "old_parts_preserved": 39
+  },
+  "source_blobs": {
+    "original": "c4e3705531e1c4589ac95845df15ccc108da6fd3",
+    "scene": "678c9a73f270135811fa4d6ac7c8cea3749ec5f2",
+    "revised": "21b5acd9cef84784dfa66a74fe8c1b752c3fc537",
+    "reading_copy": "0519fc6ef7f81787acb2a239fc9072c5dfb62beb",
+    "historical_evidence_unchanged": "6dbec1fe2537139f3a97c6a78250e2bae082a518"
+  },
+  "checks": [
+    {
+      "name": "Repository Merge Gate",
+      "run_id": 41793988529,
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41793988529"
+    },
+    {
+      "name": "Cross-Domain Authority CI",
+      "run_id": 41793988558,
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41793988558"
+    },
+    {
+      "name": "Bullpen Runtime CI",
+      "run_id": 41793988571,
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41793988571"
+    },
+    {
+      "name": "Novel OS CI",
+      "run_id": 41793988500,
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41793988500"
+    }
+  ],
+  "novel_os_job_id": 126453638750,
+  "novel_os_log_observed": "Ran 1650 tests in 4.243s — OK, including new 20-case Chapter XLIII V2 test via existing wildcard-discovered suite; previous exact-commit record ran 1630.",
+  "new_regressions": 20,
+  "independent_editorial_review": "NOT_RECEIVED",
+  "independent_umpire_review": "NOT_RECEIVED",
+  "review_attempts": {
+    "schemin_pr_243_comment_id": 6625458100,
+    "bullpen_issue_117_comment_id": 6625458814
+  },
+  "gates": {
+    "owner_slot_authenticated": false,
+    "period_character_canon": false,
+    "period_atlas": false,
+    "authors_council": false,
+    "historical_librarian": false,
+    "independent_umpire": false,
+    "founder_publish": false,
+    "merged": false,
+    "published": false,
+    "canon_promoted": false
+  },
+  "next": "Chapter XLIV The Floor That Could Be Lifted — extend genuine social consequences of Jake's lie and Pell's lost work without erasing first/second accounts, make Sela's removable floor remain contingent. Keep 12-owner exclusivity, exact source evidence, independent review hold.",
+  "caveat": "Four successful workflows and 1650 tests verified for tested_production_commit ONLY; this later receipt-only commit has its own distinct CI status."
+}
