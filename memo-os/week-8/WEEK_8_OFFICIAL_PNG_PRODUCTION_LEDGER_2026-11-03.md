@@ -143,3 +143,14 @@ Local review pack: `/mnt/data/Schemin26_Week8_TheLastLight_4_Page_Proofs.zip`. *
 - Retain the two known Chili/Arsenal visual authority exceptions, but do not infer that the other ten are render-certified merely because their crop files exist. 
 
 **Salvage production priority:** Six thematic matchups first. Supporting/fill-in pages after the feature stories demonstrate quality. Do not resume prior experimental PNGs.
+
+
+## November 4 action-first salvage — superseding earlier prose pass
+
+**Founder directive:** Week 8 must deliver intense, physical, cinematic action. The previous emotional/abstract rewrite was rejected as unsuitable. All earlier experimental PNGs remain rejected and none of the pages are approved for publication.
+
+**Actual executed corrections:** 29/29 manuscript scenes replaced with kinetic pursuit, physical confrontation, credible turn/escape, and specific results; all 29 JSON packets now have matching physical-event choreography, camera geometry, movement continuity, fresh introductory narration, and action-first unapproved status. Original founder rear-camera Duckhook fairway direction remains mandatory.
+
+**Known source correction:** The old 20-unit HTML proof contains superseded text and must never be used as final source copy or a fixed page-count authority. Its header now warns explicitly. Source of truth is the active Session E manuscript and 29 packet JSON. Week 7 remains visual benchmark.
+
+**Validation readback:** 29 manuscript ID sections matched 29 active packet IDs; zero stale provisional-intro mismatches; six verified scoring pairs retained; six overtures and all preserved Founder Last Light camera revisions; **no newly generated or approved PNGs**. True art/readability QA remains NOT RUN, and source-image mounting is unresolved.
