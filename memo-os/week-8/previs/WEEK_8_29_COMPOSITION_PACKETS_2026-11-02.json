@@ -929,6 +929,15 @@
         "reference_mount_receipts": "NOT_PROVEN",
         "publication_status": "REJECTED",
         "no_cover_masthead": true
+      },
+      "story_phase_contract": {
+        "phase": "PRE_OUTCOME",
+        "scoreboard_allowed": false,
+        "final_record_allowed": false,
+        "winner_reveal_allowed": false,
+        "generated_prose_allowed": false,
+        "source_manuscript_id": "W08-02-01",
+        "review": "Visually verify no early final score or result on W08-02-01 through W08-02-03; only W08-02-04 may show outcome."
       }
     },
     {
@@ -1022,6 +1031,15 @@
         "atlas_gate": "Candidate site only: validate geography, routes, prior world state, location registry and Commissioner approval before promotion",
         "player_attribution": "NOT_VERIFIED",
         "final_raster": "NOT_GENERATED"
+      },
+      "story_phase_contract": {
+        "phase": "PRE_OUTCOME",
+        "scoreboard_allowed": false,
+        "final_record_allowed": false,
+        "winner_reveal_allowed": false,
+        "generated_prose_allowed": false,
+        "source_manuscript_id": "W08-02-02",
+        "review": "Visually verify no early final score or result on W08-02-01 through W08-02-03; only W08-02-04 may show outcome."
       }
     },
     {
@@ -1116,6 +1134,15 @@
         "atlas_gate": "Candidate site only: validate geography, routes, prior world state, location registry and Commissioner approval before promotion",
         "player_attribution": "NOT_VERIFIED",
         "final_raster": "NOT_GENERATED"
+      },
+      "story_phase_contract": {
+        "phase": "PRE_OUTCOME",
+        "scoreboard_allowed": false,
+        "final_record_allowed": false,
+        "winner_reveal_allowed": false,
+        "generated_prose_allowed": false,
+        "source_manuscript_id": "W08-02-03",
+        "review": "Visually verify no early final score or result on W08-02-01 through W08-02-03; only W08-02-04 may show outcome."
       }
     },
     {
@@ -1210,6 +1237,15 @@
         "atlas_gate": "Candidate site only: validate geography, routes, prior world state, location registry and Commissioner approval before promotion",
         "player_attribution": "NOT_VERIFIED",
         "final_raster": "NOT_GENERATED"
+      },
+      "story_phase_contract": {
+        "phase": "FINAL_OUTCOME",
+        "scoreboard_allowed": true,
+        "final_record_allowed": true,
+        "winner_reveal_allowed": true,
+        "generated_prose_allowed": false,
+        "source_manuscript_id": "W08-02-04",
+        "review": "Visually verify no early final score or result on W08-02-01 through W08-02-03; only W08-02-04 may show outcome."
       }
     },
     {
