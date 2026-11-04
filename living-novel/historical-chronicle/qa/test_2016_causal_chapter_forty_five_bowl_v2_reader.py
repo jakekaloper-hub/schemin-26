@@ -112,8 +112,9 @@ class Test2016Chapter45Bowl(unittest.TestCase):
     def test_18_42_part_word_count(self):
         self.assertEqual(sum(row[3] for row in rows(self.generated)),323490)
         self.assertIn("Source component words including metadata: 323490",self.generated)
-    def test_19_fail_closed_on_missing_previous_terminal(self):
-        with self.assertRaises(ValueError): self.builder.build(self.previous.replace(self.builder.TERMINAL,""),self.chapter)
+    def test_19_fail_closed_on_missing_preceding_component(self):
+        marker=f"<!-- END 2016_CAUSAL {PREV_CHAPTER} -->"
+        with self.assertRaises(ValueError): self.builder.build(self.previous.replace(marker,""),self.chapter)
     def test_20_fail_closed_on_corrupted_chapter(self):
         with self.assertRaises(ValueError): self.builder.build(self.previous,self.chapter+" ALTERED")
     def test_21_protected_hard_canon_identical(self):
