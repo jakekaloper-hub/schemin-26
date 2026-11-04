@@ -1,5 +1,7 @@
 # Week 8 — Official PNG Production Ledger (PR #272)
 
+**Founder Phase 0 reset (November 4, 2026):** All earlier generated PNGs and provisional layout/camera approvals are revoked for the Week 8 salvage pass. **ZERO pages are approved for reuse or publication.** Preserve failed attempt receipts as historical evidence, never as generation authority. The six matchup features will be assessed for storytelling quality before any new rendering. Week 7 remains the visual quality benchmark, not a mandatory three-page template.
+
 **Updated:** 2026-11-03. **Authority:** Founder command: published official Week 7 is the primary visual/editorial benchmark, Memo OS V5.2-RC governs execution. Working folio structure only; not a locked publication page count.
 
 **Proof terminology:** `REJECTED` means a produced experimental image was inspected and failed the publication contract. `NOT STARTED` means no accepted PNG exists. No director or Umpire approval inferred. Character source mounts remain unproven.
@@ -16,7 +18,7 @@
 | 02 | The Midseason Reckoning | G1-01 | supporting | REJECTED 2 proofs | Not applicable (character-free target) | FAIL | NOT RUN | NOT RUN | REVISE |
 | 03 | The Last Light I | G1-02 | W08-10-01, W08-10-02 | GENERATED EXPERIMENT, REJECTED BY FOUNDER; RESET TO ORIGINAL POV OVERTURE | ACTUAL PRIMARY MOUNT NOT PROVEN | SOURCE COPY PROVISIONAL; RESOLUTION FAIL 941×1672 | Week 7 pp11/20 reviewed, page rhythm failed | STORYBOARD POV AND CHARACTERS REVISE | REJECTED |
 | 04 | The Last Light II | G1-03 | W08-10-03, W08-10-04 | GENERATED EXPERIMENT, REJECTED BY FOUNDER; CAMERA REBLOCK REQUIRED | ACTUAL PRIMARY MOUNT NOT PROVEN | INVENTED PROSE; RESOLUTION FAIL 941×1672 | INCONSISTENT OVERSIZED COVER HEADER | NO FAIRWAY, WRONG AXIS, MISSED STORYTELLING | REJECTED |
-| 05 | Hostile Ground I | G1-04 | W08-02-01, W08-02-02 | W08-02-01 COMPOSITION APPROVED; CHARACTER RENDER REJECTED | NOT PROVEN | NOT RUN | MATCHUP HEADER STYLE APPROVED | CAST DOES NOT MATCH CANON | REVISION REQUIRED |
+| 05 | Hostile Ground I | G1-04 | W08-02-01, W08-02-02 | FOUNDER RESET: PRIOR COMPOSITION ACCEPTANCE REVOKED; CHARACTER RENDER REJECTED | NOT PROVEN | NOT RUN | PRIOR HEADER PREFERENCE UNAPPROVED FOR SALVAGE | CAST DOES NOT MATCH CANON | REVISION REQUIRED |
 | 06 | Hostile Ground II | G1-05 | W08-02-03, W08-02-04 | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
 | 07 | Divisional Pressure | G1-11 | supporting | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
 | 08 | The Storm That Wouldn't Leave I | G1-06 | W08-01-01, W08-01-02 | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
@@ -129,3 +131,15 @@ Local review pack: `/mnt/data/Schemin26_Week8_TheLastLight_4_Page_Proofs.zip`. *
 **Structural readback test:** 29 original packets retained, all four Last Light action locks present, three-act mapping correct, distinct actions, two canonical reference IDs retained, final result restricted to ending and no Umpire/Founder approval falsely set: **7/7 checks PASS**. This verifies JSON only, **not** images or actual renderer conditioning.
 
 **Next production hold:** W08-10-02 requires a genuine new scene depiction, not a variant of its predecessor. Both actual approved subject images must be mounted to the chosen renderer and their image-condition input evidenced before new generated art is called Bullpen-produced. Publisher acceptance and independent visual QA remain **NOT RUN / BLOCKED**.
+
+
+## Phase 0 entertainment-quality gate — November 4, 2026
+
+- All 29 scene passages have been **substantively rewritten** as unapproved candidates in the existing Session E manuscript (commit `83dfb85`). No previous page, frame, header style, or visual approval survives the Founder reset.
+- All 29 active composition packets now use specific story events, corrected editorial handoff flags, and explicit `REWRITTEN_UNAPPROVED` / `NOT_APPROVED_FOR_GENERATION` states (commit `1479701`).
+- The six story concepts and verified outcomes remain usable **only as factual/story-development anchors**. Scene-level action, prose, image direction, panel grouping, cover, and page count must earn acceptance on entertainment quality and continuity.
+- The Week 7 publication is the visual/editorial quality benchmark, **not** an instruction to reproduce its repeated three-page layouts. No fixed 20-page or three-page-feature allocation is approved.
+- Render eligibility requires at minimum: a memorable opening beat, visible causality/change, distinguishing character behavior, coherent setting, audience-facing payoff, approved source-image attachment, and readable exact copy. Narrative copy remains under editorial/Founder acceptance; independent visual QA cannot occur before new images exist.
+- Retain the two known Chili/Arsenal visual authority exceptions, but do not infer that the other ten are render-certified merely because their crop files exist. 
+
+**Salvage production priority:** Six thematic matchups first. Supporting/fill-in pages after the feature stories demonstrate quality. Do not resume prior experimental PNGs.
