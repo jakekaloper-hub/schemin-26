@@ -22,7 +22,7 @@ TOTAL_WORDS = 339262
 def blob(data):
     return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest()
 def sections(text):
-    return [m.group(1).strip() for m in re.finditer(r"(?ms)^### [IVX]+\\. [^\\n]+\\n(.*?)(?=^### [IVX]+\\.|^---\\n|\\Z)",text)]
+    return [m.group(1).strip() for m in re.finditer(r"(?ms)^### [IVX]+\. [^\n]+\n(.*?)(?=^### [IVX]+\.|^---\n|\Z)",text)]
 def mod():
     path = QA / "build_2016_causal_44_part_oven_reader.py"
     spec = importlib.util.spec_from_file_location("ch47_builder",path)
@@ -51,7 +51,7 @@ class TestChapterXLVIIBell(unittest.TestCase):
         self.assertEqual(len(self.old.split()),OLD_WORDS)
         self.assertEqual(len(self.new.split()),NEW_WORDS)
     def test_04_seven_ordered_movements(self):
-        self.assertEqual(re.findall(r"(?m)^### ([IVX]+)\\. ",self.new),
+        self.assertEqual(re.findall(r"(?m)^### ([IVX]+)\. ",self.new),
                          ["I","II","III","IV","V","VI","VII"])
     def test_05_six_original_movement_bodies_preserved(self):
         old=sections(self.old); new=sections(self.new)
