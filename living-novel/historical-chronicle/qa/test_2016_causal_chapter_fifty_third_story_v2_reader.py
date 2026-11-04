@@ -12,10 +12,10 @@ ORIGINAL = "THE_NIGHT_BELOW_THE_ROOM_CHAPTER_50_NONCANON.md"
 SCENE = "THE_NIGHT_BELOW_THE_ROOM_THE_THIRD_STORY_CH50_V2_SCENE_NONCANON.md"
 CHAPTER = "THE_NIGHT_BELOW_THE_ROOM_THE_THIRD_STORY_CH50_V2_NONCANON.md"
 ORIGINAL_SHA = "920d3fda6c9f366d9c56e45745b8db117c8e3fa8"
-SCENE_SHA = "16f2de7a87bb2f8452e5f0072bc20f3442716b76"
-CHAPTER_SHA = "9cbfdd0db15734cfa25b8e9b7dcb55c4aedc04aa"
+SCENE_SHA = "5e5eccb5234e4aae1e276579dac1dbf8487dd227"
+CHAPTER_SHA = "94e81f9b84a6300a40d108935d26e25f2f5acfac"
 PRIOR_WORDS = 355259
-TOTAL_WORDS = 363594
+TOTAL_WORDS = 363606
 
 
 def blob(data):
@@ -58,12 +58,12 @@ class ChapterLThirdStory(unittest.TestCase):
         self.assertEqual(blob(self.new_bytes), CHAPTER_SHA)
 
     def test_04_substantial_prose(self):
-        self.assertEqual(len(self.scene.split()), 2364)
+        self.assertEqual(len(self.scene.split()), 2376)
         self.assertGreaterEqual(len(self.scene.split()), 2000)
 
     def test_05_chapter_word_count(self):
         self.assertEqual(len(self.old.split()), 5637)
-        self.assertEqual(len(self.new.split()), 8335)
+        self.assertEqual(len(self.new.split()), 8347)
 
     def test_06_seven_roman_numbered_movements(self):
         self.assertEqual(re.findall(r"(?m)^### ([IVX]+)\.", self.new),
@@ -87,7 +87,7 @@ class ChapterLThirdStory(unittest.TestCase):
     def test_10_new_reader_has_47_source_rows(self):
         rows = self.builder.rows(self.reader)
         self.assertEqual([r[0] for r in rows], list(range(1, 48)))
-        self.assertEqual(rows[-1], (47, CHAPTER, CHAPTER_SHA, 8335))
+        self.assertEqual(rows[-1], (47, CHAPTER, CHAPTER_SHA, 8347))
         self.assertEqual(sum(r[3] for r in rows), TOTAL_WORDS)
 
     def test_11_exact_marker_pairs(self):
