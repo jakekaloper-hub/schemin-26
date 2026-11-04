@@ -108,7 +108,7 @@ The first thing the swamp surrendered was the sky. A thin copper seam held in th
 
 A dull knock traveled across the water. Mud Dogs turned toward it, teeth showing, then stopped when another knock sounded farther downstream. The beast lowered his head to the churned bank. The ground offered several tracks, but none arranged themselves into the straight pursuit he wanted. On the opposite side, Duckhook raised his golf-club arm, measured the distance between exposed roots, and sent a small piece of loose debris skipping through the shallows. One disturbance became three. To Mud Dogs it sounded like an animal moving carelessly through his territory. To Duckhook it was a line he had chosen. The swamp had become a course, and the course was being played by the least likely creature in it.
 
-*Editorial: Hunt becomes a precise physical pursuit. Camera: Ground-detail insert, medium Duckhook profile with correct bucket hat.*
+*Editorial: Hunt becomes a precise physical pursuit. Camera: Ground-detail insert, medium Duckhook profile; headwear from authenticated current visual reference (Week 7 shows a green cap), not legacy bucket-hat prose.*
 
 ## W08-10-03 — The Last Light: The narrowing channel
 
@@ -185,7 +185,7 @@ The prior 29 passages were too abstract, passive, and repetitive for a reader-fa
 These are rewritten, source-mapped narrative passages. They establish distinct actions and voices, but need an actual continuous-reader edit, founder creative acceptance, visual copyfit, and fact QA before promotion. They do not prescribe one page per passage. Factual scoring inserts and final copyfit remain gated. Oxford interior is a nonliteral memory; Shared March admission remains provisional. The Book, standings and cover are separate editorial allocations.
 
 
-## Editorial line-edit receipt — November 3
+## Historical line-edit receipt — November 3 (superseded by Phase 0)
 
 Two targeted prose and continuity revisions had been made in an earlier pass of the existing manuscript, with all 29 scene IDs preserved. These edits improve the Oxford memory distinction, avoid repetitive aphorisms, and clarify the six emotional resolutions. Continuous narrative polish and final copyfit remain subject to editorial acceptance.
 
@@ -200,4 +200,4 @@ The existing 29 manuscript sections are the controlling source; do not duplicate
 5. **The Weight of a Crown:** W08-03-01 → 03-02 → 03-03 → 03-04. HMB survives by 4.36 points; keep his Belt and Slob's credibility.
 6. **The Place We Once Knew:** W08-06-01 → 06-02 → 06-03 → 06-04 → 06-05 → 06-06 → 06-07. The Oxford Kappa Sigma corner bedroom is remembered history; Shared March is separate fictional geography. TDS's victory need not destroy the friendship.
 
-**Editorial acceptance:** six continuous readings still need human-quality line editing and actual page copyfit; this index is not a claim that those reviews have passed. Maintain the 29 packet-to-section links and the existing Memo OS.
+**Editorial acceptance:** six continuous readings are rewritten candidate copy and still need human-quality line editing and actual page copyfit; this index is not a claim that those reviews have passed. Maintain the 29 packet-to-section links and the existing Memo OS.
