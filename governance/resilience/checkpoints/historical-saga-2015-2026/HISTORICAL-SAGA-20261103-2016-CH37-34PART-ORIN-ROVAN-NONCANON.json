@@ -31,12 +31,40 @@
     "child_staying": "Orin",
     "eight_leave_six_remain": true,
     "infant_stays": true,
-    "awning_permanently_shortened": true
+    "awning_permanently_shortened": true,
+    "downstream_spot_check": "Chapters XXXVIII, XL, XLI and XLII retain young Orin with the six; adult departing driver in V2 is Rovan. Broader named-entity/period acceptance remains open."
   },
   "checks": {
-    "js_assembly": "PASS_LOCAL_JS_ASSERTIONS_ONLY",
-    "python_test": "NOT_YET_RUN",
-    "github_actions": "NOT_YET_OBSERVED",
+    "js_assembly": "PASS_AUTHOR_SIDE",
+    "python_test": "20/20 dedicated Chapter XXXVII V2 tests PASS in GitHub Actions job logs, Ran 20 tests in 0.133s OK",
+    "python_test_job_id": 126330146662,
+    "protected_main_match": "EXACT_GIT_BLOB_EQUAL for protected Prologue, Chapters I-III and G01 2016 archive",
+    "github_actions": [
+      {
+        "name": "Cross-Domain Authority CI",
+        "run_id": 41755381966,
+        "conclusion": "success",
+        "status": "completed"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "run_id": 41755381959,
+        "conclusion": "success",
+        "status": "completed"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "run_id": 41755382011,
+        "conclusion": "success",
+        "status": "completed"
+      },
+      {
+        "name": "Novel OS CI",
+        "run_id": 41755381998,
+        "conclusion": "success",
+        "status": "completed"
+      }
+    ],
     "independent_umpire": "NOT_RECEIVED"
   },
   "protected": {
@@ -55,6 +83,12 @@
     "independent Umpire",
     "Founder-only canon/publication approval"
   ],
-  "next": "Inspect Chapter XXXVIII against corrected Rovan/Orin identity; continue literary production while retaining all earlier 34 reader parts. Do not merge or canon promote.",
-  "caveat": "No exact-commit CI claims until the workflow and test steps are independently read."
+  "next": "Chapter XXXVIII — The Hand That Cut the Leather. Resume after the Chapter XXXVII V2 34-part reader with 250940 component source words; preserve previous 34 bodies and the Rovan vs child Orin distinction; Mael returns within this existing original chapter, no retroactive invented facts. Author Room / period provenance / Umpire / Founder-only holds persist.",
+  "caveat": "All four workflows and 20 tests succeeded at exact_tested_commit only. This checkpoint-only subsequent commit is not independently demonstrated by those earlier workflow runs. No independent review or historical owner authentication.",
+  "exact_tested_commit": "09e353555f6ce680de298801cd84bc94913dc946",
+  "review_requested": {
+    "pr243_comment_id": 6620161610,
+    "bullpen_issue117_comment_id": 6620162059,
+    "received": "NONE_VERIFIED"
+  }
 }
