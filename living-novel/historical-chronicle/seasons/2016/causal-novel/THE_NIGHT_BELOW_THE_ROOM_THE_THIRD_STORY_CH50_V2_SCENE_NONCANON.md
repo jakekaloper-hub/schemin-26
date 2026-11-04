@@ -2,7 +2,7 @@
 
 They could not go back into the room, and they had not yet been offered another. Between those two facts lay the remainder of the afternoon.
 
-Ina had asked everyone to leave the workshop doorway clear. Meric was returning with a second pair of eyes before attempting any further examination; no one was to stand beneath the damaged wall on the strength of his earlier, hurried inspection. Across the yard, a patch of ground sheltered from the street by the propped cart wheel was dry enough for three people to sit. Tovin brought a low stool. Neris accepted it after he placed it where she could lower herself without reaching with her injured arm. Dovan chose a crate and made no apology for the time it took to sit.
+Ina had asked everyone to leave the workshop doorway clear. Meric had promised to return at first light with help to examine the upper frame; no one was to stand beneath the damaged wall on the strength of his earlier, hurried inspection. Across the yard, a patch of ground sheltered from the street by the propped cart wheel was dry enough for three people to sit. Tovin brought a low stool. Neris accepted it after he placed it where she could lower herself without reaching with her injured arm. Dovan chose a crate and made no apology for the time it took to sit.
 
 Jake had been sent to carry word to a supplier that Ina would not receive a bundle of undyed cloth that evening. The supplier had already loaded it. Jake could return with the refusal or help unload what could not be stored. Ina had given him that choice without treating the act of choosing as generosity.
 
@@ -186,7 +186,7 @@ He made himself meet her eyes. "I know."
 
 She gave him no reassurance beyond that. He found he was glad of it.
 
-From inside the workshop came Ina's voice, calling Meric's name. The two had returned to inspect the outer wall from the yard. Their voices were technical and low. A person might have listened and pretended to learn from their certainty, but Jake could hear the pauses where Meric refused to say what he had not seen.
+From inside the workshop came Ina's voice, asking Tovin whether the water jar was still outside. She was deciding which dry frames could be moved without approaching the stairs. Her questions were practical and spare. Jake heard Tovin answer one of them and Neris amend his answer after looking through the open doorway. No one claimed to know whether the upper frame would hold through the night.
 
 Neris slowly stood. Tovin offered his free hand, and she took it. Dovan remained on his crate, watching them move toward the doorway without attempting to follow. When Tovin returned, Dovan asked him to bring back the cracked cup from the rescued bundle.
 
