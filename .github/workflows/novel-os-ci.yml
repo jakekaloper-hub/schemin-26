@@ -351,3 +351,14 @@ jobs:
           path: /tmp/commonwealth_2016_44part_oven_NONCANON.md
           if-no-files-found: error
           retention-days: 7
+      - name: Validate Chapter XLVIII V2 return-road fiction and source-exact 45-part reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_forty_eight_return_road_v2_reader.py" -v
+      - name: Assemble nonpublishing 45-part 2016 developmental manuscript
+        run: python living-novel/historical-chronicle/qa/build_2016_causal_45_part_return_road_reader.py --output /tmp/commonwealth_2016_45part_return_road_NONCANON.md
+      - name: Upload 45-part editorial manuscript (temporary, not publication)
+        uses: actions/upload-artifact@v4
+        with:
+          name: commonwealth-2016-45part-return-road-developmental-reader-noncanon
+          path: /tmp/commonwealth_2016_45part_return_road_NONCANON.md
+          if-no-files-found: error
+          retention-days: 7
