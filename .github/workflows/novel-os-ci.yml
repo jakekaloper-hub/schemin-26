@@ -317,3 +317,5 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_thirty_seven_empty_table_reader.py" -v
       - name: Validate Chapter XXXVIII V2 windows prelude and source-exact 35-part reader (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_thirty_eight_windows_v2_reader.py" -v
+      - name: Validate Chapter XXXIX V2 and 36-part white-cloth developmental reader (noncanon)
+        run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_thirty_nine_white_cloth_v2_reader.py" -v
