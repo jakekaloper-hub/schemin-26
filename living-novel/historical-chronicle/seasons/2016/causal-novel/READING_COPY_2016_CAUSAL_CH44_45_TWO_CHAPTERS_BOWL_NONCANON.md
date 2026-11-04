@@ -5,7 +5,7 @@ NONCANON / INDEPENDENT EDITORIAL HOLD; no Founder canon or release approval. Thi
 | Source | Git blob | Words, including metadata |
 |---|---|---:|
 | `THE_FLOOR_THAT_COULD_BE_LIFTED_BOOT_AT_THE_THRESHOLD_CH44_V2_NONCANON.md` | `d450ee2b725201f6d1660613b5880450f63c62d6` | 8545 |
-| `THE_ROAD_THAT_WOULD_NOT_WAIT_MEASURE_OF_EMPTY_BOWL_CH45_V2_NONCANON.md` | `5b7fa2e705d633a3599668dc13cb6dc15e74201c` | 7275 |
+| `THE_ROAD_THAT_WOULD_NOT_WAIT_MEASURE_OF_EMPTY_BOWL_CH45_V2_NONCANON.md` | `60a1dfaa6e327e4cfa28aa70b4b222929ee751b8` | 7275 |
 
 <!-- BEGIN 2016_CAUSAL THE_FLOOR_THAT_COULD_BE_LIFTED_BOOT_AT_THE_THRESHOLD_CH44_V2_NONCANON.md | git_blob d450ee2b725201f6d1660613b5880450f63c62d6 -->
 
@@ -706,7 +706,7 @@ He closed the book. Nothing had been made permanent except the cost already paid
 
 <!-- END 2016_CAUSAL THE_FLOOR_THAT_COULD_BE_LIFTED_BOOT_AT_THE_THRESHOLD_CH44_V2_NONCANON.md -->
 
-<!-- BEGIN 2016_CAUSAL THE_ROAD_THAT_WOULD_NOT_WAIT_MEASURE_OF_EMPTY_BOWL_CH45_V2_NONCANON.md | git_blob 5b7fa2e705d633a3599668dc13cb6dc15e74201c -->
+<!-- BEGIN 2016_CAUSAL THE_ROAD_THAT_WOULD_NOT_WAIT_MEASURE_OF_EMPTY_BOWL_CH45_V2_NONCANON.md | git_blob 60a1dfaa6e327e4cfa28aa70b4b222929ee751b8 -->
 
 # The Road That Would Not Wait — The Measure of an Empty Bowl
 
@@ -922,7 +922,7 @@ A man at the rear asked whether the company might be persuaded to play a tune fo
 
 The man laughed, but he did not answer. Someone near him called for the donkey king, and Nella lowered her eyes.
 
-Jake had not moved from his place by the shelf. Orrel's money rested in his own pouch, four coins of the eight the false horse account had brought. The correction he had later made had traveled beyond his sight. He knew no more of its reception than Veyra knew of the stranger's brother. But he recognized the ease with which a person could ask for a pleasing version of a life and call it testimony.
+Jake had not moved from his place by the shelf. Orrel's money rested in his own pouch, four coins of the eight the false horse account had brought. The correction he had later made had traveled beyond his sight. He knew no more of its reception; Veyra had admitted ignorance of the brother. But he recognized the ease with which a person could ask for a pleasing version of a life and call it testimony.
 
 For a moment he imagined crossing the courtyard and telling the man that every song ought to contain what its subject could prove. It would have been a magnificent thing to say, and for that reason he did not trust himself to say it.
 
