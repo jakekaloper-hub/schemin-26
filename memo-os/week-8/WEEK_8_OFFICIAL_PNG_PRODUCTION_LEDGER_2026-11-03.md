@@ -85,3 +85,18 @@ The Founder supplied four finished-looking **local candidate** PNGs for the W08-
 **Remaining non-optional checks:** Reconcile all body copy, titles and any record/score copy to actual authorized source; ensure Parts I–III do not reveal outcomes; make three undersized outputs **genuinely** 1080x1920 with legible type rather than treating a blind resize as full render QA; verify current Red Leopard/LLC approved primary identity input mounts; run same-header and cinematic-Atlas cross-page visual review; obtain real independent and Founder page acceptance. User-uploaded source files are current conversation attachments, **not committed PNGs** and have not been promoted to a repository output folder.
 
 **Next independent matchup production target:** The Last Light, beginning at **W08-10-01** (shared hunter/hunted environmental POV), then W08-10-02 through 10-04. Preserve the full 29-composition original storyboard and the original issue reading order; production order is flexible and 29 packets do not mandate 29 printed pages.
+
+## The Last Light — four local 1080×1920 source-copy review proofs (November 3)
+
+The original `W08-10-01` through `W08-10-04` packets were reconciled to their respective existing exact manuscript passages. Four independently sized portrait PNG **review proofs** were locally assembled from previously generated swamp imagery in the conversation, using deterministic magazine typography. **These are NOT four independent new character-conditioned cinematic generations and do not satisfy final artwork acceptance.** A rejected initial collage and human-Duckhook output were excluded; no human Duckhook appears in these proofs. Two underlying swamp character-art plates are reused with varying crops. No official character-source renderer-mount receipt is present.
+
+| Packet | Local artifact | Dimensions | SHA-256 | Source-copy/score control | Status |
+|---|---|---|---|---|---|
+| W08-10-01 | `/mnt/data/last_light_review/W08-10-01.png` | 1080×1920 | `30bd21bf8cf5f83761f9ee6dda433c0123e2c28b7925e3da097366b814d1559e` | Exact W08-10-01 passage; no score | COPY/LAYOUT PROOF ONLY |
+| W08-10-02 | `/mnt/data/last_light_review/W08-10-02.png` | 1080×1920 | `2dd4f5c649e00e801d5bbc6a2229828f6cfbfee696d1421fcd2f5fc73fe86c44` | Exact W08-10-02 passage; no score | COPY/LAYOUT PROOF ONLY |
+| W08-10-03 | `/mnt/data/last_light_review/W08-10-03.png` | 1080×1920 | `457c628c36330ed99a6edc4570269803aec848a5ec63b0bd42efec1418e3629c` | Exact W08-10-03 passage; no score | COPY/LAYOUT PROOF ONLY |
+| W08-10-04 | `/mnt/data/last_light_review/W08-10-04.png` | 1080×1920 | `0529cf842ea6d16f5542f2d208eaf9abfd9f61e4c64596466b14da4ac190ce4e` | Exact W08-10-04 passage; only page with score, Mud Dogs 100.88 (2–6), Duckhook 174.06 (5–3) | COPY/LAYOUT PROOF ONLY |
+
+Local review pack: `/mnt/data/Schemin26_Week8_TheLastLight_4_Page_Proofs.zip`. **NOT persisted as binary files in GitHub**; paths represent current conversation outputs, not repository locations.
+
+**Still required for final 4-page production:** distinct landscape-first 29-packet shot executions, proven owner-specific source conditioning for both Mud Dogs and Duckhook, independent character and Atlas camera QA, actual phone-scale text QA and Founder review. Do not promote duplicated source-plate variants as four accepted art scenes.
