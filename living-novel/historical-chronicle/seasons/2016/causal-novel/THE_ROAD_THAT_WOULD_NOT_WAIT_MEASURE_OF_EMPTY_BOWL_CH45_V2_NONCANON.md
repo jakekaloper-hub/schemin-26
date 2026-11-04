@@ -212,7 +212,7 @@ A man at the rear asked whether the company might be persuaded to play a tune fo
 
 The man laughed, but he did not answer. Someone near him called for the donkey king, and Nella lowered her eyes.
 
-Jake had not moved from his place by the shelf. Orrel's money rested in his own pouch, four coins of the eight the false horse account had brought. The correction he had later made had traveled beyond his sight. He knew no more of its reception than Veyra knew of the stranger's brother. But he recognized the ease with which a person could ask for a pleasing version of a life and call it testimony.
+Jake had not moved from his place by the shelf. Orrel's money rested in his own pouch, four coins of the eight the false horse account had brought. The correction he had later made had traveled beyond his sight. He knew no more of its reception; Veyra had admitted ignorance of the brother. But he recognized the ease with which a person could ask for a pleasing version of a life and call it testimony.
 
 For a moment he imagined crossing the courtyard and telling the man that every song ought to contain what its subject could prove. It would have been a magnificent thing to say, and for that reason he did not trust himself to say it.
 
