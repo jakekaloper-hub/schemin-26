@@ -16,7 +16,7 @@
 | 02 | The Midseason Reckoning | G1-01 | supporting | REJECTED 2 proofs | Not applicable (character-free target) | FAIL | NOT RUN | NOT RUN | REVISE |
 | 03 | The Last Light I | G1-02 | W08-10-01, W08-10-02 | GENERATED EXPERIMENT, REJECTED BY FOUNDER; RESET TO ORIGINAL POV OVERTURE | ACTUAL PRIMARY MOUNT NOT PROVEN | SOURCE COPY PROVISIONAL; RESOLUTION FAIL 941×1672 | Week 7 pp11/20 reviewed, page rhythm failed | STORYBOARD POV AND CHARACTERS REVISE | REJECTED |
 | 04 | The Last Light II | G1-03 | W08-10-03, W08-10-04 | GENERATED EXPERIMENT, REJECTED BY FOUNDER; CAMERA REBLOCK REQUIRED | ACTUAL PRIMARY MOUNT NOT PROVEN | INVENTED PROSE; RESOLUTION FAIL 941×1672 | INCONSISTENT OVERSIZED COVER HEADER | NO FAIRWAY, WRONG AXIS, MISSED STORYTELLING | REJECTED |
-| 05 | Hostile Ground I | G1-04 | W08-02-01, W08-02-02 | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
+| 05 | Hostile Ground I | G1-04 | W08-02-01, W08-02-02 | W08-02-01 COMPOSITION APPROVED; CHARACTER RENDER REJECTED | NOT PROVEN | NOT RUN | MATCHUP HEADER STYLE APPROVED | CAST DOES NOT MATCH CANON | REVISION REQUIRED |
 | 06 | Hostile Ground II | G1-05 | W08-02-03, W08-02-04 | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
 | 07 | Divisional Pressure | G1-11 | supporting | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
 | 08 | The Storm That Wouldn't Leave I | G1-06 | W08-01-01, W08-01-02 | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
@@ -52,3 +52,9 @@ Pre-generation packet saved at `memo-os/week-8/previs/WEEK_8_UNIT_03_LAST_LIGHT_
 5. Use **this existing Week 8 ledger within the canonical repository**, not a separate Memo OS. Every accepted PNG needs its exact repo path, Git commit, SHA-256, 1080×1920 resolution and copy/character/Atlas/mobile QA evidence.
 
 **Current production acceptance:** 0/20 accepted; 2/2 Unit 02 experimental renders rejected; 19/20 other working units not started (working allocation). No publication or merge authorized.
+
+## Founder W08-02-01 creative selection — 2026-11-03
+
+The Founder has explicitly selected the **original** `Hostile Ground_ Storm-Coast Ruins.png` environment, cinematic framing, and compact two-line inner-page header as the **MATCHUP PAGE VISUAL BENCHMARK FOR ALL SIX FEATURES**. Keep its small SCHEMIN '26 / WEEK 8 top bar, thin burgundy matchup strip, immersive coastal vista and upper/lower reveal; use scene-specific geography elsewhere. The much larger ornate gold crowned masthead shown in the separate screenshot is COVER ONLY. Existing Red Leopards and LLC visible people are wrong and **must be replaced**, not relabeled; do not accept original PNG. The source image is 941×1672, so even with corrected characters an exact 1080×1920 final export/QA is required.
+
+Source visual SHA-256: `877f85df9afc2e268e51b23da5d4a10d8b44e3407b539a57bdec217e32c07874`. Header screenshot SHA-256: `2f6ddce5569379b083fed032df5ff1cdddfa694b532ddd862a612981ff38a416`. Cover-only masthead screenshot SHA-256: `8f2a8b524be8678c9dc8b5268d8bc9b983fc25bff3cd8732b8ba97b7941a18e2`. These user-shared visual materials have NOT been uploaded as repo binaries. Visual selection is **not** completed rendering, character approval, or independent Umpire signoff. Governing lock: `WEEK_8_FOUNDER_CINEMATIC_REALISM_CROSS_PRODUCTION_DIRECTIVE_2026-11-02.md`.
