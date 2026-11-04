@@ -27,13 +27,13 @@ PROTECTED = {
 }
 def gitblob(p):
     data = p.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\\0" + data).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest()
 def rows(s):
     return [(int(n), f, sha, int(w)) for n,f,sha,w in re.findall(
-        r"^\\| (\\d+) \\| \\x60([^\\x60]+)\\x60 \\| \\x60([a-f0-9]{40})\\x60 \\| (\\d+) \\|$",s,re.M)]
+        r"^\| (\d+) \| \x60([^\x60]+)\x60 \| \x60([a-f0-9]{40})\x60 \| (\d+) \|$",s,re.M)]
 def component(s, name, sha):
-    a = f"<!-- BEGIN 2016_CAUSAL {name} | git_blob {sha} -->\\n\\n"
-    b = f"\\n\\n<!-- END 2016_CAUSAL {name} -->"
+    a = f"<!-- BEGIN 2016_CAUSAL {name} | git_blob {sha} -->\n\n"
+    b = f"\n\n<!-- END 2016_CAUSAL {name} -->"
     assert s.count(a)==s.count(b)==1, name
     return s.split(a,1)[1].split(b,1)[0]
 class ChapterThirtySevenV2(unittest.TestCase):
@@ -46,19 +46,19 @@ class ChapterThirtySevenV2(unittest.TestCase):
         cls.reader=(BASE/READER).read_text()
         cls.oldrows=rows(cls.previous)
         cls.newrows=rows(cls.reader)
-        cls.prose=cls.chapter.split("### I.",1)[1].split("\\n---\\n",1)[0]
+        cls.prose=cls.chapter.split("### I.",1)[1].split("\n---\n",1)[0]
     def test_01_old_chapter_preserved(self): self.assertEqual(gitblob(BASE/OLD),OLD_SHA)
     def test_02_scene_preserved(self): self.assertEqual(gitblob(BASE/SCENE),SCENE_SHA)
     def test_03_new_chapter_blob(self): self.assertEqual(gitblob(BASE/CHAPTER),CHAPTER_SHA)
     def test_04_prior_reader_preserved(self): self.assertEqual(gitblob(BASE/PREVIOUS),PREVIOUS_SHA)
     def test_05_reader_blob(self): self.assertEqual(gitblob(BASE/READER),READER_SHA)
     def test_06_six_original_movements(self):
-        self.assertEqual(re.findall(r"^### ([IVX]+)\\. ",self.chapter,re.M),["I","II","III","IV","V","VI"])
+        self.assertEqual(re.findall(r"^### ([IVX]+)\. ",self.chapter,re.M),["I","II","III","IV","V","VI"])
         for line in ("The ash did not leave the tiles", "The travelers stayed in the back room", "The first cut made a sound", "The narrow cart would depart at first light", "Fara's gate stood open"):
             self.assertIn(line,self.chapter)
     def test_07_substantive_scene_and_exact_body(self):
         heading="### Interlude — The empty place at the second table"
-        scene=heading+self.scene.split(heading,1)[1].split("\\n---\\n\\n**Provenance",1)[0].rstrip()
+        scene=heading+self.scene.split(heading,1)[1].split("\n---\n\n**Provenance",1)[0].rstrip()
         self.assertGreaterEqual(len(scene.split()),2000)
         self.assertIn(scene,self.chapter)
         self.assertLess(self.chapter.index("### IV. "),self.chapter.index(heading))
@@ -96,7 +96,7 @@ class ChapterThirtySevenV2(unittest.TestCase):
                 self.assertEqual(gitblob(BASE/f),sha)
                 src=(BASE/f).read_text()
                 self.assertEqual(len(src.split()),w)
-                self.assertEqual(component(self.reader,f,sha),src.rstrip("\\n"))
+                self.assertEqual(component(self.reader,f,sha),src.rstrip("\n"))
     def test_15_old_bodies_exact(self):
         for _,f,sha,_ in self.oldrows:
             with self.subTest(file=f):
