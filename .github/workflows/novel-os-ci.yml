@@ -156,6 +156,15 @@ jobs:
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter_fourteen_reader.py" -v
       - name: Validate full 2016 causal manuscript reader chain (noncanon, source-exact)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_causal_chapter*reader.py" -q
+      - name: Assemble source-exact 42-part 2016 developmental reader (noncanon; fail closed)
+        run: python living-novel/historical-chronicle/qa/build_2016_causal_42_part_bowl_reader.py --output artifacts/commonwealth-2016-causal-42-part-bowl-v2-NONCANON.md
+      - name: Retain assembled 42-part developmental reader for independent review (nonpublishing)
+        uses: actions/upload-artifact@v4
+        with:
+          name: commonwealth-2016-42part-developmental-reader-noncanon
+          path: artifacts/commonwealth-2016-causal-42-part-bowl-v2-NONCANON.md
+          if-no-files-found: error
+          retention-days: 7
       - name: Verify 2016 sixteen-part Chapter XIX V2 source-exact reader (noncanon)
         run: python -m unittest discover -s living-novel/historical-chronicle/qa -p "test_2016_sixteen_part_bed_v2.py" -v
       - name: Verify 2016 17-part Chapter XX Senn and Mara developmental reading (noncanon)
