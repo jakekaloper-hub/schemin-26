@@ -23,12 +23,12 @@ PROTECTED={
 "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md":"49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"}
 def gitblob(path):
   b=path.read_bytes()
-  return hashlib.sha1(b"blob "+str(len(b)).encode()+b"\\0"+b).hexdigest()
+  return hashlib.sha1(b"blob "+str(len(b)).encode()+b"\0"+b).hexdigest()
 def rows(s):
-  return [(int(n),f,sha,int(w)) for n,f,sha,w in re.findall(r"^\\| (\\d+) \\| \\x60([^\\x60]+)\\x60 \\| \\x60([a-f0-9]{40})\\x60 \\| (\\d+) \\|$",s,re.M)]
+  return [(int(n),f,sha,int(w)) for n,f,sha,w in re.findall(r"^\| (\d+) \| \x60([^\x60]+)\x60 \| \x60([a-f0-9]{40})\x60 \| (\d+) \|$",s,re.M)]
 def body(s,f,sha):
-  a=f"<!-- BEGIN 2016_CAUSAL {f} | git_blob {sha} -->\\n\\n"
-  b=f"\\n\\n<!-- END 2016_CAUSAL {f} -->"
+  a=f"<!-- BEGIN 2016_CAUSAL {f} | git_blob {sha} -->\n\n"
+  b=f"\n\n<!-- END 2016_CAUSAL {f} -->"
   assert s.count(a)==s.count(b)==1,f
   return s.split(a,1)[1].split(b,1)[0]
 class ChapterThirtyEightWindows(unittest.TestCase):
@@ -46,11 +46,11 @@ class ChapterThirtyEightWindows(unittest.TestCase):
  def test_04_previous_reader_preserved(self): self.assertEqual(gitblob(BASE/PREV),PREV_SHA)
  def test_05_reader_blob(self): self.assertEqual(gitblob(BASE/READER),READER_SHA)
  def test_06_six_archived_movements_preserved(self):
-  a=self.old.split("### I.",1)[1].split("\\n---\\n\\n### Editorial handoff",1)[0]
+  a=self.old.split("### I.",1)[1].split("\n---\n\n### Editorial handoff",1)[0]
   self.assertIn("### I."+a,self.ch)
-  self.assertEqual(re.findall(r"^### ([IVX]+)\\. ",self.ch,re.M),["I","II","III","IV","V","VI"])
+  self.assertEqual(re.findall(r"^### ([IVX]+)\. ",self.ch,re.M),["I","II","III","IV","V","VI"])
  def test_07_scene_embedded(self):
-  part=self.scene.split("### Prelude —",1)[1].split("\\n---\\n",1)[0].rstrip()
+  part=self.scene.split("### Prelude —",1)[1].split("\n---\n",1)[0].rstrip()
   self.assertIn("### Prelude —"+part,self.ch)
   self.assertLess(self.ch.index("### Prelude —"),self.ch.index("### I."))
   self.assertGreaterEqual(len(part.split()),1700)
@@ -62,7 +62,7 @@ class ChapterThirtyEightWindows(unittest.TestCase):
   for _,f,sha,w in self.b:
    with self.subTest(f=f):
     self.assertEqual(gitblob(BASE/f),sha)
-    self.assertEqual(body(self.reader,f,sha),(BASE/f).read_text().rstrip("\\n"))
+    self.assertEqual(body(self.reader,f,sha),(BASE/f).read_text().rstrip("\n"))
     self.assertEqual(len((BASE/f).read_text().split()),w)
  def test_10_old_embedded_bodies_unchanged(self):
   for _,f,sha,_ in self.a: self.assertEqual(body(self.previous,f,sha),body(self.reader,f,sha))
