@@ -1,6 +1,6 @@
 # Week 8 — Unit 03: The Last Light, Part I — Render Preflight
 
-**Status: SOURCE-RECONCILED / CHARACTER RENDER INPUTS NOT YET MOUNT-PROVEN / NOT FINAL-RENDER RELEASED.**
+**Status: ACTION-FIRST MANUSCRIPT RECONCILED / PREVIOUS COPYFIT VOID / CHARACTER RENDER INPUTS NOT MOUNT-PROVEN / NOT FINAL-RENDER RELEASED.**
 **Working unit:** 03 of 20; generation order G1-02. **Canvas:** 1080 × 1920 PNG (9:16), x=90..990 and y=140..1760 provisional type safe zone. **Issue design authority:** Published 31-page Week 7 Official Memo, then Memo OS V5.2-RC and current Founder directives. **PR:** #272, branch `week8-storyboard-dependency-gate-20261102`.
 
 ## 1. Exact source contracts
@@ -53,17 +53,19 @@ Carry forward: premium lifelike character depiction; believable inhabited, physi
 - 1340–1750: exact two-paragraph copy in balanced two columns, safe x90..990. No AI-produced lettering in the image plate; overlay deterministic typography.
 - **Measured first-pass typographic proxy:** 126 source words total (67 / 59), two columns each 427 px wide with 46 px gutter; EB Garamond body proxy at 28 px, 1.18 line spacing, ~12 / 10 wrapped lines and 396.5 px maximum column height. The allocated 1340–1750 text zone is 410 px tall. This is a font-metric feasibility calculation, **not a rendered visual copyfit pass**; actual final font, scene contrast, safe zones and phone-size legibility remain to be checked. No score receipt on this opening page. Keep all printed text within the established safe zone; do not force an infeasible font size.
 
-## 5. Verbatim provisional manuscript content (not final locked copy)
+## 5. Current action-first manuscript copy (NOVEMBER 4 RESET; NOT APPROVED)
 
-**W08-10-01:**
+**W08-10-01 — Dual-POV overture, first movement:**
 
-> The swamp held the last copper of the evening on its surface. Along the raised ground, Mud Dogs waited with wet fur and a heavy chain, the immense beast nearly indistinguishable from the dark earth until he moved. Across the channel, Dr. Duckhook's white feathers and unlikely golf attire marked a figure who seemed spectacularly out of place. The water between them was quiet, but not empty.
+> Something enormous ripped through the reeds—and stopped. Mud Dogs stood on a mud-slick rise, blue-and-orange fur plastered to his shoulders, the heavy chain swinging beneath his jaw. He had heard a crisp metallic *click* across the black channel. On the far bank, Dr. Duckhook steadied his golf-club arm and looked through a tunnel of cypress toward a distant strip of open ground. The last daylight caught his white feathers and green cap. The beast dropped his head to the wind. The duck tested the turf with one foot. They had entered the same stretch of swamp for very different reasons. Between them ran dark water, hidden roots, and a narrowing route that would soon force both to move.
 
-**W08-10-02:**
+**W08-10-02 — Disturbed trail and real pursuit:**
 
-> The first disturbance could have been mistaken for a branch falling into the water. Then another mark appeared along the wet edge of the channel, and the hunt became specific. Mud Dogs followed what the ground would tell him. Duckhook advanced with the awkward determination of someone whose equipment had been designed for an entirely different kind of course.
+> Mud Dogs found the first track beside a snapped reed, then another where something had splashed through the shallows. His nostrils flared; his chain dragged a hard line through the wet soil as he broke into a run. Duckhook heard the thudding pursuit behind the trees. He didn't turn to challenge it. He crossed a narrow spit of firmer earth, stepped over an exposed root, and kept moving toward the pale opening ahead. The beast vaulted a fallen trunk and landed in mud that burst against the cypress bark. Now the swamp had a rhythm: claws, chain, water, breath. Each impact came closer. Duckhook set his feet on the dry bank and drew his driver back.
 
-**Copy rule:** Above are EXACT from source Section E. Do not insert an invented quote, headline blurb, score, or description as official copy. Copy may be professionally line-edited only with a separately recorded source revision. All typography must be checked on an actual output at phone reading size.
+**Mandatory continuation:** W08-10-03 is the rear-camera moving chase with Duckhook striking his golf ball toward a visible fairway and Mud Dogs charging behind. Never substitute a static two-subject confrontation. Source: latest Session E/29-packet JSON; no approved final copy or final 1080×1920 layout.
+
+**Copy rule:** These passages are live candidate manuscript source, not finalized poster typography. Confirm visual copyfit and physical action continuity before generation or publication. Prior 126-word font-metric proxy is invalid for this rewritten text.
 
 ## 6. Go/no-go checks
 
@@ -73,9 +75,9 @@ Carry forward: premium lifelike character depiction; believable inhabited, physi
 - [x] Parent swamp location established; tentative subsite held provisional.
 - [ ] Actual historical primary source bytes reverified **or** accepted native handle attached to generator with proof; both subject bindings not yet demonstrated.
 - [ ] Duckhook hat/wardrobe appearance compared against actual conditioned source output.
-- [x] Preliminary two-column font-metric fit for the exact 126 words (proxy only; not final visual signoff).
+- [ ] New action-first manuscript requires fresh font/copyfit proof; previous 126-word proxy is superseded.
 - [ ] Actual 1080×1920 raster proof with no generated text and deterministic copy overlay.
 - [ ] Copyfit legibility, pixel dimensions, character identity, source-copy accuracy and atlas continuity inspection.
 - [ ] Authenticated Umpire/Founder acceptance.
 
-**DISPOSITION:** READY AS A SOURCE-GROUNDED PRE-GENERATION BRIEF, **NOT** an approved final PNG, character-binding pass, independent QA, or release authorization.
+**DISPOSITION:** ACTION-FIRST SOURCE RECONCILED, STILL NOT RENDER-READY; SOURCE REFERENCES AND TYPOGRAPHY NEED LIVE VERIFICATION, **NOT** an approved final PNG, character-binding pass, independent QA, or release authorization.
