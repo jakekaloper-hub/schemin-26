@@ -51,7 +51,7 @@ Carry forward: premium lifelike character depiction; believable inhabited, physi
 - 220–1160: uninterrupted environment-led cinematic illustration.
 - 1170–1360: feature serif headline placed over a deliberately quiet region.
 - 1340–1750: exact two-paragraph copy in balanced two columns, safe x90..990. No AI-produced lettering in the image plate; overlay deterministic typography.
-- **Measured first-pass typographic proxy:** 126 source words total (67 / 59), two columns each 427 px wide with 46 px gutter; EB Garamond body proxy at 28 px, 1.18 line spacing, ~12 / 10 wrapped lines and 396.5 px maximum column height. The allocated 1340–1750 text zone is 410 px tall. This is a font-metric feasibility calculation, **not a rendered visual copyfit pass**; actual final font, scene contrast, safe zones and phone-size legibility remain to be checked. No score receipt on this opening page. Keep all printed text within the established safe zone; do not force an infeasible font size.
+- **CURRENT COPYFIT:** NOT RUN on the action-first 2026-11-04 manuscript. Earlier 126-word/two-column font calculations refer to superseded text and must not be used as release evidence. Recalculate only after page design and body copy are selected; phone-size raster inspection remains mandatory.
 
 ## 5. Current action-first manuscript copy (NOVEMBER 4 RESET; NOT APPROVED)
 
