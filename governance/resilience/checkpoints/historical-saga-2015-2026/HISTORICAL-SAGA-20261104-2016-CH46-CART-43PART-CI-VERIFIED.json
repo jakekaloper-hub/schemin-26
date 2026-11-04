@@ -1,0 +1,129 @@
+{
+  "date": "2026-11-04",
+  "kind": "EXACT_COMMIT_CI_VERIFIED_NONCANON_2016_CHAPTER_XLVI_V2_43_PART_EDITORIAL_MANUSCRIPT_CHECKPOINT",
+  "repository": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "verified_production_commit": "65e1f4477e352fa752f21a08d0306bc2a0972320",
+  "governing_main_seen": {
+    "schemin_26": "e0858b8bc27db2bb095e0e03483b5c98e5809052",
+    "bullpen": "86889a59efb0e7dcdc37eef639981944dc77ed67"
+  },
+  "authority_sources_read": [
+    "SCHEMIN_26_PROJECT_MISSION.md",
+    "PROJECT_CONTROL_REGISTRY.md",
+    "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "governance/execution-control/TASK_REGISTRY_V1.json",
+    "jakekaloper-hub/bullpen:BULLPEN.md",
+    "jakekaloper-hub/bullpen:docs/COMMAND_SYSTEM_V2.md",
+    "jakekaloper-hub/bullpen:runtime/lifecycleEngine.js",
+    "schemin issues #210 #211 #214 #215 #219; PR #188 closed, #252 and #261 draft, #243 draft; bullpen issue #117"
+  ],
+  "literary_output": {
+    "chapter": "Chapter XLVI V2 — The Distance Between Two Gates: The Cart Without a Straight Wheel",
+    "original_scene_words": 2029,
+    "original_chapter_words_including_metadata": 5586,
+    "revised_chapter_words_including_metadata": 7833,
+    "original_movement_bodies_preserved_source_exact": 6,
+    "revised_movement_count": 7,
+    "scene": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_DISTANCE_BETWEEN_TWO_GATES_CART_WITHOUT_A_STRAIGHT_WHEEL_CH46_V2_SCENE_NONCANON.md",
+    "chapter_path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_DISTANCE_BETWEEN_TWO_GATES_CART_WITHOUT_A_STRAIGHT_WHEEL_CH46_V2_NONCANON.md",
+    "principal_limited_interior_pov": "fictional Jake only; 2016 owner-to-scoring-slot association not authenticated",
+    "fiction_provenance": "Tavi, fruit-cart, split peg, fruit tally, help transaction, orchard walk are proposed fictional events and geography, not historical competition facts"
+  },
+  "source_blobs": {
+    "original_46": "9c866df37a5bebe0b244b55921e1bf28aa75e06d",
+    "scene_46_v2": "8bf57ce9ee5e7d7ed3754d167b7f3bfd5353b4b7",
+    "chapter_46_v2": "7d13718436fd4a84d37ba5093a920052bb870787",
+    "previous_45_v2": "60a1dfaa6e327e4cfa28aa70b4b222929ee751b8",
+    "archived_2016_competition_evidence": "6dbec1fe2537139f3a97c6a78250e2bae082a518"
+  },
+  "assembly": {
+    "previous_components": 42,
+    "total_components": 43,
+    "previous_component_words_including_metadata": 323490,
+    "new_component_words_including_metadata": 7833,
+    "total_component_words_including_metadata": 331323,
+    "previous_42_components_preserved_exact": true,
+    "builder": "living-novel/historical-chronicle/qa/build_2016_causal_43_part_cart_reader.py",
+    "generated_in_GitHub_Actions": true,
+    "full_file_committed_to_git": false,
+    "archive_artifact_id": 13313254986,
+    "archive_artifact_name": "commonwealth-2016-43part-cart-developmental-reader-noncanon",
+    "archive_artifact_size_bytes": 671592,
+    "archive_artifact_run": 41815548106,
+    "archive_artifact_expires": "2026-11-11T10:39:16Z",
+    "artifact_url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41815548106"
+  },
+  "tests": {
+    "new_test": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_forty_six_cart_v2_reader.py",
+    "new_regression_tests": 24,
+    "historical_suite_tests_passed": 1718,
+    "new_standalone_tests_passed": 24,
+    "verified_in_workflow_logs": true,
+    "observed_failure_repaired": "Initial negative literal assertion expected NOT RECEIVED but actual manuscript used Outstanding:. Repaired test assertion only, leaving prose intact; later runs green.",
+    "protected_prologue_chapters_1_3_blob_equal": true,
+    "archive_2016_blob_equal": true,
+    "no_unlicensed_secondary_interior_assigned": true,
+    "regression_count_is_historical_suite_not_independent_editorial_review": true
+  },
+  "exact_commit_workflows": [
+    {
+      "name": "Novel OS CI",
+      "run_id": 41815558155,
+      "head_sha": "65e1f4477e352fa752f21a08d0306bc2a0972320",
+      "conclusion": "success",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41815558155"
+    },
+    {
+      "name": "Cross-Domain Authority CI",
+      "run_id": 41815558366,
+      "head_sha": "65e1f4477e352fa752f21a08d0306bc2a0972320",
+      "conclusion": "success",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41815558366"
+    },
+    {
+      "name": "Bullpen Runtime CI",
+      "run_id": 41815557986,
+      "head_sha": "65e1f4477e352fa752f21a08d0306bc2a0972320",
+      "conclusion": "success",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41815557986"
+    },
+    {
+      "name": "Repository Merge Gate",
+      "run_id": 41815558052,
+      "head_sha": "65e1f4477e352fa752f21a08d0306bc2a0972320",
+      "conclusion": "success",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41815558052"
+    }
+  ],
+  "reviews": {
+    "schemin_pr_comment_id": 6628640557,
+    "bullpen_issue_comment_id": 6628641100,
+    "authors_council": "NOT_RECEIVED",
+    "historical_librarian": "NOT_RECEIVED",
+    "period_atlas": "NOT_RECEIVED",
+    "character_canon": "NOT_RECEIVED",
+    "independent_umpire": "NOT_RECEIVED",
+    "last_observed_submitted_pr_reviews": 0,
+    "review_requests_are_not_approvals": true,
+    "editorial_objections": [
+      "Repeated metaphor of notches/ledger truth and unearned symbolic neatness",
+      "Practical wheel/peg and fruit-delivery logistics",
+      "Tavi, Nella and Sela agency distinct from Jake moral lessons",
+      "Overreliance on Jake interior across long historical saga",
+      "Chapter XLVII continuity and uncertainty of buyer, route and cart outcome"
+    ]
+  },
+  "release": {
+    "noncanon": true,
+    "draft_pr": true,
+    "merged": false,
+    "published": false,
+    "canon_promoted": false,
+    "independent_umpire_accepted": false,
+    "founder_release_approved": false
+  },
+  "next": "Resume current branch, verify latest checkpoint-only commit status without inheriting earlier CI, then proceed to Chapter XLVII — The Bell That Had No Owner — to write substantial original fiction while preserving existing six movements, civic-bell and night-watch uncertainty, Sela and Nella independence, 2016 provider/auth/Atlas holds, and twelve owner-only POV. Rebuild 44-part reader using 43-part builder as source-exact predecessor; add negative and continuity tests, run CI and seek independent review. Do not promote canon.",
+  "caveat": "The listed 4 CI PASS results attach only to verified production commit 65e1f4477e352fa752f21a08d0306bc2a0972320. This checkpoint adds a later commit and does NOT inherit exact-commit workflow verification. The durable request for independent review is not itself independent review."
+}
