@@ -1,0 +1,127 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261029-2016-CHRONICLE-W09-PARTIAL-READER",
+  "date": "2026-10-29",
+  "repository": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "previous": "HISTORICAL-SAGA-20261029-2016-CHRONICLE-W08-PARTIAL-READER",
+  "state": "NONCANON_CHRONICLE_2016_WEEK09_TEN_PART_ASSEMBLED_READER_TECH_VERIFIED_EDITORIAL_HOLD",
+  "authority": {
+    "matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "context": "living-novel/os/SESSION_CONTEXT.md",
+    "bullpen_registry": "jakekaloper-hub/bullpen/docs/COMMAND_SYSTEM_V2.md",
+    "bullpen_lifecycle": "jakekaloper-hub/bullpen/runtime/lifecycleEngine.js",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "prs": {
+      "188": "MERGED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT",
+      "261": "OPEN_DRAFT"
+    }
+  },
+  "source": {
+    "path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+    "blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "identity": "NOT_PROVIDER_AUTHENTICATED",
+    "fresh_upstream": false
+  },
+  "literary_output": {
+    "week8": {
+      "title": "The Song No One Could Sell",
+      "path": "living-novel/historical-chronicle/seasons/2016/weeks/W08.md",
+      "blob": "f96082ae79cae7cae5681a8ceec2cd69601ea403",
+      "words_including_notes": 5934,
+      "scenes": 6
+    },
+    "week9": {
+      "title": "The Wheel That Learned to Wait",
+      "path": "living-novel/historical-chronicle/seasons/2016/weeks/W09.md",
+      "blob": "b615615d42980b32d37b8773f861ee9cba5b9505",
+      "words_including_notes": 5001,
+      "scenes": 6
+    },
+    "reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/READING_COPY_PROLOGUE_W01_W09_PARTIAL_NONCANON.md",
+      "blob": "aacdc600e64c266b24e084902aca926c6b63b240",
+      "words_including_assembly": 42582,
+      "verbatim_components": 10
+    },
+    "source_receipts": [
+      "living-novel/historical-chronicle/seasons/2016/W08_SOURCE_QA_RECEIPT.md",
+      "living-novel/historical-chronicle/seasons/2016/W09_SOURCE_QA_RECEIPT.md"
+    ],
+    "season_draft_regular_coverage": "54/78",
+    "current_weeks": "W01-W09",
+    "season_complete": false,
+    "causal_novel_complete": false
+  },
+  "verified": {
+    "direct_github_readback": {
+      "archive_six_fixtures_each_week8_week9": true,
+      "component_bodies_exact_10": true,
+      "protected_hardcanon_prologue_ch1_ch2_ch3_equal_main": true
+    },
+    "new_regression_methods": {
+      "week8": 12,
+      "week8_reader": 6,
+      "week9": 12,
+      "week9_reader": 6,
+      "total": 36
+    },
+    "observed_initial_ci_failure": {
+      "run": 40959168533,
+      "cause": "Assertion expected 'invoice remains unpaid' but manuscript used 'invoice remained unpaid'",
+      "remedy": "Test-only correction; manuscript unchanged",
+      "repair_commit": "35288ca3c8fc2c89ce2844fb1348284ef6e594af"
+    },
+    "last_tested_before_checkpoint": "35288ca3c8fc2c89ce2844fb1348284ef6e594af",
+    "workflows": [
+      {
+        "name": "Novel OS CI",
+        "id": 40959318518,
+        "conclusion": "success",
+        "explicit_week8_and_week9_fixture_and_reader_steps": "success"
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "id": 40959318635,
+        "conclusion": "success"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "id": 40959318725,
+        "conclusion": "success"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "id": 40959318501,
+        "conclusion": "success"
+      }
+    ],
+    "checkpoint_commit": "PENDING_NEW_COMMIT_EXACT_HEAD_READBACK",
+    "independent_review": "NOT_RECEIVED"
+  },
+  "gates": {
+    "historical_owner": "HOLD",
+    "period_character_canon": "HOLD",
+    "atlas": "HOLD",
+    "literary_acceptance": "HOLD",
+    "independent_umpire": "HOLD",
+    "founder_canon_promote": "HOLD",
+    "merge": "HOLD",
+    "publication": "HOLD"
+  },
+  "next": [
+    "Read exact final checkpoint-inclusive PR head and CI before claiming final green",
+    "Request actual independent Author Council/Atlas/Character/Umpire review; comments alone are not acceptance",
+    "Write source-grounded 2016 Week Ten six-fixture fiction and extend source-exact reader without altering prior components",
+    "Do not automatically treat each Chronicle week as an edited novel chapter"
+  ]
+}

@@ -1,0 +1,744 @@
+{
+  "baseline_commit": "8fcb77191955f413fe970154d47632770f923055",
+  "scope": "Existing baseline Novel manuscripts, full-rewrite manuscripts/drafts, chapter04 and week04-05 sources; excludes new approved-mission drafts and all Memo prose from literary coverage. Not exhaustive proof of absence across every archived branch.",
+  "method": "Human reading of scene content, verified exact heading/line anchors; filename or score presence alone not treated as substantive scene. Aftermath scenes qualify; no requirement for separate game chapters.",
+  "counts": {
+    "SUBSTANTIVE_SCENE": 18,
+    "RECORD_REFERENCE": 3,
+    "HYPOTHETICAL_SUMMARY": 9,
+    "ABSENT_IN_AUDITED_BASELINE_NOVEL_CORPUS": 6
+  },
+  "events": [
+    {
+      "event_id": "ESPN1417621-2026-P01-E001",
+      "period": 1,
+      "fixture": "Mud Dogs / Red Leopards",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "SUBSTANTIVE_SCENE",
+      "passages": [
+        {
+          "path": "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md",
+          "sha256": "9f2dd7b2b4b65e29c37fdfccb53b3a13a48ae225c56aeafa3d4b6b931e5be01d",
+          "heading": "## VI. The Results Beneath the Results",
+          "heading_line": 1481,
+          "anchor_line": 1503,
+          "anchor_text": "Edrin saw Kevin Zeek at the eastern practice ground that afternoon.",
+          "artifact_status": "EXISTING_HARD_CANON_WITNESS_PRESERVE_BYTES_ACTIVE_POV_MIGRATION_REQUIRED",
+          "classification": "SUBSTANTIVE_SCENE",
+          "finding": "Brief aftermath micro-scene: Kevin orders a repeat survey after close defeat. Exists, but limited depth and retired observer POV prevent active-reader acceptance."
+        },
+        {
+          "path": "living-novel/production/full-rewrite-2026/manuscript/CHAPTER_01_THE_FIRST_ANSWER_LINE_EDIT_V2_NONCANON.md",
+          "sha256": "1ab2ab786acb9f8255402e359245cbe609bfa88b922e23dc39cd7876f787024f",
+          "heading": "## I. Six Bells",
+          "heading_line": 9,
+          "anchor_line": 43,
+          "anchor_text": "MUD DOGS — 125.36.",
+          "artifact_status": "NONCANON_DEVELOPMENT_CANDIDATE_NOT_ACCEPTED",
+          "classification": "RECORD_REFERENCE",
+          "finding": "Current-owner rewrite preserves result and public argument, not a standalone Mud/Red scene."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Assess sufficiency, continuity, current POV/canon compliance, scene depth and independent literary acceptance; reuse rather than discard."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P01-E002",
+      "period": 1,
+      "fixture": "Dr. Duckhook / Seven Deadly Chins",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "SUBSTANTIVE_SCENE",
+      "passages": [
+        {
+          "path": "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md",
+          "sha256": "9f2dd7b2b4b65e29c37fdfccb53b3a13a48ae225c56aeafa3d4b6b931e5be01d",
+          "heading": "## IV. One and a Half",
+          "heading_line": 973,
+          "anchor_line": 999,
+          "anchor_text": "Seven Deadly Chins.",
+          "artifact_status": "EXISTING_HARD_CANON_WITNESS_PRESERVE_BYTES_ACTIVE_POV_MIGRATION_REQUIRED",
+          "classification": "SUBSTANTIVE_SCENE",
+          "finding": "Adjudication and allocation aftermath gives narrow loss dramatic form; retired observer POV needs migration."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Assess sufficiency, continuity, current POV/canon compliance, scene depth and independent literary acceptance; reuse rather than discard."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P01-E003",
+      "period": 1,
+      "fixture": "D0nkey K0ng / Slob on my Dobb",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "SUBSTANTIVE_SCENE",
+      "passages": [
+        {
+          "path": "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md",
+          "sha256": "9f2dd7b2b4b65e29c37fdfccb53b3a13a48ae225c56aeafa3d4b6b931e5be01d",
+          "heading": "## VI. The Results Beneath the Results",
+          "heading_line": 1481,
+          "anchor_line": 1543,
+          "anchor_text": "Wilson stood four-legged among the rubble, red armor catching sunset, axe resting against one shoulder.",
+          "artifact_status": "EXISTING_HARD_CANON_WITNESS_PRESERVE_BYTES_ACTIVE_POV_MIGRATION_REQUIRED",
+          "classification": "SUBSTANTIVE_SCENE",
+          "finding": "Wall-repair dialogue between Wilson and Jordan is a short aftermath scene, not merely a score; active anatomy and POV review remain necessary."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Assess sufficiency, continuity, current POV/canon compliance, scene depth and independent literary acceptance; reuse rather than discard."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P01-E004",
+      "period": 1,
+      "fixture": "ObiWan Jacoby / His Majesty's Blood",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "SUBSTANTIVE_SCENE",
+      "passages": [
+        {
+          "path": "living-novel/production/full-rewrite-2026/manuscript/CHAPTER_01_THE_FIRST_ANSWER_LINE_EDIT_V2_NONCANON.md",
+          "sha256": "1ab2ab786acb9f8255402e359245cbe609bfa88b922e23dc39cd7876f787024f",
+          "heading": "## III. Proof and Possession",
+          "heading_line": 315,
+          "anchor_line": 319,
+          "anchor_text": "A boy stopped him at the archive steps and asked if the Belt was still real.",
+          "artifact_status": "NONCANON_DEVELOPMENT_CANDIDATE_NOT_ACCEPTED",
+          "classification": "SUBSTANTIVE_SCENE",
+          "finding": "Austin faces printed false Belt succession; substantial choice, dialogue and public consequence. Source hard Chapter I is retained."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Assess sufficiency, continuity, current POV/canon compliance, scene depth and independent literary acceptance; reuse rather than discard."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P01-E005",
+      "period": 1,
+      "fixture": "Chili Cheesers / The LLC",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "SUBSTANTIVE_SCENE",
+      "passages": [
+        {
+          "path": "living-novel/production/full-rewrite-2026/manuscript/CHAPTER_01_THE_FIRST_ANSWER_LINE_EDIT_V2_NONCANON.md",
+          "sha256": "1ab2ab786acb9f8255402e359245cbe609bfa88b922e23dc39cd7876f787024f",
+          "heading": "## II. The Grain Exchange",
+          "heading_line": 143,
+          "anchor_line": 147,
+          "anchor_text": "Brandon Pryor had rented a table.",
+          "artifact_status": "NONCANON_DEVELOPMENT_CANDIDATE_NOT_ACCEPTED",
+          "classification": "SUBSTANTIVE_SCENE",
+          "finding": "Victory creates feeding, credit and repair obligations; substantive principal-POV recovery candidate."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Assess sufficiency, continuity, current POV/canon compliance, scene depth and independent literary acceptance; reuse rather than discard."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P01-E006",
+      "period": 1,
+      "fixture": "Three Dreaded Snake / El Niño",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "SUBSTANTIVE_SCENE",
+      "passages": [
+        {
+          "path": "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md",
+          "sha256": "9f2dd7b2b4b65e29c37fdfccb53b3a13a48ae225c56aeafa3d4b6b931e5be01d",
+          "heading": "## V. Stone and Water",
+          "heading_line": 1255,
+          "anchor_line": 1297,
+          "anchor_text": "Three Dreaded Snake stood among the ruins of an outer field structure, shoulders lifted, claws set into fractured masonry.",
+          "artifact_status": "EXISTING_HARD_CANON_WITNESS_PRESERVE_BYTES_ACTIVE_POV_MIGRATION_REQUIRED",
+          "classification": "SUBSTANTIVE_SCENE",
+          "finding": "Existing aftermath confrontation. Retired narrator, old anatomy and storm embodiment must be reconciled; no acceptance implied."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Assess sufficiency, continuity, current POV/canon compliance, scene depth and independent literary acceptance; reuse rather than discard."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P02-E001",
+      "period": 2,
+      "fixture": "Mud Dogs / ObiWan Jacoby",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "SUBSTANTIVE_SCENE",
+      "passages": [
+        {
+          "path": "living-novel/production/full-rewrite-2026/manuscript/CHAPTER_02_WHAT_COMES_BACK_LINE_EDIT_V2_NONCANON.md",
+          "sha256": "16e0890db073b763b128918520afd171613adff2452a9e85a44f75a7ab0d7fd0",
+          "heading": "## II. The Ground He Knows",
+          "heading_line": 86,
+          "anchor_line": 131,
+          "anchor_text": "MUD DOGS — 130.84.",
+          "artifact_status": "NONCANON_DEVELOPMENT_CANDIDATE_NOT_ACCEPTED",
+          "classification": "SUBSTANTIVE_SCENE",
+          "finding": "Mud/Obi contest and aftermath in wetland geography; substantive recovery candidate."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Assess sufficiency, continuity, current POV/canon compliance, scene depth and independent literary acceptance; reuse rather than discard."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P02-E002",
+      "period": 2,
+      "fixture": "D0nkey K0ng / Three Dreaded Snake",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "SUBSTANTIVE_SCENE",
+      "passages": [
+        {
+          "path": "living-novel/production/full-rewrite-2026/manuscript/CHAPTER_02_WHAT_COMES_BACK_LINE_EDIT_V2_NONCANON.md",
+          "sha256": "16e0890db073b763b128918520afd171613adff2452a9e85a44f75a7ab0d7fd0",
+          "heading": "## III. Three Heads in the Mirror",
+          "heading_line": 202,
+          "anchor_line": 219,
+          "anchor_text": "D0NKEY K0NG — 165.78.",
+          "artifact_status": "NONCANON_DEVELOPMENT_CANDIDATE_NOT_ACCEPTED",
+          "classification": "SUBSTANTIVE_SCENE",
+          "finding": "Barber aftermath provides humiliation, choice and dialogue; title and three-headed anatomy conflict with current TDS canon and require repair."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Assess sufficiency, continuity, current POV/canon compliance, scene depth and independent literary acceptance; reuse rather than discard."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P02-E003",
+      "period": 2,
+      "fixture": "Slob on my Dobb / Dr. Duckhook",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "SUBSTANTIVE_SCENE",
+      "passages": [
+        {
+          "path": "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md",
+          "sha256": "232c0b9f5b078bdfa8cf8edf9dd85ac5faa47b4c34ab32ecf0cef34bb07dfc6a",
+          "heading": "## V. Members Only",
+          "heading_line": 777,
+          "anchor_line": 797,
+          "anchor_text": "Jordan Hollingshead broke seven before breakfast.",
+          "artifact_status": "EXISTING_HARD_CANON_WITNESS_PRESERVE_BYTES_ACTIVE_POV_MIGRATION_REQUIRED",
+          "classification": "SUBSTANTIVE_SCENE",
+          "finding": "Slob/Duckhook Encounter and club repairs are dramatized, but legacy narrator needs migration."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Assess sufficiency, continuity, current POV/canon compliance, scene depth and independent literary acceptance; reuse rather than discard."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P02-E004",
+      "period": 2,
+      "fixture": "Red Leopards / Chili Cheesers",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "SUBSTANTIVE_SCENE",
+      "passages": [
+        {
+          "path": "living-novel/production/full-rewrite-2026/manuscript/CHAPTER_02_WHAT_COMES_BACK_LINE_EDIT_V2_NONCANON.md",
+          "sha256": "16e0890db073b763b128918520afd171613adff2452a9e85a44f75a7ab0d7fd0",
+          "heading": "## I. Return to Sender",
+          "heading_line": 9,
+          "anchor_line": 9,
+          "anchor_text": "## I. Return to Sender",
+          "artifact_status": "NONCANON_DEVELOPMENT_CANDIDATE_NOT_ACCEPTED",
+          "classification": "SUBSTANTIVE_SCENE",
+          "finding": "Returned parcel drives Red/Chili scene; substantive owner-POV rewrite candidate."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Assess sufficiency, continuity, current POV/canon compliance, scene depth and independent literary acceptance; reuse rather than discard."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P02-E005",
+      "period": 2,
+      "fixture": "El Niño / His Majesty's Blood",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "SUBSTANTIVE_SCENE",
+      "passages": [
+        {
+          "path": "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md",
+          "sha256": "232c0b9f5b078bdfa8cf8edf9dd85ac5faa47b4c34ab32ecf0cef34bb07dfc6a",
+          "heading": "## VI. No Passage",
+          "heading_line": 937,
+          "anchor_line": 939,
+          "anchor_text": "Rain began before Austin arrived.",
+          "artifact_status": "EXISTING_HARD_CANON_WITNESS_PRESERVE_BYTES_ACTIVE_POV_MIGRATION_REQUIRED",
+          "classification": "SUBSTANTIVE_SCENE",
+          "finding": "Flooded-gate aftermath scene exists; El Niño speaking humanoid treatment expressly conflicts with current rules. Preserve source, revise separately."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Assess sufficiency, continuity, current POV/canon compliance, scene depth and independent literary acceptance; reuse rather than discard."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P02-E006",
+      "period": 2,
+      "fixture": "Seven Deadly Chins / The LLC",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "SUBSTANTIVE_SCENE",
+      "passages": [
+        {
+          "path": "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md",
+          "sha256": "232c0b9f5b078bdfa8cf8edf9dd85ac5faa47b4c34ab32ecf0cef34bb07dfc6a",
+          "heading": "## VII. Hostile Takeover",
+          "heading_line": 1079,
+          "anchor_line": 1081,
+          "anchor_text": "The LLC's office had survived Chili.",
+          "artifact_status": "EXISTING_HARD_CANON_WITNESS_PRESERVE_BYTES_ACTIVE_POV_MIGRATION_REQUIRED",
+          "classification": "SUBSTANTIVE_SCENE",
+          "finding": "Chins/LLC office aftermath includes dialogue and repair implications; retired observer POV requires migration."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Assess sufficiency, continuity, current POV/canon compliance, scene depth and independent literary acceptance; reuse rather than discard."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P03-E001",
+      "period": 3,
+      "fixture": "Three Dreaded Snake / ObiWan Jacoby",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "SUBSTANTIVE_SCENE",
+      "passages": [
+        {
+          "path": "living-novel/production/full-rewrite-2026/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM_LINE_EDIT_V2_NONCANON.md",
+          "sha256": "faa976f8b2d544ce9f1d693565a2fb59da2a716d98bd5746958fb02570b99497",
+          "heading": "## II. The Bridge and the Word",
+          "heading_line": 573,
+          "anchor_line": 596,
+          "anchor_text": "The first line confirmed what he had already been told informally: ObiWan Jacoby, 136.73. Three Dreaded Snake, 114.50.",
+          "artifact_status": "NONCANON_DEVELOPMENT_CANDIDATE_NOT_ACCEPTED",
+          "classification": "SUBSTANTIVE_SCENE",
+          "finding": "Jake answers bridge-protection and trade pressure after TDS result; narrative choices present. Stale TDS references need repair."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Assess sufficiency, continuity, current POV/canon compliance, scene depth and independent literary acceptance; reuse rather than discard."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P03-E002",
+      "period": 3,
+      "fixture": "Mud Dogs / D0nkey K0ng",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "SUBSTANTIVE_SCENE",
+      "passages": [
+        {
+          "path": "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md",
+          "sha256": "cfed9e35319eb98c2e0d23fa67de5f3a0aca0b55afe368f4f8a241d1cf57c4c0",
+          "heading": "# CHAPTER III — THE HILL IS NOT THE KINGDOM",
+          "heading_line": 1,
+          "anchor_line": 101,
+          "anchor_text": "172.48 to 126.86.",
+          "artifact_status": "EXISTING_HARD_CANON_WITNESS_PRESERVE_BYTES_ACTIVE_POV_MIGRATION_REQUIRED",
+          "classification": "SUBSTANTIVE_SCENE",
+          "finding": "Existing hard Chapter III: Wilson places standard below summit and rejects sovereignty inference. Preserve accepted manuscript; active version requires authority/canon reconciliation."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Assess sufficiency, continuity, current POV/canon compliance, scene depth and independent literary acceptance; reuse rather than discard."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P03-E003",
+      "period": 3,
+      "fixture": "The Chili Cheesers / Dr. Duckhook",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "RECORD_REFERENCE",
+      "passages": [
+        {
+          "path": "living-novel/production/full-rewrite-2026/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM_LINE_EDIT_V2_NONCANON.md",
+          "sha256": "faa976f8b2d544ce9f1d693565a2fb59da2a716d98bd5746958fb02570b99497",
+          "heading": "## II. The Bridge and the Word",
+          "heading_line": 573,
+          "anchor_line": 656,
+          "anchor_text": "A second came from the same western market where Chili had bought the city's laughter twice in as many weeks. The paper showed a dog of suspiciously perfect shape holding a chili dog in its mouth. The accompanying public result sheet told him Chili Cheesers had defeated Dr. Duckhook 132.19 to 126.16.",
+          "artifact_status": "NONCANON_DEVELOPMENT_CANDIDATE_NOT_ACCEPTED",
+          "classification": "RECORD_REFERENCE",
+          "finding": "Chili/Duckhook result appears in a dispatch received by Jake, with object story explicitly uncertain. No full event-focused scene found here."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Assess sufficiency, continuity, current POV/canon compliance, scene depth and independent literary acceptance; reuse rather than discard."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P03-E004",
+      "period": 3,
+      "fixture": "Slob on my Dobb / Red Leopards",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "RECORD_REFERENCE",
+      "passages": [
+        {
+          "path": "living-novel/production/full-rewrite-2026/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM_LINE_EDIT_V2_NONCANON.md",
+          "sha256": "faa976f8b2d544ce9f1d693565a2fb59da2a716d98bd5746958fb02570b99497",
+          "heading": "## II. The Bridge and the Word",
+          "heading_line": 573,
+          "anchor_line": 666,
+          "anchor_text": "A third notice described the Red Leopards beating Slob on my Dobb 158.44 to 141.86. It came with a picture of a white flag and a supposed hundred-dollar wager receipt. The score was certified. The wager terms and their settlement were not in the official sheet.",
+          "artifact_status": "NONCANON_DEVELOPMENT_CANDIDATE_NOT_ACCEPTED",
+          "classification": "RECORD_REFERENCE",
+          "finding": "Red/Slob result and flag/wager dispatch, not direct dramatization; provenance of wager remains separately qualified."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Assess sufficiency, continuity, current POV/canon compliance, scene depth and independent literary acceptance; reuse rather than discard."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P03-E005",
+      "period": 3,
+      "fixture": "Seven Deadly Chins / His Majesty's Blood",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "SUBSTANTIVE_SCENE",
+      "passages": [
+        {
+          "path": "living-novel/production/full-rewrite-2026/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM_LINE_EDIT_V2_NONCANON.md",
+          "sha256": "faa976f8b2d544ce9f1d693565a2fb59da2a716d98bd5746958fb02570b99497",
+          "heading": "## III. What a Keeper Cannot Keep",
+          "heading_line": 712,
+          "anchor_line": 732,
+          "anchor_text": "HIS MAJESTY'S BLOOD — 136.00.",
+          "artifact_status": "NONCANON_DEVELOPMENT_CANDIDATE_NOT_ACCEPTED",
+          "classification": "SUBSTANTIVE_SCENE",
+          "finding": "Austin must separate victory from resource loss and road obligations. Achane dossier claim explicitly source-pending, not certified by scoring fact lock."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Assess sufficiency, continuity, current POV/canon compliance, scene depth and independent literary acceptance; reuse rather than discard."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P03-E006",
+      "period": 3,
+      "fixture": "El Nino / The LLC",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "RECORD_REFERENCE",
+      "passages": [
+        {
+          "path": "living-novel/production/full-rewrite-2026/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM_LINE_EDIT_V2_NONCANON.md",
+          "sha256": "faa976f8b2d544ce9f1d693565a2fb59da2a716d98bd5746958fb02570b99497",
+          "heading": "## III. What a Keeper Cannot Keep",
+          "heading_line": 712,
+          "anchor_line": 831,
+          "anchor_text": "The LLC's result was 147.43 to 114.62 over El Niño. The victory mattered to him in an inconvenient way. A commercial opponent that had been zero and two was now one and two. People would call the victory an acquisition of confidence; some would attempt to sell it as evidence that the LLC's office deserved new influence over roads and cargo. They could talk that way. They could not turn the Contest into a deed.",
+          "artifact_status": "NONCANON_DEVELOPMENT_CANDIDATE_NOT_ACCEPTED",
+          "classification": "RECORD_REFERENCE",
+          "finding": "LLC/storm result interpreted in Austin scene; no independent LLC event scene in this candidate."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Assess sufficiency, continuity, current POV/canon compliance, scene depth and independent literary acceptance; reuse rather than discard."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P04-E001",
+      "period": 4,
+      "fixture": "D0nkey K0ng / ObiWan Jacoby",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "SUBSTANTIVE_SCENE",
+      "passages": [
+        {
+          "path": "living-novel/manuscript/CHAPTER_04_THE_ROAD_DOES_NOT_BOW.md",
+          "sha256": "ab3bc1ccf3d69217d6ac801ab2b0f0d84c1aace8525211b572b3776762c49c8d",
+          "heading": "# CHAPTER IV — THE ROAD DOES NOT BOW",
+          "heading_line": 1,
+          "anchor_line": 9,
+          "anchor_text": "D0nkey K0ng, 139.67.",
+          "artifact_status": "EXISTING_SOFT_MANUSCRIPT_NOT_HARD_CANON",
+          "classification": "SUBSTANTIVE_SCENE",
+          "finding": "Existing extended causal chapter follows certified ObiWan win; provider finality now corroborated, literary/canon acceptance still pending."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Assess sufficiency, continuity, current POV/canon compliance, scene depth and independent literary acceptance; reuse rather than discard."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P04-E002",
+      "period": 4,
+      "fixture": "Mud Dogs / Three Dreaded Snake",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "HYPOTHETICAL_SUMMARY",
+      "passages": [
+        {
+          "path": "living-novel/production/week-04-05/WEEK_04_05_CAUSAL_STORY_ROOM_DOSSIER_2026-10-14.md",
+          "sha256": "3a8ae5247c2a194f1c053210f8bbe1ab303118304a23e821caae08f23f019fd1",
+          "heading": "## 2. Event chronology — verifiable facts BEFORE interpretation",
+          "heading_line": 30,
+          "anchor_line": 36,
+          "anchor_text": "- Three Dreaded Snake **149.84** defeated Mud Dogs **126.98**.",
+          "artifact_status": "STORY_ROOM_DOSSIER_NOT_MANUSCRIPT",
+          "classification": "HYPOTHETICAL_SUMMARY",
+          "finding": "Result and candidate significance are documented; no substantive Novel passage for this fixture found in audited manuscript corpus. Dossier is not literary coverage."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Draft event coverage in causally connected Novel scenes; Memo prose excluded."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P04-E003",
+      "period": 4,
+      "fixture": "Red Leopards / Dr. Duckhook",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "HYPOTHETICAL_SUMMARY",
+      "passages": [
+        {
+          "path": "living-novel/production/week-04-05/WEEK_04_05_CAUSAL_STORY_ROOM_DOSSIER_2026-10-14.md",
+          "sha256": "3a8ae5247c2a194f1c053210f8bbe1ab303118304a23e821caae08f23f019fd1",
+          "heading": "## 2. Event chronology — verifiable facts BEFORE interpretation",
+          "heading_line": 30,
+          "anchor_line": 37,
+          "anchor_text": "- Red Leopards **164.08** defeated Dr. Duckhook **128.36**.",
+          "artifact_status": "STORY_ROOM_DOSSIER_NOT_MANUSCRIPT",
+          "classification": "HYPOTHETICAL_SUMMARY",
+          "finding": "Result and candidate significance are documented; no substantive Novel passage for this fixture found in audited manuscript corpus. Dossier is not literary coverage."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Draft event coverage in causally connected Novel scenes; Memo prose excluded."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P04-E004",
+      "period": 4,
+      "fixture": "Slob on my Dobb / The Chili Cheesers",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "HYPOTHETICAL_SUMMARY",
+      "passages": [
+        {
+          "path": "living-novel/production/week-04-05/WEEK_04_05_CAUSAL_STORY_ROOM_DOSSIER_2026-10-14.md",
+          "sha256": "3a8ae5247c2a194f1c053210f8bbe1ab303118304a23e821caae08f23f019fd1",
+          "heading": "## 2. Event chronology — verifiable facts BEFORE interpretation",
+          "heading_line": 30,
+          "anchor_line": 38,
+          "anchor_text": "- Slob on my Dobb **190.72** defeated The Chili Cheesers **139.96**.",
+          "artifact_status": "STORY_ROOM_DOSSIER_NOT_MANUSCRIPT",
+          "classification": "HYPOTHETICAL_SUMMARY",
+          "finding": "Result and candidate significance are documented; no substantive Novel passage for this fixture found in audited manuscript corpus. Dossier is not literary coverage."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Draft event coverage in causally connected Novel scenes; Memo prose excluded."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P04-E005",
+      "period": 4,
+      "fixture": "The LLC / His Majesty's Blood",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "HYPOTHETICAL_SUMMARY",
+      "passages": [
+        {
+          "path": "living-novel/production/week-04-05/WEEK_04_05_CAUSAL_STORY_ROOM_DOSSIER_2026-10-14.md",
+          "sha256": "3a8ae5247c2a194f1c053210f8bbe1ab303118304a23e821caae08f23f019fd1",
+          "heading": "## 2. Event chronology — verifiable facts BEFORE interpretation",
+          "heading_line": 30,
+          "anchor_line": 39,
+          "anchor_text": "- His Majesty's Blood **177.32** defeated The LLC **138.87**.",
+          "artifact_status": "STORY_ROOM_DOSSIER_NOT_MANUSCRIPT",
+          "classification": "HYPOTHETICAL_SUMMARY",
+          "finding": "Result and candidate significance are documented; no substantive Novel passage for this fixture found in audited manuscript corpus. Dossier is not literary coverage."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Draft event coverage in causally connected Novel scenes; Memo prose excluded."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P04-E006",
+      "period": 4,
+      "fixture": "El Niño / Seven Deadly Chins",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "HYPOTHETICAL_SUMMARY",
+      "passages": [
+        {
+          "path": "living-novel/production/week-04-05/WEEK_04_05_CAUSAL_STORY_ROOM_DOSSIER_2026-10-14.md",
+          "sha256": "3a8ae5247c2a194f1c053210f8bbe1ab303118304a23e821caae08f23f019fd1",
+          "heading": "## 2. Event chronology — verifiable facts BEFORE interpretation",
+          "heading_line": 30,
+          "anchor_line": 40,
+          "anchor_text": "- El Niño **170.62** defeated Seven Deadly Chins **106.20**.",
+          "artifact_status": "STORY_ROOM_DOSSIER_NOT_MANUSCRIPT",
+          "classification": "HYPOTHETICAL_SUMMARY",
+          "finding": "Result and candidate significance are documented; no substantive Novel passage for this fixture found in audited manuscript corpus. Dossier is not literary coverage."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Draft event coverage in causally connected Novel scenes; Memo prose excluded."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P05-E001",
+      "period": 5,
+      "fixture": "Three Dreaded Snake / His Majesty's Blood",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "HYPOTHETICAL_SUMMARY",
+      "passages": [
+        {
+          "path": "living-novel/production/week-04-05/WEEK_04_05_CAUSAL_STORY_ROOM_DOSSIER_2026-10-14.md",
+          "sha256": "3a8ae5247c2a194f1c053210f8bbe1ab303118304a23e821caae08f23f019fd1",
+          "heading": "## 2. Event chronology — verifiable facts BEFORE interpretation",
+          "heading_line": 30,
+          "anchor_line": 47,
+          "anchor_text": "- His Majesty's Blood **113.45** defeated Three Dreaded Snake **85.34**; championship Belt remains held under existing continuity independently of weekly outcome.",
+          "artifact_status": "STORY_ROOM_DOSSIER_NOT_MANUSCRIPT",
+          "classification": "HYPOTHETICAL_SUMMARY",
+          "finding": "Candidate dramatic pressure and result are documented; no finished event-specific Novel passage found. R41 sequence ideas likewise are plans, not scenes."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Draft event coverage in causally connected Novel scenes; Memo prose excluded."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P05-E002",
+      "period": 5,
+      "fixture": "Mud Dogs / The LLC.",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "SUBSTANTIVE_SCENE",
+      "passages": [
+        {
+          "path": "living-novel/production/full-rewrite-2026/manuscript/THE_SURVEY_LINE_FULL_CAUSAL_MANUSCRIPT_V2_NONCANON.md",
+          "sha256": "65b3699d4975b8a4c011b3871f44658e2d662ab3afaea3d7caa7f9f57ada7cc9",
+          "heading": "## II. Terms Before Territory",
+          "heading_line": 118,
+          "anchor_line": 126,
+          "anchor_text": "On his desk lay the latest certified result. The figure at the top pleased him well enough: 193.73. The figure beneath it, Mud Dogs' 127.09, had produced an impressive quantity of congratulations from people who would be difficult to locate when invoices came due.",
+          "artifact_status": "NONCANON_DEVELOPMENT_CANDIDATE_NOT_ACCEPTED",
+          "classification": "SUBSTANTIVE_SCENE",
+          "finding": "Multi-scene Mud/LLC sequence dramatizes contested crossing and costs without score-to-land transfer; proposed world details remain unaccepted."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Assess sufficiency, continuity, current POV/canon compliance, scene depth and independent literary acceptance; reuse rather than discard."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P05-E003",
+      "period": 5,
+      "fixture": "Chili Cheesers / El Niño",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "HYPOTHETICAL_SUMMARY",
+      "passages": [
+        {
+          "path": "living-novel/production/week-04-05/WEEK_04_05_CAUSAL_STORY_ROOM_DOSSIER_2026-10-14.md",
+          "sha256": "3a8ae5247c2a194f1c053210f8bbe1ab303118304a23e821caae08f23f019fd1",
+          "heading": "## 2. Event chronology — verifiable facts BEFORE interpretation",
+          "heading_line": 30,
+          "anchor_line": 48,
+          "anchor_text": "- The Chili Cheesers **183.53** defeated El Niño **156.70**.",
+          "artifact_status": "STORY_ROOM_DOSSIER_NOT_MANUSCRIPT",
+          "classification": "HYPOTHETICAL_SUMMARY",
+          "finding": "Candidate dramatic pressure and result are documented; no finished event-specific Novel passage found. R41 sequence ideas likewise are plans, not scenes."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Draft event coverage in causally connected Novel scenes; Memo prose excluded."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P05-E004",
+      "period": 5,
+      "fixture": "Dr. Duckhook / D0nkey K0ng",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "SUBSTANTIVE_SCENE",
+      "passages": [
+        {
+          "path": "living-novel/production/full-rewrite-2026/drafts/W5_WILSON_SECOND_FALL_OWNER_POV_NONCANON.md",
+          "sha256": "a79d47cb93bc288ce1e6e8abd22229f40d1c71d91ce640c7b9cb3cb919b95bfa",
+          "heading": "# THE SECOND FALL — Wilson's Week 5 consequence",
+          "heading_line": 1,
+          "anchor_line": 13,
+          "anchor_text": "Dr. Duckhook, 184.91.",
+          "artifact_status": "NONCANON_DEVELOPMENT_CANDIDATE_NOT_ACCEPTED",
+          "classification": "SUBSTANTIVE_SCENE",
+          "finding": "Wilson chooses useful route markers over victory banners after second defeat; complete development interlude exists, not automatic Chapter V."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Assess sufficiency, continuity, current POV/canon compliance, scene depth and independent literary acceptance; reuse rather than discard."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P05-E005",
+      "period": 5,
+      "fixture": "Slob on my Dobb / Seven Deadly Chins",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "HYPOTHETICAL_SUMMARY",
+      "passages": [
+        {
+          "path": "living-novel/production/week-04-05/WEEK_04_05_CAUSAL_STORY_ROOM_DOSSIER_2026-10-14.md",
+          "sha256": "3a8ae5247c2a194f1c053210f8bbe1ab303118304a23e821caae08f23f019fd1",
+          "heading": "## 2. Event chronology — verifiable facts BEFORE interpretation",
+          "heading_line": 30,
+          "anchor_line": 46,
+          "anchor_text": "- Seven Deadly Chins **170.46** defeated Slob on my Dobb **134.70**.",
+          "artifact_status": "STORY_ROOM_DOSSIER_NOT_MANUSCRIPT",
+          "classification": "HYPOTHETICAL_SUMMARY",
+          "finding": "Candidate dramatic pressure and result are documented; no finished event-specific Novel passage found. R41 sequence ideas likewise are plans, not scenes."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Draft event coverage in causally connected Novel scenes; Memo prose excluded."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P05-E006",
+      "period": 5,
+      "fixture": "Red Leopards / ObiWan Jacoby",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "HYPOTHETICAL_SUMMARY",
+      "passages": [
+        {
+          "path": "living-novel/production/week-04-05/WEEK_04_05_CAUSAL_STORY_ROOM_DOSSIER_2026-10-14.md",
+          "sha256": "3a8ae5247c2a194f1c053210f8bbe1ab303118304a23e821caae08f23f019fd1",
+          "heading": "## 2. Event chronology — verifiable facts BEFORE interpretation",
+          "heading_line": 30,
+          "anchor_line": 45,
+          "anchor_text": "- ObiWan Jacoby **154.42** defeated Red Leopards **110.42**; postweek 4–1 sole leading record.",
+          "artifact_status": "STORY_ROOM_DOSSIER_NOT_MANUSCRIPT",
+          "classification": "HYPOTHETICAL_SUMMARY",
+          "finding": "Candidate dramatic pressure and result are documented; no finished event-specific Novel passage found. R41 sequence ideas likewise are plans, not scenes."
+        }
+      ],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Draft event coverage in causally connected Novel scenes; Memo prose excluded."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P06-E001",
+      "period": 6,
+      "fixture": "Red Leopards / D0nkey K0ng",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "ABSENT_IN_AUDITED_BASELINE_NOVEL_CORPUS",
+      "passages": [],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Draft event coverage in causally connected Novel scenes; Memo prose excluded."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P06-E002",
+      "period": 6,
+      "fixture": "Dr. Duckhook / El Niño",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "ABSENT_IN_AUDITED_BASELINE_NOVEL_CORPUS",
+      "passages": [],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Draft event coverage in causally connected Novel scenes; Memo prose excluded."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P06-E003",
+      "period": 6,
+      "fixture": "Slob on my Dobb / ObiWan Jacoby",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "ABSENT_IN_AUDITED_BASELINE_NOVEL_CORPUS",
+      "passages": [],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Draft event coverage in causally connected Novel scenes; Memo prose excluded."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P06-E004",
+      "period": 6,
+      "fixture": "The Chili Cheesers / Seven Deadly Chins",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "ABSENT_IN_AUDITED_BASELINE_NOVEL_CORPUS",
+      "passages": [],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Draft event coverage in causally connected Novel scenes; Memo prose excluded."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P06-E005",
+      "period": 6,
+      "fixture": "Mud Dogs / His Majesty's Blood",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "ABSENT_IN_AUDITED_BASELINE_NOVEL_CORPUS",
+      "passages": [],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Draft event coverage in causally connected Novel scenes; Memo prose excluded."
+    },
+    {
+      "event_id": "ESPN1417621-2026-P06-E006",
+      "period": 6,
+      "fixture": "Three Dreaded Snake / The LLC",
+      "source_status": "DECIDED_REPOSITORY_RECEIPT",
+      "best_existing_literary_form": "ABSENT_IN_AUDITED_BASELINE_NOVEL_CORPUS",
+      "passages": [],
+      "acceptance": "NOT_DETERMINED_BY_THIS_AUDIT",
+      "remaining_work": "Draft event coverage in causally connected Novel scenes; Memo prose excluded."
+    }
+  ]
+}

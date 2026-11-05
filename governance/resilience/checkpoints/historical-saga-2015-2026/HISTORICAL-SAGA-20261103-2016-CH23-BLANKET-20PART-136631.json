@@ -1,0 +1,121 @@
+{
+  "schema": "commonwealth_historical_saga_autonomous_run_checkpoint_v1",
+  "date_utc": "2026-11-03",
+  "mission": "BULLPEN PERMANENT EXECUTIVE MANDATE — COMMONWEALTH NOVEL AUTONOMOUS END-TO-END PRODUCTION",
+  "repository": "jakekaloper-hub/schemin-26",
+  "organizational_repository": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "status": "DRAFT_NONCANON_INDEPENDENT_HOLD",
+  "baseline": {
+    "previous_checkpoint_commit": "db6067b73c9079b7190f564240c5fe847c09b5ee",
+    "previous_checkpoint": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261103-2016-CH22-DRY-END-19PART-128850.json",
+    "schemin_main": "e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80",
+    "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "authority_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "authority_matrix_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+    "main_project_control_registry_blob": "23bb20df8a4fbcd0805e84df749bdd231f38ee83",
+    "bullpen_command_registry": "runtime/commandRegistry.js",
+    "bullpen_command_registry_blob": "f1aea183040dd169264c466654a4fe3b7c7b867e",
+    "bullpen_lifecycle_engine": "runtime/lifecycleEngine.js",
+    "bullpen_lifecycle_blob": "710caca4e4a01c934bdc53f22229acced48a2d78",
+    "scoped_open_issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "related_prs": {
+      "188": "closed_merged",
+      "243": "open_draft",
+      "252": "open_draft",
+      "261": "open_draft"
+    }
+  },
+  "literary": {
+    "new_scene": "The width of a blanket",
+    "new_scene_words_including_heading": 1966,
+    "original_chapter": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_ROOM_BEYOND_THE_THRESHOLD_CHAPTER_23_NONCANON.md",
+    "original_chapter_blob": "d30c325ab05acf462693067e427bce9b069e0325",
+    "original_chapter_words": 5510,
+    "revised_chapter": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_ROOM_BEYOND_THE_THRESHOLD_WIDTH_OF_A_BLANKET_CH23_V2_NONCANON.md",
+    "revised_chapter_blob": "1d00c5f4706e9fc006aac4ba560b87ce67fe5511",
+    "revised_chapter_words_including_metadata": 7781,
+    "previous_reader": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_2016_CAUSAL_CH01_22_NINETEEN_PARTS_DRY_END_OF_THE_HOUSE_NONCANON.md",
+    "previous_reader_blob": "3826d48edce0339dfb8008dc27a2a4fa00ea9dc4",
+    "new_reader": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_2016_CAUSAL_CH01_23_TWENTY_PARTS_BLANKET_AT_THRESHOLD_V2_NONCANON.md",
+    "new_reader_blob": "f3faa9969b5969665d9295d28c6a3751c4f91585",
+    "narrative_parts": 20,
+    "original_chapter_positions": "I–XXIII",
+    "source_component_words_including_metadata": 136631,
+    "previous_nineteen_body_components_source_exact": true,
+    "new_twentieth_body_source_exact": true,
+    "interior_pov": "fictional_CHAR-JAKE-KALOPER_PRINCIPAL_CHARACTER_ONLY",
+    "continuity": "Sola has left but her destination and the clog are unresolved. She may return for paid reed-screen craft in original Chapter XXIV. The blanket/privacy trial is dismantled before supper; no screen or altered door has been accepted. Nell retains the second undelivered bedding length and unpaid soap remainder. The first length remains at shelter. Damaged measured flour stays a small loss and future bread yield is uncertain; supplier invoice remains unpaid. Esi holds keys, posted notice, surviving records. Mara is away with Senn; Len's injured eye remains impaired. Ledger leaves, culprit, cover custody, private claimant, Jake pledge and freight obligations remain open."
+  },
+  "source_evidence": {
+    "archive": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+    "archive_blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "added_historical_results": 0,
+    "historical_manager_slot_binding": "NOT_PROVIDER_AUTHENTICATED",
+    "protected_2026_main_equal_branch": {
+      "PROLOGUE_DRAFT_V1": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "CHAPTER_01_THE_FIRST_ANSWER": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "CHAPTER_02_WHAT_COMES_BACK": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+    }
+  },
+  "technical": {
+    "test_file": "living-novel/historical-chronicle/qa/test_2016_twenty_part_blanket_reader.py",
+    "test_blob": "fe27a9710303b13804ed12299e8ad57f9f69e6e8",
+    "test_methods": 20,
+    "ci_workflow": ".github/workflows/novel-os-ci.yml",
+    "workflow_blob": "bdf92a0b0fa858594b0b8817b2ba20720f79c81f",
+    "tested_commit": "c041483430e6b39087f556c93b7087d52ac1af2c",
+    "passing_novel_os_ci_run": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41638476096",
+    "dedicated_step": "Verify 2016 Chapter XXIII V2 and twenty-part blanket source-exact reader (noncanon)",
+    "dedicated_step_result": "success",
+    "passing_regression_count": 20,
+    "four_required_workflows_at_tested_commit": [
+      {
+        "name": "Novel OS CI",
+        "conclusion": "success"
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "conclusion": "success"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "conclusion": "success"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "conclusion": "success"
+      }
+    ],
+    "note": "Observed exact-commit GitHub Actions result; checkpoint-only commit requires separate postcommit readback."
+  },
+  "editorial": {
+    "producer_side_qa": "living-novel/historical-chronicle/seasons/2016/causal-novel/EDITORIAL_QA_CH23_BLANKET_V2_2026-11-03_NONCANON.md",
+    "producer_side_qa_blob": "30445e04ee5f53a0fd44fce4cf500f09c04bf05b",
+    "pr_review_request_comment_id": 6604154387,
+    "bullpen_handoff_comment_id": 6604157571,
+    "independent_pr_reviews_observed": 0,
+    "independent_authors_council_acceptance": false,
+    "independent_historical_librarian_acceptance": false,
+    "independent_character_canon_acceptance": false,
+    "independent_period_atlas_acceptance": false,
+    "independent_umpire_acceptance": false,
+    "founder_canon_or_publication_approval": false,
+    "gate": "NO_MERGE_NO_PUBLICATION_NO_CANON_PROMOTION"
+  },
+  "next": {
+    "priority": "2016 Chapter XXIV — The Things She Came Back For",
+    "source_path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_THINGS_SHE_CAME_BACK_FOR_CHAPTER_24_NONCANON.md",
+    "source_words_approx": 6286,
+    "mandate": "Read all of source Chapter XXIV and its QA, reconcile Chapter XXIII V2 temporary-curtain trial with later carpenter hinges, Sola's return as paid independent reed worker, her voluntary earlier departure, door/watch log and clogged-shoe uncertainty; produce substantive source-safe prose and next source-exact assembled reader. Do not invent owners/results; retain 12-owner principal-POV firewall.",
+    "merge_or_publication": "hold_until_independent_and_founder_acceptance"
+  }
+}

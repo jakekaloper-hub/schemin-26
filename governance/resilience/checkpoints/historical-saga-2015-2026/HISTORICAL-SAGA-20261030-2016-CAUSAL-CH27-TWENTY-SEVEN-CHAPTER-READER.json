@@ -1,0 +1,152 @@
+{
+  "id": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH27-TWENTY-SEVEN-CHAPTER-READER",
+  "date": "2026-10-30",
+  "workflow": "Commonwealth historical saga 2015–2026",
+  "stage": "2016 causal novel Chapter XXVII noncanon draft assembly",
+  "project": "schemin-26",
+  "owner": "novel production / Librarian provenance, editorial authorial draft; independent Umpire HOLD",
+  "status": "DRAFT_WRITTEN_SOURCE_EXACT_ASSEMBLY_GITHUB_OBJECT_VERIFIED_CI_PENDING_EDITORIAL_HOLD",
+  "repo": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "previous_checkpoint": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH26-TWENTY-SIX-CHAPTER-READER",
+  "observed_initial_pr_head": "069d449e2c6685fbeb93ea7244184179a125d0eb",
+  "observed_main": "ec941811d6334d70015ec97b2ac68a2d8a26eec6",
+  "source_authorities": {
+    "matrix": {
+      "path": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+      "main_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4"
+    },
+    "novel_os": {
+      "path": "living-novel/os/SESSION_CONTEXT.md",
+      "main_blob": "bfaa85695da688d99367ff5d8f79e51cae2642d7"
+    },
+    "task_registry": {
+      "path": "governance/execution-control/TASK_REGISTRY_V1.json",
+      "main_blob": "5e72e48f3c305e6def1051e0b18883a7be6b6af0"
+    },
+    "bullpens": [
+      "jakekaloper-hub/bullpen:BULLPEN.md",
+      "jakekaloper-hub/bullpen:docs/COMMAND_SYSTEM_V2.md",
+      "jakekaloper-hub/bullpen:runtime/commandRegistry.js",
+      "jakekaloper-hub/bullpen:runtime/lifecycleEngine.js"
+    ],
+    "related_issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "related_prs": {
+      "188": "MERGED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT_HOLD",
+      "261": "OPEN_DRAFT_HOLD"
+    }
+  },
+  "inputs": {
+    "previous_reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_26_NONCANON.md",
+      "git_blob": "0027269704900b8ecb9d7a10c958cec963bd1df0"
+    },
+    "historical_archive": {
+      "path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "git_blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+      "limits": "2016 historical human-owner Jake binding unverified, no ESPN score assertions in fiction"
+    }
+  },
+  "artifacts": {
+    "chapter": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_ROOM_WITH_NO_HIGH_SEAT_CHAPTER_27_NONCANON.md",
+      "git_blob": "d451e61332ce6da3911cf77957596b09edcaecdf",
+      "whitespace_words_including_handoff": 5358,
+      "movements": 5,
+      "commit": "fcf490791f00b2525daa924d985ebc77758cc28a"
+    },
+    "reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_27_NONCANON.md",
+      "git_blob": "41115b3f158e95d423befba4127063480c60e70b",
+      "whitespace_words_including_frontmatter": 145706,
+      "components": 27,
+      "commit": "ee761b6f7d0d1aaf105260e38185bd11900d4aef"
+    },
+    "tests": {
+      "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_twenty_seven_reader.py",
+      "git_blob": "ae413bbd88272a0e292b11e80c1207c060aafcac",
+      "definitions": 15,
+      "commit": "7cf512e0269559cf0690a2e92b54400f74c11d37",
+      "observed_execution": "NOT_YET_VERIFIED"
+    },
+    "self_qa": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_27_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "git_blob": "031a9b675474bf11584bf435fac60eb6568023ee",
+      "commit": "be3e40dc6df9dc233bdf488ff6982ab9e0bbe709"
+    }
+  },
+  "verification": {
+    "js_in_process": {
+      "manifest_rows": 27,
+      "begin_markers": 27,
+      "end_markers": 27,
+      "previous_reader_components_preserved_in_assembly": true
+    },
+    "cross_branch_git_blob_equal": {
+      "living-novel/manuscript/PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc",
+      "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json": "6dbec1fe2537139f3a97c6a78250e2bae082a518"
+    },
+    "python_suite": "NOT_EXECUTED_OR_OBSERVED_YET_AT_CHECKPOINT_WRITE",
+    "github_ci": "NOT_YET_OBSERVED",
+    "independent_authors_council": "NO_ACCEPTANCE",
+    "independent_character_atlas": "NO_ACCEPTANCE",
+    "independent_umpire": "NO_ACCEPTANCE",
+    "founder_only_promotion": "NOT_AUTHORIZED",
+    "merged": false,
+    "canon_promoted": false,
+    "published": false
+  },
+  "narrative": {
+    "proposed_pov": "fictional CHAR-JAKE-KALOPER only / historical binding unverified",
+    "entering_state": "four paid hours only; kiln closed; letter to Esi unsent; no promised next shift; prior money partly spent on cover",
+    "turn": "Noll invites Jake to Fara's house; Pell publicly opposes Vessa's closure on economic grounds; Jake refuses to claim measurement he lacks; Jake pays bounded carrier Mev",
+    "changed": "Jake has no paid hours today; paid fee for letter now with Mev bound only to intermediate market; Esi delivery unconfirmed; Fara independent venue",
+    "open_loops": [
+      "2016 owner binding",
+      "letter not yet delivered",
+      "Pell lost income/Vessa closed crossing",
+      "Eren next-season work undecided",
+      "Jake real unpaid shelter pledge",
+      "Esi ledger pages/thief, private claimant file",
+      "Sola reed screen and unrelated clog",
+      "Mara/Senn",
+      "Len eye/whetstone",
+      "supplier invoice",
+      "singer refunds",
+      "wheelwright daughter's unsigned commission"
+    ]
+  },
+  "gates": [
+    "review actual historical reader Python tests in GitHub CI at final head",
+    "authenticate historical owner identity for period Canon",
+    "period Character Canon and Atlas review",
+    "independent Authors Council",
+    "independent Umpire",
+    "Founder-only canon/merge/publication approvals"
+  ],
+  "invalidation_triggers": [
+    "Main matrix or period canon superseded",
+    "2016 owner provenance corrected",
+    "any source/readback SHA changed",
+    "previous reader or chapter altered",
+    "independent review findings requiring substantive revision"
+  ],
+  "next": [
+    "Read exact post-checkpoint PR branch head; find CI workflow runs on that exact SHA. If queued or absent, say pending; if failure, inspect logs and repair tests/source (do not falsify proof).",
+    "Request independent Authors Council / Character Canon / Atlas / Umpire examination through actual review channel; do not simulate signoff.",
+    "Continue Chapter XXVIII only as a draft if editorial and source boundaries remain, aiming for richer independent character lives; do not force a weekly result into narrative.",
+    "Never change protected 2026 opening or promote/merge/publish without required approval."
+  ]
+}

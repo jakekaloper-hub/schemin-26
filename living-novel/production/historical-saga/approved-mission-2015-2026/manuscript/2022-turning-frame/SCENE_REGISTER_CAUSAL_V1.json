@@ -1,0 +1,390 @@
+{
+  "schema_version": "commonwealth-novel-historical-causal-register-v1",
+  "title": "The Frame They Could Turn",
+  "season": 2022,
+  "version": "V1",
+  "status": "DRAFT_NONCANON_REVIEW_HOLD",
+  "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2022-turning-frame/THE_FRAME_THEY_COULD_TURN_CAUSAL_READING_V1_NONCANON.md",
+  "manuscript_git_blob": "31c0898a60c0569eea8cde573a2cd3f296258958",
+  "word_count_including_frontmatter": 4321,
+  "sports_evidence_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+  "sports_evidence_git_blob": "e3340ba1676408fa917eff7a61360a6588ba17dd",
+  "championship_source_path": "living-novel/production/full-rewrite-2026/G04_HISTORICAL_SEASON_STORY_ROOM_PACKETS.json",
+  "championship_source_git_blob": "79190778ebac9859fb3d560e824f014c793010ae",
+  "source_authority_matrix_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+  "owner_lineage_git_blob": "be68b2b2c836592ed872e32b6216af238a0cd64c",
+  "primary_pov_ids": [
+    "CHAR-JAKE-KALOPER"
+  ],
+  "owner_association": "USER_ATTESTED_CONNECTED_ACCOUNT_SLOT_1_LITERARY_CANDIDATE_NOT_AUTHENTICATED_HUMAN_OWNER",
+  "other_historical_team_owner_binding": "UNKNOWN_DO_NOT_PROJECT_2026_OWNER_IDS",
+  "historical_venue_status": "PROPOSED_UNAPPROVED",
+  "historical_transaction_status": "NO_REAL_LEAGUE_TRANSACTIONS_CLAIMED",
+  "source_week_record_count": 105,
+  "source_week_coverage": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "scoring_periods_known": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "foreground_source_weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "background_unforegrounded_weeks": [],
+  "scene_counts": {
+    "connected_movements": 4,
+    "team1_score_pair_anchors": 17,
+    "additional_nonteam1_verified_event_anchors": 6
+  },
+  "championship": {
+    "season": 2022,
+    "final_scoring_week": 17,
+    "winner_team_id": 9,
+    "winner_team_name": "El Niño",
+    "winner_points": 111.56,
+    "runnerup_team_id": 10,
+    "runnerup_team_name": "Where Mahomies at?",
+    "runnerup_points": 78.3
+  },
+  "scenes": [
+    {
+      "scene_id": "2022-FRAME-01",
+      "heading": "A Place to Hang the Exception",
+      "pov_character_id": "CHAR-JAKE-KALOPER",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "story_time_cutoff": "after certification of Week 7",
+      "foreground_source_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "source_score_anchors": [
+        {
+          "week": 1,
+          "team_1_points": "123.00",
+          "opponent_slot": 5,
+          "opponent_points": "142.00",
+          "outcome": "LOSS",
+          "tier": "NONE"
+        },
+        {
+          "week": 2,
+          "team_1_points": "134.40",
+          "opponent_slot": 8,
+          "opponent_points": "112.60",
+          "outcome": "WIN",
+          "tier": "NONE"
+        },
+        {
+          "week": 3,
+          "team_1_points": "118.58",
+          "opponent_slot": 9,
+          "opponent_points": "144.10",
+          "outcome": "LOSS",
+          "tier": "NONE"
+        },
+        {
+          "week": 4,
+          "team_1_points": "182.16",
+          "opponent_slot": 11,
+          "opponent_points": "110.58",
+          "outcome": "WIN",
+          "tier": "NONE"
+        },
+        {
+          "week": 5,
+          "team_1_points": "167.18",
+          "opponent_slot": 7,
+          "opponent_points": "100.86",
+          "outcome": "WIN",
+          "tier": "NONE"
+        },
+        {
+          "week": 6,
+          "team_1_points": "148.17",
+          "opponent_slot": 4,
+          "opponent_points": "126.42",
+          "outcome": "WIN",
+          "tier": "NONE"
+        },
+        {
+          "week": 7,
+          "team_1_points": "163.72",
+          "opponent_slot": 2,
+          "opponent_points": "133.78",
+          "outcome": "WIN",
+          "tier": "NONE"
+        }
+      ],
+      "fictional_consequence": "Jake commissions public sign; Nell questions claim to exceptionalism; Sera's door geometry creates material cost.",
+      "historical_venue_status": "PROPOSED_UNAPPROVED",
+      "passage_words": 958
+    },
+    {
+      "scene_id": "2022-FRAME-02",
+      "heading": "The Painted Side",
+      "pov_character_id": "CHAR-JAKE-KALOPER",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "story_time_cutoff": "after certification of Week 10",
+      "foreground_source_weeks": [
+        8,
+        9,
+        10
+      ],
+      "source_score_anchors": [
+        {
+          "week": 8,
+          "team_1_points": "129.58",
+          "opponent_slot": 12,
+          "opponent_points": "146.56",
+          "outcome": "LOSS",
+          "tier": "NONE"
+        },
+        {
+          "week": 9,
+          "team_1_points": "138.99",
+          "opponent_slot": 10,
+          "opponent_points": "142.30",
+          "outcome": "LOSS",
+          "tier": "NONE"
+        },
+        {
+          "week": 10,
+          "team_1_points": "123.54",
+          "opponent_slot": 6,
+          "opponent_points": "109.44",
+          "outcome": "WIN",
+          "tier": "NONE"
+        }
+      ],
+      "fictional_consequence": "Jake's losses puncture single-victory reputation; interior record and Mara's passage requirements make the monument serve the hall.",
+      "historical_venue_status": "PROPOSED_UNAPPROVED",
+      "passage_words": 1062
+    },
+    {
+      "scene_id": "2022-FRAME-03",
+      "heading": "Twelve Hundredths",
+      "pov_character_id": "CHAR-JAKE-KALOPER",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "story_time_cutoff": "after certification of Week 15",
+      "foreground_source_weeks": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "source_score_anchors": [
+        {
+          "week": 11,
+          "team_1_points": "165.06",
+          "opponent_slot": 5,
+          "opponent_points": "83.98",
+          "outcome": "WIN",
+          "tier": "NONE"
+        },
+        {
+          "week": 12,
+          "team_1_points": "157.00",
+          "opponent_slot": 3,
+          "opponent_points": "141.56",
+          "outcome": "WIN",
+          "tier": "NONE"
+        },
+        {
+          "week": 13,
+          "team_1_points": "117.52",
+          "opponent_slot": 11,
+          "opponent_points": "93.44",
+          "outcome": "WIN",
+          "tier": "NONE"
+        },
+        {
+          "week": 14,
+          "team_1_points": "138.28",
+          "opponent_slot": 12,
+          "opponent_points": "138.40",
+          "outcome": "LOSS",
+          "tier": "NONE"
+        },
+        {
+          "week": 15,
+          "team_1_points": "135.14",
+          "opponent_slot": 3,
+          "opponent_points": "150.74",
+          "outcome": "LOSS",
+          "tier": "WINNERS_BRACKET"
+        }
+      ],
+      "fictional_consequence": "0.12-point Week 14 loss and winners-bracket elimination; Jake repairs physical obstruction rather than control public interpretation.",
+      "historical_venue_status": "PROPOSED_UNAPPROVED",
+      "passage_words": 905
+    },
+    {
+      "scene_id": "2022-FRAME-04",
+      "heading": "What the Frame Held",
+      "pov_character_id": "CHAR-JAKE-KALOPER",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "story_time_cutoff": "after certification of Week 17 championship",
+      "foreground_source_weeks": [
+        16,
+        17
+      ],
+      "source_score_anchors": [
+        {
+          "week": 16,
+          "team_1_points": "124.06",
+          "opponent_slot": 8,
+          "opponent_points": "109.09",
+          "outcome": "WIN",
+          "tier": "WINNERS_CONSOLATION_LADDER"
+        },
+        {
+          "week": 17,
+          "team_1_points": "167.22",
+          "opponent_slot": 12,
+          "opponent_points": "138.95",
+          "outcome": "WIN",
+          "tier": "WINNERS_CONSOLATION_LADDER"
+        }
+      ],
+      "fictional_consequence": "El Niño semifinal reversal and championship enter only after certification; Jake's consolation wins remain distinct; public record becomes durable gathering-place furniture.",
+      "historical_venue_status": "PROPOSED_UNAPPROVED",
+      "passage_words": 1189
+    }
+  ],
+  "additional_verified_event_anchors": [
+    {
+      "week": 1,
+      "home_team_id": 4,
+      "away_team_id": 2,
+      "home_points": "117.66",
+      "away_points": "119.56",
+      "winner": "AWAY",
+      "tier": "NONE"
+    },
+    {
+      "week": 8,
+      "home_team_id": 2,
+      "away_team_id": 9,
+      "home_points": "192.20",
+      "away_points": "129.55",
+      "winner": "HOME",
+      "tier": "NONE"
+    },
+    {
+      "week": 14,
+      "home_team_id": 2,
+      "away_team_id": 9,
+      "home_points": "142.26",
+      "away_points": "82.43",
+      "winner": "HOME",
+      "tier": "NONE"
+    },
+    {
+      "week": 16,
+      "home_team_id": 2,
+      "away_team_id": 9,
+      "home_points": "97.96",
+      "away_points": "116.32",
+      "winner": "AWAY",
+      "tier": "WINNERS_BRACKET"
+    },
+    {
+      "week": 17,
+      "home_team_id": 2,
+      "away_team_id": 3,
+      "home_points": "141.18",
+      "away_points": "94.39",
+      "winner": "HOME",
+      "tier": "WINNERS_CONSOLATION_LADDER"
+    },
+    {
+      "week": 17,
+      "home_team_id": 9,
+      "away_team_id": 10,
+      "home_points": "111.56",
+      "away_points": "78.30",
+      "winner": "HOME",
+      "tier": "WINNERS_BRACKET"
+    }
+  ],
+  "week15_red_record": {
+    "week": 15,
+    "team_id": 2,
+    "source_status": "UNPAIRED_WINNERS_BRACKET_RECORD_NOT_A_CERTIFIED_HEAD_TO_HEAD_VICTORY"
+  },
+  "source_caveats": [
+    "No raw ESPN payload hash exposed by this retrieval",
+    "Historical owner ID unverified",
+    "Historical transactions not included",
+    "Validate championship bracket separately before pass",
+    "Playoff round pairings may repeat by matchupPeriodId"
+  ],
+  "source_gaps": [
+    "Raw provider payload SHA absent in archived weekly extraction",
+    "Historical human-owner identity not validated",
+    "Historically time-valid hall geometry and props not approved by Atlas",
+    "Independent literary / Umpire review not received"
+  ],
+  "omitted_event_ledger": "Source archive retains all 105 rows; only the 17 Team 1 rows and six additional source fixtures are foregrounded. All remaining matches are offstage and not erased.",
+  "notes": "The model's fictional Jake is a proposed canonical-character temporal POV only. Fictional Sera, Nell, Mara, porter and travelers have agency without independent focalization; no El Niño human POV. No result is claimed as fictional causation.",
+  "full_history_claim": false,
+  "independent_editorial_acceptance": false,
+  "independent_umpire_acceptance": false,
+  "founder_canon_promotion": false,
+  "canonical_merge": false,
+  "publication_authorized": false
+}

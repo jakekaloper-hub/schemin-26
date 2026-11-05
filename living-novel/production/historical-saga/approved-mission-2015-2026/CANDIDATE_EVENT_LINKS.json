@@ -1,0 +1,1708 @@
+{
+  "status": "PROPOSED_NONCANON_LINKS_ONLY",
+  "scope": "Actual new scene-to-source links; distinct linked events do not equal accepted or fully dramatized contests.",
+  "baseline_passage_audit": "evidence/CURRENT_SEASON_PASSAGE_AUDIT.json",
+  "distinct_linked_event_count": 72,
+  "distinct_scene_count": 70,
+  "scene_link_count": 115,
+  "accepted_event_count_claimed": null,
+  "events": [
+    {
+      "event_id": "ESPN1417621-2015-P01-E002",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2015-J-01",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-week1/THE_FIRST_DEBT_NONCANON.md",
+          "heading": "## I. The Slate",
+          "line": 5,
+          "manuscript_sha256": "355cbbea10bc7bc2adea028ee18393641b2be6d4506c7804795ff4b20a6db880",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2015 Week 1 result only; no later-season knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-week1/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "2015-J-02",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-week1/THE_FIRST_DEBT_NONCANON.md",
+          "heading": "## II. The Loan",
+          "line": 47,
+          "manuscript_sha256": "355cbbea10bc7bc2adea028ee18393641b2be6d4506c7804795ff4b20a6db880",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2015 Week 1 result only; no later-season knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-week1/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "2015-J-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-week1/THE_FIRST_DEBT_NONCANON.md",
+          "heading": "## III. What Remains Open",
+          "line": 85,
+          "manuscript_sha256": "355cbbea10bc7bc2adea028ee18393641b2be6d4506c7804795ff4b20a6db880",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2015 Week 1 result only; no later-season knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-week1/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2015-P02-E009",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2015-J-04",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/THE_COST_OF_RETURN_NONCANON.md",
+          "heading": "## I. The Third Request",
+          "line": 5,
+          "manuscript_sha256": "dc4d79a2865bb1a330a6814dba97419811d3015bd8a85a6067a0f6cc3edee183",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2015 through Week 3 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2015-P03-E015",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2015-J-04",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/THE_COST_OF_RETURN_NONCANON.md",
+          "heading": "## I. The Third Request",
+          "line": 5,
+          "manuscript_sha256": "dc4d79a2865bb1a330a6814dba97419811d3015bd8a85a6067a0f6cc3edee183",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2015 through Week 3 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2015-P04-E020",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2015-J-05",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/THE_COST_OF_RETURN_NONCANON.md",
+          "heading": "## II. The Narrow Loss",
+          "line": 37,
+          "manuscript_sha256": "dc4d79a2865bb1a330a6814dba97419811d3015bd8a85a6067a0f6cc3edee183",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2015 through Week 6 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2015-P05-E025",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2015-J-05",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/THE_COST_OF_RETURN_NONCANON.md",
+          "heading": "## II. The Narrow Loss",
+          "line": 37,
+          "manuscript_sha256": "dc4d79a2865bb1a330a6814dba97419811d3015bd8a85a6067a0f6cc3edee183",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2015 through Week 6 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2015-P06-E036",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2015-J-05",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/THE_COST_OF_RETURN_NONCANON.md",
+          "heading": "## II. The Narrow Loss",
+          "line": 37,
+          "manuscript_sha256": "dc4d79a2865bb1a330a6814dba97419811d3015bd8a85a6067a0f6cc3edee183",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2015 through Week 6 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2015-P07-E041",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2015-J-06",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/THE_COST_OF_RETURN_NONCANON.md",
+          "heading": "## III. The Line He Keeps",
+          "line": 67,
+          "manuscript_sha256": "dc4d79a2865bb1a330a6814dba97419811d3015bd8a85a6067a0f6cc3edee183",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2015 through Week 7 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2015-P08-E046",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2015-J-07",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/THE_RECORD_HE_CANNOT_KEEP_NONCANON.md",
+          "heading": "## I. Three Marks",
+          "line": 5,
+          "manuscript_sha256": "0a99459353a561a7d587f23f9af9b27a054d450f9c965120612c22a49c0ed984",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2015 through Week 10 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2015-P09-E051",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2015-J-07",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/THE_RECORD_HE_CANNOT_KEEP_NONCANON.md",
+          "heading": "## I. Three Marks",
+          "line": 5,
+          "manuscript_sha256": "0a99459353a561a7d587f23f9af9b27a054d450f9c965120612c22a49c0ed984",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2015 through Week 10 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2015-P10-E056",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2015-J-07",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/THE_RECORD_HE_CANNOT_KEEP_NONCANON.md",
+          "heading": "## I. Three Marks",
+          "line": 5,
+          "manuscript_sha256": "0a99459353a561a7d587f23f9af9b27a054d450f9c965120612c22a49c0ed984",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2015 through Week 10 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2015-P11-E061",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2015-J-08",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/THE_RECORD_HE_CANNOT_KEEP_NONCANON.md",
+          "heading": "## II. What the Board Cannot Hold",
+          "line": 23,
+          "manuscript_sha256": "0a99459353a561a7d587f23f9af9b27a054d450f9c965120612c22a49c0ed984",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2015 through Week 13 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2015-P12-E072",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2015-J-08",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/THE_RECORD_HE_CANNOT_KEEP_NONCANON.md",
+          "heading": "## II. What the Board Cannot Hold",
+          "line": 23,
+          "manuscript_sha256": "0a99459353a561a7d587f23f9af9b27a054d450f9c965120612c22a49c0ed984",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2015 through Week 13 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2015-P13-E077",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2015-J-08",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/THE_RECORD_HE_CANNOT_KEEP_NONCANON.md",
+          "heading": "## II. What the Board Cannot Hold",
+          "line": 23,
+          "manuscript_sha256": "0a99459353a561a7d587f23f9af9b27a054d450f9c965120612c22a49c0ed984",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2015 through Week 13 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2015-P14-E084",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2015-J-09",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/THE_RECORD_HE_CANNOT_KEEP_NONCANON.md",
+          "heading": "## III. The Last Two Slates",
+          "line": 47,
+          "manuscript_sha256": "0a99459353a561a7d587f23f9af9b27a054d450f9c965120612c22a49c0ed984",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2015 through observed final team-1 event in Week 15 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2015-P15-E089",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2015-J-09",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/THE_RECORD_HE_CANNOT_KEEP_NONCANON.md",
+          "heading": "## III. The Last Two Slates",
+          "line": 47,
+          "manuscript_sha256": "0a99459353a561a7d587f23f9af9b27a054d450f9c965120612c22a49c0ed984",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2015 through observed final team-1 event in Week 15 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2015-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2016-P01-E002",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2016-J-01",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## I. A Good First Mark",
+          "line": 5,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through Week 5 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "2016-J-07",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## VII. Four Small Accounts",
+          "line": 127,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through Week 5 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2016-P02-E009",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2016-J-01",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## I. A Good First Mark",
+          "line": 5,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through Week 5 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "2016-J-07",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## VII. Four Small Accounts",
+          "line": 127,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through Week 5 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2016-P03-E015",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2016-J-04",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## IV. The Unpaid Name",
+          "line": 57,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through Week 3 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2016-P04-E020",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2016-J-01",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## I. A Good First Mark",
+          "line": 5,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through Week 5 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "2016-J-07",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## VII. Four Small Accounts",
+          "line": 127,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through Week 5 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2016-P05-E025",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2016-J-01",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## I. A Good First Mark",
+          "line": 5,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through Week 5 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "2016-J-07",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## VII. Four Small Accounts",
+          "line": 127,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through Week 5 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2016-P06-E036",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2016-J-02",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## II. The Rule With Teeth",
+          "line": 19,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through Week 10 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "2016-J-08",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## VIII. The Sixth Mark",
+          "line": 139,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through Week 10 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2016-P07-E041",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2016-J-05",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## V. The Witness Who Refused",
+          "line": 83,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through Week 7 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2016-P08-E046",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2016-J-02",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## II. The Rule With Teeth",
+          "line": 19,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through Week 10 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "2016-J-08",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## VIII. The Sixth Mark",
+          "line": 139,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through Week 10 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2016-P09-E051",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2016-J-02",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## II. The Rule With Teeth",
+          "line": 19,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through Week 10 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "2016-J-08",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## VIII. The Sixth Mark",
+          "line": 139,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through Week 10 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2016-P10-E056",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2016-J-02",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## II. The Rule With Teeth",
+          "line": 19,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through Week 10 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "2016-J-08",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## VIII. The Sixth Mark",
+          "line": 139,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through Week 10 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2016-P11-E061",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2016-J-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## III. The Last Page",
+          "line": 35,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through observed final team-1 event in Week 15 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "2016-J-09",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## IX. Three Ways to Leave",
+          "line": 153,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through Week 13 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2016-P12-E072",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2016-J-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## III. The Last Page",
+          "line": 35,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through observed final team-1 event in Week 15 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "2016-J-09",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## IX. Three Ways to Leave",
+          "line": 153,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through Week 13 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2016-P13-E077",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2016-J-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## III. The Last Page",
+          "line": 35,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through observed final team-1 event in Week 15 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "2016-J-09",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## IX. Three Ways to Leave",
+          "line": 153,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through Week 13 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2016-P14-E080",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2016-J-06",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## VI. The Margin",
+          "line": 107,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through Week 14 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2016-P15-E086",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2016-J-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## III. The Last Page",
+          "line": 35,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through observed final team-1 event in Week 15 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "2016-J-10",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+          "heading": "## X. The Final Refusal",
+          "line": 167,
+          "manuscript_sha256": "908ebcc59de4092da4134fc3ef3dbec21d0ff7a160cce947933510c574fc18b5",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2016 through final observed team-1 event",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2017-P01-E001",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2017-J-01",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/THE_ROOM_THAT_KEPT_COUNT_NONCANON.md",
+          "heading": "## I. The First Refusal",
+          "line": 5,
+          "manuscript_sha256": "41d0e831e714a43ce2c2ed88bac01af4ac5242dac18aa6402daf2d6415890d0d",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2017 Week 1 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2017-P02-E007",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2017-J-04",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/THE_ROOM_THAT_KEPT_COUNT_NONCANON.md",
+          "heading": "## IV. The Second and Third Doors",
+          "line": 45,
+          "manuscript_sha256": "41d0e831e714a43ce2c2ed88bac01af4ac5242dac18aa6402daf2d6415890d0d",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2017 Week 3 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2017-P03-E013",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2017-J-04",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/THE_ROOM_THAT_KEPT_COUNT_NONCANON.md",
+          "heading": "## IV. The Second and Third Doors",
+          "line": 45,
+          "manuscript_sha256": "41d0e831e714a43ce2c2ed88bac01af4ac5242dac18aa6402daf2d6415890d0d",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2017 Week 3 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2017-P04-E019",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2017-J-05",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/THE_ROOM_THAT_KEPT_COUNT_NONCANON.md",
+          "heading": "## V. The Fourth and Fifth",
+          "line": 51,
+          "manuscript_sha256": "41d0e831e714a43ce2c2ed88bac01af4ac5242dac18aa6402daf2d6415890d0d",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2017 Week 5 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2017-P05-E025",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2017-J-05",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/THE_ROOM_THAT_KEPT_COUNT_NONCANON.md",
+          "heading": "## V. The Fourth and Fifth",
+          "line": 51,
+          "manuscript_sha256": "41d0e831e714a43ce2c2ed88bac01af4ac5242dac18aa6402daf2d6415890d0d",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2017 Week 5 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2017-P06-E031",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2017-J-06",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/THE_ROOM_THAT_KEPT_COUNT_NONCANON.md",
+          "heading": "## VI. The Sixth and Seventh",
+          "line": 57,
+          "manuscript_sha256": "41d0e831e714a43ce2c2ed88bac01af4ac5242dac18aa6402daf2d6415890d0d",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2017 Week 7 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2017-P07-E042",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2017-J-06",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/THE_ROOM_THAT_KEPT_COUNT_NONCANON.md",
+          "heading": "## VI. The Sixth and Seventh",
+          "line": 57,
+          "manuscript_sha256": "41d0e831e714a43ce2c2ed88bac01af4ac5242dac18aa6402daf2d6415890d0d",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2017 Week 7 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2017-P08-E047",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2017-J-02",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/THE_ROOM_THAT_KEPT_COUNT_NONCANON.md",
+          "heading": "## II. The Eighth Slate",
+          "line": 17,
+          "manuscript_sha256": "41d0e831e714a43ce2c2ed88bac01af4ac5242dac18aa6402daf2d6415890d0d",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2017 Week 8 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2017-P09-E052",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2017-J-07",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/THE_ROOM_THAT_KEPT_COUNT_NONCANON.md",
+          "heading": "## VII. The Ninth Through Eleventh",
+          "line": 65,
+          "manuscript_sha256": "41d0e831e714a43ce2c2ed88bac01af4ac5242dac18aa6402daf2d6415890d0d",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2017 Week 11 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2017-P10-E057",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2017-J-07",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/THE_ROOM_THAT_KEPT_COUNT_NONCANON.md",
+          "heading": "## VII. The Ninth Through Eleventh",
+          "line": 65,
+          "manuscript_sha256": "41d0e831e714a43ce2c2ed88bac01af4ac5242dac18aa6402daf2d6415890d0d",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2017 Week 11 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2017-P11-E062",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2017-J-07",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/THE_ROOM_THAT_KEPT_COUNT_NONCANON.md",
+          "heading": "## VII. The Ninth Through Eleventh",
+          "line": 65,
+          "manuscript_sha256": "41d0e831e714a43ce2c2ed88bac01af4ac5242dac18aa6402daf2d6415890d0d",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2017 Week 11 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2017-P12-E067",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2017-J-08",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/THE_ROOM_THAT_KEPT_COUNT_NONCANON.md",
+          "heading": "## VIII. The Twelfth and Thirteenth",
+          "line": 71,
+          "manuscript_sha256": "41d0e831e714a43ce2c2ed88bac01af4ac5242dac18aa6402daf2d6415890d0d",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2017 Week 13 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2017-P13-E074",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2017-J-08",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/THE_ROOM_THAT_KEPT_COUNT_NONCANON.md",
+          "heading": "## VIII. The Twelfth and Thirteenth",
+          "line": 71,
+          "manuscript_sha256": "41d0e831e714a43ce2c2ed88bac01af4ac5242dac18aa6402daf2d6415890d0d",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2017 Week 13 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2017-P14-E084",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2017-J-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/THE_ROOM_THAT_KEPT_COUNT_NONCANON.md",
+          "heading": "## III. The Last Ladder",
+          "line": 31,
+          "manuscript_sha256": "41d0e831e714a43ce2c2ed88bac01af4ac5242dac18aa6402daf2d6415890d0d",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2017 through final observed team-1 event",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2017-P15-E089",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2017-J-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/THE_ROOM_THAT_KEPT_COUNT_NONCANON.md",
+          "heading": "## III. The Last Ladder",
+          "line": 31,
+          "manuscript_sha256": "41d0e831e714a43ce2c2ed88bac01af4ac5242dac18aa6402daf2d6415890d0d",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2017 through final observed team-1 event",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2017-P16-E095",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2017-J-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/THE_ROOM_THAT_KEPT_COUNT_NONCANON.md",
+          "heading": "## III. The Last Ladder",
+          "line": 31,
+          "manuscript_sha256": "41d0e831e714a43ce2c2ed88bac01af4ac5242dac18aa6402daf2d6415890d0d",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2017 through final observed team-1 event",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2017-jake-turning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2018-P01-E002",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2018-J-01",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/THE_NAMES_HE_DID_NOT_KEEP_NONCANON.md",
+          "heading": "## I. The Salt Register",
+          "line": 5,
+          "manuscript_sha256": "32775d6e8d30cb40c9860ae60394490adcb563cb1a920bb6500ab0346aec80c6",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2018 Week 3 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2018-P02-E007",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2018-J-01",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/THE_NAMES_HE_DID_NOT_KEEP_NONCANON.md",
+          "heading": "## I. The Salt Register",
+          "line": 5,
+          "manuscript_sha256": "32775d6e8d30cb40c9860ae60394490adcb563cb1a920bb6500ab0346aec80c6",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2018 Week 3 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2018-P03-E014",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2018-J-01",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/THE_NAMES_HE_DID_NOT_KEEP_NONCANON.md",
+          "heading": "## I. The Salt Register",
+          "line": 5,
+          "manuscript_sha256": "32775d6e8d30cb40c9860ae60394490adcb563cb1a920bb6500ab0346aec80c6",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2018 Week 3 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2018-P04-E021",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2018-J-02",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/THE_NAMES_HE_DID_NOT_KEEP_NONCANON.md",
+          "heading": "## II. The Borrowed Bell",
+          "line": 15,
+          "manuscript_sha256": "32775d6e8d30cb40c9860ae60394490adcb563cb1a920bb6500ab0346aec80c6",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2018 Week 5 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2018-P05-E027",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2018-J-02",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/THE_NAMES_HE_DID_NOT_KEEP_NONCANON.md",
+          "heading": "## II. The Borrowed Bell",
+          "line": 15,
+          "manuscript_sha256": "32775d6e8d30cb40c9860ae60394490adcb563cb1a920bb6500ab0346aec80c6",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2018 Week 5 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2018-P06-E033",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2018-J-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/THE_NAMES_HE_DID_NOT_KEEP_NONCANON.md",
+          "heading": "## III. The Sixth Dry Tide",
+          "line": 23,
+          "manuscript_sha256": "32775d6e8d30cb40c9860ae60394490adcb563cb1a920bb6500ab0346aec80c6",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2018 Week 7 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2018-P07-E038",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2018-J-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/THE_NAMES_HE_DID_NOT_KEEP_NONCANON.md",
+          "heading": "## III. The Sixth Dry Tide",
+          "line": 23,
+          "manuscript_sha256": "32775d6e8d30cb40c9860ae60394490adcb563cb1a920bb6500ab0346aec80c6",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2018 Week 7 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2018-P08-E043",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2018-J-04",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/THE_NAMES_HE_DID_NOT_KEEP_NONCANON.md",
+          "heading": "## IV. A Map Without Borders",
+          "line": 31,
+          "manuscript_sha256": "32775d6e8d30cb40c9860ae60394490adcb563cb1a920bb6500ab0346aec80c6",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2018 Week 9 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2018-P09-E054",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2018-J-04",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/THE_NAMES_HE_DID_NOT_KEEP_NONCANON.md",
+          "heading": "## IV. A Map Without Borders",
+          "line": 31,
+          "manuscript_sha256": "32775d6e8d30cb40c9860ae60394490adcb563cb1a920bb6500ab0346aec80c6",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2018 Week 9 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2018-P10-E059",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2018-J-05",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/THE_NAMES_HE_DID_NOT_KEEP_NONCANON.md",
+          "heading": "## V. The Empty Chair",
+          "line": 39,
+          "manuscript_sha256": "32775d6e8d30cb40c9860ae60394490adcb563cb1a920bb6500ab0346aec80c6",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2018 Week 12 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2018-P11-E064",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2018-J-05",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/THE_NAMES_HE_DID_NOT_KEEP_NONCANON.md",
+          "heading": "## V. The Empty Chair",
+          "line": 39,
+          "manuscript_sha256": "32775d6e8d30cb40c9860ae60394490adcb563cb1a920bb6500ab0346aec80c6",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2018 Week 12 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2018-P12-E072",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2018-J-05",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/THE_NAMES_HE_DID_NOT_KEEP_NONCANON.md",
+          "heading": "## V. The Empty Chair",
+          "line": 39,
+          "manuscript_sha256": "32775d6e8d30cb40c9860ae60394490adcb563cb1a920bb6500ab0346aec80c6",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2018 Week 12 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2018-P13-E074",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2018-J-06",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/THE_NAMES_HE_DID_NOT_KEEP_NONCANON.md",
+          "heading": "## VI. The Thirteenth Light",
+          "line": 47,
+          "manuscript_sha256": "32775d6e8d30cb40c9860ae60394490adcb563cb1a920bb6500ab0346aec80c6",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2018 Week 13 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2018-P14-E085",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2018-J-07",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/THE_NAMES_HE_DID_NOT_KEEP_NONCANON.md",
+          "heading": "## VII. The Lower Ladder",
+          "line": 55,
+          "manuscript_sha256": "32775d6e8d30cb40c9860ae60394490adcb563cb1a920bb6500ab0346aec80c6",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2018 Week 15 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2018-P15-E090",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2018-J-07",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/THE_NAMES_HE_DID_NOT_KEEP_NONCANON.md",
+          "heading": "## VII. The Lower Ladder",
+          "line": 55,
+          "manuscript_sha256": "32775d6e8d30cb40c9860ae60394490adcb563cb1a920bb6500ab0346aec80c6",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2018 Week 15 only",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2018-P16-E095",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2018-J-08",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/THE_NAMES_HE_DID_NOT_KEEP_NONCANON.md",
+          "heading": "## VIII. The Fourth Return",
+          "line": 65,
+          "manuscript_sha256": "32775d6e8d30cb40c9860ae60394490adcb563cb1a920bb6500ab0346aec80c6",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2018 through final observed team-1 event",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2018-jake-breakwater/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2024-P17-E099",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2024_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "2024-T-01",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/THE_DOOR_AFTER_THE_CROWN_NONCANON.md",
+          "heading": "## I. The Speech for Tomorrow",
+          "line": 5,
+          "manuscript_sha256": "5251fc7d84337587987a4576d593c13c9b2c691bc145c8587a23687cb769a9df",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2024 POST_CHAMPIONSHIP_FINAL_PRE_2025; no 2025 knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "2024-T-02",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/THE_DOOR_AFTER_THE_CROWN_NONCANON.md",
+          "heading": "## II. The Names Left Outside",
+          "line": 69,
+          "manuscript_sha256": "5251fc7d84337587987a4576d593c13c9b2c691bc145c8587a23687cb769a9df",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2024 POST_CHAMPIONSHIP_FINAL_PRE_2025; no 2025 knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "2024-T-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/THE_DOOR_AFTER_THE_CROWN_NONCANON.md",
+          "heading": "## III. A Place at the Table",
+          "line": 135,
+          "manuscript_sha256": "5251fc7d84337587987a4576d593c13c9b2c691bc145c8587a23687cb769a9df",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2024 POST_CHAMPIONSHIP_FINAL_PRE_2025; no 2025 knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "2024-T-04",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/THE_DOOR_AFTER_THE_CROWN_NONCANON.md",
+          "heading": "## IV. The Work of Keeping a Door",
+          "line": 233,
+          "manuscript_sha256": "5251fc7d84337587987a4576d593c13c9b2c691bc145c8587a23687cb769a9df",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2024 POST_CHAMPIONSHIP_FINAL_PRE_2025; no 2025 knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2025-P16-E092",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "RECKONING-2025-01",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md",
+          "heading": "## I. The pennant \u2014 Jake",
+          "line": 5,
+          "manuscript_sha256": "5922f4958fba95b9b6881644688aa999d071efce7ecb0533fdd8cdbda07ed324",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2025 semifinal in progress; knows own result only when announced; no final knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "RECKONING-2025-02",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md",
+          "heading": "## II. The last space \u2014 Austin",
+          "line": 93,
+          "manuscript_sha256": "5922f4958fba95b9b6881644688aa999d071efce7ecb0533fdd8cdbda07ed324",
+          "pov_character_id": "CHAR-AUSTIN-BYARS",
+          "story_time_cutoff": "2025 semifinal in progress; knows own result only when announced; no final knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "RECKONING-2025-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md",
+          "heading": "## III. The speech Sorel would not give \u2014 Jake",
+          "line": 171,
+          "manuscript_sha256": "5922f4958fba95b9b6881644688aa999d071efce7ecb0533fdd8cdbda07ed324",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2025 between completed semifinals and final; no final result known",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "RECKONING-2025-04",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md",
+          "heading": "## IV. The lower place \u2014 Austin",
+          "line": 267,
+          "manuscript_sha256": "5922f4958fba95b9b6881644688aa999d071efce7ecb0533fdd8cdbda07ed324",
+          "pov_character_id": "CHAR-AUSTIN-BYARS",
+          "story_time_cutoff": "2025 between completed semifinals and final; no final result known",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "RECKONING-2025-05",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md",
+          "heading": "## V. The final \u2014 Jake",
+          "line": 345,
+          "manuscript_sha256": "5922f4958fba95b9b6881644688aa999d071efce7ecb0533fdd8cdbda07ed324",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2025 final and immediate closing movement; no 2026 knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2025-P16-E093",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "RECKONING-2025-02",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md",
+          "heading": "## II. The last space \u2014 Austin",
+          "line": 93,
+          "manuscript_sha256": "5922f4958fba95b9b6881644688aa999d071efce7ecb0533fdd8cdbda07ed324",
+          "pov_character_id": "CHAR-AUSTIN-BYARS",
+          "story_time_cutoff": "2025 semifinal in progress; knows own result only when announced; no final knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "RECKONING-2025-04",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md",
+          "heading": "## IV. The lower place \u2014 Austin",
+          "line": 267,
+          "manuscript_sha256": "5922f4958fba95b9b6881644688aa999d071efce7ecb0533fdd8cdbda07ed324",
+          "pov_character_id": "CHAR-AUSTIN-BYARS",
+          "story_time_cutoff": "2025 between completed semifinals and final; no final result known",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "RECKONING-2025-05",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md",
+          "heading": "## V. The final \u2014 Jake",
+          "line": 345,
+          "manuscript_sha256": "5922f4958fba95b9b6881644688aa999d071efce7ecb0533fdd8cdbda07ed324",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2025 final and immediate closing movement; no 2026 knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2025-P17-E099",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "RECKONING-2025-05",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md",
+          "heading": "## V. The final \u2014 Jake",
+          "line": 345,
+          "manuscript_sha256": "5922f4958fba95b9b6881644688aa999d071efce7ecb0533fdd8cdbda07ed324",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2025 final and immediate closing movement; no 2026 knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "RECKONING-2025-06",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md",
+          "heading": "## VI. The case \u2014 Austin",
+          "line": 423,
+          "manuscript_sha256": "5922f4958fba95b9b6881644688aa999d071efce7ecb0533fdd8cdbda07ed324",
+          "pov_character_id": "CHAR-AUSTIN-BYARS",
+          "story_time_cutoff": "2025 final and immediate closing movement; no 2026 knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "RECKONING-2025-07",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md",
+          "heading": "## VII. Closing movement: the departing ground \u2014 Jake",
+          "line": 483,
+          "manuscript_sha256": "5922f4958fba95b9b6881644688aa999d071efce7ecb0533fdd8cdbda07ed324",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2025 final and immediate closing movement; no 2026 knowledge",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2026-P03-E002",
+      "source_path": "memo-os/week-3/WEEK_3_FINAL_EVIDENCE_SNAPSHOT_06.md",
+      "candidate_scenes": [
+        {
+          "scene_id": "OPEN-GATE-2026-02",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/THE_PRICE_OF_AN_OPEN_GATE.md",
+          "heading": "## II. The passage \u2014 Wilson",
+          "line": 125,
+          "manuscript_sha256": "be1255612c84db92f9188f29aae2e68674e236950bbf9a0d2f6ddb01868830db",
+          "pov_character_id": "CHAR-WILSON-LOOK",
+          "story_time_cutoff": "After hard Chapter III / Week 3 final; before Week 4 final outcomes. No later knowledge licensed.",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "OPEN-GATE-2026-04",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/THE_PRICE_OF_AN_OPEN_GATE.md",
+          "heading": "## IV. The signature \u2014 Wilson",
+          "line": 337,
+          "manuscript_sha256": "be1255612c84db92f9188f29aae2e68674e236950bbf9a0d2f6ddb01868830db",
+          "pov_character_id": "CHAR-WILSON-LOOK",
+          "story_time_cutoff": "After hard Chapter III / Week 3 final; before Week 4 final outcomes. No later knowledge licensed.",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "OPEN-GATE-2026-06",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/THE_PRICE_OF_AN_OPEN_GATE.md",
+          "heading": "## VI. The open gate \u2014 Wilson",
+          "line": 529,
+          "manuscript_sha256": "be1255612c84db92f9188f29aae2e68674e236950bbf9a0d2f6ddb01868830db",
+          "pov_character_id": "CHAR-WILSON-LOOK",
+          "story_time_cutoff": "After hard Chapter III / Week 3 final; before Week 4 final outcomes. No later knowledge licensed.",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2026-P03-E005",
+      "source_path": "memo-os/week-3/WEEK_3_FINAL_EVIDENCE_SNAPSHOT_06.md",
+      "candidate_scenes": [
+        {
+          "scene_id": "OPEN-GATE-2026-01",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/THE_PRICE_OF_AN_OPEN_GATE.md",
+          "heading": "## I. The pot \u2014 Ben",
+          "line": 5,
+          "manuscript_sha256": "be1255612c84db92f9188f29aae2e68674e236950bbf9a0d2f6ddb01868830db",
+          "pov_character_id": "CHAR-BEN-WHIPPLE",
+          "story_time_cutoff": "After hard Chapter III / Week 3 final; before Week 4 final outcomes. No later knowledge licensed.",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "OPEN-GATE-2026-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/THE_PRICE_OF_AN_OPEN_GATE.md",
+          "heading": "## III. What belongs to the hall \u2014 Ben",
+          "line": 229,
+          "manuscript_sha256": "be1255612c84db92f9188f29aae2e68674e236950bbf9a0d2f6ddb01868830db",
+          "pov_character_id": "CHAR-BEN-WHIPPLE",
+          "story_time_cutoff": "After hard Chapter III / Week 3 final; before Week 4 final outcomes. No later knowledge licensed.",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "OPEN-GATE-2026-05",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/THE_PRICE_OF_AN_OPEN_GATE.md",
+          "heading": "## V. The beam \u2014 Ben",
+          "line": 443,
+          "manuscript_sha256": "be1255612c84db92f9188f29aae2e68674e236950bbf9a0d2f6ddb01868830db",
+          "pov_character_id": "CHAR-BEN-WHIPPLE",
+          "story_time_cutoff": "After hard Chapter III / Week 3 final; before Week 4 final outcomes. No later knowledge licensed.",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2026-P04-E003",
+      "source_path": "living-novel/production/week-04-05/WEEK_04_05_FLAIM_FACT_SNAPSHOT_2026-10-14.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "W4-UA-01",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week4/THE_UNFINISHED_APPLAUSE_NONCANON.md",
+          "heading": "## I. The Victor's Shade",
+          "line": 5,
+          "manuscript_sha256": "dcdf76089d04fdad43a92175663d8b4783cd7c88bac9342cf1f337cb82d4d5da",
+          "pov_character_id": "CHAR-KEVIN-ZEEK",
+          "story_time_cutoff": "2026 AFTER_WEEK_4_FINAL_BEFORE_WEEK_5_RESULTS; consecutive afternoon scenes",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week4/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "W4-UA-02",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week4/THE_UNFINISHED_APPLAUSE_NONCANON.md",
+          "heading": "## II. A Favorable Angle",
+          "line": 125,
+          "manuscript_sha256": "dcdf76089d04fdad43a92175663d8b4783cd7c88bac9342cf1f337cb82d4d5da",
+          "pov_character_id": "CHAR-ZACH-WILSON",
+          "story_time_cutoff": "2026 AFTER_WEEK_4_FINAL_BEFORE_WEEK_5_RESULTS; consecutive afternoon scenes",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week4/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "W4-UA-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week4/THE_UNFINISHED_APPLAUSE_NONCANON.md",
+          "heading": "## III. What the Court Saw",
+          "line": 267,
+          "manuscript_sha256": "dcdf76089d04fdad43a92175663d8b4783cd7c88bac9342cf1f337cb82d4d5da",
+          "pov_character_id": "CHAR-KEVIN-ZEEK",
+          "story_time_cutoff": "2026 AFTER_WEEK_4_FINAL_BEFORE_WEEK_5_RESULTS; consecutive afternoon scenes",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week4/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "W4-UA-04",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week4/THE_UNFINISHED_APPLAUSE_NONCANON.md",
+          "heading": "## IV. The Shape of Leaving",
+          "line": 421,
+          "manuscript_sha256": "dcdf76089d04fdad43a92175663d8b4783cd7c88bac9342cf1f337cb82d4d5da",
+          "pov_character_id": "CHAR-ZACH-WILSON",
+          "story_time_cutoff": "2026 AFTER_WEEK_4_FINAL_BEFORE_WEEK_5_RESULTS; consecutive afternoon scenes",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week4/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2026-P05-E003",
+      "source_path": "memo-os/week-5/production-evidence/WEEK_5_SIX_PAYOFF_FINAL_RESULT_BANNER_LOCK_2026-10-13.json",
+      "candidate_scenes": [
+        {
+          "scene_id": "W5-CH-01",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week5/A_DOOR_WIDE_ENOUGH_NONCANON.md",
+          "heading": "## I. The Performance",
+          "line": 5,
+          "manuscript_sha256": "8a8ee0cb748301ca9a04dc4258f2de82c6f579888fb34ef9538c02cf7e0eb713",
+          "pov_character_id": "CHAR-BRANDON-PRYOR",
+          "story_time_cutoff": "2026 WEEK5_CONTEST_AND_IMMEDIATE_AFTERMATH_BEFORE_WEEK6; result learned only in scene W5-CH-04",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week5/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "W5-CH-02",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week5/A_DOOR_WIDE_ENOUGH_NONCANON.md",
+          "heading": "## II. The First One Through",
+          "line": 49,
+          "manuscript_sha256": "8a8ee0cb748301ca9a04dc4258f2de82c6f579888fb34ef9538c02cf7e0eb713",
+          "pov_character_id": "CHAR-BRANDON-PRYOR",
+          "story_time_cutoff": "2026 WEEK5_CONTEST_AND_IMMEDIATE_AFTERMATH_BEFORE_WEEK6; result learned only in scene W5-CH-04",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week5/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "W5-CH-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week5/A_DOOR_WIDE_ENOUGH_NONCANON.md",
+          "heading": "## III. What Came out of the Cloth",
+          "line": 129,
+          "manuscript_sha256": "8a8ee0cb748301ca9a04dc4258f2de82c6f579888fb34ef9538c02cf7e0eb713",
+          "pov_character_id": "CHAR-BRANDON-PRYOR",
+          "story_time_cutoff": "2026 WEEK5_CONTEST_AND_IMMEDIATE_AFTERMATH_BEFORE_WEEK6; result learned only in scene W5-CH-04",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week5/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "W5-CH-04",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week5/A_DOOR_WIDE_ENOUGH_NONCANON.md",
+          "heading": "## IV. The Result Arrives",
+          "line": 213,
+          "manuscript_sha256": "8a8ee0cb748301ca9a04dc4258f2de82c6f579888fb34ef9538c02cf7e0eb713",
+          "pov_character_id": "CHAR-BRANDON-PRYOR",
+          "story_time_cutoff": "2026 WEEK5_CONTEST_AND_IMMEDIATE_AFTERMATH_BEFORE_WEEK6; result learned only in scene W5-CH-04",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week5/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2026-P06-E003",
+      "source_path": "memo-os/week-6/WEEK_6_FLAIM_REVERIFICATION_AND_HANDOFF_CONVERGENCE_2026-10-20.md",
+      "candidate_scenes": [
+        {
+          "scene_id": "W6-FH-01",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/THE_LINE_LEFT_STANDING_NONCANON.md",
+          "heading": "## I. What the Welcome Cost",
+          "line": 5,
+          "manuscript_sha256": "5fd9ace01c6ea520b704d4aa202cdbd2111c955b54e39d419b8dd6cd2bea1612",
+          "pov_character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "story_time_cutoff": "2026 AFTER_WEEK_6_FINAL_BEFORE_WEEK_7_RESULTS; evening to planned next morning departure",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "W6-FH-02",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/THE_LINE_LEFT_STANDING_NONCANON.md",
+          "heading": "## II. A Better Offer",
+          "line": 91,
+          "manuscript_sha256": "5fd9ace01c6ea520b704d4aa202cdbd2111c955b54e39d419b8dd6cd2bea1612",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2026 AFTER_WEEK_6_FINAL_BEFORE_WEEK_7_RESULTS; evening to planned next morning departure",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "W6-FH-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/THE_LINE_LEFT_STANDING_NONCANON.md",
+          "heading": "## III. The Captain's Share",
+          "line": 195,
+          "manuscript_sha256": "5fd9ace01c6ea520b704d4aa202cdbd2111c955b54e39d419b8dd6cd2bea1612",
+          "pov_character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "story_time_cutoff": "2026 AFTER_WEEK_6_FINAL_BEFORE_WEEK_7_RESULTS; evening to planned next morning departure",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "W6-FH-04",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/THE_LINE_LEFT_STANDING_NONCANON.md",
+          "heading": "## IV. No One to Send",
+          "line": 279,
+          "manuscript_sha256": "5fd9ace01c6ea520b704d4aa202cdbd2111c955b54e39d419b8dd6cd2bea1612",
+          "pov_character_id": "CHAR-JAKE-KALOPER",
+          "story_time_cutoff": "2026 AFTER_WEEK_6_FINAL_BEFORE_WEEK_7_RESULTS; evening to planned next morning departure",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "W6-FH-05",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/THE_LINE_LEFT_STANDING_NONCANON.md",
+          "heading": "## V. The Part Nobody Cheered",
+          "line": 371,
+          "manuscript_sha256": "5fd9ace01c6ea520b704d4aa202cdbd2111c955b54e39d419b8dd6cd2bea1612",
+          "pov_character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "story_time_cutoff": "2026 AFTER_WEEK_6_FINAL_BEFORE_WEEK_7_RESULTS; evening to planned next morning departure",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    },
+    {
+      "event_id": "ESPN1417621-2026-P06-E005",
+      "source_path": "memo-os/week-6/WEEK_6_FLAIM_REVERIFICATION_AND_HANDOFF_CONVERGENCE_2026-10-20.md",
+      "candidate_scenes": [
+        {
+          "scene_id": "WATER-LINE-2026-W06-01",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6-wetland/THE_WATER_BENEATH_THE_LINE.md",
+          "heading": "## I. A scent missing \u2014 Bobby",
+          "line": 5,
+          "manuscript_sha256": "e25a07a398aaffaf1d1087c85d7219846c550bde2ee13612b64d33d373ace71a",
+          "pov_character_id": "CHAR-BOBBY-MITCHELL",
+          "story_time_cutoff": "After verified 2026 Week 6; before any Week 7 result. Story year 2026. No older owner binding inferred.",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6-wetland/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "WATER-LINE-2026-W06-02",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6-wetland/THE_WATER_BENEATH_THE_LINE.md",
+          "heading": "## II. The clean edge \u2014 Austin",
+          "line": 77,
+          "manuscript_sha256": "e25a07a398aaffaf1d1087c85d7219846c550bde2ee13612b64d33d373ace71a",
+          "pov_character_id": "CHAR-AUSTIN-BYARS",
+          "story_time_cutoff": "After verified 2026 Week 6; before any Week 7 result. Story year 2026. No older owner binding inferred.",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6-wetland/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "WATER-LINE-2026-W06-03",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6-wetland/THE_WATER_BENEATH_THE_LINE.md",
+          "heading": "## III. Under the root \u2014 Bobby",
+          "line": 157,
+          "manuscript_sha256": "e25a07a398aaffaf1d1087c85d7219846c550bde2ee13612b64d33d373ace71a",
+          "pov_character_id": "CHAR-BOBBY-MITCHELL",
+          "story_time_cutoff": "After verified 2026 Week 6; before any Week 7 result. Story year 2026. No older owner binding inferred.",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6-wetland/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "WATER-LINE-2026-W06-04",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6-wetland/THE_WATER_BENEATH_THE_LINE.md",
+          "heading": "## IV. What could be saved \u2014 Austin",
+          "line": 241,
+          "manuscript_sha256": "e25a07a398aaffaf1d1087c85d7219846c550bde2ee13612b64d33d373ace71a",
+          "pov_character_id": "CHAR-AUSTIN-BYARS",
+          "story_time_cutoff": "After verified 2026 Week 6; before any Week 7 result. Story year 2026. No older owner binding inferred.",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6-wetland/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        },
+        {
+          "scene_id": "WATER-LINE-2026-W06-05",
+          "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6-wetland/THE_WATER_BENEATH_THE_LINE.md",
+          "heading": "## V. The way around \u2014 Bobby",
+          "line": 325,
+          "manuscript_sha256": "e25a07a398aaffaf1d1087c85d7219846c550bde2ee13612b64d33d373ace71a",
+          "pov_character_id": "CHAR-BOBBY-MITCHELL",
+          "story_time_cutoff": "After verified 2026 Week 6; before any Week 7 result. Story year 2026. No older owner binding inferred.",
+          "register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6-wetland/SCENE_REGISTER.json",
+          "coverage_status": "DRAFT_CONTEXT_OR_AFTERMATH_LINK_NOT_ACCEPTED_COVERAGE"
+        }
+      ]
+    }
+  ]
+}

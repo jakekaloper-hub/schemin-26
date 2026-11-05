@@ -1,0 +1,90 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261101-2016-CAUSAL-CH71-UNIFIED-71-CHAPTER-READER",
+  "date_utc": "2026-11-01",
+  "mission": "BULLPEN_PERMANENT_EXECUTIVE_MANDATE",
+  "repo": "jakekaloper-hub/schemin-26",
+  "bullpen_repo": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "pr_state": "OPEN_DRAFT",
+  "resumed_from_commit": "eae129add94f7014743a0b6e79c37ada20a1cd92",
+  "authority": {
+    "schemin_main": "e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80",
+    "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "twelve_pov_rule": "living-novel/os/NOVEL_POV_CONSTITUTION_V1.md",
+    "bullpen_registry": "runtime/commandRegistry.js",
+    "bullpen_lifecycle": "runtime/lifecycleEngine.js"
+  },
+  "issue_reviewed": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "pr_reviewed": {
+    "188": "MERGED",
+    "243": "OPEN_DRAFT",
+    "252": "OPEN_DRAFT",
+    "261": "OPEN_DRAFT",
+    "264": "OPEN_DRAFT"
+  },
+  "output": {
+    "chapter": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_MEASURE_OF_THE_ROAD_CHAPTER_71_NONCANON.md",
+      "blob_sha": "acef39f31b9a58b8da64d4bba8c151323849f8b2",
+      "words_including_handoff": 4715,
+      "movements": 6
+    },
+    "reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_71_NONCANON.md",
+      "blob_sha": "d27c708fbd7b44730ae8d424a709c2eb15f3bed7",
+      "source_chapters": 71,
+      "source_words_including_handoffs": 396303,
+      "previous_reader_sha": "6616634a516b4a3e99b015d01c19a5f72be186de"
+    },
+    "test": {
+      "path": "living-novel/historical-chronicle/qa/test_2016_causal_full_71_reader.py",
+      "cases": 18
+    },
+    "ci_file": ".github/workflows/novel-os-ci.yml",
+    "qa": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_71_SOURCE_EDITORIAL_QA_RECEIPT.md"
+  },
+  "technical": {
+    "precommit_wrapper_count": 71,
+    "precommit_manifest_count": 71,
+    "previous_70_source_wrappers_byte_identical": true,
+    "new_test_status": "PENDING_CI_AT_EXACT_FINAL_COMMIT",
+    "github_actions": "PENDING"
+  },
+  "review": {
+    "independent_pr_reviews_at_start": 0,
+    "independent_author_acceptance": false,
+    "independent_umpire_acceptance": false
+  },
+  "story": {
+    "conditional_survivor_returns": 1,
+    "conditional_unlocated_travelers": 6,
+    "novel_change": "Jake moves a disputed road marker for a cart, rejects an unverified toll, and departs to obtain timber price; claim persists.",
+    "historical_facts_added": 0,
+    "structural_defect": "71 Jake-limited historical chapters, 2016 owner crosswalk unauthenticated",
+    "atlas_hold": true,
+    "link_to_prior_chapter_15": true
+  },
+  "gates": {
+    "noncanon": true,
+    "merge": false,
+    "canon_promotion": false,
+    "publication": false,
+    "founder_acceptance": false,
+    "independent_umpire": false
+  },
+  "next": [
+    "Check exact final commit's four required CI outcomes and diagnose any failing tests from logs.",
+    "Independent authors council/Umpire challenge Chapter XV thematic recurrence and 71-owner POV imbalance.",
+    "Do not add unverified 2016 principal POV; seek period-correct manager account IDs or choose evidence-authenticated other seasons.",
+    "If development continues, make next story beat materially alter regional stakes, not just another road/resource-accounting problem.",
+    "Do not merge, deploy, canon-promote or claim external review without evidence."
+  ]
+}

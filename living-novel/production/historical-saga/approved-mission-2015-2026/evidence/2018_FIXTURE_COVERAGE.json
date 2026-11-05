@@ -1,0 +1,4136 @@
+{
+  "season": 2018,
+  "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+  "returned_rows": 97,
+  "distinct_source_entries": 97,
+  "duplicate_display_rows": 0,
+  "observed_paired_contests": 95,
+  "regular_season_contests": 78,
+  "postseason_contests": 17,
+  "unpaired_rows": 2,
+  "postseason_tiers_paired": {
+    "WINNERS_BRACKET": 5,
+    "LOSERS_CONSOLATION_LADDER": 9,
+    "WINNERS_CONSOLATION_LADDER": 3
+  },
+  "regular_scoring_weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "postseason_scoring_weeks": [
+    14,
+    15,
+    16
+  ],
+  "denominator_scope": "OBSERVED_PAIRED_SOURCE_CONTESTS; full historical schedule completeness not independently certified",
+  "accepted_literary_coverage": 0,
+  "coverage_status": "UNACCEPTED_NOT_UNWRITTEN",
+  "missing_data": [
+    "Historical owner binding",
+    "Historical division and venue binding",
+    "Raw provider bytes not supplied by these transcriptions",
+    "Independent schedule/bracket completeness reconciliation"
+  ],
+  "title_outcome": {
+    "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json",
+    "source_sha256": "21af60795d2431dbe5a7b971e7ef0d7d6515a61451420db18986f00329c69e2e",
+    "record": {
+      "season": 2018,
+      "final_scoring_week": 16,
+      "winner_team_id": 8,
+      "winner_team_name": "Kardiac Kids",
+      "winner_points": 160.69,
+      "runnerup_team_id": 12,
+      "runnerup_team_name": "Christopher Columbus",
+      "runnerup_points": 153.26
+    },
+    "meaning": "Historical team label and slot only; not verified present-owner title"
+  },
+  "events": [
+    {
+      "event_id": "ESPN1417621-2018-P01-E001",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 1,
+          "source_pointer": "/weeks/0/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        1
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 1,
+      "home_id": 11,
+      "home": "Schreck Chappell",
+      "home_score": 172.69,
+      "away_id": 7,
+      "away": "Gunslinger Nation",
+      "away_score": 88.54,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P01-E002",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 1,
+          "source_pointer": "/weeks/0/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        1
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 1,
+      "home_id": 4,
+      "home": "$20 Grahams",
+      "home_score": 163.81,
+      "away_id": 1,
+      "away": "Obi-Wan  Jacoby",
+      "away_score": 101.79,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P01-E003",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 1,
+          "source_pointer": "/weeks/0/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        1
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 1,
+      "home_id": 8,
+      "home": "Kardiac Kids",
+      "home_score": 150.1,
+      "away_id": 2,
+      "away": "Red Leopards",
+      "away_score": 177.71,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P01-E004",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 1,
+          "source_pointer": "/weeks/0/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        1
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 1,
+      "home_id": 6,
+      "home": "J.T.  Couch Round 2",
+      "home_score": 116.19,
+      "away_id": 3,
+      "away": "Le Tits  Now",
+      "away_score": 135.57,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P01-E005",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 1,
+          "source_pointer": "/weeks/0/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        1
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 1,
+      "home_id": 5,
+      "home": "Make Amarica Great Again",
+      "home_score": 86.25,
+      "away_id": 10,
+      "away": "Highland Park Rushees",
+      "away_score": 136.79,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P01-E006",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 1,
+          "source_pointer": "/weeks/0/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        1
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 1,
+      "home_id": 9,
+      "home": "It Ertz  When I Pee",
+      "home_score": 143.36,
+      "away_id": 12,
+      "away": "Christopher Columbus",
+      "away_score": 179.21,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P02-E007",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 2,
+          "source_pointer": "/weeks/1/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        2
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 2,
+      "home_id": 7,
+      "home": "Gunslinger Nation",
+      "home_score": 78.08,
+      "away_id": 1,
+      "away": "Obi-Wan  Jacoby",
+      "away_score": 153.08,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P02-E008",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 2,
+          "source_pointer": "/weeks/1/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        2
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 2,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 96.17,
+      "away_id": 11,
+      "away": "Schreck Chappell",
+      "away_score": 105.54,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P02-E009",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 2,
+          "source_pointer": "/weeks/1/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        2
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 2,
+      "home_id": 8,
+      "home": "Kardiac Kids",
+      "home_score": 109.08,
+      "away_id": 4,
+      "away": "$20 Grahams",
+      "away_score": 171.15,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P02-E010",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 2,
+          "source_pointer": "/weeks/1/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        2
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 2,
+      "home_id": 3,
+      "home": "Le Tits  Now",
+      "home_score": 139.45,
+      "away_id": 10,
+      "away": "Highland Park Rushees",
+      "away_score": 173.89,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P02-E011",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 2,
+          "source_pointer": "/weeks/1/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        2
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 2,
+      "home_id": 12,
+      "home": "Christopher Columbus",
+      "home_score": 166.34,
+      "away_id": 6,
+      "away": "J.T.  Couch Round 2",
+      "away_score": 213.6,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P02-E012",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 2,
+          "source_pointer": "/weeks/1/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        2
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 2,
+      "home_id": 9,
+      "home": "It Ertz  When I Pee",
+      "home_score": 147.16,
+      "away_id": 5,
+      "away": "Make Amarica Great Again",
+      "away_score": 146.03,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P03-E013",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 3,
+          "source_pointer": "/weeks/2/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        3
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 3,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 169.04,
+      "away_id": 7,
+      "away": "Gunslinger Nation",
+      "away_score": 119.24,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P03-E014",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 3,
+          "source_pointer": "/weeks/2/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        3
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 3,
+      "home_id": 1,
+      "home": "Obi-Wan  Jacoby",
+      "home_score": 91.88,
+      "away_id": 8,
+      "away": "Kardiac Kids",
+      "away_score": 132.8,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P03-E015",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 3,
+          "source_pointer": "/weeks/2/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        3
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 3,
+      "home_id": 11,
+      "home": "Schreck Chappell",
+      "home_score": 159.12,
+      "away_id": 4,
+      "away": "$20 Grahams",
+      "away_score": 118.44,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P03-E016",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 3,
+          "source_pointer": "/weeks/2/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        3
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 3,
+      "home_id": 12,
+      "home": "Christopher Columbus",
+      "home_score": 150.66,
+      "away_id": 3,
+      "away": "Le Tits  Now",
+      "away_score": 174.49,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P03-E017",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 3,
+          "source_pointer": "/weeks/2/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        3
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 3,
+      "home_id": 10,
+      "home": "Highland Park Rushees",
+      "home_score": 137.41,
+      "away_id": 9,
+      "away": "It Ertz  When I Pee",
+      "away_score": 173.06,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P03-E018",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 3,
+          "source_pointer": "/weeks/2/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        3
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 3,
+      "home_id": 6,
+      "home": "J.T.  Couch Round 2",
+      "home_score": 157.05,
+      "away_id": 5,
+      "away": "Make Amarica Great Again",
+      "away_score": 98.9,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P04-E019",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 4,
+          "source_pointer": "/weeks/3/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        4
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 4,
+      "home_id": 7,
+      "home": "Gunslinger Nation",
+      "home_score": 148.4,
+      "away_id": 8,
+      "away": "Kardiac Kids",
+      "away_score": 166.17,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P04-E020",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 4,
+          "source_pointer": "/weeks/3/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        4
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 4,
+      "home_id": 4,
+      "home": "$20 Grahams",
+      "home_score": 153.68,
+      "away_id": 2,
+      "away": "Red Leopards",
+      "away_score": 133.73,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P04-E021",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 4,
+          "source_pointer": "/weeks/3/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        4
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 4,
+      "home_id": 11,
+      "home": "Schreck Chappell",
+      "home_score": 139.57,
+      "away_id": 1,
+      "away": "Obi-Wan  Jacoby",
+      "away_score": 134.55,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P04-E022",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 4,
+          "source_pointer": "/weeks/3/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        4
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 4,
+      "home_id": 3,
+      "home": "Le Tits  Now",
+      "home_score": 152.58,
+      "away_id": 9,
+      "away": "It Ertz  When I Pee",
+      "away_score": 195.06,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P04-E023",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 4,
+          "source_pointer": "/weeks/3/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        4
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 4,
+      "home_id": 5,
+      "home": "Make Amarica Great Again",
+      "home_score": 143.16,
+      "away_id": 12,
+      "away": "Christopher Columbus",
+      "away_score": 152.7,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P04-E024",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 4,
+          "source_pointer": "/weeks/3/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        4
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 4,
+      "home_id": 6,
+      "home": "J.T.  Couch Round 2",
+      "home_score": 123.88,
+      "away_id": 10,
+      "away": "Highland Park Rushees",
+      "away_score": 171.91,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P05-E025",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 5,
+          "source_pointer": "/weeks/4/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        5
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 5,
+      "home_id": 4,
+      "home": "$20 Grahams",
+      "home_score": 156.99,
+      "away_id": 7,
+      "away": "Gunslinger Nation",
+      "away_score": 97.32,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P05-E026",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 5,
+          "source_pointer": "/weeks/4/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        5
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 5,
+      "home_id": 8,
+      "home": "Kardiac Kids",
+      "home_score": 139.55,
+      "away_id": 11,
+      "away": "Schreck Chappell",
+      "away_score": 134.74,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P05-E027",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 5,
+          "source_pointer": "/weeks/4/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        5
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 5,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 157.24,
+      "away_id": 1,
+      "away": "Obi-Wan  Jacoby",
+      "away_score": 135.57,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P05-E028",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 5,
+          "source_pointer": "/weeks/4/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        5
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 5,
+      "home_id": 5,
+      "home": "Make Amarica Great Again",
+      "home_score": 141.54,
+      "away_id": 3,
+      "away": "Le Tits  Now",
+      "away_score": 122.77,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P05-E029",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 5,
+          "source_pointer": "/weeks/4/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        5
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 5,
+      "home_id": 9,
+      "home": "It Ertz  When I Pee",
+      "home_score": 146.3,
+      "away_id": 6,
+      "away": "J.T.  Couch Round 2",
+      "away_score": 110.08,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P05-E030",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 5,
+          "source_pointer": "/weeks/4/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        5
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 5,
+      "home_id": 12,
+      "home": "Christopher Columbus",
+      "home_score": 150.18,
+      "away_id": 10,
+      "away": "Highland Park Rushees",
+      "away_score": 105.25,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P06-E031",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 6,
+          "source_pointer": "/weeks/5/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        6
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 6,
+      "home_id": 7,
+      "home": "Gunslinger Nation",
+      "home_score": 136.97,
+      "away_id": 3,
+      "away": "Le Tits  Now",
+      "away_score": 79.23,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P06-E032",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 6,
+          "source_pointer": "/weeks/5/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        6
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 6,
+      "home_id": 11,
+      "home": "Schreck Chappell",
+      "home_score": 191.6,
+      "away_id": 6,
+      "away": "J.T.  Couch Round 2",
+      "away_score": 160.4,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P06-E033",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 6,
+          "source_pointer": "/weeks/5/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        6
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 6,
+      "home_id": 1,
+      "home": "Obi-Wan  Jacoby",
+      "home_score": 88.53,
+      "away_id": 10,
+      "away": "Highland Park Rushees",
+      "away_score": 117.03,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P06-E034",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 6,
+          "source_pointer": "/weeks/5/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        6
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 6,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 123.74,
+      "away_id": 12,
+      "away": "Christopher Columbus",
+      "away_score": 189.5,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P06-E035",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 6,
+          "source_pointer": "/weeks/5/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        6
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 6,
+      "home_id": 8,
+      "home": "Kardiac Kids",
+      "home_score": 170.1,
+      "away_id": 9,
+      "away": "It Ertz  When I Pee",
+      "away_score": 162.64,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P06-E036",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 6,
+          "source_pointer": "/weeks/5/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        6
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 6,
+      "home_id": 4,
+      "home": "$20 Grahams",
+      "home_score": 177.95,
+      "away_id": 5,
+      "away": "Make Amarica Great Again",
+      "away_score": 163.66,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P07-E037",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 7,
+          "source_pointer": "/weeks/6/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        7
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 7,
+      "home_id": 3,
+      "home": "Le Tits  Now",
+      "home_score": 125.51,
+      "away_id": 11,
+      "away": "Schreck Chappell",
+      "away_score": 139.93,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P07-E038",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 7,
+          "source_pointer": "/weeks/6/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        7
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 7,
+      "home_id": 6,
+      "home": "J.T.  Couch Round 2",
+      "home_score": 145.51,
+      "away_id": 1,
+      "away": "Obi-Wan  Jacoby",
+      "away_score": 103.23,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P07-E039",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 7,
+          "source_pointer": "/weeks/6/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        7
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 7,
+      "home_id": 10,
+      "home": "Highland Park Rushees",
+      "home_score": 155.57,
+      "away_id": 2,
+      "away": "Red Leopards",
+      "away_score": 128.08,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P07-E040",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 7,
+          "source_pointer": "/weeks/6/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        7
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 7,
+      "home_id": 12,
+      "home": "Christopher Columbus",
+      "home_score": 136.26,
+      "away_id": 8,
+      "away": "Kardiac Kids",
+      "away_score": 129.4,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P07-E041",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 7,
+          "source_pointer": "/weeks/6/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        7
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 7,
+      "home_id": 9,
+      "home": "It Ertz  When I Pee",
+      "home_score": 190.66,
+      "away_id": 4,
+      "away": "$20 Grahams",
+      "away_score": 122.69,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P07-E042",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 7,
+          "source_pointer": "/weeks/6/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        7
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 7,
+      "home_id": 5,
+      "home": "Make Amarica Great Again",
+      "home_score": 163.65,
+      "away_id": 7,
+      "away": "Gunslinger Nation",
+      "away_score": 125.66,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P08-E043",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 8,
+          "source_pointer": "/weeks/7/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        8
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 8,
+      "home_id": 1,
+      "home": "Obi-Wan  Jacoby",
+      "home_score": 156.55,
+      "away_id": 3,
+      "away": "Le Tits  Now",
+      "away_score": 179.37,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P08-E044",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 8,
+          "source_pointer": "/weeks/7/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        8
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 8,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 157.75,
+      "away_id": 6,
+      "away": "J.T.  Couch Round 2",
+      "away_score": 156.5,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P08-E045",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 8,
+          "source_pointer": "/weeks/7/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        8
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 8,
+      "home_id": 8,
+      "home": "Kardiac Kids",
+      "home_score": 115.29,
+      "away_id": 10,
+      "away": "Highland Park Rushees",
+      "away_score": 146.47,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P08-E046",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 8,
+          "source_pointer": "/weeks/7/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        8
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 8,
+      "home_id": 4,
+      "home": "$20 Grahams",
+      "home_score": 138.96,
+      "away_id": 12,
+      "away": "Christopher Columbus",
+      "away_score": 135.45,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P08-E047",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 8,
+          "source_pointer": "/weeks/7/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        8
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 8,
+      "home_id": 7,
+      "home": "Gunslinger Nation",
+      "home_score": 104.65,
+      "away_id": 9,
+      "away": "It Ertz  When I Pee",
+      "away_score": 128.91,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P08-E048",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 8,
+          "source_pointer": "/weeks/7/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        8
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 8,
+      "home_id": 11,
+      "home": "Schreck Chappell",
+      "home_score": 118.31,
+      "away_id": 5,
+      "away": "Make Amarica Great Again",
+      "away_score": 128.28,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P09-E049",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 9,
+          "source_pointer": "/weeks/8/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        9
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 9,
+      "home_id": 3,
+      "home": "Le Tits  Now",
+      "home_score": 118.6,
+      "away_id": 2,
+      "away": "Red Leopards",
+      "away_score": 125.04,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P09-E050",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 9,
+          "source_pointer": "/weeks/8/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        9
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 9,
+      "home_id": 6,
+      "home": "J.T.  Couch Round 2",
+      "home_score": 84.53,
+      "away_id": 8,
+      "away": "Kardiac Kids",
+      "away_score": 123.42,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P09-E051",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 9,
+          "source_pointer": "/weeks/8/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        9
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 9,
+      "home_id": 10,
+      "home": "Highland Park Rushees",
+      "home_score": 149.08,
+      "away_id": 4,
+      "away": "$20 Grahams",
+      "away_score": 160.86,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P09-E052",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 9,
+          "source_pointer": "/weeks/8/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        9
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 9,
+      "home_id": 12,
+      "home": "Christopher Columbus",
+      "home_score": 186.2,
+      "away_id": 7,
+      "away": "Gunslinger Nation",
+      "away_score": 92.08,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P09-E053",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 9,
+          "source_pointer": "/weeks/8/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        9
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 9,
+      "home_id": 9,
+      "home": "It Ertz  When I Pee",
+      "home_score": 134.44,
+      "away_id": 11,
+      "away": "Schreck Chappell",
+      "away_score": 99.31,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P09-E054",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 9,
+          "source_pointer": "/weeks/8/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        9
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 9,
+      "home_id": 5,
+      "home": "Make Amarica Great Again",
+      "home_score": 182.1,
+      "away_id": 1,
+      "away": "Obi-Wan  Jacoby",
+      "away_score": 154.02,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P10-E055",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 10,
+          "source_pointer": "/weeks/9/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        10
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 10,
+      "home_id": 8,
+      "home": "Kardiac Kids",
+      "home_score": 154.79,
+      "away_id": 3,
+      "away": "Le Tits  Now",
+      "away_score": 142.12,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P10-E056",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 10,
+          "source_pointer": "/weeks/9/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        10
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 10,
+      "home_id": 4,
+      "home": "$20 Grahams",
+      "home_score": 181.26,
+      "away_id": 6,
+      "away": "J.T.  Couch Round 2",
+      "away_score": 155.67,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P10-E057",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 10,
+          "source_pointer": "/weeks/9/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        10
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 10,
+      "home_id": 7,
+      "home": "Gunslinger Nation",
+      "home_score": 86.24,
+      "away_id": 10,
+      "away": "Highland Park Rushees",
+      "away_score": 124.7,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P10-E058",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 10,
+          "source_pointer": "/weeks/9/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        10
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 10,
+      "home_id": 11,
+      "home": "Schreck Chappell",
+      "home_score": 139.76,
+      "away_id": 12,
+      "away": "Christopher Columbus",
+      "away_score": 114.05,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P10-E059",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 10,
+          "source_pointer": "/weeks/9/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        10
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 10,
+      "home_id": 1,
+      "home": "Obi-Wan  Jacoby",
+      "home_score": 124.45,
+      "away_id": 9,
+      "away": "It Ertz  When I Pee",
+      "away_score": 227.05,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P10-E060",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 10,
+          "source_pointer": "/weeks/9/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        10
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 10,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 124.25,
+      "away_id": 5,
+      "away": "Make Amarica Great Again",
+      "away_score": 152.5,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P11-E061",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 11,
+          "source_pointer": "/weeks/10/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        11
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 11,
+      "home_id": 3,
+      "home": "Le Tits  Now",
+      "home_score": 143.35,
+      "away_id": 4,
+      "away": "$20 Grahams",
+      "away_score": 192.38,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P11-E062",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 11,
+          "source_pointer": "/weeks/10/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        11
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 11,
+      "home_id": 6,
+      "home": "J.T.  Couch Round 2",
+      "home_score": 147.33,
+      "away_id": 7,
+      "away": "Gunslinger Nation",
+      "away_score": 85.49,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P11-E063",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 11,
+          "source_pointer": "/weeks/10/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        11
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 11,
+      "home_id": 10,
+      "home": "Highland Park Rushees",
+      "home_score": 155.52,
+      "away_id": 11,
+      "away": "Schreck Chappell",
+      "away_score": 103,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P11-E064",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 11,
+          "source_pointer": "/weeks/10/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        11
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 11,
+      "home_id": 12,
+      "home": "Christopher Columbus",
+      "home_score": 156.64,
+      "away_id": 1,
+      "away": "Obi-Wan  Jacoby",
+      "away_score": 93.32,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P11-E065",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 11,
+          "source_pointer": "/weeks/10/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        11
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 11,
+      "home_id": 9,
+      "home": "It Ertz  When I Pee",
+      "home_score": 178.43,
+      "away_id": 2,
+      "away": "Red Leopards",
+      "away_score": 154.17,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P11-E066",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 11,
+          "source_pointer": "/weeks/10/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        11
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 11,
+      "home_id": 5,
+      "home": "Make Amarica Great Again",
+      "home_score": 91.04,
+      "away_id": 8,
+      "away": "Kardiac Kids",
+      "away_score": 112.78,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P12-E067",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 12,
+          "source_pointer": "/weeks/11/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        12
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 12,
+      "home_id": 3,
+      "home": "Le Tits  Now",
+      "home_score": 140.51,
+      "away_id": 6,
+      "away": "J.T.  Couch Round 2",
+      "away_score": 136.34,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P12-E068",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 12,
+          "source_pointer": "/weeks/11/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        12
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 12,
+      "home_id": 7,
+      "home": "Gunslinger Nation",
+      "home_score": 83.55,
+      "away_id": 11,
+      "away": "Schreck Chappell",
+      "away_score": 146.27,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P12-E069",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 12,
+          "source_pointer": "/weeks/11/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        12
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 12,
+      "home_id": 10,
+      "home": "Highland Park Rushees",
+      "home_score": 106.47,
+      "away_id": 5,
+      "away": "Make Amarica Great Again",
+      "away_score": 169.53,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P12-E070",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 12,
+          "source_pointer": "/weeks/11/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        12
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 12,
+      "home_id": 12,
+      "home": "Christopher Columbus",
+      "home_score": 163.08,
+      "away_id": 9,
+      "away": "It Ertz  When I Pee",
+      "away_score": 142.12,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P12-E071",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 12,
+          "source_pointer": "/weeks/11/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        12
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 12,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 143.44,
+      "away_id": 8,
+      "away": "Kardiac Kids",
+      "away_score": 149.38,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P12-E072",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 12,
+          "source_pointer": "/weeks/11/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        12
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 12,
+      "home_id": 1,
+      "home": "Obi-Wan  Jacoby",
+      "home_score": 132.6,
+      "away_id": 4,
+      "away": "$20 Grahams",
+      "away_score": 191.27,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P13-E073",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 13,
+          "source_pointer": "/weeks/12/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        13
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 13,
+      "home_id": 11,
+      "home": "Schreck Chappell",
+      "home_score": 148.19,
+      "away_id": 2,
+      "away": "Red Leopards",
+      "away_score": 124.08,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P13-E074",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 13,
+          "source_pointer": "/weeks/12/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        13
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 13,
+      "home_id": 1,
+      "home": "Obi-Wan  Jacoby",
+      "home_score": 91.36,
+      "away_id": 7,
+      "away": "Gunslinger Nation",
+      "away_score": 87.69,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P13-E075",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 13,
+          "source_pointer": "/weeks/12/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        13
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 13,
+      "home_id": 10,
+      "home": "Highland Park Rushees",
+      "home_score": 156.5,
+      "away_id": 3,
+      "away": "Le Tits  Now",
+      "away_score": 132.9,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P13-E076",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 13,
+          "source_pointer": "/weeks/12/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        13
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 13,
+      "home_id": 6,
+      "home": "J.T.  Couch Round 2",
+      "home_score": 170.7,
+      "away_id": 12,
+      "away": "Christopher Columbus",
+      "away_score": 84.29,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P13-E077",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 13,
+          "source_pointer": "/weeks/12/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        13
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 13,
+      "home_id": 4,
+      "home": "$20 Grahams",
+      "home_score": 148.17,
+      "away_id": 8,
+      "away": "Kardiac Kids",
+      "away_score": 154.26,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P13-E078",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 13,
+          "source_pointer": "/weeks/12/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        13
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 13,
+      "home_id": 5,
+      "home": "Make Amarica Great Again",
+      "home_score": 135.69,
+      "away_id": 9,
+      "away": "It Ertz  When I Pee",
+      "away_score": 164.82,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P14-E079",
+      "season": 2018,
+      "kind": "UNPAIRED_PROVIDER_ROW",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 14,
+          "source_pointer": "/weeks/13/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        14
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 14,
+      "home_id": 9,
+      "home": "It Ertz  When I Pee",
+      "home_score": 126.76,
+      "away_id": null,
+      "away": null,
+      "away_score": null,
+      "winner": "UNDECIDED",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": "NO_OPPONENT_IN_SOURCE_BYE_CANDIDATE_NOT_A_PLAYED_CONTEST",
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P14-E080",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 14,
+          "source_pointer": "/weeks/13/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        14
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 14,
+      "home_id": 8,
+      "home": "Kardiac Kids",
+      "home_score": 114.37,
+      "away_id": 11,
+      "away": "Schreck Chappell",
+      "away_score": 114.27,
+      "winner": "HOME",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P14-E081",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 14,
+          "source_pointer": "/weeks/13/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        14
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 14,
+      "home_id": 10,
+      "home": "Highland Park Rushees",
+      "home_score": 147.38,
+      "away_id": 12,
+      "away": "Christopher Columbus",
+      "away_score": 177.8,
+      "winner": "AWAY",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P14-E082",
+      "season": 2018,
+      "kind": "UNPAIRED_PROVIDER_ROW",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 14,
+          "source_pointer": "/weeks/13/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        14
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 14,
+      "home_id": 4,
+      "home": "$20 Grahams",
+      "home_score": 196.99,
+      "away_id": null,
+      "away": null,
+      "away_score": null,
+      "winner": "UNDECIDED",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": "NO_OPPONENT_IN_SOURCE_BYE_CANDIDATE_NOT_A_PLAYED_CONTEST",
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P14-E083",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 14,
+          "source_pointer": "/weeks/13/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        14
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 14,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 128.74,
+      "away_id": 5,
+      "away": "Make Amarica Great Again",
+      "away_score": 182.68,
+      "winner": "AWAY",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P14-E084",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 14,
+          "source_pointer": "/weeks/13/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        14
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 14,
+      "home_id": 6,
+      "home": "J.T.  Couch Round 2",
+      "home_score": 115.7,
+      "away_id": 7,
+      "away": "Gunslinger Nation",
+      "away_score": 103.92,
+      "winner": "HOME",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P14-E085",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 14,
+          "source_pointer": "/weeks/13/matchups/6"
+        }
+      ],
+      "observed_scoring_weeks": [
+        14
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 14,
+      "home_id": 3,
+      "home": "Le Tits  Now",
+      "home_score": 95.83,
+      "away_id": 1,
+      "away": "Obi-Wan  Jacoby",
+      "away_score": 134.33,
+      "winner": "AWAY",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P15-E086",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/weeks/14/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 9,
+      "home": "It Ertz  When I Pee",
+      "home_score": 117.73,
+      "away_id": 8,
+      "away": "Kardiac Kids",
+      "away_score": 157.9,
+      "winner": "AWAY",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P15-E087",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/weeks/14/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 4,
+      "home": "$20 Grahams",
+      "home_score": 107.91,
+      "away_id": 12,
+      "away": "Christopher Columbus",
+      "away_score": 171.12,
+      "winner": "AWAY",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P15-E088",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/weeks/14/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 10,
+      "home": "Highland Park Rushees",
+      "home_score": 140.16,
+      "away_id": 11,
+      "away": "Schreck Chappell",
+      "away_score": 140.16,
+      "winner": "HOME",
+      "tier": "WINNERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "DISPLAY_SCORE_EQUAL_WITH_DECLARED_WINNER_NO_TIEBREAK_EVIDENCE",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P15-E089",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/weeks/14/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 5,
+      "home": "Make Amarica Great Again",
+      "home_score": 115.1,
+      "away_id": 6,
+      "away": "J.T.  Couch Round 2",
+      "away_score": 103.39,
+      "winner": "HOME",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P15-E090",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/weeks/14/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 71.22,
+      "away_id": 1,
+      "away": "Obi-Wan  Jacoby",
+      "away_score": 114.61,
+      "winner": "AWAY",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P15-E091",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/weeks/14/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 3,
+      "home": "Le Tits  Now",
+      "home_score": 131.48,
+      "away_id": 7,
+      "away": "Gunslinger Nation",
+      "away_score": 93.67,
+      "winner": "HOME",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P16-E092",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/weeks/15/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 8,
+      "home": "Kardiac Kids",
+      "home_score": 160.69,
+      "away_id": 12,
+      "away": "Christopher Columbus",
+      "away_score": 153.26,
+      "winner": "HOME",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P16-E093",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/weeks/15/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 9,
+      "home": "It Ertz  When I Pee",
+      "home_score": 155.48,
+      "away_id": 4,
+      "away": "$20 Grahams",
+      "away_score": 166.83,
+      "winner": "AWAY",
+      "tier": "WINNERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P16-E094",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/weeks/15/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 10,
+      "home": "Highland Park Rushees",
+      "home_score": 199.94,
+      "away_id": 11,
+      "away": "Schreck Chappell",
+      "away_score": 116.39,
+      "winner": "HOME",
+      "tier": "WINNERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P16-E095",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/weeks/15/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 5,
+      "home": "Make Amarica Great Again",
+      "home_score": 130.05,
+      "away_id": 1,
+      "away": "Obi-Wan  Jacoby",
+      "away_score": 149.26,
+      "winner": "AWAY",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P16-E096",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/weeks/15/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 6,
+      "home": "J.T.  Couch Round 2",
+      "home_score": 126.84,
+      "away_id": 3,
+      "away": "Le Tits  Now",
+      "away_score": 184.64,
+      "winner": "AWAY",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2018-P16-E097",
+      "season": 2018,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "6063f491072e73bab16e6c1d54842485603289f59c343669a7e1c96dd22dd875",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/weeks/15/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 103.24,
+      "away_id": 7,
+      "away": "Gunslinger Nation",
+      "away_score": 87.21,
+      "winner": "HOME",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    }
+  ]
+}

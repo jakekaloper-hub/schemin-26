@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-04",
+  "repo": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "status": "COMMITTED_AWAITING_EXACT_COMMIT_CI",
+  "prior_head": "f64d986f2c25663ccde1e360c6d0a9b3a92afd96",
+  "prior_source_matrix_main": "e0858b8bc27db2bb095e0e03483b5c98e5809052",
+  "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+  "prior_39_part_reader": "6b4fb8e8fc939d55553953480879380b9ba6d3a8",
+  "source_chapter": "c4e3705531e1c4589ac95845df15ccc108da6fd3",
+  "new_scene": "678c9a73f270135811fa4d6ac7c8cea3749ec5f2",
+  "revised_chapter": "21b5acd9cef84784dfa66a74fe8c1b752c3fc537",
+  "new_40_part_reader": "0519fc6ef7f81787acb2a239fc9072c5dfb62beb",
+  "counts": {
+    "added_fiction_words": 2260,
+    "chapter_words": 9424,
+    "assembled_parts": 40,
+    "previous_parts_preserved": 39,
+    "total_source_words": 307670
+  },
+  "qa": {
+    "in_memory_source_reconstruction": "PASS",
+    "manifest_40_markers": "PASS",
+    "python_new_20_tests": "UNEXECUTED",
+    "exact_commit_ci": "PENDING",
+    "independent_editorial": "NOT_RECEIVED",
+    "umpire": "NOT_RECEIVED"
+  },
+  "gates": [
+    "2016 historical manager-to-slot binding unauthenticated",
+    "period Atlas/Character approval absent",
+    "independent Authors Council and Umpire absent",
+    "Founder canon/publish approval absent"
+  ],
+  "source_archive_sha": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+  "protected_hardcanon": "NOT_MODIFIED",
+  "no_merge": true,
+  "no_publish": true,
+  "no_canon": true,
+  "next": "Check exact-commit Novel OS CI generic chapter*reader.py discovery and three other required workflows. If errors, diagnose and repair; then Chapter XLIV V2 preserve four-coin advance and lost Pell hauling wage; independent review still pending."
+}

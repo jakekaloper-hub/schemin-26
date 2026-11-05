@@ -1,0 +1,4473 @@
+{
+  "season": 2022,
+  "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+  "returned_rows": 105,
+  "distinct_source_entries": 105,
+  "duplicate_display_rows": 0,
+  "observed_paired_contests": 99,
+  "regular_season_contests": 84,
+  "postseason_contests": 15,
+  "unpaired_rows": 6,
+  "postseason_tiers_paired": {
+    "WINNERS_BRACKET": 6,
+    "LOSERS_CONSOLATION_LADDER": 6,
+    "WINNERS_CONSOLATION_LADDER": 3
+  },
+  "regular_scoring_weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "postseason_scoring_weeks": [
+    15,
+    16,
+    17
+  ],
+  "denominator_scope": "OBSERVED_PAIRED_SOURCE_CONTESTS; full historical schedule completeness not independently certified",
+  "accepted_literary_coverage": 0,
+  "coverage_status": "UNACCEPTED_NOT_UNWRITTEN",
+  "missing_data": [
+    "Historical owner binding",
+    "Historical division and venue binding",
+    "Raw provider bytes not supplied by these transcriptions",
+    "Independent schedule/bracket completeness reconciliation"
+  ],
+  "title_outcome": {
+    "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json",
+    "source_sha256": "21af60795d2431dbe5a7b971e7ef0d7d6515a61451420db18986f00329c69e2e",
+    "record": {
+      "season": 2022,
+      "final_scoring_week": 17,
+      "winner_team_id": 9,
+      "winner_team_name": "El Niño",
+      "winner_points": 111.56,
+      "runnerup_team_id": 10,
+      "runnerup_team_name": "Where Mahomies at?",
+      "runnerup_points": 78.3
+    },
+    "meaning": "Historical team label and slot only; not verified present-owner title"
+  },
+  "events": [
+    {
+      "event_id": "ESPN1417621-2022-P01-E001",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 1,
+          "source_pointer": "/rows/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        1
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 1,
+      "home_id": 8,
+      "home": "The Second Coming",
+      "home_score": 145.48,
+      "away_id": 3,
+      "away": "Small Dak Energy",
+      "away_score": 109.56,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P01-E002",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 1,
+          "source_pointer": "/rows/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        1
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 1,
+      "home_id": 5,
+      "home": "Dewar's Scotsmen",
+      "home_score": 142,
+      "away_id": 1,
+      "away": "Obi-Wan  Jacoby",
+      "away_score": 123,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P01-E003",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 1,
+          "source_pointer": "/rows/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        1
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 1,
+      "home_id": 11,
+      "home": "Kevin's Mom's House",
+      "home_score": 142.42,
+      "away_id": 12,
+      "away": "Javonte's InferNO Knee",
+      "away_score": 131.7,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P01-E004",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 1,
+          "source_pointer": "/rows/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        1
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 1,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 117.66,
+      "away_id": 2,
+      "away": "Red Leopards",
+      "away_score": 119.56,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P01-E005",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 1,
+          "source_pointer": "/rows/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        1
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 1,
+      "home_id": 9,
+      "home": "El Niño",
+      "home_score": 138.12,
+      "away_id": 7,
+      "away": "DEEBOOO Country Roadsss",
+      "away_score": 108.62,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P01-E006",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 1,
+          "source_pointer": "/rows/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        1
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 1,
+      "home_id": 6,
+      "home": "0 0",
+      "home_score": 95.82,
+      "away_id": 10,
+      "away": "Where Mahomies at?",
+      "away_score": 157.48,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P02-E007",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 2,
+          "source_pointer": "/rows/6"
+        }
+      ],
+      "observed_scoring_weeks": [
+        2
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 2,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 175.95,
+      "away_id": 6,
+      "away": "0 0",
+      "away_score": 92.86,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P02-E008",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 2,
+          "source_pointer": "/rows/7"
+        }
+      ],
+      "observed_scoring_weeks": [
+        2
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 2,
+      "home_id": 1,
+      "home": "Obi-Wan  Jacoby",
+      "home_score": 134.4,
+      "away_id": 8,
+      "away": "The Second Coming",
+      "away_score": 112.6,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P02-E009",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 2,
+          "source_pointer": "/rows/8"
+        }
+      ],
+      "observed_scoring_weeks": [
+        2
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 2,
+      "home_id": 12,
+      "home": "Javonte's InferNO Knee",
+      "home_score": 110.96,
+      "away_id": 10,
+      "away": "Where Mahomies at?",
+      "away_score": 131.73,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P02-E010",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 2,
+          "source_pointer": "/rows/9"
+        }
+      ],
+      "observed_scoring_weeks": [
+        2
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 2,
+      "home_id": 11,
+      "home": "Kevin's Mom's House",
+      "home_score": 125.58,
+      "away_id": 7,
+      "away": "DEEBOOO Country Roadsss",
+      "away_score": 129.92,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P02-E011",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 2,
+          "source_pointer": "/rows/10"
+        }
+      ],
+      "observed_scoring_weeks": [
+        2
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 2,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 104.16,
+      "away_id": 3,
+      "away": "Small Dak Energy",
+      "away_score": 132.64,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P02-E012",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 2,
+          "source_pointer": "/rows/11"
+        }
+      ],
+      "observed_scoring_weeks": [
+        2
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 2,
+      "home_id": 5,
+      "home": "Dewar's Scotsmen",
+      "home_score": 129.18,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 152.42,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P03-E013",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 3,
+          "source_pointer": "/rows/12"
+        }
+      ],
+      "observed_scoring_weeks": [
+        3
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 3,
+      "home_id": 12,
+      "home": "Javonte's InferNO Knee",
+      "home_score": 70.06,
+      "away_id": 6,
+      "away": "0 0",
+      "away_score": 155.3,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P03-E014",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 3,
+          "source_pointer": "/rows/13"
+        }
+      ],
+      "observed_scoring_weeks": [
+        3
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 3,
+      "home_id": 1,
+      "home": "Obi-Wan  Jacoby",
+      "home_score": 118.58,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 144.1,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P03-E015",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 3,
+          "source_pointer": "/rows/14"
+        }
+      ],
+      "observed_scoring_weeks": [
+        3
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 3,
+      "home_id": 8,
+      "home": "The Second Coming",
+      "home_score": 124.54,
+      "away_id": 4,
+      "away": "The LLC",
+      "away_score": 109.18,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P03-E016",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 3,
+          "source_pointer": "/rows/15"
+        }
+      ],
+      "observed_scoring_weeks": [
+        3
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 3,
+      "home_id": 10,
+      "home": "Where Mahomies at?",
+      "home_score": 154.8,
+      "away_id": 11,
+      "away": "Kevin's Mom's House",
+      "away_score": 107.46,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P03-E017",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 3,
+          "source_pointer": "/rows/16"
+        }
+      ],
+      "observed_scoring_weeks": [
+        3
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 3,
+      "home_id": 5,
+      "home": "Dewar's Scotsmen",
+      "home_score": 98.56,
+      "away_id": 7,
+      "away": "DEEBOOO Country Roadsss",
+      "away_score": 125.62,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P03-E018",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 3,
+          "source_pointer": "/rows/17"
+        }
+      ],
+      "observed_scoring_weeks": [
+        3
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 3,
+      "home_id": 3,
+      "home": "Small Dak Energy",
+      "home_score": 79.68,
+      "away_id": 2,
+      "away": "Red Leopards",
+      "away_score": 124.46,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P04-E019",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 4,
+          "source_pointer": "/rows/18"
+        }
+      ],
+      "observed_scoring_weeks": [
+        4
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 4,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 147.26,
+      "away_id": 7,
+      "away": "DEEBOOO Country Roadsss",
+      "away_score": 139.16,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P04-E020",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 4,
+          "source_pointer": "/rows/19"
+        }
+      ],
+      "observed_scoring_weeks": [
+        4
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 4,
+      "home_id": 3,
+      "home": "Small Dak Energy",
+      "home_score": 147.92,
+      "away_id": 10,
+      "away": "Where Mahomies at?",
+      "away_score": 139.02,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P04-E021",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 4,
+          "source_pointer": "/rows/20"
+        }
+      ],
+      "observed_scoring_weeks": [
+        4
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 4,
+      "home_id": 6,
+      "home": "0 0",
+      "home_score": 127.23,
+      "away_id": 8,
+      "away": "The Second Coming",
+      "away_score": 146.7,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P04-E022",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 4,
+          "source_pointer": "/rows/21"
+        }
+      ],
+      "observed_scoring_weeks": [
+        4
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 4,
+      "home_id": 1,
+      "home": "Obi-Wan  Jacoby",
+      "home_score": 182.16,
+      "away_id": 11,
+      "away": "Kevin's Mom's House",
+      "away_score": 110.58,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P04-E023",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 4,
+          "source_pointer": "/rows/22"
+        }
+      ],
+      "observed_scoring_weeks": [
+        4
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 4,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 106.2,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 109.26,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P04-E024",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 4,
+          "source_pointer": "/rows/23"
+        }
+      ],
+      "observed_scoring_weeks": [
+        4
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 4,
+      "home_id": 12,
+      "home": "Javonte's InferNO Knee",
+      "home_score": 162.88,
+      "away_id": 5,
+      "away": "Dewar's Scotsmen",
+      "away_score": 96.96,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P05-E025",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 5,
+          "source_pointer": "/rows/24"
+        }
+      ],
+      "observed_scoring_weeks": [
+        5
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 5,
+      "home_id": 5,
+      "home": "Dewar's Scotsmen",
+      "home_score": 96.88,
+      "away_id": 4,
+      "away": "The LLC",
+      "away_score": 103.27,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P05-E026",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 5,
+          "source_pointer": "/rows/25"
+        }
+      ],
+      "observed_scoring_weeks": [
+        5
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 5,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 148.3,
+      "away_id": 8,
+      "away": "The Second Coming",
+      "away_score": 118.84,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P05-E027",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 5,
+          "source_pointer": "/rows/26"
+        }
+      ],
+      "observed_scoring_weeks": [
+        5
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 5,
+      "home_id": 11,
+      "home": "Kevin's Mom's House",
+      "home_score": 112.7,
+      "away_id": 6,
+      "away": "0 0",
+      "away_score": 156.98,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P05-E028",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 5,
+          "source_pointer": "/rows/27"
+        }
+      ],
+      "observed_scoring_weeks": [
+        5
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 5,
+      "home_id": 7,
+      "home": "DEEBOOO Country Roadsss",
+      "home_score": 100.86,
+      "away_id": 1,
+      "away": "Obi-Wan  Jacoby",
+      "away_score": 167.18,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P05-E029",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 5,
+          "source_pointer": "/rows/28"
+        }
+      ],
+      "observed_scoring_weeks": [
+        5
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 5,
+      "home_id": 12,
+      "home": "Javonte's InferNO Knee",
+      "home_score": 115.96,
+      "away_id": 3,
+      "away": "Small Dak Energy",
+      "away_score": 115.18,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P05-E030",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 5,
+          "source_pointer": "/rows/29"
+        }
+      ],
+      "observed_scoring_weeks": [
+        5
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 5,
+      "home_id": 9,
+      "home": "El Niño",
+      "home_score": 145.06,
+      "away_id": 10,
+      "away": "Where Mahomies at?",
+      "away_score": 180.46,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P06-E031",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 6,
+          "source_pointer": "/rows/30"
+        }
+      ],
+      "observed_scoring_weeks": [
+        6
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 6,
+      "home_id": 1,
+      "home": "Obi-Wan  Jacoby",
+      "home_score": 148.17,
+      "away_id": 4,
+      "away": "The LLC",
+      "away_score": 126.42,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P06-E032",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 6,
+          "source_pointer": "/rows/31"
+        }
+      ],
+      "observed_scoring_weeks": [
+        6
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 6,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 168.82,
+      "away_id": 5,
+      "away": "Dewar's Scotsmen",
+      "away_score": 99.92,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P06-E033",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 6,
+          "source_pointer": "/rows/32"
+        }
+      ],
+      "observed_scoring_weeks": [
+        6
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 6,
+      "home_id": 8,
+      "home": "The Second Coming",
+      "home_score": 86.12,
+      "away_id": 12,
+      "away": "Javonte's InferNO Knee",
+      "away_score": 97.84,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P06-E034",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 6,
+          "source_pointer": "/rows/33"
+        }
+      ],
+      "observed_scoring_weeks": [
+        6
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 6,
+      "home_id": 3,
+      "home": "Small Dak Energy",
+      "home_score": 95.52,
+      "away_id": 11,
+      "away": "Kevin's Mom's House",
+      "away_score": 104.48,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P06-E035",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 6,
+          "source_pointer": "/rows/34"
+        }
+      ],
+      "observed_scoring_weeks": [
+        6
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 6,
+      "home_id": 10,
+      "home": "Where Mahomies at?",
+      "home_score": 106.86,
+      "away_id": 7,
+      "away": "DEEBOOO Country Roadsss",
+      "away_score": 109.45,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P06-E036",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 6,
+          "source_pointer": "/rows/35"
+        }
+      ],
+      "observed_scoring_weeks": [
+        6
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 6,
+      "home_id": 6,
+      "home": "0 0",
+      "home_score": 111.2,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 105.6,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P07-E037",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 7,
+          "source_pointer": "/rows/36"
+        }
+      ],
+      "observed_scoring_weeks": [
+        7
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 7,
+      "home_id": 11,
+      "home": "Kevin's Mom's House",
+      "home_score": 101.76,
+      "away_id": 8,
+      "away": "The Second Coming",
+      "away_score": 126.4,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P07-E038",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 7,
+          "source_pointer": "/rows/37"
+        }
+      ],
+      "observed_scoring_weeks": [
+        7
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 7,
+      "home_id": 3,
+      "home": "Small Dak Energy",
+      "home_score": 127.1,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 87.82,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P07-E039",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 7,
+          "source_pointer": "/rows/38"
+        }
+      ],
+      "observed_scoring_weeks": [
+        7
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 7,
+      "home_id": 7,
+      "home": "DEEBOOO Country Roadsss",
+      "home_score": 92.3,
+      "away_id": 6,
+      "away": "0 0",
+      "away_score": 178.24,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P07-E040",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 7,
+          "source_pointer": "/rows/39"
+        }
+      ],
+      "observed_scoring_weeks": [
+        7
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 7,
+      "home_id": 10,
+      "home": "Where Mahomies at?",
+      "home_score": 102.34,
+      "away_id": 5,
+      "away": "Dewar's Scotsmen",
+      "away_score": 77.12,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P07-E041",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 7,
+          "source_pointer": "/rows/40"
+        }
+      ],
+      "observed_scoring_weeks": [
+        7
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 7,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 133.78,
+      "away_id": 1,
+      "away": "Obi-Wan  Jacoby",
+      "away_score": 163.72,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P07-E042",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 7,
+          "source_pointer": "/rows/41"
+        }
+      ],
+      "observed_scoring_weeks": [
+        7
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 7,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 147.02,
+      "away_id": 12,
+      "away": "Javonte's InferNO Knee",
+      "away_score": 111.96,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P08-E043",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 8,
+          "source_pointer": "/rows/42"
+        }
+      ],
+      "observed_scoring_weeks": [
+        8
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 8,
+      "home_id": 5,
+      "home": "Dewar's Scotsmen",
+      "home_score": 150.08,
+      "away_id": 11,
+      "away": "Kevin's Mom's House",
+      "away_score": 173.04,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P08-E044",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 8,
+          "source_pointer": "/rows/43"
+        }
+      ],
+      "observed_scoring_weeks": [
+        8
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 8,
+      "home_id": 12,
+      "home": "Javonte's InferNO Knee",
+      "home_score": 146.56,
+      "away_id": 1,
+      "away": "Obi-Wan  Jacoby",
+      "away_score": 129.58,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P08-E045",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 8,
+          "source_pointer": "/rows/44"
+        }
+      ],
+      "observed_scoring_weeks": [
+        8
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 8,
+      "home_id": 3,
+      "home": "Small Dak Energy",
+      "home_score": 144.88,
+      "away_id": 6,
+      "away": "0 0",
+      "away_score": 141.93,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P08-E046",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 8,
+          "source_pointer": "/rows/45"
+        }
+      ],
+      "observed_scoring_weeks": [
+        8
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 8,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 95.72,
+      "away_id": 7,
+      "away": "DEEBOOO Country Roadsss",
+      "away_score": 146.17,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P08-E047",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 8,
+          "source_pointer": "/rows/46"
+        }
+      ],
+      "observed_scoring_weeks": [
+        8
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 8,
+      "home_id": 8,
+      "home": "The Second Coming",
+      "home_score": 125.9,
+      "away_id": 10,
+      "away": "Where Mahomies at?",
+      "away_score": 120.17,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P08-E048",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 8,
+          "source_pointer": "/rows/47"
+        }
+      ],
+      "observed_scoring_weeks": [
+        8
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 8,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 192.2,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 129.55,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P09-E049",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 9,
+          "source_pointer": "/rows/48"
+        }
+      ],
+      "observed_scoring_weeks": [
+        9
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 9,
+      "home_id": 5,
+      "home": "Dewar's Scotsmen",
+      "home_score": 89.98,
+      "away_id": 6,
+      "away": "0 0",
+      "away_score": 118.94,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P09-E050",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 9,
+          "source_pointer": "/rows/49"
+        }
+      ],
+      "observed_scoring_weeks": [
+        9
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 9,
+      "home_id": 11,
+      "home": "Kevin's Mom's House",
+      "home_score": 126.2,
+      "away_id": 4,
+      "away": "The LLC",
+      "away_score": 96.7,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P09-E051",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 9,
+          "source_pointer": "/rows/50"
+        }
+      ],
+      "observed_scoring_weeks": [
+        9
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 9,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 129.26,
+      "away_id": 12,
+      "away": "Javonte's InferNO Knee",
+      "away_score": 98.44,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P09-E052",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 9,
+          "source_pointer": "/rows/51"
+        }
+      ],
+      "observed_scoring_weeks": [
+        9
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 9,
+      "home_id": 8,
+      "home": "The Second Coming",
+      "home_score": 145.75,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 127.02,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P09-E053",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 9,
+          "source_pointer": "/rows/52"
+        }
+      ],
+      "observed_scoring_weeks": [
+        9
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 9,
+      "home_id": 10,
+      "home": "Where Mahomies at?",
+      "home_score": 142.3,
+      "away_id": 1,
+      "away": "Obi-Wan  Jacoby",
+      "away_score": 138.99,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P09-E054",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 9,
+          "source_pointer": "/rows/53"
+        }
+      ],
+      "observed_scoring_weeks": [
+        9
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 9,
+      "home_id": 3,
+      "home": "Small Dak Energy",
+      "home_score": 100.62,
+      "away_id": 7,
+      "away": "DEEBOOO Country Roadsss",
+      "away_score": 104.92,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P10-E055",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 10,
+          "source_pointer": "/rows/54"
+        }
+      ],
+      "observed_scoring_weeks": [
+        10
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 10,
+      "home_id": 10,
+      "home": "Where Mahomies at?",
+      "home_score": 108.15,
+      "away_id": 4,
+      "away": "The LLC",
+      "away_score": 89.04,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P10-E056",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 10,
+          "source_pointer": "/rows/55"
+        }
+      ],
+      "observed_scoring_weeks": [
+        10
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 10,
+      "home_id": 1,
+      "home": "Obi-Wan  Jacoby",
+      "home_score": 123.54,
+      "away_id": 6,
+      "away": "0 0",
+      "away_score": 109.44,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P10-E057",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 10,
+          "source_pointer": "/rows/56"
+        }
+      ],
+      "observed_scoring_weeks": [
+        10
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 10,
+      "home_id": 3,
+      "home": "Small Dak Energy",
+      "home_score": 113.8,
+      "away_id": 5,
+      "away": "Dewar's Scotsmen",
+      "away_score": 154.9,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P10-E058",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 10,
+          "source_pointer": "/rows/57"
+        }
+      ],
+      "observed_scoring_weeks": [
+        10
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 10,
+      "home_id": 8,
+      "home": "The Second Coming",
+      "home_score": 115.92,
+      "away_id": 7,
+      "away": "DEEBOOO Country Roadsss",
+      "away_score": 98.9,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P10-E059",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 10,
+          "source_pointer": "/rows/58"
+        }
+      ],
+      "observed_scoring_weeks": [
+        10
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 10,
+      "home_id": 11,
+      "home": "Kevin's Mom's House",
+      "home_score": 101.12,
+      "away_id": 2,
+      "away": "Red Leopards",
+      "away_score": 122.68,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P10-E060",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 10,
+          "source_pointer": "/rows/59"
+        }
+      ],
+      "observed_scoring_weeks": [
+        10
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 10,
+      "home_id": 12,
+      "home": "Javonte's InferNO Knee",
+      "home_score": 168.03,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 164.5,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P11-E061",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 11,
+          "source_pointer": "/rows/60"
+        }
+      ],
+      "observed_scoring_weeks": [
+        11
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 11,
+      "home_id": 8,
+      "home": "The Second Coming",
+      "home_score": 113.69,
+      "away_id": 3,
+      "away": "Small Dak Energy",
+      "away_score": 143.9,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P11-E062",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 11,
+          "source_pointer": "/rows/61"
+        }
+      ],
+      "observed_scoring_weeks": [
+        11
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 11,
+      "home_id": 12,
+      "home": "Javonte's InferNO Knee",
+      "home_score": 117.22,
+      "away_id": 11,
+      "away": "Kevin's Mom's House",
+      "away_score": 92.42,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P11-E063",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 11,
+          "source_pointer": "/rows/62"
+        }
+      ],
+      "observed_scoring_weeks": [
+        11
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 11,
+      "home_id": 5,
+      "home": "Dewar's Scotsmen",
+      "home_score": 83.98,
+      "away_id": 1,
+      "away": "Obi-Wan  Jacoby",
+      "away_score": 165.06,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P11-E064",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 11,
+          "source_pointer": "/rows/63"
+        }
+      ],
+      "observed_scoring_weeks": [
+        11
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 11,
+      "home_id": 6,
+      "home": "0 0",
+      "home_score": 192.36,
+      "away_id": 10,
+      "away": "Where Mahomies at?",
+      "away_score": 98.53,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P11-E065",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 11,
+          "source_pointer": "/rows/64"
+        }
+      ],
+      "observed_scoring_weeks": [
+        11
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 11,
+      "home_id": 9,
+      "home": "El Niño",
+      "home_score": 124.5,
+      "away_id": 7,
+      "away": "DEEBOOO Country Roadsss",
+      "away_score": 110.26,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P11-E066",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 11,
+          "source_pointer": "/rows/65"
+        }
+      ],
+      "observed_scoring_weeks": [
+        11
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 11,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 145.24,
+      "away_id": 4,
+      "away": "The LLC",
+      "away_score": 93.45,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P12-E067",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 12,
+          "source_pointer": "/rows/66"
+        }
+      ],
+      "observed_scoring_weeks": [
+        12
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 12,
+      "home_id": 6,
+      "home": "0 0",
+      "home_score": 116.8,
+      "away_id": 4,
+      "away": "The LLC",
+      "away_score": 122.26,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P12-E068",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 12,
+          "source_pointer": "/rows/67"
+        }
+      ],
+      "observed_scoring_weeks": [
+        12
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 12,
+      "home_id": 5,
+      "home": "Dewar's Scotsmen",
+      "home_score": 123.46,
+      "away_id": 8,
+      "away": "The Second Coming",
+      "away_score": 146.14,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P12-E069",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 12,
+          "source_pointer": "/rows/68"
+        }
+      ],
+      "observed_scoring_weeks": [
+        12
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 12,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 132.52,
+      "away_id": 10,
+      "away": "Where Mahomies at?",
+      "away_score": 123.07,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P12-E070",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 12,
+          "source_pointer": "/rows/69"
+        }
+      ],
+      "observed_scoring_weeks": [
+        12
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 12,
+      "home_id": 3,
+      "home": "Small Dak Energy",
+      "home_score": 141.56,
+      "away_id": 1,
+      "away": "Obi-Wan  Jacoby",
+      "away_score": 157,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P12-E071",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 12,
+          "source_pointer": "/rows/70"
+        }
+      ],
+      "observed_scoring_weeks": [
+        12
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 12,
+      "home_id": 11,
+      "home": "Kevin's Mom's House",
+      "home_score": 93.38,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 106.42,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P12-E072",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 12,
+          "source_pointer": "/rows/71"
+        }
+      ],
+      "observed_scoring_weeks": [
+        12
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 12,
+      "home_id": 12,
+      "home": "Javonte's InferNO Knee",
+      "home_score": 112.32,
+      "away_id": 7,
+      "away": "DEEBOOO Country Roadsss",
+      "away_score": 155.21,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P13-E073",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 13,
+          "source_pointer": "/rows/72"
+        }
+      ],
+      "observed_scoring_weeks": [
+        13
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 13,
+      "home_id": 5,
+      "home": "Dewar's Scotsmen",
+      "home_score": 122.8,
+      "away_id": 12,
+      "away": "Javonte's InferNO Knee",
+      "away_score": 124.06,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P13-E074",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 13,
+          "source_pointer": "/rows/73"
+        }
+      ],
+      "observed_scoring_weeks": [
+        13
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 13,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 182,
+      "away_id": 7,
+      "away": "DEEBOOO Country Roadsss",
+      "away_score": 91.59,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P13-E075",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 13,
+          "source_pointer": "/rows/74"
+        }
+      ],
+      "observed_scoring_weeks": [
+        13
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 13,
+      "home_id": 10,
+      "home": "Where Mahomies at?",
+      "home_score": 89.32,
+      "away_id": 3,
+      "away": "Small Dak Energy",
+      "away_score": 121.92,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P13-E076",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 13,
+          "source_pointer": "/rows/75"
+        }
+      ],
+      "observed_scoring_weeks": [
+        13
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 13,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 122.5,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 161.9,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P13-E077",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 13,
+          "source_pointer": "/rows/76"
+        }
+      ],
+      "observed_scoring_weeks": [
+        13
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 13,
+      "home_id": 1,
+      "home": "Obi-Wan  Jacoby",
+      "home_score": 117.52,
+      "away_id": 11,
+      "away": "Kevin's Mom's House",
+      "away_score": 93.44,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P13-E078",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 13,
+          "source_pointer": "/rows/77"
+        }
+      ],
+      "observed_scoring_weeks": [
+        13
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 13,
+      "home_id": 8,
+      "home": "The Second Coming",
+      "home_score": 140.44,
+      "away_id": 6,
+      "away": "0 0",
+      "away_score": 124.24,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P14-E079",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 14,
+          "source_pointer": "/rows/78"
+        }
+      ],
+      "observed_scoring_weeks": [
+        14
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 14,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 142.26,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 82.43,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P14-E080",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 14,
+          "source_pointer": "/rows/79"
+        }
+      ],
+      "observed_scoring_weeks": [
+        14
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 14,
+      "home_id": 1,
+      "home": "Obi-Wan  Jacoby",
+      "home_score": 138.28,
+      "away_id": 12,
+      "away": "Javonte's InferNO Knee",
+      "away_score": 138.4,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P14-E081",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 14,
+          "source_pointer": "/rows/80"
+        }
+      ],
+      "observed_scoring_weeks": [
+        14
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 14,
+      "home_id": 3,
+      "home": "Small Dak Energy",
+      "home_score": 110.01,
+      "away_id": 6,
+      "away": "0 0",
+      "away_score": 105.46,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P14-E082",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 14,
+          "source_pointer": "/rows/81"
+        }
+      ],
+      "observed_scoring_weeks": [
+        14
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 14,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 130.28,
+      "away_id": 7,
+      "away": "DEEBOOO Country Roadsss",
+      "away_score": 112.15,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P14-E083",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 14,
+          "source_pointer": "/rows/82"
+        }
+      ],
+      "observed_scoring_weeks": [
+        14
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 14,
+      "home_id": 5,
+      "home": "Dewar's Scotsmen",
+      "home_score": 99.5,
+      "away_id": 11,
+      "away": "Kevin's Mom's House",
+      "away_score": 53.66,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P14-E084",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 14,
+          "source_pointer": "/rows/83"
+        }
+      ],
+      "observed_scoring_weeks": [
+        14
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 14,
+      "home_id": 10,
+      "home": "Where Mahomies at?",
+      "home_score": 96.18,
+      "away_id": 8,
+      "away": "The Second Coming",
+      "away_score": 135.34,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P15-E085",
+      "season": 2022,
+      "kind": "UNPAIRED_PROVIDER_ROW",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/rows/84"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 115,
+      "away_id": null,
+      "away": null,
+      "away_score": null,
+      "winner": "UNDECIDED",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": "NO_OPPONENT_IN_SOURCE_BYE_CANDIDATE_NOT_A_PLAYED_CONTEST",
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P15-E086",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/rows/85"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 12,
+      "home": "Javonte's InferNO Knee",
+      "home_score": 119.48,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 132.7,
+      "winner": "AWAY",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P15-E087",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/rows/86"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 1,
+      "home": "Obi-Wan  Jacoby",
+      "home_score": 135.14,
+      "away_id": 3,
+      "away": "Small Dak Energy",
+      "away_score": 150.74,
+      "winner": "AWAY",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P15-E088",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/rows/87"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 8,
+      "home": "The Second Coming",
+      "home_score": 122.23,
+      "away_id": 10,
+      "away": "Where Mahomies at?",
+      "away_score": 162.26,
+      "winner": "AWAY",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P15-E089",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/rows/88"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 5,
+      "home": "Dewar's Scotsmen",
+      "home_score": 123.06,
+      "away_id": 7,
+      "away": "DEEBOOO Country Roadsss",
+      "away_score": 92.33,
+      "winner": "HOME",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P15-E090",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/rows/89"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 11,
+      "home": "Kevin's Mom's House",
+      "home_score": 134.9,
+      "away_id": 4,
+      "away": "The LLC",
+      "away_score": 125.72,
+      "winner": "HOME",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P15-E091",
+      "season": 2022,
+      "kind": "UNPAIRED_PROVIDER_ROW",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/rows/90"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 6,
+      "home": "0 0",
+      "home_score": 172.2,
+      "away_id": null,
+      "away": null,
+      "away_score": null,
+      "winner": "UNDECIDED",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": "NO_OPPONENT_IN_SOURCE_BYE_CANDIDATE_NOT_A_PLAYED_CONTEST",
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P16-E092",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/rows/91"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 97.96,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 116.32,
+      "winner": "AWAY",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P16-E093",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/rows/92"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 3,
+      "home": "Small Dak Energy",
+      "home_score": 116.55,
+      "away_id": 10,
+      "away": "Where Mahomies at?",
+      "away_score": 120.08,
+      "winner": "AWAY",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P16-E094",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/rows/93"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 8,
+      "home": "The Second Coming",
+      "home_score": 109.09,
+      "away_id": 1,
+      "away": "Obi-Wan  Jacoby",
+      "away_score": 124.06,
+      "winner": "AWAY",
+      "tier": "WINNERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P16-E095",
+      "season": 2022,
+      "kind": "UNPAIRED_PROVIDER_ROW",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/rows/94"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 12,
+      "home": "Javonte's InferNO Knee",
+      "home_score": 117.56,
+      "away_id": null,
+      "away": null,
+      "away_score": null,
+      "winner": "UNDECIDED",
+      "tier": "WINNERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": "NO_OPPONENT_IN_SOURCE_BYE_CANDIDATE_NOT_A_PLAYED_CONTEST",
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P16-E096",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/rows/95"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 7,
+      "home": "DEEBOOO Country Roadsss",
+      "home_score": 144.55,
+      "away_id": 4,
+      "away": "The LLC",
+      "away_score": 153.1,
+      "winner": "AWAY",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P16-E097",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/rows/96"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 6,
+      "home": "0 0",
+      "home_score": 160,
+      "away_id": 11,
+      "away": "Kevin's Mom's House",
+      "away_score": 81,
+      "winner": "HOME",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P16-E098",
+      "season": 2022,
+      "kind": "UNPAIRED_PROVIDER_ROW",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/rows/97"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 5,
+      "home": "Dewar's Scotsmen",
+      "home_score": 73.4,
+      "away_id": null,
+      "away": null,
+      "away_score": null,
+      "winner": "UNDECIDED",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": "NO_OPPONENT_IN_SOURCE_BYE_CANDIDATE_NOT_A_PLAYED_CONTEST",
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P17-E099",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 17,
+          "source_pointer": "/rows/98"
+        }
+      ],
+      "observed_scoring_weeks": [
+        17
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 17,
+      "home_id": 9,
+      "home": "El Niño",
+      "home_score": 111.56,
+      "away_id": 10,
+      "away": "Where Mahomies at?",
+      "away_score": 78.3,
+      "winner": "HOME",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P17-E100",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 17,
+          "source_pointer": "/rows/99"
+        }
+      ],
+      "observed_scoring_weeks": [
+        17
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 17,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 141.18,
+      "away_id": 3,
+      "away": "Small Dak Energy",
+      "away_score": 94.39,
+      "winner": "HOME",
+      "tier": "WINNERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P17-E101",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 17,
+          "source_pointer": "/rows/100"
+        }
+      ],
+      "observed_scoring_weeks": [
+        17
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 17,
+      "home_id": 1,
+      "home": "Obi-Wan  Jacoby",
+      "home_score": 167.22,
+      "away_id": 12,
+      "away": "Javonte's InferNO Knee",
+      "away_score": 138.95,
+      "winner": "HOME",
+      "tier": "WINNERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P17-E102",
+      "season": 2022,
+      "kind": "UNPAIRED_PROVIDER_ROW",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 17,
+          "source_pointer": "/rows/101"
+        }
+      ],
+      "observed_scoring_weeks": [
+        17
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 17,
+      "home_id": 8,
+      "home": "The Second Coming",
+      "home_score": 160.78,
+      "away_id": null,
+      "away": null,
+      "away_score": null,
+      "winner": "UNDECIDED",
+      "tier": "WINNERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": "NO_OPPONENT_IN_SOURCE_BYE_CANDIDATE_NOT_A_PLAYED_CONTEST",
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P17-E103",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 17,
+          "source_pointer": "/rows/102"
+        }
+      ],
+      "observed_scoring_weeks": [
+        17
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 17,
+      "home_id": 6,
+      "home": "0 0",
+      "home_score": 88.2,
+      "away_id": 5,
+      "away": "Dewar's Scotsmen",
+      "away_score": 87.1,
+      "winner": "HOME",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P17-E104",
+      "season": 2022,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 17,
+          "source_pointer": "/rows/103"
+        }
+      ],
+      "observed_scoring_weeks": [
+        17
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 17,
+      "home_id": 7,
+      "home": "DEEBOOO Country Roadsss",
+      "home_score": 91.36,
+      "away_id": 4,
+      "away": "The LLC",
+      "away_score": 87.98,
+      "winner": "HOME",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2022-P17-E105",
+      "season": 2022,
+      "kind": "UNPAIRED_PROVIDER_ROW",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "source_sha256": "558945056e1204b3994ddd3829713faca9c3d2c2b3849623a159a731b01d03aa",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 17,
+          "source_pointer": "/rows/104"
+        }
+      ],
+      "observed_scoring_weeks": [
+        17
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 17,
+      "home_id": 11,
+      "home": "Kevin's Mom's House",
+      "home_score": 104.06,
+      "away_id": null,
+      "away": null,
+      "away_score": null,
+      "winner": "UNDECIDED",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": "NO_OPPONENT_IN_SOURCE_BYE_CANDIDATE_NOT_A_PLAYED_CONTEST",
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    }
+  ]
+}

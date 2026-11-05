@@ -1,0 +1,120 @@
+{
+  "id": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH25-TWENTY-FIVE-CHAPTER-READER",
+  "date": "2026-10-30",
+  "state": "DRAFT_WRITTEN_ASSEMBLED_GITHUB_SOURCE_READBACK_CI_REPAIRED_UNVERIFIED_EDITORIAL_HOLD",
+  "repo": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "resumes": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH24-TWENTY-FOUR-CHAPTER-READER",
+  "source_authorities": {
+    "matrix": {
+      "path": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+      "blob": "67fcd669dc7b43393f2d15e93545301961dd81e4"
+    },
+    "novel_os": "living-novel/NOVEL_OS.md",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "bullpen_command_registry": "runtime/commandRegistry.js",
+    "bullpen_lifecycle": "runtime/lifecycleEngine.js",
+    "bullpen_organization": "core/org/directorOrg.js",
+    "related_issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "related_prs": {
+      "188": "CLOSED_MERGED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT_HOLD",
+      "261": "OPEN_DRAFT_HOLD",
+      "264": "OPEN_DRAFT"
+    }
+  },
+  "artifacts": {
+    "chapter": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_MILE_BEYOND_THE_WEIGH_STONES_CHAPTER_25_NONCANON.md",
+      "blob": "90de3e31f6b729ca33636c74551caf9865a84256",
+      "words_including_editorial": 5684,
+      "movements": 5,
+      "commit": "c2bbdabbcf24419263faaeae2ba8fffaacdc9b76"
+    },
+    "reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_25_NONCANON.md",
+      "blob": "7e2bd8b000523441785eacf34bb741f58530b5f1",
+      "words_including_manifest": 134365,
+      "component_count": 25,
+      "previous_reader_blob": "a05be29bb470c9b27c3a2c33469fe3ee79249931",
+      "commit": "9d507f76ccb0feec722c41e25d80763257369fea"
+    },
+    "test": {
+      "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_twenty_five_reader.py",
+      "blob": "0666602fdbca425815fa6f001c0a40d71883eed7",
+      "new_test_methods": 15,
+      "expectation_repair_commit": "89ca27f0f7a74ff6f02eb8e1121bbd094f321d3f"
+    },
+    "self_qa": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_25_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "blob": "329ce651e6d19569f9c88ca5b9ee082c3d54a2f5",
+      "commit": "bf94e33c9600accc4fccf091144a3650988ddc68"
+    }
+  },
+  "observed_verification": {
+    "previous_ch24_ci": "4/4 PASS at 98e86c049e30b8500be5d2af786c2f77ff081034; 272/272 novel reader tests",
+    "direct_assembly": "25 numbered manifest rows, 25 BEGIN and 25 END component markers, old chapter XXIV block preserved",
+    "protected_sources_equal_between_main_and_branch": {
+      "living-novel/manuscript/PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc",
+      "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json": "6dbec1fe2537139f3a97c6a78250e2bae082a518"
+    },
+    "initial_novel_os_ci": {
+      "at_commit": "6c2862dc32aee0a658d02d12523c36ce9af87e15",
+      "run_id": 41132394420,
+      "conclusion": "FAIL",
+      "observed_test_count": 287,
+      "failed": 2,
+      "cause": "two incorrect new test expectations: departure quote missing 'Then' and Chapter II fingerprint missing one '3' character",
+      "repair_commit": "89ca27f0f7a74ff6f02eb8e1121bbd094f321d3f"
+    },
+    "initial_three_other_workflows": "SUCCESS at 6c2862dc32aee0a658d02d12523c36ce9af87e15",
+    "exact_checkpoint_head_ci": "PENDING FRESH GITHUB ACTIONS READBACK",
+    "independent_authors_council": "NOT_ACCEPTED",
+    "independent_atlas_character": "NOT_ACCEPTED",
+    "independent_umpire": "NOT_ACCEPTED",
+    "merged": false,
+    "canon_promoted": false,
+    "published": false
+  },
+  "narrative": {
+    "owner_pov": "Fictional CHAR-JAKE-KALOPER alone; period 2016 owner slot NOT provider authenticated",
+    "causal_turn": "Actual departure from shelter by freight cart with cost; wheelwright's daughter's independent paid chock work; delayed trip; arrival at upriver stoneworks; name recorded present, zero new paid hours due kiln ventilation",
+    "open_loops": [
+      "historical 2016 owner binding",
+      "missing account book leaves and thief",
+      "unrelated clog stranger identity",
+      "west store suspected cover expiring custody",
+      "Sola independent future paid work; third screen panel unbought",
+      "Mara traveling with Senn",
+      "Len's injured eye and imperfect carved bird",
+      "unsafe east boundary and other's chest",
+      "private claimant original and separate sealed message",
+      "singer refunds; supplier older invoice; Jake remaining pledge; daughter's unsigned commission",
+      "stoneworks first actual paid shift and kiln draft safety"
+    ]
+  },
+  "blocking_gates": [
+    "authenticated historical owner binding",
+    "period Character Canon and Atlas review",
+    "independent Authors Council literary approval",
+    "independent Umpire acceptance",
+    "Founder-only canon, merge, publication approvals"
+  ],
+  "next": [
+    "Read current head and exact GitHub CI status; troubleshoot any actual failures rather than assuming green.",
+    "Invite authentic reviewers to assess period-correct setting, excessive logistical obstacles, daughter's convenient coincidence, worksite physics and narrative repetition.",
+    "Continue with Chapter XXVI only as NONCANON: explore genuine paid labor or consequential unpaid shutdown at stoneworks with different dramatic stakes; avoid new invented historical outcomes.",
+    "Preserve every preexisting 25 chapter passage, archive and protected 2026 hard sources; reassemble reading copy from exact blobs."
+  ]
+}

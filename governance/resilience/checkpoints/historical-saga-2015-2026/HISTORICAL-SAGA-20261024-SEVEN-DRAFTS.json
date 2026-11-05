@@ -1,0 +1,836 @@
+{
+  "version": "1.0.0",
+  "checkpoint_id": "HISTORICAL-SAGA-20261024-SEVEN-DRAFTS",
+  "project": "schemin-26",
+  "workflow": "historical-saga-2015-2026",
+  "stage": "PARTIAL_NONCANON_SEVEN_SEQUENCES",
+  "owner": "Novel production task",
+  "source_authority": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+  "completed_at": "2026-10-24T05:02:41.235477+00:00",
+  "input_fingerprints": [
+    {
+      "path": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+      "digest_algo": "sha256",
+      "digest": "96cb7350af25a34166173a87b5564c3403ee2ef137a8f2fb8abbae7a9a4767bd"
+    },
+    {
+      "path": "living-novel/world/AUTHOR_ROOM_UNIVERSE_HYDRATION_STANDARD_V1.md",
+      "digest_algo": "sha256",
+      "digest": "a07b637871e7c60f042fa859ee99308a9b1622ebb62859b4f1534c18e59cf465"
+    },
+    {
+      "path": "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md",
+      "digest_algo": "sha256",
+      "digest": "9f2dd7b2b4b65e29c37fdfccb53b3a13a48ae225c56aeafa3d4b6b931e5be01d"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/ALL_SEASON_PROGRESS.json",
+      "digest_algo": "sha256",
+      "digest": "6732485e03529be71e7bbc29e3976569883712211aaa4fa77f6b13406d7aeb36"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/CANDIDATE_EVENT_LINKS.json",
+      "digest_algo": "sha256",
+      "digest": "345364665f2e88d65afff7ef99fee715859be40bebe3b538025590df47e36cf3"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/ENSEMBLE_AND_CONTINUITY.md",
+      "digest_algo": "sha256",
+      "digest": "f6d1aa36414682fd6afda6daabacc9b859fc2775e9924f40b635959d371ebf16"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/MISSION_AND_ARCHITECTURE.md",
+      "digest_algo": "sha256",
+      "digest": "0f766ff09f16417570ee1d8e8e15dba1c1b77a9eadc94e40ad33d93d845836ed"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/README.md",
+      "digest_algo": "sha256",
+      "digest": "6dd0538d69152eba2154d152caf490b19ccfd326ca1bc9c6e8cf606eff25435e"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/RESUME.md",
+      "digest_algo": "sha256",
+      "digest": "df5b7725a2e5b8cfd89d2534e7d6e768c22fc121cd488baf43313fe57250c614"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/VALIDATION.md",
+      "digest_algo": "sha256",
+      "digest": "6fdcbf0871c13cc5c308a4f2874883a58262d34ddb139e3935737adc427324fe"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/assemble_candidate_links.py",
+      "digest_algo": "sha256",
+      "digest": "f8117d9ef1c06dd9ee32358ce3308775e868d03689108a7003c52a2d06d428a8"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2015_FIXTURE_COVERAGE.json",
+      "digest_algo": "sha256",
+      "digest": "73fb75de749b25ee055a1ebe07c1617fc9dcd921b171b26bb3899efac47feaff"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2016_FIXTURE_COVERAGE.json",
+      "digest_algo": "sha256",
+      "digest": "4b8b22e1fab6dee9c1cf43452186429118d250e21c791b57a2dd13f026bf811e"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2017_FIXTURE_COVERAGE.json",
+      "digest_algo": "sha256",
+      "digest": "5168485cb2298f5b696addc7c84c381d6adb2c08b60b149e0c117946ff05b78c"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2018_FIXTURE_COVERAGE.json",
+      "digest_algo": "sha256",
+      "digest": "ef85a4d439d0373aeaabc5bd20775b7f1148d14692ed83ad08e1cfce6ce43b26"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2019_FIXTURE_COVERAGE.json",
+      "digest_algo": "sha256",
+      "digest": "bb35e22679be8c223b0e5c39f04e6da60106bacbdcc01eb26f2af45feae5e7b7"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2020_FIXTURE_COVERAGE.json",
+      "digest_algo": "sha256",
+      "digest": "28716378361c1037e34f91ffb5dddda1b14c1087b7637b28a450f1d3ae2d98f0"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2021_FIXTURE_COVERAGE.json",
+      "digest_algo": "sha256",
+      "digest": "c8022d0f11c2dcd4d7d1014f6cb9ca18aea4bd5194e7027c1c2feacec7707c78"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2022_FIXTURE_COVERAGE.json",
+      "digest_algo": "sha256",
+      "digest": "b13fdd75276dc37ce1ac9d1e9af14b79794f3fa6808ee08f4422f09a3c385cab"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2023_FIXTURE_COVERAGE.json",
+      "digest_algo": "sha256",
+      "digest": "ea1642655f5e0aaf77d0bbd1416c637bdd8690723281c8ee0033c69084d451c3"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2024_FIXTURE_COVERAGE.json",
+      "digest_algo": "sha256",
+      "digest": "43d05b524e2ab662bdcafd604b99f8aaaac9d61981f06d48c1f34e4ba4c4b05d"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2025_FIXTURE_COVERAGE.json",
+      "digest_algo": "sha256",
+      "digest": "9607eb08b4bba35a657a3f7009e36b00ec3a678b362c90b92e3f50f2f313137c"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2026_FIXTURE_COVERAGE.json",
+      "digest_algo": "sha256",
+      "digest": "a180c79e680039e5e4145c6de3ebc1338cd57c1246cf67d2a8b99d769693281d"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/CURRENT_SEASON_PASSAGE_AUDIT.json",
+      "digest_algo": "sha256",
+      "digest": "28affc3220b96853b79cc6d3594a8ac320bf2d9d89bdcd9cf02551f3c8202048"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/CURRENT_SEASON_PASSAGE_AUDIT.md",
+      "digest_algo": "sha256",
+      "digest": "681fb50a2f944e5d905005085b2d12df96e55fbac938172c6b5d1d6d9c7278c4"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/EXISTING_TEXT_INVENTORY.json",
+      "digest_algo": "sha256",
+      "digest": "13bdf816da358ce686ae456f966784185d03c8cf00996c26efc88d0808f49fea"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/HISTORICAL_BINDING_AUDIT_2015_2021.json",
+      "digest_algo": "sha256",
+      "digest": "c6704fb80814e258ecbe7712db807b503f25ce2ae628e7579fcea042737d64a5"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/HISTORICAL_BINDING_AUDIT_2015_2021.md",
+      "digest_algo": "sha256",
+      "digest": "b31bf68ccb5bc31c7c36ba0de934db0539685331d890447a94c9d97c15910716"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/HISTORICAL_BINDING_AUDIT_2022_2025.json",
+      "digest_algo": "sha256",
+      "digest": "a571f53f6b14a944d3848f466a3b262b59db0e4c3051b646993c6a7888cd13d9"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/HISTORICAL_BINDING_AUDIT_2022_2025.md",
+      "digest_algo": "sha256",
+      "digest": "cf37bfb6c370fd569db5cfa5a9441d75631dd46a1e6ae97d9344965a7a0693d6"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/HISTORICAL_BINDING_MATRIX_2015_2025.json",
+      "digest_algo": "sha256",
+      "digest": "c7f4f9e159010c183d7c6f085acc8366bb3e9e2c2e8e77347868e484cb93ce52"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/HISTORICAL_BINDING_MATRIX_2015_2025.md",
+      "digest_algo": "sha256",
+      "digest": "1c2656b0f672ae7280e72d93eb848cfd2fd01e9ca9dee0df7c0d99180af0fcaa"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/HISTORICAL_UNBLOCK_CHECK_2026_10_24.md",
+      "digest_algo": "sha256",
+      "digest": "acb9d2165b51f05a7726f9cf3018608a3b9d593d3e3cf8452ad2aca3f6cfa422"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/SEASON_DENOMINATORS.json",
+      "digest_algo": "sha256",
+      "digest": "ff38c6a7fd61689dbca9c26dc023240d7bae4fe67ffce3d3b0b8cd5ad2b3d284"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/SOURCE_COVERAGE_AUDIT.md",
+      "digest_algo": "sha256",
+      "digest": "d96b5d7b9bf37a327c2e15ae46e8d349d3cae6ca6cb70998e36f489ef04a7d6f"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/build_coverage.py",
+      "digest_algo": "sha256",
+      "digest": "850b4c431616347540a1ad3a81b7d1b9d531eac6cc03ee2df4fc4efa70b85284"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/build_passage_audit.py",
+      "digest_algo": "sha256",
+      "digest": "3ccf42c8fd6f0c4128ac86aba1e0569d6403faed330c880169f1f1f0d9f94401"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/provider-readback/2015_LEAGUE_INFO.json",
+      "digest_algo": "sha256",
+      "digest": "ad21ef01cce67f799ca88fe3b2a658c4ae8e0b6c1a8e418a797ba1b5304f36d3"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/provider-readback/2016_LEAGUE_INFO.json",
+      "digest_algo": "sha256",
+      "digest": "89dbdb4d99a83a81c9fd661e8f66a882943d67943ce44f9b83e8cc3f06720b76"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/provider-readback/2017_LEAGUE_INFO.json",
+      "digest_algo": "sha256",
+      "digest": "fd6edf85666971a835c5fc08309707bf1e8e5e4ca4bc2aa3ffff3f8f902f9912"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/provider-readback/2018_LEAGUE_INFO.json",
+      "digest_algo": "sha256",
+      "digest": "b94e2401bc03c1754d34ded6b6a85b55d6b55a6ff599bf5468d5606aa029b790"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/provider-readback/2019_LEAGUE_INFO.json",
+      "digest_algo": "sha256",
+      "digest": "31ab7dec2dbe12a197c15c4acb6f7e067e33eba048c63ed7ce7ae8d1fa6fdaa7"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/provider-readback/2020_LEAGUE_INFO.json",
+      "digest_algo": "sha256",
+      "digest": "d53db6819c7bcbecb75e2ffde9de6ad97a10de0be12024f7a97d7a173abb6c19"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/provider-readback/2021_LEAGUE_INFO.json",
+      "digest_algo": "sha256",
+      "digest": "f26b28021e880c53803a2f6ccad2536aea00094f59cd50629dd82ef1dcfa3095"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/provider-readback/2022_LEAGUE_INFO.json",
+      "digest_algo": "sha256",
+      "digest": "938ca75f76348d4faa6f77ccb530e21df0bf2a8112de6d5b6752e6d9f4c644b5"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/provider-readback/2023_LEAGUE_INFO.json",
+      "digest_algo": "sha256",
+      "digest": "4b2c51d9a6e0ebf060447efecec7bbf0bd194a11aa0114e539028e5abab959e6"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/provider-readback/2024_LEAGUE_INFO.json",
+      "digest_algo": "sha256",
+      "digest": "9f88875b4c494cc0d8482a90f38262ce265cf21073f87a41b365a2c7ae65a7b2"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/provider-readback/2025_LEAGUE_INFO.json",
+      "digest_algo": "sha256",
+      "digest": "105ff1c27a0f4e732aba7d7643ddcbc783acad65999c383767318afd9a597246"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/provider-readback/READBACK_INDEX.json",
+      "digest_algo": "sha256",
+      "digest": "7ac2be0df90496ff9de63d9ce7a9b56b25dc5d983c2e53650fd2c07427e78d6b"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/test_coverage.py",
+      "digest_algo": "sha256",
+      "digest": "12cd89d8c9e67ca4427088cb0e260212ac7c5b318d8993c5fe42db90b2076430"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/inventory/MANUSCRIPT_INVENTORY.json",
+      "digest_algo": "sha256",
+      "digest": "70a5391f97164139cf12796849b5fe6ebe14517650746dfff75a8c460ccca028"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/inventory/MANUSCRIPT_INVENTORY.md",
+      "digest_algo": "sha256",
+      "digest": "881c80796cde837d2309d382a57e9cedefe17123c429586f6296634bafde6f0a"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/PRE_PROSE_PACKET.md",
+      "digest_algo": "sha256",
+      "digest": "3707e2b6a2c6381e590fcfafa60fd8660e4a5ab35e2e37f37e7e9cffcb8dd2ed"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/SALVAGE_AND_REVISION_RECEIPT.md",
+      "digest_algo": "sha256",
+      "digest": "9b984890888528d0f4ae73ab0224deaf36b8fc82e569322f0fa219b02dcc4236"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/SCENE_REGISTER.json",
+      "digest_algo": "sha256",
+      "digest": "2011eb994964b5b26761a4f7ed10ebe173866301dd94abfd3143c6e7f1911f65"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/TECHNICAL_GATE_RECEIPT.json",
+      "digest_algo": "sha256",
+      "digest": "a08954ad0ccf0a7115c8967792ba4e91c7be8c54481f5012ec77f26e24ee83ea"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/THE_DOOR_AFTER_THE_CROWN_NONCANON.md",
+      "digest_algo": "sha256",
+      "digest": "5251fc7d84337587987a4576d593c13c9b2c691bc145c8587a23687cb769a9df"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/SCENE_REGISTER.json",
+      "digest_algo": "sha256",
+      "digest": "3455bbbe10472d3b8909d6e2414d2c6ea2352ac43b355d08713cff823d648f91"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/SOURCE_AND_REVISION_RECORD.md",
+      "digest_algo": "sha256",
+      "digest": "d91b8481a2975f8d1d55718f435075bc7d6f8234e5a7c22b6ce257bacfd76b4f"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md",
+      "digest_algo": "sha256",
+      "digest": "5922f4958fba95b9b6881644688aa999d071efce7ecb0533fdd8cdbda07ed324"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/SCENE_REGISTER.json",
+      "digest_algo": "sha256",
+      "digest": "571eb068883d0b6b66ccb915259104fc68e3206b874a481229a116c5898ba8b7"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/SOURCE_AND_REVISION_RECORD.md",
+      "digest_algo": "sha256",
+      "digest": "ccf6e20141eaa457891488330e2a039ecb2610e39a5439f313c5972927edefe8"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026/THE_PRICE_OF_AN_OPEN_GATE.md",
+      "digest_algo": "sha256",
+      "digest": "be1255612c84db92f9188f29aae2e68674e236950bbf9a0d2f6ddb01868830db"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week4/PRE_PROSE_PACKET.md",
+      "digest_algo": "sha256",
+      "digest": "7e52aa969b405f256223b00ccbb999acd1b5cd32fcc0878bb4d05783ecc5a3ef"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week4/SCENE_REGISTER.json",
+      "digest_algo": "sha256",
+      "digest": "378bf876e1ce1586703cb51d72abeefdc97750e0ec519ce2b0f4cf5787c9b103"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week4/SOURCE_AND_REVISION_RECORD.md",
+      "digest_algo": "sha256",
+      "digest": "c37e21e3d9f7b6fc873b4fd0c101b0da708bb0857d06d650edd6222f696e7612"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week4/STRUCTURAL_GATE_RECEIPT.json",
+      "digest_algo": "sha256",
+      "digest": "49eb5ea32c5208d56b62c694f958279930cf759e8c724cdee28c56772ee7ba8c"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week4/THE_UNFINISHED_APPLAUSE_NONCANON.md",
+      "digest_algo": "sha256",
+      "digest": "dcdf76089d04fdad43a92175663d8b4783cd7c88bac9342cf1f337cb82d4d5da"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week5/A_DOOR_WIDE_ENOUGH_NONCANON.md",
+      "digest_algo": "sha256",
+      "digest": "8a8ee0cb748301ca9a04dc4258f2de82c6f579888fb34ef9538c02cf7e0eb713"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week5/PRE_PROSE_PACKET.md",
+      "digest_algo": "sha256",
+      "digest": "f3a46787999096ca774a1eff39e229241e1882357c22692dccc1951862a3b372"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week5/SALVAGE_AND_REVISION_RECEIPT.md",
+      "digest_algo": "sha256",
+      "digest": "71e3fe5a098c4ca00e3e16042cdf729c1ec00a2735bea735d2720a037440fa63"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week5/SCENE_REGISTER.json",
+      "digest_algo": "sha256",
+      "digest": "07c1aa28af0fd72bf55733fb5ca2fecb4ed5d4a63488331e5982a382eb0e0d87"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week5/TECHNICAL_GATE_RECEIPT.json",
+      "digest_algo": "sha256",
+      "digest": "d8376b33e7917c12eca477ea6c52711bd2634eee412e64d33eec71d6a30af861"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/PRE_PROSE_PACKET.md",
+      "digest_algo": "sha256",
+      "digest": "bf3a63794aa626b465b127a3a976d6badbcf59c72226d160699c280296e42406"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/SALVAGE_AND_REVISION_RECEIPT.md",
+      "digest_algo": "sha256",
+      "digest": "64278c92cf59637ce012244bc7f70c3d5ee83520db155d2315dd84e4aede8bc9"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/SCENE_REGISTER.json",
+      "digest_algo": "sha256",
+      "digest": "cbdc6defb82524838efb55c1ed0c7c06d35af527f3698e2895185e5726e43797"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/TECHNICAL_GATE_RECEIPT.json",
+      "digest_algo": "sha256",
+      "digest": "203249003c1c6336cdb65dc87dbe191a901fde134e24636d4682c048593893bc"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6/THE_LINE_LEFT_STANDING_NONCANON.md",
+      "digest_algo": "sha256",
+      "digest": "5fd9ace01c6ea520b704d4aa202cdbd2111c955b54e39d419b8dd6cd2bea1612"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6-wetland/SCENE_REGISTER.json",
+      "digest_algo": "sha256",
+      "digest": "e1c97ee1343756d6e37ea7385416fdc1a5a8d92bae068d8c57f656a27a59bb45"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6-wetland/SOURCE_AND_REVISION_RECORD.md",
+      "digest_algo": "sha256",
+      "digest": "e6f8b2cefa3722fcf67a521c5c6dcf290f99382f2c955e378ba89bc3f0967dbe"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2026-week6-wetland/THE_WATER_BENEATH_THE_LINE.md",
+      "digest_algo": "sha256",
+      "digest": "e25a07a398aaffaf1d1087c85d7219846c550bde2ee13612b64d33d373ace71a"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/reader/BROWSER_CHECK.json",
+      "digest_algo": "sha256",
+      "digest": "2df22856b56ff0baca27e8ebd7af74a985a491944f895fa55c70f0801bd45500"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/reader/READER_MANIFEST.json",
+      "digest_algo": "sha256",
+      "digest": "cde9853578402eb9fb17dc5687149312df2cfaf5cf6dcdff7f423ba4032f757e"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/reader/README.md",
+      "digest_algo": "sha256",
+      "digest": "a3176836a95af4ac937728ffbc7e4270efcb91f60393b9a6f7ed6afc4535185f"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/reader/TECHNICAL_CHECK.json",
+      "digest_algo": "sha256",
+      "digest": "d6dbd0c65c3af4c3d21d7e781296c08b32f7890e5f3a225de1442aba603d3ddb"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/reader/build_reader.py",
+      "digest_algo": "sha256",
+      "digest": "dbe5a37f3dcd5eeb2f787b8599bc8ad47cc7baeb41fa0e3e54b62c8353a43030"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/reader/check_browser.py",
+      "digest_algo": "sha256",
+      "digest": "cd76d6a4d8b038c7aece6ed6cac3b29cd30e1645ebe888cfa8c642ca5eeea3ad"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/reader/index.html",
+      "digest_algo": "sha256",
+      "digest": "aca7734635249552adb4a9d5f07dbc7e9c410ac56862954858f25f387cbb5a48"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/reader/test_reader.py",
+      "digest_algo": "sha256",
+      "digest": "25c176f1d73c5260a5ee69e2e1523dc7e715a89ca6c4f3c17c3ea69851802f03"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/COVERAGE_TEST_OUTPUT.txt",
+      "digest_algo": "sha256",
+      "digest": "e65115d000ebae35b9728a32588f002639f17645ba45df762b6201a1b8669beb"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/HISTORICAL_BINDING_REVIEW.md",
+      "digest_algo": "sha256",
+      "digest": "0989dbb711821be3a68593051fd9d35b61e1c4bcafd0f9fed0c7fe457b09b77c"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/HISTORICAL_PRE_PROSE_CHECK.json",
+      "digest_algo": "sha256",
+      "digest": "175684065b06bc7cc4a45e4b21f72040e0044d19b403f39f01205ce2ce57b85a"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/HISTORICAL_SCENE_CHECK_RESULT.json",
+      "digest_algo": "sha256",
+      "digest": "a341119995f7b858b53ae15af9d86a93b73dc7c37d94fb21317382ac56d62619"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/INDEPENDENT_REVIEW.md",
+      "digest_algo": "sha256",
+      "digest": "b3549d7a3ecf8c248af6716f052a8654c2f92d82abcce6a2fad5d110e4dbbf44"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/PROVIDER_READBACK_CHECK.json",
+      "digest_algo": "sha256",
+      "digest": "e30849ac21052b7c0dae38cca019879108d28311127f309b4c7c577a1d3b1cf9"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/SCENE_CHECK_RESULT.json",
+      "digest_algo": "sha256",
+      "digest": "92bc2bdda7c0064bc4126cd60ac917fc274e4a0961bc0e700157b8558c159113"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/SOURCE_CHECK_RESULT.json",
+      "digest_algo": "sha256",
+      "digest": "32d717780763b50ec3da64983612a12c8636af53a56dc4f02fcf5d70bffed9a8"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/STATIC_READER_CHECK.json",
+      "digest_algo": "sha256",
+      "digest": "33bbdb4b6342de4b16318388cf4c5f825381e93050327a0de46125aa901f5b86"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/STATIC_READER_HISTORICAL_CHECK.json",
+      "digest_algo": "sha256",
+      "digest": "f1b49f131aa6d5ac1dcc1ffcdeb6e4415f6925505cdb8ccdaf5446c9aec55650"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/check_candidate_scenes.py",
+      "digest_algo": "sha256",
+      "digest": "a1ff5124a307e65794169a5b0c9ed96170f9835b6b53946225a93dbba9408f74"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/check_historical_candidate_scenes.py",
+      "digest_algo": "sha256",
+      "digest": "4073297cf11a03fa10d668de10a53d8a669ebb21df0d8a371b2dd4d79d21d0ce"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/check_source_receipts.py",
+      "digest_algo": "sha256",
+      "digest": "7a57a815e57ad6f650f4056b2a38e97d107a70c4cb455043b21b70ac0f76d0c4"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/00_EVIDENCE_FREEZE.md",
+      "digest_algo": "sha256",
+      "digest": "409366ef5da1dc399cf6075e796ab07fc6528368a303012a6daaed3cf430583f"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/01_SOURCE_PACKET.md",
+      "digest_algo": "sha256",
+      "digest": "0dee2f02db4348e3bae76fb77095a73f9244e79d45c3e0fc360d002ae722b584"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/AUDIT_RECEIPT.md",
+      "digest_algo": "sha256",
+      "digest": "3d605c8a13cbdef98b3e3444518bf8d78ff7035218a07d6a15aabd7e8643d4da"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/CHECKPOINT.md",
+      "digest_algo": "sha256",
+      "digest": "263182e8793340877603903605c0b12c51707800b6c08f3e77c957da9054ae08"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/CROSS_EXAMINATION.md",
+      "digest_algo": "sha256",
+      "digest": "79505a0587d81f353a1297b478b376697ed3ed6eeb8dcd2a79b1380fc9a4fd2e"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/EVIDENCE_HASHES.json",
+      "digest_algo": "sha256",
+      "digest": "4bcaa56a0cb1d969d57fbb9ac32cb6a3069f4a61494fd58981355cdd2a456f69"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/IMPLEMENTATION_DECISION.md",
+      "digest_algo": "sha256",
+      "digest": "7f5ac7cadddfd49d4f0500fe4bfa0668e9254a9ae1ccee3bd18a50bc21c084be"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/LEARN_AND_NEXT.md",
+      "digest_algo": "sha256",
+      "digest": "e7b62661024f7b4140b4d33a7028ea5478fae0c1385348c06739d87d0116d6df"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/RECONCILIATION.md",
+      "digest_algo": "sha256",
+      "digest": "0f2e193e5cbb7ae20591ba5d4f5f997de3f49a2b1a03cbfd179ae700b5275818"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/REVIEW_SCOPE_CLARIFICATION.md",
+      "digest_algo": "sha256",
+      "digest": "d566d50e4ecf4ff112bd7411ab3599e91eb4e8d0da1dbcf8558a96605020f062"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/ROUTER_VALIDATION.json",
+      "digest_algo": "sha256",
+      "digest": "076fae56c40e183a6cd43f3cd137f2112fae55d22af5bc7a53e23bff4cab087a"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/SELECTED_CONSULTANTS.json",
+      "digest_algo": "sha256",
+      "digest": "869235bd958b11d17b83aa614355e6f18d8db03702d7142c1d46ba44274159ea"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/historical-supplement/2024_ACTUAL_PROSE_REVIEW.md",
+      "digest_algo": "sha256",
+      "digest": "f72fc96abe213d597d783f1f2b08295ada6df1465bfac078d3e9d7915c9b7c21"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/historical-supplement/2024_FINAL_READBACK.json",
+      "digest_algo": "sha256",
+      "digest": "5dba61a8331db697f6574d43908dcc5029f82f4109cf591945df6fcd3d027255"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/historical-supplement/2024_INITIAL_FREEZE.json",
+      "digest_algo": "sha256",
+      "digest": "0066ba99b0520741879b1c08ca94e168aa58ac548034675c25bb7b631099df38"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/historical-supplement/2024_REINSPECTION.md",
+      "digest_algo": "sha256",
+      "digest": "c490e654899067f5730fe1d6d3b91a1247f91d0dcea1c6ab66ba0e3351a2b2b8"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/historical-supplement/2024_REVISED_FREEZE.json",
+      "digest_algo": "sha256",
+      "digest": "5435b67d3f1ad2034667b9547e36c2481196526305c9ffe78b60666dd3ecc4a0"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/historical-supplement/2025_ACTUAL_PROSE_REVIEW_AND_REINSPECTION.md",
+      "digest_algo": "sha256",
+      "digest": "05e5520e70bf2b927ea799b07d7fd9dcf6d239e090e457dd0a6976b42f97a17b"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/historical-supplement/2025_INITIAL_FREEZE.json",
+      "digest_algo": "sha256",
+      "digest": "0509bc84e0b129c2f948b5bd2ab7307a21638e235f1ff0a2790968aa4ae54c1d"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/historical-supplement/HISTORICAL_FINAL_READBACK.json",
+      "digest_algo": "sha256",
+      "digest": "1a71c4affaee50cf10bf37952c0ecab7e2b5cf42ebf0e8f1ba0bab6f435a0951"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/historical-supplement/HISTORICAL_SUPPLEMENT_SYNTHESIS.md",
+      "digest_algo": "sha256",
+      "digest": "3f1c6af4420f96de3e954813c2db4cf2ae89c5a812e63e4878f1de7c965319ab"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/historical-supplement/PACKET_ADMISSION_REVIEW.md",
+      "digest_algo": "sha256",
+      "digest": "ce9a97a2fea8d377df006764830add902e1d4a369380df86d7b1dec9b5cc8330"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/historical-supplement/PACKET_REVIEW_FREEZE.json",
+      "digest_algo": "sha256",
+      "digest": "cbcdd993c77efd5c0ab3ecd7e7a591cfe05777a0749f7f0ee2e8fd3fa1aed973"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-1/BRANDON_SANDERSON.md",
+      "digest_algo": "sha256",
+      "digest": "111031863fcfa5d96c311ecdc79b982522ef1868ca46dae599f5fb50c2e7084c"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-1/GEORGE_RR_MARTIN.md",
+      "digest_algo": "sha256",
+      "digest": "e260e58926b8b4de3899fe72a9736c746a9a09968ff818f519b6e05f90581ee2"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-1/JK_ROWLING.md",
+      "digest_algo": "sha256",
+      "digest": "97cf35ba09cf8f3e2a94bbe590a64366d92392c663cda5cc4a777a254712c01a"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-1/JOE_ABERCROMBIE.md",
+      "digest_algo": "sha256",
+      "digest": "37dd3e1d0b5e54582675a6e706d5d30fa5835463e6a7c959e455faec46626dd1"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-1/JOHN_GRISHAM.md",
+      "digest_algo": "sha256",
+      "digest": "0d353e86e07bac375a53ff0ec1ac4928c12a54d7ca95ab521a352dc8d77cb9ff"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-1/JRR_TOLKIEN.md",
+      "digest_algo": "sha256",
+      "digest": "809e27b226eae0723f0333052fc14398b7c63fba69379f495772ed4253a682ed"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-1/URSULA_K_LE_GUIN.md",
+      "digest_algo": "sha256",
+      "digest": "d025c0d9883dfb86c8f4237c1696aaa059ddcdb0ae78c54fce23ca8ee3fa22e6"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-2/BRANDON_SANDERSON.md",
+      "digest_algo": "sha256",
+      "digest": "a6617edc4dddb440bf07ef5f654fe26f3e19ff97c883300cf7b2ce62f074836f"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-2/GEORGE_RR_MARTIN.md",
+      "digest_algo": "sha256",
+      "digest": "9f0f49a8384c117ae85df8016ef7ad6227790bfd3530cbc0edbe435d4c33c5e6"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-2/JK_ROWLING.md",
+      "digest_algo": "sha256",
+      "digest": "09e5927cf1b4951722258999b71b0314b8a9a697ad26bc74e577db11b677ce0e"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-2/JOE_ABERCROMBIE.md",
+      "digest_algo": "sha256",
+      "digest": "2dba458fb4bd60932095504e0984ee304d4f79731c9f95b8cd4bc6f9824a5aa3"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-2/JOHN_GRISHAM.md",
+      "digest_algo": "sha256",
+      "digest": "7238c797d8e8e139d49223e7dc97bf6d305be42eb1322251f59e17149222e3e7"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-2/JRR_TOLKIEN.md",
+      "digest_algo": "sha256",
+      "digest": "14ac5f334fab006d850f491d6fe9a1e23d048037ee22c9e61b455617f124dc89"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-2/OPEN_GATE_FREEZE.json",
+      "digest_algo": "sha256",
+      "digest": "9afe491d2f96955432b6aa76e30c9d60d8b5db931b23819ecdc8b7dbd6d0ba82"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-2/OPEN_GATE_REPAIR_REQUEST.md",
+      "digest_algo": "sha256",
+      "digest": "b433516daf9b0b5ace794a9f72a1c1c91b419379950e889b2379726eeca13db9"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-2/REINSPECTION_AND_SYNTHESIS.md",
+      "digest_algo": "sha256",
+      "digest": "af47a4bee2b9c7a9becffefd0ca9f593beed152d6fd312323dfc241266ba68e3"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-2/REVISED_MANUSCRIPT_HASHES.json",
+      "digest_algo": "sha256",
+      "digest": "a8fde96d5d1f33cba479a0c57755a28e3d35c851f5ef0be2d2d12e73bfaa971c"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-2/URSULA_K_LE_GUIN.md",
+      "digest_algo": "sha256",
+      "digest": "c9e4b1e47e83c17d44841015cc3a9ee16245bbd5533bfa62bc261227f76e052c"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-2/WEEK6_FREEZE.json",
+      "digest_algo": "sha256",
+      "digest": "55d553c4146178b4b671483d1ee0ac68badc160d9f3132ee55f294f13d4bf72a"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-2/WEEK6_REPAIR_REQUEST.md",
+      "digest_algo": "sha256",
+      "digest": "e08cf64676f8703ccf6b3ddc9c7ed7574c361f084240c4ad63f3276572455acd"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-3/HISTORICAL_SOURCE_CHECKPOINT.md",
+      "digest_algo": "sha256",
+      "digest": "4f29dfa6940992b6a537ca59655fd624ebeab872fffefb78af1b5badd037bd47"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-3/WEEK4_ADVERSARIAL_REVIEW.md",
+      "digest_algo": "sha256",
+      "digest": "fa6e13ee97808bd3f24d01e940d5601c03e828952cbbe714d3821fb98e683f2f"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-3/WEEK4_INITIAL_FREEZE.json",
+      "digest_algo": "sha256",
+      "digest": "ab8bc4465d3efda25de8621ade27f25f0303c8a44b51dccf035f16f1f3bee6d5"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-3/WEEK4_WETLAND_REINSPECTION.md",
+      "digest_algo": "sha256",
+      "digest": "96d700aae283aa668ea42bd050f1b280f5505f5bc6277a83ec5408f3d686b3e8"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-3/WEEK5_ADVERSARIAL_REVIEW.md",
+      "digest_algo": "sha256",
+      "digest": "4eff5c2ad200d8533e0472c56207e8e2915ff59f00ddfcdec0c5b28c16487353"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-3/WEEK5_REINSPECTION.md",
+      "digest_algo": "sha256",
+      "digest": "03837954cc57b68b1ff523829362120729d7b647b485fdbeefeae5d2bcb62b9b"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-3/WEEK5_REPAIR_READBACK_FREEZE.json",
+      "digest_algo": "sha256",
+      "digest": "1ea4f89a59ba7957ab084d128f7e8e2124dc8dcdc759a6526ac632ad6785aef9"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-3/WETLAND_ADVERSARIAL_REVIEW.md",
+      "digest_algo": "sha256",
+      "digest": "b67c40309901fc614d84066fb8dfa0257cd7469a7296f50bcc56bf58f8b950b1"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-3/WETLAND_INITIAL_FREEZE.json",
+      "digest_algo": "sha256",
+      "digest": "3b04f61e702159f3f7f7344413a377ff4af7e89c6ee508b4cc3213ff0435d4d3"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-4/BOUNDED_TRANCHE_FREEZE.json",
+      "digest_algo": "sha256",
+      "digest": "177264fbdceb2449d413bd7906a2de5354def4ec26abf31a6d138471dd93d8db"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-4/BOUNDED_TRANCHE_SYNTHESIS.md",
+      "digest_algo": "sha256",
+      "digest": "53bfbf67e14ae13d7ca81fa567ca8923798ae7894c53e6dcafecb8e16375d158"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-4/BRANDON_SANDERSON.md",
+      "digest_algo": "sha256",
+      "digest": "9560bbc9c18a955a9e9cf65ef06b11781a92c92a181294020cfbbe1c4f4b012d"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-4/GEORGE_RR_MARTIN.md",
+      "digest_algo": "sha256",
+      "digest": "4a06c780d03243cff73ccc46f62bfffcefe90a677a51f4e79848d8389846ba7d"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-4/JK_ROWLING.md",
+      "digest_algo": "sha256",
+      "digest": "3af3fd8fcfda28e6a7d291cca9c0abd92e7335ce25ced63b8d5021a5c69328ff"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-4/JOE_ABERCROMBIE.md",
+      "digest_algo": "sha256",
+      "digest": "3ff2e9da0226fae638bff7a259f08a2be213ed16f873872d97acd8c9ff7c9aaf"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-4/JOHN_GRISHAM.md",
+      "digest_algo": "sha256",
+      "digest": "15d21c6ffe5a728169e33a6aedc103096a1b6bcba30064b4c79ffb4689bdbf97"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-4/JRR_TOLKIEN.md",
+      "digest_algo": "sha256",
+      "digest": "922e1724f4482f044bf494562f3a3b9f58d80294ccf040d1cd75f4ea37229243"
+    },
+    {
+      "path": "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/round-4/URSULA_K_LE_GUIN.md",
+      "digest_algo": "sha256",
+      "digest": "a228662a8ab7bd6bc4cad33b8463ef1426fd30982b46a261c66e031f77481097"
+    }
+  ],
+  "evidence": [
+    "living-novel/production/historical-saga/approved-mission-2015-2026/review/HISTORICAL_BINDING_REVIEW.md",
+    "living-novel/production/historical-saga/approved-mission-2015-2026/VALIDATION.md"
+  ],
+  "invalidation_triggers": [
+    "Any source, canon, manuscript, register or review digest change requires affected-stage revalidation."
+  ]
+}

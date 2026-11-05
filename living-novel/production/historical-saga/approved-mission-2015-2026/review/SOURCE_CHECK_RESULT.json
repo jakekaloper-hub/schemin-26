@@ -1,0 +1,41 @@
+{
+  "scope": "HISTORICAL_RECEIPT_INTEGRITY_ONLY",
+  "resolved_source_observations": 1117,
+  "paired_contests": 1055,
+  "unpaired_rows": 38,
+  "duplicate_display_rows": 24,
+  "errors": [],
+  "result_qualifications": [
+    {
+      "event_id": "ESPN1417621-2017-P03-E018",
+      "reason": "EQUAL_DISPLAY_SCORES_WITH_DECLARED_WINNER",
+      "source_winner": "HOME",
+      "rule": "Preserve provider declaration; tiebreak or precision cause remains unknown."
+    },
+    {
+      "event_id": "ESPN1417621-2018-P15-E088",
+      "reason": "EQUAL_DISPLAY_SCORES_WITH_DECLARED_WINNER",
+      "source_winner": "HOME",
+      "rule": "Preserve provider declaration; tiebreak or precision cause remains unknown."
+    }
+  ],
+  "reviewed_ledger_sha256": {
+    "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2015_FIXTURE_COVERAGE.json": "73fb75de749b25ee055a1ebe07c1617fc9dcd921b171b26bb3899efac47feaff",
+    "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2016_FIXTURE_COVERAGE.json": "4b8b22e1fab6dee9c1cf43452186429118d250e21c791b57a2dd13f026bf811e",
+    "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2017_FIXTURE_COVERAGE.json": "5168485cb2298f5b696addc7c84c381d6adb2c08b60b149e0c117946ff05b78c",
+    "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2018_FIXTURE_COVERAGE.json": "ef85a4d439d0373aeaabc5bd20775b7f1148d14692ed83ad08e1cfce6ce43b26",
+    "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2019_FIXTURE_COVERAGE.json": "bb35e22679be8c223b0e5c39f04e6da60106bacbdcc01eb26f2af45feae5e7b7",
+    "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2020_FIXTURE_COVERAGE.json": "28716378361c1037e34f91ffb5dddda1b14c1087b7637b28a450f1d3ae2d98f0",
+    "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2021_FIXTURE_COVERAGE.json": "c8022d0f11c2dcd4d7d1014f6cb9ca18aea4bd5194e7027c1c2feacec7707c78",
+    "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2022_FIXTURE_COVERAGE.json": "b13fdd75276dc37ce1ac9d1e9af14b79794f3fa6808ee08f4422f09a3c385cab",
+    "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2023_FIXTURE_COVERAGE.json": "ea1642655f5e0aaf77d0bbd1416c637bdd8690723281c8ee0033c69084d451c3",
+    "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2024_FIXTURE_COVERAGE.json": "43d05b524e2ab662bdcafd604b99f8aaaac9d61981f06d48c1f34e4ba4c4b05d",
+    "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2025_FIXTURE_COVERAGE.json": "9607eb08b4bba35a657a3f7009e36b00ec3a678b362c90b92e3f50f2f313137c"
+  },
+  "not_proven": [
+    "historical owner identity",
+    "complete schedule beyond observed extracts",
+    "literary acceptance",
+    "raw provider byte authenticity"
+  ]
+}

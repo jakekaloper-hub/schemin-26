@@ -1,0 +1,123 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH17-SEVENTEEN-CHAPTER-READER",
+  "version": "1.0",
+  "date": "2026-10-30",
+  "status": "NONCANON_DRAFT_INDEPENDENT_EDITORIAL_HOLD",
+  "repository": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "resumed_from": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH16-SIXTEEN-CHAPTER-READER",
+  "state_readback": {
+    "main_at_intake": "ec941811d6334d70015ec97b2ac68a2d8a26eec6",
+    "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "source_authority_matrix": {
+      "path": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+      "blob": "67fcd669dc7b43393f2d15e93545301961dd81e4"
+    },
+    "historic_2016_archive": {
+      "path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+      "human_owner_association": "UNAUTHENTICATED"
+    },
+    "issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "prs": {
+      "188": "MERGED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT_HOLD",
+      "261": "OPEN_DRAFT_HOLD"
+    },
+    "bullpen_controls": [
+      "docs/COMMAND_SYSTEM_V2.md",
+      "runtime/lifecycleEngine.js"
+    ],
+    "task_state": "Current task registry remains authoritative task data but predates newer manuscript evidence; no silent task status mutation"
+  },
+  "artifacts": {
+    "chapter": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_HOURS_BETWEEN_HAMMERS_CHAPTER_17_NONCANON.md",
+      "git_blob": "193caf3ac2e0c4565601d989cd0e2c1f531d7df1",
+      "words_whitespace_including_editorial": 5870,
+      "commit": "f107dedde03abe70bb6613dcc5d1979501bcc5a2"
+    },
+    "reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_17_NONCANON.md",
+      "git_blob": "7ba3cf83ff59d187929a71861c1d053abbb05140",
+      "words_whitespace_including_manifest": 86517,
+      "chapter_components": 17,
+      "commit": "ad01d46ffe2def15f661401def69ab95e04753ae"
+    },
+    "python_tests": {
+      "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_seventeen_reader.py",
+      "methods": 11,
+      "commit_first": "1bb990139c8d107e6e2f0f204bbf08bb2a5cc0c0",
+      "commit_fix": "2e50381197955ef54ea521c09b14d47c731d54c6",
+      "execution": "NOT_RUN",
+      "ci_enrollment": false
+    },
+    "qa_receipt": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_17_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "commit": "b1bab04a7058a6ed6ab09690a44258568011c440"
+    }
+  },
+  "checks": {
+    "source_exact": "PASS 17/17 committed source texts, embedded component and blob/word manifest checks",
+    "predecessor_16": "PASS original sixteen text blocks preserved exact in 17-chapter reader",
+    "protected_opening": "PASS four 2026 Prologue/Chapter I/II/III Git blobs matched between current main and branch",
+    "archive": "PASS preserved archive Git blob",
+    "python_new": "NOT_EXECUTED (11 methods)",
+    "python_prior_ch15": "NOT_EXECUTED/NOT_VERIFIED (13 methods)",
+    "remote_mac": "TIMEOUT, no response; no local execution evidence",
+    "github_ci": "EXACT_FINAL_HEAD_READBACK_REQUIRED",
+    "independent_editorial": "NOT_OBSERVED",
+    "umpire": "NOT_OBSERVED",
+    "merge": false,
+    "canon_promotion": false,
+    "published": false
+  },
+  "narrative": {
+    "time": "2016 proposed upriver first labor day after Chapter XVI departure; before unverified future outcomes",
+    "sole_interior": "fictional CHAR-JAKE-KALOPER / PRINCIPAL_CHARACTER",
+    "chapter_spine": "Jake misinterprets stone-passage hammer echo; crew rehearses safe synchronized movement; four iron frames carried to proposed kiln yard; Jake contributes a limited final signal",
+    "status": "First of two promised workdays completed in fiction; second day not yet begun; wages not settled; return not achieved",
+    "new_supporting_characters": "Vessa, Aren, Eren, Pell, Noll; fiction-only, non-owner external viewpoint",
+    "new_open_loops": [
+      "Eren's caller qualification",
+      "kiln repair after fitting delivery",
+      "Deren day-two work and wage",
+      "Jake return transport and shelter reception"
+    ],
+    "preserved_open_loops": [
+      "Mara note DELIVERY_UNCONFIRMED",
+      "Jake shelter pledge UNPAID",
+      "lower crossing/cart unrecovered",
+      "damaged separate river bridge",
+      "unaccepted seed and borrowed red-thread canvas",
+      "great wheel unfinished/untouched; daughter trial unsigned",
+      "damaged mill, injured worker, unpaid supplier wages",
+      "unopened sealed letter, inaccessible east chest, missing claimant, false summons",
+      "singer and partial refunds",
+      "lamp buyer outcome and loss apportionment"
+    ]
+  },
+  "independent_review_requested": false,
+  "blockers": [
+    "Period Atlas / material culture clearance",
+    "Historical human-owner identity reconciliation",
+    "Independent Author Room/Character Canon/Librarian review",
+    "Independent Umpire acceptance",
+    "Eleven new Chapter XVII Python tests unrun and not CI-enrolled; prior Chapter XV tests still unrun",
+    "Founder-only manuscript canon/publishing approval"
+  ],
+  "next": [
+    "Read latest PR head and exact-head Actions statuses, check reviewer response and reproduce Python tests through authorized runner",
+    "Continue substantive noncanon Chapter XVIII focused on genuine second-day consequences, not another explanation of work or an invented victory",
+    "Evaluate whether XVII is redundant with XV/XVI; produce independent literary redline rather than self-approval",
+    "Do not auto-merge, canon-promote, publish, or assert ESPN event facts without provenance"
+  ]
+}

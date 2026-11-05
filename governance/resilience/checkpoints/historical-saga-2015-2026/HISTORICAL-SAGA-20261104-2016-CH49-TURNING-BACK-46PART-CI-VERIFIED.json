@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "date": "2026-11-04",
+  "mission": "Commonwealth Novel Production / standing Founder-authorized Bullpen mandate",
+  "status": "NONCANON_INDEPENDENT_EDITORIAL_HOLD",
+  "repo": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "main_at_intake": "e0858b8bc27db2bb095e0e03483b5c98e5809052",
+  "bullpen_main_at_intake": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+  "prior_verified_production_sha": "bb9ffd1af77c907a9c8803ca2bf56f299e9ef703",
+  "verified_production_sha": "5a8bb440f99f66f9869f088ff682aad02c14bc9f",
+  "author_side_receipt_commit": "c98bec2f27f80d05f7dfc1e127ef8772aad5e377",
+  "literary": {
+    "chapter_number": 49,
+    "title": "The Shore That Kept No Footprints — The Price of Turning Back",
+    "source_filename": "THE_SHORE_THAT_KEPT_NO_FOOTPRINTS_CHAPTER_49_NONCANON.md",
+    "source_sha": "a7640f47d11313582cdf137b1ce9bda177536960",
+    "source_words_including_notes": 5253,
+    "scene_filename": "THE_SHORE_THAT_KEPT_NO_FOOTPRINTS_THE_PRICE_OF_TURNING_BACK_CH49_V2_SCENE_NONCANON.md",
+    "scene_sha": "17ed4d95e8428d40bcabf75f661b2bf7b26f5d86",
+    "new_original_scene_words": 2108,
+    "revised_filename": "THE_SHORE_THAT_KEPT_NO_FOOTPRINTS_THE_PRICE_OF_TURNING_BACK_CH49_V2_NONCANON.md",
+    "revised_sha": "584da699eaf7747600142f00cc041551fc5958c3",
+    "revised_source_words_including_notes": 7479,
+    "original_six_movement_bodies_preserved": true,
+    "pov": "proposed fictional Jake only; NOT provider-authenticated historical owner binding",
+    "historical_scores_invented": false
+  },
+  "manuscript": {
+    "parts": 46,
+    "coverage": "I–XLIX",
+    "component_source_words_including_notes": 355259,
+    "preceding_45_sections_preserved": true,
+    "builder": "living-novel/historical-chronicle/qa/build_2016_causal_46_part_turning_back_reader.py",
+    "full_reader_committed_to_git": false,
+    "regenerable_from_source": true,
+    "artifact_name": "commonwealth-2016-46part-turning-back-developmental-reader-noncanon",
+    "artifact_id": 13328190722,
+    "artifact_size_bytes": 719896,
+    "artifact_expires_at": "2026-11-11T13:34:46Z",
+    "artifact_workflow_run_id": 41839296099
+  },
+  "tests": {
+    "suite": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_forty_nine_turning_back_v2_reader.py",
+    "dedicated_tests_pass": 22,
+    "prior_historical_tests_reported": 1760,
+    "additional_test_assertions": 22,
+    "protected_2026_prologue_chapters_I_III_locked_by_git_blob": true,
+    "historical_2016_archive_locked_by_git_blob": true,
+    "prior_45_part_assembly_source_exact": true,
+    "github_ci_log": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41839296099"
+  },
+  "workflows": [
+    {
+      "name": "Novel OS CI",
+      "run_id": 41839296099,
+      "head_sha": "5a8bb440f99f66f9869f088ff682aad02c14bc9f",
+      "conclusion": "success"
+    },
+    {
+      "name": "Cross-Domain Authority CI",
+      "run_id": 41839296104,
+      "head_sha": "5a8bb440f99f66f9869f088ff682aad02c14bc9f",
+      "conclusion": "success"
+    },
+    {
+      "name": "Bullpen Runtime CI",
+      "run_id": 41839296060,
+      "head_sha": "5a8bb440f99f66f9869f088ff682aad02c14bc9f",
+      "conclusion": "success"
+    },
+    {
+      "name": "Repository Merge Gate",
+      "run_id": 41839296524,
+      "head_sha": "5a8bb440f99f66f9869f088ff682aad02c14bc9f",
+      "conclusion": "success"
+    }
+  ],
+  "independent_reviews": {
+    "submitted_pr_reviews_at_verification": 0,
+    "authors_council": "NOT_RECEIVED",
+    "historian": "NOT_RECEIVED",
+    "period_atlas": "NOT_RECEIVED",
+    "character_canon": "NOT_RECEIVED",
+    "umpire": "NOT_RECEIVED",
+    "founder_release": "NOT_RECEIVED",
+    "review_requested_pr_comment_id": 6632030819,
+    "review_requested_bullpen_issue_117_comment_id": 6632032004
+  },
+  "gates": {
+    "historical_2016_manager_account_authentication": "INCOMPLETE",
+    "atlas_locations": "UNAPPROVED FICTION",
+    "pov_owner_12_exclusive": true,
+    "external_financial_or_irreversible_actions": "NONE AUTHORIZED"
+  },
+  "release": {
+    "noncanon": true,
+    "draft_pr": true,
+    "merged": false,
+    "canon_promoted": false,
+    "published": false
+  },
+  "next": "Resume existing PR #243 at current exact head. Read latest main, authority matrix, task state and review returns. Prioritize Chapter L The Night Below the Room: three remaining lodgers Neris/Dovan/Tovin, dangerous stair, temporary lower-floor one-night shelter, their shared cart rails and unresolved limited lodging. Preserve original movements; substantial new prose; source-exact 47-part reader and independent challenge. Do not invent league scores/owner identities, map coordinates, medical outcomes or rescues. Reverify exact commit CI before production success claim.",
+  "checkpoint_note": "The four CI workflow successes apply to the specific verified production commit above. This later documentation/checkpoint-only head must not be represented as having passed those workflows without fresh readback."
+}

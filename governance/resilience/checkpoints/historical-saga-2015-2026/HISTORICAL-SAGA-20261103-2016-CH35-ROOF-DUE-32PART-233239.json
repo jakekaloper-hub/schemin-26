@@ -1,0 +1,68 @@
+{
+  "id": "historical-saga-2016-ch35-roof-due-32part-2026-11-03",
+  "run_date": "2026-11-03",
+  "status": "NONCANON_EDITORIAL_HOLD",
+  "controlling_repository": "jakekaloper-hub/schemin-26",
+  "target_branch": "novel/historical-epic-2015-2026",
+  "prior_production_commit": "c9eb0be8fa7c49a92cb7773530980228660e95d3",
+  "production_commit": "PENDING_NEW_GIT_COMMIT",
+  "source_main_snapshot": "e0858b8bc27db2bb095e0e03483b5c98e5809052",
+  "bullpen_main_snapshot": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+  "source_authority": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+  "lifecycle_authority": "jakekaloper-hub/bullpen/docs/COMMAND_SYSTEM_V2.md and runtime/lifecycleEngine.js",
+  "manuscript": {
+    "original": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_COAT_THAT_DID_NOT_BELONG_CHAPTER_35_NONCANON.md",
+    "original_blob": "bb4e2904bead10f403d4eda279cd9eeaf983032e",
+    "revision": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_COAT_THAT_DID_NOT_BELONG_WHAT_THE_ROOF_WAS_OWED_CH35_V2_NONCANON.md",
+    "revision_blob": "62bec21c4765016a6156a91450b122669b8c6c98",
+    "original_movements_preserved": 5,
+    "new_scene_words": 2082,
+    "revision_source_words": 9201,
+    "previous_reader": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_2016_CAUSAL_CH01_34_THIRTY_ONE_PARTS_BLUE_BOWL_NONCANON.md",
+    "previous_reader_blob": "5424afc1de335b3dd3c2920013751c95a16090f4",
+    "reading_copy": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_2016_CAUSAL_CH01_35_THIRTY_TWO_PARTS_ROOF_DUE_NONCANON.md",
+    "reading_copy_blob": "e0206b6d92f4f65d87b332a79c8e66165668e0e1",
+    "source_exact_parts": 32,
+    "previous_parts_unchanged": 31,
+    "component_source_words": 233239,
+    "original_chapters": "I–XXXV"
+  },
+  "tests": {
+    "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_thirty_five_roof_due_reader.py",
+    "defined": 19,
+    "local_runtime": "NOT EXECUTED / JS structural preflight only",
+    "github_actions": "PENDING"
+  },
+  "review": {
+    "author_side": "living-novel/historical-chronicle/seasons/2016/causal-novel/EDITORIAL_QA_CH35_ROOF_DUE_V2_2026-11-03_NONCANON.md",
+    "independent_authors": "NOT RECEIVED",
+    "historical_librarian": "NOT RECEIVED",
+    "period_character_canon": "NOT CLEARED",
+    "atlas": "NOT CLEARED",
+    "umpire": "NOT RECEIVED",
+    "founder": "NOT AUTHORIZED",
+    "tracking": "jakekaloper-hub/bullpen#117"
+  },
+  "carry": {
+    "historical_2016_owner_slot": "UNAUTHENTICATED",
+    "Pell": "RETURNED / INJURED / ACCOUNT NOT PROVED",
+    "driver_Mael": "UNLOCATED",
+    "second_horse": "UNLOCATED",
+    "freight": "UNLOCATED",
+    "cart": "RECOVERY NOT CONFIRMED",
+    "mare": "CARE CONTINUES / HEALING NOT CONFIRMED",
+    "rented_room": "CURRENT TWO NIGHTS PAID; NEXT TERMS NOT PAID OR DECIDED",
+    "stoneworks_shift": "MISSED / ZERO NEW WAGES",
+    "kiln": "CLOSED",
+    "letter_to_Esi": "DELIVERY UNCONFIRMED",
+    "shelter_debts": "UNPAID",
+    "wedding": "NOT HELD",
+    "bee_swarm": "RECOVERY UNCONFIRMED"
+  },
+  "next": {
+    "chapter": "XXXVI — The Ash at Fara's Door",
+    "source": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_ASH_AT_FARAS_DOOR_CHAPTER_36_NONCANON.md",
+    "priority": "Preserve Pell/Mael/freight absence while ash-displaced people arrive; reconcile Fara/Hessa independent choices and missed shift. No invented disaster data or historical owner identity."
+  },
+  "release": "NO MERGE / NO PUBLICATION / NO CANON PROMOTION"
+}

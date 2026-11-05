@@ -1,0 +1,109 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261102-2025-SIX-VOICE-DAVID-CONNECTED-READER",
+  "date_utc": "2026-11-02",
+  "mission": "BULLPEN_PERMANENT_EXECUTIVE_MANDATE_COMMONWEALTH_NOVEL",
+  "repos": [
+    "jakekaloper-hub/schemin-26",
+    "jakekaloper-hub/bullpen"
+  ],
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "pr_state_at_start": "OPEN_DRAFT_NONCANON",
+  "observed_source_heads": {
+    "schemin_main": "e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80",
+    "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "resumed_pr_head": "d0c0afcfbde25414e784b5790f8a7c1d1684f495"
+  },
+  "governing_sources_read": [
+    "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "living-novel/os/TASK_CONTEXT_MATRIX_V1.json",
+    "living-novel/os/NOVEL_POV_CONSTITUTION_V1.md",
+    "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md",
+    "living-novel/os/templates/MINIMUM_PRE_PROSE_GATE_V1.md",
+    "living-novel/os/NOVEL_OS_CANON_PROTOCOL_V1.md",
+    "canon/characters/CHARACTER_REGISTRY.yaml",
+    "canon/characters/CHAR-DAVID-BABB/PACKAGE.md",
+    "living-novel/historical-chronicle/evidence/2025_FLAIM_TEAM_SLOT_AND_PODIUM_READBACK_2026-11-01_REVIEW_ONLY.md",
+    "jakekaloper-hub/bullpen/BULLPEN.md",
+    "jakekaloper-hub/bullpen/docs/COMMAND_SYSTEM_V2.md",
+    "jakekaloper-hub/bullpen/core/org/directorOrg.js"
+  ],
+  "reviewed_issues": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "reviewed_prs": [
+    188,
+    243,
+    252,
+    261,
+    264
+  ],
+  "selection": "Sixth canonical-owner 2025 POV, David Babb, materially connects directly to unresolved Ben Whipple kitchen plot; avoid new 2016 Jake-only installments.",
+  "outputs": {
+    "chapter": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_WINTER_CLAUSE_DAVID_2025_NONCANON.md",
+    "chapter_blob": "0de993d2cb3865a7d37ce8cb8f1a9c719c37253c",
+    "chapter_words_with_metadata": 4487,
+    "chapter_movements": 6,
+    "principal_pov": "CHAR-DAVID-BABB",
+    "reader": "living-novel/historical-chronicle/seasons/2025/causal-novel/READING_COPY_2025_SIX_VOICES_NONCANON.md",
+    "reader_blob": "ebf421a75eb35cdc5fd4aedf5bf54104b5442ec3",
+    "exact_source_parts": 6,
+    "component_words_with_metadata": 25053,
+    "owner_povs": [
+      "CHAR-AUSTIN-BYARS",
+      "CHAR-JAKE-KALOPER",
+      "CHAR-ZACH-WILSON",
+      "CHAR-PHILLIP-PITTS",
+      "CHAR-BEN-WHIPPLE",
+      "CHAR-DAVID-BABB"
+    ],
+    "tests": "living-novel/historical-chronicle/qa/test_2025_six_voices_reader.py",
+    "new_tests": 28,
+    "workflow": ".github/workflows/novel-os-ci.yml",
+    "qa": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_WINTER_CLAUSE_DAVID_EDITORIAL_SOURCE_QA_2026-11-02.md"
+  },
+  "source_truth": {
+    "league_id": 1417621,
+    "season": 2025,
+    "team_slot": 4,
+    "team_name": "The LLC",
+    "record": "4-10",
+    "finalRank": 10,
+    "postseason": "missed_playoffs",
+    "historical_human_manager_account": "UNKNOWN",
+    "david_attribution": "PROVISIONAL",
+    "all_noncompetitive_story": "UNAPPROVED_FICTION",
+    "period_atlas": "UNKNOWN"
+  },
+  "verified_precheckpoint": {
+    "six_pinned_chapter_blobs": true,
+    "source_exact_reader_assembly_six_of_six": true,
+    "reader_sha_readback": true,
+    "prior_five_reader_blob_unchanged": true,
+    "prior_2016_72_reader_blob_unchanged": true,
+    "protected_prologue_and_three_main_chapter_blobs_unchanged": true,
+    "ci_exact_final_commit": "PENDING",
+    "independent_pr_reviews": 0
+  },
+  "blocked": [
+    "Historical 2025 manager-account ID not returned",
+    "2016 72-chapter Jake-only POV structural defect remains",
+    "period-correct geographic and legal Atlas authority absent",
+    "independent literary/Character/Historical Librarian/Umpire acceptance not submitted",
+    "Founder canon promotion approval not supplied"
+  ],
+  "no_merge": true,
+  "no_canon_promotion": true,
+  "no_publication": true,
+  "next": [
+    "Read exact head PR243 and GitHub workflow logs, fix observed failures",
+    "Seek truly independent Authors Council/Historical Librarian/Character/Atlas/Umpire review; author-side QA is not independent",
+    "Authenticate historical manager IDs or retain UNKNOWN",
+    "Inspect David–Ben causal interaction and Tessa possible name collision with separate Duckhook candidate",
+    "Keep hard-canon opening and 2016 manuscript protected"
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261102-2025-THIRTEEN-PART-JAKE-CAUSAL-READING",
+  "mission": "BULLPEN_PERMANENT_EXECUTIVE_MANDATE_COMMONWEALTH_NOVEL",
+  "date_utc": "2026-11-02",
+  "repositories": [
+    "jakekaloper-hub/schemin-26",
+    "jakekaloper-hub/bullpen"
+  ],
+  "source_control": {
+    "schemin_main_observed": "e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80",
+    "bullpen_main_observed": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "branch": "novel/historical-epic-2015-2026",
+    "pr": 243,
+    "pr_status": "OPEN_DRAFT_NOT_MERGED",
+    "starting_head": "968b05de322d1dbbfb53b6191105e82254dd9c03",
+    "latest_author_side_qa_commit": "063bee95caddff765cfcc3d3c9121cf0249af0ee",
+    "previous_checkpoint": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261102-2025-TWELVE-VOICE-MANNING-WEATHER.json",
+    "reconciled_issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "reconciled_prs": {
+      "188": "merged_prior",
+      "243": "open_draft_production",
+      "252": "open_draft",
+      "261": "open_draft",
+      "264": "open_draft"
+    }
+  },
+  "selection": "After 12 owner-character coverage, repair 2025 book cohesion and Jake's disproportionate 983-word historical contribution through a connected source-grounded chapter, preserving all earlier reader sources.",
+  "source_authority": [
+    "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md",
+    "canon/characters/TWELVE_CHARACTER_NARRATIVE_POV_REGISTER_V1.md",
+    "living-novel/characters/01_JAKE_KALOPER.md",
+    "canon/characters/CHAR-JAKE-KALOPER/T04_CHARACTER_SPEC.md",
+    "living-novel/historical-chronicle/evidence/2025_FLAIM_TEAM_SLOT_AND_PODIUM_READBACK_2026-11-01_REVIEW_ONLY.md",
+    "living-novel/history/PLAYOFF_MATCHUP_EVIDENCE_2022_2025.json",
+    "jakekaloper-hub/bullpen/BULLPEN.md",
+    "jakekaloper-hub/bullpen/docs/COMMAND_SYSTEM_V2.md",
+    "jakekaloper-hub/bullpen/runtime/lifecycleEngine.js"
+  ],
+  "outputs": {
+    "chapter": {
+      "path": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_MAP_OF_UNPAID_MILES_JAKE_2025_NONCANON.md",
+      "git_blob": "3821bc1c3a99bcca5b6419e50ebee6e260dc3234"
+    },
+    "reader": {
+      "path": "living-novel/historical-chronicle/seasons/2025/causal-novel/READING_COPY_2025_TWELVE_VOICES_THIRTEEN_PARTS_NONCANON.md",
+      "git_blob": "9237ec57f7dc45c13a726bcdf2369788dcae0de4"
+    },
+    "previous_reader": {
+      "path": "living-novel/historical-chronicle/seasons/2025/causal-novel/READING_COPY_2025_TWELVE_VOICES_NONCANON.md",
+      "git_blob": "8c5785bfea6dd48693ad4ff1922396cd2f2a8a84"
+    },
+    "test": {
+      "path": "living-novel/historical-chronicle/qa/test_2025_twelve_voices_thirteen_parts.py",
+      "git_blob": "2cfeecce5dd22e62656b4fbfd80f157afd50144c"
+    },
+    "workflow": {
+      "path": ".github/workflows/novel-os-ci.yml",
+      "git_blob": "4794f2fd8bc5d63eb98d4cb0283dba5e056499ed"
+    },
+    "qa": {
+      "path": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_MAP_OF_UNPAID_MILES_JAKE_EDITORIAL_SOURCE_QA_2026-11-02.md",
+      "git_blob": "928053203411f7df1e07f8c84ac9f50c96234359"
+    },
+    "authority": {
+      "path": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+      "git_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4"
+    }
+  },
+  "literary": {
+    "new_chapter_title": "The Map of Unpaid Miles",
+    "principal": "CHAR-JAKE-KALOPER",
+    "new_source_words_including_metadata": 4958,
+    "new_scene_and_headnote_words": 4354,
+    "new_movements": 6,
+    "reader_source_parts": 13,
+    "distinct_registered_principal_owners": 12,
+    "original_source_words_including_metadata": 65443,
+    "former_12part_reader_source_words": 60485,
+    "retained_jake_pilot_words": 983,
+    "continuity": "2025 title lost, 2024 title still established; only proposed fictional reports of broken watch, cracked road brace, lost coastal ferry, and kitchen obligation; Jake rescinds overbroad dispatch and forfeits supplies and exclusivity; two wagons held; outstanding compensation not falsely settled."
+  },
+  "verified_historical_fact": {
+    "league_id": 1417621,
+    "season": 2025,
+    "slot": 1,
+    "team": "ObiWan Jacoby",
+    "regular_season": "10-4",
+    "final_rank": 2,
+    "state": "runner_up",
+    "historical_human_manager_identity": "UNKNOWN",
+    "historical_character_binding": "PROVISIONAL_FICTIONAL_ASSOCIATION"
+  },
+  "protection": {
+    "prior_twelve_voice_reader_blob_pinned": "8c5785bfea6dd48693ad4ff1922396cd2f2a8a84",
+    "prior_source_wrappers_preserved": 12,
+    "protected_2026_prologue_and_chapters_1_3_untouched": true,
+    "prior_2016_72_chapters_untouched": true,
+    "independent_umpire_approval": false,
+    "author_council_acceptance": false,
+    "founder_promotion": false,
+    "merge": false,
+    "publication": false
+  },
+  "testing": {
+    "new_test_file": "living-novel/historical-chronicle/qa/test_2025_twelve_voices_thirteen_parts.py",
+    "test_cases": 30,
+    "run_at_exact_repaired_test_sha": "cea58d9491e5947de7d03df7617d513136d1229f",
+    "run_ids": {
+      "novel_os": 41430287359,
+      "cross_domain": 41430287292,
+      "bullpen_runtime": 41430287353,
+      "merge_gate": 41430287366
+    },
+    "observed_result": "4/4 workflows SUCCESS at repaired test SHA; 30/30 new unittest cases PASS from novel_os job 125226847374 observed logs",
+    "qa_commit": "063bee95caddff765cfcc3d3c9121cf0249af0ee",
+    "qa_commit_workflows": [
+      {
+        "name": "Bullpen Runtime CI",
+        "id": 41430445435,
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "id": 41430445552,
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "id": 41430445433,
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Novel OS CI",
+        "id": 41430445404,
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ],
+    "checkpoint_commit_workflows": "MUST_RECHECK_AFTER_THIS_COMMIT"
+  },
+  "review_hold": [
+    "No authenticated independent submitted review on PR #243 as of this checkpoint; previous PR review list empty",
+    "No historical human manager ID or period Atlas crossing evidence",
+    "Proposed war-room dispatch economics, physical routes and Jake's period visual props not approved",
+    "Literary developmental revision needed; 13 sequential source-exact parts not yet an integrated novel",
+    "2016 separate reader still has 72 consecutive Jake-limited chapters",
+    "No owner-authorized merge/publication/canon promotion"
+  ],
+  "next": [
+    "Recheck this checkpoint SHA and four actual CI results; do not infer from prior commits",
+    "Request genuine independent developmental/Character/Atlas/Historical Librarian/Umpire review; no fabricated board attendance",
+    "Prioritize substantive 2025 development integration with real scene transitions and reader experience, not another viewpoint headcount",
+    "Investigate 2016 historical owner mapping before replacing Jake-only POVs; mark unknowns rather than invent",
+    "Preserve main hard Prologue and Chapters I–III; no unapproved merge, publishing or promotion"
+  ]
+}

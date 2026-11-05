@@ -1,0 +1,196 @@
+{
+  "schema_version": "commonwealth-novel-production-checkpoint-v1",
+  "status": "NONCANON_LITERARY_REVIEW_HOLD",
+  "date": "2026-10-29",
+  "mission": "Commonwealth Novel autonomous end-to-end historical saga and Chronicle production",
+  "repositories": {
+    "novel": "jakekaloper-hub/schemin-26",
+    "bullpen": "jakekaloper-hub/bullpen"
+  },
+  "branch": "novel/historical-epic-2015-2026",
+  "primary_pr": 243,
+  "authorities": {
+    "source_issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "cross_prs": {
+      "188": "MERGED_PREPRODUCTION_SOURCE",
+      "252": "OPEN_DRAFT_INTEGRATION_HOLD",
+      "261": "OPEN_DRAFT_EXECUTION_DRIFT_HOLD"
+    },
+    "novel_matrix_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+    "project_task_registry_blob": "5e72e48f3c305e6def1051e0b18883a7be6b6af0",
+    "bullpen_command_blob": "cccf90a3cadac802767988ceab8f44453aa86819"
+  },
+  "baselines": {
+    "novel_main_sha": "76c3f614c9eae70ead304c3f4cda7b44a95907e7",
+    "bullpen_main_sha": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "previous_week4_branch_sha": "db01bd66b5c9a698253b4cb94dd6a1ea51e527b3"
+  },
+  "historical_source": {
+    "year": 2023,
+    "path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+    "git_blob": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
+    "provider_label": "Flaim ESPN league 1417621",
+    "raw_espn_sha": "UNAVAILABLE",
+    "human_owner_joins": "UNAUTHENTICATED",
+    "proposed_slot1_jake": "USER_ATTESTED"
+  },
+  "production": {
+    "title": "2023 Week 5: The Boat Without a Name",
+    "literary_track": "historical Chronicle (noncanonical, companion to separate causal novel)",
+    "manuscript": {
+      "path": "living-novel/historical-chronicle/seasons/2023/weeks/W05.md",
+      "blob": "6ee34372a9c9b36e141b5a0513ac28bb161b0170",
+      "whitespace_words_with_header_and_notes": 5463,
+      "scenes": 6,
+      "principal_pov_ids": [
+        "CHAR-JAKE-KALOPER"
+      ],
+      "secondary_owner_povs": 0
+    },
+    "source_qa": {
+      "path": "living-novel/historical-chronicle/seasons/2023/weeks/W05_SOURCE_QA_RECEIPT.md",
+      "blob": "60c22d907bb507037d190ff3b297fbfc600fa6fd"
+    },
+    "regression": {
+      "path": "living-novel/historical-chronicle/qa/test_2023_fifth_week.py",
+      "blob": "7e3804ceac9320953033f57af18b2c31f1af051b",
+      "test_cases": 11
+    },
+    "continuity": {
+      "path": "living-novel/historical-chronicle/seasons/2023/CONTINUITY.json",
+      "blob": "3c6a67f40cf97e46fe2e1b724e440aed53e1e053"
+    },
+    "workflow": {
+      "path": ".github/workflows/novel-os-ci.yml",
+      "blob": "a8831322871dc502b5849f73d64184d5e97cbb05"
+    },
+    "source_winners_by_slot": [
+      10,
+      5,
+      1,
+      11,
+      3,
+      4
+    ],
+    "slot1_archival_result": {
+      "record_wins": 1,
+      "record_losses": 4,
+      "points_for": "182.48",
+      "points_against": "129.42",
+      "margin": "53.06"
+    },
+    "coverage": {
+      "scoring_weeks_complete": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regular_season_pairings_written": 30,
+      "regular_season_pairings_total": 84,
+      "postseason": "NOT_DRAFTED"
+    }
+  },
+  "direct_verification": {
+    "source_join": "SIX_OF_SIX_WEEK5_MATCHUPS_PREWRITE_MATCH",
+    "manuscript_readback": "5463_WORDS_SIX_SECTIONS_BLOB_CONFIRMED",
+    "hard_canon_branch_blobs_match_known_main": {
+      "PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+    },
+    "ci_success_exact_tested_code_sha": "96bc2be5f2cb4142f8fe532b22a4cdc65c86e7b4",
+    "ci_tested_code_runs": {
+      "Novel OS CI": 40851834785,
+      "Cross-Domain Authority CI": 40851834634,
+      "Bullpen Runtime CI": 40851834705,
+      "Repository Merge Gate": 40851834864
+    },
+    "ci_named_week5_step": "success",
+    "ci_last_metadata_sha_before_checkpoint": "e21059d004075f418828540d857513664c9deed0",
+    "ci_last_metadata_runs_initial": "IN_PROGRESS_AT_CHECKPOINT_COMPOSITION",
+    "warning": "A success at earlier tested SHA does not automatically certify subsequent receipt or checkpoint commits; inspect exact final head.",
+    "latest_green_exact_code_sha": "d7853ab7933aa23807f983a7fab98a98326e9872",
+    "latest_green_novel_os_workflow": 40852365270
+  },
+  "contribution_commits": {
+    "initial_prose": "5f3778cda39f85f6148af2e92c2f944cfe801426",
+    "new_regression": "c296f62abc253a4b6283cf568fc397b79f44f852",
+    "workflow_w5": "4906d2db386f621b241aba09148b586b6473f320",
+    "pov_surgical_revisions": "96bc2be5f2cb4142f8fe532b22a4cdc65c86e7b4",
+    "qa_receipt": "b57a40847e81b67f41d41e935218cbb017dc0f92",
+    "continuity_ci_update": "e21059d004075f418828540d857513664c9deed0",
+    "regression_fix": "d7853ab7933aa23807f983a7fab98a98326e9872"
+  },
+  "independent_review": {
+    "pr_reviews_submitted": 0,
+    "umpire": "NOT_ACCEPTED",
+    "editorial": "SELF_CRITIQUE_ONLY",
+    "request": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6493378682"
+  },
+  "release": {
+    "merged": false,
+    "canon_promoted": false,
+    "published": false,
+    "founder_approval": false
+  },
+  "holds": [
+    "HISTORICAL_HUMAN_OWNER_ATTRIBUTION",
+    "HISTORICAL_ATLAS_APPROVAL",
+    "INDEPENDENT_EDITORIAL_REVIEW",
+    "INDEPENDENT_UMPIRE_ACCEPTANCE",
+    "FOUNDER_ONLY_CANON_PROMOTION",
+    "FOUNDER_ONLY_PUBLICATION"
+  ],
+  "next": [
+    "Before next prose, observe new final checkpoint commit CI (previous metadata promotion caused a test failure later repaired at d785); do not mistakenly equate prior passing SHA with final current head.",
+    "Read final exact-head workflow results; if failure, repair owning branch and retest.",
+    "Read independent PR submissions and address substantive review if any; self-comment is not acceptance.",
+    "If no stronger eligible task, write 2023 Week 6 Chronicle from six pinned rows; preserve one historical owner interior POV.",
+    "Keep prior Weeks 1-5 and causal chapters unchanged; avoid repeating another abstract document dispute; develop stakes of lost ferry and temporary punt.",
+    "No merge/canon promotion/publication absent all owner-only gates."
+  ],
+  "no_further_planning_without_prose": true,
+  "technical_regression_repair": {
+    "observed_failed_commit": "1b25a954d559504fa6406628ba053503b4dcefeb",
+    "observed_failed_workflow": {
+      "name": "Novel OS CI",
+      "id": 40852183452,
+      "conclusion": "failure"
+    },
+    "exact_failed_assertion": "test_continuity_coverage_increment asserted ci_week5.status == PENDING_NEW_EXACT_HEAD_WORKFLOW after the source registry had legitimately transitioned to SUCCESS_AT_TESTED_COMMIT",
+    "diagnosis": "Regression test encoded an obsolete one-state expectation; archival scores, POV boundaries, protected main bytes and all ten other Week 5 cases passed.",
+    "repair_commit": "d7853ab7933aa23807f983a7fab98a98326e9872",
+    "repair": "Test accepts PENDING or SUCCESS, and requires exact 40-character tested SHA plus observed Novel OS CI run ID when SUCCESS.",
+    "verified_after_repair": {
+      "commit": "d7853ab7933aa23807f983a7fab98a98326e9872",
+      "workflows": {
+        "Novel OS CI": {
+          "id": 40852365270,
+          "conclusion": "success"
+        },
+        "Cross-Domain Authority CI": {
+          "id": 40852365208,
+          "conclusion": "success"
+        },
+        "Bullpen Runtime CI": {
+          "id": 40852365345,
+          "conclusion": "success"
+        },
+        "Repository Merge Gate": {
+          "id": 40852365313,
+          "conclusion": "success"
+        }
+      }
+    },
+    "note": "This post-repair success is verified for exact d7853a code/ref; newly updated checkpoint commit must be rechecked separately."
+  }
+}

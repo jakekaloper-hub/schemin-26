@@ -1,0 +1,142 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261029-2023-FULL-SEASON-POSTSEASON",
+  "project": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "governing": {
+    "schemin_main_at_intake": "1c77ae21ef34bf325b93fe0964d4b7ccd6e9e32d",
+    "bullpen_main_at_intake": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "source_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "bullpen_command": "docs/COMMAND_SYSTEM_V2.md",
+    "bullpen_lifecycle": "runtime/lifecycleEngine.js",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json"
+  },
+  "scope": "2023_ONLY_RESUME_DRAFT_PR243",
+  "stage": "FULL_2023_105_ARCHIVE_ROWS_SOURCE_GROUNDED_19_PART_CHRONICLE_ASSEMBLED_NONCANON",
+  "archival_evidence": {
+    "weekly_source": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+    "source_blob_sha": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
+    "archive_platform": "Flaim ESPN 1417621",
+    "raw_provider_sha": "UNKNOWN_NOT_REFETCHED",
+    "historical_human_owners": "NOT_PROVIDER_AUTHENTICATED",
+    "corroboration": [
+      "living-novel/history/PLAYOFF_ARCHAEOLOGY.md",
+      "living-novel/history/PLAYOFF_MATCHUP_EVIDENCE_2022_2025.json",
+      "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json"
+    ],
+    "scoring_periods": 17,
+    "regular_season_pairings": 84,
+    "postseason_decided_pairings": 15,
+    "postseason_unpaired_undecided_rows": 6,
+    "archival_total_rows": 105,
+    "championship": {
+      "season": 2023,
+      "week": 17,
+      "winner": "Eggs Benedict",
+      "slot": 12,
+      "points": 192.88,
+      "runner_up": "Arm Chair GM",
+      "runner_up_slot": 11,
+      "runner_up_points": 140.76
+    }
+  },
+  "literary": {
+    "new_draft_word_count_including_metadata": 13272,
+    "new_components": [
+      {
+        "path": "living-novel/historical-chronicle/seasons/2023/weeks/W15.md",
+        "git_blob_sha": "2c178f3c9919d138f5b26dfea7cb9a7e442f64fc",
+        "title": "The Roof That Held No Sky",
+        "words": 4031
+      },
+      {
+        "path": "living-novel/historical-chronicle/seasons/2023/weeks/W16.md",
+        "git_blob_sha": "d408abaf918a8d8ac88ef61fe7af7ea9d0e66ea1",
+        "title": "The Fire That Would Not Travel",
+        "words": 3414
+      },
+      {
+        "path": "living-novel/historical-chronicle/seasons/2023/weeks/W17.md",
+        "git_blob_sha": "4265946b248450214b31d567f4ba8201cade39c1",
+        "title": "What the Lamps Could Carry",
+        "words": 3696
+      },
+      {
+        "path": "living-novel/historical-chronicle/seasons/2023/EPILOGUE.md",
+        "git_blob_sha": "56df771e586cd16ad28eb7a2184fdd4026286d2f",
+        "title": "The House with the Unfinished Roof",
+        "words": 2131
+      }
+    ],
+    "assembled_reading_copy": "living-novel/historical-chronicle/seasons/2023/READING_COPY_FULL_SEASON_NONCANON.md",
+    "assembled_reading_copy_blob_sha": "fdf87cb9438fd2a7115666557bf70f763f70f144",
+    "assembled_parts": 19,
+    "component_words_including_metadata": 86429,
+    "complete_reader_words_including_index": 87119,
+    "text_inclusion_readback": {
+      "source_components": 19,
+      "exact_git_blob_match": 19,
+      "exact_text_body_match": 19,
+      "ordered_component_match": 19,
+      "status": "PASS_AUTHENTICATED_GITHUB_FETCH_FILE_READBACK"
+    },
+    "principal_pov_id": "CHAR-JAKE-KALOPER",
+    "historical_jake_slot_one": "USER_ATTESTED_NOT_PROVIDER_AUTHENTICATED",
+    "other_owner_povs": [],
+    "status": "NONCANON_HISTORICAL_ATLAS_EDITORIAL_HOLD",
+    "prior_regular_season_reading_copy": "living-novel/historical-chronicle/seasons/2023/READING_COPY_REGULAR_SEASON_NONCANON.md"
+  },
+  "verification": {
+    "suite": "living-novel/historical-chronicle/qa/test_2023_postseason_full_season.py",
+    "regression_case_count": 15,
+    "named_ci_step": "Validate 2023 source-pinned postseason and full-season Chronicle reading copy (noncanon)",
+    "exact_tested_head_sha": "383a3debdec297128d7f227a03206fda72feb416",
+    "workflows": {
+      "novel_os_ci": {
+        "run_id": 40925061436,
+        "conclusion": "success",
+        "named_new_step": "success"
+      },
+      "cross_domain_authority": {
+        "run_id": 40925061483,
+        "conclusion": "success"
+      },
+      "bullpen_runtime_ci": {
+        "run_id": 40925061578,
+        "conclusion": "success"
+      },
+      "repository_merge_gate": {
+        "run_id": 40925061371,
+        "conclusion": "success"
+      }
+    },
+    "hard_canon_2026_main_and_pr_same_blobs": {
+      "PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+    },
+    "disclaimer": "Success verified at exact tested SHA; any later metadata-only SHA requires fresh CI readback before an exact final-head technical success claim. No independent author/Umpire verification has occurred."
+  },
+  "additional_artifacts": {
+    "postseason_continuity": "living-novel/historical-chronicle/seasons/2023/POSTSEASON_CONTINUITY_NONCANON.json",
+    "source_qa_receipt": "living-novel/historical-chronicle/seasons/2023/POSTSEASON_SOURCE_QA_RECEIPT.md",
+    "original_regular_continuity": "living-novel/historical-chronicle/seasons/2023/CONTINUITY.json"
+  },
+  "gates": {
+    "historical_owner_binding": "UNVERIFIED",
+    "Atlas": "UNAPPROVED",
+    "independent_author_council": "NOT_RECEIVED",
+    "independent_umpire": "NOT_RECEIVED",
+    "Founder_canon_approval": "NOT_GRANTED",
+    "merge": "HOLD",
+    "publication": "HOLD"
+  },
+  "next": [
+    "Read fresh PR #243 head, verify final-head CI and any independent review comments. If new metadata-only head not yet tested, report last exact-tested 383a SHA rather than false-green.",
+    "Maintain separate 2023 W14 snapshot and new scoped postseason continuity; do not rewrite regular season or 2026 hard canon.",
+    "Obtain independent literary / Atlas / Umpire objections before canon promotion; keep complete Chronicle NONCANON.",
+    "Advance substantive historical saga prose in highest-priority eligible incomplete year, or adapt 2023 Chronicle into genuine causally assembled noncanonical novel with temporal owner/Atlas protection. Do not create another roadmap instead of pages.",
+    "2015–2026 overall saga remains incomplete; keep standing mandate active unless actual owner-only blocker blocks all eligible work."
+  ]
+}

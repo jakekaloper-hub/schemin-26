@@ -1,0 +1,124 @@
+{
+  "schema": "commonwealth_historical_saga_run_checkpoint_v2",
+  "date": "2026-11-03",
+  "status": "NONCANON_INDEPENDENT_EDITORIAL_HOLD",
+  "repository": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "resumes_from": "bb0f38c2bbc3a51deada2e56448e7debd4afb83e",
+  "intake": {
+    "schemin_main": "e0858b8bc27db2bb095e0e03483b5c98e5809052",
+    "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "whole_book_source_authority_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "source_matrix_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+    "bullpen_command_registry": "runtime/commandRegistry.js",
+    "bullpen_lifecycle": "runtime/lifecycleEngine.js",
+    "execution_tasks": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "related_prs": [
+      188,
+      252,
+      261,
+      243
+    ],
+    "bullpen_review_issue": 117,
+    "pr_188_readback": "CLOSED; get_pr_info merged=false; earlier checkpoint said merged, do not assume merger"
+  },
+  "production": {
+    "original_chapter": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_FOURTH_NOTE_AT_THE_RIVER_CHAPTER_30_NONCANON.md",
+    "original_blob": "1b65f32ca5b41b52e8d362b8cfea95b4e2a03b8d",
+    "new_chapter": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_FOURTH_NOTE_AT_THE_RIVER_THE_HANDLE_ACROSS_THE_TABLE_CH30_V2_NONCANON.md",
+    "new_chapter_blob": "343eaf03f3921475439c721251e5b32744db0e30",
+    "added_movement": "V. The handle across the table",
+    "new_fiction_scene_words_including_heading": 2005,
+    "chapter_source_words_including_metadata": 7657,
+    "reader": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_2016_CAUSAL_CH01_30_TWENTY_SEVEN_PARTS_HANDLE_ACROSS_TABLE_NONCANON.md",
+    "reader_blob": "c7d970b54e7b00db54a83f2c93550efed0a3941b",
+    "previous_reader_blob": "2e363c740322461252fdc58a25041754266a04cf",
+    "previous_source_exact_components": 26,
+    "total_source_exact_components": 27,
+    "original_chapters_covered": "I-XXX",
+    "source_component_words_including_metadata": 189313,
+    "sole_proposed_limited_interior": "fictional Jake of the twelve canonical principal owners; historical 2016 team/owner linkage UNAUTHENTICATED",
+    "fiction_only": "Harl and Tavin repairing Fara basket after safe river return; no competition/result facts invented",
+    "remaining_loops": [
+      "Tavin safe and fourth note new, not mother's recreation",
+      "Pell hauling fate and wages unknown",
+      "Ina/Tavi dye sample unsold",
+      "Eren cart boards painted but acceptance/final payment unknown",
+      "Vessa kiln passage closed",
+      "Jake four stoneworks paid hours, none today",
+      "Mev letter carried outward, Esi delivery unknown",
+      "shelter debts, Nell bedding payment, stolen ledger unresolved",
+      "Mara/Senn and Sola statuses unresolved"
+    ]
+  },
+  "technical": {
+    "new_tests": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_thirty_handle_reader.py",
+    "test_blob": "4a23057eecc2324cf22324d2be2f8844da9529ef",
+    "test_definitions": 17,
+    "tests_observed": "PASS 17/17 in GitHub Actions Novel OS CI run 41695672787 job 126125412606 at d380f211",
+    "first_failed_commit": "bf4f19265aa4c3f3ec49f800de886d32841c641d",
+    "first_failed_CI_run": 41695421727,
+    "first_failure": "Single case-sensitive text assertion (The fourth note), prose unchanged.",
+    "repair_commit": "d380f211df27b9f6c7b779a225c3b36d13e46103",
+    "ci_workflow_blob": "5193ba4dad3d4f9fb66cf18c63d673529131a5d9",
+    "verified_commit": "d380f211df27b9f6c7b779a225c3b36d13e46103",
+    "exact_commit_ci": {
+      "Novel OS CI": {
+        "status": "PASS",
+        "run": 41695672787
+      },
+      "Cross-Domain Authority CI": {
+        "status": "PASS",
+        "run": 41695672775
+      },
+      "Bullpen Runtime CI": {
+        "status": "PASS",
+        "run": 41695672838
+      },
+      "Repository Merge Gate": {
+        "status": "PASS",
+        "run": 41695672920
+      }
+    },
+    "protected_2026_canon": "Prologue/Chapters I-III Git blob SHAs equal main on current PR branch",
+    "g01_2016_archive": "Source archive blob equals main 6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "proof_scope": "These CI receipts are exact to repair commit d380f211; a later checkpoint-only commit requires independent CI readback."
+  },
+  "editorial": {
+    "self_challenge": "living-novel/historical-chronicle/seasons/2016/causal-novel/EDITORIAL_QA_CH30_HANDLE_V2_2026-11-03_NONCANON.md",
+    "self_challenge_blob": "2120f58a53ad8404f03b2003d634adea43c59c8e",
+    "independent_authors": "NOT RECEIVED",
+    "librarian": "NOT RECEIVED",
+    "atlas": "NOT CLEARED",
+    "character": "NOT CLEARED",
+    "umpire": "NOT RECEIVED",
+    "founder": "NOT AUTHORIZED",
+    "review_request_pr_comment": 6612398621,
+    "review_request_bullpen_issue_comment": 6612399435,
+    "objections": [
+      "Potential length/pacing after child rescue",
+      "Sentiment in grief dialogue and Jake over-centralization",
+      "Repeated morally instructive small accidents",
+      "Basket and willow craft plausibility",
+      "Unapproved physical geography/house layout",
+      "2016 historical owner identity unverified"
+    ]
+  },
+  "next": {
+    "chapter": "XXXI — The Horse That Came Without a Cart",
+    "source": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_HORSE_THAT_CAME_WITHOUT_A_CART_CHAPTER_31_NONCANON.md",
+    "source_blob": "057de527cd24fc09a81e689f60c0dac834622791",
+    "qa": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_31_SOURCE_EDITORIAL_QA_RECEIPT.md",
+    "qa_blob": "f63f86ccec245fb65c65965da148ea5ae6691b8e",
+    "focus": "Resume existing XXXI rather than restart. Reconcile basket repair and Tavin safety against next chapter's horse/Pell disappearance; guard against consecutive missing-person repetition. Preserve independent Ina/Eren agency and ensure any XXXI pay is new, not retroactive. Develop substantial fiction and expand source-exact reader to 28 parts only on justified rewrite; noncanon only."
+  },
+  "publication": "NO MERGE / NO PUBLICATION / NO CANON PROMOTION"
+}

@@ -1,0 +1,2718 @@
+{
+  "status": "AUDITED_UNRESOLVED_EXACT_BINDINGS_NOT_ABSENCE_OF_ALL_EVIDENCE",
+  "baseline_commit": "8fcb77191955f413fe970154d47632770f923055",
+  "scope": {
+    "years": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+    ],
+    "year_slot_rows": 84,
+    "tracked_text_files_screened": 1683,
+    "historical_identity_search_candidates": [
+      "canon/character-control-plane-v2/schema/character-record.schema.json",
+      "canon/characters/CHAR-BRANDON-PRYOR/OWNER_SPOTLIGHT_2026_RECEIPT.json",
+      "canon/characters/CHAR-JORDAN-HOLLINGSHEAD/OWNER_SPOTLIGHT_2026_RECEIPT.json",
+      "canon/characters/COMMISSIONER_VISUAL_REFERENCE_2026_10_12.json",
+      "governance/publication-manifest/PUBLICATION_MANIFEST_V1.schema.json",
+      "living-novel/README.md",
+      "living-novel/canon/MASTER_TIMELINE.md",
+      "living-novel/characters/02_KEVIN_ZEEK.md",
+      "living-novel/characters/05_WILSON_LOOK.md",
+      "living-novel/characters/10_BOBBY_MITCHELL.md",
+      "living-novel/historical-chronicle/BULLPEN_AUTONOMOUS_EXECUTION_PROMPT_THROUGH_2023.md",
+      "living-novel/historical-chronicle/COMPLETION_BLUEPRINT_V1.md",
+      "living-novel/historical-chronicle/EXECUTION_RECEIPT_2026_10_19.md",
+      "living-novel/historical-chronicle/INDEX.md",
+      "living-novel/historical-chronicle/seasons/2015/EPILOGUE.md",
+      "living-novel/historical-chronicle/seasons/2015/FIXTURE_LEDGER.json",
+      "living-novel/historical-chronicle/seasons/2015/FIXTURE_LEDGER.md",
+      "living-novel/historical-chronicle/seasons/2015/POSTSEASON.md",
+      "living-novel/historical-chronicle/seasons/2015/REGULAR_SEASON_COVERAGE_AUDIT.md",
+      "living-novel/historical-chronicle/seasons/2015/SEASON_EVIDENCE.md",
+      "living-novel/historical-chronicle/seasons/2015/weeks/W01.md",
+      "living-novel/historical-chronicle/seasons/2015/weeks/W02.md",
+      "living-novel/historical-chronicle/seasons/2015/weeks/W03.md",
+      "living-novel/historical-chronicle/seasons/2015/weeks/W03_SOURCE_PACKET.md",
+      "living-novel/historical-chronicle/seasons/2015/weeks/W04.md",
+      "living-novel/historical-chronicle/seasons/2015/weeks/W04_SOURCE_PACKET.md",
+      "living-novel/historical-chronicle/seasons/2015/weeks/W05.md",
+      "living-novel/historical-chronicle/seasons/2015/weeks/W05_SOURCE_PACKET.md",
+      "living-novel/historical-chronicle/seasons/2015/weeks/W06.md",
+      "living-novel/historical-chronicle/seasons/2015/weeks/W06_SOURCE_PACKET.md",
+      "living-novel/historical-chronicle/seasons/2015/weeks/W07.md",
+      "living-novel/historical-chronicle/seasons/2015/weeks/W07_SOURCE_PACKET.md",
+      "living-novel/historical-chronicle/seasons/2015/weeks/W08.md",
+      "living-novel/historical-chronicle/seasons/2015/weeks/W08_SOURCE_PACKET.md",
+      "living-novel/historical-chronicle/seasons/2015/weeks/W09.md",
+      "living-novel/historical-chronicle/seasons/2015/weeks/W09_SOURCE_PACKET.md",
+      "living-novel/historical-chronicle/seasons/2015/weeks/W10.md",
+      "living-novel/historical-chronicle/seasons/2015/weeks/W10_SOURCE_PACKET.md",
+      "living-novel/historical-chronicle/seasons/2015/weeks/W11.md",
+      "living-novel/historical-chronicle/seasons/2015/weeks/W11_SOURCE_PACKET.md",
+      "living-novel/historical-chronicle/seasons/2015/weeks/W12.md",
+      "living-novel/historical-chronicle/seasons/2015/weeks/W12_SOURCE_PACKET.md",
+      "living-novel/historical-chronicle/seasons/2015/weeks/W13.md",
+      "living-novel/historical-chronicle/seasons/2015/weeks/W13_SOURCE_PACKET.md",
+      "living-novel/historical-chronicle/seasons/2016/EPILOGUE.md",
+      "living-novel/historical-chronicle/seasons/2016/PROLOGUE.md",
+      "living-novel/historical-chronicle/seasons/2016/weeks/W01.md",
+      "living-novel/history/CHAMPIONSHIP_SUCCESSION.md",
+      "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json",
+      "living-novel/history/HISTORICAL_ERAS.md",
+      "living-novel/history/OWNER_LINEAGE.md",
+      "living-novel/history/TEAM_NAME_LINEAGE.md",
+      "living-novel/os/adapters/flaim/PRO_SCHEMIN_HISTORICAL_INTELLIGENCE_LEDGER_V1.md",
+      "living-novel/production/full-rewrite-2026/G00_G10_EXECUTION_STATUS_RECEIPT_20261017.md",
+      "living-novel/production/full-rewrite-2026/G00_LIVE_AUDIT_RECEIPT_20261017.md",
+      "living-novel/production/full-rewrite-2026/G01D_SEASON_ROTATING_DIVISIONS_INTEGRATION_RECEIPT.md",
+      "living-novel/production/full-rewrite-2026/G01H_2015_2025_ROSTER_QUALITY_41_TEST_RECEIPT.md",
+      "living-novel/production/full-rewrite-2026/G01H_2015_2026_HISTORICAL_DEPTH_DRAFT_EXPECTATIONS_ROSTERS.md",
+      "living-novel/production/full-rewrite-2026/G01H_2017_ROSTER_38_TEST_RECEIPT.md",
+      "living-novel/production/full-rewrite-2026/G01H_2018_ROSTER_38_TEST_RECEIPT.md",
+      "living-novel/production/full-rewrite-2026/G01H_2019_ROSTER_CONTINUITY_38_TEST_RECEIPT.md",
+      "living-novel/production/full-rewrite-2026/G01H_2021_ROSTER_CONTINUITY_38_TEST_RECEIPT.md",
+      "living-novel/production/full-rewrite-2026/G01H_2022_SEASON_INTELLIGENCE_24_TEST_RECEIPT.md",
+      "living-novel/production/full-rewrite-2026/G01H_2023_ROSTER_CONTINUITY_38_TEST_RECEIPT.md",
+      "living-novel/production/full-rewrite-2026/G01H_2025_ALL_TEAM_ROSTER_38_TEST_RECEIPT.md",
+      "living-novel/production/full-rewrite-2026/G01H_R48_2022_ALL_TEAM_ROSTER_34_TEST_RECEIPT.md",
+      "living-novel/production/full-rewrite-2026/G01_2024_2025_WEEKLY_ARCHIVE_LIVE_EXECUTION_RECEIPT.md",
+      "living-novel/production/full-rewrite-2026/G01_COMPLETE_2015_2025_HISTORY_G03_19_TEST_RECEIPT.md",
+      "living-novel/production/full-rewrite-2026/G01_G03_ELEVEN_YEAR_FINALS_15_TEST_EXECUTION_RECEIPT.md",
+      "living-novel/production/full-rewrite-2026/G02_ALL_HISTORICAL_MATCHUPS_48_TEST_RECEIPT.md",
+      "living-novel/production/full-rewrite-2026/G02_AUTHOR_WORLD_MEMORY_HYDRATION_46_TEST_RECEIPT.md",
+      "living-novel/production/full-rewrite-2026/G02_G10_EXECUTION_GATE_MATRIX_2026_10_18.md",
+      "living-novel/production/full-rewrite-2026/G02_IDENTITY_ISOLATION_59_TEST_RECEIPT.md",
+      "living-novel/production/full-rewrite-2026/G04_HISTORICAL_SEASON_STORY_ROOM_PACKETS.json",
+      "living-novel/production/full-rewrite-2026/G07_BOOK_ONE_THE_DEBT_OF_NAMES_SCENE_01_NONCANON.md",
+      "living-novel/production/full-rewrite-2026/R1_BOOK_RECONSTRUCTION_DIRECTION_V1.md",
+      "living-novel/production/full-rewrite-2026/R28_SUMMIT_HISTORICAL_BOOK_TIME_AMENDMENT.md",
+      "living-novel/production/full-rewrite-2026/R29_BULLPEN_AUTONOMOUS_HISTORICAL_BOOK_MISSION.md",
+      "living-novel/production/full-rewrite-2026/R30_HISTORICAL_BOOK_ERA_COMPARISON_V1.json",
+      "living-novel/production/full-rewrite-2026/R31_HISTORICAL_BOOK_STORY_ROOM_DOSSIER_V1.md",
+      "living-novel/production/full-rewrite-2026/R32_COMPETING_OPENING_STORYBOARDS_V1.md",
+      "living-novel/production/full-rewrite-2026/R34_HISTORICAL_OPENING_EDITORIAL_GATE.md",
+      "living-novel/production/full-rewrite-2026/R37_TWELVE_OWNER_EXECUTIVE_BOARD_SIMULATION.md",
+      "living-novel/production/full-rewrite-2026/R38_BULLPEN_AUTHOR_COUNCIL_CONSULTENGINE_PRODUCTION_TAKEOVER.md",
+      "living-novel/production/full-rewrite-2026/R43_AUTHOR_MEMORY_RETRIEVAL_CONTRACT.md",
+      "living-novel/production/full-rewrite-2026/R45_MASTER_CONVERGENCE_MEMORY_TO_PUBLICATION_BLUEPRINT.md",
+      "living-novel/production/full-rewrite-2026/R46_SIMULATED_BOARD_HISTORICAL_SEASON_CHRONOLOGY_CONVERGENCE.md",
+      "living-novel/production/full-rewrite-2026/R47_BULLPEN_END_TO_END_GATE_EXECUTION_MASTER_PROMPT.md",
+      "living-novel/production/full-rewrite-2026/R49_FOUNDER_MULTIBOOK_NORTH_STAR_BOOK_ONE_EDITORIAL_DECISION.md",
+      "living-novel/production/full-rewrite-2026/R50_MULTIBOOK_SAGA_EXECUTION_BLUEPRINT.md",
+      "living-novel/production/full-rewrite-2026/R51_GITHUB_REUSE_RESEARCH_AND_BULLPEN_REVIEW.md",
+      "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json",
+      "living-novel/production/full-rewrite-2026/evidence/G01_2015_2026_DRAFT_HISTORY_PROVIDER_PICKS.json",
+      "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "living-novel/production/full-rewrite-2026/evidence/G01_2015_ROSTER_SLOTS_1_6_W1_W14.json",
+      "living-novel/production/full-rewrite-2026/evidence/G01_2015_ROSTER_SLOTS_7_12_W1_W14.json",
+      "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "living-novel/production/full-rewrite-2026/evidence/G01_2016_ROSTER_SLOTS_1_6_W1_W14.json",
+      "living-novel/production/full-rewrite-2026/evidence/G01_2016_ROSTER_SLOTS_7_12_W1_W14.json",
+      "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "living-novel/production/full-rewrite-2026/evidence/G01_2017_ROSTER_SLOTS_1_3.json",
+      "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "living-novel/production/full-rewrite-2026/evidence/G01_2019_FULL_WEEKLY_MATCHUPS.json",
+      "living-novel/production/full-rewrite-2026/evidence/G01_2020_FULL_WEEKLY_MATCHUPS.json",
+      "living-novel/production/full-rewrite-2026/evidence/G01_2021_FULL_WEEKLY_MATCHUPS.json",
+      "living-novel/production/full-rewrite-2026/evidence/G01_2021_ROSTER_SLOTS_7_12_W1_W14.json",
+      "living-novel/production/full-rewrite-2026/evidence/G01_DRAFT_BOARDS_2015_2020.json",
+      "living-novel/production/full-rewrite-2026/evidence/G01_DRAFT_BOARDS_2021_2026.json",
+      "living-novel/production/historical-saga/R53/BULLPEN_MASTER_EXECUTION_PROMPT.md",
+      "living-novel/production/historical-saga/R53/DUAL_LEAD_AUTHOR_ROOM_GOVERNANCE_V1.md",
+      "living-novel/production/historical-saga/R53/EVIDENCE_AND_ERA_REGISTER_V1.md",
+      "living-novel/production/historical-saga/R53/SOURCE_AND_HOLD_RECEIPT.md",
+      "living-novel/qa/STEP_1_HISTORICAL_ARCHAEOLOGY_GATE.md",
+      "living-novel/qa/STEP_2_MASTER_TIMELINE_GATE.md",
+      "living-novel/qa/STEP_7_PROLOGUE_GATE.md",
+      "living-novel/research/AI_ARCHIVIST_FIVE_PHASE_CONVERGENCE_2026_10_22.md",
+      "living-novel/research/DATA_GAPS_AND_LIMITS.md",
+      "living-novel/research/PHASE_A_ARCHAEOLOGY.md",
+      "living-novel/world/AUTHOR_ROOM_UNIVERSE_HYDRATION_STANDARD_V1.md",
+      "memo-os/WEEK_3_BULLPEN_PREPRODUCTION_WAR_ROOM_MASTER_PROMPT_V1.md",
+      "memo-os/WEEK_3_MEMO_PRODUCTION_BIBLE_V1.md",
+      "memo-os/cinematography/FRANK_MASI_UNIT_STILLS_REFERENCE_V1.md",
+      "memo-os/week-3/WEEK_3_OFFICIAL_PREPRODUCTION_PAGE_CHARACTER_LOCK_V2.md",
+      "memo-os/week-3/WEEK_3_OFFICIAL_PREPRODUCTION_PAGE_REGISTER_V2.md",
+      "memo-os/week-3/WEEK_3_SECOND_LAYER_REGISTER_V1.md",
+      "memo-os/week-5/PUBLICATION_PAGE_MANIFEST.json",
+      "memo-os/week-5/pages/P020-chins-slob-overture/PAGE_PACKET.md",
+      "memo-os/week-5/pages/P021-chins-slob-setup/PAGE_PACKET.md",
+      "memo-os/week-5/pages/P022-chins-slob-escalation/PAGE_PACKET.md",
+      "memo-os/week-5/pages/P023-chins-slob-payoff/PAGE_PACKET.md",
+      "memo-os/week-5/production-evidence/WEEK_5_CHARACTER_AND_TITLE_RENDER_GATES_2026-10-13.json",
+      "memo-os/week-5/production-evidence/WEEK_5_CHARACTER_SOURCE_ASSET_RECEIPTS_2026-10-13.json",
+      "memo-os/week-5/production-evidence/WEEK_5_ORDERED_PNG_PRODUCTION_SCRIPT_2026-10-13.md",
+      "planning/connected-commonwealth/PHASE_0_RECONCILIATION.md",
+      "schemas/canon-confidence.schema.json",
+      "schemas/domain-profile.schema.json",
+      "schemas/production-checkpoint.schema.json",
+      "schemas/visual-world-packet.schema.json",
+      "schemas/week4-readiness-gate.schema.json",
+      "schemas/world-location.schema.json",
+      "schemas/world-region.schema.json",
+      "world/history/2025/2025_RECOVERY_PASS_3_SOURCE_ACCESS.md",
+      "world/location-control-plane/schemas/homeland-card.schema.json"
+    ],
+    "method": "Baseline tracked text screened for historical years and owner/identity terms; inspected lineage, profiles, timeline, historical chronicle, canonical manuscript, R50/R53 development registers and supplemental images. Keyword screening is not exhaustive semantic proof. No blanket OCR of every binary or external repository archive. New mission evidence is a join aid, not independent corroboration. Network failure is not evidence of absence."
+  },
+  "references": {
+    "current": {
+      "path": "living-novel/history/OWNER_LINEAGE.md",
+      "line": 6,
+      "text": "## Verified 2026 owner → current franchise mapping",
+      "sha256": "788b4657b3e5d0553dc55f8248158e2e4400bc68c99aabdd649fb75d4830fb6b",
+      "authority": "CURRENT_BINDING",
+      "effective_year": 2026
+    },
+    "rule": {
+      "path": "living-novel/history/OWNER_LINEAGE.md",
+      "line": 31,
+      "text": "Literary dynasties, personal championship counts, inherited grudges, and owner-specific ancient history may only use verified human-owner continuity. Until then, slot-level historical facts remain attached to the slot/team name.",
+      "sha256": "788b4657b3e5d0553dc55f8248158e2e4400bc68c99aabdd649fb75d4830fb6b",
+      "authority": "BINDING_HISTORY_RULE",
+      "effective_year": "all"
+    },
+    "slot_caution": {
+      "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+      "line": 3,
+      "text": "Status: VERIFIED SLOT HISTORY; owner identity is NOT inferred from slot continuity.",
+      "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+      "authority": "SLOT_HISTORY_ONLY",
+      "effective_year": "2015-2025"
+    },
+    "jake": {
+      "path": "living-novel/characters/01_JAKE_KALOPER.md",
+      "line": 8,
+      "text": "Historical slot lineage: Scruffy Looking Nerf Herders → Obi-Wan Jacoby → Benedict Kenobi → ObiWan Jacoby.",
+      "sha256": "273a76b623360d3173f4ce14bef512bb01e883705c82ca23452d226bb71ecf7e",
+      "authority": "CHARACTER_PROFILE_EXPLICIT_SLOT_LINEAGE_NOT_PERSON_INTERVAL",
+      "effective_year": "undated historical lineage"
+    },
+    "kevin": {
+      "path": "living-novel/characters/02_KEVIN_ZEEK.md",
+      "line": 8,
+      "text": "Slot lineage becomes Red Leopards by 2018 and remains so through 2026.",
+      "sha256": "5eafd6ee2d3e72827887ddee19514a2918387f6ee3b51a8281c490992738a43e",
+      "authority": "CHARACTER_PROFILE_EXPLICIT_SLOT_LINEAGE_NOT_PERSON_INTERVAL",
+      "effective_year": "2018-2026 team-name continuity"
+    },
+    "david": {
+      "path": "living-novel/characters/04_DAVID_BABB.md",
+      "line": 8,
+      "text": "Slot lineage evolves through Bavid Dabbs / $20 Grahams / other names to B.A.B.B. LLC and The LLC.",
+      "sha256": "339944a4de64f4b9177f2c8523d93d39aa7fadfeb95175f0d41c640df33de0d8",
+      "authority": "CHARACTER_PROFILE_EXPLICIT_SLOT_LINEAGE_NOT_PERSON_INTERVAL",
+      "effective_year": "undated historical lineage"
+    },
+    "chronicle": {
+      "path": "living-novel/historical-chronicle/seasons/2015/SEASON_EVIDENCE.md",
+      "line": 12,
+      "text": "Important: Historical team *slots* do NOT independently certify personal owner identity. Exact season/week matchup ledger and locations are NOT established by this file. Historical transactions are not available from the current provider endpoint. No narrative should assert other regular-season results until sourced.",
+      "sha256": "e4becf2dde6f1807fc08602f668a2e68c792008585b255cd62ee26996c6afa4c",
+      "authority": "HISTORICAL_DRAFT_EVIDENCE_LIMIT",
+      "effective_year": 2015
+    },
+    "world": {
+      "path": "living-novel/canon/MASTER_TIMELINE.md",
+      "line": 121,
+      "text": "## 2015–2018 World Correspondence",
+      "sha256": "05775561f50b08bb97a782641a2cce9ea216f6b93bbb65b5e2b0d3223fb4898b",
+      "authority": "TIMELINE_RESERVED_WORLD_CORRESPONDENCE",
+      "effective_year": "2015-2018"
+    },
+    "fiction": {
+      "path": "living-novel/production/full-rewrite-2026/R50_MULTIBOOK_SAGA_EXECUTION_BLUEPRINT.md",
+      "line": 42,
+      "text": "**Historical-to-fantasy mapping:** construct two parallel ledgers: sports `season→team slot→verified owner if established` and fantasy `era→principal mythology/origin/encounter with source status`. A narrative legend may exist in an age lacking league owner proofs, but the narrator must not convert a legend into a real ownership statement.",
+      "sha256": "7f4b64a0aeba8c4728f33b9b8c72413d584556ebcdb089caa0e0a50e7f619640",
+      "authority": "DEVELOPMENT_CONTRACT_NOT_CANON_ACCEPTANCE",
+      "effective_year": "historical eras"
+    },
+    "continuation": {
+      "path": "living-novel/production/full-rewrite-2026/R50_MULTIBOOK_SAGA_EXECUTION_BLUEPRINT.md",
+      "line": 71,
+      "text": "**Sequence:** R50 source reconciliation (hours of effort, not a waiting deadline) → first 12-owner packet and Part I continuous prose → historical/world/character challenge → editorial revision → more books/prose in overlapping safe lanes → visual lock after correct reference bytes → complete manuscript and 12-path reader → independent review → approvals/merge/publication. Do **not** stop writing to await full historical identity restoration. Do **not** state that tests prove literary acceptance.",
+      "sha256": "7f4b64a0aeba8c4728f33b9b8c72413d584556ebcdb089caa0e0a50e7f619640",
+      "authority": "DEVELOPMENT_CONTRACT_CONTINUE_UNAFFECTED_PROSE",
+      "effective_year": "all"
+    }
+  },
+  "supplementary_images": [
+    {
+      "path": "canon/characters/assets/CHAR-BEN-WHIPPLE/supplementary/OWNER_SPOTLIGHT_2026.png",
+      "sha256": "862a52e2055a51c64dcd066a97b96f0237c94ea6f4bebac30919652f3eaffc1a",
+      "anchor": "Visible manager/name, career-stat panel; Jordan also shirt and trophy year text",
+      "authority": "SUPPLEMENTARY_OWNER_SPOTLIGHT_NOT_EXACT_OWNERSHIP_INTERVAL",
+      "effective_year": "2026 reception; career totals undated",
+      "review": "Viewed image; totals and current names provide leads, not dated owner-slot binding",
+      "conflict": null
+    },
+    {
+      "path": "canon/characters/assets/CHAR-BOBBY-MITCHELL/supplementary/OWNER_SPOTLIGHT_2026.png",
+      "sha256": "54d53d02b89070bb6dc7a29d1a1102808508597dc920b6b413bd591c9387e8fd",
+      "anchor": "Visible manager/name, career-stat panel; Jordan also shirt and trophy year text",
+      "authority": "SUPPLEMENTARY_OWNER_SPOTLIGHT_NOT_EXACT_OWNERSHIP_INTERVAL",
+      "effective_year": "2026 reception; career totals undated",
+      "review": "Viewed image; totals and current names provide leads, not dated owner-slot binding",
+      "conflict": null
+    },
+    {
+      "path": "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/OWNER_SPOTLIGHT_2026.png",
+      "sha256": "687fbdeb01982fe9c65b5c15a630d9782da7e6eb9a8a76043fe371a4f5ab6c3d",
+      "anchor": "Visible manager/name, career-stat panel; Jordan also shirt and trophy year text",
+      "authority": "SUPPLEMENTARY_OWNER_SPOTLIGHT_NOT_EXACT_OWNERSHIP_INTERVAL",
+      "effective_year": "2026 reception; career totals undated",
+      "review": "Viewed image; totals and current names provide leads, not dated owner-slot binding",
+      "conflict": null
+    },
+    {
+      "path": "canon/characters/assets/CHAR-DAVID-BABB/supplementary/OWNER_SPOTLIGHT_2026.png",
+      "sha256": "07fa82691adadadbe65939fb90e71a489b793652b82a6f98c9e732618cf92efd",
+      "anchor": "Visible manager/name, career-stat panel; Jordan also shirt and trophy year text",
+      "authority": "SUPPLEMENTARY_OWNER_SPOTLIGHT_NOT_EXACT_OWNERSHIP_INTERVAL",
+      "effective_year": "2026 reception; career totals undated",
+      "review": "Viewed image; totals and current names provide leads, not dated owner-slot binding",
+      "conflict": null
+    },
+    {
+      "path": "canon/characters/assets/CHAR-JAKE-KALOPER/supplementary/OWNER_SPOTLIGHT_2026.png",
+      "sha256": "35daa892e7b478ac7c6cf999ccb574127982e05b4a6ea251757156f7aaccb110",
+      "anchor": "Visible manager/name, career-stat panel; Jordan also shirt and trophy year text",
+      "authority": "SUPPLEMENTARY_OWNER_SPOTLIGHT_NOT_EXACT_OWNERSHIP_INTERVAL",
+      "effective_year": "2026 reception; career totals undated",
+      "review": "Viewed image; totals and current names provide leads, not dated owner-slot binding",
+      "conflict": null
+    },
+    {
+      "path": "canon/characters/assets/CHAR-JORDAN-HOLLINGSHEAD/supplementary/OWNER_SPOTLIGHT_2026.png",
+      "sha256": "ba58fd3249952e1fdf0704276dd0564f1b3e3bfc75fe181e969f3bfa3e342509",
+      "anchor": "Visible manager/name, career-stat panel; Jordan also shirt and trophy year text",
+      "authority": "SUPPLEMENTARY_OWNER_SPOTLIGHT_NOT_EXACT_OWNERSHIP_INTERVAL",
+      "effective_year": "2026 reception; career totals undated",
+      "review": "Viewed image; totals and current names provide leads, not dated owner-slot binding",
+      "conflict": "Shirt and trophy read CHAMPION/CHAMP 2017; verified 2017 winner slot12 versus current Jordan slot3. Do not infer transfer or silently correct image."
+    },
+    {
+      "path": "canon/characters/assets/CHAR-KEVIN-ZEEK/supplementary/OWNER_SPOTLIGHT_2026.png",
+      "sha256": "fc33bf8cdc99771d3dc4a4dc83e79cc933693e997967f54f146e7dd91a00e19f",
+      "anchor": "Visible manager/name, career-stat panel; Jordan also shirt and trophy year text",
+      "authority": "SUPPLEMENTARY_OWNER_SPOTLIGHT_NOT_EXACT_OWNERSHIP_INTERVAL",
+      "effective_year": "2026 reception; career totals undated",
+      "review": "Viewed image; totals and current names provide leads, not dated owner-slot binding",
+      "conflict": null
+    },
+    {
+      "path": "canon/characters/assets/CHAR-MANNING-WELTY/supplementary/OWNER_SPOTLIGHT_2026.png",
+      "sha256": "d02dc0a05388d72d44fdbc9f96dc420431314d5817a6dbf3f3f302c37354fa13",
+      "anchor": "Visible manager/name, career-stat panel; Jordan also shirt and trophy year text",
+      "authority": "SUPPLEMENTARY_OWNER_SPOTLIGHT_NOT_EXACT_OWNERSHIP_INTERVAL",
+      "effective_year": "2026 reception; career totals undated",
+      "review": "Viewed image; totals and current names provide leads, not dated owner-slot binding",
+      "conflict": null
+    },
+    {
+      "path": "canon/characters/assets/CHAR-ZACH-WILSON/supplementary/OWNER_SPOTLIGHT_2026.png",
+      "sha256": "77a13be59734d35a85e3f5a057e09339a14e7f1b05e1e561a35945a2c3622460",
+      "anchor": "Visible manager/name, career-stat panel; Jordan also shirt and trophy year text",
+      "authority": "SUPPLEMENTARY_OWNER_SPOTLIGHT_NOT_EXACT_OWNERSHIP_INTERVAL",
+      "effective_year": "2026 reception; career totals undated",
+      "review": "Viewed image; totals and current names provide leads, not dated owner-slot binding",
+      "conflict": null
+    }
+  ],
+  "rows": [
+    {
+      "season": 2015,
+      "slot": 1,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Scruffy Looking Nerf Herders "
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Jake Kaloper",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [
+        "jake"
+      ],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 9,
+        "text": "2015–2017 Scruffy Looking Nerf Herders → 2018–2022 Obi-Wan Jacoby → 2023 Benedict Kenobi → 2024–2025 ObiWan Jacoby.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2015,
+      "slot": 2,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Hook, Line, and Zeeker"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Kevin Zeek",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [
+        "kevin"
+      ],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 12,
+        "text": "2015–2017 Hook, Line, and Zeeker → 2018–2025 Red Leopards.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2015,
+      "slot": 3,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Kunt Liquors"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Jordan Hollingshead",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 15,
+        "text": "2015 Kunt Liquors → 2017 Johnny Chimpo → 2018 Le Tits Now → 2019 Please, Please, Please, please → 2020–2021 Jacktown Hollisquad → 2022 Small Dak Energy → 2023 The KING of the Octagon Village → 2024–2025 Slob on my Dobb.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2015,
+      "slot": 4,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Bavid Dabbs"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "David Babb",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [
+        "david"
+      ],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 19,
+        "text": "2015–2017 Bavid Dabbs → 2018 $20 Grahams → 2019 Mr. Kenyan Drake Killed Me → 2020 InDavey .500 → 2021 B.A.B.B. LLC → 2022–2025 The LLC.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2015,
+      "slot": 5,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Here, Ok I took L's"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Wilson Look",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 22,
+        "text": "2015–2016 Here, Ok I took L's → 2017 Johnny Do Hers → 2018–2020 Make Amarica Great Again → 2021 Dewars White Label → 2022 Dewar's Scotsmen → 2023 Benedict Coomhersnatch → 2024 Looks Don’t Lose → 2025 Baker Moore Purdy.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2015,
+      "slot": 6,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Pittsy's Rhino's"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Phillip Pitts",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 25,
+        "text": "2015–2016 Pittsy's Rhino's → 2017 Scrub Nation → 2018 J.T. Couch Round 2 → 2019 Weenie Hut Jr. → 2020 TacOdell Shits → 2021 Foolio Jones → 2022 0 0 → 2023 Two Dreaded Snake → 2024–2025 Three Dreaded Snake.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2015,
+      "slot": 7,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Cypress Gunslingers"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Brandon Pryor",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 28,
+        "text": "2015 Cypress Gunslingers → 2016–2017 The Gunslingers → 2018–2019 Gunslinger Nation → 2020 Cowboy Killerz → 2021 King of the Hill → 2022 DEEBOOO Country Roadsss → 2023–2024 The Blew Waffle's → 2025 The Chili Cheesers.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2015,
+      "slot": 8,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Austin's Hyena's"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Austin Byars",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 31,
+        "text": "2015–2017 Austin's Hyena's → 2018–2019 Kardiac Kids → 2020 The Grinch → 2021 The Third Coming → 2022 The Second Coming → 2023 Benedict Arnold → 2024 The King → 2025 The Immortal.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2015,
+      "slot": 9,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Calvin's Johnson"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Manning Welty",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 34,
+        "text": "2015 Calvin's Johnson → 2016–2017 All ACL Squad → 2018 It Ertz When I Pee → 2019 Sharkeil O'Neal → 2020–2021 Dos Gatos → 2022–2025 El Niño.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2015,
+      "slot": 10,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Team Hollingshead"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Bobby Mitchell",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 37,
+        "text": "2015–2016 Team Hollingshead → 2017 Jackson Prep Patriots → 2018 Highland Park Rushees → 2019–2022 Where Mahomies at? → 2023 Mixon it up for a week → 2024–2025 Mud Dogs.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2015,
+      "slot": 11,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "I'M HERE SO I WON'T GET FINED"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Ben Whipple",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 40,
+        "text": "2015–2017 I'M HERE SO I WON'T GET FINED → 2018 Schreck Chappell → 2019–2022 Kevin's Mom's House → 2023 Arm Chair GM → 2024–2025 Seven Deadly Chins.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2015,
+      "slot": 12,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Discount  Belichick"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Zach Wilson",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 43,
+        "text": "2015 Discount Belichick → 2016 The Real Austin's Hyenas → 2017 The Fournecators → 2018 Christopher Columbus → 2019 Convicts and Company → 2020 Guild of Dunces → 2021 The Disappointments → 2022 Javonte's InferNO Knee → 2023 Eggs Benedict → 2024–2025 Dr. Duckhook.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2016,
+      "slot": 1,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Scruffy Looking Nerf Herders "
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Jake Kaloper",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [
+        "jake"
+      ],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 9,
+        "text": "2015–2017 Scruffy Looking Nerf Herders → 2018–2022 Obi-Wan Jacoby → 2023 Benedict Kenobi → 2024–2025 ObiWan Jacoby.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2016,
+      "slot": 2,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Hook, Line, and Zeeker"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Kevin Zeek",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [
+        "kevin"
+      ],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 12,
+        "text": "2015–2017 Hook, Line, and Zeeker → 2018–2025 Red Leopards.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2016,
+      "slot": 3,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Kunt Liquors"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Jordan Hollingshead",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 15,
+        "text": "2015 Kunt Liquors → 2017 Johnny Chimpo → 2018 Le Tits Now → 2019 Please, Please, Please, please → 2020–2021 Jacktown Hollisquad → 2022 Small Dak Energy → 2023 The KING of the Octagon Village → 2024–2025 Slob on my Dobb.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2016,
+      "slot": 4,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Bavid Dabbs"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "David Babb",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [
+        "david"
+      ],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 19,
+        "text": "2015–2017 Bavid Dabbs → 2018 $20 Grahams → 2019 Mr. Kenyan Drake Killed Me → 2020 InDavey .500 → 2021 B.A.B.B. LLC → 2022–2025 The LLC.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2016,
+      "slot": 5,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Here, Ok I took L's"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Wilson Look",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 22,
+        "text": "2015–2016 Here, Ok I took L's → 2017 Johnny Do Hers → 2018–2020 Make Amarica Great Again → 2021 Dewars White Label → 2022 Dewar's Scotsmen → 2023 Benedict Coomhersnatch → 2024 Looks Don’t Lose → 2025 Baker Moore Purdy.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2016,
+      "slot": 6,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Pittsy's Rhino's"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Phillip Pitts",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 25,
+        "text": "2015–2016 Pittsy's Rhino's → 2017 Scrub Nation → 2018 J.T. Couch Round 2 → 2019 Weenie Hut Jr. → 2020 TacOdell Shits → 2021 Foolio Jones → 2022 0 0 → 2023 Two Dreaded Snake → 2024–2025 Three Dreaded Snake.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2016,
+      "slot": 7,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "The Gunslingers"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Brandon Pryor",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 28,
+        "text": "2015 Cypress Gunslingers → 2016–2017 The Gunslingers → 2018–2019 Gunslinger Nation → 2020 Cowboy Killerz → 2021 King of the Hill → 2022 DEEBOOO Country Roadsss → 2023–2024 The Blew Waffle's → 2025 The Chili Cheesers.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2016,
+      "slot": 8,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Austin's Hyena's"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Austin Byars",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 31,
+        "text": "2015–2017 Austin's Hyena's → 2018–2019 Kardiac Kids → 2020 The Grinch → 2021 The Third Coming → 2022 The Second Coming → 2023 Benedict Arnold → 2024 The King → 2025 The Immortal.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2016,
+      "slot": 9,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "All ACL Squad"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Manning Welty",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 34,
+        "text": "2015 Calvin's Johnson → 2016–2017 All ACL Squad → 2018 It Ertz When I Pee → 2019 Sharkeil O'Neal → 2020–2021 Dos Gatos → 2022–2025 El Niño.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2016,
+      "slot": 10,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Team Hollingshead"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Bobby Mitchell",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 37,
+        "text": "2015–2016 Team Hollingshead → 2017 Jackson Prep Patriots → 2018 Highland Park Rushees → 2019–2022 Where Mahomies at? → 2023 Mixon it up for a week → 2024–2025 Mud Dogs.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2016,
+      "slot": 11,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "I'M HERE SO I WON'T GET FINED"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Ben Whipple",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 40,
+        "text": "2015–2017 I'M HERE SO I WON'T GET FINED → 2018 Schreck Chappell → 2019–2022 Kevin's Mom's House → 2023 Arm Chair GM → 2024–2025 Seven Deadly Chins.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2016,
+      "slot": 12,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "The Real Austin's Hyenas"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Zach Wilson",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 43,
+        "text": "2015 Discount Belichick → 2016 The Real Austin's Hyenas → 2017 The Fournecators → 2018 Christopher Columbus → 2019 Convicts and Company → 2020 Guild of Dunces → 2021 The Disappointments → 2022 Javonte's InferNO Knee → 2023 Eggs Benedict → 2024–2025 Dr. Duckhook.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2017,
+      "slot": 1,
+      "fixture_team_labels_with_explicit_slot_id": [],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Jake Kaloper",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [
+        "jake"
+      ],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 9,
+        "text": "2015–2017 Scruffy Looking Nerf Herders → 2018–2022 Obi-Wan Jacoby → 2023 Benedict Kenobi → 2024–2025 ObiWan Jacoby.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2017,
+      "slot": 2,
+      "fixture_team_labels_with_explicit_slot_id": [],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Kevin Zeek",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [
+        "kevin"
+      ],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 12,
+        "text": "2015–2017 Hook, Line, and Zeeker → 2018–2025 Red Leopards.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2017,
+      "slot": 3,
+      "fixture_team_labels_with_explicit_slot_id": [],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Jordan Hollingshead",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 15,
+        "text": "2015 Kunt Liquors → 2017 Johnny Chimpo → 2018 Le Tits Now → 2019 Please, Please, Please, please → 2020–2021 Jacktown Hollisquad → 2022 Small Dak Energy → 2023 The KING of the Octagon Village → 2024–2025 Slob on my Dobb.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2017,
+      "slot": 4,
+      "fixture_team_labels_with_explicit_slot_id": [],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "David Babb",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [
+        "david"
+      ],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 19,
+        "text": "2015–2017 Bavid Dabbs → 2018 $20 Grahams → 2019 Mr. Kenyan Drake Killed Me → 2020 InDavey .500 → 2021 B.A.B.B. LLC → 2022–2025 The LLC.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2017,
+      "slot": 5,
+      "fixture_team_labels_with_explicit_slot_id": [],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Wilson Look",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 22,
+        "text": "2015–2016 Here, Ok I took L's → 2017 Johnny Do Hers → 2018–2020 Make Amarica Great Again → 2021 Dewars White Label → 2022 Dewar's Scotsmen → 2023 Benedict Coomhersnatch → 2024 Looks Don’t Lose → 2025 Baker Moore Purdy.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2017,
+      "slot": 6,
+      "fixture_team_labels_with_explicit_slot_id": [],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Phillip Pitts",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 25,
+        "text": "2015–2016 Pittsy's Rhino's → 2017 Scrub Nation → 2018 J.T. Couch Round 2 → 2019 Weenie Hut Jr. → 2020 TacOdell Shits → 2021 Foolio Jones → 2022 0 0 → 2023 Two Dreaded Snake → 2024–2025 Three Dreaded Snake.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2017,
+      "slot": 7,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "The Gunslingers"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Brandon Pryor",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 28,
+        "text": "2015 Cypress Gunslingers → 2016–2017 The Gunslingers → 2018–2019 Gunslinger Nation → 2020 Cowboy Killerz → 2021 King of the Hill → 2022 DEEBOOO Country Roadsss → 2023–2024 The Blew Waffle's → 2025 The Chili Cheesers.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2017,
+      "slot": 8,
+      "fixture_team_labels_with_explicit_slot_id": [],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Austin Byars",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 31,
+        "text": "2015–2017 Austin's Hyena's → 2018–2019 Kardiac Kids → 2020 The Grinch → 2021 The Third Coming → 2022 The Second Coming → 2023 Benedict Arnold → 2024 The King → 2025 The Immortal.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2017,
+      "slot": 9,
+      "fixture_team_labels_with_explicit_slot_id": [],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Manning Welty",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 34,
+        "text": "2015 Calvin's Johnson → 2016–2017 All ACL Squad → 2018 It Ertz When I Pee → 2019 Sharkeil O'Neal → 2020–2021 Dos Gatos → 2022–2025 El Niño.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2017,
+      "slot": 10,
+      "fixture_team_labels_with_explicit_slot_id": [],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Bobby Mitchell",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 37,
+        "text": "2015–2016 Team Hollingshead → 2017 Jackson Prep Patriots → 2018 Highland Park Rushees → 2019–2022 Where Mahomies at? → 2023 Mixon it up for a week → 2024–2025 Mud Dogs.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2017,
+      "slot": 11,
+      "fixture_team_labels_with_explicit_slot_id": [],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Ben Whipple",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 40,
+        "text": "2015–2017 I'M HERE SO I WON'T GET FINED → 2018 Schreck Chappell → 2019–2022 Kevin's Mom's House → 2023 Arm Chair GM → 2024–2025 Seven Deadly Chins.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2017,
+      "slot": 12,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "The  Fournecators "
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Zach Wilson",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 43,
+        "text": "2015 Discount Belichick → 2016 The Real Austin's Hyenas → 2017 The Fournecators → 2018 Christopher Columbus → 2019 Convicts and Company → 2020 Guild of Dunces → 2021 The Disappointments → 2022 Javonte's InferNO Knee → 2023 Eggs Benedict → 2024–2025 Dr. Duckhook.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2018,
+      "slot": 1,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Obi-Wan  Jacoby"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Jake Kaloper",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [
+        "jake"
+      ],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 9,
+        "text": "2015–2017 Scruffy Looking Nerf Herders → 2018–2022 Obi-Wan Jacoby → 2023 Benedict Kenobi → 2024–2025 ObiWan Jacoby.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2018,
+      "slot": 2,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Red Leopards"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Kevin Zeek",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [
+        "kevin"
+      ],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 12,
+        "text": "2015–2017 Hook, Line, and Zeeker → 2018–2025 Red Leopards.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2018,
+      "slot": 3,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Le Tits  Now"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Jordan Hollingshead",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 15,
+        "text": "2015 Kunt Liquors → 2017 Johnny Chimpo → 2018 Le Tits Now → 2019 Please, Please, Please, please → 2020–2021 Jacktown Hollisquad → 2022 Small Dak Energy → 2023 The KING of the Octagon Village → 2024–2025 Slob on my Dobb.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2018,
+      "slot": 4,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "$20 Grahams"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "David Babb",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [
+        "david"
+      ],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 19,
+        "text": "2015–2017 Bavid Dabbs → 2018 $20 Grahams → 2019 Mr. Kenyan Drake Killed Me → 2020 InDavey .500 → 2021 B.A.B.B. LLC → 2022–2025 The LLC.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2018,
+      "slot": 5,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Make Amarica Great Again"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Wilson Look",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 22,
+        "text": "2015–2016 Here, Ok I took L's → 2017 Johnny Do Hers → 2018–2020 Make Amarica Great Again → 2021 Dewars White Label → 2022 Dewar's Scotsmen → 2023 Benedict Coomhersnatch → 2024 Looks Don’t Lose → 2025 Baker Moore Purdy.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2018,
+      "slot": 6,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "J.T.  Couch Round 2"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Phillip Pitts",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 25,
+        "text": "2015–2016 Pittsy's Rhino's → 2017 Scrub Nation → 2018 J.T. Couch Round 2 → 2019 Weenie Hut Jr. → 2020 TacOdell Shits → 2021 Foolio Jones → 2022 0 0 → 2023 Two Dreaded Snake → 2024–2025 Three Dreaded Snake.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2018,
+      "slot": 7,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Gunslinger Nation"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Brandon Pryor",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 28,
+        "text": "2015 Cypress Gunslingers → 2016–2017 The Gunslingers → 2018–2019 Gunslinger Nation → 2020 Cowboy Killerz → 2021 King of the Hill → 2022 DEEBOOO Country Roadsss → 2023–2024 The Blew Waffle's → 2025 The Chili Cheesers.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2018,
+      "slot": 8,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Kardiac Kids"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Austin Byars",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 31,
+        "text": "2015–2017 Austin's Hyena's → 2018–2019 Kardiac Kids → 2020 The Grinch → 2021 The Third Coming → 2022 The Second Coming → 2023 Benedict Arnold → 2024 The King → 2025 The Immortal.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2018,
+      "slot": 9,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "It Ertz  When I Pee"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Manning Welty",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 34,
+        "text": "2015 Calvin's Johnson → 2016–2017 All ACL Squad → 2018 It Ertz When I Pee → 2019 Sharkeil O'Neal → 2020–2021 Dos Gatos → 2022–2025 El Niño.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2018,
+      "slot": 10,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Highland Park Rushees"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Bobby Mitchell",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 37,
+        "text": "2015–2016 Team Hollingshead → 2017 Jackson Prep Patriots → 2018 Highland Park Rushees → 2019–2022 Where Mahomies at? → 2023 Mixon it up for a week → 2024–2025 Mud Dogs.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2018,
+      "slot": 11,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Schreck Chappell"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Ben Whipple",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 40,
+        "text": "2015–2017 I'M HERE SO I WON'T GET FINED → 2018 Schreck Chappell → 2019–2022 Kevin's Mom's House → 2023 Arm Chair GM → 2024–2025 Seven Deadly Chins.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2018,
+      "slot": 12,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Christopher Columbus"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Zach Wilson",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 43,
+        "text": "2015 Discount Belichick → 2016 The Real Austin's Hyenas → 2017 The Fournecators → 2018 Christopher Columbus → 2019 Convicts and Company → 2020 Guild of Dunces → 2021 The Disappointments → 2022 Javonte's InferNO Knee → 2023 Eggs Benedict → 2024–2025 Dr. Duckhook.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2019,
+      "slot": 1,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Obi-Wan  Jacoby"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2019_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Jake Kaloper",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [
+        "jake"
+      ],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 9,
+        "text": "2015–2017 Scruffy Looking Nerf Herders → 2018–2022 Obi-Wan Jacoby → 2023 Benedict Kenobi → 2024–2025 ObiWan Jacoby.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2019,
+      "slot": 2,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Red Leopards"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2019_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Kevin Zeek",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [
+        "kevin"
+      ],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 12,
+        "text": "2015–2017 Hook, Line, and Zeeker → 2018–2025 Red Leopards.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2019,
+      "slot": 3,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Please, Please, Please, please "
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2019_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Jordan Hollingshead",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 15,
+        "text": "2015 Kunt Liquors → 2017 Johnny Chimpo → 2018 Le Tits Now → 2019 Please, Please, Please, please → 2020–2021 Jacktown Hollisquad → 2022 Small Dak Energy → 2023 The KING of the Octagon Village → 2024–2025 Slob on my Dobb.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2019,
+      "slot": 4,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Mr. Kenyan Drake Killed Me"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2019_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "David Babb",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [
+        "david"
+      ],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 19,
+        "text": "2015–2017 Bavid Dabbs → 2018 $20 Grahams → 2019 Mr. Kenyan Drake Killed Me → 2020 InDavey .500 → 2021 B.A.B.B. LLC → 2022–2025 The LLC.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2019,
+      "slot": 5,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Make Amarica Great Again"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2019_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Wilson Look",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 22,
+        "text": "2015–2016 Here, Ok I took L's → 2017 Johnny Do Hers → 2018–2020 Make Amarica Great Again → 2021 Dewars White Label → 2022 Dewar's Scotsmen → 2023 Benedict Coomhersnatch → 2024 Looks Don’t Lose → 2025 Baker Moore Purdy.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2019,
+      "slot": 6,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Weenie Hut Jr."
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2019_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Phillip Pitts",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 25,
+        "text": "2015–2016 Pittsy's Rhino's → 2017 Scrub Nation → 2018 J.T. Couch Round 2 → 2019 Weenie Hut Jr. → 2020 TacOdell Shits → 2021 Foolio Jones → 2022 0 0 → 2023 Two Dreaded Snake → 2024–2025 Three Dreaded Snake.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2019,
+      "slot": 7,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Gunslinger Nation"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2019_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Brandon Pryor",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 28,
+        "text": "2015 Cypress Gunslingers → 2016–2017 The Gunslingers → 2018–2019 Gunslinger Nation → 2020 Cowboy Killerz → 2021 King of the Hill → 2022 DEEBOOO Country Roadsss → 2023–2024 The Blew Waffle's → 2025 The Chili Cheesers.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2019,
+      "slot": 8,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Kardiac Kids"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2019_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Austin Byars",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 31,
+        "text": "2015–2017 Austin's Hyena's → 2018–2019 Kardiac Kids → 2020 The Grinch → 2021 The Third Coming → 2022 The Second Coming → 2023 Benedict Arnold → 2024 The King → 2025 The Immortal.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2019,
+      "slot": 9,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Sharkeil  O'Neal"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2019_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Manning Welty",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 34,
+        "text": "2015 Calvin's Johnson → 2016–2017 All ACL Squad → 2018 It Ertz When I Pee → 2019 Sharkeil O'Neal → 2020–2021 Dos Gatos → 2022–2025 El Niño.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2019,
+      "slot": 10,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Where Mahomies at? "
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2019_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Bobby Mitchell",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 37,
+        "text": "2015–2016 Team Hollingshead → 2017 Jackson Prep Patriots → 2018 Highland Park Rushees → 2019–2022 Where Mahomies at? → 2023 Mixon it up for a week → 2024–2025 Mud Dogs.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2019,
+      "slot": 11,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Kevin's Mom's House"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2019_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Ben Whipple",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 40,
+        "text": "2015–2017 I'M HERE SO I WON'T GET FINED → 2018 Schreck Chappell → 2019–2022 Kevin's Mom's House → 2023 Arm Chair GM → 2024–2025 Seven Deadly Chins.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2019,
+      "slot": 12,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Convicts and Company "
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2019_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Zach Wilson",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 43,
+        "text": "2015 Discount Belichick → 2016 The Real Austin's Hyenas → 2017 The Fournecators → 2018 Christopher Columbus → 2019 Convicts and Company → 2020 Guild of Dunces → 2021 The Disappointments → 2022 Javonte's InferNO Knee → 2023 Eggs Benedict → 2024–2025 Dr. Duckhook.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2020,
+      "slot": 1,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Obi-Wan  Jacoby"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2020_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Jake Kaloper",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [
+        "jake"
+      ],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 9,
+        "text": "2015–2017 Scruffy Looking Nerf Herders → 2018–2022 Obi-Wan Jacoby → 2023 Benedict Kenobi → 2024–2025 ObiWan Jacoby.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2020,
+      "slot": 2,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Red Leopards"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2020_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Kevin Zeek",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [
+        "kevin"
+      ],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 12,
+        "text": "2015–2017 Hook, Line, and Zeeker → 2018–2025 Red Leopards.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2020,
+      "slot": 3,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Jacktown Hollisquad"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2020_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Jordan Hollingshead",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 15,
+        "text": "2015 Kunt Liquors → 2017 Johnny Chimpo → 2018 Le Tits Now → 2019 Please, Please, Please, please → 2020–2021 Jacktown Hollisquad → 2022 Small Dak Energy → 2023 The KING of the Octagon Village → 2024–2025 Slob on my Dobb.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2020,
+      "slot": 4,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "InDavey .500"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2020_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "David Babb",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [
+        "david"
+      ],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 19,
+        "text": "2015–2017 Bavid Dabbs → 2018 $20 Grahams → 2019 Mr. Kenyan Drake Killed Me → 2020 InDavey .500 → 2021 B.A.B.B. LLC → 2022–2025 The LLC.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2020,
+      "slot": 5,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Make Amarica Great Again"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2020_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Wilson Look",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 22,
+        "text": "2015–2016 Here, Ok I took L's → 2017 Johnny Do Hers → 2018–2020 Make Amarica Great Again → 2021 Dewars White Label → 2022 Dewar's Scotsmen → 2023 Benedict Coomhersnatch → 2024 Looks Don’t Lose → 2025 Baker Moore Purdy.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2020,
+      "slot": 6,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "TacOdell Shits"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2020_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Phillip Pitts",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 25,
+        "text": "2015–2016 Pittsy's Rhino's → 2017 Scrub Nation → 2018 J.T. Couch Round 2 → 2019 Weenie Hut Jr. → 2020 TacOdell Shits → 2021 Foolio Jones → 2022 0 0 → 2023 Two Dreaded Snake → 2024–2025 Three Dreaded Snake.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2020,
+      "slot": 7,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Cowboy Killerz"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2020_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Brandon Pryor",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 28,
+        "text": "2015 Cypress Gunslingers → 2016–2017 The Gunslingers → 2018–2019 Gunslinger Nation → 2020 Cowboy Killerz → 2021 King of the Hill → 2022 DEEBOOO Country Roadsss → 2023–2024 The Blew Waffle's → 2025 The Chili Cheesers.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2020,
+      "slot": 8,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "The Grinch"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2020_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Austin Byars",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 31,
+        "text": "2015–2017 Austin's Hyena's → 2018–2019 Kardiac Kids → 2020 The Grinch → 2021 The Third Coming → 2022 The Second Coming → 2023 Benedict Arnold → 2024 The King → 2025 The Immortal.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2020,
+      "slot": 9,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Dos Gatos"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2020_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Manning Welty",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 34,
+        "text": "2015 Calvin's Johnson → 2016–2017 All ACL Squad → 2018 It Ertz When I Pee → 2019 Sharkeil O'Neal → 2020–2021 Dos Gatos → 2022–2025 El Niño.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2020,
+      "slot": 10,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Where Mahomies at? "
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2020_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Bobby Mitchell",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 37,
+        "text": "2015–2016 Team Hollingshead → 2017 Jackson Prep Patriots → 2018 Highland Park Rushees → 2019–2022 Where Mahomies at? → 2023 Mixon it up for a week → 2024–2025 Mud Dogs.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2020,
+      "slot": 11,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Kevin's Mom's House"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2020_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Ben Whipple",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 40,
+        "text": "2015–2017 I'M HERE SO I WON'T GET FINED → 2018 Schreck Chappell → 2019–2022 Kevin's Mom's House → 2023 Arm Chair GM → 2024–2025 Seven Deadly Chins.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2020,
+      "slot": 12,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Guild  of Dunces"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2020_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Zach Wilson",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 43,
+        "text": "2015 Discount Belichick → 2016 The Real Austin's Hyenas → 2017 The Fournecators → 2018 Christopher Columbus → 2019 Convicts and Company → 2020 Guild of Dunces → 2021 The Disappointments → 2022 Javonte's InferNO Knee → 2023 Eggs Benedict → 2024–2025 Dr. Duckhook.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2021,
+      "slot": 1,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Obi-Wan  Jacoby"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2021_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Jake Kaloper",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [
+        "jake"
+      ],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 9,
+        "text": "2015–2017 Scruffy Looking Nerf Herders → 2018–2022 Obi-Wan Jacoby → 2023 Benedict Kenobi → 2024–2025 ObiWan Jacoby.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2021,
+      "slot": 2,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Red Leopards"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2021_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Kevin Zeek",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [
+        "kevin"
+      ],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 12,
+        "text": "2015–2017 Hook, Line, and Zeeker → 2018–2025 Red Leopards.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2021,
+      "slot": 3,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Jacktown Hollisquad"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2021_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Jordan Hollingshead",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 15,
+        "text": "2015 Kunt Liquors → 2017 Johnny Chimpo → 2018 Le Tits Now → 2019 Please, Please, Please, please → 2020–2021 Jacktown Hollisquad → 2022 Small Dak Energy → 2023 The KING of the Octagon Village → 2024–2025 Slob on my Dobb.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2021,
+      "slot": 4,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "B.A.B.B.  LLC"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2021_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "David Babb",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [
+        "david"
+      ],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 19,
+        "text": "2015–2017 Bavid Dabbs → 2018 $20 Grahams → 2019 Mr. Kenyan Drake Killed Me → 2020 InDavey .500 → 2021 B.A.B.B. LLC → 2022–2025 The LLC.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2021,
+      "slot": 5,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Dewars White Label"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2021_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Wilson Look",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 22,
+        "text": "2015–2016 Here, Ok I took L's → 2017 Johnny Do Hers → 2018–2020 Make Amarica Great Again → 2021 Dewars White Label → 2022 Dewar's Scotsmen → 2023 Benedict Coomhersnatch → 2024 Looks Don’t Lose → 2025 Baker Moore Purdy.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2021,
+      "slot": 6,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Foolio Jones"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2021_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Phillip Pitts",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 25,
+        "text": "2015–2016 Pittsy's Rhino's → 2017 Scrub Nation → 2018 J.T. Couch Round 2 → 2019 Weenie Hut Jr. → 2020 TacOdell Shits → 2021 Foolio Jones → 2022 0 0 → 2023 Two Dreaded Snake → 2024–2025 Three Dreaded Snake.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2021,
+      "slot": 7,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "King of the Hill"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2021_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Brandon Pryor",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 28,
+        "text": "2015 Cypress Gunslingers → 2016–2017 The Gunslingers → 2018–2019 Gunslinger Nation → 2020 Cowboy Killerz → 2021 King of the Hill → 2022 DEEBOOO Country Roadsss → 2023–2024 The Blew Waffle's → 2025 The Chili Cheesers.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2021,
+      "slot": 8,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "The Third Coming"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2021_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Austin Byars",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 31,
+        "text": "2015–2017 Austin's Hyena's → 2018–2019 Kardiac Kids → 2020 The Grinch → 2021 The Third Coming → 2022 The Second Coming → 2023 Benedict Arnold → 2024 The King → 2025 The Immortal.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2021,
+      "slot": 9,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Dos Gatos"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2021_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Manning Welty",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 34,
+        "text": "2015 Calvin's Johnson → 2016–2017 All ACL Squad → 2018 It Ertz When I Pee → 2019 Sharkeil O'Neal → 2020–2021 Dos Gatos → 2022–2025 El Niño.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2021,
+      "slot": 10,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Where Mahomies at?"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2021_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Bobby Mitchell",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 37,
+        "text": "2015–2016 Team Hollingshead → 2017 Jackson Prep Patriots → 2018 Highland Park Rushees → 2019–2022 Where Mahomies at? → 2023 Mixon it up for a week → 2024–2025 Mud Dogs.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2021,
+      "slot": 11,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "Kevin's Mom's House"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2021_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Ben Whipple",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 40,
+        "text": "2015–2017 I'M HERE SO I WON'T GET FINED → 2018 Schreck Chappell → 2019–2022 Kevin's Mom's House → 2023 Arm Chair GM → 2024–2025 Seven Deadly Chins.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    },
+    {
+      "season": 2021,
+      "slot": 12,
+      "fixture_team_labels_with_explicit_slot_id": [
+        "The  Disappointments"
+      ],
+      "fixture_id_coverage_note": "2017 weekly source has missing IDs; empty array means no explicit ID join, not absent team. Slot lineage reference independently supplies documented name sequence.",
+      "historical_fixture_source": "living-novel/production/full-rewrite-2026/evidence/G01_2021_FULL_WEEKLY_MATCHUPS.json",
+      "current_person_lead": "Zach Wilson",
+      "current_person_binding_effective_year": 2026,
+      "historical_person_binding": "UNRESOLVED_NO_EXACT_YEAR_CORROBORATION_FOUND",
+      "historical_principal_participation_license": "NOT_ESTABLISHED",
+      "documentary_lead_refs": [],
+      "slot_lineage_ref": {
+        "path": "living-novel/history/TEAM_NAME_LINEAGE.md",
+        "line": 43,
+        "text": "2015 Discount Belichick → 2016 The Real Austin's Hyenas → 2017 The Fournecators → 2018 Christopher Columbus → 2019 Convicts and Company → 2020 Guild of Dunces → 2021 The Disappointments → 2022 Javonte's InferNO Knee → 2023 Eggs Benedict → 2024–2025 Dr. Duckhook.",
+        "sha256": "24573e98a59fba51c7baa8e94c8f4b63a9c7e2fe1e80c7a25f1315cc549ddc22",
+        "authority": "VERIFIED_SLOT_NAMES_NOT_HUMAN_OWNERSHIP",
+        "effective_year": "2015-2025"
+      },
+      "counterevidence_refs": [
+        "rule",
+        "slot_caution",
+        "chronicle"
+      ],
+      "resolution_needed": "Dated owner/slot evidence corroborating this year, or explicit accepted fantasy-era participation binding that does not assert real ownership."
+    }
+  ],
+  "findings": [
+    "Current owner/character bindings are supported for 2026; historical team names and slots are supported independently. Neither support exact 2015-2021 owner intervals alone.",
+    "Jake slot1 profile explicitly names the historical sequence but calls it slot lineage; Scruffy abbreviation, Jacoby name and current image are leads, not corroborated 2015 personal participation.",
+    "Kevin Red Leopards naming from 2018 and David Bavid Dabbs/B.A.B.B. sequence are stronger textual leads than no association, but still explicitly slot lineage.",
+    "Austin historical team name, Pittsy surname echo and Team Hollingshead are leads only; Team Hollingshead in slot10 must not be silently assigned to current slot3 Jordan or current slot10 Bobby.",
+    "Nine supplementary spotlights show career totals; undated aggregate statistics do not establish each year of management. Jordan image year conflict prevents blanket reliance on poster continuity.",
+    "Existing 2015/2016 drafts retain useful slot-bound prose and evidence, but their draft status and explicit cautions do not authenticate principal historical ownership.",
+    "R50 permits proposed fantasy deep history separated from sports attribution. It does not establish exact 2015 scene knowledge, anatomy, location or owner participation."
+  ],
+  "earliest_safe_scene": {
+    "within_2015_2021": "No corroborated exact-year principal-as-contest-owner scene license found in audited evidence. This is unresolved, not proven absence.",
+    "unaffected": "A 2026 canonical owner can encounter a correctly labeled 2015 team/slot record without claiming to have owned or personally witnessed it; original proposed deep history may be developed with a separate fictional-era packet and no factual-owner inference. This does not count as completed chronological 2015 principal participation.",
+    "first_historical_source": "2015 W1 paired contests are recoverable; preserve historical labels and results. Historical human attribution remains separately held."
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261029-2023-CHRONICLE-W12",
+  "project": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "stage": "2023_WEEK_12_SUBSTANTIAL_NONCANON_MANUSCRIPT_AND_TEST_CONTRACT",
+  "input": {
+    "schemin_main": "1c77ae21ef34bf325b93fe0964d4b7ccd6e9e32d",
+    "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "previous_head_after_w11": "9c4d263ba2d75077587a55f3d92e4744b6be6029",
+    "archive_blob_sha": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
+    "W11_story_sha": "2aca8a3f578ba5e73451ea648488c4711979558a",
+    "W11_observed_ci": {
+      "Novel_OS_CI": 40903403735,
+      "Cross_Domain_Authority": 40903403744,
+      "Bullpen_Runtime": 40903403947,
+      "Repository_Merge_Gate": 40903403736,
+      "conclusions": "ALL_SUCCESS_EXACT_9c4d263b"
+    }
+  },
+  "literary": {
+    "title": "The House That Could Not Be Locked",
+    "manuscript": "living-novel/historical-chronicle/seasons/2023/weeks/W12.md",
+    "git_blob_sha": "4b2d1c9b4abb08f043d8ff9aecf56c0ab82ce418",
+    "words_including_metadata": 5598,
+    "scenes": 6,
+    "pov": [
+      "CHAR-JAKE-KALOPER"
+    ],
+    "status": "NONCANON_HISTORICAL_ATLAS_HOLD"
+  },
+  "coverage": {
+    "regular_season_weeks_drafted": 12,
+    "fixtures_with_dramatic_prose": 72,
+    "total_regular_season_fixtures": 84,
+    "remaining_fixtures": 12,
+    "postseason": "NOT_DRAFTED"
+  },
+  "code": {
+    "qa": "living-novel/historical-chronicle/seasons/2023/weeks/W12_SOURCE_QA_RECEIPT.md",
+    "regression": "living-novel/historical-chronicle/qa/test_2023_twelfth_week.py",
+    "continuity": "living-novel/historical-chronicle/seasons/2023/CONTINUITY.json",
+    "workflow": ".github/workflows/novel-os-ci.yml",
+    "compatibility_tests": "W03-W11"
+  },
+  "status": {
+    "GitHub_CI": "SUCCESS_AT_OBSERVED_TESTED_HEAD_e64bba07",
+    "independent_review": "NONE",
+    "Atlas": "UNAPPROVED",
+    "umpire": "NOT_ACCEPTED",
+    "founder": "NOT_APPROVED",
+    "merge": "HOLD",
+    "publication": "HOLD",
+    "authenticated_Bullpen_directors": "NOT_OBSERVED",
+    "workflow_runs": {
+      "novel_os_ci": 40904717497,
+      "cross_domain_authority": 40904717118,
+      "bullpen_runtime": 40904716833,
+      "repository_merge_gate": 40904717456
+    },
+    "technical_negative_case": "First W12 test head c35221a3 failed assertion wording only (CI #40904551531); corrected in e64bba07, all 14 cases passed with named W12 step success.",
+    "caveat": "Exact-code CI evidence applies to e64bba07; metadata-only follow-up commit must be separately checked. Independent Authors Council, Atlas, Umpire, Founder approval not observed."
+  },
+  "next": [
+    "Read final PR #243 exact head and four GitHub workflows; inspect named Week 12 step, repair any observed test failure.",
+    "Record verified exact-head CI receipt and seek genuine independent Authors Council/Atlas/Umpire challenge.",
+    "Continue Week 13's six source-pinned fixtures, sustain no future-score knowledge, preserve protected original 2026 hard canon and W01–W12 texts."
+  ]
+}

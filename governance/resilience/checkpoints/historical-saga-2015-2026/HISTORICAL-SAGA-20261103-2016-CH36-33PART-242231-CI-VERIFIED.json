@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-03",
+  "workstream": "COMMONWEALTH_HISTORICAL_SAGA_2016",
+  "status": "NONCANON_INDEPENDENT_EDITORIAL_HOLD",
+  "exact_tested_commit": "cd6714daf1698980080ccc548c096b90d2acb1be",
+  "production_commit": "663f9f593ec8e4a6017c4d793296c3d1a94ef7fe",
+  "new_scene_commit": "c40fa756fdfa780aa74177fe06af09fd7c435f9e",
+  "draft_pr": 243,
+  "manuscript": {
+    "new_scene": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_WHOLE_OF_FOURTEEN_CH36_INTERLUDE_V2_NONCANON.md",
+    "new_scene_fiction_words": 2291,
+    "interlude_including_heading_words": 2298,
+    "revised_chapter": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_ASH_AT_FARAS_DOOR_THE_WHOLE_OF_FOURTEEN_CH36_V2_NONCANON.md",
+    "revised_chapter_git_blob": "d4bb254766ba03e49c45d0f42e66c9d2208a4595",
+    "revised_chapter_source_words": 8992,
+    "reader": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_2016_CAUSAL_CH01_36_THIRTY_THREE_PARTS_WHOLE_OF_FOURTEEN_NONCANON.md",
+    "reader_git_blob": "d3aaf9f6577934a4d360ededcc2426509fb2c6e3",
+    "reader_parts": 33,
+    "reader_source_component_words": 242231,
+    "previous_parts_preserved": 32,
+    "previous_reader_git_blob": "e0206b6d92f4f65d87b332a79c8e66165668e0e1",
+    "original_chapter_36_blob": "7a893b228e9c0bf21504c837b216763080ec6e09",
+    "archival_2016_evidence_blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518"
+  },
+  "tests": {
+    "name": "test_2016_causal_chapter_thirty_six_fourteen_reader.py",
+    "new_case_count": 19,
+    "observed_passed": 19,
+    "observed_total": 19,
+    "observed_job_id": 126308600834,
+    "observation": "Dedicated GitHub Actions step Ran 19 tests in 0.094s; OK; complete Novel OS workflow succeeded",
+    "observed_prior_failure": "First CI run 41748743478 failed exactly one case-sensitive annotation assertion within 1517 discovered tests; replaced case-sensitive comparison with case-insensitive assertion in test only, manuscript unchanged."
+  },
+  "workflows": [
+    {
+      "name": "Novel OS CI",
+      "run_id": 41748851716,
+      "result": "success"
+    },
+    {
+      "name": "Cross-Domain Authority CI",
+      "run_id": 41748851714,
+      "result": "success"
+    },
+    {
+      "name": "Bullpen Runtime CI",
+      "run_id": 41748851695,
+      "result": "success"
+    },
+    {
+      "name": "Repository Merge Gate",
+      "run_id": 41748851698,
+      "result": "success"
+    }
+  ],
+  "protected": {
+    "manuscript_main_equal_branch": true,
+    "prologue_blob": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+    "ch1_blob": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+    "ch2_blob": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+    "ch3_blob": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+  },
+  "continuity": {
+    "chapter_36_night": "14 travelers: 9 sleep in Fara's room, 4 at Ina's, 1 under sheltered eave; Jake sleeps separately in kitchen corner; no subgroup leaves at night.",
+    "next_chapter": "The Company That Came Apart, Chapter XXXVII",
+    "next_original_blob": "92aba7618d9d7a5ba88758be48084ded30eca4ba",
+    "post_ch36": "Split of travelers 8 depart / 6 remain occurs only during Chapter XXXVII; Fara cuts damaged inherited canvas; departure safe arrival not verified; Jake later paid four outside-yard hours, not within Chapter XXXVI.",
+    "unknowns": [
+      "2016 historical scoring-account/owner binding",
+      "ashfire origin and approved period geography",
+      "Hessa's sister and the escaped bird",
+      "Mael, second horse, freight, recovered cart and carrier liability",
+      "kiln safety/reopening and mare recovery",
+      "Mev-to-Esi letter receipt",
+      "Jake's older shelter debts"
+    ]
+  },
+  "review": {
+    "request_pr_comment_id": 6619337842,
+    "authors_council": "NOT_RECEIVED",
+    "historical_librarian": "NOT_RECEIVED",
+    "period_character_canon": "NOT_RECEIVED",
+    "period_atlas": "NOT_RECEIVED",
+    "umpire": "NOT_RECEIVED",
+    "founder_canon_publication": "NOT_AUTHORIZED",
+    "editorial_risks": [
+      "scene length/over-explanation",
+      "repeated shelter/economic narrative motifs",
+      "14-person staging/courtyard capacity",
+      "invented route/customs",
+      "supporting-character autonomy and lack of other principal POVs"
+    ]
+  },
+  "next": "Chapter XXXVII V2: carefully examine existing six-movement source, potentially deepen Fara/Hessa split with fresh fiction without repetitive accounts, preserve verified chapter 36 V2 and prior 33 parts exactly, assemble 34-part reader, add regression tests/CI, request independent editorial and Umpire review.",
+  "caveat": "The CI evidence is for exact_tested_commit. A subsequent checkpoint-only commit, if any, is not represented as independently tested or accepted. This artifact is noncanonical and must not merge or publish without Founder-only and independent gates."
+}

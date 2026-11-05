@@ -1,0 +1,127 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261102-WILSON-TWO-ELEVEN-PART-READERS-EDITORIAL-HOLD",
+  "date_utc": "2026-11-02",
+  "mission": "BULLPEN_PERMANENT_EXECUTIVE_MANDATE_COMMONWEALTH_NOVEL",
+  "status": "P0_SOURCE_SAFE_ALTERNATE_ASSEMBLED_TESTED_P1_COMPARATIVE_QA_P2_MANUSCRIPT_ASSEMBLED_P3_IDENTITY_HOLD_P4_REASSIGNMENT_HOLD",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "observed_pr_state": "OPEN_DRAFT",
+  "observed_base_sha": "8fcb77191955f413fe970154d47632770f923055",
+  "previous_branch_head": "29471c27297aa9332f70ea89686a42c47bb48839",
+  "source_authority": {
+    "matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md@67fcd669dc7b43393f2d15e93545301961dd81e4",
+    "project_control": "PROJECT_CONTROL_REGISTRY.md@23bb20df8a4fbcd0805e84df749bdd231f38ee83",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json@5e72e48f3c305e6def1051e0b18883a7be6b6af0",
+    "bullpen_command": "jakekaloper-hub/bullpen:docs/COMMAND_SYSTEM_V2.md@cccf90a3cadac802767988ceab8f44453aa86819",
+    "bullpen_runtime": "jakekaloper-hub/bullpen:runtime/lifecycleEngine.js@710caca4e4a01c934bdc53f22229acced48a2d78",
+    "issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "prs": [
+      188,
+      243,
+      252,
+      261,
+      264
+    ],
+    "prior_checkpoint": "living-novel/historical-chronicle/seasons/2025/causal-novel/P0_P4_DEVELOPMENTAL_INTEGRATION_AND_2016_POV_AUDIT_2026_11_02.md"
+  },
+  "artifacts": {
+    "candidate_B_integrated": {
+      "path": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_ROAD_NO_BANNER_COULD_OWN_TWO_TRUE_DISPATCHES_WILSON_2025_INTEGRATED_NONCANON.md",
+      "blob_sha": "57b767cf2d417895db070c24fa7da07892629f62",
+      "source_words_including_metadata": 8002,
+      "movements": 9,
+      "single_loaded_wagon_passed": true,
+      "second_loaded_wagon_held": true,
+      "one_company_departure": true
+    },
+    "candidate_B_reader": {
+      "path": "living-novel/historical-chronicle/seasons/2025/causal-novel/READING_COPY_2025_TWELVE_VOICES_ELEVEN_PARTS_WILSON_CONSOLIDATED_NONCANON.md",
+      "blob_sha": "5e1679d01c16742bc222d8bafc23cde6a73582d4",
+      "source_words_including_metadata": 61408,
+      "parts": 11,
+      "principal_pov_identities": 12,
+      "unchanged_sources_reverified": 10
+    },
+    "candidate_A_prior": {
+      "chapter_path": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_ROAD_THAT_SPOKE_IN_TWO_VOICES_WILSON_2025_INTEGRATED_NONCANON.md",
+      "chapter_blob_sha": "bdaac1446d87c9ce0e738f6f9bbd632397152251",
+      "source_words_including_metadata": 10333,
+      "reader_path": "living-novel/historical-chronicle/seasons/2025/causal-novel/READING_COPY_2025_TWELVE_VOICES_ELEVEN_PARTS_INTEGRATED_WILSON_NONCANON.md",
+      "reader_blob_sha": "22f438a91aba72f391ae4ec7be5cae3c375230ce",
+      "total_source_words_including_metadata": 63738
+    },
+    "candidate_comparison": "living-novel/historical-chronicle/seasons/2025/causal-novel/DEVELOPMENTAL_QA_WILSON_CONSOLIDATION_ALTERNATES_2026-11-02.md",
+    "candidate_comparison_blob": "7a915b02cb1a5985ad0cd9dbd6c6a0169a86e30b",
+    "test_path": "living-novel/historical-chronicle/qa/test_2025_wilson_consolidation_variant.py",
+    "workflow_path": ".github/workflows/novel-os-ci.yml",
+    "new_test_ci_commit": "66915563d6dab1ba377aef357f8fc6e464656cd1",
+    "new_test_count": 13
+  },
+  "technical_verification": {
+    "sources": "Ten retained chapter files re-fetched through authenticated GitHub and compared to assembled wraps; new chapter and reader read back byte-exact; no 2025 source files overwritten.",
+    "protected_main_to_branch": {
+      "living-novel/manuscript/PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+    },
+    "at_exact_test_commit": {
+      "Novel OS CI": {
+        "run_id": 41520567754,
+        "conclusion": "SUCCESS",
+        "step": "new alternate 2025 Wilson suite: 13 tests PASS in job logs"
+      },
+      "Cross-Domain Authority CI": {
+        "run_id": 41520567545,
+        "conclusion": "SUCCESS"
+      },
+      "Repository Merge Gate": {
+        "run_id": 41520567546,
+        "conclusion": "SUCCESS"
+      },
+      "Bullpen Runtime CI": {
+        "run_id": 41520567763,
+        "conclusion": "IN_PROGRESS_AT_LAST_CHECK"
+      }
+    },
+    "note": "Later documentation/checkpoint-only commits require separate exact-commit CI verification before claims of final all-green."
+  },
+  "historical_2016": {
+    "league_id": "1417621",
+    "evidence": "Authenticated Flaim get_league_info 2016 and 2025 read this run, plus prior 2016 slot/final outcome audit.",
+    "teams_in_2016": 12,
+    "distinct_duplicate_named_slots": [
+      8,
+      12
+    ],
+    "owner_name_manager_account_fields_returned": "NONE_USABLE",
+    "pov_issue": "72 Jake-limited chapters; historical team names cannot license new named-owner POV",
+    "action": "Do not reassign; continue Jake-source-safe pacing work and seek actual period manager-account evidence."
+  },
+  "review": {
+    "independent_submitted_reviews": 0,
+    "authors_council": "NOT_VERIFIED",
+    "character_canon": "HOLD",
+    "period_atlas": "HOLD",
+    "independent_umpire": "HOLD",
+    "founder_only_canon_and_publication": "HOLD"
+  },
+  "next": {
+    "priority_0": "Select one noncanonical editorial base after comparative critique; prefer candidate A's dramatized driver loss but consider B's chronology and tighter transitions. Avoid third parallel candidate without decision.",
+    "priority_1": "Resolve 2016 identity using owner-account evidence; in its absence, edit pacing within authorized Jake-limited material without speculative POV changes.",
+    "priority_2": "Request actual independent literary/character/atlas/umpire review; do not count an author-side comment as acceptance.",
+    "prohibited": [
+      "merge",
+      "canon promotion",
+      "publish",
+      "invent ESPN data",
+      "change protected Prologue or Chapters I-III"
+    ]
+  }
+}
