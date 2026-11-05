@@ -1,0 +1,401 @@
+{
+  "schema": "schemin26.week8_9_comparison.v1",
+  "run_id": "S26-MEMO-W08FINAL-W09-20261105",
+  "trace_id": "TRACE-S26-MEMO-20261105-1417621",
+  "source": "Flaim mTransactions2 same-source row-level comparison",
+  "prior_path": "memo-os/week-9/WEEK_8_FINAL_WEEK_9_PROVIDER_EVIDENCE_2026-11-04.json",
+  "week8": {
+    "previous": 32,
+    "current": 32,
+    "added": [],
+    "removed": [],
+    "modified": [],
+    "unchanged": 32,
+    "status_distribution": {
+      "complete": 28,
+      "unknown": 1,
+      "pending": 1,
+      "failed": 1,
+      "canceled": 1
+    },
+    "limitations": {
+      "structured_details_incomplete": true
+    },
+    "source": "mTransactions2"
+  },
+  "week9": {
+    "previous": 16,
+    "current": 28,
+    "added": [
+      {
+        "transaction_id": "70775d60-464f-4abe-ad1d-c9b59fd3dccc",
+        "type": "trade",
+        "status": "unknown",
+        "timestamp": 1793887490496,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-05",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "5"
+        ],
+        "players_added": [],
+        "players_dropped": [],
+        "faab_bid": 0,
+        "trade_details_unavailable": true
+      },
+      {
+        "transaction_id": "d221a637-23fd-4215-a7da-efdb7727c5d0",
+        "type": "trade_uphold",
+        "status": "complete",
+        "timestamp": 1793841202675,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "12"
+        ],
+        "players_added": [],
+        "players_dropped": [],
+        "faab_bid": 0,
+        "trade_details_unavailable": true
+      },
+      {
+        "transaction_id": "c7dafd65-fd12-4bd3-8141-f0a9b9eb92e8",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793833201643,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "6"
+        ],
+        "players_added": [
+          {
+            "id": "4241555",
+            "name": "Elijah Mitchell",
+            "position": "RB",
+            "team": "PHI"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "3128429",
+            "name": "Courtland Sutton",
+            "position": "WR",
+            "team": "DEN"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "b7a6fafe-5fa3-458d-8f5c-e0fc64868106",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793829422928,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "12"
+        ],
+        "players_added": [
+          {
+            "id": "-16027",
+            "name": "Buccaneers D/ST",
+            "position": "D/ST",
+            "team": "TB"
+          }
+        ],
+        "players_dropped": [],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "41a643ea-d34f-46ee-813b-97cc33488820",
+        "type": "drop",
+        "status": "complete",
+        "timestamp": 1793829358893,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "12"
+        ],
+        "players_added": [],
+        "players_dropped": [
+          {
+            "id": "4367209",
+            "name": "Greg Dulcich",
+            "position": "TE",
+            "team": "MIA"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "4c0331e8-eb33-4219-a16d-3438627837b6",
+        "type": "trade",
+        "status": "unknown",
+        "timestamp": 1793828401965,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "6"
+        ],
+        "players_added": [],
+        "players_dropped": [],
+        "faab_bid": 0,
+        "trade_details_unavailable": true
+      },
+      {
+        "transaction_id": "ede85d9a-7e08-4967-9867-6c9f7923dfac",
+        "type": "trade_proposal",
+        "status": "canceled",
+        "timestamp": 1793820870871,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "8",
+          "12"
+        ],
+        "players_added": [],
+        "players_dropped": [],
+        "trade_sides": [
+          {
+            "team_id": "8",
+            "acquired": [
+              {
+                "id": "4373678",
+                "name": "Khalil Shakir",
+                "position": "WR",
+                "team": "BUF"
+              }
+            ],
+            "gave_up": [
+              {
+                "id": "4430539",
+                "name": "Brenton Strange",
+                "position": "TE",
+                "team": "JAX"
+              }
+            ]
+          },
+          {
+            "team_id": "12",
+            "acquired": [
+              {
+                "id": "4430539",
+                "name": "Brenton Strange",
+                "position": "TE",
+                "team": "JAX"
+              }
+            ],
+            "gave_up": [
+              {
+                "id": "4373678",
+                "name": "Khalil Shakir",
+                "position": "WR",
+                "team": "BUF"
+              }
+            ]
+          }
+        ],
+        "proposed_by_team_id": "12",
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "3fffa8a3-b610-4116-89a3-9503e3d6034d",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793811399214,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "5"
+        ],
+        "players_added": [
+          {
+            "id": "4361409",
+            "name": "Jahan Dotson",
+            "position": "WR",
+            "team": "ATL"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4428557",
+            "name": "Tyjae Spears",
+            "position": "RB",
+            "team": "TEN"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "5b5e54f1-e1a1-46de-bb0e-f0c8d2ff7661",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793811370069,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "5"
+        ],
+        "players_added": [
+          {
+            "id": "4686422",
+            "name": "Xavier Hutchinson",
+            "position": "WR",
+            "team": "HOU"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4361529",
+            "name": "Isiah Pacheco",
+            "position": "RB",
+            "team": "DET"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "8868b268-3a0d-4869-921e-2d71861bd90b",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793808880039,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "3"
+        ],
+        "players_added": [
+          {
+            "id": "4360438",
+            "name": "Brandon Aiyuk",
+            "position": "WR",
+            "team": "SF"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "2573401",
+            "name": "Tyler Higbee",
+            "position": "TE",
+            "team": "LAR"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "e7302573-0ef9-4241-ae4b-1a598e41e910",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793803546083,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "3"
+        ],
+        "players_added": [
+          {
+            "id": "4040761",
+            "name": "Devin Singletary",
+            "position": "RB",
+            "team": "NYG"
+          }
+        ],
+        "players_dropped": [],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "c44b6719-3889-425f-befd-47847fe1f354",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793803511744,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "3"
+        ],
+        "players_added": [
+          {
+            "id": "-16002",
+            "name": "Bills D/ST",
+            "position": "D/ST",
+            "team": "BUF"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "-16028",
+            "name": "Commanders D/ST",
+            "position": "D/ST",
+            "team": "WSH"
+          }
+        ],
+        "faab_bid": 0
+      }
+    ],
+    "removed": [],
+    "modified": [],
+    "unchanged": 16,
+    "status_distribution": {
+      "unknown": 2,
+      "complete": 20,
+      "canceled": 3,
+      "pending": 3
+    },
+    "limitations": {
+      "structured_details_incomplete": true
+    },
+    "source": "mTransactions2"
+  },
+  "matchups": {
+    "week8_gateway_matches": 6,
+    "week9_gateway_matches": 6
+  },
+  "checks": {
+    "gateway_manifest_identity": true,
+    "gateway_manifest_match": true,
+    "gateway_stale_false_at_capture": true,
+    "week8_six": true,
+    "week8_12_unique": true,
+    "week8_gateway_6of6": true,
+    "week9_six": true,
+    "week9_12_unique": true,
+    "week9_gateway_6of6": true,
+    "week8_final": true,
+    "week9_unsettled": true,
+    "standings_12": true,
+    "standings_gateway_12of12": true,
+    "week8_transaction_source_comparable": true,
+    "week8_transaction_cap": true,
+    "week8_timestamps_valid": true,
+    "week8_row_reconciliation": true,
+    "week9_transaction_source_comparable": true,
+    "week9_transaction_cap": true,
+    "week9_timestamps_valid": true,
+    "week9_row_reconciliation": true
+  },
+  "failed_checks": []
+}
