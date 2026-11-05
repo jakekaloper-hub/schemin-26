@@ -1,0 +1,2442 @@
+{
+  "schema": "schemin26.provider_normalized_intake.v1",
+  "run_id": "S26-MEMO-W08FINAL-W09-20261105",
+  "trace_id": "TRACE-S26-MEMO-20261105-1417621",
+  "artifact_version": 1,
+  "work_key": "league=1417621/season=2026/week8final-week9/2026-11-05/gateway=cd336ee4879a37b410fc48ca3c9639712b13408e/previous=league=1417621/2026/w8final-w9/2026-11-04/gateway=8bf47d514f7d711c86de9259cc98caf253d535a7/adapter=flaim_espn/w9tx=28",
+  "observation_date": "2026-11-05",
+  "observed_at_utc": "2026-11-05T14:08:20.191Z",
+  "league_id": "1417621",
+  "season": 2026,
+  "source": "Authenticated ESPN via Flaim Fantasy",
+  "source_layer": "provider_normalized_not_original_HTTP_wire",
+  "direct_espn_gateway_reference": {
+    "branch": "data/live",
+    "parsed_payload_path": "data/snapshots/1417621/latest.json",
+    "parsed_payload_blob_sha": "cd336ee4879a37b410fc48ca3c9639712b13408e",
+    "manifest_path": "data/snapshots/1417621/manifest.json",
+    "manifest_blob_sha": "00aca3d47a343d0c2e0015b6fc1dde1d89f18ab0",
+    "captured_at_utc": "2026-11-05T07:13:03.327845+00:00",
+    "source": "espn-lm-api-reads",
+    "stale_at_capture": false,
+    "native_HTTP_response_bytes_and_headers_confirmed": false,
+    "gateway_capture_precedes_flaim_observation": true
+  },
+  "week8_matchups": {
+    "leagueId": "1417621",
+    "seasonYear": 2026,
+    "currentScoringPeriod": 8,
+    "matchupPeriod": 8,
+    "matchups": [
+      {
+        "matchupPeriodId": 8,
+        "home": {
+          "teamId": 10,
+          "teamName": "Mud Dogs",
+          "totalPoints": 100.88,
+          "currentPoints": 100.88,
+          "totalProjectedPoints": 130.34005286,
+          "pointsByScoringPeriod": {
+            "8": 100.88
+          }
+        },
+        "away": {
+          "teamId": 12,
+          "teamName": "Dr. Duckhook",
+          "totalPoints": 174.06,
+          "currentPoints": 174.06,
+          "totalProjectedPoints": 156.10203456,
+          "pointsByScoringPeriod": {
+            "8": 174.06
+          }
+        },
+        "winner": "AWAY",
+        "playoffTierType": "NONE"
+      },
+      {
+        "matchupPeriodId": 8,
+        "home": {
+          "teamId": 1,
+          "teamName": "ObiWan Jacoby",
+          "totalPoints": 142.3,
+          "currentPoints": 142.3,
+          "totalProjectedPoints": 155.11768084,
+          "pointsByScoringPeriod": {
+            "8": 142.3
+          }
+        },
+        "away": {
+          "teamId": 9,
+          "teamName": "El Niño",
+          "totalPoints": 164.38,
+          "currentPoints": 164.38,
+          "totalProjectedPoints": 143.37300064,
+          "pointsByScoringPeriod": {
+            "8": 164.38
+          }
+        },
+        "winner": "AWAY",
+        "playoffTierType": "NONE"
+      },
+      {
+        "matchupPeriodId": 8,
+        "home": {
+          "teamId": 5,
+          "teamName": "D0nkey K0ng",
+          "totalPoints": 92.75,
+          "currentPoints": 92.75,
+          "totalProjectedPoints": 121.09023482,
+          "pointsByScoringPeriod": {
+            "8": 92.75
+          }
+        },
+        "away": {
+          "teamId": 11,
+          "teamName": "Seven Deadly Chins",
+          "totalPoints": 166.44,
+          "currentPoints": 166.44,
+          "totalProjectedPoints": 140.37063096,
+          "pointsByScoringPeriod": {
+            "8": 166.44
+          }
+        },
+        "winner": "AWAY",
+        "playoffTierType": "NONE"
+      },
+      {
+        "matchupPeriodId": 8,
+        "home": {
+          "teamId": 6,
+          "teamName": "Three Dreaded Snake",
+          "totalPoints": 136.53,
+          "currentPoints": 136.53,
+          "totalProjectedPoints": 135.77355284,
+          "pointsByScoringPeriod": {
+            "8": 136.53
+          }
+        },
+        "away": {
+          "teamId": 7,
+          "teamName": "The Chili Cheesers ",
+          "totalPoints": 123.51,
+          "currentPoints": 123.51,
+          "totalProjectedPoints": 131.11946876,
+          "pointsByScoringPeriod": {
+            "8": 123.51
+          }
+        },
+        "winner": "HOME",
+        "playoffTierType": "NONE"
+      },
+      {
+        "matchupPeriodId": 8,
+        "home": {
+          "teamId": 3,
+          "teamName": "Slob on my Dobb",
+          "totalPoints": 158.26,
+          "currentPoints": 158.26,
+          "totalProjectedPoints": 156.4032938,
+          "pointsByScoringPeriod": {
+            "8": 158.26
+          }
+        },
+        "away": {
+          "teamId": 8,
+          "teamName": "His Majesty's Blood",
+          "totalPoints": 162.62,
+          "currentPoints": 162.62,
+          "totalProjectedPoints": 133.48952601,
+          "pointsByScoringPeriod": {
+            "8": 162.62
+          }
+        },
+        "winner": "AWAY",
+        "playoffTierType": "NONE"
+      },
+      {
+        "matchupPeriodId": 8,
+        "home": {
+          "teamId": 2,
+          "teamName": "Red Leopards",
+          "totalPoints": 135.8,
+          "currentPoints": 135.8,
+          "totalProjectedPoints": 161.82720291,
+          "pointsByScoringPeriod": {
+            "8": 135.8
+          }
+        },
+        "away": {
+          "teamId": 4,
+          "teamName": "The LLC",
+          "totalPoints": 138.58,
+          "currentPoints": 138.58,
+          "totalProjectedPoints": 149.79745267,
+          "pointsByScoringPeriod": {
+            "8": 138.58
+          }
+        },
+        "winner": "AWAY",
+        "playoffTierType": "NONE"
+      }
+    ]
+  },
+  "week9_matchups": {
+    "leagueId": "1417621",
+    "seasonYear": 2026,
+    "currentScoringPeriod": 9,
+    "matchupPeriod": 9,
+    "matchups": [
+      {
+        "matchupPeriodId": 9,
+        "home": {
+          "teamId": 10,
+          "teamName": "Mud Dogs",
+          "totalPoints": 0,
+          "currentPoints": 0,
+          "totalProjectedPoints": 135.19054533,
+          "pointsByScoringPeriod": {
+            "9": 0
+          }
+        },
+        "away": {
+          "teamId": 9,
+          "teamName": "El Niño",
+          "totalPoints": 0,
+          "currentPoints": 0,
+          "totalProjectedPoints": 144.09752089,
+          "pointsByScoringPeriod": {
+            "9": 0
+          }
+        },
+        "winner": "UNDECIDED",
+        "playoffTierType": "NONE"
+      },
+      {
+        "matchupPeriodId": 9,
+        "home": {
+          "teamId": 12,
+          "teamName": "Dr. Duckhook",
+          "totalPoints": 0,
+          "currentPoints": 0,
+          "totalProjectedPoints": 165.6187089,
+          "pointsByScoringPeriod": {
+            "9": 0
+          }
+        },
+        "away": {
+          "teamId": 1,
+          "teamName": "ObiWan Jacoby",
+          "totalPoints": 0,
+          "currentPoints": 0,
+          "totalProjectedPoints": 161.9897411,
+          "pointsByScoringPeriod": {
+            "9": 0
+          }
+        },
+        "winner": "UNDECIDED",
+        "playoffTierType": "NONE"
+      },
+      {
+        "matchupPeriodId": 9,
+        "home": {
+          "teamId": 2,
+          "teamName": "Red Leopards",
+          "totalPoints": 0,
+          "currentPoints": 0,
+          "totalProjectedPoints": 142.61677102,
+          "pointsByScoringPeriod": {
+            "9": 0
+          }
+        },
+        "away": {
+          "teamId": 11,
+          "teamName": "Seven Deadly Chins",
+          "totalPoints": 0,
+          "currentPoints": 0,
+          "totalProjectedPoints": 135.31739969,
+          "pointsByScoringPeriod": {
+            "9": 0
+          }
+        },
+        "winner": "UNDECIDED",
+        "playoffTierType": "NONE"
+      },
+      {
+        "matchupPeriodId": 9,
+        "home": {
+          "teamId": 7,
+          "teamName": "The Chili Cheesers ",
+          "totalPoints": 0,
+          "currentPoints": 0,
+          "totalProjectedPoints": 152.9612345,
+          "pointsByScoringPeriod": {
+            "9": 0
+          }
+        },
+        "away": {
+          "teamId": 8,
+          "teamName": "His Majesty's Blood",
+          "totalPoints": 0,
+          "currentPoints": 0,
+          "totalProjectedPoints": 147.58159397,
+          "pointsByScoringPeriod": {
+            "9": 0
+          }
+        },
+        "winner": "UNDECIDED",
+        "playoffTierType": "NONE"
+      },
+      {
+        "matchupPeriodId": 9,
+        "home": {
+          "teamId": 5,
+          "teamName": "D0nkey K0ng",
+          "totalPoints": 0,
+          "currentPoints": 0,
+          "totalProjectedPoints": 136.03114112,
+          "pointsByScoringPeriod": {
+            "9": 0
+          }
+        },
+        "away": {
+          "teamId": 4,
+          "teamName": "The LLC",
+          "totalPoints": 0,
+          "currentPoints": 0,
+          "totalProjectedPoints": 146.30756004,
+          "pointsByScoringPeriod": {
+            "9": 0
+          }
+        },
+        "winner": "UNDECIDED",
+        "playoffTierType": "NONE"
+      },
+      {
+        "matchupPeriodId": 9,
+        "home": {
+          "teamId": 3,
+          "teamName": "Slob on my Dobb",
+          "totalPoints": 0,
+          "currentPoints": 0,
+          "totalProjectedPoints": 162.30697366,
+          "pointsByScoringPeriod": {
+            "9": 0
+          }
+        },
+        "away": {
+          "teamId": 6,
+          "teamName": "Three Dreaded Snake",
+          "totalPoints": 0,
+          "currentPoints": 0,
+          "totalProjectedPoints": 135.17229692,
+          "pointsByScoringPeriod": {
+            "9": 0
+          }
+        },
+        "winner": "UNDECIDED",
+        "playoffTierType": "NONE"
+      }
+    ]
+  },
+  "week8_transactions": {
+    "platform": "espn",
+    "sport": "football",
+    "league_id": "1417621",
+    "season_year": 2026,
+    "window": {
+      "mode": "explicit_week",
+      "unit": "matchup_period",
+      "requested_week": 8,
+      "normalization": "none",
+      "weeks": [
+        8
+      ],
+      "provider_scoring_period_ids": [
+        8
+      ],
+      "start_date": null,
+      "end_date": null,
+      "date_bounds_kind": "unavailable",
+      "timezone": "America/New_York",
+      "returned_rows": 32
+    },
+    "source": "mTransactions2",
+    "limitations": {
+      "structured_details_incomplete": true
+    },
+    "transactions": [
+      {
+        "transaction_id": "1a33e5c2-de24-44f5-b7f9-9a6bbcbbd6a0",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793564214505,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-01",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [
+          {
+            "id": "4597703",
+            "name": "Tory Horton",
+            "position": "WR",
+            "team": "SEA"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4242557",
+            "name": "Colby Parkinson",
+            "position": "TE",
+            "team": "LAR"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "68ec0b42-95ae-4d3f-82ba-f078fe1ddb49",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793555444684,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-01",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "10"
+        ],
+        "players_added": [
+          {
+            "id": "-16005",
+            "name": "Browns D/ST",
+            "position": "D/ST",
+            "team": "CLE"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "-16033",
+            "name": "Ravens D/ST",
+            "position": "D/ST",
+            "team": "BAL"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "e9363a60-0761-4ed4-a323-91fe6a3e45ad",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793541199081,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-01",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "12"
+        ],
+        "players_added": [
+          {
+            "id": "4431431",
+            "name": "Corey Kiner",
+            "position": "RB",
+            "team": "NE"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "3117256",
+            "name": "Dalton Schultz",
+            "position": "TE",
+            "team": "HOU"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "ac2d33fa-3ce7-43cb-933f-6be097d8c140",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793537417124,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-01",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "3"
+        ],
+        "players_added": [
+          {
+            "id": "4686658",
+            "name": "Mike Washington Jr.",
+            "position": "RB",
+            "team": "LV"
+          }
+        ],
+        "players_dropped": [],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "a90fb33f-959e-4af7-958c-63dcd56344d9",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793497927074,
+        "timestamp_source": "proposedDate",
+        "date": "2026-10-31",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "8"
+        ],
+        "players_added": [
+          {
+            "id": "-16008",
+            "name": "Lions D/ST",
+            "position": "D/ST",
+            "team": "DET"
+          }
+        ],
+        "players_dropped": [],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "4cd9bc45-4830-4d07-a664-99c199fa2a73",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793321496862,
+        "timestamp_source": "proposedDate",
+        "date": "2026-10-29",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [
+          {
+            "id": "4635008",
+            "name": "Keon Coleman",
+            "position": "WR",
+            "team": "BUF"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4427728",
+            "name": "Bam Knight",
+            "position": "RB",
+            "team": "ARI"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "871958ef-c9b0-4561-8700-a0abf1021592",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793320881526,
+        "timestamp_source": "proposedDate",
+        "date": "2026-10-29",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "9"
+        ],
+        "players_added": [
+          {
+            "id": "4363538",
+            "name": "Chad Ryland",
+            "position": "K",
+            "team": "ARI"
+          }
+        ],
+        "players_dropped": [],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "f2bd448a-2b7c-40f3-86d2-e6eb6527bff7",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793320797160,
+        "timestamp_source": "proposedDate",
+        "date": "2026-10-29",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "10"
+        ],
+        "players_added": [
+          {
+            "id": "4567156",
+            "name": "Treylon Burks",
+            "position": "WR",
+            "team": "WSH"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "3121422",
+            "name": "Terry McLaurin",
+            "position": "WR",
+            "team": "WSH"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "c46a2fd6-924a-469a-b262-475c7ad756c7",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793319255255,
+        "timestamp_source": "proposedDate",
+        "date": "2026-10-29",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "3"
+        ],
+        "players_added": [
+          {
+            "id": "-16028",
+            "name": "Commanders D/ST",
+            "position": "D/ST",
+            "team": "WSH"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4432577",
+            "name": "C.J. Stroud",
+            "position": "QB",
+            "team": "HOU"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "20d70bcb-2760-4345-b057-7a0668b757e6",
+        "type": "drop",
+        "status": "complete",
+        "timestamp": 1793319235640,
+        "timestamp_source": "proposedDate",
+        "date": "2026-10-29",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "3"
+        ],
+        "players_added": [],
+        "players_dropped": [
+          {
+            "id": "3895856",
+            "name": "Christian Kirk",
+            "position": "WR",
+            "team": "SF"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "dbf30881-59af-4b1d-9bdc-89b0e88435ae",
+        "type": "trade_uphold",
+        "status": "complete",
+        "timestamp": 1793308019152,
+        "timestamp_source": "proposedDate",
+        "date": "2026-10-29",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "7"
+        ],
+        "players_added": [],
+        "players_dropped": [],
+        "faab_bid": 0,
+        "trade_details_unavailable": true
+      },
+      {
+        "transaction_id": "871c3a7b-76d7-4192-9c5b-fb094cf96857",
+        "type": "drop",
+        "status": "complete",
+        "timestamp": 1793302744026,
+        "timestamp_source": "proposedDate",
+        "date": "2026-10-29",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "8"
+        ],
+        "players_added": [],
+        "players_dropped": [
+          {
+            "id": "4362249",
+            "name": "Jayden Reed",
+            "position": "WR",
+            "team": "GB"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "18603527-f818-408c-a071-cae9bc5713e7",
+        "type": "trade",
+        "status": "unknown",
+        "timestamp": 1793302604912,
+        "timestamp_source": "proposedDate",
+        "date": "2026-10-29",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "8"
+        ],
+        "players_added": [],
+        "players_dropped": [],
+        "faab_bid": 0,
+        "trade_details_unavailable": true
+      },
+      {
+        "transaction_id": "f1e05faa-00c9-43fb-81f3-1d16360907c0",
+        "type": "drop",
+        "status": "complete",
+        "timestamp": 1793301600344,
+        "timestamp_source": "proposedDate",
+        "date": "2026-10-29",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "3"
+        ],
+        "players_added": [],
+        "players_dropped": [
+          {
+            "id": "4586312",
+            "name": "Jaylin Noel",
+            "position": "WR",
+            "team": "HOU"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "7d74b8af-58ff-4aaa-bec2-0c534157a6fa",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793273846044,
+        "timestamp_source": "proposedDate",
+        "date": "2026-10-29",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "2"
+        ],
+        "players_added": [
+          {
+            "id": "-16017",
+            "name": "Patriots D/ST",
+            "position": "D/ST",
+            "team": "NE"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "-16005",
+            "name": "Browns D/ST",
+            "position": "D/ST",
+            "team": "CLE"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "4ac0e1d5-f5d4-4772-a893-0e2f5faf4976",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793273815864,
+        "timestamp_source": "proposedDate",
+        "date": "2026-10-29",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "2"
+        ],
+        "players_added": [
+          {
+            "id": "15864",
+            "name": "Geno Smith",
+            "position": "QB",
+            "team": "NYJ"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "8439",
+            "name": "Aaron Rodgers",
+            "position": "QB",
+            "team": "PIT"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "d64e6a4e-7ba8-4efa-b131-1a81f99885fd",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793273717428,
+        "timestamp_source": "proposedDate",
+        "date": "2026-10-29",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "12"
+        ],
+        "players_added": [
+          {
+            "id": "3929645",
+            "name": "Juwan Johnson",
+            "position": "TE",
+            "team": "NO"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "15864",
+            "name": "Geno Smith",
+            "position": "QB",
+            "team": "NYJ"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "46b91959-8ab6-4992-8d55-c751efa129af",
+        "type": "waiver",
+        "status": "complete",
+        "timestamp": 1793259248164,
+        "timestamp_source": "processDate",
+        "date": "2026-10-29",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [
+          {
+            "id": "3116164",
+            "name": "Mike Gesicki",
+            "position": "TE",
+            "team": "CIN"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4599739",
+            "name": "Kendre Miller",
+            "position": "RB",
+            "team": "NO"
+          }
+        ],
+        "faab_bid": 1
+      },
+      {
+        "transaction_id": "177a9a4a-8639-4760-9fd2-176c9bd25126",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793238017599,
+        "timestamp_source": "proposedDate",
+        "date": "2026-10-28",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "12"
+        ],
+        "players_added": [
+          {
+            "id": "15864",
+            "name": "Geno Smith",
+            "position": "QB",
+            "team": "NYJ"
+          }
+        ],
+        "players_dropped": [],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "03519709-f56d-459f-9363-cb59e8050af6",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793213436611,
+        "timestamp_source": "proposedDate",
+        "date": "2026-10-28",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "7"
+        ],
+        "players_added": [
+          {
+            "id": "5081397",
+            "name": "Dylan Sampson",
+            "position": "RB",
+            "team": "CLE"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "2578570",
+            "name": "Jacoby Brissett",
+            "position": "QB",
+            "team": "ARI"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "083b6c78-3b87-4cdc-87ca-84822a895299",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793213034944,
+        "timestamp_source": "proposedDate",
+        "date": "2026-10-28",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "12"
+        ],
+        "players_added": [
+          {
+            "id": "4808766",
+            "name": "Mason Taylor",
+            "position": "TE",
+            "team": "NYJ"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4242355",
+            "name": "Jake Ferguson",
+            "position": "TE",
+            "team": "DAL"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "17d986bb-700a-4f4f-9336-2b3a66702d77",
+        "type": "waiver",
+        "status": "pending",
+        "timestamp": 1793209679038,
+        "timestamp_source": "proposedDate",
+        "date": "2026-10-28",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [
+          {
+            "id": "3116164",
+            "name": "Mike Gesicki",
+            "position": "TE",
+            "team": "CIN"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4599739",
+            "name": "Kendre Miller",
+            "position": "RB",
+            "team": "NO"
+          }
+        ],
+        "faab_bid": 1
+      },
+      {
+        "transaction_id": "84396da6-d484-4885-9a42-8eca60d92933",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793193259113,
+        "timestamp_source": "proposedDate",
+        "date": "2026-10-28",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "7"
+        ],
+        "players_added": [
+          {
+            "id": "4430968",
+            "name": "Kimani Vidal",
+            "position": "RB",
+            "team": "LAC"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4249836",
+            "name": "Pierre Strong Jr.",
+            "position": "RB",
+            "team": "GB"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "8fc4c453-d5bb-42c5-95d2-930d105eecca",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793187329264,
+        "timestamp_source": "proposedDate",
+        "date": "2026-10-28",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "8"
+        ],
+        "players_added": [
+          {
+            "id": "4686361",
+            "name": "Cam Little",
+            "position": "K",
+            "team": "JAX"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4697745",
+            "name": "Tyler Loop",
+            "position": "K",
+            "team": "BAL"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "80708b4b-614f-4b92-93a4-db13f4e5b981",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793186293572,
+        "timestamp_source": "proposedDate",
+        "date": "2026-10-28",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "12"
+        ],
+        "players_added": [
+          {
+            "id": "3917232",
+            "name": "Tyler Bass",
+            "position": "K",
+            "team": "BUF"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "5082424",
+            "name": "Dominic Zvada",
+            "position": "K",
+            "team": "NYG"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "4605e2eb-599f-408a-b3f0-e410f1a62839",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793185782832,
+        "timestamp_source": "proposedDate",
+        "date": "2026-10-28",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "6"
+        ],
+        "players_added": [
+          {
+            "id": "4686468",
+            "name": "Seth McGowan",
+            "position": "RB",
+            "team": "IND"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4426386",
+            "name": "Roschon Johnson",
+            "position": "RB",
+            "team": "CHI"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "bc503c85-1cc0-40ed-9b31-31d77344de0c",
+        "type": "waiver",
+        "status": "complete",
+        "timestamp": 1793172739453,
+        "timestamp_source": "processDate",
+        "date": "2026-10-28",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "11"
+        ],
+        "players_added": [
+          {
+            "id": "4360635",
+            "name": "Chig Okonkwo",
+            "position": "TE",
+            "team": "WSH"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "3929645",
+            "name": "Juwan Johnson",
+            "position": "TE",
+            "team": "NO"
+          }
+        ],
+        "faab_bid": 3
+      },
+      {
+        "transaction_id": "fd7cb8bf-489f-4797-9b87-7ff466e71e03",
+        "type": "waiver",
+        "status": "complete",
+        "timestamp": 1793172739453,
+        "timestamp_source": "processDate",
+        "date": "2026-10-28",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "12"
+        ],
+        "players_added": [
+          {
+            "id": "-16030",
+            "name": "Jaguars D/ST",
+            "position": "D/ST",
+            "team": "JAX"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "-16017",
+            "name": "Patriots D/ST",
+            "position": "D/ST",
+            "team": "NE"
+          }
+        ],
+        "faab_bid": 8
+      },
+      {
+        "transaction_id": "3f941a11-53a2-444b-b5c7-f67fd38b6107",
+        "type": "waiver",
+        "status": "failed",
+        "timestamp": 1793172739453,
+        "timestamp_source": "processDate",
+        "date": "2026-10-28",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "12"
+        ],
+        "players_added": [
+          {
+            "id": "5081432",
+            "name": "Antonio Williams",
+            "position": "WR",
+            "team": "WSH"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4432708",
+            "name": "Marvin Harrison Jr.",
+            "position": "WR",
+            "team": "HOU"
+          }
+        ],
+        "faab_bid": 8,
+        "failure_reason": "FAILED_INVALIDPLAYERSOURCE"
+      },
+      {
+        "transaction_id": "4b118a19-955d-4af9-843b-d49731612477",
+        "type": "waiver",
+        "status": "complete",
+        "timestamp": 1793172739452,
+        "timestamp_source": "processDate",
+        "date": "2026-10-28",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "8"
+        ],
+        "players_added": [
+          {
+            "id": "5081432",
+            "name": "Antonio Williams",
+            "position": "WR",
+            "team": "WSH"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "3116164",
+            "name": "Mike Gesicki",
+            "position": "TE",
+            "team": "CIN"
+          }
+        ],
+        "faab_bid": 24
+      },
+      {
+        "transaction_id": "c5863f4e-7d34-4acc-9ea3-35883b9f1942",
+        "type": "drop",
+        "status": "complete",
+        "timestamp": 1793151185316,
+        "timestamp_source": "proposedDate",
+        "date": "2026-10-27",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "12"
+        ],
+        "players_added": [],
+        "players_dropped": [
+          {
+            "id": "-16020",
+            "name": "Jets D/ST",
+            "position": "D/ST",
+            "team": "NYJ"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "f4f970cc-f7cf-48a2-a866-b3e3d79cfdfa",
+        "type": "waiver",
+        "status": "canceled",
+        "timestamp": 1793141551067,
+        "timestamp_source": "proposedDate",
+        "date": "2026-10-27",
+        "week": 8,
+        "provider_scoring_period_id": 8,
+        "team_ids": [
+          "11"
+        ],
+        "players_added": [
+          {
+            "id": "5081432",
+            "name": "Antonio Williams",
+            "position": "WR",
+            "team": "WSH"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "3045523",
+            "name": "Kendrick Bourne",
+            "position": "WR",
+            "team": "ARI"
+          }
+        ],
+        "faab_bid": 0
+      }
+    ],
+    "teams": {
+      "1": "ObiWan Jacoby",
+      "2": "Red Leopards",
+      "3": "Slob on my Dobb",
+      "4": "The LLC",
+      "5": "D0nkey K0ng",
+      "6": "Three Dreaded Snake",
+      "7": "The Chili Cheesers ",
+      "8": "His Majesty's Blood",
+      "9": "El Niño",
+      "10": "Mud Dogs",
+      "11": "Seven Deadly Chins",
+      "12": "Dr. Duckhook"
+    },
+    "truncated": false,
+    "dropped_invalid_timestamp_count": 0,
+    "count": 32
+  },
+  "week9_transactions": {
+    "platform": "espn",
+    "sport": "football",
+    "league_id": "1417621",
+    "season_year": 2026,
+    "window": {
+      "mode": "explicit_week",
+      "unit": "matchup_period",
+      "requested_week": 9,
+      "normalization": "none",
+      "weeks": [
+        9
+      ],
+      "provider_scoring_period_ids": [
+        9
+      ],
+      "start_date": null,
+      "end_date": null,
+      "date_bounds_kind": "unavailable",
+      "timezone": "America/New_York",
+      "returned_rows": 28
+    },
+    "source": "mTransactions2",
+    "limitations": {
+      "structured_details_incomplete": true
+    },
+    "transactions": [
+      {
+        "transaction_id": "70775d60-464f-4abe-ad1d-c9b59fd3dccc",
+        "type": "trade",
+        "status": "unknown",
+        "timestamp": 1793887490496,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-05",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "5"
+        ],
+        "players_added": [],
+        "players_dropped": [],
+        "faab_bid": 0,
+        "trade_details_unavailable": true
+      },
+      {
+        "transaction_id": "d221a637-23fd-4215-a7da-efdb7727c5d0",
+        "type": "trade_uphold",
+        "status": "complete",
+        "timestamp": 1793841202675,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "12"
+        ],
+        "players_added": [],
+        "players_dropped": [],
+        "faab_bid": 0,
+        "trade_details_unavailable": true
+      },
+      {
+        "transaction_id": "c7dafd65-fd12-4bd3-8141-f0a9b9eb92e8",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793833201643,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "6"
+        ],
+        "players_added": [
+          {
+            "id": "4241555",
+            "name": "Elijah Mitchell",
+            "position": "RB",
+            "team": "PHI"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "3128429",
+            "name": "Courtland Sutton",
+            "position": "WR",
+            "team": "DEN"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "b7a6fafe-5fa3-458d-8f5c-e0fc64868106",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793829422928,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "12"
+        ],
+        "players_added": [
+          {
+            "id": "-16027",
+            "name": "Buccaneers D/ST",
+            "position": "D/ST",
+            "team": "TB"
+          }
+        ],
+        "players_dropped": [],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "41a643ea-d34f-46ee-813b-97cc33488820",
+        "type": "drop",
+        "status": "complete",
+        "timestamp": 1793829358893,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "12"
+        ],
+        "players_added": [],
+        "players_dropped": [
+          {
+            "id": "4367209",
+            "name": "Greg Dulcich",
+            "position": "TE",
+            "team": "MIA"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "4c0331e8-eb33-4219-a16d-3438627837b6",
+        "type": "trade",
+        "status": "unknown",
+        "timestamp": 1793828401965,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "6"
+        ],
+        "players_added": [],
+        "players_dropped": [],
+        "faab_bid": 0,
+        "trade_details_unavailable": true
+      },
+      {
+        "transaction_id": "ede85d9a-7e08-4967-9867-6c9f7923dfac",
+        "type": "trade_proposal",
+        "status": "canceled",
+        "timestamp": 1793820870871,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "8",
+          "12"
+        ],
+        "players_added": [],
+        "players_dropped": [],
+        "trade_sides": [
+          {
+            "team_id": "8",
+            "acquired": [
+              {
+                "id": "4373678",
+                "name": "Khalil Shakir",
+                "position": "WR",
+                "team": "BUF"
+              }
+            ],
+            "gave_up": [
+              {
+                "id": "4430539",
+                "name": "Brenton Strange",
+                "position": "TE",
+                "team": "JAX"
+              }
+            ]
+          },
+          {
+            "team_id": "12",
+            "acquired": [
+              {
+                "id": "4430539",
+                "name": "Brenton Strange",
+                "position": "TE",
+                "team": "JAX"
+              }
+            ],
+            "gave_up": [
+              {
+                "id": "4373678",
+                "name": "Khalil Shakir",
+                "position": "WR",
+                "team": "BUF"
+              }
+            ]
+          }
+        ],
+        "proposed_by_team_id": "12",
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "3fffa8a3-b610-4116-89a3-9503e3d6034d",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793811399214,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "5"
+        ],
+        "players_added": [
+          {
+            "id": "4361409",
+            "name": "Jahan Dotson",
+            "position": "WR",
+            "team": "ATL"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4428557",
+            "name": "Tyjae Spears",
+            "position": "RB",
+            "team": "TEN"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "5b5e54f1-e1a1-46de-bb0e-f0c8d2ff7661",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793811370069,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "5"
+        ],
+        "players_added": [
+          {
+            "id": "4686422",
+            "name": "Xavier Hutchinson",
+            "position": "WR",
+            "team": "HOU"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4361529",
+            "name": "Isiah Pacheco",
+            "position": "RB",
+            "team": "DET"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "8868b268-3a0d-4869-921e-2d71861bd90b",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793808880039,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "3"
+        ],
+        "players_added": [
+          {
+            "id": "4360438",
+            "name": "Brandon Aiyuk",
+            "position": "WR",
+            "team": "SF"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "2573401",
+            "name": "Tyler Higbee",
+            "position": "TE",
+            "team": "LAR"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "e7302573-0ef9-4241-ae4b-1a598e41e910",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793803546083,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "3"
+        ],
+        "players_added": [
+          {
+            "id": "4040761",
+            "name": "Devin Singletary",
+            "position": "RB",
+            "team": "NYG"
+          }
+        ],
+        "players_dropped": [],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "c44b6719-3889-425f-befd-47847fe1f354",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793803511744,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "3"
+        ],
+        "players_added": [
+          {
+            "id": "-16002",
+            "name": "Bills D/ST",
+            "position": "D/ST",
+            "team": "BUF"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "-16028",
+            "name": "Commanders D/ST",
+            "position": "D/ST",
+            "team": "WSH"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "6ef60658-a22e-4f23-8b84-a33b2a48ff4d",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793795699828,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "2"
+        ],
+        "players_added": [
+          {
+            "id": "-16003",
+            "name": "Bears D/ST",
+            "position": "D/ST",
+            "team": "CHI"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "-16017",
+            "name": "Patriots D/ST",
+            "position": "D/ST",
+            "team": "NE"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "88f362ed-9fe5-48d5-9232-490ed22ec942",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793793420861,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "12"
+        ],
+        "players_added": [
+          {
+            "id": "4367209",
+            "name": "Greg Dulcich",
+            "position": "TE",
+            "team": "MIA"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4808766",
+            "name": "Mason Taylor",
+            "position": "TE",
+            "team": "NYJ"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "7de5729b-ff64-4b89-8973-8e85ec501b79",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793792734766,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "6"
+        ],
+        "players_added": [
+          {
+            "id": "4362081",
+            "name": "Cameron Dicker",
+            "position": "K",
+            "team": "LAC"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4599739",
+            "name": "Kendre Miller",
+            "position": "RB",
+            "team": "NO"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "22d0f60b-8fec-412f-8cf6-c1159b4dd41b",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793791257263,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "6"
+        ],
+        "players_added": [
+          {
+            "id": "4599739",
+            "name": "Kendre Miller",
+            "position": "RB",
+            "team": "NO"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4887558",
+            "name": "Emanuel Wilson",
+            "position": "RB",
+            "team": "SEA"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "5b80a84b-222f-4c8e-b772-2302bca8af62",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793791030373,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "12"
+        ],
+        "players_added": [
+          {
+            "id": "4432577",
+            "name": "C.J. Stroud",
+            "position": "QB",
+            "team": "HOU"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4432708",
+            "name": "Marvin Harrison Jr.",
+            "position": "WR",
+            "team": "HOU"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "b776e442-2df9-43f5-b605-f53dc7d20e11",
+        "type": "waiver",
+        "status": "complete",
+        "timestamp": 1793783168543,
+        "timestamp_source": "processDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [
+          {
+            "id": "4382466",
+            "name": "Jalen Nailor",
+            "position": "WR",
+            "team": "LV"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4635008",
+            "name": "Keon Coleman",
+            "position": "WR",
+            "team": "BUF"
+          }
+        ],
+        "faab_bid": 1
+      },
+      {
+        "transaction_id": "b6e59cca-91f3-42e3-af30-1c28f3de9a3e",
+        "type": "waiver",
+        "status": "complete",
+        "timestamp": 1793783168543,
+        "timestamp_source": "processDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [
+          {
+            "id": "3117256",
+            "name": "Dalton Schultz",
+            "position": "TE",
+            "team": "HOU"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4715355",
+            "name": "Darius Cooper",
+            "position": "WR",
+            "team": "PHI"
+          }
+        ],
+        "faab_bid": 1
+      },
+      {
+        "transaction_id": "68a27872-65f0-4b13-8ad9-7ea18f11e090",
+        "type": "waiver",
+        "status": "complete",
+        "timestamp": 1793783168543,
+        "timestamp_source": "processDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "7"
+        ],
+        "players_added": [
+          {
+            "id": "-16019",
+            "name": "Giants D/ST",
+            "position": "D/ST",
+            "team": "NYG"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4430968",
+            "name": "Kimani Vidal",
+            "position": "RB",
+            "team": "LAC"
+          }
+        ],
+        "faab_bid": 1
+      },
+      {
+        "transaction_id": "0dc368bf-0e5c-4ca3-b0f7-1fefa6e6c825",
+        "type": "waiver",
+        "status": "complete",
+        "timestamp": 1793783168542,
+        "timestamp_source": "processDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "11"
+        ],
+        "players_added": [
+          {
+            "id": "4242512",
+            "name": "Malik Willis",
+            "position": "QB",
+            "team": "MIA"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "3917315",
+            "name": "Kyler Murray",
+            "position": "QB",
+            "team": "MIN"
+          }
+        ],
+        "faab_bid": 11
+      },
+      {
+        "transaction_id": "70f53032-d702-4bf7-b79b-7fb99d21e06f",
+        "type": "waiver",
+        "status": "complete",
+        "timestamp": 1793783168541,
+        "timestamp_source": "processDate",
+        "date": "2026-11-04",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "2"
+        ],
+        "players_added": [
+          {
+            "id": "4433970",
+            "name": "J.J. McCarthy",
+            "position": "QB",
+            "team": "NYG"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4870612",
+            "name": "Zachariah Branch",
+            "position": "WR",
+            "team": "ATL"
+          }
+        ],
+        "faab_bid": 35
+      },
+      {
+        "transaction_id": "89b0fa12-7374-4c82-99ad-924812091fc4",
+        "type": "trade_proposal",
+        "status": "canceled",
+        "timestamp": 1793735736112,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-03",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "5",
+          "8"
+        ],
+        "players_added": [],
+        "players_dropped": [
+          {
+            "id": "4360423",
+            "name": "Michael Penix Jr.",
+            "position": "QB",
+            "team": "ATL"
+          }
+        ],
+        "trade_sides": [
+          {
+            "team_id": "5",
+            "acquired": [
+              {
+                "id": "4832800",
+                "name": "Denzel Boston",
+                "position": "WR",
+                "team": "CLE"
+              }
+            ],
+            "gave_up": [
+              {
+                "id": "4361741",
+                "name": "Brock Purdy",
+                "position": "QB",
+                "team": "SF"
+              }
+            ]
+          },
+          {
+            "team_id": "8",
+            "acquired": [
+              {
+                "id": "4361741",
+                "name": "Brock Purdy",
+                "position": "QB",
+                "team": "SF"
+              }
+            ],
+            "gave_up": [
+              {
+                "id": "4832800",
+                "name": "Denzel Boston",
+                "position": "WR",
+                "team": "CLE"
+              }
+            ]
+          }
+        ],
+        "proposed_by_team_id": "8",
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "40153593-0765-469f-922e-dcbd041423a4",
+        "type": "waiver",
+        "status": "pending",
+        "timestamp": 1793726925221,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-03",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [
+          {
+            "id": "3117256",
+            "name": "Dalton Schultz",
+            "position": "TE",
+            "team": "HOU"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4715355",
+            "name": "Darius Cooper",
+            "position": "WR",
+            "team": "PHI"
+          }
+        ],
+        "faab_bid": 1
+      },
+      {
+        "transaction_id": "24a409ab-967b-4f1a-94b9-7730f1a22a03",
+        "type": "waiver",
+        "status": "canceled",
+        "timestamp": 1793726902322,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-03",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [
+          {
+            "id": "3117256",
+            "name": "Dalton Schultz",
+            "position": "TE",
+            "team": "HOU"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4597703",
+            "name": "Tory Horton",
+            "position": "WR",
+            "team": "SEA"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "7eecba3c-9b45-45da-a874-82a844cf7743",
+        "type": "waiver",
+        "status": "pending",
+        "timestamp": 1793726811396,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-03",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [
+          {
+            "id": "4382466",
+            "name": "Jalen Nailor",
+            "position": "WR",
+            "team": "LV"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4635008",
+            "name": "Keon Coleman",
+            "position": "WR",
+            "team": "BUF"
+          }
+        ],
+        "faab_bid": 1
+      },
+      {
+        "transaction_id": "8e1df71c-eb54-4dbe-9cb0-3b6e8c04d2f5",
+        "type": "waiver",
+        "status": "pending",
+        "timestamp": 1793726737018,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-03",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [
+          {
+            "id": "3117256",
+            "name": "Dalton Schultz",
+            "position": "TE",
+            "team": "HOU"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4597703",
+            "name": "Tory Horton",
+            "position": "WR",
+            "team": "SEA"
+          }
+        ],
+        "faab_bid": 1
+      },
+      {
+        "transaction_id": "291c9d94-eeb9-4520-ace4-0c25cf20eb2f",
+        "type": "drop",
+        "status": "complete",
+        "timestamp": 1793703518976,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-03",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "12"
+        ],
+        "players_added": [],
+        "players_dropped": [
+          {
+            "id": "4431431",
+            "name": "Corey Kiner",
+            "position": "RB",
+            "team": "NE"
+          }
+        ],
+        "faab_bid": 0
+      }
+    ],
+    "teams": {
+      "1": "ObiWan Jacoby",
+      "2": "Red Leopards",
+      "3": "Slob on my Dobb",
+      "4": "The LLC",
+      "5": "D0nkey K0ng",
+      "6": "Three Dreaded Snake",
+      "7": "The Chili Cheesers ",
+      "8": "His Majesty's Blood",
+      "9": "El Niño",
+      "10": "Mud Dogs",
+      "11": "Seven Deadly Chins",
+      "12": "Dr. Duckhook"
+    },
+    "truncated": false,
+    "dropped_invalid_timestamp_count": 0,
+    "count": 28
+  },
+  "standings": {
+    "leagueId": "1417621",
+    "seasonYear": 2026,
+    "seasonPhase": "regular_season",
+    "seasonComplete": false,
+    "standings": [
+      {
+        "teamId": 12,
+        "teamName": "Dr. Duckhook",
+        "abbrev": "ZW",
+        "wins": 5,
+        "losses": 3,
+        "ties": 0,
+        "winPercentage": 0.625,
+        "pointsFor": 1157.9199999999998,
+        "pointsAgainst": 1140.6100000000001,
+        "playoffSeed": 1,
+        "waiverPriority": 8,
+        "draftDayProjectedRank": 5,
+        "currentProjectedRank": 1,
+        "finalRank": null,
+        "championshipWon": null,
+        "playoffOutcome": null,
+        "outcomeConfidence": null,
+        "madePlayoffs": null,
+        "rank": 1
+      },
+      {
+        "teamId": 8,
+        "teamName": "His Majesty's Blood",
+        "abbrev": "3x",
+        "wins": 5,
+        "losses": 3,
+        "ties": 0,
+        "winPercentage": 0.625,
+        "pointsFor": 1108.11,
+        "pointsAgainst": 1066.1000000000001,
+        "playoffSeed": 2,
+        "waiverPriority": 7,
+        "draftDayProjectedRank": 11,
+        "currentProjectedRank": 3,
+        "finalRank": null,
+        "championshipWon": null,
+        "playoffOutcome": null,
+        "outcomeConfidence": null,
+        "madePlayoffs": null,
+        "rank": 2
+      },
+      {
+        "teamId": 1,
+        "teamName": "ObiWan Jacoby",
+        "abbrev": "Jake",
+        "wins": 4,
+        "losses": 4,
+        "ties": 0,
+        "winPercentage": 0.5,
+        "pointsFor": 1073.52,
+        "pointsAgainst": 1051.37,
+        "playoffSeed": 3,
+        "waiverPriority": 12,
+        "draftDayProjectedRank": 3,
+        "currentProjectedRank": 4,
+        "finalRank": null,
+        "championshipWon": null,
+        "playoffOutcome": null,
+        "outcomeConfidence": null,
+        "madePlayoffs": null,
+        "rank": 3
+      },
+      {
+        "teamId": 11,
+        "teamName": "Seven Deadly Chins",
+        "abbrev": "WHIP",
+        "wins": 5,
+        "losses": 3,
+        "ties": 0,
+        "winPercentage": 0.625,
+        "pointsFor": 1098.22,
+        "pointsAgainst": 1027.26,
+        "playoffSeed": 4,
+        "waiverPriority": 10,
+        "draftDayProjectedRank": 6,
+        "currentProjectedRank": 2,
+        "finalRank": null,
+        "championshipWon": null,
+        "playoffOutcome": null,
+        "outcomeConfidence": null,
+        "madePlayoffs": null,
+        "rank": 4
+      },
+      {
+        "teamId": 3,
+        "teamName": "Slob on my Dobb",
+        "abbrev": "HOLI",
+        "wins": 4,
+        "losses": 4,
+        "ties": 0,
+        "winPercentage": 0.5,
+        "pointsFor": 1255.0400000000002,
+        "pointsAgainst": 1131.74,
+        "playoffSeed": 5,
+        "waiverPriority": 6,
+        "draftDayProjectedRank": 1,
+        "currentProjectedRank": 5,
+        "finalRank": null,
+        "championshipWon": null,
+        "playoffOutcome": null,
+        "outcomeConfidence": null,
+        "madePlayoffs": null,
+        "rank": 5
+      },
+      {
+        "teamId": 7,
+        "teamName": "The Chili Cheesers ",
+        "abbrev": "BP3",
+        "wins": 4,
+        "losses": 4,
+        "ties": 0,
+        "winPercentage": 0.5,
+        "pointsFor": 1138.25,
+        "pointsAgainst": 1164.52,
+        "playoffSeed": 6,
+        "waiverPriority": 11,
+        "draftDayProjectedRank": 9,
+        "currentProjectedRank": 7,
+        "finalRank": null,
+        "championshipWon": null,
+        "playoffOutcome": null,
+        "outcomeConfidence": null,
+        "madePlayoffs": null,
+        "rank": 6
+      },
+      {
+        "teamId": 2,
+        "teamName": "Red Leopards",
+        "abbrev": "ZEEK",
+        "wins": 4,
+        "losses": 4,
+        "ties": 0,
+        "winPercentage": 0.5,
+        "pointsFor": 1138.11,
+        "pointsAgainst": 1045.46,
+        "playoffSeed": 7,
+        "waiverPriority": 9,
+        "draftDayProjectedRank": 8,
+        "currentProjectedRank": 8,
+        "finalRank": null,
+        "championshipWon": null,
+        "playoffOutcome": null,
+        "outcomeConfidence": null,
+        "madePlayoffs": null,
+        "rank": 7
+      },
+      {
+        "teamId": 9,
+        "teamName": "El Niño",
+        "abbrev": "Niño",
+        "wins": 4,
+        "losses": 4,
+        "ties": 0,
+        "winPercentage": 0.5,
+        "pointsFor": 1135.41,
+        "pointsAgainst": 1123.61,
+        "playoffSeed": 8,
+        "waiverPriority": 5,
+        "draftDayProjectedRank": 7,
+        "currentProjectedRank": 9,
+        "finalRank": null,
+        "championshipWon": null,
+        "playoffOutcome": null,
+        "outcomeConfidence": null,
+        "madePlayoffs": null,
+        "rank": 8
+      },
+      {
+        "teamId": 5,
+        "teamName": "D0nkey K0ng",
+        "abbrev": "LDL",
+        "wins": 4,
+        "losses": 4,
+        "ties": 0,
+        "winPercentage": 0.5,
+        "pointsFor": 1096.4499999999998,
+        "pointsAgainst": 1108.2,
+        "playoffSeed": 9,
+        "waiverPriority": 4,
+        "draftDayProjectedRank": 4,
+        "currentProjectedRank": 6,
+        "finalRank": null,
+        "championshipWon": null,
+        "playoffOutcome": null,
+        "outcomeConfidence": null,
+        "madePlayoffs": null,
+        "rank": 9
+      },
+      {
+        "teamId": 6,
+        "teamName": "Three Dreaded Snake",
+        "abbrev": "KING",
+        "wins": 4,
+        "losses": 4,
+        "ties": 0,
+        "winPercentage": 0.5,
+        "pointsFor": 1037.1200000000001,
+        "pointsAgainst": 1090.3,
+        "playoffSeed": 10,
+        "waiverPriority": 3,
+        "draftDayProjectedRank": 12,
+        "currentProjectedRank": 10,
+        "finalRank": null,
+        "championshipWon": null,
+        "playoffOutcome": null,
+        "outcomeConfidence": null,
+        "madePlayoffs": null,
+        "rank": 10
+      },
+      {
+        "teamId": 4,
+        "teamName": "The LLC",
+        "abbrev": "BABB",
+        "wins": 3,
+        "losses": 5,
+        "ties": 0,
+        "winPercentage": 0.375,
+        "pointsFor": 1115.4,
+        "pointsAgainst": 1182.19,
+        "playoffSeed": 11,
+        "waiverPriority": 2,
+        "draftDayProjectedRank": 2,
+        "currentProjectedRank": 11,
+        "finalRank": null,
+        "championshipWon": null,
+        "playoffOutcome": null,
+        "outcomeConfidence": null,
+        "madePlayoffs": null,
+        "rank": 11
+      },
+      {
+        "teamId": 10,
+        "teamName": "Mud Dogs",
+        "abbrev": "BM",
+        "wins": 2,
+        "losses": 6,
+        "ties": 0,
+        "winPercentage": 0.25,
+        "pointsFor": 983.5300000000001,
+        "pointsAgainst": 1205.72,
+        "playoffSeed": 12,
+        "waiverPriority": 1,
+        "draftDayProjectedRank": 10,
+        "currentProjectedRank": 12,
+        "finalRank": null,
+        "championshipWon": null,
+        "playoffOutcome": null,
+        "outcomeConfidence": null,
+        "madePlayoffs": null,
+        "rank": 12
+      }
+    ]
+  },
+  "checks": {
+    "gateway_manifest_identity": true,
+    "gateway_manifest_match": true,
+    "gateway_stale_false_at_capture": true,
+    "week8_six": true,
+    "week8_12_unique": true,
+    "week8_gateway_6of6": true,
+    "week9_six": true,
+    "week9_12_unique": true,
+    "week9_gateway_6of6": true,
+    "week8_final": true,
+    "week9_unsettled": true,
+    "standings_12": true,
+    "standings_gateway_12of12": true,
+    "week8_transaction_source_comparable": true,
+    "week8_transaction_cap": true,
+    "week8_timestamps_valid": true,
+    "week8_row_reconciliation": true,
+    "week9_transaction_source_comparable": true,
+    "week9_transaction_cap": true,
+    "week9_timestamps_valid": true,
+    "week9_row_reconciliation": true
+  },
+  "limitations": [
+    "week8_trade_details_incomplete",
+    "week9_trade_exchange_details_incomplete",
+    "original_ESPN_HTTP_wire_unavailable",
+    "independent_steward_ACK_missing",
+    "gateway_snapshot_earlier_than_flaim_acquisition",
+    "publication_hold"
+  ],
+  "prior_reference": {
+    "path": "memo-os/week-9/WEEK_8_FINAL_WEEK_9_PROVIDER_EVIDENCE_2026-11-04.json"
+  }
+}
