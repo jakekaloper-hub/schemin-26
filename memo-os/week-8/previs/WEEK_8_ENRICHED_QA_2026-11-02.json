@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "28_packets": true,
+    "five_stories_enriched": true,
+    "all_six_dual_outcomes": true,
+    "all_canvases_1080x1920": true
+  },
+  "result": "STRUCTURAL_PASS / VISUAL_AND_RELEASE_BLOCKED",
+  "not_performed": [
+    "rendered visual QA",
+    "independent umpire",
+    "Fact Lock",
+    "Week4-7 world state reconciliation"
+  ]
+}

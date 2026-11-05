@@ -1,0 +1,156 @@
+# Week 8 — Official PNG Production Ledger (PR #272)
+
+**Founder Phase 0 reset (November 4, 2026):** All earlier generated PNGs and provisional layout/camera approvals are revoked for the Week 8 salvage pass. **ZERO pages are approved for reuse or publication.** Preserve failed attempt receipts as historical evidence, never as generation authority. The six matchup features will be assessed for storytelling quality before any new rendering. Week 7 remains the visual quality benchmark, not a mandatory three-page template.
+
+**Updated:** 2026-11-03. **Authority:** Founder command: published official Week 7 is the primary visual/editorial benchmark, Memo OS V5.2-RC governs execution. Working folio structure only; not a locked publication page count.
+
+**Proof terminology:** `REJECTED` means a produced experimental image was inspected and failed the publication contract. `NOT STARTED` means no accepted PNG exists. No director or Umpire approval inferred. Character source mounts remain unproven.
+
+**Unit 02 first experimental render:** Local ChatGPT proof `/mnt/data/a_dramatic_cinematic_magazine_style_illustrated_c.png` (not a GitHub artifact), SHA-256 `673a7fb285a1d9fbc50a08b2e5219ed81dfb1503e8abccd74c5a7d9ee840ad68`, actual dimensions **941×1672** PNG. **REJECTED**: wrong dimensions (required 1080×1920); unapproved generic human warlord in character-free opening; invented prose and unverified newsletter copy; title/composition drift toward cover rather than Unit 02 editorial opening; absence of actual Week 7 image-conditioned visual comparison. Do NOT reuse, publish, or promote as source authority. The artifact remains local only and is not an approved published page.
+
+**Unit 02 second experimental render (REJECTED):** Local ChatGPT output `/mnt/data/a_cinematic_highly_detailed_fantasy_epic_magazine.png` (not committed to GitHub). Actual PNG SHA-256 `5a648e340558ba8a12932dca9b4e0165a0abed8d143e187a040130904461ba08`; image dimensions 941×1672. The image generated apparent ObiWan Jacoby, Three Dreaded Snake, Chili Outlaw, Arsenal Centaur, and Seven Deadly Chins despite **zero canon image assets attached or proven as renderer inputs**. Their likeness, clothing, species, and anatomy therefore cannot be certified; generated results are **NONCANONICAL CHARACTER SUBSTITUTIONS** and the output remains unusable. This second attempt also improperly turned an opening editorial page into an unapproved feature cover and printed unapproved text. **HARD HOLD: no further native text-only, non-reference-bound character images under Week 8.** No generated figure or composite from either rejected experiment may seed new canonical artwork. Neither image should be called a draft accepted for publication.
+
+**Service results:** Everygen generation rejected before start (`NO_SUBSCRIPTION`); Creative Claw generation rejected before start (`insufficient_balance`, 24 required vs 7 available); neither produced an artifact. Native image generation produced the rejected experimental file above. Remote Mac `Schemin_26_Official_Week_7_Memo.pdf` file exists and is 31 pages, but full original-page raster comparison still needed.
+
+| Folio | Working title | Production sequence | Composition IDs | PNG state | Reference mount | Exact copy / typography | Week 7 comparison | Character / Atlas QA | Acceptance |
+|---|---|---|---|---|---|---|---|---|---|
+| 01 | Cover — The Fallen Giant candidate | G3-20 | supporting | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
+| 02 | The Midseason Reckoning | G1-01 | supporting | REJECTED 2 proofs | Not applicable (character-free target) | FAIL | NOT RUN | NOT RUN | REVISE |
+| 03 | The Last Light I | G1-02 | W08-10-01, W08-10-02 | GENERATED EXPERIMENT, REJECTED BY FOUNDER; RESET TO ORIGINAL POV OVERTURE | ACTUAL PRIMARY MOUNT NOT PROVEN | SOURCE COPY PROVISIONAL; RESOLUTION FAIL 941×1672 | Week 7 pp11/20 reviewed, page rhythm failed | STORYBOARD POV AND CHARACTERS REVISE | REJECTED |
+| 04 | The Last Light II | G1-03 | W08-10-03, W08-10-04 | GENERATED EXPERIMENT, REJECTED BY FOUNDER; CAMERA REBLOCK REQUIRED | ACTUAL PRIMARY MOUNT NOT PROVEN | INVENTED PROSE; RESOLUTION FAIL 941×1672 | INCONSISTENT OVERSIZED COVER HEADER | NO FAIRWAY, WRONG AXIS, MISSED STORYTELLING | REJECTED |
+| 05 | Hostile Ground I | G1-04 | W08-02-01, W08-02-02 | FOUNDER RESET: PRIOR COMPOSITION ACCEPTANCE REVOKED; CHARACTER RENDER REJECTED | NOT PROVEN | NOT RUN | PRIOR HEADER PREFERENCE UNAPPROVED FOR SALVAGE | CAST DOES NOT MATCH CANON | REVISION REQUIRED |
+| 06 | Hostile Ground II | G1-05 | W08-02-03, W08-02-04 | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
+| 07 | Divisional Pressure | G1-11 | supporting | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
+| 08 | The Storm That Wouldn't Leave I | G1-06 | W08-01-01, W08-01-02 | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
+| 09 | The Storm That Wouldn't Leave II | G1-07 | W08-01-03, W08-01-04 | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
+| 10 | The Storm That Wouldn't Leave III | G1-08 | W08-01-05 | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
+| 11 | The Fallen Giant I | G2-14 | W08-05-01, W08-05-02 | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
+| 12 | The Fallen Giant II | G2-15 | W08-05-03, W08-05-04 | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
+| 13 | The Fallen Giant III | G2-16 | W08-05-05 | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
+| 14 | The Weight of a Crown I | G1-09 | W08-03-01, W08-03-02 | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
+| 15 | The Weight of a Crown II | G1-10 | W08-03-03, W08-03-04 | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
+| 16 | The Place We Once Knew I | G2-17 | W08-06-01, W08-06-02, W08-06-03 | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
+| 17 | The Place We Once Knew II | G2-18 | W08-06-04, W08-06-05 | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
+| 18 | The Place We Once Knew III | G2-19 | W08-06-06, W08-06-07 | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
+| 19 | Pittsy's Book | G1-12 | supporting | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
+| 20 | The Final Word / Week 9 | G1-13 | supporting | NOT STARTED | NOT PROVEN | NOT RUN | NOT RUN | NOT RUN | PENDING |
+
+## Unit 03 — approved-source preparation receipt (2026-11-03)
+
+Pre-generation packet saved at `memo-os/week-8/previs/WEEK_8_UNIT_03_LAST_LIGHT_PREGENERATION_RENDER_PACKET_2026-11-03.md`. Exact `W08-10-01` and `W08-10-02` manuscript passages and cinematic blocking have been reconciled. On the authorized Mac, Commissioner-approved October 18 lineup crops for Mud Dogs and Duckhook SHA-256-match the existing approved lineup manifest; both were inspected visually. Actual Week 7 published PDF pages 11 (Duckhook) and 20 (Mud Dogs) were rendered locally and visually inspected as the controlling illustrative benchmark. The historical primary JPGs were not found in the checked GitHub branch or local checkout; prior Library handles remain registered but inaccessible for direct raw-byte materialization in this context. No image-model reference-mount receipt, final image, independent review, or page acceptance is claimed. A provisional two-column typographic fit calculation for the exact 126 words has been performed; **no visual/mobile raster copyfit pass has been performed**. The older Duckhook bucket-hat description conflicts with the green cap visible in the Commissioner-approved October 18 lineup and published Week 7; render only from proven visual authority, never a descriptive blend.
+
+## Founder-directed Last Light restart — November 3
+
+**Founder rejected the existing visual direction for BOTH Page 03 and Page 04.** Do not keep the previous confrontation/countershot composition as the controlling story. The original 29 **compositions** remain the governing storyboard, not 29 independently mandatory printed pages. Sequence restarts with W08-10-01 hunter/hunted dual POV overture, then W08-10-02 disturbed trail, W08-10-03 narrowing channel, and W08-10-04 final last-light aftermath. Current Page 03 experiment: `the_last_light_swamp_standoff.png`, 941×1672, SHA-256 `726e36166f555297e23668cd62eea8e132a39ebcfdcfa9555c938fee348ae53d`, rejected. Current Page 04 experiment: `a_cinematic_highly_detailed_photoreal_fantasy_il.png`, 941×1672, SHA-256 `e65d96d76766ae610a9852c65e15b288d5673c764574efba0b00dec0f01b48dc`, rejected. Neither image is a valid final source or Character Canon reference.
+
+**New Page 04 Founder-camera specification:** entirely rear-positioned observer; Duckhook calmly drives toward a clearly visible fairway opening in the distant cypress landscape; Mud Dogs charges behind him on the same spatial axis, Duckhook unfazed; maintain coherent watercourse and dry footing. Dusk darkens from the preceding page. Top-of-page layout should CONTINUE the prior small Schemin' 26 / Week 8 masthead and matchup identity, not use a huge new cover banner. Use full illustrated narrative, exact source copy rather than invented prose, and accurate victory score once score placement is justified. The visible fairway is a cinematic destination within the scene, NOT automatically a newly established permanent Atlas golf course. Keep prior canon visual references attached as actual renderer inputs and verify subject conditioning.
+
+## Remaining gates
+
+1. For Unit 02, **forbid any figures or character-bearing images**; create a **character-free** environmental/editorial image plate based on Week 7's real opening style; overlay only exact editorial text from the current Week 8 copyfit prototype, subject to approval; export at 1080×1920 and visually inspect before accepting.
+2. For Unit 03, mount the actual approved Mud Dogs and Duckhook reference bytes and prove the image renderer received them. A path name, file handle mentioned in prose, or character-description-only prompt does not satisfy this gate. Reject generic substitutes. Block generation until real mounted reference inputs can be audited.
+3. Arsenal Centaur candidate remains NONACTIVE; Chili's approved October 22 source binary is not verified. Keep their character-bearing units blocked until authority is resolved.
+4. Separate a file's SHA and existence from actual renderer binding. Verify Atlas site claims and independent Umpire approval separately.
+5. Use **this existing Week 8 ledger within the canonical repository**, not a separate Memo OS. Every accepted PNG needs its exact repo path, Git commit, SHA-256, 1080×1920 resolution and copy/character/Atlas/mobile QA evidence.
+
+**Current production acceptance:** 0/20 accepted; 2/2 Unit 02 experimental renders rejected; 19/20 other working units not started (working allocation). No publication or merge authorized.
+
+## Founder W08-02-01 creative selection — 2026-11-03
+
+The Founder has explicitly selected the **original** `Hostile Ground_ Storm-Coast Ruins.png` environment, cinematic framing, and compact two-line inner-page header as the **MATCHUP PAGE VISUAL BENCHMARK FOR ALL SIX FEATURES**. Keep its small SCHEMIN '26 / WEEK 8 top bar, thin burgundy matchup strip, immersive coastal vista and upper/lower reveal; use scene-specific geography elsewhere. The much larger ornate gold crowned masthead shown in the separate screenshot is COVER ONLY. Existing Red Leopards and LLC visible people are wrong and **must be replaced**, not relabeled; do not accept original PNG. The source image is 941×1672, so even with corrected characters an exact 1080×1920 final export/QA is required.
+
+Source visual SHA-256: `877f85df9afc2e268e51b23da5d4a10d8b44e3407b539a57bdec217e32c07874`. Header screenshot SHA-256: `2f6ddce5569379b083fed032df5ff1cdddfa694b532ddd862a612981ff38a416`. Cover-only masthead screenshot SHA-256: `8f2a8b524be8678c9dc8b5268d8bc9b983fc25bff3cd8732b8ba97b7941a18e2`. These user-shared visual materials have NOT been uploaded as repo binaries. Visual selection is **not** completed rendering, character approval, or independent Umpire signoff. Governing lock: `WEEK_8_FOUNDER_CINEMATIC_REALISM_CROSS_PRODUCTION_DIRECTIVE_2026-11-02.md`.
+
+## W08-02-04 generated proof — QA rejection
+
+This session generated a local PNG at `/mnt/data/a_cinematic_highly_detailed_fantasy_sports_themed.png`. It is **NOT ACCEPTED**. Inspection against the authoritative Week 8 results found a factual error: its LLC record reads **(5–3)**, but the official ESPN decided Week 8 standings show **The LLC (3–5)**, while Red Leopards are (4–4). Its text also claims the Red Leopard ruins have been transferred to the LLC, which is **not established Atlas canon**. The illustration kneels/bows the Leopard and stages an exaggerated surrender despite the packet prohibiting invented devastation and permanent territory transfer; this undermines the intended 2.78-point narrow upset. The PNG is **941×1671**, not required 1080×1920. Unverified character-renderer source mounts and invented prose remain additional release blockers. Preserve as **rejected proof only**; do not print, publish, claim acceptance or promote these scene mutations to canon. Corrective visual concept: The LLC exits through the lower coastal approach into rain with the narrow victory, while Red Leopards remains in control of the upper ruined stones; the result changes the record, not physical ownership of the ruins. The exact approved manuscript passage must be placed deterministically outside the image model.
+
+## W08-02-03 phase-order incident (Founder correction, 2026-11-03)
+
+The first Part III proof showed the final 135.80–138.58 scoreboard and 4–4 / 3–5 records. That belongs exclusively to W08-02-04. First proof: 941x1671, SHA-256 d5f2115505246f7087590f8ddcc61d5fcb39a950bc119a628d74ba476c39f7a0, rejected. A new Part III experimental render was generated at 941x1672, SHA-256 cccee6c062ee427b67a3cd00722e5828febb98ff98ea6b6c231a79274b01973c; final score panel is absent, but text is not exact manuscript and a marked tactical map is depicted, so **not accepted**. Scene W08-02-03 is tactical discovery only. Only W08-02-04 may reveal final score and result. Future visual QA must explicitly reject premature outcome typography, generic or unauthorized copy, unverified reference inputs, and wrong resolution; Bullpen routing alone is not independent approval.
+
+## W08-02-03 corrected local proof (same incident)
+
+A subsequent locally typeset 1080x1920 PNG is available at `/mnt/data/W08-02-03_Reversal_in_the_Ruins_corrected_proof.png` (SHA-256 `9d1caa9893299655537abb00355849dd78381384809b279f94cc2bfae49202ea`). The first erroneous result panel has been removed, and the W08-02-03 manuscript paragraph is laid out verbatim in two columns. The current scene still includes an illustrative annotated tactical map, and independently verified character-reference mounts are not recorded, so **this is a review proof, NOT an accepted official page**. Packet phases now explicitly prohibit scoreboards/final records in W08-02-01 through W08-02-03; W08-02-04 alone may reveal the decided result. The new 1080x1920 proof is local only, not committed to GitHub.
+
+## Founder-submitted Hostile Ground four-image checkpoint — November 3, 2026
+
+The Founder supplied four finished-looking **local candidate** PNGs for the W08-02 story sequence. Visual direction is coherent and preserves the compact interior-page matchup header, coastal-ruins setting and recognizable two-character silhouettes; **this is not an independent character-canon acceptance or a publication-ready signoff**. Exact uploaded-file inventories and SHA-256 were recomputed from the attached original bytes in the active production review:
+
+| Composition | Submitted local PNG filename | Native pixel dimensions | SHA-256 | Status |
+|---|---|---|---|---|
+| W08-02-01 | `Hostile Ground_ Predator and Intruder(1).png` | 941x1672 | `7677ffe0dba6efaf91fc306325127a287b883e14ffb3ca5e6839ccba2faa5c1f` | Candidate; approved scenic/design direction, technical/copy QA pending |
+| W08-02-02 | `Hostile Ground_ The LLC Advances(1).png` | 941x1672 | `ee746aa5c1bf7e3e4177c656c28df21336c41e75d15407fbd9488a1513768ff0` | Candidate; manuscript fidelity and technical QA pending |
+| W08-02-03 | `W08-02-03_Reversal_in_the_Ruins_corrected_proof(2).png` | 1080x1920 | `8e6b27cb251a140421edc4641ea8df828ddcf4ce0ff359c539e3403f72aeb1c1` | Candidate; no premature score; typography visual consistency and actual ref mount remain pending |
+| W08-02-04 | `Hostile Ground_ Part IV.png` | 941x1672 | `fbcfe3c3513403b9a0a28b2529fd9af3743231c279888d8bf0e5c31a39cb7d31` | Candidate; correct winner/score and team W–L, manuscript fidelity and technical QA pending |
+
+**Remaining non-optional checks:** Reconcile all body copy, titles and any record/score copy to actual authorized source; ensure Parts I–III do not reveal outcomes; make three undersized outputs **genuinely** 1080x1920 with legible type rather than treating a blind resize as full render QA; verify current Red Leopard/LLC approved primary identity input mounts; run same-header and cinematic-Atlas cross-page visual review; obtain real independent and Founder page acceptance. User-uploaded source files are current conversation attachments, **not committed PNGs** and have not been promoted to a repository output folder.
+
+**Next independent matchup production target:** The Last Light, beginning at **W08-10-01** (shared hunter/hunted environmental POV), then W08-10-02 through 10-04. Preserve the full 29-composition original storyboard and the original issue reading order; production order is flexible and 29 packets do not mandate 29 printed pages.
+
+## The Last Light — four local 1080×1920 source-copy review proofs (November 3)
+
+The original `W08-10-01` through `W08-10-04` packets were reconciled to their respective existing exact manuscript passages. Four independently sized portrait PNG **review proofs** were locally assembled from previously generated swamp imagery in the conversation, using deterministic magazine typography. **These are NOT four independent new character-conditioned cinematic generations and do not satisfy final artwork acceptance.** A rejected initial collage and human-Duckhook output were excluded; no human Duckhook appears in these proofs. Two underlying swamp character-art plates are reused with varying crops. No official character-source renderer-mount receipt is present.
+
+| Packet | Local artifact | Dimensions | SHA-256 | Source-copy/score control | Status |
+|---|---|---|---|---|---|
+| W08-10-01 | `/mnt/data/last_light_review/W08-10-01.png` | 1080×1920 | `30bd21bf8cf5f83761f9ee6dda433c0123e2c28b7925e3da097366b814d1559e` | Exact W08-10-01 passage; no score | COPY/LAYOUT PROOF ONLY |
+| W08-10-02 | `/mnt/data/last_light_review/W08-10-02.png` | 1080×1920 | `2dd4f5c649e00e801d5bbc6a2229828f6cfbfee696d1421fcd2f5fc73fe86c44` | Exact W08-10-02 passage; no score | COPY/LAYOUT PROOF ONLY |
+| W08-10-03 | `/mnt/data/last_light_review/W08-10-03.png` | 1080×1920 | `457c628c36330ed99a6edc4570269803aec848a5ec63b0bd42efec1418e3629c` | Exact W08-10-03 passage; no score | COPY/LAYOUT PROOF ONLY |
+| W08-10-04 | `/mnt/data/last_light_review/W08-10-04.png` | 1080×1920 | `0529cf842ea6d16f5542f2d208eaf9abfd9f61e4c64596466b14da4ac190ce4e` | Exact W08-10-04 passage; only page with score, Mud Dogs 100.88 (2–6), Duckhook 174.06 (5–3) | COPY/LAYOUT PROOF ONLY |
+
+Local review pack: `/mnt/data/Schemin26_Week8_TheLastLight_4_Page_Proofs.zip`. **NOT persisted as binary files in GitHub**; paths represent current conversation outputs, not repository locations.
+
+**Still required for final 4-page production:** distinct landscape-first 29-packet shot executions, proven owner-specific source conditioning for both Mud Dogs and Duckhook, independent character and Atlas camera QA, actual phone-scale text QA and Founder review. Do not promote duplicated source-plate variants as four accepted art scenes.
+
+## Live Bullpen checkpoint — November 4, 2026 (Founder-only Bullpen production control)
+
+**Founder instruction:** ChatGPT must not independently select, generate, approve, or publish production artwork. Only the authenticated Bullpen execution system should control the release workflow. Do not equate a chat-generated image with Bullpen execution.
+
+**Actual operation performed:** Bullpen's connected Mac runtime `/Users/jakekaloper/Developer/ai/bullpen-runtime` executed its existing `createConsultEngine().conveneBoardMeeting()` with the distinct roles `the_librarian`, `the_beat_writer`, `the_setup_man`, `the_analyst`, `the_umpire` and The Closer synthesis. Local Ollama provider `qwen2.5-coder:7b`; 5/5 role responses recorded; local receipt `/tmp/schemin_w8_bullpen_board_20261104.json`. **This is real local model consultation, NOT an authenticated independent human Umpire, not a separate signoff, and not an image render.** The runner does not establish the identity or independence of an external QA reviewer.
+
+**Board-selected NEXT IMAGE:** `W08-10-01` — The Last Light: Hunter / Hunted shared environmental POV overture, Mud Dogs (home) vs Dr. Duckhook (away). Existing original `WEEK_8_29_COMPOSITION_PACKETS_2026-11-02.json` and `WEEK_8_SESSION_E_29_SCENE_MANUSCRIPT_DRAFT_2026-11-03.md` govern. Must begin at channel waterline, reveal Mud Dogs on raised bank, find Duckhook across a physically coherent watercourse, share POV emphasis. Parent Atlas `LOC-MUD-DOGS-SWAMP`; proposed Blackwater Cut is not permanent canon. **No Week 8 final score or winner reveal on the overture.**
+
+**Non-negotiable PRE-RENDER blockers:** Approved `CHAR-BOBBY-MITCHELL` and `CHAR-ZACH-WILSON` image conditioning inputs must be attached as real image bytes/registered authorized handles and evidenced by a renderer request receipt; no text-only substitutes. On authorized Mac, approved October 18 *lineup crop* hashes match the registered manifest: Mud Dogs `d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736`; Duckhook `c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a`. Historical manifest primary JPEG files remain unavailable at their listed local checkout path; separate `COMMISSIONER_2026-10-12.png` files exist but DO NOT automatically supersede the historical primary authorities. Crops and October 12 PNGs must not be promoted to unverified primary subject authority. Actual renderer mount proof is not recorded. No independently authenticated pre-render Umpire signoff exists.
+
+**Actual current Hostile Ground 4-image rejection evidence:** The latest four user-provided publication candidates `hostile_ground_predator_intruder_overture.png`, `hostile_ground_the_llc_advances.png`, `hostile_ground_reversal_in_the_ruins.png`, `hostile_ground_ruins_at_sunset.png` are **ALL FOUR 941×1672**, not the required 1080×1920. SHA256 respectively `9f9e4699877ac1ba90d15119aff350aa3c902c9576a2578eda9d3b598229b76d`, `af88d15ed76e0e68839cbd9f356aefe24d1ae9ede00cf57ac2edbad69ea773c1`, `28751ccc56cd27f46fdc343c71f6713656b33cfb62b7481f2ae7712969109e39`, `344f7fad7e8ed537ae0c286e513fec17d73cfcfc82c04902da94e5c841dfe342`. **All four rejected as publication assets** for dimensions and repeated camera/figure staging, excessive repeated graphic treatment, insufficient narrative and QA provenance. The initial board briefing suggested 3/4 undersized based on an older iteration; direct audit of the latest four files establishes **4/4**, which supersedes that outdated count. Keep the approved compact interior masthead and coastal atmosphere as an art-direction reference only; not a passing QA baseline.
+
+**Required POST-RENDER evidence before any page acceptance:** Actual final 1080x1920 PNG bytes + SHA-256; side-by-side visual identity review against approved image references; landscape/Atlas camera continuity and separate-character POV evaluation; exact source-copy OCR or deterministic typography comparison with editorial proofreading; no invented text or outcome leakage; phone-scale legibility; genuine independent Umpire result and Founder final approval. No bulk generation or publication permitted with failed/missing receipts.
+
+**Current release disposition: W08-10-01 selected by Bullpen consultation; PRE-RENDER NO-GO. PNG generated: NO. PNG accepted: NO.** The existing Bullpen runtime demonstrated text consultations but no verified authenticated source-bound **image generation + independent visual QA** worker for this command. This receipt records blockers and selection in the canonical existing Memo OS rather than creating a parallel operating framework.
+
+
+## Bullpen Last Light narrative-action incident — 2026-11-04
+
+**Founder rejection:** The latest W08-10-01 and W08-10-02 pictures show a repetitive snarling static dog and a stationary golfer studying a map. Neither depicts an escalating hunter/hunted visual sequence. W08-10-02 fails its packet's physical disturbed-trail and pursuit actions. These are **REJECTED proof images**, not valid publication pages.
+
+**Live Bullpen execution:** Local project Bullpen `createConsultEngine().conveneBoardMeeting()` completed with `the_beat_writer`, `the_setup_man`, and `the_umpire`, followed by `the_closer` synthesis using local `qwen2.5-coder:7b`; 3/3 director responses, 4 consult trace records. Receipt `/tmp/schemin_last_light_visual_incident_review.json` on authorized Mac. This is a *real local model-based director consultation*, **not** a certified independent human/externally authenticated Umpire signature. It confirmed insufficient distinct visible actions, continuity and QA evidence. Any suggestion of new actors, invented buildings, maps, or alternate canon in this model output is not authoritative.
+
+**Corrective execution:** In existing authoritative `previs/WEEK_8_29_COMPOSITION_PACKETS_2026-11-02.json`, added `bullpen_visual_action_gate_2026_11_04` to all four original Last Light packets. Story phases: W08-10-01 / 10-02 = **Act I: Tracks at Dusk**; W08-10-03 = **Act II: Narrowing Channel**; W08-10-04 = **Act III: Last Light**. Clear and different visible actions and camera placements are now required. W08-10-01 introduces waterline geography before direct confrontation; W08-10-02 Mud Dogs *sniffs, identifies, follows and pursues wet physical traces* while Duckhook moves farther down the bank; W08-10-03 Duckhook's grounded rear-angle golf shot and Mud Dogs' real pursuit clash with channel geometry; W08-10-04 Duckhook departs, Mud Dogs is left alone and only here may the decided 174.06–100.88 result be shown. No fixed repeated pose, invented map table, cabin, human Mud Dogs or human Duckhook.
+
+**Structural readback test:** 29 original packets retained, all four Last Light action locks present, three-act mapping correct, distinct actions, two canonical reference IDs retained, final result restricted to ending and no Umpire/Founder approval falsely set: **7/7 checks PASS**. This verifies JSON only, **not** images or actual renderer conditioning.
+
+**Next production hold:** W08-10-02 requires a genuine new scene depiction, not a variant of its predecessor. Both actual approved subject images must be mounted to the chosen renderer and their image-condition input evidenced before new generated art is called Bullpen-produced. Publisher acceptance and independent visual QA remain **NOT RUN / BLOCKED**.
+
+
+## Phase 0 entertainment-quality gate — November 4, 2026
+
+- All 29 scene passages have been **substantively rewritten** as unapproved candidates in the existing Session E manuscript (commit `83dfb85`). No previous page, frame, header style, or visual approval survives the Founder reset.
+- All 29 active composition packets now use specific story events, corrected editorial handoff flags, and explicit `REWRITTEN_UNAPPROVED` / `NOT_APPROVED_FOR_GENERATION` states (commit `1479701`).
+- The six story concepts and verified outcomes remain usable **only as factual/story-development anchors**. Scene-level action, prose, image direction, panel grouping, cover, and page count must earn acceptance on entertainment quality and continuity.
+- The Week 7 publication is the visual/editorial quality benchmark, **not** an instruction to reproduce its repeated three-page layouts. No fixed 20-page or three-page-feature allocation is approved.
+- Render eligibility requires at minimum: a memorable opening beat, visible causality/change, distinguishing character behavior, coherent setting, audience-facing payoff, approved source-image attachment, and readable exact copy. Narrative copy remains under editorial/Founder acceptance; independent visual QA cannot occur before new images exist.
+- Retain the two known Chili/Arsenal visual authority exceptions, but do not infer that the other ten are render-certified merely because their crop files exist. 
+
+**Salvage production priority:** Six thematic matchups first. Supporting/fill-in pages after the feature stories demonstrate quality. Do not resume prior experimental PNGs.
+
+
+## November 4 action-first salvage — superseding earlier prose pass
+
+**Founder directive:** Week 8 must deliver intense, physical, cinematic action. The previous emotional/abstract rewrite was rejected as unsuitable. All earlier experimental PNGs remain rejected and none of the pages are approved for publication.
+
+**Actual executed corrections:** 29/29 manuscript scenes replaced with kinetic pursuit, physical confrontation, credible turn/escape, and specific results; all 29 JSON packets now have matching physical-event choreography, camera geometry, movement continuity, fresh introductory narration, and action-first unapproved status. Original founder rear-camera Duckhook fairway direction remains mandatory.
+
+**Known source correction:** The old 20-unit HTML proof contains superseded text and must never be used as final source copy or a fixed page-count authority. Its header now warns explicitly. Source of truth is the active Session E manuscript and 29 packet JSON. Week 7 remains visual benchmark.
+
+**Validation readback:** 29 manuscript ID sections matched 29 active packet IDs; zero stale provisional-intro mismatches; six verified scoring pairs retained; six overtures and all preserved Founder Last Light camera revisions; **no newly generated or approved PNGs**. True art/readability QA remains NOT RUN, and source-image mounting is unresolved.
