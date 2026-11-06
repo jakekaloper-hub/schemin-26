@@ -52,6 +52,24 @@ class EvidenceTests(unittest.TestCase):
             described_action='character pulls lever',observed_pose='hand gripping lever',spatial_interaction='lever moves gate')
         x['pages'][0]['review_receipts'].append(r)
         self.assertFalse(any('physicality' in e for e in validate_evidence(x,self.root)))
+    def test_week9_requires_data_steward(self):
+        x=copy.deepcopy(self.d);x['season']=2026;x['week']=9
+        self.assertIn('Data Steward authenticated acceptance receipt required',validate_evidence(x,self.root))
+    def test_week9_rejects_unacknowledged_steward(self):
+        x=copy.deepcopy(self.d);x['season']=2026;x['week']=9
+        p=self.root/'steward.json'
+        p.write_text(json.dumps({'state':'ASSIGNED','decision':'PENDING'}))
+        x['data_steward_receipt_path']='steward.json';x['data_steward_receipt_sha256']=digest(p)
+        self.assertIn('Data Steward acceptance not validated',validate_evidence(x,self.root))
+    def test_week9_rejects_stale_source_binding(self):
+        x=copy.deepcopy(self.d);x['season']=2026;x['week']=9
+        p=self.root/'steward.json'
+        p.write_text(json.dumps({'state':'VALIDATED','decision':'ACCEPTED','receiver_id':'steward',
+            'acknowledged_at':'2026-11-06','verification_method':'authenticated-runtime',
+            'source_receipt_sha256':'0'*64,'league_id':'1417621','week':9,
+            'freshness':'PASS','semantics':'PASS','lineage':'PASS'}))
+        x['data_steward_receipt_path']='steward.json';x['data_steward_receipt_sha256']=digest(p)
+        self.assertIn('Data Steward acceptance not bound to provider receipt',validate_evidence(x,self.root))
     def test_wrong_provider_result(self):
         x=copy.deepcopy(self.d);x["results"]["0"]["home"]=999;self.assertTrue(validate_evidence(x,self.root))
     def test_missing_provider(self):

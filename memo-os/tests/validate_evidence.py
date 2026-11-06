@@ -51,6 +51,34 @@ def validate_evidence(manifest, base):
                 except Exception as exc:
                     errors.append("Founder transaction integrity or verification failure: " + type(exc).__name__)
     base = Path(base).resolve()
+    # Prospective releases cannot turn a staged ECS assignment into an ACK.
+    # This verifies receipt consistency, not external authentication.
+    forward = manifest.get('season') == 2026 and type(manifest.get('week')) is int and manifest['week'] >= 9
+    if forward:
+        steward_path = manifest.get('data_steward_receipt_path')
+        if not isinstance(steward_path, str) or not steward_path:
+            errors.append('Data Steward authenticated acceptance receipt required')
+        else:
+            source = (base / steward_path).resolve()
+            if not source.is_relative_to(base) or not source.is_file():
+                errors.append('Data Steward receipt inaccessible')
+            elif digest(source) != manifest.get('data_steward_receipt_sha256'):
+                errors.append('Data Steward receipt hash mismatch')
+            else:
+                try:
+                    record = json.loads(source.read_text())
+                    if record.get('state') != 'VALIDATED' or record.get('decision') != 'ACCEPTED':
+                        errors.append('Data Steward acceptance not validated')
+                    if not record.get('receiver_id') or not record.get('acknowledged_at') or not record.get('verification_method'):
+                        errors.append('Data Steward receiver authentication evidence missing')
+                    if record.get('source_receipt_sha256') != manifest.get('provider_receipt_sha256'):
+                        errors.append('Data Steward acceptance not bound to provider receipt')
+                    if record.get('league_id') != manifest.get('league_id') or record.get('week') != manifest.get('week'):
+                        errors.append('Data Steward league/week mismatch')
+                    if record.get('freshness') != 'PASS' or record.get('semantics') != 'PASS' or record.get('lineage') != 'PASS':
+                        errors.append('Data Steward semantic/freshness/lineage gate unresolved')
+                except (ValueError, TypeError, KeyError):
+                    errors.append('Data Steward receipt malformed')
     receipt_path = manifest.get("provider_receipt_path")
     if not receipt_path:
         errors.append("provider receipt required")
