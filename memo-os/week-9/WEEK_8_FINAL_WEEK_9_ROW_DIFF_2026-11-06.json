@@ -1,0 +1,363 @@
+{
+  "schema": "schemin26.week8_9_comparison.v1",
+  "run_id": "S26-MEMO-W08FINAL-W09-20261106",
+  "trace_id": "TRACE-S26-MEMO-20261106-1417621",
+  "source": "Flaim mTransactions2 row-identity comparison",
+  "prior_path": "memo-os/week-9/WEEK_8_FINAL_WEEK_9_PROVIDER_EVIDENCE_2026-11-05.json",
+  "week8": {
+    "previous": 32,
+    "current": 32,
+    "added": [],
+    "removed": [],
+    "modified": [],
+    "unchanged": 32,
+    "status_distribution": {
+      "complete": 28,
+      "unknown": 1,
+      "pending": 1,
+      "failed": 1,
+      "canceled": 1
+    },
+    "source": "mTransactions2",
+    "limitations": {
+      "structured_details_incomplete": true
+    }
+  },
+  "week9": {
+    "previous": 28,
+    "current": 35,
+    "added": [
+      {
+        "transaction_id": "c1cb67ef-7b98-4afb-8867-e33da0465a8e",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793968034987,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-06",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "8"
+        ],
+        "players_added": [
+          {
+            "id": "4831959",
+            "name": "Eli Raridon",
+            "position": "TE",
+            "team": "NE"
+          }
+        ],
+        "players_dropped": [],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "017a3a17-1a9e-49af-a0ea-d2c5a66596c1",
+        "type": "trade_proposal",
+        "status": "pending",
+        "timestamp": 1793901127332,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-05",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "1",
+          "2"
+        ],
+        "players_added": [],
+        "players_dropped": [
+          {
+            "id": "15864",
+            "name": "Geno Smith",
+            "position": "QB",
+            "team": "NYJ"
+          }
+        ],
+        "trade_sides": [
+          {
+            "team_id": "1",
+            "acquired": [
+              {
+                "id": "4241478",
+                "name": "DeVonta Smith",
+                "position": "WR",
+                "team": "PHI"
+              }
+            ],
+            "gave_up": [
+              {
+                "id": "4360310",
+                "name": "Trevor Lawrence",
+                "position": "QB",
+                "team": "JAX"
+              }
+            ]
+          },
+          {
+            "team_id": "2",
+            "acquired": [
+              {
+                "id": "4360310",
+                "name": "Trevor Lawrence",
+                "position": "QB",
+                "team": "JAX"
+              }
+            ],
+            "gave_up": [
+              {
+                "id": "4241478",
+                "name": "DeVonta Smith",
+                "position": "WR",
+                "team": "PHI"
+              }
+            ]
+          }
+        ],
+        "proposed_by_team_id": "2",
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "7b8c6c8e-b48c-4521-a464-a886d42a4297",
+        "type": "trade",
+        "status": "complete",
+        "timestamp": 1793900370002,
+        "timestamp_source": "processDate",
+        "date": "2026-11-05",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "3",
+          "4"
+        ],
+        "players_added": [],
+        "players_dropped": [],
+        "trade_sides": [
+          {
+            "team_id": "3",
+            "acquired": [
+              {
+                "id": "4426502",
+                "name": "Drake London",
+                "position": "WR",
+                "team": "ATL"
+              }
+            ],
+            "gave_up": [
+              {
+                "id": "4685702",
+                "name": "Quinshon Judkins",
+                "position": "RB",
+                "team": "CLE"
+              }
+            ]
+          },
+          {
+            "team_id": "4",
+            "acquired": [
+              {
+                "id": "4685702",
+                "name": "Quinshon Judkins",
+                "position": "RB",
+                "team": "CLE"
+              }
+            ],
+            "gave_up": [
+              {
+                "id": "4426502",
+                "name": "Drake London",
+                "position": "WR",
+                "team": "ATL"
+              }
+            ]
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "4cb6424f-d8cf-48bd-95d2-0735bcf11227",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793897768882,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-05",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "7"
+        ],
+        "players_added": [
+          {
+            "id": "4241555",
+            "name": "Elijah Mitchell",
+            "position": "RB",
+            "team": "PHI"
+          }
+        ],
+        "players_dropped": [],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "1fb87d74-de9c-4d20-a2c5-0870b79db848",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793895984325,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-05",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "6"
+        ],
+        "players_added": [
+          {
+            "id": "4599739",
+            "name": "Kendre Miller",
+            "position": "RB",
+            "team": "NO"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4241555",
+            "name": "Elijah Mitchell",
+            "position": "RB",
+            "team": "PHI"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "7471c8f3-22cf-4141-890f-9a0de9468c59",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793895847796,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-05",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "6"
+        ],
+        "players_added": [
+          {
+            "id": "5082424",
+            "name": "Dominic Zvada",
+            "position": "K",
+            "team": "NYG"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4362081",
+            "name": "Cameron Dicker",
+            "position": "K",
+            "team": "LAC"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "a773c641-24f5-46f1-8ff0-7e324afbde05",
+        "type": "trade_uphold",
+        "status": "complete",
+        "timestamp": 1793892517066,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-05",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "8"
+        ],
+        "players_added": [],
+        "players_dropped": [],
+        "faab_bid": 0,
+        "trade_details_unavailable": true
+      }
+    ],
+    "removed": [],
+    "modified": [],
+    "unchanged": 28,
+    "status_distribution": {
+      "complete": 26,
+      "pending": 4,
+      "unknown": 2,
+      "canceled": 3
+    },
+    "source": "mTransactions2",
+    "limitations": {
+      "structured_details_incomplete": true
+    }
+  },
+  "matchups": {
+    "week8_gateway_matches": true,
+    "week9_gateway_matches": true,
+    "week9_thursday_scores": [
+      {
+        "home": "Mud Dogs",
+        "away": "El Niño",
+        "home_current_points": 10.5,
+        "away_current_points": 0,
+        "winner": "UNDECIDED"
+      },
+      {
+        "home": "Dr. Duckhook",
+        "away": "ObiWan Jacoby",
+        "home_current_points": 17,
+        "away_current_points": 24.96,
+        "winner": "UNDECIDED"
+      },
+      {
+        "home": "Red Leopards",
+        "away": "Seven Deadly Chins",
+        "home_current_points": 5.6,
+        "away_current_points": 0,
+        "winner": "UNDECIDED"
+      },
+      {
+        "home": "The Chili Cheesers ",
+        "away": "His Majesty's Blood",
+        "home_current_points": 0,
+        "away_current_points": 21.2,
+        "winner": "UNDECIDED"
+      },
+      {
+        "home": "D0nkey K0ng",
+        "away": "The LLC",
+        "home_current_points": 0,
+        "away_current_points": 16.65,
+        "winner": "UNDECIDED"
+      },
+      {
+        "home": "Slob on my Dobb",
+        "away": "Three Dreaded Snake",
+        "home_current_points": 0,
+        "away_current_points": 10.1,
+        "winner": "UNDECIDED"
+      }
+    ]
+  },
+  "checks": {
+    "league_identity": true,
+    "gateway_manifest_identity": true,
+    "gateway_payload_manifest_timestamp": true,
+    "gateway_stale_false_at_capture": true,
+    "week8_six": true,
+    "week9_six": true,
+    "week8_12_unique": true,
+    "week9_12_unique": true,
+    "week8_gateway_6of6": true,
+    "week9_gateway_6of6": true,
+    "week8_finals": true,
+    "week9_winners_undecided": true,
+    "standings_12": true,
+    "standings_gateway_12of12": true,
+    "week8_transaction_source": true,
+    "week9_transaction_source": true,
+    "week8_transaction_no_invalid_timestamps": true,
+    "week9_transaction_no_invalid_timestamps": true,
+    "week8_transaction_count_tallies": true,
+    "week9_transaction_count_tallies": true,
+    "week8_row_reconciliation": true,
+    "week9_row_reconciliation": true
+  },
+  "failed_checks": []
+}
