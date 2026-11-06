@@ -29,6 +29,14 @@ class Gate(unittest.TestCase):
         d=good();d.update(publication_state="PUBLISHED",pdf_page_count=1,independent_umpire_approval="PASS",published_artifact_sha256="faked");self.assertTrue(validate(d))
     def test_unknown_role(self):
         d=good();d["pages"][0]["role"]="SCOREBOARD_RESULT_TBD";self.assertTrue(validate(d))
+    def test_week9_missing_sports_desk(self):
+        d=good();d.update(season=2026,week=9,publication_state='RELEASED',pdf_page_count=1,independent_umpire_approval='PASS',published_artifact_sha256='a'*64,
+                        editorial_departments=['OPENING_DRIVE','SCOREBOARD','WAIVER_WIRE','STANDINGS','FINAL_WORD'])
+        self.assertIn('editorial department missing: SPORTS_DESK',validate(d))
+    def test_week9_complete_departments(self):
+        d=good();d.update(season=2026,week=9,publication_state='RELEASED',pdf_page_count=1,independent_umpire_approval='PASS',published_artifact_sha256='a'*64,
+                        editorial_departments=['OPENING_DRIVE','SCOREBOARD','SPORTS_DESK','WAIVER_WIRE','STANDINGS','FINAL_WORD'])
+        self.assertEqual(validate(d),[])
     def test_unknown_release_state(self):
         d=good();d["publication_state"]="FINISHED";self.assertTrue(validate(d))
     def test_false_sole_division_on_tie(self):

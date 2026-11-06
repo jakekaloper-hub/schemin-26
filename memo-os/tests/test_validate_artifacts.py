@@ -7,7 +7,7 @@ import unittest
 from pathlib import Path
 import fitz
 from PIL import Image
-from validate_artifacts import inspect
+from validate_artifacts import inspect, main as release_main
 
 def digest(p): return hashlib.sha256(p.read_bytes()).hexdigest()
 
@@ -27,6 +27,21 @@ class RealArtifactGate(unittest.TestCase):
         self.data = {"expected_pages":1,"pdf_path":"memo.pdf","published_artifact_sha256":digest(pdf),
             "pages":[{"slot":1,"asset_path":"page1.png","asset_sha256":digest(png)}]}
 
+    def test_end_to_end_week9_release_cli_fails_closed(self):
+        import subprocess,sys
+        candidate=copy.deepcopy(self.data)
+        candidate.update(week=9,season=2026,publication_state='RELEASED',
+            league_id='1417621',issue_id='week9-test',pdf_page_count=1,
+            independent_umpire_approval='PASS')
+        candidate['pages'][0].update(printed_page=1,role='EDITORIAL',mobile_qa='PASS',
+            technical_acceptance='PASS',publication_fidelity='PASS',narrative_job='test scene')
+        manifest=self.root/'issue.json';manifest.write_text(json.dumps(candidate))
+        proc=subprocess.run([sys.executable,str(Path(__file__).parent/'validate_artifacts.py'),str(manifest)],
+            text=True,capture_output=True)
+        self.assertNotEqual(proc.returncode,0)
+        self.assertIn('Data Steward authenticated acceptance receipt required',proc.stdout)
+        self.assertIn('preview: exactly six published fixture rows required',proc.stdout)
+        self.assertIn('editorial department missing: SPORTS_DESK',proc.stdout)
     def test_valid_artifacts(self): self.assertEqual(inspect(self.data,self.root/"issue.json"),[])
     def test_forward_native_week8_valid(self):
         d=copy.deepcopy(self.data);d["week"]=8

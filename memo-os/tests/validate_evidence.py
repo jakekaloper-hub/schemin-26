@@ -51,6 +51,35 @@ def validate_evidence(manifest, base):
                 except Exception as exc:
                     errors.append("Founder transaction integrity or verification failure: " + type(exc).__name__)
     base = Path(base).resolve()
+    # Prospective releases cannot turn a staged ECS assignment into an ACK.
+    # This verifies receipt consistency, not external authentication.
+    forward = manifest.get('season') == 2026 and type(manifest.get('week')) is int and manifest['week'] >= 9
+    if forward:
+        steward_path = manifest.get('data_steward_receipt_path')
+        if not isinstance(steward_path, str) or not steward_path:
+            errors.append('Data Steward authenticated acceptance receipt required')
+        else:
+            source = (base / steward_path).resolve()
+            if not source.is_relative_to(base) or not source.is_file():
+                errors.append('Data Steward receipt inaccessible')
+            elif digest(source) != manifest.get('data_steward_receipt_sha256'):
+                errors.append('Data Steward receipt hash mismatch')
+            else:
+                try:
+                    from steward_receipt import verify as verify_steward_receipt
+                    record = verify_steward_receipt(json.loads(source.read_text()))
+                    if record.get('state') != 'VALIDATED' or record.get('decision') != 'ACCEPTED':
+                        errors.append('Data Steward acceptance not validated')
+                    if not record.get('receiver_id') or not record.get('acknowledged_at') or not record.get('verification_method'):
+                        errors.append('Data Steward receiver authentication evidence missing')
+                    if record.get('source_receipt_sha256') != manifest.get('provider_receipt_sha256'):
+                        errors.append('Data Steward acceptance not bound to provider receipt')
+                    if record.get('league_id') != manifest.get('league_id') or record.get('week') != manifest.get('week'):
+                        errors.append('Data Steward league/week mismatch')
+                    if record.get('freshness') != 'PASS' or record.get('semantics') != 'PASS' or record.get('lineage') != 'PASS':
+                        errors.append('Data Steward semantic/freshness/lineage gate unresolved')
+                except (ValueError, TypeError, KeyError) as exc:
+                    errors.append('Data Steward receipt malformed or untrusted: ' + str(exc))
     receipt_path = manifest.get("provider_receipt_path")
     if not receipt_path:
         errors.append("provider receipt required")
@@ -81,6 +110,11 @@ def validate_evidence(manifest, base):
         required = {"character", "atlas", "visual", "mobile"}
         if not page.get("characters"):
             required.remove("character")
+        # Week 9+ character scenes require an independent image-bound
+        # action/pose review, not merely a visually attractive hero image.
+        forward = manifest.get('season') == 2026 and type(manifest.get('week')) is int and manifest['week'] >= 9
+        if forward and page.get('characters'):
+            required.add('physicality')
         receipts = page.get("review_receipts")
         if not isinstance(receipts, list):
             errors.append(f"page {n}: reviewer receipts missing")
@@ -103,7 +137,7 @@ def validate_evidence(manifest, base):
                 evidence = (base / path).resolve()
                 if not evidence.is_relative_to(base) or not evidence.is_file() or digest(evidence) != rec.get("evidence_sha256"):
                     errors.append(f"page {n}: {scope} evidence bytes missing/mismatched")
-            if scope in {"character", "atlas", "visual", "mobile"} and isinstance(path, str):
+            if scope in {"character", "atlas", "visual", "mobile", "physicality"} and isinstance(path, str):
                 try:
                     from PIL import Image
                     with Image.open(evidence) as img:
@@ -114,6 +148,11 @@ def validate_evidence(manifest, base):
                 errors.append(f"page {n}: character source identifiers absent")
             if scope == "character" and not rec.get("reference_sha256"):
                 errors.append(f"page {n}: canonical character source hash absent")
+            if scope == 'physicality':
+                if not rec.get('described_action') or not rec.get('observed_pose') or not rec.get('spatial_interaction'):
+                    errors.append(f"page {n}: physicality requires action/pose/interaction assessment")
+                if rec.get('reviewer_id') == page.get('generation_operator_id'):
+                    errors.append(f"page {n}: physicality reviewer not independent")
             if scope == "atlas" and not rec.get("venue_id"):
                 errors.append(f"page {n}: Atlas venue absent")
         if not required.issubset(seen):
