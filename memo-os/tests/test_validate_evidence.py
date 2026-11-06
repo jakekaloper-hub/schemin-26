@@ -43,6 +43,15 @@ class EvidenceTests(unittest.TestCase):
         errors=validate_evidence(x,self.root)
         self.assertTrue(any("Founder transaction integrity" in e for e in errors))
 
+    def test_week9_missing_physicality_review(self):
+        x=copy.deepcopy(self.d);x['season']=2026;x['week']=9
+        self.assertTrue(any('physicality' in e for e in validate_evidence(x,self.root)))
+    def test_week9_physicality_action_evidence(self):
+        x=copy.deepcopy(self.d);x['season']=2026;x['week']=9
+        r=copy.deepcopy(x['pages'][0]['review_receipts'][2]);r.update(scope='physicality',reviewer_id='review-physicality',
+            described_action='character pulls lever',observed_pose='hand gripping lever',spatial_interaction='lever moves gate')
+        x['pages'][0]['review_receipts'].append(r)
+        self.assertFalse(any('physicality' in e for e in validate_evidence(x,self.root)))
     def test_wrong_provider_result(self):
         x=copy.deepcopy(self.d);x["results"]["0"]["home"]=999;self.assertTrue(validate_evidence(x,self.root))
     def test_missing_provider(self):

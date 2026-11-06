@@ -81,6 +81,11 @@ def validate_evidence(manifest, base):
         required = {"character", "atlas", "visual", "mobile"}
         if not page.get("characters"):
             required.remove("character")
+        # Week 9+ character scenes require an independent image-bound
+        # action/pose review, not merely a visually attractive hero image.
+        forward = manifest.get('season') == 2026 and type(manifest.get('week')) is int and manifest['week'] >= 9
+        if forward and page.get('characters'):
+            required.add('physicality')
         receipts = page.get("review_receipts")
         if not isinstance(receipts, list):
             errors.append(f"page {n}: reviewer receipts missing")
@@ -103,7 +108,7 @@ def validate_evidence(manifest, base):
                 evidence = (base / path).resolve()
                 if not evidence.is_relative_to(base) or not evidence.is_file() or digest(evidence) != rec.get("evidence_sha256"):
                     errors.append(f"page {n}: {scope} evidence bytes missing/mismatched")
-            if scope in {"character", "atlas", "visual", "mobile"} and isinstance(path, str):
+            if scope in {"character", "atlas", "visual", "mobile", "physicality"} and isinstance(path, str):
                 try:
                     from PIL import Image
                     with Image.open(evidence) as img:
@@ -114,6 +119,11 @@ def validate_evidence(manifest, base):
                 errors.append(f"page {n}: character source identifiers absent")
             if scope == "character" and not rec.get("reference_sha256"):
                 errors.append(f"page {n}: canonical character source hash absent")
+            if scope == 'physicality':
+                if not rec.get('described_action') or not rec.get('observed_pose') or not rec.get('spatial_interaction'):
+                    errors.append(f"page {n}: physicality requires action/pose/interaction assessment")
+                if rec.get('reviewer_id') == page.get('generation_operator_id'):
+                    errors.append(f"page {n}: physicality reviewer not independent")
             if scope == "atlas" and not rec.get("venue_id"):
                 errors.append(f"page {n}: Atlas venue absent")
         if not required.issubset(seen):

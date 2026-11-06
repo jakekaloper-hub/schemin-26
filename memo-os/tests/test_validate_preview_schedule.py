@@ -11,7 +11,9 @@ ROWS=[{'home':x['home']['teamName'], 'away':x['away']['teamName']} for x in DATA
 def candidate():
     return {'week':8,'season':2026,'publication_state':'RELEASED','preview_week':9,
             'preview_schedule_source':SOURCE,'preview_schedule_source_sha256':hashlib.sha256((ROOT/SOURCE).read_bytes()).hexdigest(),
-            'preview_fixture_rows':ROWS,'preview_final_raster_review':'PASS'}
+            'preview_fixture_rows':ROWS,'published_artifact_sha256':'a'*64,'generation_operator_id':'generator',
+            'preview_final_raster_review':{'decision':'PASS','reviewer_id':'reviewer','reviewed_at':'2026-11-06T19:00:00Z',
+            'pdf_sha256':'a'*64,'fixture_rows_sha256':hashlib.sha256(json.dumps(ROWS,sort_keys=True,ensure_ascii=False,separators=(',', ':')).encode()).hexdigest()}}
 
 class ScheduleGate(unittest.TestCase):
     def test_correct_schedule(self): self.assertEqual(check(candidate()),[])
@@ -28,7 +30,13 @@ class ScheduleGate(unittest.TestCase):
     def test_wrong_week(self):
         x=candidate();x['preview_week']=10;self.assertTrue(check(x))
     def test_missing_raster_review(self):
-        x=candidate();x['preview_final_raster_review']='HOLD';self.assertTrue(check(x))
+        x=candidate();x['preview_final_raster_review']['decision']='HOLD';self.assertTrue(check(x))
+    def test_stale_pdf_review(self):
+        x=candidate();x['preview_final_raster_review']['pdf_sha256']='b'*64;self.assertTrue(check(x))
+    def test_stale_fixture_review(self):
+        x=candidate();x['preview_final_raster_review']['fixture_rows_sha256']='b'*64;self.assertTrue(check(x))
+    def test_self_review(self):
+        x=candidate();x['preview_final_raster_review']['reviewer_id']='generator';self.assertTrue(check(x))
     def test_draft_not_release(self):
         x=candidate();x['publication_state']='REVIEW';self.assertEqual(check(x),[])
 

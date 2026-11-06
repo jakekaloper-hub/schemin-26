@@ -45,7 +45,19 @@ def check(manifest):
         return errors + [f'preview: malformed source or rows: {exc}']
     if len(actual) != 6 or len(set(actual)) != 6 or len(set(printed)) != 6 or set(printed) != set(actual):
         errors.append('preview: published fixture rows do not match authenticated provider schedule')
-    # A visual signoff is required separately; metadata cannot verify raster text.
-    if manifest.get('preview_final_raster_review') != 'PASS':
-        errors.append('preview: final raster review missing')
+    # An unbound PASS string is insufficient: tie the independent visual review
+    # to the exact final PDF and the exact schedule row set. Image-only PDFs
+    # cannot be checked for rendered text by this validator.
+    review = manifest.get('preview_final_raster_review')
+    pdf_hash = manifest.get('published_artifact_sha256')
+    if not isinstance(review, dict) or review.get('decision') != 'PASS' or not review.get('reviewer_id') or not review.get('reviewed_at'):
+        errors.append('preview: independent final raster review missing')
+    else:
+        if review.get('pdf_sha256') != pdf_hash or not isinstance(pdf_hash, str) or len(pdf_hash) != 64:
+            errors.append('preview: visual review not bound to final PDF')
+        rows_hash = hashlib.sha256(json.dumps(rows, sort_keys=True, ensure_ascii=False, separators=(',', ':')).encode()).hexdigest()
+        if review.get('fixture_rows_sha256') != rows_hash:
+            errors.append('preview: visual review not bound to fixture rows')
+        if review.get('reviewer_id') == manifest.get('generation_operator_id'):
+            errors.append('preview: visual reviewer not independent of generator')
     return errors
