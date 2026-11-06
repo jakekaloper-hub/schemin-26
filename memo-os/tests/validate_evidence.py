@@ -66,7 +66,8 @@ def validate_evidence(manifest, base):
                 errors.append('Data Steward receipt hash mismatch')
             else:
                 try:
-                    record = json.loads(source.read_text())
+                    from steward_receipt import verify as verify_steward_receipt
+                    record = verify_steward_receipt(json.loads(source.read_text()))
                     if record.get('state') != 'VALIDATED' or record.get('decision') != 'ACCEPTED':
                         errors.append('Data Steward acceptance not validated')
                     if not record.get('receiver_id') or not record.get('acknowledged_at') or not record.get('verification_method'):
@@ -77,8 +78,8 @@ def validate_evidence(manifest, base):
                         errors.append('Data Steward league/week mismatch')
                     if record.get('freshness') != 'PASS' or record.get('semantics') != 'PASS' or record.get('lineage') != 'PASS':
                         errors.append('Data Steward semantic/freshness/lineage gate unresolved')
-                except (ValueError, TypeError, KeyError):
-                    errors.append('Data Steward receipt malformed')
+                except (ValueError, TypeError, KeyError) as exc:
+                    errors.append('Data Steward receipt malformed or untrusted: ' + str(exc))
     receipt_path = manifest.get("provider_receipt_path")
     if not receipt_path:
         errors.append("provider receipt required")

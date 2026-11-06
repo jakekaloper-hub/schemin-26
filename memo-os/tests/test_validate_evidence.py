@@ -60,7 +60,7 @@ class EvidenceTests(unittest.TestCase):
         p=self.root/'steward.json'
         p.write_text(json.dumps({'state':'ASSIGNED','decision':'PENDING'}))
         x['data_steward_receipt_path']='steward.json';x['data_steward_receipt_sha256']=digest(p)
-        self.assertIn('Data Steward acceptance not validated',validate_evidence(x,self.root))
+        self.assertTrue(any('Data Steward receipt malformed or untrusted' in e for e in validate_evidence(x,self.root)))
     def test_week9_rejects_stale_source_binding(self):
         x=copy.deepcopy(self.d);x['season']=2026;x['week']=9
         p=self.root/'steward.json'
@@ -69,7 +69,7 @@ class EvidenceTests(unittest.TestCase):
             'source_receipt_sha256':'0'*64,'league_id':'1417621','week':9,
             'freshness':'PASS','semantics':'PASS','lineage':'PASS'}))
         x['data_steward_receipt_path']='steward.json';x['data_steward_receipt_sha256']=digest(p)
-        self.assertIn('Data Steward acceptance not bound to provider receipt',validate_evidence(x,self.root))
+        self.assertTrue(any('Data Steward receipt malformed or untrusted' in e for e in validate_evidence(x,self.root)))
     def test_wrong_provider_result(self):
         x=copy.deepcopy(self.d);x["results"]["0"]["home"]=999;self.assertTrue(validate_evidence(x,self.root))
     def test_missing_provider(self):
