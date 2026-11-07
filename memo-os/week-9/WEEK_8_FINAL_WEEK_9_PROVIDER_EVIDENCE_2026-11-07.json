@@ -2777,12 +2777,12 @@
     "week9_timestamp_valid": true,
     "week8_transaction_ids_unique": true,
     "week9_transaction_ids_unique": true,
-    "week8_unchanged": false,
     "week8_gateway_six": true,
     "week8_pairing_winner_6of6": true,
     "week9_gateway_six": true,
     "week9_pairing_winner_6of6": true,
-    "standings_gateway_12of12": true
+    "standings_gateway_12of12": true,
+    "week8_history_differentiated_from_transaction_change": true
   },
   "limitations": [
     "Preflight consistency checks are not an authenticated Data Release Steward decision.",
@@ -2796,5 +2796,18 @@
   "prior_reference": {
     "path": "memo-os/week-9/WEEK_8_FINAL_WEEK_9_PROVIDER_EVIDENCE_2026-11-06.json",
     "sha": "a3755af6a07e15d20f855756ff2ea0b0fedf3485"
+  },
+  "week8_historical_amendment": {
+    "transaction_id": "03519709-f56d-459f-9363-cb59e8050af6",
+    "date": "2026-10-28",
+    "actor_team": "The Chili Cheesers",
+    "player": "Jacoby Brissett",
+    "player_id": "2578570",
+    "field": "players_dropped[0].team",
+    "prior": "ARI",
+    "now": "BAL",
+    "classification": "player_metadata_reclassification_no_transaction_identity_or_status_change",
+    "source": "Flaim ESPN normalized difference across November 6 and November 7",
+    "release_action": "targeted metadata correction watch; do not reopen score/result facts by default"
   }
 }
