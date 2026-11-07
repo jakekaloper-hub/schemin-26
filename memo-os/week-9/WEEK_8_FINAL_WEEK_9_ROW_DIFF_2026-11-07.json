@@ -1,0 +1,231 @@
+{
+  "schema": "schemin26.week8_9_comparison.v1",
+  "run_id": "S26-MEMO-W08FINAL-W09-20261107",
+  "trace_id": "TRACE-S26-MEMO-20261107-1417621",
+  "source": "Flaim mTransactions2 stable-id full-row comparison",
+  "prior_path": "memo-os/week-9/WEEK_8_FINAL_WEEK_9_PROVIDER_EVIDENCE_2026-11-06.json",
+  "week8": {
+    "previous": 32,
+    "current": 32,
+    "added": [],
+    "removed": [],
+    "modified": [
+      {
+        "before": {
+          "transaction_id": "03519709-f56d-459f-9363-cb59e8050af6",
+          "type": "add",
+          "status": "complete",
+          "timestamp": 1793213436611,
+          "timestamp_source": "proposedDate",
+          "date": "2026-10-28",
+          "week": 8,
+          "provider_scoring_period_id": 8,
+          "team_ids": [
+            "7"
+          ],
+          "players_added": [
+            {
+              "id": "5081397",
+              "name": "Dylan Sampson",
+              "position": "RB",
+              "team": "CLE"
+            }
+          ],
+          "players_dropped": [
+            {
+              "id": "2578570",
+              "name": "Jacoby Brissett",
+              "position": "QB",
+              "team": "ARI"
+            }
+          ],
+          "faab_bid": 0
+        },
+        "after": {
+          "transaction_id": "03519709-f56d-459f-9363-cb59e8050af6",
+          "type": "add",
+          "status": "complete",
+          "timestamp": 1793213436611,
+          "timestamp_source": "proposedDate",
+          "date": "2026-10-28",
+          "week": 8,
+          "provider_scoring_period_id": 8,
+          "team_ids": [
+            "7"
+          ],
+          "players_added": [
+            {
+              "id": "5081397",
+              "name": "Dylan Sampson",
+              "position": "RB",
+              "team": "CLE"
+            }
+          ],
+          "players_dropped": [
+            {
+              "id": "2578570",
+              "name": "Jacoby Brissett",
+              "position": "QB",
+              "team": "BAL"
+            }
+          ],
+          "faab_bid": 0
+        }
+      }
+    ],
+    "unchanged": 31,
+    "status_distribution": {
+      "complete": 28,
+      "pending": 1,
+      "canceled": 1,
+      "unknown": 1,
+      "failed": 1
+    },
+    "source": "mTransactions2",
+    "limitations": {
+      "structured_details_incomplete": true
+    },
+    "truncated": false,
+    "dropped_invalid_timestamp_count": 0
+  },
+  "week9": {
+    "previous": 35,
+    "current": 38,
+    "added": [
+      {
+        "transaction_id": "395060b2-008c-46ee-a155-557fa5480c94",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1793986481860,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-06",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "2"
+        ],
+        "players_added": [
+          {
+            "id": "3930086",
+            "name": "Dawson Knox",
+            "position": "TE",
+            "team": "BUF"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "15864",
+            "name": "Geno Smith",
+            "position": "QB",
+            "team": "NYJ"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "bfcbb7d2-0375-4d98-9f14-deee8a562bdd",
+        "type": "trade_proposal",
+        "status": "canceled",
+        "timestamp": 1793985026167,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-06",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "1",
+          "2"
+        ],
+        "players_added": [],
+        "players_dropped": [
+          {
+            "id": "15864",
+            "name": "Geno Smith",
+            "position": "QB",
+            "team": "NYJ"
+          }
+        ],
+        "trade_sides": [
+          {
+            "team_id": "1",
+            "acquired": [
+              {
+                "id": "4241478",
+                "name": "DeVonta Smith",
+                "position": "WR",
+                "team": "PHI"
+              }
+            ],
+            "gave_up": [
+              {
+                "id": "4360310",
+                "name": "Trevor Lawrence",
+                "position": "QB",
+                "team": "JAX"
+              }
+            ]
+          },
+          {
+            "team_id": "2",
+            "acquired": [
+              {
+                "id": "4360310",
+                "name": "Trevor Lawrence",
+                "position": "QB",
+                "team": "JAX"
+              }
+            ],
+            "gave_up": [
+              {
+                "id": "4241478",
+                "name": "DeVonta Smith",
+                "position": "WR",
+                "team": "PHI"
+              }
+            ]
+          }
+        ],
+        "proposed_by_team_id": "2",
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "58f11943-5bad-4519-a465-49ab4393bcd3",
+        "type": "trade_decline",
+        "status": "complete",
+        "timestamp": 1793985026167,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-06",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [],
+        "players_dropped": [],
+        "faab_bid": 0,
+        "trade_details_unavailable": true
+      }
+    ],
+    "removed": [],
+    "modified": [],
+    "unchanged": 35,
+    "status_distribution": {
+      "complete": 28,
+      "pending": 4,
+      "canceled": 4,
+      "unknown": 2,
+      "failed": 0
+    },
+    "source": "mTransactions2",
+    "limitations": {
+      "structured_details_incomplete": true
+    },
+    "truncated": false,
+    "dropped_invalid_timestamp_count": 0
+  },
+  "matchup_change": "No Week 8 final or Week 9 pairing/winner change; Week 9 currentPoints unchanged from Nov 6 acquisition",
+  "notes": [
+    "Newly observed does not imply occurred today; check transaction.date.",
+    "The 2026-11-05 pending DeVonta Smith/Trevor Lawrence proposal still appears as a historical row; 2026-11-06 canceled trade_proposal and declined action establish a later rejection, not an executed trade. Do not imply pending current offer.",
+    "Unknown trades lacking complete sides remain quarantined."
+  ]
+}
