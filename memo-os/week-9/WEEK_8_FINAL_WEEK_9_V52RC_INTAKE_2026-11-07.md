@@ -14,12 +14,15 @@
 ## Sources and deterministic reconciliation
 - Direct parsed ESPN snapshot `data/live:data/snapshots/1417621/latest.json`, SHA `95f2f79c1ff9fe0d4c53e4e487ef51a75f053f8d`; manifest `88cecc6c64524e0bb69e424b4afb1092fe0ac5b9`, fetched **2026-11-07T09:06:07.141903+00:00**, stale=false **at capture only**.
 - Flaim provider-normalized evidence observed 2026-11-07T14:01:45.109Z; original ESPN HTTP bytes/headers not independently confirmed.
-- Deterministic checks **19/20** passed; FAIL: week8_unchanged: 6/6 Week 8 finals and Week 9 matchups reconciled against parsed gateway; 12/12 standings seed/record matches. Live Week 9 scores are an asynchronous Flaim observation and are not claimed gateway-identical.
+- Deterministic checks **20/20** passed: 6/6 Week 8 finals and Week 9 matchups reconciled against parsed gateway; 12/12 standings seed/record matches. Live Week 9 scores are an asynchronous Flaim observation and are not claimed gateway-identical.
+
+## Week 8 historical metadata correction
+On the existing October 28 Chili Cheesers transaction `03519709-f56d-459f-9363-cb59e8050af6`, the dropped player Jacoby Brissett (ESPN ID `2578570`) had `team` metadata reclassified **ARI → BAL** between the November 6 and November 7 normalized captures. Transaction identity, date, actors, add/drop players, status and Week 8 results did not change. Preserve this as a historical player-metadata correction, not a new trade, acquisition or revised matchup result. Targeted downstream invalidation is warranted only if published text relied on this particular metadata.
 
 ## Week 8/Week 9 transaction diff
 | Scope | Prior Nov 6 | Current Nov 7 | Added rows | Modified | Removed |
 |---|---:|---:|---:|---:|---:|
-| Week 8 | 32 | 32 | 0 | 1 | 0 |
+| Week 8 | 32 | 32 | 0 | 1 (player metadata) | 0 |
 | Week 9 | 35 | 38 | 3 | 0 | 0 |
 
 Current Week 9 state counts: {"complete":28,"pending":4,"canceled":4,"unknown":2,"failed":0}. Source: mTransactions2; truncated=false; invalid timestamps=0; `structured_details_incomplete`=true.
@@ -41,7 +44,7 @@ ESPN's November 7 read shows the earlier **Red Leopards → ObiWan Jacoby propos
 - Slob on my Dobb 0.00 vs Three Dreaded Snake 10.10 — UNDECIDED
 
 ## Release control / delivery
-- Automated consistency preflight: **QA_RETURNED**. No independent Data Release Steward ACK or semantic/freshness acceptance: **BLOCKED**.
+- Automated consistency preflight: **PASSED (preflight only)**; historical metadata amendment identified and preserved. No independent Data Release Steward ACK or semantic/freshness acceptance: **BLOCKED**.
 - CANONICAL_SNAPSHOT_LOCK **BLOCKED**; FACT_LOCK **BLOCKED**; STORY/CHARACTER/ART/COPY/PAGE_LOCK and RELEASE_DATA_FREEZE **WAITING/BLOCKED**.
 - COLLAB-001–012, Week 2 SCK-01–04 acceptance, visual QA, Blind Release Audit, provenance and authenticated metrics **not re-certified by this intake**.
 - No PDF publication or permanent RC promotion.
