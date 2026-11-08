@@ -108,3 +108,10 @@ The following is a requested handoff **command for the existing Bullpen compiler
 **Next executable internal task:** (a) read back the two Week 9 creative files and compare exact six fixtures against latest provisional provider; (b) compile owner/location/character reference source packets; (c) perform World/Atlas technology/venue resolution; (d) convene targeted Inklings and cinematography critiques with actual actor/trace receipts if runtime available, otherwise clearly label modeled analysis; (e) issue **one** six-chapter storyboard/shot-and-physicality board plus complete-issue sports-desk architecture; (f) independently review contradictions and record actionable corrections. Do **not** request another five-question interview.
 
 **Release gating continues at the canonical nearest clean checkpoint:** `DATA_RELEASE_STEWARD → CANONICAL_SNAPSHOT_LOCK → FACT_LOCK → STORY_LOCK → CHARACTER_PACKET_LOCK → ISSUE_PREVIS → PAGE_PACKETS → ART/COPY/PAGE_LOCK → FINAL_PDF_AUDIT → RELEASE`. Previsualization drafts can be prepared under source hold, but cannot be misrepresented as accepted downstream locks. Jack Mercer stays excluded from Memo OS.
+
+
+## November 8 execution update — all requested A–E written phases
+
+The delegated writing pass is now implemented in the existing issue screenplay/page-contracts and six story cards: **48 ordered storyboard beats (36 common + 12 conditional endings)** cover all six duels across the existing 18 cinematic folios. P05/P20 receive sequence-aware proof refinements. The eight literary and twelve production-reference domains have concrete written applications. Phase E holds remain explicit; no new live intake or winner selection occurred.
+
+This supersedes older “prepare the written sequence next” instructions only. It does not promote Fact/Story/Art Lock. The next tangible output is the drawn rough GOTW sequence/page-turn rehearsal, followed by the approved-reference proof-image path when applicable source/scene and rendering requirements are met. No renewed questionnaire, settled-character audit, historical rewrite or new OS.

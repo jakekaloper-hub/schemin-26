@@ -1,0 +1,351 @@
+{
+  "type": "ACTUAL_LOCAL_AI_DIRECTOR_ADVISORY_NOT_HUMAN_OR_RELEASE_ACCEPTANCE",
+  "source_commit": "42c0f1de5cd7bc876a33dda647224bc120852f7a",
+  "bullpen_commit": "915dd2d23be6c62dab80f65d5279ea914ff1f73b",
+  "model": "gemma3:4b",
+  "started_at": "2026-11-08T20:04:06.123Z",
+  "responses": [
+    {
+      "director": "the_beat_writer",
+      "request": "The six FIXED fictional actions are: Duckhook invites ObiWan to charity golf, pond visible before final shot; Mud Dogs dirtbike ignores storm then adapts or bogs; Red Leopards attacks Chins lifted truck after pitch damage, stone bottleneck stops it not net; Chili cookout, HMB hooded Belt Keeper not king, preplaced cooled chili vat spill or HMB takes cookout ribbon; four-legged Arsenal centaur DK sword duel vs armored LLC, parry changes balance; Slob and exactly-three-headed TDS paintball flank then conditional winner slide. Recommend ONE specific cause/effect improvement for golf and ONE for cookout. 100 words. No new cast, outcome facts, institutions, prompts or questions.",
+      "response": "Analysis of the provided scenarios indicates a need for narrative refinement regarding the golf event. The inclusion of the pond visible before the final shot introduces a potential distraction, disrupting the sequence of events and diminishing the impact of the intended action. A targeted adjustment would prioritize clearer visual cueing – perhaps a verbal announcement of the hazard – to mitigate this ambiguity and strengthen the narrative flow.\n\nRegarding the chili cookout, the outcome highlights a disconnect between the Belt Keeper's status and the resulting competition. Improving clarity would involve explicitly establishing the criteria for judging the cookout ribbon, thus framing the HMB’s victory as more justifiable and cohesive.",
+      "usage": {
+        "prompt_tokens": 1174,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens": 127,
+        "total_tokens": 1301
+      }
+    },
+    {
+      "director": "the_librarian",
+      "request": "We are writing all48 hypothetical storyboard beats in existing Week9 page JSON/MD and six story cards. Settled identities reuse approved October18 owner references; HMB/DK only focused exceptions on their pages. All outcomes remain conditional, actual_winner=null, renderer_not_invoked. Known inconsistency: M06 old story-card says Slob horns; current approved October18 and P20 depict heavyset human, no horns. Align that sentence with already-authoritative current presentation without redesigning. User wants all phases A-E finished as WRITTEN preparation and stored GitHub. Give two concrete provenance/scope checks, under90 words. Do not request character reapproval or modify old source/archives.",
+      "response": "Assessment: Discrepancy detected between M06 story card (“Slob horns”) and current visual representation (heavyset human).\n\nEvidence: October 18 and P20 canonical sources designate the current human form as authoritative. Scope: M06 story card, October 18 revision.\n\nProvenance Check 1: Verify M06 story card version aligns with October 18 documentation. \n\nProvenance Check 2: Confirm no revisions exist prior to October 18 that detail “Slob horns.”",
+      "usage": {
+        "prompt_tokens": 1192,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens": 109,
+        "total_tokens": 1301
+      }
+    }
+  ],
+  "finished_at": "2026-11-08T20:04:20.243Z",
+  "events": [
+    {
+      "name": "BULLPEN_CONSULTATION",
+      "payload": {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_beat_writer",
+        "messageLength": 682,
+        "responseLength": 746,
+        "model": "gemma3:4b",
+        "latencyMs": 8917
+      },
+      "at": "2026-11-08T20:04:15.041Z"
+    },
+    {
+      "name": "BULLPEN_CONSULTATION",
+      "payload": {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_librarian",
+        "messageLength": 702,
+        "responseLength": 449,
+        "model": "gemma3:4b",
+        "latencyMs": 5199
+      },
+      "at": "2026-11-08T20:04:20.243Z"
+    }
+  ],
+  "traces": [
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_beat_writer",
+      "messageLength": 682,
+      "responseLength": 746,
+      "model": "gemma3:4b",
+      "latencyMs": 8917,
+      "at": "2026-11-08T20:04:15.042Z"
+    },
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_librarian",
+      "messageLength": 702,
+      "responseLength": 449,
+      "model": "gemma3:4b",
+      "latencyMs": 5199,
+      "at": "2026-11-08T20:04:20.243Z"
+    }
+  ],
+  "review": {
+    "kind": "FRESH_LOCAL_AI_UMPIRE_ADVISORY_NOT_RELEASE_ACCEPTANCE",
+    "coverage": "Limited consistency review of explicit packet summary, not all48 frames or actual pixels",
+    "request": "Review ONLY the supplied written preproduction facts, not images or unavailable sources. All 28 pages remain PLANNED, render_authorized=false, final-winner fields=null. 48 beats:36 common+12 mutually exclusive endings. Pond is established P06 before failed putt P07. P20 paint hits cover only; winning player/body hits reserved P21. Red trap uses stone and grounded truck, not stopping by net. HMB remains hooded Belt Keeper; cooled chili avoids burn gag; cookout ribbon is not league belt. DK has four equine legs. Current Slob presentation is heavyset human; already-approved references retained. No character reapproval; only HMB/DK focused attention on own pages. Source snapshot is old November8 morning, NOT a live refresh. No drawings, images or source acceptance claimed. Under120 words: identify an actual logical contradiction or say none established, then name TWO things that cannot be validated without images/results. Do not say approved or request new documents.",
+    "response": "Analysis of preproduction facts reveals a logical contradiction: the stated outcome of “48 beats:36 common + 12 mutually exclusive endings” implies a branching narrative structure, yet the description focuses on physical events (putting, painting, trap mechanics).\n\nTwo elements requiring validation beyond the provided text are:\n\n1.  The specific configuration of DK’s four equine legs (regarding movement and interaction).\n2.  The physical dimensions and properties of the ‘red trap’ (specifically its interaction with the truck and net).",
+    "usage": {
+      "prompt_tokens": 1249,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens": 108,
+      "total_tokens": 1357
+    },
+    "at": "2026-11-08T20:10:35.790Z",
+    "events": [
+      {
+        "name": "BULLPEN_CONSULTATION",
+        "payload": {
+          "source": "bullpen/runtime/consultEngine",
+          "director": "the_umpire",
+          "messageLength": 977,
+          "responseLength": 540,
+          "model": "gemma3:4b",
+          "latencyMs": 5099
+        },
+        "at": "2026-11-08T20:10:35.787Z"
+      }
+    ],
+    "traces": [
+      {
+        "type": "director_consult",
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_umpire",
+        "messageLength": 977,
+        "responseLength": 540,
+        "model": "gemma3:4b",
+        "latencyMs": 5099,
+        "at": "2026-11-08T20:10:35.790Z"
+      }
+    ]
+  },
+  "dispositions": [
+    {
+      "advice": "Beat Writer: replace or defer visual pond setup with a verbal warning",
+      "decision": "REJECT",
+      "reason": "Contradicts the accepted visual-causality objective and text-hidden test; the hazard remains established before consequence."
+    },
+    {
+      "advice": "Beat Writer: make cookout-ribbon context clear",
+      "decision": "ADAPT",
+      "reason": "Ribbon, serving station and public occasion are shown early. No invented real league judging rules or royal office."
+    },
+    {
+      "advice": "Librarian: align M06 text with current Slob presentation",
+      "decision": "ACCEPT",
+      "reason": "Corrected the active card to the existing approved heavyset human presentation already used by P20; no new character review."
+    },
+    {
+      "advice": "Librarian: establish absence of earlier horned-form revisions",
+      "decision": "REJECT",
+      "reason": "Older versions exist as historical evidence and are not erased. Current approved presentation governs this scene."
+    },
+    {
+      "advice": "Umpire: branching outcomes contradict physical-event storyboarding",
+      "decision": "REJECT",
+      "reason": "Two conditional physical outcomes per matchup are expressly required; six pairs are mutually exclusive only within each matchup."
+    },
+    {
+      "advice": "Umpire: validate DK movement and truck/stone contact visually",
+      "decision": "ACCEPT_WITH_SCOPE",
+      "reason": "Those checks remain necessary on real boards/images. This pass does not invent numeric body/site dimensions or claim visual acceptance."
+    }
+  ],
+  "execution_scope": {
+    "phases": "A-E",
+    "completion": "Written storyboard treatments, existing proof refinements, director-method application, remaining-five sequences and source holds implemented.",
+    "not_completed_or_claimed": [
+      "drawn thumbnail strip",
+      "image generation",
+      "animatic",
+      "new live football intake",
+      "Fact Lock",
+      "Story Lock",
+      "Atlas approval",
+      "final visual acceptance",
+      "memo publication"
+    ],
+    "existing_mission": "#276; source handoff #268"
+  },
+  "validation": {
+    "state": "STRUCTURAL_SOURCE_CONSISTENCY_PASS_NOT_VISUAL_OR_RELEASE_ACCEPTANCE",
+    "base_commit": "42c0f1de5cd7bc876a33dda647224bc120852f7a",
+    "pages": 28,
+    "required_fields_per_page": 36,
+    "cinematic_pages": 18,
+    "editorial_pages_unchanged": 10,
+    "sequences": 6,
+    "beats": 48,
+    "common_beats": 36,
+    "conditional_endings": 12,
+    "approved_proof_reference_hash_matches": 4,
+    "sports_fields_unchanged": true,
+    "negative_cases": [
+      {
+        "case": "remove_away_ending",
+        "rejected_by": [
+          "BEAT_SET",
+          "BRANCH_PAIR"
+        ]
+      },
+      {
+        "case": "wrong_storyboard_page",
+        "rejected_by": [
+          "WRONG_PAGE_BINDING"
+        ]
+      },
+      {
+        "case": "invent_final_winner",
+        "rejected_by": [
+          "PREMATURE_PROMOTION"
+        ]
+      },
+      {
+        "case": "authorize_render_without_execution",
+        "rejected_by": [
+          "PREMATURE_PROMOTION"
+        ]
+      },
+      {
+        "case": "mutate_entering_record",
+        "rejected_by": [
+          "SOURCE_IDENTITY_RECORD"
+        ]
+      },
+      {
+        "case": "invent_player_cause",
+        "rejected_by": [
+          "SPORTS_DATA_MUTATED"
+        ]
+      },
+      {
+        "case": "leak_DK_exception",
+        "rejected_by": [
+          "OUTLIER_LEAK"
+        ]
+      },
+      {
+        "case": "reopen_settled_identity",
+        "rejected_by": [
+          "IDENTITY_REOPENED"
+        ]
+      },
+      {
+        "case": "false_live_refresh",
+        "rejected_by": [
+          "SPORTS_HOLD"
+        ]
+      },
+      {
+        "case": "wrong_output_geometry",
+        "rejected_by": [
+          "GEOMETRY"
+        ]
+      }
+    ],
+    "command": "python3 /tmp/verify-week9-all-phases-20261108.py",
+    "verification_source": "from pathlib import Path\nimport json,hashlib,subprocess,copy,re\nR=Path.cwd();W=R/'memo-os/week-9';BASE='42c0f1de5cd7bc876a33dda647224bc120852f7a'\npf=W/'WEEK_9_COMPLETE_ISSUE_PREVIS_2026-11-08.json';cf=W/'WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json'\nD=json.loads(pf.read_text());C=json.loads(cf.read_text())\nB=json.loads(subprocess.check_output(['git','show',BASE+':'+str(pf.relative_to(R))],text=True));BC=json.loads(subprocess.check_output(['git','show',BASE+':'+str(cf.relative_to(R))],text=True))\ncontract=(R/'memo-os/PAGE_PRODUCTION_CONTRACT_V1.md').read_text().split('```yaml\\n')[1].split('```')[0]\nrequired=set(re.findall(r'^([a-z_]+):',contract,re.M))\ndef check(d,c):\n err=[];pages=d['pages'];cards=c['cards'];pm={p['page_id']:p for p in pages};pids=set(pm)\n if len(pages)!=28 or len(pids)!=28:err.append('PAGE_SET')\n for p in pages:\n  if not required<=set(p):err.append('CONTRACT_FIELDS')\n  if [p['output_width_px'],p['output_height_px']]!=[1080,1920]:err.append('GEOMETRY')\n  if p['render_authorized'] or p['page_state']!='PLANNED' or p['actual_winner_team_id'] is not None:err.append('PREMATURE_PROMOTION')\n  for neighbour in p['adjacent_pages'].values():\n   if neighbour is not None and neighbour not in pids:err.append('ADJACENCY')\n if len(cards)!=6 or {x['id'] for x in cards}!={f'W09-M0{i}' for i in range(1,7)}:err.append('SIX_MATCHUPS')\n all_beats=[]\n for card,original in zip(cards,BC['cards']):\n  if card['home']!=original['home'] or card['away']!=original['away']:err.append('SOURCE_IDENTITY_RECORD')\n  if card['sports_causality']!=original['sports_causality']:err.append('SPORTS_DATA_MUTATED')\n  if not card.get('home_win') or not card.get('away_win'):err.append('OUTCOME_MISSING')\n  ss=card['written_storyboard_sequence'];beats=ss['beats'];all_beats+=beats\n  if sum(b['branch']=='HOME_WIN' for b in beats)!=1 or sum(b['branch']=='AWAY_WIN' for b in beats)!=1:err.append('BRANCH_PAIR')\n  if not ss['ground_plan'] or len(ss['persistent_scene_anchors'])!=3:err.append('GROUND_PLAN')\n  for b in beats:\n   if b['page_id'] not in pm or pm[b['page_id']].get('matchup_id')!=card['id']:err.append('WRONG_PAGE_BINDING');continue\n   if any(not b.get(k) for k in ['shot','pose_and_physical_action','what_changes','transition']):err.append('EMPTY_BEAT')\n   if b not in pm[b['page_id']]['written_storyboard']['beats']:err.append('CARD_PAGE_DRIFT')\n if len(all_beats)!=48 or len({b['beat_id'] for b in all_beats})!=48:err.append('BEAT_SET')\n if sum(b['branch']=='COMMON' for b in all_beats)!=36:err.append('COMMON_COUNT')\n if len([p for p in pages if p.get('written_storyboard')])!=18:err.append('CINEMATIC_COVERAGE')\n for p in B['pages']:\n  if not p.get('matchup_id') and pm[p['page_id']]!=p:err.append('EDITORIAL_DEPARTMENT_MUTATED')\n for pid in ['W09-P05','W09-P20']:\n  p=pm[pid]\n  if p['character_exception_dependencies']:err.append('OUTLIER_LEAK')\n  if p['proof_preparation']['character_reconfirmation_required']:err.append('IDENTITY_REOPENED')\n  if p['proof_preparation']['storyboard_beat_ids']!=[x['beat_id'] for x in p['written_storyboard']['beats']]:err.append('PROOF_SEQUENCE_DRIFT')\n  for a in p['reference_assets']:\n   v=a['selected_visual_reference'];path=R/v['path']\n   if not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest()!=v['sha256']:err.append('REFERENCE_HASH')\n if 'horns/build' in cards[-1]['physical_direction']:err.append('STALE_SLOB')\n hold=d['all_phases_execution']['sports_desk_hold']\n if hold['live_refresh_performed'] or len(hold['fields_held'])!=7:err.append('SPORTS_HOLD')\n if hashlib.sha256((R/hold['source_path']).read_bytes()).hexdigest()!=hold['source_sha256']:err.append('SOURCE_HASH')\n return sorted(set(err))\nassert check(D,C)==[],check(D,C)\nnegative=[]\ndef mutate(name,fn):\n a,b=copy.deepcopy(D),copy.deepcopy(C);fn(a,b);errors=check(a,b);assert errors,name;negative.append({'case':name,'rejected_by':errors})\nmutate('remove_away_ending',lambda a,b:b['cards'][0]['written_storyboard_sequence']['beats'].pop())\nmutate('wrong_storyboard_page',lambda a,b:b['cards'][0]['written_storyboard_sequence']['beats'][0].update(page_id='W09-P20'))\nmutate('invent_final_winner',lambda a,b:a['pages'][6].update(actual_winner_team_id=1))\nmutate('authorize_render_without_execution',lambda a,b:a['pages'][4].update(render_authorized=True))\nmutate('mutate_entering_record',lambda a,b:b['cards'][0]['home'].update(record='6-3'))\nmutate('invent_player_cause',lambda a,b:b['cards'][0]['sports_causality'].update(player_contributors=['invented']))\nmutate('leak_DK_exception',lambda a,b:a['pages'][4]['character_exception_dependencies'].append('CHAR-WILSON-LOOK'))\nmutate('reopen_settled_identity',lambda a,b:a['pages'][19]['proof_preparation'].update(character_reconfirmation_required=True))\nmutate('false_live_refresh',lambda a,b:a['all_phases_execution']['sports_desk_hold'].update(live_refresh_performed=True))\nmutate('wrong_output_geometry',lambda a,b:a['pages'][4].update(output_width_px=1024))\nreceipt_path=W/'production-evidence/WEEK_9_ALL_PHASES_EXECUTION_2026-11-08.json';receipt=json.loads(receipt_path.read_text())\nreceipt['validation']={'state':'STRUCTURAL_SOURCE_CONSISTENCY_PASS_NOT_VISUAL_OR_RELEASE_ACCEPTANCE','base_commit':BASE,'pages':28,'required_fields_per_page':len(required),'cinematic_pages':18,'editorial_pages_unchanged':10,'sequences':6,'beats':48,'common_beats':36,'conditional_endings':12,'approved_proof_reference_hash_matches':4,'sports_fields_unchanged':True,'negative_cases':negative,'command':'python3 /tmp/verify-week9-all-phases-20261108.py','verification_source':Path(__file__).read_text(),'visual_test_performed':False,'images_generated':0}\nreceipt_path.write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\\n')\nprint(json.dumps({k:v for k,v in receipt['validation'].items() if k!='verification_source'},indent=2))\n",
+    "visual_test_performed": false,
+    "images_generated": 0,
+    "existing_repository_checks": [
+      {
+        "command": "python governance/repository-protection/merge_gate.py run --changed-file-list /tmp/schemin-week9-all-phases-paths.txt",
+        "exit_code": 0,
+        "tail": [
+          "----------------------------------------------------------------------",
+          "Ran 7 tests in 0.002s",
+          "",
+          "OK"
+        ]
+      },
+      {
+        "command": "python -m unittest discover -s memo-os/tests -p 'test_v52*.py' -v",
+        "exit_code": 0,
+        "tail": [
+          "----------------------------------------------------------------------",
+          "Ran 23 tests in 0.005s",
+          "",
+          "OK"
+        ]
+      },
+      {
+        "command": "python -m unittest discover -s memo-os/tests -p 'test_frank_masi_packet_routing.py' -v",
+        "exit_code": 0,
+        "tail": [
+          "----------------------------------------------------------------------",
+          "Ran 3 tests in 0.001s",
+          "",
+          "OK"
+        ]
+      },
+      {
+        "command": "python -m unittest discover -s memo-os/tests -p 'test_scene_direction.py' -v",
+        "exit_code": 0,
+        "tail": [
+          "----------------------------------------------------------------------",
+          "Ran 11 tests in 0.001s",
+          "",
+          "OK"
+        ]
+      },
+      {
+        "command": "python governance/publication-manifest/validate_publication_manifest.py",
+        "exit_code": 0,
+        "tail": [
+          "  \"publications\": 7,",
+          "  \"valid\": true,",
+          "  \"errors\": []",
+          "}"
+        ]
+      },
+      {
+        "command": "python governance/publication-manifest/test_memo_reference_resolver.py",
+        "exit_code": 0,
+        "tail": [
+          "memo reference resolver acceptance: PASS"
+        ]
+      },
+      {
+        "command": "python tests/test_week5_individual_page_staging.py",
+        "exit_code": 0,
+        "tail": [
+          "PASS test_owner_source_paths_are_12_distinct_originals_and_not_false_render_proofs",
+          "PASS test_pitty_data_is_deliberately_deferred_without_blocking_other_briefs",
+          "PASS test_provisional_week5_starter_evidence_does_not_promote_a_winner",
+          "Week 5 staging acceptance: 6 checks passed"
+        ]
+      },
+      {
+        "command": "python tests/test_week5_artwork_first_output_contract.py",
+        "exit_code": 0,
+        "tail": [
+          "PASS test_pitty_deferred_cover_locked_and_owner_conditioning_honest",
+          "PASS test_png_page_handoff_excludes_bullpen_pdf_assembly",
+          "PASS test_six_payoffs_have_source_decided_result_banner_contract",
+          "Week 5 PNG-only handoff: 18 checks passed"
+        ]
+      },
+      {
+        "command": "python tests/test_week5_production_gateway.py",
+        "exit_code": 0,
+        "tail": [
+          "PASS Week 5 production gateway fail-closed regressions"
+        ]
+      },
+      {
+        "command": "python -m pytest -q tests/test_week5_raster_acceptance.py tests/test_week5_current_reference_authority.py tests/test_commissioner_20261012_character_bindings.py",
+        "exit_code": 0,
+        "tail": [
+          "....................                                                     [100%]",
+          "20 passed in 0.28s"
+        ]
+      }
+    ],
+    "all_requested_repository_commands_completed": true,
+    "authored_whitespace_exit": 0,
+    "preserved_unrelated_dirty_path": "memo-os/week-9/production-evidence/WEEK_9_PREVIS_STRUCTURAL_CHECKS_2026-11-08.json (not included)"
+  }
+}

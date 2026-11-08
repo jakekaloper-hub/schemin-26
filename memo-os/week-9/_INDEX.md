@@ -5,6 +5,12 @@
 **Current status:** `CREATIVE_INTERVIEW_RECORDED / PREVIS_CANDIDATES_PREPARED / CANONICAL_SNAPSHOT_LOCK_BLOCKED / FACT_LOCK_BLOCKED / NOT_RELEASED`.  
 **Not a new OS or a new mission.**
 
+## Latest execution — all five requested phases written
+
+The existing issue JSON/Markdown now contains the completed **six-sequence written storyboard pass: 48 beats, 36 common beats and 12 conditional endings**. P04–P07 has the complete GOTW; the other five duels have their own cause/effect, ground plan, opponent counters, page turns and endings. P05/P20 execution packets are refined, not replaced.
+
+The director-method pass is applied to emotional beats, shot logic, blocking and the page-turn edit. Sports Desk field holds and postgame ownership are explicit. These are completed written preparations, **not drawn boards, rendered images or final-score/story/release approval**. All substantive work remains in the existing [issue screenplay](./WEEK_9_COMPLETE_ISSUE_PREVIS_2026-11-08.md), [page contracts](./WEEK_9_COMPLETE_ISSUE_PREVIS_2026-11-08.json), and [six story cards](./WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json). No new mission, questionnaire or character audit.
+
 ## Current continuation — settled characters, execution briefs next
 
 **Founder correction, November 8:** Existing character approvals are settled. Do not reopen Duckhook, ObiWan, Slob, TDS or the other settled owners because an older primary-JPEG path is absent in one checkout. Only **HMB and DK** retain focused exception attention, scoped to their own pages. The four P05/P20 subjects are not in that exception set.
