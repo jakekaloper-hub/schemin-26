@@ -1,0 +1,529 @@
+{
+  "schema": "schemin26.week9.source_reference_world_binding.v1",
+  "source_commit": "409b0dca4b471ecea14e9f8badf46e4ec87f8a5c",
+  "source_path": "memo-os/week-9/WEEK_8_FINAL_WEEK_9_PROVIDER_EVIDENCE_2026-11-08.json",
+  "source_sha256": "efc3dae3038992a110bfa4d6af756d9254a5df6a57150d7e20d93f9dbcb1a9ce",
+  "source_cutoff": "2026-11-08T14:01:25.344Z",
+  "source_is_live_refresh": false,
+  "state": "SOURCE_AND_HASH_READBACK_ONLY_NOT_RENDER_CLEARANCE",
+  "source_authorities": {
+    "primary_registry": {
+      "path": "canon/characters/reference_sources_v1.json",
+      "sha256": "c1ae4db7757b5658aabef7f7f39ae6346f58ef2d6600c0d1b0df62a4f365742a"
+    },
+    "current_presentation": {
+      "path": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+      "sha256": "b44e9360e4359becc1f59d519b1f1b3280ee0bbce12bde9faaaaf8c5685fe649"
+    },
+    "visual_authority": {
+      "path": "canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json",
+      "sha256": "83e24935baed2523f5389cda6dd385acdb0ce430946b177f3dc0db76ed3a4503"
+    }
+  },
+  "characters": [
+    {
+      "character_id": "CHAR-BOBBY-MITCHELL",
+      "owner": "Bobby Mitchell",
+      "identity": "Swamp-Born Menace",
+      "primary_path": "canon/characters/assets/CHAR-BOBBY-MITCHELL/primary/17E68E6F-7825-460F-A612-734BE1E2A543.jpeg",
+      "primary_expected_sha256": "4ad8693d7f155f2ee99722f87eb74ea99490eebdfe0b30ca2f17f05004e7cf12",
+      "primary_observed_sha256": null,
+      "primary_bytes_state": "ABSENT_IN_THIS_CHECKOUT",
+      "historical_library_file_id": "libfile_9a5a7d5cbb788191822739e8dd19c7ba",
+      "presentation_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+      "presentation_expected_sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
+      "presentation_observed_sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
+      "presentation_bytes_state": "MATCH",
+      "presentation_scope": "ALL_12_CHARACTER_VISUAL_PRESENTATIONS_AS_DEPICTED_IN_THIS_EXACT_ARTIFACT",
+      "renderer_bound": false,
+      "source_conflicts": [],
+      "render_state": "NOT_RENDER_BOUND",
+      "spec_path": "canon/characters/CHAR-BOBBY-MITCHELL/T04_CHARACTER_SPEC.md",
+      "appearance_delta": "canon/characters/lineup_2026_10_18/CHAR-BOBBY-MITCHELL.json",
+      "home_location_id": "LOC-MUD-DOGS-SWAMP"
+    },
+    {
+      "character_id": "CHAR-BEN-WHIPPLE",
+      "owner": "Ben Whipple",
+      "identity": "The People's Champ",
+      "primary_path": "canon/characters/assets/CHAR-BEN-WHIPPLE/primary/88B8E56B-8320-4524-8425-134FFAE8FBF5.jpeg",
+      "primary_expected_sha256": "c4401f79783637c9e3974f02de20ba5aeb1209e7ed4e0f5620e2bfcce3b270cf",
+      "primary_observed_sha256": null,
+      "primary_bytes_state": "ABSENT_IN_THIS_CHECKOUT",
+      "historical_library_file_id": "libfile_eae6ac6a8b7c8191b2dd4c359d6b7aa7",
+      "presentation_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+      "presentation_expected_sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+      "presentation_observed_sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+      "presentation_bytes_state": "MATCH",
+      "presentation_scope": "ALL_12_CHARACTER_VISUAL_PRESENTATIONS_AS_DEPICTED_IN_THIS_EXACT_ARTIFACT",
+      "renderer_bound": false,
+      "source_conflicts": [],
+      "render_state": "NOT_RENDER_BOUND",
+      "spec_path": "canon/characters/CHAR-BEN-WHIPPLE/T04_CHARACTER_SPEC.md",
+      "appearance_delta": "canon/characters/lineup_2026_10_18/CHAR-BEN-WHIPPLE.json",
+      "home_location_id": "LOC-CHINS-ROAD-COMMONS"
+    },
+    {
+      "character_id": "CHAR-KEVIN-ZEEK",
+      "owner": "Kevin Zeek",
+      "identity": "The Predator Board",
+      "primary_path": "canon/characters/assets/CHAR-KEVIN-ZEEK/primary/4369C44E-C5C8-46E9-B99F-04A97CEBEC13.jpeg",
+      "primary_expected_sha256": "df597e71aed77ddf510fd81f3fcd4ee812ac22b8f8e129e276dc5edfbd9dddc1",
+      "primary_observed_sha256": null,
+      "primary_bytes_state": "ABSENT_IN_THIS_CHECKOUT",
+      "historical_library_file_id": "libfile_971787749a34819197cb5225df6b4772",
+      "presentation_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+      "presentation_expected_sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b",
+      "presentation_observed_sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b",
+      "presentation_bytes_state": "MATCH",
+      "presentation_scope": "ALL_12_CHARACTER_VISUAL_PRESENTATIONS_AS_DEPICTED_IN_THIS_EXACT_ARTIFACT",
+      "renderer_bound": false,
+      "source_conflicts": [],
+      "render_state": "NOT_RENDER_BOUND",
+      "spec_path": "canon/characters/CHAR-KEVIN-ZEEK/T04_CHARACTER_SPEC.md",
+      "appearance_delta": "canon/characters/lineup_2026_10_18/CHAR-KEVIN-ZEEK.json",
+      "home_location_id": "LOC-RED-RUINS"
+    },
+    {
+      "character_id": "CHAR-MANNING-WELTY",
+      "owner": "Manning Welty",
+      "identity": "The Weather System",
+      "primary_path": "canon/characters/assets/CHAR-MANNING-WELTY/primary/2FA6D29A-5E4C-4CA1-9790-88BE5E75F14E.jpeg",
+      "primary_expected_sha256": "5e43eadf7ea6426ea8ba2c3af80c108714638625db5adc9d5a32492ff84fc965",
+      "primary_observed_sha256": null,
+      "primary_bytes_state": "ABSENT_IN_THIS_CHECKOUT",
+      "historical_library_file_id": "libfile_8f45a323b5dc819197282fe3d5a66561",
+      "presentation_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+      "presentation_expected_sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+      "presentation_observed_sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+      "presentation_bytes_state": "MATCH",
+      "presentation_scope": "ALL_12_CHARACTER_VISUAL_PRESENTATIONS_AS_DEPICTED_IN_THIS_EXACT_ARTIFACT",
+      "renderer_bound": false,
+      "source_conflicts": [],
+      "render_state": "NOT_RENDER_BOUND",
+      "spec_path": "canon/characters/CHAR-MANNING-WELTY/T04_CHARACTER_SPEC.md",
+      "appearance_delta": "canon/characters/lineup_2026_10_18/CHAR-MANNING-WELTY.json",
+      "home_location_id": "LOC-STORM-BOWL"
+    },
+    {
+      "character_id": "CHAR-DAVID-BABB",
+      "owner": "David Babb",
+      "identity": "Hostile Takeover",
+      "primary_path": "canon/characters/assets/CHAR-DAVID-BABB/primary/A6F3AA99-CDB1-4265-AB08-3728117089A3.jpeg",
+      "primary_expected_sha256": "ce3137d1472d63deb7a026d114d200f338d2461d3d223647f34b473794e1f85b",
+      "primary_observed_sha256": null,
+      "primary_bytes_state": "ABSENT_IN_THIS_CHECKOUT",
+      "historical_library_file_id": "libfile_bac6d604ba6081918ba5ec42d76452cc",
+      "presentation_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+      "presentation_expected_sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
+      "presentation_observed_sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
+      "presentation_bytes_state": "MATCH",
+      "presentation_scope": "ALL_12_CHARACTER_VISUAL_PRESENTATIONS_AS_DEPICTED_IN_THIS_EXACT_ARTIFACT",
+      "renderer_bound": false,
+      "source_conflicts": [],
+      "render_state": "NOT_RENDER_BOUND",
+      "spec_path": "canon/characters/CHAR-DAVID-BABB/T04_CHARACTER_SPEC.md",
+      "appearance_delta": "canon/characters/lineup_2026_10_18/CHAR-DAVID-BABB.json",
+      "home_location_id": "LOC-LLC-BOARDROOM"
+    },
+    {
+      "character_id": "CHAR-ZACH-WILSON",
+      "owner": "Zach Wilson",
+      "identity": "King of the Impossible Lie",
+      "primary_path": "canon/characters/assets/CHAR-ZACH-WILSON/primary/5B8C182F-FEBF-40A3-8DDA-1B4B62386B10.jpeg",
+      "primary_expected_sha256": "c8124a1f1146c0acc65b5e82d1c21289afd6a74a8ac2046895e39794619dcefb",
+      "primary_observed_sha256": null,
+      "primary_bytes_state": "ABSENT_IN_THIS_CHECKOUT",
+      "historical_library_file_id": "libfile_af25a9c60db88191b46b0f343fe50e09",
+      "presentation_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+      "presentation_expected_sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+      "presentation_observed_sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+      "presentation_bytes_state": "MATCH",
+      "presentation_scope": "ALL_12_CHARACTER_VISUAL_PRESENTATIONS_AS_DEPICTED_IN_THIS_EXACT_ARTIFACT",
+      "renderer_bound": false,
+      "source_conflicts": [],
+      "render_state": "NOT_RENDER_BOUND",
+      "spec_path": "canon/characters/CHAR-ZACH-WILSON/T04_CHARACTER_SPEC.md",
+      "appearance_delta": "canon/characters/lineup_2026_10_18/CHAR-ZACH-WILSON.json",
+      "home_location_id": "LOC-COUNTRY-CLUB-JACKSON"
+    },
+    {
+      "character_id": "CHAR-JAKE-KALOPER",
+      "owner": "Jake Kaloper",
+      "identity": "The Trade Jedi",
+      "primary_path": "canon/characters/assets/CHAR-JAKE-KALOPER/primary/73B4BF07-22E9-44CA-BCBB-882612DFA9C1.jpeg",
+      "primary_expected_sha256": "e9b6690899566864fc9d56b3bc9dbce0e1eb43a2901d23c0949170be4da91e58",
+      "primary_observed_sha256": null,
+      "primary_bytes_state": "ABSENT_IN_THIS_CHECKOUT",
+      "historical_library_file_id": "libfile_ecc124baa0708191912ab17f4f18f840",
+      "presentation_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+      "presentation_expected_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+      "presentation_observed_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+      "presentation_bytes_state": "MATCH",
+      "presentation_scope": "ALL_12_CHARACTER_VISUAL_PRESENTATIONS_AS_DEPICTED_IN_THIS_EXACT_ARTIFACT",
+      "renderer_bound": false,
+      "source_conflicts": [],
+      "render_state": "NOT_RENDER_BOUND",
+      "spec_path": "canon/characters/CHAR-JAKE-KALOPER/T04_CHARACTER_SPEC.md",
+      "appearance_delta": "canon/characters/lineup_2026_10_18/CHAR-JAKE-KALOPER.json",
+      "home_location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+    },
+    {
+      "character_id": "CHAR-BRANDON-PRYOR",
+      "owner": "Brandon Pryor",
+      "identity": "The Chili Outlaw",
+      "primary_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/primary/76344FB3-1974-48D0-AA90-8B231E6008F7.jpeg",
+      "primary_expected_sha256": "0bb99794f3a0b9fa1a7f791e17e6885fffcca4b79c824057623bab5c74598cfe",
+      "primary_observed_sha256": null,
+      "primary_bytes_state": "ABSENT_IN_THIS_CHECKOUT",
+      "historical_library_file_id": "libfile_c58ba66f781c8191b64e7452e2fc2bc8",
+      "presentation_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+      "presentation_expected_sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+      "presentation_observed_sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+      "presentation_bytes_state": "MATCH",
+      "presentation_scope": "ALL_12_CHARACTER_VISUAL_PRESENTATIONS_AS_DEPICTED_IN_THIS_EXACT_ARTIFACT",
+      "renderer_bound": false,
+      "source_conflicts": [],
+      "render_state": "NOT_RENDER_BOUND",
+      "spec_path": "canon/characters/CHAR-BRANDON-PRYOR/T04_CHARACTER_SPEC.md",
+      "appearance_delta": "canon/characters/lineup_2026_10_18/CHAR-BRANDON-PRYOR.json",
+      "home_location_id": "LOC-CHILI-STABLE"
+    },
+    {
+      "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "owner": "Jordan Hollingshead",
+      "identity": "Frat-Bro Berserker",
+      "primary_path": "canon/characters/assets/CHAR-JORDAN-HOLLINGSHEAD/primary/0435E914-64B3-4350-8A41-758173DDC98D.jpeg",
+      "primary_expected_sha256": "c052e8c74939338517f1b14bbca5f2ea3d57146794f675d065698a44fb1064e8",
+      "primary_observed_sha256": null,
+      "primary_bytes_state": "ABSENT_IN_THIS_CHECKOUT",
+      "historical_library_file_id": "libfile_f330daf3bae0819198b6008d67fecc51",
+      "presentation_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+      "presentation_expected_sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+      "presentation_observed_sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+      "presentation_bytes_state": "MATCH",
+      "presentation_scope": "ALL_12_CHARACTER_VISUAL_PRESENTATIONS_AS_DEPICTED_IN_THIS_EXACT_ARTIFACT",
+      "renderer_bound": false,
+      "source_conflicts": [],
+      "render_state": "NOT_RENDER_BOUND",
+      "spec_path": "canon/characters/CHAR-JORDAN-HOLLINGSHEAD/T04_CHARACTER_SPEC.md",
+      "appearance_delta": "canon/characters/lineup_2026_10_18/CHAR-JORDAN-HOLLINGSHEAD.json",
+      "home_location_id": "LOC-SLOB-FOOTHILL-CAMP"
+    },
+    {
+      "character_id": "CHAR-WILSON-LOOK",
+      "owner": "Wilson Look",
+      "identity": "Arsenal Gorilla Centaur Warrior",
+      "primary_path": "canon/characters/assets/CHAR-WILSON-LOOK/primary/IMG_7866(1).jpeg",
+      "primary_expected_sha256": "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10",
+      "primary_observed_sha256": null,
+      "primary_bytes_state": "ABSENT_IN_THIS_CHECKOUT",
+      "historical_library_file_id": "libfile_24a22e961e988191928d08b1bfab06e2",
+      "presentation_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+      "presentation_expected_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+      "presentation_observed_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+      "presentation_bytes_state": "MATCH",
+      "presentation_scope": "ALL_12_CHARACTER_VISUAL_PRESENTATIONS_AS_DEPICTED_IN_THIS_EXACT_ARTIFACT",
+      "renderer_bound": false,
+      "source_conflicts": [
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "state": "ACTIVE_CANON_VISUAL_CONFLICT_HOLD",
+          "affected_original_file_id": "file_00000000df4081f5803f8ba6dfb68b42",
+          "affected_filename": "IMG_7866(1).jpeg",
+          "affected_expected_sha256": "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10",
+          "observed_at": "2026-10-18",
+          "source_preview_observation": "The original registered Library JPEG visibly depicts a bipedal Arsenal gorilla on a Week 3 cover; it does not show the four-legged centaur/equine lower body required by the later current canon.",
+          "current_canon_requirement": "ONE integrated gorilla upper identity with FOUR-LEGGED centaur/equine lower anatomy; Arsenal identity; not two creatures",
+          "review_authority": "ASSISTANT_VISUAL_INSPECTION_ONLY__INDEPENDENT_UMPIRE_NOT_SIGNED",
+          "block_old_exact_sha_after_recovery": true,
+          "block_native_library_handle": true,
+          "candidate_asset": "canon/characters/assets/CHAR-WILSON-LOOK/candidate/COMMISSIONER_2026-10-12.png",
+          "candidate_sha256": "c4ef045845641e6e2067d1ed82be20b9a0fd154c41aff0bfec4c2e36d26d319d",
+          "candidate_role": "NONACTIVE_VISUAL_CANDIDATE__NOT_APPROVED_PRIMARY",
+          "candidate_preliminary_observation": "October 12 illustration visibly portrays Arsenal gorilla upper body joined to a centaur-like four-legged lower body; complete leg-count QA is pending.",
+          "supersession_state": "COMMISSIONER_EXPLICIT_VERSION_APPROVAL_AND_INDEPENDENT_C1_REQUIRED",
+          "candidate_retrieval_note": "Candidate bytes are currently held on separate draft PR #195; not available to this hotfix main branch and not approved for current production."
+        }
+      ],
+      "render_state": "HOLD_ACTIVE_VISUAL_CONFLICT",
+      "spec_path": "canon/characters/CHAR-WILSON-LOOK/T04_CHARACTER_SPEC.md",
+      "appearance_delta": "canon/characters/lineup_2026_10_18/CHAR-WILSON-LOOK.json",
+      "home_location_id": "LOC-DK-HIGHLAND-STRONGHOLD"
+    },
+    {
+      "character_id": "CHAR-PHILLIP-PITTS",
+      "owner": "Phillip Pitts",
+      "identity": "The Podium Shadow",
+      "primary_path": "canon/characters/assets/CHAR-PHILLIP-PITTS/primary/IMG_2178.jpeg",
+      "primary_expected_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+      "primary_observed_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+      "primary_bytes_state": "MATCH",
+      "historical_library_file_id": "libfile_68a2173146888191bbae1160bb9972d2",
+      "presentation_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+      "presentation_expected_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+      "presentation_observed_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+      "presentation_bytes_state": "MATCH",
+      "presentation_scope": "ALL_12_CHARACTER_VISUAL_PRESENTATIONS_AS_DEPICTED_IN_THIS_EXACT_ARTIFACT",
+      "renderer_bound": false,
+      "source_conflicts": [],
+      "render_state": "NOT_RENDER_BOUND",
+      "spec_path": "canon/characters/CHAR-PHILLIP-PITTS/T04_CHARACTER_SPEC.md",
+      "appearance_delta": "canon/characters/lineup_2026_10_18/CHAR-PHILLIP-PITTS.json",
+      "home_location_id": "LOC-TDS-WATERFALL-TEMPLE"
+    },
+    {
+      "character_id": "CHAR-AUSTIN-BYARS",
+      "owner": "Austin Byars",
+      "identity": "The Belt Keeper",
+      "primary_path": "canon/characters/assets/CHAR-AUSTIN-BYARS/primary/IMG_2179.jpeg",
+      "primary_expected_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
+      "primary_observed_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
+      "primary_bytes_state": "MATCH",
+      "historical_library_file_id": "libfile_e4bcc187081c8191ad6d591a54949028",
+      "presentation_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+      "presentation_expected_sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+      "presentation_observed_sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+      "presentation_bytes_state": "MATCH",
+      "presentation_scope": "ALL_12_CHARACTER_VISUAL_PRESENTATIONS_AS_DEPICTED_IN_THIS_EXACT_ARTIFACT",
+      "renderer_bound": false,
+      "source_conflicts": [],
+      "render_state": "NOT_RENDER_BOUND",
+      "spec_path": "canon/characters/CHAR-AUSTIN-BYARS/T04_CHARACTER_SPEC.md",
+      "appearance_delta": "canon/characters/lineup_2026_10_18/CHAR-AUSTIN-BYARS.json",
+      "home_location_id": "LOC-BELT-KEEPER-KEEP"
+    }
+  ],
+  "world": [
+    {
+      "matchup_id": "W09-M01",
+      "parent_location": "LOC-COUNTRY-CLUB-JACKSON",
+      "registered_status": "PERMANENT_CANON",
+      "persistent_landmarks": [
+        "clubhouse",
+        "golf grounds",
+        "water hazards"
+      ],
+      "entering_state_as_recorded": [
+        "Week 3 chili contamination is historical memory; cleanup state required before pristine reset"
+      ],
+      "away_origin": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "candidate_graph_chain": {
+        "locations": [
+          "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+          "LOC-BRIDGE-MOUNTAIN-LAKE",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-DK-MUD-HILL",
+          "LOC-COUNTRY-CLUB-JACKSON"
+        ],
+        "route_ids": [
+          "ROUTE-EASTERN-ASCENT",
+          "ROUTE-UPPER-BASIN-CONNECTOR",
+          "ROUTE-BASIN-MARKET",
+          "ROUTE-DELTA-CAUSEWAY"
+        ]
+      },
+      "route_assumption": "Bidirectional graph-only adjacency; not dynamic route, mode, weather, physical capacity or time validation. El Nino uses atmospheric propagation, not a pedestrian route.",
+      "arrival_mode_validated": false,
+      "subfeature": "COURSE_FEATURE_REQUIRES_SPATIAL_RESOLUTION",
+      "technology_exception_required": false,
+      "status": "PLANNING_ANCHOR_RESOLVED__ACTION_SITE_NOT_APPROVED"
+    },
+    {
+      "matchup_id": "W09-M02",
+      "parent_location": "LOC-MUD-DOGS-SWAMP",
+      "registered_status": "PERMANENT_CANON",
+      "persistent_landmarks": [
+        "mud channels",
+        "raised ground"
+      ],
+      "entering_state_as_recorded": [
+        "Week 2 and Week 3 history remembered"
+      ],
+      "away_origin": "LOC-STORM-BOWL",
+      "candidate_graph_chain": null,
+      "route_assumption": "Bidirectional graph-only adjacency; not dynamic route, mode, weather, physical capacity or time validation. El Nino uses atmospheric propagation, not a pedestrian route.",
+      "arrival_mode_validated": false,
+      "subfeature": "MOTORBIKE_TECHNOLOGY_EXCEPTION_REQUIRES_ATLAS_REVIEW",
+      "technology_exception_required": true,
+      "status": "PLANNING_ANCHOR_RESOLVED__ACTION_SITE_NOT_APPROVED"
+    },
+    {
+      "matchup_id": "W09-M03",
+      "parent_location": "LOC-RED-RUINS",
+      "registered_status": "PERMANENT_CANON",
+      "persistent_landmarks": [
+        "jungle ruins",
+        "predator banners"
+      ],
+      "entering_state_as_recorded": [
+        "operational"
+      ],
+      "away_origin": "LOC-CHINS-ROAD-COMMONS",
+      "candidate_graph_chain": {
+        "locations": [
+          "LOC-CHINS-ROAD-COMMONS",
+          "LOC-COUNTRY-CLUB-JACKSON",
+          "LOC-DK-MUD-HILL",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-BRIDGE-MOUNTAIN-LAKE",
+          "LOC-RED-RUINS"
+        ],
+        "route_ids": [
+          "ROUTE-JACKSON-LEVEE",
+          "ROUTE-DELTA-CAUSEWAY",
+          "ROUTE-BASIN-MARKET",
+          "ROUTE-UPPER-BASIN-CONNECTOR",
+          "ROUTE-RAIN-ESCARPMENT"
+        ]
+      },
+      "route_assumption": "Bidirectional graph-only adjacency; not dynamic route, mode, weather, physical capacity or time validation. El Nino uses atmospheric propagation, not a pedestrian route.",
+      "arrival_mode_validated": false,
+      "subfeature": "SOCCER_TERRACE_PRIOR_WEEK6_CANDIDATE_TO_RESOLVE",
+      "technology_exception_required": true,
+      "status": "PLANNING_ANCHOR_RESOLVED__ACTION_SITE_NOT_APPROVED"
+    },
+    {
+      "matchup_id": "W09-M04",
+      "parent_location": "LOC-CHILI-STABLE",
+      "registered_status": "PERMANENT_CANON",
+      "persistent_landmarks": [
+        "stable",
+        "pit smoke",
+        "Dark Horse enclosure"
+      ],
+      "entering_state_as_recorded": [
+        "operational",
+        "cross-divisional coexistence with TDS is canon"
+      ],
+      "away_origin": "LOC-BELT-KEEPER-KEEP",
+      "candidate_graph_chain": {
+        "locations": [
+          "LOC-BELT-KEEPER-KEEP",
+          "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+          "LOC-BRIDGE-MOUNTAIN-LAKE",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-DK-MUD-HILL",
+          "LOC-MUD-DOGS-SWAMP",
+          "LOC-TDS-WATERFALL-TEMPLE",
+          "LOC-CHILI-STABLE"
+        ],
+        "route_ids": [
+          "ROUTE-BLACK-CLIFF",
+          "ROUTE-EASTERN-ASCENT",
+          "ROUTE-UPPER-BASIN-CONNECTOR",
+          "ROUTE-BASIN-MARKET",
+          "ROUTE-DELTA-CAUSEWAY",
+          "ROUTE-FALLS-PATH",
+          "ROUTE-TDS-CHILI-SHARED-MARCH"
+        ]
+      },
+      "route_assumption": "Bidirectional graph-only adjacency; not dynamic route, mode, weather, physical capacity or time validation. El Nino uses atmospheric propagation, not a pedestrian route.",
+      "arrival_mode_validated": false,
+      "subfeature": "TEMPORARY_TOWN_FEAST_SUBFEATURE_TO_RESOLVE",
+      "technology_exception_required": false,
+      "status": "PLANNING_ANCHOR_RESOLVED__ACTION_SITE_NOT_APPROVED"
+    },
+    {
+      "matchup_id": "W09-M05",
+      "parent_location": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "registered_status": "INTERPRETIVE_CANON",
+      "persistent_landmarks": [
+        "highland stronghold",
+        "training court",
+        "road approach"
+      ],
+      "entering_state_as_recorded": [
+        "current principal identity = Arsenal Gorilla Centaur Warrior (one gorilla upper body; four-legged equine lower body)",
+        "peopled-kind home society"
+      ],
+      "away_origin": "LOC-LLC-BOARDROOM",
+      "candidate_graph_chain": {
+        "locations": [
+          "LOC-LLC-BOARDROOM",
+          "LOC-LLC-STORM-CITY",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-BRIDGE-MOUNTAIN-LAKE",
+          "LOC-SLOB-FOOTHILL-CAMP",
+          "LOC-ARSENAL-BARBERSHOP",
+          "LOC-DK-HIGHLAND-STRONGHOLD"
+        ],
+        "route_ids": [
+          "ROUTE-INNER-SEA-QUAY",
+          "ROUTE-PORT-BASIN-CONNECTOR",
+          "ROUTE-UPPER-BASIN-CONNECTOR",
+          "ROUTE-HEARTHROAD",
+          "ROUTE-HEARTHROAD",
+          "ROUTE-DK-HIGHLAND-LINK"
+        ]
+      },
+      "route_assumption": "Bidirectional graph-only adjacency; not dynamic route, mode, weather, physical capacity or time validation. El Nino uses atmospheric propagation, not a pedestrian route.",
+      "arrival_mode_validated": false,
+      "subfeature": "COLOSSEUM_AS_HIGHLAND_SUBLOCATION_CANDIDATE",
+      "technology_exception_required": false,
+      "status": "PLANNING_ANCHOR_RESOLVED__ACTION_SITE_NOT_APPROVED"
+    },
+    {
+      "matchup_id": "W09-M06",
+      "parent_location": "LOC-SLOB-FOOTHILL-CAMP",
+      "registered_status": "PROVISIONAL_CANON",
+      "persistent_landmarks": [
+        "tailgate yard",
+        "rough training ground"
+      ],
+      "entering_state_as_recorded": [
+        "operational"
+      ],
+      "away_origin": "LOC-TDS-WATERFALL-TEMPLE",
+      "candidate_graph_chain": {
+        "locations": [
+          "LOC-TDS-WATERFALL-TEMPLE",
+          "LOC-MUD-DOGS-SWAMP",
+          "LOC-DK-MUD-HILL",
+          "LOC-LEAGUE-CHAMBER",
+          "LOC-BRIDGE-MOUNTAIN-LAKE",
+          "LOC-SLOB-FOOTHILL-CAMP"
+        ],
+        "route_ids": [
+          "ROUTE-FALLS-PATH",
+          "ROUTE-DELTA-CAUSEWAY",
+          "ROUTE-BASIN-MARKET",
+          "ROUTE-UPPER-BASIN-CONNECTOR",
+          "ROUTE-HEARTHROAD"
+        ]
+      },
+      "route_assumption": "Bidirectional graph-only adjacency; not dynamic route, mode, weather, physical capacity or time validation. El Nino uses atmospheric propagation, not a pedestrian route.",
+      "arrival_mode_validated": false,
+      "subfeature": "TEMPORARY_COURSE_WITH_MARKER_TECH_EXCEPTION_TO_REVIEW",
+      "technology_exception_required": true,
+      "status": "PLANNING_ANCHOR_RESOLVED__ACTION_SITE_NOT_APPROVED"
+    }
+  ],
+  "rulings": [
+    {
+      "id": "R01",
+      "decision": "HMB is hooded/red-eyed/black-armored Belt Keeper; remove prior assistant royal/crown/king implications from active scene directions. Keep user cookout and humiliation.",
+      "authority": "APPROVED_LINEUP_2026_10_18 supporting HMB correction and current visual authority"
+    },
+    {
+      "id": "R02",
+      "decision": "Oct18 DK presentation is approved comparative appearance, but historical primary remains explicitly conflicted and renderer bindings uncertified. Do not bypass the conflict or relabel an approved crop as certified primary.",
+      "authority": "VISUAL_REFERENCE_AUTHORITY_V1.json"
+    },
+    {
+      "id": "R03",
+      "decision": "Preserve exact Founder dirt-bike/truck/paintball requirements as scoped Week9 candidate props. No global technology-law or Atlas mutation. Domain approval remains outstanding.",
+      "authority": "Founder questionnaire versus existing modernity ceiling"
+    },
+    {
+      "id": "R04",
+      "decision": "Provisional November8 morning source is planning input, not current live score or final result. Player causes remain empty pending collection and Fact Lock.",
+      "authority": "memo-os/week-9/WEEK_8_FINAL_WEEK_9_PROVIDER_EVIDENCE_2026-11-08.json"
+    },
+    {
+      "id": "R05",
+      "decision": "No final-page generation in this continuation. All page contracts remain PLANNED.",
+      "authority": "existing Issue276 preproduction scope"
+    }
+  ]
+}

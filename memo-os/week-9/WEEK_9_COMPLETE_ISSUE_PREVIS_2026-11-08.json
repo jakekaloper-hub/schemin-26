@@ -1,0 +1,3276 @@
+{
+  "schema": "schemin26.week9.complete_issue_previs_candidate.v1",
+  "state": "ALL_PAGES_PLANNED_NOT_READY_FOR_RENDER",
+  "source_commit": "409b0dca4b471ecea14e9f8badf46e4ec87f8a5c",
+  "architecture": "28 candidate folios, each with a distinct editorial function. This is a working allocation, not a fixed required page count. Revise before Story/Page Lock if factual availability or mobile readability warrants.",
+  "upstream": [
+    "WEEK_9_COMMISSIONER_QUESTIONNAIRE_CREATIVE_CONTEXT_2026-11-08.md",
+    "WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+    "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+  ],
+  "image_generation_performed": false,
+  "sports_data_state": "NOV8_MORNING_PROVISIONAL_NOT_LIVE_NOT_FINAL",
+  "pages": [
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P01",
+      "page_role": "cover",
+      "page_state": "PLANNED",
+      "working_title": "A New Arrival",
+      "matchup_id": null,
+      "narrative_job": "Cover concept already chosen; do not substitute the GOTW.",
+      "chapter_beat": "cover",
+      "reader_takeaway": "The family moment provides a warm issue-level opening; teaser text points to competitive Week9 stakes.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING",
+        "FOUNDER_CONTEXT_AND_FINAL_EDITORIAL_THESIS"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [],
+      "owners_present": [
+        "Phillip Pitts"
+      ],
+      "characters_present": [
+        "CHAR-PHILLIP-PITTS"
+      ],
+      "atmospheric_representation": null,
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "primary_path": "canon/characters/assets/CHAR-PHILLIP-PITTS/primary/IMG_2178.jpeg",
+          "expected_primary_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+          "comparison_crop_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        }
+      ],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": "LOC-TDS-WATERFALL-TEMPLE",
+        "venue_type": "EXISTING_COVER_HOME",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": false,
+        "world_state_in": [
+          "Load existing issue continuity before illustration"
+        ],
+        "persistent_landmarks": [],
+        "provisional_location": false,
+        "world_resolution": "EDITORIAL_COMPOSITION_PENDING"
+      },
+      "continuity_in": "Existing Waterfall Temple and current TDS reference; Founder newborn cover premise",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 02",
+      "image_tells": "Sunrise ceremonial wide at the established Waterfall Temple; TDS safely presents the swaddled newborn. One body, exactly three serpent heads. No invented charity/fantasy matchup on this page.",
+      "prose_tells": "The family moment provides a warm issue-level opening; teaser text points to competitive Week9 stakes.",
+      "art_text_ratio": "85:15",
+      "camera_and_composition": "Sunrise-wide",
+      "foreground": "Sunrise ceremonial wide at the established Waterfall Temple; TDS safely presents the swaddled newborn",
+      "midground": "Source-bound editorial content area",
+      "background": "Registered parent terrain/landmarks; do not invent persistent structures",
+      "copy_budget": {
+        "body_words_max": 130,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": null,
+        "next": "W09-P02"
+      },
+      "rhythm_function": "Cover concept already chosen; do not substitute the GOTW.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "RENDERER_REFERENCE_BINDING_NOT_DEMONSTRATED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "CHARACTER_FINAL_RASTER",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": null
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P02",
+      "page_role": "opening_drive",
+      "page_state": "PLANNED",
+      "working_title": "Every Matchup Matters",
+      "matchup_id": null,
+      "narrative_job": "Transition from family celebration to football without conflating Book or cover.",
+      "chapter_beat": "opening_drive",
+      "reader_takeaway": "Brief congratulations, then a sourced description of the crowded race. Opening remains unwritten until the result week can support its thesis.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING",
+        "FOUNDER_CONTEXT_AND_FINAL_EDITORIAL_THESIS"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [],
+      "owners_present": [],
+      "characters_present": [],
+      "atmospheric_representation": null,
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": null,
+        "venue_type": "EDITORIAL_NOT_NEW_ATLAS_SITE",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": false,
+        "world_state_in": [
+          "Load existing issue continuity before illustration"
+        ],
+        "persistent_landmarks": [],
+        "provisional_location": false,
+        "world_resolution": "EDITORIAL_COMPOSITION_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 01",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 03",
+      "image_tells": "A quiet in-world editorial desk with six paired fixture cards and the seven-berth playoff schematic, no invented franchise faces.",
+      "prose_tells": "Brief congratulations, then a sourced description of the crowded race. Opening remains unwritten until the result week can support its thesis.",
+      "art_text_ratio": "55:45",
+      "camera_and_composition": "Editorial-desk oblique",
+      "foreground": "A quiet in-world editorial desk with six paired fixture cards and the seven-berth playoff schematic, no invented franchise faces",
+      "midground": "Source-bound editorial content area",
+      "background": "Quiet issue-consistent setting with no invented Atlas location",
+      "copy_budget": {
+        "body_words_max": 130,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P01",
+        "next": "W09-P03"
+      },
+      "rhythm_function": "Transition from family celebration to football without conflating Book or cover.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "NO_CHARACTER_INVENTION",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": null
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P03",
+      "page_role": "scoreboard",
+      "page_state": "PLANNED",
+      "working_title": "Week 9 — The Results",
+      "matchup_id": null,
+      "narrative_job": "Orient before cinematic chapters; preserve all six real fixtures.",
+      "chapter_beat": "scoreboard",
+      "reader_takeaway": "Who beat whom, exact margin and postweek record. No full recaps here.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [
+        "source_bound_department_values",
+        "as_of_date"
+      ],
+      "owners_present": [],
+      "characters_present": [],
+      "atmospheric_representation": null,
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": null,
+        "venue_type": "EDITORIAL_NOT_NEW_ATLAS_SITE",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": false,
+        "world_state_in": [
+          "Load existing issue continuity before illustration"
+        ],
+        "persistent_landmarks": [],
+        "provisional_location": false,
+        "world_resolution": "EDITORIAL_COMPOSITION_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 02",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 04",
+      "image_tells": "Six clearly separated score rows integrated into an in-world results board; typography composited from verified finals, not painted by the image model.",
+      "prose_tells": "Who beat whom, exact margin and postweek record. No full recaps here.",
+      "art_text_ratio": "55:45",
+      "camera_and_composition": "Orthographic scoreboard",
+      "foreground": "Six clearly separated score rows integrated into an in-world results board; typography composited from verified finals, not painted by the image model",
+      "midground": "Source-bound editorial content area",
+      "background": "Quiet issue-consistent setting with no invented Atlas location",
+      "copy_budget": {
+        "body_words_max": 130,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P02",
+        "next": "W09-P04"
+      },
+      "rhythm_function": "Orient before cinematic chapters; preserve all six real fixtures.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "NO_CHARACTER_INVENTION",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": null
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P04",
+      "page_role": "matchup_setup",
+      "page_state": "PLANNED",
+      "working_title": "The Invitation",
+      "matchup_id": "W09-M01",
+      "narrative_job": "Establish rival, setting and social restraint.",
+      "chapter_beat": "matchup_setup",
+      "reader_takeaway": "Charity invitation, repeat 2025 Week9 home/away pairing and current division stakes.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING",
+        "FINAL_WEEK9_SCORE",
+        "PLAYER_LEVEL_CAUSAL_PACKET"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [
+        "matchup_label",
+        "as_of_date"
+      ],
+      "owners_present": [
+        "Zach Wilson",
+        "Jake Kaloper"
+      ],
+      "characters_present": [
+        "CHAR-ZACH-WILSON",
+        "CHAR-JAKE-KALOPER"
+      ],
+      "atmospheric_representation": null,
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "primary_path": "canon/characters/assets/CHAR-ZACH-WILSON/primary/5B8C182F-FEBF-40A3-8DDA-1B4B62386B10.jpeg",
+          "expected_primary_sha256": "c8124a1f1146c0acc65b5e82d1c21289afd6a74a8ac2046895e39794619dcefb",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+          "comparison_crop_sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        },
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "primary_path": "canon/characters/assets/CHAR-JAKE-KALOPER/primary/73B4BF07-22E9-44CA-BCBB-882612DFA9C1.jpeg",
+          "expected_primary_sha256": "e9b6690899566864fc9d56b3bc9dbce0e1eb43a2901d23c0949170be4da91e58",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+          "comparison_crop_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        }
+      ],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "venue_type": "OWNER_HOME_SCENE",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": true,
+        "world_state_in": [
+          "Week 3 chili contamination is historical memory; cleanup state required before pristine reset"
+        ],
+        "persistent_landmarks": [
+          "clubhouse",
+          "golf grounds",
+          "water hazards"
+        ],
+        "provisional_location": true,
+        "world_resolution": "PLANNING_PARENT_RESOLVED__EVENT_FEATURE_REVIEW_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 03",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 05",
+      "image_tells": "Wide autumn sunrise above the CCOJ first tee, clubhouse and distant water hazard. Duckhook offers a scorecard while ObiWan surveys the course; recognizable costume adaptation.",
+      "prose_tells": "Charity invitation, repeat 2025 Week9 home/away pairing and current division stakes.",
+      "art_text_ratio": "85:15",
+      "camera_and_composition": "Wide horizon / warm sunrise",
+      "foreground": "Wide autumn sunrise above the CCOJ first tee, clubhouse and distant water hazard",
+      "midground": "Core action/physical contact zone; preserve readable limb, prop and target separation",
+      "background": "Registered parent terrain/landmarks; do not invent persistent structures",
+      "copy_budget": {
+        "body_words_max": 90,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P03",
+        "next": "W09-P05"
+      },
+      "rhythm_function": "Establish rival, setting and social restraint.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "RENDERER_REFERENCE_BINDING_NOT_DEMONSTRATED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "CHARACTER_FINAL_RASTER",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": {
+        "home_win": "Duckhook wins: ObiWan makes an increasingly embarrassing series of poor golf shots; Duckhook controls his course and wins; visibly anguished ObiWan",
+        "away_win": "ObiWan wins: Duckhook misses embarrassing decisive putt/approach toward the water hazard while ObiWan finishes steadily; defeated Duckhook registers the blow"
+      }
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P05",
+      "page_role": "matchup_action",
+      "page_state": "PLANNED",
+      "working_title": "A Round of Answers",
+      "matchup_id": "W09-M01",
+      "narrative_job": "Earn the requested collage without shrinking bodies to unreadable stamps.",
+      "chapter_beat": "matchup_action",
+      "reader_takeaway": "Use one verified player-performance mechanism later, not an invented golf stroke total.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING",
+        "FINAL_WEEK9_SCORE",
+        "PLAYER_LEVEL_CAUSAL_PACKET"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [
+        "matchup_label",
+        "as_of_date"
+      ],
+      "owners_present": [
+        "Zach Wilson",
+        "Jake Kaloper"
+      ],
+      "characters_present": [
+        "CHAR-ZACH-WILSON",
+        "CHAR-JAKE-KALOPER"
+      ],
+      "atmospheric_representation": null,
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "primary_path": "canon/characters/assets/CHAR-ZACH-WILSON/primary/5B8C182F-FEBF-40A3-8DDA-1B4B62386B10.jpeg",
+          "expected_primary_sha256": "c8124a1f1146c0acc65b5e82d1c21289afd6a74a8ac2046895e39794619dcefb",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+          "comparison_crop_sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        },
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "primary_path": "canon/characters/assets/CHAR-JAKE-KALOPER/primary/73B4BF07-22E9-44CA-BCBB-882612DFA9C1.jpeg",
+          "expected_primary_sha256": "e9b6690899566864fc9d56b3bc9dbce0e1eb43a2901d23c0949170be4da91e58",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+          "comparison_crop_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        }
+      ],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "venue_type": "OWNER_HOME_SCENE",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": true,
+        "world_state_in": [
+          "Week 3 chili contamination is historical memory; cleanup state required before pristine reset"
+        ],
+        "persistent_landmarks": [
+          "clubhouse",
+          "golf grounds",
+          "water hazards"
+        ],
+        "provisional_location": true,
+        "world_resolution": "PLANNING_PARENT_RESOLVED__EVENT_FEATURE_REVIEW_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 04",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 06",
+      "image_tells": "Three readable sequential vignettes: tee follow-through, sand/rough recovery, green-side reaction. Both characters visibly take turns; who excels is outcome-dependent.",
+      "prose_tells": "Use one verified player-performance mechanism later, not an invented golf stroke total.",
+      "art_text_ratio": "85:15",
+      "camera_and_composition": "Sequential athletic montage",
+      "foreground": "Three readable sequential vignettes: tee follow-through, sand/rough recovery, green-side reaction",
+      "midground": "Core action/physical contact zone; preserve readable limb, prop and target separation",
+      "background": "Registered parent terrain/landmarks; do not invent persistent structures",
+      "copy_budget": {
+        "body_words_max": 90,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P04",
+        "next": "W09-P06"
+      },
+      "rhythm_function": "Earn the requested collage without shrinking bodies to unreadable stamps.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "RENDERER_REFERENCE_BINDING_NOT_DEMONSTRATED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "CHARACTER_FINAL_RASTER",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": {
+        "home_win": "Duckhook wins: ObiWan makes an increasingly embarrassing series of poor golf shots; Duckhook controls his course and wins; visibly anguished ObiWan",
+        "away_win": "ObiWan wins: Duckhook misses embarrassing decisive putt/approach toward the water hazard while ObiWan finishes steadily; defeated Duckhook registers the blow"
+      }
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P06",
+      "page_role": "matchup_pressure",
+      "page_state": "PLANNED",
+      "working_title": "The Quiet Before the Putt",
+      "matchup_id": "W09-M01",
+      "narrative_job": "Slow the reading rhythm before the payoff.",
+      "chapter_beat": "matchup_pressure",
+      "reader_takeaway": "Explain the real late-match swing or narrowing margin only if data supports it; otherwise emotional pressure without invented chronology.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING",
+        "FINAL_WEEK9_SCORE",
+        "PLAYER_LEVEL_CAUSAL_PACKET"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [
+        "matchup_label",
+        "as_of_date"
+      ],
+      "owners_present": [
+        "Zach Wilson",
+        "Jake Kaloper"
+      ],
+      "characters_present": [
+        "CHAR-ZACH-WILSON",
+        "CHAR-JAKE-KALOPER"
+      ],
+      "atmospheric_representation": null,
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "primary_path": "canon/characters/assets/CHAR-ZACH-WILSON/primary/5B8C182F-FEBF-40A3-8DDA-1B4B62386B10.jpeg",
+          "expected_primary_sha256": "c8124a1f1146c0acc65b5e82d1c21289afd6a74a8ac2046895e39794619dcefb",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+          "comparison_crop_sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        },
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "primary_path": "canon/characters/assets/CHAR-JAKE-KALOPER/primary/73B4BF07-22E9-44CA-BCBB-882612DFA9C1.jpeg",
+          "expected_primary_sha256": "e9b6690899566864fc9d56b3bc9dbce0e1eb43a2901d23c0949170be4da91e58",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+          "comparison_crop_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        }
+      ],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "venue_type": "OWNER_HOME_SCENE",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": true,
+        "world_state_in": [
+          "Week 3 chili contamination is historical memory; cleanup state required before pristine reset"
+        ],
+        "persistent_landmarks": [
+          "clubhouse",
+          "golf grounds",
+          "water hazards"
+        ],
+        "provisional_location": true,
+        "world_resolution": "PLANNING_PARENT_RESOLVED__EVENT_FEATURE_REVIEW_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 05",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 07",
+      "image_tells": "Medium low camera behind the approaching player, ball and flag visible, opponent in midground; a visibly sloped apron descends toward pond on the same side in all views.",
+      "prose_tells": "Explain the real late-match swing or narrowing margin only if data supports it; otherwise emotional pressure without invented chronology.",
+      "art_text_ratio": "85:15",
+      "camera_and_composition": "Low compressed green / hands detail",
+      "foreground": "Medium low camera behind the approaching player, ball and flag visible, opponent in midground; a visibly sloped apron descends toward pond on the same side in all views",
+      "midground": "Core action/physical contact zone; preserve readable limb, prop and target separation",
+      "background": "Registered parent terrain/landmarks; do not invent persistent structures",
+      "copy_budget": {
+        "body_words_max": 90,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P05",
+        "next": "W09-P07"
+      },
+      "rhythm_function": "Slow the reading rhythm before the payoff.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "RENDERER_REFERENCE_BINDING_NOT_DEMONSTRATED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "CHARACTER_FINAL_RASTER",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": {
+        "home_win": "Duckhook wins: ObiWan makes an increasingly embarrassing series of poor golf shots; Duckhook controls his course and wins; visibly anguished ObiWan",
+        "away_win": "ObiWan wins: Duckhook misses embarrassing decisive putt/approach toward the water hazard while ObiWan finishes steadily; defeated Duckhook registers the blow"
+      }
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P07",
+      "page_role": "matchup_payoff",
+      "page_state": "PLANNED",
+      "working_title": "The Last Putt",
+      "matchup_id": "W09-M01",
+      "narrative_job": "Close the GOTW on the emotional cost, not another swing poster.",
+      "chapter_beat": "matchup_payoff",
+      "reader_takeaway": "Final score/margin, one causal player fact and limited standings implication, all deterministic.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING",
+        "FINAL_WEEK9_SCORE",
+        "PLAYER_LEVEL_CAUSAL_PACKET"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [
+        "exact_home_team",
+        "exact_away_team",
+        "verified_final_scores",
+        "verified_margin",
+        "postweek_records"
+      ],
+      "owners_present": [
+        "Zach Wilson",
+        "Jake Kaloper"
+      ],
+      "characters_present": [
+        "CHAR-ZACH-WILSON",
+        "CHAR-JAKE-KALOPER"
+      ],
+      "atmospheric_representation": null,
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "primary_path": "canon/characters/assets/CHAR-ZACH-WILSON/primary/5B8C182F-FEBF-40A3-8DDA-1B4B62386B10.jpeg",
+          "expected_primary_sha256": "c8124a1f1146c0acc65b5e82d1c21289afd6a74a8ac2046895e39794619dcefb",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+          "comparison_crop_sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        },
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "primary_path": "canon/characters/assets/CHAR-JAKE-KALOPER/primary/73B4BF07-22E9-44CA-BCBB-882612DFA9C1.jpeg",
+          "expected_primary_sha256": "e9b6690899566864fc9d56b3bc9dbce0e1eb43a2901d23c0949170be4da91e58",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+          "comparison_crop_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        }
+      ],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "venue_type": "OWNER_HOME_SCENE",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": true,
+        "world_state_in": [
+          "Week 3 chili contamination is historical memory; cleanup state required before pristine reset"
+        ],
+        "persistent_landmarks": [
+          "clubhouse",
+          "golf grounds",
+          "water hazards"
+        ],
+        "provisional_location": true,
+        "world_resolution": "PLANNING_PARENT_RESOLVED__EVENT_FEATURE_REVIEW_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 06",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 08",
+      "image_tells": "Full decisive golf frame with loser body language. ObiWan win: Duckhook overhits on the visible slope into water. Duckhook win: ObiWan poor finish while host completes the round.",
+      "prose_tells": "Final score/margin, one causal player fact and limited standings implication, all deterministic.",
+      "art_text_ratio": "85:15",
+      "camera_and_composition": "Waterline consequence / loser reaction",
+      "foreground": "Full decisive golf frame with loser body language",
+      "midground": "Core action/physical contact zone; preserve readable limb, prop and target separation",
+      "background": "Registered parent terrain/landmarks; do not invent persistent structures",
+      "copy_budget": {
+        "body_words_max": 90,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P06",
+        "next": "W09-P08"
+      },
+      "rhythm_function": "Close the GOTW on the emotional cost, not another swing poster.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "RENDERER_REFERENCE_BINDING_NOT_DEMONSTRATED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "CHARACTER_FINAL_RASTER",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": {
+        "home_win": "Duckhook wins: ObiWan makes an increasingly embarrassing series of poor golf shots; Duckhook controls his course and wins; visibly anguished ObiWan",
+        "away_win": "ObiWan wins: Duckhook misses embarrassing decisive putt/approach toward the water hazard while ObiWan finishes steadily; defeated Duckhook registers the blow"
+      }
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P08",
+      "page_role": "matchup_setup",
+      "page_state": "PLANNED",
+      "working_title": "Ignoring the Horizon",
+      "matchup_id": "W09-M02",
+      "narrative_job": "Establish the decision to ignore the weather.",
+      "chapter_beat": "matchup_setup",
+      "reader_takeaway": "Cocky familiarity with terrain and 2–6 pressure, without declaring elimination.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING",
+        "FINAL_WEEK9_SCORE",
+        "PLAYER_LEVEL_CAUSAL_PACKET"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [
+        "matchup_label",
+        "as_of_date"
+      ],
+      "owners_present": [
+        "Bobby Mitchell"
+      ],
+      "characters_present": [
+        "CHAR-BOBBY-MITCHELL"
+      ],
+      "atmospheric_representation": "CHAR-MANNING-WELTY as El Nino storm",
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "primary_path": "canon/characters/assets/CHAR-BOBBY-MITCHELL/primary/17E68E6F-7825-460F-A612-734BE1E2A543.jpeg",
+          "expected_primary_sha256": "4ad8693d7f155f2ee99722f87eb74ea99490eebdfe0b30ca2f17f05004e7cf12",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+          "comparison_crop_sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        }
+      ],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": "LOC-MUD-DOGS-SWAMP",
+        "venue_type": "OWNER_HOME_SCENE",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": false,
+        "world_state_in": [
+          "Week 2 and Week 3 history remembered"
+        ],
+        "persistent_landmarks": [
+          "mud channels",
+          "raised ground"
+        ],
+        "provisional_location": true,
+        "world_resolution": "PLANNING_PARENT_RESOLVED__EVENT_FEATURE_REVIEW_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 07",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 09",
+      "image_tells": "Low side tracking view of Mud Dogs leaning his dirt bike into the marked swamp course; raised start bank, channel crossing and approaching black storm are visible.",
+      "prose_tells": "Cocky familiarity with terrain and 2–6 pressure, without declaring elimination.",
+      "art_text_ratio": "85:15",
+      "camera_and_composition": "Low tracking / long storm horizon",
+      "foreground": "Low side tracking view of Mud Dogs leaning his dirt bike into the marked swamp course; raised start bank, channel crossing and approaching black storm are visible",
+      "midground": "Core action/physical contact zone; preserve readable limb, prop and target separation",
+      "background": "Registered parent terrain/landmarks; do not invent persistent structures",
+      "copy_budget": {
+        "body_words_max": 90,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P07",
+        "next": "W09-P09"
+      },
+      "rhythm_function": "Establish the decision to ignore the weather.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "RENDERER_REFERENCE_BINDING_NOT_DEMONSTRATED",
+        "SCENE_TECH_EXCEPTION_NOT_RESOLVED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "CHARACTER_FINAL_RASTER",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": {
+        "home_win": "Mud Dogs wins: masters underwater/muddy line and finishes the race through a final hazard",
+        "away_win": "El Niño wins: Mud Dogs' bike becomes embedded/sucked into deep water and mud and cannot finish; storm physically wins by obstructing race"
+      }
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P09",
+      "page_role": "matchup_action",
+      "page_state": "PLANNED",
+      "working_title": "The Course Has Changed",
+      "matchup_id": "W09-M02",
+      "narrative_job": "Show causality through changed geography, not random new swamp scenery.",
+      "chapter_beat": "matchup_action",
+      "reader_takeaway": "Separate fantasy scoring mechanism from the fictional endurance-course disaster.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING",
+        "FINAL_WEEK9_SCORE",
+        "PLAYER_LEVEL_CAUSAL_PACKET"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [
+        "matchup_label",
+        "as_of_date"
+      ],
+      "owners_present": [
+        "Bobby Mitchell"
+      ],
+      "characters_present": [
+        "CHAR-BOBBY-MITCHELL"
+      ],
+      "atmospheric_representation": "CHAR-MANNING-WELTY as El Nino storm",
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "primary_path": "canon/characters/assets/CHAR-BOBBY-MITCHELL/primary/17E68E6F-7825-460F-A612-734BE1E2A543.jpeg",
+          "expected_primary_sha256": "4ad8693d7f155f2ee99722f87eb74ea99490eebdfe0b30ca2f17f05004e7cf12",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+          "comparison_crop_sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        }
+      ],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": "LOC-MUD-DOGS-SWAMP",
+        "venue_type": "OWNER_HOME_SCENE",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": false,
+        "world_state_in": [
+          "Week 2 and Week 3 history remembered"
+        ],
+        "persistent_landmarks": [
+          "mud channels",
+          "raised ground"
+        ],
+        "provisional_location": true,
+        "world_resolution": "PLANNING_PARENT_RESOLVED__EVENT_FEATURE_REVIEW_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 08",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 10",
+      "image_tells": "Birds-eye-to-ground visual progression: the same channel crossing floods, stakes disappear, bike leans toward the only raised line; El Niño remains the storm.",
+      "prose_tells": "Separate fantasy scoring mechanism from the fictional endurance-course disaster.",
+      "art_text_ratio": "85:15",
+      "camera_and_composition": "High oblique / wheel-contact detail",
+      "foreground": "Birds-eye-to-ground visual progression: the same channel crossing floods, stakes disappear, bike leans toward the only raised line; El Niño remains the storm",
+      "midground": "Core action/physical contact zone; preserve readable limb, prop and target separation",
+      "background": "Registered parent terrain/landmarks; do not invent persistent structures",
+      "copy_budget": {
+        "body_words_max": 90,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P08",
+        "next": "W09-P10"
+      },
+      "rhythm_function": "Show causality through changed geography, not random new swamp scenery.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "RENDERER_REFERENCE_BINDING_NOT_DEMONSTRATED",
+        "SCENE_TECH_EXCEPTION_NOT_RESOLVED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "CHARACTER_FINAL_RASTER",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": {
+        "home_win": "Mud Dogs wins: masters underwater/muddy line and finishes the race through a final hazard",
+        "away_win": "El Niño wins: Mud Dogs' bike becomes embedded/sucked into deep water and mud and cannot finish; storm physically wins by obstructing race"
+      }
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P10",
+      "page_role": "matchup_payoff",
+      "page_state": "PLANNED",
+      "working_title": "Finish or Sink",
+      "matchup_id": "W09-M02",
+      "narrative_job": "Resolve whether terrain knowledge beats the storm.",
+      "chapter_beat": "matchup_payoff",
+      "reader_takeaway": "Verified result and emotional blow; no unproved mathematically eliminated statement.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING",
+        "FINAL_WEEK9_SCORE",
+        "PLAYER_LEVEL_CAUSAL_PACKET"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [
+        "exact_home_team",
+        "exact_away_team",
+        "verified_final_scores",
+        "verified_margin",
+        "postweek_records"
+      ],
+      "owners_present": [
+        "Bobby Mitchell"
+      ],
+      "characters_present": [
+        "CHAR-BOBBY-MITCHELL"
+      ],
+      "atmospheric_representation": "CHAR-MANNING-WELTY as El Nino storm",
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "primary_path": "canon/characters/assets/CHAR-BOBBY-MITCHELL/primary/17E68E6F-7825-460F-A612-734BE1E2A543.jpeg",
+          "expected_primary_sha256": "4ad8693d7f155f2ee99722f87eb74ea99490eebdfe0b30ca2f17f05004e7cf12",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+          "comparison_crop_sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        }
+      ],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": "LOC-MUD-DOGS-SWAMP",
+        "venue_type": "OWNER_HOME_SCENE",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": false,
+        "world_state_in": [
+          "Week 2 and Week 3 history remembered"
+        ],
+        "persistent_landmarks": [
+          "mud channels",
+          "raised ground"
+        ],
+        "provisional_location": true,
+        "world_resolution": "PLANNING_PARENT_RESOLVED__EVENT_FEATURE_REVIEW_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 09",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 11",
+      "image_tells": "Mud win: bike claws onto firm finish bank, exhausted rider upright. Niño win: rear wheel buried, water/mud trapping bike with finish still visible beyond it.",
+      "prose_tells": "Verified result and emotional blow; no unproved mathematically eliminated statement.",
+      "art_text_ratio": "85:15",
+      "camera_and_composition": "Finish-line lateral / stranded close",
+      "foreground": "Mud win: bike claws onto firm finish bank, exhausted rider upright",
+      "midground": "Core action/physical contact zone; preserve readable limb, prop and target separation",
+      "background": "Registered parent terrain/landmarks; do not invent persistent structures",
+      "copy_budget": {
+        "body_words_max": 90,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P09",
+        "next": "W09-P11"
+      },
+      "rhythm_function": "Resolve whether terrain knowledge beats the storm.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "RENDERER_REFERENCE_BINDING_NOT_DEMONSTRATED",
+        "SCENE_TECH_EXCEPTION_NOT_RESOLVED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "CHARACTER_FINAL_RASTER",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": {
+        "home_win": "Mud Dogs wins: masters underwater/muddy line and finishes the race through a final hazard",
+        "away_win": "El Niño wins: Mud Dogs' bike becomes embedded/sucked into deep water and mud and cannot finish; storm physically wins by obstructing race"
+      }
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P11",
+      "page_role": "matchup_setup",
+      "page_state": "PLANNED",
+      "working_title": "Unauthorized Off-Roading",
+      "matchup_id": "W09-M03",
+      "narrative_job": "The damage is personal before it becomes combat.",
+      "chapter_beat": "matchup_setup",
+      "reader_takeaway": "Host/visitor identities, Red at 4–4 versus Chins at 5–3 entering the week, relevant recent H2H sample only.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING",
+        "FINAL_WEEK9_SCORE",
+        "PLAYER_LEVEL_CAUSAL_PACKET"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [
+        "matchup_label",
+        "as_of_date"
+      ],
+      "owners_present": [
+        "Kevin Zeek",
+        "Ben Whipple"
+      ],
+      "characters_present": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "atmospheric_representation": null,
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "primary_path": "canon/characters/assets/CHAR-KEVIN-ZEEK/primary/4369C44E-C5C8-46E9-B99F-04A97CEBEC13.jpeg",
+          "expected_primary_sha256": "df597e71aed77ddf510fd81f3fcd4ee812ac22b8f8e129e276dc5edfbd9dddc1",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+          "comparison_crop_sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        },
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "primary_path": "canon/characters/assets/CHAR-BEN-WHIPPLE/primary/88B8E56B-8320-4524-8425-134FFAE8FBF5.jpeg",
+          "expected_primary_sha256": "c4401f79783637c9e3974f02de20ba5aeb1209e7ed4e0f5620e2bfcce3b270cf",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+          "comparison_crop_sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        }
+      ],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": "LOC-RED-RUINS",
+        "venue_type": "OWNER_HOME_SCENE",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": true,
+        "world_state_in": [
+          "operational"
+        ],
+        "persistent_landmarks": [
+          "jungle ruins",
+          "predator banners"
+        ],
+        "provisional_location": true,
+        "world_resolution": "PLANNING_PARENT_RESOLVED__EVENT_FEATURE_REVIEW_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 10",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 12",
+      "image_tells": "Peaceful soccer terrace at Red ruins interrupted by lifted truck ripping through center-circle turf; red banners and stone service posts establish the later bottleneck.",
+      "prose_tells": "Host/visitor identities, Red at 4–4 versus Chins at 5–3 entering the week, relevant recent H2H sample only.",
+      "art_text_ratio": "85:15",
+      "camera_and_composition": "Pitch-wide / tire track foreground",
+      "foreground": "Peaceful soccer terrace at Red ruins interrupted by lifted truck ripping through center-circle turf; red banners and stone service posts establish the later bottleneck",
+      "midground": "Core action/physical contact zone; preserve readable limb, prop and target separation",
+      "background": "Registered parent terrain/landmarks; do not invent persistent structures",
+      "copy_budget": {
+        "body_words_max": 90,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P10",
+        "next": "W09-P12"
+      },
+      "rhythm_function": "The damage is personal before it becomes combat.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "RENDERER_REFERENCE_BINDING_NOT_DEMONSTRATED",
+        "SCENE_TECH_EXCEPTION_NOT_RESOLVED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "CHARACTER_FINAL_RASTER",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": {
+        "home_win": "Red Leopards wins: ambush atop truck and spatial trap at the pitch/ruins stop Chins; home territory reclaimed",
+        "away_win": "Seven Deadly Chins wins: truck and driver physically overpower Red's ambush and keep churning across already damaged field; Red's heartbreak clear"
+      }
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P12",
+      "page_role": "matchup_action",
+      "page_state": "PLANNED",
+      "working_title": "The Predator Comes Down",
+      "matchup_id": "W09-M03",
+      "narrative_job": "Follow the chosen ambush into a credible physical trap.",
+      "chapter_beat": "matchup_action",
+      "reader_takeaway": "One source-grounded football contrast, not description repeating the pounce.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING",
+        "FINAL_WEEK9_SCORE",
+        "PLAYER_LEVEL_CAUSAL_PACKET"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [
+        "matchup_label",
+        "as_of_date"
+      ],
+      "owners_present": [
+        "Kevin Zeek",
+        "Ben Whipple"
+      ],
+      "characters_present": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "atmospheric_representation": null,
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "primary_path": "canon/characters/assets/CHAR-KEVIN-ZEEK/primary/4369C44E-C5C8-46E9-B99F-04A97CEBEC13.jpeg",
+          "expected_primary_sha256": "df597e71aed77ddf510fd81f3fcd4ee812ac22b8f8e129e276dc5edfbd9dddc1",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+          "comparison_crop_sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        },
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "primary_path": "canon/characters/assets/CHAR-BEN-WHIPPLE/primary/88B8E56B-8320-4524-8425-134FFAE8FBF5.jpeg",
+          "expected_primary_sha256": "c4401f79783637c9e3974f02de20ba5aeb1209e7ed4e0f5620e2bfcce3b270cf",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+          "comparison_crop_sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        }
+      ],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": "LOC-RED-RUINS",
+        "venue_type": "OWNER_HOME_SCENE",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": true,
+        "world_state_in": [
+          "operational"
+        ],
+        "persistent_landmarks": [
+          "jungle ruins",
+          "predator banners"
+        ],
+        "provisional_location": true,
+        "world_resolution": "PLANNING_PARENT_RESOLVED__EVENT_FEATURE_REVIEW_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 11",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 13",
+      "image_tells": "Leopard drops from low ruined terrace onto the slowing truck hood at a turn; Chins reacts in cab, all tire contact and approach to stone posts readable.",
+      "prose_tells": "One source-grounded football contrast, not description repeating the pounce.",
+      "art_text_ratio": "85:15",
+      "camera_and_composition": "Diagonal action / hood-height countershot",
+      "foreground": "Leopard drops from low ruined terrace onto the slowing truck hood at a turn; Chins reacts in cab, all tire contact and approach to stone posts readable",
+      "midground": "Core action/physical contact zone; preserve readable limb, prop and target separation",
+      "background": "Registered parent terrain/landmarks; do not invent persistent structures",
+      "copy_budget": {
+        "body_words_max": 90,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P11",
+        "next": "W09-P13"
+      },
+      "rhythm_function": "Follow the chosen ambush into a credible physical trap.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "RENDERER_REFERENCE_BINDING_NOT_DEMONSTRATED",
+        "SCENE_TECH_EXCEPTION_NOT_RESOLVED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "CHARACTER_FINAL_RASTER",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": {
+        "home_win": "Red Leopards wins: ambush atop truck and spatial trap at the pitch/ruins stop Chins; home territory reclaimed",
+        "away_win": "Seven Deadly Chins wins: truck and driver physically overpower Red's ambush and keep churning across already damaged field; Red's heartbreak clear"
+      }
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P13",
+      "page_role": "matchup_payoff",
+      "page_state": "PLANNED",
+      "working_title": "The Red Card",
+      "matchup_id": "W09-M03",
+      "narrative_job": "Netting never supplies impossible truck-stopping force.",
+      "chapter_beat": "matchup_payoff",
+      "reader_takeaway": "Verified result/impact. Damage stays proposed scene state until world ledger review; no unexplained permanent new ruins.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING",
+        "FINAL_WEEK9_SCORE",
+        "PLAYER_LEVEL_CAUSAL_PACKET"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [
+        "exact_home_team",
+        "exact_away_team",
+        "verified_final_scores",
+        "verified_margin",
+        "postweek_records"
+      ],
+      "owners_present": [
+        "Kevin Zeek",
+        "Ben Whipple"
+      ],
+      "characters_present": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "atmospheric_representation": null,
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "primary_path": "canon/characters/assets/CHAR-KEVIN-ZEEK/primary/4369C44E-C5C8-46E9-B99F-04A97CEBEC13.jpeg",
+          "expected_primary_sha256": "df597e71aed77ddf510fd81f3fcd4ee812ac22b8f8e129e276dc5edfbd9dddc1",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+          "comparison_crop_sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        },
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "primary_path": "canon/characters/assets/CHAR-BEN-WHIPPLE/primary/88B8E56B-8320-4524-8425-134FFAE8FBF5.jpeg",
+          "expected_primary_sha256": "c4401f79783637c9e3974f02de20ba5aeb1209e7ed4e0f5620e2bfcce3b270cf",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+          "comparison_crop_sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        }
+      ],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": "LOC-RED-RUINS",
+        "venue_type": "OWNER_HOME_SCENE",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": true,
+        "world_state_in": [
+          "operational"
+        ],
+        "persistent_landmarks": [
+          "jungle ruins",
+          "predator banners"
+        ],
+        "provisional_location": true,
+        "world_resolution": "PLANNING_PARENT_RESOLVED__EVENT_FEATURE_REVIEW_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 12",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 14",
+      "image_tells": "Red win: truck wedged by stone service posts, netting draped harmlessly over cab, Red gives a red card. Chins win: truck clears the turn, Red in muddy turf, ruined center circle foreground.",
+      "prose_tells": "Verified result/impact. Damage stays proposed scene state until world ledger review; no unexplained permanent new ruins.",
+      "art_text_ratio": "85:15",
+      "camera_and_composition": "Aftermath wide with detail punctuation",
+      "foreground": "Red win: truck wedged by stone service posts, netting draped harmlessly over cab, Red gives a red card",
+      "midground": "Core action/physical contact zone; preserve readable limb, prop and target separation",
+      "background": "Registered parent terrain/landmarks; do not invent persistent structures",
+      "copy_budget": {
+        "body_words_max": 90,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P12",
+        "next": "W09-P14"
+      },
+      "rhythm_function": "Netting never supplies impossible truck-stopping force.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "RENDERER_REFERENCE_BINDING_NOT_DEMONSTRATED",
+        "SCENE_TECH_EXCEPTION_NOT_RESOLVED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "CHARACTER_FINAL_RASTER",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": {
+        "home_win": "Red Leopards wins: ambush atop truck and spatial trap at the pitch/ruins stop Chins; home territory reclaimed",
+        "away_win": "Seven Deadly Chins wins: truck and driver physically overpower Red's ambush and keep churning across already damaged field; Red's heartbreak clear"
+      }
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P14",
+      "page_role": "matchup_setup",
+      "page_state": "PLANNED",
+      "working_title": "Everybody Came Hungry",
+      "matchup_id": "W09-M04",
+      "narrative_job": "Show the vat and table before either becomes a payoff prop.",
+      "chapter_beat": "matchup_setup",
+      "reader_takeaway": "Two documented 2025 H2H defeats give Chili a reason to make this event his own.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING",
+        "FINAL_WEEK9_SCORE",
+        "PLAYER_LEVEL_CAUSAL_PACKET"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [
+        "matchup_label",
+        "as_of_date"
+      ],
+      "owners_present": [
+        "Brandon Pryor",
+        "Austin Byars"
+      ],
+      "characters_present": [
+        "CHAR-BRANDON-PRYOR",
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "atmospheric_representation": null,
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "primary_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/primary/76344FB3-1974-48D0-AA90-8B231E6008F7.jpeg",
+          "expected_primary_sha256": "0bb99794f3a0b9fa1a7f791e17e6885fffcca4b79c824057623bab5c74598cfe",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+          "comparison_crop_sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        },
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "primary_path": "canon/characters/assets/CHAR-AUSTIN-BYARS/primary/IMG_2179.jpeg",
+          "expected_primary_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+          "comparison_crop_sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        }
+      ],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": "LOC-CHILI-STABLE",
+        "venue_type": "OWNER_HOME_SCENE",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": true,
+        "world_state_in": [
+          "operational",
+          "cross-divisional coexistence with TDS is canon"
+        ],
+        "persistent_landmarks": [
+          "stable",
+          "pit smoke",
+          "Dark Horse enclosure"
+        ],
+        "provisional_location": true,
+        "world_resolution": "PLANNING_PARENT_RESOLVED__EVENT_FEATURE_REVIEW_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 13",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 15",
+      "image_tells": "Town cookout connected to Chili Stable: communal tables, Dark Horse, cooled serving vat/cart, prize ribbon. Hooded black-armored HMB enters without crown or royal redesign.",
+      "prose_tells": "Two documented 2025 H2H defeats give Chili a reason to make this event his own.",
+      "art_text_ratio": "85:15",
+      "camera_and_composition": "Warm feast panorama / tension close",
+      "foreground": "Town cookout connected to Chili Stable: communal tables, Dark Horse, cooled serving vat/cart, prize ribbon",
+      "midground": "Core action/physical contact zone; preserve readable limb, prop and target separation",
+      "background": "Registered parent terrain/landmarks; do not invent persistent structures",
+      "copy_budget": {
+        "body_words_max": 90,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P13",
+        "next": "W09-P15"
+      },
+      "rhythm_function": "Show the vat and table before either becomes a payoff prop.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "RENDERER_REFERENCE_BINDING_NOT_DEMONSTRATED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "CHARACTER_FINAL_RASTER",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": {
+        "home_win": "Chili deliberately stages the cooled-chili serving-cart reversal; HMB is covered while retaining hood, armor and belt.",
+        "away_win": "HMB takes over the cookout judging table and ribbon; Chili is left ladle-in-hand serving the unruffled champion. No crown or belt transfer."
+      }
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P15",
+      "page_role": "matchup_payoff",
+      "page_state": "PLANNED",
+      "working_title": "Who Gets Served?",
+      "matchup_id": "W09-M04",
+      "narrative_job": "Pay off the setup without a burn/injury gag or king costume.",
+      "chapter_beat": "matchup_payoff",
+      "reader_takeaway": "Actual player/score cause distinguishes a fantasy win from the fictional cooking metaphor.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING",
+        "FINAL_WEEK9_SCORE",
+        "PLAYER_LEVEL_CAUSAL_PACKET"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [
+        "exact_home_team",
+        "exact_away_team",
+        "verified_final_scores",
+        "verified_margin",
+        "postweek_records"
+      ],
+      "owners_present": [
+        "Brandon Pryor",
+        "Austin Byars"
+      ],
+      "characters_present": [
+        "CHAR-BRANDON-PRYOR",
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "atmospheric_representation": null,
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "primary_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/primary/76344FB3-1974-48D0-AA90-8B231E6008F7.jpeg",
+          "expected_primary_sha256": "0bb99794f3a0b9fa1a7f791e17e6885fffcca4b79c824057623bab5c74598cfe",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+          "comparison_crop_sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        },
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "primary_path": "canon/characters/assets/CHAR-AUSTIN-BYARS/primary/IMG_2179.jpeg",
+          "expected_primary_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+          "comparison_crop_sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        }
+      ],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": "LOC-CHILI-STABLE",
+        "venue_type": "OWNER_HOME_SCENE",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": true,
+        "world_state_in": [
+          "operational",
+          "cross-divisional coexistence with TDS is canon"
+        ],
+        "persistent_landmarks": [
+          "stable",
+          "pit smoke",
+          "Dark Horse enclosure"
+        ],
+        "provisional_location": true,
+        "world_resolution": "PLANNING_PARENT_RESOLVED__EVENT_FEATURE_REVIEW_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 14",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 16",
+      "image_tells": "Two or three large causal panels. Chili win: controlled cart/vat motion drenches HMB in cooled chili. HMB win: champion moves judging table/ribbon into his place, Chili left serving with ladle. Belt remains HMB's.",
+      "prose_tells": "Actual player/score cause distinguishes a fantasy win from the fictional cooking metaphor.",
+      "art_text_ratio": "85:15",
+      "camera_and_composition": "Causal prop sequence / deadpan final medium",
+      "foreground": "Two or three large causal panels",
+      "midground": "Core action/physical contact zone; preserve readable limb, prop and target separation",
+      "background": "Registered parent terrain/landmarks; do not invent persistent structures",
+      "copy_budget": {
+        "body_words_max": 90,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P14",
+        "next": "W09-P16"
+      },
+      "rhythm_function": "Pay off the setup without a burn/injury gag or king costume.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "RENDERER_REFERENCE_BINDING_NOT_DEMONSTRATED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "CHARACTER_FINAL_RASTER",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": {
+        "home_win": "Chili deliberately stages the cooled-chili serving-cart reversal; HMB is covered while retaining hood, armor and belt.",
+        "away_win": "HMB takes over the cookout judging table and ribbon; Chili is left ladle-in-hand serving the unruffled champion. No crown or belt transfer."
+      }
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P16",
+      "page_role": "matchup_setup",
+      "page_state": "PLANNED",
+      "working_title": "The Challenger Enters",
+      "matchup_id": "W09-M05",
+      "narrative_job": "Geographic scale and two opponents before close combat.",
+      "chapter_beat": "matchup_setup",
+      "reader_takeaway": "DK 4–4 after low Week8 score; LLC 3–5 after close Week8 win. Arena champion is fictional role, not league champion.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING",
+        "FINAL_WEEK9_SCORE",
+        "PLAYER_LEVEL_CAUSAL_PACKET"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [
+        "matchup_label",
+        "as_of_date"
+      ],
+      "owners_present": [
+        "Wilson Look",
+        "David Babb"
+      ],
+      "characters_present": [
+        "CHAR-WILSON-LOOK",
+        "CHAR-DAVID-BABB"
+      ],
+      "atmospheric_representation": null,
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "primary_path": "canon/characters/assets/CHAR-WILSON-LOOK/primary/IMG_7866(1).jpeg",
+          "expected_primary_sha256": "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+          "comparison_crop_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+          "renderer_bound": false,
+          "primary_state": "HOLD_ACTIVE_VISUAL_CONFLICT",
+          "comparison_only": true
+        },
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "primary_path": "canon/characters/assets/CHAR-DAVID-BABB/primary/A6F3AA99-CDB1-4265-AB08-3728117089A3.jpeg",
+          "expected_primary_sha256": "ce3137d1472d63deb7a026d114d200f338d2461d3d223647f34b473794e1f85b",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+          "comparison_crop_sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        }
+      ],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "venue_type": "OWNER_HOME_SCENE",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": true,
+        "world_state_in": [
+          "current principal identity = Arsenal Gorilla Centaur Warrior (one gorilla upper body; four-legged equine lower body)",
+          "peopled-kind home society"
+        ],
+        "persistent_landmarks": [
+          "highland stronghold",
+          "training court",
+          "road approach"
+        ],
+        "provisional_location": true,
+        "world_resolution": "PLANNING_PARENT_RESOLVED__EVENT_FEATURE_REVIEW_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 15",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 17",
+      "image_tells": "Arena wide nested inside Highland Stronghold. DK Arsenal gorilla-centaur in one entrance, identifiable LLC in ornate armor opposite. Four equine legs visible.",
+      "prose_tells": "DK 4–4 after low Week8 score; LLC 3–5 after close Week8 win. Arena champion is fictional role, not league champion.",
+      "art_text_ratio": "85:15",
+      "camera_and_composition": "High arena-wide / paired entrances",
+      "foreground": "Arena wide nested inside Highland Stronghold",
+      "midground": "Core action/physical contact zone; preserve readable limb, prop and target separation",
+      "background": "Registered parent terrain/landmarks; do not invent persistent structures",
+      "copy_budget": {
+        "body_words_max": 90,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P15",
+        "next": "W09-P17"
+      },
+      "rhythm_function": "Geographic scale and two opponents before close combat.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "RENDERER_REFERENCE_BINDING_NOT_DEMONSTRATED",
+        "DK_VISUAL_SOURCE_CONFLICT",
+        "COLOSSEUM_SUBLOCATION_NOT_APPROVED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "CHARACTER_FINAL_RASTER",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": {
+        "home_win": "D0nkey wins: Arsenal gorilla-centaur physically overpowers LLC and wins the sword fight",
+        "away_win": "The LLC wins: armored corporate knight outmaneuvers and physically overpowers the centaur champion"
+      }
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P17",
+      "page_role": "matchup_action",
+      "page_state": "PLANNED",
+      "working_title": "Steel in the Sand",
+      "matchup_id": "W09-M05",
+      "narrative_job": "Combat choreography, not two stationary weapon poses.",
+      "chapter_beat": "matchup_action",
+      "reader_takeaway": "Actual football contributors to be inserted after final source; no fictional injury mapped onto real player without evidence.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING",
+        "FINAL_WEEK9_SCORE",
+        "PLAYER_LEVEL_CAUSAL_PACKET"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [
+        "matchup_label",
+        "as_of_date"
+      ],
+      "owners_present": [
+        "Wilson Look",
+        "David Babb"
+      ],
+      "characters_present": [
+        "CHAR-WILSON-LOOK",
+        "CHAR-DAVID-BABB"
+      ],
+      "atmospheric_representation": null,
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "primary_path": "canon/characters/assets/CHAR-WILSON-LOOK/primary/IMG_7866(1).jpeg",
+          "expected_primary_sha256": "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+          "comparison_crop_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+          "renderer_bound": false,
+          "primary_state": "HOLD_ACTIVE_VISUAL_CONFLICT",
+          "comparison_only": true
+        },
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "primary_path": "canon/characters/assets/CHAR-DAVID-BABB/primary/A6F3AA99-CDB1-4265-AB08-3728117089A3.jpeg",
+          "expected_primary_sha256": "ce3137d1472d63deb7a026d114d200f338d2461d3d223647f34b473794e1f85b",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+          "comparison_crop_sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        }
+      ],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "venue_type": "OWNER_HOME_SCENE",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": true,
+        "world_state_in": [
+          "current principal identity = Arsenal Gorilla Centaur Warrior (one gorilla upper body; four-legged equine lower body)",
+          "peopled-kind home society"
+        ],
+        "persistent_landmarks": [
+          "highland stronghold",
+          "training court",
+          "road approach"
+        ],
+        "provisional_location": true,
+        "world_resolution": "PLANNING_PARENT_RESOLVED__EVENT_FEATURE_REVIEW_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 16",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 18",
+      "image_tells": "Three distinct moments on one coherent axis: sword parry, DK four-legged pivot, LLC shield-side counter. Keep hands, blades, hooves and contact separated/readable.",
+      "prose_tells": "Actual football contributors to be inserted after final source; no fictional injury mapped onto real player without evidence.",
+      "art_text_ratio": "85:15",
+      "camera_and_composition": "Medium clash / low footwork / tight parry",
+      "foreground": "Three distinct moments on one coherent axis: sword parry, DK four-legged pivot, LLC shield-side counter",
+      "midground": "Core action/physical contact zone; preserve readable limb, prop and target separation",
+      "background": "Registered parent terrain/landmarks; do not invent persistent structures",
+      "copy_budget": {
+        "body_words_max": 90,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P16",
+        "next": "W09-P18"
+      },
+      "rhythm_function": "Combat choreography, not two stationary weapon poses.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "RENDERER_REFERENCE_BINDING_NOT_DEMONSTRATED",
+        "DK_VISUAL_SOURCE_CONFLICT",
+        "COLOSSEUM_SUBLOCATION_NOT_APPROVED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "CHARACTER_FINAL_RASTER",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": {
+        "home_win": "D0nkey wins: Arsenal gorilla-centaur physically overpowers LLC and wins the sword fight",
+        "away_win": "The LLC wins: armored corporate knight outmaneuvers and physically overpowers the centaur champion"
+      }
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P18",
+      "page_role": "matchup_payoff",
+      "page_state": "PLANNED",
+      "working_title": "One Still Standing",
+      "matchup_id": "W09-M05",
+      "narrative_job": "Winner visibly causes defeat, rather than posing beside unexplained loser.",
+      "chapter_beat": "matchup_payoff",
+      "reader_takeaway": "Final margin and consequence, no execution, fantasy title or Belt transfer.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING",
+        "FINAL_WEEK9_SCORE",
+        "PLAYER_LEVEL_CAUSAL_PACKET"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [
+        "exact_home_team",
+        "exact_away_team",
+        "verified_final_scores",
+        "verified_margin",
+        "postweek_records"
+      ],
+      "owners_present": [
+        "Wilson Look",
+        "David Babb"
+      ],
+      "characters_present": [
+        "CHAR-WILSON-LOOK",
+        "CHAR-DAVID-BABB"
+      ],
+      "atmospheric_representation": null,
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "primary_path": "canon/characters/assets/CHAR-WILSON-LOOK/primary/IMG_7866(1).jpeg",
+          "expected_primary_sha256": "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+          "comparison_crop_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+          "renderer_bound": false,
+          "primary_state": "HOLD_ACTIVE_VISUAL_CONFLICT",
+          "comparison_only": true
+        },
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "primary_path": "canon/characters/assets/CHAR-DAVID-BABB/primary/A6F3AA99-CDB1-4265-AB08-3728117089A3.jpeg",
+          "expected_primary_sha256": "ce3137d1472d63deb7a026d114d200f338d2461d3d223647f34b473794e1f85b",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+          "comparison_crop_sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        }
+      ],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "venue_type": "OWNER_HOME_SCENE",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": true,
+        "world_state_in": [
+          "current principal identity = Arsenal Gorilla Centaur Warrior (one gorilla upper body; four-legged equine lower body)",
+          "peopled-kind home society"
+        ],
+        "persistent_landmarks": [
+          "highland stronghold",
+          "training court",
+          "road approach"
+        ],
+        "provisional_location": true,
+        "world_resolution": "PLANNING_PARENT_RESOLVED__EVENT_FEATURE_REVIEW_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 17",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 19",
+      "image_tells": "DK win: forward parry breaks LLC balance. LLC win: sidestep and shield leverage upsets centaur pivot. Victorious control and defeated posture are visible in same wide.",
+      "prose_tells": "Final margin and consequence, no execution, fantasy title or Belt transfer.",
+      "art_text_ratio": "85:15",
+      "camera_and_composition": "Ground-level wide / crowd depth",
+      "foreground": "DK win: forward parry breaks LLC balance",
+      "midground": "Core action/physical contact zone; preserve readable limb, prop and target separation",
+      "background": "Registered parent terrain/landmarks; do not invent persistent structures",
+      "copy_budget": {
+        "body_words_max": 90,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P17",
+        "next": "W09-P19"
+      },
+      "rhythm_function": "Winner visibly causes defeat, rather than posing beside unexplained loser.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "RENDERER_REFERENCE_BINDING_NOT_DEMONSTRATED",
+        "DK_VISUAL_SOURCE_CONFLICT",
+        "COLOSSEUM_SUBLOCATION_NOT_APPROVED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "CHARACTER_FINAL_RASTER",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": {
+        "home_win": "D0nkey wins: Arsenal gorilla-centaur physically overpowers LLC and wins the sword fight",
+        "away_win": "The LLC wins: armored corporate knight outmaneuvers and physically overpowers the centaur champion"
+      }
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P19",
+      "page_role": "matchup_setup",
+      "page_state": "PLANNED",
+      "working_title": "The Breakout",
+      "matchup_id": "W09-M06",
+      "narrative_job": "Set a map for later flanks and exact line of fire.",
+      "chapter_beat": "matchup_setup",
+      "reader_takeaway": "Both enter 4–4 with different division pressure; recent H2H sample used sparingly.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING",
+        "FINAL_WEEK9_SCORE",
+        "PLAYER_LEVEL_CAUSAL_PACKET"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [
+        "matchup_label",
+        "as_of_date"
+      ],
+      "owners_present": [
+        "Jordan Hollingshead",
+        "Phillip Pitts"
+      ],
+      "characters_present": [
+        "CHAR-JORDAN-HOLLINGSHEAD",
+        "CHAR-PHILLIP-PITTS"
+      ],
+      "atmospheric_representation": null,
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "primary_path": "canon/characters/assets/CHAR-JORDAN-HOLLINGSHEAD/primary/0435E914-64B3-4350-8A41-758173DDC98D.jpeg",
+          "expected_primary_sha256": "c052e8c74939338517f1b14bbca5f2ea3d57146794f675d065698a44fb1064e8",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+          "comparison_crop_sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        },
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "primary_path": "canon/characters/assets/CHAR-PHILLIP-PITTS/primary/IMG_2178.jpeg",
+          "expected_primary_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+          "comparison_crop_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        }
+      ],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": "LOC-SLOB-FOOTHILL-CAMP",
+        "venue_type": "OWNER_HOME_SCENE",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": true,
+        "world_state_in": [
+          "operational"
+        ],
+        "persistent_landmarks": [
+          "tailgate yard",
+          "rough training ground"
+        ],
+        "provisional_location": true,
+        "world_resolution": "PLANNING_PARENT_RESOLVED__EVENT_FEATURE_REVIEW_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 18",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 20",
+      "image_tells": "Wide professional-style course within Slob foothills: tree line, terrain, two starts and inflatable bunkers. Both protected players accelerate; TDS three masked heads remain distinct.",
+      "prose_tells": "Both enter 4–4 with different division pressure; recent H2H sample used sparingly.",
+      "art_text_ratio": "85:15",
+      "camera_and_composition": "Course-wide / starting sprint",
+      "foreground": "Wide professional-style course within Slob foothills: tree line, terrain, two starts and inflatable bunkers",
+      "midground": "Core action/physical contact zone; preserve readable limb, prop and target separation",
+      "background": "Registered parent terrain/landmarks; do not invent persistent structures",
+      "copy_budget": {
+        "body_words_max": 90,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P18",
+        "next": "W09-P20"
+      },
+      "rhythm_function": "Set a map for later flanks and exact line of fire.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "RENDERER_REFERENCE_BINDING_NOT_DEMONSTRATED",
+        "SCENE_TECH_EXCEPTION_NOT_RESOLVED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "CHARACTER_FINAL_RASTER",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": {
+        "home_win": "Slob wins: final third-person winner-shoulder slide/aim shows TDS fully struck by multiple paint splatters",
+        "away_win": "Three Dreaded Snake wins: final third-person winner-shoulder slide/aim shows Slob hit by multiple paint splatters"
+      }
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P20",
+      "page_role": "matchup_action",
+      "page_state": "PLANNED",
+      "working_title": "No Safe Corner",
+      "matchup_id": "W09-M06",
+      "narrative_job": "Both contestants make choices; do not freeze loser in place.",
+      "chapter_beat": "matchup_action",
+      "reader_takeaway": "Verified player/lineup mechanism goes in a separate concise factual panel.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING",
+        "FINAL_WEEK9_SCORE",
+        "PLAYER_LEVEL_CAUSAL_PACKET"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [
+        "matchup_label",
+        "as_of_date"
+      ],
+      "owners_present": [
+        "Jordan Hollingshead",
+        "Phillip Pitts"
+      ],
+      "characters_present": [
+        "CHAR-JORDAN-HOLLINGSHEAD",
+        "CHAR-PHILLIP-PITTS"
+      ],
+      "atmospheric_representation": null,
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "primary_path": "canon/characters/assets/CHAR-JORDAN-HOLLINGSHEAD/primary/0435E914-64B3-4350-8A41-758173DDC98D.jpeg",
+          "expected_primary_sha256": "c052e8c74939338517f1b14bbca5f2ea3d57146794f675d065698a44fb1064e8",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+          "comparison_crop_sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        },
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "primary_path": "canon/characters/assets/CHAR-PHILLIP-PITTS/primary/IMG_2178.jpeg",
+          "expected_primary_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+          "comparison_crop_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        }
+      ],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": "LOC-SLOB-FOOTHILL-CAMP",
+        "venue_type": "OWNER_HOME_SCENE",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": true,
+        "world_state_in": [
+          "operational"
+        ],
+        "persistent_landmarks": [
+          "tailgate yard",
+          "rough training ground"
+        ],
+        "provisional_location": true,
+        "world_resolution": "PLANNING_PARENT_RESOLVED__EVENT_FEATURE_REVIEW_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 19",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 21",
+      "image_tells": "Alternating low sideline frames of Slob and TDS sprinting, leaning from separate covers and firing markers. Paint lands on inflatable barricades; gear remains on.",
+      "prose_tells": "Verified player/lineup mechanism goes in a separate concise factual panel.",
+      "art_text_ratio": "85:15",
+      "camera_and_composition": "Lateral motion / cover edge close",
+      "foreground": "Alternating low sideline frames of Slob and TDS sprinting, leaning from separate covers and firing markers",
+      "midground": "Core action/physical contact zone; preserve readable limb, prop and target separation",
+      "background": "Registered parent terrain/landmarks; do not invent persistent structures",
+      "copy_budget": {
+        "body_words_max": 90,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P19",
+        "next": "W09-P21"
+      },
+      "rhythm_function": "Both contestants make choices; do not freeze loser in place.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "RENDERER_REFERENCE_BINDING_NOT_DEMONSTRATED",
+        "SCENE_TECH_EXCEPTION_NOT_RESOLVED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "CHARACTER_FINAL_RASTER",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": {
+        "home_win": "Slob wins: final third-person winner-shoulder slide/aim shows TDS fully struck by multiple paint splatters",
+        "away_win": "Three Dreaded Snake wins: final third-person winner-shoulder slide/aim shows Slob hit by multiple paint splatters"
+      }
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P21",
+      "page_role": "matchup_payoff",
+      "page_state": "PLANNED",
+      "working_title": "The Winning Angle",
+      "matchup_id": "W09-M06",
+      "narrative_job": "Preserve winner, paint trajectory and loser in one decisive still.",
+      "chapter_beat": "matchup_payoff",
+      "reader_takeaway": "Final result and standings consequence. No gunfire/blood; sporting equipment only.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING",
+        "FINAL_WEEK9_SCORE",
+        "PLAYER_LEVEL_CAUSAL_PACKET"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [
+        "exact_home_team",
+        "exact_away_team",
+        "verified_final_scores",
+        "verified_margin",
+        "postweek_records"
+      ],
+      "owners_present": [
+        "Jordan Hollingshead",
+        "Phillip Pitts"
+      ],
+      "characters_present": [
+        "CHAR-JORDAN-HOLLINGSHEAD",
+        "CHAR-PHILLIP-PITTS"
+      ],
+      "atmospheric_representation": null,
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "primary_path": "canon/characters/assets/CHAR-JORDAN-HOLLINGSHEAD/primary/0435E914-64B3-4350-8A41-758173DDC98D.jpeg",
+          "expected_primary_sha256": "c052e8c74939338517f1b14bbca5f2ea3d57146794f675d065698a44fb1064e8",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+          "comparison_crop_sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        },
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "primary_path": "canon/characters/assets/CHAR-PHILLIP-PITTS/primary/IMG_2178.jpeg",
+          "expected_primary_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+          "comparison_crop_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        }
+      ],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": "LOC-SLOB-FOOTHILL-CAMP",
+        "venue_type": "OWNER_HOME_SCENE",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": true,
+        "world_state_in": [
+          "operational"
+        ],
+        "persistent_landmarks": [
+          "tailgate yard",
+          "rough training ground"
+        ],
+        "provisional_location": true,
+        "world_resolution": "PLANNING_PARENT_RESOLVED__EVENT_FEATURE_REVIEW_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 20",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 22",
+      "image_tells": "EXACT Founder camera: third-person behind actual winner sliding into firing stance; loser completely visible downrange with fresh bright paint across mask/chest. Swap character positions for the opposite branch.",
+      "prose_tells": "Final result and standings consequence. No gunfire/blood; sporting equipment only.",
+      "art_text_ratio": "85:15",
+      "camera_and_composition": "Behind-winner low / downrange legibility",
+      "foreground": "EXACT Founder camera: third-person behind actual winner sliding into firing stance; loser completely visible downrange with fresh bright paint across mask/chest",
+      "midground": "Core action/physical contact zone; preserve readable limb, prop and target separation",
+      "background": "Registered parent terrain/landmarks; do not invent persistent structures",
+      "copy_budget": {
+        "body_words_max": 90,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P20",
+        "next": "W09-P22"
+      },
+      "rhythm_function": "Preserve winner, paint trajectory and loser in one decisive still.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "RENDERER_REFERENCE_BINDING_NOT_DEMONSTRATED",
+        "SCENE_TECH_EXCEPTION_NOT_RESOLVED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "CHARACTER_FINAL_RASTER",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": {
+        "home_win": "Slob wins: final third-person winner-shoulder slide/aim shows TDS fully struck by multiple paint splatters",
+        "away_win": "Three Dreaded Snake wins: final third-person winner-shoulder slide/aim shows Slob hit by multiple paint splatters"
+      }
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P22",
+      "page_role": "sports_player_desk",
+      "page_state": "PLANNED",
+      "working_title": "Why the Week Turned",
+      "matchup_id": null,
+      "narrative_job": "Restore the football mechanism omitted in Week8.",
+      "chapter_beat": "sports_player_desk",
+      "reader_takeaway": "Six brief causal explanations with actual starter/bench data. No best-lineup hindsight claim without lineup and eligibility evidence.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [
+        "source_bound_department_values",
+        "as_of_date"
+      ],
+      "owners_present": [],
+      "characters_present": [],
+      "atmospheric_representation": null,
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": null,
+        "venue_type": "EDITORIAL_NOT_NEW_ATLAS_SITE",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": false,
+        "world_state_in": [
+          "Load existing issue continuity before illustration"
+        ],
+        "persistent_landmarks": [],
+        "provisional_location": false,
+        "world_resolution": "EDITORIAL_COMPOSITION_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 21",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 23",
+      "image_tells": "Editorial highlight wall organized into six matchup-linked evidence strips; player names/points and selected starter contributions are deterministic, not unverified portraits.",
+      "prose_tells": "Six brief causal explanations with actual starter/bench data. No best-lineup hindsight claim without lineup and eligibility evidence.",
+      "art_text_ratio": "55:45",
+      "camera_and_composition": "Evidence wall / modular hierarchy",
+      "foreground": "Editorial highlight wall organized into six matchup-linked evidence strips; player names/points and selected starter contributions are deterministic, not unverified portraits",
+      "midground": "Source-bound editorial content area",
+      "background": "Quiet issue-consistent setting with no invented Atlas location",
+      "copy_budget": {
+        "body_words_max": 130,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P21",
+        "next": "W09-P23"
+      },
+      "rhythm_function": "Restore the football mechanism omitted in Week8.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "NO_CHARACTER_INVENTION",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": null
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P23",
+      "page_role": "transactions_waivers",
+      "page_state": "PLANNED",
+      "working_title": "Moves That Mattered",
+      "matchup_id": null,
+      "narrative_job": "Player movement is a sourced department, not storyline invention.",
+      "chapter_beat": "transactions_waivers",
+      "reader_takeaway": "Document completed Slob–LLC London/Judkins exchange versus canceled ObiWan–Red proposal; refresh source and add verified waivers/injury implications.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [
+        "source_bound_department_values",
+        "as_of_date"
+      ],
+      "owners_present": [],
+      "characters_present": [],
+      "atmospheric_representation": null,
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": null,
+        "venue_type": "EDITORIAL_NOT_NEW_ATLAS_SITE",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": false,
+        "world_state_in": [
+          "Load existing issue continuity before illustration"
+        ],
+        "persistent_landmarks": [],
+        "provisional_location": false,
+        "world_resolution": "EDITORIAL_COMPOSITION_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 22",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 24",
+      "image_tells": "In-world transaction desk with separately labeled completed, canceled and unresolved receipts. Do not visualize a canceled offer as an exchanged player.",
+      "prose_tells": "Document completed Slob–LLC London/Judkins exchange versus canceled ObiWan–Red proposal; refresh source and add verified waivers/injury implications.",
+      "art_text_ratio": "55:45",
+      "camera_and_composition": "Desk close / paper trail",
+      "foreground": "In-world transaction desk with separately labeled completed, canceled and unresolved receipts",
+      "midground": "Source-bound editorial content area",
+      "background": "Quiet issue-consistent setting with no invented Atlas location",
+      "copy_budget": {
+        "body_words_max": 130,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P22",
+        "next": "W09-P24"
+      },
+      "rhythm_function": "Player movement is a sourced department, not storyline invention.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "NO_CHARACTER_INVENTION",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": null
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P24",
+      "page_role": "standings_playoffs",
+      "page_state": "PLANNED",
+      "working_title": "Seven Places, Twelve Teams",
+      "matchup_id": null,
+      "narrative_job": "Separate standings math from editorial power rankings.",
+      "chapter_beat": "standings_playoffs",
+      "reader_takeaway": "Postweek W-L, PF, source time and playoff pressure. Show automatic division-leader qualification as Founder rule; no unverified tiebreak/elimination.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [
+        "source_bound_department_values",
+        "as_of_date"
+      ],
+      "owners_present": [],
+      "characters_present": [],
+      "atmospheric_representation": null,
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": null,
+        "venue_type": "EDITORIAL_NOT_NEW_ATLAS_SITE",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": false,
+        "world_state_in": [
+          "Load existing issue continuity before illustration"
+        ],
+        "persistent_landmarks": [],
+        "provisional_location": false,
+        "world_resolution": "EDITORIAL_COMPOSITION_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 23",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 25",
+      "image_tells": "Readable all-12 table with three division groups and explicit seed-versus-clinched labels; league glyphs, not twelve improvised characters.",
+      "prose_tells": "Postweek W-L, PF, source time and playoff pressure. Show automatic division-leader qualification as Founder rule; no unverified tiebreak/elimination.",
+      "art_text_ratio": "55:45",
+      "camera_and_composition": "Structured division triptych",
+      "foreground": "Readable all-12 table with three division groups and explicit seed-versus-clinched labels; league glyphs, not twelve improvised characters",
+      "midground": "Source-bound editorial content area",
+      "background": "Quiet issue-consistent setting with no invented Atlas location",
+      "copy_budget": {
+        "body_words_max": 130,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P23",
+        "next": "W09-P25"
+      },
+      "rhythm_function": "Separate standings math from editorial power rankings.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "NO_CHARACTER_INVENTION",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": null
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P25",
+      "page_role": "power_rankings",
+      "page_state": "PLANNED",
+      "working_title": "The Twelve — Power Watch",
+      "matchup_id": null,
+      "narrative_job": "Retain department as candidate; unresolved ranking evidence means HOLD, not made-up arrows.",
+      "chapter_beat": "power_rankings",
+      "reader_takeaway": "Explain editorial ranking basis and uncertainty. Do not present ESPN playoff seed as a power rank or fabricate prior movement.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [
+        "source_bound_department_values",
+        "as_of_date"
+      ],
+      "owners_present": [],
+      "characters_present": [],
+      "atmospheric_representation": null,
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": null,
+        "venue_type": "EDITORIAL_NOT_NEW_ATLAS_SITE",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": false,
+        "world_state_in": [
+          "Load existing issue continuity before illustration"
+        ],
+        "persistent_landmarks": [],
+        "provisional_location": false,
+        "world_resolution": "EDITORIAL_COMPOSITION_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 24",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 26",
+      "image_tells": "Twelve clearly numbered editorial rows; approved reused result portraits only after available, otherwise neutral team symbols. Movement arrows require prior official ranking.",
+      "prose_tells": "Explain editorial ranking basis and uncertainty. Do not present ESPN playoff seed as a power rank or fabricate prior movement.",
+      "art_text_ratio": "55:45",
+      "camera_and_composition": "Ranked editorial board",
+      "foreground": "Twelve clearly numbered editorial rows; approved reused result portraits only after available, otherwise neutral team symbols",
+      "midground": "Source-bound editorial content area",
+      "background": "Quiet issue-consistent setting with no invented Atlas location",
+      "copy_budget": {
+        "body_words_max": 130,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P24",
+        "next": "W09-P26"
+      },
+      "rhythm_function": "Retain department as candidate; unresolved ranking evidence means HOLD, not made-up arrows.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "NO_CHARACTER_INVENTION",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": null
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P26",
+      "page_role": "week10_preview",
+      "page_state": "PLANNED",
+      "working_title": "The Next Six",
+      "matchup_id": null,
+      "narrative_job": "Bridge all 12 teams forward and prevent Week8 preview regression.",
+      "chapter_beat": "week10_preview",
+      "reader_takeaway": "Refresh/confirm archived W10 schedule; concise consequence hooks, no predictions treated as results.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [
+        "source_bound_department_values",
+        "as_of_date"
+      ],
+      "owners_present": [],
+      "characters_present": [],
+      "atmospheric_representation": null,
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": null,
+        "venue_type": "EDITORIAL_NOT_NEW_ATLAS_SITE",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": false,
+        "world_state_in": [
+          "Load existing issue continuity before illustration"
+        ],
+        "persistent_landmarks": [],
+        "provisional_location": false,
+        "world_resolution": "EDITORIAL_COMPOSITION_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 25",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 27",
+      "image_tells": "Six paired destination markers built only from verified Week10 home/away fixtures; no story titles in place of team names.",
+      "prose_tells": "Refresh/confirm archived W10 schedule; concise consequence hooks, no predictions treated as results.",
+      "art_text_ratio": "55:45",
+      "camera_and_composition": "Six-route wayfinding",
+      "foreground": "Six paired destination markers built only from verified Week10 home/away fixtures; no story titles in place of team names",
+      "midground": "Source-bound editorial content area",
+      "background": "Quiet issue-consistent setting with no invented Atlas location",
+      "copy_budget": {
+        "body_words_max": 130,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P25",
+        "next": "W09-P27"
+      },
+      "rhythm_function": "Bridge all 12 teams forward and prevent Week8 preview regression.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "NO_CHARACTER_INVENTION",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": null
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P27",
+      "page_role": "pittsys_book",
+      "page_state": "PLANNED",
+      "working_title": "The Book — Week 9",
+      "matchup_id": null,
+      "narrative_job": "Follow user reading order: preview then Book, separately from cover congratulations.",
+      "chapter_beat": "pittsys_book",
+      "reader_takeaway": "Use actual Week9 posted lines, slips and settlement evidence, with pending/canceled/settled distinguished. No substitution of projection for odds.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [
+        "source_bound_department_values",
+        "as_of_date"
+      ],
+      "owners_present": [
+        "Phillip Pitts"
+      ],
+      "characters_present": [
+        "CHAR-PHILLIP-PITTS"
+      ],
+      "atmospheric_representation": null,
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "primary_path": "canon/characters/assets/CHAR-PHILLIP-PITTS/primary/IMG_2178.jpeg",
+          "expected_primary_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+          "comparison_crop_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true
+        }
+      ],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": "LOC-PITTSYS-BOOK",
+        "venue_type": "BOOK_INSTITUTION",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": false,
+        "world_state_in": [
+          "Load existing issue continuity before illustration"
+        ],
+        "persistent_landmarks": [],
+        "provisional_location": false,
+        "world_resolution": "EDITORIAL_COMPOSITION_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 26",
+      "continuity_out": "Carry prop damage, body gear and spatial orientation to page 28",
+      "image_tells": "Separate Book ledger scene at established location, TDS proprietor using exact current identity. No newborn on gambling page; no invented receipts, stakes or winnings.",
+      "prose_tells": "Use actual Week9 posted lines, slips and settlement evidence, with pending/canceled/settled distinguished. No substitution of projection for odds.",
+      "art_text_ratio": "55:45",
+      "camera_and_composition": "Ledger-eye level / proprietor reaction",
+      "foreground": "Separate Book ledger scene at established location, TDS proprietor using exact current identity",
+      "midground": "Source-bound editorial content area",
+      "background": "Registered parent terrain/landmarks; do not invent persistent structures",
+      "copy_budget": {
+        "body_words_max": 130,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P26",
+        "next": "W09-P28"
+      },
+      "rhythm_function": "Follow user reading order: preview then Book, separately from cover congratulations.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "RENDERER_REFERENCE_BINDING_NOT_DEMONSTRATED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "CHARACTER_FINAL_RASTER",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": null
+    },
+    {
+      "issue_id": "S26-W09-2026",
+      "page_id": "W09-P28",
+      "page_role": "final_word",
+      "page_state": "PLANNED",
+      "working_title": "What Comes Next",
+      "matchup_id": null,
+      "narrative_job": "A controlled emotional release after action and data.",
+      "chapter_beat": "final_word",
+      "reader_takeaway": "One supported closing observation and Week10 hook after finals; remember W12–14 divisional return without premature clinch claims.",
+      "fact_dependencies": [
+        "FACT_LOCK_PENDING",
+        "SOURCE_FRESHNESS_REVIEW_PENDING",
+        "FOUNDER_CONTEXT_AND_FINAL_EDITORIAL_THESIS"
+      ],
+      "fact_lock_receipts": [],
+      "deterministic_data_fields": [],
+      "owners_present": [],
+      "characters_present": [],
+      "atmospheric_representation": null,
+      "temporal_canon_receipts": [
+        "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+      ],
+      "reference_assets": [],
+      "forbidden_mutations": [
+        "No unverified final winner",
+        "No accidental identity/species change",
+        "No belt transfer",
+        "No silent global technology or permanent geography change",
+        "No treating comparison crop or historical file ID as current renderer binding"
+      ],
+      "encounter": {
+        "venue_id": null,
+        "venue_type": "EDITORIAL_NOT_NEW_ATLAS_SITE",
+        "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+        "route_required": false,
+        "world_state_in": [
+          "Load existing issue continuity before illustration"
+        ],
+        "persistent_landmarks": [],
+        "provisional_location": false,
+        "world_resolution": "EDITORIAL_COMPOSITION_PENDING"
+      },
+      "continuity_in": "Inherit exact prior page and chapter prop/state record; page 27",
+      "continuity_out": "Record approved outcomes in existing world/continuity ledger only after release",
+      "image_tells": "Quiet environmental closing with six routes receding toward the next week; no implied deaths, title transfers or destroyed homelands.",
+      "prose_tells": "One supported closing observation and Week10 hook after finals; remember W12–14 divisional return without premature clinch claims.",
+      "art_text_ratio": "55:45",
+      "camera_and_composition": "Quiet wide / negative space",
+      "foreground": "Quiet environmental closing with six routes receding toward the next week; no implied deaths, title transfers or destroyed homelands",
+      "midground": "Source-bound editorial content area",
+      "background": "Quiet issue-consistent setting with no invented Atlas location",
+      "copy_budget": {
+        "body_words_max": 130,
+        "headline_words_max": 7,
+        "data_rows": "as required by department; six matchups or twelve teams where applicable"
+      },
+      "adjacent_pages": {
+        "previous": "W09-P27",
+        "next": null
+      },
+      "rhythm_function": "A controlled emotional release after action and data.",
+      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "failure_conditions": [
+        "FACT_LOCK_PENDING",
+        "NO_RENDER_AUTHORIZATION",
+        "FINAL_RASTER_QA_NOT_PERFORMED",
+        "TEXT_HIDDEN_ACTION_UNREADABLE",
+        "PHONE_SCALE_UNREADABLE",
+        "SOURCE_SCORE_OR_FIXTURE_MISMATCH"
+      ],
+      "required_qa": [
+        "SOURCE_AND_FACT",
+        "NO_CHARACTER_INVENTION",
+        "ATLAS_AND_CONTINUITY",
+        "PHYSICAL_BLOCKING",
+        "DETERMINISTIC_COPY",
+        "MOBILE_390PX",
+        "ISSUE_RHYTHM",
+        "INDEPENDENT_RELEASE"
+      ],
+      "manual_approval_required": true,
+      "render_authorized": false,
+      "actual_winner_team_id": null,
+      "outcome_alternatives": null
+    }
+  ]
+}

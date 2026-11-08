@@ -1,0 +1,211 @@
+{
+  "state": "STRUCTURAL_READBACK_PASS_NOT_INDEPENDENT_RELEASE_ACCEPTANCE",
+  "checked_source_commit": "409b0dca4b471ecea14e9f8badf46e4ec87f8a5c",
+  "validated_fixtures": 6,
+  "validated_team_records": 12,
+  "winner_branches": 12,
+  "page_contracts": 28,
+  "cinematic_folios": 18,
+  "editorial_departments": 10,
+  "required_fields_per_page": 36,
+  "presentation_hash_matches": 12,
+  "primary_hash_matches_in_checkout": 2,
+  "dynamic_travel_validation": false,
+  "references_mounted_to_renderer": false,
+  "fact_lock": false,
+  "images_rendered": 0,
+  "negative_cases": [
+    {
+      "case": "wrong_pairing",
+      "rejected_by": [
+        "FIXTURES",
+        "RECORDS",
+        "TWELVE_TEAMS"
+      ]
+    },
+    {
+      "case": "wrong_record",
+      "rejected_by": [
+        "RECORDS"
+      ]
+    },
+    {
+      "case": "invented_final",
+      "rejected_by": [
+        "INVENTED_FINAL"
+      ]
+    },
+    {
+      "case": "render_without_gates",
+      "rejected_by": [
+        "UNAUTHORIZED_PROMOTION"
+      ]
+    },
+    {
+      "case": "wrong_geometry",
+      "rejected_by": [
+        "GEOMETRY"
+      ]
+    },
+    {
+      "case": "duplicate_page",
+      "rejected_by": [
+        "ADJACENCY",
+        "DUPLICATE_PAGE_ID"
+      ]
+    },
+    {
+      "case": "missing_sports_desk",
+      "rejected_by": [
+        "ADJACENCY",
+        "DEPARTMENT_COVERAGE"
+      ]
+    },
+    {
+      "case": "clear_DK_conflict",
+      "rejected_by": [
+        "DK_FALSE_GREEN"
+      ]
+    }
+  ],
+  "local_link_checks": [
+    {
+      "file": "memo-os/week-9/_INDEX.md",
+      "target": "./WEEK_9_SPORTS_STORY_CARDS_2026-11-08.md",
+      "exists": true
+    },
+    {
+      "file": "memo-os/week-9/_INDEX.md",
+      "target": "./WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+      "exists": true
+    },
+    {
+      "file": "memo-os/week-9/_INDEX.md",
+      "target": "./WEEK_9_COMPLETE_ISSUE_PREVIS_2026-11-08.md",
+      "exists": true
+    },
+    {
+      "file": "memo-os/week-9/_INDEX.md",
+      "target": "./WEEK_9_COMPLETE_ISSUE_PREVIS_2026-11-08.json",
+      "exists": true
+    },
+    {
+      "file": "memo-os/week-9/_INDEX.md",
+      "target": "./production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json",
+      "exists": true
+    },
+    {
+      "file": "memo-os/week-9/_INDEX.md",
+      "target": "./production-evidence/WEEK_9_LOCAL_DIRECTOR_ADVISORY_2026-11-08.json",
+      "exists": true
+    },
+    {
+      "file": "memo-os/week-9/_INDEX.md",
+      "target": "./production-evidence/WEEK_9_DIRECTOR_REVIEW_DISPOSITION_2026-11-08.md",
+      "exists": true
+    },
+    {
+      "file": "memo-os/week-9/_INDEX.md",
+      "target": "./production-evidence/WEEK_9_PREVIS_STRUCTURAL_CHECKS_2026-11-08.json",
+      "exists": true
+    },
+    {
+      "file": "memo-os/week-9/_INDEX.md",
+      "target": "./production-evidence/WEEK_9_EXISTING_MEMO_CI_RECEIPT_2026-11-08.json",
+      "exists": true
+    },
+    {
+      "file": "memo-os/week-9/_INDEX.md",
+      "target": "./production-evidence/WEEK_9_LOCAL_UMPIRE_ADVISORY_2026-11-08.json",
+      "exists": true
+    },
+    {
+      "file": "memo-os/week-9/_INDEX.md",
+      "target": "./WEEK_9_COMMISSIONER_QUESTIONNAIRE_CREATIVE_CONTEXT_2026-11-08.md",
+      "exists": true
+    },
+    {
+      "file": "memo-os/week-9/_INDEX.md",
+      "target": "./WEEK_9_SIX_MATCHUP_COMMISSIONER_PREVIS_CANDIDATES_2026-11-08.json",
+      "exists": true
+    },
+    {
+      "file": "memo-os/week-9/_INDEX.md",
+      "target": "./WEEK_9_PHASE_1_2_3_STORYROOM_HANDOFF_2026-11-08.md",
+      "exists": true
+    },
+    {
+      "file": "memo-os/week-9/_INDEX.md",
+      "target": "./WEEK_8_FINAL_WEEK_9_V52RC_INTAKE_2026-11-08.md",
+      "exists": true
+    },
+    {
+      "file": "memo-os/week-9/_INDEX.md",
+      "target": "./WEEK_8_FINAL_WEEK_9_PROVIDER_EVIDENCE_2026-11-08.json",
+      "exists": true
+    },
+    {
+      "file": "memo-os/week-9/_INDEX.md",
+      "target": "./WEEK_8_FINAL_WEEK_9_ROW_DIFF_2026-11-08.json",
+      "exists": true
+    },
+    {
+      "file": "memo-os/week-9/_INDEX.md",
+      "target": "../_INDEX.md",
+      "exists": true
+    },
+    {
+      "file": "memo-os/week-9/_INDEX.md",
+      "target": "../SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md",
+      "exists": true
+    },
+    {
+      "file": "memo-os/week-9/_INDEX.md",
+      "target": "../creative-dna/WEEK_6_2026_REVIEWED_ISSUE_VISUAL_BENCHMARK.md",
+      "exists": true
+    },
+    {
+      "file": "memo-os/week-9/_INDEX.md",
+      "target": "../week-6/WEEK_6_SIX_ENCOUNTER_SPATIAL_PREVIS_2026-10-18.md",
+      "exists": true
+    },
+    {
+      "file": "memo-os/week-9/_INDEX.md",
+      "target": "../week-7/WEEK_7_INKLINGS_SHADOW_WORKSHOP_ACTIVATION_2026-10-26.md",
+      "exists": true
+    },
+    {
+      "file": "memo-os/week-9/_INDEX.md",
+      "target": "../../canon/_INDEX.md",
+      "exists": true
+    },
+    {
+      "file": "memo-os/week-9/_INDEX.md",
+      "target": "../../world/atlas/ATLAS_V1.md",
+      "exists": true
+    },
+    {
+      "file": "memo-os/week-9/_INDEX.md",
+      "target": "../../world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md",
+      "exists": true
+    },
+    {
+      "file": "memo-os/week-9/_INDEX.md",
+      "target": "../../living-novel/consultants/author-council/_INDEX.md",
+      "exists": true
+    },
+    {
+      "file": "memo-os/week-9/_INDEX.md",
+      "target": "../cinematography/PRODUCTION_SPECIALIST_REFERENCE_BENCH_V1.json",
+      "exists": true
+    }
+  ],
+  "sha256": {
+    "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json": "7da8774946fc20e68a83ec0ca95e980054e84318f9da6bdebc0934acc463a8ae",
+    "memo-os/week-9/WEEK_9_COMPLETE_ISSUE_PREVIS_2026-11-08.json": "642b2bc0c169ea07e9d7e59751170a18fd1e6ecae04e979ec4240e6018813dee",
+    "memo-os/week-9/production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json": "ce8d0cf7765c03c442f8d900adddfc286d0cf35a1ce1e950bae3fa4a30b4709c"
+  },
+  "verification_command": "python3 /tmp/validate-schemin-w9-previs-20261108.py",
+  "reproducibility_note": "Validation source archived verbatim in this receipt for rerun; no new production validator or OS introduced.",
+  "validation_source": "import json,copy,hashlib,re\nfrom pathlib import Path\nr=Path.home()/'Developer/ai/week9-previs-20261108';w=r/'memo-os/week-9';ev=w/'production-evidence'\nload=lambda p:json.loads(p.read_text())\ns=load(w/'WEEK_8_FINAL_WEEK_9_PROVIDER_EVIDENCE_2026-11-08.json');cards=load(w/'WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json');doc=load(w/'WEEK_9_COMPLETE_ISSUE_PREVIS_2026-11-08.json');bind=load(ev/'WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json')\nrequired='issue_id page_id page_role page_state narrative_job chapter_beat reader_takeaway fact_dependencies fact_lock_receipts deterministic_data_fields owners_present characters_present temporal_canon_receipts reference_assets forbidden_mutations encounter continuity_in continuity_out image_tells prose_tells art_text_ratio camera_and_composition foreground midground background copy_budget adjacent_pages rhythm_function mobile_risk output_format output_width_px output_height_px output_aspect_ratio failure_conditions required_qa manual_approval_required'.split()\nexpected={(m['home']['teamId'],m['away']['teamId']) for m in s['week9_matchups']['matchups']};st={t['teamId']:f\"{t['wins']}-{t['losses']}\" for t in s['standings']['standings']}\ndef validate(c,d,b):\n e=[];cc=c['cards'];pp=d['pages']\n if len(cc)!=6 or {(x['home']['teamId'],x['away']['teamId']) for x in cc}!=expected:e.append('FIXTURES')\n if len({x[z]['teamId'] for x in cc for z in ['home','away']})!=12:e.append('TWELVE_TEAMS')\n for x in cc:\n  if any(x[z]['record']!=st.get(x[z]['teamId']) for z in ['home','away']):e.append('RECORDS')\n  if not x.get('home_win') or not x.get('away_win'):e.append('OUTCOME_FORKS')\n  sc=x['sports_causality']\n  if sc['winning_team_id'] is not None or sc['final_score'] is not None or sc['player_contributors']:e.append('INVENTED_FINAL')\n if len({p['page_id'] for p in pp})!=len(pp):e.append('DUPLICATE_PAGE_ID')\n if {p['matchup_id'] for p in pp if p['matchup_id']}!={x['id'] for x in cc}:e.append('CHAPTER_COVERAGE')\n needed={'cover','opening_drive','scoreboard','sports_player_desk','transactions_waivers','standings_playoffs','power_rankings','week10_preview','pittsys_book','final_word'}\n if not needed<={p['page_role'] for p in pp}:e.append('DEPARTMENT_COVERAGE')\n for i,p in enumerate(pp):\n  if not set(required)<=set(p):e.append('PAGE_CONTRACT_FIELDS')\n  if p['page_state']!='PLANNED' or p['render_authorized'] or p['actual_winner_team_id'] is not None:e.append('UNAUTHORIZED_PROMOTION')\n  if (p['output_width_px'],p['output_height_px'],p['output_aspect_ratio'])!=(1080,1920,'9:16'):e.append('GEOMETRY')\n  if p['image_tells']==p['prose_tells']:e.append('REDUNDANT_IMAGE_PROSE')\n  if p['adjacent_pages']!={'previous':pp[i-1]['page_id'] if i else None,'next':pp[i+1]['page_id'] if i<len(pp)-1 else None}:e.append('ADJACENCY')\n  if any(a['renderer_bound'] for a in p['reference_assets']):e.append('FALSE_REFERENCE_BINDING')\n  if p['matchup_id']=='W09-M05' and 'DK_VISUAL_SOURCE_CONFLICT' not in p['failure_conditions']:e.append('DK_FALSE_GREEN')\n if not all(x['presentation_bytes_state']=='MATCH' for x in b['characters']):e.append('PRESENTATION_HASH')\n if len(b['characters'])!=12:e.append('REFERENCE_COVERAGE')\n return sorted(set(e))\nerrors=validate(cards,doc,bind);assert not errors,errors\nnegative=[]\nfor name,kind,mutate in [\n ('wrong_pairing','cards',lambda x:x['cards'][0]['away'].update(teamId=4)),\n ('wrong_record','cards',lambda x:x['cards'][0]['home'].update(record='8-0')),\n ('invented_final','cards',lambda x:x['cards'][0]['sports_causality'].update(winning_team_id=12)),\n ('render_without_gates','doc',lambda x:x['pages'][0].update(render_authorized=True)),\n ('wrong_geometry','doc',lambda x:x['pages'][0].update(output_width_px=1024)),\n ('duplicate_page','doc',lambda x:x['pages'][1].update(page_id=x['pages'][0]['page_id'])),\n ('missing_sports_desk','doc',lambda x:x['pages'].__setitem__(slice(None),[p for p in x['pages'] if p['page_role']!='sports_player_desk'])),\n ('clear_DK_conflict','doc',lambda x:[p['failure_conditions'].remove('DK_VISUAL_SOURCE_CONFLICT') for p in x['pages'] if p['matchup_id']=='W09-M05'])]:\n c,d=copy.deepcopy(cards),copy.deepcopy(doc);mutate(c if kind=='cards' else d);es=validate(c,d,bind);assert es,name;negative.append({'case':name,'rejected_by':es})\nlinks=[]\nfor p in [w/'_INDEX.md',w/'WEEK_9_SPORTS_STORY_CARDS_2026-11-08.md',w/'WEEK_9_COMPLETE_ISSUE_PREVIS_2026-11-08.md']:\n for link in re.findall(r'\\]\\(([^)]+)\\)',p.read_text()):\n  if '://' not in link and not link.startswith('#'):\n   dest=(p.parent/link.split('#')[0]).resolve(); links.append({'file':str(p.relative_to(r)),'target':link,'exists':dest.exists()})\nassert all(x['exists'] for x in links),[x for x in links if not x['exists']]\nreport={'state':'STRUCTURAL_READBACK_PASS_NOT_INDEPENDENT_RELEASE_ACCEPTANCE','checked_source_commit':bind['source_commit'],'validated_fixtures':6,'validated_team_records':12,'winner_branches':12,'page_contracts':len(doc['pages']),'cinematic_folios':sum(p['matchup_id'] is not None for p in doc['pages']),'editorial_departments':10,'required_fields_per_page':len(required),'presentation_hash_matches':12,'primary_hash_matches_in_checkout':2,'dynamic_travel_validation':False,'references_mounted_to_renderer':False,'fact_lock':False,'images_rendered':0,'negative_cases':negative,'local_link_checks':links,'sha256':{str(p.relative_to(r)):hashlib.sha256(p.read_bytes()).hexdigest() for p in [w/'WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json',w/'WEEK_9_COMPLETE_ISSUE_PREVIS_2026-11-08.json',ev/'WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json']},'verification_command':'python3 /tmp/validate-schemin-w9-previs-20261108.py','reproducibility_note':'Validation source archived verbatim in this receipt for rerun; no new production validator or OS introduced.','validation_source':Path(__file__).read_text()}\n(ev/'WEEK_9_PREVIS_STRUCTURAL_CHECKS_2026-11-08.json').write_text(json.dumps(report,indent=2)+'\\n')\nprint(json.dumps({k:v for k,v in report.items() if k not in ['validation_source','local_link_checks','sha256']},indent=2))\n"
+}
