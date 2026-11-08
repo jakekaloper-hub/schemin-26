@@ -15,3 +15,9 @@ This continues existing Issue #276 and the current Week9 page register. Phase E 
 ## Raster review continuation
 
 The complete 2400×1790 PNG is now rendered and inspected. Two observers that overlapped water were moved to dry ground in frames04/07. Nine panels and both hypothetical endings remain visible; no final outcome is asserted. Failed native infographic attempts are rejected in the receipt, not accepted boards. Normal final memo-page character/phone/data QA is not claimed by this rough rehearsal.
+
+## Page-turn continuation and context
+
+[Open the standalone HTML rehearsal](W09_GOTW_PAGE_TURN_REHEARSAL_V1.html) to move through P04-P06 and preview either hypothetical P07 ending. Captions can be hidden. The page layouts reuse the original nine drawings without changing identity or selecting a result. Rebuild with `python3 memo-os/week-9/storyboards/build_page_turn_rehearsal.py`. Browser controls and 390px viewport were tested; this is not Founder or independent audience acceptance.
+
+The [thread continuity record](../THREAD_CONTINUITY.md) and [original user directions](../THREAD_SOURCE_CAPTURE_2026-11-08.md) must travel with this work into future sessions. The existing issue index remains the entry point.

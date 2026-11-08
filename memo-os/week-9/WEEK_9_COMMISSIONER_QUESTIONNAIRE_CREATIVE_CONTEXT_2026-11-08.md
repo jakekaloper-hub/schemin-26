@@ -5,6 +5,8 @@
 **Status:** `COMMISSIONER_CONTEXT_RECORDED / EDITORIAL_PREVIS_IN_PROGRESS / FACT_LOCK_BLOCKED / NO_STORY_LOCK / NO_RENDER`.  
 **Primary machine-readable companion:** [six-duel conditional previs packet](./WEEK_9_SIX_MATCHUP_COMMISSIONER_PREVIS_CANDIDATES_2026-11-08.json).
 
+> **Current interpretation:** [THREAD_CONTINUITY.md](THREAD_CONTINUITY.md) preserves the latest corrections and [source capture](THREAD_SOURCE_CAPTURE_2026-11-08.md). Older assistant-origin “royal tasting” language below is historical proposal text, superseded by the active hooded Belt Keeper cookout staging. It is not a Founder answer or a monarch redesign.
+
 ## 0. Commissioner delegation and interpretation
 
 The Founder has completed the Week 9 creative interview and explicitly delegates **all remaining ordinary cinematic and storyline choices** to the existing Inklings author-methodology council and Bullpen production domains. **Do not ask the Founder to decide Red Leopards' retaliation or the Chili cookout ending again.** Preserve each scene/event as directed; synthesize coherent arcs and present the final concept board for discretionary aesthetic review at the proper gate.

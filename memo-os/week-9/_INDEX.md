@@ -5,6 +5,14 @@
 **Current status:** `CREATIVE_INTERVIEW_RECORDED / PREVIS_CANDIDATES_PREPARED / CANONICAL_SNAPSHOT_LOCK_BLOCKED / FACT_LOCK_BLOCKED / NOT_RELEASED`.  
 **Not a new OS or a new mission.**
 
+## First read — this thread’s genesis and decisions
+
+[Thread continuity](./THREAD_CONTINUITY.md) · [structured checkpoint](./THREAD_CONTINUITY.json) · [original Founder wording](./THREAD_SOURCE_CAPTURE_2026-11-08.md).
+
+Preserve the opening workshop brief, full six personal scene answers, delegated choices, GitHub storage mandate, HMB/DK-only exception scope, director-method direction, corrected completion claims and PR lineage. New sessions must load this context and the latest actual artifact before continuing.
+
+**New tangible continuation:** [GOTW page-turn rehearsal](./storyboards/W09_GOTW_PAGE_TURN_REHEARSAL_V1.html), using existing drawn panels, not new illustration. P04-P06 are sequential; P07 has two separately labeled hypothetical previews and no chosen actual result. Hide captions to inspect flow. Polished proofs and final football work remain incomplete.
+
 ## Latest tangible output — GOTW rough visual storyboard
 
 The **actual nine-frame blocking board** is now drawn and rasterized: [PNG review sheet](./storyboards/W09_GOTW_ROUGH_BLOCKING_BOARD_V1.png) · [editable SVG](./storyboards/W09_GOTW_ROUGH_BLOCKING_BOARD_V1.svg). It covers P04–P07, with seven shared beats and two mutually exclusive hypothetical endings. This is a simple spatial/pose rehearsal—not final character illustration, a fantasy result, or whole-issue release approval.
@@ -73,7 +81,7 @@ PRIOR WEEK 8 VERIFIED RESULTS + WEEK 9 ESPN SNAPSHOT (PROVISIONAL)
   -> FOUNDER FINAL VISUAL APPROVAL -> PUBLICATION / ARCHIVE / WORLD STATE
 ```
 
-**Future new thread:** Load this index and the three linked Week 9 candidate inputs first. Do not ask the Founder to repeat the six scene ideas or reopen decisions delegated to the Inklings/production team. For genuine policy or canon conflict, provide an Atlas-owned resolution and narrowly escalate only if necessary. No image generation is authorized by this index.
+**Future new thread:** Load this index and THREAD_CONTINUITY.md / THREAD_CONTINUITY.json first, then the existing issue inputs. Do not ask the Founder to repeat the six scene ideas or reopen decisions delegated to the Inklings/production team. For genuine policy or canon conflict, provide an Atlas-owned resolution and narrowly escalate only if necessary. No image generation is authorized by this index.
 
 ## Librarian storage repair — 2026-11-08
 
@@ -81,4 +89,4 @@ Raw next-stage direction consultations formerly in `/tmp` are preserved in [prod
 
 ## Resumed after storage closeout — two existing proof packets
 
-Storage repair is merged in PR #283; [remote verification and five-folder retirement](../../archive/local-recovery/2026-11-08/CLOSEOUT.json) are recorded. P05 and P20 in the existing [complete-issue previs](./WEEK_9_COMPLETE_ISSUE_PREVIS_2026-11-08.json) now include exact draft copy, spatial axes, per-beat physical contact, native canvas boxes, subject-reference mapping, neutral study variants and result-dependent application. All other 26 pages are unchanged. The [preparation receipt](./production-evidence/WEEK_9_TWO_PROOF_PREPARATION_2026-11-08.json) records the scoped reference search, copy-fit check and remaining gates. One of the four proof subjects has primary bytes verified locally (TDS); three originals and actual renderer binding remain unresolved. Approved presentation crops are not silently promoted as primary sources. No images or final outcomes were generated.
+Storage repair is merged in PR #283; [remote verification and five-folder retirement](../../archive/local-recovery/2026-11-08/CLOSEOUT.json) are recorded. P05 and P20 in the existing [complete-issue previs](./WEEK_9_COMPLETE_ISSUE_PREVIS_2026-11-08.json) now include exact draft copy, spatial axes, per-beat physical contact, native canvas boxes, subject-reference mapping, neutral study variants and result-dependent application. All other 26 pages are unchanged. The [preparation receipt](./production-evidence/WEEK_9_TWO_PROOF_PREPARATION_2026-11-08.json) records the scoped reference search, copy-fit check and remaining gates. Historical PR284 observation: one original was available locally; others were absent in that scan. PR285 superseded treating this as a new identity problem: approved presentation references are selected and approvals stay settled; actual renderer attachment remains an execution check. No images or final outcomes were generated.
