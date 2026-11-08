@@ -17,3 +17,7 @@ Store superseded, deprecated, or season-complete material that remains useful fo
 ## Current status
 
 [2026-11-08 local recovery](local-recovery/2026-11-08/README.md) preserves unique historical working material and maps copies to their owning repository paths. Archived payloads are not automatically active production authority.
+
+## Durable-storage rule
+
+GitHub is the canonical store for first-party project source, reusable assets and production evidence. Local paths are execution copies; a completion receipt must identify the pushed repository path/commit. Unique work must be preserved and remotely verified before retiring a workspace. Keys, dependencies, caches, and unreviewed third-party assets remain outside this rule and must be explicitly excluded rather than silently uploaded. Temporary local consultations are copied to their owning evidence lane before completion.

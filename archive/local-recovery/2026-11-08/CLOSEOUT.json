@@ -1,0 +1,46 @@
+{
+  "verified_main": "0199166f4d7851fb1e5db96380c63a1098594266",
+  "source_file_hash_matches": 275,
+  "bundle_hash_matches": 2,
+  "success": true,
+  "retirement": [
+    {
+      "folder": "week7-renderer-gates",
+      "state": "RETIRED_VERIFIED_WORKTREE",
+      "moved_untracked_to_recoverable_trash": 21,
+      "error": null
+    },
+    {
+      "folder": "week7-source-acceptance",
+      "state": "RETIRED_VERIFIED_WORKTREE",
+      "moved_untracked_to_recoverable_trash": 0,
+      "error": null
+    },
+    {
+      "folder": "week8-cinematic-live-20261104",
+      "state": "RETIRED_VERIFIED_WORKTREE",
+      "moved_untracked_to_recoverable_trash": 0,
+      "error": null
+    },
+    {
+      "folder": "week7-validator-audit",
+      "state": "RETIRED_TO_RECOVERABLE_TRASH",
+      "verified_files": 4
+    },
+    {
+      "folder": "week8-cinematic-render-stage",
+      "state": "RETIRED_TO_RECOVERABLE_TRASH",
+      "verified_files": 12
+    }
+  ],
+  "retained": [
+    "schemin-visual-local/repo (shared Git storage and active preview workspace)",
+    "week8-release-validation (open engineering work)",
+    "week9-previs-20261108 (current execution workspace)",
+    "Schemin_UE_Prototype (installed engine project and unreviewed external dependencies)"
+  ],
+  "no_force_removal": true,
+  "local_branch_refs_not_deleted": true,
+  "trash_path": "/Users/jakekaloper/.Trash/schemin-verified-recovery-20261108",
+  "sidequest_state": "FIRST_PARTY_PRESERVATION_COMPLETE_EXCLUSIONS_DOCUMENTED"
+}

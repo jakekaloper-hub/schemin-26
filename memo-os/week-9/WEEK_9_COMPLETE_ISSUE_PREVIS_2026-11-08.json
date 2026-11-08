@@ -470,7 +470,11 @@
           "comparison_crop_sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "preflight_primary_bytes": "NOT_RECOVERED_FROM_SCOPED_LOCAL_SEARCH",
+          "registered_library_handle": "libfile_af25a9c60db88191b46b0f343fe50e09",
+          "library_handle_reverified": false,
+          "presentation_assertions_source": "canon/characters/lineup_2026_10_18/CHAR-ZACH-WILSON.json"
         },
         {
           "character_id": "CHAR-JAKE-KALOPER",
@@ -480,7 +484,11 @@
           "comparison_crop_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "preflight_primary_bytes": "NOT_RECOVERED_FROM_SCOPED_LOCAL_SEARCH",
+          "registered_library_handle": "libfile_ecc124baa0708191912ab17f4f18f840",
+          "library_handle_reverified": false,
+          "presentation_assertions_source": "canon/characters/lineup_2026_10_18/CHAR-JAKE-KALOPER.json"
         }
       ],
       "forbidden_mutations": [
@@ -555,6 +563,117 @@
       "outcome_alternatives": {
         "home_win": "Duckhook wins: ObiWan makes an increasingly embarrassing series of poor golf shots; Duckhook controls his course and wins; visibly anguished ObiWan",
         "away_win": "ObiWan wins: Duckhook misses embarrassing decisive putt/approach toward the water hazard while ObiWan finishes steadily; defeated Duckhook registers the blow"
+      },
+      "proof_preparation": {
+        "preparation_state": "COPY_AND_SPATIAL_BLOCKING_PREPARED__REFERENCE_AND_FACT_GATES_OPEN",
+        "study_mode": "NEUTRAL_ACTION_STUDY_ONLY_UNTIL_RESULT_BRANCH_SELECTION",
+        "headline": "A Round of Answers",
+        "deck": "A charity invitation. A familiar rival. Nothing casual about the round.",
+        "body_copy": "The invitation promised a morning for a good cause. The round exposed less charitable intentions. Duckhook knew every ridge of his own course; ObiWan had returned with a memory the host would rather forget. A clean strike earned a glance. A ball in the rough earned silence. By the time they walked toward the green, the autumn light was still beautiful. Neither man was looking at it.",
+        "copy_classification": "FICTIONAL_DRAFT_NOT_FACT_LOCK_OR_PUBLISHED_COPY",
+        "sports_insert": {
+          "text": null,
+          "required_after_final": "One verified starter/lineup cause tied to the winning/losing golf sequence; no invented stroke totals or false real-world charity receipts."
+        },
+        "layout": {
+          "canvas": [
+            1080,
+            1920
+          ],
+          "safe_margin_px": 60,
+          "headline_zone": [
+            60,
+            60,
+            960,
+            180
+          ],
+          "vignette_zones": [
+            [
+              60,
+              270,
+              960,
+              370
+            ],
+            [
+              60,
+              665,
+              960,
+              370
+            ],
+            [
+              60,
+              1060,
+              960,
+              370
+            ]
+          ],
+          "copy_zone": [
+            60,
+            1480,
+            960,
+            370
+          ],
+          "reading_order": "TOP_TO_BOTTOM; identical characters recur across sequential moments, not simultaneous clones",
+          "type_target_px": {
+            "headline": 66,
+            "body": 34
+          },
+          "phone_scale_test_pending": true,
+          "text_fit_metrics": {
+            "engine": "macOS AppKit",
+            "font": "Arial 34; line height 43",
+            "measured_height": 309,
+            "phone_visual_QA": false,
+            "reserved_height": 370,
+            "text_fit": true
+          }
+        },
+        "action_blocks": [
+          {
+            "beat": "TEE",
+            "framing": "Wide three-quarter fairway view; club and follow-through clear of faces",
+            "action": "Duckhook completes a balanced driver follow-through. ObiWan stands off the swing arc at the rear tee marker, watching the same ball flight.",
+            "contact": "Both hands visibly share one golf-club grip; one club shaft, no duplicated arm. Ball has left the tee, no impact spark.",
+            "axis": "Fairway runs lower-left to upper-right; clubhouse on horizon left, pond right.",
+            "neutrality": "Ball trajectory does not establish a score, winner, or collapse."
+          },
+          {
+            "beat": "RECOVERY",
+            "framing": "Medium side view of ObiWan at bunker edge; Duckhook beyond safe swing space",
+            "action": "ObiWan makes a sand recovery stroke, knees flexed and torso rotating; sand fan and the released ball separate clearly from his club.",
+            "contact": "Boots planted at different depths; hands hold one club, green sword stays sheathed and does not substitute for equipment.",
+            "axis": "Same fairway direction and pond side; golden retriever stays outside the play corridor if shown.",
+            "neutrality": "The proof shows the attempt, not confirmed success or humiliation."
+          },
+          {
+            "beat": "READING_THE_GREEN",
+            "framing": "Low greenside two-shot; readable duck bill and youthful human face",
+            "action": "One golfer crouches to read the line while the other stands back with a putter; their attention converges on one stationary ball.",
+            "contact": "No hand/club overlaps an eye or bill. Putter head contacts ground beside ball, not a winning stroke.",
+            "axis": "Flag uphill in middle distance; short apron visibly slopes toward pond on right.",
+            "neutrality": "No sunk ball, trophy, scoreboard victory or despair before result selection."
+          }
+        ],
+        "outcome_application": {
+          "home_win": "For the released version only, choose poor ObiWan recovery/putt outcomes and controlled Duckhook responses after verified results.",
+          "away_win": "For the released version only, strengthen ObiWan execution and reserve Duckhook water-hazard humiliation for P07, after verified results."
+        },
+        "atlas_disposition": {
+          "parent": "LOC-COUNTRY-CLUB-JACKSON",
+          "path": "Existing-location reuse and temporary event dressing; no new LOC or institution",
+          "event_staging": "Removable charity signs, existing tee/bunker/green; no invented sponsor or real donations.",
+          "continuity": "Earlier chili contamination is historical. The selected playable corridor may be dressed for this fictional event, but whole-estate restoration is not asserted. Preserve any established scars if visible.",
+          "map_mutation": false,
+          "independent_acceptance": false
+        },
+        "failure_focus": [
+          "Unrecognizable repeated character",
+          "More or fewer limbs/club shafts",
+          "All panels are the same pose",
+          "Pond changes sides without establishing shot",
+          "Tiny panels/copy at 390px",
+          "Unverified winner inferred from neutral study"
+        ]
       }
     },
     {
@@ -2395,7 +2514,11 @@
           "comparison_crop_sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "preflight_primary_bytes": "NOT_RECOVERED_FROM_SCOPED_LOCAL_SEARCH",
+          "registered_library_handle": "libfile_f330daf3bae0819198b6008d67fecc51",
+          "library_handle_reverified": false,
+          "presentation_assertions_source": "canon/characters/lineup_2026_10_18/CHAR-JORDAN-HOLLINGSHEAD.json"
         },
         {
           "character_id": "CHAR-PHILLIP-PITTS",
@@ -2405,7 +2528,11 @@
           "comparison_crop_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "preflight_primary_bytes": "HASH_MATCH_PRESENT_NOT_MOUNTED",
+          "registered_library_handle": "libfile_68a2173146888191bbae1160bb9972d2",
+          "library_handle_reverified": false,
+          "presentation_assertions_source": "canon/characters/lineup_2026_10_18/CHAR-PHILLIP-PITTS.json"
         }
       ],
       "forbidden_mutations": [
@@ -2449,7 +2576,7 @@
         "next": "W09-P21"
       },
       "rhythm_function": "Both contestants make choices; do not freeze loser in place.",
-      "mobile_risk": "Require legibility at 390px; never shrink six golf panels into unreadable tiles; preserve decisive contact/paint/ball placement",
+      "mobile_risk": "All three protected TDS heads, Slob facial identity, marker/cover separation and paint impacts must remain distinguishable at 390px; do not reuse golf-specific QA text.",
       "output_format": "PNG",
       "output_width_px": 1080,
       "output_height_px": 1920,
@@ -2480,6 +2607,119 @@
       "outcome_alternatives": {
         "home_win": "Slob wins: final third-person winner-shoulder slide/aim shows TDS fully struck by multiple paint splatters",
         "away_win": "Three Dreaded Snake wins: final third-person winner-shoulder slide/aim shows Slob hit by multiple paint splatters"
+      },
+      "proof_preparation": {
+        "preparation_state": "COPY_AND_SPATIAL_BLOCKING_PREPARED__REFERENCE_ATLAS_AND_FACT_GATES_OPEN",
+        "study_mode": "NEUTRAL_ENGAGEMENT_NO_ELIMINATION",
+        "headline": "No Safe Corner",
+        "deck": "Two contenders. Moving cover. No comfortable position.",
+        "body_copy": "The first volley stripped the comfort out of cover. Slob drove forward between the trees while TDS watched the openings from three different angles. Paint snapped against the bunkers. A shoulder appeared, vanished, then appeared somewhere else. Neither competitor could afford to wait for a perfect shot. Every move gained ground and surrendered protection. Somewhere beyond the next barrier, one clean angle was waiting.",
+        "copy_classification": "FICTIONAL_DRAFT_NOT_FACT_LOCK_OR_PUBLISHED_COPY",
+        "sports_insert": {
+          "text": null,
+          "required_after_final": "Verified player/lineup pressure; no made-up hits, elimination or final score."
+        },
+        "layout": {
+          "canvas": [
+            1080,
+            1920
+          ],
+          "safe_margin_px": 60,
+          "headline_zone": [
+            60,
+            60,
+            960,
+            180
+          ],
+          "vignette_zones": [
+            [
+              60,
+              270,
+              960,
+              780
+            ],
+            [
+              60,
+              1075,
+              470,
+              355
+            ],
+            [
+              550,
+              1075,
+              470,
+              355
+            ]
+          ],
+          "copy_zone": [
+            60,
+            1480,
+            960,
+            370
+          ],
+          "reading_order": "Dominant continuous action frame then two temporal detail inserts",
+          "type_target_px": {
+            "headline": 66,
+            "body": 34
+          },
+          "phone_scale_test_pending": true,
+          "text_fit_metrics": {
+            "engine": "macOS AppKit",
+            "font": "Arial 34; line height 43",
+            "measured_height": 353,
+            "phone_visual_QA": false,
+            "reserved_height": 370,
+            "text_fit": true
+          }
+        },
+        "action_blocks": [
+          {
+            "beat": "CROSSING_LANE",
+            "framing": "Low west-sideline wide, anchored behind cover rather than behind a presumed winner",
+            "action": "Slob moves from the southwest cylindrical bunker toward central low cover. TDS leans from a northeast wedge, three protected heads separated against a clean background.",
+            "contact": "Slob’s leading foot presses turf; his supporting hand steadies the marker. TDS has only one pair of arms and one marker, not three armed bodies.",
+            "axis": "Slob left/near; TDS right/far; common open middle lane. Tree line and distant camp stay north/back.",
+            "impact": "Paint hits the inflatable cover, never either player. No elimination cue."
+          },
+          {
+            "beat": "SLOB_SLIDE_DETAIL",
+            "framing": "Medium sideline inset; no faceless helmet crop",
+            "action": "Slob lowers into a short slide behind central cover; heavy body compresses clothing and scuffs grass while face protection stays in place.",
+            "contact": "Legs remain connected and direction of soil spray follows motion. Preserve current October18 heavyset human presentation, not old horned redesign text.",
+            "axis": "Movement continues left-to-right from the dominant frame.",
+            "impact": "Incoming paint splashes the cover edge, not his visor."
+          },
+          {
+            "beat": "TDS_COUNTER_MOVE",
+            "framing": "Medium cover-edge inset showing all three head silhouettes",
+            "action": "TDS changes from northeast wedge to adjacent rear tree cover; central head tracks lane while outer heads check flanks.",
+            "contact": "Three head-specific face protections, visible neck continuity, two feet and one shared body. Marker stays below head silhouettes.",
+            "axis": "Facing left toward Slob with background tree line unchanged.",
+            "impact": "TDS remains unhit; neither side is declared superior."
+          }
+        ],
+        "outcome_application": {
+          "home_win": "P21 alone selects Slob as the sliding victor and TDS downrange with paint on masks/body after final verification.",
+          "away_win": "P21 alone selects TDS as the sliding victor and Slob downrange with paint on mask/body after final verification."
+        },
+        "atlas_disposition": {
+          "parent": "LOC-SLOB-FOOTHILL-CAMP",
+          "path": "Path B sub-location plus TEMPORARY_EVENT_SITE inside existing rough training ground, not remote Dye War Fields",
+          "event_staging": "Moveable inflatable covers and sporting paintball equipment are explicit Founder scene requests. Mark as proposed narrow Week9 visual exception, not global technology change.",
+          "continuity": "No permanent walls, relocated town or invented regional transport. Course remains a bounded event layout.",
+          "map_mutation": false,
+          "technology_exception": "REQUEST_SOURCE_CONFIRMED__PRODUCTION_APPROVAL_NOT_VERIFIED",
+          "independent_acceptance": false
+        },
+        "failure_focus": [
+          "Fewer/more than three TDS heads",
+          "Three bodies or extra arms",
+          "Old Slob horns or species silently substituted for latest approved presentation",
+          "Unsafe missing face protection",
+          "Paint trajectory crosses solid cover",
+          "Winner/loser implication on P20",
+          "Small masks/head silhouettes at 390px"
+        ]
       }
     },
     {
