@@ -1,0 +1,41 @@
+# Week 9 — Memo OS Working Index and Continuation
+
+**League:** ESPN 1417621 · 2026 · Week 9  
+**Owner:** Existing Bullpen / Memo OS, editorial Issue [#276](https://github.com/jakekaloper-hub/schemin-26/issues/276); upstream source-steward incident [#268](https://github.com/jakekaloper-hub/schemin-26/issues/268).  
+**Current status:** `CREATIVE_INTERVIEW_RECORDED / PREVIS_CANDIDATES_PREPARED / CANONICAL_SNAPSHOT_LOCK_BLOCKED / FACT_LOCK_BLOCKED / NOT_RELEASED`.  
+**Not a new OS or a new mission.**
+
+## Start here (this week's authorized editorial workflow)
+
+1. [**Commissioner six-matchup creative-context capture**](./WEEK_9_COMMISSIONER_QUESTIONNAIRE_CREATIVE_CONTEXT_2026-11-08.md) — actual Founder selections, six distinct sporting events, dual-outcome requirements, delegated remaining creative decisions, continuity and technology exceptions.
+2. [**Six-duel machine-readable previsualization candidates**](./WEEK_9_SIX_MATCHUP_COMMISSIONER_PREVIS_CANDIDATES_2026-11-08.json) — owner/team IDs, 6/6 home-away pairings, proposed venues, physical actions, reference-method panel, risks and **12 conditional winner branches**. The packet is a candidate input, not a promoted story or actual rendered pages.
+3. [**Phase 1–3 Story Room → Previs handoff**](./WEEK_9_PHASE_1_2_3_STORYROOM_HANDOFF_2026-11-08.md) — reuses earlier history and current league data; gives team-resolved editorial decisions, six shot-progression rows, full-issue editorial architecture, task owners, next command, exact blocked gates.
+4. **Data snapshot and reconciliation:** [November 8 intake and typed stewardship hold](./WEEK_8_FINAL_WEEK_9_V52RC_INTAKE_2026-11-08.md), [provider-normalized evidence](./WEEK_8_FINAL_WEEK_9_PROVIDER_EVIDENCE_2026-11-08.json), [transaction/full-row diff](./WEEK_8_FINAL_WEEK_9_ROW_DIFF_2026-11-08.json). This snapshot can be superseded by newer source intake. Independently certified Fact Lock **does not yet exist**.
+
+## Reuse the pre-existing developmental records
+
+- Issue #276 [retrospective, six historical rivalry sweeps, GOTW, cover/Opening Drive, W10–14 fixture intelligence, Week 6/7/8 quality findings, Nov 8 corrections](https://github.com/jakekaloper-hub/schemin-26/issues/276), including the [Founder creative questionnaire comment](https://github.com/jakekaloper-hub/schemin-26/issues/276#issuecomment-6725088233). This issue is the editorial mission, not a competing workflow.
+- [Memo OS index](../_INDEX.md) and [V5.5 integrated preproduction](../SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md). Active cross-OS run remains V5.2-RC; no promotion inferred.
+- [Week 6 real cinematic benchmark](../creative-dna/WEEK_6_2026_REVIEWED_ISSUE_VISUAL_BENCHMARK.md), [Week 6 spatial scene previsualization](../week-6/WEEK_6_SIX_ENCOUNTER_SPATIAL_PREVIS_2026-10-18.md); [Week 7 Inklings activation and status caveats](../week-7/WEEK_7_INKLINGS_SHADOW_WORKSHOP_ACTIVATION_2026-10-26.md).
+- [Current twelve-character reference authority](../../canon/_INDEX.md), [world geography](../../world/atlas/ATLAS_V1.md) and [pre-modern technology control](../../world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md).
+- [Eight published-method Inklings](../../living-novel/consultants/author-council/_INDEX.md) and [twelve published-method cinematography specialists](../cinematography/PRODUCTION_SPECIALIST_REFERENCE_BENCH_V1.json). They are not living/human attending agents or proof of an authenticated Bullpen meeting.
+
+## Continuing production order
+
+```text
+PRIOR WEEK 8 VERIFIED RESULTS + WEEK 9 ESPN SNAPSHOT (PROVISIONAL)
+  -> SOURCE/STEWARD #268 (FACT_LOCK BLOCKED)
+  -> W9 HISTORICAL + RIVALRY + PERSONALIZED INTELLIGENCE (ALREADY HARVESTED IN #276)
+  -> COMMISSIONER INTERVIEW (RECORDED, NO MORE QUESTIONS)
+  -> INKLINGS + PRODUCTION DECISION SYNTHESIS (CANDIDATE)
+  -> SIX SPORTS+STORY CARDS + DUAL-OUTCOME VISUAL SCREENPLAYS (CANDIDATES)
+  -> CHARACTER/ATLAS/ROUTE/TECH RESOLUTION (UNVERIFIED)
+  -> COMPLETE-ISSUE SPORTS DESK + NONRENDERED PREVIS (NEXT INTERNAL DELIVERABLE)
+  -> VERIFIED WEEK 9 FINAL + PLAYER CAUSES + FACT_LOCK
+  -> STORY_LOCK / CHARACTER_PACKET_LOCK / PAGE PACKETS
+  -> 2 PROOF PAGES + FINAL RASTER QA / 1080x1920 MOBILE QA
+  -> ALL PAGE LOCKS -> FINAL PDF -> INDEPENDENT BLIND RELEASE AUDIT
+  -> FOUNDER FINAL VISUAL APPROVAL -> PUBLICATION / ARCHIVE / WORLD STATE
+```
+
+**Future new thread:** Load this index and the three linked Week 9 candidate inputs first. Do not ask the Founder to repeat the six scene ideas or reopen decisions delegated to the Inklings/production team. For genuine policy or canon conflict, provide an Atlas-owned resolution and narrowly escalate only if necessary. No image generation is authorized by this index.
