@@ -1,0 +1,43 @@
+{
+  "review_type": "SIMULATED_INDEPENDENT_BULLPEN_VISUAL_REVIEW",
+  "frame": "mrq_frames/Commonwealth_0000.png",
+  "actual_frame_inspected": true,
+  "technical": {
+    "png_valid": true,
+    "resolution": [
+      640,
+      360
+    ],
+    "render_engine": "Unreal Movie Render Queue",
+    "status": "PASS"
+  },
+  "visual": {
+    "status": "FAIL",
+    "observations": [
+      "Frame consists of blue sky gradient",
+      "No visible terrain or identifiable Commonwealth landmarks",
+      "No readable foreground/midground/background environment composition",
+      "No demonstrated geographic fidelity or visual story"
+    ],
+    "probable_causes": [
+      "CineCameraActor rotation/target framing",
+      "Sequencer camera-cut binding or shot-camera transform"
+    ],
+    "diagnosis_status": "HYPOTHESES_NOT_YET_VERIFIED"
+  },
+  "panel": {
+    "visual_direction": "REJECT",
+    "architect": "REQUIRES_CAMERA_DEBUG",
+    "world_engine": "NO_CANON_FIDELITY_EVIDENCE",
+    "umpire": "SIMULATED_HOLD_NOT_FORMAL_SIGNOFF"
+  },
+  "next_actions": [
+    "Inspect camera world location and orientation against geometry bounds",
+    "Verify Sequencer camera binding and active camera-cut track",
+    "Reframe camera toward region geometry and include foreground/midground",
+    "Render new single-frame test using valid game-world pipeline",
+    "Visually inspect re-render; require visible world features before advancing"
+  ],
+  "publication": "HOLD",
+  "canonical_promotion": false
+}

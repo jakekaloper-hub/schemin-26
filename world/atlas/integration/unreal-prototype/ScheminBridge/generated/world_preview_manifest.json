@@ -1,0 +1,491 @@
+{
+  "schema_version": "0.1",
+  "kind": "UNREAL_WORLD_PREVIEW_NOT_CANON",
+  "source_repository": "jakekaloper-hub/schemin-26",
+  "source_commit": "7afe7ef0fcf24e25d67ca8c85d4e6e36e03a78e3",
+  "source_sha256": "d3aa0d5fca9bf120ad8f1ecc6267f0cbce54bdf83b8117c0328c8d13cd0aeaeb",
+  "coordinate_space": "schemin-local-v1 (abstract, non-metric)",
+  "locations": [
+    {
+      "id": "LOC-ARSENAL-BARBERSHOP",
+      "name": "Arsenal Barbershop",
+      "source_classification": "PERMANENT_CANON",
+      "render_classification": "CANON_SOURCE_PREVIEW",
+      "region": "REG-UPPER-VALLEYS",
+      "owner_character_id": "CHAR-WILSON-LOOK",
+      "atlas_position_abstract": [
+        51,
+        59
+      ],
+      "landmarks": [
+        "barber chair",
+        "Arsenal-red owner history"
+      ],
+      "unreal_map_name": "Atlas_LOC_ARSENAL_BARBERSHOP",
+      "characters_allowed": false,
+      "spatial_scale_approved": false,
+      "world_state_writeback": false
+    },
+    {
+      "id": "LOC-BELT-KEEPER-KEEP",
+      "name": "Belt Keeper Rune Keep",
+      "source_classification": "PROVISIONAL_CANON",
+      "render_classification": "PROVISIONAL_PREVIEW",
+      "region": "REG-EASTERN-STORM-COAST",
+      "owner_character_id": "CHAR-AUSTIN-BYARS",
+      "atlas_position_abstract": [
+        73,
+        76
+      ],
+      "landmarks": [
+        "dark keep",
+        "championship hall"
+      ],
+      "unreal_map_name": "Atlas_LOC_BELT_KEEPER_KEEP",
+      "characters_allowed": false,
+      "spatial_scale_approved": false,
+      "world_state_writeback": false
+    },
+    {
+      "id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "name": "Bridge at the Mountain Lake",
+      "source_classification": "PROVISIONAL_CANON",
+      "render_classification": "PROVISIONAL_PREVIEW",
+      "region": "REG-UPPER-VALLEYS",
+      "owner_character_id": null,
+      "atlas_position_abstract": [
+        64,
+        66
+      ],
+      "landmarks": [
+        "stone bridge",
+        "lake",
+        "jump point"
+      ],
+      "unreal_map_name": "Atlas_LOC_BRIDGE_MOUNTAIN_LAKE",
+      "characters_allowed": false,
+      "spatial_scale_approved": false,
+      "world_state_writeback": false
+    },
+    {
+      "id": "LOC-CHILI-STABLE",
+      "name": "Chili Outlaw Stable",
+      "source_classification": "PERMANENT_CANON",
+      "render_classification": "CANON_SOURCE_PREVIEW",
+      "region": "REG-WESTERN-TABLELANDS",
+      "owner_character_id": "CHAR-BRANDON-PRYOR",
+      "atlas_position_abstract": [
+        15,
+        45
+      ],
+      "landmarks": [
+        "stable",
+        "pit smoke",
+        "Dark Horse enclosure"
+      ],
+      "unreal_map_name": "Atlas_LOC_CHILI_STABLE",
+      "characters_allowed": false,
+      "spatial_scale_approved": false,
+      "world_state_writeback": false
+    },
+    {
+      "id": "LOC-CHINS-ROAD-COMMONS",
+      "name": "People's Champ Road Commons",
+      "source_classification": "PROVISIONAL_CANON",
+      "render_classification": "PROVISIONAL_PREVIEW",
+      "region": "REG-CENTRAL-BASIN",
+      "owner_character_id": "CHAR-BEN-WHIPPLE",
+      "atlas_position_abstract": [
+        50,
+        43
+      ],
+      "landmarks": [
+        "roadside hall",
+        "BBQ yard",
+        "caravan court"
+      ],
+      "unreal_map_name": "Atlas_LOC_CHINS_ROAD_COMMONS",
+      "characters_allowed": false,
+      "spatial_scale_approved": false,
+      "world_state_writeback": false
+    },
+    {
+      "id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "name": "Compact Neutral Grounds",
+      "source_classification": "PROVISIONAL_CANON",
+      "render_classification": "PROVISIONAL_PREVIEW",
+      "region": "REG-CENTRAL-BASIN",
+      "owner_character_id": null,
+      "atlas_position_abstract": [
+        60,
+        46
+      ],
+      "landmarks": [
+        "open ceremonial field",
+        "arbiter pavilion",
+        "arrival roads"
+      ],
+      "unreal_map_name": "Atlas_LOC_COMPACT_NEUTRAL_GROUNDS",
+      "characters_allowed": false,
+      "spatial_scale_approved": false,
+      "world_state_writeback": false
+    },
+    {
+      "id": "LOC-COUNTRY-CLUB-JACKSON",
+      "name": "Country Club of Jackson",
+      "source_classification": "PERMANENT_CANON",
+      "render_classification": "CANON_SOURCE_PREVIEW",
+      "region": "REG-SOUTHERN-WETLANDS",
+      "owner_character_id": "CHAR-ZACH-WILSON",
+      "atlas_position_abstract": [
+        57,
+        24
+      ],
+      "landmarks": [
+        "clubhouse",
+        "golf grounds",
+        "water hazards"
+      ],
+      "unreal_map_name": "Atlas_LOC_COUNTRY_CLUB_JACKSON",
+      "characters_allowed": false,
+      "spatial_scale_approved": false,
+      "world_state_writeback": false
+    },
+    {
+      "id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "name": "D0nkey K0ng Highland Stronghold",
+      "source_classification": "INTERPRETIVE_CANON",
+      "render_classification": "INTERPRETIVE_PREVIEW",
+      "region": "REG-UPPER-VALLEYS",
+      "owner_character_id": "CHAR-WILSON-LOOK",
+      "atlas_position_abstract": [
+        48,
+        68
+      ],
+      "landmarks": [
+        "highland stronghold",
+        "training court",
+        "road approach"
+      ],
+      "unreal_map_name": "Atlas_LOC_DK_HIGHLAND_STRONGHOLD",
+      "characters_allowed": false,
+      "spatial_scale_approved": false,
+      "world_state_writeback": false
+    },
+    {
+      "id": "LOC-DK-MUD-HILL",
+      "name": "Mire Hill Battlefield",
+      "source_classification": "PROVISIONAL_CANON",
+      "render_classification": "PROVISIONAL_PREVIEW",
+      "region": "REG-CENTRAL-BASIN",
+      "owner_character_id": null,
+      "atlas_position_abstract": [
+        40,
+        47
+      ],
+      "landmarks": [
+        "hill",
+        "mire",
+        "battle standards"
+      ],
+      "unreal_map_name": "Atlas_LOC_DK_MUD_HILL",
+      "characters_allowed": false,
+      "spatial_scale_approved": false,
+      "world_state_writeback": false
+    },
+    {
+      "id": "LOC-LEAGUE-ARCHIVE",
+      "name": "League Archive",
+      "source_classification": "INTERPRETIVE_CANON",
+      "render_classification": "INTERPRETIVE_PREVIEW",
+      "region": "REG-CENTRAL-BASIN",
+      "owner_character_id": null,
+      "atlas_position_abstract": [
+        55,
+        50
+      ],
+      "landmarks": [
+        "record halls",
+        "ledger vaults",
+        "courier court"
+      ],
+      "unreal_map_name": "Atlas_LOC_LEAGUE_ARCHIVE",
+      "characters_allowed": false,
+      "spatial_scale_approved": false,
+      "world_state_writeback": false
+    },
+    {
+      "id": "LOC-LEAGUE-CHAMBER",
+      "name": "League Chamber",
+      "source_classification": "PROVISIONAL_CANON",
+      "render_classification": "PROVISIONAL_PREVIEW",
+      "region": "REG-CENTRAL-BASIN",
+      "owner_character_id": null,
+      "atlas_position_abstract": [
+        56,
+        47
+      ],
+      "landmarks": [
+        "records desk",
+        "map wall"
+      ],
+      "unreal_map_name": "Atlas_LOC_LEAGUE_CHAMBER",
+      "characters_allowed": false,
+      "spatial_scale_approved": false,
+      "world_state_writeback": false
+    },
+    {
+      "id": "LOC-LLC-BOARDROOM",
+      "name": "LLC Mercantile Boardroom",
+      "source_classification": "PERMANENT_CANON",
+      "render_classification": "CANON_SOURCE_PREVIEW",
+      "region": "REG-INNER-SEA-LITTORAL",
+      "owner_character_id": "CHAR-DAVID-BABB",
+      "atlas_position_abstract": [
+        78,
+        18
+      ],
+      "landmarks": [
+        "executive chamber",
+        "ledgers",
+        "market overlook"
+      ],
+      "unreal_map_name": "Atlas_LOC_LLC_BOARDROOM",
+      "characters_allowed": false,
+      "spatial_scale_approved": false,
+      "world_state_writeback": false
+    },
+    {
+      "id": "LOC-LLC-STORM-CITY",
+      "name": "LLC Port City Storm District",
+      "source_classification": "PROVISIONAL_CANON",
+      "render_classification": "PROVISIONAL_PREVIEW",
+      "region": "REG-INNER-SEA-LITTORAL",
+      "owner_character_id": "CHAR-DAVID-BABB",
+      "atlas_position_abstract": [
+        83,
+        20
+      ],
+      "landmarks": [
+        "mercantile towers",
+        "storm barriers"
+      ],
+      "unreal_map_name": "Atlas_LOC_LLC_STORM_CITY",
+      "characters_allowed": false,
+      "spatial_scale_approved": false,
+      "world_state_writeback": false
+    },
+    {
+      "id": "LOC-MUD-DOGS-SWAMP",
+      "name": "Mud Dogs Swamp",
+      "source_classification": "PERMANENT_CANON",
+      "render_classification": "CANON_SOURCE_PREVIEW",
+      "region": "REG-SOUTHERN-WETLANDS",
+      "owner_character_id": "CHAR-BOBBY-MITCHELL",
+      "atlas_position_abstract": [
+        42,
+        16
+      ],
+      "landmarks": [
+        "mud channels",
+        "raised ground"
+      ],
+      "unreal_map_name": "Atlas_LOC_MUD_DOGS_SWAMP",
+      "characters_allowed": false,
+      "spatial_scale_approved": false,
+      "world_state_writeback": false
+    },
+    {
+      "id": "LOC-PITTSYS-BOOK",
+      "name": "Pittsy's Book",
+      "source_classification": "PROVISIONAL_CANON",
+      "render_classification": "PROVISIONAL_PREVIEW",
+      "region": "REG-CENTRAL-BASIN",
+      "owner_character_id": "CHAR-PHILLIP-PITTS",
+      "atlas_position_abstract": [
+        54,
+        40
+      ],
+      "landmarks": [
+        "ledger boards",
+        "settlement desk"
+      ],
+      "unreal_map_name": "Atlas_LOC_PITTSYS_BOOK",
+      "characters_allowed": false,
+      "spatial_scale_approved": false,
+      "world_state_writeback": false
+    },
+    {
+      "id": "LOC-RED-RUINS",
+      "name": "Red Leopard Ruins",
+      "source_classification": "PERMANENT_CANON",
+      "render_classification": "CANON_SOURCE_PREVIEW",
+      "region": "REG-EASTERN-STORM-COAST",
+      "owner_character_id": "CHAR-KEVIN-ZEEK",
+      "atlas_position_abstract": [
+        75,
+        61
+      ],
+      "landmarks": [
+        "jungle ruins",
+        "predator banners"
+      ],
+      "unreal_map_name": "Atlas_LOC_RED_RUINS",
+      "characters_allowed": false,
+      "spatial_scale_approved": false,
+      "world_state_writeback": false
+    },
+    {
+      "id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "name": "Alpine Wager Route",
+      "source_classification": "PROVISIONAL_CANON",
+      "render_classification": "PROVISIONAL_PREVIEW",
+      "region": "REG-NORTHERN-SPINE",
+      "owner_character_id": null,
+      "atlas_position_abstract": [
+        45,
+        82
+      ],
+      "landmarks": [
+        "summit",
+        "base camp",
+        "wager marker"
+      ],
+      "unreal_map_name": "Atlas_LOC_RED_SLOB_ALPINE_ROUTE",
+      "characters_allowed": false,
+      "spatial_scale_approved": false,
+      "world_state_writeback": false
+    },
+    {
+      "id": "LOC-SLOB-FOOTHILL-CAMP",
+      "name": "Slob Foothill Camp",
+      "source_classification": "PROVISIONAL_CANON",
+      "render_classification": "PROVISIONAL_PREVIEW",
+      "region": "REG-UPPER-VALLEYS",
+      "owner_character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "atlas_position_abstract": [
+        37,
+        62
+      ],
+      "landmarks": [
+        "tailgate yard",
+        "rough training ground"
+      ],
+      "unreal_map_name": "Atlas_LOC_SLOB_FOOTHILL_CAMP",
+      "characters_allowed": false,
+      "spatial_scale_approved": false,
+      "world_state_writeback": false
+    },
+    {
+      "id": "LOC-SOUTHERN-SPEEDWAY",
+      "name": "Southern Speedway",
+      "source_classification": "PROVISIONAL_CANON",
+      "render_classification": "PROVISIONAL_PREVIEW",
+      "region": "REG-CENTRAL-BASIN",
+      "owner_character_id": null,
+      "atlas_position_abstract": [
+        47,
+        35
+      ],
+      "landmarks": [
+        "oval/race course",
+        "grandstand"
+      ],
+      "unreal_map_name": "Atlas_LOC_SOUTHERN_SPEEDWAY",
+      "characters_allowed": false,
+      "spatial_scale_approved": false,
+      "world_state_writeback": false
+    },
+    {
+      "id": "LOC-STORM-BOWL",
+      "name": "Storm Bowl",
+      "source_classification": "PROVISIONAL_CANON",
+      "render_classification": "PROVISIONAL_PREVIEW",
+      "region": "REG-EASTERN-STORM-COAST",
+      "owner_character_id": "CHAR-MANNING-WELTY",
+      "atlas_position_abstract": [
+        84,
+        43
+      ],
+      "landmarks": [
+        "weather-exposed venue",
+        "service counter"
+      ],
+      "unreal_map_name": "Atlas_LOC_STORM_BOWL",
+      "characters_allowed": false,
+      "spatial_scale_approved": false,
+      "world_state_writeback": false
+    },
+    {
+      "id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "name": "TDS\u2013Chili Shared March",
+      "source_classification": "INTERPRETIVE_CANON",
+      "render_classification": "INTERPRETIVE_PREVIEW",
+      "region": "REG-WESTERN-TABLELANDS",
+      "owner_character_id": null,
+      "atlas_position_abstract": [
+        28,
+        42
+      ],
+      "landmarks": [
+        "mixed caravan settlement",
+        "watercourse crossing",
+        "stable-and-market quarter"
+      ],
+      "unreal_map_name": "Atlas_LOC_TDS_CHILI_SHARED_MARCH",
+      "characters_allowed": false,
+      "spatial_scale_approved": false,
+      "world_state_writeback": false
+    },
+    {
+      "id": "LOC-TDS-WATERFALL-TEMPLE",
+      "name": "Podium Shadow Waterfall Temple",
+      "source_classification": "PERMANENT_CANON",
+      "render_classification": "CANON_SOURCE_PREVIEW",
+      "region": "REG-SOUTHERN-WETLANDS",
+      "owner_character_id": "CHAR-PHILLIP-PITTS",
+      "atlas_position_abstract": [
+        32,
+        29
+      ],
+      "landmarks": [
+        "waterfall",
+        "temple stone",
+        "dense vegetation"
+      ],
+      "unreal_map_name": "Atlas_LOC_TDS_WATERFALL_TEMPLE",
+      "characters_allowed": false,
+      "spatial_scale_approved": false,
+      "world_state_writeback": false
+    },
+    {
+      "id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "name": "Trade Jedi Mountain Base",
+      "source_classification": "PERMANENT_CANON",
+      "render_classification": "CANON_SOURCE_PREVIEW",
+      "region": "REG-UPPER-VALLEYS",
+      "owner_character_id": "CHAR-JAKE-KALOPER",
+      "atlas_position_abstract": [
+        69,
+        69
+      ],
+      "landmarks": [
+        "high ridge",
+        "war-room overlook"
+      ],
+      "unreal_map_name": "Atlas_LOC_TRADE_JEDI_MOUNTAIN_BASE",
+      "characters_allowed": false,
+      "spatial_scale_approved": false,
+      "world_state_writeback": false
+    }
+  ],
+  "regions": [
+    "REG-CENTRAL-BASIN",
+    "REG-EASTERN-STORM-COAST",
+    "REG-INNER-SEA-LITTORAL",
+    "REG-NORTHERN-SPINE",
+    "REG-SOUTHERN-WETLANDS",
+    "REG-UPPER-VALLEYS",
+    "REG-WESTERN-TABLELANDS"
+  ]
+}

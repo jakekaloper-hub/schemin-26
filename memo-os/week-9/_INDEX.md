@@ -54,3 +54,7 @@ PRIOR WEEK 8 VERIFIED RESULTS + WEEK 9 ESPN SNAPSHOT (PROVISIONAL)
 ```
 
 **Future new thread:** Load this index and the three linked Week 9 candidate inputs first. Do not ask the Founder to repeat the six scene ideas or reopen decisions delegated to the Inklings/production team. For genuine policy or canon conflict, provide an Atlas-owned resolution and narrowly escalate only if necessary. No image generation is authorized by this index.
+
+## Librarian storage repair — 2026-11-08
+
+Raw next-stage direction consultations formerly in `/tmp` are preserved in [production-evidence/direction-2026-11-08/](./production-evidence/direction-2026-11-08/). They remain advisory, including rejected responses; conclusions remain in issue #276. [Recovery manifest](../../archive/local-recovery/2026-11-08/README.md) maps historical local-only work and exclusions. GitHub is durable authority; local worktrees are execution copies, not an alternate archive. Continue P05/P20 proof-page clearance after preservation.

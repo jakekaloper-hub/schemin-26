@@ -1,0 +1,27 @@
+{
+  "state": "LOCAL_PRESERVATION_CHECKED_NOT_YET_REMOTE_VERIFIED",
+  "base": "543e6193eb649bb82c9d762ddeb4c50e94cd7e88",
+  "librarian_advisory": "LIBRARIAN_STORAGE_ADVISORY.json",
+  "source_file_readbacks": 275,
+  "copies": 266,
+  "existing_main_duplicates": 9,
+  "excluded_exported_media": 2,
+  "unpushed_history_bundles": 2,
+  "bundles_verified": true,
+  "required_suites": [
+    "mission",
+    "memo",
+    "world"
+  ],
+  "gate_command": "PATH=/opt/homebrew/opt/python@3.14/libexec/bin:$PATH python3 governance/repository-protection/merge_gate.py run --changed-file-list <listed changes>",
+  "gate_exit": 0,
+  "gate_log_sha256": "2a1d898124548a1ab747a2857e8a01759c8b5b3096650a500607e2455140a79b",
+  "no_old_worker_executed": true,
+  "no_local_sources_deleted": true,
+  "whitespace_policy": "historical bytes preserved; authored files checked separately",
+  "limitations": [
+    "third-party Unreal templates/external actors and engine installations remain local; no full standalone Unreal build claim",
+    "credentials/TLS material never uploaded",
+    "remote main verification still required before cleanup"
+  ]
+}

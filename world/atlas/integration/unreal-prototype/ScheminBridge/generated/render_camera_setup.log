@@ -1,0 +1,166 @@
+Opening shared memory
+Existing instance is the same age or newer
+Setting up bundled DotNet SDK
+/Users/jakekaloper/Desktop/Desktop - Jake’s MacBook Pro/UE_5.8/Engine/Binaries/ThirdParty/DotNet/10.0/mac-arm64
+Running dotnet Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.dll -Mode=ValidatePlatforms -OutputSDKs -AllPlatforms -project=/Users/jakekaloper/Developer/ai/Schemin_UE_Prototype/Schemin_UE_Prototype.uproject -log=/Users/jakekaloper/Library/Logs/Unreal Engine/Schemin_UE_PrototypeEditor/AutoSDKInfo.txt -verbose -timestamps
+Log file: /Users/jakekaloper/Library/Logs/Unreal Engine/Schemin_UE_PrototypeEditor/AutoSDKInfo.txt
+2026-10-22 21:24:29.822 UnrealEditor-Cmd[57675:17244274] [UE4] Shutdown handler: initialize.
+##PlatformValidate: Win64 INVALID <UNKNOWN>
+##PlatformValidate: Mac VALID 26.1.1
+##PlatformValidate: IOS VALID 26.1.1
+##PlatformValidate: Android INVALID r27c
+##PlatformValidate: Linux INVALID <UNKNOWN>
+##PlatformValidate: LinuxArm64 INVALID <UNKNOWN>
+##PlatformValidate: TVOS VALID 26.1.1
+##PlatformValidate: VisionOS VALID 26.1.1
+Unable to find required SDK version 'MainVersion' for platform Win64. Check your SDK.json files
+Unable to find required SDK version 'MainVersion' for platform Linux. Check your SDK.json files
+Unable to find required SDK version 'MainVersion' for platform LinuxArm64. Check your SDK.json files
+Trace written to file /Users/jakekaloper/Library/Application Support/Epic/UnrealBuildTool/Trace.uba with size 327b
+[2026.10.23-01.24.30:051][  0]LogInit: Display: Running engine for game: Schemin_UE_Prototype
+[2026.10.23-01.24.30:051][  0]LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+[2026.10.23-01.24.30:051][  0]LogTrace: Display: Control listening on port 37096
+[2026.10.23-01.24.30:051][  0]LogCsvProfiler: Display: Metadata set : platform="Mac"
+[2026.10.23-01.24.30:051][  0]LogCsvProfiler: Display: Metadata set : config="Development"
+[2026.10.23-01.24.30:051][  0]LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.8-CL-58902052"
+[2026.10.23-01.24.30:051][  0]LogCsvProfiler: Display: Metadata set : engineversion="5.8.4-58902052+++UE5+Release-5.8"
+[2026.10.23-01.24.30:051][  0]LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.8.4"
+[2026.10.23-01.24.30:051][  0]LogCsvProfiler: Display: Metadata set : os="macOS 26.6.2 25G83"
+[2026.10.23-01.24.30:051][  0]LogCsvProfiler: Display: Metadata set : cpu="Apple|Apple M3 Pro"
+[2026.10.23-01.24.30:051][  0]LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+[2026.10.23-01.24.30:051][  0]LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+[2026.10.23-01.24.30:051][  0]LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+[2026.10.23-01.24.30:051][  0]LogCsvProfiler: Display: Metadata set : asan="0"
+[2026.10.23-01.24.30:051][  0]LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+[2026.10.23-01.24.30:051][  0]LogCsvProfiler: Display: Metadata set : compacttset="0"
+[2026.10.23-01.24.30:051][  0]LogCsvProfiler: Display: Metadata set : commandline="" /Users/jakekaloper/Developer/ai/Schemin_UE_Prototype/Schemin_UE_Prototype.uproject -run=pythonscript -script=/Users/jakekaloper/Developer/ai/Schemin_UE_Prototype/ScheminBridge/unreal_render_camera_setup.py -unattended -nosplash -nullrhi""
+[2026.10.23-01.24.30:051][  0]LogCsvProfiler: Display: Metadata set : loginid="81867af708457b55e67f69b447d32b18"
+[2026.10.23-01.24.30:051][  0]LogCsvProfiler: Display: Metadata set : llm="0"
+[2026.10.23-01.24.30:051][  0]LogCsvProfiler: Display: Metadata set : zenstreaming="0"
+[2026.10.23-01.24.30:051][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+[2026.10.23-01.24.30:051][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+[2026.10.23-01.24.30:051][  0]LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+[2026.10.23-01.24.30:051][  0]LogConfig: Display: Loading VulkanPC ini files took 0.11 seconds
+[2026.10.23-01.24.30:051][  0]LogConfig: Display: Loading Unix ini files took 0.11 seconds
+[2026.10.23-01.24.30:051][  0]LogConfig: Display: Loading IOS ini files took 0.11 seconds
+[2026.10.23-01.24.30:051][  0]LogConfig: Display: Loading Mac ini files took 0.11 seconds
+[2026.10.23-01.24.30:051][  0]LogConfig: Display: Loading Android ini files took 0.11 seconds
+[2026.10.23-01.24.30:051][  0]LogConfig: Display: Loading Linux ini files took 0.12 seconds
+[2026.10.23-01.24.30:051][  0]LogConfig: Display: Loading TVOS ini files took 0.12 seconds
+[2026.10.23-01.24.30:051][  0]LogConfig: Display: Loading LinuxArm64 ini files took 0.12 seconds
+[2026.10.23-01.24.30:051][  0]LogConfig: Display: Loading Windows ini files took 0.03 seconds
+[2026.10.23-01.24.30:051][  0]LogConfig: Display: Loading VisionOS ini files took 0.02 seconds
+[2026.10.23-01.24.30:051][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.10.23-01.24.30:051][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.10.23-01.24.30:051][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.10.23-01.24.30:051][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.10.23-01.24.30:051][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.10.23-01.24.30:051][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.10.23-01.24.30:051][  0]LogAsyncCompilation: Display: MemorySharingInfo: UsedMemory=428689MiB, MaxMemoryAvailable=29696MiB
+[2026.10.23-01.24.30:051][  0]LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+[2026.10.23-01.24.30:051][  0]LogHAL: Display: Platform has ~ 18 GB [19327352832 / 34359738368 / 18], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.10.23-01.24.30:051][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.10.23-01.24.30:051][  0]LogObj: Display: Attempting to load config data for Default__DownlinkBandwidthManagerConfig before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.10.23-01.24.30:275][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.10.23-01.24.30:485][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+[2026.10.23-01.24.30:485][  0]LogCsvProfiler: Display: Metadata set : rhiname="Null"
+[2026.10.23-01.24.30:485][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2026.10.23-01.24.30:485][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="METAL_SM6"
+[2026.10.23-01.24.30:485][  0]LogCsvProfiler: Display: Metadata set : gpu=""
+[2026.10.23-01.24.30:485][  0]LogCsvProfiler: Display: Metadata set : gpudriver=""
+[2026.10.23-01.24.30:587][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2026.10.23-01.24.30:588][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2026.10.23-01.24.30:588][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2026.10.23-01.24.30:588][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2026.10.23-01.24.30:588][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2026.10.23-01.24.30:588][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.16
+[2026.10.23-01.24.30:588][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: liboo2texmac64.2.9.16.dylib
+[2026.10.23-01.24.30:597][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2026.10.23-01.24.30:597][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2026.10.23-01.24.30:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2026.10.23-01.24.30:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2026.10.23-01.24.30:717][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2026.10.23-01.24.30:717][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+[2026.10.23-01.24.30:717][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2026.10.23-01.24.30:717][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2026.10.23-01.24.30:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2026.10.23-01.24.30:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2026.10.23-01.24.30:776][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Android'
+[2026.10.23-01.24.30:809][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'VisionOS'
+[2026.10.23-01.24.30:809][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'VisionOSClient'
+[2026.10.23-01.24.30:809][  0]LogTargetPlatformManager: Display: Building Assets For MacEditor
+[2026.10.23-01.24.31:712][  0]LogTemp: Display: /Applications/Xcode.app/Contents/Developer
+
+[2026.10.23-01.24.31:757][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (2911 MiB)
+[2026.10.23-01.24.31:759][  0]LogZenServiceInstance: Display: Launching zen utility '/Users/jakekaloper/Desktop/Desktop - Jake’s MacBook Pro/UE_5.8/Engine/Binaries/Mac/zen service status'.
+[2026.10.23-01.24.32:166][  0]LogZenServiceInstance: Display: Writing plugin version info to '/Users/jakekaloper/Library/Application Support/Epic/UnrealEngine/Common/Zen/Install/zen_plugin_versions.json'
+[2026.10.23-01.24.32:166][  0]LogZenServiceInstance: Display: Read zen version cache file from '/Users/jakekaloper/Library/Application Support/Epic/UnrealEngine/5.8/Saved/Zen/zen.version', version: '5.8.13-202605190511-macosx-arm64-release-094f62c'
+[2026.10.23-01.24.32:167][  0]LogZenServiceInstance: Display: Read zen version cache file from '/Users/jakekaloper/Library/Application Support/Epic/UnrealEngine/Common/Zen/Install/zen.version', version: '5.8.13-202605190511-macosx-arm64-release-094f62c'
+[2026.10.23-01.24.32:167][  0]LogZenServiceInstance: Display: Installed service at '/Users/jakekaloper/Library/Application Support/Epic/UnrealEngine/Common/Zen/Install/zenserver' is up to date
+[2026.10.23-01.24.32:890][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+[2026.10.23-01.24.32:899][  0]LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at [::1] with namespace ue.ddc. Status: OK!.
+[2026.10.23-01.24.32:905][  0]LogDerivedDataCache: Display: /Users/jakekaloper/Library/Application Support/Epic/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.00ms. RandomReadSpeed=382.79MBs, RandomWriteSpeed=452.83MBs. Assigned SpeedClass 'Local'
+[2026.10.23-01.24.32:909][  0]LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+[2026.10.23-01.24.32:909][  0]LogShaderCompilers: Display: No distributed shader compiler controller found
+[2026.10.23-01.24.32:909][  0]LogShaderCompilers: Display: Using 8 local workers for shader compilation
+[2026.10.23-01.24.32:910][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Developer/ai/Schemin_UE_Prototype/Intermediate/ShaderAutogen/METAL_SM6/AutogenShaderHeaders.ush
+[2026.10.23-01.24.32:910][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.10.23-01.24.33:610][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2026.10.23-01.24.33:868][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.10.23-01.24.33:868][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.10.23-01.24.33:902][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="MacEditor"
+[2026.10.23-01.24.33:911][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.23-01.24.33:933][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2026.10.23-01.24.33:933][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2026.10.23-01.24.33:933][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2026.10.23-01.24.33:940][  0]LogMeshReduction: Display: HLOD mesh reduction module (r.ProxyLODMeshReductionModule) set to "ProxyLODMeshReduction" which doesn't exist.
+[2026.10.23-01.24.33:954][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2026.10.23-01.24.33:954][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2026.10.23-01.24.33:954][  0]LogMeshReduction: Display: No automatic mesh merging module available
+[2026.10.23-01.24.33:954][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2026.10.23-01.24.34:152][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2026.10.23-01.24.34:152][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2026.10.23-01.24.34:342][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2026.10.23-01.24.34:346][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 4.121 ms
+[2026.10.23-01.24.35:967][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.10.23-01.24.35:971][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.10.23-01.24.38:673][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.23-01.24.38:673][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.23-01.24.40:805][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PreLoad): 1 .ref files found, 1 referenced binaries
+[2026.10.23-01.24.40:805][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.10.23-01.24.40:806][  0]LogAssetRegistry: Display: FindShardedCacheFiles: 1 via .ref, 0 via migration fallback, 1 total
+[2026.10.23-01.24.40:806][  0]LogAssetRegistry: Display: LoadCacheFiles: loading 1 cache files, memory-mapping=enabled
+[2026.10.23-01.24.40:943][  0]LogAssetRegistry: Display: Asset registry cache read as 121.8 MiB from ../../../../../../Developer/ai/Schemin_UE_Prototype/Intermediate/CachedAssetRegistry/CachedAssetRegistry_0_52983D8A104A00ADCFF7E3A0D6165EBF.bin (memory-mapped=no, platform unsupported)
+[2026.10.23-01.24.40:943][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.138s loading caches from ../../../../../../Developer/ai/Schemin_UE_Prototype/Intermediate/CachedAssetRegistry.
+[2026.10.23-01.24.41:003][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.10.23-01.24.41:293][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2026.10.23-01.24.41:738][  0]LogCsvProfiler: Display: Metadata set : raytracing="0"
+[2026.10.23-01.24.43:134][  0]LogPython: Display: Running start-up script /Users/jakekaloper/Desktop/Desktop - Jake’s MacBook Pro/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... started...
+[2026.10.23-01.24.43:166][  0]LogPython: Display: Running start-up script /Users/jakekaloper/Desktop/Desktop - Jake’s MacBook Pro/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... took 31.227 ms
+[2026.10.23-01.24.43:166][  0]LogPython: Display: Running start-up script /Users/jakekaloper/Desktop/Desktop - Jake’s MacBook Pro/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2026.10.23-01.24.43:179][  0]LogPython: Display: Running start-up script /Users/jakekaloper/Desktop/Desktop - Jake’s MacBook Pro/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 13.404 ms (total: 44.632 ms)
+[2026.10.23-01.24.43:179][  0]LogPythonScriptCommandlet: Display: Running Python script: /Users/jakekaloper/Developer/ai/Schemin_UE_Prototype/ScheminBridge/unreal_render_camera_setup.py
+[2026.10.23-01.24.43:297][  0]LogPython: Warning: /Users/jakekaloper/Developer/ai/Schemin_UE_Prototype/ScheminBridge/unreal_render_camera_setup.py:8: DeprecationWarning: EditorLevelLibrary: Function 'get_all_level_actors' on 'EditorLevelLibrary' is deprecated: The Editor Scripting Utilities Plugin is deprecated - Use the function in Editor Actor Utilities Subsystem
+  actors=unreal.EditorLevelLibrary.get_all_level_actors()
+
+[2026.10.23-01.24.43:300][  0]LogPython: Warning: /Users/jakekaloper/Developer/ai/Schemin_UE_Prototype/ScheminBridge/unreal_render_camera_setup.py:13: DeprecationWarning: EditorLevelLibrary: Function 'save_current_level' on 'EditorLevelLibrary' is deprecated: The Editor Scripting Utilities Plugin is deprecated - Use the function in Level Editor Subsystem
+  unreal.EditorLevelLibrary.save_current_level()
+
+[2026.10.23-01.24.43:323][  0]LogPythonScriptCommandlet: Display: Python script executed successfully
+[2026.10.23-01.24.43:323][  0]LogInit: Display: 
+[2026.10.23-01.24.43:323][  0]LogInit: Display: Warning/Error Summary (Unique only)
+[2026.10.23-01.24.43:323][  0]LogInit: Display: -----------------------------------
+[2026.10.23-01.24.43:323][  0]LogInit: Display: LogPython: Warning: /Users/jakekaloper/Developer/ai/Schemin_UE_Prototype/ScheminBridge/unreal_render_camera_setup.py:8: DeprecationWarning: EditorLevelLibrary: Function 'get_all_level_actors' on 'EditorLevelLibrary' is deprecated: The Editor Scripting Utilities Plugin is deprecated - Use the function in Editor Actor Utilities Subsystem
+  actors=unreal.EditorLevelLibrary.get_all_level_actors()
+
+[2026.10.23-01.24.43:323][  0]LogInit: Display: LogPython: Warning: /Users/jakekaloper/Developer/ai/Schemin_UE_Prototype/ScheminBridge/unreal_render_camera_setup.py:13: DeprecationWarning: EditorLevelLibrary: Function 'save_current_level' on 'EditorLevelLibrary' is deprecated: The Editor Scripting Utilities Plugin is deprecated - Use the function in Level Editor Subsystem
+  unreal.EditorLevelLibrary.save_current_level()
+
+[2026.10.23-01.24.43:323][  0]LogInit: Display: 
+[2026.10.23-01.24.43:323][  0]LogInit: Display: Success - 0 error(s), 2 warning(s)
+[2026.10.23-01.24.43:323][  0]LogInit: Display: 
+Execution of commandlet took:  0.19 seconds, PeakPhysMemoryMB=1413 MB, PeakVirtMemoryMB=431086 MB
+[2026.10.23-01.24.43:429][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+[2026.10.23-01.24.43:429][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.10.23-01.24.43:650][  0]LogShaderCompilers: Display: Exiting ShaderCompilingThread
+2026-10-22 21:24:43.907 UnrealEditor-Cmd[57675:17244242] [UE4] Shutdown handler: cleanup.

@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-11-08T18:31:04.829Z",
+  "mission": "/bullpen mission --schemin-26 --unreal --world-engine --atlas --full-lifecycle: continue building the Commonwealth Unreal integration from verified canon, execute local reversible jobs, test, report blockers, no false green and no automatic publication",
+  "command": "mission",
+  "lifecycle": [
+    "status",
+    "research",
+    "spec",
+    "premortem",
+    "plan",
+    "execute",
+    "test",
+    "verify",
+    "audit",
+    "redteam",
+    "polish",
+    "test",
+    "reconcile",
+    "handoff",
+    "retro",
+    "next"
+  ],
+  "primary": "the_architect",
+  "participants": [
+    "the_architect",
+    "the_commissioner",
+    "the_setup_man",
+    "the_gm"
+  ],
+  "counterweight_plan": {
+    "primary": "the_architect",
+    "activated": true,
+    "edge": "modular, test-driven engineering quality",
+    "failure_mode": "engineering elegance becoming an objective independent of business value",
+    "counterweights": [
+      "the_setup_man",
+      "the_gm"
+    ],
+    "trigger_reasons": [
+      "forced",
+      "material_trigger:build",
+      "material_trigger:execute"
+    ],
+    "challenge_questions": [
+      "What observed failure justifies this complexity or refactor?",
+      "What future work is actually blocked?",
+      "What is the cost of leaving this debt alone?"
+    ],
+    "preflight": [
+      "state observed pain, incident history, blocked work, maintenance burden, remediation cost, and cost of inaction"
+    ],
+    "during": [
+      "use the smallest structural intervention that resolves the identified problem"
+    ],
+    "postflight": [
+      "verify complexity reduction, incidents prevented, development velocity, and regressions"
+    ],
+    "tension": {
+      "id": "quality_complexity",
+      "name": "Complexity Warrant",
+      "principle": "No material complexity increase without an identified failure, opportunity, or measurable quality gain."
+    }
+  },
+  "host": "local-script",
+  "note": "Deterministic routing and pipeline; does not invoke autonomous LLM director staff or generate new tasks.",
+  "exit_code": 0,
+  "status": "LOCAL_PIPELINE_PASS_NOT_RELEASED",
+  "stdout": "source_drift PASS\nmanifest PASS\nenvironment_specs PASS\nregion_packets PASS\ntravel_graph PASS\nregression PASS\npreview_catalog PASS\n",
+  "stderr": ""
+}

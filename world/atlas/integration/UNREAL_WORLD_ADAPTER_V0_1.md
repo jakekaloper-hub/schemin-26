@@ -39,3 +39,7 @@ Keep contracts and approved exporters under the existing `world/atlas/integratio
 ## Proof of concept, not fact promotion
 
 Initial pinned prototype evidence: main commit `7afe7ef0fcf24e25d67ca8c85d4e6e36e03a78e3`, source `world/data/locations.json`, 23 records (8 permanent, 12 provisional, 3 interpretive). These counts are snapshot-specific, not permanent world invariants.
+
+## Source preservation — 2026-11-08
+
+The first-party prototype bridge, configuration and authored ScheminPreview blockouts are now preserved in [unreal-prototype/](./unreal-prototype/README_REPOSITORY_SNAPSHOT.md). The local directory is a working installation, not the only project store. Dependencies, caches, unreviewed third-party template assets and exported media are not promoted. See [recovery manifest](../../../archive/local-recovery/2026-11-08/MANIFEST.json) for per-file provenance. This snapshot does not certify the prototype build or change release status.

@@ -1,0 +1,15 @@
+{
+  "status": "BLOCKED_PENDING_REAL_RENDER",
+  "crash_confirmed": true,
+  "crash_function": "TakeHighResScreenshot",
+  "previous_method_blacklisted": true,
+  "previous_headless_nullrhi": true,
+  "recovery_route": "UE interactive editor with camera actor, Sequencer/Movie Render Queue using real Metal RHI",
+  "rendered_frame_verified": false,
+  "required_evidence": [
+    "actual PNG/EXR",
+    "image file integrity",
+    "visual inspection",
+    "UE render log"
+  ]
+}

@@ -16,4 +16,4 @@ Store superseded, deprecated, or season-complete material that remains useful fo
 
 ## Current status
 
-No files intentionally archived yet. The repository is in foundation stage.
+[2026-11-08 local recovery](local-recovery/2026-11-08/README.md) preserves unique historical working material and maps copies to their owning repository paths. Archived payloads are not automatically active production authority.
