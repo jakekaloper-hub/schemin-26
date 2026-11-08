@@ -3,6 +3,10 @@
 **Authority:** Weekly Memo OS  
 **Knowledge steward:** The Librarian
 
+## Resume existing issue before new planning
+
+Load the current issue index, its Founder context, latest actual artifact and next uncompleted step. For Week9 use [week-9/_INDEX.md](week-9/_INDEX.md) and [thread continuity](week-9/THREAD_CONTINUITY.md). Preserve questionnaire answers, delegation and supersession history; this is the existing Commissioner Context Pass.
+
 ## Load order
 
 1. `SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md` — binding integrated preproduction/world/temporal-canon hardening, promoted after Week 3 acceptance testing

@@ -8,6 +8,10 @@ Schemin ’26 is a persistent fantasy-sports storytelling and publication univer
 
 The governing rule is simple: these are not separate creative projects. They are different publication surfaces over **one persistent fictional reality**.
 
+## Current weekly memo continuation
+
+For current memo work, follow [Memo OS](memo-os/_INDEX.md) -> active issue index -> Founder context/continuation record before planning or rendering. Historical status snapshots below do not override that current route.
+
 ## Start here
 
 For substantial project work, read in this order:

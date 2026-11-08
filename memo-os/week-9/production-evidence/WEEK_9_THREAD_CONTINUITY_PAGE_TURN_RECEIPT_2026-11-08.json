@@ -1,0 +1,138 @@
+{
+  "scope": "THREAD_PRESERVATION_AND_EXISTING_DRAWING_PAGE_TURN_REHEARSAL",
+  "base_commit": "c7642a21b44edb9d98c09318d0aedeebf6d3ca6f",
+  "librarian_advisory": {
+    "kind": "ACTUAL_LOCAL_LIBRARIAN_AI_ADVISORY_NOT_RELEASE_APPROVAL",
+    "source_commit": "c7642a21b44edb9d98c09318d0aedeebf6d3ca6f",
+    "model": "gemma3:4b",
+    "instruction": "Schemin Week9 existing Issue276. Founder asks preserve THIS THREAD FROM ITS GENESIS and continue actual production. Already on GitHub main: questionnaire, all six event directions, delegated decisions, 28 candidate pages, 48 written beats, actual 9-frame GOTW SVG/PNG PR287. Do not re-audit approved characters; HMB/DK exceptions stay on their own pages. Next actual deliverable: HTML page-turn rehearsal using existing drawn panels (no new art/canon), P04=frames1,2; P05=3,4,5; P06=6,7; P07=8 OR9. Both endings hypothetical; default no winner. Preserve source-bound chronology: actual Founder directions vs team choices vs rejected false completion/art. Link a compact continuity record from existing Week9 index, Memo index, root README and initiation prompt; add regression preventing link/decision loss. Do not replace existing systems. Give at most100 words: two concrete retention checks and one page-turn risk. Do not claim execution/approval or ask Founder for more context.",
+    "started_at": "2026-11-08T21:17:26.858Z",
+    "response": "Assessment: Existing Week9 material, designated PR287, requires proactive canon preservation.\n\nEvidence: The thread’s genesis, including GitHub content, decision logs, and creative assets, necessitates a structured retention strategy.\n\nRecommendation: Implement two retention checks: 1) Strict adherence to source-bound chronology across the Week9 index, Memo index, and README. 2) Automated regression tracking of continuity links to mitigate data loss.\n\nPage-turn risk: Potential disruption of established flow during HTML rehearsal due to unforeseen panel numbering discrepancies.",
+    "events": [
+      {
+        "name": "BULLPEN_CONSULTATION",
+        "payload": {
+          "source": "bullpen/runtime/consultEngine",
+          "director": "the_librarian",
+          "messageLength": 982,
+          "responseLength": 583,
+          "model": "gemma3:4b",
+          "latencyMs": 5314
+        },
+        "at": "2026-11-08T21:17:32.173Z"
+      }
+    ],
+    "traces": [
+      {
+        "type": "director_consult",
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_librarian",
+        "messageLength": 982,
+        "responseLength": 583,
+        "model": "gemma3:4b",
+        "latencyMs": 5314,
+        "at": "2026-11-08T21:17:32.173Z"
+      }
+    ],
+    "finished_at": "2026-11-08T21:17:32.174Z"
+  },
+  "disposition": "Accepted chronology/entrypoint checks and panel-number mapping risk. Canon preservation here means retaining source/decision provenance; no new canon or release approval.",
+  "tests": {
+    "first_run": "6 expected failures before artifacts/routing existed",
+    "final_run": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.003s\n\nOK\n",
+    "browser": {
+      "state": "BROWSER_FUNCTIONAL_CHECKS_PASS_NOT_AUDIENCE_OR_ART_ACCEPTANCE",
+      "checks": [
+        {
+          "name": "starts_P04_no_result",
+          "passed": true
+        },
+        {
+          "name": "P05_uses_three_expected_drawn_frames",
+          "passed": true
+        },
+        {
+          "name": "caption_toggle_really_hides_caption",
+          "passed": true
+        },
+        {
+          "name": "finale_defaults_unselected",
+          "passed": true
+        },
+        {
+          "name": "A_is_only_a_preview",
+          "passed": true
+        },
+        {
+          "name": "B_excludes_A",
+          "passed": true
+        },
+        {
+          "name": "phone_no_horizontal_document_overflow",
+          "passed": true
+        },
+        {
+          "name": "all_P05_panels_fit_sheet",
+          "passed": true
+        }
+      ],
+      "viewport_tests": [
+        [
+          760,
+          1300
+        ],
+        [
+          390,
+          1100
+        ]
+      ],
+      "browser_errors": [],
+      "original_drawing_reused": true,
+      "actual_result_selected": false,
+      "new_character_art": false
+    }
+  },
+  "visual_inspection": {
+    "reviewer": "assistant",
+    "inspected": "W09_GOTW_PAGE_TURN_P05_PHONE.png",
+    "observations": [
+      "Three existing panels and footer remain within page",
+      "No horizontal viewport overflow at390",
+      "Rough silhouette drawing remains recognizable as duck golfer vs human; no final-likeness acceptance claimed"
+    ],
+    "limitations": [
+      "Small in-panel labels are staging annotations, not approved final phone typography",
+      "No independent audience or Founder acceptance",
+      "No new artwork or final football data"
+    ]
+  },
+  "fixed_in_this_pass": [
+    "Long source checksum caused narrow viewport overflow; wrap it and size sheet from client viewport",
+    "Three original landscape panels overfilled portrait page; bounded their displayed heights without stretching/cropping",
+    "Browser test profile needed fresh DevTools endpoint to avoid stale-port retry"
+  ],
+  "preserved_sources": {
+    "memo-os/week-9/storyboards/W09_GOTW_ROUGH_BLOCKING_BOARD_V1.svg": {
+      "sha256": "b9eb78ff0823951c7e2483ef9953c2551b3ae3c89b5f6e544c26cf483dcb555c",
+      "bytes": 120115
+    },
+    "memo-os/week-9/storyboards/W09_GOTW_ROUGH_BLOCKING_BOARD_V1.png": {
+      "sha256": "23715c088473f2a9cf3a4f6e21367217925453c9604d489c9e4290c6149bd063",
+      "bytes": 543145
+    },
+    "memo-os/week-9/storyboards/W09_GOTW_PAGE_TURN_REHEARSAL_V1.html": {
+      "sha256": "e29023d1d115d49eab9feaca978571fdf2ec7bde463013bdde3b1ce52b498854",
+      "bytes": 125040
+    },
+    "memo-os/week-9/storyboards/W09_GOTW_PAGE_TURN_P05_PHONE.png": {
+      "sha256": "34dc1b1eb8e80c809277ebf21b558877b7e2e79fff825513b1291a52cc757533",
+      "bytes": 119068
+    },
+    "memo-os/week-9/storyboards/W09_GOTW_PAGE_TURN_P05_DESKTOP.png": {
+      "sha256": "08a2f0763c7f848b0435be4ff92707165d8001e64bc4e33541eeea18f46e73b2",
+      "bytes": 159086
+    }
+  },
+  "browser_check_source": "import fs from 'node:fs';\nimport path from 'node:path';\nimport {spawn} from 'node:child_process';\nimport {pathToFileURL} from 'node:url';\nconst run=path.dirname(new URL(import.meta.url).pathname);\nconst output=path.join(run,'stage/memo-os/week-9/storyboards');\nconst profile=fs.mkdtempSync(path.join(run,'browser-test-'));\nconst chrome=spawn('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',['--headless=new','--disable-gpu','--no-first-run','--no-default-browser-check','--remote-debugging-port=0','--user-data-dir='+profile,'about:blank'],{stdio:'ignore'});\nconst pause=ms=>new Promise(r=>setTimeout(r,ms));\nlet ws;const pending=new Map();let serial=0;\nconst checks=[];const errors=[];\ntry{\n const active=path.join(profile,'DevToolsActivePort');\n for(let i=0;i<100&&!fs.existsSync(active);i++)await pause(100);\n if(!fs.existsSync(active))throw Error('Chrome debugging endpoint did not start');\n const port=fs.readFileSync(active,'utf8').split('\\n')[0];\n const targets=await (await fetch('http://127.0.0.1:'+port+'/json')).json();\n ws=new WebSocket(targets.find(t=>t.type==='page').webSocketDebuggerUrl);\n await new Promise((resolve,reject)=>{ws.onopen=resolve;ws.onerror=reject});\n ws.onmessage=e=>{const j=JSON.parse(e.data);if(j.id){const p=pending.get(j.id);pending.delete(j.id);if(j.error)p.reject(Error(JSON.stringify(j.error)));else p.resolve(j.result)}else if(j.method==='Runtime.exceptionThrown')errors.push(j.params)};\n function cdp(method,params={}){const id=++serial;return new Promise((resolve,reject)=>{pending.set(id,{resolve,reject});ws.send(JSON.stringify({id,method,params}))})}\n async function evaluate(expression){const r=await cdp('Runtime.evaluate',{expression,returnByValue:true,awaitPromise:true});if(r.exceptionDetails)throw Error(JSON.stringify(r.exceptionDetails));return r.result.value}\n async function check(name,expression){const v=await evaluate(expression);if(!v)throw Error(name+' failed');checks.push({name,passed:true})}\n await cdp('Page.enable');await cdp('Runtime.enable');\n await cdp('Emulation.setDeviceMetricsOverride',{width:760,height:1300,deviceScaleFactor:1,mobile:false});\n await cdp('Page.navigate',{url:pathToFileURL(path.join(output,'W09_GOTW_PAGE_TURN_REHEARSAL_V1.html')).href});\n for(let i=0;i<50;i++){if(await evaluate(\"document.readyState==='complete' && typeof show==='function'\"))break;await pause(100)}\n await evaluate('document.fonts.ready');\n await check('starts_P04_no_result',\"document.querySelector('.sheet:not([hidden])').dataset.page==='P04' && actualResult===null && branch===null\");\n await evaluate(\"document.getElementById('next').click()\");\n await check('P05_uses_three_expected_drawn_frames',\"document.querySelector('.sheet:not([hidden])').dataset.page==='P05' && Array.from(document.querySelectorAll('.sheet:not([hidden]) [data-source-frame]')).map(x=>x.dataset.sourceFrame).join(',')==='frame-3,frame-4,frame-5'\");\n const desktop=await cdp('Page.captureScreenshot',{format:'png'});fs.writeFileSync(path.join(output,'W09_GOTW_PAGE_TURN_P05_DESKTOP.png'),Buffer.from(desktop.data,'base64'));\n await evaluate(\"document.getElementById('captions').click()\");\n await check('caption_toggle_really_hides_caption',\"getComputedStyle(document.querySelector('.sheet:not([hidden]) figcaption')).visibility==='hidden'\");\n await evaluate(\"document.getElementById('captions').click();document.getElementById('next').click();document.getElementById('next').click()\");\n await check('finale_defaults_unselected',\"branch===null && actualResult===null && !document.getElementById('choose-ending').hidden && document.getElementById('stage').hidden\");\n await evaluate(\"document.querySelector('[data-branch=A]').click()\");\n await check('A_is_only_a_preview',\"document.querySelector('.sheet:not([hidden])').dataset.page==='P07A' && actualResult===null\");\n await evaluate(\"document.getElementById('clear-branch').click();document.querySelector('[data-branch=B]').click()\");\n await check('B_excludes_A',\"document.querySelector('.sheet:not([hidden])').dataset.page==='P07B' && document.querySelector('[data-page=P07A]').hidden && actualResult===null\");\n await evaluate(\"document.getElementById('back').click();document.getElementById('back').click()\");\n await cdp('Emulation.setDeviceMetricsOverride',{width:390,height:1100,deviceScaleFactor:1,mobile:true});await evaluate('resize()');await pause(100);\n console.log('PHONE_GEOMETRY',await evaluate(\"JSON.stringify({inner:innerWidth,scroll:document.documentElement.scrollWidth,oversized:Array.from(document.body.querySelectorAll('*')).filter(x=>{const b=x.getBoundingClientRect();return b.width>0&&b.right>395&&!x.closest('svg')&&!x.closest('.sheet')}).map(x=>({tag:x.tagName,cls:x.className,right:x.getBoundingClientRect().right,scroll:x.scrollWidth})).slice(0,10)})\"));\n await check('phone_no_horizontal_document_overflow','document.documentElement.scrollWidth<=390');\n await check('all_P05_panels_fit_sheet',\"(()=>{const p=document.querySelector('.sheet:not([hidden])'),b=p.getBoundingClientRect();return Array.from(p.querySelectorAll('figure,footer')).every(x=>x.getBoundingClientRect().bottom<=b.bottom+1)})()\");\n const phone=await cdp('Page.captureScreenshot',{format:'png'});fs.writeFileSync(path.join(output,'W09_GOTW_PAGE_TURN_P05_PHONE.png'),Buffer.from(phone.data,'base64'));\n if(errors.length)throw Error('Browser exceptions: '+JSON.stringify(errors));\n fs.writeFileSync(path.join(run,'browser-checks.json'),JSON.stringify({state:'BROWSER_FUNCTIONAL_CHECKS_PASS_NOT_AUDIENCE_OR_ART_ACCEPTANCE',checks,viewport_tests:[[760,1300],[390,1100]],browser_errors:errors,original_drawing_reused:true,actual_result_selected:false,new_character_art:false},null,2)+'\\n');\n console.log(JSON.stringify({checks:checks.length,passed:true,screenshots:2,actual_result_selected:false}));\n}finally{if(ws)ws.close();chrome.kill('SIGTERM')}\n",
+  "statement": "Temporary execution files are not durable source; published GitHub artifacts and this receipt are the record."
+}

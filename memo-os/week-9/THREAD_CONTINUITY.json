@@ -1,0 +1,219 @@
+{
+  "record_type": "EXISTING_WEEK9_CONTEXT_AND_CONTINUATION_NOT_NEW_OS",
+  "captured_at": "2026-11-08",
+  "base_commit": "c7642a21b44edb9d98c09318d0aedeebf6d3ca6f",
+  "league_id": 1417621,
+  "season": 2026,
+  "week": 9,
+  "source_capture": {
+    "path": "memo-os/week-9/THREAD_SOURCE_CAPTURE_2026-11-08.md",
+    "sha256": "0e48b57bde1140ab3c541b6b9fab96eb050c6c1d4d5677f3fdf0e9fa79d08ecc",
+    "scope": "Substantive visible user messages, not a complete platform transcript"
+  },
+  "mission": {
+    "editorial_issue": 276,
+    "data_steward_issue": 268,
+    "no_new_mission": true
+  },
+  "source_precedence": {
+    "creative": "Latest explicit Founder correction; existing approved character/Atlas sources; current issue packets; historical records labeled as such.",
+    "sports": "Verified league evidence outranks narrative framing; this change does not refresh or certify results."
+  },
+  "matchups": [
+    {
+      "id": "W09-M01",
+      "home": "Dr. Duckhook",
+      "away": "ObiWan Jacoby",
+      "parent_venue": "LOC-COUNTRY-CLUB-JACKSON",
+      "event": "Sunrise charity golf at CCOJ",
+      "founder_direction": "Duckhook invites ObiWan; varied-shot collage; beautiful autumn morning contrasted with a painful playoff-pressure loss.",
+      "team_choice": "Pond geometry fixed; invitation, tee/recovery/reaction, hazard and held-breath sequence.",
+      "origin": "FOUNDER_DIRECTION_WITH_LABELED_TEAM_CHOICES",
+      "source_excerpt": "U03",
+      "delegation_excerpt": "U04",
+      "endings": {
+        "home_win": "Duckhook wins: ObiWan makes an increasingly embarrassing series of poor golf shots; Duckhook controls his course and wins; visibly anguished ObiWan",
+        "away_win": "ObiWan wins: Duckhook misses embarrassing decisive putt/approach toward the water hazard while ObiWan finishes steadily; defeated Duckhook registers the blow"
+      },
+      "actual_winner": null
+    },
+    {
+      "id": "W09-M02",
+      "home": "Mud Dogs",
+      "away": "El Niño",
+      "parent_venue": "LOC-MUD-DOGS-SWAMP",
+      "event": "Swamp dirt-bike endurance race",
+      "founder_direction": "Mud Dogs notices and cockily ignores the storm; El Niño floods the course; finish through skill or fail in deep mud/water.",
+      "team_choice": "Raised start bank, channel crossing, finish line; no second rider impersonating the storm.",
+      "origin": "FOUNDER_DIRECTION_WITH_LABELED_TEAM_CHOICES",
+      "source_excerpt": "U03",
+      "delegation_excerpt": "U04",
+      "endings": {
+        "home_win": "Mud Dogs wins: masters underwater/muddy line and finishes the race through a final hazard",
+        "away_win": "El Niño wins: Mud Dogs' bike becomes embedded/sucked into deep water and mud and cannot finish; storm physically wins by obstructing race"
+      },
+      "actual_winner": null
+    },
+    {
+      "id": "W09-M03",
+      "home": "Red Leopards",
+      "away": "Seven Deadly Chins",
+      "parent_venue": "LOC-RED-RUINS",
+      "event": "Lifted truck violates soccer terrace",
+      "founder_direction": "Chins off-roads through Red’s soccer grounds; Red retaliates.",
+      "team_choice": "Delegated terrace-to-hood ambush and stone bottleneck; a goal net alone cannot stop a truck.",
+      "origin": "FOUNDER_DIRECTION_WITH_LABELED_TEAM_CHOICES",
+      "source_excerpt": "U03",
+      "delegation_excerpt": "U04",
+      "endings": {
+        "home_win": "Red Leopards wins: ambush atop truck and spatial trap at the pitch/ruins stop Chins; home territory reclaimed",
+        "away_win": "Seven Deadly Chins wins: truck and driver physically overpower Red's ambush and keep churning across already damaged field; Red's heartbreak clear"
+      },
+      "actual_winner": null
+    },
+    {
+      "id": "W09-M04",
+      "home": "The Chili Cheesers",
+      "away": "His Majesty's Blood",
+      "parent_venue": "LOC-CHILI-STABLE",
+      "event": "Western-town chili cookout",
+      "founder_direction": "Chili hosts; H2H history informs tone; HMB embarrasses Chili or gets covered with chili.",
+      "team_choice": "Serving-cart and cookout-ribbon setup; hooded Belt Keeper, not crowned monarch. No championship-belt transfer.",
+      "origin": "FOUNDER_DIRECTION_WITH_LABELED_TEAM_CHOICES",
+      "source_excerpt": "U03",
+      "delegation_excerpt": "U04",
+      "endings": {
+        "home_win": "Chili deliberately stages the cooled-chili serving-cart reversal; HMB is covered while retaining hood, armor and belt.",
+        "away_win": "HMB takes over the cookout judging table and ribbon; Chili is left ladle-in-hand serving the unruffled champion. No crown or belt transfer."
+      },
+      "actual_winner": null
+    },
+    {
+      "id": "W09-M05",
+      "home": "D0nkey K0ng",
+      "away": "The LLC",
+      "parent_venue": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "event": "Highland colosseum sword duel",
+      "founder_direction": "DK defending arena victor; LLC wears ornate knightly armor; choreographed swords; actual winner overpowers the loser.",
+      "team_choice": "Clash, pivot, parry, leverage and visible finish; integrated Arsenal centaur, not bipedal gorilla.",
+      "origin": "FOUNDER_DIRECTION_WITH_LABELED_TEAM_CHOICES",
+      "source_excerpt": "U03",
+      "delegation_excerpt": "U04",
+      "endings": {
+        "home_win": "D0nkey wins: Arsenal gorilla-centaur physically overpowers LLC and wins the sword fight",
+        "away_win": "The LLC wins: armored corporate knight outmaneuvers and physically overpowers the centaur champion"
+      },
+      "actual_winner": null
+    },
+    {
+      "id": "W09-M06",
+      "home": "Slob on my Dobb",
+      "away": "Three Dreaded Snake",
+      "parent_venue": "LOC-SLOB-FOOTHILL-CAMP",
+      "event": "Foothill 1v1 paintball",
+      "founder_direction": "Trees/landscaping plus inflatable cover, protective gear, aggressive movement. Final camera behind sliding winner; loser downrange has paint across mask/body.",
+      "team_choice": "P20 remains pre-result; P21 carries the requested finish. TDS one body/three protected heads; current Slob appearance.",
+      "origin": "FOUNDER_DIRECTION_WITH_LABELED_TEAM_CHOICES",
+      "source_excerpt": "U03",
+      "delegation_excerpt": "U04",
+      "endings": {
+        "home_win": "Slob wins: final third-person winner-shoulder slide/aim shows TDS fully struck by multiple paint splatters",
+        "away_win": "Three Dreaded Snake wins: final third-person winner-shoulder slide/aim shows Slob hit by multiple paint splatters"
+      },
+      "actual_winner": null
+    }
+  ],
+  "character_policy": {
+    "settled_approvals": true,
+    "repeat_questionnaire": false,
+    "repeat_original_image_hunt": false,
+    "focused_exception_ids": [
+      "CHAR-AUSTIN-BYARS",
+      "CHAR-WILSON-LOOK"
+    ],
+    "scope": "Only pages containing those subjects; neither P04-P07 nor P20. Actual attachment/final-pixel QA is not identity reapproval."
+  },
+  "carry_forward": {
+    "gotw": "W09-M01 Duckhook HOME / ObiWan AWAY",
+    "cover": "Previously recorded TDS Waterfall Temple newborn presentation, preproduction concept",
+    "opening_drive": "Previously recorded brief congratulations then football",
+    "issue_architecture": "28 candidate pages; 18 cinematic and 10 editorial; not an immutable Founder quota",
+    "current_visual_board": "memo-os/week-9/storyboards/W09_GOTW_ROUGH_BLOCKING_BOARD_V1.png",
+    "proof_pages": [
+      "W09-P05",
+      "W09-P20"
+    ],
+    "sports_departments": "Player causes, scores, transactions, standings, rankings, Week10 preview, Pittsys Book and Final Word remain connected."
+  },
+  "milestones": [
+    {
+      "pr": 281,
+      "scope": "Questionnaire/handoff",
+      "status": "MERGED"
+    },
+    {
+      "pr": 282,
+      "scope": "Story cards and issue previs",
+      "status": "MERGED"
+    },
+    {
+      "pr": 283,
+      "scope": "Local source recovery",
+      "status": "MERGED"
+    },
+    {
+      "pr": 284,
+      "scope": "Storage closeout/two proofs prepared",
+      "status": "MERGED"
+    },
+    {
+      "pr": 285,
+      "scope": "Settled character carry-forward",
+      "status": "MERGED"
+    },
+    {
+      "pr": 286,
+      "scope": "48 written beats:36 shared/12 endings",
+      "status": "MERGED_WRITING_ONLY"
+    },
+    {
+      "pr": 287,
+      "scope": "Actual nine-panel SVG/PNG rough board",
+      "status": "MERGED_ROUGH_NOT_FINAL"
+    }
+  ],
+  "rejected_or_superseded": [
+    "Literal UI code was not a functioning questionnaire.",
+    "Prompt-only A-E complete claims were not execution receipts.",
+    "Generated all-matchup infographic posters with wrong identities/unsupported completion flags are REJECTED.",
+    "Old assistant HMB crown/royal framing and Slob-horns text are superseded.",
+    "Missing old JPEG paths in one checkout cannot reopen settled identities.",
+    "Software-role advice does not certify facts, images or release."
+  ],
+  "reusable_lessons": [
+    "Retain prior-week benchmarks, canonical identities and established geography without repeating old plots.",
+    "Carry Founder source -> scene -> beat -> page -> actual artifact with stable IDs.",
+    "Resume the last proven deliverable; do not restart the questionnaire.",
+    "Rough sequencing, spatial clarity and page-turn testing precede polish."
+  ],
+  "status": {
+    "written_six_sequences": true,
+    "rough_gotw": "DRAWN_IN_PR287_NOT_FINAL_ART",
+    "page_turn_rehearsal": "BUILT_FROM_EXISTING_FRAMES_NOT_NEW_ART",
+    "polished_proofs_complete": false,
+    "final_results_verified_by_this_change": false,
+    "published": false
+  },
+  "resume": {
+    "entrypoint": "memo-os/week-9/_INDEX.md",
+    "read_next": [
+      "memo-os/week-9/THREAD_CONTINUITY.md",
+      "memo-os/week-9/THREAD_CONTINUITY.json",
+      "memo-os/week-9/WEEK_9_COMPLETE_ISSUE_PREVIS_2026-11-08.json"
+    ],
+    "review_artifact": "memo-os/week-9/storyboards/W09_GOTW_PAGE_TURN_REHEARSAL_V1.html",
+    "next_action": "Review the actual page-turn sequence with captions on/off; fix demonstrated staging defects, then continue authorized P05/P20 polished proofs. Choose result branch only after verified evidence.",
+    "no_claim": "Not an automatic worker ACK, a final acceptance or a promise of background work."
+  },
+  "maintenance": "Update proven output/path, actual status, unresolved evidence and exact next action after material work. Future weeks inherit the process lesson, not Week9 plots as defaults."
+}
