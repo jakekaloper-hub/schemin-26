@@ -1,0 +1,50 @@
+{
+  "scope": "Local commands from existing Weekly Memo Authority CI, not final-raster/independent release",
+  "commands": [
+    {
+      "command": "python -m unittest discover -s memo-os/tests -p 'test_v52*.py' -v",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m unittest discover -s memo-os/tests -p 'test_frank_masi_packet_routing.py' -v",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m unittest discover -s memo-os/tests -p 'test_scene_direction.py' -v",
+      "exit_code": 0
+    },
+    {
+      "command": "python governance/publication-manifest/validate_publication_manifest.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python governance/publication-manifest/test_memo_reference_resolver.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python tests/test_week5_individual_page_staging.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python tests/test_week5_artwork_first_output_contract.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python tests/test_week5_production_gateway.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m pip install pytest",
+      "state": "NOT_REINSTALLED_ALREADY_PRESENT",
+      "evidence": "python3 -m pytest --version = pytest 9.1.1"
+    },
+    {
+      "command": "python -m pytest -q tests/test_week5_raster_acceptance.py tests/test_week5_current_reference_authority.py tests/test_commissioner_20261012_character_bindings.py",
+      "exit_code": 0
+    }
+  ],
+  "merge_gate_initial_failure": "Mac shell had python3 but not python on PATH; no repository defect asserted",
+  "merge_gate_repair": "PATH prepended existing /opt/homebrew/opt/python@3.14/libexec/bin; repository script unchanged; rerun exit0",
+  "merge_gate_log": "{\n  \"changed_files\": [\n    \"memo-os/_INDEX.md\",\n    \"memo-os/week-9/WEEK_9_COMPLETE_ISSUE_PREVIS_2026-11-08.json\",\n    \"memo-os/week-9/WEEK_9_COMPLETE_ISSUE_PREVIS_2026-11-08.md\",\n    \"memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json\",\n    \"memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.md\",\n    \"memo-os/week-9/_INDEX.md\",\n    \"memo-os/week-9/production-evidence/WEEK_9_DIRECTOR_REVIEW_DISPOSITION_2026-11-08.md\",\n    \"memo-os/week-9/production-evidence/WEEK_9_LOCAL_DIRECTOR_ADVISORY_2026-11-08.json\",\n    \"memo-os/week-9/production-evidence/WEEK_9_LOCAL_UMPIRE_ADVISORY_2026-11-08.json\",\n    \"memo-os/week-9/production-evidence/WEEK_9_PREVIS_STRUCTURAL_CHECKS_2026-11-08.json\",\n    \"memo-os/week-9/production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json\"\n  ],\n  \"suites\": [\n    \"memo\"\n  ]\n}\n[merge-gate] memo: python memo-os/tests/v5_5_acceptance_suite.py\nPASS R01 - Week 3 TDS continuity reset is detected\nPASS R02a - Week 3 DK release-time centaur passes historical canon\nPASS R02b - Retired centaur is blocked for current DK production\nPASS T01-T03 - Temporal receipt separates historical and current canon\nPASS R03-R04 - Commissioner-supplied provenance survives\nPASS R05 - Release manifest remains exactly 21 pages\nPASS A01-A02 - Approved asset receipt is immutable/locked\nPASS W01-W05 - World atlas/state contract is enforceable\nPASS P04-P05 - Page packet separates image/prose and budgets mobile copy\nPASS P01-P02 - Complete issue previs and rhythm review gate generation\nPASS F08 - Generative image text is not authoritative deterministic data\nRESULT: 11/11 PASS\n[merge-gate] memo: python -m unittest -v memo-os/tests/test_week4_preproduction_open.py\ntest_control_package_exists (memo-os.tests.test_week4_preproduction_open.Week4PreproductionOpenTests.test_control_package_exists) ... ok\ntest_current_high_risk_canon_is_locked (memo-os.tests.test_week4_preproduction_open.Week4PreproductionOpenTests.test_current_high_risk_canon_is_locked) ... ok\ntest_exact_six_week4_matchups (memo-os.tests.test_week4_preproduction_open.Week4PreproductionOpenTests.test_exact_six_week4_matchups) ... ok\ntest_fact_scope_rejects_live_claim_from_cached_state (memo-os.tests.test_week4_preproduction_open.Week4PreproductionOpenTests.test_fact_scope_rejects_live_claim_from_cached_state) ... ok\ntest_finished_art_and_release_are_blocked (memo-os.tests.test_week4_preproduction_open.Week4PreproductionOpenTests.test_finished_art_and_release_are_blocked) ... ok\ntest_living_story_room_is_provisional_and_non_release (memo-os.tests.test_week4_preproduction_open.Week4PreproductionOpenTests.test_living_story_room_is_provisional_and_non_release) ... ok\ntest_no_premature_gotw (memo-os.tests.test_week4_preproduction_open.Week4PreproductionOpenTests.test_no_premature_gotw) ... ok\ntest_story_room_tracks_chapter3_hard_canon_and_publication_boundary (memo-os.tests.test_week4_preproduction_open.Week4PreproductionOpenTests.test_story_room_tracks_chapter3_hard_canon_and_publication_boundary) ... ok\ntest_v55_is_governing (memo-os.tests.test_week4_preproduction_open.Week4PreproductionOpenTests.test_v55_is_governing) ... ok\ntest_w4_g6_dk_hmb_personalization_is_governed_and_conditional (memo-os.tests.test_week4_preproduction_open.Week4PreproductionOpenTests.test_w4_g6_dk_hmb_personalization_is_governed_and_conditional) ... ok\ntest_world_entry_gate_is_bound_to_persisted_week3_state (memo-os.tests.test_week4_preproduction_open.Week4PreproductionOpenTests.test_world_entry_gate_is_bound_to_persisted_week3_state) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 0.003s\n\nOK\n[merge-gate] memo: python -m unittest -v memo-os/tests/test_v56_current_main_salvage.py\ntest_fixture_hash_is_fixed (memo-os.tests.test_v56_current_main_salvage.V56CurrentMainSalvageTests.test_fixture_hash_is_fixed) ... ok\ntest_promotion_remains_hold (memo-os.tests.test_v56_current_main_salvage.V56CurrentMainSalvageTests.test_promotion_remains_hold) ... ok\ntest_real_page_fidelity_still_fails (memo-os.tests.test_v56_current_main_salvage.V56CurrentMainSalvageTests.test_real_page_fidelity_still_fails) ... ok\ntest_release_registry_is_superseded (memo-os.tests.test_v56_current_main_salvage.V56CurrentMainSalvageTests.test_release_registry_is_superseded) ... ok\ntest_salvaged_controls_exist (memo-os.tests.test_v56_current_main_salvage.V56CurrentMainSalvageTests.test_salvaged_controls_exist) ... ok\ntest_v55_remains_controlling (memo-os.tests.test_v56_current_main_salvage.V56CurrentMainSalvageTests.test_v55_remains_controlling) ... ok\ntest_week4_publication_manifest_remains_blocked (memo-os.tests.test_v56_current_main_salvage.V56CurrentMainSalvageTests.test_week4_publication_manifest_remains_blocked) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.001s\n\nOK\n",
+  "weekly_authority_log_path": "/tmp/schemin-w9-weekly-authority-20261108.log"
+}

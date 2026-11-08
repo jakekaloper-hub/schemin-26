@@ -5,6 +5,21 @@
 **Current status:** `CREATIVE_INTERVIEW_RECORDED / PREVIS_CANDIDATES_PREPARED / CANONICAL_SNAPSHOT_LOCK_BLOCKED / FACT_LOCK_BLOCKED / NOT_RELEASED`.  
 **Not a new OS or a new mission.**
 
+## Current continuation — source-bound storyboards and complete issue candidate
+
+PR #281 merged to main at `409b0dca4b471ecea14e9f8badf46e4ec87f8a5c` under explicit Founder instruction. The next stage has now been **written**, not merely assigned:
+
+- [Six Sports + Story Cards](./WEEK_9_SPORTS_STORY_CARDS_2026-11-08.md) and [structured cards](./WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json): selected physical sequences, both outcomes, prior-week evidence, source classification and unfilled final-football causal slots.
+- [Complete-issue page-by-page screenplay](./WEEK_9_COMPLETE_ISSUE_PREVIS_2026-11-08.md) and [28 candidate page contracts](./WEEK_9_COMPLETE_ISSUE_PREVIS_2026-11-08.json): 18 cinematic folios plus 10 editorial departments; flexible working allocation, all PLANNED, no rendering authorization.
+- [Fresh source/character/world readback](./production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json): all 12 approved presentation crops hash-match; 2 primary JPEGs available/hash-match in this checkout; 10 primary byte paths absent locally. This is not evidence those originals do not exist elsewhere. DK historical-primary visual conflict remains active; approved presentation does not certify renderer use.
+- [Local AI Director advisory](./production-evidence/WEEK_9_LOCAL_DIRECTOR_ADVISORY_2026-11-08.json) and [review dispositions](./production-evidence/WEEK_9_DIRECTOR_REVIEW_DISPOSITION_2026-11-08.md): actual local ConsultEngine calls, not living-author/professional participation or release approval. Unsourced and conflicting advice is rejected.
+
+**Verification receipts:** [structural/readback and eight negative cases](./production-evidence/WEEK_9_PREVIS_STRUCTURAL_CHECKS_2026-11-08.json), [existing Memo CI commands](./production-evidence/WEEK_9_EXISTING_MEMO_CI_RECEIPT_2026-11-08.json), and [fresh local Umpire advisory](./production-evidence/WEEK_9_LOCAL_UMPIRE_ADVISORY_2026-11-08.json). These do not certify final data, images or release.
+
+**Important correction:** HMB is the current hooded red-eyed black-armored Belt Keeper, not a crowned monarch. Prior assistant-generated royal/crown framing is superseded in active story cards; Founder cookout/winner-dependent humiliation remains unchanged.
+
+**Next gate:** finish source/player-data and reference-binding gaps, obtain Atlas disposition on proposed event geometry/scene-only technology, then Story Lock and reference-bound proof images after authorization. Do not restart the questionnaire, H2H research or complete-issue plan.
+
 ## Start here (this week's authorized editorial workflow)
 
 1. [**Commissioner six-matchup creative-context capture**](./WEEK_9_COMMISSIONER_QUESTIONNAIRE_CREATIVE_CONTEXT_2026-11-08.md) — actual Founder selections, six distinct sporting events, dual-outcome requirements, delegated remaining creative decisions, continuity and technology exceptions.

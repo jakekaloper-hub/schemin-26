@@ -1,0 +1,380 @@
+{
+  "schema": "schemin26.week9.sports_story_cards.v1",
+  "status": "PROVISIONAL_CANDIDATE",
+  "source_commit": "409b0dca4b471ecea14e9f8badf46e4ec87f8a5c",
+  "source_data": "memo-os/week-9/WEEK_8_FINAL_WEEK_9_PROVIDER_EVIDENCE_2026-11-08.json",
+  "cards": [
+    {
+      "id": "W09-M01",
+      "status": "DELEGATED_EDITORIAL_CANDIDATE_NOT_STORY_LOCK",
+      "home": {
+        "name": "Dr. Duckhook",
+        "teamId": 12,
+        "record": "5-3",
+        "characterId": "CHAR-ZACH-WILSON"
+      },
+      "away": {
+        "name": "ObiWan Jacoby",
+        "teamId": 1,
+        "record": "4-4",
+        "characterId": "CHAR-JAKE-KALOPER"
+      },
+      "venue_parent": "LOC-COUNTRY-CLUB-JACKSON",
+      "title": "The Last Putt",
+      "story_engine": {
+        "scene": "Charity hospitality hides a returning rival's intent: Duckhook invited ObiWan, who won the same Week9 pairing in 2025.",
+        "tension": "Duckhook defends a one-game Wings lead; ObiWan is tied atop Burgers on W-L. Neither loss is a mathematical elimination.",
+        "mechanism": "Move from relaxed first tee to alternating approach/bunker/putt detail panels and a water-side deciding green. Physical golf events remain fiction.",
+        "turn": "A visible downslope beyond the green makes an overhit ball reaching water legible; never make a flat short putt magically leap into the pond."
+      },
+      "physical_direction": "Keep the common opening result-neutral; outcome edit assigns the strongest/poorest montage shots. No lightsaber attacks, Force intervention or unrequested dog distraction.",
+      "emotional_consequence": "Play the loser's silence and slumped shoulders against the beautiful sunrise; winner succeeds at golf, not magic.",
+      "draft_opening_copy": "The invitation said charity. Neither man arrived feeling charitable about losing.",
+      "home_win": "Duckhook wins: ObiWan makes an increasingly embarrassing series of poor golf shots; Duckhook controls his course and wins; visibly anguished ObiWan",
+      "away_win": "ObiWan wins: Duckhook misses embarrassing decisive putt/approach toward the water hazard while ObiWan finishes steadily; defeated Duckhook registers the blow",
+      "history_source": "https://github.com/jakekaloper-hub/schemin-26/issues/276#issuecomment-6692682460",
+      "source_sha256": "efc3dae3038992a110bfa4d6af756d9254a5df6a57150d7e20d93f9dbcb1a9ce",
+      "week8_context": {
+        "Dr. Duckhook": {
+          "opponent": "Mud Dogs",
+          "points": 174.06,
+          "opponent_points": 100.88,
+          "won": true
+        },
+        "ObiWan Jacoby": {
+          "opponent": "El Niño",
+          "points": 142.3,
+          "opponent_points": 164.38,
+          "won": false
+        }
+      },
+      "sports_causality": {
+        "status": "NOT_ACQUIRED_FOR_FINAL_WEEK9",
+        "final_score": null,
+        "winning_team_id": null,
+        "player_contributors": [],
+        "lineup_swing": null,
+        "injury_evidence": null,
+        "postweek_record": null,
+        "playoff_clinch_or_elimination": null,
+        "required_before_copy_lock": [
+          "verified final scores and status",
+          "starter/bench contributions with snapshot/source time",
+          "supported fantasy turning point",
+          "reconciled standings and transaction effects"
+        ]
+      },
+      "reference_binding_file": "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+    },
+    {
+      "id": "W09-M02",
+      "status": "DELEGATED_EDITORIAL_CANDIDATE_NOT_STORY_LOCK",
+      "home": {
+        "name": "Mud Dogs",
+        "teamId": 10,
+        "record": "2-6",
+        "characterId": "CHAR-BOBBY-MITCHELL"
+      },
+      "away": {
+        "name": "El Niño",
+        "teamId": 9,
+        "record": "4-4",
+        "characterId": "CHAR-MANNING-WELTY"
+      },
+      "venue_parent": "LOC-MUD-DOGS-SWAMP",
+      "title": "No Easy Way Out",
+      "story_engine": {
+        "scene": "Mud Dogs tears into his home-swamp endurance course, sees the storm, and chooses to keep racing.",
+        "tension": "A 2–6 team needs a recovery; El Niño enters 4–4 in the playoff chase. Treat the spoiler characterization as Commissioner narrative, not proof Niño has no playoff chance.",
+        "mechanism": "Return to three course anchors: raised start bank, channel crossing, finish on firmer ground. Rising water changes those same spaces.",
+        "turn": "The narrow raised route that seemed slower becomes the only finishable line; a late choice determines extraction versus a buried rear wheel."
+      },
+      "physical_direction": "No second rider impersonates El Niño. Storm pressure, flood direction and wheel contact communicate the opponent.",
+      "emotional_consequence": "If Mud loses, the finish remains visible but unreachable; if Mud wins, show exhausted skill, not a miraculous dry reset.",
+      "draft_opening_copy": "He knew every turn in the swamp. By the next lap, the swamp had moved them.",
+      "home_win": "Mud Dogs wins: masters underwater/muddy line and finishes the race through a final hazard",
+      "away_win": "El Niño wins: Mud Dogs' bike becomes embedded/sucked into deep water and mud and cannot finish; storm physically wins by obstructing race",
+      "history_source": "https://github.com/jakekaloper-hub/schemin-26/issues/276",
+      "source_sha256": "efc3dae3038992a110bfa4d6af756d9254a5df6a57150d7e20d93f9dbcb1a9ce",
+      "week8_context": {
+        "Mud Dogs": {
+          "opponent": "Dr. Duckhook",
+          "points": 100.88,
+          "opponent_points": 174.06,
+          "won": false
+        },
+        "El Niño": {
+          "opponent": "ObiWan Jacoby",
+          "points": 164.38,
+          "opponent_points": 142.3,
+          "won": true
+        }
+      },
+      "sports_causality": {
+        "status": "NOT_ACQUIRED_FOR_FINAL_WEEK9",
+        "final_score": null,
+        "winning_team_id": null,
+        "player_contributors": [],
+        "lineup_swing": null,
+        "injury_evidence": null,
+        "postweek_record": null,
+        "playoff_clinch_or_elimination": null,
+        "required_before_copy_lock": [
+          "verified final scores and status",
+          "starter/bench contributions with snapshot/source time",
+          "supported fantasy turning point",
+          "reconciled standings and transaction effects"
+        ]
+      },
+      "reference_binding_file": "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+    },
+    {
+      "id": "W09-M03",
+      "status": "DELEGATED_EDITORIAL_CANDIDATE_NOT_STORY_LOCK",
+      "home": {
+        "name": "Red Leopards",
+        "teamId": 2,
+        "record": "4-4",
+        "characterId": "CHAR-KEVIN-ZEEK"
+      },
+      "away": {
+        "name": "Seven Deadly Chins",
+        "teamId": 11,
+        "record": "5-3",
+        "characterId": "CHAR-BEN-WHIPPLE"
+      },
+      "venue_parent": "LOC-RED-RUINS",
+      "title": "The Red Card",
+      "story_engine": {
+        "scene": "A lifted truck ploughs through the soccer terrace as Red looks on. Chins treats a treasured pitch as an off-road playground.",
+        "tension": "Red entered at 4–4 and seventh in the captured seeding; Chins is tied at 5–3 atop Pizza.",
+        "mechanism": "Tire marks cross the center circle; Red climbs a low terrace to intercept the truck at its slow turn, then tries to force it into a stone-service bottleneck.",
+        "turn": "Whether Chins clears that turn or becomes wedged decides the action. Loose goal netting tangles over the cab visually; stone geometry, not a flimsy net, bears the stopping force."
+      },
+      "physical_direction": "Retaliation A+B selected under delegation. Keep any red-card joke as punctuation, not dialogue in place of the pounce.",
+      "emotional_consequence": "Red win: driver stopped and territorial dignity reclaimed. Chins win: Red thrown into muddy turf, ruined field foreground, truck intact beyond. No fatalities or permanent destruction asserted.",
+      "draft_opening_copy": "The first tire track cut through the center circle. The second crossed a line Red actually cared about.",
+      "home_win": "Red Leopards wins: ambush atop truck and spatial trap at the pitch/ruins stop Chins; home territory reclaimed",
+      "away_win": "Seven Deadly Chins wins: truck and driver physically overpower Red's ambush and keep churning across already damaged field; Red's heartbreak clear",
+      "history_source": "https://github.com/jakekaloper-hub/schemin-26/issues/276",
+      "source_sha256": "efc3dae3038992a110bfa4d6af756d9254a5df6a57150d7e20d93f9dbcb1a9ce",
+      "week8_context": {
+        "Red Leopards": {
+          "opponent": "The LLC",
+          "points": 135.8,
+          "opponent_points": 138.58,
+          "won": false
+        },
+        "Seven Deadly Chins": {
+          "opponent": "D0nkey K0ng",
+          "points": 166.44,
+          "opponent_points": 92.75,
+          "won": true
+        }
+      },
+      "sports_causality": {
+        "status": "NOT_ACQUIRED_FOR_FINAL_WEEK9",
+        "final_score": null,
+        "winning_team_id": null,
+        "player_contributors": [],
+        "lineup_swing": null,
+        "injury_evidence": null,
+        "postweek_record": null,
+        "playoff_clinch_or_elimination": null,
+        "required_before_copy_lock": [
+          "verified final scores and status",
+          "starter/bench contributions with snapshot/source time",
+          "supported fantasy turning point",
+          "reconciled standings and transaction effects"
+        ]
+      },
+      "reference_binding_file": "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+    },
+    {
+      "id": "W09-M04",
+      "status": "DELEGATED_EDITORIAL_CANDIDATE_NOT_STORY_LOCK",
+      "home": {
+        "name": "The Chili Cheesers",
+        "teamId": 7,
+        "record": "4-4",
+        "characterId": "CHAR-BRANDON-PRYOR"
+      },
+      "away": {
+        "name": "His Majesty's Blood",
+        "teamId": 8,
+        "record": "5-3",
+        "characterId": "CHAR-AUSTIN-BYARS"
+      },
+      "venue_parent": "LOC-CHILI-STABLE",
+      "title": "Served Cold",
+      "story_engine": {
+        "scene": "Chili hosts the town cookout; the hooded Belt Keeper steps into a crowd expecting the Outlaw's show.",
+        "tension": "The documented 2025 sample gives HMB two victories; Chili wants one public event to end on his terms. No invented all-time dominance.",
+        "mechanism": "Place a cool serving vat, prize ribbon and Dark Horse on a visible staging plan. A judging-table contest, not a royal court, drives the scene.",
+        "turn": "Chili win: his deliberate serving-cart maneuver spills chili across HMB; Dark Horse helps move the cart, with cooled food and no burn gag. HMB win: he effortlessly pulls the host's serving table into his own position, takes the cookout ribbon and leaves Chili holding the ladle as his server."
+      },
+      "physical_direction": "Do not redesign HMB as a crowned monarch or replace his hood/black armor. A festival ribbon is never the league championship belt.",
+      "emotional_consequence": "Chili win: stunned red-eyed champion drenched in chili. HMB win: motionless champion eating while the furious host must serve at his own cookout.",
+      "draft_opening_copy": "Chili had invited the whole town to watch him cook. The Belt Keeper had come to see who would be served.",
+      "home_win": "Chili deliberately stages the cooled-chili serving-cart reversal; HMB is covered while retaining hood, armor and belt.",
+      "away_win": "HMB takes over the cookout judging table and ribbon; Chili is left ladle-in-hand serving the unruffled champion. No crown or belt transfer.",
+      "history_source": "https://github.com/jakekaloper-hub/schemin-26/issues/276",
+      "source_sha256": "efc3dae3038992a110bfa4d6af756d9254a5df6a57150d7e20d93f9dbcb1a9ce",
+      "week8_context": {
+        "The Chili Cheesers": {
+          "opponent": "Three Dreaded Snake",
+          "points": 123.51,
+          "opponent_points": 136.53,
+          "won": false
+        },
+        "His Majesty's Blood": {
+          "opponent": "Slob on my Dobb",
+          "points": 162.62,
+          "opponent_points": 158.26,
+          "won": true
+        }
+      },
+      "sports_causality": {
+        "status": "NOT_ACQUIRED_FOR_FINAL_WEEK9",
+        "final_score": null,
+        "winning_team_id": null,
+        "player_contributors": [],
+        "lineup_swing": null,
+        "injury_evidence": null,
+        "postweek_record": null,
+        "playoff_clinch_or_elimination": null,
+        "required_before_copy_lock": [
+          "verified final scores and status",
+          "starter/bench contributions with snapshot/source time",
+          "supported fantasy turning point",
+          "reconciled standings and transaction effects"
+        ]
+      },
+      "reference_binding_file": "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+    },
+    {
+      "id": "W09-M05",
+      "status": "DELEGATED_EDITORIAL_CANDIDATE_NOT_STORY_LOCK",
+      "home": {
+        "name": "D0nkey K0ng",
+        "teamId": 5,
+        "record": "4-4",
+        "characterId": "CHAR-WILSON-LOOK"
+      },
+      "away": {
+        "name": "The LLC",
+        "teamId": 4,
+        "record": "3-5",
+        "characterId": "CHAR-DAVID-BABB"
+      },
+      "venue_parent": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "title": "The Highland Challenge",
+      "story_engine": {
+        "scene": "DK enters his home arena; the LLC answers in tailored, luxurious knight armor while preserving his face and corporate identity.",
+        "tension": "DK enters 4–4 after a 92.75-point Week8 defeat; LLC enters 3–5 after beating Red by 2.78. These are prior-week facts, not Week9 performance.",
+        "mechanism": "Arena wide -> clean clash -> pivot -> counter -> domination. Keep all four DK legs readable in at least one action-wide and the final spatial resolution.",
+        "turn": "DK win: powerful advancing parry breaks LLC's balance. LLC win: economical sidestep and shield leverage beats DK's turn. Show cause before kneeling defeat."
+      },
+      "physical_direction": "No film still has been verified in this continuation; Gladiator is an aesthetic request, not a claimed shot-specific reference. No tigers, extra combatants or new copied film plot.",
+      "emotional_consequence": "Winner physically controls the ring; loser is defeated, not executed. No fantasy title awarded by this bout.",
+      "draft_opening_copy": "The stronghold knew its champion's entrance. It had not yet learned the challenger's price.",
+      "home_win": "D0nkey wins: Arsenal gorilla-centaur physically overpowers LLC and wins the sword fight",
+      "away_win": "The LLC wins: armored corporate knight outmaneuvers and physically overpowers the centaur champion",
+      "history_source": "https://github.com/jakekaloper-hub/schemin-26/issues/276",
+      "source_sha256": "efc3dae3038992a110bfa4d6af756d9254a5df6a57150d7e20d93f9dbcb1a9ce",
+      "week8_context": {
+        "D0nkey K0ng": {
+          "opponent": "Seven Deadly Chins",
+          "points": 92.75,
+          "opponent_points": 166.44,
+          "won": false
+        },
+        "The LLC": {
+          "opponent": "Red Leopards",
+          "points": 138.58,
+          "opponent_points": 135.8,
+          "won": true
+        }
+      },
+      "sports_causality": {
+        "status": "NOT_ACQUIRED_FOR_FINAL_WEEK9",
+        "final_score": null,
+        "winning_team_id": null,
+        "player_contributors": [],
+        "lineup_swing": null,
+        "injury_evidence": null,
+        "postweek_record": null,
+        "playoff_clinch_or_elimination": null,
+        "required_before_copy_lock": [
+          "verified final scores and status",
+          "starter/bench contributions with snapshot/source time",
+          "supported fantasy turning point",
+          "reconciled standings and transaction effects"
+        ]
+      },
+      "reference_binding_file": "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+    },
+    {
+      "id": "W09-M06",
+      "status": "DELEGATED_EDITORIAL_CANDIDATE_NOT_STORY_LOCK",
+      "home": {
+        "name": "Slob on my Dobb",
+        "teamId": 3,
+        "record": "4-4",
+        "characterId": "CHAR-JORDAN-HOLLINGSHEAD"
+      },
+      "away": {
+        "name": "Three Dreaded Snake",
+        "teamId": 6,
+        "record": "4-4",
+        "characterId": "CHAR-PHILLIP-PITTS"
+      },
+      "venue_parent": "LOC-SLOB-FOOTHILL-CAMP",
+      "title": "Paint the Pressure",
+      "story_engine": {
+        "scene": "Slob and TDS start opposite a foothill speedball course whose inflatable cover is nested among trees and slopes.",
+        "tension": "Both enter 4–4; Slob chases the Wings leader while TDS shares the Burgers W-L lead. The recent 2024–25 sample favored TDS.",
+        "mechanism": "Breakout sprint -> snapshot around cover -> reciprocal flank -> low slide -> paint impact. Keep a common left/right course map and safe spectators outside active lanes.",
+        "turn": "The winner slides to an open firing angle; camera remains just behind the winner with the loser clearly downrange. Bright fresh paint breaks across mask and chest."
+      },
+      "physical_direction": "One marker per character; safe protection stays on. TDS has exactly three protected serpent heads on one body; no duplicate bodies. Slob's horns/build remain recognizable.",
+      "emotional_consequence": "The winner's movement and loser's paint hits appear in the same decisive frame. No blood or real-firearm imagery.",
+      "draft_opening_copy": "At four and four, standing still was not a strategy. Neither of them did.",
+      "home_win": "Slob wins: final third-person winner-shoulder slide/aim shows TDS fully struck by multiple paint splatters",
+      "away_win": "Three Dreaded Snake wins: final third-person winner-shoulder slide/aim shows Slob hit by multiple paint splatters",
+      "history_source": "https://github.com/jakekaloper-hub/schemin-26/issues/276",
+      "source_sha256": "efc3dae3038992a110bfa4d6af756d9254a5df6a57150d7e20d93f9dbcb1a9ce",
+      "week8_context": {
+        "Slob on my Dobb": {
+          "opponent": "His Majesty's Blood",
+          "points": 158.26,
+          "opponent_points": 162.62,
+          "won": false
+        },
+        "Three Dreaded Snake": {
+          "opponent": "The Chili Cheesers",
+          "points": 136.53,
+          "opponent_points": 123.51,
+          "won": true
+        }
+      },
+      "sports_causality": {
+        "status": "NOT_ACQUIRED_FOR_FINAL_WEEK9",
+        "final_score": null,
+        "winning_team_id": null,
+        "player_contributors": [],
+        "lineup_swing": null,
+        "injury_evidence": null,
+        "postweek_record": null,
+        "playoff_clinch_or_elimination": null,
+        "required_before_copy_lock": [
+          "verified final scores and status",
+          "starter/bench contributions with snapshot/source time",
+          "supported fantasy turning point",
+          "reconciled standings and transaction effects"
+        ]
+      },
+      "reference_binding_file": "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+    }
+  ]
+}
