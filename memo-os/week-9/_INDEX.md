@@ -5,6 +5,12 @@
 **Current status:** `CREATIVE_INTERVIEW_RECORDED / PREVIS_CANDIDATES_PREPARED / CANONICAL_SNAPSHOT_LOCK_BLOCKED / FACT_LOCK_BLOCKED / NOT_RELEASED`.  
 **Not a new OS or a new mission.**
 
+## Current character application — audit corrections implemented
+
+The [existing issue register](./WEEK_9_COMPLETE_ISSUE_PREVIS_2026-11-08.json) now contains `resolved_character_appearances` for all12 and a `page_character_contract` for each character-bearing page. Chili’s later October22 appearance has explicit precedence; its exact preferred supplementary PNG is not falsely claimed as ingested. El Niño is restored to P08-P10 cast/reference inputs as the approved humanoid elemental, while Mud Dogs stays a four-legged hound. The canine-compatible dirt-bike staging remains a team proposal, not new biology or a proven rig.
+
+The [current story cards](./WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json), candidate packet, screenplay and thread context carry the same correction. Original Founder wording, source canon, football observations, outcome branches and existing rough images are preserved. Regression checks enforce source precedence, cast and output scope. They do not inspect generated pixels. No new accepted image or render approval is claimed; the repeatedly failed all-issue poster route and declined external connection are not retried.
+
 ## Latest P05 execution attempt — rejected, not completed
 
 Two native image calls were actually made for the existing single P05 golf proof. Both returned wrong-scope production posters with incorrect Duckhook appearance and1024x1536 geometry, so **neither is an accepted P05 image**. Unsupported completion labels and scores in those images have no authority. The [attempt/rejection receipt](./production-evidence/WEEK_9_P05_NATIVE_ATTEMPT_REVIEW_2026-11-08.json) preserves the commission, actual software-role call, hashes and observations. Approved character references remain settled. Runway connection authorization was declined; that route was not used or retried. Do not repeat this same failed generation loop or claim polished proof completion.

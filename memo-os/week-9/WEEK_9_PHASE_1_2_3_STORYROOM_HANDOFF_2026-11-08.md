@@ -1,5 +1,8 @@
 # Week 9 — Phase 1 / 2 / 3 Story-Room → Previs Production Handoff
 
+> **Current character application, 2026-11-08:** the existing issue JSON now resolves all12 owner appearances and each page’s exact cast. Chili uses the later October22 lock; El Niño remains embodied humanoid, while Mud Dogs remains a four-legged swamp hound. Equipment/wardrobe adapt to action, not identity. These are source/prompt corrections, not new approvals or repaired images.
+
+
 **Date:** 2026-11-08  
 **Owning mission:** [Week 8 released-memo postmortem → Week 9 correction, Issue #276](https://github.com/jakekaloper-hub/schemin-26/issues/276).  
 **Source-remediation owner:** [Data Steward/runtime execution gap, Issue #268](https://github.com/jakekaloper-hub/schemin-26/issues/268).  
