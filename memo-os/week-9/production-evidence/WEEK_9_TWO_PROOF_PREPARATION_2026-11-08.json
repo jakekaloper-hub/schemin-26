@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-08",
+  "state": "TWO_EXISTING_PAGE_PACKETS_REFINED_NOT_RENDER_CLEARED",
+  "pages": [
+    "W09-P05",
+    "W09-P20"
+  ],
+  "base_main": "0199166f4d7851fb1e5db96380c63a1098594266",
+  "local_search": {
+    "roots": [
+      "~/Developer/ai",
+      "~/Desktop",
+      "~/Downloads"
+    ],
+    "image_paths_scanned": 8539,
+    "match_method": "registered filename plus exact byte size and SHA256",
+    "registered_primary_identities_found": [
+      "CHAR-PHILLIP-PITTS",
+      "CHAR-AUSTIN-BYARS"
+    ],
+    "proof_characters_with_primary_bytes": [
+      "CHAR-PHILLIP-PITTS"
+    ],
+    "note": "Scoped search only; missing on this scan does not establish absent everywhere."
+  },
+  "library_search": {
+    "exact_registered_filenames": "No result",
+    "natural_character_queries": "Historical prose references only, not approved primary image bytes; some stale canon observed and not adopted",
+    "primary_materialized": false
+  },
+  "full_issue_page_count_preserved": 28,
+  "other_26_pages_unchanged": true,
+  "new_image_count": 0,
+  "render_authorized": false,
+  "fact_lock": false,
+  "story_lock": false,
+  "scene_technology_approval": false,
+  "selected_copy_word_counts": {
+    "W09-P05": 67,
+    "W09-P20": 64
+  },
+  "source_recovery_references": "Existing source registry and current October18 presentation overlays; no canon or hash supersession.",
+  "copy_geometry_metrics": {
+    "W09-P05": {
+      "engine": "macOS AppKit",
+      "font": "Arial 34; line height 43",
+      "measured_height": 309,
+      "phone_visual_QA": false,
+      "reserved_height": 370,
+      "text_fit": true
+    },
+    "W09-P20": {
+      "engine": "macOS AppKit",
+      "font": "Arial 34; line height 43",
+      "measured_height": 353,
+      "phone_visual_QA": false,
+      "reserved_height": 370,
+      "text_fit": true
+    }
+  },
+  "measurement_note": "Pillow import unavailable in shell Python; measured with existing macOS AppKit instead, no package installed. Text fit is not final-image readability acceptance.",
+  "measurement_script_source": "import Foundation\nimport AppKit\nlet path = NSHomeDirectory()+\"/Developer/ai/week9-previs-20261108/memo-os/week-9/WEEK_9_COMPLETE_ISSUE_PREVIS_2026-11-08.json\"\nlet doc = try JSONSerialization.jsonObject(with: Data(contentsOf: URL(fileURLWithPath:path))) as! [String:Any]\nvar results = [String:Any]()\nfor p in doc[\"pages\"] as! [[String:Any]] {\n guard let prep = p[\"proof_preparation\"] as? [String:Any] else {continue}\n let id=p[\"page_id\"] as! String, text=prep[\"body_copy\"] as! String\n let style=NSMutableParagraphStyle();style.minimumLineHeight=43;style.maximumLineHeight=43;style.lineBreakMode = .byWordWrapping\n let font=NSFont(name:\"Arial\",size:34)!\n let rect=(text as NSString).boundingRect(with:NSSize(width:960,height:1000),options:[.usesLineFragmentOrigin,.usesFontLeading],attributes:[.font:font,.paragraphStyle:style])\n let height=ceil(rect.height)\n precondition(height<=370,\"Body copy exceeds reserved box\")\n results[id] = [\"engine\":\"macOS AppKit\", \"font\":\"Arial 34; line height 43\", \"measured_height\":height,\"reserved_height\":370,\"text_fit\":true,\"phone_visual_QA\":false]\n}\nlet data=try JSONSerialization.data(withJSONObject:results,options:[.prettyPrinted,.sortedKeys]);try data.write(to:URL(fileURLWithPath:\"/tmp/week9-proof-text-fit.json\"));print(String(data:data,encoding:.utf8)!)\n",
+  "checks": {
+    "page_count": 28,
+    "changed_pages": [
+      "W09-P05",
+      "W09-P20"
+    ],
+    "other_pages_unchanged": 26,
+    "neutral_winner_fields": true,
+    "both_result_branches_preserved": true,
+    "four_presentation_hashes_match": true,
+    "no_render_or_story_fact_promotion": true,
+    "text_fit_passed": 2
+  },
+  "tested_previs_sha256": "083037836954a217655a77cc6a6d1651161c1a32d246038c15a346159111f0d1",
+  "existing_path_scoped_memo_gate": {
+    "exit_code": 0,
+    "log_sha256": "fc179b79902f0d1670c0780a680fbd5290510bdbe030950bdafff7a71a17448d",
+    "not_release_acceptance": true
+  }
+}

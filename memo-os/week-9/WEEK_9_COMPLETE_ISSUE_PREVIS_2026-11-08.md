@@ -96,6 +96,21 @@ The companion JSON uses the existing `PAGE_PRODUCTION_CONTRACT_V1.md` field name
 
 **Upstream dependency:** FACT_LOCK_PENDING, NO_RENDER_AUTHORIZATION, FINAL_RASTER_QA_NOT_PERFORMED, RENDERER_REFERENCE_BINDING_NOT_DEMONSTRATED.
 
+**Proof-preparation pass — November 8:** COPY_AND_SPATIAL_BLOCKING_PREPARED__REFERENCE_AND_FACT_GATES_OPEN.
+
+**Draft deck:** A charity invitation. A familiar rival. Nothing casual about the round.
+
+**Draft narrative copy (fictional, not approved final copy):** The invitation promised a morning for a good cause. The round exposed less charitable intentions. Duckhook knew every ridge of his own course; ObiWan had returned with a memory the host would rather forget. A clean strike earned a glance. A ball in the rough earned silence. By the time they walked toward the green, the autumn light was still beautiful. Neither man was looking at it.
+
+**Prepared action beats:**
+- **TEE:** Duckhook completes a balanced driver follow-through. ObiWan stands off the swing arc at the rear tee marker, watching the same ball flight. Both hands visibly share one golf-club grip; one club shaft, no duplicated arm. Ball has left the tee, no impact spark.
+- **RECOVERY:** ObiWan makes a sand recovery stroke, knees flexed and torso rotating; sand fan and the released ball separate clearly from his club. Boots planted at different depths; hands hold one club, green sword stays sheathed and does not substitute for equipment.
+- **READING_THE_GREEN:** One golfer crouches to read the line while the other stands back with a putter; their attention converges on one stationary ball. No hand/club overlaps an eye or bill. Putter head contacts ground beside ball, not a winning stroke.
+
+**Atlas disposition:** Existing-location reuse and temporary event dressing; no new LOC or institution. Removable charity signs, existing tee/bunker/green; no invented sponsor or real donations. Independent acceptance remains unverified.
+
+**Outcome safety:** Neutral proof composition does not select a winner. Final player explanation remains blank until sourced. Current primary/renderer-reference gaps remain explicit in JSON.
+
 ### W09-P06 — The Quiet Before the Putt
 **Job:** Slow the reading rhythm before the payoff.
 
@@ -260,6 +275,21 @@ The companion JSON uses the existing `PAGE_PRODUCTION_CONTRACT_V1.md` field name
 **Composition:** Lateral motion / cover edge close; 85:15 art:text target; body ceiling 90 words.
 
 **Upstream dependency:** FACT_LOCK_PENDING, NO_RENDER_AUTHORIZATION, FINAL_RASTER_QA_NOT_PERFORMED, RENDERER_REFERENCE_BINDING_NOT_DEMONSTRATED.
+
+**Proof-preparation pass — November 8:** COPY_AND_SPATIAL_BLOCKING_PREPARED__REFERENCE_ATLAS_AND_FACT_GATES_OPEN.
+
+**Draft deck:** Two contenders. Moving cover. No comfortable position.
+
+**Draft narrative copy (fictional, not approved final copy):** The first volley stripped the comfort out of cover. Slob drove forward between the trees while TDS watched the openings from three different angles. Paint snapped against the bunkers. A shoulder appeared, vanished, then appeared somewhere else. Neither competitor could afford to wait for a perfect shot. Every move gained ground and surrendered protection. Somewhere beyond the next barrier, one clean angle was waiting.
+
+**Prepared action beats:**
+- **CROSSING_LANE:** Slob moves from the southwest cylindrical bunker toward central low cover. TDS leans from a northeast wedge, three protected heads separated against a clean background. Slob’s leading foot presses turf; his supporting hand steadies the marker. TDS has only one pair of arms and one marker, not three armed bodies.
+- **SLOB_SLIDE_DETAIL:** Slob lowers into a short slide behind central cover; heavy body compresses clothing and scuffs grass while face protection stays in place. Legs remain connected and direction of soil spray follows motion. Preserve current October18 heavyset human presentation, not old horned redesign text.
+- **TDS_COUNTER_MOVE:** TDS changes from northeast wedge to adjacent rear tree cover; central head tracks lane while outer heads check flanks. Three head-specific face protections, visible neck continuity, two feet and one shared body. Marker stays below head silhouettes.
+
+**Atlas disposition:** Path B sub-location plus TEMPORARY_EVENT_SITE inside existing rough training ground, not remote Dye War Fields. Moveable inflatable covers and sporting paintball equipment are explicit Founder scene requests. Mark as proposed narrow Week9 visual exception, not global technology change. Independent acceptance remains unverified.
+
+**Outcome safety:** Neutral proof composition does not select a winner. Final player explanation remains blank until sourced. Current primary/renderer-reference gaps remain explicit in JSON.
 
 ### W09-P21 — The Winning Angle
 **Job:** Preserve winner, paint trajectory and loser in one decisive still.
