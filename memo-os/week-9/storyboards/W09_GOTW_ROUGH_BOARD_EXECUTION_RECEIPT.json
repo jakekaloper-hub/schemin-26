@@ -1,0 +1,54 @@
+{
+  "state": "ROUGH_SCHEMATIC_BOARD_RASTERIZED_FOR_REVIEW_NOT_FINAL_ART",
+  "svg": "memo-os/week-9/storyboards/W09_GOTW_ROUGH_BLOCKING_BOARD_V1.svg",
+  "png": "memo-os/week-9/storyboards/W09_GOTW_ROUGH_BLOCKING_BOARD_V1.png",
+  "svg_sha256": "b9eb78ff0823951c7e2483ef9953c2551b3ae3c89b5f6e544c26cf483dcb555c",
+  "png_sha256": "23715c088473f2a9cf3a4f6e21367217925453c9604d489c9e4290c6149bd063",
+  "width": 2400,
+  "height": 1790,
+  "frame_ids": [
+    "frame-1",
+    "frame-2",
+    "frame-3",
+    "frame-4",
+    "frame-5",
+    "frame-6",
+    "frame-7",
+    "frame-8",
+    "frame-9"
+  ],
+  "actual_winner": null,
+  "page_map": {
+    "01-02": "W09-P04",
+    "03-05": "W09-P05",
+    "06-07": "W09-P06",
+    "08A_OR_08B": "W09-P07"
+  },
+  "render_method": "Headless Chrome rasterization of existing deterministic SVG blocking board",
+  "visual_corrections": [
+    "Frames04 and07 observers moved onto dry ground after raster inspection",
+    "QuickLook square clipped preview excluded; replaced with full2400x1790 Chrome export"
+  ],
+  "native_image_candidates_current_turn": {
+    "count": 5,
+    "all_rejected": true,
+    "reason": "Returned all-six-matchup infographic/poster, incorrect human Duckhook, unsupported status labels; none is accepted or copied into canonical art",
+    "generation_ids": [
+      "92b14f24-dd09-4dfc-9832-5ea9e444e634",
+      "953e02f5-2605-462f-9e6d-1fc5b17a1402",
+      "5fe67282-619f-470f-ba98-63e44bf88024",
+      "53aaf947-f62c-4f48-b439-9df715f5efc8",
+      "7cbe6a37-41aa-43ca-b12b-a9c28313ed3b"
+    ]
+  },
+  "review_scope": "Assistant inspected raster for sequence/identity silhouettes, dimensions, all9 panels, conditional labels; Founder visual review outstanding. This is schematic staging, not finished character likeness QA.",
+  "fact_lock": false,
+  "story_lock": false,
+  "final_art_lock": false,
+  "release_approved": false,
+  "repository_validation": {
+    "memo_path_gate_exit": 0,
+    "authored_diff_check_exit": 0,
+    "does_not_prove_final_art_acceptance": true
+  }
+}

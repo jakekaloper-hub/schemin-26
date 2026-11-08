@@ -5,6 +5,12 @@
 **Current status:** `CREATIVE_INTERVIEW_RECORDED / PREVIS_CANDIDATES_PREPARED / CANONICAL_SNAPSHOT_LOCK_BLOCKED / FACT_LOCK_BLOCKED / NOT_RELEASED`.  
 **Not a new OS or a new mission.**
 
+## Latest tangible output — GOTW rough visual storyboard
+
+The **actual nine-frame blocking board** is now drawn and rasterized: [PNG review sheet](./storyboards/W09_GOTW_ROUGH_BLOCKING_BOARD_V1.png) · [editable SVG](./storyboards/W09_GOTW_ROUGH_BLOCKING_BOARD_V1.svg). It covers P04–P07, with seven shared beats and two mutually exclusive hypothetical endings. This is a simple spatial/pose rehearsal—not final character illustration, a fantasy result, or whole-issue release approval.
+
+The [execution receipt](./storyboards/W09_GOTW_ROUGH_BOARD_EXECUTION_RECEIPT.json) records source/output hashes, dimensions and visual corrections. Native poster-style candidates were rejected rather than promoted. Next review is the **actual drawn sequence** and its page-turn logic, not another written treatment or character audit.
+
 ## Latest execution — all five requested phases written
 
 The existing issue JSON/Markdown now contains the completed **six-sequence written storyboard pass: 48 beats, 36 common beats and 12 conditional endings**. P04–P07 has the complete GOTW; the other five duels have their own cause/effect, ground plan, opponent counters, page turns and endings. P05/P20 execution packets are refined, not replaced.
