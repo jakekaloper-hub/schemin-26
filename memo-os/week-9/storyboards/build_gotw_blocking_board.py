@@ -127,7 +127,7 @@ def scene3():
     line(306,309,382,309,1,'#7a7c6f')
 def scene4():
     env();path('M91 275 Q165 237 336 263 Q433 298 369 323 Q224 346 77 314Z','#ddd5bf','#9d947f',1)
-    figure('duck',552,245,.88);figure('human',239,311,1.58,'recover')
+    figure('duck',445,225,.88);figure('human',239,311,1.58,'recover')
     for dx,dy in [(65,-28),(90,-42),(105,-61),(118,-80),(85,-66),(65,-53),(120,-38)]:
         path(f'M295 302 Q{300+dx*.5} {285+dy} {300+dx} {300+dy}',stroke='#b5aa8e',w=1)
     ball(456,169);arrow('M315 291 Q380 194 456 169')
@@ -147,7 +147,7 @@ def scene6():
     arrow('M457 248 Q495 268 548 279')
     text(276,309,'BALL',13,'bold');text(399,153,'FLAG',13,'bold');text(475,323,'SLOPED APRON',13,'bold');text(605,281,'POND',13,'bold')
 def scene7():
-    env();figure('human',518,240,.90);figure('duck',238,330,1.90,'putt')
+    env();figure('human',426,236,.90);figure('duck',238,330,1.90,'putt')
     ball(387,330);flag(453,303)
     # Small isolated grip detail, not an extra limb in the main shot.
     rect(31,35,147,106,'#f9f5eb','#aaa496',1)

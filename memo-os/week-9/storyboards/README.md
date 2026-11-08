@@ -1,6 +1,6 @@
 # Week 9 rough visual storyboard — GOTW P04–P07
 
-**Actual drawing:** [Nine-frame rough blocking board](W09_GOTW_ROUGH_BLOCKING_BOARD_V1.svg).
+**Actual visual files:** [PNG overview](W09_GOTW_ROUGH_BLOCKING_BOARD_V1.png) and [editable SVG blocking board](W09_GOTW_ROUGH_BLOCKING_BOARD_V1.svg).
 
 Seven shared setup/action/tension frames lead to two explicitly conditional endings. This is a simple visual staging rehearsal, not another text treatment, not final character art, and not a report of the fantasy result. Duckhook is a white duck-headed golfer and ObiWan is the existing human field strategist; no other characters appear. Approved identities have not been reopened.
 
@@ -11,3 +11,7 @@ The vector source is durable and regenerable using `python3 memo-os/week-9/story
 Three native generation attempts returned broad production-status infographics with wrong character identity and unsupported completion checkmarks. Those images are **REJECTED**, not Story/Character/Art acceptance, and are not sources for this board. The actual board is the SVG linked above.
 
 This continues existing Issue #276 and the current Week9 page register. Phase E football verification is still open; no Fact/Story/Art Lock or whole-issue completion is claimed.
+
+## Raster review continuation
+
+The complete 2400×1790 PNG is now rendered and inspected. Two observers that overlapped water were moved to dry ground in frames04/07. Nine panels and both hypothetical endings remain visible; no final outcome is asserted. Failed native infographic attempts are rejected in the receipt, not accepted boards. Normal final memo-page character/phone/data QA is not claimed by this rough rehearsal.
