@@ -1,0 +1,164 @@
+{
+  "type": "ACTUAL_LOCAL_AI_ADVISORY_NOT_RELEASE_ACCEPTANCE",
+  "source_commit": "77a483480d8e59009d8d76e24b027d4738f7bf71",
+  "prior_work_commit": "03cce69771931c67e462d4da7020fe2e5fc5de91",
+  "bullpen_commit": "915dd2d23be6c62dab80f65d5279ea914ff1f73b",
+  "model": "qwen2.5-coder:7b",
+  "instruction": "Founder correction: character identity/reference approvals were solved repeatedly. Only HMB and DK warrant focused exception attention. Do not reopen Duckhook, ObiWan, Slob or TDS identity or ask for reuploads. Evidence: canon/characters/APPROVED_LINEUP_2026_10_18.json approves all12 presentation crops. Existing Week8 branch commit03cce697 has WEEK_8_15_FOLIO_LOCAL_RENDER_INPUTS_2026_11_04.json explicitly selecting those same crops for all15 folios, while requiring actual image attachment and final raster QA. Historical native binding has 11 handles marked READY and DK alone VISUAL_CANON_CONFLICT_HOLD; historical handle is not current mount proof. Week9 incorrectly turned old-primary JPEG byte-path absence into new identity blockers. Correct Week9 source selection using the established approved references, keeping actual attachment/final-raster QA separate. Ordinary settled four characters in P05 golf collage and P20 paintball can continue writing/staging now. No results known here, no artwork authorized by this advisory, no canon supersession. Under 120 words: give 3 specific corrections and next executable preparation action; no fake approvals, no new research or questionnaire.",
+  "responses": [
+    {
+      "director": "the_librarian",
+      "response": "To address the corrected founder instruction, the following specific corrections and the next executable preparation action are identified:\n\n1. **Week8 Branch Commit Review:** The commit `commit03cce697` should be updated to correctly reflect the approved character identity references. This involves ensuring that all 11 handles marked READY, with DK alone as the VISUAL_CANON_CONFLICT_HOLD, are correctly referenced and aligned with the approved lineup.\n\n2. **Week9 Source Selection Adjustment:** Week9 should use the established approved references for source selection. The current errors in identifying the historical native binding and turning the absence of old-primary JPEG byte-path absence into identity blockers must be corrected. This requires a reevaluation and adjustment of the Week9 sources based on the approved lineup.\n\n3. **P05 and P20 Character Work:** The ordinary settled four characters in P05 golf collage and P20 paintball can continue writing/staging as per established guidelines. No results are currently known by this advisory, and no artwork is authorized, thus no canon supersession is required at this time.\n\n**Next Executable Preparation Action:** The immediate task for the Groundskeeper (Chief Operations Officer) is to coordinate with the Setup Man (Chief Technology Officer) to execute a thorough update of the Week8",
+      "usage": {
+        "prompt_tokens": 1238,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens": 260,
+        "total_tokens": 1498
+      }
+    },
+    {
+      "director": "the_beat_writer",
+      "response": "**Assessment and Evidence:**\nThe current project context does not provide any specific details regarding the actions or identities mentioned (HMB, DK, Duckhook, ObiWan, Slob, TDS). Therefore, based solely on the information provided, I cannot make any corrections or take any executable actions.\n\n**Decision and Next Steps:**\nTo provide actionable guidance, I need more specific details about the issues and identities mentioned in the correction request. Without this context, I cannot make any corrections or proceed with any further actions.\n\n**Conclusion:**\nThe request contains specific identity and approval mentions that are not detailed in the current project context. Please provide the necessary details, and I will be able to assist with corrections and actionable next steps.",
+      "usage": {
+        "prompt_tokens": 1222,
+        "prompt_tokens_details": {
+          "cached_tokens": 5
+        },
+        "completion_tokens": 150,
+        "total_tokens": 1372
+      }
+    }
+  ],
+  "started_at": "2026-11-08T19:42:23.701Z",
+  "finished_at": "2026-11-08T19:42:50.520Z",
+  "events": [
+    {
+      "name": "BULLPEN_CONSULTATION",
+      "payload": {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_librarian",
+        "messageLength": 1198,
+        "responseLength": 1353,
+        "model": "qwen2.5-coder:7b",
+        "latencyMs": 17321
+      },
+      "at": "2026-11-08T19:42:41.023Z"
+    },
+    {
+      "name": "BULLPEN_CONSULTATION",
+      "payload": {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_beat_writer",
+        "messageLength": 1198,
+        "responseLength": 787,
+        "model": "qwen2.5-coder:7b",
+        "latencyMs": 9495
+      },
+      "at": "2026-11-08T19:42:50.520Z"
+    }
+  ],
+  "traces": [
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_librarian",
+      "messageLength": 1198,
+      "responseLength": 1353,
+      "model": "qwen2.5-coder:7b",
+      "latencyMs": 17321,
+      "at": "2026-11-08T19:42:41.024Z"
+    },
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_beat_writer",
+      "messageLength": 1198,
+      "responseLength": 787,
+      "model": "qwen2.5-coder:7b",
+      "latencyMs": 9495,
+      "at": "2026-11-08T19:42:50.520Z"
+    }
+  ],
+  "source_checked_disposition": {
+    "accepted": [
+      "Librarian: carry approved references into Week9 selection",
+      "Librarian: continue P05/P20 without new identity approvals"
+    ],
+    "rejected": [
+      "Librarian: rewrite historic Week8 commit/archive; history remains unchanged",
+      "Beat Writer: ask Founder for more context despite supplied sources and settled directions"
+    ],
+    "implemented_by": "Assistant-mediated source-checked editing under Founder delegation, not an autonomous runtime approval"
+  },
+  "root_cause": "Week9 foregrounded absent legacy-primary JPEG paths while overlooking the prior Week8 approved-lineup input selection; conflated source transport with character identity approval.",
+  "reference_readback": [
+    {
+      "character_id": "CHAR-ZACH-WILSON",
+      "selected_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+      "sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+      "state": "APPROVED_REFERENCE_SELECTION_PRESENT_NOT_RENDERED"
+    },
+    {
+      "character_id": "CHAR-JAKE-KALOPER",
+      "selected_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+      "sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+      "state": "APPROVED_REFERENCE_SELECTION_PRESENT_NOT_RENDERED"
+    },
+    {
+      "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "selected_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+      "sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+      "state": "APPROVED_REFERENCE_SELECTION_PRESENT_NOT_RENDERED"
+    },
+    {
+      "character_id": "CHAR-PHILLIP-PITTS",
+      "selected_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+      "sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+      "state": "APPROVED_REFERENCE_SELECTION_PRESENT_NOT_RENDERED"
+    }
+  ],
+  "verification": {
+    "pages_total": 28,
+    "selected_pages": [
+      "W09-P05",
+      "W09-P20"
+    ],
+    "other_26_pages_unchanged": true,
+    "four_subjects_outside_exception_set": true,
+    "reference_hashes_match": 4,
+    "briefs_written": 2,
+    "image_generation_count": 0,
+    "renderer_attachment_proven": false,
+    "fact_lock_promoted": false,
+    "story_lock_promoted": false,
+    "legacy_source_hashes_unchanged": true,
+    "user_reupload_requested": false,
+    "negative_cases": [
+      {
+        "case": "outlier_leak",
+        "rejected_by": [
+          "OUTLIER_LEAK"
+        ]
+      },
+      {
+        "case": "false_render",
+        "rejected_by": [
+          "FALSE_PROMOTION"
+        ]
+      },
+      {
+        "case": "identity_reopened",
+        "rejected_by": [
+          "REOPENED_IDENTITY"
+        ]
+      }
+    ],
+    "path_scoped_memo_gate": {
+      "command": "python governance/repository-protection/merge_gate.py run --changed-file-list /tmp/schemin-w9-settled-character-paths.txt",
+      "exit_code": 0
+    },
+    "authored_files_diff_check": 0
+  }
+}

@@ -5,7 +5,15 @@
 **Current status:** `CREATIVE_INTERVIEW_RECORDED / PREVIS_CANDIDATES_PREPARED / CANONICAL_SNAPSHOT_LOCK_BLOCKED / FACT_LOCK_BLOCKED / NOT_RELEASED`.  
 **Not a new OS or a new mission.**
 
-## Current continuation — source-bound storyboards and complete issue candidate
+## Current continuation — settled characters, execution briefs next
+
+**Founder correction, November 8:** Existing character approvals are settled. Do not reopen Duckhook, ObiWan, Slob, TDS or the other settled owners because an older primary-JPEG path is absent in one checkout. Only **HMB and DK** retain focused exception attention, scoped to their own pages. The four P05/P20 subjects are not in that exception set.
+
+**Prior work recovered:** Week 8 commit `03cce69771931c67e462d4da7020fe2e5fc5de91`, `memo-os/week-8/previs/WEEK_8_15_FOLIO_LOCAL_RENDER_INPUTS_2026_11_04.json`, already selects `canon/characters/APPROVED_LINEUP_2026_10_18.json` as its visual source. Week 9 now carries that selection forward explicitly instead of restarting original-file recovery. This is reuse of approved visual identity, not retroactive approval of Week 8 rejected outputs.
+
+**Advanced now:** P05 and P20 have subject-specific approved reference paths/checksums plus executable image briefs, exact copy, physical action, layout, and separate outcome branches in the existing page register. Next: execute the normal supported image-attachment and applicable source/scene checks, then inspect actual proof images when rendering is authorized. No new questionnaire, no new character design, no global primary-hash change, and no claimed render success.
+
+## Existing source-bound storyboards and complete issue candidate
 
 PR #281 merged to main at `409b0dca4b471ecea14e9f8badf46e4ec87f8a5c` under explicit Founder instruction. The next stage has now been **written**, not merely assigned:
 
@@ -18,7 +26,7 @@ PR #281 merged to main at `409b0dca4b471ecea14e9f8badf46e4ec87f8a5c` under expli
 
 **Important correction:** HMB is the current hooded red-eyed black-armored Belt Keeper, not a crowned monarch. Prior assistant-generated royal/crown framing is superseded in active story cards; Founder cookout/winner-dependent humiliation remains unchanged.
 
-**Next gate:** finish source/player-data and reference-binding gaps, obtain Atlas disposition on proposed event geometry/scene-only technology, then Story Lock and reference-bound proof images after authorization. Do not restart the questionnaire, H2H research or complete-issue plan.
+**Next gate:** continue from the two prepared execution briefs using settled approved references. Complete only the actual renderer attachment, applicable scene/source and final-output checks; keep HMB/DK exceptions off unrelated pages. Do not restart character approvals, original-image searches, the questionnaire, H2H research or the complete-issue plan.
 
 ## Start here (this week's authorized editorial workflow)
 
