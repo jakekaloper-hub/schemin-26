@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "mission": "SCHEMIN_UNREAL_FULL_WORLD",
+  "source_repository": "jakekaloper-hub/schemin-26",
+  "canonical_bullpen": "jakekaloper-hub/bullpen",
+  "operating_model": "bounded local automation; no unattended LLM claims",
+  "work_packages": [
+    {
+      "id": "UE-101",
+      "sequence": 1,
+      "name": "Canonical integration refresh",
+      "scope": "Inspect newer GitHub main records and produce a source-drift report; never silently replace pinned canon.",
+      "domain": "the_librarian",
+      "status": "PENDING",
+      "evidence": []
+    },
+    {
+      "id": "UE-102",
+      "sequence": 2,
+      "name": "World route and travel graph",
+      "scope": "Compile canonical region and location adjacency into validated navigation records; no invented metric routes.",
+      "domain": "the_architect",
+      "status": "PENDING",
+      "evidence": []
+    },
+    {
+      "id": "UE-103",
+      "sequence": 3,
+      "name": "Regional visual palettes",
+      "scope": "Develop source-based material and biome references for all 7 zones, preserving provenance.",
+      "domain": "the_visual_direction_lead",
+      "status": "PENDING",
+      "evidence": []
+    },
+    {
+      "id": "UE-104",
+      "sequence": 4,
+      "name": "Region construction kits",
+      "scope": "Implement modular generated landscape proxy components and build scripts in UE; verify idempotency.",
+      "domain": "the_architect",
+      "status": "PENDING",
+      "evidence": []
+    },
+    {
+      "id": "UE-105",
+      "sequence": 5,
+      "name": "Playable first vertical slice",
+      "scope": "Add collision, spawn, navigation and editor-level Play verification with FPS and memory evidence.",
+      "domain": "the_groundskeeper",
+      "status": "PENDING",
+      "evidence": []
+    },
+    {
+      "id": "UE-106",
+      "sequence": 6,
+      "name": "Preview camera and render",
+      "scope": "Create actual Sequencer camera shots and save inspectable image frames on the Mac.",
+      "domain": "the_visual_direction_lead",
+      "status": "PENDING",
+      "evidence": []
+    },
+    {
+      "id": "UE-107",
+      "sequence": 7,
+      "name": "Location-scale rollout",
+      "scope": "Rebuild all source-approved locations through reusable kits; separately flag provisional/interpretive records.",
+      "domain": "the_architect",
+      "status": "PENDING",
+      "evidence": []
+    },
+    {
+      "id": "UE-108",
+      "sequence": 8,
+      "name": "Historic event overlays",
+      "scope": "Replay verified source events without canon writeback; preserve venue and chronology.",
+      "domain": "the_beat_writer",
+      "status": "PENDING",
+      "evidence": []
+    },
+    {
+      "id": "UE-109",
+      "sequence": 9,
+      "name": "Character source gate",
+      "scope": "Check visual asset hash and subject binding; HOLD if not proven.",
+      "domain": "the_umpire",
+      "status": "HOLD",
+      "evidence": []
+    },
+    {
+      "id": "UE-110",
+      "sequence": 10,
+      "name": "Integration and release QA",
+      "scope": "Run full repo CI, independent Umpire evidence review, decide merge only when genuinely green.",
+      "domain": "the_umpire",
+      "status": "HOLD",
+      "evidence": []
+    }
+  ]
+}

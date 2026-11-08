@@ -1,0 +1,53 @@
+{
+  "checks": {
+    "CHAR-PHILLIP-PITTS": {
+      "sha_match": true,
+      "bytes": 331140
+    },
+    "CHAR-ZACH-WILSON": {
+      "sha_match": true,
+      "bytes": 225523
+    },
+    "renderer": {
+      "state": "GENERATION_ROUTE_SUBJECT_BINDING_UNPROVEN",
+      "reason": "CAPABILITY_EVIDENCE_UNPROVEN"
+    },
+    "character": {
+      "exit": 0,
+      "output_tail": ".............\n----------------------------------------------------------------------\nRan 13 tests in 0.007s\n\nOK\n"
+    },
+    "scene": {
+      "exit": 0,
+      "output_tail": "...........\n----------------------------------------------------------------------\nRan 11 tests in 0.001s\n\nOK\n"
+    },
+    "masi": {
+      "exit": 0,
+      "output_tail": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.001s\n\nOK\n"
+    }
+  },
+  "roles": [
+    {
+      "role": "architect",
+      "status": "generated_unverified"
+    },
+    {
+      "role": "librarian",
+      "status": "generated_unverified"
+    },
+    {
+      "role": "visual",
+      "status": "generated_unverified"
+    },
+    {
+      "role": "groundskeeper",
+      "status": "generated_unverified"
+    },
+    {
+      "role": "umpire",
+      "status": "generated_unverified"
+    }
+  ],
+  "elapsed_seconds": 198,
+  "umpire_is_independent_human": false,
+  "production_rendered": false
+}

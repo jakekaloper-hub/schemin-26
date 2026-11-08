@@ -1,0 +1,20 @@
+{
+  "register_slate_post_tick_callback": true,
+  "unregister_slate_post_tick_callback": true,
+  "UnrealEditorSubsystem": true,
+  "get_game_world": false,
+  "EditorLevelSubsystem": false,
+  "UnrealEditorSubsystem_methods": [
+    "get_editor_world",
+    "get_game_world",
+    "get_world",
+    "screen_to_world",
+    "world_to_screen"
+  ],
+  "LevelEditorSubsystem_methods": [
+    "editor_play_simulate",
+    "editor_request_begin_play",
+    "editor_request_end_play",
+    "is_in_play_in_editor"
+  ]
+}

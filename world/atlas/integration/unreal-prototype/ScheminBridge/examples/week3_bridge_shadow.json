@@ -1,0 +1,18 @@
+{
+  "mode": "SHADOW_PREVIEW_ONLY",
+  "source_commit": "7afe7ef0fcf24e25d67ca8c85d4e6e36e03a78e3",
+  "event_id": "EVT-W3-BRIDGE",
+  "location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+  "location_name": "Bridge at the Mountain Lake",
+  "event_type": "encounter",
+  "entering_state": [
+    "bridge and lake intact"
+  ],
+  "continuity_out": [
+    "remembered decision landmark",
+    "no physical destruction required"
+  ],
+  "week": 3,
+  "mutates_world_state": false,
+  "canon_approved": false
+}

@@ -1,0 +1,798 @@
+{
+  "status": "PROVISIONAL",
+  "world_state_as_of": "end_of_week_3_2026",
+  "note": "Week 4-7 state reconciliation required. Registered connectivity does not prove travel timing. GOTW neutral venue approval pending.",
+  "references": {
+    "1": {
+      "character_id": "CHAR-JAKE-KALOPER",
+      "manifest": "/Users/jakekaloper/Developer/ai/schemin-visual-local/repo/canon/characters/CHAR-JAKE-KALOPER/REFERENCE_MANIFEST.yaml",
+      "crop": "/Users/jakekaloper/Developer/ai/schemin-visual-local/repo/canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+      "exists": true,
+      "hash_verified": true,
+      "render_mount_proven": false
+    },
+    "2": {
+      "character_id": "CHAR-KEVIN-ZEEK",
+      "manifest": "/Users/jakekaloper/Developer/ai/schemin-visual-local/repo/canon/characters/CHAR-KEVIN-ZEEK/REFERENCE_MANIFEST.yaml",
+      "crop": "/Users/jakekaloper/Developer/ai/schemin-visual-local/repo/canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+      "exists": true,
+      "hash_verified": true,
+      "render_mount_proven": false
+    },
+    "3": {
+      "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "manifest": "/Users/jakekaloper/Developer/ai/schemin-visual-local/repo/canon/characters/CHAR-JORDAN-HOLLINGSHEAD/REFERENCE_MANIFEST.yaml",
+      "crop": "/Users/jakekaloper/Developer/ai/schemin-visual-local/repo/canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+      "exists": true,
+      "hash_verified": true,
+      "render_mount_proven": false
+    },
+    "4": {
+      "character_id": "CHAR-DAVID-BABB",
+      "manifest": "/Users/jakekaloper/Developer/ai/schemin-visual-local/repo/canon/characters/CHAR-DAVID-BABB/REFERENCE_MANIFEST.yaml",
+      "crop": "/Users/jakekaloper/Developer/ai/schemin-visual-local/repo/canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+      "exists": true,
+      "hash_verified": true,
+      "render_mount_proven": false
+    },
+    "5": {
+      "character_id": "CHAR-WILSON-LOOK",
+      "manifest": "/Users/jakekaloper/Developer/ai/schemin-visual-local/repo/canon/characters/CHAR-WILSON-LOOK/REFERENCE_MANIFEST.yaml",
+      "crop": "/Users/jakekaloper/Developer/ai/schemin-visual-local/repo/canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+      "exists": true,
+      "hash_verified": true,
+      "render_mount_proven": false
+    },
+    "6": {
+      "character_id": "CHAR-PHILLIP-PITTS",
+      "manifest": "/Users/jakekaloper/Developer/ai/schemin-visual-local/repo/canon/characters/CHAR-PHILLIP-PITTS/REFERENCE_MANIFEST.yaml",
+      "crop": "/Users/jakekaloper/Developer/ai/schemin-visual-local/repo/canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+      "exists": true,
+      "hash_verified": true,
+      "render_mount_proven": false
+    },
+    "7": {
+      "character_id": "CHAR-BRANDON-PRYOR",
+      "manifest": "/Users/jakekaloper/Developer/ai/schemin-visual-local/repo/canon/characters/CHAR-BRANDON-PRYOR/REFERENCE_MANIFEST.yaml",
+      "crop": "/Users/jakekaloper/Developer/ai/schemin-visual-local/repo/canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+      "exists": true,
+      "hash_verified": true,
+      "render_mount_proven": false
+    },
+    "8": {
+      "character_id": "CHAR-AUSTIN-BYARS",
+      "manifest": "/Users/jakekaloper/Developer/ai/schemin-visual-local/repo/canon/characters/CHAR-AUSTIN-BYARS/REFERENCE_MANIFEST.yaml",
+      "crop": "/Users/jakekaloper/Developer/ai/schemin-visual-local/repo/canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+      "exists": true,
+      "hash_verified": true,
+      "render_mount_proven": false
+    },
+    "9": {
+      "character_id": "CHAR-MANNING-WELTY",
+      "manifest": "/Users/jakekaloper/Developer/ai/schemin-visual-local/repo/canon/characters/CHAR-MANNING-WELTY/REFERENCE_MANIFEST.yaml",
+      "crop": "/Users/jakekaloper/Developer/ai/schemin-visual-local/repo/canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+      "exists": true,
+      "hash_verified": true,
+      "render_mount_proven": false
+    },
+    "10": {
+      "character_id": "CHAR-BOBBY-MITCHELL",
+      "manifest": "/Users/jakekaloper/Developer/ai/schemin-visual-local/repo/canon/characters/CHAR-BOBBY-MITCHELL/REFERENCE_MANIFEST.yaml",
+      "crop": "/Users/jakekaloper/Developer/ai/schemin-visual-local/repo/canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+      "exists": true,
+      "hash_verified": true,
+      "render_mount_proven": false
+    },
+    "11": {
+      "character_id": "CHAR-BEN-WHIPPLE",
+      "manifest": "/Users/jakekaloper/Developer/ai/schemin-visual-local/repo/canon/characters/CHAR-BEN-WHIPPLE/REFERENCE_MANIFEST.yaml",
+      "crop": "/Users/jakekaloper/Developer/ai/schemin-visual-local/repo/canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+      "exists": true,
+      "hash_verified": true,
+      "render_mount_proven": false
+    },
+    "12": {
+      "character_id": "CHAR-ZACH-WILSON",
+      "manifest": "/Users/jakekaloper/Developer/ai/schemin-visual-local/repo/canon/characters/CHAR-ZACH-WILSON/REFERENCE_MANIFEST.yaml",
+      "crop": "/Users/jakekaloper/Developer/ai/schemin-visual-local/repo/canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+      "exists": true,
+      "hash_verified": true,
+      "render_mount_proven": false
+    }
+  },
+  "packets": [
+    {
+      "packet_id": "W08-06-01",
+      "story": "The Place We Once Knew",
+      "home_team_id": 6,
+      "away_team_id": 7,
+      "location_id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "location_canon_status": "INTERPRETIVE_CANON",
+      "shot": "Two familiar arrivals",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "two equal 1080x960 POV panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-PHILLIP-PITTS",
+        "CHAR-BRANDON-PRYOR"
+      ],
+      "result_branch": "NONE until ESPN winner decided",
+      "qa": "NOT RUN",
+      "enrichment_device": "Oxford corner-bedroom historical memory / architectural match cut",
+      "historical_fact_status": "Founder-supplied shared corner bedroom at Ole Miss Kappa Sigma house; exact room appearance unverified"
+    },
+    {
+      "packet_id": "W08-06-02",
+      "story": "The Place We Once Knew",
+      "home_team_id": 6,
+      "away_team_id": 7,
+      "location_id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "location_canon_status": "INTERPRETIVE_CANON",
+      "shot": "The shared settlement",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "flexible full bleed or sequential panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-PHILLIP-PITTS",
+        "CHAR-BRANDON-PRYOR"
+      ],
+      "result_branch": "NONE until ESPN winner decided",
+      "qa": "NOT RUN",
+      "enrichment_device": "Oxford corner-bedroom historical memory / architectural match cut",
+      "historical_fact_status": "Founder-supplied shared corner bedroom at Ole Miss Kappa Sigma house; exact room appearance unverified"
+    },
+    {
+      "packet_id": "W08-06-03",
+      "story": "The Place We Once Knew",
+      "home_team_id": 6,
+      "away_team_id": 7,
+      "location_id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "location_canon_status": "INTERPRETIVE_CANON",
+      "shot": "Memory / present match cut",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "flexible full bleed or sequential panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-PHILLIP-PITTS",
+        "CHAR-BRANDON-PRYOR"
+      ],
+      "result_branch": "NONE until ESPN winner decided",
+      "qa": "NOT RUN",
+      "enrichment_device": "Oxford corner-bedroom historical memory / architectural match cut",
+      "historical_fact_status": "Founder-supplied shared corner bedroom at Ole Miss Kappa Sigma house; exact room appearance unverified"
+    },
+    {
+      "packet_id": "W08-06-04",
+      "story": "The Place We Once Knew",
+      "home_team_id": 6,
+      "away_team_id": 7,
+      "location_id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "location_canon_status": "INTERPRETIVE_CANON",
+      "shot": "The first strike",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "flexible full bleed or sequential panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-PHILLIP-PITTS",
+        "CHAR-BRANDON-PRYOR"
+      ],
+      "result_branch": "NONE until ESPN winner decided",
+      "qa": "NOT RUN",
+      "enrichment_device": "Oxford corner-bedroom historical memory / architectural match cut",
+      "historical_fact_status": "Founder-supplied shared corner bedroom at Ole Miss Kappa Sigma house; exact room appearance unverified"
+    },
+    {
+      "packet_id": "W08-06-05",
+      "story": "The Place We Once Knew",
+      "home_team_id": 6,
+      "away_team_id": 7,
+      "location_id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "location_canon_status": "INTERPRETIVE_CANON",
+      "shot": "Paths become traps",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "flexible full bleed or sequential panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-PHILLIP-PITTS",
+        "CHAR-BRANDON-PRYOR"
+      ],
+      "result_branch": "NONE until ESPN winner decided",
+      "qa": "NOT RUN",
+      "enrichment_device": "Oxford corner-bedroom historical memory / architectural match cut",
+      "historical_fact_status": "Founder-supplied shared corner bedroom at Ole Miss Kappa Sigma house; exact room appearance unverified"
+    },
+    {
+      "packet_id": "W08-06-06",
+      "story": "The Place We Once Knew",
+      "home_team_id": 6,
+      "away_team_id": 7,
+      "location_id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "location_canon_status": "INTERPRETIVE_CANON",
+      "shot": "The final meeting",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "flexible full bleed or sequential panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-PHILLIP-PITTS",
+        "CHAR-BRANDON-PRYOR"
+      ],
+      "result_branch": "A home wins / B away wins; both provisional",
+      "qa": "NOT RUN",
+      "enrichment_device": "Oxford corner-bedroom historical memory / architectural match cut",
+      "historical_fact_status": "Founder-supplied shared corner bedroom at Ole Miss Kappa Sigma house; exact room appearance unverified"
+    },
+    {
+      "packet_id": "W08-02-01",
+      "story": "Hostile Ground",
+      "home_team_id": 2,
+      "away_team_id": 4,
+      "location_id": "LOC-RED-RUINS",
+      "location_canon_status": "PERMANENT_CANON",
+      "shot": "Predator / intruder overture",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "two equal 1080x960 POV panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-DAVID-BABB"
+      ],
+      "result_branch": "NONE until ESPN winner decided",
+      "qa": "NOT RUN",
+      "enrichment_device": "The fortress that remembers",
+      "enrichment_direction": "Architecture reveals a tactical reversal; never invent prior destruction",
+      "historical_fact_status": "fictional creative proposal; no invented real incident"
+    },
+    {
+      "packet_id": "W08-02-02",
+      "story": "Hostile Ground",
+      "home_team_id": 2,
+      "away_team_id": 4,
+      "location_id": "LOC-RED-RUINS",
+      "location_canon_status": "PERMANENT_CANON",
+      "shot": "Coastal infiltration",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "flexible full bleed or sequential panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-DAVID-BABB"
+      ],
+      "result_branch": "NONE until ESPN winner decided",
+      "qa": "NOT RUN",
+      "enrichment_device": "The fortress that remembers",
+      "enrichment_direction": "Architecture reveals a tactical reversal; never invent prior destruction",
+      "historical_fact_status": "fictional creative proposal; no invented real incident"
+    },
+    {
+      "packet_id": "W08-02-03",
+      "story": "Hostile Ground",
+      "home_team_id": 2,
+      "away_team_id": 4,
+      "location_id": "LOC-RED-RUINS",
+      "location_canon_status": "PERMANENT_CANON",
+      "shot": "Reversal in the ruins",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "flexible full bleed or sequential panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-DAVID-BABB"
+      ],
+      "result_branch": "NONE until ESPN winner decided",
+      "qa": "NOT RUN",
+      "enrichment_device": "The fortress that remembers",
+      "enrichment_direction": "Architecture reveals a tactical reversal; never invent prior destruction",
+      "signature_visual_proposal": "The LLC believes the ruins are under control; a new vantage reverses apparent advantage",
+      "historical_fact_status": "fictional creative proposal; no invented real incident"
+    },
+    {
+      "packet_id": "W08-02-04",
+      "story": "Hostile Ground",
+      "home_team_id": 2,
+      "away_team_id": 4,
+      "location_id": "LOC-RED-RUINS",
+      "location_canon_status": "PERMANENT_CANON",
+      "shot": "Exposed-height confrontation",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "flexible full bleed or sequential panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-DAVID-BABB"
+      ],
+      "result_branch": "A home wins / B away wins; both provisional",
+      "qa": "NOT RUN",
+      "enrichment_device": "The fortress that remembers",
+      "enrichment_direction": "Architecture reveals a tactical reversal; never invent prior destruction",
+      "historical_fact_status": "fictional creative proposal; no invented real incident"
+    },
+    {
+      "packet_id": "W08-01-01",
+      "story": "The Storm That Wouldn't Leave",
+      "home_team_id": 1,
+      "away_team_id": 9,
+      "location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "location_canon_status": "PERMANENT_CANON",
+      "shot": "Order / storm overture",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "two equal 1080x960 POV panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-MANNING-WELTY"
+      ],
+      "result_branch": "NONE until ESPN winner decided",
+      "qa": "NOT RUN",
+      "enrichment_device": "Escalating absurd siege",
+      "enrichment_direction": "Ordered defenses produce increasingly ridiculous failures",
+      "historical_fact_status": "fictional creative proposal; no invented real incident"
+    },
+    {
+      "packet_id": "W08-01-02",
+      "story": "The Storm That Wouldn't Leave",
+      "home_team_id": 1,
+      "away_team_id": 9,
+      "location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "location_canon_status": "PERMANENT_CANON",
+      "shot": "First failed defense",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "flexible full bleed or sequential panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-MANNING-WELTY"
+      ],
+      "result_branch": "NONE until ESPN winner decided",
+      "qa": "NOT RUN",
+      "enrichment_device": "Escalating absurd siege",
+      "enrichment_direction": "Ordered defenses produce increasingly ridiculous failures",
+      "historical_fact_status": "fictional creative proposal; no invented real incident"
+    },
+    {
+      "packet_id": "W08-01-03",
+      "story": "The Storm That Wouldn't Leave",
+      "home_team_id": 1,
+      "away_team_id": 9,
+      "location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "location_canon_status": "PERMANENT_CANON",
+      "shot": "The mountain siege",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "flexible full bleed or sequential panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-MANNING-WELTY"
+      ],
+      "result_branch": "NONE until ESPN winner decided",
+      "qa": "NOT RUN",
+      "enrichment_device": "Escalating absurd siege",
+      "enrichment_direction": "Ordered defenses produce increasingly ridiculous failures",
+      "signature_visual_proposal": "A single drip after the storm gate shuts becomes a potential flood",
+      "historical_fact_status": "fictional creative proposal; no invented real incident"
+    },
+    {
+      "packet_id": "W08-01-04",
+      "story": "The Storm That Wouldn't Leave",
+      "home_team_id": 1,
+      "away_team_id": 9,
+      "location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "location_canon_status": "PERMANENT_CANON",
+      "shot": "Escalating setbacks",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "flexible full bleed or sequential panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-MANNING-WELTY"
+      ],
+      "result_branch": "NONE until ESPN winner decided",
+      "qa": "NOT RUN",
+      "enrichment_device": "Escalating absurd siege",
+      "enrichment_direction": "Ordered defenses produce increasingly ridiculous failures",
+      "historical_fact_status": "fictional creative proposal; no invented real incident"
+    },
+    {
+      "packet_id": "W08-01-05",
+      "story": "The Storm That Wouldn't Leave",
+      "home_team_id": 1,
+      "away_team_id": 9,
+      "location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "location_canon_status": "PERMANENT_CANON",
+      "shot": "The final passage",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "flexible full bleed or sequential panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-MANNING-WELTY"
+      ],
+      "result_branch": "A home wins / B away wins; both provisional",
+      "qa": "NOT RUN",
+      "enrichment_device": "Escalating absurd siege",
+      "enrichment_direction": "Ordered defenses produce increasingly ridiculous failures",
+      "historical_fact_status": "fictional creative proposal; no invented real incident"
+    },
+    {
+      "packet_id": "W08-10-01",
+      "story": "The Last Light",
+      "home_team_id": 10,
+      "away_team_id": 12,
+      "location_id": "LOC-MUD-DOGS-SWAMP",
+      "location_canon_status": "PERMANENT_CANON",
+      "shot": "Hunter / hunted overture",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "two equal 1080x960 POV panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-ZACH-WILSON"
+      ],
+      "result_branch": "NONE until ESPN winner decided",
+      "qa": "NOT RUN",
+      "enrichment_device": "The disappearing horizon",
+      "enrichment_direction": "Every scene progressively reduces daylight",
+      "historical_fact_status": "fictional creative proposal; no invented real incident"
+    },
+    {
+      "packet_id": "W08-10-02",
+      "story": "The Last Light",
+      "home_team_id": 10,
+      "away_team_id": 12,
+      "location_id": "LOC-MUD-DOGS-SWAMP",
+      "location_canon_status": "PERMANENT_CANON",
+      "shot": "The disturbed trail",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "flexible full bleed or sequential panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-ZACH-WILSON"
+      ],
+      "result_branch": "NONE until ESPN winner decided",
+      "qa": "NOT RUN",
+      "enrichment_device": "The disappearing horizon",
+      "enrichment_direction": "Every scene progressively reduces daylight",
+      "historical_fact_status": "fictional creative proposal; no invented real incident"
+    },
+    {
+      "packet_id": "W08-10-03",
+      "story": "The Last Light",
+      "home_team_id": 10,
+      "away_team_id": 12,
+      "location_id": "LOC-MUD-DOGS-SWAMP",
+      "location_canon_status": "PERMANENT_CANON",
+      "shot": "The narrowing channel",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "flexible full bleed or sequential panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-ZACH-WILSON"
+      ],
+      "result_branch": "NONE until ESPN winner decided",
+      "qa": "NOT RUN",
+      "enrichment_device": "The disappearing horizon",
+      "enrichment_direction": "Every scene progressively reduces daylight",
+      "signature_visual_proposal": "Hunter and hunted freeze in shallow water as the final sunset reflection vanishes",
+      "historical_fact_status": "fictional creative proposal; no invented real incident"
+    },
+    {
+      "packet_id": "W08-10-04",
+      "story": "The Last Light",
+      "home_team_id": 10,
+      "away_team_id": 12,
+      "location_id": "LOC-MUD-DOGS-SWAMP",
+      "location_canon_status": "PERMANENT_CANON",
+      "shot": "Last-light confrontation",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "flexible full bleed or sequential panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-ZACH-WILSON"
+      ],
+      "result_branch": "A home wins / B away wins; both provisional",
+      "qa": "NOT RUN",
+      "enrichment_device": "The disappearing horizon",
+      "enrichment_direction": "Every scene progressively reduces daylight",
+      "historical_fact_status": "fictional creative proposal; no invented real incident"
+    },
+    {
+      "packet_id": "W08-05-01",
+      "story": "The Fallen Giant",
+      "home_team_id": 5,
+      "away_team_id": 11,
+      "location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "location_canon_status": "INTERPRETIVE_CANON",
+      "shot": "Challenger / giant overture",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "two equal 1080x960 POV panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-WILSON-LOOK",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "result_branch": "NONE until ESPN winner decided",
+      "qa": "NOT RUN",
+      "enrichment_device": "Silence after the charge",
+      "enrichment_direction": "Giant charge, Chins resistance, battlefield falls silent",
+      "historical_fact_status": "fictional creative proposal; no invented real incident"
+    },
+    {
+      "packet_id": "W08-05-02",
+      "story": "The Fallen Giant",
+      "home_team_id": 5,
+      "away_team_id": 11,
+      "location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "location_canon_status": "INTERPRETIVE_CANON",
+      "shot": "Highland battlefield",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "flexible full bleed or sequential panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-WILSON-LOOK",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "result_branch": "NONE until ESPN winner decided",
+      "qa": "NOT RUN",
+      "enrichment_device": "Silence after the charge",
+      "enrichment_direction": "Giant charge, Chins resistance, battlefield falls silent",
+      "historical_fact_status": "fictional creative proposal; no invented real incident"
+    },
+    {
+      "packet_id": "W08-05-03",
+      "story": "The Fallen Giant",
+      "home_team_id": 5,
+      "away_team_id": 11,
+      "location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "location_canon_status": "INTERPRETIVE_CANON",
+      "shot": "First collision",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "flexible full bleed or sequential panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-WILSON-LOOK",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "result_branch": "NONE until ESPN winner decided",
+      "qa": "NOT RUN",
+      "enrichment_device": "Silence after the charge",
+      "enrichment_direction": "Giant charge, Chins resistance, battlefield falls silent",
+      "signature_visual_proposal": "Ground-level DK four-legged charge; Chins still standing in the aftermath",
+      "historical_fact_status": "fictional creative proposal; no invented real incident"
+    },
+    {
+      "packet_id": "W08-05-04",
+      "story": "The Fallen Giant",
+      "home_team_id": 5,
+      "away_team_id": 11,
+      "location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "location_canon_status": "INTERPRETIVE_CANON",
+      "shot": "Momentum reversal",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "flexible full bleed or sequential panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-WILSON-LOOK",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "result_branch": "NONE until ESPN winner decided",
+      "qa": "NOT RUN",
+      "enrichment_device": "Silence after the charge",
+      "enrichment_direction": "Giant charge, Chins resistance, battlefield falls silent",
+      "historical_fact_status": "fictional creative proposal; no invented real incident"
+    },
+    {
+      "packet_id": "W08-05-05",
+      "story": "The Fallen Giant",
+      "home_team_id": 5,
+      "away_team_id": 11,
+      "location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "location_canon_status": "INTERPRETIVE_CANON",
+      "shot": "Final stand",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "flexible full bleed or sequential panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-WILSON-LOOK",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "result_branch": "A home wins / B away wins; both provisional",
+      "qa": "NOT RUN",
+      "enrichment_device": "Silence after the charge",
+      "enrichment_direction": "Giant charge, Chins resistance, battlefield falls silent",
+      "historical_fact_status": "fictional creative proposal; no invented real incident"
+    },
+    {
+      "packet_id": "W08-03-01",
+      "story": "The Weight of a Crown",
+      "home_team_id": 3,
+      "away_team_id": 8,
+      "location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "location_canon_status": "PROVISIONAL_CANON",
+      "shot": "Champion / contender overture",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "two equal 1080x960 POV panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-JORDAN-HOLLINGSHEAD",
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "result_branch": "NONE until ESPN winner decided",
+      "qa": "NOT RUN",
+      "enrichment_device": "The champion who expects applause",
+      "enrichment_direction": "Ceremonial entry collides with indifference at Slob foothill camp",
+      "historical_fact_status": "fictional creative proposal; no invented real incident"
+    },
+    {
+      "packet_id": "W08-03-02",
+      "story": "The Weight of a Crown",
+      "home_team_id": 3,
+      "away_team_id": 8,
+      "location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "location_canon_status": "PROVISIONAL_CANON",
+      "shot": "The challenge",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "flexible full bleed or sequential panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-JORDAN-HOLLINGSHEAD",
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "result_branch": "NONE until ESPN winner decided",
+      "qa": "NOT RUN",
+      "enrichment_device": "The champion who expects applause",
+      "enrichment_direction": "Ceremonial entry collides with indifference at Slob foothill camp",
+      "historical_fact_status": "fictional creative proposal; no invented real incident"
+    },
+    {
+      "packet_id": "W08-03-03",
+      "story": "The Weight of a Crown",
+      "home_team_id": 3,
+      "away_team_id": 8,
+      "location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "location_canon_status": "PROVISIONAL_CANON",
+      "shot": "Ceremonial confidence breaks",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "flexible full bleed or sequential panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-JORDAN-HOLLINGSHEAD",
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "result_branch": "NONE until ESPN winner decided",
+      "qa": "NOT RUN",
+      "enrichment_device": "The champion who expects applause",
+      "enrichment_direction": "Ceremonial entry collides with indifference at Slob foothill camp",
+      "signature_visual_proposal": "The crowd falls silent as Slob casually prepares to fight",
+      "historical_fact_status": "fictional creative proposal; no invented real incident"
+    },
+    {
+      "packet_id": "W08-03-04",
+      "story": "The Weight of a Crown",
+      "home_team_id": 3,
+      "away_team_id": 8,
+      "location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "location_canon_status": "PROVISIONAL_CANON",
+      "shot": "The reckoning",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "layout": "flexible full bleed or sequential panels",
+      "copy_safe_zone": "keep editorial text within x=90..990, y=140..1760; final placement requires proof",
+      "reference_ids": [
+        "CHAR-JORDAN-HOLLINGSHEAD",
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "result_branch": "A home wins / B away wins; both provisional",
+      "qa": "NOT RUN",
+      "enrichment_device": "The champion who expects applause",
+      "enrichment_direction": "Ceremonial entry collides with indifference at Slob foothill camp",
+      "historical_fact_status": "fictional creative proposal; no invented real incident"
+    }
+  ],
+  "issue_sections": [
+    "Cover / midseason overture",
+    "Division races and seven playoff berths",
+    "Week 7 consequences",
+    "GOTW six beats",
+    "Five other matchup sequences",
+    "Pittsys Book (verified only)",
+    "Results / power movement",
+    "Week 9 closing"
+  ],
+  "gotw_oxford_proposal": {
+    "historical_anchor": "Oxford Mississippi Ole Miss Kappa Sigma corner bedroom shared by TDS and Chili",
+    "status": "FOUNDER_SUPPLIED_MEMORY_ONLY",
+    "venue": "LOC-TDS-CHILI-SHARED-MARCH conditional neutral-site approval",
+    "new_beats": [
+      "Oxford corner room memory",
+      "architectural match cut to Shared March"
+    ],
+    "outcome": "UNDECIDED"
+  },
+  "production_status": "ENRICHED STORYBOARD PREVIS; NOT FINAL ART; OUTCOME UNDECIDED",
+  "creative_enrichment_version": "2026-11-02"
+}

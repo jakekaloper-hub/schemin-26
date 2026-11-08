@@ -1,0 +1,45 @@
+{
+  "folio": 10,
+  "title": "The Giant Yields",
+  "packet_ids": [
+    "W08-05-05"
+  ],
+  "story": "The Fallen Giant",
+  "atlas_parent_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+  "canvas": [
+    1080,
+    1920
+  ],
+  "image_prompt": "CINEMATIC INTERIOR PNG, 1080 \u00d7 1920, portrait 9:16, existing Week 7 premium editorial craft. Scene The Fallen Giant; physical setting LOC-DK-HIGHLAND-STRONGHOLD / proposed Highland Killing Ground; Overcast autumn daylight and low drifting fog; preserve body anatomy and battlefield spatial clarity. The HUMAN Chins owns center court after redirecting the final axe rush; hammer planted, forty-ounce bottle and separate raccoon restored. One integrated FOUR-HOOFED gorilla-centaur remains alive and impressive but takes one backward step. No coronation, army, injuries or second creature. Camera: grounded central court victory framing, stronghold gate same axis. Source-action choreography: W08-05-05: Final stand; action: Final axe rush diverted by Chins hammer; Centaur retreats one stride; Chins takes center, bottle and raccoon reunited, wins 166.44\u201392.75. Character identity must be conditioned from verified attached source images: Arsenal Centaur: ONE gorilla-equine centaur with four hooves, Arsenal-red armor, axe [HARD IMAGE HOLD]; Seven Deadly Chins: bearded HUMAN hammer bruiser, separate raccoon. Characters and physical space obey continuity; do not clone the same figure to depict multiple beats in one frame. Use a primary decisive still plus subtle cinematic temporal inset ONLY if physically necessary. Compact header candidate, generous cinematic upper/middle image, reserve clean lower text zone. After independent factual certification, reserve exact score receipt: Seven Deadly Chins 166.44 / D0nkey K0ng 92.75. No early result on preceding pages. Never generate unverified text, generic stand-ins, permanent world changes or previously rejected Week 8 compositions.",
+  "characters": [
+    {
+      "character_id": "CHAR-WILSON-LOOK",
+      "reference_manifest": "canon/characters/CHAR-WILSON-LOOK/REFERENCE_MANIFEST.yaml",
+      "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+      "expected_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+      "locally_verified_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+      "local_source_present": true,
+      "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+      "renderer_attachment_id": null,
+      "renderer_attachment_proven": false,
+      "active_visual_conflict": "FOUR_HOOFED_RECONCILIATION_PENDING"
+    },
+    {
+      "character_id": "CHAR-BEN-WHIPPLE",
+      "reference_manifest": "canon/characters/CHAR-BEN-WHIPPLE/REFERENCE_MANIFEST.yaml",
+      "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+      "expected_sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+      "locally_verified_sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+      "local_source_present": true,
+      "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+      "renderer_attachment_id": null,
+      "renderer_attachment_proven": false,
+      "active_visual_conflict": null
+    }
+  ],
+  "asset_status": "LOCAL_REFERENCE_BYTES_VERIFIED; PROVIDER_NOT_ATTACHED",
+  "output_status": "NOT_RENDERED",
+  "publisher_acceptance": false,
+  "exact_copy_status": "CANDIDATE_NOT_LOCKED",
+  "atlas_production_gate": "PROVISIONAL"
+}

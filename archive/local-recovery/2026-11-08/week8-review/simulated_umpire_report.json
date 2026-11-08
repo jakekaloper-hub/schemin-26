@@ -1,0 +1,46 @@
+{
+  "review_type": "LOCAL_SIMULATED_BULLPEN_REVIEW_NOT_AUTHENTICATED_INDEPENDENT_UMPIRE",
+  "checks": {
+    "all_12_reference_hashes_match": true,
+    "all_6_route_graph_connected": true,
+    "all_28_canvas_correct": true,
+    "all_6_have_overture": true,
+    "all_6_have_dual_outcome": true
+  },
+  "matchups": {
+    "The Place We Once Knew": {
+      "route_connected": true,
+      "packets": 6
+    },
+    "Hostile Ground": {
+      "route_connected": true,
+      "packets": 4
+    },
+    "The Storm That Wouldn't Leave": {
+      "route_connected": true,
+      "packets": 5
+    },
+    "The Last Light": {
+      "route_connected": true,
+      "packets": 4
+    },
+    "The Fallen Giant": {
+      "route_connected": true,
+      "packets": 5
+    },
+    "The Weight of a Crown": {
+      "route_connected": true,
+      "packets": 4
+    }
+  },
+  "blocking_items": [
+    "GOTW neutral-site formal admission not proven",
+    "Week 4-7 entering World State not reconstructed",
+    "No authenticated independent Steward / Fact Lock",
+    "Reference crop hashes pass but render mount not proven",
+    "No final ESPN winner certification",
+    "No actual visual raster QA or Founder final approval"
+  ],
+  "disposition": "CONDITIONAL_PREPRODUCTION_PASS; RELEASE_BLOCKED",
+  "approval": "NOT GRANTED"
+}

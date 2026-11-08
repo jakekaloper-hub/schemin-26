@@ -1,0 +1,29 @@
+RENDER_AUDIT BLOCKED NO_RENDER_OUTPUT
+
+test_fail_closed (test_environment_specs.EnvironmentTests.test_fail_closed) ... ok
+test_preserve_landmark_labels (test_environment_specs.EnvironmentTests.test_preserve_landmark_labels) ... ok
+test_specs_all_locations (test_environment_specs.EnvironmentTests.test_specs_all_locations) ... ok
+test_bad_coordinate_space_rejected (test_export.ExportTests.test_bad_coordinate_space_rejected) ... ok
+test_provisional_location_rejected (test_export.ExportTests.test_provisional_location_rejected) ... ok
+test_real_canonical_location (test_export.ExportTests.test_real_canonical_location) ... ok
+test_unknown_location_rejected (test_export.ExportTests.test_unknown_location_rejected) ... ok
+test_evidence_cannot_claim_movement (test_pie_evidence.PIEEvidenceTests.test_evidence_cannot_claim_movement) ... ok
+test_no_canon_promotion (test_region_packets.RegionTests.test_no_canon_promotion) ... ok
+test_region_coverage (test_region_packets.RegionTests.test_region_coverage) ... ok
+test_no_false_positive (test_render_acceptance.RenderAcceptanceTests.test_no_false_positive) ... ok
+test_historical_bridge (test_shadow_replay.ShadowReplayTests.test_historical_bridge) ... ok
+test_missing_event_blocked (test_shadow_replay.ShadowReplayTests.test_missing_event_blocked) ... ok
+test_narrative_interpretation_not_world_canon (test_shadow_replay.ShadowReplayTests.test_narrative_interpretation_not_world_canon) ... ok
+test_all_routes (test_travel_graph.TravelTests.test_all_routes) ... ok
+test_unknown_endpoint_rejected (test_travel_graph.TravelTests.test_unknown_endpoint_rejected) ... ok
+test_fail_closed (test_validate.Tests.test_fail_closed) ... ok
+test_fixture_contract (test_validate.Tests.test_fixture_contract) ... ok
+test_full_atlas (test_world_manifest.WorldManifestTests.test_full_atlas) ... ok
+test_mutated_snapshot_blocked (test_world_manifest.WorldManifestTests.test_mutated_snapshot_blocked) ... ok
+test_no_character_instantiation (test_world_manifest.WorldManifestTests.test_no_character_instantiation) ... ok
+test_statuses_remain_distinct (test_world_manifest.WorldManifestTests.test_statuses_remain_distinct) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.005s
+
+OK

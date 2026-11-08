@@ -1,0 +1,40 @@
+[
+  {
+    "folder": "week7-renderer-gates",
+    "head": "faa17a53616f8a0ed806d5cb91dc2aa89a044f46",
+    "ancestor_of_main": false,
+    "remote_refs": [],
+    "bundle_path": "archive/local-recovery/2026-11-08/week7-renderer-gates-unmerged.bundle",
+    "bundle_sha256": "c6c196d63c6c54a267d956f84b974d1589a6eb2fddb3eb394fb00630a0ab05bb",
+    "bundle_bytes": 2304106,
+    "bundle_state": "VERIFIED_WITH_MAIN_PREREQUISITES",
+    "unique_history_changed_files": 55
+  },
+  {
+    "folder": "week7-source-acceptance",
+    "head": "592feb79c198d911c4b5b42475f92d064e3ea56c",
+    "ancestor_of_main": false,
+    "remote_refs": [],
+    "bundle_path": "archive/local-recovery/2026-11-08/week7-source-acceptance-unmerged.bundle",
+    "bundle_sha256": "6fe371dc34b05e0b960a8678c83053775380aca06ca9b5e595709f70afe5e480",
+    "bundle_bytes": 123886,
+    "bundle_state": "VERIFIED_WITH_MAIN_PREREQUISITES",
+    "unique_history_changed_files": 21
+  },
+  {
+    "folder": "week8-cinematic-live-20261104",
+    "head": "03cce69771931c67e462d4da7020fe2e5fc5de91",
+    "ancestor_of_main": false,
+    "remote_refs": [
+      "refs/heads/week8-storyboard-dependency-gate-20261102"
+    ]
+  },
+  {
+    "folder": "week8-release-validation",
+    "head": "bdc6f98020114fbb4394776aced6b976112fed88",
+    "ancestor_of_main": false,
+    "remote_refs": [
+      "refs/heads/fix/week8-release-validation-20261106"
+    ]
+  }
+]

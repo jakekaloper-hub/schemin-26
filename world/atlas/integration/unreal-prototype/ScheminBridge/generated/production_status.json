@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "run_utc": "2026-11-08T18:31:04.932124+00:00",
+  "source": "schemin-26 pinned Atlas",
+  "tasks": [
+    {
+      "task": "source_drift",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "-m",
+        "ScheminBridge.source_drift_check"
+      ],
+      "exit_code": 0,
+      "state": "PASS"
+    },
+    {
+      "task": "manifest",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "-m",
+        "ScheminBridge.build_world_manifest"
+      ],
+      "exit_code": 0,
+      "state": "PASS"
+    },
+    {
+      "task": "environment_specs",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "-m",
+        "ScheminBridge.build_environment_specs"
+      ],
+      "exit_code": 0,
+      "state": "PASS"
+    },
+    {
+      "task": "region_packets",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "-m",
+        "ScheminBridge.build_region_packets"
+      ],
+      "exit_code": 0,
+      "state": "PASS"
+    },
+    {
+      "task": "travel_graph",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "-m",
+        "ScheminBridge.build_travel_graph"
+      ],
+      "exit_code": 0,
+      "state": "PASS"
+    },
+    {
+      "task": "regression",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "ScheminBridge/tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "state": "PASS"
+    },
+    {
+      "task": "preview_catalog",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "-m",
+        "ScheminBridge.build_preview_catalog"
+      ],
+      "exit_code": 0,
+      "state": "PASS"
+    }
+  ],
+  "overall": "LOCAL_PIPELINE_PASS_NOT_RELEASED"
+}

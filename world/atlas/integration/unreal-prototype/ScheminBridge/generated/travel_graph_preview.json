@@ -1,0 +1,430 @@
+{
+  "schema_version": "schemin.unreal.travel-preview.v0.1",
+  "source_commit": "7afe7ef0fcf24e25d67ca8c85d4e6e36e03a78e3",
+  "metric_navigation": false,
+  "routes": [
+    {
+      "route_id": "ROUTE-EASTERN-ASCENT",
+      "location_sequence": [
+        "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "LOC-BRIDGE-MOUNTAIN-LAKE"
+      ],
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "constraints": [
+        "steep grades",
+        "weather exposure"
+      ],
+      "canon_status": "INTERPRETIVE_CANON",
+      "source_provenance": [
+        "world/atlas/PHYSICAL_ATLAS_V1.md"
+      ],
+      "physical_distance": null,
+      "travel_duration": null,
+      "approved_for_navigation": false
+    },
+    {
+      "route_id": "ROUTE-HEARTHROAD",
+      "location_sequence": [
+        "LOC-ARSENAL-BARBERSHOP",
+        "LOC-SLOB-FOOTHILL-CAMP",
+        "LOC-BRIDGE-MOUNTAIN-LAKE"
+      ],
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "constraints": [
+        "ridge traffic",
+        "market congestion"
+      ],
+      "canon_status": "INTERPRETIVE_CANON",
+      "source_provenance": [
+        "world/divisions/BURGERS_DIVISION_INDEX_V1.md"
+      ],
+      "physical_distance": null,
+      "travel_duration": null,
+      "approved_for_navigation": false
+    },
+    {
+      "route_id": "ROUTE-DELTA-CAUSEWAY",
+      "location_sequence": [
+        "LOC-MUD-DOGS-SWAMP",
+        "LOC-DK-MUD-HILL",
+        "LOC-COUNTRY-CLUB-JACKSON"
+      ],
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wetland"
+      ],
+      "constraints": [
+        "seasonal flooding",
+        "soft ground"
+      ],
+      "canon_status": "INTERPRETIVE_CANON",
+      "source_provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ],
+      "physical_distance": null,
+      "travel_duration": null,
+      "approved_for_navigation": false
+    },
+    {
+      "route_id": "ROUTE-JACKSON-LEVEE",
+      "location_sequence": [
+        "LOC-COUNTRY-CLUB-JACKSON",
+        "LOC-CHINS-ROAD-COMMONS"
+      ],
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "constraints": [
+        "flood closures",
+        "river crossings"
+      ],
+      "canon_status": "INTERPRETIVE_CANON",
+      "source_provenance": [
+        "world/divisions/WINGS_DIVISION_INDEX_V1.md"
+      ],
+      "physical_distance": null,
+      "travel_duration": null,
+      "approved_for_navigation": false
+    },
+    {
+      "route_id": "ROUTE-STORM-COAST",
+      "location_sequence": [
+        "LOC-STORM-BOWL",
+        "LOC-LLC-STORM-CITY"
+      ],
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon",
+        "sea"
+      ],
+      "constraints": [
+        "major storms",
+        "forest washouts",
+        "coastal surge"
+      ],
+      "canon_status": "INTERPRETIVE_CANON",
+      "source_provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ],
+      "physical_distance": null,
+      "travel_duration": null,
+      "approved_for_navigation": false
+    },
+    {
+      "route_id": "ROUTE-INNER-SEA-QUAY",
+      "location_sequence": [
+        "LOC-LLC-BOARDROOM",
+        "LOC-LLC-STORM-CITY"
+      ],
+      "travel_modes": [
+        "foot",
+        "wagon",
+        "sea"
+      ],
+      "constraints": [
+        "port congestion",
+        "storm gates"
+      ],
+      "canon_status": "INTERPRETIVE_CANON",
+      "source_provenance": [
+        "world/divisions/PIZZA_DIVISION_INDEX_V1.md"
+      ],
+      "physical_distance": null,
+      "travel_duration": null,
+      "approved_for_navigation": false
+    },
+    {
+      "route_id": "ROUTE-RAIN-ESCARPMENT",
+      "location_sequence": [
+        "LOC-RED-RUINS",
+        "LOC-BRIDGE-MOUNTAIN-LAKE"
+      ],
+      "travel_modes": [
+        "foot",
+        "mount"
+      ],
+      "constraints": [
+        "heavy rain",
+        "forest grade"
+      ],
+      "canon_status": "INTERPRETIVE_CANON",
+      "source_provenance": [
+        "world/divisions/BURGERS_DIVISION_INDEX_V1.md"
+      ],
+      "physical_distance": null,
+      "travel_duration": null,
+      "approved_for_navigation": false
+    },
+    {
+      "route_id": "ROUTE-FALLS-PATH",
+      "location_sequence": [
+        "LOC-TDS-WATERFALL-TEMPLE",
+        "LOC-MUD-DOGS-SWAMP"
+      ],
+      "travel_modes": [
+        "foot",
+        "wetland"
+      ],
+      "constraints": [
+        "waterfall escarpment",
+        "seasonal high water"
+      ],
+      "canon_status": "INTERPRETIVE_CANON",
+      "source_provenance": [
+        "world/divisions/WINGS_DIVISION_INDEX_V1.md"
+      ],
+      "physical_distance": null,
+      "travel_duration": null,
+      "approved_for_navigation": false
+    },
+    {
+      "route_id": "ROUTE-WESTERN-RANGE",
+      "location_sequence": [
+        "LOC-CHILI-STABLE",
+        "LOC-CHINS-ROAD-COMMONS"
+      ],
+      "travel_modes": [
+        "mount",
+        "wagon",
+        "foot"
+      ],
+      "constraints": [
+        "long exposed distances",
+        "dry-season water stops"
+      ],
+      "canon_status": "INTERPRETIVE_CANON",
+      "source_provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ],
+      "physical_distance": null,
+      "travel_duration": null,
+      "approved_for_navigation": false
+    },
+    {
+      "route_id": "ROUTE-BLACK-CLIFF",
+      "location_sequence": [
+        "LOC-BELT-KEEPER-KEEP",
+        "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+      ],
+      "travel_modes": [
+        "foot",
+        "mount"
+      ],
+      "constraints": [
+        "cliff exposure",
+        "storm closures"
+      ],
+      "canon_status": "INTERPRETIVE_CANON",
+      "source_provenance": [
+        "world/divisions/PIZZA_DIVISION_INDEX_V1.md"
+      ],
+      "physical_distance": null,
+      "travel_duration": null,
+      "approved_for_navigation": false
+    },
+    {
+      "route_id": "ROUTE-BASIN-MARKET",
+      "location_sequence": [
+        "LOC-CHINS-ROAD-COMMONS",
+        "LOC-PITTSYS-BOOK",
+        "LOC-SOUTHERN-SPEEDWAY",
+        "LOC-DK-MUD-HILL",
+        "LOC-LEAGUE-CHAMBER"
+      ],
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon",
+        "river"
+      ],
+      "constraints": [
+        "market traffic"
+      ],
+      "canon_status": "INTERPRETIVE_CANON",
+      "source_provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ],
+      "physical_distance": null,
+      "travel_duration": null,
+      "approved_for_navigation": false
+    },
+    {
+      "route_id": "ROUTE-NORTHERN-PASS",
+      "location_sequence": [
+        "LOC-RED-SLOB-ALPINE-ROUTE",
+        "LOC-ARSENAL-BARBERSHOP"
+      ],
+      "travel_modes": [
+        "foot",
+        "mount"
+      ],
+      "constraints": [
+        "snow",
+        "rockfall",
+        "seasonal pass closure"
+      ],
+      "canon_status": "INTERPRETIVE_CANON",
+      "source_provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md"
+      ],
+      "physical_distance": null,
+      "travel_duration": null,
+      "approved_for_navigation": false
+    },
+    {
+      "route_id": "ROUTE-DK-HIGHLAND-LINK",
+      "location_sequence": [
+        "LOC-DK-HIGHLAND-STRONGHOLD",
+        "LOC-ARSENAL-BARBERSHOP"
+      ],
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "constraints": [
+        "ridge grade",
+        "market traffic"
+      ],
+      "canon_status": "INTERPRETIVE_CANON",
+      "source_provenance": [
+        "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+      ],
+      "physical_distance": null,
+      "travel_duration": null,
+      "approved_for_navigation": false
+    },
+    {
+      "route_id": "ROUTE-TDS-CHILI-SHARED-MARCH",
+      "location_sequence": [
+        "LOC-TDS-WATERFALL-TEMPLE",
+        "LOC-CHILI-STABLE"
+      ],
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon",
+        "wetland"
+      ],
+      "constraints": [
+        "seasonal water",
+        "tableland exposure"
+      ],
+      "canon_status": "INTERPRETIVE_CANON",
+      "source_provenance": [
+        "world/civilization/INHABITANT_ONTOLOGY_V1.md"
+      ],
+      "physical_distance": null,
+      "travel_duration": null,
+      "approved_for_navigation": false
+    },
+    {
+      "route_id": "ROUTE-COMPACT-GROUNDS",
+      "location_sequence": [
+        "LOC-LEAGUE-CHAMBER",
+        "LOC-COMPACT-NEUTRAL-GROUNDS"
+      ],
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "constraints": [
+        "event traffic"
+      ],
+      "canon_status": "INTERPRETIVE_CANON",
+      "source_provenance": [
+        "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+      ],
+      "physical_distance": null,
+      "travel_duration": null,
+      "approved_for_navigation": false
+    },
+    {
+      "route_id": "ROUTE-UPPER-BASIN-CONNECTOR",
+      "location_sequence": [
+        "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "LOC-LEAGUE-CHAMBER"
+      ],
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon",
+        "river"
+      ],
+      "constraints": [
+        "grade descent",
+        "river crossing",
+        "seasonal mud"
+      ],
+      "canon_status": "INTERPRETIVE_CANON",
+      "source_provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md",
+        "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+      ],
+      "physical_distance": null,
+      "travel_duration": null,
+      "approved_for_navigation": false
+    },
+    {
+      "route_id": "ROUTE-PORT-BASIN-CONNECTOR",
+      "location_sequence": [
+        "LOC-LLC-STORM-CITY",
+        "LOC-LEAGUE-CHAMBER"
+      ],
+      "travel_modes": [
+        "wagon",
+        "river",
+        "coastal_vessel"
+      ],
+      "constraints": [
+        "storm gates",
+        "river traffic",
+        "port congestion"
+      ],
+      "canon_status": "INTERPRETIVE_CANON",
+      "source_provenance": [
+        "living-novel/world/PHYSICAL_WORLD.md",
+        "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+      ],
+      "physical_distance": null,
+      "travel_duration": null,
+      "approved_for_navigation": false
+    },
+    {
+      "route_id": "ROUTE-ARCHIVE-CHAMBER",
+      "location_sequence": [
+        "LOC-LEAGUE-ARCHIVE",
+        "LOC-LEAGUE-CHAMBER"
+      ],
+      "travel_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "constraints": [
+        "institutional traffic"
+      ],
+      "canon_status": "INTERPRETIVE_CANON",
+      "source_provenance": [
+        "world/SCHEMIN_WORLD_BIBLE_ARCHIVE_AND_RECORDS_V1.md"
+      ],
+      "physical_distance": null,
+      "travel_duration": null,
+      "approved_for_navigation": false
+    }
+  ],
+  "source_sha256": "fe2b3ce9670062095908fa03ee6f8f4a77990d3e66dad0bd67230036f452c40c"
+}

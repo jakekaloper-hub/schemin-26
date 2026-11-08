@@ -1,0 +1,8 @@
+{
+  "status": "generated_unverified",
+  "response": "**G1 two-subject binding** - **HOLD**\n\n**Reasoning:**\nThe evidence provided does not meet the hard requirements for G1 two-subject binding. Specifically, the renderer capability receipt, mounted-byte SHA, subject-to-reference map, and durable output lineage are missing. The existing renderer (`CURRENT_CHATGPT_IMAGE_RENDERER`) does not expose the required receipts, and the test results indicate that the renderer is not capable of providing the necessary evidence for subject binding. Therefore, the gate should remain in a HOLD state until these requirements are met.",
+  "model": "qwen2.5-coder:7b",
+  "duration_ns": 16538000625,
+  "role": "umpire",
+  "time": "2026-10-27T15:13:28.880867+00:00"
+}

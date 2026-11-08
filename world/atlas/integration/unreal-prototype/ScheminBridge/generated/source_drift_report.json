@@ -1,0 +1,24 @@
+{
+  "checked_utc": "2026-11-08T18:31:05.036970+00:00",
+  "state": "PASS",
+  "sources": [
+    {
+      "source": "world/data/locations.json",
+      "pinned_sha256": "d3aa0d5fca9bf120ad8f1ecc6267f0cbce54bdf83b8117c0328c8d13cd0aeaeb",
+      "main_sha256": "4dcfe5756ad0cc58b8ba9f3f9e1b0cab77de5b057af9d55afa382490a291e074",
+      "drift": true
+    },
+    {
+      "source": "world/data/physical_zones.json",
+      "pinned_sha256": "89734f7171039f4a14614d93e1a9aaf666c05f8951d39ad42732d01aba7433bc",
+      "main_sha256": "89734f7171039f4a14614d93e1a9aaf666c05f8951d39ad42732d01aba7433bc",
+      "drift": false
+    },
+    {
+      "source": "world/data/world_state_events.json",
+      "pinned_sha256": "6612d7c965bf804770b5b60edfa35a381573128f069c4472bf2b7ec168c5aafa",
+      "main_sha256": "6612d7c965bf804770b5b60edfa35a381573128f069c4472bf2b7ec168c5aafa",
+      "drift": false
+    }
+  ]
+}
