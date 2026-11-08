@@ -24,7 +24,7 @@ The source capture preserves substantive user wording, including original spelli
 ### W09-M02 — Mud Dogs vs El Niño
 **Founder:** Mud Dogs notices and cockily ignores the storm; El Niño floods the course; finish through skill or fail in deep mud/water.
 
-**Team choice:** Raised start bank, channel crossing, finish line; no second rider impersonating the storm.
+**Team choice:** Raised bank, crossing, finish; preserve the four-legged hound on proposed canine-compatible bike staging and show El Niño in his approved humanoid form on the far bank. Weather is the action, not replacement identity.
 
 **Two conditional endings:** Mud Dogs wins: masters underwater/muddy line and finishes the race through a final hazard / El Niño wins: Mud Dogs' bike becomes embedded/sucked into deep water and mud and cannot finish; storm physically wins by obstructing race
 
@@ -89,3 +89,7 @@ After material work, save the actual changed artifact in GitHub and update its p
 ## Latest continuation — Flaim refresh requested
 
 The subsequent Founder request was “refresh league via flaim then call upon bullpen to continue onwards”. [Live Sports Desk continuation](WEEK_9_LIVE_SPORTS_DESK_CONTINUATION_2026-11-08T2135Z.md) now links fresh partial scores and player contributions into all six scenes. All six remain undecided; original directions, settled characters, page-turn artifact and final-result safeguards are preserved. No claim of final data or polished art completion.
+
+## Current character application correction
+
+The all12 output audit is implemented in the active issue, source cards and page cast. El Niño is the existing humanoid elemental, not merely a storm; Mud Dogs remains a four-legged hound, with canine-compatible bike blocking still a proposed scene rig. Chili’s October22 appearance governs over the older crop where different. Each actual page carries only its allowed principals and current source authority. Historical user source capture is unchanged. Source selection/checksums are not provider attachment proof or final-pixel acceptance. No new illustration was generated. The failed all-issue poster route remains stopped; do not retry the declined external connection.

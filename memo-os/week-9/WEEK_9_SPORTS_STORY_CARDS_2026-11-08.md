@@ -1,5 +1,8 @@
 # Week 9 — Six Sports + Story Cards
 
+> **Current character application, 2026-11-08:** the existing issue JSON now resolves all12 owner appearances and each page’s exact cast. Chili uses the later October22 lock; El Niño remains embodied humanoid, while Mud Dogs remains a four-legged swamp hound. Equipment/wardrobe adapt to action, not identity. These are source/prompt corrections, not new approvals or repaired images.
+
+
 **State:** actual written editorial candidates; no final outcomes, Story Lock, or image permission. Source cutoff: November 8 morning snapshot, not a new live refresh. Prior issue and questionnaire remain authoritative.
 
 ## Continuity rulings
@@ -42,7 +45,7 @@
 
 **Turn:** The narrow raised route that seemed slower becomes the only finishable line; a late choice determines extraction versus a buried rear wheel.
 
-**Chosen blocking:** No second rider impersonates El Niño. Storm pressure, flood direction and wheel contact communicate the opponent.
+**Chosen blocking:** Mud Dogs stays a four-legged swamp hound; El Niño is the embodied humanoid storm/ocean elemental, not merely a cloud or extra rider. PROPOSED scene blocking, not new character biology or permanent vehicle canon: four-legged moss/mud swamp hound over a lowered elongated dirt-bike saddle; forepaws at broad supported controls and hind paws on rear rests. Keep all four canine limbs, muzzle, moss and collar legible. No human hands, human torso or helmet that erases the muzzle. Verify contact geometry in an actual rough before polished art. Stage El Niño on the established far-bank side, maintaining blue water/lightning and orange elemental light; atmospheric cutaways may omit him temporarily but cannot replace his character for the chapter.
 
 **If home wins:** Mud Dogs wins: masters underwater/muddy line and finishes the race through a final hazard
 

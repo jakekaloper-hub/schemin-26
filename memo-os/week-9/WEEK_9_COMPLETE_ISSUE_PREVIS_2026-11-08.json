@@ -47,7 +47,11 @@
           "comparison_crop_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-PHILLIP-PITTS.json",
+          "appearance_authority_sha256": "9d8d06b8c91ed733926aed0e8201f96c623d93ce2724fdd1fa4958fe2ed3c49d",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         }
       ],
       "forbidden_mutations": [
@@ -115,7 +119,19 @@
       "manual_approval_required": true,
       "render_authorized": false,
       "actual_winner_team_id": null,
-      "outcome_alternatives": null
+      "outcome_alternatives": null,
+      "page_character_contract": {
+        "output_page_id": "W09-P01",
+        "maximum_output_pages": 1,
+        "allowed_principal_character_ids": [
+          "CHAR-PHILLIP-PITTS"
+        ],
+        "resolved_appearances_source": "resolved_character_appearances in this same existing issue JSON",
+        "reject_all_issue_status_poster": true,
+        "reference_bound_execution_proven": false,
+        "authority_is_not_pixel_acceptance": true,
+        "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
+      }
     },
     {
       "issue_id": "S26-W09-2026",
@@ -347,7 +363,11 @@
           "comparison_crop_sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-ZACH-WILSON.json",
+          "appearance_authority_sha256": "f1a8ffaa33809b9433e5b6b117a161bf38bcbae914324512161a23d915add6d9",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         },
         {
           "character_id": "CHAR-JAKE-KALOPER",
@@ -357,7 +377,11 @@
           "comparison_crop_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-JAKE-KALOPER.json",
+          "appearance_authority_sha256": "83ae608eba9ba47cc18637d8dce9fd46bc07d82d9064a09d240113d97cb1f1d3",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         }
       ],
       "forbidden_mutations": [
@@ -365,7 +389,9 @@
         "No accidental identity/species change",
         "No belt transfer",
         "No silent global technology or permanent geography change",
-        "No treating comparison crop or historical file ID as current renderer binding"
+        "No treating comparison crop or historical file ID as current renderer binding",
+        "No other matchup or production-status infographic in this page output",
+        "No scene gear that replaces approved species, face or body proportions"
       ],
       "encounter": {
         "venue_id": "LOC-COUNTRY-CLUB-JACKSON",
@@ -480,6 +506,23 @@
         "copy": "LIVE — Walker and Nacua supplied 75.30 in the collected player breakdown. ObiWan led 138.26–82.70 at the later scoreboard read; Duckhook was still adding points. This round is not decided.",
         "outcome_selection": null,
         "replace_fictional_scene": false
+      },
+      "scene_identity_application": {
+        "identity": "Duckhook is white duck-headed/orange-billed with green cap/vest, never a human golfer. ObiWan keeps the youthful sandy-blond face and earth-tone layers; no actor substitution or championship belt.",
+        "scene": "Existing neutral tee/recovery/reaction beats unchanged; keep human observer safely out of swing and off water."
+      },
+      "page_character_contract": {
+        "output_page_id": "W09-P04",
+        "maximum_output_pages": 1,
+        "allowed_principal_character_ids": [
+          "CHAR-ZACH-WILSON",
+          "CHAR-JAKE-KALOPER"
+        ],
+        "resolved_appearances_source": "resolved_character_appearances in this same existing issue JSON",
+        "reject_all_issue_status_poster": true,
+        "reference_bound_execution_proven": false,
+        "authority_is_not_pixel_acceptance": true,
+        "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
       }
     },
     {
@@ -539,7 +582,11 @@
             "source_bytes_available_in_repo": true,
             "renderer_request_submitted": false,
             "replaces_historical_primary_hash": false
-          }
+          },
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-ZACH-WILSON.json",
+          "appearance_authority_sha256": "f1a8ffaa33809b9433e5b6b117a161bf38bcbae914324512161a23d915add6d9",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         },
         {
           "character_id": "CHAR-JAKE-KALOPER",
@@ -564,7 +611,11 @@
             "source_bytes_available_in_repo": true,
             "renderer_request_submitted": false,
             "replaces_historical_primary_hash": false
-          }
+          },
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-JAKE-KALOPER.json",
+          "appearance_authority_sha256": "83ae608eba9ba47cc18637d8dce9fd46bc07d82d9064a09d240113d97cb1f1d3",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         }
       ],
       "forbidden_mutations": [
@@ -572,7 +623,9 @@
         "No accidental identity/species change",
         "No belt transfer",
         "No silent global technology or permanent geography change",
-        "No treating comparison crop or historical file ID as current renderer binding"
+        "No treating comparison crop or historical file ID as current renderer binding",
+        "No other matchup or production-status infographic in this page output",
+        "No scene gear that replaces approved species, face or body proportions"
       ],
       "encounter": {
         "venue_id": "LOC-COUNTRY-CLUB-JACKSON",
@@ -789,7 +842,25 @@
             "Final-raster identity, physicality and phone QA"
           ],
           "preserve_outcome_branches": true,
-          "written_sequence_source": "written_storyboard.beats in this same existing page object"
+          "written_sequence_source": "written_storyboard.beats in this same existing page object",
+          "current_identity_application": {
+            "identity": "Duckhook is white duck-headed/orange-billed with green cap/vest, never a human golfer. ObiWan keeps the youthful sandy-blond face and earth-tone layers; no actor substitution or championship belt.",
+            "scene": "Existing neutral tee/recovery/reaction beats unchanged; keep human observer safely out of swing and off water."
+          },
+          "output_scope_contract": {
+            "output_page_id": "W09-P05",
+            "maximum_output_pages": 1,
+            "allowed_principal_character_ids": [
+              "CHAR-ZACH-WILSON",
+              "CHAR-JAKE-KALOPER"
+            ],
+            "resolved_appearances_source": "resolved_character_appearances in this same existing issue JSON",
+            "reject_all_issue_status_poster": true,
+            "reference_bound_execution_proven": false,
+            "authority_is_not_pixel_acceptance": true,
+            "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
+          },
+          "retry_rule": "Do not rerun the same rejected full-context native route or the declined external account. Confirm an authorized route can honor this one page and exact subjects before a fresh attempt."
         },
         "storyboard_beat_ids": [
           "W09-M01-B03",
@@ -873,6 +944,23 @@
         "state": "REJECTED",
         "new_identity_approval_required": false,
         "last_failure": "wrong output scope, human Duckhook, 1024x1536 instead of required page geometry"
+      },
+      "scene_identity_application": {
+        "identity": "Duckhook is white duck-headed/orange-billed with green cap/vest, never a human golfer. ObiWan keeps the youthful sandy-blond face and earth-tone layers; no actor substitution or championship belt.",
+        "scene": "Existing neutral tee/recovery/reaction beats unchanged; keep human observer safely out of swing and off water."
+      },
+      "page_character_contract": {
+        "output_page_id": "W09-P05",
+        "maximum_output_pages": 1,
+        "allowed_principal_character_ids": [
+          "CHAR-ZACH-WILSON",
+          "CHAR-JAKE-KALOPER"
+        ],
+        "resolved_appearances_source": "resolved_character_appearances in this same existing issue JSON",
+        "reject_all_issue_status_poster": true,
+        "reference_bound_execution_proven": false,
+        "authority_is_not_pixel_acceptance": true,
+        "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
       }
     },
     {
@@ -917,7 +1005,11 @@
           "comparison_crop_sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-ZACH-WILSON.json",
+          "appearance_authority_sha256": "f1a8ffaa33809b9433e5b6b117a161bf38bcbae914324512161a23d915add6d9",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         },
         {
           "character_id": "CHAR-JAKE-KALOPER",
@@ -927,7 +1019,11 @@
           "comparison_crop_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-JAKE-KALOPER.json",
+          "appearance_authority_sha256": "83ae608eba9ba47cc18637d8dce9fd46bc07d82d9064a09d240113d97cb1f1d3",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         }
       ],
       "forbidden_mutations": [
@@ -935,7 +1031,9 @@
         "No accidental identity/species change",
         "No belt transfer",
         "No silent global technology or permanent geography change",
-        "No treating comparison crop or historical file ID as current renderer binding"
+        "No treating comparison crop or historical file ID as current renderer binding",
+        "No other matchup or production-status infographic in this page output",
+        "No scene gear that replaces approved species, face or body proportions"
       ],
       "encounter": {
         "venue_id": "LOC-COUNTRY-CLUB-JACKSON",
@@ -1050,6 +1148,23 @@
         "copy": "LIVE — Walker and Nacua supplied 75.30 in the collected player breakdown. ObiWan led 138.26–82.70 at the later scoreboard read; Duckhook was still adding points. This round is not decided.",
         "outcome_selection": null,
         "replace_fictional_scene": false
+      },
+      "scene_identity_application": {
+        "identity": "Duckhook is white duck-headed/orange-billed with green cap/vest, never a human golfer. ObiWan keeps the youthful sandy-blond face and earth-tone layers; no actor substitution or championship belt.",
+        "scene": "Existing neutral tee/recovery/reaction beats unchanged; keep human observer safely out of swing and off water."
+      },
+      "page_character_contract": {
+        "output_page_id": "W09-P06",
+        "maximum_output_pages": 1,
+        "allowed_principal_character_ids": [
+          "CHAR-ZACH-WILSON",
+          "CHAR-JAKE-KALOPER"
+        ],
+        "resolved_appearances_source": "resolved_character_appearances in this same existing issue JSON",
+        "reject_all_issue_status_poster": true,
+        "reference_bound_execution_proven": false,
+        "authority_is_not_pixel_acceptance": true,
+        "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
       }
     },
     {
@@ -1097,7 +1212,11 @@
           "comparison_crop_sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-ZACH-WILSON.json",
+          "appearance_authority_sha256": "f1a8ffaa33809b9433e5b6b117a161bf38bcbae914324512161a23d915add6d9",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         },
         {
           "character_id": "CHAR-JAKE-KALOPER",
@@ -1107,7 +1226,11 @@
           "comparison_crop_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-JAKE-KALOPER.json",
+          "appearance_authority_sha256": "83ae608eba9ba47cc18637d8dce9fd46bc07d82d9064a09d240113d97cb1f1d3",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         }
       ],
       "forbidden_mutations": [
@@ -1115,7 +1238,9 @@
         "No accidental identity/species change",
         "No belt transfer",
         "No silent global technology or permanent geography change",
-        "No treating comparison crop or historical file ID as current renderer binding"
+        "No treating comparison crop or historical file ID as current renderer binding",
+        "No other matchup or production-status infographic in this page output",
+        "No scene gear that replaces approved species, face or body proportions"
       ],
       "encounter": {
         "venue_id": "LOC-COUNTRY-CLUB-JACKSON",
@@ -1230,6 +1355,23 @@
         "copy": "LIVE — Walker and Nacua supplied 75.30 in the collected player breakdown. ObiWan led 138.26–82.70 at the later scoreboard read; Duckhook was still adding points. This round is not decided.",
         "outcome_selection": null,
         "replace_fictional_scene": false
+      },
+      "scene_identity_application": {
+        "identity": "Duckhook is white duck-headed/orange-billed with green cap/vest, never a human golfer. ObiWan keeps the youthful sandy-blond face and earth-tone layers; no actor substitution or championship belt.",
+        "scene": "Existing neutral tee/recovery/reaction beats unchanged; keep human observer safely out of swing and off water."
+      },
+      "page_character_contract": {
+        "output_page_id": "W09-P07",
+        "maximum_output_pages": 1,
+        "allowed_principal_character_ids": [
+          "CHAR-ZACH-WILSON",
+          "CHAR-JAKE-KALOPER"
+        ],
+        "resolved_appearances_source": "resolved_character_appearances in this same existing issue JSON",
+        "reject_all_issue_status_poster": true,
+        "reference_bound_execution_proven": false,
+        "authority_is_not_pixel_acceptance": true,
+        "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
       }
     },
     {
@@ -1254,12 +1396,14 @@
         "as_of_date"
       ],
       "owners_present": [
-        "Bobby Mitchell"
+        "Bobby Mitchell",
+        "Manning Welty"
       ],
       "characters_present": [
-        "CHAR-BOBBY-MITCHELL"
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-MANNING-WELTY"
       ],
-      "atmospheric_representation": "CHAR-MANNING-WELTY as El Nino storm",
+      "atmospheric_representation": "Flood/rain/lightning are environmental actions of the embodied CHAR-MANNING-WELTY, not substitute character anatomy.",
       "temporal_canon_receipts": [
         "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
       ],
@@ -1272,7 +1416,25 @@
           "comparison_crop_sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-BOBBY-MITCHELL.json",
+          "appearance_authority_sha256": "0cc2fd9f9dac5a86116ac005c5a53357d21411b2aeee57c184347d1bf4cc9dde",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
+        },
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "primary_path": "canon/characters/assets/CHAR-MANNING-WELTY/primary/2FA6D29A-5E4C-4CA1-9790-88BE5E75F14E.jpeg",
+          "expected_primary_sha256": "5e43eadf7ea6426ea8ba2c3af80c108714638625db5adc9d5a32492ff84fc965",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+          "comparison_crop_sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-MANNING-WELTY.json",
+          "appearance_authority_sha256": "e60b4ca25c487805f3febd328b5aa1e9049d6ef501d6501b5fbe38c6d225635a",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         }
       ],
       "forbidden_mutations": [
@@ -1280,13 +1442,15 @@
         "No accidental identity/species change",
         "No belt transfer",
         "No silent global technology or permanent geography change",
-        "No treating comparison crop or historical file ID as current renderer binding"
+        "No treating comparison crop or historical file ID as current renderer binding",
+        "No other matchup or production-status infographic in this page output",
+        "No scene gear that replaces approved species, face or body proportions"
       ],
       "encounter": {
         "venue_id": "LOC-MUD-DOGS-SWAMP",
         "venue_type": "OWNER_HOME_SCENE",
         "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
-        "route_required": false,
+        "route_required": true,
         "world_state_in": [
           "Week 2 and Week 3 history remembered"
         ],
@@ -1299,11 +1463,11 @@
       },
       "continuity_in": "Inherit exact prior page and chapter prop/state record; page 07",
       "continuity_out": "Carry prop damage, body gear and spatial orientation to page 09",
-      "image_tells": "Low side tracking view of Mud Dogs leaning his dirt bike into the marked swamp course; raised start bank, channel crossing and approaching black storm are visible.",
+      "image_tells": "Low side tracking view of Mud Dogs leaning his dirt bike into the marked swamp course; raised start bank, channel crossing and approaching black storm are visible. El Niño’s approved humanoid silhouette is readable on the far-bank side; canine anatomy remains readable on the bike.",
       "prose_tells": "Cocky familiarity with terrain and 2–6 pressure, without declaring elimination.",
       "art_text_ratio": "85:15",
       "camera_and_composition": "Low tracking / long storm horizon",
-      "foreground": "Low side tracking view of Mud Dogs leaning his dirt bike into the marked swamp course; raised start bank, channel crossing and approaching black storm are visible",
+      "foreground": "Low side tracking view of Mud Dogs leaning his dirt bike into the marked swamp course; raised start bank, channel crossing and approaching black storm are visible Preserve the four-legged hound rather than a generic human rider.",
       "midground": "Core action/physical contact zone; preserve readable limb, prop and target separation",
       "background": "Registered parent terrain/landmarks; do not invent persistent structures",
       "copy_budget": {
@@ -1363,7 +1527,7 @@
             "page_id": "W09-P08",
             "branch": "COMMON",
             "shot": "Wide start bank with long horizon",
-            "pose_and_physical_action": "Mud Dogs sets off on the dirt bike; preserve his approved canine build and recognizable forelimbs at the controls. The channel, berm and finish are visible.",
+            "pose_and_physical_action": "Mud Dogs sets off as the approved four-legged swamp hound on the proposed canine-compatible dirt-bike rig. Forepaws use supported grips, hind paws rest behind; muzzle and moss stay visible. The far-bank humanoid El Niño, channel, berm and finish establish all actors and geography.",
             "what_changes": "Home familiarity and a tangible destination are established.",
             "transition": "Cut to the rider noticing the changing sky.",
             "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
@@ -1373,7 +1537,7 @@
             "page_id": "W09-P08",
             "branch": "COMMON",
             "shot": "Three-quarter rider reaction",
-            "pose_and_physical_action": "Mud Dogs looks toward an approaching dark front, then leans into acceleration rather than slowing or choosing higher ground.",
+            "pose_and_physical_action": "The swamp hound turns his canine head toward El Niño and the gathering storm on the far bank, then shifts forward over the low saddle to accelerate instead of taking higher ground.",
             "what_changes": "Ignoring the warning is a choice, not an unexplained accident.",
             "transition": "Follow rear-wheel spray into the same channel seen in the wide.",
             "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
@@ -1394,6 +1558,25 @@
         "copy": "LIVE — El Niño held a 1.90-point edge, with Higgins supplying 20.20. Mud Dogs remained within reach at 52.80. The race has not reached its finish.",
         "outcome_selection": null,
         "replace_fictional_scene": false
+      },
+      "scene_identity_application": {
+        "identity": "Mud Dogs stays a four-legged swamp hound; El Niño is the embodied humanoid storm/ocean elemental, not merely a cloud or extra rider.",
+        "scene": "PROPOSED scene blocking, not new character biology or permanent vehicle canon: four-legged moss/mud swamp hound over a lowered elongated dirt-bike saddle; forepaws at broad supported controls and hind paws on rear rests. Keep all four canine limbs, muzzle, moss and collar legible. No human hands, human torso or helmet that erases the muzzle. Verify contact geometry in an actual rough before polished art.",
+        "adversary": "Stage El Niño on the established far-bank side, maintaining blue water/lightning and orange elemental light; atmospheric cutaways may omit him temporarily but cannot replace his character for the chapter.",
+        "state": "DELEGATED_STAGING_PROPOSAL_NOT_RENDERED_OR_ATLAS_APPROVED"
+      },
+      "page_character_contract": {
+        "output_page_id": "W09-P08",
+        "maximum_output_pages": 1,
+        "allowed_principal_character_ids": [
+          "CHAR-BOBBY-MITCHELL",
+          "CHAR-MANNING-WELTY"
+        ],
+        "resolved_appearances_source": "resolved_character_appearances in this same existing issue JSON",
+        "reject_all_issue_status_poster": true,
+        "reference_bound_execution_proven": false,
+        "authority_is_not_pixel_acceptance": true,
+        "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
       }
     },
     {
@@ -1418,12 +1601,14 @@
         "as_of_date"
       ],
       "owners_present": [
-        "Bobby Mitchell"
+        "Bobby Mitchell",
+        "Manning Welty"
       ],
       "characters_present": [
-        "CHAR-BOBBY-MITCHELL"
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-MANNING-WELTY"
       ],
-      "atmospheric_representation": "CHAR-MANNING-WELTY as El Nino storm",
+      "atmospheric_representation": "Flood/rain/lightning are environmental actions of the embodied CHAR-MANNING-WELTY, not substitute character anatomy.",
       "temporal_canon_receipts": [
         "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
       ],
@@ -1436,7 +1621,25 @@
           "comparison_crop_sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-BOBBY-MITCHELL.json",
+          "appearance_authority_sha256": "0cc2fd9f9dac5a86116ac005c5a53357d21411b2aeee57c184347d1bf4cc9dde",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
+        },
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "primary_path": "canon/characters/assets/CHAR-MANNING-WELTY/primary/2FA6D29A-5E4C-4CA1-9790-88BE5E75F14E.jpeg",
+          "expected_primary_sha256": "5e43eadf7ea6426ea8ba2c3af80c108714638625db5adc9d5a32492ff84fc965",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+          "comparison_crop_sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-MANNING-WELTY.json",
+          "appearance_authority_sha256": "e60b4ca25c487805f3febd328b5aa1e9049d6ef501d6501b5fbe38c6d225635a",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         }
       ],
       "forbidden_mutations": [
@@ -1444,13 +1647,15 @@
         "No accidental identity/species change",
         "No belt transfer",
         "No silent global technology or permanent geography change",
-        "No treating comparison crop or historical file ID as current renderer binding"
+        "No treating comparison crop or historical file ID as current renderer binding",
+        "No other matchup or production-status infographic in this page output",
+        "No scene gear that replaces approved species, face or body proportions"
       ],
       "encounter": {
         "venue_id": "LOC-MUD-DOGS-SWAMP",
         "venue_type": "OWNER_HOME_SCENE",
         "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
-        "route_required": false,
+        "route_required": true,
         "world_state_in": [
           "Week 2 and Week 3 history remembered"
         ],
@@ -1463,11 +1668,11 @@
       },
       "continuity_in": "Inherit exact prior page and chapter prop/state record; page 08",
       "continuity_out": "Carry prop damage, body gear and spatial orientation to page 10",
-      "image_tells": "Birds-eye-to-ground visual progression: the same channel crossing floods, stakes disappear, bike leans toward the only raised line; El Niño remains the storm.",
+      "image_tells": "Birds-eye-to-ground visual progression: the same channel crossing floods, stakes disappear, bike leans toward the only raised line; El Niño remains the storm. El Niño’s approved humanoid silhouette is readable on the far-bank side; canine anatomy remains readable on the bike.",
       "prose_tells": "Separate fantasy scoring mechanism from the fictional endurance-course disaster.",
       "art_text_ratio": "85:15",
       "camera_and_composition": "High oblique / wheel-contact detail",
-      "foreground": "Birds-eye-to-ground visual progression: the same channel crossing floods, stakes disappear, bike leans toward the only raised line; El Niño remains the storm",
+      "foreground": "Birds-eye-to-ground visual progression: the same channel crossing floods, stakes disappear, bike leans toward the only raised line; El Niño remains the storm Preserve the four-legged hound rather than a generic human rider.",
       "midground": "Core action/physical contact zone; preserve readable limb, prop and target separation",
       "background": "Registered parent terrain/landmarks; do not invent persistent structures",
       "copy_budget": {
@@ -1527,7 +1732,7 @@
             "page_id": "W09-P09",
             "branch": "COMMON",
             "shot": "High oblique of the known course",
-            "pose_and_physical_action": "Rain and floodwater cover the low race line; the previously visible channel markers become partly submerged. No humanoid storm adversary appears.",
+            "pose_and_physical_action": "Rain and floodwater cover the low race line and submerge the established markers. The approved long-haired humanoid El Niño stands on the far bank amid blue water/lightning and orange elemental light; his action drives the flood, without a second motorcycle or an oversized disembodied face.",
             "what_changes": "El Niño changes the physical course rather than merely decorating the sky.",
             "transition": "Move close enough to see tire contact fail.",
             "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
@@ -1537,7 +1742,7 @@
             "page_id": "W09-P09",
             "branch": "COMMON",
             "shot": "Low wheel and body contact",
-            "pose_and_physical_action": "The rear tire slips at the channel edge; Mud Dogs shifts his weight to keep the bike upright. A foot/forelimb is not duplicated or humanized for convenience.",
+            "pose_and_physical_action": "The rear tire slips at the channel edge. Mud Dogs shifts his quadrupedal mass on the supported rig; show two forepaws and two hind paws without extra human limbs. El Niño remains on the same far-bank side if visible.",
             "what_changes": "Familiar ground no longer guarantees control.",
             "transition": "Cut on his glance toward the still-visible root berm.",
             "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
@@ -1568,6 +1773,25 @@
         "copy": "LIVE — El Niño held a 1.90-point edge, with Higgins supplying 20.20. Mud Dogs remained within reach at 52.80. The race has not reached its finish.",
         "outcome_selection": null,
         "replace_fictional_scene": false
+      },
+      "scene_identity_application": {
+        "identity": "Mud Dogs stays a four-legged swamp hound; El Niño is the embodied humanoid storm/ocean elemental, not merely a cloud or extra rider.",
+        "scene": "PROPOSED scene blocking, not new character biology or permanent vehicle canon: four-legged moss/mud swamp hound over a lowered elongated dirt-bike saddle; forepaws at broad supported controls and hind paws on rear rests. Keep all four canine limbs, muzzle, moss and collar legible. No human hands, human torso or helmet that erases the muzzle. Verify contact geometry in an actual rough before polished art.",
+        "adversary": "Stage El Niño on the established far-bank side, maintaining blue water/lightning and orange elemental light; atmospheric cutaways may omit him temporarily but cannot replace his character for the chapter.",
+        "state": "DELEGATED_STAGING_PROPOSAL_NOT_RENDERED_OR_ATLAS_APPROVED"
+      },
+      "page_character_contract": {
+        "output_page_id": "W09-P09",
+        "maximum_output_pages": 1,
+        "allowed_principal_character_ids": [
+          "CHAR-BOBBY-MITCHELL",
+          "CHAR-MANNING-WELTY"
+        ],
+        "resolved_appearances_source": "resolved_character_appearances in this same existing issue JSON",
+        "reject_all_issue_status_poster": true,
+        "reference_bound_execution_proven": false,
+        "authority_is_not_pixel_acceptance": true,
+        "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
       }
     },
     {
@@ -1595,12 +1819,14 @@
         "postweek_records"
       ],
       "owners_present": [
-        "Bobby Mitchell"
+        "Bobby Mitchell",
+        "Manning Welty"
       ],
       "characters_present": [
-        "CHAR-BOBBY-MITCHELL"
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-MANNING-WELTY"
       ],
-      "atmospheric_representation": "CHAR-MANNING-WELTY as El Nino storm",
+      "atmospheric_representation": "Flood/rain/lightning are environmental actions of the embodied CHAR-MANNING-WELTY, not substitute character anatomy.",
       "temporal_canon_receipts": [
         "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
       ],
@@ -1613,7 +1839,25 @@
           "comparison_crop_sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-BOBBY-MITCHELL.json",
+          "appearance_authority_sha256": "0cc2fd9f9dac5a86116ac005c5a53357d21411b2aeee57c184347d1bf4cc9dde",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
+        },
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "primary_path": "canon/characters/assets/CHAR-MANNING-WELTY/primary/2FA6D29A-5E4C-4CA1-9790-88BE5E75F14E.jpeg",
+          "expected_primary_sha256": "5e43eadf7ea6426ea8ba2c3af80c108714638625db5adc9d5a32492ff84fc965",
+          "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+          "comparison_crop_sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+          "renderer_bound": false,
+          "primary_state": "NOT_RENDER_BOUND",
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-MANNING-WELTY.json",
+          "appearance_authority_sha256": "e60b4ca25c487805f3febd328b5aa1e9049d6ef501d6501b5fbe38c6d225635a",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         }
       ],
       "forbidden_mutations": [
@@ -1621,13 +1865,15 @@
         "No accidental identity/species change",
         "No belt transfer",
         "No silent global technology or permanent geography change",
-        "No treating comparison crop or historical file ID as current renderer binding"
+        "No treating comparison crop or historical file ID as current renderer binding",
+        "No other matchup or production-status infographic in this page output",
+        "No scene gear that replaces approved species, face or body proportions"
       ],
       "encounter": {
         "venue_id": "LOC-MUD-DOGS-SWAMP",
         "venue_type": "OWNER_HOME_SCENE",
         "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
-        "route_required": false,
+        "route_required": true,
         "world_state_in": [
           "Week 2 and Week 3 history remembered"
         ],
@@ -1640,11 +1886,11 @@
       },
       "continuity_in": "Inherit exact prior page and chapter prop/state record; page 09",
       "continuity_out": "Carry prop damage, body gear and spatial orientation to page 11",
-      "image_tells": "Mud win: bike claws onto firm finish bank, exhausted rider upright. Niño win: rear wheel buried, water/mud trapping bike with finish still visible beyond it.",
+      "image_tells": "Mud win: bike claws onto firm finish bank, exhausted rider upright. Niño win: rear wheel buried, water/mud trapping bike with finish still visible beyond it. El Niño’s approved humanoid silhouette is readable on the far-bank side; canine anatomy remains readable on the bike.",
       "prose_tells": "Verified result and emotional blow; no unproved mathematically eliminated statement.",
       "art_text_ratio": "85:15",
       "camera_and_composition": "Finish-line lateral / stranded close",
-      "foreground": "Mud win: bike claws onto firm finish bank, exhausted rider upright",
+      "foreground": "Mud win: bike claws onto firm finish bank, exhausted rider upright Preserve the four-legged hound rather than a generic human rider.",
       "midground": "Core action/physical contact zone; preserve readable limb, prop and target separation",
       "background": "Registered parent terrain/landmarks; do not invent persistent structures",
       "copy_budget": {
@@ -1745,6 +1991,25 @@
         "copy": "LIVE — El Niño held a 1.90-point edge, with Higgins supplying 20.20. Mud Dogs remained within reach at 52.80. The race has not reached its finish.",
         "outcome_selection": null,
         "replace_fictional_scene": false
+      },
+      "scene_identity_application": {
+        "identity": "Mud Dogs stays a four-legged swamp hound; El Niño is the embodied humanoid storm/ocean elemental, not merely a cloud or extra rider.",
+        "scene": "PROPOSED scene blocking, not new character biology or permanent vehicle canon: four-legged moss/mud swamp hound over a lowered elongated dirt-bike saddle; forepaws at broad supported controls and hind paws on rear rests. Keep all four canine limbs, muzzle, moss and collar legible. No human hands, human torso or helmet that erases the muzzle. Verify contact geometry in an actual rough before polished art.",
+        "adversary": "Stage El Niño on the established far-bank side, maintaining blue water/lightning and orange elemental light; atmospheric cutaways may omit him temporarily but cannot replace his character for the chapter.",
+        "state": "DELEGATED_STAGING_PROPOSAL_NOT_RENDERED_OR_ATLAS_APPROVED"
+      },
+      "page_character_contract": {
+        "output_page_id": "W09-P10",
+        "maximum_output_pages": 1,
+        "allowed_principal_character_ids": [
+          "CHAR-BOBBY-MITCHELL",
+          "CHAR-MANNING-WELTY"
+        ],
+        "resolved_appearances_source": "resolved_character_appearances in this same existing issue JSON",
+        "reject_all_issue_status_poster": true,
+        "reference_bound_execution_proven": false,
+        "authority_is_not_pixel_acceptance": true,
+        "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
       }
     },
     {
@@ -1789,7 +2054,11 @@
           "comparison_crop_sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-KEVIN-ZEEK.json",
+          "appearance_authority_sha256": "436f7cc750912fd438dcb03ed06d57f8d07d140bfbf2c671b280f50255aaf07f",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         },
         {
           "character_id": "CHAR-BEN-WHIPPLE",
@@ -1799,7 +2068,11 @@
           "comparison_crop_sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-BEN-WHIPPLE.json",
+          "appearance_authority_sha256": "e62ec382bd7140b917e20eb2bf25e83a0bf748f876b323e0ec4d394fee37e175",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         }
       ],
       "forbidden_mutations": [
@@ -1807,7 +2080,9 @@
         "No accidental identity/species change",
         "No belt transfer",
         "No silent global technology or permanent geography change",
-        "No treating comparison crop or historical file ID as current renderer binding"
+        "No treating comparison crop or historical file ID as current renderer binding",
+        "No other matchup or production-status infographic in this page output",
+        "No scene gear that replaces approved species, face or body proportions"
       ],
       "encounter": {
         "venue_id": "LOC-RED-RUINS",
@@ -1921,6 +2196,23 @@
         "copy": "LIVE — Chase’s 34.50 helped Red establish a 10.70-point edge. Mahomes and Seattle’s defense supplied Chins’ counterweight. The territorial duel remains open.",
         "outcome_selection": null,
         "replace_fictional_scene": false
+      },
+      "scene_identity_application": {
+        "identity": "Red is a red-spotted anthropomorphic leopard with actual muzzle, not human face paint. Chins retains very heavyset body, multiple chin folds, red trucker cap and dark glasses.",
+        "scene": "Truck cab framing must show Chins face and heavy shoulders; pounce frame must show Red feline head and spotted limbs. Narrow stone passage, not loose net alone, stops the truck."
+      },
+      "page_character_contract": {
+        "output_page_id": "W09-P11",
+        "maximum_output_pages": 1,
+        "allowed_principal_character_ids": [
+          "CHAR-KEVIN-ZEEK",
+          "CHAR-BEN-WHIPPLE"
+        ],
+        "resolved_appearances_source": "resolved_character_appearances in this same existing issue JSON",
+        "reject_all_issue_status_poster": true,
+        "reference_bound_execution_proven": false,
+        "authority_is_not_pixel_acceptance": true,
+        "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
       }
     },
     {
@@ -1965,7 +2257,11 @@
           "comparison_crop_sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-KEVIN-ZEEK.json",
+          "appearance_authority_sha256": "436f7cc750912fd438dcb03ed06d57f8d07d140bfbf2c671b280f50255aaf07f",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         },
         {
           "character_id": "CHAR-BEN-WHIPPLE",
@@ -1975,7 +2271,11 @@
           "comparison_crop_sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-BEN-WHIPPLE.json",
+          "appearance_authority_sha256": "e62ec382bd7140b917e20eb2bf25e83a0bf748f876b323e0ec4d394fee37e175",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         }
       ],
       "forbidden_mutations": [
@@ -1983,7 +2283,9 @@
         "No accidental identity/species change",
         "No belt transfer",
         "No silent global technology or permanent geography change",
-        "No treating comparison crop or historical file ID as current renderer binding"
+        "No treating comparison crop or historical file ID as current renderer binding",
+        "No other matchup or production-status infographic in this page output",
+        "No scene gear that replaces approved species, face or body proportions"
       ],
       "encounter": {
         "venue_id": "LOC-RED-RUINS",
@@ -2107,6 +2409,23 @@
         "copy": "LIVE — Chase’s 34.50 helped Red establish a 10.70-point edge. Mahomes and Seattle’s defense supplied Chins’ counterweight. The territorial duel remains open.",
         "outcome_selection": null,
         "replace_fictional_scene": false
+      },
+      "scene_identity_application": {
+        "identity": "Red is a red-spotted anthropomorphic leopard with actual muzzle, not human face paint. Chins retains very heavyset body, multiple chin folds, red trucker cap and dark glasses.",
+        "scene": "Truck cab framing must show Chins face and heavy shoulders; pounce frame must show Red feline head and spotted limbs. Narrow stone passage, not loose net alone, stops the truck."
+      },
+      "page_character_contract": {
+        "output_page_id": "W09-P12",
+        "maximum_output_pages": 1,
+        "allowed_principal_character_ids": [
+          "CHAR-KEVIN-ZEEK",
+          "CHAR-BEN-WHIPPLE"
+        ],
+        "resolved_appearances_source": "resolved_character_appearances in this same existing issue JSON",
+        "reject_all_issue_status_poster": true,
+        "reference_bound_execution_proven": false,
+        "authority_is_not_pixel_acceptance": true,
+        "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
       }
     },
     {
@@ -2154,7 +2473,11 @@
           "comparison_crop_sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-KEVIN-ZEEK.json",
+          "appearance_authority_sha256": "436f7cc750912fd438dcb03ed06d57f8d07d140bfbf2c671b280f50255aaf07f",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         },
         {
           "character_id": "CHAR-BEN-WHIPPLE",
@@ -2164,7 +2487,11 @@
           "comparison_crop_sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-BEN-WHIPPLE.json",
+          "appearance_authority_sha256": "e62ec382bd7140b917e20eb2bf25e83a0bf748f876b323e0ec4d394fee37e175",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         }
       ],
       "forbidden_mutations": [
@@ -2172,7 +2499,9 @@
         "No accidental identity/species change",
         "No belt transfer",
         "No silent global technology or permanent geography change",
-        "No treating comparison crop or historical file ID as current renderer binding"
+        "No treating comparison crop or historical file ID as current renderer binding",
+        "No other matchup or production-status infographic in this page output",
+        "No scene gear that replaces approved species, face or body proportions"
       ],
       "encounter": {
         "venue_id": "LOC-RED-RUINS",
@@ -2296,6 +2625,23 @@
         "copy": "LIVE — Chase’s 34.50 helped Red establish a 10.70-point edge. Mahomes and Seattle’s defense supplied Chins’ counterweight. The territorial duel remains open.",
         "outcome_selection": null,
         "replace_fictional_scene": false
+      },
+      "scene_identity_application": {
+        "identity": "Red is a red-spotted anthropomorphic leopard with actual muzzle, not human face paint. Chins retains very heavyset body, multiple chin folds, red trucker cap and dark glasses.",
+        "scene": "Truck cab framing must show Chins face and heavy shoulders; pounce frame must show Red feline head and spotted limbs. Narrow stone passage, not loose net alone, stops the truck."
+      },
+      "page_character_contract": {
+        "output_page_id": "W09-P13",
+        "maximum_output_pages": 1,
+        "allowed_principal_character_ids": [
+          "CHAR-KEVIN-ZEEK",
+          "CHAR-BEN-WHIPPLE"
+        ],
+        "resolved_appearances_source": "resolved_character_appearances in this same existing issue JSON",
+        "reject_all_issue_status_poster": true,
+        "reference_bound_execution_proven": false,
+        "authority_is_not_pixel_acceptance": true,
+        "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
       }
     },
     {
@@ -2340,7 +2686,15 @@
           "comparison_crop_sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/CHAR-BRANDON-PRYOR/COMMISSIONER_APPEARANCE_LOCK_2026_10_22.json",
+          "appearance_authority_sha256": "dc5da7bf38e35d0b0a7ecd47959fb31f8f1465b02042ec136fb131f73d9467f3",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding.",
+          "older_crop_satisfies_latest_appearance": false,
+          "preferred_visual_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_CHILI_OUTLAW_2026_10_22.png",
+          "preferred_visual_expected_sha256": "5812d9b62844368fdd1e23bb11657bbe47af101f7c026413eea6ce2bb8a3793f",
+          "preferred_visual_binary_verified": false
         },
         {
           "character_id": "CHAR-AUSTIN-BYARS",
@@ -2350,7 +2704,11 @@
           "comparison_crop_sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-AUSTIN-BYARS.json",
+          "appearance_authority_sha256": "adb626661312dff9942deb4431beaea060a624ade73b8605c6acf05aac510988",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         }
       ],
       "forbidden_mutations": [
@@ -2358,7 +2716,9 @@
         "No accidental identity/species change",
         "No belt transfer",
         "No silent global technology or permanent geography change",
-        "No treating comparison crop or historical file ID as current renderer binding"
+        "No treating comparison crop or historical file ID as current renderer binding",
+        "No other matchup or production-status infographic in this page output",
+        "No scene gear that replaces approved species, face or body proportions"
       ],
       "encounter": {
         "venue_id": "LOC-CHILI-STABLE",
@@ -2483,6 +2843,23 @@
         "copy": "LIVE — HMB led by 9.74, with Coleman, Little and Detroit contributing. Young’s 26.44 and the Giants’ 19.00 kept Chili’s response alive. Nobody has been served the final humiliation.",
         "outcome_selection": null,
         "replace_fictional_scene": false
+      },
+      "scene_identity_application": {
+        "identity": "Use Chili Oct22 sunglasses/beard, decorated dark hat, crimson leather outlaw coat and cartridge bandolier; not generic chef or tan-hat sheriff. HMB stays hooded with red eyes, black segmented armor and crimson-black cloak.",
+        "scene": "Cooking apron or gloves may add practical detail without replacing Chili signature outfit; Dark Horse appears separately in the establishing/action chain. Hood, gold ornament and belt remain readable after chili spill. No belt transfer."
+      },
+      "page_character_contract": {
+        "output_page_id": "W09-P14",
+        "maximum_output_pages": 1,
+        "allowed_principal_character_ids": [
+          "CHAR-BRANDON-PRYOR",
+          "CHAR-AUSTIN-BYARS"
+        ],
+        "resolved_appearances_source": "resolved_character_appearances in this same existing issue JSON",
+        "reject_all_issue_status_poster": true,
+        "reference_bound_execution_proven": false,
+        "authority_is_not_pixel_acceptance": true,
+        "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
       }
     },
     {
@@ -2530,7 +2907,15 @@
           "comparison_crop_sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/CHAR-BRANDON-PRYOR/COMMISSIONER_APPEARANCE_LOCK_2026_10_22.json",
+          "appearance_authority_sha256": "dc5da7bf38e35d0b0a7ecd47959fb31f8f1465b02042ec136fb131f73d9467f3",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding.",
+          "older_crop_satisfies_latest_appearance": false,
+          "preferred_visual_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_CHILI_OUTLAW_2026_10_22.png",
+          "preferred_visual_expected_sha256": "5812d9b62844368fdd1e23bb11657bbe47af101f7c026413eea6ce2bb8a3793f",
+          "preferred_visual_binary_verified": false
         },
         {
           "character_id": "CHAR-AUSTIN-BYARS",
@@ -2540,7 +2925,11 @@
           "comparison_crop_sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-AUSTIN-BYARS.json",
+          "appearance_authority_sha256": "adb626661312dff9942deb4431beaea060a624ade73b8605c6acf05aac510988",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         }
       ],
       "forbidden_mutations": [
@@ -2548,7 +2937,9 @@
         "No accidental identity/species change",
         "No belt transfer",
         "No silent global technology or permanent geography change",
-        "No treating comparison crop or historical file ID as current renderer binding"
+        "No treating comparison crop or historical file ID as current renderer binding",
+        "No other matchup or production-status infographic in this page output",
+        "No scene gear that replaces approved species, face or body proportions"
       ],
       "encounter": {
         "venue_id": "LOC-CHILI-STABLE",
@@ -2683,6 +3074,23 @@
         "copy": "LIVE — HMB led by 9.74, with Coleman, Little and Detroit contributing. Young’s 26.44 and the Giants’ 19.00 kept Chili’s response alive. Nobody has been served the final humiliation.",
         "outcome_selection": null,
         "replace_fictional_scene": false
+      },
+      "scene_identity_application": {
+        "identity": "Use Chili Oct22 sunglasses/beard, decorated dark hat, crimson leather outlaw coat and cartridge bandolier; not generic chef or tan-hat sheriff. HMB stays hooded with red eyes, black segmented armor and crimson-black cloak.",
+        "scene": "Cooking apron or gloves may add practical detail without replacing Chili signature outfit; Dark Horse appears separately in the establishing/action chain. Hood, gold ornament and belt remain readable after chili spill. No belt transfer."
+      },
+      "page_character_contract": {
+        "output_page_id": "W09-P15",
+        "maximum_output_pages": 1,
+        "allowed_principal_character_ids": [
+          "CHAR-BRANDON-PRYOR",
+          "CHAR-AUSTIN-BYARS"
+        ],
+        "resolved_appearances_source": "resolved_character_appearances in this same existing issue JSON",
+        "reject_all_issue_status_poster": true,
+        "reference_bound_execution_proven": false,
+        "authority_is_not_pixel_acceptance": true,
+        "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
       }
     },
     {
@@ -2727,7 +3135,11 @@
           "comparison_crop_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
           "renderer_bound": false,
           "primary_state": "HOLD_ACTIVE_VISUAL_CONFLICT",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-WILSON-LOOK.json",
+          "appearance_authority_sha256": "25e732700bb4ce577d0bc3711e5cd9d120418ac7e976983ae28b9f13dfc348f5",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         },
         {
           "character_id": "CHAR-DAVID-BABB",
@@ -2737,7 +3149,11 @@
           "comparison_crop_sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-DAVID-BABB.json",
+          "appearance_authority_sha256": "43b67708c08845d9acbea0e40197b956a6c25c0e5995240642ed5f9ec8733402",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         }
       ],
       "forbidden_mutations": [
@@ -2745,7 +3161,9 @@
         "No accidental identity/species change",
         "No belt transfer",
         "No silent global technology or permanent geography change",
-        "No treating comparison crop or historical file ID as current renderer binding"
+        "No treating comparison crop or historical file ID as current renderer binding",
+        "No other matchup or production-status infographic in this page output",
+        "No scene gear that replaces approved species, face or body proportions"
       ],
       "encounter": {
         "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
@@ -2862,6 +3280,23 @@
         "copy": "LIVE — Robinson and Prescott combined for 56.30 as DK led 149.90–102.19. Burrow’s 37.84 gave the LLC a serious counterstrike. The final overpowering move is not selected.",
         "outcome_selection": null,
         "replace_fictional_scene": false
+      },
+      "scene_identity_application": {
+        "identity": "DK is one integrated Arsenal gorilla-centaur with FOUR equine legs. The LLC keeps his recognizable human executive face and dark hair despite ornate knight armor.",
+        "scene": "At least one full action-wide and the final resolution show DK four-leg body. Use an open-faced/raised-visor view for LLC rather than anonymous closed helmet; no crown or new fighter identity."
+      },
+      "page_character_contract": {
+        "output_page_id": "W09-P16",
+        "maximum_output_pages": 1,
+        "allowed_principal_character_ids": [
+          "CHAR-WILSON-LOOK",
+          "CHAR-DAVID-BABB"
+        ],
+        "resolved_appearances_source": "resolved_character_appearances in this same existing issue JSON",
+        "reject_all_issue_status_poster": true,
+        "reference_bound_execution_proven": false,
+        "authority_is_not_pixel_acceptance": true,
+        "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
       }
     },
     {
@@ -2906,7 +3341,11 @@
           "comparison_crop_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
           "renderer_bound": false,
           "primary_state": "HOLD_ACTIVE_VISUAL_CONFLICT",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-WILSON-LOOK.json",
+          "appearance_authority_sha256": "25e732700bb4ce577d0bc3711e5cd9d120418ac7e976983ae28b9f13dfc348f5",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         },
         {
           "character_id": "CHAR-DAVID-BABB",
@@ -2916,7 +3355,11 @@
           "comparison_crop_sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-DAVID-BABB.json",
+          "appearance_authority_sha256": "43b67708c08845d9acbea0e40197b956a6c25c0e5995240642ed5f9ec8733402",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         }
       ],
       "forbidden_mutations": [
@@ -2924,7 +3367,9 @@
         "No accidental identity/species change",
         "No belt transfer",
         "No silent global technology or permanent geography change",
-        "No treating comparison crop or historical file ID as current renderer binding"
+        "No treating comparison crop or historical file ID as current renderer binding",
+        "No other matchup or production-status infographic in this page output",
+        "No scene gear that replaces approved species, face or body proportions"
       ],
       "encounter": {
         "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
@@ -3051,6 +3496,23 @@
         "copy": "LIVE — Robinson and Prescott combined for 56.30 as DK led 149.90–102.19. Burrow’s 37.84 gave the LLC a serious counterstrike. The final overpowering move is not selected.",
         "outcome_selection": null,
         "replace_fictional_scene": false
+      },
+      "scene_identity_application": {
+        "identity": "DK is one integrated Arsenal gorilla-centaur with FOUR equine legs. The LLC keeps his recognizable human executive face and dark hair despite ornate knight armor.",
+        "scene": "At least one full action-wide and the final resolution show DK four-leg body. Use an open-faced/raised-visor view for LLC rather than anonymous closed helmet; no crown or new fighter identity."
+      },
+      "page_character_contract": {
+        "output_page_id": "W09-P17",
+        "maximum_output_pages": 1,
+        "allowed_principal_character_ids": [
+          "CHAR-WILSON-LOOK",
+          "CHAR-DAVID-BABB"
+        ],
+        "resolved_appearances_source": "resolved_character_appearances in this same existing issue JSON",
+        "reject_all_issue_status_poster": true,
+        "reference_bound_execution_proven": false,
+        "authority_is_not_pixel_acceptance": true,
+        "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
       }
     },
     {
@@ -3098,7 +3560,11 @@
           "comparison_crop_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
           "renderer_bound": false,
           "primary_state": "HOLD_ACTIVE_VISUAL_CONFLICT",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-WILSON-LOOK.json",
+          "appearance_authority_sha256": "25e732700bb4ce577d0bc3711e5cd9d120418ac7e976983ae28b9f13dfc348f5",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         },
         {
           "character_id": "CHAR-DAVID-BABB",
@@ -3108,7 +3574,11 @@
           "comparison_crop_sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-DAVID-BABB.json",
+          "appearance_authority_sha256": "43b67708c08845d9acbea0e40197b956a6c25c0e5995240642ed5f9ec8733402",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         }
       ],
       "forbidden_mutations": [
@@ -3116,7 +3586,9 @@
         "No accidental identity/species change",
         "No belt transfer",
         "No silent global technology or permanent geography change",
-        "No treating comparison crop or historical file ID as current renderer binding"
+        "No treating comparison crop or historical file ID as current renderer binding",
+        "No other matchup or production-status infographic in this page output",
+        "No scene gear that replaces approved species, face or body proportions"
       ],
       "encounter": {
         "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
@@ -3243,6 +3715,23 @@
         "copy": "LIVE — Robinson and Prescott combined for 56.30 as DK led 149.90–102.19. Burrow’s 37.84 gave the LLC a serious counterstrike. The final overpowering move is not selected.",
         "outcome_selection": null,
         "replace_fictional_scene": false
+      },
+      "scene_identity_application": {
+        "identity": "DK is one integrated Arsenal gorilla-centaur with FOUR equine legs. The LLC keeps his recognizable human executive face and dark hair despite ornate knight armor.",
+        "scene": "At least one full action-wide and the final resolution show DK four-leg body. Use an open-faced/raised-visor view for LLC rather than anonymous closed helmet; no crown or new fighter identity."
+      },
+      "page_character_contract": {
+        "output_page_id": "W09-P18",
+        "maximum_output_pages": 1,
+        "allowed_principal_character_ids": [
+          "CHAR-WILSON-LOOK",
+          "CHAR-DAVID-BABB"
+        ],
+        "resolved_appearances_source": "resolved_character_appearances in this same existing issue JSON",
+        "reject_all_issue_status_poster": true,
+        "reference_bound_execution_proven": false,
+        "authority_is_not_pixel_acceptance": true,
+        "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
       }
     },
     {
@@ -3287,7 +3776,11 @@
           "comparison_crop_sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-JORDAN-HOLLINGSHEAD.json",
+          "appearance_authority_sha256": "99cfb0c7acc4a66300a1c3b0f38eb3e27b782dd12eed874a00b7c338d34a834d",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         },
         {
           "character_id": "CHAR-PHILLIP-PITTS",
@@ -3297,7 +3790,11 @@
           "comparison_crop_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-PHILLIP-PITTS.json",
+          "appearance_authority_sha256": "9d8d06b8c91ed733926aed0e8201f96c623d93ce2724fdd1fa4958fe2ed3c49d",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         }
       ],
       "forbidden_mutations": [
@@ -3305,7 +3802,9 @@
         "No accidental identity/species change",
         "No belt transfer",
         "No silent global technology or permanent geography change",
-        "No treating comparison crop or historical file ID as current renderer binding"
+        "No treating comparison crop or historical file ID as current renderer binding",
+        "No other matchup or production-status infographic in this page output",
+        "No scene gear that replaces approved species, face or body proportions"
       ],
       "encounter": {
         "venue_id": "LOC-SLOB-FOOTHILL-CAMP",
@@ -3419,6 +3918,23 @@
         "copy": "LIVE — TDS held a 9.30-point lead behind Williams and Concepcion. Lamb’s 36.50 powered Slob’s advance, while new arrival London added 11.80. The decisive firing angle is still unclaimed.",
         "outcome_selection": null,
         "replace_fictional_scene": false
+      },
+      "scene_identity_application": {
+        "identity": "Slob remains the massive heavyset human with known face/hair/beard and broad proportions under protective gear. TDS has exactly THREE serpent heads on ONE humanoid body.",
+        "scene": "Use clear protective visors adapted to each serpent head and readable Slob face; masks remain on during play. One marker per competitor; do not thin Slob or split TDS into three bodies. Preserve the final behind-winner angle; no hits on players in P20."
+      },
+      "page_character_contract": {
+        "output_page_id": "W09-P19",
+        "maximum_output_pages": 1,
+        "allowed_principal_character_ids": [
+          "CHAR-JORDAN-HOLLINGSHEAD",
+          "CHAR-PHILLIP-PITTS"
+        ],
+        "resolved_appearances_source": "resolved_character_appearances in this same existing issue JSON",
+        "reject_all_issue_status_poster": true,
+        "reference_bound_execution_proven": false,
+        "authority_is_not_pixel_acceptance": true,
+        "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
       }
     },
     {
@@ -3478,7 +3994,11 @@
             "source_bytes_available_in_repo": true,
             "renderer_request_submitted": false,
             "replaces_historical_primary_hash": false
-          }
+          },
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-JORDAN-HOLLINGSHEAD.json",
+          "appearance_authority_sha256": "99cfb0c7acc4a66300a1c3b0f38eb3e27b782dd12eed874a00b7c338d34a834d",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         },
         {
           "character_id": "CHAR-PHILLIP-PITTS",
@@ -3503,7 +4023,11 @@
             "source_bytes_available_in_repo": true,
             "renderer_request_submitted": false,
             "replaces_historical_primary_hash": false
-          }
+          },
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-PHILLIP-PITTS.json",
+          "appearance_authority_sha256": "9d8d06b8c91ed733926aed0e8201f96c623d93ce2724fdd1fa4958fe2ed3c49d",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         }
       ],
       "forbidden_mutations": [
@@ -3511,7 +4035,9 @@
         "No accidental identity/species change",
         "No belt transfer",
         "No silent global technology or permanent geography change",
-        "No treating comparison crop or historical file ID as current renderer binding"
+        "No treating comparison crop or historical file ID as current renderer binding",
+        "No other matchup or production-status infographic in this page output",
+        "No scene gear that replaces approved species, face or body proportions"
       ],
       "encounter": {
         "venue_id": "LOC-SLOB-FOOTHILL-CAMP",
@@ -3730,7 +4256,25 @@
             "Final-raster identity, physicality and phone QA"
           ],
           "preserve_outcome_branches": true,
-          "written_sequence_source": "written_storyboard.beats in this same existing page object"
+          "written_sequence_source": "written_storyboard.beats in this same existing page object",
+          "current_identity_application": {
+            "identity": "Slob remains the massive heavyset human with known face/hair/beard and broad proportions under protective gear. TDS has exactly THREE serpent heads on ONE humanoid body.",
+            "scene": "Use clear protective visors adapted to each serpent head and readable Slob face; masks remain on during play. One marker per competitor; do not thin Slob or split TDS into three bodies. Preserve the final behind-winner angle; no hits on players in P20."
+          },
+          "output_scope_contract": {
+            "output_page_id": "W09-P20",
+            "maximum_output_pages": 1,
+            "allowed_principal_character_ids": [
+              "CHAR-JORDAN-HOLLINGSHEAD",
+              "CHAR-PHILLIP-PITTS"
+            ],
+            "resolved_appearances_source": "resolved_character_appearances in this same existing issue JSON",
+            "reject_all_issue_status_poster": true,
+            "reference_bound_execution_proven": false,
+            "authority_is_not_pixel_acceptance": true,
+            "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
+          },
+          "retry_rule": "Do not rerun the same rejected full-context native route or the declined external account. Confirm an authorized route can honor this one page and exact subjects before a fresh attempt."
         },
         "storyboard_beat_ids": [
           "W09-M06-B03",
@@ -3806,6 +4350,23 @@
         "copy": "LIVE — TDS held a 9.30-point lead behind Williams and Concepcion. Lamb’s 36.50 powered Slob’s advance, while new arrival London added 11.80. The decisive firing angle is still unclaimed.",
         "outcome_selection": null,
         "replace_fictional_scene": false
+      },
+      "scene_identity_application": {
+        "identity": "Slob remains the massive heavyset human with known face/hair/beard and broad proportions under protective gear. TDS has exactly THREE serpent heads on ONE humanoid body.",
+        "scene": "Use clear protective visors adapted to each serpent head and readable Slob face; masks remain on during play. One marker per competitor; do not thin Slob or split TDS into three bodies. Preserve the final behind-winner angle; no hits on players in P20."
+      },
+      "page_character_contract": {
+        "output_page_id": "W09-P20",
+        "maximum_output_pages": 1,
+        "allowed_principal_character_ids": [
+          "CHAR-JORDAN-HOLLINGSHEAD",
+          "CHAR-PHILLIP-PITTS"
+        ],
+        "resolved_appearances_source": "resolved_character_appearances in this same existing issue JSON",
+        "reject_all_issue_status_poster": true,
+        "reference_bound_execution_proven": false,
+        "authority_is_not_pixel_acceptance": true,
+        "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
       }
     },
     {
@@ -3853,7 +4414,11 @@
           "comparison_crop_sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-JORDAN-HOLLINGSHEAD.json",
+          "appearance_authority_sha256": "99cfb0c7acc4a66300a1c3b0f38eb3e27b782dd12eed874a00b7c338d34a834d",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         },
         {
           "character_id": "CHAR-PHILLIP-PITTS",
@@ -3863,7 +4428,11 @@
           "comparison_crop_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-PHILLIP-PITTS.json",
+          "appearance_authority_sha256": "9d8d06b8c91ed733926aed0e8201f96c623d93ce2724fdd1fa4958fe2ed3c49d",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         }
       ],
       "forbidden_mutations": [
@@ -3871,7 +4440,9 @@
         "No accidental identity/species change",
         "No belt transfer",
         "No silent global technology or permanent geography change",
-        "No treating comparison crop or historical file ID as current renderer binding"
+        "No treating comparison crop or historical file ID as current renderer binding",
+        "No other matchup or production-status infographic in this page output",
+        "No scene gear that replaces approved species, face or body proportions"
       ],
       "encounter": {
         "venue_id": "LOC-SLOB-FOOTHILL-CAMP",
@@ -3995,6 +4566,23 @@
         "copy": "LIVE — TDS held a 9.30-point lead behind Williams and Concepcion. Lamb’s 36.50 powered Slob’s advance, while new arrival London added 11.80. The decisive firing angle is still unclaimed.",
         "outcome_selection": null,
         "replace_fictional_scene": false
+      },
+      "scene_identity_application": {
+        "identity": "Slob remains the massive heavyset human with known face/hair/beard and broad proportions under protective gear. TDS has exactly THREE serpent heads on ONE humanoid body.",
+        "scene": "Use clear protective visors adapted to each serpent head and readable Slob face; masks remain on during play. One marker per competitor; do not thin Slob or split TDS into three bodies. Preserve the final behind-winner angle; no hits on players in P20."
+      },
+      "page_character_contract": {
+        "output_page_id": "W09-P21",
+        "maximum_output_pages": 1,
+        "allowed_principal_character_ids": [
+          "CHAR-JORDAN-HOLLINGSHEAD",
+          "CHAR-PHILLIP-PITTS"
+        ],
+        "resolved_appearances_source": "resolved_character_appearances in this same existing issue JSON",
+        "reject_all_issue_status_poster": true,
+        "reference_bound_execution_proven": false,
+        "authority_is_not_pixel_acceptance": true,
+        "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
       }
     },
     {
@@ -4516,7 +5104,11 @@
           "comparison_crop_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
           "renderer_bound": false,
           "primary_state": "NOT_RENDER_BOUND",
-          "comparison_only": true
+          "comparison_only": true,
+          "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-PHILLIP-PITTS.json",
+          "appearance_authority_sha256": "9d8d06b8c91ed733926aed0e8201f96c623d93ce2724fdd1fa4958fe2ed3c49d",
+          "identity_reapproval_required": false,
+          "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
         }
       ],
       "forbidden_mutations": [
@@ -4584,7 +5176,19 @@
       "manual_approval_required": true,
       "render_authorized": false,
       "actual_winner_team_id": null,
-      "outcome_alternatives": null
+      "outcome_alternatives": null,
+      "page_character_contract": {
+        "output_page_id": "W09-P27",
+        "maximum_output_pages": 1,
+        "allowed_principal_character_ids": [
+          "CHAR-PHILLIP-PITTS"
+        ],
+        "resolved_appearances_source": "resolved_character_appearances in this same existing issue JSON",
+        "reject_all_issue_status_poster": true,
+        "reference_bound_execution_proven": false,
+        "authority_is_not_pixel_acceptance": true,
+        "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
+      }
     },
     {
       "issue_id": "S26-W09-2026",
@@ -4871,5 +5475,509 @@
     "normalization": "Scoring/projections separate; detail aggregate zeros quarantined; timing differences retained",
     "independent_steward_acceptance": false
   },
-  "image_generation_disposition": "NATIVE_ATTEMPTS_EXIST_BUT_P05_CANDIDATES_REJECTED_NO_ACCEPTED_PUBLICATION_ART"
+  "image_generation_disposition": "NATIVE_ATTEMPTS_EXIST_BUT_P05_CANDIDATES_REJECTED_NO_ACCEPTED_PUBLICATION_ART",
+  "resolved_character_appearances": {
+    "CHAR-JAKE-KALOPER": {
+      "character_id": "CHAR-JAKE-KALOPER",
+      "team": "ObiWan Jacoby",
+      "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-JAKE-KALOPER.json",
+      "appearance_authority_sha256": "83ae608eba9ba47cc18637d8dce9fd46bc07d82d9064a09d240113d97cb1f1d3",
+      "approval_date": "2026-10-18",
+      "required_visible_identity": {
+        "subject_morphology": "Youthful blond human field strategist, earth-toned layered robe and jacket",
+        "head_face": "Light hair, human face, serious gaze",
+        "silhouette": "Upright human with cloak, luminous green sword and adjacent golden retriever",
+        "palette": [
+          "olive",
+          "brown",
+          "green blade glow",
+          "golden fur"
+        ],
+        "recognizable_props": [
+          "green energy sword",
+          "golden retriever companion"
+        ],
+        "negative_rules": [
+          "championship belt",
+          "changing golden retriever into mount",
+          "changing blade away from green"
+        ]
+      },
+      "forbidden_substitutions": [
+        "championship belt",
+        "changing golden retriever into mount",
+        "changing blade away from green"
+      ],
+      "approved_visual_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+      "approved_visual_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+      "approved_visual_bytes_verified_in_base": true,
+      "identity_reapproval_required": false,
+      "renderer_binding_proven": false,
+      "new_canon_approval": false,
+      "scene_variation_rule": "Activity, camera, pose and safe sports gear may vary; established head/face/body identity remains. Companions follow scene continuity, not mandatory every close-up."
+    },
+    "CHAR-WILSON-LOOK": {
+      "character_id": "CHAR-WILSON-LOOK",
+      "team": "Donkey Kong",
+      "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-WILSON-LOOK.json",
+      "appearance_authority_sha256": "25e732700bb4ce577d0bc3711e5cd9d120418ac7e976983ae28b9f13dfc348f5",
+      "approval_date": "2026-10-18",
+      "required_visible_identity": {
+        "subject_morphology": "ONE integrated Arsenal gorilla-centaur, gorilla head and upper torso fused to equine four-legged lower body",
+        "head_face": "Black-furred roaring gorilla",
+        "silhouette": "Broad ape shoulders over horse-bodied centaur; giant axe; red-and-gold Arsenal-inspired war cloth",
+        "palette": [
+          "black fur",
+          "red armor cloth",
+          "antique gold",
+          "dark equine coat"
+        ],
+        "recognizable_props": [
+          "large war axe",
+          "red-and-gold cannon heraldry"
+        ],
+        "negative_rules": [
+          "bipedal-only gorilla",
+          "gorilla rider on separate horse",
+          "human torso",
+          "missing lower pair of legs"
+        ]
+      },
+      "forbidden_substitutions": [
+        "bipedal-only gorilla",
+        "gorilla rider on separate horse",
+        "human torso",
+        "missing lower pair of legs"
+      ],
+      "approved_visual_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+      "approved_visual_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+      "approved_visual_bytes_verified_in_base": true,
+      "identity_reapproval_required": false,
+      "renderer_binding_proven": false,
+      "new_canon_approval": false,
+      "scene_variation_rule": "Activity, camera, pose and safe sports gear may vary; established head/face/body identity remains. Companions follow scene continuity, not mandatory every close-up."
+    },
+    "CHAR-PHILLIP-PITTS": {
+      "character_id": "CHAR-PHILLIP-PITTS",
+      "team": "Three Dreaded Snake",
+      "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-PHILLIP-PITTS.json",
+      "appearance_authority_sha256": "9d8d06b8c91ed733926aed0e8201f96c623d93ce2724fdd1fa4958fe2ed3c49d",
+      "approval_date": "2026-10-18",
+      "required_visible_identity": {
+        "subject_morphology": "Reptilian humanoid with THREE live serpent head-and-neck projections",
+        "head_face": "Exactly three snake heads, mouths and tongues independently visible",
+        "silhouette": "Three serpent necks over an armored humanoid torso; weapons carried below",
+        "palette": [
+          "bronze scales",
+          "moss green",
+          "dark leather"
+        ],
+        "recognizable_props": [
+          "blade weapons",
+          "layered leather/metal armor"
+        ],
+        "negative_rules": [
+          "single-headed snake",
+          "three separate creatures",
+          "restoring long pre-haircut dreads"
+        ]
+      },
+      "forbidden_substitutions": [
+        "single-headed snake",
+        "three separate creatures",
+        "restoring long pre-haircut dreads"
+      ],
+      "approved_visual_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+      "approved_visual_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+      "approved_visual_bytes_verified_in_base": true,
+      "identity_reapproval_required": false,
+      "renderer_binding_proven": false,
+      "new_canon_approval": false,
+      "scene_variation_rule": "Activity, camera, pose and safe sports gear may vary; established head/face/body identity remains. Companions follow scene continuity, not mandatory every close-up."
+    },
+    "CHAR-AUSTIN-BYARS": {
+      "character_id": "CHAR-AUSTIN-BYARS",
+      "team": "His Majesty's Blood",
+      "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-AUSTIN-BYARS.json",
+      "appearance_authority_sha256": "adb626661312dff9942deb4431beaea060a624ade73b8605c6acf05aac510988",
+      "approval_date": "2026-10-18",
+      "required_visible_identity": {
+        "subject_morphology": "Towering concealed dark armored champion; hooded head in shadow, glowing red eyes",
+        "head_face": "Fully shadowed hooded face with two glowing red eyes; NOT an exposed generic human face",
+        "silhouette": "Black segmented armor, sweeping ragged crimson-black cloak, gold circular chest ornament, sword pointed downward",
+        "palette": [
+          "black iron",
+          "crimson",
+          "deep burgundy",
+          "antique gold",
+          "red eye glow"
+        ],
+        "recognizable_props": [
+          "downward-held ornate sword",
+          "large circular gold chest ornament",
+          "tattered crimson-black cloak"
+        ],
+        "negative_rules": [
+          "unhooded bearded king",
+          "vampire mascot",
+          "crown as head replacement",
+          "removing red eyes",
+          "assigning championship belt to ObiWan"
+        ]
+      },
+      "forbidden_substitutions": [
+        "unhooded bearded king",
+        "vampire mascot",
+        "crown as head replacement",
+        "removing red eyes",
+        "assigning championship belt to ObiWan"
+      ],
+      "approved_visual_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+      "approved_visual_sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+      "approved_visual_bytes_verified_in_base": true,
+      "identity_reapproval_required": false,
+      "renderer_binding_proven": false,
+      "new_canon_approval": false,
+      "scene_variation_rule": "Activity, camera, pose and safe sports gear may vary; established head/face/body identity remains. Companions follow scene continuity, not mandatory every close-up."
+    },
+    "CHAR-BRANDON-PRYOR": {
+      "character_id": "CHAR-BRANDON-PRYOR",
+      "team": "Chili Cheesers",
+      "appearance_authority_path": "canon/characters/CHAR-BRANDON-PRYOR/COMMISSIONER_APPEARANCE_LOCK_2026_10_22.json",
+      "appearance_authority_sha256": "dc5da7bf38e35d0b0a7ecd47959fb31f8f1465b02042ec136fb131f73d9467f3",
+      "approval_date": "2026-10-22",
+      "required_visible_identity": {
+        "anatomy": "Adult rugged human cowboy outlaw, not anthropomorphic; The Dark Horse is a distinct four-legged black horse companion",
+        "face": "Dark beard and moustache, medium-length dark windswept hair, black sunglasses, weathered features",
+        "hat": "Weathered black-brown Western cowboy hat with red chili pepper and brass-metal ornamentation",
+        "outfit": "Long deep crimson and rust red leather outlaw coat or cape, red neckerchief, black tactical-western shirt, red cartridges across chest, leather gloves, dark scarred trousers and rugged black boots",
+        "equipment": "Western revolver, black-leather holster, prominent CHILI OUTLAW belt buckle",
+        "color_palette": [
+          "deep crimson",
+          "burnt orange",
+          "weathered black leather",
+          "brass",
+          "warm gunmetal"
+        ],
+        "companion": "The Dark Horse: separate black horse, optionally beside or behind Brandon in group scenes",
+        "cinematography": "Low-angle heroic western framing with warm sunset backlight, dramatic smoke and dust; camera/framing may vary by scene",
+        "forbidden": [
+          "generic sheriff substitution",
+          "clean-shaven cowboy",
+          "human-horse fusion or centaur",
+          "changing the Dark Horse to another animal",
+          "swapping Brandon's face or costume with another principal character",
+          "treating the poster lettering or exact pose as mandatory in every scene"
+        ]
+      },
+      "forbidden_substitutions": [
+        "generic sheriff substitution",
+        "clean-shaven cowboy",
+        "human-horse fusion or centaur",
+        "changing the Dark Horse to another animal",
+        "swapping Brandon's face or costume with another principal character",
+        "treating the poster lettering or exact pose as mandatory in every scene"
+      ],
+      "identity_reapproval_required": false,
+      "renderer_binding_proven": false,
+      "new_canon_approval": false,
+      "scene_variation_rule": "Activity, camera, pose and safe sports gear may vary; established head/face/body identity remains. Companions follow scene continuity, not mandatory every close-up.",
+      "older_lineup_presentation_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+      "older_lineup_presentation_sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+      "preferred_visual_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_CHILI_OUTLAW_2026_10_22.png",
+      "preferred_visual_expected_sha256": "5812d9b62844368fdd1e23bb11657bbe47af101f7c026413eea6ce2bb8a3793f",
+      "preferred_visual_binary_verified": false,
+      "older_crop_satisfies_latest_appearance": false,
+      "source_precedence": "Latest explicit Commissioner Chili Outlaw appearance governs over the October18 presentation where they differ. Earlier primary hash is not superseded.",
+      "asset_limitation": "The Oct22 exact supplementary PNG is still marked ingestion pending by its authority. No claim it was mounted or viewed; no request to reapprove the character.",
+      "older_lineup_bytes_verified_in_base": true
+    },
+    "CHAR-JORDAN-HOLLINGSHEAD": {
+      "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "team": "Slob on my Dobb",
+      "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-JORDAN-HOLLINGSHEAD.json",
+      "appearance_authority_sha256": "99cfb0c7acc4a66300a1c3b0f38eb3e27b782dd12eed874a00b7c338d34a834d",
+      "approval_date": "2026-10-18",
+      "required_visible_identity": {
+        "subject_morphology": "Massive heavyset, bare-shouldered human berserker in work overalls and backward cap",
+        "head_face": "Unkempt dark hair and beard with loud, open-mouthed expression",
+        "silhouette": "Wide hulking torso, overalls, oversized metal keg",
+        "palette": [
+          "mud brown",
+          "denim blue",
+          "pale skin",
+          "steel"
+        ],
+        "recognizable_props": [
+          "oversized SLOB keg",
+          "backward baseball cap",
+          "grimy overalls"
+        ],
+        "negative_rules": [
+          "duck head",
+          "executive suit identity",
+          "slender body substitute"
+        ]
+      },
+      "forbidden_substitutions": [
+        "duck head",
+        "executive suit identity",
+        "slender body substitute"
+      ],
+      "approved_visual_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+      "approved_visual_sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+      "approved_visual_bytes_verified_in_base": true,
+      "identity_reapproval_required": false,
+      "renderer_binding_proven": false,
+      "new_canon_approval": false,
+      "scene_variation_rule": "Activity, camera, pose and safe sports gear may vary; established head/face/body identity remains. Companions follow scene continuity, not mandatory every close-up."
+    },
+    "CHAR-ZACH-WILSON": {
+      "character_id": "CHAR-ZACH-WILSON",
+      "team": "Dr. Duckhook",
+      "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-ZACH-WILSON.json",
+      "appearance_authority_sha256": "f1a8ffaa33809b9433e5b6b117a161bf38bcbae914324512161a23d915add6d9",
+      "approval_date": "2026-10-18",
+      "required_visible_identity": {
+        "subject_morphology": "White-feathered duck head on upright anthropomorphic golfer torso",
+        "head_face": "Orange broad bill; white feathers; green golf cap",
+        "silhouette": "Green country-club sweater vest, golfer stance, club resting on shoulder",
+        "palette": [
+          "white feathers",
+          "green vest",
+          "orange bill",
+          "ivory shirt"
+        ],
+        "recognizable_props": [
+          "golf driver",
+          "golf bag and clubs",
+          "country-club attire"
+        ],
+        "negative_rules": [
+          "full ordinary human head",
+          "missing duck bill",
+          "golf-club identity omitted"
+        ]
+      },
+      "forbidden_substitutions": [
+        "full ordinary human head",
+        "missing duck bill",
+        "golf-club identity omitted"
+      ],
+      "approved_visual_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+      "approved_visual_sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+      "approved_visual_bytes_verified_in_base": true,
+      "identity_reapproval_required": false,
+      "renderer_binding_proven": false,
+      "new_canon_approval": false,
+      "scene_variation_rule": "Activity, camera, pose and safe sports gear may vary; established head/face/body identity remains. Companions follow scene continuity, not mandatory every close-up."
+    },
+    "CHAR-KEVIN-ZEEK": {
+      "character_id": "CHAR-KEVIN-ZEEK",
+      "team": "Red Leopards",
+      "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-KEVIN-ZEEK.json",
+      "appearance_authority_sha256": "436f7cc750912fd438dcb03ed06d57f8d07d140bfbf2c671b280f50255aaf07f",
+      "approval_date": "2026-10-18",
+      "required_visible_identity": {
+        "subject_morphology": "Red spotted anthropomorphic predatory leopard-warrior",
+        "head_face": "Leopard muzzle, bright red coat with dark spots and open snarling mouth",
+        "silhouette": "Crouched powerful feline humanoid with spotted limbs, leather/metal armor and spear",
+        "palette": [
+          "red fur",
+          "black spots",
+          "dark armor"
+        ],
+        "recognizable_props": [
+          "spear or lance",
+          "leather shoulder armor"
+        ],
+        "negative_rules": [
+          "human-faced warrior",
+          "plain golden cat without red spots",
+          "canine head"
+        ]
+      },
+      "forbidden_substitutions": [
+        "human-faced warrior",
+        "plain golden cat without red spots",
+        "canine head"
+      ],
+      "approved_visual_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+      "approved_visual_sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b",
+      "approved_visual_bytes_verified_in_base": true,
+      "identity_reapproval_required": false,
+      "renderer_binding_proven": false,
+      "new_canon_approval": false,
+      "scene_variation_rule": "Activity, camera, pose and safe sports gear may vary; established head/face/body identity remains. Companions follow scene continuity, not mandatory every close-up."
+    },
+    "CHAR-BOBBY-MITCHELL": {
+      "character_id": "CHAR-BOBBY-MITCHELL",
+      "team": "Mud Dogs",
+      "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-BOBBY-MITCHELL.json",
+      "appearance_authority_sha256": "0cc2fd9f9dac5a86116ac005c5a53357d21411b2aeee57c184347d1bf4cc9dde",
+      "approval_date": "2026-10-18",
+      "required_visible_identity": {
+        "subject_morphology": "Large mud- and moss-caked feral four-legged swamp hound",
+        "head_face": "Wide canine jaws with snarling fangs; wet matted fur",
+        "silhouette": "Low-running quadruped, hanging swamp moss and thick neck",
+        "palette": [
+          "peat brown",
+          "olive mud",
+          "moss green",
+          "bone white fangs"
+        ],
+        "recognizable_props": [
+          "mud",
+          "swamp-moss fur",
+          "metal chain/collar"
+        ],
+        "negative_rules": [
+          "humanoid brawler replacing swamp dog",
+          "clean show-dog appearance",
+          "leopard spots"
+        ]
+      },
+      "forbidden_substitutions": [
+        "humanoid brawler replacing swamp dog",
+        "clean show-dog appearance",
+        "leopard spots"
+      ],
+      "approved_visual_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+      "approved_visual_sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
+      "approved_visual_bytes_verified_in_base": true,
+      "identity_reapproval_required": false,
+      "renderer_binding_proven": false,
+      "new_canon_approval": false,
+      "scene_variation_rule": "Activity, camera, pose and safe sports gear may vary; established head/face/body identity remains. Companions follow scene continuity, not mandatory every close-up."
+    },
+    "CHAR-BEN-WHIPPLE": {
+      "character_id": "CHAR-BEN-WHIPPLE",
+      "team": "Seven Deadly Chins",
+      "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-BEN-WHIPPLE.json",
+      "appearance_authority_sha256": "e62ec382bd7140b917e20eb2bf25e83a0bf748f876b323e0ec4d394fee37e175",
+      "approval_date": "2026-10-18",
+      "required_visible_identity": {
+        "subject_morphology": "Very heavyset trucker / blue-collar human brawler with folded neck and overalls",
+        "head_face": "Human face with prominent multiple chin folds, dark glasses and red trucker cap",
+        "silhouette": "Broad heavy torso in dirty tank/overalls, large blunt tool, big-rig backdrop",
+        "palette": [
+          "off-white tank",
+          "denim blue",
+          "truck red",
+          "steel"
+        ],
+        "recognizable_props": [
+          "trucker cap",
+          "metal striking tool",
+          "big-rig association"
+        ],
+        "negative_rules": [
+          "slim athletic substitute",
+          "animal-headed characterization",
+          "executive suit"
+        ]
+      },
+      "forbidden_substitutions": [
+        "slim athletic substitute",
+        "animal-headed characterization",
+        "executive suit"
+      ],
+      "approved_visual_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+      "approved_visual_sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+      "approved_visual_bytes_verified_in_base": true,
+      "identity_reapproval_required": false,
+      "renderer_binding_proven": false,
+      "new_canon_approval": false,
+      "scene_variation_rule": "Activity, camera, pose and safe sports gear may vary; established head/face/body identity remains. Companions follow scene continuity, not mandatory every close-up."
+    },
+    "CHAR-DAVID-BABB": {
+      "character_id": "CHAR-DAVID-BABB",
+      "team": "The LLC.",
+      "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-DAVID-BABB.json",
+      "appearance_authority_sha256": "43b67708c08845d9acbea0e40197b956a6c25c0e5995240642ed5f9ec8733402",
+      "approval_date": "2026-10-18",
+      "required_visible_identity": {
+        "subject_morphology": "Well-groomed seated human corporate executive in dark tailored suit",
+        "head_face": "Human head with short dark hair and dark sunglasses",
+        "silhouette": "Dark tailored suit, bright red tie, seated leather chair, cigar",
+        "palette": [
+          "black suit",
+          "white shirt",
+          "red tie",
+          "gold accessories"
+        ],
+        "recognizable_props": [
+          "cigar",
+          "executive leather chair",
+          "briefcase",
+          "wealth/financial desk accents"
+        ],
+        "negative_rules": [
+          "gorilla centaur",
+          "monster body",
+          "leopard head"
+        ]
+      },
+      "forbidden_substitutions": [
+        "gorilla centaur",
+        "monster body",
+        "leopard head"
+      ],
+      "approved_visual_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+      "approved_visual_sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
+      "approved_visual_bytes_verified_in_base": true,
+      "identity_reapproval_required": false,
+      "renderer_binding_proven": false,
+      "new_canon_approval": false,
+      "scene_variation_rule": "Activity, camera, pose and safe sports gear may vary; established head/face/body identity remains. Companions follow scene continuity, not mandatory every close-up."
+    },
+    "CHAR-MANNING-WELTY": {
+      "character_id": "CHAR-MANNING-WELTY",
+      "team": "El Niño",
+      "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-MANNING-WELTY.json",
+      "appearance_authority_sha256": "e60b4ca25c487805f3febd328b5aa1e9049d6ef501d6501b5fbe38c6d225635a",
+      "approval_date": "2026-10-18",
+      "required_visible_identity": {
+        "subject_morphology": "Long-haired muscular human storm / ocean elemental",
+        "head_face": "Long windblown dark hair and beard; intense expression",
+        "silhouette": "Bare upper torso, swirling electric blue water at one flank and orange fiery light at the other",
+        "palette": [
+          "electric blue",
+          "orange fire",
+          "deep storm gray",
+          "dark hair"
+        ],
+        "recognizable_props": [
+          "blue water/sea effects",
+          "lightning",
+          "orange heat light",
+          "glowing chest emblem"
+        ],
+        "negative_rules": [
+          "literal storm cloud replacing humanoid body",
+          "additional magical limbs",
+          "assuming numerical physics from graphic"
+        ]
+      },
+      "forbidden_substitutions": [
+        "literal storm cloud replacing humanoid body",
+        "additional magical limbs",
+        "assuming numerical physics from graphic"
+      ],
+      "approved_visual_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+      "approved_visual_sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+      "approved_visual_bytes_verified_in_base": true,
+      "identity_reapproval_required": false,
+      "renderer_binding_proven": false,
+      "new_canon_approval": false,
+      "scene_variation_rule": "Activity, camera, pose and safe sports gear may vary; established head/face/body identity remains. Companions follow scene continuity, not mandatory every close-up."
+    }
+  },
+  "character_application_correction": {
+    "source": "Existing Issue276 all12 audit comment6727924795 and current user continuation",
+    "date": "2026-11-08",
+    "new_character_designs": false,
+    "generation_attempts_in_this_change": 0,
+    "purpose": "Repair active source precedence and page cast, not reopen approvals or claim pixel fidelity."
+  }
 }

@@ -1,0 +1,161 @@
+{
+  "kind": "SOURCE_APPLICATION_CORRECTION_NOT_NEW_CHARACTER_APPROVAL",
+  "base_commit": "16a3e071a94c66e858517b07ab9599ff3680edbb",
+  "audit_issue_comment": 6727924795,
+  "scope": {
+    "resolved_appearances": 12,
+    "cinematic_pages": 18,
+    "character_bearing_pages": 20,
+    "nino_added_to_pages": [
+      "W09-P08",
+      "W09-P09",
+      "W09-P10"
+    ],
+    "preferred_chili_binary_verified": false,
+    "existing_sports_fields_preserved": true,
+    "new_images": 0,
+    "canon_files_changed": false,
+    "source_capture_changed": false
+  },
+  "actual_bullpen_consultation": {
+    "kind": "ACTUAL_LOCAL_SOFTWARE_ROLE_REVIEW_NOT_FINAL_ACCEPTANCE",
+    "base": "16a3e071a94c66e858517b07ab9599ff3680edbb",
+    "model": "gemma3:4b",
+    "request": "Execute existing Week9 Issue276 correction, not a new audit. Current approved sources are settled. User said continue after all12 output review. Active page JSON for Mud/Niño excludes El Niño from characters_present and says 'No humanoid storm adversary appears'; approved Oct18 + T04 require a humanoid storm/ocean elemental. Founder asked storm affects a dirt-bike race, NOT species change. Keep Mud Dogs a four-legged swamp hound, face visible, controls/rig adapted to quadruped as proposed scene blocking not new biology; no generic human rider. Chili's Oct22 Commissioner lock overrides older Oct18 presentation: black sunglasses, beard, dark decorated hat, crimson duster/bandolier, distinct Dark Horse. That exact later PNG is marked ingestion pending, do not falsely claim attached. Other10 use current approved per-owner source. Apply current identity rules to the precise cast of every existing page. No all12 poster, no new character approvals, no rerun of failed native route or declined Runway access. Correct active source/story/page/continuation text and add regression for source precedence and cast presence. Give 2 concrete editorial corrections in <100 words, no signatures/approval claims.",
+    "responses": [
+      {
+        "director": "the_librarian",
+        "response": "Executing Week9 Issue276 correction.\n\nRegression identified: Active page JSON for Mud/Niño incorrectly excludes El Niño and indicates “No humanoid storm adversary appears.” This contradicts approved Oct18 + T04 requirements.\n\n**Editorial Correction 1:** Modify active page JSON to include \"El Niño\" within the `characters_present` list, reflecting the approved canonical representation of a humanoid storm/ocean elemental.\n\n**Editorial Correction 2:** Update the page continuation text to accurately reflect the storm’s impact – specifically, a dirt-bike race – as requested by the Founder, removing any implication of species changes. Document source precedence: Commissioner lock (Chili's Oct22) supersedes previous Oct18 presentation for Dark Horse character casting."
+      },
+      {
+        "director": "the_beat_writer",
+        "response": "Assessment: The active Mud/Niño page demonstrates inconsistencies regarding character presence and visual elements. Specifically, the ‘No humanoid storm adversary’ designation contradicts the approved Oct18 source requiring a humanoid storm/ocean elemental. The unauthorized inclusion of the ‘Dark Horse’ PNG, flagged as ingestion pending, necessitates immediate correction.\n\nCorrections:\n\n1.  Update `characters_present` to reflect the approved Oct18 source, including a humanoid storm/ocean elemental, alongside the existing Mud Dogs asset.\n2.  Remove the ‘Dark Horse’ PNG asset from the page.  Document this change as a regression due to the ingestion pending state of the source material."
+      }
+    ],
+    "started_at": "2026-11-08T23:04:08.420Z",
+    "events": [
+      {
+        "name": "BULLPEN_CONSULTATION",
+        "payload": {
+          "source": "bullpen/runtime/consultEngine",
+          "director": "the_librarian",
+          "messageLength": 1209,
+          "responseLength": 770,
+          "model": "gemma3:4b",
+          "latencyMs": 10323
+        },
+        "at": "2026-11-08T23:04:18.744Z"
+      },
+      {
+        "name": "BULLPEN_CONSULTATION",
+        "payload": {
+          "source": "bullpen/runtime/consultEngine",
+          "director": "the_beat_writer",
+          "messageLength": 1209,
+          "responseLength": 692,
+          "model": "gemma3:4b",
+          "latencyMs": 6202
+        },
+        "at": "2026-11-08T23:04:24.948Z"
+      }
+    ],
+    "traces": [
+      {
+        "type": "director_consult",
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_librarian",
+        "messageLength": 1209,
+        "responseLength": 770,
+        "model": "gemma3:4b",
+        "latencyMs": 10323,
+        "at": "2026-11-08T23:04:18.744Z"
+      },
+      {
+        "type": "director_consult",
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_beat_writer",
+        "messageLength": 1209,
+        "responseLength": 692,
+        "model": "gemma3:4b",
+        "latencyMs": 6202,
+        "at": "2026-11-08T23:04:24.948Z"
+      }
+    ],
+    "finished_at": "2026-11-08T23:04:24.948Z",
+    "disposition": {
+      "accepted": [
+        "Librarian and Beat Writer: add existing humanoid El Nino identity to the actual cast/reference fields and remove storm-only body instruction",
+        "Librarian: source precedence must honor the later Chili appearance correction"
+      ],
+      "rejected": [
+        "The Oct22 appearance correction is for Chili Outlaw, not a redesign of the Dark Horse",
+        "Beat Writer falsely described an unauthorized Dark Horse PNG in Mud/Nino; no such source entry exists, so no companion or asset was removed",
+        "Software wording Executing is not proof of changes, image acceptance or a release ACK"
+      ]
+    }
+  },
+  "validation": {
+    "before": "7 failing checks confirmed before implementation",
+    "after": [
+      {
+        "command": "python3 memo-os/tests/test_week9_character_application.py",
+        "exit_code": 0,
+        "output": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.010s\n\nOK\n"
+      },
+      {
+        "command": "python3 memo-os/tests/test_week9_thread_continuity.py",
+        "exit_code": 0,
+        "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.002s\n\nOK\n"
+      }
+    ],
+    "mutation_cases": [
+      {
+        "case": "older_chili_precedence",
+        "rejected": true,
+        "test": "test_chili_latest_correction_overrides_older_lineup"
+      },
+      {
+        "case": "omitted_elemental_cast",
+        "rejected": true,
+        "test": "test_mud_nino_are_both_explicit_approved_subjects"
+      },
+      {
+        "case": "all12_in_two_character_page",
+        "rejected": true,
+        "test": "test_each_cinematic_page_has_exact_cast_not_all_issue_poster"
+      },
+      {
+        "case": "resurrect_wrong_body_instruction",
+        "rejected": true,
+        "test": "test_false_storm_identity_is_removed_from_active_directions"
+      },
+      {
+        "case": "false_new_character_approval",
+        "rejected": true,
+        "test": "test_no_scene_changes_to_identity_or_mistaken_new_approval"
+      },
+      {
+        "case": "stale_authority_hash",
+        "rejected": true,
+        "test": "test_all_twelve_current_appearance_sources_are_resolved"
+      }
+    ],
+    "previous_staging_only_failure": "Existing continuity tests first lacked README and rehearsal in temporary stage. Unchanged base dependencies were loaded, then all6 passed; repository originals were not missing.",
+    "original_founder_capture_sha256": "0e48b57bde1140ab3c541b6b9fab96eb050c6c1d4d5677f3fdf0e9fa79d08ecc"
+  },
+  "limitations": [
+    "No generated pixels tested or repaired",
+    "No proof of renderer subject binding or fresh model capability",
+    "Preferred Chili Oct22 exact supplementary PNG remains unverified in base",
+    "Mud Dogs rig is a delegated fictional staging proposal, not approved physics",
+    "Failed native route stopped; declined Runway access not retried"
+  ],
+  "states_unchanged": [
+    "Approved character designs",
+    "Football source values and actual-winner nulls",
+    "Source user wording",
+    "Scene premises and conditional endings",
+    "Existing rough images and page-turn rehearsal",
+    "Fact/Story/Art/release state"
+  ]
+}
