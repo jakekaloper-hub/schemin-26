@@ -8,7 +8,7 @@
     "WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
     "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
   ],
-  "image_generation_performed": false,
+  "image_generation_performed": true,
   "sports_data_state": "NOV8_MORNING_PROVISIONAL_NOT_LIVE_NOT_FINAL",
   "pages": [
     {
@@ -865,6 +865,14 @@
         "copy": "LIVE — Walker and Nacua supplied 75.30 in the collected player breakdown. ObiWan led 138.26–82.70 at the later scoreboard read; Duckhook was still adding points. This round is not decided.",
         "outcome_selection": null,
         "replace_fictional_scene": false
+      },
+      "proof_attempt_review": {
+        "receipt": "memo-os/week-9/production-evidence/WEEK_9_P05_NATIVE_ATTEMPT_REVIEW_2026-11-08.json",
+        "native_candidates": 2,
+        "accepted_candidates": 0,
+        "state": "REJECTED",
+        "new_identity_approval_required": false,
+        "last_failure": "wrong output scope, human Duckhook, 1024x1536 instead of required page geometry"
       }
     },
     {
@@ -4862,5 +4870,6 @@
     "state": "LIVE_READ_COMPLETE_ALL_SIX_UNDECIDED",
     "normalization": "Scoring/projections separate; detail aggregate zeros quarantined; timing differences retained",
     "independent_steward_acceptance": false
-  }
+  },
+  "image_generation_disposition": "NATIVE_ATTEMPTS_EXIST_BUT_P05_CANDIDATES_REJECTED_NO_ACCEPTED_PUBLICATION_ART"
 }

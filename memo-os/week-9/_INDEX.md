@@ -5,6 +5,10 @@
 **Current status:** `CREATIVE_INTERVIEW_RECORDED / PREVIS_CANDIDATES_PREPARED / CANONICAL_SNAPSHOT_LOCK_BLOCKED / FACT_LOCK_BLOCKED / NOT_RELEASED`.  
 **Not a new OS or a new mission.**
 
+## Latest P05 execution attempt — rejected, not completed
+
+Two native image calls were actually made for the existing single P05 golf proof. Both returned wrong-scope production posters with incorrect Duckhook appearance and1024x1536 geometry, so **neither is an accepted P05 image**. Unsupported completion labels and scores in those images have no authority. The [attempt/rejection receipt](./production-evidence/WEEK_9_P05_NATIVE_ATTEMPT_REVIEW_2026-11-08.json) preserves the commission, actual software-role call, hashes and observations. Approved character references remain settled. Runway connection authorization was declined; that route was not used or retried. Do not repeat this same failed generation loop or claim polished proof completion.
+
 ## Latest sports continuation — Sunday live Flaim refresh
 
 [Live Sports Desk / six scene-linked inserts](./WEEK_9_LIVE_SPORTS_DESK_CONTINUATION_2026-11-08T2135Z.md) · [normalized fresh source](./WEEK_9_FLAIM_LIVE_REFRESH_2026-11-08T2135Z.json).
