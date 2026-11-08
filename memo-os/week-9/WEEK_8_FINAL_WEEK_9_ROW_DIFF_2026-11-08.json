@@ -1,0 +1,477 @@
+{
+  "schema": "schemin26.week8_9_comparison.v1",
+  "run_id": "S26-MEMO-W08FINAL-W09-20261108",
+  "trace_id": "TRACE-S26-MEMO-20261108-1417621",
+  "source": "Flaim mTransactions2 stable-id full-row comparison",
+  "prior_path": "memo-os/week-9/WEEK_8_FINAL_WEEK_9_PROVIDER_EVIDENCE_2026-11-07.json",
+  "week8": {
+    "previous": 32,
+    "current": 32,
+    "added": [],
+    "removed": [],
+    "modified": [
+      {
+        "before": {
+          "transaction_id": "46b91959-8ab6-4992-8d55-c751efa129af",
+          "type": "waiver",
+          "status": "complete",
+          "timestamp": 1793259248164,
+          "timestamp_source": "processDate",
+          "date": "2026-10-29",
+          "week": 8,
+          "provider_scoring_period_id": 8,
+          "team_ids": [
+            "1"
+          ],
+          "players_added": [
+            {
+              "id": "3116164",
+              "name": "Mike Gesicki",
+              "position": "TE",
+              "team": "CIN"
+            }
+          ],
+          "players_dropped": [
+            {
+              "id": "4599739",
+              "name": "Kendre Miller",
+              "position": "RB",
+              "team": "NO"
+            }
+          ],
+          "faab_bid": 1
+        },
+        "after": {
+          "transaction_id": "46b91959-8ab6-4992-8d55-c751efa129af",
+          "type": "waiver",
+          "status": "complete",
+          "timestamp": 1793259248164,
+          "timestamp_source": "processDate",
+          "date": "2026-10-29",
+          "week": 8,
+          "provider_scoring_period_id": 8,
+          "team_ids": [
+            "1"
+          ],
+          "players_added": [
+            {
+              "id": "3116164",
+              "name": "Mike Gesicki",
+              "position": "TE",
+              "team": "CIN"
+            }
+          ],
+          "players_dropped": [
+            {
+              "id": "4599739",
+              "name": "Kendre Miller",
+              "position": "RB",
+              "team": "FA"
+            }
+          ],
+          "faab_bid": 1
+        }
+      },
+      {
+        "before": {
+          "transaction_id": "17d986bb-700a-4f4f-9336-2b3a66702d77",
+          "type": "waiver",
+          "status": "pending",
+          "timestamp": 1793209679038,
+          "timestamp_source": "proposedDate",
+          "date": "2026-10-28",
+          "week": 8,
+          "provider_scoring_period_id": 8,
+          "team_ids": [
+            "1"
+          ],
+          "players_added": [
+            {
+              "id": "3116164",
+              "name": "Mike Gesicki",
+              "position": "TE",
+              "team": "CIN"
+            }
+          ],
+          "players_dropped": [
+            {
+              "id": "4599739",
+              "name": "Kendre Miller",
+              "position": "RB",
+              "team": "NO"
+            }
+          ],
+          "faab_bid": 1
+        },
+        "after": {
+          "transaction_id": "17d986bb-700a-4f4f-9336-2b3a66702d77",
+          "type": "waiver",
+          "status": "pending",
+          "timestamp": 1793209679038,
+          "timestamp_source": "proposedDate",
+          "date": "2026-10-28",
+          "week": 8,
+          "provider_scoring_period_id": 8,
+          "team_ids": [
+            "1"
+          ],
+          "players_added": [
+            {
+              "id": "3116164",
+              "name": "Mike Gesicki",
+              "position": "TE",
+              "team": "CIN"
+            }
+          ],
+          "players_dropped": [
+            {
+              "id": "4599739",
+              "name": "Kendre Miller",
+              "position": "RB",
+              "team": "FA"
+            }
+          ],
+          "faab_bid": 1
+        }
+      }
+    ],
+    "unchanged": 30,
+    "status_distribution": {
+      "complete": 28,
+      "unknown": 1,
+      "pending": 1,
+      "failed": 1,
+      "canceled": 1
+    },
+    "source": "mTransactions2",
+    "limitations": {
+      "structured_details_incomplete": true
+    },
+    "truncated": false,
+    "dropped_invalid_timestamp_count": 0
+  },
+  "week9": {
+    "previous": 38,
+    "current": 42,
+    "added": [
+      {
+        "transaction_id": "7e92c81e-2689-4e68-9146-2b6fd7d9a90c",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1794139826274,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-08",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "6"
+        ],
+        "players_added": [
+          {
+            "id": "4569682",
+            "name": "Audric Estime",
+            "position": "RB",
+            "team": "NO"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4599739",
+            "name": "Kendre Miller",
+            "position": "RB",
+            "team": "FA"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "d66cfa47-4daf-4e44-93b2-e2d03d954578",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1794081042287,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-07",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "6"
+        ],
+        "players_added": [
+          {
+            "id": "3128429",
+            "name": "Courtland Sutton",
+            "position": "WR",
+            "team": "DEN"
+          }
+        ],
+        "players_dropped": [],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "ea3b275a-f6b3-4f17-8965-593573a21d2b",
+        "type": "drop",
+        "status": "complete",
+        "timestamp": 1794081024394,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-07",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "6"
+        ],
+        "players_added": [],
+        "players_dropped": [
+          {
+            "id": "4431492",
+            "name": "Roman Wilson",
+            "position": "WR",
+            "team": "PIT"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "2c34b649-ae84-4c32-82ed-bc5bad00e5d4",
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1794067774124,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-07",
+        "week": 9,
+        "provider_scoring_period_id": 9,
+        "team_ids": [
+          "9"
+        ],
+        "players_added": [
+          {
+            "id": "-16018",
+            "name": "Saints D/ST",
+            "position": "D/ST",
+            "team": "NO"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "-16021",
+            "name": "Eagles D/ST",
+            "position": "D/ST",
+            "team": "PHI"
+          }
+        ],
+        "faab_bid": 0
+      }
+    ],
+    "removed": [],
+    "modified": [
+      {
+        "before": {
+          "transaction_id": "1fb87d74-de9c-4d20-a2c5-0870b79db848",
+          "type": "add",
+          "status": "complete",
+          "timestamp": 1793895984325,
+          "timestamp_source": "proposedDate",
+          "date": "2026-11-05",
+          "week": 9,
+          "provider_scoring_period_id": 9,
+          "team_ids": [
+            "6"
+          ],
+          "players_added": [
+            {
+              "id": "4599739",
+              "name": "Kendre Miller",
+              "position": "RB",
+              "team": "NO"
+            }
+          ],
+          "players_dropped": [
+            {
+              "id": "4241555",
+              "name": "Elijah Mitchell",
+              "position": "RB",
+              "team": "PHI"
+            }
+          ],
+          "faab_bid": 0
+        },
+        "after": {
+          "transaction_id": "1fb87d74-de9c-4d20-a2c5-0870b79db848",
+          "type": "add",
+          "status": "complete",
+          "timestamp": 1793895984325,
+          "timestamp_source": "proposedDate",
+          "date": "2026-11-05",
+          "week": 9,
+          "provider_scoring_period_id": 9,
+          "team_ids": [
+            "6"
+          ],
+          "players_added": [
+            {
+              "id": "4599739",
+              "name": "Kendre Miller",
+              "position": "RB",
+              "team": "FA"
+            }
+          ],
+          "players_dropped": [
+            {
+              "id": "4241555",
+              "name": "Elijah Mitchell",
+              "position": "RB",
+              "team": "PHI"
+            }
+          ],
+          "faab_bid": 0
+        }
+      },
+      {
+        "before": {
+          "transaction_id": "7de5729b-ff64-4b89-8973-8e85ec501b79",
+          "type": "add",
+          "status": "complete",
+          "timestamp": 1793792734766,
+          "timestamp_source": "proposedDate",
+          "date": "2026-11-04",
+          "week": 9,
+          "provider_scoring_period_id": 9,
+          "team_ids": [
+            "6"
+          ],
+          "players_added": [
+            {
+              "id": "4362081",
+              "name": "Cameron Dicker",
+              "position": "K",
+              "team": "LAC"
+            }
+          ],
+          "players_dropped": [
+            {
+              "id": "4599739",
+              "name": "Kendre Miller",
+              "position": "RB",
+              "team": "NO"
+            }
+          ],
+          "faab_bid": 0
+        },
+        "after": {
+          "transaction_id": "7de5729b-ff64-4b89-8973-8e85ec501b79",
+          "type": "add",
+          "status": "complete",
+          "timestamp": 1793792734766,
+          "timestamp_source": "proposedDate",
+          "date": "2026-11-04",
+          "week": 9,
+          "provider_scoring_period_id": 9,
+          "team_ids": [
+            "6"
+          ],
+          "players_added": [
+            {
+              "id": "4362081",
+              "name": "Cameron Dicker",
+              "position": "K",
+              "team": "LAC"
+            }
+          ],
+          "players_dropped": [
+            {
+              "id": "4599739",
+              "name": "Kendre Miller",
+              "position": "RB",
+              "team": "FA"
+            }
+          ],
+          "faab_bid": 0
+        }
+      },
+      {
+        "before": {
+          "transaction_id": "22d0f60b-8fec-412f-8cf6-c1159b4dd41b",
+          "type": "add",
+          "status": "complete",
+          "timestamp": 1793791257263,
+          "timestamp_source": "proposedDate",
+          "date": "2026-11-04",
+          "week": 9,
+          "provider_scoring_period_id": 9,
+          "team_ids": [
+            "6"
+          ],
+          "players_added": [
+            {
+              "id": "4599739",
+              "name": "Kendre Miller",
+              "position": "RB",
+              "team": "NO"
+            }
+          ],
+          "players_dropped": [
+            {
+              "id": "4887558",
+              "name": "Emanuel Wilson",
+              "position": "RB",
+              "team": "SEA"
+            }
+          ],
+          "faab_bid": 0
+        },
+        "after": {
+          "transaction_id": "22d0f60b-8fec-412f-8cf6-c1159b4dd41b",
+          "type": "add",
+          "status": "complete",
+          "timestamp": 1793791257263,
+          "timestamp_source": "proposedDate",
+          "date": "2026-11-04",
+          "week": 9,
+          "provider_scoring_period_id": 9,
+          "team_ids": [
+            "6"
+          ],
+          "players_added": [
+            {
+              "id": "4599739",
+              "name": "Kendre Miller",
+              "position": "RB",
+              "team": "FA"
+            }
+          ],
+          "players_dropped": [
+            {
+              "id": "4887558",
+              "name": "Emanuel Wilson",
+              "position": "RB",
+              "team": "SEA"
+            }
+          ],
+          "faab_bid": 0
+        }
+      }
+    ],
+    "unchanged": 35,
+    "status_distribution": {
+      "complete": 32,
+      "canceled": 4,
+      "pending": 4,
+      "unknown": 2
+    },
+    "source": "mTransactions2",
+    "limitations": {
+      "structured_details_incomplete": true
+    },
+    "truncated": false,
+    "dropped_invalid_timestamp_count": 0
+  },
+  "week9_matchup_winners": [
+    "UNDECIDED",
+    "UNDECIDED",
+    "UNDECIDED",
+    "UNDECIDED",
+    "UNDECIDED",
+    "UNDECIDED"
+  ],
+  "week8_final_scores_unchanged": true,
+  "projections_all_six_changed": 6
+}
