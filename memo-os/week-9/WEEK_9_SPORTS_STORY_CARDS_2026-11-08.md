@@ -134,7 +134,7 @@
 
 **Turn:** The winner slides to an open firing angle; camera remains just behind the winner with the loser clearly downrange. Bright fresh paint breaks across mask and chest.
 
-**Chosen blocking:** One marker per character; safe protection stays on. TDS has exactly three protected serpent heads on one body; no duplicate bodies. Slob's horns/build remain recognizable.
+**Chosen blocking:** One marker per character; safe protection stays on. TDS has exactly three protected serpent heads on one body; no duplicate bodies. Preserve Slob’s already-approved October18 heavyset human presentation; no retired horned form.
 
 **If home wins:** Slob wins: final third-person winner-shoulder slide/aim shows TDS fully struck by multiple paint splatters
 
@@ -146,3 +146,10 @@
 
 **Football mechanism still required:** final player-level cause, verified score/margin and postweek standings; none invented.
 
+
+
+## Executed written storyboard continuation — all six
+
+The matching JSON cards now each carry the complete ordered beat sequence, ground plan, page-turn questions and both conditional endings. The readable shot tables are appended to [the existing issue screenplay](./WEEK_9_COMPLETE_ISSUE_PREVIS_2026-11-08.md#executed-phases-ae--written-storyboard-pass). Total: 48 written beats, not 48 pages. No actual winner has been selected.
+
+**Narrow active-text correction:** M06’s old “horns/build” sentence is superseded by the already-approved October18 heavyset human Slob presentation used in P20. This applies an existing correction; it does not reopen character design or rewrite historical archives.

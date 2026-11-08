@@ -389,3 +389,192 @@ After required source/character/site gates: first test **W09-P05** (golf montage
 ## Before the first image
 
 Resolve independent source stewardship and final causal data; retrieve/bind actual character references through the active renderer; clear DK source conflict without silent supersession; resolve scene-only technology/site exceptions; validate geometry and all six payoff branches; complete draft exact copy. Final release remains a separate audited gate.
+
+## Executed Phases A–E — Written Storyboard Pass
+
+**Scope:** Actual written treatments and packet refinements, not drawn thumbnails, generated images, Fact/Story/Art Lock or a published issue. The existing 28-folio architecture remains a flexible working allocation. All sporting action below is proposed fiction under Founder direction, not observed NFL or fantasy scoring chronology.
+
+**Coverage:** 48 written beats = 36 shared/setup/action beats + 12 mutually exclusive outcome endings. Eight GOTW beat positions use separate 08H/08A branches.
+
+### Phase A — GOTW sequence / Phase D — Remaining five sequences
+
+#### W09-M01 — Dr. Duckhook vs ObiWan Jacoby
+
+**Emotional spine:** Hospitality becomes a personal contest; the course stays beautiful while the rivals lose their composure.
+
+**Ground plan:** Readable shot axis: tee/fairway runs lower-left toward upper-right. Clubhouse remains horizon-left and pond camera-right. At the final green, the flag is uphill of a visible short apron descending to the pond. Opponent stays outside every swing arc.
+
+| Beat / page | Framing and physical action | What changes | Cut / page-turn logic |
+|---|---|---|---|
+| 01 / W09-P04 · COMMON | **Very wide autumn sunrise.** Duckhook waits by the first tee as ObiWan approaches; small removable charity signs sit beside the path, not over the landscape. | A welcoming public occasion and home advantage become visible. | Cut closer only when the visitor reaches the host. |
+| 02 / W09-P04 · COMMON | **Medium two-shot at scorecard height.** Duckhook offers the card; ObiWan takes its edge. Courteous smiles coexist with held eye contact and squared shoulders. No invented wager or readable stroke total. | Courtesy becomes a recognizable personal challenge. | Match the hand on the card to hands settling on a club. |
+| 03 / W09-P05 · COMMON | **Low three-quarter tee action.** Duckhook rotates through a driver follow-through; both hands share one grip. ObiWan watches the same ball from behind the tee marker, outside the swing arc. | The host stops welcoming and starts performing. Success is unassigned in the neutral study. | Follow the attention, not a second identical swing. |
+| 04 / W09-P05 · COMMON | **Medium visitor recovery shot.** ObiWan plants his boots in sand, flexes his knees and turns through one recovery stroke. Ball, club and sand fan remain separate; Duckhook watches beyond the safe arc. | The visitor must solve a different physical problem rather than simply copy the host. | Move from the stroke to the rival whose expression changes. |
+| 05 / W09-P05 · COMMON | **Tight reaction and grip detail.** The spectator golfer stops smiling and tightens a hand around the club; the scorecard folds shut without displaying invented numbers. | Mutual scrutiny replaces casual hospitality. | Page turn replaces noisy action with the quiet final-green wide. |
+| 06 / W09-P06 · COMMON | **Low wide across the entire green.** Frame the stationary ball, flag, short grassy apron and pond in one view. Both players walk into the already established play corridor. | The reader can predict the physical danger before anyone misses. | Compress to stance and eyes without crossing the pond axis. |
+| 07 / W09-P06 · COMMON | **Close stance then waiting-opponent insert.** The player settles the putter behind the ball; the opponent holds still beyond the line. No strike or triumph occurs on this page. | Speed gives way to a deliberate moment of pressure. | Turn the page before revealing contact and consequence. |
+| 08H / W09-P07 · HOME_WIN | **Decisive action then unequal two-shot.** IF DUCKHOOK WINS: ObiWan makes a visibly poor final execution; the released montage also shows his earlier mishits. Duckhook completes a controlled finish. ObiWan lowers the club and looks away; host remains composed. | The host earns victory through golf while the visitor absorbs the emotional cost. | Finish on the unchanged beautiful setting, then cut to the swamp horizon. |
+| 08A / W09-P07 · AWAY_WIN | **Putter contact to pond-side consequence.** IF OBIWAN WINS: Duckhook overhits across the established slope; an inset follows the ball over the short apron into water. ObiWan has finished steadily. Duckhook freezes, then his shoulders fall. | The hazard setup pays off without teleporting the ball or giving ObiWan a magical victory. | Hold the water ripple and loser reaction once; then leave the chapter. |
+
+**Text-hidden review questions:** Who invited whom? Which golfer acts in each vignette? Where would an overhit putt travel, and was that shown first? Which branch is hypothetical rather than an announced winner?
+
+These questions have been applied to written causality, not passed by an actual drawn board or audience test.
+
+#### W09-M02 — Mud Dogs vs El Niño
+
+**Emotional spine:** Cocky familiarity becomes vulnerability; knowledge must turn into a changed decision, not mere bravery.
+
+**Ground plan:** A raised start bank looks across a low channel toward an elevated finish banner. A root-bound berm runs around the near edge. Floodwater crosses the low channel toward the basin; these positions do not change between shots.
+
+| Beat / page | Framing and physical action | What changes | Cut / page-turn logic |
+|---|---|---|---|
+| 01 / W09-P08 · COMMON | **Wide start bank with long horizon.** Mud Dogs sets off on the dirt bike; preserve his approved canine build and recognizable forelimbs at the controls. The channel, berm and finish are visible. | Home familiarity and a tangible destination are established. | Cut to the rider noticing the changing sky. |
+| 02 / W09-P08 · COMMON | **Three-quarter rider reaction.** Mud Dogs looks toward an approaching dark front, then leans into acceleration rather than slowing or choosing higher ground. | Ignoring the warning is a choice, not an unexplained accident. | Follow rear-wheel spray into the same channel seen in the wide. |
+| 03 / W09-P09 · COMMON | **High oblique of the known course.** Rain and floodwater cover the low race line; the previously visible channel markers become partly submerged. No humanoid storm adversary appears. | El Niño changes the physical course rather than merely decorating the sky. | Move close enough to see tire contact fail. |
+| 04 / W09-P09 · COMMON | **Low wheel and body contact.** The rear tire slips at the channel edge; Mud Dogs shifts his weight to keep the bike upright. A foot/forelimb is not duplicated or humanized for convenience. | Familiar ground no longer guarantees control. | Cut on his glance toward the still-visible root berm. |
+| 05 / W09-P09 · COMMON | **Rider point-of-view at the route fork.** The flooded shortcut leads toward deep brown water; the longer raised berm still connects to the finish bank. | The reader sees a real decision with two different costs. | Hold the choice into the next page, not another generic jump. |
+| 06 / W09-P10 · COMMON | **Side-wide attempt at the fork.** Mud Dogs adjusts the front wheel and body before committing. The neutral board ends before either line succeeds or fails. | The coming result will follow terrain and execution, not a sudden rescue. | Select exactly one conditional continuation only after verified results. |
+| 07H / W09-P10 · HOME_WIN | **Lateral berm traversal and finish.** IF MUD DOGS WINS: he takes the raised berm, keeps the front tire out of the deep channel and grips the firmer exit. The bike clears the last short gap and crosses the previously shown finish line. | He survives by correcting his earlier arrogance with skill. | Leave mud and damage on bike and rider; do not reset them clean. |
+| 07A / W09-P10 · AWAY_WIN | **Tight trapped wheel widening to inaccessible finish.** IF EL NIÑO WINS: the attempted low line buries the rear tire; throttle throws mud without movement. Mud Dogs cannot navigate out to finish as the route floods. Keep him alive and visibly stranded. | The storm wins by stopping the race; postseason despair is emotional, not an unverified elimination claim. | End with the finish visible but unreachable across the water. |
+
+**Text-hidden review questions:** Can the reader see the storm before the rider ignores it? Can the finish be located before the ending? Does the winning route use already shown terrain?
+
+These questions have been applied to written causality, not passed by an actual drawn board or audience test.
+
+#### W09-M03 — Red Leopards vs Seven Deadly Chins
+
+**Emotional spine:** A quiet host sees something he values violated, chooses retaliation, and meets an opponent capable of countering.
+
+**Ground plan:** The truck enters along the west pitch edge and turns near the east goal. Red can reach a low terrace beside that turn. Beyond it is a narrow stone service passage: solid masonry can stop a truck, loose netting cannot.
+
+| Beat / page | Framing and physical action | What changes | Cut / page-turn logic |
+|---|---|---|---|
+| 01 / W09-P11 · COMMON | **Quiet pitch-wide from the terrace.** Red enjoys his soccer grounds with the center circle and goal intact. A distant lifted truck approaches the same entrance. | The reader sees what can be lost before destruction begins. | Shift toward the arriving tires. |
+| 02 / W09-P11 · COMMON | **Tire-height intrusion.** Chins drives the lifted truck across the pitch; the tires tear a continuous track through the center circle and clip the goal structure. | Off-roading becomes a deliberate territorial violation. | Match the fresh rut to Red looking down at it. |
+| 03 / W09-P12 · COMMON | **Close reaction then elevated stalk.** Red observes the torn turf, drops the relaxed posture and moves up the low terrace beside the truck turn. | Outrage becomes a plan expressed through movement. | Keep truck and interception terrace in the same wide before the leap. |
+| 04 / W09-P12 · COMMON | **Diagonal terrace-to-hood action.** As Chins slows to turn, Red leaps from the low terrace onto the hood. Show takeoff, landing direction and contact; no hovering predator pose. | The host physically interrupts the driver’s freedom. | Cut to Chins responding behind the wheel. |
+| 05 / W09-P12 · COMMON | **Cab countershot with both forces readable.** Chins brakes and starts steering away from the exposed stone passage. Red shifts toward the outside edge rather than magically controlling the vehicle. | The intruder responds intelligently; the outcome is not predetermined by the pounce. | Reveal the fork between the broad pitch and narrow service gap. |
+| 06 / W09-P13 · COMMON | **High oblique approach to the bottleneck.** The truck, stone gap, hanging goal net and Red’s escape ledge share one frame. Red drops to the ledge as the driver chooses the line. | The physical cause of either ending is now visible. | Use one of the following outcomes; any red-card joke comes afterwards. |
+| 07H / W09-P13 · HOME_WIN | **Grounded truck and standing predator.** IF RED WINS: the truck turns too tightly; its wheel climbs the low stone edge and the chassis grounds across the narrow entrance. Loose net drapes over the cab as a visual joke. Red stands safely on the terrace; Chins is stuck. | The ambush stops the intruder through leverage and terrain, not magical net strength. | The pitch remains damaged; victory does not erase the rut. |
+| 07A / W09-P13 · AWAY_WIN | **Wide escape with ruined pitch foreground.** IF CHINS WINS: he straightens before entering the gap and powers back across the turf. Red has to abandon the hood for the safe ledge; the truck passes the failed trap. | Chins defeats the retaliation; Red is left with the violated field. | Use the torn center circle once as aftermath, not a random collapsing ruin. |
+
+**Text-hidden review questions:** Who caused the field damage? Does Red reach the hood from a shown terrace? Is the stopping force stone/ground rather than an implausible net?
+
+These questions have been applied to written causality, not passed by an actual drawn board or audience test.
+
+#### W09-M04 — The Chili Cheesers vs His Majesty's Blood
+
+**Emotional spine:** The cookout host wants to own the occasion; a familiar dominant visitor challenges that pride in public.
+
+**Ground plan:** The town cookout is temporary dressing beside Chili Stable. A low serving platform holds a ribbon and table; a wheeled vat of cooled serving chili sits on the shallow ramp beside it. Dark Horse and its cart harness are visible off the crowd lane.
+
+| Beat / page | Framing and physical action | What changes | Cut / page-turn logic |
+|---|---|---|---|
+| 01 / W09-P14 · COMMON | **Warm public feast panorama.** Chili works the serving station while townsfolk gather. Show the wheeled serving vat, its chock, ramp and Dark Horse harness naturally within the frame. | Hospitality and the eventual comic mechanism are established together. | The crowd’s attention shifts toward the arriving Belt Keeper. |
+| 02 / W09-P14 · COMMON | **Low medium at the edge of the tables.** HMB steps in wearing his approved hooded, red-eyed, black-armored identity and belt. Chili pauses with a ladle before resuming a deliberately confident welcome. | A lively cookout becomes a personal test. | Match their eyelines to the prize ribbon and serving platform. |
+| 03 / W09-P14 · COMMON | **Two-shot across the serving table.** Chili presents the dish; HMB inspects it and takes space at the platform. No crown, royal court or invented real league judging rule. | Both characters try to control the public encounter. | Turn on the unresolved struggle over the host’s stage. |
+| 04 / W09-P15 · COMMON | **Medium-wide mechanism reset.** Chili moves beside the cart release while HMB reaches the table edge. Dark Horse is linked to the serving-cart movement; the crowd remains clear of the ramp. | The actors and props can produce either payoff without an unexplained falling cauldron. | Cut closer to the hand/hoof/cart action that selects the branch. |
+| 05 / W09-P15 · COMMON | **Contact and counter-action insert.** One hand closes on the cart release, the other competitor braces at the table; the ribbon, ladle and vat remain distinguishable. Stop the neutral version before either gains control. | The reversal depends on a visible action, not narration declaring humiliation. | Select one result-dependent payoff and hold a deadpan reaction. |
+| 06H / W09-P15 · HOME_WIN | **Controlled spill then deadpan aftermath.** IF CHILI WINS: the Outlaw deliberately releases the chock as Dark Horse pulls the cart forward. A wheel drops at the established platform lip; cooled chili sloshes across HMB’s hood and armor. HMB remains upright with the belt still his. | Chili turns his own serving arrangement into public payback; no burn or injury joke. | Chili holds the empty ladle as HMB slowly looks down at the mess. |
+| 06A / W09-P15 · AWAY_WIN | **Table takeover and host-as-server two-shot.** IF HMB WINS: the champion pulls the light serving table to his position before Chili springs the reversal, takes the cookout ribbon and calmly holds out a bowl. Chili is left ladle-in-hand serving him before his own crowd. | HMB humiliates the host through effortless control; no crown or title transfer. | Finish on Chili’s forced service against HMB’s unruffled posture. |
+
+**Text-hidden review questions:** Was the vat’s position and movement established before the spill? Is HMB still the hooded Belt Keeper, not a king? Is the cookout ribbon separate from the league belt?
+
+These questions have been applied to written causality, not passed by an actual drawn board or audience test.
+
+#### W09-M05 — D0nkey K0ng vs The LLC
+
+**Emotional spine:** Home-arena confidence meets an expensive challenger whose precision can answer strength.
+
+**Ground plan:** Highland terrain remains visible beyond the proposed colosseum. DK enters left, LLC right. The broad sand ring has no hidden trap; the same entrance banners anchor every countershot. LLC’s small shield is visible from his entrance, never conjured at the reversal.
+
+| Beat / page | Framing and physical action | What changes | Cut / page-turn logic |
+|---|---|---|---|
+| 01 / W09-P16 · COMMON | **High arena-wide.** Show both entrances, crowd outside the sand and Highland setting beyond. No copied movie frame, tigers or surprise combatants. | The duel has scale and a readable fighting space. | Descend to distinct entrances rather than another overhead. |
+| 02 / W09-P16 · COMMON | **Paired full-body entrances.** DK enters with Arsenal identity and all four equine legs visible. LLC advances in ornate knightly armor with recognizable face/corporate identity, sword and a small shield. | Strength and precision are visually different before either attacks. | Cut on their approach to a shared action-wide. |
+| 03 / W09-P17 · COMMON | **Medium-wide first clash.** DK advances diagonally with one sword; LLC meets the blade with his own and braces the shield. Keep both grips, blades and contact point legible. | The opening tests defenses without deciding superiority. | Follow the blade deflection into the fighters’ feet. |
+| 04 / W09-P17 · COMMON | **Low footwork insert linked to the wide.** DK plants four hooves through a controlled wheel of his body; LLC sidesteps to the outside rather than remaining under the charge. | The encounter changes angle, not just weapon position. | Return to the same action axis to reveal the new opening. |
+| 05 / W09-P17 · COMMON | **Three-quarter counter and recovery.** LLC redirects the next cut and shifts shield pressure; DK resets his forelegs and turns his upper body back toward the opponent. No effortless human-strength shove of a full centaur. | Both combatants recover and choose; the winner must exploit an actual imbalance. | Page turn holds the final opening, not a fixed victor pose. |
+| 06 / W09-P18 · COMMON | **Wide decisive approach before contact.** Show both fighters re-entering the open lane; their footing, weapons and visible gap are continuous with P17. | The reader can explain how either conditional finishing move is possible. | Select one final action and retain the loser’s connected anatomy. |
+| 07H / W09-P18 · HOME_WIN | **Advancing parry into unbalanced kneel.** IF DK WINS: he redirects LLC’s sword out of line, advances from planted hooves and forces the armored challenger off balance. LLC goes to one knee with weapon lowered; DK remains one integrated four-legged body. | Power wins through stance and a shown parry, not an unexplained already-defeated opponent. | Hold the crowd reaction behind the two bodies; no killing or belt claim. |
+| 07A / W09-P18 · AWAY_WIN | **Outside-angle bind and checked charge.** IF LLC WINS: he steps outside DK’s committed turn, binds the sword arm behind his shield and denies the next cut. DK checks his charge, lowers his forequarters and yields the blade while LLC controls the opening. | Precision and leverage beat momentum without shrinking DK or changing his anatomy. | Keep the surrendered sword, lowered forequarters and composed challenger in one frame. |
+
+**Text-hidden review questions:** Are DK’s four equine legs and integrated gorilla upper body clear? Does the winning move follow a shown parry and footwork? Is the challenger still recognizable as LLC under armor?
+
+These questions have been applied to written causality, not passed by an actual drawn board or audience test.
+
+#### W09-M06 — Slob on my Dobb vs Three Dreaded Snake
+
+**Emotional spine:** Every advance gains an angle and sacrifices protection; the victory must be earned by a visible flank.
+
+**Ground plan:** From the west sideline: Slob starts southwest/near-left, TDS northeast/far-right. A cylinder, central low bunker and northeast wedge define the lanes; trees and distant camp remain behind. Inflatable covers are stationary. A final pivoting camera is re-established before the behind-winner view.
+
+| Beat / page | Framing and physical action | What changes | Cut / page-turn logic |
+|---|---|---|---|
+| 01 / W09-P19 · COMMON | **Course-wide from west sideline.** Show two starts, trees, terrain and inflatable defenses within Slob’s foothills. Both competitors wear protection; TDS has exactly three protected heads on one body. | The reader learns lanes before rapid cutting begins. | Match the two start positions to their first movement. |
+| 02 / W09-P19 · COMMON | **Low paired breakout.** Slob bursts toward the southwest cylinder; TDS reaches the northeast wedge. Each carries one sporting marker with one shared pair of arms, not three TDS shooters. | Both rivals commit actively rather than one being target practice. | Follow Slob’s movement into the middle lane. |
+| 03 / W09-P20 · COMMON | **Dominant low sideline action-wide.** Slob drives from cylinder toward central low cover as TDS leans from the far wedge. Paint lands on inflatable cover, not either player. | The first crossing exposes a cost while gaining ground. | Inset follows the slide from the same left-to-right direction. |
+| 04 / W09-P20 · COMMON | **Medium Slob slide inset.** His current heavyset human build compresses into a short slide; soil scuffs follow the travel direction. Mask stays on; no stale horned redesign. | A forceful advance ends in a defensible position, not victory. | Countercut to the opponent using the information. |
+| 05 / W09-P20 · COMMON | **Medium TDS counter-move inset.** TDS leaves the wedge for adjacent tree cover. Central head tracks Slob; outer heads watch flanks; three necks join one body and marker stays below the faces. | The defender changes position rather than freezing for the next shot. | Turn before either finds a clean final hit. |
+| 06 / W09-P21 · COMMON | **High oblique re-establishing angle.** Show the new diagonal between central cover and rear tree lane. Both can still reach a sliding position with a clean line past—not through—the obstacle. | The coming reverse viewpoint is earned; the camera may move but geography does not flip mysteriously. | Drop behind the actual winner only in the selected branch. |
+| 07H / W09-P21 · HOME_WIN | **Founder final: behind Slob’s winning slide.** IF SLOB WINS: camera follows just behind Slob as he slides into the open diagonal and aims. TDS is fully readable downrange; fresh bright paint splatters across protected heads and chest. | The earlier aggressive crossing pays off through a real firing angle. | Keep fresh paint, masks and loser visible; no blood or lethal weapon. |
+| 07A / W09-P21 · AWAY_WIN | **Founder final: behind TDS’s winning slide.** IF TDS WINS: re-establish then drop behind TDS sliding from tree-side cover into the open diagonal, one marker aimed ahead. Slob is visible downrange with fresh paint across visor and torso. | The counter-flank defeats the initial advance; the behind-victor composition remains exact. | Keep three head silhouettes distinct and Slob visible beyond the marker. |
+
+**Text-hidden review questions:** Can both starting sides and the open lane be located? Does P20 avoid premature body hits or a winner? Does P21 show winner, muzzle direction and splattered loser in one coherent view?
+
+These questions have been applied to written causality, not passed by an actual drawn board or audience test.
+
+### Phase B — Existing proof packets refined
+
+**P05 / A Round of Answers:** Top host tee action, middle visitor recovery, bottom courtesy-fades reaction. Full final-green mapping remains P06; do not repeat it inside P05. The reaction replaces a redundant greenside setup, with the same two approved subjects, exact existing copy, native layout boxes and conditional release logic.
+
+**P20 / No Safe Corner:** One dominant crossing-frame and two detail inserts preserve fixed bunker positions and the common firing lane. The deck now reads “Two contenders. Changing angles. No comfortable position.” Cover does not move. P21 alone carries the winner-dependent slide/body-paint payoff.
+
+Both page JSON objects keep source-mapped approved references, exact copy, measured layout, physical contact, previous/next-page relation and execution briefs. Neither is claimed to have been rendered or cleared for release.
+
+### Phase C — Director-method adaptation applied
+
+The five passes are our static-memo adaptation recorded in existing Issue #276, not a newly invented historical Jackson formula: emotional beat → rough written frame → ground/blocking plan → page-turn edit → eventual keyframe proof. We completed the written stages. Drawn thumbnails, timed animatics and polished images are not claimed.
+
+| Existing author-method lens | Concrete application in this pass |
+|---|---|
+| Tolkien | Preserve recurring home-ground memory and damage; Red’s pitch is meaningful before its destruction. |
+| Lewis | Charity civility versus competitive pride is irony, not a new moral verdict about real owners. |
+| Martin | Both competitors make choices; the losing side is not inert scenery. |
+| Rowling | Pond, root berm, stone gap, chili cart and final firing lane are established before payoff. |
+| Grisham | Each page turn leaves one concrete unanswered action, not a repeated mood. |
+| Le Guin | Reaction shots stay with someone who can see the action; do not invent hidden motives as facts. |
+| Sanderson | Ball, tire, cart, sword and paint follow previously shown physical rules. |
+| Abercrombie | The cost reads through posture, grip and effort; no unnecessary death or gore. |
+
+| Existing production reference | Concrete application in this pass |
+|---|---|
+| Doug Chiang | Reuse existing parent venues; new event dressing is subordinate, not a new region. |
+| Dylan Cole | Three persistent scene anchors keep orientation coherent in every chapter. |
+| Joe Letteri | Settled identity stays fixed while performance changes; HMB/DK attention remains local. |
+| Ngila Dickson | Sporting protection adapts to approved silhouettes, including three TDS heads. |
+| Andy Serkis | Desire and frustration register in posture and hands, not just labels. |
+| Rob Alonzo | Establish takeoff/contact/recovery and counter-action before decisive impact. |
+| James Baxter | Bodies, hands, tools and targets have distinct readable silhouettes. |
+| Frank Masi | Choose the instant that makes the action intelligible, not a portrait after it happened. |
+| John Knoll | Keep image, reference inputs and exact factual typography separate; no invented render receipt. |
+| Jill Bogdanowicz | Autumn warmth remains in golf while emotional pressure rises; other scene palettes serve their environments. |
+| Thelma Schoonmaker | P05 reaction now differs from P06 hazard pause; remove cuts with no changed information. |
+| Randy Thom | Sound cues are written atmosphere only: sand, rain, wheels, cart rattle, steel and paint. No audio production added. |
+
+These are advisory methodology assignments, not personal consultations with named authors/filmmakers or source-authenticated claims about their private work. No new persona, director registry, camera quota or mandatory video pipeline is introduced.
+
+### Phase E — Sports Desk hold and handoff
+
+No live data refresh was performed in this writing pass. Existing November8 capture is retained with its source time and hash. Every story still has empty final-score, winner, player-contribution, postweek-record and elimination/clinching fields. A losing fictional race is not proof of playoff elimination.
+
+| Needed before result-specific copy | Existing owner / downstream use |
+|---|---|
+| Final status, score and winner | Scout + Data Release Steward (#268); selects exactly one ending per matchup |
+| Starter/bench and player contribution evidence | Analyst; fills each Sports + Story Card and P22 |
+| Completed/canceled transaction and injury evidence | Sports desk; preserves distinction in P23 |
+| Accepted postweek standings and real seeding rules | Analyst; P24, not invented clinches |
+| Verified next-week fixtures | Scout; P26 must not recycle Week9 fixtures |
+| Posted lines and settlement evidence | Pittsy department; P27 remains separate from inferred fantasy probabilities |
+
+**Execution sequence after this written pass:** rough GOTW visual strip/page-turn rehearsal → P05/P20 proof images when actual input/scene/source authorization is met → inspect native and phone-scale pixels → expand across existing chapters → accepted final data selects endings. No repeated questionnaire or settled-character approval loop.

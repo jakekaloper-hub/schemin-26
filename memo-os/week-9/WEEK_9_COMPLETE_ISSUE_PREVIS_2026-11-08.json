@@ -426,6 +426,46 @@
       "outcome_alternatives": {
         "home_win": "Duckhook wins: ObiWan makes an increasingly embarrassing series of poor golf shots; Duckhook controls his course and wins; visibly anguished ObiWan",
         "away_win": "ObiWan wins: Duckhook misses embarrassing decisive putt/approach toward the water hazard while ObiWan finishes steadily; defeated Duckhook registers the blow"
+      },
+      "written_storyboard": {
+        "state": "WRITTEN_PREPRODUCTION_NOT_DRAWN_NOT_LOCKED",
+        "emotional_spine": "Hospitality becomes a personal contest; the course stays beautiful while the rivals lose their composure.",
+        "ground_plan": "Readable shot axis: tee/fairway runs lower-left toward upper-right. Clubhouse remains horizon-left and pond camera-right. At the final green, the flag is uphill of a visible short apron descending to the pond. Opponent stays outside every swing arc.",
+        "anchors": [
+          "clubhouse left",
+          "fairway approach",
+          "right-side pond and sloped apron"
+        ],
+        "beats": [
+          {
+            "beat_id": "W09-M01-B01",
+            "page_id": "W09-P04",
+            "branch": "COMMON",
+            "shot": "Very wide autumn sunrise",
+            "pose_and_physical_action": "Duckhook waits by the first tee as ObiWan approaches; small removable charity signs sit beside the path, not over the landscape.",
+            "what_changes": "A welcoming public occasion and home advantage become visible.",
+            "transition": "Cut closer only when the visitor reaches the host.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M01-B02",
+            "page_id": "W09-P04",
+            "branch": "COMMON",
+            "shot": "Medium two-shot at scorecard height",
+            "pose_and_physical_action": "Duckhook offers the card; ObiWan takes its edge. Courteous smiles coexist with held eye contact and squared shoulders. No invented wager or readable stroke total.",
+            "what_changes": "Courtesy becomes a recognizable personal challenge.",
+            "transition": "Match the hand on the card to hands settling on a club.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          }
+        ],
+        "page_turn_out": "Does the courteous host or returning guest make the stronger first statement?",
+        "text_hidden_review_questions": [
+          "Who invited whom?",
+          "Which golfer acts in each vignette?",
+          "Where would an overhit putt travel, and was that shown first?",
+          "Which branch is hypothetical rather than an announced winner?"
+        ],
+        "visual_comprehension_test_passed": false
       }
     },
     {
@@ -538,7 +578,7 @@
       },
       "continuity_in": "Inherit exact prior page and chapter prop/state record; page 04",
       "continuity_out": "Carry prop damage, body gear and spatial orientation to page 06",
-      "image_tells": "Three readable sequential vignettes: tee follow-through, sand/rough recovery, green-side reaction. Both characters visibly take turns; who excels is outcome-dependent.",
+      "image_tells": "Three sequential vignettes: host tee follow-through, visitor sand recovery, then the courteous smiles disappearing. P06 owns the full final-green hazard map.",
       "prose_tells": "Use one verified player-performance mechanism later, not an invented golf stroke total.",
       "art_text_ratio": "85:15",
       "camera_and_composition": "Sequential athletic montage",
@@ -668,10 +708,10 @@
             "neutrality": "The proof shows the attempt, not confirmed success or humiliation."
           },
           {
-            "beat": "READING_THE_GREEN",
-            "framing": "Low greenside two-shot; readable duck bill and youthful human face",
-            "action": "One golfer crouches to read the line while the other stands back with a putter; their attention converges on one stationary ball.",
-            "contact": "No hand/club overlaps an eye or bill. Putter head contacts ground beside ball, not a winning stroke.",
+            "beat": "COURTESY_FADES",
+            "framing": "Tight two-shot reaction at a greenside pause, not a repeat of P06 final-green map",
+            "action": "Duckhook folds the unnumbered scorecard shut as ObiWan tightens his grip; each stops smiling and checks the other rather than posing toward the camera.",
+            "contact": "Scorecard, club grip, duck bill and human face stay separated; no winning stroke is shown.",
             "axis": "Flag uphill in middle distance; short apron visibly slopes toward pond on right.",
             "neutrality": "No sunk ball, trophy, scoreboard victory or despair before result selection."
           }
@@ -725,7 +765,7 @@
               "character_id": "CHAR-JAKE-KALOPER"
             }
           ],
-          "image_instruction": "SCHEMIN '26 WEEK9 EXISTING-PAGE EXECUTION BRIEF. Native 1080x1920 PNG, portrait 9:16. Use the exact approved current character images selected below; preserve anatomy, appearance and current clothing identity, varying only sporting gear, action, pose and lighting as directed. References determine identity, not their original pose. Use the existing page copy and layout zones; exact names/numbers remain deterministic compositor-owned. No new canon, no invented player statistics, no winner or final score before result selection. This is a prepared instruction only: no render request has been sent. Do not place historical file IDs into a renderer field that does not support them. Three large, readable sequential golf vignettes at Country Club of Jackson in beautiful autumn sunrise. Top: Duckhook finishes a driver stroke with both hands on ONE grip; orange duck bill and green cap remain distinct; ObiWan watches from safely behind the swing arc. Middle: ObiWan recovers from sand with flexed knees and visible torso rotation; sand spray, ball and club are three separate readable elements. His earth-tone layered wardrobe remains recognizable; no championship belt, no sword used as golf club. Bottom: both study a stationary ball before the putt, never celebrate an unverified result. The pond stays on camera-right and clubhouse on horizon-left in all three views. Three repeated moments, not six simultaneous characters. In the neutral proof no stroke establishes a winner; the released montage selects success/failure only after the real matchup result. Use all exact existing copy/boxes from proof_preparation, with type-safe space and no repeated hero portrait.",
+          "image_instruction": "SCHEMIN '26 WEEK9 EXISTING-PAGE EXECUTION BRIEF. Native 1080x1920 PNG, portrait 9:16. Use the exact approved current character images selected below; preserve anatomy, appearance and current clothing identity, varying only sporting gear, action, pose and lighting as directed. References determine identity, not their original pose. Use the existing page copy and layout zones; exact names/numbers remain deterministic compositor-owned. No new canon, no invented player statistics, no winner or final score before result selection. This is a prepared instruction only: no render request has been sent. Do not place historical file IDs into a renderer field that does not support them. Three large, readable sequential golf vignettes at Country Club of Jackson in beautiful autumn sunrise. Top: Duckhook finishes a driver stroke with both hands on ONE grip; orange duck bill and green cap remain distinct; ObiWan watches from safely behind the swing arc. Middle: ObiWan recovers from sand with flexed knees and visible torso rotation; sand spray, ball and club are three separate readable elements. His earth-tone layered wardrobe remains recognizable; no championship belt, no sword used as golf club. Bottom: at a greenside pause Duckhook folds the unnumbered scorecard shut while ObiWan tightens his grip; their smiles fade. Reserve the full ball/flag/apron map for P06; never celebrate an unverified result. The pond stays on camera-right and clubhouse on horizon-left in all three views. Three repeated moments, not six simultaneous characters. In the neutral proof no stroke establishes a winner; the released montage selects success/failure only after the real matchup result. Use all exact existing copy/boxes from proof_preparation, with type-safe space and no repeated hero portrait.",
           "exact_copy_source": "proof_preparation.headline/deck/body_copy",
           "layout_source": "proof_preparation.layout",
           "readiness": "BRIEF_PREPARED_NOT_RENDER_SUBMITTED",
@@ -734,12 +774,76 @@
             "Applicable scene/source acceptance",
             "Final-raster identity, physicality and phone QA"
           ],
-          "preserve_outcome_branches": true
-        }
+          "preserve_outcome_branches": true,
+          "written_sequence_source": "written_storyboard.beats in this same existing page object"
+        },
+        "storyboard_beat_ids": [
+          "W09-M01-B03",
+          "W09-M01-B04",
+          "W09-M01-B05"
+        ],
+        "sequence_readthrough": {
+          "previous_page": "W09-P04",
+          "next_page": "W09-P06",
+          "cut_rule": "Each inset must add an action, opponent response or changed information; no duplicate hero pose.",
+          "no_winner_test": "No body-hit/elimination in P20; no verified golf stroke totals or decisive winning ball in neutral P05.",
+          "acceptance_not_run": "Actual-image text-hidden and phone-scale tests await generated/drawn boards; prose checks do not count."
+        },
+        "refinement_state": "COMPLETE_WRITTEN_EXECUTION_PACKET_NOT_RENDER_AUTHORIZATION"
       },
       "character_identity_state": "SETTLED_EXISTING_APPROVALS_NO_RECONFIRMATION",
       "character_exception_dependencies": [],
-      "legacy_primary_recovery_required_for_preproduction": false
+      "legacy_primary_recovery_required_for_preproduction": false,
+      "written_storyboard": {
+        "state": "WRITTEN_PREPRODUCTION_NOT_DRAWN_NOT_LOCKED",
+        "emotional_spine": "Hospitality becomes a personal contest; the course stays beautiful while the rivals lose their composure.",
+        "ground_plan": "Readable shot axis: tee/fairway runs lower-left toward upper-right. Clubhouse remains horizon-left and pond camera-right. At the final green, the flag is uphill of a visible short apron descending to the pond. Opponent stays outside every swing arc.",
+        "anchors": [
+          "clubhouse left",
+          "fairway approach",
+          "right-side pond and sloped apron"
+        ],
+        "beats": [
+          {
+            "beat_id": "W09-M01-B03",
+            "page_id": "W09-P05",
+            "branch": "COMMON",
+            "shot": "Low three-quarter tee action",
+            "pose_and_physical_action": "Duckhook rotates through a driver follow-through; both hands share one grip. ObiWan watches the same ball from behind the tee marker, outside the swing arc.",
+            "what_changes": "The host stops welcoming and starts performing. Success is unassigned in the neutral study.",
+            "transition": "Follow the attention, not a second identical swing.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M01-B04",
+            "page_id": "W09-P05",
+            "branch": "COMMON",
+            "shot": "Medium visitor recovery shot",
+            "pose_and_physical_action": "ObiWan plants his boots in sand, flexes his knees and turns through one recovery stroke. Ball, club and sand fan remain separate; Duckhook watches beyond the safe arc.",
+            "what_changes": "The visitor must solve a different physical problem rather than simply copy the host.",
+            "transition": "Move from the stroke to the rival whose expression changes.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M01-B05",
+            "page_id": "W09-P05",
+            "branch": "COMMON",
+            "shot": "Tight reaction and grip detail",
+            "pose_and_physical_action": "The spectator golfer stops smiling and tightens a hand around the club; the scorecard folds shut without displaying invented numbers.",
+            "what_changes": "Mutual scrutiny replaces casual hospitality.",
+            "transition": "Page turn replaces noisy action with the quiet final-green wide.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          }
+        ],
+        "page_turn_out": "The smiles have gone; what does the last hole put at risk?",
+        "text_hidden_review_questions": [
+          "Who invited whom?",
+          "Which golfer acts in each vignette?",
+          "Where would an overhit putt travel, and was that shown first?",
+          "Which branch is hypothetical rather than an announced winner?"
+        ],
+        "visual_comprehension_test_passed": false
+      }
     },
     {
       "issue_id": "S26-W09-2026",
@@ -868,6 +972,46 @@
       "outcome_alternatives": {
         "home_win": "Duckhook wins: ObiWan makes an increasingly embarrassing series of poor golf shots; Duckhook controls his course and wins; visibly anguished ObiWan",
         "away_win": "ObiWan wins: Duckhook misses embarrassing decisive putt/approach toward the water hazard while ObiWan finishes steadily; defeated Duckhook registers the blow"
+      },
+      "written_storyboard": {
+        "state": "WRITTEN_PREPRODUCTION_NOT_DRAWN_NOT_LOCKED",
+        "emotional_spine": "Hospitality becomes a personal contest; the course stays beautiful while the rivals lose their composure.",
+        "ground_plan": "Readable shot axis: tee/fairway runs lower-left toward upper-right. Clubhouse remains horizon-left and pond camera-right. At the final green, the flag is uphill of a visible short apron descending to the pond. Opponent stays outside every swing arc.",
+        "anchors": [
+          "clubhouse left",
+          "fairway approach",
+          "right-side pond and sloped apron"
+        ],
+        "beats": [
+          {
+            "beat_id": "W09-M01-B06",
+            "page_id": "W09-P06",
+            "branch": "COMMON",
+            "shot": "Low wide across the entire green",
+            "pose_and_physical_action": "Frame the stationary ball, flag, short grassy apron and pond in one view. Both players walk into the already established play corridor.",
+            "what_changes": "The reader can predict the physical danger before anyone misses.",
+            "transition": "Compress to stance and eyes without crossing the pond axis.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M01-B07",
+            "page_id": "W09-P06",
+            "branch": "COMMON",
+            "shot": "Close stance then waiting-opponent insert",
+            "pose_and_physical_action": "The player settles the putter behind the ball; the opponent holds still beyond the line. No strike or triumph occurs on this page.",
+            "what_changes": "Speed gives way to a deliberate moment of pressure.",
+            "transition": "Turn the page before revealing contact and consequence.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          }
+        ],
+        "page_turn_out": "The ball is still; can either golfer handle the pressure?",
+        "text_hidden_review_questions": [
+          "Who invited whom?",
+          "Which golfer acts in each vignette?",
+          "Where would an overhit putt travel, and was that shown first?",
+          "Which branch is hypothetical rather than an announced winner?"
+        ],
+        "visual_comprehension_test_passed": false
       }
     },
     {
@@ -1000,6 +1144,46 @@
       "outcome_alternatives": {
         "home_win": "Duckhook wins: ObiWan makes an increasingly embarrassing series of poor golf shots; Duckhook controls his course and wins; visibly anguished ObiWan",
         "away_win": "ObiWan wins: Duckhook misses embarrassing decisive putt/approach toward the water hazard while ObiWan finishes steadily; defeated Duckhook registers the blow"
+      },
+      "written_storyboard": {
+        "state": "WRITTEN_PREPRODUCTION_NOT_DRAWN_NOT_LOCKED",
+        "emotional_spine": "Hospitality becomes a personal contest; the course stays beautiful while the rivals lose their composure.",
+        "ground_plan": "Readable shot axis: tee/fairway runs lower-left toward upper-right. Clubhouse remains horizon-left and pond camera-right. At the final green, the flag is uphill of a visible short apron descending to the pond. Opponent stays outside every swing arc.",
+        "anchors": [
+          "clubhouse left",
+          "fairway approach",
+          "right-side pond and sloped apron"
+        ],
+        "beats": [
+          {
+            "beat_id": "W09-M01-B08H",
+            "page_id": "W09-P07",
+            "branch": "HOME_WIN",
+            "shot": "Decisive action then unequal two-shot",
+            "pose_and_physical_action": "IF DUCKHOOK WINS: ObiWan makes a visibly poor final execution; the released montage also shows his earlier mishits. Duckhook completes a controlled finish. ObiWan lowers the club and looks away; host remains composed.",
+            "what_changes": "The host earns victory through golf while the visitor absorbs the emotional cost.",
+            "transition": "Finish on the unchanged beautiful setting, then cut to the swamp horizon.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M01-B08A",
+            "page_id": "W09-P07",
+            "branch": "AWAY_WIN",
+            "shot": "Putter contact to pond-side consequence",
+            "pose_and_physical_action": "IF OBIWAN WINS: Duckhook overhits across the established slope; an inset follows the ball over the short apron into water. ObiWan has finished steadily. Duckhook freezes, then his shoulders fall.",
+            "what_changes": "The hazard setup pays off without teleporting the ball or giving ObiWan a magical victory.",
+            "transition": "Hold the water ripple and loser reaction once; then leave the chapter.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          }
+        ],
+        "page_turn_out": null,
+        "text_hidden_review_questions": [
+          "Who invited whom?",
+          "Which golfer acts in each vignette?",
+          "Where would an overhit putt travel, and was that shown first?",
+          "Which branch is hypothetical rather than an announced winner?"
+        ],
+        "visual_comprehension_test_passed": false
       }
     },
     {
@@ -1117,6 +1301,45 @@
       "outcome_alternatives": {
         "home_win": "Mud Dogs wins: masters underwater/muddy line and finishes the race through a final hazard",
         "away_win": "El Niño wins: Mud Dogs' bike becomes embedded/sucked into deep water and mud and cannot finish; storm physically wins by obstructing race"
+      },
+      "written_storyboard": {
+        "state": "WRITTEN_PREPRODUCTION_NOT_DRAWN_NOT_LOCKED",
+        "emotional_spine": "Cocky familiarity becomes vulnerability; knowledge must turn into a changed decision, not mere bravery.",
+        "ground_plan": "A raised start bank looks across a low channel toward an elevated finish banner. A root-bound berm runs around the near edge. Floodwater crosses the low channel toward the basin; these positions do not change between shots.",
+        "anchors": [
+          "raised start bank",
+          "low channel and root berm",
+          "distant finish on firm ground"
+        ],
+        "beats": [
+          {
+            "beat_id": "W09-M02-B01",
+            "page_id": "W09-P08",
+            "branch": "COMMON",
+            "shot": "Wide start bank with long horizon",
+            "pose_and_physical_action": "Mud Dogs sets off on the dirt bike; preserve his approved canine build and recognizable forelimbs at the controls. The channel, berm and finish are visible.",
+            "what_changes": "Home familiarity and a tangible destination are established.",
+            "transition": "Cut to the rider noticing the changing sky.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M02-B02",
+            "page_id": "W09-P08",
+            "branch": "COMMON",
+            "shot": "Three-quarter rider reaction",
+            "pose_and_physical_action": "Mud Dogs looks toward an approaching dark front, then leans into acceleration rather than slowing or choosing higher ground.",
+            "what_changes": "Ignoring the warning is a choice, not an unexplained accident.",
+            "transition": "Follow rear-wheel spray into the same channel seen in the wide.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          }
+        ],
+        "page_turn_out": "He saw the storm and accelerated; what does his chosen route become?",
+        "text_hidden_review_questions": [
+          "Can the reader see the storm before the rider ignores it?",
+          "Can the finish be located before the ending?",
+          "Does the winning route use already shown terrain?"
+        ],
+        "visual_comprehension_test_passed": false
       }
     },
     {
@@ -1234,6 +1457,55 @@
       "outcome_alternatives": {
         "home_win": "Mud Dogs wins: masters underwater/muddy line and finishes the race through a final hazard",
         "away_win": "El Niño wins: Mud Dogs' bike becomes embedded/sucked into deep water and mud and cannot finish; storm physically wins by obstructing race"
+      },
+      "written_storyboard": {
+        "state": "WRITTEN_PREPRODUCTION_NOT_DRAWN_NOT_LOCKED",
+        "emotional_spine": "Cocky familiarity becomes vulnerability; knowledge must turn into a changed decision, not mere bravery.",
+        "ground_plan": "A raised start bank looks across a low channel toward an elevated finish banner. A root-bound berm runs around the near edge. Floodwater crosses the low channel toward the basin; these positions do not change between shots.",
+        "anchors": [
+          "raised start bank",
+          "low channel and root berm",
+          "distant finish on firm ground"
+        ],
+        "beats": [
+          {
+            "beat_id": "W09-M02-B03",
+            "page_id": "W09-P09",
+            "branch": "COMMON",
+            "shot": "High oblique of the known course",
+            "pose_and_physical_action": "Rain and floodwater cover the low race line; the previously visible channel markers become partly submerged. No humanoid storm adversary appears.",
+            "what_changes": "El Niño changes the physical course rather than merely decorating the sky.",
+            "transition": "Move close enough to see tire contact fail.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M02-B04",
+            "page_id": "W09-P09",
+            "branch": "COMMON",
+            "shot": "Low wheel and body contact",
+            "pose_and_physical_action": "The rear tire slips at the channel edge; Mud Dogs shifts his weight to keep the bike upright. A foot/forelimb is not duplicated or humanized for convenience.",
+            "what_changes": "Familiar ground no longer guarantees control.",
+            "transition": "Cut on his glance toward the still-visible root berm.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M02-B05",
+            "page_id": "W09-P09",
+            "branch": "COMMON",
+            "shot": "Rider point-of-view at the route fork",
+            "pose_and_physical_action": "The flooded shortcut leads toward deep brown water; the longer raised berm still connects to the finish bank.",
+            "what_changes": "The reader sees a real decision with two different costs.",
+            "transition": "Hold the choice into the next page, not another generic jump.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          }
+        ],
+        "page_turn_out": "Will he change lines in time or drive deeper into the bog?",
+        "text_hidden_review_questions": [
+          "Can the reader see the storm before the rider ignores it?",
+          "Can the finish be located before the ending?",
+          "Does the winning route use already shown terrain?"
+        ],
+        "visual_comprehension_test_passed": false
       }
     },
     {
@@ -1354,6 +1626,55 @@
       "outcome_alternatives": {
         "home_win": "Mud Dogs wins: masters underwater/muddy line and finishes the race through a final hazard",
         "away_win": "El Niño wins: Mud Dogs' bike becomes embedded/sucked into deep water and mud and cannot finish; storm physically wins by obstructing race"
+      },
+      "written_storyboard": {
+        "state": "WRITTEN_PREPRODUCTION_NOT_DRAWN_NOT_LOCKED",
+        "emotional_spine": "Cocky familiarity becomes vulnerability; knowledge must turn into a changed decision, not mere bravery.",
+        "ground_plan": "A raised start bank looks across a low channel toward an elevated finish banner. A root-bound berm runs around the near edge. Floodwater crosses the low channel toward the basin; these positions do not change between shots.",
+        "anchors": [
+          "raised start bank",
+          "low channel and root berm",
+          "distant finish on firm ground"
+        ],
+        "beats": [
+          {
+            "beat_id": "W09-M02-B06",
+            "page_id": "W09-P10",
+            "branch": "COMMON",
+            "shot": "Side-wide attempt at the fork",
+            "pose_and_physical_action": "Mud Dogs adjusts the front wheel and body before committing. The neutral board ends before either line succeeds or fails.",
+            "what_changes": "The coming result will follow terrain and execution, not a sudden rescue.",
+            "transition": "Select exactly one conditional continuation only after verified results.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M02-B07H",
+            "page_id": "W09-P10",
+            "branch": "HOME_WIN",
+            "shot": "Lateral berm traversal and finish",
+            "pose_and_physical_action": "IF MUD DOGS WINS: he takes the raised berm, keeps the front tire out of the deep channel and grips the firmer exit. The bike clears the last short gap and crosses the previously shown finish line.",
+            "what_changes": "He survives by correcting his earlier arrogance with skill.",
+            "transition": "Leave mud and damage on bike and rider; do not reset them clean.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M02-B07A",
+            "page_id": "W09-P10",
+            "branch": "AWAY_WIN",
+            "shot": "Tight trapped wheel widening to inaccessible finish",
+            "pose_and_physical_action": "IF EL NIÑO WINS: the attempted low line buries the rear tire; throttle throws mud without movement. Mud Dogs cannot navigate out to finish as the route floods. Keep him alive and visibly stranded.",
+            "what_changes": "The storm wins by stopping the race; postseason despair is emotional, not an unverified elimination claim.",
+            "transition": "End with the finish visible but unreachable across the water.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          }
+        ],
+        "page_turn_out": null,
+        "text_hidden_review_questions": [
+          "Can the reader see the storm before the rider ignores it?",
+          "Can the finish be located before the ending?",
+          "Does the winning route use already shown terrain?"
+        ],
+        "visual_comprehension_test_passed": false
       }
     },
     {
@@ -1483,6 +1804,45 @@
       "outcome_alternatives": {
         "home_win": "Red Leopards wins: ambush atop truck and spatial trap at the pitch/ruins stop Chins; home territory reclaimed",
         "away_win": "Seven Deadly Chins wins: truck and driver physically overpower Red's ambush and keep churning across already damaged field; Red's heartbreak clear"
+      },
+      "written_storyboard": {
+        "state": "WRITTEN_PREPRODUCTION_NOT_DRAWN_NOT_LOCKED",
+        "emotional_spine": "A quiet host sees something he values violated, chooses retaliation, and meets an opponent capable of countering.",
+        "ground_plan": "The truck enters along the west pitch edge and turns near the east goal. Red can reach a low terrace beside that turn. Beyond it is a narrow stone service passage: solid masonry can stop a truck, loose netting cannot.",
+        "anchors": [
+          "soccer center circle",
+          "low interception terrace",
+          "east goal beside stone bottleneck"
+        ],
+        "beats": [
+          {
+            "beat_id": "W09-M03-B01",
+            "page_id": "W09-P11",
+            "branch": "COMMON",
+            "shot": "Quiet pitch-wide from the terrace",
+            "pose_and_physical_action": "Red enjoys his soccer grounds with the center circle and goal intact. A distant lifted truck approaches the same entrance.",
+            "what_changes": "The reader sees what can be lost before destruction begins.",
+            "transition": "Shift toward the arriving tires.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M03-B02",
+            "page_id": "W09-P11",
+            "branch": "COMMON",
+            "shot": "Tire-height intrusion",
+            "pose_and_physical_action": "Chins drives the lifted truck across the pitch; the tires tear a continuous track through the center circle and clip the goal structure.",
+            "what_changes": "Off-roading becomes a deliberate territorial violation.",
+            "transition": "Match the fresh rut to Red looking down at it.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          }
+        ],
+        "page_turn_out": "The pitch is damaged; what will Red do rather than merely glare?",
+        "text_hidden_review_questions": [
+          "Who caused the field damage?",
+          "Does Red reach the hood from a shown terrace?",
+          "Is the stopping force stone/ground rather than an implausible net?"
+        ],
+        "visual_comprehension_test_passed": false
       }
     },
     {
@@ -1612,6 +1972,55 @@
       "outcome_alternatives": {
         "home_win": "Red Leopards wins: ambush atop truck and spatial trap at the pitch/ruins stop Chins; home territory reclaimed",
         "away_win": "Seven Deadly Chins wins: truck and driver physically overpower Red's ambush and keep churning across already damaged field; Red's heartbreak clear"
+      },
+      "written_storyboard": {
+        "state": "WRITTEN_PREPRODUCTION_NOT_DRAWN_NOT_LOCKED",
+        "emotional_spine": "A quiet host sees something he values violated, chooses retaliation, and meets an opponent capable of countering.",
+        "ground_plan": "The truck enters along the west pitch edge and turns near the east goal. Red can reach a low terrace beside that turn. Beyond it is a narrow stone service passage: solid masonry can stop a truck, loose netting cannot.",
+        "anchors": [
+          "soccer center circle",
+          "low interception terrace",
+          "east goal beside stone bottleneck"
+        ],
+        "beats": [
+          {
+            "beat_id": "W09-M03-B03",
+            "page_id": "W09-P12",
+            "branch": "COMMON",
+            "shot": "Close reaction then elevated stalk",
+            "pose_and_physical_action": "Red observes the torn turf, drops the relaxed posture and moves up the low terrace beside the truck turn.",
+            "what_changes": "Outrage becomes a plan expressed through movement.",
+            "transition": "Keep truck and interception terrace in the same wide before the leap.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M03-B04",
+            "page_id": "W09-P12",
+            "branch": "COMMON",
+            "shot": "Diagonal terrace-to-hood action",
+            "pose_and_physical_action": "As Chins slows to turn, Red leaps from the low terrace onto the hood. Show takeoff, landing direction and contact; no hovering predator pose.",
+            "what_changes": "The host physically interrupts the driver’s freedom.",
+            "transition": "Cut to Chins responding behind the wheel.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M03-B05",
+            "page_id": "W09-P12",
+            "branch": "COMMON",
+            "shot": "Cab countershot with both forces readable",
+            "pose_and_physical_action": "Chins brakes and starts steering away from the exposed stone passage. Red shifts toward the outside edge rather than magically controlling the vehicle.",
+            "what_changes": "The intruder responds intelligently; the outcome is not predetermined by the pounce.",
+            "transition": "Reveal the fork between the broad pitch and narrow service gap.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          }
+        ],
+        "page_turn_out": "Can Red force the turn, or does Chins see through the ambush?",
+        "text_hidden_review_questions": [
+          "Who caused the field damage?",
+          "Does Red reach the hood from a shown terrace?",
+          "Is the stopping force stone/ground rather than an implausible net?"
+        ],
+        "visual_comprehension_test_passed": false
       }
     },
     {
@@ -1744,6 +2153,55 @@
       "outcome_alternatives": {
         "home_win": "Red Leopards wins: ambush atop truck and spatial trap at the pitch/ruins stop Chins; home territory reclaimed",
         "away_win": "Seven Deadly Chins wins: truck and driver physically overpower Red's ambush and keep churning across already damaged field; Red's heartbreak clear"
+      },
+      "written_storyboard": {
+        "state": "WRITTEN_PREPRODUCTION_NOT_DRAWN_NOT_LOCKED",
+        "emotional_spine": "A quiet host sees something he values violated, chooses retaliation, and meets an opponent capable of countering.",
+        "ground_plan": "The truck enters along the west pitch edge and turns near the east goal. Red can reach a low terrace beside that turn. Beyond it is a narrow stone service passage: solid masonry can stop a truck, loose netting cannot.",
+        "anchors": [
+          "soccer center circle",
+          "low interception terrace",
+          "east goal beside stone bottleneck"
+        ],
+        "beats": [
+          {
+            "beat_id": "W09-M03-B06",
+            "page_id": "W09-P13",
+            "branch": "COMMON",
+            "shot": "High oblique approach to the bottleneck",
+            "pose_and_physical_action": "The truck, stone gap, hanging goal net and Red’s escape ledge share one frame. Red drops to the ledge as the driver chooses the line.",
+            "what_changes": "The physical cause of either ending is now visible.",
+            "transition": "Use one of the following outcomes; any red-card joke comes afterwards.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M03-B07H",
+            "page_id": "W09-P13",
+            "branch": "HOME_WIN",
+            "shot": "Grounded truck and standing predator",
+            "pose_and_physical_action": "IF RED WINS: the truck turns too tightly; its wheel climbs the low stone edge and the chassis grounds across the narrow entrance. Loose net drapes over the cab as a visual joke. Red stands safely on the terrace; Chins is stuck.",
+            "what_changes": "The ambush stops the intruder through leverage and terrain, not magical net strength.",
+            "transition": "The pitch remains damaged; victory does not erase the rut.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M03-B07A",
+            "page_id": "W09-P13",
+            "branch": "AWAY_WIN",
+            "shot": "Wide escape with ruined pitch foreground",
+            "pose_and_physical_action": "IF CHINS WINS: he straightens before entering the gap and powers back across the turf. Red has to abandon the hood for the safe ledge; the truck passes the failed trap.",
+            "what_changes": "Chins defeats the retaliation; Red is left with the violated field.",
+            "transition": "Use the torn center circle once as aftermath, not a random collapsing ruin.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          }
+        ],
+        "page_turn_out": null,
+        "text_hidden_review_questions": [
+          "Who caused the field damage?",
+          "Does Red reach the hood from a shown terrace?",
+          "Is the stopping force stone/ground rather than an implausible net?"
+        ],
+        "visual_comprehension_test_passed": false
       }
     },
     {
@@ -1874,6 +2332,55 @@
       "outcome_alternatives": {
         "home_win": "Chili deliberately stages the cooled-chili serving-cart reversal; HMB is covered while retaining hood, armor and belt.",
         "away_win": "HMB takes over the cookout judging table and ribbon; Chili is left ladle-in-hand serving the unruffled champion. No crown or belt transfer."
+      },
+      "written_storyboard": {
+        "state": "WRITTEN_PREPRODUCTION_NOT_DRAWN_NOT_LOCKED",
+        "emotional_spine": "The cookout host wants to own the occasion; a familiar dominant visitor challenges that pride in public.",
+        "ground_plan": "The town cookout is temporary dressing beside Chili Stable. A low serving platform holds a ribbon and table; a wheeled vat of cooled serving chili sits on the shallow ramp beside it. Dark Horse and its cart harness are visible off the crowd lane.",
+        "anchors": [
+          "Chili Stable and temporary tables",
+          "ribbon/ladle on serving platform",
+          "cooled chili vat, ramp and Dark Horse harness"
+        ],
+        "beats": [
+          {
+            "beat_id": "W09-M04-B01",
+            "page_id": "W09-P14",
+            "branch": "COMMON",
+            "shot": "Warm public feast panorama",
+            "pose_and_physical_action": "Chili works the serving station while townsfolk gather. Show the wheeled serving vat, its chock, ramp and Dark Horse harness naturally within the frame.",
+            "what_changes": "Hospitality and the eventual comic mechanism are established together.",
+            "transition": "The crowd’s attention shifts toward the arriving Belt Keeper.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M04-B02",
+            "page_id": "W09-P14",
+            "branch": "COMMON",
+            "shot": "Low medium at the edge of the tables",
+            "pose_and_physical_action": "HMB steps in wearing his approved hooded, red-eyed, black-armored identity and belt. Chili pauses with a ladle before resuming a deliberately confident welcome.",
+            "what_changes": "A lively cookout becomes a personal test.",
+            "transition": "Match their eyelines to the prize ribbon and serving platform.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M04-B03",
+            "page_id": "W09-P14",
+            "branch": "COMMON",
+            "shot": "Two-shot across the serving table",
+            "pose_and_physical_action": "Chili presents the dish; HMB inspects it and takes space at the platform. No crown, royal court or invented real league judging rule.",
+            "what_changes": "Both characters try to control the public encounter.",
+            "transition": "Turn on the unresolved struggle over the host’s stage.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          }
+        ],
+        "page_turn_out": "The host’s stage and visitor’s confidence collide; who ends up serving whom?",
+        "text_hidden_review_questions": [
+          "Was the vat’s position and movement established before the spill?",
+          "Is HMB still the hooded Belt Keeper, not a king?",
+          "Is the cookout ribbon separate from the league belt?"
+        ],
+        "visual_comprehension_test_passed": false
       }
     },
     {
@@ -2007,6 +2514,65 @@
       "outcome_alternatives": {
         "home_win": "Chili deliberately stages the cooled-chili serving-cart reversal; HMB is covered while retaining hood, armor and belt.",
         "away_win": "HMB takes over the cookout judging table and ribbon; Chili is left ladle-in-hand serving the unruffled champion. No crown or belt transfer."
+      },
+      "written_storyboard": {
+        "state": "WRITTEN_PREPRODUCTION_NOT_DRAWN_NOT_LOCKED",
+        "emotional_spine": "The cookout host wants to own the occasion; a familiar dominant visitor challenges that pride in public.",
+        "ground_plan": "The town cookout is temporary dressing beside Chili Stable. A low serving platform holds a ribbon and table; a wheeled vat of cooled serving chili sits on the shallow ramp beside it. Dark Horse and its cart harness are visible off the crowd lane.",
+        "anchors": [
+          "Chili Stable and temporary tables",
+          "ribbon/ladle on serving platform",
+          "cooled chili vat, ramp and Dark Horse harness"
+        ],
+        "beats": [
+          {
+            "beat_id": "W09-M04-B04",
+            "page_id": "W09-P15",
+            "branch": "COMMON",
+            "shot": "Medium-wide mechanism reset",
+            "pose_and_physical_action": "Chili moves beside the cart release while HMB reaches the table edge. Dark Horse is linked to the serving-cart movement; the crowd remains clear of the ramp.",
+            "what_changes": "The actors and props can produce either payoff without an unexplained falling cauldron.",
+            "transition": "Cut closer to the hand/hoof/cart action that selects the branch.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M04-B05",
+            "page_id": "W09-P15",
+            "branch": "COMMON",
+            "shot": "Contact and counter-action insert",
+            "pose_and_physical_action": "One hand closes on the cart release, the other competitor braces at the table; the ribbon, ladle and vat remain distinguishable. Stop the neutral version before either gains control.",
+            "what_changes": "The reversal depends on a visible action, not narration declaring humiliation.",
+            "transition": "Select one result-dependent payoff and hold a deadpan reaction.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M04-B06H",
+            "page_id": "W09-P15",
+            "branch": "HOME_WIN",
+            "shot": "Controlled spill then deadpan aftermath",
+            "pose_and_physical_action": "IF CHILI WINS: the Outlaw deliberately releases the chock as Dark Horse pulls the cart forward. A wheel drops at the established platform lip; cooled chili sloshes across HMB’s hood and armor. HMB remains upright with the belt still his.",
+            "what_changes": "Chili turns his own serving arrangement into public payback; no burn or injury joke.",
+            "transition": "Chili holds the empty ladle as HMB slowly looks down at the mess.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M04-B06A",
+            "page_id": "W09-P15",
+            "branch": "AWAY_WIN",
+            "shot": "Table takeover and host-as-server two-shot",
+            "pose_and_physical_action": "IF HMB WINS: the champion pulls the light serving table to his position before Chili springs the reversal, takes the cookout ribbon and calmly holds out a bowl. Chili is left ladle-in-hand serving him before his own crowd.",
+            "what_changes": "HMB humiliates the host through effortless control; no crown or title transfer.",
+            "transition": "Finish on Chili’s forced service against HMB’s unruffled posture.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          }
+        ],
+        "page_turn_out": null,
+        "text_hidden_review_questions": [
+          "Was the vat’s position and movement established before the spill?",
+          "Is HMB still the hooded Belt Keeper, not a king?",
+          "Is the cookout ribbon separate from the league belt?"
+        ],
+        "visual_comprehension_test_passed": false
       }
     },
     {
@@ -2139,6 +2705,45 @@
       "outcome_alternatives": {
         "home_win": "D0nkey wins: Arsenal gorilla-centaur physically overpowers LLC and wins the sword fight",
         "away_win": "The LLC wins: armored corporate knight outmaneuvers and physically overpowers the centaur champion"
+      },
+      "written_storyboard": {
+        "state": "WRITTEN_PREPRODUCTION_NOT_DRAWN_NOT_LOCKED",
+        "emotional_spine": "Home-arena confidence meets an expensive challenger whose precision can answer strength.",
+        "ground_plan": "Highland terrain remains visible beyond the proposed colosseum. DK enters left, LLC right. The broad sand ring has no hidden trap; the same entrance banners anchor every countershot. LLC’s small shield is visible from his entrance, never conjured at the reversal.",
+        "anchors": [
+          "left DK entrance and Arsenal banner",
+          "right LLC entrance",
+          "open sand ring and Highland skyline"
+        ],
+        "beats": [
+          {
+            "beat_id": "W09-M05-B01",
+            "page_id": "W09-P16",
+            "branch": "COMMON",
+            "shot": "High arena-wide",
+            "pose_and_physical_action": "Show both entrances, crowd outside the sand and Highland setting beyond. No copied movie frame, tigers or surprise combatants.",
+            "what_changes": "The duel has scale and a readable fighting space.",
+            "transition": "Descend to distinct entrances rather than another overhead.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M05-B02",
+            "page_id": "W09-P16",
+            "branch": "COMMON",
+            "shot": "Paired full-body entrances",
+            "pose_and_physical_action": "DK enters with Arsenal identity and all four equine legs visible. LLC advances in ornate knightly armor with recognizable face/corporate identity, sword and a small shield.",
+            "what_changes": "Strength and precision are visually different before either attacks.",
+            "transition": "Cut on their approach to a shared action-wide.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          }
+        ],
+        "page_turn_out": "Does the challenger’s polish survive first contact?",
+        "text_hidden_review_questions": [
+          "Are DK’s four equine legs and integrated gorilla upper body clear?",
+          "Does the winning move follow a shown parry and footwork?",
+          "Is the challenger still recognizable as LLC under armor?"
+        ],
+        "visual_comprehension_test_passed": false
       }
     },
     {
@@ -2271,6 +2876,55 @@
       "outcome_alternatives": {
         "home_win": "D0nkey wins: Arsenal gorilla-centaur physically overpowers LLC and wins the sword fight",
         "away_win": "The LLC wins: armored corporate knight outmaneuvers and physically overpowers the centaur champion"
+      },
+      "written_storyboard": {
+        "state": "WRITTEN_PREPRODUCTION_NOT_DRAWN_NOT_LOCKED",
+        "emotional_spine": "Home-arena confidence meets an expensive challenger whose precision can answer strength.",
+        "ground_plan": "Highland terrain remains visible beyond the proposed colosseum. DK enters left, LLC right. The broad sand ring has no hidden trap; the same entrance banners anchor every countershot. LLC’s small shield is visible from his entrance, never conjured at the reversal.",
+        "anchors": [
+          "left DK entrance and Arsenal banner",
+          "right LLC entrance",
+          "open sand ring and Highland skyline"
+        ],
+        "beats": [
+          {
+            "beat_id": "W09-M05-B03",
+            "page_id": "W09-P17",
+            "branch": "COMMON",
+            "shot": "Medium-wide first clash",
+            "pose_and_physical_action": "DK advances diagonally with one sword; LLC meets the blade with his own and braces the shield. Keep both grips, blades and contact point legible.",
+            "what_changes": "The opening tests defenses without deciding superiority.",
+            "transition": "Follow the blade deflection into the fighters’ feet.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M05-B04",
+            "page_id": "W09-P17",
+            "branch": "COMMON",
+            "shot": "Low footwork insert linked to the wide",
+            "pose_and_physical_action": "DK plants four hooves through a controlled wheel of his body; LLC sidesteps to the outside rather than remaining under the charge.",
+            "what_changes": "The encounter changes angle, not just weapon position.",
+            "transition": "Return to the same action axis to reveal the new opening.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M05-B05",
+            "page_id": "W09-P17",
+            "branch": "COMMON",
+            "shot": "Three-quarter counter and recovery",
+            "pose_and_physical_action": "LLC redirects the next cut and shifts shield pressure; DK resets his forelegs and turns his upper body back toward the opponent. No effortless human-strength shove of a full centaur.",
+            "what_changes": "Both combatants recover and choose; the winner must exploit an actual imbalance.",
+            "transition": "Page turn holds the final opening, not a fixed victor pose.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          }
+        ],
+        "page_turn_out": "Which fighter turns the changing angle into real leverage?",
+        "text_hidden_review_questions": [
+          "Are DK’s four equine legs and integrated gorilla upper body clear?",
+          "Does the winning move follow a shown parry and footwork?",
+          "Is the challenger still recognizable as LLC under armor?"
+        ],
+        "visual_comprehension_test_passed": false
       }
     },
     {
@@ -2406,6 +3060,55 @@
       "outcome_alternatives": {
         "home_win": "D0nkey wins: Arsenal gorilla-centaur physically overpowers LLC and wins the sword fight",
         "away_win": "The LLC wins: armored corporate knight outmaneuvers and physically overpowers the centaur champion"
+      },
+      "written_storyboard": {
+        "state": "WRITTEN_PREPRODUCTION_NOT_DRAWN_NOT_LOCKED",
+        "emotional_spine": "Home-arena confidence meets an expensive challenger whose precision can answer strength.",
+        "ground_plan": "Highland terrain remains visible beyond the proposed colosseum. DK enters left, LLC right. The broad sand ring has no hidden trap; the same entrance banners anchor every countershot. LLC’s small shield is visible from his entrance, never conjured at the reversal.",
+        "anchors": [
+          "left DK entrance and Arsenal banner",
+          "right LLC entrance",
+          "open sand ring and Highland skyline"
+        ],
+        "beats": [
+          {
+            "beat_id": "W09-M05-B06",
+            "page_id": "W09-P18",
+            "branch": "COMMON",
+            "shot": "Wide decisive approach before contact",
+            "pose_and_physical_action": "Show both fighters re-entering the open lane; their footing, weapons and visible gap are continuous with P17.",
+            "what_changes": "The reader can explain how either conditional finishing move is possible.",
+            "transition": "Select one final action and retain the loser’s connected anatomy.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M05-B07H",
+            "page_id": "W09-P18",
+            "branch": "HOME_WIN",
+            "shot": "Advancing parry into unbalanced kneel",
+            "pose_and_physical_action": "IF DK WINS: he redirects LLC’s sword out of line, advances from planted hooves and forces the armored challenger off balance. LLC goes to one knee with weapon lowered; DK remains one integrated four-legged body.",
+            "what_changes": "Power wins through stance and a shown parry, not an unexplained already-defeated opponent.",
+            "transition": "Hold the crowd reaction behind the two bodies; no killing or belt claim.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M05-B07A",
+            "page_id": "W09-P18",
+            "branch": "AWAY_WIN",
+            "shot": "Outside-angle bind and checked charge",
+            "pose_and_physical_action": "IF LLC WINS: he steps outside DK’s committed turn, binds the sword arm behind his shield and denies the next cut. DK checks his charge, lowers his forequarters and yields the blade while LLC controls the opening.",
+            "what_changes": "Precision and leverage beat momentum without shrinking DK or changing his anatomy.",
+            "transition": "Keep the surrendered sword, lowered forequarters and composed challenger in one frame.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          }
+        ],
+        "page_turn_out": null,
+        "text_hidden_review_questions": [
+          "Are DK’s four equine legs and integrated gorilla upper body clear?",
+          "Does the winning move follow a shown parry and footwork?",
+          "Is the challenger still recognizable as LLC under armor?"
+        ],
+        "visual_comprehension_test_passed": false
       }
     },
     {
@@ -2535,6 +3238,45 @@
       "outcome_alternatives": {
         "home_win": "Slob wins: final third-person winner-shoulder slide/aim shows TDS fully struck by multiple paint splatters",
         "away_win": "Three Dreaded Snake wins: final third-person winner-shoulder slide/aim shows Slob hit by multiple paint splatters"
+      },
+      "written_storyboard": {
+        "state": "WRITTEN_PREPRODUCTION_NOT_DRAWN_NOT_LOCKED",
+        "emotional_spine": "Every advance gains an angle and sacrifices protection; the victory must be earned by a visible flank.",
+        "ground_plan": "From the west sideline: Slob starts southwest/near-left, TDS northeast/far-right. A cylinder, central low bunker and northeast wedge define the lanes; trees and distant camp remain behind. Inflatable covers are stationary. A final pivoting camera is re-established before the behind-winner view.",
+        "anchors": [
+          "southwest cylinder",
+          "central low bunker and open middle lane",
+          "northeast wedge with rear tree line"
+        ],
+        "beats": [
+          {
+            "beat_id": "W09-M06-B01",
+            "page_id": "W09-P19",
+            "branch": "COMMON",
+            "shot": "Course-wide from west sideline",
+            "pose_and_physical_action": "Show two starts, trees, terrain and inflatable defenses within Slob’s foothills. Both competitors wear protection; TDS has exactly three protected heads on one body.",
+            "what_changes": "The reader learns lanes before rapid cutting begins.",
+            "transition": "Match the two start positions to their first movement.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M06-B02",
+            "page_id": "W09-P19",
+            "branch": "COMMON",
+            "shot": "Low paired breakout",
+            "pose_and_physical_action": "Slob bursts toward the southwest cylinder; TDS reaches the northeast wedge. Each carries one sporting marker with one shared pair of arms, not three TDS shooters.",
+            "what_changes": "Both rivals commit actively rather than one being target practice.",
+            "transition": "Follow Slob’s movement into the middle lane.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          }
+        ],
+        "page_turn_out": "With the course understood, who dares leave shelter first?",
+        "text_hidden_review_questions": [
+          "Can both starting sides and the open lane be located?",
+          "Does P20 avoid premature body hits or a winner?",
+          "Does P21 show winner, muzzle direction and splattered loser in one coherent view?"
+        ],
+        "visual_comprehension_test_passed": false
       }
     },
     {
@@ -2699,7 +3441,7 @@
         "preparation_state": "EXECUTION_BRIEF_PREPARED_EXISTING_APPROVED_REFERENCES_SELECTED",
         "study_mode": "NEUTRAL_ENGAGEMENT_NO_ELIMINATION",
         "headline": "No Safe Corner",
-        "deck": "Two contenders. Moving cover. No comfortable position.",
+        "deck": "Two contenders. Changing angles. No comfortable position.",
         "body_copy": "The first volley stripped the comfort out of cover. Slob drove forward between the trees while TDS watched the openings from three different angles. Paint snapped against the bunkers. A shoulder appeared, vanished, then appeared somewhere else. Neither competitor could afford to wait for a perfect shot. Every move gained ground and surrendered protection. Somewhere beyond the next barrier, one clean angle was waiting.",
         "copy_classification": "FICTIONAL_DRAFT_NOT_FACT_LOCK_OR_PUBLISHED_COPY",
         "sports_insert": {
@@ -2845,12 +3587,76 @@
             "Applicable scene/source acceptance",
             "Final-raster identity, physicality and phone QA"
           ],
-          "preserve_outcome_branches": true
-        }
+          "preserve_outcome_branches": true,
+          "written_sequence_source": "written_storyboard.beats in this same existing page object"
+        },
+        "storyboard_beat_ids": [
+          "W09-M06-B03",
+          "W09-M06-B04",
+          "W09-M06-B05"
+        ],
+        "sequence_readthrough": {
+          "previous_page": "W09-P19",
+          "next_page": "W09-P21",
+          "cut_rule": "Each inset must add an action, opponent response or changed information; no duplicate hero pose.",
+          "no_winner_test": "No body-hit/elimination in P20; no verified golf stroke totals or decisive winning ball in neutral P05.",
+          "acceptance_not_run": "Actual-image text-hidden and phone-scale tests await generated/drawn boards; prose checks do not count.",
+          "layout_physics": "Bunkers remain fixed. Characters change cover; the deck must not imply moving inflatable defenses."
+        },
+        "refinement_state": "COMPLETE_WRITTEN_EXECUTION_PACKET_NOT_RENDER_AUTHORIZATION"
       },
       "character_identity_state": "SETTLED_EXISTING_APPROVALS_NO_RECONFIRMATION",
       "character_exception_dependencies": [],
-      "legacy_primary_recovery_required_for_preproduction": false
+      "legacy_primary_recovery_required_for_preproduction": false,
+      "written_storyboard": {
+        "state": "WRITTEN_PREPRODUCTION_NOT_DRAWN_NOT_LOCKED",
+        "emotional_spine": "Every advance gains an angle and sacrifices protection; the victory must be earned by a visible flank.",
+        "ground_plan": "From the west sideline: Slob starts southwest/near-left, TDS northeast/far-right. A cylinder, central low bunker and northeast wedge define the lanes; trees and distant camp remain behind. Inflatable covers are stationary. A final pivoting camera is re-established before the behind-winner view.",
+        "anchors": [
+          "southwest cylinder",
+          "central low bunker and open middle lane",
+          "northeast wedge with rear tree line"
+        ],
+        "beats": [
+          {
+            "beat_id": "W09-M06-B03",
+            "page_id": "W09-P20",
+            "branch": "COMMON",
+            "shot": "Dominant low sideline action-wide",
+            "pose_and_physical_action": "Slob drives from cylinder toward central low cover as TDS leans from the far wedge. Paint lands on inflatable cover, not either player.",
+            "what_changes": "The first crossing exposes a cost while gaining ground.",
+            "transition": "Inset follows the slide from the same left-to-right direction.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M06-B04",
+            "page_id": "W09-P20",
+            "branch": "COMMON",
+            "shot": "Medium Slob slide inset",
+            "pose_and_physical_action": "His current heavyset human build compresses into a short slide; soil scuffs follow the travel direction. Mask stays on; no stale horned redesign.",
+            "what_changes": "A forceful advance ends in a defensible position, not victory.",
+            "transition": "Countercut to the opponent using the information.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M06-B05",
+            "page_id": "W09-P20",
+            "branch": "COMMON",
+            "shot": "Medium TDS counter-move inset",
+            "pose_and_physical_action": "TDS leaves the wedge for adjacent tree cover. Central head tracks Slob; outer heads watch flanks; three necks join one body and marker stays below the faces.",
+            "what_changes": "The defender changes position rather than freezing for the next shot.",
+            "transition": "Turn before either finds a clean final hit.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          }
+        ],
+        "page_turn_out": "Both are moving; which new angle will actually defeat cover?",
+        "text_hidden_review_questions": [
+          "Can both starting sides and the open lane be located?",
+          "Does P20 avoid premature body hits or a winner?",
+          "Does P21 show winner, muzzle direction and splattered loser in one coherent view?"
+        ],
+        "visual_comprehension_test_passed": false
+      }
     },
     {
       "issue_id": "S26-W09-2026",
@@ -2982,6 +3788,55 @@
       "outcome_alternatives": {
         "home_win": "Slob wins: final third-person winner-shoulder slide/aim shows TDS fully struck by multiple paint splatters",
         "away_win": "Three Dreaded Snake wins: final third-person winner-shoulder slide/aim shows Slob hit by multiple paint splatters"
+      },
+      "written_storyboard": {
+        "state": "WRITTEN_PREPRODUCTION_NOT_DRAWN_NOT_LOCKED",
+        "emotional_spine": "Every advance gains an angle and sacrifices protection; the victory must be earned by a visible flank.",
+        "ground_plan": "From the west sideline: Slob starts southwest/near-left, TDS northeast/far-right. A cylinder, central low bunker and northeast wedge define the lanes; trees and distant camp remain behind. Inflatable covers are stationary. A final pivoting camera is re-established before the behind-winner view.",
+        "anchors": [
+          "southwest cylinder",
+          "central low bunker and open middle lane",
+          "northeast wedge with rear tree line"
+        ],
+        "beats": [
+          {
+            "beat_id": "W09-M06-B06",
+            "page_id": "W09-P21",
+            "branch": "COMMON",
+            "shot": "High oblique re-establishing angle",
+            "pose_and_physical_action": "Show the new diagonal between central cover and rear tree lane. Both can still reach a sliding position with a clean line past—not through—the obstacle.",
+            "what_changes": "The coming reverse viewpoint is earned; the camera may move but geography does not flip mysteriously.",
+            "transition": "Drop behind the actual winner only in the selected branch.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M06-B07H",
+            "page_id": "W09-P21",
+            "branch": "HOME_WIN",
+            "shot": "Founder final: behind Slob’s winning slide",
+            "pose_and_physical_action": "IF SLOB WINS: camera follows just behind Slob as he slides into the open diagonal and aims. TDS is fully readable downrange; fresh bright paint splatters across protected heads and chest.",
+            "what_changes": "The earlier aggressive crossing pays off through a real firing angle.",
+            "transition": "Keep fresh paint, masks and loser visible; no blood or lethal weapon.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M06-B07A",
+            "page_id": "W09-P21",
+            "branch": "AWAY_WIN",
+            "shot": "Founder final: behind TDS’s winning slide",
+            "pose_and_physical_action": "IF TDS WINS: re-establish then drop behind TDS sliding from tree-side cover into the open diagonal, one marker aimed ahead. Slob is visible downrange with fresh paint across visor and torso.",
+            "what_changes": "The counter-flank defeats the initial advance; the behind-victor composition remains exact.",
+            "transition": "Keep three head silhouettes distinct and Slob visible beyond the marker.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          }
+        ],
+        "page_turn_out": null,
+        "text_hidden_review_questions": [
+          "Can both starting sides and the open lane be located?",
+          "Does P20 avoid premature body hits or a winner?",
+          "Does P21 show winner, muzzle direction and splattered loser in one coherent view?"
+        ],
+        "visual_comprehension_test_passed": false
       }
     },
     {
@@ -3679,5 +4534,155 @@
     "no_global_canon_mutation": true,
     "renderer_execution_verified": false,
     "no_repeat_original_search_or_questionnaire": true
+  },
+  "all_phases_execution": {
+    "scope": "PHASES_A_TO_E_WRITTEN_STORYBOARD_AND_PREPARATION_ONLY",
+    "source_commit": "42c0f1de5cd7bc876a33dda647224bc120852f7a",
+    "phase_A": "GOTW_COMPLETE_WRITTEN_7_COMMON_BEATS_PLUS_2_RESULT_BRANCHES",
+    "phase_B": "P05_AND_P20_EXISTING_PACKETS_REFINED",
+    "phase_C": "FIVE_PASS_DIRECTOR_METHOD_APPLIED_TO_WRITTEN_SEQUENCES; NO_DRAWINGS_OR_ANIMATIC",
+    "phase_D": "OTHER_FIVE_FULL_WRITTEN_SEQUENCES_COMPLETE",
+    "phase_E": "FACT_FIELDS_HELD_AND_POSTGAME_OWNER_HANDOFF_EXPLICIT",
+    "beat_count": 48,
+    "common_beat_count": 36,
+    "conditional_endings": 12,
+    "author_method_review": [
+      [
+        "Tolkien",
+        "Preserve recurring home-ground memory and damage; Red’s pitch is meaningful before its destruction."
+      ],
+      [
+        "Lewis",
+        "Charity civility versus competitive pride is irony, not a new moral verdict about real owners."
+      ],
+      [
+        "Martin",
+        "Both competitors make choices; the losing side is not inert scenery."
+      ],
+      [
+        "Rowling",
+        "Pond, root berm, stone gap, chili cart and final firing lane are established before payoff."
+      ],
+      [
+        "Grisham",
+        "Each page turn leaves one concrete unanswered action, not a repeated mood."
+      ],
+      [
+        "Le Guin",
+        "Reaction shots stay with someone who can see the action; do not invent hidden motives as facts."
+      ],
+      [
+        "Sanderson",
+        "Ball, tire, cart, sword and paint follow previously shown physical rules."
+      ],
+      [
+        "Abercrombie",
+        "The cost reads through posture, grip and effort; no unnecessary death or gore."
+      ]
+    ],
+    "production_reference_review": [
+      [
+        "Doug Chiang",
+        "Reuse existing parent venues; new event dressing is subordinate, not a new region."
+      ],
+      [
+        "Dylan Cole",
+        "Three persistent scene anchors keep orientation coherent in every chapter."
+      ],
+      [
+        "Joe Letteri",
+        "Settled identity stays fixed while performance changes; HMB/DK attention remains local."
+      ],
+      [
+        "Ngila Dickson",
+        "Sporting protection adapts to approved silhouettes, including three TDS heads."
+      ],
+      [
+        "Andy Serkis",
+        "Desire and frustration register in posture and hands, not just labels."
+      ],
+      [
+        "Rob Alonzo",
+        "Establish takeoff/contact/recovery and counter-action before decisive impact."
+      ],
+      [
+        "James Baxter",
+        "Bodies, hands, tools and targets have distinct readable silhouettes."
+      ],
+      [
+        "Frank Masi",
+        "Choose the instant that makes the action intelligible, not a portrait after it happened."
+      ],
+      [
+        "John Knoll",
+        "Keep image, reference inputs and exact factual typography separate; no invented render receipt."
+      ],
+      [
+        "Jill Bogdanowicz",
+        "Autumn warmth remains in golf while emotional pressure rises; other scene palettes serve their environments."
+      ],
+      [
+        "Thelma Schoonmaker",
+        "P05 reaction now differs from P06 hazard pause; remove cuts with no changed information."
+      ],
+      [
+        "Randy Thom",
+        "Sound cues are written atmosphere only: sand, rain, wheels, cart rattle, steel and paint. No audio production added."
+      ]
+    ],
+    "participation_note": "Named authors and professionals are published-method references in existing registries, not actual participants. Local Bullpen calls are receipted separately.",
+    "sports_desk_hold": {
+      "state": "EXPLICIT_HOLD_IMPLEMENTED_NOT_FINAL_DATA_ACQUIRED",
+      "source_path": "memo-os/week-9/WEEK_8_FINAL_WEEK_9_PROVIDER_EVIDENCE_2026-11-08.json",
+      "source_sha256": "efc3dae3038992a110bfa4d6af756d9254a5df6a57150d7e20d93f9dbcb1a9ce",
+      "live_refresh_performed": false,
+      "source_description": "Existing November8 14:01:25.344Z provider capture, not current live scoring.",
+      "fields_held": [
+        "final_score",
+        "winning_team_id",
+        "player_contributors",
+        "lineup_swing",
+        "injury_evidence",
+        "postweek_record",
+        "playoff_clinch_or_elimination"
+      ],
+      "assignment": "Scout/Analyst acquire evidence; independent Data Release Steward accepts under #268; no self-certified promotion.",
+      "release_rule": "Select one outcome branch only after verified game completion and source acceptance. Generate exact scores/records from accepted data; do not let illustration invent them.",
+      "scene_propagation": {
+        "W09-M01": [
+          "W09-P07",
+          "W09-P07"
+        ],
+        "W09-M02": [
+          "W09-P10",
+          "W09-P10"
+        ],
+        "W09-M03": [
+          "W09-P13",
+          "W09-P13"
+        ],
+        "W09-M04": [
+          "W09-P15",
+          "W09-P15"
+        ],
+        "W09-M05": [
+          "W09-P18",
+          "W09-P18"
+        ],
+        "W09-M06": [
+          "W09-P21",
+          "W09-P21"
+        ]
+      },
+      "continuity_notes": [
+        "Mud Dogs desperation is not a proved mathematical elimination.",
+        "El Niño spoiler framing is Founder narrative, not proof of an eliminated team.",
+        "Charity signs and golf stroke fiction do not establish real donations or golf statistics.",
+        "HMB cookout ribbon never transfers the championship belt."
+      ]
+    },
+    "images_generated": 0,
+    "new_character_audit": false,
+    "visual_acceptance_claimed": false
   }
 }
