@@ -1,0 +1,27 @@
+{
+  "state": "ROUGH_SCHEMATIC_BOARD_DRAWN_NOT_FINAL_ART",
+  "panels": 9,
+  "existing_pages": [
+    "W09-P04",
+    "W09-P05",
+    "W09-P06",
+    "W09-P07"
+  ],
+  "actual_winner": null,
+  "generated_native_candidates": {
+    "count": 3,
+    "disposition": "REJECTED_NOT_RELEASE_EVIDENCE",
+    "reason": "Returned broad production infographics rather than requested narrow rough strip; incorrect human Duckhook and unsupported completion checkmarks. Not promoted to GitHub canon or used as proof pages."
+  },
+  "accepted_for_review_artifact": "memo-os/week-9/storyboards/W09_GOTW_ROUGH_BLOCKING_BOARD_V1.svg",
+  "artifact_sha256": "62c56e04762491aa5e27bd6ef2fce24ef6aeafaa80cca42566c7ae24ca03560f",
+  "method": "Deterministic SVG blocking drawing with clear duck-vs-human silhouettes; not photoreal likeness acceptance",
+  "automated_checks": [
+    "SVG parses",
+    "9 unique frame IDs",
+    "mutually exclusive endings visibly labelled"
+  ],
+  "visual_review": "PENDING_RENDERED_INSPECTION",
+  "source_brief": "W09_GOTW_ROUGH_BOARD_BRIEF_2026-11-08.md",
+  "no_story_fact_art_release_lock": true
+}
