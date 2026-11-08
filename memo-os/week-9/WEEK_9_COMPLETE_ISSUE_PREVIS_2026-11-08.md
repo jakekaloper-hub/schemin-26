@@ -6,6 +6,9 @@
 
 The companion JSON uses the existing `PAGE_PRODUCTION_CONTRACT_V1.md` field names; it does not create another page workflow.
 
+
+**Current reference continuation (Founder correction, Nov 8):** P05/P20 identities are settled. Use the approved October18 owner images already selected in Week8; their exact paths/checksums and completed image-instruction briefs are now in each JSON `proof_preparation.execution_handoff`. HMB/DK-focused exceptions do not apply to these four subjects. Historical primary-file lookup is not a new identity-approval task. Actual attachment and rendered-output QA remain execution checks; no images have yet been generated.
+
 ## Folio map
 
 |Page|Chapter / department|Working title|Camera / reading rhythm|

@@ -474,7 +474,18 @@
           "preflight_primary_bytes": "NOT_RECOVERED_FROM_SCOPED_LOCAL_SEARCH",
           "registered_library_handle": "libfile_af25a9c60db88191b46b0f343fe50e09",
           "library_handle_reverified": false,
-          "presentation_assertions_source": "canon/characters/lineup_2026_10_18/CHAR-ZACH-WILSON.json"
+          "presentation_assertions_source": "canon/characters/lineup_2026_10_18/CHAR-ZACH-WILSON.json",
+          "selected_visual_reference": {
+            "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+            "sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+            "authority": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+            "classification": "EXISTING_COMMISSIONER_APPROVED_PRESENTATION_REUSED_FROM_WEEK8",
+            "identity_approved": true,
+            "identity_reconfirmation_required": false,
+            "source_bytes_available_in_repo": true,
+            "renderer_request_submitted": false,
+            "replaces_historical_primary_hash": false
+          }
         },
         {
           "character_id": "CHAR-JAKE-KALOPER",
@@ -488,7 +499,18 @@
           "preflight_primary_bytes": "NOT_RECOVERED_FROM_SCOPED_LOCAL_SEARCH",
           "registered_library_handle": "libfile_ecc124baa0708191912ab17f4f18f840",
           "library_handle_reverified": false,
-          "presentation_assertions_source": "canon/characters/lineup_2026_10_18/CHAR-JAKE-KALOPER.json"
+          "presentation_assertions_source": "canon/characters/lineup_2026_10_18/CHAR-JAKE-KALOPER.json",
+          "selected_visual_reference": {
+            "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+            "sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+            "authority": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+            "classification": "EXISTING_COMMISSIONER_APPROVED_PRESENTATION_REUSED_FROM_WEEK8",
+            "identity_approved": true,
+            "identity_reconfirmation_required": false,
+            "source_bytes_available_in_repo": true,
+            "renderer_request_submitted": false,
+            "replaces_historical_primary_hash": false
+          }
         }
       ],
       "forbidden_mutations": [
@@ -565,7 +587,7 @@
         "away_win": "ObiWan wins: Duckhook misses embarrassing decisive putt/approach toward the water hazard while ObiWan finishes steadily; defeated Duckhook registers the blow"
       },
       "proof_preparation": {
-        "preparation_state": "COPY_AND_SPATIAL_BLOCKING_PREPARED__REFERENCE_AND_FACT_GATES_OPEN",
+        "preparation_state": "EXECUTION_BRIEF_PREPARED_EXISTING_APPROVED_REFERENCES_SELECTED",
         "study_mode": "NEUTRAL_ACTION_STUDY_ONLY_UNTIL_RESULT_BRANCH_SELECTION",
         "headline": "A Round of Answers",
         "deck": "A charity invitation. A familiar rival. Nothing casual about the round.",
@@ -673,8 +695,51 @@
           "Pond changes sides without establishing shot",
           "Tiny panels/copy at 390px",
           "Unverified winner inferred from neutral study"
-        ]
-      }
+        ],
+        "character_reconfirmation_required": false,
+        "execution_handoff": {
+          "scope": "EXISTING_APPROVED_REFERENCE_PATH_NO_NEW_IDENTITY_WORK",
+          "reference_assets": [
+            {
+              "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+              "sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+              "authority": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+              "classification": "EXISTING_COMMISSIONER_APPROVED_PRESENTATION_REUSED_FROM_WEEK8",
+              "identity_approved": true,
+              "identity_reconfirmation_required": false,
+              "source_bytes_available_in_repo": true,
+              "renderer_request_submitted": false,
+              "replaces_historical_primary_hash": false,
+              "character_id": "CHAR-ZACH-WILSON"
+            },
+            {
+              "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+              "sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+              "authority": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+              "classification": "EXISTING_COMMISSIONER_APPROVED_PRESENTATION_REUSED_FROM_WEEK8",
+              "identity_approved": true,
+              "identity_reconfirmation_required": false,
+              "source_bytes_available_in_repo": true,
+              "renderer_request_submitted": false,
+              "replaces_historical_primary_hash": false,
+              "character_id": "CHAR-JAKE-KALOPER"
+            }
+          ],
+          "image_instruction": "SCHEMIN '26 WEEK9 EXISTING-PAGE EXECUTION BRIEF. Native 1080x1920 PNG, portrait 9:16. Use the exact approved current character images selected below; preserve anatomy, appearance and current clothing identity, varying only sporting gear, action, pose and lighting as directed. References determine identity, not their original pose. Use the existing page copy and layout zones; exact names/numbers remain deterministic compositor-owned. No new canon, no invented player statistics, no winner or final score before result selection. This is a prepared instruction only: no render request has been sent. Do not place historical file IDs into a renderer field that does not support them. Three large, readable sequential golf vignettes at Country Club of Jackson in beautiful autumn sunrise. Top: Duckhook finishes a driver stroke with both hands on ONE grip; orange duck bill and green cap remain distinct; ObiWan watches from safely behind the swing arc. Middle: ObiWan recovers from sand with flexed knees and visible torso rotation; sand spray, ball and club are three separate readable elements. His earth-tone layered wardrobe remains recognizable; no championship belt, no sword used as golf club. Bottom: both study a stationary ball before the putt, never celebrate an unverified result. The pond stays on camera-right and clubhouse on horizon-left in all three views. Three repeated moments, not six simultaneous characters. In the neutral proof no stroke establishes a winner; the released montage selects success/failure only after the real matchup result. Use all exact existing copy/boxes from proof_preparation, with type-safe space and no repeated hero portrait.",
+          "exact_copy_source": "proof_preparation.headline/deck/body_copy",
+          "layout_source": "proof_preparation.layout",
+          "readiness": "BRIEF_PREPARED_NOT_RENDER_SUBMITTED",
+          "must_obtain_at_execution": [
+            "Actual supported image attachments",
+            "Applicable scene/source acceptance",
+            "Final-raster identity, physicality and phone QA"
+          ],
+          "preserve_outcome_branches": true
+        }
+      },
+      "character_identity_state": "SETTLED_EXISTING_APPROVALS_NO_RECONFIRMATION",
+      "character_exception_dependencies": [],
+      "legacy_primary_recovery_required_for_preproduction": false
     },
     {
       "issue_id": "S26-W09-2026",
@@ -2518,7 +2583,18 @@
           "preflight_primary_bytes": "NOT_RECOVERED_FROM_SCOPED_LOCAL_SEARCH",
           "registered_library_handle": "libfile_f330daf3bae0819198b6008d67fecc51",
           "library_handle_reverified": false,
-          "presentation_assertions_source": "canon/characters/lineup_2026_10_18/CHAR-JORDAN-HOLLINGSHEAD.json"
+          "presentation_assertions_source": "canon/characters/lineup_2026_10_18/CHAR-JORDAN-HOLLINGSHEAD.json",
+          "selected_visual_reference": {
+            "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+            "sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+            "authority": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+            "classification": "EXISTING_COMMISSIONER_APPROVED_PRESENTATION_REUSED_FROM_WEEK8",
+            "identity_approved": true,
+            "identity_reconfirmation_required": false,
+            "source_bytes_available_in_repo": true,
+            "renderer_request_submitted": false,
+            "replaces_historical_primary_hash": false
+          }
         },
         {
           "character_id": "CHAR-PHILLIP-PITTS",
@@ -2532,7 +2608,18 @@
           "preflight_primary_bytes": "HASH_MATCH_PRESENT_NOT_MOUNTED",
           "registered_library_handle": "libfile_68a2173146888191bbae1160bb9972d2",
           "library_handle_reverified": false,
-          "presentation_assertions_source": "canon/characters/lineup_2026_10_18/CHAR-PHILLIP-PITTS.json"
+          "presentation_assertions_source": "canon/characters/lineup_2026_10_18/CHAR-PHILLIP-PITTS.json",
+          "selected_visual_reference": {
+            "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+            "sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+            "authority": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+            "classification": "EXISTING_COMMISSIONER_APPROVED_PRESENTATION_REUSED_FROM_WEEK8",
+            "identity_approved": true,
+            "identity_reconfirmation_required": false,
+            "source_bytes_available_in_repo": true,
+            "renderer_request_submitted": false,
+            "replaces_historical_primary_hash": false
+          }
         }
       ],
       "forbidden_mutations": [
@@ -2609,7 +2696,7 @@
         "away_win": "Three Dreaded Snake wins: final third-person winner-shoulder slide/aim shows Slob hit by multiple paint splatters"
       },
       "proof_preparation": {
-        "preparation_state": "COPY_AND_SPATIAL_BLOCKING_PREPARED__REFERENCE_ATLAS_AND_FACT_GATES_OPEN",
+        "preparation_state": "EXECUTION_BRIEF_PREPARED_EXISTING_APPROVED_REFERENCES_SELECTED",
         "study_mode": "NEUTRAL_ENGAGEMENT_NO_ELIMINATION",
         "headline": "No Safe Corner",
         "deck": "Two contenders. Moving cover. No comfortable position.",
@@ -2719,8 +2806,51 @@
           "Paint trajectory crosses solid cover",
           "Winner/loser implication on P20",
           "Small masks/head silhouettes at 390px"
-        ]
-      }
+        ],
+        "character_reconfirmation_required": false,
+        "execution_handoff": {
+          "scope": "EXISTING_APPROVED_REFERENCE_PATH_NO_NEW_IDENTITY_WORK",
+          "reference_assets": [
+            {
+              "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+              "sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+              "authority": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+              "classification": "EXISTING_COMMISSIONER_APPROVED_PRESENTATION_REUSED_FROM_WEEK8",
+              "identity_approved": true,
+              "identity_reconfirmation_required": false,
+              "source_bytes_available_in_repo": true,
+              "renderer_request_submitted": false,
+              "replaces_historical_primary_hash": false,
+              "character_id": "CHAR-JORDAN-HOLLINGSHEAD"
+            },
+            {
+              "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+              "sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+              "authority": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+              "classification": "EXISTING_COMMISSIONER_APPROVED_PRESENTATION_REUSED_FROM_WEEK8",
+              "identity_approved": true,
+              "identity_reconfirmation_required": false,
+              "source_bytes_available_in_repo": true,
+              "renderer_request_submitted": false,
+              "replaces_historical_primary_hash": false,
+              "character_id": "CHAR-PHILLIP-PITTS"
+            }
+          ],
+          "image_instruction": "SCHEMIN '26 WEEK9 EXISTING-PAGE EXECUTION BRIEF. Native 1080x1920 PNG, portrait 9:16. Use the exact approved current character images selected below; preserve anatomy, appearance and current clothing identity, varying only sporting gear, action, pose and lighting as directed. References determine identity, not their original pose. Use the existing page copy and layout zones; exact names/numbers remain deterministic compositor-owned. No new canon, no invented player statistics, no winner or final score before result selection. This is a prepared instruction only: no render request has been sent. Do not place historical file IDs into a renderer field that does not support them. One dominant fast-moving paintball composition and two meaningful detail inserts in Slob's foothill training ground. Slob, in his current approved heavyset human presentation, runs from the southwest cylinder to central low cover. TDS leans from the northeast wedge, one shared body, two arms, one marker, EXACTLY THREE separated serpent heads wearing appropriate face protection. Lower inset1 shows Slob sliding behind central cover, grass spray aligned with movement. Lower inset2 shows TDS counter-moving toward adjacent tree cover while the central head watches the firing lane and the outer heads check flanks. Keep Slob near-left and TDS far-right; distant camp/tree line stays back. Paint hits bunkers only on this pre-finale page; no player paint splat, elimination, cheering or superior-winner cue. Inflatable covers stay stationary. Reserve the behind-winner slide and visible losing-player splat for P21 after results. Sporting paintball markers only; no firearms or blood. Use the established protected heads, hands, geometry, copy and layout zones; no generic soldier replacements.",
+          "exact_copy_source": "proof_preparation.headline/deck/body_copy",
+          "layout_source": "proof_preparation.layout",
+          "readiness": "BRIEF_PREPARED_NOT_RENDER_SUBMITTED",
+          "must_obtain_at_execution": [
+            "Actual supported image attachments",
+            "Applicable scene/source acceptance",
+            "Final-raster identity, physicality and phone QA"
+          ],
+          "preserve_outcome_branches": true
+        }
+      },
+      "character_identity_state": "SETTLED_EXISTING_APPROVALS_NO_RECONFIRMATION",
+      "character_exception_dependencies": [],
+      "legacy_primary_recovery_required_for_preproduction": false
     },
     {
       "issue_id": "S26-W09-2026",
@@ -3512,5 +3642,42 @@
       "actual_winner_team_id": null,
       "outcome_alternatives": null
     }
-  ]
+  ],
+  "character_continuation": {
+    "authority": "Founder correction in current Week9 thread, 2026-11-08: already-solved character approvals; only HMB/DK focused exceptions",
+    "identity_state": "EXISTING_APPROVALS_REAFFIRMED_NOT_REOPENED",
+    "settled_character_ids": [
+      "CHAR-JAKE-KALOPER",
+      "CHAR-PHILLIP-PITTS",
+      "CHAR-BRANDON-PRYOR",
+      "CHAR-JORDAN-HOLLINGSHEAD",
+      "CHAR-ZACH-WILSON",
+      "CHAR-KEVIN-ZEEK",
+      "CHAR-BOBBY-MITCHELL",
+      "CHAR-BEN-WHIPPLE",
+      "CHAR-DAVID-BABB",
+      "CHAR-MANNING-WELTY"
+    ],
+    "focused_exception_character_ids": [
+      "CHAR-AUSTIN-BYARS",
+      "CHAR-WILSON-LOOK"
+    ],
+    "focused_exception_scope": {
+      "CHAR-AUSTIN-BYARS": "Current hooded red-eyed black-armored Belt Keeper; guard against crowned-king substitution. Existing approval is not withdrawn.",
+      "CHAR-WILSON-LOOK": "ONE integrated Arsenal gorilla-centaur with FOUR equine legs; exclude known stale bipedal primary."
+    },
+    "reference_selection_source": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+    "previous_week_reuse_receipt": {
+      "commit": "03cce69771931c67e462d4da7020fe2e5fc5de91",
+      "path": "memo-os/week-8/previs/WEEK_8_15_FOLIO_LOCAL_RENDER_INPUTS_2026_11_04.json",
+      "source_role": "Previously selected approved visual-input lineage; NOT evidence of final-pixel acceptance"
+    },
+    "legacy_primary_lookup": "Historical JPEG path absence is an archive/transport observation, not a new character-identity veto or request for Founder reapproval.",
+    "scope_rule": "HMB/DK exception review applies only to pages containing those subjects. Neither appears in P05/P20.",
+    "renderer_execution_rule": "Attach the existing approved reference images through the actual supported rendering route and inspect resulting pixels. This packet has not submitted any render request.",
+    "no_primary_hash_supersession": true,
+    "no_global_canon_mutation": true,
+    "renderer_execution_verified": false,
+    "no_repeat_original_search_or_questionnaire": true
+  }
 }
