@@ -192,7 +192,107 @@
           }
         ]
       },
-      "next_step": "Review/draw this rough sequence, then use existing approved reference-bound proof briefs; no new questionnaire."
+      "next_step": "Review/draw this rough sequence, then use existing approved reference-bound proof briefs; no new questionnaire.",
+      "live_observation": {
+        "state": "LIVE_PROVISIONAL_NOT_FINAL_COPY",
+        "source_path": "memo-os/week-9/WEEK_9_FLAIM_LIVE_REFRESH_2026-11-08T2135Z.json",
+        "source_sha256": "d668dc95fad94ad97f9c22b360c087ccb02e4887d80abd1f66e6558a57a1b7db",
+        "session_timestamp_utc": "2026-11-08T21:34:59.010Z",
+        "capture_end_bound_utc": "2026-11-08T21:37:36.019237+00:00",
+        "closing_scoreboard": {
+          "home": {
+            "teamId": 12,
+            "teamName": "Dr. Duckhook",
+            "currentPoints": 82.7,
+            "totalPoints": 0,
+            "totalProjectedPoints": 160.33341919
+          },
+          "away": {
+            "teamId": 1,
+            "teamName": "ObiWan Jacoby",
+            "currentPoints": 138.26,
+            "totalPoints": 0,
+            "totalProjectedPoints": 145.0146936
+          },
+          "winner": "UNDECIDED",
+          "matchupPeriodId": 9
+        },
+        "top_starters_from_sequential_detail": {
+          "home": [
+            {
+              "playerId": "15847",
+              "name": "Travis Kelce",
+              "lineupSlot": "TE",
+              "started": true,
+              "points": 17.4
+            },
+            {
+              "playerId": "-16030",
+              "name": "Jaguars D/ST",
+              "lineupSlot": "D/ST",
+              "started": true,
+              "points": 17.0
+            },
+            {
+              "playerId": "4361370",
+              "name": "Chris Olave",
+              "lineupSlot": "WR",
+              "started": true,
+              "points": 16.8
+            }
+          ],
+          "away": [
+            {
+              "playerId": "4567048",
+              "name": "Kenneth Walker III",
+              "lineupSlot": "RB",
+              "started": true,
+              "points": 39.1
+            },
+            {
+              "playerId": "4426515",
+              "name": "Puka Nacua",
+              "lineupSlot": "WR",
+              "started": true,
+              "points": 36.2
+            },
+            {
+              "playerId": "4360310",
+              "name": "Trevor Lawrence",
+              "lineupSlot": "QB",
+              "started": true,
+              "points": 17.68
+            }
+          ]
+        },
+        "reconciliation": [
+          {
+            "teamId": 12,
+            "starter_sum": 74.2,
+            "initial_summary": 74.2,
+            "closing_summary": 82.7,
+            "matches_initial": true,
+            "closing_minus_earlier_player_sum": 8.5,
+            "matches_closing": false,
+            "matched_observation": "INITIAL"
+          },
+          {
+            "teamId": 1,
+            "starter_sum": 138.26,
+            "initial_summary": 138.26,
+            "closing_summary": 138.26,
+            "matches_initial": true,
+            "closing_minus_earlier_player_sum": 0.0,
+            "matches_closing": true,
+            "matched_observation": "BOTH"
+          }
+        ],
+        "sports_facts": "ObiWan leads 138.26–82.70 at the closing read. His earlier player detail contains Kenneth Walker III 39.10 and Puka Nacua 36.20, totaling75.30. Duckhook’s player detail totals74.20, eight-and-a-half points behind his later scoreboard; do not assign that difference to any player without a later read.",
+        "creative_interpretation": "GOTW LIVE candidate: Walker and Nacua give the visiting golfer two strong scoring answers. Keep the host’s counterattack alive; the scoreboard advanced during acquisition. Do not render the water-hazard defeat or claim a winning putt.",
+        "live_copy_candidate": "LIVE — Walker and Nacua supplied 75.30 in the collected player breakdown. ObiWan led 138.26–82.70 at the later scoreboard read; Duckhook was still adding points. This round is not decided.",
+        "actual_winner_selected": false,
+        "final_copy_authorized": false
+      }
     },
     {
       "id": "W09-M02",
@@ -366,7 +466,107 @@
           }
         ]
       },
-      "next_step": "Review/draw this rough sequence, then use existing approved reference-bound proof briefs; no new questionnaire."
+      "next_step": "Review/draw this rough sequence, then use existing approved reference-bound proof briefs; no new questionnaire.",
+      "live_observation": {
+        "state": "LIVE_PROVISIONAL_NOT_FINAL_COPY",
+        "source_path": "memo-os/week-9/WEEK_9_FLAIM_LIVE_REFRESH_2026-11-08T2135Z.json",
+        "source_sha256": "d668dc95fad94ad97f9c22b360c087ccb02e4887d80abd1f66e6558a57a1b7db",
+        "session_timestamp_utc": "2026-11-08T21:34:59.010Z",
+        "capture_end_bound_utc": "2026-11-08T21:37:36.019237+00:00",
+        "closing_scoreboard": {
+          "home": {
+            "teamId": 10,
+            "teamName": "Mud Dogs",
+            "currentPoints": 52.8,
+            "totalPoints": 0,
+            "totalProjectedPoints": 104.30218217
+          },
+          "away": {
+            "teamId": 9,
+            "teamName": "El Niño",
+            "currentPoints": 54.7,
+            "totalPoints": 0,
+            "totalProjectedPoints": 130.51026948
+          },
+          "winner": "UNDECIDED",
+          "matchupPeriodId": 9
+        },
+        "top_starters_from_sequential_detail": {
+          "home": [
+            {
+              "playerId": "3916433",
+              "name": "Jakobi Meyers",
+              "lineupSlot": "WR",
+              "started": true,
+              "points": 10.5
+            },
+            {
+              "playerId": "-16005",
+              "name": "Browns D/ST",
+              "lineupSlot": "D/ST",
+              "started": true,
+              "points": 10.1
+            },
+            {
+              "playerId": "3929630",
+              "name": "Saquon Barkley",
+              "lineupSlot": "RB",
+              "started": true,
+              "points": 9.5
+            }
+          ],
+          "away": [
+            {
+              "playerId": "4239993",
+              "name": "Tee Higgins",
+              "lineupSlot": "FLEX",
+              "started": true,
+              "points": 20.2
+            },
+            {
+              "playerId": "4362238",
+              "name": "Chase Brown",
+              "lineupSlot": "RB",
+              "started": true,
+              "points": 11.4
+            },
+            {
+              "playerId": "2976212",
+              "name": "Stefon Diggs",
+              "lineupSlot": "WR",
+              "started": true,
+              "points": 8.1
+            }
+          ]
+        },
+        "reconciliation": [
+          {
+            "teamId": 10,
+            "starter_sum": 52.8,
+            "initial_summary": 52.8,
+            "closing_summary": 52.8,
+            "matches_initial": true,
+            "closing_minus_earlier_player_sum": 0.0,
+            "matches_closing": true,
+            "matched_observation": "BOTH"
+          },
+          {
+            "teamId": 9,
+            "starter_sum": 54.7,
+            "initial_summary": 54.7,
+            "closing_summary": 54.7,
+            "matches_initial": true,
+            "closing_minus_earlier_player_sum": 0.0,
+            "matches_closing": true,
+            "matched_observation": "BOTH"
+          }
+        ],
+        "sports_facts": "El Niño leads54.70–52.80, just1.90. Tee Higgins has20.20 and Chase Brown11.40 in the collected starters. Mud Dogs has Jakobi Meyers10.50, Browns D/ST10.10 and Saquon Barkley9.50.",
+        "creative_interpretation": "LIVE race candidate: the flood is only narrowly ahead of the rider. Show a meaningful route decision, not an already-sunken bike. The storm may threaten playoff hopes, but no elimination is certified.",
+        "live_copy_candidate": "LIVE — El Niño held a 1.90-point edge, with Higgins supplying 20.20. Mud Dogs remained within reach at 52.80. The race has not reached its finish.",
+        "actual_winner_selected": false,
+        "final_copy_authorized": false
+      }
     },
     {
       "id": "W09-M03",
@@ -540,7 +740,107 @@
           }
         ]
       },
-      "next_step": "Review/draw this rough sequence, then use existing approved reference-bound proof briefs; no new questionnaire."
+      "next_step": "Review/draw this rough sequence, then use existing approved reference-bound proof briefs; no new questionnaire.",
+      "live_observation": {
+        "state": "LIVE_PROVISIONAL_NOT_FINAL_COPY",
+        "source_path": "memo-os/week-9/WEEK_9_FLAIM_LIVE_REFRESH_2026-11-08T2135Z.json",
+        "source_sha256": "d668dc95fad94ad97f9c22b360c087ccb02e4887d80abd1f66e6558a57a1b7db",
+        "session_timestamp_utc": "2026-11-08T21:34:59.010Z",
+        "capture_end_bound_utc": "2026-11-08T21:37:36.019237+00:00",
+        "closing_scoreboard": {
+          "home": {
+            "teamId": 2,
+            "teamName": "Red Leopards",
+            "currentPoints": 86.48,
+            "totalPoints": 0,
+            "totalProjectedPoints": 117.13556618
+          },
+          "away": {
+            "teamId": 11,
+            "teamName": "Seven Deadly Chins",
+            "currentPoints": 75.78,
+            "totalPoints": 0,
+            "totalProjectedPoints": 144.87470661
+          },
+          "winner": "UNDECIDED",
+          "matchupPeriodId": 9
+        },
+        "top_starters_from_sequential_detail": {
+          "home": [
+            {
+              "playerId": "4362628",
+              "name": "Ja'Marr Chase",
+              "lineupSlot": "WR",
+              "started": true,
+              "points": 34.5
+            },
+            {
+              "playerId": "4571557",
+              "name": "Spencer Shrader",
+              "lineupSlot": "K",
+              "started": true,
+              "points": 16.0
+            },
+            {
+              "playerId": "4430737",
+              "name": "Kyren Williams",
+              "lineupSlot": "RB",
+              "started": true,
+              "points": 10.6
+            }
+          ],
+          "away": [
+            {
+              "playerId": "3139477",
+              "name": "Patrick Mahomes",
+              "lineupSlot": "QB",
+              "started": true,
+              "points": 20.68
+            },
+            {
+              "playerId": "-16026",
+              "name": "Seahawks D/ST",
+              "lineupSlot": "D/ST",
+              "started": true,
+              "points": 18.0
+            },
+            {
+              "playerId": "4869645",
+              "name": "Caleb Douglas",
+              "lineupSlot": "WR",
+              "started": true,
+              "points": 13.0
+            }
+          ]
+        },
+        "reconciliation": [
+          {
+            "teamId": 2,
+            "starter_sum": 86.48,
+            "initial_summary": 86.48,
+            "closing_summary": 86.48,
+            "matches_initial": true,
+            "closing_minus_earlier_player_sum": 0.0,
+            "matches_closing": true,
+            "matched_observation": "BOTH"
+          },
+          {
+            "teamId": 11,
+            "starter_sum": 75.78,
+            "initial_summary": 75.58,
+            "closing_summary": 75.78,
+            "matches_initial": false,
+            "closing_minus_earlier_player_sum": 0.0,
+            "matches_closing": true,
+            "matched_observation": "CLOSING"
+          }
+        ],
+        "sports_facts": "Red leads86.48–75.78. Ja’Marr Chase contributes34.50; Spencer Shrader16.00. Chins counters with Patrick Mahomes20.68 and Seahawks D/ST18.00.",
+        "creative_interpretation": "LIVE soccer-ground candidate: Red’s retaliation has real scoring support, but Chins still has a credible counter. Use the stalk/pounce and driver response; no trapped-truck winner tableau yet.",
+        "live_copy_candidate": "LIVE — Chase’s 34.50 helped Red establish a 10.70-point edge. Mahomes and Seattle’s defense supplied Chins’ counterweight. The territorial duel remains open.",
+        "actual_winner_selected": false,
+        "final_copy_authorized": false
+      }
     },
     {
       "id": "W09-M04",
@@ -699,7 +999,107 @@
           }
         ]
       },
-      "next_step": "Review/draw this rough sequence, then use existing approved reference-bound proof briefs; no new questionnaire."
+      "next_step": "Review/draw this rough sequence, then use existing approved reference-bound proof briefs; no new questionnaire.",
+      "live_observation": {
+        "state": "LIVE_PROVISIONAL_NOT_FINAL_COPY",
+        "source_path": "memo-os/week-9/WEEK_9_FLAIM_LIVE_REFRESH_2026-11-08T2135Z.json",
+        "source_sha256": "d668dc95fad94ad97f9c22b360c087ccb02e4887d80abd1f66e6558a57a1b7db",
+        "session_timestamp_utc": "2026-11-08T21:34:59.010Z",
+        "capture_end_bound_utc": "2026-11-08T21:37:36.019237+00:00",
+        "closing_scoreboard": {
+          "home": {
+            "teamId": 7,
+            "teamName": "The Chili Cheesers ",
+            "currentPoints": 85.84,
+            "totalPoints": 0,
+            "totalProjectedPoints": 135.64833259
+          },
+          "away": {
+            "teamId": 8,
+            "teamName": "His Majesty's Blood",
+            "currentPoints": 95.58,
+            "totalPoints": 0,
+            "totalProjectedPoints": 142.05689113
+          },
+          "winner": "UNDECIDED",
+          "matchupPeriodId": 9
+        },
+        "top_starters_from_sequential_detail": {
+          "home": [
+            {
+              "playerId": "4685720",
+              "name": "Bryce Young",
+              "lineupSlot": "QB",
+              "started": true,
+              "points": 26.44
+            },
+            {
+              "playerId": "-16019",
+              "name": "Giants D/ST",
+              "lineupSlot": "D/ST",
+              "started": true,
+              "points": 19.0
+            },
+            {
+              "playerId": "4374302",
+              "name": "Amon-Ra St. Brown",
+              "lineupSlot": "WR",
+              "started": true,
+              "points": 16.6
+            }
+          ],
+          "away": [
+            {
+              "playerId": "4702555",
+              "name": "Jonah Coleman",
+              "lineupSlot": "RB",
+              "started": true,
+              "points": 20.5
+            },
+            {
+              "playerId": "4686361",
+              "name": "Cam Little",
+              "lineupSlot": "K",
+              "started": true,
+              "points": 17.0
+            },
+            {
+              "playerId": "4241416",
+              "name": "Chuba Hubbard",
+              "lineupSlot": "RB",
+              "started": true,
+              "points": 15.2
+            }
+          ]
+        },
+        "reconciliation": [
+          {
+            "teamId": 7,
+            "starter_sum": 85.84,
+            "initial_summary": 85.84,
+            "closing_summary": 85.84,
+            "matches_initial": true,
+            "closing_minus_earlier_player_sum": 0.0,
+            "matches_closing": true,
+            "matched_observation": "BOTH"
+          },
+          {
+            "teamId": 8,
+            "starter_sum": 95.58,
+            "initial_summary": 95.58,
+            "closing_summary": 95.58,
+            "matches_initial": true,
+            "closing_minus_earlier_player_sum": 0.0,
+            "matches_closing": true,
+            "matched_observation": "BOTH"
+          }
+        ],
+        "sports_facts": "HMB leads95.58–85.84. Jonah Coleman20.50, Cam Little17.00 and Lions D/ST15.00 contribute to HMB. Chili has Bryce Young26.44 and Giants D/ST19.00.",
+        "creative_interpretation": "LIVE cookout candidate: the Belt Keeper has the narrow upper hand, but Chili has a strong answer. Preserve the serving-cart setup and both humiliation branches; no crown and no prematurely drenched champion.",
+        "live_copy_candidate": "LIVE — HMB led by 9.74, with Coleman, Little and Detroit contributing. Young’s 26.44 and the Giants’ 19.00 kept Chili’s response alive. Nobody has been served the final humiliation.",
+        "actual_winner_selected": false,
+        "final_copy_authorized": false
+      }
     },
     {
       "id": "W09-M05",
@@ -873,7 +1273,107 @@
           }
         ]
       },
-      "next_step": "Review/draw this rough sequence, then use existing approved reference-bound proof briefs; no new questionnaire."
+      "next_step": "Review/draw this rough sequence, then use existing approved reference-bound proof briefs; no new questionnaire.",
+      "live_observation": {
+        "state": "LIVE_PROVISIONAL_NOT_FINAL_COPY",
+        "source_path": "memo-os/week-9/WEEK_9_FLAIM_LIVE_REFRESH_2026-11-08T2135Z.json",
+        "source_sha256": "d668dc95fad94ad97f9c22b360c087ccb02e4887d80abd1f66e6558a57a1b7db",
+        "session_timestamp_utc": "2026-11-08T21:34:59.010Z",
+        "capture_end_bound_utc": "2026-11-08T21:37:36.019237+00:00",
+        "closing_scoreboard": {
+          "home": {
+            "teamId": 5,
+            "teamName": "D0nkey K0ng",
+            "currentPoints": 149.9,
+            "totalPoints": 0,
+            "totalProjectedPoints": 166.75357847
+          },
+          "away": {
+            "teamId": 4,
+            "teamName": "The LLC",
+            "currentPoints": 102.19,
+            "totalPoints": 0,
+            "totalProjectedPoints": 136.15641836
+          },
+          "winner": "UNDECIDED",
+          "matchupPeriodId": 9
+        },
+        "top_starters_from_sequential_detail": {
+          "home": [
+            {
+              "playerId": "4430807",
+              "name": "Bijan Robinson",
+              "lineupSlot": "RB",
+              "started": true,
+              "points": 29.6
+            },
+            {
+              "playerId": "2577417",
+              "name": "Dak Prescott",
+              "lineupSlot": "QB",
+              "started": true,
+              "points": 26.7
+            },
+            {
+              "playerId": "-16034",
+              "name": "Texans D/ST",
+              "lineupSlot": "D/ST",
+              "started": true,
+              "points": 17.9
+            }
+          ],
+          "away": [
+            {
+              "playerId": "3915511",
+              "name": "Joe Burrow",
+              "lineupSlot": "QB",
+              "started": true,
+              "points": 37.84
+            },
+            {
+              "playerId": "4432620",
+              "name": "Parker Washington",
+              "lineupSlot": "WR",
+              "started": true,
+              "points": 16.65
+            },
+            {
+              "playerId": "4361050",
+              "name": "Isaiah Likely",
+              "lineupSlot": "TE",
+              "started": true,
+              "points": 16.3
+            }
+          ]
+        },
+        "reconciliation": [
+          {
+            "teamId": 5,
+            "starter_sum": 149.9,
+            "initial_summary": 148.4,
+            "closing_summary": 149.9,
+            "matches_initial": false,
+            "closing_minus_earlier_player_sum": 0.0,
+            "matches_closing": true,
+            "matched_observation": "CLOSING"
+          },
+          {
+            "teamId": 4,
+            "starter_sum": 102.19,
+            "initial_summary": 102.19,
+            "closing_summary": 102.19,
+            "matches_initial": true,
+            "closing_minus_earlier_player_sum": 0.0,
+            "matches_closing": true,
+            "matched_observation": "BOTH"
+          }
+        ],
+        "sports_facts": "DK leads149.90–102.19. Bijan Robinson29.60 and Dak Prescott26.70 combine for56.30; Texans D/ST17.90 also contributes. LLC’s Joe Burrow has37.84.",
+        "creative_interpretation": "LIVE arena candidate: portray DK’s pressure as broad scoring support, but give LLC a substantial counterstroke anchored in Burrow’s37.84. Do not place either combatant in the final defeated pose.",
+        "live_copy_candidate": "LIVE — Robinson and Prescott combined for 56.30 as DK led 149.90–102.19. Burrow’s 37.84 gave the LLC a serious counterstrike. The final overpowering move is not selected.",
+        "actual_winner_selected": false,
+        "final_copy_authorized": false
+      }
     },
     {
       "id": "W09-M06",
@@ -1047,7 +1547,107 @@
           }
         ]
       },
-      "next_step": "Review/draw this rough sequence, then use existing approved reference-bound proof briefs; no new questionnaire."
+      "next_step": "Review/draw this rough sequence, then use existing approved reference-bound proof briefs; no new questionnaire.",
+      "live_observation": {
+        "state": "LIVE_PROVISIONAL_NOT_FINAL_COPY",
+        "source_path": "memo-os/week-9/WEEK_9_FLAIM_LIVE_REFRESH_2026-11-08T2135Z.json",
+        "source_sha256": "d668dc95fad94ad97f9c22b360c087ccb02e4887d80abd1f66e6558a57a1b7db",
+        "session_timestamp_utc": "2026-11-08T21:34:59.010Z",
+        "capture_end_bound_utc": "2026-11-08T21:37:36.019237+00:00",
+        "closing_scoreboard": {
+          "home": {
+            "teamId": 3,
+            "teamName": "Slob on my Dobb",
+            "currentPoints": 94.2,
+            "totalPoints": 0,
+            "totalProjectedPoints": 184.76142222
+          },
+          "away": {
+            "teamId": 6,
+            "teamName": "Three Dreaded Snake",
+            "currentPoints": 103.5,
+            "totalPoints": 0,
+            "totalProjectedPoints": 150.0386726
+          },
+          "winner": "UNDECIDED",
+          "matchupPeriodId": 9
+        },
+        "top_starters_from_sequential_detail": {
+          "home": [
+            {
+              "playerId": "4241389",
+              "name": "CeeDee Lamb",
+              "lineupSlot": "WR",
+              "started": true,
+              "points": 36.5
+            },
+            {
+              "playerId": "4685472",
+              "name": "Tetairoa McMillan",
+              "lineupSlot": "WR",
+              "started": true,
+              "points": 15.6
+            },
+            {
+              "playerId": "5083076",
+              "name": "Harold Fannin Jr.",
+              "lineupSlot": "TE",
+              "started": true,
+              "points": 12.2
+            }
+          ],
+          "away": [
+            {
+              "playerId": "4361579",
+              "name": "Javonte Williams",
+              "lineupSlot": "RB",
+              "started": true,
+              "points": 25.4
+            },
+            {
+              "playerId": "4870653",
+              "name": "KC Concepcion",
+              "lineupSlot": "WR/TE",
+              "started": true,
+              "points": 20.9
+            },
+            {
+              "playerId": "-16025",
+              "name": "49ers D/ST",
+              "lineupSlot": "D/ST",
+              "started": true,
+              "points": 18.0
+            }
+          ]
+        },
+        "reconciliation": [
+          {
+            "teamId": 3,
+            "starter_sum": 94.2,
+            "initial_summary": 93.8,
+            "closing_summary": 94.2,
+            "matches_initial": false,
+            "closing_minus_earlier_player_sum": 0.0,
+            "matches_closing": true,
+            "matched_observation": "CLOSING"
+          },
+          {
+            "teamId": 6,
+            "starter_sum": 103.5,
+            "initial_summary": 103.5,
+            "closing_summary": 103.5,
+            "matches_initial": true,
+            "closing_minus_earlier_player_sum": 0.0,
+            "matches_closing": true,
+            "matched_observation": "BOTH"
+          }
+        ],
+        "sports_facts": "TDS leads103.50–94.20. Javonte Williams25.40 and KC Concepcion20.90 pace TDS; CeeDee Lamb36.50 and Tetairoa McMillan15.60 pace Slob. Completed trade acquisition Drake London is a Slob starter with11.80 at the detail read.",
+        "creative_interpretation": "LIVE paintball candidate: both sides have scoring force. Frame TDS’s counter-cover pressure against Slob’s Lamb-driven advance; include London’s contribution in the sports insert, not a new character. Keep P20 nonfinal; P21 remains behind the real winner only after final verification.",
+        "live_copy_candidate": "LIVE — TDS held a 9.30-point lead behind Williams and Concepcion. Lamb’s 36.50 powered Slob’s advance, while new arrival London added 11.80. The decisive firing angle is still unclaimed.",
+        "actual_winner_selected": false,
+        "final_copy_authorized": false
+      }
     }
   ],
   "all_phases_execution": {

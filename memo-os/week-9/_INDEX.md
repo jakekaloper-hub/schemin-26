@@ -5,6 +5,12 @@
 **Current status:** `CREATIVE_INTERVIEW_RECORDED / PREVIS_CANDIDATES_PREPARED / CANONICAL_SNAPSHOT_LOCK_BLOCKED / FACT_LOCK_BLOCKED / NOT_RELEASED`.  
 **Not a new OS or a new mission.**
 
+## Latest sports continuation — Sunday live Flaim refresh
+
+[Live Sports Desk / six scene-linked inserts](./WEEK_9_LIVE_SPORTS_DESK_CONTINUATION_2026-11-08T2135Z.md) · [normalized fresh source](./WEEK_9_FLAIM_LIVE_REFRESH_2026-11-08T2135Z.json).
+
+Collected Nov8 at21:35–21:37UTC: all6 matchups UNDECIDED;12 teams and221 player/lineup rows;42 transaction states unchanged from morning;6 Week10 fixtures freshly checked. Each Sports+Story Card and affected page now receives an explicitly provisional contributor/score insert. Preserve asynchronous read differences; no final winner or postweek record selected. Continue the existing visual proof lane and retain the thread source/decisions below.
+
 ## First read — this thread’s genesis and decisions
 
 [Thread continuity](./THREAD_CONTINUITY.md) · [structured checkpoint](./THREAD_CONTINUITY.json) · [original Founder wording](./THREAD_SOURCE_CAPTURE_2026-11-08.md).
