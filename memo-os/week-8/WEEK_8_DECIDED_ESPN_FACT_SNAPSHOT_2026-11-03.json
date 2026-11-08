@@ -1,0 +1,145 @@
+{
+  "source": "FLAIM ESPN league 1417621, Week 8, read 2026-11-03",
+  "status": "PROVIDER_DECIDED; independent stat-level and playoff division audit still required",
+  "matches": [
+    {
+      "home": "Mud Dogs",
+      "away": "Dr. Duckhook",
+      "home_team_id": 10,
+      "away_team_id": 12,
+      "home_points": 100.88,
+      "away_points": 174.06,
+      "winner": "AWAY",
+      "margin": 73.18
+    },
+    {
+      "home": "ObiWan Jacoby",
+      "away": "El Niño",
+      "home_team_id": 1,
+      "away_team_id": 9,
+      "home_points": 142.3,
+      "away_points": 164.38,
+      "winner": "AWAY",
+      "margin": 22.08
+    },
+    {
+      "home": "D0nkey K0ng",
+      "away": "Seven Deadly Chins",
+      "home_team_id": 5,
+      "away_team_id": 11,
+      "home_points": 92.75,
+      "away_points": 166.44,
+      "winner": "AWAY",
+      "margin": 73.69
+    },
+    {
+      "home": "Three Dreaded Snake",
+      "away": "The Chili Cheesers",
+      "home_team_id": 6,
+      "away_team_id": 7,
+      "home_points": 136.53,
+      "away_points": 123.51,
+      "winner": "HOME",
+      "margin": 13.02
+    },
+    {
+      "home": "Slob on my Dobb",
+      "away": "His Majesty's Blood",
+      "home_team_id": 3,
+      "away_team_id": 8,
+      "home_points": 158.26,
+      "away_points": 162.62,
+      "winner": "AWAY",
+      "margin": 4.36
+    },
+    {
+      "home": "Red Leopards",
+      "away": "The LLC",
+      "home_team_id": 2,
+      "away_team_id": 4,
+      "home_points": 135.8,
+      "away_points": 138.58,
+      "winner": "AWAY",
+      "margin": 2.78
+    }
+  ],
+  "standings": [
+    {
+      "team": "Dr. Duckhook",
+      "wins": 5,
+      "losses": 3,
+      "espn_order": 1
+    },
+    {
+      "team": "His Majesty's Blood",
+      "wins": 5,
+      "losses": 3,
+      "espn_order": 2
+    },
+    {
+      "team": "ObiWan Jacoby",
+      "wins": 4,
+      "losses": 4,
+      "espn_order": 3
+    },
+    {
+      "team": "Seven Deadly Chins",
+      "wins": 5,
+      "losses": 3,
+      "espn_order": 4
+    },
+    {
+      "team": "Slob on my Dobb",
+      "wins": 4,
+      "losses": 4,
+      "espn_order": 5
+    },
+    {
+      "team": "The Chili Cheesers",
+      "wins": 4,
+      "losses": 4,
+      "espn_order": 6
+    },
+    {
+      "team": "Red Leopards",
+      "wins": 4,
+      "losses": 4,
+      "espn_order": 7
+    },
+    {
+      "team": "El Niño",
+      "wins": 4,
+      "losses": 4,
+      "espn_order": 8
+    },
+    {
+      "team": "D0nkey K0ng",
+      "wins": 4,
+      "losses": 4,
+      "espn_order": 9
+    },
+    {
+      "team": "Three Dreaded Snake",
+      "wins": 4,
+      "losses": 4,
+      "espn_order": 10
+    },
+    {
+      "team": "The LLC",
+      "wins": 3,
+      "losses": 5,
+      "espn_order": 11
+    },
+    {
+      "team": "Mud Dogs",
+      "wins": 2,
+      "losses": 6,
+      "espn_order": 12
+    }
+  ],
+  "notes": [
+    "All six matchups winner designated",
+    "Roster stats returned by get_roster are cumulative and must not be misrepresented as Week 8 player scores",
+    "Division-leader playoff qualification requires explicit membership and tiebreak validation"
+  ]
+}
