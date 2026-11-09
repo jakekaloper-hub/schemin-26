@@ -93,3 +93,7 @@ The subsequent Founder request was “refresh league via flaim then call upon bu
 ## Current character application correction
 
 The all12 output audit is implemented in the active issue, source cards and page cast. El Niño is the existing humanoid elemental, not merely a storm; Mud Dogs remains a four-legged hound, with canine-compatible bike blocking still a proposed scene rig. Chili’s October22 appearance governs over the older crop where different. Each actual page carries only its allowed principals and current source authority. Historical user source capture is unchanged. Source selection/checksums are not provider attachment proof or final-pixel acceptance. No new illustration was generated. The failed all-issue poster route remains stopped; do not retry the declined external connection.
+
+## November 9 pre-MNF continuation
+
+The [Monday-night report](WEEK_9_PRE_MNF_SPORTS_AND_ENDINGS_2026-11-09.md) and [fresh checks](WEEK_9_PRE_MNF_REFRESH_2026-11-09.json) reuse PR292, add the8 current starting participants and exact net-score conditions, and advance six copy/ending packets. Chili/HMB and DK/LLC have no starters remaining, but all provider results remain undecided. The source/character corrections and original Founder wording are unchanged.

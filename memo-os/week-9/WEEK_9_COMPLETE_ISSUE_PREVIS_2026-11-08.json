@@ -221,7 +221,11 @@
       "manual_approval_required": true,
       "render_authorized": false,
       "actual_winner_team_id": null,
-      "outcome_alternatives": null
+      "outcome_alternatives": null,
+      "pre_mnf_source": {
+        "source_path": "memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json",
+        "rule": "Use Monday observed values, remaining-player conditions and unchanged entering records; do not print projected postweek standings as official."
+      }
     },
     {
       "issue_id": "S26-W09-2026",
@@ -319,6 +323,10 @@
         "selector": "week9_closing_summary",
         "label_required": "LIVE / PARTIAL / capture window",
         "final_scoreboard_allowed": false
+      },
+      "pre_mnf_source": {
+        "source_path": "memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json",
+        "rule": "Use Monday observed values, remaining-player conditions and unchanged entering records; do not print projected postweek standings as official."
       }
     },
     {
@@ -523,6 +531,14 @@
         "reference_bound_execution_proven": false,
         "authority_is_not_pixel_acceptance": true,
         "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
+      },
+      "pre_mnf_context": {
+        "source_path": "memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json",
+        "matchup_id": "W09-M01",
+        "activity_state": "LEADER_HAS_REMAINING_OPPONENT_DONE",
+        "sports_copy_draft": "Duckhook reclaimed the course. Matthew Golden’s 33.40 and Drake Maye’s 24.36 helped turn Sunday’s deficit into a 148.76–144.46 lead. ObiWan’s Walker–Nacua pairing produced 75.30, but his lineup has finished. Addison and Bass still belong to the host’s closing round. The apparent loss is not an ESPN-final result yet.",
+        "threshold": "Duckhook retains the lead if Addison + Bass > -4.30; equality is a scoreboard tie, below that reverses the lead. Stat corrections remain possible.",
+        "official_result_selected": false
       }
     },
     {
@@ -961,6 +977,14 @@
         "reference_bound_execution_proven": false,
         "authority_is_not_pixel_acceptance": true,
         "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
+      },
+      "pre_mnf_context": {
+        "source_path": "memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json",
+        "matchup_id": "W09-M01",
+        "activity_state": "LEADER_HAS_REMAINING_OPPONENT_DONE",
+        "sports_copy_draft": "Duckhook reclaimed the course. Matthew Golden’s 33.40 and Drake Maye’s 24.36 helped turn Sunday’s deficit into a 148.76–144.46 lead. ObiWan’s Walker–Nacua pairing produced 75.30, but his lineup has finished. Addison and Bass still belong to the host’s closing round. The apparent loss is not an ESPN-final result yet.",
+        "threshold": "Duckhook retains the lead if Addison + Bass > -4.30; equality is a scoreboard tie, below that reverses the lead. Stat corrections remain possible.",
+        "official_result_selected": false
       }
     },
     {
@@ -1165,6 +1189,14 @@
         "reference_bound_execution_proven": false,
         "authority_is_not_pixel_acceptance": true,
         "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
+      },
+      "pre_mnf_context": {
+        "source_path": "memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json",
+        "matchup_id": "W09-M01",
+        "activity_state": "LEADER_HAS_REMAINING_OPPONENT_DONE",
+        "sports_copy_draft": "Duckhook reclaimed the course. Matthew Golden’s 33.40 and Drake Maye’s 24.36 helped turn Sunday’s deficit into a 148.76–144.46 lead. ObiWan’s Walker–Nacua pairing produced 75.30, but his lineup has finished. Addison and Bass still belong to the host’s closing round. The apparent loss is not an ESPN-final result yet.",
+        "threshold": "Duckhook retains the lead if Addison + Bass > -4.30; equality is a scoreboard tie, below that reverses the lead. Stat corrections remain possible.",
+        "official_result_selected": false
       }
     },
     {
@@ -1372,6 +1404,17 @@
         "reference_bound_execution_proven": false,
         "authority_is_not_pixel_acceptance": true,
         "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
+      },
+      "pre_mnf_context": {
+        "source_path": "memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json",
+        "matchup_id": "W09-M01",
+        "activity_state": "LEADER_HAS_REMAINING_OPPONENT_DONE",
+        "sports_copy_draft": "Duckhook reclaimed the course. Matthew Golden’s 33.40 and Drake Maye’s 24.36 helped turn Sunday’s deficit into a 148.76–144.46 lead. ObiWan’s Walker–Nacua pairing produced 75.30, but his lineup has finished. Addison and Bass still belong to the host’s closing round. The apparent loss is not an ESPN-final result yet.",
+        "threshold": "Duckhook retains the lead if Addison + Bass > -4.30; equality is a scoreboard tie, below that reverses the lead. Stat corrections remain possible.",
+        "official_result_selected": false,
+        "provisional_ending_candidate": "home_win",
+        "scene_instruction": "If the home lead survives certification, edit ObiWan’s otherwise competitive round around the costly misses; Duckhook finishes steadily. Do not depict a Duckhook water-hazard loss as the chosen ending.",
+        "promotion_rule": "Reconcile provider-decided result, final scoring and actual lineup. Then select the corresponding existing branch; do not infer final rank/elimination."
       }
     },
     {
@@ -1577,6 +1620,14 @@
         "reference_bound_execution_proven": false,
         "authority_is_not_pixel_acceptance": true,
         "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
+      },
+      "pre_mnf_context": {
+        "source_path": "memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json",
+        "matchup_id": "W09-M02",
+        "activity_state": "LEADER_HAS_REMAINING_OPPONENT_DONE",
+        "sports_copy_draft": "The finish is visible, but Mud Dogs has no scoring left to reach it. El Niño leads 104.74–84.20 before James Cook III plays. Higgins supplied 20.20 and Fairbairn 17.00; Mud Dogs’ highest starter, Meyers, supplied 10.50. The flood-failure ending is the current editorial candidate, not a certified result or playoff elimination.",
+        "threshold": "El Niño retains the lead if James Cook III > -20.54; equality is a scoreboard tie. Do not call mathematical elimination for Mud Dogs.",
+        "official_result_selected": false
       }
     },
     {
@@ -1792,6 +1843,14 @@
         "reference_bound_execution_proven": false,
         "authority_is_not_pixel_acceptance": true,
         "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
+      },
+      "pre_mnf_context": {
+        "source_path": "memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json",
+        "matchup_id": "W09-M02",
+        "activity_state": "LEADER_HAS_REMAINING_OPPONENT_DONE",
+        "sports_copy_draft": "The finish is visible, but Mud Dogs has no scoring left to reach it. El Niño leads 104.74–84.20 before James Cook III plays. Higgins supplied 20.20 and Fairbairn 17.00; Mud Dogs’ highest starter, Meyers, supplied 10.50. The flood-failure ending is the current editorial candidate, not a certified result or playoff elimination.",
+        "threshold": "El Niño retains the lead if James Cook III > -20.54; equality is a scoreboard tie. Do not call mathematical elimination for Mud Dogs.",
+        "official_result_selected": false
       }
     },
     {
@@ -2010,6 +2069,17 @@
         "reference_bound_execution_proven": false,
         "authority_is_not_pixel_acceptance": true,
         "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
+      },
+      "pre_mnf_context": {
+        "source_path": "memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json",
+        "matchup_id": "W09-M02",
+        "activity_state": "LEADER_HAS_REMAINING_OPPONENT_DONE",
+        "sports_copy_draft": "The finish is visible, but Mud Dogs has no scoring left to reach it. El Niño leads 104.74–84.20 before James Cook III plays. Higgins supplied 20.20 and Fairbairn 17.00; Mud Dogs’ highest starter, Meyers, supplied 10.50. The flood-failure ending is the current editorial candidate, not a certified result or playoff elimination.",
+        "threshold": "El Niño retains the lead if James Cook III > -20.54; equality is a scoreboard tie. Do not call mathematical elimination for Mud Dogs.",
+        "official_result_selected": false,
+        "provisional_ending_candidate": "away_win",
+        "scene_instruction": "Prepare the stalled canine-compatible bike ending while the embodied El Niño controls the flood from the far bank. Keep the escape branch archived until actual result acceptance.",
+        "promotion_rule": "Reconcile provider-decided result, final scoring and actual lineup. Then select the corresponding existing branch; do not infer final rank/elimination."
       }
     },
     {
@@ -2213,6 +2283,14 @@
         "reference_bound_execution_proven": false,
         "authority_is_not_pixel_acceptance": true,
         "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
+      },
+      "pre_mnf_context": {
+        "source_path": "memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json",
+        "matchup_id": "W09-M03",
+        "activity_state": "BOTH_SIDES_HAVE_MNF_STARTERS",
+        "sports_copy_draft": "The pitch is not reclaimed yet. Chase’s 34.50 helped Red build a 112.78–103.38 lead, but Kincaid must defend that 9.40-point cushion against Jefferson tonight. Chins wins the scoreboard exchange only if Jefferson outscores Kincaid by more than 9.40. Keep both the trapped-truck and failed-ambush endings live.",
+        "threshold": "Chins moves ahead if Justin Jefferson minus Dalton Kincaid > 9.40. Equality is a scoreboard tie; do not infer the tiebreak result.",
+        "official_result_selected": false
       }
     },
     {
@@ -2426,6 +2504,14 @@
         "reference_bound_execution_proven": false,
         "authority_is_not_pixel_acceptance": true,
         "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
+      },
+      "pre_mnf_context": {
+        "source_path": "memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json",
+        "matchup_id": "W09-M03",
+        "activity_state": "BOTH_SIDES_HAVE_MNF_STARTERS",
+        "sports_copy_draft": "The pitch is not reclaimed yet. Chase’s 34.50 helped Red build a 112.78–103.38 lead, but Kincaid must defend that 9.40-point cushion against Jefferson tonight. Chins wins the scoreboard exchange only if Jefferson outscores Kincaid by more than 9.40. Keep both the trapped-truck and failed-ambush endings live.",
+        "threshold": "Chins moves ahead if Justin Jefferson minus Dalton Kincaid > 9.40. Equality is a scoreboard tie; do not infer the tiebreak result.",
+        "official_result_selected": false
       }
     },
     {
@@ -2642,6 +2728,17 @@
         "reference_bound_execution_proven": false,
         "authority_is_not_pixel_acceptance": true,
         "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
+      },
+      "pre_mnf_context": {
+        "source_path": "memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json",
+        "matchup_id": "W09-M03",
+        "activity_state": "BOTH_SIDES_HAVE_MNF_STARTERS",
+        "sports_copy_draft": "The pitch is not reclaimed yet. Chase’s 34.50 helped Red build a 112.78–103.38 lead, but Kincaid must defend that 9.40-point cushion against Jefferson tonight. Chins wins the scoreboard exchange only if Jefferson outscores Kincaid by more than 9.40. Keep both the trapped-truck and failed-ambush endings live.",
+        "threshold": "Chins moves ahead if Justin Jefferson minus Dalton Kincaid > 9.40. Equality is a scoreboard tie; do not infer the tiebreak result.",
+        "official_result_selected": false,
+        "provisional_ending_candidate": null,
+        "scene_instruction": "Stage Red’s trap tightening and Chins testing the exit; do not damage or immobilize the truck irreversibly in the neutral sequence. Select the finale only after Jefferson/Kincaid finish and source acceptance.",
+        "promotion_rule": "Reconcile provider-decided result, final scoring and actual lineup. Then select the corresponding existing branch; do not infer final rank/elimination."
       }
     },
     {
@@ -2860,6 +2957,14 @@
         "reference_bound_execution_proven": false,
         "authority_is_not_pixel_acceptance": true,
         "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
+      },
+      "pre_mnf_context": {
+        "source_path": "memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json",
+        "matchup_id": "W09-M04",
+        "activity_state": "NO_STARTERS_REMAIN_PROVIDER_PENDING",
+        "sports_copy_draft": "The cookout has run out of scoring, with Chili ahead 152.84–135.08. Watson’s 31.10, Young’s 26.44 and Bowers’ 23.40 combined for 80.94. Purdy’s 29.98 was HMB’s strongest answer, but no starting player remains for either team tonight. The chili-covered Belt Keeper is the provisional finish, pending ESPN finalization and stat review.",
+        "threshold": "Chili leads by 17.76 with no starting players left on either side; candidate home ending awaits official result/stat review.",
+        "official_result_selected": false
       }
     },
     {
@@ -3091,6 +3196,17 @@
         "reference_bound_execution_proven": false,
         "authority_is_not_pixel_acceptance": true,
         "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
+      },
+      "pre_mnf_context": {
+        "source_path": "memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json",
+        "matchup_id": "W09-M04",
+        "activity_state": "NO_STARTERS_REMAIN_PROVIDER_PENDING",
+        "sports_copy_draft": "The cookout has run out of scoring, with Chili ahead 152.84–135.08. Watson’s 31.10, Young’s 26.44 and Bowers’ 23.40 combined for 80.94. Purdy’s 29.98 was HMB’s strongest answer, but no starting player remains for either team tonight. The chili-covered Belt Keeper is the provisional finish, pending ESPN finalization and stat review.",
+        "threshold": "Chili leads by 17.76 with no starting players left on either side; candidate home ending awaits official result/stat review.",
+        "official_result_selected": false,
+        "provisional_ending_candidate": "home_win",
+        "scene_instruction": "If the current result is certified: Chili braces the serving cart, releases the established catch and turns the cookout against the intruder. The cooled chili strikes HMB’s black armor and ragged cloak; his hood, red eyes, gold ornament and belt stay his. Chili watches through black sunglasses; the Dark Horse remains separately staged behind the stall.",
+        "promotion_rule": "Reconcile provider-decided result, final scoring and actual lineup. Then select the corresponding existing branch; do not infer final rank/elimination."
       }
     },
     {
@@ -3297,6 +3413,14 @@
         "reference_bound_execution_proven": false,
         "authority_is_not_pixel_acceptance": true,
         "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
+      },
+      "pre_mnf_context": {
+        "source_path": "memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json",
+        "matchup_id": "W09-M05",
+        "activity_state": "NO_STARTERS_REMAIN_PROVIDER_PENDING",
+        "sports_copy_draft": "The arena score stands at DK 158.70, LLC 129.89, with both starting lineups finished. Robinson and Prescott combined for 56.30; the LLC’s Burrow answered with 37.84. The provisional finish belongs to DK by 28.81, not yet an official ESPN winner. His advantage is broad support, not an invented claim that the opponent never landed a blow.",
+        "threshold": "DK leads by 28.81 with no starting players left on either side; candidate home ending awaits official result/stat review.",
+        "official_result_selected": false
       }
     },
     {
@@ -3513,6 +3637,14 @@
         "reference_bound_execution_proven": false,
         "authority_is_not_pixel_acceptance": true,
         "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
+      },
+      "pre_mnf_context": {
+        "source_path": "memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json",
+        "matchup_id": "W09-M05",
+        "activity_state": "NO_STARTERS_REMAIN_PROVIDER_PENDING",
+        "sports_copy_draft": "The arena score stands at DK 158.70, LLC 129.89, with both starting lineups finished. Robinson and Prescott combined for 56.30; the LLC’s Burrow answered with 37.84. The provisional finish belongs to DK by 28.81, not yet an official ESPN winner. His advantage is broad support, not an invented claim that the opponent never landed a blow.",
+        "threshold": "DK leads by 28.81 with no starting players left on either side; candidate home ending awaits official result/stat review.",
+        "official_result_selected": false
       }
     },
     {
@@ -3732,6 +3864,17 @@
         "reference_bound_execution_proven": false,
         "authority_is_not_pixel_acceptance": true,
         "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
+      },
+      "pre_mnf_context": {
+        "source_path": "memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json",
+        "matchup_id": "W09-M05",
+        "activity_state": "NO_STARTERS_REMAIN_PROVIDER_PENDING",
+        "sports_copy_draft": "The arena score stands at DK 158.70, LLC 129.89, with both starting lineups finished. Robinson and Prescott combined for 56.30; the LLC’s Burrow answered with 37.84. The provisional finish belongs to DK by 28.81, not yet an official ESPN winner. His advantage is broad support, not an invented claim that the opponent never landed a blow.",
+        "threshold": "DK leads by 28.81 with no starting players left on either side; candidate home ending awaits official result/stat review.",
+        "official_result_selected": false,
+        "provisional_ending_candidate": "home_win",
+        "scene_instruction": "If certified: show LLC’s parry, DK’s four-legged turn around the flank, and a controlled overpowering finish that forces the knight down. Keep the LLC face recognizable, all four equine legs legible and Arsenal details intact. No death, crown or belt transfer.",
+        "promotion_rule": "Reconcile provider-decided result, final scoring and actual lineup. Then select the corresponding existing branch; do not infer final rank/elimination."
       }
     },
     {
@@ -3935,6 +4078,14 @@
         "reference_bound_execution_proven": false,
         "authority_is_not_pixel_acceptance": true,
         "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
+      },
+      "pre_mnf_context": {
+        "source_path": "memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json",
+        "matchup_id": "W09-M06",
+        "activity_state": "BOTH_SIDES_HAVE_MNF_STARTERS",
+        "sports_copy_draft": "TDS holds the firing lane at 152.26–141.20, but Slob still has Allen and Reichard against Hockenson. Lamb’s 36.50, Irving’s 30.50 and McCaffrey’s 24.50 have kept Slob in the chase. Allen plus Reichard must outscore Hockenson by more than 11.06 to take the lead. No one has earned the final paint-splattered defeat frame yet.",
+        "threshold": "Slob moves ahead if Josh Allen + Will Reichard minus T.J. Hockenson > 11.06. Equality is a scoreboard tie; do not infer the tiebreak result.",
+        "official_result_selected": false
       }
     },
     {
@@ -4367,6 +4518,14 @@
         "reference_bound_execution_proven": false,
         "authority_is_not_pixel_acceptance": true,
         "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
+      },
+      "pre_mnf_context": {
+        "source_path": "memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json",
+        "matchup_id": "W09-M06",
+        "activity_state": "BOTH_SIDES_HAVE_MNF_STARTERS",
+        "sports_copy_draft": "TDS holds the firing lane at 152.26–141.20, but Slob still has Allen and Reichard against Hockenson. Lamb’s 36.50, Irving’s 30.50 and McCaffrey’s 24.50 have kept Slob in the chase. Allen plus Reichard must outscore Hockenson by more than 11.06 to take the lead. No one has earned the final paint-splattered defeat frame yet.",
+        "threshold": "Slob moves ahead if Josh Allen + Will Reichard minus T.J. Hockenson > 11.06. Equality is a scoreboard tie; do not infer the tiebreak result.",
+        "official_result_selected": false
       }
     },
     {
@@ -4583,6 +4742,17 @@
         "reference_bound_execution_proven": false,
         "authority_is_not_pixel_acceptance": true,
         "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
+      },
+      "pre_mnf_context": {
+        "source_path": "memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json",
+        "matchup_id": "W09-M06",
+        "activity_state": "BOTH_SIDES_HAVE_MNF_STARTERS",
+        "sports_copy_draft": "TDS holds the firing lane at 152.26–141.20, but Slob still has Allen and Reichard against Hockenson. Lamb’s 36.50, Irving’s 30.50 and McCaffrey’s 24.50 have kept Slob in the chase. Allen plus Reichard must outscore Hockenson by more than 11.06 to take the lead. No one has earned the final paint-splattered defeat frame yet.",
+        "threshold": "Slob moves ahead if Josh Allen + Will Reichard minus T.J. Hockenson > 11.06. Equality is a scoreboard tie; do not infer the tiebreak result.",
+        "official_result_selected": false,
+        "provisional_ending_candidate": null,
+        "scene_instruction": "Hold P20 as aggressive two-way flanking. For P21 retain both exact Founder finishes: camera behind the sliding winner, defeated opponent downrange with paint on protection. TDS retains three protected heads on one body; Slob retains his massive human proportions.",
+        "promotion_rule": "Reconcile provider-decided result, final scoring and actual lineup. Then select the corresponding existing branch; do not infer final rank/elimination."
       }
     },
     {
@@ -4681,6 +4851,10 @@
         "selector": "player_detail_teams",
         "label_required": "Player totals are sequential observations, not all final or exactly synchronized",
         "all_finals_verified": false
+      },
+      "pre_mnf_source": {
+        "source_path": "memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json",
+        "rule": "Use Monday observed values, remaining-player conditions and unchanged entering records; do not print projected postweek standings as official."
       }
     },
     {
@@ -4873,7 +5047,11 @@
       "manual_approval_required": true,
       "render_authorized": false,
       "actual_winner_team_id": null,
-      "outcome_alternatives": null
+      "outcome_alternatives": null,
+      "pre_mnf_source": {
+        "source_path": "memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json",
+        "rule": "Use Monday observed values, remaining-player conditions and unchanged entering records; do not print projected postweek standings as official."
+      }
     },
     {
       "issue_id": "S26-W09-2026",
@@ -5278,7 +5456,11 @@
       "manual_approval_required": true,
       "render_authorized": false,
       "actual_winner_team_id": null,
-      "outcome_alternatives": null
+      "outcome_alternatives": null,
+      "pre_mnf_source": {
+        "source_path": "memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json",
+        "rule": "Use Monday observed values, remaining-player conditions and unchanged entering records; do not print projected postweek standings as official."
+      }
     }
   ],
   "character_continuation": {
@@ -5979,5 +6161,15 @@
     "new_character_designs": false,
     "generation_attempts_in_this_change": 0,
     "purpose": "Repair active source precedence and page cast, not reopen approvals or claim pixel fidelity."
+  },
+  "latest_pre_mnf_context": {
+    "source_path": "memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json",
+    "final_results_accepted": false,
+    "remaining_game": "BUF at MIN",
+    "remaining_starters": 8,
+    "completed_lineup_matchups": [
+      "W09-M04",
+      "W09-M05"
+    ]
   }
 }

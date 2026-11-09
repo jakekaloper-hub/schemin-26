@@ -5,6 +5,10 @@
 **Current status:** `CREATIVE_INTERVIEW_RECORDED / PREVIS_CANDIDATES_PREPARED / CANONICAL_SNAPSHOT_LOCK_BLOCKED / FACT_LOCK_BLOCKED / NOT_RELEASED`.  
 **Not a new OS or a new mission.**
 
+## Latest sports continuation — November 9, before MNF
+
+[Monday-night conditions and six drafted continuations](./WEEK_9_PRE_MNF_SPORTS_AND_ENDINGS_2026-11-09.md) · [fresh source checks and derived thresholds](./WEEK_9_PRE_MNF_REFRESH_2026-11-09.json). Explicit Flaim refresh reconfirms PR292;8 current starters play BUF-MIN tonight. Chili/HMB and DK/LLC have no starting participants left. Existing cards and cinematic pages now carry provisional copy/ending preparation, never an official winner or rendered-art claim. This supersedes Sunday scores for current reporting, not the historical source files.
+
 ## Current character application — audit corrections implemented
 
 The [existing issue register](./WEEK_9_COMPLETE_ISSUE_PREVIS_2026-11-08.json) now contains `resolved_character_appearances` for all12 and a `page_character_contract` for each character-bearing page. Chili’s later October22 appearance has explicit precedence; its exact preferred supplementary PNG is not falsely claimed as ingested. El Niño is restored to P08-P10 cast/reference inputs as the approved humanoid elemental, while Mud Dogs stays a four-legged hound. The canine-compatible dirt-bike staging remains a team proposal, not new biology or a proven rig.
