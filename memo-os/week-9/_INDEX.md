@@ -11,6 +11,12 @@
 
 Seven supplied `crisper.visions` screenshots have now been inspected; the former access limitation is superseded for THESE samples. Week8 remains the primary issue-design benchmark. The active page packets carry atmosphere/scale/material guidance without importing characters or geography. FFHub features/methods were examined as optional support for existing forecast/rankings/Realm/runway/preview pages; no Schemin-specific run or probabilities exist.35pages, existing order, known rendering failure and final-data holds remain unchanged. No new side project, extra page or credential sharing.
 
+## Latest executable continuation — final-result staging and isolated P05 inputs
+
+[Execution evidence and commands](./production-evidence/production-inputs-2026-11-09/README.md) · [P05 single-page input ZIP](./production-evidence/production-inputs-2026-11-09/W09_P05_SINGLE_PAGE_INPUTS.zip) · [Actual fresh-result check](./production-evidence/production-inputs-2026-11-09/RESULT_HANDOFF_DRY_RUN.json).
+
+A fresh explicitWeek9 Flaim scoreboard read still has6UNDECIDED outcomes. The executable report correctly makes no final updates. `prepare_production_inputs.py` validates future captured finals and12starter sums, proposes only existing branch/copy fields, and never writes acceptance/render flags. P05's2approved image bytes, current layout and exact copy are now packaged separately from the whole-issue context; actual provider binding remains unverified. No new illustration, paid route or background task. The35-page reading/production orders remain governing.
+
 ## Current production continuation — coverage-first35-page convergence
 
 [Executed review and40-to35 preservation map](./WEEK_9_CONVERGENCE_REVIEW_2026-11-09.md) · [Reading and generation orders](./WEEK_9_READING_AND_PRODUCTION_ORDER_2026-11-09.json) · [Full-page layout rehearsal](./WEEK_9_FULL_PAGE_LAYOUT_REHEARSAL_2026-11-09.html).

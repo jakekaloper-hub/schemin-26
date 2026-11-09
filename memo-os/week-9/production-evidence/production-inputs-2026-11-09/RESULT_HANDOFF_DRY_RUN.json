@@ -1,0 +1,30 @@
+{
+  "kind": "WEEK9_PROPOSED_FIELD_UPDATES_NOT_SOURCE_ACCEPTANCE",
+  "status": "WAITING_PROVIDER_FINALITY",
+  "errors": [
+    "No final branch proposal: one or more provider winners remain UNDECIDED"
+  ],
+  "results": [],
+  "page_updates": [],
+  "source_accepted": false,
+  "render_authorized": false,
+  "release_approved": false,
+  "writes_authoritative_files": false,
+  "injury_claims_verified": false,
+  "playoff_odds_generated": false,
+  "requires_independent_review": true,
+  "provider_final_count": 0,
+  "source": {
+    "recorded_at_utc": "2026-11-09T19:42:51.274382+00:00",
+    "observation_sha256": "634749fb9225f14e108057a45241580ecb9f784fe4ff029c3ba28f203eee4213",
+    "representation": "Transcription of the actual Flaim.get_matchups response in this continuation; not captured HTTP-wire bytes or independent acceptance. recorded_at is file capture time, not an ESPN event timestamp.",
+    "request": {
+      "platform": "espn",
+      "sport": "football",
+      "league_id": "1417621",
+      "season_year": 2026,
+      "week": 9
+    },
+    "current_scoring_period": 9
+  }
+}

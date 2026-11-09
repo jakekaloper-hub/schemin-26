@@ -1,0 +1,68 @@
+{
+  "kind": "ACTUAL_LOCAL_BULLPEN_ADVISORY_NOT_ACCEPTANCE",
+  "instruction": "Resume existing Schemin Week9 issue276 main7dd8e5f. No new layout/OS. Fresh Flaim explicitWeek9 returns all6 UNDECIDED; scores unchanged. Existing35active packets/40source records have postMNF checklist but need executable staged final-data delta, NOT authoritative promotion. Proposed bounded work: pure offline reconciliation of saved source responses against12team/sixpair mapping, explicit season/week9, finite scores and provider final winner,12starter sums if available; leave unresolved/ties requiring real review; emit proposed changes/report and field-level provenance in a NEW candidate output; original files/gates remain untouched. Reject zero finalized-score placeholders, wrong week after rollover, partial response, duplicate teams, score contradictions, missing/altered input. Candidate chooses existing ending text only when provider-final score-consistent; no Fact/Art/release approval, finality alone isn't source acceptance. Also extract P05's existing selected2reference bytes/copy/current layout into an isolated reviewable kit, not another allleague poster or original-image hunt. Need actual workflow safety advice in ≤90words: name2 concrete failure tests and1 no-loss handoff rule. No claimed dispatch, execution, approval or dates beyond source.",
+  "started_at": "2026-11-09T19:36:46.508Z",
+  "responses": [
+    {
+      "director": "the_analyst",
+      "response": "Reconciling Week 9 data requires offline validation of 12 teams against the sixpair mapping using saved source responses. Failure tests: incorrect week/rollover, duplicate teams, score contradictions, missing input. Hand-off rule: new candidate output with field-level provenance. Extract P05’s reference bytes into a reviewable kit – isolated and untouched. Jake will review the candidate output, finality alone is not source acceptance. Focus on data integrity – deviation triggers manual reassessment."
+    },
+    {
+      "director": "the_librarian",
+      "response": "Reconciling Schemin Week9 Issue276 – Main7dd8e5f. Initial assessment indicates 35 active packets with post-MNF checklists. Offline reconciliation is proposed: 12 team/six pair mapping against saved source responses, season/week9 specific, finite scores. Reject incorrect week, duplicates, contradictions, and incomplete entries. Extract P05's reference bytes into an isolated review kit. Failure test: Verify source date integrity & consistent team/score mapping. No-loss handoff: Document field-level provenance; final output as a new candidate. Jake’s authority is paramount."
+    }
+  ],
+  "events": [
+    {
+      "name": "BULLPEN_CONSULTATION",
+      "payload": {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_analyst",
+        "messageLength": 1272,
+        "responseLength": 504,
+        "model": "gemma3:4b",
+        "latencyMs": 8597
+      },
+      "at": "2026-11-09T19:36:55.108Z"
+    },
+    {
+      "name": "BULLPEN_CONSULTATION",
+      "payload": {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_librarian",
+        "messageLength": 1272,
+        "responseLength": 577,
+        "model": "gemma3:4b",
+        "latencyMs": 5792
+      },
+      "at": "2026-11-09T19:37:00.905Z"
+    }
+  ],
+  "traces": [
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_analyst",
+      "messageLength": 1272,
+      "responseLength": 504,
+      "model": "gemma3:4b",
+      "latencyMs": 8597,
+      "at": "2026-11-09T19:36:55.110Z"
+    },
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_librarian",
+      "messageLength": 1272,
+      "responseLength": 577,
+      "model": "gemma3:4b",
+      "latencyMs": 5792,
+      "at": "2026-11-09T19:37:00.905Z"
+    }
+  ],
+  "finished_at": "2026-11-09T19:37:00.906Z",
+  "disposition": {
+    "accepted": "Exact scope, duplicate/score/date checks, field provenance and isolated unchanged reference bytes.",
+    "not_claimed": "No autonomous dispatch, no reviewer authority assigned by model text, no burden returned to Jake for routine arithmetic. Actual source/release ownership is unchanged."
+  }
+}

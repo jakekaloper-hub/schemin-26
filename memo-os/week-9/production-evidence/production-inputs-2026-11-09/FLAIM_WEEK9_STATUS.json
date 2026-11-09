@@ -1,0 +1,174 @@
+{
+  "request": {
+    "platform": "espn",
+    "sport": "football",
+    "league_id": "1417621",
+    "season_year": 2026,
+    "week": 9
+  },
+  "recorded_at_utc": "2026-11-09T19:42:51.274382+00:00",
+  "observed_end_bound_utc": "2026-11-09T19:35:55.618565+00:00",
+  "representation": "Transcription of the actual Flaim.get_matchups response in this continuation; not captured HTTP-wire bytes or independent acceptance. recorded_at is file capture time, not an ESPN event timestamp.",
+  "matchups_response": {
+    "success": true,
+    "data": {
+      "leagueId": "1417621",
+      "seasonYear": 2026,
+      "currentScoringPeriod": 9,
+      "matchupPeriod": 9,
+      "matchups": [
+        {
+          "matchupPeriodId": 9,
+          "home": {
+            "teamId": 10,
+            "teamName": "Mud Dogs",
+            "totalPoints": 0,
+            "currentPoints": 84.2,
+            "totalProjectedPoints": 84.2,
+            "pointsByScoringPeriod": {
+              "9": 84.2
+            }
+          },
+          "away": {
+            "teamId": 9,
+            "teamName": "El Niño",
+            "totalPoints": 0,
+            "currentPoints": 104.74,
+            "totalProjectedPoints": 125.84863268,
+            "pointsByScoringPeriod": {
+              "9": 104.74
+            }
+          },
+          "winner": "UNDECIDED",
+          "playoffTierType": "NONE"
+        },
+        {
+          "matchupPeriodId": 9,
+          "home": {
+            "teamId": 12,
+            "teamName": "Dr. Duckhook",
+            "totalPoints": 0,
+            "currentPoints": 148.76,
+            "totalProjectedPoints": 170.65783541,
+            "pointsByScoringPeriod": {
+              "9": 148.76
+            }
+          },
+          "away": {
+            "teamId": 1,
+            "teamName": "ObiWan Jacoby",
+            "totalPoints": 0,
+            "currentPoints": 144.46,
+            "totalProjectedPoints": 144.46,
+            "pointsByScoringPeriod": {
+              "9": 144.46
+            }
+          },
+          "winner": "UNDECIDED",
+          "playoffTierType": "NONE"
+        },
+        {
+          "matchupPeriodId": 9,
+          "home": {
+            "teamId": 2,
+            "teamName": "Red Leopards",
+            "totalPoints": 0,
+            "currentPoints": 112.78,
+            "totalProjectedPoints": 121.46417903,
+            "pointsByScoringPeriod": {
+              "9": 112.78
+            }
+          },
+          "away": {
+            "teamId": 11,
+            "teamName": "Seven Deadly Chins",
+            "totalPoints": 0,
+            "currentPoints": 103.38,
+            "totalProjectedPoints": 122.03398396,
+            "pointsByScoringPeriod": {
+              "9": 103.38
+            }
+          },
+          "winner": "UNDECIDED",
+          "playoffTierType": "NONE"
+        },
+        {
+          "matchupPeriodId": 9,
+          "home": {
+            "teamId": 7,
+            "teamName": "The Chili Cheesers ",
+            "totalPoints": 0,
+            "currentPoints": 152.84,
+            "totalProjectedPoints": 152.84,
+            "pointsByScoringPeriod": {
+              "9": 152.84
+            }
+          },
+          "away": {
+            "teamId": 8,
+            "teamName": "His Majesty's Blood",
+            "totalPoints": 0,
+            "currentPoints": 135.08,
+            "totalProjectedPoints": 135.08,
+            "pointsByScoringPeriod": {
+              "9": 135.08
+            }
+          },
+          "winner": "UNDECIDED",
+          "playoffTierType": "NONE"
+        },
+        {
+          "matchupPeriodId": 9,
+          "home": {
+            "teamId": 5,
+            "teamName": "D0nkey K0ng",
+            "totalPoints": 0,
+            "currentPoints": 158.7,
+            "totalProjectedPoints": 158.7,
+            "pointsByScoringPeriod": {
+              "9": 158.7
+            }
+          },
+          "away": {
+            "teamId": 4,
+            "teamName": "The LLC",
+            "totalPoints": 0,
+            "currentPoints": 129.89,
+            "totalProjectedPoints": 129.89,
+            "pointsByScoringPeriod": {
+              "9": 129.89
+            }
+          },
+          "winner": "UNDECIDED",
+          "playoffTierType": "NONE"
+        },
+        {
+          "matchupPeriodId": 9,
+          "home": {
+            "teamId": 3,
+            "teamName": "Slob on my Dobb",
+            "totalPoints": 0,
+            "currentPoints": 141.2,
+            "totalProjectedPoints": 175.92782297,
+            "pointsByScoringPeriod": {
+              "9": 141.2
+            }
+          },
+          "away": {
+            "teamId": 6,
+            "teamName": "Three Dreaded Snake",
+            "totalPoints": 0,
+            "currentPoints": 152.26,
+            "totalProjectedPoints": 163.01237683,
+            "pointsByScoringPeriod": {
+              "9": 152.26
+            }
+          },
+          "winner": "UNDECIDED",
+          "playoffTierType": "NONE"
+        }
+      ]
+    }
+  },
+  "lineup_evidence": null
+}

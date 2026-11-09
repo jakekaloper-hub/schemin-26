@@ -1,0 +1,60 @@
+{
+  "canvas": [
+    1080,
+    1920
+  ],
+  "safe_margin_px": 60,
+  "archetype": "golf_collage",
+  "zones": {
+    "header": [
+      60,
+      50,
+      960,
+      250
+    ],
+    "first_action": [
+      60,
+      325,
+      960,
+      330
+    ],
+    "second_action": [
+      60,
+      680,
+      960,
+      330
+    ],
+    "reaction": [
+      60,
+      1035,
+      960,
+      200
+    ],
+    "body": [
+      60,
+      1260,
+      960,
+      595
+    ]
+  },
+  "type_px": {
+    "headline": 58,
+    "deck": 36,
+    "body": 42,
+    "data": 38,
+    "minor": 30
+  },
+  "body_line_height_px": 55,
+  "whole_page_fit_state": "CURRENT_REHEARSAL_TEXT_GEOMETRY_CHECKED__FINAL_DATA_AND_ART_PENDING",
+  "actual_art_fit_state": "NOT_GENERATED",
+  "no_type_shrink_to_fit": true,
+  "text_composition": "DETERMINISTIC_FROM_CURRENT_COPY_AND_ACCEPTED_DATA",
+  "data_area_not_on_faces": true,
+  "concept_only_art": true,
+  "fit_limits": [
+    "Actual scene artwork is not included.",
+    "Data rows use explicit dashes where final fields are unavailable; hydrated values must be rechecked.",
+    "Alternate finale paragraphs and final score panels require their own post-result fit check.",
+    "Map-label fit awaits the actual map layer."
+  ]
+}
