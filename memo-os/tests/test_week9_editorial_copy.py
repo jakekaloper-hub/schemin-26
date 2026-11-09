@@ -21,7 +21,7 @@ class Week9EditorialCopyTests(unittest.TestCase):
 
     def test_all_existing_pages_have_labeled_copy(self):
         pages = self.pages()
-        self.assertEqual(len(pages), 28)
+        self.assertEqual(len(pages), 40)
         for p in pages:
             c = self.require_copy(p)
             self.assertEqual(c['state'], 'DRAFT_COPY_NOT_FINAL_PUBLICATION')
@@ -30,7 +30,7 @@ class Week9EditorialCopyTests(unittest.TestCase):
             self.assertFalse(c['approved_for_release'])
 
     def test_eighteen_cinematic_pages_and_twelve_separate_endings(self):
-        pages = [p for p in self.pages() if p.get('matchup_id')]
+        pages = [p for p in self.pages() if p.get('matchup_id') and p['page_role'] != 'two_character_pov_overture']
         self.assertEqual(len(pages), 18)
         finales = [p for p in pages if p['page_role'] == 'matchup_payoff']
         self.assertEqual(len(finales), 6)
@@ -64,7 +64,7 @@ class Week9EditorialCopyTests(unittest.TestCase):
             c = self.require_copy(p)
             self.assertFalse(p['render_authorized'])
             self.assertIsNone(p['actual_winner_team_id'])
-            if p.get('matchup_id'):
+            if p.get('matchup_id') and p['page_role'] != 'two_character_pov_overture':
                 self.assertEqual(c['body_classification'],'FICTIONAL_SCENE_NARRATION')
                 self.assertEqual(c['sports_inset']['classification'],'PRE_MNF_OBSERVED_NOT_FINAL')
                 self.assertIn('2026-11-09',c['sports_inset']['as_of'])

@@ -47,7 +47,7 @@ class Week9CharacterApplicationTests(unittest.TestCase):
 
     def test_mud_nino_are_both_explicit_approved_subjects(self):
         pages = [p for p in self.issue['pages'] if p.get('matchup_id') == 'W09-M02']
-        self.assertEqual(len(pages), 3)
+        self.assertEqual(len(pages), 4)
         for page in pages:
             self.assertEqual(set(page['characters_present']), {MUD, NINO})
             self.assertEqual({a['character_id'] for a in page['reference_assets']}, {MUD, NINO})
@@ -63,7 +63,7 @@ class Week9CharacterApplicationTests(unittest.TestCase):
 
     def test_each_cinematic_page_has_exact_cast_not_all_issue_poster(self):
         pages = [p for p in self.issue['pages'] if p.get('matchup_id')]
-        self.assertEqual(len(pages), 18)
+        self.assertEqual(len(pages), 24)
         for page in pages:
             self.assertIn('page_character_contract', page)
             contract = page['page_character_contract']

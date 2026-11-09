@@ -1,0 +1,120 @@
+{
+  "base_commit": "1a36dd25fabd80d87796454bbf273aa742e79ad5",
+  "source_review": "Actual official20pageWeek8 rendered/inspected; exactInstagram unavailable",
+  "current_packet_tests": [
+    {
+      "suite": "test_week9_convergence.py",
+      "exit": 0,
+      "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.016s\n\nOK\n"
+    },
+    {
+      "suite": "test_week9_editorial_copy.py",
+      "exit": 0,
+      "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.014s\n\nOK\n"
+    },
+    {
+      "suite": "test_week9_character_application.py",
+      "exit": 0,
+      "output": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.022s\n\nOK\n"
+    },
+    {
+      "suite": "test_week9_thread_continuity.py",
+      "exit": 0,
+      "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.002s\n\nOK\n"
+    }
+  ],
+  "negative_cases": [
+    {
+      "case": "missing_source",
+      "rejected": true
+    },
+    {
+      "case": "duplicate_position",
+      "rejected": true
+    },
+    {
+      "case": "lost_setup_cause",
+      "rejected": true
+    },
+    {
+      "case": "false_fact_acceptance",
+      "rejected": true
+    },
+    {
+      "case": "false_image_approval",
+      "rejected": true
+    }
+  ],
+  "source_copy_history_retained": true,
+  "rehearsal_reproducible": true,
+  "rehearsal_builder_read_only": true,
+  "browser": {
+    "pages": 35,
+    "sourceIds": [
+      "W09-P01",
+      "W09-P02",
+      "W09-P29",
+      "W09-P03",
+      "W09-P31",
+      "W09-P05",
+      "W09-P06",
+      "W09-P07",
+      "W09-P32",
+      "W09-P09",
+      "W09-P10",
+      "W09-P33",
+      "W09-P12",
+      "W09-P13",
+      "W09-P30",
+      "W09-P22",
+      "W09-P34",
+      "W09-P14",
+      "W09-P15",
+      "W09-P35",
+      "W09-P17",
+      "W09-P18",
+      "W09-P36",
+      "W09-P20",
+      "W09-P21",
+      "W09-P37",
+      "W09-P23",
+      "W09-P24",
+      "W09-P38",
+      "W09-P25",
+      "W09-P39",
+      "W09-P40",
+      "W09-P26",
+      "W09-P27",
+      "W09-P28"
+    ],
+    "overflow": [],
+    "exceptions": [],
+    "not_art_acceptance": true,
+    "not_source_acceptance": true,
+    "phone_W09-P31": {
+      "horizontal_fit": true,
+      "active_page": "W09-P31"
+    },
+    "phone_W09-P24": {
+      "horizontal_fit": true,
+      "active_page": "W09-P24"
+    },
+    "phone_W09-P14": {
+      "horizontal_fit": true,
+      "active_page": "W09-P14"
+    },
+    "phone_W09-P40": {
+      "horizontal_fit": true,
+      "active_page": "W09-P40"
+    },
+    "navigation": true
+  },
+  "full_image_acceptance": false,
+  "final_data_acceptance": false,
+  "new_scene_images": 0,
+  "source_files": {
+    "WEEK_9_COMPLETE_ISSUE_PREVIS_2026-11-08.json": "b1dc04ddfcfb19073fb8c44396fbb9ce34d268bb7271cdefb7fe320446c9fa67",
+    "WEEK_9_FULL_PAGE_LAYOUT_REHEARSAL_2026-11-09.html": "3d9e323c0cee3540fccf62a5709f6e639d7ed7d9569cd181b709fca2ed3463ba",
+    "WEEK_9_READING_AND_PRODUCTION_ORDER_2026-11-09.json": "a1a9b64f91048c1924b6616c0cead69e239b07933400b24a647a44a97b363177"
+  }
+}
