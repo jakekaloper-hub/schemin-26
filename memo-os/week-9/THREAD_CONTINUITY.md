@@ -109,3 +109,7 @@ The latest Founder directive adds six two-character split-POV overtures and the 
 ## Coverage-first convergence executed
 
 Current continuation is35active packets, not the earlier32discussion or40baseline. All40 source functions and answers remain mapped in the main register. Five setup carriers are absorbed with visible transfers; Commissioner Note, State of Realm and Chili cart setup remain dedicated. ActualWeek8 reference sheets were reviewed and35prototype layouts tested. External`crisper.visions`samples remain inaccessible. No final artwork/result acceptance was added. Read the active `reading_order`, blocked `production_queue` and `WEEK_9_CONVERGENCE_REVIEW_2026-11-09.md`; do not restart genesis planning.
+
+## November9 visual samples and optional FFHub source
+
+The actual seven user screenshots are now reviewed. [Source/craft review and handoff](production-evidence/reference-review-2026-11-09/REVIEW.md) records image-specific findings, hashes, cropped contact reference and limitations. This supersedes the previous access-pending note for those7samples only. Week8 remains the primary issue-design benchmark. FFHub is an optional secondary source for existing pages, not a new system or accepted probability feed. No league import/model run, final scores, new artwork, page-count change or identity approval occurred. Resume the35-page package and known narrow P05/P20 proof task; do not rediscover the genesis or ignore the supplied sample observations.
