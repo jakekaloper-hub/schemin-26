@@ -1,0 +1,3042 @@
+{
+  "kind": "FRESH_FLAIM_REVALIDATION_PLUS_PRE_MNF_ANALYSIS_NOT_FINAL_RESULTS",
+  "base_commit": "689701a587de21b74b2b31a876d8c581116b7504",
+  "league_id": 1417621,
+  "season": 2026,
+  "week": 9,
+  "session_timestamp_utc": "2026-11-09T15:48:24.919Z",
+  "collection_end_bound_utc": "2026-11-09T15:52:00.217915+00:00",
+  "refresh": {
+    "platform": "espn",
+    "success": true
+  },
+  "representation": "Selected-field transcription of fresh Flaim reads, revalidated against existing PR292 rather than duplicated raw data. Official NFL schedule and independent ESPN roster metadata separately attributed.",
+  "existing_evidence": [
+    {
+      "path": "memo-os/week-9/WEEK_8_FINAL_WEEK_9_PROVIDER_EVIDENCE_2026-11-09.json",
+      "sha256": "b90d9f392934b7c2c5b67129223ee51f57eb2b236da3ac9585ea1132976b3f94",
+      "fresh_reconfirmation": "Scores,120 starter display-values and12 records/seeds checked; projections may be time-varying and are stored separately."
+    },
+    {
+      "path": "memo-os/week-9/WEEK_9_PROVISIONAL_SPORTS_DESK_EVIDENCE_2026-11-09.json",
+      "sha256": "5880da6a389bb0b5cfb6f914700522e5f150d2c46559660952ad80c767c56c9c",
+      "fresh_reconfirmation": "Scores,120 starter display-values and12 records/seeds checked; projections may be time-varying and are stored separately."
+    }
+  ],
+  "remaining_game": {
+    "away": "Buffalo Bills",
+    "home": "Minnesota Vikings",
+    "kickoff_et": "2026-11-09T20:15:00-05:00",
+    "kickoff_utc": "2026-11-10T01:15:00Z",
+    "source_url": "https://www.nfl.com/schedules/2026/by-week/week-9",
+    "source_type": "Official NFL schedule verified in web search; separate from fantasy source"
+  },
+  "roster_corroboration": {
+    "source_url": "https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/2026/segments/0/leagues/1417621?view=mRoster&view=mTeam&scoringPeriodId=9",
+    "observed_at_utc": "2026-11-09T15:50:31.045785+00:00",
+    "scope": "Independent read-only selected roster metadata; no credentials or member data stored",
+    "teams": [
+      {
+        "team_id": 1,
+        "name": "ObiWan Jacoby",
+        "players": [
+          {
+            "id": 3043078,
+            "name": "Derrick Henry",
+            "pro_team_id": 33,
+            "lineup_slot_id": 2
+          },
+          {
+            "id": 4567048,
+            "name": "Kenneth Walker III",
+            "pro_team_id": 12,
+            "lineup_slot_id": 2
+          },
+          {
+            "id": 4372016,
+            "name": "Jaylen Waddle",
+            "pro_team_id": 7,
+            "lineup_slot_id": 5
+          },
+          {
+            "id": 4608686,
+            "name": "Kyle Monangai",
+            "pro_team_id": 3,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4426515,
+            "name": "Puka Nacua",
+            "pro_team_id": 14,
+            "lineup_slot_id": 4
+          },
+          {
+            "id": 12483,
+            "name": "Matthew Stafford",
+            "pro_team_id": 14,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 3116365,
+            "name": "Mark Andrews",
+            "pro_team_id": 33,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 3126486,
+            "name": "Deebo Samuel Sr.",
+            "pro_team_id": 25,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4361432,
+            "name": "Romeo Doubs",
+            "pro_team_id": 17,
+            "lineup_slot_id": 21
+          },
+          {
+            "id": -16014,
+            "name": "Rams D/ST",
+            "pro_team_id": 14,
+            "lineup_slot_id": 16
+          },
+          {
+            "id": 4428331,
+            "name": "Rashee Rice",
+            "pro_team_id": 12,
+            "lineup_slot_id": 4
+          },
+          {
+            "id": 4360310,
+            "name": "Trevor Lawrence",
+            "pro_team_id": 30,
+            "lineup_slot_id": 0
+          },
+          {
+            "id": 2973405,
+            "name": "Kalif Raymond",
+            "pro_team_id": 3,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 3055899,
+            "name": "Harrison Butker",
+            "pro_team_id": 12,
+            "lineup_slot_id": 17
+          },
+          {
+            "id": 4575131,
+            "name": "Jacory Croskey-Merritt",
+            "pro_team_id": 28,
+            "lineup_slot_id": 21
+          },
+          {
+            "id": 3116164,
+            "name": "Mike Gesicki",
+            "pro_team_id": 4,
+            "lineup_slot_id": 23
+          },
+          {
+            "id": 4597703,
+            "name": "Tory Horton",
+            "pro_team_id": 26,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4382466,
+            "name": "Jalen Nailor",
+            "pro_team_id": 13,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 3117256,
+            "name": "Dalton Schultz",
+            "pro_team_id": 34,
+            "lineup_slot_id": 6
+          }
+        ]
+      },
+      {
+        "team_id": 2,
+        "name": "Red Leopards",
+        "players": [
+          {
+            "id": 4362628,
+            "name": "Ja'Marr Chase",
+            "pro_team_id": 4,
+            "lineup_slot_id": 4
+          },
+          {
+            "id": 4241478,
+            "name": "DeVonta Smith",
+            "pro_team_id": 21,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4429615,
+            "name": "Zay Flowers",
+            "pro_team_id": 33,
+            "lineup_slot_id": 4
+          },
+          {
+            "id": 3916387,
+            "name": "Lamar Jackson",
+            "pro_team_id": 33,
+            "lineup_slot_id": 21
+          },
+          {
+            "id": 3916148,
+            "name": "Tony Pollard",
+            "pro_team_id": 10,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4038815,
+            "name": "Rico Dowdle",
+            "pro_team_id": 23,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4688813,
+            "name": "Josh Downs",
+            "pro_team_id": 11,
+            "lineup_slot_id": 23
+          },
+          {
+            "id": 4385690,
+            "name": "Dalton Kincaid",
+            "pro_team_id": 2,
+            "lineup_slot_id": 6
+          },
+          {
+            "id": 4426385,
+            "name": "Zach Charbonnet",
+            "pro_team_id": 26,
+            "lineup_slot_id": 2
+          },
+          {
+            "id": 4430737,
+            "name": "Kyren Williams",
+            "pro_team_id": 14,
+            "lineup_slot_id": 2
+          },
+          {
+            "id": 5083315,
+            "name": "Kenyon Sadiq",
+            "pro_team_id": 20,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4569559,
+            "name": "Devaughn Vele",
+            "pro_team_id": 18,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4571557,
+            "name": "Spencer Shrader",
+            "pro_team_id": 11,
+            "lineup_slot_id": 17
+          },
+          {
+            "id": 4361411,
+            "name": "Pat Freiermuth",
+            "pro_team_id": 23,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4695883,
+            "name": "Jalen Coker",
+            "pro_team_id": 29,
+            "lineup_slot_id": 5
+          },
+          {
+            "id": 4433970,
+            "name": "J.J. McCarthy",
+            "pro_team_id": 19,
+            "lineup_slot_id": 0
+          },
+          {
+            "id": -16003,
+            "name": "Bears D/ST",
+            "pro_team_id": 3,
+            "lineup_slot_id": 16
+          },
+          {
+            "id": 3930086,
+            "name": "Dawson Knox",
+            "pro_team_id": 2,
+            "lineup_slot_id": 20
+          }
+        ]
+      },
+      {
+        "team_id": 3,
+        "name": "Slob on my Dobb",
+        "players": [
+          {
+            "id": 3117251,
+            "name": "Christian McCaffrey",
+            "pro_team_id": 25,
+            "lineup_slot_id": 23
+          },
+          {
+            "id": 4241389,
+            "name": "CeeDee Lamb",
+            "pro_team_id": 6,
+            "lineup_slot_id": 4
+          },
+          {
+            "id": 3918298,
+            "name": "Josh Allen",
+            "pro_team_id": 2,
+            "lineup_slot_id": 0
+          },
+          {
+            "id": 4685472,
+            "name": "Tetairoa McMillan",
+            "pro_team_id": 29,
+            "lineup_slot_id": 4
+          },
+          {
+            "id": 4432710,
+            "name": "TreVeyon Henderson",
+            "pro_team_id": 17,
+            "lineup_slot_id": 21
+          },
+          {
+            "id": 5083076,
+            "name": "Harold Fannin Jr.",
+            "pro_team_id": 5,
+            "lineup_slot_id": 6
+          },
+          {
+            "id": 4047365,
+            "name": "Josh Jacobs",
+            "pro_team_id": 9,
+            "lineup_slot_id": 2
+          },
+          {
+            "id": 4032473,
+            "name": "Rashid Shaheed",
+            "pro_team_id": 26,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": -16007,
+            "name": "Broncos D/ST",
+            "pro_team_id": 7,
+            "lineup_slot_id": 16
+          },
+          {
+            "id": 4596448,
+            "name": "Bucky Irving",
+            "pro_team_id": 27,
+            "lineup_slot_id": 2
+          },
+          {
+            "id": 4597500,
+            "name": "Adonai Mitchell",
+            "pro_team_id": 20,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4567104,
+            "name": "Will Reichard",
+            "pro_team_id": 16,
+            "lineup_slot_id": 17
+          },
+          {
+            "id": 4431299,
+            "name": "Rome Odunze",
+            "pro_team_id": 3,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4723820,
+            "name": "Omar Cooper Jr.",
+            "pro_team_id": 20,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4686658,
+            "name": "Mike Washington Jr.",
+            "pro_team_id": 13,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": -16002,
+            "name": "Bills D/ST",
+            "pro_team_id": 2,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4040761,
+            "name": "Devin Singletary",
+            "pro_team_id": 19,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4360438,
+            "name": "Brandon Aiyuk",
+            "pro_team_id": 25,
+            "lineup_slot_id": 21
+          },
+          {
+            "id": 4426502,
+            "name": "Drake London",
+            "pro_team_id": 1,
+            "lineup_slot_id": 5
+          }
+        ]
+      },
+      {
+        "team_id": 4,
+        "name": "The LLC",
+        "players": [
+          {
+            "id": 4242335,
+            "name": "Jonathan Taylor",
+            "pro_team_id": 11,
+            "lineup_slot_id": 2
+          },
+          {
+            "id": 4685382,
+            "name": "Omarion Hampton",
+            "pro_team_id": 24,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4239996,
+            "name": "Travis Etienne Jr.",
+            "pro_team_id": 18,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4569618,
+            "name": "Garrett Wilson",
+            "pro_team_id": 20,
+            "lineup_slot_id": 21
+          },
+          {
+            "id": 3915416,
+            "name": "DJ Moore",
+            "pro_team_id": 2,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4432620,
+            "name": "Parker Washington",
+            "pro_team_id": 30,
+            "lineup_slot_id": 4
+          },
+          {
+            "id": 4678008,
+            "name": "Jonathon Brooks",
+            "pro_team_id": 29,
+            "lineup_slot_id": 21
+          },
+          {
+            "id": 4360761,
+            "name": "Michael Wilson",
+            "pro_team_id": 22,
+            "lineup_slot_id": 4
+          },
+          {
+            "id": 3915511,
+            "name": "Joe Burrow",
+            "pro_team_id": 4,
+            "lineup_slot_id": 0
+          },
+          {
+            "id": 4241985,
+            "name": "J.K. Dobbins",
+            "pro_team_id": 7,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4723086,
+            "name": "Colston Loveland",
+            "pro_team_id": 3,
+            "lineup_slot_id": 5
+          },
+          {
+            "id": 4361050,
+            "name": "Isaiah Likely",
+            "pro_team_id": 19,
+            "lineup_slot_id": 6
+          },
+          {
+            "id": 4569603,
+            "name": "Malik Washington",
+            "pro_team_id": 15,
+            "lineup_slot_id": 23
+          },
+          {
+            "id": 4880281,
+            "name": "Jordyn Tyson",
+            "pro_team_id": 18,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4036378,
+            "name": "Jordan Love",
+            "pro_team_id": 9,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": -16029,
+            "name": "Panthers D/ST",
+            "pro_team_id": 29,
+            "lineup_slot_id": 16
+          },
+          {
+            "id": 17427,
+            "name": "Cairo Santos",
+            "pro_team_id": 3,
+            "lineup_slot_id": 17
+          },
+          {
+            "id": 4427095,
+            "name": "DeMario Douglas",
+            "pro_team_id": 17,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4685702,
+            "name": "Quinshon Judkins",
+            "pro_team_id": 5,
+            "lineup_slot_id": 2
+          }
+        ]
+      },
+      {
+        "team_id": 5,
+        "name": "D0nkey K0ng",
+        "players": [
+          {
+            "id": 4430807,
+            "name": "Bijan Robinson",
+            "pro_team_id": 1,
+            "lineup_slot_id": 2
+          },
+          {
+            "id": 4361307,
+            "name": "Trey McBride",
+            "pro_team_id": 22,
+            "lineup_slot_id": 6
+          },
+          {
+            "id": 16800,
+            "name": "Davante Adams",
+            "pro_team_id": 14,
+            "lineup_slot_id": 21
+          },
+          {
+            "id": 4427366,
+            "name": "Breece Hall",
+            "pro_team_id": 20,
+            "lineup_slot_id": 2
+          },
+          {
+            "id": 2577417,
+            "name": "Dak Prescott",
+            "pro_team_id": 6,
+            "lineup_slot_id": 0
+          },
+          {
+            "id": 4047650,
+            "name": "DK Metcalf",
+            "pro_team_id": 23,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 3953687,
+            "name": "Brandon Aubrey",
+            "pro_team_id": 6,
+            "lineup_slot_id": 17
+          },
+          {
+            "id": 4360078,
+            "name": "Alec Pierce",
+            "pro_team_id": 11,
+            "lineup_slot_id": 21
+          },
+          {
+            "id": 3121023,
+            "name": "Dallas Goedert",
+            "pro_team_id": 21,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": -16034,
+            "name": "Texans D/ST",
+            "pro_team_id": 34,
+            "lineup_slot_id": 16
+          },
+          {
+            "id": 3054850,
+            "name": "Alvin Kamara",
+            "pro_team_id": 18,
+            "lineup_slot_id": 23
+          },
+          {
+            "id": 4685415,
+            "name": "Travis Hunter",
+            "pro_team_id": 30,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": -16012,
+            "name": "Chiefs D/ST",
+            "pro_team_id": 12,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4430191,
+            "name": "Skyy Moore",
+            "pro_team_id": 9,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4429023,
+            "name": "MarShawn Lloyd",
+            "pro_team_id": 9,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4384852,
+            "name": "Dohnte Meyers",
+            "pro_team_id": 4,
+            "lineup_slot_id": 4
+          },
+          {
+            "id": 4686422,
+            "name": "Xavier Hutchinson",
+            "pro_team_id": 34,
+            "lineup_slot_id": 5
+          },
+          {
+            "id": 4361409,
+            "name": "Jahan Dotson",
+            "pro_team_id": 1,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4832800,
+            "name": "Denzel Boston",
+            "pro_team_id": 5,
+            "lineup_slot_id": 4
+          }
+        ]
+      },
+      {
+        "team_id": 6,
+        "name": "Three Dreaded Snake",
+        "players": [
+          {
+            "id": 4870795,
+            "name": "Makai Lemon",
+            "pro_team_id": 21,
+            "lineup_slot_id": 23
+          },
+          {
+            "id": 4361579,
+            "name": "Javonte Williams",
+            "pro_team_id": 6,
+            "lineup_slot_id": 2
+          },
+          {
+            "id": 4431611,
+            "name": "Caleb Williams",
+            "pro_team_id": 3,
+            "lineup_slot_id": 0
+          },
+          {
+            "id": 4036133,
+            "name": "T.J. Hockenson",
+            "pro_team_id": 16,
+            "lineup_slot_id": 6
+          },
+          {
+            "id": 4360689,
+            "name": "Tyler Shough",
+            "pro_team_id": 18,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4685278,
+            "name": "Luther Burden III",
+            "pro_team_id": 3,
+            "lineup_slot_id": 4
+          },
+          {
+            "id": 4569587,
+            "name": "Wan'Dale Robinson",
+            "pro_team_id": 10,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 3116406,
+            "name": "Tyreek Hill",
+            "pro_team_id": 0,
+            "lineup_slot_id": 21
+          },
+          {
+            "id": -16025,
+            "name": "49ers D/ST",
+            "pro_team_id": 25,
+            "lineup_slot_id": 16
+          },
+          {
+            "id": 4047646,
+            "name": "A.J. Brown",
+            "pro_team_id": 17,
+            "lineup_slot_id": 21
+          },
+          {
+            "id": 4882093,
+            "name": "Bhayshul Tuten",
+            "pro_team_id": 30,
+            "lineup_slot_id": 2
+          },
+          {
+            "id": 17372,
+            "name": "Chris Boswell",
+            "pro_team_id": 23,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4870653,
+            "name": "KC Concepcion",
+            "pro_team_id": 5,
+            "lineup_slot_id": 5
+          },
+          {
+            "id": -16004,
+            "name": "Bengals D/ST",
+            "pro_team_id": 4,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4686468,
+            "name": "Seth McGowan",
+            "pro_team_id": 11,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4612826,
+            "name": "Ladd McConkey",
+            "pro_team_id": 24,
+            "lineup_slot_id": 4
+          },
+          {
+            "id": 5082424,
+            "name": "Dominic Zvada",
+            "pro_team_id": 19,
+            "lineup_slot_id": 17
+          },
+          {
+            "id": 3128429,
+            "name": "Courtland Sutton",
+            "pro_team_id": 7,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4569682,
+            "name": "Audric Estime",
+            "pro_team_id": 18,
+            "lineup_slot_id": 20
+          }
+        ]
+      },
+      {
+        "team_id": 7,
+        "name": "The Chili Cheesers ",
+        "players": [
+          {
+            "id": 4374302,
+            "name": "Amon-Ra St. Brown",
+            "pro_team_id": 8,
+            "lineup_slot_id": 4
+          },
+          {
+            "id": 4595348,
+            "name": "Malik Nabers",
+            "pro_team_id": 19,
+            "lineup_slot_id": 4
+          },
+          {
+            "id": 4696981,
+            "name": "Cam Skattebo",
+            "pro_team_id": 19,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4035538,
+            "name": "David Montgomery",
+            "pro_team_id": 34,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4248528,
+            "name": "Christian Watson",
+            "pro_team_id": 9,
+            "lineup_slot_id": 5
+          },
+          {
+            "id": 4360248,
+            "name": "Kyle Pitts Sr.",
+            "pro_team_id": 1,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4432665,
+            "name": "Brock Bowers",
+            "pro_team_id": 13,
+            "lineup_slot_id": 6
+          },
+          {
+            "id": 3116165,
+            "name": "Chris Godwin Jr.",
+            "pro_team_id": 27,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": -16023,
+            "name": "Steelers D/ST",
+            "pro_team_id": 23,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 2473037,
+            "name": "Jason Myers",
+            "pro_team_id": 26,
+            "lineup_slot_id": 17
+          },
+          {
+            "id": 3046439,
+            "name": "Hunter Henry",
+            "pro_team_id": 17,
+            "lineup_slot_id": 23
+          },
+          {
+            "id": 4429086,
+            "name": "Michael Mayer",
+            "pro_team_id": 13,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4569371,
+            "name": "Isaiah Williams",
+            "pro_team_id": 20,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4685720,
+            "name": "Bryce Young",
+            "pro_team_id": 29,
+            "lineup_slot_id": 0
+          },
+          {
+            "id": 5081397,
+            "name": "Dylan Sampson",
+            "pro_team_id": 5,
+            "lineup_slot_id": 2
+          },
+          {
+            "id": 4568490,
+            "name": "RJ Harvey",
+            "pro_team_id": 7,
+            "lineup_slot_id": 21
+          },
+          {
+            "id": -16019,
+            "name": "Giants D/ST",
+            "pro_team_id": 19,
+            "lineup_slot_id": 16
+          },
+          {
+            "id": 4241555,
+            "name": "Elijah Mitchell",
+            "pro_team_id": 21,
+            "lineup_slot_id": 2
+          }
+        ]
+      },
+      {
+        "team_id": 8,
+        "name": "His Majesty's Blood",
+        "players": [
+          {
+            "id": 4430878,
+            "name": "Jaxon Smith-Njigba",
+            "pro_team_id": 26,
+            "lineup_slot_id": 5
+          },
+          {
+            "id": 4426388,
+            "name": "Jameson Williams",
+            "pro_team_id": 8,
+            "lineup_slot_id": 4
+          },
+          {
+            "id": 4241416,
+            "name": "Chuba Hubbard",
+            "pro_team_id": 29,
+            "lineup_slot_id": 2
+          },
+          {
+            "id": 4871023,
+            "name": "Carnell Tate",
+            "pro_team_id": 10,
+            "lineup_slot_id": 21
+          },
+          {
+            "id": 4697815,
+            "name": "Rachaad White",
+            "pro_team_id": 28,
+            "lineup_slot_id": 23
+          },
+          {
+            "id": 4362619,
+            "name": "Chris Rodriguez Jr.",
+            "pro_team_id": 30,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4430539,
+            "name": "Brenton Strange",
+            "pro_team_id": 30,
+            "lineup_slot_id": 6
+          },
+          {
+            "id": -16016,
+            "name": "Vikings D/ST",
+            "pro_team_id": 16,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 5083754,
+            "name": "Ryan Flournoy",
+            "pro_team_id": 6,
+            "lineup_slot_id": 4
+          },
+          {
+            "id": 3042519,
+            "name": "Aaron Jones Sr.",
+            "pro_team_id": 16,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4360423,
+            "name": "Michael Penix Jr.",
+            "pro_team_id": 1,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4702555,
+            "name": "Jonah Coleman",
+            "pro_team_id": 7,
+            "lineup_slot_id": 2
+          },
+          {
+            "id": 4570037,
+            "name": "Terrance Ferguson",
+            "pro_team_id": 14,
+            "lineup_slot_id": 21
+          },
+          {
+            "id": 5081432,
+            "name": "Antonio Williams",
+            "pro_team_id": 28,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4686361,
+            "name": "Cam Little",
+            "pro_team_id": 30,
+            "lineup_slot_id": 17
+          },
+          {
+            "id": 4683062,
+            "name": "Xavier Worthy",
+            "pro_team_id": 12,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": -16008,
+            "name": "Lions D/ST",
+            "pro_team_id": 8,
+            "lineup_slot_id": 16
+          },
+          {
+            "id": 4361741,
+            "name": "Brock Purdy",
+            "pro_team_id": 25,
+            "lineup_slot_id": 0
+          },
+          {
+            "id": 4831959,
+            "name": "Eli Raridon",
+            "pro_team_id": 17,
+            "lineup_slot_id": 20
+          }
+        ]
+      },
+      {
+        "team_id": 9,
+        "name": "El Niño",
+        "players": [
+          {
+            "id": 4379399,
+            "name": "James Cook III",
+            "pro_team_id": 2,
+            "lineup_slot_id": 2
+          },
+          {
+            "id": 4362238,
+            "name": "Chase Brown",
+            "pro_team_id": 4,
+            "lineup_slot_id": 2
+          },
+          {
+            "id": 4426354,
+            "name": "George Pickens",
+            "pro_team_id": 6,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4239993,
+            "name": "Tee Higgins",
+            "pro_team_id": 4,
+            "lineup_slot_id": 23
+          },
+          {
+            "id": 16737,
+            "name": "Mike Evans",
+            "pro_team_id": 25,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4040715,
+            "name": "Jalen Hurts",
+            "pro_team_id": 21,
+            "lineup_slot_id": 21
+          },
+          {
+            "id": 4572680,
+            "name": "Tucker Kraft",
+            "pro_team_id": 9,
+            "lineup_slot_id": 6
+          },
+          {
+            "id": 2976212,
+            "name": "Stefon Diggs",
+            "pro_team_id": 28,
+            "lineup_slot_id": 4
+          },
+          {
+            "id": 4429025,
+            "name": "Quentin Johnston",
+            "pro_team_id": 24,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4258173,
+            "name": "Nico Collins",
+            "pro_team_id": 34,
+            "lineup_slot_id": 5
+          },
+          {
+            "id": 4428718,
+            "name": "Tre Tucker",
+            "pro_team_id": 13,
+            "lineup_slot_id": 4
+          },
+          {
+            "id": 2971573,
+            "name": "Ka'imi Fairbairn",
+            "pro_team_id": 34,
+            "lineup_slot_id": 17
+          },
+          {
+            "id": 4686612,
+            "name": "Tre' Harris",
+            "pro_team_id": 24,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4832955,
+            "name": "Emmett Johnson",
+            "pro_team_id": 12,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 3122840,
+            "name": "Deshaun Watson",
+            "pro_team_id": 5,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 14880,
+            "name": "Kirk Cousins",
+            "pro_team_id": 13,
+            "lineup_slot_id": 0
+          },
+          {
+            "id": 4363538,
+            "name": "Chad Ryland",
+            "pro_team_id": 22,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": -16018,
+            "name": "Saints D/ST",
+            "pro_team_id": 18,
+            "lineup_slot_id": 16
+          }
+        ]
+      },
+      {
+        "team_id": 10,
+        "name": "Mud Dogs",
+        "players": [
+          {
+            "id": 3929630,
+            "name": "Saquon Barkley",
+            "pro_team_id": 21,
+            "lineup_slot_id": 2
+          },
+          {
+            "id": 4890973,
+            "name": "Ashton Jeanty",
+            "pro_team_id": 13,
+            "lineup_slot_id": 2
+          },
+          {
+            "id": 4430027,
+            "name": "Sam LaPorta",
+            "pro_team_id": 8,
+            "lineup_slot_id": 6
+          },
+          {
+            "id": 4426348,
+            "name": "Jayden Daniels",
+            "pro_team_id": 28,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4035687,
+            "name": "Michael Pittman Jr.",
+            "pro_team_id": 23,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4371733,
+            "name": "Kenny Gainwell",
+            "pro_team_id": 27,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 3040151,
+            "name": "George Kittle",
+            "pro_team_id": 25,
+            "lineup_slot_id": 5
+          },
+          {
+            "id": 3916433,
+            "name": "Jakobi Meyers",
+            "pro_team_id": 30,
+            "lineup_slot_id": 4
+          },
+          {
+            "id": 3046779,
+            "name": "Jared Goff",
+            "pro_team_id": 8,
+            "lineup_slot_id": 0
+          },
+          {
+            "id": 4429059,
+            "name": "Woody Marks",
+            "pro_team_id": 34,
+            "lineup_slot_id": 23
+          },
+          {
+            "id": 4241474,
+            "name": "Brian Robinson Jr.",
+            "pro_team_id": 1,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4360939,
+            "name": "Rashod Bateman",
+            "pro_team_id": 33,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 3116389,
+            "name": "Samaje Perine",
+            "pro_team_id": 4,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 15818,
+            "name": "Keenan Allen",
+            "pro_team_id": 11,
+            "lineup_slot_id": 4
+          },
+          {
+            "id": 4249087,
+            "name": "Matt Gay",
+            "pro_team_id": 13,
+            "lineup_slot_id": 17
+          },
+          {
+            "id": 4567156,
+            "name": "Treylon Burks",
+            "pro_team_id": 28,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": -16005,
+            "name": "Browns D/ST",
+            "pro_team_id": 5,
+            "lineup_slot_id": 16
+          }
+        ]
+      },
+      {
+        "team_id": 11,
+        "name": "Seven Deadly Chins",
+        "players": [
+          {
+            "id": 4262921,
+            "name": "Justin Jefferson",
+            "pro_team_id": 16,
+            "lineup_slot_id": 4
+          },
+          {
+            "id": 4870808,
+            "name": "Jeremiyah Love",
+            "pro_team_id": 22,
+            "lineup_slot_id": 21
+          },
+          {
+            "id": 4259545,
+            "name": "D'Andre Swift",
+            "pro_team_id": 3,
+            "lineup_slot_id": 2
+          },
+          {
+            "id": 4569987,
+            "name": "Jaylen Warren",
+            "pro_team_id": 23,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4567750,
+            "name": "Emeka Egbuka",
+            "pro_team_id": 27,
+            "lineup_slot_id": 5
+          },
+          {
+            "id": 3139477,
+            "name": "Patrick Mahomes",
+            "pro_team_id": 12,
+            "lineup_slot_id": 0
+          },
+          {
+            "id": 4431459,
+            "name": "Tyler Warren",
+            "pro_team_id": 11,
+            "lineup_slot_id": 6
+          },
+          {
+            "id": 4429096,
+            "name": "Blake Corum",
+            "pro_team_id": 14,
+            "lineup_slot_id": 23
+          },
+          {
+            "id": -16026,
+            "name": "Seahawks D/ST",
+            "pro_team_id": 26,
+            "lineup_slot_id": 16
+          },
+          {
+            "id": 4373626,
+            "name": "Tyler Allgeier",
+            "pro_team_id": 22,
+            "lineup_slot_id": 2
+          },
+          {
+            "id": 4685247,
+            "name": "Braelon Allen",
+            "pro_team_id": 20,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4432773,
+            "name": "Brian Thomas Jr.",
+            "pro_team_id": 30,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4685261,
+            "name": "Germie Bernard",
+            "pro_team_id": 23,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4870847,
+            "name": "Ja'Kobi Lane",
+            "pro_team_id": 33,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 3150744,
+            "name": "Chase McLaughlin",
+            "pro_team_id": 27,
+            "lineup_slot_id": 17
+          },
+          {
+            "id": 4869645,
+            "name": "Caleb Douglas",
+            "pro_team_id": 15,
+            "lineup_slot_id": 4
+          },
+          {
+            "id": 4360635,
+            "name": "Chig Okonkwo",
+            "pro_team_id": 28,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4242512,
+            "name": "Malik Willis",
+            "pro_team_id": 15,
+            "lineup_slot_id": 20
+          }
+        ]
+      },
+      {
+        "team_id": 12,
+        "name": "Dr. Duckhook",
+        "players": [
+          {
+            "id": 4429795,
+            "name": "Jahmyr Gibbs",
+            "pro_team_id": 8,
+            "lineup_slot_id": 2
+          },
+          {
+            "id": 4569173,
+            "name": "Rhamondre Stevenson",
+            "pro_team_id": 17,
+            "lineup_slot_id": 23
+          },
+          {
+            "id": 4701936,
+            "name": "Matthew Golden",
+            "pro_team_id": 9,
+            "lineup_slot_id": 4
+          },
+          {
+            "id": 4429205,
+            "name": "Jordan Addison",
+            "pro_team_id": 16,
+            "lineup_slot_id": 5
+          },
+          {
+            "id": 4360569,
+            "name": "Jordan Mason",
+            "pro_team_id": 16,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4373678,
+            "name": "Khalil Shakir",
+            "pro_team_id": 2,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4431452,
+            "name": "Drake Maye",
+            "pro_team_id": 17,
+            "lineup_slot_id": 0
+          },
+          {
+            "id": 4711533,
+            "name": "Ollie Gordon II",
+            "pro_team_id": 15,
+            "lineup_slot_id": 2
+          },
+          {
+            "id": 4361370,
+            "name": "Chris Olave",
+            "pro_team_id": 18,
+            "lineup_slot_id": 4
+          },
+          {
+            "id": 4685512,
+            "name": "Jadarian Price",
+            "pro_team_id": 26,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4360238,
+            "name": "Dameon Pierce",
+            "pro_team_id": 21,
+            "lineup_slot_id": 21
+          },
+          {
+            "id": 4696044,
+            "name": "Kaelon Black",
+            "pro_team_id": 25,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": -16030,
+            "name": "Jaguars D/ST",
+            "pro_team_id": 30,
+            "lineup_slot_id": 16
+          },
+          {
+            "id": 3917232,
+            "name": "Tyler Bass",
+            "pro_team_id": 2,
+            "lineup_slot_id": 17
+          },
+          {
+            "id": 3929645,
+            "name": "Juwan Johnson",
+            "pro_team_id": 18,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 4432577,
+            "name": "C.J. Stroud",
+            "pro_team_id": 34,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": -16027,
+            "name": "Buccaneers D/ST",
+            "pro_team_id": 27,
+            "lineup_slot_id": 20
+          },
+          {
+            "id": 15847,
+            "name": "Travis Kelce",
+            "pro_team_id": 12,
+            "lineup_slot_id": 6
+          }
+        ]
+      }
+    ]
+  },
+  "fresh_starters_selected_fields": [
+    {
+      "fantasy_team_id": 12,
+      "player_id": "4429795",
+      "name": "Jahmyr Gibbs",
+      "lineup_slot": "RB",
+      "points": 15.4,
+      "pro_team_id": 8,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 12,
+      "player_id": "4569173",
+      "name": "Rhamondre Stevenson",
+      "lineup_slot": "FLEX",
+      "points": 15.4,
+      "pro_team_id": 17,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 12,
+      "player_id": "4701936",
+      "name": "Matthew Golden",
+      "lineup_slot": "WR",
+      "points": 33.4,
+      "pro_team_id": 9,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 12,
+      "player_id": "4429205",
+      "name": "Jordan Addison",
+      "lineup_slot": "WR/TE",
+      "points": 0,
+      "pro_team_id": 16,
+      "pro_team_if_mnf": "MIN",
+      "started": true
+    },
+    {
+      "fantasy_team_id": 12,
+      "player_id": "4431452",
+      "name": "Drake Maye",
+      "lineup_slot": "QB",
+      "points": 24.36,
+      "pro_team_id": 17,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 12,
+      "player_id": "4711533",
+      "name": "Ollie Gordon II",
+      "lineup_slot": "RB",
+      "points": 9,
+      "pro_team_id": 15,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 12,
+      "player_id": "4361370",
+      "name": "Chris Olave",
+      "lineup_slot": "WR",
+      "points": 16.8,
+      "pro_team_id": 18,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 12,
+      "player_id": "-16030",
+      "name": "Jaguars D/ST",
+      "lineup_slot": "D/ST",
+      "points": 17,
+      "pro_team_id": 30,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 12,
+      "player_id": "3917232",
+      "name": "Tyler Bass",
+      "lineup_slot": "K",
+      "points": 0,
+      "pro_team_id": 2,
+      "pro_team_if_mnf": "BUF",
+      "started": true
+    },
+    {
+      "fantasy_team_id": 12,
+      "player_id": "15847",
+      "name": "Travis Kelce",
+      "lineup_slot": "TE",
+      "points": 17.4,
+      "pro_team_id": 12,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 1,
+      "player_id": "3043078",
+      "name": "Derrick Henry",
+      "lineup_slot": "RB",
+      "points": 7.28,
+      "pro_team_id": 33,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 1,
+      "player_id": "4567048",
+      "name": "Kenneth Walker III",
+      "lineup_slot": "RB",
+      "points": 39.1,
+      "pro_team_id": 12,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 1,
+      "player_id": "4372016",
+      "name": "Jaylen Waddle",
+      "lineup_slot": "WR/TE",
+      "points": 3.2,
+      "pro_team_id": 7,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 1,
+      "player_id": "4426515",
+      "name": "Puka Nacua",
+      "lineup_slot": "WR",
+      "points": 36.2,
+      "pro_team_id": 14,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 1,
+      "player_id": "-16014",
+      "name": "Rams D/ST",
+      "lineup_slot": "D/ST",
+      "points": 16.8,
+      "pro_team_id": 14,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 1,
+      "player_id": "4428331",
+      "name": "Rashee Rice",
+      "lineup_slot": "WR",
+      "points": 9.9,
+      "pro_team_id": 12,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 1,
+      "player_id": "4360310",
+      "name": "Trevor Lawrence",
+      "lineup_slot": "QB",
+      "points": 17.68,
+      "pro_team_id": 30,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 1,
+      "player_id": "3055899",
+      "name": "Harrison Butker",
+      "lineup_slot": "K",
+      "points": 5,
+      "pro_team_id": 12,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 1,
+      "player_id": "3116164",
+      "name": "Mike Gesicki",
+      "lineup_slot": "FLEX",
+      "points": 3.1,
+      "pro_team_id": 4,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 1,
+      "player_id": "3117256",
+      "name": "Dalton Schultz",
+      "lineup_slot": "TE",
+      "points": 6.2,
+      "pro_team_id": 34,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 10,
+      "player_id": "3929630",
+      "name": "Saquon Barkley",
+      "lineup_slot": "RB",
+      "points": 9.5,
+      "pro_team_id": 21,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 10,
+      "player_id": "4890973",
+      "name": "Ashton Jeanty",
+      "lineup_slot": "RB",
+      "points": 7.6,
+      "pro_team_id": 13,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 10,
+      "player_id": "4430027",
+      "name": "Sam LaPorta",
+      "lineup_slot": "TE",
+      "points": 7.2,
+      "pro_team_id": 8,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 10,
+      "player_id": "3040151",
+      "name": "George Kittle",
+      "lineup_slot": "WR/TE",
+      "points": 9.8,
+      "pro_team_id": 25,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 10,
+      "player_id": "3916433",
+      "name": "Jakobi Meyers",
+      "lineup_slot": "WR",
+      "points": 10.5,
+      "pro_team_id": 30,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 10,
+      "player_id": "3046779",
+      "name": "Jared Goff",
+      "lineup_slot": "QB",
+      "points": 5.7,
+      "pro_team_id": 8,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 10,
+      "player_id": "4429059",
+      "name": "Woody Marks",
+      "lineup_slot": "FLEX",
+      "points": 10.2,
+      "pro_team_id": 34,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 10,
+      "player_id": "15818",
+      "name": "Keenan Allen",
+      "lineup_slot": "WR",
+      "points": 6.6,
+      "pro_team_id": 11,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 10,
+      "player_id": "4249087",
+      "name": "Matt Gay",
+      "lineup_slot": "K",
+      "points": 7,
+      "pro_team_id": 13,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 10,
+      "player_id": "-16005",
+      "name": "Browns D/ST",
+      "lineup_slot": "D/ST",
+      "points": 10.1,
+      "pro_team_id": 5,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 9,
+      "player_id": "4379399",
+      "name": "James Cook III",
+      "lineup_slot": "RB",
+      "points": 0,
+      "pro_team_id": 2,
+      "pro_team_if_mnf": "BUF",
+      "started": true
+    },
+    {
+      "fantasy_team_id": 9,
+      "player_id": "4362238",
+      "name": "Chase Brown",
+      "lineup_slot": "RB",
+      "points": 11.4,
+      "pro_team_id": 4,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 9,
+      "player_id": "4239993",
+      "name": "Tee Higgins",
+      "lineup_slot": "FLEX",
+      "points": 20.2,
+      "pro_team_id": 4,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 9,
+      "player_id": "4572680",
+      "name": "Tucker Kraft",
+      "lineup_slot": "TE",
+      "points": 2.1,
+      "pro_team_id": 9,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 9,
+      "player_id": "2976212",
+      "name": "Stefon Diggs",
+      "lineup_slot": "WR",
+      "points": 8.1,
+      "pro_team_id": 28,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 9,
+      "player_id": "4258173",
+      "name": "Nico Collins",
+      "lineup_slot": "WR/TE",
+      "points": 15.5,
+      "pro_team_id": 34,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 9,
+      "player_id": "4428718",
+      "name": "Tre Tucker",
+      "lineup_slot": "WR",
+      "points": 9.5,
+      "pro_team_id": 13,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 9,
+      "player_id": "2971573",
+      "name": "Ka'imi Fairbairn",
+      "lineup_slot": "K",
+      "points": 17,
+      "pro_team_id": 34,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 9,
+      "player_id": "14880",
+      "name": "Kirk Cousins",
+      "lineup_slot": "QB",
+      "points": 14.84,
+      "pro_team_id": 13,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 9,
+      "player_id": "-16018",
+      "name": "Saints D/ST",
+      "lineup_slot": "D/ST",
+      "points": 6.1,
+      "pro_team_id": 18,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 2,
+      "player_id": "4362628",
+      "name": "Ja'Marr Chase",
+      "lineup_slot": "WR",
+      "points": 34.5,
+      "pro_team_id": 4,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 2,
+      "player_id": "4429615",
+      "name": "Zay Flowers",
+      "lineup_slot": "WR",
+      "points": 5.6,
+      "pro_team_id": 33,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 2,
+      "player_id": "4688813",
+      "name": "Josh Downs",
+      "lineup_slot": "FLEX",
+      "points": 5.4,
+      "pro_team_id": 11,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 2,
+      "player_id": "4385690",
+      "name": "Dalton Kincaid",
+      "lineup_slot": "TE",
+      "points": 0,
+      "pro_team_id": 2,
+      "pro_team_if_mnf": "BUF",
+      "started": true
+    },
+    {
+      "fantasy_team_id": 2,
+      "player_id": "4426385",
+      "name": "Zach Charbonnet",
+      "lineup_slot": "RB",
+      "points": 11.2,
+      "pro_team_id": 26,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 2,
+      "player_id": "4430737",
+      "name": "Kyren Williams",
+      "lineup_slot": "RB",
+      "points": 10.6,
+      "pro_team_id": 14,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 2,
+      "player_id": "4571557",
+      "name": "Spencer Shrader",
+      "lineup_slot": "K",
+      "points": 16,
+      "pro_team_id": 11,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 2,
+      "player_id": "4695883",
+      "name": "Jalen Coker",
+      "lineup_slot": "WR/TE",
+      "points": 6.7,
+      "pro_team_id": 29,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 2,
+      "player_id": "4433970",
+      "name": "J.J. McCarthy",
+      "lineup_slot": "QB",
+      "points": 7.68,
+      "pro_team_id": 19,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 2,
+      "player_id": "-16003",
+      "name": "Bears D/ST",
+      "lineup_slot": "D/ST",
+      "points": 15.1,
+      "pro_team_id": 3,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 11,
+      "player_id": "4262921",
+      "name": "Justin Jefferson",
+      "lineup_slot": "WR",
+      "points": 0,
+      "pro_team_id": 16,
+      "pro_team_if_mnf": "MIN",
+      "started": true
+    },
+    {
+      "fantasy_team_id": 11,
+      "player_id": "4259545",
+      "name": "D'Andre Swift",
+      "lineup_slot": "RB",
+      "points": 4.3,
+      "pro_team_id": 3,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 11,
+      "player_id": "4567750",
+      "name": "Emeka Egbuka",
+      "lineup_slot": "WR/TE",
+      "points": 7,
+      "pro_team_id": 27,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 11,
+      "player_id": "3139477",
+      "name": "Patrick Mahomes",
+      "lineup_slot": "QB",
+      "points": 20.68,
+      "pro_team_id": 12,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 11,
+      "player_id": "4431459",
+      "name": "Tyler Warren",
+      "lineup_slot": "TE",
+      "points": 8.4,
+      "pro_team_id": 11,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 11,
+      "player_id": "4429096",
+      "name": "Blake Corum",
+      "lineup_slot": "FLEX",
+      "points": 12.9,
+      "pro_team_id": 14,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 11,
+      "player_id": "-16026",
+      "name": "Seahawks D/ST",
+      "lineup_slot": "D/ST",
+      "points": 18.8,
+      "pro_team_id": 26,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 11,
+      "player_id": "4373626",
+      "name": "Tyler Allgeier",
+      "lineup_slot": "RB",
+      "points": 8.3,
+      "pro_team_id": 22,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 11,
+      "player_id": "3150744",
+      "name": "Chase McLaughlin",
+      "lineup_slot": "K",
+      "points": 10,
+      "pro_team_id": 27,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 11,
+      "player_id": "4869645",
+      "name": "Caleb Douglas",
+      "lineup_slot": "WR",
+      "points": 13,
+      "pro_team_id": 15,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 7,
+      "player_id": "4374302",
+      "name": "Amon-Ra St. Brown",
+      "lineup_slot": "WR",
+      "points": 16.6,
+      "pro_team_id": 8,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 7,
+      "player_id": "4595348",
+      "name": "Malik Nabers",
+      "lineup_slot": "WR",
+      "points": 9.3,
+      "pro_team_id": 19,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 7,
+      "player_id": "4248528",
+      "name": "Christian Watson",
+      "lineup_slot": "WR/TE",
+      "points": 31.1,
+      "pro_team_id": 9,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 7,
+      "player_id": "4432665",
+      "name": "Brock Bowers",
+      "lineup_slot": "TE",
+      "points": 23.4,
+      "pro_team_id": 13,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 7,
+      "player_id": "2473037",
+      "name": "Jason Myers",
+      "lineup_slot": "K",
+      "points": 6,
+      "pro_team_id": 26,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 7,
+      "player_id": "3046439",
+      "name": "Hunter Henry",
+      "lineup_slot": "FLEX",
+      "points": 6.5,
+      "pro_team_id": 17,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 7,
+      "player_id": "4685720",
+      "name": "Bryce Young",
+      "lineup_slot": "QB",
+      "points": 26.44,
+      "pro_team_id": 29,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 7,
+      "player_id": "5081397",
+      "name": "Dylan Sampson",
+      "lineup_slot": "RB",
+      "points": 8.6,
+      "pro_team_id": 5,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 7,
+      "player_id": "-16019",
+      "name": "Giants D/ST",
+      "lineup_slot": "D/ST",
+      "points": 19,
+      "pro_team_id": 19,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 7,
+      "player_id": "4241555",
+      "name": "Elijah Mitchell",
+      "lineup_slot": "RB",
+      "points": 5.9,
+      "pro_team_id": 21,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 8,
+      "player_id": "4430878",
+      "name": "Jaxon Smith-Njigba",
+      "lineup_slot": "WR/TE",
+      "points": 12.1,
+      "pro_team_id": 26,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 8,
+      "player_id": "4426388",
+      "name": "Jameson Williams",
+      "lineup_slot": "WR",
+      "points": 5.1,
+      "pro_team_id": 8,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 8,
+      "player_id": "4241416",
+      "name": "Chuba Hubbard",
+      "lineup_slot": "RB",
+      "points": 15.2,
+      "pro_team_id": 29,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 8,
+      "player_id": "4697815",
+      "name": "Rachaad White",
+      "lineup_slot": "FLEX",
+      "points": 8.7,
+      "pro_team_id": 28,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 8,
+      "player_id": "4430539",
+      "name": "Brenton Strange",
+      "lineup_slot": "TE",
+      "points": 4.2,
+      "pro_team_id": 30,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 8,
+      "player_id": "5083754",
+      "name": "Ryan Flournoy",
+      "lineup_slot": "WR",
+      "points": 7.3,
+      "pro_team_id": 6,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 8,
+      "player_id": "4702555",
+      "name": "Jonah Coleman",
+      "lineup_slot": "RB",
+      "points": 20.5,
+      "pro_team_id": 7,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 8,
+      "player_id": "4686361",
+      "name": "Cam Little",
+      "lineup_slot": "K",
+      "points": 17,
+      "pro_team_id": 30,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 8,
+      "player_id": "-16008",
+      "name": "Lions D/ST",
+      "lineup_slot": "D/ST",
+      "points": 15,
+      "pro_team_id": 8,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 8,
+      "player_id": "4361741",
+      "name": "Brock Purdy",
+      "lineup_slot": "QB",
+      "points": 29.98,
+      "pro_team_id": 25,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 5,
+      "player_id": "4430807",
+      "name": "Bijan Robinson",
+      "lineup_slot": "RB",
+      "points": 29.6,
+      "pro_team_id": 1,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 5,
+      "player_id": "4361307",
+      "name": "Trey McBride",
+      "lineup_slot": "TE",
+      "points": 12.4,
+      "pro_team_id": 22,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 5,
+      "player_id": "4427366",
+      "name": "Breece Hall",
+      "lineup_slot": "RB",
+      "points": 13.2,
+      "pro_team_id": 20,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 5,
+      "player_id": "2577417",
+      "name": "Dak Prescott",
+      "lineup_slot": "QB",
+      "points": 26.7,
+      "pro_team_id": 6,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 5,
+      "player_id": "3953687",
+      "name": "Brandon Aubrey",
+      "lineup_slot": "K",
+      "points": 10,
+      "pro_team_id": 6,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 5,
+      "player_id": "-16034",
+      "name": "Texans D/ST",
+      "lineup_slot": "D/ST",
+      "points": 15.8,
+      "pro_team_id": 34,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 5,
+      "player_id": "3054850",
+      "name": "Alvin Kamara",
+      "lineup_slot": "FLEX",
+      "points": 8.5,
+      "pro_team_id": 18,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 5,
+      "player_id": "4384852",
+      "name": "Dohnte Meyers",
+      "lineup_slot": "WR",
+      "points": 13.4,
+      "pro_team_id": 4,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 5,
+      "player_id": "4686422",
+      "name": "Xavier Hutchinson",
+      "lineup_slot": "WR/TE",
+      "points": 13.3,
+      "pro_team_id": 34,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 5,
+      "player_id": "4832800",
+      "name": "Denzel Boston",
+      "lineup_slot": "WR",
+      "points": 15.8,
+      "pro_team_id": 5,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 4,
+      "player_id": "4242335",
+      "name": "Jonathan Taylor",
+      "lineup_slot": "RB",
+      "points": 10.7,
+      "pro_team_id": 11,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 4,
+      "player_id": "4432620",
+      "name": "Parker Washington",
+      "lineup_slot": "WR",
+      "points": 16.65,
+      "pro_team_id": 30,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 4,
+      "player_id": "4360761",
+      "name": "Michael Wilson",
+      "lineup_slot": "WR",
+      "points": 12,
+      "pro_team_id": 22,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 4,
+      "player_id": "3915511",
+      "name": "Joe Burrow",
+      "lineup_slot": "QB",
+      "points": 37.84,
+      "pro_team_id": 4,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 4,
+      "player_id": "4723086",
+      "name": "Colston Loveland",
+      "lineup_slot": "WR/TE",
+      "points": 9.4,
+      "pro_team_id": 3,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 4,
+      "player_id": "4361050",
+      "name": "Isaiah Likely",
+      "lineup_slot": "TE",
+      "points": 16.3,
+      "pro_team_id": 19,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 4,
+      "player_id": "4569603",
+      "name": "Malik Washington",
+      "lineup_slot": "FLEX",
+      "points": 4.2,
+      "pro_team_id": 15,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 4,
+      "player_id": "-16029",
+      "name": "Panthers D/ST",
+      "lineup_slot": "D/ST",
+      "points": 6.8,
+      "pro_team_id": 29,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 4,
+      "player_id": "17427",
+      "name": "Cairo Santos",
+      "lineup_slot": "K",
+      "points": 9,
+      "pro_team_id": 3,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 4,
+      "player_id": "4685702",
+      "name": "Quinshon Judkins",
+      "lineup_slot": "RB",
+      "points": 7,
+      "pro_team_id": 5,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 3,
+      "player_id": "3117251",
+      "name": "Christian McCaffrey",
+      "lineup_slot": "FLEX",
+      "points": 24.5,
+      "pro_team_id": 25,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 3,
+      "player_id": "4241389",
+      "name": "CeeDee Lamb",
+      "lineup_slot": "WR",
+      "points": 36.5,
+      "pro_team_id": 6,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 3,
+      "player_id": "3918298",
+      "name": "Josh Allen",
+      "lineup_slot": "QB",
+      "points": 0,
+      "pro_team_id": 2,
+      "pro_team_if_mnf": "BUF",
+      "started": true
+    },
+    {
+      "fantasy_team_id": 3,
+      "player_id": "4685472",
+      "name": "Tetairoa McMillan",
+      "lineup_slot": "WR",
+      "points": 15.6,
+      "pro_team_id": 29,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 3,
+      "player_id": "5083076",
+      "name": "Harold Fannin Jr.",
+      "lineup_slot": "TE",
+      "points": 12.2,
+      "pro_team_id": 5,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 3,
+      "player_id": "4047365",
+      "name": "Josh Jacobs",
+      "lineup_slot": "RB",
+      "points": 0.9,
+      "pro_team_id": 9,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 3,
+      "player_id": "-16007",
+      "name": "Broncos D/ST",
+      "lineup_slot": "D/ST",
+      "points": 9.2,
+      "pro_team_id": 7,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 3,
+      "player_id": "4596448",
+      "name": "Bucky Irving",
+      "lineup_slot": "RB",
+      "points": 30.5,
+      "pro_team_id": 27,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 3,
+      "player_id": "4567104",
+      "name": "Will Reichard",
+      "lineup_slot": "K",
+      "points": 0,
+      "pro_team_id": 16,
+      "pro_team_if_mnf": "MIN",
+      "started": true
+    },
+    {
+      "fantasy_team_id": 3,
+      "player_id": "4426502",
+      "name": "Drake London",
+      "lineup_slot": "WR/TE",
+      "points": 11.8,
+      "pro_team_id": 1,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 6,
+      "player_id": "4870795",
+      "name": "Makai Lemon",
+      "lineup_slot": "FLEX",
+      "points": 12.1,
+      "pro_team_id": 21,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 6,
+      "player_id": "4361579",
+      "name": "Javonte Williams",
+      "lineup_slot": "RB",
+      "points": 25.4,
+      "pro_team_id": 6,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 6,
+      "player_id": "4431611",
+      "name": "Caleb Williams",
+      "lineup_slot": "QB",
+      "points": 19.26,
+      "pro_team_id": 3,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 6,
+      "player_id": "4036133",
+      "name": "T.J. Hockenson",
+      "lineup_slot": "TE",
+      "points": 0,
+      "pro_team_id": 16,
+      "pro_team_if_mnf": "MIN",
+      "started": true
+    },
+    {
+      "fantasy_team_id": 6,
+      "player_id": "4685278",
+      "name": "Luther Burden III",
+      "lineup_slot": "WR",
+      "points": 22.7,
+      "pro_team_id": 3,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 6,
+      "player_id": "-16025",
+      "name": "49ers D/ST",
+      "lineup_slot": "D/ST",
+      "points": 24.8,
+      "pro_team_id": 25,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 6,
+      "player_id": "4882093",
+      "name": "Bhayshul Tuten",
+      "lineup_slot": "RB",
+      "points": 10.1,
+      "pro_team_id": 30,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 6,
+      "player_id": "4870653",
+      "name": "KC Concepcion",
+      "lineup_slot": "WR/TE",
+      "points": 20.9,
+      "pro_team_id": 5,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 6,
+      "player_id": "4612826",
+      "name": "Ladd McConkey",
+      "lineup_slot": "WR",
+      "points": 0,
+      "pro_team_id": 24,
+      "pro_team_if_mnf": null,
+      "started": true
+    },
+    {
+      "fantasy_team_id": 6,
+      "player_id": "5082424",
+      "name": "Dominic Zvada",
+      "lineup_slot": "K",
+      "points": 17,
+      "pro_team_id": 19,
+      "pro_team_if_mnf": null,
+      "started": true
+    }
+  ],
+  "standings_records_and_seeds": [
+    {
+      "team_id": 12,
+      "wins": 5,
+      "losses": 3,
+      "playoff_seed": 1
+    },
+    {
+      "team_id": 8,
+      "wins": 5,
+      "losses": 3,
+      "playoff_seed": 2
+    },
+    {
+      "team_id": 1,
+      "wins": 4,
+      "losses": 4,
+      "playoff_seed": 3
+    },
+    {
+      "team_id": 11,
+      "wins": 5,
+      "losses": 3,
+      "playoff_seed": 4
+    },
+    {
+      "team_id": 3,
+      "wins": 4,
+      "losses": 4,
+      "playoff_seed": 5
+    },
+    {
+      "team_id": 7,
+      "wins": 4,
+      "losses": 4,
+      "playoff_seed": 6
+    },
+    {
+      "team_id": 2,
+      "wins": 4,
+      "losses": 4,
+      "playoff_seed": 7
+    },
+    {
+      "team_id": 9,
+      "wins": 4,
+      "losses": 4,
+      "playoff_seed": 8
+    },
+    {
+      "team_id": 5,
+      "wins": 4,
+      "losses": 4,
+      "playoff_seed": 9
+    },
+    {
+      "team_id": 6,
+      "wins": 4,
+      "losses": 4,
+      "playoff_seed": 10
+    },
+    {
+      "team_id": 4,
+      "wins": 3,
+      "losses": 5,
+      "playoff_seed": 11
+    },
+    {
+      "team_id": 10,
+      "wins": 2,
+      "losses": 6,
+      "playoff_seed": 12
+    }
+  ],
+  "transactions": {
+    "fresh_flaim_count": 42,
+    "source": "mTransactions2",
+    "truncated": false,
+    "structured_details_incomplete": true,
+    "full_new_raw_export": false,
+    "retained_reference": "memo-os/week-9/WEEK_8_FINAL_WEEK_9_PROVIDER_EVIDENCE_2026-11-09.json#week9_transactions",
+    "observed_lifecycle_notes": [
+      "London to Slob / Judkins to LLC is completed.",
+      "Historical Lawrence / DeVonta pending entry remains accompanied by later cancellation and decline; not treated as active or completed.",
+      "Two unknown-status sideless trades remain unconfirmed."
+    ],
+    "no_roster_mutation": true
+  },
+  "matchups": [
+    {
+      "matchup_id": "W09-M01",
+      "home": {
+        "team_id": 12,
+        "name": "Dr. Duckhook",
+        "points": 148.76,
+        "projected_points": 170.65783541,
+        "remaining_starters": [
+          {
+            "player_id": "4429205",
+            "name": "Jordan Addison",
+            "lineup_slot": "WR/TE",
+            "points": 0,
+            "pro_team_id": 16,
+            "pro_team_if_mnf": "MIN",
+            "started": true
+          },
+          {
+            "player_id": "3917232",
+            "name": "Tyler Bass",
+            "lineup_slot": "K",
+            "points": 0,
+            "pro_team_id": 2,
+            "pro_team_if_mnf": "BUF",
+            "started": true
+          }
+        ],
+        "mnf_bench_excluded": [
+          {
+            "name": "Jordan Mason",
+            "player_id": 4360569,
+            "club": "MIN",
+            "lineup_slot_id": 20,
+            "counts_toward_current_matchup": false
+          },
+          {
+            "name": "Khalil Shakir",
+            "player_id": 4373678,
+            "club": "BUF",
+            "lineup_slot_id": 20,
+            "counts_toward_current_matchup": false
+          }
+        ]
+      },
+      "away": {
+        "team_id": 1,
+        "name": "ObiWan Jacoby",
+        "points": 144.46,
+        "projected_points": 144.46,
+        "remaining_starters": [],
+        "mnf_bench_excluded": []
+      },
+      "home_minus_away": 4.3,
+      "provider_winner": "UNDECIDED",
+      "activity_state": "LEADER_HAS_REMAINING_OPPONENT_DONE",
+      "provisional_ending_candidate": "home_win",
+      "candidate_is_official_result": false,
+      "threshold": "Duckhook retains the lead if Addison + Bass > -4.30; equality is a scoreboard tie, below that reverses the lead. Stat corrections remain possible.",
+      "sports_copy_draft": "Duckhook reclaimed the course. Matthew Golden’s 33.40 and Drake Maye’s 24.36 helped turn Sunday’s deficit into a 148.76–144.46 lead. ObiWan’s Walker–Nacua pairing produced 75.30, but his lineup has finished. Addison and Bass still belong to the host’s closing round. The apparent loss is not an ESPN-final result yet.",
+      "scene_instruction": "If the home lead survives certification, edit ObiWan’s otherwise competitive round around the costly misses; Duckhook finishes steadily. Do not depict a Duckhook water-hazard loss as the chosen ending.",
+      "promotion_rule": "Reconcile provider-decided result, final scoring and actual lineup. Then select the corresponding existing branch; do not infer final rank/elimination."
+    },
+    {
+      "matchup_id": "W09-M02",
+      "home": {
+        "team_id": 10,
+        "name": "Mud Dogs",
+        "points": 84.2,
+        "projected_points": 84.2,
+        "remaining_starters": [],
+        "mnf_bench_excluded": []
+      },
+      "away": {
+        "team_id": 9,
+        "name": "El Niño",
+        "points": 104.74,
+        "projected_points": 125.84863268,
+        "remaining_starters": [
+          {
+            "player_id": "4379399",
+            "name": "James Cook III",
+            "lineup_slot": "RB",
+            "points": 0,
+            "pro_team_id": 2,
+            "pro_team_if_mnf": "BUF",
+            "started": true
+          }
+        ],
+        "mnf_bench_excluded": []
+      },
+      "home_minus_away": -20.54,
+      "provider_winner": "UNDECIDED",
+      "activity_state": "LEADER_HAS_REMAINING_OPPONENT_DONE",
+      "provisional_ending_candidate": "away_win",
+      "candidate_is_official_result": false,
+      "threshold": "El Niño retains the lead if James Cook III > -20.54; equality is a scoreboard tie. Do not call mathematical elimination for Mud Dogs.",
+      "sports_copy_draft": "The finish is visible, but Mud Dogs has no scoring left to reach it. El Niño leads 104.74–84.20 before James Cook III plays. Higgins supplied 20.20 and Fairbairn 17.00; Mud Dogs’ highest starter, Meyers, supplied 10.50. The flood-failure ending is the current editorial candidate, not a certified result or playoff elimination.",
+      "scene_instruction": "Prepare the stalled canine-compatible bike ending while the embodied El Niño controls the flood from the far bank. Keep the escape branch archived until actual result acceptance.",
+      "promotion_rule": "Reconcile provider-decided result, final scoring and actual lineup. Then select the corresponding existing branch; do not infer final rank/elimination."
+    },
+    {
+      "matchup_id": "W09-M03",
+      "home": {
+        "team_id": 2,
+        "name": "Red Leopards",
+        "points": 112.78,
+        "projected_points": 121.46417903,
+        "remaining_starters": [
+          {
+            "player_id": "4385690",
+            "name": "Dalton Kincaid",
+            "lineup_slot": "TE",
+            "points": 0,
+            "pro_team_id": 2,
+            "pro_team_if_mnf": "BUF",
+            "started": true
+          }
+        ],
+        "mnf_bench_excluded": [
+          {
+            "name": "Dawson Knox",
+            "player_id": 3930086,
+            "club": "BUF",
+            "lineup_slot_id": 20,
+            "counts_toward_current_matchup": false
+          }
+        ]
+      },
+      "away": {
+        "team_id": 11,
+        "name": "Seven Deadly Chins",
+        "points": 103.38,
+        "projected_points": 122.03398396,
+        "remaining_starters": [
+          {
+            "player_id": "4262921",
+            "name": "Justin Jefferson",
+            "lineup_slot": "WR",
+            "points": 0,
+            "pro_team_id": 16,
+            "pro_team_if_mnf": "MIN",
+            "started": true
+          }
+        ],
+        "mnf_bench_excluded": []
+      },
+      "home_minus_away": 9.4,
+      "provider_winner": "UNDECIDED",
+      "activity_state": "BOTH_SIDES_HAVE_MNF_STARTERS",
+      "provisional_ending_candidate": null,
+      "candidate_is_official_result": false,
+      "threshold": "Chins moves ahead if Justin Jefferson minus Dalton Kincaid > 9.40. Equality is a scoreboard tie; do not infer the tiebreak result.",
+      "sports_copy_draft": "The pitch is not reclaimed yet. Chase’s 34.50 helped Red build a 112.78–103.38 lead, but Kincaid must defend that 9.40-point cushion against Jefferson tonight. Chins wins the scoreboard exchange only if Jefferson outscores Kincaid by more than 9.40. Keep both the trapped-truck and failed-ambush endings live.",
+      "scene_instruction": "Stage Red’s trap tightening and Chins testing the exit; do not damage or immobilize the truck irreversibly in the neutral sequence. Select the finale only after Jefferson/Kincaid finish and source acceptance.",
+      "promotion_rule": "Reconcile provider-decided result, final scoring and actual lineup. Then select the corresponding existing branch; do not infer final rank/elimination."
+    },
+    {
+      "matchup_id": "W09-M04",
+      "home": {
+        "team_id": 7,
+        "name": "The Chili Cheesers",
+        "points": 152.84,
+        "projected_points": 152.84,
+        "remaining_starters": [],
+        "mnf_bench_excluded": []
+      },
+      "away": {
+        "team_id": 8,
+        "name": "His Majesty's Blood",
+        "points": 135.08,
+        "projected_points": 135.08,
+        "remaining_starters": [],
+        "mnf_bench_excluded": [
+          {
+            "name": "Vikings D/ST",
+            "player_id": -16016,
+            "club": "MIN",
+            "lineup_slot_id": 20,
+            "counts_toward_current_matchup": false
+          },
+          {
+            "name": "Aaron Jones Sr.",
+            "player_id": 3042519,
+            "club": "MIN",
+            "lineup_slot_id": 20,
+            "counts_toward_current_matchup": false
+          }
+        ]
+      },
+      "home_minus_away": 17.76,
+      "provider_winner": "UNDECIDED",
+      "activity_state": "NO_STARTERS_REMAIN_PROVIDER_PENDING",
+      "provisional_ending_candidate": "home_win",
+      "candidate_is_official_result": false,
+      "threshold": "Chili leads by 17.76 with no starting players left on either side; candidate home ending awaits official result/stat review.",
+      "sports_copy_draft": "The cookout has run out of scoring, with Chili ahead 152.84–135.08. Watson’s 31.10, Young’s 26.44 and Bowers’ 23.40 combined for 80.94. Purdy’s 29.98 was HMB’s strongest answer, but no starting player remains for either team tonight. The chili-covered Belt Keeper is the provisional finish, pending ESPN finalization and stat review.",
+      "scene_instruction": "If the current result is certified: Chili braces the serving cart, releases the established catch and turns the cookout against the intruder. The cooled chili strikes HMB’s black armor and ragged cloak; his hood, red eyes, gold ornament and belt stay his. Chili watches through black sunglasses; the Dark Horse remains separately staged behind the stall.",
+      "promotion_rule": "Reconcile provider-decided result, final scoring and actual lineup. Then select the corresponding existing branch; do not infer final rank/elimination."
+    },
+    {
+      "matchup_id": "W09-M05",
+      "home": {
+        "team_id": 5,
+        "name": "D0nkey K0ng",
+        "points": 158.7,
+        "projected_points": 158.7,
+        "remaining_starters": [],
+        "mnf_bench_excluded": []
+      },
+      "away": {
+        "team_id": 4,
+        "name": "The LLC",
+        "points": 129.89,
+        "projected_points": 129.89,
+        "remaining_starters": [],
+        "mnf_bench_excluded": [
+          {
+            "name": "DJ Moore",
+            "player_id": 3915416,
+            "club": "BUF",
+            "lineup_slot_id": 20,
+            "counts_toward_current_matchup": false
+          }
+        ]
+      },
+      "home_minus_away": 28.81,
+      "provider_winner": "UNDECIDED",
+      "activity_state": "NO_STARTERS_REMAIN_PROVIDER_PENDING",
+      "provisional_ending_candidate": "home_win",
+      "candidate_is_official_result": false,
+      "threshold": "DK leads by 28.81 with no starting players left on either side; candidate home ending awaits official result/stat review.",
+      "sports_copy_draft": "The arena score stands at DK 158.70, LLC 129.89, with both starting lineups finished. Robinson and Prescott combined for 56.30; the LLC’s Burrow answered with 37.84. The provisional finish belongs to DK by 28.81, not yet an official ESPN winner. His advantage is broad support, not an invented claim that the opponent never landed a blow.",
+      "scene_instruction": "If certified: show LLC’s parry, DK’s four-legged turn around the flank, and a controlled overpowering finish that forces the knight down. Keep the LLC face recognizable, all four equine legs legible and Arsenal details intact. No death, crown or belt transfer.",
+      "promotion_rule": "Reconcile provider-decided result, final scoring and actual lineup. Then select the corresponding existing branch; do not infer final rank/elimination."
+    },
+    {
+      "matchup_id": "W09-M06",
+      "home": {
+        "team_id": 3,
+        "name": "Slob on my Dobb",
+        "points": 141.2,
+        "projected_points": 175.92782297,
+        "remaining_starters": [
+          {
+            "player_id": "3918298",
+            "name": "Josh Allen",
+            "lineup_slot": "QB",
+            "points": 0,
+            "pro_team_id": 2,
+            "pro_team_if_mnf": "BUF",
+            "started": true
+          },
+          {
+            "player_id": "4567104",
+            "name": "Will Reichard",
+            "lineup_slot": "K",
+            "points": 0,
+            "pro_team_id": 16,
+            "pro_team_if_mnf": "MIN",
+            "started": true
+          }
+        ],
+        "mnf_bench_excluded": [
+          {
+            "name": "Bills D/ST",
+            "player_id": -16002,
+            "club": "BUF",
+            "lineup_slot_id": 20,
+            "counts_toward_current_matchup": false
+          }
+        ]
+      },
+      "away": {
+        "team_id": 6,
+        "name": "Three Dreaded Snake",
+        "points": 152.26,
+        "projected_points": 163.01237683,
+        "remaining_starters": [
+          {
+            "player_id": "4036133",
+            "name": "T.J. Hockenson",
+            "lineup_slot": "TE",
+            "points": 0,
+            "pro_team_id": 16,
+            "pro_team_if_mnf": "MIN",
+            "started": true
+          }
+        ],
+        "mnf_bench_excluded": []
+      },
+      "home_minus_away": -11.06,
+      "provider_winner": "UNDECIDED",
+      "activity_state": "BOTH_SIDES_HAVE_MNF_STARTERS",
+      "provisional_ending_candidate": null,
+      "candidate_is_official_result": false,
+      "threshold": "Slob moves ahead if Josh Allen + Will Reichard minus T.J. Hockenson > 11.06. Equality is a scoreboard tie; do not infer the tiebreak result.",
+      "sports_copy_draft": "TDS holds the firing lane at 152.26–141.20, but Slob still has Allen and Reichard against Hockenson. Lamb’s 36.50, Irving’s 30.50 and McCaffrey’s 24.50 have kept Slob in the chase. Allen plus Reichard must outscore Hockenson by more than 11.06 to take the lead. No one has earned the final paint-splattered defeat frame yet.",
+      "scene_instruction": "Hold P20 as aggressive two-way flanking. For P21 retain both exact Founder finishes: camera behind the sliding winner, defeated opponent downrange with paint on protection. TDS retains three protected heads on one body; Slob retains his massive human proportions.",
+      "promotion_rule": "Reconcile provider-decided result, final scoring and actual lineup. Then select the corresponding existing branch; do not infer final rank/elimination."
+    }
+  ],
+  "provider_final_count": 0,
+  "starter_sums_match": 12,
+  "official_result_selected": false,
+  "limitations": [
+    "Snapshot lineups can change before kickoff. No guarantee of player participation.",
+    "Zero points alone was not used to classify remaining players; official game schedule and current team/slot metadata were joined.",
+    "Player-detail aggregate currentPoints was 0 for all teams; used summary currentPoints and summed starters instead.",
+    "All six ESPN winner fields remain UNDECIDED. Completed lineups do not equal an accepted official result.",
+    "Negative scores, stat corrections and tiebreak rules prohibit claiming impossible reversal or assigning an exact-tie winner.",
+    "This pass creates copy/staging candidates, not repaired/generated artwork, Fact Lock or publication."
+  ]
+}
