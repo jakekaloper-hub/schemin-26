@@ -5,6 +5,12 @@
 **Current status:** `CREATIVE_INTERVIEW_RECORDED / PREVIS_CANDIDATES_PREPARED / CANONICAL_SNAPSHOT_LOCK_BLOCKED / FACT_LOCK_BLOCKED / NOT_RELEASED`.  
 **Not a new OS or a new mission.**
 
+## Current continuation — targeted audit repairs executed
+
+[Repair closeout and remaining evidence](./production-evidence/packet-repair-2026-11-09/README.md) · [current P05 kit](./production-evidence/packet-repair-2026-11-09/W09-P05_INPUTS.zip) · [current P20 kit](./production-evidence/packet-repair-2026-11-09/W09-P20_INPUTS.zip).
+
+Current selectors, page adjacency, active-vs-source beat placement, Chili overture/setup separation and P20 panel chronology are repaired. The preview now follows the actual packet rather than overriding it. Neutral preflight and post-render/final-publication checks are separate. Map inputs use existing canonical markers. Current report-card drafts are source-bound and explicitly pre-MNF, not a new final refresh.35included/40source records and12 settled appearances remain unchanged. No accepted new scene image; actual source receiver/independent approval under #268 remains unresolved.
+
 ## Latest bounded reference review — supplied screenshots + FFHub
 
 [Reviewed samples, optional analytics and next-thread handoff](./production-evidence/reference-review-2026-11-09/REVIEW.md) · [source/hash/method receipt](./production-evidence/reference-review-2026-11-09/REVIEW.json).

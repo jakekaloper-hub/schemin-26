@@ -117,3 +117,7 @@ The actual seven user screenshots are now reviewed. [Source/craft review and han
 ## November9 executable result handoff and P05 source kit
 
 The [production-input continuation](production-evidence/production-inputs-2026-11-09/README.md) contains the actual fresh6-undecided check, a non-mutating final-result proposal command, and an isolated P05 kit with2exact approved references/current layout/copy. Use this instead of recopying a whole-issue prompt. The code does not certify sources or render art. Current35-page order, canon, endings and closed Book remain unchanged.
+
+## Latest continuation — packet defects repaired
+
+Read [targeted repair closeout](production-evidence/packet-repair-2026-11-09/README.md). Current proof selectors/adjacency, overture beat placement, Chili duplication and P20 sequencing/export are repaired. The updated layout rehearsal uses authoritative packets. Both narrow proof kits are rebuilt. Do not use previous source-only kits as the latest instructions.35-page order and settled canon remain. Actual generated images, final sports acceptance, finished injury/division/ranking reports and independent receipts remain pending.

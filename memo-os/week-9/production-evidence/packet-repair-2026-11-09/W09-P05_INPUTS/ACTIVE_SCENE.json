@@ -1,0 +1,235 @@
+{
+  "page_id": "W09-P05",
+  "layout_spec": {
+    "canvas": [
+      1080,
+      1920
+    ],
+    "safe_margin_px": 60,
+    "archetype": "golf_collage",
+    "zones": {
+      "header": [
+        60,
+        50,
+        960,
+        250
+      ],
+      "first_action": [
+        60,
+        325,
+        960,
+        330
+      ],
+      "second_action": [
+        60,
+        680,
+        960,
+        330
+      ],
+      "reaction": [
+        60,
+        1035,
+        960,
+        200
+      ],
+      "body": [
+        60,
+        1260,
+        960,
+        595
+      ]
+    },
+    "type_px": {
+      "headline": 58,
+      "deck": 36,
+      "body": 42,
+      "data": 38,
+      "minor": 30
+    },
+    "body_line_height_px": 55,
+    "whole_page_fit_state": "CURRENT_DRAFT_MEASURED_AFTER_REPAIR__ACTUAL_ART_AND_FINAL_DATA_PENDING",
+    "actual_art_fit_state": "NOT_GENERATED",
+    "no_type_shrink_to_fit": true,
+    "text_composition": "DETERMINISTIC_FROM_CURRENT_COPY_AND_ACCEPTED_DATA",
+    "data_area_not_on_faces": true,
+    "concept_only_art": true,
+    "fit_limits": [
+      "Actual scene artwork is not included.",
+      "Data rows use explicit dashes where final fields are unavailable; hydrated values must be rechecked.",
+      "Alternate finale paragraphs and final score panels require their own post-result fit check.",
+      "Map-label fit awaits the actual map layer."
+    ]
+  },
+  "adjacent_pages": {
+    "previous": "W09-P31",
+    "next": "W09-P06"
+  },
+  "written_beats": [
+    {
+      "beat_id": "W09-M01-B03",
+      "page_id": "W09-P05",
+      "branch": "COMMON",
+      "shot": "Low three-quarter tee action",
+      "pose_and_physical_action": "Duckhook rotates through a driver follow-through; both hands share one grip. ObiWan watches the same ball from behind the tee marker, outside the swing arc.",
+      "what_changes": "The host stops welcoming and starts performing. Success is unassigned in the neutral study.",
+      "transition": "Follow the attention, not a second identical swing.",
+      "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+    },
+    {
+      "beat_id": "W09-M01-B04",
+      "page_id": "W09-P05",
+      "branch": "COMMON",
+      "shot": "Medium visitor recovery shot",
+      "pose_and_physical_action": "ObiWan plants his boots in sand, flexes his knees and turns through one recovery stroke. Ball, club and sand fan remain separate; Duckhook watches beyond the safe arc.",
+      "what_changes": "The visitor must solve a different physical problem rather than simply copy the host.",
+      "transition": "Move from the stroke to the rival whose expression changes.",
+      "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+    },
+    {
+      "beat_id": "W09-M01-B05",
+      "page_id": "W09-P05",
+      "branch": "COMMON",
+      "shot": "Tight reaction and grip detail",
+      "pose_and_physical_action": "The spectator golfer stops smiling and tightens a hand around the club; the scorecard folds shut without displaying invented numbers.",
+      "what_changes": "Mutual scrutiny replaces casual hospitality.",
+      "transition": "Page turn replaces noisy action with the quiet final-green wide.",
+      "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+    }
+  ],
+  "action_blocks": [
+    {
+      "beat": "TEE",
+      "framing": "Wide three-quarter fairway view; club and follow-through clear of faces",
+      "action": "Duckhook completes a balanced driver follow-through. ObiWan stands off the swing arc at the rear tee marker, watching the same ball flight.",
+      "contact": "Both hands visibly share one golf-club grip; one club shaft, no duplicated arm. Ball has left the tee, no impact spark.",
+      "axis": "Fairway runs lower-left to upper-right; clubhouse on horizon left, pond right.",
+      "neutrality": "Ball trajectory does not establish a score, winner, or collapse."
+    },
+    {
+      "beat": "RECOVERY",
+      "framing": "Medium side view of ObiWan at bunker edge; Duckhook beyond safe swing space",
+      "action": "ObiWan makes a sand recovery stroke, knees flexed and torso rotating; sand fan and the released ball separate clearly from his club.",
+      "contact": "Boots planted at different depths; hands hold one club, green sword stays sheathed and does not substitute for equipment.",
+      "axis": "Same fairway direction and pond side; golden retriever stays outside the play corridor if shown.",
+      "neutrality": "The proof shows the attempt, not confirmed success or humiliation."
+    },
+    {
+      "beat": "COURTESY_FADES",
+      "framing": "Tight two-shot reaction at a greenside pause, not a repeat of P06 final-green map",
+      "action": "Duckhook folds the unnumbered scorecard shut as ObiWan tightens his grip; each stops smiling and checks the other rather than posing toward the camera.",
+      "contact": "Scorecard, club grip, duck bill and human face stay separated; no winning stroke is shown.",
+      "axis": "Flag uphill in middle distance; short apron visibly slopes toward pond on right.",
+      "neutrality": "No sunk ball, trophy, scoreboard victory or despair before result selection."
+    }
+  ],
+  "absorbed_source_beats": [
+    {
+      "source_id": "W09-P04",
+      "source_commit": "1a36dd25fabd80d87796454bbf273aa742e79ad5",
+      "required_visible_transfer": "P31 home panel shows offered unnumbered scorecard and P31 away panel shows acceptance; P05 opens with the first competitive shot."
+    }
+  ],
+  "encounter": {
+    "venue_id": "LOC-COUNTRY-CLUB-JACKSON",
+    "venue_type": "OWNER_HOME_SCENE",
+    "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+    "route_required": true,
+    "world_state_in": [
+      "Week 3 chili contamination is historical memory; cleanup state required before pristine reset"
+    ],
+    "persistent_landmarks": [
+      "clubhouse",
+      "golf grounds",
+      "water hazards"
+    ],
+    "provisional_location": true,
+    "world_resolution": "PLANNING_PARENT_RESOLVED__EVENT_FEATURE_REVIEW_PENDING"
+  },
+  "current_cast": [
+    "CHAR-ZACH-WILSON",
+    "CHAR-JAKE-KALOPER"
+  ],
+  "character_authorities": {
+    "CHAR-ZACH-WILSON": {
+      "character_id": "CHAR-ZACH-WILSON",
+      "team": "Dr. Duckhook",
+      "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-ZACH-WILSON.json",
+      "appearance_authority_sha256": "f1a8ffaa33809b9433e5b6b117a161bf38bcbae914324512161a23d915add6d9",
+      "approval_date": "2026-10-18",
+      "required_visible_identity": {
+        "subject_morphology": "White-feathered duck head on upright anthropomorphic golfer torso",
+        "head_face": "Orange broad bill; white feathers; green golf cap",
+        "silhouette": "Green country-club sweater vest, golfer stance, club resting on shoulder",
+        "palette": [
+          "white feathers",
+          "green vest",
+          "orange bill",
+          "ivory shirt"
+        ],
+        "recognizable_props": [
+          "golf driver",
+          "golf bag and clubs",
+          "country-club attire"
+        ],
+        "negative_rules": [
+          "full ordinary human head",
+          "missing duck bill",
+          "golf-club identity omitted"
+        ]
+      },
+      "forbidden_substitutions": [
+        "full ordinary human head",
+        "missing duck bill",
+        "golf-club identity omitted"
+      ],
+      "approved_visual_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+      "approved_visual_sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+      "approved_visual_bytes_verified_in_base": true,
+      "identity_reapproval_required": false,
+      "renderer_binding_proven": false,
+      "new_canon_approval": false,
+      "scene_variation_rule": "Activity, camera, pose and safe sports gear may vary; established head/face/body identity remains. Companions follow scene continuity, not mandatory every close-up."
+    },
+    "CHAR-JAKE-KALOPER": {
+      "character_id": "CHAR-JAKE-KALOPER",
+      "team": "ObiWan Jacoby",
+      "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-JAKE-KALOPER.json",
+      "appearance_authority_sha256": "83ae608eba9ba47cc18637d8dce9fd46bc07d82d9064a09d240113d97cb1f1d3",
+      "approval_date": "2026-10-18",
+      "required_visible_identity": {
+        "subject_morphology": "Youthful blond human field strategist, earth-toned layered robe and jacket",
+        "head_face": "Light hair, human face, serious gaze",
+        "silhouette": "Upright human with cloak, luminous green sword and adjacent golden retriever",
+        "palette": [
+          "olive",
+          "brown",
+          "green blade glow",
+          "golden fur"
+        ],
+        "recognizable_props": [
+          "green energy sword",
+          "golden retriever companion"
+        ],
+        "negative_rules": [
+          "championship belt",
+          "changing golden retriever into mount",
+          "changing blade away from green"
+        ]
+      },
+      "forbidden_substitutions": [
+        "championship belt",
+        "changing golden retriever into mount",
+        "changing blade away from green"
+      ],
+      "approved_visual_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+      "approved_visual_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+      "approved_visual_bytes_verified_in_base": true,
+      "identity_reapproval_required": false,
+      "renderer_binding_proven": false,
+      "new_canon_approval": false,
+      "scene_variation_rule": "Activity, camera, pose and safe sports gear may vary; established head/face/body identity remains. Companions follow scene continuity, not mandatory every close-up."
+    }
+  },
+  "stage": "NEUTRAL_INPUT_REVIEW_NOT_GENERATION_OR_RELEASE",
+  "rule": "Current placement and geometry control execution; original source IDs preserve provenance only."
+}
