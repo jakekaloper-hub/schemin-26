@@ -6385,6 +6385,15 @@
             ]
           ]
         }
+      },
+      "week10_gotw_candidate": {
+        "home_team_id": 7,
+        "away_team_id": 5,
+        "rationale": "Strong cross-divisional contention/trajectory story if current Week9 leads finalize; fresh clash after cookout and arena chapters. Candidate only.",
+        "alternative_home_team_id": 12,
+        "alternative_away_team_id": 8,
+        "not_week9_gotw": true,
+        "final_selection": "PENDING_EDITORIAL_REVIEW_AFTER_RESULTS"
       }
     },
     {
@@ -6392,19 +6401,20 @@
       "page_id": "W09-P27",
       "page_role": "pittsys_book",
       "page_state": "PLANNED",
-      "working_title": "The Book — Week 9",
+      "working_title": "Closed for Something Bigger",
       "matchup_id": null,
-      "narrative_job": "Follow user reading order: preview then Book, separately from cover congratulations.",
+      "narrative_job": "Explain the Founder-confirmed one-week Book closure for TDS baby delivery; no live market recap.",
       "chapter_beat": "pittsys_book",
       "reader_takeaway": "Use actual Week9 posted lines, slips and settlement evidence, with pending/canceled/settled distinguished. No substitution of projection for odds.",
       "fact_dependencies": [
-        "FACT_LOCK_PENDING",
-        "SOURCE_FRESHNESS_REVIEW_PENDING"
+        "FOUNDER_CLOSURE_SOURCE",
+        "CURRENT_CHARACTER_AND_LOCATION",
+        "FINAL_EDITORIAL_REVIEW"
       ],
       "fact_lock_receipts": [],
       "deterministic_data_fields": [
-        "source_bound_department_values",
-        "as_of_date"
+        "WEEK_9",
+        "ONE_WEEK_CLOSURE_NOTICE"
       ],
       "owners_present": [
         "Phillip Pitts"
@@ -6453,8 +6463,8 @@
       },
       "continuity_in": "Inherit exact prior page and chapter prop/state record; page 26",
       "continuity_out": "Carry prop damage, body gear and spatial orientation to page 28",
-      "image_tells": "Separate Book ledger scene at established location, TDS proprietor using exact current identity. No newborn on gambling page; no invented receipts, stakes or winnings.",
-      "prose_tells": "Use actual Week9 posted lines, slips and settlement evidence, with pending/canceled/settled distinguished. No substitution of projection for odds.",
+      "image_tells": "Locked Pittsy’s Book windows in the established jungle location; extinguished lamps, closed ledger, one-week closure notice, hospital bag/flowers as restrained cues. No baby at a betting counter and no active tickets/odds.",
+      "prose_tells": "Family priority and one-week closure. Preserve prior market history backstage without implying settlement or cancellation.",
       "art_text_ratio": "55:45",
       "camera_and_composition": "Ledger-eye level / proprietor reaction",
       "foreground": "Separate Book ledger scene at established location, TDS proprietor using exact current identity",
@@ -6511,27 +6521,37 @@
         "secondary_figure_rule": "Only already specified companions/incidental event figures; no other league principals or extra matchups."
       },
       "editorial_copy": {
-        "headline": "The Book — Week 9",
-        "deck": "A posted line is a record. A payout needs a receipt.",
-        "body": "The Book keeps a different account from the standings. A fantasy win does not, by itself, settle every ticket attached to it. Posted prices, accepted stakes and the exact market matter. This page is reserved for the actual Week 9 lines and documented settlements—not reconstructed wagers, assumed payouts or ESPN projections dressed as odds. The family congratulations belong at the opening of the issue. Here, the ledger must show only what can be backed by a receipt.",
-        "body_classification": "EDITORIAL_DEPARTMENT_INTRO_NOT_BETTING_ADVICE",
-        "source_status": "SOURCE_RECEIPT_OR_SETTLEMENT_REQUIRED",
+        "headline": "Closed for Something Bigger",
+        "deck": "One week closed. Family comes first.",
+        "body": "The shutters are down at Pittsy’s Book. This week, TDS has a more important arrival to attend to. The ledger is closed, the windows are dark, and the Commonwealth can manage without new lines while the Pitts family welcomes its newest member. The pause lasts one week. The congratulations belong to everyone; the private moments belong to the family. For once, the right move is to leave the Book alone.",
+        "body_classification": "FOUNDER_SUPPLIED_CLOSURE_WITH_FICTIONAL_SCENE_FRAMING",
+        "source_status": "COMMISSIONER_CONFIRMED_WEEK9_CLOSED",
         "settled_wagers": [],
         "state": "DRAFT_COPY_NOT_FINAL_PUBLICATION",
         "approved_for_release": false,
         "created_on": "2026-11-09",
         "source_paths": [
-          "memo-os/week-9/THREAD_SOURCE_CAPTURE_2026-11-08.md",
-          "memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json"
+          "memo-os/week-9/WEEK_9_SUPPORTING_PAGES_AND_POV_PLAN_2026-11-09.json"
         ],
         "selected_branch": null,
         "conditional_narratives": {},
         "word_counts": {
-          "body": 77,
+          "body": 70,
           "endings": {}
         },
         "reuse_note": "Page-level text, not a new plan or completed image. Fictional action and source-observed sports are separately labeled.",
-        "not_for_release_until": "Cite exact Week9 posted market/accepted slip and settlement evidence; intro only in this proof."
+        "not_for_release_until": "Current closure copy, character/location and final-image approval; no betting receipts required for a closure-only page."
+      },
+      "book_operating_state": "CLOSED_WEEK9_FOUNDER_CONFIRMED",
+      "book_policy": {
+        "week": 9,
+        "state": "CLOSED_ONE_WEEK",
+        "authority": "Current Founder message",
+        "reason": "TDS prioritizes baby delivery/newborn family time",
+        "supersedes": "Prior Week9 market-result page assignment",
+        "historical_markets_retained_backstage": true,
+        "settlement_status": "UNKNOWN_NOT_INFERRED",
+        "reopening_date": "NOT_VERIFIED"
       }
     },
     {
@@ -7373,5 +7393,15 @@
     "final_branches_selected": 0,
     "proof_path": "memo-os/week-9/WEEK_9_EDITORIAL_COPY_PROOF_2026-11-09.html",
     "source": "Existing Founder scene premises and delegated editorial execution; factual details from pinned repository snapshots."
+  },
+  "supporting_page_expansion": {
+    "plan": "WEEK_9_SUPPORTING_PAGES_AND_POV_PLAN_2026-11-09.json",
+    "readable_plan": "WEEK_9_SUPPORTING_PAGES_AND_POV_PLAN_2026-11-09.md",
+    "base_contract_count": 28,
+    "planned_insertions": 12,
+    "proposed_issue_count": 40,
+    "current_state": "PLANNED_EXPANSION_NOT40_READY_RENDER_CONTRACTS",
+    "book_closure_applied_to_existing_P27": true,
+    "source_review": "production-evidence/WEEK_9_SUPPORTING_PAGE_SOURCE_REVIEW_2026-11-09.json"
   }
 }

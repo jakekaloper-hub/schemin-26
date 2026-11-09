@@ -1,0 +1,695 @@
+{
+  "schema": "schemin26.week9.supporting_page_expansion.v1",
+  "base_commit": "7e3935687312a8568302844d049c0abe120b0090",
+  "state": "AUTHORING_PLAN_NOT_FINISHED_PNGS",
+  "commissioner_directive": "also, review other pages within memo week 9 that we need to build out as well outsides of the 6 matchups. we still need to develop a opening drive, commissioner's note, some landscaping transitional pages which can be used to show our scoreboards, power-rankings, and we'll need 6 2-character pov overtures split page so introduce each specific matchup so those will need a good plannings so show off landscape and hype up specific matchup. also we will need a week 10 upcoming matchups page with a week10 GOTW matchup candidate. a page of our commonwealth atlas/map. a final word. also a sports deck to have an Adam Schaefter report style breakdown of the week specifically for fantasy players's results good/bad/ugly (also notate any IR's that effect specific teams). a state of the rhelm page. Pittsy's book (closed again, as TDS has a kid (referenced in cover page) so book had to close for one-week to focus on the baby delivery. also we need a page to get the entire league ready for end of the regular season and playoff's approaching. we have three divisions (divisional leader get's playoff entry, then remaining 4 playoff spots are based on league specific settings(already learned within schemin-26), so we need to also utilize espn's playoff predicitions to help us put together a page to track playoff forecasts as our league enters into a point of the season when every matchup across the leagues matters & effects the league as a whole approaching playoffs to get into the playoffs as thats all what matters for this teams so they can win the championship",
+  "scope": "Existing Week9 issue expansion; no new Memo OS or replacement storylines.",
+  "base_packet_count": 28,
+  "planned_insertions_count": 12,
+  "planned_issue_count": 40,
+  "page_count_is_working_allocation": true,
+  "implementation_boundary": "Existing28 full contracts remain in the main page register;12 detailed insertion briefs live here until hydrated into full contracts. Stable IDs are not physical page numbers; proposed_reading_order governs proposed positions. No40-page render-readiness claim.",
+  "proposed_reading_order": [
+    "W09-P01",
+    "W09-P02",
+    "W09-P29",
+    "W09-P30",
+    "W09-P03",
+    "W09-P31",
+    "W09-P04",
+    "W09-P05",
+    "W09-P06",
+    "W09-P07",
+    "W09-P32",
+    "W09-P08",
+    "W09-P09",
+    "W09-P10",
+    "W09-P33",
+    "W09-P11",
+    "W09-P12",
+    "W09-P13",
+    "W09-P34",
+    "W09-P14",
+    "W09-P15",
+    "W09-P35",
+    "W09-P16",
+    "W09-P17",
+    "W09-P18",
+    "W09-P36",
+    "W09-P19",
+    "W09-P20",
+    "W09-P21",
+    "W09-P22",
+    "W09-P37",
+    "W09-P23",
+    "W09-P24",
+    "W09-P38",
+    "W09-P25",
+    "W09-P39",
+    "W09-P40",
+    "W09-P26",
+    "W09-P27",
+    "W09-P28"
+  ],
+  "insertions": [
+    {
+      "page_id": "W09-P29",
+      "working_title": "Commissioner’s Note",
+      "page_role": "commissioner_note",
+      "state": "PLANNED_INSERTION_NOT_DRAWN_NOT_APPROVED",
+      "purpose": "Personal league stewardship and tone, not a second results summary.",
+      "visual_direction": "Intimate Archive desk, three division ribbons, folded fixture sheet, warm lamp and open window toward the existing Commonwealth. No new commissioner portrait needed.",
+      "copy_direction": "70–100-word proposed note: welcome Mary Martin, thank the league, emphasize fair competition and remaining regular-season stakes. Clearly drafted for Jake, not falsely signed or quoted.",
+      "data_requirements": "Founder approval of personal wording; factual rules sourced separately.",
+      "insert_before": "W09-P30",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "render_authorized": false,
+      "final_result_selected": false,
+      "new_canon": false
+    },
+    {
+      "page_id": "W09-P30",
+      "working_title": "The Commonwealth — Week 9",
+      "page_role": "atlas_map",
+      "state": "PLANNED_INSERTION_NOT_DRAWN_NOT_APPROVED",
+      "purpose": "Locate the six hosted events and connect the issue to one governing world.",
+      "visual_direction": "Existing approved topology/map as base; twelve small home markers, six numbered Week9 host markers and readable legend. Division colors are badges/overlays, not invented geographic borders.",
+      "copy_direction": "Short map key and landscape context, not a gazetteer. Label temporary event overlays separately; no invented scale or routes.",
+      "data_requirements": "world/atlas/ATLAS_V1.md; world/atlas/SCHEMIN_ATLAS_V1.svg; active location/control-plane data; presentational source must pass visual review.",
+      "insert_before": "W09-P03",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "render_authorized": false,
+      "final_result_selected": false,
+      "new_canon": false
+    },
+    {
+      "page_id": "W09-P31",
+      "working_title": "Before the First Swing",
+      "page_role": "two_character_pov_overture",
+      "state": "PLANNED_INSERTION_NOT_DRAWN_NOT_APPROVED",
+      "purpose": "Introduce both motivations and the host landscape without revealing outcome.",
+      "visual_direction": "Autumn sunrise at Country Club of Jackson; clubhouse, dew-lined fairway and right-side water hazard. Home upper half: Duckhook above the first tee, green cap/bill readable, welcoming gesture carrying competitive pride. Away lower half: ObiWan at the course approach, same morning light, guarded response to the invitation.",
+      "copy_direction": "Two separately attributed fictional interior viewpoints,25–35 words each; one concise stakes line. No fake real-owner quote. No action climax, scoring strip or winner pose.",
+      "data_requirements": "Verified entering records, one optional0–1 historical hook, actual host venue and current two-character references.",
+      "insert_before": "W09-P04",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "render_authorized": false,
+      "final_result_selected": false,
+      "new_canon": false,
+      "matchup_id": "W09-M01",
+      "characters_present": [
+        "CHAR-ZACH-WILSON",
+        "CHAR-JAKE-KALOPER"
+      ],
+      "home_name": "Dr. Duckhook",
+      "away_name": "ObiWan Jacoby",
+      "upper_home_frame": "Home upper half: Duckhook above the first tee, green cap/bill readable, welcoming gesture carrying competitive pride.",
+      "lower_away_frame": "Away lower half: ObiWan at the course approach, same morning light, guarded response to the invitation.",
+      "pov_motivation": {
+        "home": "He owns every contour of the course, but cannot afford to let hospitality become surrender.",
+        "away": "He accepts the invitation, remembers their earlier meeting and wants to prove he can still win under pressure."
+      },
+      "host_location": "LOC-COUNTRY-CLUB-JACKSON",
+      "outcome_spoiler": false,
+      "landscape_fraction_target": "60–70% of visual area; characters staged at different meaningful distances, not floating headshots",
+      "layout_candidate": {
+        "safe_margin": 60,
+        "running_header": [
+          60,
+          50,
+          960,
+          95
+        ],
+        "home_landscape": [
+          60,
+          180,
+          960,
+          690
+        ],
+        "matchup_ribbon": [
+          60,
+          895,
+          960,
+          120
+        ],
+        "away_landscape": [
+          60,
+          1040,
+          960,
+          690
+        ],
+        "stakes_footer": [
+          60,
+          1760,
+          960,
+          105
+        ],
+        "reading_direction": "HOME upper / AWAY lower; clear horizontal split, not two cramped narrow columns",
+        "fit_measured": false
+      },
+      "current_identity_source": "resolved_character_appearances in existing issue register; Chili Oct22 correction has precedence",
+      "author_methods": "Tolkien/Le Guin: place and viewpoint; Martin/Abercrombie: motive and tension. Methodology references, not human participation."
+    },
+    {
+      "page_id": "W09-P32",
+      "working_title": "The Horizon Has Other Plans",
+      "page_role": "two_character_pov_overture",
+      "state": "PLANNED_INSERTION_NOT_DRAWN_NOT_APPROVED",
+      "purpose": "Introduce both motivations and the host landscape without revealing outcome.",
+      "visual_direction": "Raised swamp start bank, race markers, wet root berm and finish visible through mist. Home upper half: four-legged Mud Dogs at the adapted bike/start, cocky gaze toward the dark front. Away lower half: embodied El Niño on the far bank, blue water/lightning and orange heat light; storm crosses the same terrain.",
+      "copy_direction": "Two separately attributed fictional interior viewpoints,25–35 words each; one concise stakes line. No fake real-owner quote. No action climax, scoring strip or winner pose.",
+      "data_requirements": "Verified entering records, one optional0–1 historical hook, actual host venue and current two-character references.",
+      "insert_before": "W09-P08",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "render_authorized": false,
+      "final_result_selected": false,
+      "new_canon": false,
+      "matchup_id": "W09-M02",
+      "characters_present": [
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-MANNING-WELTY"
+      ],
+      "home_name": "Mud Dogs",
+      "away_name": "El Niño",
+      "upper_home_frame": "Home upper half: four-legged Mud Dogs at the adapted bike/start, cocky gaze toward the dark front.",
+      "lower_away_frame": "Away lower half: embodied El Niño on the far bank, blue water/lightning and orange heat light; storm crosses the same terrain.",
+      "pov_motivation": {
+        "home": "The swamp is familiar enough to tempt him into ignoring a warning.",
+        "away": "He intends to change the terrain, making familiarity useless; he is not a second racer or a cloud replacing his body."
+      },
+      "host_location": "LOC-MUD-DOGS-SWAMP",
+      "outcome_spoiler": false,
+      "landscape_fraction_target": "60–70% of visual area; characters staged at different meaningful distances, not floating headshots",
+      "layout_candidate": {
+        "safe_margin": 60,
+        "running_header": [
+          60,
+          50,
+          960,
+          95
+        ],
+        "home_landscape": [
+          60,
+          180,
+          960,
+          690
+        ],
+        "matchup_ribbon": [
+          60,
+          895,
+          960,
+          120
+        ],
+        "away_landscape": [
+          60,
+          1040,
+          960,
+          690
+        ],
+        "stakes_footer": [
+          60,
+          1760,
+          960,
+          105
+        ],
+        "reading_direction": "HOME upper / AWAY lower; clear horizontal split, not two cramped narrow columns",
+        "fit_measured": false
+      },
+      "current_identity_source": "resolved_character_appearances in existing issue register; Chili Oct22 correction has precedence",
+      "author_methods": "Tolkien/Le Guin: place and viewpoint; Martin/Abercrombie: motive and tension. Methodology references, not human participation."
+    },
+    {
+      "page_id": "W09-P33",
+      "working_title": "Visitors Are Asked to Stay Off",
+      "page_role": "two_character_pov_overture",
+      "state": "PLANNED_INSERTION_NOT_DRAWN_NOT_APPROVED",
+      "purpose": "Introduce both motivations and the host landscape without revealing outcome.",
+      "visual_direction": "Quiet soccer terrace set within the existing Red Leopard Ruins; stone approach and narrow exit established before damage. Home upper half: red-spotted Leopard surveys an intact pitch. Away lower half: Chins approaches in lifted truck, red cap and heavy neck silhouette visible through open window; tires not yet destroying the field.",
+      "copy_direction": "Two separately attributed fictional interior viewpoints,25–35 words each; one concise stakes line. No fake real-owner quote. No action climax, scoring strip or winner pose.",
+      "data_requirements": "Verified entering records, one optional0–1 historical hook, actual host venue and current two-character references.",
+      "insert_before": "W09-P11",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "render_authorized": false,
+      "final_result_selected": false,
+      "new_canon": false,
+      "matchup_id": "W09-M03",
+      "characters_present": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "home_name": "Red Leopards",
+      "away_name": "Seven Deadly Chins",
+      "upper_home_frame": "Home upper half: red-spotted Leopard surveys an intact pitch.",
+      "lower_away_frame": "Away lower half: Chins approaches in lifted truck, red cap and heavy neck silhouette visible through open window; tires not yet destroying the field.",
+      "pov_motivation": {
+        "home": "The field belongs to a place he cares about and expects to remain in control of.",
+        "away": "The intruder sees open ground and an opportunity to impose himself, not a reason to ask permission."
+      },
+      "host_location": "LOC-RED-RUINS",
+      "outcome_spoiler": false,
+      "landscape_fraction_target": "60–70% of visual area; characters staged at different meaningful distances, not floating headshots",
+      "layout_candidate": {
+        "safe_margin": 60,
+        "running_header": [
+          60,
+          50,
+          960,
+          95
+        ],
+        "home_landscape": [
+          60,
+          180,
+          960,
+          690
+        ],
+        "matchup_ribbon": [
+          60,
+          895,
+          960,
+          120
+        ],
+        "away_landscape": [
+          60,
+          1040,
+          960,
+          690
+        ],
+        "stakes_footer": [
+          60,
+          1760,
+          960,
+          105
+        ],
+        "reading_direction": "HOME upper / AWAY lower; clear horizontal split, not two cramped narrow columns",
+        "fit_measured": false
+      },
+      "current_identity_source": "resolved_character_appearances in existing issue register; Chili Oct22 correction has precedence",
+      "author_methods": "Tolkien/Le Guin: place and viewpoint; Martin/Abercrombie: motive and tension. Methodology references, not human participation."
+    },
+    {
+      "page_id": "W09-P34",
+      "working_title": "An Invitation With Heat",
+      "page_role": "two_character_pov_overture",
+      "state": "PLANNED_INSERTION_NOT_DRAWN_NOT_APPROVED",
+      "purpose": "Introduce both motivations and the host landscape without revealing outcome.",
+      "visual_direction": "Western-tableland town cookout joined to Chili Stable; tables, smoke, serving cart and separate Dark Horse. Home upper half: current sunglasses/pepper-hat/crimson-coat Chili at his stall. Away lower half: hooded red-eyed black-armored HMB entering the same public space; no crown, no spill.",
+      "copy_direction": "Two separately attributed fictional interior viewpoints,25–35 words each; one concise stakes line. No fake real-owner quote. No action climax, scoring strip or winner pose.",
+      "data_requirements": "Verified entering records, one optional0–1 historical hook, actual host venue and current two-character references.",
+      "insert_before": "W09-P14",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "render_authorized": false,
+      "final_result_selected": false,
+      "new_canon": false,
+      "matchup_id": "W09-M04",
+      "characters_present": [
+        "CHAR-BRANDON-PRYOR",
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "home_name": "The Chili Cheesers",
+      "away_name": "His Majesty's Blood",
+      "upper_home_frame": "Home upper half: current sunglasses/pepper-hat/crimson-coat Chili at his stall.",
+      "lower_away_frame": "Away lower half: hooded red-eyed black-armored HMB entering the same public space; no crown, no spill.",
+      "pov_motivation": {
+        "home": "The host wants to reclaim the terms of this rivalry on ground he knows.",
+        "away": "The Belt Keeper arrives expecting composure and presence to outlast the host’s bravado."
+      },
+      "host_location": "LOC-CHILI-STABLE",
+      "outcome_spoiler": false,
+      "landscape_fraction_target": "60–70% of visual area; characters staged at different meaningful distances, not floating headshots",
+      "layout_candidate": {
+        "safe_margin": 60,
+        "running_header": [
+          60,
+          50,
+          960,
+          95
+        ],
+        "home_landscape": [
+          60,
+          180,
+          960,
+          690
+        ],
+        "matchup_ribbon": [
+          60,
+          895,
+          960,
+          120
+        ],
+        "away_landscape": [
+          60,
+          1040,
+          960,
+          690
+        ],
+        "stakes_footer": [
+          60,
+          1760,
+          960,
+          105
+        ],
+        "reading_direction": "HOME upper / AWAY lower; clear horizontal split, not two cramped narrow columns",
+        "fit_measured": false
+      },
+      "current_identity_source": "resolved_character_appearances in existing issue register; Chili Oct22 correction has precedence",
+      "author_methods": "Tolkien/Le Guin: place and viewpoint; Martin/Abercrombie: motive and tension. Methodology references, not human participation."
+    },
+    {
+      "page_id": "W09-P35",
+      "working_title": "Before the Gates Open",
+      "page_role": "two_character_pov_overture",
+      "state": "PLANNED_INSERTION_NOT_DRAWN_NOT_APPROVED",
+      "purpose": "Introduce both motivations and the host landscape without revealing outcome.",
+      "visual_direction": "One Highland arena: arena sand, opposite entrances, spectator tiers and mountain silhouette. Home upper half: full integrated gorilla-centaur waiting at home gate; four equine legs readable. Away lower half: LLC at opposing gate in ornate knight armor, identifiable face/sunglasses preserved; no generic closed helmet.",
+      "copy_direction": "Two separately attributed fictional interior viewpoints,25–35 words each; one concise stakes line. No fake real-owner quote. No action climax, scoring strip or winner pose.",
+      "data_requirements": "Verified entering records, one optional0–1 historical hook, actual host venue and current two-character references.",
+      "insert_before": "W09-P16",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "render_authorized": false,
+      "final_result_selected": false,
+      "new_canon": false,
+      "matchup_id": "W09-M05",
+      "characters_present": [
+        "CHAR-WILSON-LOOK",
+        "CHAR-DAVID-BABB"
+      ],
+      "home_name": "D0nkey K0ng",
+      "away_name": "The LLC",
+      "upper_home_frame": "Home upper half: full integrated gorilla-centaur waiting at home gate; four equine legs readable.",
+      "lower_away_frame": "Away lower half: LLC at opposing gate in ornate knight armor, identifiable face/sunglasses preserved; no generic closed helmet.",
+      "pov_motivation": {
+        "home": "The defender treats this arena as proof that his authority must be earned physically.",
+        "away": "The challenger believes polished preparation and nerve can unseat the home champion."
+      },
+      "host_location": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "outcome_spoiler": false,
+      "landscape_fraction_target": "60–70% of visual area; characters staged at different meaningful distances, not floating headshots",
+      "layout_candidate": {
+        "safe_margin": 60,
+        "running_header": [
+          60,
+          50,
+          960,
+          95
+        ],
+        "home_landscape": [
+          60,
+          180,
+          960,
+          690
+        ],
+        "matchup_ribbon": [
+          60,
+          895,
+          960,
+          120
+        ],
+        "away_landscape": [
+          60,
+          1040,
+          960,
+          690
+        ],
+        "stakes_footer": [
+          60,
+          1760,
+          960,
+          105
+        ],
+        "reading_direction": "HOME upper / AWAY lower; clear horizontal split, not two cramped narrow columns",
+        "fit_measured": false
+      },
+      "current_identity_source": "resolved_character_appearances in existing issue register; Chili Oct22 correction has precedence",
+      "author_methods": "Tolkien/Le Guin: place and viewpoint; Martin/Abercrombie: motive and tension. Methodology references, not human participation."
+    },
+    {
+      "page_id": "W09-P36",
+      "working_title": "Before the First Break",
+      "page_role": "two_character_pov_overture",
+      "state": "PLANNED_INSERTION_NOT_DRAWN_NOT_APPROVED",
+      "purpose": "Introduce both motivations and the host landscape without revealing outcome.",
+      "visual_direction": "Slob’s foothill course: shared tree line, mapped lanes, inflatable bunkers and two opposing starting positions. Home upper half: massive human Slob checks marker behind near starting barrier. Away lower half: one-bodied three-headed TDS checks the other opening, all three faces protected.",
+      "copy_direction": "Two separately attributed fictional interior viewpoints,25–35 words each; one concise stakes line. No fake real-owner quote. No action climax, scoring strip or winner pose.",
+      "data_requirements": "Verified entering records, one optional0–1 historical hook, actual host venue and current two-character references.",
+      "insert_before": "W09-P19",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "render_authorized": false,
+      "final_result_selected": false,
+      "new_canon": false,
+      "matchup_id": "W09-M06",
+      "characters_present": [
+        "CHAR-JORDAN-HOLLINGSHEAD",
+        "CHAR-PHILLIP-PITTS"
+      ],
+      "home_name": "Slob on my Dobb",
+      "away_name": "Three Dreaded Snake",
+      "upper_home_frame": "Home upper half: massive human Slob checks marker behind near starting barrier.",
+      "lower_away_frame": "Away lower half: one-bodied three-headed TDS checks the other opening, all three faces protected.",
+      "pov_motivation": {
+        "home": "He wants to take ground before the opponent can settle into an angle.",
+        "away": "He reads several lanes at once but knows that seeing an opening and surviving it are different problems."
+      },
+      "host_location": "LOC-SLOB-FOOTHILL-CAMP",
+      "outcome_spoiler": false,
+      "landscape_fraction_target": "60–70% of visual area; characters staged at different meaningful distances, not floating headshots",
+      "layout_candidate": {
+        "safe_margin": 60,
+        "running_header": [
+          60,
+          50,
+          960,
+          95
+        ],
+        "home_landscape": [
+          60,
+          180,
+          960,
+          690
+        ],
+        "matchup_ribbon": [
+          60,
+          895,
+          960,
+          120
+        ],
+        "away_landscape": [
+          60,
+          1040,
+          960,
+          690
+        ],
+        "stakes_footer": [
+          60,
+          1760,
+          960,
+          105
+        ],
+        "reading_direction": "HOME upper / AWAY lower; clear horizontal split, not two cramped narrow columns",
+        "fit_measured": false
+      },
+      "current_identity_source": "resolved_character_appearances in existing issue register; Chili Oct22 correction has precedence",
+      "author_methods": "Tolkien/Le Guin: place and viewpoint; Martin/Abercrombie: motive and tension. Methodology references, not human participation."
+    },
+    {
+      "page_id": "W09-P37",
+      "working_title": "Availability Watch",
+      "page_role": "fantasy_injury_desk",
+      "state": "PLANNED_INSERTION_NOT_DRAWN_NOT_APPROVED",
+      "purpose": "Explain which Schemin rosters lose options, and why Week10 preparation changes.",
+      "visual_direction": "Archive medical/availability bulletin over quiet rainy training-ground scenery. Text-first, no invented injury reenactment.",
+      "copy_direction": "4–6 high-impact report cards: player, actual fantasy owner, provider/NFL status, new versus ongoing, verified availability, lineup/depth impact. Optional compact all-team fantasy-IR footer. No medical return guess.",
+      "data_requirements": "Fresh roster ownership + fantasy slot; official NFL/club report for NFL IR and injury timeline; reserve-slot placement alone is not injury confirmation.",
+      "insert_before": "W09-P23",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "render_authorized": false,
+      "final_result_selected": false,
+      "new_canon": false
+    },
+    {
+      "page_id": "W09-P38",
+      "working_title": "State of the Realm",
+      "page_role": "state_of_realm",
+      "state": "PLANNED_INSERTION_NOT_DRAWN_NOT_APPROVED",
+      "purpose": "Explain league-wide consequences and link one division’s outcomes to the four nondivision places.",
+      "visual_direction": "Existing League Chamber or three-banners civic terrace overlooking the same Commonwealth; three division panels, not a second map.",
+      "copy_direction": "One paragraph per division, then one cross-league consequence sentence. Standings table owns the exact rows; Realm explains pressure, ties, momentum and consequences.",
+      "data_requirements": "Postweek standings, division membership, H2H applicability and schedule; no unverified clinch or elimination.",
+      "insert_before": "W09-P25",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "render_authorized": false,
+      "final_result_selected": false,
+      "new_canon": false
+    },
+    {
+      "page_id": "W09-P39",
+      "working_title": "Five Weeks. Seven Places.",
+      "page_role": "playoff_runway",
+      "state": "PLANNED_INSERTION_NOT_DRAWN_NOT_APPROVED",
+      "purpose": "Prepare every owner for Weeks10–14: how to enter, what still changes, and why other games matter.",
+      "visual_direction": "Three division roads and four remaining berth markers converge toward an existing championship destination as a symbolic overlay, not new Atlas geography.",
+      "copy_direction": "A14-week regular-season timeline with9 completed only after final; highlight12–14 divisional return when schedule verified. Explain3division winners +4other berths, seeding tiebreak distinction and no automatic elimination by narrative.",
+      "data_requirements": "Confirmed14/7 settings, actual remaining30games, existing league custom instructions, postseason bracket if explaining bye or pairings.",
+      "insert_before": "W09-P40",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "render_authorized": false,
+      "final_result_selected": false,
+      "new_canon": false
+    },
+    {
+      "page_id": "W09-P40",
+      "working_title": "The Race to Seven",
+      "page_role": "playoff_forecast_tracker",
+      "state": "PLANNED_INSERTION_NOT_DRAWN_NOT_APPROVED",
+      "purpose": "Track current position separately from ESPN expectations and verified scenarios.",
+      "visual_direction": "Readable twelve-row forecast board with three division-leader badges and a labeled current cut line. Quiet distant Commonwealth vista; no decorative gauges that imply made-up probabilities.",
+      "copy_direction": "Columns: team/division; postweek record; current ESPN seed; ESPN projected rank; Week10 opponent; one material risk. Percentage column only when actual ESPN probability is sourced; weekly delta only from comparable saved snapshots.",
+      "data_requirements": "Current selected ESPN read returns projected ranks but not playoffPct. Current seed != projected rank != editorial power rank. No invented percentage, championship odds or clinch from rounding.",
+      "insert_before": "W09-P26",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "render_authorized": false,
+      "final_result_selected": false,
+      "new_canon": false
+    }
+  ],
+  "existing_page_updates": [
+    {
+      "page_id": "W09-P02",
+      "purpose": "Editorial camera: what Week9 changed and why the league should care, not a personal Commissioner letter.",
+      "visual": "Dawn vista crossing an existing causeway toward the League Chamber; negative space for one clean opening paragraph.",
+      "copy": "80–110 words:brief family congratulations, accepted weekly thesis, tease six distinct contests and the postseason squeeze. No repeated scores or unfinished-week phrasing after finalization."
+    },
+    {
+      "page_id": "W09-P03",
+      "purpose": "Landscape transition plus exact scoreboard.",
+      "visual": "Wide view of established civic result-board terrace, six large deterministic rows on clean foreground surface; 9:16 page with a wide-angle scene, not a landscape-oriented export.",
+      "copy": "Six final H2H scores, margin and consistent postweek record; no model-drawn numeric text."
+    },
+    {
+      "page_id": "W09-P22",
+      "purpose": "Original fantasy news-desk reporting: the Good, the Bad, the Ugly.",
+      "visual": "Three visually distinct newsroom blocks over restrained Commonwealth Archive backdrop. No ESPN branding, fake insider sourcing, copied reporter wording or implied Adam Schefter byline.",
+      "copy": "GOOD: high-impact actual starters; BAD: costly underperformance with evidence; UGLY: aggregate collapse/unused points/availability cost with honest slot context. Each entry names player, points, fantasy owner, lineup role and actual effect; preserve cause vs coincidence."
+    },
+    {
+      "page_id": "W09-P24",
+      "purpose": "Official standings and divisional race, separate from Realm prose and prediction.",
+      "visual": "Three division-banner columns on a clean civic terrace, current records and ESPN seeds with snapshot label.",
+      "copy": "Twelve exact teams, records, PF where useful and current cut line. No seed is a clinched berth."
+    },
+    {
+      "page_id": "W09-P25",
+      "purpose": "Editorial strength ranking, not standings or probability.",
+      "visual": "High vantage across existing highlands/valleys; readable12-row inset, no invented mountain settlements for ranking positions.",
+      "copy": "Apply stated editorial basis: accepted scoring/trajectory and available roster strength. One short rationale per team; changes only if prior ranking comparable."
+    },
+    {
+      "page_id": "W09-P26",
+      "purpose": "All six Week10 fixtures plus one candidate spotlight.",
+      "visual": "Road leaving the League Chamber, six fixture cards/signposts with exact home/away names; larger Chili-DK spotlight beside established Western/Highland motifs without relocating venues.",
+      "copy": "Candidate GOTW: Chili HOME vs DK AWAY; alternate Duckhook HOME vs HMB AWAY. Both recommendations, not commissioner selection or mathematical maximum-leverage claims. Reassess after accepted Week9 standings."
+    },
+    {
+      "page_id": "W09-P27",
+      "purpose": "One-week closure for TDS becoming a father, not sportsbook results.",
+      "visual": "Locked Pittsy’s Book windows in the established jungle location; extinguished lamps, closed ledger, one-week closure notice, hospital bag/flowers as restrained cues. No baby at a betting counter and no active tickets/odds.",
+      "copy": "Closure is Founder-supplied current fact. Cover remains newborn celebration, Book remains absence from business. Do not imply historical tickets were accepted, voided, settled or paid."
+    },
+    {
+      "page_id": "W09-P28",
+      "purpose": "One emotional closing consequence and a clear forward pull.",
+      "visual": "Dusk on an established road/bridge with small distant banners; calm after arena/paintball velocity.",
+      "copy": "70–100 words, accepted Week9 consequence + five-week runway. Entry into postseason is the objective; no invented standings or elimination; no second Opening Drive."
+    }
+  ],
+  "landscape_policy": "Use scoreboard/rankings/atlas/Realm/runway/closing as functional scene transitions; avoid extra filler landscape pages. All page canvases remain portrait1080x1920.",
+  "overture_policy": "Exactly6, exactly2 current principal characters per overture; separately labeled home/away viewpoints and clear landscape, before corresponding existing setup. Current two-sided directive overrides older winner-only/prose-heavy Week4/5 instructions for Week9 only. No false quote attribution or result spoiler.",
+  "book_policy": {
+    "week": 9,
+    "state": "CLOSED_ONE_WEEK",
+    "authority": "Current Founder message",
+    "reason": "TDS prioritizes baby delivery/newborn family time",
+    "supersedes": "Prior Week9 market-result page assignment",
+    "historical_markets_retained_backstage": true,
+    "settlement_status": "UNKNOWN_NOT_INFERRED",
+    "reopening_date": "NOT_VERIFIED"
+  },
+  "week10_gotw_candidate": {
+    "home_team_id": 7,
+    "away_team_id": 5,
+    "rationale": "Strong cross-divisional contention/trajectory story if current Week9 leads finalize; fresh clash after cookout and arena chapters. Candidate only.",
+    "alternative_home_team_id": 12,
+    "alternative_away_team_id": 8,
+    "not_week9_gotw": true,
+    "final_selection": "PENDING_EDITORIAL_REVIEW_AFTER_RESULTS"
+  },
+  "playoffs": {
+    "regular_season_weeks": 14,
+    "playoff_berths": 7,
+    "division_winners": 3,
+    "remaining_berths": 4,
+    "division_names": [
+      "Burgers",
+      "Pizza",
+      "Wings"
+    ],
+    "qualification": "Division winners first; remaining qualifiers by winning percentage using league seeding tiebreaks, subject to commissioner overrides.",
+    "configured_seeding_tiebreaker": "H2H_RECORD",
+    "rule_explanation_source": "https://support.espn.com/hc/en-us/articles/47190901074708-H2H-Points-League-Playoff-Seeding-Tiebreakers",
+    "espn_forecast_source": "production-evidence/WEEK_9_SUPPORTING_PAGE_SOURCE_REVIEW_2026-11-09.json",
+    "percentages_available": false,
+    "projected_rank_available": true,
+    "custom_simulator_run": false,
+    "allow_unverified_odds": false,
+    "clinched_status_from_probability_rounding": false
+  },
+  "source_review": "production-evidence/WEEK_9_SUPPORTING_PAGE_SOURCE_REVIEW_2026-11-09.json",
+  "prior_work_reused": [
+    "memo-os/week-4/publication-readiness/WEEK_04_MATCHUP_OVERTURE_PRODUCTION_PACKET.md",
+    "memo-os/week-4/WEEK_4_PLAYOFF_CONTEXT_INTELLIGENCE_INTEGRATION_2026-10-05.md",
+    "memo-os/week-5/PLAYOFF_PROBABILITY_INTEGRATION_CONTRACT_2026-10-12.md",
+    "world/atlas/ATLAS_V1.md"
+  ],
+  "source_and_art_limits": [
+    "No Week9 results refreshed/certified in this planning pass.",
+    "No image generated or accepted.",
+    "No NFL injury verification/return timeline claimed from fantasy slots.",
+    "No automatic activation of old custom playoff model.",
+    "Forecast/rank data are timestamped pre-final observations."
+  ]
+}

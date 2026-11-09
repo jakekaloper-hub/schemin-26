@@ -5,6 +5,10 @@
 **Current status:** `CREATIVE_INTERVIEW_RECORDED / PREVIS_CANDIDATES_PREPARED / CANONICAL_SNAPSHOT_LOCK_BLOCKED / FACT_LOCK_BLOCKED / NOT_RELEASED`.  
 **Not a new OS or a new mission.**
 
+## Supporting-page expansion — current Founder direction, November9
+
+[WEEK_9_SUPPORTING_PAGES_AND_POV_PLAN_2026-11-09](./WEEK_9_SUPPORTING_PAGES_AND_POV_PLAN_2026-11-09.md) · [structured insertion briefs](./WEEK_9_SUPPORTING_PAGES_AND_POV_PLAN_2026-11-09.json). **40-slot candidate reading map:28 existing base contracts +12 planned insertions**, including6 two-character split POV overtures, Commissioner Note, Atlas, injury desk, Realm, playoff runway and ESPN forecast tracker. New insertion briefs are not rendered/accepted pages. P27 is now a one-week CLOSED Book page for the family arrival; older market-page instructions are superseded, not proof of ticket cancellation or settlement. Existing18 action pages remain unchanged. The28-page reading proof is a base artifact, not the expanded issue.
+
 ## Actual page-copy continuation — November 9
 
 [Readable 28-folio copy proof](./WEEK_9_EDITORIAL_COPY_PROOF_2026-11-09.html) · [plain-text reading version](./WEEK_9_EDITORIAL_COPY_PROOF_2026-11-09.md).

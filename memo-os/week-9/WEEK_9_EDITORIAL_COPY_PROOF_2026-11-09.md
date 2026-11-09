@@ -1,3 +1,5 @@
+> **Current expansion:** WEEK_9_SUPPORTING_PAGES_AND_POV_PLAN_2026-11-09.md defines40 planned positions. This remains the28-page base-copy artifact; P27 now follows the latest one-week closure directive.
+
 # Week 9 — Page-copy reading proof
 
 
@@ -334,15 +336,13 @@ Week 10 changes the opponents without easing the pressure. Duckhook hosts HMB; O
 
 **Sources:** `memo-os/week-9/THREAD_SOURCE_CAPTURE_2026-11-08.md`, `memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json`, `memo-os/week-9/WEEK_8_FINAL_WEEK_9_PROVIDER_EVIDENCE_2026-11-09.json`
 
-## W09-P27 — The Book — Week 9
+## W09-P27 — Closed for Something Bigger
 
-*A posted line is a record. A payout needs a receipt.*
+One week closed. Family comes first.
 
-The Book keeps a different account from the standings. A fantasy win does not, by itself, settle every ticket attached to it. Posted prices, accepted stakes and the exact market matter. This page is reserved for the actual Week 9 lines and documented settlements—not reconstructed wagers, assumed payouts or ESPN projections dressed as odds. The family congratulations belong at the opening of the issue. Here, the ledger must show only what can be backed by a receipt.
+The shutters are down at Pittsy’s Book. This week, TDS has a more important arrival to attend to. The ledger is closed, the windows are dark, and the Commonwealth can manage without new lines while the Pitts family welcomes its newest member. The pause lasts one week. The congratulations belong to everyone; the private moments belong to the family. For once, the right move is to leave the Book alone.
 
-**Source dependency:** Cite exact Week9 posted market/accepted slip and settlement evidence; intro only in this proof.
-
-**Sources:** `memo-os/week-9/THREAD_SOURCE_CAPTURE_2026-11-08.md`, `memo-os/week-9/WEEK_9_PRE_MNF_REFRESH_2026-11-09.json`
+**Source:** current Commissioner one-week closure instruction; no wager or settlement claim.
 
 ## W09-P28 — What Comes Next
 

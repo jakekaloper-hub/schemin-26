@@ -101,3 +101,7 @@ The [Monday-night report](WEEK_9_PRE_MNF_SPORTS_AND_ENDINGS_2026-11-09.md) and [
 ## Latest editorial execution — November 9
 
 The [page-copy proof](WEEK_9_EDITORIAL_COPY_PROOF_2026-11-09.html) now reads through all28 folios. It contains18 cinematic page narratives and12 separately labeled possible finales, with factual insets drawn only from the saved pre-MNF source. P25 final ranking and P27 posted/settled Book records still need source work. This advances actual prose, not a new plan, image generation or result acceptance. Current character correction and original source capture are unchanged.
+
+## November9 supporting-page expansion
+
+The latest Founder directive adds six two-character split-POV overtures and the supporting editorial/Atlas/playoff pages. Read [WEEK_9_SUPPORTING_PAGES_AND_POV_PLAN_2026-11-09](WEEK_9_SUPPORTING_PAGES_AND_POV_PLAN_2026-11-09.md) before using the older28-page map.40 positions are a plan (28base contracts +12insert briefs), not finished pages. Pittsy’s Book is CLOSED for one week for TDS’s baby delivery. Old markets are archival, not active page content or proven canceled bets. ESPN projected rank is available; the inspected feed did not return playoff percentages. No alternate simulator output or NFL IR confirmation is invented.
