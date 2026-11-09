@@ -1,6 +1,6 @@
 {
   "source_register": "WEEK_9_COMPLETE_ISSUE_PREVIS_2026-11-08.json",
-  "source_register_sha256": "b1dc04ddfcfb19073fb8c44396fbb9ce34d268bb7271cdefb7fe320446c9fa67",
+  "source_register_sha256": "5d60b1ccd670396f1e3a15567262b519c9fc3259761586daef2d246c208a9b32",
   "reading_order": [
     "W09-P01",
     "W09-P02",
@@ -44,7 +44,7 @@
       "page_id": "W09-P05",
       "reading_position": 6,
       "packet_selector": "pages[page_id=W09-P05]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [],
       "required_gates": [
         "EXACT_SUBJECT_ATTACHMENTS",
@@ -56,14 +56,58 @@
         "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_SUBJECT_ATTACHMENTS",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "CURRENT_CHARACTER_IDENTITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": true,
+          "requirements": [
+            "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION",
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": null,
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 2,
       "page_id": "W09-P20",
       "reading_position": 24,
       "packet_selector": "pages[page_id=W09-P20]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -77,14 +121,58 @@
         "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": "W09-P31 simplified invitation study only if properly authorized; legacy P04 is source-absorbed, not silently re-added."
+      "fallback": "W09-P31 simplified invitation study only if properly authorized; legacy P04 is source-absorbed, not silently re-added.",
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_SUBJECT_ATTACHMENTS",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "CURRENT_CHARACTER_IDENTITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": true,
+          "requirements": [
+            "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION",
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": null,
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 3,
       "page_id": "W09-P31",
       "reading_position": 5,
       "packet_selector": "pages[page_id=W09-P31]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -98,14 +186,57 @@
         "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_SUBJECT_ATTACHMENTS",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "CURRENT_CHARACTER_IDENTITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": false,
+          "requirements": [
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": "No Week9 winner needed for this page’s independent concept; any printed numbers still require their own accepted source.",
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 4,
       "page_id": "W09-P06",
       "reading_position": 7,
       "packet_selector": "pages[page_id=W09-P06]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -119,14 +250,58 @@
         "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_SUBJECT_ATTACHMENTS",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "CURRENT_CHARACTER_IDENTITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": true,
+          "requirements": [
+            "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION",
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": null,
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 5,
       "page_id": "W09-P07",
       "reading_position": 8,
       "packet_selector": "pages[page_id=W09-P07]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -140,14 +315,58 @@
         "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_SUBJECT_ATTACHMENTS",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "CURRENT_CHARACTER_IDENTITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": true,
+          "requirements": [
+            "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION",
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": null,
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 6,
       "page_id": "W09-P32",
       "reading_position": 9,
       "packet_selector": "pages[page_id=W09-P32]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -161,14 +380,57 @@
         "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_SUBJECT_ATTACHMENTS",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "CURRENT_CHARACTER_IDENTITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": false,
+          "requirements": [
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": "No Week9 winner needed for this page’s independent concept; any printed numbers still require their own accepted source.",
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 7,
       "page_id": "W09-P09",
       "reading_position": 10,
       "packet_selector": "pages[page_id=W09-P09]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -182,14 +444,58 @@
         "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_SUBJECT_ATTACHMENTS",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "CURRENT_CHARACTER_IDENTITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": true,
+          "requirements": [
+            "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION",
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": null,
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 8,
       "page_id": "W09-P10",
       "reading_position": 11,
       "packet_selector": "pages[page_id=W09-P10]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -203,14 +509,58 @@
         "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_SUBJECT_ATTACHMENTS",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "CURRENT_CHARACTER_IDENTITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": true,
+          "requirements": [
+            "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION",
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": null,
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 9,
       "page_id": "W09-P33",
       "reading_position": 12,
       "packet_selector": "pages[page_id=W09-P33]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -224,14 +574,57 @@
         "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_SUBJECT_ATTACHMENTS",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "CURRENT_CHARACTER_IDENTITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": false,
+          "requirements": [
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": "No Week9 winner needed for this page’s independent concept; any printed numbers still require their own accepted source.",
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 10,
       "page_id": "W09-P12",
       "reading_position": 13,
       "packet_selector": "pages[page_id=W09-P12]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -245,14 +638,58 @@
         "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_SUBJECT_ATTACHMENTS",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "CURRENT_CHARACTER_IDENTITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": true,
+          "requirements": [
+            "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION",
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": null,
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 11,
       "page_id": "W09-P13",
       "reading_position": 14,
       "packet_selector": "pages[page_id=W09-P13]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -266,14 +703,58 @@
         "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_SUBJECT_ATTACHMENTS",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "CURRENT_CHARACTER_IDENTITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": true,
+          "requirements": [
+            "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION",
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": null,
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 12,
       "page_id": "W09-P34",
       "reading_position": 17,
       "packet_selector": "pages[page_id=W09-P34]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -287,14 +768,57 @@
         "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_SUBJECT_ATTACHMENTS",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "CURRENT_CHARACTER_IDENTITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": false,
+          "requirements": [
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": "No Week9 winner needed for this page’s independent concept; any printed numbers still require their own accepted source.",
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 13,
       "page_id": "W09-P14",
       "reading_position": 18,
       "packet_selector": "pages[page_id=W09-P14]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -308,14 +832,58 @@
         "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_SUBJECT_ATTACHMENTS",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "CURRENT_CHARACTER_IDENTITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": true,
+          "requirements": [
+            "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION",
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": null,
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 14,
       "page_id": "W09-P15",
       "reading_position": 19,
       "packet_selector": "pages[page_id=W09-P15]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -329,14 +897,58 @@
         "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_SUBJECT_ATTACHMENTS",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "CURRENT_CHARACTER_IDENTITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": true,
+          "requirements": [
+            "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION",
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": null,
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 15,
       "page_id": "W09-P35",
       "reading_position": 20,
       "packet_selector": "pages[page_id=W09-P35]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -350,14 +962,57 @@
         "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_SUBJECT_ATTACHMENTS",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "CURRENT_CHARACTER_IDENTITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": false,
+          "requirements": [
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": "No Week9 winner needed for this page’s independent concept; any printed numbers still require their own accepted source.",
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 16,
       "page_id": "W09-P17",
       "reading_position": 21,
       "packet_selector": "pages[page_id=W09-P17]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -371,14 +1026,58 @@
         "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_SUBJECT_ATTACHMENTS",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "CURRENT_CHARACTER_IDENTITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": true,
+          "requirements": [
+            "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION",
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": null,
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 17,
       "page_id": "W09-P18",
       "reading_position": 22,
       "packet_selector": "pages[page_id=W09-P18]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -392,14 +1091,58 @@
         "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_SUBJECT_ATTACHMENTS",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "CURRENT_CHARACTER_IDENTITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": true,
+          "requirements": [
+            "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION",
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": null,
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 18,
       "page_id": "W09-P36",
       "reading_position": 23,
       "packet_selector": "pages[page_id=W09-P36]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF",
         "ACCEPTED_P20_ACTION_AND_PROTECTION_PROOF"
@@ -414,14 +1157,57 @@
         "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_SUBJECT_ATTACHMENTS",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "CURRENT_CHARACTER_IDENTITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": false,
+          "requirements": [
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": "No Week9 winner needed for this page’s independent concept; any printed numbers still require their own accepted source.",
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 19,
       "page_id": "W09-P21",
       "reading_position": 25,
       "packet_selector": "pages[page_id=W09-P21]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF",
         "ACCEPTED_P20_ACTION_AND_PROTECTION_PROOF"
@@ -436,14 +1222,58 @@
         "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_SUBJECT_ATTACHMENTS",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "CURRENT_CHARACTER_IDENTITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": true,
+          "requirements": [
+            "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION",
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": null,
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 20,
       "page_id": "W09-P30",
       "reading_position": 15,
       "packet_selector": "pages[page_id=W09-P30]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -456,14 +1286,57 @@
         "FINAL_RASTER_QA"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_ENVIRONMENT_OR_MAP_SOURCE",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "MAP_OR_ENVIRONMENT_FIDELITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": false,
+          "requirements": [
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": "No Week9 winner needed for this page’s independent concept; any printed numbers still require their own accepted source.",
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 21,
       "page_id": "W09-P03",
       "reading_position": 4,
       "packet_selector": "pages[page_id=W09-P03]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -476,14 +1349,58 @@
         "FINAL_RASTER_QA"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_ENVIRONMENT_OR_MAP_SOURCE",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "MAP_OR_ENVIRONMENT_FIDELITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": true,
+          "requirements": [
+            "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION",
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": null,
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 22,
       "page_id": "W09-P22",
       "reading_position": 16,
       "packet_selector": "pages[page_id=W09-P22]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -496,14 +1413,58 @@
         "FINAL_RASTER_QA"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_ENVIRONMENT_OR_MAP_SOURCE",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "MAP_OR_ENVIRONMENT_FIDELITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": true,
+          "requirements": [
+            "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION",
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": null,
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 23,
       "page_id": "W09-P37",
       "reading_position": 26,
       "packet_selector": "pages[page_id=W09-P37]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -516,14 +1477,58 @@
         "FINAL_RASTER_QA"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_ENVIRONMENT_OR_MAP_SOURCE",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "MAP_OR_ENVIRONMENT_FIDELITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": true,
+          "requirements": [
+            "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION",
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": null,
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 24,
       "page_id": "W09-P23",
       "reading_position": 27,
       "packet_selector": "pages[page_id=W09-P23]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -536,14 +1541,58 @@
         "FINAL_RASTER_QA"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_ENVIRONMENT_OR_MAP_SOURCE",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "MAP_OR_ENVIRONMENT_FIDELITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": true,
+          "requirements": [
+            "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION",
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": null,
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 25,
       "page_id": "W09-P24",
       "reading_position": 28,
       "packet_selector": "pages[page_id=W09-P24]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -556,14 +1605,58 @@
         "FINAL_RASTER_QA"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_ENVIRONMENT_OR_MAP_SOURCE",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "MAP_OR_ENVIRONMENT_FIDELITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": true,
+          "requirements": [
+            "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION",
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": null,
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 26,
       "page_id": "W09-P38",
       "reading_position": 29,
       "packet_selector": "pages[page_id=W09-P38]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -576,14 +1669,58 @@
         "FINAL_RASTER_QA"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_ENVIRONMENT_OR_MAP_SOURCE",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "MAP_OR_ENVIRONMENT_FIDELITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": true,
+          "requirements": [
+            "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION",
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": null,
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 27,
       "page_id": "W09-P25",
       "reading_position": 30,
       "packet_selector": "pages[page_id=W09-P25]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -596,14 +1733,58 @@
         "FINAL_RASTER_QA"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_ENVIRONMENT_OR_MAP_SOURCE",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "MAP_OR_ENVIRONMENT_FIDELITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": true,
+          "requirements": [
+            "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION",
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": null,
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 28,
       "page_id": "W09-P39",
       "reading_position": 31,
       "packet_selector": "pages[page_id=W09-P39]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -616,14 +1797,57 @@
         "FINAL_RASTER_QA"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_ENVIRONMENT_OR_MAP_SOURCE",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "MAP_OR_ENVIRONMENT_FIDELITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": false,
+          "requirements": [
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": "No Week9 winner needed for this page’s independent concept; any printed numbers still require their own accepted source.",
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 29,
       "page_id": "W09-P40",
       "reading_position": 32,
       "packet_selector": "pages[page_id=W09-P40]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -636,14 +1860,58 @@
         "FINAL_RASTER_QA"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_ENVIRONMENT_OR_MAP_SOURCE",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "MAP_OR_ENVIRONMENT_FIDELITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": true,
+          "requirements": [
+            "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION",
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": null,
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 30,
       "page_id": "W09-P26",
       "reading_position": 33,
       "packet_selector": "pages[page_id=W09-P26]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -656,14 +1924,58 @@
         "FINAL_RASTER_QA"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_ENVIRONMENT_OR_MAP_SOURCE",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "MAP_OR_ENVIRONMENT_FIDELITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": true,
+          "requirements": [
+            "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION",
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": null,
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 31,
       "page_id": "W09-P27",
       "reading_position": 34,
       "packet_selector": "pages[page_id=W09-P27]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -676,14 +1988,57 @@
         "FINAL_RASTER_QA"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_SUBJECT_ATTACHMENTS",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "CURRENT_CHARACTER_IDENTITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": false,
+          "requirements": [
+            "FOUNDER_CLOSURE_SOURCE",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": "No Week9 winner needed for this page’s independent concept; any printed numbers still require their own accepted source.",
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 32,
       "page_id": "W09-P29",
       "reading_position": 3,
       "packet_selector": "pages[page_id=W09-P29]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -696,14 +2051,57 @@
         "FINAL_RASTER_QA"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_ENVIRONMENT_OR_MAP_SOURCE",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "MAP_OR_ENVIRONMENT_FIDELITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": false,
+          "requirements": [
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": "No Week9 winner needed for this page’s independent concept; any printed numbers still require their own accepted source.",
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 33,
       "page_id": "W09-P02",
       "reading_position": 2,
       "packet_selector": "pages[page_id=W09-P02]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -716,14 +2114,58 @@
         "FINAL_RASTER_QA"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_ENVIRONMENT_OR_MAP_SOURCE",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "MAP_OR_ENVIRONMENT_FIDELITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": true,
+          "requirements": [
+            "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION",
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": null,
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 34,
       "page_id": "W09-P01",
       "reading_position": 1,
       "packet_selector": "pages[page_id=W09-P01]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -736,14 +2178,57 @@
         "FINAL_RASTER_QA"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_SUBJECT_ATTACHMENTS",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "CURRENT_CHARACTER_IDENTITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": false,
+          "requirements": [
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": "No Week9 winner needed for this page’s independent concept; any printed numbers still require their own accepted source.",
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     },
     {
       "order": 35,
       "page_id": "W09-P28",
       "reading_position": 35,
       "packet_selector": "pages[page_id=W09-P28]",
-      "packet_version": "W09-CONVERGENCE-2026-11-09",
+      "packet_version": "W09-PACKET-REPAIR-2026-11-09",
       "prerequisites": [
         "ACCEPTED_P05_SINGLE_PAGE_PROOF"
       ],
@@ -756,8 +2241,53 @@
         "FINAL_RASTER_QA"
       ],
       "state": "BLOCKED_PENDING_DECLARED_INPUTS_AND_PROOF",
-      "fallback": null
+      "fallback": null,
+      "required_gates_semantics": "ALL_APPLICABLE_LIFECYCLE_CHECKS_NOT_A_PREFLIGHT_WAIT_LIST",
+      "gate_phases": {
+        "proof_preflight": {
+          "scope": "Neutral draft only; no final scores or winning outcome",
+          "requirements": [
+            "EXACT_ENVIRONMENT_OR_MAP_SOURCE",
+            "SUPPORTED_AUTHORIZED_RENDER_ROUTE",
+            "PAGE_SCOPE_AND_GEOMETRY",
+            "SCENE_AND_CONTINUITY_DISPOSITION",
+            "CURRENT_NEUTRAL_COPY_AND_LAYOUT"
+          ],
+          "satisfied": false,
+          "no_automatic_submission": true
+        },
+        "post_render": {
+          "requirements": [
+            "FINAL_RASTER_QA",
+            "PHYSICAL_BLOCKING_QA",
+            "MOBILE_AND_COPY_QA",
+            "MAP_OR_ENVIRONMENT_FIDELITY_QA"
+          ],
+          "satisfied": false,
+          "requires_actual_pixels": true
+        },
+        "publication_data": {
+          "week9_result_required": true,
+          "requirements": [
+            "ACCEPTED_WEEK9_OUTCOME_FOR_PUBLISHED_VERSION",
+            "SOURCE_ACCEPTANCE_FOR_PRINTED_FACTS",
+            "FINAL_COPY_REVIEW"
+          ],
+          "not_applicable_reason": null,
+          "satisfied": false
+        },
+        "release": {
+          "requirements": [
+            "FOUNDER_VISUAL_APPROVAL",
+            "INDEPENDENT_PAGE_QA",
+            "EXACT_ARTIFACT_ASSEMBLY_AUDIT"
+          ],
+          "authorized": false,
+          "acceptance_receipt": null
+        }
+      }
     }
   ],
-  "state": "PLANNED_EXECUTION_NOT_LIVE_WORKER_QUEUE"
+  "state": "PLANNED_EXECUTION_NOT_LIVE_WORKER_QUEUE",
+  "scope_note": "Lifecycle stages are separated; no queue item is submitted or implicitly approved."
 }

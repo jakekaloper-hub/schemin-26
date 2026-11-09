@@ -151,6 +151,25 @@ def reconcile(issue: dict,cards: dict,observation: dict) -> dict:
         result['results']=[];result['page_updates']=[]
         return stop('INVALID_SOURCE',f'Malformed source: {exc}')
 
+def validate_current_packet(issue: dict, page: dict) -> None:
+    """Reject contradictory active consumers before exporting any derivative."""
+    proof=page.get('proof_preparation',{});handoff=proof.get('execution_handoff',{})
+    if handoff.get('layout_source')!='layout_spec' or handoff.get('exact_copy_source')!='editorial_copy':
+        raise ValueError('Superseded layout/copy selector in active proof')
+    if proof.get('layout')!=page['layout_spec'] or proof.get('layout_alias_of')!='layout_spec':
+        raise ValueError('Proof layout alias diverges from authoritative layout_spec')
+    adjacent=page['adjacent_pages'];sequence=proof.get('sequence_readthrough',{})
+    if sequence.get('previous_page')!=adjacent['previous'] or sequence.get('next_page')!=adjacent['next']:
+        raise ValueError('Proof adjacency contradicts current reading order')
+    expected={r['source_id'] for r in issue['convergence_review']['coverage'] if r['disposition']=='ABSORB_AND_RESTAGE' and page['page_id'] in r['destinations']}
+    got={r['source_id'] for r in page.get('absorbed_source_beats',[]) if r.get('required_visible_transfer')}
+    if expected!=got:raise ValueError('Required source-beat transfer missing from active page')
+    for beat in page.get('written_storyboard',{}).get('beats',[]):
+        if beat.get('page_id')!=page['page_id']:raise ValueError('Beat has historical rather than active placement')
+    order=page['layout_spec'].get('art_sequence')
+    if order and [a.get('zone') for a in proof.get('action_blocks',[])]!=order:
+        raise ValueError('Physical action order and layout regions disagree')
+
 def export_page_kit(root: Path,issue: dict,page_id: str,out: Path) -> dict:
     """Copy exact selected reference bytes into a one-page neutral study kit."""
     if out.exists():raise FileExistsError(f'Destination already exists: {out}')
@@ -158,6 +177,7 @@ def export_page_kit(root: Path,issue: dict,page_id: str,out: Path) -> dict:
     if len(pages)!=1:raise ValueError('Page is missing, duplicated or absorbed; use active reading IDs')
     page=pages[0]
     if page_id not in ['W09-P05','W09-P20']:raise ValueError('This bounded exporter supports only the existing neutral P05/P20 proof lane')
+    validate_current_packet(issue,page)
     assets=[];contents={};cast=page['characters_present']
     if len(cast)!=2 or set(page['page_character_contract']['allowed_principal_character_ids'])!=set(cast):
         raise ValueError('Neutral proof requires its exact two approved subjects')
@@ -189,6 +209,17 @@ def export_page_kit(root: Path,issue: dict,page_id: str,out: Path) -> dict:
               'no_paid_route_enabled':True}
     contents['COPY.txt']=(c['headline']+'\n'+c['deck']+'\n\n'+c['body']+'\n').encode()
     contents['layout.json']=(json.dumps(layout,ensure_ascii=False,indent=2)+'\n').encode()
+    active_scene={
+        'page_id':page_id,'layout_spec':layout,'adjacent_pages':page['adjacent_pages'],
+        'written_beats':page.get('written_storyboard',{}).get('beats',[]),
+        'action_blocks':page.get('proof_preparation',{}).get('action_blocks',[]),
+        'absorbed_source_beats':page.get('absorbed_source_beats',[]),
+        'encounter':page['encounter'],'current_cast':cast,
+        'character_authorities':{cid:issue['resolved_character_appearances'][cid] for cid in cast},
+        'stage':'NEUTRAL_INPUT_REVIEW_NOT_GENERATION_OR_RELEASE',
+        'rule':'Current placement and geometry control execution; original source IDs preserve provenance only.'}
+    contents['ACTIVE_SCENE.json']=(json.dumps(active_scene,ensure_ascii=False,indent=2)+'\n').encode()
+
     proof=page.get('proof_preparation',{});actions=proof.get('action_blocks',[])
     instructions=['# '+page_id+' — '+c['headline'],
         'ONE existing neutral visual study, not an all-league poster. The current35-page plan is not input to this commission.',
@@ -199,6 +230,8 @@ def export_page_kit(root: Path,issue: dict,page_id: str,out: Path) -> dict:
         'Venue: '+str(page['encounter'].get('venue_id')),
         'Identity application: '+json.dumps(page.get('scene_identity_application',{}),ensure_ascii=False),
         'Keep Week8 editorial identity; use layered atmosphere, scale, restrained highlights and material detail from the supplied craft references, never their foreign costumes/vehicles/geography.']
+    instructions.append('ACTIVE_SCENE.json is the complete current scene/transfer contract; use it with layout.json and the two exact references.')
+    for transfer in page.get('absorbed_source_beats',[]):instructions.append('Required preserved setup: '+transfer['required_visible_transfer'])
     for action in actions:instructions.append('\n'+json.dumps(action,ensure_ascii=False,indent=2))
     instructions.append('\nNo factual sports inset is included in this neutral input kit. The published page needs accepted outcome-specific copy and fresh full-page fit/pixel review.')
     contents['COMMISSION.md']=('\n\n'.join(instructions)+'\n').encode()

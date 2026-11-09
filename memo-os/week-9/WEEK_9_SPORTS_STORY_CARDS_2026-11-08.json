@@ -77,19 +77,19 @@
         ],
         "page_turns": [
           {
-            "from": "W09-P04",
+            "from": "W09-P31",
             "to": "W09-P05",
-            "question": "Does the courteous host or returning guest make the stronger first statement?"
+            "question": "What changes from Before the First Swing to A Round of Answers?"
           },
           {
             "from": "W09-P05",
             "to": "W09-P06",
-            "question": "The smiles have gone; what does the last hole put at risk?"
+            "question": "What changes from A Round of Answers to The Quiet Before the Putt?"
           },
           {
             "from": "W09-P06",
             "to": "W09-P07",
-            "question": "The ball is still; can either golfer handle the pressure?"
+            "question": "What changes from The Quiet Before the Putt to The Last Putt?"
           }
         ],
         "text_hidden_review_questions": [
@@ -101,23 +101,37 @@
         "review_executed": "WRITTEN_CAUSALITY_CHECK_ONLY; visual audience test awaits boards",
         "beats": [
           {
-            "beat_id": "W09-M01-B01",
-            "page_id": "W09-P04",
+            "beat_id": "W09-M01-OV-HOME",
+            "page_id": "W09-P31",
+            "source_page_id": "W09-P04",
+            "source_beat_ids": [
+              "W09-M01-B01",
+              "W09-M01-B02"
+            ],
+            "source_commit": "f19354db4649ca1263c94be9ea8d9ed95bc4b83d",
             "branch": "COMMON",
-            "shot": "Very wide autumn sunrise",
-            "pose_and_physical_action": "Duckhook waits by the first tee as ObiWan approaches; small removable charity signs sit beside the path, not over the landscape.",
-            "what_changes": "A welcoming public occasion and home advantage become visible.",
-            "transition": "Cut closer only when the visitor reaches the host.",
+            "viewpoint": "home",
+            "shot": "Landscape-led home perspective",
+            "pose_and_physical_action": "Duckhook waits above the first tee, orange bill and green cap distinct. He extends the unnumbered scorecard toward the visitor; clubhouse left and pond right establish the shared course.",
+            "what_changes": "The home competitor’s distinct intention and shared setting become legible before the contest.",
+            "transition": "Read the visiting viewpoint next.",
             "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
           },
           {
-            "beat_id": "W09-M01-B02",
-            "page_id": "W09-P04",
+            "beat_id": "W09-M01-OV-AWAY",
+            "page_id": "W09-P31",
+            "source_page_id": "W09-P04",
+            "source_beat_ids": [
+              "W09-M01-B01",
+              "W09-M01-B02"
+            ],
+            "source_commit": "f19354db4649ca1263c94be9ea8d9ed95bc4b83d",
             "branch": "COMMON",
-            "shot": "Medium two-shot at scorecard height",
-            "pose_and_physical_action": "Duckhook offers the card; ObiWan takes its edge. Courteous smiles coexist with held eye contact and squared shoulders. No invented wager or readable stroke total.",
-            "what_changes": "Courtesy becomes a recognizable personal challenge.",
-            "transition": "Match the hand on the card to hands settling on a club.",
+            "viewpoint": "away",
+            "shot": "Landscape-led away perspective",
+            "pose_and_physical_action": "ObiWan takes the scorecard at the course approach, cloak clear of the dew. His eyes remain on Duckhook; acceptance completes the invitation before P05 competitive play.",
+            "what_changes": "The away competitor’s distinct intention and shared setting become legible before the contest.",
+            "transition": "Turn to W09-P05 for the next physical development.",
             "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
           },
           {
@@ -190,6 +204,16 @@
             "transition": "Hold the water ripple and loser reaction once; then leave the chapter.",
             "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
           }
+        ],
+        "historical_sequence_source": {
+          "path": "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+          "commit": "f19354db4649ca1263c94be9ea8d9ed95bc4b83d"
+        },
+        "active_reading_pages": [
+          "W09-P31",
+          "W09-P05",
+          "W09-P06",
+          "W09-P07"
         ]
       },
       "next_step": "Use the pre-MNF copy and remaining-player threshold. Completed-lineup stories can prepare the indicated provisional ending; official final result remains unfilled.",
@@ -442,14 +466,14 @@
         ],
         "page_turns": [
           {
-            "from": "W09-P08",
+            "from": "W09-P32",
             "to": "W09-P09",
-            "question": "He saw the storm and accelerated; what does his chosen route become?"
+            "question": "What changes from The Horizon Has Other Plans to The Course Has Changed?"
           },
           {
             "from": "W09-P09",
             "to": "W09-P10",
-            "question": "Will he change lines in time or drive deeper into the bog?"
+            "question": "What changes from The Course Has Changed to Finish or Sink?"
           }
         ],
         "text_hidden_review_questions": [
@@ -460,23 +484,37 @@
         "review_executed": "WRITTEN_CAUSALITY_CHECK_ONLY; visual audience test awaits boards",
         "beats": [
           {
-            "beat_id": "W09-M02-B01",
-            "page_id": "W09-P08",
+            "beat_id": "W09-M02-OV-HOME",
+            "page_id": "W09-P32",
+            "source_page_id": "W09-P08",
+            "source_beat_ids": [
+              "W09-M02-B01",
+              "W09-M02-B02"
+            ],
+            "source_commit": "f19354db4649ca1263c94be9ea8d9ed95bc4b83d",
             "branch": "COMMON",
-            "shot": "Wide start bank with long horizon",
-            "pose_and_physical_action": "Mud Dogs sets off as the approved four-legged swamp hound on the proposed canine-compatible dirt-bike rig. Forepaws use supported grips, hind paws rest behind; muzzle and moss stay visible. The far-bank humanoid El Niño, channel, berm and finish establish all actors and geography.",
-            "what_changes": "Home familiarity and a tangible destination are established.",
-            "transition": "Cut to the rider noticing the changing sky.",
+            "viewpoint": "home",
+            "shot": "Landscape-led home perspective",
+            "pose_and_physical_action": "The quadrupedal Mud Dogs sees the dark front across familiar swamp ground, turns back toward his adapted bike and commits to continuing from the raised start. The warning is visible before the choice.",
+            "what_changes": "The home competitor’s distinct intention and shared setting become legible before the contest.",
+            "transition": "Read the visiting viewpoint next.",
             "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
           },
           {
-            "beat_id": "W09-M02-B02",
-            "page_id": "W09-P08",
+            "beat_id": "W09-M02-OV-AWAY",
+            "page_id": "W09-P32",
+            "source_page_id": "W09-P08",
+            "source_beat_ids": [
+              "W09-M02-B01",
+              "W09-M02-B02"
+            ],
+            "source_commit": "f19354db4649ca1263c94be9ea8d9ed95bc4b83d",
             "branch": "COMMON",
-            "shot": "Three-quarter rider reaction",
-            "pose_and_physical_action": "The swamp hound turns his canine head toward El Niño and the gathering storm on the far bank, then shifts forward over the low saddle to accelerate instead of taking higher ground.",
-            "what_changes": "Ignoring the warning is a choice, not an unexplained accident.",
-            "transition": "Follow rear-wheel spray into the same channel seen in the wide.",
+            "viewpoint": "away",
+            "shot": "Landscape-led away perspective",
+            "pose_and_physical_action": "Embodied El Niño watches from the far bank. Water, lightning and orange elemental light frame his humanoid form; the same course lies between them. Flooding is a threat, not an announced finish.",
+            "what_changes": "The away competitor’s distinct intention and shared setting become legible before the contest.",
+            "transition": "Turn to W09-P09 for the next physical development.",
             "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
           },
           {
@@ -539,6 +577,15 @@
             "transition": "End with the finish visible but unreachable across the water.",
             "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
           }
+        ],
+        "historical_sequence_source": {
+          "path": "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+          "commit": "f19354db4649ca1263c94be9ea8d9ed95bc4b83d"
+        },
+        "active_reading_pages": [
+          "W09-P32",
+          "W09-P09",
+          "W09-P10"
         ]
       },
       "next_step": "Use the pre-MNF copy and remaining-player threshold. Completed-lineup stories can prepare the indicated provisional ending; official final result remains unfilled.",
@@ -769,14 +816,14 @@
         ],
         "page_turns": [
           {
-            "from": "W09-P11",
+            "from": "W09-P33",
             "to": "W09-P12",
-            "question": "The pitch is damaged; what will Red do rather than merely glare?"
+            "question": "What changes from Visitors Are Asked to Stay Off to The Predator Comes Down?"
           },
           {
             "from": "W09-P12",
             "to": "W09-P13",
-            "question": "Can Red force the turn, or does Chins see through the ambush?"
+            "question": "What changes from The Predator Comes Down to The Red Card?"
           }
         ],
         "text_hidden_review_questions": [
@@ -787,23 +834,37 @@
         "review_executed": "WRITTEN_CAUSALITY_CHECK_ONLY; visual audience test awaits boards",
         "beats": [
           {
-            "beat_id": "W09-M03-B01",
-            "page_id": "W09-P11",
+            "beat_id": "W09-M03-OV-HOME",
+            "page_id": "W09-P33",
+            "source_page_id": "W09-P11",
+            "source_beat_ids": [
+              "W09-M03-B01",
+              "W09-M03-B02"
+            ],
+            "source_commit": "f19354db4649ca1263c94be9ea8d9ed95bc4b83d",
             "branch": "COMMON",
-            "shot": "Quiet pitch-wide from the terrace",
-            "pose_and_physical_action": "Red enjoys his soccer grounds with the center circle and goal intact. A distant lifted truck approaches the same entrance.",
-            "what_changes": "The reader sees what can be lost before destruction begins.",
-            "transition": "Shift toward the arriving tires.",
+            "viewpoint": "home",
+            "shot": "Landscape-led home perspective",
+            "pose_and_physical_action": "Red overlooks his still-intact soccer terrace inside the ruins. Feline muzzle and red-spotted body remain clear; the stone approach and narrow exit establish what he values.",
+            "what_changes": "The home competitor’s distinct intention and shared setting become legible before the contest.",
+            "transition": "Read the visiting viewpoint next.",
             "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
           },
           {
-            "beat_id": "W09-M03-B02",
-            "page_id": "W09-P11",
+            "beat_id": "W09-M03-OV-AWAY",
+            "page_id": "W09-P33",
+            "source_page_id": "W09-P11",
+            "source_beat_ids": [
+              "W09-M03-B01",
+              "W09-M03-B02"
+            ],
+            "source_commit": "f19354db4649ca1263c94be9ea8d9ed95bc4b83d",
             "branch": "COMMON",
-            "shot": "Tire-height intrusion",
-            "pose_and_physical_action": "Chins drives the lifted truck across the pitch; the tires tear a continuous track through the center circle and clip the goal structure.",
-            "what_changes": "Off-roading becomes a deliberate territorial violation.",
-            "transition": "Match the fresh rut to Red looking down at it.",
+            "viewpoint": "away",
+            "shot": "Landscape-led away perspective",
+            "pose_and_physical_action": "Chins approaches in the lifted truck with his red cap and heavyset silhouette visible. Tires are still on the approach; actual pitch destruction and Red witnessing it begin P12 before retaliation.",
+            "what_changes": "The away competitor’s distinct intention and shared setting become legible before the contest.",
+            "transition": "Turn to W09-P12 for the next physical development.",
             "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
           },
           {
@@ -811,7 +872,7 @@
             "page_id": "W09-P12",
             "branch": "COMMON",
             "shot": "Close reaction then elevated stalk",
-            "pose_and_physical_action": "Red observes the torn turf, drops the relaxed posture and moves up the low terrace beside the truck turn.",
+            "pose_and_physical_action": "Chins’s tires tear through the intact pitch; Red sees the broken turf from the terrace before dropping toward the hood. Red observes the torn turf, drops the relaxed posture and moves up the low terrace beside the truck turn.",
             "what_changes": "Outrage becomes a plan expressed through movement.",
             "transition": "Keep truck and interception terrace in the same wide before the leap.",
             "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
@@ -866,6 +927,15 @@
             "transition": "Use the torn center circle once as aftermath, not a random collapsing ruin.",
             "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
           }
+        ],
+        "historical_sequence_source": {
+          "path": "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+          "commit": "f19354db4649ca1263c94be9ea8d9ed95bc4b83d"
+        },
+        "active_reading_pages": [
+          "W09-P33",
+          "W09-P12",
+          "W09-P13"
         ]
       },
       "next_step": "Use the pre-MNF copy and remaining-player threshold. Completed-lineup stories can prepare the indicated provisional ending; official final result remains unfilled.",
@@ -1112,9 +1182,14 @@
         ],
         "page_turns": [
           {
+            "from": "W09-P34",
+            "to": "W09-P14",
+            "question": "What changes from An Invitation With Heat to Everybody Came Hungry?"
+          },
+          {
             "from": "W09-P14",
             "to": "W09-P15",
-            "question": "The host’s stage and visitor’s confidence collide; who ends up serving whom?"
+            "question": "What changes from Everybody Came Hungry to Who Gets Served??"
           }
         ],
         "text_hidden_review_questions": [
@@ -1124,6 +1199,42 @@
         ],
         "review_executed": "WRITTEN_CAUSALITY_CHECK_ONLY; visual audience test awaits boards",
         "beats": [
+          {
+            "beat_id": "W09-M04-OV-HOME",
+            "page_id": "W09-P34",
+            "source_page_id": "W09-P14",
+            "source_beat_ids": [
+              "W09-M04-B01",
+              "W09-M04-B02",
+              "W09-M04-B03"
+            ],
+            "source_commit": "f19354db4649ca1263c94be9ea8d9ed95bc4b83d",
+            "branch": "COMMON",
+            "viewpoint": "home",
+            "shot": "Landscape-led home perspective",
+            "pose_and_physical_action": "Chili stands at his cookout frontage, current sunglasses, decorated dark hat and crimson coat visible; the Dark Horse remains a separate companion. His ladle is at rest. Show hospitality and anticipation, not the serving-cart mechanism in action.",
+            "what_changes": "The home competitor’s distinct intention and shared setting become legible before the contest.",
+            "transition": "Read the visiting viewpoint next.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M04-OV-AWAY",
+            "page_id": "W09-P34",
+            "source_page_id": "W09-P14",
+            "source_beat_ids": [
+              "W09-M04-B01",
+              "W09-M04-B02",
+              "W09-M04-B03"
+            ],
+            "source_commit": "f19354db4649ca1263c94be9ea8d9ed95bc4b83d",
+            "branch": "COMMON",
+            "viewpoint": "away",
+            "shot": "Landscape-led away perspective",
+            "pose_and_physical_action": "HMB pauses at the town entrance beneath the established hood, red eyes and dark armor. His view leads toward Chili across the same gathering; he has not taken the platform or inspected the dish. P14 owns that encounter.",
+            "what_changes": "The away competitor’s distinct intention and shared setting become legible before the contest.",
+            "transition": "Turn to W09-P14 for the next physical development.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
           {
             "beat_id": "W09-M04-B01",
             "page_id": "W09-P14",
@@ -1194,6 +1305,15 @@
             "transition": "Finish on Chili’s forced service against HMB’s unruffled posture.",
             "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
           }
+        ],
+        "historical_sequence_source": {
+          "path": "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+          "commit": "f19354db4649ca1263c94be9ea8d9ed95bc4b83d"
+        },
+        "active_reading_pages": [
+          "W09-P34",
+          "W09-P14",
+          "W09-P15"
         ]
       },
       "next_step": "Use the pre-MNF copy and remaining-player threshold. Completed-lineup stories can prepare the indicated provisional ending; official final result remains unfilled.",
@@ -1427,14 +1547,14 @@
         ],
         "page_turns": [
           {
-            "from": "W09-P16",
+            "from": "W09-P35",
             "to": "W09-P17",
-            "question": "Does the challenger’s polish survive first contact?"
+            "question": "What changes from Before the Gates Open to Steel in the Sand?"
           },
           {
             "from": "W09-P17",
             "to": "W09-P18",
-            "question": "Which fighter turns the changing angle into real leverage?"
+            "question": "What changes from Steel in the Sand to One Still Standing?"
           }
         ],
         "text_hidden_review_questions": [
@@ -1445,23 +1565,37 @@
         "review_executed": "WRITTEN_CAUSALITY_CHECK_ONLY; visual audience test awaits boards",
         "beats": [
           {
-            "beat_id": "W09-M05-B01",
-            "page_id": "W09-P16",
+            "beat_id": "W09-M05-OV-HOME",
+            "page_id": "W09-P35",
+            "source_page_id": "W09-P16",
+            "source_beat_ids": [
+              "W09-M05-B01",
+              "W09-M05-B02"
+            ],
+            "source_commit": "f19354db4649ca1263c94be9ea8d9ed95bc4b83d",
             "branch": "COMMON",
-            "shot": "High arena-wide",
-            "pose_and_physical_action": "Show both entrances, crowd outside the sand and Highland setting beyond. No copied movie frame, tigers or surprise combatants.",
-            "what_changes": "The duel has scale and a readable fighting space.",
-            "transition": "Descend to distinct entrances rather than another overhead.",
+            "viewpoint": "home",
+            "shot": "Landscape-led home perspective",
+            "pose_and_physical_action": "DK waits at the home arena gate in one integrated gorilla-centaur body, four equine legs visible. The curve of the sand and open turning space lead toward the opposite gate.",
+            "what_changes": "The home competitor’s distinct intention and shared setting become legible before the contest.",
+            "transition": "Read the visiting viewpoint next.",
             "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
           },
           {
-            "beat_id": "W09-M05-B02",
-            "page_id": "W09-P16",
+            "beat_id": "W09-M05-OV-AWAY",
+            "page_id": "W09-P35",
+            "source_page_id": "W09-P16",
+            "source_beat_ids": [
+              "W09-M05-B01",
+              "W09-M05-B02"
+            ],
+            "source_commit": "f19354db4649ca1263c94be9ea8d9ed95bc4b83d",
             "branch": "COMMON",
-            "shot": "Paired full-body entrances",
-            "pose_and_physical_action": "DK enters with Arsenal identity and all four equine legs visible. LLC advances in ornate knightly armor with recognizable face/corporate identity, sword and a small shield.",
-            "what_changes": "Strength and precision are visually different before either attacks.",
-            "transition": "Cut on their approach to a shared action-wide.",
+            "viewpoint": "away",
+            "shot": "Landscape-led away perspective",
+            "pose_and_physical_action": "The LLC enters the opposing threshold in ornate knightly armor while retaining the established face and sunglasses. The arena axis matches the home panel; swords have not yet clashed.",
+            "what_changes": "The away competitor’s distinct intention and shared setting become legible before the contest.",
+            "transition": "Turn to W09-P17 for the next physical development.",
             "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
           },
           {
@@ -1524,6 +1658,15 @@
             "transition": "Keep the surrendered sword, lowered forequarters and composed challenger in one frame.",
             "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
           }
+        ],
+        "historical_sequence_source": {
+          "path": "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+          "commit": "f19354db4649ca1263c94be9ea8d9ed95bc4b83d"
+        },
+        "active_reading_pages": [
+          "W09-P35",
+          "W09-P17",
+          "W09-P18"
         ]
       },
       "next_step": "Use the pre-MNF copy and remaining-player threshold. Completed-lineup stories can prepare the indicated provisional ending; official final result remains unfilled.",
@@ -1750,14 +1893,14 @@
         ],
         "page_turns": [
           {
-            "from": "W09-P19",
+            "from": "W09-P36",
             "to": "W09-P20",
-            "question": "With the course understood, who dares leave shelter first?"
+            "question": "What changes from Before the First Break to No Safe Corner?"
           },
           {
             "from": "W09-P20",
             "to": "W09-P21",
-            "question": "Both are moving; which new angle will actually defeat cover?"
+            "question": "What changes from No Safe Corner to The Winning Angle?"
           }
         ],
         "text_hidden_review_questions": [
@@ -1768,24 +1911,54 @@
         "review_executed": "WRITTEN_CAUSALITY_CHECK_ONLY; visual audience test awaits boards",
         "beats": [
           {
-            "beat_id": "W09-M06-B01",
-            "page_id": "W09-P19",
+            "beat_id": "W09-M06-OV-HOME",
+            "page_id": "W09-P36",
+            "source_page_id": "W09-P19",
+            "source_beat_ids": [
+              "W09-M06-B01",
+              "W09-M06-B02"
+            ],
+            "source_commit": "f19354db4649ca1263c94be9ea8d9ed95bc4b83d",
             "branch": "COMMON",
-            "shot": "Course-wide from west sideline",
-            "pose_and_physical_action": "Show two starts, trees, terrain and inflatable defenses within Slob’s foothills. Both competitors wear protection; TDS has exactly three protected heads on one body.",
-            "what_changes": "The reader learns lanes before rapid cutting begins.",
-            "transition": "Match the two start positions to their first movement.",
+            "viewpoint": "home",
+            "shot": "Landscape-led home perspective",
+            "pose_and_physical_action": "Slob settles behind the near starting cylinder, substantial human build visible under protective paintball gear. His marker points safely into the course. Central low cover and far wedge establish the lane.",
+            "what_changes": "The home competitor’s distinct intention and shared setting become legible before the contest.",
+            "transition": "Read the visiting viewpoint next.",
             "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
           },
           {
-            "beat_id": "W09-M06-B02",
-            "page_id": "W09-P19",
+            "beat_id": "W09-M06-OV-AWAY",
+            "page_id": "W09-P36",
+            "source_page_id": "W09-P19",
+            "source_beat_ids": [
+              "W09-M06-B01",
+              "W09-M06-B02"
+            ],
+            "source_commit": "f19354db4649ca1263c94be9ea8d9ed95bc4b83d",
             "branch": "COMMON",
-            "shot": "Low paired breakout",
-            "pose_and_physical_action": "Slob bursts toward the southwest cylinder; TDS reaches the northeast wedge. Each carries one sporting marker with one shared pair of arms, not three TDS shooters.",
-            "what_changes": "Both rivals commit actively rather than one being target practice.",
-            "transition": "Follow Slob’s movement into the middle lane.",
+            "viewpoint": "away",
+            "shot": "Landscape-led away perspective",
+            "pose_and_physical_action": "TDS waits behind the far starting wedge, exactly three protected heads attached to one body and one marker. The shared tree line fixes orientation; the actual breakout begins P20, not a second starting page.",
+            "what_changes": "The away competitor’s distinct intention and shared setting become legible before the contest.",
+            "transition": "Turn to W09-P20 for the next physical development.",
             "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+          },
+          {
+            "beat_id": "W09-M06-P20-BREAKOUT",
+            "page_id": "W09-P20",
+            "source_page_id": "W09-P19",
+            "source_commit": "f19354db4649ca1263c94be9ea8d9ed95bc4b83d",
+            "source_beat_ids": [
+              "W09-M06-B02"
+            ],
+            "branch": "COMMON",
+            "shot": "Wide sideline opening, both origins visible",
+            "pose_and_physical_action": "Slob breaks from the near-left starting cylinder toward central low cover while TDS pivots around the far-right wedge, bringing his marker onto the lane. Both markers remain controlled; no paint hits either player. The shared tree line and stationary bunkers match P36.",
+            "what_changes": "The established starting positions become the first exposed crossing.",
+            "transition": "The main image shows the crossing ending in a slide.",
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT",
+            "layout_zone": "breakout"
           },
           {
             "beat_id": "W09-M06-B03",
@@ -1795,7 +1968,8 @@
             "pose_and_physical_action": "Slob drives from cylinder toward central low cover as TDS leans from the far wedge. Paint lands on inflatable cover, not either player.",
             "what_changes": "The first crossing exposes a cost while gaining ground.",
             "transition": "Inset follows the slide from the same left-to-right direction.",
-            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT",
+            "layout_zone": "crossing_slide"
           },
           {
             "beat_id": "W09-M06-B04",
@@ -1805,7 +1979,8 @@
             "pose_and_physical_action": "His current heavyset human build compresses into a short slide; soil scuffs follow the travel direction. Mask stays on; no stale horned redesign.",
             "what_changes": "A forceful advance ends in a defensible position, not victory.",
             "transition": "Countercut to the opponent using the information.",
-            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT",
+            "layout_zone": "crossing_slide"
           },
           {
             "beat_id": "W09-M06-B05",
@@ -1815,7 +1990,8 @@
             "pose_and_physical_action": "TDS leaves the wedge for adjacent tree cover. Central head tracks Slob; outer heads watch flanks; three necks join one body and marker stays below the faces.",
             "what_changes": "The defender changes position rather than freezing for the next shot.",
             "transition": "Turn before either finds a clean final hit.",
-            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+            "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT",
+            "layout_zone": "counter_move"
           },
           {
             "beat_id": "W09-M06-B06",
@@ -1847,6 +2023,15 @@
             "transition": "Keep three head silhouettes distinct and Slob visible beyond the marker.",
             "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
           }
+        ],
+        "historical_sequence_source": {
+          "path": "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+          "commit": "f19354db4649ca1263c94be9ea8d9ed95bc4b83d"
+        },
+        "active_reading_pages": [
+          "W09-P36",
+          "W09-P20",
+          "W09-P21"
         ]
       },
       "next_step": "Use the pre-MNF copy and remaining-player threshold. Completed-lineup stories can prepare the indicated provisional ending; official final result remains unfilled.",

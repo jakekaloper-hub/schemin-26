@@ -1,27 +1,7 @@
 from pathlib import Path
 import json,html,copy
 W=Path(__file__).resolve().parents[2];F=W/'WEEK_9_COMPLETE_ISSUE_PREVIS_2026-11-08.json';j=json.loads(F.read_text());ps={p['page_id']:p for p in j['pages']}
-# A full page has more text than a word-count check. Recompose geometry instead of reducing type.
-for p in ps.values():
- if not p['publication_included']:continue
- l=p['layout_spec'];k=l['archetype'];z=l['zones'];l['type_px']={'headline':58,'deck':36,'body':42,'data':38,'minor':30}
- if k=='split_pov':z={'header':[60,50,960,250],'home_art':[60,325,960,365],'home_pov':[60,710,960,250],'matchup_ribbon':[60,980,960,60],'away_art':[60,1060,960,365],'away_pov':[60,1445,960,250],'stakes':[60,1720,960,135]}
- elif k=='dense_table':z={'header':[60,50,960,250],'landscape':[60,325,960,190],'table':[60,545,960,1110],'note':[60,1685,960,170]}
- elif k=='golf_collage':z={'header':[60,50,960,250],'first_action':[60,325,960,330],'second_action':[60,680,960,330],'reaction':[60,1035,960,200],'body':[60,1260,960,595]}
- elif k=='map':z={'header':[60,50,960,250],'map':[60,325,960,1100],'legend':[60,1455,960,400]}
- elif k=='report_cards':z={'header':[60,50,960,250],'landscape':[60,325,960,210],'report_cards':[60,565,960,1050],'note':[60,1645,960,210]}
- elif k=='realm':z={'header':[60,50,960,250],'landscape':[60,325,960,360],'division_panels':[60,715,960,900],'consequence':[60,1645,960,210]}
- else:z={'header':[60,50,960,250],'art':[60,325,960,875],'body':[60,1225,960,630]}
- l['zones']=z;l['whole_page_fit_state']='MEASUREMENT_PENDING';l['concept_only_art']=True
-# Captions on data pages are deliberately shorter; full prior prose remains in source history.
-short={
-'W09-P03':'Six exact results, one source cutoff. Final margins and postweek records will replace the captured pre-MNF values only after acceptance.',
-'W09-P24':'Official position is not a forecast. Records and seeds below remain the captured entering-week values until the final snapshot is accepted.',
-'W09-P25':'Editorial strength rankings remain separate from official seeds. No final order or movement arrows are published before the comparison is supported.',
-'W09-P26':'The next six pairings are already sourced. Chili–DK is a proposed spotlight, not a selected Game of the Week or a verified postweek narrative.',
-'W09-P40':'ESPN current seed and projected rank are different fields. No playoff percentage was available in the inspected source; none is invented here.'}
-for pid,t in short.items():
- p=ps[pid];p['copy_revision_for_layout']={'prior_body':p['editorial_copy']['body'],'reason':'Avoid repeating departmental methodology in a constrained data page. Full source explanation remains in packet.'};p['editorial_copy']['body']=t;p['editorial_copy']['word_counts']['body']=len(t.split())
+# Current page packets are the only copy/geometry authority; no local overrides.
 # Body31? specifically no source-less sample values; twelve placeholder rows test the worst-case names only.
 teams=['Dr. Duckhook','His Majesty’s Blood','ObiWan Jacoby','Seven Deadly Chins','Slob on my Dobb','The Chili Cheesers','Red Leopards','El Niño','D0nkey K0ng','Three Dreaded Snake','The LLC','Mud Dogs']
 preview_pairs=[('Chili Cheesers','D0nkey K0ng'),('Red Leopards','El Niño'),('Three Dreaded Snake','Seven Deadly Chins'),('Mud Dogs','Slob on my Dobb'),('Dr. Duckhook','His Majesty’s Blood'),('ObiWan Jacoby','The LLC')]
@@ -29,8 +9,9 @@ def esc(x):return html.escape(str(x))
 def box(name,b,content,cl=''):
  x,y,w,h=b;return f'<section class="zone {cl}" data-zone="{name}" style="left:{x}px;top:{y}px;width:{w}px;height:{h}px">{content}</section>'
 def art(p,name):
- v=p['image_tells'] if name in ['art','landscape','map'] else (p.get('source_brief',{}).get('upper_home_frame','Home / action') if name=='home_art' else p.get('source_brief',{}).get('lower_away_frame','Away / action') if name=='away_art' else name.replace('_',' '))
- return '<div class="art-label">ART AREA · NOT GENERATED</div><p>'+esc(v[:90] if name=='landscape' else v[:240])+'</p><div class="horizon"></div>'
+ actions={a.get('zone'):a['action'] for a in p.get('proof_preparation',{}).get('action_blocks',[])}
+ v=actions[name] if name in actions else p['image_tells'] if name in ['art','landscape','map'] else (p.get('source_brief',{}).get('upper_home_frame','Home / action') if name=='home_art' else p.get('source_brief',{}).get('lower_away_frame','Away / action') if name=='away_art' else name.replace('_',' '))
+ return '<div class="art-label">ART AREA · NOT GENERATED</div><p>'+esc(v[:90] if name in ['landscape','breakout','crossing_slide','counter_move'] else v[:240])+'</p><div class="horizon"></div>'
 def table(pid):
  if pid=='W09-P03':
   rows=[['Mud Dogs','—','El Niño','—'],['Dr. Duckhook','—','ObiWan Jacoby','—'],['Red Leopards','—','Seven Deadly Chins','—'],['Chili Cheesers','—','HMB','—'],['D0nkey K0ng','—','The LLC','—'],['Slob on my Dobb','—','TDS','—']];heads=['Home','Pts','Away','Pts']
@@ -49,13 +30,14 @@ for pid in j['reading_order']:
   elif name=='matchup_ribbon':content='<p class="ribbon">HOME / TWO PERSPECTIVES / AWAY</p>';cls='ribbonbox'
   elif name=='stakes':content='<p class="minor">Entering stakes reserved here after source acceptance. No result shown in the overture.</p>';cls='copy'
   elif name=='table':content=table(pid);cls='data'
-  elif name=='note':content='<p class="minor">'+esc(c['body'] if pid in short else 'Reporting content pending source acceptance. Layout study only; not final results or illustrations.')+'</p>';cls='copy'
+  elif name=='note':content='<p class="minor">'+esc(c.get('layout_note',c['body']))+'</p>';cls='copy'
   elif name=='legend':content='<h2>THE SIX HOST LOCATIONS</h2><p class="minor">Country Club of Jackson · Mud Dogs Swamp · Red Leopard Ruins · Chili Stable · Highland Stronghold · Slob Foothill Camp</p><p class="minor">The actual canonical map and labels must fit this area. No invented terrain is shown in this layout study.</p>';cls='copy'
   elif name=='division_panels':content=''.join('<div class="report"><h2>'+t+'</h2><p>Source-bound division consequence: where the race tightens, which comparison matters, and how the next fixture could alter the shared cutoff. Final commentary follows accepted standings.</p></div>' for t in ['BURGERS','PIZZA','WINGS']);cls='copy'
   elif name=='consequence':content='<p class="minor">Current records, projections and mathematically proven status must remain distinct. The cross-league implication is written after final source acceptance.</p>';cls='copy'
   elif name=='report_cards':
    labels=['THE GOOD','THE BAD','THE UGLY'] if pid=='W09-P22' else ['SOURCE','CURRENT EFFECT','WHAT CHANGES NEXT'] if pid in ['W09-P23','W09-P37'] else ['THREE DIVISION ROUTES','FOUR OTHER PLACES','WEEKS 10–14']
-   content=''.join('<div class="report"><h2>'+label+'</h2><p>'+esc('Verified player or team, relevant observed result, affected fantasy roster and a concise consequence. This text reserves report space without claiming a new fact or invented result.')+'</p></div>' for label in labels);cls='copy'
+   cards=c.get('report_cards') or [{'heading':label,'body':'Source-bound report pending. This is a visible placeholder, not a completed injury, transaction or division report.'} for label in labels]
+   content=''.join('<div class="report"><h2>'+esc(card['heading'])+'</h2><p>'+esc(card['body'])+'</p></div>' for card in cards);cls='copy'
   elif name=='body':content='<p>'+esc(c['body'])+'</p>';cls='copy'
   else:content=art(p,name);cls='art'
   parts.append(box(name,b,content,cls))
