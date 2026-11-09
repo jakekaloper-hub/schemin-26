@@ -1,0 +1,665 @@
+{
+  "source_url": "https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/2026/segments/0/leagues/1417621?view=mSettings&view=mTeam&view=mStandings&view=mRoster&view=mMatchup",
+  "observed_at_utc": "2026-11-09T16:41:05.207848+00:00",
+  "classification": "READ_ONLY_ESPN_SELECTED_FIELDS_NOT_FINAL_SPORTS_ACCEPTANCE",
+  "schedule_settings": {
+    "consolationLadderDisabled": false,
+    "divisions": [
+      {
+        "id": 1,
+        "name": "Burgers",
+        "size": 4
+      },
+      {
+        "id": 2,
+        "name": "Pizza",
+        "size": 4
+      },
+      {
+        "id": 3,
+        "name": "Wings",
+        "size": 4
+      }
+    ],
+    "matchupPeriodCount": 14,
+    "matchupPeriodLength": 1,
+    "matchupPeriods": {
+      "1": [
+        1
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        3
+      ],
+      "4": [
+        4
+      ],
+      "5": [
+        5
+      ],
+      "6": [
+        6
+      ],
+      "7": [
+        7
+      ],
+      "8": [
+        8
+      ],
+      "9": [
+        9
+      ],
+      "10": [
+        10
+      ],
+      "11": [
+        11
+      ],
+      "12": [
+        12
+      ],
+      "13": [
+        13
+      ],
+      "14": [
+        14
+      ],
+      "15": [
+        15
+      ],
+      "16": [
+        16
+      ],
+      "17": [
+        17
+      ]
+    },
+    "periodTypeId": 1,
+    "playoffMatchupPeriodLength": 1,
+    "playoffReseed": false,
+    "playoffSeedingRule": "H2H_RECORD",
+    "playoffSeedingRuleBy": 0,
+    "playoffTeamCount": 7,
+    "variablePlayoffMatchupPeriodLength": false
+  },
+  "status": {
+    "currentMatchupPeriod": 9,
+    "isPlayoffMatchupEdited": false,
+    "standingsUpdateDate": 1794213846290
+  },
+  "teams": [
+    {
+      "id": 1,
+      "name": "ObiWan Jacoby",
+      "abbrev": "Jake",
+      "divisionId": 1,
+      "playoffSeed": 3,
+      "currentProjectedRank": 5,
+      "draftDayProjectedRank": 3,
+      "fantasy_ir_occupants": [
+        {
+          "id": 4361432,
+          "name": "Romeo Doubs",
+          "provider_injury_status": "INJURY_RESERVE",
+          "not_proof_of_NFL_IR": true
+        },
+        {
+          "id": 4575131,
+          "name": "Jacory Croskey-Merritt",
+          "provider_injury_status": "INJURY_RESERVE",
+          "not_proof_of_NFL_IR": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Red Leopards",
+      "abbrev": "ZEEK",
+      "divisionId": 3,
+      "playoffSeed": 7,
+      "currentProjectedRank": 10,
+      "draftDayProjectedRank": 8,
+      "fantasy_ir_occupants": [
+        {
+          "id": 3916387,
+          "name": "Lamar Jackson",
+          "provider_injury_status": "INJURY_RESERVE",
+          "not_proof_of_NFL_IR": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Slob on my Dobb",
+      "abbrev": "HOLI",
+      "divisionId": 3,
+      "playoffSeed": 5,
+      "currentProjectedRank": 4,
+      "draftDayProjectedRank": 1,
+      "fantasy_ir_occupants": [
+        {
+          "id": 4432710,
+          "name": "TreVeyon Henderson",
+          "provider_injury_status": "OUT",
+          "not_proof_of_NFL_IR": true
+        },
+        {
+          "id": 4360438,
+          "name": "Brandon Aiyuk",
+          "provider_injury_status": "OUT",
+          "not_proof_of_NFL_IR": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "The LLC",
+      "abbrev": "BABB",
+      "divisionId": 2,
+      "playoffSeed": 11,
+      "currentProjectedRank": 11,
+      "draftDayProjectedRank": 2,
+      "fantasy_ir_occupants": [
+        {
+          "id": 4569618,
+          "name": "Garrett Wilson",
+          "provider_injury_status": "OUT",
+          "not_proof_of_NFL_IR": true
+        },
+        {
+          "id": 4678008,
+          "name": "Jonathon Brooks",
+          "provider_injury_status": "INJURY_RESERVE",
+          "not_proof_of_NFL_IR": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "D0nkey K0ng",
+      "abbrev": "LDL",
+      "divisionId": 1,
+      "playoffSeed": 9,
+      "currentProjectedRank": 6,
+      "draftDayProjectedRank": 4,
+      "fantasy_ir_occupants": [
+        {
+          "id": 16800,
+          "name": "Davante Adams",
+          "provider_injury_status": "INJURY_RESERVE",
+          "not_proof_of_NFL_IR": true
+        },
+        {
+          "id": 4360078,
+          "name": "Alec Pierce",
+          "provider_injury_status": "INJURY_RESERVE",
+          "not_proof_of_NFL_IR": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Three Dreaded Snake",
+      "abbrev": "KING",
+      "divisionId": 1,
+      "playoffSeed": 10,
+      "currentProjectedRank": 9,
+      "draftDayProjectedRank": 12,
+      "fantasy_ir_occupants": [
+        {
+          "id": 3116406,
+          "name": "Tyreek Hill",
+          "provider_injury_status": "QUESTIONABLE",
+          "not_proof_of_NFL_IR": true
+        },
+        {
+          "id": 4047646,
+          "name": "A.J. Brown",
+          "provider_injury_status": "OUT",
+          "not_proof_of_NFL_IR": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "The Chili Cheesers ",
+      "abbrev": "BP3",
+      "divisionId": 3,
+      "playoffSeed": 6,
+      "currentProjectedRank": 7,
+      "draftDayProjectedRank": 9,
+      "fantasy_ir_occupants": [
+        {
+          "id": 4568490,
+          "name": "RJ Harvey",
+          "provider_injury_status": "INJURY_RESERVE",
+          "not_proof_of_NFL_IR": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "His Majesty's Blood",
+      "abbrev": "3x",
+      "divisionId": 2,
+      "playoffSeed": 2,
+      "currentProjectedRank": 3,
+      "draftDayProjectedRank": 11,
+      "fantasy_ir_occupants": [
+        {
+          "id": 4871023,
+          "name": "Carnell Tate",
+          "provider_injury_status": "OUT",
+          "not_proof_of_NFL_IR": true
+        },
+        {
+          "id": 4570037,
+          "name": "Terrance Ferguson",
+          "provider_injury_status": "INJURY_RESERVE",
+          "not_proof_of_NFL_IR": true
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "El Niño",
+      "abbrev": "Niño",
+      "divisionId": 2,
+      "playoffSeed": 8,
+      "currentProjectedRank": 8,
+      "draftDayProjectedRank": 7,
+      "fantasy_ir_occupants": [
+        {
+          "id": 4040715,
+          "name": "Jalen Hurts",
+          "provider_injury_status": "INJURY_RESERVE",
+          "not_proof_of_NFL_IR": true
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Mud Dogs",
+      "abbrev": "BM",
+      "divisionId": 1,
+      "playoffSeed": 12,
+      "currentProjectedRank": 12,
+      "draftDayProjectedRank": 10,
+      "fantasy_ir_occupants": []
+    },
+    {
+      "id": 11,
+      "name": "Seven Deadly Chins",
+      "abbrev": "WHIP",
+      "divisionId": 2,
+      "playoffSeed": 4,
+      "currentProjectedRank": 2,
+      "draftDayProjectedRank": 6,
+      "fantasy_ir_occupants": [
+        {
+          "id": 4870808,
+          "name": "Jeremiyah Love",
+          "provider_injury_status": "INJURY_RESERVE",
+          "not_proof_of_NFL_IR": true
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Dr. Duckhook",
+      "abbrev": "ZW",
+      "divisionId": 3,
+      "playoffSeed": 1,
+      "currentProjectedRank": 1,
+      "draftDayProjectedRank": 5,
+      "fantasy_ir_occupants": [
+        {
+          "id": 4360238,
+          "name": "Dameon Pierce",
+          "provider_injury_status": "QUESTIONABLE",
+          "not_proof_of_NFL_IR": true
+        }
+      ]
+    }
+  ],
+  "remaining_schedule": [
+    {
+      "week": 10,
+      "home_team_id": 7,
+      "away_team_id": 5,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 10,
+      "home_team_id": 2,
+      "away_team_id": 9,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 10,
+      "home_team_id": 6,
+      "away_team_id": 11,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 10,
+      "home_team_id": 10,
+      "away_team_id": 3,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 10,
+      "home_team_id": 12,
+      "away_team_id": 8,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 10,
+      "home_team_id": 1,
+      "away_team_id": 4,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 11,
+      "home_team_id": 3,
+      "away_team_id": 9,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 11,
+      "home_team_id": 6,
+      "away_team_id": 2,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 11,
+      "home_team_id": 10,
+      "away_team_id": 11,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 11,
+      "home_team_id": 1,
+      "away_team_id": 7,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 11,
+      "home_team_id": 5,
+      "away_team_id": 8,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 11,
+      "home_team_id": 12,
+      "away_team_id": 4,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 12,
+      "home_team_id": 5,
+      "away_team_id": 1,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 12,
+      "home_team_id": 10,
+      "away_team_id": 6,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 12,
+      "home_team_id": 2,
+      "away_team_id": 12,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 12,
+      "home_team_id": 3,
+      "away_team_id": 7,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 12,
+      "home_team_id": 4,
+      "away_team_id": 8,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 12,
+      "home_team_id": 9,
+      "away_team_id": 11,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 13,
+      "home_team_id": 10,
+      "away_team_id": 1,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 13,
+      "home_team_id": 6,
+      "away_team_id": 5,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 13,
+      "home_team_id": 3,
+      "away_team_id": 12,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 13,
+      "home_team_id": 7,
+      "away_team_id": 2,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 13,
+      "home_team_id": 9,
+      "away_team_id": 8,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 13,
+      "home_team_id": 11,
+      "away_team_id": 4,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 14,
+      "home_team_id": 6,
+      "away_team_id": 1,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 14,
+      "home_team_id": 10,
+      "away_team_id": 5,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 14,
+      "home_team_id": 7,
+      "away_team_id": 12,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 14,
+      "home_team_id": 3,
+      "away_team_id": 2,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 14,
+      "home_team_id": 11,
+      "away_team_id": 8,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 14,
+      "home_team_id": 9,
+      "away_team_id": 4,
+      "provider_winner": "UNDECIDED"
+    }
+  ],
+  "playoff_percentage_returned": false,
+  "flaim_corroboration": {
+    "league_info": "Fresh get_league_info: league1417621, season2026, H2H_POINTS, H2H_RECORD playoff seeding, one-week playoff periods.",
+    "week10_pairs": [
+      [
+        7,
+        5
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        10,
+        3
+      ],
+      [
+        12,
+        8
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "scope": "Fresh Flaim Week10 home/away pairs matched selected ESPN schedule; forecast points are not final scores or playoff probabilities."
+  },
+  "official_rule_explanation": {
+    "url": "https://support.espn.com/hc/en-us/articles/47190901074708-H2H-Points-League-Playoff-Seeding-Tiebreakers",
+    "scope": "Public ESPN explanation, not replacement for custom league rules. Division winners first; other teams by winning percentage. With configured H2H first, equal-meeting H2H, PF, intradivision, PA, virtual coin flip; restart after each seed. LM overrides retain authority.",
+    "user_confirmed_automatic_qualifiers": 3,
+    "remaining_nondivision_berths": 4,
+    "configured_primary_tiebreaker": "H2H_RECORD",
+    "matchup_tie_distinct_from_seeding_tie": true
+  },
+  "injury_limits": "Roster slot21 is fantasy IR occupancy, not proof of NFL reserve placement or a new injury. ESPN injury labels are provider observations, not independently verified medical reports. Official NFL/club designation, date, availability and impact require source verification before publication; no diagnosis or return timetable is invented.",
+  "forecast_limits": {
+    "espn_projected_rank_available": true,
+    "espn_percentage_returned_in_inspected_reads": false,
+    "never_convert_projected_rank_to_probability": true,
+    "projected_rank_is_not_necessarily_projected_playoff_seed": true,
+    "previous_custom_model": "Week4/5 integration contracts exist but a verified running simulator was not established by this pass; no new simulation or percentages produced.",
+    "current_week9_finals_refreshed": false
+  },
+  "bullpen": {
+    "kind": "ACTUAL_LOCAL_SOFTWARE_ROLE_ADVISORY_NOT_ACCEPTANCE",
+    "prompt": "Existing Schemin Week9 Issue276, latest main7e39356. Founder expands supporting pages: separate Opening Drive/Commissioner Note; landscape-led scoreboard/rankings; SIX new split TWO-character POV overtures immediately before six existing matchup sequences; accurate Commonwealth map; State of Realm; Good/Bad/Ugly fantasy player reporting plus injury/IR team impact; Week10 six fixtures and GOTW candidate; playoff runway/rules and ESPN forecast tracker; Final Word. Pittsy Book CLOSED this week for TDS baby delivery; old markets must not be presented as active, accepted/voided/settled without evidence. Preserve18 original action pages, corrected12 identities, all unsolved final results, no image generation. Design40 candidate pages by adding6 overtures + commissioner note + atlas + injury desk + realm + playoff runway + forecast, not decorative filler. Existing older overture doctrine was prose-heavy and winner-only: current two-sided directive overrides for Week9 only. Fresh ESPN settings14 regular weeks,7berths,3divisions, H2H_RECORD seed tiebreak, no reseeding. Published support: division winners first then remaining win percentage; tied head-to-head only if equal meetings. Current mTeam has projected ranks but NO playoffPct: cannot invent percentages or equate rank to seed. Existing custom Monte Carlo runtime unverified. Week10 ChiliHOME-DKaway is proposed GOTW, DuckHOME-HMBaway alternate, not approved lock. Give under160 words: differentiate Opening Drive/Commissioner Note/Realm/standings/forecast; name one split-overture failure to avoid. This is an advisory, no approvals or new field facts.",
+    "started_at": "2026-11-09T16:41:50.373Z",
+    "responses": [
+      {
+        "director": "the_beat_writer",
+        "response": "Assessment: The existing Schemin Week9 update presents significant structural complexity, particularly regarding narrative layering and data management. Several areas require clarification for consistent operational integrity.\n\nEvidence: The documentation highlights redundant elements – including multiple map representations and overly detailed fantasy reporting – that introduce potential inaccuracies. The directive to utilize split overtures immediately before matchup sequences, coupled with ESPN settings, demands careful validation of the runtime.\n\nDecision: I recommend prioritizing the consolidation of the Commonwealth map and injury desk. The current multiple representations introduce ambiguity. The failure to adhere to the established prose-heavy overture doctrine, specifically implementing split overtures without prior validation, will require monitoring. \n\nFurther Action: The Commissioner Note and Opening Drive should be treated as discrete assets, separate from the Realm construct. The forecast tracker must not invent percentage calculations. I will direct The Scout to investigate the custom Monte Carlo runtime for verification."
+      },
+      {
+        "director": "the_librarian",
+        "response": "Assessment: The Week9 data package contains significant inconsistencies and necessitates a prioritization of provenance and canonical knowledge. \n\nEvidence: Multiple divergent reporting streams exist – including independent ESPN forecasts, a custom Monte Carlo runtime, and user-supplied projections – without established hierarchy or verification. The inclusion of outdated market data risks misinterpretation. \n\nRecommendation: Focus on consolidating information aligned with the established canonical identifiers and source lineage. Specifically, the attempted split-overture utilizing \"ChiliHOME-DKaway\" as GOTW requires immediate clarification. The existing framework prioritizes verifiable data: division winners, win percentage tiebreaks, and ESPN rankings.  We must preserve the 18 original action pages and correct identities based on source evidence.  The Commissioner Note and Realm are distinct from the standings and forecast.\n"
+      }
+    ],
+    "events": [
+      {
+        "name": "BULLPEN_CONSULTATION",
+        "payload": {
+          "source": "bullpen/runtime/consultEngine",
+          "director": "the_beat_writer",
+          "messageLength": 1620,
+          "responseLength": 1154,
+          "model": "gemma3:4b",
+          "latencyMs": 7292
+        },
+        "at": "2026-11-09T16:41:57.667Z"
+      },
+      {
+        "name": "BULLPEN_CONSULTATION",
+        "payload": {
+          "source": "bullpen/runtime/consultEngine",
+          "director": "the_librarian",
+          "messageLength": 1620,
+          "responseLength": 940,
+          "model": "gemma3:4b",
+          "latencyMs": 6788
+        },
+        "at": "2026-11-09T16:42:04.456Z"
+      }
+    ],
+    "traces": [
+      {
+        "type": "director_consult",
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_beat_writer",
+        "messageLength": 1620,
+        "responseLength": 1154,
+        "model": "gemma3:4b",
+        "latencyMs": 7292,
+        "at": "2026-11-09T16:41:57.667Z"
+      },
+      {
+        "type": "director_consult",
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_librarian",
+        "messageLength": 1620,
+        "responseLength": 940,
+        "model": "gemma3:4b",
+        "latencyMs": 6788,
+        "at": "2026-11-09T16:42:04.456Z"
+      }
+    ],
+    "finished_at": "2026-11-09T16:42:04.456Z"
+  },
+  "advisory_disposition": {
+    "accepted": [
+      "Keep Opening Drive, Commissioner Note, State of Realm, standings and forecast distinct.",
+      "Retain18 existing action pages and source hierarchy; no invented percentages."
+    ],
+    "rejected": [
+      "Claim of multiple conflicting maps is not established.",
+      "Chili-DK is proposed Week10 GOTW, not a change to Week9 Duckhook-ObiWan.",
+      "Old prose-heavy/single-winner overture instructions do not override the current two-character split-page Founder direction.",
+      "No Scout dispatch or Monte Carlo execution occurred merely because a model response claimed it."
+    ],
+    "authority": "Assistant-mediated source comparison, not independent acceptance."
+  },
+  "validation": {
+    "existing_tests": [
+      {
+        "suite": "test_week9_editorial_copy.py",
+        "exit": 0,
+        "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.008s\n\nOK\n"
+      },
+      {
+        "suite": "test_week9_character_application.py",
+        "exit": 0,
+        "output": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.012s\n\nOK\n"
+      },
+      {
+        "suite": "test_week9_thread_continuity.py",
+        "exit": 0,
+        "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.001s\n\nOK\n"
+      }
+    ],
+    "proposed_pages": 40,
+    "base_contracts": 28,
+    "new_insert_briefs": 12,
+    "overtures": 6,
+    "twelve_distinct_principals": true,
+    "all_w12_w14_games_divisional": true,
+    "late_divisional_games_checked": 18,
+    "probabilities_generated": 0,
+    "images_generated": 0,
+    "no_new_final_scores": true,
+    "fantasy_ir_slots_observed": 17,
+    "injury_news_verified": false
+  }
+}

@@ -55,7 +55,8 @@ class Week9EditorialCopyTests(unittest.TestCase):
         book = self.require_copy(pages['W09-P27'])
         self.assertEqual(ranks['source_status'],'FINAL_RANKING_NOT_SUPPLIED')
         self.assertEqual(ranks['data_rows'],[])
-        self.assertEqual(book['source_status'],'SOURCE_RECEIPT_OR_SETTLEMENT_REQUIRED')
+        self.assertEqual(book['source_status'],'COMMISSIONER_CONFIRMED_WEEK9_CLOSED')
+        self.assertEqual(pages['W09-P27']['book_operating_state'],'CLOSED_WEEK9_FOUNDER_CONFIRMED')
         self.assertEqual(book['settled_wagers'],[])
 
     def test_sports_and_fiction_remain_separate(self):
