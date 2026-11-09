@@ -5,13 +5,19 @@
 **Current status:** `CREATIVE_INTERVIEW_RECORDED / PREVIS_CANDIDATES_PREPARED / CANONICAL_SNAPSHOT_LOCK_BLOCKED / FACT_LOCK_BLOCKED / NOT_RELEASED`.  
 **Not a new OS or a new mission.**
 
+## Latest bounded reference review — supplied screenshots + FFHub
+
+[Reviewed samples, optional analytics and next-thread handoff](./production-evidence/reference-review-2026-11-09/REVIEW.md) · [source/hash/method receipt](./production-evidence/reference-review-2026-11-09/REVIEW.json).
+
+Seven supplied `crisper.visions` screenshots have now been inspected; the former access limitation is superseded for THESE samples. Week8 remains the primary issue-design benchmark. The active page packets carry atmosphere/scale/material guidance without importing characters or geography. FFHub features/methods were examined as optional support for existing forecast/rankings/Realm/runway/preview pages; no Schemin-specific run or probabilities exist.35pages, existing order, known rendering failure and final-data holds remain unchanged. No new side project, extra page or credential sharing.
+
 ## Current production continuation — coverage-first35-page convergence
 
 [Executed review and40-to35 preservation map](./WEEK_9_CONVERGENCE_REVIEW_2026-11-09.md) · [Reading and generation orders](./WEEK_9_READING_AND_PRODUCTION_ORDER_2026-11-09.json) · [Full-page layout rehearsal](./WEEK_9_FULL_PAGE_LAYOUT_REHEARSAL_2026-11-09.html).
 
 **The active register now contains40 source records and35 included page contracts.** Five repeated setup carriers remain in source records with exact destinations; no unique requested department is removed. All12 insertions have full preproduction fields and draft copy. Commissioner Note, Realm and Chili cart-setup each retain a dedicated page. The35-page selection is an editorial convergence decision, not accepted art or release authorization.
 
-All40 original functions received Q1–Q10 answers and preservation decisions in `convergence_review.coverage`. Actual Week8 PDF visuals were reviewed; `crisper.visions` comparison is pending access.35 layout states were checked for prototype text overflow; final art, final facts, map labels and selected endings still need real page QA. `reading_order` is audience order; `production_queue` is a blocked dependency-aware work list, not an acknowledged worker queue. All final winners remain null. The active sports snapshot is explicitly the existing Nov9 pre-MNF source; this pass did not refresh results or schedule tomorrow's execution.
+All40 original functions received Q1–Q10 answers and preservation decisions in `convergence_review.coverage`. Actual Week8 PDF visuals were reviewed; the seven newly supplied `crisper.visions` samples are reviewed (see latest reference review); no whole-account comparison is claimed.35 layout states were checked for prototype text overflow; final art, final facts, map labels and selected endings still need real page QA. `reading_order` is audience order; `production_queue` is a blocked dependency-aware work list, not an acknowledged worker queue. All final winners remain null. The active sports snapshot is explicitly the existing Nov9 pre-MNF source; this pass did not refresh results or schedule tomorrow's execution.
 
 Older28-page reading proof and40-position expansion remain source history. Use this active register and queue, not older counts, for continuation. No renewed questionnaire, character audit or repeated failed all-cast poster generation.
 

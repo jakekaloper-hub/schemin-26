@@ -97,7 +97,7 @@ All40 source positions have Q1–Q10 answers, evidence selectors, responsible re
 
 ## Visual benchmark
 
-The exact official20-page Week8 PDF was rendered without modification. Both contact sheets and full scoreboard/overture pages were inspected. Retain cinematic depth, consistent gilt/black framing, meaningful action/aftermath and quiet copy surfaces. Improve repetitive dense two-column prose and scale data surfaces for12teams rather than reuse6-score-row geometry. Current character canon still overrides historical appearances. The exact `crisper.visions` profile could not be accessed; no sample-based comparison or superiority claim is made.
+The exact official20-page Week8 PDF was rendered without modification. Both contact sheets and full scoreboard/overture pages were inspected. Retain cinematic depth, consistent gilt/black framing, meaningful action/aftermath and quiet copy surfaces. Improve repetitive dense two-column prose and scale data surfaces for12teams rather than reuse6-score-row geometry. Current character canon still overrides historical appearances. At this earlier convergence pass the exact profile was inaccessible. The subsequent [seven supplied screenshot review](production-evidence/reference-review-2026-11-09/REVIEW.md) now provides sample-based craft observations. No whole-account comparison or superiority claim is made.
 
 ## UI/UX and current limits
 

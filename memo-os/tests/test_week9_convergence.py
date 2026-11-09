@@ -39,7 +39,19 @@ class ConvergenceTests(unittest.TestCase):
   self.assertIn('2026-11-09',self.issue['active_sports_source']['as_of']);self.assertFalse(self.issue['active_sports_source']['final_results_accepted'])
   self.assertEqual(self.pages['W09-P27']['book_operating_state'],'CLOSED_WEEK9_FOUNDER_CONFIRMED')
   self.assertFalse(self.pages['W09-P40']['forecast_contract']['percentages_available'])
-  self.assertFalse(self.review['comparison']['crisper_visions']['visual_samples_inspected']);self.assertFalse(self.review['publication_approved'])
+  visual=self.review['comparison']['crisper_visions']
+  self.assertTrue(visual['visual_samples_inspected']);self.assertEqual(visual['sample_count'],7)
+  self.assertEqual(visual['state'],'SEVEN_FOUNDER_SCREENSHOT_SAMPLES_REVIEWED_NOT_FULL_ACCOUNT')
+  receipt=json.loads((WEEK/visual['receipt']).read_text())
+  self.assertEqual(len(receipt['visual_source']['source_screenshots']),7)
+  self.assertEqual(receipt['scope_preservation']['new_images_generated'],0)
+  self.assertFalse(receipt['scope_preservation']['final_results_refreshed'])
+  self.assertFalse(self.review['publication_approved'])
+  for page in self.pages.values():
+   if 'optional_external_analytics' in page:
+    optional=page['optional_external_analytics']
+    self.assertEqual(optional['state'],'NOT_RUN_NOT_ACCEPTED')
+    self.assertFalse(optional['blocking_dependency']);self.assertFalse(optional['append_pages'])
  def test_generation_queue_not_enabled_by_clock(self):
   self.assertEqual(self.issue['production_queue'][0]['page_id'],'W09-P05')
   for q in self.issue['production_queue']:
