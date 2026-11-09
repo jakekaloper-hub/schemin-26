@@ -97,3 +97,7 @@ The all12 output audit is implemented in the active issue, source cards and page
 ## November 9 pre-MNF continuation
 
 The [Monday-night report](WEEK_9_PRE_MNF_SPORTS_AND_ENDINGS_2026-11-09.md) and [fresh checks](WEEK_9_PRE_MNF_REFRESH_2026-11-09.json) reuse PR292, add the8 current starting participants and exact net-score conditions, and advance six copy/ending packets. Chili/HMB and DK/LLC have no starters remaining, but all provider results remain undecided. The source/character corrections and original Founder wording are unchanged.
+
+## Latest editorial execution — November 9
+
+The [page-copy proof](WEEK_9_EDITORIAL_COPY_PROOF_2026-11-09.html) now reads through all28 folios. It contains18 cinematic page narratives and12 separately labeled possible finales, with factual insets drawn only from the saved pre-MNF source. P25 final ranking and P27 posted/settled Book records still need source work. This advances actual prose, not a new plan, image generation or result acceptance. Current character correction and original source capture are unchanged.

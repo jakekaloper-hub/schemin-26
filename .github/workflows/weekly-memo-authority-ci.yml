@@ -34,6 +34,8 @@ jobs:
         run: python -m unittest discover -s memo-os/tests -p 'test_week9_thread_continuity.py' -v
       - name: Apply current Week9 character authority to page inputs
         run: python -m unittest discover -s memo-os/tests -p 'test_week9_character_application.py' -v
+      - name: Verify Week9 page-copy coverage and nonfinal boundaries
+        run: python -m unittest discover -s memo-os/tests -p 'test_week9_editorial_copy.py' -v
       - name: Validate publication manifest
         run: python governance/publication-manifest/validate_publication_manifest.py
       - name: Test deterministic Memo resolver
