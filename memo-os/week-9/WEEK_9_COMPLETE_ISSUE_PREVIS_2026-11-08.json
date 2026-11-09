@@ -1651,7 +1651,15 @@
           "provisional_location": true,
           "world_resolution": "PLANNING_PARENT_RESOLVED__EVENT_FEATURE_REVIEW_PENDING"
         },
-        "readiness": "FULL_PACKET_WITH_EXPLICIT_UNRESOLVED_DEPENDENCIES_NOT_RENDER_READY"
+        "readiness": "FULL_PACKET_WITH_EXPLICIT_UNRESOLVED_DEPENDENCIES_NOT_RENDER_READY",
+        "isolated_input_kit": {
+          "manifest": "production-evidence/production-inputs-2026-11-09/P05_SINGLE_PAGE_INPUTS/manifest.json",
+          "zip": "production-evidence/production-inputs-2026-11-09/W09_P05_SINGLE_PAGE_INPUTS.zip",
+          "source_commit": "7dd8e5f1f013670ff8d75f5fba4d7b7cb07c007d",
+          "state": "EXPORTED_REFERENCE_BYTES_NOT_PROVIDER_BINDING",
+          "layout_selection": "CURRENT_layout_spec",
+          "no_render_submission": true
+        }
       },
       "factual_inset_policy": "One final score/cause strip on chapter payoff; chapter-opening compact entering stakes. Do not repeat the full pre-MNF inset on every physical page.",
       "external_visual_craft_guidance": {
@@ -16580,5 +16588,14 @@
     "ffhub": "FEATURES_AND_METHOD_REVIEW_ONLY_NO_SCHEMIN_RUN",
     "identity_changes": false,
     "review_date": "2026-11-09"
+  },
+  "production_input_tools": {
+    "path": "prepare_production_inputs.py",
+    "result_mode": "NONMUTATING_PROPOSALS_ONLY",
+    "source_acceptance_unchanged": true,
+    "example_observation": "production-evidence/production-inputs-2026-11-09/FLAIM_WEEK9_STATUS.json",
+    "actual_last_run": "production-evidence/production-inputs-2026-11-09/RESULT_HANDOFF_DRY_RUN.json",
+    "last_run_status": "WAITING_PROVIDER_FINALITY",
+    "reconciled_final_results": 0
   }
 }

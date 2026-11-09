@@ -38,6 +38,8 @@ jobs:
         run: python -m unittest discover -s memo-os/tests -p 'test_week9_editorial_copy.py' -v
       - name: Validate Week9 no-loss convergence and generation order
         run: python -m unittest discover -s memo-os/tests -p 'test_week9_convergence.py' -v
+      - name: Verify Week9 offline result proposals and isolated page inputs
+        run: python -m unittest discover -s memo-os/tests -p 'test_week9_production_inputs.py' -v
       - name: Validate publication manifest
         run: python governance/publication-manifest/validate_publication_manifest.py
       - name: Test deterministic Memo resolver

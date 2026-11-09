@@ -1,0 +1,83 @@
+{
+  "kind": "ISOLATED_EXISTING_NEUTRAL_PAGE_INPUTS_NOT_AN_IMAGE",
+  "page_id": "W09-P05",
+  "reading_position": 6,
+  "source_packet_sha256": "57ff1d0d66102b3d3e3181284ebfb6a7ef39b50d95648c26e349a1fc3ad933fa",
+  "canvas": [
+    1080,
+    1920
+  ],
+  "exact_cast": [
+    "CHAR-ZACH-WILSON",
+    "CHAR-JAKE-KALOPER"
+  ],
+  "reference_files": [
+    {
+      "character_id": "CHAR-ZACH-WILSON",
+      "file": "CHAR-ZACH-WILSON.png",
+      "sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+      "repository_source": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+      "authority_file": "CHAR-ZACH-WILSON-appearance.json",
+      "authority_sha256": "f1a8ffaa33809b9433e5b6b117a161bf38bcbae914324512161a23d915add6d9",
+      "identity_approval_reopened": false
+    },
+    {
+      "character_id": "CHAR-JAKE-KALOPER",
+      "file": "CHAR-JAKE-KALOPER.png",
+      "sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+      "repository_source": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+      "authority_file": "CHAR-JAKE-KALOPER-appearance.json",
+      "authority_sha256": "83ae608eba9ba47cc18637d8dce9fd46bc07d82d9064a09d240113d97cb1f1d3",
+      "identity_approval_reopened": false
+    }
+  ],
+  "renderer_binding_proven": false,
+  "artwork_generated": false,
+  "render_authorized": false,
+  "release_approved": false,
+  "actual_result_selected": false,
+  "contains_final_scores": false,
+  "layout_authority": "Current layout_spec, NOT earlier proof_preparation.layout",
+  "purpose": "Explicit two-reference inputs for an authorized narrow provider route; no whole-issue context or all-cast board.",
+  "remaining_gates": [
+    "Actual authorized provider attachment and reference fidelity",
+    "Applicable scene review",
+    "Generated-image inspection",
+    "Final data/copy before publication"
+  ],
+  "no_paid_route_enabled": true,
+  "files": {
+    "CHAR-ZACH-WILSON.png": {
+      "sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+      "bytes": 225523
+    },
+    "CHAR-ZACH-WILSON-appearance.json": {
+      "sha256": "f1a8ffaa33809b9433e5b6b117a161bf38bcbae914324512161a23d915add6d9",
+      "bytes": 3107
+    },
+    "CHAR-JAKE-KALOPER.png": {
+      "sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+      "bytes": 320465
+    },
+    "CHAR-JAKE-KALOPER-appearance.json": {
+      "sha256": "83ae608eba9ba47cc18637d8dce9fd46bc07d82d9064a09d240113d97cb1f1d3",
+      "bytes": 3074
+    },
+    "COPY.txt": {
+      "sha256": "2eaa1f8c553570e162c7cf3f6059eeb13608eb167427dcb1c0bfda50ea6c6cda",
+      "bytes": 480
+    },
+    "layout.json": {
+      "sha256": "75c9490adf56e1f0897567f77f51abc33560891c86ddff587d1746a18a53a62e",
+      "bytes": 1219
+    },
+    "COMMISSION.md": {
+      "sha256": "fe0595c98f3f929d102c14a0d9cff247694841da95899fe2a634b2e0ed8e894b",
+      "bytes": 3212
+    },
+    "REVIEW.html": {
+      "sha256": "2c9f4ee02cff0c77a56f50c96d86a97ec30d4242226c65433d145351613379a0",
+      "bytes": 1550
+    }
+  }
+}
