@@ -1,0 +1,95 @@
+{
+  "schema": "schemin26.week8_9_comparison.v1",
+  "run_id": "S26-MEMO-W09-20261109",
+  "trace_id": "TRACE-S26-MEMO-20261109-1417621",
+  "source": "Flaim ESPN mTransactions2 stable-id full-row comparison",
+  "prior_path": "memo-os/week-9/WEEK_8_FINAL_WEEK_9_PROVIDER_EVIDENCE_2026-11-08.json",
+  "week8": {
+    "previous": 32,
+    "current": 32,
+    "added": [],
+    "removed": [],
+    "modified": [],
+    "unchanged": 32,
+    "status_distribution": {
+      "complete": 28,
+      "unknown": 1,
+      "pending": 1,
+      "failed": 1,
+      "canceled": 1
+    },
+    "source": "mTransactions2",
+    "limitations": {
+      "structured_details_incomplete": true
+    },
+    "truncated": false,
+    "dropped_invalid_timestamp_count": 0
+  },
+  "week9": {
+    "previous": 42,
+    "current": 42,
+    "added": [],
+    "removed": [],
+    "modified": [],
+    "unchanged": 42,
+    "status_distribution": {
+      "complete": 32,
+      "canceled": 4,
+      "pending": 4,
+      "unknown": 2
+    },
+    "source": "mTransactions2",
+    "limitations": {
+      "structured_details_incomplete": true
+    },
+    "truncated": false,
+    "dropped_invalid_timestamp_count": 0
+  },
+  "week9_matchup_winners": [
+    {
+      "home": "Mud Dogs",
+      "away": "El Niño",
+      "winner": "UNDECIDED",
+      "home_points": 84.2,
+      "away_points": 104.74
+    },
+    {
+      "home": "Dr. Duckhook",
+      "away": "ObiWan Jacoby",
+      "winner": "UNDECIDED",
+      "home_points": 148.76,
+      "away_points": 144.46
+    },
+    {
+      "home": "Red Leopards",
+      "away": "Seven Deadly Chins",
+      "winner": "UNDECIDED",
+      "home_points": 112.78,
+      "away_points": 103.38
+    },
+    {
+      "home": "The Chili Cheesers",
+      "away": "His Majesty's Blood",
+      "winner": "UNDECIDED",
+      "home_points": 152.84,
+      "away_points": 135.08
+    },
+    {
+      "home": "D0nkey K0ng",
+      "away": "The LLC",
+      "winner": "UNDECIDED",
+      "home_points": 158.7,
+      "away_points": 129.89
+    },
+    {
+      "home": "Slob on my Dobb",
+      "away": "Three Dreaded Snake",
+      "winner": "UNDECIDED",
+      "home_points": 141.2,
+      "away_points": 152.26
+    }
+  ],
+  "week8_final_scores_unchanged": true,
+  "week9_live_score_rows_changed": 6,
+  "week10_preview_source": "Authenticated ESPN via Flaim, independently reconciled with earlier parsed gateway; not released schedule Fact Lock."
+}
