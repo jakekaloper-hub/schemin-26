@@ -5,6 +5,16 @@
 **Current status:** `CREATIVE_INTERVIEW_RECORDED / PREVIS_CANDIDATES_PREPARED / CANONICAL_SNAPSHOT_LOCK_BLOCKED / FACT_LOCK_BLOCKED / NOT_RELEASED`.  
 **Not a new OS or a new mission.**
 
+## Current production continuation — coverage-first35-page convergence
+
+[Executed review and40-to35 preservation map](./WEEK_9_CONVERGENCE_REVIEW_2026-11-09.md) · [Reading and generation orders](./WEEK_9_READING_AND_PRODUCTION_ORDER_2026-11-09.json) · [Full-page layout rehearsal](./WEEK_9_FULL_PAGE_LAYOUT_REHEARSAL_2026-11-09.html).
+
+**The active register now contains40 source records and35 included page contracts.** Five repeated setup carriers remain in source records with exact destinations; no unique requested department is removed. All12 insertions have full preproduction fields and draft copy. Commissioner Note, Realm and Chili cart-setup each retain a dedicated page. The35-page selection is an editorial convergence decision, not accepted art or release authorization.
+
+All40 original functions received Q1–Q10 answers and preservation decisions in `convergence_review.coverage`. Actual Week8 PDF visuals were reviewed; `crisper.visions` comparison is pending access.35 layout states were checked for prototype text overflow; final art, final facts, map labels and selected endings still need real page QA. `reading_order` is audience order; `production_queue` is a blocked dependency-aware work list, not an acknowledged worker queue. All final winners remain null. The active sports snapshot is explicitly the existing Nov9 pre-MNF source; this pass did not refresh results or schedule tomorrow's execution.
+
+Older28-page reading proof and40-position expansion remain source history. Use this active register and queue, not older counts, for continuation. No renewed questionnaire, character audit or repeated failed all-cast poster generation.
+
 ## Supporting-page expansion — current Founder direction, November9
 
 [WEEK_9_SUPPORTING_PAGES_AND_POV_PLAN_2026-11-09](./WEEK_9_SUPPORTING_PAGES_AND_POV_PLAN_2026-11-09.md) · [structured insertion briefs](./WEEK_9_SUPPORTING_PAGES_AND_POV_PLAN_2026-11-09.json). **40-slot candidate reading map:28 existing base contracts +12 planned insertions**, including6 two-character split POV overtures, Commissioner Note, Atlas, injury desk, Realm, playoff runway and ESPN forecast tracker. New insertion briefs are not rendered/accepted pages. P27 is now a one-week CLOSED Book page for the family arrival; older market-page instructions are superseded, not proof of ticket cancellation or settlement. Existing18 action pages remain unchanged. The28-page reading proof is a base artifact, not the expanded issue.

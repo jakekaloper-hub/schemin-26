@@ -1,0 +1,67 @@
+from pathlib import Path
+import json,html,copy
+W=Path(__file__).resolve().parents[2];F=W/'WEEK_9_COMPLETE_ISSUE_PREVIS_2026-11-08.json';j=json.loads(F.read_text());ps={p['page_id']:p for p in j['pages']}
+# A full page has more text than a word-count check. Recompose geometry instead of reducing type.
+for p in ps.values():
+ if not p['publication_included']:continue
+ l=p['layout_spec'];k=l['archetype'];z=l['zones'];l['type_px']={'headline':58,'deck':36,'body':42,'data':38,'minor':30}
+ if k=='split_pov':z={'header':[60,50,960,250],'home_art':[60,325,960,365],'home_pov':[60,710,960,250],'matchup_ribbon':[60,980,960,60],'away_art':[60,1060,960,365],'away_pov':[60,1445,960,250],'stakes':[60,1720,960,135]}
+ elif k=='dense_table':z={'header':[60,50,960,250],'landscape':[60,325,960,190],'table':[60,545,960,1110],'note':[60,1685,960,170]}
+ elif k=='golf_collage':z={'header':[60,50,960,250],'first_action':[60,325,960,330],'second_action':[60,680,960,330],'reaction':[60,1035,960,200],'body':[60,1260,960,595]}
+ elif k=='map':z={'header':[60,50,960,250],'map':[60,325,960,1100],'legend':[60,1455,960,400]}
+ elif k=='report_cards':z={'header':[60,50,960,250],'landscape':[60,325,960,210],'report_cards':[60,565,960,1050],'note':[60,1645,960,210]}
+ elif k=='realm':z={'header':[60,50,960,250],'landscape':[60,325,960,360],'division_panels':[60,715,960,900],'consequence':[60,1645,960,210]}
+ else:z={'header':[60,50,960,250],'art':[60,325,960,875],'body':[60,1225,960,630]}
+ l['zones']=z;l['whole_page_fit_state']='MEASUREMENT_PENDING';l['concept_only_art']=True
+# Captions on data pages are deliberately shorter; full prior prose remains in source history.
+short={
+'W09-P03':'Six exact results, one source cutoff. Final margins and postweek records will replace the captured pre-MNF values only after acceptance.',
+'W09-P24':'Official position is not a forecast. Records and seeds below remain the captured entering-week values until the final snapshot is accepted.',
+'W09-P25':'Editorial strength rankings remain separate from official seeds. No final order or movement arrows are published before the comparison is supported.',
+'W09-P26':'The next six pairings are already sourced. Chili–DK is a proposed spotlight, not a selected Game of the Week or a verified postweek narrative.',
+'W09-P40':'ESPN current seed and projected rank are different fields. No playoff percentage was available in the inspected source; none is invented here.'}
+for pid,t in short.items():
+ p=ps[pid];p['copy_revision_for_layout']={'prior_body':p['editorial_copy']['body'],'reason':'Avoid repeating departmental methodology in a constrained data page. Full source explanation remains in packet.'};p['editorial_copy']['body']=t;p['editorial_copy']['word_counts']['body']=len(t.split())
+# Body31? specifically no source-less sample values; twelve placeholder rows test the worst-case names only.
+teams=['Dr. Duckhook','His Majesty’s Blood','ObiWan Jacoby','Seven Deadly Chins','Slob on my Dobb','The Chili Cheesers','Red Leopards','El Niño','D0nkey K0ng','Three Dreaded Snake','The LLC','Mud Dogs']
+preview_pairs=[('Chili Cheesers','D0nkey K0ng'),('Red Leopards','El Niño'),('Three Dreaded Snake','Seven Deadly Chins'),('Mud Dogs','Slob on my Dobb'),('Dr. Duckhook','His Majesty’s Blood'),('ObiWan Jacoby','The LLC')]
+def esc(x):return html.escape(str(x))
+def box(name,b,content,cl=''):
+ x,y,w,h=b;return f'<section class="zone {cl}" data-zone="{name}" style="left:{x}px;top:{y}px;width:{w}px;height:{h}px">{content}</section>'
+def art(p,name):
+ v=p['image_tells'] if name in ['art','landscape','map'] else (p.get('source_brief',{}).get('upper_home_frame','Home / action') if name=='home_art' else p.get('source_brief',{}).get('lower_away_frame','Away / action') if name=='away_art' else name.replace('_',' '))
+ return '<div class="art-label">ART AREA · NOT GENERATED</div><p>'+esc(v[:90] if name=='landscape' else v[:240])+'</p><div class="horizon"></div>'
+def table(pid):
+ if pid=='W09-P03':
+  rows=[['Mud Dogs','—','El Niño','—'],['Dr. Duckhook','—','ObiWan Jacoby','—'],['Red Leopards','—','Seven Deadly Chins','—'],['Chili Cheesers','—','HMB','—'],['D0nkey K0ng','—','The LLC','—'],['Slob on my Dobb','—','TDS','—']];heads=['Home','Pts','Away','Pts']
+ elif pid=='W09-P26':heads=['Home','Away'];rows=[list(p) for p in preview_pairs]
+ elif pid=='W09-P40':heads=['Team','Seed','Projected'];rows=[[t,'—','—'] for t in teams]
+ elif pid=='W09-P25':heads=['Team','Order'];rows=[[t,'—'] for t in teams]
+ else:
+  return '<table><thead><tr><th>Team</th><th>Record</th><th>Seed</th></tr></thead><tbody>'+''.join('<tr class=division><th colspan=3>'+d+'</th></tr>'+''.join('<tr><td>'+t+'</td><td>—</td><td>—</td></tr>' for t in members) for d,members in [('BURGERS',['ObiWan Jacoby','D0nkey K0ng','Three Dreaded Snake','Mud Dogs']),('PIZZA',["His Majesty’s Blood",'Seven Deadly Chins','El Niño','The LLC']),('WINGS',['Dr. Duckhook','Slob on my Dobb','The Chili Cheesers','Red Leopards'])])+'</tbody></table>'
+ return '<table><thead><tr>'+''.join('<th>'+esc(x)+'</th>' for x in heads)+'</tr></thead><tbody>'+''.join('<tr>'+''.join('<td>'+esc(v)+'</td>' for v in row)+'</tr>' for row in rows)+'</tbody></table>'
+articles=[]
+for pid in j['reading_order']:
+ p=ps[pid];c=p['editorial_copy'];zones=p['layout_spec']['zones'];parts=[]
+ for name,b in zones.items():
+  if name=='header':content='<div class="kicker">SCHEMIN ’26 / WEEK 9 <span>'+pid+'</span></div><h1>'+esc(c['headline'])+'</h1><p class="deck">'+esc(c.get('deck',''))+'</p>';cls='header'
+  elif name in ['home_pov','away_pov']:side=name.split('_')[0];content='<p class="pov">'+esc(c['pov'][side])+'</p>';cls='copy'
+  elif name=='matchup_ribbon':content='<p class="ribbon">HOME / TWO PERSPECTIVES / AWAY</p>';cls='ribbonbox'
+  elif name=='stakes':content='<p class="minor">Entering stakes reserved here after source acceptance. No result shown in the overture.</p>';cls='copy'
+  elif name=='table':content=table(pid);cls='data'
+  elif name=='note':content='<p class="minor">'+esc(c['body'] if pid in short else 'Reporting content pending source acceptance. Layout study only; not final results or illustrations.')+'</p>';cls='copy'
+  elif name=='legend':content='<h2>THE SIX HOST LOCATIONS</h2><p class="minor">Country Club of Jackson · Mud Dogs Swamp · Red Leopard Ruins · Chili Stable · Highland Stronghold · Slob Foothill Camp</p><p class="minor">The actual canonical map and labels must fit this area. No invented terrain is shown in this layout study.</p>';cls='copy'
+  elif name=='division_panels':content=''.join('<div class="report"><h2>'+t+'</h2><p>Source-bound division consequence: where the race tightens, which comparison matters, and how the next fixture could alter the shared cutoff. Final commentary follows accepted standings.</p></div>' for t in ['BURGERS','PIZZA','WINGS']);cls='copy'
+  elif name=='consequence':content='<p class="minor">Current records, projections and mathematically proven status must remain distinct. The cross-league implication is written after final source acceptance.</p>';cls='copy'
+  elif name=='report_cards':
+   labels=['THE GOOD','THE BAD','THE UGLY'] if pid=='W09-P22' else ['SOURCE','CURRENT EFFECT','WHAT CHANGES NEXT'] if pid in ['W09-P23','W09-P37'] else ['THREE DIVISION ROUTES','FOUR OTHER PLACES','WEEKS 10–14']
+   content=''.join('<div class="report"><h2>'+label+'</h2><p>'+esc('Verified player or team, relevant observed result, affected fantasy roster and a concise consequence. This text reserves report space without claiming a new fact or invented result.')+'</p></div>' for label in labels);cls='copy'
+  elif name=='body':content='<p>'+esc(c['body'])+'</p>';cls='copy'
+  else:content=art(p,name);cls='art'
+  parts.append(box(name,b,content,cls))
+ articles.append('<article class="sheet" id="'+pid+'" data-page="'+pid+'" hidden>'+''.join(parts)+'<footer>LAYOUT REHEARSAL · NOT A FINISHED MEMO PNG</footer></article>')
+css='''*{box-sizing:border-box}body{margin:0;background:#182421;color:#f3ead8;font:16px/1.5 system-ui,sans-serif}nav{position:sticky;top:0;z-index:9;background:#182421;padding:10px 15px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;border-bottom:1px solid #bda06b}button,select{font:inherit;padding:8px 12px;min-height:44px;background:#283d32;color:#fff;border:1px solid #bda06b;border-radius:4px}button:focus-visible,select:focus-visible{outline:3px solid #e6c36c;outline-offset:2px}.notice{max-width:900px;margin:12px auto;padding:0 16px;color:#e9d9ba;font-size:14px}.stage{position:relative;margin:0 auto;overflow:hidden}.sheet{position:absolute;top:0;left:0;width:1080px;height:1920px;background:#101a1d;border:3px solid #c1a064;transform-origin:top left}.sheet[hidden]{display:none}.zone{position:absolute;overflow:hidden}.header .kicker{font:24px/30px system-ui;letter-spacing:2px;color:#d9b773}.kicker span{float:right}h1{font:600 58px/1.05 Georgia,serif;letter-spacing:-1px;margin:16px 0 12px}p.deck{font:36px/1.18 system-ui;margin:0;color:#e6d8ba}.copy{color:#f3ead8}.copy p{font:42px/55px Georgia,serif;margin:0}.copy p.pov{font:42px/54px Georgia,serif}.copy p.minor{font:34px/45px system-ui;margin:0 0 18px}.copy h2{font:600 35px/43px system-ui;letter-spacing:.5px;color:#e0bb70;margin:0 0 16px}.art{background:linear-gradient(160deg,#536a60,#223b39 55%,#172829);border:1px solid #6d8370;text-align:center;padding:30px;display:flex;flex-direction:column;align-items:center;justify-content:center}.art-label{font:24px/35px system-ui;letter-spacing:2px;color:#e4d0a5}.art p{margin:6px 0;font:28px/38px system-ui;max-width:800px;color:#d0dfd7}.horizon{height:1px;width:90%;background:#92a78f}.ribbonbox{border-block:1px solid #bb9a61}.ribbon{font:28px/58px system-ui;text-align:center;margin:0;letter-spacing:1.2px}.data table{border-collapse:collapse;width:100%;font:38px/1.18 system-ui}.data th{font-size:30px;color:#dabb83;text-align:left;height:62px;border-bottom:2px solid #b99859;padding:8px 12px}.data td{padding:9px 12px;height:74px;border-bottom:1px solid #53605a}.data .division th{height:42px;padding:5px 12px;font-size:25px;line-height:30px;border-bottom:0;background:#3c392a}.data tr:nth-child(even){background:#1d2c2b}.data td:first-child{width:56%}.report{margin-bottom:22px;padding:24px 26px;border:1px solid #8b7d60;background:#1c2a29;height:calc((100% - 44px)/3)}.report:last-child{margin-bottom:0}.report p{font:36px/47px system-ui}.report h2{font-size:32px;line-height:39px;margin-bottom:12px}footer{position:absolute;bottom:18px;left:60px;font:20px/24px system-ui;color:#c9b78e}.overflow{outline:5px solid #ef7171}.validation{max-width:900px;margin:18px auto;padding:0 16px;font-size:13px}.validation li{margin:5px 0}@media(max-width:500px){nav{padding:8px;font-size:13px}.notice{font-size:12px}}'''
+body='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Week9 35-page layout rehearsal</title><style>'+css+'</style></head><body><nav><strong>WEEK9 / FULL-PAGE LAYOUT REHEARSAL</strong><button id="prev">Previous</button><select id="choose" aria-label="Page">'+''.join('<option value="'+pid+'">'+str(i+1)+' · '+pid+' · '+esc(ps[pid]['working_title'])+'</option>' for i,pid in enumerate(j['reading_order']))+'</select><button id="next">Next</button></nav><p class="notice">Actual draft copy and reserved data geometry. Art boxes are not generated scenes. Dashes are unavailable values, not zeros. No final score, rank or probability is invented.</p><main class="stage">'+''.join(articles)+'</main><div class="validation" id="validation"></div><script>const ids='+json.dumps(j['reading_order'])+''';let current=ids[0];const stage=document.querySelector('.stage');function fit(){const s=Math.min((document.documentElement.clientWidth-24)/1080,.65);stage.style.width=(1080*s)+'px';stage.style.height=(1920*s)+'px';document.querySelectorAll('.sheet').forEach(e=>e.style.transform='scale('+s+')')}function show(id){current=id;document.querySelectorAll('.sheet').forEach(e=>e.hidden=e.dataset.page!==id);document.querySelector('#choose').value=id;fit()}function inspect(){const errors=[];document.querySelectorAll('.sheet').forEach(p=>{const old=p.hidden;p.hidden=false;p.querySelectorAll('.zone').forEach(z=>{if(z.scrollHeight>z.clientHeight+2||z.scrollWidth>z.clientWidth+2)errors.push({page:p.dataset.page,zone:z.dataset.zone,height:z.clientHeight,needed:z.scrollHeight,width:z.clientWidth,neededWidth:z.scrollWidth})});p.hidden=old});return errors}document.querySelector('#choose').onchange=e=>show(e.target.value);document.querySelector('#prev').onclick=()=>show(ids[Math.max(0,ids.indexOf(current)-1)]);document.querySelector('#next').onclick=()=>show(ids[Math.min(ids.length-1,ids.indexOf(current)+1)]);addEventListener('resize',fit);show(location.hash.slice(1)&&ids.includes(location.hash.slice(1))?location.hash.slice(1):ids[0]);</script></body></html>'''
+(W/'WEEK_9_FULL_PAGE_LAYOUT_REHEARSAL_2026-11-09.html').write_text(body)
+# The preview builder does not modify the authoritative packet register.
+print('BUILT35 page layout states from full active packets. Current pixel fit must be measured.')
