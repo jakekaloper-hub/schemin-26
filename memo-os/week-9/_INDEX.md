@@ -5,6 +5,12 @@
 **Current status:** `CREATIVE_INTERVIEW_RECORDED / PREVIS_CANDIDATES_PREPARED / CANONICAL_SNAPSHOT_LOCK_BLOCKED / FACT_LOCK_BLOCKED / NOT_RELEASED`.  
 **Not a new OS or a new mission.**
 
+## Actual page-copy continuation — November 9
+
+[Readable 28-folio copy proof](./WEEK_9_EDITORIAL_COPY_PROOF_2026-11-09.html) · [plain-text reading version](./WEEK_9_EDITORIAL_COPY_PROOF_2026-11-09.md).
+
+The existing issue JSON now carries `editorial_copy` for all28 folios: full narration for18 cinematic pages,12 separate conditional ending paragraphs, and department copy with source-labeled data. P25 ranking order and P27 market/settlement records are explicitly not supplied by this pass. Neither “28 entries” nor passing text checks means28 finished illustrated pages. Source cutoff remains the saved pre-MNF observation; final scores are not refreshed or selected here. Current character contracts, Founder scenes, rough boards and the failed-render disclosure remain intact.
+
 ## Latest sports continuation — November 9, before MNF
 
 [Monday-night conditions and six drafted continuations](./WEEK_9_PRE_MNF_SPORTS_AND_ENDINGS_2026-11-09.md) · [fresh source checks and derived thresholds](./WEEK_9_PRE_MNF_REFRESH_2026-11-09.json). Explicit Flaim refresh reconfirms PR292;8 current starters play BUF-MIN tonight. Chili/HMB and DK/LLC have no starting participants left. Existing cards and cinematic pages now carry provisional copy/ending preparation, never an official winner or rendered-art claim. This supersedes Sunday scores for current reporting, not the historical source files.

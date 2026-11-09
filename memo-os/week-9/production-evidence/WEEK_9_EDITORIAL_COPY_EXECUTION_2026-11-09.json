@@ -1,0 +1,189 @@
+{
+  "type": "WRITTEN_PAGE_COPY_AND_READING_PROOF_NOT_IMAGE_OR_RELEASE_ACCEPTANCE",
+  "source_commit": "fcec590c49b64365bdb3f03c00716c5f2e78ce25",
+  "software_role_advisory": {
+    "type": "ACTUAL_LOCAL_COPY_DESK_ADVISORY_NOT_ART_OR_RELEASE_ACCEPTANCE",
+    "source_commit": "fcec590c49b64365bdb3f03c00716c5f2e78ce25",
+    "model": "gemma3:4b",
+    "request": "Continue Schemin Week9 existing Issue276. The North Star is an actual phone-readable cinematic fantasy-football memo, not more production posters. Current main has 28 planned folios, 18 cinematic; only P05/P20 have exact narrative copy. This pass fills actual page prose in existing register, 60-90 words per cinematic page, six separate conditional finales, factual sports inset kept separate. Preserve current twelve identities; no reapproval. Latest source is pre-MNF Nov9, all6 provider UNDECIDED: Duck148.76–Obi144.46; Mud84.20–Nino104.74; Red112.78–Chins103.38; Chili152.84–HMB135.08; DK158.70–LLC129.89; Slob141.20–TDS152.26. No game/standing invention. Scenes fixed: golf, hound dirt-bike vs humanoid elemental flood, leopard/truck, chili cookout, integrated four-legged centaur/LLC sword duel, protected-head paintball. We produce a readable text proof, NOT new illustration or final memo; missing power ranks/book settlement stay explicit source dependencies. Under120 words: suggest two ways to make paragraph action cause the next page, and identify one source-contamination risk. Do not ask new questions or claim any art completed.",
+    "started_at": "2026-11-09T16:04:55.701Z",
+    "responses": [
+      {
+        "director": "the_beat_writer",
+        "response": "Assessment: The cinematic folio register requires immediate prose augmentation to achieve the North Star’s intended narrative density. Current folio count (28) with limited narrative fidelity (P05/P20 completion) presents a significant risk of diluted impact. Specifically, the conditional finales, while present, require detailed scene-setting text to function effectively.\n\nEvidence: Existing data confirms 18 of 28 folios are cinematic, with only P05 & P20 possessing complete narrative copy. The supply of provider data (Duck, Obi, Mud, Nino, Red, Chins, Chili, HMB, DK, LLC, TDS) remains undecided, impacting potential scene contextualization. Existing scenes—golf, elemental flood, truck/leopard, cookout, centaur duel, paintball—require detailed prose to establish clear cause and effect.\n\nRecommendation: To drive narrative momentum across folio transitions, implement strategic paragraph length variation and layered action cues. Utilize a cliffhanger concluding paragraph within existing scene text to directly introduce a key question or reveal a critical element, thereby compelling the next page’s response. Alternatively, employ parallel narrative layering, mirroring action sequences across two consecutive folios to"
+      },
+      {
+        "director": "the_librarian",
+        "response": "Assessment: The current folio register exhibits significant incompleteness regarding narrative prose within the cinematic sequence. Specifically, only P05 and P20 contain complete narrative copy. Expanding the page prose to the target 60-90 words per cinematic folio, alongside the existing structure of conditional finales and factual sports insets, creates a heightened risk of source contamination.\n\nEvidence: Current source material - pre-MNF Nov9 – reflects a fragmented state across provider channels (Duck, Obi, Mud, Nino, Red, Chins, Chili, HMB, DK, LLC, TDS) with only 18 of the planned 28 cinematic folios containing exact narrative copy. The presence of undefined provider channels introduces a fundamental uncertainty.\n\nRecommendation: To drive narrative flow to the subsequent page, consider utilizing either a direct consequential hook within the paragraph’s resolution or by subtly introducing an unresolved question that necessitates further exploration on the following folio. Furthermore, a potential source-contamination risk arises from relying solely on the pre-MNF November data, which may not adequately contain the finalized standings necessary for accurate sports inset integration.\n"
+      }
+    ],
+    "events": [
+      {
+        "name": "BULLPEN_CONSULTATION",
+        "payload": {
+          "source": "bullpen/runtime/consultEngine",
+          "director": "the_beat_writer",
+          "messageLength": 1145,
+          "responseLength": 1231,
+          "model": "gemma3:4b",
+          "latencyMs": 12120
+        },
+        "at": "2026-11-09T16:05:07.822Z"
+      },
+      {
+        "name": "BULLPEN_CONSULTATION",
+        "payload": {
+          "source": "bullpen/runtime/consultEngine",
+          "director": "the_librarian",
+          "messageLength": 1145,
+          "responseLength": 1208,
+          "model": "gemma3:4b",
+          "latencyMs": 7833
+        },
+        "at": "2026-11-09T16:05:15.658Z"
+      }
+    ],
+    "traces": [
+      {
+        "type": "director_consult",
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_beat_writer",
+        "messageLength": 1145,
+        "responseLength": 1231,
+        "model": "gemma3:4b",
+        "latencyMs": 12120,
+        "at": "2026-11-09T16:05:07.822Z"
+      },
+      {
+        "type": "director_consult",
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_librarian",
+        "messageLength": 1145,
+        "responseLength": 1208,
+        "model": "gemma3:4b",
+        "latencyMs": 7833,
+        "at": "2026-11-09T16:05:15.658Z"
+      }
+    ],
+    "finished_at": "2026-11-09T16:05:15.658Z"
+  },
+  "dispositions": {
+    "accepted": [
+      "Use an action/consequence at the paragraph end to motivate the next page",
+      "Keep recorded sports observations separate from fictional action and conditional finales"
+    ],
+    "rejected": [
+      "The claim that18 cinematic folios already had exact prose was inaccurate; the inspection found onlyP05/P20 proof prose",
+      "Fantasy team abbreviations are not undefined provider channels",
+      "No implication that current pre-MNF data certifies postweek standings"
+    ]
+  },
+  "copy_counts": {
+    "copy_entries": 28,
+    "cinematic_narratives": 18,
+    "conditional_ending_paragraphs": 12,
+    "body_words_total": 2095,
+    "ending_words_total": 926,
+    "new_illustrations": 0,
+    "final_winners_selected": 0,
+    "character_contracts_unchanged": true,
+    "old_sports_fields_unchanged": true,
+    "source_dependent_departments": [
+      "P25 power ranking",
+      "P27 book receipts/settlement"
+    ]
+  },
+  "tests": {
+    "red_before_implementation": "6 failures from missing copy/reading proof",
+    "green_after_implementation": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.006s\n\nOK\n",
+    "negative_cases": [
+      {
+        "case": "missing_page_copy",
+        "rejected": true
+      },
+      {
+        "case": "missing_conditional_ending",
+        "rejected": true
+      },
+      {
+        "case": "invented_actual_winner",
+        "rejected": true
+      },
+      {
+        "case": "overfull_body",
+        "rejected": true
+      },
+      {
+        "case": "invented_power_ranking",
+        "rejected": true
+      },
+      {
+        "case": "falsely_final_sports_inset",
+        "rejected": true
+      }
+    ],
+    "browser": {
+      "state": "READING_PROOF_FUNCTIONAL_CHECKS_NOT_IMAGE_ACCEPTANCE",
+      "checks": [
+        {
+          "name": "all28_real_text_folios",
+          "passed": true
+        },
+        {
+          "name": "all12_endings_closed_by_default",
+          "passed": true
+        },
+        {
+          "name": "six_score_rows_twelve_standings_rows",
+          "passed": true
+        },
+        {
+          "name": "pending_departments_flagged",
+          "passed": true
+        },
+        {
+          "name": "conditional_prose_opens_without_result_mutation",
+          "passed": true
+        },
+        {
+          "name": "phone_document_has_no_horizontal_overflow",
+          "passed": true
+        }
+      ],
+      "exceptions": [],
+      "viewports": [
+        [
+          1024,
+          1200
+        ],
+        [
+          390,
+          1080
+        ]
+      ],
+      "new_illustrations": 0,
+      "final_results_selected": 0
+    }
+  },
+  "visual_review": {
+    "artifact": "production-evidence/WEEK_9_COPY_PROOF_P15_PHONE_2026-11-09.png",
+    "reviewer": "assistant visual inspection of actual390px browser screenshot",
+    "observed": "Narrative, source-labeled pre-MNF inset and conditional header fit; no horizontal clipping; text-only review, no character art.",
+    "not_claimed": [
+      "independent audience acceptance",
+      "final-illustration readability",
+      "Fact Lock",
+      "publication"
+    ]
+  },
+  "artifacts": {
+    "WEEK_9_EDITORIAL_COPY_PROOF_2026-11-09.html": {
+      "sha256": "45cefc0bfe77a6440f2675327152bcf2f39540de2706445c938a97f6a5e451d3",
+      "bytes": 52604
+    },
+    "WEEK_9_EDITORIAL_COPY_PROOF_2026-11-09.md": {
+      "sha256": "8d6b72e8f0a05c0216c517978be862775f52bf9e1fa78868b946ffd4df86f702",
+      "bytes": 29534
+    }
+  }
+}
