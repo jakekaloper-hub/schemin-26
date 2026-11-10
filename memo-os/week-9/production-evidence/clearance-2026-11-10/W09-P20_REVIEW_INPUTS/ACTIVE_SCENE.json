@@ -1,0 +1,294 @@
+{
+  "page_id": "W09-P20",
+  "layout_spec": {
+    "canvas": [
+      1080,
+      1920
+    ],
+    "safe_margin_px": 60,
+    "archetype": "paintball_sequence",
+    "zones": {
+      "header": [
+        60,
+        50,
+        960,
+        250
+      ],
+      "breakout": [
+        60,
+        325,
+        960,
+        260
+      ],
+      "crossing_slide": [
+        60,
+        610,
+        960,
+        520
+      ],
+      "counter_move": [
+        60,
+        1155,
+        960,
+        260
+      ],
+      "body": [
+        60,
+        1440,
+        960,
+        415
+      ]
+    },
+    "type_px": {
+      "headline": 58,
+      "deck": 36,
+      "body": 42,
+      "data": 38,
+      "minor": 30
+    },
+    "body_line_height_px": 55,
+    "whole_page_fit_state": "CURRENT_DRAFT_MEASURED_AFTER_REPAIR__ACTUAL_ART_AND_FINAL_DATA_PENDING",
+    "actual_art_fit_state": "NOT_GENERATED",
+    "no_type_shrink_to_fit": true,
+    "text_composition": "DETERMINISTIC_FROM_CURRENT_COPY_AND_ACCEPTED_DATA",
+    "data_area_not_on_faces": true,
+    "concept_only_art": true,
+    "fit_limits": [
+      "Final images and source-dependent final copy are not yet present.",
+      "Neutral draft fit does not approve result-specific publication."
+    ],
+    "art_sequence": [
+      "breakout",
+      "crossing_slide",
+      "counter_move"
+    ],
+    "populated_copy_state": "MEASUREMENT_PENDING_NO_IMAGE_ACCEPTANCE"
+  },
+  "adjacent_pages": {
+    "previous": "W09-P36",
+    "next": "W09-P21"
+  },
+  "written_beats": [
+    {
+      "beat_id": "W09-M06-P20-BREAKOUT",
+      "page_id": "W09-P20",
+      "source_page_id": "W09-P19",
+      "source_commit": "f19354db4649ca1263c94be9ea8d9ed95bc4b83d",
+      "source_beat_ids": [
+        "W09-M06-B02"
+      ],
+      "branch": "COMMON",
+      "shot": "Wide sideline opening, both origins visible",
+      "pose_and_physical_action": "Slob on my Dobb breaks from the near-left starting cylinder toward central low cover while Three Dreaded Snake pivots around the far-right wedge, bringing his marker onto the lane. Both markers remain controlled; no paint hits either player. The shared tree line and stationary bunkers match P36.",
+      "what_changes": "The established starting positions become the first exposed crossing.",
+      "transition": "The main image shows the crossing ending in a slide.",
+      "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT",
+      "layout_zone": "breakout"
+    },
+    {
+      "beat_id": "W09-M06-B03",
+      "page_id": "W09-P20",
+      "branch": "COMMON",
+      "shot": "Dominant low sideline action-wide",
+      "pose_and_physical_action": "Slob on my Dobb drives from cylinder toward central low cover as Three Dreaded Snake leans from the far wedge. Paint lands on inflatable cover, not either player.",
+      "what_changes": "The first crossing exposes a cost while gaining ground.",
+      "transition": "Inset follows the slide from the same left-to-right direction.",
+      "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT",
+      "layout_zone": "crossing_slide"
+    },
+    {
+      "beat_id": "W09-M06-B04",
+      "page_id": "W09-P20",
+      "branch": "COMMON",
+      "shot": "Medium Slob on my Dobb slide inset",
+      "pose_and_physical_action": "His current heavyset human build compresses into a short slide; soil scuffs follow the travel direction. Mask stays on; no stale horned redesign.",
+      "what_changes": "A forceful advance ends in a defensible position, not victory.",
+      "transition": "Countercut to the opponent using the information.",
+      "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT",
+      "layout_zone": "crossing_slide"
+    },
+    {
+      "beat_id": "W09-M06-B05",
+      "page_id": "W09-P20",
+      "branch": "COMMON",
+      "shot": "Medium Three Dreaded Snake counter-move inset",
+      "pose_and_physical_action": "Three Dreaded Snake leaves the wedge for adjacent tree cover. Central head tracks Slob on my Dobb; outer heads watch flanks; three necks join one body and marker stays below the faces.",
+      "what_changes": "The defender changes position rather than freezing for the next shot.",
+      "transition": "Turn before either finds a clean final hit.",
+      "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT",
+      "layout_zone": "counter_move"
+    }
+  ],
+  "action_blocks": [
+    {
+      "beat": "BREAKOUT",
+      "zone": "breakout",
+      "framing": "Wide sideline opening, both origins visible",
+      "action": "Slob on my Dobb breaks from the near-left starting cylinder toward central low cover while Three Dreaded Snake pivots around the far-right wedge, bringing his marker onto the lane. Both markers remain controlled; no paint hits either player. The shared tree line and stationary bunkers match P36.",
+      "contact": "Recognizable heavyset human and one three-headed serpent body; appropriate protection, one marker each.",
+      "axis": "Slob on my Dobb near-left, Three Dreaded Snake far-right; same central lane throughout.",
+      "neutrality": "Movement begins the contest; no winner, elimination or celebratory posture."
+    },
+    {
+      "beat": "CROSSING_SLIDE",
+      "zone": "crossing_slide",
+      "framing": "Dominant low sideline wide, entire line of fire readable",
+      "action": "Slob on my Dobb completes a short slide into central low cover, knees and torso compressed by motion. Three Dreaded Snake leans from the far wedge, watching the crossing. Paint strikes the inflatable cover only; moving feet, scuffed ground and marker directions make cause and response readable.",
+      "contact": "Hands correctly grip sporting paintball markers; no firearms, no blood, no exposed serpent face.",
+      "axis": "Do not reverse the near-left/far-right assignments or move the bunkers.",
+      "neutrality": "The slide gains cover, not a winning angle; reserve behind-winner shot and losing-player splat for P21."
+    },
+    {
+      "beat": "COUNTER_MOVE",
+      "zone": "counter_move",
+      "framing": "Medium countercut with central cover in background",
+      "action": "Three Dreaded Snake counters toward adjacent tree cover, one shared body, three separately protected heads tracking different lanes. Slob on my Dobb resets behind the central bunker with marker ready. Any paint hits ground or cover, not a player.",
+      "contact": "Exactly three heads, two arms, one marker; face protection preserves identity rather than generic masks replacing heads.",
+      "axis": "Tree line and central cover remain at the established depth; show the cost of leaving the wedge.",
+      "neutrality": "Neither competitor is frozen, eliminated or identified as the winner."
+    }
+  ],
+  "absorbed_source_beats": [
+    {
+      "source_id": "W09-P19",
+      "source_commit": "1a36dd25fabd80d87796454bbf273aa742e79ad5",
+      "required_visible_transfer": "P36 introduces starting covers; first P20 inset shows breakout, then the main reciprocal crossing/flank. Reserve final behind-winner angle for P21."
+    }
+  ],
+  "encounter": {
+    "venue_id": "LOC-SLOB-FOOTHILL-CAMP",
+    "venue_type": "OWNER_HOME_SCENE",
+    "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+    "route_required": true,
+    "world_state_in": [
+      "operational"
+    ],
+    "persistent_landmarks": [
+      "tailgate yard",
+      "rough training ground"
+    ],
+    "provisional_location": true,
+    "world_resolution": "PLANNING_PARENT_RESOLVED__EVENT_FEATURE_REVIEW_PENDING"
+  },
+  "current_cast": [
+    "CHAR-JORDAN-HOLLINGSHEAD",
+    "CHAR-PHILLIP-PITTS"
+  ],
+  "character_authorities": {
+    "CHAR-JORDAN-HOLLINGSHEAD": {
+      "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "team": "Slob on my Dobb",
+      "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-JORDAN-HOLLINGSHEAD.json",
+      "appearance_authority_sha256": "99cfb0c7acc4a66300a1c3b0f38eb3e27b782dd12eed874a00b7c338d34a834d",
+      "approval_date": "2026-10-18",
+      "required_visible_identity": {
+        "subject_morphology": "Massive heavyset, bare-shouldered human berserker in work overalls and backward cap",
+        "head_face": "Unkempt dark hair and beard with loud, open-mouthed expression",
+        "silhouette": "Wide hulking torso, overalls, oversized metal keg",
+        "palette": [
+          "mud brown",
+          "denim blue",
+          "pale skin",
+          "steel"
+        ],
+        "recognizable_props": [
+          "oversized SLOB keg",
+          "backward baseball cap",
+          "grimy overalls"
+        ],
+        "negative_rules": [
+          "duck head",
+          "executive suit identity",
+          "slender body substitute"
+        ]
+      },
+      "forbidden_substitutions": [
+        "duck head",
+        "executive suit identity",
+        "slender body substitute"
+      ],
+      "approved_visual_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+      "approved_visual_sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+      "approved_visual_bytes_verified_in_base": true,
+      "identity_reapproval_required": false,
+      "renderer_binding_proven": false,
+      "new_canon_approval": false,
+      "scene_variation_rule": "Activity, camera, pose and safe sports gear may vary; established head/face/body identity remains. Companions follow scene continuity, not mandatory every close-up."
+    },
+    "CHAR-PHILLIP-PITTS": {
+      "character_id": "CHAR-PHILLIP-PITTS",
+      "team": "Three Dreaded Snake",
+      "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-PHILLIP-PITTS.json",
+      "appearance_authority_sha256": "9d8d06b8c91ed733926aed0e8201f96c623d93ce2724fdd1fa4958fe2ed3c49d",
+      "approval_date": "2026-10-18",
+      "required_visible_identity": {
+        "subject_morphology": "Reptilian humanoid with THREE live serpent head-and-neck projections",
+        "head_face": "Exactly three snake heads, mouths and tongues independently visible",
+        "silhouette": "Three serpent necks over an armored humanoid torso; weapons carried below",
+        "palette": [
+          "bronze scales",
+          "moss green",
+          "dark leather"
+        ],
+        "recognizable_props": [
+          "blade weapons",
+          "layered leather/metal armor"
+        ],
+        "negative_rules": [
+          "single-headed snake",
+          "three separate creatures",
+          "restoring long pre-haircut dreads"
+        ]
+      },
+      "forbidden_substitutions": [
+        "single-headed snake",
+        "three separate creatures",
+        "restoring long pre-haircut dreads"
+      ],
+      "approved_visual_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+      "approved_visual_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+      "approved_visual_bytes_verified_in_base": true,
+      "identity_reapproval_required": false,
+      "renderer_binding_proven": false,
+      "new_canon_approval": false,
+      "scene_variation_rule": "Activity, camera, pose and safe sports gear may vary; established head/face/body identity remains. Companions follow scene continuity, not mandatory every close-up."
+    }
+  },
+  "stage": "REVIEW_BEFORE_PNG_PERMISSION_NOT_SUBMISSION",
+  "rule": "Current placement and geometry control execution; original source IDs preserve provenance only.",
+  "final_visual_direction": "Slob on my Dobb wins. P21 camera is third person behind the sliding heavyset human winner, marker aimed downrange; losing three-headed Three Dreaded Snake is visible with paint impacts on protected mask/body. P20 remains the build, with no premature player hit.",
+  "selected_result_context": {
+    "matchup_id": "W09-M06",
+    "home_team_id": 3,
+    "home": "Slob on my Dobb",
+    "home_score": "165.66",
+    "away_team_id": 6,
+    "away": "Three Dreaded Snake",
+    "away_score": "159.56",
+    "provider_winner": "HOME",
+    "winner_team_id": 3,
+    "winner": "Slob on my Dobb",
+    "margin": "6.10",
+    "selected_branch": "home_win",
+    "home_postweek_record": "5–4",
+    "away_postweek_record": "4–5",
+    "sports_cause": "Slob on my Dobb entered Monday 11.06 behind. Josh Allen and Will Reichard added 24.46 against T.J. Hockenson’s 7.30: a 17.16 swing and a 6.10 win. CeeDee Lamb, Bucky Irving and Christian McCaffrey had supplied 91.50.",
+    "final_visual_direction": "Slob on my Dobb wins. P21 camera is third person behind the sliding heavyset human winner, marker aimed downrange; losing three-headed Three Dreaded Snake is visible with paint impacts on protected mask/body. P20 remains the build, with no premature player hit."
+  },
+  "publication_text_policy": {
+    "body": "EXACT_COPY_BODY",
+    "sports_note": "PRODUCTION_CONTEXT_NOT_EXTRA_PRINTED_PARAGRAPH",
+    "numeric_data": "DETERMINISTIC_COMPOSITION_FROM_REVIEWED_FIELDS",
+    "no_character_abbreviations": true
+  },
+  "character_identity": [
+    {
+      "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "full_name": "Slob on my Dobb"
+    },
+    {
+      "character_id": "CHAR-PHILLIP-PITTS",
+      "full_name": "Three Dreaded Snake"
+    }
+  ]
+}

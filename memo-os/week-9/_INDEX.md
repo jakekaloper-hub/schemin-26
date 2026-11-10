@@ -1,5 +1,12 @@
 # Week 9 — Memo OS Working Index and Continuation
 
+## Current approval checkpoint — full names and one selected finale
+
+[Content decision summary](./production-evidence/clearance-2026-11-10/APPROVAL_SUMMARY.md) · [populated text/data page rehearsal](./WEEK_9_FINAL_APPROVAL_LAYOUT_2026-11-10.html) · [current reading edition](./WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10.html) · [Dr. Duckhook and ObiWan Jacoby review inputs](./production-evidence/clearance-2026-11-10/W09-P05_REVIEW_INPUTS.zip) · [Slob on my Dobb and Three Dreaded Snake review inputs](./production-evidence/clearance-2026-11-10/W09-P20_REVIEW_INPUTS.zip).
+
+Full character names and canonical identifiers are explicit in all 35 current folios. The six active finale scene lists exclude their unused endings; source histories remain intact. Rankings are labeled Scoring-Form Index. The Reserve List is a fantasy-slot observation, not completed official injury research. Existing neutral kits remain historical proof inputs; the new **approval-review** kit mode selects the exact current approval copy and rejects a changed folio digest. No image, Founder approval, source acceptance or release is claimed.
+
+
 ## November10 — final-results folios prepared for approval
 
 Fresh Flaim confirms all six results. The current35-page review is [WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10](WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10.md) with [HTML reading proof](WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10.html) and [structured folios](WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10.json). Each active register page now contains `approval_folio`; selected finales and supporting reporting use provider-final data. Earlier provisional `editorial_copy` remains the unaccepted baseline, not the current review. No source/Founder/art/release approval or PNG generation is claimed. The actual Mac is offline; this bounded compile ran in GitHub Actions without a local Director/Steward ACK.

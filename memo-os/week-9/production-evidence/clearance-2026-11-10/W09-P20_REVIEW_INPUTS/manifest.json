@@ -1,0 +1,94 @@
+{
+  "kind": "CURRENT_APPROVAL_REVIEW_INPUTS_NOT_RENDER_PERMISSION",
+  "page_id": "W09-P20",
+  "reading_position": 24,
+  "source_packet_sha256": "e061f57f3bc99a754c056aa3262210d2af2cc02bb23f2cb7bef9d0e1187a4c43",
+  "canvas": [
+    1080,
+    1920
+  ],
+  "exact_cast": [
+    "CHAR-JORDAN-HOLLINGSHEAD",
+    "CHAR-PHILLIP-PITTS"
+  ],
+  "reference_files": [
+    {
+      "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "file": "CHAR-JORDAN-HOLLINGSHEAD.png",
+      "sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+      "repository_source": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+      "authority_file": "CHAR-JORDAN-HOLLINGSHEAD-appearance.json",
+      "authority_sha256": "99cfb0c7acc4a66300a1c3b0f38eb3e27b782dd12eed874a00b7c338d34a834d",
+      "identity_approval_reopened": false
+    },
+    {
+      "character_id": "CHAR-PHILLIP-PITTS",
+      "file": "CHAR-PHILLIP-PITTS.png",
+      "sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+      "repository_source": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+      "authority_file": "CHAR-PHILLIP-PITTS-appearance.json",
+      "authority_sha256": "9d8d06b8c91ed733926aed0e8201f96c623d93ce2724fdd1fa4958fe2ed3c49d",
+      "identity_approval_reopened": false
+    }
+  ],
+  "renderer_binding_proven": false,
+  "artwork_generated": false,
+  "render_authorized": false,
+  "release_approved": false,
+  "actual_result_selected": true,
+  "contains_final_scores": true,
+  "layout_authority": "Current layout_spec, NOT earlier proof_preparation.layout",
+  "purpose": "Explicit two-reference inputs for an authorized narrow provider route; no whole-issue context or all-cast board.",
+  "remaining_gates": [
+    "Actual authorized provider attachment and reference fidelity",
+    "Applicable scene review",
+    "Generated-image inspection",
+    "Final data/copy before publication"
+  ],
+  "no_paid_route_enabled": true,
+  "edition": "approval-review",
+  "copy_selector": "approval_folio.copy",
+  "full_character_names": [
+    "Slob on my Dobb",
+    "Three Dreaded Snake"
+  ],
+  "approval_folio_sha256": "7d56050e4cef0435e7b9405e2d20460a3e06ce61be4d01e938141c9f493e42a0",
+  "files": {
+    "CHAR-JORDAN-HOLLINGSHEAD.png": {
+      "sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+      "bytes": 237136
+    },
+    "CHAR-JORDAN-HOLLINGSHEAD-appearance.json": {
+      "sha256": "99cfb0c7acc4a66300a1c3b0f38eb3e27b782dd12eed874a00b7c338d34a834d",
+      "bytes": 3129
+    },
+    "CHAR-PHILLIP-PITTS.png": {
+      "sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+      "bytes": 331140
+    },
+    "CHAR-PHILLIP-PITTS-appearance.json": {
+      "sha256": "9d8d06b8c91ed733926aed0e8201f96c623d93ce2724fdd1fa4958fe2ed3c49d",
+      "bytes": 3089
+    },
+    "COPY.txt": {
+      "sha256": "c00322f9d7b555899b5598a3cc5aee243b0c3748615f5b1c7c5a790686556f85",
+      "bytes": 342
+    },
+    "layout.json": {
+      "sha256": "6e89cf8c6414c7356170d59084e2e058658e07fb19076586f02d33c1074fc332",
+      "bytes": 1222
+    },
+    "ACTIVE_SCENE.json": {
+      "sha256": "2c24d1769e5aaad3f252a4df5c78b0e38259a8952be2adfae3be7b570c8a58f1",
+      "bytes": 13150
+    },
+    "COMMISSION.md": {
+      "sha256": "c367ab7227a87b32e990d03d8964544d327771f67ba75fbfca3f73d3d21bd0f2",
+      "bytes": 4668
+    },
+    "REVIEW.html": {
+      "sha256": "f9a2d0f57090dd86381af52e242c6e25658eb1748342237c678de723c382e11b",
+      "bytes": 1506
+    }
+  }
+}

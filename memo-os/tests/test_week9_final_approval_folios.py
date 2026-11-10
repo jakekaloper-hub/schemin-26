@@ -3,6 +3,7 @@ from pathlib import Path
 from decimal import Decimal
 import json
 import unittest
+import importlib.util
 
 ROOT = Path(__file__).resolve().parents[2]
 WEEK = ROOT / 'memo-os/week-9'
@@ -46,7 +47,8 @@ class FinalApprovalTests(unittest.TestCase):
                 continue
             branch = finale[f['page_id']]
             self.assertEqual(f['selected_branch'], branch)
-            self.assertEqual(f['copy']['body'], ps[f['page_id']]['editorial_copy']['conditional_narratives'][branch])
+            spec=importlib.util.spec_from_file_location('names',WEEK/'approval_naming.py');m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
+            self.assertEqual(f['copy']['body'], m.full_names(ps[f['page_id']]['editorial_copy']['conditional_narratives'][branch]))
             self.assertFalse(f['opposite_ending_in_publication_copy'])
         self.assertEqual(sum(f.get('is_finale',False) for f in a['folios']),6)
 

@@ -17,7 +17,7 @@ The following is the current editorial approval edition. It supersedes pre-MNF w
 
 ## Approval boundaries
 
-Source/Founder approval and all actual image-quality checks remain open. P25 is an explicitly proposed editorial scoring-form index. P37 reports observed fantasy IR slots only; official injury diagnoses/return dates are not claimed. Current seeds are not clinches; projected ranks are not percentages. No extra pages or reopened character approvals.
+Source/Founder approval and all actual image-quality checks remain open. The Scoring-Form Index is explicitly editorial. The Reserve List reports observed fantasy reserve slots only; official injury diagnoses/return dates are not claimed. Current seeds are not clinches; projected ranks are not percentages. No extra pages or reopened character approvals.
 
 ## 01 · W09-P01 — A New Arrival
 
@@ -31,7 +31,7 @@ Morning reaches the Waterfall Temple before the noise of the week. For one momen
 
 Week 9 closes. The postseason squeeze does not.
 
-A new arrival gave the Commonwealth a reason to celebrate. The standings supplied a reason to keep checking the scoreboard. Duckhook leaves Week 9 alone at 6–3; seven teams sit immediately behind him at 5–4. Slob overturned an 11.06-point Monday deficit, Red survived by 6.40, and Chili sent the Belt Keeper home wearing the cookout. Five regular-season weeks remain. The routes differ by division, but the pressure belongs to the whole league.
+A new arrival gave the Commonwealth a reason to celebrate. The standings supplied a reason to keep checking the scoreboard. Dr. Duckhook leaves Week 9 alone at 6–3; seven teams sit immediately behind him at 5–4. Slob on my Dobb overturned an 11.06-point Monday deficit, Red Leopards survived by 6.40, and The Chili Cheesers sent the Belt Keeper home wearing the cookout. Five regular-season weeks remain. The routes differ by division, but the pressure belongs to the whole league.
 
 **Approval:** pending; PNG hold. **Final combined page fit:** pending actual artwork and populated data.
 
@@ -47,7 +47,7 @@ Congratulations to the Pitts family on Mary Martin’s arrival. This league has 
 
 ESPN/Flaim provider-final results · November 10
 
-Six decided matchups. Duckhook posted the high score; Slob and Red survived the two narrowest finishes.
+Six decided matchups. Dr. Duckhook posted the high score; Slob on my Dobb and Red Leopards survived the two narrowest finishes.
 
 | home | points | away | away_points | winner | margin |
 |---|---|---|---|---|---|
@@ -64,13 +64,13 @@ Six decided matchups. Duckhook posted the high score; Slob and Red survived the 
 
 Dr. Duckhook vs ObiWan Jacoby
 
-Every ridge belongs to his memory. The invitation is generous; the course is not. Duckhook means to welcome his rival without surrendering command of a single uncertain moment. ObiWan has accepted the morning, not the host’s confidence. Across the fairway waits a familiar opponent, and the difficult business of proving that an old answer still means something.
 
-**Home POV:** Every ridge belongs to his memory. The invitation is generous; the course is not. Duckhook means to welcome his rival without surrendering command of a single uncertain moment.
 
-**Away POV:** ObiWan has accepted the morning, not the host’s confidence. Across the fairway waits a familiar opponent, and the difficult business of proving that an old answer still means something.
+**Home perspective:** Every ridge belongs to his memory. The invitation is generous; the course is not. Dr. Duckhook means to welcome his rival without surrendering command of a single uncertain moment.
 
-**Selected visual consequence:** Duckhook is the winner. Keep his controlled golf execution; ObiWan suffers the costly poor recovery/approach/short putt and emotional loss. Do not draw Duckhook losing into the pond. No invented golf stroke totals.
+**Away perspective:** ObiWan Jacoby has accepted the morning, not the host’s confidence. Across the fairway waits a familiar opponent, and the difficult business of proving that an old answer still means something.
+
+**Selected visual consequence:** Dr. Duckhook is the winner. Keep his controlled golf execution; ObiWan Jacoby suffers the costly poor recovery/approach/short putt and emotional loss. Do not draw Dr. Duckhook losing into the pond. No invented golf stroke totals.
 
 **Approval:** pending; PNG hold. **Final combined page fit:** pending actual artwork and populated data.
 
@@ -78,11 +78,11 @@ Every ridge belongs to his memory. The invitation is generous; the course is not
 
 A charity invitation. A familiar rival. Nothing casual about the round.
 
-The invitation promised a morning for a good cause. The round exposed less charitable intentions. Duckhook knew every ridge of his own course; ObiWan had returned with a memory the host would rather forget. A clean strike earned a glance. A ball in the rough earned silence. By the time they walked toward the green, the autumn light was still beautiful. Neither rival was looking at it.
+The invitation promised a morning for a good cause. The round exposed less charitable intentions. Dr. Duckhook knew every ridge of his own course; ObiWan Jacoby had returned with a memory the host would rather forget. A clean strike earned a glance. A ball in the rough earned silence. By the time they walked toward the green, the autumn light was still beautiful. Neither rival was looking at it.
 
-**Football basis:** Matthew Golden scored 33.40 and Drake Maye 24.36 for Duckhook. Addison and Bass added 17.80 to his pre-MNF lead. Walker and Nacua supplied ObiWan with 75.30, but the host finished 22.10 ahead.
+**Football basis:** Matthew Golden scored 33.40 and Drake Maye 24.36 for Dr. Duckhook. Jordan Addison and Tyler Bass added 17.80 to his pre-Monday-night lead. Kenneth Walker III and Puka Nacua supplied ObiWan Jacoby with 75.30, but the host finished 22.10 ahead.
 
-**Selected visual consequence:** Duckhook is the winner. Keep his controlled golf execution; ObiWan suffers the costly poor recovery/approach/short putt and emotional loss. Do not draw Duckhook losing into the pond. No invented golf stroke totals.
+**Selected visual consequence:** Dr. Duckhook is the winner. Keep his controlled golf execution; ObiWan Jacoby suffers the costly poor recovery/approach/short putt and emotional loss. Do not draw Dr. Duckhook losing into the pond. No invented golf stroke totals.
 
 **Approval:** pending; PNG hold. **Final combined page fit:** pending actual artwork and populated data.
 
@@ -90,9 +90,9 @@ The invitation promised a morning for a good cause. The round exposed less chari
 
 The hazard was never hidden. The pressure was.
 
-The final green narrowed toward an apron that fell gently into water. From here, even a small mistake had somewhere to go. Duckhook studied the slope; ObiWan watched the flag stir above it. The jokes had ended several holes ago. A glove tightened. A putter settled behind a stationary ball. Across the green, the other competitor waited without moving. The course had offered both of them a beautiful morning. It had promised neither of them mercy.
+The final green narrowed toward an apron that fell gently into water. From here, even a small mistake had somewhere to go. Dr. Duckhook studied the slope; ObiWan Jacoby watched the flag stir above it. The jokes had ended several holes ago. A glove tightened. A putter settled behind a stationary ball. Across the green, the other competitor waited without moving. The course had offered both of them a beautiful morning. It had promised neither of them mercy.
 
-**Selected visual consequence:** Duckhook is the winner. Keep his controlled golf execution; ObiWan suffers the costly poor recovery/approach/short putt and emotional loss. Do not draw Duckhook losing into the pond. No invented golf stroke totals.
+**Selected visual consequence:** Dr. Duckhook is the winner. Keep his controlled golf execution; ObiWan Jacoby suffers the costly poor recovery/approach/short putt and emotional loss. Do not draw Dr. Duckhook losing into the pond. No invented golf stroke totals.
 
 **Approval:** pending; PNG hold. **Final combined page fit:** pending actual artwork and populated data.
 
@@ -100,13 +100,13 @@ The final green narrowed toward an apron that fell gently into water. From here,
 
 The last courtesy is silence.
 
-ObiWan's recovery had found sand again. His next approach ran wide, and the putt that might have rescued his pride stopped stubbornly short. Duckhook answered with the ordinary cruelty of a controlled finish: no flourish, no apology, just the ball disappearing into the cup. ObiWan kept his eyes on the green. Somewhere behind him, the charity banner lifted in the breeze. The morning remained magnificent. That made it worse.
+ObiWan Jacoby's recovery had found sand again. His next approach ran wide, and the putt that might have rescued his pride stopped stubbornly short. Dr. Duckhook answered with the ordinary cruelty of a controlled finish: no flourish, no apology, just the ball disappearing into the cup. ObiWan Jacoby kept his eyes on the green. Somewhere behind him, the charity banner lifted in the breeze. The morning remained magnificent. That made it worse.
 
 **Score panel:** {"home": "Dr. Duckhook", "home_score": "166.56", "away": "ObiWan Jacoby", "away_score": "144.46", "winner": "Dr. Duckhook", "margin": "22.10"}
 
-**Football basis:** Matthew Golden scored 33.40 and Drake Maye 24.36 for Duckhook. Addison and Bass added 17.80 to his pre-MNF lead. Walker and Nacua supplied ObiWan with 75.30, but the host finished 22.10 ahead.
+**Football basis:** Matthew Golden scored 33.40 and Drake Maye 24.36 for Dr. Duckhook. Jordan Addison and Tyler Bass added 17.80 to his pre-Monday-night lead. Kenneth Walker III and Puka Nacua supplied ObiWan Jacoby with 75.30, but the host finished 22.10 ahead.
 
-**Selected visual consequence:** Duckhook is the winner. Keep his controlled golf execution; ObiWan suffers the costly poor recovery/approach/short putt and emotional loss. Do not draw Duckhook losing into the pond. No invented golf stroke totals.
+**Selected visual consequence:** Dr. Duckhook is the winner. Keep his controlled golf execution; ObiWan Jacoby suffers the costly poor recovery/approach/short putt and emotional loss. Do not draw Dr. Duckhook losing into the pond. No invented golf stroke totals.
 
 **Approval:** pending; PNG hold. **Final combined page fit:** pending actual artwork and populated data.
 
@@ -114,11 +114,11 @@ ObiWan's recovery had found sand again. His next approach ran wide, and the putt
 
 Mud Dogs vs El Niño
 
-Mud Dogs knows the channels, the raised roots and the narrow ground that stays firm. The dark horizon is visible. Familiarity makes it easier to look away. From the far bank, El Niño watches a course built around the expectation of solid ground. He does not need to race the hound. He can change what the race demands.
 
-**Home POV:** Mud Dogs knows the channels, the raised roots and the narrow ground that stays firm. The dark horizon is visible. Familiarity makes it easier to look away.
 
-**Away POV:** From the far bank, El Niño watches a course built around the expectation of solid ground. He does not need to race the hound. He can change what the race demands.
+**Home perspective:** Mud Dogs knows the channels, the raised roots and the narrow ground that stays firm. The dark horizon is visible. Familiarity makes it easier to look away.
+
+**Away perspective:** From the far bank, El Niño watches a course built around the expectation of solid ground. He does not need to race the hound. He can change what the race demands.
 
 **Selected visual consequence:** El Niño wins. The four-legged Mud Dogs and adapted bike become immobilized in deep mud/water before the visible finish. The embodied storm elemental remains recognizable. Do not label Mud Dogs mathematically eliminated.
 
@@ -154,11 +154,11 @@ The rear wheel dug instead of climbing. Mud Dogs forced the controls, but each b
 
 Red Leopards vs Seven Deadly Chins
 
-The terrace is quiet, the field intact. Red watches over a place whose boundaries should need no explanation. Then an engine reaches the approach, bringing an entirely different opinion. Chins sees open ground beyond the stone entrance. The truck has clearance, the tires have grip, and asking permission would only interrupt the pleasure of finding out what happens next.
 
-**Home POV:** The terrace is quiet, the field intact. Red watches over a place whose boundaries should need no explanation. Then an engine reaches the approach, bringing an entirely different opinion.
 
-**Away POV:** Chins sees open ground beyond the stone entrance. The truck has clearance, the tires have grip, and asking permission would only interrupt the pleasure of finding out what happens next.
+**Home perspective:** The terrace is quiet, the field intact. Red Leopards watches over a place whose boundaries should need no explanation. Then an engine reaches the approach, bringing an entirely different opinion.
+
+**Away perspective:** Seven Deadly Chins sees open ground beyond the stone entrance. The truck has clearance, the tires have grip, and asking permission would only interrupt the pleasure of finding out what happens next.
 
 **Selected visual consequence:** Red Leopards wins. Damage precedes retaliation; his staged ambush and stone bottleneck defeat the lifted-truck intrusion. Do not make a goal net alone stop the truck.
 
@@ -168,9 +168,9 @@ The terrace is quiet, the field intact. Red watches over a place whose boundarie
 
 The damage starts the argument. The ambush supplies the answer.
 
-Red disappeared above the terrace before Chins noticed the silence. The truck swung toward another untouched strip of grass. A shadow crossed its hood, followed by claws and the weight of an exceptionally offended leopard. Chins hauled the wheel over. Red shifted with it, steering the driver's attention toward the broken goal and the narrow stone passage beyond. Tires bit; the heavy cab leaned. Neither contestant was yielding. One was trying to make the other's strength too large for the exit.
+Red Leopards disappeared above the terrace before Seven Deadly Chins noticed the silence. The truck swung toward another untouched strip of grass. A shadow crossed its hood, followed by claws and the weight of an exceptionally offended leopard. Seven Deadly Chins hauled the wheel over. Red Leopards shifted with it, steering the driver's attention toward the broken goal and the narrow stone passage beyond. Tires bit; the heavy cab leaned. Neither contestant was yielding. One was trying to make the other's strength too large for the exit.
 
-**Football basis:** Ja’Marr Chase delivered 34.50 for Red. Jefferson’s 8.80 exceeded Kincaid’s 5.80 by 3.00, but Chins had entered Monday 9.40 behind. Red retained a 6.40 advantage.
+**Football basis:** Ja’Marr Chase delivered 34.50 for Red Leopards. Justin Jefferson’s 8.80 exceeded Dalton Kincaid’s 5.80 by 3.00, but Seven Deadly Chins had entered Monday 9.40 behind. Red Leopards retained a 6.40 advantage.
 
 **Selected visual consequence:** Red Leopards wins. Damage precedes retaliation; his staged ambush and stone bottleneck defeat the lifted-truck intrusion. Do not make a goal net alone stop the truck.
 
@@ -180,11 +180,11 @@ Red disappeared above the terrace before Chins noticed the silence. The truck sw
 
 The passage is narrow. The consequences are not.
 
-Red sprang clear at the last instant. Chins followed the movement into the stone bottleneck, where the lifted truck's broad shoulders finally became a liability. The wheels churned, but there was nowhere wide enough to turn. Red landed beside the wrecked goal and watched the driver's expression change behind the glass. The pitch would need repairing. For the moment, its owner preferred to inspect the trespasser. The red card could wait; the vehicle could not leave.
+Red Leopards sprang clear at the last instant. Seven Deadly Chins followed the movement into the stone bottleneck, where the lifted truck's broad shoulders finally became a liability. The wheels churned, but there was nowhere wide enough to turn. Red Leopards landed beside the wrecked goal and watched the driver's expression change behind the glass. The pitch would need repairing. For the moment, its owner preferred to inspect the trespasser. The red card could wait; the vehicle could not leave.
 
 **Score panel:** {"home": "Red Leopards", "home_score": "118.58", "away": "Seven Deadly Chins", "away_score": "112.18", "winner": "Red Leopards", "margin": "6.40"}
 
-**Football basis:** Ja’Marr Chase delivered 34.50 for Red. Jefferson’s 8.80 exceeded Kincaid’s 5.80 by 3.00, but Chins had entered Monday 9.40 behind. Red retained a 6.40 advantage.
+**Football basis:** Ja’Marr Chase delivered 34.50 for Red Leopards. Justin Jefferson’s 8.80 exceeded Dalton Kincaid’s 5.80 by 3.00, but Seven Deadly Chins had entered Monday 9.40 behind. Red Leopards retained a 6.40 advantage.
 
 **Selected visual consequence:** Red Leopards wins. Damage precedes retaliation; his staged ambush and stone bottleneck defeat the lifted-truck intrusion. Do not make a goal net alone stop the truck.
 
@@ -205,13 +205,13 @@ The Good. The Bad. The Ugly.
 The week rewarded depth, punished a low floor, and left one of its strongest scores on the wrong side of the result.
 
 **THE GOOD — The comeback had a foundation**
-Lamb, Irving and McCaffrey gave Slob 91.50. Allen and Reichard then supplied 24.46 on Monday against Hockenson’s 7.30, turning an 11.06 deficit into a 6.10 win.
+CeeDee Lamb, Bucky Irving and Christian McCaffrey gave Slob on my Dobb 91.50. Josh Allen and Will Reichard then supplied 24.46 on Monday against T.J. Hockenson’s 7.30, turning an 11.06 deficit into a 6.10 win.
 
 **THE BAD — No rescue above 10.50**
-Mud Dogs scored 84.20. Goff returned 5.70 and no starter exceeded 10.50. El Niño’s Cook and Higgins combined for 41.00 in a 41.34-point win.
+Mud Dogs scored 84.20. Jared Goff returned 5.70 and no starter exceeded 10.50. El Niño’s James Cook III and Tee Higgins combined for 41.00 in a 41.34-point win.
 
 **THE UGLY — Third-best score. Still a loss.**
-TDS’s 159.56 was the week’s third-highest score. It would beat nine of the other eleven totals, but Slob’s 165.66 was the actual opponent. McConkey’s 0.00 is a lineup fact, not a claim about its cause.
+Three Dreaded Snake’s 159.56 was the week’s third-highest score. It would beat nine of the other eleven totals, but Slob on my Dobb’s 165.66 was the actual opponent. Ladd McConkey’s 0.00 is a lineup fact, not a claim about its cause.
 
 **Approval:** pending; PNG hold. **Final combined page fit:** pending actual artwork and populated data.
 
@@ -219,25 +219,25 @@ TDS’s 159.56 was the week’s third-highest score. It would beat nine of the o
 
 The Chili Cheesers vs His Majesty's Blood
 
-Chili has gathered the town around a meal he controls. Through dark sunglasses, he watches the approach. A familiar guest will have to enter this occasion on the host’s terms. HMB arrives without hurry. The cookout is crowded, the host conspicuous, the ribbon easy to see. He expects composure to last longer than bravado, even on someone else’s ground.
 
-**Home POV:** Chili has gathered the town around a meal he controls. Through dark sunglasses, he watches the approach. A familiar guest will have to enter this occasion on the host’s terms.
 
-**Away POV:** HMB arrives without hurry. The cookout is crowded, the host conspicuous, the ribbon easy to see. He expects composure to last longer than bravado, even on someone else’s ground.
+**Home perspective:** The Chili Cheesers has gathered the town around a meal he controls. Through dark sunglasses, he watches the approach. A familiar guest will have to enter this occasion on the host’s terms.
 
-**Selected visual consequence:** Chili wins. The established cart/catch mechanism leads to HMB covered in chili; retain hooded identity, comic rather than burn-injury tone, and no championship-belt transfer.
+**Away perspective:** His Majesty's Blood arrives without hurry. The cookout is crowded, the host conspicuous, the ribbon easy to see. He expects composure to last longer than bravado, even on someone else’s ground.
+
+**Selected visual consequence:** The Chili Cheesers wins. The established cart/catch mechanism leads to His Majesty's Blood covered in chili; retain hooded identity, comic rather than burn-injury tone, and no championship-belt transfer.
 
 **Approval:** pending; PNG hold. **Final combined page fit:** pending actual artwork and populated data.
 
 ## 18 · W09-P14 — Everybody Came Hungry
 
-Chili brought the town together. His guest brought unfinished business.
+The Chili Cheesers brought the town together. His guest brought unfinished business.
 
-Smoke drifted from the stable side of town as Chili worked the serving line, black sunglasses reflecting a procession of bowls. The Dark Horse waited beyond the stall, safely apart from the crowd. Beside the Outlaw stood a wheeled vat, its catch set and its contents cooling. Then the gathering parted around HMB's black armor and ragged cloak. Chili lowered the ladle. The Belt Keeper's red eyes moved from the cookout ribbon to the host. Both had noticed the same prize.
+Smoke drifted from the stable side of town as The Chili Cheesers worked the serving line, black sunglasses reflecting a procession of bowls. The Dark Horse waited beyond the stall, safely apart from the crowd. Beside the Outlaw stood a wheeled vat, its catch set and its contents cooling. Then the gathering parted around His Majesty's Blood's black armor and ragged cloak. The Chili Cheesers lowered the ladle. The Belt Keeper's red eyes moved from the cookout ribbon to the host. Both had noticed the same prize.
 
-**Football basis:** Christian Watson, Bryce Young and Brock Bowers supplied 80.94 for Chili. HMB received 29.98 from Brock Purdy and 20.50 from Jonah Coleman but finished 17.76 short.
+**Football basis:** Christian Watson, Bryce Young and Brock Bowers supplied 80.94 for The Chili Cheesers. His Majesty's Blood received 29.98 from Brock Purdy and 20.50 from Jonah Coleman but finished 17.76 short.
 
-**Selected visual consequence:** Chili wins. The established cart/catch mechanism leads to HMB covered in chili; retain hooded identity, comic rather than burn-injury tone, and no championship-belt transfer.
+**Selected visual consequence:** The Chili Cheesers wins. The established cart/catch mechanism leads to His Majesty's Blood covered in chili; retain hooded identity, comic rather than burn-injury tone, and no championship-belt transfer.
 
 **Approval:** pending; PNG hold. **Final combined page fit:** pending actual artwork and populated data.
 
@@ -245,13 +245,13 @@ Smoke drifted from the stable side of town as Chili worked the serving line, bla
 
 A public occasion deserves a public consequence.
 
-Chili braced a boot against the cart and released the catch. The cooled contents rolled over the rim just as HMB stepped into the serving lane. Red sauce spread across black armor, the gold ornament, and the folds of the ragged cloak. For a heartbeat, nobody in the town moved. Then Chili lifted the ladle in a small, professional salute. The hood remained dark; the eyes remained red. The Belt Keeper had kept his belt. He had not kept his dignity clean.
+The Chili Cheesers braced a boot against the cart and released the catch. The cooled contents rolled over the rim just as His Majesty's Blood stepped into the serving lane. Red sauce spread across black armor, the gold ornament, and the folds of the ragged cloak. For a heartbeat, nobody in the town moved. Then The Chili Cheesers lifted the ladle in a small, professional salute. The hood remained dark; the eyes remained red. The Belt Keeper had kept his belt. He had not kept his dignity clean.
 
 **Score panel:** {"home": "The Chili Cheesers", "home_score": "152.84", "away": "His Majesty's Blood", "away_score": "135.08", "winner": "The Chili Cheesers", "margin": "17.76"}
 
-**Football basis:** Christian Watson, Bryce Young and Brock Bowers supplied 80.94 for Chili. HMB received 29.98 from Brock Purdy and 20.50 from Jonah Coleman but finished 17.76 short.
+**Football basis:** Christian Watson, Bryce Young and Brock Bowers supplied 80.94 for The Chili Cheesers. His Majesty's Blood received 29.98 from Brock Purdy and 20.50 from Jonah Coleman but finished 17.76 short.
 
-**Selected visual consequence:** Chili wins. The established cart/catch mechanism leads to HMB covered in chili; retain hooded identity, comic rather than burn-injury tone, and no championship-belt transfer.
+**Selected visual consequence:** The Chili Cheesers wins. The established cart/catch mechanism leads to His Majesty's Blood covered in chili; retain hooded identity, comic rather than burn-injury tone, and no championship-belt transfer.
 
 **Approval:** pending; PNG hold. **Final combined page fit:** pending actual artwork and populated data.
 
@@ -259,13 +259,13 @@ Chili braced a boot against the cart and released the catch. The cooled contents
 
 D0nkey K0ng vs The LLC
 
-Behind the home gate, DK waits with all four hooves settled in the sand. The crowd knows the defender. Recognition is not the same thing as winning the next exchange. The LLC checks the fit of ornate armor and studies the open ring. There is space to move and a champion to unsettle. Reputation cannot parry a well-timed answer.
 
-**Home POV:** Behind the home gate, DK waits with all four hooves settled in the sand. The crowd knows the defender. Recognition is not the same thing as winning the next exchange.
 
-**Away POV:** The LLC checks the fit of ornate armor and studies the open ring. There is space to move and a champion to unsettle. Reputation cannot parry a well-timed answer.
+**Home perspective:** Behind the home gate, D0nkey K0ng waits with all four hooves settled in the sand. The crowd knows the defender. Recognition is not the same thing as winning the next exchange.
 
-**Selected visual consequence:** DK wins. Visible parry, four-equine-leg turn and leverage overpower the recognizable armored LLC. One integrated Arsenal gorilla-centaur, not a bipedal ape.
+**Away perspective:** The LLC checks the fit of ornate armor and studies the open ring. There is space to move and a champion to unsettle. Reputation cannot parry a well-timed answer.
+
+**Selected visual consequence:** D0nkey K0ng wins. Visible parry, four-equine-leg turn and leverage overpower the recognizable armored The LLC. One integrated Arsenal gorilla-centaur, not a bipedal ape.
 
 **Approval:** pending; PNG hold. **Final combined page fit:** pending actual artwork and populated data.
 
@@ -273,11 +273,11 @@ Behind the home gate, DK waits with all four hooves settled in the sand. The cro
 
 Every parry changes the next possible move.
 
-The first clash stopped the LLC's advance, not his ambition. He turned his blade against DK's and stepped toward the exposed side. DK answered by moving his hindquarters around the pressure, front hooves cutting a new angle in the sand. Steel scraped free. The knight recovered, drove back in, and forced another guard. Dust rose between their feet and legs. The crowd's noise followed each change of position. Neither reputation could block a sword without somebody doing the work.
+The first clash stopped The LLC's advance, not his ambition. He turned his blade against D0nkey K0ng's and stepped toward the exposed side. D0nkey K0ng answered by moving his hindquarters around the pressure, front hooves cutting a new angle in the sand. Steel scraped free. The knight recovered, drove back in, and forced another guard. Dust rose between their feet and legs. The crowd's noise followed each change of position. Neither reputation could block a sword without somebody doing the work.
 
-**Football basis:** Bijan Robinson and Dak Prescott combined for 56.30 as DK won by 28.81. Joe Burrow’s 37.84 gave the LLC a real response, not enough to overturn the broader gap.
+**Football basis:** Bijan Robinson and Dak Prescott combined for 56.30 as D0nkey K0ng won by 28.81. Joe Burrow’s 37.84 gave The LLC a real response, not enough to overturn the broader gap.
 
-**Selected visual consequence:** DK wins. Visible parry, four-equine-leg turn and leverage overpower the recognizable armored LLC. One integrated Arsenal gorilla-centaur, not a bipedal ape.
+**Selected visual consequence:** D0nkey K0ng wins. Visible parry, four-equine-leg turn and leverage overpower the recognizable armored The LLC. One integrated Arsenal gorilla-centaur, not a bipedal ape.
 
 **Approval:** pending; PNG hold. **Final combined page fit:** pending actual artwork and populated data.
 
@@ -285,13 +285,13 @@ The first clash stopped the LLC's advance, not his ambition. He turned his blade
 
 Leverage, not reputation, decides the duel.
 
-The LLC caught the descending blade and tried to drive through the parry. DK turned around that pressure instead. Four hooves changed the line; the knight's elegant defense suddenly faced empty sand. DK pressed the exposed guard, forcing the challenger backward and down onto one armored knee. The next movement stopped his sword short of the grounded rival. Around them, the crowd rose. The armor remained expensive. The lesson had cost more.
+The LLC caught the descending blade and tried to drive through the parry. D0nkey K0ng turned around that pressure instead. Four hooves changed the line; the knight's elegant defense suddenly faced empty sand. D0nkey K0ng pressed the exposed guard, forcing the challenger backward and down onto one armored knee. The next movement stopped his sword short of the grounded rival. Around them, the crowd rose. The armor remained expensive. The lesson had cost more.
 
 **Score panel:** {"home": "D0nkey K0ng", "home_score": "158.70", "away": "The LLC", "away_score": "129.89", "winner": "D0nkey K0ng", "margin": "28.81"}
 
-**Football basis:** Bijan Robinson and Dak Prescott combined for 56.30 as DK won by 28.81. Joe Burrow’s 37.84 gave the LLC a real response, not enough to overturn the broader gap.
+**Football basis:** Bijan Robinson and Dak Prescott combined for 56.30 as D0nkey K0ng won by 28.81. Joe Burrow’s 37.84 gave The LLC a real response, not enough to overturn the broader gap.
 
-**Selected visual consequence:** DK wins. Visible parry, four-equine-leg turn and leverage overpower the recognizable armored LLC. One integrated Arsenal gorilla-centaur, not a bipedal ape.
+**Selected visual consequence:** D0nkey K0ng wins. Visible parry, four-equine-leg turn and leverage overpower the recognizable armored The LLC. One integrated Arsenal gorilla-centaur, not a bipedal ape.
 
 **Approval:** pending; PNG hold. **Final combined page fit:** pending actual artwork and populated data.
 
@@ -299,13 +299,13 @@ The LLC caught the descending blade and tried to drive through the parry. DK tur
 
 Slob on my Dobb vs Three Dreaded Snake
 
-Slob studies the next barrier from his starting cover. The first useful angle will not belong to whoever waits most comfortably. He is ready to spend protection in exchange for ground. Three protected heads follow different openings from one shared position. TDS can see several possibilities, but seeing a lane is not owning it. The next move must make the difference.
 
-**Home POV:** Slob studies the next barrier from his starting cover. The first useful angle will not belong to whoever waits most comfortably. He is ready to spend protection in exchange for ground.
 
-**Away POV:** Three protected heads follow different openings from one shared position. TDS can see several possibilities, but seeing a lane is not owning it. The next move must make the difference.
+**Home perspective:** Slob on my Dobb studies the next barrier from his starting cover. The first useful angle will not belong to whoever waits most comfortably. He is ready to spend protection in exchange for ground.
 
-**Selected visual consequence:** Slob wins. P21 camera is third person behind the sliding heavyset human winner, marker aimed downrange; losing three-headed TDS is visible with paint impacts on protected mask/body. P20 remains the build, with no premature player hit.
+**Away perspective:** Three protected heads follow different openings from one shared position. Three Dreaded Snake can see several possibilities, but seeing a lane is not owning it. The next move must make the difference.
+
+**Selected visual consequence:** Slob on my Dobb wins. P21 camera is third person behind the sliding heavyset human winner, marker aimed downrange; losing three-headed Three Dreaded Snake is visible with paint impacts on protected mask/body. P20 remains the build, with no premature player hit.
 
 **Approval:** pending; PNG hold. **Final combined page fit:** pending actual artwork and populated data.
 
@@ -313,11 +313,11 @@ Slob studies the next barrier from his starting cover. The first useful angle wi
 
 Two contenders. Changing angles. No comfortable position.
 
-Slob broke for central cover. Paint snapped against the bunker as he slid behind it. Across the lane, TDS moved again. Three protected heads watched three openings. Neither could wait. Every advance gained ground and surrendered protection.
+Slob on my Dobb broke for central cover. Paint snapped against the bunker as he slid behind it. Across the lane, Three Dreaded Snake moved again. Three protected heads watched three openings. Neither could wait. Every advance gained ground and surrendered protection.
 
-**Football basis:** Slob entered Monday 11.06 behind. Josh Allen and Will Reichard added 24.46 against Hockenson’s 7.30: a 17.16 swing and a 6.10 win. Lamb, Irving and McCaffrey had supplied 91.50.
+**Football basis:** Slob on my Dobb entered Monday 11.06 behind. Josh Allen and Will Reichard added 24.46 against T.J. Hockenson’s 7.30: a 17.16 swing and a 6.10 win. CeeDee Lamb, Bucky Irving and Christian McCaffrey had supplied 91.50.
 
-**Selected visual consequence:** Slob wins. P21 camera is third person behind the sliding heavyset human winner, marker aimed downrange; losing three-headed TDS is visible with paint impacts on protected mask/body. P20 remains the build, with no premature player hit.
+**Selected visual consequence:** Slob on my Dobb wins. P21 camera is third person behind the sliding heavyset human winner, marker aimed downrange; losing three-headed Three Dreaded Snake is visible with paint impacts on protected mask/body. P20 remains the build, with no premature player hit.
 
 **Approval:** pending; PNG hold. **Final combined page fit:** pending actual artwork and populated data.
 
@@ -325,30 +325,21 @@ Slob broke for central cover. Paint snapped against the bunker as he slid behind
 
 The final position has to be earned.
 
-Slob dropped his weight into the slide as the last burst broke against the bunker behind him. The move opened a clean lane. From behind his shoulder, the marker settled on TDS beyond the next barrier; bright paint struck the protective fronts of the serpent masks and splashed across the shared torso. All three heads recoiled without losing their protection. Slob came to rest with the barrel still level. He had not found safe ground. He had reached the dangerous ground first.
+Slob on my Dobb dropped his weight into the slide as the last burst broke against the bunker behind him. The move opened a clean lane. From behind his shoulder, the marker settled on Three Dreaded Snake beyond the next barrier; bright paint struck the protective fronts of the serpent masks and splashed across the shared torso. All three heads recoiled without losing their protection. Slob on my Dobb came to rest with the barrel still level. He had not found safe ground. He had reached the dangerous ground first.
 
 **Score panel:** {"home": "Slob on my Dobb", "home_score": "165.66", "away": "Three Dreaded Snake", "away_score": "159.56", "winner": "Slob on my Dobb", "margin": "6.10"}
 
-**Football basis:** Slob entered Monday 11.06 behind. Josh Allen and Will Reichard added 24.46 against Hockenson’s 7.30: a 17.16 swing and a 6.10 win. Lamb, Irving and McCaffrey had supplied 91.50.
+**Football basis:** Slob on my Dobb entered Monday 11.06 behind. Josh Allen and Will Reichard added 24.46 against T.J. Hockenson’s 7.30: a 17.16 swing and a 6.10 win. CeeDee Lamb, Bucky Irving and Christian McCaffrey had supplied 91.50.
 
-**Selected visual consequence:** Slob wins. P21 camera is third person behind the sliding heavyset human winner, marker aimed downrange; losing three-headed TDS is visible with paint impacts on protected mask/body. P20 remains the build, with no premature player hit.
+**Selected visual consequence:** Slob on my Dobb wins. P21 camera is third person behind the sliding heavyset human winner, marker aimed downrange; losing three-headed Three Dreaded Snake is visible with paint impacts on protected mask/body. P20 remains the build, with no premature player hit.
 
 **Approval:** pending; PNG hold. **Final combined page fit:** pending actual artwork and populated data.
 
-## 26 · W09-P37 — Availability Watch
+## 26 · W09-P37 — The Reserve List
 
-Week 9 fantasy-reserve snapshot · not newly confirmed NFL IR news
+Observed Week 9 fantasy reserve slots. Not an injury-news bulletin.
 
-Reserve slots show which names were outside the Week 9 scoring lineup, not a new NFL diagnosis. The observations below preserve the actual fantasy ownership. Return dates and medical explanations remain unreported until an official source supports them.
-
-**QUARTERBACK DEPTH — Observed fantasy reserve occupancy**
-El Niño: Jalen Hurts; Red Leopards: Lamar Jackson
-
-**TDS AND THE LLC — Observed fantasy reserve occupancy**
-The LLC: Garrett Wilson; The LLC: Jonathon Brooks; Three Dreaded Snake: Tyreek Hill; Three Dreaded Snake: A.J. Brown
-
-**OTHER RESERVE PRESSURE — Observed fantasy reserve occupancy**
-Dr. Duckhook: Dameon Pierce; ObiWan Jacoby: Romeo Doubs; ObiWan Jacoby: Jacory Croskey-Merritt; Seven Deadly Chins: Jeremiyah Love; The Chili Cheesers: RJ Harvey; His Majesty's Blood: Carnell Tate; His Majesty's Blood: Terrance Ferguson; D0nkey K0ng: Davante Adams; D0nkey K0ng: Alec Pierce; Slob on my Dobb: TreVeyon Henderson; Slob on my Dobb: Brandon Aiyuk
+Seventeen fantasy reserve slots were occupied in the captured Week 9 rosters. These players were outside the scoring lineup. Reserve placement does not establish a new injury, a National Football League designation, or a return date.
 
 | team_id | team | player | scope | NFL_IR_verified |
 |---|---|---|---|---|
@@ -376,16 +367,16 @@ Dr. Duckhook: Dameon Pierce; ObiWan Jacoby: Romeo Doubs; ObiWan Jacoby: Jacory C
 
 Completed deals, receiving lineups, and proposals that ended.
 
-The completed London–Judkins exchange reached both starting lineups:11.80 for London with Slob and 7.00 for Judkins with the LLC. Neither trade impact nor a bench score should be mistaken for a complete alternate-lineup calculation.
+The completed Drake London–Quinshon Judkins exchange reached both starting lineups:11.80 for Drake London with Slob on my Dobb and 7.00 for Quinshon Judkins with The LLC. Neither trade impact nor a bench score should be mistaken for a complete alternate-lineup calculation.
 
 **COMPLETED EXCHANGE — New uniforms, real points**
-November 5: Drake London to Slob; Quinshon Judkins to the LLC. Both started in Week 9. Fresh structured activity retains the completed trade.
+November 5: Drake London to Slob on my Dobb; Quinshon Judkins to The LLC. Both started in Week 9. Fresh structured activity retains the completed trade.
 
-**NOT A COMPLETED TRADE — Lawrence and DeVonta stayed put**
+**NOT A COMPLETED TRADE — Trevor Lawrence and DeVonta Smith stayed put**
 The November 5 proposal was canceled/declined on November 6. Its historical pending row is not a live offer or a completed exchange.
 
 **ACQUISITION CONTEXT — The margins included new pieces**
-Chili’s acquired Giants D/ST scored 19.00; DK’s added Xavier Hutchinson scored 13.30. The returned 42 transaction records include lifecycle events, not 42 completed deals.
+The Chili Cheesers’s acquired Giants D/ST scored 19.00; D0nkey K0ng’s added Xavier Hutchinson scored 13.30. The returned 42 transaction records include lifecycle events, not 42 completed deals.
 
 **Approval:** pending; PNG hold. **Final combined page fit:** pending actual artwork and populated data.
 
@@ -393,7 +384,7 @@ Chili’s acquired Giants D/ST scored 19.00; DK’s added Xavier Hutchinson scor
 
 Post-Week 9 standings · current ESPN seed, not final finish
 
-Duckhook leads at 6–3. Seven teams share 5–4; Chili occupies seed 8 despite the same record as seeds 2–7. These are current ESPN positions, not clinched berths.
+Dr. Duckhook leads at 6–3. Seven teams share 5–4; The Chili Cheesers occupies seed 8 despite the same record as seeds 2–7. These are current ESPN positions, not clinched berths.
 
 | team_id | team | division | wins | losses | ties | record | points_for | points_against | current_seed | projected_rank | clinched |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -416,24 +407,24 @@ Duckhook leads at 6–3. Seven teams share 5–4; Chili occupies seed 8 despite 
 
 Different division stories. The same shrinking margin.
 
-Three division races feed one shared cutoff. Duckhook, El Niño and DK occupy the current division-leader seeds. The next group has little separation: seven teams are 5–4, while Chili is the first team outside the present seven-place field.
+Three division races feed one shared cutoff. Dr. Duckhook, El Niño and D0nkey K0ng occupy the current division-leader seeds. The next group has little separation: seven teams are 5–4, while The Chili Cheesers is the first team outside the present seven-place field.
 
-**BURGERS — DK takes the front**
-DK stands 5–4 at seed 3. ObiWan and TDS are 4–5 at seeds 9 and 10; Mud Dogs is 2–7. The arena win gives DK separation within the division, not a clinch.
+**BURGERS — D0nkey K0ng takes the front**
+D0nkey K0ng stands 5–4 at seed 3. ObiWan Jacoby and Three Dreaded Snake are 4–5 at seeds 9 and 10; Mud Dogs is 2–7. The arena win gives D0nkey K0ng separation within the division, not a clinch.
 
 **PIZZA — Three tied records, different seeds**
-El Niño, HMB and Chins are all 5–4. ESPN assigns them seeds 2,5 and 6; the LLC is 3–6 at 11. El Niño’s current division-leader position comes from the provider order, not a fabricated tiebreak explanation.
+El Niño, His Majesty's Blood and Seven Deadly Chins are all 5–4. ESPN assigns them seeds 2,5 and 6; The LLC is 3–6 at 11. El Niño’s current division-leader position comes from the provider order, not a fabricated tiebreak explanation.
 
 **WINGS — The leader and the squeeze**
-Duckhook is 6–3. Red, Slob and Chili are 5–4 at seeds 4,7 and 8. Slob leads season scoring with 1420.70, yet sits on the current cut line; Chili shares the record but stands just outside.
+Dr. Duckhook is 6–3. Red Leopards, Slob on my Dobb and The Chili Cheesers are 5–4 at seeds 4,7 and 8. Slob on my Dobb leads season scoring with 1420.70, yet sits on the current cut line; The Chili Cheesers shares the record but stands just outside.
 
 **Approval:** pending; PNG hold. **Final combined page fit:** pending actual artwork and populated data.
 
-## 30 · W09-P25 — The Twelve — Power Watch
+## 30 · W09-P25 — The Twelve — Scoring-Form Index
 
-Editorial scoring-form order · methodology submitted for approval
+Season scoring and Week 9 form. Not playoff odds.
 
-Slob leads this scoring-form view; Duckhook owns the official top seed. The index blends 70% season points per game with 30% Week 9 scoring. It measures scoring form—not playoff probability, roster health, or an official seed.
+Slob on my Dobb leads this scoring-form index; Dr. Duckhook holds the official top seed. The index weights season points per game at 70% and Week 9 scoring at 30%. It is not a roster-health assessment or playoff forecast.
 
 | team_id | team | record | season_ppg | week9_points | scoring_form_index | power_rank |
 |---|---|---|---|---|---|---|
@@ -459,7 +450,7 @@ Weeks 10–14: five games per team; thirty league fixtures
 Nine weeks are complete; five regular-season games remain for each team. Three division winners qualify, with four additional places determined by the league’s standings and seeding rules. Weeks 12–14 return to division play. Current seed does not mean clinched, and a poor record does not by itself prove elimination.
 
 **THREE DIVISION ROUTES — Win your race**
-The division winners take automatic berths. Current leaders are Duckhook in Wings, El Niño in Pizza, and DK in Burgers; none is labeled clinched here.
+The division winners take automatic berths. Current leaders are Dr. Duckhook in Wings, El Niño in Pizza, and D0nkey K0ng in Burgers; none is labeled clinched here.
 
 **FOUR OTHER PLACES — The whole league is your scoreboard**
 Remaining berths are shared across divisions. The configured head-to-head seeding tiebreak applies under its league rules; equal records do not guarantee equal seeds.
@@ -473,7 +464,7 @@ The final three regular-season weeks are divisional in the verified schedule. Fi
 
 Current ESPN seed versus ESPN projected rank · not playoff probabilities
 
-Slob is current seed 7 but ESPN projected rank 2; Chili is seed 8 and projected rank 5. Those are different views of the race, not promises. The feed supplies no playoff percentages, so this tracker reports positions and projected ranks only.
+Slob on my Dobb is current seed 7 but ESPN projected rank 2; The Chili Cheesers is seed 8 and projected rank 5. Those are different views of the race, not promises. The feed supplies no playoff percentages, so this tracker reports positions and projected ranks only.
 
 | team_id | team | current_seed | projected_rank | clinched |
 |---|---|---|---|---|
@@ -494,9 +485,9 @@ Slob is current seed 7 but ESPN projected rank 2; Chili is seed 8 and projected 
 
 ## 33 · W09-P26 — The Next Six
 
-Week 10 fixtures · GOTW candidate: Chili Cheesers vs D0nkey K0ng
+Week 10 fixtures · Game of the Week candidate: The Chili Cheesers vs D0nkey K0ng
 
-Chili hosts DK with both 5–4, but their current positions differ: Chili is seed 8; DK holds seed 3. That cross-divisional contest is the proposed Week 10 spotlight. Duckhook–HMB remains the alternate.
+The Chili Cheesers hosts D0nkey K0ng with both 5–4, but their current positions differ: The Chili Cheesers is seed 8; D0nkey K0ng holds seed 3. That cross-divisional contest is the proposed Week 10 spotlight. Dr. Duckhook–His Majesty's Blood remains the alternate.
 
 | home_team_id | home | home_record | away_team_id | away | away_record |
 |---|---|---|---|---|---|
@@ -513,7 +504,7 @@ Chili hosts DK with both 5–4, but their current positions differ: Chili is see
 
 One week closed. Family comes first.
 
-The shutters are down at Pittsy’s Book. This week, TDS has a more important arrival to attend to. The ledger is closed, the windows are dark, and the Commonwealth can manage without new lines while the Pitts family welcomes its newest member. The pause lasts one week. The congratulations belong to everyone; the private moments belong to the family. For once, the right move is to leave the Book alone.
+The shutters are down at Pittsy’s Book. This week, Three Dreaded Snake has a more important arrival to attend to. The ledger is closed, the windows are dark, and the Commonwealth can manage without new lines while the Pitts family welcomes its newest member. The pause lasts one week. The congratulations belong to everyone; the private moments belong to the family. For once, the right move is to leave the Book alone.
 
 **Approval:** pending; PNG hold. **Final combined page fit:** pending actual artwork and populated data.
 
@@ -521,6 +512,6 @@ The shutters are down at Pittsy’s Book. This week, TDS has a more important ar
 
 Five weeks remain. A place in the tournament is the next prize.
 
-The scoreboards are settled; the league is not. Seven teams share 5–4, and the line between seventh and eighth is already separating identical records. Duckhook has a lead, not a guarantee. ObiWan and TDS have ground to recover; the LLC and Mud Dogs cannot afford to waste the remaining road. Five weeks stand between this crowded table and the postseason. The next victory will matter to more than the two teams playing for it.
+The scoreboards are settled; the league is not. Seven teams share 5–4, and the line between seventh and eighth is already separating identical records. Dr. Duckhook has a lead, not a guarantee. ObiWan Jacoby and Three Dreaded Snake have ground to recover; The LLC and Mud Dogs cannot afford to waste the remaining road. Five weeks stand between this crowded table and the postseason. The next victory will matter to more than the two teams playing for it.
 
 **Approval:** pending; PNG hold. **Final combined page fit:** pending actual artwork and populated data.

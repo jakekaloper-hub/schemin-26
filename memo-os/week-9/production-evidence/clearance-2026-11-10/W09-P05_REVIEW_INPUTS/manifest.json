@@ -1,0 +1,94 @@
+{
+  "kind": "CURRENT_APPROVAL_REVIEW_INPUTS_NOT_RENDER_PERMISSION",
+  "page_id": "W09-P05",
+  "reading_position": 6,
+  "source_packet_sha256": "7a6d5494fea85aa13e88ed0922ae3b1b9539d24bf53a05260b196098e4eb2e05",
+  "canvas": [
+    1080,
+    1920
+  ],
+  "exact_cast": [
+    "CHAR-ZACH-WILSON",
+    "CHAR-JAKE-KALOPER"
+  ],
+  "reference_files": [
+    {
+      "character_id": "CHAR-ZACH-WILSON",
+      "file": "CHAR-ZACH-WILSON.png",
+      "sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+      "repository_source": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+      "authority_file": "CHAR-ZACH-WILSON-appearance.json",
+      "authority_sha256": "f1a8ffaa33809b9433e5b6b117a161bf38bcbae914324512161a23d915add6d9",
+      "identity_approval_reopened": false
+    },
+    {
+      "character_id": "CHAR-JAKE-KALOPER",
+      "file": "CHAR-JAKE-KALOPER.png",
+      "sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+      "repository_source": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+      "authority_file": "CHAR-JAKE-KALOPER-appearance.json",
+      "authority_sha256": "83ae608eba9ba47cc18637d8dce9fd46bc07d82d9064a09d240113d97cb1f1d3",
+      "identity_approval_reopened": false
+    }
+  ],
+  "renderer_binding_proven": false,
+  "artwork_generated": false,
+  "render_authorized": false,
+  "release_approved": false,
+  "actual_result_selected": true,
+  "contains_final_scores": true,
+  "layout_authority": "Current layout_spec, NOT earlier proof_preparation.layout",
+  "purpose": "Explicit two-reference inputs for an authorized narrow provider route; no whole-issue context or all-cast board.",
+  "remaining_gates": [
+    "Actual authorized provider attachment and reference fidelity",
+    "Applicable scene review",
+    "Generated-image inspection",
+    "Final data/copy before publication"
+  ],
+  "no_paid_route_enabled": true,
+  "edition": "approval-review",
+  "copy_selector": "approval_folio.copy",
+  "full_character_names": [
+    "Dr. Duckhook",
+    "ObiWan Jacoby"
+  ],
+  "approval_folio_sha256": "f3387f1ee7880b20d7626196171d848d2e1d34624ad2a8e1b0d9605e40288f02",
+  "files": {
+    "CHAR-ZACH-WILSON.png": {
+      "sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+      "bytes": 225523
+    },
+    "CHAR-ZACH-WILSON-appearance.json": {
+      "sha256": "f1a8ffaa33809b9433e5b6b117a161bf38bcbae914324512161a23d915add6d9",
+      "bytes": 3107
+    },
+    "CHAR-JAKE-KALOPER.png": {
+      "sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+      "bytes": 320465
+    },
+    "CHAR-JAKE-KALOPER-appearance.json": {
+      "sha256": "83ae608eba9ba47cc18637d8dce9fd46bc07d82d9064a09d240113d97cb1f1d3",
+      "bytes": 3074
+    },
+    "COPY.txt": {
+      "sha256": "95edbfe95ba04cd2805190a0927cd8f74e9389e7d6dc8aa62c318377d55016ea",
+      "bytes": 491
+    },
+    "layout.json": {
+      "sha256": "dc675ea25c60279abf9d42a4f3012c6ac5642c45f4367fd96f73d22efc99e925",
+      "bytes": 1291
+    },
+    "ACTIVE_SCENE.json": {
+      "sha256": "b0e8075656e43c725ef3a9fdb0b373f0de449c579f68f7259541a2eacbce60dd",
+      "bytes": 11733
+    },
+    "COMMISSION.md": {
+      "sha256": "4ce5f2efbb022d5849c5ed1b2a68dc6cd245a45b76b700aba14f79636856bb86",
+      "bytes": 4063
+    },
+    "REVIEW.html": {
+      "sha256": "0e92c927740203dffbd4606afac7dd86d493fef7d31bb2868c103a7fb9af3552",
+      "bytes": 1632
+    }
+  }
+}

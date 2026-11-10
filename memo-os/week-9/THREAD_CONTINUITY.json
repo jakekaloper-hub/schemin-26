@@ -213,7 +213,7 @@
       "memo-os/week-9/WEEK_9_COMPLETE_ISSUE_PREVIS_2026-11-08.json"
     ],
     "review_artifact": "memo-os/week-9/WEEK_9_FULL_PAGE_LAYOUT_REHEARSAL_2026-11-09.html",
-    "next_action": "Review the35final-result approval folios and resolve genuine source/creative gaps; no PNG generation until approval. Use approval_folio.copy, not archived pre-MNF copy. Do not restart characters/layout or consult source date to invent acceptance.",
+    "next_action": "Read the full-name final approval edition and the bounded approval summary. Obtain the actual content/first-proof decision; do not re-interview or redesign the established characters. New review kits explicitly select approval_folio.copy. First proof is Dr. Duckhook and ObiWan Jacoby; following proof is Slob on my Dobb and Three Dreaded Snake. No batch or publication permission is implied.",
     "no_claim": "Not an automatic worker ACK, a final acceptance or a promise of background work.",
     "sports_action": "Use November9 pre-MNF thresholds and completed-lineup draft endings. After BUF-MIN, verify all six provider results and final player contributions before selecting official outcomes; no reinterview or character redesign.",
     "copy_artifact": "memo-os/week-9/WEEK_9_EDITORIAL_COPY_PROOF_2026-11-09.html",
@@ -369,5 +369,40 @@
       "W09-M05": 5,
       "W09-M06": 3
     }
+  },
+  "latest_full_name_clearance": {
+    "date": "2026-11-10",
+    "record": "production-evidence/clearance-2026-11-10/APPROVAL_SUMMARY.md",
+    "review_digest": "8fa6c5d079b58876c93163e6c873cb5d8aff14e3209ce3165c5180ebfca1cdc2",
+    "first_proof_kits": {
+      "W09-P05": {
+        "path": "production-evidence/clearance-2026-11-10/W09-P05_REVIEW_INPUTS",
+        "zip": "production-evidence/clearance-2026-11-10/W09-P05_REVIEW_INPUTS.zip",
+        "manifest_sha256": "481502962acadd013969c999992c49f69cbb5bba62202c8f186ab0be1f3fe37a",
+        "folio_sha256": "f3387f1ee7880b20d7626196171d848d2e1d34624ad2a8e1b0d9605e40288f02",
+        "exact_names": [
+          "Dr. Duckhook",
+          "ObiWan Jacoby"
+        ],
+        "copy_selector": "approval_folio.copy",
+        "renderer_binding_proven": false
+      },
+      "W09-P20": {
+        "path": "production-evidence/clearance-2026-11-10/W09-P20_REVIEW_INPUTS",
+        "zip": "production-evidence/clearance-2026-11-10/W09-P20_REVIEW_INPUTS.zip",
+        "manifest_sha256": "d4567e137f305a14eef538ad9014e85ee7755b20c16eb2b4fc9dcea22885c9f0",
+        "folio_sha256": "7d56050e4cef0435e7b9405e2d20460a3e06ce61be4d01e938141c9f493e42a0",
+        "exact_names": [
+          "Slob on my Dobb",
+          "Three Dreaded Snake"
+        ],
+        "copy_selector": "approval_folio.copy",
+        "renderer_binding_proven": false
+      }
+    },
+    "source_receipt_pending": true,
+    "founder_content_approved": false,
+    "png_authorized": false,
+    "selected_finale_scenes_only": true
   }
 }

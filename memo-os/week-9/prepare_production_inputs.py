@@ -8,6 +8,8 @@ Neither command asserts provider attachment, final source acceptance or release.
 """
 from __future__ import annotations
 import argparse
+import copy
+import importlib.util
 from collections import Counter
 from datetime import datetime
 from decimal import Decimal, InvalidOperation
@@ -170,12 +172,19 @@ def validate_current_packet(issue: dict, page: dict) -> None:
     if order and [a.get('zone') for a in proof.get('action_blocks',[])]!=order:
         raise ValueError('Physical action order and layout regions disagree')
 
-def export_page_kit(root: Path,issue: dict,page_id: str,out: Path) -> dict:
+def export_page_kit(root: Path,issue: dict,page_id: str,out: Path,edition: str='neutral') -> dict:
     """Copy exact selected reference bytes into a one-page neutral study kit."""
     if out.exists():raise FileExistsError(f'Destination already exists: {out}')
     pages=[p for p in issue['pages'] if p['page_id']==page_id and p.get('publication_included')]
     if len(pages)!=1:raise ValueError('Page is missing, duplicated or absorbed; use active reading IDs')
     page=pages[0]
+    if edition not in ['neutral','approval-review']:raise ValueError('Unknown page-kit edition')
+    naming_spec=importlib.util.spec_from_file_location('kit_names',root/'memo-os/week-9/approval_naming.py')
+    naming=importlib.util.module_from_spec(naming_spec);naming_spec.loader.exec_module(naming)
+    folio=page.get('approval_folio') if edition=='approval-review' else None
+    if edition=='approval-review':
+        if not folio or folio.get('content_digest')!=naming.folio_digest(folio):raise ValueError('Stale or unreviewed approval folio digest')
+        if folio['cast']!=page['characters_present']:raise ValueError('Approval cast differs from current packet')
     if page_id not in ['W09-P05','W09-P20']:raise ValueError('This bounded exporter supports only the existing neutral P05/P20 proof lane')
     validate_current_packet(issue,page)
     assets=[];contents={};cast=page['characters_present']
@@ -197,8 +206,9 @@ def export_page_kit(root: Path,issue: dict,page_id: str,out: Path) -> dict:
                        'authority_file':auth_name,'authority_sha256':digest(auth),'identity_approval_reopened':False})
         contents[image_name]=data;contents[auth_name]=auth
     if page['layout_spec']['canvas']!=[1080,1920]:raise ValueError('Wrong current canvas')
-    c=page['editorial_copy'];layout=page['layout_spec']
-    manifest={'kind':'ISOLATED_EXISTING_NEUTRAL_PAGE_INPUTS_NOT_AN_IMAGE','page_id':page_id,
+    c=naming.transform(folio['copy'] if folio else page['editorial_copy']);layout=folio['layout'] if folio else page['layout_spec']
+    if layout!=page['layout_spec']:raise ValueError('Approval layout differs from current packet')
+    manifest={'kind':'CURRENT_APPROVAL_REVIEW_INPUTS_NOT_RENDER_PERMISSION' if folio else 'ISOLATED_EXISTING_NEUTRAL_PAGE_INPUTS_NOT_AN_IMAGE','page_id':page_id,
               'reading_position':issue['reading_order'].index(page_id)+1,'source_packet_sha256':fingerprint(page),
               'canvas':[1080,1920],'exact_cast':cast,'reference_files':assets,
               'renderer_binding_proven':False,'artwork_generated':False,'render_authorized':False,
@@ -207,6 +217,7 @@ def export_page_kit(root: Path,issue: dict,page_id: str,out: Path) -> dict:
               'purpose':'Explicit two-reference inputs for an authorized narrow provider route; no whole-issue context or all-cast board.',
               'remaining_gates':['Actual authorized provider attachment and reference fidelity','Applicable scene review','Generated-image inspection','Final data/copy before publication'],
               'no_paid_route_enabled':True}
+    manifest.update(edition=edition,copy_selector='approval_folio.copy' if folio else 'editorial_copy with full-name presentation',full_character_names=[naming.NAMES[cid] for cid in cast],approval_folio_sha256=folio['content_digest'] if folio else None,actual_result_selected=bool(folio and folio.get('selected_branch')),contains_final_scores=bool(folio and folio.get('result_context')))
     contents['COPY.txt']=(c['headline']+'\n'+c['deck']+'\n\n'+c['body']+'\n').encode()
     contents['layout.json']=(json.dumps(layout,ensure_ascii=False,indent=2)+'\n').encode()
     active_scene={
@@ -218,6 +229,14 @@ def export_page_kit(root: Path,issue: dict,page_id: str,out: Path) -> dict:
         'character_authorities':{cid:issue['resolved_character_appearances'][cid] for cid in cast},
         'stage':'NEUTRAL_INPUT_REVIEW_NOT_GENERATION_OR_RELEASE',
         'rule':'Current placement and geometry control execution; original source IDs preserve provenance only.'}
+    active_scene=naming.transform(active_scene)
+    if folio:
+        active_scene['written_beats']=folio.get('scene',{}).get('beats',[])
+        active_scene['final_visual_direction']=folio.get('final_visual_direction')
+        active_scene['selected_result_context']=folio.get('result_context')
+        active_scene['publication_text_policy']=folio['publication_text_policy']
+        active_scene['stage']='REVIEW_BEFORE_PNG_PERMISSION_NOT_SUBMISSION'
+    active_scene['character_identity']=[{'character_id':cid,'full_name':naming.NAMES[cid]} for cid in cast]
     contents['ACTIVE_SCENE.json']=(json.dumps(active_scene,ensure_ascii=False,indent=2)+'\n').encode()
 
     proof=page.get('proof_preparation',{});actions=proof.get('action_blocks',[])
@@ -230,13 +249,24 @@ def export_page_kit(root: Path,issue: dict,page_id: str,out: Path) -> dict:
         'Venue: '+str(page['encounter'].get('venue_id')),
         'Identity application: '+json.dumps(page.get('scene_identity_application',{}),ensure_ascii=False),
         'Keep Week8 editorial identity; use layered atmosphere, scale, restrained highlights and material detail from the supplied craft references, never their foreign costumes/vehicles/geography.']
+    if folio:
+        instructions=[x for x in instructions if not x.startswith(('ONE existing neutral','No final score'))]
+        instructions.insert(1,'ONE final-result content-review commission. No PNG generation or provider submission is authorized by this file.')
+        instructions.append('Use approval_folio.copy as the selected review text. Preserve the chosen outcome as scene context; do not show the climax early.')
+        instructions.append(folio.get('performance_edit',''))
+        instructions.append(folio.get('final_visual_direction',''))
     instructions.append('ACTIVE_SCENE.json is the complete current scene/transfer contract; use it with layout.json and the two exact references.')
     for transfer in page.get('absorbed_source_beats',[]):instructions.append('Required preserved setup: '+transfer['required_visible_transfer'])
     for action in actions:instructions.append('\n'+json.dumps(action,ensure_ascii=False,indent=2))
     instructions.append('\nNo factual sports inset is included in this neutral input kit. The published page needs accepted outcome-specific copy and fresh full-page fit/pixel review.')
+    if folio:instructions=[x for x in instructions if not x.startswith('No factual sports inset')]
+    instructions.insert(2,'Characters: '+', '.join(naming.NAMES[cid]+' ['+cid+']' for cid in cast)+'. Full names are mandatory; identifiers bind the established references.')
+    instructions=[naming.full_names(x) for x in instructions]
     contents['COMMISSION.md']=('\n\n'.join(instructions)+'\n').encode()
     figures=''.join('<figure><img src="'+a['file']+'" alt="Approved reference '+html.escape(a['character_id'])+'"><figcaption>'+html.escape(a['character_id'])+'</figcaption></figure>' for a in assets)
     review='<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>'+page_id+' source kit</title><style>body{font:18px/1.5 system-ui;max-width:960px;margin:30px auto;padding:20px}section{display:flex;gap:24px;flex-wrap:wrap}figure{flex:1;min-width:240px;margin:0}img{width:100%;max-width:360px}pre{white-space:pre-wrap;overflow-wrap:anywhere}h1{line-height:1.1}</style><h1>'+html.escape(page_id+' · '+c['headline'])+'</h1><p><strong>REFERENCE INPUT KIT — NOT GENERATED ART.</strong> Exactly two approved subjects. Current canvas1080×1920. No winner chosen.</p><section>'+figures+'</section><h2>Exact current draft copy</h2><pre>'+html.escape(contents['COPY.txt'].decode())+'</pre><p>Use COMMISSION.md and layout.json with these exact files. This kit does not certify provider attachment, final results or picture quality.</p></html>'
+    review=naming.full_names(review)
+    if folio:review=review.replace('No winner chosen.','Final result selected for editorial review; image authorization remains pending.').replace('Exact current draft copy','Current final-result review copy')
     contents['REVIEW.html']=review.encode()
     manifest['files']={name:{'sha256':digest(data),'bytes':len(data)} for name,data in contents.items()}
     # All source validation precedes creation, so a bad reference leaves no partial kit.
@@ -253,12 +283,12 @@ def main() -> int:
     parser.add_argument('--root',type=Path,default=Path(__file__).resolve().parents[2])
     sub=parser.add_subparsers(dest='command',required=True)
     p=sub.add_parser('result-preview');p.add_argument('--observation',type=Path,required=True);p.add_argument('--output',type=Path,required=True)
-    p=sub.add_parser('page-kit');p.add_argument('--page',choices=['W09-P05','W09-P20'],required=True);p.add_argument('--output',type=Path,required=True)
+    p=sub.add_parser('page-kit');p.add_argument('--page',choices=['W09-P05','W09-P20'],required=True);p.add_argument('--output',type=Path,required=True);p.add_argument('--edition',choices=['neutral','approval-review'],default='neutral')
     args=parser.parse_args();week=args.root/'memo-os/week-9'
     try:
         issue=json.loads((week/REGISTRY).read_text())
         if args.command=='page-kit':
-            r=export_page_kit(args.root,issue,args.page,args.output);print(json.dumps({'page':args.page,'references':len(r['reference_files']),'state':r['kind']}));return 0
+            r=export_page_kit(args.root,issue,args.page,args.output,edition=args.edition);print(json.dumps({'page':args.page,'references':len(r['reference_files']),'state':r['kind']}));return 0
         cards=json.loads((week/CARDS).read_text());observation=json.loads(args.observation.read_text())
         r=reconcile(issue,cards,observation)
         args.output.parent.mkdir(parents=True,exist_ok=True)
