@@ -1,0 +1,423 @@
+{
+  "schema": "schemin26.truth_plane_row_diff.v1",
+  "run_id": "S26-MEMO-W09-20261110",
+  "trace_id": "TRACE-S26-MEMO-20261110-1417621",
+  "work_key": "league=1417621/season=2026/week=9/observation=2026-11-10/gateway_sha=0689b381868248b73df957801ca50d611d6ffc26/flaim_espn=2026-11-10",
+  "compared_to": "memo-os/week-9/WEEK_8_FINAL_WEEK_9_PROVIDER_EVIDENCE_2026-11-09.json",
+  "observation_date": "2026-11-10",
+  "transaction_rows": {
+    "week8": {
+      "from": 32,
+      "to": 32,
+      "added": [],
+      "removed": [],
+      "modified": [
+        {
+          "id": "string:17d986bb-700a-4f4f-9336-2b3a66702d77",
+          "prior": {
+            "transaction_id": "17d986bb-700a-4f4f-9336-2b3a66702d77",
+            "type": "waiver",
+            "status": "pending",
+            "timestamp": 1793209679038,
+            "timestamp_source": "proposedDate",
+            "date": "2026-10-28",
+            "week": 8,
+            "provider_scoring_period_id": 8,
+            "team_ids": [
+              "1"
+            ],
+            "players_added": [
+              {
+                "id": "3116164",
+                "name": "Mike Gesicki",
+                "position": "TE",
+                "team": "CIN"
+              }
+            ],
+            "players_dropped": [
+              {
+                "id": "4599739",
+                "name": "Kendre Miller",
+                "position": "RB",
+                "team": "FA"
+              }
+            ],
+            "faab_bid": 1
+          },
+          "current": {
+            "transaction_id": "17d986bb-700a-4f4f-9336-2b3a66702d77",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "17d986bb-700a-4f4f-9336-2b3a66702d77"
+            },
+            "type": "waiver",
+            "status": "pending",
+            "timestamp": 1793209679038,
+            "timestamp_source": "proposedDate",
+            "date": "2026-10-28",
+            "week": 8,
+            "provider_scoring_period_id": 8,
+            "team_ids": [
+              "1"
+            ],
+            "players_added": [
+              {
+                "id": "3116164",
+                "name": "Mike Gesicki",
+                "position": "TE",
+                "team": "CIN"
+              }
+            ],
+            "players_dropped": [
+              {
+                "id": "4599739",
+                "name": "Kendre Miller",
+                "position": "RB",
+                "team": "FA"
+              }
+            ],
+            "faab_bid": 1,
+            "claim_outcome": {
+              "status": "complete",
+              "outcome_event_id": {
+                "kind": "string",
+                "value": "46b91959-8ab6-4992-8d55-c751efa129af"
+              }
+            }
+          },
+          "changed_fields": [
+            "claim_outcome"
+          ]
+        }
+      ]
+    },
+    "week9": {
+      "from": 42,
+      "to": 42,
+      "added": [],
+      "removed": [],
+      "modified": [
+        {
+          "id": "string:40153593-0765-469f-922e-dcbd041423a4",
+          "prior": {
+            "transaction_id": "40153593-0765-469f-922e-dcbd041423a4",
+            "type": "waiver",
+            "status": "pending",
+            "timestamp": 1793726925221,
+            "timestamp_source": "proposedDate",
+            "date": "2026-11-03",
+            "week": 9,
+            "provider_scoring_period_id": 9,
+            "team_ids": [
+              "1"
+            ],
+            "players_added": [
+              {
+                "id": "3117256",
+                "name": "Dalton Schultz",
+                "position": "TE",
+                "team": "HOU"
+              }
+            ],
+            "players_dropped": [
+              {
+                "id": "4715355",
+                "name": "Darius Cooper",
+                "position": "WR",
+                "team": "PHI"
+              }
+            ],
+            "faab_bid": 1
+          },
+          "current": {
+            "transaction_id": "40153593-0765-469f-922e-dcbd041423a4",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "40153593-0765-469f-922e-dcbd041423a4"
+            },
+            "type": "waiver",
+            "status": "pending",
+            "timestamp": 1793726925221,
+            "timestamp_source": "proposedDate",
+            "date": "2026-11-03",
+            "week": 9,
+            "provider_scoring_period_id": 9,
+            "team_ids": [
+              "1"
+            ],
+            "players_added": [
+              {
+                "id": "3117256",
+                "name": "Dalton Schultz",
+                "position": "TE",
+                "team": "HOU"
+              }
+            ],
+            "players_dropped": [
+              {
+                "id": "4715355",
+                "name": "Darius Cooper",
+                "position": "WR",
+                "team": "PHI"
+              }
+            ],
+            "faab_bid": 1,
+            "claim_outcome": {
+              "status": "complete",
+              "outcome_event_id": {
+                "kind": "string",
+                "value": "b6e59cca-91f3-42e3-af30-1c28f3de9a3e"
+              }
+            }
+          },
+          "changed_fields": [
+            "claim_outcome"
+          ]
+        },
+        {
+          "id": "string:7eecba3c-9b45-45da-a874-82a844cf7743",
+          "prior": {
+            "transaction_id": "7eecba3c-9b45-45da-a874-82a844cf7743",
+            "type": "waiver",
+            "status": "pending",
+            "timestamp": 1793726811396,
+            "timestamp_source": "proposedDate",
+            "date": "2026-11-03",
+            "week": 9,
+            "provider_scoring_period_id": 9,
+            "team_ids": [
+              "1"
+            ],
+            "players_added": [
+              {
+                "id": "4382466",
+                "name": "Jalen Nailor",
+                "position": "WR",
+                "team": "LV"
+              }
+            ],
+            "players_dropped": [
+              {
+                "id": "4635008",
+                "name": "Keon Coleman",
+                "position": "WR",
+                "team": "BUF"
+              }
+            ],
+            "faab_bid": 1
+          },
+          "current": {
+            "transaction_id": "7eecba3c-9b45-45da-a874-82a844cf7743",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "7eecba3c-9b45-45da-a874-82a844cf7743"
+            },
+            "type": "waiver",
+            "status": "pending",
+            "timestamp": 1793726811396,
+            "timestamp_source": "proposedDate",
+            "date": "2026-11-03",
+            "week": 9,
+            "provider_scoring_period_id": 9,
+            "team_ids": [
+              "1"
+            ],
+            "players_added": [
+              {
+                "id": "4382466",
+                "name": "Jalen Nailor",
+                "position": "WR",
+                "team": "LV"
+              }
+            ],
+            "players_dropped": [
+              {
+                "id": "4635008",
+                "name": "Keon Coleman",
+                "position": "WR",
+                "team": "BUF"
+              }
+            ],
+            "faab_bid": 1,
+            "claim_outcome": {
+              "status": "complete",
+              "outcome_event_id": {
+                "kind": "string",
+                "value": "b776e442-2df9-43f5-b605-f53dc7d20e11"
+              }
+            }
+          },
+          "changed_fields": [
+            "claim_outcome"
+          ]
+        },
+        {
+          "id": "string:8e1df71c-eb54-4dbe-9cb0-3b6e8c04d2f5",
+          "prior": {
+            "transaction_id": "8e1df71c-eb54-4dbe-9cb0-3b6e8c04d2f5",
+            "type": "waiver",
+            "status": "pending",
+            "timestamp": 1793726737018,
+            "timestamp_source": "proposedDate",
+            "date": "2026-11-03",
+            "week": 9,
+            "provider_scoring_period_id": 9,
+            "team_ids": [
+              "1"
+            ],
+            "players_added": [
+              {
+                "id": "3117256",
+                "name": "Dalton Schultz",
+                "position": "TE",
+                "team": "HOU"
+              }
+            ],
+            "players_dropped": [
+              {
+                "id": "4597703",
+                "name": "Tory Horton",
+                "position": "WR",
+                "team": "SEA"
+              }
+            ],
+            "faab_bid": 1
+          },
+          "current": {
+            "transaction_id": "8e1df71c-eb54-4dbe-9cb0-3b6e8c04d2f5",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "8e1df71c-eb54-4dbe-9cb0-3b6e8c04d2f5"
+            },
+            "type": "waiver",
+            "status": "pending",
+            "timestamp": 1793726737018,
+            "timestamp_source": "proposedDate",
+            "date": "2026-11-03",
+            "week": 9,
+            "provider_scoring_period_id": 9,
+            "team_ids": [
+              "1"
+            ],
+            "players_added": [
+              {
+                "id": "3117256",
+                "name": "Dalton Schultz",
+                "position": "TE",
+                "team": "HOU"
+              }
+            ],
+            "players_dropped": [
+              {
+                "id": "4597703",
+                "name": "Tory Horton",
+                "position": "WR",
+                "team": "SEA"
+              }
+            ],
+            "faab_bid": 1,
+            "claim_outcome": {
+              "status": "canceled",
+              "outcome_event_id": {
+                "kind": "string",
+                "value": "24a409ab-967b-4f1a-94b9-7730f1a22a03"
+              }
+            }
+          },
+          "changed_fields": [
+            "claim_outcome"
+          ]
+        }
+      ]
+    }
+  },
+  "matchup_result_transitions": [
+    {
+      "pair": "10:9",
+      "home_id": 10,
+      "away_id": 9,
+      "home_previous": 84.2,
+      "away_previous": 104.74,
+      "home_current": 84.2,
+      "away_current": 125.54,
+      "home_delta": 0,
+      "away_delta": 20.8,
+      "previous_winner_state": "UNDECIDED",
+      "observed_winner": "AWAY"
+    },
+    {
+      "pair": "12:1",
+      "home_id": 12,
+      "away_id": 1,
+      "home_previous": 148.76,
+      "away_previous": 144.46,
+      "home_current": 166.56,
+      "away_current": 144.46,
+      "home_delta": 17.8,
+      "away_delta": 0,
+      "previous_winner_state": "UNDECIDED",
+      "observed_winner": "HOME"
+    },
+    {
+      "pair": "2:11",
+      "home_id": 2,
+      "away_id": 11,
+      "home_previous": 112.78,
+      "away_previous": 103.38,
+      "home_current": 118.58,
+      "away_current": 112.18,
+      "home_delta": 5.8,
+      "away_delta": 8.8,
+      "previous_winner_state": "UNDECIDED",
+      "observed_winner": "HOME"
+    },
+    {
+      "pair": "7:8",
+      "home_id": 7,
+      "away_id": 8,
+      "home_previous": 152.84,
+      "away_previous": 135.08,
+      "home_current": 152.84,
+      "away_current": 135.08,
+      "home_delta": 0,
+      "away_delta": 0,
+      "previous_winner_state": "UNDECIDED",
+      "observed_winner": "HOME"
+    },
+    {
+      "pair": "5:4",
+      "home_id": 5,
+      "away_id": 4,
+      "home_previous": 158.7,
+      "away_previous": 129.89,
+      "home_current": 158.7,
+      "away_current": 129.89,
+      "home_delta": 0,
+      "away_delta": 0,
+      "previous_winner_state": "UNDECIDED",
+      "observed_winner": "HOME"
+    },
+    {
+      "pair": "3:6",
+      "home_id": 3,
+      "away_id": 6,
+      "home_previous": 141.2,
+      "away_previous": 152.26,
+      "home_current": 165.66,
+      "away_current": 159.56,
+      "home_delta": 24.46,
+      "away_delta": 7.3,
+      "previous_winner_state": "UNDECIDED",
+      "observed_winner": "HOME"
+    }
+  ],
+  "week10_pairing_changes": false,
+  "source_notes": [
+    "Stable mTransactions2 row identity reconciled across Flaim's newly exposed typed ESPN IDs and prior transaction_id UUIDs.",
+    "The four modified historical rows add a typed claim_outcome link to previously recorded same-team terminal events; original event status remains pending as historical state, not a live queue assertion.",
+    "No new or removed Week8/Week9 transactions were observed. Do not infer today’s transaction activity from newly linked historical outcomes.",
+    "No side-less/unknown trade promoted to completed."
+  ],
+  "comparison_method": "Use typed original provider ESPN event ID when present; for older mTransactions2 records lacking the typed ID field normalize UUID transaction_id to string:<value>. Ignore additive espn_event_id and espn_related_event_id keys when determining semantic row modifications; retain changed claim_outcome as actual metadata enrichment, not newly executed activity.",
+  "status": "CORRECTED_IDENTITY_AWARE_FULL_ROW_DIFF"
+}
