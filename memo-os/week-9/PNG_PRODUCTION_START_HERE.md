@@ -31,6 +31,10 @@ One completed illustrated magazine page per PNG, at native1080 ×1920. The artwo
 
 The original `WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10.*`, earlier `editorial_copy`, older scene alternatives and the November9 neutral input kits remain source history. They are NOT the current full-name PNG commission. The current selected-only scenes and corrected layout live in the full-name folios above. The former claim that this revision was local-only is superseded by this repository integration; an exact snapshot retaining that historical wording is archived under `production-evidence/png-handoff-2026-11-10/source-review/`.
 
+## Overlapping clearance proposal
+
+PR302 is an overlapping earlier proposal, not an additional production lane. All51changed files and its full binary diff are retained under `production-evidence/png-handoff-2026-11-10/overlapping-pr302/`. Do not merge those original-file/selector changes over the current full-name edition. This handoff is the one continuation.
+
 ## Honest remaining boundaries
 
 No finished PNG proof has been accepted. The independent source/release handoff under Issue268 is still not certified. Scoring Form is the disclosed70/30 index; Reserve Watch reports fantasy reserve slots, not independently verified National Football League injury reports. No playoff percentages or official elimination are invented. The stored approval flags remain historical evidence of unperformed checks, not proof that the current user failed to request production. The renderer still needs to receive actual image references; filenames and green tests do not establish that.
