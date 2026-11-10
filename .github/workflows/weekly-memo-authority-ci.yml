@@ -42,6 +42,10 @@ jobs:
         run: python -m unittest discover -s memo-os/tests -p 'test_week9_production_inputs.py' -v
       - name: Verify Week9 repaired consumers, geometry, sources and approval phases
         run: python -m unittest discover -s memo-os/tests -p 'test_week9_packet_repairs.py' -v
+      - name: Verify Week9 provider-final approval folios without enabling PNGs
+        run: python -m unittest discover -s memo-os/tests -p 'test_week9_final_approval_folios.py' -v
+      - name: Preserve canonical aliases in approval-edition reader copy
+        run: python -m unittest discover -s memo-os/tests -p 'test_week9_approval_wording.py' -v
       - name: Validate publication manifest
         run: python governance/publication-manifest/validate_publication_manifest.py
       - name: Test deterministic Memo resolver
