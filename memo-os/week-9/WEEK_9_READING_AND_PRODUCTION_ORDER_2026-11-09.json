@@ -1,6 +1,6 @@
 {
   "source_register": "WEEK_9_COMPLETE_ISSUE_PREVIS_2026-11-08.json",
-  "source_register_sha256": "5d60b1ccd670396f1e3a15567262b519c9fc3259761586daef2d246c208a9b32",
+  "source_register_sha256": "598f871f91cde3fcbd700f3d91d109525793d07b896bec549541f38ba0a18073",
   "reading_order": [
     "W09-P01",
     "W09-P02",
@@ -2289,5 +2289,8 @@
     }
   ],
   "state": "PLANNED_EXECUTION_NOT_LIVE_WORKER_QUEUE",
-  "scope_note": "Lifecycle stages are separated; no queue item is submitted or implicitly approved."
+  "scope_note": "Lifecycle stages are separated; no queue item is submitted or implicitly approved.",
+  "approval_folios": "WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10.json",
+  "approval_copy_selector": "pages[page_id].approval_folio",
+  "png_state": "HOLD_UNTIL_APPROVAL"
 }
