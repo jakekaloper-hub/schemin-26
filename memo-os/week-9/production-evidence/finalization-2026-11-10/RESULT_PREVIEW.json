@@ -1,0 +1,1396 @@
+{
+  "kind": "WEEK9_PROPOSED_FIELD_UPDATES_NOT_SOURCE_ACCEPTANCE",
+  "status": "RECONCILED_CANDIDATE_NOT_ACCEPTED",
+  "errors": [],
+  "results": [
+    {
+      "matchup_id": "W09-M01",
+      "home_team_id": 12,
+      "away_team_id": 1,
+      "home_name": "Dr. Duckhook",
+      "away_name": "ObiWan Jacoby",
+      "home_score": "166.56",
+      "away_score": "144.46",
+      "margin": "22.10",
+      "provider_winner": "HOME",
+      "winning_team_id": 12,
+      "branch_proposal": "home_win"
+    },
+    {
+      "matchup_id": "W09-M02",
+      "home_team_id": 10,
+      "away_team_id": 9,
+      "home_name": "Mud Dogs",
+      "away_name": "El Niño",
+      "home_score": "84.20",
+      "away_score": "125.54",
+      "margin": "41.34",
+      "provider_winner": "AWAY",
+      "winning_team_id": 9,
+      "branch_proposal": "away_win"
+    },
+    {
+      "matchup_id": "W09-M03",
+      "home_team_id": 2,
+      "away_team_id": 11,
+      "home_name": "Red Leopards",
+      "away_name": "Seven Deadly Chins",
+      "home_score": "118.58",
+      "away_score": "112.18",
+      "margin": "6.40",
+      "provider_winner": "HOME",
+      "winning_team_id": 2,
+      "branch_proposal": "home_win"
+    },
+    {
+      "matchup_id": "W09-M04",
+      "home_team_id": 7,
+      "away_team_id": 8,
+      "home_name": "The Chili Cheesers",
+      "away_name": "His Majesty's Blood",
+      "home_score": "152.84",
+      "away_score": "135.08",
+      "margin": "17.76",
+      "provider_winner": "HOME",
+      "winning_team_id": 7,
+      "branch_proposal": "home_win"
+    },
+    {
+      "matchup_id": "W09-M05",
+      "home_team_id": 5,
+      "away_team_id": 4,
+      "home_name": "D0nkey K0ng",
+      "away_name": "The LLC",
+      "home_score": "158.70",
+      "away_score": "129.89",
+      "margin": "28.81",
+      "provider_winner": "HOME",
+      "winning_team_id": 5,
+      "branch_proposal": "home_win"
+    },
+    {
+      "matchup_id": "W09-M06",
+      "home_team_id": 3,
+      "away_team_id": 6,
+      "home_name": "Slob on my Dobb",
+      "away_name": "Three Dreaded Snake",
+      "home_score": "165.66",
+      "away_score": "159.56",
+      "margin": "6.10",
+      "provider_winner": "HOME",
+      "winning_team_id": 3,
+      "branch_proposal": "home_win"
+    }
+  ],
+  "page_updates": [
+    {
+      "page_id": "W09-P05",
+      "matchup_id": "W09-M01",
+      "branch_proposal": "home_win",
+      "winning_team_id_proposal": 12,
+      "body_proposal": null,
+      "scene_outcome_proposal": "Duckhook wins: ObiWan makes an increasingly embarrassing series of poor golf shots; Duckhook controls his course and wins; visibly anguished ObiWan",
+      "score_line_proposal": "Dr. Duckhook 166.56 — ObiWan Jacoby 144.46",
+      "source_sha256": "354772532654769e80f81463473ecd3f6d26e3bbbe6999fb9bebbcba16e85fde",
+      "do_not_apply_without_source_and_editorial_acceptance": true,
+      "rerender_only_after_reference_scene_and_pixel_checks": true
+    },
+    {
+      "page_id": "W09-P06",
+      "matchup_id": "W09-M01",
+      "branch_proposal": "home_win",
+      "winning_team_id_proposal": 12,
+      "body_proposal": null,
+      "scene_outcome_proposal": "Duckhook wins: ObiWan makes an increasingly embarrassing series of poor golf shots; Duckhook controls his course and wins; visibly anguished ObiWan",
+      "score_line_proposal": "Dr. Duckhook 166.56 — ObiWan Jacoby 144.46",
+      "source_sha256": "354772532654769e80f81463473ecd3f6d26e3bbbe6999fb9bebbcba16e85fde",
+      "do_not_apply_without_source_and_editorial_acceptance": true,
+      "rerender_only_after_reference_scene_and_pixel_checks": true
+    },
+    {
+      "page_id": "W09-P07",
+      "matchup_id": "W09-M01",
+      "branch_proposal": "home_win",
+      "winning_team_id_proposal": 12,
+      "body_proposal": "ObiWan's recovery had found sand again. His next approach ran wide, and the putt that might have rescued his pride stopped stubbornly short. Duckhook answered with the ordinary cruelty of a controlled finish: no flourish, no apology, just the ball disappearing into the cup. ObiWan kept his eyes on the green. Somewhere behind him, the charity banner lifted in the breeze. The morning remained magnificent. That made it worse.",
+      "scene_outcome_proposal": "Duckhook wins: ObiWan makes an increasingly embarrassing series of poor golf shots; Duckhook controls his course and wins; visibly anguished ObiWan",
+      "score_line_proposal": "Dr. Duckhook 166.56 — ObiWan Jacoby 144.46",
+      "source_sha256": "354772532654769e80f81463473ecd3f6d26e3bbbe6999fb9bebbcba16e85fde",
+      "do_not_apply_without_source_and_editorial_acceptance": true,
+      "rerender_only_after_reference_scene_and_pixel_checks": true
+    },
+    {
+      "page_id": "W09-P09",
+      "matchup_id": "W09-M02",
+      "branch_proposal": "away_win",
+      "winning_team_id_proposal": 9,
+      "body_proposal": null,
+      "scene_outcome_proposal": "El Niño wins: Mud Dogs' bike becomes embedded/sucked into deep water and mud and cannot finish; storm physically wins by obstructing race",
+      "score_line_proposal": "Mud Dogs 84.20 — El Niño 125.54",
+      "source_sha256": "354772532654769e80f81463473ecd3f6d26e3bbbe6999fb9bebbcba16e85fde",
+      "do_not_apply_without_source_and_editorial_acceptance": true,
+      "rerender_only_after_reference_scene_and_pixel_checks": true
+    },
+    {
+      "page_id": "W09-P10",
+      "matchup_id": "W09-M02",
+      "branch_proposal": "away_win",
+      "winning_team_id_proposal": 9,
+      "body_proposal": "The rear wheel dug instead of climbing. Mud Dogs forced the controls, but each burst only deepened the rut beneath the machine. Water reached the low frame. The finish banner was still there, absurdly close beyond the channel, while the hound's wet fur and racing rig settled into the same brown mire. On the far bank, El Niño held his ground. The storm had not needed to chase its opponent. It had taken away the road.",
+      "scene_outcome_proposal": "El Niño wins: Mud Dogs' bike becomes embedded/sucked into deep water and mud and cannot finish; storm physically wins by obstructing race",
+      "score_line_proposal": "Mud Dogs 84.20 — El Niño 125.54",
+      "source_sha256": "354772532654769e80f81463473ecd3f6d26e3bbbe6999fb9bebbcba16e85fde",
+      "do_not_apply_without_source_and_editorial_acceptance": true,
+      "rerender_only_after_reference_scene_and_pixel_checks": true
+    },
+    {
+      "page_id": "W09-P12",
+      "matchup_id": "W09-M03",
+      "branch_proposal": "home_win",
+      "winning_team_id_proposal": 2,
+      "body_proposal": null,
+      "scene_outcome_proposal": "Red Leopards wins: ambush atop truck and spatial trap at the pitch/ruins stop Chins; home territory reclaimed",
+      "score_line_proposal": "Red Leopards 118.58 — Seven Deadly Chins 112.18",
+      "source_sha256": "354772532654769e80f81463473ecd3f6d26e3bbbe6999fb9bebbcba16e85fde",
+      "do_not_apply_without_source_and_editorial_acceptance": true,
+      "rerender_only_after_reference_scene_and_pixel_checks": true
+    },
+    {
+      "page_id": "W09-P13",
+      "matchup_id": "W09-M03",
+      "branch_proposal": "home_win",
+      "winning_team_id_proposal": 2,
+      "body_proposal": "Red sprang clear at the last instant. Chins followed the movement into the stone bottleneck, where the lifted truck's broad shoulders finally became a liability. The wheels churned, but there was nowhere wide enough to turn. Red landed beside the wrecked goal and watched the driver's expression change behind the glass. The pitch would need repairing. For the moment, its owner preferred to inspect the trespasser. The red card could wait; the vehicle could not leave.",
+      "scene_outcome_proposal": "Red Leopards wins: ambush atop truck and spatial trap at the pitch/ruins stop Chins; home territory reclaimed",
+      "score_line_proposal": "Red Leopards 118.58 — Seven Deadly Chins 112.18",
+      "source_sha256": "354772532654769e80f81463473ecd3f6d26e3bbbe6999fb9bebbcba16e85fde",
+      "do_not_apply_without_source_and_editorial_acceptance": true,
+      "rerender_only_after_reference_scene_and_pixel_checks": true
+    },
+    {
+      "page_id": "W09-P14",
+      "matchup_id": "W09-M04",
+      "branch_proposal": "home_win",
+      "winning_team_id_proposal": 7,
+      "body_proposal": null,
+      "scene_outcome_proposal": "Chili deliberately stages the cooled-chili serving-cart reversal; HMB is covered while retaining hood, armor and belt.",
+      "score_line_proposal": "The Chili Cheesers 152.84 — His Majesty's Blood 135.08",
+      "source_sha256": "354772532654769e80f81463473ecd3f6d26e3bbbe6999fb9bebbcba16e85fde",
+      "do_not_apply_without_source_and_editorial_acceptance": true,
+      "rerender_only_after_reference_scene_and_pixel_checks": true
+    },
+    {
+      "page_id": "W09-P15",
+      "matchup_id": "W09-M04",
+      "branch_proposal": "home_win",
+      "winning_team_id_proposal": 7,
+      "body_proposal": "Chili braced a boot against the cart and released the catch. The cooled contents rolled over the rim just as HMB stepped into the serving lane. Red sauce spread across black armor, the gold ornament, and the folds of the ragged cloak. For a heartbeat, nobody in the town moved. Then Chili lifted the ladle in a small, professional salute. The hood remained dark; the eyes remained red. The Belt Keeper had kept his belt. He had not kept his dignity clean.",
+      "scene_outcome_proposal": "Chili deliberately stages the cooled-chili serving-cart reversal; HMB is covered while retaining hood, armor and belt.",
+      "score_line_proposal": "The Chili Cheesers 152.84 — His Majesty's Blood 135.08",
+      "source_sha256": "354772532654769e80f81463473ecd3f6d26e3bbbe6999fb9bebbcba16e85fde",
+      "do_not_apply_without_source_and_editorial_acceptance": true,
+      "rerender_only_after_reference_scene_and_pixel_checks": true
+    },
+    {
+      "page_id": "W09-P17",
+      "matchup_id": "W09-M05",
+      "branch_proposal": "home_win",
+      "winning_team_id_proposal": 5,
+      "body_proposal": null,
+      "scene_outcome_proposal": "D0nkey wins: Arsenal gorilla-centaur physically overpowers LLC and wins the sword fight",
+      "score_line_proposal": "D0nkey K0ng 158.70 — The LLC 129.89",
+      "source_sha256": "354772532654769e80f81463473ecd3f6d26e3bbbe6999fb9bebbcba16e85fde",
+      "do_not_apply_without_source_and_editorial_acceptance": true,
+      "rerender_only_after_reference_scene_and_pixel_checks": true
+    },
+    {
+      "page_id": "W09-P18",
+      "matchup_id": "W09-M05",
+      "branch_proposal": "home_win",
+      "winning_team_id_proposal": 5,
+      "body_proposal": "The LLC caught the descending blade and tried to drive through the parry. DK turned around that pressure instead. Four hooves changed the line; the knight's elegant defense suddenly faced empty sand. DK pressed the exposed guard, forcing the challenger backward and down onto one armored knee. The next movement stopped his sword short of the grounded rival. Around them, the crowd rose. The armor remained expensive. The lesson had cost more.",
+      "scene_outcome_proposal": "D0nkey wins: Arsenal gorilla-centaur physically overpowers LLC and wins the sword fight",
+      "score_line_proposal": "D0nkey K0ng 158.70 — The LLC 129.89",
+      "source_sha256": "354772532654769e80f81463473ecd3f6d26e3bbbe6999fb9bebbcba16e85fde",
+      "do_not_apply_without_source_and_editorial_acceptance": true,
+      "rerender_only_after_reference_scene_and_pixel_checks": true
+    },
+    {
+      "page_id": "W09-P20",
+      "matchup_id": "W09-M06",
+      "branch_proposal": "home_win",
+      "winning_team_id_proposal": 3,
+      "body_proposal": null,
+      "scene_outcome_proposal": "Slob wins: final third-person winner-shoulder slide/aim shows TDS fully struck by multiple paint splatters",
+      "score_line_proposal": "Slob on my Dobb 165.66 — Three Dreaded Snake 159.56",
+      "source_sha256": "354772532654769e80f81463473ecd3f6d26e3bbbe6999fb9bebbcba16e85fde",
+      "do_not_apply_without_source_and_editorial_acceptance": true,
+      "rerender_only_after_reference_scene_and_pixel_checks": true
+    },
+    {
+      "page_id": "W09-P21",
+      "matchup_id": "W09-M06",
+      "branch_proposal": "home_win",
+      "winning_team_id_proposal": 3,
+      "body_proposal": "Slob dropped his weight into the slide as the last burst broke against the bunker behind him. The move opened a clean lane. From behind his shoulder, the marker settled on TDS beyond the next barrier; bright paint struck the protective fronts of the serpent masks and splashed across the shared torso. All three heads recoiled without losing their protection. Slob came to rest with the barrel still level. He had not found safe ground. He had reached the dangerous ground first.",
+      "scene_outcome_proposal": "Slob wins: final third-person winner-shoulder slide/aim shows TDS fully struck by multiple paint splatters",
+      "score_line_proposal": "Slob on my Dobb 165.66 — Three Dreaded Snake 159.56",
+      "source_sha256": "354772532654769e80f81463473ecd3f6d26e3bbbe6999fb9bebbcba16e85fde",
+      "do_not_apply_without_source_and_editorial_acceptance": true,
+      "rerender_only_after_reference_scene_and_pixel_checks": true
+    },
+    {
+      "page_id": "W09-P31",
+      "matchup_id": "W09-M01",
+      "branch_proposal": "home_win",
+      "winning_team_id_proposal": 12,
+      "body_proposal": null,
+      "scene_outcome_proposal": "Duckhook wins: ObiWan makes an increasingly embarrassing series of poor golf shots; Duckhook controls his course and wins; visibly anguished ObiWan",
+      "score_line_proposal": "Dr. Duckhook 166.56 — ObiWan Jacoby 144.46",
+      "source_sha256": "354772532654769e80f81463473ecd3f6d26e3bbbe6999fb9bebbcba16e85fde",
+      "do_not_apply_without_source_and_editorial_acceptance": true,
+      "rerender_only_after_reference_scene_and_pixel_checks": true
+    },
+    {
+      "page_id": "W09-P32",
+      "matchup_id": "W09-M02",
+      "branch_proposal": "away_win",
+      "winning_team_id_proposal": 9,
+      "body_proposal": null,
+      "scene_outcome_proposal": "El Niño wins: Mud Dogs' bike becomes embedded/sucked into deep water and mud and cannot finish; storm physically wins by obstructing race",
+      "score_line_proposal": "Mud Dogs 84.20 — El Niño 125.54",
+      "source_sha256": "354772532654769e80f81463473ecd3f6d26e3bbbe6999fb9bebbcba16e85fde",
+      "do_not_apply_without_source_and_editorial_acceptance": true,
+      "rerender_only_after_reference_scene_and_pixel_checks": true
+    },
+    {
+      "page_id": "W09-P33",
+      "matchup_id": "W09-M03",
+      "branch_proposal": "home_win",
+      "winning_team_id_proposal": 2,
+      "body_proposal": null,
+      "scene_outcome_proposal": "Red Leopards wins: ambush atop truck and spatial trap at the pitch/ruins stop Chins; home territory reclaimed",
+      "score_line_proposal": "Red Leopards 118.58 — Seven Deadly Chins 112.18",
+      "source_sha256": "354772532654769e80f81463473ecd3f6d26e3bbbe6999fb9bebbcba16e85fde",
+      "do_not_apply_without_source_and_editorial_acceptance": true,
+      "rerender_only_after_reference_scene_and_pixel_checks": true
+    },
+    {
+      "page_id": "W09-P34",
+      "matchup_id": "W09-M04",
+      "branch_proposal": "home_win",
+      "winning_team_id_proposal": 7,
+      "body_proposal": null,
+      "scene_outcome_proposal": "Chili deliberately stages the cooled-chili serving-cart reversal; HMB is covered while retaining hood, armor and belt.",
+      "score_line_proposal": "The Chili Cheesers 152.84 — His Majesty's Blood 135.08",
+      "source_sha256": "354772532654769e80f81463473ecd3f6d26e3bbbe6999fb9bebbcba16e85fde",
+      "do_not_apply_without_source_and_editorial_acceptance": true,
+      "rerender_only_after_reference_scene_and_pixel_checks": true
+    },
+    {
+      "page_id": "W09-P35",
+      "matchup_id": "W09-M05",
+      "branch_proposal": "home_win",
+      "winning_team_id_proposal": 5,
+      "body_proposal": null,
+      "scene_outcome_proposal": "D0nkey wins: Arsenal gorilla-centaur physically overpowers LLC and wins the sword fight",
+      "score_line_proposal": "D0nkey K0ng 158.70 — The LLC 129.89",
+      "source_sha256": "354772532654769e80f81463473ecd3f6d26e3bbbe6999fb9bebbcba16e85fde",
+      "do_not_apply_without_source_and_editorial_acceptance": true,
+      "rerender_only_after_reference_scene_and_pixel_checks": true
+    },
+    {
+      "page_id": "W09-P36",
+      "matchup_id": "W09-M06",
+      "branch_proposal": "home_win",
+      "winning_team_id_proposal": 3,
+      "body_proposal": null,
+      "scene_outcome_proposal": "Slob wins: final third-person winner-shoulder slide/aim shows TDS fully struck by multiple paint splatters",
+      "score_line_proposal": "Slob on my Dobb 165.66 — Three Dreaded Snake 159.56",
+      "source_sha256": "354772532654769e80f81463473ecd3f6d26e3bbbe6999fb9bebbcba16e85fde",
+      "do_not_apply_without_source_and_editorial_acceptance": true,
+      "rerender_only_after_reference_scene_and_pixel_checks": true
+    }
+  ],
+  "source_accepted": false,
+  "render_authorized": false,
+  "release_approved": false,
+  "writes_authoritative_files": false,
+  "injury_claims_verified": false,
+  "playoff_odds_generated": false,
+  "requires_independent_review": true,
+  "provider_final_count": 6,
+  "source": {
+    "recorded_at_utc": "2026-11-10T15:33:00+00:00",
+    "observation_sha256": "354772532654769e80f81463473ecd3f6d26e3bbbe6999fb9bebbcba16e85fde",
+    "representation": "Selected-field transcript of current-session Flaim reads; source values normalized to two displayed decimals. Earlier full player packet reused only after all120 fresh ID/point values match. Not native HTTP wire.",
+    "request": {
+      "league_id": "1417621",
+      "season_year": 2026,
+      "week": 9
+    },
+    "current_scoring_period": 10
+  },
+  "scoreboard_rows_proposal": [
+    {
+      "matchup_id": "W09-M01",
+      "home_name": "Dr. Duckhook",
+      "away_name": "ObiWan Jacoby",
+      "home_score": "166.56",
+      "away_score": "144.46",
+      "margin": "22.10",
+      "winning_team_id": 12
+    },
+    {
+      "matchup_id": "W09-M02",
+      "home_name": "Mud Dogs",
+      "away_name": "El Niño",
+      "home_score": "84.20",
+      "away_score": "125.54",
+      "margin": "41.34",
+      "winning_team_id": 9
+    },
+    {
+      "matchup_id": "W09-M03",
+      "home_name": "Red Leopards",
+      "away_name": "Seven Deadly Chins",
+      "home_score": "118.58",
+      "away_score": "112.18",
+      "margin": "6.40",
+      "winning_team_id": 2
+    },
+    {
+      "matchup_id": "W09-M04",
+      "home_name": "The Chili Cheesers",
+      "away_name": "His Majesty's Blood",
+      "home_score": "152.84",
+      "away_score": "135.08",
+      "margin": "17.76",
+      "winning_team_id": 7
+    },
+    {
+      "matchup_id": "W09-M05",
+      "home_name": "D0nkey K0ng",
+      "away_name": "The LLC",
+      "home_score": "158.70",
+      "away_score": "129.89",
+      "margin": "28.81",
+      "winning_team_id": 5
+    },
+    {
+      "matchup_id": "W09-M06",
+      "home_name": "Slob on my Dobb",
+      "away_name": "Three Dreaded Snake",
+      "home_score": "165.66",
+      "away_score": "159.56",
+      "margin": "6.10",
+      "winning_team_id": 3
+    }
+  ],
+  "starter_evidence_by_team": {
+    "12": [
+      {
+        "fantasy_team_id": 12,
+        "player_id": "4701936",
+        "name": "Matthew Golden",
+        "lineup_slot": "WR",
+        "points": 33.4,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 12,
+        "player_id": "4431452",
+        "name": "Drake Maye",
+        "lineup_slot": "QB",
+        "points": 24.36,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 12,
+        "player_id": "15847",
+        "name": "Travis Kelce",
+        "lineup_slot": "TE",
+        "points": 17.4,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 12,
+        "player_id": "-16030",
+        "name": "Jaguars D/ST",
+        "lineup_slot": "D/ST",
+        "points": 17.0,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 12,
+        "player_id": "4361370",
+        "name": "Chris Olave",
+        "lineup_slot": "WR",
+        "points": 16.8,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 12,
+        "player_id": "4429795",
+        "name": "Jahmyr Gibbs",
+        "lineup_slot": "RB",
+        "points": 15.4,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 12,
+        "player_id": "4569173",
+        "name": "Rhamondre Stevenson",
+        "lineup_slot": "FLEX",
+        "points": 15.4,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 12,
+        "player_id": "3917232",
+        "name": "Tyler Bass",
+        "lineup_slot": "K",
+        "points": 13.0,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 12,
+        "player_id": "4711533",
+        "name": "Ollie Gordon II",
+        "lineup_slot": "RB",
+        "points": 9.0,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 12,
+        "player_id": "4429205",
+        "name": "Jordan Addison",
+        "lineup_slot": "WR/TE",
+        "points": 4.8,
+        "started": true
+      }
+    ],
+    "1": [
+      {
+        "fantasy_team_id": 1,
+        "player_id": "4567048",
+        "name": "Kenneth Walker III",
+        "lineup_slot": "RB",
+        "points": 39.1,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 1,
+        "player_id": "4426515",
+        "name": "Puka Nacua",
+        "lineup_slot": "WR",
+        "points": 36.2,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 1,
+        "player_id": "4360310",
+        "name": "Trevor Lawrence",
+        "lineup_slot": "QB",
+        "points": 17.68,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 1,
+        "player_id": "-16014",
+        "name": "Rams D/ST",
+        "lineup_slot": "D/ST",
+        "points": 16.8,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 1,
+        "player_id": "4428331",
+        "name": "Rashee Rice",
+        "lineup_slot": "WR",
+        "points": 9.9,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 1,
+        "player_id": "3043078",
+        "name": "Derrick Henry",
+        "lineup_slot": "RB",
+        "points": 7.28,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 1,
+        "player_id": "3117256",
+        "name": "Dalton Schultz",
+        "lineup_slot": "TE",
+        "points": 6.2,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 1,
+        "player_id": "3055899",
+        "name": "Harrison Butker",
+        "lineup_slot": "K",
+        "points": 5.0,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 1,
+        "player_id": "4372016",
+        "name": "Jaylen Waddle",
+        "lineup_slot": "WR/TE",
+        "points": 3.2,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 1,
+        "player_id": "3116164",
+        "name": "Mike Gesicki",
+        "lineup_slot": "FLEX",
+        "points": 3.1,
+        "started": true
+      }
+    ],
+    "10": [
+      {
+        "fantasy_team_id": 10,
+        "player_id": "3916433",
+        "name": "Jakobi Meyers",
+        "lineup_slot": "WR",
+        "points": 10.5,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 10,
+        "player_id": "4429059",
+        "name": "Woody Marks",
+        "lineup_slot": "FLEX",
+        "points": 10.2,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 10,
+        "player_id": "-16005",
+        "name": "Browns D/ST",
+        "lineup_slot": "D/ST",
+        "points": 10.1,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 10,
+        "player_id": "3040151",
+        "name": "George Kittle",
+        "lineup_slot": "WR/TE",
+        "points": 9.8,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 10,
+        "player_id": "3929630",
+        "name": "Saquon Barkley",
+        "lineup_slot": "RB",
+        "points": 9.5,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 10,
+        "player_id": "4890973",
+        "name": "Ashton Jeanty",
+        "lineup_slot": "RB",
+        "points": 7.6,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 10,
+        "player_id": "4430027",
+        "name": "Sam LaPorta",
+        "lineup_slot": "TE",
+        "points": 7.2,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 10,
+        "player_id": "4249087",
+        "name": "Matt Gay",
+        "lineup_slot": "K",
+        "points": 7.0,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 10,
+        "player_id": "15818",
+        "name": "Keenan Allen",
+        "lineup_slot": "WR",
+        "points": 6.6,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 10,
+        "player_id": "3046779",
+        "name": "Jared Goff",
+        "lineup_slot": "QB",
+        "points": 5.7,
+        "started": true
+      }
+    ],
+    "9": [
+      {
+        "fantasy_team_id": 9,
+        "player_id": "4379399",
+        "name": "James Cook III",
+        "lineup_slot": "RB",
+        "points": 20.8,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 9,
+        "player_id": "4239993",
+        "name": "Tee Higgins",
+        "lineup_slot": "FLEX",
+        "points": 20.2,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 9,
+        "player_id": "2971573",
+        "name": "Ka'imi Fairbairn",
+        "lineup_slot": "K",
+        "points": 17.0,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 9,
+        "player_id": "4258173",
+        "name": "Nico Collins",
+        "lineup_slot": "WR/TE",
+        "points": 15.5,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 9,
+        "player_id": "14880",
+        "name": "Kirk Cousins",
+        "lineup_slot": "QB",
+        "points": 14.84,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 9,
+        "player_id": "4362238",
+        "name": "Chase Brown",
+        "lineup_slot": "RB",
+        "points": 11.4,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 9,
+        "player_id": "4428718",
+        "name": "Tre Tucker",
+        "lineup_slot": "WR",
+        "points": 9.5,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 9,
+        "player_id": "2976212",
+        "name": "Stefon Diggs",
+        "lineup_slot": "WR",
+        "points": 8.1,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 9,
+        "player_id": "-16018",
+        "name": "Saints D/ST",
+        "lineup_slot": "D/ST",
+        "points": 6.1,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 9,
+        "player_id": "4572680",
+        "name": "Tucker Kraft",
+        "lineup_slot": "TE",
+        "points": 2.1,
+        "started": true
+      }
+    ],
+    "2": [
+      {
+        "fantasy_team_id": 2,
+        "player_id": "4362628",
+        "name": "Ja'Marr Chase",
+        "lineup_slot": "WR",
+        "points": 34.5,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 2,
+        "player_id": "4571557",
+        "name": "Spencer Shrader",
+        "lineup_slot": "K",
+        "points": 16.0,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 2,
+        "player_id": "-16003",
+        "name": "Bears D/ST",
+        "lineup_slot": "D/ST",
+        "points": 15.1,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 2,
+        "player_id": "4426385",
+        "name": "Zach Charbonnet",
+        "lineup_slot": "RB",
+        "points": 11.2,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 2,
+        "player_id": "4430737",
+        "name": "Kyren Williams",
+        "lineup_slot": "RB",
+        "points": 10.6,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 2,
+        "player_id": "4433970",
+        "name": "J.J. McCarthy",
+        "lineup_slot": "QB",
+        "points": 7.68,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 2,
+        "player_id": "4695883",
+        "name": "Jalen Coker",
+        "lineup_slot": "WR/TE",
+        "points": 6.7,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 2,
+        "player_id": "4385690",
+        "name": "Dalton Kincaid",
+        "lineup_slot": "TE",
+        "points": 5.8,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 2,
+        "player_id": "4429615",
+        "name": "Zay Flowers",
+        "lineup_slot": "WR",
+        "points": 5.6,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 2,
+        "player_id": "4688813",
+        "name": "Josh Downs",
+        "lineup_slot": "FLEX",
+        "points": 5.4,
+        "started": true
+      }
+    ],
+    "11": [
+      {
+        "fantasy_team_id": 11,
+        "player_id": "3139477",
+        "name": "Patrick Mahomes",
+        "lineup_slot": "QB",
+        "points": 20.68,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 11,
+        "player_id": "-16026",
+        "name": "Seahawks D/ST",
+        "lineup_slot": "D/ST",
+        "points": 18.8,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 11,
+        "player_id": "4869645",
+        "name": "Caleb Douglas",
+        "lineup_slot": "WR",
+        "points": 13.0,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 11,
+        "player_id": "4429096",
+        "name": "Blake Corum",
+        "lineup_slot": "FLEX",
+        "points": 12.9,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 11,
+        "player_id": "3150744",
+        "name": "Chase McLaughlin",
+        "lineup_slot": "K",
+        "points": 10.0,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 11,
+        "player_id": "4262921",
+        "name": "Justin Jefferson",
+        "lineup_slot": "WR",
+        "points": 8.8,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 11,
+        "player_id": "4431459",
+        "name": "Tyler Warren",
+        "lineup_slot": "TE",
+        "points": 8.4,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 11,
+        "player_id": "4373626",
+        "name": "Tyler Allgeier",
+        "lineup_slot": "RB",
+        "points": 8.3,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 11,
+        "player_id": "4567750",
+        "name": "Emeka Egbuka",
+        "lineup_slot": "WR/TE",
+        "points": 7.0,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 11,
+        "player_id": "4259545",
+        "name": "D'Andre Swift",
+        "lineup_slot": "RB",
+        "points": 4.3,
+        "started": true
+      }
+    ],
+    "7": [
+      {
+        "fantasy_team_id": 7,
+        "player_id": "4248528",
+        "name": "Christian Watson",
+        "lineup_slot": "WR/TE",
+        "points": 31.1,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 7,
+        "player_id": "4685720",
+        "name": "Bryce Young",
+        "lineup_slot": "QB",
+        "points": 26.44,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 7,
+        "player_id": "4432665",
+        "name": "Brock Bowers",
+        "lineup_slot": "TE",
+        "points": 23.4,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 7,
+        "player_id": "-16019",
+        "name": "Giants D/ST",
+        "lineup_slot": "D/ST",
+        "points": 19.0,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 7,
+        "player_id": "4374302",
+        "name": "Amon-Ra St. Brown",
+        "lineup_slot": "WR",
+        "points": 16.6,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 7,
+        "player_id": "4595348",
+        "name": "Malik Nabers",
+        "lineup_slot": "WR",
+        "points": 9.3,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 7,
+        "player_id": "5081397",
+        "name": "Dylan Sampson",
+        "lineup_slot": "RB",
+        "points": 8.6,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 7,
+        "player_id": "3046439",
+        "name": "Hunter Henry",
+        "lineup_slot": "FLEX",
+        "points": 6.5,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 7,
+        "player_id": "2473037",
+        "name": "Jason Myers",
+        "lineup_slot": "K",
+        "points": 6.0,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 7,
+        "player_id": "4241555",
+        "name": "Elijah Mitchell",
+        "lineup_slot": "RB",
+        "points": 5.9,
+        "started": true
+      }
+    ],
+    "8": [
+      {
+        "fantasy_team_id": 8,
+        "player_id": "4361741",
+        "name": "Brock Purdy",
+        "lineup_slot": "QB",
+        "points": 29.98,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 8,
+        "player_id": "4702555",
+        "name": "Jonah Coleman",
+        "lineup_slot": "RB",
+        "points": 20.5,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 8,
+        "player_id": "4686361",
+        "name": "Cam Little",
+        "lineup_slot": "K",
+        "points": 17.0,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 8,
+        "player_id": "4241416",
+        "name": "Chuba Hubbard",
+        "lineup_slot": "RB",
+        "points": 15.2,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 8,
+        "player_id": "-16008",
+        "name": "Lions D/ST",
+        "lineup_slot": "D/ST",
+        "points": 15.0,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 8,
+        "player_id": "4430878",
+        "name": "Jaxon Smith-Njigba",
+        "lineup_slot": "WR/TE",
+        "points": 12.1,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 8,
+        "player_id": "4697815",
+        "name": "Rachaad White",
+        "lineup_slot": "FLEX",
+        "points": 8.7,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 8,
+        "player_id": "5083754",
+        "name": "Ryan Flournoy",
+        "lineup_slot": "WR",
+        "points": 7.3,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 8,
+        "player_id": "4426388",
+        "name": "Jameson Williams",
+        "lineup_slot": "WR",
+        "points": 5.1,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 8,
+        "player_id": "4430539",
+        "name": "Brenton Strange",
+        "lineup_slot": "TE",
+        "points": 4.2,
+        "started": true
+      }
+    ],
+    "5": [
+      {
+        "fantasy_team_id": 5,
+        "player_id": "4430807",
+        "name": "Bijan Robinson",
+        "lineup_slot": "RB",
+        "points": 29.6,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 5,
+        "player_id": "2577417",
+        "name": "Dak Prescott",
+        "lineup_slot": "QB",
+        "points": 26.7,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 5,
+        "player_id": "-16034",
+        "name": "Texans D/ST",
+        "lineup_slot": "D/ST",
+        "points": 15.8,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 5,
+        "player_id": "4832800",
+        "name": "Denzel Boston",
+        "lineup_slot": "WR",
+        "points": 15.8,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 5,
+        "player_id": "4384852",
+        "name": "Dohnte Meyers",
+        "lineup_slot": "WR",
+        "points": 13.4,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 5,
+        "player_id": "4686422",
+        "name": "Xavier Hutchinson",
+        "lineup_slot": "WR/TE",
+        "points": 13.3,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 5,
+        "player_id": "4427366",
+        "name": "Breece Hall",
+        "lineup_slot": "RB",
+        "points": 13.2,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 5,
+        "player_id": "4361307",
+        "name": "Trey McBride",
+        "lineup_slot": "TE",
+        "points": 12.4,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 5,
+        "player_id": "3953687",
+        "name": "Brandon Aubrey",
+        "lineup_slot": "K",
+        "points": 10.0,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 5,
+        "player_id": "3054850",
+        "name": "Alvin Kamara",
+        "lineup_slot": "FLEX",
+        "points": 8.5,
+        "started": true
+      }
+    ],
+    "4": [
+      {
+        "fantasy_team_id": 4,
+        "player_id": "3915511",
+        "name": "Joe Burrow",
+        "lineup_slot": "QB",
+        "points": 37.84,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 4,
+        "player_id": "4432620",
+        "name": "Parker Washington",
+        "lineup_slot": "WR",
+        "points": 16.65,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 4,
+        "player_id": "4361050",
+        "name": "Isaiah Likely",
+        "lineup_slot": "TE",
+        "points": 16.3,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 4,
+        "player_id": "4360761",
+        "name": "Michael Wilson",
+        "lineup_slot": "WR",
+        "points": 12.0,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 4,
+        "player_id": "4242335",
+        "name": "Jonathan Taylor",
+        "lineup_slot": "RB",
+        "points": 10.7,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 4,
+        "player_id": "4723086",
+        "name": "Colston Loveland",
+        "lineup_slot": "WR/TE",
+        "points": 9.4,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 4,
+        "player_id": "17427",
+        "name": "Cairo Santos",
+        "lineup_slot": "K",
+        "points": 9.0,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 4,
+        "player_id": "4685702",
+        "name": "Quinshon Judkins",
+        "lineup_slot": "RB",
+        "points": 7.0,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 4,
+        "player_id": "-16029",
+        "name": "Panthers D/ST",
+        "lineup_slot": "D/ST",
+        "points": 6.8,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 4,
+        "player_id": "4569603",
+        "name": "Malik Washington",
+        "lineup_slot": "FLEX",
+        "points": 4.2,
+        "started": true
+      }
+    ],
+    "3": [
+      {
+        "fantasy_team_id": 3,
+        "player_id": "4241389",
+        "name": "CeeDee Lamb",
+        "lineup_slot": "WR",
+        "points": 36.5,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 3,
+        "player_id": "4596448",
+        "name": "Bucky Irving",
+        "lineup_slot": "RB",
+        "points": 30.5,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 3,
+        "player_id": "3117251",
+        "name": "Christian McCaffrey",
+        "lineup_slot": "FLEX",
+        "points": 24.5,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 3,
+        "player_id": "4685472",
+        "name": "Tetairoa McMillan",
+        "lineup_slot": "WR",
+        "points": 15.6,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 3,
+        "player_id": "3918298",
+        "name": "Josh Allen",
+        "lineup_slot": "QB",
+        "points": 15.46,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 3,
+        "player_id": "5083076",
+        "name": "Harold Fannin Jr.",
+        "lineup_slot": "TE",
+        "points": 12.2,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 3,
+        "player_id": "4426502",
+        "name": "Drake London",
+        "lineup_slot": "WR/TE",
+        "points": 11.8,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 3,
+        "player_id": "-16007",
+        "name": "Broncos D/ST",
+        "lineup_slot": "D/ST",
+        "points": 9.2,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 3,
+        "player_id": "4567104",
+        "name": "Will Reichard",
+        "lineup_slot": "K",
+        "points": 9.0,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 3,
+        "player_id": "4047365",
+        "name": "Josh Jacobs",
+        "lineup_slot": "RB",
+        "points": 0.9,
+        "started": true
+      }
+    ],
+    "6": [
+      {
+        "fantasy_team_id": 6,
+        "player_id": "4361579",
+        "name": "Javonte Williams",
+        "lineup_slot": "RB",
+        "points": 25.4,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 6,
+        "player_id": "-16025",
+        "name": "49ers D/ST",
+        "lineup_slot": "D/ST",
+        "points": 24.8,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 6,
+        "player_id": "4685278",
+        "name": "Luther Burden III",
+        "lineup_slot": "WR",
+        "points": 22.7,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 6,
+        "player_id": "4870653",
+        "name": "KC Concepcion",
+        "lineup_slot": "WR/TE",
+        "points": 20.9,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 6,
+        "player_id": "4431611",
+        "name": "Caleb Williams",
+        "lineup_slot": "QB",
+        "points": 19.26,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 6,
+        "player_id": "5082424",
+        "name": "Dominic Zvada",
+        "lineup_slot": "K",
+        "points": 17.0,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 6,
+        "player_id": "4870795",
+        "name": "Makai Lemon",
+        "lineup_slot": "FLEX",
+        "points": 12.1,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 6,
+        "player_id": "4882093",
+        "name": "Bhayshul Tuten",
+        "lineup_slot": "RB",
+        "points": 10.1,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 6,
+        "player_id": "4036133",
+        "name": "T.J. Hockenson",
+        "lineup_slot": "TE",
+        "points": 7.3,
+        "started": true
+      },
+      {
+        "fantasy_team_id": 6,
+        "player_id": "4612826",
+        "name": "Ladd McConkey",
+        "lineup_slot": "WR",
+        "points": 0.0,
+        "started": true
+      }
+    ]
+  },
+  "remaining_editorial_work": {
+    "W09-P01": "Reconcile cover teasers with accepted issue; retain family-first cover.",
+    "W09-P02": "Rewrite final weekly thesis; do not publish pre-MNF language.",
+    "W09-P22": "Use reconciled player scores to write Good/Bad/Ugly; do not equate top score with exclusive causality.",
+    "W09-P23": "Refresh completed/canceled transactions; this score capture does not verify them.",
+    "W09-P24": "Fetch postweek standings/seeds; never derive official seed from these scores alone.",
+    "W09-P25": "Editorial ranking still requires a reasoned order; not a seeded or probabilistic output.",
+    "W09-P26": "Recheck explicitWeek10 fixtures and candidate spotlight; do not change Week9 GOTW.",
+    "W09-P27": "Retain one-week Book closure; no market reactivation or invented settlement.",
+    "W09-P28": "Write verified final consequence and forward close.",
+    "W09-P37": "Verify injury sources and current fantasy ownership independently.",
+    "W09-P38": "Explain verified division-wide consequences after standings reconciliation.",
+    "W09-P39": "Keep verified7berths/3division routes; exact clinch needs separate proof.",
+    "W09-P40": "No playoff probability inferred; optional FFHub remains unrun/unaccepted."
+  },
+  "provenance": {
+    "issue_sha256": "0ddff02f621de7c90cb8d9ab9aa81d296d4f6a3ca222512612a6db401e98d34b",
+    "story_cards_sha256": "e08e4cd5ca854ed865cf1536ac48b471b0af7488f8f6fb023f910baab71a9b67",
+    "lineup_sha256": "0c8f26639c4e5b5d109020acff84077edeeb16ed55e603112ae4b208df2d573e"
+  }
+}

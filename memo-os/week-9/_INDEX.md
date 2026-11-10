@@ -1,5 +1,11 @@
 # Week 9 — Memo OS Working Index and Continuation
 
+## November10 — final-results folios prepared for approval
+
+Fresh Flaim confirms all six results. The current35-page review is [WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10](WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10.md) with [HTML reading proof](WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10.html) and [structured folios](WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10.json). Each active register page now contains `approval_folio`; selected finales and supporting reporting use provider-final data. Earlier provisional `editorial_copy` remains the unaccepted baseline, not the current review. No source/Founder/art/release approval or PNG generation is claimed. The actual Mac is offline; this bounded compile ran in GitHub Actions without a local Director/Steward ACK.
+
+## Earlier checkpoints — historical unless superseded above
+
 **League:** ESPN 1417621 · 2026 · Week 9  
 **Owner:** Existing Bullpen / Memo OS, editorial Issue [#276](https://github.com/jakekaloper-hub/schemin-26/issues/276); upstream source-steward incident [#268](https://github.com/jakekaloper-hub/schemin-26/issues/268).  
 **Current status:** `CREATIVE_INTERVIEW_RECORDED / PREVIS_CANDIDATES_PREPARED / CANONICAL_SNAPSHOT_LOCK_BLOCKED / FACT_LOCK_BLOCKED / NOT_RELEASED`.  

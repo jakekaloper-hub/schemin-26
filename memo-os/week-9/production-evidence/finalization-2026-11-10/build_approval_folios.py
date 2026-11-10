@@ -214,9 +214,13 @@ def main():
     # Publication spacing: authoring above uses compact numerals; reader copy
     # is normalized without changing exact team names, statistics or meaning.
     def readable(s):
+        # Canonical team names with digits are not typography mistakes.
+        protected='CANONICALDONKEYALIAS'
+        s=s.replace('D0nkey K0ng',protected)
         s=re.sub(r'(?<=[A-Za-z])(?=\d)', ' ',s)
         s=re.sub(r'(?<=\d)(?=[A-Za-z])', ' ',s)
-        return s.replace('Week 9','Week 9').replace('Week 10','Week 10')
+        s=re.sub(r'%(?=[A-Za-z])', '% ',s)
+        return s.replace(protected,'D0nkey K0ng')
     for f in folios:
         for k,v in list(f['copy'].items()):
             if isinstance(v,str):f['copy'][k]=readable(v)
@@ -274,7 +278,7 @@ def main():
         if f.get('final_visual_direction'):md += ['**Selected visual consequence:** '+f['final_visual_direction'],'']
         md += ['**Approval:** pending; PNG hold. **Final combined page fit:** pending actual artwork and populated data.','']
         sections.append('<article id="'+f['page_id']+'"><div class="kicker">'+str(f['reading_position']).zfill(2)+' / 35 · '+f['page_id']+'</div><h2>'+html.escape(c['headline'])+'</h2><p class="deck">'+html.escape(c['deck'])+'</p><p>'+html.escape(c['body'])+'</p>'+extra+'<details><summary>Production and approval notes</summary><p>'+html.escape(f.get('final_visual_direction','Retain existing scene and current character references.'))+'</p><p>'+html.escape(' '.join(f['approval_notes']))+'</p><p>No PNG generation; final source/creative/image acceptance remains pending.</p></details></article>')
-    (W/(NAME+'.md')).write_text('\n'.join(md)+'\n')
+    (W/(NAME+'.md')).write_text('\n'.join(md).rstrip()+'\n')
     css='body{margin:0;background:#10191b;color:#f4eddf;font:18px/1.6 Georgia,serif}header,main{max-width:1050px;margin:auto;padding:24px}header{border-bottom:1px solid #c2a565}h1,h2,h3{line-height:1.15}h1{font-size:38px}article{padding:35px 0;border-bottom:1px solid #69604d}.kicker,.deck,aside,details,table,nav{font-family:system-ui,sans-serif}.kicker{color:#dec18a;font-size:14px}.deck{color:#d0c2a8;font-size:17px}aside,.report{padding:16px;border:1px solid #635b49;margin:18px 0}.table-wrap{overflow-x:auto}table{border-collapse:collapse;font-size:14px;width:100%;min-width:580px}td,th{padding:9px;border-bottom:1px solid #53605a;text-align:left}th{color:#dec18a}details{font-size:14px;color:#d0d6d2;margin-top:20px}summary{cursor:pointer}nav a{color:#e4c987;display:inline-block;padding:8px;margin:3px}p{overflow-wrap:anywhere}@media(max-width:500px){header,main{padding:16px}body{font-size:17px}h1{font-size:30px}}'
     nav=''.join('<a href="#'+f['page_id']+'">'+str(f['reading_position'])+'</a>' for f in folios)
     doc='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Week9 final-result approval folios</title><style>'+css+'</style></head><body><header><h1>Week9 — Final-results approval edition</h1><p>35 retained folios · six decided outcomes · PNG production remains on hold.</p><p>This is a flowing content review, not a1080×1920 raster proof. Tables may scroll; final page density and image acceptance still require review.</p><nav>'+nav+'</nav></header><main>'+''.join(sections)+'</main></body></html>'

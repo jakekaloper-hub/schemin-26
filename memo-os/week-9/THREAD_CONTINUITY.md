@@ -121,3 +121,7 @@ The [production-input continuation](production-evidence/production-inputs-2026-1
 ## Latest continuation — packet defects repaired
 
 Read [targeted repair closeout](production-evidence/packet-repair-2026-11-09/README.md). Current proof selectors/adjacency, overture beat placement, Chili duplication and P20 sequencing/export are repaired. The updated layout rehearsal uses authoritative packets. Both narrow proof kits are rebuilt. Do not use previous source-only kits as the latest instructions.35-page order and settled canon remain. Actual generated images, final sports acceptance, finished injury/division/ranking reports and independent receipts remain pending.
+
+## November10 — final-results folios prepared for approval
+
+Fresh Flaim confirms all six results. The current35-page review is [WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10](WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10.md) with [HTML reading proof](WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10.html) and [structured folios](WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10.json). Each active register page now contains `approval_folio`; selected finales and supporting reporting use provider-final data. Earlier provisional `editorial_copy` remains the unaccepted baseline, not the current review. No source/Founder/art/release approval or PNG generation is claimed. The actual Mac is offline; this bounded compile ran in GitHub Actions without a local Director/Steward ACK.
