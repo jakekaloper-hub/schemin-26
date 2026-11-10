@@ -125,3 +125,7 @@ Read [targeted repair closeout](production-evidence/packet-repair-2026-11-09/REA
 ## November10 — final-results folios prepared for approval
 
 Fresh Flaim confirms all six results. The current35-page review is [WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10](WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10.md) with [HTML reading proof](WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10.html) and [structured folios](WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10.json). Each active register page now contains `approval_folio`; selected finales and supporting reporting use provider-final data. Earlier provisional `editorial_copy` remains the unaccepted baseline, not the current review. No source/Founder/art/release approval or PNG generation is claimed. The actual Mac is offline; this bounded compile ran in GitHub Actions without a local Director/Steward ACK.
+
+## Current PNG-production handoff — November10
+
+[Start the new thread here](PNG_PRODUCTION_START_HERE.md). The latest full-name/selected-only revision is repository-integrated. The user requests PNG production; PDF is only later assembly. Current source: Week_9_Approval_Review_Full_Names.json. Prior “local only” status is historical. Existing35pages, six scenes and all character references remain; no unseen image is approved.

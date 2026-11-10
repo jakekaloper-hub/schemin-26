@@ -1,0 +1,294 @@
+{
+  "page_id": "W09-P20",
+  "reading_position": 24,
+  "working_title": "No Safe Corner",
+  "page_role": "matchup_action",
+  "state": "FINAL_RESULT_DRAFT_FOR_APPROVAL_NOT_PNG_AUTHORIZATION",
+  "canvas": [
+    1080,
+    1920
+  ],
+  "copy": {
+    "headline": "No Safe Corner",
+    "deck": "Two contenders. Changing angles. No comfortable position.",
+    "body": "Slob on my Dobb broke for central cover. Paint snapped against the bunker as he slid behind it. Across the lane, Three Dreaded Snake moved again. Three protected heads watched three openings. Neither could wait. Every advance gained ground and surrendered protection.",
+    "body_word_count": 42
+  },
+  "cast": [
+    "CHAR-JORDAN-HOLLINGSHEAD",
+    "CHAR-PHILLIP-PITTS"
+  ],
+  "references": [
+    {
+      "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "primary_path": "canon/characters/assets/CHAR-JORDAN-HOLLINGSHEAD/primary/0435E914-64B3-4350-8A41-758173DDC98D.jpeg",
+      "expected_primary_sha256": "c052e8c74939338517f1b14bbca5f2ea3d57146794f675d065698a44fb1064e8",
+      "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+      "comparison_crop_sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+      "renderer_bound": false,
+      "primary_state": "NOT_RENDER_BOUND",
+      "comparison_only": true,
+      "preflight_primary_bytes": "NOT_RECOVERED_FROM_SCOPED_LOCAL_SEARCH",
+      "registered_library_handle": "libfile_f330daf3bae0819198b6008d67fecc51",
+      "library_handle_reverified": false,
+      "presentation_assertions_source": "canon/characters/lineup_2026_10_18/CHAR-JORDAN-HOLLINGSHEAD.json",
+      "selected_visual_reference": {
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+        "sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+        "authority": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+        "classification": "EXISTING_COMMISSIONER_APPROVED_PRESENTATION_REUSED_FROM_WEEK8",
+        "identity_approved": true,
+        "identity_reconfirmation_required": false,
+        "source_bytes_available_in_repo": true,
+        "renderer_request_submitted": false,
+        "replaces_historical_primary_hash": false
+      },
+      "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-JORDAN-HOLLINGSHEAD.json",
+      "appearance_authority_sha256": "99cfb0c7acc4a66300a1c3b0f38eb3e27b782dd12eed874a00b7c338d34a834d",
+      "identity_reapproval_required": false,
+      "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
+    },
+    {
+      "character_id": "CHAR-PHILLIP-PITTS",
+      "primary_path": "canon/characters/assets/CHAR-PHILLIP-PITTS/primary/IMG_2178.jpeg",
+      "expected_primary_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+      "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+      "comparison_crop_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+      "renderer_bound": false,
+      "primary_state": "NOT_RENDER_BOUND",
+      "comparison_only": true,
+      "preflight_primary_bytes": "HASH_MATCH_PRESENT_NOT_MOUNTED",
+      "registered_library_handle": "libfile_68a2173146888191bbae1160bb9972d2",
+      "library_handle_reverified": false,
+      "presentation_assertions_source": "canon/characters/lineup_2026_10_18/CHAR-PHILLIP-PITTS.json",
+      "selected_visual_reference": {
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+        "sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+        "authority": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+        "classification": "EXISTING_COMMISSIONER_APPROVED_PRESENTATION_REUSED_FROM_WEEK8",
+        "identity_approved": true,
+        "identity_reconfirmation_required": false,
+        "source_bytes_available_in_repo": true,
+        "renderer_request_submitted": false,
+        "replaces_historical_primary_hash": false
+      },
+      "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-PHILLIP-PITTS.json",
+      "appearance_authority_sha256": "9d8d06b8c91ed733926aed0e8201f96c623d93ce2724fdd1fa4958fe2ed3c49d",
+      "identity_reapproval_required": false,
+      "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
+    }
+  ],
+  "layout": {
+    "canvas": [
+      1080,
+      1920
+    ],
+    "safe_margin_px": 60,
+    "archetype": "paintball_sequence",
+    "zones": {
+      "header": [
+        60,
+        50,
+        960,
+        250
+      ],
+      "breakout": [
+        60,
+        325,
+        960,
+        260
+      ],
+      "crossing_slide": [
+        60,
+        610,
+        960,
+        520
+      ],
+      "counter_move": [
+        60,
+        1155,
+        960,
+        260
+      ],
+      "body": [
+        60,
+        1440,
+        960,
+        415
+      ]
+    },
+    "type_px": {
+      "headline": 58,
+      "deck": 36,
+      "body": 42,
+      "data": 38,
+      "minor": 30
+    },
+    "body_line_height_px": 55,
+    "whole_page_fit_state": "REQUIRES_REMEASUREMENT_AFTER_FULL_NAME_AND_FINAL_VALUE_INSERTION",
+    "actual_art_fit_state": "NOT_GENERATED",
+    "no_type_shrink_to_fit": true,
+    "text_composition": "DETERMINISTIC_FROM_CURRENT_COPY_AND_ACCEPTED_DATA",
+    "data_area_not_on_faces": true,
+    "concept_only_art": true,
+    "fit_limits": [
+      "Art regions contain placeholders only.",
+      "This review uses final reported values; no finished illustration has been inspected.",
+      "Reference attachment, map-label composition and independent source acceptance remain separate."
+    ],
+    "art_sequence": [
+      "breakout",
+      "crossing_slide",
+      "counter_move"
+    ],
+    "clearance_adjustment": "Final-value/full-name typographic review. Art has not been accepted."
+  },
+  "scene": {
+    "state": "WRITTEN_PREPRODUCTION_NOT_DRAWN_NOT_LOCKED",
+    "emotional_spine": "Every advance gains an angle and sacrifices protection; the victory must be earned by a visible flank.",
+    "ground_plan": "From the west sideline: Slob on my Dobb starts southwest/near-left, Three Dreaded Snake northeast/far-right. A cylinder, central low bunker and northeast wedge define the lanes; trees and distant camp remain behind. Inflatable covers are stationary. A final pivoting camera is re-established before the behind-winner view.",
+    "anchors": [
+      "southwest cylinder",
+      "central low bunker and open middle lane",
+      "northeast wedge with rear tree line"
+    ],
+    "beats": [
+      {
+        "beat_id": "W09-M06-P20-BREAKOUT",
+        "page_id": "W09-P20",
+        "source_page_id": "W09-P19",
+        "source_commit": "f19354db4649ca1263c94be9ea8d9ed95bc4b83d",
+        "source_beat_ids": [
+          "W09-M06-B02"
+        ],
+        "branch": "COMMON",
+        "shot": "Wide sideline opening, both origins visible",
+        "pose_and_physical_action": "Slob on my Dobb breaks from the near-left starting cylinder toward central low cover while Three Dreaded Snake pivots around the far-right wedge, bringing his marker onto the lane. Both markers remain controlled; no paint hits either player. The shared tree line and stationary bunkers match P36.",
+        "what_changes": "The established starting positions become the first exposed crossing.",
+        "transition": "The main image shows the crossing ending in a slide.",
+        "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT",
+        "layout_zone": "breakout"
+      },
+      {
+        "beat_id": "W09-M06-B03",
+        "page_id": "W09-P20",
+        "branch": "COMMON",
+        "shot": "Dominant low sideline action-wide",
+        "pose_and_physical_action": "Slob on my Dobb drives from cylinder toward central low cover as Three Dreaded Snake leans from the far wedge. Paint lands on inflatable cover, not either player.",
+        "what_changes": "The first crossing exposes a cost while gaining ground.",
+        "transition": "Inset follows the slide from the same left-to-right direction.",
+        "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT",
+        "layout_zone": "crossing_slide"
+      },
+      {
+        "beat_id": "W09-M06-B04",
+        "page_id": "W09-P20",
+        "branch": "COMMON",
+        "shot": "Medium Slob on my Dobb slide inset",
+        "pose_and_physical_action": "His current heavyset human build compresses into a short slide; soil scuffs follow the travel direction. Mask stays on; no stale horned redesign.",
+        "what_changes": "A forceful advance ends in a defensible position, not victory.",
+        "transition": "Countercut to the opponent using the information.",
+        "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT",
+        "layout_zone": "crossing_slide"
+      },
+      {
+        "beat_id": "W09-M06-B05",
+        "page_id": "W09-P20",
+        "branch": "COMMON",
+        "shot": "Medium Three Dreaded Snake counter-move inset",
+        "pose_and_physical_action": "Three Dreaded Snake leaves the wedge for adjacent tree cover. Central head tracks Slob on my Dobb; outer heads watch flanks; three necks join one body and marker stays below the faces.",
+        "what_changes": "The defender changes position rather than freezing for the next shot.",
+        "transition": "Turn before either finds a clean final hit.",
+        "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT",
+        "layout_zone": "counter_move"
+      }
+    ],
+    "page_turn_out": "Both are moving; which new angle will actually defeat cover?",
+    "text_hidden_review_questions": [
+      "Can both starting sides and the open lane be located?",
+      "Does P20 avoid premature body hits or a winner?",
+      "Does P21 show winner, muzzle direction and splattered loser in one coherent view?"
+    ],
+    "visual_comprehension_test_passed": false
+  },
+  "environment": {
+    "venue_id": "LOC-SLOB-FOOTHILL-CAMP",
+    "venue_type": "OWNER_HOME_SCENE",
+    "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+    "route_required": true,
+    "world_state_in": [
+      "operational"
+    ],
+    "persistent_landmarks": [
+      "tailgate yard",
+      "rough training ground"
+    ],
+    "provisional_location": true,
+    "world_resolution": "PLANNING_PARENT_RESOLVED__EVENT_FEATURE_REVIEW_PENDING"
+  },
+  "selected_branch": "home_win",
+  "is_finale": false,
+  "opposite_ending_in_publication_copy": false,
+  "data_rows": [],
+  "report_cards": [],
+  "source_path": "memo-os/week-9/production-evidence/finalization-2026-11-10/REVALIDATION.json",
+  "render_authorized": false,
+  "publication_approved": false,
+  "source_acceptance": false,
+  "pixel_fit": "NOT_TESTED_WITH_FINAL_ART_AND_POPULATED_NUMBERS",
+  "approval_notes": [
+    "Content/source review first; no PNG requested in this pass."
+  ],
+  "result_context": {
+    "matchup_id": "W09-M06",
+    "home_team_id": 3,
+    "home": "Slob on my Dobb",
+    "home_score": "165.66",
+    "away_team_id": 6,
+    "away": "Three Dreaded Snake",
+    "away_score": "159.56",
+    "provider_winner": "HOME",
+    "winner_team_id": 3,
+    "winner": "Slob on my Dobb",
+    "margin": "6.10",
+    "selected_branch": "home_win",
+    "home_postweek_record": "5–4",
+    "away_postweek_record": "4–5",
+    "sports_cause": "Slob entered Monday 11.06 behind. Josh Allen and Will Reichard added 24.46 against Hockenson’s 7.30: a 17.16 swing and a 6.10 win. Lamb, Irving and McCaffrey had supplied 91.50.",
+    "final_visual_direction": "Slob wins. P21 camera is third person behind the sliding heavyset human winner, marker aimed downrange; losing three-headed TDS is visible with paint impacts on protected mask/body. P20 remains the build, with no premature player hit."
+  },
+  "final_visual_direction": "Slob on my Dobb wins. P21 camera is third person behind the sliding heavyset human winner, marker aimed downrange; losing three-headed Three Dreaded Snake is visible with paint impacts on protected mask/body. P20 remains the build, with no premature player hit.",
+  "entering_records": {
+    "home": "4-4",
+    "away": "4-4"
+  },
+  "postweek_records": {
+    "home": "5–4",
+    "away": "4–5"
+  },
+  "sports_note": "Slob on my Dobb entered Monday 11.06 behind. Josh Allen and Will Reichard added 24.46 against T.J. Hockenson’s 7.30: a 17.16 swing and a 6.10 win. CeeDee Lamb, Bucky Irving and Christian McCaffrey had supplied 91.50.",
+  "performance_edit": "Both still compete aggressively. No body-hit/elimination here; final Slob-winner angle is onP21.",
+  "copy_fit_review": "FINAL_VALUES_SELECTED; COMBINED1080x1920ART/TABLE/ENDINGFITSTILLREQUIRESREVIEW",
+  "cast_binding": [
+    {
+      "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "full_name": "Slob on my Dobb"
+    },
+    {
+      "character_id": "CHAR-PHILLIP-PITTS",
+      "full_name": "Three Dreaded Snake"
+    }
+  ],
+  "publication_payload": {
+    "headline": "No Safe Corner",
+    "deck": "Two contenders. Changing angles. No comfortable position.",
+    "body": "Slob on my Dobb broke for central cover. Paint snapped against the bunker as he slid behind it. Across the lane, Three Dreaded Snake moved again. Three protected heads watched three openings. Neither could wait. Every advance gained ground and surrendered protection.",
+    "pov": [],
+    "rows": [],
+    "cards": [],
+    "score_panel": null,
+    "sports_note": "",
+    "teasers": []
+  },
+  "clearance_state": "REVIEW_COPY_UPDATED__NOT_APPROVED_FOR_RENDER"
+}

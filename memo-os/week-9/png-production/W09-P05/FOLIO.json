@@ -1,0 +1,271 @@
+{
+  "page_id": "W09-P05",
+  "reading_position": 6,
+  "working_title": "A Round of Answers",
+  "page_role": "matchup_action",
+  "state": "FINAL_RESULT_DRAFT_FOR_APPROVAL_NOT_PNG_AUTHORIZATION",
+  "canvas": [
+    1080,
+    1920
+  ],
+  "copy": {
+    "headline": "A Round of Answers",
+    "deck": "A charity invitation. A familiar rival. Nothing casual about the round.",
+    "body": "The invitation promised a morning for a good cause. The round exposed less charitable intentions. Dr. Duckhook knew every ridge of his own course; ObiWan Jacoby had returned with a memory the host would rather forget. A clean strike earned a glance. A ball in the rough earned silence. By the time they walked toward the green, the autumn light was still beautiful. Neither rival was looking at it.",
+    "body_word_count": 69
+  },
+  "cast": [
+    "CHAR-ZACH-WILSON",
+    "CHAR-JAKE-KALOPER"
+  ],
+  "references": [
+    {
+      "character_id": "CHAR-ZACH-WILSON",
+      "primary_path": "canon/characters/assets/CHAR-ZACH-WILSON/primary/5B8C182F-FEBF-40A3-8DDA-1B4B62386B10.jpeg",
+      "expected_primary_sha256": "c8124a1f1146c0acc65b5e82d1c21289afd6a74a8ac2046895e39794619dcefb",
+      "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+      "comparison_crop_sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+      "renderer_bound": false,
+      "primary_state": "NOT_RENDER_BOUND",
+      "comparison_only": true,
+      "preflight_primary_bytes": "NOT_RECOVERED_FROM_SCOPED_LOCAL_SEARCH",
+      "registered_library_handle": "libfile_af25a9c60db88191b46b0f343fe50e09",
+      "library_handle_reverified": false,
+      "presentation_assertions_source": "canon/characters/lineup_2026_10_18/CHAR-ZACH-WILSON.json",
+      "selected_visual_reference": {
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+        "sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+        "authority": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+        "classification": "EXISTING_COMMISSIONER_APPROVED_PRESENTATION_REUSED_FROM_WEEK8",
+        "identity_approved": true,
+        "identity_reconfirmation_required": false,
+        "source_bytes_available_in_repo": true,
+        "renderer_request_submitted": false,
+        "replaces_historical_primary_hash": false
+      },
+      "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-ZACH-WILSON.json",
+      "appearance_authority_sha256": "f1a8ffaa33809b9433e5b6b117a161bf38bcbae914324512161a23d915add6d9",
+      "identity_reapproval_required": false,
+      "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
+    },
+    {
+      "character_id": "CHAR-JAKE-KALOPER",
+      "primary_path": "canon/characters/assets/CHAR-JAKE-KALOPER/primary/73B4BF07-22E9-44CA-BCBB-882612DFA9C1.jpeg",
+      "expected_primary_sha256": "e9b6690899566864fc9d56b3bc9dbce0e1eb43a2901d23c0949170be4da91e58",
+      "comparison_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+      "comparison_crop_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+      "renderer_bound": false,
+      "primary_state": "NOT_RENDER_BOUND",
+      "comparison_only": true,
+      "preflight_primary_bytes": "NOT_RECOVERED_FROM_SCOPED_LOCAL_SEARCH",
+      "registered_library_handle": "libfile_ecc124baa0708191912ab17f4f18f840",
+      "library_handle_reverified": false,
+      "presentation_assertions_source": "canon/characters/lineup_2026_10_18/CHAR-JAKE-KALOPER.json",
+      "selected_visual_reference": {
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+        "sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+        "authority": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+        "classification": "EXISTING_COMMISSIONER_APPROVED_PRESENTATION_REUSED_FROM_WEEK8",
+        "identity_approved": true,
+        "identity_reconfirmation_required": false,
+        "source_bytes_available_in_repo": true,
+        "renderer_request_submitted": false,
+        "replaces_historical_primary_hash": false
+      },
+      "appearance_authority_path": "canon/characters/lineup_2026_10_18/CHAR-JAKE-KALOPER.json",
+      "appearance_authority_sha256": "83ae608eba9ba47cc18637d8dce9fd46bc07d82d9064a09d240113d97cb1f1d3",
+      "identity_reapproval_required": false,
+      "selection_note": "Use current owner appearance authority; legacy primary/crop metadata alone is not a final renderer binding."
+    }
+  ],
+  "layout": {
+    "canvas": [
+      1080,
+      1920
+    ],
+    "safe_margin_px": 60,
+    "archetype": "golf_collage",
+    "zones": {
+      "header": [
+        60,
+        50,
+        960,
+        250
+      ],
+      "first_action": [
+        60,
+        325,
+        960,
+        330
+      ],
+      "second_action": [
+        60,
+        680,
+        960,
+        330
+      ],
+      "reaction": [
+        60,
+        1035,
+        960,
+        200
+      ],
+      "body": [
+        60,
+        1260,
+        960,
+        595
+      ]
+    },
+    "type_px": {
+      "headline": 58,
+      "deck": 36,
+      "body": 42,
+      "data": 38,
+      "minor": 30
+    },
+    "body_line_height_px": 55,
+    "whole_page_fit_state": "REQUIRES_REMEASUREMENT_AFTER_FULL_NAME_AND_FINAL_VALUE_INSERTION",
+    "actual_art_fit_state": "NOT_GENERATED",
+    "no_type_shrink_to_fit": true,
+    "text_composition": "DETERMINISTIC_FROM_CURRENT_COPY_AND_ACCEPTED_DATA",
+    "data_area_not_on_faces": true,
+    "concept_only_art": true,
+    "fit_limits": [
+      "Art regions contain placeholders only.",
+      "This review uses final reported values; no finished illustration has been inspected.",
+      "Reference attachment, map-label composition and independent source acceptance remain separate."
+    ],
+    "clearance_adjustment": "Final-value/full-name typographic review. Art has not been accepted."
+  },
+  "scene": {
+    "state": "WRITTEN_PREPRODUCTION_NOT_DRAWN_NOT_LOCKED",
+    "emotional_spine": "Hospitality becomes a personal contest; the course stays beautiful while the rivals lose their composure.",
+    "ground_plan": "Readable shot axis: tee/fairway runs lower-left toward upper-right. Clubhouse remains horizon-left and pond camera-right. At the final green, the flag is uphill of a visible short apron descending to the pond. Opponent stays outside every swing arc.",
+    "anchors": [
+      "clubhouse left",
+      "fairway approach",
+      "right-side pond and sloped apron"
+    ],
+    "beats": [
+      {
+        "beat_id": "W09-M01-B03",
+        "page_id": "W09-P05",
+        "branch": "COMMON",
+        "shot": "Low three-quarter tee action",
+        "pose_and_physical_action": "Dr. Duckhook rotates through a driver follow-through; both hands share one grip. ObiWan Jacoby watches the same ball from behind the tee marker, outside the swing arc.",
+        "what_changes": "The host stops welcoming and starts performing. The confirmed outcome is resolved in the selected finale.",
+        "transition": "Follow the attention, not a second identical swing.",
+        "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+      },
+      {
+        "beat_id": "W09-M01-B04",
+        "page_id": "W09-P05",
+        "branch": "COMMON",
+        "shot": "Medium visitor recovery shot",
+        "pose_and_physical_action": "ObiWan Jacoby plants his boots in sand, flexes his knees and turns through one recovery stroke. Ball, club and sand fan remain separate; Dr. Duckhook watches beyond the safe arc.",
+        "what_changes": "The visitor must solve a different physical problem rather than simply copy the host.",
+        "transition": "Move from the stroke to the rival whose expression changes.",
+        "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+      },
+      {
+        "beat_id": "W09-M01-B05",
+        "page_id": "W09-P05",
+        "branch": "COMMON",
+        "shot": "Tight reaction and grip detail",
+        "pose_and_physical_action": "The spectator golfer stops smiling and tightens a hand around the club; the scorecard folds shut without displaying invented numbers.",
+        "what_changes": "Mutual scrutiny replaces casual hospitality.",
+        "transition": "Page turn replaces noisy action with the quiet final-green wide.",
+        "classification": "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+      }
+    ],
+    "page_turn_out": "The smiles have gone; what does the last hole put at risk?",
+    "text_hidden_review_questions": [
+      "Who invited whom?",
+      "Which golfer acts in each vignette?",
+      "Where would an overhit putt travel, and was that shown first?"
+    ],
+    "visual_comprehension_test_passed": false
+  },
+  "environment": {
+    "venue_id": "LOC-COUNTRY-CLUB-JACKSON",
+    "venue_type": "OWNER_HOME_SCENE",
+    "division_context": "Source-bound entering and postweek standings; no invented tiebreaks",
+    "route_required": true,
+    "world_state_in": [
+      "Week 3 chili contamination is historical memory; cleanup state required before pristine reset"
+    ],
+    "persistent_landmarks": [
+      "clubhouse",
+      "golf grounds",
+      "water hazards"
+    ],
+    "provisional_location": true,
+    "world_resolution": "PLANNING_PARENT_RESOLVED__EVENT_FEATURE_REVIEW_PENDING"
+  },
+  "selected_branch": "home_win",
+  "is_finale": false,
+  "opposite_ending_in_publication_copy": false,
+  "data_rows": [],
+  "report_cards": [],
+  "source_path": "memo-os/week-9/production-evidence/finalization-2026-11-10/REVALIDATION.json",
+  "render_authorized": false,
+  "publication_approved": false,
+  "source_acceptance": false,
+  "pixel_fit": "NOT_TESTED_WITH_FINAL_ART_AND_POPULATED_NUMBERS",
+  "approval_notes": [
+    "Content/source review first; no PNG requested in this pass."
+  ],
+  "result_context": {
+    "matchup_id": "W09-M01",
+    "home_team_id": 12,
+    "home": "Dr. Duckhook",
+    "home_score": "166.56",
+    "away_team_id": 1,
+    "away": "ObiWan Jacoby",
+    "away_score": "144.46",
+    "provider_winner": "HOME",
+    "winner_team_id": 12,
+    "winner": "Dr. Duckhook",
+    "margin": "22.10",
+    "selected_branch": "home_win",
+    "home_postweek_record": "6–3",
+    "away_postweek_record": "4–5",
+    "sports_cause": "Matthew Golden scored 33.40 and Drake Maye 24.36 for Duckhook. Addison and Bass added 17.80 to his pre-MNF lead. Walker and Nacua supplied ObiWan with 75.30, but the host finished 22.10 ahead.",
+    "final_visual_direction": "Duckhook is the winner. Keep his controlled golf execution; ObiWan suffers the costly poor recovery/approach/short putt and emotional loss. Do not draw Duckhook losing into the pond. No invented golf stroke totals."
+  },
+  "final_visual_direction": "Dr. Duckhook is the winner. Keep his controlled golf execution; ObiWan Jacoby suffers the costly poor recovery/approach/short putt and emotional loss. Do not draw Dr. Duckhook losing into the pond. No invented golf stroke totals.",
+  "entering_records": {
+    "home": "5-3",
+    "away": "4-4"
+  },
+  "postweek_records": {
+    "home": "6–3",
+    "away": "4–5"
+  },
+  "sports_note": "Matthew Golden scored 33.40 and Drake Maye 24.36 for Dr. Duckhook. Jordan Addison and Tyler Bass added 17.80 to his pre-MNF lead. Kenneth Walker III and Puka Nacua supplied ObiWan Jacoby with 75.30, but the host finished 22.10 ahead.",
+  "performance_edit": "Retain tee/recovery/reaction choreography; favor Duckhook-controlled shots and ObiWan costly recovery. No trophy or final putt on this montage.",
+  "copy_fit_review": "FINAL_VALUES_SELECTED; COMBINED1080x1920ART/TABLE/ENDINGFITSTILLREQUIRESREVIEW",
+  "cast_binding": [
+    {
+      "character_id": "CHAR-ZACH-WILSON",
+      "full_name": "Dr. Duckhook"
+    },
+    {
+      "character_id": "CHAR-JAKE-KALOPER",
+      "full_name": "ObiWan Jacoby"
+    }
+  ],
+  "publication_payload": {
+    "headline": "A Round of Answers",
+    "deck": "A charity invitation. A familiar rival. Nothing casual about the round.",
+    "body": "The invitation promised a morning for a good cause. The round exposed less charitable intentions. Dr. Duckhook knew every ridge of his own course; ObiWan Jacoby had returned with a memory the host would rather forget. A clean strike earned a glance. A ball in the rough earned silence. By the time they walked toward the green, the autumn light was still beautiful. Neither rival was looking at it.",
+    "pov": [],
+    "rows": [],
+    "cards": [],
+    "score_panel": null,
+    "sports_note": "",
+    "teasers": []
+  },
+  "clearance_state": "REVIEW_COPY_UPDATED__NOT_APPROVED_FOR_RENDER"
+}

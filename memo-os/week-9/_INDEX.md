@@ -1,5 +1,12 @@
 # Week 9 — Memo OS Working Index and Continuation
 
+## START HERE — separate PNG-production thread
+
+[PNG_PRODUCTION_START_HERE.md](./PNG_PRODUCTION_START_HERE.md) · [current full-name folios](./Week_9_Approval_Review_Full_Names.json) · [first exact two-character commission](./png-production/W09-P05/COMMISSION.md).
+
+The latest local-only full-name/selected-scene revision is now integrated into this repository. The user requested PNG production; the PDF is only the final compilation of accepted PNGs. Current active input is `approval_folio.publication_payload` / `.scene` / `.layout`, not older provisional or opposite-ending fields.35reading positions and12identities preserved. No actual image or independent source approval is implied. Historical entries below remain records, not competing current start points.
+
+
 ## November10 — final-results folios prepared for approval
 
 Fresh Flaim confirms all six results. The current35-page review is [WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10](WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10.md) with [HTML reading proof](WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10.html) and [structured folios](WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10.json). Each active register page now contains `approval_folio`; selected finales and supporting reporting use provider-final data. Earlier provisional `editorial_copy` remains the unaccepted baseline, not the current review. No source/Founder/art/release approval or PNG generation is claimed. The actual Mac is offline; this bounded compile ran in GitHub Actions without a local Director/Steward ACK.
