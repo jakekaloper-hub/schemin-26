@@ -30,7 +30,8 @@ class FinalApprovalTests(unittest.TestCase):
         self.assertEqual(len(issue['pages']), 40)
         by = {p['page_id']:p for p in issue['pages']}
         for f in a['folios']:
-            self.assertEqual(by[f['page_id']]['approval_folio'], f)
+            # The original finalization artifact remains immutable; the full-name revision is checked separately.
+            self.assertEqual(by[f['page_id']].get('approval_folio_before_full_names', by[f['page_id']]['approval_folio']), f)
             self.assertEqual(f['canvas'], [1080,1920])
             self.assertTrue(f['copy']['body'])
             self.assertFalse(f['render_authorized'])
