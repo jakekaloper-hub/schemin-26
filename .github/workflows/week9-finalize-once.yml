@@ -1,0 +1,59 @@
+name: Week9 one-time approval preparation
+on:
+  push:
+    branches: ['memo/week9-final-folio-approval-20261110']
+    paths:
+      - '.github/workflows/week9-finalize-once.yml'
+      - 'memo-os/week-9/production-evidence/finalization-2026-11-10/build_approval_folios.py'
+permissions:
+  contents: write
+jobs:
+  prepare-existing-folios:
+    if: github.ref == 'refs/heads/memo/week9-final-folio-approval-20261110'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: memo/week9-final-folio-approval-20261110
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Demonstrate missing final approval folios before implementation
+        shell: bash
+        run: |
+          if [ -f memo-os/week-9/WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10.json ]; then
+            echo 'Approval artifacts already exist; rerun validates them rather than claiming a new red test.'
+          else
+            set +e
+            python -m unittest discover -s memo-os/tests -p 'test_week9_final_approval_folios.py' -v >/tmp/week9-final-red.txt 2>&1
+            result=$?
+            cat /tmp/week9-final-red.txt
+            test "$result" -ne 0 || exit 1
+          fi
+      - name: Build exact existing folio approval drafts without enabling PNGs
+        if: hashFiles('memo-os/week-9/production-evidence/finalization-2026-11-10/build_approval_folios.py') != ''
+        run: python memo-os/week-9/production-evidence/finalization-2026-11-10/build_approval_folios.py
+      - name: Verify finalization and all existing Week9 safeguards
+        if: hashFiles('memo-os/week-9/production-evidence/finalization-2026-11-10/build_approval_folios.py') != ''
+        run: python -m unittest discover -s memo-os/tests -p 'test_week9_*.py' -v
+      - name: Commit generated drafts to this branch and remove one-time runner
+        if: hashFiles('memo-os/week-9/production-evidence/finalization-2026-11-10/build_approval_folios.py') != ''
+        shell: bash
+        run: |
+          git config user.name 'Schemin Week9 preparation'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git rm .github/workflows/week9-finalize-once.yml
+          git add memo-os .github/workflows/weekly-memo-authority-ci.yml
+          git diff --cached --check
+          git commit -m 'memo(w9): hydrate 35 provider-final approval folios; retain all PNG/release holds'
+          git push origin HEAD:memo/week9-final-folio-approval-20261110
+      - uses: actions/upload-artifact@v4
+        if: always() && hashFiles('memo-os/week-9/WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10.json') != ''
+        with:
+          name: week9-final-approval-folios
+          path: |
+            memo-os/week-9/WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10.*
+            memo-os/week-9/production-evidence/finalization-2026-11-10/
+          retention-days: 7
