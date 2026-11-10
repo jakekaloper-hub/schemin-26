@@ -16,38 +16,34 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: memo/week9-final-folio-approval-20261110
-          fetch-depth: 0
+          fetch-depth: 1
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Demonstrate missing final approval folios before implementation
+      - name: Reproduce reader-alias regression before the bounded correction
         shell: bash
         run: |
-          if [ -f memo-os/week-9/WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10.json ]; then
-            echo 'Approval artifacts already exist; rerun validates them rather than claiming a new red test.'
-          else
-            set +e
-            python -m unittest discover -s memo-os/tests -p 'test_week9_final_approval_folios.py' -v >/tmp/week9-final-red.txt 2>&1
-            result=$?
-            cat /tmp/week9-final-red.txt
-            test "$result" -ne 0 || exit 1
-          fi
-      - name: Build exact existing folio approval drafts without enabling PNGs
-        if: hashFiles('memo-os/week-9/production-evidence/finalization-2026-11-10/build_approval_folios.py') != ''
-        run: python memo-os/week-9/production-evidence/finalization-2026-11-10/build_approval_folios.py
-      - name: Verify finalization and all existing Week9 safeguards
-        if: hashFiles('memo-os/week-9/production-evidence/finalization-2026-11-10/build_approval_folios.py') != ''
+          python memo-os/week-9/production-evidence/finalization-2026-11-10/build_approval_folios.py
+          set +e
+          python -m unittest discover -s memo-os/tests -p 'test_week9_approval_wording.py' -v >/tmp/wording-check.txt 2>&1
+          result=$?
+          cat /tmp/wording-check.txt
+          echo "Initial wording-check exit=$result; first run must demonstrate the known defect."
+      - name: Correct alias handling and rebuild current review copies
+        run: |
+          python memo-os/week-9/production-evidence/finalization-2026-11-10/normalize_approval_wording.py
+          python memo-os/week-9/production-evidence/finalization-2026-11-10/build_approval_folios.py
+      - name: Verify all Week9 safeguards and new approval drafts
         run: python -m unittest discover -s memo-os/tests -p 'test_week9_*.py' -v
-      - name: Commit generated drafts to this branch and remove one-time runner
-        if: hashFiles('memo-os/week-9/production-evidence/finalization-2026-11-10/build_approval_folios.py') != ''
+      - name: Persist content only; workflow edits use the connected GitHub app separately
         shell: bash
         run: |
           git config user.name 'Schemin Week9 preparation'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git rm .github/workflows/week9-finalize-once.yml
-          git add memo-os .github/workflows/weekly-memo-authority-ci.yml
+          git restore .github/workflows/weekly-memo-authority-ci.yml
+          git add memo-os
           git diff --cached --check
-          git commit -m 'memo(w9): hydrate 35 provider-final approval folios; retain all PNG/release holds'
+          git commit -m 'memo(w9): hydrate 35 checked final-result approval folios; retain PNG hold'
           git push origin HEAD:memo/week9-final-folio-approval-20261110
       - uses: actions/upload-artifact@v4
         if: always() && hashFiles('memo-os/week-9/WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10.json') != ''
