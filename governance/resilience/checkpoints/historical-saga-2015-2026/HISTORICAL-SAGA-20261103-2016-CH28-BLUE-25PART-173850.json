@@ -1,0 +1,77 @@
+{
+  "schema": "commonwealth_historical_saga_run_checkpoint_v2",
+  "date": "2026-11-03",
+  "status": "NONCANON_INDEPENDENT_EDITORIAL_HOLD",
+  "repo": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "resumes_from": "93c7efe22707af0a3e3571e9dbcaf9a7595cd34f",
+  "main_at_intake": "e0858b8bc27db2bb095e0e03483b5c98e5809052",
+  "bullpen_main_at_intake": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+  "authority": {
+    "source_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "source_matrix_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+    "command": "runtime/commandRegistry.js",
+    "lifecycle": "runtime/lifecycleEngine.js",
+    "open_issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "bullpen_issue": 117,
+    "pr_states": {
+      "188": "merged",
+      "243": "draft_open",
+      "252": "draft_open",
+      "261": "draft_open",
+      "264": "draft_open"
+    }
+  },
+  "literary": {
+    "source_ch28_original": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_SLEEVE_LEFT_UNSTITCHED_CHAPTER_28_NONCANON.md",
+    "source_ch28_original_blob": "47a8475c2029f5b5b8222adfc72d2a4d17760da0",
+    "source_ch28_v2": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_SLEEVE_LEFT_UNSTITCHED_BLUE_THAT_DID_NOT_AGREE_CH28_V2_NONCANON.md",
+    "source_ch28_v2_blob": "97fe018a47056a6f5af487175476bf77e259167b",
+    "new_scene": "The blue that did not agree with itself",
+    "new_scene_words_with_heading": 1902,
+    "chapter_words_with_metadata": 7831,
+    "reader": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_2016_CAUSAL_CH01_28_TWENTY_FIVE_PARTS_BLUE_WITH_TWO_SHADOWS_NONCANON.md",
+    "reader_blob": "fa4002fb2ad9a4e8de310711ea93c02d6e7ddc7c",
+    "prior_reader_blob": "0691e5169697d68b208a28680b0ee04f2707c2fa",
+    "source_exact_prior_parts": 24,
+    "reader_parts": 25,
+    "original_chapters_covered": "I-XXVIII",
+    "total_component_source_words_including_metadata": 173850,
+    "historical_owner_binding": "NOT PROVIDER AUTHENTICATED",
+    "principal_interior": "proposed fictional Jake only",
+    "factual_boundary": "No new ESPN fact, owner identity, exact result, or canon geography; all dye craft and markets proposed fiction",
+    "letter": "Mev intermediary handoff only; no confirmed delivery to Esi",
+    "labor": "Four paid stoneworks hours total; no added paid hours; kiln closed",
+    "pell": "Contingent three-day hauling opportunity, no guaranteed employment",
+    "other_threads": "stolen ledger, Nell payment, Esi stewardship, Mara/Senn, Sola screen unresolved"
+  },
+  "technical": {
+    "new_test": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_twenty_eight_blue_reader.py",
+    "new_tests_defined": 16,
+    "workflow": ".github/workflows/novel-os-ci.yml",
+    "ci_status": "NOT YET OBSERVED at creation",
+    "test_status": "NOT YET OBSERVED",
+    "protected_main_2026_bodies": "MUST REMAIN UNCHANGED"
+  },
+  "editorial": {
+    "producer_self_critique": "living-novel/historical-chronicle/seasons/2016/causal-novel/EDITORIAL_QA_CH28_BLUE_V2_2026-11-03_NONCANON.md",
+    "independent_authors": "NOT RECEIVED",
+    "librarian": "NOT RECEIVED",
+    "atlas": "NOT CLEARED",
+    "character": "NOT CLEARED",
+    "umpire": "NOT RECEIVED",
+    "founder": "NOT AUTHORIZED"
+  },
+  "next": {
+    "task": "Chapter XXIX continuation after Pell's departure and Tavi's unsold sample",
+    "instruction": "Read actual current Chapter XXIX and checkpoint before prose. Challenge chapter bloat and repeated apprentice/ledger motifs. Preserve twelve POV law and provenance."
+  },
+  "publication": "NO MERGE / NO RELEASE / NO CANON PROMOTION"
+}

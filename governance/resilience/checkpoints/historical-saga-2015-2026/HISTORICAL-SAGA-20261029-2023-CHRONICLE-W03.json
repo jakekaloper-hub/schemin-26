@@ -1,0 +1,148 @@
+{
+  "schema_version": "commonwealth-novel-production-checkpoint-v1",
+  "status": "NONCANON_LITERARY_REVIEW_HOLD",
+  "date": "2026-10-29",
+  "mission": "Commonwealth Novel autonomous end-to-end historical-saga manuscript production",
+  "repo": "jakekaloper-hub/schemin-26",
+  "bullpen_repo": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "primary_pr": 243,
+  "source_issues": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "cross_prs": {
+    "188": "MERGED_PREPRODUCTION_SOURCE",
+    "252": "OPEN_DRAFT_HELD",
+    "261": "OPEN_DRAFT_HELD",
+    "264": "OPEN_DRAFT_ALT_CHAPTER_I_HELD"
+  },
+  "baseline": {
+    "schemin_main": "76c3f614c9eae70ead304c3f4cda7b44a95907e7",
+    "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "whole_book_source_matrix_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+    "task_registry_blob": "5e72e48f3c305e6def1051e0b18883a7be6b6af0",
+    "bullpen_command_v2_blob": "cccf90a3cadac802767988ceab8f44453aa86819"
+  },
+  "source": {
+    "path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+    "git_blob": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
+    "source": "Flaim ESPN 1417621 archival extract",
+    "raw_espn_sha": "UNKNOWN",
+    "human_owner_binding": "NOT_AUTHENTICATED"
+  },
+  "artifacts": {
+    "manuscript": {
+      "path": "living-novel/historical-chronicle/seasons/2023/weeks/W03.md",
+      "git_blob": "46cf25735536fde74c85b87641cd9cca3986a255",
+      "regex_word_tokens_including_metadata": 3799,
+      "whitespace_words_including_metadata": 3812,
+      "fully_drafted_scenes": 6
+    },
+    "qa_receipt": {
+      "path": "living-novel/historical-chronicle/seasons/2023/weeks/W03_SOURCE_QA_RECEIPT.md",
+      "git_blob": "196a8189c71e20677af1421642c15eb98b99ca34"
+    },
+    "test": {
+      "path": "living-novel/historical-chronicle/qa/test_2023_third_week.py",
+      "git_blob": "c4fe1a7ec379c410969d963ca63b16f28aa320b4",
+      "test_cases": 8
+    },
+    "continuity": {
+      "path": "living-novel/historical-chronicle/seasons/2023/CONTINUITY.json",
+      "git_blob": "06a11a48cc25a3dea9da4ec0ae10be0e5430c005"
+    },
+    "workflow": {
+      "path": ".github/workflows/novel-os-ci.yml",
+      "git_blob": "d678aea242b1a5ce7d335463991bb1c18af3d805"
+    },
+    "prior_manuscripts": [
+      "living-novel/historical-chronicle/seasons/2023/PROLOGUE.md",
+      "living-novel/historical-chronicle/seasons/2023/weeks/W01.md",
+      "living-novel/historical-chronicle/seasons/2023/weeks/W02.md"
+    ]
+  },
+  "coverage": {
+    "weeks": [
+      1,
+      2,
+      3
+    ],
+    "historical_pairings_represented": 18,
+    "regular_season_total_pairings": 84,
+    "distinct_team_slots_each_week": 12,
+    "postseason": "NOT_DRAFTED",
+    "new_week3_winners": [
+      3,
+      2,
+      8,
+      7,
+      5,
+      12
+    ],
+    "proposed_team1_wins_through_week3": 0,
+    "proposed_team1_losses_through_week3": 3,
+    "week3_team1_loss_margin": 1.29,
+    "season_2023_source_end": "WEEK_17"
+  },
+  "literary": {
+    "chronicle_total_word_regex_tokens_including_metadata": 11695,
+    "week3_title": "The Road With No Owner",
+    "only_principal_pov_id": "CHAR-JAKE-KALOPER",
+    "all_other_week3_scenes": "EXTERNAL_NON_FOCALIZED",
+    "fictional_setting": "UNMAPPED_PUBLIC_CIVIC_INSTITUTIONS",
+    "atlas": "PROPOSED_NOT_APPROVED",
+    "other_2023_causal_chapter": "The Fourth Address PRESERVED"
+  },
+  "verified_checks": {
+    "matched_archive_week3_fields": 18,
+    "matched_archive_week3_score_fields": "6 home scores + 6 away scores + 6 margins",
+    "six_roman_scene_headings": true,
+    "source_archive_blob_passed_ci": true,
+    "protected_prologue_chapters_1_2_3_unchanged_from_known_main_blobs": true,
+    "github_action_jobs": {
+      "tested_branch_commit": "aaa46d70cf23070306c9205ed146d35e9d0a6ea8",
+      "novel_os_ci": {
+        "run_id": 40836813984,
+        "conclusion": "success",
+        "week3_named_step": "success"
+      },
+      "cross_domain_authority": {
+        "run_id": 40836813795,
+        "conclusion": "success"
+      },
+      "bullpen_runtime": {
+        "run_id": 40836813834,
+        "conclusion": "success"
+      },
+      "repository_merge_gate": {
+        "run_id": 40836813681,
+        "conclusion": "success"
+      }
+    },
+    "caveat": "GitHub CI does not replace independent author/umpire/atlas/founder approvals, and later checkpoint-only commit is not claimed as passing without observed CI."
+  },
+  "independent_review": {
+    "submissions_at_last_check": 0,
+    "request_status": "PREVIOUS_WEEK_1_2_REQUEST_PRESENT; REQUEST_WEEK_3_NEXT",
+    "acceptance": "NOT_RECEIVED"
+  },
+  "holds": [
+    "HISTORICAL_OWNER_AUTHENTICATION",
+    "HISTORICAL_ATLAS_CLEARANCE",
+    "INDEPENDENT_EDITORIAL_REVIEW",
+    "INDEPENDENT_UMPIRE_ACCEPTANCE",
+    "FOUNDER_CANON_PROMOTION"
+  ],
+  "release": "NOT_MERGED_NOT_PUBLISHED",
+  "next": [
+    "Read latest PR #243 review and branch-head CI for new findings; repair actual defects if any.",
+    "Write 2023 Week 4 six independently sourced Chronicle scenes; vary institutions/civilization pressures and avoid six moral parables.",
+    "Retain Week 1–3 prose and The Fourth Address noncanonical causal candidate untouched.",
+    "Maintain POV-only 12 canonical principals; no Edrin/Edin or real-owner projection.",
+    "Independent editorial/Atlas and Founder-only release gates remain non-auto."
+  ]
+}

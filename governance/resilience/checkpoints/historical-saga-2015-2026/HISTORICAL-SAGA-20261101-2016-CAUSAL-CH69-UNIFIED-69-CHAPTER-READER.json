@@ -1,0 +1,96 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261101-2016-CAUSAL-CH69-UNIFIED-69-CHAPTER-READER",
+  "date_utc": "2026-11-01",
+  "status": "CH69_AND_READER_PERSISTED_DRAFT_CI_PENDING",
+  "project": "Commonwealth Living Novel",
+  "workflow": "BULLPEN_PERMANENT_EXECUTIVE_MANDATE",
+  "repository": "jakekaloper-hub/schemin-26",
+  "bullpen_repository": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "pr_state": "OPEN_DRAFT",
+  "prior_checkpoint_commit": "e2022c893493d183455b773a612e72878f7c7139",
+  "authority": {
+    "schemin_main_sha": "e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80",
+    "bullpen_main_sha": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "pov_rule": "living-novel/os/NOVEL_POV_CONSTITUTION_V1.md",
+    "pov_register": "canon/characters/TWELVE_CHARACTER_NARRATIVE_POV_REGISTER_V1.md",
+    "minimum_gate": "living-novel/os/templates/MINIMUM_PRE_PROSE_GATE_V1.md",
+    "command_registry": "runtime/commandRegistry.js",
+    "lifecycle": "runtime/lifecycleEngine.js",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json"
+  },
+  "issues_read": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "prs_read": {
+    "188": "CLOSED",
+    "243": "OPEN_DRAFT",
+    "252": "OPEN_DRAFT",
+    "261": "OPEN_DRAFT",
+    "264": "OPEN_DRAFT"
+  },
+  "artifacts": {
+    "chapter": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_PLACE_IN_THE_WEATHER_CHAPTER_69_NONCANON.md",
+      "git_blob": "0289d1301bbecb2ea03b85e7e63db566901ad295",
+      "words_including_handoff": 4360,
+      "narrative_words": 3860,
+      "movements": 6
+    },
+    "reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_69_NONCANON.md",
+      "git_blob": "af620c3b8a4cb38fe0027bf1c741898a37461c3e",
+      "chapters": 69,
+      "source_words_including_handoffs": 385955,
+      "prior_reader_blob": "8a53badc92492dc9f76b3b210a6f34cca626f553"
+    },
+    "tests": "living-novel/historical-chronicle/qa/test_2016_causal_full_69_reader.py",
+    "test_assertions": 20,
+    "workflow": ".github/workflows/novel-os-ci.yml",
+    "editorial_receipt": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_69_SOURCE_EDITORIAL_QA_RECEIPT.md"
+  },
+  "verified_pre_ci": {
+    "authenticated_github_writes": true,
+    "chapter_blob_persisted": true,
+    "reader_blob_persisted": true,
+    "source_wrapper_count_constructed": 69,
+    "protected_main_chapters_deliberately_modified": false
+  },
+  "ci": {
+    "exact_final_head": "PENDING_READBACK",
+    "new_suite": "PENDING",
+    "prior_suites": "PENDING",
+    "required_workflows": "PENDING"
+  },
+  "story_state": {
+    "source": "proposed fiction only; no real ESPN result",
+    "conditional_survivor_return_in_lxvii": 1,
+    "six_unlocated_remain": true,
+    "changed": "Esi offers one night of conditional shelter; Meric reclaims work bench; roof wood weakness discovered; father retains blanket.",
+    "unresolved": "cart missing collar, roof seam, debts, six missing travelers, historical owner-team authentication",
+    "structural_defect": "69 Jake-limited historical chapters, twelve-owner balance unmet"
+  },
+  "gates": {
+    "noncanon": true,
+    "merged": false,
+    "published": false,
+    "canon_promoted": false,
+    "independent_editorial_accepted": false,
+    "umpire_accepted": false,
+    "atlas_accepted": false,
+    "founder_approved": false
+  },
+  "next_run": [
+    "Read current main, PR 243 head, this checkpoint and exact-head CI; do not infer green from prior commits.",
+    "Repair any failed source-exact 69 reader assertion based on CI logs and re-run on branch.",
+    "Seek independent review of Chapters LXVII-LXIX; high-impact survivor return remains conditional.",
+    "Authenticate period-correct owner/team lineage before any non-Jake principal 2016 interior.",
+    "Avoid repeating testimony, false maps or roof/lodging disputes in next fiction. Preserve all main protected canon and Founder-only gates."
+  ]
+}

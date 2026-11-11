@@ -1,0 +1,103 @@
+{
+  "mission": "BULLPEN PERMANENT EXECUTIVE MANDATE — COMMONWEALTH NOVEL AUTONOMOUS END-TO-END PRODUCTION",
+  "date_utc": "2026-11-01",
+  "status": "CHAPTER_64_TECHNICALLY_VERIFIED_NONCANON_EDITORIAL_HOLD",
+  "repository": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "prior_checkpoint_commit": "b31b487fe53314a6515813d2be41b484dac605c6",
+  "authority": {
+    "schemin_main_sha": "40b4ff8a4ab5f15bd8e986329472b31494cc09c0",
+    "bullpen_repo": "jakekaloper-hub/bullpen",
+    "bullpen_main_sha": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "novel_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "novel_router": "living-novel/os/SESSION_CONTEXT.md",
+    "novel_causal_architecture": "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md",
+    "novel_preprose": "living-novel/os/templates/MINIMUM_PRE_PROSE_GATE_V1.md",
+    "novel_pov_registry": "canon/characters/TWELVE_CHARACTER_NARRATIVE_POV_REGISTER_V1.md",
+    "execution_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "bullpen_command_registry": "runtime/commandRegistry.js",
+    "bullpen_lifecycle": "runtime/lifecycleEngine.js",
+    "issues_open": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "pr_status": {
+      "188": "MERGED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT",
+      "261": "OPEN_DRAFT",
+      "264": "OPEN_DRAFT"
+    },
+    "historical_owner_auth": "NOT_PROVIDER_VERIFIED"
+  },
+  "literary_output": {
+    "chapter": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_HAND_BEHIND_THE_WALL_CHAPTER_64_NONCANON.md",
+    "chapter_blob_sha": "3edb40570163f6d1144c49f77408075ba2482418",
+    "chapter_whitespace_words": 5640,
+    "narrative_whitespace_words": 5112,
+    "movements": 6,
+    "title": "The Hand Behind the Wall",
+    "reader": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_56_64_NONCANON.md",
+    "reader_blob_sha": "35876dc97fac32ca33984ead06f618dedc5cbedf",
+    "reader_whitespace_words": 46971,
+    "reader_scope": "NINE SOURCE-EXACT CHAPTERS LVI–LXIV; NOT A 64-CHAPTER MONOLITH",
+    "preserved_older_reader_blob_sha": "c0555de060eae2c1eafc3b98f97683b9d65076cc",
+    "preserved_first_55_reader_blob_sha": "a21bbcbc7268e6523378097aa60d62e1c85bed35",
+    "qa": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_64_SOURCE_EDITORIAL_QA_RECEIPT.md",
+    "qa_blob_sha": "321111f8f721cfb1f5c68cca51ea01247e263281",
+    "test": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_sixty_four_reader.py",
+    "test_blob_sha": "9ac9ec92ad8aff9404978e3c382909ae86cb2fdb",
+    "regression_tests_added": 40
+  },
+  "proof": {
+    "tested_commit": "9544e7839c2ed2dddbc655f110cf54ec732221fa",
+    "source_exact_regression": "PASS",
+    "causal_reader_tests_run": 1177,
+    "causal_reader_tests_result": "PASS_1177_OF_1177",
+    "novel_os_ci": 41312535581,
+    "cross_domain_authority_ci": 41312535559,
+    "bullpen_runtime_ci": 41312535635,
+    "repository_merge_gate": 41312535564,
+    "all_four_workflows_at_tested_commit": "SUCCESS",
+    "test_log_job_id": 124865736695,
+    "compare_base": "b31b487fe53314a6515813d2be41b484dac605c6",
+    "compare_head": "9544e7839c2ed2dddbc655f110cf54ec732221fa",
+    "compare_diff": "FOUR_ADDED_FILES_ZERO_MODIFICATIONS_OR_DELETIONS_TO_PRIOR_FILES",
+    "review_request_comment_id": 6558770276,
+    "independent_editorial_review": "NO_SUBMITTED_REVIEWS_AND_NO_ACCEPTANCE",
+    "checkpoint_commit_ci": "PENDING_CHECK_AFTER_THIS_WRITE",
+    "netlify_preview": "NOT_REVIEWED_IN_THIS_RUN_NO_DEPLOY_CLAIM"
+  },
+  "causal_state": {
+    "entry": "Nella prior false drowning performance was publicly challenged and partly reimbursed; she refused later seven-bowl request. Postfire rain left trough untrusted; seven still unlocated, Hessa unreachable, yard livelihoods/injuries/wages and shared cart debts unresolved.",
+    "turn": "Nella reopens her art with a fictional door-collector comedy. Mechanical screen failure exposes figures and reactivates public criticism over earlier staged deaths. Nella makes apparatus visible and continues with audience able to leave, without collecting or requesting forgiveness.",
+    "exit": "Nella has completed an avowed fictional performance with mixed audience reception but not recovered full trust or money; borrowed Ina linen returned for washing, Meric peg spent and replacement due. No new approved cultural institution, league facts, routes or laws. Search and all other outstanding obligations persist."
+  },
+  "protections": {
+    "only_proposed_interior_pov": "CHAR-JAKE-KALOPER",
+    "other_historical_owner_slots": "UNAUTHENTICATED_NO_NEW_POV",
+    "protected_main": [
+      "living-novel/manuscript/PROLOGUE_DRAFT_V1.md",
+      "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md",
+      "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md",
+      "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md"
+    ],
+    "source_2016_archive_sha": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "independent_umpire": "NOT_ACCEPTED",
+    "authors_council": "NOT_ACCEPTED",
+    "founder_canon": "NOT_AUTHORIZED",
+    "merged": false,
+    "published": false
+  },
+  "next": [
+    "Check all four GitHub workflows at this final checkpoint commit; observed tested commit passes, final sha requires separate readback.",
+    "Obtain independent Authors Council, Historical Librarian, Character, Atlas and Umpire critique; do not mistake author-side QA/comment for approval.",
+    "Address 64 consecutive Jake-limited 2016 chapters; authenticate actual 2016 owner-account bindings before any other principal-owner interior narration, do not fabricate mappings.",
+    "Continue with Chapter LXV on a consequential, non-performance narrative conflict. Consider stronger focal external agency while adhering to Jake-only interior authorization until historical owner proof.",
+    "Keep original 55-chapter manuscript, all previous chapters and protected 2026 Prologue–III unchanged, and PR #243 draft without merger or canon/publication."
+  ]
+}

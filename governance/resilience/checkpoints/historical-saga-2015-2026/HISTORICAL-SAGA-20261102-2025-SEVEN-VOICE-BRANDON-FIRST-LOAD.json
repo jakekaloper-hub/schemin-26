@@ -1,0 +1,91 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261102-2025-SEVEN-VOICE-BRANDON-FIRST-LOAD",
+  "date_utc": "2026-11-02",
+  "mission": "BULLPEN_PERMANENT_EXECUTIVE_MANDATE_COMMONWEALTH_NOVEL",
+  "canonical_repos": [
+    "jakekaloper-hub/schemin-26",
+    "jakekaloper-hub/bullpen"
+  ],
+  "observed_main": {
+    "schemin": "e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80",
+    "bullpen": "86889a59efb0e7dcdc37eef639981944dc77ed67"
+  },
+  "pr": 243,
+  "branch": "novel/historical-epic-2015-2026",
+  "parent_head": "953ef00603d8d4ebf378a73beb882e0df0c68925",
+  "sources_read": [
+    "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md",
+    "living-novel/os/NOVEL_POV_CONSTITUTION_V1.md",
+    "canon/characters/CHARACTER_REGISTRY.yaml",
+    "canon/characters/CHAR-BRANDON-PRYOR/PACKAGE.md",
+    "living-novel/characters/07_BRANDON_PRYOR.md",
+    "living-novel/history/OWNER_LINEAGE.md",
+    "living-novel/historical-chronicle/evidence/2025_FLAIM_TEAM_SLOT_AND_PODIUM_READBACK_2026-11-01_REVIEW_ONLY.md",
+    "jakekaloper-hub/bullpen/BULLPEN.md",
+    "jakekaloper-hub/bullpen/docs/COMMAND_SYSTEM_V2.md"
+  ],
+  "scanned_issues": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "scanned_prs": [
+    188,
+    243,
+    252,
+    261
+  ],
+  "selection": "Seventh canonical-owner POV Brandon / Chili Outlaw; a partial first fuel delivery causally continues Ben/David kitchen story without extending Jake-only 2016 manuscript.",
+  "outputs": {
+    "chapter": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_FIRST_LOAD_BRANDON_2025_NONCANON.md",
+    "chapter_blob": "2cce2e20c426a1e1820d738cebf89c7d815e8458",
+    "chapter_words_including_metadata": 5448,
+    "reader": "living-novel/historical-chronicle/seasons/2025/causal-novel/READING_COPY_2025_SEVEN_VOICES_NONCANON.md",
+    "reader_blob": "301a302241e7e54cf05ba1f8d154bfff1dc18007",
+    "source_exact_parts": 7,
+    "source_words_including_metadata": 30501,
+    "tests": "living-novel/historical-chronicle/qa/test_2025_seven_voices_reader.py",
+    "test_count": 29,
+    "workflow": ".github/workflows/novel-os-ci.yml",
+    "qa": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_FIRST_LOAD_BRANDON_EDITORIAL_SOURCE_QA_2026-11-02.md"
+  },
+  "source_truth": {
+    "league_id": 1417621,
+    "season": 2025,
+    "slot": 7,
+    "name": "The Chili Cheesers",
+    "record": "6-8",
+    "finalRank": 7,
+    "postseason": "eliminated",
+    "historical_manager_id": "UNKNOWN",
+    "brandon_2025_identity": "PROVISIONAL_FICTIONAL_ASSOCIATION",
+    "world_actions": "UNAPPROVED_FICTION"
+  },
+  "proof": {
+    "six_original_wrappers_exact": true,
+    "brandon_source_readback": true,
+    "reader_assembly_created_blob_sha": "301a302241e7e54cf05ba1f8d154bfff1dc18007",
+    "ci_exact_final_commit": "PENDING",
+    "independent_pr_reviews": 0
+  },
+  "holds": [
+    "Historical manager ID unverified",
+    "Independent Authors Council/Character/Atlas/Umpire review absent",
+    "Founder canon/publication approval withheld",
+    "2016 72 Jake-only chapter defect persists",
+    "Partial fuel acceptance payment/legal effect not period-authenticated"
+  ],
+  "no_merge": true,
+  "no_canon_promotion": true,
+  "no_publication": true,
+  "next": [
+    "Read exact new PR head and CI statuses/logs; repair failures before reporting technical PASS",
+    "Request independent character/literary/Atlas/Umpire examination without claiming acceptance",
+    "Reconcile historical manager account if available; otherwise keep UNKNOWN",
+    "Advance interlocking owner POVs, not unsourced owner biography or another automatic Jake-only 2016 chapter",
+    "Preserve all source-exact prior readers and protected Prologue/Chapters I–III"
+  ]
+}

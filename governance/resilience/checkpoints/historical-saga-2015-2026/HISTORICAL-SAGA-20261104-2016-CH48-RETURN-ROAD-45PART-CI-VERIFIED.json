@@ -1,0 +1,96 @@
+{
+  "version": "1.0",
+  "date": "2026-11-04",
+  "mission": "Commonwealth Novel Production / standing Founder-authorized Bullpen mandate",
+  "status": "NONCANON_INDEPENDENT_EDITORIAL_HOLD",
+  "repo": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "base_main_at_intake": "e0858b8bc27db2bb095e0e03483b5c98e5809052",
+  "bullpen_main_at_intake": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+  "verified_production_sha": "bb9ffd1af77c907a9c8803ca2bf56f299e9ef703",
+  "first_workflow_failure": {
+    "sha": "f7714b908d1f415a4e73e003e2ab5646ff801ecf",
+    "cause": "builder regex overescaped numeric capture; test found before merge",
+    "remedy": "corrected manifest parser and reran CI, without prose change"
+  },
+  "literary": {
+    "chapter": "The Morning of Small Loaves — The Return Road",
+    "chapter_number": 48,
+    "original_2016_candidate_sha": "7641b297fa5ff72f79f67edaf3b5a8428c21bed7",
+    "scene_sha": "3cd28ff1af7b513ee9580a3a3a223198c66f67a1",
+    "revised_chapter_sha": "c41f2faee9f3889ee0f7b88e9aa29ec56e31ad34",
+    "new_original_scene_words": 2679,
+    "revised_chapter_source_words": 8518,
+    "original_six_movement_bodies_preserved": true,
+    "interior_pov": "proposed fictional Jake only; historical owner binding not provider-authenticated",
+    "fiction_not_historical_fact": true
+  },
+  "manuscript": {
+    "parts": 45,
+    "cumulative_source_words_including_metadata": 347780,
+    "preceding_44_embedded_sections_preserved": true,
+    "builder": "living-novel/historical-chronicle/qa/build_2016_causal_45_part_return_road_reader.py",
+    "artifact_id": 13321454785,
+    "artifact_name": "commonwealth-2016-45part-return-road-developmental-reader-noncanon",
+    "artifact_workflow_run_id": 41831430606,
+    "artifact_size_bytes": 704816,
+    "artifact_expires_at": "2026-11-11T12:41:55Z",
+    "full_reader_committed_to_git": false,
+    "regenerable_from_source": true
+  },
+  "tests": {
+    "suite": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_forty_eight_return_road_v2_reader.py",
+    "dedicated_tests_pass": 22,
+    "historical_regression_tests_pass": 1760,
+    "protected_prologue_and_chapters_I_III_locked_by_hash": true,
+    "historical_archive_locked_by_hash": true,
+    "final_test_log": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41831430606"
+  },
+  "workflows": [
+    {
+      "name": "Novel OS CI",
+      "run_id": 41831441526,
+      "head_sha": "bb9ffd1af77c907a9c8803ca2bf56f299e9ef703",
+      "conclusion": "success"
+    },
+    {
+      "name": "Cross-Domain Authority CI",
+      "run_id": 41831441373,
+      "head_sha": "bb9ffd1af77c907a9c8803ca2bf56f299e9ef703",
+      "conclusion": "success"
+    },
+    {
+      "name": "Bullpen Runtime CI",
+      "run_id": 41831441562,
+      "head_sha": "bb9ffd1af77c907a9c8803ca2bf56f299e9ef703",
+      "conclusion": "success"
+    },
+    {
+      "name": "Repository Merge Gate",
+      "run_id": 41831441352,
+      "head_sha": "bb9ffd1af77c907a9c8803ca2bf56f299e9ef703",
+      "conclusion": "success"
+    }
+  ],
+  "independent_reviews": {
+    "submitted_pr_reviews": 0,
+    "authors_council": "NOT_RECEIVED",
+    "historian": "NOT_RECEIVED",
+    "period_atlas": "NOT_RECEIVED",
+    "character_canon": "NOT_RECEIVED",
+    "umpire": "NOT_RECEIVED",
+    "founder_release": "NOT_RECEIVED",
+    "requested_pr_comment_id": 6630894887,
+    "requested_bullpen_issue_117_comment_id": 6630895769
+  },
+  "release": {
+    "noncanon": true,
+    "draft_pr": true,
+    "merged": false,
+    "canon_promoted": false,
+    "published": false
+  },
+  "next": "At next continuation inspect current main/PR head and reviews; continue Chapter XLIX The Shore That Kept No Footprints, source-grounded Hessa red-thread cloth and nonverified river/ferry leads; preserve 12 owner-only POV and no invented 2016 ESPN results; assemble 46-part reader, tests and run exact-commit CI. No Founder/Umpire promotion without acceptance.",
+  "checkpoint_note": "Verification applies to specified production SHA only; this later receipt-only commit cannot be called separately tested until Actions finish."
+}

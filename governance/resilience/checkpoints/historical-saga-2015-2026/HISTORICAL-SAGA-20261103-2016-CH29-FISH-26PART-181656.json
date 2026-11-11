@@ -1,0 +1,130 @@
+{
+  "schema": "commonwealth_historical_saga_run_checkpoint_v2",
+  "date": "2026-11-03",
+  "status": "NONCANON_INDEPENDENT_EDITORIAL_HOLD",
+  "repository": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "resumes_from": "6b054f05b030b0c8ae867ea42cd00c1cbef2fd58",
+  "main_at_intake": "e0858b8bc27db2bb095e0e03483b5c98e5809052",
+  "bullpen_main_at_intake": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+  "authority": {
+    "whole_book_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "matrix_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+    "bullpen_command_registry": "runtime/commandRegistry.js",
+    "bullpen_command_blob": "f1aea183040dd169264c466654a4fe3b7c7b867e",
+    "bullpen_lifecycle": "runtime/lifecycleEngine.js",
+    "bullpen_lifecycle_blob": "710caca4e4a01c934bdc53f22229acced48a2d78",
+    "execution_tasks": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "execution_registry_blob": "5e72e48f3c305e6def1051e0b18883a7be6b6af0",
+    "active_issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "bullpen_issue": 117,
+    "active_prs": {
+      "188": "merged",
+      "243": "draft_open",
+      "252": "draft_open",
+      "261": "draft_open",
+      "264": "draft_open"
+    }
+  },
+  "production": {
+    "prior_chapter": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_PLAY_WITH_NO_END_CHAPTER_29_NONCANON.md",
+    "prior_chapter_blob": "815329d6d69dd875929f26e0a4c7974cd77415dd",
+    "new_chapter": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_PLAY_WITH_NO_END_THE_FISH_DOES_NOT_GET_ANOTHER_MOUTH_CH29_V2_NONCANON.md",
+    "new_chapter_blob": "d686d653a29d69a7a1c785f68ff848014cdcebef",
+    "added_movement": "I. The fish does not get another mouth",
+    "added_movement_words": 1902,
+    "chapter_source_words": 7806,
+    "reader": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_2016_CAUSAL_CH01_29_TWENTY_SIX_PARTS_FISH_TO_SHADOW_V2_NONCANON.md",
+    "reader_blob": "2e363c740322461252fdc58a25041754266a04cf",
+    "previous_reader_blob": "fa4002fb2ad9a4e8de310711ea93c02d6e7ddc7c",
+    "previous_source_exact_components": 25,
+    "total_source_exact_components": 26,
+    "original_chapter_coverage": "I-XXIX",
+    "source_words_including_metadata": 181656,
+    "narrative_principal_interior": "proposed fictional Jake only; unverified historical 2016 owner binding",
+    "new_fiction_boundary": "Iri fish and later indoor shadow theater explicitly distinct; physical setting and events fictional; no ESPN fact added",
+    "remaining_loops": [
+      "kiln passage still closed",
+      "Pell three-day hauling contingent",
+      "Ina/Tavi sample unsold",
+      "Eren cart mark half-paid incomplete",
+      "Jake four paid stoneworks hours only",
+      "letter to Esi unconfirmed",
+      "shelter payments and stolen ledger remain open",
+      "Mara and Senn status unmodified"
+    ]
+  },
+  "technical": {
+    "new_tests": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_twenty_nine_fish_to_shadow_v2_reader.py",
+    "new_test_definitions": 17,
+    "test_source_blob": "589ab21671293b76d14e04810b995d15b7b262d0",
+    "ci_workflow": ".github/workflows/novel-os-ci.yml",
+    "workflow_blob": "eb8d5245507ed92ce30f6df239900cd5718f99f8",
+    "ci_enabled_commit": "8eae3c953120ee69bd2b5a20aaefb7c709f14c88",
+    "tests_status": "PASS: 17/17 tests individually observed in GitHub Actions job logs for Novel OS CI at checkpoint creation commit dd27e80b5fc24d5bfcd3f40e5ee2f647bf74db14.",
+    "protected_2026_prologue_chapters_1_3": "all four main blob SHAs equal draft branch",
+    "historical_archive": "2016 G01 matchups blob matches main 6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "verified_commit": "dd27e80b5fc24d5bfcd3f40e5ee2f647bf74db14",
+    "independent_CI_receipt": {
+      "Novel OS CI": {
+        "status": "PASS",
+        "run_id": 41686427725,
+        "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41686427725"
+      },
+      "Cross-Domain Authority CI": {
+        "status": "PASS",
+        "run_id": 41686427526,
+        "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41686427526"
+      },
+      "Bullpen Runtime CI": {
+        "status": "PASS",
+        "run_id": 41686427537,
+        "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41686427537"
+      },
+      "Repository Merge Gate": {
+        "status": "PASS",
+        "run_id": 41686427568,
+        "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41686427568"
+      },
+      "test_file_17": {
+        "status": "PASS",
+        "observed_in_run": 41686240367,
+        "job_id": 126092628679,
+        "test_count": 17
+      }
+    },
+    "workflow_results_scope": "These workflow conclusions are linked to verified commit dd27e80b, and do not imply independent editorial/Umpire acceptance or canon release; later checkpoint-only CI is separate."
+  },
+  "editorial": {
+    "self_critique": "living-novel/historical-chronicle/seasons/2016/causal-novel/EDITORIAL_QA_CH29_FISH_TO_SHADOW_V2_2026-11-03_NONCANON.md",
+    "self_critique_commit": "1f77eb737d7cf45b78e7018cca3a123c7cd818fe",
+    "independent_authors": "NOT RECEIVED",
+    "librarian": "NOT RECEIVED",
+    "character": "NOT CLEARED",
+    "atlas": "NOT CLEARED",
+    "umpire": "NOT RECEIVED",
+    "founder": "NOT AUTHORIZED",
+    "risks": [
+      "theater repetition",
+      "exposition versus lived choices",
+      "chapter length",
+      "physical stage geometry",
+      "material plausibility",
+      "unverified owner provenance"
+    ]
+  },
+  "next": {
+    "chapter": "XXX — The Fourth Note at the River",
+    "source": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_FOURTH_NOTE_AT_THE_RIVER_CHAPTER_30_NONCANON.md",
+    "source_blob": "1b65f32ca5b41b52e8d362b8cfea95b4e2a03b8d",
+    "focus": "Use already written Chapter XXX rather than restart; reconcile pipe reed disappearance and Chapter XXIX shadow ending; add substantial new fiction only where new cause/consequence warranted; assemble 27-part source-exact developmental copy; do not invent manager identities or league history."
+  },
+  "publication": "NO MERGE / NO PUBLICATION / NO CANON PROMOTION"
+}

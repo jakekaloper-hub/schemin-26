@@ -1,0 +1,282 @@
+{
+  "schema_version": "historical-saga-causal-reading-v1",
+  "title": "The Keeper of the Unlit Lamps",
+  "season": 2021,
+  "version": "V1",
+  "status": "DRAFT_NONCANON_REVIEW_HOLD",
+  "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2021-lamps/THE_KEEPER_OF_THE_UNLIT_LAMPS_CAUSAL_READING_V1_NONCANON.md",
+  "manuscript_git_blob": "78e3594bac59c1197c2fe4d6cb6cbe9bc0647d3a",
+  "sports_evidence_path": "living-novel/production/full-rewrite-2026/evidence/G01_2021_FULL_WEEKLY_MATCHUPS.json",
+  "sports_evidence_git_blob": "ec1f12544fd15b4e8ada0e2652a47b55ef69cab5",
+  "championship_source_path": "living-novel/production/full-rewrite-2026/G04_HISTORICAL_SEASON_STORY_ROOM_PACKETS.json",
+  "championship_source_git_blob": "79190778ebac9859fb3d560e824f014c793010ae",
+  "source_authority_matrix_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+  "owner_lineage_git_blob": "be68b2b2c836592ed872e32b6216af238a0cd64c",
+  "primary_pov_ids": [
+    "CHAR-JAKE-KALOPER"
+  ],
+  "owner_association": "USER_ATTESTED_CONNECTED_ACCOUNT_SLOT_1_LITERARY_CANDIDATE_NOT_AUTHENTICATED_HUMAN_OWNER",
+  "other_historical_team_owner_binding": "UNKNOWN_DO_NOT_PROJECT_2026_OWNER_IDS",
+  "historical_venue_status": "PROPOSED_UNAPPROVED",
+  "historical_transaction_status": "NO_REAL_LEAGUE_TRANSACTIONS_CLAIMED",
+  "scoring_periods_known": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "foreground_source_weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "background_unforegrounded_weeks": [
+    11,
+    12
+  ],
+  "scene_counts": {
+    "connected_movements": 4,
+    "foreground_result_anchors": 15
+  },
+  "championship": {
+    "season": 2021,
+    "final_scoring_week": 17,
+    "winner_team_id": 5,
+    "winner_team_name": "Dewars White Label",
+    "winner_points": 178.06,
+    "runnerup_team_id": 8,
+    "runnerup_team_name": "The Third Coming",
+    "runnerup_points": 96.58
+  },
+  "scenes": [
+    {
+      "scene_id": "2021-LAMPS-01",
+      "heading": "A Lamp Cannot Promise the Road",
+      "pov_character_id": "CHAR-JAKE-KALOPER",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "story_time_cutoff": "after certification of Week 3",
+      "foreground_source_weeks": [
+        1,
+        2,
+        3
+      ],
+      "source_score_anchors": [
+        {
+          "week": 1,
+          "team_1_points": "119.90",
+          "opponent_slot": 4,
+          "opponent_points": "103.68",
+          "outcome": "WIN",
+          "tier": "NONE"
+        },
+        {
+          "week": 2,
+          "team_1_points": "120.06",
+          "opponent_slot": 6,
+          "opponent_points": "119.12",
+          "outcome": "WIN",
+          "tier": "NONE"
+        },
+        {
+          "week": 3,
+          "team_1_points": "128.12",
+          "opponent_slot": 11,
+          "opponent_points": "114.08",
+          "outcome": "WIN",
+          "tier": "NONE"
+        }
+      ],
+      "fictional_consequence": "Jake's centralized plan meets Mica's local accountability.",
+      "historical_venue_status": "PROPOSED_UNAPPROVED",
+      "passage_words": 987
+    },
+    {
+      "scene_id": "2021-LAMPS-02",
+      "heading": "The Messenger Who Did Not Wait",
+      "pov_character_id": "CHAR-JAKE-KALOPER",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "story_time_cutoff": "after certification of Week 7",
+      "foreground_source_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "source_score_anchors": [
+        {
+          "week": 4,
+          "team_1_points": "147.82",
+          "opponent_slot": 3,
+          "opponent_points": "155.62",
+          "outcome": "LOSS",
+          "tier": "NONE"
+        },
+        {
+          "week": 5,
+          "team_1_points": "128.60",
+          "opponent_slot": 10,
+          "opponent_points": "166.53",
+          "outcome": "LOSS",
+          "tier": "NONE"
+        },
+        {
+          "week": 6,
+          "team_1_points": "160.02",
+          "opponent_slot": 7,
+          "opponent_points": "179.90",
+          "outcome": "LOSS",
+          "tier": "NONE"
+        },
+        {
+          "week": 7,
+          "team_1_points": "108.84",
+          "opponent_slot": 5,
+          "opponent_points": "152.91",
+          "outcome": "LOSS",
+          "tier": "NONE"
+        }
+      ],
+      "fictional_consequence": "A copied schedule delays aid; the community rejects exclusive signaling authority.",
+      "historical_venue_status": "PROPOSED_UNAPPROVED",
+      "passage_words": 1005
+    },
+    {
+      "scene_id": "2021-LAMPS-03",
+      "heading": "The Distance of Six Hundredths",
+      "pov_character_id": "CHAR-JAKE-KALOPER",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "story_time_cutoff": "after certification of Week 14",
+      "foreground_source_weeks": [
+        8,
+        9,
+        10,
+        13,
+        14
+      ],
+      "source_score_anchors": [
+        {
+          "week": 8,
+          "team_1_points": "152.81",
+          "opponent_slot": 2,
+          "opponent_points": "141.98",
+          "outcome": "WIN",
+          "tier": "NONE"
+        },
+        {
+          "week": 9,
+          "team_1_points": "95.51",
+          "opponent_slot": 9,
+          "opponent_points": "92.60",
+          "outcome": "WIN",
+          "tier": "NONE"
+        },
+        {
+          "week": 10,
+          "team_1_points": "127.34",
+          "opponent_slot": 8,
+          "opponent_points": "113.24",
+          "outcome": "WIN",
+          "tier": "NONE"
+        },
+        {
+          "week": 13,
+          "team_1_points": "130.15",
+          "opponent_slot": 4,
+          "opponent_points": "158.18",
+          "outcome": "LOSS",
+          "tier": "NONE"
+        },
+        {
+          "week": 14,
+          "team_1_points": "145.42",
+          "opponent_slot": 2,
+          "opponent_points": "145.48",
+          "outcome": "LOSS",
+          "tier": "NONE"
+        }
+      ],
+      "fictional_consequence": "A six-hundredths defeat tests Jake's refusal to trade somebody else's safety.",
+      "historical_venue_status": "PROPOSED_UNAPPROVED",
+      "passage_words": 1017
+    },
+    {
+      "scene_id": "2021-LAMPS-04",
+      "heading": "The Place Left for Darkness",
+      "pov_character_id": "CHAR-JAKE-KALOPER",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "story_time_cutoff": "after certification of Week 17 championship",
+      "foreground_source_weeks": [
+        15,
+        16,
+        17
+      ],
+      "source_score_anchors": [
+        {
+          "week": 15,
+          "team_1_points": "82.20",
+          "opponent_slot": 4,
+          "opponent_points": "90.64",
+          "outcome": "LOSS",
+          "tier": "WINNERS_BRACKET"
+        },
+        {
+          "week": 16,
+          "team_1_points": "171.66",
+          "opponent_slot": 9,
+          "opponent_points": "95.78",
+          "outcome": "WIN",
+          "tier": "WINNERS_CONSOLATION_LADDER"
+        },
+        {
+          "week": 17,
+          "team_1_points": "149.95",
+          "opponent_slot": 10,
+          "opponent_points": "113.31",
+          "outcome": "WIN",
+          "tier": "WINNERS_CONSOLATION_LADDER"
+        }
+      ],
+      "fictional_consequence": "A bracket exit remains an exit; the lamp keepers choose an intentionally incomplete network.",
+      "historical_venue_status": "PROPOSED_UNAPPROVED",
+      "passage_words": 863
+    }
+  ],
+  "notes": [
+    "Week 15 is Team 1 winners-bracket elimination (B.A.B.B. LLC 90.64–82.20), not a championship.",
+    "Weeks 16 and 17 are winners' consolation-ladder victories, not renewed winners-bracket progress.",
+    "Week 17 championship belongs to Team 5 Dewars White Label over Team 8 The Third Coming.",
+    "No human-owner binding inferred from historical team slots. Current Jake POV is a noncanonical user-attested experiment.",
+    "Lamp workshop, weather, accident, labor, roads and bargains are fictional world proposals, not authenticated historical events."
+  ],
+  "full_history_claim": false,
+  "independent_editorial_acceptance": false,
+  "independent_umpire_acceptance": false,
+  "founder_canon_promotion": false,
+  "canonical_merge": false,
+  "publication_authorized": false
+}

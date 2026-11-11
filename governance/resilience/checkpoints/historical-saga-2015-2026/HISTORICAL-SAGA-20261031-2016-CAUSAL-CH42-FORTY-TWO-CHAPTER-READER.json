@@ -1,0 +1,99 @@
+{
+  "schema": "commonwealth-historical-saga-production-checkpoint-v1",
+  "status": "NONCANON_INDEPENDENT_EDITORIAL_HOLD",
+  "date_utc": "2026-10-31",
+  "mission": "BULLPEN PERMANENT EXECUTIVE MANDATE — COMMONWEALTH NOVEL AUTONOMOUS END-TO-END PRODUCTION",
+  "repository": "jakekaloper-hub/schemin-26",
+  "organizational_authority": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr_number": 243,
+  "resumed_from_head": "e48020e53c5afa30bd5290e248e56006158e3dc4",
+  "resumed_from_checkpoint": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261031-2016-CAUSAL-CH41-FORTY-ONE-CHAPTER-READER.json",
+  "authority_sources": {
+    "schemin_main_at_intake": "40b4ff8a4ab5f15bd8e986329472b31494cc09c0",
+    "bullpen_main_at_intake": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "novel_source_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "novel_context": "living-novel/os/SESSION_CONTEXT.md; living-novel/os/TASK_CONTEXT_MATRIX_V1.json",
+    "task": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "pov": "canon/characters/TWELVE_CHARACTER_NARRATIVE_POV_REGISTER_V1.md",
+    "bullpen": "docs/COMMAND_SYSTEM_V2.md; runtime/lifecycleEngine.js",
+    "historical_evidence": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+    "historical_evidence_blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518"
+  },
+  "issues_reconciled": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "prs_reconciled": {
+    "188": "CLOSED_STATUS_VERIFIED_MERGE_NOT_RECHECKED",
+    "243": "OPEN_DRAFT",
+    "252": "OPEN_DRAFT",
+    "261": "OPEN_DRAFT"
+  },
+  "output": {
+    "chapter": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_STAGE_BENEATH_THE_SHORT_AWNING_CHAPTER_42_NONCANON.md",
+    "chapter_blob": "6294ffee1d478a493091a532451cdbb9f867f917",
+    "chapter_words_including_notes": 8180,
+    "movements": 6,
+    "reader": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_42_NONCANON.md",
+    "reader_blob": "92b280d66d5be876411bfa35f9f6b45e319d5519",
+    "reader_words_including_notes": 245993,
+    "source_components": 42,
+    "previous_reader_blob": "14ce93a324f62cf00307625c486bdbc17e4dd5f4",
+    "tests": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_forty_two_reader.py",
+    "qa": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_42_SOURCE_EDITORIAL_QA_RECEIPT.md"
+  },
+  "checks": {
+    "author_side_reader_assembly": "PASS_SOURCE_EXACT_41_PRIOR_42_TOTAL",
+    "local_python_tests": "PASS_972_OF_972_HISTORICAL_CHRONICLE_QA",
+    "new_chapter_tests": "PASS_21_OF_21_AFTER_TWO_TEST_ONLY_ASSERTION_FIXES",
+    "github_workflows": "PENDING_EXACT_HEAD_REVIEW",
+    "independent_review": "NOT_ACCEPTED"
+  },
+  "continuity": {
+    "entering": "Sela and two children at uncertified track camp; six Hessa travelers have a private twenty-one-night upstairs room with partly disassembled cart; Ina wet dye closed and two dry orders unfinished; apprentice departed with his tools.",
+    "turn": "Eren shows imagined road/fire pictures in Fara courtyard; Hessa and Sela challenge their use as testimony; children Nella and Tam stage comic donkey sovereignty; newly named independent ex-apprentice Meric accepts one paid frame commission, and Eren chooses not to show red sky again.",
+    "exit": "Sela and children remain outdoor; Hessa six retain bounded room; Meric stays separate from Ina with only proposed follow-on work; Ina two dry orders and wet dye still open; Fara awning stays shortened; no safety/canon claims.",
+    "open_loops": [
+      "Sela and children still exposed in unverified outdoor camp; no safety certificate",
+      "Meric independent livelihood uncertain, second workday only prospective",
+      "Ina two dry orders and wet dye suspended; failed trough and drainage impacts",
+      "Original six in twenty-one-night upstairs room, donkey tended and cart side detached",
+      "Eren red sky withheld and paintings remain fictional, no certified event",
+      "Earlier Sela name may collide with net-mender named in chapter XV; independent literary continuity review needed",
+      "Eight departed travelers and Hessa sister location unknown",
+      "Distant ash/fire origin and post-runoff water safety unverified",
+      "Mael/Pell missing second horse/freight/carrier liability unresolved",
+      "Fara inherited awning permanently shortened",
+      "Jake shelter debt, Esi letter receipt and escaped bird unresolved",
+      "Kiln passage still closed",
+      "2016 owner slot authentication, period Character Canon/Atlas and twelve-owner polyphony blocked"
+    ]
+  },
+  "protected_main": [
+    "living-novel/manuscript/PROLOGUE_DRAFT_V1.md",
+    "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md",
+    "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md",
+    "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md"
+  ],
+  "gates": {
+    "historical_owner_auth": "NOT_ACCEPTED",
+    "period_atlas_character": "NOT_ACCEPTED",
+    "authors_council": "NOT_ACCEPTED",
+    "independent_umpire": "NOT_ACCEPTED",
+    "founder_canon": "NOT_AUTHORIZED",
+    "merged": false,
+    "published": false
+  },
+  "next": [
+    "Observe GitHub Actions at exact final pushed commit and record authenticated CI receipt; repair actual failures only.",
+    "Obtain independent Librarian, Character Canon/Atlas, Authors Council and Umpire review; a request is not acceptance.",
+    "Advance Chapter XLIII with a consequence that reaches beyond another temporary demonstration; address Jake single-POV repetition without creating non-Twelve interior POV.",
+    "Reconcile the two proposed fictional Sela references across earlier 2016 chapters before canon acceptance.",
+    "Preserve historical Chronicle six-matchup evidence work independently of causal novel and do not invent scores or owner bindings.",
+    "Preserve protected main manuscript, current 12-owner POV register and Founder-only canon/publish gates."
+  ]
+}

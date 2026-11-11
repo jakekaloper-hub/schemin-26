@@ -1,0 +1,227 @@
+{
+  "schema_version": "2023-postseason-prose-continuity-v1",
+  "year": 2023,
+  "scope": "POSTSEASON_W15_W17_AND_EPILOGUE_ONLY_DOES_NOT_SUPERSEDE_REGULAR_SEASON_W14_SNAPSHOT",
+  "parent_regular_continuity": "living-novel/historical-chronicle/seasons/2023/CONTINUITY.json",
+  "archival_source": {
+    "path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+    "git_blob_sha": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
+    "upstream_raw_espn_sha": "UNKNOWN",
+    "human_owners": "UNVERIFIED",
+    "platform": "Flaim historical ESPN 1417621 extract",
+    "full_2023_scoring_weeks": 17,
+    "full_2023_scoring_rows": 105,
+    "regular_season_decided_pairings": 84,
+    "postseason_decided_pairings": 15,
+    "postseason_undecided_single_sided_rows": 6
+  },
+  "postseason": [
+    {
+      "week": 15,
+      "source_row_count": 7,
+      "decided_pairings": [
+        {
+          "tier": "WINNERS_BRACKET",
+          "home_slot": 5,
+          "away_slot": 11,
+          "winner_slot": 11
+        },
+        {
+          "tier": "WINNERS_BRACKET",
+          "home_slot": 10,
+          "away_slot": 12,
+          "winner_slot": 12
+        },
+        {
+          "tier": "WINNERS_BRACKET",
+          "home_slot": 2,
+          "away_slot": 4,
+          "winner_slot": 2
+        },
+        {
+          "tier": "LOSERS_CONSOLATION_LADDER",
+          "home_slot": 7,
+          "away_slot": 3,
+          "winner_slot": 3
+        },
+        {
+          "tier": "LOSERS_CONSOLATION_LADDER",
+          "home_slot": 1,
+          "away_slot": 8,
+          "winner_slot": 1
+        }
+      ],
+      "unpaired_scoring_rows": [
+        {
+          "tier": "WINNERS_BRACKET",
+          "slot": 9,
+          "banner": "El Niño",
+          "score": 138.32,
+          "winner": "UNDECIDED"
+        },
+        {
+          "tier": "LOSERS_CONSOLATION_LADDER",
+          "slot": 6,
+          "banner": "Two Dreaded Snake",
+          "score": 88.04,
+          "winner": "UNDECIDED"
+        }
+      ],
+      "manuscript_path": "living-novel/historical-chronicle/seasons/2023/weeks/W15.md"
+    },
+    {
+      "week": 16,
+      "source_row_count": 7,
+      "decided_pairings": [
+        {
+          "tier": "WINNERS_BRACKET",
+          "home_slot": 9,
+          "away_slot": 11,
+          "winner_slot": 11
+        },
+        {
+          "tier": "WINNERS_BRACKET",
+          "home_slot": 2,
+          "away_slot": 12,
+          "winner_slot": 12
+        },
+        {
+          "tier": "WINNERS_CONSOLATION_LADDER",
+          "home_slot": 10,
+          "away_slot": 5,
+          "winner_slot": 5
+        },
+        {
+          "tier": "LOSERS_CONSOLATION_LADDER",
+          "home_slot": 3,
+          "away_slot": 1,
+          "winner_slot": 3
+        },
+        {
+          "tier": "LOSERS_CONSOLATION_LADDER",
+          "home_slot": 7,
+          "away_slot": 6,
+          "winner_slot": 6
+        }
+      ],
+      "unpaired_scoring_rows": [
+        {
+          "tier": "WINNERS_CONSOLATION_LADDER",
+          "slot": 4,
+          "banner": "The LLC",
+          "score": 140.52,
+          "winner": "UNDECIDED"
+        },
+        {
+          "tier": "LOSERS_CONSOLATION_LADDER",
+          "slot": 8,
+          "banner": "Benedict Arnold",
+          "score": 95.3,
+          "winner": "UNDECIDED"
+        }
+      ],
+      "manuscript_path": "living-novel/historical-chronicle/seasons/2023/weeks/W16.md"
+    },
+    {
+      "week": 17,
+      "source_row_count": 7,
+      "decided_pairings": [
+        {
+          "tier": "WINNERS_BRACKET",
+          "home_slot": 11,
+          "away_slot": 12,
+          "winner_slot": 12
+        },
+        {
+          "tier": "WINNERS_CONSOLATION_LADDER",
+          "home_slot": 9,
+          "away_slot": 2,
+          "winner_slot": 2
+        },
+        {
+          "tier": "WINNERS_CONSOLATION_LADDER",
+          "home_slot": 5,
+          "away_slot": 4,
+          "winner_slot": 5
+        },
+        {
+          "tier": "LOSERS_CONSOLATION_LADDER",
+          "home_slot": 3,
+          "away_slot": 6,
+          "winner_slot": 6
+        },
+        {
+          "tier": "LOSERS_CONSOLATION_LADDER",
+          "home_slot": 1,
+          "away_slot": 8,
+          "winner_slot": 1
+        }
+      ],
+      "unpaired_scoring_rows": [
+        {
+          "tier": "WINNERS_CONSOLATION_LADDER",
+          "slot": 10,
+          "banner": "Mixon it up for a week",
+          "score": 99.66,
+          "winner": "UNDECIDED"
+        },
+        {
+          "tier": "LOSERS_CONSOLATION_LADDER",
+          "slot": 7,
+          "banner": "The Blew Waffle's",
+          "score": 150.19,
+          "winner": "UNDECIDED"
+        }
+      ],
+      "manuscript_path": "living-novel/historical-chronicle/seasons/2023/weeks/W17.md"
+    }
+  ],
+  "championship": {
+    "week": 17,
+    "winner_banner": "Eggs Benedict",
+    "winner_slot": 12,
+    "score": 192.88,
+    "runner_up_banner": "Arm Chair GM",
+    "runner_up_slot": 11,
+    "score_runner_up": 140.76,
+    "independent_crosscheck": [
+      "living-novel/history/PLAYOFF_ARCHAEOLOGY.md",
+      "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json"
+    ]
+  },
+  "literary": {
+    "principal_pov_candidate_id": "CHAR-JAKE-KALOPER",
+    "principal_pov_binding": "USER_ATTESTED_SLOT_1_UNVERIFIED",
+    "other_owner_povs": [],
+    "postseason_prose_paths": [
+      "living-novel/historical-chronicle/seasons/2023/weeks/W15.md",
+      "living-novel/historical-chronicle/seasons/2023/weeks/W16.md",
+      "living-novel/historical-chronicle/seasons/2023/weeks/W17.md"
+    ],
+    "epilogue_path": "living-novel/historical-chronicle/seasons/2023/EPILOGUE.md",
+    "assembled_reading_path": "living-novel/historical-chronicle/seasons/2023/READING_COPY_FULL_SEASON_NONCANON.md",
+    "parts": 19,
+    "source_component_words_including_metadata": 86429,
+    "postseason_epilogue_words_including_metadata": 13272,
+    "status": "DRAFT_NONCANON_HISTORICAL_ATLAS_EDITORIAL_HOLD"
+  },
+  "continuity_invariants": [
+    "ferry lost, grounded punt, river crossing not re-opened",
+    "creditor concession contested, wage obligations unresolved",
+    "ward medicine/food shortages persist",
+    "limited non-passenger near-bank cart repair and testing, not generalized safe transport",
+    "no historical team owner authentication based on 2026 slot",
+    "no Edrin/Edin POV or anthropomorphic El Niño",
+    "no nonexistent playoff opponents or results invented for UNDECIDED rows",
+    "home/away fields are not geographic locations"
+  ],
+  "release_gates": {
+    "historical_owner_bindings": "UNVERIFIED",
+    "Atlas": "UNAPPROVED",
+    "independent_editor": "NOT_OBSERVED",
+    "independent_Umpire": "NOT_OBTAINED",
+    "Founder_canon_promotion": "NOT_APPROVED",
+    "merge": "HOLD",
+    "publication": "HOLD"
+  }
+}

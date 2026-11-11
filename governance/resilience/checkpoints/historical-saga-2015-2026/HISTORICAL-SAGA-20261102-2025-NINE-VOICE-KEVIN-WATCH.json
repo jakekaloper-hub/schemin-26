@@ -1,0 +1,124 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261102-2025-NINE-VOICE-KEVIN-WATCH",
+  "date_utc": "2026-11-02",
+  "mission": "BULLPEN_PERMANENT_EXECUTIVE_MANDATE_COMMONWEALTH_NOVEL",
+  "canonical_repos": [
+    "jakekaloper-hub/schemin-26",
+    "jakekaloper-hub/bullpen"
+  ],
+  "observed_main": {
+    "schemin": "e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80",
+    "bullpen": "86889a59efb0e7dcdc37eef639981944dc77ed67"
+  },
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "previous_checkpoint": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261102-2025-EIGHT-VOICE-BOBBY-WETLAND.json",
+  "previous_head": "b9a8c9bdac734a1be07329ace052059d9d23f161",
+  "selected_task": "Ninth distinct 2025 canonical fictional owner-character viewpoint with a material causal outcome, repairing the isolated-vignette pattern while maintaining source-only ESPN facts and all hard-canon gates.",
+  "source_constraints": [
+    "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md",
+    "living-novel/os/NOVEL_POV_CONSTITUTION_V1.md (supersession notice: twelve-owner exclusive)",
+    "canon/characters/CHARACTER_REGISTRY.yaml",
+    "canon/characters/TWELVE_CHARACTER_NARRATIVE_POV_REGISTER_V1.md",
+    "canon/characters/CHAR-KEVIN-ZEEK/PACKAGE.md",
+    "living-novel/characters/02_KEVIN_ZEEK.md",
+    "living-novel/historical-chronicle/evidence/2025_FLAIM_TEAM_SLOT_AND_PODIUM_READBACK_2026-11-01_REVIEW_ONLY.md",
+    "jakekaloper-hub/bullpen/docs/COMMAND_SYSTEM_V2.md",
+    "jakekaloper-hub/bullpen/runtime/lifecycleEngine.js"
+  ],
+  "scanned_issues": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "scanned_prs": [
+    188,
+    243,
+    252,
+    261
+  ],
+  "output": {
+    "chapter": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_WATCH_THAT_WENT_DARK_KEVIN_2025_NONCANON.md",
+    "chapter_git_blob": "c4e75354fba5bc8d21719a9bcbc0661197467b2f",
+    "chapter_words_including_metadata": 6155,
+    "narrative_movements": 6,
+    "reader": "living-novel/historical-chronicle/seasons/2025/causal-novel/READING_COPY_2025_NINE_VOICES_NONCANON.md",
+    "reader_git_blob": "43aea9a2c59001e311b1b77d5f009d1ac03d8752",
+    "reader_source_count": 9,
+    "reader_original_source_words_including_metadata": 42074,
+    "prior_eight_reader_git_blob": "17050cca9c3492f960c880186d82af23b84aadd0",
+    "technical_tests": "living-novel/historical-chronicle/qa/test_2025_nine_voices_reader.py",
+    "tests_expected": 28,
+    "workflow": ".github/workflows/novel-os-ci.yml",
+    "producer_editorial_qa": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_WATCH_THAT_WENT_DARK_KEVIN_EDITORIAL_SOURCE_QA_2026-11-02.md",
+    "independent_review_request": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6570880539"
+  },
+  "source_truth": {
+    "league_id": 1417621,
+    "season": 2025,
+    "team_slot": 2,
+    "team": "Red Leopards",
+    "regular_season": "6-8",
+    "final_rank": 11,
+    "postseason": "missed_playoffs",
+    "human_manager_id": "UNKNOWN",
+    "fictional_character_id": "CHAR-KEVIN-ZEEK",
+    "owner_binding": "PROVISIONAL_FICTIONAL_ASSOCIATION",
+    "new_world_events": "PROPOSED_NONCANON"
+  },
+  "fiction_consequence": {
+    "kevin_watch": "floor and some screen stock dismantled; lookout out of service",
+    "kitchen": "separately inspected sound fuel delivered; proposed small second fire usable for one coming night",
+    "unresolved": [
+      "Pell's guarantee performance",
+      "David's personal reserve liability",
+      "kitchen workers' wages and franchise",
+      "third night fuel and food",
+      "safety of unwatched forest passage",
+      "period Atlas geography and human owner identification"
+    ]
+  },
+  "observed_testing": {
+    "first_nine_voice_ci_sha": "19a3716de20a7f9ef356a91fa2d1821100527ae7",
+    "initial_novel_ci_run": 41401450713,
+    "initial_novel_ci": "FAILED 26/28; two exact-literal assertions improperly ignored markdown emphasis; repaired test-only",
+    "corrected_test_sha": "7311efea15b0a4365fdfacd61de5cbe6830b9820",
+    "corrected_novel_ci_run": 41401623269,
+    "corrected_novel_ci_at_checkpoint": "SUCCESS at commit 7311efea15b0a4365fdfacd61de5cbe6830b9820; GitHub Actions run 41401623269, job 125134470049",
+    "corrected_cross_domain_run": 41401623319,
+    "corrected_cross_domain": "SUCCESS",
+    "corrected_bullpen_runtime_run": 41401623287,
+    "corrected_bullpen_runtime": "SUCCESS",
+    "corrected_merge_gate_run": 41401623374,
+    "corrected_merge_gate": "SUCCESS",
+    "source_exact_wrapper_count_observed_js": 9,
+    "previous_eight_source_bodies_embedded_unchanged": true,
+    "protected_canon_hashes_tested_in_prior_ci": true,
+    "independent_pr_reviews_observed_before_write": 0,
+    "source_provider_human_owner_authentication": "UNKNOWN",
+    "corrected_novel_ci": "SUCCESS",
+    "corrected_nine_reader_tests": "28/28 PASS observed in job logs at 2026-11-02T06:42:53Z",
+    "review_request_comment": 6570880539,
+    "independent_review_approval": "NOT RECEIVED"
+  },
+  "holds": [
+    "historical human-manager IDs not authenticated",
+    "period Atlas/physical/financial institutions proposed",
+    "genuine independent editor/Character/Librarian/Atlas/Umpire review not received",
+    "Founder-only canon/publication authorization not granted",
+    "2016 seventy-two consecutive Jake-limited chapters remain structurally unreconciled"
+  ],
+  "no_merge": true,
+  "no_canon_promotion": true,
+  "no_publication": true,
+  "next": [
+    "Read current branch HEAD and exact-commit GitHub Actions, including nine-reader 28 tests; debug actual failures if any, then attach authenticated verification receipt.",
+    "Read all new PR reviews; a comment requesting independent review is not the independent review.",
+    "Continue tenth distinct canonical-character historical POV (candidate Jordan, Wilson or Manning) after reading its current package and historical slot evidence; build causal interaction beyond the kitchen or payoff an existing loop, not another undelivered load.",
+    "Do not invent ESPN results, historical human owner identity, official 2025 geography, or 2026 future knowledge.",
+    "Preserve 2016 reader and protected 2026 Prologue / Chapters I-III byte-for-byte; don't merge or publish until owner and independent gates."
+  ]
+}

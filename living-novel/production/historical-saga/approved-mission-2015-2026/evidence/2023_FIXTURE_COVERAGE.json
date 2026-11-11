@@ -1,0 +1,4473 @@
+{
+  "season": 2023,
+  "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+  "returned_rows": 105,
+  "distinct_source_entries": 105,
+  "duplicate_display_rows": 0,
+  "observed_paired_contests": 99,
+  "regular_season_contests": 84,
+  "postseason_contests": 15,
+  "unpaired_rows": 6,
+  "postseason_tiers_paired": {
+    "WINNERS_BRACKET": 6,
+    "LOSERS_CONSOLATION_LADDER": 6,
+    "WINNERS_CONSOLATION_LADDER": 3
+  },
+  "regular_scoring_weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "postseason_scoring_weeks": [
+    15,
+    16,
+    17
+  ],
+  "denominator_scope": "OBSERVED_PAIRED_SOURCE_CONTESTS; full historical schedule completeness not independently certified",
+  "accepted_literary_coverage": 0,
+  "coverage_status": "UNACCEPTED_NOT_UNWRITTEN",
+  "missing_data": [
+    "Historical owner binding",
+    "Historical division and venue binding",
+    "Raw provider bytes not supplied by these transcriptions",
+    "Independent schedule/bracket completeness reconciliation"
+  ],
+  "title_outcome": {
+    "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json",
+    "source_sha256": "21af60795d2431dbe5a7b971e7ef0d7d6515a61451420db18986f00329c69e2e",
+    "record": {
+      "season": 2023,
+      "final_scoring_week": 17,
+      "winner_team_id": 12,
+      "winner_team_name": "Eggs Benedict",
+      "winner_points": 192.88,
+      "runnerup_team_id": 11,
+      "runnerup_team_name": "Arm Chair GM",
+      "runnerup_points": 140.76
+    },
+    "meaning": "Historical team label and slot only; not verified present-owner title"
+  },
+  "events": [
+    {
+      "event_id": "ESPN1417621-2023-P01-E001",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 1,
+          "source_pointer": "/weeks/0/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        1
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 1,
+      "home_id": 8,
+      "home": "Benedict Arnold",
+      "home_score": 130.94,
+      "away_id": 6,
+      "away": "Two Dreaded Snake",
+      "away_score": 79.68,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P01-E002",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 1,
+          "source_pointer": "/weeks/0/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        1
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 1,
+      "home_id": 3,
+      "home": "The KING of the Octagon Village",
+      "home_score": 190.74,
+      "away_id": 1,
+      "away": "Benedict Kenobi",
+      "away_score": 113.02,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P01-E003",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 1,
+          "source_pointer": "/weeks/0/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        1
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 1,
+      "home_id": 11,
+      "home": "Arm Chair GM",
+      "home_score": 119.34,
+      "away_id": 5,
+      "away": "Benedict Coomhersnatch",
+      "away_score": 144.28,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P01-E004",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 1,
+          "source_pointer": "/weeks/0/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        1
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 1,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 121.06,
+      "away_id": 2,
+      "away": "Red Leopards",
+      "away_score": 149.76,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P01-E005",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 1,
+          "source_pointer": "/weeks/0/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        1
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 1,
+      "home_id": 9,
+      "home": "El Niño",
+      "home_score": 178.7,
+      "away_id": 7,
+      "away": "The Blew Waffle's",
+      "away_score": 86.86,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P01-E006",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 1,
+          "source_pointer": "/weeks/0/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        1
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 1,
+      "home_id": 12,
+      "home": "Eggs Benedict ",
+      "home_score": 96.19,
+      "away_id": 10,
+      "away": "Mixon it up for a week",
+      "away_score": 129.24,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P02-E007",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 2,
+          "source_pointer": "/weeks/1/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        2
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 2,
+      "home_id": 7,
+      "home": "The Blew Waffle's",
+      "home_score": 116.68,
+      "away_id": 6,
+      "away": "Two Dreaded Snake",
+      "away_score": 159.18,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P02-E008",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 2,
+          "source_pointer": "/weeks/1/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        2
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 2,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 157.8,
+      "away_id": 8,
+      "away": "Benedict Arnold",
+      "away_score": 137.14,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P02-E009",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 2,
+          "source_pointer": "/weeks/1/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        2
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 2,
+      "home_id": 1,
+      "home": "Benedict Kenobi",
+      "home_score": 113.35,
+      "away_id": 10,
+      "away": "Mixon it up for a week",
+      "away_score": 127.86,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P02-E010",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 2,
+          "source_pointer": "/weeks/1/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        2
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 2,
+      "home_id": 11,
+      "home": "Arm Chair GM",
+      "home_score": 138.84,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 188.92,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P02-E011",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 2,
+          "source_pointer": "/weeks/1/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        2
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 2,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 110.15,
+      "away_id": 12,
+      "away": "Eggs Benedict ",
+      "away_score": 151.94,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P02-E012",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 2,
+          "source_pointer": "/weeks/1/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        2
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 2,
+      "home_id": 5,
+      "home": "Benedict Coomhersnatch",
+      "home_score": 182.46,
+      "away_id": 3,
+      "away": "The KING of the Octagon Village",
+      "away_score": 132,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P03-E013",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 3,
+          "source_pointer": "/weeks/2/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        3
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 3,
+      "home_id": 3,
+      "home": "The KING of the Octagon Village",
+      "home_score": 164.48,
+      "away_id": 6,
+      "away": "Two Dreaded Snake",
+      "away_score": 109.34,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P03-E014",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 3,
+          "source_pointer": "/weeks/2/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        3
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 3,
+      "home_id": 1,
+      "home": "Benedict Kenobi",
+      "home_score": 183.46,
+      "away_id": 2,
+      "away": "Red Leopards",
+      "away_score": 184.75,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P03-E015",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 3,
+          "source_pointer": "/weeks/2/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        3
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 3,
+      "home_id": 8,
+      "home": "Benedict Arnold",
+      "home_score": 165.56,
+      "away_id": 4,
+      "away": "The LLC",
+      "away_score": 156.46,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P03-E016",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 3,
+          "source_pointer": "/weeks/2/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        3
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 3,
+      "home_id": 10,
+      "home": "Mixon it up for a week",
+      "home_score": 121.52,
+      "away_id": 7,
+      "away": "The Blew Waffle's",
+      "away_score": 170.38,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P03-E017",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 3,
+          "source_pointer": "/weeks/2/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        3
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 3,
+      "home_id": 5,
+      "home": "Benedict Coomhersnatch",
+      "home_score": 211.24,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 101.08,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P03-E018",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 3,
+          "source_pointer": "/weeks/2/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        3
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 3,
+      "home_id": 12,
+      "home": "Eggs Benedict ",
+      "home_score": 150.96,
+      "away_id": 11,
+      "away": "Arm Chair GM",
+      "away_score": 140.66,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P04-E019",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 4,
+          "source_pointer": "/weeks/3/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        4
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 4,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 166.78,
+      "away_id": 5,
+      "away": "Benedict Coomhersnatch",
+      "away_score": 152.06,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P04-E020",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 4,
+          "source_pointer": "/weeks/3/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        4
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 4,
+      "home_id": 1,
+      "home": "Benedict Kenobi",
+      "home_score": 103.24,
+      "away_id": 7,
+      "away": "The Blew Waffle's",
+      "away_score": 160.64,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P04-E021",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 4,
+          "source_pointer": "/weeks/3/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        4
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 4,
+      "home_id": 6,
+      "home": "Two Dreaded Snake",
+      "home_score": 97.08,
+      "away_id": 10,
+      "away": "Mixon it up for a week",
+      "away_score": 173.5,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P04-E022",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 4,
+          "source_pointer": "/weeks/3/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        4
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 4,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 170.62,
+      "away_id": 11,
+      "away": "Arm Chair GM",
+      "away_score": 177.22,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P04-E023",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 4,
+          "source_pointer": "/weeks/3/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        4
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 4,
+      "home_id": 3,
+      "home": "The KING of the Octagon Village",
+      "home_score": 90.92,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 189.06,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P04-E024",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 4,
+          "source_pointer": "/weeks/3/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        4
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 4,
+      "home_id": 12,
+      "home": "Eggs Benedict ",
+      "home_score": 130.5,
+      "away_id": 8,
+      "away": "Benedict Arnold",
+      "away_score": 106.98,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P05-E025",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 5,
+          "source_pointer": "/weeks/4/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        5
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 5,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 141.44,
+      "away_id": 10,
+      "away": "Mixon it up for a week",
+      "away_score": 149.96,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P05-E026",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 5,
+          "source_pointer": "/weeks/4/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        5
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 5,
+      "home_id": 5,
+      "home": "Benedict Coomhersnatch",
+      "home_score": 110.46,
+      "away_id": 8,
+      "away": "Benedict Arnold",
+      "away_score": 106.12,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P05-E027",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 5,
+          "source_pointer": "/weeks/4/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        5
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 5,
+      "home_id": 1,
+      "home": "Benedict Kenobi",
+      "home_score": 182.48,
+      "away_id": 6,
+      "away": "Two Dreaded Snake",
+      "away_score": 129.42,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P05-E028",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 5,
+          "source_pointer": "/weeks/4/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        5
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 5,
+      "home_id": 7,
+      "home": "The Blew Waffle's",
+      "home_score": 181.19,
+      "away_id": 11,
+      "away": "Arm Chair GM",
+      "away_score": 186.06,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P05-E029",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 5,
+          "source_pointer": "/weeks/4/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        5
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 5,
+      "home_id": 12,
+      "home": "Eggs Benedict ",
+      "home_score": 158.76,
+      "away_id": 3,
+      "away": "The KING of the Octagon Village",
+      "away_score": 161.84,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P05-E030",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 5,
+          "source_pointer": "/weeks/4/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        5
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 5,
+      "home_id": 9,
+      "home": "El Niño",
+      "home_score": 97.02,
+      "away_id": 4,
+      "away": "The LLC",
+      "away_score": 161.56,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P06-E031",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 6,
+          "source_pointer": "/weeks/5/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        6
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 6,
+      "home_id": 1,
+      "home": "Benedict Kenobi",
+      "home_score": 132.2,
+      "away_id": 12,
+      "away": "Eggs Benedict ",
+      "away_score": 130.02,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P06-E032",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 6,
+          "source_pointer": "/weeks/5/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        6
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 6,
+      "home_id": 6,
+      "home": "Two Dreaded Snake",
+      "home_score": 135.84,
+      "away_id": 5,
+      "away": "Benedict Coomhersnatch",
+      "away_score": 136.14,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P06-E033",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 6,
+          "source_pointer": "/weeks/5/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        6
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 6,
+      "home_id": 3,
+      "home": "The KING of the Octagon Village",
+      "home_score": 116.54,
+      "away_id": 10,
+      "away": "Mixon it up for a week",
+      "away_score": 124.56,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P06-E034",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 6,
+          "source_pointer": "/weeks/5/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        6
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 6,
+      "home_id": 8,
+      "home": "Benedict Arnold",
+      "home_score": 126.08,
+      "away_id": 11,
+      "away": "Arm Chair GM",
+      "away_score": 127.5,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P06-E035",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 6,
+          "source_pointer": "/weeks/5/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        6
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 6,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 145.78,
+      "away_id": 7,
+      "away": "The Blew Waffle's",
+      "away_score": 99.92,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P06-E036",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 6,
+          "source_pointer": "/weeks/5/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        6
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 6,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 173.68,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 126.2,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P07-E037",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 7,
+          "source_pointer": "/weeks/6/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        7
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 7,
+      "home_id": 1,
+      "home": "Benedict Kenobi",
+      "home_score": 124.53,
+      "away_id": 8,
+      "away": "Benedict Arnold",
+      "away_score": 102.04,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P07-E038",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 7,
+          "source_pointer": "/weeks/6/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        7
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 7,
+      "home_id": 3,
+      "home": "The KING of the Octagon Village",
+      "home_score": 164.66,
+      "away_id": 4,
+      "away": "The LLC",
+      "away_score": 104.3,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P07-E039",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 7,
+          "source_pointer": "/weeks/6/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        7
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 7,
+      "home_id": 11,
+      "home": "Arm Chair GM",
+      "home_score": 145.76,
+      "away_id": 6,
+      "away": "Two Dreaded Snake",
+      "away_score": 103.74,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P07-E040",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 7,
+          "source_pointer": "/weeks/6/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        7
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 7,
+      "home_id": 10,
+      "home": "Mixon it up for a week",
+      "home_score": 153.3,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 155.16,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P07-E041",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 7,
+          "source_pointer": "/weeks/6/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        7
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 7,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 131.56,
+      "away_id": 12,
+      "away": "Eggs Benedict ",
+      "away_score": 102.56,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P07-E042",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 7,
+          "source_pointer": "/weeks/6/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        7
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 7,
+      "home_id": 5,
+      "home": "Benedict Coomhersnatch",
+      "home_score": 104.76,
+      "away_id": 7,
+      "away": "The Blew Waffle's",
+      "away_score": 156.18,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P08-E043",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 8,
+          "source_pointer": "/weeks/7/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        8
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 8,
+      "home_id": 1,
+      "home": "Benedict Kenobi",
+      "home_score": 142.1,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 205.16,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P08-E044",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 8,
+          "source_pointer": "/weeks/7/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        8
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 8,
+      "home_id": 12,
+      "home": "Eggs Benedict ",
+      "home_score": 177.38,
+      "away_id": 6,
+      "away": "Two Dreaded Snake",
+      "away_score": 114.98,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P08-E045",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 8,
+          "source_pointer": "/weeks/7/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        8
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 8,
+      "home_id": 3,
+      "home": "The KING of the Octagon Village",
+      "home_score": 114.4,
+      "away_id": 7,
+      "away": "The Blew Waffle's",
+      "away_score": 100.33,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P08-E046",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 8,
+          "source_pointer": "/weeks/7/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        8
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 8,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 172.68,
+      "away_id": 5,
+      "away": "Benedict Coomhersnatch",
+      "away_score": 148.16,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P08-E047",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 8,
+          "source_pointer": "/weeks/7/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        8
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 8,
+      "home_id": 8,
+      "home": "Benedict Arnold",
+      "home_score": 119.66,
+      "away_id": 10,
+      "away": "Mixon it up for a week",
+      "away_score": 177.36,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P08-E048",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 8,
+          "source_pointer": "/weeks/7/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        8
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 8,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 136.12,
+      "away_id": 11,
+      "away": "Arm Chair GM",
+      "away_score": 184.8,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P09-E049",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 9,
+          "source_pointer": "/weeks/8/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        9
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 9,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 136.16,
+      "away_id": 6,
+      "away": "Two Dreaded Snake",
+      "away_score": 135.78,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P09-E050",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 9,
+          "source_pointer": "/weeks/8/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        9
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 9,
+      "home_id": 11,
+      "home": "Arm Chair GM",
+      "home_score": 144.12,
+      "away_id": 1,
+      "away": "Benedict Kenobi",
+      "away_score": 137.4,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P09-E051",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 9,
+          "source_pointer": "/weeks/8/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        9
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 9,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 84.64,
+      "away_id": 7,
+      "away": "The Blew Waffle's",
+      "away_score": 146.73,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P09-E052",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 9,
+          "source_pointer": "/weeks/8/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        9
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 9,
+      "home_id": 8,
+      "home": "Benedict Arnold",
+      "home_score": 72.1,
+      "away_id": 3,
+      "away": "The KING of the Octagon Village",
+      "away_score": 139.12,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P09-E053",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 9,
+          "source_pointer": "/weeks/8/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        9
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 9,
+      "home_id": 10,
+      "home": "Mixon it up for a week",
+      "home_score": 127.52,
+      "away_id": 5,
+      "away": "Benedict Coomhersnatch",
+      "away_score": 145.22,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P09-E054",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 9,
+          "source_pointer": "/weeks/8/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        9
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 9,
+      "home_id": 9,
+      "home": "El Niño",
+      "home_score": 152.88,
+      "away_id": 12,
+      "away": "Eggs Benedict ",
+      "away_score": 150.34,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P10-E055",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 10,
+          "source_pointer": "/weeks/9/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        10
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 10,
+      "home_id": 10,
+      "home": "Mixon it up for a week",
+      "home_score": 129.93,
+      "away_id": 11,
+      "away": "Arm Chair GM",
+      "away_score": 131.58,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P10-E056",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 10,
+          "source_pointer": "/weeks/9/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        10
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 10,
+      "home_id": 9,
+      "home": "El Niño",
+      "home_score": 132.12,
+      "away_id": 6,
+      "away": "Two Dreaded Snake",
+      "away_score": 126.06,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P10-E057",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 10,
+          "source_pointer": "/weeks/9/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        10
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 10,
+      "home_id": 3,
+      "home": "The KING of the Octagon Village",
+      "home_score": 113.22,
+      "away_id": 2,
+      "away": "Red Leopards",
+      "away_score": 152.92,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P10-E058",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 10,
+          "source_pointer": "/weeks/9/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        10
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 10,
+      "home_id": 8,
+      "home": "Benedict Arnold",
+      "home_score": 170.33,
+      "away_id": 7,
+      "away": "The Blew Waffle's",
+      "away_score": 130.12,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P10-E059",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 10,
+          "source_pointer": "/weeks/9/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        10
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 10,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 176.96,
+      "away_id": 1,
+      "away": "Benedict Kenobi",
+      "away_score": 143.09,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P10-E060",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 10,
+          "source_pointer": "/weeks/9/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        10
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 10,
+      "home_id": 12,
+      "home": "Eggs Benedict ",
+      "home_score": 170.8,
+      "away_id": 5,
+      "away": "Benedict Coomhersnatch",
+      "away_score": 186.16,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P11-E061",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 11,
+          "source_pointer": "/weeks/10/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        11
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 11,
+      "home_id": 8,
+      "home": "Benedict Arnold",
+      "home_score": 131.49,
+      "away_id": 6,
+      "away": "Two Dreaded Snake",
+      "away_score": 109.06,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P11-E062",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 11,
+          "source_pointer": "/weeks/10/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        11
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 11,
+      "home_id": 12,
+      "home": "Eggs Benedict ",
+      "home_score": 175.06,
+      "away_id": 10,
+      "away": "Mixon it up for a week",
+      "away_score": 153.9,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P11-E063",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 11,
+          "source_pointer": "/weeks/10/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        11
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 11,
+      "home_id": 5,
+      "home": "Benedict Coomhersnatch",
+      "home_score": 149.2,
+      "away_id": 11,
+      "away": "Arm Chair GM",
+      "away_score": 96.94,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P11-E064",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 11,
+          "source_pointer": "/weeks/10/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        11
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 11,
+      "home_id": 3,
+      "home": "The KING of the Octagon Village",
+      "home_score": 119.98,
+      "away_id": 1,
+      "away": "Benedict Kenobi",
+      "away_score": 160.79,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P11-E065",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 11,
+          "source_pointer": "/weeks/10/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        11
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 11,
+      "home_id": 9,
+      "home": "El Niño",
+      "home_score": 175.5,
+      "away_id": 7,
+      "away": "The Blew Waffle's",
+      "away_score": 154.76,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P11-E066",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 11,
+          "source_pointer": "/weeks/10/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        11
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 11,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 117.5,
+      "away_id": 4,
+      "away": "The LLC",
+      "away_score": 113.06,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P12-E067",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 12,
+          "source_pointer": "/weeks/11/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        12
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 12,
+      "home_id": 10,
+      "home": "Mixon it up for a week",
+      "home_score": 167.76,
+      "away_id": 4,
+      "away": "The LLC",
+      "away_score": 127.84,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P12-E068",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 12,
+          "source_pointer": "/weeks/11/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        12
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 12,
+      "home_id": 9,
+      "home": "El Niño",
+      "home_score": 169.2,
+      "away_id": 8,
+      "away": "Benedict Arnold",
+      "away_score": 107.9,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P12-E069",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 12,
+          "source_pointer": "/weeks/11/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        12
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 12,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 164.18,
+      "away_id": 6,
+      "away": "Two Dreaded Snake",
+      "away_score": 126.63,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P12-E070",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 12,
+          "source_pointer": "/weeks/11/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        12
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 12,
+      "home_id": 5,
+      "home": "Benedict Coomhersnatch",
+      "home_score": 152.72,
+      "away_id": 1,
+      "away": "Benedict Kenobi",
+      "away_score": 123.16,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P12-E071",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 12,
+          "source_pointer": "/weeks/11/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        12
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 12,
+      "home_id": 11,
+      "home": "Arm Chair GM",
+      "home_score": 155.06,
+      "away_id": 3,
+      "away": "The KING of the Octagon Village",
+      "away_score": 142.72,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P12-E072",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 12,
+          "source_pointer": "/weeks/11/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        12
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 12,
+      "home_id": 12,
+      "home": "Eggs Benedict ",
+      "home_score": 146.24,
+      "away_id": 7,
+      "away": "The Blew Waffle's",
+      "away_score": 162.98,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P13-E073",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 13,
+          "source_pointer": "/weeks/12/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        13
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 13,
+      "home_id": 5,
+      "home": "Benedict Coomhersnatch",
+      "home_score": 172,
+      "away_id": 2,
+      "away": "Red Leopards",
+      "away_score": 179.68,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P13-E074",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 13,
+          "source_pointer": "/weeks/12/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        13
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 13,
+      "home_id": 3,
+      "home": "The KING of the Octagon Village",
+      "home_score": 145.1,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 151.12,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P13-E075",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 13,
+          "source_pointer": "/weeks/12/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        13
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 13,
+      "home_id": 10,
+      "home": "Mixon it up for a week",
+      "home_score": 187.98,
+      "away_id": 6,
+      "away": "Two Dreaded Snake",
+      "away_score": 128.32,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P13-E076",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 13,
+          "source_pointer": "/weeks/12/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        13
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 13,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 167.38,
+      "away_id": 11,
+      "away": "Arm Chair GM",
+      "away_score": 126.54,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P13-E077",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 13,
+          "source_pointer": "/weeks/12/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        13
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 13,
+      "home_id": 1,
+      "home": "Benedict Kenobi",
+      "home_score": 144.76,
+      "away_id": 7,
+      "away": "The Blew Waffle's",
+      "away_score": 143.72,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P13-E078",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 13,
+          "source_pointer": "/weeks/12/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        13
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 13,
+      "home_id": 8,
+      "home": "Benedict Arnold",
+      "home_score": 89.18,
+      "away_id": 12,
+      "away": "Eggs Benedict ",
+      "away_score": 103.3,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P14-E079",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 14,
+          "source_pointer": "/weeks/13/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        14
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 14,
+      "home_id": 1,
+      "home": "Benedict Kenobi",
+      "home_score": 135.12,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 161.98,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P14-E080",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 14,
+          "source_pointer": "/weeks/13/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        14
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 14,
+      "home_id": 6,
+      "home": "Two Dreaded Snake",
+      "home_score": 148.22,
+      "away_id": 12,
+      "away": "Eggs Benedict ",
+      "away_score": 152.9,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P14-E081",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 14,
+          "source_pointer": "/weeks/13/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        14
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 14,
+      "home_id": 3,
+      "home": "The KING of the Octagon Village",
+      "home_score": 128.04,
+      "away_id": 7,
+      "away": "The Blew Waffle's",
+      "away_score": 168.44,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P14-E082",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 14,
+          "source_pointer": "/weeks/13/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        14
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 14,
+      "home_id": 11,
+      "home": "Arm Chair GM",
+      "home_score": 165.36,
+      "away_id": 2,
+      "away": "Red Leopards",
+      "away_score": 136.44,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P14-E083",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 14,
+          "source_pointer": "/weeks/13/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        14
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 14,
+      "home_id": 5,
+      "home": "Benedict Coomhersnatch",
+      "home_score": 142.8,
+      "away_id": 4,
+      "away": "The LLC",
+      "away_score": 116.34,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P14-E084",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 14,
+          "source_pointer": "/weeks/13/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        14
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 14,
+      "home_id": 10,
+      "home": "Mixon it up for a week",
+      "home_score": 158.82,
+      "away_id": 8,
+      "away": "Benedict Arnold",
+      "away_score": 119.15,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P15-E085",
+      "season": 2023,
+      "kind": "UNPAIRED_PROVIDER_ROW",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/weeks/14/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 9,
+      "home": "El Niño",
+      "home_score": 138.32,
+      "away_id": null,
+      "away": null,
+      "away_score": null,
+      "winner": "UNDECIDED",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": "NO_OPPONENT_IN_SOURCE_BYE_CANDIDATE_NOT_A_PLAYED_CONTEST",
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P15-E086",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/weeks/14/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 5,
+      "home": "Benedict Coomhersnatch",
+      "home_score": 92.4,
+      "away_id": 11,
+      "away": "Arm Chair GM",
+      "away_score": 148.32,
+      "winner": "AWAY",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P15-E087",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/weeks/14/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 10,
+      "home": "Mixon it up for a week",
+      "home_score": 114.86,
+      "away_id": 12,
+      "away": "Eggs Benedict ",
+      "away_score": 160.12,
+      "winner": "AWAY",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P15-E088",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/weeks/14/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 149.38,
+      "away_id": 4,
+      "away": "The LLC",
+      "away_score": 117.91,
+      "winner": "HOME",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P15-E089",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/weeks/14/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 7,
+      "home": "The Blew Waffle's",
+      "home_score": 110.94,
+      "away_id": 3,
+      "away": "The KING of the Octagon Village",
+      "away_score": 118.7,
+      "winner": "AWAY",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P15-E090",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/weeks/14/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 1,
+      "home": "Benedict Kenobi",
+      "home_score": 137.98,
+      "away_id": 8,
+      "away": "Benedict Arnold",
+      "away_score": 131.86,
+      "winner": "HOME",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P15-E091",
+      "season": 2023,
+      "kind": "UNPAIRED_PROVIDER_ROW",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/weeks/14/matchups/6"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 6,
+      "home": "Two Dreaded Snake",
+      "home_score": 88.04,
+      "away_id": null,
+      "away": null,
+      "away_score": null,
+      "winner": "UNDECIDED",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": "NO_OPPONENT_IN_SOURCE_BYE_CANDIDATE_NOT_A_PLAYED_CONTEST",
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P16-E092",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/weeks/15/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 9,
+      "home": "El Niño",
+      "home_score": 148.24,
+      "away_id": 11,
+      "away": "Arm Chair GM",
+      "away_score": 159.52,
+      "winner": "AWAY",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P16-E093",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/weeks/15/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 149.84,
+      "away_id": 12,
+      "away": "Eggs Benedict ",
+      "away_score": 214.52,
+      "winner": "AWAY",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P16-E094",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/weeks/15/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 10,
+      "home": "Mixon it up for a week",
+      "home_score": 121.48,
+      "away_id": 5,
+      "away": "Benedict Coomhersnatch",
+      "away_score": 132.02,
+      "winner": "AWAY",
+      "tier": "WINNERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P16-E095",
+      "season": 2023,
+      "kind": "UNPAIRED_PROVIDER_ROW",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/weeks/15/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 140.52,
+      "away_id": null,
+      "away": null,
+      "away_score": null,
+      "winner": "UNDECIDED",
+      "tier": "WINNERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": "NO_OPPONENT_IN_SOURCE_BYE_CANDIDATE_NOT_A_PLAYED_CONTEST",
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P16-E096",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/weeks/15/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 3,
+      "home": "The KING of the Octagon Village",
+      "home_score": 181.2,
+      "away_id": 1,
+      "away": "Benedict Kenobi",
+      "away_score": 129.7,
+      "winner": "HOME",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P16-E097",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/weeks/15/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 7,
+      "home": "The Blew Waffle's",
+      "home_score": 124.38,
+      "away_id": 6,
+      "away": "Two Dreaded Snake",
+      "away_score": 161.98,
+      "winner": "AWAY",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P16-E098",
+      "season": 2023,
+      "kind": "UNPAIRED_PROVIDER_ROW",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/weeks/15/matchups/6"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 8,
+      "home": "Benedict Arnold",
+      "home_score": 95.3,
+      "away_id": null,
+      "away": null,
+      "away_score": null,
+      "winner": "UNDECIDED",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": "NO_OPPONENT_IN_SOURCE_BYE_CANDIDATE_NOT_A_PLAYED_CONTEST",
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P17-E099",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 17,
+          "source_pointer": "/weeks/16/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        17
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 17,
+      "home_id": 11,
+      "home": "Arm Chair GM",
+      "home_score": 140.76,
+      "away_id": 12,
+      "away": "Eggs Benedict ",
+      "away_score": 192.88,
+      "winner": "AWAY",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P17-E100",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 17,
+          "source_pointer": "/weeks/16/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        17
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 17,
+      "home_id": 9,
+      "home": "El Niño",
+      "home_score": 133.38,
+      "away_id": 2,
+      "away": "Red Leopards",
+      "away_score": 150.36,
+      "winner": "AWAY",
+      "tier": "WINNERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P17-E101",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 17,
+          "source_pointer": "/weeks/16/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        17
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 17,
+      "home_id": 5,
+      "home": "Benedict Coomhersnatch",
+      "home_score": 118.98,
+      "away_id": 4,
+      "away": "The LLC",
+      "away_score": 118.3,
+      "winner": "HOME",
+      "tier": "WINNERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P17-E102",
+      "season": 2023,
+      "kind": "UNPAIRED_PROVIDER_ROW",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 17,
+          "source_pointer": "/weeks/16/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        17
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 17,
+      "home_id": 10,
+      "home": "Mixon it up for a week",
+      "home_score": 99.66,
+      "away_id": null,
+      "away": null,
+      "away_score": null,
+      "winner": "UNDECIDED",
+      "tier": "WINNERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": "NO_OPPONENT_IN_SOURCE_BYE_CANDIDATE_NOT_A_PLAYED_CONTEST",
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P17-E103",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 17,
+          "source_pointer": "/weeks/16/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        17
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 17,
+      "home_id": 3,
+      "home": "The KING of the Octagon Village",
+      "home_score": 106.74,
+      "away_id": 6,
+      "away": "Two Dreaded Snake",
+      "away_score": 122.82,
+      "winner": "AWAY",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P17-E104",
+      "season": 2023,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 17,
+          "source_pointer": "/weeks/16/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        17
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 17,
+      "home_id": 1,
+      "home": "Benedict Kenobi",
+      "home_score": 169.6,
+      "away_id": 8,
+      "away": "Benedict Arnold",
+      "away_score": 155.28,
+      "winner": "HOME",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2023-P17-E105",
+      "season": 2023,
+      "kind": "UNPAIRED_PROVIDER_ROW",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "7ef47b8aa0ce6b7a5441bcb9f849d98ef76746afef297d5f4d85adbf00438040",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 17,
+          "source_pointer": "/weeks/16/matchups/6"
+        }
+      ],
+      "observed_scoring_weeks": [
+        17
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 17,
+      "home_id": 7,
+      "home": "The Blew Waffle's",
+      "home_score": 150.19,
+      "away_id": null,
+      "away": null,
+      "away_score": null,
+      "winner": "UNDECIDED",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": "NO_OPPONENT_IN_SOURCE_BYE_CANDIDATE_NOT_A_PLAYED_CONTEST",
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    }
+  ]
+}

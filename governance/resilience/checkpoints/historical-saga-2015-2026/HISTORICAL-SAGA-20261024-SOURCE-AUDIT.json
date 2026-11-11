@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "checkpoint_id": "HISTORICAL-SAGA-20261024-SOURCE-AUDIT",
+  "project": "Schemin Living Novel",
+  "workflow": "historical-saga-2015-2026",
+  "stage": "SOURCE_AUDIT_COMPLETED_NOT_MANUSCRIPT_ACCEPTANCE",
+  "owner": "the_librarian",
+  "source_authority": "living-novel/production/historical-saga/approved-mission-2015-2026/MISSION_AND_ARCHITECTURE.md",
+  "completed_at": "2026-10-24T04:31:15.924517+00:00",
+  "input_fingerprints": [
+    {
+      "path": "living-novel/history/OWNER_LINEAGE.md",
+      "digest_algo": "sha256",
+      "digest": "788b4657b3e5d0553dc55f8248158e2e4400bc68c99aabdd649fb75d4830fb6b"
+    },
+    {
+      "path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "digest_algo": "sha256",
+      "digest": "8d7ecb8eceff58fd2e505eb40b53b38b7ed1c98fe9043063969a3103061e070f"
+    },
+    {
+      "path": "living-novel/production/week-04-05/WEEK_04_05_FLAIM_FACT_SNAPSHOT_2026-10-14.json",
+      "digest_algo": "sha256",
+      "digest": "c0b17ab85e17223e79960f3afc621b71965118c64c382931432c5d282dbc0ec5"
+    },
+    {
+      "path": "memo-os/week-6/WEEK_6_FLAIM_REVERIFICATION_AND_HANDOFF_CONVERGENCE_2026-10-20.md",
+      "digest_algo": "sha256",
+      "digest": "f049ae5a8954b4e247ff81dfee984c1025f88fdc708d4e0a1ea80d73429467bf"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/SEASON_DENOMINATORS.json",
+      "digest_algo": "sha256",
+      "digest": "ff38c6a7fd61689dbca9c26dc023240d7bae4fe67ffce3d3b0b8cd5ad2b3d284"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/SOURCE_COVERAGE_AUDIT.md",
+      "digest_algo": "sha256",
+      "digest": "d96b5d7b9bf37a327c2e15ae46e8d349d3cae6ca6cb70998e36f489ef04a7d6f"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/CURRENT_SEASON_PASSAGE_AUDIT.json",
+      "digest_algo": "sha256",
+      "digest": "28affc3220b96853b79cc6d3594a8ac320bf2d9d89bdcd9cf02551f3c8202048"
+    }
+  ],
+  "evidence": [
+    "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/test_coverage.py"
+  ],
+  "invalidation_triggers": [
+    "Source corrections, newly available owner history, schedule evidence or changed output digests"
+  ]
+}

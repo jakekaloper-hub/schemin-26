@@ -1,0 +1,98 @@
+{
+  "schema": "commonwealth-historical-saga-production-checkpoint-v1",
+  "status": "NONCANON_INDEPENDENT_EDITORIAL_HOLD",
+  "date_utc": "2026-10-31",
+  "mission": "BULLPEN PERMANENT EXECUTIVE MANDATE — COMMONWEALTH NOVEL AUTONOMOUS END-TO-END PRODUCTION",
+  "repository": "jakekaloper-hub/schemin-26",
+  "organizational_authority": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr_number": 243,
+  "resumed_from_head": "e0c14b1ae1e637dd256d50decb0d8462b8e1fe11",
+  "resumed_from_checkpoint": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261031-2016-CAUSAL-CH40-FORTY-CHAPTER-READER.json",
+  "authority_sources": {
+    "schemin_main_at_intake": "40b4ff8a4ab5f15bd8e986329472b31494cc09c0",
+    "bullpen_main_at_intake": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "novel_source_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "novel_context": "living-novel/os/SESSION_CONTEXT.md; living-novel/os/TASK_CONTEXT_MATRIX_V1.json",
+    "task": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "pov": "canon/characters/TWELVE_CHARACTER_NARRATIVE_POV_REGISTER_V1.md",
+    "bullpen": "docs/COMMAND_SYSTEM_V2.md; runtime/lifecycleEngine.js",
+    "historical_evidence": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+    "historical_evidence_blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518"
+  },
+  "issues_reconciled": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "prs_reconciled": {
+    "188": "CLOSED_MERGED",
+    "243": "OPEN_DRAFT",
+    "252": "OPEN_DRAFT",
+    "261": "OPEN_DRAFT"
+  },
+  "output": {
+    "chapter": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_MARKS_AT_THE_CROSSROADS_CHAPTER_41_NONCANON.md",
+    "chapter_blob": "4526f2c278167c43630aa10732f10e47a8fb1ef1",
+    "chapter_words_including_notes": 7884,
+    "movements": 6,
+    "reader": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_41_NONCANON.md",
+    "reader_blob": "14ce93a324f62cf00307625c486bdbc17e4dd5f4",
+    "reader_words_including_notes": 237708,
+    "source_components": 41,
+    "previous_reader_blob": "ecc93dfe2100ed68f9aa49e59c0427fc2dbf6295",
+    "tests": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_forty_one_reader.py",
+    "qa": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_41_SOURCE_EDITORIAL_QA_RECEIPT.md"
+  },
+  "checks": {
+    "author_side_reader_assembly": "PASS_SOURCE_EXACT_40_PRIOR_41_TOTAL",
+    "local_python_tests": "PASS_951_OF_951_HISTORICAL_CHRONICLE_QA",
+    "new_chapter_tests": "PASS_19_OF_19_AFTER_TEST_ASSERTION_FIX",
+    "github_workflows": "PENDING_EXACT_HEAD_REVIEW",
+    "independent_review": "NOT_ACCEPTED"
+  },
+  "continuity": {
+    "entering": "Private twenty-one-night upstairs room for six, one cart side now bed platforms, donkey tended; apprentice limited drywork, wet dye closed, new carter rumor of public refuge, runoff and water unverified.",
+    "turn": "Sela and two children follow mistaken blue cloth direction; informal crowd attempts public housing count; Hessa and Corin refuse unauthorized agency; apprentice takes earned pay and leaves the shop with his own tools.",
+    "exit": "Six remain upstairs on the same offer. Sela family camps at unspecified unverified open patch. Apprentice no longer employed by Ina; two drywork orders unfinished. Chalk door unfinished and unofficial. No legally adopted shelter or certified water safety.",
+    "open_loops": [
+      "Sela and children outdoor camp safety and onward choices unknown",
+      "Apprentice independent future livelihood and return not promised",
+      "Ina pending dry orders/wet production and dye-yard repairs unresolved",
+      "Room still occupied by original six for bounded period; their cart side still detached",
+      "Chalk sign/public-shelter rumor not definitively quieted; Daro has no legitimate shelter authority",
+      "Eight departed travelers and Hessa sister still unknown",
+      "Distant ash/fire source and post-runoff water quality unverified",
+      "Mael/Pell second horse/freight/carrier liability unresolved",
+      "Fara inherited awning permanently shortened",
+      "Jake shelter debt, Esi letter and escaped bird unresolved",
+      "Kiln passage remains closed",
+      "2016 owner-slot authentication and twelve-owner polyphonic literary ambition still blocked"
+    ]
+  },
+  "protected_main": [
+    "living-novel/manuscript/PROLOGUE_DRAFT_V1.md",
+    "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md",
+    "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md",
+    "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md"
+  ],
+  "gates": {
+    "historical_owner_auth": "NOT_ACCEPTED",
+    "period_atlas_character": "NOT_ACCEPTED",
+    "authors_council": "NOT_ACCEPTED",
+    "independent_umpire": "NOT_ACCEPTED",
+    "founder_canon": "NOT_AUTHORIZED",
+    "merged": false,
+    "published": false
+  },
+  "next": [
+    "Observe exact-final-head GitHub workflows, investigate any actual failures and record PR receipt.",
+    "Seek actual independent Historical Librarian, Character/Atlas, Authors Council and Umpire examination; a request is not acceptance.",
+    "Advance Chapter XLII through consequences of apprentice departure and Sela outdoor camp without another false notice or repair plot.",
+    "Do not insert interior non-Twelve POV merely to create polyphony; establish period owner bindings before changing focal character.",
+    "Maintain separate historical Chronicle six-matchup/week source duties without inventing scores or historical owner lineage.",
+    "Preserve exclusive Twelve POV, protected main manuscript and Founder-only canon/publication gates."
+  ]
+}

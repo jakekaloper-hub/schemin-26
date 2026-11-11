@@ -1,0 +1,149 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261102-2025-SELECTED-WILSON-V2-65K-READER",
+  "date_utc": "2026-11-02",
+  "mission": "BULLPEN_PERMANENT_EXECUTIVE_MANDATE_COMMONWEALTH_NOVEL",
+  "status": "SOURCE_GROUNDED_PROSE_AND_ASSEMBLY_COMPLETE_TECHNICALLY_VERIFIED_NONCANON_INDEPENDENT_EDITORIAL_HOLD",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "pr_state_at_readback": "OPEN_DRAFT_NOT_MERGED",
+  "authority": {
+    "schemin_main_observed": "e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80",
+    "bullpen_main_observed": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "source_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md@67fcd669dc7b43393f2d15e93545301961dd81e4",
+    "project_control": "PROJECT_CONTROL_REGISTRY.md",
+    "novel_os": [
+      "living-novel/os/NOVEL_BOOK_ARCHITECTURE_V2.md@9e67ee263848773deeec990fcca4ec8428d40c28",
+      "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md@346b5883d41dc6551115a514d0dd9c87c385d60d"
+    ],
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json@5e72e48f3c305e6def1051e0b18883a7be6b6af0",
+    "bullpen_command": "jakekaloper-hub/bullpen:docs/COMMAND_SYSTEM_V2.md@cccf90a3cadac802767988ceab8f44453aa86819",
+    "bullpen_lifecycle": "jakekaloper-hub/bullpen:runtime/lifecycleEngine.js@710caca4e4a01c934bdc53f22229acced48a2d78",
+    "issues_inspected": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "prs_inspected": [
+      188,
+      243,
+      244,
+      251,
+      252,
+      261,
+      264
+    ],
+    "prior_checkpoint": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261102-WILSON-TWO-ELEVEN-PART-READERS-EDITORIAL-HOLD.json"
+  },
+  "selection": {
+    "selected_A_developmental_base": "THE_ROAD_THAT_SPOKE_IN_TWO_VOICES_WILSON_2025_INTEGRATED_NONCANON.md@bdaac1446d87c9ce0e738f6f9bbd632397152251",
+    "comparison_B_preserved": "THE_ROAD_NO_BANNER_COULD_OWN_TWO_TRUE_DISPATCHES_WILSON_2025_INTEGRATED_NONCANON.md@57b767cf2d417895db070c24fa7da07892629f62",
+    "no_parallel_unselected_third_experiment": true,
+    "canon_selection": false
+  },
+  "artifacts": {
+    "revised_wilson_chapter": {
+      "path": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_ROAD_THAT_SPOKE_IN_TWO_VOICES_WILSON_2025_SELECTED_REVISION_V2_NONCANON.md",
+      "git_blob": "5c953eb78e8f383d1038712501335418ce8af4ab",
+      "source_words_with_metadata": 11603,
+      "new_original_scene_words_approx": 1134,
+      "movements": 11,
+      "first_cart": "empty_unloaded_previous_day_fictional",
+      "loaded_wagon_crosses": 1,
+      "second_loaded_wagon": "HELD",
+      "company_departures": 1,
+      "drivers_costs": "RECORD_ONLY_NO_REIMBURSEMENT",
+      "temporary_watchers": "FOUR_PAID",
+      "silhouettes": "THREE_UNIDENTIFIED"
+    },
+    "assembled_reader": {
+      "path": "living-novel/historical-chronicle/seasons/2025/causal-novel/READING_COPY_2025_TWELVE_VOICES_ELEVEN_PARTS_SELECTED_WILSON_V2_NONCANON.md",
+      "git_blob": "9a0181bf15bfff9ea8516fce06cda5ea1e8ba2c1",
+      "total_chapter_source_words_with_metadata": 65009,
+      "assembled_parts": 11,
+      "principal_pov_ids": 12,
+      "unaltered_other_wrappers": 10,
+      "readback_exact": true
+    },
+    "editorial_qa": "living-novel/historical-chronicle/seasons/2025/causal-novel/EDITORIAL_QA_SELECTED_WILSON_V2_2026-11-02.md@7c5606782b4cd4cc5f13d02026e81cee90bddcbd",
+    "regression_suite": "living-novel/historical-chronicle/qa/test_2025_selected_wilson_v2_reader.py@123213c3a958b451d82071a9b30e52217db8620a",
+    "workflow_updated": ".github/workflows/novel-os-ci.yml@c87c7d708ba1bb2e7bdcf7221c17d6985def4f3a"
+  },
+  "test_evidence": {
+    "observed_exact_code_commit": "6275851cae88c78187e17b44762f6ff48bd63669",
+    "regression_tests": 16,
+    "regression_tests_pass": 16,
+    "previous_failed_run": 41529668801,
+    "previous_failure": "literal gate assertion did not match readback; correction only to test wording, no prose changed",
+    "workflow_successes": [
+      {
+        "name": "Novel OS CI",
+        "id": 41529954506,
+        "conclusion": "SUCCESS"
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "id": 41529954597,
+        "conclusion": "SUCCESS"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "id": 41529954551,
+        "conclusion": "SUCCESS"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "id": 41529954561,
+        "conclusion": "SUCCESS"
+      }
+    ],
+    "editorial_doc_commit": "0cf369cc1f7a046c45533e4a86af0b4a1a280680",
+    "scope_note": "Four workflow successes at exact repaired code commit. Later author-side editorial QA and checkpoint commit not substituted as exact-code CI proof."
+  },
+  "protected": {
+    "verified_main_equals_branch": true,
+    "blobs": {
+      "living-novel/manuscript/PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+    }
+  },
+  "historical_2016": {
+    "prior_source_audit": "living-novel/historical-chronicle/seasons/2016/source-audits/FLAIM_ESPN_2016_SLOT_OUTCOME_AND_POV_BINDING_AUDIT_2026-11-02.md",
+    "distinct_austin_named_slots": [
+      8,
+      12
+    ],
+    "manager_account_join": "UNKNOWN_UNAUTHENTICATED",
+    "existing_causal_reader_chapters": 72,
+    "current_limited_pov": "Jake",
+    "new_reassignments": 0,
+    "status": "OWNER_BINDING_AND_PERIOD_CHARACTER_REVIEW_HOLD"
+  },
+  "review": {
+    "independent_submitted_reviews_at_start": 0,
+    "pr_comment_review_request": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6589118543",
+    "authors_council": "REQUESTED_NOT_RECEIVED",
+    "librarian": "REQUESTED_NOT_RECEIVED",
+    "character_canon": "REQUESTED_NOT_RECEIVED",
+    "period_atlas": "REQUESTED_NOT_RECEIVED",
+    "independent_umpire": "REQUESTED_NOT_RECEIVED",
+    "founder_canon_and_publication": "HOLD"
+  },
+  "next": {
+    "priority_0": "Use the selected V2 full reader for actual independent full-manuscript developmental pass; challenge pacing and character distinctness, do not infer acceptance from 16 tests.",
+    "priority_1": "If reviewers find repetition or broken causal links, revise selected V2 within a noncanonical successor, preserving old source blobs and separate editions.",
+    "priority_2": "Obtain authenticated 2016 manager-account mapping or keep all 72 historical Jake-only POV until evidence; target pacing compression without unsupported new owner viewpoints.",
+    "priority_3": "Keep draft PR #243 unmerged and protect 2026 Prologue/Chapters I–III.",
+    "must_not": [
+      "invent ESPN scores or owner IDs",
+      "merge",
+      "publish",
+      "canon promote",
+      "claim independent Umpire signoff",
+      "silently create physical Atlas route"
+    ]
+  }
+}
