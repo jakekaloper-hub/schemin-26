@@ -1,0 +1,1039 @@
+{
+  "schema": "schemin26.truth_plane_row_diff.v1",
+  "run_id": "S26-MEMO-W10-20261111",
+  "trace_id": "TRACE-S26-MEMO-20261111-1417621",
+  "work_key": "league=1417621/season=2026/week=10/observation=2026-11-11/source=flaim-espn/manifest_sha=aea8588f085cbb409e94ecf6daabbe28690f931a",
+  "observation_date": "2026-11-11",
+  "league_id": "1417621",
+  "season": 2026,
+  "compared_to": "memo-os/week-9/WEEK_8_FINAL_WEEK_9_PROVIDER_EVIDENCE_2026-11-10.json",
+  "transaction_rows": {
+    "week8": {
+      "from": 32,
+      "to": 32,
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "week9": {
+      "from": 42,
+      "to": 42,
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "week10": {
+      "from": 0,
+      "to": 24,
+      "added": [
+        {
+          "id": "string:2d245ad6-e602-4471-adb6-30aed1c95bb5",
+          "current": {
+            "transaction_id": "2d245ad6-e602-4471-adb6-30aed1c95bb5",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "2d245ad6-e602-4471-adb6-30aed1c95bb5"
+            },
+            "type": "add",
+            "status": "complete",
+            "timestamp": 1794403228628,
+            "timestamp_source": "proposedDate",
+            "date": "2026-11-11",
+            "week": 10,
+            "provider_scoring_period_id": 10,
+            "team_ids": [
+              "11"
+            ],
+            "players_added": [
+              {
+                "id": "4258620",
+                "name": "Andre Szmyt",
+                "position": "K",
+                "team": "CLE"
+              }
+            ],
+            "players_dropped": [
+              {
+                "id": "3150744",
+                "name": "Chase McLaughlin",
+                "position": "K",
+                "team": "TB"
+              }
+            ],
+            "faab_bid": 0
+          }
+        },
+        {
+          "id": "string:8e12b63f-b328-4a7f-8d41-f4fb186ef143",
+          "current": {
+            "transaction_id": "8e12b63f-b328-4a7f-8d41-f4fb186ef143",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "8e12b63f-b328-4a7f-8d41-f4fb186ef143"
+            },
+            "type": "add",
+            "status": "complete",
+            "timestamp": 1794403109454,
+            "timestamp_source": "proposedDate",
+            "date": "2026-11-11",
+            "week": 10,
+            "provider_scoring_period_id": 10,
+            "team_ids": [
+              "11"
+            ],
+            "players_added": [
+              {
+                "id": "4431466",
+                "name": "Jordan Watkins",
+                "position": "WR",
+                "team": "SF"
+              }
+            ],
+            "players_dropped": [],
+            "faab_bid": 0
+          }
+        },
+        {
+          "id": "string:4bcc51d8-17bb-45c1-900d-c341c3506c90",
+          "current": {
+            "transaction_id": "4bcc51d8-17bb-45c1-900d-c341c3506c90",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "4bcc51d8-17bb-45c1-900d-c341c3506c90"
+            },
+            "type": "add",
+            "status": "complete",
+            "timestamp": 1794395549073,
+            "timestamp_source": "proposedDate",
+            "date": "2026-11-11",
+            "week": 10,
+            "provider_scoring_period_id": 10,
+            "team_ids": [
+              "6"
+            ],
+            "players_added": [
+              {
+                "id": "-16033",
+                "name": "Ravens D/ST",
+                "position": "D/ST",
+                "team": "BAL"
+              }
+            ],
+            "players_dropped": [
+              {
+                "id": "-16004",
+                "name": "Bengals D/ST",
+                "position": "D/ST",
+                "team": "CIN"
+              }
+            ],
+            "faab_bid": 0
+          }
+        },
+        {
+          "id": "string:8f6b5bd8-1fee-441b-8b8a-3fde56728d0b",
+          "current": {
+            "transaction_id": "8f6b5bd8-1fee-441b-8b8a-3fde56728d0b",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "8f6b5bd8-1fee-441b-8b8a-3fde56728d0b"
+            },
+            "type": "add",
+            "status": "complete",
+            "timestamp": 1794395383923,
+            "timestamp_source": "proposedDate",
+            "date": "2026-11-11",
+            "week": 10,
+            "provider_scoring_period_id": 10,
+            "team_ids": [
+              "6"
+            ],
+            "players_added": [
+              {
+                "id": "4360797",
+                "name": "Tutu Atwell",
+                "position": "WR",
+                "team": "LAR"
+              }
+            ],
+            "players_dropped": [
+              {
+                "id": "4686468",
+                "name": "Seth McGowan",
+                "position": "RB",
+                "team": "IND"
+              }
+            ],
+            "faab_bid": 0
+          }
+        },
+        {
+          "id": "string:2a75823c-a099-47c5-baf5-867f1e86f101",
+          "current": {
+            "transaction_id": "2a75823c-a099-47c5-baf5-867f1e86f101",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "2a75823c-a099-47c5-baf5-867f1e86f101"
+            },
+            "type": "add",
+            "status": "complete",
+            "timestamp": 1794395152922,
+            "timestamp_source": "proposedDate",
+            "date": "2026-11-11",
+            "week": 10,
+            "provider_scoring_period_id": 10,
+            "team_ids": [
+              "6"
+            ],
+            "players_added": [
+              {
+                "id": "2576925",
+                "name": "Darren Waller",
+                "position": "TE",
+                "team": "CAR"
+              }
+            ],
+            "players_dropped": [
+              {
+                "id": "17372",
+                "name": "Chris Boswell",
+                "position": "K",
+                "team": "PIT"
+              }
+            ],
+            "faab_bid": 0
+          }
+        },
+        {
+          "id": "string:cca1ae9d-6f8f-481e-b6b9-fcf8558dd844",
+          "current": {
+            "transaction_id": "cca1ae9d-6f8f-481e-b6b9-fcf8558dd844",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "cca1ae9d-6f8f-481e-b6b9-fcf8558dd844"
+            },
+            "espn_related_event_id": {
+              "kind": "string",
+              "value": "82d60db0-ddb9-4ec0-aa4c-e993a5e69084"
+            },
+            "type": "waiver",
+            "status": "complete",
+            "timestamp": 1794387423093,
+            "timestamp_source": "processDate",
+            "date": "2026-11-11",
+            "week": 10,
+            "provider_scoring_period_id": 10,
+            "team_ids": [
+              "11"
+            ],
+            "players_added": [
+              {
+                "id": "4837248",
+                "name": "Fernando Mendoza",
+                "position": "QB",
+                "team": "LV"
+              }
+            ],
+            "players_dropped": [],
+            "faab_bid": 5
+          }
+        },
+        {
+          "id": "string:49445e70-59b7-4a14-a1d7-b21cfa6e40bc",
+          "current": {
+            "transaction_id": "49445e70-59b7-4a14-a1d7-b21cfa6e40bc",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "49445e70-59b7-4a14-a1d7-b21cfa6e40bc"
+            },
+            "espn_related_event_id": {
+              "kind": "string",
+              "value": "a6a5355d-da03-4eca-988b-27f9f162dbdc"
+            },
+            "type": "waiver",
+            "status": "failed",
+            "timestamp": 1794387423093,
+            "timestamp_source": "processDate",
+            "date": "2026-11-11",
+            "week": 10,
+            "provider_scoring_period_id": 10,
+            "team_ids": [
+              "11"
+            ],
+            "players_added": [
+              {
+                "id": "4710855",
+                "name": "Konata Mumpfield",
+                "position": "WR",
+                "team": "LAR"
+              }
+            ],
+            "players_dropped": [],
+            "faab_bid": 1,
+            "failure_reason": "FAILED_INVALIDPLAYERSOURCE"
+          }
+        },
+        {
+          "id": "string:fc5e84d1-7ea7-47d4-a08e-3c38fc38aafe",
+          "current": {
+            "transaction_id": "fc5e84d1-7ea7-47d4-a08e-3c38fc38aafe",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "fc5e84d1-7ea7-47d4-a08e-3c38fc38aafe"
+            },
+            "espn_related_event_id": {
+              "kind": "string",
+              "value": "b0b36732-02c3-4df9-93b7-d9354ca3e4ce"
+            },
+            "type": "waiver",
+            "status": "complete",
+            "timestamp": 1794387423093,
+            "timestamp_source": "processDate",
+            "date": "2026-11-11",
+            "week": 10,
+            "provider_scoring_period_id": 10,
+            "team_ids": [
+              "11"
+            ],
+            "players_added": [
+              {
+                "id": "4366031",
+                "name": "Tank Dell",
+                "position": "WR",
+                "team": "HOU"
+              }
+            ],
+            "players_dropped": [],
+            "faab_bid": 5
+          }
+        },
+        {
+          "id": "string:f2b292bb-3847-498e-9962-563243e3f43d",
+          "current": {
+            "transaction_id": "f2b292bb-3847-498e-9962-563243e3f43d",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "f2b292bb-3847-498e-9962-563243e3f43d"
+            },
+            "espn_related_event_id": {
+              "kind": "string",
+              "value": "c28878dd-9b4b-4353-9e52-0a8d32afbca6"
+            },
+            "type": "waiver",
+            "status": "failed",
+            "timestamp": 1794387423092,
+            "timestamp_source": "processDate",
+            "date": "2026-11-11",
+            "week": 10,
+            "provider_scoring_period_id": 10,
+            "team_ids": [
+              "8"
+            ],
+            "players_added": [
+              {
+                "id": "4710855",
+                "name": "Konata Mumpfield",
+                "position": "WR",
+                "team": "LAR"
+              }
+            ],
+            "players_dropped": [
+              {
+                "id": "4360423",
+                "name": "Michael Penix Jr.",
+                "position": "QB",
+                "team": "ATL"
+              }
+            ],
+            "faab_bid": 7,
+            "failure_reason": "FAILED_INVALIDPLAYERSOURCE"
+          }
+        },
+        {
+          "id": "string:b7f89b40-6db9-47a1-b5fa-9ede63498a48",
+          "current": {
+            "transaction_id": "b7f89b40-6db9-47a1-b5fa-9ede63498a48",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "b7f89b40-6db9-47a1-b5fa-9ede63498a48"
+            },
+            "espn_related_event_id": {
+              "kind": "string",
+              "value": "47495415-62c5-4b35-9d5c-5432ac20656e"
+            },
+            "type": "waiver",
+            "status": "failed",
+            "timestamp": 1794387423092,
+            "timestamp_source": "processDate",
+            "date": "2026-11-11",
+            "week": 10,
+            "provider_scoring_period_id": 10,
+            "team_ids": [
+              "8"
+            ],
+            "players_added": [
+              {
+                "id": "4431431",
+                "name": "Corey Kiner",
+                "position": "RB",
+                "team": "NE"
+              }
+            ],
+            "players_dropped": [
+              {
+                "id": "4360423",
+                "name": "Michael Penix Jr.",
+                "position": "QB",
+                "team": "ATL"
+              }
+            ],
+            "faab_bid": 12,
+            "failure_reason": "FAILED_INVALIDPLAYERSOURCE"
+          }
+        },
+        {
+          "id": "string:aeea3baf-be16-4f63-99ba-e5d7bcfa05f5",
+          "current": {
+            "transaction_id": "aeea3baf-be16-4f63-99ba-e5d7bcfa05f5",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "aeea3baf-be16-4f63-99ba-e5d7bcfa05f5"
+            },
+            "espn_related_event_id": {
+              "kind": "string",
+              "value": "8c4d15b6-9fe9-4b96-b277-e5b444ea04c7"
+            },
+            "type": "waiver",
+            "status": "complete",
+            "timestamp": 1794387423092,
+            "timestamp_source": "processDate",
+            "date": "2026-11-11",
+            "week": 10,
+            "provider_scoring_period_id": 10,
+            "team_ids": [
+              "1"
+            ],
+            "players_added": [
+              {
+                "id": "4682648",
+                "name": "Malachi Fields",
+                "position": "WR",
+                "team": "NYG"
+              }
+            ],
+            "players_dropped": [
+              {
+                "id": "4597703",
+                "name": "Tory Horton",
+                "position": "WR",
+                "team": "SEA"
+              }
+            ],
+            "faab_bid": 11
+          }
+        },
+        {
+          "id": "string:5458c52a-8d4e-4861-85b7-52a0d58e003e",
+          "current": {
+            "transaction_id": "5458c52a-8d4e-4861-85b7-52a0d58e003e",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "5458c52a-8d4e-4861-85b7-52a0d58e003e"
+            },
+            "espn_related_event_id": {
+              "kind": "string",
+              "value": "82626b76-6732-47ba-981d-7631ccb1b2b8"
+            },
+            "type": "waiver",
+            "status": "complete",
+            "timestamp": 1794387423092,
+            "timestamp_source": "processDate",
+            "date": "2026-11-11",
+            "week": 10,
+            "provider_scoring_period_id": 10,
+            "team_ids": [
+              "8"
+            ],
+            "players_added": [
+              {
+                "id": "4710855",
+                "name": "Konata Mumpfield",
+                "position": "WR",
+                "team": "LAR"
+              }
+            ],
+            "players_dropped": [
+              {
+                "id": "4831959",
+                "name": "Eli Raridon",
+                "position": "TE",
+                "team": "NE"
+              }
+            ],
+            "faab_bid": 11
+          }
+        },
+        {
+          "id": "string:8ad50ef3-4705-44da-be52-5b8702e81798",
+          "current": {
+            "transaction_id": "8ad50ef3-4705-44da-be52-5b8702e81798",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "8ad50ef3-4705-44da-be52-5b8702e81798"
+            },
+            "espn_related_event_id": {
+              "kind": "string",
+              "value": "ab5bb4c5-bb1a-4b41-b360-b682434aecc9"
+            },
+            "type": "waiver",
+            "status": "complete",
+            "timestamp": 1794387423091,
+            "timestamp_source": "processDate",
+            "date": "2026-11-11",
+            "week": 10,
+            "provider_scoring_period_id": 10,
+            "team_ids": [
+              "1"
+            ],
+            "players_added": [
+              {
+                "id": "2991662",
+                "name": "Mack Hollins",
+                "position": "WR",
+                "team": "NE"
+              }
+            ],
+            "players_dropped": [
+              {
+                "id": "4382466",
+                "name": "Jalen Nailor",
+                "position": "WR",
+                "team": "LV"
+              }
+            ],
+            "faab_bid": 27
+          }
+        },
+        {
+          "id": "string:4e10825c-af59-422e-8205-9afc0e727df5",
+          "current": {
+            "transaction_id": "4e10825c-af59-422e-8205-9afc0e727df5",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "4e10825c-af59-422e-8205-9afc0e727df5"
+            },
+            "espn_related_event_id": {
+              "kind": "string",
+              "value": "8d01b93f-1a31-4309-b26a-0062f023ed91"
+            },
+            "type": "waiver",
+            "status": "failed",
+            "timestamp": 1794387423091,
+            "timestamp_source": "processDate",
+            "date": "2026-11-11",
+            "week": 10,
+            "provider_scoring_period_id": 10,
+            "team_ids": [
+              "12"
+            ],
+            "players_added": [
+              {
+                "id": "2991662",
+                "name": "Mack Hollins",
+                "position": "WR",
+                "team": "NE"
+              }
+            ],
+            "players_dropped": [
+              {
+                "id": "4360569",
+                "name": "Jordan Mason",
+                "position": "RB",
+                "team": "MIN"
+              }
+            ],
+            "faab_bid": 16,
+            "failure_reason": "FAILED_INVALIDPLAYERSOURCE"
+          }
+        },
+        {
+          "id": "string:292454e4-5c5e-403c-a896-624cd64852b1",
+          "current": {
+            "transaction_id": "292454e4-5c5e-403c-a896-624cd64852b1",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "292454e4-5c5e-403c-a896-624cd64852b1"
+            },
+            "espn_related_event_id": {
+              "kind": "string",
+              "value": "7a77b972-84c6-4fe2-bd70-ef47c0bb1a72"
+            },
+            "type": "waiver",
+            "status": "failed",
+            "timestamp": 1794387423091,
+            "timestamp_source": "processDate",
+            "date": "2026-11-11",
+            "week": 10,
+            "provider_scoring_period_id": 10,
+            "team_ids": [
+              "3"
+            ],
+            "players_added": [
+              {
+                "id": "4431431",
+                "name": "Corey Kiner",
+                "position": "RB",
+                "team": "NE"
+              }
+            ],
+            "players_dropped": [
+              {
+                "id": "4686658",
+                "name": "Mike Washington Jr.",
+                "position": "RB",
+                "team": "LV"
+              }
+            ],
+            "faab_bid": 13,
+            "failure_reason": "FAILED_INVALIDPLAYERSOURCE"
+          }
+        },
+        {
+          "id": "string:de00703e-a66c-4073-8e62-eee4cbb0a83e",
+          "current": {
+            "transaction_id": "de00703e-a66c-4073-8e62-eee4cbb0a83e",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "de00703e-a66c-4073-8e62-eee4cbb0a83e"
+            },
+            "espn_related_event_id": {
+              "kind": "string",
+              "value": "e778ad7f-0ac3-4718-8beb-6917dab8b5e0"
+            },
+            "type": "waiver",
+            "status": "failed",
+            "timestamp": 1794387423090,
+            "timestamp_source": "processDate",
+            "date": "2026-11-11",
+            "week": 10,
+            "provider_scoring_period_id": 10,
+            "team_ids": [
+              "12"
+            ],
+            "players_added": [
+              {
+                "id": "4366031",
+                "name": "Tank Dell",
+                "position": "WR",
+                "team": "HOU"
+              }
+            ],
+            "players_dropped": [
+              {
+                "id": "4360569",
+                "name": "Jordan Mason",
+                "position": "RB",
+                "team": "MIN"
+              }
+            ],
+            "faab_bid": 30,
+            "failure_reason": "FAILED_PLAYERALREADYDROPPED"
+          }
+        },
+        {
+          "id": "string:a860fe7d-4a71-4798-9b22-dee667603872",
+          "current": {
+            "transaction_id": "a860fe7d-4a71-4798-9b22-dee667603872",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "a860fe7d-4a71-4798-9b22-dee667603872"
+            },
+            "espn_related_event_id": {
+              "kind": "string",
+              "value": "473f8738-8d3d-45c4-9e7b-062ae0cf21a1"
+            },
+            "type": "waiver",
+            "status": "complete",
+            "timestamp": 1794387423090,
+            "timestamp_source": "processDate",
+            "date": "2026-11-11",
+            "week": 10,
+            "provider_scoring_period_id": 10,
+            "team_ids": [
+              "12"
+            ],
+            "players_added": [
+              {
+                "id": "4431431",
+                "name": "Corey Kiner",
+                "position": "RB",
+                "team": "NE"
+              }
+            ],
+            "players_dropped": [
+              {
+                "id": "4360569",
+                "name": "Jordan Mason",
+                "position": "RB",
+                "team": "MIN"
+              }
+            ],
+            "faab_bid": 35
+          }
+        },
+        {
+          "id": "string:19496959-2b98-4e4a-b346-4991f2d63e74",
+          "current": {
+            "transaction_id": "19496959-2b98-4e4a-b346-4991f2d63e74",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "19496959-2b98-4e4a-b346-4991f2d63e74"
+            },
+            "espn_related_event_id": {
+              "kind": "string",
+              "value": "5725d623-757e-4d4a-82ee-13cb42eba5ba"
+            },
+            "type": "waiver",
+            "status": "canceled",
+            "timestamp": 1794365116189,
+            "timestamp_source": "proposedDate",
+            "date": "2026-11-10",
+            "week": 10,
+            "provider_scoring_period_id": 10,
+            "team_ids": [
+              "11"
+            ],
+            "players_added": [
+              {
+                "id": "4710855",
+                "name": "Konata Mumpfield",
+                "position": "WR",
+                "team": "LAR"
+              }
+            ],
+            "players_dropped": [],
+            "faab_bid": 0
+          }
+        },
+        {
+          "id": "string:71e30879-8174-417d-b093-aa8c620ebe6b",
+          "current": {
+            "transaction_id": "71e30879-8174-417d-b093-aa8c620ebe6b",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "71e30879-8174-417d-b093-aa8c620ebe6b"
+            },
+            "type": "drop",
+            "status": "complete",
+            "timestamp": 1794347946739,
+            "timestamp_source": "proposedDate",
+            "date": "2026-11-10",
+            "week": 10,
+            "provider_scoring_period_id": 10,
+            "team_ids": [
+              "11"
+            ],
+            "players_added": [],
+            "players_dropped": [
+              {
+                "id": "4432773",
+                "name": "Brian Thomas Jr.",
+                "position": "WR",
+                "team": "JAX"
+              }
+            ],
+            "faab_bid": 0
+          }
+        },
+        {
+          "id": "string:aa2f811b-9adc-43f4-982f-0426eaeb8f99",
+          "current": {
+            "transaction_id": "aa2f811b-9adc-43f4-982f-0426eaeb8f99",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "aa2f811b-9adc-43f4-982f-0426eaeb8f99"
+            },
+            "type": "drop",
+            "status": "complete",
+            "timestamp": 1794347870306,
+            "timestamp_source": "proposedDate",
+            "date": "2026-11-10",
+            "week": 10,
+            "provider_scoring_period_id": 10,
+            "team_ids": [
+              "11"
+            ],
+            "players_added": [],
+            "players_dropped": [
+              {
+                "id": "4870847",
+                "name": "Ja'Kobi Lane",
+                "position": "WR",
+                "team": "BAL"
+              }
+            ],
+            "faab_bid": 0
+          }
+        },
+        {
+          "id": "string:f1def487-ed5e-46db-9296-b3954235bacb",
+          "current": {
+            "transaction_id": "f1def487-ed5e-46db-9296-b3954235bacb",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "f1def487-ed5e-46db-9296-b3954235bacb"
+            },
+            "type": "drop",
+            "status": "complete",
+            "timestamp": 1794347852344,
+            "timestamp_source": "proposedDate",
+            "date": "2026-11-10",
+            "week": 10,
+            "provider_scoring_period_id": 10,
+            "team_ids": [
+              "11"
+            ],
+            "players_added": [],
+            "players_dropped": [
+              {
+                "id": "4242512",
+                "name": "Malik Willis",
+                "position": "QB",
+                "team": "MIA"
+              }
+            ],
+            "faab_bid": 0
+          }
+        },
+        {
+          "id": "string:269695cf-22d6-42d4-bde4-892589c6c240",
+          "current": {
+            "transaction_id": "269695cf-22d6-42d4-bde4-892589c6c240",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "269695cf-22d6-42d4-bde4-892589c6c240"
+            },
+            "espn_related_event_id": {
+              "kind": "string",
+              "value": "e4008d0a-7959-4dd6-b7f2-faa7f0c8a02d"
+            },
+            "type": "waiver",
+            "status": "canceled",
+            "timestamp": 1794347797946,
+            "timestamp_source": "proposedDate",
+            "date": "2026-11-10",
+            "week": 10,
+            "provider_scoring_period_id": 10,
+            "team_ids": [
+              "11"
+            ],
+            "players_added": [
+              {
+                "id": "4366031",
+                "name": "Tank Dell",
+                "position": "WR",
+                "team": "HOU"
+              }
+            ],
+            "players_dropped": [
+              {
+                "id": "4432773",
+                "name": "Brian Thomas Jr.",
+                "position": "WR",
+                "team": "JAX"
+              }
+            ],
+            "faab_bid": 0
+          }
+        },
+        {
+          "id": "string:8c4d15b6-9fe9-4b96-b277-e5b444ea04c7",
+          "current": {
+            "transaction_id": "8c4d15b6-9fe9-4b96-b277-e5b444ea04c7",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "8c4d15b6-9fe9-4b96-b277-e5b444ea04c7"
+            },
+            "type": "waiver",
+            "status": "pending",
+            "timestamp": 1794346080686,
+            "timestamp_source": "proposedDate",
+            "date": "2026-11-10",
+            "week": 10,
+            "provider_scoring_period_id": 10,
+            "team_ids": [
+              "1"
+            ],
+            "players_added": [
+              {
+                "id": "4682648",
+                "name": "Malachi Fields",
+                "position": "WR",
+                "team": "NYG"
+              }
+            ],
+            "players_dropped": [
+              {
+                "id": "4597703",
+                "name": "Tory Horton",
+                "position": "WR",
+                "team": "SEA"
+              }
+            ],
+            "faab_bid": 11,
+            "claim_outcome": {
+              "status": "complete",
+              "outcome_event_id": {
+                "kind": "string",
+                "value": "aeea3baf-be16-4f63-99ba-e5d7bcfa05f5"
+              }
+            }
+          }
+        },
+        {
+          "id": "string:ab5bb4c5-bb1a-4b41-b360-b682434aecc9",
+          "current": {
+            "transaction_id": "ab5bb4c5-bb1a-4b41-b360-b682434aecc9",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "ab5bb4c5-bb1a-4b41-b360-b682434aecc9"
+            },
+            "type": "waiver",
+            "status": "pending",
+            "timestamp": 1794346062744,
+            "timestamp_source": "proposedDate",
+            "date": "2026-11-10",
+            "week": 10,
+            "provider_scoring_period_id": 10,
+            "team_ids": [
+              "1"
+            ],
+            "players_added": [
+              {
+                "id": "2991662",
+                "name": "Mack Hollins",
+                "position": "WR",
+                "team": "NE"
+              }
+            ],
+            "players_dropped": [
+              {
+                "id": "4382466",
+                "name": "Jalen Nailor",
+                "position": "WR",
+                "team": "LV"
+              }
+            ],
+            "faab_bid": 27,
+            "claim_outcome": {
+              "status": "complete",
+              "outcome_event_id": {
+                "kind": "string",
+                "value": "8ad50ef3-4705-44da-be52-5b8702e81798"
+              }
+            }
+          }
+        }
+      ],
+      "removed": [],
+      "modified": []
+    }
+  },
+  "week9_score_changes": [],
+  "week10_pairing_changes": [],
+  "standings_record_changes": [],
+  "checks": [
+    {
+      "name": "league identity",
+      "passed": true
+    },
+    {
+      "name": "12 standings teams",
+      "passed": true
+    },
+    {
+      "name": "12 distinct valid seeds",
+      "passed": true
+    },
+    {
+      "name": "week8 six pairings",
+      "passed": true
+    },
+    {
+      "name": "week8 valid point scores",
+      "passed": true
+    },
+    {
+      "name": "week8 result scoring coherent",
+      "passed": true
+    },
+    {
+      "name": "week8 transaction provider and bounded coverage",
+      "passed": true
+    },
+    {
+      "name": "week9 six pairings",
+      "passed": true
+    },
+    {
+      "name": "week9 valid point scores",
+      "passed": true
+    },
+    {
+      "name": "week9 result scoring coherent",
+      "passed": true
+    },
+    {
+      "name": "week9 transaction provider and bounded coverage",
+      "passed": true
+    },
+    {
+      "name": "week10 six pairings",
+      "passed": true
+    },
+    {
+      "name": "week10 valid point scores",
+      "passed": true
+    },
+    {
+      "name": "week10 result scoring coherent",
+      "passed": true
+    },
+    {
+      "name": "week10 transaction provider and bounded coverage",
+      "passed": true
+    },
+    {
+      "name": "week8 transaction rows exact same baseline",
+      "passed": true
+    },
+    {
+      "name": "week9 transaction rows exact same baseline",
+      "passed": true
+    },
+    {
+      "name": "week10 observed 24 new rows",
+      "passed": true
+    },
+    {
+      "name": "week9 official final scores and winners unchanged",
+      "passed": true
+    },
+    {
+      "name": "week10 opponent pairs unchanged",
+      "passed": true
+    },
+    {
+      "name": "standings wins-losses-seed-points unchanged",
+      "passed": true
+    },
+    {
+      "name": "week10 all zero undecided",
+      "passed": true
+    },
+    {
+      "name": "gateway manifest says not stale",
+      "passed": true
+    }
+  ]
+}
