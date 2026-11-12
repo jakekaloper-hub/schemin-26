@@ -330,6 +330,39 @@
           "minimum": 1
         }
       }
+    },
+    "source_mapping": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_beat_ids",
+        "source_classifications",
+        "branch_variants"
+      ],
+      "properties": {
+        "source_beat_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_classifications": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "branch_variants": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "COMMON",
+              "HOME_WIN",
+              "AWAY_WIN"
+            ]
+          }
+        }
+      }
     }
   }
 }
