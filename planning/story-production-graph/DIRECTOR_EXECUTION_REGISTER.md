@@ -1,10 +1,12 @@
-# Story Production Graph V1 — Director Execution Register
+# Story Production Graph V1 — Bullpen Domain Implementation Register
 
 **Mission:** #306  
 **Implementation:** draft PR #307  
-**Rule:** a Director lane is COMPLETE only when a repository artifact and corresponding verification exist. Discussion alone does not count.
+**Evidence boundary:** this file maps implementation artifacts to canonical Bullpen domains. It is **not** evidence that authenticated Bullpen Core Directors were invoked. A Director may be claimed as having acted only when a canonical route/invocation receipt exists. No such authenticated Director receipt is recorded for PR #307.
 
-| Director | Domain deliverable | Current implementation |
+**Rule:** domain implementation is COMPLETE only when a repository artifact and corresponding verification exist. Discussion or role labels alone do not count.
+
+| Bullpen domain mapping | Domain deliverable | Current implementation evidence |
 |---|---|---|
 | Closer | one mission / one North Star / dependency order | Issue #306 + this register |
 | Setup Man | deterministic build graph + partial recompilation | `dependency_invalidation.py`, `build_compiler_manifest.py` |
@@ -89,3 +91,7 @@ Bullpen Runtime CI: **PASS**.
 Cross-Domain Authority CI: **PASS**.
 
 Independent Umpire acceptance remains external by repository constitution and is not self-certified here.
+
+## Audit #308 correction
+
+Earlier versions of this register used Director names as if domain ownership implied authenticated Director participation. That interpretation is superseded. The artifacts above are real repository work mapped to Bullpen domains; they are not Director invocation receipts. Independent Umpire acceptance remains separate and unperformed.
