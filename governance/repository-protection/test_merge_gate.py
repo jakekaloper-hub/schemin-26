@@ -75,6 +75,18 @@ class MergeGatePlannerTests(unittest.TestCase):
             merge_gate.plan(["planning/story-production-graph/scene_v1.schema.json"]),
         )
 
+    def test_audience_site_change_runs_audience_site_suite(self):
+        self.assertIn(
+            "audience_site",
+            merge_gate.plan(["productions/audience-site/build_public_catalog.py"]),
+        )
+
+    def test_story_graph_public_consumer_change_runs_audience_site_suite(self):
+        self.assertIn(
+            "audience_site",
+            merge_gate.plan(["planning/story-production-graph/generated/2026/web_index.json"]),
+        )
+
     def test_character_native_render_plan_runs_mission(self):
         self.assertIn(
             "mission",
