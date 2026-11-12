@@ -5,6 +5,7 @@ This creates planning jobs only. It never renders or publishes.
 """
 from __future__ import annotations
 from collections import defaultdict
+from graph_integrity import source_fingerprint
 
 def _classify(key):
     if "::RESULT" in key: return "RESULT"
@@ -45,6 +46,7 @@ def build_manifest(events,scenes,source_snapshot="story-graph-source"):
       "schema_version":"1.0",
       "build_id":"BUILD-STORY-GRAPH-V1",
       "source_snapshot":source_snapshot,
+      "source_fingerprint_sha256":source_fingerprint(events,scenes,[]),
       "inputs":{
         "event_ids":[e["event_id"] for e in events],
         "scene_ids":[s["scene_id"] for s in scenes],
