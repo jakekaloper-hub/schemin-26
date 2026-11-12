@@ -69,6 +69,12 @@ class MergeGatePlannerTests(unittest.TestCase):
     def test_novel_workflow_change_runs_novel(self):
         self.assertIn("novel", merge_gate.plan([".github/workflows/novel-os-ci.yml"]))
 
+    def test_story_production_graph_change_runs_story_graph_suite(self):
+        self.assertIn(
+            "story_graph",
+            merge_gate.plan(["planning/story-production-graph/scene_v1.schema.json"]),
+        )
+
     def test_character_native_render_plan_runs_mission(self):
         self.assertIn(
             "mission",
