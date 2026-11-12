@@ -154,7 +154,8 @@
             "type": "object",
             "required": [
               "upstream",
-              "downstream"
+              "downstream",
+              "dependency_class"
             ],
             "properties": {
               "upstream": {
@@ -162,8 +163,20 @@
               },
               "downstream": {
                 "type": "string"
+              },
+              "dependency_class": {
+                "enum": [
+                  "BASE",
+                  "RESULT",
+                  "CHARACTER",
+                  "LOCATION",
+                  "COPY",
+                  "AUDIO",
+                  "PRESENTATION"
+                ]
               }
-            }
+            },
+            "additionalProperties": false
           }
         }
       }
