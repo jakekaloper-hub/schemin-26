@@ -48,6 +48,13 @@
           "items": {
             "type": "string"
           }
+        },
+        "memo_issue_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^MEMO-2026-W\\d{2}$"
+          }
         }
       }
     },
