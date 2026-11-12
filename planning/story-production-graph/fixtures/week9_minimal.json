@@ -139,7 +139,11 @@
       ]
     },
     "dependencies": [
-      "EVT-W09-DUCKHOOK-OBIWAN",
+      "EVT-W09-DUCKHOOK-OBIWAN::BASE",
+      "EVT-W09-DUCKHOOK-OBIWAN::RESULT",
+      "CHAR::CHAR-DUCKHOOK",
+      "CHAR::CHAR-OBIWAN",
+      "LOC::LOC-COUNTRY-CLUB-JACKSON",
       "W09-P07"
     ],
     "outputs": [
