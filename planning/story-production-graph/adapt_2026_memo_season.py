@@ -76,6 +76,22 @@ def event(week,idx,home,away,home_score,away_score,winner_side,source,status="PR
     if extra: out["notes"].extend(extra)
     return out
 
+def neutral_result_event(week,idx,winner,loser,winner_score,loser_score,source,status="PROVISIONAL",canon="BRANCHABLE",extra=None):
+    out=event(week,idx,winner,loser,winner_score,loser_score,"HOME",source,status,canon,extra)
+    winner_id,winner_char=TEAM[winner]
+    loser_id,loser_char=TEAM[loser]
+    out["result"]={
+      "home_away_known":False,
+      "winner_team_id":winner_id,
+      "winner":winner,
+      "winner_score":float(winner_score),
+      "loser_team_id":loser_id,
+      "loser":loser,
+      "loser_score":float(loser_score),
+    }
+    out["state"]["branch_state"]="SETTLED" if canon=="ACCEPTED" else "NOT_APPLICABLE"
+    return out
+
 def week3_events():
     path="memo-os/week-3/WEEK_3_FACT_LOCK_V1.md"
     text=read_text(path)
@@ -84,7 +100,7 @@ def week3_events():
     for i,m in enumerate(pat.finditer(text),1):
         winner,ws,loser,ls=m.groups()
         # Fact-lock prose is winner-first, not home/away. Preserve as home=winner for envelope only.
-        rows.append(event(3,i,winner,loser,ws,ls,"HOME",path,"VERIFIED","ACCEPTED",["Source line is winner-first; home/away venue semantics not asserted by this adapter."]))
+        rows.append(neutral_result_event(3,i,winner,loser,ws,ls,path,"VERIFIED","ACCEPTED",["Source line is winner-first; home/away venue semantics are unknown and not encoded."]))
     return rows
 
 def week4_events():
@@ -94,7 +110,7 @@ def week4_events():
     rows=[]
     for i,m in enumerate(pat.finditer(text),1):
         winner,ws,loser,ls=m.groups()
-        rows.append(event(4,i,winner,loser,ws,ls,"HOME",path,"PROVISIONAL","BRANCHABLE",["Deterministic final-manuscript result line; Week 4 publication remains BLOCKED in Publication Manifest."]))
+        rows.append(neutral_result_event(4,i,winner,loser,ws,ls,path,"PROVISIONAL","BRANCHABLE",["Deterministic final-manuscript result line; Week 4 publication remains BLOCKED; home/away is not inferred."]))
     return rows
 
 def week5_events():
@@ -103,7 +119,7 @@ def week5_events():
     for i,p in enumerate(d["pages"],1):
         home=p["home"]; away=p["away"]; winner=p["winner"].rstrip(".")
         hname=home["name"].rstrip(); aname=away["name"].rstrip()
-        side="HOME" if winner.rstrip(".")==hname.rstrip(".") else "AWAY"
+        side="HOME" if norm_name(winner)==norm_name(hname) else "AWAY"
         rows.append(event(5,i,hname,aname,home["score"],away["score"],side,path,"VERIFIED","ACCEPTED",[p["evidence_state"]]))
     return rows
 
@@ -157,7 +173,7 @@ def week6_encounters(events):
           "location":{"location_id":x["home_loc"],"entering_state_receipt":path},
           "persistent_scene_anchors":list(x["anchor_sequence"]),
           "shared_conditions":{"props":[]},
-          "scene_ids":[],
+          "scene_ids":[f"SCN-2026-W06-M{n:02d}-SPATIAL"],
           "branch_policy":{"supports_outcome_branches":False,"settled_branch":"NOT_APPLICABLE"},
           "notes":[x["activity"],*x["physical_checks"]],
         })
