@@ -18,7 +18,7 @@ def build():
             jid=f"JOB-{issue['issue_id']}-{surface}"
             manifest["jobs"].append({
               "job_id":jid,"surface":surface,"depends_on":[issue["issue_id"]],
-              "render_profile":None,"status":"READY"
+              "render_profile":None,"status":"READY" if issue["publication_state"]=="RELEASED" and issue["binary_in_repo"] else "BLOCKED"
             })
             manifest["invalidation"]["dependency_edges"].append({
               "upstream":issue["issue_id"],"downstream":jid,"dependency_class":"BASE"
