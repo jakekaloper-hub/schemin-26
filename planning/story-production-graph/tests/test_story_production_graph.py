@@ -30,7 +30,7 @@ class StoryGraphTests(unittest.TestCase):
 
     def test_minimal_rebuild_jobs(self):
         c=FIX["compiler"]
-        jobs=inv.minimal_rebuild_jobs(c["invalidation"]["dependency_edges"],[FIX["event"]["event_id"]],c["jobs"])
+        jobs=inv.minimal_rebuild_jobs(c["invalidation"]["dependency_edges"],[FIX["event"]["event_id"]+"::RESULT"],c["jobs"])
         self.assertEqual(jobs,["JOB-W09-M01-MOTION","JOB-W09-M01-PNG"])
 
     def test_character_projection_is_rebuildable_and_derived(self):
