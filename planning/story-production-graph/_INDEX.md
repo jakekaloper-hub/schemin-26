@@ -23,11 +23,15 @@ This directory owns **integration contracts only**. It is not a new canon databa
 
 ## Contracts
 - `event_v1.schema.json` — canonical event envelope that references upstream authority.
+- `encounter_v1.schema.json` — shared encounter state inherited by related scenes; prevents repeating or drifting venue/participant anchors.
 - `scene_v1.schema.json` — reusable scene object with encounter inheritance, continuity and state deltas.
 - `chronicle_projection_v1.schema.json` — derived read model for character/relationship/place/artifact history.
 - `compiler_manifest_v1.schema.json` — build lineage and dependency/invalidation manifest.
 - `fixtures/week9_minimal.json` — narrow Week 9 conformance fixture, not a rewrite of Week 9 canon.
 - `validate_story_graph.py` — dependency-free structural validator.
+- `dependency_invalidation.py` — transitive impact calculation and minimal rebuild-job selection.
+- `build_chronicle_projection.py` — rebuildable character/relationship Chronicle read-model helpers.
+- `tests/test_story_production_graph.py` — conformance tests for structural validation, invalidation and Chronicle derivation.
 
 ## Board ownership
 - Closer: mission scope and convergence
@@ -61,3 +65,12 @@ This directory owns **integration contracts only**. It is not a new canon databa
 
 ## First conformance target
 Week 9 is the first fixture because its existing previs already proves matchup cards, page contracts, written beats, branch endings, character references, composition fields, adjacency and QA structure. The fixture here demonstrates translation only; it does not supersede any Week 9 file.
+
+## Execution state — 2026-11-12
+
+- Issue #306 is the authoritative implementation mission.
+- PR #307 is the draft implementation surface.
+- Repository Merge Gate and Bullpen Runtime CI passed on the initial seven-file contract tranche.
+- Encounter inheritance, invalidation, Chronicle projection helpers and tests are now implemented on the same branch and require fresh exact-HEAD CI.
+- External Netlify deploy-preview reported failure on the earlier HEAD; no site/runtime code was changed in that tranche, so it remains an explicit independent hold rather than a Story Graph acceptance signal.
+- Project Control remains unpromoted pending exact-HEAD CI, multi-matchup conformance and independent Umpire acceptance.
