@@ -67,3 +67,25 @@
 - independent Umpire acceptance;
 - Project Control promotion decision;
 - actual renderer execution remains out of scope until upstream readiness.
+
+## Season-wide completion — Weeks 1–9
+
+Exact season adapter coverage is now implemented and tested.
+
+- 9/9 memo cycles registered.
+- W1/W2 external canonical PDF gaps preserved explicitly; no reconstructed page claims.
+- W3–W9: 42 matchup Events total, exactly 6 per week.
+- 12/12 current character Chronicle timelines; each has 7 recoverable W3–W9 matchup events.
+- Scene hydration spans W5, W6 and W9 from exact repo-native source packets.
+- W6 has six exact-location Encounter objects from the spatial preflight.
+- One season compiler contains all nine Memo Issue IDs and 18 issue-level WEB/TIMELINE jobs, plus scene-dependent output jobs.
+- All registry authority/fact/story/scene paths resolve to tracked repository files.
+- World writeback remains disabled by default across all adapted matchup Events.
+
+### Exact-head automated evidence
+Repository Merge Gate Story Graph suite: **PASS**.
+Season-wide Story Graph test suite: **33 tests PASS**.
+Bullpen Runtime CI: **PASS**.
+Cross-Domain Authority CI: **PASS**.
+
+Independent Umpire acceptance remains external by repository constitution and is not self-certified here.
