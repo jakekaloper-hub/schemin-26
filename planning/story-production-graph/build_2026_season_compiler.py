@@ -7,11 +7,13 @@ BASE=Path(__file__).resolve().parent
 sys.path.insert(0,str(BASE))
 from adapt_2026_memo_season import compile_season
 from build_compiler_manifest import build_manifest
+from graph_integrity import source_fingerprint
 
 def build():
     season=compile_season()
     manifest=build_manifest(season["events"],season["scenes"],"2026-memos-w01-w09")
     manifest["build_id"]="BUILD-2026-MEMOS-W01-W09"
+    manifest["source_fingerprint_sha256"]=source_fingerprint(season["events"],season["scenes"],season["issues"])
     manifest["inputs"]["memo_issue_ids"]=[i["issue_id"] for i in season["issues"]]
     for issue in season["issues"]:
         for surface in ("WEB","TIMELINE"):
