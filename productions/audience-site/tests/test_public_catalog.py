@@ -80,6 +80,48 @@ class PublicCatalogV2Tests(unittest.TestCase):
         self.assertTrue(all(x["releaseState"]=="CANON_CLOSED" for x in data["chapters"]))
         self.assertTrue(all(x["text"] for x in data["chapters"]))
 
+    def test_public_catalog_omits_internal_editorial_fields(self):
+        self.assertIsNotNone(self.builder)
+        with tempfile.TemporaryDirectory() as td:
+            data=self.builder.build_catalog(pathlib.Path(td),render=False)
+        forbidden={"open_questions","candidate_catalog","editorial_candidates","credentials","tokens","private_analysis"}
+        def walk(value):
+            if isinstance(value,dict):
+                self.assertTrue(forbidden.isdisjoint(value.keys()),f"forbidden public keys: {forbidden & set(value)}")
+                for child in value.values(): walk(child)
+            elif isinstance(value,list):
+                for child in value: walk(child)
+        walk(data)
+
+    def test_public_source_links_are_revision_pinned(self):
+        self.assertIsNotNone(self.builder)
+        with tempfile.TemporaryDirectory() as td:
+            data=self.builder.build_catalog(pathlib.Path(td),render=False)
+        urls=[]
+        def walk(value):
+            if isinstance(value,dict):
+                for key,child in value.items():
+                    if key=="sourceUrl" and child: urls.append(child)
+                    walk(child)
+            elif isinstance(value,list):
+                for child in value: walk(child)
+        walk(data)
+        self.assertTrue(urls)
+        self.assertTrue(all("/blob/"+self.builder.REVISION+"/" in u or "/media/jakekaloper-hub/schemin-26/"+self.builder.REVISION+"/" in u for u in urls))
+        self.assertTrue(all("/blob/main/" not in u for u in urls))
+
+    def test_missing_released_artifact_never_becomes_active(self):
+        self.assertIsNotNone(self.builder)
+        issue={
+          "issue_id":"MEMO-2026-W99","week":99,"publication_state":"RELEASED",
+          "source_class":"TEST","coverage_state":"TEST","binary_in_repo":True,
+          "canonical_artifact":"does/not/exist.pdf","event_count":0,"encounter_count":0,
+          "scene_count":0,"scene_ids":[],"consumer_jobs":[]
+        }
+        projected=self.builder._project_memo(issue)
+        self.assertFalse(projected["available"])
+        self.assertIsNone(projected.get("pdf"))
+
     def test_dist_data_written_and_public_projection_is_read_only(self):
         self.assertIsNotNone(self.builder)
         with tempfile.TemporaryDirectory() as td:
