@@ -219,6 +219,38 @@ def week5_scenes(events):
         })
     return out
 
+def week5_encounters(events,scenes):
+    event_by={e["event_id"]:e for e in events if e["league_time"]["week"]==5}
+    grouped={}
+    for s in scenes:
+        if s["event_id"] in event_by:
+            grouped.setdefault(s["event_id"],[]).append(s)
+    out=[]
+    for eid,rows in sorted(grouped.items()):
+        first=rows[0]
+        locations={s["location"]["location_id"] for s in rows}
+        if len(locations)!=1:
+            raise AssertionError(f"Week 5 encounter {eid} spans inconsistent locations: {sorted(locations)}")
+        participants=sorted({c["character_id"] for s in rows for c in s["cast"]})
+        out.append({
+          "schema_version":"1.0",
+          "encounter_id":first["encounter_id"],
+          "event_id":eid,
+          "authority":{
+            "source_receipts":sorted({r for s in rows for r in s["authority"]["source_receipts"]}),
+            "world_authority":first["authority"]["world_authority"],
+            "character_authority":first["authority"]["character_authority"],
+          },
+          "participants":participants,
+          "location":{"location_id":next(iter(locations)),"entering_state_receipt":first["location"]["entering_state_receipt"]},
+          "persistent_scene_anchors":sorted({a for s in rows for a in s["location"].get("persistent_anchors",[])}),
+          "shared_conditions":{"props":[]},
+          "scene_ids":[s["scene_id"] for s in rows],
+          "branch_policy":{"supports_outcome_branches":False,"settled_branch":"SETTLED"},
+          "notes":["Derived from source-backed Week 5 page packets; no new story authority."],
+        })
+    return out
+
 def week6_scenes(events,encounters):
     ev_by={e["event_id"]:e for e in events}
     path="memo-os/week-6/WEEK_6_SPATIAL_ACTION_PREFLIGHT_V1.json"
@@ -273,9 +305,11 @@ def week9_graph():
 def compile_season():
     events=all_events()
     w9enc,w9scenes=week9_graph()
+    w5scenes=week5_scenes(events)
+    w5enc=week5_encounters(events,w5scenes)
     w6enc=week6_encounters(events)
-    encounters=w6enc+w9enc
-    scenes=week5_scenes(events)+week6_scenes(events,w6enc)+w9scenes
+    encounters=w5enc+w6enc+w9enc
+    scenes=w5scenes+week6_scenes(events,w6enc)+w9scenes
     issues=issue_nodes()
     return {
       "schema_version":"1.0",
