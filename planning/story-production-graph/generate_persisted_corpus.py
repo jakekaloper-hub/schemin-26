@@ -30,6 +30,10 @@ def check():
     if problems: raise AssertionError(problems)
     for i,s in enumerate(scenes["scenes"]):
         validate(s,load_schema("scene"),f"persisted.scenes[{i}]")
+    chron_schema=load_schema("chronicle")
+    for group in ("character_timelines","relationship_histories","place_memory","artifact_custody"):
+        for key,projection in chron[group].items():
+            validate(projection,chron_schema,f"persisted.{group}.{key}")
     print(f"PERSISTED_CORPUS_PASS scenes={len(scenes['scenes'])} characters={len(chron['character_timelines'])}")
 
 def main():
