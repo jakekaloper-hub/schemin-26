@@ -89,7 +89,7 @@ SUITE_COMMANDS = {
         "python planning/story-production-graph/validate_story_graph.py",
         "python planning/story-production-graph/mutation_exercise.py",
         "python planning/story-production-graph/generate_persisted_corpus.py --check",
-        "python planning/story-production-graph/build_downstream_consumers.py --stdout",
+        "python planning/story-production-graph/build_downstream_consumers.py --check",
         "python -m unittest discover -s planning/story-production-graph/tests -p 'test_*.py' -v",
     ],
     "publication": [
