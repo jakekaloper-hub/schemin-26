@@ -92,6 +92,15 @@ SUITE_COMMANDS = {
         "python planning/story-production-graph/build_downstream_consumers.py --check",
         "python -m unittest discover -s planning/story-production-graph/tests -p 'test_*.py' -v",
     ],
+    "audience_site": [
+        "python productions/audience-site/tests/test_public_catalog.py",
+        "npm --prefix productions/audience-site test",
+        "python productions/audience-site/build_public_catalog.py --no-render",
+        "python planning/story-production-graph/build_downstream_consumers.py --check",
+        "python governance/publication-manifest/validate_publication_manifest.py",
+        "python governance/repository-architecture/validate_repository_architecture.py",
+        "python world/qa/test_one_world_model_contract.py",
+    ],
     "publication": [
         "python -m py_compile governance/publication-manifest/validate_publication_manifest.py",
         "python governance/publication-manifest/validate_publication_manifest.py",
@@ -99,7 +108,7 @@ SUITE_COMMANDS = {
     ],
 }
 
-ORDER = ["architecture", "execution_control", "resilience", "orientation", "authority", "mission", "data", "character", "novel", "memo", "world", "story_graph", "release", "publication", "bullpen"]
+ORDER = ["architecture", "execution_control", "resilience", "orientation", "authority", "mission", "data", "character", "novel", "memo", "world", "story_graph", "audience_site", "release", "publication", "bullpen"]
 
 def _starts(path: str, prefix: str) -> bool:
     return path == prefix.rstrip("/") or path.startswith(prefix)
@@ -232,6 +241,16 @@ def suites_for_path(path: str) -> set[str]:
         suites.add("publication")
     if _starts(path, "planning/story-production-graph/"):
         suites.add("story_graph")
+    if (
+        _starts(path, "productions/audience-site/")
+        or path in {
+            "planning/story-production-graph/generated/2026/web_index.json",
+            "planning/story-production-graph/generated/2026/timeline.json",
+            "planning/story-production-graph/generated/2026/render_queue.json",
+            ".github/workflows/audience-site.yml",
+        }
+    ):
+        suites.add("audience_site")
     if _starts(path, "world/atlas/integration/"):
         suites.add("mission")
     return suites
