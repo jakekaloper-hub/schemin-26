@@ -5,12 +5,17 @@ Planning-only. This module emits request payloads but never calls a renderer.
 """
 from __future__ import annotations
 
-def render_request(job,scene,project_control_receipt="PROJECT_CONTROL_UNPROMOTED"):
+def render_request(job,scene,event=None,project_control_receipt="PROJECT_CONTROL_UNPROMOTED"):
     profile=job.get("render_profile")
     if profile not in {"CHARACTER_GROUNDED_STATIC","DATA_STORY","MOTION"}:
         raise ValueError(f"NO_RENDER_ADAPTER_PROFILE: {job['surface']}")
     if job["status"]!="READY":
         raise ValueError(f"JOB_NOT_READY: {job['job_id']} status={job['status']}")
+    if event is None:
+        raise ValueError("EVENT_REQUIRED_FOR_RENDER_AUTHORITY")
+    evidence_status=event["authority"]["evidence_status"]
+    canon_status=event["authority"]["canon_status"]
+    freshness="LOCKED_RELEASE" if evidence_status=="VERIFIED" and canon_status=="ACCEPTED" else "NOT_RELEASE_LOCKED"
     return {
       "schema_version":"1.0",
       "request_id":f"RR::{job['job_id']}",
@@ -22,8 +27,8 @@ def render_request(job,scene,project_control_receipt="PROJECT_CONTROL_UNPROMOTED
         "publication_authority":"existing Schemin publication gates",
       },
       "evidence":{
-        "status":"VERIFIED",
-        "freshness":"LOCKED_RELEASE",
+        "status":evidence_status,
+        "freshness":freshness,
         "receipts":list(scene["authority"]["source_receipts"]),
       },
       "inputs":{
