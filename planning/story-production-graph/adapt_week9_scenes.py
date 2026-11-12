@@ -108,7 +108,7 @@ def scene_from(card,page_id,beats,index,total):
         "publication_state":"PLANNED",
         "revision":1,
       },
-      "_adapter_meta":{
+      "source_mapping":{
         "source_beat_ids":[b["beat_id"] for b in beats],
         "source_classifications":sorted({b["classification"] for b in beats}),
         "branch_variants":sorted({b["branch"] for b in beats}),
