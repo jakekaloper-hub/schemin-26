@@ -62,6 +62,24 @@ class PublicCatalogV2Tests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 self.builder.build_catalog(td/"out",render=False,web_index_path=webp,timeline_path=timep)
 
+    def test_current_character_and_world_projection_resolves(self):
+        self.assertIsNotNone(self.builder)
+        with tempfile.TemporaryDirectory() as td:
+            data=self.builder.build_catalog(pathlib.Path(td),render=False)
+        self.assertEqual(len(data["characters"]),12)
+        locations={x["id"] for x in data["locations"]}
+        self.assertGreaterEqual(len(locations),12)
+        self.assertTrue(all(x["locationId"] in locations for x in data["characters"]))
+        self.assertTrue(all(r["from"] in locations and r["to"] in locations for r in data["routes"]))
+
+    def test_library_only_projects_canon_closed_manuscripts(self):
+        self.assertIsNotNone(self.builder)
+        with tempfile.TemporaryDirectory() as td:
+            data=self.builder.build_catalog(pathlib.Path(td),render=False)
+        self.assertEqual(len(data["chapters"]),4)
+        self.assertTrue(all(x["releaseState"]=="CANON_CLOSED" for x in data["chapters"]))
+        self.assertTrue(all(x["text"] for x in data["chapters"]))
+
     def test_dist_data_written_and_public_projection_is_read_only(self):
         self.assertIsNotNone(self.builder)
         with tempfile.TemporaryDirectory() as td:
