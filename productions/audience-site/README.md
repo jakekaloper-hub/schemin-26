@@ -1,48 +1,63 @@
-# Commonwealth audience website
+# Commonwealth Audience Website V2
 
-Read-only presentation consumer of Schemin canon, atlas and archived publications. This directory owns website presentation only; it cannot approve manuscripts, release memos or mutate world geography.
+Read-only presentation consumer of the current Schemin Story Production Graph plus active Character, World and Publication authorities.
+
+This directory owns **presentation only**. It cannot approve manuscripts, release memos, mutate world geography, promote canon, or authorize rendering.
+
+## Architecture
+
+```
+Story Graph web_index.json + timeline.json
+        +
+current Character / World / Publication sources
+        ↓
+build_public_catalog.py
+        ↓
+dist/data.json
+        ↓
+static Commonwealth reader
+```
+
+The old `feat/commonwealth-audience-site-20261022` branch is a historical donor only. V2 does not inherit its branch ancestry or stale authority assumptions.
 
 ## Reproduce
 
-Requirements: Python 3.12+, Node 22+, Poppler (`pdftoppm`), Git and materialized repository LFS assets. No npm dependencies or model/API calls.
+Requirements: Python 3.12+ and Node 22+. No npm dependencies or model/API calls.
 
 ```bash
 python3 productions/audience-site/tests/test_public_catalog.py
 npm --prefix productions/audience-site test
-python3 productions/audience-site/build_public_catalog.py
+python3 productions/audience-site/build_public_catalog.py --no-render
+python3 planning/story-production-graph/build_downstream_consumers.py --check
 ```
 
-The generated `dist/` is ignored by Git. It contains HTML/CSS/JavaScript, a derived `data.json`, the exact approved portrait crops and 75 web-resolution memo page images by default, or 110 with the recovered released sources. Original PDFs remain in their owning archive; the website provides pinned original links. No source bytes are overwritten.
+The build copies the static source shell into `dist/` and writes a derived `data.json`.
 
-To reproduce the full five-issue deployment, materialize the two canonical originals from their existing Library records into an external directory and run:
+## Current public behavior
 
-```bash
-python3 productions/audience-site/build_public_catalog.py --released-source-dir /absolute/path/to/released-originals
-CATALOG_RELEASED_SOURCE_DIR=/absolute/path/to/released-originals python3 productions/audience-site/tests/test_public_catalog.py
-```
+- all nine 2026 memo issue records are listed with their Story Graph state;
+- unavailable artifacts remain unavailable and never fall back to another week;
+- the Chronicle exposes the 42 source-backed W3–W9 Events without authority promotion;
+- current approved Twelve and canonical world records feed the reader/atlas;
+- only `CANON_CLOSED` Living Novel manuscript editions are projected;
+- progress is device-local and source-version/fingerprint specific.
 
-Required exact filenames: `Week 2 memo.pdf` (68,380,271 bytes, 14 pages) and `Pro_Schemin_Week_3_Memo_Final.pdf` (103,917,769 bytes, 21 pages). Fresh SHA-256 ingestion receipts are fixed in the builder. They remain in existing durable source storage; no reconstructed original is committed. Without this explicit source directory the reproducible base build has Weeks 4–6 and no latest-released claim. The supplied deployment contains all five issues and resolves Week 3 through the existing resolver.
+## Public boundary
 
-## Publication boundaries
+The catalog is allowlisted. Internal editorial fields such as location `open_questions` are not emitted. Public source links are revision-pinned. No Mercer-private analysis, credentials, editor controls or publication actions belong in this bundle.
 
-Week 4 and Week 6 are Commissioner-supplied source editions. Week 5 is an artwork-review edition. The October 22 intake verifies their source bytes but does not promote their release status. This app does not claim that Week 6 is the latest accepted release.
+## Accessibility
 
-The four novel installments are preserved historical archive editions. The commissioned twelve-owner rewrite is not promoted by this site. No fabricated POV selection or completed historical volumes are offered.
+Automated static contracts cover skip navigation, focus visibility, reduced motion, keyboard map/menu behavior, mobile breakpoint and a 44px primary-target floor.
 
-The atlas consumes the canonical non-metric topology. Editorial candidate records are not included in public output. Character portraits are existing Commissioner-approved crops, hash-verified during the build; no generated character route is activated.
+A full accessibility acceptance still requires rendered browser + assistive-technology testing.
 
-## Hosting and updates
+## Hosting / release
 
-Hosting project: `appgprj_6ada6ac1df0881918e9a8cfe1fa0c3e2`.
+**Current V2 state: NOT DEPLOYED.**
 
-Public deployment uses a separate generated presentation mirror with `.openai/hosting.json` declaring `dist`. Canonical implementation remains in this repository. Rebuild after accepted content or source-edition updates, run checks, synchronize the exact output, commit/push the hosting mirror and save/deploy that exact version. Inspect deployment terminal status before claiming the audience site is live.
+Merge, deployment, founder visual acceptance, rollback rehearsal and public smoke checks are separate gates. Do not infer a live website from a green build.
 
-For source updates, verify input eligibility and hash receipts first. Do not change release controls merely to make an item appear. Reading progress is device-local and source-version-specific; clearing browser storage resets it. Browser storage failure must not prevent reading.
+## Recovery evidence
 
-## Recovery
-
-The hosting provider retains saved versions. Redeploy a previously verified saved version to restore the public site, then smoke-check home, atlas, memo and reader links. Keep the release’s source commit, generated catalog source revision and saved version/deployment IDs in the execution report. A rollback procedure is documented here; a real rollback must not be claimed until it is rehearsed.
-
-## Review
-
-Use `planning/audience-site/EXECUTION_LEDGER.md` for current execution evidence and limitations. Engineering tests do not constitute founder approval of the atmosphere or design.
+See `planning/audience-site/V2_STORY_GRAPH_RECOVERY_RECEIPT.md`.
