@@ -54,8 +54,8 @@ class SeniorQualityTimLensTests(unittest.TestCase):
 
     def test_event_source_receipts_are_in_render_request_provenance_contract(self):
         bridge=load("render_request_bridge")
-        event=next(e for e in self.s1["events"] if e["authority"]["evidence_status"]=="VERIFIED")
-        scene=next(s for s in self.s1["scenes"] if s["event_id"]==event["event_id"])
+        scene=next(s for s in self.s1["scenes"] if next(e for e in self.s1["events"] if e["event_id"]==s["event_id"])["authority"]["evidence_status"]=="VERIFIED")
+        event=next(e for e in self.s1["events"] if e["event_id"]==scene["event_id"])
         scene=json.loads(json.dumps(scene)); scene["qa"]["publication_state"]="RENDER_ELIGIBLE"
         job={"job_id":"JOB-SENIOR","surface":"PNG","render_profile":"CHARACTER_GROUNDED_STATIC","status":"READY"}
         req=bridge.render_request(job,scene,event=event)
