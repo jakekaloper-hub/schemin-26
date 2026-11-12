@@ -18,6 +18,7 @@ SCHEMAS={
  "encounter":BASE/"encounter_v1.schema.json",
  "scene":BASE/"scene_v1.schema.json",
  "compiler":BASE/"compiler_manifest_v1.schema.json",
+ "chronicle":BASE/"chronicle_projection_v1.schema.json",
  "artifact":BASE/"artifact_lineage_v1.schema.json",
 }
 
