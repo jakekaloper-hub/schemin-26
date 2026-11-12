@@ -49,12 +49,24 @@ def scene_from(card,page_id,beats,index,total):
     transitions=[b["transition"] for b in beats]
     views=[b.get("shot","") for b in beats if b.get("shot")]
     branch=branch_for_beats(beats)
+    role=scene_role(index,total)
+    event_id=f"EVT-W09-{card['id']}"
+    deps=[
+      f"{event_id}::BASE",
+      card["id"], page_id,
+      "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+      f"CHAR::{card['home']['characterId']}",
+      f"CHAR::{card['away']['characterId']}",
+      f"LOC::{card['venue_parent']}",
+    ]
+    if role=="RESOLUTION" or any(b["branch"] in {"HOME_WIN","AWAY_WIN"} for b in beats):
+        deps.append(f"{event_id}::RESULT")
     return {
       "schema_version":"1.0",
       "scene_id":f"SCN-{card['id']}-{page_id}",
-      "event_id":f"EVT-W09-{card['id']}",
+      "event_id":event_id,
       "encounter_id":f"ENC-{card['id']}",
-      "scene_role":scene_role(index,total),
+      "scene_role":role,
       "branch":branch,
       "authority":{
         "character_authority":"active Character Canon authority at build time",
@@ -97,11 +109,7 @@ def scene_from(card,page_id,beats,index,total):
         "persistent":[],
         "ephemeral":changes,
       },
-      "dependencies":[
-        f"EVT-W09-{card['id']}",
-        card["id"],page_id,
-        "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
-      ],
+      "dependencies":deps,
       "outputs":["PNG","MOTION","WEB","NOVEL_CONTEXT"],
       "qa":{
         "required_gates":["FACT","CHARACTER","WORLD","COMPOSITION","PUBLICATION"],
