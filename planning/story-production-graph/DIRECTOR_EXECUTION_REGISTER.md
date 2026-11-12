@@ -40,3 +40,30 @@
 3. Bind compiler jobs to `planning/render-adapter/render_request_v1.schema.json`.
 4. Add accepted artifact lineage receipt shape.
 5. Run independent Umpire review on exact HEAD and resolve findings.
+
+## Domain completion update — current branch
+
+### IMPLEMENTED / awaiting exact-HEAD CI
+- **Architect:** Event, Encounter, Scene, Chronicle and Compiler schemas; explicit scene source mapping; typed dependency edge schema.
+- **Setup Man:** transitive invalidation, minimal rebuild-job selection, typed BASE/RESULT/CHARACTER/LOCATION dependencies, compiler manifest builder.
+- **Scout:** six-matchup Week 9 source adapter with Data Release HOLD propagation.
+- **Beat Writer:** all Week 9 written storyboard pages adapt into Scene objects; no source rewrite.
+- **Librarian:** provenance graph and source lineage edges.
+- **Analyst:** coverage/reuse/risk metrics.
+- **Warden:** fail-closed private-intelligence scan and no-dependency policy.
+- **Groundskeeper:** weekly Story Graph operations runbook and KPIs.
+- **Pitching Coach:** compiler-to-existing-Render-Adapter request bridge; blocked jobs cannot emit render requests.
+- **Character/Chronicle lane:** 12 character timelines, 6 Week 9 relationship views, 6 place-memory views; artifact custody stays empty when no artifact event exists.
+- **Umpire implementation support:** negative tests for authority escalation, private-intelligence leakage, blocked render bridging, and selective invalidation. Independent acceptance is still OPEN and cannot be self-certified by this implementation branch.
+
+### VERIFIED ON EARLIER EXACT HEAD
+- Repository Merge Gate: PASS.
+- Bullpen Runtime CI: PASS.
+
+### OPEN GATES ON CURRENT HEAD
+- fresh Repository Merge Gate;
+- fresh Bullpen Runtime CI;
+- external Netlify preview status inspection if still failing;
+- independent Umpire acceptance;
+- Project Control promotion decision;
+- actual renderer execution remains out of scope until upstream readiness.
