@@ -35,7 +35,7 @@ TEAM={
 CANON_NAME={v[0]:k.rstrip(". ") for k,v in TEAM.items()}
 CANON_NAME.update({4:"The LLC",5:"D0nkey K0ng",7:"The Chili Cheesers"})
 
-def read_json(path): return json.loads((ROOT/path).read_text())
+def norm_name(name): return name.strip().rstrip(".")\n\ndef read_json(path): return json.loads((ROOT/path).read_text())
 def read_text(path): return (ROOT/path).read_text()
 
 def issue_nodes():
