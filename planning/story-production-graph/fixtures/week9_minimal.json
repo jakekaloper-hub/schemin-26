@@ -1,0 +1,245 @@
+{
+  "event": {
+    "schema_version": "1.0",
+    "event_id": "EVT-W09-DUCKHOOK-OBIWAN",
+    "event_type": "MATCHUP",
+    "league_time": {
+      "season": 2026,
+      "week": 9,
+      "occurred_at": null
+    },
+    "authority": {
+      "evidence_status": "VERIFIED",
+      "source_receipts": [
+        "memo-os/week-9/WEEK_9_FINAL_SPORTS_DESK_EVIDENCE_2026-11-10.json"
+      ],
+      "canon_status": "ACCEPTED"
+    },
+    "participants": [
+      {
+        "entity_type": "CHARACTER",
+        "entity_id": "CHAR-DUCKHOOK"
+      },
+      {
+        "entity_type": "CHARACTER",
+        "entity_id": "CHAR-OBIWAN"
+      }
+    ],
+    "result": {
+      "home_score": 166.56,
+      "away_score": 144.46,
+      "winner": "Dr. Duckhook"
+    },
+    "state": {
+      "branch_state": "SETTLED",
+      "knowledge_cutoff": "2026-W09-postgame",
+      "world_writeback_allowed": false
+    },
+    "dependencies": [
+      "W09-M01",
+      "W09-P05",
+      "W09-P06",
+      "W09-P07"
+    ]
+  },
+  "scene": {
+    "schema_version": "1.0",
+    "scene_id": "SCN-W09-M01-LAST-PUTT",
+    "event_id": "EVT-W09-DUCKHOOK-OBIWAN",
+    "encounter_id": "ENC-W09-M01-CHARITY-CLASSIC",
+    "scene_role": "RESOLUTION",
+    "branch": "SETTLED",
+    "authority": {
+      "character_authority": "active-character-authority-at-build",
+      "world_authority": "World Engine/Atlas active authority",
+      "source_receipts": [
+        "memo-os/week-9/WEEK_9_FINAL_APPROVAL_FOLIOS_2026-11-10.json"
+      ]
+    },
+    "cast": [
+      {
+        "character_id": "CHAR-DUCKHOOK",
+        "role": "PRIMARY",
+        "reference_receipts": []
+      },
+      {
+        "character_id": "CHAR-OBIWAN",
+        "role": "POV",
+        "reference_receipts": []
+      }
+    ],
+    "location": {
+      "location_id": "LOC-COUNTRY-CLUB-JACKSON",
+      "entering_state_receipt": "Week 9 approved folio/location packet",
+      "persistent_anchors": [
+        "clubhouse",
+        "final green",
+        "charity banner",
+        "autumn morning"
+      ]
+    },
+    "continuity": {
+      "in": [
+        "ObiWan recovery finds sand/approach runs wide",
+        "Duckhook remains composed"
+      ],
+      "out": [
+        "Duckhook result settled",
+        "ObiWan defeat recorded"
+      ]
+    },
+    "narrative": {
+      "objective": "Resolve the Game of the Week through the final putt while preserving the beautiful morning as emotional contrast.",
+      "emotional_objective": "Controlled finality rather than melodrama.",
+      "action_beats": [
+        "ObiWan putt stops short",
+        "Duckhook answers with controlled finish",
+        "ball drops",
+        "score treatment resolves"
+      ],
+      "dialogue": []
+    },
+    "visual": {
+      "camera": "final-green sequence with cup/ball emphasis and reaction frame",
+      "blocking": [
+        "Duckhook over putt",
+        "ObiWan watching"
+      ],
+      "foreground": [
+        "cup",
+        "ball",
+        "green"
+      ],
+      "midground": [
+        "Duckhook",
+        "ObiWan"
+      ],
+      "background": [
+        "charity banner",
+        "clubhouse",
+        "autumn landscape"
+      ],
+      "lighting": "clear warm morning",
+      "weather": "fair",
+      "time_of_day": "morning"
+    },
+    "sound": {
+      "soundscape": [
+        "gallery hush",
+        "putter strike",
+        "cup drop"
+      ],
+      "music_cue": null,
+      "voice_cues": []
+    },
+    "state_delta": {
+      "persistent": [],
+      "ephemeral": [
+        "matchup settled at final green"
+      ]
+    },
+    "dependencies": [
+      "EVT-W09-DUCKHOOK-OBIWAN",
+      "W09-P07"
+    ],
+    "outputs": [
+      "PNG",
+      "MOTION",
+      "AUDIO",
+      "WEB"
+    ],
+    "qa": {
+      "required_gates": [
+        "FACT",
+        "CHARACTER",
+        "WORLD",
+        "COMPOSITION",
+        "PUBLICATION"
+      ],
+      "publication_state": "PLANNED",
+      "revision": 1
+    }
+  },
+  "chronicle": {
+    "schema_version": "1.0",
+    "projection_id": "CHR-REL-DUCKHOOK-OBIWAN-W09",
+    "projection_type": "RELATIONSHIP_HISTORY",
+    "subject_ids": [
+      "CHAR-DUCKHOOK",
+      "CHAR-OBIWAN"
+    ],
+    "event_ids": [
+      "EVT-W09-DUCKHOOK-OBIWAN"
+    ],
+    "source_cutoff": "2026-W09-postgame",
+    "entries": [
+      {
+        "event_id": "EVT-W09-DUCKHOOK-OBIWAN",
+        "classification": "FACT",
+        "summary": "Dr. Duckhook defeated ObiWan Jacoby 166.56–144.46 in Week 9.",
+        "provenance": [
+          "memo-os/week-9/WEEK_9_FINAL_SPORTS_DESK_EVIDENCE_2026-11-10.json"
+        ]
+      }
+    ],
+    "derived_only": true,
+    "rebuildable": true
+  },
+  "compiler": {
+    "schema_version": "1.0",
+    "build_id": "BUILD-W09-M01-PILOT",
+    "source_snapshot": "week9-postgame-accepted-sources",
+    "inputs": {
+      "event_ids": [
+        "EVT-W09-DUCKHOOK-OBIWAN"
+      ],
+      "scene_ids": [
+        "SCN-W09-M01-LAST-PUTT"
+      ],
+      "chronicle_projection_ids": [
+        "CHR-REL-DUCKHOOK-OBIWAN-W09"
+      ]
+    },
+    "jobs": [
+      {
+        "job_id": "JOB-W09-M01-PNG",
+        "surface": "PNG",
+        "depends_on": [
+          "SCN-W09-M01-LAST-PUTT"
+        ],
+        "render_profile": "CHARACTER_GROUNDED_STATIC",
+        "status": "PLANNED"
+      },
+      {
+        "job_id": "JOB-W09-M01-MOTION",
+        "surface": "MOTION",
+        "depends_on": [
+          "SCN-W09-M01-LAST-PUTT"
+        ],
+        "render_profile": "MOTION",
+        "status": "BLOCKED"
+      }
+    ],
+    "artifacts": [],
+    "invalidation": {
+      "dependency_edges": [
+        {
+          "upstream": "EVT-W09-DUCKHOOK-OBIWAN",
+          "downstream": "SCN-W09-M01-LAST-PUTT"
+        },
+        {
+          "upstream": "SCN-W09-M01-LAST-PUTT",
+          "downstream": "JOB-W09-M01-PNG"
+        },
+        {
+          "upstream": "SCN-W09-M01-LAST-PUTT",
+          "downstream": "JOB-W09-M01-MOTION"
+        }
+      ]
+    },
+    "publication": {
+      "authority_mutation_allowed": false,
+      "auto_publish_allowed": false
+    }
+  }
+}
