@@ -9,11 +9,11 @@
       "occurred_at": null
     },
     "authority": {
-      "evidence_status": "VERIFIED",
+      "evidence_status": "PROVISIONAL",
       "source_receipts": [
         "memo-os/week-9/WEEK_9_FINAL_SPORTS_DESK_EVIDENCE_2026-11-10.json"
       ],
-      "canon_status": "ACCEPTED"
+      "canon_status": "BRANCHABLE"
     },
     "participants": [
       {
@@ -31,7 +31,7 @@
       "winner": "Dr. Duckhook"
     },
     "state": {
-      "branch_state": "SETTLED",
+      "branch_state": "HOME_WIN",
       "knowledge_cutoff": "2026-W09-postgame",
       "world_writeback_allowed": false
     },
@@ -175,7 +175,7 @@
     "entries": [
       {
         "event_id": "EVT-W09-DUCKHOOK-OBIWAN",
-        "classification": "FACT",
+        "classification": "NARRATIVE_INTERPRETATION",
         "summary": "Dr. Duckhook defeated ObiWan Jacoby 166.56–144.46 in Week 9.",
         "provenance": [
           "memo-os/week-9/WEEK_9_FINAL_SPORTS_DESK_EVIDENCE_2026-11-10.json"
@@ -188,7 +188,7 @@
   "compiler": {
     "schema_version": "1.0",
     "build_id": "BUILD-W09-M01-PILOT",
-    "source_snapshot": "week9-postgame-accepted-sources",
+    "source_snapshot": "week9-postgame-sports-desk-hold",
     "inputs": {
       "event_ids": [
         "EVT-W09-DUCKHOOK-OBIWAN"
@@ -224,16 +224,39 @@
     "invalidation": {
       "dependency_edges": [
         {
-          "upstream": "EVT-W09-DUCKHOOK-OBIWAN",
-          "downstream": "SCN-W09-M01-LAST-PUTT"
+          "upstream": "EVT-W09-DUCKHOOK-OBIWAN::BASE",
+          "downstream": "SCN-W09-M01-LAST-PUTT",
+          "dependency_class": "BASE"
+        },
+        {
+          "upstream": "EVT-W09-DUCKHOOK-OBIWAN::RESULT",
+          "downstream": "SCN-W09-M01-LAST-PUTT",
+          "dependency_class": "RESULT"
+        },
+        {
+          "upstream": "CHAR::CHAR-DUCKHOOK",
+          "downstream": "SCN-W09-M01-LAST-PUTT",
+          "dependency_class": "CHARACTER"
+        },
+        {
+          "upstream": "CHAR::CHAR-OBIWAN",
+          "downstream": "SCN-W09-M01-LAST-PUTT",
+          "dependency_class": "CHARACTER"
+        },
+        {
+          "upstream": "LOC::LOC-COUNTRY-CLUB-JACKSON",
+          "downstream": "SCN-W09-M01-LAST-PUTT",
+          "dependency_class": "LOCATION"
         },
         {
           "upstream": "SCN-W09-M01-LAST-PUTT",
-          "downstream": "JOB-W09-M01-PNG"
+          "downstream": "JOB-W09-M01-PNG",
+          "dependency_class": "PRESENTATION"
         },
         {
           "upstream": "SCN-W09-M01-LAST-PUTT",
-          "downstream": "JOB-W09-M01-MOTION"
+          "downstream": "JOB-W09-M01-MOTION",
+          "dependency_class": "PRESENTATION"
         }
       ]
     },
