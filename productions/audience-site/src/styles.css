@@ -8,3 +8,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 
 .memo-card.unavailable .memo-cover{opacity:.55}.timeline-list{padding-bottom:90px}.timeline-card{padding:28px 0;border-bottom:1px solid var(--line)}.timeline-card h2{font-size:30px;margin:8px 0 12px}.timeline-people{color:var(--muted);font-size:11px;letter-spacing:.04em}
+
+.menu,.button,.location-button,nav a{min-height:44px}
