@@ -43,9 +43,15 @@ def _memo_status(publication_state):
 
 def _memo_available(issue):
     # Presence in the graph is not enough for a working public issue reader.
-    # Require both released authority and an in-repo binary until an explicit
-    # external-artifact adapter is introduced.
-    return issue["publication_state"]=="RELEASED" and bool(issue["binary_in_repo"])
+    # Require released authority, an in-repo binary declaration, and an
+    # actually resolvable artifact path.
+    artifact=issue.get("canonical_artifact")
+    return (
+        issue["publication_state"]=="RELEASED"
+        and bool(issue["binary_in_repo"])
+        and bool(artifact)
+        and (ROOT/artifact).is_file()
+    )
 
 def _project_memo(issue):
     return {
@@ -115,11 +121,19 @@ def _build_world():
     for location in locations:
         x,y=location["abstract_position"]
         projected.append({
-          **location,
+          "id":location["id"],
+          "name":location["name"],
+          "canon_status":location["canon_status"],
+          "location_type":location["location_type"],
+          "physical_zone_id":location["physical_zone_id"],
+          "division_id":location.get("division_id"),
+          "owner_character_id":location.get("owner_character_id"),
+          "shared_location_ids":list(location.get("shared_location_ids",[])),
           "x":x,
           "y":y,
           "zone":location["physical_zone_id"],
           "description":", ".join(location.get("persistent_landmarks",[])),
+          "current_state":list(location.get("current_state",[])),
           "source":location_path,
           "sourceUrl":_repo_url(location_path),
         })
