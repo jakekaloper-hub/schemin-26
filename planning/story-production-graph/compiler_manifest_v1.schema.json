@@ -8,6 +8,7 @@
     "schema_version",
     "build_id",
     "source_snapshot",
+    "source_fingerprint_sha256",
     "inputs",
     "jobs",
     "artifacts",
@@ -202,6 +203,10 @@
           "const": false
         }
       }
+    },
+    "source_fingerprint_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
     }
   }
 }
