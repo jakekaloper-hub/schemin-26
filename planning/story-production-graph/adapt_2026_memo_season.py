@@ -159,6 +159,75 @@ def week6_encounters(events):
         })
     return out
 
+
+def week5_scenes(events):
+    page_root=ROOT/"memo-os/week-5/pages"
+    evs=[e for e in events if e["league_time"]["week"]==5]
+    role_map={"overture":"SETUP","setup":"SETUP","escalation":"ESCALATION","payoff":"RESOLUTION"}
+    out=[]
+    for d in sorted(page_root.iterdir()):
+        if not d.is_dir() or not re.match(r"P0(0[4-9]|1\d|2[0-7])-",d.name):
+            continue
+        packet=d/"PAGE_PACKET.md"
+        if not packet.is_file(): continue
+        text=packet.read_text()
+        chars=sorted(set(re.findall(r"CHAR-[A-Z0-9-]+",text)))
+        locs=re.findall(r"LOC-[A-Z0-9-]+",text)
+        if len(chars)<2 or not locs: continue
+        match=next((e for e in evs if set(chars[:2]).issubset({p["entity_id"] for p in e["participants"] if p["entity_type"]=="CHARACTER"})),None)
+        if not match: continue
+        slug=d.name.split("-",2)[-1]
+        role=next((v for k,v in role_map.items() if k in slug),"TURN")
+        beat_m=re.search(r"Scene beat:\s*\*\*(.+?)\*\*",text)
+        beat=beat_m.group(1) if beat_m else f"Source-controlled Week 5 page packet {d.name}; adapter adds no new action."
+        sid=f"SCN-2026-W05-{d.name.split('-')[0]}"
+        deps=[f"{match['event_id']}::BASE",f"LOC::{locs[0]}",*[f"CHAR::{x}" for x in chars[:2]],str(packet.relative_to(ROOT))]
+        if role=="RESOLUTION": deps.append(f"{match['event_id']}::RESULT")
+        out.append({
+          "schema_version":"1.0","scene_id":sid,"event_id":match["event_id"],"encounter_id":f"ENC-2026-W05-{match['event_id'].split('-')[-1]}",
+          "scene_role":role,"branch":"SETTLED" if role=="RESOLUTION" else "COMMON",
+          "authority":{"character_authority":"active Character Canon authority at build time","world_authority":"World Engine/Atlas active authority at build time","source_receipts":[str(packet.relative_to(ROOT))]},
+          "cast":[{"character_id":x,"role":"PRIMARY","reference_receipts":[]} for x in chars[:2]],
+          "location":{"location_id":locs[0],"entering_state_receipt":str(packet.relative_to(ROOT)),"persistent_anchors":[]},
+          "continuity":{"in":[],"out":[]},
+          "narrative":{"objective":beat,"emotional_objective":"","action_beats":[beat],"dialogue":[]},
+          "visual":{"camera":"Source page packet controls camera/composition; unresolved fields remain upstream.","blocking":[],"foreground":[],"midground":[],"background":[],"lighting":"","weather":"","time_of_day":""},
+          "state_delta":{"persistent":[],"ephemeral":[]},
+          "dependencies":deps,"outputs":["PNG","MOTION","WEB","NOVEL_CONTEXT"],
+          "qa":{"required_gates":["FACT","CHARACTER","WORLD","COMPOSITION","PUBLICATION"],"publication_state":"PLANNED","revision":1},
+          "source_mapping":{"source_beat_ids":[d.name],"source_classifications":["WEEK5_PAGE_PACKET"],"branch_variants":["COMMON"]},
+        })
+    return out
+
+def week6_scenes(events,encounters):
+    ev_by={e["event_id"]:e for e in events}
+    path="memo-os/week-6/WEEK_6_SPATIAL_ACTION_PREFLIGHT_V1.json"
+    d=read_json(path)
+    enc_by={x["event_id"]:x for x in encounters if x["encounter_id"].startswith("ENC-2026-W06-")}
+    out=[]
+    for i,x in enumerate(d["encounters"],1):
+        chars={x["home_character"],x["away_character"]}
+        match=next((e for e in events if e["league_time"]["week"]==6 and chars.issubset({p["entity_id"] for p in e["participants"] if p["entity_type"]=="CHARACTER"})),None)
+        if not match: continue
+        enc=enc_by.get(match["event_id"])
+        sid=f"SCN-2026-W06-M{i:02d}-SPATIAL"
+        out.append({
+          "schema_version":"1.0","scene_id":sid,"event_id":match["event_id"],"encounter_id":enc["encounter_id"] if enc else f"ENC-2026-W06-{i:02d}",
+          "scene_role":"SETUP","branch":"COMMON",
+          "authority":{"character_authority":"active Character Canon authority at build time","world_authority":"World Engine/Atlas active authority at build time","source_receipts":[path]},
+          "cast":[{"character_id":x["home_character"],"role":"PRIMARY","reference_receipts":[]},{"character_id":x["away_character"],"role":"PRIMARY","reference_receipts":[]}],
+          "location":{"location_id":x["home_loc"],"entering_state_receipt":path,"persistent_anchors":list(x["anchor_sequence"])},
+          "continuity":{"in":[],"out":[]},
+          "narrative":{"objective":x["activity"],"emotional_objective":"","action_beats":list(x["action_path"]),"dialogue":[]},
+          "visual":{"camera":" | ".join(x["camera_axes"]),"blocking":list(x["action_path"]),"foreground":[],"midground":[],"background":list(x["anchor_sequence"]),"lighting":"","weather":"","time_of_day":""},
+          "state_delta":{"persistent":[],"ephemeral":[]},
+          "dependencies":[f"{match['event_id']}::BASE",f"CHAR::{x['home_character']}",f"CHAR::{x['away_character']}",f"LOC::{x['home_loc']}",path],
+          "outputs":["PNG","MOTION","WEB","NOVEL_CONTEXT"],
+          "qa":{"required_gates":["FACT","CHARACTER","WORLD","COMPOSITION","PUBLICATION"],"publication_state":"PLANNED","revision":1},
+          "source_mapping":{"source_beat_ids":[x["id"]],"source_classifications":["WEEK6_SPATIAL_PREFLIGHT"],"branch_variants":["COMMON"]},
+        })
+    return out
+
 def week9_graph():
     from adapt_week9_matchups import compile_week9
     from adapt_week9_scenes import compile_scenes
@@ -184,7 +253,9 @@ def week9_graph():
 def compile_season():
     events=all_events()
     w9enc,w9scenes=week9_graph()
-    encounters=week6_encounters(events)+w9enc
+    w6enc=week6_encounters(events)
+    encounters=w6enc+w9enc
+    scenes=week5_scenes(events)+week6_scenes(events,w6enc)+w9scenes
     issues=issue_nodes()
     return {
       "schema_version":"1.0",
@@ -192,14 +263,15 @@ def compile_season():
       "issues":issues,
       "events":events,
       "encounters":encounters,
-      "scenes":w9scenes,
+      "scenes":scenes,
       "coverage":{
         "memo_weeks":sorted(i["week"] for i in issues),
         "issue_count":len(issues),
         "matchup_event_count":len(events),
         "event_weeks":sorted(set(e["league_time"]["week"] for e in events)),
         "encounter_weeks":sorted(set(int(e["encounter_id"].split("-W")[1][:2]) for e in encounters)),
-        "scene_weeks":[9] if w9scenes else [],
+        "scene_weeks":sorted(set(s["event_id"].split("-W")[1][:2] for s in scenes)),
+        "scene_count":len(scenes),
         "external_binary_gap_weeks":[i["week"] for i in issues if not i["binary_in_repo"] and i["week"] in {1,2}],
       }
     }
