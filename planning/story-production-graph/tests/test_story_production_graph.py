@@ -21,7 +21,7 @@ class StoryGraphTests(unittest.TestCase):
 
     def test_event_change_invalidates_only_declared_downstream(self):
         c=FIX["compiler"]
-        impacted=inv.impacted_nodes(c["invalidation"]["dependency_edges"],[FIX["event"]["event_id"]])
+        impacted=inv.impacted_nodes(c["invalidation"]["dependency_edges"],[FIX["event"]["event_id"]+"::RESULT"])
         self.assertEqual(impacted,[
           "JOB-W09-M01-MOTION",
           "JOB-W09-M01-PNG",
