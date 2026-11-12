@@ -84,6 +84,12 @@ SUITE_COMMANDS = {
         "python -m unittest -v governance/release-evidence/test_release_evidence.py",
         "python governance/release-evidence/release_evidence.py --head-sha \"$GITHUB_SHA\"",
     ],
+    "story_graph": [
+        "python -m py_compile planning/story-production-graph/*.py",
+        "python planning/story-production-graph/validate_story_graph.py",
+        "python planning/story-production-graph/mutation_exercise.py",
+        "python -m unittest discover -s planning/story-production-graph/tests -p 'test_*.py' -v",
+    ],
     "publication": [
         "python -m py_compile governance/publication-manifest/validate_publication_manifest.py",
         "python governance/publication-manifest/validate_publication_manifest.py",
@@ -91,7 +97,7 @@ SUITE_COMMANDS = {
     ],
 }
 
-ORDER = ["architecture", "execution_control", "resilience", "orientation", "authority", "mission", "data", "character", "novel", "memo", "world", "release", "publication", "bullpen"]
+ORDER = ["architecture", "execution_control", "resilience", "orientation", "authority", "mission", "data", "character", "novel", "memo", "world", "story_graph", "release", "publication", "bullpen"]
 
 def _starts(path: str, prefix: str) -> bool:
     return path == prefix.rstrip("/") or path.startswith(prefix)
@@ -222,6 +228,8 @@ def suites_for_path(path: str) -> set[str]:
         }
     ):
         suites.add("publication")
+    if _starts(path, "planning/story-production-graph/"):
+        suites.add("story_graph")
     if _starts(path, "world/atlas/integration/"):
         suites.add("mission")
     return suites
