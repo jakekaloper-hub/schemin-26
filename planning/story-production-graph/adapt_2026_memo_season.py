@@ -243,7 +243,7 @@ def week5_encounters(events,scenes):
           },
           "participants":participants,
           "location":{"location_id":next(iter(locations)),"entering_state_receipt":first["location"]["entering_state_receipt"]},
-          "persistent_scene_anchors":sorted({a for s in rows for a in s["location"].get("persistent_anchors",[])}),
+          "persistent_scene_anchors":sorted({a for s in rows for a in s["location"].get("persistent_anchors",[])}) or [f"location:{next(iter(locations))}"],
           "shared_conditions":{"props":[]},
           "scene_ids":[s["scene_id"] for s in rows],
           "branch_policy":{"supports_outcome_branches":False,"settled_branch":"SETTLED"},
