@@ -65,6 +65,8 @@ def _project_memo(issue):
       "consumerJobs":list(issue["consumer_jobs"]),
       "available":_memo_available(issue),
       "status":_memo_status(issue["publication_state"]),
+      "source":"planning/story-production-graph/generated/2026/web_index.json",
+      "sourceUrl":_repo_url("planning/story-production-graph/generated/2026/web_index.json"),
     }
 
 def _project_timeline(entry):
