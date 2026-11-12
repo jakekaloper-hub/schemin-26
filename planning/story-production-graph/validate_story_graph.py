@@ -48,7 +48,7 @@ def validate(data):
         errors.append("SCENE_ACCEPTED_WITHOUT_GATES")
 
     edges = compiler["invalidation"]["dependency_edges"]
-    impacted = downstream(edges, event["event_id"])
+    impacted = downstream(edges, event["event_id"]+"::RESULT")
     required = {"SCN-W09-M01-LAST-PUTT", "JOB-W09-M01-PNG", "JOB-W09-M01-MOTION"}
     if not required.issubset(impacted):
         errors.append("INVALIDATION_GRAPH_INCOMPLETE")
