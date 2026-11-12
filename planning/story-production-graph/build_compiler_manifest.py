@@ -34,9 +34,9 @@ def build_manifest(events,scenes,source_snapshot="story-graph-source"):
               "surface":"PDF" if surface=="PDF_PAGE" else surface,
               "depends_on":[s["scene_id"]],
               "render_profile":SURFACE_PROFILE.get(surface),
-              "status":"BLOCKED" if s["qa"]["publication_state"]=="PLANNED" else "READY",
+              "status":"READY" if s["qa"]["publication_state"]=="RENDER_ELIGIBLE" else "BLOCKED",
             })
-            edges.append({"upstream":s["scene_id"],"downstream":jid})
+            edges.append({"upstream":s["scene_id"],"downstream":jid,"dependency_class":"PRESENTATION"})
         for dep in s.get("dependencies",[]):
             if dep.startswith(("EVT-","CHAR::","LOC::","COPY::","AUDIO::","PRESENT::")):
                 edges.append({"upstream":dep,"downstream":s["scene_id"],"dependency_class":_classify(dep)})
