@@ -29,7 +29,7 @@ def render_request(job,scene,event=None,project_control_receipt="PROJECT_CONTROL
       "evidence":{
         "status":evidence_status,
         "freshness":freshness,
-        "receipts":list(scene["authority"]["source_receipts"]),
+        "receipts":list(dict.fromkeys(list(event["authority"]["source_receipts"])+list(scene["authority"]["source_receipts"]))),
       },
       "inputs":{
         "scene_id":scene["scene_id"],
