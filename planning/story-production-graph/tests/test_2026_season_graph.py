@@ -30,6 +30,17 @@ class Season2026GraphTests(unittest.TestCase):
         for i in self.season["issues"][:2]:
             self.assertFalse(i["binary_in_repo"])
 
+    def test_registry_source_paths_resolve(self):
+        import json
+        reg=json.loads((BASE/"season_2026_memo_registry.json").read_text())
+        for week in reg["weeks"]:
+            for ref in week["authority_refs"]:
+                self.assertTrue((ROOT/ref).exists(),f"missing authority ref: {ref}")
+            for key in ("fact_source","story_source","scene_source"):
+                ref=week.get(key)
+                if ref:
+                    self.assertTrue((ROOT/ref).exists(),f"missing {key}: {ref}")
+
     def test_weeks_3_to_9_have_all_six_matchup_events(self):
         counts=Counter(e["league_time"]["week"] for e in self.season["events"])
         self.assertEqual(counts,{3:6,4:6,5:6,6:6,7:6,8:6,9:6})
