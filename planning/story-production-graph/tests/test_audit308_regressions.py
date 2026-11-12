@@ -13,6 +13,7 @@ season_mod=load("adapt_2026_memo_season")
 compiler_mod=load("build_compiler_manifest")
 season_compiler_mod=load("build_2026_season_compiler")
 bridge=load("render_request_bridge")
+e2e_mod=load("no_render_e2e")
 schema_mod=load("schema_contract_validator") if (BASE/"schema_contract_validator.py").exists() else None
 
 class Audit308RegressionTests(unittest.TestCase):
@@ -46,8 +47,9 @@ class Audit308RegressionTests(unittest.TestCase):
                 continue
             issue_id=job["depends_on"][0]
             state=issue_state[issue_id]
-            if state!="RELEASED":
-                self.assertEqual(job["status"],"BLOCKED",(issue_id,state,job))
+            issue=next(i for i in self.season["issues"] if i["issue_id"]==issue_id)
+            if state!="RELEASED" or not issue["binary_in_repo"]:
+                self.assertEqual(job["status"],"BLOCKED",(issue_id,state,issue["binary_in_repo"],job))
 
     def test_scene_job_readiness_requires_render_eligible_state_only(self):
         scene=json.loads(json.dumps(self.season["scenes"][0]))
@@ -98,9 +100,11 @@ class Audit308RegressionTests(unittest.TestCase):
         path=BASE/"fixtures/no_render_e2e.json"
         self.assertTrue(path.is_file())
         d=json.loads(path.read_text())
-        self.assertEqual(d["event_authority"],d["render_request_evidence_status"])
-        self.assertEqual(d["renderer_execution"],"NOT_EXECUTED")
-        self.assertEqual(d["publication_state"],"UNPUBLISHED")
+        actual=e2e_mod.build_proof()
+        self.assertEqual(actual,d)
+        self.assertEqual(actual["event_authority"],actual["render_request_evidence_status"])
+        self.assertEqual(actual["renderer_execution"],"NOT_EXECUTED")
+        self.assertEqual(actual["publication_state"],"UNPUBLISHED")
 
 if __name__=="__main__":
     unittest.main()
