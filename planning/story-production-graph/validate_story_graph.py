@@ -64,7 +64,7 @@ if __name__ == "__main__":
     data = load()
     errors = validate(data)
     assert not errors, errors
-    impacted = sorted(downstream(data["compiler"]["invalidation"]["dependency_edges"], data["event"]["event_id"]))
+    impacted = sorted(downstream(data["compiler"]["invalidation"]["dependency_edges"], data["event"]["event_id"]+"::RESULT"))
     print(json.dumps({
         "state": "STRUCTURAL_CANDIDATE_PASS_NOT_RELEASE_ACCEPTANCE",
         "fixture": str(FIXTURE.relative_to(ROOT)),
