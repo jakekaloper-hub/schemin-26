@@ -10,14 +10,33 @@ import argparse
 import json
 import pathlib
 import shutil
+import hashlib
+import subprocess
+import urllib.parse
 
 BASE=pathlib.Path(__file__).resolve().parent
 ROOT=BASE.parents[1]
 DEFAULT_WEB=ROOT/"planning/story-production-graph/generated/2026/web_index.json"
 DEFAULT_TIMELINE=ROOT/"planning/story-production-graph/generated/2026/timeline.json"
+REVISION=subprocess.run(["git","rev-parse","HEAD"],cwd=ROOT,check=True,capture_output=True,text=True).stdout.strip()
+REPO=f"https://github.com/jakekaloper-hub/schemin-26/blob/{REVISION}/"
+MEDIA=f"https://media.githubusercontent.com/media/jakekaloper-hub/schemin-26/{REVISION}/"
 
 def _read_json(path):
     return json.loads(pathlib.Path(path).read_text())
+
+def _sha256(path):
+    digest=hashlib.sha256()
+    with pathlib.Path(path).open("rb") as stream:
+        for chunk in iter(lambda:stream.read(1024*1024),b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+def _repo_url(path):
+    return REPO+urllib.parse.quote(str(path))
+
+def _media_url(path):
+    return MEDIA+urllib.parse.quote(str(path))
 
 def _memo_status(publication_state):
     return "Released edition" if publication_state=="RELEASED" else publication_state.replace("_"," ").title()
@@ -61,6 +80,75 @@ def _project_timeline(entry):
       "sourceReceipts":list(entry["source_receipts"]),
     }
 
+
+def _build_characters():
+    lineup_path="canon/characters/APPROVED_LINEUP_2026_10_18.json"
+    lineup=_read_json(ROOT/lineup_path)
+    out=[]
+    for person in lineup["individuals"]:
+        appearance=_read_json(ROOT/person["appearance_delta"])
+        assertions=appearance.get("approved_visual_assertions",{})
+        description=assertions.get("subject_morphology") or person["display_title"]
+        out.append({
+          "id":person["character_id"],
+          "owner":person["owner"],
+          "name":person["display_title"],
+          "team":person["team"],
+          "locationId":person["home_location_id"],
+          "description":description,
+          "details":assertions.get("recognizable_props",[]),
+          "image":_media_url(person["crop"]),
+          "sha256":person["crop_sha256"],
+          "source":person["appearance_delta"],
+          "sourceUrl":_repo_url(person["appearance_delta"]),
+        })
+    return out,lineup
+
+def _build_world():
+    location_path="world/data/locations.json"
+    route_path="world/data/routes.json"
+    zone_path="world/data/physical_zones.json"
+    locations=_read_json(ROOT/location_path)["locations"]
+    projected=[]
+    for location in locations:
+        x,y=location["abstract_position"]
+        projected.append({
+          **location,
+          "x":x,
+          "y":y,
+          "zone":location["physical_zone_id"],
+          "description":", ".join(location.get("persistent_landmarks",[])),
+          "source":location_path,
+          "sourceUrl":_repo_url(location_path),
+        })
+    routes=_read_json(ROOT/route_path)["routes"]
+    zones=_read_json(ROOT/zone_path)["regions"]
+    return projected,routes,zones
+
+def _build_chapters():
+    manifest_path="governance/publication-manifest/PUBLICATION_MANIFEST_V1.json"
+    manifest=_read_json(ROOT/manifest_path)
+    out=[]
+    for publication in manifest["publications"]:
+        if publication["family"]!="living_novel" or publication["release_state"]!="CANON_CLOSED":
+            continue
+        source=publication["canonical_artifact"]
+        if not source or not (ROOT/source).is_file():
+            raise ValueError(f"CANON_CLOSED manuscript missing source: {publication['publication_id']}")
+        out.append({
+          "id":publication["slug"],
+          "publicationId":publication["publication_id"],
+          "title":publication["title"],
+          "text":(ROOT/source).read_text(),
+          "source":source,
+          "sourceUrl":_repo_url(source),
+          "sha256":_sha256(ROOT/source),
+          "status":"Archive edition",
+          "releaseState":publication["release_state"],
+          "note":"Accepted archive manuscript; presentation does not alter manuscript authority.",
+        })
+    return out
+
 def build_catalog(output=None,render=False,web_index_path=None,timeline_path=None):
     output=pathlib.Path(output or BASE/"dist")
     output.mkdir(parents=True,exist_ok=True)
@@ -76,7 +164,15 @@ def build_catalog(output=None,render=False,web_index_path=None,timeline_path=Non
     if timeline_fp is not None and timeline_fp!=web_fp:
         raise ValueError("Story Graph consumer fingerprint mismatch")
 
+    characters,lineup=_build_characters()
+    locations,routes,zones=_build_world()
+    chapters=_build_chapters()
     data={
+      "characters":characters,
+      "locations":locations,
+      "routes":routes,
+      "zones":zones,
+      "chapters":chapters,
       "memos":[_project_memo(x) for x in sorted(web["memo_issues"],key=lambda x:x["week"],reverse=True)],
       "timeline":[_project_timeline(x) for x in timeline["entries"]],
       "meta":{
@@ -85,6 +181,9 @@ def build_catalog(output=None,render=False,web_index_path=None,timeline_path=Non
         "season":web["season"],
         "storyGraphFingerprint":web_fp,
         "authority":"READ_ONLY_PRESENTATION_PROJECTION",
+        "sourceRevision":REVISION,
+        "hero":_media_url(lineup["stored_repository_path"]),
+        "heroSource":"Commissioner-approved 2026 character lineup",
         "warnings":[
           "Story Graph status is preserved; site presentation cannot promote release or canon.",
           "Unavailable memo artifacts remain unavailable rather than falling back to another week.",
