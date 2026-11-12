@@ -6,6 +6,15 @@ This creates planning jobs only. It never renders or publishes.
 from __future__ import annotations
 from collections import defaultdict
 
+def _classify(key):
+    if "::RESULT" in key: return "RESULT"
+    if key.startswith("CHAR::"): return "CHARACTER"
+    if key.startswith("LOC::"): return "LOCATION"
+    if key.startswith("COPY::"): return "COPY"
+    if key.startswith("AUDIO::"): return "AUDIO"
+    if key.startswith("PRESENT::"): return "PRESENTATION"
+    return "BASE"
+
 SURFACE_PROFILE={
   "PNG":"CHARACTER_GROUNDED_STATIC",
   "MOTION":"MOTION",
@@ -28,7 +37,10 @@ def build_manifest(events,scenes,source_snapshot="story-graph-source"):
               "status":"BLOCKED" if s["qa"]["publication_state"]=="PLANNED" else "READY",
             })
             edges.append({"upstream":s["scene_id"],"downstream":jid})
-        edges.append({"upstream":s["event_id"],"downstream":s["scene_id"]})
+        for dep in s.get("dependencies",[]):
+            if dep.startswith(("EVT-","CHAR::","LOC::","COPY::","AUDIO::","PRESENT::")):
+                edges.append({"upstream":dep,"downstream":s["scene_id"],"dependency_class":_classify(dep)})
+
     return {
       "schema_version":"1.0",
       "build_id":"BUILD-STORY-GRAPH-V1",
