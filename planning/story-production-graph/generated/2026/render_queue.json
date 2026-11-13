@@ -1,0 +1,1180 @@
+{
+  "authority": "READ_ONLY_GOVERNED_RENDER_QUEUE",
+  "blocked_count": 214,
+  "blocked_jobs": [
+    {
+      "job_id": "JOB-MEMO-2026-W01-TIMELINE",
+      "reason": "memo_publication_state=AUTHORITY_UNRESOLVED_PARTIAL_READBACK;binary_in_repo=false",
+      "surface": "TIMELINE"
+    },
+    {
+      "job_id": "JOB-MEMO-2026-W01-WEB",
+      "reason": "memo_publication_state=AUTHORITY_UNRESOLVED_PARTIAL_READBACK;binary_in_repo=false",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-MEMO-2026-W02-TIMELINE",
+      "reason": "memo_publication_state=RELEASED;binary_in_repo=false",
+      "surface": "TIMELINE"
+    },
+    {
+      "job_id": "JOB-MEMO-2026-W02-WEB",
+      "reason": "memo_publication_state=RELEASED;binary_in_repo=false",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-MEMO-2026-W03-TIMELINE",
+      "reason": "memo_publication_state=RELEASED;binary_in_repo=false",
+      "surface": "TIMELINE"
+    },
+    {
+      "job_id": "JOB-MEMO-2026-W03-WEB",
+      "reason": "memo_publication_state=RELEASED;binary_in_repo=false",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-MEMO-2026-W04-TIMELINE",
+      "reason": "memo_publication_state=BLOCKED;binary_in_repo=false",
+      "surface": "TIMELINE"
+    },
+    {
+      "job_id": "JOB-MEMO-2026-W04-WEB",
+      "reason": "memo_publication_state=BLOCKED;binary_in_repo=false",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-MEMO-2026-W05-TIMELINE",
+      "reason": "memo_publication_state=NOT_PROVEN_RELEASED;binary_in_repo=false",
+      "surface": "TIMELINE"
+    },
+    {
+      "job_id": "JOB-MEMO-2026-W05-WEB",
+      "reason": "memo_publication_state=NOT_PROVEN_RELEASED;binary_in_repo=false",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-MEMO-2026-W06-TIMELINE",
+      "reason": "memo_publication_state=PRODUCTION_CANDIDATE;binary_in_repo=false",
+      "surface": "TIMELINE"
+    },
+    {
+      "job_id": "JOB-MEMO-2026-W06-WEB",
+      "reason": "memo_publication_state=PRODUCTION_CANDIDATE;binary_in_repo=false",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-MEMO-2026-W07-TIMELINE",
+      "reason": "memo_publication_state=HOLD;binary_in_repo=false",
+      "surface": "TIMELINE"
+    },
+    {
+      "job_id": "JOB-MEMO-2026-W07-WEB",
+      "reason": "memo_publication_state=HOLD;binary_in_repo=false",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-MEMO-2026-W08-TIMELINE",
+      "reason": "memo_publication_state=HOLD;binary_in_repo=false",
+      "surface": "TIMELINE"
+    },
+    {
+      "job_id": "JOB-MEMO-2026-W08-WEB",
+      "reason": "memo_publication_state=HOLD;binary_in_repo=false",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-MEMO-2026-W09-TIMELINE",
+      "reason": "memo_publication_state=HOLD;binary_in_repo=false",
+      "surface": "TIMELINE"
+    },
+    {
+      "job_id": "JOB-MEMO-2026-W09-WEB",
+      "reason": "memo_publication_state=HOLD;binary_in_repo=false",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P004-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P004-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P004-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P004-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P005-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P005-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P005-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P005-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P006-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P006-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P006-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P006-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P007-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P007-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P007-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P007-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P008-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P008-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P008-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P008-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P009-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P009-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P009-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P009-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P010-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P010-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P010-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P010-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P011-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P011-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P011-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P011-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P012-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P012-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P012-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P012-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P013-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P013-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P013-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P013-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P014-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P014-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P014-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P014-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P015-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P015-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P015-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P015-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P016-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P016-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P016-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P016-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P017-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P017-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P017-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P017-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P018-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P018-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P018-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P018-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P019-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P019-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P019-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P019-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P020-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P020-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P020-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P020-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P021-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P021-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P021-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P021-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P022-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P022-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P022-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P022-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P023-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P023-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P023-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P023-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P024-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P024-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P024-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P024-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P025-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P025-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P025-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P025-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P026-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P026-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P026-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P026-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P027-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P027-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P027-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W05-P027-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W06-M01-SPATIAL-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W06-M01-SPATIAL-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W06-M01-SPATIAL-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W06-M01-SPATIAL-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W06-M02-SPATIAL-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W06-M02-SPATIAL-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W06-M02-SPATIAL-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W06-M02-SPATIAL-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W06-M03-SPATIAL-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W06-M03-SPATIAL-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W06-M03-SPATIAL-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W06-M03-SPATIAL-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W06-M04-SPATIAL-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W06-M04-SPATIAL-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W06-M04-SPATIAL-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W06-M04-SPATIAL-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W06-M05-SPATIAL-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W06-M05-SPATIAL-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W06-M05-SPATIAL-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W06-M05-SPATIAL-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W06-M06-SPATIAL-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W06-M06-SPATIAL-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W06-M06-SPATIAL-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W06-M06-SPATIAL-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M01-W09-P05-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M01-W09-P05-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M01-W09-P05-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M01-W09-P05-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M01-W09-P06-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M01-W09-P06-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M01-W09-P06-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M01-W09-P06-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M01-W09-P07-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M01-W09-P07-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M01-W09-P07-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M01-W09-P07-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M01-W09-P31-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M01-W09-P31-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M01-W09-P31-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M01-W09-P31-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M02-W09-P09-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M02-W09-P09-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M02-W09-P09-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M02-W09-P09-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M02-W09-P10-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M02-W09-P10-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M02-W09-P10-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M02-W09-P10-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M02-W09-P32-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M02-W09-P32-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M02-W09-P32-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M02-W09-P32-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M03-W09-P12-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M03-W09-P12-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M03-W09-P12-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M03-W09-P12-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M03-W09-P13-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M03-W09-P13-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M03-W09-P13-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M03-W09-P13-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M03-W09-P33-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M03-W09-P33-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M03-W09-P33-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M03-W09-P33-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M04-W09-P14-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M04-W09-P14-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M04-W09-P14-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M04-W09-P14-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M04-W09-P15-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M04-W09-P15-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M04-W09-P15-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M04-W09-P15-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M04-W09-P34-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M04-W09-P34-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M04-W09-P34-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M04-W09-P34-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M05-W09-P17-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M05-W09-P17-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M05-W09-P17-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M05-W09-P17-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M05-W09-P18-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M05-W09-P18-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M05-W09-P18-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M05-W09-P18-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M05-W09-P35-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M05-W09-P35-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M05-W09-P35-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M05-W09-P35-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M06-W09-P20-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M06-W09-P20-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M06-W09-P20-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M06-W09-P20-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M06-W09-P21-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M06-W09-P21-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M06-W09-P21-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M06-W09-P21-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M06-W09-P36-MOTION",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "MOTION",
+      "surface": "MOTION"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M06-W09-P36-NOVEL_CONTEXT",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "NOVEL_CONTEXT"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M06-W09-P36-PNG",
+      "reason": "scene_publication_state=PLANNED",
+      "render_profile": "CHARACTER_GROUNDED_STATIC",
+      "surface": "PNG"
+    },
+    {
+      "job_id": "JOB-SCN-2026-W09-M06-W09-P36-WEB",
+      "reason": "scene_publication_state=PLANNED",
+      "surface": "WEB"
+    }
+  ],
+  "ready_count": 0,
+  "ready_requests": [],
+  "renderer_execution": "NOT_EXECUTED",
+  "schema_version": "1.0",
+  "season": 2026,
+  "source_fingerprint_sha256": "4d0895c2399c61e401aa506dee23d78158e51a7614e8de62541960801ab3728d"
+}

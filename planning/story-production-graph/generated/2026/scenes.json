@@ -1,0 +1,5297 @@
+{
+  "scenes": [
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-5/pages/P004-gotw-overture/PAGE_PACKET.md"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W05-M01::BASE",
+        "LOC::LOC-COMPACT-NEUTRAL-GROUNDS",
+        "CHAR::CHAR-AUSTIN-BYARS",
+        "CHAR::CHAR-PHILLIP-PITTS",
+        "memo-os/week-5/pages/P004-gotw-overture/PAGE_PACKET.md"
+      ],
+      "encounter_id": "ENC-2026-W05-M01",
+      "event_id": "EVT-2026-W05-M01",
+      "location": {
+        "entering_state_receipt": "memo-os/week-5/pages/P004-gotw-overture/PAGE_PACKET.md",
+        "location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+        "persistent_anchors": []
+      },
+      "narrative": {
+        "action_beats": [
+          "Source-controlled Week 5 page packet P004-gotw-overture; adapter adds no new action."
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Source-controlled Week 5 page packet P004-gotw-overture; adapter adds no new action."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W05-P004",
+      "scene_role": "SETUP",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "P004-gotw-overture"
+        ],
+        "source_classifications": [
+          "WEEK5_PAGE_PACKET"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [],
+        "blocking": [],
+        "camera": "Source page packet controls camera/composition; unresolved fields remain upstream.",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-5/pages/P005-gotw-setup/PAGE_PACKET.md"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W05-M01::BASE",
+        "LOC::LOC-COMPACT-NEUTRAL-GROUNDS",
+        "CHAR::CHAR-AUSTIN-BYARS",
+        "CHAR::CHAR-PHILLIP-PITTS",
+        "memo-os/week-5/pages/P005-gotw-setup/PAGE_PACKET.md"
+      ],
+      "encounter_id": "ENC-2026-W05-M01",
+      "event_id": "EVT-2026-W05-M01",
+      "location": {
+        "entering_state_receipt": "memo-os/week-5/pages/P005-gotw-setup/PAGE_PACKET.md",
+        "location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+        "persistent_anchors": []
+      },
+      "narrative": {
+        "action_beats": [
+          "Market approach and monumental chessboard, opposing arrivals"
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Market approach and monumental chessboard, opposing arrivals"
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W05-P005",
+      "scene_role": "SETUP",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "P005-gotw-setup"
+        ],
+        "source_classifications": [
+          "WEEK5_PAGE_PACKET"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [],
+        "blocking": [],
+        "camera": "Source page packet controls camera/composition; unresolved fields remain upstream.",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-5/pages/P006-gotw-escalation/PAGE_PACKET.md"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W05-M01::BASE",
+        "LOC::LOC-COMPACT-NEUTRAL-GROUNDS",
+        "CHAR::CHAR-AUSTIN-BYARS",
+        "CHAR::CHAR-PHILLIP-PITTS",
+        "memo-os/week-5/pages/P006-gotw-escalation/PAGE_PACKET.md"
+      ],
+      "encounter_id": "ENC-2026-W05-M01",
+      "event_id": "EVT-2026-W05-M01",
+      "location": {
+        "entering_state_receipt": "memo-os/week-5/pages/P006-gotw-escalation/PAGE_PACKET.md",
+        "location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+        "persistent_anchors": []
+      },
+      "narrative": {
+        "action_beats": [
+          "Stone captures; HMB's JSN 23.9 and Vikings D/ST 19.9 positional pressure versus TDS's Javonte 15.4, Emanuel 15.2 and Tuten 13.8"
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Stone captures; HMB's JSN 23.9 and Vikings D/ST 19.9 positional pressure versus TDS's Javonte 15.4, Emanuel 15.2 and Tuten 13.8"
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W05-P006",
+      "scene_role": "ESCALATION",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "P006-gotw-escalation"
+        ],
+        "source_classifications": [
+          "WEEK5_PAGE_PACKET"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [],
+        "blocking": [],
+        "camera": "Source page packet controls camera/composition; unresolved fields remain upstream.",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-5/pages/P007-gotw-payoff/PAGE_PACKET.md"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "SETTLED",
+      "cast": [
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W05-M01::BASE",
+        "LOC::LOC-COMPACT-NEUTRAL-GROUNDS",
+        "CHAR::CHAR-AUSTIN-BYARS",
+        "CHAR::CHAR-PHILLIP-PITTS",
+        "memo-os/week-5/pages/P007-gotw-payoff/PAGE_PACKET.md",
+        "EVT-2026-W05-M01::RESULT"
+      ],
+      "encounter_id": "ENC-2026-W05-M01",
+      "event_id": "EVT-2026-W05-M01",
+      "location": {
+        "entering_state_receipt": "memo-os/week-5/pages/P007-gotw-payoff/PAGE_PACKET.md",
+        "location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+        "persistent_anchors": []
+      },
+      "narrative": {
+        "action_beats": [
+          "Conditional checkmate; HMB provisional 113.45 vs TDS 85.34; never claim official until Fact Lock"
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Conditional checkmate; HMB provisional 113.45 vs TDS 85.34; never claim official until Fact Lock"
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W05-P007",
+      "scene_role": "RESOLUTION",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "P007-gotw-payoff"
+        ],
+        "source_classifications": [
+          "WEEK5_PAGE_PACKET"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [],
+        "blocking": [],
+        "camera": "Source page packet controls camera/composition; unresolved fields remain upstream.",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-5/pages/P008-llc-mud-overture/PAGE_PACKET.md"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W05-M02::BASE",
+        "LOC::LOC-MUD-DOGS-SWAMP",
+        "CHAR::CHAR-BOBBY-MITCHELL",
+        "CHAR::CHAR-DAVID-BABB",
+        "memo-os/week-5/pages/P008-llc-mud-overture/PAGE_PACKET.md"
+      ],
+      "encounter_id": "ENC-2026-W05-M02",
+      "event_id": "EVT-2026-W05-M02",
+      "location": {
+        "entering_state_receipt": "memo-os/week-5/pages/P008-llc-mud-overture/PAGE_PACKET.md",
+        "location_id": "LOC-MUD-DOGS-SWAMP",
+        "persistent_anchors": []
+      },
+      "narrative": {
+        "action_beats": [
+          "Source-controlled Week 5 page packet P008-llc-mud-overture; adapter adds no new action."
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Source-controlled Week 5 page packet P008-llc-mud-overture; adapter adds no new action."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W05-P008",
+      "scene_role": "SETUP",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "P008-llc-mud-overture"
+        ],
+        "source_classifications": [
+          "WEEK5_PAGE_PACKET"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [],
+        "blocking": [],
+        "camera": "Source page packet controls camera/composition; unresolved fields remain upstream.",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-5/pages/P009-llc-mud-setup/PAGE_PACKET.md"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W05-M02::BASE",
+        "LOC::LOC-MUD-DOGS-SWAMP",
+        "CHAR::CHAR-BOBBY-MITCHELL",
+        "CHAR::CHAR-DAVID-BABB",
+        "memo-os/week-5/pages/P009-llc-mud-setup/PAGE_PACKET.md"
+      ],
+      "encounter_id": "ENC-2026-W05-M02",
+      "event_id": "EVT-2026-W05-M02",
+      "location": {
+        "entering_state_receipt": "memo-os/week-5/pages/P009-llc-mud-setup/PAGE_PACKET.md",
+        "location_id": "LOC-MUD-DOGS-SWAMP",
+        "persistent_anchors": []
+      },
+      "narrative": {
+        "action_beats": [
+          "Mud Dogs' ordinary shack and swamp routines before disruption"
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Mud Dogs' ordinary shack and swamp routines before disruption"
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W05-P009",
+      "scene_role": "SETUP",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "P009-llc-mud-setup"
+        ],
+        "source_classifications": [
+          "WEEK5_PAGE_PACKET"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [],
+        "blocking": [],
+        "camera": "Source page packet controls camera/composition; unresolved fields remain upstream.",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-5/pages/P010-llc-mud-escalation/PAGE_PACKET.md"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W05-M02::BASE",
+        "LOC::LOC-MUD-DOGS-SWAMP",
+        "CHAR::CHAR-BOBBY-MITCHELL",
+        "CHAR::CHAR-DAVID-BABB",
+        "memo-os/week-5/pages/P010-llc-mud-escalation/PAGE_PACKET.md"
+      ],
+      "encounter_id": "ENC-2026-W05-M02",
+      "event_id": "EVT-2026-W05-M02",
+      "location": {
+        "entering_state_receipt": "memo-os/week-5/pages/P010-llc-mud-escalation/PAGE_PACKET.md",
+        "location_id": "LOC-MUD-DOGS-SWAMP",
+        "persistent_anchors": []
+      },
+      "narrative": {
+        "action_beats": [
+          "LLC surveyors, stakes, hard hats, machinery and contract confrontation; swamp sinks equipment"
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "LLC surveyors, stakes, hard hats, machinery and contract confrontation; swamp sinks equipment"
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W05-P010",
+      "scene_role": "ESCALATION",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "P010-llc-mud-escalation"
+        ],
+        "source_classifications": [
+          "WEEK5_PAGE_PACKET"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [],
+        "blocking": [],
+        "camera": "Source page packet controls camera/composition; unresolved fields remain upstream.",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-5/pages/P011-llc-mud-payoff/PAGE_PACKET.md"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "SETTLED",
+      "cast": [
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W05-M02::BASE",
+        "LOC::LOC-MUD-DOGS-SWAMP",
+        "CHAR::CHAR-BOBBY-MITCHELL",
+        "CHAR::CHAR-DAVID-BABB",
+        "memo-os/week-5/pages/P011-llc-mud-payoff/PAGE_PACKET.md",
+        "EVT-2026-W05-M02::RESULT"
+      ],
+      "encounter_id": "ENC-2026-W05-M02",
+      "event_id": "EVT-2026-W05-M02",
+      "location": {
+        "entering_state_receipt": "memo-os/week-5/pages/P011-llc-mud-payoff/PAGE_PACKET.md",
+        "location_id": "LOC-MUD-DOGS-SWAMP",
+        "persistent_anchors": []
+      },
+      "narrative": {
+        "action_beats": [
+          "Conditional LLC development or Mud Dogs defense; provisional LLC 193.73 vs Mud Dogs 127.09"
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Conditional LLC development or Mud Dogs defense; provisional LLC 193.73 vs Mud Dogs 127.09"
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W05-P011",
+      "scene_role": "RESOLUTION",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "P011-llc-mud-payoff"
+        ],
+        "source_classifications": [
+          "WEEK5_PAGE_PACKET"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [],
+        "blocking": [],
+        "camera": "Source page packet controls camera/composition; unresolved fields remain upstream.",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-5/pages/P012-chili-nino-overture/PAGE_PACKET.md"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W05-M03::BASE",
+        "LOC::LOC-CHILI-STABLE",
+        "CHAR::CHAR-BRANDON-PRYOR",
+        "CHAR::CHAR-MANNING-WELTY",
+        "memo-os/week-5/pages/P012-chili-nino-overture/PAGE_PACKET.md"
+      ],
+      "encounter_id": "ENC-2026-W05-M03",
+      "event_id": "EVT-2026-W05-M03",
+      "location": {
+        "entering_state_receipt": "memo-os/week-5/pages/P012-chili-nino-overture/PAGE_PACKET.md",
+        "location_id": "LOC-CHILI-STABLE",
+        "persistent_anchors": []
+      },
+      "narrative": {
+        "action_beats": [
+          "Source-controlled Week 5 page packet P012-chili-nino-overture; adapter adds no new action."
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Source-controlled Week 5 page packet P012-chili-nino-overture; adapter adds no new action."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W05-P012",
+      "scene_role": "SETUP",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "P012-chili-nino-overture"
+        ],
+        "source_classifications": [
+          "WEEK5_PAGE_PACKET"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [],
+        "blocking": [],
+        "camera": "Source page packet controls camera/composition; unresolved fields remain upstream.",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-5/pages/P013-chili-nino-setup/PAGE_PACKET.md"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W05-M03::BASE",
+        "LOC::LOC-CHILI-STABLE",
+        "CHAR::CHAR-BRANDON-PRYOR",
+        "CHAR::CHAR-MANNING-WELTY",
+        "memo-os/week-5/pages/P013-chili-nino-setup/PAGE_PACKET.md"
+      ],
+      "encounter_id": "ENC-2026-W05-M03",
+      "event_id": "EVT-2026-W05-M03",
+      "location": {
+        "entering_state_receipt": "memo-os/week-5/pages/P013-chili-nino-setup/PAGE_PACKET.md",
+        "location_id": "LOC-CHILI-STABLE",
+        "persistent_anchors": []
+      },
+      "narrative": {
+        "action_beats": [
+          "Chili's town and Dark Horse; stranger's arrival"
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Chili's town and Dark Horse; stranger's arrival"
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W05-P013",
+      "scene_role": "SETUP",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "P013-chili-nino-setup"
+        ],
+        "source_classifications": [
+          "WEEK5_PAGE_PACKET"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [],
+        "blocking": [],
+        "camera": "Source page packet controls camera/composition; unresolved fields remain upstream.",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-5/pages/P014-chili-nino-escalation/PAGE_PACKET.md"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W05-M03::BASE",
+        "LOC::LOC-CHILI-STABLE",
+        "CHAR::CHAR-BRANDON-PRYOR",
+        "CHAR::CHAR-MANNING-WELTY",
+        "memo-os/week-5/pages/P014-chili-nino-escalation/PAGE_PACKET.md"
+      ],
+      "encounter_id": "ENC-2026-W05-M03",
+      "event_id": "EVT-2026-W05-M03",
+      "location": {
+        "entering_state_receipt": "memo-os/week-5/pages/P014-chili-nino-escalation/PAGE_PACKET.md",
+        "location_id": "LOC-CHILI-STABLE",
+        "persistent_anchors": []
+      },
+      "narrative": {
+        "action_beats": [
+          "Weather darkens, horse reacts, town shutters and high noon approaches"
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Weather darkens, horse reacts, town shutters and high noon approaches"
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W05-P014",
+      "scene_role": "ESCALATION",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "P014-chili-nino-escalation"
+        ],
+        "source_classifications": [
+          "WEEK5_PAGE_PACKET"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [],
+        "blocking": [],
+        "camera": "Source page packet controls camera/composition; unresolved fields remain upstream.",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-5/pages/P015-chili-nino-payoff/PAGE_PACKET.md"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "SETTLED",
+      "cast": [
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W05-M03::BASE",
+        "LOC::LOC-CHILI-STABLE",
+        "CHAR::CHAR-BRANDON-PRYOR",
+        "CHAR::CHAR-MANNING-WELTY",
+        "memo-os/week-5/pages/P015-chili-nino-payoff/PAGE_PACKET.md",
+        "EVT-2026-W05-M03::RESULT"
+      ],
+      "encounter_id": "ENC-2026-W05-M03",
+      "event_id": "EVT-2026-W05-M03",
+      "location": {
+        "entering_state_receipt": "memo-os/week-5/pages/P015-chili-nino-payoff/PAGE_PACKET.md",
+        "location_id": "LOC-CHILI-STABLE",
+        "persistent_anchors": []
+      },
+      "narrative": {
+        "action_beats": [
+          "Conditional non-gory duel; provisional Chili Cheesers 183.53 vs El Niño 156.70 (FLAIM 2026-10-13); NFL Monday game completed; fantasy winner still UNDECIDED"
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Conditional non-gory duel; provisional Chili Cheesers 183.53 vs El Niño 156.70 (FLAIM 2026-10-13); NFL Monday game completed; fantasy winner still UNDECIDED"
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W05-P015",
+      "scene_role": "RESOLUTION",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "P015-chili-nino-payoff"
+        ],
+        "source_classifications": [
+          "WEEK5_PAGE_PACKET"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [],
+        "blocking": [],
+        "camera": "Source page packet controls camera/composition; unresolved fields remain upstream.",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-5/pages/P016-duck-dk-overture/PAGE_PACKET.md"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W05-M04::BASE",
+        "LOC::LOC-COUNTRY-CLUB-JACKSON",
+        "CHAR::CHAR-WILSON-LOOK",
+        "CHAR::CHAR-ZACH-WILSON",
+        "memo-os/week-5/pages/P016-duck-dk-overture/PAGE_PACKET.md"
+      ],
+      "encounter_id": "ENC-2026-W05-M04",
+      "event_id": "EVT-2026-W05-M04",
+      "location": {
+        "entering_state_receipt": "memo-os/week-5/pages/P016-duck-dk-overture/PAGE_PACKET.md",
+        "location_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "persistent_anchors": []
+      },
+      "narrative": {
+        "action_beats": [
+          "Source-controlled Week 5 page packet P016-duck-dk-overture; adapter adds no new action."
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Source-controlled Week 5 page packet P016-duck-dk-overture; adapter adds no new action."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W05-P016",
+      "scene_role": "SETUP",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "P016-duck-dk-overture"
+        ],
+        "source_classifications": [
+          "WEEK5_PAGE_PACKET"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [],
+        "blocking": [],
+        "camera": "Source page packet controls camera/composition; unresolved fields remain upstream.",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-5/pages/P017-duck-dk-setup/PAGE_PACKET.md"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W05-M04::BASE",
+        "LOC::LOC-COUNTRY-CLUB-JACKSON",
+        "CHAR::CHAR-WILSON-LOOK",
+        "CHAR::CHAR-ZACH-WILSON",
+        "memo-os/week-5/pages/P017-duck-dk-setup/PAGE_PACKET.md"
+      ],
+      "encounter_id": "ENC-2026-W05-M04",
+      "event_id": "EVT-2026-W05-M04",
+      "location": {
+        "entering_state_receipt": "memo-os/week-5/pages/P017-duck-dk-setup/PAGE_PACKET.md",
+        "location_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "persistent_anchors": []
+      },
+      "narrative": {
+        "action_beats": [
+          "Duckhook David confronts giant Arsenal Gorilla Centaur DK"
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Duckhook David confronts giant Arsenal Gorilla Centaur DK"
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W05-P017",
+      "scene_role": "SETUP",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "P017-duck-dk-setup"
+        ],
+        "source_classifications": [
+          "WEEK5_PAGE_PACKET"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [],
+        "blocking": [],
+        "camera": "Source page packet controls camera/composition; unresolved fields remain upstream.",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-5/pages/P018-duck-dk-escalation/PAGE_PACKET.md"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W05-M04::BASE",
+        "LOC::LOC-COUNTRY-CLUB-JACKSON",
+        "CHAR::CHAR-WILSON-LOOK",
+        "CHAR::CHAR-ZACH-WILSON",
+        "memo-os/week-5/pages/P018-duck-dk-escalation/PAGE_PACKET.md"
+      ],
+      "encounter_id": "ENC-2026-W05-M04",
+      "event_id": "EVT-2026-W05-M04",
+      "location": {
+        "entering_state_receipt": "memo-os/week-5/pages/P018-duck-dk-escalation/PAGE_PACKET.md",
+        "location_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "persistent_anchors": []
+      },
+      "narrative": {
+        "action_beats": [
+          "Source-controlled Week 5 page packet P018-duck-dk-escalation; adapter adds no new action."
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Source-controlled Week 5 page packet P018-duck-dk-escalation; adapter adds no new action."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W05-P018",
+      "scene_role": "ESCALATION",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "P018-duck-dk-escalation"
+        ],
+        "source_classifications": [
+          "WEEK5_PAGE_PACKET"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [],
+        "blocking": [],
+        "camera": "Source page packet controls camera/composition; unresolved fields remain upstream.",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-5/pages/P019-duck-dk-payoff/PAGE_PACKET.md"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "SETTLED",
+      "cast": [
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W05-M04::BASE",
+        "LOC::LOC-COUNTRY-CLUB-JACKSON",
+        "CHAR::CHAR-WILSON-LOOK",
+        "CHAR::CHAR-ZACH-WILSON",
+        "memo-os/week-5/pages/P019-duck-dk-payoff/PAGE_PACKET.md",
+        "EVT-2026-W05-M04::RESULT"
+      ],
+      "encounter_id": "ENC-2026-W05-M04",
+      "event_id": "EVT-2026-W05-M04",
+      "location": {
+        "entering_state_receipt": "memo-os/week-5/pages/P019-duck-dk-payoff/PAGE_PACKET.md",
+        "location_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "persistent_anchors": []
+      },
+      "narrative": {
+        "action_beats": [
+          "Source-controlled Week 5 page packet P019-duck-dk-payoff; adapter adds no new action."
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Source-controlled Week 5 page packet P019-duck-dk-payoff; adapter adds no new action."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W05-P019",
+      "scene_role": "RESOLUTION",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "P019-duck-dk-payoff"
+        ],
+        "source_classifications": [
+          "WEEK5_PAGE_PACKET"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [],
+        "blocking": [],
+        "camera": "Source page packet controls camera/composition; unresolved fields remain upstream.",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-5/pages/P020-chins-slob-overture/PAGE_PACKET.md"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W05-M05::BASE",
+        "LOC::LOC-SLOB-FOOTHILL-CAMP",
+        "CHAR::CHAR-BEN-WHIPPLE",
+        "CHAR::CHAR-JORDAN-HOLLINGSHEAD",
+        "memo-os/week-5/pages/P020-chins-slob-overture/PAGE_PACKET.md"
+      ],
+      "encounter_id": "ENC-2026-W05-M05",
+      "event_id": "EVT-2026-W05-M05",
+      "location": {
+        "entering_state_receipt": "memo-os/week-5/pages/P020-chins-slob-overture/PAGE_PACKET.md",
+        "location_id": "LOC-SLOB-FOOTHILL-CAMP",
+        "persistent_anchors": []
+      },
+      "narrative": {
+        "action_beats": [
+          "Source-controlled Week 5 page packet P020-chins-slob-overture; adapter adds no new action."
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Source-controlled Week 5 page packet P020-chins-slob-overture; adapter adds no new action."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W05-P020",
+      "scene_role": "SETUP",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "P020-chins-slob-overture"
+        ],
+        "source_classifications": [
+          "WEEK5_PAGE_PACKET"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [],
+        "blocking": [],
+        "camera": "Source page packet controls camera/composition; unresolved fields remain upstream.",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-5/pages/P021-chins-slob-setup/PAGE_PACKET.md"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W05-M05::BASE",
+        "LOC::LOC-SLOB-FOOTHILL-CAMP",
+        "CHAR::CHAR-BEN-WHIPPLE",
+        "CHAR::CHAR-JORDAN-HOLLINGSHEAD",
+        "memo-os/week-5/pages/P021-chins-slob-setup/PAGE_PACKET.md"
+      ],
+      "encounter_id": "ENC-2026-W05-M05",
+      "event_id": "EVT-2026-W05-M05",
+      "location": {
+        "entering_state_receipt": "memo-os/week-5/pages/P021-chins-slob-setup/PAGE_PACKET.md",
+        "location_id": "LOC-SLOB-FOOTHILL-CAMP",
+        "persistent_anchors": []
+      },
+      "narrative": {
+        "action_beats": [
+          "Source-controlled Week 5 page packet P021-chins-slob-setup; adapter adds no new action."
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Source-controlled Week 5 page packet P021-chins-slob-setup; adapter adds no new action."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W05-P021",
+      "scene_role": "SETUP",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "P021-chins-slob-setup"
+        ],
+        "source_classifications": [
+          "WEEK5_PAGE_PACKET"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [],
+        "blocking": [],
+        "camera": "Source page packet controls camera/composition; unresolved fields remain upstream.",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-5/pages/P022-chins-slob-escalation/PAGE_PACKET.md"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W05-M05::BASE",
+        "LOC::LOC-SLOB-FOOTHILL-CAMP",
+        "CHAR::CHAR-BEN-WHIPPLE",
+        "CHAR::CHAR-JORDAN-HOLLINGSHEAD",
+        "memo-os/week-5/pages/P022-chins-slob-escalation/PAGE_PACKET.md"
+      ],
+      "encounter_id": "ENC-2026-W05-M05",
+      "event_id": "EVT-2026-W05-M05",
+      "location": {
+        "entering_state_receipt": "memo-os/week-5/pages/P022-chins-slob-escalation/PAGE_PACKET.md",
+        "location_id": "LOC-SLOB-FOOTHILL-CAMP",
+        "persistent_anchors": []
+      },
+      "narrative": {
+        "action_beats": [
+          "Source-controlled Week 5 page packet P022-chins-slob-escalation; adapter adds no new action."
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Source-controlled Week 5 page packet P022-chins-slob-escalation; adapter adds no new action."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W05-P022",
+      "scene_role": "ESCALATION",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "P022-chins-slob-escalation"
+        ],
+        "source_classifications": [
+          "WEEK5_PAGE_PACKET"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [],
+        "blocking": [],
+        "camera": "Source page packet controls camera/composition; unresolved fields remain upstream.",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-5/pages/P023-chins-slob-payoff/PAGE_PACKET.md"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "SETTLED",
+      "cast": [
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W05-M05::BASE",
+        "LOC::LOC-SLOB-FOOTHILL-CAMP",
+        "CHAR::CHAR-BEN-WHIPPLE",
+        "CHAR::CHAR-JORDAN-HOLLINGSHEAD",
+        "memo-os/week-5/pages/P023-chins-slob-payoff/PAGE_PACKET.md",
+        "EVT-2026-W05-M05::RESULT"
+      ],
+      "encounter_id": "ENC-2026-W05-M05",
+      "event_id": "EVT-2026-W05-M05",
+      "location": {
+        "entering_state_receipt": "memo-os/week-5/pages/P023-chins-slob-payoff/PAGE_PACKET.md",
+        "location_id": "LOC-SLOB-FOOTHILL-CAMP",
+        "persistent_anchors": []
+      },
+      "narrative": {
+        "action_beats": [
+          "Source-controlled Week 5 page packet P023-chins-slob-payoff; adapter adds no new action."
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Source-controlled Week 5 page packet P023-chins-slob-payoff; adapter adds no new action."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W05-P023",
+      "scene_role": "RESOLUTION",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "P023-chins-slob-payoff"
+        ],
+        "source_classifications": [
+          "WEEK5_PAGE_PACKET"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [],
+        "blocking": [],
+        "camera": "Source page packet controls camera/composition; unresolved fields remain upstream.",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-5/pages/P024-red-obi-overture/PAGE_PACKET.md"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W05-M06::BASE",
+        "LOC::LOC-RED-RUINS",
+        "CHAR::CHAR-JAKE-KALOPER",
+        "CHAR::CHAR-KEVIN-ZEEK",
+        "memo-os/week-5/pages/P024-red-obi-overture/PAGE_PACKET.md"
+      ],
+      "encounter_id": "ENC-2026-W05-M06",
+      "event_id": "EVT-2026-W05-M06",
+      "location": {
+        "entering_state_receipt": "memo-os/week-5/pages/P024-red-obi-overture/PAGE_PACKET.md",
+        "location_id": "LOC-RED-RUINS",
+        "persistent_anchors": []
+      },
+      "narrative": {
+        "action_beats": [
+          "Source-controlled Week 5 page packet P024-red-obi-overture; adapter adds no new action."
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Source-controlled Week 5 page packet P024-red-obi-overture; adapter adds no new action."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W05-P024",
+      "scene_role": "SETUP",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "P024-red-obi-overture"
+        ],
+        "source_classifications": [
+          "WEEK5_PAGE_PACKET"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [],
+        "blocking": [],
+        "camera": "Source page packet controls camera/composition; unresolved fields remain upstream.",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-5/pages/P025-red-obi-setup/PAGE_PACKET.md"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W05-M06::BASE",
+        "LOC::LOC-RED-RUINS",
+        "CHAR::CHAR-JAKE-KALOPER",
+        "CHAR::CHAR-KEVIN-ZEEK",
+        "memo-os/week-5/pages/P025-red-obi-setup/PAGE_PACKET.md"
+      ],
+      "encounter_id": "ENC-2026-W05-M06",
+      "event_id": "EVT-2026-W05-M06",
+      "location": {
+        "entering_state_receipt": "memo-os/week-5/pages/P025-red-obi-setup/PAGE_PACKET.md",
+        "location_id": "LOC-RED-RUINS",
+        "persistent_anchors": []
+      },
+      "narrative": {
+        "action_beats": [
+          "Source-controlled Week 5 page packet P025-red-obi-setup; adapter adds no new action."
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Source-controlled Week 5 page packet P025-red-obi-setup; adapter adds no new action."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W05-P025",
+      "scene_role": "SETUP",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "P025-red-obi-setup"
+        ],
+        "source_classifications": [
+          "WEEK5_PAGE_PACKET"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [],
+        "blocking": [],
+        "camera": "Source page packet controls camera/composition; unresolved fields remain upstream.",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-5/pages/P026-red-obi-escalation/PAGE_PACKET.md"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W05-M06::BASE",
+        "LOC::LOC-RED-RUINS",
+        "CHAR::CHAR-JAKE-KALOPER",
+        "CHAR::CHAR-KEVIN-ZEEK",
+        "memo-os/week-5/pages/P026-red-obi-escalation/PAGE_PACKET.md"
+      ],
+      "encounter_id": "ENC-2026-W05-M06",
+      "event_id": "EVT-2026-W05-M06",
+      "location": {
+        "entering_state_receipt": "memo-os/week-5/pages/P026-red-obi-escalation/PAGE_PACKET.md",
+        "location_id": "LOC-RED-RUINS",
+        "persistent_anchors": []
+      },
+      "narrative": {
+        "action_beats": [
+          "Source-controlled Week 5 page packet P026-red-obi-escalation; adapter adds no new action."
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Source-controlled Week 5 page packet P026-red-obi-escalation; adapter adds no new action."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W05-P026",
+      "scene_role": "ESCALATION",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "P026-red-obi-escalation"
+        ],
+        "source_classifications": [
+          "WEEK5_PAGE_PACKET"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [],
+        "blocking": [],
+        "camera": "Source page packet controls camera/composition; unresolved fields remain upstream.",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-5/pages/P027-red-obi-payoff/PAGE_PACKET.md"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "SETTLED",
+      "cast": [
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W05-M06::BASE",
+        "LOC::LOC-RED-RUINS",
+        "CHAR::CHAR-JAKE-KALOPER",
+        "CHAR::CHAR-KEVIN-ZEEK",
+        "memo-os/week-5/pages/P027-red-obi-payoff/PAGE_PACKET.md",
+        "EVT-2026-W05-M06::RESULT"
+      ],
+      "encounter_id": "ENC-2026-W05-M06",
+      "event_id": "EVT-2026-W05-M06",
+      "location": {
+        "entering_state_receipt": "memo-os/week-5/pages/P027-red-obi-payoff/PAGE_PACKET.md",
+        "location_id": "LOC-RED-RUINS",
+        "persistent_anchors": []
+      },
+      "narrative": {
+        "action_beats": [
+          "Source-controlled Week 5 page packet P027-red-obi-payoff; adapter adds no new action."
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Source-controlled Week 5 page packet P027-red-obi-payoff; adapter adds no new action."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W05-P027",
+      "scene_role": "RESOLUTION",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "P027-red-obi-payoff"
+        ],
+        "source_classifications": [
+          "WEEK5_PAGE_PACKET"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [],
+        "blocking": [],
+        "camera": "Source page packet controls camera/composition; unresolved fields remain upstream.",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-6/WEEK_6_SPATIAL_ACTION_PREFLIGHT_V1.json"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W06-M01::BASE",
+        "CHAR::CHAR-KEVIN-ZEEK",
+        "CHAR::CHAR-WILSON-LOOK",
+        "LOC::LOC-RED-RUINS",
+        "memo-os/week-6/WEEK_6_SPATIAL_ACTION_PREFLIGHT_V1.json"
+      ],
+      "encounter_id": "ENC-2026-W06-01",
+      "event_id": "EVT-2026-W06-M01",
+      "location": {
+        "entering_state_receipt": "memo-os/week-6/WEEK_6_SPATIAL_ACTION_PREFLIGHT_V1.json",
+        "location_id": "LOC-RED-RUINS",
+        "persistent_anchors": [
+          "Rain Escarpment arrival",
+          "separate entry tunnels",
+          "lower-terrace pitch",
+          "goal-mouth end A",
+          "goal-mouth end B",
+          "ruin and forest stands"
+        ]
+      },
+      "narrative": {
+        "action_beats": [
+          "visitors tunnel",
+          "centre circle",
+          "goal-mouth",
+          "safe runoff",
+          "opposite end"
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Manchester United vs Arsenal football"
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W06-M01-SPATIAL",
+      "scene_role": "SETUP",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "W6-RED-DK"
+        ],
+        "source_classifications": [
+          "WEEK6_SPATIAL_PREFLIGHT"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [
+          "Rain Escarpment arrival",
+          "separate entry tunnels",
+          "lower-terrace pitch",
+          "goal-mouth end A",
+          "goal-mouth end B",
+          "ruin and forest stands"
+        ],
+        "blocking": [
+          "visitors tunnel",
+          "centre circle",
+          "goal-mouth",
+          "safe runoff",
+          "opposite end"
+        ],
+        "camera": "high corner stadium oblique | low goal-line reverse",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-6/WEEK_6_SPATIAL_ACTION_PREFLIGHT_V1.json"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W06-M02::BASE",
+        "CHAR::CHAR-ZACH-WILSON",
+        "CHAR::CHAR-MANNING-WELTY",
+        "LOC::LOC-COUNTRY-CLUB-JACKSON",
+        "memo-os/week-6/WEEK_6_SPATIAL_ACTION_PREFLIGHT_V1.json"
+      ],
+      "encounter_id": "ENC-2026-W06-02",
+      "event_id": "EVT-2026-W06-M02",
+      "location": {
+        "entering_state_receipt": "memo-os/week-6/WEEK_6_SPATIAL_ACTION_PREFLIGHT_V1.json",
+        "location_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "persistent_anchors": [
+          "eighteenth green",
+          "portrait/spectator terrace",
+          "clubhouse",
+          "cart loop",
+          "water hazard"
+        ]
+      },
+      "narrative": {
+        "action_beats": [
+          "green",
+          "portrait terrace",
+          "clubhouse track",
+          "hazard approach",
+          "escape shoulder"
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Celebrity tournament and golf-cart pursuit"
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W06-M02-SPATIAL",
+      "scene_role": "SETUP",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "W6-DUCK-NINO"
+        ],
+        "source_classifications": [
+          "WEEK6_SPATIAL_PREFLIGHT"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [
+          "eighteenth green",
+          "portrait/spectator terrace",
+          "clubhouse",
+          "cart loop",
+          "water hazard"
+        ],
+        "blocking": [
+          "green",
+          "portrait terrace",
+          "clubhouse track",
+          "hazard approach",
+          "escape shoulder"
+        ],
+        "camera": "clubhouse establishing oblique | cart-path chase profile",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-6/WEEK_6_SPATIAL_ACTION_PREFLIGHT_V1.json"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W06-M03::BASE",
+        "CHAR::CHAR-JORDAN-HOLLINGSHEAD",
+        "CHAR::CHAR-JAKE-KALOPER",
+        "LOC::LOC-SLOB-FOOTHILL-CAMP",
+        "memo-os/week-6/WEEK_6_SPATIAL_ACTION_PREFLIGHT_V1.json"
+      ],
+      "encounter_id": "ENC-2026-W06-03",
+      "event_id": "EVT-2026-W06-M03",
+      "location": {
+        "entering_state_receipt": "memo-os/week-6/WEEK_6_SPATIAL_ACTION_PREFLIGHT_V1.json",
+        "location_id": "LOC-SLOB-FOOTHILL-CAMP",
+        "persistent_anchors": [
+          "camp entry",
+          "packed-earth court",
+          "referee stand",
+          "spectator rail",
+          "mud runoff"
+        ]
+      },
+      "narrative": {
+        "action_beats": [
+          "visitor gate",
+          "court",
+          "official platform sightline",
+          "safe rail"
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Corruptly refereed mountain dodgeball"
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W06-M03-SPATIAL",
+      "scene_role": "SETUP",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "W6-SLOB-OBI"
+        ],
+        "source_classifications": [
+          "WEEK6_SPATIAL_PREFLIGHT"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [
+          "camp entry",
+          "packed-earth court",
+          "referee stand",
+          "spectator rail",
+          "mud runoff"
+        ],
+        "blocking": [
+          "visitor gate",
+          "court",
+          "official platform sightline",
+          "safe rail"
+        ],
+        "camera": "throw-to-referee common axis | crowd reverse",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-6/WEEK_6_SPATIAL_ACTION_PREFLIGHT_V1.json"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W06-M04::BASE",
+        "CHAR::CHAR-BRANDON-PRYOR",
+        "CHAR::CHAR-BEN-WHIPPLE",
+        "LOC::LOC-CHILI-STABLE",
+        "memo-os/week-6/WEEK_6_SPATIAL_ACTION_PREFLIGHT_V1.json"
+      ],
+      "encounter_id": "ENC-2026-W06-04",
+      "event_id": "EVT-2026-W06-M04",
+      "location": {
+        "entering_state_receipt": "memo-os/week-6/WEEK_6_SPATIAL_ACTION_PREFLIGHT_V1.json",
+        "location_id": "LOC-CHILI-STABLE",
+        "persistent_anchors": [
+          "stable",
+          "delivery table",
+          "rodeo gate",
+          "barrel course",
+          "wagon track",
+          "spectator rail"
+        ]
+      },
+      "narrative": {
+        "action_beats": [
+          "delivery table",
+          "wagon gate",
+          "barrels",
+          "outer escape lane",
+          "controlled stop"
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Rodeo contest misdelivered chili dog wagon chase"
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W06-M04-SPATIAL",
+      "scene_role": "SETUP",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "W6-CHILI-CHINS"
+        ],
+        "source_classifications": [
+          "WEEK6_SPATIAL_PREFLIGHT"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [
+          "stable",
+          "delivery table",
+          "rodeo gate",
+          "barrel course",
+          "wagon track",
+          "spectator rail"
+        ],
+        "blocking": [
+          "delivery table",
+          "wagon gate",
+          "barrels",
+          "outer escape lane",
+          "controlled stop"
+        ],
+        "camera": "arena-wide high angle | horse-wagon parallel tracking",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-6/WEEK_6_SPATIAL_ACTION_PREFLIGHT_V1.json"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W06-M05::BASE",
+        "CHAR::CHAR-BOBBY-MITCHELL",
+        "CHAR::CHAR-AUSTIN-BYARS",
+        "LOC::LOC-MUD-DOGS-SWAMP",
+        "memo-os/week-6/WEEK_6_SPATIAL_ACTION_PREFLIGHT_V1.json"
+      ],
+      "encounter_id": "ENC-2026-W06-05",
+      "event_id": "EVT-2026-W06-M05",
+      "location": {
+        "entering_state_receipt": "memo-os/week-6/WEEK_6_SPATIAL_ACTION_PREFLIGHT_V1.json",
+        "location_id": "LOC-MUD-DOGS-SWAMP",
+        "persistent_anchors": [
+          "causeway approach",
+          "loading landing",
+          "main river bend",
+          "side skiff channel",
+          "pinch point",
+          "raised bank"
+        ]
+      },
+      "narrative": {
+        "action_beats": [
+          "riverboat approaches bend",
+          "small craft flanks",
+          "boarding at pinch point",
+          "chest moves between decks",
+          "raised-land escape"
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Riverboat robbery for disputed corporate papers"
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W06-M05-SPATIAL",
+      "scene_role": "SETUP",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "W6-MUD-HMB"
+        ],
+        "source_classifications": [
+          "WEEK6_SPATIAL_PREFLIGHT"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [
+          "causeway approach",
+          "loading landing",
+          "main river bend",
+          "side skiff channel",
+          "pinch point",
+          "raised bank"
+        ],
+        "blocking": [
+          "riverboat approaches bend",
+          "small craft flanks",
+          "boarding at pinch point",
+          "chest moves between decks",
+          "raised-land escape"
+        ],
+        "camera": "channel-wide geography | deck-to-landing side profile",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-6/WEEK_6_SPATIAL_ACTION_PREFLIGHT_V1.json"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [],
+        "out": []
+      },
+      "dependencies": [
+        "EVT-2026-W06-M06::BASE",
+        "CHAR::CHAR-PHILLIP-PITTS",
+        "CHAR::CHAR-DAVID-BABB",
+        "LOC::LOC-TDS-WATERFALL-TEMPLE",
+        "memo-os/week-6/WEEK_6_SPATIAL_ACTION_PREFLIGHT_V1.json"
+      ],
+      "encounter_id": "ENC-2026-W06-06",
+      "event_id": "EVT-2026-W06-M06",
+      "location": {
+        "entering_state_receipt": "memo-os/week-6/WEEK_6_SPATIAL_ACTION_PREFLIGHT_V1.json",
+        "location_id": "LOC-TDS-WATERFALL-TEMPLE",
+        "persistent_anchors": [
+          "Falls Path arrival",
+          "negotiation terrace",
+          "upper stone passage",
+          "suspension span",
+          "falls recess hypothetical",
+          "return exit"
+        ]
+      },
+      "narrative": {
+        "action_beats": [
+          "negotiation",
+          "staged tour",
+          "bridge crossing",
+          "briefcase exchange",
+          "escape path"
+        ],
+        "dialogue": [],
+        "emotional_objective": "",
+        "objective": "Waterfall corporate takeover and vault heist"
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W06-M06-SPATIAL",
+      "scene_role": "SETUP",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "W6-TDS-LLC"
+        ],
+        "source_classifications": [
+          "WEEK6_SPATIAL_PREFLIGHT"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [],
+        "persistent": []
+      },
+      "visual": {
+        "background": [
+          "Falls Path arrival",
+          "negotiation terrace",
+          "upper stone passage",
+          "suspension span",
+          "falls recess hypothetical",
+          "return exit"
+        ],
+        "blocking": [
+          "negotiation",
+          "staged tour",
+          "bridge crossing",
+          "briefcase exchange",
+          "escape path"
+        ],
+        "camera": "cliff-wide bridge geography | perpendicular bridge close confrontation",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+          "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [
+          "Readable shot axis: tee/fairway runs lower-left toward upper-right. Clubhouse remains horizon-left and pond camera-right. At the final green, the flag is uphill of a visible short apron descending to the pond. Opponent stays outside every swing arc."
+        ],
+        "out": [
+          "The home competitor’s distinct intention and shared setting become legible before the contest.",
+          "The away competitor’s distinct intention and shared setting become legible before the contest.",
+          "Read the visiting viewpoint next.",
+          "Turn to W09-P05 for the next physical development."
+        ]
+      },
+      "dependencies": [
+        "EVT-2026-W09-M01::BASE",
+        "W09-M01",
+        "W09-P31",
+        "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+        "CHAR::CHAR-ZACH-WILSON",
+        "CHAR::CHAR-JAKE-KALOPER",
+        "LOC::LOC-COUNTRY-CLUB-JACKSON"
+      ],
+      "encounter_id": "ENC-2026-W09-M01",
+      "event_id": "EVT-2026-W09-M01",
+      "location": {
+        "entering_state_receipt": "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json",
+        "location_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "persistent_anchors": [
+          "clubhouse left",
+          "fairway approach",
+          "right-side pond and sloped apron"
+        ]
+      },
+      "narrative": {
+        "action_beats": [
+          "Duckhook waits above the first tee, orange bill and green cap distinct. He extends the unnumbered scorecard toward the visitor; clubhouse left and pond right establish the shared course.",
+          "ObiWan takes the scorecard at the course approach, cloak clear of the dew. His eyes remain on Duckhook; acceptance completes the invitation before P05 competitive play."
+        ],
+        "dialogue": [],
+        "emotional_objective": "Hospitality becomes a personal contest; the course stays beautiful while the rivals lose their composure.",
+        "objective": "Move from relaxed first tee to alternating approach/bunker/putt detail panels and a water-side deciding green. Physical golf events remain fiction."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W09-M01-W09-P31",
+      "scene_role": "SETUP",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "W09-M01-OV-HOME",
+          "W09-M01-OV-AWAY"
+        ],
+        "source_classifications": [
+          "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [
+          "The home competitor’s distinct intention and shared setting become legible before the contest.",
+          "The away competitor’s distinct intention and shared setting become legible before the contest."
+        ],
+        "persistent": []
+      },
+      "visual": {
+        "background": [
+          "clubhouse left",
+          "fairway approach",
+          "right-side pond and sloped apron"
+        ],
+        "blocking": [
+          "Duckhook waits above the first tee, orange bill and green cap distinct. He extends the unnumbered scorecard toward the visitor; clubhouse left and pond right establish the shared course.",
+          "ObiWan takes the scorecard at the course approach, cloak clear of the dew. His eyes remain on Duckhook; acceptance completes the invitation before P05 competitive play."
+        ],
+        "camera": "Landscape-led home perspective | Landscape-led away perspective",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+          "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [
+          "prior scene in W09-M01"
+        ],
+        "out": [
+          "The host stops welcoming and starts performing. Success is unassigned in the neutral study.",
+          "The visitor must solve a different physical problem rather than simply copy the host.",
+          "Mutual scrutiny replaces casual hospitality.",
+          "Follow the attention, not a second identical swing.",
+          "Move from the stroke to the rival whose expression changes.",
+          "Page turn replaces noisy action with the quiet final-green wide."
+        ]
+      },
+      "dependencies": [
+        "EVT-2026-W09-M01::BASE",
+        "W09-M01",
+        "W09-P05",
+        "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+        "CHAR::CHAR-ZACH-WILSON",
+        "CHAR::CHAR-JAKE-KALOPER",
+        "LOC::LOC-COUNTRY-CLUB-JACKSON"
+      ],
+      "encounter_id": "ENC-2026-W09-M01",
+      "event_id": "EVT-2026-W09-M01",
+      "location": {
+        "entering_state_receipt": "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json",
+        "location_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "persistent_anchors": [
+          "clubhouse left",
+          "fairway approach",
+          "right-side pond and sloped apron"
+        ]
+      },
+      "narrative": {
+        "action_beats": [
+          "Duckhook rotates through a driver follow-through; both hands share one grip. ObiWan watches the same ball from behind the tee marker, outside the swing arc.",
+          "ObiWan plants his boots in sand, flexes his knees and turns through one recovery stroke. Ball, club and sand fan remain separate; Duckhook watches beyond the safe arc.",
+          "The spectator golfer stops smiling and tightens a hand around the club; the scorecard folds shut without displaying invented numbers."
+        ],
+        "dialogue": [],
+        "emotional_objective": "Hospitality becomes a personal contest; the course stays beautiful while the rivals lose their composure.",
+        "objective": "Move from relaxed first tee to alternating approach/bunker/putt detail panels and a water-side deciding green. Physical golf events remain fiction."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W09-M01-W09-P05",
+      "scene_role": "ESCALATION",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "W09-M01-B03",
+          "W09-M01-B04",
+          "W09-M01-B05"
+        ],
+        "source_classifications": [
+          "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [
+          "The host stops welcoming and starts performing. Success is unassigned in the neutral study.",
+          "The visitor must solve a different physical problem rather than simply copy the host.",
+          "Mutual scrutiny replaces casual hospitality."
+        ],
+        "persistent": []
+      },
+      "visual": {
+        "background": [
+          "clubhouse left",
+          "fairway approach",
+          "right-side pond and sloped apron"
+        ],
+        "blocking": [
+          "Duckhook rotates through a driver follow-through; both hands share one grip. ObiWan watches the same ball from behind the tee marker, outside the swing arc.",
+          "ObiWan plants his boots in sand, flexes his knees and turns through one recovery stroke. Ball, club and sand fan remain separate; Duckhook watches beyond the safe arc.",
+          "The spectator golfer stops smiling and tightens a hand around the club; the scorecard folds shut without displaying invented numbers."
+        ],
+        "camera": "Low three-quarter tee action | Medium visitor recovery shot | Tight reaction and grip detail",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+          "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [
+          "prior scene in W09-M01"
+        ],
+        "out": [
+          "The reader can predict the physical danger before anyone misses.",
+          "Speed gives way to a deliberate moment of pressure.",
+          "Compress to stance and eyes without crossing the pond axis.",
+          "Turn the page before revealing contact and consequence."
+        ]
+      },
+      "dependencies": [
+        "EVT-2026-W09-M01::BASE",
+        "W09-M01",
+        "W09-P06",
+        "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+        "CHAR::CHAR-ZACH-WILSON",
+        "CHAR::CHAR-JAKE-KALOPER",
+        "LOC::LOC-COUNTRY-CLUB-JACKSON"
+      ],
+      "encounter_id": "ENC-2026-W09-M01",
+      "event_id": "EVT-2026-W09-M01",
+      "location": {
+        "entering_state_receipt": "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json",
+        "location_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "persistent_anchors": [
+          "clubhouse left",
+          "fairway approach",
+          "right-side pond and sloped apron"
+        ]
+      },
+      "narrative": {
+        "action_beats": [
+          "Frame the stationary ball, flag, short grassy apron and pond in one view. Both players walk into the already established play corridor.",
+          "The player settles the putter behind the ball; the opponent holds still beyond the line. No strike or triumph occurs on this page."
+        ],
+        "dialogue": [],
+        "emotional_objective": "Hospitality becomes a personal contest; the course stays beautiful while the rivals lose their composure.",
+        "objective": "Move from relaxed first tee to alternating approach/bunker/putt detail panels and a water-side deciding green. Physical golf events remain fiction."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W09-M01-W09-P06",
+      "scene_role": "TURN",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "W09-M01-B06",
+          "W09-M01-B07"
+        ],
+        "source_classifications": [
+          "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [
+          "The reader can predict the physical danger before anyone misses.",
+          "Speed gives way to a deliberate moment of pressure."
+        ],
+        "persistent": []
+      },
+      "visual": {
+        "background": [
+          "clubhouse left",
+          "fairway approach",
+          "right-side pond and sloped apron"
+        ],
+        "blocking": [
+          "Frame the stationary ball, flag, short grassy apron and pond in one view. Both players walk into the already established play corridor.",
+          "The player settles the putter behind the ball; the opponent holds still beyond the line. No strike or triumph occurs on this page."
+        ],
+        "camera": "Low wide across the entire green | Close stance then waiting-opponent insert",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+          "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [
+          "prior scene in W09-M01"
+        ],
+        "out": [
+          "The host earns victory through golf while the visitor absorbs the emotional cost.",
+          "The hazard setup pays off without teleporting the ball or giving ObiWan a magical victory.",
+          "Finish on the unchanged beautiful setting, then cut to the swamp horizon.",
+          "Hold the water ripple and loser reaction once; then leave the chapter."
+        ]
+      },
+      "dependencies": [
+        "EVT-2026-W09-M01::BASE",
+        "W09-M01",
+        "W09-P07",
+        "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+        "CHAR::CHAR-ZACH-WILSON",
+        "CHAR::CHAR-JAKE-KALOPER",
+        "LOC::LOC-COUNTRY-CLUB-JACKSON",
+        "EVT-2026-W09-M01::RESULT"
+      ],
+      "encounter_id": "ENC-2026-W09-M01",
+      "event_id": "EVT-2026-W09-M01",
+      "location": {
+        "entering_state_receipt": "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json",
+        "location_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "persistent_anchors": [
+          "clubhouse left",
+          "fairway approach",
+          "right-side pond and sloped apron"
+        ]
+      },
+      "narrative": {
+        "action_beats": [
+          "IF DUCKHOOK WINS: ObiWan makes a visibly poor final execution; the released montage also shows his earlier mishits. Duckhook completes a controlled finish. ObiWan lowers the club and looks away; host remains composed.",
+          "IF OBIWAN WINS: Duckhook overhits across the established slope; an inset follows the ball over the short apron into water. ObiWan has finished steadily. Duckhook freezes, then his shoulders fall."
+        ],
+        "dialogue": [],
+        "emotional_objective": "Hospitality becomes a personal contest; the course stays beautiful while the rivals lose their composure.",
+        "objective": "Move from relaxed first tee to alternating approach/bunker/putt detail panels and a water-side deciding green. Physical golf events remain fiction."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W09-M01-W09-P07",
+      "scene_role": "RESOLUTION",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "AWAY_WIN",
+          "HOME_WIN"
+        ],
+        "source_beat_ids": [
+          "W09-M01-B08H",
+          "W09-M01-B08A"
+        ],
+        "source_classifications": [
+          "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [
+          "The host earns victory through golf while the visitor absorbs the emotional cost.",
+          "The hazard setup pays off without teleporting the ball or giving ObiWan a magical victory."
+        ],
+        "persistent": []
+      },
+      "visual": {
+        "background": [
+          "clubhouse left",
+          "fairway approach",
+          "right-side pond and sloped apron"
+        ],
+        "blocking": [
+          "IF DUCKHOOK WINS: ObiWan makes a visibly poor final execution; the released montage also shows his earlier mishits. Duckhook completes a controlled finish. ObiWan lowers the club and looks away; host remains composed.",
+          "IF OBIWAN WINS: Duckhook overhits across the established slope; an inset follows the ball over the short apron into water. ObiWan has finished steadily. Duckhook freezes, then his shoulders fall."
+        ],
+        "camera": "Decisive action then unequal two-shot | Putter contact to pond-side consequence",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+          "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [
+          "A raised start bank looks across a low channel toward an elevated finish banner. A root-bound berm runs around the near edge. Floodwater crosses the low channel toward the basin; these positions do not change between shots. El Niño occupies the far-bank side in his approved humanoid form, separate from the rider and never merged with a cloud-face substitute."
+        ],
+        "out": [
+          "The home competitor’s distinct intention and shared setting become legible before the contest.",
+          "The away competitor’s distinct intention and shared setting become legible before the contest.",
+          "Read the visiting viewpoint next.",
+          "Turn to W09-P09 for the next physical development."
+        ]
+      },
+      "dependencies": [
+        "EVT-2026-W09-M02::BASE",
+        "W09-M02",
+        "W09-P32",
+        "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+        "CHAR::CHAR-BOBBY-MITCHELL",
+        "CHAR::CHAR-MANNING-WELTY",
+        "LOC::LOC-MUD-DOGS-SWAMP"
+      ],
+      "encounter_id": "ENC-2026-W09-M02",
+      "event_id": "EVT-2026-W09-M02",
+      "location": {
+        "entering_state_receipt": "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json",
+        "location_id": "LOC-MUD-DOGS-SWAMP",
+        "persistent_anchors": [
+          "raised start bank",
+          "low channel and root berm",
+          "distant finish on firm ground"
+        ]
+      },
+      "narrative": {
+        "action_beats": [
+          "The quadrupedal Mud Dogs sees the dark front across familiar swamp ground, turns back toward his adapted bike and commits to continuing from the raised start. The warning is visible before the choice.",
+          "Embodied El Niño watches from the far bank. Water, lightning and orange elemental light frame his humanoid form; the same course lies between them. Flooding is a threat, not an announced finish."
+        ],
+        "dialogue": [],
+        "emotional_objective": "Cocky familiarity becomes vulnerability; knowledge must turn into a changed decision, not mere bravery.",
+        "objective": "Return to three course anchors: raised start bank, channel crossing, finish on firmer ground. Rising water changes those same spaces."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W09-M02-W09-P32",
+      "scene_role": "SETUP",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "W09-M02-OV-HOME",
+          "W09-M02-OV-AWAY"
+        ],
+        "source_classifications": [
+          "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [
+          "The home competitor’s distinct intention and shared setting become legible before the contest.",
+          "The away competitor’s distinct intention and shared setting become legible before the contest."
+        ],
+        "persistent": []
+      },
+      "visual": {
+        "background": [
+          "raised start bank",
+          "low channel and root berm",
+          "distant finish on firm ground"
+        ],
+        "blocking": [
+          "The quadrupedal Mud Dogs sees the dark front across familiar swamp ground, turns back toward his adapted bike and commits to continuing from the raised start. The warning is visible before the choice.",
+          "Embodied El Niño watches from the far bank. Water, lightning and orange elemental light frame his humanoid form; the same course lies between them. Flooding is a threat, not an announced finish."
+        ],
+        "camera": "Landscape-led home perspective | Landscape-led away perspective",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+          "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [
+          "prior scene in W09-M02"
+        ],
+        "out": [
+          "El Niño changes the physical course rather than merely decorating the sky.",
+          "Familiar ground no longer guarantees control.",
+          "The reader sees a real decision with two different costs.",
+          "Move close enough to see tire contact fail.",
+          "Cut on his glance toward the still-visible root berm.",
+          "Hold the choice into the next page, not another generic jump."
+        ]
+      },
+      "dependencies": [
+        "EVT-2026-W09-M02::BASE",
+        "W09-M02",
+        "W09-P09",
+        "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+        "CHAR::CHAR-BOBBY-MITCHELL",
+        "CHAR::CHAR-MANNING-WELTY",
+        "LOC::LOC-MUD-DOGS-SWAMP"
+      ],
+      "encounter_id": "ENC-2026-W09-M02",
+      "event_id": "EVT-2026-W09-M02",
+      "location": {
+        "entering_state_receipt": "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json",
+        "location_id": "LOC-MUD-DOGS-SWAMP",
+        "persistent_anchors": [
+          "raised start bank",
+          "low channel and root berm",
+          "distant finish on firm ground"
+        ]
+      },
+      "narrative": {
+        "action_beats": [
+          "Rain and floodwater cover the low race line and submerge the established markers. The approved long-haired humanoid El Niño stands on the far bank amid blue water/lightning and orange elemental light; his action drives the flood, without a second motorcycle or an oversized disembodied face.",
+          "The rear tire slips at the channel edge. Mud Dogs shifts his quadrupedal mass on the supported rig; show two forepaws and two hind paws without extra human limbs. El Niño remains on the same far-bank side if visible.",
+          "The flooded shortcut leads toward deep brown water; the longer raised berm still connects to the finish bank."
+        ],
+        "dialogue": [],
+        "emotional_objective": "Cocky familiarity becomes vulnerability; knowledge must turn into a changed decision, not mere bravery.",
+        "objective": "Return to three course anchors: raised start bank, channel crossing, finish on firmer ground. Rising water changes those same spaces."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W09-M02-W09-P09",
+      "scene_role": "ESCALATION",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "W09-M02-B03",
+          "W09-M02-B04",
+          "W09-M02-B05"
+        ],
+        "source_classifications": [
+          "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [
+          "El Niño changes the physical course rather than merely decorating the sky.",
+          "Familiar ground no longer guarantees control.",
+          "The reader sees a real decision with two different costs."
+        ],
+        "persistent": []
+      },
+      "visual": {
+        "background": [
+          "raised start bank",
+          "low channel and root berm",
+          "distant finish on firm ground"
+        ],
+        "blocking": [
+          "Rain and floodwater cover the low race line and submerge the established markers. The approved long-haired humanoid El Niño stands on the far bank amid blue water/lightning and orange elemental light; his action drives the flood, without a second motorcycle or an oversized disembodied face.",
+          "The rear tire slips at the channel edge. Mud Dogs shifts his quadrupedal mass on the supported rig; show two forepaws and two hind paws without extra human limbs. El Niño remains on the same far-bank side if visible.",
+          "The flooded shortcut leads toward deep brown water; the longer raised berm still connects to the finish bank."
+        ],
+        "camera": "High oblique of the known course | Low wheel and body contact | Rider point-of-view at the route fork",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+          "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [
+          "prior scene in W09-M02"
+        ],
+        "out": [
+          "The coming result will follow terrain and execution, not a sudden rescue.",
+          "He survives by correcting his earlier arrogance with skill.",
+          "The storm wins by stopping the race; postseason despair is emotional, not an unverified elimination claim.",
+          "Select exactly one conditional continuation only after verified results.",
+          "Leave mud and damage on bike and rider; do not reset them clean.",
+          "End with the finish visible but unreachable across the water."
+        ]
+      },
+      "dependencies": [
+        "EVT-2026-W09-M02::BASE",
+        "W09-M02",
+        "W09-P10",
+        "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+        "CHAR::CHAR-BOBBY-MITCHELL",
+        "CHAR::CHAR-MANNING-WELTY",
+        "LOC::LOC-MUD-DOGS-SWAMP",
+        "EVT-2026-W09-M02::RESULT"
+      ],
+      "encounter_id": "ENC-2026-W09-M02",
+      "event_id": "EVT-2026-W09-M02",
+      "location": {
+        "entering_state_receipt": "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json",
+        "location_id": "LOC-MUD-DOGS-SWAMP",
+        "persistent_anchors": [
+          "raised start bank",
+          "low channel and root berm",
+          "distant finish on firm ground"
+        ]
+      },
+      "narrative": {
+        "action_beats": [
+          "Mud Dogs adjusts the front wheel and body before committing. The neutral board ends before either line succeeds or fails.",
+          "IF MUD DOGS WINS: he takes the raised berm, keeps the front tire out of the deep channel and grips the firmer exit. The bike clears the last short gap and crosses the previously shown finish line.",
+          "IF EL NIÑO WINS: the attempted low line buries the rear tire; throttle throws mud without movement. Mud Dogs cannot navigate out to finish as the route floods. Keep him alive and visibly stranded."
+        ],
+        "dialogue": [],
+        "emotional_objective": "Cocky familiarity becomes vulnerability; knowledge must turn into a changed decision, not mere bravery.",
+        "objective": "Return to three course anchors: raised start bank, channel crossing, finish on firmer ground. Rising water changes those same spaces."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W09-M02-W09-P10",
+      "scene_role": "RESOLUTION",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "AWAY_WIN",
+          "COMMON",
+          "HOME_WIN"
+        ],
+        "source_beat_ids": [
+          "W09-M02-B06",
+          "W09-M02-B07H",
+          "W09-M02-B07A"
+        ],
+        "source_classifications": [
+          "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [
+          "The coming result will follow terrain and execution, not a sudden rescue.",
+          "He survives by correcting his earlier arrogance with skill.",
+          "The storm wins by stopping the race; postseason despair is emotional, not an unverified elimination claim."
+        ],
+        "persistent": []
+      },
+      "visual": {
+        "background": [
+          "raised start bank",
+          "low channel and root berm",
+          "distant finish on firm ground"
+        ],
+        "blocking": [
+          "Mud Dogs adjusts the front wheel and body before committing. The neutral board ends before either line succeeds or fails.",
+          "IF MUD DOGS WINS: he takes the raised berm, keeps the front tire out of the deep channel and grips the firmer exit. The bike clears the last short gap and crosses the previously shown finish line.",
+          "IF EL NIÑO WINS: the attempted low line buries the rear tire; throttle throws mud without movement. Mud Dogs cannot navigate out to finish as the route floods. Keep him alive and visibly stranded."
+        ],
+        "camera": "Side-wide attempt at the fork | Lateral berm traversal and finish | Tight trapped wheel widening to inaccessible finish",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+          "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [
+          "The truck enters along the west pitch edge and turns near the east goal. Red can reach a low terrace beside that turn. Beyond it is a narrow stone service passage: solid masonry can stop a truck, loose netting cannot."
+        ],
+        "out": [
+          "The home competitor’s distinct intention and shared setting become legible before the contest.",
+          "The away competitor’s distinct intention and shared setting become legible before the contest.",
+          "Read the visiting viewpoint next.",
+          "Turn to W09-P12 for the next physical development."
+        ]
+      },
+      "dependencies": [
+        "EVT-2026-W09-M03::BASE",
+        "W09-M03",
+        "W09-P33",
+        "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+        "CHAR::CHAR-KEVIN-ZEEK",
+        "CHAR::CHAR-BEN-WHIPPLE",
+        "LOC::LOC-RED-RUINS"
+      ],
+      "encounter_id": "ENC-2026-W09-M03",
+      "event_id": "EVT-2026-W09-M03",
+      "location": {
+        "entering_state_receipt": "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json",
+        "location_id": "LOC-RED-RUINS",
+        "persistent_anchors": [
+          "soccer center circle",
+          "low interception terrace",
+          "east goal beside stone bottleneck"
+        ]
+      },
+      "narrative": {
+        "action_beats": [
+          "Red overlooks his still-intact soccer terrace inside the ruins. Feline muzzle and red-spotted body remain clear; the stone approach and narrow exit establish what he values.",
+          "Chins approaches in the lifted truck with his red cap and heavyset silhouette visible. Tires are still on the approach; actual pitch destruction and Red witnessing it begin P12 before retaliation."
+        ],
+        "dialogue": [],
+        "emotional_objective": "A quiet host sees something he values violated, chooses retaliation, and meets an opponent capable of countering.",
+        "objective": "Tire marks cross the center circle; Red climbs a low terrace to intercept the truck at its slow turn, then tries to force it into a stone-service bottleneck."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W09-M03-W09-P33",
+      "scene_role": "SETUP",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "W09-M03-OV-HOME",
+          "W09-M03-OV-AWAY"
+        ],
+        "source_classifications": [
+          "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [
+          "The home competitor’s distinct intention and shared setting become legible before the contest.",
+          "The away competitor’s distinct intention and shared setting become legible before the contest."
+        ],
+        "persistent": []
+      },
+      "visual": {
+        "background": [
+          "soccer center circle",
+          "low interception terrace",
+          "east goal beside stone bottleneck"
+        ],
+        "blocking": [
+          "Red overlooks his still-intact soccer terrace inside the ruins. Feline muzzle and red-spotted body remain clear; the stone approach and narrow exit establish what he values.",
+          "Chins approaches in the lifted truck with his red cap and heavyset silhouette visible. Tires are still on the approach; actual pitch destruction and Red witnessing it begin P12 before retaliation."
+        ],
+        "camera": "Landscape-led home perspective | Landscape-led away perspective",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+          "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [
+          "prior scene in W09-M03"
+        ],
+        "out": [
+          "Outrage becomes a plan expressed through movement.",
+          "The host physically interrupts the driver’s freedom.",
+          "The intruder responds intelligently; the outcome is not predetermined by the pounce.",
+          "Keep truck and interception terrace in the same wide before the leap.",
+          "Cut to Chins responding behind the wheel.",
+          "Reveal the fork between the broad pitch and narrow service gap."
+        ]
+      },
+      "dependencies": [
+        "EVT-2026-W09-M03::BASE",
+        "W09-M03",
+        "W09-P12",
+        "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+        "CHAR::CHAR-KEVIN-ZEEK",
+        "CHAR::CHAR-BEN-WHIPPLE",
+        "LOC::LOC-RED-RUINS"
+      ],
+      "encounter_id": "ENC-2026-W09-M03",
+      "event_id": "EVT-2026-W09-M03",
+      "location": {
+        "entering_state_receipt": "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json",
+        "location_id": "LOC-RED-RUINS",
+        "persistent_anchors": [
+          "soccer center circle",
+          "low interception terrace",
+          "east goal beside stone bottleneck"
+        ]
+      },
+      "narrative": {
+        "action_beats": [
+          "Chins’s tires tear through the intact pitch; Red sees the broken turf from the terrace before dropping toward the hood. Red observes the torn turf, drops the relaxed posture and moves up the low terrace beside the truck turn.",
+          "As Chins slows to turn, Red leaps from the low terrace onto the hood. Show takeoff, landing direction and contact; no hovering predator pose.",
+          "Chins brakes and starts steering away from the exposed stone passage. Red shifts toward the outside edge rather than magically controlling the vehicle."
+        ],
+        "dialogue": [],
+        "emotional_objective": "A quiet host sees something he values violated, chooses retaliation, and meets an opponent capable of countering.",
+        "objective": "Tire marks cross the center circle; Red climbs a low terrace to intercept the truck at its slow turn, then tries to force it into a stone-service bottleneck."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W09-M03-W09-P12",
+      "scene_role": "ESCALATION",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "W09-M03-B03",
+          "W09-M03-B04",
+          "W09-M03-B05"
+        ],
+        "source_classifications": [
+          "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [
+          "Outrage becomes a plan expressed through movement.",
+          "The host physically interrupts the driver’s freedom.",
+          "The intruder responds intelligently; the outcome is not predetermined by the pounce."
+        ],
+        "persistent": []
+      },
+      "visual": {
+        "background": [
+          "soccer center circle",
+          "low interception terrace",
+          "east goal beside stone bottleneck"
+        ],
+        "blocking": [
+          "Chins’s tires tear through the intact pitch; Red sees the broken turf from the terrace before dropping toward the hood. Red observes the torn turf, drops the relaxed posture and moves up the low terrace beside the truck turn.",
+          "As Chins slows to turn, Red leaps from the low terrace onto the hood. Show takeoff, landing direction and contact; no hovering predator pose.",
+          "Chins brakes and starts steering away from the exposed stone passage. Red shifts toward the outside edge rather than magically controlling the vehicle."
+        ],
+        "camera": "Close reaction then elevated stalk | Diagonal terrace-to-hood action | Cab countershot with both forces readable",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+          "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [
+          "prior scene in W09-M03"
+        ],
+        "out": [
+          "The physical cause of either ending is now visible.",
+          "The ambush stops the intruder through leverage and terrain, not magical net strength.",
+          "Chins defeats the retaliation; Red is left with the violated field.",
+          "Use one of the following outcomes; any red-card joke comes afterwards.",
+          "The pitch remains damaged; victory does not erase the rut.",
+          "Use the torn center circle once as aftermath, not a random collapsing ruin."
+        ]
+      },
+      "dependencies": [
+        "EVT-2026-W09-M03::BASE",
+        "W09-M03",
+        "W09-P13",
+        "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+        "CHAR::CHAR-KEVIN-ZEEK",
+        "CHAR::CHAR-BEN-WHIPPLE",
+        "LOC::LOC-RED-RUINS",
+        "EVT-2026-W09-M03::RESULT"
+      ],
+      "encounter_id": "ENC-2026-W09-M03",
+      "event_id": "EVT-2026-W09-M03",
+      "location": {
+        "entering_state_receipt": "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json",
+        "location_id": "LOC-RED-RUINS",
+        "persistent_anchors": [
+          "soccer center circle",
+          "low interception terrace",
+          "east goal beside stone bottleneck"
+        ]
+      },
+      "narrative": {
+        "action_beats": [
+          "The truck, stone gap, hanging goal net and Red’s escape ledge share one frame. Red drops to the ledge as the driver chooses the line.",
+          "IF RED WINS: the truck turns too tightly; its wheel climbs the low stone edge and the chassis grounds across the narrow entrance. Loose net drapes over the cab as a visual joke. Red stands safely on the terrace; Chins is stuck.",
+          "IF CHINS WINS: he straightens before entering the gap and powers back across the turf. Red has to abandon the hood for the safe ledge; the truck passes the failed trap."
+        ],
+        "dialogue": [],
+        "emotional_objective": "A quiet host sees something he values violated, chooses retaliation, and meets an opponent capable of countering.",
+        "objective": "Tire marks cross the center circle; Red climbs a low terrace to intercept the truck at its slow turn, then tries to force it into a stone-service bottleneck."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W09-M03-W09-P13",
+      "scene_role": "RESOLUTION",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "AWAY_WIN",
+          "COMMON",
+          "HOME_WIN"
+        ],
+        "source_beat_ids": [
+          "W09-M03-B06",
+          "W09-M03-B07H",
+          "W09-M03-B07A"
+        ],
+        "source_classifications": [
+          "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [
+          "The physical cause of either ending is now visible.",
+          "The ambush stops the intruder through leverage and terrain, not magical net strength.",
+          "Chins defeats the retaliation; Red is left with the violated field."
+        ],
+        "persistent": []
+      },
+      "visual": {
+        "background": [
+          "soccer center circle",
+          "low interception terrace",
+          "east goal beside stone bottleneck"
+        ],
+        "blocking": [
+          "The truck, stone gap, hanging goal net and Red’s escape ledge share one frame. Red drops to the ledge as the driver chooses the line.",
+          "IF RED WINS: the truck turns too tightly; its wheel climbs the low stone edge and the chassis grounds across the narrow entrance. Loose net drapes over the cab as a visual joke. Red stands safely on the terrace; Chins is stuck.",
+          "IF CHINS WINS: he straightens before entering the gap and powers back across the turf. Red has to abandon the hood for the safe ledge; the truck passes the failed trap."
+        ],
+        "camera": "High oblique approach to the bottleneck | Grounded truck and standing predator | Wide escape with ruined pitch foreground",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+          "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [
+          "The town cookout is temporary dressing beside Chili Stable. A low serving platform holds a ribbon and table; a wheeled vat of cooled serving chili sits on the shallow ramp beside it. Dark Horse and its cart harness are visible off the crowd lane."
+        ],
+        "out": [
+          "The home competitor’s distinct intention and shared setting become legible before the contest.",
+          "The away competitor’s distinct intention and shared setting become legible before the contest.",
+          "Read the visiting viewpoint next.",
+          "Turn to W09-P14 for the next physical development."
+        ]
+      },
+      "dependencies": [
+        "EVT-2026-W09-M04::BASE",
+        "W09-M04",
+        "W09-P34",
+        "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+        "CHAR::CHAR-BRANDON-PRYOR",
+        "CHAR::CHAR-AUSTIN-BYARS",
+        "LOC::LOC-CHILI-STABLE"
+      ],
+      "encounter_id": "ENC-2026-W09-M04",
+      "event_id": "EVT-2026-W09-M04",
+      "location": {
+        "entering_state_receipt": "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json",
+        "location_id": "LOC-CHILI-STABLE",
+        "persistent_anchors": [
+          "Chili Stable and temporary tables",
+          "ribbon/ladle on serving platform",
+          "cooled chili vat, ramp and Dark Horse harness"
+        ]
+      },
+      "narrative": {
+        "action_beats": [
+          "Chili stands at his cookout frontage, current sunglasses, decorated dark hat and crimson coat visible; the Dark Horse remains a separate companion. His ladle is at rest. Show hospitality and anticipation, not the serving-cart mechanism in action.",
+          "HMB pauses at the town entrance beneath the established hood, red eyes and dark armor. His view leads toward Chili across the same gathering; he has not taken the platform or inspected the dish. P14 owns that encounter."
+        ],
+        "dialogue": [],
+        "emotional_objective": "The cookout host wants to own the occasion; a familiar dominant visitor challenges that pride in public.",
+        "objective": "Place a cool serving vat, prize ribbon and Dark Horse on a visible staging plan. A judging-table contest, not a royal court, drives the scene."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W09-M04-W09-P34",
+      "scene_role": "SETUP",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "W09-M04-OV-HOME",
+          "W09-M04-OV-AWAY"
+        ],
+        "source_classifications": [
+          "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [
+          "The home competitor’s distinct intention and shared setting become legible before the contest.",
+          "The away competitor’s distinct intention and shared setting become legible before the contest."
+        ],
+        "persistent": []
+      },
+      "visual": {
+        "background": [
+          "Chili Stable and temporary tables",
+          "ribbon/ladle on serving platform",
+          "cooled chili vat, ramp and Dark Horse harness"
+        ],
+        "blocking": [
+          "Chili stands at his cookout frontage, current sunglasses, decorated dark hat and crimson coat visible; the Dark Horse remains a separate companion. His ladle is at rest. Show hospitality and anticipation, not the serving-cart mechanism in action.",
+          "HMB pauses at the town entrance beneath the established hood, red eyes and dark armor. His view leads toward Chili across the same gathering; he has not taken the platform or inspected the dish. P14 owns that encounter."
+        ],
+        "camera": "Landscape-led home perspective | Landscape-led away perspective",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+          "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [
+          "prior scene in W09-M04"
+        ],
+        "out": [
+          "Hospitality and the eventual comic mechanism are established together.",
+          "A lively cookout becomes a personal test.",
+          "Both characters try to control the public encounter.",
+          "The crowd’s attention shifts toward the arriving Belt Keeper.",
+          "Match their eyelines to the prize ribbon and serving platform.",
+          "Turn on the unresolved struggle over the host’s stage."
+        ]
+      },
+      "dependencies": [
+        "EVT-2026-W09-M04::BASE",
+        "W09-M04",
+        "W09-P14",
+        "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+        "CHAR::CHAR-BRANDON-PRYOR",
+        "CHAR::CHAR-AUSTIN-BYARS",
+        "LOC::LOC-CHILI-STABLE"
+      ],
+      "encounter_id": "ENC-2026-W09-M04",
+      "event_id": "EVT-2026-W09-M04",
+      "location": {
+        "entering_state_receipt": "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json",
+        "location_id": "LOC-CHILI-STABLE",
+        "persistent_anchors": [
+          "Chili Stable and temporary tables",
+          "ribbon/ladle on serving platform",
+          "cooled chili vat, ramp and Dark Horse harness"
+        ]
+      },
+      "narrative": {
+        "action_beats": [
+          "Chili works the serving station while townsfolk gather. Show the wheeled serving vat, its chock, ramp and Dark Horse harness naturally within the frame.",
+          "HMB steps in wearing his approved hooded, red-eyed, black-armored identity and belt. Chili pauses with a ladle before resuming a deliberately confident welcome.",
+          "Chili presents the dish; HMB inspects it and takes space at the platform. No crown, royal court or invented real league judging rule."
+        ],
+        "dialogue": [],
+        "emotional_objective": "The cookout host wants to own the occasion; a familiar dominant visitor challenges that pride in public.",
+        "objective": "Place a cool serving vat, prize ribbon and Dark Horse on a visible staging plan. A judging-table contest, not a royal court, drives the scene."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W09-M04-W09-P14",
+      "scene_role": "ESCALATION",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "W09-M04-B01",
+          "W09-M04-B02",
+          "W09-M04-B03"
+        ],
+        "source_classifications": [
+          "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [
+          "Hospitality and the eventual comic mechanism are established together.",
+          "A lively cookout becomes a personal test.",
+          "Both characters try to control the public encounter."
+        ],
+        "persistent": []
+      },
+      "visual": {
+        "background": [
+          "Chili Stable and temporary tables",
+          "ribbon/ladle on serving platform",
+          "cooled chili vat, ramp and Dark Horse harness"
+        ],
+        "blocking": [
+          "Chili works the serving station while townsfolk gather. Show the wheeled serving vat, its chock, ramp and Dark Horse harness naturally within the frame.",
+          "HMB steps in wearing his approved hooded, red-eyed, black-armored identity and belt. Chili pauses with a ladle before resuming a deliberately confident welcome.",
+          "Chili presents the dish; HMB inspects it and takes space at the platform. No crown, royal court or invented real league judging rule."
+        ],
+        "camera": "Warm public feast panorama | Low medium at the edge of the tables | Two-shot across the serving table",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+          "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [
+          "prior scene in W09-M04"
+        ],
+        "out": [
+          "The actors and props can produce either payoff without an unexplained falling cauldron.",
+          "The reversal depends on a visible action, not narration declaring humiliation.",
+          "Chili turns his own serving arrangement into public payback; no burn or injury joke.",
+          "HMB humiliates the host through effortless control; no crown or title transfer.",
+          "Cut closer to the hand/hoof/cart action that selects the branch.",
+          "Select one result-dependent payoff and hold a deadpan reaction.",
+          "Chili holds the empty ladle as HMB slowly looks down at the mess.",
+          "Finish on Chili’s forced service against HMB’s unruffled posture."
+        ]
+      },
+      "dependencies": [
+        "EVT-2026-W09-M04::BASE",
+        "W09-M04",
+        "W09-P15",
+        "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+        "CHAR::CHAR-BRANDON-PRYOR",
+        "CHAR::CHAR-AUSTIN-BYARS",
+        "LOC::LOC-CHILI-STABLE",
+        "EVT-2026-W09-M04::RESULT"
+      ],
+      "encounter_id": "ENC-2026-W09-M04",
+      "event_id": "EVT-2026-W09-M04",
+      "location": {
+        "entering_state_receipt": "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json",
+        "location_id": "LOC-CHILI-STABLE",
+        "persistent_anchors": [
+          "Chili Stable and temporary tables",
+          "ribbon/ladle on serving platform",
+          "cooled chili vat, ramp and Dark Horse harness"
+        ]
+      },
+      "narrative": {
+        "action_beats": [
+          "Chili moves beside the cart release while HMB reaches the table edge. Dark Horse is linked to the serving-cart movement; the crowd remains clear of the ramp.",
+          "One hand closes on the cart release, the other competitor braces at the table; the ribbon, ladle and vat remain distinguishable. Stop the neutral version before either gains control.",
+          "IF CHILI WINS: the Outlaw deliberately releases the chock as Dark Horse pulls the cart forward. A wheel drops at the established platform lip; cooled chili sloshes across HMB’s hood and armor. HMB remains upright with the belt still his.",
+          "IF HMB WINS: the champion pulls the light serving table to his position before Chili springs the reversal, takes the cookout ribbon and calmly holds out a bowl. Chili is left ladle-in-hand serving him before his own crowd."
+        ],
+        "dialogue": [],
+        "emotional_objective": "The cookout host wants to own the occasion; a familiar dominant visitor challenges that pride in public.",
+        "objective": "Place a cool serving vat, prize ribbon and Dark Horse on a visible staging plan. A judging-table contest, not a royal court, drives the scene."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W09-M04-W09-P15",
+      "scene_role": "RESOLUTION",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "AWAY_WIN",
+          "COMMON",
+          "HOME_WIN"
+        ],
+        "source_beat_ids": [
+          "W09-M04-B04",
+          "W09-M04-B05",
+          "W09-M04-B06H",
+          "W09-M04-B06A"
+        ],
+        "source_classifications": [
+          "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [
+          "The actors and props can produce either payoff without an unexplained falling cauldron.",
+          "The reversal depends on a visible action, not narration declaring humiliation.",
+          "Chili turns his own serving arrangement into public payback; no burn or injury joke.",
+          "HMB humiliates the host through effortless control; no crown or title transfer."
+        ],
+        "persistent": []
+      },
+      "visual": {
+        "background": [
+          "Chili Stable and temporary tables",
+          "ribbon/ladle on serving platform",
+          "cooled chili vat, ramp and Dark Horse harness"
+        ],
+        "blocking": [
+          "Chili moves beside the cart release while HMB reaches the table edge. Dark Horse is linked to the serving-cart movement; the crowd remains clear of the ramp.",
+          "One hand closes on the cart release, the other competitor braces at the table; the ribbon, ladle and vat remain distinguishable. Stop the neutral version before either gains control.",
+          "IF CHILI WINS: the Outlaw deliberately releases the chock as Dark Horse pulls the cart forward. A wheel drops at the established platform lip; cooled chili sloshes across HMB’s hood and armor. HMB remains upright with the belt still his.",
+          "IF HMB WINS: the champion pulls the light serving table to his position before Chili springs the reversal, takes the cookout ribbon and calmly holds out a bowl. Chili is left ladle-in-hand serving him before his own crowd."
+        ],
+        "camera": "Medium-wide mechanism reset | Contact and counter-action insert | Controlled spill then deadpan aftermath | Table takeover and host-as-server two-shot",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+          "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [
+          "Highland terrain remains visible beyond the proposed colosseum. DK enters left, LLC right. The broad sand ring has no hidden trap; the same entrance banners anchor every countershot. LLC’s small shield is visible from his entrance, never conjured at the reversal."
+        ],
+        "out": [
+          "The home competitor’s distinct intention and shared setting become legible before the contest.",
+          "The away competitor’s distinct intention and shared setting become legible before the contest.",
+          "Read the visiting viewpoint next.",
+          "Turn to W09-P17 for the next physical development."
+        ]
+      },
+      "dependencies": [
+        "EVT-2026-W09-M05::BASE",
+        "W09-M05",
+        "W09-P35",
+        "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+        "CHAR::CHAR-WILSON-LOOK",
+        "CHAR::CHAR-DAVID-BABB",
+        "LOC::LOC-DK-HIGHLAND-STRONGHOLD"
+      ],
+      "encounter_id": "ENC-2026-W09-M05",
+      "event_id": "EVT-2026-W09-M05",
+      "location": {
+        "entering_state_receipt": "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json",
+        "location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "persistent_anchors": [
+          "left DK entrance and Arsenal banner",
+          "right LLC entrance",
+          "open sand ring and Highland skyline"
+        ]
+      },
+      "narrative": {
+        "action_beats": [
+          "DK waits at the home arena gate in one integrated gorilla-centaur body, four equine legs visible. The curve of the sand and open turning space lead toward the opposite gate.",
+          "The LLC enters the opposing threshold in ornate knightly armor while retaining the established face and sunglasses. The arena axis matches the home panel; swords have not yet clashed."
+        ],
+        "dialogue": [],
+        "emotional_objective": "Home-arena confidence meets an expensive challenger whose precision can answer strength.",
+        "objective": "Arena wide -> clean clash -> pivot -> counter -> domination. Keep all four DK legs readable in at least one action-wide and the final spatial resolution."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W09-M05-W09-P35",
+      "scene_role": "SETUP",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "W09-M05-OV-HOME",
+          "W09-M05-OV-AWAY"
+        ],
+        "source_classifications": [
+          "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [
+          "The home competitor’s distinct intention and shared setting become legible before the contest.",
+          "The away competitor’s distinct intention and shared setting become legible before the contest."
+        ],
+        "persistent": []
+      },
+      "visual": {
+        "background": [
+          "left DK entrance and Arsenal banner",
+          "right LLC entrance",
+          "open sand ring and Highland skyline"
+        ],
+        "blocking": [
+          "DK waits at the home arena gate in one integrated gorilla-centaur body, four equine legs visible. The curve of the sand and open turning space lead toward the opposite gate.",
+          "The LLC enters the opposing threshold in ornate knightly armor while retaining the established face and sunglasses. The arena axis matches the home panel; swords have not yet clashed."
+        ],
+        "camera": "Landscape-led home perspective | Landscape-led away perspective",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+          "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [
+          "prior scene in W09-M05"
+        ],
+        "out": [
+          "The opening tests defenses without deciding superiority.",
+          "The encounter changes angle, not just weapon position.",
+          "Both combatants recover and choose; the winner must exploit an actual imbalance.",
+          "Follow the blade deflection into the fighters’ feet.",
+          "Return to the same action axis to reveal the new opening.",
+          "Page turn holds the final opening, not a fixed victor pose."
+        ]
+      },
+      "dependencies": [
+        "EVT-2026-W09-M05::BASE",
+        "W09-M05",
+        "W09-P17",
+        "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+        "CHAR::CHAR-WILSON-LOOK",
+        "CHAR::CHAR-DAVID-BABB",
+        "LOC::LOC-DK-HIGHLAND-STRONGHOLD"
+      ],
+      "encounter_id": "ENC-2026-W09-M05",
+      "event_id": "EVT-2026-W09-M05",
+      "location": {
+        "entering_state_receipt": "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json",
+        "location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "persistent_anchors": [
+          "left DK entrance and Arsenal banner",
+          "right LLC entrance",
+          "open sand ring and Highland skyline"
+        ]
+      },
+      "narrative": {
+        "action_beats": [
+          "DK advances diagonally with one sword; LLC meets the blade with his own and braces the shield. Keep both grips, blades and contact point legible.",
+          "DK plants four hooves through a controlled wheel of his body; LLC sidesteps to the outside rather than remaining under the charge.",
+          "LLC redirects the next cut and shifts shield pressure; DK resets his forelegs and turns his upper body back toward the opponent. No effortless human-strength shove of a full centaur."
+        ],
+        "dialogue": [],
+        "emotional_objective": "Home-arena confidence meets an expensive challenger whose precision can answer strength.",
+        "objective": "Arena wide -> clean clash -> pivot -> counter -> domination. Keep all four DK legs readable in at least one action-wide and the final spatial resolution."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W09-M05-W09-P17",
+      "scene_role": "ESCALATION",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "W09-M05-B03",
+          "W09-M05-B04",
+          "W09-M05-B05"
+        ],
+        "source_classifications": [
+          "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [
+          "The opening tests defenses without deciding superiority.",
+          "The encounter changes angle, not just weapon position.",
+          "Both combatants recover and choose; the winner must exploit an actual imbalance."
+        ],
+        "persistent": []
+      },
+      "visual": {
+        "background": [
+          "left DK entrance and Arsenal banner",
+          "right LLC entrance",
+          "open sand ring and Highland skyline"
+        ],
+        "blocking": [
+          "DK advances diagonally with one sword; LLC meets the blade with his own and braces the shield. Keep both grips, blades and contact point legible.",
+          "DK plants four hooves through a controlled wheel of his body; LLC sidesteps to the outside rather than remaining under the charge.",
+          "LLC redirects the next cut and shifts shield pressure; DK resets his forelegs and turns his upper body back toward the opponent. No effortless human-strength shove of a full centaur."
+        ],
+        "camera": "Medium-wide first clash | Low footwork insert linked to the wide | Three-quarter counter and recovery",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+          "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [
+          "prior scene in W09-M05"
+        ],
+        "out": [
+          "The reader can explain how either conditional finishing move is possible.",
+          "Power wins through stance and a shown parry, not an unexplained already-defeated opponent.",
+          "Precision and leverage beat momentum without shrinking DK or changing his anatomy.",
+          "Select one final action and retain the loser’s connected anatomy.",
+          "Hold the crowd reaction behind the two bodies; no killing or belt claim.",
+          "Keep the surrendered sword, lowered forequarters and composed challenger in one frame."
+        ]
+      },
+      "dependencies": [
+        "EVT-2026-W09-M05::BASE",
+        "W09-M05",
+        "W09-P18",
+        "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+        "CHAR::CHAR-WILSON-LOOK",
+        "CHAR::CHAR-DAVID-BABB",
+        "LOC::LOC-DK-HIGHLAND-STRONGHOLD",
+        "EVT-2026-W09-M05::RESULT"
+      ],
+      "encounter_id": "ENC-2026-W09-M05",
+      "event_id": "EVT-2026-W09-M05",
+      "location": {
+        "entering_state_receipt": "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json",
+        "location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "persistent_anchors": [
+          "left DK entrance and Arsenal banner",
+          "right LLC entrance",
+          "open sand ring and Highland skyline"
+        ]
+      },
+      "narrative": {
+        "action_beats": [
+          "Show both fighters re-entering the open lane; their footing, weapons and visible gap are continuous with P17.",
+          "IF DK WINS: he redirects LLC’s sword out of line, advances from planted hooves and forces the armored challenger off balance. LLC goes to one knee with weapon lowered; DK remains one integrated four-legged body.",
+          "IF LLC WINS: he steps outside DK’s committed turn, binds the sword arm behind his shield and denies the next cut. DK checks his charge, lowers his forequarters and yields the blade while LLC controls the opening."
+        ],
+        "dialogue": [],
+        "emotional_objective": "Home-arena confidence meets an expensive challenger whose precision can answer strength.",
+        "objective": "Arena wide -> clean clash -> pivot -> counter -> domination. Keep all four DK legs readable in at least one action-wide and the final spatial resolution."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W09-M05-W09-P18",
+      "scene_role": "RESOLUTION",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "AWAY_WIN",
+          "COMMON",
+          "HOME_WIN"
+        ],
+        "source_beat_ids": [
+          "W09-M05-B06",
+          "W09-M05-B07H",
+          "W09-M05-B07A"
+        ],
+        "source_classifications": [
+          "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [
+          "The reader can explain how either conditional finishing move is possible.",
+          "Power wins through stance and a shown parry, not an unexplained already-defeated opponent.",
+          "Precision and leverage beat momentum without shrinking DK or changing his anatomy."
+        ],
+        "persistent": []
+      },
+      "visual": {
+        "background": [
+          "left DK entrance and Arsenal banner",
+          "right LLC entrance",
+          "open sand ring and Highland skyline"
+        ],
+        "blocking": [
+          "Show both fighters re-entering the open lane; their footing, weapons and visible gap are continuous with P17.",
+          "IF DK WINS: he redirects LLC’s sword out of line, advances from planted hooves and forces the armored challenger off balance. LLC goes to one knee with weapon lowered; DK remains one integrated four-legged body.",
+          "IF LLC WINS: he steps outside DK’s committed turn, binds the sword arm behind his shield and denies the next cut. DK checks his charge, lowers his forequarters and yields the blade while LLC controls the opening."
+        ],
+        "camera": "Wide decisive approach before contact | Advancing parry into unbalanced kneel | Outside-angle bind and checked charge",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+          "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [
+          "From the west sideline: Slob starts southwest/near-left, TDS northeast/far-right. A cylinder, central low bunker and northeast wedge define the lanes; trees and distant camp remain behind. Inflatable covers are stationary. A final pivoting camera is re-established before the behind-winner view."
+        ],
+        "out": [
+          "The home competitor’s distinct intention and shared setting become legible before the contest.",
+          "The away competitor’s distinct intention and shared setting become legible before the contest.",
+          "Read the visiting viewpoint next.",
+          "Turn to W09-P20 for the next physical development."
+        ]
+      },
+      "dependencies": [
+        "EVT-2026-W09-M06::BASE",
+        "W09-M06",
+        "W09-P36",
+        "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+        "CHAR::CHAR-JORDAN-HOLLINGSHEAD",
+        "CHAR::CHAR-PHILLIP-PITTS",
+        "LOC::LOC-SLOB-FOOTHILL-CAMP"
+      ],
+      "encounter_id": "ENC-2026-W09-M06",
+      "event_id": "EVT-2026-W09-M06",
+      "location": {
+        "entering_state_receipt": "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json",
+        "location_id": "LOC-SLOB-FOOTHILL-CAMP",
+        "persistent_anchors": [
+          "southwest cylinder",
+          "central low bunker and open middle lane",
+          "northeast wedge with rear tree line"
+        ]
+      },
+      "narrative": {
+        "action_beats": [
+          "Slob settles behind the near starting cylinder, substantial human build visible under protective paintball gear. His marker points safely into the course. Central low cover and far wedge establish the lane.",
+          "TDS waits behind the far starting wedge, exactly three protected heads attached to one body and one marker. The shared tree line fixes orientation; the actual breakout begins P20, not a second starting page."
+        ],
+        "dialogue": [],
+        "emotional_objective": "Every advance gains an angle and sacrifices protection; the victory must be earned by a visible flank.",
+        "objective": "Breakout sprint -> snapshot around cover -> reciprocal flank -> low slide -> paint impact. Keep a common left/right course map and safe spectators outside active lanes."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W09-M06-W09-P36",
+      "scene_role": "SETUP",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "W09-M06-OV-HOME",
+          "W09-M06-OV-AWAY"
+        ],
+        "source_classifications": [
+          "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [
+          "The home competitor’s distinct intention and shared setting become legible before the contest.",
+          "The away competitor’s distinct intention and shared setting become legible before the contest."
+        ],
+        "persistent": []
+      },
+      "visual": {
+        "background": [
+          "southwest cylinder",
+          "central low bunker and open middle lane",
+          "northeast wedge with rear tree line"
+        ],
+        "blocking": [
+          "Slob settles behind the near starting cylinder, substantial human build visible under protective paintball gear. His marker points safely into the course. Central low cover and far wedge establish the lane.",
+          "TDS waits behind the far starting wedge, exactly three protected heads attached to one body and one marker. The shared tree line fixes orientation; the actual breakout begins P20, not a second starting page."
+        ],
+        "camera": "Landscape-led home perspective | Landscape-led away perspective",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+          "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [
+          "prior scene in W09-M06"
+        ],
+        "out": [
+          "The established starting positions become the first exposed crossing.",
+          "The first crossing exposes a cost while gaining ground.",
+          "A forceful advance ends in a defensible position, not victory.",
+          "The defender changes position rather than freezing for the next shot.",
+          "The main image shows the crossing ending in a slide.",
+          "Inset follows the slide from the same left-to-right direction.",
+          "Countercut to the opponent using the information.",
+          "Turn before either finds a clean final hit."
+        ]
+      },
+      "dependencies": [
+        "EVT-2026-W09-M06::BASE",
+        "W09-M06",
+        "W09-P20",
+        "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+        "CHAR::CHAR-JORDAN-HOLLINGSHEAD",
+        "CHAR::CHAR-PHILLIP-PITTS",
+        "LOC::LOC-SLOB-FOOTHILL-CAMP"
+      ],
+      "encounter_id": "ENC-2026-W09-M06",
+      "event_id": "EVT-2026-W09-M06",
+      "location": {
+        "entering_state_receipt": "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json",
+        "location_id": "LOC-SLOB-FOOTHILL-CAMP",
+        "persistent_anchors": [
+          "southwest cylinder",
+          "central low bunker and open middle lane",
+          "northeast wedge with rear tree line"
+        ]
+      },
+      "narrative": {
+        "action_beats": [
+          "Slob breaks from the near-left starting cylinder toward central low cover while TDS pivots around the far-right wedge, bringing his marker onto the lane. Both markers remain controlled; no paint hits either player. The shared tree line and stationary bunkers match P36.",
+          "Slob drives from cylinder toward central low cover as TDS leans from the far wedge. Paint lands on inflatable cover, not either player.",
+          "His current heavyset human build compresses into a short slide; soil scuffs follow the travel direction. Mask stays on; no stale horned redesign.",
+          "TDS leaves the wedge for adjacent tree cover. Central head tracks Slob; outer heads watch flanks; three necks join one body and marker stays below the faces."
+        ],
+        "dialogue": [],
+        "emotional_objective": "Every advance gains an angle and sacrifices protection; the victory must be earned by a visible flank.",
+        "objective": "Breakout sprint -> snapshot around cover -> reciprocal flank -> low slide -> paint impact. Keep a common left/right course map and safe spectators outside active lanes."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W09-M06-W09-P20",
+      "scene_role": "ESCALATION",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "COMMON"
+        ],
+        "source_beat_ids": [
+          "W09-M06-P20-BREAKOUT",
+          "W09-M06-B03",
+          "W09-M06-B04",
+          "W09-M06-B05"
+        ],
+        "source_classifications": [
+          "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [
+          "The established starting positions become the first exposed crossing.",
+          "The first crossing exposes a cost while gaining ground.",
+          "A forceful advance ends in a defensible position, not victory.",
+          "The defender changes position rather than freezing for the next shot."
+        ],
+        "persistent": []
+      },
+      "visual": {
+        "background": [
+          "southwest cylinder",
+          "central low bunker and open middle lane",
+          "northeast wedge with rear tree line"
+        ],
+        "blocking": [
+          "Slob breaks from the near-left starting cylinder toward central low cover while TDS pivots around the far-right wedge, bringing his marker onto the lane. Both markers remain controlled; no paint hits either player. The shared tree line and stationary bunkers match P36.",
+          "Slob drives from cylinder toward central low cover as TDS leans from the far wedge. Paint lands on inflatable cover, not either player.",
+          "His current heavyset human build compresses into a short slide; soil scuffs follow the travel direction. Mask stays on; no stale horned redesign.",
+          "TDS leaves the wedge for adjacent tree cover. Central head tracks Slob; outer heads watch flanks; three necks join one body and marker stays below the faces."
+        ],
+        "camera": "Wide sideline opening, both origins visible | Dominant low sideline action-wide | Medium Slob slide inset | Medium TDS counter-move inset",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    },
+    {
+      "authority": {
+        "character_authority": "active Character Canon authority at build time",
+        "source_receipts": [
+          "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+          "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json"
+        ],
+        "world_authority": "World Engine/Atlas active authority at build time"
+      },
+      "branch": "COMMON",
+      "cast": [
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        },
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "reference_receipts": [],
+          "role": "PRIMARY"
+        }
+      ],
+      "continuity": {
+        "in": [
+          "prior scene in W09-M06"
+        ],
+        "out": [
+          "The coming reverse viewpoint is earned; the camera may move but geography does not flip mysteriously.",
+          "The earlier aggressive crossing pays off through a real firing angle.",
+          "The counter-flank defeats the initial advance; the behind-victor composition remains exact.",
+          "Drop behind the actual winner only in the selected branch.",
+          "Keep fresh paint, masks and loser visible; no blood or lethal weapon.",
+          "Keep three head silhouettes distinct and Slob visible beyond the marker."
+        ]
+      },
+      "dependencies": [
+        "EVT-2026-W09-M06::BASE",
+        "W09-M06",
+        "W09-P21",
+        "memo-os/week-9/WEEK_9_SPORTS_STORY_CARDS_2026-11-08.json",
+        "CHAR::CHAR-JORDAN-HOLLINGSHEAD",
+        "CHAR::CHAR-PHILLIP-PITTS",
+        "LOC::LOC-SLOB-FOOTHILL-CAMP",
+        "EVT-2026-W09-M06::RESULT"
+      ],
+      "encounter_id": "ENC-2026-W09-M06",
+      "event_id": "EVT-2026-W09-M06",
+      "location": {
+        "entering_state_receipt": "production-evidence/WEEK_9_SOURCE_CHARACTER_WORLD_BINDING_2026-11-08.json",
+        "location_id": "LOC-SLOB-FOOTHILL-CAMP",
+        "persistent_anchors": [
+          "southwest cylinder",
+          "central low bunker and open middle lane",
+          "northeast wedge with rear tree line"
+        ]
+      },
+      "narrative": {
+        "action_beats": [
+          "Show the new diagonal between central cover and rear tree lane. Both can still reach a sliding position with a clean line past—not through—the obstacle.",
+          "IF SLOB WINS: camera follows just behind Slob as he slides into the open diagonal and aims. TDS is fully readable downrange; fresh bright paint splatters across protected heads and chest.",
+          "IF TDS WINS: re-establish then drop behind TDS sliding from tree-side cover into the open diagonal, one marker aimed ahead. Slob is visible downrange with fresh paint across visor and torso."
+        ],
+        "dialogue": [],
+        "emotional_objective": "Every advance gains an angle and sacrifices protection; the victory must be earned by a visible flank.",
+        "objective": "Breakout sprint -> snapshot around cover -> reciprocal flank -> low slide -> paint impact. Keep a common left/right course map and safe spectators outside active lanes."
+      },
+      "outputs": [
+        "PNG",
+        "MOTION",
+        "WEB",
+        "NOVEL_CONTEXT"
+      ],
+      "qa": {
+        "publication_state": "PLANNED",
+        "required_gates": [
+          "FACT",
+          "CHARACTER",
+          "WORLD",
+          "COMPOSITION",
+          "PUBLICATION"
+        ],
+        "revision": 1
+      },
+      "scene_id": "SCN-2026-W09-M06-W09-P21",
+      "scene_role": "RESOLUTION",
+      "schema_version": "1.0",
+      "source_mapping": {
+        "branch_variants": [
+          "AWAY_WIN",
+          "COMMON",
+          "HOME_WIN"
+        ],
+        "source_beat_ids": [
+          "W09-M06-B06",
+          "W09-M06-B07H",
+          "W09-M06-B07A"
+        ],
+        "source_classifications": [
+          "DELEGATED_FICTIONAL_STAGING_NOT_OBSERVED_SPORTS_FACT"
+        ]
+      },
+      "state_delta": {
+        "ephemeral": [
+          "The coming reverse viewpoint is earned; the camera may move but geography does not flip mysteriously.",
+          "The earlier aggressive crossing pays off through a real firing angle.",
+          "The counter-flank defeats the initial advance; the behind-victor composition remains exact."
+        ],
+        "persistent": []
+      },
+      "visual": {
+        "background": [
+          "southwest cylinder",
+          "central low bunker and open middle lane",
+          "northeast wedge with rear tree line"
+        ],
+        "blocking": [
+          "Show the new diagonal between central cover and rear tree lane. Both can still reach a sliding position with a clean line past—not through—the obstacle.",
+          "IF SLOB WINS: camera follows just behind Slob as he slides into the open diagonal and aims. TDS is fully readable downrange; fresh bright paint splatters across protected heads and chest.",
+          "IF TDS WINS: re-establish then drop behind TDS sliding from tree-side cover into the open diagonal, one marker aimed ahead. Slob is visible downrange with fresh paint across visor and torso."
+        ],
+        "camera": "High oblique re-establishing angle | Founder final: behind Slob’s winning slide | Founder final: behind TDS’s winning slide",
+        "foreground": [],
+        "lighting": "",
+        "midground": [],
+        "time_of_day": "",
+        "weather": ""
+      }
+    }
+  ],
+  "schema_version": "1.0",
+  "season": 2026,
+  "source": "adapt_2026_memo_season.compile_season"
+}

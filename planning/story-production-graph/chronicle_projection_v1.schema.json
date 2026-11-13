@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemin://story-production-graph/chronicle_projection_v1",
+  "title": "Schemin Chronicle Projection V1 Candidate",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "projection_id",
+    "projection_type",
+    "subject_ids",
+    "event_ids",
+    "source_cutoff",
+    "entries",
+    "derived_only"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "projection_id": {
+      "type": "string",
+      "pattern": "^CHR-"
+    },
+    "projection_type": {
+      "enum": [
+        "CHARACTER_TIMELINE",
+        "RELATIONSHIP_HISTORY",
+        "PLACE_MEMORY",
+        "ARTIFACT_CUSTODY"
+      ]
+    },
+    "subject_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "event_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^EVT-"
+      }
+    },
+    "source_cutoff": {
+      "type": "string"
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "event_id",
+          "classification",
+          "summary",
+          "provenance"
+        ],
+        "properties": {
+          "event_id": {
+            "type": "string"
+          },
+          "classification": {
+            "enum": [
+              "FACT",
+              "WORLD_CANON",
+              "NARRATIVE_INTERPRETATION",
+              "RUMOR_TESTIMONY"
+            ]
+          },
+          "summary": {
+            "type": "string"
+          },
+          "provenance": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "derived_only": {
+      "const": true
+    },
+    "rebuildable": {
+      "const": true
+    }
+  }
+}
