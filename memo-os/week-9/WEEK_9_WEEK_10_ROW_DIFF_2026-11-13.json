@@ -1,0 +1,360 @@
+{
+  "schema": "schemin26.truth_plane_row_diff.v1",
+  "run_id": "S26-MEMO-W10-20261113",
+  "trace_id": "TRACE-S26-MEMO-20261113-1417621",
+  "work_key": "league=1417621/season=2026/week=10/observation=2026-11-13/source=flaim-espn",
+  "observation_date": "2026-11-13",
+  "league_id": "1417621",
+  "season": 2026,
+  "compared_to": "memo-os/week-9/WEEK_9_WEEK_10_PROVIDER_EVIDENCE_2026-11-12.json",
+  "transaction_rows": {
+    "week8": {
+      "prior": 32,
+      "current": 32,
+      "added": [],
+      "removed": [],
+      "modified": [],
+      "warnings": {
+        "truncated": false,
+        "limitations": {
+          "structured_details_incomplete": true
+        },
+        "source": "mTransactions2",
+        "window": {
+          "mode": "explicit_week",
+          "unit": "matchup_period",
+          "requested_week": 8,
+          "normalization": "none",
+          "weeks": [
+            8
+          ],
+          "provider_scoring_period_ids": [
+            8
+          ],
+          "start_date": null,
+          "end_date": null,
+          "date_bounds_kind": "unavailable",
+          "timezone": "America/New_York",
+          "returned_rows": 32
+        }
+      }
+    },
+    "week9": {
+      "prior": 42,
+      "current": 42,
+      "added": [],
+      "removed": [],
+      "modified": [],
+      "warnings": {
+        "truncated": false,
+        "limitations": {
+          "structured_details_incomplete": true
+        },
+        "source": "mTransactions2",
+        "window": {
+          "mode": "explicit_week",
+          "unit": "matchup_period",
+          "requested_week": 9,
+          "normalization": "none",
+          "weeks": [
+            9
+          ],
+          "provider_scoring_period_ids": [
+            9
+          ],
+          "start_date": null,
+          "end_date": null,
+          "date_bounds_kind": "unavailable",
+          "timezone": "America/New_York",
+          "returned_rows": 42
+        }
+      }
+    },
+    "week10": {
+      "prior": 32,
+      "current": 37,
+      "added": [
+        {
+          "transaction_id": "0601b229-8333-41bf-a064-5f90a81bd6dd",
+          "espn_event_id": {
+            "kind": "string",
+            "value": "0601b229-8333-41bf-a064-5f90a81bd6dd"
+          },
+          "espn_related_event_id": {
+            "kind": "string",
+            "value": "8ef129f4-123a-4290-9987-3d310d339f61"
+          },
+          "type": "waiver",
+          "status": "failed",
+          "timestamp": 1794559937310,
+          "timestamp_source": "processDate",
+          "date": "2026-11-13",
+          "week": 10,
+          "provider_scoring_period_id": 10,
+          "team_ids": [
+            "7"
+          ],
+          "players_added": [
+            {
+              "id": "4686468",
+              "name": "Seth McGowan",
+              "position": "RB",
+              "team": "IND"
+            }
+          ],
+          "players_dropped": [
+            {
+              "id": "-16019",
+              "name": "Giants D/ST",
+              "position": "D/ST",
+              "team": "NYG"
+            }
+          ],
+          "faab_bid": 10,
+          "failure_reason": "FAILED_ROSTERLOCK"
+        },
+        {
+          "transaction_id": "a2ca7e2a-7d12-4cc7-ba5d-1000ff892760",
+          "espn_event_id": {
+            "kind": "string",
+            "value": "a2ca7e2a-7d12-4cc7-ba5d-1000ff892760"
+          },
+          "type": "waiver",
+          "status": "pending",
+          "timestamp": 1794532661284,
+          "timestamp_source": "proposedDate",
+          "date": "2026-11-12",
+          "week": 10,
+          "provider_scoring_period_id": 10,
+          "team_ids": [
+            "1"
+          ],
+          "players_added": [
+            {
+              "id": "2973405",
+              "name": "Kalif Raymond",
+              "position": "WR",
+              "team": "CHI"
+            }
+          ],
+          "players_dropped": [
+            {
+              "id": "4361432",
+              "name": "Romeo Doubs",
+              "position": "WR",
+              "team": "NE"
+            }
+          ],
+          "faab_bid": 1,
+          "claim_outcome": {
+            "status": "unknown"
+          }
+        },
+        {
+          "transaction_id": "2118a4ed-c1d7-439b-8bdc-a0d91c2ca0cd",
+          "espn_event_id": {
+            "kind": "string",
+            "value": "2118a4ed-c1d7-439b-8bdc-a0d91c2ca0cd"
+          },
+          "type": "add",
+          "status": "complete",
+          "timestamp": 1794532264606,
+          "timestamp_source": "proposedDate",
+          "date": "2026-11-12",
+          "week": 10,
+          "provider_scoring_period_id": 10,
+          "team_ids": [
+            "1"
+          ],
+          "players_added": [
+            {
+              "id": "2573401",
+              "name": "Tyler Higbee",
+              "position": "TE",
+              "team": "LAR"
+            }
+          ],
+          "players_dropped": [
+            {
+              "id": "2973405",
+              "name": "Kalif Raymond",
+              "position": "WR",
+              "team": "CHI"
+            }
+          ],
+          "faab_bid": 0
+        },
+        {
+          "transaction_id": "b104acff-d40e-4ab1-a237-59cb22a734fd",
+          "espn_event_id": {
+            "kind": "string",
+            "value": "b104acff-d40e-4ab1-a237-59cb22a734fd"
+          },
+          "type": "add",
+          "status": "complete",
+          "timestamp": 1794527464250,
+          "timestamp_source": "proposedDate",
+          "date": "2026-11-12",
+          "week": 10,
+          "provider_scoring_period_id": 10,
+          "team_ids": [
+            "3"
+          ],
+          "players_added": [
+            {
+              "id": "4360569",
+              "name": "Jordan Mason",
+              "position": "RB",
+              "team": "MIN"
+            }
+          ],
+          "players_dropped": [
+            {
+              "id": "3149687",
+              "name": "Chris Brooks",
+              "position": "RB",
+              "team": "GB"
+            }
+          ],
+          "faab_bid": 0
+        },
+        {
+          "transaction_id": "6936ce10-eb31-4ae3-b5f6-dc4ee1744880",
+          "espn_event_id": {
+            "kind": "string",
+            "value": "6936ce10-eb31-4ae3-b5f6-dc4ee1744880"
+          },
+          "type": "add",
+          "status": "complete",
+          "timestamp": 1794499689767,
+          "timestamp_source": "proposedDate",
+          "date": "2026-11-12",
+          "week": 10,
+          "provider_scoring_period_id": 10,
+          "team_ids": [
+            "11"
+          ],
+          "players_added": [
+            {
+              "id": "4600981",
+              "name": "Pat Bryant",
+              "position": "WR",
+              "team": "DEN"
+            }
+          ],
+          "players_dropped": [
+            {
+              "id": "4431466",
+              "name": "Jordan Watkins",
+              "position": "WR",
+              "team": "SF"
+            }
+          ],
+          "faab_bid": 0
+        }
+      ],
+      "removed": [],
+      "modified": [],
+      "warnings": {
+        "truncated": false,
+        "limitations": {},
+        "source": "mTransactions2",
+        "window": {
+          "mode": "explicit_week",
+          "unit": "matchup_period",
+          "requested_week": 10,
+          "normalization": "none",
+          "weeks": [
+            10
+          ],
+          "provider_scoring_period_ids": [
+            10
+          ],
+          "start_date": null,
+          "end_date": null,
+          "date_bounds_kind": "unavailable",
+          "timezone": "America/New_York",
+          "returned_rows": 37
+        }
+      }
+    }
+  },
+  "typed_key": "espn_event_id.kind+':'+espn_event_id.value",
+  "preliminary_checks": [
+    {
+      "check": "week8_typed_event_ids",
+      "pass": true,
+      "details": 32
+    },
+    {
+      "check": "week8_not_truncated",
+      "pass": true
+    },
+    {
+      "check": "week9_typed_event_ids",
+      "pass": true,
+      "details": 42
+    },
+    {
+      "check": "week9_not_truncated",
+      "pass": true
+    },
+    {
+      "check": "week10_typed_event_ids",
+      "pass": true,
+      "details": 37
+    },
+    {
+      "check": "week10_not_truncated",
+      "pass": true
+    },
+    {
+      "check": "week9_six_pairings",
+      "pass": true
+    },
+    {
+      "check": "week9_unique_teams",
+      "pass": true
+    },
+    {
+      "check": "week10_six_pairings",
+      "pass": true
+    },
+    {
+      "check": "week10_unique_teams",
+      "pass": true
+    },
+    {
+      "check": "week11_six_pairings",
+      "pass": true
+    },
+    {
+      "check": "week11_unique_teams",
+      "pass": true
+    },
+    {
+      "check": "twelve_standings",
+      "pass": true
+    },
+    {
+      "check": "week9_final_all",
+      "pass": true
+    },
+    {
+      "check": "week10_unresolved_all",
+      "pass": true
+    },
+    {
+      "check": "mercer_firewall",
+      "pass": true,
+      "details": "No Mercer tool or artifact used in this run"
+    }
+  ],
+  "week10_status_counts": {
+    "failed": 7,
+    "pending": 3,
+    "complete": 25,
+    "canceled": 2
+  },
+  "qualification": "Newly observed means new in this source comparison, not necessarily executed on observation date. Historical PENDING does not prove still pending. This is preliminary normalized evidence; no Steward acceptance."
+}
