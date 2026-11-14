@@ -1,5 +1,7 @@
 import copy
+import json
 import unittest
+from pathlib import Path
 from validate_transaction_lineage import inspect_window
 
 PENDING = {
@@ -69,6 +71,17 @@ class TypedWaiverLineage(unittest.TestCase):
     def test_omitted_rows_fail_closed(self):
         self.w['limitations']['omitted_unrecognized_rows'] = 1
         self.assertIn('TRANSACTION_ROWS_OMITTED:omitted_unrecognized_rows', inspect_window(self.w)[0])
+
+    def test_recorded_nov14_espn_window_has_valid_claim_links(self):
+        evidence_path = Path(__file__).resolve().parents[1] / 'week-9' / 'WEEK_9_WEEK_10_PROVIDER_EVIDENCE_2026-11-14.json'
+        with evidence_path.open() as handle:
+            record = json.load(handle)
+        week10 = record['week10_transactions']
+        errors, summary = inspect_window(week10)
+        self.assertEqual(errors, [])
+        self.assertGreaterEqual(summary.get('historical_pending_resolved_complete', 0), 1)
+        ids = {f"{row['espn_event_id']['kind']}:{row['espn_event_id']['value']}" for row in week10['transactions']}
+        self.assertIn('string:720df030-566a-4138-a669-51d24ab935f9', ids)
 
     def test_number_string_ids_do_not_conflate(self):
         self.w['transactions'][1]['espn_event_id'] = {'kind': 'number', 'value': 'pending-1'}
