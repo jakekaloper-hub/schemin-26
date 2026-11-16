@@ -34,6 +34,11 @@ THE LLC • 203.96 · current
 
 ## W10-P02 — ROOM ABOVE TWO HUNDRED
 
+**Pass 4 controlling narrative (supersedes older prose in this section):**
+
+By Sunday night, the Commonwealth had learned that a number could become a weapon without anyone lifting a blade. Two teams had crossed two hundred. One sent a hamburger to a birthday party; another brought an army to a mountain gate. A centaur was chasing an outlaw through Highland mud. In the eastern ruins, a river quietly made a mockery of Red's sandbags, while a second gust carried the same storm's reach to a court farther inland. Chins found the one household that needed quiet and arrived with a jackhammer. Slob made a beer delivery through a swamp whose owner could no longer command the road. The front belonged to Niño; the humiliations belonged to the men who chose them. With four regular-season games remaining after this one, the question was no longer simply who won. It was what each result would leave behind.
+
+
 Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
 Site and ordinary use: League Archive courier court. Registered parent LOC-LEAGUE-ARCHIVE; SET-W10-ARCHIVE-COURIER-ARRIVALS is proposed local staging, not promoted canon.
@@ -59,6 +64,11 @@ Two teams have crossed 200. A birthday gift has become a taunt, the outlaw has f
 - This is omniscient editorial introduction to proposed fiction; it does not turn private dialogue into commissioner eyewitness evidence. Result-dependent wording waits for the appropriate final branch.
 
 ## W10-P03 — KEEP THE WHOLE LEAGUE IN VIEW
+
+**Pass 4 controlling narrative (supersedes older prose in this section):**
+
+There is a difference between being beaten and having to live with the evidence. A score is entered once. A birthday photograph is shown forever. A broken hoop stays broken until someone fixes it. The owner of a swamp still has to watch the next truck drive through. That is the Commonwealth we have spent seasons building, and it is why this league is more than six boxes on a scoreboard. But our stories do not outrank the standings. Nobody is going to Cancún by mathematical decree until the last route is closed. Nobody is healed because a reserve slot looks full. Tonight's remaining starters can still move the board. When those numbers settle, the next week will ask each of us what we have left to field.
+
 
 Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
@@ -128,6 +138,11 @@ Week 10 is still open. These six scorelines are the current board; Henry, Andrew
 
 ## W10-P05 — Everybody Gets a View
 
+**Pass 4 controlling narrative (supersedes older prose in this section):**
+
+Chili has always understood the value of a crowd. At last week's cookout he chose the victim, the serving and the moment everyone laughed. Now he circles the Arsenal's Highland ring with the crowd above him, searching for an exit while the four-legged centaur closes behind, lasso turning overhead. Every open gate seems to belong to DK. The same storm that wet the rails has made the ground a poor place to sprint in expensive boots.
+
+
 Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
 Existing setting / proposed child: {"set_id": "SET-W10-DK-RODEO-GROUNDS", "parent_location_id": "LOC-DK-HIGHLAND-STRONGHOLD", "parent_status": "INTERPRETIVE_CANON", "set_status": "PROPOSED_REUSABLE_CHILD_SET", "region_id": "REG-UPPER-VALLEYS", "name": "Arsenal Rodeo Grounds", "formal_atlas_promotion": false}
@@ -155,6 +170,11 @@ The Chili Cheesers ran along the rail, looking for an exit that the crowd had so
 - DK rope in motion; hat still worn
 
 ## W10-P06 — The Ring Runs Out
+
+**Pass 4 controlling narrative (supersedes older prose in this section):**
+
+Chili cuts hard for the service gate. The lasso reaches him before he reaches it. He keeps running for a fraction too long, turning the capture into a skid through the muddy groove he made himself. The crowd's reaction is no longer the sound he came to produce. DK has not needed the axe. The rope, the arena and Chili's own decision to flee have done the work.
+
 
 Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
@@ -184,6 +204,11 @@ Chili cut toward the gate. The centaur’s loop arrived first. A boot skated thr
 
 ## W10-P07 — No Private Exit
 
+**Pass 4 controlling narrative (supersedes older prose in this section):**
+
+DK finishes the binding in the center ring, with all four hooves planted and the rope's path plain to see. Chili lies hogtied, hat just out of reach, looking back at the entrance where he had expected to be the attraction. Last week he had served humiliation to a champion. This week the Commonwealth has found a new course for the menu.
+
+
 Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
 Existing setting / proposed child: {"set_id": "SET-W10-DK-RODEO-GROUNDS", "parent_location_id": "LOC-DK-HIGHLAND-STRONGHOLD", "parent_status": "INTERPRETIVE_CANON", "set_status": "PROPOSED_REUSABLE_CHILD_SET", "region_id": "REG-UPPER-VALLEYS", "name": "Arsenal Rodeo Grounds", "formal_atlas_promotion": false}
@@ -211,6 +236,11 @@ D0nkey K0ng finished the binding in the middle of the ring. Chili lay hogtied in
 - Wet rope and mud progression; no property or Belt transfer
 
 ## W10-P08 — One More Bag
+
+**Pass 4 controlling narrative (supersedes older prose in this section):**
+
+The river did not arrive as a wall. It climbed a little, found a gap, and waited for Red to believe the last sandbag had solved it. The old goal leaned over a pitch still carrying last week's damage. Red shifted another bag into place. The water went around it. In 2022, he had beaten Niño twice and carried thirteen wins into the semifinal. It was not the strength of the old season he remembered now, but how little of it had mattered on the night it ended.
+
 
 Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
@@ -240,6 +270,11 @@ Red Leopards pressed another sandbag against the pitch’s low edge. Water slid 
 
 ## W10-P09 — The Place That Answered Once
 
+**Pass 4 controlling narrative (supersedes older prose in this section):**
+
+Later, in the Central Basin—not a magically adjacent corner of the eastern ruins—Red reaches the old basketball court, a place associated with a different recent victory. The same expanding front has arrived by a different road. A gust twists the branches above the familiar rim. He has barely looked up when the old limb comes down across the backboard. One storm, two places, and no time to make either one safe.
+
+
 Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
 Existing setting / proposed child: {"set_id": "SET-W10-FORGOTTEN-COURT-REVISIT", "parent_location_id": null, "parent_status": "NO_REGISTERED_LOCATION_ID_FOUND", "set_status": "EXISTING_DELIVERED_ARTWORK_REUSE; ATLAS_REGISTRATION_PENDING", "region_id": "REG-CENTRAL-BASIN", "region_basis": "Explicit Week7 P08–10 caption", "formal_atlas_promotion": false}
@@ -267,6 +302,11 @@ Later, at the Forgotten Court in the Central Basin, Red looked toward the hoop w
 - Explicit elapsed-time move to Central Basin; falling branch
 
 ## W10-P10 — That Cold Again
+
+**Pass 4 controlling narrative (supersedes older prose in this section):**
+
+The hoop hangs wrong. Red sits beneath it with the mud of his failed sandbag line still on him. Niño laughs somewhere inside the moving cloud, and the old semifinal comes back in full: 116.32 to 97.96, a 13–1 favorite sent home, and Niño eventually lifting that season's title. Red is not eliminated today. That is almost the cruelest part. He still has to decide whether to get up and repair another thing.
+
 
 Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
@@ -322,6 +362,11 @@ On the exposed coast, water finds the old damage. Farther inland, gusts take the
 
 ## W10-P12 — Just as the House Settles
 
+**Pass 4 controlling narrative (supersedes older prose in this section):**
+
+There had been a time when the temple's waterfall was the loudest thing the family heard. Now a jackhammer bites the courtyard paving, sending pale chips against steps worn smooth over years. Behind the upstairs door the newborn starts crying. TDS's partner calls for help. Three heads reach the balcony at once, none of them prepared for the sight of Chins enjoying himself below.
+
+
 Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
 Existing setting / proposed child: {"set_id": "SET-W10-TDS-TEMPLE-COURTYARD", "parent_location_id": "LOC-TDS-WATERFALL-TEMPLE", "parent_status": "PERMANENT_CANON", "set_status": "PROPOSED_HOUSEHOLD_COURTYARD_AND_BALCONY", "region_id": "REG-SOUTHERN-WETLANDS", "formal_atlas_promotion": false}
@@ -349,6 +394,11 @@ The baby had almost settled when Seven Deadly Chins put the jackhammer into the 
 - Baby awake; family upset; first concrete damage
 
 ## W10-P13 — He Heard You
+
+**Pass 4 controlling narrative (supersedes older prose in this section):**
+
+TDS shouts down to stop. Chins lets the hammer go quiet long enough to look up. For one hopeful breath the waterfall fills the court again. TDS turns toward the crying child. Then Chins laughs, turns the music higher and plants the bit in the next square of paving. The insult is not that he could not hear. It is that he listened and chose the encore.
+
 
 Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
@@ -378,6 +428,11 @@ Three Dreaded Snake vs Seven Deadly Chins
 
 ## W10-P14 — No Quiet Hours
 
+**Pass 4 controlling narrative (supersedes older prose in this section):**
+
+Broken concrete lies in a widening crescent around the same jackhammer. Chins dances badly to his own music, delighted by an audience of three furious heads. Upstairs, the father has a crying baby and an angry partner; downstairs, his visitor has a fresh piece of ground to destroy. Last season TDS beat Chins twice. This week Chins has discovered a form of revenge that needs neither a trophy nor permission.
+
+
 Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
 Existing setting / proposed child: {"set_id": "SET-W10-TDS-TEMPLE-COURTYARD", "parent_location_id": "LOC-TDS-WATERFALL-TEMPLE", "parent_status": "PERMANENT_CANON", "set_status": "PROPOSED_HOUSEHOLD_COURTYARD_AND_BALCONY", "region_id": "REG-SOUTHERN-WETLANDS", "formal_atlas_promotion": false}
@@ -405,6 +460,11 @@ Another square of concrete broke loose. Chins worked to the music with the cheer
 - Same expanded hole; family frustration unresolved; no Book reopening
 
 ## W10-P15 — The Swamp Declares a Blockade
+
+**Pass 4 controlling narrative (supersedes older prose in this section):**
+
+Mud plants himself beside the old swamp entrance marker, blocking the raised service strip with the confidence of a landlord. Beyond him comes a long flatbed of beer, driven by Slob with the ease of a man on a familiar delivery run. The swamp is wet, the old racing ruts are full, and the cargo straps are tight. Mud barks a warning. Slob checks the mirror.
+
 
 Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
@@ -434,6 +494,11 @@ Mud Dogs planted his paws beside the entrance marker and announced that the swam
 
 ## W10-P16 — Same Speed
 
+**Pass 4 controlling narrative (supersedes older prose in this section):**
+
+The truck does not stop. Slob does not even make a show of defiance. He keeps the wheels on the firm strip, guides the kegs around the bend and rolls past at ordinary speed. Mud follows on the soft shoulder, barking harder as the trailer grows longer and less interested in him. The joke is not that Slob has conquered the swamp. It is that the swamp has ceased to inconvenience his schedule.
+
+
 Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
 Existing setting / proposed child: {"set_id": "SET-W10-MUD-SWAMP-DELIVERY-PASS", "parent_location_id": "LOC-MUD-DOGS-SWAMP", "parent_status": "PERMANENT_CANON", "set_status": "PROPOSED_RAISED_SERVICE_STRIP_WITHIN_EXISTING_GROUND", "region_id": "REG-SOUTHERN-WETLANDS", "formal_atlas_promotion": false}
@@ -461,6 +526,11 @@ Mud Dogs barked from the soft shoulder as the cab drew level. Slob gave him half
 - No collision, struggle, flying keg or seized territory
 
 ## W10-P17 — Cancún Is Calling
+
+**Pass 4 controlling narrative (supersedes older prose in this section):**
+
+The last tail lamp disappears into reeds. Mud stands under his own sign beside empty stands and flooded racing scars, watching a postcard for Cancún flutter against the post. It is a taunt, not a ticket: the seventh playoff place is still mathematically reachable under the current scenario. But another loss next week could make the joke look less like a joke. For now, Slob has delivered the beer, and Mud has been left with the silence after a truck.
+
 
 Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
@@ -558,6 +628,11 @@ Duckhook’s Maye faces a reported extended absence; a season-ending outcome rem
 
 ## W10-P19 — A Very Generous Guest
 
+**Pass 4 controlling narrative (supersedes older prose in this section):**
+
+The dining hall in Jackson is full enough that the guests must turn sideways between the streamers and the cakes. Duckhook is the birthday boy, a host in his own kingdom of polished tables and familiar club service. HMB arrives beneath the storm-dark windows carrying an enormous present, belt visible and sword irrelevant. Last year Duck came within four tenths of stopping this rival's championship path. Tonight he opens the door to him.
+
+
 Create one full-page cinematic 1080x1920 PNG illustration of a lavish birthday celebration entirely inside a well-established dining hall at the Country Club of Jackson. Use a wide entrance view with long-table perspective, a clear aisle, anonymous adult guests, abundant streamers, several cakes and maintained wood-and-brass club furnishings that show years of use. Dr. Duckhook retains his white duck head, orange bill, green golf cap and green vest; his golf equipment is stored nearby. His Majesty’s Blood enters carrying a large wrapped present with both hands: shadowed hood, two glowing red eyes, black armor, crimson cloak and retained belt. His sword is secured and unused. Establish a sturdy gift table and a separate birthday cake on the sideboard. Warm chandeliers and sconces illuminate the party; tall windows carry cool cloud reflections and passing rain from Niño’s regional front. Conceive headline and narrative lettering in the same warm room and architectural depth. This beat is social anticipation, with no duel, weapon exchange, veranda action, fall or collapsing table. The gift remains wrapped until the next beat.
 
 ### Exact copy
@@ -573,6 +648,11 @@ Dr. Duckhook had filled Jackson’s dining hall with cakes, streamers and people
 - Warm hall and cool windows retain their positions
 
 ## W10-P20 — The 200 Burger
+
+**Pass 4 controlling narrative (supersedes older prose in this section):**
+
+Duck pulls the ribbon, raises the lid and discovers a double-decker hamburger big enough to have a title: 200 BURGER. For a moment he tries to smile like a gracious host. Then the guests understand what the number means. HMB has given him a celebration he can neither refuse nor explain away. The separate birthday cake waits on the sideboard.
+
 
 Create one cohesive full-page cinematic 1080x1920 PNG at table height inside the same warm, lived-in Country Club of Jackson dining hall. Dr. Duckhook opens the large gift that HMB has already placed on the sturdy table. The lid and ribbon reveal a gigantic but physically plausible double-decker hamburger, with a clearly legible little flag reading exactly 200 BURGER. This label is the food joke and 200-point milestone, not an exact final-score display. Frame the burger in the foreground, Duckhook’s orange bill and slowly collapsing social smile in the midground, and HMB’s towering hooded, red-eyed armored presence beside him. Preserve green golf cap/vest, HMB’s belt and crimson cloak. Show the nearby guests beginning to understand the joke. The separate birthday cake remains visible on the same sideboard; any candles have been cleared before later handling. Keep warm chandeliers and sconces, abundant streamers and cool rainy window reflections consistent with the first page. The sword and golf clubs are out of use. Integrate all selected wording with the same illustrated room; avoid separate panels or a product-ad layout.
 
@@ -590,6 +670,11 @@ The ribbon came away. Then the lid. A towering double-decker hamburger filled th
 
 ## W10-P21 — Many Unhappy Returns
 
+**Pass 4 controlling narrative (supersedes older prose in this section):**
+
+HMB presses that cake squarely into Duck's face. Frosting coats the orange bill and the front of the green vest while the warm dining hall erupts. The burger remains magnificent in its box, untouched. Last week Chili made HMB the dish at a public cookout. This week the champion has found a new place setting, and the birthday boy is wearing dessert.
+
+
 Create the third full-page cinematic 1080x1920 PNG in the same indoor Jackson birthday sequence. At a clear three-quarter angle, show His Majesty’s Blood intentionally pressing the previously established candle-free birthday cake into Dr. Duckhook’s face. Both gloved hands, the cake and its contact must be understandable; soft frosting smears across white feathers and the orange bill while part of Duckhook’s eyes, green cap and green vest remain recognizable. The action is an outrageous birthday prank, with no weapon fighting, fall or collapsing table. HMB remains a towering shadowed hood, red eyes, black armor, crimson cloak and retained belt. Beside them the same opened box still contains the intact giant double-decker 200 BURGER, making gift and cake two separate persistent objects. The same anonymous guests laugh beneath streamers and golden chandeliers. Cool storm reflections stay beyond the windows, so the party’s light exposes every detail of the humiliation. Integrate title, chosen narration and only source-authorized score lettering into the whole illustration. Keep finality and exact scores bound to facts.json; the food’s 200 label never substitutes for the score.
 
 ### Exact copy
@@ -606,6 +691,11 @@ His Majesty’s Blood pressed the cake into Duckhook’s face before the birthda
 - HMB retains belt and identity; no venue destruction or ownership change
 
 ## W10-P22 — The Empire Opens Fire
+
+**Pass 4 controlling narrative (supersedes older prose in this section):**
+
+The LLC had beaten Obi by eight tenths of a point in 2024. A margin that narrow teaches a rival to fear one last play. This time the executive has brought an army. Red fire crosses the mountain causeway, and Obi answers with a green blade, destroying the first battery. The home gate is behind him, warm and small against the cold storm.
+
 
 Develop this Retained Pass2 staging, reviewed in Pass3 as ONE cohesive full-page 1080 × 1920 cinematic PNG. Compose the action, environment, title, narration and any source-authorized factual lettering together.
 
@@ -636,6 +726,11 @@ The first blast struck the causeway before the warning could finish. ObiWan Jaco
 
 ## W10-P23 — Two Ways Through
 
+**Pass 4 controlling narrative (supersedes older prose in this section):**
+
+Obi takes the ridge because it is the path an army would overlook and because he refuses to let the first success be his last. For a moment the second advance works. The LLC does not need to move from the command shelf to answer. One gesture brings the surviving battery around. The battle is not quiet; neither is the courage required to keep going.
+
+
 Develop this Retained Pass2 staging, reviewed in Pass3 as ONE cohesive full-page 1080 × 1920 cinematic PNG. Compose the action, environment, title, narration and any source-authorized factual lettering together.
 
 Existing anchor and proposed local set: Trade Jedi Mountain Base; Ridge Gate. Durable proposed landmarks: worn inner arch coping with one visible repaired joint sheltered fixed lantern ridge shelf below existing war-room overlook Event dressing: two temporary attacking batteries initially LLC command position Movement: Main approach and elevated shelf converge toward LLC; the inner arch remains the defended return point.
@@ -664,6 +759,11 @@ ObiWan Jacoby took the opening at a run. The shattered battery bought one advanc
 - Local scene consequence remains draft until detailed acceptance
 
 ## W10-P24 — Unlimited Firepower
+
+**Pass 4 controlling narrative (supersedes older prose in this section):**
+
+Obi holds the inner arch as the remaining guns converge. Smoke from the destroyed emplacement blows in the same direction as the flags; the one surviving battery still fires. He has made two choices, earned two real moments, and still faces an enemy whose resources outlast them. In the current leading-score branch, that is the cruel difference between a heroic scene and a winning one. The final sports outcome remains unposted.
+
 
 Develop this Retained Pass2 staging, reviewed in Pass3 as ONE cohesive full-page 1080 × 1920 cinematic PNG. Compose the action, environment, title, narration and any source-authorized factual lettering together.
 
