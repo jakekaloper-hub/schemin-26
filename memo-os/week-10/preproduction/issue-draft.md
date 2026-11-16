@@ -20,7 +20,8 @@ Recommended reading position: 2. Source: W10-S02.
 
 The week the pressure reached everyone
 
-Two teams have crossed 200. A birthday gift has become a taunt, the outlaw has found an audience he cannot command, and the temple has lost its quiet. Red is trying to save familiar ground. Mud cannot stop a delivery. On the ridge, Obi still answers the fire. El Niño’s front now reaches beyond one opponent’s home. Four regular-season games remain after this week; the damage and the decisions will travel with them.
+By Sunday night, the Commonwealth had learned that a number could become a weapon without anyone lifting a blade. Two teams had crossed two hundred. One sent a hamburger to a birthday party; another brought an army to a mountain gate. A centaur was chasing an outlaw through Highland mud. In the eastern ruins, a river quietly made a mockery of Red's sandbags, while a second gust carried the same storm's reach to a court farther inland. Chins found the one household that needed quiet and arrived with a jackhammer. Slob made a beer delivery through a swamp whose owner could no longer command the road. The front belonged to Niño; the humiliations belonged to the men who chose them. With four regular-season games remaining after this one, the question was no longer simply who won. It was what each result would leave behind.
+
 
 ## W10-P03 — KEEP THE WHOLE LEAGUE IN VIEW
 
@@ -28,7 +29,8 @@ Recommended reading position: 3. Source: W10-S03.
 
 Commissioner’s note • Draft address
 
-The regular season is narrowing. Every result now changes what somebody must do next. Keep the score, the roster and the playoff route together: a huge Sunday does not fill a bye-week vacancy, and a humiliating scene does not eliminate a team. Seven places remain the target. We will carry the latest injury reports and the final Week 10 table into the next round before writing anybody out of it.
+There is a difference between being beaten and having to live with the evidence. A score is entered once. A birthday photograph is shown forever. A broken hoop stays broken until someone fixes it. The owner of a swamp still has to watch the next truck drive through. That is the Commonwealth we have spent seasons building, and it is why this league is more than six boxes on a scoreboard. But our stories do not outrank the standings. Nobody is going to Cancún by mathematical decree until the last route is closed. Nobody is healed because a reserve slot looks full. Tonight's remaining starters can still move the board. When those numbers settle, the next week will ask each of us what we have left to field.
+
 
 ## W10-P04 — THE WEEK 10 BOARD
 
@@ -60,7 +62,8 @@ Recommended reading position: 5. Source: W10-M01.
 
 The Chili Cheesers vs D0nkey K0ng
 
-The Chili Cheesers ran along the rail, looking for an exit that the crowd had somehow made farther away. Behind him, D0nkey K0ng swung a broad loop above his head and kept gaining. Last week the outlaw had arranged the entertainment. In the Arsenal’s rodeo ground, every seat belonged to somebody else.
+Chili has always understood the value of a crowd. At last week's cookout he chose the victim, the serving and the moment everyone laughed. Now he circles the Arsenal's Highland ring with the crowd above him, searching for an exit while the four-legged centaur closes behind, lasso turning overhead. Every open gate seems to belong to DK. The same storm that wet the rails has made the ground a poor place to sprint in expensive boots.
+
 
 ## W10-P06 — The Ring Runs Out
 
@@ -68,7 +71,8 @@ Recommended reading position: 6. Source: W10-M01.
 
 The Chili Cheesers vs D0nkey K0ng
 
-Chili cut toward the gate. The centaur’s loop arrived first. A boot skated through the churned mud, the rope drew tight, and the outlaw’s grand escape became the part everyone would remember. D0nkey K0ng stopped with four hooves planted. There was still work to finish, and the crowd had an excellent view.
+Chili cuts hard for the service gate. The lasso reaches him before he reaches it. He keeps running for a fraction too long, turning the capture into a skid through the muddy groove he made himself. The crowd's reaction is no longer the sound he came to produce. DK has not needed the axe. The rope, the arena and Chili's own decision to flee have done the work.
+
 
 ## W10-P07 — No Private Exit
 
@@ -76,7 +80,8 @@ Recommended reading position: 7. Source: W10-M01.
 
 The Chili Cheesers vs D0nkey K0ng
 
-D0nkey K0ng finished the binding in the middle of the ring. Chili lay hogtied in the storm mud, sunglasses crooked, his decorated hat just beyond reach. Laughter rolled down from the galleries. The outlaw who had made a champion the joke last week could now see every person enjoying this one.
+DK finishes the binding in the center ring, with all four hooves planted and the rope's path plain to see. Chili lies hogtied, hat just out of reach, looking back at the entrance where he had expected to be the attraction. Last week he had served humiliation to a champion. This week the Commonwealth has found a new course for the menu.
+
 
 ## W10-P08 — One More Bag
 
@@ -84,7 +89,8 @@ Recommended reading position: 8. Source: W10-M02.
 
 Red Leopards vs El Niño
 
-Red Leopards pressed another sandbag against the pitch’s low edge. Water slid through the old wheel ruts and gathered beneath the wrecked goal. He moved a bag, then another. The river rose gently enough to make each small success feel useful, and steadily enough to take it away. Beyond the banners, El Niño’s front kept coming.
+The river did not arrive as a wall. It climbed a little, found a gap, and waited for Red to believe the last sandbag had solved it. The old goal leaned over a pitch still carrying last week's damage. Red shifted another bag into place. The water went around it. In 2022, he had beaten Niño twice and carried thirteen wins into the semifinal. It was not the strength of the old season he remembered now, but how little of it had mattered on the night it ended.
+
 
 ## W10-P09 — The Place That Answered Once
 
@@ -92,7 +98,8 @@ Recommended reading position: 9. Source: W10-M02.
 
 Red Leopards vs El Niño
 
-Later, at the Forgotten Court in the Central Basin, Red looked toward the hoop where he had once left His Majesty’s Blood behind. He had come for the memory of something working. A gust drove leaves across the cracked court. Above the right-hand wall, an old limb split and swung toward the backboard.
+Later, in the Central Basin—not a magically adjacent corner of the eastern ruins—Red reaches the old basketball court, a place associated with a different recent victory. The same expanding front has arrived by a different road. A gust twists the branches above the familiar rim. He has barely looked up when the old limb comes down across the backboard. One storm, two places, and no time to make either one safe.
+
 
 ## W10-P10 — That Cold Again
 
@@ -100,7 +107,8 @@ Recommended reading position: 10. Source: W10-M02.
 
 Red Leopards vs El Niño
 
-The branch settled against the wall. The rim hung bent beneath it. Red sat at the court’s edge with nothing left in his hands. Across the stone, El Niño laughed into the wind. “You remember 2022.” Red did. Thirteen wins had not saved that season. Watching the broken hoop, he could feel that old uncertainty arriving again.
+The hoop hangs wrong. Red sits beneath it with the mud of his failed sandbag line still on him. Niño laughs somewhere inside the moving cloud, and the old semifinal comes back in full: 116.32 to 97.96, a 13–1 favorite sent home, and Niño eventually lifting that season's title. Red is not eliminated today. That is almost the cruelest part. He still has to decide whether to get up and repair another thing.
+
 
 ## W10-P11 — THE ROADS BETWEEN
 
@@ -116,7 +124,8 @@ Recommended reading position: 12. Source: W10-M03.
 
 Three Dreaded Snake vs Seven Deadly Chins
 
-The baby had almost settled when Seven Deadly Chins put the jackhammer into the courtyard. Concrete rattled against old stone. Upstairs, a cry began, then an angry voice called for Three Dreaded Snake. He reached the balcony with three heads trying to answer three problems. Below, Chins smiled as though the house had requested the work.
+There had been a time when the temple's waterfall was the loudest thing the family heard. Now a jackhammer bites the courtyard paving, sending pale chips against steps worn smooth over years. Behind the upstairs door the newborn starts crying. TDS's partner calls for help. Three heads reach the balcony at once, none of them prepared for the sight of Chins enjoying himself below.
+
 
 ## W10-P13 — He Heard You
 
@@ -124,7 +133,8 @@ Recommended reading position: 13. Source: W10-M03.
 
 Three Dreaded Snake vs Seven Deadly Chins
 
-“Keep it down!” Three Dreaded Snake shouted over the rail. Chins stopped long enough to look directly at him. For a moment there was only the waterfall, the baby and the promise of relief. Then Chins laughed, turned the music up and put both hands back on the jackhammer. He had heard every word.
+TDS shouts down to stop. Chins lets the hammer go quiet long enough to look up. For one hopeful breath the waterfall fills the court again. TDS turns toward the crying child. Then Chins laughs, turns the music higher and plants the bit in the next square of paving. The insult is not that he could not hear. It is that he listened and chose the encore.
+
 
 ## W10-P14 — No Quiet Hours
 
@@ -132,7 +142,8 @@ Recommended reading position: 14. Source: W10-M03.
 
 Three Dreaded Snake vs Seven Deadly Chins
 
-Another square of concrete broke loose. Chins worked to the music with the cheerful indifference of a man who had nowhere better to be. Above him, three furious heads demanded the same impossible thing. Behind the balcony door, the baby cried and the argument continued. Chins looked up, grinned, and kept going.
+Broken concrete lies in a widening crescent around the same jackhammer. Chins dances badly to his own music, delighted by an audience of three furious heads. Upstairs, the father has a crying baby and an angry partner; downstairs, his visitor has a fresh piece of ground to destroy. Last season TDS beat Chins twice. This week Chins has discovered a form of revenge that needs neither a trophy nor permission.
+
 
 ## W10-P15 — The Swamp Declares a Blockade
 
@@ -140,7 +151,8 @@ Recommended reading position: 15. Source: W10-M04.
 
 Mud Dogs vs Slob on my Dobb
 
-Mud Dogs planted his paws beside the entrance marker and announced that the swamp was closed to visitors. Slob on my Dobb approached with a flatbed full of beer. He checked the straps in his mirror, kept the wheels on the raised service strip and continued at the same ordinary speed.
+Mud plants himself beside the old swamp entrance marker, blocking the raised service strip with the confidence of a landlord. Beyond him comes a long flatbed of beer, driven by Slob with the ease of a man on a familiar delivery run. The swamp is wet, the old racing ruts are full, and the cargo straps are tight. Mud barks a warning. Slob checks the mirror.
+
 
 ## W10-P16 — Same Speed
 
@@ -148,7 +160,8 @@ Recommended reading position: 16. Source: W10-M04.
 
 Mud Dogs vs Slob on my Dobb
 
-Mud Dogs barked from the soft shoulder as the cab drew level. Slob gave him half a glance. The kegs stayed strapped, the wheels stayed on stone, and the delivery kept moving. The swamp had offered a warning. The driver appeared to have mistaken it for background noise.
+The truck does not stop. Slob does not even make a show of defiance. He keeps the wheels on the firm strip, guides the kegs around the bend and rolls past at ordinary speed. Mud follows on the soft shoulder, barking harder as the trailer grows longer and less interested in him. The joke is not that Slob has conquered the swamp. It is that the swamp has ceased to inconvenience his schedule.
+
 
 ## W10-P17 — Cancún Is Calling
 
@@ -156,7 +169,8 @@ Recommended reading position: 17. Source: W10-M04.
 
 Mud Dogs vs Slob on my Dobb
 
-The last crates disappeared around the bend. Mud Dogs remained beneath his territory sign, with empty seats, flooded racing ruts and nobody left to stop. A loose travel card flapped against a post: CANCÚN. Slob had not taken the swamp. He had passed through it so easily that Mud could no longer tell which part was worse.
+The last tail lamp disappears into reeds. Mud stands under his own sign beside empty stands and flooded racing scars, watching a postcard for Cancún flutter against the post. It is a taunt, not a ticket: the seventh playoff place is still mathematically reachable under the current scenario. But another loss next week could make the joke look less like a joke. For now, Slob has delivered the beer, and Mud has been left with the silence after a truck.
+
 
 ## W10-P18 — WHY THE BOARD MOVED
 
@@ -196,7 +210,8 @@ Recommended reading position: 20. Source: W10-M05.
 
 Dr. Duckhook vs His Majesty's Blood
 
-Dr. Duckhook had filled Jackson’s dining hall with cakes, streamers and people prepared to make a fuss over him. Outside, the windows trembled. Inside, the lamps stayed golden. His Majesty’s Blood arrived carrying a present large enough to deserve its own table. Duckhook welcomed him with the confidence of a host who believed every surprise in the room had been arranged for his benefit.
+The dining hall in Jackson is full enough that the guests must turn sideways between the streamers and the cakes. Duckhook is the birthday boy, a host in his own kingdom of polished tables and familiar club service. HMB arrives beneath the storm-dark windows carrying an enormous present, belt visible and sword irrelevant. Last year Duck came within four tenths of stopping this rival's championship path. Tonight he opens the door to him.
+
 
 ## W10-P20 — The 200 Burger
 
@@ -204,7 +219,8 @@ Recommended reading position: 21. Source: W10-M05.
 
 Dr. Duckhook vs His Majesty's Blood
 
-The ribbon came away. Then the lid. A towering double-decker hamburger filled the box, its little flag announcing 200 BURGER. Duckhook’s smile held for an ambitious second. Around him, the room began to understand. His Majesty’s Blood had brought something generous, personal and impossible to return. The birthday boy was still deciding what to say when the champion reached toward the cake.
+Duck pulls the ribbon, raises the lid and discovers a double-decker hamburger big enough to have a title: 200 BURGER. For a moment he tries to smile like a gracious host. Then the guests understand what the number means. HMB has given him a celebration he can neither refuse nor explain away. The separate birthday cake waits on the sideboard.
+
 
 ## W10-P21 — Many Unhappy Returns
 
@@ -212,7 +228,8 @@ Recommended reading position: 22. Source: W10-M05.
 
 Dr. Duckhook vs His Majesty's Blood
 
-His Majesty’s Blood pressed the cake into Duckhook’s face before the birthday boy found his speech. Frosting spread across white feathers and orange bill as the dining hall erupted around them. The champion’s belt caught the warm light beside the open present. The 200 Burger remained magnificent. The birthday boy needed a towel.
+HMB presses that cake squarely into Duck's face. Frosting coats the orange bill and the front of the green vest while the warm dining hall erupts. The burger remains magnificent in its box, untouched. Last week Chili made HMB the dish at a public cookout. This week the champion has found a new place setting, and the birthday boy is wearing dessert.
+
 
 ## W10-P22 — The Empire Opens Fire
 
@@ -220,7 +237,8 @@ Recommended reading position: 23. Source: W10-M06.
 
 ObiWan Jacoby vs The LLC
 
-The first blast struck the causeway before the warning could finish. ObiWan Jacoby met the next volley with a green blade and sent a burning answer into the forward battery. Above the smoke, The LLC stood on the command platform with his red tie lifting in the wind. He had beaten ObiWan by less than a point once. This time, he had brought an empire’s answer.
+The LLC had beaten Obi by eight tenths of a point in 2024. A margin that narrow teaches a rival to fear one last play. This time the executive has brought an army. Red fire crosses the mountain causeway, and Obi answers with a green blade, destroying the first battery. The home gate is behind him, warm and small against the cold storm.
+
 
 ## W10-P23 — Two Ways Through
 
@@ -228,7 +246,8 @@ Recommended reading position: 24. Source: W10-M06.
 
 ObiWan Jacoby vs The LLC
 
-ObiWan Jacoby took the opening at a run. The shattered battery bought one advance; the narrow ridge offered another. He crossed the exposed stone in a green arc of deflected fire and drove toward the command platform. The LLC did not retreat. He turned one gloved hand, and the battery that had survived the first attack found the second one.
+Obi takes the ridge because it is the path an army would overlook and because he refuses to let the first success be his last. For a moment the second advance works. The LLC does not need to move from the command shelf to answer. One gesture brings the surviving battery around. The battle is not quiet; neither is the courage required to keep going.
+
 
 ## W10-P24 — Unlimited Firepower
 
@@ -236,7 +255,8 @@ Recommended reading position: 25. Source: W10-M06.
 
 ObiWan Jacoby vs The LLC
 
-The second counterattack vanished beneath converging red fire. ObiWan Jacoby drove his green blade through the nearest burst and held the inner arch as the mountain approach disappeared in smoke. Across the wrecked causeway, The LLC lowered his hand. The surviving battery answered anyway. The difference between them was no longer a fraction on a ledger. It was how much fire remained after both of ObiWan’s answers.
+Obi holds the inner arch as the remaining guns converge. Smoke from the destroyed emplacement blows in the same direction as the flags; the one surviving battery still fires. He has made two choices, earned two real moments, and still faces an enemy whose resources outlast them. In the current leading-score branch, that is the cruel difference between a heroic scene and a winning one. The final sports outcome remains unposted.
+
 
 ## W10-P25 — THE NEXT STARTING SHEET
 
