@@ -1,0 +1,1667 @@
+{
+  "schema_version": "schemin.week10.world_story_pass.v1",
+  "status": "BRAINSTORMING_PASS_1",
+  "date": "2026-11-16",
+  "controlling_brief": "world-story-pass-01.md",
+  "visual_destination": {
+    "format": "PNG",
+    "width": 1080,
+    "height": 1920,
+    "approach": "Complete cinematic illustration, with artwork, action, environment, lighting and lettering conceived together."
+  },
+  "scope": {
+    "canon_promoted": false,
+    "art_generated": false,
+    "existing_briefs_reconciled_to_this_pass": false,
+    "final_scores_locked": false,
+    "page_order_locked": false,
+    "page_count_locked": false
+  },
+  "atlas_source_commit": "a24656366b73d1ef8ec98cf405d2337194bd2b97",
+  "previous_draft_commit": "5fe63774bc12dc39004cc19748ddae66c96a19fb",
+  "headline_finding": "The Commonwealth anchors and routes already exist; this pass deepens local staging and transition landscapes instead of inventing six replacement cities.",
+  "working_issue_title": "The Ceiling Breaks",
+  "working_story_thesis": "Power gets personal",
+  "canonical_anchors": [
+    {
+      "id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "name": "Compact Neutral Grounds",
+      "canon_status": "PROVISIONAL_CANON",
+      "physical_zone": "Central River Basin",
+      "terrain": [
+        "broad river valleys",
+        "fertile lowlands",
+        "bridge corridors"
+      ],
+      "persistent_landmarks": [
+        "open ceremonial field",
+        "arbiter pavilion",
+        "arrival roads"
+      ],
+      "feature_handles": [
+        "SUB::LOC-COMPACT-NEUTRAL-GROUNDS::OPEN-CEREMONIAL-FIELD",
+        "SUB::LOC-COMPACT-NEUTRAL-GROUNDS::ARBITER-PAVILION",
+        "SUB::LOC-COMPACT-NEUTRAL-GROUNDS::ARRIVAL-ROADS"
+      ],
+      "current_world_state": [],
+      "horizon_constraints": [],
+      "environment_reference_status": "MISSING_APPROVED_VISUAL_REFERENCE"
+    },
+    {
+      "id": "LOC-RED-RUINS",
+      "name": "Red Leopard Ruins",
+      "canon_status": "PERMANENT_CANON",
+      "physical_zone": "Eastern Forest and Storm Coast",
+      "terrain": [
+        "dense forest",
+        "rocky approaches",
+        "storm-exposed coast"
+      ],
+      "persistent_landmarks": [
+        "jungle ruins",
+        "predator banners"
+      ],
+      "feature_handles": [
+        "SUB::LOC-RED-RUINS::JUNGLE-RUINS",
+        "SUB::LOC-RED-RUINS::PREDATOR-BANNERS"
+      ],
+      "current_world_state": [],
+      "horizon_constraints": [],
+      "environment_reference_status": "MISSING_APPROVED_VISUAL_REFERENCE"
+    },
+    {
+      "id": "LOC-TDS-WATERFALL-TEMPLE",
+      "name": "Podium Shadow Waterfall Temple",
+      "canon_status": "PERMANENT_CANON",
+      "physical_zone": "Southern Wetlands and Delta",
+      "terrain": [
+        "slow rivers",
+        "cypress-like wetlands",
+        "mudflats",
+        "raised ground"
+      ],
+      "persistent_landmarks": [
+        "waterfall",
+        "temple stone",
+        "dense vegetation"
+      ],
+      "feature_handles": [
+        "SUB::LOC-TDS-WATERFALL-TEMPLE::WATERFALL",
+        "SUB::LOC-TDS-WATERFALL-TEMPLE::TEMPLE-STONE",
+        "SUB::LOC-TDS-WATERFALL-TEMPLE::DENSE-VEGETATION"
+      ],
+      "current_world_state": [],
+      "horizon_constraints": [],
+      "environment_reference_status": "MISSING_APPROVED_VISUAL_REFERENCE"
+    },
+    {
+      "id": "LOC-MUD-DOGS-SWAMP",
+      "name": "Mud Dogs Swamp",
+      "canon_status": "PERMANENT_CANON",
+      "physical_zone": "Southern Wetlands and Delta",
+      "terrain": [
+        "slow rivers",
+        "cypress-like wetlands",
+        "mudflats",
+        "raised ground"
+      ],
+      "persistent_landmarks": [
+        "mud channels",
+        "raised ground"
+      ],
+      "feature_handles": [
+        "SUB::LOC-MUD-DOGS-SWAMP::MUD-CHANNELS",
+        "SUB::LOC-MUD-DOGS-SWAMP::RAISED-GROUND"
+      ],
+      "current_world_state": [],
+      "horizon_constraints": [],
+      "environment_reference_status": "MISSING_APPROVED_VISUAL_REFERENCE"
+    },
+    {
+      "id": "LOC-COUNTRY-CLUB-JACKSON",
+      "name": "Country Club of Jackson",
+      "canon_status": "PERMANENT_CANON",
+      "physical_zone": "Southern Wetlands and Delta",
+      "terrain": [
+        "slow rivers",
+        "cypress-like wetlands",
+        "mudflats",
+        "raised ground"
+      ],
+      "persistent_landmarks": [
+        "clubhouse",
+        "golf grounds",
+        "water hazards"
+      ],
+      "feature_handles": [
+        "SUB::LOC-COUNTRY-CLUB-JACKSON::CLUBHOUSE",
+        "SUB::LOC-COUNTRY-CLUB-JACKSON::GOLF-GROUNDS",
+        "SUB::LOC-COUNTRY-CLUB-JACKSON::WATER-HAZARDS"
+      ],
+      "current_world_state": [
+        "Week 3 chili contamination/humiliation history",
+        "cleanup status unresolved"
+      ],
+      "horizon_constraints": [
+        {
+          "observer_location_id": "LOC-COUNTRY-CLUB-JACKSON",
+          "direction": "lowland",
+          "visible_landmarks": [
+            "wetland tree line",
+            "levee route"
+          ],
+          "not_guaranteed": [
+            "LOC-MUD-DOGS-SWAMP"
+          ],
+          "rule": "shared wetland system does not mean direct line of sight"
+        }
+      ],
+      "environment_reference_status": "MISSING_APPROVED_VISUAL_REFERENCE"
+    },
+    {
+      "id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "name": "Trade Jedi Mountain Base",
+      "canon_status": "PERMANENT_CANON",
+      "physical_zone": "Upper Valleys and Foothills",
+      "terrain": [
+        "rolling uplands",
+        "mixed forest",
+        "pasture",
+        "defensible ridges"
+      ],
+      "persistent_landmarks": [
+        "high ridge",
+        "war-room overlook"
+      ],
+      "feature_handles": [
+        "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::HIGH-RIDGE",
+        "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::WAR-ROOM-OVERLOOK"
+      ],
+      "current_world_state": [],
+      "horizon_constraints": [],
+      "environment_reference_status": "MISSING_APPROVED_VISUAL_REFERENCE"
+    },
+    {
+      "id": "LOC-LEAGUE-CHAMBER",
+      "name": "League Chamber",
+      "canon_status": "PROVISIONAL_CANON",
+      "physical_zone": "Central River Basin",
+      "terrain": [
+        "broad river valleys",
+        "fertile lowlands",
+        "bridge corridors"
+      ],
+      "persistent_landmarks": [
+        "records desk",
+        "map wall"
+      ],
+      "feature_handles": [
+        "SUB::LOC-LEAGUE-CHAMBER::RECORDS-DESK",
+        "SUB::LOC-LEAGUE-CHAMBER::MAP-WALL"
+      ],
+      "current_world_state": [],
+      "horizon_constraints": [],
+      "environment_reference_status": "MISSING_APPROVED_VISUAL_REFERENCE"
+    },
+    {
+      "id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "name": "Bridge at the Mountain Lake",
+      "canon_status": "PROVISIONAL_CANON",
+      "physical_zone": "Upper Valleys and Foothills",
+      "terrain": [
+        "rolling uplands",
+        "mixed forest",
+        "pasture",
+        "defensible ridges"
+      ],
+      "persistent_landmarks": [
+        "stone bridge",
+        "lake",
+        "jump point"
+      ],
+      "feature_handles": [
+        "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::STONE-BRIDGE",
+        "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::LAKE",
+        "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::JUMP-POINT"
+      ],
+      "current_world_state": [
+        "Week 3 decision landmark",
+        "structurally intact unless later evidence changes it"
+      ],
+      "horizon_constraints": [
+        {
+          "observer_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+          "direction": "east-northeast",
+          "visible_landmarks": [
+            "eastern ridgeline"
+          ],
+          "not_guaranteed": [
+            "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+          ],
+          "rule": "base may be hidden by intermediate ridge; do not force into every frame"
+        }
+      ],
+      "environment_reference_status": "MISSING_APPROVED_VISUAL_REFERENCE"
+    },
+    {
+      "id": "LOC-LEAGUE-ARCHIVE",
+      "name": "League Archive",
+      "canon_status": "INTERPRETIVE_CANON",
+      "physical_zone": "Central River Basin",
+      "terrain": [
+        "broad river valleys",
+        "fertile lowlands",
+        "bridge corridors"
+      ],
+      "persistent_landmarks": [
+        "record halls",
+        "ledger vaults",
+        "courier court"
+      ],
+      "feature_handles": [
+        "SUB::LOC-LEAGUE-ARCHIVE::RECORD-HALLS",
+        "SUB::LOC-LEAGUE-ARCHIVE::LEDGER-VAULTS",
+        "SUB::LOC-LEAGUE-ARCHIVE::COURIER-COURT"
+      ],
+      "current_world_state": [],
+      "horizon_constraints": [],
+      "environment_reference_status": "MISSING_APPROVED_VISUAL_REFERENCE"
+    }
+  ],
+  "story_sites": [
+    {
+      "matchup": "ObiWan Jacoby vs The LLC",
+      "anchor_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "working_subsite_name": "Ridge Gate",
+      "story_reminder": "Obi destroys the first Imperial battery, makes a second ridge counterattack, then holds the inner approach under sustained fire from the single remaining battery and troops.",
+      "existing_anchor": "High ridge and war-room overlook in the Upper Valleys. Eastern Ascent links to the Mountain Lake Bridge.",
+      "new_proposal": "A defensible outer gate below the established war-room overlook: a main causeway, a narrow ridge flank, and a sheltered inner arch. These architectural specifics are new staging proposals, not currently registered landmarks.",
+      "depth": {
+        "approach": "The road climbs through exposed mixed-forest upland toward the high ridge.",
+        "threshold": "A worn gate arch separates exposed approach from sheltered base space.",
+        "action_ground": "Causeway and ridge flank visibly converge toward one temporary command platform; two batteries are established before one is destroyed.",
+        "background": "The existing high ridge and war-room overlook remain stable; avoid importing D0nkey's castle.",
+        "scale": "Troop files, handrails, gate masonry and the separately sheltered retriever establish scale. Repeated rock cuts anchor wide, medium and close views."
+      },
+      "lighting": {
+        "base": "Cold late-day sky lights exposed stone from the open side of the approach.",
+        "practicals": "Warm sheltered gate lanterns; green blade and red volleys create transient reflected color; burning first emplacement becomes a fixed warm source after its destruction.",
+        "continuity": "The destroyed battery stays dark/fire-lit and the second remains the sole active heavy emplacement. Smoke must drift consistently through the ridge cut."
+      },
+      "memo_connections": [
+        "An intact Mountain Lake Bridge landscape can introduce the upland network without promising a visible base.",
+        "Use a returning green/red reflection or burned-paper edge only as editorial motif; do not show battle damage at the bridge."
+      ],
+      "carry_in": "Week9 golf defeat remains character history; no belt for Obi. LLC returns to his suit.",
+      "carry_out_candidate": "Scorched local approach and a wrecked temporary battery could remain episode consequences; permanent gate destruction or ownership transfer is not selected.",
+      "status": "BRAINSTORM_PROPOSAL_WITHIN_EXISTING_ANCHOR"
+    },
+    {
+      "matchup": "Dr. Duckhook vs His Majesty's Blood",
+      "anchor_id": "LOC-COUNTRY-CLUB-JACKSON",
+      "working_subsite_name": "Clubhouse Celebration Veranda",
+      "story_reminder": "A strong opening club parry makes it a powerhouse clash; repeated HMB pressure drives Duck over a low rail directly into the birthday cake table, in front of his guests.",
+      "existing_anchor": "Clubhouse, golf grounds and water hazards in the Southern Wetlands; visible wetland tree line and levee route. The governing state retains Week3 chili contamination and unresolved cleanup.",
+      "new_proposal": "Deepen a covered clubhouse veranda into a consistent hospitality stage: a low presentation platform, a side service route, a rail and a cake table with locked casters. Choose these as local sub-site features, not a new resort.",
+      "depth": {
+        "approach": "Guests and arrivals move along the levee-side club approach, with nearby maintained grounds separating it from wild wetland.",
+        "threshold": "Covered veranda and open terrace establish the transition between hospitality and exposure.",
+        "action_ground": "The retreat line runs from sword/club clash to the already visible rail, with the stationary cake table directly beyond it.",
+        "background": "Club facade, golf grounds, water-hazard reflections and wetland tree line; Mud Dogs' specific swamp is not automatically visible.",
+        "scale": "Doorways, chair spacing, cake tiers and anonymous guests show the platform's human scale; HMB's stance carries dominance."
+      },
+      "lighting": {
+        "base": "Warm late-afternoon daylight from the veranda's open side; shade beneath the roof gives dimensional contrast.",
+        "practicals": "Birthday lanterns and candles add warm accents; polished club metal, cake icing and HMB armor catch the same light.",
+        "continuity": "HMB can cast a local shadow through physical occlusion. His entrance does not need to cause a regional storm or turn daytime into night."
+      },
+      "memo_connections": [
+        "A Delta Causeway landscape can link the wetland chapter to the club, via the route's registered Mire Hill connection.",
+        "Opening Drive can anticipate a celebration overturned; Commissioner copy can discuss competitive memory without claiming attendance or private dialogue."
+      ],
+      "carry_in": "Week9 club/golf image is a newer scene overlay; keep the older chili-cleanup question explicit rather than assuming the entire estate was restored.",
+      "carry_out_candidate": "Cake wreckage and tipped party furniture remain a local event aftermath, not destroyed club ownership.",
+      "status": "BRAINSTORM_PROPOSAL_WITHIN_EXISTING_ANCHOR"
+    },
+    {
+      "matchup": "Mud Dogs vs Slob on my Dobb",
+      "anchor_id": "LOC-MUD-DOGS-SWAMP",
+      "working_subsite_name": "Rootbank Crossing",
+      "story_reminder": "Slob stops the first charge with the keg, advances through every attempted answer, and leaves Mud below the high bank. The continuous retreat tracks tell the scale of domination.",
+      "existing_anchor": "Mud channels and raised ground in the Southern Wetlands. Falls Path connects to TDS's temple; Delta Causeway connects toward the Country Club through Mire Hill.",
+      "new_proposal": "Choose one raised natural berm beside a shallow feeder channel, with a large exposed root and an old approach rut. The specific root and fixed action path become proposed repeated scene anchors.",
+      "depth": {
+        "approach": "A foot/wetland route passes from reed cover onto firmer raised ground.",
+        "threshold": "The first exposed root marks the boundary between footing that holds and mud that gives.",
+        "action_ground": "A continuous length of berm supports Slob's feet while Mud is pushed toward churned shallows.",
+        "background": "Cypress-like wetland trunks, reeds and slow channels, without a new fortress or dry stadium.",
+        "scale": "Paw furrows, keg diameter, grounded feet and knee-high reeds reveal the same terrain at every camera distance."
+      },
+      "lighting": {
+        "base": "Low warm light enters through a real opening in the canopy, preserving the region's warm humid character.",
+        "practicals": "Open-channel reflections provide cool fill beneath the bodies; no unexplained spotlight or nationwide frost.",
+        "continuity": "The canopy opening and water reflections remain on consistent frame sides as the camera moves along the action axis."
+      },
+      "memo_connections": [
+        "Falls Path offers a genuine landscape transition from the temple chapter to the swamp.",
+        "A later causeway vista can contrast untamed channels with the Country Club's controlled wetlands."
+      ],
+      "carry_in": "Retain the separate Week9 bogged-rig/racing-rut overlay; do not show an unexplained recovered racing vehicle.",
+      "carry_out_candidate": "Deeper tracks and churned mud are plausible local aftermath; no new permanent course or reclaimed territory.",
+      "status": "BRAINSTORM_PROPOSAL_WITHIN_EXISTING_ANCHOR"
+    },
+    {
+      "matchup": "Three Dreaded Snake vs Seven Deadly Chins",
+      "anchor_id": "LOC-TDS-WATERFALL-TEMPLE",
+      "working_subsite_name": "Sheltered Court",
+      "story_reminder": "Chins strikes metal, permits a hopeful pause, then reaches for the horn and starts the encore. Three heads express three versions of a new father's frustration.",
+      "existing_anchor": "Waterfall, temple stone and dense vegetation in the Southern Wetlands. Chins can arrive via the Western Range, Chili Stable and shared March; Falls Path continues toward Mud.",
+      "new_proposal": "A sheltered outer temple court separated from the family interior by one heavy threshold. Proposed stone return walls and a screened interior make the newborn scene acoustically plausible without drawing the baby.",
+      "depth": {
+        "approach": "The path through dense vegetation meets worn temple steps and the outer court.",
+        "threshold": "A closed inner door separates public guest space from the private family room.",
+        "action_ground": "Barrel, lids, hammer and handcart stay on the outer court; one clear line links Chins's deliberate gesture to the father's reaction.",
+        "background": "The waterfall remains a distant, steady environmental presence behind vegetation and stone, not a crashing jet immediately beside the sleeping room.",
+        "scale": "Door size, steps, handcart and the single shared body ground the three-head expressions; no three independent fathers."
+      },
+      "lighting": {
+        "base": "Cool daylight reflected from spray and foliage lights the outer stone.",
+        "practicals": "A narrow warm glow from the protected family threshold provides a visual emotional anchor.",
+        "continuity": "The sudden percussive noise cuts through the established steady waterfall ambience; the brief pause is a character beat, not literal total silence across a waterfall."
+      },
+      "memo_connections": [
+        "Falls Path can carry the sound motif into a landscape breath before Mud–Slob.",
+        "The newborn is commissioner context, not a reason to portray or name a real child or imply Pittsy's Book has reopened."
+      ],
+      "carry_in": "Chins arrives on foot with carried props; his truck's Week9 problem is not silently repaired.",
+      "carry_out_candidate": "Displaced lids and noise linger; no damaged nursery, injured baby or destroyed temple.",
+      "status": "BRAINSTORM_PROPOSAL_WITHIN_EXISTING_ANCHOR"
+    },
+    {
+      "matchup": "Red Leopards vs El Niño",
+      "anchor_id": "LOC-RED-RUINS",
+      "working_subsite_name": "Windward Banner Terrace",
+      "story_reminder": "Red recognizes the opponent who ended the 13–1 championship run; his overcareful repairs fail under cold gusts, and he retreats to high stone with the fear of repetition.",
+      "existing_anchor": "Permanent jungle ruins and predator banners on the Eastern Forest and Storm Coast; Rain Escarpment Road connects to the Mountain Lake Bridge.",
+      "new_proposal": "Deepen the published Week9 terrace into a repeatable bowl: damaged goal, partially braced field edge, narrow stone exit and high viewing perch. These are episode-continuity features, not automatically an approved new stadium.",
+      "depth": {
+        "approach": "An existing forest-grade approach emerges into storm-exposed ruin country.",
+        "threshold": "A constricted broken stone entrance opens the intimate field to the larger weather front.",
+        "action_ground": "One damaged terrace carries the goal, two failing repair points and a continuous escape to the high perch.",
+        "background": "Dense coastal forest, broken masonry and storm cloud; no replacement alpine castle or invented visible shoreline required.",
+        "scale": "Goal frame, broken boards, stepped masonry and the banner pole keep Red's vulnerability legible in an increasingly wide image."
+      },
+      "lighting": {
+        "base": "A localized cold November front brings flat overcast light and hard crosswind; remaining color drains as the scene progresses.",
+        "practicals": "Minimal practical warmth; frost picks out exposed stone and metal, with Red's crimson and a torn banner retaining the strongest color.",
+        "continuity": "Choose the storm's local footprint deliberately. Do not freeze the tropical/wetland chapters or announce a Commonwealth-wide apocalypse without downstream world consequences."
+      },
+      "memo_connections": [
+        "A Bridge/Rain Escarpment landscape can connect the old loss's memory with the current physical region.",
+        "Opening Drive should frame fear of a repeated collapse; playoff departments cannot convert that feeling into an unsupported elimination."
+      ],
+      "carry_in": "Keep Week9 terrace damage and the unverified truck recovery separate from the much older 2022 competitive memory.",
+      "carry_out_candidate": "Failed temporary repairs and stripped foliage; no chosen permanent collapse of Red's home or new eliminated status.",
+      "status": "BRAINSTORM_PROPOSAL_WITHIN_EXISTING_ANCHOR"
+    },
+    {
+      "matchup": "The Chili Cheesers vs D0nkey K0ng",
+      "anchor_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "working_subsite_name": "Compact Grand Ring",
+      "story_reminder": "Chili stages a public demonstration; the four-legged Arsenal centaur blocks the cast, reverses the rope's force, then deliberately hogties him where the entire crowd can see.",
+      "existing_anchor": "Registered provisional neutral grounds in the Central Basin: open ceremonial field, arbiter pavilion and arrival roads. Both participants have verified multi-hop access.",
+      "new_proposal": "Transform the existing field with temporary timber stands, a muddy ring, holding rails and an unobstructed central performance area. The giant rodeo is event dressing first, not an already permanent stadium.",
+      "depth": {
+        "approach": "Two existing arrival-road directions feed the event queue, wagon parking and holding area; do not claim exact road bearings.",
+        "threshold": "A broad public entry leads past the arbiter pavilion into the temporary arena.",
+        "action_ground": "The center ring, continuous competition rope and two combatants create the clear axis; the Dark Horse's holding gate remains separate.",
+        "background": "Rising spectators, pavilion roof and flags establish crowd scale without importing either owner's home skyline.",
+        "scale": "Ordinary spectators, rail height, barrels, the separate horse and four planted centaur hooves establish believable scale; avoid exact invented seat counts."
+      },
+      "lighting": {
+        "base": "Cold late-afternoon Basin skylight gives mud and bodies clear shape.",
+        "practicals": "Warm perimeter braziers or lantern standards pick out the crowd and wet ground; practical locations remain fixed as the camera circles the permitted axis.",
+        "continuity": "The same gate, pavilion, grandstand curve and shadow direction recur. Mud can be prepared arena footing or local recent damp, not evidence that Red's storm flooded the Basin."
+      },
+      "memo_connections": [
+        "Place an earlier scoreboard/arrival landscape at the same arbiter pavilion so the later roar belongs to somewhere already seen.",
+        "The crowd becomes an issue-wide witness motif; publicity is carried by people and records, not a magical global broadcast."
+      ],
+      "carry_in": "Chili's Week9 cookout confidence and DK's arena success motivate behavior; neither transfers a championship belt or horse.",
+      "carry_out_candidate": "Trampled ring and humiliated outlaw; no ownership change. Existing Grand Fairgrounds is an optional future candidate if Jake wants a permanent major festival venue later.",
+      "status": "BRAINSTORM_PROPOSAL_WITHIN_EXISTING_ANCHOR"
+    }
+  ],
+  "inklings_review": {
+    "method_scope": "Applies the project’s Tolkien historical/material-continuity method and Lewis meaning/consequence method. No real authors were contacted; this is not an authenticated workshop-runtime certification or prose imitation.",
+    "implications": [
+      {
+        "lens": "Tolkien method — a place should exert pressure",
+        "finding": "The most useful depth is inside the existing home, not a new named city. Ridge exposure enables and defeats Obi’s second attempt; a low rail ruins the precisely arranged birthday; hard temple stone makes malicious rhythm matter; raised swamp ground records Slob’s dominance; the banner ledge exposes Red’s memory; the ceremonial field turns spectators into the mechanism of Chili’s embarrassment."
+      },
+      {
+        "lens": "Lewis method — identify what each character wants to preserve",
+        "finding": "Obi guards a threshold, Duckhook an occasion, Mud the usefulness of knowing his home, TDS a few minutes of peace, Red his belief that this season can be different, and Chili his public command of a crowd. These desired things make the same large score margins produce six different consequences."
+      },
+      {
+        "lens": "Combined — one world through travel, matter and news",
+        "finding": "Use connected roads, differentiated local materials and believable institutional interpretation. Do not put every encounter under the same sky, make a horn audible across regions, or transport the actual rope/cake/lantern into a department without an intervening action. A match cut can rhyme two materials without asserting that they are the same object."
+      }
+    ],
+    "stories": [
+      {
+        "matchup_id": "W10-M06",
+        "matchup": "ObiWan Jacoby vs. The LLC",
+        "working_scene_title": "Unlimited Firepower",
+        "story_reminder": "An explosive Imperial assault strikes ObiWan’s mountain approach. He destroys the first of two batteries, then attacks along the ridge toward the suited commander; the surviving battery and established troops overwhelm that second answer in the current leading-result branch.",
+        "emotional_core": "ObiWan guards access to his home and the dignity of answering force with skill. LLC wants the scale of his resources to make the old narrow victory feel irrelevant. The hero’s two attempts must change the ground before they fail.",
+        "historical_memory": "The verified 2024 Week 12 LLC win by 0.80 gives the present contest a memory of narrow margins. This is not a flashback and not an old-season elimination claim.",
+        "atlas_root": {
+          "location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+          "anchor_status": "PERMANENT_CANON",
+          "region": "Upper Valleys",
+          "feature_handles": [
+            "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::HIGH-RIDGE",
+            "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::WAR-ROOM-OVERLOOK"
+          ],
+          "route_note": "LLC’s established approach runs from the Inner Sea city through the League Chamber and Mountain Lake bridge to the Eastern Ascent. It supports arrival, not a new claim about travel duration."
+        },
+        "proposed_sub_site": {
+          "working_name": "The apron beneath the high ridge",
+          "status": "BRAINSTORM_SCENE_SUBSITE_WITHIN_EXISTING_ANCHOR",
+          "description": "Place the existing three-beat causeway and inner arch immediately below the registered high ridge, with the war-room overlook higher in the same mass of stone. The approach narrows before the arch, but the ridge still offers ObiWan a visible second route. The command platform stays across the causeway; no extra fortress, tunnel or city is introduced."
+        },
+        "environmental_opportunity": "Elevation creates tactical exposure. A low camera can show the ridge route above the first battery’s wreck, so the reader understands why Obi tries it. Chips, sparks and displaced loose stone register impacts; the mountain itself does not have to collapse. The sheltered retriever makes the defended space personal without entering the firing line.",
+        "light": {
+          "ambient": "Cold high-valley daylight falling toward late afternoon; exposed stone stays blue-grey rather than becoming a generic black stage.",
+          "practical_sources": [
+            "ObiWan’s green blade as a moving near light",
+            "Red blaster fire from the one surviving battery and troops",
+            "Orange fire from the first battery’s established wreck"
+          ],
+          "progression": "At first the green return shot cuts a clean path through red fire. The ridge attack catches alternating blade and muzzle light. By the arch, the surviving battery keeps lighting the scene after LLC lowers his hand. That persistence is the power statement."
+        },
+        "escalation_and_consequence": [
+          "The first return shot destroys a specific emplacement and opens a real route.",
+          "Obi’s ridge attack reaches threatening distance, forcing LLC’s visible command response.",
+          "Both routes remain readable in the ending: one broken battery, one suppressed flank, Obi still resisting at the arch. Local debris is a proposed episode consequence; home ownership and permanent access do not change."
+        ],
+        "department_connections": [
+          {
+            "department": "Sports Desk",
+            "connection": "The narrative image of sustained force gives the desk’s verified multiple-player production a visual antecedent. Do not invent an NFL cause for the fictional battery fire."
+          },
+          {
+            "department": "The Roads Between / Next Six",
+            "connection": "The Eastern Ascent and the Mountain Lake connector remain believable routes before and after this encounter. Do not imply the birthday party happened during HMB’s passage through this route, or that the chamber can see the explosions."
+          }
+        ],
+        "pass2_alternatives": [
+          {
+            "name": "The breach below the overlook",
+            "proposal": "Emphasize the elevation ladder: Obi low and near, the attack along the ridge above, LLC beyond. The second assault feels like climbing into a machine that never runs out of fire.",
+            "tradeoff": "Strongest epic scale; keep distances compact enough for the commander’s response to read."
+          },
+          {
+            "name": "The arch becomes the last line",
+            "proposal": "Give more recurring visual weight to the arch and the protected retriever, making every advance and retreat measurable against the same defended threshold.",
+            "tradeoff": "Stronger personal stakes; retain the two aggressive counterattacks so protection does not become a passive siege."
+          }
+        ]
+      },
+      {
+        "matchup_id": "W10-M05",
+        "matchup": "Dr. Duckhook vs. His Majesty’s Blood",
+        "working_scene_title": "Many Unhappy Returns",
+        "story_reminder": "A formidable birthday host counters HMB’s first sword strike with his golf club. Sustained pressure drives him over an established low rail and directly through the stationary cake table while guests witness the collapse.",
+        "emotional_core": "Duckhook has tried to make one afternoon completely orderly and his own. HMB takes the intended applause as well as the ground. The birthday props turn the old pain of a close defeat into an occasion-specific public humiliation.",
+        "historical_memory": "Austin’s documented earlier team, The Immortal, beat Duckhook by 0.40 in the 2025 semifinal. The memory makes the host’s exactness and loss of composure personal; it does not authorize a real quoted toast or invented age.",
+        "atlas_root": {
+          "location_id": "LOC-COUNTRY-CLUB-JACKSON",
+          "anchor_status": "PERMANENT_CANON",
+          "region": "Southern Wetlands",
+          "feature_handles": [
+            "SUB::LOC-COUNTRY-CLUB-JACKSON::CLUBHOUSE",
+            "SUB::LOC-COUNTRY-CLUB-JACKSON::GOLF-GROUNDS"
+          ],
+          "route_note": "The registered Delta Causeway connects the club to the basin through Mire Hill. The building can feel cultivated and sheltered within wetland country without becoming a new royal palace."
+        },
+        "proposed_sub_site": {
+          "working_name": "The birthday apron on the veranda",
+          "status": "BRAINSTORM_TEMPORARY_EVENT_DRESSING",
+          "description": "Use the clubhouse veranda edge facing the golf grounds. A temporary presentation platform, its low rail and the braked cake table occupy a short retreat line already established in the current action. Guest clusters remain to either side, with their view of the host unobstructed. The clubhouse and course supply depth beyond the party."
+        },
+        "environmental_opportunity": "The club’s controlled surfaces are what make the mess satisfying: polished wood or stone, white frosting, neat ribbons and formal green clothing. One streamer caught on HMB’s shoulder could persist through the payoff as an absurdly small birthday mark on the dominant champion. That is proposed dressing, not a belt transfer or permanent costume change.",
+        "light": {
+          "ambient": "A pleasantly lit late-autumn afternoon across the greens, warmer and more sheltered than the exposed eastern ruins. HMB’s presence changes the local contrast without generating a realm-wide storm.",
+          "practical_sources": [
+            "Warm clubhouse lamps visible through windows or an open doorway",
+            "Small cake candles before the collision",
+            "Low sun reflected from the veranda and pale frosting"
+          ],
+          "progression": "The opening gives the host a generous, celebratory light. HMB’s mass and cloak interrupt it during the exchanges. The ending keeps the party light alive around the wreckage, making the embarrassment bright and witnessed rather than hiding it in darkness."
+        },
+        "escalation_and_consequence": [
+          "Duckhook’s first block earns genuine respect from the surrounding party.",
+          "HMB’s repeated pressure consumes the exact space the host arranged for his presentation.",
+          "Heel meets rail; body meets cake; stationary table buckles. The guests inherit the ruined occasion. HMB’s retained belt and Duckhook’s club remain recognizable."
+        ],
+        "department_connections": [
+          {
+            "department": "Sports Desk",
+            "connection": "The contrast between Duckhook’s impressive counter and HMB’s repeated answers prepares the distinction between one great starter and broad scoring production."
+          },
+          {
+            "department": "Final Word",
+            "connection": "The remembered cake and stubbornly cheerful ribbon are sufficient narrative callbacks. Do not transport the ruined table into the League Chamber as an unexplained trophy."
+          }
+        ],
+        "pass2_alternatives": [
+          {
+            "name": "The interrupted presentation",
+            "proposal": "Let the empty place where the host expected his birthday recognition stay visible through all three beats; HMB finishes occupying it.",
+            "tradeoff": "Most personal public humiliation, with stronger crowd eyelines and little need for extra props."
+          },
+          {
+            "name": "The party keeps trying to continue",
+            "proposal": "After each clash a harmless party detail persists—a ribbon sways, candles gutter, guests still hold their celebration posture—until the cake collision ends the pretence.",
+            "tradeoff": "More comedy from timing; keep the action forceful enough that the powerhouse clash remains convincing."
+          }
+        ]
+      },
+      {
+        "matchup_id": "W10-M04",
+        "matchup": "Mud Dogs vs. Slob on my Dobb",
+        "working_scene_title": "No Close Finish",
+        "story_reminder": "Slob meets the home hound’s first charge behind his keg and advances through every attempted answer. By the finish he holds the high bank while deep paw furrows reveal how far Mud has been forced backward.",
+        "emotional_core": "Mud knows this terrain and expects belonging to count for something. Slob’s superiority is humiliating because it makes that local knowledge insufficient at every exchange. The hound stays fierce; the visitor does not need a late trick.",
+        "historical_memory": "The verified 2025 Week 17 losers-consolation meeting was a 3.15-point Slob win. This week’s metaphor should make the absence of another close argument visible.",
+        "atlas_root": {
+          "location_id": "LOC-MUD-DOGS-SWAMP",
+          "anchor_status": "PERMANENT_CANON",
+          "region": "Southern Wetlands",
+          "feature_handles": [
+            "SUB::LOC-MUD-DOGS-SWAMP::RAISED-GROUND",
+            "SUB::LOC-MUD-DOGS-SWAMP::MUD-CHANNELS"
+          ],
+          "route_note": "Slob’s established route comes down through Mountain Lake, the central basin and Mire Hill. His arrival can carry road mud; it does not retrieve Mud’s previously bogged rig."
+        },
+        "proposed_sub_site": {
+          "working_name": "The root choke at the raised bank",
+          "status": "BRAINSTORM_SCENE_SUBSITE_WITHIN_EXISTING_ANCHOR",
+          "description": "Concentrate the contest where the current exposed root and old racing rut pinch the approach between a firm berm and a shallow channel. The key is not a new bridge: it is the limited strip of supported ground each contestant must occupy. Preserve the familiar rut instead of resetting the swamp to pristine terrain."
+        },
+        "environmental_opportunity": "Deep peat, hanging moss and root-polished mud distinguish this place from the rodeo’s churned basin loam. Paw furrows remain as a continuous record. The hound tries the route a local creature would know, then the softer edge, then the gap beside the keg; each attempt leaves him lower or farther back.",
+        "light": {
+          "ambient": "Low autumn sun enters through a break in reeds and canopy; the wetland air is cool, but the thin light is amber. This is local shelter, not the opposite season.",
+          "practical_sources": [
+            "Sunlight catching the keg’s steel rim",
+            "Soft reflected light from the shallow channel",
+            "Dark canopy providing natural mass behind the figures"
+          ],
+          "progression": "The first impact shows rim light on both contestants. As Slob advances he stays on supported, intermittently lit ground; Mud is pushed into lower, darker churn. The ending makes the height and light difference legible without turning the hound into a silhouette."
+        },
+        "escalation_and_consequence": [
+          "The first charge produces retreat marks immediately.",
+          "Every resistance changes the same ground; root, rut and bank give the reader a physical measure.",
+          "The high bank belongs to Slob for this encounter. Mud remains intact below, and the old terrain remains the host’s home rather than a newly conquered realm."
+        ],
+        "department_connections": [
+          {
+            "department": "Scoring Form",
+            "connection": "The repeated impression of weight can echo in the institution’s material vocabulary—iron, substantial wood and used surfaces—while the department’s actual order still comes from its defined calculation."
+          },
+          {
+            "department": "The Roads Between",
+            "connection": "Peat and slow channels offer a truthful southern endpoint to the basin routes. The transition can follow a route, not teleport the exact keg or hound into another scene."
+          }
+        ],
+        "pass2_alternatives": [
+          {
+            "name": "The shrinking strip of firm ground",
+            "proposal": "Make the narrowing bank the visible argument. Slob keeps occupying it while each Mud response must use a worse foothold.",
+            "tradeoff": "Clearest continuous domination and terrain logic; avoid making the bank so narrow that four paws or two feet cannot plausibly fit."
+          },
+          {
+            "name": "The long retreat through the old rut",
+            "proposal": "Use a longer view along the familiar racing damage, with the furrows connecting all three beats like a physical history of the encounter.",
+            "tradeoff": "Stronger measure of scale and prior-week continuity; preserve enough close contact to feel each stopped charge."
+          }
+        ]
+      },
+      {
+        "matchup_id": "W10-M03",
+        "matchup": "Three Dreaded Snake vs. Seven Deadly Chins",
+        "working_scene_title": "An Encore Nobody Ordered",
+        "story_reminder": "A new father nearly gets the baby to sleep. Chins attacks the temple’s quiet with metal percussion, grants a hopeful pause, then reaches for the air horn and performs an encore while three heads respond with different kinds of frustration.",
+        "emotional_core": "Three heads that disagree about everything can briefly agree on the need for quiet. Chins recognizes precisely what the host values and enjoys making himself impossible to ignore. The target of the joke is the adults’ behaviour, not the child.",
+        "historical_memory": "TDS won both retrieved 2025 meetings. That gives the visitor a fictional revenge flavour, while the baby milestone comes from Jake and the prior memo, not fantasy performance.",
+        "atlas_root": {
+          "location_id": "LOC-TDS-WATERFALL-TEMPLE",
+          "anchor_status": "PERMANENT_CANON",
+          "region": "Wet southern/escarpment country",
+          "feature_handles": [
+            "SUB::LOC-TDS-WATERFALL-TEMPLE::TEMPLE-STONE",
+            "SUB::LOC-TDS-WATERFALL-TEMPLE::WATERFALL",
+            "SUB::LOC-TDS-WATERFALL-TEMPLE::DENSE-VEGETATION"
+          ],
+          "route_note": "Chins can arrive on foot by the road commons, Chili Stable and the TDS–Chili Shared March. No truck is restored and no new road is needed."
+        },
+        "proposed_sub_site": {
+          "working_name": "The listening step outside the family door",
+          "status": "BRAINSTORM_DETAIL_WITHIN_EXISTING_TEMPLE_APPROACH",
+          "description": "Set the shared body on a recessed outer landing at the already established closed door. Waterfall remains back-left; dense plants and temple stone create shelter on the dry approach. Chins places the barrel on the hard stone just outside that protected recess. Treat the recess as scene depth, not an approved new temple wing."
+        },
+        "environmental_opportunity": "The waterfall solves a potential contradiction: its steady sound can be what the baby was settling to. Chins’s sharp, irregular metal and horn interrupts that predictable wash. The room needs no supernatural silence. Three heads track three sounds—the door, the visitor and the waterfall—while one body cannot be in three places.",
+        "light": {
+          "ambient": "Cool shade under wet vegetation and cascade light; the outer stone catches soft reflected daylight.",
+          "practical_sources": [
+            "A narrow warm line of lamplight beneath the closed family door",
+            "Daylight reflected from moving waterfall spray",
+            "Brief highlights on hammer, barrel and horn"
+          ],
+          "progression": "The warm doorway stays steady through the scene, a small constant worth protecting. Chins’s motion changes the hard glints outside. The pause allows the three expressions to soften unevenly before the next metallic flash and noise."
+        },
+        "escalation_and_consequence": [
+          "An established, continuous natural sound gives the first clang a meaningful contrast.",
+          "Chins’s pause raises genuine hope; TDS’s heads disagree about whether to trust him.",
+          "The horn and rolling percussion break that hope. The baby stays offscreen; family safety, temple integrity and Pittsy’s Book operating status remain separate."
+        ],
+        "department_connections": [
+          {
+            "department": "Moves / Reserve Watch",
+            "connection": "A thematic link can distinguish who is available to act from who remains offstage. Any roster information still stays exact; the scene never claims parenting caused the fantasy result."
+          },
+          {
+            "department": "Pittsy’s Book, if used",
+            "connection": "The new-family context can remain emotionally present without showing a closure sign or implying a reopening. The department stays absent unless there is actual new content."
+          }
+        ],
+        "pass2_alternatives": [
+          {
+            "name": "The steady waterfall, the malicious rhythm",
+            "proposal": "Make the sound contrast central: soft regular water, one clang, real quiet, then deliberately irregular horn and lid strikes.",
+            "tradeoff": "Most specific to this home and easiest to understand without exposing the baby."
+          },
+          {
+            "name": "The stone landing as an amplifier",
+            "proposal": "Chins notices how a lid rattles against the hard stone and repeats it with increasing delight, while the three heads each attempt a different adult response.",
+            "tradeoff": "More physical comedy; do not create magical acoustics or turn the entire temple into a musical machine."
+          }
+        ]
+      },
+      {
+        "matchup_id": "W10-M02",
+        "matchup": "Red Leopards vs. El Niño",
+        "working_scene_title": "That Cold Again",
+        "story_reminder": "At his damaged home pitch, Red recognizes the opponent who ended his old championship run. Cold November gusts strip the repairs and remaining autumn colour while he tries to save each failing brace. He ends above the approach, watching the same opponent below.",
+        "emotional_core": "Red fears not just losing a match but being the person who watched another promising season slip away. Overcareful repair is his attempt to refuse that pattern. Niño’s unhurried advance makes recognition more painful than a generic angry storm.",
+        "historical_memory": "The 2022 semifinal ended Red’s 13–1 run after he had twice beaten Niño during the regular season. Current grief is a character perspective; it is not proof of 2026 elimination.",
+        "atlas_root": {
+          "location_id": "LOC-RED-RUINS",
+          "anchor_status": "PERMANENT_CANON",
+          "region": "Eastern Storm Coast escarpment",
+          "feature_handles": [
+            "SUB::LOC-RED-RUINS::JUNGLE-RUINS",
+            "SUB::LOC-RED-RUINS::PREDATOR-BANNERS"
+          ],
+          "route_note": "Niño reaches Red through the registered storm-coast, basin and rain-escarpment connections. The proposal is a local exposed encounter, not a declared storm propagating across the entire subcontinent."
+        },
+        "proposed_sub_site": {
+          "working_name": "The banner ledge above the broken pitch",
+          "status": "BRAINSTORM_SCENE_SUBSITE_WITHIN_EXISTING_RUINS",
+          "description": "Use the current high predator perch and damaged terrace as one stepped location: goal left, repairs below, narrow stone escape right, forest approach beyond. Put the persistent predator banner where it can strike the wall beside Red at the end. The nickname describes this episode’s viewpoint; it is not a new Atlas site."
+        },
+        "environmental_opportunity": "Make the exposed upper lip feel stripped and hostile while dark dense vegetation persists below the escarpment. That preserves the registered jungle-ruin identity instead of changing the whole biome into a frozen wasteland. Frost takes the exposed fastenings and stone, wind removes the brittle canopy near the pitch, and old ruts remain. Niño keeps his humanoid identity with restrained elemental light; the action mechanism is cold gusts, not rising floodwater.",
+        "light": {
+          "ambient": "A flat cold front erases direct sun at the exposed terrace. Pale sky provides low, hard-to-escape illumination; the hollow below remains darker.",
+          "practical_sources": [
+            "A small sheltered repair lantern, proposed temporary dressing",
+            "Restrained blue and orange identity glow on the embodied El Niño",
+            "Cold sky reflection on frost and wet old stone"
+          ],
+          "progression": "The repair lantern can begin as a small remaining warm point. Failed repairs expose it to gusts; its warmth dwindles or is occluded as Red climbs. The final red banner and red-spotted face carry the colour the landscape has lost, without turning the episode into supernatural night."
+        },
+        "escalation_and_consequence": [
+          "Red checks a fastening twice before the cold front reaches him; memory changes behaviour.",
+          "He catches one brace while another fails in a different direction, exhausting control over the same small home surface.",
+          "On the high stone, the repeated banner contact makes the old pattern felt. The ruins are further scuffed locally, not permanently erased; present playoff possibility stays open."
+        ],
+        "department_connections": [
+          {
+            "department": "Reserve Watch",
+            "connection": "Absence can be felt through unused equipment and unfinished repairs as an editorial echo, while actual fantasy IR facts remain separately sourced and do not acquire invented medical meaning."
+          },
+          {
+            "department": "Road to Playoffs",
+            "connection": "The next department can answer the emotion with the remaining schedule: fear feels final, but the actual road still has fixtures. That contrast is an editorial connection rather than a magical vision appearing above the ruins."
+          }
+        ],
+        "pass2_alternatives": [
+          {
+            "name": "The last warm point",
+            "proposal": "Follow the small repair lantern across the three beats as Red tries to preserve a patch of home under the cold front.",
+            "tradeoff": "Strong emotional readability; keep the lantern subordinate to Red and Niño rather than turning the scene into a quiet still-life."
+          },
+          {
+            "name": "The banner that keeps returning",
+            "proposal": "Give the torn predator banner the repeated movement: it resists, snaps loose and returns against the stone beside Red in the ending.",
+            "tradeoff": "Stronger connection to an existing feature and less new dressing; avoid presenting it as a supernatural curse."
+          }
+        ]
+      },
+      {
+        "matchup_id": "W10-M01",
+        "matchup": "The Chili Cheesers vs. D0nkey K0ng",
+        "working_scene_title": "The Main Attraction",
+        "story_reminder": "At a giant public muddy rodeo, Chili casts the lariat, D0nkey blocks with the axe haft, grounds the axe, takes the rope and pulls the still-gripping outlaw down. He then deliberately completes the center-ring hogtie while the crowd watches.",
+        "emotional_core": "Chili wants the crowd to make his triumph permanent. D0nkey makes that same audience remember the opposite. The old opponent relationship and last week’s successful showmanship explain why Chili keeps pulling instead of letting go.",
+        "historical_memory": "Wilson’s documented Baker Moore Purdy team beat Chili in the 2025 winners-consolation bracket. It was an earlier defeat, not an invented championship elimination.",
+        "atlas_root": {
+          "location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+          "anchor_status": "PROVISIONAL_CANON_REGISTERED_NEUTRAL_ANCHOR",
+          "region": "Central River Basin",
+          "feature_handles": [
+            "SUB::LOC-COMPACT-NEUTRAL-GROUNDS::OPEN-CEREMONIAL-FIELD",
+            "SUB::LOC-COMPACT-NEUTRAL-GROUNDS::ARBITER-PAVILION",
+            "SUB::LOC-COMPACT-NEUTRAL-GROUNDS::ARRIVAL-ROADS"
+          ],
+          "route_note": "Chili approaches through the western-range/delta/basin connections; D0nkey through the highlands, Hearthroad and upper-basin connector. Both converge on Compact Grounds Road from the League Chamber. This is existing access to the provisional anchor, not a new town."
+        },
+        "proposed_sub_site": {
+          "working_name": "The center ring on the pavilion side of the field",
+          "status": "BRAINSTORM_TEMPORARY_RODEO_DRESSING_AT_PROVISIONAL_ANCHOR",
+          "description": "Build the temporary arena on the open ceremonial field, keeping the arbiter pavilion beyond the curved grandstand and the arrival roads glimpsed behind the holding gate. Chili-left/D0nkey-right remains the action axis. The Dark Horse has a distinct holding rail. The temporary stands explain the huge crowd without declaring a permanent stadium."
+        },
+        "environmental_opportunity": "Use damp basin loam churned by event traffic, visually different from Mud’s dark peat. Hoof depressions, boot skids and the rope’s drag line preserve the entire reversal. Spectators have sightlines to the center; the pavilion’s fixed silhouette prevents the background from becoming an anonymous sports bowl. Do not make the mire a downstream consequence of Red’s local cold storm.",
+        "light": {
+          "ambient": "Cold open-field afternoon with a broad sky and a low, bright horizon.",
+          "practical_sources": [
+            "Temporary arena lights mounted on event structures",
+            "Low sunlight glancing across wet loam",
+            "Warm spill from the arbiter pavilion or temporary event lamps"
+          ],
+          "progression": "The opening makes Chili’s entrance conspicuous. As he is pulled down, glancing light catches the rope and mud trajectory. At the payoff, the lights expose his face and binding to the whole arena; humiliation becomes more visible rather than disappearing into a dark puddle."
+        },
+        "escalation_and_consequence": [
+          "Chili enters a space arranged to gather attention, and the first cast commits him publicly.",
+          "D0nkey’s four-hoof base wins control of the same rope; the crowd’s response changes as Chili falls.",
+          "The binding is deliberate and visible. The outlaw becomes the attraction at the center of his expected triumph. The separate horse is safe; the arena remains temporary."
+        ],
+        "department_connections": [
+          {
+            "department": "The Roads Between / Opening",
+            "connection": "Converging known approaches make the neutral spectacle feel like an event the Commonwealth can actually reach. The crowd is anonymous and no named owner is silently placed there while fighting elsewhere."
+          },
+          {
+            "department": "Final Word",
+            "connection": "The same mud and cord materials can echo in travel wear and ordinary document ties, but the exact hogtie rope remains at the arena unless a later scene explicitly moves it."
+          }
+        ],
+        "pass2_alternatives": [
+          {
+            "name": "The judges’ side sees everything",
+            "proposal": "Use the pavilion-facing axis to make public scrutiny constant, with the crowd’s changing response visible behind each move.",
+            "tradeoff": "Strongest spectacle and humiliation; keep the arbiter pavilion an existing landmark, not an invented speaking official."
+          },
+          {
+            "name": "The entrance becomes the walk of shame",
+            "proposal": "Keep the entrance gate prominent from Chili’s confident arrival through his muddy view back toward it, while the final binding remains in center ring.",
+            "tradeoff": "Strongest before/after emotional arc; avoid moving the hogtie to a backstage pen where the public payoff would be lost."
+          }
+        ]
+      }
+    ]
+  },
+  "candidate_editorial_journey": [
+    {
+      "movement": "1 — The world is listening",
+      "content": "Cover; Bridge Opening Drive; Chamber Commissioner note; Compact scoreboard",
+      "editorial_job": "Establish the two scoring peaks, all six personal stakes and the still-open competitive picture before entering the spectacle.",
+      "change_from_current": "Opening leaves the generic dawn room; the Commissioner keeps a distinct institutional role; the scoreboard moves into the GOTW’s public landscape."
+    },
+    {
+      "movement": "2 — Public spectacle, then private recognition",
+      "content": "Chili–DK rodeo, then Red–Niño cold ruins",
+      "editorial_job": "Move from crowd laughter to the isolated burden of memory; do not play two identical humiliations in the same emotional register.",
+      "change_from_current": "Keep the broad sequence but make the sonic/light contrast intentional. An extra Bridge panorama is optional because the opening now uses that site."
+    },
+    {
+      "movement": "3 — Noise and force",
+      "content": "TDS–Chins, then Mud–Slob",
+      "editorial_job": "Escalating interruption gives way to relentless physical pressure; both use familiar home ground in different ways.",
+      "change_from_current": "Keep TDS’s quiet pauses and Mud’s sustained mismatch. A Mire Hill landscape may replace the redundant second Bridge breath."
+    },
+    {
+      "movement": "4 — What strength means",
+      "content": "Optional scoring-form transition after Mud–Slob; Duck–HMB; Sports Desk; Obi–LLC",
+      "editorial_job": "Let Slob’s surprising top form rank complicate the two-200 story; then connect birthday spectacle and mountain war through their real scoring causes.",
+      "change_from_current": "Move P29 forward from the reporting tail; move Sports Desk after the birthday if its HMB/LLC analysis earns the transition into the battle."
+    },
+    {
+      "movement": "5 — What the week changes",
+      "content": "Moves/Reserve where their causal role earns space; official standings; Realm consequences; Alpine playoff road",
+      "editorial_job": "Separate information about lineups, posted official records and conditional future pressure. Avoid a long succession of interchangeable ledgers.",
+      "change_from_current": "Moves can move earlier before TDS/Obi or remain a short aftermath. Consider merging Reserve with Sports/Moves only if its factual distinction remains clear. No page-count target."
+    },
+    {
+      "movement": "6 — The road remains",
+      "content": "Next Six; Bridge closing",
+      "editorial_job": "Return to a familiar crossing with more knowledge, then look toward new opponents instead of recapping six endings.",
+      "change_from_current": "Choose whether Next Six and Final Word need separate images; the functional distinction, not historical page count, decides."
+    }
+  ],
+  "department_site_proposals": [
+    {
+      "id": "T01",
+      "functions": [
+        "Opening Drive",
+        "Final Word"
+      ],
+      "existing_page_handles": [
+        "W10-P02",
+        "W10-P33"
+      ],
+      "candidate_site": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "feature": "stone bridge / lake / eastern ridgeline",
+      "source_facts": "The bridge is a Week 3 decision landmark and structurally intact absent later evidence. East-northeast views show the eastern ridgeline; the mountain base may be hidden.",
+      "proposal": "Bookend the issue from two purposeful perspectives at the same crossing. Open close to the stone with the lake and ridge drawing the eye outward; close facing along the crossing, with the human-scale route continuing beyond the frame. The landscape carries anticipation first and accumulated memory last.",
+      "ordinary_life": "Optional anonymous travelers keep moving across an intact shared crossing; their identities, route choices and exact attendance remain proposed background fiction.",
+      "text_and_art": "Opening words share lake mist and broad sky; final words inhabit the darkening air and reflected light. No six prop trophies, labeled map or recap thumbnails.",
+      "why_here": "This site already means a decision and has real connecting routes; the crossing makes future possibility visible without a new playoff gate.",
+      "known_limits": "The bookend is an editorial return, not proof that one narrator walked the whole issue or that all events happened between dawn and dusk.",
+      "source_ids": [
+        "BRIDGE",
+        "VISIBILITY",
+        "STATE",
+        "ROUTES"
+      ]
+    },
+    {
+      "id": "T02",
+      "functions": [
+        "Scoreboard",
+        "entry into GOTW"
+      ],
+      "existing_page_handles": [
+        "W10-P04",
+        "W10-P05"
+      ],
+      "candidate_site": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "feature": "arbiter pavilion overlooking open ceremonial field",
+      "source_facts": "The site is PROVISIONAL_CANON, connected to the Chamber by Compact Grounds Road; pavilion, ceremonial field and arrival roads are registered.",
+      "proposal": "Let the exact six-matchup board be a temporary event display at the pavilion edge, seen across ground already being used for the rodeo. The crowd scale and churned approach lead naturally to the next story.",
+      "ordinary_life": "Proposed unnamed event attendants and arriving spectators give a public reason for a league-wide board; no claim of twelve owners attending.",
+      "text_and_art": "One material display under the pavilion light, with uninterrupted field depth and weather; the headline belongs to that same public event image.",
+      "why_here": "The numbers orient the reader inside the spectacle they are about to enter, rather than in a separate reporting room.",
+      "known_limits": "The six listed games are league information, not six contests occurring at Compact. The temporary board and grandstands do not become permanent Atlas landmarks.",
+      "source_ids": [
+        "COMPACT",
+        "FACTS",
+        "STORIES"
+      ]
+    },
+    {
+      "id": "T03",
+      "functions": [
+        "Commissioner’s Note"
+      ],
+      "existing_page_handles": [
+        "W10-P03"
+      ],
+      "candidate_site": "LOC-LEAGUE-CHAMBER",
+      "feature": "registered map wall, viewed near a proposed threshold angle",
+      "source_facts": "The Chamber is PROVISIONAL_CANON; its registered physical anchors are records desk and map wall. A specific threshold design is not registered.",
+      "proposal": "Keep one quiet institutional page, but orient it toward the world: a close map-wall/threshold scene with outside basin light falling across an unsigned note. A partial figure or presence is optional, never an invented Jake portrait.",
+      "ordinary_life": "The institution is preparing to receive and communicate results. Do not invent officials, rule changes or an approved speech.",
+      "text_and_art": "The note, wall, light and receding doorway form one illustration; the words are part of the scene’s material and air.",
+      "why_here": "This is where the issue changes from who won the joke to what the league needs to carry forward.",
+      "known_limits": "Public note remains draft copy for Jake; the map must not become a literal depiction of division borders or an excuse to name hidden buildings.",
+      "source_ids": [
+        "CHAMBER",
+        "HYDRATION",
+        "FACTS"
+      ]
+    },
+    {
+      "id": "T04",
+      "functions": [
+        "Scoring-form rankings",
+        "official standings if separately justified"
+      ],
+      "existing_page_handles": [
+        "W10-P29",
+        "W10-P27"
+      ],
+      "candidate_site": "LOC-LEAGUE-ARCHIVE",
+      "feature": "courier court / Archive–Chamber Processional context",
+      "source_facts": "The Archive is INTERPRETIVE_CANON with record halls, ledger vaults and courier court. Its Processional connects it to the Chamber; no permanent exterior scoring gallery is registered.",
+      "proposal": "Give rankings an open public setting: a temporary ordered scoring record in the courier court, with the actual court extending behind and sunlight moving across the information. Keep the official table in a materially related but distinct records-hall/court view if both remain.",
+      "ordinary_life": "Anonymous couriers sorting and carrying notices can establish that league information travels. They do not deliver literal NFL players.",
+      "text_and_art": "The exact twelve names/order belong to one continuous illustrated material treatment inside a living court, not twelve software cards or a default parchment rectangle.",
+      "why_here": "The Archive distinguishes public records from boasting. The live index offers a useful surprise: Slob remains first despite the two 200-point performances.",
+      "known_limits": "Index is editorial scoring form, not official seed order, win odds or the right to occupy a literal hilltop. The gallery itself stays proposed temporary dressing.",
+      "source_ids": [
+        "ARCHIVE",
+        "FACTS",
+        "HYDRATION"
+      ]
+    },
+    {
+      "id": "T05",
+      "functions": [
+        "Sports Desk"
+      ],
+      "existing_page_handles": [
+        "W10-P18"
+      ],
+      "candidate_site": "LOC-LEAGUE-ARCHIVE",
+      "feature": "courier court as a separate camera/action from the rankings page",
+      "source_facts": "The registered court provides the institutional setting; player contributions come from the current fact packet.",
+      "proposal": "Use arrival and handling of public scoring slips as the visible activity. Let the nearest contribution lead toward the two 200-point combinations and the deeper court, rather than staging another broad desk still life.",
+      "ordinary_life": "Unnamed handling of notices is proposed fiction, with no named reporter or claimed staff meeting.",
+      "text_and_art": "Exact player facts share the papers’ perspective, surrounding stone and moving light; the illustration must remain a court scene rather than an arranged pile of report cards.",
+      "why_here": "Place this after the birthday and before the mountain battle to link HMB’s scoring cause with LLC’s coming spectacle. If the court view repeats rankings too closely, combine the factual jobs or choose a different scale in Pass 2.",
+      "known_limits": "Do not transform fantasy players into world residents or invent actual travel by professional athletes.",
+      "source_ids": [
+        "ARCHIVE",
+        "FACTS",
+        "HYDRATION"
+      ]
+    },
+    {
+      "id": "T06",
+      "functions": [
+        "Moves",
+        "possible Reserve Watch companion"
+      ],
+      "existing_page_handles": [
+        "W10-P26",
+        "W10-P25"
+      ],
+      "candidate_site": "LOC-CHINS-ROAD-COMMONS",
+      "feature": "caravan court with roadside hall / BBQ-yard context",
+      "source_facts": "The Commons is PROVISIONAL_CANON in the Central Basin, with caravan court, roadside hall and BBQ yard; Basin Market Road connects it to the Chamber.",
+      "proposal": "Move the roster business into an active interchange of notices. Use a posted completed-moves sheet at the caravan court while normal transport continues behind it. A reserve list can share the scene only if it retains its separate factual meaning.",
+      "ordinary_life": "Unidentified wagons or porters serve ordinary travel, not the literal shipment of claimed fantasy players. Chins need not be present after the temple scene.",
+      "text_and_art": "The sheet is handled or fixed to a temporary traveling notice frame; court depth, road light and ordinary movement organize the full image.",
+      "why_here": "The roster activity becomes part of a world where information and choices circulate, instead of a second archive desk.",
+      "known_limits": "Do not add a repaired Chins truck, waivers-as-sales, new player ownership lore, Pittsy prices, or a claim of Book reopening.",
+      "source_ids": [
+        "COMMONS",
+        "FACTS",
+        "HYDRATION",
+        "W9"
+      ]
+    },
+    {
+      "id": "T07",
+      "functions": [
+        "World landscape",
+        "State of the Realm"
+      ],
+      "existing_page_handles": [
+        "W10-P11",
+        "W10-P28"
+      ],
+      "candidate_site": "LOC-DK-MUD-HILL as optional alternative to the existing extra Bridge panorama",
+      "feature": "scarred hill and lower road-facing slope; existing standards below the summit",
+      "source_facts": "Mire Hill retains battlefield/yield memory and ongoing cleanup. The current state places DK’s standard below the summit and explicitly leaves the summit unclaimed. Basin Market Road and Delta Causeway connect here.",
+      "proposal": "Use the wider landscape after Mud–Slob or for the Realm page: ordinary cleanup below a still-unclaimed summit makes clear that encounter success leaves traces without granting ownership. The division account remains editorial narration in the same air.",
+      "ordinary_life": "Continuing custodial work is supported entering state; the particular workers and visible tasks are proposed staging.",
+      "text_and_art": "The landscape does the thinking: paths, scar and unclaimed height suggest unresolved competition. Avoid division territories, three giant gates or ranked characters occupying prescribed ledges.",
+      "why_here": "This gives the issue a world consequence beyond six private arenas and offers a setting where history has not reset.",
+      "known_limits": "Do not crown DK, claim Slob owns the hill, turn current seeds into physical land rights, or attach Week 10 swamp damage to this distinct site.",
+      "source_ids": [
+        "MIRE",
+        "STATE",
+        "LEDGER",
+        "HYDRATION"
+      ]
+    },
+    {
+      "id": "T08",
+      "functions": [
+        "Road to Playoffs"
+      ],
+      "existing_page_handles": [
+        "W10-P30"
+      ],
+      "candidate_site": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "feature": "base camp / existing wager marker / higher pass",
+      "source_facts": "The Alpine Wager Route is PROVISIONAL_CANON in the Northern Spine, reached through Northern Pass. Its summit, base camp and wager marker are registered. Southward views allow upper-basin haze and foothill roads, not readable Chamber buildings.",
+      "proposal": "Show the climb from the existing base-camp/wager-marker level. The unfinished route carries four remaining regular-season games and seven available playoff berths as narrative meaning, not four new literal gates or seven carved thrones.",
+      "ordinary_life": "Optional small travelers checking footing keep the landscape inhabited; they are not the six 6–4 teams arriving together.",
+      "text_and_art": "Qualification copy shares thin mountain air, weathered marker material and the climbing line; do not build a new playoff monument to hold it.",
+      "why_here": "Height and exposure make the shortening competitive road tangible while preserving uncertainty about who advances.",
+      "known_limits": "Possible seasonal snow is not evidence of a current closure; keep weather local and proposed. No guaranteed berth, summit winner or literal mathematical map.",
+      "source_ids": [
+        "ALPINE",
+        "VISIBILITY",
+        "FACTS",
+        "HYDRATION"
+      ]
+    },
+    {
+      "id": "T09",
+      "functions": [
+        "The Next Six"
+      ],
+      "existing_page_handles": [
+        "W10-P31"
+      ],
+      "candidate_site": "LOC-LEAGUE-ARCHIVE courier court or LOC-BRIDGE-MOUNTAIN-LAKE near approach; choose one in Pass 2",
+      "feature": "one temporary outgoing fixture notice within an established departure setting",
+      "source_facts": "The six Week 11 home/away fixtures are verified; entering records depend on Week 10 finality. Both candidate settings are registered, with different narrative jobs.",
+      "proposal": "Let the next fixtures point outward after the competitive consequences. Prefer the courier court if the closing will carry the pure bridge landscape; prefer the bridge if the notices and final word can form one purposeful illustrated farewell.",
+      "ordinary_life": "Dispatch activity may carry information; it does not certify team arrivals, travel duration, next-week neutral venues or a simultaneous departure.",
+      "text_and_art": "Six exact fixtures belong to one scene and one material/light treatment; no route map that pretends each fixture can be reached directly from this view.",
+      "why_here": "A clean forward turn should replace another summary of the current standings.",
+      "known_limits": "No venue law override through an away-at-home listing; no fresh GOTW designation unless chosen.",
+      "source_ids": [
+        "ARCHIVE",
+        "BRIDGE",
+        "FACTS",
+        "ROUTES"
+      ]
+    }
+  ],
+  "six_story_consequence_map": [
+    {
+      "id": "W10-M01",
+      "pair": "Chili–D0nkey K0ng",
+      "pages": [
+        "W10-P05",
+        "W10-P06",
+        "W10-P07"
+      ],
+      "plot_reminder": "Chili stages a huge muddy rodeo; the Arsenal gorilla-centaur takes control of the continuous rope and deliberately hogties the showman where the whole crowd can see.",
+      "venue_candidate": "LOC-COMPACT-NEUTRAL-GROUNDS / open ceremonial field, with arbiter pavilion and arrival roads retained",
+      "source_fact": "Chili 93.70, DK 156.67; no scheduled scoring starters remain, but provider finality is unresolved. The verified 2025 defeat was winners-consolation, not title elimination.",
+      "fact_selectors": [
+        "FACTS#/games/0",
+        "FACTS#/historical_context/W10-G01"
+      ],
+      "inherited_world": "Week 9 left Chili publicly triumphant over HMB and DK physically dominant over LLC. Compact is registered PROVISIONAL_CANON; rodeo stands, mud ring, rails and banners are proposed temporary dressing.",
+      "public_and_pov": "Public: the audience can witness this proposed reversal of the host’s showmanship. POV: Chili’s belief that he controls the spectacle and DK’s attention to leverage are narrative choices, not reported owner motives.",
+      "proposed_event_delta": "A changed public reputation and temporary muddy event cleanup; no territorial victory, permanent stadium, character injury or Dark Horse ownership change.",
+      "ripple": {
+        "opening_drive": "The showman brings the crowd; the opponent brings the leverage.",
+        "commissioner_note": "Public jokes will outlast the game, while the contest remains a shared league event.",
+        "scoreboard": "Give the exact gap its factual authority without making the staged hogtie an official result receipt.",
+        "rankings": "DK is live scoring-form fifth, Chili tenth; if leads hold DK reaches 6–4 and Chili 5–5. Form and official seeds stay separate.",
+        "realm": "Burgers can gain separation through DK while Wings loses one of its 5–4 challengers.",
+        "closing": "A rope, churned ring and dispersing anonymous spectators can carry the public-memory consequence; no new feud quote."
+      },
+      "image_tells": "The same rope, four planted hooves, visible hands and audience sightlines explain the humiliation.",
+      "prose_tells": "Explain why being watched matters to the host; do not narrate each knot."
+    },
+    {
+      "id": "W10-M02",
+      "pair": "Red Leopards–El Niño",
+      "pages": [
+        "W10-P08",
+        "W10-P09",
+        "W10-P10"
+      ],
+      "plot_reminder": "At the damaged ruins, a bleak November wind strips Red’s temporary repairs and makes the visitor feel like the return of the opponent who ended his 13–1 season.",
+      "venue_candidate": "LOC-RED-RUINS / damaged terrace, narrow exit and high perch",
+      "source_fact": "Red 136.42, Niño 189.08; Zay Flowers remains. Niño beat 13–1 Red 116.32–97.96 in the 2022 semifinal. This week has not eliminated Red.",
+      "fact_selectors": [
+        "FACTS#/games/1",
+        "FACTS#/historical_context/W10-G02"
+      ],
+      "inherited_world": "Keep the Week 9 wrecked goal, ruts and partial repairs. The established ruin is not a pristine new arena.",
+      "public_and_pov": "Public: the old semifinal is league history and this week’s deficit is visible. POV: Red recognizes danger in repeated repair checks and the cold; the public departments must not announce his private thoughts as facts.",
+      "proposed_event_delta": "Temporary repair material worsens and an old fear feels current; lasting new damage remains proposed, with no new league elimination or world-wide storm.",
+      "ripple": {
+        "opening_drive": "The old semifinal gives today’s cold a specific meaning without a historical paragraph.",
+        "commissioner_note": "A difficult week must leave Red in the competitive story; the note should not pronounce a season dead.",
+        "scoreboard": "Flowers is a remaining scorer, so this pairing visibly remains open.",
+        "rankings": "Red is live form eighth, Niño fourth. The baseline is Red 5–5 / Niño 6–4; a Red win swaps which one joins the 6–4 group.",
+        "realm": "The same game pressures both Wings and Pizza. Treat the divisions as league groupings, not opposite sides of the ruins.",
+        "closing": "A red strip still moving against grey stone can retain the emotional wound without implying final elimination."
+      },
+      "image_tells": "Damaged old masonry, improvised repair boards, stripped leaves and repeated attention to a fastening carry continuity.",
+      "prose_tells": "One precise old-season reference explains recognition; no invented private conversation or spoken feud."
+    },
+    {
+      "id": "W10-M03",
+      "pair": "Three Dreaded Snake–Seven Deadly Chins",
+      "pages": [
+        "W10-P12",
+        "W10-P13",
+        "W10-P14"
+      ],
+      "plot_reminder": "TDS almost gets a new baby to sleep; Chins escalates from barrel and hammer to lids and air horn, creating three different reactions on the same exasperated body.",
+      "venue_candidate": "LOC-TDS-WATERFALL-TEMPLE / outer approach, distant closed family door",
+      "source_fact": "TDS 75.78, Chins 146.22; Ravens D/ST remains. TDS beat Chins twice in the cited 2025 regular-season meetings. The new baby is user-supplied context.",
+      "fact_selectors": [
+        "FACTS#/games/2",
+        "FACTS#/historical_context/W10-G03",
+        "FACTS#/personal_context/TDS_new_baby"
+      ],
+      "inherited_world": "Chins arrives on foot following the Week 9 trapped-truck scene. Waterfall and temple approach persist; the family stays in a separate safe interior.",
+      "public_and_pov": "Public: the exaggerated outdoor racket and TDS’s reactions are visible proposed fiction. POV: the hopeful pause belongs to TDS. Do not turn parenting or sleep into an explanation of real fantasy performance.",
+      "proposed_event_delta": "Noise, embarrassed patience and portable clutter; no harm to the family, new household canon, repaired truck or implied Book reopening.",
+      "ripple": {
+        "opening_drive": "Make the rare quiet beat the setup for the loudest gag.",
+        "commissioner_note": "The league contains milestones outside the standings; acknowledge a new family chapter without an invented signed anecdote.",
+        "scoreboard": "The Ravens defense is still active; Chins’s apparent reversal stays provisional.",
+        "rankings": "TDS is live form twelfth, Chins seventh. Baseline 4–6 / 6–4 changes to 5–5 / 5–5 with a TDS comeback.",
+        "realm": "This is the live game that can reduce the baseline six-team 6–4 group to five.",
+        "closing": "A distant settling door and a carried-away portable noisemaker can end the joke without making the baby a public spectacle."
+      },
+      "image_tells": "Three distinct expressions, the noise objects and the distance to the family door make the joke.",
+      "prose_tells": "The silence between sounds carries anticipation; avoid reprinting every clang as explanation."
+    },
+    {
+      "id": "W10-M04",
+      "pair": "Mud Dogs–Slob",
+      "pages": [
+        "W10-P15",
+        "W10-P16",
+        "W10-P17"
+      ],
+      "plot_reminder": "Mud knows his swamp, but every charge and terrain adjustment meets greater force. Slob keeps advancing behind the keg until the displaced ground records the mismatch.",
+      "venue_candidate": "LOC-MUD-DOGS-SWAMP / raised berm, low channel, root and old racing rut",
+      "source_fact": "Mud 113.62, Slob 179.29; no scheduled scoring starters remain, but outcomes are unresolved. Slob’s 2025 losers-consolation win was only 3.15 points.",
+      "fact_selectors": [
+        "FACTS#/games/3",
+        "FACTS#/historical_context/W10-G04"
+      ],
+      "inherited_world": "Keep the Week 9 racing-rut damage and swamp footing. Slob’s bulk and Mud’s four-legged anatomy remain central.",
+      "public_and_pov": "Public: a narrow historical score is available to the league. POV: Mud’s knowledge of the ground and Slob’s repeated physical confidence are proposed characterization, not mathematical certainty.",
+      "proposed_event_delta": "A retreat track and churned shallows, not permanent conquest or an unearned new repaired racing rig.",
+      "ripple": {
+        "opening_drive": "Add the currently missing sixth story: even home-ground knowledge is failing against Slob’s force.",
+        "commissioner_note": "Keep the struggling team visible; do not reduce Mud to a disposable punchline or certify elimination.",
+        "scoreboard": "The sizeable gap should be exact, never translated into a zero-point or zero-probability claim.",
+        "rankings": "The useful surprise is that Slob still leads the live form index despite HMB and LLC exceeding 200; Mud is eleventh.",
+        "realm": "Baseline Slob joins 6–4 while Mud becomes 2–8; the different division consequences deserve a sentence, not a second standings table.",
+        "closing": "Ground displaced by repeated force carries the memory more clearly than a posed victory portrait."
+      },
+      "image_tells": "The advancing footprint and retreat furrows explain scale; the root never becomes a late clever equalizer.",
+      "prose_tells": "Contrast the old narrow scrape with the lack of useful answers now."
+    },
+    {
+      "id": "W10-M05",
+      "pair": "Dr. Duckhook–His Majesty’s Blood",
+      "pages": [
+        "W10-P19",
+        "W10-P20",
+        "W10-P21"
+      ],
+      "plot_reminder": "Two formidable figures clash at Duckhook’s birthday. HMB’s repeated pressure drives the host over the already-established low rail and through the locked cake table, in front of his guests.",
+      "venue_candidate": "LOC-COUNTRY-CLUB-JACKSON / veranda, terrace and temporary birthday platform",
+      "source_fact": "Duck 127.67, HMB 208.76; no scheduled starters remain, with finality unresolved. Austin’s verified The Immortal alias won their 2025 semifinal by 0.40. Birthday context comes from Jake.",
+      "fact_selectors": [
+        "FACTS#/games/4",
+        "FACTS#/historical_context/W10-G05",
+        "FACTS#/personal_context/Duckhook_birthday",
+        "FACTS#/history_200"
+      ],
+      "inherited_world": "Use the reviewed Week 9 club appearance as the current visual overlay. Do not reset it from the older Week 3 contamination ledger or invent a cleanup event. HMB retains his established belt.",
+      "public_and_pov": "Public: the proposed guests witness the ruined ceremony; the historical margin is published. POV: Duck’s desire for a controlled birthday and HMB’s response after last week’s humiliation are interpretations, not real private testimony.",
+      "proposed_event_delta": "Temporary cake wreckage, ribbons and public embarrassment; no birthday age/date, named real guest, club transfer or new championship.",
+      "ripple": {
+        "opening_drive": "A celebration is another form of home advantage put under pressure.",
+        "commissioner_note": "A birthday deserves acknowledgment even when the contest gives the league its best joke.",
+        "scoreboard": "HMB supplies one of the first two observed 200+ totals; Duck’s strong starting record does not erase the current gap.",
+        "rankings": "HMB live form second, Duck sixth; both would reach 6–4, ending Duck’s sole-record cushion if the lead holds.",
+        "realm": "The record convergence links Pizza’s rising group with Wings’ previously solitary leader.",
+        "closing": "The birthday remains recognizable in the aftermath; the belt stays with HMB without implying a new title."
+      },
+      "image_tells": "Guests, rail, locked table and retreat direction explain the cake catastrophe; Duck starts formidable.",
+      "prose_tells": "Four tenths once seemed cruel; today’s scale makes that history feel different."
+    },
+    {
+      "id": "W10-M06",
+      "pair": "ObiWan Jacoby–The LLC",
+      "pages": [
+        "W10-P22",
+        "W10-P23",
+        "W10-P24"
+      ],
+      "plot_reminder": "A Jedi-versus-Empire battle erupts across the mountain approach. ObiWan destroys one of two visible batteries and attempts two counteroffensives; the suited LLC commands the surviving firepower.",
+      "venue_candidate": "LOC-TRADE-JEDI-MOUNTAIN-BASE / outer causeway and inner arch as proposed scene anchors",
+      "source_fact": "Obi 130.33, LLC 203.96; Henry and Andrews remain. Their verified 2024 meeting was a 0.80-point LLC win, not necessarily their latest.",
+      "fact_selectors": [
+        "FACTS#/games/5",
+        "FACTS#/historical_context/W10-G06",
+        "FACTS#/mnf",
+        "FACTS#/history_200"
+      ],
+      "inherited_world": "Green blade, recognizable suited executive, separate sheltered retriever and stable ridge/causeway/arch geography. No table-game mechanism survives.",
+      "public_and_pov": "Public: the live deficit and two remaining selected scorers are known. POV: Obi’s urgency and LLC’s confidence are fictional action choices. Their private tactical knowledge is limited to what the scene reveals.",
+      "proposed_event_delta": "Temporary assault damage and displaced action through the same approach, never ownership transfer, permanent Empire geography or an unapproved new base.",
+      "ripple": {
+        "opening_drive": "Introduce active resistance against enormous force; do not promise future answers if the chosen narrative later spends both.",
+        "commissioner_note": "The two 200-point leaders have different standings contexts; LLC can improve without suddenly becoming a top seed.",
+        "scoreboard": "Keep the two remaining scorers conspicuous in this matchup’s status.",
+        "rankings": "LLC live form third, Obi ninth; baseline both finish 4–6, but an Obi comeback changes them to 5–5 / 3–7.",
+        "realm": "This game changes the lower-record race but not the baseline identity count of the six 6–4 teams.",
+        "closing": "A blade still lit can mean continued agency; it must not certify an unresolved result."
+      },
+      "image_tells": "The two attempted routes and one surviving battery make sustained resistance and scale legible.",
+      "prose_tells": "The historical fraction contrasts with current firepower; avoid explaining every projectile."
+    }
+  ],
+  "continuity_risks": [
+    {
+      "priority": 1,
+      "risk": "One issue currently has conflicting narrative clocks and misses one story in its opener.",
+      "evidence": "ISSUE W10-P02 omits Mud–Slob and says Obi has two answers still to come; W10-P23/P24 show both counterattacks attempted. All six provider outcomes are still unresolved.",
+      "pass2_action": "Choose a pre-Monday issue voice or a final-result release voice, then align the opener, battle ending and closing. Add Mud–Slob to the first all-six framing. Branches can remain drafts; no result decision is required now.",
+      "affected": [
+        "W10-P02",
+        "W10-P22",
+        "W10-P23",
+        "W10-P24",
+        "W10-P33",
+        "shared finality text"
+      ]
+    },
+    {
+      "priority": 2,
+      "risk": "Named sites can become merely decorated backdrops, with invented permanent subrooms or missing social consequences.",
+      "evidence": "Current support encounters have null venue IDs while several prompts call their scoring gallery, chamber recess or threshold established. HYDRATION requires ordinary world life, public/POV knowledge, event delta and departure state.",
+      "pass2_action": "For the chosen transition sites, bind exact parent/feature IDs and mark notices, galleries, event stands and camera-specific thresholds as proposed. Add one causal world behavior or institutional response to each major page, not a lore paragraph.",
+      "affected": [
+        "support encounters",
+        "support artist prompts",
+        "storycards department composition",
+        "hydration references"
+      ]
+    },
+    {
+      "priority": 3,
+      "risk": "An editorial sequence could accidentally assert a literal journey, impossible sightline or single weather event.",
+      "evidence": "Bridge does not guarantee a view of Obi’s base; Jackson does not guarantee Mud’s swamp; Alpine views do not resolve Chamber buildings. Route chains prove connectivity, not time. HMB’s verified route to Duck passes the Trade Jedi Mountain Base before the Bridge; LLC’s proposed assault at that base would make a simultaneous depicted journey problematic.",
+      "pass2_action": "Use local light/weather and explicit separate scene cuts. Record the observer direction and what is excluded from each chosen panorama. Do not place a narrator or all owners on a forced continuous itinerary. Leave those journeys off-page, or explicitly place HMB’s passage before the assault if a later pass shows it. Do not invent a region-wide closure or instant delivery of all news.",
+      "affected": [
+        "Opening/closing bookend",
+        "world transition",
+        "Realm",
+        "Road",
+        "Next Six"
+      ]
+    },
+    {
+      "priority": 4,
+      "risk": "Old World State can overwrite newer published scenes, or current invented damage can silently become canon.",
+      "evidence": "STATE is end-of-Week-3; reviewed Week 9 supplies later ruin, club, truck and swamp appearances. Mire Hill’s richer current state says cleanup continues and its summit remains unclaimed.",
+      "pass2_action": "Attach the Week 9 visual overlay to each relevant entering state; distinguish proposed temporary aftermath from approved persistent mutation. Preserve the unclaimed summit if Mire is used.",
+      "affected": [
+        "Red/TDS/Mud/Duck location packets",
+        "Mire transition",
+        "post-encounter aftermath"
+      ]
+    },
+    {
+      "priority": 5,
+      "risk": "Statistics and transactions could become incorrect world physics or official final authority.",
+      "evidence": "Scoring form is not playoff seeding. All current leads holding gives six 6–4 teams, but a TDS comeback reduces that count; Obi’s result does not alter it. HYDRATION requires established translation before waivers become cargo or contracts.",
+      "pass2_action": "Treat public notices as information. Keep standings, form and conditional Realm claims distinct. No ranked throne/territory, literal player shipment, guaranteed berth or automatic winner from the story payoff.",
+      "affected": [
+        "scoreboard",
+        "Moves",
+        "rankings",
+        "official standings",
+        "Realm",
+        "Alpine road"
+      ]
+    },
+    {
+      "priority": 6,
+      "risk": "Public departments can flatten different personal stories into six interchangeable humiliations or leak invented private knowledge.",
+      "evidence": "Red’s fear is POV; birthday and new baby are user-supplied; Obi is active epic resistance; Slob’s dominance is bodily scale; Chili’s and Duck’s crowd scenes have different meanings.",
+      "pass2_action": "Give each story one distinct consequence in the public departments. The Commissioner addresses shared competition and human milestones, while the Opening introduces the plots. Keep private thoughts in the selected story POV, with no fabricated quotes or author/staff participation.",
+      "affected": [
+        "Opening Drive",
+        "Commissioner note",
+        "Realm",
+        "Final Word",
+        "six-story narrator stance"
+      ]
+    }
+  ],
+  "atlas_continuity_constraints": [
+    "Five home domains are permanent canon; Compact Grounds is registered provisional canon. A resolved anchor is not the same as an approved detailed environment image.",
+    "All checked location cards lack registered durable approved environment reference bytes. Brainstorming can proceed; the future environment anchor images must be visibly selected before dependent artwork treats them as settled.",
+    "world/data/current_world_state.json is explicitly as_of end_of_week_3_2026. Do not use empty newer location-state arrays to erase Week9 scene evidence, or pretend Week9 overlays have already been promoted into the governing state ledger.",
+    "Country Club carries unresolved Week3 chili cleanup. A new birthday scene should reuse the more recent local visual continuity while avoiding an unsupported whole-estate pristine reset.",
+    "Causeway, inner arch, gate, veranda rail, temple family doorway, detailed terrace geometry and Grand Ring seating are currently proposed specifics, not existing Atlas facts.",
+    "Physical zones and Division memberships are independent. Do not turn Burgers/Wings/Pizza into three contiguous nations or different species countries.",
+    "Bridge visibility does not guarantee the Jedi base; Country Club wetland views do not guarantee Mud Dogs' actual domain. Routes prove connection, not line of sight.",
+    "Red's cold autumn storm needs a stated local footprint. Its weather should not automatically darken the birthday, freeze the swamp or flood the neutral rodeo.",
+    "The temple sits by a waterfall. Frame the baby-noise joke as sudden percussion breaking a sheltered interior's steady soundscape, not implausible absolute outdoor silence.",
+    "Multiple characters use the same graph hubs. Editorial sequence does not prove same-day travel or a shared hour; avoid accidental temporal causality, especially HMB's route through the Jedi-base node.",
+    "Keep Six-scene user directions accepted, while specific venue names, architecture, lighting, action beats and their effects on Opening Drive/Commissioner/closing remain BRAINSTORMING_PASS1."
+  ],
+  "pass2_decisions": [
+    {
+      "decision": "Choose the issue’s connective geography",
+      "recommended_trial": "Bridge opening/closing; Compact scoreboard; Chamber note; Archive public records; Road Commons moves; Alpine playoff road. Use Mire as an optional world-consequence landscape.",
+      "why_it_matters": "This gives recurring institutions different jobs and makes several pages genuinely outdoors without inventing new places.",
+      "choice_remains_open": "Any site can be replaced if the next creative pass finds a stronger causal relationship."
+    },
+    {
+      "decision": "Choose department placement by consequence",
+      "recommended_trial": "Try live scoring form after Mud–Slob, Sports Desk between birthday and mountain battle, and a shorter standings/Realm/road tail.",
+      "why_it_matters": "Slob’s rank changes how the reader interprets the issue’s two 200-point leaders; the player analysis connects those spectacles.",
+      "choice_remains_open": "No resulting page count or final order is fixed."
+    },
+    {
+      "decision": "Choose the clock and release voice",
+      "recommended_trial": "Keep a clean pre-Monday opener now; keep ending variants as separate proposed branches, then choose consistent published tense after outcomes.",
+      "why_it_matters": "Removes the two-answers conflict without weakening Obi’s action or inventing a completed result.",
+      "choice_remains_open": "Jake can choose a fully retrospective final issue after MNF."
+    },
+    {
+      "decision": "Choose which aftermath travels beyond each story",
+      "recommended_trial": "One visible or social consequence per matchup: crowd memory, failing repairs, quiet after noise, displaced ground, wrecked ceremony, surviving resistance.",
+      "why_it_matters": "The Opening/Commissioner/Realm/closing then respond to this week rather than speaking in generic league slogans.",
+      "choice_remains_open": "No new permanent damage, institution, ownership or private motive is canonized."
+    },
+    {
+      "decision": "Choose useful consolidation, if any",
+      "recommended_trial": "Evaluate Reserve with Moves or Sports; evaluate Realm with Road only if their jobs remain distinguishable; evaluate Next Six with closing. Leave the Book absent unless there is new content.",
+      "why_it_matters": "Eliminates report-tail repetition without imposing a shorter or longer issue for its own sake.",
+      "choice_remains_open": "All current pages remain candidate material during brainstorming."
+    },
+    {
+      "decision": "Choose which confirmed next opponent earns a closing thread",
+      "recommended_trial": "Use one short handoff per story only when it deepens the current consequence; Duck receiving LLC and DK receiving HMB are especially strong. Keep all six fixtures on the Next Six page or its chosen successor.",
+      "why_it_matters": "The stories point forward through verified scheduling without waiting for Week10 outcome finality or inventing next week’s plot.",
+      "choice_remains_open": "The exact prose, any future scenes, encounter venues and entering records remain unselected."
+    }
+  ],
+  "pass3_work": "Review one environment anchor image per selected site before character scenes, then cross-check the complete issue for stable landmarks, distinct regional light, physical action and text/art integration. No new art generated by this pass.",
+  "production_dependency_changes_if_selected": [
+    {
+      "change": "New site or feature choice",
+      "propagate_to": [
+        "storycards departments composition and world hydration pointers",
+        "issue-previs encounter and composition",
+        "illustrated-page-briefs artist prompt and source bindings",
+        "compile_illustrated_briefs.py SUPPORT source"
+      ],
+      "reason": "A revised venue must reach both prose and image prompts; relabeling a title alone leaves old room logic in place."
+    },
+    {
+      "change": "Reorder, merge or redistribute department jobs",
+      "propagate_to": [
+        "recommended reading order",
+        "page-role/narrative-job fields",
+        "department copy",
+        "fact bindings for the chosen combined scene"
+      ],
+      "reason": "Use current page IDs as review handles; do not renumber or declare a new total during Pass 1."
+    },
+    {
+      "change": "Public/POV knowledge or visible aftermath",
+      "propagate_to": [
+        "six story hydration records",
+        "Opening/Commissioner/Realm/Final Word drafts",
+        "conditional ending variants"
+      ],
+      "reason": "Visible events and private reactions have different narrative authority. Proposed aftermath remains separate from persistent world canon."
+    },
+    {
+      "change": "Final sports result or fresh official order",
+      "propagate_to": [
+        "source facts first",
+        "every dependent exact-copy field",
+        "selected story ending",
+        "conditional record and ranking copy"
+      ],
+      "reason": "A creative selection cannot promote current leads to final facts; no new factual audit is required for this brainstorming pass."
+    }
+  ],
+  "sources": {
+    "atlas": [
+      {
+        "path": "world/atlas/ATLAS_V1.md",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/atlas/ATLAS_V1.md"
+      },
+      {
+        "path": "living-novel/os/geography/world_travel_graph_v1.json",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/living-novel/os/geography/world_travel_graph_v1.json"
+      },
+      {
+        "path": "world/data/routes.json",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/data/routes.json"
+      },
+      {
+        "path": "world/data/current_world_state.json",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/data/current_world_state.json"
+      },
+      {
+        "path": "world/data/landmark_visibility.json",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/data/landmark_visibility.json"
+      },
+      {
+        "path": "world/data/atlas_location_candidates.json",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/data/atlas_location_candidates.json"
+      },
+      {
+        "path": "world/location-control-plane/locations/LOC-COMPACT-NEUTRAL-GROUNDS/CARD.json",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/location-control-plane/locations/LOC-COMPACT-NEUTRAL-GROUNDS/CARD.json"
+      },
+      {
+        "path": "world/location-control-plane/locations/LOC-RED-RUINS/CARD.json",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/location-control-plane/locations/LOC-RED-RUINS/CARD.json"
+      },
+      {
+        "path": "world/location-control-plane/locations/LOC-TDS-WATERFALL-TEMPLE/CARD.json",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/location-control-plane/locations/LOC-TDS-WATERFALL-TEMPLE/CARD.json"
+      },
+      {
+        "path": "world/location-control-plane/locations/LOC-MUD-DOGS-SWAMP/CARD.json",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/location-control-plane/locations/LOC-MUD-DOGS-SWAMP/CARD.json"
+      },
+      {
+        "path": "world/location-control-plane/locations/LOC-COUNTRY-CLUB-JACKSON/CARD.json",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/location-control-plane/locations/LOC-COUNTRY-CLUB-JACKSON/CARD.json"
+      },
+      {
+        "path": "world/location-control-plane/locations/LOC-TRADE-JEDI-MOUNTAIN-BASE/CARD.json",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/location-control-plane/locations/LOC-TRADE-JEDI-MOUNTAIN-BASE/CARD.json"
+      },
+      {
+        "path": "world/location-control-plane/locations/LOC-LEAGUE-CHAMBER/CARD.json",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/location-control-plane/locations/LOC-LEAGUE-CHAMBER/CARD.json"
+      },
+      {
+        "path": "world/location-control-plane/locations/LOC-BRIDGE-MOUNTAIN-LAKE/CARD.json",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/location-control-plane/locations/LOC-BRIDGE-MOUNTAIN-LAKE/CARD.json"
+      },
+      {
+        "path": "world/location-control-plane/locations/LOC-LEAGUE-ARCHIVE/CARD.json",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/location-control-plane/locations/LOC-LEAGUE-ARCHIVE/CARD.json"
+      },
+      {
+        "path": "world/atlas/ATLAS_CONTROL_PLANE_V2.md",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/atlas/ATLAS_CONTROL_PLANE_V2.md"
+      },
+      {
+        "path": "world/location-control-plane/locations/LOC-DK-MUD-HILL/CARD.json",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/location-control-plane/locations/LOC-DK-MUD-HILL/CARD.json"
+      },
+      {
+        "path": "world/location-control-plane/locations/LOC-CHINS-ROAD-COMMONS/CARD.json",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/location-control-plane/locations/LOC-CHINS-ROAD-COMMONS/CARD.json"
+      },
+      {
+        "path": "world/location-control-plane/locations/LOC-RED-SLOB-ALPINE-ROUTE/CARD.json",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/location-control-plane/locations/LOC-RED-SLOB-ALPINE-ROUTE/CARD.json"
+      },
+      {
+        "path": "world/location-control-plane/locations/LOC-TDS-CHILI-SHARED-MARCH/CARD.json",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/location-control-plane/locations/LOC-TDS-CHILI-SHARED-MARCH/CARD.json"
+      }
+    ],
+    "production": {
+      "ISSUE": {
+        "local_path": "/workspace/scratch/162404e483ef/w10_preproduction/issue-previs.json",
+        "sha256": "261cc0646476acda183aac3d74fd2f54da0862356ae5479d01d4f9b98f4abd22"
+      },
+      "STORIES": {
+        "local_path": "/workspace/scratch/162404e483ef/w10_preproduction/storycards.json",
+        "sha256": "d0d4fd6a6a3ce50d7f4ad5fd2f15c6c9bab1f39da8649edef9a9117c071c1ff7"
+      },
+      "BRIEFS": {
+        "local_path": "/workspace/scratch/162404e483ef/w10_preproduction/illustrated-page-briefs.json",
+        "sha256": "0021eb1ccae59e1fabfa5712d68d60681db26e67baa280fb878ccbf17311da10"
+      },
+      "FACTS": {
+        "local_path": "/workspace/scratch/162404e483ef/w10_preproduction/facts.json",
+        "sha256": "e4ae1228766abef09db5f4b2e69e0cd2677c806026b4d72b5b405a7e17a70027"
+      },
+      "DIRECTION": {
+        "local_path": "/workspace/scratch/162404e483ef/w10_preproduction/illustrated-png-direction.md",
+        "sha256": "d7a88fb03b6176f164b25bb585ea018264b14801e0888580e687a34e7eae201a"
+      },
+      "W9": {
+        "local_path": "/workspace/scratch/162404e483ef/w10_preproduction/week9-review.md",
+        "sha256": "95a91053be8bc2a9f4a865d322a577f3d9b022bd651cf30ca00f45aacb580912"
+      },
+      "ROUTES": {
+        "local_path": "/workspace/scratch/162404e483ef/w10_preproduction/character-world-packet.json",
+        "sha256": "ebe0bcf436696fb66a186752cbddd1b5bbed2251f9036adaa39bd1f48b0a5a30"
+      },
+      "HYDRATION": {
+        "local_path": "/workspace/scratch/162404e483ef/w10_world_sources/world__contracts__WORLD_NARRATIVE_HYDRATION_CONTRACT_V1.md",
+        "sha256": "0e08c8f7d81b021ed1262e2c5a9883c2200c04a3f437bdfcddc72eb34ada4def",
+        "repository_path": "world/contracts/WORLD_NARRATIVE_HYDRATION_CONTRACT_V1.md",
+        "authority_note": "Primary cached World Engine/Atlas source; derived location cards defer to upstream state and visibility."
+      },
+      "ATLAS": {
+        "local_path": "/workspace/scratch/162404e483ef/w10_world_sources/world__atlas__ATLAS_V1.md",
+        "sha256": "648331412f60703559e4f48c6d805712695413b4cace95a1b4cebad9ac7d8187",
+        "repository_path": "world/atlas/ATLAS_V1.md",
+        "authority_note": "Primary cached World Engine/Atlas source; derived location cards defer to upstream state and visibility."
+      },
+      "PHYSICAL": {
+        "local_path": "/workspace/scratch/162404e483ef/w10_world_sources/world__atlas__PHYSICAL_ATLAS_V1.md",
+        "sha256": "f81a61a2550b6bd84a5c8b9ce3f1f3733abd8e81a1a9f4c4f98654ad518cfd9a",
+        "repository_path": "world/atlas/PHYSICAL_ATLAS_V1.md",
+        "authority_note": "Primary cached World Engine/Atlas source; derived location cards defer to upstream state and visibility."
+      },
+      "VISIBILITY": {
+        "local_path": "/workspace/scratch/162404e483ef/w10_world_sources/world__data__landmark_visibility.json",
+        "sha256": "06195c2bb7b8da90101404e26a8f75bd559809d37064d40e94df207e40495870",
+        "repository_path": "world/data/landmark_visibility.json",
+        "authority_note": "Primary cached World Engine/Atlas source; derived location cards defer to upstream state and visibility."
+      },
+      "STATE": {
+        "local_path": "/workspace/scratch/162404e483ef/w10_world_sources/world__data__current_world_state.json",
+        "sha256": "75a7218df63162df47bd5015a5fa6604a6adb8cb7f71dbf9d546592afe5cc010",
+        "repository_path": "world/data/current_world_state.json",
+        "authority_note": "Primary cached World Engine/Atlas source; derived location cards defer to upstream state and visibility."
+      },
+      "LEDGER": {
+        "local_path": "/workspace/scratch/162404e483ef/w10_world_sources/world__state__WORLD_STATE_LEDGER_V1.md",
+        "sha256": "75d2c7e90ee254d07f577da4eee06616b24f934e1e0c5f7109f7aa7fed077e3c",
+        "repository_path": "world/state/WORLD_STATE_LEDGER_V1.md",
+        "authority_note": "Primary cached World Engine/Atlas source; derived location cards defer to upstream state and visibility."
+      },
+      "BRIDGE": {
+        "local_path": "/workspace/scratch/162404e483ef/w10_world_sources/world__location-control-plane__locations__LOC-BRIDGE-MOUNTAIN-LAKE__CARD.json",
+        "sha256": "3fe3d90dbeb1e2c6a4dc1cd67cf8822088c671843395cae6928db1834d581330",
+        "repository_path": "world/location-control-plane/locations/LOC-BRIDGE-MOUNTAIN-LAKE/CARD.json",
+        "authority_note": "Primary cached World Engine/Atlas source; derived location cards defer to upstream state and visibility."
+      },
+      "COMPACT": {
+        "local_path": "/workspace/scratch/162404e483ef/w10_world_sources/world__location-control-plane__locations__LOC-COMPACT-NEUTRAL-GROUNDS__CARD.json",
+        "sha256": "de1916756fb4fa3c459e282101980eb3f4c755599d7b6aa7db5c71a8a9731122",
+        "repository_path": "world/location-control-plane/locations/LOC-COMPACT-NEUTRAL-GROUNDS/CARD.json",
+        "authority_note": "Primary cached World Engine/Atlas source; derived location cards defer to upstream state and visibility."
+      },
+      "CHAMBER": {
+        "local_path": "/workspace/scratch/162404e483ef/w10_world_sources/world__location-control-plane__locations__LOC-LEAGUE-CHAMBER__CARD.json",
+        "sha256": "b4c58ff65e274e32a5a991662e4d23618acbccf24e2af13cf14367ac746808ef",
+        "repository_path": "world/location-control-plane/locations/LOC-LEAGUE-CHAMBER/CARD.json",
+        "authority_note": "Primary cached World Engine/Atlas source; derived location cards defer to upstream state and visibility."
+      },
+      "ARCHIVE": {
+        "local_path": "/workspace/scratch/162404e483ef/w10_world_sources/world__location-control-plane__locations__LOC-LEAGUE-ARCHIVE__CARD.json",
+        "sha256": "07238da98d598137271448521bf60a33f83b976d52b7e8079eae5f851c4d98b4",
+        "repository_path": "world/location-control-plane/locations/LOC-LEAGUE-ARCHIVE/CARD.json",
+        "authority_note": "Primary cached World Engine/Atlas source; derived location cards defer to upstream state and visibility."
+      },
+      "MIRE": {
+        "local_path": "/workspace/scratch/162404e483ef/w10_world_sources/world__location-control-plane__locations__LOC-DK-MUD-HILL__CARD.json",
+        "sha256": "f6094ec170105fd287770eb2e9d90e84ea5478b6232924677a7bccf98fd02986",
+        "repository_path": "world/location-control-plane/locations/LOC-DK-MUD-HILL/CARD.json",
+        "authority_note": "Primary cached World Engine/Atlas source; derived location cards defer to upstream state and visibility."
+      },
+      "COMMONS": {
+        "local_path": "/workspace/scratch/162404e483ef/w10_world_sources/world__location-control-plane__locations__LOC-CHINS-ROAD-COMMONS__CARD.json",
+        "sha256": "476099136c6d0a9ce5c5ec105742ed6e5f6db46d2bf1fc05644a2d82905e3f05",
+        "repository_path": "world/location-control-plane/locations/LOC-CHINS-ROAD-COMMONS/CARD.json",
+        "authority_note": "Primary cached World Engine/Atlas source; derived location cards defer to upstream state and visibility."
+      },
+      "ALPINE": {
+        "local_path": "/workspace/scratch/162404e483ef/w10_world_sources/world__location-control-plane__locations__LOC-RED-SLOB-ALPINE-ROUTE__CARD.json",
+        "sha256": "b5c316cf12af77d6879f2e222b1612d58d08d281dd06f817b8cb2e929beb3c16",
+        "repository_path": "world/location-control-plane/locations/LOC-RED-SLOB-ALPINE-ROUTE/CARD.json",
+        "authority_note": "Primary cached World Engine/Atlas source; derived location cards defer to upstream state and visibility."
+      }
+    },
+    "inklings": [
+      {
+        "id": "METHOD",
+        "path": "w10_preproduction/personalization-review.md",
+        "scope": "Project Tolkien/Lewis method findings and final integration corrections"
+      },
+      {
+        "id": "STORIES",
+        "path": "w10_preproduction/storycards.json",
+        "scope": "Current six accepted mechanisms, environment and identity constraints"
+      },
+      {
+        "id": "HISTORY",
+        "path": "w10_preproduction/historical-research.json",
+        "scope": "Verified six historical anchors and owner continuity"
+      },
+      {
+        "id": "ROUTES",
+        "path": "w10_preproduction/character-world-packet.json#/routes",
+        "scope": "Known route chains"
+      },
+      {
+        "id": "ATLAS",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/atlas/ATLAS_V1.md",
+        "local_path": "w10_world_sources/world__atlas__ATLAS_V1.md",
+        "scope": "Registered anchors and regional relationships"
+      },
+      {
+        "id": "PHYSICAL",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/atlas/PHYSICAL_ATLAS_V1.md",
+        "local_path": "w10_world_sources/world__atlas__PHYSICAL_ATLAS_V1.md",
+        "scope": "Temperate subcontinent, regions, movement and watershed logic"
+      },
+      {
+        "id": "HANDLES",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/location-control-plane/registries/PARENT_SUBLOCATION_REGISTRY.json",
+        "local_path": "w10_world_sources/world__location-control-plane__registries__PARENT_SUBLOCATION_REGISTRY.json",
+        "scope": "Exact existing feature handles used in proposed sub-sites"
+      },
+      {
+        "id": "WEATHER",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/data/weather_regions.json",
+        "local_path": "w10_world_sources/world__data__weather_regions.json",
+        "scope": "Regional weather propagation; no new major event declared"
+      },
+      {
+        "id": "NEUTRAL",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/location-control-plane/locations/LOC-COMPACT-NEUTRAL-GROUNDS/CARD.json",
+        "local_path": "w10_world_sources/world__location-control-plane__locations__LOC-COMPACT-NEUTRAL-GROUNDS__CARD.json",
+        "scope": "Provisional anchor, basin terrain, ceremonial field, pavilion and arrival roads"
+      }
+    ]
+  },
+  "interpretation": "The controlling Markdown selects recommended trials. Review alternatives remain visible as alternatives, not adopted names or canon. Older copy and artist files retain their previous candidate state until reconciliation after creative selection."
+}

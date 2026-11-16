@@ -1,6 +1,12 @@
 # Schemin ’26 — Week 10 pre-production
 
-**Working title: The Ceiling Breaks.** Prepared November 16, 2026, before Chargers–Ravens. This is the completed written pre-production package for creative review; results and final art remain open.
+**Working title: The Ceiling Breaks.** Prepared November 16, 2026, before Chargers–Ravens. The written foundation is available; the current stage is **Commonwealth story and location brainstorming, Pass 1**. Stories, environments, department placement, copy and page count remain candidates for Jake’s successive creative passes. Results and final art remain open.
+
+## Current review — Commonwealth story and location Pass 1
+
+Start with [world-story-pass-01.md](world-story-pass-01.md) for all six story reminders, six proposed local sites within existing Atlas anchors, practical lighting and scale, landscape department settings, issue-wide dependencies and Pass 2/3 choices. The [structured companion](world-story-pass-01.json) retains the Atlas, production and Inklings review basis.
+
+This pass reopens development at Jake’s request. Prior artist briefs are candidate material, not approved production locks. Proposed sub-site names and architecture have not been promoted into the Atlas. The recommendations below and in older files are not silently updated to every Pass 1 suggestion; that reconciliation follows the next creative selections.
 
 ## Complete illustrated PNG production — commissioner correction
 
@@ -12,7 +18,7 @@ The continuation adds **33 actual illustrated-page artist briefs** (18 matchup p
 
 The six stories now follow Jake’s personal direction: an explosive Jedi/Imperial battle; a birthday-party catastrophe; sustained Slob domination; newborn/noise trolling at the temple; a cold autumn storm shaped by Red’s 2022 semifinal memory; and a muddy public rodeo ending in Chili’s hogtie. These directions supersede the first packet’s quieter staging.
 
-Every pairing now has a verified historical anchor. The research distinguishes old team names from current owners, consolation games from elimination, and past outcomes from this week’s still-open results. The proposed page count and stable page IDs are unchanged.
+Every pairing now has a verified historical anchor. The research distinguishes old team names from current owners, consolation games from elimination, and past outcomes from this week’s still-open results. Existing page IDs remain useful references; the reading order and page count remain open during the new creative passes.
 
 ## Completed
 
@@ -27,6 +33,8 @@ Every pairing now has a verified historical anchor. The research distinguishes o
 
 | File | Purpose |
 |---|---|
+| [world-story-pass-01.md](world-story-pass-01.md) | Current brainstorming brief: six rooted stories, local sites, light, landscape transitions and issue continuity |
+| [world-story-pass-01.json](world-story-pass-01.json) | Structured Atlas/site proposals, Inklings alternatives, production dependencies and sources |
 | [illustrated-png-direction.md](illustrated-png-direction.md) | Controlling full-page PNG direction and actual visual precedent review |
 | [illustrated-page-briefs.md](illustrated-page-briefs.md) | 33 complete artist-facing page commissions |
 | [illustrated-page-briefs.json](illustrated-page-briefs.json) | Exact copy, facts and current references bound to each full-page commission |
