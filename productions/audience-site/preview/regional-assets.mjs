@@ -29,7 +29,17 @@ export function buildRegionalAssets(THREE, bindings, height) {
   }
   function waterfall(g,x,y,z,width,drop){
     const m=waterMaterial('waterfall','#67aaa0'),o=mesh(g,new THREE.PlaneGeometry(width,drop,8,12),m,x,y-drop/2,z);o.castShadow=false;o.renderOrder=2;water.push({kind:'waterfall',material:m,mesh:o});
-    for(let i=0;i<5;i++){const foam=mesh(g,new THREE.TorusGeometry(width*.25+i*.18,.026,4,36),mat('#b5d8b2'),x,y-drop+.08,z+.7+i*.12);foam.rotation.x=-Math.PI/2;foam.scale.y=.6;foam.castShadow=false;}
+    // Moving landing ripples, not frozen metallic-looking torus props.
+    // Candidate local detail only: no claim about actual approved hydrology geometry.
+    for(let i=0;i<4;i++){
+      const m=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uPhase:{value:i/4}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
+        vertexShader:`uniform float uTime;uniform float uPhase;varying float vFade;void main(){float progress=fract(uTime*.19+uPhase);vec3 p=position;p.xy*=.55+progress*2.65;vFade=pow(1.-progress,1.5);gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);}`,
+        fragmentShader:`varying float vFade;void main(){gl_FragColor=vec4(.75,.95,.83,.43*vFade);}`});
+      materials.set('landing-ripple-'+i,m);
+      const ring=mesh(g,new THREE.RingGeometry(.89,1,48),m,x,y-drop+.10+i*.008,z+.9);
+      ring.rotation.x=-Math.PI/2;ring.castShadow=false;ring.receiveShadow=false;ring.renderOrder=3;
+      water.push({kind:'landing-ripple',material:m,mesh:ring});
+    }
   }
   function temple(g){
     // Source-supported raised stone temple, vegetation and falling water; exact forms are candidates.
