@@ -2,6 +2,10 @@
 
 **Prepared November 16, 2026.** The issue is a draft for creative review. No new illustrated page or final PDF is represented as approved.
 
+## Controlling artwork method
+
+Jake’s latest direction requires a complete full-page illustrated PNG, with text, factual lettering and scene conceived together. The proposed PDF/layout-rehearsal route is stopped. Use illustrated-page-briefs.json and illustrated-png-direction.md for the next commission; do not use the HTML review as a visual template. The actual Week 4 and Week 6 images have been inspected as artistic precedents.
+
 ## Work performed before Monday Night Football
 
 The packet contains a completed source review, normalized sports desk, all 12 character references, continuity and route decisions, six matchup treatments with draft prose and alternate endings, supporting department copy, a complete proposed reading order, and populated page contracts. The review used the delivered Week 9 PDF, the Week 8 execution precedent and the current weekly production instructions.
@@ -58,7 +62,7 @@ After the game:
 
 1. Attach the exact resolved reference image bytes to each character-bearing commission. Use current presentation references plus applicable later overrides; preserve historical primary-source provenance. Reference availability and a hash check are not proof of renderer attachment.
 2. Carry Jake’s accepted muddy rodeo direction into the arena layout and scene dressing. Preserve route connectivity, the same landmark positions across a sequence and the absence of unapproved ownership, belt or species changes.
-3. Typeset or deterministically insert every factual module from its facts selector. Never ask uncontrolled image lettering to decide a score, record, ranking, player name or transaction term.
+3. Carry source-controlled exact words and figures through the complete illustrated composition. Verify every occurrence on the actual PNG against its facts selector. Any correction must preserve the scene’s material, light and composition; it must not add a separate report panel or generic widget.
 4. Produce complete native **1080 × 1920 PNG** masters. Check their actual file dimensions; do not stretch a different ratio and label it native.
 5. Review character identity, action mechanics, foreground/midground/background continuity, copy-image complementarity, all numerical occurrences and phone readability at approximately **390 pixels wide**.
 6. Record actual acceptance before any page becomes LOCKED. The existing contract path is PLANNED → CONTRACTED → READY_FOR_RENDER → GENERATED → QA_PENDING → LOCKED.

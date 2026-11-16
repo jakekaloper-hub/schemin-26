@@ -1,6 +1,9 @@
 # Week 10 preproduction workflow audit
 ## Evidence review, practical output contract, and prior-week lessons
 
+> **Current commissioner correction — November 16:** This audit records earlier workflow language. Jake explicitly requires complete integrated cinematic PNG pages. References below to layout rehearsal are superseded where they imply PDF/document templates, rigid text boxes or programmatic page proofs. Use `illustrated-png-direction.md` and the complete illustrated-page briefs. Actual raster review remains necessary; no document-layout test substitutes for the artwork.
+
+
 **Prepared:** November 16, 2026, for the active Week 10 pre–Monday Night Football production request.  
 **Audit scope:** Repository workflow review completed before the editorial packet was assembled. Current completion status is in README.md; recommendations below record the reviewed precedent.  
 **Main reviewed:** [a24656366b73d1ef8ec98cf405d2337194bd2b97](https://github.com/jakekaloper-hub/schemin-26/commit/a24656366b73d1ef8ec98cf405d2337194bd2b97), November 13, 2026.  

@@ -4,6 +4,10 @@
 
 The proposed reading run has **32 pages**, with one additional prepared Pittsy’s Book slot held out by default. All six matchups have three written beats and alternative payoff copy. Page IDs remain stable if the order changes.
 
+## Full-page PNG production
+
+This document is backstage exact-copy source. Its Markdown or HTML presentation is not the page design. The complete illustration, words, atmosphere and factual lettering are composed together under [the corrected production direction](illustrated-png-direction.md), with [a full artist brief for every page](illustrated-page-briefs.md).
+
 ## Personalization revision
 
 All six matchup sequences below incorporate Jake’s November 16 personal direction and a verified prior-matchup anchor. The first packet’s quiet table, flood, doorway and crate mechanisms are superseded. Historical context shown in each scene plan is source material for the writing; it is not an instruction to print every research paragraph on the page.

@@ -2,6 +2,12 @@
 
 **Working title: The Ceiling Breaks.** Prepared November 16, 2026, before Chargers–Ravens. This is the completed written pre-production package for creative review; results and final art remain open.
 
+## Complete illustrated PNG production — commissioner correction
+
+The master is one **full-page cinematic 1080 × 1920 PNG**. Artwork, action, environment, headline, narration and factual lettering are conceived together. Jake explicitly rejected a PDF/document-layout approach. No Week 10 PDF, wireframe or template-layout proof was produced. The HTML document is only a written production review, never a page master or visual template.
+
+The continuation adds **33 actual illustrated-page artist briefs** (18 matchup pages and 15 departments, including the optional Book), with exact copy, current reference bindings and inherited fact selectors. Root opened the actual Week 4 and Week 6 benchmark images and applied their integrated visual principles. See [the direction and inspected precedents](illustrated-png-direction.md) and [the complete artist briefs](illustrated-page-briefs.md).
+
 ## Personalized cinematic revision — November 16
 
 The six stories now follow Jake’s personal direction: an explosive Jedi/Imperial battle; a birthday-party catastrophe; sustained Slob domination; newborn/noise trolling at the temple; a cold autumn storm shaped by Red’s 2022 semifinal memory; and a muddy public rodeo ending in Chili’s hogtie. These directions supersede the first packet’s quieter staging.
@@ -21,6 +27,10 @@ Every pairing now has a verified historical anchor. The research distinguishes o
 
 | File | Purpose |
 |---|---|
+| [illustrated-png-direction.md](illustrated-png-direction.md) | Controlling full-page PNG direction and actual visual precedent review |
+| [illustrated-page-briefs.md](illustrated-page-briefs.md) | 33 complete artist-facing page commissions |
+| [illustrated-page-briefs.json](illustrated-page-briefs.json) | Exact copy, facts and current references bound to each full-page commission |
+| [director-sequences.json](director-sequences.json) | Six sequence boards and 18 cinematic matchup prompts |
 | [personalization-intake.md](personalization-intake.md) | Accepted personal and cinematic direction for all six scenes |
 | [historical-context.md](historical-context.md) | Readable six-pair history and why each result matters now |
 | [historical-research.json](historical-research.json) | Verified historical anchors,37 retrieved meetings and coverage limits |
