@@ -84,19 +84,19 @@
 ### Folio 05 — Everybody Gets a View (`W10-P05`)
 - **Source:** `W10-M01`; **set:** Arsenal Rodeo Grounds (`SET-W10-DK-RODEO-GROUNDS`)
 - **Sketch:** Low rail-side pursuit: Chili running, DK four-hooved centaur swings his own lasso overhead
-- **Characters/assets:** The Chili Cheesers — `VERIFY_CANON_ALIAS` — `VERIFY_REFERENCE`; D0nkey K0ng — `CHAR-WILSON-LOOK` — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png`
+- **Characters/assets:** The Chili Cheesers — `CHAR-BRANDON-PRYOR` — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png`; D0nkey K0ng — `CHAR-WILSON-LOOK` — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png`
 - **Continuity / no-go:** Gate, crowd, Dark Horse at holding rail; no capture yet
 
 ### Folio 06 — The Ring Runs Out (`W10-P06`)
 - **Source:** `W10-M01`; **set:** Arsenal Rodeo Grounds (`SET-W10-DK-RODEO-GROUNDS`)
 - **Sketch:** Tracking inside Chili's turn, DK's thrown loop reaches torso, boot skids
-- **Characters/assets:** The Chili Cheesers — `VERIFY_CANON_ALIAS` — `VERIFY_REFERENCE`; D0nkey K0ng — `CHAR-WILSON-LOOK` — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png`
+- **Characters/assets:** The Chili Cheesers — `CHAR-BRANDON-PRYOR` — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png`; D0nkey K0ng — `CHAR-WILSON-LOOK` — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png`
 - **Continuity / no-go:** Rope never touches neck; no instant hogtie
 
 ### Folio 07 — No Private Exit (`W10-P07`)
 - **Source:** `W10-M01`; **set:** Arsenal Rodeo Grounds (`SET-W10-DK-RODEO-GROUNDS`)
 - **Sketch:** Wide center-ring aftermath, DK manually finishes hogtie, Chili muddy and exposed
-- **Characters/assets:** The Chili Cheesers — `VERIFY_CANON_ALIAS` — `VERIFY_REFERENCE`; D0nkey K0ng — `CHAR-WILSON-LOOK` — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png`
+- **Characters/assets:** The Chili Cheesers — `CHAR-BRANDON-PRYOR` — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png`; D0nkey K0ng — `CHAR-WILSON-LOOK` — `canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png`
 - **Continuity / no-go:** Same hat, rope, gate, galleries and hoof tracks
 
 ### Folio 08 — One More Bag (`W10-P08`)
