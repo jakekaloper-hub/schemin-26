@@ -224,7 +224,7 @@
         "unit": "Complete integrated illustrated page"
       },
       "controlling_direction": "illustrated-png-direction.md",
-      "artist_prompt": "Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.\n\nSite and ordinary use: League Archive courier court. Registered parent LOC-LEAGUE-ARCHIVE; SET-W10-ARCHIVE-COURIER-ARRIVALS is proposed local staging, not promoted canon.\n\nCamera: Wide diagonal from the sheltered record-hall entrance across an active courier court; arrivals give depth and purpose. Foreground: Damp dispatch bags and a clerk protecting a newly arrived sheet. Midground: Ordinary couriers crossing old paving toward warm lamps. Background: Open route beyond arch with windblown leaves; no claim that all six locations are visible.\n\nBaked-in lighting: Amber record-hall spill meets cold courtyard air.\n\nEditorial purpose: Connect all six personal stories to competitive pressure and an expanding weather front.\n\nContinuity pass: This is omniscient editorial introduction to proposed fiction; it does not turn private dialogue into commissioner eyewitness evidence. Result-dependent wording waits for the appropriate final branch.\n\nUse the exact publication copy and source bindings. Its rows are content, not a prescribed table-shaped image template.",
+      "artist_prompt": "Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.\n\nSite and ordinary use: League Archive courier court. Registered parent LOC-LEAGUE-ARCHIVE; SET-W10-ARCHIVE-COURIER-ARRIVALS is proposed local staging, not promoted canon.\n\nCamera: Wide diagonal from the sheltered record-hall entrance across an active courier court; arrivals give depth and purpose. Foreground: Damp dispatch bags and a clerk protecting a newly arrived sheet. Midground: Ordinary couriers crossing old paving toward warm lamps. Background: Open route beyond arch with windblown leaves; no claim that all six locations are visible.\n\nBaked-in lighting: Amber record-hall spill meets cold courtyard air.\n\nEditorial purpose: Connect all six personal stories to competitive pressure and an expanding weather front.\n\nContinuity pass: This is omniscient editorial introduction to proposed fiction; it does not turn private dialogue into commissioner eyewitness evidence. Result-dependent wording waits for the appropriate final branch.\n\nUse the exact publication copy and source bindings. Its rows are content, not a prescribed table-shaped image template.\n\nFOUNDER LOCATION OVERRIDE: Opening Drive must be staged on the established Mountain Lake Bridge and approach (LOC-BRIDGE-MOUNTAIN-LAKE), not inside the League Archive courier court. Couriers travel across the bridge toward the Archive; preserve full Pass4 narrative and approved published Opening Drive visual language. Camera: wide cinematic bridge approach with coherent lake, mountain, road, moving couriers and advancing weather, no generic football stadium, rodeo, montage grid or generic castle. Exact bridge precedent still requires visual verification.",
       "publication_copy": {
         "headline": "ROOM ABOVE TWO HUNDRED",
         "deck": "The week the pressure reached everyone",
@@ -399,16 +399,20 @@
       },
       "fact_lettering_instruction": "Preserve the exact supplied names, values, qualifiers and source scopes. Compose these as part of the same artwork; compare all visible occurrences to current source fields and repair in the established style. Do not add a new data module merely because a backstage field exists.",
       "reference_bindings": [],
-      "identity_and_continuity_constraints": [],
+      "identity_and_continuity_constraints": [
+        "Published Opening Drive visual precedent and Mountain Lake Bridge exact geometry pending visual QA"
+      ],
       "encounter": {
-        "venue_id": "LOC-LEAGUE-ARCHIVE",
-        "set_id": "SET-W10-ARCHIVE-COURIER-ARRIVALS",
+        "venue_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "set_id": "SET-W10-MOUNTAIN-LAKE-OPENING-APPROACH",
         "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
         "division_context": "League-wide; divisions are overlays",
         "route_required": false,
         "world_state_in": "Existing place with selective wear and maintenance",
         "persistent_landmarks": [
-          "League Archive courier court"
+          "Mountain Lake Bridge",
+          "Established stone bridge approach",
+          "Couriers travelling toward League Archive"
         ],
         "provisional_location": true,
         "formal_atlas_promotion": false
