@@ -22,9 +22,23 @@ export function buildRegionalAssets(THREE, bindings, height) {
     // Local candidate current direction/speed: visualization only, no new hydrology canon.
     const wetland=kind==='swamp'||kind==='channel';
     const flow=kind==='channel'?new THREE.Vector2(-.034,.013):kind==='swamp'?new THREE.Vector2(.012,-.009):new THREE.Vector2(0,0);
-    const m=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uFall:{value:kind==='waterfall'?1:0},uWetland:{value:wetland?1:0},uFlow:{value:flow}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
+    const m=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uFall:{value:kind==='waterfall'?1:0},uWetland:{value:wetland?1:0},uFlow:{value:flow},uSheenGain:{value:kind==='swamp'?.42:kind==='channel'?.62:0}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
       vertexShader:`varying vec2 vUv;varying vec3 vWorld;void main(){vUv=uv;vWorld=(modelMatrix*vec4(position,1.)).xyz;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}`,
-      fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uFall;uniform float uWetland;uniform vec2 uFlow;varying vec2 vUv;varying vec3 vWorld;void main(){float stripe;if(uFall>.5){stripe=pow(.5+.5*sin(vUv.x*21.+sin(vUv.y*9.-uTime*3.8)*1.9),3.);float foam=pow(.5+.5*sin(vUv.y*35.+uTime*9.+sin(vUv.x*13.)),4.);gl_FragColor=vec4(mix(uColor,vec3(.84,.96,.89),.27+stripe*.14+foam*.17),.88);}else if(uWetland>.5){vec2 wetlandUv = vUv + uFlow * uTime;float meander=sin(wetlandUv.y*9.+sin(wetlandUv.x*4.)*.8)*.065;float currentSheen=pow(.5+.5*sin((wetlandUv.x+meander)*52.+wetlandUv.y*14.),9.);float eddy=pow(.5+.5*sin(length((vUv-vec2(.5))*vec2(1.,1.4))*38.-uTime*.8),9.);float sediment=.5+.5*sin((wetlandUv.x-wetlandUv.y)*13.+sin(vUv.y*7.));vec3 waterTint=mix(uColor,uColor*vec3(.82,.92,.80),sediment*.25);gl_FragColor=vec4(waterTint+vec3(.18,.25,.18)*currentSheen+vec3(.05,.09,.07)*eddy,.9);}else{float a=sin(vWorld.x*3.+uTime*.6+sin(vWorld.z*2.2))*sin(vWorld.z*3.8-uTime*.34);float rim=pow(clamp(a,0.,1.),6.);gl_FragColor=vec4(uColor+vec3(.25,.34,.24)*rim,.88);}}`});
+      fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uFall;uniform float uWetland;uniform vec2 uFlow;uniform float uSheenGain;varying vec2 vUv;varying vec3 vWorld;void main(){float stripe;if(uFall>.5){stripe=pow(.5+.5*sin(vUv.x*21.+sin(vUv.y*9.-uTime*3.8)*1.9),3.);float foam=pow(.5+.5*sin(vUv.y*35.+uTime*9.+sin(vUv.x*13.)),4.);gl_FragColor=vec4(mix(uColor,vec3(.84,.96,.89),.27+stripe*.14+foam*.17),.88);}else if(uWetland>.5){
+      // Broken, low-contrast elongated reflections rather than high-frequency luminous grids.
+      vec2 wetlandUv = vUv + uFlow * uTime;
+      float meander=sin(wetlandUv.y*10.+sin(wetlandUv.x*6.)*.5)*.024;
+      float breakup=.5+.5*sin(wetlandUv.y*17.+sin(wetlandUv.x*13.)*1.2);
+      float currentPattern=sin((wetlandUv.x+meander)*44.+wetlandUv.y*11.+sin(wetlandUv.x*9.)*.8);
+      float currentSheen=pow(max(currentPattern,0.),13.)*smoothstep(.45,.9,breakup);
+      float eddy=pow(max(sin(length((wetlandUv-vec2(.52,.44))*vec2(1.,1.4))*30.-uTime*.15),0.),12.);
+      float eddyFade=1.-smoothstep(.12,.42,length(wetlandUv-vec2(.52,.44)));
+      float sediment=.5+.5*sin((wetlandUv.x-wetlandUv.y)*10.+sin(wetlandUv.y*6.)*.6);
+      vec3 waterTint=mix(uColor,uColor*vec3(.84,.92,.80),sediment*.13);
+      vec3 lowSheen=vec3(.13,.16,.14)*(currentSheen * uSheenGain);
+      vec3 quietEddy=vec3(.04,.06,.05)*(eddy*eddyFade*.5*uSheenGain);
+      gl_FragColor=vec4(waterTint+lowSheen+quietEddy,.92);
+      }else{float a=sin(vWorld.x*3.+uTime*.6+sin(vWorld.z*2.2))*sin(vWorld.z*3.8-uTime*.34);float rim=pow(clamp(a,0.,1.),6.);gl_FragColor=vec4(uColor+vec3(.25,.34,.24)*rim,.88);}}`});
     materials.set('water-'+water.length,m);return m;
   }
   function pool(g,kind,x,y,z,rx,rz,color='#387e75'){
