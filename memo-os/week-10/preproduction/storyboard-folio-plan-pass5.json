@@ -1,0 +1,918 @@
+{
+  "schema_version": "1.0",
+  "purpose": "PREGENERATION_APPROVAL_PLAN",
+  "source_authority": {
+    "page_order": "issue-previs.json#recommended_reading_order",
+    "page_prose": "issue-draft.md",
+    "characters": "character-world-packet.json",
+    "landscapes": "landscape-set-bible-pass4.json"
+  },
+  "planned_folios": 34,
+  "planned_individual_sketches": 34,
+  "planned_contact_sheets": 6,
+  "optional_omitted": "W10-P32 Pittsy's Book",
+  "policy": [
+    "Do not generate until user reviews this written plan.",
+    "Do not collapse scenes into composite panoramas or invent extra page order.",
+    "Render each full folio independently; six-up is a contact sheet only.",
+    "Keep score, winner, record, seed, injury status and numerical forecast spaces empty unless independently verified and approved.",
+    "Preserve character reference and existing physical geography; no generic animal or Vader substitution.",
+    "No claim of real Inklings, Peter Jackson, Tim Veal or professional production team participation."
+  ],
+  "folios": [
+    {
+      "folio": 1,
+      "page_id": "W10-P01",
+      "title": "THE CEILING BREAKS",
+      "source_card_id": "W10-S01",
+      "role": "cover",
+      "location": "League Chamber scoring court",
+      "set_id": null,
+      "composition": "Low wide civic arch, two blank scoring standards, couriers fixing windblown banners; storm above",
+      "continuity_guard": "Do not insert provisional 200-point numbers or fake character gathering",
+      "characters": [],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 2,
+      "page_id": "W10-P02",
+      "title": "ROOM ABOVE TWO HUNDRED",
+      "source_card_id": "W10-S02",
+      "role": "opening_drive",
+      "location": "Mountain Lake Bridge",
+      "set_id": null,
+      "composition": "Wide dawn crossing, six separate couriers/objects foreshadowing six stories; storm shelf from east",
+      "continuity_guard": "Do not montage all characters together",
+      "characters": [],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 3,
+      "page_id": "W10-P03",
+      "title": "KEEP THE WHOLE LEAGUE IN VIEW",
+      "source_card_id": "W10-S03",
+      "role": "commissioner_note",
+      "location": "League Chamber threshold",
+      "set_id": null,
+      "composition": "Medium commissioner silhouette with ledger and seven unfilled berth emblems; inhabited chamber",
+      "continuity_guard": "No invented quote or exact seeds",
+      "characters": [],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 4,
+      "page_id": "W10-P04",
+      "title": "THE WEEK 10 BOARD",
+      "source_card_id": "W10-S04",
+      "role": "scoreboard",
+      "location": "Compact Arbiter Pavilion",
+      "set_id": null,
+      "composition": "Wide public board with six matchup name pairs and 12 EMPTY score plaques",
+      "continuity_guard": "No numerals, winners, records, or percentages",
+      "characters": [],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 5,
+      "page_id": "W10-P05",
+      "title": "Everybody Gets a View",
+      "source_card_id": "W10-M01",
+      "role": "matchup_establishing",
+      "location": "Arsenal Rodeo Grounds",
+      "set_id": "SET-W10-DK-RODEO-GROUNDS",
+      "composition": "Low rail-side pursuit: Chili running, DK four-hooved centaur swings his own lasso overhead",
+      "continuity_guard": "Gate, crowd, Dark Horse at holding rail; no capture yet",
+      "characters": [
+        {
+          "name": "The Chili Cheesers",
+          "character_id": "VERIFY_CANON_ALIAS",
+          "asset": "VERIFY_REFERENCE"
+        },
+        {
+          "name": "D0nkey K0ng",
+          "character_id": "CHAR-WILSON-LOOK",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png"
+        }
+      ],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 6,
+      "page_id": "W10-P06",
+      "title": "The Ring Runs Out",
+      "source_card_id": "W10-M01",
+      "role": "matchup_action",
+      "location": "Arsenal Rodeo Grounds",
+      "set_id": "SET-W10-DK-RODEO-GROUNDS",
+      "composition": "Tracking inside Chili's turn, DK's thrown loop reaches torso, boot skids",
+      "continuity_guard": "Rope never touches neck; no instant hogtie",
+      "characters": [
+        {
+          "name": "The Chili Cheesers",
+          "character_id": "VERIFY_CANON_ALIAS",
+          "asset": "VERIFY_REFERENCE"
+        },
+        {
+          "name": "D0nkey K0ng",
+          "character_id": "CHAR-WILSON-LOOK",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png"
+        }
+      ],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 7,
+      "page_id": "W10-P07",
+      "title": "No Private Exit",
+      "source_card_id": "W10-M01",
+      "role": "matchup_payoff",
+      "location": "Arsenal Rodeo Grounds",
+      "set_id": "SET-W10-DK-RODEO-GROUNDS",
+      "composition": "Wide center-ring aftermath, DK manually finishes hogtie, Chili muddy and exposed",
+      "continuity_guard": "Same hat, rope, gate, galleries and hoof tracks",
+      "characters": [
+        {
+          "name": "The Chili Cheesers",
+          "character_id": "VERIFY_CANON_ALIAS",
+          "asset": "VERIFY_REFERENCE"
+        },
+        {
+          "name": "D0nkey K0ng",
+          "character_id": "CHAR-WILSON-LOOK",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png"
+        }
+      ],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 8,
+      "page_id": "W10-P08",
+      "title": "One More Bag",
+      "source_card_id": "W10-M02",
+      "role": "matchup_establishing",
+      "location": "Red's river-edge soccer terrace",
+      "set_id": "SET-W10-RED-TERRACE",
+      "composition": "Red crouches placing sandbags, gentle river overflow creeps through prior damaged goal area",
+      "continuity_guard": "Week9 soccer geometry; no basketball court",
+      "characters": [
+        {
+          "name": "Red Leopards",
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png"
+        },
+        {
+          "name": "El Niño",
+          "character_id": "CHAR-MANNING-WELTY",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png"
+        }
+      ],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 9,
+      "page_id": "W10-P09",
+      "title": "The Place That Answered Once",
+      "source_card_id": "W10-M02",
+      "role": "matchup_action",
+      "location": "The Forgotten Court, Central Basin",
+      "set_id": "SET-W10-FORGOTTEN-COURT",
+      "composition": "Explicit later cut to old wall-mounted basketball hoop; tree limb starts falling",
+      "continuity_guard": "Separate geography and travel time from terrace",
+      "characters": [
+        {
+          "name": "Red Leopards",
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png"
+        },
+        {
+          "name": "El Niño",
+          "character_id": "CHAR-MANNING-WELTY",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png"
+        }
+      ],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 10,
+      "page_id": "W10-P10",
+      "title": "That Cold Again",
+      "source_card_id": "W10-M02",
+      "role": "matchup_payoff",
+      "location": "The Forgotten Court, Central Basin",
+      "set_id": "SET-W10-FORGOTTEN-COURT",
+      "composition": "Fallen limb bends hoop; Red seated distraught; Niño laughing within passing storm",
+      "continuity_guard": "2022 memory implied by gesture, not invented flashback stadium",
+      "characters": [
+        {
+          "name": "Red Leopards",
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png"
+        },
+        {
+          "name": "El Niño",
+          "character_id": "CHAR-MANNING-WELTY",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png"
+        }
+      ],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 11,
+      "page_id": "W10-P11",
+      "title": "THE ROADS BETWEEN",
+      "source_card_id": "W10-S05",
+      "role": "world_landscape",
+      "location": "Archive processional and connected routes",
+      "set_id": null,
+      "composition": "Long landscape cross-section of storm arriving coast→basin→southern drainage at different phases",
+      "continuity_guard": "Avoid impossible single contiguous panorama",
+      "characters": [],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 12,
+      "page_id": "W10-P12",
+      "title": "Just as the House Settles",
+      "source_card_id": "W10-M03",
+      "role": "matchup_establishing",
+      "location": "Waterfall Temple courtyard",
+      "set_id": "SET-W10-TDS-TEMPLE-COURT",
+      "composition": "Wide courtyard: Chins drilling paving; TDS three heads emerge above balcony; nursery warmly enclosed",
+      "continuity_guard": "Jackhammer power, rubble start, baby never exposed",
+      "characters": [
+        {
+          "name": "Three Dreaded Snake",
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png"
+        },
+        {
+          "name": "Seven Deadly Chins",
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png"
+        }
+      ],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 13,
+      "page_id": "W10-P13",
+      "title": "He Heard You",
+      "source_card_id": "W10-M03",
+      "role": "matchup_action",
+      "location": "Waterfall Temple courtyard",
+      "set_id": "SET-W10-TDS-TEMPLE-COURT",
+      "composition": "Low Chins POV: drilling paused, laughing toward balcony, music source visible",
+      "continuity_guard": "Waterfall remains steady; TDS partner behind door",
+      "characters": [
+        {
+          "name": "Three Dreaded Snake",
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png"
+        },
+        {
+          "name": "Seven Deadly Chins",
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png"
+        }
+      ],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 14,
+      "page_id": "W10-P14",
+      "title": "No Quiet Hours",
+      "source_card_id": "W10-M03",
+      "role": "matchup_payoff",
+      "location": "Waterfall Temple courtyard",
+      "set_id": "SET-W10-TDS-TEMPLE-COURT",
+      "composition": "Rubble-level wide: jackhammer resumes, paving hole enlarged, furious TDS above",
+      "continuity_guard": "Progressive debris and single tool, no repaired ground",
+      "characters": [
+        {
+          "name": "Three Dreaded Snake",
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png"
+        },
+        {
+          "name": "Seven Deadly Chins",
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png"
+        }
+      ],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 15,
+      "page_id": "W10-P15",
+      "title": "The Swamp Declares a Blockade",
+      "source_card_id": "W10-M04",
+      "role": "matchup_establishing",
+      "location": "Mud's raised swamp service road",
+      "set_id": "SET-W10-MUD-SERVICE-ROAD",
+      "composition": "Wide entrance: Mud declares blockade, Slob beer flatbed approaches along firm causeway",
+      "continuity_guard": "Not a fight, truck scale and loading straps credible",
+      "characters": [
+        {
+          "name": "Mud Dogs",
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png"
+        },
+        {
+          "name": "Slob on my Dobb",
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png"
+        }
+      ],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 16,
+      "page_id": "W10-P16",
+      "title": "Same Speed",
+      "source_card_id": "W10-M04",
+      "role": "matchup_action",
+      "location": "Mud's raised swamp service road",
+      "set_id": "SET-W10-MUD-SERVICE-ROAD",
+      "composition": "Parallel driver-side pass: Slob barely glances, Mud barks from shoulder",
+      "continuity_guard": "Truck maintains speed; kegs secured",
+      "characters": [
+        {
+          "name": "Mud Dogs",
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png"
+        },
+        {
+          "name": "Slob on my Dobb",
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png"
+        }
+      ],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 17,
+      "page_id": "W10-P17",
+      "title": "Cancún Is Calling",
+      "source_card_id": "W10-M04",
+      "role": "matchup_payoff",
+      "location": "Mud's raised swamp service road",
+      "set_id": "SET-W10-MUD-SERVICE-ROAD",
+      "composition": "Long receding truck lights, Mud alone under weathered sign, Cancún postcard on post",
+      "continuity_guard": "Cancún a taunt, not confirmed elimination",
+      "characters": [
+        {
+          "name": "Mud Dogs",
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png"
+        },
+        {
+          "name": "Slob on my Dobb",
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png"
+        }
+      ],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 18,
+      "page_id": "W10-P18",
+      "title": "WHY THE BOARD MOVED",
+      "source_card_id": "W10-S06",
+      "role": "sports_desk",
+      "location": "Archive Sports Desk court",
+      "set_id": null,
+      "composition": "Courier-led records, player-performance portraits as pinned illustrated notices, empty numeric seals",
+      "continuity_guard": "No invented point totals",
+      "characters": [],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 19,
+      "page_id": "W10-P34",
+      "title": "THE COST OF SUNDAY",
+      "source_card_id": "W10-S16",
+      "role": "injury_consequences",
+      "location": "Archive injury records gallery",
+      "set_id": null,
+      "composition": "Two archival shelves marked confirmed/report pending; roster consequence dossiers, blank dates/status fields",
+      "continuity_guard": "No false season-ending diagnoses",
+      "characters": [],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 20,
+      "page_id": "W10-P19",
+      "title": "A Very Generous Guest",
+      "source_card_id": "W10-M05",
+      "role": "matchup_establishing",
+      "location": "Jackson birthday dining hall",
+      "set_id": "SET-W10-JACKSON-BANQUET",
+      "composition": "Wide warm banquet entry, Duck celebrating, HMB enters with huge wrapped present",
+      "continuity_guard": "Belt on HMB; no sword duel",
+      "characters": [
+        {
+          "name": "Dr. Duckhook",
+          "character_id": "CHAR-ZACH-WILSON",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png"
+        },
+        {
+          "name": "His Majesty's Blood",
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png"
+        }
+      ],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 21,
+      "page_id": "W10-P20",
+      "title": "The 200 Burger",
+      "source_card_id": "W10-M05",
+      "role": "matchup_action",
+      "location": "Jackson birthday dining hall",
+      "set_id": "SET-W10-JACKSON-BANQUET",
+      "composition": "Table-level reveal of double-decker 200 BURGER in open box; Duck's smile tightens",
+      "continuity_guard": "Separate cake remains on sideboard; 200 is prop title, not final score",
+      "characters": [
+        {
+          "name": "Dr. Duckhook",
+          "character_id": "CHAR-ZACH-WILSON",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png"
+        },
+        {
+          "name": "His Majesty's Blood",
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png"
+        }
+      ],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 22,
+      "page_id": "W10-P21",
+      "title": "Many Unhappy Returns",
+      "source_card_id": "W10-M05",
+      "role": "matchup_payoff",
+      "location": "Jackson birthday dining hall",
+      "set_id": "SET-W10-JACKSON-BANQUET",
+      "composition": "Medium close decisive cake smear on Duck's bill, laughing guests, untouched burger",
+      "continuity_guard": "Candles cleared, HMB belt, frosting continuity",
+      "characters": [
+        {
+          "name": "Dr. Duckhook",
+          "character_id": "CHAR-ZACH-WILSON",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png"
+        },
+        {
+          "name": "His Majesty's Blood",
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png"
+        }
+      ],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 23,
+      "page_id": "W10-P22",
+      "title": "The Empire Opens Fire",
+      "source_card_id": "W10-M06",
+      "role": "matchup_establishing",
+      "location": "Obi's Mountain Ridge Gate",
+      "set_id": "SET-W10-OBI-RIDGE-GATE",
+      "composition": "Low causeway attack: Obi green blade deflects red fire and destroys first battery",
+      "continuity_guard": "LLC suit/tie/sunglasses; two batteries established",
+      "characters": [
+        {
+          "name": "ObiWan Jacoby",
+          "character_id": "CHAR-JAKE-KALOPER",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png"
+        },
+        {
+          "name": "The LLC",
+          "character_id": "CHAR-DAVID-BABB",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png"
+        }
+      ],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 24,
+      "page_id": "W10-P23",
+      "title": "Two Ways Through",
+      "source_card_id": "W10-M06",
+      "role": "matchup_action",
+      "location": "Obi's Mountain Ridge Gate",
+      "set_id": "SET-W10-OBI-RIDGE-GATE",
+      "composition": "Elevated ridge counterattack, LLC directs surviving battery",
+      "continuity_guard": "Keep wind and smoke direction consistent",
+      "characters": [
+        {
+          "name": "ObiWan Jacoby",
+          "character_id": "CHAR-JAKE-KALOPER",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png"
+        },
+        {
+          "name": "The LLC",
+          "character_id": "CHAR-DAVID-BABB",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png"
+        }
+      ],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 25,
+      "page_id": "W10-P24",
+      "title": "Unlimited Firepower",
+      "source_card_id": "W10-M06",
+      "role": "matchup_payoff",
+      "location": "Obi's Mountain Ridge Gate",
+      "set_id": "SET-W10-OBI-RIDGE-GATE",
+      "composition": "Inner arch defense under remaining battery fire, Obi holds position",
+      "continuity_guard": "Destroyed first battery stays destroyed; no official final score",
+      "characters": [
+        {
+          "name": "ObiWan Jacoby",
+          "character_id": "CHAR-JAKE-KALOPER",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png"
+        },
+        {
+          "name": "The LLC",
+          "character_id": "CHAR-DAVID-BABB",
+          "asset": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png"
+        }
+      ],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 26,
+      "page_id": "W10-P25",
+      "title": "THE NEXT STARTING SHEET",
+      "source_card_id": "W10-S07",
+      "role": "reserve_watch",
+      "location": "Road Commons reserve exchange",
+      "set_id": null,
+      "composition": "Working dispatch board with six team slots and seven blank vacancy markers",
+      "continuity_guard": "No fabricated waiver pickups",
+      "characters": [],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 27,
+      "page_id": "W10-P26",
+      "title": "MOVES THAT REACHED THE ROSTER",
+      "source_card_id": "W10-S08",
+      "role": "moves",
+      "location": "Road Commons market lane",
+      "set_id": null,
+      "composition": "Couriers exchange sealed roster ledgers and crates, trade history physicalized",
+      "continuity_guard": "No literal NFL players as cargo",
+      "characters": [],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 28,
+      "page_id": "W10-P27",
+      "title": "TWELVE TEAMS. NINE POSTED RESULTS.",
+      "source_card_id": "W10-S09",
+      "role": "standings",
+      "location": "Archive records hall",
+      "set_id": null,
+      "composition": "Twelve team crests in established provider order, blank record/seed fields",
+      "continuity_guard": "Do not substitute projections for standings",
+      "characters": [],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 29,
+      "page_id": "W10-P28",
+      "title": "THREE DIVISIONS. DIFFERENT PRESSURES.",
+      "source_card_id": "W10-S10",
+      "role": "state_of_the_realm",
+      "location": "Central Basin crossroads",
+      "set_id": null,
+      "composition": "Three routes labeled Burgers, Pizza, Wings converge at one crossroads",
+      "continuity_guard": "Divisions not separate nations",
+      "characters": [],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 30,
+      "page_id": "W10-P29",
+      "title": "THE TWELVE — SCORING FORM",
+      "source_card_id": "W10-S11",
+      "role": "scoring_form",
+      "location": "Archive record court",
+      "set_id": null,
+      "composition": "Twelve numbered banner positions with blank score-form indices",
+      "continuity_guard": "70/30 methodology may appear as note, not invented values",
+      "characters": [],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 31,
+      "page_id": "W10-P30",
+      "title": "FOUR MORE AFTER THIS",
+      "source_card_id": "W10-S12",
+      "role": "road_to_playoffs",
+      "location": "Alpine playoff base camp",
+      "set_id": null,
+      "composition": "Seven illuminated berth lanterns; twelve trails through snowy pass, some uncertain",
+      "continuity_guard": "Mud path open; no elimination X",
+      "characters": [],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 32,
+      "page_id": "W10-P31",
+      "title": "THE NEXT SIX",
+      "source_card_id": "W10-S13",
+      "role": "next_six",
+      "location": "Courier departure yard",
+      "set_id": null,
+      "composition": "Six departing paired banners/routes, all Week11 pairings by name, no odds",
+      "continuity_guard": "HMB→DK and Niño→Slob are distinct routes",
+      "characters": [],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 33,
+      "page_id": "W10-P35",
+      "title": "THE CROSSING NARROWS",
+      "source_card_id": "W10-S17",
+      "role": "week11_gotw_preview",
+      "location": "Highland approach to DK stronghold",
+      "set_id": null,
+      "composition": "Opposing silhouettes HMB and DK on separate ridges facing next week's crossing",
+      "continuity_guard": "No invented Week11 result or literal combat yet",
+      "characters": [],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    },
+    {
+      "folio": 34,
+      "page_id": "W10-P33",
+      "title": "THE WEATHER IS COMING HOME",
+      "source_card_id": "W10-S15",
+      "role": "final_word",
+      "location": "Mountain Lake Bridge dusk",
+      "set_id": null,
+      "composition": "Return to opening camera axis, storm aftermath, couriers carrying six consequences",
+      "continuity_guard": "End with Storm Watch Niño→Slob, not an unearned victory",
+      "characters": [],
+      "sketch_format": "Individual 1080x1920 monochrome annotated storyboard, full-page scene, legible title, blank unverified sports facts",
+      "status": "PLAN_ONLY_NO_GENERATION"
+    }
+  ],
+  "contact_sheets": [
+    {
+      "sheet_id": "W10-SB-S01",
+      "layout": "3 columns x 2 rows; each cell is a full individual page miniature",
+      "folios": [
+        {
+          "folio": 1,
+          "page_id": "W10-P01",
+          "title": "THE CEILING BREAKS"
+        },
+        {
+          "folio": 2,
+          "page_id": "W10-P02",
+          "title": "ROOM ABOVE TWO HUNDRED"
+        },
+        {
+          "folio": 3,
+          "page_id": "W10-P03",
+          "title": "KEEP THE WHOLE LEAGUE IN VIEW"
+        },
+        {
+          "folio": 4,
+          "page_id": "W10-P04",
+          "title": "THE WEEK 10 BOARD"
+        },
+        {
+          "folio": 5,
+          "page_id": "W10-P05",
+          "title": "Everybody Gets a View"
+        },
+        {
+          "folio": 6,
+          "page_id": "W10-P06",
+          "title": "The Ring Runs Out"
+        }
+      ],
+      "empty_slots": 0,
+      "export": "six-up contact PNG; individual sketches retained as separate files"
+    },
+    {
+      "sheet_id": "W10-SB-S02",
+      "layout": "3 columns x 2 rows; each cell is a full individual page miniature",
+      "folios": [
+        {
+          "folio": 7,
+          "page_id": "W10-P07",
+          "title": "No Private Exit"
+        },
+        {
+          "folio": 8,
+          "page_id": "W10-P08",
+          "title": "One More Bag"
+        },
+        {
+          "folio": 9,
+          "page_id": "W10-P09",
+          "title": "The Place That Answered Once"
+        },
+        {
+          "folio": 10,
+          "page_id": "W10-P10",
+          "title": "That Cold Again"
+        },
+        {
+          "folio": 11,
+          "page_id": "W10-P11",
+          "title": "THE ROADS BETWEEN"
+        },
+        {
+          "folio": 12,
+          "page_id": "W10-P12",
+          "title": "Just as the House Settles"
+        }
+      ],
+      "empty_slots": 0,
+      "export": "six-up contact PNG; individual sketches retained as separate files"
+    },
+    {
+      "sheet_id": "W10-SB-S03",
+      "layout": "3 columns x 2 rows; each cell is a full individual page miniature",
+      "folios": [
+        {
+          "folio": 13,
+          "page_id": "W10-P13",
+          "title": "He Heard You"
+        },
+        {
+          "folio": 14,
+          "page_id": "W10-P14",
+          "title": "No Quiet Hours"
+        },
+        {
+          "folio": 15,
+          "page_id": "W10-P15",
+          "title": "The Swamp Declares a Blockade"
+        },
+        {
+          "folio": 16,
+          "page_id": "W10-P16",
+          "title": "Same Speed"
+        },
+        {
+          "folio": 17,
+          "page_id": "W10-P17",
+          "title": "Cancún Is Calling"
+        },
+        {
+          "folio": 18,
+          "page_id": "W10-P18",
+          "title": "WHY THE BOARD MOVED"
+        }
+      ],
+      "empty_slots": 0,
+      "export": "six-up contact PNG; individual sketches retained as separate files"
+    },
+    {
+      "sheet_id": "W10-SB-S04",
+      "layout": "3 columns x 2 rows; each cell is a full individual page miniature",
+      "folios": [
+        {
+          "folio": 19,
+          "page_id": "W10-P34",
+          "title": "THE COST OF SUNDAY"
+        },
+        {
+          "folio": 20,
+          "page_id": "W10-P19",
+          "title": "A Very Generous Guest"
+        },
+        {
+          "folio": 21,
+          "page_id": "W10-P20",
+          "title": "The 200 Burger"
+        },
+        {
+          "folio": 22,
+          "page_id": "W10-P21",
+          "title": "Many Unhappy Returns"
+        },
+        {
+          "folio": 23,
+          "page_id": "W10-P22",
+          "title": "The Empire Opens Fire"
+        },
+        {
+          "folio": 24,
+          "page_id": "W10-P23",
+          "title": "Two Ways Through"
+        }
+      ],
+      "empty_slots": 0,
+      "export": "six-up contact PNG; individual sketches retained as separate files"
+    },
+    {
+      "sheet_id": "W10-SB-S05",
+      "layout": "3 columns x 2 rows; each cell is a full individual page miniature",
+      "folios": [
+        {
+          "folio": 25,
+          "page_id": "W10-P24",
+          "title": "Unlimited Firepower"
+        },
+        {
+          "folio": 26,
+          "page_id": "W10-P25",
+          "title": "THE NEXT STARTING SHEET"
+        },
+        {
+          "folio": 27,
+          "page_id": "W10-P26",
+          "title": "MOVES THAT REACHED THE ROSTER"
+        },
+        {
+          "folio": 28,
+          "page_id": "W10-P27",
+          "title": "TWELVE TEAMS. NINE POSTED RESULTS."
+        },
+        {
+          "folio": 29,
+          "page_id": "W10-P28",
+          "title": "THREE DIVISIONS. DIFFERENT PRESSURES."
+        },
+        {
+          "folio": 30,
+          "page_id": "W10-P29",
+          "title": "THE TWELVE — SCORING FORM"
+        }
+      ],
+      "empty_slots": 0,
+      "export": "six-up contact PNG; individual sketches retained as separate files"
+    },
+    {
+      "sheet_id": "W10-SB-S06",
+      "layout": "3 columns x 2 rows; each cell is a full individual page miniature",
+      "folios": [
+        {
+          "folio": 31,
+          "page_id": "W10-P30",
+          "title": "FOUR MORE AFTER THIS"
+        },
+        {
+          "folio": 32,
+          "page_id": "W10-P31",
+          "title": "THE NEXT SIX"
+        },
+        {
+          "folio": 33,
+          "page_id": "W10-P35",
+          "title": "THE CROSSING NARROWS"
+        },
+        {
+          "folio": 34,
+          "page_id": "W10-P33",
+          "title": "THE WEATHER IS COMING HOME"
+        }
+      ],
+      "empty_slots": 2,
+      "export": "six-up contact PNG; individual sketches retained as separate files"
+    }
+  ]
+}
