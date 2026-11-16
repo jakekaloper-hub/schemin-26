@@ -148,7 +148,48 @@ export function buildRegionalAssets(THREE, bindings, height) {
     for(let i=0;i<3;i++){const o=mesh(g,new THREE.CircleGeometry(1,30),grass,-4+i*4,.02,7.5+(i%2));o.rotation.x=-Math.PI/2;o.scale.set(2.7,1.8,1);o.castShadow=false;}
     for(const[x,z]of[[-6,6],[3,9]]){const o=mesh(g,new THREE.CircleGeometry(1,20),sand,x,.03,z);o.rotation.x=-Math.PI/2;o.scale.set(1.3,.6,1);o.castShadow=false;}
     pool(g,'pond',7,.06,6,3.8,2.3,'#458f83');
-    for(const[x,z,s]of[[-8,-2,1.5],[8,-2,1.4],[-8,5,1.1],[8,-5,1.3],[-4,-5,1.2],[3,-5,1.25]])canopy(g,x,0,z,s,mat('#8d8a45'));
+    // Historical visual reference: Week 9 Country Club folios 05–08 show warm
+    // autumn vegetation, waterfront masonry and a distant clubhouse. The forms
+    // below are LOCAL illustrated candidate texture, not a new Atlas road,
+    // navigable crossing, confirmed course layout or resolved cleanup state.
+    const bridge=new THREE.Group();bridge.name='Candidate Week 9 pond-side stone arch';
+    bridge.position.set(7,.10,6);
+    bridge.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',historicalReference:'W09-COUNTRY-CLUB-FOLIOS-05-08',routeIds:[],navigable:false,period:'HISTORICAL_REFERENCE_CANDIDATE'};
+    g.add(bridge);
+    const shape=new THREE.Shape();
+    shape.moveTo(-2.65,0);shape.lineTo(-1.73,0);
+    shape.bezierCurveTo(-1.58,1.30,1.58,1.30,1.73,0);
+    shape.lineTo(2.65,0);shape.lineTo(2.65,1.48);
+    shape.lineTo(-2.65,1.48);shape.closePath();
+    for(const side of [-.88,.71]){
+      const archGeo=new THREE.ExtrudeGeometry(shape,{depth:.17,steps:1,bevelEnabled:false,curveSegments:16});
+      archGeo.rotateY(Math.PI/2);
+      const face=mesh(bridge,archGeo,stone,side,0,0);
+      face.userData={bridgePart:'stone-arch'};
+      box(bridge,side+.07,1.48,0,.26,.15,5.42,edge);
+      for(const z of [-2.26,-1.13,0,1.13,2.26])cyl(bridge,side+.07,1.64,z,.105,.13,.50,stone,7);
+      box(bridge,side+.07,2.14,0,.22,.14,5.30,edge);
+    }
+    box(bridge,0,1.47,0,1.80,.19,5.48,mat('#997856'));
+    // Irregular tree crowns echo the historical folio's autumn grove, without
+    // asserting permanent season, tree species, or exact tree coordinates.
+    const amber=[mat('#b77d39'),mat('#d1a052'),mat('#ad5937'),mat('#934d35'),mat('#a6a04b')];
+    const grove=[[-9,-3,1.1],[-9,3,1.0],[-9,9,.9],[-5,11,1.08],[1,11,1.17],[10,1,1.05],[9,-4,1.25],[3,-8,.95],[-4,-8,1.12]];
+    grove.forEach(([x,z,scale],i)=>{
+      const y=0,h=(2.5+.24*(i%3))*scale;
+      const stem=cyl(g,x,y,z,.15*scale,.32*scale,h,trunk,8);
+      stem.userData={estateTreePart:'trunk',estateTree:i};
+      const lobes=4+(i%2);
+      for(let k=0;k<lobes;k++){
+        const a=(k/lobes)*Math.PI*2+i*.34;
+        const dx=Math.cos(a)*.66*scale,dz=Math.sin(a)*.63*scale;
+        const crown=rock(g,x+dx,y+h+(.46+(k%2)*.30)*scale,z+dz,
+          (1.08+(k%3)*.12)*scale,(.85+(k%2)*.17)*scale,(.94+(k%2)*.14)*scale,amber[(i+k)%amber.length]);
+        crown.userData={estateTreePart:'crown',estateTree:i};
+      }
+      const high=rock(g,x,y+h+1.05*scale,z,1.10*scale,.85*scale,1.0*scale,amber[(i+2)%amber.length]);
+      high.userData={estateTreePart:'crown',estateTree:i};
+    });
     for(let i=0;i<3;i++){cyl(g,-4+i*4,.08,7.5+(i%2),.024,.024,1,cream,5);const f=mesh(g,new THREE.PlaneGeometry(.45,.25),mat('#b86f43'),-3.78+i*4,.95,7.5+(i%2));f.material.side=THREE.DoubleSide;}
     box(g,0,0,6,1.4,.025,.5,mat('#806f4c'));
   }
