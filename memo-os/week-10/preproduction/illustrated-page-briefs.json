@@ -25,7 +25,7 @@
         "unit": "Complete integrated illustrated page"
       },
       "controlling_direction": "illustrated-png-direction.md",
-      "artist_prompt": "Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.\n\nSite and ordinary use: League Chamber scoring courtyard. Registered parent LOC-LEAGUE-CHAMBER; SET-W10-CHAMBER-SCORING-COURT is proposed local staging, not promoted canon.\n\nCamera: Low wide courtyard view, wind pulling two temporary scoring standards above an old public arch; deep inhabited world fills the frame. Foreground: Wet stone and attendants securing a frayed banner line. Midground: Two separate standards carry HMB and LLC insignia and exact current values; no invented physical meeting or alliance. Background: Old Chamber roofline, darkening Central Basin cloud, warm doorway.\n\nBaked-in lighting: Warm doorway and bracket lamps; cool cloud fill, no literal roof collapse.\n\nEditorial purpose: Open on the league’s first two observed 200-plus scores this season, with weather crossing public life.\n\nContinuity pass: Cover symbols are an editorial public display, not proof that HMB and LLC traveled together or hold a shared title.\n\nUse the exact publication copy and source bindings. Its rows are content, not a prescribed table-shaped image template.",
+      "artist_prompt": "Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.\n\nSite and ordinary use: League Chamber scoring courtyard. Registered parent LOC-LEAGUE-CHAMBER; SET-W10-CHAMBER-SCORING-COURT is proposed local staging, not promoted canon.\n\nCamera: Low wide courtyard view, wind pulling two temporary scoring standards above an old public arch; deep inhabited world fills the frame. Foreground: Wet stone and attendants securing a frayed banner line. Midground: Two separate standards carry HMB and LLC insignia and exact current values; no invented physical meeting or alliance. Background: Old Chamber roofline, darkening Central Basin cloud, warm doorway.\n\nBaked-in lighting: Warm doorway and bracket lamps; cool cloud fill, no literal roof collapse.\n\nEditorial purpose: Open on the league’s first two observed 200-plus scores this season, with weather crossing public life.\n\nContinuity pass: Cover symbols are an editorial public display, not proof that HMB and LLC traveled together or hold a shared title.\n\nUse the exact publication copy and source bindings. Its rows are content, not a prescribed table-shaped image template.\n\nMANDATORY FOUNDER CORRECTION: FOUNDER 2026-11-16: both canonical characters must appear physically in the cover scene, as distinct public-facing figures with source-bound likenesses. This is an editorial composition, not a claim that they met in the same place. Scores are pre-MNF provisional and must be rechecked. Display His Majesty's Blood / Austin Byars as hooded black-armored glowing-red-eyed champion with gold chest disc, downward sword and crimson-black cloak; The LLC / David Babb as seated sunglasses-wearing executive in dark suit and red tie with cigar. Bind exact approved image crops at canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png and canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png. Preserve all exact publication copy and source-qualified values. Do not generate generic characters or replace them with insignia only.",
       "publication_copy": {
         "headline": "THE CEILING BREAKS",
         "deck": "Week 10 • Two scores beyond 200",
@@ -127,13 +127,31 @@
         "rows": []
       },
       "fact_lettering_instruction": "Preserve the exact supplied names, values, qualifiers and source scopes. Compose these as part of the same artwork; compare all visible occurrences to current source fields and repair in the established style. Do not add a new data module merely because a backstage field exists.",
-      "reference_bindings": [],
+      "reference_bindings": [
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "owner": "Austin Byars",
+          "display_name": "His Majesty's Blood",
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+          "render_attachment_verified": false
+        },
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "owner": "David Babb",
+          "display_name": "The LLC",
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+          "render_attachment_verified": false
+        }
+      ],
       "identity_and_continuity_constraints": [
         "FINAL winner labels",
         "All-time record claim",
         "Crown on HMB",
         "Belt moved to another owner",
-        "Actual roof-collapse canon"
+        "Actual roof-collapse canon",
+        "No initials-only or standards-only cover: both actual canonical characters required",
+        "No generic human king substituted for His Majesty's Blood",
+        "No generic business figure substituted for The LLC"
       ],
       "encounter": {
         "venue_id": "LOC-LEAGUE-CHAMBER",
