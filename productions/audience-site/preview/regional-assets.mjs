@@ -73,15 +73,63 @@ export function buildRegionalAssets(THREE, bindings, height) {
     for(const [x,z,s]of[[-10,-1,1.5],[-9,5,1.25],[-2,-6,1.4],[6,-4,1.5],[7,1,1.3],[6,6,1.1],[-2,7,.9]])canopy(g,x,0,z,s);
     box(g,2.7,2.31,1.9,.8,.05,.6,moss);box(g,-1.8,1.16,2.2,1.1,.04,.8,moss);
   }
+  function wetlandShoreline(g){
+    // Source supports mud channels, raised ground and cypress-like wetlands.
+    // This bank is ONLY a local candidate transition around the existing visual pool:
+    // it creates no river/shoreline topology and deliberately leaves the water ellipse visible.
+    const sides=96,rings=3,positions=[],colors=[],faces=[];
+    const tones=['#414c3a','#5e6547','#354d39'].map(c=>new THREE.Color(c));
+    for(let i=0;i<=sides;i++){
+      const a=i/sides*Math.PI*2;
+      const waviness=Math.sin(a*7+.3)*.018+Math.sin(a*13-.8)*.009;
+      const radii=[1.019+Math.sin(a*11)*.006,1.079+waviness,1.188+waviness*1.6+Math.sin(a*5)*.012];
+      const levels=[.102,.235+Math.sin(a*9)*.018,.105+Math.cos(a*6)*.018];
+      for(let j=0;j<rings;j++){
+        const r=radii[j];positions.push(Math.cos(a)*10.5*r,levels[j],Math.sin(a)*8.2*r);
+        const tone=tones[j].clone().multiplyScalar(.965+.035*Math.sin(a*8+.8));
+        colors.push(tone.r,tone.g,tone.b);
+      }
+      if(i<sides)for(let j=0;j<rings-1;j++){
+        const p=i*rings+j,q=p+rings;faces.push(p,p+1,q,p+1,q+1,q);
+      }
+    }
+    const geo=new THREE.BufferGeometry();geo.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
+    geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));geo.setIndex(faces);geo.computeVertexNormals();
+    // Keep vertex colors intact: the current static batcher merges position/normal/UV only.
+    const bankMat=new THREE.MeshStandardMaterial({vertexColors:true,roughness:.98,side:THREE.DoubleSide,transparent:true,opacity:1,depthWrite:true});
+    materials.set('candidate-wetland-bank',bankMat);
+    const bank=mesh(g,geo,bankMat,0,0,0);bank.name='Candidate wetland shoreline transition';
+    bank.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceLandmarks:['mud channels','raised ground']};
+    bank.castShadow=false;bank.renderOrder=1;
+  }
   function swamp(g){
     // Raised ground and channels; no principal character or invented settlement.
     pool(g,'swamp',0,.12,0,10.5,8.2,'#375e50');pool(g,'channel',-6,.14,7,4.2,4.5,'#467767');
+    wetlandShoreline(g);
     const islands=[[1,.1,1,4,1.2,3],[-6,.1,-3,3,.9,2.7],[6,.2,-4,3.5,1,2.8],[-4,.1,5,2.7,.8,2]];
     for(let a of islands)rock(g,...a,moss);
-    for(let i=0;i<14;i++){const a=i*2.4,r=3.8+(i%4)*1.5,x=Math.cos(a)*r,z=Math.sin(a)*r,y=.12,h=3.3+(i%3)*.9;
-      cyl(g,x,y,z,.20,.45,h,trunk,8);for(let k=0;k<3;k++){const b=k*2.1;branch(g,[x,y+.8,z],[x+Math.cos(b)*.8,y,z+Math.sin(b)*.8],.15);}
-      rock(g,x,y+h,z,1.6,.5,1.3,i%2?leaf:leafDark);rock(g,x+.45,y+h+.45,z-.2,1.1,.42,.95,leaf);
-      for(let k=0;k<2;k++){const m=mesh(g,new THREE.ConeGeometry(.12,.9,4),moss,x+(k?-.9:.8),y+h-.45,z+.25);m.rotation.z=.08;}
+    for(let i=0;i<14;i++){
+      // Two candidate cypress-like crown profiles break the old flat, repeated tree-disc silhouette.
+      // All meshes remain direct children so the existing opaque batching path still applies.
+      const a=i*2.4,r=3.8+(i%4)*1.5,x=Math.cos(a)*r,z=Math.sin(a)*r,y=.12,h=3.3+(i%3)*.9;
+      const mark=(o,part)=>{o.userData.wetlandStand=i;o.userData.wetlandPart=part;return o;};
+      mark(cyl(g,x,y,z,.20,.45,h,trunk,8),'trunk');
+      for(let k=0;k<4;k++){
+        const b=k*Math.PI/2+i*.31,reach=.85+(i%3)*.15;
+        mark(branch(g,[x,y+.67,z],[x+Math.cos(b)*reach,y+.045,z+Math.sin(b)*reach],.11,trunk),'buttress-root');
+      }
+      for(let j=0;j<4;j++){
+        const width=(1.42-j*.24)*(i%3===1?.87:i%3===2?1.09:1);
+        const rise=(.92-j*.09)*(i%3===1?1.17:.95);
+        const drift=Math.sin(i*1.7+j*1.3)*.24;
+        mark(rock(g,x+drift,y+h+.24+j*.44,z+Math.cos(i+j*2.1)*.23,width,rise,width*.82,j%3===0?leafDark:j%2?leafLight:leaf),'canopy-lobe');
+      }
+      for(let k=0;k<2;k++){
+        const b=k*Math.PI+i*.29;
+        mark(branch(g,[x,y+h-.6,z],[x+Math.cos(b)*.72,y+h+.28,z+Math.sin(b)*.72],.11),'upper-branch');
+        const t=mesh(g,new THREE.ConeGeometry(.085,.65+(i%3)*.12,5),moss,x+Math.cos(b)*.74,y+h-.18,z+Math.sin(b)*.74);
+        t.rotation.z=(k?-.12:.12);mark(t,'hanging-vegetation');
+      }
     }
     for(let i=0;i<26;i++){const a=i*2.399,r=6.8+Math.sin(i)*.8,x=Math.cos(a)*r,z=Math.sin(a)*r;cyl(g,x,.1,z,.04,.06,.55+(i%3)*.15,leafLight,4);}
     for(let i=0;i<12;i++){const o=mesh(g,new THREE.CircleGeometry(.18+(i%3)*.08,9),leafLight,Math.sin(i*5)*7,.16,Math.cos(i*9)*5);o.rotation.x=-Math.PI/2;o.castShadow=false;}
