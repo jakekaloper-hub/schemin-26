@@ -1,0 +1,32 @@
+{
+  "kind": "production_lens",
+  "id": "costume",
+  "name": "Ngila Dickson",
+  "domain": "costume",
+  "status": "returned",
+  "model": "qwen2.5-coder:7b",
+  "provider": "Ollama on authorized local Mac via Bullpen runtime",
+  "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+  "started_at": "2026-11-16T20:19:53.835Z",
+  "finished_at": "2026-11-16T20:20:09.342Z",
+  "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P30\"],\n      \"severity\": \"major\",\n      \"observation\": \"The page title 'FOUR MORE AFTER THIS' does not match the actual content, which discusses the route narrowing and the remaining games in the season.\",\n      \"required_fix\": \"Change the page title to 'SEVEN BERTHS' or 'THE ROUTE NARROWS' to accurately reflect the content.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+  "primary_review_sheet": 6,
+  "actual_input_sha256": "7146e5ad1160968a5e7318b08f32aa9afcadfe6dd2796f1c2b31ef149522e22f",
+  "real_person_participation": false,
+  "structured": {
+    "scope": "pre-render written/source audit",
+    "findings": [
+      {
+        "page_ids": [
+          "W10-P30"
+        ],
+        "severity": "major",
+        "observation": "The page title 'FOUR MORE AFTER THIS' does not match the actual content, which discusses the route narrowing and the remaining games in the season.",
+        "required_fix": "Change the page title to 'SEVEN BERTHS' or 'THE ROUTE NARROWS' to accurately reflect the content."
+      }
+    ],
+    "preflight_disposition": "repair",
+    "limit": "no rendered output exists"
+  },
+  "response_validated": true
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "production_lens",
+  "id": "unit_stills",
+  "name": "Frank Masi",
+  "domain": "unit_stills",
+  "status": "returned",
+  "model": "qwen2.5-coder:7b",
+  "provider": "Ollama on authorized local Mac via Bullpen runtime",
+  "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+  "started_at": "2026-11-16T20:21:02.415Z",
+  "finished_at": "2026-11-16T20:21:18.644Z",
+  "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P20\"],\n      \"severity\": \"major\",\n      \"observation\": \"The copy for 'The 200 Burger' specifies that the cake remains on the sideboard, but the visual observation shows the cake being lifted with candles cleared.\",\n      \"required_fix\": \"Ensure the visual representation matches the written copy. The cake should remain on the sideboard.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+  "primary_review_sheet": 4,
+  "actual_input_sha256": "3d81099c09b6156658b103535faedc334030aa22a7ef9419b7bbf04305f295d9",
+  "real_person_participation": false,
+  "structured": {
+    "scope": "pre-render written/source audit",
+    "findings": [
+      {
+        "page_ids": [
+          "W10-P20"
+        ],
+        "severity": "major",
+        "observation": "The copy for 'The 200 Burger' specifies that the cake remains on the sideboard, but the visual observation shows the cake being lifted with candles cleared.",
+        "required_fix": "Ensure the visual representation matches the written copy. The cake should remain on the sideboard."
+      }
+    ],
+    "preflight_disposition": "repair",
+    "limit": "no rendered output exists"
+  },
+  "response_validated": true
+}

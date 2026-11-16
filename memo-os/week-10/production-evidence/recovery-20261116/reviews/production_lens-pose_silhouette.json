@@ -1,0 +1,32 @@
+{
+  "kind": "production_lens",
+  "id": "pose_silhouette",
+  "name": "James Baxter",
+  "domain": "pose_silhouette",
+  "status": "returned",
+  "model": "qwen2.5-coder:7b",
+  "provider": "Ollama on authorized local Mac via Bullpen runtime",
+  "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+  "started_at": "2026-11-16T20:20:45.959Z",
+  "finished_at": "2026-11-16T20:21:02.412Z",
+  "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P18\"],\n      \"severity\": \"major\",\n      \"observation\": \"The page title 'WHY THE BOARD MOVED' does not match the content, which is a performance summary. The title should be changed to reflect the actual content.\",\n      \"required_fix\": \"Change the page title from 'WHY THE BOARD MOVED' to 'CURRENT PERFORMANCE STANDINGS'\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+  "primary_review_sheet": 3,
+  "actual_input_sha256": "671ed48a7552b7c583f80da87bccfaf985e47495276723343432c2605374ffaf",
+  "real_person_participation": false,
+  "structured": {
+    "scope": "pre-render written/source audit",
+    "findings": [
+      {
+        "page_ids": [
+          "W10-P18"
+        ],
+        "severity": "major",
+        "observation": "The page title 'WHY THE BOARD MOVED' does not match the content, which is a performance summary. The title should be changed to reflect the actual content.",
+        "required_fix": "Change the page title from 'WHY THE BOARD MOVED' to 'CURRENT PERFORMANCE STANDINGS'"
+      }
+    ],
+    "preflight_disposition": "repair",
+    "limit": "no rendered output exists"
+  },
+  "response_validated": true
+}

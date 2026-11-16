@@ -1,0 +1,32 @@
+{
+  "kind": "production_lens",
+  "id": "performance",
+  "name": "Andy Serkis",
+  "domain": "performance",
+  "status": "returned",
+  "model": "qwen2.5-coder:7b",
+  "provider": "Ollama on authorized local Mac via Bullpen runtime",
+  "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+  "started_at": "2026-11-16T20:20:09.343Z",
+  "finished_at": "2026-11-16T20:20:29.339Z",
+  "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P02\"],\n      \"severity\": \"major\",\n      \"observation\": \"The camera description for W10-P02 does not match the actual content. The description mentions a 'perspective Commonwealth map' and 'established banners and meaningful scene props under warm lamps,' but the actual content shows a briefing table/map/banners/sealed folio with dominant 'OPENING DRIVE' and substantial integrated prose, not a bridge-travel picture.\",\n      \"required_fix\": \"Update the camera description for W10-P02 to accurately reflect the actual content, which is a briefing table/map/banners/sealed folio with dominant 'OPENING DRIVE' and substantial integrated prose.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+  "primary_review_sheet": 1,
+  "actual_input_sha256": "d32b079820db4bff263c451e31e0604b1b7d859674cdbce8f5e70666d045280d",
+  "real_person_participation": false,
+  "structured": {
+    "scope": "pre-render written/source audit",
+    "findings": [
+      {
+        "page_ids": [
+          "W10-P02"
+        ],
+        "severity": "major",
+        "observation": "The camera description for W10-P02 does not match the actual content. The description mentions a 'perspective Commonwealth map' and 'established banners and meaningful scene props under warm lamps,' but the actual content shows a briefing table/map/banners/sealed folio with dominant 'OPENING DRIVE' and substantial integrated prose, not a bridge-travel picture.",
+        "required_fix": "Update the camera description for W10-P02 to accurately reflect the actual content, which is a briefing table/map/banners/sealed folio with dominant 'OPENING DRIVE' and substantial integrated prose."
+      }
+    ],
+    "preflight_disposition": "repair",
+    "limit": "no rendered output exists"
+  },
+  "response_validated": true
+}

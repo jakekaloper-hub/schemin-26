@@ -1,0 +1,32 @@
+{
+  "kind": "director",
+  "id": "the_librarian",
+  "name": "The Librarian",
+  "domain": "knowledge",
+  "status": "returned",
+  "model": "qwen2.5-coder:7b",
+  "provider": "Ollama on authorized local Mac via Bullpen runtime",
+  "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+  "started_at": "2026-11-16T20:14:16.065Z",
+  "finished_at": "2026-11-16T20:14:35.586Z",
+  "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P30\"],\n      \"severity\": \"major\",\n      \"observation\": \"The copy for 'FOUR MORE AFTER THIS' lacks specific details about the Mud Dogs' divisional route and the exact set of results needed for a win.\",\n      \"required_fix\": \"Add specific details about the Mud Dogs' divisional route and the exact set of results needed for a win.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+  "primary_review_sheet": 6,
+  "actual_input_sha256": "645a129c55cbdf274a24be119d06dfab28f673a41ba9e0de9c796f2441160d84",
+  "real_person_participation": false,
+  "structured": {
+    "scope": "pre-render written/source audit",
+    "findings": [
+      {
+        "page_ids": [
+          "W10-P30"
+        ],
+        "severity": "major",
+        "observation": "The copy for 'FOUR MORE AFTER THIS' lacks specific details about the Mud Dogs' divisional route and the exact set of results needed for a win.",
+        "required_fix": "Add specific details about the Mud Dogs' divisional route and the exact set of results needed for a win."
+      }
+    ],
+    "preflight_disposition": "repair",
+    "limit": "no rendered output exists"
+  },
+  "response_validated": true
+}

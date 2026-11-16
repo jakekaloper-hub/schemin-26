@@ -1,0 +1,826 @@
+{
+  "schema_version": "1.0",
+  "page_id": "W10-P26",
+  "reading_position": 27,
+  "sheet": 5,
+  "slot": 3,
+  "stage": "GRAYSCALE_FOLIO_PROOF",
+  "canvas": [
+    1080,
+    1920
+  ],
+  "prompt": "One individual 1080×1920 grayscale integrated illustrated memo folio: complete supplied headline, department heading, deck, narration and source-qualified lettering in the exact intended final composition. No annotation cards, miniature scene summaries, detached document exports, or generated six-up grids.\n\nImage authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.\n\nPAGE W10-P26 · READING POSITION 27\n\nIDENTITY INPUTS\n[]\n\nSCENE AND CONTINUITY\n{\n  \"camera_and_composition\": \"Close three-quarter intake scene with a deep courier arch behind; a clerk places one completed transaction folio into a worn shelf.\",\n  \"foreground\": \"Completed ledger and weather-dark satchel.\",\n  \"midground\": \"Ordinary stamped intake process and distinct shelves.\",\n  \"background\": \"Courtyard arrival path; no invented league trading hall.\",\n  \"image_tells\": \"Close three-quarter intake scene with a deep courier arch behind; a clerk places one completed transaction folio into a worn shelf. Completed ledger and weather-dark satchel. Ordinary stamped intake process and distinct shelves. Courtyard arrival path; no invented league trading hall.\",\n  \"encounter\": {\n    \"venue_id\": \"LOC-LEAGUE-ARCHIVE\",\n    \"set_id\": \"SET-W10-ARCHIVE-TRANSACTION-INTAKE\",\n    \"venue_type\": \"Editorial department within existing Atlas parent; local staging proposed\",\n    \"division_context\": \"League-wide; divisions are overlays\",\n    \"route_required\": false,\n    \"world_state_in\": \"Existing place with selective wear and maintenance\",\n    \"persistent_landmarks\": [\n      \"League Archive courier intake desk\"\n    ],\n    \"provisional_location\": true,\n    \"formal_atlas_promotion\": false\n  },\n  \"continuity_in\": [\n    \"LOC-LEAGUE-ARCHIVE\",\n    \"Existing Commonwealth use and inherited approved weather state\"\n  ],\n  \"continuity_out\": [\n    \"Preserve the bounded source window and lifecycle status. Do not recommend a new trade after the configured November11deadline.\"\n  ],\n  \"forbidden_mutations\": [\n    \"Reactivating historical pending claims\",\n    \"Inferring transaction motive\",\n    \"Calling add/drop sequences player trades\"\n  ]\n}\n\nEXACT FULL PUBLICATION COPY\n{\n  \"headline\": \"MOVES THAT REACHED THE ROSTER\",\n  \"deck\": \"Completed Week 10 activity • All bids shown are FAAB\",\n  \"body\": \"The Week 10 window contains 29 completed transactions. Pending and unsuccessful requests do not become completed moves just because they appear in the feed. With the configured trade deadline already passed, the next coverage questions concern owned depth and available-player claims. No new acquisition is assumed here.\",\n  \"callouts\": [\n    {\n      \"heading\": \"A two-day Mason trail\",\n      \"body\": \"Dr. Duckhook’s $35 FAAB claim for Corey Kiner released Jordan Mason on November 11. Slob on my Dobb added Mason the next day, dropping Chris Brooks.\"\n    },\n    {\n      \"heading\": \"A familiar name changes shelves\",\n      \"body\": \"Seven Deadly Chins dropped Brian Thomas Jr. on November 10; Dr. Duckhook added him November 15.\"\n    },\n    {\n      \"heading\": \"ObiWan works the receiver file\",\n      \"body\": \"ObiWan completed claims for Mack Hollins ($27 FAAB), Malachi Fields ($11 FAAB) and Kalif Raymond ($1 FAAB).\"\n    },\n    {\n      \"heading\": \"The defense that still matters tonight\",\n      \"body\": \"Three Dreaded Snake added Ravens D/ST for Bengals D/ST on November 11. Baltimore’s defense remains its last selected scorer.\"\n    }\n  ],\n  \"rows\": [],\n  \"department_heading\": \"TRANSACTIONS\"\n}\n\nFACT POLICY\n{\n  \"official_winner_decided\": false,\n  \"source_capture_scope\": \"CURRENT_PROVISIONAL_PRE_MNF\",\n  \"unresolved_numerals\": \"BLANK_RESERVED_FIELDS\",\n  \"source_backed_current_values\": \"May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL\",\n  \"result_dependent_art\": \"Forecast branch only until provider winners decided; persistent common beats retained.\",\n  \"refresh_fields\": [\n    {\n      \"selector\": \"/completed_transactions\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": {\n        \"fact_id\": \"W10-TX-COMPLETE\",\n        \"scope\": \"W10_COMPLETED_ACTIVITY\",\n        \"source\": \"S10\",\n        \"event_count\": 29,\n        \"trade_event_count\": 0,\n        \"window\": \"ESPN matchup period 10; date bounds unavailable; response not truncated\",\n        \"event_fields\": [\n          \"event_id\",\n          \"date\",\n          \"team\",\n          \"type\",\n          \"added\",\n          \"dropped\",\n          \"faab_bid\"\n        ],\n        \"events\": [\n          [\n            \"de481763-a023-41f1-9a3d-f9d9d39c4584\",\n            \"2026-11-15\",\n            \"T12\",\n            \"add\",\n            [\n              \"Brian Thomas Jr.\"\n            ],\n            [],\n            0\n          ],\n          [\n            \"9cc85243-1384-48e2-8299-e7d4a7c6688e\",\n            \"2026-11-15\",\n            \"T01\",\n            \"add\",\n            [\n              \"Bam Knight\"\n            ],\n            [\n              \"Dalton Schultz\"\n            ],\n            0\n          ],\n          [\n            \"720df030-566a-4138-a669-51d24ab935f9\",\n            \"2026-11-14\",\n            \"T01\",\n            \"waiver\",\n            [\n              \"Kalif Raymond\"\n            ],\n            [\n              \"Romeo Doubs\"\n            ],\n            1\n          ],\n          [\n            \"12c36132-6551-4628-b8d6-0463eac7c686\",\n            \"2026-11-13\",\n            \"T11\",\n            \"add\",\n            [\n              \"Chimere Dike\"\n            ],\n            [\n              \"Pat Bryant\"\n            ],\n            0\n          ],\n          [\n            \"2118a4ed-c1d7-439b-8bdc-a0d91c2ca0cd\",\n            \"2026-11-12\",\n            \"T01\",\n            \"add\",\n            [\n              \"Tyler Higbee\"\n            ],\n            [\n              \"Kalif Raymond\"\n            ],\n            0\n          ],\n          [\n            \"b104acff-d40e-4ab1-a237-59cb22a734fd\",\n            \"2026-11-12\",\n            \"T03\",\n            \"add\",\n            [\n              \"Jordan Mason\"\n            ],\n            [\n              \"Chris Brooks\"\n            ],\n            0\n          ],\n          [\n            \"6936ce10-eb31-4ae3-b5f6-dc4ee1744880\",\n            \"2026-11-12\",\n            \"T11\",\n            \"add\",\n            [\n              \"Pat Bryant\"\n            ],\n            [\n              \"Jordan Watkins\"\n            ],\n            0\n          ],\n          [\n            \"88370b77-f24f-4962-8387-eb3c2385ef72\",\n            \"2026-11-11\",\n            \"T11\",\n            \"add\",\n            [\n              \"Jordan Watkins\"\n            ],\n            [],\n            0\n          ],\n          [\n            \"d017c99f-ea59-4d78-8b54-d6f6bc15ffec\",\n            \"2026-11-11\",\n            \"T11\",\n            \"add\",\n            [\n              \"De'Zhaun Stribling\"\n            ],\n            [\n              \"Jordan Watkins\"\n            ],\n            0\n          ],\n          [\n            \"3e725304-bb4b-4cb8-ace1-4df834adc337\",\n            \"2026-11-11\",\n            \"T02\",\n            \"add\",\n            [\n              \"Colts D/ST\"\n            ],\n            [\n              \"Bears D/ST\"\n            ],\n            0\n          ],\n          [\n            \"7a35777b-bff9-4b61-907d-2ef31e4334ad\",\n            \"2026-11-11\",\n            \"T02\",\n            \"add\",\n            [\n              \"Drew Lock\"\n            ],\n            [],\n            0\n          ],\n          [\n            \"eb519448-4747-4b1a-aacb-c138b435c763\",\n            \"2026-11-11\",\n            \"T04\",\n            \"add\",\n            [\n              \"Jason Sanders\"\n            ],\n            [\n              \"Cairo Santos\"\n            ],\n            0\n          ],\n          [\n            \"48bc265e-7ab0-4bd7-aef9-67d17b5f8948\",\n            \"2026-11-11\",\n            \"T03\",\n            \"add\",\n            [\n              \"Chris Brooks\"\n            ],\n            [],\n            0\n          ],\n          [\n            \"abd5caab-6a74-4ce1-895b-b03b79b4855a\",\n            \"2026-11-11\",\n            \"T03\",\n            \"drop\",\n            [],\n            [\n              \"Brandon Aiyuk\"\n            ],\n            0\n          ],\n          [\n            \"7ba74a81-8aa5-4a35-88c8-9657ac7c72e3\",\n            \"2026-11-11\",\n            \"T03\",\n            \"add\",\n            [\n              \"Kaleb Johnson\"\n            ],\n            [\n              \"Mike Washington Jr.\"\n            ],\n            0\n          ],\n          [\n            \"2d245ad6-e602-4471-adb6-30aed1c95bb5\",\n            \"2026-11-11\",\n            \"T11\",\n            \"add\",\n            [\n              \"Andre Szmyt\"\n            ],\n            [\n              \"Chase McLaughlin\"\n            ],\n            0\n          ],\n          [\n            \"8e12b63f-b328-4a7f-8d41-f4fb186ef143\",\n            \"2026-11-11\",\n            \"T11\",\n            \"add\",\n            [\n              \"Jordan Watkins\"\n            ],\n            [],\n            0\n          ],\n          [\n            \"4bcc51d8-17bb-45c1-900d-c341c3506c90\",\n            \"2026-11-11\",\n            \"T06\",\n            \"add\",\n            [\n              \"Ravens D/ST\"\n            ],\n            [\n              \"Bengals D/ST\"\n            ],\n            0\n          ],\n          [\n            \"8f6b5bd8-1fee-441b-8b8a-3fde56728d0b\",\n            \"2026-11-11\",\n            \"T06\",\n            \"add\",\n            [\n              \"Tutu Atwell\"\n            ],\n            [\n              \"Seth McGowan\"\n            ],\n            0\n          ],\n          [\n            \"2a75823c-a099-47c5-baf5-867f1e86f101\",\n            \"2026-11-11\",\n            \"T06\",\n            \"add\",\n            [\n              \"Darren Waller\"\n            ],\n            [\n              \"Chris Boswell\"\n            ],\n            0\n          ],\n          [\n            \"fc5e84d1-7ea7-47d4-a08e-3c38fc38aafe\",\n            \"2026-11-11\",\n            \"T11\",\n            \"waiver\",\n            [\n              \"Tank Dell\"\n            ],\n            [],\n            5\n          ],\n          [\n            \"cca1ae9d-6f8f-481e-b6b9-fcf8558dd844\",\n            \"2026-11-11\",\n            \"T11\",\n            \"waiver\",\n            [\n              \"Fernando Mendoza\"\n            ],\n            [],\n            5\n          ],\n          [\n            \"5458c52a-8d4e-4861-85b7-52a0d58e003e\",\n            \"2026-11-11\",\n            \"T08\",\n            \"waiver\",\n            [\n              \"Konata Mumpfield\"\n            ],\n            [\n              \"Eli Raridon\"\n            ],\n            11\n          ],\n          [\n            \"aeea3baf-be16-4f63-99ba-e5d7bcfa05f5\",\n            \"2026-11-11\",\n            \"T01\",\n            \"waiver\",\n            [\n              \"Malachi Fields\"\n            ],\n            [\n              \"Tory Horton\"\n            ],\n            11\n          ],\n          [\n            \"8ad50ef3-4705-44da-be52-5b8702e81798\",\n            \"2026-11-11\",\n            \"T01\",\n            \"waiver\",\n            [\n              \"Mack Hollins\"\n            ],\n            [\n              \"Jalen Nailor\"\n            ],\n            27\n          ],\n          [\n            \"a860fe7d-4a71-4798-9b22-dee667603872\",\n            \"2026-11-11\",\n            \"T12\",\n            \"waiver\",\n            [\n              \"Corey Kiner\"\n            ],\n            [\n              \"Jordan Mason\"\n            ],\n            35\n          ],\n          [\n            \"71e30879-8174-417d-b093-aa8c620ebe6b\",\n            \"2026-11-10\",\n            \"T11\",\n            \"drop\",\n            [],\n            [\n              \"Brian Thomas Jr.\"\n            ],\n            0\n          ],\n          [\n            \"aa2f811b-9adc-43f4-982f-0426eaeb8f99\",\n            \"2026-11-10\",\n            \"T11\",\n            \"drop\",\n            [],\n            [\n              \"Ja'Kobi Lane\"\n            ],\n            0\n          ],\n          [\n            \"f1def487-ed5e-46db-9296-b3954235bacb\",\n            \"2026-11-10\",\n            \"T11\",\n            \"drop\",\n            [],\n            [\n              \"Malik Willis\"\n            ],\n            0\n          ]\n        ]\n      }\n    },\n    {\n      \"selector\": \"/pass3/transactions\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_sha256\": \"656cd67943f90ce7818cca5f2df6c65623e303bf7b141204f1718c3e9388bd0a\",\n      \"snapshot_value_stored_in\": \"facts.json/pass3/transactions\"\n    },\n    {\n      \"selector\": \"/pass3/available_slots\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": {\n        \"fact_id\": \"W11-AVAILABLE-SLOTS\",\n        \"artifact\": \"available-slots-pass3.json\",\n        \"scope\": \"Current read-only non-bye coverage pool; no claims or bids placed\",\n        \"data\": {\n          \"schema\": \"schemin.week11.required-slot-availability.v1\",\n          \"captured_at_utc\": \"2026-11-16T18:24:59Z\",\n          \"league_id\": \"1417621\",\n          \"season\": 2026,\n          \"purpose\": \"Read-only memo-planning availability shortlist for seven uncovered required Week11 slots; no acquisition or allocation recommendation, bid or roster change.\",\n          \"required_slots\": [\n            {\n              \"team\": \"Slob on my Dobb\",\n              \"team_id\": 3,\n              \"position\": \"TE\"\n            },\n            {\n              \"team\": \"El Niño\",\n              \"team_id\": 9,\n              \"position\": \"TE\"\n            },\n            {\n              \"team\": \"The Chili Cheesers\",\n              \"team_id\": 7,\n              \"position\": \"K\"\n            },\n            {\n              \"team\": \"Seven Deadly Chins\",\n              \"team_id\": 11,\n              \"position\": \"K\"\n            },\n            {\n              \"team\": \"Seven Deadly Chins\",\n              \"team_id\": 11,\n              \"position\": \"D/ST\"\n            },\n            {\n              \"team\": \"ObiWan Jacoby\",\n              \"team_id\": 1,\n              \"position\": \"D/ST\"\n            },\n            {\n              \"team\": \"Mud Dogs\",\n              \"team_id\": 10,\n              \"position\": \"D/ST\"\n            }\n          ],\n          \"excluded_week11_bye_clubs\": [\n            \"ATL\",\n            \"CLE\",\n            \"GB\",\n            \"LAR\",\n            \"NE\",\n            \"SEA\"\n          ],\n          \"coverage\": {\n            \"TE\": 15,\n            \"K\": 15,\n            \"DST\": 14,\n            \"inventory_complete_claim\": false,\n            \"ordering\": \"Provider platform_rostered_rate_desc; this is not a Week11 projection ranking.\"\n          },\n          \"shortlist\": {\n            \"TE\": [\n              {\n                \"id\": \"3117256\",\n                \"name\": \"Dalton Schultz\",\n                \"team\": \"HOU\",\n                \"position\": \"TE\",\n                \"injuryStatus\": \"Active\",\n                \"acquisitionState\": \"waivers\",\n                \"waiverClearsAt\": \"2026-11-18T08:00:00.000Z\",\n                \"pointsPerGame\": 8.94,\n                \"seasonPoints\": 80.5\n              },\n              {\n                \"id\": \"4430802\",\n                \"name\": \"Darnell Washington\",\n                \"team\": \"PIT\",\n                \"position\": \"TE\",\n                \"injuryStatus\": \"Active\",\n                \"acquisitionState\": \"waivers\",\n                \"waiverClearsAt\": \"2026-11-18T08:00:00.000Z\",\n                \"pointsPerGame\": 7.1,\n                \"seasonPoints\": 63.9\n              },\n              {\n                \"id\": \"4808766\",\n                \"name\": \"Mason Taylor\",\n                \"team\": \"NYJ\",\n                \"position\": \"TE\",\n                \"injuryStatus\": \"Active\",\n                \"acquisitionState\": \"waivers\",\n                \"waiverClearsAt\": \"2026-11-18T08:00:00.000Z\",\n                \"pointsPerGame\": 6.59,\n                \"seasonPoints\": 52.7\n              },\n              {\n                \"id\": \"4243331\",\n                \"name\": \"Cade Otton\",\n                \"team\": \"TB\",\n                \"position\": \"TE\",\n                \"injuryStatus\": \"Active\",\n                \"acquisitionState\": \"free_agent\",\n                \"waiverClearsAt\": null,\n                \"pointsPerGame\": 4.9,\n                \"seasonPoints\": 44.1\n              }\n            ],\n            \"K\": [\n              {\n                \"id\": \"17372\",\n                \"name\": \"Chris Boswell\",\n                \"team\": \"PIT\",\n                \"position\": \"K\",\n                \"injuryStatus\": \"Active\",\n                \"acquisitionState\": \"waivers\",\n                \"waiverClearsAt\": \"2026-11-18T08:00:00.000Z\",\n                \"pointsPerGame\": 9.67,\n                \"seasonPoints\": 87\n              },\n              {\n                \"id\": \"4689936\",\n                \"name\": \"Jake Bates\",\n                \"team\": \"DET\",\n                \"position\": \"K\",\n                \"injuryStatus\": \"Active\",\n                \"acquisitionState\": \"waivers\",\n                \"waiverClearsAt\": \"2026-11-18T08:00:00.000Z\",\n                \"pointsPerGame\": 9.44,\n                \"seasonPoints\": 85\n              },\n              {\n                \"id\": \"4362081\",\n                \"name\": \"Cameron Dicker\",\n                \"team\": \"LAC\",\n                \"position\": \"K\",\n                \"injuryStatus\": \"Active\",\n                \"acquisitionState\": \"free_agent\",\n                \"waiverClearsAt\": null,\n                \"pointsPerGame\": 7.75,\n                \"seasonPoints\": 62\n              },\n              {\n                \"id\": \"3150744\",\n                \"name\": \"Chase McLaughlin\",\n                \"team\": \"TB\",\n                \"position\": \"K\",\n                \"injuryStatus\": \"Active\",\n                \"acquisitionState\": \"free_agent\",\n                \"waiverClearsAt\": null,\n                \"pointsPerGame\": 11,\n                \"seasonPoints\": 99\n              }\n            ],\n            \"DST\": [\n              {\n                \"id\": \"-16003\",\n                \"name\": \"Bears D/ST\",\n                \"team\": \"CHI\",\n                \"position\": \"D/ST\",\n                \"injuryStatus\": null,\n                \"acquisitionState\": \"free_agent\",\n                \"waiverClearsAt\": null,\n                \"pointsPerGame\": 11.52,\n                \"seasonPoints\": 103.7\n              },\n              {\n                \"id\": \"-16004\",\n                \"name\": \"Bengals D/ST\",\n                \"team\": \"CIN\",\n                \"position\": \"D/ST\",\n                \"injuryStatus\": null,\n                \"acquisitionState\": \"waivers\",\n                \"waiverClearsAt\": \"2026-11-18T08:00:00.000Z\",\n                \"pointsPerGame\": 10.56,\n                \"seasonPoints\": 95\n              },\n              {\n                \"id\": \"-16028\",\n                \"name\": \"Commanders D/ST\",\n                \"team\": \"WSH\",\n                \"position\": \"D/ST\",\n                \"injuryStatus\": null,\n                \"acquisitionState\": \"waivers\",\n                \"waiverClearsAt\": \"2026-11-18T08:00:00.000Z\",\n                \"pointsPerGame\": 8.4,\n                \"seasonPoints\": 75.6\n              },\n              {\n                \"id\": \"-16021\",\n                \"name\": \"Eagles D/ST\",\n                \"team\": \"PHI\",\n                \"position\": \"D/ST\",\n                \"injuryStatus\": null,\n                \"acquisitionState\": \"free_agent\",\n                \"waiverClearsAt\": null,\n                \"pointsPerGame\": 5.39,\n                \"seasonPoints\": 48.5\n              }\n            ]\n          },\n          \"excluded_returned_entries\": {\n            \"TE\": [\n              {\n                \"id\": \"4242355\",\n                \"name\": \"Jake Ferguson\",\n                \"team\": \"DAL\",\n                \"reasons\": [\n                  \"provider injury designation Out\"\n                ]\n              },\n              {\n                \"id\": \"4576297\",\n                \"name\": \"AJ Barner\",\n                \"team\": \"SEA\",\n                \"reasons\": [\n                  \"Week11 bye\"\n                ]\n              },\n              {\n                \"id\": \"4831959\",\n                \"name\": \"Eli Raridon\",\n                \"team\": \"NE\",\n                \"reasons\": [\n                  \"Week11 bye\"\n                ]\n              },\n              {\n                \"id\": \"4242557\",\n                \"name\": \"Colby Parkinson\",\n                \"team\": \"LAR\",\n                \"reasons\": [\n                  \"Week11 bye\"\n                ]\n              },\n              {\n                \"id\": \"3123076\",\n                \"name\": \"David Njoku\",\n                \"team\": \"LAC\",\n                \"reasons\": [\n                  \"provider injury designation IR\"\n                ]\n              }\n            ],\n            \"K\": [\n              {\n                \"id\": \"4697745\",\n                \"name\": \"Tyler Loop\",\n                \"team\": \"BAL\",\n                \"reasons\": [\n                  \"provider injury designation IR\"\n                ]\n              },\n              {\n                \"id\": \"4574716\",\n                \"name\": \"Harrison Mevis\",\n                \"team\": null,\n                \"reasons\": [\n                  \"provider club not reported\"\n                ]\n              },\n              {\n                \"id\": \"4869461\",\n                \"name\": \"Trey Smack\",\n                \"team\": \"GB\",\n                \"reasons\": [\n                  \"Week11 bye\"\n                ]\n              },\n              {\n                \"id\": \"10621\",\n                \"name\": \"Nick Folk\",\n                \"team\": null,\n                \"reasons\": [\n                  \"provider club not reported\"\n                ]\n              }\n            ],\n            \"DST\": [\n              {\n                \"id\": \"-16009\",\n                \"name\": \"Packers D/ST\",\n                \"team\": \"GB\",\n                \"reasons\": [\n                  \"Week11 bye\"\n                ]\n              },\n              {\n                \"id\": \"-16017\",\n                \"name\": \"Patriots D/ST\",\n                \"team\": \"NE\",\n                \"reasons\": [\n                  \"Week11 bye\"\n                ]\n              },\n              {\n                \"id\": \"-16001\",\n                \"name\": \"Falcons D/ST\",\n                \"team\": \"ATL\",\n                \"reasons\": [\n                  \"Week11 bye\"\n                ]\n              }\n            ]\n          },\n          \"availability_limits\": [\n            \"acquisitionState is the current provider state, not a promise a manager can complete an acquisition or win a claim.\",\n            \"Provider waiver clearance Nov18 at08:00UTC corresponds to03:00EST.\",\n            \"The12 selected candidates are absent from all224 current roster entries at the checkpoint.\",\n            \"Active is a provider designation that can lag news; Week11 medical/practice reports and real-team roles require rechecking.\",\n            \"D/ST rows carry no individual injury designation; defensive personnel and opponent matchup were not assessed in this bounded check.\",\n            \"No weekly projections were returned; pointsPerGame is a league-scored season average, not expected Week11 points.\",\n            \"Free-agent pools change; no assignment of the same player to multiple teams is implied.\"\n          ],\n          \"source_file\": \"available-slots-receipts-pass3.json\",\n          \"bye_source\": {\n            \"url\": \"https://www.nfl.com/schedules/2026/by-week/week-11\",\n            \"support\": \"ATL,CLE,GB,LAR,NE,SEA Week11 byes\",\n            \"sports_news_source_id\": \"S16\",\n            \"sports_news_file\": \"w10_pass3_sports_news.json\"\n          }\n        }\n      }\n    }\n  ]\n}\n\nREFERENCE IMAGES\n[\n  {\n    \"repo_path\": \"memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p27.jpg\",\n    \"sha256\": \"28a5b30d1f73a9a1005433af8fa3d95df168cd647569dcde4e361158fa9a8576\",\n    \"bytes\": 542374,\n    \"dimensions\": [\n      960,\n      1707\n    ],\n    \"media_type\": \"image/jpeg\",\n    \"role\": \"published_memo_precedent\",\n    \"decoded_in_preflight\": true,\n    \"application\": \"Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values.\"\n  }\n]",
+  "publication_copy": {
+    "headline": "MOVES THAT REACHED THE ROSTER",
+    "deck": "Completed Week 10 activity • All bids shown are FAAB",
+    "body": "The Week 10 window contains 29 completed transactions. Pending and unsuccessful requests do not become completed moves just because they appear in the feed. With the configured trade deadline already passed, the next coverage questions concern owned depth and available-player claims. No new acquisition is assumed here.",
+    "callouts": [
+      {
+        "heading": "A two-day Mason trail",
+        "body": "Dr. Duckhook’s $35 FAAB claim for Corey Kiner released Jordan Mason on November 11. Slob on my Dobb added Mason the next day, dropping Chris Brooks."
+      },
+      {
+        "heading": "A familiar name changes shelves",
+        "body": "Seven Deadly Chins dropped Brian Thomas Jr. on November 10; Dr. Duckhook added him November 15."
+      },
+      {
+        "heading": "ObiWan works the receiver file",
+        "body": "ObiWan completed claims for Mack Hollins ($27 FAAB), Malachi Fields ($11 FAAB) and Kalif Raymond ($1 FAAB)."
+      },
+      {
+        "heading": "The defense that still matters tonight",
+        "body": "Three Dreaded Snake added Ravens D/ST for Bengals D/ST on November 11. Baltimore’s defense remains its last selected scorer."
+      }
+    ],
+    "rows": [],
+    "department_heading": "TRANSACTIONS"
+  },
+  "scene": {
+    "camera_and_composition": "Close three-quarter intake scene with a deep courier arch behind; a clerk places one completed transaction folio into a worn shelf.",
+    "foreground": "Completed ledger and weather-dark satchel.",
+    "midground": "Ordinary stamped intake process and distinct shelves.",
+    "background": "Courtyard arrival path; no invented league trading hall.",
+    "image_tells": "Close three-quarter intake scene with a deep courier arch behind; a clerk places one completed transaction folio into a worn shelf. Completed ledger and weather-dark satchel. Ordinary stamped intake process and distinct shelves. Courtyard arrival path; no invented league trading hall.",
+    "encounter": {
+      "venue_id": "LOC-LEAGUE-ARCHIVE",
+      "set_id": "SET-W10-ARCHIVE-TRANSACTION-INTAKE",
+      "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+      "division_context": "League-wide; divisions are overlays",
+      "route_required": false,
+      "world_state_in": "Existing place with selective wear and maintenance",
+      "persistent_landmarks": [
+        "League Archive courier intake desk"
+      ],
+      "provisional_location": true,
+      "formal_atlas_promotion": false
+    },
+    "continuity_in": [
+      "LOC-LEAGUE-ARCHIVE",
+      "Existing Commonwealth use and inherited approved weather state"
+    ],
+    "continuity_out": [
+      "Preserve the bounded source window and lifecycle status. Do not recommend a new trade after the configured November11deadline."
+    ],
+    "forbidden_mutations": [
+      "Reactivating historical pending claims",
+      "Inferring transaction motive",
+      "Calling add/drop sequences player trades"
+    ]
+  },
+  "reference_images": [
+    {
+      "repo_path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p27.jpg",
+      "sha256": "28a5b30d1f73a9a1005433af8fa3d95df168cd647569dcde4e361158fa9a8576",
+      "bytes": 542374,
+      "dimensions": [
+        960,
+        1707
+      ],
+      "media_type": "image/jpeg",
+      "role": "published_memo_precedent",
+      "decoded_in_preflight": true,
+      "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+    }
+  ],
+  "sports_policy": {
+    "official_winner_decided": false,
+    "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+    "unresolved_numerals": "BLANK_RESERVED_FIELDS",
+    "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
+    "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+    "refresh_fields": [
+      {
+        "selector": "/completed_transactions",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": {
+          "fact_id": "W10-TX-COMPLETE",
+          "scope": "W10_COMPLETED_ACTIVITY",
+          "source": "S10",
+          "event_count": 29,
+          "trade_event_count": 0,
+          "window": "ESPN matchup period 10; date bounds unavailable; response not truncated",
+          "event_fields": [
+            "event_id",
+            "date",
+            "team",
+            "type",
+            "added",
+            "dropped",
+            "faab_bid"
+          ],
+          "events": [
+            [
+              "de481763-a023-41f1-9a3d-f9d9d39c4584",
+              "2026-11-15",
+              "T12",
+              "add",
+              [
+                "Brian Thomas Jr."
+              ],
+              [],
+              0
+            ],
+            [
+              "9cc85243-1384-48e2-8299-e7d4a7c6688e",
+              "2026-11-15",
+              "T01",
+              "add",
+              [
+                "Bam Knight"
+              ],
+              [
+                "Dalton Schultz"
+              ],
+              0
+            ],
+            [
+              "720df030-566a-4138-a669-51d24ab935f9",
+              "2026-11-14",
+              "T01",
+              "waiver",
+              [
+                "Kalif Raymond"
+              ],
+              [
+                "Romeo Doubs"
+              ],
+              1
+            ],
+            [
+              "12c36132-6551-4628-b8d6-0463eac7c686",
+              "2026-11-13",
+              "T11",
+              "add",
+              [
+                "Chimere Dike"
+              ],
+              [
+                "Pat Bryant"
+              ],
+              0
+            ],
+            [
+              "2118a4ed-c1d7-439b-8bdc-a0d91c2ca0cd",
+              "2026-11-12",
+              "T01",
+              "add",
+              [
+                "Tyler Higbee"
+              ],
+              [
+                "Kalif Raymond"
+              ],
+              0
+            ],
+            [
+              "b104acff-d40e-4ab1-a237-59cb22a734fd",
+              "2026-11-12",
+              "T03",
+              "add",
+              [
+                "Jordan Mason"
+              ],
+              [
+                "Chris Brooks"
+              ],
+              0
+            ],
+            [
+              "6936ce10-eb31-4ae3-b5f6-dc4ee1744880",
+              "2026-11-12",
+              "T11",
+              "add",
+              [
+                "Pat Bryant"
+              ],
+              [
+                "Jordan Watkins"
+              ],
+              0
+            ],
+            [
+              "88370b77-f24f-4962-8387-eb3c2385ef72",
+              "2026-11-11",
+              "T11",
+              "add",
+              [
+                "Jordan Watkins"
+              ],
+              [],
+              0
+            ],
+            [
+              "d017c99f-ea59-4d78-8b54-d6f6bc15ffec",
+              "2026-11-11",
+              "T11",
+              "add",
+              [
+                "De'Zhaun Stribling"
+              ],
+              [
+                "Jordan Watkins"
+              ],
+              0
+            ],
+            [
+              "3e725304-bb4b-4cb8-ace1-4df834adc337",
+              "2026-11-11",
+              "T02",
+              "add",
+              [
+                "Colts D/ST"
+              ],
+              [
+                "Bears D/ST"
+              ],
+              0
+            ],
+            [
+              "7a35777b-bff9-4b61-907d-2ef31e4334ad",
+              "2026-11-11",
+              "T02",
+              "add",
+              [
+                "Drew Lock"
+              ],
+              [],
+              0
+            ],
+            [
+              "eb519448-4747-4b1a-aacb-c138b435c763",
+              "2026-11-11",
+              "T04",
+              "add",
+              [
+                "Jason Sanders"
+              ],
+              [
+                "Cairo Santos"
+              ],
+              0
+            ],
+            [
+              "48bc265e-7ab0-4bd7-aef9-67d17b5f8948",
+              "2026-11-11",
+              "T03",
+              "add",
+              [
+                "Chris Brooks"
+              ],
+              [],
+              0
+            ],
+            [
+              "abd5caab-6a74-4ce1-895b-b03b79b4855a",
+              "2026-11-11",
+              "T03",
+              "drop",
+              [],
+              [
+                "Brandon Aiyuk"
+              ],
+              0
+            ],
+            [
+              "7ba74a81-8aa5-4a35-88c8-9657ac7c72e3",
+              "2026-11-11",
+              "T03",
+              "add",
+              [
+                "Kaleb Johnson"
+              ],
+              [
+                "Mike Washington Jr."
+              ],
+              0
+            ],
+            [
+              "2d245ad6-e602-4471-adb6-30aed1c95bb5",
+              "2026-11-11",
+              "T11",
+              "add",
+              [
+                "Andre Szmyt"
+              ],
+              [
+                "Chase McLaughlin"
+              ],
+              0
+            ],
+            [
+              "8e12b63f-b328-4a7f-8d41-f4fb186ef143",
+              "2026-11-11",
+              "T11",
+              "add",
+              [
+                "Jordan Watkins"
+              ],
+              [],
+              0
+            ],
+            [
+              "4bcc51d8-17bb-45c1-900d-c341c3506c90",
+              "2026-11-11",
+              "T06",
+              "add",
+              [
+                "Ravens D/ST"
+              ],
+              [
+                "Bengals D/ST"
+              ],
+              0
+            ],
+            [
+              "8f6b5bd8-1fee-441b-8b8a-3fde56728d0b",
+              "2026-11-11",
+              "T06",
+              "add",
+              [
+                "Tutu Atwell"
+              ],
+              [
+                "Seth McGowan"
+              ],
+              0
+            ],
+            [
+              "2a75823c-a099-47c5-baf5-867f1e86f101",
+              "2026-11-11",
+              "T06",
+              "add",
+              [
+                "Darren Waller"
+              ],
+              [
+                "Chris Boswell"
+              ],
+              0
+            ],
+            [
+              "fc5e84d1-7ea7-47d4-a08e-3c38fc38aafe",
+              "2026-11-11",
+              "T11",
+              "waiver",
+              [
+                "Tank Dell"
+              ],
+              [],
+              5
+            ],
+            [
+              "cca1ae9d-6f8f-481e-b6b9-fcf8558dd844",
+              "2026-11-11",
+              "T11",
+              "waiver",
+              [
+                "Fernando Mendoza"
+              ],
+              [],
+              5
+            ],
+            [
+              "5458c52a-8d4e-4861-85b7-52a0d58e003e",
+              "2026-11-11",
+              "T08",
+              "waiver",
+              [
+                "Konata Mumpfield"
+              ],
+              [
+                "Eli Raridon"
+              ],
+              11
+            ],
+            [
+              "aeea3baf-be16-4f63-99ba-e5d7bcfa05f5",
+              "2026-11-11",
+              "T01",
+              "waiver",
+              [
+                "Malachi Fields"
+              ],
+              [
+                "Tory Horton"
+              ],
+              11
+            ],
+            [
+              "8ad50ef3-4705-44da-be52-5b8702e81798",
+              "2026-11-11",
+              "T01",
+              "waiver",
+              [
+                "Mack Hollins"
+              ],
+              [
+                "Jalen Nailor"
+              ],
+              27
+            ],
+            [
+              "a860fe7d-4a71-4798-9b22-dee667603872",
+              "2026-11-11",
+              "T12",
+              "waiver",
+              [
+                "Corey Kiner"
+              ],
+              [
+                "Jordan Mason"
+              ],
+              35
+            ],
+            [
+              "71e30879-8174-417d-b093-aa8c620ebe6b",
+              "2026-11-10",
+              "T11",
+              "drop",
+              [],
+              [
+                "Brian Thomas Jr."
+              ],
+              0
+            ],
+            [
+              "aa2f811b-9adc-43f4-982f-0426eaeb8f99",
+              "2026-11-10",
+              "T11",
+              "drop",
+              [],
+              [
+                "Ja'Kobi Lane"
+              ],
+              0
+            ],
+            [
+              "f1def487-ed5e-46db-9296-b3954235bacb",
+              "2026-11-10",
+              "T11",
+              "drop",
+              [],
+              [
+                "Malik Willis"
+              ],
+              0
+            ]
+          ]
+        }
+      },
+      {
+        "selector": "/pass3/transactions",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_sha256": "656cd67943f90ce7818cca5f2df6c65623e303bf7b141204f1718c3e9388bd0a",
+        "snapshot_value_stored_in": "facts.json/pass3/transactions"
+      },
+      {
+        "selector": "/pass3/available_slots",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": {
+          "fact_id": "W11-AVAILABLE-SLOTS",
+          "artifact": "available-slots-pass3.json",
+          "scope": "Current read-only non-bye coverage pool; no claims or bids placed",
+          "data": {
+            "schema": "schemin.week11.required-slot-availability.v1",
+            "captured_at_utc": "2026-11-16T18:24:59Z",
+            "league_id": "1417621",
+            "season": 2026,
+            "purpose": "Read-only memo-planning availability shortlist for seven uncovered required Week11 slots; no acquisition or allocation recommendation, bid or roster change.",
+            "required_slots": [
+              {
+                "team": "Slob on my Dobb",
+                "team_id": 3,
+                "position": "TE"
+              },
+              {
+                "team": "El Niño",
+                "team_id": 9,
+                "position": "TE"
+              },
+              {
+                "team": "The Chili Cheesers",
+                "team_id": 7,
+                "position": "K"
+              },
+              {
+                "team": "Seven Deadly Chins",
+                "team_id": 11,
+                "position": "K"
+              },
+              {
+                "team": "Seven Deadly Chins",
+                "team_id": 11,
+                "position": "D/ST"
+              },
+              {
+                "team": "ObiWan Jacoby",
+                "team_id": 1,
+                "position": "D/ST"
+              },
+              {
+                "team": "Mud Dogs",
+                "team_id": 10,
+                "position": "D/ST"
+              }
+            ],
+            "excluded_week11_bye_clubs": [
+              "ATL",
+              "CLE",
+              "GB",
+              "LAR",
+              "NE",
+              "SEA"
+            ],
+            "coverage": {
+              "TE": 15,
+              "K": 15,
+              "DST": 14,
+              "inventory_complete_claim": false,
+              "ordering": "Provider platform_rostered_rate_desc; this is not a Week11 projection ranking."
+            },
+            "shortlist": {
+              "TE": [
+                {
+                  "id": "3117256",
+                  "name": "Dalton Schultz",
+                  "team": "HOU",
+                  "position": "TE",
+                  "injuryStatus": "Active",
+                  "acquisitionState": "waivers",
+                  "waiverClearsAt": "2026-11-18T08:00:00.000Z",
+                  "pointsPerGame": 8.94,
+                  "seasonPoints": 80.5
+                },
+                {
+                  "id": "4430802",
+                  "name": "Darnell Washington",
+                  "team": "PIT",
+                  "position": "TE",
+                  "injuryStatus": "Active",
+                  "acquisitionState": "waivers",
+                  "waiverClearsAt": "2026-11-18T08:00:00.000Z",
+                  "pointsPerGame": 7.1,
+                  "seasonPoints": 63.9
+                },
+                {
+                  "id": "4808766",
+                  "name": "Mason Taylor",
+                  "team": "NYJ",
+                  "position": "TE",
+                  "injuryStatus": "Active",
+                  "acquisitionState": "waivers",
+                  "waiverClearsAt": "2026-11-18T08:00:00.000Z",
+                  "pointsPerGame": 6.59,
+                  "seasonPoints": 52.7
+                },
+                {
+                  "id": "4243331",
+                  "name": "Cade Otton",
+                  "team": "TB",
+                  "position": "TE",
+                  "injuryStatus": "Active",
+                  "acquisitionState": "free_agent",
+                  "waiverClearsAt": null,
+                  "pointsPerGame": 4.9,
+                  "seasonPoints": 44.1
+                }
+              ],
+              "K": [
+                {
+                  "id": "17372",
+                  "name": "Chris Boswell",
+                  "team": "PIT",
+                  "position": "K",
+                  "injuryStatus": "Active",
+                  "acquisitionState": "waivers",
+                  "waiverClearsAt": "2026-11-18T08:00:00.000Z",
+                  "pointsPerGame": 9.67,
+                  "seasonPoints": 87
+                },
+                {
+                  "id": "4689936",
+                  "name": "Jake Bates",
+                  "team": "DET",
+                  "position": "K",
+                  "injuryStatus": "Active",
+                  "acquisitionState": "waivers",
+                  "waiverClearsAt": "2026-11-18T08:00:00.000Z",
+                  "pointsPerGame": 9.44,
+                  "seasonPoints": 85
+                },
+                {
+                  "id": "4362081",
+                  "name": "Cameron Dicker",
+                  "team": "LAC",
+                  "position": "K",
+                  "injuryStatus": "Active",
+                  "acquisitionState": "free_agent",
+                  "waiverClearsAt": null,
+                  "pointsPerGame": 7.75,
+                  "seasonPoints": 62
+                },
+                {
+                  "id": "3150744",
+                  "name": "Chase McLaughlin",
+                  "team": "TB",
+                  "position": "K",
+                  "injuryStatus": "Active",
+                  "acquisitionState": "free_agent",
+                  "waiverClearsAt": null,
+                  "pointsPerGame": 11,
+                  "seasonPoints": 99
+                }
+              ],
+              "DST": [
+                {
+                  "id": "-16003",
+                  "name": "Bears D/ST",
+                  "team": "CHI",
+                  "position": "D/ST",
+                  "injuryStatus": null,
+                  "acquisitionState": "free_agent",
+                  "waiverClearsAt": null,
+                  "pointsPerGame": 11.52,
+                  "seasonPoints": 103.7
+                },
+                {
+                  "id": "-16004",
+                  "name": "Bengals D/ST",
+                  "team": "CIN",
+                  "position": "D/ST",
+                  "injuryStatus": null,
+                  "acquisitionState": "waivers",
+                  "waiverClearsAt": "2026-11-18T08:00:00.000Z",
+                  "pointsPerGame": 10.56,
+                  "seasonPoints": 95
+                },
+                {
+                  "id": "-16028",
+                  "name": "Commanders D/ST",
+                  "team": "WSH",
+                  "position": "D/ST",
+                  "injuryStatus": null,
+                  "acquisitionState": "waivers",
+                  "waiverClearsAt": "2026-11-18T08:00:00.000Z",
+                  "pointsPerGame": 8.4,
+                  "seasonPoints": 75.6
+                },
+                {
+                  "id": "-16021",
+                  "name": "Eagles D/ST",
+                  "team": "PHI",
+                  "position": "D/ST",
+                  "injuryStatus": null,
+                  "acquisitionState": "free_agent",
+                  "waiverClearsAt": null,
+                  "pointsPerGame": 5.39,
+                  "seasonPoints": 48.5
+                }
+              ]
+            },
+            "excluded_returned_entries": {
+              "TE": [
+                {
+                  "id": "4242355",
+                  "name": "Jake Ferguson",
+                  "team": "DAL",
+                  "reasons": [
+                    "provider injury designation Out"
+                  ]
+                },
+                {
+                  "id": "4576297",
+                  "name": "AJ Barner",
+                  "team": "SEA",
+                  "reasons": [
+                    "Week11 bye"
+                  ]
+                },
+                {
+                  "id": "4831959",
+                  "name": "Eli Raridon",
+                  "team": "NE",
+                  "reasons": [
+                    "Week11 bye"
+                  ]
+                },
+                {
+                  "id": "4242557",
+                  "name": "Colby Parkinson",
+                  "team": "LAR",
+                  "reasons": [
+                    "Week11 bye"
+                  ]
+                },
+                {
+                  "id": "3123076",
+                  "name": "David Njoku",
+                  "team": "LAC",
+                  "reasons": [
+                    "provider injury designation IR"
+                  ]
+                }
+              ],
+              "K": [
+                {
+                  "id": "4697745",
+                  "name": "Tyler Loop",
+                  "team": "BAL",
+                  "reasons": [
+                    "provider injury designation IR"
+                  ]
+                },
+                {
+                  "id": "4574716",
+                  "name": "Harrison Mevis",
+                  "team": null,
+                  "reasons": [
+                    "provider club not reported"
+                  ]
+                },
+                {
+                  "id": "4869461",
+                  "name": "Trey Smack",
+                  "team": "GB",
+                  "reasons": [
+                    "Week11 bye"
+                  ]
+                },
+                {
+                  "id": "10621",
+                  "name": "Nick Folk",
+                  "team": null,
+                  "reasons": [
+                    "provider club not reported"
+                  ]
+                }
+              ],
+              "DST": [
+                {
+                  "id": "-16009",
+                  "name": "Packers D/ST",
+                  "team": "GB",
+                  "reasons": [
+                    "Week11 bye"
+                  ]
+                },
+                {
+                  "id": "-16017",
+                  "name": "Patriots D/ST",
+                  "team": "NE",
+                  "reasons": [
+                    "Week11 bye"
+                  ]
+                },
+                {
+                  "id": "-16001",
+                  "name": "Falcons D/ST",
+                  "team": "ATL",
+                  "reasons": [
+                    "Week11 bye"
+                  ]
+                }
+              ]
+            },
+            "availability_limits": [
+              "acquisitionState is the current provider state, not a promise a manager can complete an acquisition or win a claim.",
+              "Provider waiver clearance Nov18 at08:00UTC corresponds to03:00EST.",
+              "The12 selected candidates are absent from all224 current roster entries at the checkpoint.",
+              "Active is a provider designation that can lag news; Week11 medical/practice reports and real-team roles require rechecking.",
+              "D/ST rows carry no individual injury designation; defensive personnel and opponent matchup were not assessed in this bounded check.",
+              "No weekly projections were returned; pointsPerGame is a league-scored season average, not expected Week11 points.",
+              "Free-agent pools change; no assignment of the same player to multiple teams is implied."
+            ],
+            "source_file": "available-slots-receipts-pass3.json",
+            "bye_source": {
+              "url": "https://www.nfl.com/schedules/2026/by-week/week-11",
+              "support": "ATL,CLE,GB,LAR,NE,SEA Week11 byes",
+              "sports_news_source_id": "S16",
+              "sports_news_file": "w10_pass3_sports_news.json"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "image_generation_executed": false,
+  "publication_approved": false,
+  "reference_pixels_decoded_at_utc": "2026-11-16T20:34:25.019935+00:00",
+  "render_protocol": {
+    "stage": "GRAYSCALE_FOLIO_PROOF",
+    "canvas": [
+      1080,
+      1920
+    ],
+    "master_before_contact_sheet": true,
+    "full_editorial_copy_required": true,
+    "production_metadata_baked_into_art": false,
+    "contact_sheet_is_downstream_composite": true,
+    "no_reinterpretation_when_downscaling": true,
+    "color_generation_is_later": true,
+    "generated_output_identity_review": "RUN_ON_EACH_ACTUAL_OUTPUT_NOT_CLAIMED_BY_PREFLIGHT"
+  }
+}

@@ -1,0 +1,330 @@
+One individual 1080×1920 grayscale integrated illustrated memo folio: complete supplied headline, department heading, deck, narration and source-qualified lettering in the exact intended final composition. No annotation cards, miniature scene summaries, detached document exports, or generated six-up grids.
+
+Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
+
+PAGE W10-P14 · READING POSITION 14
+
+IDENTITY INPUTS
+[
+  {
+    "character_id": "CHAR-PHILLIP-PITTS",
+    "full_name": "Three Dreaded Snake",
+    "owner": "Phillip Pitts",
+    "appearance": {
+      "subject_morphology": "Reptilian humanoid with THREE live serpent head-and-neck projections",
+      "head_face": "Exactly three snake heads, mouths and tongues independently visible",
+      "silhouette": "Three serpent necks over an armored humanoid torso; weapons carried below",
+      "palette": [
+        "bronze scales",
+        "moss green",
+        "dark leather"
+      ],
+      "recognizable_props": [
+        "blade weapons",
+        "layered leather/metal armor"
+      ],
+      "negative_rules": [
+        "single-headed snake",
+        "three separate creatures",
+        "restoring long pre-haircut dreads"
+      ]
+    },
+    "current_override": null,
+    "reference_paths": [
+      "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png"
+    ]
+  },
+  {
+    "character_id": "CHAR-BEN-WHIPPLE",
+    "full_name": "Seven Deadly Chins",
+    "owner": "Ben Whipple",
+    "appearance": {
+      "subject_morphology": "Very heavyset trucker / blue-collar human brawler with folded neck and overalls",
+      "head_face": "Human face with prominent multiple chin folds, dark glasses and red trucker cap",
+      "silhouette": "Broad heavy torso in dirty tank/overalls, large blunt tool, big-rig backdrop",
+      "palette": [
+        "off-white tank",
+        "denim blue",
+        "truck red",
+        "steel"
+      ],
+      "recognizable_props": [
+        "trucker cap",
+        "metal striking tool",
+        "big-rig association"
+      ],
+      "negative_rules": [
+        "slim athletic substitute",
+        "animal-headed characterization",
+        "executive suit"
+      ]
+    },
+    "current_override": null,
+    "reference_paths": [
+      "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png"
+    ]
+  }
+]
+
+SCENE AND CONTINUITY
+{
+  "camera_and_composition": "Courtyard-height view, drill and music source below, furious three-headed silhouette above.",
+  "foreground": "The next edge of the same growing concrete patch",
+  "midground": "Seven Deadly Chins grinning with both hands operating tool",
+  "background": "Balcony and sheltered family presence; ordinary waterfall",
+  "image_tells": "From courtyard level, Seven Deadly Chins drives the hammer into a fresh edge of the same expanding patch, grinning toward the balcony while the speaker remains visible. Three Dreaded Snake’s whole body is tense; all three heads now direct their frustration outward, yet the family doorway still pulls one eyeline back. This is comic escalation through attention and sound, not physical attack. No thunderclap competes with the deliberate noise at the payoff. The waterfall remains normal background ambience; the baby was settling despite it before Seven Deadly Chins began.",
+  "encounter": {
+    "venue_id": "LOC-TDS-WATERFALL-TEMPLE",
+    "set_id": "SET-W10-TDS-TEMPLE-COURTYARD",
+    "venue_type": "PROPOSED_HOUSEHOLD_COURTYARD_AND_BALCONY",
+    "region_id": "REG-SOUTHERN-WETLANDS",
+    "provider_home_team_id": 6,
+    "provider_away_team_id": 11,
+    "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+    "route_required": true,
+    "route_names": [
+      "Chins to TDS"
+    ],
+    "world_state_in": {
+      "week9_in": [
+        "TDS paintball loss and family welcome",
+        "Chins truck trapped at Red ruins in actualWeek9"
+      ],
+      "identity_locks": [
+        "Exactly three heads, one reptilian humanoid body",
+        "No pre-haircut long dreads",
+        "Chins heavyset human, cap, dirty clothing and hammer"
+      ],
+      "no_claims": [
+        "No baby/family in danger",
+        "No Pittsy reopening",
+        "No truck restoration",
+        "No temple destruction"
+      ],
+      "pass3_in": [
+        "TDS exactly three heads one body",
+        "Chins on courtyard below",
+        "Family contextual/offscreen; no invented spouse identity",
+        "Actual requested jackhammer and music",
+        "Compressor/hose/speaker coherent",
+        "Concrete patch grows consistently",
+        "No thunder competing at comic payoff",
+        "No assumed Book reopening"
+      ],
+      "pass3_out": [
+        "Baby awake; family upset; first concrete damage",
+        "Chins knowingly refuses the request; music louder",
+        "Same expanded hole; family frustration unresolved; no Book reopening"
+      ]
+    },
+    "persistent_landmarks": [
+      "patched concrete courtyard over older stone",
+      "upper balcony and protected family doorway",
+      "waterfall, drain and planted margin",
+      "raised dry compressor/speaker shelf"
+    ],
+    "provisional_location": true,
+    "formal_atlas_promotion": false,
+    "unregistered_parent_explained": false
+  },
+  "continuity_in": [
+    "patched concrete courtyard over older stone",
+    "upper balcony and protected family doorway",
+    "waterfall, drain and planted margin",
+    "raised dry compressor/speaker shelf"
+  ],
+  "continuity_out": [
+    "Same expanded hole; family frustration unresolved; no Book reopening"
+  ],
+  "forbidden_mutations": [
+    "Three Dreaded Snake exactly three heads one body",
+    "Seven Deadly Chins on courtyard below",
+    "Family contextual/offscreen; no invented spouse identity",
+    "Actual requested jackhammer and music",
+    "Compressor/hose/speaker coherent",
+    "Concrete patch grows consistently",
+    "No thunder competing at comic payoff",
+    "No assumed Book reopening"
+  ]
+}
+
+EXACT FULL PUBLICATION COPY
+{
+  "headline": "No Quiet Hours",
+  "deck": "Three Dreaded Snake vs Seven Deadly Chins",
+  "body": "Broken concrete lies in a widening crescent around the same jackhammer. Seven Deadly Chins dances badly to his own music, delighted by an audience of three furious heads. Upstairs, the father has a crying baby and an angry partner; downstairs, his visitor has a fresh piece of ground to destroy. Last season Three Dreaded Snake beat Seven Deadly Chins twice. This week Seven Deadly Chins has discovered a form of revenge that needs neither a trophy nor permission.",
+  "department_heading": "Three Dreaded Snake vs Seven Deadly Chins"
+}
+
+FACT POLICY
+{
+  "official_winner_decided": false,
+  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "unresolved_numerals": "BLANK_RESERVED_FIELDS",
+  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
+  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "refresh_fields": [
+    {
+      "selector": "/games/2",
+      "artifact": "facts.json",
+      "snapshot_value": {
+        "fact_id": "W10-G03",
+        "scope": "W10_LIVE",
+        "source": "S10",
+        "home": "T06",
+        "away": "T11",
+        "current_score": [
+          75.78,
+          146.22
+        ],
+        "away_lead": 70.44,
+        "provider_winner": "UNDECIDED",
+        "final_winner": null,
+        "remaining_starter_fact_ids": [
+          "W10-MNF--16033"
+        ],
+        "scheduled_starters_complete": false,
+        "overtake": {
+          "scope": "CONDITIONAL",
+          "team": "T06",
+          "additional_points_strictly_greater_than": 70.44,
+          "equality": "TIE_REQUIRES_PROVIDER_RESOLUTION",
+          "assumptions": [
+            "captured lineup unchanged",
+            "other current scores unchanged except listed remaining starters"
+          ]
+        }
+      },
+      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+    },
+    {
+      "selector": "/historical_context/W10-G03",
+      "artifact": "facts.json",
+      "snapshot_value": {
+        "game_id": "W10-G03",
+        "current_team_ids": [
+          6,
+          11
+        ],
+        "current_team_names": [
+          "Three Dreaded Snake",
+          "Seven Deadly Chins"
+        ],
+        "title": "Last season’s two defeats, now a possible reversal",
+        "anchor_fact_id": "HIST-2025-W14-T06-T11",
+        "public_copy": "Three Dreaded Snake beat Seven Deadly Chins twice in 2025: 189.72–172.00 in Week 3 and 139.84–90.70 in Week 14, margins of 17.72 and 49.14.",
+        "supported_stakes": "Both cited 2025 games were regular season; no elimination claim.",
+        "creative_use_scope": "Chins’ present Week10 lead offers a reversal of two verified prior defeats. Keep the 2026 payoff conditional while Ravens D/ST remains.",
+        "all_time_h2h": null,
+        "last_meeting_claim": false,
+        "anchor": {
+          "fact_id": "HIST-2025-W14-T06-T11",
+          "season": 2025,
+          "week": 14,
+          "calendar_date": null,
+          "home_team_id": 11,
+          "home_name_as_returned": "Seven Deadly Chins",
+          "home_points": 90.7,
+          "away_team_id": 6,
+          "away_name_as_returned": "Three Dreaded Snake",
+          "away_points": 139.84,
+          "winner_team_id": 6,
+          "winner_name_as_returned": "Three Dreaded Snake",
+          "margin": 49.14,
+          "provider_winner": "AWAY",
+          "provider_playoff_tier": "NONE",
+          "source_pointer": "/seasons/2025/weeks/14/data/matchups/2",
+          "binding_scope": "same named teams or independently verified current alias",
+          "current_personal_copy_allowed": true
+        }
+      },
+      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+    },
+    {
+      "selector": "/teams/T06/current_points",
+      "artifact": "facts.json",
+      "snapshot_value": 75.78,
+      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+    },
+    {
+      "selector": "/teams/T06/scorers/4882093/2",
+      "artifact": "facts.json",
+      "snapshot_value": 22.9,
+      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+    },
+    {
+      "selector": "/teams/T11/current_points",
+      "artifact": "facts.json",
+      "snapshot_value": 146.22,
+      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+    },
+    {
+      "selector": "/teams/T11/scorers/3139477/2",
+      "artifact": "facts.json",
+      "snapshot_value": 48.62,
+      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+    },
+    {
+      "selector": "/teams/T11/scorers/4429096/2",
+      "artifact": "facts.json",
+      "snapshot_value": 23.6,
+      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+    }
+  ]
+}
+
+REFERENCE IMAGES
+[
+  {
+    "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+    "sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+    "bytes": 331140,
+    "dimensions": [
+      362,
+      405
+    ],
+    "media_type": "image/png",
+    "role": "approved_lineup_crop",
+    "character_id": "CHAR-PHILLIP-PITTS",
+    "decoded_in_preflight": true
+  },
+  {
+    "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+    "sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+    "bytes": 313601,
+    "dimensions": [
+      362,
+      391
+    ],
+    "media_type": "image/png",
+    "role": "approved_lineup_crop",
+    "character_id": "CHAR-BEN-WHIPPLE",
+    "decoded_in_preflight": true
+  },
+  {
+    "repo_path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p01.jpg",
+    "sha256": "e0c297d982e7736beb4cb1dcffd62daba6088e4ce405f3c748c6c06509c606ec",
+    "bytes": 469515,
+    "dimensions": [
+      910,
+      1707
+    ],
+    "media_type": "image/jpeg",
+    "role": "published_location_geometry",
+    "decoded_in_preflight": true,
+    "application": "Exact existing location geometry and persistent landmarks, plus current scene changes. No copy of old score values."
+  },
+  {
+    "repo_path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p25.jpg",
+    "sha256": "46871249c3c589e2060ae668fad2353cb0ba9d97bd3745dc87262694b0daace9",
+    "bytes": 519050,
+    "dimensions": [
+      960,
+      1705
+    ],
+    "media_type": "image/jpeg",
+    "role": "published_memo_precedent",
+    "decoded_in_preflight": true,
+    "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+  }
+]

@@ -3,7 +3,7 @@
   "packet_id": "S26-W10-PREPROD-FACTS-20261116",
   "season": 2026,
   "week": 10,
-  "captured_at_utc": "2026-11-16T11:42:11.062Z",
+  "captured_at_utc": "2026-11-16T20:13:35.096017+00:00",
   "sources": {
     "S10": {
       "kind": "FLAIM_ESPN_NORMALIZED",
@@ -2640,10 +2640,13 @@
     "scene_status": "User direction accepted; new fictional choreography and detailed copy remain draft."
   },
   "current_recheck": {
-    "file": "current-league-pass3.json",
-    "date": "2026-11-16",
-    "scope": "All12rosters, standings, W10–14fixtures, rules and transactions rechecked; six live scores unchanged, six outcomes UNDECIDED",
-    "sha256": "0fc42577f69dac5219609321160c9973eba041dc86a15285b80586bcecfdcddf"
+    "captured_at_utc": "2026-11-16T20:13:35.096017+00:00",
+    "source_receipt": "../production-evidence/recovery-20261116/fresh-sports-audit.json",
+    "current_values_unchanged": true,
+    "all_six_winner_fields": "UNDECIDED",
+    "roster_entries_refreshed": 224,
+    "standings_scope": "OFFICIAL_THROUGH_WEEK9",
+    "publication_finality": false
   },
   "pass3": {
     "fact_id": "W10-PASS3",

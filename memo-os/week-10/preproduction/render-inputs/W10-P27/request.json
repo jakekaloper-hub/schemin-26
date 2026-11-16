@@ -1,0 +1,427 @@
+{
+  "schema_version": "1.0",
+  "page_id": "W10-P27",
+  "reading_position": 28,
+  "sheet": 5,
+  "slot": 4,
+  "stage": "GRAYSCALE_FOLIO_PROOF",
+  "canvas": [
+    1080,
+    1920
+  ],
+  "prompt": "One individual 1080×1920 grayscale integrated illustrated memo folio: complete supplied headline, department heading, deck, narration and source-qualified lettering in the exact intended final composition. No annotation cards, miniature scene summaries, detached document exports, or generated six-up grids.\n\nImage authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.\n\nPAGE W10-P27 · READING POSITION 28\n\nIDENTITY INPUTS\n[]\n\nSCENE AND CONTINUITY\n{\n  \"camera_and_composition\": \"Deep record-hall view with the twelve entries integrated into an existing long record surface and surrounding shadow; architecture remains spatially present.\",\n  \"foreground\": \"Worn ledger edge and clerk’s hand turning a page.\",\n  \"midground\": \"Twelve compact official entries, correct order, no invented post-Week10seeds.\",\n  \"background\": \"Receding hall, high windows and warm record lamps.\",\n  \"image_tells\": \"Deep record-hall view with the twelve entries integrated into an existing long record surface and surrounding shadow; architecture remains spatially present. Worn ledger edge and clerk’s hand turning a page. Twelve compact official entries, correct order, no invented post-Week10seeds. Receding hall, high windows and warm record lamps.\",\n  \"encounter\": {\n    \"venue_id\": \"LOC-LEAGUE-ARCHIVE\",\n    \"set_id\": \"SET-W10-ARCHIVE-STANDINGS-HALL\",\n    \"venue_type\": \"Editorial department within existing Atlas parent; local staging proposed\",\n    \"division_context\": \"League-wide; divisions are overlays\",\n    \"route_required\": false,\n    \"world_state_in\": \"Existing place with selective wear and maintenance\",\n    \"persistent_landmarks\": [\n      \"League Archive record hall\"\n    ],\n    \"provisional_location\": true,\n    \"formal_atlas_promotion\": false\n  },\n  \"continuity_in\": [\n    \"LOC-LEAGUE-ARCHIVE\",\n    \"Existing Commonwealth use and inherited approved weather state\"\n  ],\n  \"continuity_out\": [\n    \"Retain through-nine official records now; after finality replace all rows and copy together. Never sort the future table by points alone.\"\n  ],\n  \"forbidden_mutations\": []\n}\n\nEXACT FULL PUBLICATION COPY\n{\n  \"headline\": \"TWELVE TEAMS. NINE POSTED RESULTS.\",\n  \"deck\": \"Official standings entering Week 10\",\n  \"body\": \"This is the official table through nine completed games. Dr. Duckhook entered alone at 6–3; seven teams followed at 5–4. Week 10’s scoring belongs on the live board until ESPN posts its outcomes. Equal records can occupy different seeds, so the order below follows the provider’s table.\",\n  \"callouts\": [],\n  \"rows\": [\n    {\n      \"seed\": 1,\n      \"team\": \"Dr. Duckhook\",\n      \"record\": \"6–3\",\n      \"points_for\": \"1324.48\"\n    },\n    {\n      \"seed\": 2,\n      \"team\": \"El Niño\",\n      \"record\": \"5–4\",\n      \"points_for\": \"1260.95\"\n    },\n    {\n      \"seed\": 3,\n      \"team\": \"D0nkey K0ng\",\n      \"record\": \"5–4\",\n      \"points_for\": \"1255.15\"\n    },\n    {\n      \"seed\": 4,\n      \"team\": \"Red Leopards\",\n      \"record\": \"5–4\",\n      \"points_for\": \"1256.69\"\n    },\n    {\n      \"seed\": 5,\n      \"team\": \"His Majesty's Blood\",\n      \"record\": \"5–4\",\n      \"points_for\": \"1243.19\"\n    },\n    {\n      \"seed\": 6,\n      \"team\": \"Seven Deadly Chins\",\n      \"record\": \"5–4\",\n      \"points_for\": \"1210.40\"\n    },\n    {\n      \"seed\": 7,\n      \"team\": \"Slob on my Dobb\",\n      \"record\": \"5–4\",\n      \"points_for\": \"1420.70\"\n    },\n    {\n      \"seed\": 8,\n      \"team\": \"The Chili Cheesers\",\n      \"record\": \"5–4\",\n      \"points_for\": \"1291.09\"\n    },\n    {\n      \"seed\": 9,\n      \"team\": \"ObiWan Jacoby\",\n      \"record\": \"4–5\",\n      \"points_for\": \"1217.98\"\n    },\n    {\n      \"seed\": 10,\n      \"team\": \"Three Dreaded Snake\",\n      \"record\": \"4–5\",\n      \"points_for\": \"1196.68\"\n    },\n    {\n      \"seed\": 11,\n      \"team\": \"The LLC\",\n      \"record\": \"3–6\",\n      \"points_for\": \"1245.29\"\n    },\n    {\n      \"seed\": 12,\n      \"team\": \"Mud Dogs\",\n      \"record\": \"2–7\",\n      \"points_for\": \"1067.73\"\n    }\n  ],\n  \"department_heading\": \"STANDINGS\"\n}\n\nFACT POLICY\n{\n  \"official_winner_decided\": false,\n  \"source_capture_scope\": \"CURRENT_PROVISIONAL_PRE_MNF\",\n  \"unresolved_numerals\": \"BLANK_RESERVED_FIELDS\",\n  \"source_backed_current_values\": \"May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL\",\n  \"result_dependent_art\": \"Forecast branch only until provider winners decided; persistent common beats retained.\",\n  \"refresh_fields\": [\n    {\n      \"selector\": \"/teams/T01/entering_official_seed\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": 9\n    },\n    {\n      \"selector\": \"/teams/T02/entering_official_seed\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": 4\n    },\n    {\n      \"selector\": \"/teams/T03/entering_official_seed\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": 7\n    },\n    {\n      \"selector\": \"/teams/T04/entering_official_seed\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": 11\n    },\n    {\n      \"selector\": \"/teams/T05/entering_official_seed\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": 3\n    },\n    {\n      \"selector\": \"/teams/T06/entering_official_seed\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": 10\n    },\n    {\n      \"selector\": \"/teams/T07/entering_official_seed\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": 8\n    },\n    {\n      \"selector\": \"/teams/T08/entering_official_seed\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": 5\n    },\n    {\n      \"selector\": \"/teams/T09/entering_official_seed\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": 2\n    },\n    {\n      \"selector\": \"/teams/T10/entering_official_seed\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": 12\n    },\n    {\n      \"selector\": \"/teams/T11/entering_official_seed\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": 6\n    },\n    {\n      \"selector\": \"/teams/T12/entering_official_seed\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": 1\n    },\n    {\n      \"selector\": \"/teams/T01/entering_record\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": {\n        \"w\": 4,\n        \"l\": 5,\n        \"t\": 0\n      }\n    },\n    {\n      \"selector\": \"/teams/T02/entering_record\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": {\n        \"w\": 5,\n        \"l\": 4,\n        \"t\": 0\n      }\n    },\n    {\n      \"selector\": \"/teams/T03/entering_record\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": {\n        \"w\": 5,\n        \"l\": 4,\n        \"t\": 0\n      }\n    },\n    {\n      \"selector\": \"/teams/T04/entering_record\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": {\n        \"w\": 3,\n        \"l\": 6,\n        \"t\": 0\n      }\n    },\n    {\n      \"selector\": \"/teams/T05/entering_record\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": {\n        \"w\": 5,\n        \"l\": 4,\n        \"t\": 0\n      }\n    },\n    {\n      \"selector\": \"/teams/T06/entering_record\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": {\n        \"w\": 4,\n        \"l\": 5,\n        \"t\": 0\n      }\n    },\n    {\n      \"selector\": \"/teams/T07/entering_record\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": {\n        \"w\": 5,\n        \"l\": 4,\n        \"t\": 0\n      }\n    },\n    {\n      \"selector\": \"/teams/T08/entering_record\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": {\n        \"w\": 5,\n        \"l\": 4,\n        \"t\": 0\n      }\n    },\n    {\n      \"selector\": \"/teams/T09/entering_record\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": {\n        \"w\": 5,\n        \"l\": 4,\n        \"t\": 0\n      }\n    },\n    {\n      \"selector\": \"/teams/T10/entering_record\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": {\n        \"w\": 2,\n        \"l\": 7,\n        \"t\": 0\n      }\n    },\n    {\n      \"selector\": \"/teams/T11/entering_record\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": {\n        \"w\": 5,\n        \"l\": 4,\n        \"t\": 0\n      }\n    },\n    {\n      \"selector\": \"/teams/T12/entering_record\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": {\n        \"w\": 6,\n        \"l\": 3,\n        \"t\": 0\n      }\n    },\n    {\n      \"selector\": \"/teams/T01/prior9_points_for\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": 1217.98\n    },\n    {\n      \"selector\": \"/teams/T02/prior9_points_for\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": 1256.69\n    },\n    {\n      \"selector\": \"/teams/T03/prior9_points_for\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": 1420.7\n    },\n    {\n      \"selector\": \"/teams/T04/prior9_points_for\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": 1245.29\n    },\n    {\n      \"selector\": \"/teams/T05/prior9_points_for\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": 1255.15\n    },\n    {\n      \"selector\": \"/teams/T06/prior9_points_for\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": 1196.68\n    },\n    {\n      \"selector\": \"/teams/T07/prior9_points_for\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": 1291.09\n    },\n    {\n      \"selector\": \"/teams/T08/prior9_points_for\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": 1243.19\n    },\n    {\n      \"selector\": \"/teams/T09/prior9_points_for\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": 1260.95\n    },\n    {\n      \"selector\": \"/teams/T10/prior9_points_for\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": 1067.73\n    },\n    {\n      \"selector\": \"/teams/T11/prior9_points_for\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": 1210.4\n    },\n    {\n      \"selector\": \"/teams/T12/prior9_points_for\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": 1324.48\n    }\n  ]\n}\n\nREFERENCE IMAGES\n[\n  {\n    \"repo_path\": \"memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p28.jpg\",\n    \"sha256\": \"53d7e97512381aaff4325e68d3f8c6b1f436652f6ecd2a6054fc0e0261185052\",\n    \"bytes\": 580326,\n    \"dimensions\": [\n      960,\n      1707\n    ],\n    \"media_type\": \"image/jpeg\",\n    \"role\": \"published_memo_precedent\",\n    \"decoded_in_preflight\": true,\n    \"application\": \"Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values.\"\n  }\n]",
+  "publication_copy": {
+    "headline": "TWELVE TEAMS. NINE POSTED RESULTS.",
+    "deck": "Official standings entering Week 10",
+    "body": "This is the official table through nine completed games. Dr. Duckhook entered alone at 6–3; seven teams followed at 5–4. Week 10’s scoring belongs on the live board until ESPN posts its outcomes. Equal records can occupy different seeds, so the order below follows the provider’s table.",
+    "callouts": [],
+    "rows": [
+      {
+        "seed": 1,
+        "team": "Dr. Duckhook",
+        "record": "6–3",
+        "points_for": "1324.48"
+      },
+      {
+        "seed": 2,
+        "team": "El Niño",
+        "record": "5–4",
+        "points_for": "1260.95"
+      },
+      {
+        "seed": 3,
+        "team": "D0nkey K0ng",
+        "record": "5–4",
+        "points_for": "1255.15"
+      },
+      {
+        "seed": 4,
+        "team": "Red Leopards",
+        "record": "5–4",
+        "points_for": "1256.69"
+      },
+      {
+        "seed": 5,
+        "team": "His Majesty's Blood",
+        "record": "5–4",
+        "points_for": "1243.19"
+      },
+      {
+        "seed": 6,
+        "team": "Seven Deadly Chins",
+        "record": "5–4",
+        "points_for": "1210.40"
+      },
+      {
+        "seed": 7,
+        "team": "Slob on my Dobb",
+        "record": "5–4",
+        "points_for": "1420.70"
+      },
+      {
+        "seed": 8,
+        "team": "The Chili Cheesers",
+        "record": "5–4",
+        "points_for": "1291.09"
+      },
+      {
+        "seed": 9,
+        "team": "ObiWan Jacoby",
+        "record": "4–5",
+        "points_for": "1217.98"
+      },
+      {
+        "seed": 10,
+        "team": "Three Dreaded Snake",
+        "record": "4–5",
+        "points_for": "1196.68"
+      },
+      {
+        "seed": 11,
+        "team": "The LLC",
+        "record": "3–6",
+        "points_for": "1245.29"
+      },
+      {
+        "seed": 12,
+        "team": "Mud Dogs",
+        "record": "2–7",
+        "points_for": "1067.73"
+      }
+    ],
+    "department_heading": "STANDINGS"
+  },
+  "scene": {
+    "camera_and_composition": "Deep record-hall view with the twelve entries integrated into an existing long record surface and surrounding shadow; architecture remains spatially present.",
+    "foreground": "Worn ledger edge and clerk’s hand turning a page.",
+    "midground": "Twelve compact official entries, correct order, no invented post-Week10seeds.",
+    "background": "Receding hall, high windows and warm record lamps.",
+    "image_tells": "Deep record-hall view with the twelve entries integrated into an existing long record surface and surrounding shadow; architecture remains spatially present. Worn ledger edge and clerk’s hand turning a page. Twelve compact official entries, correct order, no invented post-Week10seeds. Receding hall, high windows and warm record lamps.",
+    "encounter": {
+      "venue_id": "LOC-LEAGUE-ARCHIVE",
+      "set_id": "SET-W10-ARCHIVE-STANDINGS-HALL",
+      "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+      "division_context": "League-wide; divisions are overlays",
+      "route_required": false,
+      "world_state_in": "Existing place with selective wear and maintenance",
+      "persistent_landmarks": [
+        "League Archive record hall"
+      ],
+      "provisional_location": true,
+      "formal_atlas_promotion": false
+    },
+    "continuity_in": [
+      "LOC-LEAGUE-ARCHIVE",
+      "Existing Commonwealth use and inherited approved weather state"
+    ],
+    "continuity_out": [
+      "Retain through-nine official records now; after finality replace all rows and copy together. Never sort the future table by points alone."
+    ],
+    "forbidden_mutations": []
+  },
+  "reference_images": [
+    {
+      "repo_path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p28.jpg",
+      "sha256": "53d7e97512381aaff4325e68d3f8c6b1f436652f6ecd2a6054fc0e0261185052",
+      "bytes": 580326,
+      "dimensions": [
+        960,
+        1707
+      ],
+      "media_type": "image/jpeg",
+      "role": "published_memo_precedent",
+      "decoded_in_preflight": true,
+      "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+    }
+  ],
+  "sports_policy": {
+    "official_winner_decided": false,
+    "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+    "unresolved_numerals": "BLANK_RESERVED_FIELDS",
+    "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
+    "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+    "refresh_fields": [
+      {
+        "selector": "/teams/T01/entering_official_seed",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": 9
+      },
+      {
+        "selector": "/teams/T02/entering_official_seed",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": 4
+      },
+      {
+        "selector": "/teams/T03/entering_official_seed",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": 7
+      },
+      {
+        "selector": "/teams/T04/entering_official_seed",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": 11
+      },
+      {
+        "selector": "/teams/T05/entering_official_seed",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": 3
+      },
+      {
+        "selector": "/teams/T06/entering_official_seed",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": 10
+      },
+      {
+        "selector": "/teams/T07/entering_official_seed",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": 8
+      },
+      {
+        "selector": "/teams/T08/entering_official_seed",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": 5
+      },
+      {
+        "selector": "/teams/T09/entering_official_seed",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": 2
+      },
+      {
+        "selector": "/teams/T10/entering_official_seed",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": 12
+      },
+      {
+        "selector": "/teams/T11/entering_official_seed",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": 6
+      },
+      {
+        "selector": "/teams/T12/entering_official_seed",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": 1
+      },
+      {
+        "selector": "/teams/T01/entering_record",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": {
+          "w": 4,
+          "l": 5,
+          "t": 0
+        }
+      },
+      {
+        "selector": "/teams/T02/entering_record",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": {
+          "w": 5,
+          "l": 4,
+          "t": 0
+        }
+      },
+      {
+        "selector": "/teams/T03/entering_record",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": {
+          "w": 5,
+          "l": 4,
+          "t": 0
+        }
+      },
+      {
+        "selector": "/teams/T04/entering_record",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": {
+          "w": 3,
+          "l": 6,
+          "t": 0
+        }
+      },
+      {
+        "selector": "/teams/T05/entering_record",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": {
+          "w": 5,
+          "l": 4,
+          "t": 0
+        }
+      },
+      {
+        "selector": "/teams/T06/entering_record",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": {
+          "w": 4,
+          "l": 5,
+          "t": 0
+        }
+      },
+      {
+        "selector": "/teams/T07/entering_record",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": {
+          "w": 5,
+          "l": 4,
+          "t": 0
+        }
+      },
+      {
+        "selector": "/teams/T08/entering_record",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": {
+          "w": 5,
+          "l": 4,
+          "t": 0
+        }
+      },
+      {
+        "selector": "/teams/T09/entering_record",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": {
+          "w": 5,
+          "l": 4,
+          "t": 0
+        }
+      },
+      {
+        "selector": "/teams/T10/entering_record",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": {
+          "w": 2,
+          "l": 7,
+          "t": 0
+        }
+      },
+      {
+        "selector": "/teams/T11/entering_record",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": {
+          "w": 5,
+          "l": 4,
+          "t": 0
+        }
+      },
+      {
+        "selector": "/teams/T12/entering_record",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": {
+          "w": 6,
+          "l": 3,
+          "t": 0
+        }
+      },
+      {
+        "selector": "/teams/T01/prior9_points_for",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": 1217.98
+      },
+      {
+        "selector": "/teams/T02/prior9_points_for",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": 1256.69
+      },
+      {
+        "selector": "/teams/T03/prior9_points_for",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": 1420.7
+      },
+      {
+        "selector": "/teams/T04/prior9_points_for",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": 1245.29
+      },
+      {
+        "selector": "/teams/T05/prior9_points_for",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": 1255.15
+      },
+      {
+        "selector": "/teams/T06/prior9_points_for",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": 1196.68
+      },
+      {
+        "selector": "/teams/T07/prior9_points_for",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": 1291.09
+      },
+      {
+        "selector": "/teams/T08/prior9_points_for",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": 1243.19
+      },
+      {
+        "selector": "/teams/T09/prior9_points_for",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": 1260.95
+      },
+      {
+        "selector": "/teams/T10/prior9_points_for",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": 1067.73
+      },
+      {
+        "selector": "/teams/T11/prior9_points_for",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": 1210.4
+      },
+      {
+        "selector": "/teams/T12/prior9_points_for",
+        "artifact": "facts.json",
+        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
+        "snapshot_value": 1324.48
+      }
+    ]
+  },
+  "image_generation_executed": false,
+  "publication_approved": false,
+  "reference_pixels_decoded_at_utc": "2026-11-16T20:34:25.019935+00:00",
+  "render_protocol": {
+    "stage": "GRAYSCALE_FOLIO_PROOF",
+    "canvas": [
+      1080,
+      1920
+    ],
+    "master_before_contact_sheet": true,
+    "full_editorial_copy_required": true,
+    "production_metadata_baked_into_art": false,
+    "contact_sheet_is_downstream_composite": true,
+    "no_reinterpretation_when_downscaling": true,
+    "color_generation_is_later": true,
+    "generated_output_identity_review": "RUN_ON_EACH_ACTUAL_OUTPUT_NOT_CLAIMED_BY_PREFLIGHT"
+  }
+}

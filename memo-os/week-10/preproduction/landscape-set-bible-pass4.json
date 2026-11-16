@@ -20,11 +20,19 @@
       "weather": "upland rainfall, churned local earth, no coastal surge",
       "in": "DK owns lasso; Chili hat on head; Dark Horse separate",
       "out": "Chili hogtied, hat beside him; rope path and four centaur hooves readable",
-      "risk": "never return to Compact neutral ring or Chili-owned lasso"
+      "risk": "never return to Compact neutral ring or Chili-owned lasso",
+      "source_location_ref": null,
+      "persistent_landmarks": [
+        "uphill tiered stone galleries",
+        "oval packed-earth ring with timber rails",
+        "service gate rear-left",
+        "separate horse holding rail outside active ring"
+      ],
+      "source_page_id": "W10-P05"
     },
     {
-      "id": "SET-W10-RED-TERRACE",
-      "parent": "LOC-RED-LEOPARD-RUINS",
+      "id": "SET-W10-RED-SOCCER-OVERFLOW",
+      "parent": "LOC-RED-RUINS",
       "name": "Red's River-Edge Soccer Terrace",
       "purpose": "reused Week9 soccer terrace with proposed nearby rising river",
       "camera": [
@@ -37,11 +45,20 @@
       "weather": "coastal heavy rain and slowly increasing river water, no instant tidal wall",
       "in": "Week9 damaged goal; river bank proposal must be spatially verified",
       "out": "wet sandbags and flooded low pitch remain after Red departs",
-      "risk": "do not pretend basketball court adjoins eastern ruins"
+      "risk": "do not pretend basketball court adjoins eastern ruins",
+      "source_location_ref": null,
+      "persistent_landmarks": [
+        "Week 9 stepped grass soccer terrace",
+        "stone approach arch on near-left",
+        "small far goal now damaged, net displaced",
+        "narrow stone exit and trapped truck position from Week 9",
+        "old tire ruts; shallow overflow uses low edge"
+      ],
+      "source_page_id": "W10-P08"
     },
     {
-      "id": "SET-W10-FORGOTTEN-COURT",
-      "parent": "LOC-CENTRAL-BASIN",
+      "id": "SET-W10-FORGOTTEN-COURT-REVISIT",
+      "parent": null,
       "name": "The Forgotten Court",
       "purpose": "reuse Week7 basketball court exactly, geographically separate from eastern soccer terrace",
       "camera": [
@@ -54,11 +71,32 @@
       "weather": "inland gust strong enough to break limb, not coastal river flood",
       "in": "explicit later travel/cut from Red ruins",
       "out": "limb remains on basket, rim broken; Red's previous sandbag mud may remain",
-      "risk": "source visual must be inspected before camera lock"
+      "risk": "source visual must be inspected before camera lock",
+      "source_location_ref": {
+        "type": "PUBLISHED_ARTWORK_SET",
+        "week": 7,
+        "physical_pages": [
+          8,
+          9,
+          10
+        ],
+        "name": "The Forgotten Court",
+        "region_id": "REG-CENTRAL-BASIN",
+        "permanent_atlas_id": null,
+        "exact_visual_reference_recovered": true
+      },
+      "persistent_landmarks": [
+        "Week 7 rectangular weathered backboard bracketed to the RIGHT stone wall",
+        "red-leaf ivy along right wall",
+        "wet hard court and worn lines",
+        "ascending stone tiers, ruined towers and distant waterfalls",
+        "same right-side basket and lens axis; no freestanding hoop pole"
+      ],
+      "source_page_id": "W10-P09"
     },
     {
-      "id": "SET-W10-TDS-TEMPLE-COURT",
-      "parent": "LOC-PODIUM-SHADOW-WATERFALL-TEMPLE",
+      "id": "SET-W10-TDS-TEMPLE-COURTYARD",
+      "parent": "LOC-TDS-WATERFALL-TEMPLE",
       "name": "Waterfall Temple Courtyard and Balcony",
       "purpose": "working household courtyard beneath occupied upper-floor family rooms",
       "camera": [
@@ -71,10 +109,18 @@
       "weather": "wet leaves and mild gusts; Chins' equipment—not weather—causes the noise",
       "in": "newborn and partner inside, TDS at balcony; jackhammer cable/power consistent",
       "out": "progressively removed concrete, no magically repaired paving",
-      "risk": "no child outdoors, no Chins truck teleported from Week9"
+      "risk": "no child outdoors, no Chins truck teleported from Week9",
+      "source_location_ref": null,
+      "persistent_landmarks": [
+        "patched concrete courtyard over older stone",
+        "upper balcony and protected family doorway",
+        "waterfall, drain and planted margin",
+        "raised dry compressor/speaker shelf"
+      ],
+      "source_page_id": "W10-P12"
     },
     {
-      "id": "SET-W10-MUD-SERVICE-ROAD",
+      "id": "SET-W10-MUD-SWAMP-DELIVERY-PASS",
       "parent": "LOC-MUD-DOGS-SWAMP",
       "name": "Swamp Raised Delivery Strip",
       "purpose": "old service route capable of carrying commercial beer flatbed despite saturated swamp",
@@ -88,7 +134,15 @@
       "weather": "delayed runoff, pooled ruts, firm elevated road still navigable",
       "in": "Mud blocks sign but not physically colliding with truck",
       "out": "intact beer cargo delivered, Cancun postcard taunt, empty road",
-      "risk": "no attack scene or claimed official elimination"
+      "risk": "no attack scene or claimed official elimination",
+      "source_location_ref": null,
+      "persistent_landmarks": [
+        "weathered swamp entrance marker",
+        "raised stone/gravel service strip",
+        "lower waterlogged racing ruts",
+        "empty local seating and vegetated channel"
+      ],
+      "source_page_id": "W10-P15"
     },
     {
       "id": "SET-W10-JACKSON-BANQUET",
@@ -105,7 +159,15 @@
       "weather": "storm outside only; sheltered party remains warm",
       "in": "HMB wrapped gift, separate cake on sideboard, belt on HMB",
       "out": "burger untouched in open box, cake frosting on Duck face and green vest",
-      "risk": "no sword duel, rail fall, cake-table collapse"
+      "risk": "no sword duel, rail fall, cake-table collapse",
+      "source_location_ref": null,
+      "persistent_landmarks": [
+        "clubhouse dining hall",
+        "proposed tall windows facing maintained grounds",
+        "proposed service doorway and sideboard",
+        "proposed birthday chair and gift-table axis"
+      ],
+      "source_page_id": "W10-P19"
     },
     {
       "id": "SET-W10-OBI-RIDGE-GATE",
@@ -122,121 +184,177 @@
       "weather": "cross-ridge wind pushes smoke same direction each page",
       "in": "two Imperial batteries; Obi and separate retriever",
       "out": "one battery destroyed, one firing; Obi still defends arch",
-      "risk": "Obi never championship belt, no magically restored destroyed battery"
+      "risk": "Obi never championship belt, no magically restored destroyed battery",
+      "source_location_ref": null,
+      "persistent_landmarks": [
+        "fixed mountain ridge",
+        "outer causeway",
+        "inner stone arch",
+        "existing mountain-base silhouette"
+      ],
+      "source_page_id": "W10-P22"
     }
   ],
   "department_landscapes": [
     {
       "page_id": "W10-P01",
-      "site": "League Chamber scoring courtyard",
-      "action": "two distinct public scoring standards; no invented HMB–LLC meeting",
-      "camera": "low civic courtyard wide",
-      "light": "warm doorway and clouded public arch"
+      "site": "SET-W10-DUAL-200-EDITORIAL-COVER",
+      "action": "Low, dramatic two-subject editorial cover: canonical His Majesty's Blood standing with the controlled gift-bearing posture from the Jackson birthday sequence; canonical The LLC seated in his leather command chair with cigar and dark suit as in the mountain assault. Two coherent atmospheric story territories share one full-bleed composition without implying a physical meeting. The title and complete cover prose occupy deliberately quiet shadow; both characters dominate, not two empty banners. His Majesty's Blood: hooded concealed face, two luminous eyes, dark segmented armor, gold chest medallion, ragged cloak, championship belt retained; wrapped birthday gift as the sequence callback. The LLC: exact short-haired sunglasses-wearing human executive in dark tailored suit and tie, cigar, leather chair; distant Imperial battery as a subordinate story cue, never a replacement character costume. An editorial blend of Jackson hall warmth and the separate mountain-gate storm. Architecture remains subordinate to the two canonical figures. No literal roof break or invented common battlefield.",
+      "camera": "Low, dramatic two-subject editorial cover: canonical His Majesty's Blood standing with the controlled gift-bearing posture from the Jackson birthday sequence; canonical The LLC seated in his leather command chair with cigar and dark suit as in the mountain assault. Two coherent atmospheric story territories share one full-bleed composition without implying a physical meeting. The title and complete cover prose occupy deliberately quiet shadow; both characters dominate, not two empty banners.",
+      "light": "warm doorway and clouded public arch",
+      "parent_location_id": null,
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P01"
     },
     {
       "page_id": "W10-P02",
-      "site": "Mountain Lake Bridge opening approach",
-      "action": "couriers and six distant consequences in world, not six tiny unrelated panels",
-      "camera": "wide crossing view",
-      "light": "morning cloud advancing from eastern horizon"
+      "site": "SET-W10-OPENING-DRIVE-BRIEFING-TABLE",
+      "action": "Editorial briefing-table composition matching the published Weeks 7–9 Opening Drive: a perspective Commonwealth map, sealed Week 10 folio, established banners and meaningful scene props under warm lamps. OPENING DRIVE is the dominant department heading; Room Above Two Hundred is the story subheading. Full narration is integrated into two calm dark atmospheric reading zones, not replaced by captions. Sealed Week 10 dispatch folio on the worn briefing table; lasso coil, sandbag tie, a paving fragment, beer delivery slip and two separate story tokens for the birthday and mountain assault. Props are editorial symbols, not evidence of travel. Established Commonwealth map and canonical team-banner visual language from the published Opening Drive references. No newly invented map geography or collection of generic figures. League Chamber records and map room, existing neutral institutional space, windows with approaching weather and warm practical lamps.",
+      "camera": "Editorial briefing-table composition matching the published Weeks 7–9 Opening Drive: a perspective Commonwealth map, sealed Week 10 folio, established banners and meaningful scene props under warm lamps. OPENING DRIVE is the dominant department heading; Room Above Two Hundred is the story subheading. Full narration is integrated into two calm dark atmospheric reading zones, not replaced by captions.",
+      "light": "morning cloud advancing from eastern horizon",
+      "parent_location_id": "LOC-LEAGUE-CHAMBER",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P02"
     },
     {
       "page_id": "W10-P03",
-      "site": "League Chamber map threshold",
-      "action": "Commissioner speaking in civic space, not invented quotation attribution",
-      "camera": "medium through open threshold",
-      "light": "interior amber against cool basin"
+      "site": "SET-W10-CHAMBER-MAP-THRESHOLD",
+      "action": "Eye-level three-quarter institutional interior; opened door and map wall establish the wider world. Weather-marked dispatches on the established records desk. A neutral attendant securing the door, leaving room for the commissioner’s authored address. Existing map wall and high window; divisions remain league overlays.",
+      "camera": "Eye-level three-quarter institutional interior; opened door and map wall establish the wider world.",
+      "light": "interior amber against cool basin",
+      "parent_location_id": "LOC-LEAGUE-CHAMBER",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P03"
     },
     {
       "page_id": "W10-P04",
-      "site": "Compact Arbiter Pavilion",
-      "action": "public results displayed with provider provisional markers",
-      "camera": "wide arena-side board",
-      "light": "overcast plus fixed public lamps"
+      "site": "SET-W10-COMPACT-PUBLIC-BOARD",
+      "action": "Broad landscape across the open ceremonial field toward the existing arbiter pavilion; exact scores inhabit a temporary, scene-lit result standard. Wind-tensioned ropes and worn public approach. Readers gathered at the common result standard, not a rodeo crowd. Pavilion and arrival roads under a passing cloud band.",
+      "camera": "Broad landscape across the open ceremonial field toward the existing arbiter pavilion; exact scores inhabit a temporary, scene-lit result standard.",
+      "light": "overcast plus fixed public lamps",
+      "parent_location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P04"
     },
     {
       "page_id": "W10-P11",
-      "site": "Archive Processional / route overlook",
-      "action": "landscape connection between coast, basin and southern wetland via verified routes",
-      "camera": "long scenic view",
-      "light": "graded sky front"
+      "site": "SET-W10-UPPER-BASIN-WEATHER-VIEW",
+      "action": "High oblique along the known connector approaching the stone bridge, with road, water and weather in successive depths. Old parapet repairs and leaves caught in a drain. Ordinary travelers tightening covers and a steady lake surface rippled by gusts. Cloud layers on the eastern horizon; no unsupported view of the Jedi base or Red Leopards’ actual field.",
+      "camera": "High oblique along the known connector approaching the stone bridge, with road, water and weather in successive depths.",
+      "light": "graded sky front",
+      "parent_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P11"
     },
     {
       "page_id": "W10-P18",
-      "site": "Archive Sports Desk court",
-      "action": "performance numbers integrated on believable records, not a dashboard collage",
-      "camera": "courier desk medium-wide",
-      "light": "cloud daylight and brass lamps"
+      "site": "SET-W10-ARCHIVE-SCORING-HALL",
+      "action": "Deep oblique across an old scoring desk toward open record-hall arches; exact concise performance lettering follows the open illustrated air and existing ledger surface. A clerk’s scoring tools and rain-spotted folios. One long desk with six restrained leader inscriptions integrated into the artwork. Receding shelves and a courtyard lamp; keep the art continuous behind copy.",
+      "camera": "Deep oblique across an old scoring desk toward open record-hall arches; exact concise performance lettering follows the open illustrated air and existing ledger surface.",
+      "light": "cloud daylight and brass lamps",
+      "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P18"
     },
     {
       "page_id": "W10-P34",
-      "site": "Archive injury records gallery",
-      "action": "confirmed versus uncertain news visibly distinguished; no graphic invented medical imagery",
-      "camera": "long corridor with reports",
-      "light": "natural clerestory and warm task lights"
+      "site": "SET-W10-ARCHIVE-INJURY-DISPATCH",
+      "action": "Deep late-working archive scene; a courier places fresh reports beside an older retained ledger. Dated dispatches and wet cloak edge; no invented medical imagery. Attendant reading under a fixed lamp, separate current and carry-forward documents visible as physical objects. Old shelves, window rattled by the front, another steady lamp farther in.",
+      "camera": "Deep late-working archive scene; a courier places fresh reports beside an older retained ledger.",
+      "light": "natural clerestory and warm task lights",
+      "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P34"
     },
     {
       "page_id": "W10-P25",
-      "site": "People's Champ Road Commons",
-      "action": "bye-week replacement vacancies and waiver movements on working dispatch boards",
-      "camera": "market-road wide",
-      "light": "wet canvas and lanterns"
+      "site": "SET-W10-CHAMBER-RESERVE-LOGGIA",
+      "action": "Wide view along an inhabited open loggia, equipment hooks and the road in depth; seven short needs are lettered in the continuous atmosphere. Packed traveling equipment and empty hooks with team emblems. Covered roster station under old columns; it is ordinary logistics, not a new infirmary. Cold open route with steady lamps and sheltered working people.",
+      "camera": "Wide view along an inhabited open loggia, equipment hooks and the road in depth; seven short needs are lettered in the continuous atmosphere.",
+      "light": "wet canvas and lanterns",
+      "parent_location_id": "LOC-LEAGUE-CHAMBER",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P25"
     },
     {
       "page_id": "W10-P26",
-      "site": "People's Champ Road Commons",
-      "action": "29 completed transactions as a moving record of deliveries",
-      "camera": "lateral service lane",
-      "light": "late afternoon practicals"
+      "site": "SET-W10-ARCHIVE-TRANSACTION-INTAKE",
+      "action": "Close three-quarter intake scene with a deep courier arch behind; a clerk places one completed transaction folio into a worn shelf. Completed ledger and weather-dark satchel. Ordinary stamped intake process and distinct shelves. Courtyard arrival path; no invented league trading hall.",
+      "camera": "Close three-quarter intake scene with a deep courier arch behind; a clerk places one completed transaction folio into a worn shelf.",
+      "light": "late afternoon practicals",
+      "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P26"
     },
     {
       "page_id": "W10-P27",
-      "site": "Archive records hall",
-      "action": "official entering-week standings only, no fabricated final standings",
-      "camera": "wide hall and exterior courtyard",
-      "light": "diffuse window light"
+      "site": "SET-W10-ARCHIVE-STANDINGS-HALL",
+      "action": "Deep record-hall view with the twelve entries integrated into an existing long record surface and surrounding shadow; architecture remains spatially present. Worn ledger edge and clerk’s hand turning a page. Twelve compact official entries, correct order, no invented post-Week10seeds. Receding hall, high windows and warm record lamps.",
+      "camera": "Deep record-hall view with the twelve entries integrated into an existing long record surface and surrounding shadow; architecture remains spatially present.",
+      "light": "diffuse window light",
+      "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P27"
     },
     {
       "page_id": "W10-P28",
-      "site": "Central Basin crossroads",
-      "action": "three divisions represented as routes, not literal food kingdoms",
-      "camera": "high overlook",
-      "light": "storm gaps and road lanterns"
+      "site": "SET-W10-CHAMBER-DIVISION-TERRACE",
+      "action": "Wide terrace view beneath three league banners; Central Basin landscape extends behind the public institution. Rain-dark paving and repaired banner sockets. Burgers, Pizza and Wings emblems on temporary league standards. Continuous inhabited landscape under graded cloud, not three isolated national maps.",
+      "camera": "Wide terrace view beneath three league banners; Central Basin landscape extends behind the public institution.",
+      "light": "storm gaps and road lanterns",
+      "parent_location_id": "LOC-LEAGUE-CHAMBER",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P28"
     },
     {
       "page_id": "W10-P29",
-      "site": "Archive outdoor record court",
-      "action": "scoring-form ranking with published 70/30 formula, not seed list",
-      "camera": "low diagonal with twelve standards",
-      "light": "soft overhead and stone bounce"
+      "site": "SET-W10-LAKE-SCORING-FORM-OVERLOOK",
+      "action": "Landscape-dominant view from a worn lakeside approach, bridge receding diagonally; twelve compact ranked names sit in coherent open sky/reflected shadow, not report boxes. Weathered approach stones and a maintained lamp bracket. Stone bridge, rippled lake and small travelers. Layered upper-valley cloud; enough clear atmosphere for the complete ranking.",
+      "camera": "Landscape-dominant view from a worn lakeside approach, bridge receding diagonally; twelve compact ranked names sit in coherent open sky/reflected shadow, not report boxes.",
+      "light": "soft overhead and stone bounce",
+      "parent_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P29"
     },
     {
       "page_id": "W10-P30",
-      "site": "Alpine Wager Route base camp",
-      "action": "seven playoff berths; conditional paths and crossroads",
-      "camera": "wide alpine landscape",
-      "light": "cloud break and fixed campfires"
+      "site": "SET-W10-ALPINE-REGULAR-SEASON-ROAD",
+      "action": "Wide upward landscape along an existing old climb, temporary Week11–14 route markers placed as editorial event dressing. Base-camp ropes, worn steps and a freshly secured Week11marker. A narrowing path with later markers receding naturally. Northern Spine elevation in cold cloud; no owner crowned on the summit.",
+      "camera": "Wide upward landscape along an existing old climb, temporary Week11–14 route markers placed as editorial event dressing.",
+      "light": "cloud break and fixed campfires",
+      "parent_location_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P30"
     },
     {
       "page_id": "W10-P31",
-      "site": "League courier departure yard",
-      "action": "six Week11 fixtures; travel routes grounded in Atlas",
-      "camera": "wide departing caravans",
-      "light": "early dusk"
+      "site": "SET-W10-CHAMBER-NEXT-SIX-TERRACE",
+      "action": "Broad terrace facing outward routes, six concise pairings integrated with temporary traveling standards. Six route dispatch ribbons secured beneath the colonnade. Ordinary preparations for the next round. A continuous road vista and advancing weather, not six separate postcard panels.",
+      "camera": "Broad terrace facing outward routes, six concise pairings integrated with temporary traveling standards.",
+      "light": "early dusk",
+      "parent_location_id": "LOC-LEAGUE-CHAMBER",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P31"
     },
     {
       "page_id": "W10-P35",
-      "site": "Highland Stronghold road to DK arena",
-      "action": "HMB arrives to DK country, no invented battle or winner",
-      "camera": "distant opposing silhouettes across pass",
-      "light": "cold twilight and gate lamps"
+      "site": "SET-W11-MOUNTAIN-LAKE-BRIDGE-MUSTER",
+      "action": "Wide oblique along the old bridge deck; D0nkey K0ng near approach, His Majesty's Blood beyond the opposite pier, empty stone between them. D0nkey K0ng’s complete four-legged centaur form and old repaired parapet. A visible stretch of unoccupied bridge deck; no first strike. His Majesty's Blood’s hooded arrival, lake beneath arches and advancing upper-valley cloud.",
+      "camera": "Wide oblique along the old bridge deck; D0nkey K0ng near approach, His Majesty's Blood beyond the opposite pier, empty stone between them.",
+      "light": "cold twilight and gate lamps",
+      "parent_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P35"
     },
     {
       "page_id": "W10-P33",
-      "site": "Mountain Lake Bridge return",
-      "action": "closing consequences arrive as weather, courier news and scars",
-      "camera": "same axis as opening",
-      "light": "evening lamps replacing morning light"
+      "site": "SET-W11-SLOB-TAILGATE-STORM-APPROACH",
+      "action": "Wide view outward from the existing tailgate shelter toward the Hearthroad and dark foothill cloud. Secured kegs, tightened canvas and worn tailgate-yard paving. Slob on my Dobb watches from his established shelter, calm but preparing. Only Slob is physically depicted; El Niño is foreshadowed by the incoming weather, not an unbound extra figure. Upper-valley front above the route; no claim that it has already grown because of a future win.",
+      "camera": "Wide view outward from the existing tailgate shelter toward the Hearthroad and dark foothill cloud.",
+      "light": "evening lamps replacing morning light",
+      "parent_location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P33"
     }
   ],
   "continuity_policy": [
