@@ -1,0 +1,44 @@
+name: Commonwealth renderer evidence
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/commonwealth-renderer-evidence.yml'
+      - 'productions/audience-site/preview/**'
+      - 'productions/audience-site/tests/observer-renderer*'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: commonwealth-renderer-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+jobs:
+  source-package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Fetch exact renderer dependency without lifecycle scripts
+        run: |
+          mkdir -p /tmp/commonwealth-inputs/vendor /tmp/commonwealth-inputs/source
+          npm pack three@0.187.0 --ignore-scripts --pack-destination /tmp/commonwealth-inputs/vendor --json > /tmp/commonwealth-inputs/npm-receipt.json
+          tar -xzf /tmp/commonwealth-inputs/vendor/three-0.187.0.tgz -C /tmp/commonwealth-inputs/vendor
+          node --input-type=module -e "import fs from 'node:fs';const p=JSON.parse(fs.readFileSync('/tmp/commonwealth-inputs/vendor/package/package.json'));if(p.version!=='0.187.0'||p.license!=='MIT')throw Error('DEPENDENCY_IDENTITY_MISMATCH');console.log(p.version,p.license)"
+          rm /tmp/commonwealth-inputs/vendor/three-0.187.0.tgz
+      - name: Preserve owning repository inputs and exact revision
+        run: |
+          git rev-parse HEAD > /tmp/commonwealth-inputs/source-revision.txt
+          git archive HEAD world/data world/atlas/ATLAS_LAYER_REGISTRY_V2.json world/production/VISUAL_WORLD_PACKET_SCHEMA_V2.md productions/audience-site skills/schemin-bullpen-execution docs/architecture/BULLPEN_COMMAND_ADAPTER_V2.md | tar -x -C /tmp/commonwealth-inputs/source
+          find /tmp/commonwealth-inputs/vendor/package/build -type f -exec sha256sum {} \; > /tmp/commonwealth-inputs/dependency-sha256.txt
+          git diff --exit-code
+      - uses: actions/upload-artifact@v4
+        with:
+          name: commonwealth-renderer-inputs-${{ github.event.pull_request.head.sha || github.sha }}
+          path: /tmp/commonwealth-inputs
+          retention-days: 7
+          if-no-files-found: error
