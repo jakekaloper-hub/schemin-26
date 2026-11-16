@@ -156,14 +156,15 @@
         "Existing Commonwealth use and inherited approved weather state"
       ],
       "continuity_out": [
-        "Cover symbols are an editorial public display, not proof that HMB and LLC traveled together or hold a shared title."
+        "Cover symbols are an editorial public display, not proof that HMB and LLC traveled together or hold a shared title.",
+        "FOUNDER 2026-11-16: both canonical characters must appear physically in the cover scene, as distinct public-facing figures with source-bound likenesses. This is an editorial composition, not a claim that they met in the same place. Scores are pre-MNF provisional and must be rechecked."
       ],
-      "image_tells": "Low wide courtyard view, wind pulling two temporary scoring standards above an old public arch; deep inhabited world fills the frame. Wet stone and attendants securing a frayed banner line. Two separate standards carry HMB and LLC insignia and exact current values; no invented physical meeting or alliance. Old Chamber roofline, darkening Central Basin cloud, warm doorway.",
+      "image_tells": "Low wide League Chamber courtyard: two distinct, visually canonical subjects, Austin Byars / His Majesty's Blood (fully shadowed hood, glowing red eyes, black segmented armor, ragged crimson-black cloak, gold circular chest ornament, downward-held ornate sword) and David Babb / The LLC (human executive, short dark hair, sunglasses, dark tailored suit, red tie, cigar and leather executive chair), physically featured within one integrated editorial scene. Two independent public scoring standards read His Majesty's Blood 208.76 current provisional and The LLC 203.96 current provisional; old civic arch, wet stone, attendants and darkening Central Basin sky remain. No invented shared meeting, alliance, crown or title transfer.",
       "prose_tells": "Open on the league’s first two observed 200-plus scores this season, with weather crossing public life.",
       "art_text_ratio": "88:12",
-      "camera_and_composition": "Low wide courtyard view, wind pulling two temporary scoring standards above an old public arch; deep inhabited world fills the frame.",
+      "camera_and_composition": "Low-wide cinematic two-subject editorial cover: HMB and The LLC as dominant separately staged figures, League Chamber public standards in depth, integrated title and full editorial text; maintain readable faces/silhouettes and no generic stand-ins.",
       "foreground": "Wet stone and attendants securing a frayed banner line.",
-      "midground": "Two separate standards carry HMB and LLC insignia and exact current values; no invented physical meeting or alliance.",
+      "midground": "Both approved canonical figures clearly visible, with two separate current provisional scoring standards; no invented in-world meeting.",
       "background": "Old Chamber roofline, darkening Central Basin cloud, warm doorway.",
       "copy_budget": {
         "headline_max_words": 12,
@@ -180,7 +181,8 @@
         "Final provider result and correct branch for result-dependent copy",
         "Fresh injury/participation information for medical and Week11claims",
         "Actual referenced-image attachment, native geometry, exact lettering and phone-scale image inspection",
-        "Jake’s choice among current creative candidates"
+        "Jake’s choice among current creative candidates",
+        "P01 dual-character renderer attachment and generated identity comparison pending"
       ],
       "forbidden_mutations": [
         "FINAL winner labels",
@@ -203,9 +205,30 @@
         "formal_atlas_promotion": false
       },
       "editorial_disposition": "PROPOSED_INCLUDE",
-      "characters_present": [],
-      "owners_present": [],
-      "reference_assets": [],
+      "characters_present": [
+        "CHAR-AUSTIN-BYARS",
+        "CHAR-DAVID-BABB"
+      ],
+      "owners_present": [
+        "Austin Byars",
+        "David Babb"
+      ],
+      "reference_assets": [
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "owner": "Austin Byars",
+          "display_name": "His Majesty's Blood",
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+          "binding_status": "REQUIRES_RENDERER_BYTE_MOUNT_AND_VISUAL_QA"
+        },
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "owner": "David Babb",
+          "display_name": "The LLC",
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+          "binding_status": "REQUIRES_RENDERER_BYTE_MOUNT_AND_VISUAL_QA"
+        }
+      ],
       "temporal_canon_receipts": [
         {
           "character_id": "CHAR-AUSTIN-BYARS",
