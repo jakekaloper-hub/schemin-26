@@ -35,6 +35,19 @@ jobs:
           git rev-parse HEAD > /tmp/commonwealth-inputs/source-revision.txt
           git archive HEAD world/data world/atlas/ATLAS_LAYER_REGISTRY_V2.json world/production/VISUAL_WORLD_PACKET_SCHEMA_V2.md productions/audience-site skills/schemin-bullpen-execution docs/architecture/BULLPEN_COMMAND_ADAPTER_V2.md | tar -x -C /tmp/commonwealth-inputs/source
           find /tmp/commonwealth-inputs/vendor/package/build -type f -exec sha256sum {} \; > /tmp/commonwealth-inputs/dependency-sha256.txt
+      - name: Test regional candidate assets and renderer boundary
+        run: |
+          set -o pipefail
+          SITE=/tmp/commonwealth-inputs/source/productions/audience-site
+          mkdir -p "$SITE/preview/vendor"
+          cp /tmp/commonwealth-inputs/vendor/package/build/three.module.js "$SITE/preview/vendor/"
+          cp /tmp/commonwealth-inputs/vendor/package/build/three.core.js "$SITE/preview/vendor/"
+          cp /tmp/commonwealth-inputs/vendor/package/LICENSE "$SITE/preview/vendor/THREE-LICENSE.txt"
+          printf '{"type":"module","private":true}\n' > "$SITE/preview/vendor/package.json"
+          node --check "$SITE/preview/regional-assets.mjs"
+          node --check "$SITE/preview/three-world.mjs"
+          node --test "$SITE/preview/tests/"*.test.mjs | tee /tmp/commonwealth-inputs/regional-tests.txt
+          npm --prefix productions/audience-site test | tee /tmp/commonwealth-inputs/inherited-audience-tests.txt
           git diff --exit-code
       - uses: actions/upload-artifact@v4
         with:
