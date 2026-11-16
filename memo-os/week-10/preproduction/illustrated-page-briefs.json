@@ -1077,7 +1077,7 @@
         {
           "selector": "/teams/T07/scorers/4696981/2",
           "artifact": "facts.json",
-          "snapshot_value": 29.0,
+          "snapshot_value": 29,
           "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
         }
       ],
@@ -1353,7 +1353,7 @@
         {
           "selector": "/teams/T07/scorers/4696981/2",
           "artifact": "facts.json",
-          "snapshot_value": 29.0,
+          "snapshot_value": 29,
           "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
         }
       ],
@@ -1629,7 +1629,7 @@
         {
           "selector": "/teams/T07/scorers/4696981/2",
           "artifact": "facts.json",
-          "snapshot_value": 29.0,
+          "snapshot_value": 29,
           "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
         }
       ],
@@ -4563,7 +4563,7 @@
               "team": "T08",
               "player_id": "-16016",
               "player": "Vikings D/ST",
-              "points": 26.0,
+              "points": 26,
               "points_selector": "/teams/T08/scorers/-16016/2"
             },
             "QB": {
@@ -4577,7 +4577,7 @@
               "team": "T08",
               "player_id": "4686361",
               "player": "Cam Little",
-              "points": 19.0,
+              "points": 19,
               "points_selector": "/teams/T08/scorers/4686361/2"
             }
           }
@@ -4843,7 +4843,7 @@
         {
           "selector": "/teams/T08/scorers/-16016/2",
           "artifact": "facts.json",
-          "snapshot_value": 26.0,
+          "snapshot_value": 26,
           "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
         },
         {
@@ -4867,7 +4867,7 @@
         {
           "selector": "/teams/T08/scorers/4686361/2",
           "artifact": "facts.json",
-          "snapshot_value": 19.0,
+          "snapshot_value": 19,
           "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
         },
         {
@@ -5147,7 +5147,7 @@
         {
           "selector": "/teams/T08/scorers/-16016/2",
           "artifact": "facts.json",
-          "snapshot_value": 26.0,
+          "snapshot_value": 26,
           "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
         },
         {
@@ -5171,7 +5171,7 @@
         {
           "selector": "/teams/T08/scorers/4686361/2",
           "artifact": "facts.json",
-          "snapshot_value": 19.0,
+          "snapshot_value": 19,
           "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
         },
         {
@@ -5451,7 +5451,7 @@
         {
           "selector": "/teams/T08/scorers/-16016/2",
           "artifact": "facts.json",
-          "snapshot_value": 26.0,
+          "snapshot_value": 26,
           "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
         },
         {
@@ -5475,7 +5475,7 @@
         {
           "selector": "/teams/T08/scorers/4686361/2",
           "artifact": "facts.json",
-          "snapshot_value": 19.0,
+          "snapshot_value": 19,
           "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
         },
         {
@@ -10490,5 +10490,7 @@
       "Mud attack/keg-shield fight",
       "Generic supporting-page location placeholders"
     ]
-  }
+  },
+  "narrative_source": "issue-draft.md",
+  "narrative_status": "PASS_4_COPY_SYNC_CANDIDATE_NOT_ART_APPROVED"
 }
