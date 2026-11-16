@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import * as THREE from '../preview/vendor/three.module.js';
-import {buildRegionalAssets} from '../preview/regional-assets.mjs';
+import * as THREE from '../vendor/three.module.js';
+import {buildRegionalAssets} from '../regional-assets.mjs';
 const source=[{id:'LOC-TDS-WATERFALL-TEMPLE',anchor:[10,0,20],canonStatus:'PERMANENT_CANON'}];
 const create=()=>buildRegionalAssets(THREE,source,()=>1);
 
