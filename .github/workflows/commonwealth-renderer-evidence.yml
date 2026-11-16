@@ -4,6 +4,9 @@ on:
     paths:
       - '.github/workflows/commonwealth-renderer-evidence.yml'
       - 'productions/audience-site/preview/**'
+      - 'productions/audience-site/scripts/build-observer-site.py'
+      - 'productions/audience-site/scripts/build-observer-catalog.mjs'
+      - 'productions/audience-site/src/observer-*'
       - 'productions/audience-site/tests/observer-renderer*'
   workflow_dispatch:
 permissions:
@@ -23,6 +26,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
       - name: Fetch exact renderer dependency without lifecycle scripts
         run: |
           mkdir -p /tmp/commonwealth-inputs/vendor /tmp/commonwealth-inputs/source
@@ -47,7 +53,35 @@ jobs:
           node --check "$SITE/preview/regional-assets.mjs"
           node --check "$SITE/preview/three-world.mjs"
           node --test "$SITE/preview/tests/"*.test.mjs | tee /tmp/commonwealth-inputs/regional-tests.txt
+          python3 -m unittest discover -s "$SITE/preview/tests" -p 'test_*.py' -v 2>&1 | tee /tmp/commonwealth-inputs/host-build-tests.txt
           npm --prefix productions/audience-site test | tee /tmp/commonwealth-inputs/inherited-audience-tests.txt
+          git diff --exit-code
+      - name: Build existing site with a private world entry and no original folios
+        run: |
+          set -o pipefail
+          mkdir -p productions/audience-site/preview/vendor
+          cp /tmp/commonwealth-inputs/source/productions/audience-site/preview/vendor/* productions/audience-site/preview/vendor/
+          python3 productions/audience-site/scripts/build-observer-site.py --output /tmp/commonwealth-inputs/built-site | tee /tmp/commonwealth-inputs/site-build.txt
+          sha256sum /tmp/commonwealth-inputs/built-site/observer.html > /tmp/commonwealth-inputs/observer-build.sha256
+          python3 productions/audience-site/scripts/build-observer-site.py --output /tmp/commonwealth-inputs/built-site > /tmp/commonwealth-inputs/site-rebuild.txt
+          sha256sum --check /tmp/commonwealth-inputs/observer-build.sha256
+          python3 - <<'PY'
+          from pathlib import Path
+          import json,re,subprocess
+          out=Path('/tmp/commonwealth-inputs/built-site')
+          receipt=json.loads((out/'observer-build-receipt.json').read_text())
+          revision=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          source=json.loads(Path('world/data/current_world_state.json').read_text())
+          assert receipt['sourceRevision']==revision
+          assert receipt['sourceStateAsOf']==source['as_of']
+          assert receipt['originalJPEGs']==0 and receipt['publicationAuthorized'] is False
+          html=(out/'observer.html').read_text()
+          for name,expected in [('memoryIndex',None),('memoryAssets',{})]:
+              match=re.search(r'<script id="'+name+r'" type="application/json">(.*?)</script>',html,re.S)
+              assert match and json.loads(match[1])==expected
+          assert 'href="observer.html"' in (out/'index.html').read_text()
+          print('INTEGRATED_OBSERVER_BUILD_PASS',revision,receipt['sourceStateAsOf'])
+          PY
           git diff --exit-code
       - uses: actions/upload-artifact@v4
         with:
