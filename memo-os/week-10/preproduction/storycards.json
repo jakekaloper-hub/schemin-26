@@ -1,0 +1,3419 @@
+{
+  "issue_id": "SCHEMIN-26-W10",
+  "status": "DRAFT_PREPRODUCTION_FOR_REVIEW",
+  "approval_claimed": false,
+  "source_snapshot_utc": "2026-11-16T11:42:11.062Z",
+  "matchups": [
+    {
+      "status": "DRAFT_FICTION_FOR_PREPRODUCTION_REVIEW",
+      "season": 2026,
+      "week": 10,
+      "approval_claimed": false,
+      "final_art_generated": false,
+      "source_score_state": "ALL_ESPN_WINNER_FIELDS_UNDECIDED",
+      "source_snapshot_path": "/workspace/scratch/162404e483ef/Schemin_Week_10_FLAIM_Refresh_2026-11-16.json",
+      "repository_commit": "a24656366b73d1ef8ec98cf405d2337194bd2b97",
+      "id": "W10-M01",
+      "home_team_id": 7,
+      "home_team_name": "The Chili Cheesers",
+      "away_team_id": 5,
+      "away_team_name": "D0nkey K0ng",
+      "reference_character_ids": [
+        "CHAR-BRANDON-PRYOR",
+        "CHAR-WILSON-LOOK"
+      ],
+      "source_fact_selector": "/games/0",
+      "source_fact_ids": [
+        "W10-G01",
+        "W10-T07",
+        "W10-T05"
+      ],
+      "current_points": {
+        "home": 93.7,
+        "away": 156.67
+      },
+      "current_leader": "D0nkey K0ng",
+      "margin": 62.97,
+      "mnf_remaining": [],
+      "provider_finality_pending": true,
+      "football_anchors": [
+        {
+          "team": 5,
+          "player": "Dak Prescott",
+          "points": 45.82,
+          "selector": "/teams/T05/scorers/2577417/2"
+        },
+        {
+          "team": 7,
+          "player": "Cam Skattebo",
+          "points": 29,
+          "selector": "/teams/T07/scorers/4696981/2"
+        },
+        {
+          "team": 7,
+          "player": "Amon-Ra St. Brown",
+          "points": 27.8,
+          "selector": "/teams/T07/scorers/4374302/2"
+        },
+        {
+          "team": 7,
+          "player": "Bryce Young",
+          "points": 8.2,
+          "selector": "/teams/T07/scorers/4685720/2"
+        }
+      ],
+      "spotlight": {
+        "status": "PROPOSED_CARRIED_FROM_WEEK9",
+        "source": "Actual Week9 reading32 The Next Six and full-name review; no changed spotlight approved"
+      },
+      "venue": {
+        "decision_status": "UNRESOLVED_DRAFT_OPTION",
+        "proposed_neutral_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+        "proposed_neutral_name": "Compact Neutral Grounds",
+        "ordinary_home_fallback_id": "LOC-CHILI-STABLE",
+        "ordinary_home_fallback_name": "Chili Outlaw Stable",
+        "reason": "Atlas defaults Game of the Week to reachable neutral ground. Do not silently erase home-site law or treat spotlight as approved.",
+        "neutral_landmarks": [
+          "open ceremonial field",
+          "arbiter pavilion",
+          "arrival roads"
+        ],
+        "home_landmarks": [
+          "stable",
+          "pit smoke",
+          "Dark Horse enclosure"
+        ],
+        "set_dressing": [
+          "portable western rail",
+          "empty sliding cargo crate",
+          "one continuous rope",
+          "Dark Horse tether point safely outside action"
+        ],
+        "set_dressing_status": "Temporary proposed props, not new permanent geography",
+        "light": "Proposed clear late afternoon; not real-world weather reporting"
+      },
+      "continuity": {
+        "week9_in": [
+          "Chili public cookout win over HMB, no repeated chili-dump payoff",
+          "D0nkey four-legged arena victory over The LLC"
+        ],
+        "identity_locks": [
+          "Chili Oct22 bearded sunglasses/redcoat correction",
+          "The Dark Horse is separate from Chili",
+          "D0nkey is ONE gorilla-centaur body with FOUR legs"
+        ],
+        "no_claims": [
+          "No injured horse",
+          "No stolen mount",
+          "No new neutral settlement",
+          "No final score or GOTW approval"
+        ]
+      },
+      "concept": "The Rope’s Owner: a staged public trick changes who controls it.",
+      "beats": [
+        {
+          "beat": 1,
+          "title": "A Public Demonstration",
+          "copy": "The Chili Cheesers had liked having everyone watch. That was the part of last week he wanted again: the moment when a guest realized who had arranged the occasion. D0nkey K0ng was taking an irritatingly long time to enter the marked ground. The Chili Cheesers gave the rope another turn and waited for his audience to become useful.",
+          "copy_status": "DRAFT",
+          "camera": "Wide three-quarter establishing view; brief reciprocal close POVs remain on one action axis.",
+          "foreground": "Crate front-eye attachment and outbound rope visible; separate returning tail leads to Chili’s hands.",
+          "midground": "The Chili Cheesers left; D0nkey K0ng entering right, all four legs readable.",
+          "background": "Neutral pavilion and both arrival roads, OR stable/pit smoke/enclosure after venue decision; never blend the two.",
+          "visual_action": "Establish one continuous rope: low crate eye → open U-turn around D0nkey’s axe haft → free tail in Chili’s hands. The crate is behind and offset from Chili; Chili stands beside the initial crate travel corridor. The rail is only a boundary. Show the intended sliding path before the pull.",
+          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
+          "prose_role": "Contrast public confidence with careful attention; no literal football narration in the scene copy.",
+          "continuity_in": [
+            "Chili's recent public triumph",
+            "D0nkey's integrated four-legged anatomy"
+          ],
+          "continuity_out": [
+            "Single continuous rope path, low crate eye, turning haft and free tail established",
+            "Crate-to-haft corridor clear; Chili stance offset beside it",
+            "Safe Dark Horse location and four centaur legs established"
+          ],
+          "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
+          "image_vs_prose": {
+            "image": "Establish one continuous rope: low crate eye → open U-turn around D0nkey’s axe haft → free tail in Chili’s hands. The crate is behind and offset from Chili; Chili stands beside the initial crate travel corridor. The rail is only a boundary. Show the intended sliding path before the pull.",
+            "prose": "Contrast public confidence with careful attention; no literal football narration in the scene copy."
+          },
+          "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
+        },
+        {
+          "beat": 2,
+          "title": "Four Hooves Change the Angle",
+          "copy": "For The Chili Cheesers, the first tug still belonged to the performance. He could almost hear the reaction he had prepared for. Then the pull changed. D0nkey K0ng had noticed something the host had neglected: a trick only works while its guest agrees to stand where he is expected. The empty crate began to look much less empty.",
+          "copy_status": "DRAFT",
+          "camera": "Low lateral action view, camera stays on established side of rope line.",
+          "foreground": "Taut crate-to-haft segment and low crate eye; returning free tail remains in Chili’s hands.",
+          "midground": "D0nkey shifts weight through four visible legs; Chili pulls from unchanged position.",
+          "background": "Same rail and chosen venue landmark; Dark Horse remains safely separate.",
+          "visual_action": "Chili’s boot-braced backward pull slides the crate toward the haft. D0nkey steps laterally out of that corridor and moves the haft sideways, sweeping the crate-to-haft line across Chili’s stance. The unchanged rope tension then slides the crate into Chili’s backward step. Show every rope segment and ground contact; nothing moves by itself.",
+          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
+          "prose_role": "Explain the specific change of leverage that the ending will pay off.",
+          "continuity_in": [
+            "Exact single-rope path and offset Chili stance from beat1"
+          ],
+          "continuity_out": [
+            "Haft shifted laterally; crate travel line now crosses Chili’s backward step",
+            "Crate reaches Chili’s lower-leg space at ground level; no airborne collision",
+            "D0nkey remains outside moving corridor"
+          ],
+          "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
+          "image_vs_prose": {
+            "image": "Chili’s boot-braced backward pull slides the crate toward the haft. D0nkey steps laterally out of that corridor and moves the haft sideways, sweeping the crate-to-haft line across Chili’s stance. The unchanged rope tension then slides the crate into Chili’s backward step. Show every rope segment and ground contact; nothing moves by itself.",
+            "prose": "Explain the specific change of leverage that the ending will pay off."
+          },
+          "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
+        },
+        {
+          "beat": 3,
+          "title": "The Demonstration Concludes",
+          "copy": "The Chili Cheesers had prepared a remark for every part of the demonstration except this one. From the crate, he could see The Dark Horse watching with an expression that offered no assistance. D0nkey K0ng let the silence last. The host kept his sunglasses on, grateful for one piece of equipment that was still doing its job.",
+          "copy_status": "CONDITIONAL_CURRENT_LEADER_ENDING_DRAFT",
+          "camera": "Medium-wide aftermath at slightly lower angle than beat1; keep full D0nkey body.",
+          "foreground": "Crate, slack loop and settled dust.",
+          "midground": "Chili seated unhurt; D0nkey controlled and upright.",
+          "background": "Same safe horse position and chosen venue landmark.",
+          "visual_action": "The crate has stopped where it interrupted Chili’s backward step; he sits in its open top. The same rope remains attached to the crate with slack on the ground; its open turn has slipped free of the grounded haft. D0nkey’s full four-legged body is outside the line. The Dark Horse remains untouched.",
+          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
+          "prose_role": "Let the irony land; do not assert a championship or property transfer.",
+          "continuity_in": [
+            "Beat2 real pull and sideways haft movement brought the crate into Chili’s step"
+          ],
+          "continuity_out": [
+            "Temporary props displaced; identities, horse and venue intact"
+          ],
+          "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
+          "image_vs_prose": {
+            "image": "The crate has stopped where it interrupted Chili’s backward step; he sits in its open top. The same rope remains attached to the crate with slack on the ground; its open turn has slipped free of the grounded haft. D0nkey’s full four-legged body is outside the line. The Dark Horse remains untouched.",
+            "prose": "Let the irony land; do not assert a championship or property transfer."
+          },
+          "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
+        }
+      ],
+      "ending_branches": {
+        "holding": {
+          "condition": "Provider-final D0nkey K0ng win",
+          "use_beat": 3,
+          "copy": "The Chili Cheesers had prepared a remark for every part of the demonstration except this one. From the crate, he could see The Dark Horse watching with an expression that offered no assistance. D0nkey K0ng let the silence last. The host kept his sunglasses on, grateful for one piece of equipment that was still doing its job.",
+          "visual": "The crate has stopped where it interrupted Chili’s backward step; he sits in its open top. The same rope remains attached to the crate with slack on the ground; its open turn has slipped free of the grounded haft. D0nkey’s full four-legged body is outside the line. The Dark Horse remains untouched."
+        },
+        "reversal": {
+          "condition": "Provider-final Chili win after correction or other confirmed change",
+          "title": "The Released End",
+          "copy": "The Chili Cheesers recognized the mistake before the crowd could recognize it for him. He released the rope, stepped clear and let D0nkey K0ng finish pulling against nothing. Relief arrived first; the grin followed a moment later. By then, the host had decided this had always been the lesson he intended to give.",
+          "visual": "Same set; Chili releases rope and regains outside angle. No new mechanism."
+        },
+        "unresolved": {
+          "condition": "UNDECIDED or tie without resolved provider outcome",
+          "instruction": "Keep outcome selection open; no celebratory final panel or invented tie rule.",
+          "copy": "The Chili Cheesers kept his smile in place while the rope settled between them. D0nkey K0ng watched the line instead of the host. Somewhere beyond the rail, The Dark Horse shifted a hoof. The pause was becoming long enough to belong to neither performer. Whoever moved next would have to explain what the demonstration had been about.",
+          "copy_status": "USABLE_UNRESOLVED_PAYOFF_DRAFT",
+          "visual": "Return to the already established contested position before the decisive movement; do not show a winner."
+        },
+        "tie": {
+          "condition": "Only when the provider explicitly finalizes a TIE. Equal current scores or exactly meeting a margin does not authorize this branch.",
+          "title": "An Unfinished Argument",
+          "copy": "The Chili Cheesers released his end at the same moment D0nkey K0ng stopped pulling. The rope dropped between them, and both looked toward the empty crate as though it might settle the disagreement. Neither offered the other a laugh. The Dark Horse remained the only spectator who seemed satisfied with the afternoon.",
+          "copy_status": "CONDITIONAL_PROVIDER_FINAL_TIE_DRAFT",
+          "visual": "Both characters retain distinct opposing positions from beat two; no victory gesture. Exact result typography follows the provider."
+        }
+      },
+      "sources": [
+        "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/memo-os/week-9/Week_9_Approval_Review_Full_Names.md",
+        "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/atlas/ATLAS_V1.md",
+        "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/living-novel/os/geography/world_travel_graph_v1.json",
+        "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/CHAR-BRANDON-PRYOR/COMMISSIONER_APPEARANCE_LOCK_2026_10_22.json"
+      ],
+      "physical_action_contract": {
+        "prop_ids": {
+          "rope": "ONE continuous rope, not two lines",
+          "crate": "same empty sliding wooden cargo crate throughout",
+          "axe": "D0nkey-held axe with its haft acting as a visible turning surface",
+          "rail": "boundary marker only; not a hidden rope anchor or pulley"
+        },
+        "established_rope_path": "One rope end is tied to a low eye on the crate front. It runs forward to a single open U-turn around D0nkey’s axe haft, then returns to the free end held in both Chili hands. No closed neck/body loop, invisible knot, hidden pulley or additional anchor.",
+        "plan_view": "Crate starts behind and slightly to the side of Chili; Chili stands clear of the initial crate-to-haft line. D0nkey and haft are farther forward. The original crate travel corridor and Chili’s adjacent stance must be shown in beat one.",
+        "chili_intended_force": "Chili pulls the free tail using planted boots and backward bodyweight, intending to slide the crate along its visible line toward D0nkey’s lower-leg space. The force comes from that sustained pull, not an autonomous moving crate.",
+        "donkey_counter": "D0nkey steps outside the original travel corridor on four hooves and physically carries the haft sideways. The crate-to-haft line now crosses Chili’s stance. Chili’s continued backward pull still tensions the same rope, drawing the crate toward the shifted haft and into the space immediately behind Chili’s lower legs.",
+        "payoff_force": "The slowly sliding crate interrupts Chili’s backward step; he drops into its open top. No airborne crate, unexplained rebound or collision with The Dark Horse.",
+        "visual_check": "Before final art, a rough overhead blocking sketch must prove one continuous rope, two visible end roles, real ground contact, a clear shifted travel line and all four centaur legs."
+      },
+      "fact_file": "facts.json",
+      "fact_id": "W10-G01"
+    },
+    {
+      "status": "DRAFT_FICTION_FOR_PREPRODUCTION_REVIEW",
+      "season": 2026,
+      "week": 10,
+      "approval_claimed": false,
+      "final_art_generated": false,
+      "source_score_state": "ALL_ESPN_WINNER_FIELDS_UNDECIDED",
+      "source_snapshot_path": "/workspace/scratch/162404e483ef/Schemin_Week_10_FLAIM_Refresh_2026-11-16.json",
+      "repository_commit": "a24656366b73d1ef8ec98cf405d2337194bd2b97",
+      "id": "W10-M02",
+      "home_team_id": 2,
+      "home_team_name": "Red Leopards",
+      "away_team_id": 9,
+      "away_team_name": "El Niño",
+      "reference_character_ids": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-MANNING-WELTY"
+      ],
+      "source_fact_selector": "/games/1",
+      "source_fact_ids": [
+        "W10-G02",
+        "W10-T02",
+        "W10-T09"
+      ],
+      "current_points": {
+        "home": 136.42,
+        "away": 189.08
+      },
+      "current_leader": "El Niño",
+      "margin": 52.66,
+      "mnf_remaining": [
+        {
+          "team_id": 2,
+          "player": "Zay Flowers"
+        }
+      ],
+      "outright_lead_requirement": "Zay Flowers >52.66 additional points, absent other score changes; equality is not automatic win.",
+      "football_anchors": [
+        {
+          "team": 9,
+          "player": "Emmett Johnson",
+          "points": 38.3,
+          "selector": "/teams/T09/scorers/4832955/2"
+        },
+        {
+          "team": 9,
+          "player": "Chase Brown",
+          "points": 29.3,
+          "selector": "/teams/T09/scorers/4362238/2"
+        },
+        {
+          "team": 9,
+          "player": "James Cook III",
+          "points": 26.5,
+          "selector": "/teams/T09/scorers/4379399/2"
+        },
+        {
+          "team": 2,
+          "player": "Ja'Marr Chase",
+          "points": 36.1,
+          "selector": "/teams/T02/scorers/4362628/2"
+        },
+        {
+          "team": 9,
+          "player": "George Pickens",
+          "points": 44.5,
+          "started": false,
+          "selector": "/bench_observations/George_Pickens/points"
+        }
+      ],
+      "venue": {
+        "decision_status": "HOME_DOMAIN_RESOLVED_SCENE_DRAFT",
+        "location_id": "LOC-RED-RUINS",
+        "name": "Red Leopard Ruins",
+        "landmarks": [
+          "Week9 damaged terrace",
+          "wrecked goal",
+          "wheel ruts",
+          "high predator perch",
+          "narrow stone exit",
+          "forest approach"
+        ],
+        "set_dressing": [
+          "temporary boards",
+          "partial sandbag repairs"
+        ],
+        "set_dressing_status": "New draft repair props, not permanent canon",
+        "light": "Proposed rain-lit afternoon; El Niño's local fictional manifestation"
+      },
+      "continuity": {
+        "week9_in": [
+          "Actual Week9 terrace damage and trapped Chins truck confirmed by root PDF review"
+        ],
+        "identity_locks": [
+          "Red spotted feline, armor, claws/spear",
+          "El Niño approved humanoid elemental silhouette"
+        ],
+        "no_claims": [
+          "No restored pristine field",
+          "No unverified truck rescue",
+          "No world-wide flood",
+          "No permanent ruin collapse"
+        ]
+      },
+      "concept": "The Repair Bill: last week's truck damage becomes the path for water.",
+      "beats": [
+        {
+          "beat": 1,
+          "title": "The Field Remembers",
+          "copy": "Red Leopards had expected the next visitor to notice what happened to the last one. The leaning goal and torn grass should have been warning enough. Instead, El Niño studied the damage with interest. That was harder to tolerate than disrespect. The predator had spent the morning deciding what the field needed; his guest appeared to have a different use for it.",
+          "copy_status": "DRAFT",
+          "camera": "Over-shoulder from Red's upper perch, followed by reciprocal third-person visitor view.",
+          "foreground": "Red claws beside a temporary board.",
+          "midground": "Damaged pitch, ruts and wrecked goal.",
+          "background": "El Niño at forest approach; narrow exit offset consistently.",
+          "visual_action": "Show incomplete repairs and the visitor discovering the pre-existing channels.",
+          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
+          "prose_role": "Make continuity itself the cause of the new threat.",
+          "continuity_in": [
+            "Week9 damaged goal, ruts and exit"
+          ],
+          "continuity_out": [
+            "Repair board and two runoff channels established"
+          ],
+          "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
+          "image_vs_prose": {
+            "image": "Show incomplete repairs and the visitor discovering the pre-existing channels.",
+            "prose": "Make continuity itself the cause of the new threat."
+          },
+          "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
+        },
+        {
+          "beat": 2,
+          "title": "Nothing Stops at the Gate",
+          "copy": "There had been comfort in knowing the passage was too narrow for the truck. Red Leopards had seen the exact moment when size became a weakness. Now he searched for the same certainty and found none. El Niño needed no room to turn. Each repair that saved one patch of ground seemed to offer the visitor another opening.",
+          "copy_status": "DRAFT",
+          "camera": "Low oblique action view that includes upstream gap, barrier and downstream exit.",
+          "foreground": "Water curling around the temporary board.",
+          "midground": "Red shifting barrier; El Niño visibly embodied beyond the flow.",
+          "background": "Unchanged ruined goal, stone exit and predator banners.",
+          "visual_action": "Water follows the already drawn ruts and open gap; Red's intervention redirects rather than erases it.",
+          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
+          "prose_role": "Explain why yesterday's successful defense fails against a different kind of opponent.",
+          "continuity_in": [
+            "Same ruts and repair board"
+          ],
+          "continuity_out": [
+            "Lower terrace flooded; high plinth remains accessible"
+          ],
+          "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
+          "image_vs_prose": {
+            "image": "Water follows the already drawn ruts and open gap; Red's intervention redirects rather than erases it.",
+            "prose": "Explain why yesterday's successful defense fails against a different kind of opponent."
+          },
+          "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
+        },
+        {
+          "beat": 3,
+          "title": "The High Stone",
+          "copy": "From the high stone, Red Leopards could see every repair he had meant to finish. The board he had chosen first floated past the goal. El Niño held the approach without looking hurried. Anger offered the predator a dozen reasons to jump down. None of them supplied a dry place to land.",
+          "copy_status": "CONDITIONAL_CURRENT_LEADER_ENDING_DRAFT",
+          "camera": "Wide elevated payoff retaining complete terrace map.",
+          "foreground": "Dry plinth edge and Red's planted claws.",
+          "midground": "El Niño occupying lower approach; local water across pitch.",
+          "background": "Goal and stone exit remain identifiable.",
+          "visual_action": "Red yields the lower field while staying dangerous, intact and identifiable.",
+          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
+          "prose_role": "Frame loss of position without declaring destruction of a homeland.",
+          "continuity_in": [
+            "Flooded lower terrace from beat2"
+          ],
+          "continuity_out": [
+            "Temporary saturation/repair burden; no permanent world-state promotion"
+          ],
+          "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
+          "image_vs_prose": {
+            "image": "Red yields the lower field while staying dangerous, intact and identifiable.",
+            "prose": "Frame loss of position without declaring destruction of a homeland."
+          },
+          "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
+        }
+      ],
+      "ending_branches": {
+        "holding": {
+          "condition": "Provider-final El Niño win",
+          "use_beat": 3,
+          "copy": "From the high stone, Red Leopards could see every repair he had meant to finish. The board he had chosen first floated past the goal. El Niño held the approach without looking hurried. Anger offered the predator a dozen reasons to jump down. None of them supplied a dry place to land."
+        },
+        "reversal": {
+          "condition": "Provider-final Red Leopards win",
+          "title": "The Open Channel",
+          "copy": "Red Leopards stopped trying to preserve every patch of grass. There was one line he needed, and he finally allowed the rest to carry the water away. El Niño turned toward the opened channel. The predator moved before the opportunity could become another repair to consider, finding a foothold where he had almost stopped looking.",
+          "visual": "Use the established board and outlet to open a lane; no new dam, spell or landmark."
+        },
+        "unresolved": {
+          "condition": "Before Flowers and provider finality resolve",
+          "instruction": "Retain both endings; tie treatment must follow actual provider outcome.",
+          "copy": "Red Leopards listened for a change beneath the sound of the rain. The board was holding at one end and lifting at the other. El Niño had not yet crossed the lower approach. For the moment, the field still contained two possible routes. The predator watched the narrow one and refused to call it finished.",
+          "copy_status": "USABLE_UNRESOLVED_PAYOFF_DRAFT",
+          "visual": "Return to the already established contested position before the decisive movement; do not show a winner."
+        },
+        "tie": {
+          "condition": "Only when the provider explicitly finalizes a TIE. Equal current scores or exactly meeting a margin does not authorize this branch.",
+          "title": "An Unfinished Argument",
+          "copy": "The water reached the foot of the high stone and stopped rising. Red Leopards watched El Niño across the flooded strip; El Niño watched the remaining dry line beside the goal. Both had ground they could keep. Neither had ground they could take without giving the other an opening. The rain continued after the argument had run out of room.",
+          "copy_status": "CONDITIONAL_PROVIDER_FINAL_TIE_DRAFT",
+          "visual": "Both characters retain distinct opposing positions from beat two; no victory gesture. Exact result typography follows the provider."
+        }
+      },
+      "sources": [
+        "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/memo-os/week-9/Week_9_Approval_Review_Full_Names.md",
+        "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/atlas/ATLAS_V1.md",
+        "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/living-novel/os/geography/world_travel_graph_v1.json",
+        "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/location-control-plane/locations/LOC-RED-RUINS/CARD.json"
+      ],
+      "fact_file": "facts.json",
+      "fact_id": "W10-G02"
+    },
+    {
+      "status": "DRAFT_FICTION_FOR_PREPRODUCTION_REVIEW",
+      "season": 2026,
+      "week": 10,
+      "approval_claimed": false,
+      "final_art_generated": false,
+      "source_score_state": "ALL_ESPN_WINNER_FIELDS_UNDECIDED",
+      "source_snapshot_path": "/workspace/scratch/162404e483ef/Schemin_Week_10_FLAIM_Refresh_2026-11-16.json",
+      "repository_commit": "a24656366b73d1ef8ec98cf405d2337194bd2b97",
+      "id": "W10-M03",
+      "home_team_id": 6,
+      "home_team_name": "Three Dreaded Snake",
+      "away_team_id": 11,
+      "away_team_name": "Seven Deadly Chins",
+      "reference_character_ids": [
+        "CHAR-PHILLIP-PITTS",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "source_fact_selector": "/games/2",
+      "source_fact_ids": [
+        "W10-G03",
+        "W10-T06",
+        "W10-T11"
+      ],
+      "current_points": {
+        "home": 75.78,
+        "away": 146.22
+      },
+      "current_leader": "Seven Deadly Chins",
+      "margin": 70.44,
+      "mnf_remaining": [
+        {
+          "team_id": 6,
+          "player": "Ravens D/ST"
+        }
+      ],
+      "outright_lead_requirement": "Ravens D/ST >70.44 additional points, absent other score changes.",
+      "football_anchors": [
+        {
+          "team": 11,
+          "player": "Patrick Mahomes",
+          "points": 48.62,
+          "selector": "/teams/T11/scorers/3139477/2"
+        },
+        {
+          "team": 11,
+          "player": "Blake Corum",
+          "points": 23.6,
+          "selector": "/teams/T11/scorers/4429096/2"
+        },
+        {
+          "team": 6,
+          "player": "Bhayshul Tuten",
+          "points": 22.9,
+          "selector": "/teams/T06/scorers/4882093/2"
+        }
+      ],
+      "venue": {
+        "decision_status": "HOME_DOMAIN_RESOLVED_SCENE_DRAFT",
+        "location_id": "LOC-TDS-WATERFALL-TEMPLE",
+        "name": "Waterfall Temple outer approach",
+        "landmarks": [
+          "waterfall back-left",
+          "temple stone doorway high-right",
+          "dense vegetation",
+          "one broad wet step",
+          "low approach foreground"
+        ],
+        "set_dressing": [
+          "threshold encounter line"
+        ],
+        "set_dressing_status": "Temporary staging; no newly named family space",
+        "light": "Mist and natural daylight"
+      },
+      "continuity": {
+        "week9_in": [
+          "TDS paintball loss and family welcome",
+          "Chins truck trapped at Red ruins in actualWeek9"
+        ],
+        "identity_locks": [
+          "Exactly three heads, one reptilian humanoid body",
+          "No pre-haircut long dreads",
+          "Chins heavyset human, cap, dirty clothing and hammer"
+        ],
+        "no_claims": [
+          "No baby/family in danger",
+          "No Pittsy reopening",
+          "No truck restoration",
+          "No temple destruction"
+        ]
+      },
+      "concept": "Three Heads, One Foothold: sightlines multiply but the body must hold a single position.",
+      "beats": [
+        {
+          "beat": 1,
+          "title": "A Visitor on Foot",
+          "copy": "Three Dreaded Snake preferred an opponent who announced how he intended to arrive. An engine would have given him time to judge the approach. Seven Deadly Chins offered only footsteps and the scrape of a hammer against his shoulder. Three heads followed the visitor. None liked how little there seemed to be to distract him.",
+          "copy_status": "DRAFT",
+          "camera": "Wide lower-approach view; reciprocal close view preserves shared body and wet-step axis.",
+          "foreground": "Chins heavy boot and hammer silhouette.",
+          "midground": "TDS on broad step, all three heads and common torso visible.",
+          "background": "Waterfall left, temple doorway right, dense foliage beyond.",
+          "visual_action": "Chins walks into the encounter; TDS tracks several angles from one foothold.",
+          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
+          "prose_role": "Carry the truck consequence without inventing its repair or belittling the family event.",
+          "continuity_in": [
+            "Unresolved Week9 truck recovery",
+            "TDS onebody/threeheads"
+          ],
+          "continuity_out": [
+            "Step, hammer brace point and outer threshold established"
+          ],
+          "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
+          "image_vs_prose": {
+            "image": "Chins walks into the encounter; TDS tracks several angles from one foothold.",
+            "prose": "Carry the truck consequence without inventing its repair or belittling the family event."
+          },
+          "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
+        },
+        {
+          "beat": 2,
+          "title": "The Weight Stays Put",
+          "copy": "Every head found an answer. One saw the open side, another the wet stone, the third the visitor’s exposed shoulder. Three Dreaded Snake committed before the possibilities could settle into one choice. Seven Deadly Chins gave him no space to revise it. The problem was no longer seeing an opening. It was reaching one without surrendering the step.",
+          "copy_status": "DRAFT",
+          "camera": "Medium lateral contact view: hammer head/shaft, both Chins arms, shoulder-to-guard contact and both characters’ feet all visible.",
+          "foreground": "Hammer head flat on stone; Chins boot pushing against the step.",
+          "midground": "Chins free forearm/shoulder contacting TDS guard; TDS chest and feet yielding under pressure.",
+          "background": "Same doorway and waterfall; no moved column.",
+          "visual_action": "Chins braces the hammer head flat on the step with one hand on its shaft. His free forearm and near shoulder make clear contact with TDS’s raised forearm and upper-chest guard below the three necks. Chins drives through planted boots; that visible pressure forces TDS’s shared torso and feet backward toward the threshold.",
+          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
+          "prose_role": "Make the shared-body constraint dramatically useful without treating TDS as three independent fighters.",
+          "continuity_in": [
+            "Wet step and brace point from beat1"
+          ],
+          "continuity_out": [
+            "Visible contact and grounded drive force TDS toward outer threshold",
+            "Chins gains broad step through bodily leverage, not the hammer alone"
+          ],
+          "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
+          "image_vs_prose": {
+            "image": "Chins braces the hammer head flat on the step with one hand on its shaft. His free forearm and near shoulder make clear contact with TDS’s raised forearm and upper-chest guard below the three necks. Chins drives through planted boots; that visible pressure forces TDS’s shared torso and feet backward toward the threshold.",
+            "prose": "Make the shared-body constraint dramatically useful without treating TDS as three independent fighters."
+          },
+          "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
+        },
+        {
+          "beat": 3,
+          "title": "One Step Taken",
+          "copy": "Seven Deadly Chins waited for another objection. Three Dreaded Snake offered three expressions that could have supplied one, but the space between them had become difficult to dispute. For once, the visitor did not fill the silence himself. He rested a hand on the hammer and let the waterfall make all the noise.",
+          "copy_status": "CONDITIONAL_CURRENT_LEADER_ENDING_DRAFT",
+          "camera": "Medium-wide aftermath, slightly elevated; full silhouettes and threshold readable.",
+          "foreground": "Grounded hammer and wet step.",
+          "midground": "Chins occupies step; TDS upright beyond line.",
+          "background": "Unharmed temple exterior, waterfall and foliage.",
+          "visual_action": "A central position changes without a kneeling-knight repeat or family danger.",
+          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
+          "prose_role": "Preserve continuing character dignity and limit the story consequence to the contest.",
+          "continuity_in": [
+            "Beat2 earned gain"
+          ],
+          "continuity_out": [
+            "Scuffed step; no destroyed temple or altered family situation"
+          ],
+          "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
+          "image_vs_prose": {
+            "image": "A central position changes without a kneeling-knight repeat or family danger.",
+            "prose": "Preserve continuing character dignity and limit the story consequence to the contest."
+          },
+          "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
+        }
+      ],
+      "ending_branches": {
+        "holding": {
+          "condition": "Provider-final Seven Deadly Chins win",
+          "use_beat": 3,
+          "copy": "Seven Deadly Chins waited for another objection. Three Dreaded Snake offered three expressions that could have supplied one, but the space between them had become difficult to dispute. For once, the visitor did not fill the silence himself. He rested a hand on the hammer and let the waterfall make all the noise.",
+          "visual": "Chins now occupies the step gained through the explicit shoulder/forearm contact; TDS remains upright behind the threshold with guard still raised."
+        },
+        "reversal": {
+          "condition": "Provider-final Three Dreaded Snake win",
+          "title": "Around the Brace",
+          "copy": "Three Dreaded Snake had spent the encounter watching the visitor’s strength. At last, he watched what that strength depended on. The hammer slipped, the weight followed, and the three gazes settled on the same opening. Seven Deadly Chins recovered quickly enough to recognize it. He did not recover quickly enough to reach it first.",
+          "visual": "Use already shown spray and brace; no added head or spell."
+        },
+        "unresolved": {
+          "condition": "Before Ravens D/ST and provider finality resolve",
+          "instruction": "No ending selected as canon; no victory/defeat label.",
+          "copy": "Three Dreaded Snake had stopped looking for three different answers. All three heads watched the hammer now, waiting for the weight behind it to settle. Seven Deadly Chins felt the defender become quieter and tightened his grip. The broad step lay between them, slick with spray and still large enough for one more attempt.",
+          "copy_status": "USABLE_UNRESOLVED_PAYOFF_DRAFT",
+          "visual": "Return to the already established contested position before the decisive movement; do not show a winner."
+        },
+        "tie": {
+          "condition": "Only when the provider explicitly finalizes a TIE. Equal current scores or exactly meeting a margin does not authorize this branch.",
+          "title": "An Unfinished Argument",
+          "copy": "Seven Deadly Chins kept his hand on the grounded hammer. Three Dreaded Snake kept his feet at the threshold. Neither could advance without first moving the support that made the position bearable. The waterfall was the only thing still gaining ground. After a while, all three serpent heads and the visitor were listening to it.",
+          "copy_status": "CONDITIONAL_PROVIDER_FINAL_TIE_DRAFT",
+          "visual": "Both characters retain distinct opposing positions from beat two; no victory gesture. Exact result typography follows the provider."
+        }
+      },
+      "sources": [
+        "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/memo-os/week-9/Week_9_Approval_Review_Full_Names.md",
+        "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/atlas/ATLAS_V1.md",
+        "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/living-novel/os/geography/world_travel_graph_v1.json",
+        "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/location-control-plane/locations/LOC-TDS-WATERFALL-TEMPLE/CARD.json"
+      ],
+      "physical_action_contract": {
+        "contact": "Chins keeps one hand on the braced hammer shaft. His free forearm and near shoulder press visibly against TDS’s raised forearm/upper-chest guard, below the three necks.",
+        "force": "The hammer head is flat against the wet step; Chins drives through planted boots and shoulder contact. TDS’s feet yield backward under the visible pressure, not by reaction to a merely planted hammer.",
+        "anatomy": "Exactly two arms and two legs on TDS’s shared body; three heads remain above the contact. Chins has two arms total, one on the shaft and one forming the guarded contact.",
+        "continuity": "No uncontacted retreat, telekinetic hammer, unsupported body throw or strike to a serpent head."
+      },
+      "fact_file": "facts.json",
+      "fact_id": "W10-G03"
+    },
+    {
+      "status": "DRAFT_FICTION_FOR_PREPRODUCTION_REVIEW",
+      "season": 2026,
+      "week": 10,
+      "approval_claimed": false,
+      "final_art_generated": false,
+      "source_score_state": "ALL_ESPN_WINNER_FIELDS_UNDECIDED",
+      "source_snapshot_path": "/workspace/scratch/162404e483ef/Schemin_Week_10_FLAIM_Refresh_2026-11-16.json",
+      "repository_commit": "a24656366b73d1ef8ec98cf405d2337194bd2b97",
+      "id": "W10-M04",
+      "home_team_id": 10,
+      "home_team_name": "Mud Dogs",
+      "away_team_id": 3,
+      "away_team_name": "Slob on my Dobb",
+      "reference_character_ids": [
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-JORDAN-HOLLINGSHEAD"
+      ],
+      "source_fact_selector": "/games/3",
+      "source_fact_ids": [
+        "W10-G04",
+        "W10-T10",
+        "W10-T03"
+      ],
+      "current_points": {
+        "home": 113.62,
+        "away": 179.29
+      },
+      "current_leader": "Slob on my Dobb",
+      "margin": 65.67,
+      "mnf_remaining": [],
+      "provider_finality_pending": true,
+      "football_anchors": [
+        {
+          "team": 3,
+          "player": "Christian McCaffrey",
+          "points": 52.6,
+          "selector": "/teams/T03/scorers/3117251/2"
+        },
+        {
+          "team": 3,
+          "player": "Josh Allen",
+          "points": 26.84,
+          "selector": "/teams/T03/scorers/3918298/2"
+        },
+        {
+          "team": 3,
+          "player": "CeeDee Lamb",
+          "points": 20.2,
+          "selector": "/teams/T03/scorers/4241389/2"
+        },
+        {
+          "team": 10,
+          "player": "Jared Goff",
+          "points": 29.52,
+          "selector": "/teams/T10/scorers/3046779/2"
+        }
+      ],
+      "venue": {
+        "decision_status": "HOME_DOMAIN_RESOLVED_SCENE_DRAFT",
+        "location_id": "LOC-MUD-DOGS-SWAMP",
+        "name": "Mud Dogs Swamp",
+        "landmarks": [
+          "raised berm",
+          "low channel",
+          "exposed root",
+          "Week9 racing rut"
+        ],
+        "set_dressing": [
+          "loose plank",
+          "Slob’s sealed keg, used as rolling buffer rather than raft"
+        ],
+        "set_dressing_status": "Temporary scene props; no new permanent bridge",
+        "light": "Low warm light through swamp canopy"
+      },
+      "continuity": {
+        "week9_in": [
+          "Mud Dogs rig bogged and shortcut flooded",
+          "Slob's successful paintball change of angle"
+        ],
+        "identity_locks": [
+          "MudDogs feral quadruped no human hands",
+          "Slob current massive human/overalls/backwardcap/keg"
+        ],
+        "no_claims": [
+          "No magic rig recovery",
+          "No permanent swamp alteration",
+          "No severe animal injury",
+          "No extra head/limb"
+        ]
+      },
+      "concept": "Firm Ground: mass and equipment change the footing of a close encounter.",
+      "beats": [
+        {
+          "beat": 1,
+          "title": "Nothing Here Is Dry",
+          "copy": "Mud Dogs knew which ground would hold. Lately, that knowledge had not been enough to make the swamp feel dependable. The visitor set down an enormous keg and tested a plank with his boot. Mud Dogs watched the hesitation with satisfaction. Let the outsider learn how little the place cared about the confidence he brought into it.",
+          "copy_status": "DRAFT",
+          "camera": "Low hound-eye establishing shot, then reciprocal visitor shoulder view.",
+          "foreground": "Root, wet plank and hound paws.",
+          "midground": "Slob placing keg at edge of firm berm.",
+          "background": "Old rut and cypress-like trunks; low channel remains distinct.",
+          "visual_action": "Both characters assess the same narrow footing before a charge.",
+          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
+          "prose_role": "Connect yesterday's terrain consequence with today's tactical choice.",
+          "continuity_in": [
+            "Week9 rut/flood continuity"
+          ],
+          "continuity_out": [
+            "Root, plank, berm edge and keg established"
+          ],
+          "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
+          "image_vs_prose": {
+            "image": "Both characters assess the same narrow footing before a charge.",
+            "prose": "Connect yesterday's terrain consequence with today's tactical choice."
+          },
+          "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
+        },
+        {
+          "beat": 2,
+          "title": "Let It Roll",
+          "copy": "Slob on my Dobb had stopped looking for a clean way through. There was none, and pretending otherwise only gave the hound more time to choose the encounter. He needed somewhere to put his weight when the charge arrived. The root would do. If the keg made the rest of the ground unpleasant, that could become somebody else’s problem.",
+          "copy_status": "DRAFT",
+          "camera": "Low lateral action view showing root-to-channel relationship.",
+          "foreground": "Keg rolling off the berm; exposed root and Slob’s firmly supported boot clearly separate from the water.",
+          "midground": "Slob supported by root and bank; hound’s front paws at yielding edge, rear paws on berm.",
+          "background": "Same rut and trunks; no new route.",
+          "visual_action": "Slob sets the keg across the narrow firm strip. The hound’s forequarters meet the rolling buffer; it turns into the channel. Slob pivots with one boot securely on the exposed root and a hand or second foot braced against the firm bank. The hound’s committed front paws reach the soft edge as the obstacle rolls away. Slob never rests weight on the keg.",
+          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
+          "prose_role": "Explain movement rather than claiming a new power or rendering abstract score impact.",
+          "continuity_in": [
+            "Same keg/root/berm from beat1"
+          ],
+          "continuity_out": [
+            "Keg displaced into channel as a loose prop",
+            "Slob supported by root and firm bank, moving toward higher ground",
+            "Hound’s forequarters reach shallower soft edge"
+          ],
+          "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
+          "image_vs_prose": {
+            "image": "Slob sets the keg across the narrow firm strip. The hound’s forequarters meet the rolling buffer; it turns into the channel. Slob pivots with one boot securely on the exposed root and a hand or second foot braced against the firm bank. The hound’s committed front paws reach the soft edge as the obstacle rolls away. Slob never rests weight on the keg.",
+            "prose": "Explain movement rather than claiming a new power or rendering abstract score impact."
+          },
+          "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
+        },
+        {
+          "beat": 3,
+          "title": "Above the Waterline",
+          "copy": "Mud Dogs could endure the mud. What it could not comfortably endure was the visitor settling on the raised bank as though the place had finally become hospitable. Slob on my Dobb caught the keg by its rim and took his time. The hound snarled again. This time, the sound did nothing to hurry him.",
+          "copy_status": "CONDITIONAL_CURRENT_LEADER_ENDING_DRAFT",
+          "camera": "Wide bank-height aftermath with characters in distinct vertical planes.",
+          "foreground": "Root and reachable floating keg.",
+          "midground": "Slob on raised bank; hound intact and snarling below.",
+          "background": "Visible old rut, same channel and trunks.",
+          "visual_action": "Slob is securely on the raised bank after climbing with root and bank support. Only then does he reach for the keg rim at the water edge. Mud Dogs remains intact and snarling in the lower shallows. The keg bears no character’s bodyweight.",
+          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
+          "prose_role": "Describe a contest's positional victory, not land ownership transfer.",
+          "continuity_in": [
+            "Beat2 displacement"
+          ],
+          "continuity_out": [
+            "Temporary water disturbance and moved keg; swamp remains itself"
+          ],
+          "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
+          "image_vs_prose": {
+            "image": "Slob is securely on the raised bank after climbing with root and bank support. Only then does he reach for the keg rim at the water edge. Mud Dogs remains intact and snarling in the lower shallows. The keg bears no character’s bodyweight.",
+            "prose": "Describe a contest's positional victory, not land ownership transfer."
+          },
+          "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
+        }
+      ],
+      "ending_branches": {
+        "holding": {
+          "condition": "Provider-final Slob on my Dobb win",
+          "use_beat": 3,
+          "copy": "Mud Dogs could endure the mud. What it could not comfortably endure was the visitor settling on the raised bank as though the place had finally become hospitable. Slob on my Dobb caught the keg by its rim and took his time. The hound snarled again. This time, the sound did nothing to hurry him.",
+          "visual": "Slob is securely on the raised bank after climbing with root and bank support. Only then does he reach for the keg rim at the water edge. Mud Dogs remains intact and snarling in the lower shallows. The keg bears no character’s bodyweight."
+        },
+        "reversal": {
+          "condition": "Provider-final Mud Dogs win after confirmed correction",
+          "title": "The Root Holds",
+          "copy": "Mud Dogs recognized the moment when the visitor began to trust the plank. Familiar ground had disappointed the hound before; now it offered a small, useful certainty. Slob on my Dobb shifted his weight and felt the wood answer beneath him. The keg was drifting away. Mud Dogs had stopped watching it.",
+          "visual": "Use previously visible root and plank; no invented rescue creature or new exit."
+        },
+        "unresolved": {
+          "condition": "Provider remains UNDECIDED",
+          "instruction": "Keep result treatment provisional despite no MNF starters remaining.",
+          "copy": "Slob on my Dobb tested the root again without taking his eyes from the hound. Mud Dogs watched the keg drift against the bank and waited for the visitor to reach too far. The swamp had reduced the encounter to small decisions. Neither seemed ready to admit how much depended on the next one.",
+          "copy_status": "USABLE_UNRESOLVED_PAYOFF_DRAFT",
+          "visual": "Return to the already established contested position before the decisive movement; do not show a winner."
+        },
+        "tie": {
+          "condition": "Only when the provider explicitly finalizes a TIE. Equal current scores or exactly meeting a margin does not authorize this branch.",
+          "title": "An Unfinished Argument",
+          "copy": "The keg lodged against the root. Slob on my Dobb could reach it only by leaving the raised bank; Mud Dogs could reach him only by crossing the floating metal. Each watched the other consider the same inconvenience. The swamp had supplied plenty of mud and very little room for pride to make another move.",
+          "copy_status": "CONDITIONAL_PROVIDER_FINAL_TIE_DRAFT",
+          "visual": "Both characters retain distinct opposing positions from beat two; no victory gesture. Exact result typography follows the provider."
+        }
+      },
+      "sources": [
+        "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/memo-os/week-9/Week_9_Approval_Review_Full_Names.md",
+        "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/atlas/ATLAS_V1.md",
+        "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/living-novel/os/geography/world_travel_graph_v1.json",
+        "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/location-control-plane/locations/LOC-MUD-DOGS-SWAMP/CARD.json"
+      ],
+      "physical_action_contract": {
+        "human_support": "Slob’s weight is carried by the exposed rooted footing and the firm raised bank at all times. His pivot uses a boot on the root and a hand/forearm or second boot braced on the bank.",
+        "keg_role": "The keg is a rolling buffer and distraction. It may bob or settle in the channel after impact, but it is not a raft, a human-weight-bearing support or the means of Slob’s ascent.",
+        "hound_support": "The quadrupedal hound’s committed front paws reach the already established yielding edge after the keg rolls aside.",
+        "payoff": "Slob climbs with root/bank support and only then retrieves the keg rim. No stepping or hauling himself onto a buoyant keg."
+      },
+      "fact_file": "facts.json",
+      "fact_id": "W10-G04"
+    },
+    {
+      "status": "DRAFT_FICTION_FOR_PREPRODUCTION_REVIEW",
+      "season": 2026,
+      "week": 10,
+      "approval_claimed": false,
+      "final_art_generated": false,
+      "source_score_state": "ALL_ESPN_WINNER_FIELDS_UNDECIDED",
+      "source_snapshot_path": "/workspace/scratch/162404e483ef/Schemin_Week_10_FLAIM_Refresh_2026-11-16.json",
+      "repository_commit": "a24656366b73d1ef8ec98cf405d2337194bd2b97",
+      "id": "W10-M05",
+      "home_team_id": 12,
+      "home_team_name": "Dr. Duckhook",
+      "away_team_id": 8,
+      "away_team_name": "His Majesty's Blood",
+      "reference_character_ids": [
+        "CHAR-ZACH-WILSON",
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "source_fact_selector": "/games/4",
+      "source_fact_ids": [
+        "W10-G05",
+        "W10-T12",
+        "W10-T08"
+      ],
+      "current_points": {
+        "home": 127.67,
+        "away": 208.76
+      },
+      "current_leader": "His Majesty's Blood",
+      "margin": 81.09,
+      "mnf_remaining": [],
+      "provider_finality_pending": true,
+      "football_anchors": [
+        {
+          "team": 8,
+          "player": "Brock Purdy",
+          "points": 42.86,
+          "selector": "/teams/T08/scorers/4361741/2"
+        },
+        {
+          "team": 8,
+          "player": "Chuba Hubbard",
+          "points": 36.9,
+          "selector": "/teams/T08/scorers/4241416/2"
+        },
+        {
+          "team": 8,
+          "player": "Jaxon Smith-Njigba",
+          "points": 34.1,
+          "selector": "/teams/T08/scorers/4430878/2"
+        },
+        {
+          "team": 8,
+          "player": "Vikings D/ST",
+          "points": 26,
+          "selector": "/teams/T08/scorers/-16016/2"
+        },
+        {
+          "team": 8,
+          "player": "Cam Little",
+          "points": 19,
+          "selector": "/teams/T08/scorers/4686361/2"
+        },
+        {
+          "team": 12,
+          "player": "Jahmyr Gibbs",
+          "points": 47.4,
+          "selector": "/teams/T12/scorers/4429795/2"
+        }
+      ],
+      "venue": {
+        "decision_status": "HOME_DOMAIN_RESOLVED_SCENE_DRAFT",
+        "location_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "name": "Country Club of Jackson clubhouse threshold",
+        "landmarks": [
+          "clubhouse doorway",
+          "veranda",
+          "golf grounds",
+          "water hazard",
+          "club banner"
+        ],
+        "set_dressing": [
+          "light guest chair beside doorway"
+        ],
+        "set_dressing_status": "Scene prop, no new permanent building",
+        "light": "Cultivated grounds in clear daylight; no imported gothic castle"
+      },
+      "continuity": {
+        "week9_in": [
+          "Duckhook controlled finish against ObiWan and five-win entering streak",
+          "HMB public chili humiliation, belt retained"
+        ],
+        "identity_locks": [
+          "Duckhook white duck head/orangebill/green golfer",
+          "HMB hood shadow/red eyes/blackarmor/crimsoncloak",
+          "Belt stays with HMB"
+        ],
+        "no_claims": [
+          "No club ownership transfer",
+          "No membership rule invention",
+          "No championship declaration",
+          "No repeat last-putt or sword-duel scene"
+        ]
+      },
+      "concept": "Door Policy: a social reversal expressed through a club, a threshold and a chair.",
+      "beats": [
+        {
+          "beat": 1,
+          "title": "This Way, Sir",
+          "copy": "Dr. Duckhook had begun to expect the pause before a visitor followed his instructions. Five straight victories made small habits feel like rules. His Majesty’s Blood paused for rather longer than expected, looking past the welcoming gesture toward the veranda. Dr. Duckhook repeated the invitation more clearly. He disliked having to sound helpful twice.",
+          "copy_status": "DRAFT",
+          "camera": "Medium-wide threshold view; reciprocal close views retain same doorjamb and chair position.",
+          "foreground": "Duckhook's club across entrance.",
+          "midground": "Duckhook host left, HMB visitor right; full duck bill and hood visible.",
+          "background": "Greens, water hazard and club banner.",
+          "visual_action": "Host controls entry with an intact club; visitor notices the room's geometry.",
+          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
+          "prose_role": "Set up hospitality as a contest of authority, without inventing league or membership rules.",
+          "continuity_in": [
+            "ActualWeek9 club setting and identities"
+          ],
+          "continuity_out": [
+            "Club shaft, door jamb and guest chair locations established"
+          ],
+          "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
+          "image_vs_prose": {
+            "image": "Host controls entry with an intact club; visitor notices the room's geometry.",
+            "prose": "Set up hospitality as a contest of authority, without inventing league or membership rules."
+          },
+          "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
+        },
+        {
+          "beat": 2,
+          "title": "The Courtesy Gives",
+          "copy": "For a moment, Dr. Duckhook believed the elegant answer had settled the occasion. It was precisely the sort of response he trusted himself to produce when watched. His Majesty’s Blood did not seem impressed enough to stop. The host searched for the next graceful adjustment and discovered that the available room was vanishing faster than his composure.",
+          "copy_status": "DRAFT",
+          "camera": "Intimate side-on action shot showing both hands, shaft, chair and jamb.",
+          "foreground": "Gauntlet on club shaft and Duckhook's grip.",
+          "midground": "Duckhook stepping back; HMB advancing one controlled pace.",
+          "background": "Same doorway opening and grounds; HMB sword stays lowered or sheathed.",
+          "visual_action": "One flourish works briefly; sustained pressure changes the threshold position.",
+          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
+          "prose_role": "Acknowledge Duckhook's excellent individual contribution while illustrating the broader opposing force.",
+          "continuity_in": [
+            "Exact club/chair positions from beat1"
+          ],
+          "continuity_out": [
+            "Duckhook at chair; HMB at threshold; club intact"
+          ],
+          "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
+          "image_vs_prose": {
+            "image": "One flourish works briefly; sustained pressure changes the threshold position.",
+            "prose": "Acknowledge Duckhook's excellent individual contribution while illustrating the broader opposing force."
+          },
+          "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
+        },
+        {
+          "beat": 3,
+          "title": "Room for the Guest",
+          "copy": "Dr. Duckhook had never noticed how low the guest chair sat. From it, every attempt at recovered dignity required him to look upward. His Majesty’s Blood stood on the veranda without asking for anything further. The visitor’s decision to look away first was somehow worse than a remark. Dr. Duckhook adjusted his grip on the club.",
+          "copy_status": "CONDITIONAL_CURRENT_LEADER_ENDING_DRAFT",
+          "camera": "Medium-wide aftermath with greens visible beyond both figures.",
+          "foreground": "Duckhook seated, bill and club readable.",
+          "midground": "HMB through threshold, hood and existing belt retained.",
+          "background": "Same cultivated golf grounds and banner.",
+          "visual_action": "Duckhook yields the doorway and becomes the uncomfortable host; HMB does not occupy a throne.",
+          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
+          "prose_role": "Limit the win to the encounter; no trophy, title or real-estate transfer.",
+          "continuity_in": [
+            "Beat2 forced step back"
+          ],
+          "continuity_out": [
+            "Chair occupied, club intact, venue and belt ownership preserved"
+          ],
+          "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
+          "image_vs_prose": {
+            "image": "Duckhook yields the doorway and becomes the uncomfortable host; HMB does not occupy a throne.",
+            "prose": "Limit the win to the encounter; no trophy, title or real-estate transfer."
+          },
+          "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
+        }
+      ],
+      "ending_branches": {
+        "holding": {
+          "condition": "Provider-final His Majesty's Blood win",
+          "use_beat": 3,
+          "copy": "Dr. Duckhook had never noticed how low the guest chair sat. From it, every attempt at recovered dignity required him to look upward. His Majesty’s Blood stood on the veranda without asking for anything further. The visitor’s decision to look away first was somehow worse than a remark. Dr. Duckhook adjusted his grip on the club."
+        },
+        "reversal": {
+          "condition": "Provider-final Duckhook win after confirmed correction",
+          "title": "A Different Entrance",
+          "copy": "Dr. Duckhook remembered that a welcome was also an invitation to move. He stopped resisting the visitor’s pressure and stepped through the door instead. His Majesty’s Blood turned, finding the host already composed on the other side. The duck allowed himself one small adjustment to the cap. This instruction would not need to be repeated.",
+          "visual": "Use established door opening; no new trap or belt theft."
+        },
+        "unresolved": {
+          "condition": "Provider remains UNDECIDED",
+          "instruction": "No final result label; no claim that winning streak is officially ended.",
+          "copy": "Dr. Duckhook could still make the gesture look courteous if he did not move his feet. His Majesty’s Blood could still make the pause look voluntary if he did not tighten his hand. Both understood the bargain. Beyond the veranda, the course waited in perfect order while the welcome became steadily harder to explain.",
+          "copy_status": "USABLE_UNRESOLVED_PAYOFF_DRAFT",
+          "visual": "Return to the already established contested position before the decisive movement; do not show a winner."
+        },
+        "tie": {
+          "condition": "Only when the provider explicitly finalizes a TIE. Equal current scores or exactly meeting a margin does not authorize this branch.",
+          "title": "An Unfinished Argument",
+          "copy": "The club remained between them. Dr. Duckhook had found a way to hold it that preserved his posture; His Majesty’s Blood had found a way to wait that preserved his own. Neither would provide the movement that made the other’s position useful. The empty chair sat just inside the door, suddenly the least embarrassed presence on the veranda.",
+          "copy_status": "CONDITIONAL_PROVIDER_FINAL_TIE_DRAFT",
+          "visual": "Both characters retain distinct opposing positions from beat two; no victory gesture. Exact result typography follows the provider."
+        }
+      },
+      "sources": [
+        "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/memo-os/week-9/Week_9_Approval_Review_Full_Names.md",
+        "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/atlas/ATLAS_V1.md",
+        "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/living-novel/os/geography/world_travel_graph_v1.json",
+        "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/location-control-plane/locations/LOC-COUNTRY-CLUB-JACKSON/CARD.json"
+      ],
+      "fact_file": "facts.json",
+      "fact_id": "W10-G05"
+    },
+    {
+      "status": "DRAFT_FICTION_FOR_PREPRODUCTION_REVIEW",
+      "season": 2026,
+      "week": 10,
+      "approval_claimed": false,
+      "final_art_generated": false,
+      "source_score_state": "ALL_ESPN_WINNER_FIELDS_UNDECIDED",
+      "source_snapshot_path": "/workspace/scratch/162404e483ef/Schemin_Week_10_FLAIM_Refresh_2026-11-16.json",
+      "repository_commit": "a24656366b73d1ef8ec98cf405d2337194bd2b97",
+      "id": "W10-M06",
+      "home_team_id": 1,
+      "home_team_name": "ObiWan Jacoby",
+      "away_team_id": 4,
+      "away_team_name": "The LLC",
+      "reference_character_ids": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-DAVID-BABB"
+      ],
+      "source_fact_selector": "/games/5",
+      "source_fact_ids": [
+        "W10-G06",
+        "W10-T01",
+        "W10-T04"
+      ],
+      "current_points": {
+        "home": 130.33,
+        "away": 203.96
+      },
+      "current_leader": "The LLC",
+      "margin": 73.63,
+      "mnf_remaining": [
+        {
+          "team_id": 1,
+          "player": "Derrick Henry"
+        },
+        {
+          "team_id": 1,
+          "player": "Mark Andrews"
+        }
+      ],
+      "outright_lead_requirement": "Henry + Andrews >73.63 additional points, absent other score changes.",
+      "football_anchors": [
+        {
+          "team": 4,
+          "player": "Joe Burrow",
+          "points": 43.26,
+          "selector": "/teams/T04/scorers/3915511/2"
+        },
+        {
+          "team": 4,
+          "player": "Isaiah Likely",
+          "points": 30.7,
+          "selector": "/teams/T04/scorers/4361050/2"
+        },
+        {
+          "team": 4,
+          "player": "Parker Washington",
+          "points": 29.7,
+          "selector": "/teams/T04/scorers/4432620/2"
+        },
+        {
+          "team": 1,
+          "player": "Trevor Lawrence",
+          "points": 34.18,
+          "selector": "/teams/T01/scorers/4360310/2"
+        },
+        {
+          "team": 1,
+          "player": "Deebo Samuel Sr.",
+          "points": 30.25,
+          "selector": "/teams/T01/scorers/3126486/2"
+        }
+      ],
+      "venue": {
+        "decision_status": "HOME_DOMAIN_RESOLVED_SCENE_DRAFT",
+        "location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "name": "Trade Jedi Mountain Base war-room overlook",
+        "landmarks": [
+          "high ridge",
+          "war-room overlook opening",
+          "broad table"
+        ],
+        "set_dressing": [
+          "temporary abstract strategy board",
+          "carved pieces including two reserve pieces",
+          "LLC chair and closed briefcase"
+        ],
+        "set_dressing_status": "Proposed game props; not a new canonical game, actual trade agreement or stats chart",
+        "light": "Proposed late daylight through overlook"
+      },
+      "continuity": {
+        "week9_in": [
+          "ObiWan golf defeat and four-loss entering streak",
+          "The LLC arena loss; preserve action geography but reject wrong printedWeek9 score"
+        ],
+        "identity_locks": [
+          "ObiWan blondhuman/earthrobes/greensword/goldenretriever/NO belt",
+          "LLC human suited corporate raider with sunglasses/cigar/briefcase",
+          "Week9LLC armor is event-specific"
+        ],
+        "no_claims": [
+          "No home repossession",
+          "No new signed trade or pick rounds",
+          "No literal chess-rule/checkmate assertion",
+          "No secret third reserve piece",
+          "No belt"
+        ]
+      },
+      "concept": "The Last Two Pieces: The LLC returns to strategic pressure while ObiWan still has two answers to test.",
+      "beats": [
+        {
+          "beat": 1,
+          "title": "At His Own Table",
+          "copy": "ObiWan Jacoby had returned to the mountain because he understood the order of this room. A table could be cleared. Pieces could be arranged. A mistake could be examined before somebody else explained it to him. Across from him, The LLC set down a closed case. ObiWan found himself wishing the visitor would say something about the arena.",
+          "copy_status": "DRAFT",
+          "camera": "Over-shoulder from ObiWan toward LLC and the ridge; reciprocal shot preserves same room and board orientation.",
+          "foreground": "ObiWan shoulder, board edge and two reserve pieces.",
+          "midground": "The LLC in dark suit across table; case by chair.",
+          "background": "War-room opening and fixed ridge silhouette; green sword safely in frame.",
+          "visual_action": "Both characters enter a quiet physical strategy contest with two reserves visibly established.",
+          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
+          "prose_role": "Connect recent defeats with differing attempts to regain control, without narrating actual trade offers.",
+          "continuity_in": [
+            "ObiWan no-belt identity",
+            "LLC returns to default suit"
+          ],
+          "continuity_out": [
+            "Board lanes, two reserves, case, dog and ridge established"
+          ],
+          "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
+          "image_vs_prose": {
+            "image": "Both characters enter a quiet physical strategy contest with two reserves visibly established.",
+            "prose": "Connect recent defeats with differing attempts to regain control, without narrating actual trade offers."
+          },
+          "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
+        },
+        {
+          "beat": 2,
+          "title": "The Table Narrows",
+          "copy": "Two pieces were still enough to demand patience. ObiWan Jacoby reminded himself of that whenever his attention returned to the lane The LLC had closed. He could describe the position perfectly; he needed to change it. Across the table, the visitor waited without offering sympathy. The silence made every possible move sound larger in ObiWan’s head.",
+          "copy_status": "DRAFT",
+          "camera": "Overhead-oblique medium shot retaining hands, faces and landscape opening.",
+          "foreground": "Central blocking piece and visibly separate reserves.",
+          "midground": "ObiWan's suspended hand; LLC controlled seated posture.",
+          "background": "Same ridge through opening; retriever beside chair, green blade nearby.",
+          "visual_action": "A visible move closes a lane already established; two reserves remain unused.",
+          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
+          "prose_role": "Make remaining possibility tangible while keeping outcome unresolved; no mathematical forecast disguised as prose.",
+          "continuity_in": [
+            "Same board arrangement from beat1"
+          ],
+          "continuity_out": [
+            "Central lane blocked; two known reserves still available"
+          ],
+          "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
+          "image_vs_prose": {
+            "image": "A visible move closes a lane already established; two reserves remain unused.",
+            "prose": "Make remaining possibility tangible while keeping outcome unresolved; no mathematical forecast disguised as prose."
+          },
+          "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
+        },
+        {
+          "beat": 3,
+          "title": "The Case Closes",
+          "copy": "ObiWan Jacoby could explain every turn that had brought the table to this position. That was what made lowering his hand difficult. The LLC offered no speech to argue with, only the small click of the case closing. Beside the chair, the golden retriever looked up. ObiWan rested his hand there instead.",
+          "copy_status": "CONDITIONAL_CURRENT_LEADER_ENDING_DRAFT",
+          "camera": "Medium aftermath with table foreground and fixed ridge behind; no triumphal throne framing.",
+          "foreground": "Both previously reserved pieces now deployed and visibly contained in the final board formation; former reserve positions empty.",
+          "midground": "LLC closing case and rising; ObiWan withdrawing hand.",
+          "background": "Same ridge opening, separate retriever and green sword.",
+          "visual_action": "Show both reserve pieces already played: the first now in the central lane contained by LLC’s established blocker, the second advanced along the outer lane and contained by the pre-existing formation. The reserve positions are empty. Both pieces remain identifiable on the board as ObiWan withdraws his hand and LLC closes the case.",
+          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
+          "prose_role": "Define a loss without inventing property transfer, death or actual financial obligations.",
+          "continuity_in": [
+            "Two distinct reserve pieces established unused in beats1–2",
+            "Both have now been played and answered before the final reaction",
+            "All containing LLC pieces existed in the prior board arrangement"
+          ],
+          "continuity_out": [
+            "Both Monday-metaphor pieces accounted for as played, not unused",
+            "Final board state supports LLC’s quiet win without a new piece or ownership transfer"
+          ],
+          "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
+          "image_vs_prose": {
+            "image": "Show both reserve pieces already played: the first now in the central lane contained by LLC’s established blocker, the second advanced along the outer lane and contained by the pre-existing formation. The reserve positions are empty. Both pieces remain identifiable on the board as ObiWan withdraws his hand and LLC closes the case.",
+            "prose": "Define a loss without inventing property transfer, death or actual financial obligations."
+          },
+          "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
+        }
+      ],
+      "ending_branches": {
+        "holding": {
+          "condition": "Provider-final The LLC win",
+          "use_beat": 3,
+          "copy": "ObiWan Jacoby could explain every turn that had brought the table to this position. That was what made lowering his hand difficult. The LLC offered no speech to argue with, only the small click of the case closing. Beside the chair, the golden retriever looked up. ObiWan rested his hand there instead.",
+          "visual": "Show both reserve pieces already played: the first now in the central lane contained by LLC’s established blocker, the second advanced along the outer lane and contained by the pre-existing formation. The reserve positions are empty. Both pieces remain identifiable on the board as ObiWan withdraws his hand and LLC closes the case."
+        },
+        "reversal": {
+          "condition": "Provider-final ObiWan Jacoby win",
+          "title": "Both Pieces Move",
+          "copy": "ObiWan Jacoby had been treating the reserves as two separate reasons to keep hoping. At last, he saw what they could do together. The LLC’s hand paused on the case latch. ObiWan let himself study that small hesitation before making the second move. For once, somebody else could spend the silence searching for an answer.",
+          "visual": "Both established reserve pieces have been played: one creates the lane, the other uses it. Former reserve positions empty; no extra piece appears."
+        },
+        "unresolved": {
+          "condition": "Before Henry, Andrews and provider finality resolve",
+          "instruction": "Keep both ending drafts. If tied, use actual provider outcome rather than fictional game tiebreak.",
+          "copy": "ObiWan Jacoby left both reserve pieces where they were. Touching one would turn a possibility into a decision, and he was not ready to waste either. The LLC waited across the table with a hand near the case. Outside, the ridge was losing its light. Inside, two small pieces still gave the host something to consider.",
+          "copy_status": "USABLE_UNRESOLVED_PAYOFF_DRAFT",
+          "visual": "Return to the already established contested position before the decisive movement; do not show a winner."
+        },
+        "tie": {
+          "condition": "Only when the provider explicitly finalizes a TIE. Equal current scores or exactly meeting a margin does not authorize this branch.",
+          "title": "An Unfinished Argument",
+          "copy": "ObiWan Jacoby studied the lane neither of them could use. The LLC had stopped reaching for the case. Each could explain why the other had failed to finish the contest; neither explanation supplied a move of his own. The golden retriever shifted beside the chair, and both men looked up at the interruption with more gratitude than they intended.",
+          "copy_status": "CONDITIONAL_PROVIDER_FINAL_TIE_DRAFT",
+          "visual": "Both reserve pieces deployed into a contested final equilibrium. Former reserve positions empty; neither side gestures victory."
+        }
+      },
+      "sources": [
+        "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/memo-os/week-9/Week_9_Approval_Review_Full_Names.md",
+        "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/atlas/ATLAS_V1.md",
+        "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/living-novel/os/geography/world_travel_graph_v1.json",
+        "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/location-control-plane/locations/LOC-TRADE-JEDI-MOUNTAIN-BASE/CARD.json"
+      ],
+      "physical_action_contract": {
+        "reserve_sequence": "Two reserve pieces are visibly unused in beats one and two, corresponding to the still-pending Monday contribution. In a finalized payoff both must be visibly played. They must not remain on a reserve shelf or off-board.",
+        "llc_final_branch": "First reserve is advanced into the contested lane and contained by the established blocking piece; second reserve is also advanced and stopped by the already established outer formation. Both played pieces remain identifiable in the final board position.",
+        "obiwan_final_branch": "The first played reserve creates a lane for the second; both are visibly deployed in the successful final position.",
+        "tie_branch": "Both reserves are deployed, resulting in a visibly contested equilibrium; neither is unused.",
+        "constraint": "No new secret piece, invented actual trade, claim of legal chess checkmate, or implication that Henry/Andrews were benched. Physical board-state continuity must account for both moves."
+      },
+      "fact_file": "facts.json",
+      "fact_id": "W10-G06"
+    }
+  ],
+  "departments": [
+    {
+      "unit_id": "W10-S01",
+      "department": "cover",
+      "state": "COMPLETE_WRITTEN_PREPRODUCTION_DRAFT_NOT_FINAL_RENDER_OR_RELEASE",
+      "proposed_disposition": "KEEP_AS_PROPOSED_SUPPORT_UNIT",
+      "narrative_job": "Give the issue one present-tense, league-wide scoring story without deciding the remaining results.",
+      "draft_copy": {
+        "headline": "THE CEILING BREAKS",
+        "deck": "Week 10 • Two scores beyond 200",
+        "body": "His Majesty’s Blood reaches 208.76. The LLC reaches 203.96. For the first time this season, the Commonwealth’s scoring board needs room above two hundred.",
+        "callouts": [
+          {
+            "label": "HIS MAJESTY’S BLOOD",
+            "value": "208.76 · current"
+          },
+          {
+            "label": "THE LLC",
+            "value": "203.96 · current"
+          }
+        ],
+        "rows": []
+      },
+      "composition": {
+        "archetype": "Two-character editorial cover, one shared dramatic composition",
+        "camera": "Low three-quarter view inside the established League Chamber, with a temporary editorial scoring display and tall 9:16 upper space",
+        "foreground": "Open scoring ledger on stone; two separately typeset gold score rules extend beyond its old 200 mark",
+        "midground": "HMB and The LLC in separate readable planes, actively setting their records onto the desk; exact current identities, no new alliance or belt transfer",
+        "background": "Existing chamber architecture and rising shafts of light; the broken ceiling is an editorial scoring metaphor, not permanent structural destruction",
+        "copy_placement": "Title within clear upper quarter; two compact score callouts below shoulders; short deck at foot",
+        "art_text_ratio": "88:12",
+        "palette": "Warm gold light against black stone, burgundy edge cloth; preserve reference palette"
+      },
+      "copy_budget": {
+        "headline_max_words": 9,
+        "body_actual_words": 24,
+        "body_max_words": 110,
+        "callout_count": 2,
+        "table_rows": 0,
+        "mobile_width_px": 390,
+        "type_rule": "Do not shrink text to force fit. Shorten copy or consolidate departments before art."
+      },
+      "source_ids": [
+        "SCORE",
+        "HISTORY",
+        "CANON"
+      ],
+      "specific_text_waiting_for_mnf_or_other_input": [
+        "208.76 and 203.96 require final stat-correction check",
+        "First 200-plus season claim must be rechecked against final Week 10 totals"
+      ],
+      "shared_render_holds": [
+        "Actual referenced image inputs and final raster inspection where characters appear",
+        "Exact deterministic typography for all names/numbers",
+        "Actual 1080x1920 geometry and 390px reading proof",
+        "Jake visual judgment for finished page"
+      ],
+      "cast_character_ids": [
+        "CHAR-AUSTIN-BYARS",
+        "CHAR-DAVID-BABB"
+      ],
+      "result_policy": "Snapshot values are labeled provisional. No FINAL label, official post-Week-10 seed, clinch or injury diagnosis is authorized.",
+      "fact_selectors": [
+        "/history_200",
+        "/teams/T08/current_points",
+        "/teams/T04/current_points"
+      ],
+      "forbidden": [
+        "FINAL winner labels",
+        "All-time record claim",
+        "Crown on HMB",
+        "Belt moved to another owner",
+        "Actual roof-collapse canon"
+      ],
+      "fact_file": "facts.json",
+      "draft_copy_template": {
+        "headline": "THE CEILING BREAKS",
+        "deck": "Week 10 • Two scores beyond 200",
+        "body": "His Majesty’s Blood reaches {{facts:/teams/T08/current_points|2dp}}. The LLC reaches {{facts:/teams/T04/current_points|2dp}}. For the first time this season, the Commonwealth’s scoring board needs room above two hundred.",
+        "callouts": [
+          {
+            "label": "HIS MAJESTY’S BLOOD",
+            "value": "{{facts:/teams/T08/current_points|2dp}} · current"
+          },
+          {
+            "label": "THE LLC",
+            "value": "{{facts:/teams/T04/current_points|2dp}} · current"
+          }
+        ],
+        "rows": []
+      }
+    },
+    {
+      "unit_id": "W10-S02",
+      "department": "opening_drive",
+      "state": "COMPLETE_WRITTEN_PREPRODUCTION_DRAFT_NOT_FINAL_RENDER_OR_RELEASE",
+      "proposed_disposition": "KEEP_AS_PROPOSED_SUPPORT_UNIT",
+      "narrative_job": "Introduce the whole issue through verified scoring causes, then frame the unresolved standings consequence.",
+      "draft_copy": {
+        "headline": "ROOM ABOVE TWO HUNDRED",
+        "deck": "The scoring ceiling breaks. The standings still wait.",
+        "body": "For nine weeks, two hundred stayed beyond the board. Week 10 has put His Majesty’s Blood at 208.76 and The LLC at 203.96—the first observed 200-point performances of this season. Their routes could hardly be more different: one is confronting the league leader; the other is trying to pull ObiWan Jacoby into the same record. Elsewhere, McCaffrey has supplied Slob with 52.60, El Niño has reached a personal season high, and D0nkey has pushed the proposed Game of the Week sharply away from Chili. Monday still has four starting names to settle. If every current lead holds, six teams will emerge at 6–4. The ceiling has moved. The table has not yet caught up.",
+        "callouts": [
+          {
+            "label": "PROPOSED GAME OF THE WEEK",
+            "value": "The Chili Cheesers vs D0nkey K0ng"
+          },
+          {
+            "label": "MONDAY’S FOUR",
+            "value": "Derrick Henry · Mark Andrews · Zay Flowers · Ravens D/ST"
+          }
+        ],
+        "rows": []
+      },
+      "composition": {
+        "archetype": "Editorial opening spread compressed into one portrait, no rigid two-column report block",
+        "camera": "Eye-level across a long physical scoring table, diagonal depth from near left to far right",
+        "foreground": "Two oversized score receipts and a clipped Monday fixture card",
+        "midground": "A long ribbon of four distinct scoring fragments: McCaffrey, El Niño, D0nkey, the two 200-plus teams; deterministic lettering on physical papers",
+        "background": "Window into existing basin light, quiet surfaces for prose; no twelve tiny character cameos",
+        "copy_placement": "Three short prose blocks across quiet stone and cloth, with one dominant opening sentence",
+        "art_text_ratio": "62:38",
+        "palette": "Black ink, parchment cream, burgundy cloth and restrained gold"
+      },
+      "copy_budget": {
+        "headline_max_words": 9,
+        "body_actual_words": 114,
+        "body_max_words": 124,
+        "callout_count": 2,
+        "table_rows": 0,
+        "mobile_width_px": 390,
+        "type_rule": "Do not shrink text to force fit. Shorten copy or consolidate departments before art."
+      },
+      "source_ids": [
+        "SCORE",
+        "HISTORY",
+        "MNF"
+      ],
+      "specific_text_waiting_for_mnf_or_other_input": [
+        "Six-team 6–4 sentence remains conditional until all six outcomes finalize",
+        "All score and superlative figures require final check"
+      ],
+      "shared_render_holds": [
+        "Actual referenced image inputs and final raster inspection where characters appear",
+        "Exact deterministic typography for all names/numbers",
+        "Actual 1080x1920 geometry and 390px reading proof",
+        "Jake visual judgment for finished page"
+      ],
+      "cast_character_ids": [],
+      "result_policy": "Snapshot values are labeled provisional. No FINAL label, official post-Week-10 seed, clinch or injury diagnosis is authorized.",
+      "conditional_final_copy": {
+        "status": "UNSELECTED_DRAFT_ONLY",
+        "condition": "All six current leads hold and provider-final scores/records are verified",
+        "body": "His Majesty’s Blood and The LLC crossed 200, and six teams finished the week at 6–4. The scoring landmarks brought no comfortable distance from the rest of the league. Four regular-season games per team remain, with division rivals waiting at the end of the road."
+      },
+      "fact_file": "facts.json",
+      "fact_selectors": [
+        "/history_200",
+        "/conditional_records",
+        "/mnf",
+        "/teams/T03/scorers/3117251/2"
+      ],
+      "draft_copy_template": {
+        "headline": "ROOM ABOVE TWO HUNDRED",
+        "deck": "The scoring ceiling breaks. The standings still wait.",
+        "body": "For nine weeks, two hundred stayed beyond the board. Week 10 has put His Majesty’s Blood at {{facts:/teams/T08/current_points|2dp}} and The LLC at {{facts:/teams/T04/current_points|2dp}}—the first observed 200-point performances of this season. Their routes could hardly be more different: one is confronting the league leader; the other is trying to pull ObiWan Jacoby into the same record. Elsewhere, McCaffrey has supplied Slob with {{facts:/teams/T03/scorers/3117251/2|2dp}}, El Niño has reached a personal season high, and D0nkey has pushed the proposed Game of the Week sharply away from Chili. Monday still has four starting names to settle. If every current lead holds, six teams will emerge at 6–4. The ceiling has moved. The table has not yet caught up.",
+        "callouts": [
+          {
+            "label": "PROPOSED GAME OF THE WEEK",
+            "value": "The Chili Cheesers vs D0nkey K0ng"
+          },
+          {
+            "label": "MONDAY’S FOUR",
+            "value": "Derrick Henry · Mark Andrews · Zay Flowers · Ravens D/ST"
+          }
+        ],
+        "rows": []
+      }
+    },
+    {
+      "unit_id": "W10-S03",
+      "department": "commissioner_note",
+      "state": "COMPLETE_WRITTEN_PREPRODUCTION_DRAFT_NOT_FINAL_RENDER_OR_RELEASE",
+      "proposed_disposition": "KEEP_AS_PROPOSED_SUPPORT_UNIT",
+      "narrative_job": "Provide a distinct human league voice without manufacturing a signed statement or repeating the opener.",
+      "draft_copy": {
+        "headline": "KEEP THE WHOLE LEAGUE IN VIEW",
+        "deck": "Commissioner’s Note",
+        "body": "Keep playing your own matchup. Keep watching the others. This is the part of the season when a result across the league can change the meaning of your own. The big scores deserve their space this week, but so do the managers still finding a route through a difficult run. There are seven playoff places to chase and plenty left to settle. Bring the arguments, bring the jokes, and keep the competition sharp. The league is better when all twelve teams stay in the story.",
+        "callouts": [],
+        "rows": []
+      },
+      "composition": {
+        "archetype": "Unsigned editorial letter in the Commissioner’s workspace",
+        "camera": "Close three-quarter view of the established league desk, no portrait required",
+        "foreground": "Unsealed stationery and pen; no simulated signature",
+        "midground": "One carefully typeset letter under warm task light, two league keepsakes from approved existing props only",
+        "background": "Soft-focus chamber wall with space for the department title",
+        "copy_placement": "One broad editorial column on a quiet paper plane; generous line spacing",
+        "art_text_ratio": "45:55",
+        "palette": "Cream letter, black ink, burgundy seal left unpressed"
+      },
+      "copy_budget": {
+        "headline_max_words": 9,
+        "body_actual_words": 85,
+        "body_max_words": 110,
+        "callout_count": 0,
+        "table_rows": 0,
+        "mobile_width_px": 390,
+        "type_rule": "Do not shrink text to force fit. Shorten copy or consolidate departments before art."
+      },
+      "source_ids": [
+        "RULES"
+      ],
+      "specific_text_waiting_for_mnf_or_other_input": [
+        "Entire first-person/Commissioner voice requires Jake’s wording approval before attribution; do not publish as an actual quote"
+      ],
+      "shared_render_holds": [
+        "Actual referenced image inputs and final raster inspection where characters appear",
+        "Exact deterministic typography for all names/numbers",
+        "Actual 1080x1920 geometry and 390px reading proof",
+        "Jake visual judgment for finished page"
+      ],
+      "cast_character_ids": [],
+      "result_policy": "Snapshot values are labeled provisional. No FINAL label, official post-Week-10 seed, clinch or injury diagnosis is authorized.",
+      "approval_status": "DRAFT_FOR_JAKE_APPROVAL_NOT_AN_AUTHENTICATED_STATEMENT",
+      "signature": null,
+      "quoted_speaker": null,
+      "can_merge_with": "Opening Drive as an unsigned editorial paragraph only if Jake does not adopt the note",
+      "fact_file": "facts.json",
+      "fact_selectors": [
+        "/rules"
+      ],
+      "draft_copy_template": {
+        "headline": "KEEP THE WHOLE LEAGUE IN VIEW",
+        "deck": "Commissioner’s Note",
+        "body": "Keep playing your own matchup. Keep watching the others. This is the part of the season when a result across the league can change the meaning of your own. The big scores deserve their space this week, but so do the managers still finding a route through a difficult run. There are seven playoff places to chase and plenty left to settle. Bring the arguments, bring the jokes, and keep the competition sharp. The league is better when all twelve teams stay in the story.",
+        "callouts": [],
+        "rows": []
+      }
+    },
+    {
+      "unit_id": "W10-S04",
+      "department": "scoreboard",
+      "state": "COMPLETE_WRITTEN_PREPRODUCTION_DRAFT_NOT_FINAL_RENDER_OR_RELEASE",
+      "proposed_disposition": "KEEP_AS_PROPOSED_SUPPORT_UNIT",
+      "narrative_job": "Give readers the exact six-game orientation point and prevent final labels leaking into unfinished games.",
+      "draft_copy": {
+        "headline": "THE WEEK 10 BOARD",
+        "deck": "Monday morning capture • All six results await ESPN finality",
+        "body": "Six matchups, twelve totals, one unfinished week. Henry and Andrews remain for ObiWan; Flowers remains for Red; Ravens D/ST remains for Three Dreaded Snake. The other three pairings have no scheduled starting scorers left. Every score below is provisional.",
+        "callouts": [],
+        "rows": [
+          {
+            "home_team": "The Chili Cheesers",
+            "home_points": "93.70",
+            "away_team": "D0nkey K0ng",
+            "away_points": "156.67",
+            "status": "PROVISIONAL"
+          },
+          {
+            "home_team": "Red Leopards",
+            "home_points": "136.42",
+            "away_team": "El Niño",
+            "away_points": "189.08",
+            "status": "PROVISIONAL"
+          },
+          {
+            "home_team": "Three Dreaded Snake",
+            "home_points": "75.78",
+            "away_team": "Seven Deadly Chins",
+            "away_points": "146.22",
+            "status": "PROVISIONAL"
+          },
+          {
+            "home_team": "Mud Dogs",
+            "home_points": "113.62",
+            "away_team": "Slob on my Dobb",
+            "away_points": "179.29",
+            "status": "PROVISIONAL"
+          },
+          {
+            "home_team": "Dr. Duckhook",
+            "home_points": "127.67",
+            "away_team": "His Majesty's Blood",
+            "away_points": "208.76",
+            "status": "PROVISIONAL"
+          },
+          {
+            "home_team": "ObiWan Jacoby",
+            "home_points": "130.33",
+            "away_team": "The LLC",
+            "away_points": "203.96",
+            "status": "PROVISIONAL"
+          }
+        ]
+      },
+      "composition": {
+        "archetype": "Full-height physical scoreboard framed by the existing league hall",
+        "camera": "Near-frontal, slight low angle for scale; data plane kept flat for readability",
+        "foreground": "One small Monday scoring slate and visible chalk dust",
+        "midground": "Six broad match bands, equal height, both full team names and score strings deterministic",
+        "background": "Black stone recess and thin gilt frame; no ornamental props behind numbers",
+        "copy_placement": "Title upper 12%; six match rows central 72%; brief status footnote below",
+        "art_text_ratio": "30:70",
+        "palette": "Black board, ivory names, gold score accents, burgundy rules"
+      },
+      "copy_budget": {
+        "headline_max_words": 9,
+        "body_actual_words": 39,
+        "body_max_words": 110,
+        "callout_count": 0,
+        "table_rows": 6,
+        "mobile_width_px": 390,
+        "type_rule": "Do not shrink text to force fit. Shorten copy or consolidate departments before art."
+      },
+      "source_ids": [
+        "SCORE",
+        "MNF"
+      ],
+      "specific_text_waiting_for_mnf_or_other_input": [
+        "Every currentPoints field and all six UNDECIDED states",
+        "Replace the provisional heading only when all six provider winner states are final"
+      ],
+      "shared_render_holds": [
+        "Actual referenced image inputs and final raster inspection where characters appear",
+        "Exact deterministic typography for all names/numbers",
+        "Actual 1080x1920 geometry and 390px reading proof",
+        "Jake visual judgment for finished page"
+      ],
+      "cast_character_ids": [],
+      "result_policy": "Snapshot values are labeled provisional. No FINAL label, official post-Week-10 seed, clinch or injury diagnosis is authorized.",
+      "fact_selectors": [
+        "/games",
+        "/mnf"
+      ],
+      "critical_qa": "Check every repeated result on every matchup finale against these same source fields; Week 9 had a correct scoreboard and an incorrect separate finale.",
+      "fact_file": "facts.json",
+      "draft_copy_template": {
+        "headline": "THE WEEK 10 BOARD",
+        "deck": "Monday morning capture • All six results await ESPN finality",
+        "body": "Six matchups, twelve totals, one unfinished week. Henry and Andrews remain for ObiWan; Flowers remains for Red; Ravens D/ST remains for Three Dreaded Snake. The other three pairings have no scheduled starting scorers left. Every score below is provisional.",
+        "callouts": [],
+        "rows": [
+          {
+            "home_team": "The Chili Cheesers",
+            "home_points": "{{facts:/teams/T07/current_points|2dp}}",
+            "away_team": "D0nkey K0ng",
+            "away_points": "{{facts:/teams/T05/current_points|2dp}}",
+            "status": "PROVISIONAL"
+          },
+          {
+            "home_team": "Red Leopards",
+            "home_points": "{{facts:/teams/T02/current_points|2dp}}",
+            "away_team": "El Niño",
+            "away_points": "{{facts:/teams/T09/current_points|2dp}}",
+            "status": "PROVISIONAL"
+          },
+          {
+            "home_team": "Three Dreaded Snake",
+            "home_points": "{{facts:/teams/T06/current_points|2dp}}",
+            "away_team": "Seven Deadly Chins",
+            "away_points": "{{facts:/teams/T11/current_points|2dp}}",
+            "status": "PROVISIONAL"
+          },
+          {
+            "home_team": "Mud Dogs",
+            "home_points": "{{facts:/teams/T10/current_points|2dp}}",
+            "away_team": "Slob on my Dobb",
+            "away_points": "{{facts:/teams/T03/current_points|2dp}}",
+            "status": "PROVISIONAL"
+          },
+          {
+            "home_team": "Dr. Duckhook",
+            "home_points": "{{facts:/teams/T12/current_points|2dp}}",
+            "away_team": "His Majesty's Blood",
+            "away_points": "{{facts:/teams/T08/current_points|2dp}}",
+            "status": "PROVISIONAL"
+          },
+          {
+            "home_team": "ObiWan Jacoby",
+            "home_points": "{{facts:/teams/T01/current_points|2dp}}",
+            "away_team": "The LLC",
+            "away_points": "{{facts:/teams/T04/current_points|2dp}}",
+            "status": "PROVISIONAL"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "W10-S05",
+      "department": "world_landscape",
+      "state": "COMPLETE_WRITTEN_PREPRODUCTION_DRAFT_NOT_FINAL_RENDER_OR_RELEASE",
+      "proposed_disposition": "KEEP_ONLY_IF_IT_ADDS_A_REAL_BREATHING_POINT; otherwise absorb its visual job into a chapter transition",
+      "narrative_job": "Give the issue visual breathing room and reconnect separate stories to a persistent world without becoming another map or standings page.",
+      "draft_copy": {
+        "headline": "THE ROADS BETWEEN",
+        "deck": "The Commonwealth • Week 10",
+        "body": "The roads do not shorten because the stakes rise. From the highlands and mountain approaches to the wetlands, ruins and western range, another week asks the same twelve figures to leave the safety of home. What happens on the field will travel back with them.",
+        "callouts": [],
+        "rows": []
+      },
+      "composition": {
+        "archetype": "Full landscape illustration within portrait page; quiet geographical interstitial",
+        "camera": "Wide landscape from an Atlas-approved viewpoint near the registered Mountain Lake Bridge; actual sight lines must be resolved before render",
+        "foreground": "Existing weathered bridge or path surface with scale and material detail",
+        "midground": "The registered basin route and water crossing; preserve topology and avoid inventing travel distances",
+        "background": "Only terrain and landmarks visible from the approved viewpoint; never compress all twelve home sites into one false horizon",
+        "copy_placement": "Small heading in open sky; single short paragraph on a calm lower edge; no map labels or legend",
+        "art_text_ratio": "93:7",
+        "palette": "Scene-led natural light with subtle black/gold magazine framing"
+      },
+      "copy_budget": {
+        "headline_max_words": 9,
+        "body_actual_words": 45,
+        "body_max_words": 110,
+        "callout_count": 0,
+        "table_rows": 0,
+        "mobile_width_px": 390,
+        "type_rule": "Do not shrink text to force fit. Shorten copy or consolidate departments before art."
+      },
+      "source_ids": [
+        "CANON"
+      ],
+      "specific_text_waiting_for_mnf_or_other_input": [
+        "No result-dependent copy; only Atlas viewpoint and actual composition acceptance remain"
+      ],
+      "shared_render_holds": [
+        "Actual referenced image inputs and final raster inspection where characters appear",
+        "Exact deterministic typography for all names/numbers",
+        "Actual 1080x1920 geometry and 390px reading proof",
+        "Jake visual judgment for finished page"
+      ],
+      "cast_character_ids": [],
+      "result_policy": "Snapshot values are labeled provisional. No FINAL label, official post-Week-10 seed, clinch or injury diagnosis is authorized.",
+      "world_status": "EDITORIAL_VIEW_PROPOSAL_WITHIN_EXISTING_ATLAS_NOT_NEW_GEOGRAPHY",
+      "no_labels": true,
+      "fact_file": "facts.json",
+      "fact_selectors": [],
+      "draft_copy_template": {
+        "headline": "THE ROADS BETWEEN",
+        "deck": "The Commonwealth • Week 10",
+        "body": "The roads do not shorten because the stakes rise. From the highlands and mountain approaches to the wetlands, ruins and western range, another week asks the same twelve figures to leave the safety of home. What happens on the field will travel back with them.",
+        "callouts": [],
+        "rows": []
+      }
+    },
+    {
+      "unit_id": "W10-S06",
+      "department": "sports_desk",
+      "state": "COMPLETE_WRITTEN_PREPRODUCTION_DRAFT_NOT_FINAL_RENDER_OR_RELEASE",
+      "proposed_disposition": "KEEP_AS_PROPOSED_SUPPORT_UNIT",
+      "narrative_job": "Explain causal fantasy performance across the league; separate used starter production from unused bench points.",
+      "draft_copy": {
+        "headline": "WHY THE BOARD MOVED",
+        "deck": "The points behind the spectacle",
+        "body": "McCaffrey’s 52.60 gives Slob the largest starting contribution in the current snapshot. HMB’s Purdy–Hubbard–Smith-Njigba trio supplies 113.86; LLC’s Burrow–Likely–Washington trio adds 103.66. Those are the engines behind the two scores above 200. Across the course, Gibbs has answered with 47.40 for Duckhook, but one enormous performance has not matched HMB’s breadth. El Niño’s 189.08 also arrives with Pickens’ 44.50 still on the bench.",
+        "callouts": [],
+        "rows": [
+          {
+            "category": "RB / current overall starter lead",
+            "player": "Christian McCaffrey",
+            "team": "Slob on my Dobb",
+            "points": "52.60"
+          },
+          {
+            "category": "QB",
+            "player": "Patrick Mahomes",
+            "team": "Seven Deadly Chins",
+            "points": "48.62"
+          },
+          {
+            "category": "WR",
+            "player": "Ja’Marr Chase",
+            "team": "Red Leopards",
+            "points": "36.10"
+          },
+          {
+            "category": "TE",
+            "player": "Isaiah Likely",
+            "team": "The LLC",
+            "points": "30.70"
+          },
+          {
+            "category": "D/ST",
+            "player": "Vikings D/ST",
+            "team": "His Majesty’s Blood",
+            "points": "26.00"
+          },
+          {
+            "category": "K",
+            "player": "Cam Little",
+            "team": "His Majesty’s Blood",
+            "points": "19.00"
+          }
+        ]
+      },
+      "composition": {
+        "archetype": "An inhabited sports editor’s table with one main feature and six compact receipt strips",
+        "camera": "High oblique desk view; numerical strips kept front-facing enough for clear overlay",
+        "foreground": "McCaffrey’s large lead receipt, physically overlapping smaller source sheets",
+        "midground": "Two three-name scoring receipts for HMB and LLC, plus six positional leader lines",
+        "background": "A quiet press wall with one restrained supporting illustration; no invented NFL game action",
+        "copy_placement": "Hero statistic upper third, short analysis beside it, six clean lower receipt lines",
+        "art_text_ratio": "50:50",
+        "palette": "Ivory report sheets, charcoal desktop, burgundy pencil marks, gold hero statistic"
+      },
+      "copy_budget": {
+        "headline_max_words": 9,
+        "body_actual_words": 63,
+        "body_max_words": 110,
+        "callout_count": 3,
+        "table_rows": 6,
+        "mobile_width_px": 390,
+        "type_rule": "Do not shrink text to force fit. Shorten copy or consolidate departments before art."
+      },
+      "source_ids": [
+        "SCORE",
+        "HISTORY"
+      ],
+      "specific_text_waiting_for_mnf_or_other_input": [
+        "Current overall/positional leader labels require final full-player recheck",
+        "All component totals and 200-plus context require correction check"
+      ],
+      "shared_render_holds": [
+        "Actual referenced image inputs and final raster inspection where characters appear",
+        "Exact deterministic typography for all names/numbers",
+        "Actual 1080x1920 geometry and 390px reading proof",
+        "Jake visual judgment for finished page"
+      ],
+      "cast_character_ids": [],
+      "result_policy": "Snapshot values are labeled provisional. No FINAL label, official post-Week-10 seed, clinch or injury diagnosis is authorized.",
+      "fact_selectors": [
+        "/derived/starting_position_leaders",
+        "/derived/trios",
+        "/bench_observations"
+      ],
+      "forbidden": [
+        "Guaranteed final award",
+        "Bench points added to actual matchup score",
+        "Claim that hindsight proves a lineup choice irrational"
+      ],
+      "fact_file": "facts.json",
+      "draft_copy_template": {
+        "headline": "WHY THE BOARD MOVED",
+        "deck": "The points behind the spectacle",
+        "body": "McCaffrey’s {{facts:/teams/T03/scorers/3117251/2|2dp}} gives Slob the largest starting contribution in the current snapshot. HMB’s Purdy–Hubbard–Smith-Njigba trio supplies {{facts:/derived/trios/HMB/points|2dp}}; LLC’s Burrow–Likely–Washington trio adds {{facts:/derived/trios/LLC/points|2dp}}. Those are the engines behind the two scores above 200. Across the course, Gibbs has answered with {{facts:/teams/T12/scorers/4429795/2|2dp}} for Duckhook, but one enormous performance has not matched HMB’s breadth. El Niño’s {{facts:/teams/T09/current_points|2dp}} also arrives with Pickens’ {{facts:/bench_observations/George_Pickens/points|2dp}} still on the bench.",
+        "callouts": [],
+        "rows": [
+          {
+            "category": "RB / current overall starter lead",
+            "player": "Christian McCaffrey",
+            "team": "Slob on my Dobb",
+            "points": "{{facts:/teams/T03/scorers/3117251/2|2dp}}"
+          },
+          {
+            "category": "QB",
+            "player": "Patrick Mahomes",
+            "team": "Seven Deadly Chins",
+            "points": "{{facts:/teams/T11/scorers/3139477/2|2dp}}"
+          },
+          {
+            "category": "WR",
+            "player": "Ja’Marr Chase",
+            "team": "Red Leopards",
+            "points": "{{facts:/teams/T02/scorers/4362628/2|2dp}}"
+          },
+          {
+            "category": "TE",
+            "player": "Isaiah Likely",
+            "team": "The LLC",
+            "points": "{{facts:/teams/T04/scorers/4361050/2|2dp}}"
+          },
+          {
+            "category": "D/ST",
+            "player": "Vikings D/ST",
+            "team": "His Majesty’s Blood",
+            "points": "{{facts:/teams/T08/scorers/-16016/2|2dp}}"
+          },
+          {
+            "category": "K",
+            "player": "Cam Little",
+            "team": "His Majesty’s Blood",
+            "points": "{{facts:/teams/T08/scorers/4686361/2|2dp}}"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "W10-S07",
+      "department": "reserve_watch",
+      "state": "COMPLETE_WRITTEN_PREPRODUCTION_DRAFT_NOT_FINAL_RENDER_OR_RELEASE",
+      "proposed_disposition": "PREFER_MERGE_WITH_MOVES; a standalone page requires enough verified availability news to justify it",
+      "narrative_job": "Keep fantasy roster availability distinct from medical reporting and identify reserves that do not enter Monday scoring.",
+      "draft_copy": {
+        "headline": "THE NAMES OFF THE STARTING SHEET",
+        "deck": "Fantasy reserve ledger • Captured November 16",
+        "body": "Twenty fantasy IR slots are occupied across eleven teams. This week’s ledger highlights ObiWan Jacoby, Red Leopards and Three Dreaded Snake. For tonight’s fantasy matchup, Lamar Jackson’s IR placement adds no scorer to Red’s total; Zay Flowers is the selected starter.",
+        "callouts": [],
+        "rows": [
+          {
+            "team": "ObiWan Jacoby",
+            "fantasy_IR_slots_used": 2,
+            "players": [
+              "Puka Nacua",
+              "Jacory Croskey-Merritt"
+            ]
+          },
+          {
+            "team": "Red Leopards",
+            "fantasy_IR_slots_used": 2,
+            "players": [
+              "DeVonta Smith",
+              "Lamar Jackson"
+            ]
+          },
+          {
+            "team": "Three Dreaded Snake",
+            "fantasy_IR_slots_used": 2,
+            "players": [
+              "T.J. Hockenson",
+              "Tyreek Hill"
+            ]
+          }
+        ]
+      },
+      "composition": {
+        "archetype": "Roster folios on an equipment-room bench, designed as a compact sidebar",
+        "camera": "Close eye-level along a bench and hooks; no hospital or injured-player imagery",
+        "foreground": "A reserve folio with the two relevant Monday roster distinctions",
+        "midground": "Small exact-name lists for selected teams; full 12-team ledger retained in production data",
+        "background": "Neutral equipment shelves inside an existing approved venue",
+        "copy_placement": "Short body and two or three selected rows; do not force all 20 names onto a standalone crowded page",
+        "art_text_ratio": "55:45",
+        "palette": "Aged leather, ivory tags, burgundy cloth; no medical-red symbolism"
+      },
+      "copy_budget": {
+        "headline_max_words": 9,
+        "body_actual_words": 41,
+        "body_max_words": 110,
+        "callout_count": 0,
+        "table_rows": 3,
+        "mobile_width_px": 390,
+        "type_rule": "Do not shrink text to force fit. Shorten copy or consolidate departments before art."
+      },
+      "source_ids": [
+        "ROSTERS",
+        "MNF"
+      ],
+      "specific_text_waiting_for_mnf_or_other_input": [
+        "Refresh fantasy slots before publication",
+        "Any injury explanation or return date requires separate current reporting"
+      ],
+      "shared_render_holds": [
+        "Actual referenced image inputs and final raster inspection where characters appear",
+        "Exact deterministic typography for all names/numbers",
+        "Actual 1080x1920 geometry and 390px reading proof",
+        "Jake visual judgment for finished page"
+      ],
+      "cast_character_ids": [],
+      "result_policy": "Snapshot values are labeled provisional. No FINAL label, official post-Week-10 seed, clinch or injury diagnosis is authorized.",
+      "printed_rows_recommendation": [
+        "ObiWan Jacoby",
+        "Red Leopards",
+        "Three Dreaded Snake"
+      ],
+      "full_rows_are_backstage_reference": true,
+      "editorial_decision": "Retained as a concise three-team IR ledger; the full12-team ledger remains backstage in the facts. May merge into Moves after composition review. This reports fantasy placement, not medical news.",
+      "backstage_reference_rows": [
+        {
+          "team": "ObiWan Jacoby",
+          "fantasy_IR_slots_used": 2,
+          "players": [
+            "Puka Nacua",
+            "Jacory Croskey-Merritt"
+          ]
+        },
+        {
+          "team": "Red Leopards",
+          "fantasy_IR_slots_used": 2,
+          "players": [
+            "DeVonta Smith",
+            "Lamar Jackson"
+          ]
+        },
+        {
+          "team": "Slob on my Dobb",
+          "fantasy_IR_slots_used": 2,
+          "players": [
+            "TreVeyon Henderson",
+            "Josh Jacobs"
+          ]
+        },
+        {
+          "team": "The LLC",
+          "fantasy_IR_slots_used": 2,
+          "players": [
+            "Jonathon Brooks",
+            "Michael Wilson"
+          ]
+        },
+        {
+          "team": "D0nkey K0ng",
+          "fantasy_IR_slots_used": 2,
+          "players": [
+            "Davante Adams",
+            "Alec Pierce"
+          ]
+        },
+        {
+          "team": "Three Dreaded Snake",
+          "fantasy_IR_slots_used": 2,
+          "players": [
+            "T.J. Hockenson",
+            "Tyreek Hill"
+          ]
+        },
+        {
+          "team": "The Chili Cheesers",
+          "fantasy_IR_slots_used": 1,
+          "players": [
+            "RJ Harvey"
+          ]
+        },
+        {
+          "team": "His Majesty's Blood",
+          "fantasy_IR_slots_used": 2,
+          "players": [
+            "Carnell Tate",
+            "Terrance Ferguson"
+          ]
+        },
+        {
+          "team": "El Niño",
+          "fantasy_IR_slots_used": 1,
+          "players": [
+            "Jalen Hurts"
+          ]
+        },
+        {
+          "team": "Mud Dogs",
+          "fantasy_IR_slots_used": 0,
+          "players": []
+        },
+        {
+          "team": "Seven Deadly Chins",
+          "fantasy_IR_slots_used": 2,
+          "players": [
+            "Jeremiyah Love",
+            "De'Zhaun Stribling"
+          ]
+        },
+        {
+          "team": "Dr. Duckhook",
+          "fantasy_IR_slots_used": 2,
+          "players": [
+            "Jordan Addison",
+            "Dameon Pierce"
+          ]
+        }
+      ],
+      "fact_file": "facts.json",
+      "fact_selectors": [
+        "/derived/reserve_occupancy",
+        "/teams/T01/reserve_slots/IR",
+        "/teams/T02/reserve_slots/IR",
+        "/teams/T03/reserve_slots/IR",
+        "/teams/T04/reserve_slots/IR",
+        "/teams/T05/reserve_slots/IR",
+        "/teams/T06/reserve_slots/IR",
+        "/teams/T07/reserve_slots/IR",
+        "/teams/T08/reserve_slots/IR",
+        "/teams/T09/reserve_slots/IR",
+        "/teams/T10/reserve_slots/IR",
+        "/teams/T11/reserve_slots/IR",
+        "/teams/T12/reserve_slots/IR"
+      ],
+      "draft_copy_template": {
+        "headline": "THE NAMES OFF THE STARTING SHEET",
+        "deck": "Fantasy reserve ledger • Captured November 16",
+        "body": "Twenty fantasy IR slots are occupied across eleven teams. This week’s ledger highlights ObiWan Jacoby, Red Leopards and Three Dreaded Snake. For tonight’s fantasy matchup, Lamar Jackson’s IR placement adds no scorer to Red’s total; Zay Flowers is the selected starter.",
+        "callouts": [],
+        "rows": [
+          {
+            "team": "ObiWan Jacoby",
+            "fantasy_IR_slots_used": 2,
+            "players": [
+              "Puka Nacua",
+              "Jacory Croskey-Merritt"
+            ]
+          },
+          {
+            "team": "Red Leopards",
+            "fantasy_IR_slots_used": 2,
+            "players": [
+              "DeVonta Smith",
+              "Lamar Jackson"
+            ]
+          },
+          {
+            "team": "Three Dreaded Snake",
+            "fantasy_IR_slots_used": 2,
+            "players": [
+              "T.J. Hockenson",
+              "Tyreek Hill"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "W10-S08",
+      "department": "moves",
+      "state": "COMPLETE_WRITTEN_PREPRODUCTION_DRAFT_NOT_FINAL_RENDER_OR_RELEASE",
+      "proposed_disposition": "KEEP_AS_PROPOSED_SUPPORT_UNIT",
+      "narrative_job": "Turn real transaction history into specific league stories without inventing trade motives or reprinting every activity row.",
+      "draft_copy": {
+        "headline": "MOVES THAT REACHED THE ROSTER",
+        "deck": "Completed Week 10 activity • All bids shown are FAAB",
+        "body": "The Week 10 feed contains 29 completed transaction entries. Four trails connect those moves with this week’s lineups and Monday’s last scoring.",
+        "callouts": [
+          {
+            "heading": "A two-day Mason trail",
+            "body": "Duckhook’s $35 FAAB claim for Corey Kiner released Jordan Mason on November 11. Slob added Mason the next day, dropping Chris Brooks."
+          },
+          {
+            "heading": "A familiar name changes shelves",
+            "body": "Chins dropped Brian Thomas Jr. on November 10; Duckhook added him November 15."
+          },
+          {
+            "heading": "ObiWan works the receiver file",
+            "body": "ObiWan completed claims for Mack Hollins ($27 FAAB), Malachi Fields ($11 FAAB) and Kalif Raymond ($1 FAAB)."
+          },
+          {
+            "heading": "The defense that still matters tonight",
+            "body": "Three Dreaded Snake added Ravens D/ST for Bengals D/ST on November 11. Baltimore’s defense remains its last selected scorer."
+          }
+        ],
+        "rows": []
+      },
+      "composition": {
+        "archetype": "Transaction counter with four sequential paper trails",
+        "camera": "Three-quarter close view across a long counter; alternating receipt sizes create rhythm",
+        "foreground": "Two-day Mason receipt chain linked by a visible dated tag",
+        "midground": "Thomas, ObiWan receiver and Ravens defense receipts in distinct physical pockets",
+        "background": "Existing archive shelves, no new staff character or fabricated manager quotes",
+        "copy_placement": "Four compact editorial blocks, dates and bids clearly isolated for deterministic typesetting",
+        "art_text_ratio": "50:50",
+        "palette": "Black counter, cream receipts, red wax accents, subtle gold dividers"
+      },
+      "copy_budget": {
+        "headline_max_words": 9,
+        "body_actual_words": 22,
+        "body_max_words": 110,
+        "callout_count": 4,
+        "table_rows": 0,
+        "mobile_width_px": 390,
+        "type_rule": "Do not shrink text to force fit. Shorten copy or consolidate departments before art."
+      },
+      "source_ids": [
+        "TRANSACTIONS",
+        "MNF"
+      ],
+      "specific_text_waiting_for_mnf_or_other_input": [
+        "Reconcile late completed events and provider corrections before final ledger freeze"
+      ],
+      "shared_render_holds": [
+        "Actual referenced image inputs and final raster inspection where characters appear",
+        "Exact deterministic typography for all names/numbers",
+        "Actual 1080x1920 geometry and 390px reading proof",
+        "Jake visual judgment for finished page"
+      ],
+      "cast_character_ids": [],
+      "result_policy": "Snapshot values are labeled provisional. No FINAL label, official post-Week-10 seed, clinch or injury diagnosis is authorized.",
+      "event_dependencies": [
+        {
+          "heading": "A two-day Mason trail",
+          "body": "Duckhook’s $35 Corey Kiner waiver claim released Jordan Mason on November 11. Slob added Mason the next day and dropped Chris Brooks.",
+          "event_ids": [
+            "a860fe7d-4a71-4798-9b22-dee667603872",
+            "b104acff-d40e-4ab1-a237-59cb22a734fd"
+          ]
+        },
+        {
+          "heading": "A familiar name changes shelves",
+          "body": "Seven Deadly Chins dropped Brian Thomas Jr. on November 10. Duckhook added him on November 15.",
+          "event_ids": [
+            "71e30879-8174-417d-b093-aa8c620ebe6b",
+            "de481763-a023-41f1-9a3d-f9d9d39c4584"
+          ]
+        },
+        {
+          "heading": "ObiWan works the receiver file",
+          "body": "Three completed claims brought Mack Hollins for $27, Malachi Fields for $11 and Kalif Raymond for $1. Their completed outcomes are recorded separately from the old claim notices.",
+          "event_ids": [
+            "8ad50ef3-4705-44da-be52-5b8702e81798",
+            "aeea3baf-be16-4f63-99ba-e5d7bcfa05f5",
+            "720df030-566a-4138-a669-51d24ab935f9"
+          ]
+        },
+        {
+          "heading": "The defense that still matters tonight",
+          "body": "Three Dreaded Snake added Ravens D/ST and dropped Bengals D/ST on November 11. Baltimore’s defense is TDS’s one remaining selected scorer.",
+          "event_ids": [
+            "4bcc51d8-17bb-45c1-900d-c341c3506c90"
+          ]
+        }
+      ],
+      "transaction_boundary": "No Week 10 trade events appear in the bounded captured feed. Do not imply a complete commissioner/off-platform ledger.",
+      "forbidden": [
+        "Reactivating historical pending claims",
+        "Inferring transaction motive",
+        "Calling add/drop sequences player trades"
+      ],
+      "fact_file": "facts.json",
+      "fact_selectors": [
+        "/completed_transactions",
+        "/mnf"
+      ],
+      "draft_copy_template": {
+        "headline": "MOVES THAT REACHED THE ROSTER",
+        "deck": "Completed Week 10 activity • All bids shown are FAAB",
+        "body": "The Week 10 feed contains 29 completed transaction entries. Four trails connect those moves with this week’s lineups and Monday’s last scoring.",
+        "callouts": [
+          {
+            "heading": "A two-day Mason trail",
+            "body": "Duckhook’s $35 FAAB claim for Corey Kiner released Jordan Mason on November 11. Slob added Mason the next day, dropping Chris Brooks."
+          },
+          {
+            "heading": "A familiar name changes shelves",
+            "body": "Chins dropped Brian Thomas Jr. on November 10; Duckhook added him November 15."
+          },
+          {
+            "heading": "ObiWan works the receiver file",
+            "body": "ObiWan completed claims for Mack Hollins ($27 FAAB), Malachi Fields ($11 FAAB) and Kalif Raymond ($1 FAAB)."
+          },
+          {
+            "heading": "The defense that still matters tonight",
+            "body": "Three Dreaded Snake added Ravens D/ST for Bengals D/ST on November 11. Baltimore’s defense remains its last selected scorer."
+          }
+        ],
+        "rows": []
+      }
+    },
+    {
+      "unit_id": "W10-S09",
+      "department": "standings",
+      "state": "COMPLETE_WRITTEN_PREPRODUCTION_DRAFT_NOT_FINAL_RENDER_OR_RELEASE",
+      "proposed_disposition": "KEEP_AS_PROPOSED_SUPPORT_UNIT",
+      "narrative_job": "Show the official standings exactly and keep live results from becoming premature official records.",
+      "draft_copy": {
+        "headline": "TWELVE TEAMS. NINE POSTED RESULTS.",
+        "deck": "Official standings entering Week 10",
+        "body": "This is the official table through nine completed games. Duckhook entered alone at 6–3; seven teams followed at 5–4. Week 10’s scoring belongs on the live board until ESPN posts its outcomes. Equal records can occupy different seeds, so the order below follows the provider’s table.",
+        "callouts": [],
+        "rows": [
+          {
+            "seed": 1,
+            "team": "Dr. Duckhook",
+            "record": "6–3",
+            "points_for": "1324.48"
+          },
+          {
+            "seed": 2,
+            "team": "El Niño",
+            "record": "5–4",
+            "points_for": "1260.95"
+          },
+          {
+            "seed": 3,
+            "team": "D0nkey K0ng",
+            "record": "5–4",
+            "points_for": "1255.15"
+          },
+          {
+            "seed": 4,
+            "team": "Red Leopards",
+            "record": "5–4",
+            "points_for": "1256.69"
+          },
+          {
+            "seed": 5,
+            "team": "His Majesty's Blood",
+            "record": "5–4",
+            "points_for": "1243.19"
+          },
+          {
+            "seed": 6,
+            "team": "Seven Deadly Chins",
+            "record": "5–4",
+            "points_for": "1210.40"
+          },
+          {
+            "seed": 7,
+            "team": "Slob on my Dobb",
+            "record": "5–4",
+            "points_for": "1420.70"
+          },
+          {
+            "seed": 8,
+            "team": "The Chili Cheesers",
+            "record": "5–4",
+            "points_for": "1291.09"
+          },
+          {
+            "seed": 9,
+            "team": "ObiWan Jacoby",
+            "record": "4–5",
+            "points_for": "1217.98"
+          },
+          {
+            "seed": 10,
+            "team": "Three Dreaded Snake",
+            "record": "4–5",
+            "points_for": "1196.68"
+          },
+          {
+            "seed": 11,
+            "team": "The LLC",
+            "record": "3–6",
+            "points_for": "1245.29"
+          },
+          {
+            "seed": 12,
+            "team": "Mud Dogs",
+            "record": "2–7",
+            "points_for": "1067.73"
+          }
+        ]
+      },
+      "composition": {
+        "archetype": "Full-height league charter sheet, distinct from the six-match scoreboard",
+        "camera": "Almost overhead on a large open charter, minimal perspective on text",
+        "foreground": "Two plain iron cornerweights and a dated ribbon",
+        "midground": "One continuous 12-row table with seed, full team name, record and points-for",
+        "background": "Warm stone or wooden archive surface; only a thin visible scene border",
+        "copy_placement": "Compact title/deck then 12 readable rows; footer states nine-game scope",
+        "art_text_ratio": "22:78",
+        "palette": "Ivory charter, black serif, burgundy seed marks, restrained gold rules"
+      },
+      "copy_budget": {
+        "headline_max_words": 9,
+        "body_actual_words": 46,
+        "body_max_words": 110,
+        "callout_count": 0,
+        "table_rows": 12,
+        "mobile_width_px": 390,
+        "type_rule": "Do not shrink text to force fit. Shorten copy or consolidate departments before art."
+      },
+      "source_ids": [
+        "STANDINGS"
+      ],
+      "specific_text_waiting_for_mnf_or_other_input": [
+        "Replace all 12 records, points-for and seeds with a fresh official post-Week-10 standings response",
+        "Headline/deck/first sentence change when the source posts ten results"
+      ],
+      "shared_render_holds": [
+        "Actual referenced image inputs and final raster inspection where characters appear",
+        "Exact deterministic typography for all names/numbers",
+        "Actual 1080x1920 geometry and 390px reading proof",
+        "Jake visual judgment for finished page"
+      ],
+      "cast_character_ids": [],
+      "result_policy": "Snapshot values are labeled provisional. No FINAL label, official post-Week-10 seed, clinch or injury diagnosis is authorized.",
+      "conditional_final_copy": {
+        "status": "UNSELECTED_DRAFT_ONLY",
+        "condition": "All six current leads hold and provider-final scores/records are verified",
+        "body": "Six teams finish Week 10 at 6–4. The official seeds below account for the league’s division and seeding structure; a shared record does not mean a shared place. Four regular-season matchups per team remain."
+      },
+      "final_table_policy": "Do not sort hypothetical records into an invented official seed order.",
+      "fact_file": "facts.json",
+      "fact_selectors": [
+        "/teams/T01/entering_official_seed",
+        "/teams/T02/entering_official_seed",
+        "/teams/T03/entering_official_seed",
+        "/teams/T04/entering_official_seed",
+        "/teams/T05/entering_official_seed",
+        "/teams/T06/entering_official_seed",
+        "/teams/T07/entering_official_seed",
+        "/teams/T08/entering_official_seed",
+        "/teams/T09/entering_official_seed",
+        "/teams/T10/entering_official_seed",
+        "/teams/T11/entering_official_seed",
+        "/teams/T12/entering_official_seed",
+        "/teams/T01/entering_record",
+        "/teams/T02/entering_record",
+        "/teams/T03/entering_record",
+        "/teams/T04/entering_record",
+        "/teams/T05/entering_record",
+        "/teams/T06/entering_record",
+        "/teams/T07/entering_record",
+        "/teams/T08/entering_record",
+        "/teams/T09/entering_record",
+        "/teams/T10/entering_record",
+        "/teams/T11/entering_record",
+        "/teams/T12/entering_record",
+        "/teams/T01/prior9_points_for",
+        "/teams/T02/prior9_points_for",
+        "/teams/T03/prior9_points_for",
+        "/teams/T04/prior9_points_for",
+        "/teams/T05/prior9_points_for",
+        "/teams/T06/prior9_points_for",
+        "/teams/T07/prior9_points_for",
+        "/teams/T08/prior9_points_for",
+        "/teams/T09/prior9_points_for",
+        "/teams/T10/prior9_points_for",
+        "/teams/T11/prior9_points_for",
+        "/teams/T12/prior9_points_for"
+      ],
+      "draft_copy_template": {
+        "headline": "TWELVE TEAMS. NINE POSTED RESULTS.",
+        "deck": "Official standings entering Week 10",
+        "body": "This is the official table through nine completed games. Duckhook entered alone at 6–3; seven teams followed at 5–4. Week 10’s scoring belongs on the live board until ESPN posts its outcomes. Equal records can occupy different seeds, so the order below follows the provider’s table.",
+        "callouts": [],
+        "rows": [
+          {
+            "seed": 1,
+            "team": "Dr. Duckhook",
+            "record": "6–3",
+            "points_for": "{{facts:/teams/T12/prior9_points_for|2dp}}"
+          },
+          {
+            "seed": 2,
+            "team": "El Niño",
+            "record": "5–4",
+            "points_for": "{{facts:/teams/T09/prior9_points_for|2dp}}"
+          },
+          {
+            "seed": 3,
+            "team": "D0nkey K0ng",
+            "record": "5–4",
+            "points_for": "{{facts:/teams/T05/prior9_points_for|2dp}}"
+          },
+          {
+            "seed": 4,
+            "team": "Red Leopards",
+            "record": "5–4",
+            "points_for": "{{facts:/teams/T02/prior9_points_for|2dp}}"
+          },
+          {
+            "seed": 5,
+            "team": "His Majesty's Blood",
+            "record": "5–4",
+            "points_for": "{{facts:/teams/T08/prior9_points_for|2dp}}"
+          },
+          {
+            "seed": 6,
+            "team": "Seven Deadly Chins",
+            "record": "5–4",
+            "points_for": "{{facts:/teams/T11/prior9_points_for|2dp}}"
+          },
+          {
+            "seed": 7,
+            "team": "Slob on my Dobb",
+            "record": "5–4",
+            "points_for": "{{facts:/teams/T03/prior9_points_for|2dp}}"
+          },
+          {
+            "seed": 8,
+            "team": "The Chili Cheesers",
+            "record": "5–4",
+            "points_for": "{{facts:/teams/T07/prior9_points_for|2dp}}"
+          },
+          {
+            "seed": 9,
+            "team": "ObiWan Jacoby",
+            "record": "4–5",
+            "points_for": "{{facts:/teams/T01/prior9_points_for|2dp}}"
+          },
+          {
+            "seed": 10,
+            "team": "Three Dreaded Snake",
+            "record": "4–5",
+            "points_for": "{{facts:/teams/T06/prior9_points_for|2dp}}"
+          },
+          {
+            "seed": 11,
+            "team": "The LLC",
+            "record": "3–6",
+            "points_for": "{{facts:/teams/T04/prior9_points_for|2dp}}"
+          },
+          {
+            "seed": 12,
+            "team": "Mud Dogs",
+            "record": "2–7",
+            "points_for": "{{facts:/teams/T10/prior9_points_for|2dp}}"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "W10-S10",
+      "department": "state_of_the_realm",
+      "state": "COMPLETE_WRITTEN_PREPRODUCTION_DRAFT_NOT_FINAL_RENDER_OR_RELEASE",
+      "proposed_disposition": "KEEP_AS_PROPOSED_SUPPORT_UNIT",
+      "narrative_job": "Explain divisional consequences rather than repeat the standings table or invent a geographic border for a division.",
+      "draft_copy": {
+        "headline": "THREE DIVISIONS. DIFFERENT PRESSURES.",
+        "deck": "The same results change three separate races",
+        "body": "The current leads would reshape all three divisions. Monday can still change the picture in Burgers, Pizza and Wings.",
+        "callouts": [
+          {
+            "label": "BURGERS",
+            "heading": "D0nkey can create separation",
+            "body": "D0nkey K0ng would reach 6–4. If ObiWan Jacoby and Three Dreaded Snake remain behind, both fall to 4–6; Mud Dogs’ current deficit points toward 2–8."
+          },
+          {
+            "label": "PIZZA",
+            "heading": "Three leaders on the same step",
+            "body": "El Niño, His Majesty’s Blood and Seven Deadly Chins would share 6–4; The LLC would reach 4–6. Comebacks by Red or TDS would change that group."
+          },
+          {
+            "label": "WINGS",
+            "heading": "The cushion is under pressure",
+            "body": "Duckhook and Slob would meet at 6–4, with Red and Chili at 5–5. Flowers can still bring Red into the 6–4 group."
+          }
+        ],
+        "rows": []
+      },
+      "composition": {
+        "archetype": "Three distinct editorial windows on the existing world",
+        "camera": "Vary each vignette: low mountain approach, oblique trading threshold, open wetland/course horizon; group by editorial meaning rather than invented map borders",
+        "foreground": "One short division label and report on each physical inset",
+        "midground": "Existing scene-specific textures and landmarks; no twelve miniature character portraits",
+        "background": "Shared black/burgundy magazine field, gold accents; the divisions are league groupings, not territorial boundaries",
+        "copy_placement": "Three equal report areas with generous gutters and different art crops",
+        "art_text_ratio": "55:45",
+        "palette": "Natural scene palettes unified by black/gold/burgundy framing"
+      },
+      "copy_budget": {
+        "headline_max_words": 9,
+        "body_actual_words": 19,
+        "body_max_words": 110,
+        "callout_count": 3,
+        "table_rows": 0,
+        "mobile_width_px": 390,
+        "type_rule": "Do not shrink text to force fit. Shorten copy or consolidate departments before art."
+      },
+      "source_ids": [
+        "SCORE",
+        "STANDINGS",
+        "RULES",
+        "MNF"
+      ],
+      "specific_text_waiting_for_mnf_or_other_input": [
+        "All three division outcome paragraphs require final scores and official record verification"
+      ],
+      "shared_render_holds": [
+        "Actual referenced image inputs and final raster inspection where characters appear",
+        "Exact deterministic typography for all names/numbers",
+        "Actual 1080x1920 geometry and 390px reading proof",
+        "Jake visual judgment for finished page"
+      ],
+      "cast_character_ids": [],
+      "result_policy": "Snapshot values are labeled provisional. No FINAL label, official post-Week-10 seed, clinch or injury diagnosis is authorized.",
+      "division_membership": {
+        "Burgers": [
+          5,
+          1,
+          6,
+          10
+        ],
+        "Pizza": [
+          9,
+          8,
+          11,
+          4
+        ],
+        "Wings": [
+          12,
+          2,
+          3,
+          7
+        ]
+      },
+      "forbidden": [
+        "Division labels treated as geographic borders",
+        "Unverified tiebreak explanation",
+        "Clinched or eliminated language"
+      ],
+      "fact_file": "facts.json",
+      "fact_selectors": [
+        "/divisions",
+        "/conditional_records",
+        "/mnf"
+      ],
+      "draft_copy_template": {
+        "headline": "THREE DIVISIONS. DIFFERENT PRESSURES.",
+        "deck": "The same results change three separate races",
+        "body": "The current leads would reshape all three divisions. Monday can still change the picture in Burgers, Pizza and Wings.",
+        "callouts": [
+          {
+            "label": "BURGERS",
+            "heading": "D0nkey can create separation",
+            "body": "D0nkey K0ng would reach 6–4. If ObiWan Jacoby and Three Dreaded Snake remain behind, both fall to 4–6; Mud Dogs’ current deficit points toward 2–8."
+          },
+          {
+            "label": "PIZZA",
+            "heading": "Three leaders on the same step",
+            "body": "El Niño, His Majesty’s Blood and Seven Deadly Chins would share 6–4; The LLC would reach 4–6. Comebacks by Red or TDS would change that group."
+          },
+          {
+            "label": "WINGS",
+            "heading": "The cushion is under pressure",
+            "body": "Duckhook and Slob would meet at 6–4, with Red and Chili at 5–5. Flowers can still bring Red into the 6–4 group."
+          }
+        ],
+        "rows": []
+      }
+    },
+    {
+      "unit_id": "W10-S11",
+      "department": "scoring_form",
+      "state": "COMPLETE_WRITTEN_PREPRODUCTION_DRAFT_NOT_FINAL_RENDER_OR_RELEASE",
+      "proposed_disposition": "KEEP_AS_PROPOSED_SUPPORT_UNIT",
+      "narrative_job": "Maintain the twelve-team scoring-form department with a disclosed reproducible metric distinct from official standings.",
+      "draft_copy": {
+        "headline": "THE TWELVE — SCORING FORM",
+        "deck": "Live Week 10 index • Extra weight on the current week",
+        "body": "Slob’s season-long scoring keeps it narrowly ahead in the live index, while HMB and The LLC climb on their 200-point weeks. The formula is 70% season points per game, plus 30% of this week’s points. Week 10 is still being scored, so Monday can move these positions. This index measures scoring form; it does not assign playoff seeds or win probabilities.",
+        "callouts": [],
+        "rows": [
+          {
+            "rank": 1,
+            "team": "Slob on my Dobb",
+            "index": "165.79"
+          },
+          {
+            "rank": 2,
+            "team": "His Majesty's Blood",
+            "index": "164.26"
+          },
+          {
+            "rank": 3,
+            "team": "The LLC",
+            "index": "162.64"
+          },
+          {
+            "rank": 4,
+            "team": "El Niño",
+            "index": "158.23"
+          },
+          {
+            "rank": 5,
+            "team": "D0nkey K0ng",
+            "index": "145.83"
+          },
+          {
+            "rank": 6,
+            "team": "Dr. Duckhook",
+            "index": "139.95"
+          },
+          {
+            "rank": 7,
+            "team": "Seven Deadly Chins",
+            "index": "138.83"
+          },
+          {
+            "rank": 8,
+            "team": "Red Leopards",
+            "index": "138.44"
+          },
+          {
+            "rank": 9,
+            "team": "ObiWan Jacoby",
+            "index": "133.48"
+          },
+          {
+            "rank": 10,
+            "team": "The Chili Cheesers",
+            "index": "125.05"
+          },
+          {
+            "rank": 11,
+            "team": "Mud Dogs",
+            "index": "116.78"
+          },
+          {
+            "rank": 12,
+            "team": "Three Dreaded Snake",
+            "index": "111.81"
+          }
+        ]
+      },
+      "composition": {
+        "archetype": "Twelve paired scoring placards in a physical gallery, six rows of two",
+        "camera": "Front-on close enough for full-name reading; shallow lateral depth, no angled tiny text",
+        "foreground": "Largest placard at the visual entrance; all twelve retain equal factual fields",
+        "midground": "Six paired rows, each rank + full team name + index; approved current portraits optional and reference-bound",
+        "background": "Dark gallery wall and restrained gold supports; no SaaS-style cards or interactive dashboard controls",
+        "copy_placement": "Short methodology deck, six readable paired rows; omit extra metrics from the public face",
+        "art_text_ratio": "35:65",
+        "palette": "Black textured panels, warm ivory typography, burgundy separators, gold ordinal numerals"
+      },
+      "copy_budget": {
+        "headline_max_words": 9,
+        "body_actual_words": 61,
+        "body_max_words": 110,
+        "callout_count": 0,
+        "table_rows": 12,
+        "mobile_width_px": 390,
+        "type_rule": "Do not shrink text to force fit. Shorten copy or consolidate departments before art."
+      },
+      "source_ids": [
+        "SCORE",
+        "STANDINGS",
+        "W9FORM"
+      ],
+      "specific_text_waiting_for_mnf_or_other_input": [
+        "Recompute all 12 form values from final Week 10 points",
+        "Movement arrows remain withheld until finality and comparison with the actual published Week 9 order"
+      ],
+      "shared_render_holds": [
+        "Actual referenced image inputs and final raster inspection where characters appear",
+        "Exact deterministic typography for all names/numbers",
+        "Actual 1080x1920 geometry and 390px reading proof",
+        "Jake visual judgment for finished page"
+      ],
+      "cast_character_ids": [],
+      "result_policy": "Snapshot values are labeled provisional. No FINAL label, official post-Week-10 seed, clinch or injury diagnosis is authorized.",
+      "methodology": {
+        "formula": "0.70 * ((official pointsFor through Week 9 + Week 10 currentPoints) / 10) + 0.30 * Week 10 currentPoints",
+        "ties": "Week 10 points descending, then stable team ID ascending",
+        "rounding": "Sort unrounded decimals; print two decimal places, ROUND_HALF_UP",
+        "status": "PROVISIONAL_WITH_PARTIAL_WEEK_10_VALUES",
+        "no_health_or_schedule_adjustment": true
+      },
+      "calculation_rows": [
+        {
+          "team_id": 3,
+          "team": "Slob on my Dobb",
+          "index_unrounded": "165.7863000000000210",
+          "index": "165.79",
+          "season_ppg_through_live_week10": "160.00",
+          "current_week10": "179.29",
+          "prior_published_week9_rank": 1,
+          "rank": 1,
+          "provisional_rank_change": 0
+        },
+        {
+          "team_id": 8,
+          "team": "His Majesty's Blood",
+          "index_unrounded": "164.2644999999999860",
+          "index": "164.26",
+          "season_ppg_through_live_week10": "145.19",
+          "current_week10": "208.76",
+          "prior_published_week9_rank": 7,
+          "rank": 2,
+          "provisional_rank_change": 5
+        },
+        {
+          "team_id": 4,
+          "team": "The LLC",
+          "index_unrounded": "162.63550",
+          "index": "162.64",
+          "season_ppg_through_live_week10": "144.93",
+          "current_week10": "203.96",
+          "prior_published_week9_rank": 8,
+          "rank": 3,
+          "provisional_rank_change": 5
+        },
+        {
+          "team_id": 9,
+          "team": "El Niño",
+          "index_unrounded": "158.22610",
+          "index": "158.23",
+          "season_ppg_through_live_week10": "145.00",
+          "current_week10": "189.08",
+          "prior_published_week9_rank": 9,
+          "rank": 4,
+          "provisional_rank_change": 5
+        },
+        {
+          "team_id": 5,
+          "team": "D0nkey K0ng",
+          "index_unrounded": "145.8283999999999930",
+          "index": "145.83",
+          "season_ppg_through_live_week10": "141.18",
+          "current_week10": "156.67",
+          "prior_published_week9_rank": 4,
+          "rank": 5,
+          "provisional_rank_change": -1
+        },
+        {
+          "team_id": 12,
+          "team": "Dr. Duckhook",
+          "index_unrounded": "139.9514999999999860",
+          "index": "139.95",
+          "season_ppg_through_live_week10": "145.21",
+          "current_week10": "127.67",
+          "prior_published_week9_rank": 2,
+          "rank": 6,
+          "provisional_rank_change": -4
+        },
+        {
+          "team_id": 11,
+          "team": "Seven Deadly Chins",
+          "index_unrounded": "138.82940",
+          "index": "138.83",
+          "season_ppg_through_live_week10": "135.66",
+          "current_week10": "146.22",
+          "prior_published_week9_rank": 11,
+          "rank": 7,
+          "provisional_rank_change": 4
+        },
+        {
+          "team_id": 2,
+          "team": "Red Leopards",
+          "index_unrounded": "138.4436999999999860",
+          "index": "138.44",
+          "season_ppg_through_live_week10": "139.31",
+          "current_week10": "136.42",
+          "prior_published_week9_rank": 10,
+          "rank": 8,
+          "provisional_rank_change": 2
+        },
+        {
+          "team_id": 1,
+          "team": "ObiWan Jacoby",
+          "index_unrounded": "133.48070",
+          "index": "133.48",
+          "season_ppg_through_live_week10": "134.83",
+          "current_week10": "130.33",
+          "prior_published_week9_rank": 6,
+          "rank": 9,
+          "provisional_rank_change": -3
+        },
+        {
+          "team_id": 7,
+          "team": "The Chili Cheesers",
+          "index_unrounded": "125.04530",
+          "index": "125.05",
+          "season_ppg_through_live_week10": "138.48",
+          "current_week10": "93.70",
+          "prior_published_week9_rank": 3,
+          "rank": 10,
+          "provisional_rank_change": -7
+        },
+        {
+          "team_id": 10,
+          "team": "Mud Dogs",
+          "index_unrounded": "116.78050",
+          "index": "116.78",
+          "season_ppg_through_live_week10": "118.14",
+          "current_week10": "113.62",
+          "prior_published_week9_rank": 12,
+          "rank": 11,
+          "provisional_rank_change": 1
+        },
+        {
+          "team_id": 6,
+          "team": "Three Dreaded Snake",
+          "index_unrounded": "111.80620",
+          "index": "111.81",
+          "season_ppg_through_live_week10": "127.25",
+          "current_week10": "75.78",
+          "prior_published_week9_rank": 5,
+          "rank": 12,
+          "provisional_rank_change": -7
+        }
+      ],
+      "movement_display": "WITHHELD_UNTIL_PROVIDER_FINAL; prior baseline retained for later calculation",
+      "fact_file": "facts.json",
+      "fact_selectors": [
+        "/provisional_scoring_form"
+      ],
+      "draft_copy_template": {
+        "headline": "THE TWELVE — SCORING FORM",
+        "deck": "Live Week 10 index • Extra weight on the current week",
+        "body": "Slob’s season-long scoring keeps it narrowly ahead in the live index, while HMB and The LLC climb on their 200-point weeks. The formula is 70% season points per game, plus 30% of this week’s points. Week 10 is still being scored, so Monday can move these positions. This index measures scoring form; it does not assign playoff seeds or win probabilities.",
+        "callouts": [],
+        "rows": [
+          {
+            "rank": 1,
+            "team": "Slob on my Dobb",
+            "index": "{{facts:/provisional_scoring_form/rows/0/3|2dp}}"
+          },
+          {
+            "rank": 2,
+            "team": "His Majesty's Blood",
+            "index": "{{facts:/provisional_scoring_form/rows/1/3|2dp}}"
+          },
+          {
+            "rank": 3,
+            "team": "The LLC",
+            "index": "{{facts:/provisional_scoring_form/rows/2/3|2dp}}"
+          },
+          {
+            "rank": 4,
+            "team": "El Niño",
+            "index": "{{facts:/provisional_scoring_form/rows/3/3|2dp}}"
+          },
+          {
+            "rank": 5,
+            "team": "D0nkey K0ng",
+            "index": "{{facts:/provisional_scoring_form/rows/4/3|2dp}}"
+          },
+          {
+            "rank": 6,
+            "team": "Dr. Duckhook",
+            "index": "{{facts:/provisional_scoring_form/rows/5/3|2dp}}"
+          },
+          {
+            "rank": 7,
+            "team": "Seven Deadly Chins",
+            "index": "{{facts:/provisional_scoring_form/rows/6/3|2dp}}"
+          },
+          {
+            "rank": 8,
+            "team": "Red Leopards",
+            "index": "{{facts:/provisional_scoring_form/rows/7/3|2dp}}"
+          },
+          {
+            "rank": 9,
+            "team": "ObiWan Jacoby",
+            "index": "{{facts:/provisional_scoring_form/rows/8/3|2dp}}"
+          },
+          {
+            "rank": 10,
+            "team": "The Chili Cheesers",
+            "index": "{{facts:/provisional_scoring_form/rows/9/3|2dp}}"
+          },
+          {
+            "rank": 11,
+            "team": "Mud Dogs",
+            "index": "{{facts:/provisional_scoring_form/rows/10/3|2dp}}"
+          },
+          {
+            "rank": 12,
+            "team": "Three Dreaded Snake",
+            "index": "{{facts:/provisional_scoring_form/rows/11/3|2dp}}"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "W10-S12",
+      "department": "road_to_playoffs",
+      "state": "COMPLETE_WRITTEN_PREPRODUCTION_DRAFT_NOT_FINAL_RENDER_OR_RELEASE",
+      "proposed_disposition": "KEEP_AS_PROPOSED_SUPPORT_UNIT",
+      "narrative_job": "Explain the actual remaining schedule and qualification structure without creating playoff odds or duplicating the omitted Race to Seven page.",
+      "draft_copy": {
+        "headline": "FOUR MORE AFTER THIS",
+        "deck": "Seven places. A shorter road.",
+        "body": "When Week 10 closes, four regular-season games per team remain. The route runs through one more cross-division round and then three weeks of familiar division opponents. A 6–4 record would give six teams the same number of wins if the current leads hold; it would not grant six identical routes. No berth is awarded on this page.",
+        "callouts": [
+          {
+            "heading": "SEVEN PLACES",
+            "body": "Three division winners qualify automatically. Four further berths are shared across the league."
+          },
+          {
+            "heading": "FOUR GAMES AFTER THIS WEEK",
+            "body": "Weeks 11–14 leave four regular-season fixtures per team: 24 league matchups in total."
+          },
+          {
+            "heading": "THE DIVISIONAL RETURN",
+            "body": "Week 11 is the next cross-division round. Weeks 12–14 bring the division opponents back into direct contact."
+          }
+        ],
+        "rows": []
+      },
+      "composition": {
+        "archetype": "Physical road-and-calendar editorial composition, no projection chart",
+        "camera": "Low along four laid-out calendar leaves leading toward seven unassigned invitation seals on a distant desk",
+        "foreground": "Week 11 leaf, readable and flat enough for deterministic print",
+        "midground": "Week 12, 13 and 14 leaves arranged with clear temporal progression; three small division identifiers as league symbols",
+        "background": "Existing League Chamber threshold, seven seals remain unassigned; no new canonical playoff building",
+        "copy_placement": "Three concise rule blocks along quiet floor/desk surfaces",
+        "art_text_ratio": "65:35",
+        "palette": "Warm parchment, burgundy calendar ribbons, black stone, gold invitation seals"
+      },
+      "copy_budget": {
+        "headline_max_words": 9,
+        "body_actual_words": 57,
+        "body_max_words": 110,
+        "callout_count": 3,
+        "table_rows": 0,
+        "mobile_width_px": 390,
+        "type_rule": "Do not shrink text to force fit. Shorten copy or consolidate departments before art."
+      },
+      "source_ids": [
+        "RULES",
+        "ROSTERS",
+        "W11"
+      ],
+      "specific_text_waiting_for_mnf_or_other_input": [
+        "Any statement about actual 6–4 teams requires finality",
+        "Recheck qualification rules only if commissioner/current settings supply a change"
+      ],
+      "shared_render_holds": [
+        "Actual referenced image inputs and final raster inspection where characters appear",
+        "Exact deterministic typography for all names/numbers",
+        "Actual 1080x1920 geometry and 390px reading proof",
+        "Jake visual judgment for finished page"
+      ],
+      "cast_character_ids": [],
+      "result_policy": "Snapshot values are labeled provisional. No FINAL label, official post-Week-10 seed, clinch or injury diagnosis is authorized.",
+      "derived_total_remaining_fixtures": "12 teams * 4 games / 2 = 24 after Week 10",
+      "do_not_create_separate_unit": "Race to Seven / seed-versus-projected-rank page",
+      "forbidden": [
+        "Clinches",
+        "Eliminations",
+        "Invented playoff probabilities"
+      ],
+      "fact_file": "facts.json",
+      "fact_selectors": [
+        "/rules",
+        "/conditional_records"
+      ],
+      "draft_copy_template": {
+        "headline": "FOUR MORE AFTER THIS",
+        "deck": "Seven places. A shorter road.",
+        "body": "When Week 10 closes, four regular-season games per team remain. The route runs through one more cross-division round and then three weeks of familiar division opponents. A 6–4 record would give six teams the same number of wins if the current leads hold; it would not grant six identical routes. No berth is awarded on this page.",
+        "callouts": [
+          {
+            "heading": "SEVEN PLACES",
+            "body": "Three division winners qualify automatically. Four further berths are shared across the league."
+          },
+          {
+            "heading": "FOUR GAMES AFTER THIS WEEK",
+            "body": "Weeks 11–14 leave four regular-season fixtures per team: 24 league matchups in total."
+          },
+          {
+            "heading": "THE DIVISIONAL RETURN",
+            "body": "Week 11 is the next cross-division round. Weeks 12–14 bring the division opponents back into direct contact."
+          }
+        ],
+        "rows": []
+      }
+    },
+    {
+      "unit_id": "W10-S13",
+      "department": "next_six",
+      "state": "COMPLETE_WRITTEN_PREPRODUCTION_DRAFT_NOT_FINAL_RENDER_OR_RELEASE",
+      "proposed_disposition": "KEEP_AS_PROPOSED_SUPPORT_UNIT",
+      "narrative_job": "Provide all six verified next-week fixtures and a forward-looking bridge without recycling last week’s schedule.",
+      "draft_copy": {
+        "headline": "THE NEXT SIX",
+        "deck": "Week 11 • The next cross-division round",
+        "body": "Slob meets El Niño. D0nkey receives HMB. Duckhook faces The LLC. Three of the next pairings already carry the week’s biggest scoring names into fresh opposition. Elsewhere, Red visits TDS, Chins visits Mud Dogs, and Chili travels to ObiWan. These fixtures are confirmed; their entering records will follow Week 10’s final table.",
+        "callouts": [],
+        "rows": [
+          {
+            "away_team": "El Niño",
+            "home_team": "Slob on my Dobb",
+            "display": "El Niño at Slob on my Dobb"
+          },
+          {
+            "away_team": "Red Leopards",
+            "home_team": "Three Dreaded Snake",
+            "display": "Red Leopards at Three Dreaded Snake"
+          },
+          {
+            "away_team": "Seven Deadly Chins",
+            "home_team": "Mud Dogs",
+            "display": "Seven Deadly Chins at Mud Dogs"
+          },
+          {
+            "away_team": "The Chili Cheesers",
+            "home_team": "ObiWan Jacoby",
+            "display": "The Chili Cheesers at ObiWan Jacoby"
+          },
+          {
+            "away_team": "His Majesty's Blood",
+            "home_team": "D0nkey K0ng",
+            "display": "His Majesty's Blood at D0nkey K0ng"
+          },
+          {
+            "away_team": "The LLC",
+            "home_team": "Dr. Duckhook",
+            "display": "The LLC at Dr. Duckhook"
+          }
+        ]
+      },
+      "composition": {
+        "archetype": "Six large departure waybills in an existing travel/league notice setting",
+        "camera": "Eye-level down a notice rail toward an established route opening; no map pins or speculative venue art",
+        "foreground": "Two paired fixture slips with full names and clear at/home order",
+        "midground": "Four remaining waybills, grouped so all six are equally legible",
+        "background": "A glimpse of existing roads/bridge beyond the room, separate from literal match venue claims",
+        "copy_placement": "Three groups of two fixtures; short introduction above; no records before finalization",
+        "art_text_ratio": "50:50",
+        "palette": "Cream waybills, black rail, burgundy route ribbon and gold small caps"
+      },
+      "copy_budget": {
+        "headline_max_words": 9,
+        "body_actual_words": 52,
+        "body_max_words": 110,
+        "callout_count": 0,
+        "table_rows": 6,
+        "mobile_width_px": 390,
+        "type_rule": "Do not shrink text to force fit. Shorten copy or consolidate departments before art."
+      },
+      "source_ids": [
+        "W11",
+        "SCORE"
+      ],
+      "specific_text_waiting_for_mnf_or_other_input": [
+        "Entering Week 11 records wait for final standings",
+        "Any next-week player forecast or injury claim needs fresh research"
+      ],
+      "shared_render_holds": [
+        "Actual referenced image inputs and final raster inspection where characters appear",
+        "Exact deterministic typography for all names/numbers",
+        "Actual 1080x1920 geometry and 390px reading proof",
+        "Jake visual judgment for finished page"
+      ],
+      "cast_character_ids": [],
+      "result_policy": "Snapshot values are labeled provisional. No FINAL label, official post-Week-10 seed, clinch or injury diagnosis is authorized.",
+      "fixture_policy": "ESPN home/away labels do not automatically establish the physical fictional event venue.",
+      "next_week_gotw": "NOT_SELECTED",
+      "fact_file": "facts.json",
+      "fact_selectors": [
+        "/week11"
+      ],
+      "draft_copy_template": {
+        "headline": "THE NEXT SIX",
+        "deck": "Week 11 • The next cross-division round",
+        "body": "Slob meets El Niño. D0nkey receives HMB. Duckhook faces The LLC. Three of the next pairings already carry the week’s biggest scoring names into fresh opposition. Elsewhere, Red visits TDS, Chins visits Mud Dogs, and Chili travels to ObiWan. These fixtures are confirmed; their entering records will follow Week 10’s final table.",
+        "callouts": [],
+        "rows": [
+          {
+            "away_team": "El Niño",
+            "home_team": "Slob on my Dobb",
+            "display": "El Niño at Slob on my Dobb"
+          },
+          {
+            "away_team": "Red Leopards",
+            "home_team": "Three Dreaded Snake",
+            "display": "Red Leopards at Three Dreaded Snake"
+          },
+          {
+            "away_team": "Seven Deadly Chins",
+            "home_team": "Mud Dogs",
+            "display": "Seven Deadly Chins at Mud Dogs"
+          },
+          {
+            "away_team": "The Chili Cheesers",
+            "home_team": "ObiWan Jacoby",
+            "display": "The Chili Cheesers at ObiWan Jacoby"
+          },
+          {
+            "away_team": "His Majesty's Blood",
+            "home_team": "D0nkey K0ng",
+            "display": "His Majesty's Blood at D0nkey K0ng"
+          },
+          {
+            "away_team": "The LLC",
+            "home_team": "Dr. Duckhook",
+            "display": "The LLC at Dr. Duckhook"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "W10-S14",
+      "department": "pittsys_book",
+      "state": "COMPLETE_WRITTEN_PREPRODUCTION_DRAFT_NOT_FINAL_RENDER_OR_RELEASE",
+      "proposed_disposition": "CONDITIONALLY_OMIT_FROM_PUBLIC_ISSUE_UNLESS_A_REAL_NOTICE_ARRIVES; neutral copy can be a small column, not filler page",
+      "narrative_job": "Preserve the recurring institution honestly while avoiding an invented reopening, closure, market or settlement.",
+      "draft_copy": {
+        "headline": "FROM PITTSY’S BOOK",
+        "deck": "Week 10 betting notice",
+        "body": "No Week 10 betting notice has been confirmed for this edition. Any posted lines, house terms and settlement belong to Pittsy’s own ledger. This issue carries no new prices or payout claim.",
+        "callouts": [],
+        "rows": []
+      },
+      "composition": {
+        "archetype": "Neutral archival detail of the established Book, usable as a small recurring column",
+        "camera": "Tight still-life on a ledger spine and writing surface at the registered Pittsy’s Book location",
+        "foreground": "Unmarked ledger page; no fabricated wagers, locks, closure placards or reopening signs",
+        "midground": "Existing counter materials and known institution detail only",
+        "background": "Soft familiar jungle setting; no staff absence/presence used to imply operating status",
+        "copy_placement": "Very short department notice; no full-page empty table",
+        "art_text_ratio": "75:25",
+        "palette": "Dark leather, aged gold, muted jungle greens with burgundy editorial accent"
+      },
+      "copy_budget": {
+        "headline_max_words": 9,
+        "body_actual_words": 32,
+        "body_max_words": 110,
+        "callout_count": 0,
+        "table_rows": 0,
+        "mobile_width_px": 390,
+        "type_rule": "Do not shrink text to force fit. Shorten copy or consolidate departments before art."
+      },
+      "source_ids": [
+        "BOOK",
+        "CANON"
+      ],
+      "specific_text_waiting_for_mnf_or_other_input": [
+        "Whole department waits for a confirmed Week 10 notice if it is to report operations, lines or payouts"
+      ],
+      "shared_render_holds": [
+        "Actual referenced image inputs and final raster inspection where characters appear",
+        "Exact deterministic typography for all names/numbers",
+        "Actual 1080x1920 geometry and 390px reading proof",
+        "Jake visual judgment for finished page"
+      ],
+      "cast_character_ids": [],
+      "result_policy": "Snapshot values are labeled provisional. No FINAL label, official post-Week-10 seed, clinch or injury diagnosis is authorized.",
+      "book_operating_status": "UNKNOWN",
+      "lines": null,
+      "settlement": null,
+      "reopening_claim": false,
+      "closure_claim": false,
+      "source_scope": "Missing editorial receipt does not prove that no betting activity occurred.",
+      "editorial_decision": "Omit by default. Keep the prepared card available only if a real Week10 Book update arrives; do not publish an empty operational notice as filler.",
+      "fact_file": "facts.json",
+      "fact_selectors": [],
+      "draft_copy_template": {
+        "headline": "FROM PITTSY’S BOOK",
+        "deck": "Week 10 betting notice",
+        "body": "No Week 10 betting notice has been confirmed for this edition. Any posted lines, house terms and settlement belong to Pittsy’s own ledger. This issue carries no new prices or payout claim.",
+        "callouts": [],
+        "rows": []
+      }
+    },
+    {
+      "unit_id": "W10-S15",
+      "department": "final_word",
+      "state": "COMPLETE_WRITTEN_PREPRODUCTION_DRAFT_NOT_FINAL_RENDER_OR_RELEASE",
+      "proposed_disposition": "KEEP_AS_PROPOSED_SUPPORT_UNIT",
+      "narrative_job": "Close with the personal cost and forward movement of the week, without repeating the opener’s numerical summary.",
+      "draft_copy": {
+        "headline": "CARRY IT INTO NEXT WEEK",
+        "deck": "Final Word",
+        "body": "When the scores settle, the Commonwealth has to carry them. D0nkey and Chili cannot bring last week’s wins into this week’s accounting. Duckhook’s streak has met 208.76; ObiWan’s rescue rests with Henry and Andrews. No one gets to keep only the flattering part of the ledger. Beyond this finish are four more fixtures per team. The return to division play is near, and the same rivals will soon be close enough to answer back. Finish the line. Then turn the page.",
+        "callouts": [],
+        "rows": []
+      },
+      "composition": {
+        "archetype": "Quiet departing landscape with a small visual callback to the cover ledger",
+        "camera": "Rear three-quarter view from the existing League Chamber threshold toward an established route at dusk",
+        "foreground": "Ledger closed to its current page with a narrow blank next-page edge visible; no final score printed in generated art",
+        "midground": "Road/bridge line draws the eye outward; a distant lantern gives scale without inventing a named traveler",
+        "background": "World terrain from approved Atlas perspective, no new damage or permanent installations",
+        "copy_placement": "Single short prose column over a calm lower-side surface; large quiet image above",
+        "art_text_ratio": "85:15",
+        "palette": "Warm last light, black silhouettes, burgundy binding and one gold edge"
+      },
+      "copy_budget": {
+        "headline_max_words": 9,
+        "body_actual_words": 81,
+        "body_max_words": 110,
+        "callout_count": 0,
+        "table_rows": 0,
+        "mobile_width_px": 390,
+        "type_rule": "Do not shrink text to force fit. Shorten copy or consolidate departments before art."
+      },
+      "source_ids": [
+        "SCORE",
+        "HISTORY",
+        "RULES",
+        "CANON"
+      ],
+      "specific_text_waiting_for_mnf_or_other_input": [
+        "Duckhook streak sentence needs final outcome wording",
+        "ObiWan rescue sentence needs Henry/Andrews final result",
+        "208.76 requires correction check"
+      ],
+      "shared_render_holds": [
+        "Actual referenced image inputs and final raster inspection where characters appear",
+        "Exact deterministic typography for all names/numbers",
+        "Actual 1080x1920 geometry and 390px reading proof",
+        "Jake visual judgment for finished page"
+      ],
+      "cast_character_ids": [],
+      "result_policy": "Snapshot values are labeled provisional. No FINAL label, official post-Week-10 seed, clinch or injury diagnosis is authorized.",
+      "conditional_final_copy": {
+        "status": "UNSELECTED_DRAFT_ONLY",
+        "condition": "All six current leads hold and provider-final scores/records are verified",
+        "body": "The scoring ceiling broke, and the league still found a way to become more crowded. Six teams carry 6–4 into the next round. Others carry the urgency of a narrowing route. Celebration and embarrassment travel the same road toward another opponent. Four regular-season fixtures per team remain. The division rivals are coming back. Take the week’s receipt, keep what it taught you, and turn the page."
+      },
+      "fact_file": "facts.json",
+      "fact_selectors": [
+        "/conditional_records",
+        "/mnf",
+        "/rules"
+      ],
+      "draft_copy_template": {
+        "headline": "CARRY IT INTO NEXT WEEK",
+        "deck": "Final Word",
+        "body": "When the scores settle, the Commonwealth has to carry them. D0nkey and Chili cannot bring last week’s wins into this week’s accounting. Duckhook’s streak has met {{facts:/teams/T08/current_points|2dp}}; ObiWan’s rescue rests with Henry and Andrews. No one gets to keep only the flattering part of the ledger. Beyond this finish are four more fixtures per team. The return to division play is near, and the same rivals will soon be close enough to answer back. Finish the line. Then turn the page.",
+        "callouts": [],
+        "rows": []
+      }
+    }
+  ],
+  "department_source_register": {
+    "SCORE": {
+      "artifact": "Schemin_Week_10_FLAIM_Refresh_2026-11-16.json",
+      "selectors": [
+        "$.evidence.matchups.data.matchups[*]",
+        "$.evidence.player_details[*].data.matchups[*]"
+      ],
+      "scope": "Week 10 current points; all six provider winners UNDECIDED"
+    },
+    "STANDINGS": {
+      "artifact": "Schemin_Week_10_FLAIM_Refresh_2026-11-16.json",
+      "selectors": [
+        "$.evidence.standings.data.standings[*]"
+      ],
+      "scope": "Official records, points and seeds through nine completed games"
+    },
+    "TRANSACTIONS": {
+      "artifact": "Schemin_Week_10_FLAIM_Refresh_2026-11-16.json",
+      "selectors": [
+        "$.evidence.transactions.data.transactions[*]",
+        "$.evidence.transactions.data.window"
+      ],
+      "scope": "Bounded Week 10 period; select status=complete for completed-event prose"
+    },
+    "ROSTERS": {
+      "artifact": "w10prep_mnf_evidence.json",
+      "selectors": [
+        "$.rosters[*].data.roster[*]",
+        "$.rosters[*].data.homeFacts"
+      ],
+      "scope": "Current roster slots and seven-playoff-team setting; no diagnosis inferred"
+    },
+    "HISTORY": {
+      "artifact": "w10prep_mnf_calculations.json",
+      "selectors": [
+        "$.seasonContext[*]",
+        "$.priorTopScores",
+        "$.prior200PlusCount"
+      ],
+      "scope": "Freshly reconciled Weeks 1–9; no all-time record claim"
+    },
+    "MNF": {
+      "artifact": "w10prep_mnf_data.md",
+      "evidence_artifact": "w10prep_mnf_evidence.json",
+      "calculation_artifact": "w10prep_mnf_calculations.json",
+      "selectors": [
+        "$.mnfPlayers",
+        "$.matchups[*]"
+      ],
+      "official_schedule_url": "https://www.baltimoreravens.com/game-day/2026/reg-week10/chargers-at-ravens/",
+      "scope": "Four scheduled fantasy starters, current slots, exact score-gap arithmetic"
+    },
+    "W11": {
+      "artifact": "w10prep_mnf_evidence.json",
+      "selector": "$.weeks[?(@.data.matchupPeriod==11)].data.matchups[*]",
+      "scope": "Six provider Week 11 home/away pairings; story venues separately resolved"
+    },
+    "CANON": {
+      "artifact": "w10prep_character_refs.json",
+      "selectors": [
+        "$.characters[*]",
+        "$.routes[*]"
+      ],
+      "scope": "Active owner/ref/parent-location resolution; current render attachment remains separate"
+    },
+    "W9FORM": {
+      "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/memo-os/week-9/Week_9_Approval_Review_Full_Names.json",
+      "selector": "$.folios[?(@.page_id==\"W09-P25\")]",
+      "actual_pdf_page": 30,
+      "scope": "Published scoring-form method and prior rank baseline; no official seed claim"
+    },
+    "RULES": {
+      "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/memo-os/week-9/Week_9_Approval_Review_Full_Names.json",
+      "selectors": [
+        "$.folios[?(@.page_id==\"W09-P38\")]",
+        "$.folios[?(@.page_id==\"W09-P39\")]"
+      ],
+      "current_count_evidence": "w10prep_mnf_evidence.json:rosters[*].data.homeFacts.playoffTeamCount",
+      "scope": "Division membership and established 14-week/three-division-winner plus four other berths structure; seven places corroborated current roster data"
+    },
+    "BOOK": {
+      "artifact": null,
+      "scope": "No confirmed Week 10 opening/closure notice, lines or settlement supplied to this production pass"
+    }
+  }
+}

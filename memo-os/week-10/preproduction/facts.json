@@ -1,0 +1,2280 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "S26-W10-PREPROD-FACTS-20261116",
+  "season": 2026,
+  "week": 10,
+  "captured_at_utc": "2026-11-16T11:42:11.062Z",
+  "sources": {
+    "S10": {
+      "kind": "FLAIM_ESPN_NORMALIZED",
+      "capture": "2026-11-16T11:32:46.639Z/2026-11-16T11:33:32.019Z",
+      "library_file_id": "libfile_6bf406fc55f08191a3da3a561cbdafcf",
+      "url": "https://chatgpt.com/library?file_id=libfile_6bf406fc55f08191a3da3a561cbdafcf&account_id=personal",
+      "sha256": "05f20a10f2a4dc29dbbea800902c4792707c2e948ab79d4dd71f6cfa0b98e3a2",
+      "original_filename": "Schemin_Week_10_FLAIM_Refresh_2026-11-16.json"
+    },
+    "SH": {
+      "kind": "FLAIM_ESPN_NORMALIZED",
+      "includes": "12 current rosters; Weeks 1–11 matchups",
+      "sha256": "ead448c37e62c1377f2001c0e8852bbe9855c9c62eeead077e72fc8e7d9911c6",
+      "original_filename": "w10prep_mnf_evidence.json",
+      "file": "sports-evidence.json",
+      "subset_sha256": "eb9673a847144f0f9f8798980240caf67dc293d65df1730d42aedcd9a201383b"
+    },
+    "SDIV": {
+      "kind": "APPROVED_WEEK9_MEMO_VISUAL",
+      "title": "Week 9 Shareable_v2 PDF",
+      "library_file_id": "libfile_3f8bb285aa348191ba09a6bf4fba1395",
+      "url": "https://chatgpt.com/library?file_id=libfile_3f8bb285aa348191ba09a6bf4fba1395&account_id=personal",
+      "physical_pages": [
+        28,
+        29
+      ],
+      "sha256": "6af7cfd3e69310fed6508e678ed0def9baf84b41d1db83776b0b0cd3b7ccef7d",
+      "review": "Root visually reviewed these pages and OCR page 29; supplied matching membership.",
+      "review_file": "week9-review.md"
+    },
+    "SNFL": {
+      "url": "https://www.baltimoreravens.com/game-day/2026/reg-week10/chargers-at-ravens/",
+      "corroborating_url": "https://www.baltimoreravens.com/schedule/2026/",
+      "kind": "OFFICIAL_TEAM_SCHEDULE"
+    }
+  },
+  "scopes": {
+    "W09_FINAL": "Provider-decided Weeks 1–9; official entering records and historical results.",
+    "W10_LIVE": "Observed Week 10 values; all six provider winner states UNDECIDED; subject to correction.",
+    "CURRENT_ROSTER_SLOTS": "Current fantasy roster/slot occupancy, matched to Week 10 entries; no medical diagnosis implied.",
+    "MNF_SCHEDULE_DEPENDENCY": "Club affiliation plus scheduled remaining NFL game, not a guarantee of player participation.",
+    "W10_COMPLETED_ACTIVITY": "Completed events returned in bounded Week 10 transaction window; not a claim of off-platform completeness.",
+    "W11_FIXTURES": "Provider Week 11 schedule at capture; records, projections and preview outcomes are not final.",
+    "CONDITIONAL": "Derived scenario only; does not establish official records, seeding, clinches or winner.",
+    "PROVISIONAL_SCORING_FORM": "Editorial formula including live Week 10 scoring; not ESPN rank, playoff seed, or objective power ranking.",
+    "W09_APPROVED_DIVISIONS": "Approved Week 9 Shareable_v2 PDF membership, physical pages 28–29; root visual/OCR verification."
+  },
+  "field_scopes": {
+    "teams.name": "S10 identity",
+    "teams.entering_record": "W09_FINAL",
+    "teams.division": "W09_APPROVED_DIVISIONS",
+    "teams.current_points": "W10_LIVE",
+    "teams.scorers": "W10_LIVE",
+    "teams.reserve_slots": "CURRENT_ROSTER_SLOTS",
+    "teams.entering_streak": "W09_FINAL",
+    "teams.post_week10_official_record": "UNAVAILABLE_NULL",
+    "teams.post_week10_official_seed": "UNAVAILABLE_NULL",
+    "games.final_winner": "UNAVAILABLE_NULL",
+    "teams.post_week10_official_points_for": "UNAVAILABLE_NULL"
+  },
+  "scorer_value_fields": [
+    "name",
+    "lineup_slot",
+    "points"
+  ],
+  "divisions": {
+    "fact_id": "W10-DIVISIONS",
+    "scope": "W09_APPROVED_DIVISIONS",
+    "source": "SDIV",
+    "members": {
+      "Burgers": [
+        "T05",
+        "T01",
+        "T06",
+        "T10"
+      ],
+      "Pizza": [
+        "T09",
+        "T08",
+        "T11",
+        "T04"
+      ],
+      "Wings": [
+        "T12",
+        "T02",
+        "T03",
+        "T07"
+      ]
+    }
+  },
+  "teams": {
+    "T01": {
+      "fact_id": "W10-T01",
+      "name": "ObiWan Jacoby",
+      "division": "Burgers",
+      "entering_record": {
+        "w": 4,
+        "l": 5,
+        "t": 0
+      },
+      "entering_streak": "L4",
+      "last_five_completed": "WLLLL",
+      "prior9_points_for": 1217.98,
+      "current_points": 130.33,
+      "scorers": {
+        "3043078": [
+          "Derrick Henry",
+          "RB",
+          0.0
+        ],
+        "3116365": [
+          "Mark Andrews",
+          "FLEX",
+          0.0
+        ],
+        "3126486": [
+          "Deebo Samuel Sr.",
+          "WR",
+          30.25
+        ],
+        "-16014": [
+          "Rams D/ST",
+          "D/ST",
+          24.8
+        ],
+        "4428331": [
+          "Rashee Rice",
+          "WR",
+          13.2
+        ],
+        "4360310": [
+          "Trevor Lawrence",
+          "QB",
+          34.18
+        ],
+        "3055899": [
+          "Harrison Butker",
+          "K",
+          5.0
+        ],
+        "2991662": [
+          "Mack Hollins",
+          "WR/TE",
+          9.8
+        ],
+        "2573401": [
+          "Tyler Higbee",
+          "TE",
+          10.7
+        ],
+        "4427728": [
+          "Bam Knight",
+          "RB",
+          2.4
+        ]
+      },
+      "reserve_slots": {
+        "Bench": [
+          "Kenneth Walker III",
+          "Jaylen Waddle",
+          "Kyle Monangai",
+          "Matthew Stafford",
+          "Mike Gesicki",
+          "Malachi Fields",
+          "Kalif Raymond"
+        ],
+        "IR": [
+          "Puka Nacua",
+          "Jacory Croskey-Merritt"
+        ]
+      },
+      "post_week10_official_record": null,
+      "post_week10_official_seed": null,
+      "reserve_occupancy": {
+        "Bench": 7,
+        "IR": 2
+      },
+      "entering_official_seed": 9,
+      "post_week10_official_points_for": null
+    },
+    "T02": {
+      "fact_id": "W10-T02",
+      "name": "Red Leopards",
+      "division": "Wings",
+      "entering_record": {
+        "w": 5,
+        "l": 4,
+        "t": 0
+      },
+      "entering_streak": "W1",
+      "last_five_completed": "LLWLW",
+      "prior9_points_for": 1256.69,
+      "current_points": 136.42,
+      "scorers": {
+        "4362628": [
+          "Ja'Marr Chase",
+          "WR",
+          36.1
+        ],
+        "4429615": [
+          "Zay Flowers",
+          "WR/TE",
+          0.0
+        ],
+        "3916148": [
+          "Tony Pollard",
+          "RB",
+          24.8
+        ],
+        "4385690": [
+          "Dalton Kincaid",
+          "TE",
+          7.8
+        ],
+        "4426385": [
+          "Zach Charbonnet",
+          "RB",
+          11.4
+        ],
+        "4430737": [
+          "Kyren Williams",
+          "FLEX",
+          6.4
+        ],
+        "4571557": [
+          "Spencer Shrader",
+          "K",
+          8.0
+        ],
+        "4695883": [
+          "Jalen Coker",
+          "WR",
+          0.4
+        ],
+        "4433970": [
+          "J.J. McCarthy",
+          "QB",
+          21.72
+        ],
+        "-16011": [
+          "Colts D/ST",
+          "D/ST",
+          19.8
+        ]
+      },
+      "reserve_slots": {
+        "Bench": [
+          "Rico Dowdle",
+          "Josh Downs",
+          "Kenyon Sadiq",
+          "Devaughn Vele",
+          "Pat Freiermuth",
+          "Dawson Knox",
+          "Drew Lock"
+        ],
+        "IR": [
+          "DeVonta Smith",
+          "Lamar Jackson"
+        ]
+      },
+      "post_week10_official_record": null,
+      "post_week10_official_seed": null,
+      "reserve_occupancy": {
+        "Bench": 7,
+        "IR": 2
+      },
+      "entering_official_seed": 4,
+      "post_week10_official_points_for": null
+    },
+    "T03": {
+      "fact_id": "W10-T03",
+      "name": "Slob on my Dobb",
+      "division": "Wings",
+      "entering_record": {
+        "w": 5,
+        "l": 4,
+        "t": 0
+      },
+      "entering_streak": "W1",
+      "last_five_completed": "LWWLW",
+      "prior9_points_for": 1420.7,
+      "current_points": 179.29,
+      "scorers": {
+        "3117251": [
+          "Christian McCaffrey",
+          "RB",
+          52.6
+        ],
+        "4241389": [
+          "CeeDee Lamb",
+          "WR",
+          20.2
+        ],
+        "3918298": [
+          "Josh Allen",
+          "QB",
+          26.84
+        ],
+        "4685472": [
+          "Tetairoa McMillan",
+          "WR",
+          6.5
+        ],
+        "5083076": [
+          "Harold Fannin Jr.",
+          "TE",
+          16.1
+        ],
+        "4032473": [
+          "Rashid Shaheed",
+          "FLEX",
+          5.55
+        ],
+        "4567104": [
+          "Will Reichard",
+          "K",
+          12.0
+        ],
+        "-16002": [
+          "Bills D/ST",
+          "D/ST",
+          14.1
+        ],
+        "4426502": [
+          "Drake London",
+          "WR/TE",
+          17.9
+        ],
+        "4360569": [
+          "Jordan Mason",
+          "RB",
+          7.5
+        ]
+      },
+      "reserve_slots": {
+        "Bench": [
+          "Broncos D/ST",
+          "Bucky Irving",
+          "Adonai Mitchell",
+          "Rome Odunze",
+          "Omar Cooper Jr.",
+          "Devin Singletary",
+          "Kaleb Johnson"
+        ],
+        "IR": [
+          "TreVeyon Henderson",
+          "Josh Jacobs"
+        ]
+      },
+      "post_week10_official_record": null,
+      "post_week10_official_seed": null,
+      "reserve_occupancy": {
+        "Bench": 7,
+        "IR": 2
+      },
+      "entering_official_seed": 7,
+      "post_week10_official_points_for": null
+    },
+    "T04": {
+      "fact_id": "W10-T04",
+      "name": "The LLC",
+      "division": "Pizza",
+      "entering_record": {
+        "w": 3,
+        "l": 6,
+        "t": 0
+      },
+      "entering_streak": "L1",
+      "last_five_completed": "WLLWL",
+      "prior9_points_for": 1245.29,
+      "current_points": 203.96,
+      "scorers": {
+        "4242335": [
+          "Jonathan Taylor",
+          "RB",
+          13.9
+        ],
+        "4569618": [
+          "Garrett Wilson",
+          "FLEX",
+          16.6
+        ],
+        "3915416": [
+          "DJ Moore",
+          "WR/TE",
+          21.5
+        ],
+        "4432620": [
+          "Parker Washington",
+          "WR",
+          29.7
+        ],
+        "3915511": [
+          "Joe Burrow",
+          "QB",
+          43.26
+        ],
+        "4361050": [
+          "Isaiah Likely",
+          "TE",
+          30.7
+        ],
+        "-16029": [
+          "Panthers D/ST",
+          "D/ST",
+          15.8
+        ],
+        "4427095": [
+          "DeMario Douglas",
+          "WR",
+          1.4
+        ],
+        "4685702": [
+          "Quinshon Judkins",
+          "RB",
+          17.1
+        ],
+        "3124679": [
+          "Jason Sanders",
+          "K",
+          14.0
+        ]
+      },
+      "reserve_slots": {
+        "Bench": [
+          "Omarion Hampton",
+          "Travis Etienne Jr.",
+          "J.K. Dobbins",
+          "Colston Loveland",
+          "Malik Washington",
+          "Jordyn Tyson",
+          "Jordan Love"
+        ],
+        "IR": [
+          "Jonathon Brooks",
+          "Michael Wilson"
+        ]
+      },
+      "post_week10_official_record": null,
+      "post_week10_official_seed": null,
+      "reserve_occupancy": {
+        "Bench": 7,
+        "IR": 2
+      },
+      "entering_official_seed": 11,
+      "post_week10_official_points_for": null
+    },
+    "T05": {
+      "fact_id": "W10-T05",
+      "name": "D0nkey K0ng",
+      "division": "Burgers",
+      "entering_record": {
+        "w": 5,
+        "l": 4,
+        "t": 0
+      },
+      "entering_streak": "W1",
+      "last_five_completed": "LWLLW",
+      "prior9_points_for": 1255.15,
+      "current_points": 156.67,
+      "scorers": {
+        "4430807": [
+          "Bijan Robinson",
+          "RB",
+          19.3
+        ],
+        "4361307": [
+          "Trey McBride",
+          "TE",
+          8.7
+        ],
+        "4427366": [
+          "Breece Hall",
+          "RB",
+          15.9
+        ],
+        "2577417": [
+          "Dak Prescott",
+          "QB",
+          45.82
+        ],
+        "4047650": [
+          "DK Metcalf",
+          "WR/TE",
+          15.4
+        ],
+        "3953687": [
+          "Brandon Aubrey",
+          "K",
+          11.0
+        ],
+        "-16034": [
+          "Texans D/ST",
+          "D/ST",
+          7.1
+        ],
+        "4384852": [
+          "Dohnte Meyers",
+          "FLEX",
+          12.9
+        ],
+        "4686422": [
+          "Xavier Hutchinson",
+          "WR",
+          15.8
+        ],
+        "4832800": [
+          "Denzel Boston",
+          "WR",
+          4.75
+        ]
+      },
+      "reserve_slots": {
+        "Bench": [
+          "Dallas Goedert",
+          "Alvin Kamara",
+          "Travis Hunter",
+          "Chiefs D/ST",
+          "Skyy Moore",
+          "MarShawn Lloyd",
+          "Jahan Dotson"
+        ],
+        "IR": [
+          "Davante Adams",
+          "Alec Pierce"
+        ]
+      },
+      "post_week10_official_record": null,
+      "post_week10_official_seed": null,
+      "reserve_occupancy": {
+        "Bench": 7,
+        "IR": 2
+      },
+      "entering_official_seed": 3,
+      "post_week10_official_points_for": null
+    },
+    "T06": {
+      "fact_id": "W10-T06",
+      "name": "Three Dreaded Snake",
+      "division": "Burgers",
+      "entering_record": {
+        "w": 4,
+        "l": 5,
+        "t": 0
+      },
+      "entering_streak": "L1",
+      "last_five_completed": "LWLWL",
+      "prior9_points_for": 1196.68,
+      "current_points": 75.78,
+      "scorers": {
+        "4361579": [
+          "Javonte Williams",
+          "RB",
+          9.3
+        ],
+        "4360689": [
+          "Tyler Shough",
+          "QB",
+          12.58
+        ],
+        "4569587": [
+          "Wan'Dale Robinson",
+          "WR",
+          4.0
+        ],
+        "4047646": [
+          "A.J. Brown",
+          "WR",
+          4.7
+        ],
+        "4882093": [
+          "Bhayshul Tuten",
+          "RB",
+          22.9
+        ],
+        "4870653": [
+          "KC Concepcion",
+          "WR/TE",
+          11.8
+        ],
+        "5082424": [
+          "Dominic Zvada",
+          "K",
+          2.0
+        ],
+        "2576925": [
+          "Darren Waller",
+          "TE",
+          4.4
+        ],
+        "4360797": [
+          "Tutu Atwell",
+          "FLEX",
+          4.1
+        ],
+        "-16033": [
+          "Ravens D/ST",
+          "D/ST",
+          0.0
+        ]
+      },
+      "reserve_slots": {
+        "Bench": [
+          "Makai Lemon",
+          "Caleb Williams",
+          "Luther Burden III",
+          "49ers D/ST",
+          "Ladd McConkey",
+          "Courtland Sutton",
+          "Audric Estime"
+        ],
+        "IR": [
+          "T.J. Hockenson",
+          "Tyreek Hill"
+        ]
+      },
+      "post_week10_official_record": null,
+      "post_week10_official_seed": null,
+      "reserve_occupancy": {
+        "Bench": 7,
+        "IR": 2
+      },
+      "entering_official_seed": 10,
+      "post_week10_official_points_for": null
+    },
+    "T07": {
+      "fact_id": "W10-T07",
+      "name": "The Chili Cheesers",
+      "division": "Wings",
+      "entering_record": {
+        "w": 5,
+        "l": 4,
+        "t": 0
+      },
+      "entering_streak": "W1",
+      "last_five_completed": "WLWLW",
+      "prior9_points_for": 1291.09,
+      "current_points": 93.7,
+      "scorers": {
+        "4374302": [
+          "Amon-Ra St. Brown",
+          "WR",
+          27.8
+        ],
+        "4595348": [
+          "Malik Nabers",
+          "WR",
+          7.4
+        ],
+        "4696981": [
+          "Cam Skattebo",
+          "RB",
+          29.0
+        ],
+        "4248528": [
+          "Christian Watson",
+          "WR/TE",
+          6.7
+        ],
+        "4432665": [
+          "Brock Bowers",
+          "TE",
+          3.8
+        ],
+        "-16023": [
+          "Steelers D/ST",
+          "D/ST",
+          -4.5
+        ],
+        "2473037": [
+          "Jason Myers",
+          "K",
+          3.0
+        ],
+        "3046439": [
+          "Hunter Henry",
+          "FLEX",
+          4.2
+        ],
+        "4685720": [
+          "Bryce Young",
+          "QB",
+          8.2
+        ],
+        "5081397": [
+          "Dylan Sampson",
+          "RB",
+          8.1
+        ]
+      },
+      "reserve_slots": {
+        "Bench": [
+          "David Montgomery",
+          "Kyle Pitts Sr.",
+          "Chris Godwin Jr.",
+          "Michael Mayer",
+          "Isaiah Williams",
+          "Giants D/ST",
+          "Elijah Mitchell"
+        ],
+        "IR": [
+          "RJ Harvey"
+        ]
+      },
+      "post_week10_official_record": null,
+      "post_week10_official_seed": null,
+      "reserve_occupancy": {
+        "Bench": 7,
+        "IR": 1
+      },
+      "entering_official_seed": 8,
+      "post_week10_official_points_for": null
+    },
+    "T08": {
+      "fact_id": "W10-T08",
+      "name": "His Majesty's Blood",
+      "division": "Pizza",
+      "entering_record": {
+        "w": 5,
+        "l": 4,
+        "t": 0
+      },
+      "entering_streak": "L1",
+      "last_five_completed": "WWLWL",
+      "prior9_points_for": 1243.19,
+      "current_points": 208.76,
+      "scorers": {
+        "4430878": [
+          "Jaxon Smith-Njigba",
+          "WR",
+          34.1
+        ],
+        "4426388": [
+          "Jameson Williams",
+          "WR",
+          9.0
+        ],
+        "4241416": [
+          "Chuba Hubbard",
+          "RB",
+          36.9
+        ],
+        "4697815": [
+          "Rachaad White",
+          "RB",
+          7.3
+        ],
+        "4430539": [
+          "Brenton Strange",
+          "TE",
+          8.9
+        ],
+        "-16016": [
+          "Vikings D/ST",
+          "D/ST",
+          26.0
+        ],
+        "3042519": [
+          "Aaron Jones Sr.",
+          "FLEX",
+          13.6
+        ],
+        "4686361": [
+          "Cam Little",
+          "K",
+          19.0
+        ],
+        "4361741": [
+          "Brock Purdy",
+          "QB",
+          42.86
+        ],
+        "4710855": [
+          "Konata Mumpfield",
+          "WR/TE",
+          11.1
+        ]
+      },
+      "reserve_slots": {
+        "Bench": [
+          "Chris Rodriguez Jr.",
+          "Ryan Flournoy",
+          "Michael Penix Jr.",
+          "Jonah Coleman",
+          "Antonio Williams",
+          "Xavier Worthy",
+          "Lions D/ST"
+        ],
+        "IR": [
+          "Carnell Tate",
+          "Terrance Ferguson"
+        ]
+      },
+      "post_week10_official_record": null,
+      "post_week10_official_seed": null,
+      "reserve_occupancy": {
+        "Bench": 7,
+        "IR": 2
+      },
+      "entering_official_seed": 5,
+      "post_week10_official_points_for": null
+    },
+    "T09": {
+      "fact_id": "W10-T09",
+      "name": "El Niño",
+      "division": "Pizza",
+      "entering_record": {
+        "w": 5,
+        "l": 4,
+        "t": 0
+      },
+      "entering_streak": "W3",
+      "last_five_completed": "LLWWW",
+      "prior9_points_for": 1260.95,
+      "current_points": 189.08,
+      "scorers": {
+        "4379399": [
+          "James Cook III",
+          "RB",
+          26.5
+        ],
+        "4362238": [
+          "Chase Brown",
+          "FLEX",
+          29.3
+        ],
+        "4239993": [
+          "Tee Higgins",
+          "WR",
+          11.6
+        ],
+        "4572680": [
+          "Tucker Kraft",
+          "TE",
+          2.9
+        ],
+        "2976212": [
+          "Stefon Diggs",
+          "WR",
+          20.3
+        ],
+        "4258173": [
+          "Nico Collins",
+          "WR/TE",
+          24.4
+        ],
+        "2971573": [
+          "Ka'imi Fairbairn",
+          "K",
+          7.0
+        ],
+        "4832955": [
+          "Emmett Johnson",
+          "RB",
+          38.3
+        ],
+        "14880": [
+          "Kirk Cousins",
+          "QB",
+          19.68
+        ],
+        "-16018": [
+          "Saints D/ST",
+          "D/ST",
+          9.1
+        ]
+      },
+      "reserve_slots": {
+        "Bench": [
+          "George Pickens",
+          "Mike Evans",
+          "Quentin Johnston",
+          "Tre Tucker",
+          "Tre' Harris",
+          "Deshaun Watson",
+          "Chad Ryland"
+        ],
+        "IR": [
+          "Jalen Hurts"
+        ]
+      },
+      "post_week10_official_record": null,
+      "post_week10_official_seed": null,
+      "reserve_occupancy": {
+        "Bench": 7,
+        "IR": 1
+      },
+      "entering_official_seed": 2,
+      "post_week10_official_points_for": null
+    },
+    "T10": {
+      "fact_id": "W10-T10",
+      "name": "Mud Dogs",
+      "division": "Burgers",
+      "entering_record": {
+        "w": 2,
+        "l": 7,
+        "t": 0
+      },
+      "entering_streak": "L7",
+      "last_five_completed": "LLLLL",
+      "prior9_points_for": 1067.73,
+      "current_points": 113.62,
+      "scorers": {
+        "4890973": [
+          "Ashton Jeanty",
+          "RB",
+          11.3
+        ],
+        "4430027": [
+          "Sam LaPorta",
+          "TE",
+          2.6
+        ],
+        "3040151": [
+          "George Kittle",
+          "WR/TE",
+          13.4
+        ],
+        "3916433": [
+          "Jakobi Meyers",
+          "WR",
+          6.5
+        ],
+        "3046779": [
+          "Jared Goff",
+          "QB",
+          29.52
+        ],
+        "4429059": [
+          "Woody Marks",
+          "RB",
+          8.7
+        ],
+        "3116389": [
+          "Samaje Perine",
+          "FLEX",
+          14.5
+        ],
+        "15818": [
+          "Keenan Allen",
+          "WR",
+          11.1
+        ],
+        "4249087": [
+          "Matt Gay",
+          "K",
+          8.0
+        ],
+        "-16005": [
+          "Browns D/ST",
+          "D/ST",
+          8.0
+        ]
+      },
+      "reserve_slots": {
+        "Bench": [
+          "Saquon Barkley",
+          "Jayden Daniels",
+          "Michael Pittman Jr.",
+          "Kenny Gainwell",
+          "Brian Robinson Jr.",
+          "Rashod Bateman",
+          "Treylon Burks"
+        ],
+        "IR": []
+      },
+      "post_week10_official_record": null,
+      "post_week10_official_seed": null,
+      "reserve_occupancy": {
+        "Bench": 7,
+        "IR": 0
+      },
+      "entering_official_seed": 12,
+      "post_week10_official_points_for": null
+    },
+    "T11": {
+      "fact_id": "W10-T11",
+      "name": "Seven Deadly Chins",
+      "division": "Pizza",
+      "entering_record": {
+        "w": 5,
+        "l": 4,
+        "t": 0
+      },
+      "entering_streak": "L1",
+      "last_five_completed": "WWWWL",
+      "prior9_points_for": 1210.4,
+      "current_points": 146.22,
+      "scorers": {
+        "4262921": [
+          "Justin Jefferson",
+          "WR",
+          16.4
+        ],
+        "4569987": [
+          "Jaylen Warren",
+          "RB",
+          9.8
+        ],
+        "3139477": [
+          "Patrick Mahomes",
+          "QB",
+          48.62
+        ],
+        "4431459": [
+          "Tyler Warren",
+          "TE",
+          2.5
+        ],
+        "4429096": [
+          "Blake Corum",
+          "RB",
+          23.6
+        ],
+        "-16026": [
+          "Seahawks D/ST",
+          "D/ST",
+          18.9
+        ],
+        "4685261": [
+          "Germie Bernard",
+          "WR/TE",
+          1.1
+        ],
+        "4869645": [
+          "Caleb Douglas",
+          "WR",
+          10.1
+        ],
+        "4366031": [
+          "Tank Dell",
+          "FLEX",
+          5.2
+        ],
+        "4258620": [
+          "Andre Szmyt",
+          "K",
+          10.0
+        ]
+      },
+      "reserve_slots": {
+        "Bench": [
+          "D'Andre Swift",
+          "Emeka Egbuka",
+          "Tyler Allgeier",
+          "Braelon Allen",
+          "Chig Okonkwo",
+          "Fernando Mendoza",
+          "Chimere Dike"
+        ],
+        "IR": [
+          "Jeremiyah Love",
+          "De'Zhaun Stribling"
+        ]
+      },
+      "post_week10_official_record": null,
+      "post_week10_official_seed": null,
+      "reserve_occupancy": {
+        "Bench": 7,
+        "IR": 2
+      },
+      "entering_official_seed": 6,
+      "post_week10_official_points_for": null
+    },
+    "T12": {
+      "fact_id": "W10-T12",
+      "name": "Dr. Duckhook",
+      "division": "Wings",
+      "entering_record": {
+        "w": 6,
+        "l": 3,
+        "t": 0
+      },
+      "entering_streak": "W5",
+      "last_five_completed": "WWWWW",
+      "prior9_points_for": 1324.48,
+      "current_points": 127.67,
+      "scorers": {
+        "4429795": [
+          "Jahmyr Gibbs",
+          "RB",
+          47.4
+        ],
+        "4701936": [
+          "Matthew Golden",
+          "WR",
+          12.65
+        ],
+        "4373678": [
+          "Khalil Shakir",
+          "WR/TE",
+          7.8
+        ],
+        "4431452": [
+          "Drake Maye",
+          "QB",
+          3.12
+        ],
+        "4711533": [
+          "Ollie Gordon II",
+          "RB",
+          17.5
+        ],
+        "4361370": [
+          "Chris Olave",
+          "WR",
+          6.0
+        ],
+        "4685512": [
+          "Jadarian Price",
+          "FLEX",
+          14.4
+        ],
+        "-16030": [
+          "Jaguars D/ST",
+          "D/ST",
+          6.8
+        ],
+        "3917232": [
+          "Tyler Bass",
+          "K",
+          7.0
+        ],
+        "15847": [
+          "Travis Kelce",
+          "TE",
+          5.0
+        ]
+      },
+      "reserve_slots": {
+        "Bench": [
+          "Rhamondre Stevenson",
+          "Kaelon Black",
+          "Juwan Johnson",
+          "C.J. Stroud",
+          "Buccaneers D/ST",
+          "Corey Kiner",
+          "Brian Thomas Jr."
+        ],
+        "IR": [
+          "Jordan Addison",
+          "Dameon Pierce"
+        ]
+      },
+      "post_week10_official_record": null,
+      "post_week10_official_seed": null,
+      "reserve_occupancy": {
+        "Bench": 7,
+        "IR": 2
+      },
+      "entering_official_seed": 1,
+      "post_week10_official_points_for": null
+    }
+  },
+  "games": [
+    {
+      "fact_id": "W10-G01",
+      "scope": "W10_LIVE",
+      "source": "S10",
+      "home": "T07",
+      "away": "T05",
+      "current_score": [
+        93.7,
+        156.67
+      ],
+      "away_lead": 62.97,
+      "provider_winner": "UNDECIDED",
+      "final_winner": null,
+      "remaining_starter_fact_ids": [],
+      "scheduled_starters_complete": true,
+      "overtake": null
+    },
+    {
+      "fact_id": "W10-G02",
+      "scope": "W10_LIVE",
+      "source": "S10",
+      "home": "T02",
+      "away": "T09",
+      "current_score": [
+        136.42,
+        189.08
+      ],
+      "away_lead": 52.66,
+      "provider_winner": "UNDECIDED",
+      "final_winner": null,
+      "remaining_starter_fact_ids": [
+        "W10-MNF-4429615"
+      ],
+      "scheduled_starters_complete": false,
+      "overtake": {
+        "scope": "CONDITIONAL",
+        "team": "T02",
+        "additional_points_strictly_greater_than": 52.66,
+        "equality": "TIE_REQUIRES_PROVIDER_RESOLUTION",
+        "assumptions": [
+          "captured lineup unchanged",
+          "other current scores unchanged except listed remaining starters"
+        ]
+      }
+    },
+    {
+      "fact_id": "W10-G03",
+      "scope": "W10_LIVE",
+      "source": "S10",
+      "home": "T06",
+      "away": "T11",
+      "current_score": [
+        75.78,
+        146.22
+      ],
+      "away_lead": 70.44,
+      "provider_winner": "UNDECIDED",
+      "final_winner": null,
+      "remaining_starter_fact_ids": [
+        "W10-MNF--16033"
+      ],
+      "scheduled_starters_complete": false,
+      "overtake": {
+        "scope": "CONDITIONAL",
+        "team": "T06",
+        "additional_points_strictly_greater_than": 70.44,
+        "equality": "TIE_REQUIRES_PROVIDER_RESOLUTION",
+        "assumptions": [
+          "captured lineup unchanged",
+          "other current scores unchanged except listed remaining starters"
+        ]
+      }
+    },
+    {
+      "fact_id": "W10-G04",
+      "scope": "W10_LIVE",
+      "source": "S10",
+      "home": "T10",
+      "away": "T03",
+      "current_score": [
+        113.62,
+        179.29
+      ],
+      "away_lead": 65.67,
+      "provider_winner": "UNDECIDED",
+      "final_winner": null,
+      "remaining_starter_fact_ids": [],
+      "scheduled_starters_complete": true,
+      "overtake": null
+    },
+    {
+      "fact_id": "W10-G05",
+      "scope": "W10_LIVE",
+      "source": "S10",
+      "home": "T12",
+      "away": "T08",
+      "current_score": [
+        127.67,
+        208.76
+      ],
+      "away_lead": 81.09,
+      "provider_winner": "UNDECIDED",
+      "final_winner": null,
+      "remaining_starter_fact_ids": [],
+      "scheduled_starters_complete": true,
+      "overtake": null
+    },
+    {
+      "fact_id": "W10-G06",
+      "scope": "W10_LIVE",
+      "source": "S10",
+      "home": "T01",
+      "away": "T04",
+      "current_score": [
+        130.33,
+        203.96
+      ],
+      "away_lead": 73.63,
+      "provider_winner": "UNDECIDED",
+      "final_winner": null,
+      "remaining_starter_fact_ids": [
+        "W10-MNF-3043078",
+        "W10-MNF-3116365"
+      ],
+      "scheduled_starters_complete": false,
+      "overtake": {
+        "scope": "CONDITIONAL",
+        "team": "T01",
+        "additional_points_strictly_greater_than": 73.63,
+        "equality": "TIE_REQUIRES_PROVIDER_RESOLUTION",
+        "assumptions": [
+          "captured lineup unchanged",
+          "other current scores unchanged except listed remaining starters"
+        ]
+      }
+    }
+  ],
+  "mnf": {
+    "fact_id": "W10-MNF",
+    "scope": "MNF_SCHEDULE_DEPENDENCY",
+    "sources": [
+      "SH",
+      "SNFL"
+    ],
+    "game": "Los Angeles Chargers at Baltimore Ravens",
+    "kickoff_et": "2026-11-16T20:15:00-05:00",
+    "starter_count": 4,
+    "starters": [
+      {
+        "fact_id": "W10-MNF-3043078",
+        "team": "T01",
+        "player_id": "3043078",
+        "name": "Derrick Henry",
+        "club": "BAL",
+        "slot": "RB",
+        "points_at_capture": 0
+      },
+      {
+        "fact_id": "W10-MNF-3116365",
+        "team": "T01",
+        "player_id": "3116365",
+        "name": "Mark Andrews",
+        "club": "BAL",
+        "slot": "FLEX",
+        "points_at_capture": 0
+      },
+      {
+        "fact_id": "W10-MNF-4429615",
+        "team": "T02",
+        "player_id": "4429615",
+        "name": "Zay Flowers",
+        "club": "BAL",
+        "slot": "WR/TE",
+        "points_at_capture": 0
+      },
+      {
+        "fact_id": "W10-MNF--16033",
+        "team": "T06",
+        "player_id": "-16033",
+        "name": "Ravens D/ST",
+        "club": "BAL",
+        "slot": "D/ST",
+        "points_at_capture": 0
+      }
+    ]
+  },
+  "completed_transactions": {
+    "fact_id": "W10-TX-COMPLETE",
+    "scope": "W10_COMPLETED_ACTIVITY",
+    "source": "S10",
+    "event_count": 29,
+    "trade_event_count": 0,
+    "window": "ESPN matchup period 10; date bounds unavailable; response not truncated",
+    "event_fields": [
+      "event_id",
+      "date",
+      "team",
+      "type",
+      "added",
+      "dropped",
+      "faab_bid"
+    ],
+    "events": [
+      [
+        "de481763-a023-41f1-9a3d-f9d9d39c4584",
+        "2026-11-15",
+        "T12",
+        "add",
+        [
+          "Brian Thomas Jr."
+        ],
+        [],
+        0
+      ],
+      [
+        "9cc85243-1384-48e2-8299-e7d4a7c6688e",
+        "2026-11-15",
+        "T01",
+        "add",
+        [
+          "Bam Knight"
+        ],
+        [
+          "Dalton Schultz"
+        ],
+        0
+      ],
+      [
+        "720df030-566a-4138-a669-51d24ab935f9",
+        "2026-11-14",
+        "T01",
+        "waiver",
+        [
+          "Kalif Raymond"
+        ],
+        [
+          "Romeo Doubs"
+        ],
+        1
+      ],
+      [
+        "12c36132-6551-4628-b8d6-0463eac7c686",
+        "2026-11-13",
+        "T11",
+        "add",
+        [
+          "Chimere Dike"
+        ],
+        [
+          "Pat Bryant"
+        ],
+        0
+      ],
+      [
+        "2118a4ed-c1d7-439b-8bdc-a0d91c2ca0cd",
+        "2026-11-12",
+        "T01",
+        "add",
+        [
+          "Tyler Higbee"
+        ],
+        [
+          "Kalif Raymond"
+        ],
+        0
+      ],
+      [
+        "b104acff-d40e-4ab1-a237-59cb22a734fd",
+        "2026-11-12",
+        "T03",
+        "add",
+        [
+          "Jordan Mason"
+        ],
+        [
+          "Chris Brooks"
+        ],
+        0
+      ],
+      [
+        "6936ce10-eb31-4ae3-b5f6-dc4ee1744880",
+        "2026-11-12",
+        "T11",
+        "add",
+        [
+          "Pat Bryant"
+        ],
+        [
+          "Jordan Watkins"
+        ],
+        0
+      ],
+      [
+        "88370b77-f24f-4962-8387-eb3c2385ef72",
+        "2026-11-11",
+        "T11",
+        "add",
+        [
+          "Jordan Watkins"
+        ],
+        [],
+        0
+      ],
+      [
+        "d017c99f-ea59-4d78-8b54-d6f6bc15ffec",
+        "2026-11-11",
+        "T11",
+        "add",
+        [
+          "De'Zhaun Stribling"
+        ],
+        [
+          "Jordan Watkins"
+        ],
+        0
+      ],
+      [
+        "3e725304-bb4b-4cb8-ace1-4df834adc337",
+        "2026-11-11",
+        "T02",
+        "add",
+        [
+          "Colts D/ST"
+        ],
+        [
+          "Bears D/ST"
+        ],
+        0
+      ],
+      [
+        "7a35777b-bff9-4b61-907d-2ef31e4334ad",
+        "2026-11-11",
+        "T02",
+        "add",
+        [
+          "Drew Lock"
+        ],
+        [],
+        0
+      ],
+      [
+        "eb519448-4747-4b1a-aacb-c138b435c763",
+        "2026-11-11",
+        "T04",
+        "add",
+        [
+          "Jason Sanders"
+        ],
+        [
+          "Cairo Santos"
+        ],
+        0
+      ],
+      [
+        "48bc265e-7ab0-4bd7-aef9-67d17b5f8948",
+        "2026-11-11",
+        "T03",
+        "add",
+        [
+          "Chris Brooks"
+        ],
+        [],
+        0
+      ],
+      [
+        "abd5caab-6a74-4ce1-895b-b03b79b4855a",
+        "2026-11-11",
+        "T03",
+        "drop",
+        [],
+        [
+          "Brandon Aiyuk"
+        ],
+        0
+      ],
+      [
+        "7ba74a81-8aa5-4a35-88c8-9657ac7c72e3",
+        "2026-11-11",
+        "T03",
+        "add",
+        [
+          "Kaleb Johnson"
+        ],
+        [
+          "Mike Washington Jr."
+        ],
+        0
+      ],
+      [
+        "2d245ad6-e602-4471-adb6-30aed1c95bb5",
+        "2026-11-11",
+        "T11",
+        "add",
+        [
+          "Andre Szmyt"
+        ],
+        [
+          "Chase McLaughlin"
+        ],
+        0
+      ],
+      [
+        "8e12b63f-b328-4a7f-8d41-f4fb186ef143",
+        "2026-11-11",
+        "T11",
+        "add",
+        [
+          "Jordan Watkins"
+        ],
+        [],
+        0
+      ],
+      [
+        "4bcc51d8-17bb-45c1-900d-c341c3506c90",
+        "2026-11-11",
+        "T06",
+        "add",
+        [
+          "Ravens D/ST"
+        ],
+        [
+          "Bengals D/ST"
+        ],
+        0
+      ],
+      [
+        "8f6b5bd8-1fee-441b-8b8a-3fde56728d0b",
+        "2026-11-11",
+        "T06",
+        "add",
+        [
+          "Tutu Atwell"
+        ],
+        [
+          "Seth McGowan"
+        ],
+        0
+      ],
+      [
+        "2a75823c-a099-47c5-baf5-867f1e86f101",
+        "2026-11-11",
+        "T06",
+        "add",
+        [
+          "Darren Waller"
+        ],
+        [
+          "Chris Boswell"
+        ],
+        0
+      ],
+      [
+        "fc5e84d1-7ea7-47d4-a08e-3c38fc38aafe",
+        "2026-11-11",
+        "T11",
+        "waiver",
+        [
+          "Tank Dell"
+        ],
+        [],
+        5
+      ],
+      [
+        "cca1ae9d-6f8f-481e-b6b9-fcf8558dd844",
+        "2026-11-11",
+        "T11",
+        "waiver",
+        [
+          "Fernando Mendoza"
+        ],
+        [],
+        5
+      ],
+      [
+        "5458c52a-8d4e-4861-85b7-52a0d58e003e",
+        "2026-11-11",
+        "T08",
+        "waiver",
+        [
+          "Konata Mumpfield"
+        ],
+        [
+          "Eli Raridon"
+        ],
+        11
+      ],
+      [
+        "aeea3baf-be16-4f63-99ba-e5d7bcfa05f5",
+        "2026-11-11",
+        "T01",
+        "waiver",
+        [
+          "Malachi Fields"
+        ],
+        [
+          "Tory Horton"
+        ],
+        11
+      ],
+      [
+        "8ad50ef3-4705-44da-be52-5b8702e81798",
+        "2026-11-11",
+        "T01",
+        "waiver",
+        [
+          "Mack Hollins"
+        ],
+        [
+          "Jalen Nailor"
+        ],
+        27
+      ],
+      [
+        "a860fe7d-4a71-4798-9b22-dee667603872",
+        "2026-11-11",
+        "T12",
+        "waiver",
+        [
+          "Corey Kiner"
+        ],
+        [
+          "Jordan Mason"
+        ],
+        35
+      ],
+      [
+        "71e30879-8174-417d-b093-aa8c620ebe6b",
+        "2026-11-10",
+        "T11",
+        "drop",
+        [],
+        [
+          "Brian Thomas Jr."
+        ],
+        0
+      ],
+      [
+        "aa2f811b-9adc-43f4-982f-0426eaeb8f99",
+        "2026-11-10",
+        "T11",
+        "drop",
+        [],
+        [
+          "Ja'Kobi Lane"
+        ],
+        0
+      ],
+      [
+        "f1def487-ed5e-46db-9296-b3954235bacb",
+        "2026-11-10",
+        "T11",
+        "drop",
+        [],
+        [
+          "Malik Willis"
+        ],
+        0
+      ]
+    ]
+  },
+  "week9": {
+    "fact_id": "W09-RESULTS",
+    "scope": "W09_FINAL",
+    "source": "SH",
+    "game_fields": [
+      "home",
+      "away",
+      "home_points",
+      "away_points",
+      "winner"
+    ],
+    "games": [
+      [
+        "T10",
+        "T09",
+        84.2,
+        125.54,
+        "T09"
+      ],
+      [
+        "T12",
+        "T01",
+        166.56,
+        144.46,
+        "T12"
+      ],
+      [
+        "T02",
+        "T11",
+        118.58,
+        112.18,
+        "T02"
+      ],
+      [
+        "T07",
+        "T08",
+        152.84,
+        135.08,
+        "T07"
+      ],
+      [
+        "T05",
+        "T04",
+        158.7,
+        129.89,
+        "T05"
+      ],
+      [
+        "T03",
+        "T06",
+        165.66,
+        159.56,
+        "T03"
+      ]
+    ]
+  },
+  "week11": {
+    "fact_id": "W11-FIXTURES",
+    "scope": "W11_FIXTURES",
+    "source": "SH",
+    "fixture_fields": [
+      "home",
+      "away"
+    ],
+    "fixtures": [
+      [
+        "T03",
+        "T09"
+      ],
+      [
+        "T06",
+        "T02"
+      ],
+      [
+        "T10",
+        "T11"
+      ],
+      [
+        "T01",
+        "T07"
+      ],
+      [
+        "T05",
+        "T08"
+      ],
+      [
+        "T12",
+        "T04"
+      ]
+    ]
+  },
+  "history_200": {
+    "fact_id": "W10-FIRST200",
+    "historical_scope": "W09_FINAL",
+    "current_scope": "W10_LIVE",
+    "source": "SH",
+    "completed_weeks_checked": [
+      1,
+      9
+    ],
+    "team_week_observations": 108,
+    "prior_200_plus_count": 0,
+    "prior_league_season_high": {
+      "team": "T07",
+      "week": 1,
+      "points": 198
+    },
+    "current_first_two_observed_200_plus": [
+      "T08",
+      "T04"
+    ],
+    "claim_limit": "2026 season through this capture; not all-time; current values subject to correction",
+    "new_personal_season_highs": [
+      [
+        "T08",
+        208.76,
+        177.32,
+        4
+      ],
+      [
+        "T04",
+        203.96,
+        193.73,
+        5
+      ],
+      [
+        "T09",
+        189.08,
+        170.62,
+        4
+      ]
+    ],
+    "personal_high_fields": [
+      "team",
+      "current",
+      "previous_best",
+      "previous_week"
+    ]
+  },
+  "provisional_scoring_form": {
+    "fact_id": "W10-SCORING-FORM",
+    "scope": "PROVISIONAL_SCORING_FORM",
+    "source_inputs": [
+      "S10",
+      "SH"
+    ],
+    "formula": "0.70 * ((prior9_points_for + current_week10_points) / 10) + 0.30 * current_week10_points",
+    "weights": {
+      "season_ppg_through10_including_live": 0.7,
+      "current_week10_points": 0.3
+    },
+    "display_rounding": "2 decimals, half up; sort by unrounded value",
+    "row_fields": [
+      "team",
+      "season_ppg_through10_including_live",
+      "unrounded_form",
+      "display_form"
+    ],
+    "rows": [
+      [
+        "T03",
+        159.999,
+        165.7863,
+        165.79
+      ],
+      [
+        "T08",
+        145.195,
+        164.2645,
+        164.26
+      ],
+      [
+        "T04",
+        144.925,
+        162.6355,
+        162.64
+      ],
+      [
+        "T09",
+        145.003,
+        158.2261,
+        158.23
+      ],
+      [
+        "T05",
+        141.182,
+        145.8284,
+        145.83
+      ],
+      [
+        "T12",
+        145.215,
+        139.9515,
+        139.95
+      ],
+      [
+        "T11",
+        135.662,
+        138.8294,
+        138.83
+      ],
+      [
+        "T02",
+        139.311,
+        138.4437,
+        138.44
+      ],
+      [
+        "T01",
+        134.831,
+        133.4807,
+        133.48
+      ],
+      [
+        "T07",
+        138.479,
+        125.0453,
+        125.05
+      ],
+      [
+        "T10",
+        118.135,
+        116.7805,
+        116.78
+      ],
+      [
+        "T06",
+        127.246,
+        111.8062,
+        111.81
+      ]
+    ],
+    "tie_breakers": [
+      "current Week10 points descending",
+      "stable team ID ascending"
+    ],
+    "week9_published_order": [
+      "T03",
+      "T12",
+      "T07",
+      "T05",
+      "T06",
+      "T01",
+      "T08",
+      "T04",
+      "T09",
+      "T02",
+      "T11",
+      "T10"
+    ],
+    "week9_order_source": "Week9 Shareable_v2 physical page30; source SDIV identifies PDF"
+  },
+  "conditional_records": {
+    "fact_id": "W10-CONDITIONAL-RECORDS",
+    "scope": "CONDITIONAL",
+    "source_inputs": [
+      "S10",
+      "SH"
+    ],
+    "baseline_condition": "All current leads hold and no later corrections change results",
+    "baseline": {
+      "T12": {
+        "w": 6,
+        "l": 4,
+        "t": 0
+      },
+      "T09": {
+        "w": 6,
+        "l": 4,
+        "t": 0
+      },
+      "T05": {
+        "w": 6,
+        "l": 4,
+        "t": 0
+      },
+      "T02": {
+        "w": 5,
+        "l": 5,
+        "t": 0
+      },
+      "T08": {
+        "w": 6,
+        "l": 4,
+        "t": 0
+      },
+      "T11": {
+        "w": 6,
+        "l": 4,
+        "t": 0
+      },
+      "T03": {
+        "w": 6,
+        "l": 4,
+        "t": 0
+      },
+      "T07": {
+        "w": 5,
+        "l": 5,
+        "t": 0
+      },
+      "T01": {
+        "w": 4,
+        "l": 6,
+        "t": 0
+      },
+      "T06": {
+        "w": 4,
+        "l": 6,
+        "t": 0
+      },
+      "T04": {
+        "w": 4,
+        "l": 6,
+        "t": 0
+      },
+      "T10": {
+        "w": 2,
+        "l": 8,
+        "t": 0
+      }
+    },
+    "six_four_group": [
+      "T12",
+      "T09",
+      "T05",
+      "T08",
+      "T11",
+      "T03"
+    ],
+    "alternatives": {
+      "red_wins": {
+        "game": "W10-G02",
+        "replace_records": {
+          "T02": {
+            "w": 6,
+            "l": 4,
+            "t": 0
+          },
+          "T09": {
+            "w": 5,
+            "l": 5,
+            "t": 0
+          }
+        },
+        "six_four_group": [
+          "T12",
+          "T02",
+          "T05",
+          "T08",
+          "T11",
+          "T03"
+        ]
+      },
+      "tds_wins": {
+        "game": "W10-G03",
+        "replace_records": {
+          "T06": {
+            "w": 5,
+            "l": 5,
+            "t": 0
+          },
+          "T11": {
+            "w": 5,
+            "l": 5,
+            "t": 0
+          }
+        },
+        "six_four_group": [
+          "T12",
+          "T09",
+          "T05",
+          "T08",
+          "T03"
+        ]
+      },
+      "red_and_tds_win": {
+        "games": [
+          "W10-G02",
+          "W10-G03"
+        ],
+        "six_four_group": [
+          "T12",
+          "T02",
+          "T05",
+          "T08",
+          "T03"
+        ],
+        "apply_record_replacements_from": [
+          "red_wins",
+          "tds_wins"
+        ]
+      },
+      "obiwan_wins": {
+        "game": "W10-G06",
+        "replace_records": {
+          "T01": {
+            "w": 5,
+            "l": 5,
+            "t": 0
+          },
+          "T04": {
+            "w": 3,
+            "l": 7,
+            "t": 0
+          }
+        },
+        "six_four_group": [
+          "T12",
+          "T09",
+          "T05",
+          "T08",
+          "T11",
+          "T03"
+        ]
+      }
+    },
+    "combination_rule": "Apply compatible record replacements by game. ObiWan/LLC result does not alter the 6–4 identity group. A tie is outside these win/loss branches; await provider resolution."
+  },
+  "release_constraints": [
+    "All six final_winner fields remain null until fresh provider-final evidence.",
+    "Post-Week10 official records and seeds remain null.",
+    "Reserve slots indicate fantasy placement only, not diagnosis or current medical clearance.",
+    "Completed transaction events exclude pending, failed and canceled rows.",
+    "Scoring-form rows are an editorial provisional measure, not standings."
+  ],
+  "scope_sources": {
+    "W09_FINAL": [
+      "S10",
+      "SH"
+    ],
+    "W10_LIVE": [
+      "S10"
+    ],
+    "CURRENT_ROSTER_SLOTS": [
+      "SH"
+    ],
+    "MNF_SCHEDULE_DEPENDENCY": [
+      "SH",
+      "SNFL"
+    ],
+    "W10_COMPLETED_ACTIVITY": [
+      "S10"
+    ],
+    "W11_FIXTURES": [
+      "SH"
+    ],
+    "CONDITIONAL": [
+      "S10",
+      "SH"
+    ],
+    "PROVISIONAL_SCORING_FORM": [
+      "S10",
+      "SH"
+    ],
+    "W09_APPROVED_DIVISIONS": [
+      "SDIV"
+    ]
+  },
+  "derived": {
+    "scope": "W10_LIVE",
+    "starting_position_leaders": {
+      "RB": {
+        "team": "T03",
+        "player_id": "3117251",
+        "player": "Christian McCaffrey",
+        "points": 52.6,
+        "points_selector": "/teams/T03/scorers/3117251/2"
+      },
+      "TE": {
+        "team": "T04",
+        "player_id": "4361050",
+        "player": "Isaiah Likely",
+        "points": 30.7,
+        "points_selector": "/teams/T04/scorers/4361050/2"
+      },
+      "WR": {
+        "team": "T02",
+        "player_id": "4362628",
+        "player": "Ja'Marr Chase",
+        "points": 36.1,
+        "points_selector": "/teams/T02/scorers/4362628/2"
+      },
+      "D/ST": {
+        "team": "T08",
+        "player_id": "-16016",
+        "player": "Vikings D/ST",
+        "points": 26.0,
+        "points_selector": "/teams/T08/scorers/-16016/2"
+      },
+      "QB": {
+        "team": "T11",
+        "player_id": "3139477",
+        "player": "Patrick Mahomes",
+        "points": 48.62,
+        "points_selector": "/teams/T11/scorers/3139477/2"
+      },
+      "K": {
+        "team": "T08",
+        "player_id": "4686361",
+        "player": "Cam Little",
+        "points": 19.0,
+        "points_selector": "/teams/T08/scorers/4686361/2"
+      }
+    },
+    "trios": {
+      "HMB": {
+        "team": "T08",
+        "player_ids": [
+          "4361741",
+          "4241416",
+          "4430878"
+        ],
+        "points": 113.86
+      },
+      "LLC": {
+        "team": "T04",
+        "player_ids": [
+          "3915511",
+          "4361050",
+          "4432620"
+        ],
+        "points": 103.66
+      }
+    },
+    "reserve_occupancy": {
+      "Bench": 84,
+      "IR": 20,
+      "teams_with_IR": 11
+    }
+  },
+  "bench_observations": {
+    "George_Pickens": {
+      "team": "T09",
+      "player_id": "4426354",
+      "name": "George Pickens",
+      "slot": "Bench",
+      "started": false,
+      "points": 44.5,
+      "scope": "W10_LIVE_NONSCORING_BENCH"
+    }
+  },
+  "rules": {
+    "scope": "ESTABLISHED_APPROVED_RULES",
+    "regular_season_weeks": 14,
+    "playoff_berths": 7,
+    "division_winner_berths": 3,
+    "shared_berths": 4,
+    "division_return_weeks": [
+      12,
+      13,
+      14
+    ],
+    "remaining_after_week10_per_team": 4,
+    "remaining_after_week10_league_games": 24,
+    "source": "Week9 Shareable_v2 physical pages29 and31; seven-berth count corroborated in current roster homeFacts in sports-evidence.json"
+  }
+}
