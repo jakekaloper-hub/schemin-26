@@ -2,6 +2,12 @@
 
 **Working title: The Ceiling Breaks.** Prepared November 16, 2026, before Chargers–Ravens. This is the completed written pre-production package for creative review; results and final art remain open.
 
+## Personalized cinematic revision — November 16
+
+The six stories now follow Jake’s personal direction: an explosive Jedi/Imperial battle; a birthday-party catastrophe; sustained Slob domination; newborn/noise trolling at the temple; a cold autumn storm shaped by Red’s 2022 semifinal memory; and a muddy public rodeo ending in Chili’s hogtie. These directions supersede the first packet’s quieter staging.
+
+Every pairing now has a verified historical anchor. The research distinguishes old team names from current owners, consolation games from elimination, and past outcomes from this week’s still-open results. The proposed page count and stable page IDs are unchanged.
+
 ## Completed
 
 - Reviewed the actual **34-page Week 9 Shareable_v2 PDF**, earlier weekly execution and current production instructions. Recorded the incorrect Week 9 DK–LLC score lettering and correctly identified the omitted Race to Seven page.
@@ -15,6 +21,11 @@
 
 | File | Purpose |
 |---|---|
+| [personalization-intake.md](personalization-intake.md) | Accepted personal and cinematic direction for all six scenes |
+| [historical-context.md](historical-context.md) | Readable six-pair history and why each result matters now |
+| [historical-research.json](historical-research.json) | Verified historical anchors,37 retrieved meetings and coverage limits |
+| [historical-provider-evidence.json](historical-provider-evidence.json) | Preserved source responses behind the historical research |
+| [personalization-review.md](personalization-review.md) | Bounded Inklings-method critique and integration receipt |
 | [issue-draft.md](issue-draft.md) | Complete copy in reading order, scene directions and alternate endings |
 | [issue-previs.json](issue-previs.json) | All33 page contracts and proposed order |
 | [storycards.json](storycards.json) | Six matchup and 15 supporting department source cards |
@@ -29,9 +40,9 @@
 
 ## Working editorial choices
 
-“The Ceiling Breaks” leads with the two current 200+ performances. A possible six-team 6–4 group is a conditional secondary story. Chili–D0nkey K0ng remains the proposed Game of the Week from Week 9. Its neutral-site default and home-site fallback are separate options; neither is falsely approved.
+“The Ceiling Breaks” leads with the two current 200+ performances. A possible six-team 6–4 group is a conditional secondary story. Chili–D0nkey K0ng remains the Game of the Week direction, now staged as Jake’s requested muddy rodeo spectacle at the neutral grounds. The detailed arena composition remains a draft within that accepted direction.
 
-Each matchup has a distinct physical mechanism. The set pieces carry Week 9 consequences forward: Red’s damaged terrace, Chins’s truck predicament, Mud’s old racing ruts and HMB’s retained belt. New action, partial repairs, scene dressing and character thoughts are proposed fiction.
+Each matchup has a distinct physical mechanism. The set pieces carry Week 9 consequences forward and add the personal context Jake supplied. The birthday and new baby drive their respective scenes. Historical results explain the competitive memory; new action, scene dressing and character thoughts are fiction developed from that direction.
 
 The Commissioner letter is a draft for Jake. The Book has no confirmed Week 10 notice; its prepared optional card does not establish reopening, lines or payouts. The roster ledger reports fantasy IR placement, not a medical diagnosis.
 

@@ -38,6 +38,17 @@
       "url": "https://www.baltimoreravens.com/game-day/2026/reg-week10/chargers-at-ravens/",
       "corroborating_url": "https://www.baltimoreravens.com/schedule/2026/",
       "kind": "OFFICIAL_TEAM_SCHEDULE"
+    },
+    "HISTORY": {
+      "file": "historical-research.json",
+      "evidence_file": "historical-provider-evidence.json",
+      "sha256": "b1dfe87c73609e46bf3fe0ff424c3d2c77bbd14b7b023ed85acf5d8dc16d5308",
+      "scope": "Verified earlier meetings, qualified owner aliases, explicitly bounded season coverage"
+    },
+    "PERSONAL": {
+      "file": "personalization-intake.md",
+      "kind": "DIRECT_COMMISSIONER_INSTRUCTION",
+      "date": "2026-11-16"
     }
   },
   "scopes": {
@@ -2276,5 +2287,324 @@
     "remaining_after_week10_per_team": 4,
     "remaining_after_week10_league_games": 24,
     "source": "Week9 Shareable_v2 physical pages29 and31; seven-berth count corroborated in current roster homeFacts in sports-evidence.json"
+  },
+  "historical_context": {
+    "W10-G01": {
+      "game_id": "W10-G01",
+      "current_team_ids": [
+        7,
+        5
+      ],
+      "current_team_names": [
+        "The Chili Cheesers",
+        "D0nkey K0ng"
+      ],
+      "title": "The earlier consolation defeat",
+      "anchor_fact_id": "HIST-2025-W16-T05-T07",
+      "public_copy": "In 2025 Week 16, Baker Moore Purdy — Wilson’s prior team name — beat The Chili Cheesers 144.30–128.72. The 15.58-point result belongs to the winners-consolation ladder.",
+      "supported_stakes": "Winners-consolation game, not a championship elimination.",
+      "creative_use_scope": "A concrete prior defeat for Chili against the same verified Wilson persona; do not inflate its championship stakes.",
+      "all_time_h2h": null,
+      "last_meeting_claim": false,
+      "anchor": {
+        "fact_id": "HIST-2025-W16-T05-T07",
+        "season": 2025,
+        "week": 16,
+        "calendar_date": null,
+        "home_team_id": 7,
+        "home_name_as_returned": "The Chili Cheesers ",
+        "home_points": 128.72,
+        "away_team_id": 5,
+        "away_name_as_returned": "Baker Moore Purdy",
+        "away_points": 144.3,
+        "winner_team_id": 5,
+        "winner_name_as_returned": "Baker Moore Purdy",
+        "margin": 15.58,
+        "provider_winner": "AWAY",
+        "provider_playoff_tier": "WINNERS_CONSOLATION_LADDER",
+        "source_pointer": "/seasons/2025/weeks/16/data/matchups/2",
+        "binding_scope": "same named teams or independently verified current alias",
+        "current_personal_copy_allowed": true
+      }
+    },
+    "W10-G02": {
+      "game_id": "W10-G02",
+      "current_team_ids": [
+        2,
+        9
+      ],
+      "current_team_names": [
+        "Red Leopards",
+        "El Niño"
+      ],
+      "title": "The 13–1 season that ended in the semifinal",
+      "anchor_fact_id": "HIST-2022-W16-T02-T09",
+      "public_copy": "In the 2022 Week 16 semifinal, El Niño beat Red Leopards 116.32–97.96 by 18.36. Red had finished the regular season 13–1 as the No.1 seed; El Niño entered 7–7 as the No.5 seed. Niño then won the championship.",
+      "supported_stakes": "Verified semifinal elimination of the No.1 seed; El Niño went on to win the championship.",
+      "creative_use_scope": "This supports a specific championship-run wound, rather than a generic regular-season playoff-push loss. Current Week10 can echo the history only conditionally until the final result locks.",
+      "all_time_h2h": null,
+      "last_meeting_claim": false,
+      "anchor": {
+        "fact_id": "HIST-2022-W16-T02-T09",
+        "season": 2022,
+        "week": 16,
+        "calendar_date": null,
+        "home_team_id": 2,
+        "home_name_as_returned": "Red Leopards",
+        "home_points": 97.96,
+        "away_team_id": 9,
+        "away_name_as_returned": "El Niño",
+        "away_points": 116.32,
+        "winner_team_id": 9,
+        "winner_name_as_returned": "El Niño",
+        "margin": 18.36,
+        "provider_winner": "AWAY",
+        "provider_playoff_tier": "WINNERS_BRACKET",
+        "source_pointer": "/seasons/2022/weeks/16/data/matchups/0",
+        "binding_scope": "same named teams or independently verified current alias",
+        "current_personal_copy_allowed": true
+      },
+      "stakes_facts": {
+        "regular_season_records": {
+          "Red Leopards": "13–1",
+          "El Niño": "7–7"
+        },
+        "playoff_seeds": {
+          "Red Leopards": 1,
+          "El Niño": 5
+        },
+        "verified_final_ranks": {
+          "Red Leopards": 3,
+          "El Niño": 1
+        },
+        "nino_championship_won": true,
+        "outcome_confidence": "explicit",
+        "standings_source_pointer": "/seasons/2022/standings/data/standings",
+        "regular_season_series": [
+          {
+            "fact_id": "HIST-2022-W08-T02-T09",
+            "red_points": 192.2,
+            "nino_points": 129.55,
+            "red_margin": 62.65
+          },
+          {
+            "fact_id": "HIST-2022-W14-T02-T09",
+            "red_points": 142.26,
+            "nino_points": 82.43,
+            "red_margin": 59.83
+          }
+        ],
+        "red_entering_semifinal_played_game_streak": 7,
+        "streak_scope": "Seven consecutive regular-season victories, Weeks8–14; Week15 has no paired opponent for Red. Do not count the unpaired record as a win.",
+        "title_game": {
+          "week": 17,
+          "winner": "El Niño",
+          "winner_points": 111.56,
+          "opponent_name_as_returned": "Where Mahomies at?",
+          "opponent_points": 78.3,
+          "margin": 33.26,
+          "source_pointer": "/seasons/2022/weeks/17/data/matchups/0"
+        },
+        "semifinal_classification_basis": "Two WINNERS_BRACKET pairings in Week16; one title pairing in Week17; explicit final ranks confirm El Niño champion and Red third."
+      }
+    },
+    "W10-G03": {
+      "game_id": "W10-G03",
+      "current_team_ids": [
+        6,
+        11
+      ],
+      "current_team_names": [
+        "Three Dreaded Snake",
+        "Seven Deadly Chins"
+      ],
+      "title": "Last season’s two defeats, now a possible reversal",
+      "anchor_fact_id": "HIST-2025-W14-T06-T11",
+      "public_copy": "Three Dreaded Snake beat Seven Deadly Chins twice in 2025: 189.72–172.00 in Week 3 and 139.84–90.70 in Week 14, margins of 17.72 and 49.14.",
+      "supported_stakes": "Both cited 2025 games were regular season; no elimination claim.",
+      "creative_use_scope": "Chins’ present Week10 lead offers a reversal of two verified prior defeats. Keep the 2026 payoff conditional while Ravens D/ST remains.",
+      "all_time_h2h": null,
+      "last_meeting_claim": false,
+      "anchor": {
+        "fact_id": "HIST-2025-W14-T06-T11",
+        "season": 2025,
+        "week": 14,
+        "calendar_date": null,
+        "home_team_id": 11,
+        "home_name_as_returned": "Seven Deadly Chins",
+        "home_points": 90.7,
+        "away_team_id": 6,
+        "away_name_as_returned": "Three Dreaded Snake",
+        "away_points": 139.84,
+        "winner_team_id": 6,
+        "winner_name_as_returned": "Three Dreaded Snake",
+        "margin": 49.14,
+        "provider_winner": "AWAY",
+        "provider_playoff_tier": "NONE",
+        "source_pointer": "/seasons/2025/weeks/14/data/matchups/2",
+        "binding_scope": "same named teams or independently verified current alias",
+        "current_personal_copy_allowed": true
+      }
+    },
+    "W10-G04": {
+      "game_id": "W10-G04",
+      "current_team_ids": [
+        10,
+        3
+      ],
+      "current_team_names": [
+        "Mud Dogs",
+        "Slob on my Dobb"
+      ],
+      "title": "The 3.15-point consolation scrape",
+      "anchor_fact_id": "HIST-2025-W17-T03-T10",
+      "public_copy": "In 2025 Week 17, Slob on my Dobb beat Mud Dogs 100.28–97.13 by 3.15 in the losers-consolation ladder.",
+      "supported_stakes": "Losers-consolation game; it did not eliminate Mud from the championship.",
+      "creative_use_scope": "Use the remembered narrow scrape as contrast with the large current Week10 gap; avoid turning the consolation result into a playoff elimination.",
+      "all_time_h2h": null,
+      "last_meeting_claim": false,
+      "anchor": {
+        "fact_id": "HIST-2025-W17-T03-T10",
+        "season": 2025,
+        "week": 17,
+        "calendar_date": null,
+        "home_team_id": 10,
+        "home_name_as_returned": "Mud Dogs",
+        "home_points": 97.13,
+        "away_team_id": 3,
+        "away_name_as_returned": "Slob on my Dobb",
+        "away_points": 100.28,
+        "winner_team_id": 3,
+        "winner_name_as_returned": "Slob on my Dobb",
+        "margin": 3.15,
+        "provider_winner": "AWAY",
+        "provider_playoff_tier": "LOSERS_CONSOLATION_LADDER",
+        "source_pointer": "/seasons/2025/weeks/17/data/matchups/4",
+        "binding_scope": "same named teams or independently verified current alias",
+        "current_personal_copy_allowed": true
+      }
+    },
+    "W10-G05": {
+      "game_id": "W10-G05",
+      "current_team_ids": [
+        12,
+        8
+      ],
+      "current_team_names": [
+        "Dr. Duckhook",
+        "His Majesty’s Blood"
+      ],
+      "title": "The semifinal decided by four tenths",
+      "anchor_fact_id": "HIST-2025-W16-T08-T12",
+      "public_copy": "In the 2025 Week 16 semifinal, The Immortal — Austin’s prior persona, now His Majesty’s Blood — beat Dr. Duckhook 152.20–151.80 by 0.40. The Immortal then beat ObiWan Jacoby 161.07–109.56 in the final.",
+      "supported_stakes": "Verified 2025 semifinal; The Immortal advanced and won the championship.",
+      "creative_use_scope": "A particularly strong personal callback: Duck’s prior semifinal ended four tenths short against the same verified Austin persona. The current Week10 lead is still snapshot copy until provider finalization.",
+      "all_time_h2h": null,
+      "last_meeting_claim": false,
+      "anchor": {
+        "fact_id": "HIST-2025-W16-T08-T12",
+        "season": 2025,
+        "week": 16,
+        "calendar_date": null,
+        "home_team_id": 12,
+        "home_name_as_returned": "Dr. Duckhook",
+        "home_points": 151.8,
+        "away_team_id": 8,
+        "away_name_as_returned": "The Immortal",
+        "away_points": 152.2,
+        "winner_team_id": 8,
+        "winner_name_as_returned": "The Immortal",
+        "margin": 0.4,
+        "provider_winner": "AWAY",
+        "provider_playoff_tier": "WINNERS_BRACKET",
+        "source_pointer": "/seasons/2025/weeks/16/data/matchups/1",
+        "binding_scope": "same named teams or independently verified current alias",
+        "current_personal_copy_allowed": true
+      },
+      "stakes_facts": {
+        "hmb_prior_persona": "The Immortal",
+        "title_game": {
+          "week": 17,
+          "winner": "The Immortal",
+          "winner_points": 161.07,
+          "opponent": "ObiWan Jacoby",
+          "opponent_points": 109.56,
+          "margin": 51.51,
+          "source_pointer": "/seasons/2025/weeks/17/data/matchups/0"
+        },
+        "outcome_source_pointer": "/seasons/2025/standings/data/standings",
+        "championship_won": true,
+        "outcome_confidence": "explicit",
+        "semifinal_classification_basis": "Two WINNERS_BRACKET pairings in Week16; single title pairing in Week17; explicit outcomes confirm The Immortal champion and Duckhook fourth."
+      }
+    },
+    "W10-G06": {
+      "game_id": "W10-G06",
+      "current_team_ids": [
+        1,
+        4
+      ],
+      "current_team_names": [
+        "ObiWan Jacoby",
+        "The LLC"
+      ],
+      "title": "The LLC’s eight-tenths door",
+      "anchor_fact_id": "HIST-2024-W12-T01-T04",
+      "public_copy": "In 2024 Week 12, The LLC beat ObiWan Jacoby 163.16–162.36 by 0.80. It was a regular-season game, not the end of ObiWan’s season.",
+      "supported_stakes": "Regular-season Week12 result. ObiWan subsequently won the 2024 championship; LLC finished seventh.",
+      "creative_use_scope": "Use this verified earlier razor-thin LLC win; do not call it their most recent meeting because the 2025 retrieval has gaps.",
+      "all_time_h2h": null,
+      "last_meeting_claim": false,
+      "anchor": {
+        "fact_id": "HIST-2024-W12-T01-T04",
+        "season": 2024,
+        "week": 12,
+        "calendar_date": null,
+        "home_team_id": 4,
+        "home_name_as_returned": "The LLC",
+        "home_points": 163.16,
+        "away_team_id": 1,
+        "away_name_as_returned": "ObiWan Jacoby",
+        "away_points": 162.36,
+        "winner_team_id": 4,
+        "winner_name_as_returned": "The LLC",
+        "margin": 0.8,
+        "provider_winner": "HOME",
+        "provider_playoff_tier": "NONE",
+        "source_pointer": "/seasons/2024/weeks/12/data/matchups/3",
+        "binding_scope": "same named teams or independently verified current alias",
+        "current_personal_copy_allowed": true
+      },
+      "stakes_facts": {
+        "obiwan_2024_championship_won": true,
+        "obiwan_2024_final_rank": 1,
+        "llc_2024_final_rank": 7,
+        "outcome_confidence": "explicit",
+        "source_pointer": "/seasons/2024/standings/data/standings"
+      }
+    }
+  },
+  "personal_context": {
+    "source": "Commissioner Jake, direct conversation instruction2026-11-16; personalization-intake.md",
+    "Duckhook_birthday": {
+      "scope": "USER_CONFIRMED_PERSONAL_CONTEXT",
+      "claim": "Week10 matchup coincided with Dr. Duckhook birthday",
+      "age": null,
+      "exact_birth_date": null
+    },
+    "TDS_new_baby": {
+      "scope": "USER_CONFIRMED_AND_WEEK9_MEMO",
+      "claim": "A new baby arrived in the previous week",
+      "name": null,
+      "sex": null,
+      "exact_birth_date": null
+    },
+    "scene_status": "User direction accepted; new fictional choreography and detailed copy remain draft."
+  },
+  "current_recheck": {
+    "file": "current-score-recheck.json",
+    "date": "2026-11-16",
+    "scope": "Score/winner recheck only; all six current scores unchanged and provider outcomes still UNDECIDED",
+    "sha256": "977c48f0a1bee8adb7e0cc452a69171085e4fafcfc2beca210f996f4f0fcfc3b"
   }
 }

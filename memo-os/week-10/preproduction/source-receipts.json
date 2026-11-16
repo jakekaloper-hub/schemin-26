@@ -42,6 +42,17 @@
       "url": "https://www.baltimoreravens.com/game-day/2026/reg-week10/chargers-at-ravens/",
       "corroborating_url": "https://www.baltimoreravens.com/schedule/2026/",
       "kind": "OFFICIAL_TEAM_SCHEDULE"
+    },
+    "HISTORY": {
+      "file": "historical-research.json",
+      "evidence_file": "historical-provider-evidence.json",
+      "sha256": "b1dfe87c73609e46bf3fe0ff424c3d2c77bbd14b7b023ed85acf5d8dc16d5308",
+      "scope": "Verified earlier meetings, qualified owner aliases, explicitly bounded season coverage"
+    },
+    "PERSONAL": {
+      "file": "personalization-intake.md",
+      "kind": "DIRECT_COMMISSIONER_INSTRUCTION",
+      "date": "2026-11-16"
     }
   },
   "character_asset_receipts": [
@@ -203,8 +214,8 @@
   "files": [
     {
       "path": "README.md",
-      "sha256": "b2789c7c16e9dcce0bdf4b740f5e12b8e3eb5870b97f38b9377d7a992c1dca5f",
-      "bytes": 3988
+      "sha256": "cc8c3566d319f0dc46fac82eecec5608255b5295047d8d2f7dc806d1fe2cbb80",
+      "bytes": 5387
     },
     {
       "path": "character-world-packet.json",
@@ -212,24 +223,59 @@
       "bytes": 50859
     },
     {
+      "path": "current-score-recheck.json",
+      "sha256": "977c48f0a1bee8adb7e0cc452a69171085e4fafcfc2beca210f996f4f0fcfc3b",
+      "bytes": 4590
+    },
+    {
       "path": "facts.json",
-      "sha256": "c52e363d7b5d9ef1c1384918efed9c432e1f17afca1414eb5be25e2627209213",
+      "sha256": "e4ae1228766abef09db5f4b2e69e0cd2677c806026b4d72b5b405a7e17a70027",
+      "bytes": 61039
+    },
+    {
+      "path": "historical-archive.json",
+      "sha256": "b3f8403518b16d38498a7fd3591e3058858945e3dc5516d7543586abccc06eaa",
+      "bytes": 47553
+    },
+    {
+      "path": "historical-context.md",
+      "sha256": "a04687b0d9b8996781437859f04cb528537cd7f66ef503ee93270268fa481278",
+      "bytes": 5112
+    },
+    {
+      "path": "historical-provider-evidence.json",
+      "sha256": "b1dfe87c73609e46bf3fe0ff424c3d2c77bbd14b7b023ed85acf5d8dc16d5308",
+      "bytes": 376456
+    },
+    {
+      "path": "historical-research.json",
+      "sha256": "d2a40f6789bc84d34395c2a1fd74074760d059e655b288be347815a7622c406d",
       "bytes": 47445
     },
     {
       "path": "issue-draft.md",
-      "sha256": "a12b70e09439681156781491f51b22d20e479eb1cfe93d239489a3542e3bf320",
-      "bytes": 66336
+      "sha256": "71fc7261090cac46c8cf0b4c3dbd75a101f466a11533528829c7935d22912117",
+      "bytes": 77857
     },
     {
       "path": "issue-previs.json",
-      "sha256": "347c55b1ace799271a348156b2a3729100b9bd209bf61735b59e8d5ae64be2a7",
-      "bytes": 512990
+      "sha256": "c0ee529faec192c799ef5764ea0f7a84cf9dde8a3266a5a8a28bcee41453c0ef",
+      "bytes": 619835
+    },
+    {
+      "path": "personalization-intake.md",
+      "sha256": "2775b2a18b94e481615208defbb2d308d65dcee1747b94f03893eaea9f824a07",
+      "bytes": 6054
+    },
+    {
+      "path": "personalization-review.md",
+      "sha256": "45f248c1dc54effa6a9bf7d4e587d500ec18bb53fdbdbbf464cece4ae02c6f78",
+      "bytes": 11092
     },
     {
       "path": "production-next-steps.md",
-      "sha256": "a08624d0987a7c2bb0d7ffedf7fdc49236e438aeeb816f1a7d166dc41f77a299",
-      "bytes": 7479
+      "sha256": "f19af407c30618f6c632b2de83dd4e44b8997a1b1f5e732534bc7123f2f271a3",
+      "bytes": 8924
     },
     {
       "path": "sports-evidence.json",
@@ -238,13 +284,13 @@
     },
     {
       "path": "storycards.json",
-      "sha256": "b2339ef1ec4fc5c3703a77a912cde143dcb8b7ddacb8347b479d30d5d3f9877e",
-      "bytes": 176324
+      "sha256": "4e32a91b85c502792a12a0e55aed7106db505aba89807de10a94ad04752e054a",
+      "bytes": 184145
     },
     {
       "path": "validation.json",
-      "sha256": "bdc80070b87848486baea722805d510e327a981aa3e36921257e6ffa2dfbda5e",
-      "bytes": 4688
+      "sha256": "ba947ca4eb42e6bcb43b094cd52acc3d435e2e1c68cccb513f39c092559bb583",
+      "bytes": 6174
     },
     {
       "path": "week9-review.md",

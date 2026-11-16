@@ -4,6 +4,12 @@
 
 The proposed reading run has **32 pages**, with one additional prepared Pittsy’s Book slot held out by default. All six matchups have three written beats and alternative payoff copy. Page IDs remain stable if the order changes.
 
+## Personalization revision
+
+All six matchup sequences below incorporate Jake’s November 16 personal direction and a verified prior-matchup anchor. The first packet’s quiet table, flood, doorway and crate mechanisms are superseded. Historical context shown in each scene plan is source material for the writing; it is not an instruction to print every research paragraph on the page.
+
+[Six-pair history](historical-context.md) · [Accepted direction](personalization-intake.md) · [Inklings-method review](personalization-review.md)
+
 ## Proposed reading order
 
 
@@ -13,26 +19,26 @@ The proposed reading run has **32 pages**, with one additional prepared Pittsy�
 | 2 | W10-P02 | opening_drive | ROOM ABOVE TWO HUNDRED |
 | 3 | W10-P03 | commissioner_note | KEEP THE WHOLE LEAGUE IN VIEW |
 | 4 | W10-P04 | scoreboard | THE WEEK 10 BOARD |
-| 5 | W10-P05 | matchup_establishing | A Public Demonstration |
-| 6 | W10-P06 | matchup_action | Four Hooves Change the Angle |
-| 7 | W10-P07 | matchup_payoff | The Demonstration Concludes |
-| 8 | W10-P08 | matchup_establishing | The Field Remembers |
-| 9 | W10-P09 | matchup_action | Nothing Stops at the Gate |
-| 10 | W10-P10 | matchup_payoff | The High Stone |
+| 5 | W10-P05 | matchup_establishing | The Main Attraction |
+| 6 | W10-P06 | matchup_action | The Arsenal Answers |
+| 7 | W10-P07 | matchup_payoff | Center-Ring Receipt |
+| 8 | W10-P08 | matchup_establishing | The Season Turns |
+| 9 | W10-P09 | matchup_action | The Last Leaves |
+| 10 | W10-P10 | matchup_payoff | That Cold Again |
 | 11 | W10-P11 | world_landscape | THE ROADS BETWEEN |
-| 12 | W10-P12 | matchup_establishing | A Visitor on Foot |
-| 13 | W10-P13 | matchup_action | The Weight Stays Put |
-| 14 | W10-P14 | matchup_payoff | One Step Taken |
-| 15 | W10-P15 | matchup_establishing | Nothing Here Is Dry |
-| 16 | W10-P16 | matchup_action | Let It Roll |
-| 17 | W10-P17 | matchup_payoff | Above the Waterline |
+| 12 | W10-P12 | matchup_establishing | Do Not Wake the Baby |
+| 13 | W10-P13 | matchup_action | Almost Asleep |
+| 14 | W10-P14 | matchup_payoff | An Encore Nobody Ordered |
+| 15 | W10-P15 | matchup_establishing | The First Charge Stops Here |
+| 16 | W10-P16 | matchup_action | Every Yard Goes Backward |
+| 17 | W10-P17 | matchup_payoff | No Close Finish |
 | 18 | W10-P18 | sports_desk | WHY THE BOARD MOVED |
-| 19 | W10-P19 | matchup_establishing | This Way, Sir |
-| 20 | W10-P20 | matchup_action | The Courtesy Gives |
-| 21 | W10-P21 | matchup_payoff | Room for the Guest |
-| 22 | W10-P22 | matchup_establishing | At His Own Table |
-| 23 | W10-P23 | matchup_action | The Table Narrows |
-| 24 | W10-P24 | matchup_payoff | The Case Closes |
+| 19 | W10-P19 | matchup_establishing | Birthday Rules |
+| 20 | W10-P20 | matchup_action | The Candles Go Out |
+| 21 | W10-P21 | matchup_payoff | Many Unhappy Returns |
+| 22 | W10-P22 | matchup_establishing | The Empire Opens Fire |
+| 23 | W10-P23 | matchup_action | Two Ways Through |
+| 24 | W10-P24 | matchup_payoff | Unlimited Firepower |
 | 25 | W10-P25 | reserve_watch | THE NAMES OFF THE STARTING SHEET |
 | 26 | W10-P26 | moves | MOVES THAT REACHED THE ROSTER |
 | 27 | W10-P27 | standings | TWELVE TEAMS. NINE POSTED RESULTS. |
@@ -107,9 +113,9 @@ His Majesty’s Blood reaches 208.76. The LLC reaches 203.96. For the first time
 
 *The scoring ceiling breaks. The standings still wait.*
 
-For nine weeks, two hundred stayed beyond the board. Week 10 has put His Majesty’s Blood at 208.76 and The LLC at 203.96—the first observed 200-point performances of this season. Their routes could hardly be more different: one is confronting the league leader; the other is trying to pull ObiWan Jacoby into the same record. Elsewhere, McCaffrey has supplied Slob with 52.60, El Niño has reached a personal season high, and D0nkey has pushed the proposed Game of the Week sharply away from Chili. Monday still has four starting names to settle. If every current lead holds, six teams will emerge at 6–4. The ceiling has moved. The table has not yet caught up.
+Two hundred stayed beyond the board for nine weeks. His Majesty’s Blood now stands at 208.76; The LLC at 203.96. Around those scores, this week gets personal: a birthday celebration becomes a public reckoning, a new father cannot buy a moment’s quiet, and Red Leopards sees an old postseason nightmare returning. The Chili Cheesers brings his pride into a crowded rodeo; D0nkey K0ng brings four planted hooves. At the mountain base, ObiWan Jacoby meets an Imperial assault with two answers still to come. Monday’s four starters remain. If the current leads hold, six teams will finish 6–4.
 
-**PROPOSED GAME OF THE WEEK** — The Chili Cheesers vs D0nkey K0ng
+**GAME OF THE WEEK** — The Chili Cheesers vs D0nkey K0ng
 
 **MONDAY’S FOUR** — Derrick Henry · Mark Andrews · Zay Flowers · Ravens D/ST
 
@@ -214,78 +220,92 @@ Six matchups, twelve totals, one unfinished week. Henry and Andrews remain for O
 
 ---
 
-## W10-P05 — A Public Demonstration
+## W10-P05 — The Main Attraction
 
-**Reading position:** 5 · **Status:** DRAFT
-
-
-*The Chili Cheesers vs D0nkey K0ng*
-
-The Chili Cheesers had liked having everyone watch. That was the part of last week he wanted again: the moment when a guest realized who had arranged the occasion. D0nkey K0ng was taking an irritatingly long time to enter the marked ground. The Chili Cheesers gave the rope another turn and waited for his audience to become useful.
-
-
-
-### Scene and production plan
-
-**Narrative job:** The Rope’s Owner: a staged public trick changes who controls it.
-
-**Camera:** Wide three-quarter establishing view; brief reciprocal close POVs remain on one action axis.
-
-**Foreground:** Crate front-eye attachment and outbound rope visible; separate returning tail leads to Chili’s hands.
-
-**Midground:** The Chili Cheesers left; D0nkey K0ng entering right, all four legs readable.
-
-**Background:** Neutral pavilion and both arrival roads, OR stable/pit smoke/enclosure after venue decision; never blend the two.
-
-**Image adds:** Establish one continuous rope: low crate eye → open U-turn around D0nkey’s axe haft → free tail in Chili’s hands. The crate is behind and offset from Chili; Chili stands beside the initial crate travel corridor. The rail is only a boundary. Show the intended sliding path before the pull.
-
-**Prose adds:** Contrast public confidence with careful attention; no literal football narration in the scene copy.
-
-**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review; Spotlight venue remains a proposed neutral option with separate home fallback.
-
-
----
-
-## W10-P06 — Four Hooves Change the Angle
-
-**Reading position:** 6 · **Status:** DRAFT
+**Reading position:** 5 · **Status:** DRAFT_USER_DIRECTED_FICTION
 
 
 *The Chili Cheesers vs D0nkey K0ng*
 
-For The Chili Cheesers, the first tug still belonged to the performance. He could almost hear the reaction he had prepared for. Then the pull changed. D0nkey K0ng had noticed something the host had neglected: a trick only works while its guest agrees to stand where he is expected. The empty crate began to look much less empty.
+The Chili Cheesers had invited an audience large enough to make the victory permanent. Last week, he had made the champion part of the entertainment. An earlier loss to this opponent could be settled in the same fashion. Across the churned ring, D0nkey K0ng lowered his axe and planted four hooves. The outlaw sent his first loop flying.
 
+
+
+### Historical context for this scene
+
+In 2025 Week 16, Baker Moore Purdy — Wilson’s prior team name — beat The Chili Cheesers 144.30–128.72. The 15.58-point result belongs to the winners-consolation ladder.
+
+**Stakes:** Winners-consolation game, not a championship elimination.
 
 
 ### Scene and production plan
 
-**Narrative job:** The Rope’s Owner: a staged public trick changes who controls it.
+**Narrative job:** The Main Attraction: the Arsenal centaur turns Chili’s own rodeo into a witnessed hogtie.
 
-**Camera:** Low lateral action view, camera stays on established side of rope line.
+**Camera:** Wide low arena view; Chili left, D0nkey right, gate rear-left and grandstand arc always behind them.
 
-**Foreground:** Taut crate-to-haft segment and low crate eye; returning free tail remains in Chili’s hands.
+**Foreground:** Rope coils beside Chili’s muddy boots; the free tail is in his left hand.
 
-**Midground:** D0nkey shifts weight through four visible legs; Chili pulls from unchanged position.
+**Midground:** Chili casts with his right hand; the integrated four-legged Arsenal centaur braces and raises the axe haft.
 
-**Background:** Same rail and chosen venue landmark; Dark Horse remains safely separate.
+**Background:** Packed anonymous spectators; Dark Horse waits behind a distinct holding rail; no named real guests.
 
-**Image adds:** Chili’s boot-braced backward pull slides the crate toward the haft. D0nkey steps laterally out of that corridor and moves the haft sideways, sweeping the crate-to-haft line across Chili’s stance. The unchanged rope tension then slides the crate into Chili’s backward step. Show every rope segment and ground contact; nothing moves by itself.
+**Image adds:** A visible lariat travels from Chili’s throwing hand toward the axe haft. Establish the complete rope route and the open center ring.
 
-**Prose adds:** Explain the specific change of leverage that the ending will pay off.
+**Prose adds:** Public confidence and the wish to reverse a real prior defeat make the spectacle personal.
 
-**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review; Spotlight venue remains a proposed neutral option with separate home fallback.
+**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review; Detailed staging follows the accepted commissioner direction; review page execution before art.
 
 
 ---
 
-## W10-P07 — The Demonstration Concludes
+## W10-P06 — The Arsenal Answers
+
+**Reading position:** 6 · **Status:** DRAFT_USER_DIRECTED_FICTION
+
+
+*The Chili Cheesers vs D0nkey K0ng*
+
+The first block drew a roar from the stands. The Chili Cheesers pulled harder, trusting the same skill that had always made a crowd look his way. D0nkey K0ng did not follow the pull. He set his weight against it, caught the running rope and answered once. The outlaw’s next view of his audience came through a sheet of mud.
+
+
+
+### Historical context for this scene
+
+In 2025 Week 16, Baker Moore Purdy — Wilson’s prior team name — beat The Chili Cheesers 144.30–128.72. The 15.58-point result belongs to the winners-consolation ladder.
+
+**Stakes:** Winners-consolation game, not a championship elimination.
+
+
+### Scene and production plan
+
+**Narrative job:** The Main Attraction: the Arsenal centaur turns Chili’s own rodeo into a witnessed hogtie.
+
+**Camera:** Low lateral action frame; a small follow-through inset may show the takedown without hiding its cause.
+
+**Foreground:** Chili’s heels leave their grip; mud sprays toward the lens.
+
+**Midground:** D0nkey’s hands catch the open loop from the haft, four hooves braced; one forceful pull brings Chili forward and down.
+
+**Background:** Same holding gate and grandstands; spectators follow the visible rope exchange.
+
+**Image adds:** Axe is grounded after blocking. D0nkey takes the running rope in both hands and pulls while Chili still holds the tail. Chili falls into the open mud. No knot forms during the tug.
+
+**Prose adds:** Chili’s confidence becomes a mistake the whole crowd can understand.
+
+**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review; Detailed staging follows the accepted commissioner direction; review page execution before art.
+
+
+---
+
+## W10-P07 — Center-Ring Receipt
 
 **Reading position:** 7 · **Status:** CONDITIONAL_CURRENT_LEADER_ENDING_DRAFT
 
 
 *The Chili Cheesers vs D0nkey K0ng*
 
-The Chili Cheesers had prepared a remark for every part of the demonstration except this one. From the crate, he could see The Dark Horse watching with an expression that offered no assistance. D0nkey K0ng let the silence last. The host kept his sunglasses on, grateful for one piece of equipment that was still doing its job.
+D0nkey K0ng took the time to finish the work where every seat could see it. The Chili Cheesers lifted his muddy face toward a roar that had become laughter, hat crooked, sunglasses still in place. He had wanted the crowd to remember who commanded the ring. Now his own rope held the answer behind his back, and the Arsenal colors stood over it.
 
 
 
@@ -298,114 +318,135 @@ The Chili Cheesers had prepared a remark for every part of the demonstration exc
 ### Alternate payoff copy
 
 
-**Reversal:** Provider-final Chili win after correction or other confirmed change
+**Reversal:** Provider-final The Chili Cheesers win
 
-The Chili Cheesers recognized the mistake before the crowd could recognize it for him. He released the rope, stepped clear and let D0nkey K0ng finish pulling against nothing. Relief arrived first; the grin followed a moment later. By then, the host had decided this had always been the lesson he intended to give.
-
-
-**Unresolved:** UNDECIDED or tie without resolved provider outcome
-
-The Chili Cheesers kept his smile in place while the rope settled between them. D0nkey K0ng watched the line instead of the host. Somewhere beyond the rail, The Dark Horse shifted a hoof. The pause was becoming long enough to belong to neither performer. Whoever moved next would have to explain what the demonstration had been about.
+The Chili Cheesers let the tail run before the centaur’s pull could take his balance. He cut across the open ring, recovered the loose end and cast beneath the next planted foreleg. D0nkey K0ng checked his advance. The crowd saw the outlaw rise from the mud with control of the rope and one more reason to demand its attention.
 
 
-**Tie:** Only when the provider explicitly finalizes a TIE. Equal current scores or exactly meeting a margin does not authorize this branch.
+**Unresolved:** Provider remains UNDECIDED
 
-The Chili Cheesers released his end at the same moment D0nkey K0ng stopped pulling. The rope dropped between them, and both looked toward the empty crate as though it might settle the disagreement. Neither offered the other a laugh. The Dark Horse remained the only spectator who seemed satisfied with the afternoon.
+The rope snapped straight between them and the front rows rose together. The Chili Cheesers dug his heels into the mud. D0nkey K0ng widened his four-hoof base and lowered his shoulders. Every spectator could see the same unfinished question stretched across the ring: who would move first when the next pull came?
+
+
+**Tie:** Provider explicitly resolves the matchup as a tie
+
+The last pull brought both contestants to a stop. The Chili Cheesers stood plastered with mud, holding one end of the rope; D0nkey K0ng held the other beyond a furrow of torn ground. The spectators waited for a decisive movement that never came. The ring had provided its spectacle, but neither warrior could claim the final hold.
+
+
+### Historical context for this scene
+
+In 2025 Week 16, Baker Moore Purdy — Wilson’s prior team name — beat The Chili Cheesers 144.30–128.72. The 15.58-point result belongs to the winners-consolation ladder.
+
+**Stakes:** Winners-consolation game, not a championship elimination.
 
 
 ### Scene and production plan
 
-**Narrative job:** The Rope’s Owner: a staged public trick changes who controls it.
+**Narrative job:** The Main Attraction: the Arsenal centaur turns Chili’s own rodeo into a witnessed hogtie.
 
-**Camera:** Medium-wide aftermath at slightly lower angle than beat1; keep full D0nkey body.
+**Camera:** Medium-wide low payoff with hogtied Chili large in the foreground, D0nkey’s full four-legged body beyond him, crowd filling the upper frame.
 
-**Foreground:** Crate, slack loop and settled dust.
+**Foreground:** Chili lies on his side in soft mud, wrists and ankles visibly linked behind him with the competition rope; recognizable hat, beard, sunglasses and coat.
 
-**Midground:** Chili seated unhurt; D0nkey controlled and upright.
+**Midground:** D0nkey deliberately finishes and checks the binding with his hands; axe remains grounded out of the rope path.
 
-**Background:** Same safe horse position and chosen venue landmark.
+**Background:** The same crowd has a clear view of center ring; the separate Dark Horse remains at the gate.
 
-**Image adds:** The crate has stopped where it interrupted Chili’s backward step; he sits in its open top. The same rope remains attached to the crate with slack on the ground; its open turn has slipped free of the grounded haft. D0nkey’s full four-legged body is outside the line. The Dark Horse remains untouched.
+**Image adds:** Show an explicit short binding inset before the main aftermath: D0nkey gathers the fallen rope, controls Chili’s wrists, then secures the ankles. The final hogtie is not created magically by the earlier pull.
 
-**Prose adds:** Let the irony land; do not assert a championship or property transfer.
+**Prose adds:** The humiliation lands because Chili chose the audience and supplied the instrument.
 
-**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review; Spotlight venue remains a proposed neutral option with separate home fallback.
+**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review; Detailed staging follows the accepted commissioner direction; review page execution before art.
 
 
 ---
 
-## W10-P08 — The Field Remembers
+## W10-P08 — The Season Turns
 
-**Reading position:** 8 · **Status:** DRAFT
+**Reading position:** 8 · **Status:** DRAFT_USER_DIRECTED_FICTION
 
 
 *Red Leopards vs El Niño*
 
-Red Leopards had expected the next visitor to notice what happened to the last one. The leaning goal and torn grass should have been warning enough. Instead, El Niño studied the damage with interest. That was harder to tolerate than disrespect. The predator had spent the morning deciding what the field needed; his guest appeared to have a different use for it.
+Thirteen wins had once felt like protection. Red Leopards remembered what El Niño had done with that certainty. He pressed the repair board into place and checked it again, although the first fastening had held. Beyond the ruined goal, the last leaves turned silver-side upward. The visitor emerged beneath a sky that seemed to have forgotten the afternoon.
 
+
+
+### Historical context for this scene
+
+In the 2022 Week 16 semifinal, El Niño beat Red Leopards 116.32–97.96 by 18.36. Red had finished the regular season 13–1 as the No.1 seed; El Niño entered 7–7 as the No.5 seed. Niño then won the championship.
+
+**Stakes:** Verified semifinal elimination of the No.1 seed; El Niño went on to win the championship.
 
 
 ### Scene and production plan
 
-**Narrative job:** The Repair Bill: last week's truck damage becomes the path for water.
+**Narrative job:** That Cold Again: a November windstorm makes Red recognize the opponent who ended his 13–1 title run.
 
-**Camera:** Over-shoulder from Red's upper perch, followed by reciprocal third-person visitor view.
+**Camera:** Over Red’s shoulder across the damaged terrace; briefly close on the recognition in his face before revealing the embodied visitor.
 
-**Foreground:** Red claws beside a temporary board.
+**Foreground:** Red’s claws tighten a board against the existing stone edge; frost gathers on the fastening.
 
-**Midground:** Damaged pitch, ruts and wrecked goal.
+**Midground:** The damaged pitch and bent goal remain exactly where Week9 left them; dry leaves begin lifting.
 
-**Background:** El Niño at forest approach; narrow exit offset consistently.
+**Background:** El Niño stands at the forest approach under a low cold front, fully recognizable as the approved humanoid elemental.
 
-**Image adds:** Show incomplete repairs and the visitor discovering the pre-existing channels.
+**Image adds:** Cold wind probes the unfinished repairs. Red reacts before the storm reaches him.
 
-**Prose adds:** Make continuity itself the cause of the new threat.
+**Prose adds:** The verified 2022 memory changes present behavior; the weather is current fictional staging, not reconstructed historical weather.
 
-**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review.
+**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review; Detailed staging follows the accepted commissioner direction; review page execution before art.
 
 
 ---
 
-## W10-P09 — Nothing Stops at the Gate
+## W10-P09 — The Last Leaves
 
-**Reading position:** 9 · **Status:** DRAFT
+**Reading position:** 9 · **Status:** DRAFT_USER_DIRECTED_FICTION
 
 
 *Red Leopards vs El Niño*
 
-There had been comfort in knowing the passage was too narrow for the truck. Red Leopards had seen the exact moment when size became a weakness. Now he searched for the same certainty and found none. El Niño needed no room to turn. Each repair that saved one patch of ground seemed to offer the visitor another opening.
+Red Leopards answered the first gust with a leap toward the loose brace. The second arrived from another direction. Boards cracked, banners snapped and every leaf on the field seemed to leave at once. He had beaten this opponent convincingly before that old semifinal. The memory offered no useful footing now. El Niño advanced through the colorless air.
 
+
+
+### Historical context for this scene
+
+In the 2022 Week 16 semifinal, El Niño beat Red Leopards 116.32–97.96 by 18.36. Red had finished the regular season 13–1 as the No.1 seed; El Niño entered 7–7 as the No.5 seed. Niño then won the championship.
+
+**Stakes:** Verified semifinal elimination of the No.1 seed; El Niño went on to win the championship.
 
 
 ### Scene and production plan
 
-**Narrative job:** The Repair Bill: last week's truck damage becomes the path for water.
+**Narrative job:** That Cold Again: a November windstorm makes Red recognize the opponent who ended his 13–1 title run.
 
-**Camera:** Low oblique action view that includes upstream gap, barrier and downstream exit.
+**Camera:** Wide diagonal action shot with Red crossing frame against the wind; preserve goal-left and stone exit-right.
 
-**Foreground:** Water curling around the temporary board.
+**Foreground:** Brittle leaves and a broken repair board rush past the lens; no floodwater.
 
-**Midground:** Red shifting barrier; El Niño visibly embodied beyond the flow.
+**Midground:** Red catches one failing brace while another releases; El Niño drives the cold gust through the open terrace.
 
-**Background:** Unchanged ruined goal, stone exit and predator banners.
+**Background:** The same ruins and forest become grey silhouettes; remaining red banners whip toward one consistent downwind direction.
 
-**Image adds:** Water follows the already drawn ruts and open gap; Red's intervention redirects rather than erases it.
+**Image adds:** A gust breaks the temporary brace, then a cross-gust strips the remaining cover. Red’s successive interventions fail through visible forces.
 
-**Prose adds:** Explain why yesterday's successful defense fails against a different kind of opponent.
+**Prose adds:** Earlier confidence makes this repetition hurt; there is no curse or declared playoff elimination.
 
-**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review.
+**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review; Detailed staging follows the accepted commissioner direction; review page execution before art.
 
 
 ---
 
-## W10-P10 — The High Stone
+## W10-P10 — That Cold Again
 
 **Reading position:** 10 · **Status:** CONDITIONAL_CURRENT_LEADER_ENDING_DRAFT
 
 
 *Red Leopards vs El Niño*
 
-From the high stone, Red Leopards could see every repair he had meant to finish. The board he had chosen first floated past the goal. El Niño held the approach without looking hurried. Anger offered the predator a dozen reasons to jump down. None of them supplied a dry place to land.
+Red Leopards reached the high stone and turned into the wind. Below him, El Niño occupied the approach with the unhurried certainty of someone who needed no explanation. The field had gone almost entirely grey. One torn strip of red kept striking the wall beside him. He watched it return, and return, and thought of a season he had once believed was safe.
 
 
 
@@ -420,36 +461,43 @@ From the high stone, Red Leopards could see every repair he had meant to finish.
 
 **Reversal:** Provider-final Red Leopards win
 
-Red Leopards stopped trying to preserve every patch of grass. There was one line he needed, and he finally allowed the rest to carry the water away. El Niño turned toward the opened channel. The predator moved before the opportunity could become another repair to consider, finding a foothold where he had almost stopped looking.
+Red Leopards stopped trying to hold every broken edge. He let the banner go, waited for the gust to empty itself and sprang along the shelter of the surviving wall. El Niño turned too late to close that narrow approach. The old memory remained. For once, the defender had used it to choose a different answer.
 
 
-**Unresolved:** Before Flowers and provider finality resolve
+**Unresolved:** Provider remains UNDECIDED
 
-Red Leopards listened for a change beneath the sound of the rain. The board was holding at one end and lifting at the other. El Niño had not yet crossed the lower approach. For the moment, the field still contained two possible routes. The predator watched the narrow one and refused to call it finished.
+The cold front pressed against the ruins while Red Leopards held the high stone. El Niño waited below the torn banner. Neither had left the approach, and the next gust had not yet broken. Red watched the opening beneath the wall with the attention of someone who knew how much an unfinished encounter could still take from him.
 
 
-**Tie:** Only when the provider explicitly finalizes a TIE. Equal current scores or exactly meeting a margin does not authorize this branch.
+**Tie:** Provider explicitly resolves the matchup as a tie
 
-The water reached the foot of the high stone and stopped rising. Red Leopards watched El Niño across the flooded strip; El Niño watched the remaining dry line beside the goal. Both had ground they could keep. Neither had ground they could take without giving the other an opening. The rain continued after the argument had run out of room.
+The wind spent itself against the surviving wall. Red Leopards stood on the high stone; El Niño remained at the approach, each holding the position the other could not take. Leaves settled across the damaged pitch. The old memory had returned, but this time its ending remained divided between two figures still facing one another in the cold.
+
+
+### Historical context for this scene
+
+In the 2022 Week 16 semifinal, El Niño beat Red Leopards 116.32–97.96 by 18.36. Red had finished the regular season 13–1 as the No.1 seed; El Niño entered 7–7 as the No.5 seed. Niño then won the championship.
+
+**Stakes:** Verified semifinal elimination of the No.1 seed; El Niño went on to win the championship.
 
 
 ### Scene and production plan
 
-**Narrative job:** The Repair Bill: last week's truck damage becomes the path for water.
+**Narrative job:** That Cold Again: a November windstorm makes Red recognize the opponent who ended his 13–1 title run.
 
-**Camera:** Wide elevated payoff retaining complete terrace map.
+**Camera:** Broad bleak payoff with Red on the near high ledge and El Niño visibly embodied below; leave cold negative space around the defender.
 
-**Foreground:** Dry plinth edge and Red's planted claws.
+**Foreground:** Red’s braced paws, frost-edged crimson fur and the repeatedly striking red banner.
 
-**Midground:** El Niño occupying lower approach; local water across pitch.
+**Midground:** The stripped terrace and failed temporary repairs; El Niño controls the approach.
 
-**Background:** Goal and stone exit remain identifiable.
+**Background:** Leafless trees and low cloud obscure distance without creating a new ocean or changing the Atlas.
 
-**Image adds:** Red yields the lower field while staying dangerous, intact and identifiable.
+**Image adds:** Red yields the lower position under relentless cold wind. His physical survival and continued resistance remain visible.
 
-**Prose adds:** Frame loss of position without declaring destruction of a homeland.
+**Prose adds:** The ending is recognition and dread about the season, not a statement that qualification is impossible.
 
-**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review.
+**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review; Detailed staging follows the accepted commissioner direction; review page execution before art.
 
 
 ---
@@ -486,78 +534,92 @@ The roads do not shorten because the stakes rise. From the highlands and mountai
 
 ---
 
-## W10-P12 — A Visitor on Foot
+## W10-P12 — Do Not Wake the Baby
 
-**Reading position:** 12 · **Status:** DRAFT
-
-
-*Three Dreaded Snake vs Seven Deadly Chins*
-
-Three Dreaded Snake preferred an opponent who announced how he intended to arrive. An engine would have given him time to judge the approach. Seven Deadly Chins offered only footsteps and the scrape of a hammer against his shoulder. Three heads followed the visitor. None liked how little there seemed to be to distract him.
-
-
-
-### Scene and production plan
-
-**Narrative job:** Three Heads, One Foothold: sightlines multiply but the body must hold a single position.
-
-**Camera:** Wide lower-approach view; reciprocal close view preserves shared body and wet-step axis.
-
-**Foreground:** Chins heavy boot and hammer silhouette.
-
-**Midground:** TDS on broad step, all three heads and common torso visible.
-
-**Background:** Waterfall left, temple doorway right, dense foliage beyond.
-
-**Image adds:** Chins walks into the encounter; TDS tracks several angles from one foothold.
-
-**Prose adds:** Carry the truck consequence without inventing its repair or belittling the family event.
-
-**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review.
-
-
----
-
-## W10-P13 — The Weight Stays Put
-
-**Reading position:** 13 · **Status:** DRAFT
+**Reading position:** 12 · **Status:** DRAFT_USER_DIRECTED_FICTION
 
 
 *Three Dreaded Snake vs Seven Deadly Chins*
 
-Every head found an answer. One saw the open side, another the wet stone, the third the visitor’s exposed shoulder. Three Dreaded Snake committed before the possibilities could settle into one choice. Seven Deadly Chins gave him no space to revise it. The problem was no longer seeing an opening. It was reaching one without surrendering the step.
+Three Dreaded Snake had finally found a moment in which all three heads could agree. Quiet. From inside the temple came the small, uncertain silence of a baby nearly asleep. Seven Deadly Chins arrived on foot with a barrel, a hammer and a look suggesting that last season’s defeats had left him something to say. He chose to say it in metal.
 
+
+
+### Historical context for this scene
+
+Three Dreaded Snake beat Seven Deadly Chins twice in 2025: 189.72–172.00 in Week 3 and 139.84–90.70 in Week 14, margins of 17.72 and 49.14.
+
+**Stakes:** Both cited 2025 games were regular season; no elimination claim.
 
 
 ### Scene and production plan
 
-**Narrative job:** Three Heads, One Foothold: sightlines multiply but the body must hold a single position.
+**Narrative job:** An Encore Nobody Ordered: Chins turns a new father’s need for quiet into an escalating noise spectacle.
 
-**Camera:** Medium lateral contact view: hammer head/shaft, both Chins arms, shoulder-to-guard contact and both characters’ feet all visible.
+**Camera:** Wide outer-temple approach with the closed family door high-right and waterfall back-left; move close enough to read three distinct expressions.
 
-**Foreground:** Hammer head flat on stone; Chins boot pushing against the step.
+**Foreground:** Chins sets the metal barrel and loose lids on the stone outside the family space.
 
-**Midground:** Chins free forearm/shoulder contacting TDS guard; TDS chest and feet yielding under pressure.
+**Midground:** One TDS head listens toward the door, one pleads toward Chins, one already glares; a single shared body makes the quieting gesture.
 
-**Background:** Same doorway and waterfall; no moved column.
+**Background:** Closed inner door and waterfall remain unchanged; no invented baby likeness or named family member. A folded padded wrap is visible beside the closed doorway, establishing the reversal prop.
 
-**Image adds:** Chins braces the hammer head flat on the step with one hand on its shaft. His free forearm and near shoulder make clear contact with TDS’s raised forearm and upper-chest guard below the three necks. Chins drives through planted boots; that visible pressure forces TDS’s shared torso and feet backward toward the threshold.
+**Image adds:** Chins strikes the first loud clang outside. The ordinary waterfall hiss provides a constant backdrop; the sharp metal interruption cuts through it.
 
-**Prose adds:** Make the shared-body constraint dramatically useful without treating TDS as three independent fighters.
+**Prose adds:** A personal milestone gives the contest its comic stakes; last season’s two losses provide fictional competitive motive.
 
-**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review.
+**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review; Detailed staging follows the accepted commissioner direction; review page execution before art.
 
 
 ---
 
-## W10-P14 — One Step Taken
+## W10-P13 — Almost Asleep
+
+**Reading position:** 13 · **Status:** DRAFT_USER_DIRECTED_FICTION
+
+
+*Three Dreaded Snake vs Seven Deadly Chins*
+
+The hammer stopped. Three Dreaded Snake froze. One head listened toward the doorway while another attempted an expression of gratitude; the third kept its eyes on the visitor. For several precious seconds, the temple seemed willing to forgive them. Seven Deadly Chins lifted a finger, as though remembering an important detail, and reached for the air horn.
+
+
+
+### Historical context for this scene
+
+Three Dreaded Snake beat Seven Deadly Chins twice in 2025: 189.72–172.00 in Week 3 and 139.84–90.70 in Week 14, margins of 17.72 and 49.14.
+
+**Stakes:** Both cited 2025 games were regular season; no elimination claim.
+
+
+### Scene and production plan
+
+**Narrative job:** An Encore Nobody Ordered: Chins turns a new father’s need for quiet into an escalating noise spectacle.
+
+**Camera:** Tight reaction sequence: shared TDS torso and all three heads, followed by a clean inset of the hand reaching the horn.
+
+**Foreground:** The hammer rests visibly on the barrel; Chins’s other hand closes on the horn trigger.
+
+**Midground:** TDS stays on the threshold, one head listening, one pleading, one furious; the physical pause is readable.
+
+**Background:** The same closed door; faint offscreen baby sounds may be represented through controlled typography, not a new child character.
+
+**Image adds:** Use clang→pause→hope→horn as four clearly separated beats within the page. Chins controls the timing rather than striking TDS or entering the family room.
+
+**Prose adds:** The pause makes renewed frustration more personal than an uninterrupted wall of noise.
+
+**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review; Detailed staging follows the accepted commissioner direction; review page execution before art.
+
+
+---
+
+## W10-P14 — An Encore Nobody Ordered
 
 **Reading position:** 14 · **Status:** CONDITIONAL_CURRENT_LEADER_ENDING_DRAFT
 
 
 *Three Dreaded Snake vs Seven Deadly Chins*
 
-Seven Deadly Chins waited for another objection. Three Dreaded Snake offered three expressions that could have supplied one, but the space between them had become difficult to dispute. For once, the visitor did not fill the silence himself. He rested a hand on the hammer and let the waterfall make all the noise.
+The answering cry came from behind the door. Three Dreaded Snake threw both arms wide, and the three heads finally abandoned agreement: one shouted, one begged, one stared in exhausted disbelief. Seven Deadly Chins answered with a triumphant rolling clang across the lids. The visitor had found a performance his host could neither ignore nor applaud, and he plainly knew an encore.
 
 
 
@@ -572,112 +634,133 @@ Seven Deadly Chins waited for another objection. Three Dreaded Snake offered thr
 
 **Reversal:** Provider-final Three Dreaded Snake win
 
-Three Dreaded Snake had spent the encounter watching the visitor’s strength. At last, he watched what that strength depended on. The hammer slipped, the weight followed, and the three gazes settled on the same opening. Seven Deadly Chins recovered quickly enough to recognize it. He did not recover quickly enough to reach it first.
+Three Dreaded Snake waited until the horn stopped for breath. Then the shared body moved with sudden agreement: one hand caught the hammer, the other lifted the padded wrap already beside the doorway and smothered the lids. Seven Deadly Chins reached for another instrument and found the defender standing between him and the cart. This time, the silence lasted.
 
 
-**Unresolved:** Before Ravens D/ST and provider finality resolve
+**Unresolved:** Provider remains UNDECIDED
 
-Three Dreaded Snake had stopped looking for three different answers. All three heads watched the hammer now, waiting for the weight behind it to settle. Seven Deadly Chins felt the defender become quieter and tightened his grip. The broad step lay between them, slick with spray and still large enough for one more attempt.
+The hammer hovered above the barrel while Three Dreaded Snake stood perfectly still at the door. One head pleaded for the pause to continue; another watched the horn; the third listened behind them. Seven Deadly Chins had not yet decided which noise came next. For the moment, the entire encounter depended on a hand that had not fallen.
 
 
-**Tie:** Only when the provider explicitly finalizes a TIE. Equal current scores or exactly meeting a margin does not authorize this branch.
+**Tie:** Provider explicitly resolves the matchup as a tie
 
-Seven Deadly Chins kept his hand on the grounded hammer. Three Dreaded Snake kept his feet at the threshold. Neither could advance without first moving the support that made the position bearable. The waterfall was the only thing still gaining ground. After a while, all three serpent heads and the visitor were listening to it.
+Seven Deadly Chins kept his instruments, but Three Dreaded Snake held the outer door shut against the racket. Every clang met another stubborn refusal to yield the threshold. At last the visitor lowered the hammer and the three heads listened together. Neither had won the argument. The small silence behind the door became the only thing either could count.
+
+
+### Historical context for this scene
+
+Three Dreaded Snake beat Seven Deadly Chins twice in 2025: 189.72–172.00 in Week 3 and 139.84–90.70 in Week 14, margins of 17.72 and 49.14.
+
+**Stakes:** Both cited 2025 games were regular season; no elimination claim.
 
 
 ### Scene and production plan
 
-**Narrative job:** Three Heads, One Foothold: sightlines multiply but the body must hold a single position.
+**Narrative job:** An Encore Nobody Ordered: Chins turns a new father’s need for quiet into an escalating noise spectacle.
 
-**Camera:** Medium-wide aftermath, slightly elevated; full silhouettes and threshold readable.
+**Camera:** Medium-wide comedy payoff, Chins’s percussion foreground-left, TDS and all three reactions center, closed door behind.
 
-**Foreground:** Grounded hammer and wet step.
+**Foreground:** Hammer visibly strikes a row of lids across the barrel; horn rests on the handcart between uses.
 
-**Midground:** Chins occupies step; TDS upright beyond line.
+**Midground:** Chins grins over his improvised one-man band; TDS has one body and three unmistakably different reactions.
 
-**Background:** Unharmed temple exterior, waterfall and foliage.
+**Background:** Closed protected family space and the same waterfall; no truck appears or is magically repaired.
 
-**Image adds:** A central position changes without a kneeling-knight repeat or family danger.
+**Image adds:** The louder restart defeats TDS’s effort to restore quiet. The child remains offscreen; the father and noisy visitor carry the joke.
 
-**Prose adds:** Preserve continuing character dignity and limit the story consequence to the contest.
+**Prose adds:** The humiliation is the adult’s loss of control over the occasion, not harm to the baby or a real-world explanation of fantasy scoring.
 
-**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review.
+**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review; Detailed staging follows the accepted commissioner direction; review page execution before art.
 
 
 ---
 
-## W10-P15 — Nothing Here Is Dry
+## W10-P15 — The First Charge Stops Here
 
-**Reading position:** 15 · **Status:** DRAFT
+**Reading position:** 15 · **Status:** DRAFT_USER_DIRECTED_FICTION
 
 
 *Mud Dogs vs Slob on my Dobb*
 
-Mud Dogs knew which ground would hold. Lately, that knowledge had not been enough to make the swamp feel dependable. The visitor set down an enormous keg and tested a plank with his boot. Mud Dogs watched the hesitation with satisfaction. Let the outsider learn how little the place cared about the confidence he brought into it.
+Mud Dogs came out of the reeds with the certainty of a creature that knew every inch beneath its paws. Slob on my Dobb met the charge behind the broad face of his keg and kept walking. Their earlier meeting had left room for an argument. This one began with four furrows in the mud and the visitor gaining ground.
 
+
+
+### Historical context for this scene
+
+In 2025 Week 17, Slob on my Dobb beat Mud Dogs 100.28–97.13 by 3.15 in the losers-consolation ladder.
+
+**Stakes:** Losers-consolation game; it did not eliminate Mud from the championship.
 
 
 ### Scene and production plan
 
-**Narrative job:** Firm Ground: mass and equipment change the footing of a close encounter.
+**Narrative job:** No Close Finish: Slob dominates every exchange and leaves Mud Dogs without a credible opening.
 
-**Camera:** Low hound-eye establishing shot, then reciprocal visitor shoulder view.
+**Camera:** Low head-on collision with Slob’s full weight behind the keg and the quadrupedal hound visible in profile.
 
-**Foreground:** Root, wet plank and hound paws.
+**Foreground:** Mud Dogs’ four paws carve distinct tracks; the keg blocks the forequarters without obscuring the canine head.
 
-**Midground:** Slob placing keg at edge of firm berm.
+**Midground:** Slob holds the keg with both hands and advances from the firm bank, feet visibly supported.
 
-**Background:** Old rut and cypress-like trunks; low channel remains distinct.
+**Background:** The exposed root, old racing rut and reeds establish the unchanged swamp approach.
 
-**Image adds:** Both characters assess the same narrow footing before a charge.
+**Image adds:** Slob stops the first charge through body mass, braced footing and the keg’s broad surface. His dominance exists from first contact.
 
-**Prose adds:** Connect yesterday's terrain consequence with today's tactical choice.
+**Prose adds:** The remembered narrow consolation win is a contrast to the immediate imbalance.
 
-**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review.
+**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review; Detailed staging follows the accepted commissioner direction; review page execution before art.
 
 
 ---
 
-## W10-P16 — Let It Roll
+## W10-P16 — Every Yard Goes Backward
 
-**Reading position:** 16 · **Status:** DRAFT
+**Reading position:** 16 · **Status:** DRAFT_USER_DIRECTED_FICTION
 
 
 *Mud Dogs vs Slob on my Dobb*
 
-Slob on my Dobb had stopped looking for a clean way through. There was none, and pretending otherwise only gave the hound more time to choose the encounter. He needed somewhere to put his weight when the charge arrived. The root would do. If the keg made the rest of the ground unpleasant, that could become somebody else’s problem.
+Mud Dogs tried the root, then the softer edge, then one furious lunge around the metal. Each answer arrived a little later than Slob’s next step. The visitor turned the keg, drove forward and took another strip of the bank. Nothing in his expression suggested a surprise was required. He had brought enough force to keep the same promise repeatedly.
 
+
+
+### Historical context for this scene
+
+In 2025 Week 17, Slob on my Dobb beat Mud Dogs 100.28–97.13 by 3.15 in the losers-consolation ladder.
+
+**Stakes:** Losers-consolation game; it did not eliminate Mud from the championship.
 
 
 ### Scene and production plan
 
-**Narrative job:** Firm Ground: mass and equipment change the footing of a close encounter.
+**Narrative job:** No Close Finish: Slob dominates every exchange and leaves Mud Dogs without a credible opening.
 
-**Camera:** Low lateral action view showing root-to-channel relationship.
+**Camera:** Tracking lateral composition with three readable successive positions; finish on Slob still advancing, not a late trick.
 
-**Foreground:** Keg rolling off the berm; exposed root and Slob’s firmly supported boot clearly separate from the water.
+**Foreground:** Churned tracks show Mud’s repeated retreat; no hidden rope or floating platform.
 
-**Midground:** Slob supported by root and bank; hound’s front paws at yielding edge, rear paws on berm.
+**Midground:** Slob rotates the keg as a shield and keeps both feet on root or firm bank; Mud’s lunges are stopped and redirected.
 
-**Background:** Same rut and trunks; no new route.
+**Background:** The same low channel and damaged race approach mark how much ground has been lost.
 
-**Image adds:** Slob sets the keg across the narrow firm strip. The hound’s forequarters meet the rolling buffer; it turns into the channel. Slob pivots with one boot securely on the exposed root and a hand or second foot braced against the firm bank. The hound’s committed front paws reach the soft edge as the obstacle rolls away. Slob never rests weight on the keg.
+**Image adds:** Three attempted resistances fail in sequence: direct charge, root-side flank, low lunge. Slob answers each with a supported step and keg block.
 
-**Prose adds:** Explain movement rather than claiming a new power or rendering abstract score impact.
+**Prose adds:** Relentlessness, rather than a lucky reversal, makes the scoring margin visible.
 
-**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review.
+**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review; Detailed staging follows the accepted commissioner direction; review page execution before art.
 
 
 ---
 
-## W10-P17 — Above the Waterline
+## W10-P17 — No Close Finish
 
 **Reading position:** 17 · **Status:** CONDITIONAL_CURRENT_LEADER_ENDING_DRAFT
 
 
 *Mud Dogs vs Slob on my Dobb*
 
-Mud Dogs could endure the mud. What it could not comfortably endure was the visitor settling on the raised bank as though the place had finally become hospitable. Slob on my Dobb caught the keg by its rim and took his time. The hound snarled again. This time, the sound did nothing to hurry him.
+Slob on my Dobb planted the keg on the high bank and rested a heavy hand on its rim. Mud Dogs stood below in the churned shallows, jaws still working, with no clean line left for another charge. The visitor had needed a narrow margin once. Now the distance between them could be seen in the ground itself, and nobody needed to measure it.
 
 
 
@@ -690,38 +773,45 @@ Mud Dogs could endure the mud. What it could not comfortably endure was the visi
 ### Alternate payoff copy
 
 
-**Reversal:** Provider-final Mud Dogs win after confirmed correction
+**Reversal:** Provider-final Mud Dogs win
 
-Mud Dogs recognized the moment when the visitor began to trust the plank. Familiar ground had disappointed the hound before; now it offered a small, useful certainty. Slob on my Dobb shifted his weight and felt the wood answer beneath him. The keg was drifting away. Mud Dogs had stopped watching it.
+Mud Dogs finally stopped meeting the metal head-on. It drove beneath the exposed root, drawing Slob’s next step toward the soft channel, then burst back onto the firm strip behind him. The keg turned too slowly. Slob caught the bank before falling, but the hound held the approach again, having found the one route its visitor could not widen.
 
 
 **Unresolved:** Provider remains UNDECIDED
 
-Slob on my Dobb tested the root again without taking his eyes from the hound. Mud Dogs watched the keg drift against the bank and waited for the visitor to reach too far. The swamp had reduced the encounter to small decisions. Neither seemed ready to admit how much depended on the next one.
+Slob on my Dobb pressed the keg forward while Mud Dogs dug into the last firm strip beside the root. Their tracks already told the story of the approach, but the final footing had not given way. The visitor lowered his shoulder. The hound bared its teeth. Both still had weight committed to the same unfinished step.
 
 
-**Tie:** Only when the provider explicitly finalizes a TIE. Equal current scores or exactly meeting a margin does not authorize this branch.
+**Tie:** Provider explicitly resolves the matchup as a tie
 
-The keg lodged against the root. Slob on my Dobb could reach it only by leaving the raised bank; Mud Dogs could reach him only by crossing the floating metal. Each watched the other consider the same inconvenience. The swamp had supplied plenty of mud and very little room for pride to make another move.
+The keg stopped against the exposed root. Slob on my Dobb could not widen the final step, and Mud Dogs could not drive him back across it. They stood over a long churned approach, one gripping metal, the other gripping earth. The visitor had taken ground, but the last strip remained contested when both finally stopped advancing.
+
+
+### Historical context for this scene
+
+In 2025 Week 17, Slob on my Dobb beat Mud Dogs 100.28–97.13 by 3.15 in the losers-consolation ladder.
+
+**Stakes:** Losers-consolation game; it did not eliminate Mud from the championship.
 
 
 ### Scene and production plan
 
-**Narrative job:** Firm Ground: mass and equipment change the footing of a close encounter.
+**Narrative job:** No Close Finish: Slob dominates every exchange and leaves Mud Dogs without a credible opening.
 
-**Camera:** Wide bank-height aftermath with characters in distinct vertical planes.
+**Camera:** Broad dominance payoff: Slob occupies the high bank, Mud remains a fierce four-legged hound below; show the length of the displaced track.
 
-**Foreground:** Root and reachable floating keg.
+**Foreground:** The hound’s muddy paws and deep retreat furrows; no injury or human posture.
 
-**Midground:** Slob on raised bank; hound intact and snarling below.
+**Midground:** Slob stands securely above with the keg grounded, large and unhurried.
 
-**Background:** Visible old rut, same channel and trunks.
+**Background:** Root, reeds and old rut align with earlier shots; the landscape is displaced locally, not permanently conquered.
 
-**Image adds:** Slob is securely on the raised bank after climbing with root and bank support. Only then does he reach for the keg rim at the water edge. Mud Dogs remains intact and snarling in the lower shallows. The keg bears no character’s bodyweight.
+**Image adds:** The cumulative loss of position is the payoff. Slob never needed to stand on a floating keg or win one last evenly balanced exchange.
 
-**Prose adds:** Describe a contest's positional victory, not land ownership transfer.
+**Prose adds:** The old3.15-point escape has become a visible gulf in this proposed encounter.
 
-**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review.
+**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review; Detailed staging follows the accepted commissioner direction; review page execution before art.
 
 
 ---
@@ -767,78 +857,92 @@ McCaffrey’s 52.60 gives Slob the largest starting contribution in the current 
 
 ---
 
-## W10-P19 — This Way, Sir
+## W10-P19 — Birthday Rules
 
-**Reading position:** 19 · **Status:** DRAFT
-
-
-*Dr. Duckhook vs His Majesty's Blood*
-
-Dr. Duckhook had begun to expect the pause before a visitor followed his instructions. Five straight victories made small habits feel like rules. His Majesty’s Blood paused for rather longer than expected, looking past the welcoming gesture toward the veranda. Dr. Duckhook repeated the invitation more clearly. He disliked having to sound helpful twice.
-
-
-
-### Scene and production plan
-
-**Narrative job:** Door Policy: a social reversal expressed through a club, a threshold and a chair.
-
-**Camera:** Medium-wide threshold view; reciprocal close views retain same doorjamb and chair position.
-
-**Foreground:** Duckhook's club across entrance.
-
-**Midground:** Duckhook host left, HMB visitor right; full duck bill and hood visible.
-
-**Background:** Greens, water hazard and club banner.
-
-**Image adds:** Host controls entry with an intact club; visitor notices the room's geometry.
-
-**Prose adds:** Set up hospitality as a contest of authority, without inventing league or membership rules.
-
-**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review.
-
-
----
-
-## W10-P20 — The Courtesy Gives
-
-**Reading position:** 20 · **Status:** DRAFT
+**Reading position:** 19 · **Status:** DRAFT_USER_DIRECTED_FICTION
 
 
 *Dr. Duckhook vs His Majesty's Blood*
 
-For a moment, Dr. Duckhook believed the elegant answer had settled the occasion. It was precisely the sort of response he trusted himself to produce when watched. His Majesty’s Blood did not seem impressed enough to stop. The host searched for the next graceful adjustment and discovered that the available room was vanishing faster than his composure.
+Dr. Duckhook had arranged the cake, the guests and the afternoon with the precision of a man who remembered four tenths of a point. His Majesty’s Blood arrived before the presentation. The first clash rang across the veranda as Duckhook caught the descending steel on his club and drove it aside. For one brilliant moment, the birthday still appeared to belong to its host.
 
+
+
+### Historical context for this scene
+
+In the 2025 Week 16 semifinal, The Immortal — Austin’s prior persona, now His Majesty’s Blood — beat Dr. Duckhook 152.20–151.80 by 0.40. The Immortal then beat ObiWan Jacoby 161.07–109.56 in the final.
+
+**Stakes:** Verified 2025 semifinal; The Immortal advanced and won the championship.
 
 
 ### Scene and production plan
 
-**Narrative job:** Door Policy: a social reversal expressed through a club, a threshold and a chair.
+**Narrative job:** Many Unhappy Returns: a powerhouse clash turns Duckhook’s carefully managed birthday into a public cake catastrophe.
 
-**Camera:** Intimate side-on action shot showing both hands, shaft, chair and jamb.
+**Camera:** Wide energetic opening at the Country Club veranda; begin with the sword-and-club clash already underway, party framing both figures.
 
-**Foreground:** Gauntlet on club shaft and Duckhook's grip.
+**Foreground:** Birthday cake on a table with locked casters; the low platform rail lies between Duckhook’s retreat path and the table. No age, year or named guest is printed.
 
-**Midground:** Duckhook stepping back; HMB advancing one controlled pace.
+**Midground:** Duckhook produces a strong two-handed counter; HMB’s black armor, hooded red eyes and belt remain visible.
 
-**Background:** Same doorway opening and grounds; HMB sword stays lowered or sheathed.
+**Background:** Anonymous guests recoil behind a clear safety gap, club facade and greens establish the home venue.
 
-**Image adds:** One flourish works briefly; sustained pressure changes the threshold position.
+**Image adds:** Duckhook checks the first advance with a real levered block. Establish the low rail immediately behind his heels and the stationary cake table directly beyond it.
 
-**Prose adds:** Acknowledge Duckhook's excellent individual contribution while illustrating the broader opposing force.
+**Prose adds:** The0.40 semifinal memory makes birthday control emotionally specific, while the counter shows why this is a clash of powerhouses.
 
-**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review.
+**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review; Detailed staging follows the accepted commissioner direction; review page execution before art.
 
 
 ---
 
-## W10-P21 — Room for the Guest
+## W10-P20 — The Candles Go Out
+
+**Reading position:** 20 · **Status:** DRAFT_USER_DIRECTED_FICTION
+
+
+*Dr. Duckhook vs His Majesty's Blood*
+
+His Majesty’s Blood came again before the applause could settle. Duckhook answered, then answered once more, losing a step with each reply. His heel caught the low rail. He fell backward through the cake, collapsing its table in a bright, ridiculous avalanche. The guests had been waiting for their host to make a wish. He suddenly had several, none of them ceremonial.
+
+
+
+### Historical context for this scene
+
+In the 2025 Week 16 semifinal, The Immortal — Austin’s prior persona, now His Majesty’s Blood — beat Dr. Duckhook 152.20–151.80 by 0.40. The Immortal then beat ObiWan Jacoby 161.07–109.56 in the final.
+
+**Stakes:** Verified 2025 semifinal; The Immortal advanced and won the championship.
+
+
+### Scene and production plan
+
+**Narrative job:** Many Unhappy Returns: a powerhouse clash turns Duckhook’s carefully managed birthday into a public cake catastrophe.
+
+**Camera:** Low diagonal view along the retreat line: show the blade-to-club impact, heel catching the rail, then the backward fall into the cake through one readable action inset.
+
+**Foreground:** Duckhook’s heel catches the already visible low rail; locked table casters remain stationary before the impact.
+
+**Midground:** HMB drives the final block. Duckhook falls backward across the lower cake tier, and the table frame buckles under his weight.
+
+**Background:** Guests and birthday ribbons remain in the same positions, witnessing the loss of composure.
+
+**Image adds:** Repeated exchanges drive Duck backward until his heel catches the low rail. His body falls directly into the cake on the stationary table; the frame collapses beneath him and frosting spills around his head and shoulders. HMB’s sword never strikes a guest.
+
+**Prose adds:** The birthday props become the consequence of the duel, not decoration behind a generic fight.
+
+**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review; Detailed staging follows the accepted commissioner direction; review page execution before art.
+
+
+---
+
+## W10-P21 — Many Unhappy Returns
 
 **Reading position:** 21 · **Status:** CONDITIONAL_CURRENT_LEADER_ENDING_DRAFT
 
 
 *Dr. Duckhook vs His Majesty's Blood*
 
-Dr. Duckhook had never noticed how low the guest chair sat. From it, every attempt at recovered dignity required him to look upward. His Majesty’s Blood stood on the veranda without asking for anything further. The visitor’s decision to look away first was somehow worse than a remark. Dr. Duckhook adjusted his grip on the club.
+Dr. Duckhook sat amid the remains of his own presentation, green vest buried in frosting and orange bill emerging from a collapsed tier. His Majesty’s Blood stood where the birthday applause had been meant to gather. The guests could still read the occasion from the ribbons. Their host stared through the wreckage with the expression of someone discovering that four tenths had once been merciful.
 
 
 
@@ -851,114 +955,135 @@ Dr. Duckhook had never noticed how low the guest chair sat. From it, every attem
 ### Alternate payoff copy
 
 
-**Reversal:** Provider-final Duckhook win after confirmed correction
+**Reversal:** Provider-final Dr. Duckhook win
 
-Dr. Duckhook remembered that a welcome was also an invitation to move. He stopped resisting the visitor’s pressure and stepped through the door instead. His Majesty’s Blood turned, finding the host already composed on the other side. The duck allowed himself one small adjustment to the cap. This instruction would not need to be repeated.
+Dr. Duckhook felt the rail against his heel and pivoted around it. His Majesty’s Blood followed the retreat that was no longer there, catching the locked cake table with his armored thigh. The duck stepped back onto the platform and recovered his club, frosting on one sleeve. His guests finally found the applause they had been saving for the birthday.
 
 
 **Unresolved:** Provider remains UNDECIDED
 
-Dr. Duckhook could still make the gesture look courteous if he did not move his feet. His Majesty’s Blood could still make the pause look voluntary if he did not tighten his hand. Both understood the bargain. Beyond the veranda, the course waited in perfect order while the welcome became steadily harder to explain.
+The cake trembled on its table behind the low rail as blade and club met again. Dr. Duckhook held the platform edge; His Majesty’s Blood pressed from the veranda. The guests had abandoned the count of candles for the count of exchanged blows. The celebration balanced on one more step, with neither opponent ready to give it.
 
 
-**Tie:** Only when the provider explicitly finalizes a TIE. Equal current scores or exactly meeting a margin does not authorize this branch.
+**Tie:** Provider explicitly resolves the matchup as a tie
 
-The club remained between them. Dr. Duckhook had found a way to hold it that preserved his posture; His Majesty’s Blood had found a way to wait that preserved his own. Neither would provide the movement that made the other’s position useful. The empty chair sat just inside the door, suddenly the least embarrassed presence on the veranda.
+The final clash left blade and club locked above the overturned cake table. Dr. Duckhook held one end of the platform and His Majesty’s Blood the other, both dusted with the celebration neither had managed to control. The guests looked from one figure to the next. There was no winner to toast, and very little cake left to divide.
+
+
+### Historical context for this scene
+
+In the 2025 Week 16 semifinal, The Immortal — Austin’s prior persona, now His Majesty’s Blood — beat Dr. Duckhook 152.20–151.80 by 0.40. The Immortal then beat ObiWan Jacoby 161.07–109.56 in the final.
+
+**Stakes:** Verified 2025 semifinal; The Immortal advanced and won the championship.
 
 
 ### Scene and production plan
 
-**Narrative job:** Door Policy: a social reversal expressed through a club, a threshold and a chair.
+**Narrative job:** Many Unhappy Returns: a powerhouse clash turns Duckhook’s carefully managed birthday into a public cake catastrophe.
 
-**Camera:** Medium-wide aftermath with greens visible beyond both figures.
+**Camera:** Medium-wide payoff with Duck large in the foreground and HMB towering on the platform; retain the witnesses and birthday setting.
 
-**Foreground:** Duckhook seated, bill and club readable.
+**Foreground:** Duck’s orange bill, white head and green golf clothing remain recognizable through the cake; intact club lies across his knees.
 
-**Midground:** HMB through threshold, hood and existing belt retained.
+**Midground:** HMB stands with sword lowered, black hood and red eyes visible, championship belt unchanged.
 
-**Background:** Same cultivated golf grounds and banner.
+**Background:** Birthday ribbons, collapsed table and the same anonymous guests make the humiliation publicly legible.
 
-**Image adds:** Duckhook yields the doorway and becomes the uncomfortable host; HMB does not occupy a throne.
+**Image adds:** Duck settles seated amid the table he fell through and the ruined cake. Frosting delivers the comic humiliation; HMB’s decisive control completes the sporting metaphor.
 
-**Prose adds:** Limit the win to the encounter; no trophy, title or real-estate transfer.
+**Prose adds:** The former razor-thin semifinal survivor has now spoiled the opponent’s birthday on an emphatic scale.
 
-**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review.
+**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review; Detailed staging follows the accepted commissioner direction; review page execution before art.
 
 
 ---
 
-## W10-P22 — At His Own Table
+## W10-P22 — The Empire Opens Fire
 
-**Reading position:** 22 · **Status:** DRAFT
+**Reading position:** 22 · **Status:** DRAFT_USER_DIRECTED_FICTION
 
 
 *ObiWan Jacoby vs The LLC*
 
-ObiWan Jacoby had returned to the mountain because he understood the order of this room. A table could be cleared. Pieces could be arranged. A mistake could be examined before somebody else explained it to him. Across from him, The LLC set down a closed case. ObiWan found himself wishing the visitor would say something about the arena.
+The first blast struck the causeway before the warning could finish. ObiWan Jacoby met the next volley with a green blade and sent a burning answer into the forward battery. Above the smoke, The LLC stood on the command platform with his red tie lifting in the wind. He had beaten ObiWan by less than a point once. This time, he had brought an empire’s answer.
 
+
+
+### Historical context for this scene
+
+In 2024 Week 12, The LLC beat ObiWan Jacoby 163.16–162.36 by 0.80. It was a regular-season game, not the end of ObiWan’s season.
+
+**Stakes:** Regular-season Week12 result. ObiWan subsequently won the 2024 championship; LLC finished seventh.
 
 
 ### Scene and production plan
 
-**Narrative job:** The Last Two Pieces: The LLC returns to strategic pressure while ObiWan still has two answers to test.
+**Narrative job:** Unlimited Firepower: an explosive Jedi-versus-Empire assault at ObiWan’s mountain approach.
 
-**Camera:** Over-shoulder from ObiWan toward LLC and the ridge; reciprocal shot preserves same room and board orientation.
+**Camera:** Huge low-angle opening in the middle of the assault: green blade foreground, exploding forward battery across the causeway, LLC commander above.
 
-**Foreground:** ObiWan shoulder, board edge and two reserve pieces.
+**Foreground:** Obi deflects red blaster fire into the first battery; sparks and stone chips establish immediate motion.
 
-**Midground:** The LLC in dark suit across table; case by chair.
+**Midground:** White-armored anonymous Imperial troops advance on the established approach; the first battery erupts while the second is already turning.
 
-**Background:** War-room opening and fixed ridge silhouette; green sword safely in frame.
+**Background:** Recognizable suited LLC commands from an armored platform, face and sunglasses visible; the fixed mountain ridge and stone arch anchor geography.
 
-**Image adds:** Both characters enter a quiet physical strategy contest with two reserves visibly established.
+**Image adds:** Begin under fire. Obi actively breaks the forward battery with returned blaster fire, forcing the assault line to change before LLC orders its response.
 
-**Prose adds:** Connect recent defeats with differing attempts to regain control, without narrating actual trade offers.
+**Prose adds:** The old0.80-point encounter gives context; present force changes the scale completely.
 
-**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review.
+**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review; Detailed staging follows the accepted commissioner direction; review page execution before art.
 
 
 ---
 
-## W10-P23 — The Table Narrows
+## W10-P23 — Two Ways Through
 
-**Reading position:** 23 · **Status:** DRAFT
+**Reading position:** 23 · **Status:** DRAFT_USER_DIRECTED_FICTION
 
 
 *ObiWan Jacoby vs The LLC*
 
-Two pieces were still enough to demand patience. ObiWan Jacoby reminded himself of that whenever his attention returned to the lane The LLC had closed. He could describe the position perfectly; he needed to change it. Across the table, the visitor waited without offering sympathy. The silence made every possible move sound larger in ObiWan’s head.
+ObiWan Jacoby took the opening at a run. The shattered battery bought one advance; the narrow ridge offered another. He crossed the exposed stone in a green arc of deflected fire and drove toward the command platform. The LLC did not retreat. He turned one gloved hand, and the guns that had survived the first attack found the second one.
 
+
+
+### Historical context for this scene
+
+In 2024 Week 12, The LLC beat ObiWan Jacoby 163.16–162.36 by 0.80. It was a regular-season game, not the end of ObiWan’s season.
+
+**Stakes:** Regular-season Week12 result. ObiWan subsequently won the 2024 championship; LLC finished seventh.
 
 
 ### Scene and production plan
 
-**Narrative job:** The Last Two Pieces: The LLC returns to strategic pressure while ObiWan still has two answers to test.
+**Narrative job:** Unlimited Firepower: an explosive Jedi-versus-Empire assault at ObiWan’s mountain approach.
 
-**Camera:** Overhead-oblique medium shot retaining hands, faces and landscape opening.
+**Camera:** Wide tracking diagonal from broken battery to ridge flank and command platform; one small earlier-action inset can clarify the two attempts.
 
-**Foreground:** Central blocking piece and visibly separate reserves.
+**Foreground:** The wrecked first battery proves the opening attack happened; hot fragments remain behind Obi.
 
-**Midground:** ObiWan's suspended hand; LLC controlled seated posture.
+**Midground:** Obi launches the second counteroffensive along the exposed ridge, green blade actively clearing his route.
 
-**Background:** Same ridge through opening; retriever beside chair, green blade nearby.
+**Background:** LLC signals the surviving battery and flanking troops; the command platform stays on the same side of the stone arch.
 
-**Image adds:** A visible move closes a lane already established; two reserves remain unused.
+**Image adds:** Two physically distinct counteroffensives are attempted: break the first battery, then flank toward the commander. LLC answers with crossfire from already established surviving positions.
 
-**Prose adds:** Make remaining possibility tangible while keeping outcome unresolved; no mathematical forecast disguised as prose.
+**Prose adds:** The hero makes consequential choices and gains ground; overwhelming pressure defeats real attempts rather than unused reserve tokens.
 
-**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review.
+**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review; Detailed staging follows the accepted commissioner direction; review page execution before art.
 
 
 ---
 
-## W10-P24 — The Case Closes
+## W10-P24 — Unlimited Firepower
 
 **Reading position:** 24 · **Status:** CONDITIONAL_CURRENT_LEADER_ENDING_DRAFT
 
 
 *ObiWan Jacoby vs The LLC*
 
-ObiWan Jacoby could explain every turn that had brought the table to this position. That was what made lowering his hand difficult. The LLC offered no speech to argue with, only the small click of the case closing. Beside the chair, the golden retriever looked up. ObiWan rested his hand there instead.
+The second counterattack vanished beneath converging red fire. ObiWan Jacoby drove his green blade through the nearest burst and held the inner arch as the mountain approach disappeared in smoke. Across the wrecked causeway, The LLC lowered his hand. The surviving battery answered anyway. The difference between them was no longer a fraction on a ledger. It was how much fire remained after both of ObiWan’s answers.
 
 
 
@@ -973,36 +1098,43 @@ ObiWan Jacoby could explain every turn that had brought the table to this positi
 
 **Reversal:** Provider-final ObiWan Jacoby win
 
-ObiWan Jacoby had been treating the reserves as two separate reasons to keep hoping. At last, he saw what they could do together. The LLC’s hand paused on the case latch. ObiWan let himself study that small hesitation before making the second move. For once, somebody else could spend the silence searching for an answer.
+ObiWan Jacoby used the first battery’s wreckage to draw the crossfire, then changed direction beneath the stone arch. His second assault reached the command platform before the surviving guns could turn. The LLC stepped back as the green blade cut through the firing controls. Across the causeway, the advancing formation stopped receiving its orders, and the Jedi kept moving.
 
 
-**Unresolved:** Before Henry, Andrews and provider finality resolve
+**Unresolved:** Provider remains UNDECIDED
 
-ObiWan Jacoby left both reserve pieces where they were. Touching one would turn a possibility into a decision, and he was not ready to waste either. The LLC waited across the table with a hand near the case. Outside, the ridge was losing its light. Inside, two small pieces still gave the host something to consider.
+Red fire crossed the causeway while ObiWan Jacoby held his green blade toward the command platform. One battery burned behind him; the second counterattack had reached the ridge but not the commander. The LLC lifted a hand toward the surviving guns. Between those two movements, the entire mountain approach remained an unfinished blaze.
 
 
-**Tie:** Only when the provider explicitly finalizes a TIE. Equal current scores or exactly meeting a margin does not authorize this branch.
+**Tie:** Provider explicitly resolves the matchup as a tie
 
-ObiWan Jacoby studied the lane neither of them could use. The LLC had stopped reaching for the case. Each could explain why the other had failed to finish the contest; neither explanation supplied a move of his own. The golden retriever shifted beside the chair, and both men looked up at the interruption with more gratitude than they intended.
+The last battery fell silent as ObiWan Jacoby reached the broken edge of the command approach. The LLC held the far platform, and the green blade held the inner arch, with neither able to cross the smoking gap. Both counterattacks had been spent. Both lines still stood. The mountain carried the marks of a battle neither side could finish.
+
+
+### Historical context for this scene
+
+In 2024 Week 12, The LLC beat ObiWan Jacoby 163.16–162.36 by 0.80. It was a regular-season game, not the end of ObiWan’s season.
+
+**Stakes:** Regular-season Week12 result. ObiWan subsequently won the 2024 championship; LLC finished seventh.
 
 
 ### Scene and production plan
 
-**Narrative job:** The Last Two Pieces: The LLC returns to strategic pressure while ObiWan still has two answers to test.
+**Narrative job:** Unlimited Firepower: an explosive Jedi-versus-Empire assault at ObiWan’s mountain approach.
 
-**Camera:** Medium aftermath with table foreground and fixed ridge behind; no triumphal throne framing.
+**Camera:** Epic wide payoff with Obi braced at the inner arch in the near foreground and LLC’s surviving formation beyond the wrecked causeway.
 
-**Foreground:** Both previously reserved pieces now deployed and visibly contained in the final board formation; former reserve positions empty.
+**Foreground:** Green blade catches a final volley; Obi’s blond face and earth-toned identity remain readable. Retriever is visible in deep shelter behind the arch.
 
-**Midground:** LLC closing case and rising; ObiWan withdrawing hand.
+**Midground:** Both counterattack routes are spent and visibly marked: ruined first battery and suppressed ridge flank.
 
-**Background:** Same ridge opening, separate retriever and green sword.
+**Background:** LLC remains the unmasked executive commander beside the single surviving battery and advancing troops; the wrecked first emplacement stays visible.
 
-**Image adds:** Show both reserve pieces already played: the first now in the central lane contained by LLC’s established blocker, the second advanced along the outer lane and contained by the pre-existing formation. The reserve positions are empty. Both pieces remain identifiable on the board as ObiWan withdraws his hand and LLC closes the case.
+**Image adds:** The decisive image shows both counters attempted and contained. Obi yields the exposed approach under sustained fire while LLC controls the open ground; no invented death or permanent ownership transfer.
 
-**Prose adds:** Define a loss without inventing property transfer, death or actual financial obligations.
+**Prose adds:** High scoring becomes sustained military power, with a continuing hero who fought rather than silently conceded.
 
-**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review.
+**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review; Detailed staging follows the accepted commissioner direction; review page execution before art.
 
 
 ---
@@ -1340,7 +1472,7 @@ No Week 10 betting notice has been confirmed for this edition. Any posted lines,
 
 *Final Word*
 
-When the scores settle, the Commonwealth has to carry them. D0nkey and Chili cannot bring last week’s wins into this week’s accounting. Duckhook’s streak has met 208.76; ObiWan’s rescue rests with Henry and Andrews. No one gets to keep only the flattering part of the ledger. Beyond this finish are four more fixtures per team. The return to division play is near, and the same rivals will soon be close enough to answer back. Finish the line. Then turn the page.
+The scoreboard will remember the numbers. The Commonwealth will remember the cake, the clanging metal, the mud and a green blade beneath a hostile sky. For Red Leopards, the cold has a familiar shape. For the others, this week has found a more personal way to leave its mark. Monday still has the final words. After this round, four regular-season games remain, with the division rivals waiting near the end of the road. Carry the memory. Bring an answer.
 
 
 

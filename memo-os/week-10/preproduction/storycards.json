@@ -11,7 +11,7 @@
       "approval_claimed": false,
       "final_art_generated": false,
       "source_score_state": "ALL_ESPN_WINNER_FIELDS_UNDECIDED",
-      "source_snapshot_path": "/workspace/scratch/162404e483ef/Schemin_Week_10_FLAIM_Refresh_2026-11-16.json",
+      "source_snapshot_path": "facts.json",
       "repository_commit": "a24656366b73d1ef8ec98cf405d2337194bd2b97",
       "id": "W10-M01",
       "home_team_id": 7,
@@ -63,20 +63,20 @@
         }
       ],
       "spotlight": {
-        "status": "PROPOSED_CARRIED_FROM_WEEK9",
-        "source": "Actual Week9 reading32 The Next Six and full-name review; no changed spotlight approved"
+        "status": "CONFIRMED_BY_COMMISSIONER_2026_11_16",
+        "source": "Current user instruction identifies Chili–D0nkey as Game of the Week"
       },
       "venue": {
-        "decision_status": "UNRESOLVED_DRAFT_OPTION",
+        "decision_status": "NEUTRAL_GOTW_RODEO_DRAFTED_FROM_COMMISSIONER_DIRECTION",
         "proposed_neutral_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
         "proposed_neutral_name": "Compact Neutral Grounds",
         "ordinary_home_fallback_id": "LOC-CHILI-STABLE",
         "ordinary_home_fallback_name": "Chili Outlaw Stable",
-        "reason": "Atlas defaults Game of the Week to reachable neutral ground. Do not silently erase home-site law or treat spotlight as approved.",
+        "reason": "Jake confirmed the Game of the Week and requested a giant public muddy rodeo. The draft stages that temporary arena at the Atlas’s reachable neutral grounds; exact arena dressing remains proposed fiction.",
         "neutral_landmarks": [
-          "open ceremonial field",
-          "arbiter pavilion",
-          "arrival roads"
+          "open ceremonial field dressed as muddy ring",
+          "arbiter pavilion beyond crowd",
+          "arrival roads beyond temporary grandstands"
         ],
         "home_landmarks": [
           "stable",
@@ -84,13 +84,14 @@
           "Dark Horse enclosure"
         ],
         "set_dressing": [
-          "portable western rail",
-          "empty sliding cargo crate",
-          "one continuous rope",
-          "Dark Horse tether point safely outside action"
+          "one long competition rope with its ends visibly tracked",
+          "muddy center ring",
+          "temporary grandstands",
+          "red-and-gold event banners",
+          "Dark Horse at the separate holding gate"
         ],
-        "set_dressing_status": "Temporary proposed props, not new permanent geography",
-        "light": "Proposed clear late afternoon; not real-world weather reporting"
+        "set_dressing_status": "Proposed temporary scene props following accepted commissioner direction",
+        "light": "Cold autumn afternoon with arena lighting, local fictional staging"
       },
       "continuity": {
         "week9_in": [
@@ -106,88 +107,89 @@
           "No injured horse",
           "No stolen mount",
           "No new neutral settlement",
-          "No final score or GOTW approval"
+          "No final score before provider closure"
         ]
       },
-      "concept": "The Rope’s Owner: a staged public trick changes who controls it.",
+      "concept": "The Main Attraction: the Arsenal centaur turns Chili’s own rodeo into a witnessed hogtie.",
       "beats": [
         {
           "beat": 1,
-          "title": "A Public Demonstration",
-          "copy": "The Chili Cheesers had liked having everyone watch. That was the part of last week he wanted again: the moment when a guest realized who had arranged the occasion. D0nkey K0ng was taking an irritatingly long time to enter the marked ground. The Chili Cheesers gave the rope another turn and waited for his audience to become useful.",
-          "copy_status": "DRAFT",
-          "camera": "Wide three-quarter establishing view; brief reciprocal close POVs remain on one action axis.",
-          "foreground": "Crate front-eye attachment and outbound rope visible; separate returning tail leads to Chili’s hands.",
-          "midground": "The Chili Cheesers left; D0nkey K0ng entering right, all four legs readable.",
-          "background": "Neutral pavilion and both arrival roads, OR stable/pit smoke/enclosure after venue decision; never blend the two.",
-          "visual_action": "Establish one continuous rope: low crate eye → open U-turn around D0nkey’s axe haft → free tail in Chili’s hands. The crate is behind and offset from Chili; Chili stands beside the initial crate travel corridor. The rail is only a boundary. Show the intended sliding path before the pull.",
-          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
-          "prose_role": "Contrast public confidence with careful attention; no literal football narration in the scene copy.",
+          "title": "The Main Attraction",
+          "copy": "The Chili Cheesers had invited an audience large enough to make the victory permanent. Last week, he had made the champion part of the entertainment. An earlier loss to this opponent could be settled in the same fashion. Across the churned ring, D0nkey K0ng lowered his axe and planted four hooves. The outlaw sent his first loop flying.",
+          "copy_status": "DRAFT_USER_DIRECTED_FICTION",
+          "camera": "Wide low arena view; Chili left, D0nkey right, gate rear-left and grandstand arc always behind them.",
+          "foreground": "Rope coils beside Chili’s muddy boots; the free tail is in his left hand.",
+          "midground": "Chili casts with his right hand; the integrated four-legged Arsenal centaur braces and raises the axe haft.",
+          "background": "Packed anonymous spectators; Dark Horse waits behind a distinct holding rail; no named real guests.",
+          "visual_action": "A visible lariat travels from Chili’s throwing hand toward the axe haft. Establish the complete rope route and the open center ring.",
+          "image_role": "Show the described present action, specific characters and physical cause.",
+          "prose_role": "Public confidence and the wish to reverse a real prior defeat make the spectacle personal.",
           "continuity_in": [
-            "Chili's recent public triumph",
-            "D0nkey's integrated four-legged anatomy"
+            "LOC-COMPACT-NEUTRAL-GROUNDS",
+            "Preserve current identity packets and preceding beat’s geography"
           ],
           "continuity_out": [
-            "Single continuous rope path, low crate eye, turning haft and free tail established",
-            "Crate-to-haft corridor clear; Chili stance offset beside it",
-            "Safe Dark Horse location and four centaur legs established"
+            "A visible lariat travels from Chili’s throwing hand toward the axe haft. Establish the complete rope route and the open center ring.",
+            "Local scene consequence remains draft until detailed acceptance"
           ],
           "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
           "image_vs_prose": {
-            "image": "Establish one continuous rope: low crate eye → open U-turn around D0nkey’s axe haft → free tail in Chili’s hands. The crate is behind and offset from Chili; Chili stands beside the initial crate travel corridor. The rail is only a boundary. Show the intended sliding path before the pull.",
-            "prose": "Contrast public confidence with careful attention; no literal football narration in the scene copy."
+            "image": "A visible lariat travels from Chili’s throwing hand toward the axe haft. Establish the complete rope route and the open center ring.",
+            "prose": "Public confidence and the wish to reverse a real prior defeat make the spectacle personal."
           },
           "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
         },
         {
           "beat": 2,
-          "title": "Four Hooves Change the Angle",
-          "copy": "For The Chili Cheesers, the first tug still belonged to the performance. He could almost hear the reaction he had prepared for. Then the pull changed. D0nkey K0ng had noticed something the host had neglected: a trick only works while its guest agrees to stand where he is expected. The empty crate began to look much less empty.",
-          "copy_status": "DRAFT",
-          "camera": "Low lateral action view, camera stays on established side of rope line.",
-          "foreground": "Taut crate-to-haft segment and low crate eye; returning free tail remains in Chili’s hands.",
-          "midground": "D0nkey shifts weight through four visible legs; Chili pulls from unchanged position.",
-          "background": "Same rail and chosen venue landmark; Dark Horse remains safely separate.",
-          "visual_action": "Chili’s boot-braced backward pull slides the crate toward the haft. D0nkey steps laterally out of that corridor and moves the haft sideways, sweeping the crate-to-haft line across Chili’s stance. The unchanged rope tension then slides the crate into Chili’s backward step. Show every rope segment and ground contact; nothing moves by itself.",
-          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
-          "prose_role": "Explain the specific change of leverage that the ending will pay off.",
+          "title": "The Arsenal Answers",
+          "copy": "The first block drew a roar from the stands. The Chili Cheesers pulled harder, trusting the same skill that had always made a crowd look his way. D0nkey K0ng did not follow the pull. He set his weight against it, caught the running rope and answered once. The outlaw’s next view of his audience came through a sheet of mud.",
+          "copy_status": "DRAFT_USER_DIRECTED_FICTION",
+          "camera": "Low lateral action frame; a small follow-through inset may show the takedown without hiding its cause.",
+          "foreground": "Chili’s heels leave their grip; mud sprays toward the lens.",
+          "midground": "D0nkey’s hands catch the open loop from the haft, four hooves braced; one forceful pull brings Chili forward and down.",
+          "background": "Same holding gate and grandstands; spectators follow the visible rope exchange.",
+          "visual_action": "Axe is grounded after blocking. D0nkey takes the running rope in both hands and pulls while Chili still holds the tail. Chili falls into the open mud. No knot forms during the tug.",
+          "image_role": "Show the described present action, specific characters and physical cause.",
+          "prose_role": "Chili’s confidence becomes a mistake the whole crowd can understand.",
           "continuity_in": [
-            "Exact single-rope path and offset Chili stance from beat1"
+            "LOC-COMPACT-NEUTRAL-GROUNDS",
+            "Preserve current identity packets and preceding beat’s geography"
           ],
           "continuity_out": [
-            "Haft shifted laterally; crate travel line now crosses Chili’s backward step",
-            "Crate reaches Chili’s lower-leg space at ground level; no airborne collision",
-            "D0nkey remains outside moving corridor"
+            "Axe is grounded after blocking. D0nkey takes the running rope in both hands and pulls while Chili still holds the tail. Chili falls into the open mud. No knot forms during the tug.",
+            "Local scene consequence remains draft until detailed acceptance"
           ],
           "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
           "image_vs_prose": {
-            "image": "Chili’s boot-braced backward pull slides the crate toward the haft. D0nkey steps laterally out of that corridor and moves the haft sideways, sweeping the crate-to-haft line across Chili’s stance. The unchanged rope tension then slides the crate into Chili’s backward step. Show every rope segment and ground contact; nothing moves by itself.",
-            "prose": "Explain the specific change of leverage that the ending will pay off."
+            "image": "Axe is grounded after blocking. D0nkey takes the running rope in both hands and pulls while Chili still holds the tail. Chili falls into the open mud. No knot forms during the tug.",
+            "prose": "Chili’s confidence becomes a mistake the whole crowd can understand."
           },
           "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
         },
         {
           "beat": 3,
-          "title": "The Demonstration Concludes",
-          "copy": "The Chili Cheesers had prepared a remark for every part of the demonstration except this one. From the crate, he could see The Dark Horse watching with an expression that offered no assistance. D0nkey K0ng let the silence last. The host kept his sunglasses on, grateful for one piece of equipment that was still doing its job.",
+          "title": "Center-Ring Receipt",
+          "copy": "D0nkey K0ng took the time to finish the work where every seat could see it. The Chili Cheesers lifted his muddy face toward a roar that had become laughter, hat crooked, sunglasses still in place. He had wanted the crowd to remember who commanded the ring. Now his own rope held the answer behind his back, and the Arsenal colors stood over it.",
           "copy_status": "CONDITIONAL_CURRENT_LEADER_ENDING_DRAFT",
-          "camera": "Medium-wide aftermath at slightly lower angle than beat1; keep full D0nkey body.",
-          "foreground": "Crate, slack loop and settled dust.",
-          "midground": "Chili seated unhurt; D0nkey controlled and upright.",
-          "background": "Same safe horse position and chosen venue landmark.",
-          "visual_action": "The crate has stopped where it interrupted Chili’s backward step; he sits in its open top. The same rope remains attached to the crate with slack on the ground; its open turn has slipped free of the grounded haft. D0nkey’s full four-legged body is outside the line. The Dark Horse remains untouched.",
-          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
-          "prose_role": "Let the irony land; do not assert a championship or property transfer.",
+          "camera": "Medium-wide low payoff with hogtied Chili large in the foreground, D0nkey’s full four-legged body beyond him, crowd filling the upper frame.",
+          "foreground": "Chili lies on his side in soft mud, wrists and ankles visibly linked behind him with the competition rope; recognizable hat, beard, sunglasses and coat.",
+          "midground": "D0nkey deliberately finishes and checks the binding with his hands; axe remains grounded out of the rope path.",
+          "background": "The same crowd has a clear view of center ring; the separate Dark Horse remains at the gate.",
+          "visual_action": "Show an explicit short binding inset before the main aftermath: D0nkey gathers the fallen rope, controls Chili’s wrists, then secures the ankles. The final hogtie is not created magically by the earlier pull.",
+          "image_role": "Show the described present action, specific characters and physical cause.",
+          "prose_role": "The humiliation lands because Chili chose the audience and supplied the instrument.",
           "continuity_in": [
-            "Beat2 real pull and sideways haft movement brought the crate into Chili’s step"
+            "LOC-COMPACT-NEUTRAL-GROUNDS",
+            "Preserve current identity packets and preceding beat’s geography"
           ],
           "continuity_out": [
-            "Temporary props displaced; identities, horse and venue intact"
+            "Show an explicit short binding inset before the main aftermath: D0nkey gathers the fallen rope, controls Chili’s wrists, then secures the ankles. The final hogtie is not created magically by the earlier pull.",
+            "Local scene consequence remains draft until detailed acceptance"
           ],
           "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
           "image_vs_prose": {
-            "image": "The crate has stopped where it interrupted Chili’s backward step; he sits in its open top. The same rope remains attached to the crate with slack on the ground; its open turn has slipped free of the grounded haft. D0nkey’s full four-legged body is outside the line. The Dark Horse remains untouched.",
-            "prose": "Let the irony land; do not assert a championship or property transfer."
+            "image": "Show an explicit short binding inset before the main aftermath: D0nkey gathers the fallen rope, controls Chili’s wrists, then secures the ankles. The final hogtie is not created magically by the earlier pull.",
+            "prose": "The humiliation lands because Chili chose the audience and supplied the instrument."
           },
           "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
         }
@@ -196,28 +198,27 @@
         "holding": {
           "condition": "Provider-final D0nkey K0ng win",
           "use_beat": 3,
-          "copy": "The Chili Cheesers had prepared a remark for every part of the demonstration except this one. From the crate, he could see The Dark Horse watching with an expression that offered no assistance. D0nkey K0ng let the silence last. The host kept his sunglasses on, grateful for one piece of equipment that was still doing its job.",
-          "visual": "The crate has stopped where it interrupted Chili’s backward step; he sits in its open top. The same rope remains attached to the crate with slack on the ground; its open turn has slipped free of the grounded haft. D0nkey’s full four-legged body is outside the line. The Dark Horse remains untouched."
+          "title": "Center-Ring Receipt",
+          "copy": "D0nkey K0ng took the time to finish the work where every seat could see it. The Chili Cheesers lifted his muddy face toward a roar that had become laughter, hat crooked, sunglasses still in place. He had wanted the crowd to remember who commanded the ring. Now his own rope held the answer behind his back, and the Arsenal colors stood over it.",
+          "visual": "Show an explicit short binding inset before the main aftermath: D0nkey gathers the fallen rope, controls Chili’s wrists, then secures the ankles. The final hogtie is not created magically by the earlier pull."
         },
         "reversal": {
-          "condition": "Provider-final Chili win after correction or other confirmed change",
-          "title": "The Released End",
-          "copy": "The Chili Cheesers recognized the mistake before the crowd could recognize it for him. He released the rope, stepped clear and let D0nkey K0ng finish pulling against nothing. Relief arrived first; the grin followed a moment later. By then, the host had decided this had always been the lesson he intended to give.",
-          "visual": "Same set; Chili releases rope and regains outside angle. No new mechanism."
+          "condition": "Provider-final The Chili Cheesers win",
+          "title": "The Outlaw Keeps the Ring",
+          "copy": "The Chili Cheesers let the tail run before the centaur’s pull could take his balance. He cut across the open ring, recovered the loose end and cast beneath the next planted foreleg. D0nkey K0ng checked his advance. The crowd saw the outlaw rise from the mud with control of the rope and one more reason to demand its attention.",
+          "visual": "Resolve the same established props and battlefield through the described counter. No new unintroduced mechanism."
         },
         "unresolved": {
-          "condition": "UNDECIDED or tie without resolved provider outcome",
-          "instruction": "Keep outcome selection open; no celebratory final panel or invented tie rule.",
-          "copy": "The Chili Cheesers kept his smile in place while the rope settled between them. D0nkey K0ng watched the line instead of the host. Somewhere beyond the rail, The Dark Horse shifted a hoof. The pause was becoming long enough to belong to neither performer. Whoever moved next would have to explain what the demonstration had been about.",
-          "copy_status": "USABLE_UNRESOLVED_PAYOFF_DRAFT",
-          "visual": "Return to the already established contested position before the decisive movement; do not show a winner."
+          "condition": "Provider remains UNDECIDED",
+          "title": "The Encounter Remains Open",
+          "copy": "The rope snapped straight between them and the front rows rose together. The Chili Cheesers dug his heels into the mud. D0nkey K0ng widened his four-hoof base and lowered his shoulders. Every spectator could see the same unfinished question stretched across the ring: who would move first when the next pull came?",
+          "visual": "Hold the established encounter before its decisive action; no winning tableau."
         },
         "tie": {
-          "condition": "Only when the provider explicitly finalizes a TIE. Equal current scores or exactly meeting a margin does not authorize this branch.",
-          "title": "An Unfinished Argument",
-          "copy": "The Chili Cheesers released his end at the same moment D0nkey K0ng stopped pulling. The rope dropped between them, and both looked toward the empty crate as though it might settle the disagreement. Neither offered the other a laugh. The Dark Horse remained the only spectator who seemed satisfied with the afternoon.",
-          "copy_status": "CONDITIONAL_PROVIDER_FINAL_TIE_DRAFT",
-          "visual": "Both characters retain distinct opposing positions from beat two; no victory gesture. Exact result typography follows the provider."
+          "condition": "Provider explicitly resolves the matchup as a tie",
+          "title": "Neither Side Gives",
+          "copy": "The last pull brought both contestants to a stop. The Chili Cheesers stood plastered with mud, holding one end of the rope; D0nkey K0ng held the other beyond a furrow of torn ground. The spectators waited for a decisive movement that never came. The ring had provided its spectacle, but neither warrior could claim the final hold.",
+          "visual": "Both opponents retain contested positions; no invented tiebreak."
         }
       },
       "sources": [
@@ -227,18 +228,17 @@
         "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/CHAR-BRANDON-PRYOR/COMMISSIONER_APPEARANCE_LOCK_2026_10_22.json"
       ],
       "physical_action_contract": {
-        "prop_ids": {
-          "rope": "ONE continuous rope, not two lines",
-          "crate": "same empty sliding wooden cargo crate throughout",
-          "axe": "D0nkey-held axe with its haft acting as a visible turning surface",
-          "rail": "boundary marker only; not a hidden rope anchor or pulley"
-        },
-        "established_rope_path": "One rope end is tied to a low eye on the crate front. It runs forward to a single open U-turn around D0nkey’s axe haft, then returns to the free end held in both Chili hands. No closed neck/body loop, invisible knot, hidden pulley or additional anchor.",
-        "plan_view": "Crate starts behind and slightly to the side of Chili; Chili stands clear of the initial crate-to-haft line. D0nkey and haft are farther forward. The original crate travel corridor and Chili’s adjacent stance must be shown in beat one.",
-        "chili_intended_force": "Chili pulls the free tail using planted boots and backward bodyweight, intending to slide the crate along its visible line toward D0nkey’s lower-leg space. The force comes from that sustained pull, not an autonomous moving crate.",
-        "donkey_counter": "D0nkey steps outside the original travel corridor on four hooves and physically carries the haft sideways. The crate-to-haft line now crosses Chili’s stance. Chili’s continued backward pull still tensions the same rope, drawing the crate toward the shifted haft and into the space immediately behind Chili’s lower legs.",
-        "payoff_force": "The slowly sliding crate interrupts Chili’s backward step; he drops into its open top. No airborne crate, unexplained rebound or collision with The Dark Horse.",
-        "visual_check": "Before final art, a rough overhead blocking sketch must prove one continuous rope, two visible end roles, real ground contact, a clear shifted travel line and all four centaur legs."
+        "stages": [
+          "Establish both rope ends, separate horse and continuous action axis.",
+          "The axe blocks the cast; D0nkey then grounds it and takes the rope with both hands.",
+          "Brace four hooves; pull the still-gripping outlaw into mud.",
+          "Show deliberate handwork securing wrists and ankles before the final hogtie."
+        ],
+        "required_review": "Rough blocking must demonstrate the continuous force, viewpoint and prop chain before finished illustration."
+      },
+      "personalization_receipt": {
+        "source": "Commissioner Jake instruction2026-11-16; personalization-intake.md",
+        "status": "ACCEPTED_CREATIVE_DIRECTION; detailed execution draft"
       },
       "fact_file": "facts.json",
       "fact_id": "W10-G01"
@@ -250,7 +250,7 @@
       "approval_claimed": false,
       "final_art_generated": false,
       "source_score_state": "ALL_ESPN_WINNER_FIELDS_UNDECIDED",
-      "source_snapshot_path": "/workspace/scratch/162404e483ef/Schemin_Week_10_FLAIM_Refresh_2026-11-16.json",
+      "source_snapshot_path": "facts.json",
       "repository_commit": "a24656366b73d1ef8ec98cf405d2337194bd2b97",
       "id": "W10-M02",
       "home_team_id": 2,
@@ -326,11 +326,14 @@
           "forest approach"
         ],
         "set_dressing": [
-          "temporary boards",
-          "partial sandbag repairs"
+          "temporary pitch repair boards",
+          "wrecked goal and old truck ruts",
+          "torn red banners",
+          "wind-stripped leaves",
+          "frost on existing stone"
         ],
-        "set_dressing_status": "New draft repair props, not permanent canon",
-        "light": "Proposed rain-lit afternoon; El Niño's local fictional manifestation"
+        "set_dressing_status": "Proposed temporary scene props following accepted commissioner direction",
+        "light": "Cold dull November daylight, hard wind and frost; no flood"
       },
       "continuity": {
         "week9_in": [
@@ -347,80 +350,86 @@
           "No permanent ruin collapse"
         ]
       },
-      "concept": "The Repair Bill: last week's truck damage becomes the path for water.",
+      "concept": "That Cold Again: a November windstorm makes Red recognize the opponent who ended his 13–1 title run.",
       "beats": [
         {
           "beat": 1,
-          "title": "The Field Remembers",
-          "copy": "Red Leopards had expected the next visitor to notice what happened to the last one. The leaning goal and torn grass should have been warning enough. Instead, El Niño studied the damage with interest. That was harder to tolerate than disrespect. The predator had spent the morning deciding what the field needed; his guest appeared to have a different use for it.",
-          "copy_status": "DRAFT",
-          "camera": "Over-shoulder from Red's upper perch, followed by reciprocal third-person visitor view.",
-          "foreground": "Red claws beside a temporary board.",
-          "midground": "Damaged pitch, ruts and wrecked goal.",
-          "background": "El Niño at forest approach; narrow exit offset consistently.",
-          "visual_action": "Show incomplete repairs and the visitor discovering the pre-existing channels.",
-          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
-          "prose_role": "Make continuity itself the cause of the new threat.",
+          "title": "The Season Turns",
+          "copy": "Thirteen wins had once felt like protection. Red Leopards remembered what El Niño had done with that certainty. He pressed the repair board into place and checked it again, although the first fastening had held. Beyond the ruined goal, the last leaves turned silver-side upward. The visitor emerged beneath a sky that seemed to have forgotten the afternoon.",
+          "copy_status": "DRAFT_USER_DIRECTED_FICTION",
+          "camera": "Over Red’s shoulder across the damaged terrace; briefly close on the recognition in his face before revealing the embodied visitor.",
+          "foreground": "Red’s claws tighten a board against the existing stone edge; frost gathers on the fastening.",
+          "midground": "The damaged pitch and bent goal remain exactly where Week9 left them; dry leaves begin lifting.",
+          "background": "El Niño stands at the forest approach under a low cold front, fully recognizable as the approved humanoid elemental.",
+          "visual_action": "Cold wind probes the unfinished repairs. Red reacts before the storm reaches him.",
+          "image_role": "Show the described present action, specific characters and physical cause.",
+          "prose_role": "The verified 2022 memory changes present behavior; the weather is current fictional staging, not reconstructed historical weather.",
           "continuity_in": [
-            "Week9 damaged goal, ruts and exit"
+            "LOC-RED-RUINS",
+            "Preserve current identity packets and preceding beat’s geography"
           ],
           "continuity_out": [
-            "Repair board and two runoff channels established"
+            "Cold wind probes the unfinished repairs. Red reacts before the storm reaches him.",
+            "Local scene consequence remains draft until detailed acceptance"
           ],
           "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
           "image_vs_prose": {
-            "image": "Show incomplete repairs and the visitor discovering the pre-existing channels.",
-            "prose": "Make continuity itself the cause of the new threat."
+            "image": "Cold wind probes the unfinished repairs. Red reacts before the storm reaches him.",
+            "prose": "The verified 2022 memory changes present behavior; the weather is current fictional staging, not reconstructed historical weather."
           },
           "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
         },
         {
           "beat": 2,
-          "title": "Nothing Stops at the Gate",
-          "copy": "There had been comfort in knowing the passage was too narrow for the truck. Red Leopards had seen the exact moment when size became a weakness. Now he searched for the same certainty and found none. El Niño needed no room to turn. Each repair that saved one patch of ground seemed to offer the visitor another opening.",
-          "copy_status": "DRAFT",
-          "camera": "Low oblique action view that includes upstream gap, barrier and downstream exit.",
-          "foreground": "Water curling around the temporary board.",
-          "midground": "Red shifting barrier; El Niño visibly embodied beyond the flow.",
-          "background": "Unchanged ruined goal, stone exit and predator banners.",
-          "visual_action": "Water follows the already drawn ruts and open gap; Red's intervention redirects rather than erases it.",
-          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
-          "prose_role": "Explain why yesterday's successful defense fails against a different kind of opponent.",
+          "title": "The Last Leaves",
+          "copy": "Red Leopards answered the first gust with a leap toward the loose brace. The second arrived from another direction. Boards cracked, banners snapped and every leaf on the field seemed to leave at once. He had beaten this opponent convincingly before that old semifinal. The memory offered no useful footing now. El Niño advanced through the colorless air.",
+          "copy_status": "DRAFT_USER_DIRECTED_FICTION",
+          "camera": "Wide diagonal action shot with Red crossing frame against the wind; preserve goal-left and stone exit-right.",
+          "foreground": "Brittle leaves and a broken repair board rush past the lens; no floodwater.",
+          "midground": "Red catches one failing brace while another releases; El Niño drives the cold gust through the open terrace.",
+          "background": "The same ruins and forest become grey silhouettes; remaining red banners whip toward one consistent downwind direction.",
+          "visual_action": "A gust breaks the temporary brace, then a cross-gust strips the remaining cover. Red’s successive interventions fail through visible forces.",
+          "image_role": "Show the described present action, specific characters and physical cause.",
+          "prose_role": "Earlier confidence makes this repetition hurt; there is no curse or declared playoff elimination.",
           "continuity_in": [
-            "Same ruts and repair board"
+            "LOC-RED-RUINS",
+            "Preserve current identity packets and preceding beat’s geography"
           ],
           "continuity_out": [
-            "Lower terrace flooded; high plinth remains accessible"
+            "A gust breaks the temporary brace, then a cross-gust strips the remaining cover. Red’s successive interventions fail through visible forces.",
+            "Local scene consequence remains draft until detailed acceptance"
           ],
           "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
           "image_vs_prose": {
-            "image": "Water follows the already drawn ruts and open gap; Red's intervention redirects rather than erases it.",
-            "prose": "Explain why yesterday's successful defense fails against a different kind of opponent."
+            "image": "A gust breaks the temporary brace, then a cross-gust strips the remaining cover. Red’s successive interventions fail through visible forces.",
+            "prose": "Earlier confidence makes this repetition hurt; there is no curse or declared playoff elimination."
           },
           "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
         },
         {
           "beat": 3,
-          "title": "The High Stone",
-          "copy": "From the high stone, Red Leopards could see every repair he had meant to finish. The board he had chosen first floated past the goal. El Niño held the approach without looking hurried. Anger offered the predator a dozen reasons to jump down. None of them supplied a dry place to land.",
+          "title": "That Cold Again",
+          "copy": "Red Leopards reached the high stone and turned into the wind. Below him, El Niño occupied the approach with the unhurried certainty of someone who needed no explanation. The field had gone almost entirely grey. One torn strip of red kept striking the wall beside him. He watched it return, and return, and thought of a season he had once believed was safe.",
           "copy_status": "CONDITIONAL_CURRENT_LEADER_ENDING_DRAFT",
-          "camera": "Wide elevated payoff retaining complete terrace map.",
-          "foreground": "Dry plinth edge and Red's planted claws.",
-          "midground": "El Niño occupying lower approach; local water across pitch.",
-          "background": "Goal and stone exit remain identifiable.",
-          "visual_action": "Red yields the lower field while staying dangerous, intact and identifiable.",
-          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
-          "prose_role": "Frame loss of position without declaring destruction of a homeland.",
+          "camera": "Broad bleak payoff with Red on the near high ledge and El Niño visibly embodied below; leave cold negative space around the defender.",
+          "foreground": "Red’s braced paws, frost-edged crimson fur and the repeatedly striking red banner.",
+          "midground": "The stripped terrace and failed temporary repairs; El Niño controls the approach.",
+          "background": "Leafless trees and low cloud obscure distance without creating a new ocean or changing the Atlas.",
+          "visual_action": "Red yields the lower position under relentless cold wind. His physical survival and continued resistance remain visible.",
+          "image_role": "Show the described present action, specific characters and physical cause.",
+          "prose_role": "The ending is recognition and dread about the season, not a statement that qualification is impossible.",
           "continuity_in": [
-            "Flooded lower terrace from beat2"
+            "LOC-RED-RUINS",
+            "Preserve current identity packets and preceding beat’s geography"
           ],
           "continuity_out": [
-            "Temporary saturation/repair burden; no permanent world-state promotion"
+            "Red yields the lower position under relentless cold wind. His physical survival and continued resistance remain visible.",
+            "Local scene consequence remains draft until detailed acceptance"
           ],
           "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
           "image_vs_prose": {
-            "image": "Red yields the lower field while staying dangerous, intact and identifiable.",
-            "prose": "Frame loss of position without declaring destruction of a homeland."
+            "image": "Red yields the lower position under relentless cold wind. His physical survival and continued resistance remain visible.",
+            "prose": "The ending is recognition and dread about the season, not a statement that qualification is impossible."
           },
           "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
         }
@@ -429,27 +438,27 @@
         "holding": {
           "condition": "Provider-final El Niño win",
           "use_beat": 3,
-          "copy": "From the high stone, Red Leopards could see every repair he had meant to finish. The board he had chosen first floated past the goal. El Niño held the approach without looking hurried. Anger offered the predator a dozen reasons to jump down. None of them supplied a dry place to land."
+          "title": "That Cold Again",
+          "copy": "Red Leopards reached the high stone and turned into the wind. Below him, El Niño occupied the approach with the unhurried certainty of someone who needed no explanation. The field had gone almost entirely grey. One torn strip of red kept striking the wall beside him. He watched it return, and return, and thought of a season he had once believed was safe.",
+          "visual": "Red yields the lower position under relentless cold wind. His physical survival and continued resistance remain visible."
         },
         "reversal": {
           "condition": "Provider-final Red Leopards win",
-          "title": "The Open Channel",
-          "copy": "Red Leopards stopped trying to preserve every patch of grass. There was one line he needed, and he finally allowed the rest to carry the water away. El Niño turned toward the opened channel. The predator moved before the opportunity could become another repair to consider, finding a foothold where he had almost stopped looking.",
-          "visual": "Use the established board and outlet to open a lane; no new dam, spell or landmark."
+          "title": "A Different Ending",
+          "copy": "Red Leopards stopped trying to hold every broken edge. He let the banner go, waited for the gust to empty itself and sprang along the shelter of the surviving wall. El Niño turned too late to close that narrow approach. The old memory remained. For once, the defender had used it to choose a different answer.",
+          "visual": "Resolve the same established props and battlefield through the described counter. No new unintroduced mechanism."
         },
         "unresolved": {
-          "condition": "Before Flowers and provider finality resolve",
-          "instruction": "Retain both endings; tie treatment must follow actual provider outcome.",
-          "copy": "Red Leopards listened for a change beneath the sound of the rain. The board was holding at one end and lifting at the other. El Niño had not yet crossed the lower approach. For the moment, the field still contained two possible routes. The predator watched the narrow one and refused to call it finished.",
-          "copy_status": "USABLE_UNRESOLVED_PAYOFF_DRAFT",
-          "visual": "Return to the already established contested position before the decisive movement; do not show a winner."
+          "condition": "Provider remains UNDECIDED",
+          "title": "The Encounter Remains Open",
+          "copy": "The cold front pressed against the ruins while Red Leopards held the high stone. El Niño waited below the torn banner. Neither had left the approach, and the next gust had not yet broken. Red watched the opening beneath the wall with the attention of someone who knew how much an unfinished encounter could still take from him.",
+          "visual": "Hold the established encounter before its decisive action; no winning tableau."
         },
         "tie": {
-          "condition": "Only when the provider explicitly finalizes a TIE. Equal current scores or exactly meeting a margin does not authorize this branch.",
-          "title": "An Unfinished Argument",
-          "copy": "The water reached the foot of the high stone and stopped rising. Red Leopards watched El Niño across the flooded strip; El Niño watched the remaining dry line beside the goal. Both had ground they could keep. Neither had ground they could take without giving the other an opening. The rain continued after the argument had run out of room.",
-          "copy_status": "CONDITIONAL_PROVIDER_FINAL_TIE_DRAFT",
-          "visual": "Both characters retain distinct opposing positions from beat two; no victory gesture. Exact result typography follows the provider."
+          "condition": "Provider explicitly resolves the matchup as a tie",
+          "title": "Neither Side Gives",
+          "copy": "The wind spent itself against the surviving wall. Red Leopards stood on the high stone; El Niño remained at the approach, each holding the position the other could not take. Leaves settled across the damaged pitch. The old memory had returned, but this time its ending remained divided between two figures still facing one another in the cold.",
+          "visual": "Both opponents retain contested positions; no invented tiebreak."
         }
       },
       "sources": [
@@ -458,6 +467,19 @@
         "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/living-novel/os/geography/world_travel_graph_v1.json",
         "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/location-control-plane/locations/LOC-RED-RUINS/CARD.json"
       ],
+      "personalization_receipt": {
+        "source": "Commissioner Jake instruction2026-11-16; personalization-intake.md",
+        "status": "ACCEPTED_CREATIVE_DIRECTION; detailed execution draft"
+      },
+      "physical_action_contract": {
+        "stages": [
+          "Maintain Week9 ruins, damaged goal and partial repairs.",
+          "Cold wind, stripped leaves, frost and pressure replace all flood choreography.",
+          "Red makes visible attempts to brace the field; the storm defeats those attempts.",
+          "Historical memory is reaction or a factual caption; no invented2022 venue/weather flashback."
+        ],
+        "required_review": "Rough blocking must demonstrate the continuous force, viewpoint and prop chain before finished illustration."
+      },
       "fact_file": "facts.json",
       "fact_id": "W10-G02"
     },
@@ -468,7 +490,7 @@
       "approval_claimed": false,
       "final_art_generated": false,
       "source_score_state": "ALL_ESPN_WINNER_FIELDS_UNDECIDED",
-      "source_snapshot_path": "/workspace/scratch/162404e483ef/Schemin_Week_10_FLAIM_Refresh_2026-11-16.json",
+      "source_snapshot_path": "facts.json",
       "repository_commit": "a24656366b73d1ef8ec98cf405d2337194bd2b97",
       "id": "W10-M03",
       "home_team_id": 6,
@@ -524,16 +546,19 @@
         "name": "Waterfall Temple outer approach",
         "landmarks": [
           "waterfall back-left",
-          "temple stone doorway high-right",
-          "dense vegetation",
-          "one broad wet step",
-          "low approach foreground"
+          "closed inner temple door high-right",
+          "outer stone approach",
+          "same forest arrival path"
         ],
         "set_dressing": [
-          "threshold encounter line"
+          "portable metal barrel",
+          "loose metal lids",
+          "trucker air horn on a small handcart",
+          "Chins’s hammer",
+          "closed inner temple door"
         ],
-        "set_dressing_status": "Temporary staging; no newly named family space",
-        "light": "Mist and natural daylight"
+        "set_dressing_status": "Proposed temporary scene props following accepted commissioner direction",
+        "light": "Cool daylight with warm light behind the closed family door"
       },
       "continuity": {
         "week9_in": [
@@ -552,82 +577,86 @@
           "No temple destruction"
         ]
       },
-      "concept": "Three Heads, One Foothold: sightlines multiply but the body must hold a single position.",
+      "concept": "An Encore Nobody Ordered: Chins turns a new father’s need for quiet into an escalating noise spectacle.",
       "beats": [
         {
           "beat": 1,
-          "title": "A Visitor on Foot",
-          "copy": "Three Dreaded Snake preferred an opponent who announced how he intended to arrive. An engine would have given him time to judge the approach. Seven Deadly Chins offered only footsteps and the scrape of a hammer against his shoulder. Three heads followed the visitor. None liked how little there seemed to be to distract him.",
-          "copy_status": "DRAFT",
-          "camera": "Wide lower-approach view; reciprocal close view preserves shared body and wet-step axis.",
-          "foreground": "Chins heavy boot and hammer silhouette.",
-          "midground": "TDS on broad step, all three heads and common torso visible.",
-          "background": "Waterfall left, temple doorway right, dense foliage beyond.",
-          "visual_action": "Chins walks into the encounter; TDS tracks several angles from one foothold.",
-          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
-          "prose_role": "Carry the truck consequence without inventing its repair or belittling the family event.",
+          "title": "Do Not Wake the Baby",
+          "copy": "Three Dreaded Snake had finally found a moment in which all three heads could agree. Quiet. From inside the temple came the small, uncertain silence of a baby nearly asleep. Seven Deadly Chins arrived on foot with a barrel, a hammer and a look suggesting that last season’s defeats had left him something to say. He chose to say it in metal.",
+          "copy_status": "DRAFT_USER_DIRECTED_FICTION",
+          "camera": "Wide outer-temple approach with the closed family door high-right and waterfall back-left; move close enough to read three distinct expressions.",
+          "foreground": "Chins sets the metal barrel and loose lids on the stone outside the family space.",
+          "midground": "One TDS head listens toward the door, one pleads toward Chins, one already glares; a single shared body makes the quieting gesture.",
+          "background": "Closed inner door and waterfall remain unchanged; no invented baby likeness or named family member. A folded padded wrap is visible beside the closed doorway, establishing the reversal prop.",
+          "visual_action": "Chins strikes the first loud clang outside. The ordinary waterfall hiss provides a constant backdrop; the sharp metal interruption cuts through it.",
+          "image_role": "Show the described present action, specific characters and physical cause.",
+          "prose_role": "A personal milestone gives the contest its comic stakes; last season’s two losses provide fictional competitive motive.",
           "continuity_in": [
-            "Unresolved Week9 truck recovery",
-            "TDS onebody/threeheads"
+            "LOC-TDS-WATERFALL-TEMPLE",
+            "Preserve current identity packets and preceding beat’s geography"
           ],
           "continuity_out": [
-            "Step, hammer brace point and outer threshold established"
+            "Chins strikes the first loud clang outside. The ordinary waterfall hiss provides a constant backdrop; the sharp metal interruption cuts through it.",
+            "Local scene consequence remains draft until detailed acceptance"
           ],
           "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
           "image_vs_prose": {
-            "image": "Chins walks into the encounter; TDS tracks several angles from one foothold.",
-            "prose": "Carry the truck consequence without inventing its repair or belittling the family event."
+            "image": "Chins strikes the first loud clang outside. The ordinary waterfall hiss provides a constant backdrop; the sharp metal interruption cuts through it.",
+            "prose": "A personal milestone gives the contest its comic stakes; last season’s two losses provide fictional competitive motive."
           },
           "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
         },
         {
           "beat": 2,
-          "title": "The Weight Stays Put",
-          "copy": "Every head found an answer. One saw the open side, another the wet stone, the third the visitor’s exposed shoulder. Three Dreaded Snake committed before the possibilities could settle into one choice. Seven Deadly Chins gave him no space to revise it. The problem was no longer seeing an opening. It was reaching one without surrendering the step.",
-          "copy_status": "DRAFT",
-          "camera": "Medium lateral contact view: hammer head/shaft, both Chins arms, shoulder-to-guard contact and both characters’ feet all visible.",
-          "foreground": "Hammer head flat on stone; Chins boot pushing against the step.",
-          "midground": "Chins free forearm/shoulder contacting TDS guard; TDS chest and feet yielding under pressure.",
-          "background": "Same doorway and waterfall; no moved column.",
-          "visual_action": "Chins braces the hammer head flat on the step with one hand on its shaft. His free forearm and near shoulder make clear contact with TDS’s raised forearm and upper-chest guard below the three necks. Chins drives through planted boots; that visible pressure forces TDS’s shared torso and feet backward toward the threshold.",
-          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
-          "prose_role": "Make the shared-body constraint dramatically useful without treating TDS as three independent fighters.",
+          "title": "Almost Asleep",
+          "copy": "The hammer stopped. Three Dreaded Snake froze. One head listened toward the doorway while another attempted an expression of gratitude; the third kept its eyes on the visitor. For several precious seconds, the temple seemed willing to forgive them. Seven Deadly Chins lifted a finger, as though remembering an important detail, and reached for the air horn.",
+          "copy_status": "DRAFT_USER_DIRECTED_FICTION",
+          "camera": "Tight reaction sequence: shared TDS torso and all three heads, followed by a clean inset of the hand reaching the horn.",
+          "foreground": "The hammer rests visibly on the barrel; Chins’s other hand closes on the horn trigger.",
+          "midground": "TDS stays on the threshold, one head listening, one pleading, one furious; the physical pause is readable.",
+          "background": "The same closed door; faint offscreen baby sounds may be represented through controlled typography, not a new child character.",
+          "visual_action": "Use clang→pause→hope→horn as four clearly separated beats within the page. Chins controls the timing rather than striking TDS or entering the family room.",
+          "image_role": "Show the described present action, specific characters and physical cause.",
+          "prose_role": "The pause makes renewed frustration more personal than an uninterrupted wall of noise.",
           "continuity_in": [
-            "Wet step and brace point from beat1"
+            "LOC-TDS-WATERFALL-TEMPLE",
+            "Preserve current identity packets and preceding beat’s geography"
           ],
           "continuity_out": [
-            "Visible contact and grounded drive force TDS toward outer threshold",
-            "Chins gains broad step through bodily leverage, not the hammer alone"
+            "Use clang→pause→hope→horn as four clearly separated beats within the page. Chins controls the timing rather than striking TDS or entering the family room.",
+            "Local scene consequence remains draft until detailed acceptance"
           ],
           "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
           "image_vs_prose": {
-            "image": "Chins braces the hammer head flat on the step with one hand on its shaft. His free forearm and near shoulder make clear contact with TDS’s raised forearm and upper-chest guard below the three necks. Chins drives through planted boots; that visible pressure forces TDS’s shared torso and feet backward toward the threshold.",
-            "prose": "Make the shared-body constraint dramatically useful without treating TDS as three independent fighters."
+            "image": "Use clang→pause→hope→horn as four clearly separated beats within the page. Chins controls the timing rather than striking TDS or entering the family room.",
+            "prose": "The pause makes renewed frustration more personal than an uninterrupted wall of noise."
           },
           "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
         },
         {
           "beat": 3,
-          "title": "One Step Taken",
-          "copy": "Seven Deadly Chins waited for another objection. Three Dreaded Snake offered three expressions that could have supplied one, but the space between them had become difficult to dispute. For once, the visitor did not fill the silence himself. He rested a hand on the hammer and let the waterfall make all the noise.",
+          "title": "An Encore Nobody Ordered",
+          "copy": "The answering cry came from behind the door. Three Dreaded Snake threw both arms wide, and the three heads finally abandoned agreement: one shouted, one begged, one stared in exhausted disbelief. Seven Deadly Chins answered with a triumphant rolling clang across the lids. The visitor had found a performance his host could neither ignore nor applaud, and he plainly knew an encore.",
           "copy_status": "CONDITIONAL_CURRENT_LEADER_ENDING_DRAFT",
-          "camera": "Medium-wide aftermath, slightly elevated; full silhouettes and threshold readable.",
-          "foreground": "Grounded hammer and wet step.",
-          "midground": "Chins occupies step; TDS upright beyond line.",
-          "background": "Unharmed temple exterior, waterfall and foliage.",
-          "visual_action": "A central position changes without a kneeling-knight repeat or family danger.",
-          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
-          "prose_role": "Preserve continuing character dignity and limit the story consequence to the contest.",
+          "camera": "Medium-wide comedy payoff, Chins’s percussion foreground-left, TDS and all three reactions center, closed door behind.",
+          "foreground": "Hammer visibly strikes a row of lids across the barrel; horn rests on the handcart between uses.",
+          "midground": "Chins grins over his improvised one-man band; TDS has one body and three unmistakably different reactions.",
+          "background": "Closed protected family space and the same waterfall; no truck appears or is magically repaired.",
+          "visual_action": "The louder restart defeats TDS’s effort to restore quiet. The child remains offscreen; the father and noisy visitor carry the joke.",
+          "image_role": "Show the described present action, specific characters and physical cause.",
+          "prose_role": "The humiliation is the adult’s loss of control over the occasion, not harm to the baby or a real-world explanation of fantasy scoring.",
           "continuity_in": [
-            "Beat2 earned gain"
+            "LOC-TDS-WATERFALL-TEMPLE",
+            "Preserve current identity packets and preceding beat’s geography"
           ],
           "continuity_out": [
-            "Scuffed step; no destroyed temple or altered family situation"
+            "The louder restart defeats TDS’s effort to restore quiet. The child remains offscreen; the father and noisy visitor carry the joke.",
+            "Local scene consequence remains draft until detailed acceptance"
           ],
           "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
           "image_vs_prose": {
-            "image": "A central position changes without a kneeling-knight repeat or family danger.",
-            "prose": "Preserve continuing character dignity and limit the story consequence to the contest."
+            "image": "The louder restart defeats TDS’s effort to restore quiet. The child remains offscreen; the father and noisy visitor carry the joke.",
+            "prose": "The humiliation is the adult’s loss of control over the occasion, not harm to the baby or a real-world explanation of fantasy scoring."
           },
           "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
         }
@@ -636,28 +665,27 @@
         "holding": {
           "condition": "Provider-final Seven Deadly Chins win",
           "use_beat": 3,
-          "copy": "Seven Deadly Chins waited for another objection. Three Dreaded Snake offered three expressions that could have supplied one, but the space between them had become difficult to dispute. For once, the visitor did not fill the silence himself. He rested a hand on the hammer and let the waterfall make all the noise.",
-          "visual": "Chins now occupies the step gained through the explicit shoulder/forearm contact; TDS remains upright behind the threshold with guard still raised."
+          "title": "An Encore Nobody Ordered",
+          "copy": "The answering cry came from behind the door. Three Dreaded Snake threw both arms wide, and the three heads finally abandoned agreement: one shouted, one begged, one stared in exhausted disbelief. Seven Deadly Chins answered with a triumphant rolling clang across the lids. The visitor had found a performance his host could neither ignore nor applaud, and he plainly knew an encore.",
+          "visual": "The louder restart defeats TDS’s effort to restore quiet. The child remains offscreen; the father and noisy visitor carry the joke."
         },
         "reversal": {
           "condition": "Provider-final Three Dreaded Snake win",
-          "title": "Around the Brace",
-          "copy": "Three Dreaded Snake had spent the encounter watching the visitor’s strength. At last, he watched what that strength depended on. The hammer slipped, the weight followed, and the three gazes settled on the same opening. Seven Deadly Chins recovered quickly enough to recognize it. He did not recover quickly enough to reach it first.",
-          "visual": "Use already shown spray and brace; no added head or spell."
+          "title": "Quiet at Last",
+          "copy": "Three Dreaded Snake waited until the horn stopped for breath. Then the shared body moved with sudden agreement: one hand caught the hammer, the other lifted the padded wrap already beside the doorway and smothered the lids. Seven Deadly Chins reached for another instrument and found the defender standing between him and the cart. This time, the silence lasted.",
+          "visual": "Resolve the same established props and battlefield through the described counter. No new unintroduced mechanism."
         },
         "unresolved": {
-          "condition": "Before Ravens D/ST and provider finality resolve",
-          "instruction": "No ending selected as canon; no victory/defeat label.",
-          "copy": "Three Dreaded Snake had stopped looking for three different answers. All three heads watched the hammer now, waiting for the weight behind it to settle. Seven Deadly Chins felt the defender become quieter and tightened his grip. The broad step lay between them, slick with spray and still large enough for one more attempt.",
-          "copy_status": "USABLE_UNRESOLVED_PAYOFF_DRAFT",
-          "visual": "Return to the already established contested position before the decisive movement; do not show a winner."
+          "condition": "Provider remains UNDECIDED",
+          "title": "The Encounter Remains Open",
+          "copy": "The hammer hovered above the barrel while Three Dreaded Snake stood perfectly still at the door. One head pleaded for the pause to continue; another watched the horn; the third listened behind them. Seven Deadly Chins had not yet decided which noise came next. For the moment, the entire encounter depended on a hand that had not fallen.",
+          "visual": "Hold the established encounter before its decisive action; no winning tableau."
         },
         "tie": {
-          "condition": "Only when the provider explicitly finalizes a TIE. Equal current scores or exactly meeting a margin does not authorize this branch.",
-          "title": "An Unfinished Argument",
-          "copy": "Seven Deadly Chins kept his hand on the grounded hammer. Three Dreaded Snake kept his feet at the threshold. Neither could advance without first moving the support that made the position bearable. The waterfall was the only thing still gaining ground. After a while, all three serpent heads and the visitor were listening to it.",
-          "copy_status": "CONDITIONAL_PROVIDER_FINAL_TIE_DRAFT",
-          "visual": "Both characters retain distinct opposing positions from beat two; no victory gesture. Exact result typography follows the provider."
+          "condition": "Provider explicitly resolves the matchup as a tie",
+          "title": "Neither Side Gives",
+          "copy": "Seven Deadly Chins kept his instruments, but Three Dreaded Snake held the outer door shut against the racket. Every clang met another stubborn refusal to yield the threshold. At last the visitor lowered the hammer and the three heads listened together. Neither had won the argument. The small silence behind the door became the only thing either could count.",
+          "visual": "Both opponents retain contested positions; no invented tiebreak."
         }
       },
       "sources": [
@@ -667,10 +695,17 @@
         "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/location-control-plane/locations/LOC-TDS-WATERFALL-TEMPLE/CARD.json"
       ],
       "physical_action_contract": {
-        "contact": "Chins keeps one hand on the braced hammer shaft. His free forearm and near shoulder press visibly against TDS’s raised forearm/upper-chest guard, below the three necks.",
-        "force": "The hammer head is flat against the wet step; Chins drives through planted boots and shoulder contact. TDS’s feet yield backward under the visible pressure, not by reaction to a merely planted hammer.",
-        "anatomy": "Exactly two arms and two legs on TDS’s shared body; three heads remain above the contact. Chins has two arms total, one on the shaft and one forming the guarded contact.",
-        "continuity": "No uncontacted retreat, telekinetic hammer, unsupported body throw or strike to a serpent head."
+        "stages": [
+          "Introduce a folded padded wrap at the doorway in beat1 for the reversal branch.",
+          "Noise stays on the outer approach; no physical contest enters the family room.",
+          "One clang, a believable quiet pause, then horn and percussion escalation.",
+          "Three head reactions belong to one body; do not invent independent arms or three separate fathers."
+        ],
+        "required_review": "Rough blocking must demonstrate the continuous force, viewpoint and prop chain before finished illustration."
+      },
+      "personalization_receipt": {
+        "source": "Commissioner Jake instruction2026-11-16; personalization-intake.md",
+        "status": "ACCEPTED_CREATIVE_DIRECTION; detailed execution draft"
       },
       "fact_file": "facts.json",
       "fact_id": "W10-G03"
@@ -682,7 +717,7 @@
       "approval_claimed": false,
       "final_art_generated": false,
       "source_score_state": "ALL_ESPN_WINNER_FIELDS_UNDECIDED",
-      "source_snapshot_path": "/workspace/scratch/162404e483ef/Schemin_Week_10_FLAIM_Refresh_2026-11-16.json",
+      "source_snapshot_path": "facts.json",
       "repository_commit": "a24656366b73d1ef8ec98cf405d2337194bd2b97",
       "id": "W10-M04",
       "home_team_id": 10,
@@ -744,10 +779,13 @@
           "Week9 racing rut"
         ],
         "set_dressing": [
-          "loose plank",
-          "Slob’s sealed keg, used as rolling buffer rather than raft"
+          "Slob’s heavy keg",
+          "exposed root",
+          "firm raised bank",
+          "old racing rut",
+          "swamp shallows"
         ],
-        "set_dressing_status": "Temporary scene props; no new permanent bridge",
+        "set_dressing_status": "Proposed temporary scene props following accepted commissioner direction",
         "light": "Low warm light through swamp canopy"
       },
       "continuity": {
@@ -766,82 +804,86 @@
           "No extra head/limb"
         ]
       },
-      "concept": "Firm Ground: mass and equipment change the footing of a close encounter.",
+      "concept": "No Close Finish: Slob dominates every exchange and leaves Mud Dogs without a credible opening.",
       "beats": [
         {
           "beat": 1,
-          "title": "Nothing Here Is Dry",
-          "copy": "Mud Dogs knew which ground would hold. Lately, that knowledge had not been enough to make the swamp feel dependable. The visitor set down an enormous keg and tested a plank with his boot. Mud Dogs watched the hesitation with satisfaction. Let the outsider learn how little the place cared about the confidence he brought into it.",
-          "copy_status": "DRAFT",
-          "camera": "Low hound-eye establishing shot, then reciprocal visitor shoulder view.",
-          "foreground": "Root, wet plank and hound paws.",
-          "midground": "Slob placing keg at edge of firm berm.",
-          "background": "Old rut and cypress-like trunks; low channel remains distinct.",
-          "visual_action": "Both characters assess the same narrow footing before a charge.",
-          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
-          "prose_role": "Connect yesterday's terrain consequence with today's tactical choice.",
+          "title": "The First Charge Stops Here",
+          "copy": "Mud Dogs came out of the reeds with the certainty of a creature that knew every inch beneath its paws. Slob on my Dobb met the charge behind the broad face of his keg and kept walking. Their earlier meeting had left room for an argument. This one began with four furrows in the mud and the visitor gaining ground.",
+          "copy_status": "DRAFT_USER_DIRECTED_FICTION",
+          "camera": "Low head-on collision with Slob’s full weight behind the keg and the quadrupedal hound visible in profile.",
+          "foreground": "Mud Dogs’ four paws carve distinct tracks; the keg blocks the forequarters without obscuring the canine head.",
+          "midground": "Slob holds the keg with both hands and advances from the firm bank, feet visibly supported.",
+          "background": "The exposed root, old racing rut and reeds establish the unchanged swamp approach.",
+          "visual_action": "Slob stops the first charge through body mass, braced footing and the keg’s broad surface. His dominance exists from first contact.",
+          "image_role": "Show the described present action, specific characters and physical cause.",
+          "prose_role": "The remembered narrow consolation win is a contrast to the immediate imbalance.",
           "continuity_in": [
-            "Week9 rut/flood continuity"
+            "LOC-MUD-DOGS-SWAMP",
+            "Preserve current identity packets and preceding beat’s geography"
           ],
           "continuity_out": [
-            "Root, plank, berm edge and keg established"
+            "Slob stops the first charge through body mass, braced footing and the keg’s broad surface. His dominance exists from first contact.",
+            "Local scene consequence remains draft until detailed acceptance"
           ],
           "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
           "image_vs_prose": {
-            "image": "Both characters assess the same narrow footing before a charge.",
-            "prose": "Connect yesterday's terrain consequence with today's tactical choice."
+            "image": "Slob stops the first charge through body mass, braced footing and the keg’s broad surface. His dominance exists from first contact.",
+            "prose": "The remembered narrow consolation win is a contrast to the immediate imbalance."
           },
           "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
         },
         {
           "beat": 2,
-          "title": "Let It Roll",
-          "copy": "Slob on my Dobb had stopped looking for a clean way through. There was none, and pretending otherwise only gave the hound more time to choose the encounter. He needed somewhere to put his weight when the charge arrived. The root would do. If the keg made the rest of the ground unpleasant, that could become somebody else’s problem.",
-          "copy_status": "DRAFT",
-          "camera": "Low lateral action view showing root-to-channel relationship.",
-          "foreground": "Keg rolling off the berm; exposed root and Slob’s firmly supported boot clearly separate from the water.",
-          "midground": "Slob supported by root and bank; hound’s front paws at yielding edge, rear paws on berm.",
-          "background": "Same rut and trunks; no new route.",
-          "visual_action": "Slob sets the keg across the narrow firm strip. The hound’s forequarters meet the rolling buffer; it turns into the channel. Slob pivots with one boot securely on the exposed root and a hand or second foot braced against the firm bank. The hound’s committed front paws reach the soft edge as the obstacle rolls away. Slob never rests weight on the keg.",
-          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
-          "prose_role": "Explain movement rather than claiming a new power or rendering abstract score impact.",
+          "title": "Every Yard Goes Backward",
+          "copy": "Mud Dogs tried the root, then the softer edge, then one furious lunge around the metal. Each answer arrived a little later than Slob’s next step. The visitor turned the keg, drove forward and took another strip of the bank. Nothing in his expression suggested a surprise was required. He had brought enough force to keep the same promise repeatedly.",
+          "copy_status": "DRAFT_USER_DIRECTED_FICTION",
+          "camera": "Tracking lateral composition with three readable successive positions; finish on Slob still advancing, not a late trick.",
+          "foreground": "Churned tracks show Mud’s repeated retreat; no hidden rope or floating platform.",
+          "midground": "Slob rotates the keg as a shield and keeps both feet on root or firm bank; Mud’s lunges are stopped and redirected.",
+          "background": "The same low channel and damaged race approach mark how much ground has been lost.",
+          "visual_action": "Three attempted resistances fail in sequence: direct charge, root-side flank, low lunge. Slob answers each with a supported step and keg block.",
+          "image_role": "Show the described present action, specific characters and physical cause.",
+          "prose_role": "Relentlessness, rather than a lucky reversal, makes the scoring margin visible.",
           "continuity_in": [
-            "Same keg/root/berm from beat1"
+            "LOC-MUD-DOGS-SWAMP",
+            "Preserve current identity packets and preceding beat’s geography"
           ],
           "continuity_out": [
-            "Keg displaced into channel as a loose prop",
-            "Slob supported by root and firm bank, moving toward higher ground",
-            "Hound’s forequarters reach shallower soft edge"
+            "Three attempted resistances fail in sequence: direct charge, root-side flank, low lunge. Slob answers each with a supported step and keg block.",
+            "Local scene consequence remains draft until detailed acceptance"
           ],
           "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
           "image_vs_prose": {
-            "image": "Slob sets the keg across the narrow firm strip. The hound’s forequarters meet the rolling buffer; it turns into the channel. Slob pivots with one boot securely on the exposed root and a hand or second foot braced against the firm bank. The hound’s committed front paws reach the soft edge as the obstacle rolls away. Slob never rests weight on the keg.",
-            "prose": "Explain movement rather than claiming a new power or rendering abstract score impact."
+            "image": "Three attempted resistances fail in sequence: direct charge, root-side flank, low lunge. Slob answers each with a supported step and keg block.",
+            "prose": "Relentlessness, rather than a lucky reversal, makes the scoring margin visible."
           },
           "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
         },
         {
           "beat": 3,
-          "title": "Above the Waterline",
-          "copy": "Mud Dogs could endure the mud. What it could not comfortably endure was the visitor settling on the raised bank as though the place had finally become hospitable. Slob on my Dobb caught the keg by its rim and took his time. The hound snarled again. This time, the sound did nothing to hurry him.",
+          "title": "No Close Finish",
+          "copy": "Slob on my Dobb planted the keg on the high bank and rested a heavy hand on its rim. Mud Dogs stood below in the churned shallows, jaws still working, with no clean line left for another charge. The visitor had needed a narrow margin once. Now the distance between them could be seen in the ground itself, and nobody needed to measure it.",
           "copy_status": "CONDITIONAL_CURRENT_LEADER_ENDING_DRAFT",
-          "camera": "Wide bank-height aftermath with characters in distinct vertical planes.",
-          "foreground": "Root and reachable floating keg.",
-          "midground": "Slob on raised bank; hound intact and snarling below.",
-          "background": "Visible old rut, same channel and trunks.",
-          "visual_action": "Slob is securely on the raised bank after climbing with root and bank support. Only then does he reach for the keg rim at the water edge. Mud Dogs remains intact and snarling in the lower shallows. The keg bears no character’s bodyweight.",
-          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
-          "prose_role": "Describe a contest's positional victory, not land ownership transfer.",
+          "camera": "Broad dominance payoff: Slob occupies the high bank, Mud remains a fierce four-legged hound below; show the length of the displaced track.",
+          "foreground": "The hound’s muddy paws and deep retreat furrows; no injury or human posture.",
+          "midground": "Slob stands securely above with the keg grounded, large and unhurried.",
+          "background": "Root, reeds and old rut align with earlier shots; the landscape is displaced locally, not permanently conquered.",
+          "visual_action": "The cumulative loss of position is the payoff. Slob never needed to stand on a floating keg or win one last evenly balanced exchange.",
+          "image_role": "Show the described present action, specific characters and physical cause.",
+          "prose_role": "The old3.15-point escape has become a visible gulf in this proposed encounter.",
           "continuity_in": [
-            "Beat2 displacement"
+            "LOC-MUD-DOGS-SWAMP",
+            "Preserve current identity packets and preceding beat’s geography"
           ],
           "continuity_out": [
-            "Temporary water disturbance and moved keg; swamp remains itself"
+            "The cumulative loss of position is the payoff. Slob never needed to stand on a floating keg or win one last evenly balanced exchange.",
+            "Local scene consequence remains draft until detailed acceptance"
           ],
           "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
           "image_vs_prose": {
-            "image": "Slob is securely on the raised bank after climbing with root and bank support. Only then does he reach for the keg rim at the water edge. Mud Dogs remains intact and snarling in the lower shallows. The keg bears no character’s bodyweight.",
-            "prose": "Describe a contest's positional victory, not land ownership transfer."
+            "image": "The cumulative loss of position is the payoff. Slob never needed to stand on a floating keg or win one last evenly balanced exchange.",
+            "prose": "The old3.15-point escape has become a visible gulf in this proposed encounter."
           },
           "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
         }
@@ -850,28 +892,27 @@
         "holding": {
           "condition": "Provider-final Slob on my Dobb win",
           "use_beat": 3,
-          "copy": "Mud Dogs could endure the mud. What it could not comfortably endure was the visitor settling on the raised bank as though the place had finally become hospitable. Slob on my Dobb caught the keg by its rim and took his time. The hound snarled again. This time, the sound did nothing to hurry him.",
-          "visual": "Slob is securely on the raised bank after climbing with root and bank support. Only then does he reach for the keg rim at the water edge. Mud Dogs remains intact and snarling in the lower shallows. The keg bears no character’s bodyweight."
+          "title": "No Close Finish",
+          "copy": "Slob on my Dobb planted the keg on the high bank and rested a heavy hand on its rim. Mud Dogs stood below in the churned shallows, jaws still working, with no clean line left for another charge. The visitor had needed a narrow margin once. Now the distance between them could be seen in the ground itself, and nobody needed to measure it.",
+          "visual": "The cumulative loss of position is the payoff. Slob never needed to stand on a floating keg or win one last evenly balanced exchange."
         },
         "reversal": {
-          "condition": "Provider-final Mud Dogs win after confirmed correction",
+          "condition": "Provider-final Mud Dogs win",
           "title": "The Root Holds",
-          "copy": "Mud Dogs recognized the moment when the visitor began to trust the plank. Familiar ground had disappointed the hound before; now it offered a small, useful certainty. Slob on my Dobb shifted his weight and felt the wood answer beneath him. The keg was drifting away. Mud Dogs had stopped watching it.",
-          "visual": "Use previously visible root and plank; no invented rescue creature or new exit."
+          "copy": "Mud Dogs finally stopped meeting the metal head-on. It drove beneath the exposed root, drawing Slob’s next step toward the soft channel, then burst back onto the firm strip behind him. The keg turned too slowly. Slob caught the bank before falling, but the hound held the approach again, having found the one route its visitor could not widen.",
+          "visual": "Resolve the same established props and battlefield through the described counter. No new unintroduced mechanism."
         },
         "unresolved": {
           "condition": "Provider remains UNDECIDED",
-          "instruction": "Keep result treatment provisional despite no MNF starters remaining.",
-          "copy": "Slob on my Dobb tested the root again without taking his eyes from the hound. Mud Dogs watched the keg drift against the bank and waited for the visitor to reach too far. The swamp had reduced the encounter to small decisions. Neither seemed ready to admit how much depended on the next one.",
-          "copy_status": "USABLE_UNRESOLVED_PAYOFF_DRAFT",
-          "visual": "Return to the already established contested position before the decisive movement; do not show a winner."
+          "title": "The Encounter Remains Open",
+          "copy": "Slob on my Dobb pressed the keg forward while Mud Dogs dug into the last firm strip beside the root. Their tracks already told the story of the approach, but the final footing had not given way. The visitor lowered his shoulder. The hound bared its teeth. Both still had weight committed to the same unfinished step.",
+          "visual": "Hold the established encounter before its decisive action; no winning tableau."
         },
         "tie": {
-          "condition": "Only when the provider explicitly finalizes a TIE. Equal current scores or exactly meeting a margin does not authorize this branch.",
-          "title": "An Unfinished Argument",
-          "copy": "The keg lodged against the root. Slob on my Dobb could reach it only by leaving the raised bank; Mud Dogs could reach him only by crossing the floating metal. Each watched the other consider the same inconvenience. The swamp had supplied plenty of mud and very little room for pride to make another move.",
-          "copy_status": "CONDITIONAL_PROVIDER_FINAL_TIE_DRAFT",
-          "visual": "Both characters retain distinct opposing positions from beat two; no victory gesture. Exact result typography follows the provider."
+          "condition": "Provider explicitly resolves the matchup as a tie",
+          "title": "Neither Side Gives",
+          "copy": "The keg stopped against the exposed root. Slob on my Dobb could not widen the final step, and Mud Dogs could not drive him back across it. They stood over a long churned approach, one gripping metal, the other gripping earth. The visitor had taken ground, but the last strip remained contested when both finally stopped advancing.",
+          "visual": "Both opponents retain contested positions; no invented tiebreak."
         }
       },
       "sources": [
@@ -881,10 +922,17 @@
         "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/location-control-plane/locations/LOC-MUD-DOGS-SWAMP/CARD.json"
       ],
       "physical_action_contract": {
-        "human_support": "Slob’s weight is carried by the exposed rooted footing and the firm raised bank at all times. His pivot uses a boot on the root and a hand/forearm or second boot braced on the bank.",
-        "keg_role": "The keg is a rolling buffer and distraction. It may bob or settle in the channel after impact, but it is not a raft, a human-weight-bearing support or the means of Slob’s ascent.",
-        "hound_support": "The quadrupedal hound’s committed front paws reach the already established yielding edge after the keg rolls aside.",
-        "payoff": "Slob climbs with root/bank support and only then retrieves the keg rim. No stepping or hauling himself onto a buoyant keg."
+        "stages": [
+          "Mud remains quadrupedal; Slob uses two hands and supported feet.",
+          "The keg is a shield and pressure surface, never a buoyant platform carrying Slob.",
+          "Dominance persists from first charge through successive failed resistance.",
+          "End with a large positional gap and intact continuing characters."
+        ],
+        "required_review": "Rough blocking must demonstrate the continuous force, viewpoint and prop chain before finished illustration."
+      },
+      "personalization_receipt": {
+        "source": "Commissioner Jake instruction2026-11-16; personalization-intake.md",
+        "status": "ACCEPTED_CREATIVE_DIRECTION; detailed execution draft"
       },
       "fact_file": "facts.json",
       "fact_id": "W10-G04"
@@ -896,7 +944,7 @@
       "approval_claimed": false,
       "final_art_generated": false,
       "source_score_state": "ALL_ESPN_WINNER_FIELDS_UNDECIDED",
-      "source_snapshot_path": "/workspace/scratch/162404e483ef/Schemin_Week_10_FLAIM_Refresh_2026-11-16.json",
+      "source_snapshot_path": "facts.json",
       "repository_commit": "a24656366b73d1ef8ec98cf405d2337194bd2b97",
       "id": "W10-M05",
       "home_team_id": 12,
@@ -964,17 +1012,21 @@
         "location_id": "LOC-COUNTRY-CLUB-JACKSON",
         "name": "Country Club of Jackson clubhouse threshold",
         "landmarks": [
-          "clubhouse doorway",
-          "veranda",
-          "golf grounds",
-          "water hazard",
-          "club banner"
+          "Country Club veranda",
+          "club facade",
+          "greens beyond the terrace",
+          "temporary birthday presentation platform"
         ],
         "set_dressing": [
-          "light guest chair beside doorway"
+          "birthday cake on a presentation table with visibly locked casters",
+          "ribbons and balloons without age numerals",
+          "temporary club presentation platform",
+          "Duckhook’s golf club",
+          "HMB’s sword and retained belt",
+          "low platform rail between the retreating host and the cake table"
         ],
-        "set_dressing_status": "Scene prop, no new permanent building",
-        "light": "Cultivated grounds in clear daylight; no imported gothic castle"
+        "set_dressing_status": "Proposed temporary scene props following accepted commissioner direction",
+        "light": "Birthday afternoon abruptly shadowed by HMB; filmic contrast"
       },
       "continuity": {
         "week9_in": [
@@ -990,83 +1042,89 @@
           "No club ownership transfer",
           "No membership rule invention",
           "No championship declaration",
-          "No repeat last-putt or sword-duel scene"
+          "No repeat last-putt finish; the birthday setting must determine the new payoff"
         ]
       },
-      "concept": "Door Policy: a social reversal expressed through a club, a threshold and a chair.",
+      "concept": "Many Unhappy Returns: a powerhouse clash turns Duckhook’s carefully managed birthday into a public cake catastrophe.",
       "beats": [
         {
           "beat": 1,
-          "title": "This Way, Sir",
-          "copy": "Dr. Duckhook had begun to expect the pause before a visitor followed his instructions. Five straight victories made small habits feel like rules. His Majesty’s Blood paused for rather longer than expected, looking past the welcoming gesture toward the veranda. Dr. Duckhook repeated the invitation more clearly. He disliked having to sound helpful twice.",
-          "copy_status": "DRAFT",
-          "camera": "Medium-wide threshold view; reciprocal close views retain same doorjamb and chair position.",
-          "foreground": "Duckhook's club across entrance.",
-          "midground": "Duckhook host left, HMB visitor right; full duck bill and hood visible.",
-          "background": "Greens, water hazard and club banner.",
-          "visual_action": "Host controls entry with an intact club; visitor notices the room's geometry.",
-          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
-          "prose_role": "Set up hospitality as a contest of authority, without inventing league or membership rules.",
+          "title": "Birthday Rules",
+          "copy": "Dr. Duckhook had arranged the cake, the guests and the afternoon with the precision of a man who remembered four tenths of a point. His Majesty’s Blood arrived before the presentation. The first clash rang across the veranda as Duckhook caught the descending steel on his club and drove it aside. For one brilliant moment, the birthday still appeared to belong to its host.",
+          "copy_status": "DRAFT_USER_DIRECTED_FICTION",
+          "camera": "Wide energetic opening at the Country Club veranda; begin with the sword-and-club clash already underway, party framing both figures.",
+          "foreground": "Birthday cake on a table with locked casters; the low platform rail lies between Duckhook’s retreat path and the table. No age, year or named guest is printed.",
+          "midground": "Duckhook produces a strong two-handed counter; HMB’s black armor, hooded red eyes and belt remain visible.",
+          "background": "Anonymous guests recoil behind a clear safety gap, club facade and greens establish the home venue.",
+          "visual_action": "Duckhook checks the first advance with a real levered block. Establish the low rail immediately behind his heels and the stationary cake table directly beyond it.",
+          "image_role": "Show the described present action, specific characters and physical cause.",
+          "prose_role": "The0.40 semifinal memory makes birthday control emotionally specific, while the counter shows why this is a clash of powerhouses.",
           "continuity_in": [
-            "ActualWeek9 club setting and identities"
+            "LOC-COUNTRY-CLUB-JACKSON",
+            "Preserve current identity packets and preceding beat’s geography"
           ],
           "continuity_out": [
-            "Club shaft, door jamb and guest chair locations established"
+            "Duckhook checks the first advance with a real levered block. Establish the low rail immediately behind his heels and the stationary cake table directly beyond it.",
+            "Local scene consequence remains draft until detailed acceptance"
           ],
           "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
           "image_vs_prose": {
-            "image": "Host controls entry with an intact club; visitor notices the room's geometry.",
-            "prose": "Set up hospitality as a contest of authority, without inventing league or membership rules."
+            "image": "Duckhook checks the first advance with a real levered block. Establish the low rail immediately behind his heels and the stationary cake table directly beyond it.",
+            "prose": "The0.40 semifinal memory makes birthday control emotionally specific, while the counter shows why this is a clash of powerhouses."
           },
           "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
         },
         {
           "beat": 2,
-          "title": "The Courtesy Gives",
-          "copy": "For a moment, Dr. Duckhook believed the elegant answer had settled the occasion. It was precisely the sort of response he trusted himself to produce when watched. His Majesty’s Blood did not seem impressed enough to stop. The host searched for the next graceful adjustment and discovered that the available room was vanishing faster than his composure.",
-          "copy_status": "DRAFT",
-          "camera": "Intimate side-on action shot showing both hands, shaft, chair and jamb.",
-          "foreground": "Gauntlet on club shaft and Duckhook's grip.",
-          "midground": "Duckhook stepping back; HMB advancing one controlled pace.",
-          "background": "Same doorway opening and grounds; HMB sword stays lowered or sheathed.",
-          "visual_action": "One flourish works briefly; sustained pressure changes the threshold position.",
-          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
-          "prose_role": "Acknowledge Duckhook's excellent individual contribution while illustrating the broader opposing force.",
+          "title": "The Candles Go Out",
+          "copy": "His Majesty’s Blood came again before the applause could settle. Duckhook answered, then answered once more, losing a step with each reply. His heel caught the low rail. He fell backward through the cake, collapsing its table in a bright, ridiculous avalanche. The guests had been waiting for their host to make a wish. He suddenly had several, none of them ceremonial.",
+          "copy_status": "DRAFT_USER_DIRECTED_FICTION",
+          "camera": "Low diagonal view along the retreat line: show the blade-to-club impact, heel catching the rail, then the backward fall into the cake through one readable action inset.",
+          "foreground": "Duckhook’s heel catches the already visible low rail; locked table casters remain stationary before the impact.",
+          "midground": "HMB drives the final block. Duckhook falls backward across the lower cake tier, and the table frame buckles under his weight.",
+          "background": "Guests and birthday ribbons remain in the same positions, witnessing the loss of composure.",
+          "visual_action": "Repeated exchanges drive Duck backward until his heel catches the low rail. His body falls directly into the cake on the stationary table; the frame collapses beneath him and frosting spills around his head and shoulders. HMB’s sword never strikes a guest.",
+          "image_role": "Show the described present action, specific characters and physical cause.",
+          "prose_role": "The birthday props become the consequence of the duel, not decoration behind a generic fight.",
           "continuity_in": [
-            "Exact club/chair positions from beat1"
+            "LOC-COUNTRY-CLUB-JACKSON",
+            "Preserve current identity packets and preceding beat’s geography"
           ],
           "continuity_out": [
-            "Duckhook at chair; HMB at threshold; club intact"
+            "Repeated exchanges drive Duck backward until his heel catches the low rail. His body falls directly into the cake on the stationary table; the frame collapses beneath him and frosting spills around his head and shoulders. HMB’s sword never strikes a guest.",
+            "Local scene consequence remains draft until detailed acceptance"
           ],
           "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
           "image_vs_prose": {
-            "image": "One flourish works briefly; sustained pressure changes the threshold position.",
-            "prose": "Acknowledge Duckhook's excellent individual contribution while illustrating the broader opposing force."
+            "image": "Repeated exchanges drive Duck backward until his heel catches the low rail. His body falls directly into the cake on the stationary table; the frame collapses beneath him and frosting spills around his head and shoulders. HMB’s sword never strikes a guest.",
+            "prose": "The birthday props become the consequence of the duel, not decoration behind a generic fight."
           },
           "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
         },
         {
           "beat": 3,
-          "title": "Room for the Guest",
-          "copy": "Dr. Duckhook had never noticed how low the guest chair sat. From it, every attempt at recovered dignity required him to look upward. His Majesty’s Blood stood on the veranda without asking for anything further. The visitor’s decision to look away first was somehow worse than a remark. Dr. Duckhook adjusted his grip on the club.",
+          "title": "Many Unhappy Returns",
+          "copy": "Dr. Duckhook sat amid the remains of his own presentation, green vest buried in frosting and orange bill emerging from a collapsed tier. His Majesty’s Blood stood where the birthday applause had been meant to gather. The guests could still read the occasion from the ribbons. Their host stared through the wreckage with the expression of someone discovering that four tenths had once been merciful.",
           "copy_status": "CONDITIONAL_CURRENT_LEADER_ENDING_DRAFT",
-          "camera": "Medium-wide aftermath with greens visible beyond both figures.",
-          "foreground": "Duckhook seated, bill and club readable.",
-          "midground": "HMB through threshold, hood and existing belt retained.",
-          "background": "Same cultivated golf grounds and banner.",
-          "visual_action": "Duckhook yields the doorway and becomes the uncomfortable host; HMB does not occupy a throne.",
-          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
-          "prose_role": "Limit the win to the encounter; no trophy, title or real-estate transfer.",
+          "camera": "Medium-wide payoff with Duck large in the foreground and HMB towering on the platform; retain the witnesses and birthday setting.",
+          "foreground": "Duck’s orange bill, white head and green golf clothing remain recognizable through the cake; intact club lies across his knees.",
+          "midground": "HMB stands with sword lowered, black hood and red eyes visible, championship belt unchanged.",
+          "background": "Birthday ribbons, collapsed table and the same anonymous guests make the humiliation publicly legible.",
+          "visual_action": "Duck settles seated amid the table he fell through and the ruined cake. Frosting delivers the comic humiliation; HMB’s decisive control completes the sporting metaphor.",
+          "image_role": "Show the described present action, specific characters and physical cause.",
+          "prose_role": "The former razor-thin semifinal survivor has now spoiled the opponent’s birthday on an emphatic scale.",
           "continuity_in": [
-            "Beat2 forced step back"
+            "LOC-COUNTRY-CLUB-JACKSON",
+            "Preserve current identity packets and preceding beat’s geography"
           ],
           "continuity_out": [
-            "Chair occupied, club intact, venue and belt ownership preserved"
+            "Duck settles seated amid the table he fell through and the ruined cake. Frosting delivers the comic humiliation; HMB’s decisive control completes the sporting metaphor.",
+            "Local scene consequence remains draft until detailed acceptance"
           ],
           "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
           "image_vs_prose": {
-            "image": "Duckhook yields the doorway and becomes the uncomfortable host; HMB does not occupy a throne.",
-            "prose": "Limit the win to the encounter; no trophy, title or real-estate transfer."
+            "image": "Duck settles seated amid the table he fell through and the ruined cake. Frosting delivers the comic humiliation; HMB’s decisive control completes the sporting metaphor.",
+            "prose": "The former razor-thin semifinal survivor has now spoiled the opponent’s birthday on an emphatic scale."
           },
           "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
         }
@@ -1075,27 +1133,27 @@
         "holding": {
           "condition": "Provider-final His Majesty's Blood win",
           "use_beat": 3,
-          "copy": "Dr. Duckhook had never noticed how low the guest chair sat. From it, every attempt at recovered dignity required him to look upward. His Majesty’s Blood stood on the veranda without asking for anything further. The visitor’s decision to look away first was somehow worse than a remark. Dr. Duckhook adjusted his grip on the club."
+          "title": "Many Unhappy Returns",
+          "copy": "Dr. Duckhook sat amid the remains of his own presentation, green vest buried in frosting and orange bill emerging from a collapsed tier. His Majesty’s Blood stood where the birthday applause had been meant to gather. The guests could still read the occasion from the ribbons. Their host stared through the wreckage with the expression of someone discovering that four tenths had once been merciful.",
+          "visual": "Duck settles seated amid the table he fell through and the ruined cake. Frosting delivers the comic humiliation; HMB’s decisive control completes the sporting metaphor."
         },
         "reversal": {
-          "condition": "Provider-final Duckhook win after confirmed correction",
-          "title": "A Different Entrance",
-          "copy": "Dr. Duckhook remembered that a welcome was also an invitation to move. He stopped resisting the visitor’s pressure and stepped through the door instead. His Majesty’s Blood turned, finding the host already composed on the other side. The duck allowed himself one small adjustment to the cap. This instruction would not need to be repeated.",
-          "visual": "Use established door opening; no new trap or belt theft."
+          "condition": "Provider-final Dr. Duckhook win",
+          "title": "The Birthday Belongs to Its Host",
+          "copy": "Dr. Duckhook felt the rail against his heel and pivoted around it. His Majesty’s Blood followed the retreat that was no longer there, catching the locked cake table with his armored thigh. The duck stepped back onto the platform and recovered his club, frosting on one sleeve. His guests finally found the applause they had been saving for the birthday.",
+          "visual": "Resolve the same established props and battlefield through the described counter. No new unintroduced mechanism."
         },
         "unresolved": {
           "condition": "Provider remains UNDECIDED",
-          "instruction": "No final result label; no claim that winning streak is officially ended.",
-          "copy": "Dr. Duckhook could still make the gesture look courteous if he did not move his feet. His Majesty’s Blood could still make the pause look voluntary if he did not tighten his hand. Both understood the bargain. Beyond the veranda, the course waited in perfect order while the welcome became steadily harder to explain.",
-          "copy_status": "USABLE_UNRESOLVED_PAYOFF_DRAFT",
-          "visual": "Return to the already established contested position before the decisive movement; do not show a winner."
+          "title": "The Encounter Remains Open",
+          "copy": "The cake trembled on its table behind the low rail as blade and club met again. Dr. Duckhook held the platform edge; His Majesty’s Blood pressed from the veranda. The guests had abandoned the count of candles for the count of exchanged blows. The celebration balanced on one more step, with neither opponent ready to give it.",
+          "visual": "Hold the established encounter before its decisive action; no winning tableau."
         },
         "tie": {
-          "condition": "Only when the provider explicitly finalizes a TIE. Equal current scores or exactly meeting a margin does not authorize this branch.",
-          "title": "An Unfinished Argument",
-          "copy": "The club remained between them. Dr. Duckhook had found a way to hold it that preserved his posture; His Majesty’s Blood had found a way to wait that preserved his own. Neither would provide the movement that made the other’s position useful. The empty chair sat just inside the door, suddenly the least embarrassed presence on the veranda.",
-          "copy_status": "CONDITIONAL_PROVIDER_FINAL_TIE_DRAFT",
-          "visual": "Both characters retain distinct opposing positions from beat two; no victory gesture. Exact result typography follows the provider."
+          "condition": "Provider explicitly resolves the matchup as a tie",
+          "title": "Neither Side Gives",
+          "copy": "The final clash left blade and club locked above the overturned cake table. Dr. Duckhook held one end of the platform and His Majesty’s Blood the other, both dusted with the celebration neither had managed to control. The guests looked from one figure to the next. There was no winner to toast, and very little cake left to divide.",
+          "visual": "Both opponents retain contested positions; no invented tiebreak."
         }
       },
       "sources": [
@@ -1104,6 +1162,19 @@
         "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/living-novel/os/geography/world_travel_graph_v1.json",
         "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/location-control-plane/locations/LOC-COUNTRY-CLUB-JACKSON/CARD.json"
       ],
+      "personalization_receipt": {
+        "source": "Commissioner Jake instruction2026-11-16; personalization-intake.md",
+        "status": "ACCEPTED_CREATIVE_DIRECTION; detailed execution draft"
+      },
+      "physical_action_contract": {
+        "stages": [
+          "Cake table, locked casters, low rail and retreat axis all visible in the first beat.",
+          "Duck makes one impressive counter; repeated HMB pressure drives him backward.",
+          "His heel catches the rail; he falls directly into the stationary cake table, which buckles under his weight. No reverse-direction cake launch is required.",
+          "Birthday guests witness the payoff; no age or real attendee is invented."
+        ],
+        "required_review": "Rough blocking must demonstrate the continuous force, viewpoint and prop chain before finished illustration."
+      },
       "fact_file": "facts.json",
       "fact_id": "W10-G05"
     },
@@ -1114,7 +1185,7 @@
       "approval_claimed": false,
       "final_art_generated": false,
       "source_score_state": "ALL_ESPN_WINNER_FIELDS_UNDECIDED",
-      "source_snapshot_path": "/workspace/scratch/162404e483ef/Schemin_Week_10_FLAIM_Refresh_2026-11-16.json",
+      "source_snapshot_path": "facts.json",
       "repository_commit": "a24656366b73d1ef8ec98cf405d2337194bd2b97",
       "id": "W10-M06",
       "home_team_id": 1,
@@ -1183,19 +1254,23 @@
       "venue": {
         "decision_status": "HOME_DOMAIN_RESOLVED_SCENE_DRAFT",
         "location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
-        "name": "Trade Jedi Mountain Base war-room overlook",
+        "name": "Trade Jedi Mountain Base outer causeway and inner arch",
         "landmarks": [
-          "high ridge",
-          "war-room overlook opening",
-          "broad table"
+          "fixed mountain ridge",
+          "outer causeway",
+          "inner stone arch",
+          "existing mountain-base silhouette"
         ],
         "set_dressing": [
-          "temporary abstract strategy board",
-          "carved pieces including two reserve pieces",
-          "LLC chair and closed briefcase"
+          "temporary Imperial assault formation",
+          "two visible battery emplacements",
+          "armored command platform",
+          "ObiWan’s green blade",
+          "ridge causeway and stone arch",
+          "golden retriever in sheltered inner approach"
         ],
-        "set_dressing_status": "Proposed game props; not a new canonical game, actual trade agreement or stats chart",
-        "light": "Proposed late daylight through overlook"
+        "set_dressing_status": "Proposed temporary scene props following accepted commissioner direction",
+        "light": "Red blaster flashes, green blade light and explosive fire under a darkening sky"
       },
       "continuity": {
         "week9_in": [
@@ -1215,84 +1290,86 @@
           "No belt"
         ]
       },
-      "concept": "The Last Two Pieces: The LLC returns to strategic pressure while ObiWan still has two answers to test.",
+      "concept": "Unlimited Firepower: an explosive Jedi-versus-Empire assault at ObiWan’s mountain approach.",
       "beats": [
         {
           "beat": 1,
-          "title": "At His Own Table",
-          "copy": "ObiWan Jacoby had returned to the mountain because he understood the order of this room. A table could be cleared. Pieces could be arranged. A mistake could be examined before somebody else explained it to him. Across from him, The LLC set down a closed case. ObiWan found himself wishing the visitor would say something about the arena.",
-          "copy_status": "DRAFT",
-          "camera": "Over-shoulder from ObiWan toward LLC and the ridge; reciprocal shot preserves same room and board orientation.",
-          "foreground": "ObiWan shoulder, board edge and two reserve pieces.",
-          "midground": "The LLC in dark suit across table; case by chair.",
-          "background": "War-room opening and fixed ridge silhouette; green sword safely in frame.",
-          "visual_action": "Both characters enter a quiet physical strategy contest with two reserves visibly established.",
-          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
-          "prose_role": "Connect recent defeats with differing attempts to regain control, without narrating actual trade offers.",
+          "title": "The Empire Opens Fire",
+          "copy": "The first blast struck the causeway before the warning could finish. ObiWan Jacoby met the next volley with a green blade and sent a burning answer into the forward battery. Above the smoke, The LLC stood on the command platform with his red tie lifting in the wind. He had beaten ObiWan by less than a point once. This time, he had brought an empire’s answer.",
+          "copy_status": "DRAFT_USER_DIRECTED_FICTION",
+          "camera": "Huge low-angle opening in the middle of the assault: green blade foreground, exploding forward battery across the causeway, LLC commander above.",
+          "foreground": "Obi deflects red blaster fire into the first battery; sparks and stone chips establish immediate motion.",
+          "midground": "White-armored anonymous Imperial troops advance on the established approach; the first battery erupts while the second is already turning.",
+          "background": "Recognizable suited LLC commands from an armored platform, face and sunglasses visible; the fixed mountain ridge and stone arch anchor geography.",
+          "visual_action": "Begin under fire. Obi actively breaks the forward battery with returned blaster fire, forcing the assault line to change before LLC orders its response.",
+          "image_role": "Show the described present action, specific characters and physical cause.",
+          "prose_role": "The old0.80-point encounter gives context; present force changes the scale completely.",
           "continuity_in": [
-            "ObiWan no-belt identity",
-            "LLC returns to default suit"
+            "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+            "Preserve current identity packets and preceding beat’s geography"
           ],
           "continuity_out": [
-            "Board lanes, two reserves, case, dog and ridge established"
+            "Begin under fire. Obi actively breaks the forward battery with returned blaster fire, forcing the assault line to change before LLC orders its response.",
+            "Local scene consequence remains draft until detailed acceptance"
           ],
           "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
           "image_vs_prose": {
-            "image": "Both characters enter a quiet physical strategy contest with two reserves visibly established.",
-            "prose": "Connect recent defeats with differing attempts to regain control, without narrating actual trade offers."
+            "image": "Begin under fire. Obi actively breaks the forward battery with returned blaster fire, forcing the assault line to change before LLC orders its response.",
+            "prose": "The old0.80-point encounter gives context; present force changes the scale completely."
           },
           "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
         },
         {
           "beat": 2,
-          "title": "The Table Narrows",
-          "copy": "Two pieces were still enough to demand patience. ObiWan Jacoby reminded himself of that whenever his attention returned to the lane The LLC had closed. He could describe the position perfectly; he needed to change it. Across the table, the visitor waited without offering sympathy. The silence made every possible move sound larger in ObiWan’s head.",
-          "copy_status": "DRAFT",
-          "camera": "Overhead-oblique medium shot retaining hands, faces and landscape opening.",
-          "foreground": "Central blocking piece and visibly separate reserves.",
-          "midground": "ObiWan's suspended hand; LLC controlled seated posture.",
-          "background": "Same ridge through opening; retriever beside chair, green blade nearby.",
-          "visual_action": "A visible move closes a lane already established; two reserves remain unused.",
-          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
-          "prose_role": "Make remaining possibility tangible while keeping outcome unresolved; no mathematical forecast disguised as prose.",
+          "title": "Two Ways Through",
+          "copy": "ObiWan Jacoby took the opening at a run. The shattered battery bought one advance; the narrow ridge offered another. He crossed the exposed stone in a green arc of deflected fire and drove toward the command platform. The LLC did not retreat. He turned one gloved hand, and the guns that had survived the first attack found the second one.",
+          "copy_status": "DRAFT_USER_DIRECTED_FICTION",
+          "camera": "Wide tracking diagonal from broken battery to ridge flank and command platform; one small earlier-action inset can clarify the two attempts.",
+          "foreground": "The wrecked first battery proves the opening attack happened; hot fragments remain behind Obi.",
+          "midground": "Obi launches the second counteroffensive along the exposed ridge, green blade actively clearing his route.",
+          "background": "LLC signals the surviving battery and flanking troops; the command platform stays on the same side of the stone arch.",
+          "visual_action": "Two physically distinct counteroffensives are attempted: break the first battery, then flank toward the commander. LLC answers with crossfire from already established surviving positions.",
+          "image_role": "Show the described present action, specific characters and physical cause.",
+          "prose_role": "The hero makes consequential choices and gains ground; overwhelming pressure defeats real attempts rather than unused reserve tokens.",
           "continuity_in": [
-            "Same board arrangement from beat1"
+            "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+            "Preserve current identity packets and preceding beat’s geography"
           ],
           "continuity_out": [
-            "Central lane blocked; two known reserves still available"
+            "Two physically distinct counteroffensives are attempted: break the first battery, then flank toward the commander. LLC answers with crossfire from already established surviving positions.",
+            "Local scene consequence remains draft until detailed acceptance"
           ],
           "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
           "image_vs_prose": {
-            "image": "A visible move closes a lane already established; two reserves remain unused.",
-            "prose": "Make remaining possibility tangible while keeping outcome unresolved; no mathematical forecast disguised as prose."
+            "image": "Two physically distinct counteroffensives are attempted: break the first battery, then flank toward the commander. LLC answers with crossfire from already established surviving positions.",
+            "prose": "The hero makes consequential choices and gains ground; overwhelming pressure defeats real attempts rather than unused reserve tokens."
           },
           "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
         },
         {
           "beat": 3,
-          "title": "The Case Closes",
-          "copy": "ObiWan Jacoby could explain every turn that had brought the table to this position. That was what made lowering his hand difficult. The LLC offered no speech to argue with, only the small click of the case closing. Beside the chair, the golden retriever looked up. ObiWan rested his hand there instead.",
+          "title": "Unlimited Firepower",
+          "copy": "The second counterattack vanished beneath converging red fire. ObiWan Jacoby drove his green blade through the nearest burst and held the inner arch as the mountain approach disappeared in smoke. Across the wrecked causeway, The LLC lowered his hand. The surviving battery answered anyway. The difference between them was no longer a fraction on a ledger. It was how much fire remained after both of ObiWan’s answers.",
           "copy_status": "CONDITIONAL_CURRENT_LEADER_ENDING_DRAFT",
-          "camera": "Medium aftermath with table foreground and fixed ridge behind; no triumphal throne framing.",
-          "foreground": "Both previously reserved pieces now deployed and visibly contained in the final board formation; former reserve positions empty.",
-          "midground": "LLC closing case and rising; ObiWan withdrawing hand.",
-          "background": "Same ridge opening, separate retriever and green sword.",
-          "visual_action": "Show both reserve pieces already played: the first now in the central lane contained by LLC’s established blocker, the second advanced along the outer lane and contained by the pre-existing formation. The reserve positions are empty. Both pieces remain identifiable on the board as ObiWan withdraws his hand and LLC closes the case.",
-          "image_role": "Show the concrete action and its physical cause; no infographic substitution.",
-          "prose_role": "Define a loss without inventing property transfer, death or actual financial obligations.",
+          "camera": "Epic wide payoff with Obi braced at the inner arch in the near foreground and LLC’s surviving formation beyond the wrecked causeway.",
+          "foreground": "Green blade catches a final volley; Obi’s blond face and earth-toned identity remain readable. Retriever is visible in deep shelter behind the arch.",
+          "midground": "Both counterattack routes are spent and visibly marked: ruined first battery and suppressed ridge flank.",
+          "background": "LLC remains the unmasked executive commander beside the single surviving battery and advancing troops; the wrecked first emplacement stays visible.",
+          "visual_action": "The decisive image shows both counters attempted and contained. Obi yields the exposed approach under sustained fire while LLC controls the open ground; no invented death or permanent ownership transfer.",
+          "image_role": "Show the described present action, specific characters and physical cause.",
+          "prose_role": "High scoring becomes sustained military power, with a continuing hero who fought rather than silently conceded.",
           "continuity_in": [
-            "Two distinct reserve pieces established unused in beats1–2",
-            "Both have now been played and answered before the final reaction",
-            "All containing LLC pieces existed in the prior board arrangement"
+            "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+            "Preserve current identity packets and preceding beat’s geography"
           ],
           "continuity_out": [
-            "Both Monday-metaphor pieces accounted for as played, not unused",
-            "Final board state supports LLC’s quiet win without a new piece or ownership transfer"
+            "The decisive image shows both counters attempted and contained. Obi yields the exposed approach under sustained fire while LLC controls the open ground; no invented death or permanent ownership transfer.",
+            "Local scene consequence remains draft until detailed acceptance"
           ],
           "typography": "Full character names. Reserve score box; no FINAL label or final record before provider closure.",
           "image_vs_prose": {
-            "image": "Show both reserve pieces already played: the first now in the central lane contained by LLC’s established blocker, the second advanced along the outer lane and contained by the pre-existing formation. The reserve positions are empty. Both pieces remain identifiable on the board as ObiWan withdraws his hand and LLC closes the case.",
-            "prose": "Define a loss without inventing property transfer, death or actual financial obligations."
+            "image": "The decisive image shows both counters attempted and contained. Obi yields the exposed approach under sustained fire while LLC controls the open ground; no invented death or permanent ownership transfer.",
+            "prose": "High scoring becomes sustained military power, with a continuing hero who fought rather than silently conceded."
           },
           "copy_revision_note": "Interior POV, emotional stakes and irony; production constraints remain in continuity/negative rules."
         }
@@ -1301,28 +1378,27 @@
         "holding": {
           "condition": "Provider-final The LLC win",
           "use_beat": 3,
-          "copy": "ObiWan Jacoby could explain every turn that had brought the table to this position. That was what made lowering his hand difficult. The LLC offered no speech to argue with, only the small click of the case closing. Beside the chair, the golden retriever looked up. ObiWan rested his hand there instead.",
-          "visual": "Show both reserve pieces already played: the first now in the central lane contained by LLC’s established blocker, the second advanced along the outer lane and contained by the pre-existing formation. The reserve positions are empty. Both pieces remain identifiable on the board as ObiWan withdraws his hand and LLC closes the case."
+          "title": "Unlimited Firepower",
+          "copy": "The second counterattack vanished beneath converging red fire. ObiWan Jacoby drove his green blade through the nearest burst and held the inner arch as the mountain approach disappeared in smoke. Across the wrecked causeway, The LLC lowered his hand. The surviving battery answered anyway. The difference between them was no longer a fraction on a ledger. It was how much fire remained after both of ObiWan’s answers.",
+          "visual": "The decisive image shows both counters attempted and contained. Obi yields the exposed approach under sustained fire while LLC controls the open ground; no invented death or permanent ownership transfer."
         },
         "reversal": {
           "condition": "Provider-final ObiWan Jacoby win",
-          "title": "Both Pieces Move",
-          "copy": "ObiWan Jacoby had been treating the reserves as two separate reasons to keep hoping. At last, he saw what they could do together. The LLC’s hand paused on the case latch. ObiWan let himself study that small hesitation before making the second move. For once, somebody else could spend the silence searching for an answer.",
-          "visual": "Both established reserve pieces have been played: one creates the lane, the other uses it. Former reserve positions empty; no extra piece appears."
+          "title": "The Green Line Breaks Through",
+          "copy": "ObiWan Jacoby used the first battery’s wreckage to draw the crossfire, then changed direction beneath the stone arch. His second assault reached the command platform before the surviving guns could turn. The LLC stepped back as the green blade cut through the firing controls. Across the causeway, the advancing formation stopped receiving its orders, and the Jedi kept moving.",
+          "visual": "Resolve the same established props and battlefield through the described counter. No new unintroduced mechanism."
         },
         "unresolved": {
-          "condition": "Before Henry, Andrews and provider finality resolve",
-          "instruction": "Keep both ending drafts. If tied, use actual provider outcome rather than fictional game tiebreak.",
-          "copy": "ObiWan Jacoby left both reserve pieces where they were. Touching one would turn a possibility into a decision, and he was not ready to waste either. The LLC waited across the table with a hand near the case. Outside, the ridge was losing its light. Inside, two small pieces still gave the host something to consider.",
-          "copy_status": "USABLE_UNRESOLVED_PAYOFF_DRAFT",
-          "visual": "Return to the already established contested position before the decisive movement; do not show a winner."
+          "condition": "Provider remains UNDECIDED",
+          "title": "The Encounter Remains Open",
+          "copy": "Red fire crossed the causeway while ObiWan Jacoby held his green blade toward the command platform. One battery burned behind him; the second counterattack had reached the ridge but not the commander. The LLC lifted a hand toward the surviving guns. Between those two movements, the entire mountain approach remained an unfinished blaze.",
+          "visual": "Hold the established encounter before its decisive action; no winning tableau."
         },
         "tie": {
-          "condition": "Only when the provider explicitly finalizes a TIE. Equal current scores or exactly meeting a margin does not authorize this branch.",
-          "title": "An Unfinished Argument",
-          "copy": "ObiWan Jacoby studied the lane neither of them could use. The LLC had stopped reaching for the case. Each could explain why the other had failed to finish the contest; neither explanation supplied a move of his own. The golden retriever shifted beside the chair, and both men looked up at the interruption with more gratitude than they intended.",
-          "copy_status": "CONDITIONAL_PROVIDER_FINAL_TIE_DRAFT",
-          "visual": "Both reserve pieces deployed into a contested final equilibrium. Former reserve positions empty; neither side gestures victory."
+          "condition": "Provider explicitly resolves the matchup as a tie",
+          "title": "Neither Side Gives",
+          "copy": "The last battery fell silent as ObiWan Jacoby reached the broken edge of the command approach. The LLC held the far platform, and the green blade held the inner arch, with neither able to cross the smoking gap. Both counterattacks had been spent. Both lines still stood. The mountain carried the marks of a battle neither side could finish.",
+          "visual": "Both opponents retain contested positions; no invented tiebreak."
         }
       },
       "sources": [
@@ -1332,11 +1408,18 @@
         "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/location-control-plane/locations/LOC-TRADE-JEDI-MOUNTAIN-BASE/CARD.json"
       ],
       "physical_action_contract": {
-        "reserve_sequence": "Two reserve pieces are visibly unused in beats one and two, corresponding to the still-pending Monday contribution. In a finalized payoff both must be visibly played. They must not remain on a reserve shelf or off-board.",
-        "llc_final_branch": "First reserve is advanced into the contested lane and contained by the established blocking piece; second reserve is also advanced and stopped by the already established outer formation. Both played pieces remain identifiable in the final board position.",
-        "obiwan_final_branch": "The first played reserve creates a lane for the second; both are visibly deployed in the successful final position.",
-        "tie_branch": "Both reserves are deployed, resulting in a visibly contested equilibrium; neither is unused.",
-        "constraint": "No new secret piece, invented actual trade, claim of legal chess checkmate, or implication that Henry/Andrews were benched. Physical board-state continuity must account for both moves."
+        "stages": [
+          "No table, board, carved pieces or quiet negotiation in any operative field.",
+          "One fixed ridge/causeway/stone-arch axis links all three pages.",
+          "First counter destroys a battery; second counter uses the ridge to reach the commander.",
+          "LLC deploys already established surviving firepower to contain both attempts in the leading-result branch.",
+          "LLC remains the recognizable executive commanding an Imperial force; Obi retains green blade, blond human identity and separate retriever."
+        ],
+        "required_review": "Rough blocking must demonstrate the continuous force, viewpoint and prop chain before finished illustration."
+      },
+      "personalization_receipt": {
+        "source": "Commissioner Jake instruction2026-11-16; personalization-intake.md",
+        "status": "ACCEPTED_CREATIVE_DIRECTION; detailed execution draft"
       },
       "fact_file": "facts.json",
       "fact_id": "W10-G06"
@@ -1443,10 +1526,10 @@
       "draft_copy": {
         "headline": "ROOM ABOVE TWO HUNDRED",
         "deck": "The scoring ceiling breaks. The standings still wait.",
-        "body": "For nine weeks, two hundred stayed beyond the board. Week 10 has put His Majesty’s Blood at 208.76 and The LLC at 203.96—the first observed 200-point performances of this season. Their routes could hardly be more different: one is confronting the league leader; the other is trying to pull ObiWan Jacoby into the same record. Elsewhere, McCaffrey has supplied Slob with 52.60, El Niño has reached a personal season high, and D0nkey has pushed the proposed Game of the Week sharply away from Chili. Monday still has four starting names to settle. If every current lead holds, six teams will emerge at 6–4. The ceiling has moved. The table has not yet caught up.",
+        "body": "Two hundred stayed beyond the board for nine weeks. His Majesty’s Blood now stands at 208.76; The LLC at 203.96. Around those scores, this week gets personal: a birthday celebration becomes a public reckoning, a new father cannot buy a moment’s quiet, and Red Leopards sees an old postseason nightmare returning. The Chili Cheesers brings his pride into a crowded rodeo; D0nkey K0ng brings four planted hooves. At the mountain base, ObiWan Jacoby meets an Imperial assault with two answers still to come. Monday’s four starters remain. If the current leads hold, six teams will finish 6–4.",
         "callouts": [
           {
-            "label": "PROPOSED GAME OF THE WEEK",
+            "label": "GAME OF THE WEEK",
             "value": "The Chili Cheesers vs D0nkey K0ng"
           },
           {
@@ -1468,7 +1551,7 @@
       },
       "copy_budget": {
         "headline_max_words": 9,
-        "body_actual_words": 114,
+        "body_actual_words": 97,
         "body_max_words": 124,
         "callout_count": 2,
         "table_rows": 0,
@@ -1502,15 +1585,16 @@
         "/history_200",
         "/conditional_records",
         "/mnf",
-        "/teams/T03/scorers/3117251/2"
+        "/personal_context",
+        "/historical_context/W10-G02"
       ],
       "draft_copy_template": {
         "headline": "ROOM ABOVE TWO HUNDRED",
         "deck": "The scoring ceiling breaks. The standings still wait.",
-        "body": "For nine weeks, two hundred stayed beyond the board. Week 10 has put His Majesty’s Blood at {{facts:/teams/T08/current_points|2dp}} and The LLC at {{facts:/teams/T04/current_points|2dp}}—the first observed 200-point performances of this season. Their routes could hardly be more different: one is confronting the league leader; the other is trying to pull ObiWan Jacoby into the same record. Elsewhere, McCaffrey has supplied Slob with {{facts:/teams/T03/scorers/3117251/2|2dp}}, El Niño has reached a personal season high, and D0nkey has pushed the proposed Game of the Week sharply away from Chili. Monday still has four starting names to settle. If every current lead holds, six teams will emerge at 6–4. The ceiling has moved. The table has not yet caught up.",
+        "body": "Two hundred stayed beyond the board for nine weeks. His Majesty’s Blood now stands at {{facts:/teams/T08/current_points|2dp}}; The LLC at {{facts:/teams/T04/current_points|2dp}}. Around those scores, this week gets personal: a birthday celebration becomes a public reckoning, a new father cannot buy a moment’s quiet, and Red Leopards sees an old postseason nightmare returning. The Chili Cheesers brings his pride into a crowded rodeo; D0nkey K0ng brings four planted hooves. At the mountain base, ObiWan Jacoby meets an Imperial assault with two answers still to come. Monday’s four starters remain. If the current leads hold, six teams will finish 6–4.",
         "callouts": [
           {
-            "label": "PROPOSED GAME OF THE WEEK",
+            "label": "GAME OF THE WEEK",
             "value": "The Chili Cheesers vs D0nkey K0ng"
           },
           {
@@ -3269,7 +3353,7 @@
       "draft_copy": {
         "headline": "CARRY IT INTO NEXT WEEK",
         "deck": "Final Word",
-        "body": "When the scores settle, the Commonwealth has to carry them. D0nkey and Chili cannot bring last week’s wins into this week’s accounting. Duckhook’s streak has met 208.76; ObiWan’s rescue rests with Henry and Andrews. No one gets to keep only the flattering part of the ledger. Beyond this finish are four more fixtures per team. The return to division play is near, and the same rivals will soon be close enough to answer back. Finish the line. Then turn the page.",
+        "body": "The scoreboard will remember the numbers. The Commonwealth will remember the cake, the clanging metal, the mud and a green blade beneath a hostile sky. For Red Leopards, the cold has a familiar shape. For the others, this week has found a more personal way to leave its mark. Monday still has the final words. After this round, four regular-season games remain, with the division rivals waiting near the end of the road. Carry the memory. Bring an answer.",
         "callouts": [],
         "rows": []
       },
@@ -3285,7 +3369,7 @@
       },
       "copy_budget": {
         "headline_max_words": 9,
-        "body_actual_words": 81,
+        "body_actual_words": 79,
         "body_max_words": 110,
         "callout_count": 0,
         "table_rows": 0,
@@ -3320,12 +3404,14 @@
       "fact_selectors": [
         "/conditional_records",
         "/mnf",
-        "/rules"
+        "/rules",
+        "/personal_context",
+        "/historical_context/W10-G02"
       ],
       "draft_copy_template": {
         "headline": "CARRY IT INTO NEXT WEEK",
         "deck": "Final Word",
-        "body": "When the scores settle, the Commonwealth has to carry them. D0nkey and Chili cannot bring last week’s wins into this week’s accounting. Duckhook’s streak has met {{facts:/teams/T08/current_points|2dp}}; ObiWan’s rescue rests with Henry and Andrews. No one gets to keep only the flattering part of the ledger. Beyond this finish are four more fixtures per team. The return to division play is near, and the same rivals will soon be close enough to answer back. Finish the line. Then turn the page.",
+        "body": "The scoreboard will remember the numbers. The Commonwealth will remember the cake, the clanging metal, the mud and a green blade beneath a hostile sky. For Red Leopards, the cold has a familiar shape. For the others, this week has found a more personal way to leave its mark. Monday still has the final words. After this round, four regular-season games remain, with the division rivals waiting near the end of the road. Carry the memory. Bring an answer.",
         "callouts": [],
         "rows": []
       }

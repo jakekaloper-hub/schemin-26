@@ -6,6 +6,14 @@
 
 The packet contains a completed source review, normalized sports desk, all 12 character references, continuity and route decisions, six matchup treatments with draft prose and alternate endings, supporting department copy, a complete proposed reading order, and populated page contracts. The review used the delivered Week 9 PDF, the Week 8 execution precedent and the current weekly production instructions.
 
+The personalized revision adds a verified historical anchor and accepted commissioner direction to all six matchups. Finalize the new action branches in place; do not restore the former quiet-table or other superseded staging. Historical outcomes and personal context remain separate from current-week sports finality.
+
+The personalized revision adds a verified historical anchor and accepted commissioner direction to all six matchups. Finalize the new action branches in place; do not restore the former quiet-table or other superseded staging. Historical outcomes and personal context remain separate from current-week sports finality.
+
+The personalized revision adds a verified historical anchor and accepted commissioner direction to all six matchups. Finalize the new action branches in place; do not restore the former quiet-table or other superseded staging. Historical outcomes and personal context remain separate from current-week sports finality.
+
+The personalized revision adds a verified historical anchor and accepted commissioner direction to all six matchups. Finalize the new action branches in place; do not restore the former quiet-table or other superseded staging. Historical outcomes and personal context remain separate from current-week sports finality.
+
 The working editorial thesis is **The Ceiling Breaks**: His Majesty's Blood and The LLC have the first two observed 200-point team scores in the checked 2026 season. This is a draft headline with a defined evidence scope. A possible six-team 6–4 group is secondary and conditional.
 
 ## A. What can be reviewed now
@@ -13,7 +21,7 @@ The working editorial thesis is **The Ceiling Breaks**: His Majesty's Blood and 
 - The central argument, cover direction and department selection.
 - All six scene concepts, their causal action, geography and distinct camera rhythm.
 - Draft prose, including result-dependent alternatives already written into the same payoff slots.
-- The proposed Chili–D0nkey K0ng spotlight carried forward from Week 9. The draft uses the Atlas's reachable neutral-site default, with an explicitly separate ordinary home-site fallback.
+- The Chili–D0nkey K0ng Game of the Week confirmed by Jake. The current draft uses a temporary muddy rodeo arena at the Atlas's reachable neutral grounds, following the commissioner's requested public spectacle.
 - Character identities, costume overrides, props, world routes, persistent damage and forbidden mutations.
 - The provisional fact displays, the scoring-form calculation and the reserved final score fields.
 
@@ -49,7 +57,7 @@ After the game:
 ## D. Render handoff after creative and fact approval
 
 1. Attach the exact resolved reference image bytes to each character-bearing commission. Use current presentation references plus applicable later overrides; preserve historical primary-source provenance. Reference availability and a hash check are not proof of renderer attachment.
-2. Approve the spotlight venue and any new scene dressing. Preserve route connectivity, the same landmark positions across a sequence and the absence of unapproved ownership, belt or species changes.
+2. Carry Jake’s accepted muddy rodeo direction into the arena layout and scene dressing. Preserve route connectivity, the same landmark positions across a sequence and the absence of unapproved ownership, belt or species changes.
 3. Typeset or deterministically insert every factual module from its facts selector. Never ask uncontrolled image lettering to decide a score, record, ranking, player name or transaction term.
 4. Produce complete native **1080 × 1920 PNG** masters. Check their actual file dimensions; do not stretch a different ratio and label it native.
 5. Review character identity, action mechanics, foreground/midground/background continuity, copy-image complementarity, all numerical occurrences and phone readability at approximately **390 pixels wide**.
@@ -61,7 +69,7 @@ After the game:
 The repository's author and production reference profiles were used as analytical lenses; no named professional was contacted or is represented as having participated or approved this work.
 
 - **World and ensemble continuity:** carry actual Week 9 consequences and give each side a viewpoint without introducing new permanent lore.
-- **Action and systems clarity:** establish every mechanism before its payoff; four hooves, one step, a rope, water channels or two reserve pieces have visible limits.
+- **Action and systems clarity:** establish every mechanism before its payoff; the centaur’s four planted hooves, the rope’s path, the cake table’s wheels, the noise props, the failing cold-weather repairs and the battlefield batteries have visible positions and limits.
 - **Performance and composition:** use readable silhouettes and a distinct dramatic mechanism per matchup; avoid six interchangeable victory posters.
 - **Editing and mobile design:** alternate action with quieter departments, keep prose and image complementary, and test density after actual rendering.
 - **Production integrity:** resolve exact reference bytes now; keep fact finality, story approval, renderer binding and image acceptance as separate evidenced events.
